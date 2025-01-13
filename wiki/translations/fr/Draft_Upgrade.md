@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Upgrade
    Name/fr: Draft Agréger
-   MenuLocation: Modification , Agréger
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft/BIM : Modification , Agréger
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **U** **P**
    SeeAlso: Draft_Downgrade/fr
 ---
@@ -24,9 +24,10 @@ La commande <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Dra
 1.  En option, sélectionnez un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Upgrade.svg" width=16px> [Agréger](Draft_Upgrade/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Upgrade.svg" width=16px> Agréger** dans le menu.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionnez l\'option **Modification → <img src="images/Draft_Upgrade.svg" width=16px> Agréger** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionnez l\'option **Modification → <img src="images/Draft_Upgrade.svg" width=16px> Agréger** du menu.
     -   Utilisez le raccourci clavier : **U** puis **P**.
-3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
+3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [vue 3D](3D_view/fr.md).
 
 
 

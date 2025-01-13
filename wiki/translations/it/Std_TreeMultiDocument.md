@@ -22,19 +22,13 @@ Il comando **Multi documento** imposta DocumentMode della [vista ad albero](Tree
 
 1.  Esistono diversi modi per invocare il comando:
     -   Fare clic sulla freccia nera in basso a destra del pulsante **<img src="images/Std_TreeSyncView.svg" width=16px>** e selezionare l\'opzione **Multi documento** dal riquadro a comparsa. Nota: l\'immagine del pulsante cambierà a seconda dell\'opzione selezionata.
-    -   Selezionare l\'opzione **Visualizza → Azioni della vista ad albero → <img src="images/Std_TreeMultiDocument.svg" width=16px> Multi documento** dal menu.
-
-
-
-## Preferenze
-
-La modalità DocumentMode della vista ad albero è memorizzata: **Strumenti → Modifica parametri... → BaseApp → Preferences → TreeView → DocumentMode**. È un valore intero. I valori possibili sono `0` (SingleDocument), `1` (MultiDocument) o `2` (CollapseDocument). Il valore predefinito è `2`.
+    -   Selezionare l\'opzione **Visualizza → Azioni della vista ad albero → Multi documento** dal menu.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -61,6 +61,26 @@ Nástroj Střecha umožňuje vytvořit šikmou střechu z vybraných drátů. Vy
 
 </div>
 
+## Usage (solid base) 
+
+If your roof has a complex shape (e.g. contains pitched windows or other non-standard features) you can create a custom solid object using various other FreeCAD workbenches ([Part](Part_Workbench.md), [Sketcher](Sketcher_Workbench.md) etc.). And then use this solid as the **Base** object of your roof:
+
+1.  Select the solid base object.
+2.  Press the **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** button, or press **R** then **F** keys.
+
+## Subtracting a roof 
+
+Roofs have an automatically generated subtraction volume (<small>(v1.0)</small>  for roofs with a solid base). When a roof is [removed](Arch_Remove.md) from the walls of a building, both the roof itself as well as everything above it is subtracted from the walls.
+
+
+<small>(v1.0)</small> 
+
+: It is possible to override the automatic subtraction volume by setting the **Subvolume** property of the roof to a custom solid object.
+
+<img alt="" src=images/Arch_Roof_Subtract_Default.png  style="width:" height="150px;"> <img alt="" src=images/Arch_Roof_Subtract_Subvolume.png  style="width:" height="150px;"> <img alt="" src=images/Arch_Roof_Subvolume_Example.png  style="width:" height="150px;"> 
+*Solid-based roof before (1st image) and after (2nd image) [removing](Arch_Remove.md) it from walls.<br>
+The 3rd image shows the generated subtraction volume.*
+
 ## Options
 
 -   Roofs share the common properties and behaviors of all [Arch Components](Arch_Component.md).
@@ -157,6 +177,11 @@ doc.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/cs
+⏵ [documentation index](../README.md) > Arch Roof/cs

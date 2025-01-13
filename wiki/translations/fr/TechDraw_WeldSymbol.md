@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw WeldSymbol
    Name/fr: TechDraw Soudure
-   MenuLocation: TechDraw , Symboles , Ajouter les informations de soudage à la ligne de référence
+   MenuLocation: TechDraw , Symboles , Ajouter les informations de soudage à la ligne de repère
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_LeaderLine/fr
@@ -15,18 +15,18 @@
 L\'outil **TechDraw Soudure** ajoute les spécifications de soudage à une ligne directrice existante.
 
 <img alt="" src=images/TechDraw_WeldingSymbol_example.png  style="width:330px;"> 
-*Spécification de soudage ajoutée à une ligne de référence*
+*Spécification de soudage ajoutée à une ligne de repère*
 
 
 
 ## Utilisation
 
-1.  Sélectionnez une [ligne de référence](TechDraw_LeaderLine/fr.md) existante.
+1.  Sélectionnez une [ligne de repère](TechDraw_LeaderLine/fr.md) existante.
 2.  Il y a plusieurs façons de lancer l\'outil :
-    -   Appuyer sur le bouton **<img src="images/TechDraw_WeldSymbol.svg" width=16px> [Ajouter les informations de soudage à la ligne de référence](TechDraw_WeldSymbol/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Symboles → <img src="images/TechDraw_WeldSymbol.svg" width=16px> Ajouter les informations de soudage à la ligne de référence** du menu.
+    -   Appuyer sur le bouton **<img src="images/TechDraw_WeldSymbol.svg" width=16px> [Ajouter les informations de soudage à la ligne de repère](TechDraw_WeldSymbol/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Symboles → <img src="images/TechDraw_WeldSymbol.svg" width=16px> Ajouter les informations de soudage à la ligne de repère** du menu.
 3.  Un panneau de tâches s\'ouvre.
-4.  Spécifiez les symboles de soudage et le texte d\'accompagnement à ajouter à la ligne de référence.
+4.  Spécifiez les symboles de soudage et le texte d\'accompagnement à ajouter à la ligne de repère.
 5.  Appuyez sur le bouton **OK**.
 
 
@@ -57,7 +57,7 @@ Chaque symbole individuel (\"côté flèche\" et \"autre côté\") est représen
 
 -    **Parent Tile**: le symbole de soudure parent
 
--    **Tile Row**: ligne de la tuile. 0 signifie au-dessus de la ligne, -1 en dessous de la ligne. **Remarque:** si vous changez la rangée d\'une tuile, vous devez également changer la tuile pour le deuxième côté! De cette façon, vous pouvez retourner les côtés.
+-    **Tile Row**: ligne de la tuile. 0 signifie au-dessus de la ligne, -1 en dessous de la ligne. **Remarque :** si vous changez la rangée d\'une tuile, vous devez également changer la tuile pour le deuxième côté! De cette façon, vous pouvez retourner les côtés.
 
 -    **Tile Column**: colonne de la tuile. Pour le moment, il est toujours égal à 0, la propriété n\'est donc pas modifiable.
 

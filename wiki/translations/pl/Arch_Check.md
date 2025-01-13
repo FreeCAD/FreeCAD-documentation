@@ -1,39 +1,46 @@
 ---
  GuiCommand:
    Name: Arch Check
-   MenuLocation: Arch , Utilities , Check
-   Workbenches: Arch_Workbench
-   SeeAlso: Arch_CloseHoles
+   Name/pl: Architektura: Sprawdź
+   MenuLocation: Narzędzia , Sprawdź
+   Workbenches: BIM_Workbench/pl
+   SeeAlso: Arch_CloseHoles/pl
 ---
 
 # Arch Check/pl
 
-## Description
-
-This tool checks the current document or the selected objects for non-solid **<img src="images/_Workbench_Part.svg" width=16px> [Part](Part_Workbench.md)** or **<img src="images/_Workbench_Arch.svg" width=16px> [Arch](Arch_Workbench.md)** objects, that might give problems, since most operations of the Arch Workbench require solid objects.
-
-## Usage
-
-1.  Press the **<img src="images/Arch_Check.svg" width=16px> [Check](Arch_Check.md)** button, or **Arch** → **Utilities** → **<img src="images/Arch_Check.svg" width=16px> [Check](Arch_Check.md)** in the top menu.
-
-## Scripting
 
 
-**See also:**
+## Opis
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Narzędzie to sprawdza bieżący dokument lub wybrane obiekty pod kątem braku brył typu [Część](Part_Workbench/pl.md) lub [BIM](BIM_Workbench/pl.md), co może powodować problemy, ponieważ większość operacji środowiska pracy BIM wymaga obiektów bryłowych.
 
-This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+
+
+## Użycie
+
+1.  Wybierz z manu opcję **<img src="images/Arch_Check.svg" width=16px> '''Sprawdź'''** lub **Narzędzia → <img src="images/Arch_Check.svg" width=16px> Sprawdź**.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Kształt z siatki** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji: 
 ```python
 list_bad = check(objectslist, includehidden=False)
 ```
 
--   Checks if the given objects in `objectslist` contain only solids.
--   If `includehidden` is `True` it will include all hidden objects, otherwise it will omit them from the search.
--   Returns `list_bad`, a list with the objects that are not derived from a `Part::Feature`, or components that are not closed, not valid, don\'t contain solids, or that contain faces that are not part of any solid. This is used to detect [Arch](Arch_Workbench.md) or [Draft](Draft_Workbench.md) wires and profiles that aren\'t solids.
-    -   Each element in `list_bad` is another list `[object, message]`, where `object` is the detected non-solid, and `message` indicates the reason why it was included in this list.
+-   Sprawdza, czy podane obiekty w `objectslist` zawierają tylko bryły.
+-   Jeśli `includehidden` ma wartość `True`, uwzględni wszystkie ukryte obiekty, w przeciwnym razie pominie je w wyszukiwaniu.
+-   Zwraca `list_bad`, listę obiektów, które nie są pochodnymi `Part::Feature` lub komponentów, które nie są zamknięte, nieważne, nie zawierają brył lub zawierają ściany, które nie są częścią żadnej bryły. Służy do wykrywania polilinii i profili środowiska pracy [BIM](BIM_Workbench/pl.md) lub [Rysunek Roboczy](Draft_Workbench/pl.md), które nie są bryłami.
+    -   Każdy element w `list_bad` jest kolejną listą `[object, message]`, gdzie `object` jest wykrytą nie-bryłą, a `message` wskazuje powód, dla którego został on włączony do tej listy.
 
-Example:
+Przykład:
 
 
 ```python
@@ -57,5 +64,13 @@ print(list_bad)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/pl
+⏵ [documentation index](../README.md) > Arch Check/pl

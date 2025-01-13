@@ -1,5 +1,5 @@
 # Category:Image/sv
-This category lists pages related to the [Image Workbench/sv](Image_Workbench/sv.md).
+This category is for pages related to the [Image Workbench/sv](Image_Workbench/sv.md).
 
 ### Contents
 

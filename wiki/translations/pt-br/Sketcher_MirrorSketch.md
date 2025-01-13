@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher MirrorSketch
    MenuLocation: Sketch , Mirror sketch
-   Workbenches: Sketcher_Workbench
+   Workbenches: Sketcher_Workbench, PartDesign_Workbench
    Version: 0.16
 ---
 
@@ -10,17 +10,21 @@
 
 ## Description
 
-Mirror a sketch along the x-axis, the y-axis, or the origin. This command is invoked while *not* editing a sketch. It creates a new sketch which contains the mirrored geometry.
+The <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:24px;"> [Sketcher MirrorSketch](Sketcher_MirrorSketch.md) tool mirrors sketches across their X axis, Y axis, or origin.
 
 ## Usage
 
-1.  Select sketch to be mirrored (typically by clicking on it in the [tree view](Tree_view.md)).
-2.  Click on **[<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Mirror sketch](Sketcher_MirrorSketch.md)** or choose **Sketch → [<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Mirror sketch](Sketcher_MirrorSketch.md)** from the top menu.
-3.  The resulting sketch is created as a separate new object.
-
-## Notes
-
--   Multiple sketches can be selected before applying the operation.
+1.  Select one or more sketches.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_MirrorSketch.svg" width=16px> [Mirror sketch](Sketcher_MirrorSketch.md)** button (not available in the [PartDesign Workbench](PartDesign_Workbench.md)).
+    -   Select the **Sketch → <img src="images/Sketcher_MirrorSketch.svg" width=16px> Mirror sketch** option from the menu.
+3.  The **Select Mirror Axis/Point** dialog opens.
+4.  Select one of the available options:
+    -   **X-Axis**
+    -   **Y-Axis**
+    -   **Origin**
+5.  Press the **OK** button.
+6.  For each selected sketch a new sketch is created.
 
 
 

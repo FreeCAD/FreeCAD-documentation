@@ -25,7 +25,7 @@ Od wersji FreeCAD 0.20 polecenie to i system pomocy są zarządzane przez oddzie
 1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Std_WhatsThis.svg" width=16px> [Co to jest?](Std_WhatsThis/pl.md)**.
     -   Wybierz z menu opcję **Pomoc → <img src="images/Std_WhatsThis.svg" width=16px> Co to jest?**.
-    -   Użyj skrótu klawiaturowego: **Shift** + **F1**.
+    -   Użyj skrótu klawiszowego: **Shift** + **F1**.
 2.  Kliknij przycisk paska narzędzi lub opcję menu.
 3.  Otworzy się dokumentacja pomocy dla wybranego polecenia.
 
@@ -39,7 +39,7 @@ Od wersji FreeCAD 0.20 polecenie to i system pomocy są zarządzane przez oddzie
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

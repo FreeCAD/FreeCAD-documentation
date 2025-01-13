@@ -13,25 +13,13 @@ Obiekt `Sketcher::SketchObject` wywodzi się z obiektu [Part2DObject](Part_Part2
 
 *Uproszczony diagram zależności pomiędzy podstawowymi obiektami w programie FreeCAD.*
 
+
+
 ## Użycie
 
-1.  Przejdź do środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md).
-2.  Naciśnij przycisk **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Utwórz szkic](Sketcher_NewSketch/pl.md)**.
-3.  Wybierz **orientację szkicu** jako: Płaszczyzna XY, Płaszczyzna XZ lub Płaszczyzna YZ. Opcjonalnie wybierz także opcję **Odwróć kierunek** i podaj wartość **Odsunięcia**.
-4.  Naciśnij przycisk **OK**.
+Zapoznaj si z informacjami na stronie: [Utwórz szkic](Sketcher_NewSketch/pl.md).
 
-Chociaż obiekt SketchObject może być używany samodzielnie do rysowania na płaszczyźnie, jest on najczęściej używany w połączeniu ze środowiskiem [Projekt Części](PartDesign_Workbench/pl.md) do tworzenia brył wyciąganych.
 
-1.  Przejdź do środowiska [Projekt Części](PartDesign_Workbench.md).
-
-2.  Naciśnij przycisk **[<img src=images/PartDesign_Body.svg style="width:16px"> [Zawartość](PartDesign_Body.md)**.
-
-3.  Naciśnij przycisk **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Utwórz szkic](PartDesign_NewSketch/pl.md)**.
-
-4.  
-    **Wybierz cechę**: Płaszczyzna_XY *(płaszczyzna bazowa)*, Płaszczyzna_XZ *(płaszczyzna bazowa)* lub Płaszczyzna_YZ *(płaszczyzna bazowa)*.
-
-5.  Naciśnij przycisk **OK**.
 
 ## Właściwości
 
@@ -40,6 +28,8 @@ Zobacz stronę [Właściwości](Property/pl.md) dla wszystkich typów właściwo
 Obiekt [SketchObject](Sketcher_SketchObject/pl.md) *(klasa `Sketcher::SketchObject`)* wywodzi się z obiektu [Part2DObject](Part_Part2DObject/pl.md) *(klasa `Part::Part2DObject`)* i dziedziczy wszystkie jego właściwości.
 
 Obiekt SketchObject ma także następujące dodatkowe właściwości w obszarze [edytora właściwości](Property_editor/pl.md). Ukryte właściwości można pokazać za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym okna [edycji właściwości](Property_editor/pl.md).
+
+
 
 ### Dane
 
@@ -54,6 +44,8 @@ Obiekt SketchObject ma także następujące dodatkowe właściwości w obszarze 
 
 -    **W pełni związany|Bool|ukryty**: *(tylko do odczytu)* jeśli parametr przyjmuje wartość {{TRUE/pl}} szkic jest w pełni związany.
 
+
+
 ### Widok
 
 
@@ -66,21 +58,11 @@ Obiekt SketchObject ma także następujące dodatkowe właściwości w obszarze 
 
 {{TitleProperty|Siatka}}
 
--    **Automatyczny rozmiar siatki|Bool|ukryty**: jeśli parametr ma wartość {{TRUE/pl}} rozmiar siatki jest zmieniany na podstawie ramki otaczającej geometrii szkicu.
+-    **Automatyczny rozmiar siatki|Bool**: jeśli parametr ma wartość {{TRUE/pl}} rozmiar siatki jest zmieniany na podstawie ramki otaczającej geometrii szkicu.
 
 -    **Rozmiar siatki|Length**: wielkość odstępu między liniami siatki lokalnej w oknie [widoku 3D](3D_view/pl.md). Wartość domyślna to {{value|10 mm}}.
 
--    **Przyciąganie do siatki|Bool**: jeśli parametr ma wartość {{TRUE/pl}} siatkę można wykorzystać do przyciągania punktów.
-
--    **Styl siatki|Enumeration**: styl linii siatki {{value|Przerywana}} *(domyślnie)* lub {{value|Cienka}}.
-
 -    **Pokaż siatkę|Bool**: jeśli parametr ma wartość {{TRUE/pl}} w oknie [widoku 3D](3D_view/pl.md) zostanie wyświetlona siatka lokalna obiektu. Siatka ta jest niezależna od [siatki projektu](Draft_ToggleGrid/pl.md).
-
--    **Pokaż tylko w trybie edycji|Bool**: jeśli parametr ma wartość {{TRUE/pl}} siatka jest wyświetlana tylko podczas edycji szkicu.
-
--    **Ciasna siatka|Bool**: jeśli parametr ma wartość `True` lokalna siatka zostanie umieszczona wokół punktu położenia odniesienia kształtu, w przeciwnym razie będzie bardziej rozciągnięta.
-
--    **maksymalna liczba linii|Integer**: maksymalna liczba wierszy w siatce.
 
 
 {{TitleProperty|Widoczność automatyczna}}
@@ -100,6 +82,8 @@ Obiekt SketchObject ma także następujące dodatkowe właściwości w obszarze 
 -    **Wyświetl podparcie|Bool**: jeśli parametr ma wartość {{TRUE/pl}} po otwarciu szkicu są wyświetlane wszystkie obiekty, do których jest dołączony ten szkic.
 
 -    **Tempo Vis|PythonObject|ukryty**: klasa niestandardowa powiązana z tym obiektem, która obsługuje ukrywanie i pokazywanie innych obiektów podczas otwierania i zamykania szkicu.
+
+
 
 ## Tworzenie skryptów 
 

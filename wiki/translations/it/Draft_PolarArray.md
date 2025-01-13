@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft PolarArray
-   Name/it: Serie polare
-   MenuLocation: Modifiche , Strumenti serie , Serie polare
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Serie polare
+   MenuLocation: Modifiche , Strumenti serie , Serie polare<br>Modifiche , Serie polare
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Version: 0.19
    SeeAlso: Draft_OrthoArray/it, Draft_CircularArray/it, Draft_PathArray/it, Draft_PathLinkArray/it, Draft_PointArray/it, Draft_PointLinkArray/it
 ---
@@ -16,7 +16,7 @@
 
 Il comando <img alt="" src=images/Draft_PolarArray.svg  style="width:24px;"> **Serie polare** crea una serie (array) da un oggetto selezionato posizionando copie lungo una circonferenza. Il comando può facoltativamente creare una Serie di [Link](App_Link.md), che è più efficiente di una normale Serie.
 
-Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [Arch](Arch_Workbench/it.md).
+Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [BIM](BIM_Workbench/it.md).
 
 <img alt="" src=images/Draft_PolarArray_example.png  style="width:400px;"> 
 *Serie polare*
@@ -29,8 +29,9 @@ Vedere anche: [Aggancio](Draft_Snap/it.md).
 
 1.  Facoltativamente selezionare un oggetto.
 2.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Draft_PolarArray.svg" width=16px> [Serie polare](Draft_PolarArray.md)**.
-    -   Selezionare l\'opzione **Modifiche → Strumenti serie → <img src="images/Draft_PolarArray.svg" width=16px> Serie polare** dal menu.
+    -   Premere il pulsante **<img src="images/Draft_PolarArray.svg" width=16px> [Serie polare](Draft_PolarArray/it.md)**.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Modifiche → Strumenti serie → <img src="images/Draft_PolarArray.svg" width=16px> Serie polare** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_PolarArray.svg" width=16px> Serie polare** dal menu.
 3.  Si apre il pannello attività **Serie polare**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
 4.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto.
 5.  Immettere i parametri richiesti nel pannello delle attività.

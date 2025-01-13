@@ -22,15 +22,15 @@ The **Std Placement** command displays the Placement [task panel](Task_panel.md)
 
 ## Применение
 
-1.  Select a single object that has a **Placement** property in the [property editor](Property_editor.md).
-2.  Select the **Edit → Placement...** option from the menu.
+1.  Select a single object that has a **Placement** property.
+2.  Select the **Edit → <img src="images/Std_Placement.svg" width=16px> Placement...** option from the menu.
 3.  Change one or more of the translation and rotation parameters.
 4.  Do one of the following:
     -   Press the **OK** button to apply the changes and close the task panel.
     -   Press the **Apply** button to apply the changes, but keep the task panel open for further changes.
 5.  Press **Esc** or the **Cancel** button to abort the operation. This will undo any changes that have not been applied.
 
-The dialog can also be launched by clicking on the ellipsis button **...** that appears in the [property editor](Property_editor.md) when you click on the **Placement** property.
+The dialog can also be launched by clicking on the ellipsis button **...** that appears in the [Property editor](Property_editor.md) when you click on the **Placement** property.
 
 
 
@@ -42,9 +42,15 @@ The dialog can also be launched by clicking on the ellipsis button **...** that 
 ## Scripting
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
+
+
+</div>
 
 See the [Python scripting tutorial](Python_scripting_tutorial#Vectors_and_placements.md).
 
@@ -96,7 +102,7 @@ print(obj.Placement.Matrix)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

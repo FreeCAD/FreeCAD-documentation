@@ -26,7 +26,7 @@ Mostra o nasconde la visualizzazione del **grado** di una B-spline (vedere: [B-s
 </div>
 
 ![](images/Sketcher_B-spline_example01.png ) 
-*A B-spline curve. The green digit "3" in the center denotes the degree of the B-spline.*
+*The number 3 (green, without brackets) in the center refers to the [degree](Sketcher_BSplineIncreaseDegree.md) of the B-spline.*
 
 
 

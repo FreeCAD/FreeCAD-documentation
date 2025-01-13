@@ -1,10 +1,10 @@
 ---
  TutorialInfo:r
-   Topic:   Atelier Part
-   Level:   Débutant
-   Time:    1 heure
-   Author:  Andrewbuck40
-   FCVersion:  0.14.3700
+   Topic: Atelier Part
+   Level: Débutant
+   Time: 1 heure
+   Author: Andrewbuck40
+   FCVersion: 0.14.3700
    Files: 
 }}
 
@@ -48,6 +48,8 @@ Une fois les propriétés définies correctement, vous devriez voir les extrémi
 
 On pourrait faire le deuxième cylindre de la même manière que nous avons fait le premier, mais il serait beaucoup plus facile de copier le travail existant sachant que la seule différence entre les deux est leur coordonnée X. Pour ce faire, sélectionnez **Cylindre 1** dans l\'arborescence, puis aller à **Édition , Dupliquer la Sélection**. Vous verrez le nouveau cylindre apparaitre dans l\'arborescence , mais vous ne le verrez pas dans la vue 3D comme il est dans le même endroit que le premier cylindre. Maintenant, sélectionnez **Cylindre 2** dans l\'arborescence, puis changer la coordonnée X = 100 mm. Notez que lorsque vous mettez à jour les chiffres dans le champ de données, vous devriez voir le cylindre se déplacer dans la vue 3D. Une fois que le deuxième cylindre est correctement positionné, vous pouvez voir à quoi ils ressemblent en sélectionnant le **Bloc cylindres** dans l\'arborescence puis en appuyant sur **Espace** pour le cacher . Cachez les trois objets un par un, puis montrer les tous à nouveau.
 
+
+
 ### Alésage des cylindres 
 
 !{width="300"}
@@ -58,7 +60,11 @@ Maintenant que les deux cylindres sont en place, nous voulons les utiliser pour 
 
 Maintenant que nous avons alésé nos cylindres nous allons prendre une seconde pour voir l\'un des avantages de ce système. Supposons qu\'à un certain moment dans le développement, nous découvrons que nous voulons que les cylindres soient un peu plus grands. Puisque les opérations de réunion et d\'intersection que nous avons effectuées ont été enregistrées comme des regroupements dans l\'arborescence, nous pouvons changer la taille du cylindre et FreeCAD va tout simplement ré-exécuter le processus d\'union et d\'intersection et arriver à la nouvelle taille du moteur. Jouez avec le rayon et la position des deux cylindres un peu et puis retournez aux paramètres cités ci-dessus, avant de poursuivre le tutoriel.
 
+
+
 ## Le carter 
+
+
 
 ### Bloc et chapeaux de paliers 
 
@@ -87,6 +93,8 @@ Ensuite, nous allons découper un emplacement semi-circulaire pour poser le vile
 \|- \| Axe X: 0.0 mm \|\| Angle: 90.0 degrés \|- \| Axe Y: 1.0 mm \|\| \|- \| Axe Z: 0.0 mm \|\| \|- \| Position X: 0.0 mm \|\| Hauteur: 140.0 mm \|- \| Position Y: 0.0 mm \|\| Radius: 20.0 mm \|- \| Position Z: -55.0 mm \|\| \|- \|}
 
 Couper l\'objet **Découpe vilebrequin** depuis **Carter creusé** et renommer l\'objet résultant **Carter avec paliers**.
+
+
 
 ### Finition du carter 
 
@@ -161,6 +169,8 @@ Maintenant que nos polygones guides sont en place, nous sommes prêts à tracer 
 !{width="300"}
 
 Les points de contrôle ne sont pas affichés dans cette image. J\'ai donc ajouté une seconde capture d\'écran montrant l\'enveloppe terminée en mode édition . Notez également qu'il existe une discontinuité sur le bord le plus à gauche de la courbe des splines, même si elle est fermée correctement. Il s'agit là d'un bogue dans le comportement du programme et c\'est en cours de résolution. Par conséquent, votre courbe enveloppe peut être légèrement différente, si vous exécutez une version plus récente du logiciel que celle disponible actuellement.
+
+
 
 ### Extrusion du design de la tête 2D dans notre modèle 3D pour finir le design 
 

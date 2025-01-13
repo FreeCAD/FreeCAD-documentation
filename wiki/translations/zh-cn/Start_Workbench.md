@@ -1,4 +1,7 @@
-# <img alt="Start workbench icon" src=images/Workbench_Start.svg  style="width:64px;"> Start Workbench/zh-cn
+# Start Workbench/zh-cn
+**The '''Start Workbench''' is no longer included after version 0.21.**
+
+<img alt="Start workbench icon" src=images/Workbench_Start.svg  style="width:128px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -31,4 +34,4 @@
 
 
 ---
-⏵ [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/zh-cn
+⏵ [documentation index](../README.md) > [Start](Category_Start.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Start Workbench/zh-cn

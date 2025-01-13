@@ -3,11 +3,6 @@
 
 A interface do FreeCAD é baseada no moderno kit de ferramentas [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) e tem uma organização de última geração. Alguns aspectos da interface podem ser personalizados. Você pode, por exemplo, adicionar barras de ferramentas personalizadas, com ferramentas de várias bancadas de trabalho (workbenches) ou ferramentas definidas em macros, e você pode criar seus próprios atalhos de teclado. Mas os menus e barras de ferramentas padrão que vêm com o FreeCAD e suas bancadas de trabalho não podem ser alterados.
 
-
-<small>(v0.21)</small> 
-
-: The Workbenches tab is no longer available. Its functionality has been moved to the [Available Workbenches](Preferences_Editor#Available_Workbenches.md) tab in the Workbenches section of the [Preferences Editor](Preferences_Editor.md).
-
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *The Customize dialog box*
 
@@ -244,20 +239,7 @@ You can also create your own theme if you are not satisfied with the themes that
 
 ## Addons
 
-Addons from the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) offer yet another way to customize the user interface. Several [Preference Packs](Preference_Packs.md) to change the [theme](#Themes.md) are available.
-
-In the Workbenches category of the Addon Manager some addons by user triplus can be found:
-
--   <https://github.com/triplus/CubeMenu> (for {{VersionMinus|0.20}})
--   <https://github.com/triplus/Glass>.
--   <https://github.com/triplus/IconThemes>
--   <https://github.com/triplus/Launcher>
--   <https://github.com/triplus/PieMenu>
--   <https://github.com/triplus/RemBench>
--   <https://github.com/triplus/ShortCuts>
-
-
-{{Top}}
+Addons from the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) offer yet another way to customize the user interface. Several dedicated [external workbenches](External_workbenches.md) and [Preference Packs](Preference_Packs.md) are available. {{Top}}
 
 
 

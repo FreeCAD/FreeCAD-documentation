@@ -8,6 +8,8 @@ In questo esempio, l\'intera interfaccia è definita in [Python](Python/it.md). 
 <img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
 *Due metodi generali per creare delle interfacce, includendo l'interfaccia nel file Python o usando i file `.ui*.`
 
+
+
 ### Progettare la finestra 
 
 Nelle applicazioni CAD, il disegno di una buona UI (interfaccia utente) è molto importante. L\'utente esegue quasi tutte le operazioni tramite qualche componente dell\'interfaccia: legge le finestre di dialogo, preme i pulsanti, sceglie tra le icone, ecc. Quindi è molto importante pensare attentamente a ciò che si intende fare, a come si desidera che l\'utente si comporti, e a quale sarà il flusso di lavoro delle proprie azioni.
@@ -47,6 +49,8 @@ Notare che qui si sono scelti dei comandi molto semplici, ma Qt dispone di molte
 Questo è tutto quello che si deve fare in Qt Designer. Un\'ultima cosa, però, rinominare tutti i propri elementi con nomi più adeguati, così negli script sarà più facile identificarli:
 
 ![](images/Qtpropeditor.jpg )
+
+
 
 ### Convertire il dialogo in Python 
 
@@ -257,6 +261,8 @@ class plane():
 
 ```
 
+
+
 ## Altri esempi 
 
 -   [Creare una finestra di dialogo con diversi widget](Dialog_creation_with_various_widgets/it.md) con `QPushButton`, `QLineEdit`, `QCheckBox`, `QRadioButton` e altri.
@@ -265,6 +271,8 @@ class plane():
 -   [Creare una finestra di dialogo per immagini e GIF animate](Dialog_creation_image_and_animated_GIF/it.md) con `QLabel` e `QMovie`.
 -   [Frammenti di codice per l\'utilizzo di PySide](PySide_usage_snippets/it.md).
 -   [Esempio di Qt](Qt_Example/it.md)
+
+
 
 ## Link utili 
 

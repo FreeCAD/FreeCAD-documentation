@@ -31,7 +31,7 @@ The **TechDraw ActiveView** tool inserts a bitmap image of the active 3D window 
 3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ActiveView.svg" width=16px> [Insert Active View (3D View)](TechDraw_ActiveView.md)** button.
     -   Select the **TechDraw → Views From Other Workbenches → <img src="images/TechDraw_ActiveView.svg" width=16px> Insert Active View (3D View)** option from the menu.
-4.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+4.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens:
     1.  Select the desired page.
     2.  Press the **OK** button.
 5.  The **ActiveView to TD View** task panel opens. See [Options](#Options.md) for more information.
@@ -68,10 +68,16 @@ The following can be specified:
 See [TechDraw Image](TechDraw_Image#Properties.md).
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{TechDraw Tools navi
+
+
+</div>
+
+
+{{TechDraw_Tools_navi
 
 }}
 

@@ -3,8 +3,8 @@
 |Name=Macro CenterOfMass
 |Description=Calculer et montrer le centre de masse de plusieurs solides. 
 |Author=Schupins, SyProLei
-|Version=0.7.3
-|Date=2023-09-07
+|Version=0.8.0
+|Date=2024-12-17
 |FCVersion=0.19 et supérieure
 }}
 
@@ -50,6 +50,21 @@ La discussion sur le forum : [Macro to compute center of mass](https://forum.fre
 ## Version
 
 Version / Date de merge
+
+0.8.0 / 2025-01-06 : merci à farahats9 pour sa contribution
+
+-   Nouveau : afficher le volume et la surface
+-   Nouveau : calcul des moments d\'inertie
+-   Correction : la macro fonctionne maintenant avec l\'exemple d\'assemblage dans FreeCAD 1.0
+-   Correction : sélection automatique du matériau pour les solides s\'il est déjà assigné par le nouveau système de matériaux.
+-   Modifications mineures de l\'interface utilisateur
+
+0.7.6 / 2024-08-01 : préparation à la version majeure de FreeCAD
+
+-   Correction : faire fonctionner l\'exemple d\'assemblage 0.22.0dev.
+-   Correction : importation d\'une nomenclature contenant un matériau personnalisé
+-   Correction : support des nouveaux jeux de paramètres de matériaux
+-   Correction : icônes modifiées ou manquantes, vérification des versions
 
 0.7.3 / 2023-09-11 :
 

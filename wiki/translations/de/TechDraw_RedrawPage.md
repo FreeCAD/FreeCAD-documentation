@@ -23,7 +23,7 @@ Das Werkzeug **TechDraw SeiteNeuZeichnen** veranlasst eine Zeichnungsaktualisier
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/TechDraw_RedrawPage.svg" width=16px> [Seite neu zeichnen](TechDraw_RedrawPage/de.md)** drücken.
     -   Den Menüentrag **TechDraw → Page → <img src="images/TechDraw_RedrawPage.svg" width=16px> Seite neu zeichnen** auswählen.
-3.  Wenn sich mehrere Zeichnungsblätter im Dokument befinden und noch kein Blatt ausgewählt wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+3.  Wenn sich mehrere Zeichnungsblätter im Dokument befinden und noch kein Blatt ausgewählt wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
     1.  Das gewünschte Blatt auswählen.
     2.  Die Schaltfläche **OK** drücken.
 

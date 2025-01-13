@@ -11,21 +11,30 @@
 
 # Arch Panel Sheet/ru
 
+
+</div>
+
+
+
 ## Описание
 
 This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](Arch_Panel_Cut.md) objects, or any other 2D object such as those made by the [Draft Workbench](Draft_Workbench.md) and [Sketcher Workbench](Sketcher_Workbench.md). The Panel Sheet is typically made to layout cuts to be made by a CNC machine. These sheets can then be exported to a [DXF](Draft_DXF.md) file.
 
-<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:600px;">
 
-<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:600px;">
 
 \"На приведенном выше изображении показано, как выглядят листы раскроеные на плоские панельные элементы при экспорте в формат DXF\".
+
+
 
 ## Применение
 
 1.  Optionally, select one or more [Arch Panel Cut](Arch_Panel_Cut.md) objects or any other 2D object that lies on the XY plane.
-2.  Press the **<img src="images/Arch_Panel_Sheet.svg" width=16px> [Arch Panel Sheet](Arch_Panel_Sheet.md)** button, or press **P** then **S** keys.
+2.  Select the **Utils → Panel tools → <img src="images/Arch_Panel_Sheet.svg" width=16px> Panel Sheet** option from the menu.
 3.  Adjust the desired properties.
+
+
 
 ## Опции
 
@@ -35,7 +44,11 @@ This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](A
 -   Panel Sheets can display a margin, that is useful to make sure a certain space is always present between inner objects and the border of the sheet
 -   When Panel sheets are exported to DXF, the outlines, inner holes, tags of their inner children are placed on different layers, as shown on the above image
 
+
+
 ## Свойства
+
+
 
 ### Данные
 
@@ -59,6 +72,8 @@ This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](A
 
 -    **Grain Direction**: This allows you to inform the main direction of the panel fiber (clockwise direction, 0° means up)
 
+
+
 ### Вид
 
 -    **Margin**: A margin that can be displayed inside the panel border
@@ -66,6 +81,8 @@ This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](A
 -    **Show Margin**: Turns the display of the margin on/off
 
 -    **Show Grain**: Shows a fiber texture (Make Face must be set to True)
+
+
 
 ## Программирование
 
@@ -113,11 +130,27 @@ FreeCAD.ActiveDocument.recompute()
 Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 ```
 
+
+
 ## Материалы для самостоятельного изучения 
 
 -   [Руководство по портированию файлов проекта Wikihouse в FreeCAD](Wikihouse_porting_tutorial/ru.md)
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/ru
+⏵ [documentation index](../README.md) > Arch Panel Sheet/ru

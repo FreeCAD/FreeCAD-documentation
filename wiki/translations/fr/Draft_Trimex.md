@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Trimex
    Name/fr: Draft Ajuster ou prolonger
-   MenuLocation: Modification , Ajuster ou prolonger
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft/BIM : Modification , Ajuster ou prolonger
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **T** **R**
    SeeAlso: Part_Extrude/fr
 ---
@@ -28,7 +28,8 @@ La commande <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Draf
 1.  Sélectionnez un objet. L\'objet doit être une [Draft Ligne](Draft_Line/fr.md), une [Draft Polyligne](Draft_Wire/fr.md), un [Draft Arc](Draft_Arc/fr.md) ou un [Draft Cercle](Draft_Circle/fr.md) (qui ne peuvent être que ajustés). Si l\'objet sélectionné est fermé, sa propriété **Make Face** doit être définie sur `False`.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Trimex.svg" width=16px> [Ajuster ou prolonger](Draft_Trimex/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Trimex.svg" width=16px> Ajuster ou prolonger** du menu.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionnez l\'option **Modification → <img src="images/Draft_Trimex.svg" width=16px> Ajuster ou prolonger** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionnez l\'option **Modification → <img src="images/Draft_Trimex.svg" width=16px> Ajuster ou prolonger** du menu.
     -   Utilisez le raccourci clavier : **T** puis **R**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [vue 3D](3D_view/fr.md).
 4.  Le panneau de tâches **Ajuster ou prolonger** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.

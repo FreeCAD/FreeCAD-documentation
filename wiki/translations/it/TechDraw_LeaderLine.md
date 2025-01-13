@@ -1,163 +1,121 @@
 ---
  GuiCommand:
    Name: TechDraw LeaderLine
-   Name/it: Linea guida
+   Name/it: TechDraw Linea guida
    MenuLocation: TechDraw , Aggiungi linee , Linea guida
    Workbenches: TechDraw_Workbench/it
    Version: 0.19
-   SeeAlso: TechDraw_RichTextAnnotation/it, TechDraw_WeldSymbol/it, TechDraw_LineGroup/it
+   SeeAlso: TechDraw_RichTextAnnotation/it, TechDraw_WeldSymbol/it
 ---
 
 # TechDraw LeaderLine/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Lo strumento **TechDraw Linea guida** aggiunge una linea a una Vista. Altri oggetti di annotazione, come un [Blocco di testo](TechDraw_RichTextAnnotation/it.md), possono essere collegati alla linea guida per formare annotazioni complesse.
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento Linea guida aggiunge una linea a una vista. Altri oggetti di annotazione, come un [Blocco di testo](TechDraw_RichTextAnnotation/it.md), possono essere collegati alla linea guida per formare annotazioni complesse.
-
-
-</div>
-
-![](images/TechDraw_LeaderLine_sample.png )
-
-
-<div class="mw-translate-fuzzy">
+![](images/TechDraw_LeaderLine_sample.png ) 
+*Linea guida aggiunta ad una Vista*
 
 
 
-*Linea guida aggiunta a View001*
-
-
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-## Utilizzo
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+## Creazione
 
 1.  Selezionare una vista.
-2.  Premere il pulsante **<img src="images/TechDraw_LeaderLine.svg" width=16px> Linea guida**. Si apre una finestra di dialogo che consente di disegnare la linea guida e di assegnare simboli di fine linea.
-3.  Cliccare su **seleziona punti** e quindi fare clic nella pagina per definire il punto iniziale della linea.
-4.  Muovere il mouse e fare clic su un altro punto per creare una linea.
-5.  ora è possibile
-    1.  terminare il disegno facendo doppio clic o premendo **Salva i punti**,
-    2.  oppure aggiungere ulteriori punti per definire più segmenti di linea.
-6.  Per terminare la creazione, premere **OK** per chiudere la finestra di dialogo.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/TechDraw_LeaderLine.svg" width=16px> [Aggiungi linea guida](TechDraw_LeaderLine/it.md)**.
+    -   Selezionare l\'opzione **TechDraw → Aggiungi linee → <img src="images/TechDraw_LeaderLine.svg" width=16px> Aggiungi linea guida** dal menu.
+3.  Si apre un pannello delle azioni.
+4.  Premere il pulsante **Seleziona punti**.
+5.  Scegliere il primo punto sulla pagina per definire il punto iniziale della linea.
+6.  Scegliere il punto successivo sulla pagina. Tenere premuto **Ctrl** per eseguire l\'aggancio ad angoli multipli di di 22,5°. Facoltativamente, utilizzare un doppio clic anziché un clic singolo per completare l\'immissione dei punti.
+7.  Facoltativamente aggiungere più punti.
+8.  Se non si ha fatto doppio clic su un punto: premere il pulsante **Salva punti**.
+9.  Facoltativamente modificare il **Simbolo Iniziale**, **Simbolo Finale**, **Colore**, **Larghezza** e **Stile** della linea guida. Vedere [Proprietà](#Proprietà.md) per ulteriori informazioni.
+10. Premere il pulsante **OK**.
 
 
-</div>
 
-## Usage edit 
+## Modifica
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare la Linea guida nella struttura del documento e fare doppio clic su di essa.
-2.  Si apre una finestra di dialogo in cui è possibile modificare l\'aspetto.
-3.  Per modificare i punti, fare clic su **Modifica punti** e i punti della linea diventano visibili nel disegno.
-4.  Trascinare i punti nel posto desiderato e terminare la modifica facendo clic su **Salva modifiche**.
-
-
-</div>
-
-## Notes
+1.  Fare doppio clic su una Linea guida nella [Vista ad albero](Tree_view/it.md).
+2.  Si apre un pannello delle azioni.
+3.  Per modificare i punti:
+    1.  Premere il pulsante **Modifica punti**.
+    2.  La Linea guida è contrassegnata da nodi temporanei.
+    3.  Trascinare uno o più nodi in una nuova posizione.
+    4.  Premere il pulsante **Salva modifiche**.
+4.  Facoltativamente modificare il **Simbolo Iniziale**, **Simbolo Finale**, **Colore**, **Larghezza** e **Stile** della linea guida. Vedere [Proprietà](#Proprietà.md) per ulteriori informazioni.
+5.  Premere il pulsante **OK**.
 
 
-<div class="mw-translate-fuzzy">
 
 ## Note
 
--   È possibile modificare una linea guida facendo doppio clic su di essa nella vista ad albero. Il doppio clic nell\'area grafica non è ancora supportato. I segmenti di linea possono essere modificati premendo **Modifica punti**. Per uscire dalla modifica del punto, premere **Salva modifiche** o **Annulla modifiche**.
--   Se non è stato definito alcun punto durante la creazione della linea guida, verrà posizionata una linea corta al centro della vista. Successivamente non è possibile aggiungere ulteriori punti.
--   Per impostazione predefinita, l\'opzione **Leader Line Auto Horizontal** delle [preferenze](TechDraw_Preferences/it.md) è attivata. Pertanto l\'ultimo segmento di linea sarà orizzontale. Quindi, se c\'è un solo un segmento, si ottiene una linea orizzontale, indipendentemente da dove si è posto il secondo punto.
--   si può disattivare la funzione orizzontale automatica per le linee guida esistenti modificando la proprietà **Auto Horizontal**.
-
-
-</div>
+-   Non è possibile aggiungere o rimuovere punti da una Linea guida esistente.
+-   Se non sono stati specificati punti al momento della creazione, al centro della vista viene posizionata una breve linea. Non c\'è modo di correggere una linea del genere, dovrebbe essere cancellata.
+-   Per impostazione predefinita, la **Linea guida orizzontale automatica** [preferenza](TechDraw_Preferences/it#Annotazione.md) è selezionata. Ciò significa che l\'ultimo segmento di linea delle nuove Linee guida viene disegnato orizzontalmente. Se è presente un solo segmento il risultato sarà una singola linea orizzontale.
+-   E\' possibile disattivare questa funzione orizzontale automatica per Le linee guida esistenti modificando la loro proprietà **Auto Horizontal**.
 
 
 
 ## Proprietà
 
-### Data
+
+
+### Dati
 
 
 {{Properties_Title|Base}}
 
--    **Start Symbol|Enumeration**: The symbol at the start of the leaderline. Options: <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Filled Arrow, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Open Arrow, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Tick, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Dot, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Open Circle, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fork, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Filled Triangle, None.
+-    **Start Symbol|Enumeration**: il simbolo all\'inizio della Linea guida. Opzioni: <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Freccia piena, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Freccia aperta, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Tratto, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Punto, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Cerchio aperto, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Biforcazione, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Triangolo pieno, Nessuno.
 
--    **End Symbol|Enumeration**: The symbol at the end of the leaderline. Idem.
+-    **End Symbol|Enumeration**: il simbolo alla fine della linea guida. Idem.
 
--    **X|Distance**: The X coordinate of the leaderline relative to the View.
+-    **X|Distance**: la coordinata X della linea guida relativa alla Vista.
 
--    **Y|Distance**: The Y coordinate of the leaderline relative to the View.
+-    **Y|Distance**: la coordinata Y della linea guida relativa alla Vista.
 
 
 {{Properties_Title|Leader}}
 
--    **Leader Parent|Link**: The View the leaderline is attached to.
+-    **Leader Parent|Link**: la vista a cui è associata la Linea guida.
 
--    **Way Points|VectorList**: The points of the leaderline.
+-    **Way Points|VectorList**: i punti della Linea guida.
 
--    **Scalable|Bool**: Specifies if the leaderline scales with **Leader Parent**.
+-    **Scalable|Bool**: specifica se la Linea guida viene ridimensionata con **Leader Parent**.
 
--    **Auto Horizontal|Bool**: Specifies if the last leaderline segment is forced to be horizontal.
+-    **Auto Horizontal|Bool**: specifica se l\'ultimo segmento della Linea guida deve essere orizzontale.
 
-### View
+
+
+### Vista
 
 
 {{TitleProperty|Base}}
 
--    **Keep Label|Bool**: Not used.
+-    **Keep Label|Bool**: non utilizzato.
 
--    **Stack Order|Integer**: Over or underlap relative to other drawing objects. <small>(v0.21)</small> 
+-    **Stack Order|Integer**: sovrapposto o sovrapposto rispetto ad altri oggetti di disegno. {{Version/it|0.21}}
 
 
 {{TitleProperty|Line Format}}
 
--    **Color|Color**: The color of the leaderline.
+-    **Color|Color**: il colore della Linea guida.
 
--    **Line Style|Enumeration**: The style of the leaderline. Options: NoLine, <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continuous, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Dash, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Dot, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> DashDot, <img alt="Length" src=images/DashDotDot-line.svg  style="width:20px;"> DashDotDot.
+-    **Stile linea|Enumeration**: lo stile della Linea guida. Opzioni: Nessuna linea, <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continuo, <img alt="" src=images/Dash-line.svg  style="width:20px;"> A tratti, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Punto, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> Tratto punto, <img alt="Length" src=images/DashDotDot-line.svg  style="width:20px;"> Tratto punto punto.
 
--    **Line Width|Length**: The width of the leaderline.
+-    **Line Width|Length**: la larghezza della Linea guida.
 
 
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-<div class="mw-translate-fuzzy">
-
-
-**Vedere anche:**
-
-[API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Linea guida può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Lo strumento Linea guida può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 ```python
@@ -174,13 +132,7 @@ leaderObj.Y = 5
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

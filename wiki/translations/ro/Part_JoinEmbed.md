@@ -12,11 +12,21 @@
 
 </div>
 
+
+
 ## Descriere
+
+
+<div class="mw-translate-fuzzy">
 
 Instrumentul de încorporare încorporează un obiect cu pereți (de exemplu, o țeavă) într-un alt obiect cu pereți.
 
+
+</div>
+
 ![600px](images/JoinFeatures_Embed.png)
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -26,10 +36,14 @@ Instrumentul de încorporare încorporează un obiect cu pereți (de exemplu, o 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Select the base object first, then the object to be embedded. The order of selection is important. It is enough to select one sub-shape of each object (e.g., faces).
 2.  Invoke the Part JoinEmbed command.
 
-A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objects are hidden, and the result of embedding is shown in 3D view.
+
+</div>
 
 ## Properties
 
@@ -120,6 +134,8 @@ The algorithms behind Join tools are quite simple, and understanding them is imp
 
 
 </div>
+
+
 
 ## Script
 

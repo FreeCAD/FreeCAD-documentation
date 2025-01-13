@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 Crearea unui punct de referință **datum point** care poate fi utilizat ca referință pentru schițe sau alte forme geometrice de referință.
@@ -26,6 +28,8 @@ Un punct de referință atașat la o sferă care are un decalaj al atașamentulu
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -49,6 +53,8 @@ Un punct de referință atașat la o sferă care are un decalaj al atașamentulu
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -59,6 +65,12 @@ Faceți dublu clic pe eticheta DatumPoint din arborescența Model sau faceți cl
 
 </div>
 
+## Preferences
+
+See [PartDesign Plane](PartDesign_Plane#Preferences.md).
+
+
+
 ## Proprietăți
 
 -    **MapMode**: listează modurile de atașament folosite
@@ -66,6 +78,8 @@ Faceți dublu clic pe eticheta DatumPoint din arborescența Model sau faceți cl
 -    **Attachment Offset**: applică o transformare (translație și rotație) în referință la plasamentul atașamentului.
 
 -    **Label**: nume dat obiectului, acest nume poate fi schimbat dacă este necesar.
+
+
 
 ## Limite
 

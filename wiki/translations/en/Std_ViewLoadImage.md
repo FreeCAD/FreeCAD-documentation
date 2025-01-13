@@ -31,7 +31,7 @@ The **Std ViewLoadImage** command opens an image in a new tab in the [Main view 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

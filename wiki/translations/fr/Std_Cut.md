@@ -23,19 +23,19 @@ Pour couper d\'autres objets, vous pouvez utiliser la commande [Std Copier](Std_
 1.  Sélectionnez une ou plusieurs cellules dans la feuille de calcul.
 2.  Il y a plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Std_Cut.svg" width=16px> [Couper](Std_Cut/fr.md)**.
-    -   Sélectionnez l\'option **Édition → <img src="images/Std_Cut.svg" width=16px> Couper** dans le menu.
+    -   Sélectionnez l\'option **Édition → <img src="images/Std_Cut.svg" width=16px> Couper** du menu.
 
 
 
 ## Remarques
 
--   Le raccourci clavier standard **Ctrl**+**X** n\'appelle pas la commande **Std Couper** mais utilise à la place la fonction Couper du système d\'exploitation. Vous pouvez utiliser ce raccourci dans la plupart des fenêtres de texte et des zones de saisie FreeCAD, il raccourci fonctionne également pour les cellules de feuille de calcul.
+-   Le raccourci clavier standard **Ctrl**+**X** n\'appelle pas cette commande mais utilise à la place la fonction Couper du système d\'exploitation. Vous pouvez utiliser ce raccourci dans la plupart des fenêtres de texte et des zones de saisie FreeCAD, il raccourci fonctionne également pour les cellules de feuille de calcul.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

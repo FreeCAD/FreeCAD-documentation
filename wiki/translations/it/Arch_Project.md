@@ -29,5 +29,13 @@ Notare che, sebbene a un Progetto possa essere aggiunto qualsiasi altro oggetto 
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/it
+⏵ [documentation index](../README.md) > Arch Project/it

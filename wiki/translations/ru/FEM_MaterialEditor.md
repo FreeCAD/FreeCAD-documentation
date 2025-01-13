@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -25,9 +27,14 @@
 
 ![](images/Material_editor.png )
 
+
+
 ## Применение
 
 На текущий момент редактор материалов может быть доступен:
+
+
+<div class="mw-translate-fuzzy">
 
 1.  <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> В [верстаке Arch](Arch_Workbench/ru.md) через:
     -   Кнопку **<img src="images/Arch_SetMaterial.svg" width=16px> [Set Material](Arch_SetMaterial/ru.md)**.
@@ -35,6 +42,11 @@
 2.  <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> В [верстаке FEM](FEM_Workbench/ru.md) через:
     -   Кнопку **<img src="images/FEM_MaterialEditor.svg" width=16px> [Material editor](FEM_MaterialEditor/ru.md)**.
     -   Меню **Models → Materials → <img src="images/FEM_MaterialEditor.svg" width=16px> Material editor**.
+
+
+</div>
+
+
 
 ## Опции
 

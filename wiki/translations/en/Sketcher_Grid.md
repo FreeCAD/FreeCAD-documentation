@@ -10,7 +10,7 @@
 
 ## Description
 
-The **Sketcher Grid** command toggles the grid in the sketch currently being edited. Settings can be changed in the related menu.
+The <img alt="" src=images/Sketcher_Grid.svg  style="width:16px;"> [Sketcher Grid](Sketcher_Grid.md) tool toggles the grid in the sketch currently being edited. Settings can be changed in the related menu.
 
 ## Usage
 

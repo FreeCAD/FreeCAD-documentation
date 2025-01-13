@@ -1,38 +1,44 @@
-# Sketcher SelectConstraints/it
 ---
- GuiCommand:   Name: Sketcher SelectConstraints   Name/it: Seleziona Vincoli   Workbenches: Sketcher Workbench/it   Sketcher|MenuLocation: Sketch , Strumenti , Seleziona i vincoli   Shortcut: **Maiusc**+**Ctrl**+**C**   Version: 0.15---
+ GuiCommand:
+   Name: Sketcher SelectConstraints
+   Name/it: Sketcher Seleziona i vincoli associati
+   MenuLocation: Schizzo , Visualizzazione dello Schizzo , Seleziona i vincoli associati
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **Z** **K**
+   Version: 0.15
+---
 
-
-</div>
+# Sketcher SelectConstraints/it
 
 
 
 ## Descrizione
 
-Seleziona i vincoli di un elemento dello schizzo.
+Lo strumento <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:24px;"> [Seleziona i vincoli associati](Sketcher_SelectConstraints/it.md) seleziona i vincoli associati agli elementi di uno schizzo.
 
 
 
 ## Utilizzo
 
+1.  Selezionare uno o più elementi dello schizzo.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **[<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> [Seleziona i vincoli associati](Sketcher_SelectConstraints/it.md)**.
 
-<div class="mw-translate-fuzzy">
+    -   Selezionare l\'opzione **Sketch → Immagine Sketcher → [<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> Seleziona i vincoli associati** dal menu.
 
-1.  Selezionare elemento dello schizzo nel pannello Azioni o nella vista 3D.
-2.  Cliccare su <img alt="" src=images/Sketcher_SelectConstraints.png  style="width:32px;"> o scegliere ** Sketch** → ** Strumenti** → **<img src="images/Sketcher_SelectConstraints.png" width=32px> Seleziona i vincoli** dal menu in alto.
-3.  I vincoli associati all\'elemento vengono evidenziati nel pannello Azioni.
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [Vista 3D](3D_view/it.md) e selezionare l\'opzione **<img src="images/Sketcher_SelectConstraints.svg" width=16px> Seleziona i vincoli associati** dal menu contestuale.
 
+    -   Fare clic con il pulsante destro del mouse sulla sezione **Elementi** della [Finestra di dialogo Sketchcher](Sketcher_Dialog/it.md) e selezionare l\'opzione **<img src="images/Sketcher_SelectConstraints.svg" width=16px> Seleziona vincoli** dal menu contestuale.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+    -   Usare la scorciatoia da tastiera: **Z** quindi **K**.
+3.  I vincoli associati sono selezionati.
+4.  Facoltativamente, fare clic in un\'area vuota nella [Vista 3D](3D_view/it.md) per cancellare la selezione.
 
 
-</div>
+
 
 
 {{Sketcher_Tools_navi

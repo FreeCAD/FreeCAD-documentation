@@ -1,4 +1,4 @@
-# <img alt="Draft workbench icon" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/ko
+# <img alt="설계제도 작업대 아이콘" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/ko
 
 
 
@@ -7,7 +7,7 @@
 
 ## 소개
 
-<img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> **설계도 작업환경** 은 대상물을 프리캐드에서 2D로 생성하고 수정하는 것에 중점을 두었습니다. 그러나 대상물이 일반 좌표계의 XY면에서만 존재하는 구속조건이 아닙니다. 대상물의 3D 공간에서 방향이나 위치를 임의로 정할 수 있고, 설계용 물체는 평면 형식, 비 평면 형식 둘 다 됩니다.
+<img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> **설계제도 작업대** 는 대상물을 프리캐드에서 2D로 생성하고 수정하는 것에 중점을 두었습니다. 그러나 대상물이 일반 좌표계의 XY면에서만 존재하는 구속조건이 아닙니다. 대상물의 3D 공간에서 방향이나 위치를 임의로 정할 수 있고, 설계용 물체는 평면 형식, 비 평면 형식 둘 다 됩니다.
 
 Draft objects can be used for general drafting, similar to what can be done with Inkscape or AutoCAD. But they can also form the base for the creation of 3D objects in other workbenches. A [Draft Wire](Draft_Wire.md) may define the path of an [Arch Wall](Arch_Wall.md), a [Draft Polygon](Draft_Polygon.md) can be extruded with [Part Extrude](Part_Extrude.md), etc. Many of the [Draft modifier tools](#Modification.md) can be applied to 2D and 3D objects created with other workbenches as well. You can, for example, [move](Draft_Move.md) a [Sketch](Sketcher_Workbench.md) or create a [Draft OrthoArray](Draft_OrthoArray.md) from a [Part](Part_Workbench.md) object.
 
@@ -54,9 +54,9 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Facebinder](Draft_Facebinder.md): creates a surface object from selected faces.
 
--   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [ShapeString](Draft_ShapeString.md): creates a compound shape that represents a text string.
+-   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [Shape from text](Draft_ShapeString.md): creates a compound shape that represents a text string.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the planar faces of a selected object. <small>(v0.20)</small> 
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the planar faces of a selected object.
 
 ## Annotation
 
@@ -116,7 +116,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Wire to B-spline](Draft_WireToBSpline.md): converts [Draft Wires](Draft_Wire.md) to [Draft BSplines](Draft_BSpline.md) and vice versa.
 
--   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft to sketch](Draft_Draft2Sketch.md): converts [Draft](Draft_Workbench.md) objects to [Sketcher Sketches](Sketcher_NewSketch.md) and vice versa.
+-   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft to sketch](Draft_Draft2Sketch.md): converts Draft objects to [Sketcher Sketches](Sketcher_NewSketch.md) and vice versa.
 
 -   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Set slope](Draft_Slope.md): slopes selected [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md) by increasing, or decreasing, the Z coordinate of all points after the first one.
 
@@ -136,7 +136,7 @@ The [Draft Tray](Draft_Tray.md) allows selecting the working plane, defining sty
 
 -   ![](images/Draft_tray_button_construction.png ) [Toggle construction mode](Draft_ToggleConstructionMode.md): switches Draft construction mode on or off. Also available in the menu: **Draft → Utilities → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Toggle construction mode**.
 
--   ![](images/Draft_tray_button_layer.png ) [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
+-   ![](images/Draft_tray_button_layer.png ) [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [BIM](BIM_Workbench.md) object.
 
 ## Draft annotation scale widget 
 
@@ -190,11 +190,11 @@ The Draft snap toolbar allows selecting the active snap options. The buttons bel
 
 -   <img alt="" src=images/Draft_LayerManager.svg  style="width:32px;"> [Manage layers\...](Draft_LayerManager.md): allows to manage the layers in a document. <small>(v0.21)</small> 
 
--   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [Add a new named group](Draft_AddNamedGroup.md): creates a named [Std Group](Std_Group.md) and moves selected objects to that group. <small>(v0.20)</small> 
+-   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [Add a new named group](Draft_AddNamedGroup.md): creates a named [Std Group](Std_Group.md) and moves selected objects to that group.
 
 -   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> [Move to group\...](Draft_AddToGroup.md): moves objects to a [Std Group](Std_Group.md). It can also ungroup objects.
 
--   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Select group](Draft_SelectGroup.md): selects the contents of [Std Groups](Std_Group.md) or group-like [Arch](Arch_Workbench.md) objects.
+-   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Select group](Draft_SelectGroup.md): selects the contents of [Std Groups](Std_Group.md) or group-like [BIM](BIM_Workbench.md) objects.
 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Add to construction group](Draft_AddConstruction.md): moves objects to the [Draft construction group](Draft_ToggleConstructionMode.md).
 
@@ -208,7 +208,7 @@ The **Draft → Utilities** menu contains several tools. Most of them can also b
 
 -   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Apply current style](Draft_ApplyStyle.md): applies the current style settings to selected objects.
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Layer](Draft_Layer.md): creates a [Draft Layer](Draft_Layer.md). Available in the [Draft utility tools toolbar](Draft_Workbench#Draft_utility_tools_toolbar.md) in {{VersionMinus|0.20}}.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Layer](Draft_Layer.md): creates a [Draft Layer](Draft_Layer.md).
 
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Heal](Draft_Heal.md): heals problematic Draft objects found in very old files.
 
@@ -256,7 +256,7 @@ For a [Draft Layer](Draft_Layer.md) these additional options are available:
 
 For a [Draft Text](Draft_Text.md) and a [Draft Label](Draft_Label.md) that contains one or more hyperlinks, to a local or remote file or an URL, this additional option is available:
 
--   Open hyperlinks: the hyperlinks are opened in the appropriate application (as defined by the OS). There is a warning in the case of multiple hyperlinks. <small>(v0.22)</small> 
+-   Open hyperlinks: the hyperlinks are opened in the appropriate application (as defined by the OS). There is a warning in the case of multiple hyperlinks. <small>(v1.0)</small> 
 
 ### Wire options 
 
@@ -292,7 +292,7 @@ See [above](#Text_options.md).
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Drawing](Draft_Drawing.md): inserts views of selected objects into a [drawing](Drawing_Workbench.md) page. Not available in <small>(v0.21)</small> .
 
--   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off. Not available in <small>(v0.22)</small> .
+-   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off. Not available in <small>(v1.0)</small> .
 
 ## Preferences
 
@@ -341,15 +341,6 @@ Inspecting the code of this module can help to understand the programming interf
 
 -   [설계도 자습서](Draft_tutorial.md)
 -   [Draft ShapeString 자습서](Draft_ShapeString_tutorial.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav|[Arch Workbench](Arch_Workbench.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Workbench_Arch.svg|IconR=Workbench_Drawing.svg}}
-
-
-</div>
 
 
 

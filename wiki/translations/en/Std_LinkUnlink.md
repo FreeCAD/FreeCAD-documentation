@@ -24,7 +24,7 @@ This operation is used to remove a Link from a container like **[<img src=images
 2.  Select the internal Link in the [tree view](tree_view.md).
 3.  Press **[<img src=images/Std_LinkUnlink.svg style="width:16px"> [Unlink](Std_LinkUnlink.md)**.
 
-The original <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Sphere](Part_Sphere.md) must now be inside the **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)**, and the Link must be outside. Now this Link can be deleted if it\'s no longer needed, and it won\'t break the container.
+The original <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [Sphere](Part_Sphere.md) must now be inside the **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)**, and the Link must be outside. Now this Link can be deleted if it\'s no longer needed, and it won\'t break the container.
 
 ![](images/Std_Link_tree_replace_1_example.png ) ![](images/Std_Link_tree_unlink_1_example.png )
 

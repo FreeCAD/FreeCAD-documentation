@@ -9,8 +9,6 @@
 
 # TechDraw LinkDimension/fr
 
-L\'outil **TechDraw Lier une cote** doit déprécié dans le futur. L\'outil [TechDraw Réparer une cote](TechDraw_DimensionRepair/fr.md) peut être utilisé pour modifier les références 2D et 3D.
-
 ## Description
 
 L\'outil **TechDraw Lier une cote** crée un lien entre la géométrie 3D et une ou plusieurs cotes projetées existantes sur une page. Ce lien permet à la cote d\'utiliser des valeurs 3D réelles au lieu de valeurs projetées 2D.
@@ -58,7 +56,7 @@ L\'outil TechDraw Lier une cote n\'est pas directement utilisable dans les macro
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

@@ -109,7 +109,7 @@ Si vous le souhaitez, vous pouvez ajouter un **[<img src=images/PartDesign_Addit
 
 
 
-### Atelier Part Design 
+### Atelier PartDesign 
 
 Un vrai filetage consiste à faire suivre un profil fermé le long d\'une courbe hélicoïde (hélice)
 
@@ -186,7 +186,7 @@ Vous pouvez maintenant ajouter d\'autres primitives comme des **[<img src=images
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Aucun problème avec le maillage de l\'objet résultant, contrairement à la méthode 5.
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> En raison de l\'invalidité des balayages auto-entrecroisés, il est presque impossible de générer un filetage sans espace entre chaque dent, c\'est-à-dire sans face cylindrique droite sur les côtés intérieurs du filetage.
--   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Les opérations booléennes sont nécessaires pour obtenir un solide solide contigu. Les opérations booléennes prennent un temps relativement long à calculer et échouent souvent.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Les opérations booléennes sont nécessaires pour obtenir un unique solide contigu. Les opérations booléennes prennent un temps relativement long à calculer et échouent souvent.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Filetages avec un nombre élevé de tours sont problématiques.
 
 
@@ -218,9 +218,9 @@ Déterminer le profil horizontal pour obtenir un certain profil vertical n\'est 
 1.  Créer une spirale (d'Archimède) dans le plan XY.
     1.  fixer le nombre de tours à 0.5.
     2.  fixer le rayon du rayon interne du filetage, le rayon externe sera ce dernier plus la profondeur de coupe.
-    3.  fixer la croissance pour doubler la profondeur de coupe du filet.
-2.  [Part Mirroir](Part_Mirror/fr.md) la spirale dans le plan XY
-3.  [Part Union](Part_Fuse/fr.md) la spirale et le miroir pour obtenir un filet fermé, en forme de cœur.
+    3.  fixer la croissance pour doubler la profondeur de coupe du filetage.
+2.  [mettre en miroir](Part_Mirror/fr.md) la spirale par rapport au plan XY.
+3.  [unir](Part_Fuse/fr.md) la spirale et son objet en miroir pour obtenir une polyligne fermée en forme de cœur.
 
 
 

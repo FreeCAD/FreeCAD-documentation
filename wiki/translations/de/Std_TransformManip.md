@@ -35,7 +35,7 @@ Das Werkzeug **Std Bewegen** ermöglicht Rotations- und Verschiebungswerte inkre
     -   Die linke Maustaste auf einem Kugelsymbol drücken, halten und ziehen, um das Objekt um die zugehörige Achse zu drehen.
 6.  Zum Beenden des Befehls hat man folgende Möglichkeiten:
     -   Die Schaltfläche **OK** drücken, um zu bestätigen und zu beenden.
-    -   Die Schaltfläche **Abbrechen** drücken, um die ausgeführten Bewegungen rückgängig zu machen und zu beenden. {{Version/de|0.22}}
+    -   Die Schaltfläche **Abbrechen** drücken, um die ausgeführten Bewegungen rückgängig zu machen und zu beenden. {{Version/de|1.0}}
 
 
 
@@ -43,13 +43,13 @@ Das Werkzeug **Std Bewegen** ermöglicht Rotations- und Verschiebungswerte inkre
 
 -   Sobald das Objekt in der [3D-Ansicht](3D_view/de.md) verschoben/gedreht wird, werden diese Änderungen übernommen.
 -   Einige Objekte mit einer {{PropertyData/de|Placement}}, wie z.B. Skizzen, oder Objekte, die an anderen Objekten befestigt sind, können nicht bewegt werden.
--   Es gibt keine Schaltfläche **Abbrechen** in {{VersionMinus/de|0.21}}, in diesen Versionen muss man zunächst die Schaltfläche **OK** drücken und anschließend den Befehl <img alt="" src=images/Std_Undo.svg  style="width:20px;"> [Rückgängig](Std_Undo/de.md) verwenden, um die Änderungen nachträglich rückgängig zu machen.
+-   Es gibt keine Schaltfläche **Abbrechen** in {{VersionMinus/de|0.21}}, in diesen Versionen muss man zunächst die Schaltfläche **OK** drücken und anschließend den Befehl <img alt="" src=images/Std_Undo.svg  style="width:16px;"> [Rückgängig](Std_Undo/de.md) verwenden, um die Änderungen nachträglich rückgängig zu machen.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

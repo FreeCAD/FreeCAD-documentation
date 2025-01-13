@@ -64,14 +64,6 @@ Structura de comprimare în modurile \"Standard\" și \"Split\" urmează structu
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-Se creează un obiect parametru Boolean Fragments. Obiectele originale sunt ascunse, iar rezultatul intersecției este afișat în vizualizarea 3D.
-
-
-</div>
-
 ## Properties
 
 
@@ -157,6 +149,14 @@ Acest instrument a fost introdus în FreeCAD v0.17.8053. FreeCAD și necesită c
 
 
 </div>
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

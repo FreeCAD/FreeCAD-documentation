@@ -105,7 +105,7 @@ An orphaned package is one with no current maintainer. Orphaned packages should 
 
 AT LEAST ONE REQUIRED (multiple allowed)
 
-SPDX short identifier of the license(s) for this package, e.g. BSD-2-Clause, GPL-3, LGPL-2.1. In order to assist machine readability, only include the license\'s SPDX short identifier (see [the SPDX site](https://spdx.org/licenses/)). For multiple licenses multiple separate tags must be used. A package will have multiple licenses if different source files have different licenses. Every license occurring in the source files should have a corresponding  tag. For any explanatory text about licensing caveats, please use the  tag.
+SPDX short identifier of the license(s) for this package, e.g. BSD-2-Clause, GPL-3.0-or-later, LGPL-2.1-or-later. In order to assist machine readability, only include the license\'s SPDX short identifier (see [the SPDX site](https://spdx.org/licenses/)). For multiple licenses multiple separate tags must be used. A package will have multiple licenses if different source files have different licenses. Every license occurring in the source files should have a corresponding  tag. For any explanatory text about licensing caveats, please use the  tag. To specify that no license applies (e.g. \"All rights reserved.\") set this value to \"UNLICENSED\". To specify a custom license without an SPDX identifier set this value to \"SEE LICENSE IN \".
 
 Commonly-used license strings:
 
@@ -140,6 +140,8 @@ Commonly-used license strings:
     
 
 -    `"CC0-1.0"`(Public Domain dedication)
+
+**Backwards-compatibility note**: The Addon Manager will attempt to normalize license identifiers that do not exactly match an SPDX license string. This will sometimes result in a license ID that yields a non-FSF-Libre or non-OSI-approved license: for example \"LGPL2\" will be normalized to \"LGPL-2.0\", which is a non-FSF-Libre license: what was probably intended was \"LGPL-2.1-or-later\".
 
 
 

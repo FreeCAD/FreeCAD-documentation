@@ -10,12 +10,16 @@
 
 # Std ViewLeft/it
 
+
+
 ## Descrizione
 
 Il comando **Vista da sinistra** orienta la camera della [Vista 3D](3D_view/it.md) nella direzione dell\'asse X positivo.
 
 ![](images/FreeCAD_views_rear.svg ) 
 *La freccia 6 punta nella direzione della vista da sinistra*
+
+
 
 ## Utilizzo
 
@@ -25,28 +29,17 @@ Il comando **Vista da sinistra** orienta la camera della [Vista 3D](3D_view/it.m
     -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewLeft.svg" width=16px> Da sinistra** dal menu contestuale della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **6**.
 
+
+
 ## Script
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
-
-Per passare alla vista da sinistra usa il metodo `viewLeft` dell\'oggetto ActiveView. Questo metodo non è disponibile se FreeCAD è in modalità console.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.viewLeft()
-FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
-```
+Vedere [Vista frontale](Std_ViewFront/it#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

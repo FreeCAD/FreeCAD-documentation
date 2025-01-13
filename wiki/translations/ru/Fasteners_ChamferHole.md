@@ -7,12 +7,16 @@
 
 # Fasteners ChamferHole/ru
 
+
+
 ## Описание
 
 The <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:24px;"> **Fasteners ChamferHole** command chamfers holes for countersunk screws.
 
 ![](images/Fasteners_ChamferHole_Example.png ) 
 *Chamfered holes for countersunk screws*
+
+
 
 ## Применение
 
@@ -38,19 +42,24 @@ The <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:24px;"> **Fas
 11. A Countersunk object with a chamfered recess for each selected edge is created.
 12. Optionally attach screws. See [Fasteners Workbench](Fasteners_Workbench#Usage.md).
 
+
+
 ## Примечания
 
 -   Countersunk objects are parametric. An existing Countersunk object can be edited by double-clicking it in the [Tree view](Tree_view.md). The **Chamfer holes for countersunk screws** task panel will open. Circular edges can be added or removed, and the parameters of edges can be changed.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Fasteners Tools navi
 
-}}
+
+</div>
+
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ChamferHole/ru
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners ChamferHole/ru

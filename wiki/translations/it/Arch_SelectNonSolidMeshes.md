@@ -10,19 +10,48 @@
 # Arch SelectNonSolidMeshes/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento identifica e seleziona i mesh non-solido, non-[manifold](https://en.wikipedia.org/wiki/Manifold), non-[varietà](http://it.wikipedia.org/wiki/Varietà_(geometria)) in un gruppo di oggetti <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh](Mesh_Workbench/it.md) selezionati.
+
+
+</div>
 
 
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare un oggetto mesh.
 2.  Premere il pulsante **<img src="images/Arch_SelectNonManifold.svg" width=24px> [Seleziona le mesh non solidi](Arch_SelectNonSolidMeshes/it.md)** in **Arch → Utilità → Seleziona le mesh non solidi**.
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/it
+⏵ [documentation index](../README.md) > Arch SelectNonSolidMeshes/it

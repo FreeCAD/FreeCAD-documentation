@@ -52,7 +52,7 @@ Vous pouvez également essayer:
 
 1.  Allez dans **Edition → Préférences → Draft → Paramètres généraux** et ajustez la valeur de **Tolérance** (par défaut : 0,05) et réessayez.
 
-Pour un aperçu de toutes les préférences liées à DXF, voir les [Préférences d\'Import Export](Import_Export_Preferences/fr#DXF.md).
+Pour un aperçu de toutes les préférences liées à DXF, voir les [Préférences Importer/Exporter](Import_Export_Preferences/fr#DXF.md).
 
 
 

@@ -20,10 +20,11 @@ La commande **Std Appliquer une texture** applique temporairement une texture su
 ## Utilisation
 
 1.  Sélectionnez l\'option **Affichage → <img src="images/Std_TextureMapping.svg" width=16px> Appliquer une texture...** du menu.
-2.  Dans le panneau des tâches Texture, cochez éventuellement la case {{CheckBox|TRUE|Environnement}}.
-3.  Appuyez sur le bouton **...**.
-4.  Sélectionnez un fichier image dans la boîte de dialogue.
-5.  Appuyez sur le bouton **Fermer** pour fermer le panneau des tâches et terminer la commande.
+2.  Le panneau des tâches **Texture** s\'ouvre.
+3.  Vous pouvez cocher la case **Environnement**.
+4.  Appuyez sur le bouton **...**.
+5.  Sélectionnez un fichier image dans la fenêtre de dialogue.
+6.  Appuyez sur le bouton **Fermer** pour fermer le panneau des tâches et terminer la commande.
 
 
 

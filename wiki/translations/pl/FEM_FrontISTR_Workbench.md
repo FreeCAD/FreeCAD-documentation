@@ -1,101 +1,127 @@
-# <img alt="FEM FrontISTR Workbench icon" src=images/FrontISTR.svg  style="width:64px;"> FEM FrontISTR Workbench/pl
+# <img alt="Ikona środowiska pracy MES FrontISTR" src=images/FrontISTR.svg  style="width:64px;"> FEM FrontISTR Workbench/pl
 
 
 
 
-## Introduction
 
-The <img alt="" src=images/FrontISTR.svg  style="width:24px;"> FEM FrontISTR Workbench is a FreeCAD addon that enables FrontISTR, an open-source large-scale parallel FEM program for nonlinear structural analysis.
+
+## Wprowadzenie
+
+Środowisko pracy <img alt="" src=images/FrontISTR.svg  style="width:24px;"> MES FrontISTR to dodatek do programu FreeCAD, który umożliwia korzystanie z FrontISTR, otwartego solvera MES do wielkoskalowych obliczeń równoległych nieliniowych zagadnień mechanicznych.
 
 <img alt="" src=images/FEM_FrontISTR_bikeframe_screenshot.png  style="width:512px;">
 
-### Intended work-flow 
 
-1.  Set up an analysis model by FEM module (in the same way as calculiX).
-2.  Switch to the workbench **FrontISTR** and create a FrontISTR solver object by clicking on the toolbar button <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;">.
-3.  Double-click on the solver object in the document tree and set working directory.
-4.  Click on the button **Write input file**
-5.  Click on the button **Run FrontISTR**
-6.  Check FISTR_Results for post processing.
 
-### Features
+### Zamierzony przepływ pracy 
 
--   static analysis, element check
--   geometrical linear\|nonlinear analysis
--   elements: 1st/2nd order tetrahedron
--   loads: mechanical concentrated and distributed loads, gravity
--   boundary: points fixed or displacement
--   step control: auto time increment and cutback
--   linear equation solver
-    -   iterative
-        -   preconditioner: AMG, SSOR, Diagonal, ILU(k)(k=0,1,2)
-        -   method: CG, BiCGSTAB, GMRES, GPBiCG
-    -   direct: MUMPS
--   output file format: AVS, VTK(paraview required)
+1.  Ustaw analizę w środowisku pracy MES *(tak samo jak dla CalculiX)*.
+2.  Przejdź do środowiska pracy **FrontISTR** i utwórz obiekt solvera FrontISTR klikając ikonę <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> na pasku narzędzi.
+3.  Dwukrotnie kliknij na obiekcie solvera w drzewie dokumentu i ustaw katalog roboczy.
+4.  Wciśnij przycisk **Write input file**
+5.  Wciśnij przycisk **Run FrontISTR**
+6.  Sprawdź FISTR_Results do postprocessingu.
 
-### Features to be supported in the future 
 
--   analysis: thermal transfer, dynamic, eigen, frequency
--   materials(mechanical): elastoplastic, hyper elastic, creep, visco elastic
--   contact
--   MPC(TIE)
--   elements: prism, hexa, beam, shell, truss etc.
 
-### Limitations
+### Cechy
 
--   FISTR_Results only contains results for surfaces. If you need the interior results, change Output File Format to VTK and visualize the results with paraview.
--   The FEM FrontISTR workbench does not yet support thermal analyses. FISTR itself can perform thermal analyses and support for this is planned in the near future.
--   Mechanical analyses for different material in a model is not yet possible.
+-   analiza statyczna, sprawdzenie elementów,
+-   analiza geometrycznie liniowa/nieliniowa,
+-   elementy: czworościany pierwszego/drugiego rzędu,
+-   obciążenia: obciążenia mechaniczne skupione i rozłożone, grawitacja,
+-   warunki brzegowe: utwierdzenie punktów lub zadane przemieszczenie,
+-   kontrola kroku: automatyczna inkrementacja,
+-   solver równań liniowych,
+    -   iteracyjny,
+        -   prekondycjoner: AMG, SSOR, Diagonal, ILU(k)(k=0,1,2),
+        -   metoda: CG, BiCGSTAB, GMRES, GPBiCG,
+    -   bezpośredni: MUMPS,
+-   format plików wyjściowych: AVS, VTK *(wymagane ParaView)*.
 
-### Benchmark results 
 
-See <https://github.com/FrontISTR/FEM_FrontISTR/tree/master/sample/benchmarks>.
 
-## Installation
+### Funkcje planowane do obsługi w przyszłości 
 
-### Addon Manager 
+-   analizy: przepływu ciepła, dynamiczne, drgań własnych,
+-   materiały *(mechaniczne)*: sprężysto-plastyczne, hipersprężyste, pełzanie, lepkosprężyste,
+-   kontakt,
+-   MPC(TIE),
+-   elementy: pięciościenne, sześciościenne, belkowe, powłokowe, kratownicowe itd.
 
-FEM_FrontISTR can easily be installed via the FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) from the **Tools → Addon manager** menu. FEM_FrontISTR is under active development and will get new features frequently. Therefore you should update it regularly using also the menu **Tools → Addon manager**. The FEM_FrontISTR code is hosted and developed [on GitHub](https://github.com/FrontISTR/FEM_FrontISTR).
 
-### Manual
 
-See [How to install additional workbenches](How_to_install_additional_workbenches.md)
+### Ograniczenia
 
-### Prerequisites
+-   Obiekt FISTR_Results zawiera wyniki tylko dla powierzchni. Jeśli potrzebne Ci są wyniki z wewnątrz modelu, zmień Output File Format na VTK i skorzystaj z ParaView do wizualizacji wyników.
+-   Środowisko pracy MES FrontISTR nie wspiera jeszcze analiz termicznych. Sam FISTR może je jednak przeprowadzać i wsparcie dla nich jest planowane w najbliższej przyszłości.
+-   Analizy mechaniczne dla różnych materiałów w modelu nie są obecnie wspierane.
 
--   FreeCAD 0.19 or newer
--   [Paraview](https://www.paraview.org/) (optional)
 
-### FrontISTR Solver Installation 
 
-FrontISTR binaries will be automatically downloaded and installed on the first run. If the download does not proceed, please follow the steps below to install the solver.
+### Wyniki testów 
+
+Zobacz <https://github.com/FrontISTR/FEM_FrontISTR/tree/master/sample/benchmarks>.
+
+
+
+## Instalacja
+
+
+
+## Menadżer dodatków 
+
+FEM_FrontISTR można łatwo zainstalować poprzez <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Menedżer dodatków](Std_AddonMgr/pl.md) z menu **Narzędzia → Menedżer dodatków**. FEM_FrontISTR jest aktywnie rozwijany i będzie często zyskiwał nowe funkcje. Zatem powinieneś go regularnie aktualizować w ten sam sposób: **Narzędzia → Menedżer dodatków**. Kod FEM_FrontISTR jest przechowywany i rozwijany [na platformie GitHub](https://github.com/FrontISTR/FEM_FrontISTR).
+
+
+
+### Podręcznik
+
+Zobacz [Jak zainstalować dodatkowe środowiska pracy](How_to_install_additional_workbenches/pl.md).
+
+
+
+### Wymagania wstępne 
+
+-   FreeCAD 0.19 lub nowszy.
+-   [ParaView](https://www.paraview.org/) *(opcjonalne)*.
+
+
+
+### Instalacja solvera FrontISTR 
+
+Pliki wykonywalne FrontISTR będą automatycznie pobrane i zainstalowane przy pierwszym uruchomieniu. Jeśli pobieranie się nie powiedzie, wykonaj poniższe kroki aby zainstalować solver.
 
 #### Windows
 
-1.  Download [FrontISTR-latest.zip](https://www.frontistr.com/download/link.php?https://frontistr-commons.gitlab.io/FrontISTR/release/x86_64-w64-mingw32-msmpi/FrontISTR-latest.zip)
-2.  Create directory FEM_FrontISTR/bin
-3.  Extract FrontISTR-latest.zip and put all files in FEM_FrontISTR/bin directory.
+1.  Pobierz [FrontISTR-latest.zip](https://www.frontistr.com/download/link.php?https://frontistr-commons.gitlab.io/FrontISTR/release/x86_64-w64-mingw32-msmpi/FrontISTR-latest.zip)
+2.  Utwórz ścieżkę FEM_FrontISTR/bin
+3.  Wypakuj FrontISTR-latest.zip i umieść wszystkie pliki w katalogu FEM_FrontISTR/bin.
 
 #### Linux
 
-Under preparation.
+W przygotowaniu.
 
 #### Mac
 
-Under preparation.
+W przygotowaniu.
 
-## Tools
 
--   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> **Solver FrontISTR Standard**: Creates a new FrontISTR solver for this analysis.
 
-## References
+## Narzędzia
 
--   Author: kinagaki rigarashi
--   Source code: [Github.com](https://github.com/FrontISTR/FEM_FrontISTR)
--   FreeCAD Forum: [58019](https://forum.freecadweb.org/viewtopic.php?t=58019)
--   Tutorials: <https://frontistr-commons.gitlab.io/FEM_FrontISTR/en/>
--   FrontISTR solver documentation: <https://manual.frontistr.com/en/>
--   Report bugs: Please report bugs at [Github.com](https://github.com/FrontISTR/FEM_FrontISTR)
+-   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> **Solver FrontISTR Standard**: Tworzy nowy obiekt solvera FrontISTR dla tej analizy.
+
+
+
+## Źródła
+
+-   Autor: kinagaki rigarashi
+-   Kod źródłowy: [Github.com](https://github.com/FrontISTR/FEM_FrontISTR)
+-   Forum FreeCAD: [58019](https://forum.freecadweb.org/viewtopic.php?t=58019)
+-   Poradniki: <https://frontistr-commons.gitlab.io/FEM_FrontISTR/en/>
+-   Dokumentacja solvera FrontISTR: <https://manual.frontistr.com/en/>
+-   Zgłaszanie błędów: Prosimy o zgłaszanie błędów na stronie [Github.com](https://github.com/FrontISTR/FEM_FrontISTR)
 
 
 

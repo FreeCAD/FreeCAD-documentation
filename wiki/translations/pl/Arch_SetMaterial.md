@@ -1,52 +1,69 @@
 ---
  GuiCommand:
    Name: Arch SetMaterial
-   MenuLocation: Arch , Material tools , Material
-   Workbenches: Arch_Workbench, BIM_Workbench
+   Name/pl: Architektura: Materiał
+   MenuLocation: Architektura , Narzędzia materiałowe , Materiał
+   Workbenches: Arch_Workbench/pl, BIM_Workbench/pl
    Shortcut: **M** **T**
-   SeeAlso: Arch_CompSetMaterial, Arch_MultiMaterial
+   SeeAlso: Arch_MultiMaterial/pl
 ---
 
 # Arch SetMaterial/pl
 
-## Description
 
-This tool allows to add [materials](Material.md) to the active document and attribute a material to an [Arch](Arch_Workbench.md) object. A Material contains all the properties of a certain material and controls the color of the object it is attached to. Materials are stored in a **Materials** folder in the active document.
+
+## Opis
+
+Narzędzie to pozwala dodać [materiały](Material/pl.md) do aktywnego dokumentu i przypisać materiał do obiektu [Architektury](Arch_Workbench/pl.md). Materiał zawiera wszystkie właściwości danego materiału i kontroluje kolor obiektu, do którego jest dołączony. Materiały są przechowywane w folderze **Materials** w aktywnym dokumencie.
 
 ![](images/Arch_materials_01.jpg )
 
-## Usage
 
-1.  Optionally, select one or more objects to which you wish to attribute a new material.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Arch_SetMaterial.svg" width=16px> [Material](Arch_SetMaterial.md)** button in the toolbar.
-    -   Use the **M** then **T** keyboard shortcut.
-    -   Use the **Arch → Material Tools → Material** entry from the top menu.
-3.  Load a preset material, or create a new one by filling the fields.
-4.  Press **OK**.
 
-## Options
+## Użycie
 
--   Upon creating a new material, a task panel allows you to set different options:
+1.  Opcjonalnie wybierz jeden lub więcej obiektów, którym chcesz przypisać nowy materiał.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Arch_SetMaterial.svg" width=16px> '''Materiał'''** na pasku narzędzi.
+    -   Użyj skrótu klawiaturowego **M**, a następnie **T**.
+    -   Użyj opcji **Architektura → Narzędzia materiałowe → Materiał** z menu głównego.
+3.  Wczytaj wstępnie ustawiony materiał lub utwórz nowy, wypełniając pola.
+4.  Naciśnij **OK**.
+
+
+
+## Opcje
+
+-   Po utworzeniu nowego materiału panel zadań umożliwia ustawienie różnych opcji:
 
 ![](images/Arch_materials_02.jpg )
 
--   **Choose preset**: Choose one of the preset materials, to be used as is, or to be adapted by modifying the fields below
--   **Name**: Choose a name for the material
--   **Edit button**: This opens the current material in FreeCAD\'s [Material editor](FEM_MaterialEditor.md), which allows you to edit many additional properties and add your own custom ones
--   **Description**: A more detailed description of the material
--   **Color**: A display color for the material, which will be applied to all objects that use that material
--   **Section Color**: A display color for the material, which will be applied on TechDraw pages, when an object with this material is cut, and the \"Display materials\" property of the containing section plane is set to True.
--   **Code**: A name and reference number of a specification system such as [Masterformat](https://en.wikipedia.org/wiki/MasterFormat) or [Omniclass](http://www.omniclass.org/).
--   **Code browser button**: Not implemented yet - will allow to open the reference in a web browser
--   **URL**: An URL where more information about the material can be found
--   **URL button**:Opens the URL in a web browser
+-   **Użyj szablonu**: Wybierz jeden z wstępnie ustawionych materiałów, który będzie używany w obecnej postaci lub który można dostosować, modyfikując poniższe pola.
+-   **Nazwa**: Wybierz nazwę dla materiału.
+-   **Edytuj**: Otwiera bieżący materiał w edytorze FreeCAD [Material editor](FEM_MaterialEditor/pl.md), który pozwala edytować wiele dodatkowych właściwości i dodawać własne niestandardowe.
+-   **Opis**: Bardziej szczegółowy opis materiału.
+-   **Kolor**: Kolor wyświetlania materiału, który będzie stosowany do wszystkich obiektów używających tego materiału.
+-   **Kolor przekroju**: Kolor wyświetlania materiału, który zostanie zastosowany na stronach Rysunku technicznego, gdy obiekt z tym materiałem zostanie przecięty, a właściwość \"Pokaż materiały\" zawierająca płaszczyzny przekroju jest ustawiona na {{True/pl}}.
+-   **Kod**: Nazwa i numer referencyjny systemu specyfikacji, takiego jak [Masterformat](https://en.wikipedia.org/wiki/MasterFormat) lub [Omniclass](http://www.omniclass.org/).
+-   **Przycisk przeglądarki kodu**: Jeszcze nie zaimplementowany - pozwoli otworzyć odniesienie w przeglądarce internetowej.
+-   **URL**: Adres URL, pod którym można znaleźć więcej informacji o materiale.
+-   **Przycisk URL**: Otwiera adres URL w przeglądarce internetowej.
 
-## Relation to IFC 
 
-This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
+
+## Powiązania z IFC 
+
+Odpowiada to w przybliżeniu [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/pl
+⏵ [documentation index](../README.md) > Arch SetMaterial/pl

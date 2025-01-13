@@ -9,7 +9,13 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument desenează un arc de cerc definit prin 3 puncte: punctul de start, punctul final și un alt punct de pe arcul de cerc.
+
+
+</div>
 
 
 
@@ -20,6 +26,8 @@ Acest instrument desenează un arc de cerc definit prin 3 puncte: punctul de sta
 
 
 </div>
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
 
 <div class="mw-translate-fuzzy">

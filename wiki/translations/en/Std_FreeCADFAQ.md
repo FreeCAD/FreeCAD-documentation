@@ -22,7 +22,7 @@ Currently the command points to [<https://wiki.freecad.org/Frequently_asked_ques
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

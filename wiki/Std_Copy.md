@@ -17,7 +17,7 @@ The **Std Copy** command copies objects to the Clipboard.
 
 1.  Select one or more objects.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Copy.svg" width=16px> [Std Copy](Std_Copy.md)** button.
+    -   Press the **<img src="images/Std_Copy.svg" width=16px> [Copy](Std_Copy.md)** button.
     -   Select the **Edit → <img src="images/Std_Copy.svg" width=16px> Copy** option from the menu.
     -   Select the **<img src="images/Std_Copy.svg" width=16px> Copy** option from the [Tree view](Tree_view.md) context menu.
     -   Use the keyboard shortcut: **Ctrl**+**C**.
@@ -25,13 +25,13 @@ The **Std Copy** command copies objects to the Clipboard.
 
 ## Notes
 
--   When you are working in a FreeCAD text window, an input box or a spreadsheet, the standard keyboard shortcut **Ctrl**+**C**, in almost all cases, does not call the **Std Copy** command but uses the Copy function from the OS instead.
+-   When you are working in a FreeCAD text window, an input box or a spreadsheet, the standard keyboard shortcut **Ctrl**+**C**, in almost all cases, does not call this command but uses the Copy function from the OS instead.
 -   It is not possible to copy-paste native objects between FreeCAD and other applications.
 
 
 
 
- {{Std Base navi}}
+ {{Std_Base_navi}}
 
 
 

@@ -12,6 +12,9 @@
 # Sketcher Trimming/ru
 
 
+</div>
+
+
 
 ## Описание
 
@@ -23,11 +26,11 @@
 
 </div>
 
-![](images/SketcherTrimExample1.png ) ![](images/SketcherTrimExample2.png ) ![](images/SketcherTrimExample3.png )
-
 
 
 ## Применение
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
 
 <div class="mw-translate-fuzzy">

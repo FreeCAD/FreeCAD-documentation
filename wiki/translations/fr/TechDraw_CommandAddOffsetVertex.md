@@ -4,7 +4,7 @@
    MenuLocation: TechDraw , Extensions : taraudage/filetage , Ajouter un sommet décalé
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
-   Version: 0.22
+   Version: 1.0
    SeeAlso: 
 ---
 

@@ -4,14 +4,18 @@
 
 
 
-Il [problema di denominazione topologica](topological_naming_problem/it.md) in FreeCAD si riferisce al problema di una forma che cambia il suo nome interno dopo l\'esecuzione di un\'operazione di modellazione (pad, taglio, unione, smusso, raccordo, ecc.). Questo si riflette sulle altre funzioni parametriche che dipendono da quella forma e ha come conseguenze che le interrompe o le calcola in modo errato. Questo problema interessa tutti gli oggetti di FreeCAD, ma è particolarmente importante quando si costruiscono solidi con <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md) e quando si dimensionano questi solidi con <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/it.md).
+Il [problema di denominazione topologica](topological_naming_problem/it.md) in FreeCAD si riferisce al problema di una forma che cambia il suo nome interno dopo l\'esecuzione di un\'operazione di modellazione (estrusione, taglio, unione, smusso, raccordo, ecc.). Questo si riflette sulle altre funzioni parametriche che dipendono da quella forma e ha come conseguenze che le interrompe o le calcola in modo errato. Questo problema interessa tutti gli oggetti di FreeCAD, ma è particolarmente importante quando si costruiscono solidi con <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md) e quando si quotano questi solidi con <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/it.md).
 
 -   In <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md), se una funzione è supportata su una faccia (o bordo o vertice), la funzione può interrompersi se il solido sottostante cambia dimensione o orientamento, in quanto la faccia originale (o il bordo o vertice) può essere rinominata internamente.
--   In <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/it.md), se una dimensione misura la lunghezza di un bordo proiettato, la dimensione potrebbe interrompersi se il modello 3D viene modificato, poiché modificando il bordo misurato i vertici possono essere rinominati.
+-   In <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/it.md), se una quota misura la lunghezza di un bordo proiettato, la quota potrebbe interrompersi se il modello 3D viene modificato, poiché modificando il bordo misurato i vertici possono essere rinominati.
 
-Il problema di denominazione topologica è un problema complesso nella modellazione CAD che deriva dal modo in cui le routine interne di FreeCAD gestiscono gli aggiornamenti delle forme geometriche create con il [kernel OCCT](OpenCASCADE/it.md). A partire da FreeCAD 0.18 ci sono sforzi in corso per migliorare la gestione di base delle forme al fine di ridurre o eliminare tali problemi.
+Il problema di denominazione topologica è un problema complesso nella modellazione CAD che deriva dal modo in cui le routine interne di FreeCAD gestiscono gli aggiornamenti delle forme geometriche create con il [kernel OCCT](OpenCASCADE/it.md). Questo problema non è esclusivo di FreeCAD. È generalmente presente nei software CAD, ma la maggior parte degli altri software CAD dispone di euristiche per ridurre l\'impatto del problema sugli utenti.
+
+A partire da FreeCAD 0.19 sono in corso sforzi a livello di programmazione per migliorare la gestione interna delle forme aggiungendo euristiche che riducano l\'impatto di questi problemi. L\'[algoritmo](#Algoritmo_di_denominazione_topologica.md) è progettato per ridurre gli interventi manuali, a volte risolvendo automaticamente i problemi, altre volte presentando una probabile soluzione, altrimenti mostrando chiaramente la causa del problema. La prima versione stabile di FreeCAD che presenterà questo nuovo algoritmo è la 1.0. Nel corso del tempo, questo algoritmo verrà applicato a più parti di FreeCAD e nelle versioni successive verranno aggiunte ulteriori riparazioni automatiche e assistite.
 
 Il problema di denominazione topologica influisce molto spesso e confonde i nuovi utenti di FreeCAD. In PartDesign, l\'utente è invitato a seguire le migliori pratiche discusse nella pagina [Editazione delle funzioni](feature_editing/it.md). Si consiglia vivamente l\'uso di oggetti di riferimento come i [piani](PartDesign_Plane/it.md) ed i [sistemi di coordinate locali](PartDesign_CoordinateSystem/it.md) per produrre modelli che non sono facilmente soggetti a tali errori topologici. In TechDraw, si consiglia all\'utente di aggiungere le quote solo quando il modello 3D è completo e non sarà ulteriormente modificato.
+
+
 
 ## Esempio
 
@@ -63,13 +67,15 @@ Il problema sembra essere che quando il secondo schizzo è stato modificato, la 
 
 La rimappatura di uno schizzo in questo modo può essere eseguita ogni volta che si verifica un errore di denominazione topologica, ma questo può essere noioso se il modello è complicato e vi sono molti schizzi che devono essere modificati.
 
+
+
 ## Soluzione
 
 ![](images/FreeCAD_topological_problem_16_dependency_graph.png )
 
 Il [Grafico delle dipendenze](Std_DependencyGraph/it.md) è uno strumento utile per osservare le relazioni tra i diversi corpi nel documento. L\'utilizzo del flusso di lavoro di modellazione originale rivela la relazione diretta esistente tra gli schizzi e i pad. Come una catena, è facile vedere che questa dipendenza diretta è soggetta a problemi di denominazione topologica se uno qualsiasi dei collegamenti nella sequenza cambia.
 
-Come spiegato sulla pagina [Editazione delle funzioni](Feature_editing/it.md), una soluzione a questo problema consiste nel supportare gli schizzi non sulle facce ma sui piani di riferimento che sono attaccati o sfalsati rispetto ai piani principali di Origine del [Corpo](PartDesign_Body/it.md) di PartDesign
+Come spiegato nella pagina [modifica delle feature](Feature_editing/it.md), una soluzione a questo problema è supportare gli schizzi non sulle facce, ma sui piani principali dell\'Origine del [Corpo di PartDesign](PartDesign_Body/it.md) o sui piani di Riferimento collegati a quei piani principali. L\'utilizzo dei piani di Riferimento per supportare un singolo schizzo, come descritto di seguito, in realtà non è necessario poiché lo schizzo stesso può essere collegato direttamente a un piano principale e dispone delle stesse opzioni di offset di un piano di Riferimento. Ma l\'utilizzo dei piani di Riferimento può avere senso quando si posizionano più schizzi.
 
 1\. Selezionare l\'origine del [Corpo](PartDesign_Body/it.md) di PartDesign e accertarsi che sia visibile. Quindi selezionare il piano XY e fare clic su [Piano di riferimento](PartDesign_Plane/it.md). Nella finestra di dialogo Offset di associazione, assegnargli un offset nella direzione Z in modo che il piano di riferimento sia complanare con la faccia superiore del primo pad.
 
@@ -98,7 +104,9 @@ Come spiegato sulla pagina [Editazione delle funzioni](Feature_editing/it.md), u
 
 <img alt="" src=images/FreeCAD_topological_problem_21_independent_solids_all.png  style="width:" height="400px;">
 
-## Note finali 
+
+
+## Compromessi
 
 L\'aggiunta di oggetti di riferimento implica più lavoro per l\'utente, ma alla fine produce modelli più stabili che sono meno soggetti al problema di denominazione topologica.
 
@@ -107,6 +115,20 @@ Naturalmente, gli oggetti di riferimento possono essere creati prima che vengano
 I piani di riferimento possono anche essere basati su altri piani di riferimento. Ciò crea una catena di dipendenze che potrebbe anche portare a problemi topologici; tuttavia, poiché i piani di riferimento sono oggetti molto semplici, il rischio di avere questi problemi è inferiore rispetto a quando viene utilizzata la faccia di un oggetto solido come supporto.
 
 Gli oggetti di riferimento, [punti](PartDesign_Point/it.md), [linee](PartDesign_Line/it.md), [piani](PartDesign_Plane/it.md), ed i [sistemi di coordinate](PartDesign_CoordinateSystem/it.md), possono anche essere utili come geometrie di riferimento, ovvero come ausili visivi per mostrare le funzioni principali del modello, anche se nessuno schizzo è direttamente collegato ad essi.
+
+
+
+## Algoritmo di denominazione topologica 
+
+L\'algoritmo di denominazione topologica di Realthunder, descritto nel thread del forum [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278), che è stato selezionato per ridurre l\'impatto di questo problema, è stato ampiamente descritto come \"la soluzione al problema della denominazione topologica\". Questo ha involontariamente indotto molti utenti a pensare che non sarà più utile utilizzare tecniche come datum, posizionamento esplicito di schizzi, e [Modifica delle funzionalità](Feature_editing/it#Advice_for_creating_stable_models.md) per rendere i modelli più stabili. L\'algoritmo non è destinato a correggere ogni errore introdotto dall\'ambiguità della denominazione topologica. Piuttosto, ha tre scopi.
+
+1.  Il primo e più importante scopo è, quando possibile, **identificare** i riferimenti interrotti da cambiamenti topologici e visualizzare un errore all\'utente. Invece di dover eseguire una serie di operazioni per trovare la prima operazione che diverge dall\'intento progettuale, l\'operazione che modifica i nomi verrà normalmente contrassegnata con un errore, rendendo molto più semplice la correzione manuale dei problemi del modello introdotti dalle modifiche alle operazioni o parametri.
+2.  A volte, FreeCAD sarà in grado di identificare una **probabile** correzione per un riferimento interrotto, in modo che quando l\'utente corregge manualmente il riferimento interrotto contrassegnato, verrà presentato un candidato da accettare o modificare. Un esempio comune di ciò sono le operazioni di finitura come raccordi e smussi, in cui l\'utente potrebbe dover modificare l\'operazione e accettare la selezione della funzione di sostituzione proposta o modificarla per correggerla.
+3.  In alcuni casi, FreeCAD sarà in grado di risolvere **automaticamente** il riferimento interrotto, poiché sono memorizzate informazioni sufficienti sul riferimento per avere un\'elevata sicurezza che la sostituzione sia corretta. Ad esempio, quando si disegna direttamente su una faccia, l\'algoritmo spesso (ma non sempre) riparerà correttamente il riferimento alla faccia quando la geometria sottostante viene modificata parametricamente. (Quando si modifica la struttura, ad esempio aggiungendo o eliminando operazioni nel mezzo di un Corpo di Part Design, questo tipo di riparazione automatica sarà meno probabile.) Tuttavia, FreeCAD lo farà solo se c\'è elevata fiducia nella correttezza della riparazione, perché una riparazione automatica errata può riproporre il problema nuovamente dopo una successiva modifica. *Prima di tutto, non fare del male.*
+
+In FreeCAD 1.0, l\'implementazione di questo algoritmo nella versione ufficiale di FreeCAD ha raggiunto una parità di funzionalità con il fork \"Linkstage 3\" di Realthunder, sul quale egli ha originariamente sviluppato l\'algoritmo, al momento dell\'inizio del lavoro di integrazione. Ci sono nuove funzionalità di FreeCAD che potrebbero utilizzare l\'algoritmo ma ancora non lo fanno, e ci saranno sempre più opportunità per aggiungere correzioni candidate e riparazioni automatiche. Il lavoro iniziale ha fornito una \"struttura\" da utilizzare per questi ulteriori miglioramenti nel tempo, sia nel nucleo di FreeCAD che nei componenti aggiuntivi.
+
+
 
 ## Link
 
@@ -120,6 +142,10 @@ Gli oggetti di riferimento, [punti](PartDesign_Point/it.md), [linee](PartDesign_
 -   \[\[Feature_editing/it\|Editazione delle funzioni
 
 \]\]: consigli alternativi per tecniche di modellazione stabili.
+
+-   [Clarifying and expanding \"Topological Naming Problem\" documentation\"](https://forum.freecad.org/viewtopic.php?p=770360): Chiarimento delle aspettative per l\'algoritmo di denominazione topologica di Realthunder scelto per FreeCAD 1.0.
+
+
 
 ## Video
 

@@ -1,4 +1,7 @@
-# <img alt="Arch Arbeitsbereichssymbol" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/de
+# Arch Workbench/de
+**In v1.0 the BIM, Native-IFC and Arch Workbenches have been merged into the integrated [BIM Workbench](BIM_Workbench.md).**
+
+<img alt="Arch Arbeitsbereichssymbol" src=images/Workbench_Arch.svg  style="width:128px;">
 
 
 
@@ -7,7 +10,7 @@
 
 ## Einführung
 
-Der Arbeitsbereich <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md) (Architektur) stellt einen modernen Arbeitsablauf zur [Bauwerksdatenmodellierung](http://de.wikipedia.org/wiki/Building_Information_Modeling) (**B**uilding **I**nformation **M**odelling, kurz BIM) für FreeCAD zur Verfügung, mit Unterstützung für vollständig parametrische Architekturelemente wie Wände, Balken, Dächer, Fenster, Treppen, Rohre und Möbel. Er unterstützt [IFC-](Arch_IFC/de.md) ([**I**ndustry **F**oundation **C**lasses](http://de.wikipedia.org/wiki/Industry_Foundation_Classes)) Dateien und die Erstellung von 2D-Grundrissen in Kombination mit dem Arbeitsbereich <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;">[TechDraw](TechDraw_Workbench/de.md).
+The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md) provides a modern [**B**uilding **I**nformation **M**odelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) workflow to FreeCAD, with support for features like fully parametric architectural entities such as walls, beams, roofs, windows, stairs, pipes, and furniture. It supports [**I**ndustry **F**oundation **C**lasses](Arch_IFC.md) (IFC) files, and production of 2D floor plans in combination with the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
 
 Der Arbeitsbereich Arch importiert alle Werkzeuge des Arbeitsbereichs <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md), weil er dessen 2D-Objekte zur Erstellung von parametrischen 3D-Architekturobjekten benutzt. Trotzdem kann Arch auch Festkörperformen aus Arbeitsbereichen wie <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) und <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md) verwenden.
 
@@ -27,25 +30,25 @@ Dies sind Werkzeuge zum Erstellen von Architekturobjekten.
 
 -   <img alt="" src=images/Arch_Structure.svg  style="width:32px;"> [Struktur](Arch_Structure/de.md): Erstellt ein Strukturelement von Grund auf oder unter Verwendung eines ausgewählten Objekts als Basis.
 
--   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [AuswahlBewehrung](Arch_CompRebarStraight/de.md): Diese Werkzeuge stehen nur zur Verfügung, wenn der Arbeitsbereich [Reinforcement](Reinforcement_Workbench/de.md) (Bewehrung)installiert wurde.
+-   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Armierungswerkzeuge](Arch_CompRebarStraight/de.md): Diese Werkzeuge, außer dem letzten, stehen nur zur Verfügung, wenn der Arbeitsbereich [Reinforcement](Reinforcement_Workbench/de.md) (Bewehrung)installiert wurde.
 
-  - <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Geradlinige Bewehrung](Arch_Rebar_Straight/de.md): Erstellt einen geraden Bewehrungsstab in einem ausgewählten Strukturelement.
+  - <img alt="" src=images/Reinforcement_StraightRebar.svg  style="width:32px;"> [Gerade Bewehrung](Reinforcement_StraightRebar/de.md): Erstellt einen geraden Bewehrungsstab in einem ausgewählten Strukturelement.
 
-  - <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [U-förmige Bewehrung](Arch_Rebar_UShape/de.md): Erstellt einen U-förmigen Bewehrungsstab in einem ausgewählten Strukturelement.
+  - <img alt="" src=images/Reinforcement_UShapeRebar.svg  style="width:32px;"> [U-förmige Bewehrung](Reinforcement_UShapeRebar/de.md): Erstellt einen U-förmigen Bewehrungsstab in einem ausgewählten Strukturelement.
 
-  - <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [L-förmige Bewehrung](Arch_Rebar_LShape/de.md): Erstellt einen L-förmigen Bewehrungsstab in einem ausgewählten Strukturelement
+  - <img alt="" src=images/Reinforcement_LShapeRebar.svg  style="width:32px;"> [L-förmige Bewehrung](Reinforcement_LShapeRebar/de.md): Erstellt einen L-förmigen Bewehrungsstab in einem ausgewählten Strukturelement
 
-  - <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Bewehrungsbügel](Arch_Rebar_Stirrup/de.md): Erstellt einen Bewehrungsbügel in einem ausgewählten Strukturelement.
+  - <img alt="" src=images/Reinforcement_StirrupRebar.svg  style="width:32px;"> [Bewehrungsbügel](Reinforcement_StirrupRebar/de.md): Erstellt einen Bewehrungsbügel in einem ausgewählten Strukturelement.
 
-  - <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Abgesetzte Bewehrung](Arch_Rebar_BentShape/de.md): Erstellt einen Bewehrungsstab mit Absatz in einem ausgewählten Strukturelement.
+  - <img alt="" src=images/Reinforcement_BentShapeRebar.svg  style="width:32px;"> [Abgesetzte Bewehrung](Reinforcement_BentShapeRebar/de.md): Erstellt einen Bewehrungsstab mit Absatz in einem ausgewählten Strukturelement.
 
-  - <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Wendelbewehrung](Arch_Rebar_Helical/de.md): Erstellt eine Wendelbewehrung in einem ausgewählten Strukturelement.
+  - <img alt="" src=images/Reinforcement_HelicalRebar.svg  style="width:32px;"> [Wendelbewehrung](Reinforcement_HelicalRebar/de.md): Erstellt eine Wendelbewehrung in einem ausgewählten Strukturelement.
 
-  - <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Stützenbewehrung](Arch_Rebar_ColumnReinforcement/de.md): Erstellt Armierungen (Bewehrungsstäbe und Bewehrungsbügel) in einer ausgewählten rechteckigen Stütze.
+  - <img alt="" src=images/Reinforcement_ColumnRebars.svg  style="width:32px;"> [Stützenbewehrung](Reinforcement_ColumnRebars/de.md): Erstellt Armierungen (Bewehrungsstäbe und Bewehrungsbügel) in einer ausgewählten Stütze.
 
   - <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Balkenbewehrung](Arch_Rebar_BeamReinforcement/de.md): Erstellt Armierungen (Bewehrungsstäbe und Bewehrungsbügel) in einem ausgewählten Balken.
 
-  - <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Plattenbewehrung](Arch_Rebar_Slab_Reinforcement/de.md): Erstellt Bewehrungsstäbe in einer ausgewählten Platte.
+  - <img alt="" src=images/Reinforcement_SlabRebars.svg  style="width:32px;"> [Plattenbewehrung](Reinforcement_SlabRebars/de.md): Erstellt Bewehrungsstäbe in einer ausgewählten Platte.
 
   - <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Fundamentbewehrung](Arch_Rebar_Footing_Reinforcement/de.md): Erstellt Armierungen (Bewehrungsstäbe und Bewehrungsbügel) in einem ausgewählten Fundament.
 
@@ -61,37 +64,37 @@ Dies sind Werkzeuge zum Erstellen von Architekturobjekten.
 
 -   <img alt="" src=images/Arch_Building.svg  style="width:32px;"> [Building](Arch_Building.md): Erstellt ein Gebäude inklusive der ausgewählten Objekte.
 
--   <img alt="" src=images/Arch_Floor.svg  style="width:32px;"> [Level](Arch_Floor.md): Creates a floor including selected objects.
+-   <img alt="" src=images/Arch_Floor.svg  style="width:32px;"> [Stockwerk](Arch_Floor/de.md): Erstellt ein Geschoss inklusive der ausgewählten Objekte.
 
--   <img alt="" src=images/Arch_Reference.svg  style="width:32px;"> [External reference](Arch_Reference.md): Links objects from another FreeCAD file into the current document.
+-   <img alt="" src=images/Arch_Reference.svg  style="width:32px;"> [Externe Referenz](Arch_Reference/de.md): Verknüpft Objekte aus einer anderen FreeCAD-Datei mit dem aktuellen Dokument.
 
--   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Window](Arch_Window.md): Creates a window from scratch or using a selected object as a base.
+-   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Fenster](Arch_Window/de.md): Erstellt ein Fenster von Grund auf oder unter Verwendung eines ausgewählten Objekts als Basis.
 
--   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Roof](Arch_Roof.md): Creates a sloped roof from a selected wire.
+-   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Dach](Arch_Roof/de.md): Erstellt ein geneigtes Dach aus einer ausgewählten Polylinie.
 
--   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Axis tools](Arch_CompAxis.md)
+-   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Achsenwerkzeuge](Arch_CompAxis/de.md)
 
-  - <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Axis](Arch_Axis.md): Adds a 1-direction array of axes.
+  - <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Achse](Arch_Axis/de.md): Fügt eine eindimensionale Anordnung von Achsen hinzu.
 
-  - <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [Axis System](Arch_AxisSystem.md): Adds an axis system composed of several axes.
+  - <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [Achsensystem](Arch_AxisSystem/de.md): Fügt ein Achsensystem, das aus mehreren Achsen besteht, hinzu.
 
-  - <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Grid](Arch_Grid.md): Adds a grid-like object.
+  - <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Raster](Arch_Grid/de.md): Fügt ein gitterartiges Objekt hinzu.
 
--   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Section Plane](Arch_SectionPlane.md): Adds a section plane object.
+-   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Schnittebene](Arch_SectionPlane/de.md): Fügt eine Schnittebene (section plane object) hinzu.
 
--   <img alt="" src=images/Arch_Space.svg  style="width:32px;"> [Space](Arch_Space.md): Creates a space object.
+-   <img alt="" src=images/Arch_Space.svg  style="width:32px;"> [Raum](Arch_Space/de.md): Erstellt ein Raumobjekt.
 
--   <img alt="" src=images/Arch_Stairs.svg  style="width:32px;"> [Stairs](Arch_Stairs.md): Creates a stairs object.
+-   <img alt="" src=images/Arch_Stairs.svg  style="width:32px;"> [Treppe](Arch_Stairs/de.md): Erstellt eine Treppe (stairs object).
 
--   <img alt="" src=images/Arch_CompPanel.png  style="width:48px;"> [Panel tools](Arch_CompPanel.md)
+-   <img alt="" src=images/Arch_CompPanel.png  style="width:48px;"> [Plattenwerkzeuge](Arch_CompPanel/de.md)
 
-  - <img alt="" src=images/Arch_Panel.svg  style="width:32px;"> [Panel](Arch_Panel.md): Creates a panel object from a selected 2D object.
+  - <img alt="" src=images/Arch_Panel.svg  style="width:32px;"> [Platte](Arch_Panel/de.md): Erstellt ein Plattenobjekt aus einem ausgewählten 2D-Objekt.
 
-  - <img alt="" src=images/Arch_Panel_Cut.svg  style="width:32px;"> [Panel Cut](Arch_Panel_Cut.md): Creates a 2D cut view from a panel.
+  - <img alt="" src=images/Arch_Panel_Cut.svg  style="width:32px;"> [Plattenzuschnitt](Arch_Panel_Cut/de.md): Erstellt eine 2D-Zuschnittansicht von einer Platte.
 
-  - <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:32px;"> [Panel Sheet](Arch_Panel_Sheet.md): Creates a 2D cut sheet including panel cuts or other 2D objects.
+  - <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:32px;"> [Plattenzeichnung](Arch_Panel_Sheet/de.md): Erstellt eine 2D-Zuschnittzeichnung, die Plattenzuschnitte und andere 2D-Objekte enthält.
 
-  - <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Nest](Arch_Nest.md): Allows to nest several flat objects inside a container shape.
+  - <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Verschachteln](Arch_Nest/de.md): Ermöglicht mehrere ebene Objekte in einer Container-Form anzuordnen.
 
 -   <img alt="" src=images/Arch_Equipment.svg  style="width:32px;"> [Equipment](Arch_Equipment.md): Creates an equipment or furniture object.
 
@@ -113,9 +116,9 @@ Dies sind Werkzeuge zum Erstellen von Architekturobjekten.
 
 -   <img alt="" src=images/Arch_CompPipe.png  style="width:48px;"> [Pipe tools](Arch_CompPipe.md)
 
-  - <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Pipe](Arch_Pipe.md): Creates a pipe.
+-   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Rohr](Arch_Pipe/de.md): Erstellt eine Rohrleitung.
 
-  - <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Connector](Arch_PipeConnector.md): Creates a corner or T-connection between 2 or 3 selected pipes.
+-   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Rohrverbinder](Arch_PipeConnector/de.md): Erstellt eine Bogen- oder T-Verbindung zwischen 2 bzw 3 ausgewählten Rohrleitungen.
 
 
 
@@ -124,6 +127,8 @@ Dies sind Werkzeuge zum Erstellen von Architekturobjekten.
 Hier die Werkzeuge zur Änderung von Architekturobjekten:
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): Cuts an object according to a plane.
+
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line.
 
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component.
 
@@ -163,10 +168,6 @@ Hier sind zusätzliche Hilfsmittel für spezifische Aufgaben:
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
 
-## Obsolete tools 
-
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. Not available in <small>(v0.22)</small> .
-
 
 
 ### Einstellungen
@@ -205,4 +206,4 @@ Der Arbeitsbereich Arch kann mit den Funktionen der [Arch Python API](http://www
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/de
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Arch Workbench/de

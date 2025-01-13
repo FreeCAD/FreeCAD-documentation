@@ -65,6 +65,8 @@ Wenn du unter Windows kompilierst, ziehe es in Betracht, die [LibPack](#LibPack/
 
 ## Details
 
+
+
 ### Python
 
 **Version:** 3.3 oder höher
@@ -80,7 +82,7 @@ Python ist eine beliebte Allzweck-Skriptsprache, die unter Linux und Open-Source
 -   zum Schreiben von [Makros](macros/de.md) und zur Makroaufnahme,
 -   zur Implementierung von Anwendungslogik für Standardpakete,
 -   um Hilfswerkzeuge wie den [Addon-Manager](Std_AddonMgr/de.md) zu implementieren,
--   um ganze Arbeitsbereiche wie [Draft](Draft_Workbench/de.md) und [Arch](Arch_Workbench/de.md) zu implementieren,
+-   um ganze Arbeitsbereiche wie [Draft](Draft_Workbench/de.md) und [BIM](BIM_Workbench/de.md) zu implementieren,
 -   um Pakete dynamisch zu laden,
 -   die Regeln für Gestaltung umzusetzen (Wissensverarbeitung),
 -   um ausgefallene Internet Wechselwirkungen wie Arbeitsgruppen und PDM durchzuführen
@@ -139,9 +141,11 @@ Qt ist eines der populärsten Werkzeugsätze für grafische Benutzeroberflächen
 
 Weitere Informationen zu den Qt-Bibliotheken und deren Programmierdokumentation findest Du unter [Qt-Dokumentation](https://doc.qt.io/?hsCtaTracking=f641fd1a-772b-4957-964b-dad954b8d702%7C46c97dac-f1f6-49b3-ae46-8070fc35ea13).
 
-##### Shiboken2 und Pyside2 
 
-Shiboken ist der Python Bindungsgenerator, den Qt für Python zur Erstellung des PySide Moduls verwendet, d.h. es ist das System, das verwendet wird, um die Qt C++ API der Sprache Python auszusetzen.
+
+#### Shiboken2 und Pyside2 
+
+Shiboken ist der Python-Bindungsgenerator, den Qt für Python zur Erstellung des PySide-Moduls verwendet, d.h. es ist das System, das verwendet wird, um die Qt C++ API der Sprache Python auszusetzen.
 
 Die ursprünglichen Shiboken und PySide Pakete waren für die Verwendung mit Python 2 und Qt4 gedacht; da diese beiden Versionen 2019 als veraltet gelten, verwende bitte Shiboken2 und PySide2, die mit Python 3 und Qt5 funktionieren. Die Neuentwicklung von FreeCAD erfolgt mit Python 3 und Qt5, daher ist die Kompatibilität mit Python 2 und Qt4 nach FreeCAD 0.18 nicht mehr gewährleistet.
 
@@ -175,6 +179,8 @@ SoQt ist die Coin3D (Open Inventor) Anbindung an den Qt GUI Werkzeugkasten.
 
 SoQt wird in FreeCAD nicht mehr verwendet, es wurde durch Quarter ersetzt, welches eine neuere Qt Bindung ist.
 
+
+
 #### Quarter
 
 **Version:** 1.0 oder höher
@@ -189,7 +195,7 @@ Quarter ist eine neuere Coin3D Bindung an den Qt Werkzeugkasten. Eine Version da
 
 **Lizenz:** BSD 3-Klausel Lizenz
 
-[Pivy](Pivy/de.md) ist eine Bibliothek, die die Coin3d Bibliothek zur Verwendung in [Python](Python/de.md) umhüllt. Sie wird nicht benötigt, um FreeCAD zu bauen oder zu starten, aber sie wird als Laufzeit Abhängigkeit von der [Arbeitsbereich Entwurf](Draft_Workbench/de.md), und von anderen Arbeitsbereichen, die sie intern verwenden, wie [Arch](Arch_Workbench/de.md) und [BIM](BIM_Workbench/de.md) benötigt.
+[Pivy](Pivy/de.md) ist eine Bibliothek, die die Coin3d-Bibliothek zur Verwendung in [Python](Python/de.md) umhüllt. Sie wird nicht benötigt, um FreeCAD zu bauen oder zu starten, aber sie wird als Laufzeit-Abhängigkeit vom Arbeitsbereich [Draft](Draft_Workbench/de.md) und von anderen Arbeitsbereichen, die sie intern verwenden, wie [BIM](BIM_Workbench/de.md), benötigt.
 
 Wenn du diese Arbeitsbereiche nicht benutzen willst, brauchst du Pivy nicht.
 
@@ -257,11 +263,13 @@ A copy of this library is included in the source code of FreeCAD so it is compil
 
 Libarea ist eine Software Bibliothek zur Berechnung von Profil- und Taschenoperationen, die in der computerunterstützten Fertigung (CAM) eingesetzt werden. Sie wurde von Dan Heeks für sein HeeksCNC Projekt erstellt.
 
-Eine Kopie der Bibliothek ist im Quellcode der [Path Arbeitsbereich](Path_Workbench.md) enthalten, so dass sie zusammen mit dieser kompiliert wird.
+Eine Kopie der Bibliothek ist im Quellcode des Arbeitsbereichs [CAM](CAM_Workbench.md) enthalten, so dass sie zusammen mit diesem kompiliert wird.
 
-## LibPack
 
-LibPack ist ein praktisches Paket mit den gesammelten Bau Abhängigkeiten von FreeCAD. Es wird nur benötigt, wenn Du FreeCAD unter Windows mit Visual Studio 2015 und höher kompilierst. Du kannst das aktuelle LibPack auf der [releases page](https://github.com/FreeCAD/FreeCAD/releases) finden.
+
+### LibPack
+
+LibPack ist ein praktisches Paket mit den gesammelten Bau-Abhängigkeiten von FreeCAD. Es wird nur benötigt, wenn Du FreeCAD unter Windows mit Visual Studio 2015 und höher kompilierst. Du kannst das aktuelle LibPack auf der [Releases-Page](https://github.com/FreeCAD/FreeCAD/releases) finden.
 
 Wenn du unter Linux arbeitest, brauchst du das LibPack nicht, da du die Abhängigkeiten aus den Repositorien deiner Distribution beziehen kannst, wie auf der [Kompilieren unter Linux](Compile_on_Linux/de.md)-Seite erwähnt.
 

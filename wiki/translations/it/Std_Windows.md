@@ -23,7 +23,7 @@ Il comando **Finestre** apre una finestra di dialogo con un elenco di finestre d
 ## Utilizzo
 
 1.  Selezionare l\'opzione **Finestre → <img src="images/Std_Windows.svg" width=16px> Finestre...** dal menu.
-2.  Si apre la finestra di dialogo Scegli finestra.
+2.  Si apre la finestra di dialogo **Scegli finestra**.
 3.  Effettuare una delle seguenti operazioni:
     -   Selezionare una finestra nell\'elenco e premere il pulsante **Attiva**.
     -   Fare doppio clic su una finestra nell\'elenco.
@@ -40,13 +40,13 @@ Il comando **Finestre** apre una finestra di dialogo con un elenco di finestre d
 
 ## Note
 
--   Le finestre dell\'[Area della vista principale](Main_view_area.md) sono elencate anche nel menu **Finestre** e possono essere attivate da lì.
+-   Le prime 10 finestre dell\'area di visualizzazione principale sono elencate anche nel menu **Finestre** e possono essere attivate da lì.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

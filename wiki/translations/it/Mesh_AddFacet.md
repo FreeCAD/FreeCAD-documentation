@@ -13,9 +13,11 @@
 
 ## Descrizione
 
-The **Mesh AddFacet** command adds faces along a boundary of an open mesh object. It can be used to fill holes.
+Il comando **Mesh AddFacet** aggiunge delle facce lungo il bordo di un oggetto mesh aperto. Può essere utilizzato per riempire i buchi.
 
-## Usage
+
+
+## Utilizzo
 
 1.  During the command edit mode will be active. In this mode it is impossible to rotate or pan the [3D view](3D_view.md), although zooming still works. But you can temporarily switch out of edit mode with the [Std ToggleNavigation](Std_ToggleNavigation.md) command should you need to change the view.
 2.  Select a single open mesh object.
@@ -42,7 +44,9 @@ The **Mesh AddFacet** command adds faces along a boundary of an open mesh object
 7.  Optionally add more faces.
 8.  Choose **Finish** from the 3D view contex menu to finish the command.
 
-## Notes
+
+
+## Note
 
 -   For a clear indication of the orientation of the faces of mesh objects make sure the **Lighting** property of the mesh objects is set to {{Value|One side}}. The color of the back side of their faces will then depend on the backlight settings: **Edit → Preferences... → Display → 3D View → Backlight color - Intensity**. See: [Preferences Editor](Preferences_Editor#3D_View.md).
 

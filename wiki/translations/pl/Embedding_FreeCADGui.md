@@ -1,15 +1,17 @@
 # Embedding FreeCADGui/pl
-## Introduction
+## Wprowadzenie
 
-It is possible to [import the FreeCAD module](Embedding_FreeCAD.md) into a [Python](Python.md) application, and use all its tools from the host application, but the graphical user interface (GUI) can be imported as a Python module as well. Normally you can only import the complete interface as a whole, not pieces of it; this is because the FreeCAD interface system is not only made of independent widgets and toolbars, but is a complex construction where several invisible components (such as the selection system, etc) are needed for the main [3D view](3D_view.md) to be able to function.
+Możliwy jest [import modułu FreeCAD](Embedding_FreeCAD/pl.md) do środowiska [Python](Python/pl.md) i korzystanie ze wszystkich jego narzędzi z aplikacji hosta, ale graficzny interfejs użytkownika *(GUI)* może być również importowany jako moduł Python. Zwykle można importować tylko kompletny interfejs jako całość, a nie jego fragmenty. Dzieje się tak dlatego, że system interfejsu FreeCAD składa się nie tylko z niezależnych widżetów i pasków narzędzi, ale jest złożoną konstrukcją, w której kilka niewidocznych komponentów *(takich jak system wyboru itp.)* jest potrzebnych do funkcjonowania głównego [3D view](3D_view/pl.md).
 
-But, with a bit of hacking, it is possible to import the whole FreeCAD interface, then move the 3D view from it to your own Qt application. We show here 3 different methods.
+Jednak przy odrobinie hakowania możliwe jest zaimportowanie całego interfejsu FreeCAD, a następnie przeniesienie z niego widoku 3D do własnej aplikacji Qt. Pokażemy tutaj 3 różne metody.
 
-## Using the FreeCAD 3D view widget directly 
 
-Be aware that there are a lot of problems with this approach. The Qt event handling doesn\'t seem to work (no idea why) and if you use the 3d view\'s context-menu the application crashes. A better way could be to create your own 3d view SoQtExaminerViewer or SoQtViewer and \"push\" the content of FreeCAD\'s 3d view to your view, as shown in the other sections below.
 
-First, get the main window via [PySide](PySide.md): 
+## Bezpośrednie użycie widżetu widoku FreeCAD 3D 
+
+Należy pamiętać, że istnieje wiele problemów z tym podejściem. Obsługa zdarzeń Qt wydaje się nie działać *(nie mam pojęcia dlaczego)*, a jeśli użyjesz menu kontekstowego widoku 3D, aplikacja się zawiesi. Lepszym sposobem może być stworzenie własnego widoku 3D SoQtExaminerViewer lub SoQtViewer i \"wypchnięcie\" zawartości widoku 3D FreeCAD do swojego widoku, jak pokazano w innych sekcjach poniżej.
+
+Najpierw pobierz główne okno przez [PySide](PySide/pl.md): 
 ```python
 from PySide import QtGui
 from PySide import QtCore
@@ -24,7 +26,7 @@ def getMainWindow():
 mw = getMainWindow()
 ```
 
-Then get the View3DInventor view the same way: 
+Następnie uzyskaj widok View3DInventor w ten sam sposób: 
 ```python
 def get3dview(mw):
       childs=mw.findChildren(QtGui.QMainWindow)
@@ -36,7 +38,7 @@ def get3dview(mw):
 v = get3dview(mw)
 ```
 
-The following code is generated automatically, by [creating a Ui-file with QtDesigner](Dialog_creation.md), and converting it to python code with the pyuic tool: 
+Poniższy kod jest generowany automatycznie przez [tworzenie pliku Ui za pomocą QtDesigner](Dialog_creation/pl.md) i konwertowanie go na kod Python za pomocą narzędzia pyuic: 
 ```python
 # -*- coding: utf-8 -*-
 
@@ -82,7 +84,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(QtGui.QApplication.translate("MainWindow", "MainWindow", None, QtGui.QApplication.UnicodeUTF8))
 ```
 
-Then, create a main window that should be your application\'s main window, apply the UI setup above to it in order to add an MDI area and \"move\" our [3D view](3D_view.md) to it. 
+Następnie utwórz główne okno, które powinno być głównym oknem aplikacji, zastosuj do niego powyższą konfigurację interfejsu użytkownika, aby dodać obszar MDI i \"przenieś\" do niego nasz [widok 3D](3D_view/pl.md). 
 ```python
 ui = Ui_MainWindow()
 my_mw = QtGui.QMainWindow()
@@ -91,9 +93,11 @@ ui.mdiArea.addSubWindow(v)
 my_mw.show()
 ```
 
-## Creating a soGui Examiner Viewer 
 
-Alternatively, you can also use the FreeCADGui module to extract a OpenInventor (Coin) representation of the objects of your scene, then use that data in an external viewer (your application). Here is an easy way to get the 3D representation of an object. 
+
+## Tworzenie przeglądarki egzaminatora soGui 
+
+Alternatywnie można również użyć modułu FreeCADGui do wyodrębnienia reprezentacji OpenInventor *(Coin)* obiektów sceny, a następnie użyć tych danych w zewnętrznej przeglądarce *(aplikacji)*. Oto prosty sposób na uzyskanie reprezentacji 3D obiektu. 
 ```python
 from pivy import coin
 import FreeCAD as App
@@ -105,7 +109,7 @@ inp.setBuffer(s)
 myNode = coin.SoDB.readAll(inp)  # restore from string
 ```
 
-Then, create a standalone viewer with [Pivy](Pivy.md): 
+Następnie utwórz samodzielną przeglądarkę za pomocą [Pivy](Pivy/pl.md): 
 ```python
 from pivy.sogui import *
 from pivy.coin import *
@@ -134,14 +138,16 @@ def myViewer():
     SoGui.mainLoop()     # Main Coin event loop
 ```
 
-Then you just need to run your viewer: 
+Następnie wystarczy uruchomić przeglądarkę: 
 ```python
 myViewer()
 ```
 
-## Using the quarter module 
 
-Instead of using the sogui viewer, you can also use the more modern quarter module. This is generally the best of the three options. 
+
+## Korzystanie z modułu quarter 
+
+Zamiast korzystać z przeglądarki sogui, można również użyć bardziej nowoczesnego modułu quarter. Jest to ogólnie najlepsza z trzech opcji. 
 ```python
 #!/usr/bin/env python
  
@@ -313,9 +319,11 @@ if __name__ == '__main__':
     main()
 ```
 
-## Without even firing up the FreeCAD Gui 
 
-Starting from FreeCAD rev2760 (2010, [1](https://forum.freecadweb.org/viewtopic.php?f=8&t=203&start=20#p1226)), it is now possible to obtain the coin representation of any FreeCAD object without opening the main window. This makes it extremely easy to implement your own viewer and transparently have FreeCAD updating it. After importing the `FreeCADGui` module, you need to fire it up with the `setupWithoutGUI()` method, after which you can use all of FreeCAD\'s view providers to obtain OpenInventor (Coin) nodes. 
+
+## Nawet bez uruchamiania GUI FreeCAD 
+
+Począwszy od FreeCAD rev2760 *(2010, [1](https://forum.freecadweb.org/viewtopic.php?f=8&t=203&start=20#p1226))*, możliwe jest teraz uzyskanie reprezentacji coin dowolnego obiektu FreeCAD bez otwierania głównego okna. Dzięki temu niezwykle łatwo jest zaimplementować własną przeglądarkę i w przejrzysty sposób aktualizować ją przez FreeCAD. Po zaimportowaniu modułu `FreeCADGui`, należy go uruchomić za pomocą metody `setupWithoutGUI()`, po czym można użyć wszystkich dostawców widoków FreeCAD do uzyskania węzłów OpenInventor *(Coin)*. 
 ```python
 import os, sys, FreeCAD, FreeCADGui
 from PyQt4 import QtCore, QtGui
@@ -381,7 +389,7 @@ if __name__ == '__main__':
     main()
 ```
 
-Or, if using pivy\'s sogui module doesn\'t work for you (the sogui module is becoming obsoleted and the coin developers are now favoring the new quarter library, which has much better interaction with qt), this is the same script but with using quarter: 
+Lub, jeśli użycie modułu sogui pivy nie działa *(moduł sogui staje się przestarzały, a programiści coin preferują teraz nową bibliotekę quarter, która ma znacznie lepszą interakcję z qt)*, tutaj jest ten sam skrypt, ale z użyciem quarter: 
 ```python
 #!/usr/bin/env python
  
@@ -468,15 +476,17 @@ if __name__ == '__main__':
     main()
 ```
 
-## Additional information 
 
--   [Embedding a view to another (QT) application?](https://forum.freecadweb.org/viewtopic.php?f=8&t=203)
--   [Using Gui functions without Gui.showMainWindow() in python script](https://forum.freecadweb.org/viewtopic.php?t=12575)
--   [Acess Scenegraph through python API in without Gui mode](https://forum.freecadweb.org/viewtopic.php?t=14912)
--   [FreeCAD Hangs When Called from Python](https://forum.freecadweb.org/viewtopic.php?p=190353)
--   [Problem with FreeCADGui](https://forum.freecadweb.org/viewtopic.php?t=41697)
 
-In the source code there are examples of embedding FreeCAD with various graphical toolkits:
+## Informacje dodatkowe 
+
+-   [Osadzanie widoku w innej aplikacji (QT)?](https://forum.freecadweb.org/viewtopic.php?f=8&t=203)
+-   [Używanie funkcji Gui bez Gui.showMainWindow() w skrypcie Pythona](https://forum.freecadweb.org/viewtopic.php?t=12575)
+-   [Dostęp do Scenegraph przez API Pythona bez trybu Gui](https://forum.freecadweb.org/viewtopic.php?t=14912)
+-   [FreeCAD zawiesza się po wywołaniu z Pythona](https://forum.freecadweb.org/viewtopic.php?p=190353)
+-   [Problem z FreeCADGui](https://forum.freecadweb.org/viewtopic.php?t=41697)
+
+W kodzie źródłowym znajdują się przykłady osadzania FreeCAD z różnymi zestawami narzędzi graficznych:
 
 -   [src/Tools/embedded](https://github.com/FreeCAD/FreeCAD/tree/master/src/Tools/embedded)
 

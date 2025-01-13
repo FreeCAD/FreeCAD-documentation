@@ -33,23 +33,13 @@ Polecenie **Scal projekt** dodaje zawartość pliku FreeCAD do aktywnego dokumen
 ## Uwagi
 
 -   Projekt nie może być łączony z samym sobą, wybieranie bieżącego pliku jest niedozwolone.
--   FreeCAD automatycznie zmieni wewnętrzne nazwy oraz, w zależności od preferencji, etykiety obiektów, aby uniknąć konfliktów nazw.
-
-
-
-## Ustawienia
-
--   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferencje → Ogólne → FileOpenSavePath**.
--   Duplikaty etykiet są dozwolone, jeśli parametr **Przybory → Edycja parametrów ... → BaseApp → Preferencje → Dokument → DuplicateLabels** jest ustawiony na wartość {{TRUE/pl}}. To ustawienie można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
+-   FreeCAD automatycznie zmieni wewnętrzne nazwy oraz, w zależności od [preferencji](Preferences_Editor/pl#Dokument.md), etykiety obiektów, aby uniknąć konfliktów nazw.
 
 
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby scalić obiekt, należy użyć metody `mergeProject` obiektu *document*.
 
@@ -64,7 +54,7 @@ FreeCAD.ActiveDocument.mergeProject("Path_to_FCStd_project_file")
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

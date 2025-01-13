@@ -1,6 +1,6 @@
 ---
  GuiCommand:
-   Name: TechDraw Dimension Angle3Pt
+   Name: TechDraw 3PtAngleDimension
    Name/de: TechDraw Winkelmaß3Punkte
    MenuLocation: TechDraw, Maßeinträge , Winkelmaß über 3 Punkte einfügen
    Workbenches: TechDraw_Workbench/de
@@ -26,7 +26,13 @@ Das Werkzeug **TechDraw Winkelmaß3Punkte** fügt einer Ansicht ein Winkelmaß h
 1.  Drei Punkte auswählen. Der zweite Punkt ist Scheitelpunkt des Winkels. Die Geometrie kann in der [3D-Ansicht](3D_view/de.md) oder auf der Zeichnung ausgewählt werden.
 2.  Wurde Geometrie in der 3D-Ansicht ausgewählt, muss die korrekte TechDraw-Ansicht durch Auswählen in der [Baumansicht](Tree_view/de.md) zur Auswahl hinzugefügt werden.
 3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-    -   Die Schaltfläche **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> [Winkelmaß über 3 Punkte einfügen](TechDraw_3PtAngleDimension/de.md)** drücken.
+    -   
+        {{Version/de|1.0}}
+        
+        : Ist die [Einstellung](TechDraw_Preferences/de#Maßeinträge.md) **Maß-Werkzeuge** auf {{Value|Einzelnes Werkzeug}} (Standardeinstellung) gesetzt: Den Nach-unten-Pfeil rechts neben der Schaltfläche **<img src="images/TechDraw_Dimension.svg" width=|x16px> <img src="images/Toolbar_flyout_arrow.svg" width=x16px>** drücken und die Menüoption **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> Winkelmaß über 3 Punkte einfügen** in der Ausklappliste auswählen.
+
+    -   Hat die Einstellung einen anderen Wert (und in {{VersionMinus/de|0.21}}): Die Schaltfläche **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> [Winkelmaß über 3 Punkte einfügen](TechDraw_3PtAngleDimension/de.md)** drücken.
+
     -   Den Menüeintrag **TechDraw → Maßeinträge → <img src="images/TechDraw_3PtAngleDimension.svg" width=16px> Winkelmaß über 3 Punkte einfügen** auswählen.
 4.  Ein Maß wird der Ansicht hinzugefügt.
 5.  Das Maß kann an die gewünschte Position gezogen werden.
@@ -66,7 +72,7 @@ Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Eigenschaften.md).
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

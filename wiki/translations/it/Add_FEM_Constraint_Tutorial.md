@@ -14,24 +14,28 @@
 
 
 
-## Introduction
 
-In questo tutorial aggiungeremo a FreeCAD il vincolo di velocità del flusso e implementeremo il supporto per il risolutore Elmer. Prima di leggere questo tutorial è necessario aver letto e compreso il tutorial [ Estendere il modulo FEM](Extend_FEM_Module/it.md).
 
-This tutorial only covers how to implement constraints in Python. In contrast to solver and equations, constraints follow the classic FEM module structure. That is, all modules of a constraint have their place in either the {{Incode|femobjects}} or {{Incode|femviewprovider}} package.
+## Introduzione
+
+In questo tutorial, aggiungeremo a FreeCAD il vincolo di velocità del flusso e implementeremo il supporto per il risolutore Elmer. Prima di leggere questo tutorial è necessario aver letto e compreso il tutorial [ Estendere il modulo FEM](Extend_FEM_Module/it.md).
+
+Questo tutorial riguarda solo come implementare i vincoli in Python. A differenza del solutore e delle equazioni, i vincoli seguono la classica struttura del modulo FEM. Cioè, tutti i moduli di un vincolo hanno il loro posto nel pacchetto {{Incode|femobjects}} o {{Incode|femviewprovider}}.
 
 
 
 ## Sommario
 
-1.  **Create document object:** The document object that resides inside the analysis and through which the constraint can be parametrized and attached to boundaries.
-2.  **Create GUI command:** Add a command to the FEM workbench that adds a flow constraint to the active analysis.
-3.  **Create a task panel:** The task panel is necessary to allow the user to set the boundaries at which he wants to set the velocity constraint. It also makes entering the parameters a little more user-friendly.
-4.  **Extend Elmer\'s writer:** Add support for the new constraint to Elmer by extending its sif file exporter.
+1.  **Creare un oggetto documento:** L\'oggetto documento che risiede all\'interno dell\'analisi e attraverso il quale il vincolo può essere parametrizzato e collegato ai confini.
+2.  **Creare un comando GUI:** Aggiungere un comando al workbench FEM che aggiunge un vincolo di flusso all\'analisi attiva.
+3.  **Creare un pannello delle attività:** Il pannello delle attività è necessario per consentire all\'utente di impostare i limiti entro i quali deve stare il vincolo di velocità. Inoltre, l\'immissione dei parametri risulta un po\' più facile da attuare.
+4.  **Estendere il writer di Elmer:** Aggiungere il supporto per il nuovo vincolo a Elmer estendendo il suo esportatore di file sif.
 
-## Create document object 
 
-In this step we are going to modify the following files:
+
+## Creare un oggetto documento 
+
+In questo passaggio modificheremo i seguenti file:
 
 -    **src/Mod/Fem/CMakeLists.txt**
     
@@ -42,7 +46,7 @@ In this step we are going to modify the following files:
 -    **src/Mod/Fem/ObjectsFem.py**
     
 
-And add the following files:
+E aggiungeremo i seguenti file:
 
 -    **src/Mod/Fem/femobjects/constraint_flowvelocity.py**
     
@@ -50,7 +54,7 @@ And add the following files:
 -    **src/Mod/Fem/femviewprovider/view_constraint_flowvelocity.py**
     
 
-A document proxy and a view proxy are required for the new constraint. Those reside in separate modules. The document proxy in femobjects and the view proxy in femviewprovider. Just copy the modules from an existing constraint e.g.:
+Per il nuovo vincolo sono necessari un proxy di documento e un proxy di vista. Questi risiedono in moduli separati. Il proxy del documento in femobjects e il proxy della vista in femviewprovider. Basta copiare i moduli da un vincolo esistente, ad esempio:
 
 -    **femobjects/constraint_selfweight.py**
     
@@ -58,7 +62,7 @@ A document proxy and a view proxy are required for the new constraint. Those res
 -    **femviewprovider/view_constraint_selfweight.py**
     
 
-Adjust the Type variable and the properties to your needs. The document proxy of the flow constraint looks like the following:
+Adattare la variabile Type e le proprietà alle proprie esigenze. Il documento proxy del vincolo di flusso è simile al seguente:
 
 
 ```python
@@ -89,7 +93,7 @@ class Proxy(FemConstraint.Proxy):
             "Parameter", "Body heat flux")
 ```
 
-The module containing the view proxy might look a little more complicated. But for now just adjust the icon path. We are going to come back to this file in later steps of the tutorial.
+Il modulo contenente il proxy di visualizzazione potrebbe sembrare un po\' più complicato. Ma per ora impostare semplicemente il path dell\'icona. Si tornerà su questo file nei passaggi successivi del tutorial.
 
 
 ```python
@@ -98,9 +102,9 @@ class ViewProxy(FemConstraint.ViewProxy):
         return ":/icons/fem-constraint-flow-velocity.svg"
 ```
 
-Add the two new modules to the build system as described in [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). Locate the correct list by searching for constraint modules.
+Aggiungere i due nuovi moduli al sistema di built come descritto in [ Estendere il modulo FEM](Extend_FEM_Module/it.md). Individuare l\'elenco corretto cercando i moduli dei vincoli.
 
-As all objects of the FEM workbench, the velocity constraint must be registered in {{Incode|ObjectsFem.py}}. The following method adds a velocity constraint to the active document. This method will be used by the GUI command to add the constraint. It must be inserted somewhere in {{Incode|ObjectsFem.py}}.
+Come per tutti gli oggetti dell\'ambiente FEM, il vincolo di velocità deve essere registrato in {{Incode|ObjectsFem.py}}. Il seguente metodo aggiunge un vincolo di velocità al documento attivo. Questo metodo verrà utilizzato dal comando GUI per aggiungere il vincolo. Deve essere inserito da qualche parte in {{Incode|ObjectsFem.py}}.
 
 
 ```python
@@ -114,9 +118,11 @@ def makeConstraintFlowVelocity(name="FlowVelocity"):
     return obj
 ```
 
-## Create GUI command 
 
-In this step we are going to modify the following files:
+
+## Creare un comando GUI 
+
+In questo passaggio modificheremo i seguenti file:
 
 -    **src/Mod/Fem/CMakeLists.txt**
     
@@ -127,12 +133,12 @@ In this step we are going to modify the following files:
 -    **src/Mod/Fem/Gui/Workbench.cpp**
     
 
-And add the following new file:
+E aggiungeremo il seguente nuovo file:
 
 -    **src/Mod/Fem/femobjects/constraint_flowvelocity.py**
     
 
-The command allows the user to actually add the constraint to the active analysis. Just copy a command from an existing constraint. Commands reside in the {{Incode|femviewprovider}} package. Adjust the resources attribute and the make method called in Activated to your needs. Also use a different command id in the addCommand call on the bottom of the module. The following class is the command class of the velocity constraint.
+Il comando consente all\'utente di aggiungere effettivamente il vincolo all\'analisi attiva. Basta copiare un comando da un vincolo esistente. I comandi risiedono nel pacchetto {{Incode|femviewprovider}}. Adattare l\'attributo resources e il metodo make chiamato in Activated alle proprie esigenze. Utilizzare anche un ID comando diverso nella chiamata addCommand nella parte inferiore del modulo. La classe seguente è la classe per il comando del vincolo di velocità.
 
 
 ```python
@@ -161,22 +167,24 @@ class Command(FemCommands.FemCommands):
 Gui.addCommand('FEM_AddConstraintFlowVelocity', Command())
 ```
 
-Add the new command file to the build system as decripted in [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). Locate the correct list be searching for existing command modules.
+Aggiungere il nuovo file di comando al sistema di compilazione come descritto in [ Estendere il modulo FEM](Extend_FEM_Module/it.md). Individuare l\'elenco corretto da cercare per i moduli di comando esistenti.
 
-Put the command into Gui/Workbench.cpp to add it to the toolbar and menu. Search for an existing constraint of the same category as the new one (e.g. Flow) copy-paste it and adjust the command id. This should be done two times. Once for the menu and again for the toolbar.
+Inserire il comando in Gui/Workbench.cpp per aggiungerlo alla barra degli strumenti e al menu. Cercare un vincolo esistente della stessa categoria di quello nuovo (ad esempio Flow), copiarlo e incollarlo e modificare l\'ID del comando. Questo dovrebbe essere fatto per due volte. Una volta per il menu e un\'altra per la barra degli strumenti.
 
-## Create a task panel 
 
-In this step, we are going to modify the following file:
+
+## Creare un pannello delle attività 
+
+In questo passaggio modificheremo i seguenti file:
 
 -    **src/Mod/Fem/femviewprovider/view_constraint_flowvelocity.py**
     
 
-In FreeCAD, constraint objects benefit greatly from task panels. Task panels can make use of more powerful input widgets that expose the unit of entered values directly to the user. The velocity constraint even requires the use of a task panel since a task panel is the only way of specifying the face(s) on which the constraint shall be applied.
+In FreeCAD, gli oggetti vincolo traggono grandi vantaggi dai pannelli attività. I pannelli attività possono utilizzare widget di input più potenti che espongono l\'unità dei valori immessi direttamente all\'utente. Il vincolo di velocità richiede anche l\'uso di un pannello delle attività poiché un pannello delle attività è l\'unico modo per specificare la faccia o le facce su cui deve essere applicato il vincolo.
 
-The location of the module in which task panels are implemented is not strictly defined. For the velocity constraint, we are just going to put the task panel in the same module where we put the view proxy. The task panel is quite complicated. It makes use of the FemSolectionWidgets.BoundarySelector(). That\'s a qt widget that allows the user to select the boundaries on which the constraint shall be applied. In addition to this widget, it generates another one by loading a UI file specifically created for the velocity constraint. Via this widget, the velocity vector can be specified.
+La posizione del modulo in cui sono implementati i pannelli attività non è definita in modo rigoroso. Per il vincolo di velocità, inseriremo semplicemente il pannello delle attività nello stesso modulo in cui inseriamo il proxy di visualizzazione. Il pannello delle attività è piuttosto complicato. Fa uso di FemSolectionWidgets.BoundarySelector(). Si tratta di un widget qt che consente all\'utente di selezionare i confini su cui applicare il vincolo. Oltre a questo widget, ne genera un altro caricando un file UI creato appositamente per il vincolo di velocità. Tramite questo widget è possibile specificare il vettore velocità.
 
-Most of the time it should be sufficient to just copy this class, use a suitable UI file (instead of TaskPanelFemFlowVelocity.ui) and adjust \_initParamWidget() as well as \_applyWidgetChanges(). If the new constraint requires bodies as references instead of boundaries just replace the BoundarySelector object with the SolidSelector.
+Nella maggior parte dei casi dovrebbe essere sufficiente copiare semplicemente questa classe, utilizzare un file UI adatto (invece di TaskPanelFemFlowVelocity.ui) e regolare \_initParamWidget() e \_applyWidgetChanges(). Se il nuovo vincolo richiede corpi come riferimenti anziché confini, basta sostituire l\'oggetto BoundarySelector con SolidSelector.
 
 
 ```python
@@ -264,7 +272,7 @@ class _TaskPanel(object):
         self._obj.NormalToBoundary = self._paramWidget.normalBox.isChecked()
 ```
 
-The view proxy must be extended to support the task panel we just implemented. The following extended view proxy opens the task panel when the user makes a double-click on the constraint object in the tree view.
+Il proxy di visualizzazione deve essere esteso per supportare il pannello delle attività appena implementato. Il seguente proxy di visualizzazione estesa apre il pannello delle attività quando l\'utente fa doppio clic sull\'oggetto vincolo nella visualizzazione ad albero.
 
 
 ```python
@@ -287,14 +295,16 @@ class ViewProxy(FemConstraint.ViewProxy):
         return True
 ```
 
-## Extend Elmer\'s writer 
 
-In this step we are going to modify the following file:
+
+## Estendere il writer di Elmer 
+
+In questo passaggio modificheremo i seguenti file:
 
 -    **src/Mod/Fem/femsolver/elmer/writer.py**
     
 
-The writer module contains methods for all equation types. Depending on the type of the constraint, boundary condition, initial condition or body force one has to modify different methods. For our flow velocity we have to adjust {{Incode|_handleFlowBndConditions(...)}}.
+Il modulo writer contiene metodi per tutti i tipi di equazioni. A seconda del tipo di vincolo, condizione al contorno, condizione iniziale o forza del corpo è necessario modificare metodi diversi. Per la nostra velocità del flusso dobbiamo impostare {{Incode|_handleFlowBndConditions(...)}}.
 
 
 ```python

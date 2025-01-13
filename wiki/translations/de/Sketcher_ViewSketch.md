@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Sketcher ViewSketch
    Name/de:  Sketcher SkizzeAnzeigen
-   MenuLocation:  Sketch , Skizze anzeigen
-   Workbenches: Sketcher_Workbench/de, PartDesign_Workbench/de
+   MenuLocation:  Skizze , Skizze anzeigen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **Q** **P**
 ---
 
@@ -13,16 +13,18 @@
 
 ## Beschreibung
 
-Dieses Werkzeug setzt die Modellansicht lotrecht zur Skizzenebene. Das ist sinnvoll, wenn der Benutzer die Ausrichtung der Modellansicht geändert hat, um einen anderen Bereich des Modells zu untersuchen und zu einer Ansicht normal zur Skizze zurückkehren will.
+Das Werkzeug <img alt="" src=images/Sketcher_ViewSketch.svg  style="width:16px;"> [Sketcher SkizzeAnzeigen](Sketcher_ViewSketch/de.md) richtet die [3D-Ansicht](3D_view/de.md) zur Skizzenebene aus. Die Ansicht wird so gedreht, dass die Richtung der Ansicht normal auf der Skizzenebene steht und die X-Achse horizontal verläuft. Das ist nützlich, wenn der Benutzer die Ausrichtung der Modellansicht geändert hat, um einen anderen Bereich des Modells zu untersuchen und zur Standardansicht der Skizze zurückkehren möchte.
 
 
 
 ## Anwendung
 
-Solange der Skizzenbearbeitungsmodus aktiv ist, gibt es mehrere Möglichkeiten diesen Befehl aufzurufen:
+Siehe auch: [Sketcher Einstellungen](Sketcher_Preferences/de#Anzeige.md).
 
--   Auf das Symbol **[<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Skizze anzeigen](Sketcher_ViewSketch/de.md)** in der Werkzeugleiste des Arbeitsbereiches Sketcher oder PartDesign klicken.
--   Den Menüeintrag **Sketch → [<img src=images/Sketcher_ViewSketch.svg style="width:16px"> Skizze anzeigen** auswählen.
+1.  Dieses Werkzeug steht nur zur Verfügung, wenn sich eine Skizze im [Bearbeitungsmodus](Sketcher_EditSketch/de.md) befindet.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_ViewSketch.svg" width=16px> [Skizze anzeigen](Sketcher_ViewSketch/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → <img src="images/Sketcher_ViewSketch.svg" width=16px> Skizze anzeigen** auswählen.
 
 
 

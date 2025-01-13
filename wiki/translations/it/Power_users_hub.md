@@ -86,7 +86,7 @@ Le funzionalità di FreeCAD sono suddivise in moduli che trattano tipi specifici
 
 -   [Script di oggetti](Scripted_objects/it.md): come realizzare oggetti con script Python al 100%.
     -   [Oggetti creati da script con parti associate](Scripted_objects_with_attachment/it.md): come rendere gli oggetti creati da script associabili ad altri oggetti.
-    -   [Oggetti creati da script che salvano gli attributi](Scripted_objects_saving_attributes/it.md): come salvare e ripristinare gli attributi della classe proxy con `__getstate__` e `__setstate__`.
+    -   [Oggetti creati da script che salvano gli attributi](Scripted_objects_saving_attributes/it.md): come salvare e ripristinare gli attributi della classe proxy con `dumps` e `loads`.
     -   [Migrazione di oggetti creati da script](Scripted_objects_migration/it.md): come migrare dei vecchi oggetti creati da script in una nuova classe.
 
 
@@ -157,8 +157,6 @@ I seguenti sono due riferimenti specifici di PyQt (non di PySide) che possono of
 Nel [Portale della comunità](FreeCAD_Community_Portal/it.md), è possibile trovare altri progetti basati su FreeCAD e gestiti dalla comunità degli utenti di FreeCAD. Quando si avvia un nuovo progetto con FreeCAD, ricordarsi di riferirlo nel Portale!
 
 È anche disponibile una pagina dove è descritto come [Contribuire a FreeCAD](Help_FreeCAD/it.md).
-
--   [Letteratura scientifica](Scientific_literature/it.md): articoli che fanno riferimento o utilizzano il sistema FreeCAD in vari modi.
 
 
 

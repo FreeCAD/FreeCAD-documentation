@@ -5,7 +5,7 @@
    MenuLocation: TechDraw, TechDraw Ansichten , Detailansicht einfügen
    Workbenches: TechDraw_Workbench/de
    Version: 0.19
-   SeeAlso: TechDraw_View/de, TechDraw_ProjectionGroup/de
+   SeeAlso: TechDraw_View/de
 ---
 
 # TechDraw DetailView/de
@@ -51,13 +51,24 @@ Das Werkzeug **TechDraw Detailansicht** erstellt eine Ansicht eines kleinen Bere
 
 
 
-## Eigenschaften Detailansicht 
+## Eigenschaften
 
-Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md).
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
+
+In den Eigenschaften der {{PropertyData/de|Base View}} kann die Darstellung der Umrisslinie des Details eingestellt werden.
+
+Eine Detailansicht, formal ein {{Incode|TechDraw::DrawViewDetail}}-Objekt, wird von einer [Bauteilansicht](#Properties_Part_View/de.md), formal ein {{Incode|TechDraw::DrawViewPart}}-Objekt abgeleitet und erbt alle seine Eigenschaften. Es besitzt außerdem die folgenden Eigenschaften:
 
 
 
 ### Daten
+
+
+{{TitleProperty|Appearance}}
+
+-    {{PropertyData/de|Show Matting|Bool}}: Blendet den Begrenzugsrahmen der Detailansicht ein bzw. aus. {{Version/de|1.0}}
+
+-    {{PropertyData/de|Show Highlight|Bool}}: Blendet die Umrandung des Details in der Basisansicht ein bzw. aus. {{Version/de|1.0}}
 
 
 {{TitleProperty|Detail}}
@@ -72,28 +83,9 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md).
 
 
 
-## Eigenschaften Basisansicht 
-
-Eine Detailansicht erbt alle anwendbaren Eigenschaften der unter {{PropertyData/de|Base View}} festgelegten Ansicht. In den Eigenschaften dieser Ansicht kann das Aussehen des Detailumrisses geändert werden:
 
 
-
-### Ansicht
-
-
-{{TitleProperty|Hightlight}}
-
--    {{PropertyView/de|Highlight Adjust|Float}}: Siehe [TechDraw Ansicht](TechDraw_View/de#Ansicht.md)
-
--    {{PropertyView/de|Highlight Line Color|Color}}: Wie vorher.
-
--    {{PropertyView/de|Highlight Line Style|Enumeration}}: Wie vorher.
-
-
-
-
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

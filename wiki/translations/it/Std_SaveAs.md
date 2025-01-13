@@ -37,20 +37,9 @@ Il comando **Salva con nome** salva il documento attivo con un nuovo nome di fil
 
 
 
-## Preferenze
-
--   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
-
-
-
 ## Script
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
-
-Per salvare un documento con un nuovo nome, utilizzare il metodo `saveAs` dell\'oggetto documento. Per un esempio di scripting vedere [Nuovo](Std_New/it.md).
+Vedere [Nuovo](Std_New/it#Script.md).
 
 
 

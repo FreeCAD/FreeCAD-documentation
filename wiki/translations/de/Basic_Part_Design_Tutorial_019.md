@@ -88,7 +88,7 @@ The master sketch contains the model\'s rectangular base shape and two **named c
 
 **Step C: Assign a horizontal distance constraint**
 
-1.  Select the line defined by **P2** and **P3** in **Fig: MS3**.
+1.  Select the line defined by **P2** and **P3** in **Fig: MS3**. The labels like P1, P2 etc. will not appear in sketches, they were added for reference in the images of this tutorial.
 2.  Click <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontal distance constraint](Sketcher_ConstrainDistanceX.md):
     1.  A dimension will appear between the endpoints of the selected line. This dimension is the current distance.
     2.  Additionally a dialog will appear:
@@ -143,9 +143,8 @@ The main profile is created by [padding](PartDesign_Pad.md) a new sketch.
 **Step B: Add geometry**
 
 1.  Click <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [Create polyline](Sketcher_CreatePolyline.md) and make a shape like in **Fig: MP1**.
-2.  The labels P1, P2 etc. will not appear in the sketch. They were added for reference.
-3.  For the last point of the final segment make sure to pick the first point of the shape. The point will change color and you will see the symbol for a <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincident constraint](Sketcher_ConstrainCoincident.md) appear near the cursor. Coincident constraints have to be explicit. Just having two points visually coincident is not sufficient.
-4.  Press **Esc** or right-click to exit the tool.
+2.  For the last point of the final segment make sure to pick the first point of the shape. The point will change color and you will see the symbol for a <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincident constraint](Sketcher_ConstrainCoincident.md) appear near the cursor. Coincident constraints have to be explicit. Just having two points visually coincident is not sufficient.
+3.  Press **Esc** or right-click to exit the tool.
 
 **Step C: Assign constraints**
 
@@ -260,7 +259,7 @@ To create the cutouts we will use the <img alt="" src=images/PartDesign_Pocket.s
 
 Instead of creating another sketch and pocketing it, we take advantage of the model\'s symmetry about the YZ plane and use <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [Mirrored](PartDesign_Mirrored.md) to create the second cutout.
 
-1.  Select **Pocket**.
+1.  Select **Pocket** in the [Tree view](Tree_view.md).
 2.  Click <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [Mirrored](PartDesign_Mirrored.md):
     1.  The **Mirrored parameters** task panel opens.
     2.  Select **Plane** {{ComboBox|Vertical sketch axis}} from the pulldown menu. The plane will be defined by this axis (the Y axis) and also by the Z axis of the sketch. Note that selecting **Base YZ Plane** would have the same result.
@@ -284,7 +283,7 @@ The sides are created in a similar manner, but instead of removing material we w
 3.  Click <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [Create rectangle](Sketcher_CreateRectangle.md) and create a rectangle similar to the smaller rectangle in **Fig: SD1**. Because the rectangle is offset from the X axis this should not trigger an automatic <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Point onto object constraint](Sketcher_ConstrainPointOnObject.md).
 4.  Exit the tool.
 5.  Click <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [External geometry](Sketcher_External.md).
-6.  Select the point **P1** as shown in **Fig: CC2**.
+6.  Select the point **P1** as shown in **Fig: CC2** from **Sketch**.
 7.  Exit the tool.
 8.  Apply these constraints:
     1.  Select one of the horizontal lines, apply a <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontal distance constraint](Sketcher_ConstrainDistanceX.md), and assign a value of **7 mm**.

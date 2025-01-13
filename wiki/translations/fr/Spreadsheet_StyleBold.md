@@ -4,6 +4,7 @@
    Name/fr: Spreadsheet Texte en gras
    MenuLocation: Spreadsheet , Styles , Texte en gras
    Workbenches: Spreadsheet_Workbench/fr
+   Shortcut: **Ctrl**+**G**
    Version: 0.17
 ---
 
@@ -11,13 +12,18 @@
 
 ## Description
 
-L\'outil **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Spreadsheet Texte en gras](Spreadsheet_StyleBold/fr.md)** fait que le texte à l\'intérieur de la cellule adopte le style **gras**.
+L\'outil <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> **Spreadsheet Texte en gras** fait basculer le contenu des cellules sélectionnées vers ou depuis le style *gras*.
+
+
 
 ## Utilisation
 
-1.  Assurez-vous qu\'il y a une **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [feuille de calcul](Spreadsheet_CreateSheet/fr.md)** ouverte pour que le bouton soit activé.
-2.  Sélectionnez une cellule.
-3.  Appuyez sur le bouton **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Texte en gras](Spreadsheet_StyleBold/fr.md)**.
+1.  Assurez-vous qu\'il existe une [feuille de calcul](Spreadsheet_CreateSheet/fr.md) active.
+2.  Sélectionnez une ou plusieurs cellules.
+3.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Texte en gras](Spreadsheet_StyleBold/fr.md)**.
+    -   Sélectionnez l\'option **Spreadsheet → Styles → [<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> Texte en gras** du menu.
+    -   Utilisez le raccourci clavier : **Ctrl**+**G**. {{Version/fr|1.1}}
 
 
 

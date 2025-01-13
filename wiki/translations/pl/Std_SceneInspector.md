@@ -19,7 +19,7 @@ Polecenie **Inspektor sceny** otwiera okno dialogowe wyświetlające przegląd w
 ## Użycie
 
 1.  Wybierz opcję **Przybory → <img src="images/Std_SceneInspector.svg" width=16px> Inspektor sceny** z menu głównego.
-2.  Otworzy się okno dialogowe Inspektor sceny.
+2.  Otworzy się okno dialogowe **Inspektor sceny**.
 3.  Okno dialogowe jest niemodalne, co oznacza, że może pozostać otwarte podczas dalszej pracy w programie FreeCAD.
 4.  Opcjonalnie naciśnij przycisk **Odśwież**, aby zaktualizować przegląd.
 5.  Naciśnij przycisk **Zamknij**, aby zamknąć okno dialogowe.
@@ -28,7 +28,7 @@ Polecenie **Inspektor sceny** otwiera okno dialogowe wyświetlające przegląd w
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

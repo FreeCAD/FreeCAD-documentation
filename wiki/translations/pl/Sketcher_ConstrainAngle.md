@@ -5,7 +5,7 @@
    MenuLocation: Szkic , Wiązania szkicownika , Wiązanie kąta
    Workbenches: Sketcher Workbench/pl
    Shortcut: **K** **A**
-   SeeAlso: Sketcher_ConstrainDistance/pl, Sketcher_ConstrainPerpendicular/pl
+   SeeAlso: Sketcher_ConstrainPerpendicular/pl
 ---
 
 # Sketcher ConstrainAngle/pl
@@ -14,77 +14,93 @@
 
 ## Opis
 
-Wiązanie kąta jest [wiązaniem odniesienia](Sketcher_Workbench/pl#Wiązania_w_szkicowniku.md) przeznaczonym do ustalania kątów na szkicach. Jest w stanie wyznaczyć nachylenia poszczególnych linii, kąty między liniami, kąty przecięcia łuków oraz rozpiętości kątowe łuków kołowych.
+Narzędzie <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:24px;"> **Wiązanie kąta** ustala kąt pomiędzy dwiema krawędziami *(linie są wówczas traktowane jako nieskończone, a otwarte krzywe również są wirtualnie wydłużane)*, kąt linii z poziomą osią szkicu lub kątem rozwarcia łuku kołowego.
 
 
 
 ## Użycie
 
-Istnieją cztery różne sposoby zastosowania tego wiązania:
-
--   do pojedynczych linii
--   pomiędzy liniami
--   do przecinających się krzywych
--   do łuków okręgów
-
-Aby zastosować wiązanie kąta, należy wykonać następujące czynności:
-
-1.  Wybierz jeden, dwa lub trzy elementy na szkicu. Tryb wiązania zostanie wybrany automatycznie w zależności od dokonanego wyboru.
-2.  Wywołaj wiązanie za pomocą kilku metod:
-    -   Wciskając przycisk **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Wiązanie kąta](Sketcher_ConstrainAngle/pl.md)** na pasku narzędzi.
-    -   Używając skrótu klawiaturowego **K** kolejnie **A**.
-    -   Używając z menu głównego **Szkicownik → Wiązania szkicownika → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Wiązanie kąta**
-3.  Zostanie wywołane okno dialogowe edycji danych.
-4.  Zmodyfikuj wartość kąta, jeśli to konieczne. Kąt może być wprowadzony jako wyrażenie, które zostanie obliczone i wynik zostanie zapisany.
-5.  Kliknij przycisk **OK**.
-
-Jak w przypadku każdego wiązania odniesienia, istnieje możliwość późniejszej zmiany wartości kąta poprzez dwukrotne kliknięcie na pozycji wiązania w liście wiązań lub oknie widoku 3d. Wprowadzenie ujemnej wartości spowoduje odwrócenie kierunku kąta.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
 
 
-## Tryby wiązania 
+### [Tryb kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md) 
+
+1.  Upewnij się, że nie ma zaznaczenia.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   
+        {{Version/pl|1.0}}
+        
+        : Jeśli [preferencja](Sketcher_Preferences/pl#Ogólne.md) **Wiązania wymiarów** jest ustawiona na {{Value|Narzędzie pojedyncze}} *(domyślnie)*: naciśnij strzałkę w dół po prawej stronie przycisku **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** i wybierz opcję **<img src="images/Sketcher_ConstrainAngle.svg" width=16px> Wiązanie kąta** z rozwijanej listy.
+
+    -   Jeśli ta preferencja ma inną wartość *(i w {{VersionMinus|0.21}})*: naciśnij **<img src="images/Sketcher_ConstrainAngle.svg" width=16px> '''Wiązanie kąta'''**.
+
+    -   Wybierz z menu opcję **Szkic → Wiązania szkicownika → <img src="images/Sketcher_ConstrainAngle.svg" width=16px> Wiązanie kąta**.
+
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz opcję **Wiązania wymiarów → <img src="images/Sketcher_ConstrainAngle.svg" width=16px> Wiązanie kąta** z menu podręcznego.
+
+    -   Użyj skrótu klawiaturowego: **K**, a następnie **A**.
+3.  Kursor zmieni się w krzyżyk z ikoną narzędzia.
+4.  Wykonaj jedną z następujących czynności:
+    -   Wybierz dwie linie.
+    -   Wybierz punkt i dwie krawędzie *(w tej kolejności)*.
+    -   Wybierz krawędź, punkt i krawędź *(w tej samej kolejności)*.
+5.  Jeśli utworzono [konstrukcyjne wiązanie wymiarów](Sketcher_ToggleDrivingConstraint/pl.md), w zależności od [ustawień](Sketcher_Preferences/pl#Wyświetlanie.md), otworzy się okno dialogowe [wstaw kąt](Sketcher_Workbench/pl#Edycja_wiązań.md). Wartość ujemna spowoduje odwrócenie kierunku kąta.
+6.  Dodawane jest wiązanie kątowe. Jeśli wybrano punkt i dwie krawędzie, można również dodać maksymalnie dwa wiązania [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md). Zobacz [przykłady](#Między_dwiema_krawędziami_w_punkcie.md).
+7.  Opcjonalnie kontynuuj tworzenie wiązań.
+8.  Aby zakończyć, kliknij prawym przyciskiem myszy lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
 
 
 
-### Kąt nachylenia linii 
+### Tryb jednorazowy 
 
-**Wybór zaakceptowany:** linia
-
-<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:600px;">
-
-Wiązanie to określa kąt biegunowy kierunku linii. Jest to kąt pomiędzy linią a osią X szkicu.
-
-
-
-### Rozpiętość łuku okręgu 
-
-**Wybór zaakceptowany:** łuk koła
-
-<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:600px;">
-
-W tym trybie wiązanie ustala rozpiętość kątową łuku koła.
+1.  Wykonaj jedną z następujących czynności:
+    -   Wybierz pojedynczą linię.
+    -   Wybierz pojedynczy łuk kołowy.
+    -   Wybierz dwie linie.
+    -   Wybierz punkt i dwie krawędzie (w dowolnej kolejności).
+2.  Wywołaj narzędzie w sposób opisany powyżej.
+3.  Opcjonalnie [edytuj wartość wiązania](Sketcher_Workbench/pl#Edycja_wiązań.md).
+4.  Dodawane jest wiązanie kątowe. Jeśli wybrano punkt i dwie krawędzie, można również dodać maksymalnie dwa wiązania [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md). Zobacz akapit [przykłady](#Między_dwiema_krawędziami_w_punkcie.md).
 
 
 
-### Pomiędzy liniami 
-
-**Wybór zaakceptowany:** linia + linia
-
-<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:600px;">
-
-W tym trybie wiązanie ustawia kąt pomiędzy dwoma liniami. Nie jest wymagane, aby te linie się przecinały.
+## Przykłady
 
 
 
-### Między krzywymi na przecięciu *(kąt w punkcie)* 
+### Pojedyncza linia 
 
-**Wybór zaakceptowany:** dowolna linia / krzywa + dowolna linia / krzywa + dowolny punkt
+<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:400px;">
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:600px;">
+Kąt linii względem dodatniej osi X szkicu jest stały.
 
-W tym trybie, kąt pomiędzy dwoma krzywymi jest związany w punkcie ich przecięcia. Punkt przecięcia może znajdować się na przedłużeniach krzywych. Punkt ten powinien być wyraźnie określony, ponieważ krzywe zwykle przecinają się w więcej niż jednym punkcie.
 
-Aby wiązanie działało prawidłowo, punkt musi znajdować się na obu krzywych. Tak więc, w miarę wywoływania wiązania, punkt będzie automatycznie powiązany z obiema krzywymi *([wiązanie pomocnicze](Sketcher_helper_constraint.md) zostanie dodane, jeśli będzie to konieczne)*, a kąt pomiędzy krzywymi będzie powiązany w tym punkcie. Te [wiązania pomocnicze](Sketcher_helper_constraint.md) są zwykłymi wiązaniami regularnymi. Mogą być dodane ręcznie lub usunięte. Na przykładowym rysunku powyżej nie ma żadnych wiązań pomocniczych, ponieważ wybrany punkt jest już punktem przecięcia krzywych.
+
+### Pojedynczy łuk kołowy 
+
+<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:400px;">
+
+Kąt rozwarcia łuku jest stały.
+
+
+
+### Pomiędzy dwoma liniami 
+
+<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:400px;">
+
+Kąt między dwiema liniami jest stały. Nie jest wymagane, aby linie się przecinały.
+
+
+
+### Między dwiema krawędziami w punkcie 
+
+<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:400px;">
+
+Kąt między dwiema krawędziami w danym punkcie jest stały. Punktem może być dowolny punkt, np. środek okręgu, punkt końcowy krawędzi lub początek, może on należeć do jednej z krawędzi, a także może być [obiektem punktu](Sketcher_CreatePoint/pl.md). W razie potrzeby dodawane są wiązania [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md), aby zapewnić, że punkt leży na obu *(przedłużonych)* krawędziach. Te dodatkowe wiązania nazywane są [wiązaniami pomocniczymi](Sketcher_helper_constraint/pl.md).
 
 
 

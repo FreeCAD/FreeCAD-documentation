@@ -10,6 +10,9 @@
 # Std Import/pt-br
 
 
+</div>
+
+
 
 ## Descrição
 
@@ -24,12 +27,18 @@ O comando **Importar** importa geometria de arquivos de formatos diferentes para
 
 ## Uso
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Existem várias maneiras de invocar o comando:
     -   Selecione a opção **Arquivo → <img src="images/Std_Import.svg" width=16px> Importar...** no menu.
     -   Use o atalho do teclado: **Ctrl**+**I**.
 2.  Opcionalmente, selecione o formato de arquivo correto na caixa de diálogo.
 3.  Selecione um arquivo.
 4.  Pressione o botão **Abrir**.
+
+
+</div>
 
 
 
@@ -49,9 +58,15 @@ O comando **Importar** importa geometria de arquivos de formatos diferentes para
 
 ## Preferências
 
+
+<div class="mw-translate-fuzzy">
+
 -   Veja: [Preferências de Importação e Exportação](Import_Export_Preferences/pt-br.md).
 -   A última localização de arquivo usada é armazenada em: **Ferramentas → Editar parâmetros... → BaseApp → Preferences → General → FileOpenSavePath**.
 -   O último filtro de importação usado é armazenado em: **Ferramentas → Editar parâmetros... → BaseApp → Preferences → General → FileImportFilter**.
+
+
+</div>
 
 
 
@@ -120,7 +135,7 @@ Um objeto Plano de Imagem é derivado de um objeto [App GeoFeature](App_GeoFeatu
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

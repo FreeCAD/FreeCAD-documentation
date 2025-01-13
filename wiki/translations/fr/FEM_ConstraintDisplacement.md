@@ -1,11 +1,17 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM ConstraintDisplacement
    Name/fr: FEM Condition limite de déplacement
    MenuLocation: Modèle , Conditions limites et charges mécaniques , Condition limite de déplacement
    Workbenches: FEM_Workbench/fr
    Shortcut: 
    SeeAlso: FEM_tutorial/fr
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: CalculiX, Elmer
+}}
 ---
 
 # FEM ConstraintDisplacement/fr
@@ -19,10 +25,9 @@ Crée une condition limite FEM pour un déplacement donné d\'un objet sélectio
 ## Utilisation
 
 1.  Soit vous appuyez sur le bouton **<img src="images/FEM_ConstraintDisplacement.svg" width=16px> [Condition limite de déplacement](FEM_ConstraintDisplacement/fr.md)**, soit vous sélectionnez le menu **Modèle → Conditions limites et charges mécaniques → <img src="images/FEM_ConstraintDisplacement.svg" width=16px> Condition limite de déplacement**.
-2.  Dans la [vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la condition limite doit être appliquée, qui peut être un sommet (coin), une arête ou une face.
-3.  Appuyez sur le bouton **Ajouter**.
-4.  Décochez *Non spécifié* pour activer les champs nécessaires pour l\'édition.
-5.  Définir les valeurs ou ({{Version/fr|0.21}}) spécifier une formule pour les déplacements.
+2.  Appuyez sur le bouton **Ajouter**.
+3.  Dans la [vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la condition de limite doit être appliquée, qui peut être un sommet, une arête ou une face (mais tous les objets sélectionnés doivent être du même type). Pour supprimer des objets de la liste, appuyez sur le bouton **Supprimer** et cliquez dessus.
+4.  Cochez les cases à côté des degrés de liberté que vous souhaitez utiliser. Par défaut, ils sont fixés à zéro (fixe) mais n\'importe quelle valeur ({{Version/fr|0.21}} : ou une formule pour Elmer) peut être spécifiée.
 
 
 

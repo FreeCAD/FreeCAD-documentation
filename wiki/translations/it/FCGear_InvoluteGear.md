@@ -1,231 +1,285 @@
 ---
  GuiCommand:
    Name: FCGear InvoluteGear
-   Name/it: Ingranaggio a spirale
-   MenuLocation: FCGear , Create an Involute gear
-   Workbenches: FCGear Workbench/it
+   Name/it: Ingranaggio ad evolvente
+   MenuLocation: Gear , Involute Gear
+   Workbenches: FCGear_Workbench/it
    Shortcut: None
    Version: v0.16
-   SeeAlso: FCGear CycloideGear/it
+   SeeAlso: FCGear_CycloideGear/it
 ---
 
 # FCGear InvoluteGear/it
 
 
-</div>
 
 ## Descrizione
 
-Due to the favourable meshing ratio and the relatively simple production, involute gearing is the most common tooth form in mechanical engineering. Gear wheels can be found wherever movement and force are to be transferred from one part to another. For example, they can be found in machines, cars, watches or household appliances. The movement is often transferred directly from one gear wheel to the other, but sometimes also via a chain. In addition, the direction of rotation can be changed. It is also possible to change a radial movement into a linear one via an [involute rack](FCGear_InvoluteRack.md).
+Grazie al rapporto di ingranamento favorevole e alla produzione relativamente semplice, la dentatura ad evolvente è la forma del dente più comune nell\'ingegneria meccanica. Le ruote dentate si trovano ovunque sia necessario trasferire movimento e forza da una parte all\'altra. Si trovano, ad esempio, nelle macchine, nelle automobili, negli orologi o negli elettrodomestici. Il movimento viene spesso trasferito direttamente da una ruota dentata all\'altra, ma talvolta anche tramite una catena. Inoltre è possibile modificare il senso di rotazione. È anche possibile trasformare un movimento radiale in uno lineare tramite una [cremagliera ad evolvente](FCGear_InvoluteRack/it.md).
 
 ![](images/Involute-Gear_example.png ) 
-*From left to right: Spur gearing, helical gearing, double helical gearing*
+*Da sinistra a destra: ingranaggio cilindrico, ingranaggio elicoidale, ingranaggio elicoidale doppio*
 
-## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_InvoluteGear.svg style="width:16px"> [Involute Gear](FCGear_InvoluteGear.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_InvoluteGear.svg style="width:16px"> Involute Gear** option from the menu.
-3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
 
-## Properties
+## Utilizzo
 
-An FCGear InvoluteGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+1.  Passare a <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/it.md).
+2.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **[<img src=images/FCGear_InvoluteGear.svg style="width:16px"> [Involute Gear](FCGear_InvoluteGear/it.md)** nella barra degli strumenti.
+    -   Selezionare l\'opzione **Gear → [<img src=images/FCGear_InvoluteGear.svg style="width:16px"> Involute Gear** dal menu.
+3.  Modificare ogni parametro dell\'ingranaggio alle condizioni richieste (vedere [Proprietà](#Proprietà.md)).
 
-### Data
+
+
+## Proprietà
+
+Un oggetto FCGear InvoluteGear deriva da un oggetto [Part Feature](Part_Feature/it.md) ed eredita tutte le sue proprietà. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{Properties_Title|accuracy}}
 
--    **numpoints|Integer**: Default is {{Value|6}}. Change of the involute profile. Changing the value can lead to unexpected results.
 
--    **simple|Bool**: Default is {{False}}, {{True}} generates a simplified display (without teeth and only a cylinder in pitch diameter).
+<div class="mw-translate-fuzzy">
+
+-    **numpoints|Integer**: L\'impostazione predefinita è {{Value|6}}. Modifica del profilo dell\'evolvente. La variazione di questo valore può portare a risultati imprevisti.
+
+-    **simple|Bool**: Il valore predefinito è {{False}}, {{True}} genera una visualizzazione semplificata (senza denti e solo un cilindro col diametro primitivo).
+
+
+</div>
 
 
 {{Properties_Title|base}}
 
--    **height|Length**: Default is {{Value|5 mm}}. Value of the gear width.
 
--    **module|Length**: Default is {{Value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
+<div class="mw-translate-fuzzy">
 
--    **teeth|Integer**: Default is {{Value|15}}. Number of teeth (see [Notes](#Notes.md)).
+-    **height|Length**: Il valore predefinito è {{Value|5 mm}}. Valore della larghezza dell\'ingranaggio.
+
+-    **module|Length**: L\'impostazione predefinita è {{Value|1 mm}}. Il modulo è il rapporto tra il diametro di riferimento dell\'ingranaggio diviso per il numero di denti (vedere [Note](#Note.md)).
+
+-    **teeth|Integer**: L\'impostazione predefinita è {{Value|15}}. Numero di denti (vedere [Note](#Note.md)).
+
+
+</div>
 
 
 {{Properties_Title|computed}}
 
--    **angular_backlash|Angle**: (read-only)
 
--    **da|Length**: (read-only) Outside diameter, measured at the addendum (the tip of the teeth).
+<div class="mw-translate-fuzzy">
 
--    **df|Length**: (read-only) Root diameter, measured at the foot of the teeth.
+-    **angular_backlash|Angle**: (sola lettura)
 
--    **dw|Length**: (read-only) Working pitch diameter.
+-    **da|Length**: (sola lettura) Diametro esterno, misurato all\'addendum (la testa dei denti).
 
--    **transverse_pitch|Length**: (read-only) Pitch in the plane of rotation.
+-    **df|Length**: (sola lettura) Diametro di fondo, misurato ai piedi dei denti.
+
+-    **dw|Length**: (sola lettura) Diametro primitivo di lavoro.
+
+-    **transverse_pitch|Length**: (sola lettura) Passo nel piano di rotazione.
+
+
+</div>
 
 
 {{Properties_Title|fillets}}
 
--    **head_fillet|Float**: Default is {{Value|0 mm}}.
 
--    **root_fillet|Float**: Default is {{Value|0 mm}}.
+<div class="mw-translate-fuzzy">
 
--    **undercut|Bool**: Default is {{False}}, {{True}} changes the profile of the tooth root (see [Notes](#Notes.md)).
+-    **head_fillet|Float**: L\'impostazione predefinita è {{Value|0 mm}}.
+
+-    **root_fillet|Float**: L\'impostazione predefinita è {{Value|0 mm}}.
+
+-    **undercut|Bool**: L\'impostazione predefinita è {{False}}, {{True}} cambia il profilo del dente sul fondo (vedere [Note](#Note.md)).
+
+
+</div>
 
 
 {{Properties_Title|helical}}
 
--    **beta|Angle**: Default is {{Value|0 °}}. With the helix angle β a helical gear is created -- positive value → rotation direction right, negative value → rotation direction left (see [Notes](#Notes.md)).
 
--    **double_helix|Bool**: Default is {{False}}, {{True}} creates a double helix gear (see [Notes](#Notes.md)).
+<div class="mw-translate-fuzzy">
 
--    **properties_from_tool|Bool**: Default is {{False}}. If {{True}} and **beta** is not zero, gear parameters are recomputed internally for the rotated gear.
+-    **beta|Angle**: L\'impostazione predefinita è {{Value|0 °}}. Con l\'angolo dell\'elica β viene creato un ingranaggio elicoidale -- valore positivo → senso di rotazione destra, valore negativo → senso di rotazione sinistra (vedere [Note](#Note.md)).
+
+-    **double_helix|Bool**: L\'impostazione predefinita è {{False}}, {{True}} crea un ingranaggio a doppia elica (vedere [Note](#Note.md)).
+
+-    **properties_from_tool|Bool**: L\'impostazione predefinita è {{False}}. Se {{True}} e **beta** non è zero, i parametri dell\'ingranaggio vengono ricalcolati internamente per l\'ingranaggio ruotato.
+
+
+</div>
+
+
+{{Properties_Title|hole}}
+
+-    **Axle_hole|Bool**: Default is {{False}}. {{True}} enables a central hole for an axle.
+
+-    **Axle_holesize|Length**: Default is {{Value|10 mm}}. Diameter of the hole for an axle.
+
+-    **offset_hole|Bool**: Default is {{False}}, {{True}} enables an offset hole.
+
+-    **offset_holeoffset|Length**: Default is {{Value|10 mm}}. The offset of the offset hole.
+
+-    **offset_holesize|Length**: Default is {{Value|10 mm}}. The diameter of the offset hole.
 
 
 {{Properties_Title|involute}}
 
--    **pressure_angle|Angle**: Default is {{Value|20 °}} (see [Notes](#Notes.md)).
+-    **pressure_angle|Angle**: Il valore predefinito è {{Value|20 °}} (vedere [Note](#Note.md)).
 
--    **shift|Float**: Default is {{Value|0}}. Generates a positive and negative profile shift (see [Notes](#Notes.md)).
+-    **shift|Float**: Il valore predefinito è {{Value|0}}. Genera uno spostamento del profilo positivo o negativo (vedere [Note](#Note.md)).
 
 
 {{Properties_Title|tolerance}}
 
--    **backlash|Length**: Default is {{Value|0}}. Backlash, also called lash or play, is the distance between the teeth at a gear pair.
+-    **backlash|Length**: L\'impostazione predefinita è {{Value|0}}. Il gioco, chiamato anche aria o spaziatura, è la distanza tra i denti di una coppia di ingranaggi.
 
--    **clearance|Float**: Default is {{Value|0.25}} (see [Notes](#Notes.md)).
+-    **clearance|Float**: L\'impostazione predefinita è {{Value|0.25}} (vedere [Note](#Note.md)).
 
--    **head|Float**: Default is {{Value|0}}. This value is used to change the tooth height.
+-    **head|Float**: L\'impostazione predefinita {{Value|0}}. Questo valore viene utilizzato per modificare l\'altezza del dente.
 
--    **reversed_backlash|Bool**: {{True}} backlash decrease or {{False}} (default) backlash increase see [Notes](#Notes.md)).
+-    **reversed_backlash|Bool**: {{True}} diminuzione del gioco o {{False}} (predefinito) aumento del gioco vedere [Note](#Note.md)).
 
 
 {{Properties_Title|version}}
 
 -    **version|String**:
 
-## Notes
 
--    **beta**: When **beta** is changed, **pitch diameter** also changes. The following formula illustrates how the parameters interact: d = m \* Z / cos beta (Z = number of teeth, d = pitch diameter, m = module). This means for the spur gear: cos beta = 0 and for the helical gear: cos beta \> 0. However, a helix angle of less than 10° has hardly any advantages over straight teeth.
 
--    **clearance**: At a gear pair, clearance is the distance between the tooth tip of the first gear and the tooth root of the second gear.
+## Note
 
--    **double_gear**: To use the double helical gearing the helix angle β (**beta**) for the helical gearing must first be entered.
+-    **beta**: Quando viene modificato **beta**, cambia anche **diametro primitivo**. La seguente formula illustra come interagiscono i parametri: d = m \* Z / cos beta (Z = numero di denti, d = diametro primitivo, m = modulo). Ciò significa che per la ruota dentata cilindrica: cos beta = 0 e per la ruota elicoidale: cos beta \> 0. Tuttavia un angolo dell\'elica inferiore a 10° non presenta quasi alcun vantaggio rispetto ai denti diritti.
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
+-    **clearance**: In una coppia di ingranaggi, il gioco è la distanza tra la testa del dente del primo ingranaggio e il piede del dente del secondo ingranaggio.
 
--    **shift**: Profile shift is not merely used to prevent undercut. It can be used to adjust center distance between two gears. If a positive correction is applied, such as to prevent undercut in a pinion, the tooth thickness at top is thinner.
+-    **double_gear**: Per utilizzare la doppia dentatura elicoidale è necessario prima inserire l\'angolo dell\'elica β (**beta**) per la dentatura elicoidale.
 
--    **teeth**: If the number of teeth is changed, the pitch diameter also changes (**dw**).
+-    **module**: Utilizzando le linee guida ISO (Organizzazione internazionale per la standardizzazione), la dimensione del modulo è designata come l\'unità che rappresenta le dimensioni dei denti degli ingranaggi. Modulo (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). Se si moltiplica il modulo per pigreco, si può ottenere il passo (p). Il passo è la distanza tra i punti corrispondenti dei denti adiacenti.
 
--    **undercut**: Undercut is used when the number of teeth of a gear is too small. Otherwise the mating gear will cut into the tooth root. The undercut not only weakens the tooth with a wasp-like waist, but also removes some of the useful involute adjacent to the base circle.
+-    **shift**: Lo spostamento del profilo non viene utilizzato semplicemente per prevenire il sottosquadro. Può essere utilizzato per regolare la distanza centrale tra due ingranaggi. Se viene applicata una correzione positiva, tale da prevenire il sottosquadro in un pignone, lo spessore del dente nella parte superiore è più sottile.
 
--    **pressure_angle**: 20° is a standard value here. The pressure angle is defined as the angle between the line-of-action (common tangent to the base circles) and a perpendicular to the line-of-centers. Thus, for standard gears, 14.5° pressure angle gears have base circles much nearer to the roots of teeth than 20° gears. It is for this reason that 14.5° gears encounter greater undercutting problems than 20° gears. Important. the pressure angle changes with a profile shift. Only change the parameter, if sufficient knowledge of the gear geometry is available.
+-    **teeth**: Se si cambia il numero di denti, cambia anche il diametro primitivo (**dw**).
 
--    **reversed_backlash**: If there are several gears, pay attention to which gear the parameter is set for.
+-    **undercut**: Il sottosquadro viene utilizzato quando il numero di denti di un ingranaggio è troppo piccolo. Altrimenti l\'ingranaggio di accoppiamento taglia il piede del dente. Il sottosquadro non solo indebolisce il dente come un vitino di vespa, ma rimuove anche parte dell\'evolvente utile adiacente al cerchio di base.
 
-## Limitations
+-    **pressure_angle**: 20° è un valore standard in questo caso. L\'angolo di pressione è definito come l\'angolo tra la linea d\'azione (tangente comune ai cerchi di base) e una perpendicolare alla linea dei centri. Pertanto, per gli ingranaggi standard, gli ingranaggi con angolo di pressione di 14,5° hanno i cerchi di base molto più vicini ai piedi dei denti rispetto agli ingranaggi da 20°. È per questo motivo che gli ingranaggi da 14,5° incontrano maggiori problemi di sottosquadro rispetto agli ingranaggi da 20°. Importante. l\'angolo di pressione cambia con uno spostamento del profilo. Modificare il parametro solo se si dispone di una conoscenza sufficiente della geometria dell\'ingranaggio.
 
-A 2D tooth profile, obtained by setting the **height** to zero, cannot be used with features requiring a 2D shape. For example [PartDesign Pad](PartDesign_Pad.md) and [PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md) features do not accept such a profile as base. For technical details, please refer to the related [issue on GitHub](https://github.com/looooo/freecad.gears/issues/97).
+-    **reversed_backlash**: Se sono presenti più ingranaggi, prestare attenzione per quale ingranaggio viene impostato il parametro.
 
-## Useful formulas 
 
-### Standard Spur Gears 
 
-Here "standard" refers to those spur gears with no profile shift coefficient ($x$).
+## Limitazioni
+
+Un profilo del dente 2D, ottenuto impostando **height** su zero, non può essere utilizzato con funzionalità che richiedono una forma 2D. Ad esempio, le funzioni [PartDesign: Estrusione](PartDesign_Pad/it.md) e [PartDesign: Elica additiva](PartDesign_AdditiveHelix/it.md) non accettano tale profilo come base. Per i dettagli tecnici, fare riferimento al relativo [issue su GitHub](https://github.com/looooo/freecad.gears/issues/97).
+
+
+
+## Formule utili 
+
+
+
+### Ingranaggi cilindrici standard 
+
+Qui "standard" si riferisce a quegli ingranaggi cilindrici senza coefficiente di spostamento del profilo ($x$).
 
 +++++
-| Symbol   | Term                                     | Formula                        | FCGear Parameter                            |
-+==========+==========================================+================================+=============================================+
-| $m$      | *Module*                                 | \-                             | $\texttt{module}$                           |
+| Simbolo  | Termine                                          | Formula                          | Parametro FCGear                        |
++==========+==================================================+==================================+=========================================+
+| $m$      | *Modulo*                                         | \-                               | $\texttt{module}$                       |
 +++++
-| $z$      | *Number of Teeth*                        | \-                             | $\texttt{teeth}$                            |
+| $z$      | *Numero di denti*                                | \-                               | $\texttt{teeth}$                        |
 +++++
-| $\alpha$ | *Pressure Angle*                         | \-                             | $\texttt{pressure} {\_} \texttt{parameter}$ |
-|          |                                          | Typically, $\alpha = 20^\circ$ |                                             |
+| $\alpha$ | *Pressure Angle*                                 | Tipicamente, $\alpha = 20^\circ$ | $\texttt{pressure} {\_} \texttt{angle}$ |
 +++++
-| d        | *Reference Diameter* or *Pitch Diameter* | $z \cdot m$                    | \-                                          |
+| $d$      | *Diametro di riferimento* o *Diametro primitivo* | $z \cdot m$                      | $\texttt{dw}$                           |
 +++++
-| $h^*_a$  | *Addendum Coefficient*                   | \-                             | $h^*_a = 1 + \texttt{ head}$                |
-|          |                                          | Typically, $h^*_a = 1$         |                                             |
+| $h^*_a$  | *Coefficiente di Addendum*                       | Tipicamente, $h^*_a = 1$         | $h^*_a = 1 + \texttt{ head}$            |
 +++++
-| $h^*_f$  | *Dedendum Coefficient*                   | \-                             | $h^*_f = 1 + \texttt{ clearance}$           |
-|          |                                          | Typically, $h^*_f = 1.25$      |                                             |
+| $h^*_f$  | *Coefficiente di Dedendum*                       | Tipicamente, $h^*_f = 1.25$      | $h^*_f = 1 + \texttt{ clearance}$       |
 +++++
-| $h_a$    | *Addendum*                               | $h_a = h^*_a \cdot m$          | \-                                          |
+| $h_a$    | *Addendum*                                       | $h_a = h^*_a \cdot m$            | \-                                      |
 +++++
-| $h_f$    | *Dedendum*                               | $h_f = h^*_f \cdot m$          | \-                                          |
+| $h_f$    | *Dedendum*                                       | $h_f = h^*_f \cdot m$            | \-                                      |
 +++++
-| $h$      | *Tooth Height* or *Tooth Depth*          | $h = h_a + h_f$                | \-                                          |
-|          |                                          | Typically, $h = 2.25 \cdot m$  |                                             |
+| $h$      | *Altezza dente* o *Profondità dente*             | $h = h_a + h_f$                  | \-                                      |
+|          |                                                  | Tipicamente, $h = 2.25 \cdot m$  |                                         |
 +++++
-| $x$      | *Profile Shift Coefficient*              | \-                             | $\texttt{shift}$                            |
-|          |                                          | For standard gears, $x = 0$    |                                             |
+| $x$      | *Coefficiente di spostamento del profilo*        | Per ingranaggi standard, $x = 0$ | $\texttt{shift}$                        |
 +++++
 
-: style=\"text-align: left;\" \| Basic formulas common to internal and external standard spur gears
+: style=\"text-align: left;\" \| Formule base comuni agli ingranaggi cilindrici standard interni ed esterni
 
 ++++
-| Symbol | Term            | Formula                              |
-+========+=================+======================================+
-| $d_a$  | *Tip Diameter*  | $d_a = d + 2 \cdot h_a$              |
-|        |                 | Typically, $d_a = (z + 2) \cdot m$   |
+| Simbolo | Termine             | Formula                                |
++=========+=====================+========================================+
+| $d_a$   | *Diametro di testa* | $d_a = d + 2 \cdot h_a$                |
+|         |                     | Tipicamente, $d_a = (z + 2) \cdot m$   |
 ++++
-| $d_f$  | *Root Diameter* | $d_f = d - 2 \cdot h_f$              |
-|        |                 | Typically, $d_f = (z - 2.5) \cdot m$ |
-++++
-
-: style=\"text-align: left;\" \| Basic formulas specific to external standard spur gears
-
-++++
-| Symbol | Term            | Formula                              |
-+========+=================+======================================+
-| $d_a$  | *Tip Diameter*  | $d_a = d - 2 \cdot h_a$              |
-|        |                 | Typically, $d_a = (z - 2) \cdot m$   |
-++++
-| $d_f$  | *Root Diameter* | $d_f = d + 2 \cdot h_f$              |
-|        |                 | Typically, $d_f = (z + 2.5) \cdot m$ |
+| $d_f$   | *Diametro di piede* | $d_f = d - 2 \cdot h_f$                |
+|         |                     | Tipicamente, $d_f = (z - 2.5) \cdot m$ |
 ++++
 
-: style=\"text-align: left;\" \| Basic formulas specific to internal standard spur gears
+: style=\"text-align: left;\" \| Formule di base specifiche per ingranaggi cilindrici standard esterni
 
 ++++
-| Symbol | Term                     | Formula                       |
-+========+==========================+===============================+
-| $a$    | *Center Distance*        | $d = \frac{d_1 + d_2}{2}$     |
+| Simbolo | Termine             | Formula                                |
++=========+=====================+========================================+
+| $d_a$   | *Diametro di testa* | $d_a = d - 2 \cdot h_a$                |
+|         |                     | Tipicamente, $d_a = (z - 2) \cdot m$   |
 ++++
-| $c$    | *Tip and Root Clearance* | $c_1 = h_{f2} - h_{a1}$       |
-|        |                          | $c_2 = h_{f1} - h_{a2}$       |
-|        |                          | Typically, $c = 0.25 \cdot m$ |
+| $d_f$   | *Diametro di piede* | $d_f = d + 2 \cdot h_f$                |
+|         |                     | Tipicamente, $d_f = (z + 2.5) \cdot m$ |
 ++++
 
-: style=\"text-align: left;\" \| Basic formulas specific for a pair of external standard spur gears
+: style=\"text-align: left;\" \| Formule di base specifiche per ingranaggi cilindrici standard interni
 
--   **Helical and double helical gearing**
+++++
+| Simbolo | Termine                   | Formula                         |
++=========+===========================+=================================+
+| $a$     | *Distanza tra i centri*   | $a = \frac{d_1 + d_2}{2}$       |
+++++
+| $c$     | *Giogo tra testa e piede* | $c_1 = h_{f2} - h_{a1}$         |
+|         |                           | $c_2 = h_{f1} - h_{a2}$         |
+|         |                           | Tipicamente, $c = 0.25 \cdot m$ |
+++++
+
+: style=\"text-align: left;\" \| Formule di base specifiche per una coppia di ingranaggi cilindrici esterni standard
+
+-   **Ingranaggi elicoidali e a doppia elica**
     -   
-        **pitch diameter (dw)**
+        **diametro primitivo (dw)**
         
         = **module** \* **teeth** : **cos beta**
 
     -   
-        **axle base**
+        **interasse**
         
-        = **(pitch diameter (dw) 1 + 2)** : 2
+        = **(diametro primitivo (dw) 1 + diametro primitivo (dw) 2)** : 2
 
     -   
-        **addendum diameter**
+        **diametro addendum**
         
-        = **pitch diameter (dw)** + 2 \* **module**
+        = **diametro primitivo (dw)** + 2 \* **modulo**
 
     -   
         **module**
         
-        = **pitch diameter (dw)** \* **cos beta** : **teeth**
+        = **diametro primitivo (dw)** \* **cos beta** : **denti**
 
-## Scripting
 
-Use the power of python to automate your gear modeling: 
+
+## Script
+
+Utilizzare la potenza di Python per automatizzare la modellazione degli ingranaggi: 
 ```python
 import FreeCAD as App
 import freecad.gears.commands
@@ -237,15 +291,6 @@ gear.double_helix = True
 App.ActiveDocument.recompute()
 Gui.SendMsgToActiveView("ViewFit")
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

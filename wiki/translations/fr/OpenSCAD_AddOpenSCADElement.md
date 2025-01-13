@@ -27,6 +27,8 @@ include <../examples/example001.scad>;
 
 comprendrait les premiers exemples également connus sous le nom d\'icône OpenSCAD.
 
+
+
 ## Installation de OpenSCAD dans FreeCAD 
 
 **Remarque :** OpenSCAD doit être installé sur votre ordinateur avant que FreeCAD ne dispose de cette fonctionnalité
@@ -36,7 +38,7 @@ FreeCAD doit savoir où trouver l\'exécutable OpenSCAD :
 
 -   Basculez vers l\'<img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [atelier OpenSCAD](OpenSCAD_Workbench/fr.md) via 
 **Menu des ateliers → OpenSCAD**
--   Ouvrez la boîte de dialogue des préférences **Edition → Préférences**
+-   Ouvrez la fenêtre de dialogue des préférences **Edition → Préférences**
 -   Cliquez sur \"OpenSCAD\" dans le plan de gauche
 -   Cliquez sur le bouton **...** de **Réglages généraux → Réglages généraux de OpenSCAD → Exécutable OpenSCAD** pour parcourir le répertoire ou entrer le chemin (par exemple, les distributions Linux basées sur Ubuntu `/usr/bin/openscad`) directement dans l\'entrée de ligne à droite du bouton
 -   Fermez et redémarrez FreeCAD

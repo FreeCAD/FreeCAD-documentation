@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Join
    Name/de: Draft Verbinden
-   MenuLocation: Änderung , Verbinden
-   Workbenches: Draft_Workbench/de, Arch_Workbench
+   MenuLocation: Änderung , Verbinden<br>Bearbeiten , Verbinden
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **J** **O**
    Version: 0.18
    SeeAlso: Draft_Split/de
@@ -25,7 +25,8 @@ Der Befehl <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Draft V
 2.  Zwei oder mehrere [Draft Linien](Draft_Line/de.md) und/oder [Draft Polylinien](Draft_Wire/de.md).
 3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_Join.svg" width=16px> [Verbinden](Draft_Join/de.md)** drücken.
-    -   Den Menüeintrag **Änderung → <img src="images/Draft_Join.svg" width=16px> Verbinden** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Änderung → <img src="images/Draft_Join.svg" width=16px> Verbinden** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Bearbeiten → <img src="images/Draft_Join.svg" width=16px> Verbinden** auswählen.
     -   Das Tastaturkürzel **J** dann **O**.
 
 
@@ -39,7 +40,7 @@ Der Befehl <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Draft V
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um Drähte zu verbinden, wird die Methode `join_wires` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `joinWires`. Diese Methode gibt `None` zurück.
 

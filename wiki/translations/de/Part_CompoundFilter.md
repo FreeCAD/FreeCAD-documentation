@@ -56,32 +56,33 @@ aufgeteilte Objekt erneut ausgewählt. Es wird nun unter dem VerbundFilter im Ba
 
 ## Eigenschaften
 
--    {{PropertyData/de|Basis}}: Objekt, das gefiltert werden soll.
+-    **Base**: Objekt, das gefiltert werden soll.
 
--    {{PropertyData/de|Filtertyp}}wählbare Optionen:
+-    **Filter Type**auswählbare Optionen:
 
-    -   Umgehung; kein Filter. Der ursprüngliche Verbund wird unverändert ausgegeben.
-    -   bestimmte Elemente; extrahiere die Elemente, die in der Eigenschaft \"Elemente\" aufgelistet sind
-    -   Kollisions-Umgehung; Stücke herausnehmen, die die \'Schablonen\' Form berühren oder kreuzen.
-    -   Fenster-Volumen (Standard); extrahiere alle Stücke, die ein Volumen zwischen \"Fenster von\" und \"Fenster bis\" haben, wobei 100 % das größte Stück ist - und nicht das ungeschnittene Objekt. Der Wert von 100% ist ein Referenzwert, der durch \"ÜberschreibeMaxWert\" außer Kraft gesetzt werden kann.
-    -   Fenster-Bereich; dasselbe wie Fenster-Volumen, wobei der geschnittene Bereich anstelle des Volumens die Auswahl bestimmt.
-    -   Fenster-Länge; dasselbe wie Fenster-Volumen, wobei die Länge der Kanten statt des Volumens die Auswahl bestimmt.
-    -   Fenster-Abstand; extrahiere Kinder, deren Abstand zur \'Schablonen\' Form innerhalb des Wertefensters liegt, definiert durch die Eigenschaften \"FensterVon\", \" FensterBis\", \"ÜberschreibenMaxWert\".
+    -   bypass: kein Filter. Der ursprüngliche Verbund wird unverändert ausgegeben.
+    -   specific items: sucht die Elemente heraus, die in der Eigenschaft \"Elemente\" aufgelistet sind.
+    -   collision-pass: sucht Stücke heraus, die die \'Schablonen\'-Form berühren oder überschneiden.
+    -   window-volume (default): sucht alle Stücke heraus, die ein Volumen zwischen \"Window From\" (von Fenster) und \"Window To\" (bis Fenster) haben, wobei 100 % das größte Stück ist - und nicht das unzerschnittene Objekt. Der Wert von 100% ist ein Referenzwert, der durch \"OverrideMaxVal\" überschrieben werden kann.
+    -   window-area: dasselbe wie window-volume (Fenster-Volumen), wobei der geschnittene Bereich anstelle des Volumens die Auswahl bestimmt.
+    -   window-length: dasselbe wie window-volume, wobei die Länge der Kanten anstatt des Volumens die Auswahl bestimmt.
+    -   window-distance: Sucht Kindobjekte heraus, deren Abstand zur \'Schablonen\'-Form innerhalb des Wertebereichs liegt, der durch die Eigenschaften \"Window From\" (von Fenster), \"Window To\" (bis Fenster) und \"Override Max Val\" festgelegt wird.
 
--    {{PropertyData/de|Umkehrung}}: Wenn auf true gesetzt, wird die Liste, wie oben beschrieben, ausgeschlossen statt einbezogen.
+-    **Invert**: Wenn auf true gesetzt, wird die Liste, wie oben beschrieben, ausgeschlossen statt einbezogen.
 
--    {{PropertyData/de|Überschreiben Max Wert}}: Der Wertefensterbereich wird in Prozent des Maximalwerts definiert. Der Maximalwert wird nach den folgenden Regeln berechnet:
+-    **Override Max Val**: Der Fenster-Wertebereich wird in Prozent des Maximalwerts definiert. Der Maximalwert wird nach den folgenden Regeln berechnet:
 
-    -   andernfalls, wenn die\'Schablonen\' Verknüpfung geliefert wird - berechne den entsprechenden Wert der Schablonenform (nicht anwendbar für den Fensterabstand \'FilterTyp\')
-    -   andernfalls nimm den Maximalwert von Kindern im zu filternden Verbund.
+    -   Ist der Wert \'OverrideMaxVal\' ungleich Null, wird er verwendet.
+    -   andernfalls, wenn eine Verknüpfung zu einer Schablone (Stencil) vorhanden ist, wird der zugehörige Wert aus der Schablonenform berechnet. (nicht anwendbar auf die Filterart (FilterType) window-distance)
+    -   andernfalls nimmt er den höchsten Wert der Kindobjekte im zu filternden Verbund an.
 
--    {{PropertyData/de|Schablone}}: Verknüpfung zu einer Schablonenform. Bei den FilterTypen Kollisions-Umgehung und Fenster-Abstand ist Schablone das Objekt, gegen das die Kollision/der Abstand getestet werden soll. Bei anderen \"Fenster-\*\*\*\" Filtertypen wird Schablone verwendet, um Referenzwerte für Fensterprozentsätze zu liefern (Maximalwert Überschreiben). In allen anderen Modi wird \"Schablone\" ignoriert.
+-    **Stencil**: Verknüpfung zu einer Schablonenform. Bei den Filterarten collision-pass und window-distance ist Stencil das Objekt, zu dem die Kollision bzw. der Abstand getestet werden soll. Bei anderen \"window-\*\*\*\"-Filterarten wird Stencil verwendet, um Referenzwerte für Prozentangaben der Fenster zur Verfügung zu stellen (Maximalwert überschreiben). In allen anderen Modi wird \"Stencil\" ignoriert.
 
--    {{PropertyData/de|Fenster von}}: Oberer Schwellenprozentsatz für die Auswahl von Stücken, 100% ist relativ zum größten Stück.
+-    **Window From**: Oberer Prozent-Grenzwert für die Auswahl von Stücken, 100% bezieht sich auf das größte Stück.
 
--    {{PropertyData/de|Fenster bis}}: Unterer Schwellenprozentsatz für die Auswahl der Stücke, 100 % ist relativ zum größten Stück.
+-    **Window To**: Unterer Prozent-Grenzwert für die Auswahl von Stücken, 100% bezieht sich auf das größte Stück.
 
--    {{PropertyData/de|Elemente}}: Liste oder Bereich von Elementen, die ausgewählt werden sollen, wenn Filtertyp \"bestimmte Elemente\" ist.
+-    **items**: Liste oder Bereich von Elementen, die ausgewählt werden sollen, wenn die Filterart \"specific items\" ausgewählt ist.
 
 
 

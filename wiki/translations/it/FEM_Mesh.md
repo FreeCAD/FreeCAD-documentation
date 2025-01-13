@@ -54,6 +54,8 @@ Precedentemente, Netgen era incluso in FreeCAD e poteva essere utilizzato immedi
 
 </div>
 
+
+
 ## Software di mesh 
 
 Il software di mesh funziona su corpi solidi che possono essere in diversi formati, come Step e Brep. Questi programmi possono essere utilizzati indipendentemente da FreeCAD e in genere dispongono di molte opzioni per controllare gli algoritmi di meshing, la dimensione dell\'elemento e le condizioni del contorno.
@@ -66,10 +68,14 @@ Il software di mesh funziona su corpi solidi che possono essere in diversi forma
 
 </div>
 
+
+
 ### Interfacce implementate in FreeCAD 
 
 -   Gmsh: [main website](http://gmsh.info/), [code repository](https://gitlab.onelab.info/gmsh/gmsh)
 -   Netgen: [main website](https://ngsolve.org/), [code repository](https://github.com/NGSolve/netgen)
+
+
 
 ### Nessuna interfaccia in FreeCAD 
 
@@ -646,37 +652,55 @@ but it's not readable or writable by FEniCS</p></td>
 
 </div>
 
+
+
 ## Tipi di elementi FEM 
 
 Maggiori informazioni sui tipi di elementi FEM e la loro struttura dei dati all\'interno di FreeCAD si trovano nella pagina [Tipi di elementi FEM](FEM_Element_Types/it.md).
+
+
 
 ### Elemento Segmento 
 
 <img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width:600px;">
 
+
+
 ### Elemento Triangolo 
 
 <img alt="" src=images/FEM_mesh_elements_2_triangle.svg  style="width:600px;">
+
+
 
 ### Elemento Quadrangolo 
 
 <img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width:600px;">
 
+
+
 ### Elemento Tetraedro 
 
 <img alt="" src=images/FEM_mesh_elements_4_tetrahedron.svg  style="width:600px;">
+
+
 
 ### Elemento Esaedro 
 
 <img alt="" src=images/FEM_mesh_elements_5_hexahedron.svg  style="width:600px;">
 
+
+
 ### Elemento Pentaedro (prisma) 
 
 <img alt="" src=images/FEM_mesh_elements_6_pentahedron.svg  style="width:600px;">
 
+
+
 ### Elemento Piramide 
 
 <img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width:600px;">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -712,6 +736,8 @@ App.ActiveDocument.Mesh_object.TypeId = Fem::FemMeshObject
                               .
                               .FemMesh.TypeId = Fem::FemMesh
 ```
+
+
 
 #### Creazione di una mesh con un elemento Tet-10 
 
@@ -763,6 +789,8 @@ obj_2 = FreeCAD.ActiveDocument.addObject("Fem::FemMeshObject")
 obj_2.Placement.Base = FreeCAD.Vector(2, 0, 0)
 obj_2.FemMesh = a
 ```
+
+
 
 #### Proprietà visive 
 
@@ -823,6 +851,8 @@ Raddoppiare il fattore dello spostamento mostrato (**Nota per i redattori: rimos
 ```python
 obj.ViewObject.animate(2.0)
 ```
+
+
 
 ## Esempi di script di ciascun tipo di elemento supportato 
 

@@ -5,7 +5,7 @@
    MenuLocation: Szkic , Wiązania szkicownika , Zwiąż w pionie
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **V**
-   SeeAlso: Sketcher_ConstrainHorizontal/pl
+   SeeAlso: Sketcher_ConstrainHorVer/pl, Sketcher_ConstrainHorizontal/pl
 ---
 
 # Sketcher ConstrainVertical/pl
@@ -14,11 +14,22 @@
 
 ## Opis
 
-Tworzy wiązanie pionowe dla wybranych linii lub elementów polilinii. Zaczynając od wersji {{VersionPlus/pl|0.17}} może również ograniczać wierzchołki w pionie. Można wybrać więcej niż jeden obiekt.
+Narzędzie <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> **Zwiąż w pionie** ogranicza linie lub pary punktów do pionu *(równolegle do pionowej osi szkicu)*.
+
+
+{{Version/pl|1.0}}
+
+: W większości przypadków zaleca się użycie połączonego narzędzia [Poziomo / pionowo](Sketcher_ConstrainHorVer/pl.md).
 
 
 
 ## Użycie
+
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
+
+
+
+### [Tryb kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md) 
 
 1.  Wybierz linie lub wierzchołki, które mają być związane w pionie
 2.  Aby uruchomić komendę wiązania pionowego:
@@ -30,12 +41,15 @@ Tworzy wiązanie pionowe dla wybranych linii lub elementów polilinii. Zaczynaj�
 
 
 
+### Tryb jednorazowy 
+
+Zapoznaj się z informacjami na stronie: [Wiązanie poziome](Sketcher_ConstrainHorizontal/pl#Tryb_jednorazowy.md).
+
+
+
 ## Tworzenie skryptów 
 
-
-```pythonSketch.addConstraint(Sketcher.Constraint('Vertical', Line))```
-
-Strona [skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, których można użyć dla `Line` oraz zawiera dalsze przykłady tworzenia wiązań przy użyciu skryptów języka Python.
+zapoznaj się z informacjami na stronie: [Zwiąż w poziomie](Sketcher_ConstrainHorizontal/pl#Tworzenie_skryptów.md).
 
 
 

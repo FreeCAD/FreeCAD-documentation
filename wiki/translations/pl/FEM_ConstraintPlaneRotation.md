@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ConstraintPlaneRotation
    Name/pl: MES: Zdefiniuj obrót w płaszczyźnie
    MenuLocation: Model , Funkcje analizy geometrycznej , Zdefiniuj obrót w płaszczyźnie
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_ConstraintTransform/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: CalculiX
+}}
 ---
 
 # FEM ConstraintPlaneRotation/pl
@@ -19,10 +24,11 @@ Tworzy wiązanie wielopunktowe *(MPC)* w celu utrzymania węzłów leżących na
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie polecenia:
+1.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Naciśnij przycisk **<img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> '''Wiązanie MPC typu płaszczyzna'''** na pasku narzędzi.
     -   Wybierz opcję z menu **Model → Funkcje analizy geometrycznej → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Wiązanie MPC typu płaszczyzna**.
-2.  W oknie [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być zastosowane wiązanie wielopunktowe, może to być ściana.
+2.  W oknie [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być zastosowane wiązanie MPC, może to być tylko pojedyncza ściana.
+3.  Wciśnij przycisk **Dodaj**.
 
 
 
@@ -35,7 +41,7 @@ Tworzy wiązanie wielopunktowe *(MPC)* w celu utrzymania węzłów leżących na
 
 ## Uwagi
 
-1.  Wiązanie to wykorzystuje słowo kluczowe \*MPC w CalculiX. Jest to szczegółowo opisane na stronie <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
+1.  Wiązanie to wykorzystuje [słowo kluczowe \*MPC w CalculiX](http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html).
 
 
 

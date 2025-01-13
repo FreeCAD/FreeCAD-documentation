@@ -72,8 +72,8 @@ Jedes der Mittellinienwerkzeuge (<img alt="" src=images/TechDraw_FaceCenterLine.
 
 ## Hinweise
 
--   Zum Entfernen einer Mittellinie wird <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw HilfsobjektEntfernen](TechDraw_CosmeticEraser/de.md) verwendet.
--   FlächenMittellinien ersetzen letztlich zwei Ansicht-Eigenschaften:
+-   Um eine Mittellinie zu löschen wird sie ausgewählt und die **Entf**-Taste gedrückt. {{Version/de|1.0}}
+-   Flächenmittellinien ersetzen letztlich zwei Ansicht-Eigenschaften:
     -   
         {{PropertyView/de|HorizCenterLine}}
         

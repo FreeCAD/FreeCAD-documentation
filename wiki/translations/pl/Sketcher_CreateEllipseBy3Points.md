@@ -6,7 +6,7 @@
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **3** **E**
    Version: 0.15
-   SeeAlso: Sketcher_CreateEllipseByCenter/pl, Sketcher_CreateCircle/pl, Sketcher_CreateArcOfEllipse/pl
+   SeeAlso: Sketcher_CreateEllipseByCenter/pl
 ---
 
 # Sketcher CreateEllipseBy3Points/pl
@@ -15,33 +15,28 @@
 
 ## Opis
 
-Narzędzie to rysuje elipsę wybierając trzy punkty: **(1)** periapsis (pierwsze przecięcie dłuższej średnicy z elipsą), **(2)** apoapsis *(drugie przecięcie dłuższej średnicy z elipsą)*, **(3)** jeden punkt na boku dłuższej średnicy **(a)** określający mniejszy promień **(b)**. **(c)** to wynikowy środek, a **(f)** to punkty ogniskowe.
-
-Podczas uruchamiania narzędzia kursor myszki zmienia kształt na biały krzyż z czerwoną ikoną elipsy.
-
-![](images/Ellipse_3Point.png‎ ) 
-*Kolejność kliknięć jest oznaczona żółtymi strzałkami z cyframi.<br>
-1 to perycentrum, 2 to apocentrum, 3 to punkt definiujący mniejszą średnicę.<br>
-Zielone linie to główne i mniejsze średnice.<br>
-Niebieskie linie to linie konstrukcyjne w celach ilustracyjnych.*
+Narzędzie <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:24px;"> **Utwórz elipsę przez trzy punkty** tworzy elipsę przez punkty końcowe jednej z jej osi i punkt wzdłuż elipsy. {{Version/pl|1.0}}: Jest to to samo narzędzie co [Utwórz elipsę przez środek](Sketcher_CreateEllipseByCenter/pl.md), ale z innym trybem wstępnym.
 
 
 
 ## Użycie
 
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
+
 -   Naciśnij przycisk **[<img src=images/Sketcher_CreateEllipseBy3Points.svg style="width:16px"> [Utwórz elipsę przez trzy punkty](Sketcher_CreateEllipseBy3Points/pl.md)**.
 -   Pierwsze kliknięcie w oknie widoku 3D ustawia punkt określający przecięcie średnicy głównej z elipsą *(periapsis)*. Drugie kliknięcie w oknie widoku 3D wyznacza punkt określający przecięcie średnicy głównej z elipsą w kierunku przeciwnym do punktu środkowego *(apoapsis)*. Trzecie kliknięcie ustawia punkt na elipsie definiujący promień mniejszy.
 
--   Po trzecim kliknięciu tworzona jest elipsa wraz z zestawem geometrii konstrukcyjnych do niej dopasowanych (średnica główna, średnica mała, dwie ogniskowe). Geometria konstrukcyjna może być ręcznie usunięta, jeśli nie jest potrzebna, i odtworzona później. Zobacz [Pokaż / ukryj geometrię wewnętrzną](Sketcher_RestoreInternalAlignmentGeometry/pl.md).
--   Naciśnięcie **ESC** lub kliknięcie prawym przyciskiem myszy powoduje przerwanie funkcji.
+1.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_CreateEllipseBy3Points.svg" width=16px> '''Utwórz elipsę przez trzy punkty'''**.
+    -   Wybierz **Szkic → Elementy geometryczne szkicownika → <img src="images/Sketcher_CreateEllipseBy3Points.svg" width=16px> Utwórz elipsę przez trzy punkty** z menu.
+    -   Użyj skrótu klawiaturowego: **G**, następnie **3**, a potem **E**.
+2.  Dalsze kroki można znaleźć na stronie [Utwórz elipsę przez środek](Sketcher_CreateEllipseByCenter/pl#Użycie.md).
 
 
 
-## Szczególe cechy 
+## Uwagi
 
--   Osie główne i mniejsze elipsy są sztywno określone i nie mogą być zamienione przez zmianę rozmiaru elipsy. Jest to konsekwencją zastosowanej parametryzacji solwera *(środek (x,y), ogniskowa1 (x,y) i długość promienia mniejszego (b))* oraz tego samego zachowania ścisłego OpenCascade. Elipsa musi być obrócona, aby zamienić osie.
--   Elipsa może funkcjonować jako koło, gdy jej linie średnicy głównej i mniejszej są usuwane, a jedno z ognisk jest związane, aby pokryć się ze środkiem. Ale wiązanie promienia nie będzie działać na takim okręgu.
--   Przesuwanie elipsy po krawędzi jest takie samo jak przesuwanie jej środka.
+Zapoznaj się z informacjami na stronie [Utwórz elipsę przez środek](Sketcher_CreateEllipseByCenter/pl#Uwagi.md).
 
 
 

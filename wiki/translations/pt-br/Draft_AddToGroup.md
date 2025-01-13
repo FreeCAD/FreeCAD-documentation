@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft AddToGroup
    MenuLocation: Utilities , Move to group...
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Workbenches: Draft_Workbench
    SeeAlso: Std_Group, Draft_AddNamedGroup, Draft_AddConstruction, Draft_AutoGroup
 ---
 
@@ -10,15 +10,14 @@
 
 ## Description
 
-The <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft AddToGroup** command moves objects to a [Std Group](Std_Group.md) or a group-like [Arch](Arch_Workbench.md) object. It can also ungroup objects.
+The <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft AddToGroup** command moves objects to a [Std Group](Std_Group.md) or a group-like [BIM](BIM_Workbench.md) object. It can also ungroup objects.
 
 ## Usage
 
 1.  Select one or more objects.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_AddToGroup.svg" width=16px> [Move to group...](Draft_AddToGroup.md)** button.
-    -   Select the **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...** option from the menu.
-    -   Select the **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...** option from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
+    -   Select the **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...** option from the menu, or from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
 3.  A menu is displayed near the cursor. Do one of the following:
     -   Select **Ungroup** to move the objects out of the group(s) they are in.
     -   Select the group you want to move the objects to.

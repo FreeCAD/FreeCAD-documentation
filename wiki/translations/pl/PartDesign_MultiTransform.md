@@ -18,7 +18,7 @@ Narzędzie <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:24
 Dostępne transformacje to: <img alt="" src=images/PartDesign_Mirrored.svg  style="width:16px;"> [Odbicie lustrzane](PartDesign_Mirrored/pl.md), <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> [Szyk liniowy](PartDesign_LinearPattern/pl.md), <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:16px;"> [Szyk kołowy](PartDesign_PolarPattern/pl.md) i <img alt="" src=images/PartDesign_Scaled.svg  style="width:16px;">. [Skaluj](PartDesign_Scaled/pl.md). Pierwsze trzy są również dostępne jako osobne narzędzia.
 
 <img alt="" src=images/multitransform_example.png  style="width:600px;"> 
-*Wzór otworów utworzony z pojedynczej cechy Otwór poprzez zastosowanie Szyku liniowego z 2 wystąpieniami, a następnie Szyku kołowego z 8 wystąpieniami.*
+*Szyk otworów utworzony z pojedynczej cechy Otwór poprzez zastosowanie Szyku liniowego z 2 wystąpieniami, a następnie Szyku kołowego z 8 wystąpieniami.*
 
 
 
@@ -73,18 +73,29 @@ Możliwe jest utworzenie obiektu Transformacji wielokrotnej z istniejących prze
 
 ## Opcje
 
--   Aby dodać cechy:
-    1.  Naciśnij przycisk **Dodaj element**.
-    2.  Wybierz element w oknie [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
-    3.  Powtórz czynność, aby dodać więcej elementów.
--   Aby usunąć cechy:
-    1.  Naciśnij przycisk **Usuń element**.
-    2.  Wykonaj jedną z następujących czynności:
-        -   Wybierz element w oknie [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
-        -   Zaznacz element na liście u góry i naciśnij klawisz **Del**.
-        -   Kliknij prawym przyciskiem myszy element na liście u góry i wybierz **Usuń** z menu podręcznego.
-    3.  Powtórz czynność, aby usunąć więcej funkcji.
--   Jeśli we wzorcu znajduje się kilka elementów, ich kolejność może być istotna. Zobacz stronę [Szyk kołowy](PartDesign_PolarPattern/pl#Oczekiwane_funkcje.md).
+-   Wybierz tryb:
+    -   
+        **Przekształć Zawartość**
+        
+        : Przekształca cały kształt cechy bazowej (domyślne). {{Version/pl|1.0}}
+
+    -   
+        **Narzędzie przekształcania kształtów**
+        
+        : Przekształca pojedyncze kształty narzędzi wybranych cech.
+
+        -   Aby dodać cechy:
+            1.  Naciśnij przycisk **Dodaj element**.
+            2.  Wybierz element w oknie [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
+            3.  Powtórz czynność, aby dodać więcej elementów.
+        -   Aby usunąć cechy:
+            1.  Naciśnij przycisk **Usuń element**.
+            2.  Wykonaj jedną z następujących czynności:
+                -   Wybierz element w oknie [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
+                -   Zaznacz element na liście u góry i naciśnij klawisz **Del**.
+                -   Kliknij prawym przyciskiem myszy element na liście u góry i wybierz **Usuń** z menu podręcznego.
+            3.  Powtórz czynność, aby usunąć więcej funkcji.
+        -   Jeśli w szyku znajduje się kilka elementów, ich kolejność może być istotna. Zobacz stronę [Szyk kołowy](PartDesign_PolarPattern/pl#Kolejność_cech.md).
 -   Aby dodać transformacje:
     1.  Jeśli już istnieją transformacje: wybierz jedną, po której ma zostać dodana nowa transformacja.
     2.  Kliknij prawym przyciskiem myszy listę **Przekształcenia**.

@@ -10,47 +10,44 @@
 
 # Std Redo/pl
 
+
+
 ## Opis
 
 Polecenie **Ponów** odwraca działanie polecenia [Cofnij](Std_Undo/pl.md).
 
+
+
 ## Użycie
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Std_Redo.svg" width=16px> [Ponów](Std_Redo/pl.md)**.
+    -   Wciśnij przycisk **<img src="images/Std_Redo.svg" width=16px> [Ponów](Std_Redo/pl.md)**.
     -   Wybierz z menu opcję **Edycja → <img src="images/Std_Redo.svg" width=16px> Ponów**.
-    -   Użyj skrótu klawiaturowego: **Ctrl** + **Y**.
+    -   Użyj skrótu klawiszowego: **Ctrl** + **Y**.
+
+
 
 ## Opcje
 
 -   Aby przywrócić wiele czynności, kliknij na małą czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_Redo.svg" width=16px> [Ponów](Std_Redo/pl.md)** i wybierz odpowiednią pozycję z listy.
 
+
+
 ## Ustawienia
 
--   Funkcję Cofnij / Ponów można wyłączyć, ustawiając parametr **Przybory → Edycja parametrów... → BaseApp → Preferencje → Dokument → UżywanieUndo** na wartość {{FALSE/pl}}, ale nie jest to zalecane. To ustawienie można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
--   Maksymalna liczba kroków Cofnij / Ponów jest kontrolowana przez parametr **Przybory → Edycja parametrów... → BaseApp → Preferencje → Dokument → MaxUndoSize**. Ustawienie to można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
+Zobacz [Std: Cofnij](Std_Undo/pl#Ustawienia.md).
+
+
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby ponownie wykonać czynność, która właśnie została cofnięta, należy użyć metody `redo` obiektu dokumentu.
-
-
-```python
-import FreeCAD
-
-FreeCAD.ActiveDocument.redo()
-```
+Zobacz [Std: Cofnij](Std_Undo/pl#Tworzenie_skryptów.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

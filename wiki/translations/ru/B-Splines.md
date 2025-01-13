@@ -77,7 +77,11 @@ $\quad
 
 If you are further interested, have a look at [The mathematics of Bézier curves](https://pomax.github.io/bezierinfo/#explanation) with a nicely animated derivation of the math of Bézier curves.
 
+
+
 ## B-Сплайны 
+
+
 
 ### Основы
 
@@ -162,7 +166,7 @@ To create periodic B-splines (B-splines that form a closed curve), use the toolb
 
 ![](images/Sketcher_Periodic-B-spline-creation.gif )
 
-B-splines can also be generated out of existing sketch segments. To do this, select the elements and press the the toolbar button **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Convert Geometry to B-spline](Sketcher_BSplineApproximate.md)**.
+B-splines can also be generated out of existing sketch segments. To do this, select the elements and press the the toolbar button **[<img src=images/Sketcher_BSplineConvertToNURBS.svg style="width:24px"> [Convert Geometry to B-spline](Sketcher_BSplineConvertToNURBS.md)**.
 
 While creating a B-spline, its degree can be specified by pressing the **D** key. With this, the default to create a cubic B-spline if possible, can be overridden. <small>(v0.20)</small> 
 

@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 Displays basic statistics of existing mesh - number of nodes and elements of each type. Particularly, total number of the following features is shown:
@@ -38,6 +40,8 @@ Displays basic statistics of existing mesh - number of nodes and elements of eac
 -   Quadratic tetrahedrons,
 -   Quadratic prisms,
 -   Quadratic pyramids.
+
+
 
 ## Использование
 

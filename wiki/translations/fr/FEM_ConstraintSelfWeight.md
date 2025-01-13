@@ -1,17 +1,28 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM ConstraintSelfWeight
    Name/fr: FEM Charge de gravité
    MenuLocation: Modèle , Conditions limites et charges mécaniques , Charge de gravité
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: CalculiX, Elmer
+}}
 ---
 
 # FEM ConstraintSelfWeight/fr
 
 ## Description
 
-Cette commande définit une accélération gravitationnelle de 9,81 m/s\^2 agissant sur l\'ensemble du modèle dans la direction prescrite.
+Cette commande définit une accélération gravitationnelle agissant sur l\'ensemble du modèle dans la direction prescrite.
+
+
+{{VersionMinus/fr|0.21}}
+
+: l\'accélération a une valeur fixe de 9,81 m/s\^2.
 
 
 
@@ -20,7 +31,13 @@ Cette commande définit une accélération gravitationnelle de 9,81 m/s\^2 agiss
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyer sur le bouton **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [Charge de gravité](FEM_ConstraintSelfWeight/fr.md)**.
     -   Sélectionner l\'option **Modèle → Conditions limites et charges mécaniques → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Charge de gravité** du menu.
-2.  Vous pouvez modifier la direction de la charge de gravité en modifiant ses coordonnées vectorielles dans la barre des propriétés du nouvel objet ConstraintSelfWeight.
+
+2.  Un objet ConstraintSelfWeight est créé.
+
+3.  
+    {{Version/fr|1.0}}: vous pouvez modifier sa propriété **Gravity Acceleration**.
+
+4.  Vous pouvez modifier sa propriété **Gravity Direction**.
 
 
 
@@ -56,7 +73,8 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfw
 
 ### Limitations
 
--   Vous devez modifier le fichier .inp pour modifier l\'accélération de la gravité.
+-    {{VersionMinus/fr|0.21}}: vous devez modifier le fichier .inp pour modifier l\'accélération de la gravité.
+
 -   Le poids propre est appliqué à l\'élément Eall qui comprend le modèle entier.
 
 

@@ -10,16 +10,31 @@
 # Arch Check/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento controlla il documento corrente o gli oggetti selezionati alla ricerca di oggetti **<img src="images/_Workbench_Part.svg" width=16px> [Part](Part_Workbench/it.md)** o **<img src="images/_Workbench_Arch.svg" width=16px> [Arch](Arch_Workbench/it.md)**, che potrebbero dare problemi, poiché la maggior parte delle operazioni del modulo Architettura richiedono oggetti solidi.
+
+
+</div>
 
 
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Premere il pulsante **<img src="images/Arch_Check.svg" width=16px> [Controlla](Arch_Check/it.md)**, o **Arch** → **Utilità** → **<img src="images/Arch_Check.svg" width=16px> [Controlla](Arch_Check/it.md)** nel menu principale.
+
+
+</div>
 
 
 
@@ -35,10 +50,16 @@ Lo strumento può essere utilizzato nelle [macro](Macros/it.md) e dalla console 
 list_bad = check(objectslist, includehidden=False)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 -   Controlla se gli oggetti dati in `objectslist` contengono solo solidi.
 -   Se `includehidden` è `True` include tutti gli oggetti nascosti, altrimenti li esclude dalla ricerca.
 -   Restituisce una `list_bad`, una lista con gli oggetti che non sono derivati da una `Part::Feature`, o componenti che non sono chiusi, non validi, non contengono solidi o che contengono facce che non fanno parte di alcun solido. Questo è usato per rilevare contorni e profili di [Arch](Arch_Workbench/it.md) o [Draft](Draft_Workbench/it.md) che non sono solidi.
     -   Ogni elemento in `list_bad` è un\'altra lista `[object, message]`, dove `object` è l\'oggetto rilevato non solido, e `message` indica il motivo per cui è stato incluso in questo elenco.
+
+
+</div>
 
 Esempio:
 
@@ -63,6 +84,20 @@ print(list_bad)
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/it
+⏵ [documentation index](../README.md) > Arch Check/it

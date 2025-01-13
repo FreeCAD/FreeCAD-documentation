@@ -9,14 +9,25 @@
 # Sketcher ViewSketch/zh-cn
 
 
+</div>
+
+
 
 ## 描述
+
+
+<div class="mw-translate-fuzzy">
 
 此工具会将视角设置为垂直于草图平面的模型视图。当用户为检查模型的外观而改变观察模型的视角方向后，又想返回正交于草图的视图时，此工具就派上了用场。
 
 
+</div>
+
+
 
 ## 用法
+
+See also: [Sketcher Preferences](Sketcher_Preferences#Display.md).
 
 
 <div class="mw-translate-fuzzy">

@@ -48,7 +48,7 @@
 
 -   複数のファイルフォーマットでのメッシュのインポート
 -   複数のファイルフォーマットでのメッシュのエクスポート
--   [パート](Part_Workbench.md)オブジェクトのメッシュへの変換
+-   [パートオブジェクトのメッシュへの](Part_Workbench.md)変換
 -   曲率、面の解析とメッシュを問題なくソリッドに変換できるかどうかのチェック
 -   メッシュ[法線](http://en.wikipedia.org/wiki/Surface_normal)の反転
 -   メッシュに開いた穴の穴埋め
@@ -127,9 +127,9 @@
 
 There are some [export preferences related to Mesh Formats](Import_Export_Preferences#Mesh_Formats.md) but these are not used by commands belonging to this workbench. They are used by the [Std Export](Std_Export.md) command.
 
-Mesh Workbench preferences can be found in the following categories of the [Preferences Editor](Preferences_Editor.md):
+Mesh Workbench preferences can be found in the following groups in the [Preferences Editor](Preferences_Editor.md):
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor#Display.md): On the [Mesh view](Preferences_Editor#Mesh_view.md) tab several preferences can be set.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor#Display.md): On the [Mesh view](Preferences_Editor#Mesh_view.md) page several preferences can be set.
 -   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences.md): The [Mesh Union](Mesh_Union.md), [Mesh Intersection](Mesh_Intersection.md) and [Mesh Difference](Mesh_Difference.md) commands require [OpenSCAD](http://www.openscad.org/) and use the **OpenSCAD executable** preference to find its executable.
 
 

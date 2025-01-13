@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descriere
 
-Copies the selected sketch elements from one point to another, using the last selected point as reference. When a copy is made, there is no link established between the copy and the original, see **[<img src=images/Sketcher_Clone.svg style="width:16px"> [Sketcher Clone](Sketcher_Clone.md)**.
+The <img alt="" src=images/Sketcher_Copy.svg  style="width:16px;"> [Sketcher Copy](Sketcher_Copy.md) command copies the selected sketch elements from one point to another, using the last selected point as reference. When a copy is made, there is no link established between the copy and the original, see **[<img src=images/Sketcher_Clone.svg style="width:16px"> [Sketcher Clone](Sketcher_Clone.md)**.
+
+
 
 
 <div class="mw-translate-fuzzy">

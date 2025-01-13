@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -21,6 +23,8 @@ Esta herramienta divide un objeto [Malla](Mesh_Workbench/es.md) seleccionado en 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -93,5 +97,13 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/es
+⏵ [documentation index](../README.md) > Arch SplitMesh/es

@@ -54,7 +54,7 @@ Zum Ändern der Endpunkte einer Hilfslinie:
 
 ## Hinweise
 
--   Zum Löschen einer Hilfslinie wird <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw HilfsobjektEntfernen](TechDraw_CosmeticEraser/de.md) verwendet.
+-   Um eine Hilfslinie zu löschen, wird sie ausgewählt und die **Entf**-Taste gedrückt. {{Version/de|1.0}}
 -   Um die Darstellung einer Hilfslinie anzupassen, wird <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [TechDraw LiniendarstellungÄndern](TechDraw_DecorateLine/de.md) verwendet.
 
 
@@ -67,7 +67,7 @@ Hilfslinien haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte sind
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Hilfslinien können mit den Methoden {{Incode|makeCosmeticLine(v1, v2)}} oder {{Incode|makeCosmeticLine3d(v1, v2)}} von DrawViewPart erstellt werden.
 

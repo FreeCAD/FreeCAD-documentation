@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch Grid
    Name/de: Arch Raster
-   MenuLocation: Arch , Achsenwerkzeuge , Raster
-   Workbenches: Arch_Workbench/de
+   MenuLocation: Anmerkung , Raster
+   Workbenches: BIM_Workbench/de
    SeeAlso: Arch_Axis/de, Arch_AxisSystem/de
 ---
 
@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Das Werkzeug **<img src="images/Arch_Grid.svg" width=16px> [Arch Raster](Arch_Grid/de.md)** ermöglicht, ein gitterartiges Objekt im Dokument zu platzieren. Dieses Objekt soll als Basis für die Erstellung von Arch-Objekten dienen, die einen regelmäßigen, aber komplexen Rahmen benötigen, wie z.B. Fenster, Vorhangfassaden, Säulengitter, Geländer usw. Das Gitterobjekt (Grid-Objekt) kann wie eine Tabellenkalkulation bearbeitet werden, indem Spalten und Zeilen hinzugefügt oder entfernt werden, die Größe festgelegt und Zellen zusammengeführt werden.
+Das Werkzeug **Arch Raster** ermöglicht, ein gitterartiges Objekt im Dokument zu platzieren. Dieses Objekt soll als Basis für die Erstellung von Arch-Objekten dienen, die einen regelmäßigen, aber komplexen Rahmen benötigen, wie z.B. Fenster, Vorhangfassaden, Säulengitter, Geländer usw. Das Rasterobjekt (Grid-Objekt) kann wie eine Tabellenkalkulation bearbeitet werden, indem Spalten und Zeilen hinzugefügt oder entfernt werden, die Größe festgelegt und Zellen zusammengeführt werden.
 
 Das Raster ist ein 2D-Objekt und kann daher überall dort verwendet werden, wo eine 2D-Form wie z.B. ein [Draft](Draft_Workbench/de.md)-Objekt oder eine [Skizze](Sketcher_Workbench/de.md) benötigt wird, es kann sich aber auch wie ein [Arch AchsenSystem](Arch_AxisSystem/de.md) verhalten und dazu verwendet werden, die Positionierung anderer Arch-Objekte zu verbreiten.
 
@@ -104,5 +104,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Grid/de
+⏵ [documentation index](../README.md) > Arch Grid/de

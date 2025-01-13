@@ -3,7 +3,13 @@
 
 FreeCAD é uma aplicação de modelagem 3D [aplicação de modelagem paramétrica](About_FreeCAD/pt-br.md). Ele é feito principalmente para projetos mecânicos, mas também serve a todos os outros usos onde você precisa modelar objetos 3D com precisão e controle sobre o histórico da modelagem.
 
-O FreeCAD está em desenvolvimento desde 2002 e oferece uma grande lista de [ recursos](Feature_list/pt-br.md). Ainda faltam recursos, mas elas são suficientemente poderosas para o uso por hobby e pequenas oficinas. Existe uma comunidade em rápido crescimento de usuários entusiastas que participam do [fórum do FreeCAD](http://forum.freecadweb.org/index.php) e você pode encontrar nele muitos [exemplos](https://forum.freecadweb.org/viewforum.php?f=24) de projetos de qualidade desenvolvidos com o FreeCAD. Veja também, [FreeCAD usado na produção](FreeCAD_used_in_production/pt-br.md).
+
+<div class="mw-translate-fuzzy">
+
+O FreeCAD está em desenvolvimento desde 2002 e oferece uma grande lista de [ recursos](Feature_list/pt-br.md). Ainda faltam recursos, mas elas são suficientemente poderosas para o uso por hobby e pequenas oficinas. Existe uma comunidade em rápido crescimento de usuários entusiastas que participam do [fórum do FreeCAD](http://forum.freecadweb.org/index.php) e você pode encontrar nele muitos [exemplos](https://forum.freecadweb.org/viewforum.php?f=24) de projetos de qualidade desenvolvidos com o FreeCAD.
+
+
+</div>
 
 Como todos os projetos de software livre, o FreeCAD depende de sua comunidade para crescer, ganhar recursos e corrigir bugs. Não se esqueça disso ao usar o FreeCAD; se você gostar, pode [doar](Donate/pt-br.md) e [ajude o FreeCAD](Help_FreeCAD/pt-br.md) de várias maneiras, como escrever documentação e fazer traduções.
 
@@ -18,13 +24,9 @@ Veja também:
 
 ## Instalação
 
+Primeiro, visite a página de [Download](Download.md) para baixar a versão mais recente do FreeCAD. Caso precise de mais informações sobre a instalação ou atualizações para o seu sistema operacional, acesse: ([Windows](Installing_on_Windows.md), [Linux](Installing_on_Linux.md) ou [macOS](Installing_on_Mac.md)).
 
-<div class="mw-translate-fuzzy">
-
-Primeiramente, baixe e instale o FreeCAD. Consulte a página [Download](Download/pt-br.md) para obter informações sobre versões e atualizações atuais e a instruções de instalação para seu sistema operacional ([Windows](Installing_on_Windows/pt-br.md), [Linux](Installing_on_Linux/pt-br.md) ou [Mac](Installing_on_Mac/pt-br.md)). Existem pacotes de instalação prontos para Windows (.msi), Debian e Ubuntu (.deb), openSUSE (.rpm) e Mac OSX. O FreeCAD está disponível nos gerenciadores de pacotes de muitas outras distribuições Linux. Também está disponível um executável [AppImage](AppImage/pt-br.md) independente, que será executado nos sistemas Linux de 64 bits mais recentes. Como o FreeCAD é de código aberto, você também pode pegar o código-fonte e [compilá-lo](Compiling.md).
-
-
-</div>
+Lembrando que o FreeCAD é um software de código aberto. Isso significa que você pode baixar e usar o programa gratuitamente. Se preferir, também é possível compilar o FreeCAD a partir do código-fonte.
 
 
 
@@ -75,12 +77,18 @@ Você também tem várias predefinições de visualização (vista superior, vis
 
 <div class="mw-translate-fuzzy">
 
-O foco do FreeCAD é permitir fazer modelos 3D de alta precisão, manter um controle rigoroso sobre esses modelos (poder voltar ao histórico de modelagem e alterar parâmetros), e eventualmente construir esses modelos (via impressão 3D, usinagem CNC ou mesmo canteiro de obras). Portanto, é muito diferente de algumas outras aplicações 3D feitas para outros fins, tais como filme de animação ou jogos. Sua curva de aprendizado pode ser íngreme, especialmente se este for seu primeiro contato com a modelagem 3D. Se você for atingido em algum momento, não se esqueça que a comunidade amigável de usuários no [FreeCAD forum](http://forum.freecadweb.org/index.php) pode ser capaz de tirá-lo de lá em pouco tempo.
+O foco do FreeCAD é permitir que você crie modelos 3D de alta precisão, mantenha controle total sobre esses modelos (podendo voltar ao histórico de modelagem e alterar parâmetros) e, eventualmente, construa esses modelos (por meio de impressão 3D, usinagem CNC ou até mesmo em canteiros de obras). Portanto, é muito diferente de algumas outras aplicações 3D feitas para outros propósitos, como filmes de animação ou jogos. Sua curva de aprendizado pode ser íngreme, especialmente se esta for sua primeira experiência com modelagem 3D. Se você ficar preso em algum ponto, não se esqueça de que a comunidade amigável de usuários no [fórum do FreeCAD](http://forum.freecadweb.org/index.php) pode ser capaz de ajudá-lo em pouco tempo.
 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 A bancada de trabalho que você começará a usar no FreeCAD depende do tipo de trabalho que você precisa fazer: Se você vai trabalhar em modelos mecânicos, ou mais geralmente qualquer objeto de pequena escala, você provavelmente vai querer experimentar o [Bancadas de trabalho PartDesign](PartDesign_Workbench/pt-br.md). Se você vai trabalhar em 2D, então mude para o [Bancada de trabalho Draft](Draft_Workbench/pt-br.md), ou para o [Bancada de trabalho Sketcher](Sketcher_Workbench/pt-br.md) se você precisar de restrições. Se você quiser fazer o BIM, abra o [Bancadas de trabalho Arch](Arch_Workbench/pt-br.md). E se você vem do mundo OpenSCAD, experimente o [Bancadas de trabalho OpenSCAD ](OpenSCAD_Workbench/pt-br.md). Há também muitos [Bancadas de trabalho externas](External_workbenches/pt-br.md) desenvolvidos pela comunidade disponíveis.
+
+
+</div>
 
 Você pode trocar de bancada de trabalho a qualquer momento, e também [customizar](Interface_Customization/pt-br.md) sua bancada de trabalho favorita para adicionar ferramentas de outras bancadas de trabalho.
 
@@ -112,15 +120,42 @@ A qualquer momento, você pode selecionar os esboços originais e modificá-los,
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ## Trabalhando com as bancadas Draft e Arch 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 O [Bancada de Trabalho Draft](Draft_Workbench/pt-br.md) e o [Bancada de Trabalho Arch](Arch_Workbench/pt-br.md) comportam-se de forma um pouco diferente dos outros bancos de trabalho acima, embora sigam as mesmas regras, que são comuns a todos os FreeCAD. Em resumo, enquanto o Sketcher e o PartDesign são feitos principalmente para desenhar peças únicas, o Draft e o Arch são feitos para facilitar seu trabalho quando se trabalha com vários objetos mais simples.
 
+
+</div>
+
 A [bancada de trabalho Draft](Draft_Workbench/pt-br.md) oferece ferramentas 2D um pouco semelhantes ao que você pode encontrar em aplicações CAD 2D tradicionais, tais como [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Entretanto, estando o esboço 2D longe do escopo do FreeCAD, não espere encontrar ali toda a gama de ferramentas que estas aplicações dedicadas oferecem. A maioria das ferramentas de rascunho funciona não apenas em um plano 2D, mas também em todo o espaço 3D, e se beneficia de sistemas de ajuda especiais como [Work planes](Draft_SelectPlane/pt-br.md) e [object snapping](Draft_Snap/pt-br.md).
+
+
+<div class="mw-translate-fuzzy">
 
 A [bancada de trabalho Arch](Arch_Workbench.md) acrescenta a ferramentas [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) ao FreeCAD, permitindo construir modelos arquitetônicos com objetos paramétricos. A bancada de trabalho Arch se baseia amplamente em outros módulos, como Draft e Sketcher. Todas as ferramentas Draft também estão presentes no bancada de trabalho Arch, e a maioria das ferramentas Arch faz uso dos sistemas de ajuda Draft.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 O fluxo de trabalho típico com a as bancadas de trabalho \"Arch\" (Arquitetura) e \"Draft\" (traço) será:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Desenhar algumas linhas com a ferramenta de **Linha** \"Draft\"
 2.  Selecionar cada linha e clicar na ferramenta **Parede** para construir uma parede em cada uma delas
@@ -130,6 +165,9 @@ O fluxo de trabalho típico com a as bancadas de trabalho \"Arch\" (Arquitetura)
 6.  criar uma janela clicando na ferramenta **Janela**, selecionar uma predefinição no painel, e depois clicar na face de uma parede
 7.  Adicionar cotas dimensionais selecionando primeiro o plano de trabalho se necessário, e depois usando a ferramenta **Dimensão** do \"Draft\"
 
+
+</div>
+
 O que lhe dará isto:
 
 <img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
@@ -138,20 +176,42 @@ Para mais informações, visite a página [Tutoriais](Tutorials.md) .
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ## Addons, Macro e Bancadas Externas 
 
-O FreeCAD, como um software de código aberto, oferece a possibilidade de complementar suas bancadas de trabalho com addons.
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 O princípio [Extensões](Addon/pt-br.md) é baseado no desenvolvimento de um complemento de bancada de trabalho. Qualquer usuário pode desenvolver uma função que ele ou ela considere faltar para suas próprias necessidades ou, em última instância, para a comunidade. Com o fórum, o usuário pode solicitar uma opinião, ajuda no fórum. Ele pode compartilhar, ou não, o objeto de seu desenvolvimento de acordo com as regras de direitos autorais a definir. Livre para ela/ele. Para desenvolver, o usuário tem disponíveis funções [scripting](Power_users_hub/pt-br.md).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Há dois tipos de extensões:
 
 1.  [Macros](Macros/pt-br.md): pequenos trechos de código Python que fornecem uma nova ferramenta ou funcionalidade. As macros geralmente começam como uma forma de simplificar ou automatizar a tarefa de desenhar ou editar um determinado objeto. Se muitas destas macros forem coletadas dentro de um diretório, o diretório inteiro pode ser distribuído como uma nova bancada de trabalho.
 2.  [ Bancadas de trabalho externas](External_workbenches/pt-br.md): coleções de ferramentas programadas em Python ou C++ que estendem o FreeCAD de uma forma importante. Se uma bancada de trabalho estiver suficientemente desenvolvida e bem documentada, ela pode ser incluída como uma das bancadas de trabalho de base no FreeCAD. Em [bancos de trabalho externos](External_workbenches/pt-br.md), você encontrará o princípio e uma lista da biblioteca existente.
 
+
+</div>
+
 ## Scripting
 
+
+<div class="mw-translate-fuzzy">
+
 E, finalmente, um dos recursos mais poderosos do FreeCAD é o ambiente [ scripting](scripting.md). No console python integrado (ou em qualquer outro script Python externo) você pode acessar quase qualquer parte do FreeCAD, criar ou modificar geometria, modificar a representação desses objetos na cena 3D ou acessar e modificar a interface do FreeCAD. O script Python também pode ser usado em [ macros](macros.md), que fornece um método fácil para criar comandos personalizados.
+
+
+</div>
 
 
 

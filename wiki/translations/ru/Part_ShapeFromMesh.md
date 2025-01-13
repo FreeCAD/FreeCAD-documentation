@@ -26,7 +26,7 @@
 
 </div>
 
-The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)** from the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
+The inverse operation is [Mesh FromPartShape](Mesh_FromPartShape.md) from the <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Mesh Workbench](Mesh_Workbench.md).
 
 
 
@@ -45,25 +45,11 @@ The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width:
 
 </div>
 
+## Properties
 
-<div class="mw-translate-fuzzy">
+See also: [Property editor](Property_editor.md).
 
-## Ограничения
-
-Анализ или проверка сетки проводиться не будет.
-Анализ и исправление сетки (при необходимости) должен проводиться вручную перед преобразованием.
-Подходящие инструменты доступны в [верстаке Mesh](Mesh_Workbench/ru.md).
-
-
-</div>
-
-After creation of a [Shape](Shape.md), it may be useful to use **[<img src=images/Part_MakeSolid.svg style="width:16px"> [Convert to solid](Part_MakeSolid.md)** (necessary for [boolean operations](Part_Boolean.md)) and **[<img src=images/Part_RefineShape.svg style="width:16px"> [Refine shape](Part_RefineShape.md)**.
-
-
-
-## Ссылки
-
--   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) video by AllVisuals4U.
+The Part ShapeFromMesh command creates [Part Feature](Part_Feature.md) objects with no additional properties.
 
 
 
@@ -78,19 +64,32 @@ Notice that the mesh must be recalculated before it is converted to a Shape, oth
 import FreeCAD as App
 import Part
 
-doc = App.newDocument()
+doc = App.ActiveDocument
 mesh = doc.addObject("Mesh::Cube", "Mesh")
 mesh.recompute()
 
-solid = doc.addObject("Part::Feature", "Shape")
 shape = Part.Shape()
 shape.makeShapeFromMesh(mesh.Mesh.Topology, 0.1)
 
-solid.Shape = shape
+solid = doc.addObject("Part::Feature", "Solid")
+solid.Shape = Part.Solid(shape.removeSplitter())
 solid.Placement.Base = App.Vector(15, 0, 0)
-solid.purgeTouched()
 doc.recompute()
 ```
+
+
+
+## Ссылки
+
+-   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) video by AllVisuals4U.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

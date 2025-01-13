@@ -10,14 +10,22 @@
 # Sketcher CreateArc/zh-cn
 
 
+</div>
+
+
 
 ## 描述
 
+
+<div class="mw-translate-fuzzy">
+
 此工具通过用户拾取的三个点：中点、圆周上的起始角度与圆周上的终点角度来绘制一条弧。
 
-在开启此工具时，鼠标指针将变为一个附有红色弧图标的白色十字。而指针的坐标也会实时显示在侧。
 
-<img alt="中点已选择完毕，正在通过移动鼠标来设置半径‎" src=images/Sketcher_ArcExample1.png ) ![中点与起始角度已经选定，正在通过移动鼠标来设置终点角度](images/Sketcher_ArcExample2.png  style="width:407" height="360px;">
+</div>
+
+<img alt="" src=images/Sketcher_ArcExample3.png  style="width:400px;"> 
+*Arc created in Center mode with automatically applied constraints defined by entering all On-View-Parameters*
 
 
 
@@ -28,6 +36,11 @@
 
 
 </div>
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
+Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">

@@ -10,9 +10,17 @@
 
 # Assembly3 CreateAssembly/ru
 
+
+
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Комманда **Assembly3 CreateAssembly** добавляет к древу проекта новый объект ветви, **Assembly**.
+
+
+</div>
 
 Each branch object is an <img alt="" src=images/Assembly_Assembly_Tree.svg  style="width:24px;"> **Assembly** container and holds four group containers:
 
@@ -27,11 +35,15 @@ Each branch object is an <img alt="" src=images/Assembly_Assembly_Tree.svg  styl
 
 <img alt="" src=images/Assembly3_Example-Tree-07.png  style="width:190px;"> <img alt="" src=images/Assembly3_Example-Tree-08.png  style="width:190px;">
 
+
+
 ## Применение
 
-1.  Create an empty assembly container by pressing **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Create assembly](Assembly3_CreateAssembly.md)
-**
-    or use the keyboard shortcut: **A** then **N**
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Create assembly](Assembly3_CreateAssembly.md)** button.
+    -   Select the **Assembly3 → <img src="images/Assembly_New_Assembly.svg‎‎" width=16px> Create assembly** option from the menu.
+    -   Use the keyboard shortcut **A** then **N**
+2.  An Assembly container is created.
 
 
 

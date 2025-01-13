@@ -4,9 +4,21 @@
 
 这是 FreeCAD 为新手提供主要帮助的区域。
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD 正在持续发展当中，所以可能存在缺少或过时的信息。如果你找不到你想要的信息，请不要犹豫，马上在 [FreeCAD 论坛](https://forum.freecadweb.org) 中进行咨询。
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 如果你想要为 FreeCAD 作出贡献，请[捐赠](donate.md)，或者参阅 [帮助FreeCAD](Help_FreeCAD/zh-cn.md)页面。如果你想编辑这个维基，请到 [论坛](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) 中请求一个具有编辑权限的维基账号，并且你遵循 [WikiPages](WikiPages.md) 中描述的通用指引进行编辑。
+
+
+</div>
 
 如果你有兴趣了解FreeCAD的开发是怎么开始，多年来是怎么进行的，请访问[历史](History.md)页面。
 
@@ -56,13 +68,19 @@ FreeCAD 正在持续发展当中，所以可能存在缺少或过时的信息。
 
 -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [标准工具](Std_Base.md). 这些命令和工具存在于所有工作台中。
 
--   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> 用于处理建筑元素的 [拱形工作台](Arch_Workbench.md)。
+-   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> The [Assembly Workbench](Assembly_Workbench.md) for building and solving mechanical assemblies. <small>(v1.0)</small> 
+
+-   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> The [BIM Workbench](BIM_Workbench.md) for working with architectural elements and creating [BIM](https://en.wikipedia.org/wiki/Building_information_modeling) models. It combines the Arch Workbench and the formerly external BIM Workbench available in {{VersionMinus|0.21}}.
+
+-   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> The [CAM Workbench](CAM_Workbench.md) is used to produce G-Code instructions. This workbench was called \"Path Workbench\" in {{VersionMinus|0.21}}.
 
 -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [草图工作台](Draft_Workbench.md) 包含 2D 工具和基本的 2D 和 3D CAD 操作。
 
 -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM 工作台](FEM_Workbench.md) 提供有限元分析 (FEA) 工作流程。
 
 -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [Inspection Workbench](Inspection_Workbench.md) 旨在为您提供用于检查形状的特定工具。 它仍在开发中。
+
+-   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> The [Material Workbench](Material_Workbench.md) handles the FreeCAD material system. <small>(v1.0)</small> 
 
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Mesh Workbench](Mesh_Workbench.md) 用于处理三角网格。
 
@@ -71,8 +89,6 @@ FreeCAD 正在持续发展当中，所以可能存在缺少或过时的信息。
 -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [零件工作台](Part_Workbench.md) 用于处理几何图元和布尔运算。
 
 -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [零件设计工作台](PartDesign_Workbench.md) 用于从草图构建零件形状。
-
--   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path Workbench](Path_Workbench.md) 用于生成 G 代码指令。
 
 -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> 用于处理点云的 [Points Workbench](Points_Workbench.md)。
 
@@ -84,21 +100,11 @@ FreeCAD 正在持续发展当中，所以可能存在缺少或过时的信息。
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [Spreadsheet Workbench](Spreadsheet_Workbench.md) 用于创建和操作电子表格数据。
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [启动中心工作台](Start_Workbench.md) 允许您快速跳转到最常见的工作台之一。
-
-
-</div>
-
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Surface Workbench](Surface_Workbench.md) 提供创建和修改表面的工具。 它类似于 [Part Builder](Part_Builder.md) Face from edges 选项。
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [TechDraw Workbench](TechDraw_Workbench.md) 用于从 3D 模型生成技术图纸。
 
 -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [测试框架工作台](Testing.md) 用于调试 FreeCAD。
-
--   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [网络工作台](Web_Workbench.md) 为您提供浏览器窗口，而不是 FreeCAD 中的 [3D 视图](3D_view.md)。
 
 
 

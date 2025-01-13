@@ -1,85 +1,102 @@
 ---
  GuiCommand:
    Name: Arch Panel
-   MenuLocation: Arch , Panel tools , Panel
-   Workbenches: Arch_Workbench
+   Name/pl: Architektura: Panel
+   MenuLocation: 3D / BIM , Narzędzia panelu , Panel
+   Workbenches: BIM_Workbench/pl
    Shortcut: **P** **A**
    Version: 0.15
-   SeeAlso: Arch_Panel_Cut, Arch_Panel_Sheet
+   SeeAlso: Arch_Panel_Cut/pl, Arch_Panel_Sheet/pl
 ---
 
 # Arch Panel/pl
 
-## Description
 
-This tool allows you to build all kinds of panel-like elements, typically for panel constructions like the [WikiHouse](http://www.wikihouse.cc/) project, but also for all kinds of objects that are based on a flat profile.
+
+## Opis
+
+Narzędzie **Panel** umożliwia tworzenie wszelkiego rodzaju elementów panelopodobnych, typowych dla konstrukcji panelowych, takich jak projekt [WikiHouse](https://www.wikihouse.cc/), ale także dla wszelkiego rodzaju obiektów opartych na płaskim profilu.
 
 <img alt="" src=images/Arch_Panel_example.jpg  style="width:700px;">
 
-*The above image shows a series of panel objects, simply made from imported 2D contours from a DXF file. They can then be rotated and assembled to create structures.*
+*Powyższy obraz przedstawia serię obiektów panelowych, utworzonych po prostu z zaimportowanych konturów 2D z pliku DXF. Można je następnie obracać i łączyć w celu tworzenia struktur.*
 
-Since version <small>(v0.17)</small>  the Arch Panel can also be used to create corrugated or trapezoidal profiles:
+Od wersji {{VersionPlus/pl|0.17}} narzędzie Panel może być również używany do tworzenia profili falistych lub trapezowych:
 
 <img alt="" src=images/Arch_panel_wave.jpg  style="width:700px;">
 
-## Usage
-
-1.  Select a 2D shape (Draft object, face or sketch) - optional.
-2.  Press the **<img src="images/Arch_Panel.svg" width=16px> [Arch Panel](Arch_Panel.md)** button, or press **P** then **A** keys.
-3.  Adjust the desired properties.
-
-### Limitations
-
--   There is currently no automatic system to produce 2D cutting sheets from panel objects, but such feature is in the plans and will be added in the future.
-
-## Options
-
--   Panels share the common properties and behaviours of all [Arch Components](Arch_Component.md).
--   The thickness of a panel can be adjusted after creation.
--   Press **Esc** or the **Cancel** button to abort the current command.
--   Double-clicking on the panel in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions.
--   It is possible to automatically make panels composed of more than one sheet of a material, by raising its Sheets property.
--   Panels can make use of <img alt="" src=images/Arch_MultiMaterial.svg  style="width:24px;"> [Multi-Materials](Arch_MultiMaterial.md). When using a multi-material, the panel will become multi-layer, using the thicknesses specified by the multi-material. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Panel\'s own Thickness value, after subtracting the other layers.
-
-## Properties
-
--    **Length**: The length of the panel
-
--    **Width**: The width of the panel
-
--    **Thickness**: The thickness of the panel
-
--    **Area**: The area of the panel (automatic)
-
--    **Sheets**: The number of sheets of material the panel is made of
-
--    **Wave Length**: The length of the wave for corrugated panels
-
--    **Wave Height**: The height of the wave for corrugated panels
-
--    **Wave Type**: The type of the wave for corrugated panels, curved, trapezoidal or spiked
-
--    **Wave Direction**: The orientation of the waves for corrugated panels
-
--    **Bottom Wave**: If the bottom wave of the panel is flat or not
-
-## Scripting
 
 
-**See also:**
+## Użycie
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+1.  Wybierz kształt 2D *(rysunek roboczy obiektu, ścianę lub szkic)* - opcjonalnie.
+2.  Naciśnij przycisk **<img src="images/Arch_Panel.svg" width=16px> '''Panel'''** lub naciśnij **P**, a następnie **A**.
+3.  Dostosuj żądane właściwości.
 
-The Panel tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+
+
+### Ograniczenia
+
+-   Obecnie nie ma automatycznego systemu do tworzenia arkuszy cięcia 2D z obiektów panelowych, ale taka funkcja jest w planach i zostanie dodana w przyszłości.
+
+
+
+## Opcje
+
+-   Panele mają wspólne właściwości i zachowania ze wszystkimi [komponentami](Arch_Component/pl.md) środowiska Architektura.
+-   Grubość panelu można dostosować po jego utworzeniu.
+-   Naciśnij **Esc** lub przycisk **Anuluj**, aby przerwać bieżące polecenie.
+-   Dwukrotne kliknięcie panelu w widoku drzewa po jego utworzeniu umożliwia przejście do trybu edycji i uzyskanie dostępu do opcji dodawania i odejmowania.
+-   Możliwe jest automatyczne tworzenie paneli składających się z więcej niż jednego arkusza materiału, poprzez ustawienie właściwości Arkusze.
+-   Panele mogą wykorzystywać <img alt="" src=images/Arch_MultiMaterial.svg  style="width:24px;"> [materiał złożony](Arch_MultiMaterial/pl.md). Podczas korzystania z materiału złożonego, panel stanie się wielowarstwowy, używając grubości określonych przez materiał złożony. Każda warstwa o grubości równej zero będzie miała grubość zdefiniowaną automatycznie przez pozostałą przestrzeń zdefiniowaną przez wartość Grubość panelu, po odjęciu innych warstw.
+
+
+
+## Właściwości
+
+-    **Długość**: Długość panelu
+
+-    **Szerokość**: Szerokość panelu
+
+-    **Grubość**: Grubość panelu
+
+-    **Obszar**: Obszar panelu (automatycznie)
+
+-    **Arkusze**: Liczba arkuszy materiału, z którego wykonany jest panel
+
+-    **Długość fali**: Długość fali dla paneli falistych
+
+-    **Wysokość fali**: Wysokość fali dla paneli falistych
+
+-    **Typ fali**: Typ fali dla paneli falistych, zakrzywiona, trapezowa lub kolczasta.
+
+-    **Kierunek fali**: Kierunek fali dla paneli falistych.
+
+-    **Fala denna**: Określa czy dolna fala panelu jest płaska czy nie.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Panel** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
+
+
 ```python
 Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, name="Panel")
 ```
 
--   Creates a `Panel` object from the given `baseobj`, which is a closed profile, and the given extrusion `thickness`.
-    -   If no `baseobj` is given, you can provide the numerical values for the `length`, `width`, and `thickness` to create a block panel.
--   If a `placement` is given, it is used.
+-   Tworzy obiekt `Panel` z podanego `baseobj`, który jest profilem zamkniętym i podanego wyciągnięcia `thickness`.
+    -   Jeśli nie podano `baseobj`, można podać wartości liczbowe dla `length`, `width` i `thickness`, aby utworzyć panel blokowy.
+-   Jeśli podano `placement`, zostanie on użyty.
 
-Example: 
+Przykład:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -87,11 +104,21 @@ Rect = Draft.makeRectangle(1000, 400)
 Panel = Arch.makePanel(Rect, thickness=36)
 ```
 
-## Tutorials
 
--   [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)
+
+## Poradniki
+
+-   [Poradnik przenoszenia Wikihouse](Wikihouse_porting_tutorial/pl.md)
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/pl
+⏵ [documentation index](../README.md) > Arch Panel/pl

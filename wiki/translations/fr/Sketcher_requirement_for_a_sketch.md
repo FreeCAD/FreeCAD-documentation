@@ -12,6 +12,8 @@
 
 
 
+
+
 ## Exigences minimales pour une esquisse 
 
 La création d\'un corps dans l\'espace de travail PartDesign est déjà possible et **seulement** à l\'aide d\'une courbe fermée (profil). La détermination complète de toutes leurs dimensions et propriétés (*totalement contrainte*) n\'est pas encore requise.
@@ -28,6 +30,8 @@ Au milieu: avertissement - ... face brisée (courbe brisée).
 A droite: courbe fermée aux quatre places restantes (vert)*
 
 Cependant, un travail paramétrique cohérent signifie que l\'esquisse est complètement déterminée.
+
+
 
 ## Définir complètement un croquis 
 

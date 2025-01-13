@@ -1,27 +1,33 @@
 ---
  GuiCommand:
    Name: PartDesign Scaled
-   Name/de: PartDesign Scaled
-   MenuLocation: None 
+   Name/de: PartDesign SkalierteTransformation
+   MenuLocation: Keine 
    Workbenches: PartDesign Workbench/de
    SeeAlso: PartDesign_MultiTransform/de
 ---
 
 # PartDesign Scaled/de
 
+
+
 ## Beschreibung
 
-<img alt="" src=images/PartDesign_Scaled.svg  style="width:24px;"> **PartDesign Skalieren** ist eine der Transformationsoptionen von <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> [MehrfachTransformation](PartDesign_MultiTransform/de.md). Im Gegensatz zu den anderen Optionen ist diese nicht als eigenständiges Werkzeug vorhanden. Es wandelt das Ergebnis einer Transformation in eine Abfolge skalierter Objekte mit gleichmäßig verteilten Skalierungsfaktoren. Am nicht skalierten Ausgangselement startend, wächst oder schrumpft der Skalierungsfaktor, bis er den gegebenen Wert am letzten Element erreicht.
+<img alt="" src=images/PartDesign_Scaled.svg  style="width:24px;"> **PartDesign SkalierteTransformation** ist eine der Transformationsoptionen von <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> [MehrfachTransformation](PartDesign_MultiTransform/de.md). Im Gegensatz zu den anderen Optionen ist diese nicht als eigenständiges Werkzeug vorhanden. Es wandelt das Ergebnis einer Transformation in eine Abfolge skalierter Objekte mit gleichmäßig verteilten Skalierungsfaktoren. Am nicht skalierten Ausgangselement startend, wächst oder schrumpft der Skalierungsfaktor, bis er den gegebenen Wert am letzten Element erreicht.
 
 <img alt="" src=images/PartDesign_Scaled-01.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/PartDesign_Scaled-02.png  style="width:300px;"> 
 *Ein lineares Muster und ein polares Muster → Skaliertes lineares Muster mit 3 Schritten (Vorkommen) und polares Muster mit 12 Schritten*
 
-Wenn noch keine Transformation in der <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> [MehrfachTransformation](PartDesign_MultiTransform/de.md) vorhanden ist, werden skalierte Elemente an derselben Position eingefügt, an der das Ausgangselement liegt. Dies kann zu unerwarteten Ergebnissen führen, wenn das Ausgangselement nicht komplett vom skalierten Element umhüllt wird. Und daher ist es nicht ratsam, **Skaliert** als erste Transformation einer MehrfachTransformation zu verwenden.
+Wenn noch keine Transformation in der <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> [MehrfachTransformation](PartDesign_MultiTransform/de.md) vorhanden ist, werden skalierte Elemente an derselben Position eingefügt, an der das Ausgangselement liegt. Dies kann zu unerwarteten Ergebnissen führen, wenn das Ausgangselement nicht komplett vom skalierten Element umhüllt wird. Und daher ist es nicht ratsam, die **SkalierteTransformation** als erste Transformation einer MehrfachTransformation zu verwenden.
 
 <img alt="" src=images/PartDesign_Scaled-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/PartDesign_Scaled-04.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/PartDesign_Scaled-05.png  style="width:200px;"> 
 *Ein Ausgangselement mit einem Loch → Skaliertes Objekt mit 2 Vorkommen → Skaliertes Objekt mit 4 Vorkommen *
 
+
+
 ## Anwendung
+
+
 
 ### Ein transformiertes Element skalieren 
 
@@ -34,6 +40,8 @@ Wenn noch keine Transformation in der <img alt="" src=images/PartDesign_MultiTra
 5.  Untere **OK**-Leiste drücken, um die Optionen zu bestätigen.
 6.  Obere Schaltfläche **OK** drücken zum Fertigstellen.
 
+
+
 ### Ein einzelnes Element skalieren 
 
 1.  Ein Formelement des aktiven Körpers in der [Baumansicht](Tree_view/de.md) auswählen.
@@ -41,6 +49,8 @@ Wenn noch keine Transformation in der <img alt="" src=images/PartDesign_MultiTra
     -   Die Schaltfläche **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Mehrfach-Transformation erstellen](PartDesign_MultiTransform/de.md)** drücken.
     -   Den Menüeintrag **Part Design → Muster anwenden → <img src="images/PartDesign_MultiTransform.svg" width=16px> Mehrfach-Transformation erstellen** auswählen.
 3.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Mehrfach-Transformation** wird geöffnet. Siehe oben.
+
+
 
 ## Optionen
 
@@ -50,6 +60,8 @@ Wenn noch keine Transformation in der <img alt="" src=images/PartDesign_MultiTra
 
     -   Die Transformation Skaliert akzeptiert die Anzahl der Vorkommen der vorherigen Transformation als maximalen Wert oder jeden ganzzahligen Teiler dieser Anzahl, der ein ganzzahliges Ergebnis liefert. So sind {{Value|12}}, {{Value|6}}, {{Value|4}}, {{Value|3}}und {{Value|2}} gültig für ein lineares oder polares Muster mit 12 Vorkommen.
     -   Für ein einzelnes skaliertes Formelement wird jeder ganzzahlige Wert größer als 1 akzeptiert.
+
+
 
 ## Hinweise
 

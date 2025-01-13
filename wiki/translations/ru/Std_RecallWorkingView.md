@@ -30,9 +30,15 @@ The **Std RecallWorkingView** recalls the active [3D view](3D_view.md)\'s stored
 ## Программирование
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
+
+
+</div>
 
 To recall the stored working view of the active 3D view:
 
@@ -47,7 +53,7 @@ FreeCADGui.runCommand("Std_RecallWorkingView", 0)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

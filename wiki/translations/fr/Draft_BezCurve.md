@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft BezCurve
    Name/fr: Draft Courbe de Bézier
-   MenuLocation: Draft , Outils de Bézier , Courbe de Bézier
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Formes , Outils de Bézier , Courbe de Bézier<br><br>BIM : Formes 2D , Courbe de Bézier
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **B** **Z**
    Version: 0.14
    SeeAlso: Draft_CubicBezCurve/fr, Draft_BSpline/fr
@@ -30,21 +30,22 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyer sur le bouton **<img src="images/Draft_BezCurve.svg" width=16px> [Courbe de Bézier](Draft_BezCurve/fr.md)**.
-    -   Sélectionner l\'option **Draft → Outils de Bézier → <img src="images/Draft_BezCurve.svg" width=16px> Courbe de Bézier** du menu.
-    -   Utiliser le raccourci clavier : **B** puis **Z**. {{Version/fr|0.20}}
+    -   [Draft](Draft_Workbench/fr.md) : sélectionner l\'option **Formes → Outils de Bézier → <img src="images/Draft_BezCurve.svg" width=16px> Courbe de Bézier** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionner l\'option **Formes 2D → <img src="images/Draft_BezCurve.svg" width=16px> Courbe de Bézier** du menu.
+    -   Utiliser le raccourci clavier : **B** puis **Z**.
 2.  Le panneau de tâches **Courbe de Bézier** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-4.  Choisir des points supplémentaires dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
+4.  Choisir des points supplémentaires dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
 5.  Appuyer sur **Échap** ou sur le bouton **Fermer** pour terminer la commande.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut (pour la version 1.0).
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
--   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **F** ou cliquez sur la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, la courbe créée aura la valeur **Make Face** mis à `True` et aura une face remplie, à condition qu\'elle soit fermée et ne s\'auto-intersectionne pas. Notez qu\'une courbe qui s\'auto-intersecte avec une face ne s\'affichera pas correctement. Pour une telle courbe, **Make Face** doit être défini sur `False`.
+-   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md).
+-   Appuyez sur **F** ou cliquez sur la case **Remplir** pour activer le mode de remplissage. Si le mode rempli est activé, la courbe créée aura la valeur **Make Face** mis à `True` et aura une face remplie, à condition qu\'elle soit fermée et ne s\'auto-intersectionne pas. Notez qu\'une courbe qui s\'auto-intersecte avec une face ne s\'affichera pas correctement. Pour une telle courbe, **Make Face** doit être défini sur `False`.
 -   Appuyez sur **N** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir utilisé **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** ou **<img src="images/Draft_CloseLine.svg" width=16px> Fermer**, ou après avoir créé une courbe fermée en la fixant au premier point de la courbe, ce qui vous permet de continuer à créer des courbes.
 -   Appuyez sur **/** ou sur le bouton **<img src="images/Draft_UndoLine.svg" width=16px> Annuler** pour annuler le dernier point.
 -   Appuyez sur **A** ou sur le bouton **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** pour terminer la commande et laisser la courbe ouverte.

@@ -1,10 +1,17 @@
-# <img alt="Web Arbeitsbereichssymbol" src=images/Workbench_Web.svg  style="width:64px;"> Web Workbench/de
+# Web Workbench/de
+**Der '''Arbeitsbereich Web''' wird nach der Version 0.21. nicht mehr enthalten sein.**
+
+<img alt="Web Arbeitsbereichssymbol" src=images/Workbench_Web.svg  style="width:128px;">
+
+
 
 ## Einleitung
 
 Der [Web-Arbeitsbereich](Web_Workbench/de.md) kein richtiger Modellierungsarbeitsbereich, sondern stellt innerhalb von FreeCAD ein Browser-Fenster zur Verfügung.
 
 Von diesem Browser aus kann man im Web navigieren, auf Verweise (Links) klicken, die Online-Dokumentation lesen und sich an Webseiten anmelden (Cookies werden unterstützt). Der Arbeitsbereich Web ist auch eine Basis zur Entwicklung von Werkzeugen mit Web-Bezug in FreeCAD. Das Browser-Fenster basiert auf der [QtWebEngine](https://wiki.qt.io/QtWebEngine) und hält Standard-Navigationsschaltflächen wie Ladevorgang anhalten, Webseite aktualisieren, Vorherige Seite, Nächste Seite, Vergrößern und Verkleinern vor.
+
+
 
 ## Werkzeuge
 
@@ -37,4 +44,4 @@ Der Arbeitsbereich Web enthält folgende Werkzeuge:
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/de
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/de

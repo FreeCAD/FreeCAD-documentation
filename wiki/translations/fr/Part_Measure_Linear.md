@@ -17,6 +17,8 @@ L\'apparence des mesures peut être modifiée dans le menu des [préférences](P
 
 <img alt="" src=images/MeasureLinear3D1.png  style="width:400px;"> <img alt="" src=images/MeasureLinearDelta1.PNG  style="width:400px;">
 
+
+
 ## Utilisation
 
 1.  Sélectionner n\'importe quelle combinaison de deux éléments : sommets, arêtes, faces\...
@@ -25,6 +27,8 @@ L\'apparence des mesures peut être modifiée dans le menu des [préférences](P
     -   Sélectionnez l\'option **Mesure → <img src="images/Part_Measure_Linear.svg" width=16px> Mesure linéaire** dans le menu.
 3.  Alternativement, la commande peut être lancée sans sélection préalable. Un dialogue de sélection s\'ouvre alors dans le [Panneau des tâches](Task_Panel/fr.md). Un widget de contrôle fournit également des boutons pour réinitialiser la sélection, basculer l\'affichage des mesures dans la [vue 3D](3D_view/fr.md) et effacer toutes les mesures.
 4.  Les mesures sont automatiquement supprimées à la fermeture du document.
+
+
 
 ## Remarques
 

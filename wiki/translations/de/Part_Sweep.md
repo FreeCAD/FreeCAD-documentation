@@ -49,7 +49,7 @@ Der Befehl Part Austragung ähnelt dem <img alt="" src=images/Part_Loft.svg  sty
 
 ### Akzeptierte Geometrie 
 
--   **Profile** können aus einem Punkt (Knoten), einer Linie (Kante), einem Kantenzug oder einer Fläche bestehen. Kanten und Kantenzüge können entweder offen oder geschlossen sein. Es gibt verschiedene [Einschränkungen](#Einschränkungen.md), siehe unten.
+-   **Profile** können aus einem Punkt (Knoten), einer Linie (Kante), einem Kantenzug oder einer Fläche bestehen. Kanten und Kantenzüge können entweder offen oder geschlossen sein. Es gibt verschiedene [Einschränkungen](#Einschränkungen.md), siehe unten. Manchmal reicht es nicht aus, Profile korrekt am Spine auszurichten. Damit das Werkzeug richtig funktioniert, kann es genauso wichtig sein, das Profil am Spine zu [befestigen](Part_EditAttachment/de.md). Wenn die Skizze des Profils am falschen Ende des Spines befestigt ist, wird die {{PropertyData/de|Map Path Parameter}} von 0 auf 1 geändert.
 
 -   **Spine**: kann aus einer Linie (Kante), einer Reihe von verbundenen Linien, einem Kantenzug, verschiedenen Grundelemente des Arbeitsbereiches Part, Objekten des Arbeitsbereiches Draft oder einer Skizze bestehen. Der Spine kann offen oder gesclossen sein.
 

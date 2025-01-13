@@ -3,6 +3,8 @@ FreeCAD 0.18 was released on 12 March, 2019, get it from [GitHub](https://github
 
 Older FreeCAD release notes can be found in [Feature list](Feature_list#Release_notes.md).
 
+
+
 ## Destacados
 
 Herramientas [TechDraw](#TechDraw_Workbench/es.md) extendidas
@@ -43,6 +45,8 @@ Enhanced and extended [Arch and BIM](#Arch_Workbench.md) tools
 
 
 
+
+
 ## Ambiente de Trabajo Arch 
 
 <img alt="The Arch workbench at work" src=images/Arch_release018_example.jpg  style="width:700px;">
@@ -64,6 +68,8 @@ Enhanced and extended [Arch and BIM](#Arch_Workbench.md) tools
 
 -   But there is much more! Check the [Arch/BIM development reports](https://github.com/yorikvanhavre/BIM_Workbench/wiki) to see everything that has been done there this year.
 
+
+
 ## Ambiente de Trabajo Draft 
 
 <img alt="More precise Draft annotation tools" src=images/Draft_release018_example.jpg  style="width:700px;">
@@ -81,26 +87,28 @@ Enhanced and extended [Arch and BIM](#Arch_Workbench.md) tools
 
 ## FEM Workbench 
 
-<img alt="The polished FEM material dialog" src=images/FEM-Material-dialog-018.png  style="width:300px;"> In 0.17 there where added tons of new features in FEM. Thus the main focus for FEM in 0.18 release of FreeCAD was not adding even more new features and tools, but make the existing ones more stable and fix as much as possible bugs. FEM got 470 commits during FreeCAD 0.18 development cycle [1](https://forum.freecadweb.org/viewtopic.php?f=10&t=13154&p=297292#p297110).
+<img alt="The polished FEM material dialog" src=images/FEM-Material-dialog-018.png  style="width:300px;"> In 0.17, tons of new features were added to FEM. Thus, the main focus for FEM in the 0.18 release of FreeCAD was not adding even more new features and tools, but making the existing ones more stable and fixing as many bugs as possible. FEM got 470 commits during FreeCAD 0.18 development cycle [1](https://forum.freecadweb.org/viewtopic.php?f=10&t=13154&p=297292#p297110).
 
 ### General Improvements on the code base 
 
 -   Tons of bug fixes.
--   Code refactor and cleaning. Get rid of duplicate code.
+-   Code refactoring and cleaning. Get rid of duplicate code.
 -   Fix a lot of typos in code and visible messages.
 -   Python 3 compatibility fixes.
--   More unit tests where added.
--   Possibility to compile FreeCAD with external uptodate SMESH.
+-   More unit tests were added.
+-   Possibility to compile FreeCAD with external up-to-date SMESH.
 
 ### Tools
 
--   A clipping plane tool was added to be able to select solids which are inside other solids.
+-   A clipping plane tool was added to be able to select solids that are inside other solids.
 -   The VTK warp filter got some love.
 -   An analysis type for CalculiX model checking was added.
 
 ### Material
 
 The material handling was improved. It is now possible to use the global FreeCAD material editor. See also [material cards](Release_notes_0.18#Material_Handling.md). For this the the FEM material task panel was polished.
+
+
 
 ## Ambiente de Trabajo Part 
 
@@ -109,9 +117,13 @@ The material handling was improved. It is now possible to use the global FreeCAD
 
 -   The new [SliceApart](Part_SliceApart.md) tool is based on the [Slice to Compound](Part_Slice.md) and includes an automatic compound explode for easily splitting objects.
 
+
+
 ## Ambiente de Trabajo PartDesign 
 
 -   The new [Local Coordinate System](PartDesign_CoordinateSystem.md) tool now allows the addition of a local coordinate system visualization to several datum objects.
+
+
 
 ## Ambiente de Trabajo Path 
 
@@ -126,6 +138,8 @@ The material handling was improved. It is now possible to use the global FreeCAD
 -   Job container organisation has been improved
 -   Default Values for Operation Settings can be controlled through SetupSheets
 
+
+
 ### Operaciones
 
 -   New Adaptive Clearing Operation
@@ -139,6 +153,8 @@ The material handling was improved. It is now possible to use the global FreeCAD
 
 -   grbl_post -- argument to suppress tool change commands
 -   grbl_g81 post processor
+
+
 
 ## Ambiente de Trabajo Sketcher 
 
@@ -162,7 +178,11 @@ Relevant forum links:
 -   [Sketcher Auto Remove Redundants mode](https://forum.freecadweb.org/viewtopic.php?f=9&t=30594)
 -   [Constraints extended naming](https://forum.freecadweb.org/viewtopic.php?f=10&t=28890)
 
+
+
 ## Ambiente de Trabajo Spreadsheet 
+
+
 
 ## Ambiente de Trabajo Surface 
 
@@ -190,6 +210,8 @@ The TechDraw Workbench received a number of additions and improvements for v0.18
 <img alt="A material card" src=images/Material-Card-018.png  style="width:300px;"> The material handling has been improved. It is now possible to create **material cards** for every material. The cards can contain all information, physical properties, architectural specification, web links, comments. etc. The cards are text files with the file suffix **.FCMat** and can be used for all workbenches of FreeCAD.
 
 FreeCAD provides material cards for standard metals, plastics and different types of steel.
+
+
 
 ## Módulos Adicionales 
 

@@ -11,6 +11,9 @@
 # Sketcher CreateLine/ru
 
 
+</div>
+
+
 
 ## Описание
 
@@ -25,16 +28,13 @@
 ![](images/Sketcher_LineExample1.png‎ )
 
 
-<div class="mw-translate-fuzzy">
-
-Созданный объект линии начинается и заканчивается в заданных точках, но линия бесконечна относительно таких ограничений как [Касательная](Sketcher_ConstrainTangent/ru.md), [Точка на Объекте](Sketcher_ConstrainPointOnObject/ru.md) и [Внутренний угол](Sketcher_ConstrainAngle/ru.md). Это означает, например, что точка с ограничением [Точка на Объекте](Sketcher_ConstrainPointOnObject/ru.md) может не располагаться между двумя заданными точками, но может находиться за пределами двух точек на продолжении нарисованной линии.
-
-
-</div>
-
-
 
 ## Применение
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
+Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">

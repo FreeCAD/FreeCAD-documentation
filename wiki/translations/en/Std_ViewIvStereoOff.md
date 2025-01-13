@@ -18,26 +18,13 @@ The **Std ViewIvStereoOff** command switches off stereo mode in the active [3D v
 
 ## Scripting
 
-
-**See also:**
-
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-To change the view to non-stereo use the `setStereoType` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.setStereoType('None')
-FreeCADGui.ActiveDocument.ActiveView.getStereoType()
-```
+See [Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

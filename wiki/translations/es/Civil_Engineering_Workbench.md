@@ -8,7 +8,15 @@ En la actualidad, sólo dos componentes de la ingeniería civil están represent
 1.  [Ambiente de Trabajo Barra de refuerzo](Arch_Rebar/es.md)
 2.  [Ambiente de Trabajo Transporte](Transportation_Workbench.md)
 
+
+<div class="mw-translate-fuzzy">
+
 Las herramientas de Barra de refuerzo forman parte actualmente del [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md)
+
+
+</div>
+
+
 
 ## Temas del foro relacionados 
 
@@ -21,6 +29,8 @@ Las herramientas de Barra de refuerzo forman parte actualmente del [Ambiente de 
 -   Capturas de pantalla
 -   Hoja de ruta (juego de palabras no intencionado)
 -   Arreglar esta página wiki
+
+
 
 ## Enlaces relacionados 
 

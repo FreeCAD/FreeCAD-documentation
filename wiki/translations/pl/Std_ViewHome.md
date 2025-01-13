@@ -11,9 +11,13 @@
 
 # Std ViewHome/pl
 
+
+
 ## Opis
 
-Polecenie **Widok domyślny** zmienia orientację ujęcia widoku w aktywnym oknie [widoku 3D](3D_view/pl.md) na widok domyślny. A następnie powiększa i pochyla ujęcie widoku tak, aby wszystkie widoczne obiekty znajdowały się w jego obrębie.
+Polecenie **Widok domyślny** zmienia orientację ujęcia widoku w aktywnym oknie [widoku 3D](3D_view/pl.md) na widok domyślny. A także powiększa i pochyla ujęcie widoku tak, aby wszystkie widoczne obiekty znajdowały się w jego obrębie.
+
+
 
 ## Użycie
 
@@ -22,15 +26,19 @@ Polecenie **Widok domyślny** zmienia orientację ujęcia widoku w aktywnym okni
     -   Wybierz opcję **Widoki standardowe → <img src="images/Std_ViewHome.svg" width=16px> Widok domyślny** z menu podręcznego w oknie [widoku 3D](3D_view/pl.md).
     -   Użyj skrótu klawiaturowego: **Home**.
 
+
+
 ## Ustawienia
 
--   Domyślne ustawienie ujęcia widoku można dostosować w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Nawigacja → Domyślna orientacja ujęcia widoku**. Zobacz również [Edytor ustawień](Preferences_Editor/pl#Nawigacja.md).
+Zobacz też: [Edytor preferencji](Preferences_Editor/pl.md).
+
+-   Domyślne ustawienie ujęcia widoku można dostosować w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Nawigacja → Domyślna orientacja ujęcia widoku**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

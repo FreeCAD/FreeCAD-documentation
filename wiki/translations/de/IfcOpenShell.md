@@ -8,7 +8,7 @@
 
 IfcOpenShell verwendet intern [OpenCASCADE](OpenCASCADE/de.md), um die implizite Geometrie in IFC Dateien in explizite Geometrie zu konvertieren, die andere CAD Pakete verstehen können, z. B. STEP, [OBJ](Arch_OBJ/de.md) und [DAE](Arch_DAE/de.md).
 
-Ab v0.19 ist FreeCAD in der Lage, IFC Dateien zu importieren, solange das `ifcopenshell` [Python](Python/de.md) Modul im System verfügbar ist. Ebenso können die [Architektur](Arch_Workbench/de.md) und [BIM Arbeitsbereiche](BIM_Workbench/de.md) ein Gebäudemodell in das IFC Format exportieren, so dass es in anderen Anwendungen verwendet werden kann.
+Ab v0.19 ist FreeCAD in der Lage, IFC-Dateien zu importieren, solange das `ifcopenshell` [Python](Python/de.md)-Modul im System verfügbar ist. Ebenso kann der Arbeitsbereich [BIM](BIM_Workbench/de.md) ein Gebäudemodell in das IFC-Format exportieren, so dass es in anderen Anwendungen verwendet werden kann.
 
 Um zu überprüfen, ob IfcOpenShell in deinem System installiert ist, versuche, sie über die [Python Konsole](Python_console/de.md) zu importieren; die Bibliothek ist korrekt installiert, wenn keine Fehlermeldung zurückgegeben wird.
 
@@ -21,11 +21,15 @@ import ifcopenshell
 
 IfcOpenShell kann auf verschiedene Arten installiert werden, je nach Betriebssystem und Python Umgebung. In der Vergangenheit war die Installation von IfcOpenShell etwas schwierig, da sie für dein spezifisches System kompiliert werden musste; seit diesem Beitrag (2020) ist es jedoch einfacher, sie zu verwenden, da sie nun zusammen mit FreeCAD in vielen FreeCAD Distributionen enthalten ist. Im Allgemeinen ist es ratsam, eine dieser vorkompilierten Distributionen zu verwenden und es nur selbst zu kompilieren, wenn du ein fortgeschrittener Benutzer bist.
 
-### From BlenderBIM 
+
+
+### Von BlenderBIM 
 
 [BlenderBIM](https://blenderbim.org) is another project that uses IfcOpenShell. They provide up-to-date IfcOpenShell packages for several platforms. This is the best way to make sure you have a recent version of IfcOpenShell.
 
 BlenderBIM IfcOpenShell install page: <https://blenderbim.org/docs-python/ifcopenshell-python/installation.html>
+
+
 
 ### Pip
 
@@ -509,9 +513,11 @@ Das IfcOpenShell Projekt hat auch \"IFC Pipeline\" entwickelt, ein selbstgehoste
 -   Welche Seiten verlinken auf [diese Seite](Special:WhatLinksHere/IfcOpenShell/de.md).
 
 
- {{FEM Tools navi}}
+{{BIM_Tools_navi
+
+}} {{FEM_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [3rd Party](Category_3rd Party.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > IfcOpenShell/de
+⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > IfcOpenShell/de

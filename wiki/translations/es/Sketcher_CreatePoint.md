@@ -23,9 +23,13 @@ La herramienta Punto crea un punto en el croquis actual, que puede utilizarse pa
 
 </div>
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
+
 
 ## Utilización
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -37,17 +41,9 @@ La herramienta Punto crea un punto en el croquis actual, que puede utilizarse pa
 
 </div>
 
+## Notes
 
-
-## Opciones
-
-
-<div class="mw-translate-fuzzy">
-
-El modo de ajuste a la rejilla se puede establecer en el [Preferencias del Croquizafor](Sketcher_Preferences/es.md). El punto se ajusta entonces a la rejilla, si tiene menos de un 25% de distancia a una línea de la rejilla. El modo de ajuste no los fija a la rejilla. Los puntos pueden ser movidos con el ratón o las restricciones a otras ubicaciones.
-
-
-</div>
+-    {{VersionMinus|0.21}}: Points are always created as construction geometry. Optionally change them to normal geometry with [Sketcher ToggleConstruction](Sketcher_ToggleConstruction.md) to make them visible outside of Sketch editing mode.
 
 
 <div class="mw-translate-fuzzy">

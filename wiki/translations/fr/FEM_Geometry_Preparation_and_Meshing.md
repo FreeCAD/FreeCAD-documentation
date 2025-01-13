@@ -3,8 +3,8 @@
    Topic: Analyse par éléments finis
    Level: Débutant
    Time: Non applicable
-   Author: http://www.freecadweb.org/wiki/index.php?title=User:NewJoker NewJoker
-   FCVersion: 0.21 ou plus récente
+   Author: https://www.freecad.org/wiki/index.php?title=User:NewJoker NewJoker
+   FCVersion: 1.0 ou plus récente
    SeeAlso: FEM_Workbench/fr
 ---
 
@@ -24,9 +24,9 @@ La préparation de la géométrie et le maillage sont des éléments cruciaux du
 
 ## Types de géométrie utilisés pour la méthode des éléments finis dans FreeCAD 
 
--   Lignes (polylignes) - utilisées pour les analyses avec des éléments de poutre
--   Surfaces - utilisées pour les analyses avec des éléments de coque
--   Solides - utilisés pour les analyses avec des éléments solides
+-   Lignes (polylignes) : pour les analyses avec des éléments de poutre
+-   Surfaces : pour les analyses avec des éléments de coque et des éléments 2D (contraintes et déformations planes et axisymétriques)
+-   Solides : pour les analyses avec des éléments solides
 
 
 
@@ -50,7 +50,12 @@ Bien que la plupart des conceptions soient constituées de solides, il est souve
 
 *Pièce à paroi mince adaptée à l'analyse avec des éléments de coque - mise en évidence de la surface médiane*
 
-Il convient de rappeler que les éléments de poutre et de coque utilisés dans CalculiX ne sont pas de véritables éléments de poutre/coque (ils n\'utilisent pas les formulations d\'éléments de poutre/coque connues dans la littérature et dans d\'autres logiciels) - ils sont étendus de manière interne aux solides. Néanmoins, leur utilisation est recommandée dans les cas susmentionnés.
+-   Dans certains cas, les analyses 2D sont également possibles et peuvent être activées en définissant la propriété **Model Space** du [solveur CalculiX](FEM_SolverCalculixCxxtools/fr.md) :
+    -   contrainte plane : pour les pièces minces qui peuvent être simplifiées en surfaces planes représentant le profil d\'extrusion (l\'épaisseur est définie de la même manière que pour les coques), sont chargées et se déforment uniquement dans le plan et ont une contrainte nulle dans la direction hors du plan. Seuls deux degrés de liberté sont disponibles : la translation en X et en Y. Dans ce cas, les surfaces doivent se situer sur le plan XY. Cette approche est assez courante. Par exemple, une plaque mince soumise à une tension peut être analysée de cette manière.
+    -   déformation dans le plan : pour les pièces épaisses qui peuvent être simplifiées en surfaces planes représentant le profil d\'extrusion (l\'épaisseur est définie de la même manière que pour les coquilles), sont chargées et se déforment uniquement dans le plan et ont une déformation nulle dans les directions hors du plan. Seuls deux degrés de liberté sont disponibles : la translation en X et en Y. Dans ce cas, les surfaces doivent être situées sur le plan XY. Cette approche n\'est pas très courante. Par exemple, un long barrage, un mur ou un tuyau soumis à une pression uniforme sur toute sa longueur peut être analysé de cette manière.
+    -   axisymétrique : pour les pièces qui peuvent être simplifiées en surfaces planes représentant le profil tournant (l\'épaisseur n\'a pas d\'importance ici) et qui sont chargées uniformément sur toute la circonférence. Seuls deux degrés de liberté sont disponibles : la translation radiale et la translation axiale. Les surfaces doivent être situées sur le plan XY, à droite de l\'axe Y. Cette approche est très courante. Par exemple, certains récipients sous pression, les supports en caoutchouc, les bagues, les joints, les brides et même les assemblages boulonnés (en considérant le filetage comme axisymétrique) peuvent être analysés de cette manière.
+
+Il convient de rappeler que les éléments poutre, coque, contrainte/déformation plane et axisymétrique utilisés dans CalculiX ne sont pas de véritables éléments de ce type (ils n\'utilisent pas les formulations d\'éléments classiques connues dans la littérature et dans d\'autres logiciels), ils sont étendus en interne aux solides. Néanmoins, leur utilisation est recommandée dans les cas susmentionnés.
 
 
 
@@ -71,7 +76,7 @@ Les designs préparés dans les logiciels de CAO sont généralement trop détai
 -   boulons, filetages,
 -   les éléments décoratifs (logos, gravures).
 
-L\'outil [Part Supprimer la fonctionnalité](Part_Defeaturing/fr.md) et l\'[extension Defeaturing](Defeaturing_Workbench/fr.md) peuvent être utiles pour simplifier les pièces pour les simulations.
+L\'outil [Part Supprimer la fonction](Part_Defeaturing/fr.md) et l\'[extension Defeaturing](Defeaturing_Workbench/fr.md) peuvent être utiles pour simplifier les pièces pour les simulations.
 
 <img alt="" src=images/FEM_bracket_original.PNG  style="width:400px;">
 
@@ -107,11 +112,13 @@ La force appliquée doit être correctement réduite si le plan de symétrie cou
 
 *Modèle de 1/8 d'un récipient sous pression cylindrique avec des conditions limites de symétrie et une charge de pression interne*
 
+Un autre type de symétrie, moins courant, disponible dans FreeCAD FEM est la symétrie cyclique. Elle peut être définie à l\'aide de la [contrainte de liaison](FEM_ConstraintTie/fr#Symétrie_cyclique.md) et permet d\'analyser un seul secteur représentatif d\'une structure constituée de tels motifs circulaires autour d\'un axe. L\'hypothèse est que les conditions aux limites et les charges présentent également cette forme de symétrie. Des charges tangentielles peuvent être appliquées et la torsion peut donc être simulée de cette manière. Cependant, une [charge centrifuge](FEM_ConstraintCentrif/fr.md) est généralement utilisé avec la symétrie cyclique. Cette approche peut être utilisée par exemple pour les rotors, les arbres, les turbines, les ventilateurs et les volants d\'inertie.
+
 
 
 ## Partitionnement de la géométrie 
 
-Le partitionnement est une division de la géométrie en segments plus petits. Dans d\'autres logiciels, il est généralement utilisé pour permettre le maillage hexagonal, mais dans FreeCAD, il peut être utile pour d\'autres raisons. La principale application du partitionnement est lorsqu\'une charge (ou une condition limite) doit être appliquée uniquement à une région sélectionnée de la surface de la pièce. La façon la plus simple d\'y parvenir est de créer une esquisse avec un contour approprié sur cette face et d\'utiliser l\'outil [Part Fragments booléens](Part_BooleanFragments/fr.md) pour diviser la face avec l\'esquisse. Une autre raison d\'utiliser le partitionnement est lorsque plusieurs matériaux doivent être appliqués à une seule pièce (sans avoir à utiliser plusieurs pièces connectées entre elles). Dans ce cas, le partitionnement peut être effectué à l\'aide d\'un [plan](PartDesign_Plane/fr.md) et de l\'outil Fragments booléens en mode *Compsolid*.
+Le partitionnement est une division de la géométrie en segments plus petits. Dans d\'autres logiciels, il est généralement utilisé pour permettre le maillage hexagonal, mais dans FreeCAD, il peut être utile pour d\'autres raisons. La principale application du partitionnement est lorsqu\'une charge (ou une condition limite) doit être appliquée uniquement à une région sélectionnée de la surface de la pièce. La façon la plus simple d\'y parvenir est de créer une esquisse avec un contour approprié sur cette face et d\'utiliser l\'outil [Part Fragments booléens](Part_BooleanFragments/fr.md) pour diviser la face avec l\'esquisse. Une autre raison d\'utiliser le partitionnement est lorsque plusieurs matériaux doivent être appliqués à une seule pièce (sans avoir à utiliser plusieurs pièces connectées entre elles). Dans ce cas, le partitionnement peut être effectué à l\'aide d\'un [plan](PartDesign_Plane/fr.md) et de l\'outil Fragments booléens en mode *Compsolid*. Le partitionnement peut également être utilisé pour créer des régions pour [mailler plus finement](FEM_MeshRegion/fr.md).
 
 <img alt="" src=images/FEM_partition.JPG  style="width:400px;">
 
@@ -123,14 +130,14 @@ Le partitionnement est une division de la géométrie en segments plus petits. D
 
 ## Assemblage de géométries 
 
-L\'une des principales limitations actuelles de l\'atelier FEM est que les maillages multiples ne sont pas pris en charge. En pratique, cela signifie qu\'il n\'est pas possible de mailler chaque pièce de l\'assemblage individuellement, puis de connecter les pièces avec les contraintes appropriées pour l\'analyse. Il est donc nécessaire de créer un objet unique contenant toutes les pièces de l\'assemblage et de le mailler. Il existe plusieurs options différentes, toutes basées sur les [Part Outils booléens](Part_Module/fr#Booléen.md). Le choix dépend de l\'effet désiré : si chaque pièce/volume et leurs limites doivent être sélectionnables (par exemple pour l\'affectation de matériaux ou les définitions des conditions limites agissant sur les faces internes) ou non :
+L\'une des principales limitations actuelles de l\'atelier FEM est que les maillages multiples ne sont pas pris en charge. En pratique, cela signifie qu\'il n\'est pas possible de mailler chaque pièce de l\'assemblage individuellement, puis de connecter les pièces avec les contraintes appropriées pour l\'analyse. Il est donc nécessaire de créer un objet unique contenant toutes les pièces de l\'assemblage et de le mailler. Il existe plusieurs options différentes, toutes basées sur les [Part Outils booléens](Part_Workbench/fr#Barres_d'outils_des_booléens.md). Le choix dépend de l\'effet désiré : si chaque pièce/volume et leurs limites doivent être sélectionnables (par exemple pour l\'affectation de matériaux ou les définitions des conditions limites agissant sur les faces internes) ou non :
 
 -   [Part Union](Part_Fuse/fr.md) : fusionne les pièces, rendant impossible leur sélection individuelle, par exemple pour les définitions de matériaux,
 -   [Part Composé](Part_Compound/fr.md) : crée un objet composé, ce qui permet de sélectionner chaque pièce,
 -   [Part Connecter](Part_JoinConnect/fr.md) : fonctionne comme Part Union, mais fusionne les parties, ce qui rend impossible leur sélection individuelle,
 -   [Part Fragments booléens](Part_BooleanFragments/fr.md) : fonctionne comme Part Composé, ce qui permet de sélectionner chaque partie.
 
-Il est important de mentionner que si les pièces se touchent, un maillage continu sera créé sur l\'objet booléen et aucune contrainte ne sera nécessaire pour la simulation. S\'il y a un petit espace entre les pièces, le maillage ne sera pas continu et des contraintes comme [Contrainte de liaison](FEM_ConstraintTie/fr.md) ou [Contrainte de contact](FEM_ConstraintContact/fr.md) seront nécessaires. L\'exécution d\'une analyse en fréquence est un bon moyen de révéler si le maillage est continu ou non. Si les pièces ne sont pas connectées, les premières formes des modes avec déformation visualisées à l\'aide du [filtre des déformations](FEM_PostFilterWarp/fr.md) montreront une séparation, les pièces \"s\'envoleront\".
+Il est important de mentionner que si les pièces se touchent, un maillage continu sera créé sur l\'objet booléen et aucune contrainte ne sera nécessaire pour la simulation. S\'il y a un petit espace entre les pièces (ou une intersection à l\'intérieur d\'un Part Composé), le maillage ne sera pas continu et des contraintes comme la [Contrainte de liaison](FEM_ConstraintTie/fr.md) ou la [Contrainte de contact](FEM_ConstraintContact/fr.md) seront nécessaires. L\'exécution d\'une analyse en fréquence est un bon moyen de révéler si le maillage est continu ou non. Si les pièces ne sont pas connectées, les premières formes des modes avec déformation visualisées à l\'aide du [filtre des déformations](FEM_PostFilterWarp/fr.md) montreront une séparation, les pièces \"s\'envoleront\".
 
 <img alt="" src=images/FEM_modal_separation.JPG  style="width:400px;">
 
@@ -148,7 +155,7 @@ La sélection des régions internes (faces/volumes) peut s\'avérer délicate. E
 
 ## Les bases du maillage 
 
-Un maillage trop grossier est l\'une des sources les plus courantes d\'inexactitudes et d\'autres problèmes dans les simulations par éléments finis. Il s\'agit souvent d\'une erreur partielle des paramètres du maillage automatique. Ils génèrent généralement des maillages très grossiers et inadaptés lorsque la taille des éléments n\'est pas spécifiée manuellement, mais laissée avec une valeur par défaut. Il faut toujours connaître les dimensions approximatives de la pièce, en particulier la taille de la plus petite caractéristique pertinente (l\'outil [Part Mesure linéaire](Part_Measure_Linear/fr.md) peut aider à cet égard) et spécifier la taille maximale appropriée de l\'élément sur cette base. Lors du maillage avec Gmsh, il existe également un paramètre de taille minimale des éléments qui peut empêcher la création d\'éléments trop petits autour de petites caractéristiques géométriques, ce qui peut conduire à des maillages inutilement denses (et parfois même à un plantage ou à un gel de FreeCAD lorsqu\'on essaie de générer de tels maillages). D\'une manière générale, il est préférable de commencer par un maillage plus grossier (moins long à générer), de voir à quoi il ressemble (une certaine expérience est nécessaire) et de l\'affiner si nécessaire. Il est souvent judicieux d\'utiliser un maillage dense uniquement autour des zones d\'intérêt (endroits présentant des gradients/concentrations de contraintes importants - encoches) et un maillage relativement grossier à l\'écart de ces zones. De cette manière, le nombre d\'éléments peut être considérablement réduit, ce qui permet de diminuer les temps de résolution. Le raffinement local du maillage est défini à l\'aide de [FEM Région de maillage FEM](FEM_MeshRegion/fr.md).
+Un maillage trop grossier est l\'une des sources les plus courantes d\'inexactitudes et d\'autres problèmes dans les simulations par éléments finis. Il s\'agit souvent d\'une erreur partielle des paramètres du maillage automatique. Ils génèrent généralement des maillages très grossiers et inadaptés lorsque la taille des éléments n\'est pas spécifiée manuellement, mais laissée avec une valeur par défaut. Il faut toujours connaître les dimensions approximatives de la pièce, en particulier la taille du plus petit élément pertinent (l\'outil [Std Mesurer](Std_Measure/fr.md) peut être utilisé pour la trouver) et spécifier la taille maximale appropriée de l\'élément en fonction de celle-ci. Il existe également un réglage de la taille minimale des éléments qui peut empêcher la création d\'éléments trop petits autour de petites caractéristiques géométriques, ce qui peut conduire à des maillages inutilement denses (et parfois même à un plantage ou à un gel de FreeCAD lorsqu\'on essaie de générer de tels maillages). D\'une manière générale, il est préférable de commencer par un maillage plus grossier (moins long à générer), de voir à quoi il ressemble (une certaine expérience est nécessaire) et de l\'affiner si nécessaire. Il est souvent judicieux d\'utiliser un maillage dense uniquement autour des zones d\'intérêt (endroits présentant des gradients/concentrations de contraintes importants - encoches) et un maillage relativement grossier à l\'écart de ces zones. De cette manière, le nombre d\'éléments peut être considérablement réduit, ce qui permet de diminuer les temps de résolution. L\'amélioration du maillage local est défini à l\'aide de [FEM Mailler plus finement](FEM_MeshRegion/fr.md).
 
 <img alt="" src=images/FEM_default_mesh.PNG  style="width:400px;">
 
@@ -168,9 +175,23 @@ Un maillage trop grossier est l\'une des sources les plus courantes d\'inexactit
 
 *Maillage amélioré localement*
 
-Le choix du type d\'élément n\'est pas facile et dépend de nombreux facteurs, mais la règle générale est que les éléments hexaédriques et quadruples sont préférables aux éléments tétraédriques et triangulaires. Cependant, les géométries complexes ne peuvent pas être maillées avec des éléments hexaédriques et FreeCAD ne peut pas les générer du tout (seuls les maillages quadruples peuvent être générés sur les surfaces, voir [ce fil de discussion](https://forum.freecad.org/viewtopic.php?t=20351)). Les éléments hexaédriques peuvent être importés à partir de maillages externes comme [Gmsh](https://gmsh.info) et utilisés dans l\'atelier FEM comme le montre [cette vidéo](https://www.youtube.com/watch?v=vylt24G7qj4&t=932s).
+Le choix du type d\'élément n\'est pas facile et dépend de nombreux facteurs, mais la règle générale est que les éléments hexaédriques et quadrilatéraux sont préférables aux éléments tétraédriques et triangulaires. Cependant, les géométries complexes ne peuvent pas être maillées avec des éléments hexaédriques et FreeCAD ne peut pas les générer correctement (uniquement en utilisant l\'algorithme de subdivision du maillage Gmsh, mais ses résultats ne sont pas ceux que l\'on attendrait d\'un maillage hexagonal). Les maillages quadratiques ou à dominante quadratique peuvent être générés normalement sur les surfaces, voir [ce fil de discussion](https://forum.freecad.org/viewtopic.php?t=20351)). Les éléments hexaédriques peuvent être importés à partir de maillages externes comme [Gmsh](https://gmsh.info) et utilisés dans l\'atelier FEM comme le montre [cette vidéo](https://www.youtube.com/watch?v=vylt24G7qj4&t=932s).
 
-Le choix de l\'ordre des éléments (premier ou second) dépend des conditions d\'analyse, mais dans la plupart des cas, les éléments de second ordre sont préférables. Ceci est particulièrement vrai pour les éléments triangulaires et tétraédriques, leurs versions de premier ordre (linéaires) ne sont normalement pas recommandées pour un usage régulier et ne devraient être utilisées que comme éléments de remplissage dans des régions de faible importance. Cependant, comme FreeCAD ne peut pas générer d\'éléments hexaédriques, les tétraèdres linéaires peuvent être utilisés dans certains cas, si les maillages sont suffisamment denses. En particulier lors d\'analyses avec une [contrainte de contact](FEM_ConstraintContact/fr.md).
+Le choix de l\'ordre des éléments (premier ou second) dépend des conditions d\'analyse, mais dans la plupart des cas, les éléments de second ordre sont préférables. Ceci est particulièrement vrai pour les éléments triangulaires et tétraédriques, leurs versions de premier ordre (linéaires) ne sont normalement pas recommandées pour un usage régulier et ne devraient être utilisées que comme éléments de remplissage dans des régions de faible importance. Cependant, comme FreeCAD ne peut pas générer correctement d\'éléments hexaédriques, les tétraèdres linéaires peuvent être utilisés dans certains cas, si les maillages sont suffisamment denses. En particulier lors d\'analyses avec une [contrainte de contact](FEM_ConstraintContact/fr.md).
+
+
+
+## Jacobiens négatifs 
+
+Si les règles ci-dessus sont respectées (notamment en ce qui concerne la validité de la géométrie, le defeaturing et la sélection de la taille des éléments), le maillage devrait être généré correctement. Cependant, dans certains cas, la géométrie ne peut pas être trop simplifiée, ou la procédure de modélisation est appropriée mais conduit quand même à des arêtes et des faces de petite taille. Dans ce cas, le maillage avec des éléments de second ordre peut échouer en raison de jacobiens négatifs. La raison en est que les maillages doivent suivre le modèle CAO et placer les nœuds médians des éléments de second ordre sur la géométrie. Dans le cas de formes plus complexes, les éléments peuvent être tellement étirés qu\'ils deviennent inversés. Le jacobien est l\'une des mesures de qualité de maillage les plus courantes. Il représente l\'écart de l\'élément par rapport à la forme idéale. Elle devient négative lorsque l\'élément se retourne (devient inversé), soit en raison d\'une déformation importante au cours de l\'analyse (non prise en compte ici), soit en raison des problèmes de maillage susmentionnés. Les jacobiens négatifs dans l\'atelier FEM de FreeCAD peuvent être signalés par Gmsh ou par CalculiX. Leurs emplacements dans le maillage sont mis en évidence lorsque les analyses CalculiX sont soumises en utilisant le bouton [Lancer les calculs du solveur](FEM_SolverRun/fr.md). Les conseils suivants peuvent aider à les éliminer :
+
+-   Définir la propriété *Second Order Linear* du [maillage de Gmsh](FEM_MeshGmshFromShape/fr.md) à *true*, ceci a pour résultat que les nœuds du milieu des éléments de second ordre sont simplement ajoutés au milieu des bords droits (initialement) des éléments de premier ordre, sans les attacher à la géométrie et résout le problème dans la plupart des cas,
+-   Utiliser Netgen au lieu de Gmsh. Netgen est connu pour être moins sujet aux problèmes de jacobiens négatifs mais ne les signale pas non plus, de sorte que l\'utilisateur ne peut s\'en rendre compte qu\'au moment de soumettre l\'analyse,
+-   Réduire davantage la taille des éléments,
+-   Exporter la géométrie, essayer de la mailler dans l\'interface graphique de Gmsh ou Netgen (NGSolve) ou dans un autre maillage autonome (comme Salome_Meca). Ces outils ont des fonctions supplémentaires qui peuvent aider à se débarrasser des jacobiens négatifs (par exemple, Gmsh a ce que l\'on appelle des \"outils d\'ordre élevé\"),
+-   Utiliser des éléments de premier ordre. Cela ne doit être fait qu\'en dernier recours car les tétraèdres de premier ordre sont connus pour leur imprécision.
+
+Indépendamment de ces conseils, il est important de souligner une fois de plus que les jacobiens négatifs sont généralement dus à des approches de modélisation désordonnées et à un manque de préparation de la géométrie pour l\'analyse (ce qui est particulièrement courant avec les modèles STEP téléchargés à partir de divers sites web). Même si le maillage est finalement généré dans de tels cas, les résultats risquent d\'être de mauvaise qualité (rappelons la règle GIGO mentionnée dans le premier paragraphe). Par conséquent, le nettoyage de la géométrie et la préparation pour la FEM devraient toujours être la priorité.
 
 
 
@@ -178,7 +199,7 @@ Le choix de l\'ordre des éléments (premier ou second) dépend des conditions d
 
 Les études de convergence de maillage sont recommandées dans tous les projets sérieux nécessitant des résultats précis. En effet, les résultats peuvent changer considérablement et s\'approcher des valeurs correctes lorsque le maillage est affiné. L\'approche suivante doit être utilisée :
 
-1.  Après avoir obtenu les premiers résultats et les avoir notés (généralement la contrainte de von Mises maximale, la contrainte de von Mises à un endroit donné et le déplacement maximal), affiner le maillage (globalement ou mieux localement avec [FEM Région de maillage FEM](FEM_MeshRegion/fr.md)) et réexécuter la simulation.
+1.  Après avoir obtenu les premiers résultats et les avoir notés (généralement la contrainte de von Mises maximale, la contrainte de von Mises à un endroit donné et le déplacement maximal), affiner le maillage (globalement ou mieux localement avec [FEM Mailler plus finement](FEM_MeshRegion/fr.md)) et réexécuter la simulation.
 2.  Vérifiez les résultats et notez leurs nouvelles valeurs. S\'ils diffèrent significativement des résultats initiaux, affinez encore le maillage et relancez l\'analyse.
 3.  Répétez le processus si les résultats changent encore (généralement en augmentant) de manière significative avec l\'affinement du maillage.
 

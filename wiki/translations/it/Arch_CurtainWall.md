@@ -12,10 +12,19 @@
 # Arch CurtainWall/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento crea una [facciata continua](https://en.wikipedia.org/wiki/Curtain_wall_(architecture)) suddividendo una faccia di base in facce quadrangolari, quindi creando montanti verticali sui bordi verticali, montanti orizzontali sui bordi orizzontali e riempiendo gli spazi tra i montanti con dei pannelli.
+
+
+</div>
 
 <img alt="" src=images/Arch_CurtainWall_example.png  style="width:780px;">
 
@@ -39,6 +48,9 @@ Si può anche usare lo strumento Facciata continua senza alcun oggetto seleziona
 
 ### Disegnare una facciata continua dall\'inizio 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Assicurarsi che non sia selezionato nulla
 2.  Premere il pulsante **<img src="images/Arch_CurtainWall.svg" width=16px> [Facciata continua](Arch_CurtainWall/it.md)
 **, o premere i tasti **C** e poi **W**
@@ -47,13 +59,22 @@ Si può anche usare lo strumento Facciata continua senza alcun oggetto seleziona
 5.  Regolare le proprietà necessarie
 
 
+</div>
+
+
 
 ### Creare una facciata continua da un oggetto selezionato 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare uno o più oggetti di geometria di base (oggetto di Draft, schizzo, ecc.)
 2.  Premere il pulsante **<img src="images/Arch_CurtainWall.svg" width=16px> [Facciata continua](Arch_CurtainWall/it.md)
 **, o o i tasti **C** e poi **W**
 3.  Regolare le proprietà necessarie
+
+
+</div>
 
 
 
@@ -69,6 +90,9 @@ Si può anche usare lo strumento Facciata continua senza alcun oggetto seleziona
 ## Proprietà
 
 Gli oggetti di facciata continua ereditano le proprietà dei [Componenti](Arch_Component/it.md) e hanno anche le seguenti proprietà extra:
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Vertical Mullion Number**:Il numero di montanti verticali
 
@@ -117,6 +141,9 @@ Gli oggetti di facciata continua ereditano le proprietà dei [Componenti](Arch_C
 -    **Host**: L\'ospite di questa facciata continua. La facciata continua apparirà incorporata nel suo oggetto host nella vista ad albero (non viene eseguita nessun\'altra azione)
 
 
+</div>
+
+
 
 ## Realizzare pareti con telaio 
 
@@ -146,7 +173,9 @@ La procedura descritta di seguito crea un muro e una facciata continua riferita 
 
 [Arch API](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Facciata continua può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+Lo strumento Facciata continua può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
 ```python
 MyCurtainWall = makeCurtainWall(baseobj)
 ```
@@ -170,6 +199,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/it
+⏵ [documentation index](../README.md) > Arch CurtainWall/it

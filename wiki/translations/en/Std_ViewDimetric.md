@@ -21,26 +21,13 @@ The **Std ViewDimetric** command realigns the camera in the active [3D view](3D_
 
 ## Scripting
 
-
-**See also:**
-
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-To change to dimetric view use the `viewDimetric` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.viewDimetric()
-FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
-```
+See [Std ViewIsometric](Std_ViewIsometric#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

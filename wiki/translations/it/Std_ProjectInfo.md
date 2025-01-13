@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Std_ProjectInfo
    Name/it: Informazioni sul progetto
-   MenuLocation: File , Informazioni sul progetto...
+   MenuLocation: File , Informazioni documento...
    Workbenches: Tutti
    SeeAlso: Std_New/it
 ---
@@ -13,26 +13,28 @@
 
 ## Descrizione
 
-Il comando **Informazioni sul progetto** mostra una finestra di dialogo con le informazioni sul progetto appartenenti al documento attivo. Alcune di queste informazioni possono essere modificate.
+Il comando **Informazioni sul progetto** mostra una finestra di dialogo con i dettagli relativi al documento attivo. Alcune di queste informazioni possono essere modificate.
 
 
 
 ## Utilizzo
 
-1.  Selezionare l\'opzione **File →  <img src="images/Std_ProjectInfo.svg" width=16px> Informazioni sul progetto...** dal menu.
+1.  Selezionare l\'opzione **File → <img src="images/Std_ProjectInfo.svg" width=16px> Informazioni documento...** dal menu.
 2.  Viene visualizzata una finestra di dialogo con le seguenti informazioni:
-    -   **Name**: Il nome del documento. **Non modificabile**. Corrisponde alla proprietà Label del documento che può essere modificata nell\'[editor delle proprietà](Property_editor/it.md).
-    -   **Path**: Il percorso completo del file. Vuoto se il documento non è stato salvato. **Non modificabile**.
-    -   **UUID**: FreeCAD inserisce automaticamente un valore di checksum. **Non modificabile**.
-    -   **Created by**: Inserire un nome per l\'autore. **Può essere preimpostato**.
-    -   **Creation date**: FreeCAD inserisce automaticamente la data corretta. **Non modificabile**.
-    -   **Last modified by**: Inserire un nome per l\'autore. **Può essere preimpostato**.
-    -   **Last modification date**: FreeCAD inserisce automaticamente la data corretta. **Non modificabile**.
-    -   **Company**: Inserire il nome di una ditta. **Può essere preimpostato**.
-    -   **License Information**: Selezionare una licenza dal menu a discesa. **Può essere preimpostato**.
-    -   **License URL**: L\'URL cambia con la licenza selezionata, ma può essere sovrascritto. **Può essere preimpostato**.
-    -   **Comment**: Inserire qualsiasi commento applicabile.
-3.  Immettere le informazioni richieste e premere il pulsante **OK**.
+    -   **Nome**: Il nome del documento. Corrisponde alla proprietà Label del documento. *Non modificabile.*
+    -   **Percorso**: Il percorso completo del file. Vuoto se il file non è stato salvato. *Non modificabile.*
+    -   **UUID**: FreeCAD inserisce automaticamente un valore di checksum. *Non modificabile.*
+    -   **Versione del programma**: La versione di FreeCAD utilizzata per salvare il file. Vuoto se il file non è stato salvato. *Non modificabile.*
+    -   **Sistema di unità**: Il sistema di unità del documento. *Il valore iniziale dipende dal [Sistema di unità predefinito](Preferences_Editor/it#Generale_2.md).* {{Version/it|1.0}}
+    -   **Creato da**: inserire il nome dell\'autore. *Può essere preimpostato.*
+    -   **Data di creazione**: FreeCAD inserisce automaticamente la data corretta. *Non modificabile.*
+    -   **Ultima modifica di**: inserire il nome dell\'autore. *Può essere preimpostato.*
+    -   **Data dell\'ultima modifica**: FreeCAD inserisce automaticamente la data corretta. *Non modificabile.*
+    -   **Azienda**: inserire il nome dell\'azienda. *Può essere preimpostato.*
+    -   **Informazioni sulla licenza**: selezionare una licenza dal menu a discesa. *Può essere preimpostato.*
+    -   **URL licenza**: L\'URL cambierà con la licenza selezionata, ma può essere sovrascritto. *Può essere preimpostato.*
+    -   **Commento**: inserire eventuali commenti applicabili.
+3.  Inserire le informazioni richieste e premere il pulsante **OK**.
 
 
 
@@ -44,13 +46,15 @@ Il comando **Informazioni sul progetto** mostra una finestra di dialogo con le i
 
 ## Preferenze
 
--   I valori per i nomi degli autori, il nome dell\'azienda e le informazioni sulla licenza possono essere preimpostati nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
+Vedere anche: [Editor delle Preferenze](Preferences_Editor/it.md).
+
+-   Alcune proprietà del documento: nome dell\'autore, nome dell\'azienda e informazioni sulla licenza, possono essere preimpostate: **Modifica → Preferenze... → Generale → Documento → Diritti d'autore e Licenza**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

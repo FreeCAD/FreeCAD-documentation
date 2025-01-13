@@ -3,7 +3,7 @@
    Name: Draft Layer
    Name/de: Draft Layer
    MenuLocation: Dienstprogramme , Ebene
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de
    Version: 0.19
    SeeAlso: Draft_AutoGroup/de, Draft_LayerManager/de
 ---
@@ -14,56 +14,63 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Draft Layer** erstellt einen Draft-Layer. Ein Layer ist eine besondere Art von Gruppe mit einigen [Sichtbarkeits-Einstellungen](#View.md). Diese Einstellungen und alle Änderungen an ihnen werden an die Objekte auf diesem Layer weitergegeben. Die Layer an sich werden in einer weiteren besonderen Gruppe abgelegt: dem Draft LayerContainer.
+Der Befehl <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Draft Layer** erstellt eine Draft-Ebene (Layer-Objekt - eine Zeichnungsebene, die einer Folienschicht bei mehrlagigen Zeichnungen entspricht). Eine Ebene ist eine besondere Art von Gruppe mit einigen [Darstellungseinstellungen](#Ansicht.md). Diese Einstellungen und alle Änderungen an ihnen werden an die Objekte auf dieser Ebene weitergegeben. Die Ebenen an sich werden in einer weiteren besonderen Gruppe abgelegt: dem Draft-Ebenen-Behälter (LayerContainer-Objekt).
 
 
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Gehe in das Menü **Draft → Utilities → <img src="images/Draft_Layer.svg" width=16px> Layer**.
-2.  Ändere die gewünschten Ansichtseigenschaften der Ebene.
-
-
-</div>
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_Layer.svg" width=16px> [Ebene](Draft_Layer.md)** drücken.
+    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_Layer.svg" width=16px> Ebene** auswählen oder die Menüoption im Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen.
+    -   Falls die Ebene schon vorhanden ist: Diese mit der rechten Maustaste in der [Baumansicht](Tree_view/de.md) anklicken und die Menüoption **<img src="images/Draft_NewLayer.svg" width=16px> Neue Ebene hinzufügen** aus dem Kontextmenü auswählen.
+2.  Falls er noch nicht vorhanden ist, wird zuerst der Ebenen-Behälter erstellt.
+3.  Eine Ebene wird erstellt und im Ebenen-Behälter abgelegt.
+4.  Wahlweise die [Eigenschaften](#Eigenschaften.md) der Ebene anpassen.
+5.  Wahlweise Objekte der Ebene zuordnen, indem sie in der [Baumansicht](Tree_view/de.md) auf die Ebene gezogen und abgelegt werden. Objekte können auch einer Ebene zugeordnet werden, indem man die {{PropertyData/de|Group}} der Ebene bearbeitet.
+6.  Wahlweise die Ebene [aktivieren](#Ebenen-Optionen.md).
 
 
 
 ## Kontextmenü
 
-### Layer container options 
-
-For a Draft LayerContainer these additional options are available in the [Tree view](Tree_view.md) context menu:
-
--    **<img src="images/Draft_Layer.svg" width=16px> Merge layer duplicates**: merges all layers with the same base label.
-
-:   The base label of a layer is its **Label** stripped of trailing digits and spaces. All layers with the same base label are merged into a single layer with the **Label** set to that base label.
-
--    **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer**: adds a new layer to the current document.
-
-### Layer options 
-
-For a Draft Layer these additional options are available in the [Tree view](Tree_view.md) context menu:
-
--    **<img src="images/button_right.svg" width=16px> [Activate this layer](Draft_AutoGroup.md)**: activates the selected layer.
-
--    **<img src="images/Draft_SelectGroup.svg" width=16px> [Select layer contents](Draft_SelectGroup.md)**: selects the objects inside the selected layer.
-
-## Drag and drop behavior 
 
 
-<small>(v0.21)</small> 
+### Optionen des Ebenen-Behälters 
 
-If you drop an object from a [Std Group](Std_Group.md), or a group-like object such as an [Arch BuildingPart](Arch_BuildingPart.md), on a layer in the [Tree view](Tree_view.md), it is not removed from the group, and vice versa. To remove an object from a layer it must be dropped on another layer or on the document node. There is no need to hold down the **Ctrl** key when dragging from or dropping on a layer.
+Für ein Draft-Ebenen-Behälter sind diese zusätzlichen Optionen im Kontextmenü der [Baumansicht](Tree_view/de.md) vorhanden:
+
+-    **<img src="images/Draft_Layer.svg" width=16px> Ebenenduplikate zusammenführen**: Führt alle Ebenen mit der gleichen Basisbezeichnung (base label) zusammen.
+
+:   Die Basisbezeichnung einer Ebene ist ihre {{PropertyData/de|Label}} ohne nachgestellte Ziffern und Leerzeichen. Alle Ebenen mit derselben Basisbezeichnung werden zu einer einzigen Ebene zusammengeführt, deren {{PropertyData/de|Label}} auf diese Basisbezeichnung eingestellt ist.
+
+-    **<img src="images/Draft_NewLayer.svg" width=16px> Neue Ebene hinzufügen**: fügt dem aktuellen Dokument eine neue Ebene hinzu.
+
+
+
+### Optionen der Ebene 
+
+Für eine Draft-Ebene sind diese zusätzlichen Optionen im Kontextmenü der [Baumansicht](Tree_view/de.md) verfügbar:
+
+-    **<img src="images/button_right.svg" width=16px> [Diese Ebene aktivieren](Draft_AutoGroup/de.md)**: aktiviert die ausgewählte Ebene.
+
+-    **<img src="images/Draft_SelectGroup.svg" width=16px> [Ebeneninhalt auswählen](Draft_SelectGroup/de.md)**: wählt die Objekte innerhalb der ausgewählten Ebene aus.
+
+
+
+## Verhalten von Ziehen und Ablegen 
+
+
+{{Version/de|0.21}}
+
+Wenn ein Objekt aus einer [Std Gruppe](Std_Group/de.md) oder einem gruppenähnlichen Objekt, wie z. B. einem [Arch Gebäudeteil](Arch_BuildingPart/de.md), auf einer Ebene in der [Baumansicht](Tree_view/de.md) abgelegt wird, wird es nicht aus der Gruppe entfernt und umgekehrt. Um ein Objekt von einer Ebene zu entfernen, muss es auf einer anderen Ebene oder auf dem Dokumentenknoten abgelegt werden. Beim Ziehen von einer Ebene oder Ablegen auf einer Ebene muss die **Strg**-Taste nicht gedrückt werden.
 
 
 
 ## Hinweise
 
--   A new layer can also be created with the [Draft AutoGroup](Draft_AutoGroup.md) command.
--   The [BIM Workbench](BIM_Workbench.md) offers a complete [layer manager tool](BIM_Layers.md) which will eventually be included in the [Draft Workbench](Draft_Workbench.md).
+-   Eine neue Ebene kann auch mit dem Befehl [Draft AutoGruppieren](Draft_AutoGroup/de.md) erstellt werden.
+-   Der Arbeitsbereich [BIM](BIM_Workbench/de.md) enthält ein komplettes [Werkzeug zum Verwalten von Ebenen](BIM_Layers/de.md), das später in den Arbeitsbereich [Draft](Draft_Workbench/de.md) integriert werden soll.
 
 
 
@@ -80,49 +87,47 @@ Ein Draft Layer-Objekt wird von einem [App FeaturePython](App_FeaturePython/de.m
 
 {{TitleProperty|Layer}}
 
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/de|Group}}: gibt die Elemente an, die Teil der Gruppe sind.
-
--   Visuelle Eigenschaften, die geändert werden können und auf die Objekte übertragen werden: Zeichenstil, Linienfarbe, Linienbreite, Formfarbe, Transparenz und Sichtbarkeit.
+-    {{PropertyData/de|Group|LinkList}}: Gibt die Objekte an, die der Ebene zugeordnet sind.
 
 
-</div>
 
-### View
+### Ansicht
 
 
 {{TitleProperty|Layer}}
 
-The properties in this section are applied to objects that are put inside the layer. And any changes to these properties are propagated to them. For two properties, **Line Color** and **Shape Color**, this behavior is optional.
+Die Eigenschaften in diesem Abschnitt werden auf Objekte angewendet, die sich innerhalb der Ebene befinden. Alle Änderungen an diesen Eigenschaften werden an sie weitergegeben. Für zwei Eigenschaften, die {{PropertyView/de|Line Color}} und die {{PropertyView/de|Shape Color}}, ist dieses Verhalten optional.
 
--    **Draw Style|Enumeration**: specifies the draw style of the layer: {{value|Solid}}, {{value|Dashed}}, {{value|Dotted}} or {{value|Dashdot}}
+-    {{PropertyView/de|Draw Style|Enumeration}}: gibt den Zeichenstil der Ebene an: {{value|Solid}} (Vollinie), {{value|Dashed}} (Strichlinie), {{value|Dotted}} (Punktlinie) oder {{value|Dashdot}} Strich-Punkt-Linie
 
--    **Line Color|Color**: specifies the line color of the layer.
+-    {{PropertyView/de|Line Color|Color}}: gibt die Linienfarbe der Ebene an.
 
--    **Line Width|Float**: specifies the line width of the layer.
+-    {{PropertyView/de|Line Width|Float}}: gibt die Linienbreite der Ebene an.
 
--    **Override Line Color Children|Bool**: specifies if changes to the **Line Color** of the layer are propagated to the objects inside the layer.
+-    {{PropertyView/de|Override Line Color Children|Bool}}: gibt an, ob Änderungen an der {{PropertyView/de|Line Color}} der Ebene auf die Objekte innerhalb der Ebene übertragen werden.
 
--    **Override Shape Color Children|Bool**: specifies if changes to the **Shape Color** of the layer are propagated to the objects inside the layer.
+-    {{PropertyView/de|Override Shape Appearance Children|Bool}}: gibt an, ob Änderungen an der {{PropertyView/de|Shape Appearance}} der Ebene auf die Objekte innerhalb der Ebene übertragen werden. {{Version/de|1.0}}
 
--    **Shape Color|Color**: specifies the shape color of the layer.
+-    {{PropertyView/de|Shape Appearance|MaterialList}}: gibt das Erscheinungsbild der zur Ebene gehörenden Formen an. {{Version/de|1.0}}
 
--    **Transparency|Percent**: specifies the transparency of the layer.
+-    {{PropertyView/de|Shape Color|Color|hidden}}: gibt die Farbe der zur Ebene gehörenden Formen an. Sie wird mit der **Diffuse Color** (Streulichtfarbe) der {{PropertyView/de|Shape Appearance}} synchronisiert.
+
+-    {{PropertyView/de|Transparency|Percent}}: gibt die Transparenz der Ebene an. Sie wird mit der **Transparenz** der {{PropertyView/de|Shape Appearance}} synchronisiert.
 
 
 {{TitleProperty|Print}}
 
--    **Line Print Color|Color**: specifies the line print color of the layer.
+-    {{PropertyView/de|Line Print Color|Color}}: gibt die Liniendruckfarbe der Ebene an.
 
--    **Use Print Color|Bool**: specifies if the **Line Print Color|** of the layer is used when a [TechDraw DraftView](TechDraw_DraftView.md) is created from the objects inside the layer.
+-    {{PropertyView/de|Use Print Color|Bool}}: gibt an, ob die {{PropertyView/de|Line Print Color|}} der Ebene verwendet wird, wenn eine [TechDraw DraftAnsicht](TechDraw_DraftView/de.md) aus den Objekten der Ebene erstellt wird.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To create a Draft Layer use the `make_layer` method of the Draft module. To add objects to, or remove objects from, a layer change its `Group` property.
+## Skripten
+
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
+
+Um eine Draft-Ebene zu erstellen, verwendet man die `make_layer` Methode des Draft-Moduls. Um Objekte zu einer Ebene hinzuzufügen oder daraus zu entfernen, wird ihre Eigenschaft `Group` geändert.
 
 
 ```python

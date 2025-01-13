@@ -1,31 +1,22 @@
-# Robot CreateRobot/de
 ---
- GuiCommand:   Name: Robot CreateRobot   Workbenches: Robot_Workbench   Robot|MenuLocation: Roboter , Roboter einfügen---
+ GuiCommand:
+   Name: Robot CreateRobot
+   Name/de: Robot CreateRobot
+   MenuLocation: Roboter , Roboter einfügen
+   Workbenches: Robot_Workbench/de
+---
+
+# Robot CreateRobot/de
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Fügen Sie einen neuen Roboter (KUKA IR500) in die Szene ein.
+Einen neuen Roboter (KUKA IR500) in die Szene einfügen.
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
-
-Klicken Sie auf <img alt="" src=images/Robot_CreateRobot.png  style="width:32px;">, um einen neuen Roboter (KUKA IR500) in die Szene einzufügen.
-
-
-</div>
 
 1.  Click on <img alt="" src=images/Robot_CreateRobot.svg  style="width:32px;"> to insert a KUKA IR500 robot into the scene.
 2.  Inserting different/more robots can be done in two ways via the
@@ -37,37 +28,26 @@ Klicken Sie auf <img alt="" src=images/Robot_CreateRobot.png  style="width:32px;
     -   Switch to the \"Tasks\"-Tab in the [tree view](Tree_view.md)).
 3.  Select one of the four predefined robots.
 
-## Limitations
 
 
-<div class="mw-translate-fuzzy">
+## Einschränkungen
 
-## Beschränkungen
+Related to versions 0.15/0.16
 
-\[0.15/0.16\]
-Nur Roboter mit bis zu sechs Achsen mit Drehbewegungen sind definierbar.
-Keine Roboter mit translationalen Bewegungen möglich.
-Der Roboter muss über Code und eine vrml-Datei definiert werden, mehr Informationen finden Sie unter [Robot 6-Axis](Robot_6-Axis.md).
-
-
-</div>
-
-## Notes
+-   Nur Roboter mit bis zu sechs Achsen mit Drehbewegungen können eingerichtet werden.
+-   Es sind keine Roboter mit geradlinigen Bewegungen möglich.
+-   Der Roboter muss über Code und eine vrml-Datei definiert werden, mehr Informationen finden sich unter [6-Achsen-Roboter](Robot_6-Axis/de.md).
 
 
-<div class="mw-translate-fuzzy">
 
-## Anmerkungen
+## Hinweise
 
-Die vordefinierten Roboter sind
+Die vordefinierten Roboter sind:
 
 -   KUKA IR500
 -   KUKA IR210
 -   KUKA IR125
 -   KUKA IR16
-
-
-</div>
 
 
 

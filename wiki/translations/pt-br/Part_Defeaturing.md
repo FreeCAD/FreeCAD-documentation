@@ -37,5 +37,13 @@ To be available, this tool requires FreeCAD to be based on Open Cascade 7.3.0 or
 
 
 
+
+
+{{Part_Tools_navi
+
+}}
+
+
+
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/pt-br

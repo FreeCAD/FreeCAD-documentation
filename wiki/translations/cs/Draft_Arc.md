@@ -17,7 +17,7 @@ Nástroj Oblouk vytváří oblouk v aktuální [pracovní rovině](Draft_SelectP
 
 </div>
 
-The <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> **Draft Arc** command creates a circular arc in the current [working plane](Draft_SelectPlane.md) from a center, a radius, a start angle and an aperture angle. The radius and the angles can be defined by picking points.
+The <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> **Draft Arc** command creates a circular arc on the current [working plane](Draft_SelectPlane.md) from a center, a radius, a start angle and an aperture angle. The radius and the angles can be defined by picking points.
 
 A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** that is not the same as its **Last Angle**.
 
@@ -45,7 +45,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ## Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 
 <div class="mw-translate-fuzzy">

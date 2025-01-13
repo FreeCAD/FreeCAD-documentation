@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -41,6 +43,8 @@ La grilla es un objeto 2D y, por lo tanto, puede utilizarse en cualquier lugar d
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utilización
@@ -61,6 +65,8 @@ La grilla es un objeto 2D y, por lo tanto, puede utilizarse en cualquier lugar d
 
 </div>
 
+
+
 ## Opciones
 
 
@@ -73,6 +79,8 @@ La grilla es un objeto 2D y, por lo tanto, puede utilizarse en cualquier lugar d
 
 
 </div>
+
+
 
 ## Propiedades
 
@@ -159,6 +167,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Grid/es
+⏵ [documentation index](../README.md) > Arch Grid/es

@@ -1,84 +1,94 @@
 # Manual:Using spreadsheets/pl
 {{Manual:TOC}}
 
-FreeCAD features another interesting workbench to explore: the [Spreadsheet Workbench](Spreadsheet_Workbench.md). This workbench allows you to create [spreadsheets](https://en.wikipedia.org/wiki/Spreadsheet) such as those made with [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) or [Calc from LibreOffice](https://en.wikipedia.org/wiki/LibreOffice_Calc) directly in FreeCAD. These spreadsheets can then be populated with data extracted from your model, and can also perform a series of calculations between values. Spreadsheets can be exported as CSV files, which can be imported in any other spreadsheet application.
+Środowisko pracy [Arkusz kalkulacyjny](Spreadsheet_Workbench.md) we FreeCAD umożliwia użytkownikom tworzenie i zarządzanie [arkuszami kalkulacyjnymi](https://en.wikipedia.org/wiki/Spreadsheet), takimi jak te tworzone w [Excelu](https://en.wikipedia.org/wiki/Microsoft_Excel) lub [Calc z LibreOffice](https://en.wikipedia.org/wiki/LibreOffice_Calc) bezpośrednio w ich projektach. Pozwala na wprowadzanie, organizowanie i manipulowanie danymi w formacie tabelarycznym, który można następnie połączyć z różnymi parametrami i modelami w projekcie.
 
-In FreeCAD, however, spreadsheets have an additional utility: Their cells can receive a name, and can then be referenced by any field supported by the [expressions engine](Expressions.md). This turns spreadsheets into powerful control structures, where the values inserted in specific cells can drive dimensions of the model. There is only one thing to keep in mind, as FreeCAD prohibits circular dependencies between objects, the same spreadsheet cannot be used to set a property of an object and at the same time retrieve a property value from the same object. That would mean the spreadsheet and the object depend on one other.
+Jedną z kluczowych zalet jest zastosowanie w modelowaniu parametrycznym. Arkusze kalkulacyjne można powiązać z wymiarami i właściwościami modeli 3D, co czyni je niezbędnym narzędziem do dynamicznych zmian w projekcie. Na przykład zmiana wartości w arkuszu kalkulacyjnym automatycznie aktualizuje odpowiadający jej wymiar w modelu.
 
-In the following example, we will create a couple of objects, retrieve some of their properties in a spreadsheet, then use the spreadsheet to directly drive properties of other objects.
+Oprócz zarządzania wartościami środowisko pracy doskonale sprawdza się w zarządzaniu danymi, przechowując kluczowe informacje, takie jak właściwości materiałów, wymiary czy parametry globalne projektu. Jest to szczególnie przydatne w złożonych projektach, gdzie konieczne jest odwoływanie się do wielu wartości lub ich dostosowywanie.
 
-### Reading properties 
+Arkusze kalkulacyjne umożliwiają także wprowadzanie formuł do obliczeń i zarządzania danymi. Formuły te mogą odnosić się do innych komórek arkusza lub parametrów modelu 3D, co sprawia, że cały proces projektowania jest elastyczny i reaguje na zmiany.
 
--   Start by switching to the [Part Workbench](Part_Workbench.md), and create a couple of objects: a <img alt="" src=images/Part_Box.svg  style="width:16px;"> [box](Part_Box.md), a <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [cylinder](Part_Cylinder.md) and a <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [sphere](Part_Sphere.md).
--   Edit their **Placement** property (or use the <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Draft Move](Draft_Move.md) tool) to place them a little apart, so we can better see the effects of what we\'ll do:
+Może być bezproblemowo zintegrowane z innymi środowiskami pracy FreeCAD, umożliwiając interakcję między danymi a komponentami modelu. Ta integracja centralizuje kontrolę nad różnymi aspektami projektu, ułatwiając zarządzanie. Interfejs jest prosty, przypominający tradycyjne oprogramowanie arkuszy kalkulacyjnych, co sprawia, że jest znajomy i łatwy w użyciu dla osób przyzwyczajonych do programów takich jak Excel czy LibreOffice Calc.
+
+W praktyce środowisko pracy Arkusz Kalkulacyjny jest wszechstronne i sprawdza się w różnych zastosowaniach, takich jak definiowanie parametrów globalnych projektu, zarządzanie zestawieniami materiałów (BOM) oraz wykonywanie niestandardowych obliczeń wpływających na decyzje projektowe. Upraszcza złożone projekty poprzez centralizację kontroli parametrów w jednym miejscu.
+
+W poniższym przykładzie utworzymy kilka obiektów, pobierzemy niektóre z ich właściwości do arkusza kalkulacyjnego, a następnie użyjemy arkusza kalkulacyjnego do bezpośredniego sterowania właściwościami innych obiektów.
+
+
+
+### Odczyt właściwości 
+
+-   Zacznij od przełączenia się do <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [środowiska pracy Część](Part_Workbench/pl.md) i utworzenia kilku obiektów: <img alt="" src=images/Part_Box.svg  style="width:16px;"> [prostopadłościanu](Part_Box/pl.md), <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [walca](Part_Cylinder/pl.md) i <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [kuli](Part_Sphere/pl.md).
+-   Edytuj ich właściwość **Umiejscowienie** (lub użyj narzędzia <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Przesuń](Draft_Move/pl.md)), aby rozmieścić je nieco dalej od siebie, co pozwoli lepiej zobaczyć efekty naszych działań:
 
 ![](images/Exercise_spreadsheet_01.jpg )
 
--   Now, let\'s extract some information about these objects. Switch to the [Spreadsheet Workbench](Spreadsheet_Workbench.md)
--   Press the <img alt="" src=images/Spreadsheet_Create.png  style="width:16px;"> **New Spreadsheet** button
--   Double-click the new Spreadsheet object in the tree view. The spreadsheet editor opens:
+-   Teraz wyciągnijmy pewne informacje o tych obiektach. Przełącz się do <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:16px;"> [środowiska pracy Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md).
+-   Naciśnij przycisk <img alt="" src=images/Spreadsheet_Create.svg  style="width:16px;"> **Nowy arkusz kalkulacyjny**.
+-   Kliknij dwukrotnie nowy obiekt Arkusza Kalkulacyjnego w widoku drzewa. Otworzy się edytor arkusza kalkulacyjnego:
 
-![](images/Exercise_spreadsheet_02.jpg )
+![](images/FreeCAD_Spreedsheet.png )
 
-The spreadsheet editor of FreeCAD, although it is not as complete and powerful as the more complete spreadsheet applications we listed above, has nevertheless most of the basic tools and functions that are commonly used, such as the possibility to change the aspect of the cells (size, color, alignment), join and split cells, use formulas such as **=2+2**, or reference other cells with **=B1**.
+Choć edytor arkuszy kalkulacyjnych w FreeCAD nie jest tak rozbudowany jak dedykowane aplikacje, takie jak Excel czy LibreOffice Calc, oferuje niezbędne narzędzia do większości zadań projektowych. Użytkownicy mogą dostosowywać właściwości komórek, takie jak rozmiar, kolor i wyrównanie, a także scalać lub dzielić komórki w celu lepszej organizacji. Obsługiwane są podstawowe formuły oraz odniesienia do innych komórek, co umożliwia prostą manipulację danymi. To, co go wyróżnia, to głęboka integracja ze środowiskiem modelowania FreeCAD, gdzie zmiany w arkuszu kalkulacyjnym mogą automatycznie aktualizować wymiary modelu w czasie rzeczywistym. Chociaż brakuje mu zaawansowanych funkcji, takich jak tabele przestawne czy wykresy, jego ukierunkowanie na projektowanie sterowane parametrami czyni go potężnym narzędziem do zarządzania danymi projektowymi bezpośrednio w FreeCAD.
 
-In FreeCAD, on top of these common features, there is a new interesting one: The possibility to reference not only other cells, but other objects from the document, and retrieve values from their properties. For example, let\'s retrieve a couple of properties from the 3 objects we created above. Properties are what we can see in the properties editor window, under the **Data** tab, when an object is selected.
+W FreeCAD, poza standardowymi funkcjami arkusza kalkulacyjnego, istnieje szczególnie użyteczna funkcja: możliwość odwoływania się nie tylko do innych komórek, ale także do obiektów w dokumencie i pobierania wartości z ich właściwości. Na przykład możesz uzyskać właściwości obiektów 3D widoczne na karcie **Dane** w **Edytorze właściwości** po wybraniu obiektu. To umożliwia bezproblemową integrację między arkuszem kalkulacyjnym a modelem 3D, ułatwiając powiązanie i automatyzację zmian w oparciu o parametry obiektów w projekcie. Dzięki temu praca staje się bardziej dynamiczna i zintegrowana, co sprzyja efektywnemu projektowaniu.
 
--   Let\'s start by entering a couple of texts in the cells A1, A2 and A3, so we remember what is what later on, for example **Cube Length**, **Cylinder Radius** and **Sphere Radius**. To enter text, just write in the \"Contents\" field above the spreadsheet, or double-click a cell.
--   Now let\'s retrieve the actual length of our cube. In cell B1, type **=Cube.Length**. You will notice that the spreadsheet has an autocompletion mechanism, which is actually the same as the expression editor we used in the previous chapter.
--   Do the same for cell B2 (**=Cylinder.Radius**) and B3 (**=Sphere.Radius**).
+-   Zacznijmy od wpisania kilku tekstów w komórkach A1, A2 i A3, aby później łatwiej było zapamiętać, co reprezentują. Na przykład: **Długość sześcianu**, **Promień walca** i **Promień kuli**. Aby wpisać tekst, wystarczy skorzystać z pola \"Zawartość\" nad arkuszem kalkulacyjnym lub kliknąć dwukrotnie w wybraną komórkę.
+-   Teraz pobierzmy rzeczywistą długość naszego sześcianu. W komórce B1 wpisz **=Cube.Length**. Zauważysz, że arkusz kalkulacyjny posiada mechanizm autouzupełniania, który jest taki sam jak edytor wyrażeń używany w poprzednim rozdziale.
+-   Zrób to samo dla komórki B2 (**=Cylinder.Radius**) oraz B3 (**=Sphere.Radius**).
 
-![](images/Exercise_spreadsheet_03.jpg )
+![](images/FreeCAD_Spreedsheet_Autocomplete.png )
 
--   Although these results are expressed with their units, the values can be manipulated as any number, try for example entering in cell C1: **=B1\*2**.
--   We can now change one of these values in the properties editor, and the change will be immediately reflected in the spreadsheet. For example, let\'s change the length of our cube to **20mm**:
+-   Chociaż wyniki są wyrażone wraz z jednostkami, wartości te można manipulować jak dowolnymi liczbami. Spróbuj na przykład wpisać w komórce C1: **=B1\*2**.
+-   Teraz możemy zmienić jedną z tych wartości w edytorze właściwości, a zmiana natychmiast zostanie odzwierciedlona w arkuszu kalkulacyjnym. Na przykład zmień długość naszego sześcianu na **20 mm**:
 
-![](images/Exercise_spreadsheet_04.jpg )
+![](images/FreeCAD_Spreedsheet_Multipl.png )
 
-The [Spreadsheet Workbench](Spreadsheet_Workbench.md) page will describe in more detail all the possible operations and functions available in spreadsheets.
+Strona <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:16px;"> [środowiska pracy Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md) opisuje bardziej szczegółowo wszystkie możliwe operacje i funkcje dostępne w arkuszach kalkulacyjnych.
 
-### Writing properties 
 
-Another very interesting use of the Spreadsheet Workbench in FreeCAD is to do the contrary of what we have been doing until now: Instead of reading the values of properties of 3D objects, we can also assign values to these objects. Remember, however, one of the fundamental rules of FreeCAD: Circular dependencies are forbidden. We can therefore not use the same spreadsheet to read **and** write values to a 3D object. That would make the object depend on the spreadsheet, which would also depend on the object. Instead, we will create another spreadsheet.
 
--   We can now close the spreadsheet tab (under the 3D view). This is not mandatory, there is no problem in keeping several spreadsheet windows open.
--   Press the <img alt="" src=images/Spreadsheet_Create.png  style="width:16px;"> **New Spreadsheet** button again
--   Change the name of the new spreadsheet to something more meaningful, such as **Input** (do this by right-clicking the new spreadsheet object, and choosing **Rename**).
--   Double-click the Input spreadsheet to open the spreadsheet editor.
--   In cell A1, let\'s put a descriptive text, for example: \"Cube dimensions\"
--   In cell B1, write **=5mm** (using the = sign makes sure the value is interpreted as a unit value, not a text).
--   Now to be able to use this value outside the spreadsheet, we need to give a name, or alias, to the B1 cell. Right-click the cell, click **Properties** and select the **Alias** tab. Give it a name, such as **cubedims**:
+### Zapis właściwości 
 
-![](images/Exercise_spreadsheet_05.jpg )
+Kolejną potężną funkcją środowiska pracy Arkusz Kalkulacyjny w FreeCAD jest możliwość nie tylko odczytywania wartości z właściwości obiektów 3D, ale także przypisywania im wartości. Umożliwia to bezpośrednie sterowanie wymiarami i atrybutami obiektów z poziomu arkusza kalkulacyjnego. Jednak jedną z fundamentalnych zasad FreeCAD jest zakaz tworzenia zależności cyklicznych -- oznacza to, że arkusz kalkulacyjny nie może zarówno odczytywać, jak i zapisywać do tego samego obiektu. Zrobienie tego spowodowałoby sytuację, w której obiekt zależy od arkusza kalkulacyjnego, podczas gdy arkusz zależy od obiektu, co prowadzi do nieprawidłowej konfiguracji. Aby tego uniknąć, zwykle tworzy się drugi arkusz kalkulacyjny do obsługi zapisywania wartości, zapewniając wyraźne oddzielenie procesów odczytu i zapisu.
 
--   Press **OK**, then close the spreadsheet tab
--   Select the cube object
--   In the properties editor, click the little <img alt="" src=images/Bound-expression-unset.png  style="width:16px;"> **expression** icon at the right side of the **Length** field. This will open the [expressions editor](Expressions.md), where you can write **Spreadsheet001.cubedims**. Repeat this for Height and Width:
+-   Teraz możemy zamknąć kartę arkusza kalkulacyjnego (pod widokiem 3D). Nie jest to obowiązkowe, nie ma problemu z utrzymywaniem kilku okien arkuszy kalkulacyjnych otwartych jednocześnie.
+-   Naciśnij ponownie przycisk <img alt="" src=images/Spreadsheet_Create.svg  style="width:16px;"> **Nowy arkusz kalkulacyjny**.
+-   Zmień nazwę nowego arkusza kalkulacyjnego na bardziej znaczącą, na przykład **Wejście** (zrób to, klikając prawym przyciskiem myszy na nowy obiekt arkusza i wybierając **Zmień nazwę**).
+-   Kliknij dwukrotnie arkusz Wejście, aby otworzyć edytor arkusza kalkulacyjnego.
+-   W komórce A1 wpisz tekst opisowy, na przykład: \"Wymiary sześcianu\".
+-   W komórce B1 wpisz **=5mm** (użycie znaku = sprawia, że wartość jest interpretowana jako wartość jednostkowa, a nie tekst).
+-   Teraz, aby móc używać tej wartości poza arkuszem kalkulacyjnym, musimy nadać nazwę lub alias komórce B1. Kliknij prawym przyciskiem myszy na komórkę, wybierz **Właściwości** i przejdź do zakładki **Alias**. Nadaj jej nazwę, na przykład **cubedims**:
 
-![](images/Exercise_spreadsheet_06.jpg )
+![](images/FreeCAD_Spreedsheet_Alias.png )
 
-You might wonder why we had to use \"Spreadsheet001\" instead of \"Input\" in the expression above. This is because each object, in a FreeCAD document, has an **internal name**, which is unique in the document, and a **label**, which is what appears in the tree view. If you uncheck the relevant option in the preferences window, FreeCAD will allow you to give the same label to more than one object. This is why all operations that must identify an object uniquely, will use the internal name instead of the label, which could designate more than one object. The easiest way to know the internal name of an object is by keeping the **selection panel** (menu bar View → Panels) open, it will always indicate the internal name of a selected object:
+-   Naciśnij **OK**, a następnie zamknij kartę arkusza kalkulacyjnego.
+-   Wybierz obiekt sześcianu.
+-   W edytorze właściwości kliknij małą ikonkę <img alt="" src=images/Bound-expression-unset.svg  style="width:16px;"> **wyrażenie** po prawej stronie pola **Długość**. Otworzy to [edytor wyrażeń](Expressions/pl.md), gdzie możesz wpisać **Spreadsheet001.cubedims**. Powtórz to dla pól **Wysokość** i **Szerokość**:
 
-![](images/Exercise_spreadsheet_07.jpg )
+![](images/FreeCAD_SpreedSheet_Dim.png )
 
-By using cell aliases in spreadsheets, we are able to use a spreadsheet to store \"master values\" in a FreeCAD document. This can be used, for example, to have a model of a piece of certain dimensions, and to store these dimensions in a spreadsheet. It then becomes very easy to produce another model with different dimensions, it is just a matter of opening the file and changing a couple of dimensions in the spreadsheet.
+Powodem, dla którego używamy \"Spreadsheet001\" zamiast \"Wejście\" w wyrażeniu, jest to, że każdy obiekt w dokumencie FreeCAD ma unikalną nazwę wewnętrzną i bardziej przyjazną nazwę wyświetlaną. Nazwa wyświetlana to ta, która pojawia się w widoku drzewa, podczas gdy nazwa wewnętrzna służy do unikalnej identyfikacji obiektów w dokumencie. FreeCAD pozwala przypisać tę samą nazwę wyświetlaną do wielu obiektów, jeśli dostosujesz ustawienia, ale nazwa wewnętrzna pozostaje unikalna. Do każdej operacji wymagającej jednoznacznej identyfikacji obiektu FreeCAD używa nazwy wewnętrznej, a nie nazwy wyświetlanej, ponieważ ta ostatnia może odnosić się do więcej niż jednego obiektu. Aby znaleźć nazwę wewnętrzną obiektu, warto mieć otwarty panel Wybór (dostępny poprzez Widok → Panele). Panel ten zawsze wyświetla nazwę wewnętrzną wybranego obiektu, co zapewnia, że używasz właściwego odniesienia w swoich wyrażeniach.
 
-Finally, note that the constraints inside a sketch can also receive the value of a spreadsheet cell:
+![](images/FreeCAD_SpreedSheet_SelectionView.png )
 
-![](images/Exercise_spreadsheet_08.jpg )
+Dzięki używaniu aliasów komórek w środowisku pracy Arkusz Kalkulacyjny FreeCAD, możliwe jest przechowywanie \"wartości głównych\" w dokumencie, co ułatwia zarządzanie i modyfikowanie kluczowych parametrów. Na przykład arkusz kalkulacyjny może przechowywać wymiary modelu, umożliwiając odwoływanie się do tych wartości w całym projekcie. Takie podejście upraszcza proces aktualizacji modelu; jeśli wymagane są nowe wymiary, wystarczy otworzyć arkusz, dostosować wartości, a model automatycznie zaktualizuje się, aby odzwierciedlić te zmiany. Ta metoda upraszcza wersjonowanie i poprawia efektywność, szczególnie w modelowaniu parametrycznym, gdzie wymiary często się zmieniają w zależności od wymagań projektu.
 
-You can also give aliases to dimensional constraints (horizontal, vertical or distance) in a sketch (you can then use that value from outside the sketch as well):
+Na koniec, warto zauważyć, że ograniczenia w szkicu mogą również przyjmować wartość komórki arkusza kalkulacyjnego:
 
-![](images/Exercise_spreadsheet_09.jpg )
+Można również nadawać aliasy wiązaniom wymiarowym (poziomym, pionowym lub odległości) w szkicu *(można następnie użyć tej wartości również spoza szkicu)*:
 
-**Download**
+![](images/FreeCAD_SpreedSheet_Rectangle.png )
 
--   The file produced in this exercise: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/spreadsheet.FCStd>
+**Do pobrania**
 
-**Read more**
+-   Plik utworzony w tym ćwiczeniu: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/spreadsheet.FCStd>
 
--   [The Spreadsheet Workbench](Spreadsheet_Workbench.md)
--   [The Expressions engine](Expressions.md)
+**Więcej informacji:**
+
+-   [Arkusz kalkulacyjny](Spreadsheet_Workbench/pl.md)
+-   [Silnik wyrażeń](Expressions/pl.md)
 
 
 

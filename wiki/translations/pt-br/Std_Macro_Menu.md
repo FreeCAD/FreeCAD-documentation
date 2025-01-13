@@ -39,13 +39,13 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Macros\...](Std_DlgMacroExecute.md): Opens a dialog box to manage and execute macros.
 
--   <img alt="" src=images/Std_RecentMacros.svg  style="width:32px;"> Recent macros: shows a list of macros recently used, which can be called with a key combination, for example, **Ctrl**+**Shift**+**1**. This can be configured in the [Preferences](Preferences_Editor.md).
+-   Recent macros: shows a list of recently used macros, which can be called with a key combination, for example, **Ctrl**+**Shift**+**1**. This can be configured in the [Preferences](Preferences_Editor.md).
 
--   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Execute macro](Std_DlgMacroExecuteDirect.md): Executes the macro currently in the Python editor.
+-   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Execute macro](Std_DlgMacroExecuteDirect.md): Executes the macro currently in the Macro editor.
 
 -   [Attach to remote debugger\...](Std_MacroAttachDebugger.md): Attaches FreeCAD to a remote debugger.
 
--   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Debug macro](Std_MacroStartDebug.md): Starts a debugging session for the macro in the Python editor.
+-   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Debug macro](Std_MacroStartDebug.md): Starts a debugging session for the macro in the Macro editor.
 
 -   <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;"> [Stop debugging](Std_MacroStopDebug.md): Stops a debugging session.
 
@@ -57,13 +57,13 @@ The following tools are available in this menu:
 
 ## Obsolete tools 
 
--   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Stop macro recording](Std_MacroStopRecord.md): Stops a macro recording session. Integrated in [Std DlgMacroRecord](Std_DlgMacroRecord.md). Not available in <small>(v0.22)</small> .
+-   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Stop macro recording](Std_MacroStopRecord.md): Stops a macro recording session. Integrated in [Std DlgMacroRecord](Std_DlgMacroRecord.md). Not available in <small>(v1.0)</small> .
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

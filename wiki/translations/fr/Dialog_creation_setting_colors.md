@@ -5,6 +5,8 @@ Exemple de [création de boîte de dialogue](Dialog_creation/fr.md) avec [PySide
 
 Dans cet exemple, l\'interface entière est définie en [Python](Python/fr.md). Bien que cela soit possible pour les petites interfaces, pour les interfaces plus importantes, il est recommandé de créer des fichiers **.ui** via Qt Designer et de les charger dans le programme.
 
+
+
 ## Utilisez QColorDialog pour obtenir une couleur 
 
 Code complet: 
@@ -30,6 +32,8 @@ if couleur.isValid():
     print("Blue  color ",blue)                  # color format decimal
 
 ```
+
+
 
 ## Utilisez QColorDialog pour créer une palette de couleurs (standard et personnalisée) 
 

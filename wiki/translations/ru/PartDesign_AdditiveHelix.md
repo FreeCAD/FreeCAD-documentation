@@ -13,13 +13,17 @@
 
 </div>
 
+
+
 ## Описание
 
-The **AdditiveHelix** tool creates a solid by sweeping a selected sketch or 2D object along a helix path.
+The **Additive Helix** tool creates a solid by sweeping a selected sketch or 2D object along a helix path.
 
 <img alt="" src=images/PartDesign_AdditiveHelix_example_overview.png  style="width:650px;">
 
 *The profile (B), is swept around axis (A) in order to produce the solid helix (C)*
+
+
 
 ## Применение
 
@@ -28,6 +32,8 @@ The **AdditiveHelix** tool creates a solid by sweeping a selected sketch or 2D o
 3.  Set the Helix parameters (see next section).
 4.  Inspect the Helix in the view window, to ensure that the parameters do not result in a self intersecting helix.
 5.  Press **OK**.
+
+
 
 ## Опции
 
@@ -83,9 +89,13 @@ If checked, the axis direction of helix is reversed from default.
 
 If checked, the helix will be shown in the view, and updated automatically on every change of the parameters.
 
+
+
 ## Настройки
 
 -   An additive helix that does not intersect the body will be visible in the preview if **Tools → Edit parameters... → BaseApp → Preferences → Mod → PartDesign → AdditiveHelixPreview** is set to `True`. The default for this preference is `False`. <small>(v0.20)</small> 
+
+
 
 ## Свойства
 
@@ -119,6 +129,14 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 
 -    **Allow multiple face**: Not used.
 
+## Notes
+
+-   A <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [ShapeBinder](PartDesign_ShapeBinder.md) cannot be used for the profile.
+-   When using a <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [SubShapeBinder](PartDesign_SubShapeBinder.md) for the profile, selecting the binder in the [Tree view](Tree_view.md) will fail, instead the binder\'s face has to be selected in the [3D view](3D_view.md).
+-   Helixes are very difficult for the underlying engine to calculate correctly because the curves involved push floating point precision to its limit. That means that performing further operations on a helix like attempting boolean operations with another object can be very sensitive to small changes. When they fail, they often break the model in surprising ways. To avoid this, you should try to make operations on a helix either clearly overlap (interfere) or clearly not overlap. Exact matches where the surface of the helix is perfectly aligned with the surface of another object are fragile. A thread around a bolt cylinder is an example of this. It may even work initially, and then break later when objects are moved slightly.
+
+
+
 ## Примеры
 
 ![Example helix using a [B-spline](images/Sketcher_CreateBSpline.md) in the sketch](PartDesign_AdditiveHelix_example_bspline.png )
@@ -126,7 +144,13 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 ![Example helix where the helix axis is normal to the sketch plane resulting in a \"Pad with twist\" effect.](images/PartDesign_AdditiveHelix_example_twisting_pad.png )
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

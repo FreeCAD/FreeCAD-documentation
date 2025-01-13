@@ -1,454 +1,189 @@
 ---
  GuiCommand:
    Name: Part Attachment
-   Name/it: Part Allegato
-   MenuLocation: Part , Allegato...
+   Name/it: Part Associazione
+   MenuLocation: Part , Associazione...
    Workbenches: Part_Workbench/it, PartDesign_Workbench/it
    Version: 0.17
-   SeeAlso: Placement/it, Basic_Attachment_Tutorial/it, Part_Part2DObject/it
+   SeeAlso: Placement/it, Basic_Attachment_Tutorial/it
 ---
 
 # Part EditAttachment/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-**Allegato** è un\'utilità per allegare un oggetto a un altro. L\'oggetto allegato è collegato all\'altro oggetto, il che significa che se il posizionamento di quest\'ultimo viene cambiato in seguito, l\'oggetto allegato si aggiornerà alla sua nuova posizione.
+Il comando <img alt="" src=images/Part_EditAttachment.svg  style="width:24px;"> **Part Associazione** associa un oggetto ad uno o più altri oggetti. L\'oggetto associato è collegato (linked) agli oggetti di riferimento, il che significa che se il [posizionamento](Std_Placement/it.md) o la geometria degli oggetti di riferimento viene modificato, il posizionamento dell\'oggetto collegato verrà aggiornato di conseguenza.
 
 
-</div>
 
-## Attach engines 
+## Motori dell\'associazione 
 
-The attachment of an object is controlled by one of four attach engines. The default engine that is used for an object depends on its type.
+L\'associazione di un oggetto è controllata da uno dei quattro motori di associazione. Il motore predefinito utilizzato per un oggetto dipende dal suo tipo. Il motore di associazione di un oggetto può essere modificato tramite la sua proprietà **Attacher Engine** ({{Version/it|1.0}}) o la sua proprietà [nascosta](Property_editor/it#Menu_contestuale.md) **Attacher Type**.
 
-The four engines are:
+I motori disponibili sono elencati nella tabella sottostante. I motori di associazione controllano il **Placement** degli oggetti. Tutti i motori possono essere utilizzati per tutti gli oggetti che hanno questa proprietà. Ma i risultati degli ultimi tre hanno più senso se la forma dell\'oggetto corrisponde alla menzionata \"Forma Logica\".
 
--   [Attacher::AttachEnginePoint](#Attacher:_AttachEnginePoint.md)
--   [Attacher::AttachEngineLine](#Attacher:_AttachEngineLine.md)
--   [Attacher::AttachEnginePlane](#Attacher:_AttachEnginePlane.md)
--   [Attacher::AttachEngine3D](#Attacher:_AttachEngine3D.md)
+  Motore di collegamento                     Tipo di associazione          Forma Logica
+    
+  [Engine 3D](#Engine_3D.md)         Attacher::AttachEngine3D      
+  [Engine Plane](#Engine_Plane.md)   Attacher::AttachEnginePlane   Faccia planare coincidente con il piano XY del Posizionamento
+  [Engine Line](#Engine_Line.md)     Attacher::AttachEngineLine    Bordo dritto collineare con l\'asse Z del Posizionamento
+  [Engine Point](#Engine_Point.md)   Attacher::AttachEnginePoint   Vertice coincidente con l\'origine del Posizionamento
 
-The rest of this page focuses on the AttachEngine3D. The modes of the other engines are only listed. Note that the modes of AttachEnginePlane are in fact identical to those of AttachEngine3D.
+Il resto di questa pagina si concentra sull\'Engine 3D. Le modalità degli altri motori sono solo elencate. Da notare che le modalità di Engine Plane sono infatti identiche a quelle di Engine 3D.
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Seleziona l\'oggetto da allegare.
-2.  Andare al menu **Parte → Allegato\...**.
-
-    :   **Nota**\': quando si lavora in [PartDesign](PartDesign_Workbench/it.md) e si creano schizzi, geometrie di riferimento o primitive, i passi 1 e 2 non sono necessari: il dialogo allegato si apre automaticamente.
-3.  Sotto i parametri **Allegato**, si può leggere *Non allegato*. Il primo pulsante sotto è etichettato **Selecting...** per indicare che si aspetta una selezione nella vista 3D.
-4.  Seleziona un elemento topologico sull\'oggetto da attaccare: vertice, bordo o faccia/piano. Sono selezionabili anche i dati geometrici dai contenitori [Part](Std_Part.md).
-5.  L\'etichetta del primo pulsante ora adotta il tipo di topologia selezionata. Nel campo bianco alla sua destra, viene aggiunto l\'oggetto di riferimento e il suo elemento. Per esempio, se viene selezionata una faccia su un cubo primitivo, il campo mostrerà Box:Face6.
-6.  Seleziona un [Modo di allegato](#Modo_di_allegato.md) nella lista. Le modalità disponibili sono filtrate dai riferimenti selezionati. *Allegato con modalità * verrà visualizzato sotto l\'intestazione *Allegato*.
-
-    :   Per informazioni dal vivo sulle modalità di allegato, passa il mouse sopra una delle modalità nella lista per far apparire un punta dell'utensile .
-7.  Facoltativamente, aggiungi fino a 3 ulteriori riferimenti premendo i pulsanti **Riferimento2**, **Riferimento3**, e **Riferimento4** e ripetendo il passo 4.
-8.  Imposta opzionalmente un [Allegato Spostamento](#Attachment_Offset/it.md).
-9.  Premi **OK**.
-
-
-</div>
-
-## Change attach engine 
-
-It is possible to manually change the attach engine of an object:
-
-1.  Select the object.
-2.  Right-click in the [Property editor](Property_editor.md) and select **Show all** from the context menu.
-3.  Edit the **Attacher Type** property of the object.
-
-## Attachment modes 
+1.  Selezionare l\'oggetto da associare.
+2.  Effettuare una delle seguenti operazioni:
+    -   Se l\'oggetto ha già una proprietà **Map Mode**: fare clic in quel campo nell\'[Editor di proprietà](Property_editor/it.md) e premere il pulsante **...** che appare.
+    -   Selezionare l\'opzione **Parte → <img src="images/Part_EditAttachment.svg" width=16px> Associazione...** dal menu.
+3.  Si apre il Pannello delle azioni **Associazione**.
+4.  Nella parte superiore del pannello delle azioni è possibile leggere *Non associato*. Il primo pulsante etichettato **Selezione...** è evidenziato per indicare che è prevista una selezione nella [Vista 3D](3D_view/it.md).
+5.  Selezionare un vertice, un bordo o una faccia/piano appartenente ad un altro oggetto.
+6.  Nel campo di input a destra del pulsante vengono visualizzati l\'oggetto e il sottoelemento di riferimento. Ad esempio, se viene selezionata una faccia di un [Part Cubo](Part_Box/it.md), il campo potrebbe mostrare {{Value|Box:Face6}}. L\'etichetta del pulsante ora visualizza il tipo di sottoelemento.
+7.  Le modalità disponibili vengono filtrate in base ai riferimenti selezionati e al loro ordine. Ad esempio, per le modalità da [Allinea O-Z-X](#Allinea_O-Z-X.md) a [Allinea O-Y-X](#Allinea_O-Y-X/it.md) il primo riferimento deve essere un vertice. Se il primo riferimento è un sottoelemento di tipo diverso, viene rimosso dall\'elenco.
+8.  *Associato con la modalità * viene ora visualizzato nella parte superiore del pannello delle attività.
+9.  Opzionalmente selezionare una diversa [Modalità di associazione](#Modalità_di_associazione.md) dall\'elenco. Per informazioni sulle modalità di collegamento, passa il mouse sopra di esse per visualizzare una descrizione comando.
+10. A seconda della modalità selezionata, aggiungere fino a tre ulteriori riferimenti premendo i pulsanti **Riferimento2**, **Riferimento3** e **Riferimento4** e ripetendo il passaggio 5. È anche possibile per specificare tutti i riferimenti prima di selezionare una modalità di associazione.
+11. Facoltativamente, imposta un [Offset associazione](#Offset_associazione.md).
+12. Premere **OK**.
+13. Se applicabile, facoltativamente modificare la proprietà **Map Path Parameter** nell\'[Editor proprietà](Property_editor/it.md).
 
 
-<div class="toccolours mw-collapsible mw-collapsed">
 
-### Attacher::AttachEnginePoint
+## Modalità di associazione 
 
-
-<div class="mw-collapsible-content">
-
--   Deactivated
--   Object\'s origin
--   Focus1
--   Focus2
--   On edge
--   Center of curvature
--   Center of mass
--   Vertex
--   Proximity point 1
--   Proximity point 2
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-### Attacher::AttachEngineLine
-
-
-<div class="mw-collapsible-content">
-
--   Deactivated
--   Object\'s X
--   Object\'s Y
--   Object\'s Z
--   Axis of curvature
--   Directrix1
--   Directrix2
--   Asymptote1
--   Asymptote2
--   Tangent
--   Normal to edge
--   Binormal
--   Through two points
--   Proximity line
--   1st principal axis
--   2nd principal axis
--   3rd principal axis
--   Normal to surface
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-### Attacher::AttachEnginePlane
-
-
-<div class="mw-collapsible-content">
-
--   Deactivated
--   Translate origin
--   Object\'s XY
--   Object\'s XZ
--   Object\'s YZ
--   Plane face
--   Tangent to surface
--   Normal to edge
--   Frenet NB
--   Frenet TN
--   Frenet TB
--   Concentric
--   Revolution Section
--   Plane by 3 points
--   Normal to 3 points
--   Folding
--   Inertia 2-3
--   Align O-N-X
--   Align O-N-Y
--   Align O-X-Y
--   Align O-X-N
--   Align O-Y-N
--   Align O-Y-X
-
-
-</div>
-
-
-</div>
-
-### Attacher::AttachEngine3D
-
-
-<div class="mw-translate-fuzzy">
+### Engine 3D 
 
 ![](images/Part_Offset_Tasks_it.png )
-
-
-</div>
 
 
 
 #### Disattivato
 
-Attachment is disabled. The object can be moved by editing its [Placement](Placement.md) property.
+L\'associazione è disabilitata. L\'oggetto può essere spostato modificando la sua proprietà [Posizionamento](Placement/it.md).
 
 
 
-#### Traduci l\'origine 
+#### Trasla l\'origine 
 
+L\'origine corrisponde ad un vertice. L\'orientamento è ancora controllato dalla proprietà Placement dell\'oggetto associato.
 
-<div class="mw-translate-fuzzy">
-
-L\'origine dell\'oggetto è allineata al vertice corrispondente. L\'orientamento è controllato dalla proprietà [Posizionamento](Placement/it.md).
-
-
-</div>
-
-:; Combinazioni di riferimenti:
+:; Combinazioni riferimenti:
 
 :   Vertice.
 
 
 
+#### X Y Z dell\'oggetto 
 
-<div class="mw-translate-fuzzy">
+Il Posizionamento viene reso uguale al Posizionamento di un oggetto associato.
 
-#### XY dell\'oggetto 
+:; Combinazioni riferimenti:
 
+:   Qualsiasi
+:   Conico
 
-</div>
 
 
-<div class="mw-translate-fuzzy">
+#### X Z Y dell\'oggetto 
 
-Il piano è allineato al piano locale XY dell\'oggetto collegato.
+Gli assi X, Y e Z corrispondono rispettivamente agli assi X, Z e -Y locali di un oggetto associato.
 
+:; Combinazioni riferimenti:
 
-</div>
+:   Qualsiasi
+:   Conico
 
 
-<div class="mw-translate-fuzzy">
 
-:; Combinazioni di riferimenti:
+#### Y Z X dell\'oggetto 
 
-:   Qualsiasi, Conico.
+Gli assi X, Y e Z vengono abbinati rispettivamente agli assi Y, Z e X locali di un oggetto associato.
 
+:; Combinazioni riferimenti:
 
-</div>
+:   Qualsiasi
+:   Conico
 
 
 
+#### XY su piano 
 
-<div class="mw-translate-fuzzy">
+Il piano XY è allineato in modo da coincidere con una faccia planare.
 
-#### XZ dell\'oggetto 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Il piano è allineato al piano locale XZ dell\'oggetto collegato.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-:; Combinazioni di riferimenti:
-
-:   Qualsiasi, Conico.
-
-
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-#### YZ dell\'oggetto 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Il piano è allineato al piano locale YZ dell\'oggetto collegato.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-:; Combinazioni di riferimenti:
-
-:   Qualsiasi, Conico.
-
-
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-#### Piano della faccia 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Il piano è allineato in modo da coincidere con la faccia planare.
-
-
-</div>
-
-:; Combinazioni di riferimenti:
+:; Combinazioni riferimenti:
 
 :   Piano
 
 
 
+#### XY tangente a superficie 
 
-<div class="mw-translate-fuzzy">
+Il piano XY viene reso tangente ad una faccia in corrispondenza di un vertice.
 
-#### Tangente a superficie 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Il piano è reso tangente alla superficie nel vertice.
-
-
-</div>
-
-:; Combinazioni di riferimenti:
+:; Combinazioni riferimenti:
 
 :   Faccia, Vertice
 :   Vertice, Faccia
 
 
 
+#### Z tangente a bordo 
 
-<div class="mw-translate-fuzzy">
+L\'asse Z è allineato in modo da essere tangente a un bordo. Un vertice opzionale definisce dove.
 
-#### Normale a bordo 
+Se nessun vertice è associato, la proprietà **Map Path Parameter** determina il punto.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-L\'oggetto è reso perpendicolare al bordo. Riferimento facoltativo ad un vertice definisce la posizione.
-
-
-</div>
-
-If no vertex is linked the **Map Path Parameter** property determines the point.
-
-:; Combinazioni di riferimenti:
+:; Combinazioni riferimenti:
 
 :   Bordo
 :   Bordo, Vertice
 :   Vertice, Bordo
 
-
-
-
-<div class="mw-translate-fuzzy">
-
-#### Frenet NB 
-
-
-</div>
+#### Frenet NBT 
 
 <img alt="" src=images/Attacher_mode_FrenetNB.png  style="width:250px;">
 
+Gli assi X e Y sono allineati agli assi normale (N) e binormale (B) del [Frenet-Serret coordinate system](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) in un punto su un bordo curvo. Un vertice opzionale definisce dove.
 
-<div class="mw-translate-fuzzy">
+Se nessun vertice è associato, la proprietà **Map Path Parameter** determina il punto. L\'origine dell\'oggetto viene traslata sul vertice se il vertice è il primo, o mantenuta sulla curva se la curva è la prima.
 
-Il piano è impostato su assi normali-binormali (NB) dalle [Frenet-Serret coordinates](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) nel punto del bordo della curva più vicino al vertice (o definito dalla proprietà MapPathParameter, se il vertice non è riferito). L\'origine dell\'oggetto viene traslata nel vertice se il vertice è il primo riferimento, o mantenuta sulla curva se il bordo è il primo riferimento. Questa modalità è simile a \"Normale a bordo\", eccetto che l\'asse X è ben definito.
+*Frenet NBT* è simile a *Z tangente al bordo*, tranne per il fatto che l\'asse X è ben definito.
 
-
-</div>
-
-If no vertex is linked the **Map Path Parameter** property determines the point. The object\'s origin is translated to the vertex if the vertex is first, or kept at the curve if the curve is first.
-
-*Frenet NBT* is similar to *Z tangent to edge*, except that the X axis is well-defined.
-
-
-<div class="mw-translate-fuzzy">
-
-:; Combinazioni di riferimenti:
+:; Combinazioni riferimenti:
 
 :   Curva
 :   Curva, Vertice
 :   Vertice, Curva
-:   <img alt="" src=images/Attacher_mode_FrenetNB.png  style="width:250px;">
 
-
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-#### Frenet TN 
-
-
-</div>
+#### Frenet TNB 
 
 <img alt="" src=images/Attacher_mode_FrenetTN.png  style="width:250px;">
 
+Gli assi X e Y sono allineati agli assi tangente (T) e normale (N) del sistema di coordinate Frenet-Serret in un punto su un bordo curvo. Un vertice opzionale definisce dove.
 
-<div class="mw-translate-fuzzy">
+Vedere [Frenet NBT](#Frenet_NBT.md).
 
-Il piano è impostato sugli assi tangente-normali (TN) dalle [Frenet-Serret coordinates](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) nel punto del bordo della curva più vicino al vertice (o definito dalla proprietà MapPathParameter, se il vertice non è referenziato). L\'origine dello schizzo è traslata nel vertice se il vertice è il primo riferimento, o mantenuto alla curva se il bordo è il primo riferimento. In effetti, se la curva è planare, il piano dello schizzo è il piano della curva.
-
-
-</div>
-
-See [Frenet NBT](#Frenet_NBT.md).
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-#### Frenet TB 
-
-
-</div>
+#### Frenet TBN 
 
 <img alt="" src=images/Attacher_mode_FrenetTB.png  style="width:250px;">
 
+Gli assi X e Y sono allineati agli assi tangente (T) e binormale (B) del sistema di coordinate Frenet-Serret in un punto su un bordo curvo. Un vertice opzionale definisce dove.
 
-<div class="mw-translate-fuzzy">
-
-Il piano è impostato su assi tangenti-binormali (TB) dalle [Frenet-Serret coordinates](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) nel punto del bordo della curva più vicino al vertice ( o definito dalla proprietà MapPathParameter, se il vertice non è referenziato). L\'origine dello schizzo è traslata nel vertice se il vertice è il primo riferimento, o mantenuto alla curva se il bordo è il primo riferimento.
-
-
-</div>
-
-See [Frenet NBT](#Frenet_NBT.md).
+Vedere [Frenet NBT](#Frenet_NBT.md).
 
 
 
 #### Concentrico
 
+Il piano XY è allineato al [cerchio osculatore](https://en.wikipedia.org/wiki/Osculating_circle) in un punto su un bordo. Un vertice opzionale definisce dove.
 
-<div class="mw-translate-fuzzy">
-
-Allinea al piano del cerchio osculatore di un bordo. Un riferimento opzionale ad un vertice definisce dove.
-
-
-</div>
-
-If no vertex is linked the **Map Path Parameter** property determines the point.
+Se nessun vertice è associato, la proprietà **Map Path Parameter** determina il punto.
 
 :; Combinazioni di riferimenti:
 
@@ -463,33 +198,15 @@ If no vertex is linked the **Map Path Parameter** property determines the point.
 
 #### Sezione di rivoluzione 
 
+L\'asse Y è allineato per corrispondere all\'asse del cerchio osculatore in un punto su un bordo. Un vertice opzionale definisce dove.
 
-<div class="mw-translate-fuzzy">
-
-Il piano è perpendicolare al bordo e l\'asse Y è abbinato all\'asse del cerchio osculatore. Un riferimento opzionale ad un vertice definisce dove.
-
-
-</div>
-
-See [Concentric](#Concentric.md).
+Vedere [Concentrico](#Concentrico.md).
 
 
 
+#### Piano XY per 3 punti 
 
-<div class="mw-translate-fuzzy">
-
-#### Piano da 3 punti 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Allinea il piano XY attraverso tre vertici.
-
-
-</div>
+Il piano XY è allineato per passare attraverso tre vertici. L\'asse X passerà per i primi due vertici.
 
 :; Combinazioni di riferimenti:
 
@@ -500,23 +217,11 @@ Allinea il piano XY attraverso tre vertici.
 
 
 
+#### Piano XZ per 3 punti 
 
-<div class="mw-translate-fuzzy">
+Il piano XZ è allineato per passare attraverso tre vertici. L\'asse X passerà per i primi due vertici.
 
-#### Normale a 3 punti 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Allinea il piano attraverso i primi due vertici e perpendicolare al piano che passa attraverso 3 vertici.
-
-
-</div>
-
-See [XY plane by 3 points](#XY_plane_by_3_points.md).
+Vedere [Piano XY per 3 punti](#Piano_XY_per_3_punti.md).
 
 
 
@@ -524,42 +229,17 @@ See [XY plane by 3 points](#XY_plane_by_3_points.md).
 
 <img alt="" src=images/Attacher_mode_Folding.png  style="width:250px;">
 
+Questa è una modalità speciale per ripiegare i poliedri. Selezionare quattro linee che condividono un punto comune in questo ordine: linea di contorno (1), linea di piega (2), altra linea di piega (3), altra linea di contorno (4). Per determinare il sistema di coordinate, le curve di contorno selezionate vengono rese coincidenti ruotando la linea 1 attorno alla linea 2, e la linea 4 attorno alla linea 3. L\'origine corrisponde al punto comune, l\'asse X corrisponde alla linea 2, l\'asse Y viene allineato verso la direzione delle curve di contorno coincidenti.
 
-<div class="mw-translate-fuzzy">
-
-Modalità speciale per piegare i poliedri. Selezionare 4 bordi nell\'ordine: bordo pieghevole, linea di piegatura, altra linea di piegatura, altro bordo pieghevole. Il piano è allineato per piegare il primo bordo. Nell\'immagine seguente, non è necessario che entrambe le foglie da piegare siano uguali.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-:; Combinazioni di riferimenti:
+:; Combinazioni riferimenti:
 
 :   Linea, Linea, Linea, Linea
-:   ![ 250px](images/Attacher_mode_Folding.png )
-
-
-</div>
 
 
 
+#### Inerzia CS 
 
-<div class="mw-translate-fuzzy">
-
-#### Inerzia 2-3 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-L\'oggetto viene collegato a un piano che passa attraverso il secondo e il terzo asse principale di inerzia (passa attraverso il centro di massa).
-
-
-</div>
+Gli assi X, Y e Z sono abbinati a quelli di un sistema di coordinate inerziali, costruito sugli assi principali di inerzia e sul centro di massa.
 
 :; Combinazioni di riferimenti:
 
@@ -570,215 +250,202 @@ L\'oggetto viene collegato a un piano che passa attraverso il secondo e il terzo
 
 
 
+#### Allinea O-Z-X 
 
-<div class="mw-translate-fuzzy">
+L\'origine è abbinata al primo vertice. Gli assi Z e X sono allineati verso un vertice o lungo una linea.
 
-#### Allinea O-N-X 
+Vedere [Allinea le modalità di attacco del tipo O-X-Y](O-X-Y_Type_Attachment_Modes/it.md) per ulteriori dettagli.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento, poi allinea la sua normale e l\'asse del piano orizzontale verso il vertice/la linea.
-
-
-</div>
-
-See [Align O-X-Y Type Attachment Modes](O-X-Y_Type_Attachment_Modes.md) for more details.
-
-
-<div class="mw-translate-fuzzy">
-
-:; Combinazioni di riferimenti:
+:; Combinazioni riferimenti:
 
 :   Vertice, Vertice, Vertice
-:   Vertice, Vertice, Edge
-:   Vertice, Vertice, Vertice
-:   Vertice, Bordo, Bordo
+:   Vertice, Vertice, Linea
+:   Vertice, Linea, Vertice
+:   Vertice, Linea, Linea
 :   Vertice, Vertice
-:   Vertice, Bordo
-
-
-</div>
+:   Vertice, Linea
 
 
 
+#### Allinea O-Z-Y 
 
-<div class="mw-translate-fuzzy">
+L\'origine è abbinata al primo vertice. Gli assi Z e Y sono allineati verso un vertice o lungo una linea.
 
-#### Allinea O-N-Y 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento e allinea la sua normale e l\'asse verticale del piano verso il vertice/la linea.
-
-
-</div>
-
-See [Align O-Z-X](#Align_O-Z-X.md).
+Vedere [Allinea O-Z-X](#Allinea_O-Z-X.md).
 
 
 
 #### Allinea O-X-Y 
 
+L\'origine è abbinata al primo vertice. Gli assi X e Y sono allineati verso un vertice o lungo una linea.
 
-<div class="mw-translate-fuzzy">
-
-Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento e allinea i suoi assi orizzontali e verticali del piano verso il vertice/la linea.
-
-
-</div>
-
-See [Align O-Z-X](#Align_O-Z-X.md).
+Vedere [Allinea O-Z-X](#Allinea_O-Z-X.md).
 
 
 
+#### Allinea O-X-Z 
 
-<div class="mw-translate-fuzzy">
+L\'origine è abbinata al primo vertice. Gli assi X e Z sono allineati verso un vertice o lungo una linea.
 
-#### Allinea O-X-N 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Fa corrispondere l\'origine dell\'oggetto con il primo vertice referenziato e allinea il suo asse del piano orizzontale e la normale al vertice/alla linea.
-
-
-</div>
-
-See [Align O-Z-X](#Align_O-Z-X.md).
+Vedere [Allinea O-Z-X](#Allinea_O-Z-X.md).
 
 
 
+#### Allinea O-Y-Z 
 
-<div class="mw-translate-fuzzy">
+L\'origine è abbinata al primo vertice. Gli assi Y e Z sono allineati verso un vertice o lungo una linea.
 
-#### Allinea O-Y-N 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Fa corrispondere l\'origine dell\'oggetto con il primo vertice referenziato e allinea il suo asse del piano verticale e la normale al vertice/alla linea.
-
-
-</div>
-
-See [Align O-Z-X](#Align_O-Z-X.md).
+Vedere [Allinea O-Z-X](#Allinea_O-Z-X.md).
 
 
 
 #### Allinea O-Y-X 
 
+L\'origine è abbinata al primo vertice. Gli assi Y e X sono allineati verso un vertice o lungo una linea.
 
-<div class="mw-translate-fuzzy">
-
-Fa corrispondere l\'origine dell\'oggetto con il primo vertice di riferimento e allinea i suoi assi del piano verticale e orizzontale verso il vertice/la linea.
-
-
-</div>
-
-See [Align O-Z-X](#Align_O-Z-X.md).
+Vedere [Allinea O-Z-X](#Allinea_O-Z-X.md).
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### Allegato Spostamento 
+#### XY parallelo al piano 
 
 
-</div>
+{{Version/it|1.0}}
+
+Il piano XY è allineato per essere parallelo al piano XY del posizionamento di un oggetto collegato e passa attraverso un vertice. L\'origine corrisponde alla proiezione dell\'origine dell\'oggetto collegato sul piano XY.
+
+Tenere presente che i deve selezionare un oggetto intero e non un sottoelemento come una faccia o un piano.
+
+:; Combinazioni di riferimento:
+
+:   Qualsiasi oggetto intero (con una proprietà **Placement**), Vertex
 
 
-<div class="mw-translate-fuzzy">
+<div class="toccolours mw-collapsible mw-collapsed">
 
-Allegato Spostamento viene utilizzato per applicare uno spostamento lineare o rotatorio dall\'oggetto di riferimento. Ciò significa che gli spostamento sono relativi al sistema di coordinate \"locale\", non al sistema globale. Diventa attivo quando è stata selezionata una modalità di associazione diversa da \"Disattivato\".
-
-
-</div>
+### Engine Plane 
 
 
-<div class="mw-translate-fuzzy">
+<div class="mw-collapsible-content">
 
--   **X**: imposta una distanza di spostamento sull\'asse X dell\'oggetto di riferimento.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Y**: imposta una distanza di spostamento nell\'asse Y dell\'oggetto di riferimento.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Z**: imposta una distanza di spostamento nell\'asse Z dell\'oggetto di riferimento. Questa coordinata deve essere utilizzata nel caso frequente in cui si desidera spostare uno schizzo in direzione perpendicolare al piano.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Rollio**: ruota l\'oggetto associato lungo l\'asse X dell\'oggetto di riferimento.
+-   Disattivato
+-   Trasla origine
+-   XY dell\'oggetto
+-   XZ dell\'oggetto
+-   YZ dell\'oggetto
+-   Faccia piana
+-   Tangente alla superficie
+-   Normale al bordo
+-   Frenet NB
+-   Frenet TN
+-   Frenet TB
+-   Concentrico
+-   Sezione Rivoluzione
+-   Piano per 3 punti
+-   Normale a 3 punti
+-   Pieghevole
+-   Inerzia 2-3
+-   Allinea O-N-X
+-   Allinea O-N-Y
+-   Allinea O-X-Y
+-   Allinea O-X-N
+-   Allinea O-Y-N
+-   Allinea O-Y-X
+-   XY parallelo al piano {{Version/it|1.0}}
 
 
 </div>
 
 
-<div class="mw-translate-fuzzy">
+</div>
 
--   **Beccheggio**: ruota l\'oggetto associato lungo l\'asse Y dell\'oggetto di riferimento.
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+### Engine Line 
+
+
+<div class="mw-collapsible-content">
+
+-   Disattivato
+-   X dell\'oggetto
+-   Y dell\'oggetto
+-   Z dell\'oggetto
+-   Asse di curvatura
+-   Direttrice1
+-   Direttrice2
+-   Asintoto1
+-   Asintoto2
+-   Tangente
+-   Normale al bordo
+-   Binormale
+-   Attraverso due punti
+-   Intersezione {{Version/it|1.0}}
+-   Linea di prossimità
+-   1° asse principale
+-   2° asse principale
+-   3° asse principale
+-   Normale alla superficie
 
 
 </div>
 
 
-<div class="mw-translate-fuzzy">
+</div>
 
--   **Imbardata**: ruota l\'oggetto associato lungo l\'asse Z dell\'oggetto di riferimento.
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+### Engine Point 
+
+
+<div class="mw-collapsible-content">
+
+-   Disattivato
+-   Origine dell\'oggetto
+-   Focus1
+-   Focus1
+-   Sul bordo
+-   Centro di curvatura
+-   Centro di Massa
+-   Vertice
+-   Punto di prossimità 1
+-   Punto di prossimità 2
 
 
 </div>
 
 
-<div class="mw-translate-fuzzy">
-
--   **Capovolgi le facce**: se selezionato, l\'oggetto collegato viene invertito sul suo piano XY.
-
-
 </div>
+
+
+
+### Offset dell\'associazione 
+
+L\'offset dell\'associazione diventa attivo quando è stata selezionata una modalità di collegamento diversa da *Disattivato*. Viene utilizzato per applicare un offset lineare o rotatorio all\'interno del sistema di coordinate di associazione (ACS), come definito dalla modalità di associazione e dagli oggetti di riferimento.
+
+-   **In direzione x**: imposta una distanza di offset lungo l\'asse X dell\'ACS.
+
+-   **In direzione y**: imposta una distanza di offset lungo l\'asse Y dell\'ACS.
+
+-   **In direzione z**: imposta una distanza di offset lungo l\'asse Z dell\'ACS.
+
+-   **Intorno all\'asse x**: ruota l\'oggetto associato attorno all\'asse X dell\'ACS.
+
+-   **Intorno all\'asse y**: ruota l\'oggetto associato attorno all\'asse Y dell\'ACS.
+
+-   **Intorno all\'asse z**: ruota l\'oggetto associato attorno all\'asse Z dell\'ACS.
+
+-   **Capovolgi lati**: se selezionato, l\'associazione viene invertita. Ciò equivale a ruotare l\'oggetto di 180° attorno all\'asse Y dell\'ACS.
 
 
 
 ## Limitazioni
 
-
-<div class="mw-translate-fuzzy">
-
--   I contenitori [Part](Std_Part/it.md) e [Corpo](PartDesign_Body/it.md) non sono supportati. Mentre è possibile usare Allegato per allinearli, l\'allegato non sarà collegato parametricamente.
--   Se selezionando due linee si ottiene un traceback con \"i punti sono collineari. Non si può fare un piano\", prova invece a selezionare tre punti [1](https://forum.freecadweb.org/viewtopic.php?f=8&t=55088&p=473614#p473594).
+-   Se selezionando due linee si ottiene un errore: \"I punti sono collineari. Impossibile creare un piano\", provare invece a selezionare tre vertici [#p473594](https://forum.freecadweb.org/viewtopic.php?f=8&t=55088&p=473614).
 
 
-</div>
 
-!!FUZZY!!
 
 
 {{Part_Tools_navi

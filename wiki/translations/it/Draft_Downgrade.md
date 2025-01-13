@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Downgrade
-   Name/it: Declassa
-   MenuLocation: Modifiche , Declassa
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Declassa
+   MenuLocation: Modifiche , Declassa<br>Modifica , Declassa
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **D** **N**
    SeeAlso: Draft_Upgrade/it, Part_Cut/it
 ---
@@ -26,7 +26,8 @@ Il comando <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Dr
 1.  Opzionalmente selezionare uno o più oggetti.
 2.  Esistono diversi modi per invocare il comando:
     -   Premiere il pulsante **<img src="images/Draft_Downgrade.svg" width=16px> [Declassa](Draft_Downgrade/it.md)**.
-    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Downgrade.svg" width=16px> Declassa** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Modifiche → <img src="images/Draft_Downgrade.svg" width=16px> Declassa** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_Downgrade.svg" width=16px> Downgrade** dal menu.
     -   Usare la scorciatoia da tastiera: **D** poi **N**.
 3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
 

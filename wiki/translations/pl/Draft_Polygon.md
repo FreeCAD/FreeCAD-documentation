@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Polygon
    Name/pl: Rysunek Roboczy: Wielokąt foremny
-   MenuLocation: Kreślenie , Wielokąt foremny
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Kreślenie , Wielokąt foremny<br>Kreślenie 2D , Wielokąt foremny
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **P** **G**
    Version: 0.7
 ---
@@ -29,7 +29,8 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 1.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_Polygon.svg" width=16px> '''Wielokąt foremny'''**.
-    -   Wybierz opcję z menu **Kreślenie → <img src="images/Draft_Polygon.svg" width=16px> Wielokąt foremny**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz opcję z menu **Kreślenie → <img src="images/Draft_Polygon.svg" width=16px> Wielokąt foremny**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Kreślenie 2D → <img src="images/Draft_Polygon.svg" width=16px> Wielokąt foremny** z menu.
     -   Użyj skrótu klawiaturowego: **P**, a następnie **G**.
 2.  Otworzy się panel zadań **Wielokąt**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
 3.  Ustaw żądaną liczbę **Boków**.
@@ -40,10 +41,10 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 1.0)*.
 
 -   Aby samodzielnie wprowadzić współrzędne środka, wprowadź komponent X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie wskaźnika poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
--   Naciśnij **G** lub kliknij pole wyboru **Globalne**, aby włączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odnoszone do globalnego układu współrzędnych, w przeciwnym razie są odnoszone do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **G** lub kliknij pole wyboru **Globalne**, aby włączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odnoszone do globalnego układu współrzędnych, w przeciwnym razie są odnoszone do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij **F** lub kliknij pole wyboru **Wypełniony**, aby przełączyć tryb wypełnienia. Jeśli tryb wypełnienia jest włączony, utworzony wielokąt będzie miał właściwość **Utwórz ścianę** ustawioną na wartość `True` i będzie miał wypełnioną ścianę.
 -   Naciśnij **N** lub kliknij pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, umożliwiając dalsze tworzenie wielokątów.
 -   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).

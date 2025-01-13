@@ -1,60 +1,82 @@
 ---
  GuiCommand:
-   Name: Sketcher_ConstrainDiameter   Name/it: Diametro
-   Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch , Vincoli , Diametro
-   SeeAlso: Sketcher ConstrainDistance/it, Sketcher ConstrainDistanceX/it, Sketcher ConstrainDistanceY/it
+   Name: Sketcher ConstrainDiameter
+   Name/it: Sketcher Vincolo diametro
+   MenuLocation: Schizzo , Vincoli Sketcher , Vincolo diametro
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **K** **O**
+   Version: 0.18
+   SeeAlso: Sketcher_ConstrainRadiam/it, Sketcher_ConstrainRadius/it
 ---
 
 # Sketcher ConstrainDiameter/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo vincolo forza il valore del diametro di un cerchio o di un arco a un valore specifico. Se viene selezionato più di un cerchio o arco prima di lanciare il comando, un prompt chiede se tutti gli elementi selezionati devono condividere lo stesso diametro. Nel caso di una risposta affermativa, viene aggiunto un vincolo di diametro e un vincolo di <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:16px;"> [uguale lunghezza](Sketcher_ConstrainEqual/it.md) a tutti gli elementi. Se la risposta è negativa, vengono creati vincoli di diametro separati per ogni cerchio o arco ma con valori uguali che è possibile modificare separatamente dopo la creazione.
+Lo strumento <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:24px;"> [Sketcher Vincolo diametro](Sketcher_ConstrainDiameter/it.md) fissa il diametro di cerchi e archi. Non può essere utilizzato per [Cerchi peso B-spline](Sketcher_CreateBSpline/it#Notes.md).
 
 
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
-</div>
 
-1.  Selezionare uno o più cerchi o archi.
-2.  Premere il pulsante **[<img src=images/Sketcher_ConstrainDiameter.svg style="width:16px"> Diametro**.
-3.  Si apre una finestra di dialogo per modificare o confermare il valore. Premere **OK** per confermare. Se sono stati selezionati più cerchi o archi, tutti i vincoli adottano questo valore. Per modificare i loro valori separatamente fare doppio clic sull\'etichetta della dimensione nella vista 3D; oppure nell\'elenco dei Vincoli, fare doppio clic sul vincolo o fare clic con il tasto destro e selezionare **Cambia valore**.
-4.  L\'etichetta e la linea della quota possono essere spostate e ruotate nella vista 3D facendo clic sul valore e trascinando il mouse tenendo premuto il pulsante sinistro.
 
-**Nota:** lo strumento vincolo può anche essere avviato senza selezione preliminare. Di default il comando è in modalità continua per creare nuovi vincoli; premere una volta il tasto destro del mouse o **Esc** per uscire dal comando.
+### [Modalità continua](Sketcher_Workbench/it#Continue_modes.md) 
 
-## Scripting
+1.  Assicurarsi che non ci sia alcuna selezione.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   
+        {{Version/it|1.0}}
+        
+        : Se la [preferenza](Sketcher_Preferences/it#General.md) **Vincoli dimensionali** è impostata su {{Value|Strumento singolo}} (predefinito): premere la freccia giù a destra del pulsante **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** e selezionare il pulsante **[[Image:Sketcher_ConstrainDiameter.svg|16px] ] Vincolo diametro** dal menu a discesa.
+
+    -   Se questa preferenza ha un valore diverso (e in {{VersionMinus/it|0.21}}): premere il pulsante **<img src="images/Sketcher_ConstrainDiameter.svg" width=16px> [Vincolo diametro](Sketcher_ConstrainDiameter/it.md)**.
+
+    -   Selezionare l\'opzione **Schizzo → Vincoli Sketcher → <img src="images/Sketcher_ConstrainDiameter.svg" width=16px> Vincolo diametro** dal menu.
+
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [Vista 3D](3D_view/it.md) e selezionare l\'opzione **Dimensione → <img src="images/Sketcher_ConstrainDiameter.svg" width=16px> Vincolo diametro** dall\'elenco menu contestuale.
+
+    -   Usare la scorciatoia da tastiera: **K** quindi **O**.
+3.  Il cursore si trasforma in una croce con l\'icona dello strumento.
+4.  Selezionare il bordo di un cerchio o di un arco.
+5.  Se viene creato un [vincolo dimensionale guida](Sketcher_ToggleDrivingConstraint/it.md), a seconda delle [preferenze](Sketcher_Preferences/it#Display.md), si apre una finestra di dialogo per [modificarne il valore](Sketcher_Workbench/it#Edit_constraints.md).
+6.  Viene aggiunto un vincolo.
+7.  Facoltativamente, continuare a creare vincoli.
+8.  Per terminare, fare clic con il pulsante destro del mouse o premere **Esc** oppure avviare un altro strumento di creazione di geometrie o vincoli.
+
+
+
+### Modalità di esecuzione una sola volta 
+
+1.  Selezionare il bordo di uno o più cerchi o archi.
+2.  Richiamare lo strumento come spiegato sopra.
+3.  Facoltativamente [modificare il valore del vincolo](Sketcher_Workbench/it#Edit_constraints.md).
+4.  A seconda della selezione vengono aggiunti uno o più vincoli, vedere [Note](#Note.md).
+
+
+
+## Note
+
+-   Se vengono creati [vincoli guida](Sketcher_ToggleDrivingConstraint/it.md) e sono stati preselezionati più elementi che non sono [geometria esterna](Sketcher_External/it.md), solo il primo di questi riceve un vincolo dimensionale, mentre tra il primo e gli altri vengono applicati [Vincoli uguale](Sketcher_ConstrainEqual/it.md).
+
+
+
+## Script
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Diameter', ArcOrCircle, App.Units.Quantity('123.0 mm')))```
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `ArcOrCircle`, and contains further examples on how to create constraints from Python scripts.
-
-
-<div class="mw-translate-fuzzy">
+La pagina [Sketcher scripting](Sketcher_scripting/it.md) spiega i valori che possono essere utilizzati per `ArcOrCircle` e contiene ulteriori esempi su come creare vincoli da script Python.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

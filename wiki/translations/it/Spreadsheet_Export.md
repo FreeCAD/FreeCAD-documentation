@@ -1,8 +1,8 @@
 ---
  GuiCommand:
-   Name: Spreadsheet_Export
-   Name/it: Esporta il foglio di calcolo
-   MenuLocation: Spreadsheet , Esporta il foglio di calcolo
+   Name: Spreadsheet Export
+   Name/it: Spreadsheet Esporta
+   MenuLocation: Foglio di calcolo , Esporta il foglio di calcolo
    Workbenches: Spreadsheet_Workbench/it
    Version: 0.17
    SeeAlso: Spreadsheet_Import/it
@@ -14,14 +14,16 @@
 
 ## Descrizione
 
-Lo strumento **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Esporta il foglio di calcolo](Spreadsheet_Export/it.md)** consente di esportare un foglio di calcolo come file CSV, che può essere successivamente aperto e utilizzato in altre applicazioni. Si noti che il carattere {{Value|tab}}, e non la {{Value|virgola}}, è il delimitatore di campo predefinito. Ma questo può essere modificato nelle [Preferenze per l\'ambiente Spreadsheet](Spreadsheet_Preferences/it.md) ({{Version/it|0.20}}).
+Lo strumento <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> **Esporta il foglio di calcolo** esporta un foglio di calcolo come file CSV, che può essere utilizzato in altre applicazioni. Tenere presente che il carattere {{Value|tab}}, e non {{Value|virgola}}, è il delimitatore di campo predefinito. Ma questo può essere modificato nelle [Preferenze foglio di calcolo](Spreadsheet_Preferences/it.md) ({{Version/it|0.20}}).
 
 
 
 ## Utilizzo
 
-1.  Accertarsi che sia attivo un <img alt="" src=images/_Spreadsheet_CreateSheet.svg  style="width:16px;"> [Foglio di calcolo](Spreadsheet_CreateSheet/it.md) in modo che il pulsante sia abilitato.
-2.  Premere il pulsante **[<img src=images/Spreadsheet_Export.svg style="width:16px"> Esporta il foglio di calcolo**.
+1.  Assicurarsi che ci sia un [foglio di calcolo](Spreadsheet_CreateSheet/it.md) attivo.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Esporta il foglio di calcolo](Spreadsheet_Export/it.md)**.
+    -   Selezionare l\'opzione **Foglio di calcolo → [<img src=images/Spreadsheet_Export.svg style="width:16px"> Esporta il foglio di calcolo** dal menu.
 
 
 

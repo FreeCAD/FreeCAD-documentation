@@ -13,9 +13,13 @@ Dacă acesta este primul dvs. contact cu o aplicație 3D, va trebui să înțele
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Spațiul FreeCAD 3D este un spațiu euclidian [Euclidean space](https://en.wikipedia.org/wiki/Euclidean_space). Este un punct de origine și trei axe: X, Y și Z. Dacă vă uitați la scena dvs. de sus, în mod convențional, axa X indică spre dreapta, axa Y spre spate și axa Z în sus. În colțul din dreapta jos al vizualizării FreeCAD, vizionați mereu scena:
 
-![](images/Axes_orientation.png )
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -27,17 +31,9 @@ Fiecare punct al fiecărui obiect care există în acest spațiu poate fi locali
 
 ![](images/3dspace_coordinates.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
-Puteți privi acea scenă din orice unghi, ca și cum ați ține o cameră foto. Această cameră poate fi mișcată în stânga, în dreapta, în sus și în jos (pan), rotită în jurul a ceea ce priviți(rotate) și apropită și îndepărtată de scenă (zoom).
-
-
-</div>
-
 ### The FreeCAD 3D view 
 
-#### Mouse Navigation 
+#### Mouse navigation 
 
 
 <div class="mw-translate-fuzzy">
@@ -47,13 +43,7 @@ Navigarea în vizualizarea 3D FreeCAD se poate face cu un mouse, cu un dispoziti
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-![](images/Freecad-interface-05.jpg )
-
-
-</div>
+![](images/FreeCAD_022_NavigationMethod.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -85,9 +75,19 @@ Fiecare dintre aceste moduri alocă diferite butoane mouse-ului sau combinații 
 
 </div>
 
-#### Keyboard Navigation 
+It\'s worth noting that when a user hovers over the navigation styles menu located at the bottom right of the screen, a tooltip will appear. This tooltip provides a brief description of the highlighted navigation style, offering immediate guidance on its use.
+
+![](images/FreeCAD_022_NavigationHover.png )
+
+#### Keyboard navigation 
+
+
+<div class="mw-translate-fuzzy">
 
 În mod alternativ, unele comenzi de la tastatură sunt întotdeauna disponibile, indiferent de modul de navigare:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -111,21 +111,15 @@ Aceste comenzi sunt de asemenea disponibile din meniul Vizualizare și unele din
 
 </div>
 
-#### Using the Navigation Cluster 
+#### Using the Navigation Cube 
 
-In the default setup, there is a [Navigation Cluster](Navigation_Cube.md) in the upper right corner of the 3D display. This may be used to rotate the displayed object by a fixed amount, reset the display to one of several standard views, and change the display mode.
+In the default setup, there is a [Navigation Cube](Navigation_Cube.md) in the upper right corner of the 3D view. This may be used to change the view.
 
-![](images/FreeCAD-v0-18-NavCube_SelectCorner.png )
+![](images/FreeCAD_022_Cube.png )
 
-When using the navigation cluster, a control point will turn light blue when the pointer is hovering over a sensitive area. If the area below the pointer does not change color, clicking on it will have no affect. As of this writing (v0.18), there are some registration issues which prevent all parts of some control points from being active.
+Clicking on a face of the cube will switch the view to that face. Clicking one of the four triangular arrows rotates the view 45 degrees in the indicated direction. Clicking one of the two curved arrows rotates the view 45 degrees in the indicated direction around a line pointing towards you. Clicking the round button in the top right corner of the cube rotates the view 180 degrees around the vertical axis of the view.
 
-Clicking on a face will switch the view to that face; clicking on a corner will switch to a view with that corner pointing towards you.
-
-Clicking one of the four triangles will rotate the view 45 degrees in the indicated direction. Clicking one of the two curved arrows at the top will rotate the view 45 degrees in the indicated direction around a line pointing towards you.
-
-The navigation cluster may be moved to any part of the 3D display by dragging. The drag (left) mouse button must be pressed inside the cube itself to initiate a drag. The structure will not begin moving until the pointer is dragged outside the cube.
-
-There is a smaller mini-cube in the lower right of the cluster which activates a drop-down menu allowing you to switch the viewing mode.
+There is a smaller mini-cube in the lower right of the Navigation Cube which activates a drop-down menu with several options, including an option to make the cube movable, which allows to temporarily move the cube to a different position by dragging.
 
 
 

@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Raytracing Render
    Name/de: Raytracing Rendern
-   MenuLocation: Raytracing , Render‏‎|
+   MenuLocation: Raytracing , Render‏‎n
    Workbenches: Raytracing_Workbench/de
    Shortcut: 
    SeeAlso: 
@@ -11,52 +11,27 @@
 # Raytracing Render/de
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Rendert das ausgewählte Raytracing Projekt mit einem externen Renderer.
+Rendert das ausgewählte Raytracing-Projekt mit einem externen Renderer.
 
 
-</div>
 
-## Usage
+## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-## Benutzung
-
-1.  Wähle das Raytracingprojekt in der Baumansicht aus.
-2.  Klicke auf <img alt="" src=images/Raytracing_Render.png  style="width:32px;"> oder wähle ** Raytracing** → **<img src="images/Raytracing_Render.png" width=32px> Render** aus dem oberen Menü.
+1.  Wähle das Raytracing-Projekt in der [Baumansicht](Tree_view/de.md) aus.
+2.  Klicke auf <img alt="" src=images/Raytracing_Render.svg  style="width:32px;"> oder wähle ** Raytracing** → **<img src="images/Raytracing_Render.svg" width=32px> Rendern** aus dem oberen Menü.
 
 
-</div>
 
-## Limitations
-
-
-<div class="mw-translate-fuzzy">
-
-## Beschränkungen
+## Einschränkungen
 
 Momentan werden nur POV-Ray und Luxrender unterstützt.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-## Anmerkungen
-
-
-</div>
+## Hinweise
 
 
 

@@ -1,36 +1,24 @@
 # Macro Screen Wiki/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro Screen Wiki
 |Icon=Macro_Screen_Wiki.png
-|Description=Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel formato desiderato. La vista 3D o la finestra 3D completa di FreeCAD assume le dimensioni desiderate. Una rotazione dell'oggetto selezionato o della vista 3D è possibile dare un angolo di rotazione il numero di immagini viene calcolato automaticamente è possibile dare un angolo di partenza e un angolo di arrivo. È necessario utilizzare un altro programma di esempio Gimp per assemblare le immagini e creare il file animato.
+|Description=Macro speciale per l'utente Wiki. Questa macro consente di salvare la vista 3D nel formato desiderato. La vista 3D o la finestra 3D completa di FreeCAD assume le dimensioni desiderate. È possibile far fare una rotazione di un dato angolo all'oggetto selezionato o alla vista 3D e il numero di immagini viene calcolato automaticamente, è anche possibile dare un angolo di partenza e un angolo di arrivo. È necessario utilizzare un altro programma, ad esempio Gimp, per assemblare le immagini e creare il file animato.
 |Author=Mario52
-|Version=00.05
-|Date=2021/05/21
-|FCVersion=0.19
-|Download=Telecarica l'icon [https://wiki.freecadweb.org/images/f/f5/Macro_Screen_Wiki.png Macro_Screen_Wiki.png] e copia il file dentro lo stesso repertorio delle macro
-|SeeAlso= <img src="images/Macro_Copy3DViewToClipboard.png" width=24px>[Macro_Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md)<br/><img src="images/Snip.png" width=24px> [Macro_Snip](Macro_Snip.md)
-}}
-
-
-</div>
+|Version=00.06c
+|Date=2024/10/10
+|FCVersion=0.19 e successive
+|Download=[https://wiki.freecad.org/images/f/f5/Macro_Screen_Wiki.png Icona della barra degli strumenti]
+|SeeAlso=
+[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard/it.md), [Macro Snip](Macro_Snip/it.md)}}
 
 
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel formato desiderato. La [vista 3D](3D_view/it.md) o la finestra 3D completa di FreeCAD assume le dimensioni desiderate. Una rotazione dell\'oggetto selezionato o della vista 3D è possibile dare un angolo di rotazione il numero di immagini viene calcolato automaticamente è possibile dare un angolo di partenza e un angolo di arrivo. È necessario utilizzare un altro programma di esempio Gimp per assemblare le immagini e creare il file animato.
+Macro speciale per l\'utente Wiki. Questa macro consente di salvare la vista 3D nel formato desiderato. La vista 3D o la finestra 3D completa di FreeCAD assume le dimensioni desiderate. È possibile far fare una rotazione di un dato angolo all\'oggetto selezionato o alla vista 3D e il numero di immagini viene calcolato automaticamente, è anche possibile dare un angolo di partenza e un angolo di arrivo. È necessario utilizzare un altro programma, ad esempio Gimp, per assemblare le immagini e creare il file animato.
 
 
-</div>
-
-
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/2e2f5d1f30acd9fee9ea58596d0bcaa8d19f03f3/Macro_Screen_Wiki.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/14deef95d2276c1095ea7eefb75dc5b5e4be4e04/Macro_Screen_Wiki.FCMacro}}
 
 ![](images/Macro_Screen_Wiki_00.png )
 
@@ -46,23 +34,11 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
-
-
-</div>
+## Utilizzo
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### Images options 
-
-
-</div>
+### Opzioni immagine 
 
 #### Definition
 
@@ -130,12 +106,8 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
     {{RadioButton|TRUE|Screen 3D}}: La vista 3D di FreeCAD
 
 
-<div class="mw-translate-fuzzy">
 
-#### BackGround Color 
-
-
-</div>
+#### Colore di sfondo 
 
 1.  
     {{RadioButton|TRUE|Current}}(Default)
@@ -156,20 +128,17 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 
 #### Commando
 
-
-<div class="mw-translate-fuzzy">
-
 1.  
-    **Set Screen**: Docked finestra
+    **Set Screen**: Finestra ancorata
 
 2.  
-    **Tile Screen**: Finestra volante
+    **Tile Screen**: Finestra flottante
 
 3.  
-    **Save Image**: Salva l\'immagine ex: **imageBox_000.png** (il \_000 e sempre aggiunto)
+    **Save Image**: Salva l\'immagine, per esempio: **imageBox_000.png** (il \_000 e sempre aggiunto)
 
 4.  
-    **Follow**: Dopo aver salvato la prima immagine, premere questo pulsante se si desidera salvare l\'immagine successiva con lo stesso nome. Le immagini salvate vengono incrementate ex: **imageBox_001.png**, **imageBox_002.png**, **imageBox_003.png**, etc. ..
+    **Follow**: Dopo aver salvato la prima immagine, premere questo pulsante se si desidera salvare l\'immagine successiva con lo stesso nome. Le immagini salvate vengono incrementate, per esempio: **imageBox_001.png**, **imageBox_002.png**, **imageBox_003.png**, etc. ..
 
 5.  
     **New image**: Salva una nuova immagine senza modificare il contatore
@@ -183,13 +152,10 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
     **Quit**: \_\_\_Screen_Wiki end\_\_\_\_\_\_\_\_\_\_
 
 2.  
-    **ToolBar**: Riduci la finestra dell\'immagine in una barra degli strumenti, l\'opzione **Rotation** non è disponibile in questa modalità
+    **ToolBar**: Riduce la finestra dell\'immagine in una barra degli strumenti, l\'opzione **Rotation** non è disponibile in questa modalità
 
     1.  ![](images/Macro_Screen_Wiki_ToolBar_01.png )![](images/Macro_Screen_Wiki_ToolBar_02.png )![](images/Macro_Screen_Wiki_ToolBar_03.png )![](images/Macro_Screen_Wiki_ToolBar_04.png )
-    2.  The button **[[Image:Macro_Screen_Wiki_ToolBar_04_6.png]]** Flip/Flop S/N la mini barra degli strumenti ![](images/Macro_Screen_Wiki_ToolBar_Mini.png )
-
-
-</div>
+    2.  Il pulsante **[[Image:Macro_Screen_Wiki_ToolBar_04_6.png]]** Flip/Flop S/N è una mini barra degli strumenti ![](images/Macro_Screen_Wiki_ToolBar_Mini.png )
 
 ### Rotation options 
 
@@ -222,13 +188,10 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 
 #### Angles
 
-
-<div class="mw-translate-fuzzy">
-
 -   Angle Rotation
 
 1.  
-    **-**: Ridurre il valore di 10 gradi
+    **-**: Riduce il valore di 10 gradi
 
 2.  
     {{SpinBox|0 Degrees}}: Valore
@@ -236,22 +199,30 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 3.  
     **+**: Aumenta il valore di 10 gradi
 
--   Number images : Viene calcolata l\'immagine numerica salvata con i valori indicati (approssimazione + 1)
--   Angle Begin Rotation
+-   Number images
 
 1.  
-    **-**: Ridurre il valore di 10 gradi
+    **-**: Diminuisce il valore di 10 immagini
 
 2.  
-    {{SpinBox|0 Degrees}}: Valore : Angolo della rotazione iniziale
+    {{SpinBox|0 Immagini (+1)}}: Valore
 
 3.  
+    **+**: Aumenta il valore di 10 immagini
+
+4.  
+    **-**: Riduce il valore di 10 gradi
+
+5.  
+    {{SpinBox|0 Degrees}}: Valore : Angolo della rotazione iniziale
+
+6.  
     **+**: Aumenta il valore di 10 gradi
 
 -   Angle End Rotation
 
 1.  
-    **-**: Ridurre il valore di 10 gradi
+    **-**: Riduce il valore di 10 gradi
 
 2.  
     {{SpinBox|360 Degrees}}: Valore : Angolo della rotazione finale
@@ -259,30 +230,27 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 3.  
     **+**: Aumenta il valore di 10 gradi
 
-
-</div>
-
 #### Command
-
-
-<div class="mw-translate-fuzzy">
 
 -   Delay between 2 images
 
 1.  
-    {{SpinBox|0,00|Delay second}}: Se hai problemi con il salvataggio dell\'immagine (computer troppo veloce) dai un valore \...
+    {{SpinBox|0,00|Delay second}}: Se ci sono problemi con il salvataggio dell\'immagine (computer troppo veloce) dare un valore \...
 
 2.  
-    {{CheckBox|Reverse}}: Checked, questa opzione inverte la vista 3D o l\'oggetto di rotazione
+    {{CheckBox|Reverse}}: Se selezionato, questa opzione inverte la vista 3D o l\'oggetto di rotazione
 
 3.  
-    {{CheckBox|TRUE|Original position}}: Questa opzione ripristina la posizione originale della vista 3D o dell\'oggetto ruotato. In caso contrario, la vista 3D o l\'oggetto rimangono nell\'ultima posizione della rotazione
+    **Point center**: Visualizza il centro di rotazione del punto, se il punto è visibile il punto viene incluso nell\'immagine (PS: il punto può essere nascosto da un oggetto)
 
 4.  
+    {{CheckBox|TRUE|Original position}}: Questa opzione ripristina la posizione originale della vista 3D o dell\'oggetto ruotato. In caso contrario, la vista 3D o l\'oggetto rimangono nell\'ultima posizione della rotazione
+
+5.  
+    **Test Rot.**: Testa la rotazione senza salvare le immagini
+
+6.  
     **Save the animation**: Salva l\'animazione
-
-
-</div>
 
 
 
@@ -309,14 +277,8 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 ![](images/Macro_Screen_Wiki_Object_Direction_SUBObject.gif )
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-*Oggetto di animazione Direzione oggetto selezionato. <br/> Le immagini devono essere assemblate con un altro programma per creare un'animazione GIF<br/>Example [https://www.gimp.org/downloads/ Gimp] or [https://www.screentogif.com ScreenToGif]*
-
-
-</div>
+*Modalità animazione: Selezione dell'oggetto secondario per la direzione dell'oggetto.<br/>Le immagini devono essere assemblate con un'applicazione di terze parti che crei un file .gif animato<br/>come [https://daviesmediadesign.com/project/make-animated-gif-gimp/ GIMP] o [https://www.screentogif.com ScreenToGif]*
 
 ![](images/Macro_Screen_Wiki_07.png )
 
@@ -328,7 +290,9 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 
 ## Versione
 
-Version=00.06: Version=00.06b: 2023/06/26 : adding select number image, button test rotation, button visualize the point rotation, adding code by wmayer center rotation on center screen :
+Version=00.06c: 10/10/2024 : eliminato \"**import WebGui**\"
+
+Versione=00.06: Versione=00.06b: 26/06/2023: aggiunta selezione del numero dell\'immagine, pulsante prova rotazione, pulsante visualizza la rotazione del punto, aggiunta del codice tramite rotazione centrale di wmayer sullo schermo centrale:
 
 
 ```python

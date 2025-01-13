@@ -143,6 +143,12 @@ Obecnie mamy do czynienia z siatką naszego obiektu i jesteśmy gotowi do dodani
 Zakończyliśmy teraz prezentacje podstawowego przepływu pracy dla środowiska [MES](FEM_Workbench/pl.md).
 
 
+
+## Uwagi
+
+-   Aby zapoznać się z poradnikiem wideo opartym na tym pisemnym poradniku, obejrzyj: [Poradnik FEM materiał zbrojony](https://www.youtube.com/watch?v=SZTIqhfCSVc).
+
+
 {{FEM Tools navi
 
 }}

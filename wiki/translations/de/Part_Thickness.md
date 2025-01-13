@@ -17,7 +17,7 @@ Das Werkzeug <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Di
 
 
 
-## Verwendung
+## Anwendung
 
 1.  Erstelle einen Festkörper
 2.  Wähle eine oder mehrere Oberflächen

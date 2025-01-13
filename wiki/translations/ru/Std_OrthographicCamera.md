@@ -40,32 +40,48 @@
 
 ## Настройки
 
--   The camera type can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Camera type**. The selected type will be used for all 3D views of all opened documents and also for new documents. See [Preferences Editor](Preferences_Editor#3D_View.md).
+See also: [Preferences Editor](Preferences_Editor.md).
+
+-   The camera type can be changed: **Edit → Preferences... → Display → 3D View → Camera type**. The selected type will be used for all 3D views of all opened documents and also for new documents.
 
 
 
 ## Программирование
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Чтобы изменить вид на ортографический, используйте метод `setCameraType` объекта ActiveView. Этот метод не доступен, когда FreeCAD в режиме консоли.
+
+
+</div>
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.setCameraType('Orthographic')
-FreeCADGui.ActiveDocument.ActiveView.getCameraType()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.setCameraType("Perspective")
+view.setCameraType("Orthographic")
+view.getCameraType()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

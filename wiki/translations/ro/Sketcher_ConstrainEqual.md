@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -22,68 +24,39 @@
 
 </div>
 
+## Usage
 
-<div class="mw-translate-fuzzy">
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-## Utilizare
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
 
-Schema de exemplu de mai jos conține un număr de primitive de schiță (linie, poli-linie, dreptunghi, arc și cerc).
-<img alt="" src=images/EqualConstraint1.png  style="width:256px;">
-Selectați două sau mai multe segmente de linie (de exemplu linia și o parte a dreptunghiului).
-<img alt="" src=images/EqualConstraint2.png  style="width:256px;">
-Click on the Constrain Equal icon <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> în bara de instrumente Sketcher (în Aelierele Sketcher sau Part Design) sau selectați elementul de meniu Constrain Equal din elementul de submeniu al constrângerilor Sketcher din elementul de meniu Sketch or Part Design în funcție de ce Atelier este selectat (Sketcher sau Design Part) aplică constrângerea la elementele selectate.
-<img alt="" src=images/EqualConstraint3.png  style="width:256px;">
-Acum, selectați arcul de cerc și cercul din schiță.
-<img alt="" src=images/EqualConstraint4.png  style="width:256px;">
-and apply the Constrain Equal <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> constraint as before.
-<img alt="" src=images/EqualConstraint5.png  style="width:256px;">
-Now select the line segment, all segments of the poly-line and one of the remaining unconstrained sides of the rectangle
-<img alt="" src=images/EqualConstraint6.png  style="width:256px;">
-and apply the Constrain Equal <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> constraint as before.
-<img alt="" src=images/EqualConstraint7.png  style="width:256px;">
-Select the line segment and the arc
-<img alt="" src=images/EqualConstraint8.png  style="width:256px;">
-and apply the Constrain Equal <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> constrângere ca înainte. Un dialog contextula indică faptul că elementele constrânse trebuie să fie de același tip geometric (linii cu curbură nulă sau linii cu curbură non-nulă).
-<img alt="" src=images/EqualConstraint9.png  style="width:256px;">
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ConstrainEqual.svg" width=16px> [Constrain equal](Sketcher_ConstrainEqual.md)** button.
 
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainEqual.svg" width=16px> Constrain equal** option from the menu.
 
-</div>
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Constrain → <img src="images/Sketcher_ConstrainEqual.svg" width=16px> Constrain equal** option from the context menu.
 
-The example sketch below contains a number of sketch primitives (line, poly-line, rectangle, arc and circle).
+    -   Use the keyboard shortcut: **E**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Select two edges of the same type.
+5.  A constraint is added.
+6.  Optionally keep creating constraints.
+7.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
 
-![](images/EqualConstraint1.png )
+### Run-once mode 
 
-Select two or more line segments (e.g. line and one side of the rectangle).
-
-![](images/EqualConstraint2.png )
-
-Click on **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** in the Sketcher toolbar (in either the Sketcher or Part Design workbenches) or select the Constrain Equal menu item from the Sketcher constraints sub menu item in either the Sketch or Part Design menu item depending upon which workbench is selected (Sketcher or Part Design) to apply the constraint to the selected items.
-
-![](images/EqualConstraint3.png )
-
-Now select the arc and the circle in the sketch.
-
-![](images/EqualConstraint4.png )
-
-and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before.
-
-![](images/EqualConstraint5.png )
-
-Now select the line segment, all segments of the poly-line and one of the remaining unconstrained sides of the rectangle
-
-![](images/EqualConstraint6.png )
-
-and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before.
-
-![](images/EqualConstraint7.png )
-
-Select the line segment and the arc
-
-![](images/EqualConstraint8.png )
-
-and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before. A pop-up message indicates that the constrained items have to be of the same geometrical type (lines of zero curvature or lines of non-zero curvature).
-
-![](images/EqualConstraint9.png )
+1.  Select two or more edges of the same type.
+2.  Invoke the tool as explained above, or with the following additional option:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ConstrainEqual.svg" width=16px> Constrain equal** option from the context menu.
+3.  Depending on the selection one or more constraints are added.
 
 ## Scripting
 

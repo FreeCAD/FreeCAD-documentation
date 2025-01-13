@@ -1,9 +1,14 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand
    Name: FEM ElementRotation1D
    MenuLocation: Model , Element Geometry , Beam rotation
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
+}}
+{{GuiCommandFemInfo
+   Solvers: CalculiX
+}}
 ---
 
 # FEM ElementRotation1D/pt-br
@@ -28,9 +33,12 @@
 
 </div>
 
-## Options
-
 ## Properties
+
+
+**Rotation**
+
+: specifies the angle of rotation.
 
 ## Limitations
 
@@ -39,6 +47,7 @@
 ## Notes
 
 -   To visualize the rotated cross-section it is necessary to set `Beam Shell Result Output 3D` in the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) to `True` and run the analysis.
+-   This feature uses the [\*BEAM SECTION card in CalculiX](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node162.html).
 
 
 <div class="mw-translate-fuzzy">

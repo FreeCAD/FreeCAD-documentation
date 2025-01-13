@@ -28,9 +28,15 @@
 
 </div>
 
-![](images/Exercise_TechDraw_01.svg )
+![](images/Exercise_TechDraw_01.png )
+
+
+<div class="mw-translate-fuzzy">
 
 -   Загрузите из библиотеки файл IkeaLikeChair. Можно выбрать между версией [.FCStd](File_Format_FCStd/ru.md) с полной историей моделирования, или версией [.step](STEP/ru.md), создающей лишь объект, без истории. Поскольку нам больше не нужно модерировать стул, лучше взять версию .step, котороу легче манипулировать.
+
+
+</div>
 
 ![](images/Parts_library.jpg )
 
@@ -58,10 +64,20 @@
 
 </div>
 
+![](images/Exercise_drawing_02.jpg )
+
+
+<div class="mw-translate-fuzzy">
+
 -   Повторим нашу операцию дважды, чтобы сделать ещё два вида. Установим значения X и Y, показывающие позиции наших видов на странице, чтобы показать их в стороне от вида сверху, и их направления, чтобы показать их с разных сторон. Придадим видам следующие параметры:
     -   View001 (вид спереди): X: 70, Y: 220, Scale: 0.1, Rotation: 0, Direction: (-1,0,0), XDirection: (0,-1,0)
     -   View002 (вид сбоку): X: 150, Y: 220, Scale: 0.1, Rotation: 0, Direction: (0,-1,0), XDirection: (1,0,0)
 -   После этого у нас получится следующая страница:
+
+![](images/Exercise_TechDraw_04.png )
+
+
+</div>
 
 ![](images/Exercise_TechDraw_04.png )
 
@@ -73,7 +89,7 @@
 
 </div>
 
--   We can tweak the aspect of our views if we want, for example we can change their **Line Width** property (under the View tab in the Combo View) to 0.5.
+-   We can tweak the aspect of our views if we want, for example, we can change their **Line Width** property (under the View tab in the Combo View) to 0.5.
 
 
 <div class="mw-translate-fuzzy">
@@ -105,29 +121,23 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
 ![](images/Exercise_TechDraw_07.png )
 
--   Теперь мы разместим две выноски, показанные на изображении выше, используя инструмент <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [Balloon](TechDraw_Balloon/ru.md).
+-   We will now place the two callouts shown in the image above, using the <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [TechDraw Balloon](TechDraw_Balloon.md) tool.
 
-![](images/_Exercise_TechDraw_06.png )
+![](images/Exercise_TechDraw_06.png )
 
-1.  Глядя на страницу в окне [трёхмерного вида](3D_view/ru.md), выберите вид, к которому Balloon будет прикреплен, как показано на рисунке выше.
-2.  Нажмите кнопку Balloon <img alt="" src=images/_TechDraw_Balloon.svg  style="width:16px;"> .
-3.  Курсор теперь отображается в виде значка с изображением шарика. Нажмите на страницу, чтобы поместить исходную точку выноски в нужное место.
-4.  Выноску можно перетащить в нужное положение.
-5.  Измените свойства выноски, дважды щелкнув на значке его метки или объекте выноски в [древе проекта](tree_view/ru.md). Откроется диалоговое окно Balloon Task. Установите в поле «Значение» нужный текст и измените выделение раскрывающегося меню «Символ» на **None**
-6.  Нажмите **OK**
-7.  Повторите операцию для второго выносного элемента.
+1.  Looking at the Page in the [3D view](3D_view.md) window, select the View to which the Balloon will be attached, as shown in the image above.
+2.  Press the <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> Balloon button.
+3.  The cursor is now displayed as a balloon icon. Click on the page to place the balloon origin at the desired position.
+4.  The balloon bubble may be dragged to the desired position.
+5.  Change the balloon properties by double-clicking the balloon label or the balloon object in the [tree view](Tree_view.md). This will open the Balloon Task dialog. Set the Value field to the desired text and change the Symbol drop-down menu selection to **None**
+6.  Press **OK**
+7.  Repeat the operation for the second callout.
 
--   Теперь мы заполним блок заголовка листа.
-    -   Убедитесь, что видимые рамки, метки и вершины видны. Если нет, нажмите кнопку <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;">.
-    -   Отредактируйте текст в каждом разделе заголовка листа, щелкнув по маленькому зеленому квадрату в левой части текста.
-
-
-</div>
+-   We will now fill in the sheet title block.
+    -   Make sure that the View frames, labels, and vertices are visible. If not, hit the <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> Toggle button.
+    -   Edit the text in each section of the sheet title block by clicking on the small green square on the left side of the text.
 
 
 <div class="mw-translate-fuzzy">

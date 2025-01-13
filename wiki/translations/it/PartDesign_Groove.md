@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Questo strumento rivoluziona uno schizzo selezionato o un oggetto 2D attorno ad un dato asse, asportando del materiale dall\'oggetto di supporto.
@@ -14,6 +16,8 @@ Questo strumento rivoluziona uno schizzo selezionato o un oggetto 2D attorno ad 
 
 
 *A sinistra lo schizzo (A) è ruotato attorno all'asse (B); a destra la scanalatura risultante sul solido (C).*
+
+
 
 ## Utilizzo
 
@@ -31,12 +35,57 @@ Questo strumento rivoluziona uno schizzo selezionato o un oggetto 2D attorno ad 
 
 </div>
 
+
+
 ## Opzioni
+
+
+<div class="mw-translate-fuzzy">
 
 Quando si crea una scanalatura, i dialoghi **Parametri Groove** offrono diversi parametri che specificano come deve essere ruotato lo sketch.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 +++
 | ![](images/Partdesign_groove_parameters_it.png ) | ### Assi                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                | </div>                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                | ### Type                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                |
+|                                                                                | <small>(v1.0)</small>                                                                                                                                                                                                                                                                                                                                |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                | Type offers five different ways of specifying the angle of the groove:                                                                                                                                                                                                                                                                        |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                | #### Dimension                                                                                                                                                                                                                                                                                                                                |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                | Enter a numeric value for the **Angle** of the groove. With the option **Symmetric to plane** the groove will extend half the given angle to either side of the sketch or face.                                                                                                                                                               |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                | #### Through all                                                                                                                                                                                                                                                                                                                |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                | The groove will extend up to the last face of the support it encounters in its direction. With the option **Symmetric to plane** the groove will cut through all material in both directions.                                                                                                                                                 |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                | #### To first                                                                                                                                                                                                                                                                                                                      |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                | The groove will extend up to the first face of the support it encounters in its direction.                                                                                                                                                                                                                                                    |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                | #### Up to face                                                                                                                                                                                                                                                                                                                  |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                | The groove will extend up to a face. Press the **Face** button and select a face or a [datum plane](PartDesign_Plane.md) from the Body.                                                                                                                                                                          |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                | #### Two dimensions                                                                                                                                                                                                                                                                                                          |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                | This allows to enter a second angle in which the groove should extend in the opposite direction. The directions can be switched by checking the **Reversed** option.                                                                                                                                                                          |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                | ### Axis                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                | Specifies the axis of the groove:                                                                                                                                                                                                                                                                                                             |
 |                                                                                |                                                                                                                                                                                                                                                                                                                                               |
 |                                                                                |                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                                                              |
@@ -53,38 +102,105 @@ Quando si crea una scanalatura, i dialoghi **Parametri Groove** offrono diversi 
 |                                                                                |                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                | </div>                                                                                                                                                                                                                                                                                                                                        |
 |                                                                                |                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                | Note that when changing the axis, the **Reversed** option may be (un)checked automatically.                                                                                                                                                                                                                                                   |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                |                                                                                                                                                                                                                                                                                                     |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
 |                                                                                | ### Angolo                                                                                                                                                                                                                                                                                                                                    |
 |                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                                                              |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                            |
 |                                                                                | Questa opzione specifica l\'angolo di rotazione dello schizzo. Per ottenere una scanalatura completa occorre impostare un angolo di 360°. Non è possibile specificare angoli negativi (se è necessario usare l\'opzione **Invertito**) o angoli maggiori di 360°.                                                                             |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                | </div>                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                |                                                                                                                                                                                                                                                                                        |
 |                                                                                |                                                                                                                                                                                                                                                                                                                                               |
 |                                                                                | ### Simmetrico al piano                                                                                                                                                                                                                                                                                                 |
 |                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                                                              |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                            |
 |                                                                                | La rivoluzione si estende per metà dell\'angolo specificato in entrambe le direzioni rispetto al piano di schizzo.                                                                                                                                                                                                                            |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                | </div>                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                |                                                                                                                                                                                                                                                                                                  |
 |                                                                                |                                                                                                                                                                                                                                                                                                                                               |
 |                                                                                | ### Invertito                                                                                                                                                                                                                                                                                                                                 |
 |                                                                                |                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                                                              |
+|                                                                                |                                                                                                                                                                                                                                                                                                                                            |
 |                                                                                | La direzione di rivoluzione viene invertita.                                                                                                                                                                                                                                                                                                  |
 +++
 
-## Proprietà
-
-Sotto sono riportate le proprietà che possono essere definite dopo la creazione della funzione. Le proprietà Dati *Base* e *Axis* non sono editabili.
-
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/it|Angle}}: angolo di rotazione. Vedere [Angolo](#Angolo.md).
-
--    {{PropertyData/it|Label}}: etichetta data all\'operazione, può essere cambiata a piacere.
-
--    {{PropertyData/it|Midplane}}: true o false. Vedere [Simmetrica al piano](#Simmetrica_al_piano.md).
-
--    {{PropertyData/it|Reversed}}: true o false. Vedere [Invertita](#Invertita.md).
-
--    {{PropertyData/it|Refine}}: true o false. Se impostato su true, pulisce il solido dai bordi residui lasciati dalle funzioni. Per maggiori dettagli vedere [Affina forma](Part_RefineShape/it.md). {{VersionPlus/it|0.17}}
-
 
 </div>
+
+### 2nd angle 
+
+
+<small>(v1.0)</small> 
+
+Defines the angle of the groove in the opposite direction. This option is only available if **Type** is **Two dimensions** and **Angle** is smaller than 360°.
+
+
+
+## Proprietà
+
+### Data
+
+
+{{TitleProperty|Groove}}
+
+-    **Type|Enumeration**
+    
+
+-    **Base|Vector**: (read-only)
+
+-    **Axis|Vector**: (read-only)
+
+-    **Angle|Angle**
+    
+
+-    **Angle2|Angle**
+    
+
+-    **Up To Face|LinkSub**
+    
+
+-    **Reference Axis|LinkSub**
+    
+
+
+{{TitleProperty|Part Design}}
+
+-    **Refine|Bool**
+    
+
+
+{{TitleProperty|Sketch Based}}
+
+-    **Profile|LinkSub**
+    
+
+-    **Midplane|Bool**
+    
+
+-    **Reversed|Bool**
+    
+
+-    **Allow Multi Face|Bool**
+    
+
+## Notes
+
+-   A <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [ShapeBinder](PartDesign_ShapeBinder.md) cannot be used for the profile.
+-   When using a <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [SubShapeBinder](PartDesign_SubShapeBinder.md) for the profile, selecting the binder in the [Tree view](Tree_view.md) will fail, instead the binder\'s face has to selected in the [3D view](3D_view.md).
 
 
 <div class="mw-translate-fuzzy">

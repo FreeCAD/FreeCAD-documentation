@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft CubicBezCurve
-   MenuLocation: Drafting , Bézier tools , Cubic Bézier curve
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Drafting , Bézier tools , Cubic Bézier curve<br>2D Drafting , Cubic Bézier curve
+   Workbenches: Draft_Workbench, BIM_Workbench
    Version: 0.19
    SeeAlso: Draft_BezCurve, Draft_BSpline
 ---
@@ -26,7 +26,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Cubic Bézier curve](Draft_CubicBezCurve.md)** button.
-    -   Select the **Drafting → Bézier tools → <img src="images/Draft_CubicBezCurve.svg" width=16px> Cubic Bézier curve** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Drafting → Bézier tools → <img src="images/Draft_CubicBezCurve.svg" width=16px> Cubic Bézier curve** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **2D Drafting → <img src="images/Draft_CubicBezCurve.svg" width=16px> Cubic Bézier curve** option from the menu.
 2.  The **Cubic Bézier curve** task panel opens. See [Options](#Options.md) for more information.
 3.  It is not possible the enter points via the task panel.
 4.  For the following [Mouse Navigation Models](Mouse_navigation.md) a keyboard key must to be held down:

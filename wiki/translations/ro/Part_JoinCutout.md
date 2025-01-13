@@ -13,6 +13,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -22,7 +24,7 @@ Coutout tool creates a cutout in a walled object (e.g., a pipe) to fit another w
 
 </div>
 
-The <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part JoinCutout](Part_JoinCutout.md) tool creates a cutout in a walled object (e.g., a pipe) to fit another walled object.
+The <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> **Part JoinCutout** tool creates a cutout in a walled object (e.g. a pipe) to fit another walled object.
 
 ![600px](images/JoinFeatures_Cutout.png)
 
@@ -36,14 +38,6 @@ The <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part JoinC
 1.  Select the base object first, then the object to define the cutout.
     The order of selection is important. It is enough to select one sub-shape of each object (e.g., faces).
 2.  Invoke the Part JoinCutout command.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original objects are hidden, and the result of cutting is shown in 3D view.
 
 
 </div>
@@ -134,6 +128,8 @@ Algoritmii din spatele instrumentelor de conectare sunt destul de simple, iar î
 
 </div>
 
+
+
 ## Programare-Script 
 
 Instrumentul Join poate fi utilizat în [macros](macros.md) și de la consola python utilizând umătoarea funcție:
@@ -158,6 +154,14 @@ Instrumentul propriu-zis este implementat în Python, vezi /Mod/Part/JoinFeature
 
 
 </div>
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

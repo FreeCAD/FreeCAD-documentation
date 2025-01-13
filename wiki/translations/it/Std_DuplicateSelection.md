@@ -20,7 +20,7 @@ Il comando **Duplica la selezione** duplica gli oggetti all\'interno del documen
 ## Utilizzo
 
 1.  Selezionare uno o più oggetti.
-2.  Selezionare l\'opzione **Modifica → Duplica la selezione** dal menu.
+2.  Selezionare l\'opzione **Modifica → <img src="images/Std_DuplicateSelection.svg" width=16px> Duplica la selezione** dal menu.
 3.  Se gli oggetti hanno delle dipendenze che non sono state selezionate, una finestra di dialogo chiede di specificare quali devono essere incluse.
 
 
@@ -33,13 +33,13 @@ Il comando **Duplica la selezione** duplica gli oggetti all\'interno del documen
 
 ## Preferenze
 
--   Le etichette duplicate sono consentite se **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → DuplicateLabels** è impostato su `True`. Questa impostazione può essere modificata anche nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
+Vedere [Incolla](Std_Paste/it#Preferenze.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

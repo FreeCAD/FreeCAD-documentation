@@ -5,7 +5,7 @@
    MenuLocation: Szkic , Wiązania szkicownika , Wiązanie równoległości
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **P**
-   SeeAlso: Sketcher_ConstrainVertical/pl, Sketcher_ConstrainHorizontal/pl
+   SeeAlso: 
 ---
 
 # Sketcher ConstrainParallel/pl
@@ -14,33 +14,47 @@
 
 ## Opis
 
-Wiązanie równoległości narzuca, aby dwie wybrane proste lub krawędzie były równoległe do siebie.
+Narzędzie <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> **Zwiąż równolegle** wymusza, aby linie były równoległe.
 
 
 
 ## Użycie
 
-Szkic zawiera dwie linie o przypadkowej lokalizacji.
-
-<img alt="" src=images/ConstrainParallel1.png  style="width:500px;">
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
 
 
-*Zaznacz obie linie, klikając kolejno na każdą z nich..*
+### [Tryb kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md) 
 
-<img alt="" src=images/ConstrainParallel2.png  style="width:500px;">
+1.  Upewnij się, że nie ma zaznaczenia.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_ConstrainParallel.svg" width=16px> '''Wiązanie równoległości'''**.
 
-Zastosuj wiązanie równoległości poprzez:
+    -   Wybierz z menu opcję **Szkic → Wiązania szkicownika → <img src="images/Sketcher_ConstrainParallel.svg" width=16px> Wiązanie równoległości**.
 
--   Naciśnięcie przycisku **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Wiązanie równoległości](Sketcher_ConstrainParallel/pl.md)** z paska narzędzi wiązania Szkicownika.
--   Używając klawiszy **P** skrót klawiszowy.
--   Używając pozycji **Szkic → Wiązania Szkicownika → [<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> Wiązanie równoległości** z menu głównego.
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz opcję **Wiązanie → <img src="images/Sketcher_ConstrainParallel.svg" width=16px> Wiązanie równoległości** z menu podręcznego.
 
-<img alt="" src=images/ConstrainParallel3.png  style="width:500px;">
+    -   Użyj skrótu klawiaturowego: **P**.
+3.  Kursor zmieni się w krzyżyk z ikoną narzędzia.
+4.  Wybierz dwie linie.
+5.  Ograniczenie zostanie dodane.
+6.  Opcjonalnie można kontynuować tworzenie wiązań.
+7.  Aby zakończyć, kliknij prawym przyciskiem myszy lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
 
 
 
-*Result: Wybrane linie zostają ustawione równolegle do siebie. Zmiana orientacji jednej linii spowoduje zmianę orientacji drugiej, tak aby zachować tę samą orientację.*
+### Tryb jednorazowy 
+
+1.  Wybierz dwie lub więcej linii. {{Version/pl|1.0}}: Punkty mogą zostać uwzględnione w zaznaczeniu, ale zostaną zignorowane.
+2.  Wywołaj narzędzie jak wyjaśniono powyżej lub z następującą dodatkową opcją:
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz opcję **<img src="images/Sketcher_ConstrainParallel.svg" width=16px> Wiązanie równoległości** z menu podręcznego.
+3.  W zależności od wyboru dodawane jest jedno lub więcej ograniczeń.
 
 
 

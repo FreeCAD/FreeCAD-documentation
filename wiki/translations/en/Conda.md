@@ -54,9 +54,9 @@ For example, multiple local developer machines, or a remote build-server hosted 
 
 ## Installing FreeCAD Using Conda 
 
-First, you need to decide whether you want to install a **stable** version of FreeCAD, or experiment with the latest **unstable** code from FreeCAD master.
+First, you need to decide whether you want to install a **stable** version of FreeCAD, or experiment with the latest **unstable** code from FreeCAD main.
 
-Stable released versions of FreeCAD are served on the conda-forge channel, while the latest from FreeCAD master is served on the freecad/label/dev channel.
+Stable released versions of FreeCAD are served on the conda-forge channel, while the latest from FreeCAD main is served on the freecad/label/dev channel.
 
   Conda Channel         Stable?
    

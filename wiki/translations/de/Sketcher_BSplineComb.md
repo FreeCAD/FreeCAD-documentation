@@ -2,10 +2,10 @@
  GuiCommand:
    Name: Sketcher BSplineComb
    Name/de: Sketcher BSplineKamm
-   MenuLocation: Skizze , Sketcher visuell , B-Spline-Informationsschicht ein- / ausblenden , B-Spline-Krümmungskamm ein- / ausblenden
+   MenuLocation: Skizze , Sketcher visuell , B-Spline-Informationsebene , B-Spline-Krümmungskamm ein- / ausblenden
    Workbenches: Sketcher_Workbench/de
    Version: 0.17
-   SeeAlso: Sketcher_CompCreateBSpline/de
+   SeeAlso: Sketcher_CreateBSpline/de
 ---
 
 # Sketcher BSplineComb/de
@@ -14,21 +14,20 @@
 
 ## Beschreibung
 
-Blendet die Darstellung des Krümmungskamms einer B-Spline-Kurve ein oder aus (siehe Seite [B-Splines](B-Splines/de.md) für weitere Informationen über B-Splines).
+Das Werkzeug <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:24px;"> [Sketcher BSplineKamm](Sketcher_BSplineComb/de.md) blendet den [B-Spline](B-Splines/de.md)-Krümmungskamm in allen Skizzen ein bzw. aus.
 
-Der Krümmungskamm zeigt die Krümmung (Wert der zweiten Ableitung ) der B-Spline-Kurve an jeder Position an. Je größer die Krümmung an einer Stelle ist, desto weiter steht der Kamm von der Kurve ab. Positive Werte (\"Drehung nach rechts\") werden auf der einen Seite der Kurve dargestellt, die negativen auf der anderen Seite.
+Der Krümmungskamm zeigt die Krümmung (Wert der zweiten Ableitung ) entlang einer B-Spline-Kurve an. Je stärker die Krümmung ist, desto länger sind die Zinken des Kamms. Krümmt sich eine B-Spline-Kurve nach rechts, liegt der Kamm auf ihrer linken Seite und umgekehrt.
 
 ![](images/sketcher_BSplineCurvatureShow.png ) 
-*B-Spline mit einem Sattelpunkt an seiner mittleren Position - Der Krümmungskamm zeigt hier Null an.*
+*B-Spline mit einem Sattelpunkt an seinem Mittelpunkt - Der Krümmungskamm zeigt hier Null an.*
 
 
 
 ## Anwendung
 
-1.  Einen B-Spline auswählen.
-2.  Es gibt mehrere Möglichkeiten den Krümmumgskamm ein- bzw. auszublenden:
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
     -   Die Schaltfläche **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [B-Spline-Krümmungskamm ein- / ausblenden](Sketcher_BSplineComb/de.md)** drücken.
-    -   Den Menüeintrag **Sketch → Sketcher B-spline tools → [<img src=images/Sketcher_BSplineComb.svg style="width:16px"> B-Spline-Krümmungskamm ein- / ausblenden** auswählen.
+    -   Den Menüeintrag **Skizze → Sketcher visuell → B-Spline-Informationsebene → [<img src=images/Sketcher_BSplineComb.svg style="width:16px"> B-Spline-Krümmungskamm ein- / ausblenden** auswählen.
 
 
 

@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Hatch
    Name/pl: Rysunek Roboczy: Kreskowanie
-   MenuLocation: Kreślenie , Kreskowanie
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Kreślenie , Kreskowanie<br>Opisy , Kreskowanie
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **H** **A**
    Version: 0.20
    SeeAlso: Draft_Pattern/pl
@@ -24,7 +24,8 @@ Polecenie <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> **Kreskow
 1.  Wybierz obiekt z powierzchniami. Tylko planarne powierzchnie obiektu zostaną zakreskowane.
 2.  Istnieje kilka sposobów, aby wywołać to polecenie:
     -   Naciśnij przycisk **<img src="images/Draft_Hatch.svg" width=16px> '''Kreskowanie'''**.
-    -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Hatch.svg" width=16px> Kreskowanie**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Hatch.svg" width=16px> Kreskowanie**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Opisy → <img src="images/Draft_Hatch.svg" width=16px> Kreskowanie** z menu.
     -   Użyj skrótu klawiaturowego: **H**, a następnie **A**.
 3.  Otworzy się panel zadań **Kreskowanie**. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
 4.  Naciśnij przycisk **OK**, aby zakończyć polecenie.

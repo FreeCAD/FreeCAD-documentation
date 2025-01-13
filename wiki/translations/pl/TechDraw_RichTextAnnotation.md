@@ -28,7 +28,7 @@ Narzędzie **Wstaw adnotację w postaci tekstu sformatowanego** dodaje sformatow
 3.  Istnieje kilka sposobów wywołania narzędzia:
     -   Naciśnij przycisk **<img src="images/TechDraw_RichTextAnnotation.svg" width=16px> '''Wstaw adnotację w postaci tekstu sformatowanego'''**.
     -   Wybierz opcję **Rysunek Techniczny → Adnotacje → <img src="images/TechDraw_RichTextAnnotation.svg" width=16px> Wstaw adnotację w postaci tekstu sformatowanego** z menu.
-4.  Jeśli w dokumencie znajduje się wiele stron rysunkowych, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+4.  Jeśli w dokumencie znajduje się wiele stron rysunkowych, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**:
     1.  Wybierz żądaną stronę.
     2.  Naciśnij przycisk **OK**.
 5.  Otworzy się panel zadań.

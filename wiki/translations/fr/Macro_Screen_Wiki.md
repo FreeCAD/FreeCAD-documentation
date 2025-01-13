@@ -5,8 +5,8 @@
 |Icon=Macro_Screen_Wiki.png
 |Description=Macro spéciale pour l'utilisateur du wiki. Cette macro permet de sauvegarder la vue 3D dans le format souhaité. La vue 3D ou la fenêtre 3D complète de FreeCAD prend les dimensions souhaitées. Une rotation de l'objet sélectionné ou de la vue 3D est possible; pour donner un angle de rotation, le nombre d'images est calculé automatiquement. Il est possible de donner un angle de départ et un angle d'arrivée. Vous devez utiliser un autre programme d'exemple Gimp pour assembler les images et créer le fichier animé.
 |Author=Mario52
-|Version=00.06b
-|Date=2023/06/26
+|Version=00.06c
+|Date=2024/10/10
 |FCVersion=0.19 et plus
 |Download=[https://wiki.freecad.org/images/f/f5/Macro_Screen_Wiki.png Icône de la barre d'outils]
 |SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard/fr.md), [Macro Snip](Macro_Snip/fr.md)
@@ -17,7 +17,7 @@
 Cette macro permet à l\'utilisateur de sauvegarder la [vue 3D](3D_view/fr.md) dans le format souhaité. La vue 3D ou la fenêtre 3D complète de FreeCAD prend les dimensions souhaitées. Une rotation de l\'objet sélectionné ou de la vue 3D est possible; pour donner un angle de rotation, le nombre d\'images est calculé automatiquement; il est possible de donner un angle de départ et un angle d\'arrivée. Vous devez utiliser un autre programme d\'exemple Gimp pour assembler les images et créer le fichier animé.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/2e2f5d1f30acd9fee9ea58596d0bcaa8d19f03f3/Macro_Screen_Wiki.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/14deef95d2276c1095ea7eefb75dc5b5e4be4e04/Macro_Screen_Wiki.FCMacro}}
 
 ![](images/Macro_Screen_Wiki_00.png )
 
@@ -284,6 +284,8 @@ Les images doivent être assemblées à l'aide d'une application tierce qui cré
 *La fenêtre de FreeCAD a été redimensionnée. La dimension peut être différente de la<br/>définition (selon le widget, la barre de titre etc... utilisés.)*
 
 ## Versions
+
+Version=00.06c: 10/10/2024 : delete \"**import WebGui**\"
 
 Version=00.06: Version=00.06b: 2023/06/26 : sélectionner le nombre d\'images voulue, bouton pour visualiser la rotation sans sauvegarde, bouton visualiser le point de rotation, ajout du code de wmayer pour rotation au centre de l\'écran:
 

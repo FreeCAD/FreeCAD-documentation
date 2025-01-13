@@ -1,4 +1,16 @@
-# <img alt="Логотип верстака Start" src=images/Workbench_Start.svg  style="width:64px;"> Start Workbench/ru
+# Start Workbench/ru
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+**The '''Start Workbench''' is no longer included after version 0.21.**
+
+<img alt="Логотип верстака Start" src=images/Workbench_Start.svg  style="width:128px;">
 
 <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Верстак Start](Start_Workbench/ru.md) на самом деле не является верстаком в полном смысле. Это просто страница \"приветствия\", которая отображается при открытии FreeCAD без загруженного документа.
 
@@ -17,6 +29,15 @@
 <img alt="Start workbench, Activity tab" src=images/Start_Activity.png  style="width:500px;">
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/ru
+⏵ [documentation index](../README.md) > [Start](Category_Start.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Start Workbench/ru

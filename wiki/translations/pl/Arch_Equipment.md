@@ -1,62 +1,73 @@
 ---
  GuiCommand:
    Name: Arch Equipment
-   MenuLocation: Arch , Equipment
-   Workbenches: Arch_Workbench
+   Name/pl: BIM: Wyposażenie
+   MenuLocation: 3D / BIM , Wyposażenie
+   Workbenches: BIM_Workbench/pl
    Shortcut: **E** **Q**
-   SeeAlso: Arch_3Views
+   SeeAlso: 
 ---
 
 # Arch Equipment/pl
 
-## Description
-
-The Equipment tool offers you a simple and convenient way to insert non-structural, standalone elements such as pieces of furniture, hidro-sanitary equipments or electrical appliances to your projects. Equipments are based on [Part shapes](Part_Workbench.md), which allow them to benefit from the solidity and possibilities of BRep geometry, and generate nice views when rendered to plan and section views.
-
-![](images/Arch_equipment_example.jpg ) 
-*Furniture objects enclosed in an [Arch Equipment](Arch_Equipment.md) object. The flat projections can be obtained by the [Draft Shape2DView](Draft_Shape2DView.md) tool*
-
-As of version 0.17, equipment objects also have a **HiRes** property where a [Mesh](Mesh_Workbench.md) object can be attached. Equipment objects can then be made to display that mesh in the 3D view instead of their shape, which allows to use any high-resolution mesh objects such as detailed pieces of furniture commonly found on websites.
-
-![](images/Arch_equipment_mesh.jpg ) 
-*Furniture objects enclosed in an [Arch Equipment](Arch_Equipment.md) object, with a high resolution mesh attached*
-
-When using the Arch OBJ exporter, all equipment objects that are in mesh display mode will be exported as their mesh instead of their shape.
-
-## Usage
-
-1.  Select a [Part](Part_Workbench.md) shape, and optionally a [Mesh](Mesh_Workbench.md) object.
-2.  Press the **<img src="images/Arch_Equipment.svg" width=16px> [Arch Equipment](Arch_Equipment.md)** button, or press **E** then **Q** keys.
-
-## Options
-
--   Equipments share the common properties and behaviours of all [Arch Components](Arch_Component.md)
-
-## Properties
-
--    **Model**: A description of the model of this equipment.
-
--    **Url**: An URL of the product page where more information about this equipment can be found.
-
--    **Mesh**: A [Mesh](Mesh_Workbench.md) representation to use for this equipment. When set, the **Mesh** display mode becomes available.
-
-## Scripting
 
 
-**See also:**
+## Opis
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Narzędzie **Wyposażenie** oferuje prosty i wygodny sposób wstawiania do projektów niekonstrukcyjnych, samodzielnych elementów, takich jak meble, sprzęt hydro-sanitarny lub urządzenia elektryczne. Elementy wyposażenia są oparte na [kształcie części](Part_Workbench/pl.md), co pozwala im korzystać z solidności i możliwości geometrii BRep, a także generować ładne widoki podczas renderowania do widoków planu i przekroju.
 
-The Equipment tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+<img alt="" src=images/Arch_equipment_example.jpg  style="width:600px;"> 
+*Obiekty meblowe zamknięte w obiekcie '''Wyposażenie'''. Rzuty płaskie można uzyskać za pomocą narzędzia [Widok 2D kształtu](Draft_Shape2DView/pl.md).*
+
+Od wersji 0.17 obiekty wyposażenia mają również właściwość **HiRes**, do której można dołączyć obiekt [siatki](Mesh_Workbench/pl.md). Obiekty wyposażenia mogą być następnie wyświetlane w widoku 3D zamiast ich kształtu, co pozwala na użycie dowolnych obiektów siatkowych o wysokiej rozdzielczości, takich jak szczegółowe meble powszechnie spotykane na stronach internetowych.
+
+<img alt="" src=images/Arch_equipment_mesh.jpg  style="width:600px;"> 
+*Obiekty meblowe zamknięte w obiekcie '''Wyposażenie''' z dołączoną siatką o wysokiej rozdzielczości.*
+
+Podczas korzystania z eksportera OBJ wszystkie obiekty wyposażenia, które są w trybie wyświetlania siatki, zostaną wyeksportowane jako ich siatka zamiast kształtu.
+
+
+
+## Użycie
+
+1.  Wybierz kształt [części](Part_Workbench/pl.md) i opcjonalnie obiekt [siatki](Mesh_Workbench/pl.md).
+2.  Naciśnij przycisk **<img src="images/Arch_Equipment.svg" width=16px> '''Wyposażenie'''** lub naciśnij klawisze **E**, a następnie **Q**.
+
+
+
+## Opcje
+
+-   Obiekty Wyposażenie dzielą wspólne właściwości i zachowania wszystkich [komponentów](Arch_Component/pl.md).
+
+
+
+## Właściwości
+
+-    **Model**: Opis modelu tego urządzenia.
+
+-    **Url**: Adres URL strony produktu, na której można znaleźć więcej informacji o tym urządzeniu.
+
+-    **Siatka**: Reprezentacja [siatki](Mesh_Workbench/pl.md) do użycia dla tego sprzętu. Po ustawieniu dostępny staje się tryb wyświetlania **Siatka**.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Wyposażenie** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji: 
 ```python
 Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 ```
 
--   Creates an `Equipment` object from the given `baseobj`, which can be a `Part` or a `Mesh`.
--   If a `placement` is given, it is used.
--   It returns `None` if the operation fails.
+-   Tworzy obiekt `Equipment` z podanego `baseobj`, który może być `Part` lub `Mesh`.
+-   Jeśli podano `placement`, jest on używany.
+-   Zwraca `None` jeśli operacja się nie powiedzie.
 
-Example: 
+Przykład: 
 ```python
 import FreeCAD, Arch
 
@@ -71,5 +82,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/pl
+⏵ [documentation index](../README.md) > Arch Equipment/pl

@@ -3,7 +3,7 @@
    Name: Sketcher MirrorSketch
    Name/de: Sketcher SkizzeSpiegeln
    MenuLocation: Sketch , Skizze spiegeln
-   Workbenches: Sketcher_Workbench/de
+   Workbenches: Sketcher_Workbench/de, PartDesign_Workbench/de
    Version: 0.16
 ---
 
@@ -13,21 +13,23 @@
 
 ## Beschreibung
 
-Spiegelt eine Skizze entlang der X Achse, der Y Achse oder dem Ursprung. Dieser Befehl wird aufgerufen, während eine Skizze *nicht* bearbeitet wird. Er erzeugt eine neue Skizze, die die gespiegelte Geometrie enthält.
+Das Werkzeug <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:24px;"> [Sketcher SkizzeSpiegeln](Sketcher_MirrorSketch/de.md) spiegelt Skizzen über ihre X-Achse, Y-Achse oder ihren Ursprung.
 
 
 
 ## Anwendung
 
-1.  Wähle die zu spiegelnde Skizze (typischerweise durch anklicken in der [Baumansicht](Tree_view/de.md)).
-2.  Klick auf **[<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [ Skizze spiegeln](Sketcher_MirrorSketch/de.md)** oder wähle **Skizze → [<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Skizze spiegeln](Sketcher_MirrorSketch/de.md)** aus dem oberen Menü.
-3.  Die resultierende Skizze wird als separates neues Objekt erstellt.
-
-
-
-## Hinweise
-
--   Es können mehrere Skizzen ausgewählt werden, bevor die Operation angewendet wird.
+1.  Eine oder mehrere Skizzen auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_MirrorSketch.svg" width=16px> [Skizze spiegeln](Sketcher_MirrorSketch/de.md)** drücken (nicht vorhanden im Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md)).
+    -   Den Menüeintrag **Skizze → <img src="images/Sketcher_MirrorSketch.svg" width=16px> Skizze spiegeln** auswählen.
+3.  Der Dialog **Spiegelachse/-punkt auswählen** wird geöffnet.
+4.  Eine der vorhandenen Optionen auswählen:
+    -   **X-Achse**
+    -   **Y-Achse**
+    -   **Ursprung**
+5.  Die Schaltfläche **OK** drücken.
+6.  Zu jeder ausgewählten Skizze wird eine neue Skizze erstellt.
 
 
 

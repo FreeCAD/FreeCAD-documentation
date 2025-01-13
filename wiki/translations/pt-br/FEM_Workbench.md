@@ -239,6 +239,8 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 </div>
 
+  - <img alt="" src=images/FEM_ConstraintRigidBody.svg  style="width:32px;"> [Rigid body constraint](FEM_ConstraintRigidBody.md): Used to apply the CalculiX\'s rigid body constraint that constrains the motion of the nodes of a selected geometrical entity to the motion of a reference point positioned by the user. <small>(v1.0)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -383,9 +385,15 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_MeshGroup.svg  style="width:32px;"> [Grupo de malha FEM](FEM_MeshGroup/pt-br.md): Agrupa e etiqueta elementos de uma malha (vértice, borda, superfície) juntos, úteis para exportar a malha para solvers externos.
 
--   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Conjunto de nós](FEM_CreateNodesSet/pt-br.md): Cria/define um conjunto de nós a partir da malha FEM.
+-   <img alt="" src=images/FEM_CreateElementsSet.svg  style="width:32px;"> [Erase Elements](FEM_CreateElementsSet.md): Hides elements selected by a polygon from the mesh. <small>(v1.0)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Malha FEM para Mesh](FEM_FemMesh2Mesh/pt-br.md): Converte a superfície de uma malha FEM para uma malha de Mesh.
+
+
+</div>
 
 
 
@@ -611,18 +619,50 @@ o menu para ajustar e iniciar o solucionador selecionado.
 
 ## Obsolete tools 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-constraint-fluid-boundary.svg  style="width:32px;"> [Restrição de fronteira de fluido](FEM_ConstraintFluidBoundary/pt-br.md): Usado para definir uma condição de contorno de fluido.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Restrição de rolamento](FEM_ConstraintBearing/pt-br.md): Usada para definir uma restrição de rolamento.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Restrição de engrenagem](FEM_ConstraintGear/pt-br.md): Usada para definir uma restrição de engrenagem.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Restrição de polia](FEM_ConstraintPulley/pt-br.md): Usada para definir uma restrição de polia.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solucionador CalculiX(experimental)](FEM_SolverCalculiX/pt-br.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Conjunto de nós](FEM_CreateNodesSet/pt-br.md): Cria/define um conjunto de nós a partir da malha FEM.
 
 
 </div>

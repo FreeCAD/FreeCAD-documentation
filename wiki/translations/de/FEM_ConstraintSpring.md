@@ -1,5 +1,6 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/de
    Name: FEM ConstraintSpring
    Name/de: FEM RandbedingungFeder
    MenuLocation: Modell , Mechanische Randbedingungen und Lasten , Feder
@@ -7,6 +8,10 @@
    Shortcut: 
    Version: 0.20
    SeeAlso: 
+}}
+{{GuiCommandFemInfo/de
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintSpring/de
@@ -27,8 +32,9 @@ Legt eine Randbedingung Feder fest, die für mechanische Analysen mit dem Löser
 ## Anwendung
 
 1.  Entweder die Schaltfläche **<img src="images/FEM_ConstraintSpring.svg" width=16px> [Feder](FEM_ConstraintSpring/de.md)** drücken oder den Menüeintrag **Modell → Mechanische Randbedingungen und Belastungen → <img src="images/FEM_ConstraintSpring.svg" width=16px> Feder** auswählen.
-2.  In der [3D-Ansicht](3D_view/de.md) die Flächen auswählen, auf die die Feder angewendet werden soll.
-3.  Werte für normale oder tangentiale Steifigkeit (in N/m) eingeben und auswählen, welche Elmer verwenden soll.
+2.  Die Schaltfläche **Hinzufügen** Drücken.
+3.  In der [3D-Ansicht](3D_view/de.md) die Flächen auswählen, auf die die Feder angewendet werden soll. Wahlweise die Schaltfläche **Remove** drücken und auf die Objekte klicken, die aus der Auswahl entfernt werden sollen.
+4.  Werte für normale oder tangentiale Steifigkeit (in N/m) eingeben und auswählen, welche Elmer verwenden soll.
 
 
 

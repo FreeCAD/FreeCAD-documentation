@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch CloseHoles
    Name/de: Arch LöcherSchließen
-   MenuLocation: Arch , Dienstprogramme , Löcher schließen
-   Workbenches: Arch_Workbench/de
+   MenuLocation: Utils , Löcher schließen
+   Workbenches: BIM_Workbench/de
    SeeAlso: Arch_Check/de
 ---
 
@@ -20,7 +20,7 @@ Dieses Werkzeug identifiziert Löcher (ringförmige Folge von offenen Kanten) in
 ## Anwendung
 
 1.  Eine [Form](Part_Workbench/de.md) (Shape-Objekt) auswählen.
-2.  Die Schaltfläche **<img src="images/Arch_CloseHoles.svg" width=16px> [Löcher schließen](Arch_CloseHoles/de.md)** drücken oder den Menüeintrag **Arch → Dienstprogramme → Löcher schließen** auswählen.
+2.  Den Menüeintrag **Utils → Löcher schließen** auswählen.
 
 
 
@@ -62,5 +62,13 @@ solid = Arch.closeHole(Wall.Shape)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/de
+⏵ [documentation index](../README.md) > Arch CloseHoles/de

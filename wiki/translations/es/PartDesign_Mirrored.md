@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -32,6 +34,8 @@ La herramienta **Simetría** realiza una operación de simetría o espejo sobre 
 
 
 </div>
+
+
 
 ## Uso
 
@@ -56,6 +60,8 @@ La herramienta **Simetría** realiza una operación de simetría o espejo sobre 
 3.  Press the **OK** button to finish.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Opciones
@@ -63,18 +69,29 @@ La herramienta **Simetría** realiza una operación de simetría o espejo sobre 
 
 </div>
 
--   To add features:
-    1.  Press the **Add feature** button.
-    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-    3.  Repeat to add more features.
--   To remove features:
-    1.  Press the **Remove feature** button.
-    2.  Do one of the following:
-        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-        -   Select a feature in the list and press the **Del** key.
-        -   Right-click a feature in the list and select **Remove** from the context menu.
-    3.  Repeat to remove more features.
--   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Choose the mode:
+    -   
+        **Transform body**
+        
+        : Transforms the whole base feature\'s shape (default). <small>(v1.0)</small> 
+
+    -   
+        **Transform tool shapes**
+        
+        : Transforms the individual tool shapes of selected features.
+
+        -   To add features:
+            1.  Press the **Add feature** button.
+            2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+            3.  Repeat to add more features.
+        -   To remove features:
+            1.  Press the **Remove feature** button.
+            2.  Do one of the following:
+                -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+                -   Select a feature in the list and press the **Del** key.
+                -   Right-click a feature in the list and select **Remove** from the context menu.
+            3.  Repeat to remove more features.
+        -   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
 -   Specify the mirror **Plane**:
     -   
         **Vertical sketch axis**
@@ -112,12 +129,20 @@ La herramienta **Simetría** realiza una operación de simetría o espejo sobre 
         : Select a planar face in the [3D view](3D_view.md).
 -   If the **Update view** checkbox is checked the view will update in real time.
 
+
+
 ## Limitaciones
 
 See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

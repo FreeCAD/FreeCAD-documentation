@@ -9,9 +9,13 @@
 
 # Fasteners MatchTypeInner/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:24px;"> **Fasteners AuswahlNachInnenmaß** funktioniert mit dem Befehl [Fasteners AuswahlNachAußenmaß](Fasteners_MatchTypeOuter.md) wie ein Umschalter. Wenn **Fasteners AuswahlNachInnenmaß** ausgewählt ist, werden kreisförmige Kanten als Gewindebohrungen (Kernloch) angesehen, wenn ihnen neue Verbindungselemente hinzugefügt werden. Hieraus ergeben sich die Abmessungen der Verbindungselemente. Diese Einstellungen werden nicht für Senkschrauben verwendet.
+
+
 
 ## Anwendung
 
@@ -23,12 +27,9 @@ Der Befehl <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:24p
 
 
 
-
-{{Fasteners Tools navi
-
-}}
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners MatchTypeInner/de
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners MatchTypeInner/de

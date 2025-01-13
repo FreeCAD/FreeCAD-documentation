@@ -13,7 +13,7 @@
 
 The **Std TreeSelection** command scrolls the [Tree view](Tree_view.md) to the first created object in a [3D view](3D_view.md) selection.
 
-If the Tree view [SyncSelection](Std_TreeSyncSelection.md) mode is off, the Tree view is scrolled to the first created object in the selection whose parent was already expanded in the Tree view. If none of the objects\' parents are expanded the command will have no effect in that mode.
+If the Tree view [SyncSelection](Std_TreeSyncSelection.md) mode is off, the Tree view is scrolled to the first created object in the selection whose parent is already expanded in the Tree view. If none of the objects\' parents are expanded the command will have no effect in that mode.
 
 ## Usage
 
@@ -28,7 +28,7 @@ If the Tree view [SyncSelection](Std_TreeSyncSelection.md) mode is off, the Tree
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -138,9 +138,9 @@ Jest to najlepszy sposób na związanie tego szkicu, ponieważ użyliśmy tylko 
 
 ## Dodatkowe zasoby 
 
--   [Poradnik: Podstawy dla Środowiska pracy Sketcher](Basic_Sketcher_Tutorial/pl.md)
--   [Sketcher - powiązania](Sketcher_reference.md)
--   [Poradnik dla Środowiska pracy Sketcher](Sketcher_Tutorial/pl.md)
+-   [Poradnik: Podstawy dla Środowiska pracy Szkicownik](Basic_Sketcher_Tutorial/pl.md)
+-   [Poradnik do szkicownika](Sketcher_Lecture.md)
+-   [Poradnik dla środowiska pracy Szkicownik](Sketcher_Tutorial/pl.md)
 
 
 {{Sketcher Tools navi

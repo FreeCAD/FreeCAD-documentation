@@ -70,7 +70,7 @@ Die Menüoption **Abgedockt** koppelt die aktive [3D-Ansicht](3D_view/de.md) inn
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

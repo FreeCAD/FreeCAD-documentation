@@ -25,7 +25,7 @@ Zu Buchstaben springen: {{CompactTOC|center=yes}}
 
 {{term|Arc}}
 
-\> Bogen {{defn|defn=Ein Teil oder Segment eines Kreises}}
+\> Kreisbogen {{defn|defn=Ein Teil oder Segment eines Kreises}}
 
 
 {{term|App}}
@@ -36,12 +36,12 @@ Zu Buchstaben springen: {{CompactTOC|center=yes}}
 
 {{term|Arch|content=[Arch](Arch_Workbench/de.md)}}
 
-\> Arbeitsbereich Arch {{defn|defn= Arch ist die Abkürzung für Architektur und Name des [Arbeitsbereichs](#Workbench.md), der hauptsächlich für die Modellierung von Gebäuden und Strukturen (Architektur) verwendet wird; dieser ist eng verbunden mit dem [Arbeitsbereich Draft](#Draft.md).}}
+\> Arbeitsbereich Arch {{defn|defn= Arch ist die Abkürzung für Architektur (hier eher im Sinne von Bauwesen) und Name des alten [Arbeitsbereichs](#Workbench.md).Dieser Arbeitsbereich wurde durch den Arbeitsbereich [BIM](BIM_Workbench/de.md) ersetzt ({{Version/de|1.0}}).}}
 
 
 {{term|Assembly}}
 
-\> [Zusammenbau](Assembly/de.md) {{defn|no=1|defn=Ein Satz von [Bauteilen](#Part.md) , die definierte Positionen in Bezug zueinander haben (Baugruppe).}} {{defn|no=2|defn= Ein [](#Workbench.md), der die Erstellung von Baugruppen ermöglichen soll. 
+\> [Zusammenbau](Assembly/de.md) {{defn|no=1|defn=Ein Satz von [Bauteilen](#Part.md) , die definierte Positionen in Bezug zueinander haben (Baugruppe).}} {{defn|no=2|defn= Ein [Arbeitsbereich](#Workbench.md), der die Erstellung von Baugruppen ermöglichen soll. 
 FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es gibt mehrere [externe Arbeitsbereiche](External_workbenches/de.md) für Zusammenbauten (Baugruppen).}}
 
 
@@ -71,7 +71,13 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 
 {{term|Bezier Curve}}
 
-\> [Bézierkurve](https://de.wikipedia.org/wiki/B%C3%A9zierkurve) {{defn|defn=Ein Typ einer parametrischen Kurve.}}
+\> [Bézierkurve](https://de.wikipedia.org/wiki/B%C3%A9zierkurve) {{defn|defn=Eine Art parametrischer Kurven.}}
+
+
+{{term|BIM|content=[BIM](BIM_Workbench/de.md)}}
+
+
+{{defn|defn=Eine Abkürzung für [https://en.wikipedia.org/wiki/Building_information_modeling Building Information Modelling]. Der Arbeitsbereich [BIM](BIM_Workbench/de.md) ermöglicht einen BIM-Arbeitsablauf in FreeCAD.}}
 
 
 {{term|Blueprint}}
@@ -81,7 +87,7 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 
 {{term|Body}}
 
-\> Körper {{defn|defn=Der Typ eines Containers des Arbeitsbereichs [PartDesign](PartDesign_Workbench/de.md), der die Abfolge von Operationen ([Skizzen](#Sketch.md), Hilfsgeometrien sowie [Formelemente](#Feature.md)) zusammenfasst, die einen einzelnen zusammenhängenden Körper erzeugen (eingeführt in FreeCAD v0.17).}}
+\> Körper {{defn|defn=Der Typ eines Containers des Arbeitsbereichs [PartDesign](PartDesign_Workbench/de.md), der die Abfolge von Operationen, ([Skizzen](#Sketch.md), Hilfsgeometrien sowie [Formelementen](#Feature.md)) zusammenfasst, die einen einzelnen zusammenhängenden Körper erzeugen (eingeführt in FreeCAD v0.17).}}
 
 
 {{term|Boolean Logic}}
@@ -91,7 +97,7 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 
 {{term|Boolean Operation}}
 
-\> Boolesche Verknüpfung {{defn|defn=Verwendung der Booleschen Funktionen Vereinigung ([Fuse](#Fuse.md)), Differenz ([Cut](#Cut.md)), Schnitt (Intersection) und Section}}
+\> Boolesche Verknüpfung {{defn|defn=Verwendung der Booleschen Funktionen Vereinigung ([Fuse](#Fuse.md)), Differenz ([Cut](#Cut.md)), und Schnitt (Intersection)}}
 
 
 {{term|Boolean Operations check (BOPcheck)}}
@@ -146,7 +152,7 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 {{term|Coin}}
 
 
-{{defn|defn=Auch Coin3D genannt, ist eine von FreeCAD für 3D-Repräsentationen gebrauchte Drittanbieter-Bibliothek.}}
+{{defn|defn=Auch [https://www.coin3d.org Coin3D] genannt, ist eine von FreeCAD für 3D-Repräsentationen gebrauchte Drittanbieter-Bibliothek.}}
 
 
 {{term|COLLADA}}
@@ -157,7 +163,7 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 
 {{term|Command}}
 
-\> [Befehl](Command/de.md) {{defn|defn=Eine Aktion, die aus der [Benutzeroberfläche](#GUI/de.md) heraus ausgelöst wird, wenn ein Symbol in der Werkzeugleiste angeklickt wurde oder wenn ein Tastenkürzel über die Tastatur oder ein Kommando in der Python-Konsole eingegeben wurde.}}
+\> [Befehl](Command/de.md) {{defn|defn=Eine Aktion, die aus der [Benutzeroberfläche](#GUI/de.md) heraus ausgelöst wird, wenn ein Symbol in der Werkzeugleiste angeklickt oder ein Tastenkürzel über die Tastatur oder ein Kommando in der Python-Konsole eingegeben wurde.}}
 
 
 {{term|Compound}}
@@ -173,12 +179,12 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 
 {{term|Constraint}}
 
-\> Randbedingung {{defn|defn=Eine Festlegung der geometrischen Beziehung zwischen Grundelementen in einer [Skizze](#Sketch.md). Wenn eine Beschränkung einen numerischen Wert hat, wird sie als maßliche Randbedingung bezeichnet (z.B. hat eine Randbedingung Abstand einen numerischen Wert - die Länge einer imaginären Linie, die zwei Punkte verbindet). Eine Randbedingung ohne numerischen Wert (z.B. die Randbedingung Horizontal festlegen), wird als geometrische Randbedingung bezeichnet.}}
+\> Randbedingung {{defn|defn=Eine Festlegung der geometrischen Beziehung zwischen Grundelementen in einer [Skizze](#Sketch.md). Wenn eine Randbedingung einen numerischen Wert hat, wird sie als maßliche Randbedingung bezeichnet (z.B. hat eine Randbedingung Abstand einen numerischen Wert - die Länge einer imaginären Linie, die zwei Punkte verbindet). Eine Randbedingung ohne numerischen Wert (z.B. die Randbedingung Horizontal festlegen), wird als geometrische Randbedingung bezeichnet.}}
 
 
 {{term|Constructive Solid Geometry|content=[https://de.wikipedia.org/wiki/Constructive_Solid_Geometry Constructive_Solid_Geometry] (CSG)}}
 
-\> Konstruktive-Festkörper-Geometrie {{defn|defn=Name der Modellierungsmethode zur Erstellung von Formen aus geometrischen Grundkörpern ([Primitiven](#Primitive.md)) durch Anwendung boolescher Funktionen ([Boolesche Operationen](#Boolean_Operation.md)).}}
+\> Konstruktive-Festkörper-Geometrie {{defn|defn=Name der Modellierungsmethode zur Erstellung von Formen aus geometrischen Grundkörpern ([Primitiven](#Primitive.md)) durch Anwendung boolescher Funktionen ([Boolesche Verknüpfungen](#Boolean_Operation.md)).}}
 
 
 {{term|Coordinate}}
@@ -200,10 +206,10 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 {{term|Cut}}
 
 
-{{defn|no=1|defn=Differenz bilden. Anwenden der [Booleschen Operation](#Boolean_Operation.md) Differenz zwischen Formen.}}
+{{defn|no=1|defn=Differenz bilden. Anwenden der [Booleschen Verknüpfung](#Boolean_Operation.md) Differenz zwischen Formen.}}
 
 
-{{defn|no=2|defn=Cut-Objekt. Ergebnis der booleschen Funktion [Part Differenz](Part_Cut/de.md) des [Arbeitsbereichs](#Workbench.md) [Part](Part_Workbench/de.md).}}
+{{defn|no=2|defn=Cut-Objekt. Ergebnis der booleschen Verknüpfung [Part Differenz](Part_Cut/de.md) des [Arbeitsbereichs](#Workbench.md) [Part](Part_Workbench/de.md).}}
 
 
 {{glossend}}
@@ -222,13 +228,12 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 
 {{term|Degrees Of Freedom (DOF)}}
 
-\> Freiheitsgrade {{defn|defn=Die Anzahl von Möglichkeiten einer Geometrie in einer [Skizze](#Sketch.md) ihre Lage zu verändern. Haben wir z.B. eine Skizze, die einen Punkt enthält und auf diesen Punkt werden keine [Randbedingungen](#Constraint.md) angewendet, besitzt der Punkt zwei (nicht bestimmte) [Freiheitsgrade](#DOF.md), da er sich sowohl vertikal als auch horizontal frei bewegen kann. Dem entsprechend besitzt eine Skizze, die nur einen nicht Kreis ohne Randbedingungen enthält, drei [Freiheitsgrade](#DOF.md), da der Kreis und zusätzlich der Radius nicht festgelegt ist. Bewährte Praxis ist, eine Skizze so lange weitere Randbedingungen hinzuzufügen, bis keine (nicht bestimmten) [Freiheitsgrade](#DOF.md) mehr übrig sind, die Skizze also [vollständig bestimmt](#Fully_Constrained.md) ist.}}
+\> Freiheitsgrade {{defn|defn=Die Anzahl von Möglichkeiten einer Geometrie in einer [Skizze](#Sketch.md) ihre Lage zu verändern. Haben wir z.B. eine Skizze, die einen Punkt enthält und auf diesen Punkt werden keine [Randbedingungen](#Constraint.md) angewendet, besitzt der Punkt zwei (nicht bestimmte) [Freiheitsgrade](#DOF.md), da er sich sowohl vertikal als auch horizontal frei bewegen kann. Dem entsprechend besitzt eine Skizze, die nur einen nicht bestimmten Kreis (ohne Randbedingungen) enthält, drei [Freiheitsgrade](#DOF.md), da sich der Kreis horizontal und vertikal bewegen kann und zusätzlich der Radius nicht festgelegt ist. Bewährte Praxis ist, einer Skizze so lange weitere Randbedingungen hinzuzufügen, bis keine (nicht bestimmten) [Freiheitsgrade](#DOF.md) mehr übrig sind, die Skizze also [vollständig bestimmt](#Fully_Constrained.md) ist.}}
 
 
 {{term|Dependency Graph}}
 
-
-{{defn|defn=Ein von FreeCAD unabhängiges Werkzeug, das benutzt wird, um die Abhängigkeiten der Konstruktionsobjekte im FreeCAD-Dokument untereinander grafisch darzustellen. Weitere Informationen finden sich auf der Wiki-Seite [Std Abhängigkeitsgraph](Std_DependencyGraph/de.md).}}
+\> Abhängigkeitsdiagramm {{defn|defn=Ein von FreeCAD unabhängiges Werkzeug, das benutzt wird, um die Abhängigkeiten der Konstruktionsobjekte im FreeCAD-Dokument untereinander grafisch darzustellen. Weitere Informationen finden sich auf der Wiki-Seite [Std Abhängigkeitsdiagramm](Std_DependencyGraph/de.md).}}
 
 
 {{term|term=Difference}}
@@ -238,7 +243,7 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 
 {{term|Directed Acyclic Graph}}
 
-(abgekürzt als \"DAG\") {{defn|defn=Eine Art von [Abhängigkeitsgraphen](#Dependency_Graph.md) in der alle Beziehungen der Objekte in linearer Weise ohne zyklische Abhängigkeiten aufeinander aufbauen. Beim Verfolgen eines DAGs gibt es keinen Weg von einem Objekt A zu irgendeinen anderen Objekt und dann wieder zurück zum selben Objekt. In FreeCAD muss der Graph eines Modells immer ein "DAG" sein.}}
+(abgekürzt als \"DAG\") {{defn|defn=Eine Art von [Abhängigkeitsdiagramm](#Dependency_Graph.md) in der alle Beziehungen der Objekte in linearer Weise ohne zyklische Abhängigkeiten aufeinander aufbauen. Beim Verfolgen eines DAGs gibt es keinen Weg von einem Objekt A zu irgendeinen anderen Objekt und dann wieder zurück zum selben Objekt. In FreeCAD muss der Graph eines Modells immer ein "DAG" sein.}}
 
 
 {{term|DOF}}
@@ -274,13 +279,13 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 
 {{term|Edge}}
 
-\> Kante {{defn|no=1|defn=Ein Segment, das zwei [Knoten](#Vertices/de.md) verbindet. Dieses Segment kann eine gerade Linie oder eine Kurve sein. Der CAD-Kernel definiert es als: Eindimensionale Form, die einer Kurve entspricht und an jedem Ende durch einen Knoten begrenzt ist. Ein geschlossener Kreis hat daher nur einen Knoten, an dem er beginnt und endet. Siehe [ Profil: Definieren der Topologie](https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 "Open CASCADE Technology".md).}} {{defn|no=2|defn=Die gemeinsame Linie zweier Flächen. Sie kann gekrümmt oder gerade sein.}}
+\> Kante {{defn|no=1|defn=Ein Segment, das zwei [Knoten](#Vertices/de.md) verbindet. Dieses Segment kann eine gerade Linie oder eine Kurve sein. Der CAD-Kernel definiert es als: Eindimensionale Form, die einer Kurve entspricht und an jedem Ende durch einen Knoten begrenzt ist. Ein geschlossener Kreis hat dafür nur einen Knoten, an dem er beginnt und endet. Siehe [ Profil: Definieren der Topologie](https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 "Open CASCADE Technology".md).}} {{defn|no=2|defn=Die gemeinsame Linie (Randkurve) zweier Flächen. Sie kann gekrümmt oder gerade sein.}}
 
 
 {{term|Element}}
 
 
-{{defn|defn=Ein Element der Skizzengeometrien, wie z.B. ein Punkt, ein Liniensegment, ein Bogen, ein Kreis usw.}}
+{{defn|defn=Ein Geometrielement des Sketchers, wie z.B. ein Punkt, ein Liniensegment, ein Bogen, ein Kreis usw.}}
 
 
 {{term|Expression}}
@@ -335,12 +340,12 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 
 {{term|Fillet}}
 
-\> Rundung {{defn|defn=Eine Aus- bzw. Abrundung an einer Kante für einen fertigbearbeiteten Eindruck oder zum Brechen scharfer Kanten. Siehe [Part Verrundung](Part_Fillet/de.md) und [PartDesign Abrunden](PartDesign_Fillet/de.md).}}
+\> Rundung {{defn|defn=Eine Aus- bzw. Abrundung an einer Kante für einen fertigbearbeiteten Eindruck oder zum Brechen scharfer Kanten. Siehe [Part Verrundung](Part_Fillet/de.md) und [PartDesign Verrundung](PartDesign_Fillet/de.md).}}
 
 
 {{term|Fork}}
 
-\> Vezweigen {{defn|defn=Siehe [Forked Model](#Forked_Model.md).}}
+\> Verzweigen {{defn|defn=Siehe [Forked Model](#Forked_Model.md).}}
 
 
 {{term|Forked Model}}
@@ -365,7 +370,7 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 
 {{term|Fully Constrained}}
 
-\> vollständig bestimmt, Freiheitsgrad f = 0 {{defn|defn=Hat im [Sketcher](#Sketcher.md) eine [Skizze](#Sketch.md) keine (nicht bestimmte) [Freiheitsgrade](#Degrees_Of_Freedom.md), bezeichnet man die Skizze als "vollständig bestimmt" durch die verwendeten [Randbedingungen](#Constraint.md).}}
+\> vollständig bestimmt, Freiheitsgrad f = 0 {{defn|defn=Hat im [Sketcher](#Sketcher.md) eine [Skizze](#Sketch.md) keine (nicht bestimmten) [Freiheitsgrade](#Degrees_Of_Freedom.md), bezeichnet man die Skizze als "vollständig bestimmt" durch die verwendeten [Randbedingungen](#Constraint.md).}}
 
 
 {{term|Fuse}}
@@ -873,7 +878,7 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 {{defn|defn=Ein Dateiformat nach ISO-Norm (ISO 10303) für den Auschtausch von 3D-Daten und Produktinformationen. Es ersetzt weitgehend [IGES](#IGES.md). Dateinamenserweiterungen sind *.step, *.stp.}}
 
 
-{{term|SVG|content=[SVG](SVG.md)}}
+{{term|SVG}}
 
 
 {{defn|defn=[https://de.wikipedia.org/wiki/Scalable_Vector_Graphics]. Ein Dateiformat für Vektorgrafik.}}
@@ -941,7 +946,7 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 
 {{term|Tree view|content=[Tree view](Tree_view/de.md)}}
 
--\> Baumansicht {{defn|defn=Die Baumansicht ist ein Bestandteil von FreeCADs [Oberfläche](Interface/de.md). Sie kann als eigenständiges [GUI](#GUI.md)-Element oder als Teil der [Combo-Ansicht](Combo_View/de.md) angezeigt werden. Sie enthält eine Darstellung der Dokumentstruktur.}}
+-\> Baumansicht {{defn|defn=Die Baumansicht ist ein Bestandteil von FreeCADs [Oberfläche](Interface/de.md). Sie kann als eigenständiges [GUI](#GUI.md)-Element oder als Teil der [Combo-Ansicht](Combo_view/de.md) angezeigt werden. Sie enthält eine Darstellung der Dokumentstruktur.}}
 
 
 {{glossend}}
@@ -954,7 +959,7 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 
 {{term|Union}}
 
--\> Vereinigung {{defn|defn=Ein Werkzeug des [Arbeitsbereichs](#Workbench.md) [Part](Part_Workbench/de.md), das die [Boolesche Operation](#Boolean_Operation.md) Vereinigung mit den ausgewählten Körpern durchführt.}}
+-\> Vereinigung {{defn|defn=Ein Werkzeug des [Arbeitsbereichs](#Workbench.md) [Part](Part_Workbench/de.md), das die [boolesche Verknüpfung](#Boolean_Operation.md) Vereinigung mit den ausgewählten Körpern durchführt.}}
 
 
 {{term|Unstable}}
@@ -1013,12 +1018,12 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 
 {{term|Wire}}
 
-\> Linienzug {{defn|no=1|defn=Eine Folge von [Knoten](#Vertex.md) (Vertizes), die durch [Kanten](#Edge.md) (Edges) verbundenen sind. Der Begriff wird in diesem Sinne hauptsächlich von [no=2|defn=Ein Befehl des [[#Workbench|Arbeitsbereichs](https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Open CASCADE Technology]] verwendet und daher auch innerhalb von FreeCAD.}} {{defn.md) [Draft](Draft_Workbench/de.md) (Draft Polylinie), der einen parametrischen Linienzug erstellt.}}
+\> Linienzug {{defn|no=1|defn=Eine Folge von [Knoten](#Vertex.md) (Vertizes), die durch [Kanten](#Edge.md) (Edges) verbundenen sind. Der Begriff wird in diesem Sinne hauptsächlich von [no=2|defn=Ein Befehl des [[#Workbench|Arbeitsbereichs](https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Open CASCADE Technology]] verwendet und daher auch innerhalb von FreeCAD.}} {{defn.md) [Draft](Draft_Workbench/de.md) (Draft Linienzug), der einen parametrischen Linienzug erstellt.}}
 
 
 {{term|Workbench}}
 
-\> Arbeitsbereich {{defn|defn=Ein Arbeitsbereich, auch als Modul bezeichnet, gruppiert einen Satz von Werkzeugen für eine bestimmte Aufgabe.}}
+\> Arbeitsbereich {{defn|defn=Ein [Arbeitsbereich](Workbenches/de.md), auch als Modul bezeichnet, gruppiert einen Satz von Werkzeugen für eine bestimmte Aufgabe.}}
 
 
 {{glossend}}

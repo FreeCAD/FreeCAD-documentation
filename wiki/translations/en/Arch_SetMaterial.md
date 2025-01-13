@@ -4,7 +4,7 @@
    MenuLocation: Arch , Material tools , Material
    Workbenches: Arch_Workbench, BIM_Workbench
    Shortcut: **M** **T**
-   SeeAlso: Arch_CompSetMaterial, Arch_MultiMaterial
+   SeeAlso: Arch_MultiMaterial
 ---
 
 # Arch SetMaterial/en
@@ -48,5 +48,13 @@ This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IF
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/en
+⏵ [documentation index](../README.md) > Arch SetMaterial/en

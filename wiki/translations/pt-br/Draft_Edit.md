@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft Edit
    MenuLocation: Modification , Edit
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Workbenches: Draft_Workbench
    Shortcut: **D** **E**
    SeeAlso: Std_Edit
 ---
@@ -65,7 +65,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   To use polar coordinates enter a value for the **Length** and a value for the **Angle**, and press **Enter** after each.
 -   Check the **Angle** checkbox to constrain the pointer to the specified angle.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the picked point are relative to the original point, else they are relative to the coordinate system origin. <small>(v1.0)</small> 
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 
 ## Supported objects 
@@ -74,7 +75,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   If the start or end node of an open wire is moved so that they coincide, the wire is closed.
 -   Node context menu: {{Value|Delete point}}. At least two points must remain.
--   Edge context menu: {{Value|Add point}}, {{Value|Open wire}}/{{Value|Close wire}} (<small>(v0.21)</small> ) and {{Value|Reverse wire}} (<small>(v0.20)</small> ).
+-   Edge context menu: {{Value|Add point}}, {{Value|Open wire}}/{{Value|Close wire}} (<small>(v0.21)</small> ) and {{Value|Reverse wire}}.
 
 ### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> [Draft Arc](Draft_Arc.md) and <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> [Draft Arc 3Points](Draft_Arc_3Points.md) 
 
@@ -175,7 +176,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
 -   The color of the temporary nodes is the same as the color of the snap symbols. This color can be changed in the preferences: **Edit → Preferences... → Draft → Grid and snapping → Snap symbol color**. Note that this color is not used for the temporary nodes displayed for [Draft BezCurves](Draft_BezCurve.md). These nodes use the **Line Color** of the curve instead.
--   The size of the nodes depends on: **Edit → Preferences... → Display → 3D View → Marker size**. <small>(v0.22)</small> 
+-   The size of the nodes depends on: **Edit → Preferences... → Display → 3D View → Marker size**. <small>(v1.0)</small> 
 
 ## Scripting
 

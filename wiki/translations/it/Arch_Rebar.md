@@ -11,34 +11,37 @@
 # Arch Rebar/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Armatura permette di posizionare delle [barre di rinforzo](http://en.wikipedia.org/wiki/Rebar) negli oggetti [Struttura](Arch_Structure/it.md).
 
-Lo strumento **Armatura** è anche integrato in [BIM](BIM_Workbench/it.md).
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Gli oggetti Armature sono basati su profili 2D come gli [schizzi](Sketcher_Workbench/it.md) o gli [oggetti draft](Draft_Workbench/it.md), che devono essere disegnati su una faccia di un oggetto struttura. Dopo la creazione è possibile modificare la configurazione delle armature, come il numero e il diametro delle barre, o la distanza tra le estremità dell\'elemento strutturale.
+
+
+</div>
 
 <img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;"> 
 *Oggetto strutturale con due schizzi disegnati sulle sue facce, che vengono poi trasformati in due serie di oggetti armature*
 
 
 
-## Estensione disponibile 
-
-Lo strumento Armatura è potenziato dall\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), che viene installato dal [Addon Manager](Std_AddonMgr/it.md). I tipi di barre di armatura aggiuntivi disponibili con l\'addon sono:
-
--   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Armatura dritta](Arch_Rebar_Straight/it.md)
--   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [Armatura ad U](Arch_Rebar_UShape/it.md)
--   <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [Armatura ad L](Arch_Rebar_LShape/it.md)
--   <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Armatura sagomata](Arch_Rebar_BentShape/it.md)
--   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Staffe](Arch_Rebar_Stirrup/it.md)
--   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Armatura elicoidale](Arch_Rebar_Helical/it.md)
-
-
-
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Passare nell\'ambiente <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Arch](Arch_Workbench/it.md)
 2.  Creare un elemento **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)**.
@@ -51,6 +54,9 @@ Lo strumento Armatura è potenziato dall\'ambiente [Reinforcement](Reinforcement
 9.  Selezionare lo schizzo appena disegnato.
 10. Premere il pulsante **<img src="images/Arch_Rebar.svg" width=16px> [Armatura](Arch_Rebar/it.md)**, o i tasti **R** poi **B**.
 11. Regolare le proprietà desiderate. Se qualcuna delle proprietà crea una situazione impossibile, l\'armatura potrebbe non apparire immediatamente, ad esempio, se il diametro del tondino è 0, o se la lunghezza offset è maggiore della lunghezza dell\'elemento struttura.
+
+
+</div>
 
 Anche se normalmente all\'interno di una struttura di Arch viene utilizzata una barra d\'armatura, da FreeCAD 0.19 l\'armatura può essere creata al di fuori di qualsiasi oggetto ospite. Per ospitare una barra di armatura all\'interno di un oggetto, basta impostare la sua proprietà **Host**.
 
@@ -87,11 +93,19 @@ Anche se normalmente all\'interno di una struttura di Arch viene utilizzata una 
 ## Script
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Vedere anche:**
 
 [API di Arch](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Armatura può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+Lo strumento Armatura può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
 ```python
 Rebar = makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=None, name="Rebar")
 ```
@@ -130,5 +144,19 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+{{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar/it
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Arch Rebar/it

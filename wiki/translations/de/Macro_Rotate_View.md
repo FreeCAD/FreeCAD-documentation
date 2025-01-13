@@ -1,7 +1,4 @@
 # Macro Rotate View/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
 |Name=Macro Rotate View by 90°
 |Icon=Macro Rotate View view 90 Degrees.png
@@ -11,12 +8,9 @@
 |Version=01.00
 |Date=2010-11-17
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/a/a0/Macro_Rotate_View_view_90_Degrees.png Macro_Rotate_View_view_90_Degrees]
-|SeeAlso=[Macro_Rotate_ViewAxonometric](Macro_Rotate_ViewAxonometric/de.md) [<img src=images/Macro_Rotate_View_with_Z_pointing_upwards_.png style="width:24px"> [<img src=images/Macro_Rotate_View_with_Y_pointing_upwards_.png style="width:24px"><br />[Macro Rotate View Free](Macro_Rotate_View_Free/de.md)
+|Download=[https://wiki.freecad.org/wiki/images/a/a0/Macro_Rotate_View_view_90_Degrees.png Werkzeugleistensymbol]
+|SeeAlso=[Macro Rotate ViewAxonometric](Macro_Rotate_ViewAxonometric/de.md), [Macro Rotate View Free](Macro_Rotate_View_Free/de.md)
 }}
-
-
-</div>
 
 
 

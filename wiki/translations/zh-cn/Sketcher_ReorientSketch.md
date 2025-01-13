@@ -10,14 +10,26 @@
 # Sketcher ReorientSketch/zh-cn
 
 
+</div>
+
+
 
 ## 描述
+
+
+<div class="mw-translate-fuzzy">
 
 借助此工具，您可以将一个草图从原来的面上分离开来，再将其（以一个偏移值）附于一个主平面上。
 
 
+</div>
+
+
 
 ## 如何使用
+
+
+<div class="mw-translate-fuzzy">
 
 1.  在树状视图中选择待重定位的草图
 2.  从顶级菜单中选择** Sketch** → ** Reorient sketch**
@@ -27,14 +39,16 @@
 6.  您还可以为之添加一个正/负偏移值
 
 
-
-## 备注
-
--   如果您只是想将草图从原来的面上分离出来，可以在第二个菜单中选择** Cancel**。
--   如果没有选中任何草图，则此命令将呈灰色不可用状态。
+</div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

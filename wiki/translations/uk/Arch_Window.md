@@ -7,16 +7,13 @@
 
 ## Description
 
-An [Arch Window](Arch_Window.md) is a base object for all kinds of \"embeddable\" objects, such as windows and doors. It is designed to be either independent, or \"hosted\" inside another component such as an [Arch Wall](Arch_Wall.md), [Arch Structure](Arch_Structure.md), or [Arch Roof](Arch_Roof.md). It has its own geometry, that can be made of several solid components (commonly a frame and inner panels), and also defines a volume to be subtracted from the host objects, in order to create an opening.
+The **Arch Window** tool creates a base object for all kinds of \"embeddable\" objects, such as windows and doors. It is designed to be either independent, or \"hosted\" inside another component such as an [Arch Wall](Arch_Wall.md), [Arch Structure](Arch_Structure.md), or [Arch Roof](Arch_Roof.md). It has its own geometry, that can be made of several solid components (commonly a frame and inner panels), and also defines a volume to be subtracted from the host objects, in order to create an opening.
 
 Window objects are based on closed 2D objects, such as [Draft Rectangles](Draft_Rectangle.md) or [Sketches](Sketcher_Workbench.md), that are used to define their inner components. The base 2D object must therefore contain several closed wires, that can be combined to form filled panels (one wire) or frames (several wires).
 
-The Window tool features several **presets**; this allows the user to create common types of windows and doors with certain editable parameters, without the need for the user to create the base 2D objects and components manually.
+The Window tool features several [presets](#Presets.md). These allow the user to create common types of windows and doors with certain editable parameters, without the need to create the base 2D objects and components manually.
 
-All information applicable to an [Arch Window](Arch_Window.md) also applies to an [Arch Door](Arch_Door.md), as it\'s the same underlying object. The main difference between a Window and a Door is that the Door has an internal panel that is shown opaque (the door itself), while the Window has a panel that is partially transparent (the glass).
-
-<img alt="" src=images/Arch_Window_example.jpg  style="width:600px;"> 
-*Window constructed on top of a [Draft Rectangle](Draft_Rectangle.md), then inserted into an [Arch Wall](Arch_Wall.md). Using the [Arch Add](Arch_Add.md) operation automatically cuts a correct opening in the host wall.*
+All information applicable to an Arch Window also applies to an [Arch Door](Arch_Door.md), as it\'s the same underlying object.
 
 <img alt="" src=images/Arch_Window_example2.jpg  style="width:600px;"> 
 *Complex window being constructed on top of a [Sketch](Sketcher_Workbench.md). When entering the window's edit mode you can create different components, set their thickness, and select and assign wires from the sketch to them.*
@@ -25,7 +22,10 @@ All information applicable to an [Arch Window](Arch_Window.md) also applies to a
 
 ### Using a preset 
 
-1.  Press the **<img src="images/Arch_Window.svg" width=16px> [Arch Window](Arch_Window.md)** button, or press **W** then **I** keys.
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Arch_Window.svg" width=16px> [Window](Arch_Window.md)** button.
+    -   Select the **3D/BIM → <img src="images/Arch_Window.svg" width=16px> Window** option from the menu.
+    -   Use the keyboard shortcut: **W** then **I**.
 2.  Select one of the presets in the list.
 3.  Fill out the desired parameters.
 4.  In the [3D view](3D_view.md), move the window to the location where you wish to place it. If you move the pointer over an [Arch Wall](Arch_Wall.md), the outline of the window should align itself with the face of that object.
@@ -46,23 +46,23 @@ If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon M
     -   On Mac OSX it is usually **/Users/username/Library/Preferences/FreeCAD/**
 -   The subdirectory name **Custom** is just a suggestion, any name can be used. But the files must be placed in one or more subdirectories inside the **Doors** or **Windows** directories.
 
-### Creating from scratch 
+### Creating a custom window 
 
 1.  Optionally, select a face on the Arch object where you want the window to be included.
 2.  Switch to the [Sketcher Workbench](Sketcher_Workbench.md).
 3.  Create a new sketch.
-4.  Draw one or more closed wires (loops). Pay close attention to the creation order of these loops, the numbering of the \"wires\" in the [task panel](task_panel.md) (\"Window elements\") depends on this.
+4.  Draw one or more closed wires (loops). Pay close attention to the creation order of these loops, the numbering of the \"wires\" in the [task panel](Task_panel.md) (\"Window elements\") depends on this.
 5.  Close the sketch.
-6.  Switch back to the [Arch Workbench](Arch_Workbench.md).
-7.  Press the **<img src="images/Arch_Window.svg" width=16px> [Arch Window](Arch_Window.md)** button, or press **W** then **I** keys.
-8.  To adjust the window components and various properties, enter the window [task panel](task_panel.md) by double-clicking on the created object in the [tree view](tree_view.md).
-9.  Note that since components following a hinged component will also hinge, all fixed components must be created first.
+6.  Switch back to the [BIM Workbench](BIM_Workbench.md).
+7.  Invoke the tool as described above.
+8.  To adjust the window components and various properties, enter the window [task panel](Task_panel.md) by double-clicking on the created object in the [tree view](Tree_view.md).
+9.  Note that since components following a hinged component will also hinge, all fixed components, such as outer frames and fixed glass panels, must be defined before any hinged components. And a glass panel in a hinged frame must be defined after that frame, and before any other hinged components.
 
 ## Presets
 
 The following presets are available:
 
-Image:ParametersWindowFixed.svg\|Fixed Image:ParametersWindowSimple.svg\|Open 1-pane Image:ParametersWindowDouble.svg\|Open 2-pane Image:ParametersWindowStash.svg\|Sash 2-pane Image:ParametersWindowDouble.svg\|Sliding 2-pane Image:ParametersDoorSimple.svg\|Simple door Image:ParametersDoorGlass.svg\|Glass door Image:ParametersWindowDouble.svg\|Sliding 4-pane Image:ParametersWindowSimple.svg\|Awning
+Image:ParametersWindowFixed.svg\|Fixed Image:ParametersWindowSimple.svg\|Open 1-pane Image:ParametersWindowDouble.svg\|Open 2-pane Image:ParametersWindowStash.svg\|Sash 2-pane Image:ParametersWindowDouble.svg\|Sliding 2-pane Image:ParametersDoorSimple.svg\|Simple door Image:ParametersDoorGlass.svg\|Glass door Image:ParametersWindowDouble.svg\|Sliding 4-pane Image:ParametersWindowSimple.svg\|Awning Image:ParametersOpening.svg\|Opening only <small>(v1.0)</small> 
 
 ## Building components 
 
@@ -81,9 +81,9 @@ Windows can include 4 types of components: frames, solid panels, glass panels an
 ## Options
 
 -   Windows share the common properties and behaviours of all [Arch Components](Arch_Component.md)
--   If the **Auto-include** checkbox on the Window creation task panel is unchecked, the window won\'t be inserted into any host object on creation.
--   Add a selected window to a [wall](Arch_Wall.md) by selecting both, then pressing the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** button.
--   Remove a selected window from a [wall](Arch_Wall.md) by selecting the window, then pressing the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** button.
+-   If the **Auto include in host object** checkbox on the Window creation task panel is unchecked, the window won\'t be inserted into any host object on creation.
+-   Add a selected window to a [wall](Arch_Wall.md) by selecting both, then pressing the **<img src="images/Arch_Add.svg" width=16px> [Add](Arch_Add.md)** button.
+-   Remove a selected window from a [wall](Arch_Wall.md) by selecting the window, then pressing the **<img src="images/Arch_Remove.svg" width=16px> [Remove](Arch_Remove.md)** button.
 -   When using presets, it is often convenient to turn the \"Near\" [Draft Snap](Draft_Snap.md) on, so you can snap your window to an existing face.
 -   The hole created by a window in its host object is determined by two properties: **Hole Depth** and **Hole Wire** (<small>(v0.17)</small> ). The Hole Wire number can be picked in the 3D view from the window\'s task panel available when double-clicking the window in the tree view
 -   Windows can make use of [Multi-Materials](Arch_MultiMaterial.md). The window will search in the attached Multi-Material for material layers with a same name for each of its window component, and use it if any is found. For example, a component named \"OuterFrame\" will search in the attached Multi-Material, for a material layer named \"OuterFrame\". If such material layer is found, its material will be attributed to the OuterFrame component. The thickness value of the material layer is disregarded.
@@ -106,11 +106,11 @@ Windows can also take advantage of other tools, specifically [PartDesign](PartDe
 
 <img alt="" src=images/Arch_window_type_example.png  style="width:800px;">
 
-[Download the example file shown above](https://github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
+[Download the example file shown above](https://github.com/FreeCAD/Examples/raw/master/Arch_Example_Files/Window_Type.FCStd)
 
 ### Example workflow 
 
--   Create a window frame object, a glass panel, and any other window component you need, using [Part Workbench](Part.md) or [PartDesign](PartDesign_Workbench.md) tools.
+-   Create a window frame object, a glass panel, and any other window component you need, using [Part Workbench](Part_Workbench.md) or [PartDesign](PartDesign_Workbench.md) tools.
 -   For example, create a base rectangular sketch for your window, then a profile sketch for the frame, and create a [Part Sweep](Part_Sweep.md) to sweep the profile around the base sketch. Create a [Part Offset2D](Part_Offset2D.md) from the base sketch, then a [Part Extrude](Part_Extrude.md) to create the glass panel
 -   Make sure all these pieces have a unique, meaningful name (for example, \"Frame\" or \"Glass Panel\")
 -   Create an [App Part](App_Part.md), and place all your subcomponents in it
@@ -121,9 +121,9 @@ Windows can also take advantage of other tools, specifically [PartDesign](PartDe
     -   **Subvolume** as a PropertyLink and link it to the volume to be subtracted that we created above
     -   **Tag** as a PropertyString
 
-### Materials
-
 Our window type is now ready. We can create window objects from it, simply by selecting the App Part and pressing the window button. The \"Height\", \"Width\", \"Subvolume\" and \"Tag\" properties of the window will be linked to the corresponding property of the App Part, if existing.
+
+### Materials
 
 To build a material for type-based windows:
 
@@ -139,25 +139,44 @@ You can use any other kind of workflow than the one described above, the importa
 
 ## Properties
 
--    **Height**: The height of this window
+### Data
 
--    **Width**: The width of this window
 
--    **Hole Depth**: The depth of the hole created by this window in its host object
+{{TitleProperty|Window}}
 
--    **Hole Wire**: The number of the wire from the base object that is used to create a hole in the host object of this window. This value can be set graphically when double-clicking the window in the tree view. Setting a value of 0 will make the window automatically pick its biggest wire for the hole.
+-    **Area|Area**: The area of this window.
 
--    **Window Parts**: A list of strings (5 strings per component, setting the component options above)
+-    **Frame|Length**: The frame size (thickness/depth) of this window.
 
--    **Louvre Width**: If any of the components is set to \"Louvres\", this property defines the size of the louvre elements
+-    **Height|Length**: The height of this window.
 
--    **Louvre Spacing**: If any of the components is set to \"Louvres\", this property defines the spacing between the louvre elements
+-    **Hole Depth|Length**: The depth of the hole created by this window in its host object.
 
--    **Opening**: All components that have their opening mode set, and provided a hinge is defined in them or in an earlier component in the list, will appear open by a percentage defined by this value
+-    **Hole Wire|Integer**: The number of the wire from the base object that is used to create a hole in the host object of this window. This value can be set graphically when double-clicking the window in the tree view. Setting a value of 0 will make the window automatically pick its biggest wire for the hole.
 
--    **Symbol Plan**: Shows 2D opening symbol in plan
+-    **Hosts|LinkList**: The objects (e.g. wall) that host this window.
 
--    **Symbol Elevation**: Shows 2D opening symbol in elevation
+-    **Louvre Spacing|Length**: If any of the components is set to \"Louvres\", this property defines the spacing between the louvre elements.
+
+-    **Louvre Width|Length**: If any of the components is set to \"Louvres\", this property defines the size of the louvre elements.
+
+-    **Normal|Vector**: The normal direction of this window, set (hardcoded) by the Window tool at interactive mode. Remarks: Set to (0,0,0) to make window automatically deduce the Normal direction, useful when user rotate the window\'s base Sketch e.g. when its host wall is rotated.
+
+-    **Offset|Length**: The offset size (from base sketch) of this window.
+
+-    **Opening|Percent**: All components that have their opening mode set, and provided a hinge is defined in them or in an earlier component in the list, will appear open by a percentage defined by this value.
+
+-    **Preset|Integer|Hidden**: The preset number this window is based on.
+
+-    **Subvolume|Link**: An optional object that defines a volume to be subtracted from hosts of this window.
+
+-    **Symbol Elevation|Bool**: Shows 2D opening symbol in elevation.
+
+-    **Symbol Plan|Bool**: Shows 2D opening symbol in plan.
+
+-    **Width|Length**: The width of this window.
+
+-    **Window Parts|StringList|Hidden**: The components of this window (5 strings per component).
 
 ## Scripting
 
@@ -166,7 +185,7 @@ You can use any other kind of workflow than the one described above, the importa
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Window tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+The Window tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python
@@ -177,7 +196,9 @@ Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Win
 -   If available, sets the `width`, `height`, and `name` (label) of the Window.
 -   If the `baseobj` is not a closed shape, the tool may not create a proper solid figure.
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -186,13 +207,14 @@ Window = Arch.makeWindow(Rect1)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-You can also create a Window from a preset. 
+You can also create a Window from a preset.
+
+
 ```python
 Window = makeWindowPreset(windowtype, width, height, h1, h2, h3, w1, w2, o1, o2, placement=None)
 ```
 
--   Creates a `Window` object based on `windowtype`, which should be one of the names defined in `Arch.WindowPresets`
-    -   Some of these presets are: `"Fixed"`, `"Open 1-pane"`, `"Open 2-pane"`, `"Sash 2-pane"`, `"Sliding 2-pane"`, `"Simple door"`, `"Glass door"`, `"Sliding 4-pane"`.
+-   Creates a `Window` object based on `windowtype`, which should be one of the names defined in `Arch.WindowPresets`.
 
 -    `width`and `height` define the total size of the object, with units in millimeters.
 
@@ -200,7 +222,9 @@ Window = makeWindowPreset(windowtype, width, height, h1, h2, h3, w1, w2, o1, o2,
 
 -   If a `placement` is given, it is used.
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, Arch
 
@@ -221,6 +245,11 @@ Door = Arch.makeWindowPreset("Simple door",
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/uk
+⏵ [documentation index](../README.md) > Arch Window/uk

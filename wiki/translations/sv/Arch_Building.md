@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Beskrivning
 
 Byggnad är en speciell typ av FreeCAD group objekt som är tänkt att innehålla en komplett byggnadsenhet. För närvarande är den enda skillnaden att den har en annan ikon.
@@ -12,7 +14,7 @@ Byggnad är en speciell typ av FreeCAD group objekt som är tänkt att innehåll
 ## Usage
 
 1.  Optionally, select one or more objects to be included in your new building.
-2.  Press the **<img src="images/Arch_Building.svg" width=16px> [Arch Building](Arch_Building.md)** button, or press the **B** then **U** keys.
+2.  Press the **<img src="images/Arch_Building.svg" width=16px> [Building](Arch_Building.md)** button, or press the **B** then **U** keys.
 
 ## Options
 
@@ -69,6 +71,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/sv
+⏵ [documentation index](../README.md) > Arch Building/sv

@@ -13,7 +13,7 @@
 
 L\'outil **TechDraw Page à partir d\'un modèle** crée un nouvel objet Page à l\'aide du fichier de modèle sélectionné dans une boîte de dialogue.
 
-Le répertoire de départ de la boîte de dialogue peut être spécifié dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
+Le répertoire de départ de la fenêtre de dialogue peut être spécifié dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
 <img alt="" src=images/A4_Landscape_ISO7200_Pep.svg  style="width:400px;"> 
 *L'un des modèles fournis avec TechDraw : A4_Landscape_ISO7200_Pep.svg*

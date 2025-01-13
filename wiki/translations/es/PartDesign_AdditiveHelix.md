@@ -13,13 +13,23 @@
 
 </div>
 
+
+
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 La herramienta **Hélice aditiva** crea un sólido realizando un barrido de un boceto seleccionado o de un objeto 2D a lo largo de la trayectoria de una hélice.
+
+
+</div>
 
 <img alt="" src=images/PartDesign_AdditiveHelix_example_overview.png  style="width:650px;">
 
 *El perfil (B), es extruido en forma de barrido alrededor del eje (A) para producir una hélice sólida (C)*
+
+
 
 ## Uso
 
@@ -29,11 +39,15 @@ La herramienta **Hélice aditiva** crea un sólido realizando un barrido de un b
 4.  Inspeccionar la hélice en la ventana de vistas para asegurarse de que dichos parámetros no dan como resultado una hélice que interseccione consigo misma.
 5.  Confirmar con **OK**.
 
+
+
 ## Opciones
 
 Cuando se crea una hélice aditiva, la caja de diálogo **Helix parameters** o parámetros de la hélice, ofrece varios parámetros para especificar la forma en que ha de realizar el boceto el barrido.
 
 ![](images/PartDesign_AdditiveHelix_taskpanel.png )
+
+
 
 ### Axis o Eje 
 
@@ -51,6 +65,8 @@ Esta opción especifica el eje alrededor del cual el boceto va a realizar el bar
 
 </div>
 
+
+
 ### Modo
 
 Son opciones para controlar qué parámetros serán usados para definir la hélice. Las opciones son:
@@ -64,13 +80,19 @@ Son opciones para controlar qué parámetros serán usados para definir la héli
 
 La distancia entre cada vuelta de la hélice.
 
+
+
 ### Altura
 
 La altura de la hélice (de centro a centro).
 
+
+
 ### Vueltas
 
 El número de vueltas en la hélice. Definido como Altura/Pitch
+
+
 
 ### Ángulo del cono 
 
@@ -82,21 +104,31 @@ La proporción en la que el radio de la hélice se incrementa a lo largo del eje
 
 </div>
 
+
+
 ### Left handed o Hacia la izquierda 
 
 Si se selecciona, la dirección de giro de la hélice cambia de la dirección horaria por defecto a la dirección antihoraria.
+
+
 
 ### Reversed o Revés 
 
 Si está marcada esta casilla, la dirección del eje de la hélice es la contraria de la dirección por defecto.
 
+
+
 ### Actualizar vista 
 
 Si está marcada esta casilla, la hélice se mostrará en la vista y se actualizará automáticamente con cada cambio de parámetro.
 
+
+
 ## Preferencias
 
 -   Una hélice aditiva que no intersecte con el Body será visible en la vista preliminar si **Herramientas → Editar parámetros... → BaseApp → Preferences → Mod → PartDesign → AdditiveHelixPreview** está seleccionado como `True`. Este preferencia por defecto es `False`. {{Version/es|0.20}}
+
+
 
 ## Propiedades
 
@@ -136,6 +168,14 @@ Si está marcada esta casilla, la hélice se mostrará en la vista y se actualiz
 
 </div>
 
+## Notes
+
+-   A <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [ShapeBinder](PartDesign_ShapeBinder.md) cannot be used for the profile.
+-   When using a <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [SubShapeBinder](PartDesign_SubShapeBinder.md) for the profile, selecting the binder in the [Tree view](Tree_view.md) will fail, instead the binder\'s face has to be selected in the [3D view](3D_view.md).
+-   Helixes are very difficult for the underlying engine to calculate correctly because the curves involved push floating point precision to its limit. That means that performing further operations on a helix like attempting boolean operations with another object can be very sensitive to small changes. When they fail, they often break the model in surprising ways. To avoid this, you should try to make operations on a helix either clearly overlap (interfere) or clearly not overlap. Exact matches where the surface of the helix is perfectly aligned with the surface of another object are fragile. A thread around a bolt cylinder is an example of this. It may even work initially, and then break later when objects are moved slightly.
+
+
+
 ## Ejemplos
 
 1.  Figura 1: Ejemplo de hélice usando una B-spline en el boceto.
@@ -146,7 +186,13 @@ Si está marcada esta casilla, la hélice se mostrará en la vista y se actualiz
 ![Example helix where the helix axis is normal to the sketch plane resulting in a \"Pad with twist\" effect.](images/PartDesign_AdditiveHelix_example_twisting_pad.png )
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

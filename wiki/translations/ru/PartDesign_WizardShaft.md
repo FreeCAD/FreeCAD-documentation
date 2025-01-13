@@ -81,7 +81,13 @@ For each shaft segment, the following parameters can be defined
 -   Allow loads in the Z-direction as well as in Y-direction (requires definition of loads as a Document Object, otherwise the table will become very long)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

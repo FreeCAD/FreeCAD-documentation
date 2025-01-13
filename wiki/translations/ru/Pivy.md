@@ -9,7 +9,7 @@
 
 </div>
 
-When imported in a running Python interpreter, Pivy allows us to communicate directly with any running Coin [scenegraph](Scenegraph.md), such as the [3D view](3D_view.md), or even to create new ones. Pivy is not required to compile FreeCAD, but it is required at runtime when running Python-based workbenches that create shapes on screen, like [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md). Because of this, Pivy is normally installed when installing a distribution of FreeCAD.
+When imported in a running Python interpreter, Pivy allows us to communicate directly with any running Coin [scenegraph](Scenegraph.md), such as the [3D view](3D_view.md), or even to create new ones. Pivy is not required to compile FreeCAD, but it is required at runtime when running Python-based workbenches that create shapes on screen, like [Draft](Draft_Workbench.md) and [BIM](BIM_Workbench.md). Because of this, Pivy is normally installed when installing a distribution of FreeCAD.
 
 Библиотека Coin разделена на несколько частей, собственно Coin, для управления графами сцен и привязки к различным GUI системам, таким как Windows или Qt. Если эти модули присутствуют в системе, они также доступны для Pivy. Модуль Coin всегда присутствует, и это то что мы будем использовать в любом случае, поэтому мы не должны заботится о привязках нашего трёхмерного отображения к различным интерфейсам, что уже сделано в FreeCAD. Все что вам нужно, так это сделать это:
 
@@ -17,6 +17,8 @@ When imported in a running Python interpreter, Pivy allows us to communicate dir
 ```python
 from pivy import coin
 ```
+
+
 
 ## Древо сцены 
 
@@ -102,6 +104,8 @@ sg.removeChild(myCustomNode)
 
 {{Top}}
 
+
+
 ## Обратные вызовы 
 
 [Функция обратного вызова](http://ru.wikipedia.org/wiki/Callback_(программирование)) это система, позволяет библиотекам вроде нашей библиотеки Coin , возвращать вызов, то есть возможность вызова определенных функций с вашего запущенного объекта Python. Таким образом Coin может сообщить вам, что на сцене произошло конкретное событие. Coin может наблюдать за множеством различных вещей, таких как положение курсора, нажатия клавиши мыши, нажатые клавиши клавиатуры, и многое другое.
@@ -136,6 +140,8 @@ ButtonTest()
 
 
 {{Top}}
+
+
 
 ## Документация
 

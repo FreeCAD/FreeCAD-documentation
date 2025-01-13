@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Slope
    Name/fr: Draft Pente
-   MenuLocation: Modification , Pente
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Modification , Définir la valeur de la pente<br><br>BIM : Utilitaires , Définir la valeur de la pente
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Version: 0.17
 ---
 
@@ -22,9 +22,10 @@ La commande <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Draft
 
 1.  Sélectionnez une ou plusieurs [Draft Lignes](Draft_Line/fr.md) et/ou [Draft Polylignes](Draft_Wire/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Slope.svg" width=16px> [Pente](Draft_Slope/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Slope.svg" width=16px> Pente** du menu.
-3.  Saisissez une valeur de **Pente**. {{Value|0}} signifie que chaque segment est horizontal, {{Value|0.5}} signifie que la hauteur delta de chaque segment est {{Value|0.5}} fois sa longueur, etc. La valeur peut également être négative.
+    -   [Draft](Draft_Workbench/fr.md) : appuyez sur le bouton **<img src="images/Draft_Slope.svg" width=16px> [Définir la valeur de la pente](Draft_Slope/fr.md)**.
+    -   Draft : sélectionnez l\'option **Modification → <img src="images/Draft_Slope.svg" width=16px> Définir la valeur de la pente** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionnez l\'option **Utilitaires → <img src="images/Draft_Slope.svg" width=16px> Définir la valeur de la pente** du menu.
+3.  Saisissez une valeur de la **Pente**. {{Value|0}} signifie que chaque segment est horizontal, {{Value|0.5}} signifie que la différence de hauteur de chaque segment est {{Value|0.5}} fois sa longueur, etc. La valeur peut également être négative.
 4.  Appuyez sur **Entrée** ou sur le bouton **OK** pour terminer la commande.
 
 

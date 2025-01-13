@@ -5,7 +5,7 @@ This category lists pages related to the [Part Workbench/id](Part_Workbench/id.m
 
 |     |     |     |
 | --- | --- | --- |
-| [Part Module/id](Part_Module/id.md) |
+| [Part Workbench/id](Part_Workbench/id.md) |
 
 
 

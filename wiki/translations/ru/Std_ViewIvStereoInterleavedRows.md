@@ -25,30 +25,17 @@ The **Std ViewIvStereoInterleavedRows** command changes the active [3D view](3D_
 
 ## Настройки
 
--   Расстояние между глаз может быть изменено в настройках: **Правка → Настройки... → Отображение → Трёхмерный вид → Расстояние между глаз для стерео режима**. Смотри [Редактор настроек](Preferences_Editor/ru#3D_View.md).
+See [Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen#Preferences.md).
 
 ## Scripting
 
-
-**Смотрите так же:**
-
-[Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
-
-To change the view to interleaved rows stereo use the `setStereoType` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.setStereoType('InterleavedRows')
-FreeCADGui.ActiveDocument.ActiveView.getStereoType()
-```
+See [Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

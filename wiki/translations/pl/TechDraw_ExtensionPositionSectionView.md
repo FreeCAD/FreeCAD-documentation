@@ -15,7 +15,7 @@
 
 ## Opis
 
-Narzędzie **Wyrównaj widok przekroju** wyrównuje prostopadle widok przekroju z jego widokiem źródłowym. Można użyć [wybór widoku](#Użycie_wyboru_widoku.md) *({{Version/pl|0.22}})* lub [wybór krawędź i wierzchołków](#Użycie_wyboru_wierzchołków_krawędzi.md).
+Narzędzie **Wyrównaj widok przekroju** wyrównuje prostopadle widok przekroju z jego widokiem źródłowym. Można użyć [wybór widoku](#Użycie_wyboru_widoku.md) *({{Version/pl|1.0}})* lub [wybór krawędź i wierzchołków](#Użycie_wyboru_wierzchołków_krawędzi.md).
 
 
 

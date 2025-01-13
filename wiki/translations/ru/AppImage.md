@@ -19,9 +19,9 @@ chmod +x FreeCAD_xxx-x86_64.AppImage
 
 ## AppImage\'и FreeCAD\'а 
 
-  Stable                                                                                                                Development
+  Stable                                                                                                              Development
    
-  ![](images/AppImage-logo.png ) [v0.21.2](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.21.2)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
+  ![](images/AppImage-logo.png ) [v1.0.0](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/1.0.0)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
 
   : style=\"text-align: center; font-size: 150%; \| Available FreeCAD AppImages \|+
 
@@ -101,13 +101,7 @@ chmod +x path/to/updated/FreeCAD.AppImage
 -   Запустите `./appimageupdatetool-x86_64.AppImage --help`, чтобы узнать о таких функциях, как `--remove-old`, `--overwrite` и `--self-update`.
 -   Также есть версия i386; см. страницу [AppImageUpdate release](https://github.com/AppImage/AppImageUpdate/releases).
 
-
-<div class="mw-translate-fuzzy">
-
 Что нужно сделать: поделитесь скриптом, который можно добавить в качестве алиаса или задания [cron](https://ru.wikipedia.org/wiki/Cron).
-
-
-</div>
 
 
 

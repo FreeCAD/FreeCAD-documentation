@@ -14,23 +14,54 @@
 
 ## Opis
 
-**Wiązanie blokady** ma zastosowanie dla wiązań **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md)** i **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md)** związania wybranych wierzchołków *(punktów)* na szkicu. Jeśli wybrany zostanie pojedynczy wierzchołek, wówczas poziome i pionowe wiązania odległości będą odnosić się do punktu początkowego szkicu. Jeśli wybrane zostaną dwa lub więcej punktów, dla każdej pary punktów zostaną dodane wiązania odległości poziomej i pionowej. Nie pojawi się automatyczny monit o edycję wartości wiązań, należy je edytować ręcznie.
+Narzędzie <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;">**Wiązanie blokady odległości** nakłada [dystans poziomy](Sketcher_ConstrainDistanceX/pl.md) i [dystans pionowy](Sketcher_ConstrainDistanceY/pl.md) na punkty. Jeśli wybrany jest pojedynczy punkt, wiązania odnoszą się do początku szkicu. Jeśli wybrano dwa lub więcej punktów, ograniczenia odnoszą się do ostatniego punktu w zaznaczeniu.
 
 
 
 ## Użycie
 
-1.  Wybierz jeden lub więcej wierzchołków *(punktów)* na szkicu.
-2.  Naciśnij przycisk **[<img src=images/Sketcher_ConstrainLock.svg style="width:16px"> [Wiązanie zablokowania](Sketcher_ConstrainLock/pl.md)**.
-3.  Aby edytować wartości wiązania, kliknij dwukrotnie na wartość wiązania w oknie widoku 3D, lub kliknij dwukrotnie na wiązanie, lub kliknij prawym przyciskiem myszy i wybierz z listy Wiązanie w zakładce Zadania **Edytuj wartość**.
-
-**Uwaga:** Narzędzie wiązania może być również uruchomione bez wcześniejszego zaznaczenia obiektów. Będzie wtedy działało tylko na jednym wierzchołku i stosowało wiązania do punktu początku szkicu. Domyślnie polecenie jest aktywne w trybie kontynuacji, by utworzyć nowe wiązanie. Wciśnij raz prawy przycisk myszki lub klawisz **ESC**, by zakończyć działanie polecenia.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
 
 
-## Tworzenie skryptów 
+### [Tryb kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md) 
 
-Wiązanie <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Blokada wiązania](Sketcher_ConstrainLock/pl.md) jest poleceniem GUI, które tworzy wiązanie <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [odległości poziomej](Sketcher_ConstrainDistanceX/pl.md) oraz <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [odległości pionowej](Sketcher_ConstrainDistanceY/pl.md), i nie stanowi samodzielnego wiązania. Zobacz stronę [Skrypty Szkicownika](Sketcher_scripting/pl.md), aby uzyskać szczegóły i przykłady, jak tworzyć te wiązania za pomocą skryptów języka Python.
+1.  Upewnij się, że nie ma zaznaczenia.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   
+        {{Version/pl|1.0}}
+        
+        : Jeśli [ustawienie](Sketcher_Preferences/pl#Ogólne.md) **Wiązania wymiarów** jest aktywne i wybrano {{Value|Narzędzie pojedyncze}} *(domyślnie)*: naciśnij strzałkę w dół po prawej stronie przycisku **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** i wybierz opcję **<img src="images/Sketcher_ConstrainLock.svg" width=16px> Wiązanie blokady odległości** z rozwijanej listy.
+
+    -   Jeśli ta preferencja ma inną wartość ({{VersionMinus/pl|0.21}}): naciśnij przycisk **<img src="images/Sketcher_ConstrainLock.svg" width=16px> '''Wiązanie blokady odległości'''**.
+
+    -   Wybierz z menu opcję **Szkic → Wiązania szkicownika → <img src="images/Sketcher_ConstrainLock.svg" width=16px> Wiązanie blokady odległości**.
+
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz opcję **Wiązanie → <img src="images/Sketcher_ConstrainLock.svg" width=16px> Wiązanie blokady odległości** z menu podręcznego.
+
+    -   Użyj skrótu klawiaturowego: **K**, a następnie **L**.
+3.  Kursor zmieni się w krzyżyk z ikoną narzędzia.
+4.  Wybierz pojedynczy punkt.
+5.  Zostaną dodane dwa wiązania.
+6.  Opcjonalnie można kontynuować tworzenie wiązań.
+7.  Aby zakończyć, kliknij prawym przyciskiem myszy lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
+
+
+
+### Tryb jednorazowy 
+
+1.  Wybierz jeden lub więcej punktów.
+2.  Wywołaj narzędzie, jak wyjaśniono powyżej.
+3.  W zależności od wyboru dodawane są dwa lub więcej wiązań.
+
+
+
+## Uwagi
+
+-   Nie ma automatycznego monitu o edycję wartości wiązań. Jeśli jest to wymagane, wartości mogą być [edytowane](Sketcher_Workbench/pl#Edycja_wiązań.md).
 
 
 

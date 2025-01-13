@@ -1,81 +1,58 @@
 # Manual:Creating renderings/pl
 {{Manual:TOC}}
 
-In computer speak, the word [rendering](https://en.wikipedia.org/wiki/Rendering_%28computer_graphics%29) is used to describe a nice image produced from a 3D model. Of course, we could say that what we see in the FreeCAD 3D view is already nice. However, anybody who has seen a recent Hollywood movie, knows that it is possible to produce images with a computer that are almost indistinguishable from a photograph.
+[Renderowanie](https://pl.wikipedia.org/wiki/Renderowanie) to proces tworzenia bardzo realistycznych obrazów z modeli 3D poprzez symulację oświetlenia, materiałów i tekstur. Jest powszechnie stosowane w branżach takich jak film, gry wideo i projektowanie produktów, gdzie fotorealistyczne wizualizacje są niezbędne do prezentowania projektów lub koncepcji. Choć renderowanie może tworzyć obrazy, które przypominają realistyczne fotografie, wymaga specjalistycznych narzędzi do kontrolowania takich elementów jak oświetlenie, odbicia i cienie.
 
-Of course, producing photo-realistic images requires a lot of work, in addition to a 3D application that offers specific tools for that purpose, such as precise controls for materials and lighting. Because FreeCAD is an application geared more towards technical modelling, it does not feature any advanced rendering tools.
+FreeCAD koncentruje się jednak głównie na modelowaniu technicznym, a nie na efektach artystycznych czy wizualnych. Jego głównym celem jest tworzenie precyzyjnych modeli 3D na potrzeby inżynierii, projektowania i produkcji. W rezultacie FreeCAD nie posiada zaawansowanych, wbudowanych narzędzi renderujących do fotorealizmu.
 
-+Fortunately, the open source world offers many applications to produce realistic images. The most famous one is probably [Blender](http://www.blender.org), which is very popular, and widely used in the film and gaming industries. 3D models can very easily and faithfully be exported from FreeCAD and imported into Blender, where you can add realistic materials and illumination, and produce the final images or even animations.
+FreeCAD oferuje jednak [środowisko pracy Render](https://github.com/FreeCAD/FreeCAD-render?tab=readme-ov-file), które można zainstalować jako dodatek (nie jest to jedno z domyślnych środowisk pracy). To środowisko pracy pozwala użytkownikom łączyć modele FreeCAD z zewnętrznymi silnikami renderującymi, takimi jak Blender Cycles, LuxCoreRender czy POV-Ray. Dzięki środowisku pracy Render użytkownicy mogą wykorzystać swoje modele i skorzystać z potężnych zewnętrznych narzędzi do renderowania projektów z realistycznym oświetleniem i teksturami. Takie podejście utrzymuje FreeCAD jako lekkie i skoncentrowane oprogramowanie, zapewniając jednocześnie elastyczność w zakresie fotorealistycznego renderowania, gdy jest to potrzebne.
 
-Some other open source rendering tools are made to be used inside other applications, and will take care of doing the complex calculations to produce realistic images. Through its [Raytracing Workbench](Raytracing_Workbench.md), FreeCAD can use two of these rendering tools: [POV-Ray](https://en.wikipedia.org/wiki/POV-Ray) and [Luxrender](https://en.wikipedia.org/wiki/LuxRender). POV-Ray is a very old project, and is considered a classical [raytracing](https://en.wikipedia.org/wiki/Ray_tracing_%28graphics%29) engine, while Luxrender is much newer, and is categorized as an [unbiased](https://en.wikipedia.org/wiki/Unbiased_rendering) renderer. Both have their strengths and weaknesses, depending on the type of image one wants to render. The best way to know is to look at examples on each engine\'s website.
+Środowisko pracy Render w FreeCAD integruje się z kilkoma zewnętrznymi rendererami, w tym [LuxCoreRender](https://en.wikipedia.org/wiki/LuxRender), [POV-Ray](https://en.wikipedia.org/wiki/POV-Ray) i [Blender Cycles](https://www.cycles-renderer.org/). LuxCoreRender to nowoczesny, oparty o fizykę silnik renderujący, który generuje fotorealistyczne obrazy, ale wymaga znacznej mocy obliczeniowej, zwłaszcza przy dużych scenach. POV-Ray, choć starszy, pozostaje niezawodnym silnikiem [raytracingowym](https://pl.wikipedia.org/wiki/%C5%9Aledzenie_promieni) i jest mniej zasobożerny, choć brakuje mu realizmu nowszych technologii. Blender Cycles, dostępny we FreeCAD po zainstalowaniu Blendera, oferuje potężne rozwiązanie renderujące z obsługą GPU i CPU, umożliwiające efektywne tworzenie wysokiej jakości obrazów. Wymaga jednak oddzielnej instalacji Blendera i eksportu modeli do tego programu w celu renderowania. Każdy z tych rendererów ma swoje mocne strony, w zależności od potrzeb użytkownika w zakresie realizmu, wydajności i możliwości systemowych. Najlepszym sposobem na wybór odpowiedniego silnika jest zapoznanie się z przykładami na stronach internetowych każdego z nich.
 
-### Installation
 
-Before being able to use the Raytracing Workbench in FreeCAD, one of these two rendering applications needs to be installed on your system. This is usually very straightforward. They both provide installers for many platforms or are usually included in the software repositories of most Linux distributions.
 
-Once POV-Ray or Luxrender is installed, we need to set the path to their main executable in the FreeCAD preferences. This is usually only required on Windows and Mac. On Linux, FreeCAD will pick it from the standard locations. The location of the povray or luxrender executables can be found by searching your system for files named povray (or povray.exe on Windows) and luxrender (or luxrender.exe on Windows).
+### Instalacja
 
-![](images/Exercise_raytracing_01.jpg )
+Przed użyciem środowiska pracy Render w FreeCAD należy zainstalować zarówno samo środowisko pracy (jak pokazano w [tej sekcji](https://wiki.freecad.org/Manual:Installing#Installing_additional_content)), jak i jedną z zewnętrznych aplikacji renderujących, takich jak LuxCoreRender, POV-Ray lub Blender Cycles (wraz z zainstalowanym Blenderem). Instalacja tych aplikacji jest zazwyczaj prosta, ponieważ dostarczają one instalatory dla różnych platform i często znajdują się w repozytoriach oprogramowania w dystrybucjach Linuksa. Po zainstalowaniu tych narzędzi możliwe będzie połączenie programu FreeCAD z wybranymi silnikami renderującymi w celu generowania wysokiej jakości obrazów.
 
-In this preferences screen we can also set the desired image size we want to produce.
+Po zainstalowaniu POV-Ray lub LuxCorerender, musimy ustawić ścieżkę do ich głównego pliku wykonywalnego w preferencjach FreeCAD. Zazwyczaj jest to wymagane tylko w systemach Windows i Mac. W systemie Linux FreeCAD wybierze go ze standardowych lokalizacji. Lokalizację plików wykonywalnych povray lub luxrender można znaleźć, wyszukując w systemie pliki o nazwie povray *(lub povray.exe w systemie Windows)* i luxrender *(lub luxrender.exe w systemie Windows)*. W zakładce **Preferencje** można wprowadzić ścieżkę i ustawić pewne parametry.
 
-### Rendering with PovRay 
+![](images/FreeCAD_Render_Preferences.png )
 
-We will use the table we have been modelling in the [traditional modeling](Manual:Traditional_modeling,_the_CSG_way.md) chapter to produce renderings with PovRay and Luxrender.
 
--   Start by loading the table.FCStd file that we modelled earlier or from the link at the bottom of this chapter.
--   Press the small down arrow next to the <img alt="" src=images/Raytrace_New.svg  style="width:16px;"> [New Povray project](Raytracing_New.md) button, and choose the **RadiosityNormal** template
--   A warning message might appear telling you that the current 3D view is not in perspective mode and the rendering will therefore differ. Correct this by choosing **No**, choosing menu **View-\>Perspective view** and choosing the RadiosityNormal template again.
--   You can also try other templates after you create a new project, simply by editing its **Template** property.
--   A new project has now been created:
 
-![](images/Exercise_raytracing_02.jpg )
+### Renderowanie przy użyciu PovRay 
 
--   The new project has adopted the point of view of the 3D view as it was at the moment we pressed the button. We can change the view, and update the view position stored in the Povray project anytime, by pressing the <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:16px;"> [Reset camera](Raytracing_ResetCamera.md) button.
--   The Raytracing Workbench works the same way as the [Drawing Workbench](Drawing_Workbench.md): Once a project folder is created, we must add **Views** of our objects to it. We can now do that by selecting all the objects that compose the table, and press the <img alt="" src=images/Raytrace_NewPartSegment.svg  style="width:16px;"> [Insert part](Raytracing_InsertPart.md) button:
+Wykorzystamy stół, który modelowaliśmy w rozdziale [tradycyjne modelowanie](Manual:Traditional_modeling,_the_CSG_way/pl.md), aby stworzyć rendery za pomocą PovRay.
 
-![](images/Exercise_raytracing_03.jpg )
+-   Zacznij od załadowania pliku table.FCStd, który modelowaliśmy wcześniej lub pobrania go z linku na dole tego rozdziału, a następnie przejdź do <img alt="" src=images/Render_workbench_icon.svg  style="width:16px;"> [środowiska pracy Render](https://github.com/FreeCAD/FreeCAD-render).
+-   Utwórz projekt renderowania, naciskając przycisk na pasku narzędzi odpowiadający wybranemu silnikowi renderującemu. W naszym przykładzie wybierzemy <img alt="" src=images/Render_Povray.svg  style="width:16px;"> renderer povray.
+-   Wybierz szablon odpowiedni dla Twojego projektu. W naszym przypadku użyjemy szablonu **povray_sunlight.pov**.
+-   Możesz także wypróbować inne szablony po utworzeniu nowego projektu, po prostu edytując jego właściwość *Template*.
+-   Nowy projekt został utworzony:
 
--   The views have taken the color and transparency values from their original parts, but you can change that in the properties of each individual view if you wish.
--   We are now ready to produce our first Povray render. Press the <img alt="" src=images/Raytrace_Render.svg  style="width:16px;"> [Render](Raytracing_Render.md) button.
--   Note for windows users: when receiving (in Povray) a warning saying \"I/O restrictions prohibit write access \...\"
-    -   open Povray
-    -   choose \"Options \> Script I/O Restrictions\" and make sure it is set to \"No Restrictions\"
-    -   retry render
--   You will be asked to give a file name and path for the .png image that will be saved by Povray.
--   Povray will then open and calculate the image.
--   When this is done, click the image to close the Povray window. The resulting image will be loaded in FreeCAD:
+![](images/FreeCAD_Render_Project.png )
 
-![](images/Exercise_raytracing_04.jpg )
+-   Możesz dodać żądane obiekty do projektu, zaznaczając je i wybierając opcję <img alt="" src=images/Render_RenderingView.svg  style="width:16px;"> [Widok renderowania](Render_RenderingView/pl.md).
 
-### Rendering with LuxRender 
+![](images/FreeCAD_Render_Bodies.png )
 
--   Rendering with Luxrender works almost the same way. We can leave our file open and create a new Luxrender project in the same file, or reload it to start from scratch.
--   Press the little down arrow next to the <img alt="" src=images/Raytrace_Lux.svg  style="width:16px;"> [New Luxrender project](Raytracing_Lux.md) button and choose the **LuxOutdoor** template.
--   Select all the components of the table. If you still have the Povray project in your document, be sure to also select the Luxrender project itself, so the views created in the next step won\'t go in the wrong project by mistake.
--   Press the <img alt="" src=images/Raytrace_NewPartSegment.svg  style="width:16px;"> [Insert part](Raytracing_InsertPart.md) button.
--   Select the Luxrender project, and press the <img alt="" src=images/Raytrace_Render.svg  style="width:16px;"> [Render](Raytracing_Render.md) button.
--   Luxrender works differently to Povray. When you start the render, the Luxrender application will open and immediately start rendering:
+-   Jeśli chcemy, możemy przypisać materiał do naszych obiektów, wybierając <img alt="" src=images/Arch_SetMaterial.svg  style="width:16px;"> [Materiał](Arch_SetMaterial/pl.md). W naszym przypadku wybierzemy opcję matte.
+-   Teraz możemy nacisnąć przycisk <img alt="" src=images/Render_workbench_icon.svg  style="width:16px;">, a wyrenderowany rezultat pojawi się w osobnym oknie.
 
-![](images/Exercise_raytracing_05.jpg )
+![](images/FreeCAD_Render_Result.png )
 
--   If you leave that window open, Luxrender will continue calculating and rendering forever, progressively refining the image. It is up to you to decide when the image has reached a sufficient quality for your needs, and stop the render.
--   There are also many controls to play with, on the left panel. All these controls will change the aspect of the image being rendered on the fly, without stopping the rendering.
--   When you feel the quality is good enough, press **Render-\>stop**, and then **File-\>Export to image-\>Tonemapped low dynamic range** to save the rendered image to a png file.
+Prawdę mówiąc, końcowy rezultat nie jest szczególnie imponujący. Proces renderowania jest iteracyjny i wymaga czasu oraz cierpliwości, aby osiągnąć wysokiej jakości efekty. Dodatkowo, jak wspomniano wcześniej, POV-Ray jest nieco ograniczony pod względem realizmu. Zachęcamy do eksperymentowania z różnymi silnikami renderującymi. Procedura pozostaje w dużej mierze taka sama, z tą różnicą, że na początku procesu wybierany jest inny silnik renderujący.
 
-You can greatly extend the rendering possibilities of FreeCAD by creating new templates for Povray or Luxrender. This is explained in the [Raytracing Workbench](Raytracing_Workbench.md) documentation.
+**Do pobrania**
 
-**Downloads**
+-   Model tabeli: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/table.FCStd>
+-   Plik wygenerowany podczas tego ćwiczenia: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/render.FCStd>
 
--   The table model: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/table.FCStd>
--   The file produced during this exercise: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/render.FCStd>
+**Więcej informacji:**
 
-**Read more**
-
--   [The Raytracing Workbench](Raytracing_Workbench.md)
 -   [Blender](http://www.blender.org)
 -   [POV-Ray](http://www.povray.org)
--   [Luxrender](http://www.luxrender.net)
 
 
 

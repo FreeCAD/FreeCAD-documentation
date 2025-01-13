@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw Midpoints
    Name/fr: TechDraw Points médians
-   MenuLocation: TechDraw , Ajouter des sommets , Ajouter des sommets de points médians
+   MenuLocation: TechDraw , Ajouter des sommets , Ajouter des points médians
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_CosmeticVertex/fr, TechDraw_Quadrants/fr
@@ -24,14 +24,14 @@ L\'outil **TechDraw Points médians** ajoute des [points cosmétiques](TechDraw_
 1.  Sélectionner une ou plusieurs arêtes dans une vue.
 2.  Il y a plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_Midpoints.svg" width=16px> [Ajouter des sommets de points médians](TechDraw_Midpoints/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Ajouter des sommets → <img src="images/TechDraw_Midpoints.svg" width=16px> Ajouter des sommets de points médians** du menu.
+    -   Sélectionnez l\'option **TechDraw → Ajouter des sommets → <img src="images/TechDraw_Midpoints.svg" width=16px> Ajouter des points médians** du menu.
 
 
 
 ## Remarques
 
 -   Les sommets cosmétiques créés ne sont pas paramétriquement liés aux arêtes sélectionnées.
--   Pour supprimer un sommet cosmétique, utilisez <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw Supprimer l\'objet cosmétique](TechDraw_CosmeticEraser.md).
+-   Pour supprimer un sommet cosmétique, sélectionnez-le et appuyez sur **Supprimer**. {{Version/fr|1.0}}
 
 
 

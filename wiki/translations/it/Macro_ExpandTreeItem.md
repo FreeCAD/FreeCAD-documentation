@@ -1,56 +1,36 @@
 # Macro ExpandTreeItem/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro ExpandTreeItem
-|Translate=Macro ExpandTreeItem
-|Description=Nella vista della struttura espande l'albero selezionato e tutti gli alberi secondari.
+|Icon=Macro_ExpandTreeItem.svg
+|Description=Questa macro espande l'albero selezionato e tutti i sottoalberi nella visualizzazione ad albero.<br/>Se non c'è alcuna selezione, tutti gli alberi vengono espansi.
 |Author=wmayer, UR_
-|Version=00.00
-|Date=2018-07-11
+|Version=00.02
+|Date=2019-07-25
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/9/94/Macro_ExpandTreeItem.svg ToolBar Icon]
 }}
 
 
-</div>
 
 ## Descrizione
 
 Espande l\'albero selezionato e tutti i sottoalberi nella vista ad albero.
 
+se l\'albero selezionato è già espanso, questo albero e tutti gli alberi secondari verranno compressi.
 
-<div class="mw-translate-fuzzy">
-
-se l\'albero selezionato è già espanso, questo albero e tutti gli alberi secondari vengono compressi
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-se non ci sono selezioni vengono compressi
-
-
-</div>
+se non ci sono selezioni, tutti gli alberi vengono espansi.
 
 ![](images/Collapsed00.gif )
 
 
-<div class="mw-translate-fuzzy">
 
-## Uso
-
-
-</div>
+## Utilizzo
 
 Copiare la macro nella directory macro, creare la barra degli strumenti e avviare la macro.
 
 ## Script
 
-ToolBar Icon .PNG ![](images/Macro_ExpandTreeItem.png ) and the .SVG ![](images/Macro_ExpandTreeItem.svg )
+Icona della barra degli strumenti .PNG ![](images/Macro_ExpandTreeItem.png ) e .SVG ![](images/Macro_ExpandTreeItem.svg )
 
 **Macro_ExpandTreeItem.FCMacro**
 

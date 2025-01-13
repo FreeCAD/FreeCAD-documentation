@@ -35,7 +35,7 @@ FreeCAD unterstützt von Haus aus einige Softwarepakete von Drittanbietern. In v
 
 ### OpenCAMLib
 
-[OpenCAMLib](http://www.anderswallin.net/CAM) ist eine Open Source Bibliothek für Computergestützte Fertigung (engl.: computer aided manufacturing (CAM)) Algorithmen. Sie wird im [Pfad Arbeitsbereich](Path_Workbench/de.md) verwendet. Siehe die [OpenCamLib](OpenCamLib/de.md) Seite zu Installationsanweisungen.
+[OpenCAMLib](http://www.anderswallin.net/CAM) ist eine Open Source Bibliothek für Computergestützte Fertigung (engl.: computer aided manufacturing (CAM)) Algorithmen. Sie wird im Arbeitsbereich [CAM](CAM_Workbench/de.md) verwendet. Siehe die [OpenCamLib](OpenCamLib/de.md) Seite zu Installationsanweisungen.
 
 ### OpenSCAD
 
@@ -89,11 +89,11 @@ Siehe [Import Export Einstellungen](Import_Export_Preferences/de#DWG.md), [FreeC
 
 ### LuxCoreRender
 
-[LuxCoreRender](https://www.luxcorerender.org) ist eine Render Maschine, ein Neustart des [LuxRender](LuxRender/de.md) Projekts. Offiziell wird sie nicht von der [Arbeitsbereich Strahlverfolgung](Raytracing_Workbench/de.md) unterstützt, aber es könnte sich lohnen, sie auszuprobieren. Es wird offiziell von der neuen [Render Arbeitsbereich](https://github.com/FreeCAD/FreeCAD-render) unterstützt, die als zukünftiger Ersatz für den Arbeitsbereich Strahlverfolgung gedacht ist. Auf der Seite [LuxCoreRender](LuxCoreRender/de.md) findest du weitere Informationen und Installationsanweisungen.
+[LuxCoreRender](https://www.luxcorerender.org) ist eine Render-Maschine, ein Neustart des [LuxRender](LuxRender/de.md)-Projekts. Offiziell wird sie nicht vom Arbeitsbereich [Raytracing](Raytracing_Workbench/de.md) unterstützt, aber es könnte sich lohnen, sie auszuprobieren. Sie wird offiziell vom neuen Arbeitsbereich [Render](https://github.com/FreeCAD/FreeCAD-render) unterstützt, der als zukünftiger Ersatz für den Arbeitsbereich Raytracing gedacht ist. Auf der Seite [LuxCoreRender](LuxCoreRender/de.md) findet man weitere Informationen und Installationsanweisungen.
 
 ### LuxRender
 
-[https://luxcorerender.org/history/ LuxRender](https://luxcorerender.org/history/_LuxRender.md) ist eine der beiden Render Maschinen, die von der [Arbeitsbereich Strahlverfolgung](Raytracing_Workbench/de.md) unterstützt werden. Im Jahr 2013 wurde das Projekt neu gestartet und wurde zu [LuxCoreRender](LuxCoreRender/de.md), wobei der Code neu geschrieben und die Kompatibilität verbessert wurde. Offiziell unterstützt der Arbeitsbereich Strahlverfolgung nur noch den aufgegebenen [LuxRender](LuxRender/de.md) (letzte Version ist 1.6, 2017-12-28), während der neue [Render Arbeitsbereich](https://github.com/FreeCAD/FreeCAD-render) (gedacht als zukünftiger Ersatz des Arbeitsbereich Strahlverfolgung) stattdessen LuxCoreRender unterstützt und die Unterstützung für LuxRender eingestellt hat. Wie auch immer, auch wenn es offiziell nicht unterstützt wird, kann [LuxCoreRender](LuxCoreRender/de.md) mit dem Arbeitsbereich Strahlverfolgung funktionieren, es könnte sich lohnen, es auszuprobieren. Siehe die [LuxRender](LuxRender/de.md) Seite für weitere Informationen und Installationsanweisungen, und den [LuxCoreRender](LuxCoreRender/de.md), wenn du eine modernere Software ausprobieren möchtest.
+[https://luxcorerender.org/history/ LuxRender](https://luxcorerender.org/history/_LuxRender.md) ist eine der beiden Render-Maschinen, die vom Arbeitsbereich [Raytracing](Raytracing_Workbench/de.md) unterstützt werden. Im Jahr 2013 wurde das Projekt neu gestartet und wurde zu [LuxCoreRender](LuxCoreRender/de.md), wobei der Code neu geschrieben und die Kompatibilität verbessert wurde. Offiziell unterstützt der Arbeitsbereich Raytracing nur noch den aufgegebenen [LuxRender](LuxRender/de.md) (letzte Version ist 1.6, 2017-12-28), während der neue Arbeitsbereich [Render](https://github.com/FreeCAD/FreeCAD-render) (gedacht als zukünftiger Ersatz des Arbeitsbereichs Raytracing) stattdessen LuxCoreRender unterstützt und die Unterstützung für LuxRender eingestellt hat. Wie auch immer, auch wenn es offiziell nicht unterstützt wird, kann [LuxCoreRender](LuxCoreRender/de.md) mit dem Arbeitsbereich Raytracing funktionieren, es könnte sich lohnen, ihn auszuprobieren. Siehe die Seite [LuxRender](LuxRender/de.md) für weitere Informationen und Installationsanweisungen und [LuxCoreRender](LuxCoreRender/de.md), um eine modernere Software auszuprobieren.
 
 
 

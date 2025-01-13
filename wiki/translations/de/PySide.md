@@ -5,7 +5,7 @@ Die [PySide](PySide.md) Bibliothek ermöglicht den Zugriff auf das plattformübe
 
 Wenn du FreeCAD installierst, solltest du sowohl Qt als auch PySide als Teil des Pakets erhalten. Wenn du selbst [Kompilierst](Compiling/de.md), dann musst du überprüfen, ob diese beiden Bibliotheken installiert sind, damit FreeCAD korrekt läuft. Natürlich wird PySide nur funktionieren, wenn Qt vorhanden ist.
 
-In der Vergangenheit benutzte FreeCAD PyQt, eine weitere Qt-Einbindung für Python, aber 2013 ([commit 1dc122dc9a](https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) migrierte das Projekt zu PySide, weil es eine umfassendere [Lizenz](licence/de.md) hat.
+In der Vergangenheit benutzte FreeCAD PyQt, eine weitere Qt-Einbindung für Python, aber 2013 ([commit 1dc122dc9a](https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) migrierte das Projekt zu PySide, weil es eine umfassendere [Lizenz](License/de.md) hat.
 
 Für weitere Informationen siehe:
 
@@ -14,6 +14,8 @@ Für weitere Informationen siehe:
 
 ![](images/PySideScreenSnapshot1.jpg ) ![](images/PySideScreenSnapshot2.jpg ) 
 *Mit PySide erstellte Beispiele. Links: ein einfacher Dialog. Rechts: ein komplexerer Dialog mit Diagrammen.*
+
+
 
 ## PySide in FreeCAD mit Qt5 
 
@@ -37,7 +39,7 @@ PySide2.QtUiTools -> PySide.QtUiTools
 Der einzige ungewöhnliche Aspekt ist, dass die `PySide2.QtWidgets` Klassen im `PySide.QtGui` Namensraum platziert werden. 
 ```python
 PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
-``` {{Top}}
+```
 
 ## Beispiele für PySide Verwendung 
 
@@ -47,7 +49,7 @@ PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
 
 Die Beispiele von PySide sind in 3 Teile unterteilt, die sich nach dem Grad der Exposition gegenüber PySide, Python und den FreeCAD Interna unterscheiden. Die erste Seite gibt einen Überblick über PySide; die zweite und dritte Seite sind meist Code Beispiele auf verschiedenen Niveaus.
 
-Es wird erwartet, dass diese Beispiele für den Anfang nützlich sind, und danach kann der Benutzer andere Ressourcen online oder die offizielle Dokumentation hinzuziehen. {{Top}}
+Es wird erwartet, dass diese Beispiele für den Anfang nützlich sind, und danach kann der Benutzer andere Ressourcen online oder die offizielle Dokumentation hinzuziehen. 
 
 ## Dokumentation
 

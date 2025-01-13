@@ -1,50 +1,40 @@
-# Robot InsertWaypoint/de
 ---
- GuiCommand:   Name: Robot InsertWaypoint   Workbenches: Robot_Workbench/de   Robot|MenuLocation: Roboter , In Bewegungsbahn einfügen   Shortcut: A   SeeAlso: 
+ GuiCommand:
+   Name: Robot InsertWaypoint
+   Name/de: Robot Wegpunkt einfügen
+   MenuLocation: Robot , In Bewegungsbahn einfügen
+   Workbenches: Robot_Workbench/de
+   Shortcut: **A**
+   SeeAlso: 
+---
+
+# Robot InsertWaypoint/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-### Beschreibung
-
-Einfügen eines Wegpunkts aus der aktuellen Roboter-(Werkzeug)-Position in eine Bewegungsbahn.
+Einfügen eines Wegpunktes aus der aktuellen Roboter-(Werkzeug)-Position in eine Bewegungsbahn.
 
 
-</div>
 
-## Usage
+## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-#### Anwendung
-
-1.  Selektieren Sie Roboter und Bewegungsbahn in der Baumansicht
-2.  Klicken Sie <img alt="" src=images/Robot_InsertWaypoint.png  style="width:32px;"> oder wählen Sie ** Roboter** → **<img src="images/Robot_InsertWaypoint.png" width=32px> In Bewegungsbahn einfügen** aus dem Top-Menü.
+1.  Einen Roboter und eine Bewegungsbahn in der [Baumansicht](Tree_view/de.md) auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:32px;"> anklicken.
+    -   Das Tastaturkürzel **A**.
+    -   Den Menüeintrag **Robot** → **<img src="images/Robot_InsertWaypoint.svg" width=32px> In Bewegungsbahn einfügen** auswählen.
 
 
-</div>
 
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-#### Anmerkungen
+## Hinweise
 
 Bewegen eines Roboters erfolgt durch
 
-1.  Selektieren des Roboters
-2.  Wechseln zum \"Aufgaben\"-Reiter
+1.  Auswählen des Roboters
+2.  Wechseln zum \"Aufgaben\"-Fenster
 3.  Ziehen der Schieber, um den Roboter zu bewegen
-
-
-</div>
 
 
 

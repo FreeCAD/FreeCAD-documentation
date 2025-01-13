@@ -23,5 +23,13 @@ Należy zauważyć, że ścianki tworzą trójkąty, a ich wartości całkowite 
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch JSON/pl
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch JSON/pl

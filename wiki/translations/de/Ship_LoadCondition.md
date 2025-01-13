@@ -1,10 +1,9 @@
 ---
  GuiCommand:
    Name: Ship Loading
-   Name/de: Schiffsbelastung
-   MenuLocation: Gewichte , Erstelle eine neue Ladebedingung
-|
-   Workbenches: Ship Workbench/de
+   Name/de: Ship Beladungszustand
+   MenuLocation: Weights , Create a new loading condition
+   Workbenches: Ship_Workbench/de
    Shortcut: 
    SeeAlso: 
 ---
@@ -12,39 +11,17 @@
 # Ship LoadCondition/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-## Einführung
-
-ZUTUN
+in Arbeit\...
 
 
-</div>
 
 ## Tutorien
 
-
-<div class="mw-translate-fuzzy">
-
--   [FreeCAD Schiffs s60 Tutorium](FreeCAD-Ship_s60_tutorial/de.md)
--   [FreeCAD Schiffs s60 Tutorium (II)](FreeCAD-Ship_s60_tutorial_(II)/de.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   [FreeCAD-Ship s60 Anleitung ](FreeCAD-Ship_s60_tutorial/de.md)
+-   [FreeCAD-Ship s60 Anleitung (II)](FreeCAD-Ship_s60_tutorial_(II)/de.md)
 
 
 

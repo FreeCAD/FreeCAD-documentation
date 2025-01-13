@@ -10,6 +10,8 @@
 
 # FEM EquationFlux/de
 
+## Description
+
 Diese Gleichung wird für die Berechnung der Flussgrößen verwendet, die normalerweise aus poisson-artigen Gleichungen resultieren. Diese enthalten die <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [FEM GleichungWärme](FEM_EquationHeat/de.md) und die <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [FEM GleichungElektrostatik](FEM_EquationElectrostatic/de.md).
 
 For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Flux Computation*.

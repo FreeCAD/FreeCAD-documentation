@@ -23,26 +23,23 @@ La commande <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:2
     -   Appuyez sur le bouton **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Calculateur de trous de vis](Fasteners_ScrewCalculator/fr.md)**.
     -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_ScrewCalculator.svg" width=16px> Calculateur de trous de vis** du menu.
 
-2.  La boîte de dialogue **Calculateur de trous de vis** s\'ouvre.
+2.  La fenêtre de dialogue **Calculateur de trous de vis** s\'ouvre.
 
 3.  Spécifiez le **Type de fixation** et le **Diamètre de la vis**.
 
 4.  
     **Diamètre du trou proposé**s\'affiche.
 
-5.  La boîte de dialogue est sans modèle, ce qui signifie qu\'elle peut rester ouverte pendant que vous continuez à travailler dans FreeCAD.
+5.  La fenêtre de dialogue est sans modèle, ce qui signifie qu\'elle peut rester ouverte pendant que vous continuez à travailler dans FreeCAD.
 
-6.  Appuyez sur le bouton **Fermer** (fourni par le système d\'exploitation) pour fermer la boîte de dialogue.
-
-
+6.  Appuyez sur le bouton **Fermer** (fourni par le système d\'exploitation) pour fermer la fenêtre de dialogue.
 
 
 
-{{Fasteners Tools navi
 
-}}
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ScrewCalculator/fr
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners ScrewCalculator/fr

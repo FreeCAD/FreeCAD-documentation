@@ -23,7 +23,7 @@ La commande **Std Barre d\'état** bascule l\'affichage de la [Barre d\'état](S
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

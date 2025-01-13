@@ -1,64 +1,37 @@
 # Combo view/de
 ## Einleitung
 
-Die [Comboansicht](combo_view/de.md) ist eines der Hauptpaneele in der FreeCAD [Benutzeroberfläche](interface/de.md). Sie befindet sich standardmäßig auf der linken Seite des Bildschirms. Sie ist \'\'zusammengesetzt aus zwei Abschnitten\", der:
+Die [Combo-Ansicht](Combo_view/de.md) wird in einem Fenster namens **Modell** angezeigt. Es kombiniert die [Baumansicht](Tree_view/de.md) (oberer Abschnitt) und den [Eigenschafteneditor](Property_editor/de.md) (unterer Abschnitt).
 
--   [Oberer Bereich](#Upper_section/de.md), der zwei Reiter enthält: den **Modell** Reiter und **Aufgaben Reiter**
--   [Unterer Bereich](#Lower_section/de.md) zeigt den [Eigenschafteneditor](property_editor/de.md). Er enthält zwei Reiter: die **Ansicht** und **Daten** Eigenschaften. Der [Eigenschafteneditor](property_editor/de.md) wird nur angezeigt, wenn der **Modell** Reiter **aktiv** ist, d. h. wenn die [Baumansicht](tree_view/de.md) sichtbar ist.
+Das [Aufgaben-Fenster](Task_panel/de.md), das Bestandteil der Combo-Ansicht war, ist ein separates Fenster namens \"Aufgaben\" in {{VersionPlus/de|1.0}}. Es kann über der Combo-Ansicht [angedockt](#Aufgaben-Fenster_über_der_Combo-Ansicht_andocken.md) werden um das kompakte Layout früherer Versionen zu erhalten.
 
-
-**Hinweis:**
-
-Ursprünglich war der obere Teil ([Baumansicht](tree_view/de.md)) vom unteren Teil ([Eigenschaftseditor](property_editor/de.md)) getrennt, aber dann wurden sie kombiniert und so wurde die \"Combo\" ansicht erstellt.
+![](images/Combo_View_Example.png ) 
+*Die Combo-Ansicht (Model-Reiter) mit angedocktem Aufgaben-Fenster (Tasks-Reiter)*
 
 
 
-## Oberer Bereich 
+## Aufgaben-Fenster über der Combo-Ansicht andocken 
 
-Die Registerkarte **Modell** zeigt die Registerkarte [Baumansicht](tree_view/de.md), die eine Darstellung des Inhalts des Dokuments ist, einschließlich 2D- und 3D-Geometrie mit ihrer parametrischen Historie, aber auch unterstützende Objekte, die im Dokument gespeicherte Daten enthalten.
-
-Die Registerkarte **Aufgaben** zeigt die Registerkarte [Aufgabenleiste](task_panel/de.md), die je nach aktivem Arbeitsbereich und aktivem Werkzeug unterschiedliche Aktionen anzeigt.
-
-<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="600px;">
-
-
-
-*Die Kombiansicht hat zwei Registerkarten: die Registerkarte Modell, die die Anzeige der [Baumansicht](tree_view/de.md) und der [Eigenschaftseditor](property_editor/de.md), und die Registerkarte Aufgaben, die die Anzeige der [Aufgabenpanel](task_panel/de.md).*
+1.  Sicherstellen, dass die Combo-Ansicht an einer Kante des FreeCAD-Fensters angedockt ist.
+2.  Den Mauszeiger nach ganz oben im Aufgaben-Fenster bewegen.
+3.  Der Pfeil wird zu einer Hand.
+4.  Die linke Maustaste gedrückt halten und das Aufgaben-Fenster über die Combo-Ansicht ziehen.
+5.  Vertikal bewegen bis sowohl der obere als auch der untere Abschnitt der Combo-Ansicht hervorgehoben werden.
+    <img alt="" src=images/Tasks_Dockable.png  style="width:200px;">
+6.  Die Maustaste loslassen.
 
 
 
-## Unterer Bereich 
+## Einstellungen
 
-Der untere Teil der Comboansicht zeigt den [Eigenschaftseditor](property_editor/de.md), der zwei Reiter anzeigt für **Ansicht** und **Daten** Eigenschaften. Der Eigenschaftseditor wird nur angezeigt, wenn der **Modell** Reiter aktiv ist, d. h. wenn die [Baumansicht](tree_view/de.md) sichtbar ist.
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
 
--   Der **Ansicht** Reiter zeigt Visualisierungseigenschaften der Objekte, die nur ihr Aussehen in der [3D Ansicht](3D_view/de.md) beeinflussen.
-
--   Der **Daten** Reiter zeigt die parametrischen Eigenschaften der Objekte, die bestimmen, wie die geometrischen Formen wirklich definiert werden.
-
-<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width:" height="600px;">
+Die Combo-Ansicht steht zur Verfügung, wenn **Bearbeiten → Einstellungen... → Allgemein → Allgemein → Anzeige von Baumansicht und Eigenschaften-Ansicht** auf {{Value|Kombiniert}} eingestellt ist. Ist {{Value|Eigenständig}} eingestellt, werden Baumansicht und Eigenschaften-Ansicht als separate Fenster angezeigt.
 
 
+{{Interface_navi
 
-*Der untere Teil der Comboansicht ist der Eigenschaftseditor, der die Eigenschaften von Ansicht und Daten anzeigt.*
-
-## Deaktivieren der Comboansicht 
-
-Um diese Ansichten selbst zu verwenden, verwende die Option [Parametereditor](Std_DlgParameter/de.md). Legen Sie die folgenden Untergruppen an, wenn sie nicht vorhanden sind
-
--    `BaseApp/Einstellungen/Andockfenster/Baumansicht`
-    
-
--    `BaseApp/Einstellungen/Andockfenster/Eigenschaftsansicht`
-    
-
-dann füge den Parameter `Enabled` vom Typ `Boolean` hinzu und setze ihn auf `True`.
-
-Aktiviere dann die Ansicht über das Menü **Ansicht → Paneele → Baumansicht** oder **→ Eigenschaftsansicht**.
-
-
-{{Std Base navi
-
-}} {{Interface navi}}
+}} {{Std_Base_navi}}
 
 
 

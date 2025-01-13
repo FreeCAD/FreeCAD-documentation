@@ -10,34 +10,35 @@
 
 # Std Open/pl
 
+
+
 ## Opis
 
 Polecenie **Std: Otwórz** otwiera plik. Jeśli plik nie jest natywnym plikiem FreeCAD *(\*.FCStd)*, jego geometria zostanie zaimportowana do nowego dokumentu. Zobacz stronę [Std: Importuj](Std_Import/pl.md), aby uzyskać więcej informacji.
 
+
+
 ## Użycie
 
 1.  Istnieje kilka sposobów na wywołanie tego polecenia:
-    -   Naciśnij przycisk **<img src="images/Std_Open.svg" width=16px> [Otwórz](Std_Open/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Std_Open.svg" width=16px> [Otwórz ...](Std_Open/pl.md)**.
     -   Wybierz z menu opcję **Plik → <img src="images/Std_Open.svg" width=16px> Otwórz ...** opcję z menu.
     -   Użyj skrótu klawiaturowego: **Ctrl** + **O**.
 2.  Opcjonalnie wybierz odpowiedni format pliku w oknie dialogowym.
 3.  Wybierz plik.
-4.  Naciśnij przycisk **Otwórz**.
+4.  Naciśnij przycisk **Otwórz ...**.
+
+
 
 ## Opcje
 
 -   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
-## Ustawienia
 
--   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby otworzyć dokument, należy użyć metody `open(filepath)` lub metody `openDocument(filepath, [hidden<nowiki>=</nowiki>False])` aplikacji FreeCAD.
 
@@ -49,7 +50,7 @@ Przykład skryptu można znaleźć na stronie opisującej opcję [Nowy](Std_New/
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

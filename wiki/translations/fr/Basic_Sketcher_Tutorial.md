@@ -28,7 +28,7 @@ Le lecteur pratiquera:
 -   Application de contraintes de référence
 -   Obtention d\'un profil fermé
 
-Pour une description plus approfondie de l\'esquisse, lisez le [Manuel de référence pour Sketcher](Sketcher_reference/fr.md).
+Pour une description plus approfondie, lisez le [Manuel de référence pour Sketcher](Sketcher_Lecture/fr.md).
 
 ![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
 *Résultat final de l'esquisse avec toute la géométrie entièrement contrainte y compris la géométrie de construction pour le support.*
@@ -39,7 +39,7 @@ Pour une description plus approfondie de l\'esquisse, lisez le [Manuel de réfé
 
 1\. Ouvrez FreeCAD, créez un nouveau document vide avec **Fichier → [<img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)**.
 
-:   1.1. Basculez vers l\'[atelier Sketcher](Sketcher_Workbench/fr.md) depuis le [sélectionneur d\'atelier](Std_Workbench/fr.md) ou le **[menu affichage](Std_View_Menu/fr.md) → Atelier → Sketcher**.
+:   1.1. Basculez vers l\'[atelier Sketcher](Sketcher_Workbench/fr.md) depuis le [sélecteur d\'atelier](Std_Workbench/fr.md) ou le **[menu affichage](Std_View_Menu/fr.md) → Atelier → Sketcher**.
 
 Quelques actions à retenir:
 
@@ -207,7 +207,7 @@ lorsque vous ajoutez des contraintes, des symboles de superposition indiquant le
 
 **Remarque 2:**
 
-si vous souhaitez désactiver temporairement la contrainte, vous pouvez la sélectionner et appuyer sur **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Sketcher Activation des contraintest](Sketcher_ToggleActiveConstraint/fr.md)** . Lorsque vous souhaitez l\'appliquer à nouveau, appuyez à nouveau sur le même bouton.
+si vous souhaitez désactiver temporairement la contrainte, vous pouvez la sélectionner et appuyer sur **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Sketcher Activer/désactiver la contrainte](Sketcher_ToggleActiveConstraint/fr.md)**. Lorsque vous souhaitez l\'appliquer à nouveau, appuyez à nouveau sur le même bouton.
 
 <img alt="" src=images/05a_Sk01_Sketcher_equality_constraints_lines.png  style="width:" height="400px;"> <img alt="" src=images/05b_Sk01_Sketcher_equality_constraints_O-arcs.png  style="width:" height="400px;">
 
@@ -320,7 +320,7 @@ Nous devrions nous retrouver avec un croquis entièrement contraint. Cela peut �
 
 ## Informations supplémentaires 
 
-Pour une description plus approfondie de l\'esquisse, consultez la documentation [Atelier Sketcher](Sketcher_Workbench/fr.md) et lisez également le [Manuel de référence pour Sketcher](Sketcher_reference/fr.md).
+Pour une description plus approfondie, consultez la documentation de l\'[atelier Sketcher](Sketcher_Workbench/fr.md) et lisez également le [manuel de référence pour Sketcher](Sketcher_Lecture/fr.md).
 
 Contraindre une esquisse peut se faire de différentes manières. En général, il est recommandé d\'utiliser d\'abord les contraintes géométriques et de minimiser le nombre de contraintes de référence, car cela simplifie la tâche du solveur de contraintes internes. Pour étudier cela, répétez cet exemple, en ajoutant maintenant les contraintes dans un ordre différent.
 

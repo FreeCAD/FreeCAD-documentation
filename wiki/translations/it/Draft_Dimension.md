@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Dimension
-   Name/it: Quota
+   Name/it: Draft Quota
    MenuLocation: Draft , Quota
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Workbenches: Draft_Workbench/it
    Shortcut: **D** **I**
    Version: 0.8
    SeeAlso: Draft_FlipDimension/it
@@ -15,7 +15,7 @@
 
 ## Descrizione
 
-Il comando <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> **Quota** [crea](#Creazione.md) una [quota lineare](#Utilizzo_della_quota_lineare.md), una [quota radiale](#Usage_radial_dimension.md) o una [quota angolare](#Usage_angular_dimension.md). Il comando può essere utilizzato anche per [convertire](#Convert.md) oggetti [Misura distanza](Std_MeasureDistance/it.md).
+Il comando <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> **Draft Quota** crea una [quota allineata](#Quota_allineata.md), una [quota radiale](#Quota_radiale.md) o una [ quota angolare](#Quota_angolare.md).
 
 Le quote lineari basate sui bordi e le quote radiali sono parametriche. Ciò significa che si aggiorneranno se il bordo misurato viene modificato. I bordi misurati possono appartenere a oggetti Draft ma anche a corpi solidi. Le quote angolari non sono parametriche.
 
@@ -26,13 +26,13 @@ Le Quote di Draft possono essere visualizzate su una pagina [TechDraw](TechDraw_
 
 
 
-## Creazione
+## Utilizzo
 
 Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 
 
 
-### Utilizzo della quota lineare 
+### Quota allineata 
 
 1.  Facoltativamente, selezionare un bordo dritto nella [Vista 3D](3D_view/it.md).
 2.  Esistono diversi modi per invocare il comando:
@@ -58,14 +58,11 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 
 
-### Utilizzo della quota radiale 
+### Quota radiale 
 
 1.  Facoltativamente, selezionare un bordo circolare nella [Vista 3D](3D_view/it.md).
-2.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Draft_Dimension.svg" width=16px> [Quota](Draft_Dimension/it.md)**.
-    -   Selezionare l\'opzione **Annotazione → <img src="images/Draft_Dimension.svg" width=16px> Quota** dal menu.
-    -   Usare la scorciatoia da tastiera: **D** poi **I**.
-3.  Si apre il pannello attività **Quota**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
+2.  Invocare il comando come spiegato sopra.
+3.  Si apre il pannello azioni **Quota**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
 4.  Se non si ha ancora selezionato un bordo, eseguire una delle seguenti operazioni:
     -   Premere **E** o il pulsante **<img src="images/view-select.svg" width=16px> Seleziona bordo** e selezionare un bordo circolare nella [Vista 3D](3D_view/it.md).
     -   Tenere premuto il tasto **Alt**, selezionare un bordo circolare nella [Vista 3D](3D_view/it.md) e rilasciare il tasto **Alt**.
@@ -77,13 +74,10 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 
 
-### Utilizzo della quota angolare 
+### Quota angolare 
 
-1.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Draft_Dimension.svg" width=16px> [Quota](Draft_Dimension/it.md)**.
-    -   Selezionare l\'opzione **Annotazione → <img src="images/Draft_Dimension.svg" width=16px> Quota** dal menu.
-    -   Usare la scorciatoia da tastiera: **D** poi **I**.
-2.  Si apre il pannello attività **Quota**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
+1.  Invocare il comando come spiegato sopra.
+2.  Si apre il pannello azioni **Quota**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
 3.  Effettuare una delle seguenti operazioni:
     -   Premere **E** o il pulsante **<img src="images/view-select.svg" width=16px> Seleziona bordo** e selezionare un primo bordo dritto nella [Vista 3D](3D_view/it.md) . Ripetere l\'operazione per selezionare un secondo bordo dritto.
     -   Tenere premuto il tasto **Alt**, selezionare due bordi dritti nella [Vista 3D](3D_view/it.md) e rilasciare il tasto **Alt**.
@@ -92,31 +86,16 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 
 
-### Opzioni
+## Opzioni
 
-È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 0.22).
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 1.0).
 
 -   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
 -   Premee **R** o fare clic sulla casella di controllo **Relativo** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate sono relative all\'ultimo punto, se disponibile, altrimenti sono relative all\'origine del sistema di coordinate.
--   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md).
 -   Premere **N** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Questa modalità funziona solo per quote lineari. Se la modalità continua è attiva, il comando si riavvierà al termine, consentendo di continuare a creare quote. Tutte le quote successive inizieranno dal punto finale della quota precedente e utilizzeranno la stessa linea di base della prima quota. Si noti che la selezione del bordo non è possibile per le quote successive.
 -   Premee **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
 -   Premere **Esc** o il pulsante **Chiudi** per terminare il comando.
-
-
-
-## Conversione
-
-
-
-### Utilizzo
-
-1.  Selezionare uno o più oggetti [Misura la distanza](Std_MeasureDistance/it.md).
-2.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Draft_Dimension.svg" width=16px> [Quota](Draft_Dimension/it.md)**.
-    -   Selezionare l\'opzione **Annotazione → <img src="images/Draft_Dimension.svg" width=16px> Quota** dal menu.
-    -   Usare la scorciatoia da tastiera: **D** poi **I**.
-3.  Ciascun oggetto selezionato viene sostituito da una Quota Draft lineare non parametrica.
 
 
 

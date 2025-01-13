@@ -14,7 +14,7 @@
 
 ## Description
 
-The Remove tools allows you to do 2 kinds of operations:
+The **Arch Remove** tools allows you to do 2 kinds of operations:
 
 -   Remove a subcomponent from an Arch object, for example remove a box that has been added to a wall, like in the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** example.
 -   Subtract a [shape](Part_Workbench.md)-based object from an Arch component such as a **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)
@@ -28,12 +28,12 @@ The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px>
 ## Usage
 
 1.  Select a subcomponent inside an Arch object.
-2.  Press the **<img src="images/Arch_Remove.svg" width=16px>** button, or **Arch** → **<img src="images/Arch_Remove.svg" width=16px> [Remove](Arch_Remove.md)** from the top menu.
+2.  Press the **<img src="images/Arch_Remove.svg" width=16px> [Remove component](Arch_Remove.md)** button, or **Modify → <img src="images/Arch_Remove.svg" width=16px> Remove component** from the top menu.
 
 Or
 
 1.  Select objects to be subtracted, the last object selected must the Arch object from which the other objects will be subtracted.
-2.  Press the **<img src="images/Arch_Remove.svg" width=16px>** button, or **Arch** → **<img src="images/Arch_Remove.svg" width=16px> [Remove](Arch_Remove.md)** from the top menu.
+2.  Press the **<img src="images/Arch_Remove.svg" width=16px> [Remove component](Arch_Remove.md)** button, or **Modify → <img src="images/Arch_Remove.svg" width=16px> Remove component** from the top menu.
 
 ## Scripting
 
@@ -42,7 +42,9 @@ Or
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Remove tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The Remove tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 removeComponents(objectsList, host=None)
 ```
@@ -50,7 +52,9 @@ removeComponents(objectsList, host=None)
 -   Removes the given objects in `objectsList` from their parents.
 -   If a `host` object is specified, this function will try adding the objects in `objectsList` as holes to the `host`.
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -80,6 +84,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/tr
+⏵ [documentation index](../README.md) > Arch Remove/tr

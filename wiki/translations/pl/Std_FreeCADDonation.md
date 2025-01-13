@@ -27,7 +27,7 @@ Obecnie polecenie wskazuje na [<https://wiki.freecad.org/Donate>](https://wiki.f
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

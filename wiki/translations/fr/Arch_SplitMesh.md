@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch SplitMesh
    Name/fr: Arch Diviser un maillage
-   MenuLocation: Arch , Utilitaires , Diviser un maillage
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: Utilitaires , Diviser un maillage
+   Workbenches: BIM_Workbench/fr
    SeeAlso: Arch_SelectNonSolidMeshes/fr, Arch_MeshToShape/fr
 ---
 
@@ -11,14 +11,14 @@
 
 ## Description
 
-Cet outil sépare les composants d\'un objet [Mesh](Mesh_Workbench/fr.md) sélectionné.
+L\'outil **Arch Diviser un maillage** sépare les composants d\'un objet [Mesh](Mesh_Workbench/fr.md) sélectionné.
 
 
 
 ## Utilisation
 
-1.  Sélectionnez un objet maillé.
-2.  Cliquez sur le bouton **<img src="images/Arch_SplitMesh.svg" width=16px>  [Diviser un maillage](Arch_SplitMesh/fr.md)** dans **Arch → Utilitaires → Diviser un maillage**.
+1.  Sélectionnez un objet mesh.
+2.  Sélectionnez l\'option **Utilitaires → <img src="images/Arch_SplitMesh.svg" width=16px> Diviser un maillage** du menu.
 
 
 
@@ -64,5 +64,13 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/fr
+⏵ [documentation index](../README.md) > Arch SplitMesh/fr

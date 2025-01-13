@@ -9,10 +9,19 @@
 # Std DependencyGraph/es
 
 
+</div>
+
+
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 El comando **Std GrafoDependencia** muestra las dependencias entre los objetos del documento activo en un \"gráfico de dependencias\". A diferencia de la [Vista de árbol](Tree_view/es.md), los objetos se enumeran en orden cronológico inverso, con el primer objeto creado en la parte inferior.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -31,7 +40,13 @@ El gráfico de dependencias es una mera herramienta de visualización, por lo qu
 
 ## Instalación
 
+
+<div class="mw-translate-fuzzy">
+
 Para utilizar el comando es necesario instalar un software de terceros llamado [Graphviz](http://graphviz.org/). Si no lo tienes preinstalado o está instalado en una ubicación no convencional, FreeCAD mostrará el siguiente diálogo:
+
+
+</div>
 
 ![](images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png )
 
@@ -202,12 +217,18 @@ Y por tanto puedes indicar a FreeCAD que busque en ese directorio.
 
 ## Guardar
 
+
+<div class="mw-translate-fuzzy">
+
 Puede guardar un gráfico dependencia:
 
 1.  Asegúrese de que la ficha del gráfico dependencia está en primer plano.
 2.  Seleccione la opción **Archivo → [Guardar](Std_Save/es.md)** o **Archivo → [Guardar como](Std_SaveAs.md)** del menú.
 3.  Introduzca un nombre de archivo y seleccione el tipo de archivo (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg o \*.pdf).
 4.  Pulse el botón **Guardar**.
+
+
+</div>
 
 
 
@@ -228,20 +249,20 @@ Puede guardar un gráfico dependencia:
 </div>
 
 
-
-## Limitaciones
-
--   El gráfico dependencia no puede ayudar con el [problema de denominación topológica](topological_naming_problem/es.md). Si un croquis cambia las caras de una característica después de una edición, todavía está vinculado a la característica. Incluso si algunas características se rompen, el gráfico dependencia permanecerá sin cambios.
+<div class="mw-translate-fuzzy">
 
 
 
 
 
-{{Std Base navi
+</div>
+
+
+{{Std_Base_navi
 
 }}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/es
+⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > Std DependencyGraph/es

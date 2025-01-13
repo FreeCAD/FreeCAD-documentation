@@ -1,29 +1,25 @@
 # Release notes 0.17/ko
 <div id="itsfree" style="text-align:left;color:black;background:#f6f6f6;margin:1em 7em;padding:0.5em 2em;border:2px solid #a7d7f9;">
 
-*This release of FreeCAD is dedicated to our friend Roland Frank [who left us in 2017](https://forum.freecadweb.org/viewtopic.php?f=8&t=25673). He was an active and well-appreciated member of the FreeCAD forum, and his video tutorials on the [Learn FreeCAD](https://www.youtube.com/watch?v=_HEvhclR4-o&list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) and [BPLFRE](https://www.youtube.com/watch?v=m49z0weonog&list=PLsrwVwvqYb8G4Ri0iz1JIebsOXkgoytAY) Youtube channels helped many people get started with FreeCAD.*
+*이번 FreeCAD 배포는 2017년에 우리를 떠난 친구 Roland Frank\[<https://forum.freecadweb.org/viewtopic.php?f=8&t=25673%5D에게> 헌정되었습니다. 그는 FreeCAD 포럼의 활동적이고 좋은 평가를 받는 회원이었습니다.그리고 그가 만든 비디오 자습서[FreeCAD 배우기](https://www.youtube.com/watch?v=_HEvhclR4-o&list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) 와 [BPLFRE](https://www.youtube.com/watch?v=m49z0weonog&list=PLsrwVwvqYb8G4Ri0iz1JIebsOXkgoytAY) YouTube 채널은 많은 사람들이 FreeCAD를 시작하는 데 도움이 되었습니다.*
 
 
 </div>
 
+FreeCAD 0.17은 2018년 4월 6일에 출시되었습니다. [GitHub](https://github.com/FreeCAD/FreeCAD/releases/tag/0.17)에서 다운로드하세요. 이것은 가장 흥미로운 변경 사항을 요약한 것입니다. 전체 변경 목록은 [MantisBT bugtracker FC 0.17 변경 기록](https://www.freecadweb.org/tracker/changelog_page.php?version_id=73)에서 확인할 수 있습니다.
 
-<div class="mw-translate-fuzzy">
-
-FreeCAD 0.17 was released on 06 April, 2018, get it from the [Download](Download.md) page. This is a summary of the most interesting changes. The complete list of changes can be found in the [MantisBT bugtracker FC 0.17 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=73).
-
-Older FreeCAD release notes can be found in [Feature list](Feature_list#Release_notes.md).
-
-
-</div>
+이전 FreeCAD 배포 기록은 [배포 기록에서](Feature_list/ko.md) 찾을 수 있습니다.
 
 <img alt="" src=images/Release017_Title.jpg  style="width:800px;"> 
-*Garden Railway Coach O&K (by FreeCAD-User \"Garden Railway Coach O&K\", see [Users Showcase](http://forum.freecadweb.org/viewtopic.php?f=24&t=17261))*
+*Garden Railway Coach O&K(FreeCAD 사용자 \"Garden Railway Coach O&K\" 작성, [사용자 쇼케이스](http://forum.freecadweb.org/viewtopic.php?f=24&t=17261) 참조)*
 
-## Highlights
 
-It\'s been 2 years since the previous 0.16 release, but the FreeCAD team didn\'t stay idle during that time. More than 6,800 revisions were added to FreeCAD\'s source code. For comparison, this is more than three times the work done between v0.16 and 0.15! Most existing workbenches benefited from improvements, and two completely new workbenches were added. New additional modules were also developed by the community. Some of the highlights:
 
-The **PartDesign workbench** has been completely overhauled. A new Body container now holds a chain of features and lifts the requirement of mapping sketches to planar faces. New tools to create datum (reference) geometry such as points, axes and planes make PartDesign a lot more versatile. ![](images/PartDesign_Body_tree.png )
+## 괄목할만한 부분 
+
+이전 0.16 배포 이후 2년이 지났지만 FreeCAD 팀은 그 기간 동안 가만히 있지 않았습니다. FreeCAD 소스 코드에는 6,800개 이상의 개정판이 추가되었습니다. 비교해 보면 이는 v0.16과 0.15 사이에 수행된 작업의 3배 이상입니다! 기존 작업대는 대부분 개선되었고, 완전히 새로운 작업대 2개가 추가되었습니다. 커뮤니티에서는 새로운 추가 모듈도 개발했습니다. 주요 내용:
+
+**부품설계 작업대**가 완전히 개편되었습니다. 이제 새로운 몸통 컨테이너에는 일련의 기능이 포함되어 있으며 스케치를 평면형 면에 매핑해야 하는 요구 사항이 높아졌습니다. 점, 축, 평면과 같은 기준도형(참조) 형상을 생성하는 새로운 도구를 사용하면 부품설계 작업방법이 훨씬 더 다양해집니다. ![](images/PartDesign_Body_tree.png )
 
 The new [Addon manager](Std_AddonMgr.md) available from the Tools menu (which was previously available as the [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) makes installing and updating add-on modules and macros much easier and standardized across Windows, Mac OS X and Linux. <img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
 
@@ -46,9 +42,9 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 -   The FreeCAD project acknowledges the contributions of its community by adding a Credits tab in the *About FreeCAD* dialog. New License and Libraries tabs list FreeCAD\'s license and provide info on used third-party libraries.
 
-<img alt="" src=images/AboutFreeCAD_Credits.png  style="width:300px;">
+<img alt="" src=images/AboutFreeCAD_Credits.png  style="width:300px;"> 
 
-## Arch Workbench 
+## 건축 작업대 
 
 -   New [Arch Schedule](Arch_Schedule.md) tool: This tool has been completely rewritten, and now offers much more flexible ways to gather data from the document into a spreadsheet, using different kinds of queries, such as counting all objects of a certain type, or summing up the total volume of a certain category of objects.
 
@@ -78,7 +74,9 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 -   Import support for the [3DS](Arch_3DS.md) format has been added.
 
-## Draft Workbench 
+
+
+## 설계제도 작업대 
 
 -   [Autogroup system](Draft_AutoGroup.md): The Draft workbench now features an auto-group button on its main toolbar. When activated, all newly created Draft and Arch objects will automatically be placed in that group.
 
@@ -92,9 +90,9 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 -   [Draft Label](Draft_Label.md): With this tool, one can place labels in the document, which are composed of a piece of text and a leader line that can be free or stick to a specific object. The text can be made to display a custom piece of text, or automatically display the contents of a property of the target object.
 
-<img alt="" src=images/Draft_Label_Preview.png  style="width:640px;">
+<img alt="" src=images/Draft_Label_Preview.png  style="width:640px;"> 
 
-## FEM Workbench 
+## FEM 작업대 
 
 -   FEM Mesh
     -   **Gmsh object** is a mesh object, which allows using the [Gmsh](http://gmsh.info/) meshing tool inside FreeCAD. Various options of Gmsh are supported.
@@ -163,9 +161,9 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 -   Some Pictures
 
-<img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;">
+<img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;"> 
 
-## Part Workbench 
+## 부품 작업대 
 
 -   The Open Cascade geometric modeling kernel was updated from 6.8.0 to 7.2.0 (actual OCC version may depend on platform/distro). This version brings a lot of bug fixes in Boolean operations, hidden line removal algorithm, as well as allowing new features to be added to the Part workbench.
 
@@ -185,17 +183,19 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 -   The new [Part container](Std_Part.md) can be used to group most types of shapes and to move them as a unit. It also contains standard planes and axes to attach objects to. It will serve as basis for the future Assembly workbench by providing a way to move parts around. It is available in all workbenches from a toolbar along with [Group](Std_Group.md).
 
-## PartDesign workbench 
 
-The PartDesign workbench received massive changes, the fruit of combined efforts from multiple developers over a period of 5 years. <img alt="" src=images/PartDesign017-teaser-motor-core.png  style="width:800px;">
 
--   The new [Body](PartDesign_Body.md) container holds a chain of PartDesign features making up a single contiguous solid. It also contains standard planes and axes to attach objects to. Thanks to the Body container, it is no longer necessary to map sketches to faces when adding features. This requirement was a major limitation of the old PartDesign, that could cause many models to break upon parameter changes. So, it is now recommended to avoid mapping sketches to faces whenever possible.
+## 부품설계 작업대 
 
--   New additive and subtractive features: [Primitives](PartDesign_CompPrimitiveAdditive.md), [Loft](PartDesign_AdditiveLoft.md), [Sweep](PartDesign_AdditivePipe.md), [Thickness](PartDesign_Thickness.md).
+[부품설계 작업대는](PartDesign_Workbench/ko.md) 5년에 걸쳐 여러 개발자가 함께 노력한 결과로 엄청난 변화를 겪었습니다. <img alt="" src=images/PartDesign017-teaser-motor-core.png  style="width:800px;">
 
--   New datum features, [planes](PartDesign_Plane.md), [lines](PartDesign_Line.md) and [points](PartDesign_Point.md) are useful for placing sketches, alignment, and serving as axes of revolution.
+-   새로운 [몸통(Body)라는](PartDesign_Body/ko.md) 그릇에는 단일 연속 고체를 구성하는 일련의 [도형특징들을](PartDesign_Feature/ko.md) 담을 수 있습니다. 또한 객체를 부착할 표준 평면과 축도 담고 있습니다. 몸통이라는 그릇 덕분에 도형에 특징을 추가할 때 더 이상 스케치를 면에 매핑할 필요가 없습니다. 이 요구 사항은 매개 변수 변경 시 많은 모델이 깨져버릴 수 있는 이전 부품설계에서의 가장 큰 한계였습니다. 따라서 이제 가능하면 스케치를 면에 매핑하지 않는 것이 좋습니다.
 
--   New automatic workbench switching between PartDesign and Sketcher. When creating a new sketch from within the PartDesign workbench, once the sketch attachment is set, the UI automatically switches to the Sketcher workbench and its tools in editing mode. When the sketch is closed, the UI switches back to the PartDesign workbench, and restores the view to its previous state. Thus the Sketcher tools were removed from the PartDesign toolbars to liberate space for the new PartDesign features.
+-   새로운 덧셈/뺄셈적 도형특징들: [Primitives](PartDesign_CompPrimitiveAdditive.md), [Loft](PartDesign_AdditiveLoft.md), [Sweep](PartDesign_AdditivePipe.md), [Thickness](PartDesign_Thickness.md).
+
+-   새로운 기준도형 특징인 [planes](PartDesign_Plane.md), [lines](PartDesign_Line.md) 및 [points는](PartDesign_Point.md) 스케치 배치, 정렬 및 회전축 역할에 유용합니다.
+
+-   부품설계 작업대와 스케치 작업대 간의 새로운 자동 전환. 부품설계 작업대 내에서 새 스케치를 생성할 때 스케치 부착이 설정되면 UI는 자동으로 편집 모드의 스케치 작업대 및 해당 도구로 전환됩니다. 스케치가 닫히면 UI가 다시 부품설계 작업대로 전환되고 뷰가 이전 상태로 복원됩니다. 따라서 새로운 부품설계 작업을 위한 공간을 확보하기 위해 스케치 도구가 부품설계 도구 모음에서 제거되었습니다.
 
 ## Path Workbench 
 

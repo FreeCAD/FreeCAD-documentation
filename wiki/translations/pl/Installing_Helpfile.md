@@ -3,11 +3,15 @@
 
 **Uwaga:** Pliki pomocy offline programu FreeCAD, opisane poniżej, są wycofywane z użycia. System pomocy FreeCAD jest teraz zarządzany przez [Dodatek Pomocy](https://github.com/yorikvanhavre/FreeCAD-Help), który można zainstalować poprzez [Menadżer dodatków](Std_AddonMgr/pl.md). Dodatek Pomoc umożliwia dostęp do dokumentacji online, bez potrzeby pobierania czegokolwiek, lub do kopii offline dokumentacji do pobrania, którą również można zainstalować za pomocą Menedżera dodatków.
 
+
+
 ## Dokumentacja pomocy FreeCAD 
 
 Dokumentacja FreeCAD offline jest budowana z wiki FreeCAD przy użyciu skryptów. Rozrosła się do rozmiaru pliku przekraczającego 220 MB. Te duże pliki nie są częścią instalatorów i plików wykonywalnych FreeCAD, ale mogą być instalowane oddzielnie, tak jak zostało to tutaj przedstawione.
 
 Zachęca się do pracy nad tłumaczeniami społeczności, dzięki czemu dokumentacja offline jest teraz dostępna również w języku francuskim i włoskim. Dla innych języków mogą istnieć różne etapy zaawansowania.
+
+
 
 ## Pobierz pliki pomocy 
 
@@ -18,6 +22,8 @@ Pliki pomocy można pobrać tutaj: <https://github.com/FreeCAD/FreeCAD/releases/
 W przyszłości będzie można je zainstalować z poziomu FreeCAD za pomocą [Menadżera Dodatków](Std_AddonMgr/pl.md).
 
 Pliki pomocy mają zawsze te same nazwy: **freecad.qhc** i **freecad.qch**. Aby mieć różne wersje plików pomocy, pliki te muszą być zainstalowane w różnych katalogach. W przypadku ręcznego pobierania, wystarczy zapisać plik zip lokalnie i rozpakować archiwum do wybranego katalogu.
+
+
 
 ## Zarejestrowanie dokumentacji 
 
@@ -38,6 +44,8 @@ Aby aktywować kolejną dokumentację FreeCAD, należy wykonać następujące kr
 -   Zamknij okno dialogowe, potwierdzając wybór. W zakładce **Documentation** w preferencjach powinna teraz znajdować się linia z `org.freecad.usermanual`.
 -   Zamknij **Preferences** za pomocą **OK**.
 -   Powinieneś teraz mieć nową dokumentację dostępną w Qt-assistant, która jest dostępna z poziomu FreeCAD.
+
+
 
 ## Uwaga o Ubuntu 
 

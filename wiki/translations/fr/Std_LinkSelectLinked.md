@@ -19,7 +19,7 @@ La commande **Std Objet lié** sélectionne {{PropertyData/fr|Linked Object}}, l
 
 ## Utilisation
 
-1.  Sélectionner un lien.
+1.  Sélectionnez un lien.
 2.  Il y a plusieurs façons de lancer la commande :
     -   Sélectionnez l\'option **Affichage → Navigation par lien → <img src="images/Std_LinkSelectLinked.svg" width=16px> Aller à l'objet lié** du menu.
     -   Sélectionnez l\'option **Actions sur les liens → <img src="images/Std_LinkSelectLinked.svg" width=16px> Aller à l'objet lié** dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md).
@@ -31,7 +31,7 @@ La commande **Std Objet lié** sélectionne {{PropertyData/fr|Linked Object}}, l
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

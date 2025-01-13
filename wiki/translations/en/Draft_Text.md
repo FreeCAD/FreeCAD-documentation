@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft Text
    MenuLocation: Annotation , Text
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Workbenches: Draft_Workbench, BIM_Workbench
    Shortcut: **T** **E**
    Version: 0.7
    SeeAlso: Draft_Label, Draft_ShapeString
@@ -34,17 +34,17 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 ## Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system.
 -   Press **N** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating texts. The shortcut does not work in the second task panel. This option is not available in the first task panel in FreeCAD version 0.19 and earlier.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 
 ## Notes
 
--   A Draft Text can be edited by double-clicking it in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
+-   A Draft Text can be edited by double-clicking it in the [Tree view](Tree_view.md).
 -   Draft Texts created or saved with [FreeCAD version 0.21](Release_notes_0.21.md) are not backward compatible.
 
 ## Properties

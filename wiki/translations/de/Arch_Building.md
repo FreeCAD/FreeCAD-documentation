@@ -2,35 +2,42 @@
  GuiCommand:
    Name: Arch Building
    Name/de: Arch Gebäude
-   MenuLocation: Arch , Gebäude
-   Workbenches: Arch_Workbench/de
+   MenuLocation: 3D/BIM , Gebäude
+   Workbenches: BIM_Workbench/de
    Shortcut: **B** **U**
-   SeeAlso: Arch_BuildingPart/de, Arch_Site/de
+   SeeAlso: 
 ---
 
 # Arch Building/de
 
+
+
 ## Beschreibung
 
-Ein Gebäude ist ein spezielles FreeCAD Gruppenobjekt, welches sich besonders dafür eignet, eine ganze Gebäudeeinheit zu repräsentieren. Ein Gebäude hilft so bei der Organisation des Modells, es enthält als Untereinheiten [Etagen](Arch_Floor/de.md) Objekte.
+Ein Gebäude ist ein spezielles FreeCAD-Gruppenobjekt, das sich besonders dafür eignet, eine ganze Gebäudeeinheit zu repräsentieren. Es wird durch enthaltene [Stockwerk](Arch_Floor/de.md)-Objekte zur Organisation des Modells eingesetzt.
+
+
 
 ## Anwendung
 
-1.  Wähle optional ein oder mehrere Objekte die in dein neues Gebäude aufgenommen werden sollen.
-2.  Drücke den **<img src="images/Arch_Building.svg" width=16px> [Arch Gebäude](Arch_Building.md)** Knopf oder drücke die **B** dann **U** Tasten.
+1.  Wahlweisel ein oder mehrere Objekte auswählen, die in das neues Gebäude aufgenommen werden sollen.
+2.  Die Schaltfläche **<img src="images/Arch_Building.svg" width=16px> [Gebäude](Arch_Building.md)** drücken oder das Tastaturkürzel **B** dann **U**.
+
+
 
 ## Optionen
 
--   Seit FreeCAD Version 0.18 ist das Gebäudeobjekt tatsächlich ein [GebäudeTeil](Arch_BuildingPart/de.md), dessen {{PropertyData/de|IFC Typ}} Eigenschaft auf *Gebäude* gesetzt ist.
+-   Seit FreeCAD Version 0.18 ist das Gebäudeobjekt tatsächlich ein [Gebäudeteil](Arch_BuildingPart/de.md), dessen {{PropertyData/de|IFC Type}} auf *Gebäude* gesetzt ist. Jedes Gebäudeteil kann in ein Gebäude umgewandelt werden, einfach durch Ändern seines IFC-Typs.
+-   Nach dem erstellen eines Gebäudes, können ihm weitere Objekte durch Ziehen und Ablegen in der Baumansicht hinzugefügt werden oder durch verwenden des Werkzeugs **<img src="images/Arch_Add.svg" width=16px> [Arch hinzufügen](Arch_Add/de.md)**.
+-   Objekte können aus einem Gebäude entfernt werden, durch Herausziehen und Ablegen in der Baumansicht oder durch Verwenden des Werkzeugs **<img src="images/Arch_Remove.svg" width=16px> [Arch Entfernen](Arch_Remove/de.md)**.
 
-Du kannst jedes GebäudeTeil in ein Gebäude konvertieren, einfach durch ändern seines IFC Typs.
 
--   Nach dem erstellen eines Gebäudes, kannst du weitere Objekte durch Ziehen und loslassen in der Baumansicht oder durch verwenden des **<img src="images/Arch_Add.svg" width=16px> [Arch hinzufügen](Arch_Add/de.md)** Werkzeug ihm hinzufügen.
--   Du kannst Objekte aus einem Gebäude entfernen, durch Ziehen und loslassen aus seiner Baumansicht oder durch verwenden des **<img src="images/Arch_Remove.svg" width=16px> [Arch Entfernen](Arch_Remove/de.md)** Werkzeugs.
 
 ## Eigenschaften
 
 -    {{PropertyData/de|Gebäude Typ}}: Der Typ des Gebäudes, wählbar aus einer Liste
+
+
 
 ## Skripten
 
@@ -69,5 +76,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/de
+⏵ [documentation index](../README.md) > Arch Building/de

@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Line
    Name/fr: Draft Ligne
-   MenuLocation: Draft , Ligne
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Formes , Ligne<br><br>BIM : Formes 2D , Ligne
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **L** **I**
    Version: 0.7
    SeeAlso: Draft_Wire/fr
@@ -28,22 +28,23 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyer sur le **<img src="images/Draft_Line.svg" width=16px> [Ligne](Draft_Line/fr.md)**.
-    -   Sélectionner l\'option **Draft → <img src="images/Draft_Line.svg" width=16px> Ligne** du menu.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionner l\'option **Formes → <img src="images/Draft_Line.svg" width=16px> Ligne** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionner l\'option **Formes 2D → <img src="images/Draft_Line.svg" width=16px> Ligne** du menu.
     -   Utilisez les raccourcis du clavier : **L** puis **I**.
 2.  Le panneau de tâches **Ligne** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-4.  Choisir le deuxième point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
+4.  Choisir le deuxième point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut (pour la version 1.0).
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Pour utiliser des coordonnées polaires, entrez une valeur pour la **Longueur** et une valeur pour l\'**Angle** et appuyez sur **Entrée** après chacune d\'elles.
 -   Cochez la case **Angle** pour contraindre le pointeur à l\'angle spécifié.
 -   Appuyez sur **L** pour faire passer le curseur de **X** à **Longueur** et inversement. Selon la saisie, la case **Angle** est cochée ou décochée.
 -   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées du deuxième point sont relatives au premier point, sinon elles sont relatives à l\'origine du système de coordonnées.
--   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md).
 -   Appuyez sur **N** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des lignes.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Échap** ou sur le bouton **Fermer** pour abandonner la commande.
@@ -85,9 +86,9 @@ line = make_line(LineSegment)
 line = make_line(Shape)
 ```
 
--   Crée une `Ligne` entre les points `p1` et `p2` chacun défini par son `FreeCAD.Vector`, avec les unités en millimètres.
--   Crée un objet `Ligne` à partir de `Part.LineSegment`.
--   Crée un objet `Ligne` du premier sommet au dernier sommet de la `Shape` donnée.
+-   Crée un objet `Line` entre les points `p1` et `p2` chacun défini par son `FreeCAD.Vector`, avec les unités en millimètres.
+-   Crée un objet `Line` à partir de `Part.LineSegment`.
+-   Crée un objet `Line` du premier sommet au dernier sommet de la `Shape` donnée.
 
 Exemple :
 

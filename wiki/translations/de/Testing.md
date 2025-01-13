@@ -94,7 +94,7 @@ Testfunktion hinzufügen
 
 
 
-### TestPartApp 
+### TestCAMApp
 
 Path workbench test cases:
 

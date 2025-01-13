@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft Dimension
    MenuLocation: Annotation , Dimension
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Workbenches: Draft_Workbench
    Shortcut: **D** **I**
    Version: 0.8
    SeeAlso: Draft_FlipDimension
@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> **Draft Dimension** command [creates](#Create.md) a [linear dimension](#Usage_linear_dimension.md), a [radial dimension](#Usage_radial_dimension.md) or an [angular dimension](#Usage_angular_dimension.md). The command can also be used to [convert](#Convert.md) [Std MeasureDistance](Std_MeasureDistance.md) objects.
+The <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> **Draft Dimension** command creates a [linear dimension](#Linear_dimension.md), a [radial dimension](#Radial_dimension.md) or an [angular dimension](#Angular_dimension.md).
 
 Linear dimensions based on edges and radial dimensions are parametric. This means that they will update if the measured edge is modified. Measured edges can belong to Draft objects but also to solid bodies. Angular dimensions are not parametric.
 
@@ -21,11 +21,11 @@ Draft Dimensions can be displayed on a [TechDraw Workbench](TechDraw_Workbench.m
 <img alt="" src=images/Screenshot_Draft_Dimension.jpg  style="width:400px;"> 
 *Linear dimension defined by three points*
 
-## Create
+## Usage
 
 See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
-### Usage linear dimension 
+### Linear dimension 
 
 1.  Optionally select a straight edge in the [3D view](3D_view.md).
 2.  There are several ways to invoke the command:
@@ -49,13 +49,10 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
         -   Move the pointer to the left or right of the edge or points.
         -   Hold down the **Shift** key, move the pointer and pick a point in the [3D view](3D_view.md).
 
-### Usage radial dimension 
+### Radial dimension 
 
 1.  Optionally select a circular edge in the [3D view](3D_view.md).
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut: **D** then **I**.
+2.  Invoke the command as explained above.
 3.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 4.  If you have not yet selected an edge do one of the following:
     -   Press **E** or the **<img src="images/view-select.svg" width=16px> Select edge** button and select a circular edge in the [3D view](3D_view.md).
@@ -66,12 +63,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
     -   For a radial dimension:
         -   Hold down the **Shift** key and pick a point in the [3D view](3D_view.md).
 
-### Usage angular dimension 
+### Angular dimension 
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut: **D** then **I**.
+1.  Invoke the command as explained above.
 2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 3.  Do one of the following:
     -   Press **E** or the **<img src="images/view-select.svg" width=16px> Select edge** button and select a first straight edge in the [3D view](3D_view.md). Repeat this to select a second straight edge.
@@ -79,27 +73,16 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
 5.  The displayed angle depends on the edges and the picked point.
 
-### Options
+## Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system.
 -   Press **N** or click the **Continue** checkbox to toggle continue mode. This mode only works for linear dimensions. If continue mode is on, the command will restart after finishing, allowing you to continue creating dimensions. All subsequent dimensions will start from the final point of the previous dimension, and will use the same baseline as the first dimension. Note that edge selection is not possible for subsequent dimensions.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to finish the command.
-
-## Convert
-
-### Usage
-
-1.  Select one or more [Std MeasureDistance](Std_MeasureDistance.md) objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut: **D** then **I**.
-3.  Each selected object is replaced by a non-parametric linear Draft Dimension.
 
 ## Notes
 

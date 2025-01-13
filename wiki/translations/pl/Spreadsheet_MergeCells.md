@@ -9,15 +9,21 @@
 
 # Spreadsheet MergeCells/pl
 
+
+
 ## Opis
 
-Narzędzie **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Połącz komórki](Spreadsheet_MergeCells/pl.md)** łączy co najmniej dwie wybrane komórki w istniejącym arkuszu kalkulacyjnym aktywnego dokumentu.
+Narzędzie <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> **Połącz komórki** łączy prostokątny obszar komórek.
+
+
 
 ## Użycie
 
-1.  Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md)**, aby przycisk był dostępny.
-2.  Wybierz co najmniej dwie sąsiadujące ze sobą komórki.
-3.  Naciśnij przycisk **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Połącz komórki](Spreadsheet_MergeCells/pl.md)**.
+1.  Upewnij się, że jest aktywny [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md).
+2.  Wybierz dwie lub więcej komórek tworzących prostokątny obszar. Wskazywany obszar może zawierać już połączone komórki.
+3.  Istnieje kilka sposobów wywołania tego polecenia:
+    -   Naciśnij przycisk **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Połącz komórki](Spreadsheet_MergeCells/pl.md)**.
+    -   Wybierz opcję **Arkusz Kalkulacyjny → [<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> Połącz komórki** z menu.
 
 
 

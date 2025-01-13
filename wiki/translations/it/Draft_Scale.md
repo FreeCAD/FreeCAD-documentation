@@ -1,9 +1,9 @@
 ---
  GuiCommand:
-   Name: Draft_Scale
-   Name/it: Scala
-   MenuLocation: Modifiche , Scala
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name: Draft Scale
+   Name/it: Draft Scala
+   MenuLocation: Modifiche , Scala<br>Modifica , Scala
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **S** **C**
    SeeAlso: Draft_SubelementHighlight/it, Draft Clone/it
 ---
@@ -16,7 +16,7 @@
 
 Il comando <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> **Scala** ridimensiona o copia gli oggetti selezionati intorno ad un punto base. In modalità sottoelemento il comando ridimensiona i punti e i bordi selezionati di [Linee](Draft_Line/it.md) e [Polilinee](Draft_Wire/it.md).
 
-Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [Arch](Arch_Workbench/it.md).
+Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [BIM](BIM_Workbench/it.md).
 
 <img alt="" src=images/Draft_Scale_example.png  style="width:400px;"> 
 *Ridimensionamento di un oggetto attorno a un punto base*
@@ -30,7 +30,8 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 1.  Opzionalmente selezionare uno o più oggetti, o uno o più sottoelementi di [Linee](Draft_Line/it.md) o [Polilinee](Draft_Wire/it.md).
 2.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Scale.svg" width=16px> [Scala](Draft_Scale/it.md)**.
-    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Scale.svg" width=16px> Scala** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Modifiche → <img src="images/Draft_Scale.svg" width=16px> Scala** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_Scale.svg" width=16px> Scala** dal menu.
     -   Usare la scorciatoia da tastiera: **S** poi **C**.
 3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
 4.  Si apre il pannello attività **Scala**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
@@ -50,7 +51,7 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie menzionate qui sono le scorciatoie predefinite.
 
 -   Per inserire manualmente le coordinate per il punto base, inserire le componenti X, Y e Z e premere **Invio** dopo ciascuna. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
--   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md).
 -   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
 -   Premere il pulsante **Chiudi** per interrompere il comando.
 

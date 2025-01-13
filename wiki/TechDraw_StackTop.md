@@ -31,7 +31,7 @@ The stacking order can be changed in scripts by changing the {{Incode|StackOrder
 
 
 
- {{TechDraw Tools navi}}
+ {{TechDraw_Tools_navi}}
 
 
 

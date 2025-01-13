@@ -18,7 +18,7 @@ La commande **Std Charger une image** ouvre une image dans un nouvel onglet de l
 ## Utilisation
 
 1.  Sélectionnez l\'option **Outils → <img src="images/Std_ViewLoadImage.svg" width=16px> Charger une image...** du menu.
-2.  Sélectionnez le bon type de fichier dans la boîte de dialogue.
+2.  Sélectionnez le bon type de fichier dans la fenêtre de dialogue.
 3.  Sélectionnez un fichier.
 4.  Appuyez sur le bouton **Ouvrir**.
 5.  L\'image s\'ouvre dans un nouvel onglet.
@@ -36,7 +36,7 @@ La commande **Std Charger une image** ouvre une image dans un nouvel onglet de l
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

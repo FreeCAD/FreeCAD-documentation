@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Arc
    Name/pl: Rysunek Roboczy: Łuk
-   MenuLocation: Kreślenie , Narzędzia łuku , Łuk
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Kreślenie , Narzędzia łuku , Łuk<br>Kreślenie 2D , Łuk
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **A** **R**
    Version: 0.7
    SeeAlso: Draft_Circle/pl, Draft_Arc_3Points/pl
@@ -30,8 +30,9 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Arc.svg" width=16px> [Tworzy różne rodzaje łuków ...](Draft_Arc/pl.md)**.
-    -   Wybierz z menu opcję **Kreślenie → Narzędzia łuku → <img src="images/Draft_Arc.svg" width=16px> Łuk**.
-    -   Użyj skrótu klawiaturowego: **A**, a następnie **R**. {{Version/pl|0.20}}
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Kreślenie → Narzędzia łuku → <img src="images/Draft_Arc.svg" width=16px> Łuk**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Kreślenie 2D → <img src="images/Draft_Arc.svg" width=16px> Łuk** z menu.
+    -   Użyj skrótu klawiaturowego: **A**, a następnie **R**.
 2.  Otworzy się panel zadań **Łuk**. Zobacz rozdział [Opcje](#Opcje.md), aby uzyskać więcej informacji.
 3.  Wybierz pierwszy punkt - środek łuku, w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
 4.  Wybierz drugi punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz wartość **Promienia**.
@@ -42,10 +43,10 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 1.0)*.
 
 -   Aby ręcznie wprowadzić współrzędne środka, wprowadź składowe X, Y i Z, a następnie naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już wybrane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor poza okno [widoku 3D](3D_view/pl.md).
--   Naciśnij przycisk **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij przycisk **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij klawisz **N** lub kliknij na pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu pracy, pozwalając na dalsze tworzenie łuków.
 -   Wciśnij klawisz **S** by włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby zakończyć działanie polecenia.

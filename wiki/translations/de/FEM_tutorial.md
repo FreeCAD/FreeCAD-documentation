@@ -66,7 +66,7 @@ Wir haben nun ein Modell, mit dem wir arbeiten können.
 3.  <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:24px;"> [Randbedingung Festsetzen](FEM_ConstraintFixed/de.md) auswählen.
 4.  Auf die Schaltfläche **Hinzufügen** klicken, die Rückseite des Würfelobjekts (die Fläche auf der YZ-Ebene) auswählen und **OK** drücken.
 5.  <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> [Randbedingung Krafteinwirkung](FEM_ConstraintForce/de.md) auswählen.
-6.  Auf die Schaltfläche **Hinzufügen** klicken, die Vorderseite des Würfelobjekts (die zur Rückseite parallel liegende Fläche) und den Wert für **Load \[N\]** (Flächenlast \[N\]) auf 9000000 setzen.
+6.  Auf die Schaltfläche **Hinzufügen** klicken, die Vorderseite des Würfelobjekts (die zur Rückseite parallel liegende Fläche) und den Wert für **Force \[N\]** (Flächenlast in N) auf 9000000 setzen.
 7.  **Direction** (Richtung) auf **-Z** setzen durch Auswahl einer der Flächenkanten, die parallel zu dieser Richtung liegen.
 8.  Auf **OK** klicken.
 
@@ -140,6 +140,12 @@ Wir haben unser Objekt nun vernetzt und sind bereit, Randbedingungen und Kräfte
 {{Note|Vergleich zur vorherigen Beispieldatei|Wird der Ergebnistyp '''Verschiebung Z''' gewählt, kann man sehen, dass der erhaltene Wert fast identisch mit dem von FreeCAD gelieferten Testbeispiel ist. Unterschiede können aufgrund der Qualität des Netzes und der Anzahl der Knoten, die es besitzt, auftreten.}}
 
 Wir sind nun mit dem grundlegenden Arbeitsablauf für den Arbeitsbereich [FEM](FEM_Workbench/de.md) fertig.
+
+
+
+## Hinweise
+
+-   Eine Video-Anleitung, die auf dieser Anleitung basiert: [FEM MaterialReinforced tutorial](https://www.youtube.com/watch?v=SZTIqhfCSVc).
 
 
 {{FEM Tools navi

@@ -17,11 +17,16 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument desenează o elipsă prin alegerea a 3 puncte: centrul, sfârșitul semiaxei majore, semiaxa minoră. Când porniți instrumentul, indicatorul mouse-ului se modifică într-o cruce albă cu o pictogramă ca o elipsă roșie. Pe lângă acestea, coordonatele sunt afișate în timp real.
 
-<img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;"> 
-*The sequence of clicks is indicated by yellow arrows with numbers.<br>
-C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.*
+
+</div>
+
+![](images/Sketcher_CreateEllipseByCenter_Example.png ) 
+*Ellipse (white) with internal geometry (dark yellow)*
 
 
 
@@ -32,6 +37,11 @@ C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.
 
 
 </div>
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
+Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -44,7 +54,7 @@ C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.
 
 </div>
 
-## Peculiarities
+## Notes
 
 
 <div class="mw-translate-fuzzy">

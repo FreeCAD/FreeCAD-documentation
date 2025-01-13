@@ -6,12 +6,12 @@
 |Name=Macro FCCamera
 |Translate=Posizione camera
 |Icon=FCCamera_00.png
-|Description={{ColoredText|#ff0000|#ffffff|New version GUI modifyed for the HD dpi (QGridLayout) run only FC version 0.18 and more (PySide2 Qt5)}}<br/>For the precedent version see [https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/42dc3ef73dc8db463a03b175f5a7f1f6978e3293/Macro%2520FCCamera.FCMacro FCCamera] and install it manually.<br/><br/> Questa macro può ruotare lo schermo di un determinato angolo, lungo un asse a scelta e creare un piano frontale allo schermo.
+|Description={{ColoredText|#ff0000|#ffffff|La nuova versione modificata della GUI per HD dpi (QGridLayout) funziona solo con la versione FC 0.18 e successive (PySide2 Qt5)}}<br/><br/><br/>Per le versioni precedenti, vedere [https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/42dc3ef73dc8db463a03b175f5a7f1f6978e3293/Macro%2520FCCamera.FCMacro FCCamera] e installarla manualmente.<br/><br/> Questa macro può ruotare lo schermo di un determinato angolo, lungo un asse a scelta e creare un piano frontale allo schermo.
 |Author=Mario52
 |Version=0.14
 |Date=2020/10/20
-|FCVersion=0.18 e più
-|Download=[https://forum.freecadweb.org/download/file.php?id=79288 FCCamera_Icones.zip]. Unzippato il pacchetto e incollare l'icona totale nella stessa directory della macro. 
+|FCVersion=0.18 e successive
+|Download=[https://wiki.freecad.org/images/2/25/FCCamera_00.png ToolBar Icon]
 }}
 
 
@@ -19,42 +19,22 @@
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ## Descrizione
 
 Questa macro serve per ruotare lo schermo di un determinato angolo lungo l\'asse voluto e per creare un piano frontale allo schermo in cui produrre una forma in una specifica posizione del piano della faccia selezionata rivolta verso lo schermo, inoltre serve per rilevare la posizione della fotocamera, per allineare la vista alla faccia o all\'asse e per allineare l\'oggetto alla vista.
 
 
-</div>
-
-This macro can rotate the screen in a defined angle and the defined axis and creates a plan to face the screen to create a form in the specified plan positions the selected face facing the screen, to detect the position of the camera, align view to face or to axis, align the object to view.
-
-
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/98d90ee303e9fa5d6aed6e9f2e36e7ca1a18ca19/Macro%2520FCCamera.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/b31c64d26788b796750095eca4a6b92803537732/Macro%2520FCCamera.FCMacro}}
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-![FCCamera](images/Macro_FCCamera_00.png )
-
-
-</div>
+<img alt="FCCamera" src=images/Macro_FCCamera_00.png  style="width:250px;">
 
 **Camera of Axis**: La finestra di dialogo per immettere il valore dell\'angolo di rotazione in gradi.
 
-
-<div class="mw-translate-fuzzy">
-
-**Angle rotation Axis in degrees**: Selezionare l\'asso di rotazione **X, Y,**, **Z** o **D**.
-
-
-</div>
+**Asse di rotazione angolare in gradi**: Selezionare l\'asse di rotazione **X**, **Y** o **Z**.
 
 **Axe of rotation**: Serve per selezionare l\'asse di rotazione X, Y, Z o D.
 
@@ -62,13 +42,7 @@ This macro can rotate the screen in a defined angle and the defined axis and cre
 
 **Virtual**
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FCCamera_02.png  style="width:24px;"> **Detect camera orientation** : Rileva l\'orientamento della fotocamera e lo stampa nella vista Report. Il valore restituito è il valore fornito dalla funzione getCameraOrientation().
-
-
-</div>
+-   <img alt="" src=images/FCCamera_02.png  style="width:24px;"> **Detect camera orientation** : Rileva l\'orientamento della fotocamera e lo stampa nella vista Report. Il valore restituito è il valore fornito dalla funzione **getCameraOrientation()**.
 
 **Align view to face selected**
 
@@ -76,13 +50,7 @@ This macro can rotate the screen in a defined angle and the defined axis and cre
 
 -   <img alt="" src=images/FCCamera_04.png  style="width:24px;"> **To Axis.** : Allinea la vista della faccia selezionata agli Assi. Fare clic e ripetere il clic per **Surface Axis** : \"(0,0,1) (0,0,-1) (0,1,0) (0,-1,0) (1,0,0) (-1,0,0)\"
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/FCCamera_05.png  style="width:24px;"> **Align object to view.** : Allinea l\'oggetto selezionato alla vista attiva. Modifica i valori di : Rotation Axis((X, Y, Z), Angle) come angoli di Eulero : Yaw, Pitch, Roll. Translation non viene modificata.
-
-
-</div>
 
 -   <img alt="" src=images/FCCamera_06.png  style="width:24px;"> **Create plane of view.** : crea un piano circolare frontale allo schermo con le coordinate del punto cliccato con il mouse su un oggetto. Il raggio del piano è uguale alla dimensione massima di boundbox. Se non è selezionato alcun oggetto, il piano viene creato nel punto 0, 0, 0 con un raggio di 20 mm. Il raggio è modificabile nella riga 515:
 
@@ -91,35 +59,20 @@ This macro can rotate the screen in a defined angle and the defined axis and cre
         rayon = 20                            # Radius of plane
 ```
 
+-    **[<img src=images/FCCamera_07.png style="width:24px"> Reset.**: Ripristina tutti i valori
 
-<div class="mw-translate-fuzzy">
+-    **[<img src=images/FCCamera_00.png style="width:24px"> Photo.**: La sezione salva la rotazione dello schermo di un\'immagine in valore angolare
 
--   <img alt="" src=images/FCCamera_07.png  style="width:24px;"> **Reset.** : Ripristina tutti i valori.
--   <img alt="" src=images/FCCamera_08.png  style="width:24px;"> **Quit.** : Esce da FCCamera.
-
-
-</div>
+-    **[<img src=images/FCCamera_08.png style="width:24px"> Quit.**: Esci da FCCamera
 
 
-<div class="mw-translate-fuzzy">
+
 
 ## Sezione Photo 
 
+<img alt="FCCamera" src=images/Macro_FCCamera_00b.png  style="width:250px;"> 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-![FCCamera](images/Macro_FCCamera_00b.png ) 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--    **ComboBox Actual **: scegliere la propria definizione dello schermo per il formato dell\'immagine
+-    **ComboBox Actual **: Scegliere la propria definizione dello schermo per il formato dell\'immagine
 
     -   Available (pre-definito):
         -   \"Actual\" (definizione attuale dello schermo)
@@ -138,9 +91,6 @@ This macro can rotate the screen in a defined angle and the defined axis and cre
         -   \"UXGA 1600 x 1200\"
         -   \"QXGA 2048 x 1536\"
         -   \"Free\"
-
-
-</div>
 
 -    **SpinBox X and Y **
     
@@ -178,25 +128,14 @@ This macro can rotate the screen in a defined angle and the defined axis and cre
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ## Link
 
-Link delle macro collegate a FCCamera
+Link correlati con FCCamera
 
-
-</div>
-
-Related Links with FCCamera
-
-
-<div class="mw-translate-fuzzy">
-
-[Macro Rotate View](Macro_Rotate_View/it.md), [Macro Align Object to View](Macro_Align_Object_to_View/it.md), [Macro Align Face Object to View](Macro_Align_Face_Object_to_View/it.md), [Macro WorkFeatures](Macro_WorkFeatures/it.md)
-
-
-</div>
+-   [Macro Rotate View](Macro_Rotate_View/it.md)
+-   [Macro Align Object to View](Macro_Align_Object_to_View/it.md)
+-   [Macro Align Face Object to View](Macro_Align_Face_Object_to_View/it.md)
+-   [Macro WorkFeatures](Macro_WorkFeatures/it.md)
 
 La discussione nel forum [MACRO:Work Feature 2014_12](http://forum.freecadweb.org/viewtopic.php?f=22&t=9056)
 
@@ -215,12 +154,9 @@ Scaricare la macro da Gist [**Macro FCCamera.FCMacro**](https://gist.github.com/
 ### Come creare un foro inclinato 
 
 
-<div class="mw-translate-fuzzy">
-
-
 <center>
 
-<File:FCCamera> 09.png\|Creare un oggetto <File:FCCamera> 10.png\|Creare un cilindro e posizionarlo
+<File:FCCamera> 09.png\|Creare un oggetto <File:FCCamera> 10.png\|Creare un cilindro e posizionarlo come questo.
 Scegliere l\'asse, assegnare l\'angolo di inclinazione, ad es. 15°, e poi cliccare su <img alt="" src=images/FCCamera_01.png  style="width:24px;"> 
 **Accept the rotation**
 
@@ -228,25 +164,13 @@ Scegliere l\'asse, assegnare l\'angolo di inclinazione, ad es. 15°, e poi clicc
 </center>
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
 <center>
 
-<File:FCCamera> 11.png\|Selezionare il cilindro da usare per creare il foro <File:FCCamera> 12.png\|In FCCamera cliccare su <img alt="" src=images/FCCamera_05.png  style="width:24px;"> 
+<File:FCCamera> 11.png\|Selezionare il cilindro da usare per creare il foro <File:FCCamera> 12.png\|In FCCamera, cliccare su <img alt="" src=images/FCCamera_05.png  style="width:24px;"> 
 **Align Object to View**
 
 
 </center>
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 
 <center>
@@ -257,24 +181,12 @@ Poi eseguire l\'operazione booleana. <File:FCCamera> 14.png\|Ecco il foro inclin
 
 </center>
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Si può ottenere lo stesso risultato posizionando uno schizzo su un piano inclinato
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Lo stesso risultato può essere ottenuto creando un disegno nell\'angolo dato dalla posizione del clic del mouse e uno schizzo.
 
 
 <center>
 
-<File:Macro_FCCamera_Align_To_Face.gif%7CEsempio> di posizionamento della molla in asse con la faccia
+<File:Macro_FCCamera_Align_To_Face.gif%7Cesempio> del posizionamento di una molla sull\'asse di una faccia
 
 
 </center>
@@ -288,13 +200,35 @@ Si può ottenere lo stesso risultato posizionando uno schizzo su un piano inclin
 </center>
 
 
-</div>
-
-
 
 ## Versione
 
+-   **ver 0.15, 0.15b (19/12/2024):** adapt and return PySide, ([FCCamera macro can\'t find Pyside2](https://forum.freecad.org/viewtopic.php?p=797838)) correct the web access delete **WebGui** replaced by **webbrowser**
+
+
+```python
+####
+try:
+    import webbrowser
+    webbrowser.open("http://www.freecadweb.org/wiki/index.php?title=Macro_FCCamera")
+except Exception:
+    None
+####
+####
+import urllib
+from urllib import request
+
+contentPage = request.urlopen("https://wiki.freecadweb.org/Macro_FCCamera").readlines()
+####
+```
+
+
+<div class="mw-translate-fuzzy">
+
 -   **ver 0.14 (20/10/2020):** corretto bug \"Grid\" non accettata
+
+
+</div>
 
 -   **ver 0.13 (28/06/2020):** adding files image in source code, create plane \"On point, Center face, BBox center, Center Mass\", gridLayout
 
@@ -313,13 +247,16 @@ Si può ottenere lo stesso risultato posizionando uno schizzo su un piano inclin
 
 -   **ver 0.6 (13/12/2016):** nuovo sistema per verificare il percorso delle macro direttamente nelle preferenze
 
-#path = FreeCAD.ConfigGet("AppHomePath")
-#path = FreeCAD.ConfigGet("UserAppData")
-#path = "your path"
-param = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macro")# macro path
-path = param.GetString("MacroPath","") + "/"                        # macro path
-path = path.replace("\\","/")
-App.Console.PrintMessage("Path locality to FCCamera.....images.png [ " + path + " ]"+"\n")
+
+```python
+#path = FreeCAD.ConfigGet("AppHomePath")
+#path = FreeCAD.ConfigGet("UserAppData")
+#path = "your path"
+param = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macro")# macro path
+path = param.GetString("MacroPath","") + "/"                        # macro path
+path = path.replace("\\","/")
+App.Console.PrintMessage("Path locality to FCCamera.....images.png [ " + path + " ]"+"\n")
+```
 
 -   **ver 0.5 06/09/2016:** correct name \"FCCamera_Axis_rotation_X.png\" in reset block
 

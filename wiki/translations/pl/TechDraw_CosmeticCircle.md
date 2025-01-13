@@ -4,7 +4,7 @@
    Name/pl: Rysunek Techniczny Okrąg kosmetyczny
    MenuLocation: Rysunek Techniczny , Dodaj linie , Dodaj okrąg kosmetyczny
    Workbenches: TechDraw_Workbench/pl
-   Version: 0.22
+   Version: 1.0
    SeeAlso: TechDraw_2PointCosmeticLine/pl
 ---
 
@@ -54,8 +54,7 @@ Aby zmienić atrybuty okręgu kosmetycznego:
 
 ## Uwagi
 
-Aby usunąć okrąg kosmetyczny, użyj narzędzia <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [Usuń geometrie pomocnicze](TechDraw_CosmeticEraser/pl.md).
-
+-   Aby usunąć okrąg kosmetyczny, zaznacz go i naciśnij **Delete**.
 -   Aby zmienić wygląd okręgu kosmetycznego, użyj narzędzia <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [Zmień wygląd linii](TechDraw_DecorateLine/pl.md).
 
 
@@ -76,7 +75,7 @@ Okręgi kosmetyczne mogą być tworzone przy użyciu metody DrawViewPart {{Incod
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

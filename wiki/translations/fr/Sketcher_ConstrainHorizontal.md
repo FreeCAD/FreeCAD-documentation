@@ -5,33 +5,68 @@
    MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte horizontale
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **H**
-   SeeAlso: Sketcher_ConstrainVertical/fr
+   SeeAlso: Sketcher_ConstrainHorVer/fr, Sketcher_ConstrainVertical/fr
 ---
 
 # Sketcher ConstrainHorizontal/fr
 
 ## Description
 
-La Contrainte horizontale oblige une ligne sélectionnée ou des lignes dans l\'esquisse à être parallèles à l\'axe horizontal de l\'esquisse.
+L\'outil <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> [Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md) contraint les lignes ou les paires de points à être horizontales (parallèles à l\'axe horizontal de l\'esquisse).
+
+
+{{Version/fr|1.0}}
+
+: dans la plupart des cas, il est conseillé d\'utiliser l\'outil combiné [Sketcher Contrainte horizontale/verticale](Sketcher_ConstrainHorVer/fr.md) à la place.
 
 
 
 ## Utilisation
 
-<img alt="" src=images/HorizontalConstraint1.png  style="width:500px;"> 
-*Sélectionnez une ligne dans l'esquisse en cliquant dessus.*
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
 
-<img alt="" src=images/HorizontalConstraint2.png  style="width:500px;"> 
-*La ligne devient vert foncé.*
 
-<img alt="" src=images/HorizontalConstraint3.png  style="width:500px;"> 
-*Appliquez la contrainte horizontale en cliquant sur **[<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)* dans la barre d'outils Contraintes de l'esquisse ou en sélectionnant l'élément de menu Contraindre horizontalement dans les Contraintes d'esquisse, sous-menu de l'élément du menu Esquisse dans l'atelier Sketcher (ou l'élément de menu Part Design de l'atelier Part Design). La ligne sélectionnée est contrainte d'être parallèle à l'axe horizontal de l'esquisse.**
 
-<img alt="" src=images/HorizontalConstraint4.png  style="width:500px;"> 
-*Plusieurs lignes peuvent être sélectionnées*
+### [Mode continu](Sketcher_Workbench/fr#Modes_continus.md) 
 
-<img alt="" src=images/HorizontalConstraint5.png  style="width:500px;"> 
-*Puis en appliquant la contrainte comme décrit ci-dessus, elles sont contraintes d'être parallèles à l'axe horizontal de l'esquisse.*
+1.  Assurez-vous qu\'il n\'y a pas de sélection.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   
+        {{Version/fr|1.0}}
+        
+        : si la [préférence](Sketcher_Preferences/fr#Général.md) de l\'**outil automatique de contrainte horizontale/verticale** est sélectionnée (par défaut) : appuyez sur la flèche vers le bas à droite du bouton **<img src="images/Sketcher_ConstrainHorVer.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** et sélectionnez l\'option **<img src="images/Sketcher_ConstrainHorizontal.svg" width=16px> Contrainte horizontale** dans le menu déroulant.
+
+    -   Si cette préférence n\'est pas sélectionnée (et dans {{VersionMinus/fr|0.21}}) : appuyez sur le bouton **<img src="images/Sketcher_ConstrainHorizontal.svg" width=16px> [Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)**.
+
+    -   Sélectionnez l\'option **Esquisse → Contraintes d'esquisse → <img src="images/Sketcher_ConstrainHorizontal.svg" width=16px> Contrainte horizontale** du menu.
+
+    -   
+        {{Version/fr|1.0}}
+        
+        : cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **Dimension → <img src="images/Sketcher_ConstrainHorizontal.svg" width=16px> Contrainte horizontale** du menu contextuel.
+
+    -   Utilisez le raccourci clavier : **H**.
+3.  Le curseur se transforme en croix avec l\'icône de l\'outil.
+4.  Faites l\'une des choses suivantes :
+    -   Sélectionnez deux points.
+    -   Sélectionnez une seule ligne.
+5.  Une contrainte est ajoutée.
+6.  Il est possible de continuer à créer des contraintes.
+7.  Pour terminer, cliquez avec le bouton droit de la souris ou appuyez sur **Échap**, ou démarrez un autre outil de création de géométrie ou de contrainte.
+
+
+
+### Mode unique 
+
+1.  Faites l\'une des choses suivantes :
+    -   Sélectionnez deux points ou plus.
+    -   Sélectionnez une ou plusieurs lignes. Les points peuvent être inclus dans la sélection, mais ils seront ignorés.
+2.  Lancer l\'outil comme expliqué ci-dessus, ou avec l\'option supplémentaire suivante :
+    -   
+        {{Version/fr|1.0}}
+        
+        : cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **<img src="images/Sketcher_ConstrainHorizontal.svg" width=16px> Contrainte horizontale** dans le menu contextuel.
+3.  En fonction de la sélection, une ou plusieurs contraintes sont ajoutées.
 
 
 

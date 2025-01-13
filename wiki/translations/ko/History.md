@@ -120,7 +120,9 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
   Version   Release name   Release date     Release notes                                         Release commit                                                                            Release branch
        
-  0.21      \-             in development   [Release notes 0.21](Release_notes_0.21.md)   [head master](https://github.com/FreeCAD/FreeCAD/commits/master)                          
+  1.1       \-             in development   [Release notes 1.1](Release_notes_1.1.md)     [head main](https://github.com/FreeCAD/FreeCAD/commits/main)                              
+  1.0       BGBSWW         2024-11-18       [Release notes 1.0](Release_notes_1.0.md)     [release commit 1.0](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-1-0)     [branch bugfixes 1.0](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-1-0)
+  0.21      \-             2023-08-02       [Release notes 0.21](Release_notes_0.21.md)   [release commit 0.21](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-21)   [branch bugfixes 0.21](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-21)
   0.20      \-             2022-06-14       [Release notes 0.20](Release_notes_0.20.md)   [release commit 0.20](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-20)   [branch bugfixes 0.20](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-20)
   0.19      \-             2021-03-20       [Release notes 0.19](Release_notes_0.19.md)   [release commit 0.19](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-19)   [branch bugfixes 0.19](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-19)
   0.18      \-             2019-03-12       [Release notes 0.18](Release_notes_0.18.md)   [release commit 0.18](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-18)   [branch bugfixes 0.18](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-18)
@@ -148,9 +150,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
   Color   Version Type
    
           Future release
-          Latest preview version
           **Latest version**
-          Older version, still supported
           Old version
           
 

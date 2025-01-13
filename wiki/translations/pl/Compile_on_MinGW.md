@@ -1,58 +1,66 @@
 # Compile on MinGW/pl
-This guide will walk through the steps necessary to build FreeCAD on Windows using the MSYS2/MinGW environment. Basic familiarity with Bash shell commands will be useful for understanding what each step does, but following the guide by rote should result in a working build even if you don\'t understand exactly what you did to get it.
+Ten poradnik przeprowadzi przez kroki niezbędne do zbudowania FreeCAD w systemie Windows przy użyciu środowiska MSYS2 / MinGW. Podstawowa znajomość poleceń powłoki Bash będzie przydatna do zrozumienia, co robi każdy krok, ale podążanie za przewodnikiem na pamięć powinno zaowocować działającą kompilacją, nawet jeśli nie rozumiesz dokładnie, co zrobiłeś, aby ją uzyskać.
 
-### Before you start 
 
-Download and install [MSYS2](https://www.msys2.org) if you have not already. When launching MSYS2, use the \"MSYS2 MinGW 64-bit\" runtime unless you know what you are doing and have a specific reason not to. If you use the UCRT console, make sure to adapt your installation to use the UCRT packages instead.
+
+### Zanim zaczniesz 
+
+Pobierz i zainstaluj [MSYS2](https://www.msys2.org), jeśli jeszcze tego nie zrobiłeś. Podczas uruchamiania MSYS2 użyj środowiska uruchomieniowego \"MSYS2 MinGW 64-bit\", chyba że wiesz, co robisz i masz konkretny powód, aby tego nie robić. Jeśli korzystasz z konsoli UCRT, upewnij się, że dostosowałeś swoją instalację do korzystania z pakietów UCRT.
 
     pacman -Syu
 
-and then relaunching and running
+a następnie ponowne uruchomienie
 
     pacman -Su
 
-before proceeding.
+przed kontynuowaniem.
 
-### Install basic development tools 
 
-In all of the following steps, when prompted by MSYS2\'s shell, accept the default installations of everything by pressing \"Enter\" when asked.
 
-First, install the mingw-w64 GCC toolchain:
+### Zainstaluj podstawowe narzędzia programistyczne 
+
+We wszystkich poniższych krokach, gdy pojawi się monit powłoki MSYS2, zaakceptuj domyślne instalacje wszystkich elementów, naciskając **Enter**, gdy zostaniesz o to poproszony.
+
+Najpierw zainstaluj zestaw narzędzi GCC mingw-w64:
 
     pacman -S --needed base-devel mingw-w64-x86_64-toolchain mingw-w64-x86_64-cmake mingw-w64-x86_64-ninja
 
-This will probably take several minutes to complete, as the compiler toolchain is quite large.
+Prawdopodobnie zajmie to kilka minut, ponieważ zestaw narzędzi kompilatora jest dość duży.
 
-Install git:
+Zainstaluj Git:
 
     pacman -S git
 
-Close your current console window and relaunch the MSYS2 MinGW 64 console (in a standard installation this will be in your Start menu in the MSYS2 folder).
+Zamknij bieżące okno konsoli i ponownie uruchom konsolę MSYS2 MinGW 64 *(w standardowej instalacji będzie to menu Start w folderze MSYS2)*.
 
-### Check out the FreeCAD sources 
 
-To get the FreeCAD source code, clone it from the main git repository:
+
+### Sprawdź źródła FreeCAD 
+
+Aby uzyskać kod źródłowy FreeCAD, sklonuj go z głównego repozytorium Git:
 
     git clone https://github.com/FreeCAD/FreeCAD
 
-If you do not want to compile the latest HEAD, once you have the source you can check out a specific tag:
+Jeśli nie chcesz kompilować najnowszego HEAD, po uzyskaniu źródła możesz sprawdzić konkretny tag:
 
     cd FreeCAD
     git checkout tags/1.0 -b releases/FreeCAD-1-0
 
-Or a specific pull request (in this example, PR 1234):
+Lub konkretny \"pull request\" *(w tym przykładzie PR 1234)*:
 
     cd FreeCAD
     git fetch origin pull/1234/head:pr/1234
     git checkout pr/1234
 
-Note that not all versions can be compiled on MSYS2, several changes were required to enable it and these were not present in the 0.19 or earlier versions. For example, the 0.19.3 tag will not be compilable.
+Należy pamiętać, że nie wszystkie wersje mogą być kompilowane na MSYS2, kilka zmian było wymaganych, aby to umożliwić i nie były one obecne w wersji 0.19 lub wcześniejszych. Na przykład tag 0.19.3 nie będzie kompilowalny.
 
-### Install required libraries 
 
-FreeCAD depends on many 3rd-party libraries for its functionality. They may be installed individually, or as a single unified command.
 
-Now, install the following required dependencies using pacman:
+### Instalacja wymaganych bibliotek 
+
+Funkcjonalność FreeCAD zależy od wielu zewnętrznych bibliotek. Mogą one być instalowane pojedynczo lub jako jedno ujednolicone polecenie.
+
+Teraz zainstaluj następujące wymagane zależności za pomocą pacman:
 
 -   mingw-w64-x86_64-opencascade
 -   mingw-w64-x86_64-xerces-c
@@ -71,22 +79,24 @@ Now, install the following required dependencies using pacman:
 -   mingw-w64-x86_64-python-markdown
 -   mingw-w64-x86_64-python-pygit2
 
-The following is a single command to install everything in the list above:
+Poniżej znajduje się pojedyncze polecenie instalujące wszystko z powyższej listy:
 
     pacman -S mingw-w64-x86_64-opencascade mingw-w64-x86_64-xerces-c mingw-w64-x86_64-qt5 mingw-w64-x86_64-med mingw-w64-x86_64-swig mingw-w64-x86_64-qtwebkit mingw-w64-x86_64-coin mingw-w64-x86_64-python-pivy mingw-w64-x86_64-pyside2-qt5 mingw-w64-x86_64-python-ply mingw-w64-x86_64-python-six mingw-w64-x86_64-python-yaml mingw-w64-x86_64-python-numpy mingw-w64-x86_64-python-matplotlib mingw-w64-x86_64-python-markdown mingw-w64-x86_64-python-pygit2
 
-### Build FreeCAD 
 
-Make a directory for the build: note this is typically not a subdirectory of the source directory (it is often useful to be able to delete either the source or the build directory independently).
+
+### Kompilacja FreeCAD 
+
+Utwórz katalog dla kompilacji: zwróć uwagę, że zazwyczaj nie jest to podkatalog katalogu źródłowego *(często przydatna jest możliwość niezależnego usunięcia katalogu źródłowego lub kompilacji)*.
 
     mkdir FreeCAD-build
     cd FreeCAD-build
 
-Run cMake:
+Uruchom cMake:
 
     cmake ../FreeCAD
 
-And finally:
+I wreszcie:
 
     cmake --build ./
 

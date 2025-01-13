@@ -25,6 +25,8 @@
 
 # Arch Equipment/es
 
+
+
 ## Descripción
 
 
@@ -35,7 +37,7 @@ La herramienta de equipamiento le ofrece una manera simple y conveniente de inse
 
 </div>
 
-![](images/Arch_equipment_example.jpg ) 
+<img alt="" src=images/Arch_equipment_example.jpg  style="width:600px;"> 
 *Furniture objects enclosed in an [Arch Equipment](Arch_Equipment.md) object. The flat projections can be obtained by the [Draft Shape2DView](Draft_Shape2DView.md) tool*
 
 
@@ -46,7 +48,7 @@ A partir de la versión 0.17, los objetos de equipamiento también tienen una pr
 
 </div>
 
-![](images/Arch_equipment_mesh.jpg ) 
+<img alt="" src=images/Arch_equipment_mesh.jpg  style="width:600px;"> 
 *Furniture objects enclosed in an [Arch Equipment](Arch_Equipment.md) object, with a high resolution mesh attached*
 
 
@@ -56,6 +58,8 @@ Cuando se utiliza el exportador Arch OBJ, todos los equipos que están en el mod
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -75,9 +79,13 @@ Cuando se utiliza el exportador Arch OBJ, todos los equipos que están en el mod
 
 </div>
 
+
+
 ## Opciones
 
 -   Los equipamientos comparten las propiedades y comportamientos comunes de todos [Arch Components](Arch_Component/es.md)
+
+
 
 ## Propiedades
 
@@ -86,6 +94,8 @@ Cuando se utiliza el exportador Arch OBJ, todos los equipos que están en el mod
 -    {{PropertyData/es|Url}}: una URL de la página del producto donde se puede encontrar más información sobre este equipamiento.
 
 -    {{PropertyData/es|Mesh}}: una representación de [Mesh](Mesh_Workbench/es.md) para usar con este equipo. Cuando se establece, el modo de visualización **Mesh** está disponible.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -145,6 +155,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/es
+⏵ [documentation index](../README.md) > Arch Equipment/es

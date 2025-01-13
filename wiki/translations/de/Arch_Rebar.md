@@ -1,11 +1,11 @@
 ---
  GuiCommand:
    Name: Arch Rebar
-   Name/de:  Arch Bewehrung
-   MenuLocation: Arch , Rebar tools , Custom Rebar<br>3D/BIM , Reinforcement tools , Custom Rebar
-   Workbenches: Arch_Workbench/de,BIM_Workbench/de
+   Name/de: Arch Bewehrung
+   MenuLocation: 3D/BIM , Bewehrungswerkzeuge , Benutzerdefinierte Bewehrung
+   Workbenches: BIM_Workbench/de, Reinforcement_Workbench/de
    Shortcut: **R** **B**
-   SeeAlso: Arch_Structure/de, Reinforcement_Workbench/de
+   SeeAlso: 
 ---
 
 # Arch Rebar/de
@@ -14,9 +14,7 @@
 
 ## Beschreibung
 
-Das Werkzeug [Arch Bewehrung](Arch_Rebar/de.md) ermöglicht, [Bewehrungsstäbe](https://de.wikipedia.org/wiki/Bewehrungsstahl) (und Bewehrungsbügel) in [Arch Struktur](Arch_Structure/de.md)-Objekten zu positionieren.
-
-Das Werkzeug [Arch Bewehrung](Arch_Rebar/de.md) ist auch im Arbeitsbereich [BIM](BIM_Workbench/de.md) integriert.
+Das Werkzeug **Arch Bewehrung** ermöglicht, [Bewehrungsstäbe](https://de.wikipedia.org/wiki/Bewehrungsstahl) (und Bewehrungsbügel) in [Arch Struktur](Arch_Structure/de.md)-Objekten zu positionieren.
 
 Bewehrungen (Rebar-Objekte) basieren auf 2D-Profilen, wie [Draft-Objekte](Draft_Workbench/de.md) und [Skizzen](Sketcher_Workbench/de.md), die auf einer Fläche des Strukturobjekts gezeichnet werden müssen. Nach der Erstellung können die Eigenschaften der Bewehrung angepasst werden, einschließlich der Anzahl und des Durchmessers der Bewehrungsstäbe sowie des Abstands zwischen ihnen und den Flächen des Strukturelements.
 
@@ -25,31 +23,18 @@ Bewehrungen (Rebar-Objekte) basieren auf 2D-Profilen, wie [Draft-Objekte](Draft_
 
 
 
-## Optionale Erweiterung 
-
-Das Werkzeug Bewehrung wird durch den Arbeitsbereich [Reinforcement](Reinforcement_Workbench/de.md) erweitert, der mit dem [Addon-Manager](Std_AddonMgr/de.md) installiert wird. Die zusätzlich zur Verfügung gestellten (vordefinierten) Bewehrungsarten der Erweiterung sind:
-
--   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Geradlinige Bewehrung](Arch_Rebar_Straight/de.md)
--   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [U-förmige Bewehrung](Arch_Rebar_UShape/de.md)
--   <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [L-förmige Bewehrung](Arch_Rebar_LShape/de.md)
--   <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Abgesetzte Bewehrung](Arch_Rebar_BentShape/de.md)
--   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Bewehrungsbügel](Arch_Rebar_Stirrup/de.md)
--   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Wendelbewehrung](Arch_Rebar_Helical/de.md)
-
-
-
 ## Anwendung
 
-1.  Zum Arbeitsbereich <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Arch](Arch_Workbench/de.md) wechseln.
+1.  Zum Arbeitsbereich <img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [BIM](BIM_Workbench/de.md) wechseln.
 2.  Ein **<img src="images/Arch_Structure.svg" width=16px> [Arch Struktur](Arch_Structure/de.md)**-Element erstellen
 3.  Zum Arbeitsbereich <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher](Sketcher_Workbench/de.md) wechseln.
 4.  Eine Fläche des Strukturelements auswählen.
 5.  Die Schaltfläche **<img src="images/Sketcher_NewSketch.png" width=16px> [Skizze erstellen](Sketcher_NewSketch/de.md)** drücken, um eine neue Skizze auf der ausgewählten Fläche zu erstellen.
 6.  Den Verlauf des Bewehrungsstabes skizzieren.
 7.  Die Schaltfläche **<img src="images/Sketcher_LeaveSketch.png" width=16px> [Skizze verlassen](Sketcher_LeaveSketch/de.md)** drücken, um die Skizze fertigzustellen.
-8.  Zurück zum Arbeitsbereich [Arch](Arch_Workbench/de.md) wechseln.
+8.  Zurück zum Arbeitsbereich <img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [BIM](BIM_Workbench/de.md) wechseln.
 9.  Die gerade gezeichnete Skizze auswählen.
-10. Die Schaltfläche **<img src="images/Arch_Rebar.svg" width=16px> [Benutzerdefinierter Stab](Arch_Rebar/de.md)** drücken oder das Tastaturkürzel **R** dann **B**.
+10. Die Schaltfläche **<img src="images/Arch_Rebar.svg" width=16px> [Benutzerdefinierte Bewehrung](Arch_Rebar/de.md)** drücken oder das Tastaturkürzel **R** dann **B**.
 11. Die gewünschten Eigenschaften anpassen (der Bewehrungsstab erscheint möglicherweise nicht sofort, wenn einige der Eigenschaften einen unmöglichen Zustand schaffen; z.B. wenn der Stabdurchmesser 0 ist oder die Abstände größer sind als die Länge des Strukturelements).
 
 Obwohl eine Bewehrung normalerweise in einer Arch-Struktur verwendet wird, kann sie seit FreeCAD v0.19 auch außerhalb eines Host-Objekts erstellt werden. Um eine Bewehrung in einem Objekt zu platzieren, muss einfach nur dessen {{PropertyData/de|Host}} gesetzt werden.
@@ -91,7 +76,9 @@ Obwohl eine Bewehrung normalerweise in einer Arch-Struktur verwendet wird, kann 
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug Bewehrung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden: 
+Das Werkzeug Bewehrung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden:
+
+
 ```python
 Rebar = makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=None, name="Rebar")
 ```
@@ -130,5 +117,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+
+
+{{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar/de
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Arch Rebar/de

@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: TechDraw Balloon
-   Name/it: Pallinatura
-   MenuLocation: TechDraw , Pallinatura
+   Name/it: TechDraw Pallinatura
+   MenuLocation: TechDraw , Annotazioni , Inserisci Pallinatura
    Workbenches: TechDraw_Workbench/it
    Version: 0.19
    SeeAlso: TechDraw_Annotation/it
@@ -11,19 +11,10 @@
 # TechDraw Balloon/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Pallinatura aggiunge le bolle con una linea guida in un disegno.
-
-
-</div>
+Lo strumento **TechDraw Pallinatura** può aggiungere pallinature con linea guida in un disegno.
 
 <img alt="" src=images/Techdraw_balloon.png  style="width:600px;">
 
@@ -31,60 +22,55 @@ Lo strumento Pallinatura aggiunge le bolle con una linea guida in un disegno.
 
 ## Utilizzo
 
+1.  Selezionare uno dei seguenti:
+    -   Una Vista (sulla pagina o nella [Vista ad albero](Tree_view/it.md)).
+    -   Un vertice in una Vista.
+    -   Un bordo in una Vista.
+    -   Una regione chiusa in una Vista.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/TechDraw_Balloon.svg" width=16px> [Inserisci Pallinatura](TechDraw_Balloon/it.md)**.
+    -   Selezionare l\'opzione **TechDraw → Annotazioni → <img src="images/TechDraw_Balloon.svg" width=16px> Inserisci Pallinatura** dal menu.
+3.  Se è stata selezionata una vista o una regione:
+    1.  Il cursore si trasforma nell\'icona di un pallino.
+    2.  Fare clic su un punto della pagina per l\'origine del Pallino.
 
-<div class="mw-translate-fuzzy">
+Per spostare il pallino di una Pallinatura, tenere premuto il pulsante sinistro del mouse sul suo centro e trascinare il mouse.
 
-1.  Selezionare la vista a cui si vuole attaccare una bolla.
-2.  Premere il pulsante **<img src="images/TechDraw_Balloon.svg" width=16px> [Pallinatura](TechDraw_Balloon/it.md)**.
-3.  Il cursore assume un\'icona a forma di fumetto. Fare clic sulla pagina per fissare l\'origine della bolla nella posizione desiderata.
-4.  La bolla può essere trascinata nella posizione desiderata. Usare Ctrl e trascina per spostare la bolla e la freccia.
-5.  È possibile modificare le proprietà della bolla facendo doppio clic sulla sua etichetta del palloncino o sull\'oggetto bolla nell\'albero. Questo apre la finestra di dialogo Azioni bolla:
+Per modificare le proprietà di una Pallinatura fare doppio clic su di essa nella pagina o nella [Vista ad albero](Tree_view/it.md). Questo aprirà il pannello delle azioni della Pallinatura.
 
-
-</div>
-
-To move the bubble of a Balloon, press and hold the left mouse button on its center and drag the mouse.
-
-To change the properties of a Balloon double-click it on the page or in the [Tree view](Tree_view.md). This will open the Balloon task panel.
-
-**Note:** The position of a Balloon is relative to its Source View and uses the same scale factor.
+**Nota:** La posizione di una Pallinatura è relativa alla sua Vista Sorgente e utilizza lo stesso fattore di scala.
 
 
 
 ## Utilizzo dei separatori 
 
-Quando si utilizza una forma rettangolare, si possono aggiungere i separatori utilizzando \"\|\" nel testo. Ad esempio \"AAA\|TEST\|111\" restituisce:
+Quando si utilizza una forma rettangolare, è possibile aggiungere i separatori utilizzando \"\|\" nel testo. Ad esempio \"AAA\|TEST\|111\" restituisce:
 
-
-<div class="mw-translate-fuzzy">
-
-![300 px](images/balloon_separator.png )
-
-
-</div>
+<img alt="" src=images/balloon_separator.png  style="width:300px;">
 
 
 
 ## Proprietà
 
-### Data
 
-
-<div class="mw-translate-fuzzy">
 
 ### Dati
+
+### Dati 
 
 -    **Text**: testo da visualizzare.
 
 -    **Source View**: vista sorgente per la bolla.
 
--    **Origin X**: posizione x dell\'origine della bolla.
+-    **Origin X**: posizione x dell\'origine della bolla relativa alla Vista.
 
--    **Origin Y**: posizione y dell\'origine della bolla.
+-    **Origin Y**: posizione y dell\'origine della bolla relativa alla Vista.
 
--    **End Type**: simbolo di fine linea della bolla. Opzioni: <img alt="" src=images/Arrownone.svg  style="width:20px;"> Nessuno, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Freccia piena, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Freccia aperta, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Barra, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Dot, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Cerchio aperto, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Biforcazione, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Triangolo pieno
+-    **End Type**: simbolo di fine linea della bolla. Opzioni: <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Freccia piena, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Freccia aperta, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Barra, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Dot, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Cerchio aperto, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Biforcazione, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Triangolo pieno, Nessuna.
 
--    **Shape**: forma della bolla. Opzioni: <img alt="" src=images/Circular.svg  style="width:20px;"> Cerchio, Nessuna, <img alt="" src=images/Triangle.svg  style="width:20px;"> Triangolo, <img alt="" src=images/Inspection.svg  style="width:20px;"> Ispezione, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Esagono, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Quadrato, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Rettangolo
+-    **End Type Scale**: Fattore di scala per **End Type**.
+
+-    **Bubble**: forma della bolla. Opzioni: <img alt="" src=images/Circular.svg  style="width:20px;"> Cerchio, Nessuna, <img alt="" src=images/Triangle.svg  style="width:20px;"> Triangolo, <img alt="" src=images/Inspection.svg  style="width:20px;"> Ispezione, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Esagono, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Quadrato, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Rettangolo.
 
 -    **Shape Scale**: fattore di scala per la **Shape**.
 
@@ -97,48 +83,26 @@ Quando si utilizza una forma rettangolare, si possono aggiungere i separatori ut
 -    **Y**: posizione verticale della bolla rispetto alla vista.
 
 
-</div>
-
-### View
-
-
-<div class="mw-translate-fuzzy">
 
 ### Vista
 
--    **Color**: colore del testo della bolla.
+-    **Color**: colore del testo della pallinatura.
 
--    **Font**: il nome del carattere da utilizzare per la bolla.
+-    **Font**: il nome del carattere da utilizzare per la pallinatura.
 
 -    **Fontsize**: dimensione del testo in mm.
 
--    **Line Width**: larghezza della linea della bolla.
+-    **Line Visible**: se la linea di pallinatura è visibile.
 
-
-</div>
+-    **Line Width**: larghezza della linea della pallinatura.
 
 
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-<div class="mw-translate-fuzzy">
-
-
-**Vedere anche:**
-
-[API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Pallinatura può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
+Lo strumento Pallinatura può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 ```python
@@ -147,16 +111,10 @@ rc = page.addView(bal1)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
 
 
-
-
-</div>
-
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

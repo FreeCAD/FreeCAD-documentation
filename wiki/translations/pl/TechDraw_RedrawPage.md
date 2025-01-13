@@ -23,7 +23,7 @@ Narzędzie **Przerysuj stronę** wymusza aktualizację strony pomimo innych usta
 2.  Istnieje kilka sposobów wywołania narzędzia:
     -   Naciśnij przycisk **<img src="images/TechDraw_RedrawPage.svg" width=16px> '''Przerysuj stronę'''**.
     -   Wybierz z menu opcję **Rysunek Techniczny → Strona → <img src="images/TechDraw_RedrawPage.svg" width=16px> Przerysuj stronę**.
-3.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze wybrana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+3.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze wybrana, otworzy się okno dialogowe **Wybór strony**:
     1.  Wybierz żądaną stronę.
     2.  Naciśnij przycisk **OK**.
 

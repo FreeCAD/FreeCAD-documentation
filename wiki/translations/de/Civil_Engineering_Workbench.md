@@ -8,7 +8,9 @@ Derzeit sind nur zwei Komponenten des Bauingenieurwesens in FreeCAD vertreten:
 1.  [Arbeitsbereich Bewehrung](Arch_Rebar/de.md)
 2.  [Arbeitsbereich Verkehrswesen](Transportation_Workbench/de.md)
 
-Die Bewehrungswerkzeuge sind derzeit Teil der [Arch Arbeitsbereichs](Arch_Workbench/de.md)
+Die Bewehrungswerkzeuge sind derzeit Teil des Arbeitsbereichs [BIM](BIM_Workbench/de.md)
+
+
 
 ## Verwandte Forumsbeiträge 
 
@@ -21,6 +23,8 @@ Die Bewehrungswerkzeuge sind derzeit Teil der [Arch Arbeitsbereichs](Arch_Workbe
 -   Bildschirmfotos
 -   Fahrplan (Wortspiel nicht beabsichtigt)
 -   Aufpolieren dieser Wiki Seite
+
+
 
 ## Verwandte Verweise 
 

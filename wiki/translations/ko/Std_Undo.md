@@ -10,11 +10,18 @@
 
 # Std Undo/ko
 
+
+
 ## 설명
 
 **표준 실행 취소(Std Undo)** 명령은 마지막 작업을 실행 취소합니다.
 
+
+
 ## 용법
+
+
+<div class="mw-translate-fuzzy">
 
 1.  이 명령을 실행하는 방법은 여러가지입니다.:
     -   
@@ -27,6 +34,11 @@
 
     -   단축키를 사용합니다: **Ctrl**+**Z**.
 
+
+</div>
+
+
+
 ## 선택 사항 
 
 
@@ -37,19 +49,43 @@
 
 </div>
 
+
+
 ## 환경 설정 
 
--   실행 취소/다시 실행 기능은 **도구 → 파라미터 편집... → BaseApp → Preferences → Document → UsingUndo**를 `False`로 설정하여 비활성화할 수 있지만 권장하지 않습니다. 이 설정은 [환경 설정 편집기](Preferences_Editor/ko#문서.md)에서도 변경할 수 있습니다.
--   실행 취소/다시 실행의 최대 횟수는 **도구 → 파라미터 편집... → BaseApp → Preferences → Document → MaxUndoSize**로 조절합니다. 이 설정은 [환경 설정 편집기](Preferences_Editor/ko#문서.md)에서도 변경할 수 있습니다.
+See also: [Preferences Editor](Preferences_Editor.md).
+
+
+<div class="mw-translate-fuzzy">
+
+-   실행 취소/다시 실행 기능은 **도구 → 파라미터 편집... → BaseApp → Preferences → Document → UsingUndo**를 `False`로 설정하여 비활성화할 수 있지만 권장하지 않습니다. 이 설정은 [환경 설정 편집기에서도](Preferences_Editor/ko#문서.md) 변경할 수 있습니다.
+-   실행 취소/다시 실행의 최대 횟수는 **도구 → 파라미터 편집... → BaseApp → Preferences → Document → MaxUndoSize**로 조절합니다. 이 설정은 [환경 설정 편집기에서도](Preferences_Editor/ko#문서.md) 변경할 수 있습니다.
+
+
+</div>
+
+
 
 ## 스크립트
+
+
+<div class="mw-translate-fuzzy">
 
 
 **참조:**
 
 [FreeCAD 스크립트 기초](FreeCAD_Scripting_Basics/ko.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 마지막 작업을 실행 취소하려면 문서 객체의 `undo` 메소드를 사용합니다.
+
+
+</div>
 
 
 ```python
@@ -71,7 +107,7 @@ FreeCAD.ActiveDocument.UndoMode = 1
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

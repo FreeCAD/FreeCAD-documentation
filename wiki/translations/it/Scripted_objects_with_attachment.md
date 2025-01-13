@@ -29,7 +29,7 @@ class Box():
         ... custom properties
 
         # Needed to make this object "attachable"
-        obj.addExtension('Part::AttachExtensionPython', obj)
+        obj.addExtension('Part::AttachExtensionPython')
 
 
 Without adding this code, we\'ll see the following warning dialog when attaching our custom scripted object to another object.
@@ -86,7 +86,7 @@ class Box():
 
         # Needed to make this object "attachable",
         # or able to attach parameterically to other objects
-        obj.addExtension('Part::AttachExtensionPython', obj)
+        obj.addExtension('Part::AttachExtensionPython')
 
     def execute(self, obj):
         """

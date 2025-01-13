@@ -6,24 +6,30 @@
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **P** **5**
    Version: 0.15
+   SeeAlso: Sketcher_CreateRegularPolygon/de
 ---
 
 # Sketcher CreatePentagon/de
 
+
+
 ## Beschreibung
 
-Zeichnet ein Fünfeck, das in einem Kreis der Konstruktionsgeometrie eingeschrieben ist. Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Sechsecksymbol. Die Koordinaten des Zeigers werden daneben in Echtzeit blau dargestellt.
+Das Werkzeug <img alt="" src=images/Sketcher_CreatePentagon.svg  style="width:24px;"> [Sketcher FünfeckErstellen](Sketcher_CreatePentagon/de.md) erstellt ein Fünfeck. {{Version/de|1.0}}: Dies ist dasselbe Werkzeug wie [Sketcher RegelmäßigesVieleckErstellen](Sketcher_CreateRegularPolygon/de.md) aber mit der vorgegebenen Anzahl von 5 Seiten.
 
 ![](images/SketcherCreatePentagonExample.png‎ )
 
+
+
 ## Anwendung
 
--   Nach Drücken der **[<img src=images/Sketcher_CreatePentagon.svg style="width:16px"> [Fünfeck erstellen](Sketcher_CreatePentagon/de.md)**, klicke einmal, um das Zentrum zu setzen, bewege dann die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
--   Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
-## Hinweise
-
-Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung der Skizze sichtbar ist.
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_CreatePentagon.svg" width=16px> [Fünfeck](Sketcher_CreatePentagon/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Skizzengeometrien → <img src="images/Sketcher_CreatePentagon.svg" width=16px> Fünfeck erstellen** auswählen.
+    -   Das Tastaturkürzel **G** dann **P** dann **5**.
+2.  Für weitere Schritte siehe [Sketcher RegelmäßigesVieleckErstellen](Sketcher_CreateRegularPolygon/de#Anwendung.md).
 
 
 

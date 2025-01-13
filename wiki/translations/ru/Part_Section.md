@@ -9,6 +9,8 @@
 
 # Part Section/ru
 
+
+
 ## Описание
 
 The <img alt="" src=images/Part_Section.svg  style="width:24px;"> **Part Section** command creates wire geometry at the intersections of two objects. The result is fully parametric.
@@ -18,6 +20,8 @@ The <img alt="" src=images/Part_Section.svg  style="width:24px;"> **Part Section
 
 ![](images/PartSection1_it.png ) 
 *A cube sectioned with a cylinder*
+
+
 
 ## Применение
 
@@ -53,6 +57,8 @@ A PartDesign Section object is derived from a [Part Feature](Part_Feature.md) ob
 {{Properties_Title|Section}}
 
 -    **Approximation|Bool**: Approximate the output edges.
+
+
 
 ## Ссылки
 

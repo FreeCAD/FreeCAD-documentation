@@ -1,9 +1,10 @@
 ---
  GuiCommand:
    Name: Spreadsheet StyleBold
-   Name/it: Grassetto
+   Name/it: Spreadsheet Stile grassetto
+   MenuLocation: Foglio di calcolo , Stili , Grassetto
    Workbenches: Spreadsheet_Workbench/it
-   MenuLocation: Spreadsheet , Stile , Grassetto
+   Shortcut: **Ctrl**+**B**
    Version: 0.17
 ---
 
@@ -13,15 +14,18 @@
 
 ## Descrizione
 
-Lo strumento <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:16px;"> **Grassetto** fa in modo che il testo all\'interno della cella adotti lo stile **grassetto**.
+Lo strumento <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> **Spreadsheet Stile grassetto** commuta il contenuto delle celle selezionate in/da grassetto.
 
 
 
 ## Utilizzo
 
-1.  Accertarsi che sia attivo un <img alt="" src=images/_Spreadsheet_CreateSheet.svg  style="width:16px;"> [Foglio di calcolo](Spreadsheet_CreateSheet/it.md) in modo che il pulsante sia abilitato.
-2.  Selezionare una cella.
-3.  Premere il pulsante **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> Grassetto**.
+1.  Assicurarsi che ci sia un [foglio di calcolo](Spreadsheet_CreateSheet/it.md) attivo.
+2.  Selezionare una o più celle.
+3.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Grassetto](Spreadsheet_StyleBold/it.md)**.
+    -   Selezionare l\'opzione **Foglio di calcolo → Stili → [<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> Grassetto** dal menu.
+    -   Usare la scorciatoia da tastiera: **Ctrl**+**B**. {{Version/it|1.1}}
 
 
 

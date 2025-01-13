@@ -48,6 +48,9 @@ La biblioteca es un simple contenedor de archivos SVG. Puedes descargarla en cua
 
 ## Enlaces a la biblioteca de símbolos 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Wiki Ambientes de trabajo:
 -   Wiki FreeCAD:
 -   Foro de FreeCAD: <http://forum.freecadweb.org/viewtopic.php?f=9&t=10641>
@@ -55,6 +58,9 @@ La biblioteca es un simple contenedor de archivos SVG. Puedes descargarla en cua
 -   Vídeos:
 -   Archivos:
 -   Informe de errores: Por favor, informe de errores en [Foro de FreeCAD](http://forum.freecadweb.org/index.php) o <https://github.com/FreeCAD/FreeCAD-symbols/issues>
+
+
+</div>
 
 
 

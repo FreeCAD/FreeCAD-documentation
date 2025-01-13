@@ -15,7 +15,7 @@ Starsze wersje: [0.12](Release_notes_0.12/pl.md) - [0.11](Release_notes_0.11/pl.
 ## Moduł Kreślenie 
 
 -   **Funkcja wycinków**: Nowy obiekt [Wycinek](Drawing_Clip/pl.md) umożliwia umieszczanie widoków obiektów wewnątrz przyciętych prostokątów na stronach Rysunku.
--   **Edytowalne bloki tytułowe**: Podczas projektowania [Szablonów rysunków](Drawing_templates/pl.md) można teraz oznaczać teksty jako edytowalne. Teksty te można następnie edytować bezpośrednio w programie FreeCAD.
+-   **Edytowalne bloki tytułowe**: Podczas projektowania Szablonów rysunków można teraz oznaczać teksty jako edytowalne. Teksty te można następnie edytować bezpośrednio w programie FreeCAD.
 -   **Funkcja adnotacji**: Nowy obiekt [Adnotacja rysunku](Drawing_Annotation/pl.md), prosta funkcja szybkiego umieszczania bloków tekstowych na stronie rysunku.
 -   **Widoki ortogonalne**: Nowe narzędzie [Rysowanie widoków ortograficznych](Drawing_Orthoviews/pl.md) ułatwia tworzenie wielu widoków wyrównanych względem siebie, zgodnie z rzutem pierwszego lub trzeciego kąta.
 -   **Podgląd w przeglądarce**: Ponieważ wszystkie możliwości SVG nie zawsze są obsługiwane przez wewnętrzną przeglądarkę Qt SVG, przycisk ten pozwala sprawdzić, jak strona wygląda w przeglądarce Webkit, która w pełni obsługuje format SVG. Jest to rozwiązanie tymczasowe, dopóki nie przestawimy naszej przeglądarki SVG na Webkit \...

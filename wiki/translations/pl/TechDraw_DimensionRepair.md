@@ -44,7 +44,7 @@ Narzędzie TechDraw DimensionRepair nie może być używane w [makroinstrukcjach
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

@@ -3,6 +3,8 @@
 
 
 
+
+
 ## Wprowadzenie
 
 **Menu Plik** jest jednym z siedmiu pozycji w [Menu głównym](Standard_Menu/pl.md):
@@ -35,6 +37,8 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_Open.svg  style="width:32px;"> [Otwórz](Std_Open/pl.md): otwiera istniejący plik dokumentu FreeCAD, lub wykonuje import.
 
+-   [Ostatnio otwierane](Std_RecentFiles/pl.md): Pokazuje listę ostatnio otwartych plików.
+
 -   <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:32px;"> [Zamknij](Std_CloseActiveWindow/pl.md): Zamyka bieżące okno dokumentu.
 
 -   <img alt="" src=images/Std_CloseAllWindows.svg  style="width:32px;"> [Zamknij wszystkie](Std_CloseAllWindows/pl.md): zamyka wszystkie otwarte okna dokumentów.
@@ -63,15 +67,13 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_PrintPdf.svg  style="width:32px;"> [Eksportuj do PDF \...](Std_PrintPdf/pl.md): Zapisuje bieżący obraz dokumentu do pliku PDF.
 
--   [Ostatnio używane pliki](Std_RecentFiles/pl.md): Pokazuje listę ostatnio otwartych plików.
-
 -   <img alt="" src=images/Std_Quit.svg  style="width:32px;"> [Zakończ](Std_Quit/pl.md): Kończy pracę z programem FreeCAD.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -37,7 +37,7 @@ Il comando **Vista 3D a schermo intero** commuta la [Vista 3D](3D_view/it.md) da
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

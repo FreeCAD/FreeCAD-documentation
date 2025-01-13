@@ -10,9 +10,13 @@
 
 # PartDesign MoveFeatureInTree/de
 
+
+
 ## Beschreibung
 
 <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:24px;"> [Objekt hinter ein anderes Objekt verschieben](PartDesign_MoveFeatureInTree/de.md), wie dieser Befehl im Kontextmenü heißt, erlaubt das Umsortieren des Modellbaums innerhalb eines Körpers. Skizzen, Bezugselemente und Formelemente werden unterstützt.
+
+
 
 ## Anwendung
 
@@ -24,6 +28,8 @@
 
 4.  
     **OK**drücken.
+
+
 
 ## Beispiel
 

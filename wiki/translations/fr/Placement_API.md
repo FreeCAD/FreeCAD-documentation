@@ -1,5 +1,5 @@
 # Placement API/fr
-**(Octobre 2019) Ne modifiez pas cette page. L'information est incomplète et obsolète. Pour la dernière API, consultez la [https://www.freecadweb.org/api documentation de l'API générée automatiquement], ou générez la documentation vous-même, voir [Source documentation](Source_documentation/fr.md).**
+**(octobre 2019) Ne pas éditer cette page. L'information est incomplète et obsolète. Pour la dernière API, voir la [https://www.freecadweb.org/api documentation de l'API générée automatiquement], ou générez la documentation vous-même, voir [Documentation du code source](Source_documentation/fr.md).**
 
 Dans FreeCAD,le Placement définit la position et la rotation d\'un objet. Le concept de placement est expliqué en détail ici: [ Placement](Placement.md).
 

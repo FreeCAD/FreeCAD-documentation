@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part_Section
    Name/fr: Part Section
-   MenuLocation: Part , Section
+   MenuLocation: Part , Créer une section
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_CrossSections/fr
 ---
@@ -24,10 +24,10 @@ La commande <img alt="" src=images/Part_Section.svg  style="width:24px;"> **Part
 ## Utilisation
 
 1.  Sélectionnez deux objets.
-2.  Le premier objet sera la **Base** de la section, mais l\'ordre de sélection n\'a aucune incidence sur le résultat.
-3.  Il existe plusieurs façons d\'invoquer la commande :
-    -   Appuyez sur le bouton **![](images/)_[Section](Part_Section/fr.md)**.
-    -   Sélectionnez l\'option **Part → ![](images/)_Section**_dans_le_menu.
+2.  Le premier objet sera la propriété **Base** de la section, mais l\'ordre de sélection n\'a aucune incidence sur le résultat.
+3.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **![](images/)_[Créer_une_section](Part_Section/fr.md)**.
+    -   Sélectionnez l\'option **Part → ![](images/)_Créer_une_section**_du_menu.
 
 
 
@@ -35,7 +35,7 @@ La commande <img alt="" src=images/Part_Section.svg  style="width:24px;"> **Part
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Part Section est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+Un objet PartDesign Section est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 
 
@@ -53,12 +53,12 @@ Un objet Part Section est dérivé d\'un [Part Feature](Part_Feature/fr.md) et h
 
 -    **History|ShapeHistory|hidden**: \"historique de la forme\".
 
--    **Refine|Bool**: \"affiner la forme (nettoyer les bords redondants) après cette opération booléenne\". La valeur par défaut est déterminée par la préférence **Affiner automatiquement le modèle après une opération d'esquisse**. Voir [PartDesign Préférences](PartDesign_Preferences/fr#G.C3.A9n.C3.A9ral.md).
+-    **Refine|Bool**: \"affiner la forme (nettoyer les arêtes redondantes) après cette opération booléenne\". La valeur par défaut est déterminée par la préférence **Affiner les modèles automatiquement après une opération sur une esquisse**. Voir [PartDesign Préférences](PartDesign_Preferences/fr#G.C3.A9n.C3.A9ral.md).
 
 
 {{Properties_Title|Section}}
 
--    **Approximation|Bool**: approximation des bords de sortie.
+-    **Approximation|Bool**: approxime les arêtes générées.
 
 
 

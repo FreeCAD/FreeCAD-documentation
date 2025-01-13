@@ -14,7 +14,7 @@
 
 ## Opis
 
-Polecenie <img alt="" src=images/SheetMetal_Relief.svg  style="width:16px;"> **Wykonaj podcięcie** tworzy narożne odciążenia, wycięcia, w punktach, w których spotykają się trzy sekcje *(płyta podstawowa / ściany / kołnierze)* obiektu wykonanego z blachy. Bez tych wycięć obiekt nie będzie mógł zostać rozłożony.
+Polecenie <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **Wykonaj podcięcie** tworzy narożne odciążenia, wycięcia, w punktach, w których spotykają się trzy sekcje *(płyta podstawowa / ściany / kołnierze)* obiektu wykonanego z blachy. Bez tych wycięć obiekt nie będzie mógł zostać rozłożony.
 
 To polecenie jest pierwszym z trzech kroków konwersji obiektu powłoki wykonanego za pomocą środowiska pracy [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md) na rozkładany obiekt z blachy:
 
@@ -30,10 +30,18 @@ To polecenie jest pierwszym z trzech kroków konwersji obiektu powłoki wykonane
 ## Użycie
 
 1.  Wybierz jedną lub więcej krawędzi.
-2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **Wykonaj podcięcie** używając jednej z poniższych opcji:
-    -   Przycisk **<img src="images/SheetMetal_AddRelief.svg" width=16px> Wykonaj podcięcie**.
-    -   Opcja menu **SheetMetal → <img src="images/SheetMetal_AddRelief.svg" width=16px> Wykonaj podcięcie**.
-    -   Skrót klawiaturowy: **S** + **R**.
+2.  Istnieje kilka sposobów na wywołanie tego polecenia:
+    -   Wciśnij przycisk **<img src="images/SheetMetal_AddRelief.svg" width=16px> Wykonaj podcięcie**.
+    -   Wybierz opcję **SheetMetal → <img src="images/SheetMetal_AddRelief.svg" width=16px> Wykonaj podcięcie** z menu.
+    -   Kliknij prawym przyciskiem myszy w [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md) i wybierz opcję **Sheet Metal → <img src="images/SheetMetal_AddRelief.svg" width=16px> Wykonaj podcięcie** z menu kontekstowego.
+    -   Użyj skrótu klawiaturowego: **S** + **R**.
+3.  Otwarty zostanie [panel zadań](Task_panel/pl.md) **Add Corner Relief on Solid** (wprowadzony w wersji 0.5.00).
+4.  Opcjonalnie wciśnij przycisk **Wybierz** aby dodać więcej wierzchołków.
+    -   Wciśnij przycisk **Podgląd** aby zakończyć wybór i wyświetlić zmiany.
+5.  Opcjonalnie dostosuj parametry w panelu zadań.
+6.  Wciśnij przycisk **OK** aby zakończyć polecenie i zamknąć panel zadań.
+7.  Utworzony zostanie obiekt **CornerRelief** składający się z jednego nowego podcięcia dla każdego wskazanego wierzhołka.
+8.  Opcjonalnie dostosuj parametry w [Edytorze właściwości](Property_editor/pl.md).
 
 <img alt="" src=images/SheetMetal_ConvertShellObject-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-06.png  style="width:200px;">
 
@@ -68,20 +76,11 @@ Aby utworzyć półfabrykat za pomocą środowiska pracy [Projekt Części](Part
 
 Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt Podcięcie środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+Obiekt Podcięcie środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) lub, jeśli jest w obrębie [Zawartości środowiska Projekt Części](PartDesign_Body/pl.md), z obiektu [Cechy tego środowiska](PartDesign_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
 
 ### Dane
-
-
-{{Properties_Title|Podstawowe}}
-
--    **Etykieta|String**: Wartość domyślna: {{value|Relief}} *(+ kolejny numer dla drugiej i następnych pozycji)*. Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg znaków UTF8.
-
--    **Cecha podstawowa|Link|ukryte**: Cecha bazowa. Łącze do cechy nadrzędnej.
-
--    **_Body|LinkHidden|ukryte**: Łącze ukryte do zawartości nadrzędnej.
 
 
 {{Properties_Title|Parametry}}

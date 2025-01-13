@@ -31,6 +31,8 @@ Dessa sidor är i ett tidigt utvecklingsstadie. Om du inte kan hitta den informa
 
 </div>
 
+
+
 ## Anpassa FreeCAD 
 
 
@@ -41,6 +43,8 @@ Dessa sidor är i ett tidigt utvecklingsstadie. Om du inte kan hitta den informa
 
 
 </div>
+
+
 
 ## Skriptning i FreeCAD 
 
@@ -122,6 +126,8 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 **Arbeta med parametriska objekt**
@@ -134,7 +140,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 -   [Scripted objects](Scripted_objects.md): how to make 100% Python-scripted objects.
     -   [Scripted objects with attachment](Scripted_objects_with_attachment.md): how to make scripted objects attachable to other objects.
-    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md): how to save and restore attributes of the proxy class with `__getstate__` and `__setstate__`.
+    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md): how to save and restore attributes of the proxy class with `dumps` and `loads`.
     -   [Scripted objects migration](Scripted_objects_migration.md): how to migrate old scripted objects to a new class.
 
 ### Examples
@@ -154,6 +160,8 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 </div>
 
+
+
 ## API funktioner 
 
 
@@ -165,6 +173,8 @@ Den kompletta API beskrivningen hittas [här](:Category:API/sv.md). Notera att d
 </div>
 
 Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
+
+
 
 ## Avancerade ändringar 
 
@@ -179,6 +189,8 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 
 </div>
+
+
 
 ## Python övningar 
 
@@ -224,6 +236,8 @@ The following two references are PyQt specific (not PySide) but may offer some i
 
 </div>
 
+
+
 ## Grupprojekt
 
 
@@ -233,8 +247,6 @@ På [Grupportalen](free-cad:Community_Portal/sv.md), så kan du hitta andra Free
 
 
 </div>
-
--   [Scientific literature](Scientific_literature.md): articles that reference or use the FreeCAD system in different ways.
 
 
 

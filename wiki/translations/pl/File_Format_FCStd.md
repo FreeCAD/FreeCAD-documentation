@@ -3,6 +3,8 @@
 
 Standardowy format pliku FreeCAD *FreeCAD Standard file format* (**.FCStd**) jest głównym formatem pliku FreeCAD. Zawartość pliku jest złożona, obsługuje kompresję i osadzanie różnych rodzajów danych.
 
+
+
 ## Zawartość plików .FCStd 
 
 FCStd jest [standardowym plikiem zip zawierającym jeden lub więcej plików](#Contents.md) o [specyficznej strukturze](#structure.md). Jako takie, możliwe jest rozpakowanie pliku **.FCStd** przy użyciu zwykłego narzędzia dekompresującego **zip**, ale należy zachować ostrożność podczas pakowania zawartości pliku **.FCStd**. FreeCAD zawiera **Project Utility** do ponownego pakowania plików **.FCStd**, jego użycie jest opisane w [Zmień źródło pliku .FCStd](#Change_the_source_of_the_file_.FCStd.md) poniżej.
@@ -10,6 +12,8 @@ FCStd jest [standardowym plikiem zip zawierającym jeden lub więcej plików](#C
 ### Document.xml
 
 Jest to główny plik **.xml** opisujący wszystkie obiekty wewnątrz dokumentu FreeCAD, czyli tylko geometryczną i parametryczną definicję obiektów, a nie ich wizualną reprezentację. Jeżeli FreeCAD jest uruchomiony w trybie konsolowym *(bez GUI)*, to tylko ten **Dokument.xml** będzie użyty.
+
+
 
 #### Przykład Dokumentu.xml 
 
@@ -110,6 +114,8 @@ Jest to główny plik **.xml** opisujący wszystkie obiekty wewnątrz dokumentu 
 
 Jest to odpowiednik GUI pliku **Document.xml**. Dla każdego obiektu opisanego w pliku **Document.xml** znajduje się jeden odpowiadający mu obiekt w pliku **GuiDocument.xml**, opisujący wizualną reprezentację tego obiektu *(kolor, szerokość linii itd.)*.
 
+
+
 ### Miniatury/thumbnail.png
 
 Jest to miniatura przedstawiająca obraz dokumentu o wymiarach 128x128 pikseli, która jest zrzutem ekranu z widoku 3D w wybranym widoku z perspektywy czasu. Miniaturki są generowane tylko wtedy, gdy jest włączona odpowiednia opcja w preferencjach programu FreeCAD.
@@ -121,6 +127,8 @@ Są to kształty [B-rep](wikipedia_Boundary_representation.md) wszystkich obiekt
 ### \*.svg
 
 W folderze Templates przechowywane są pliki SVG szablonów używane na stronach [Rysunek Techniczny](TechDraw_Workbench/pl.md).
+
+
 
 ### Struktura
 
@@ -139,6 +147,8 @@ Struktura typowego pliku **FCStd**: Rozszerzenie można zmienić na **.zip**, ab
       :--MyPage.svg
       :--etc.
 
+
+
 ## Osadzanie innych plików 
 
 Aby osadzić inne typy plików w pliku FCStd, musisz najpierw utworzyć plik typu [obiekt skryptowy](Scripted_objects/pl.md) z [konsoli Python](Python_console/pl.md), i nadaj mu właściwość `App::PropertyFileIncluded`
@@ -153,13 +163,11 @@ custom_obj.addProperty("App::PropertyFileIncluded", "AttachedFile")
 
 Zobacz wątek na forum, [PDF wewnątrz projektu](https://forum.freecadweb.org/viewtopic.php?t=38201).
 
+
+
 ## Zmień źródło pliku .FCStd 
 
 -   Zobacz [Std ProjectUtil](Std_ProjectUtil.md).
-
-## Pozostałe
-
--   Narzędzie konwertujące pliki [ImageConv](ImageConv.md).
 
 
 

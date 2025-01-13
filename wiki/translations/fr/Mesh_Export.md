@@ -22,7 +22,7 @@ La commande **Exporter un maillage** exporte un objet maillé dans un format de 
     -   Appuyez sur le bouton **<img src="images/Mesh_Export.svg" width=16px> [Exporter le maillage...](Mesh_Export/fr.md)**.
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Export.svg" width=16px> Exporter le maillage...** du menu.
     -   Sélectionnez l\'option **<img src="images/Mesh_Export.svg" width=16px> Exporter le maillage...** du menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou le menu contextuel de la [vue 3D](3D_view/fr.md).
-3.  Sélectionnez le format de fichier correct dans la boîte de dialogue.
+3.  Sélectionnez le format de fichier correct dans la fenêtre de dialogue.
 4.  Entrez un nom de fichier. Si vous avez sélectionné l\'option {{Value|Tous les fichiers (*.*)}} à l\'étape précédente et si vous ne spécifiez pas d\'extension de fichier ici, l\'extension **.stl** sera utilisée.
 5.  Appuyez sur le bouton **Sauvegarder**.
 

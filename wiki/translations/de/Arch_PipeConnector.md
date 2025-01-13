@@ -1,12 +1,12 @@
 ---
  GuiCommand:
    Name: Arch PipeConnector
-   Name/de: Arch RohrVerbinder
-   MenuLocation: Arch , Pipe tools , Rohr Verbinder
-   Workbenches: Arch_Workbench/de
+   Name/de: Arch Rohrverbinder
+   MenuLocation: 3D/BIM , Verbinder
+   Workbenches: BIM_Workbench/de
    Shortcut: **P** **C**
    Version: 0.17
-   SeeAlso: Arch_Pipe/de, Arch_Equipment/de
+   SeeAlso: 
 ---
 
 # Arch PipeConnector/de
@@ -15,14 +15,14 @@
 
 ## Beschreibung
 
-Dieses Werkzeug ermöglicht eine Eck- oder T-Stück-Verbindung zwischen zwei oder drei ausgewählten [Arch Rohren](Arch_Pipe/de.md) erstellen.
+Das Werkzeug **Arch Rohrverbinder** ermöglicht eine Eck- oder T-Stück-Verbindung zwischen zwei oder drei ausgewählten [Arch Rohren](Arch_Pipe/de.md) zu erstellen.
 
 
 
 ## Anwendung
 
 1.  2 oder 3 [Arch Rohre](Arch_Pipe/de.md) auswählen. Werden 3 Rohre ausgewählt, müssen zwei davon kollinear ausgerichtet sein.
-2.  Die Schaltfläche **<img src="images/Arch_PipeConnector.svg" width=16px> [Arch RohrVerbinder](Arch_PipeConnector/de.md)** drücken oder das Tastaturkürzel **P** dann **C**.
+2.  Die Schaltfläche **<img src="images/Arch_PipeConnector.svg" width=16px> [Verbinder](Arch_PipeConnector/de.md)** drücken oder das Tastaturkürzel **P** dann **C**.
 
 
 
@@ -45,7 +45,9 @@ Siehe die Information auf [Arch Rohr](Arch_Pipe/de.md) für den Arbeitsablauf zu
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug Rohrverbinder kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden: 
+Das Werkzeug Rohrverbinder kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden:
+
+
 ```python
 Connector = makePipeConnector(pipes, radius=0, name="Connector")
 ```
@@ -53,7 +55,9 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 -   Erstellt ein `Connector`-Objekt aus den gegebenen `pipes`, eine Liste von [Arch Rohren](Arch_Pipe/de.md), und wahlweise einen Krümmungsradius `radius`.
     -   Die Basisobjekte ([Draft Linienzüge](Draft_Wire/de.md)) der [Arch Rohre](Arch_Pipe/de.md) sollten einen gemeinsamen Endpunkt haben, so dass sie einen sauberen, glatten Verbinder ergeben.
 
-Beispiel: 
+Beispiel:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -88,5 +92,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/de
+⏵ [documentation index](../README.md) > Arch PipeConnector/de

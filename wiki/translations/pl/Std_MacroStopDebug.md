@@ -20,7 +20,7 @@ To polecenie w tej chwili nie działa.
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -22,7 +24,7 @@ Instrumentul Bibliotecă vă permite să plasați, în modelul curent, un obiect
 
 </div>
 
-<img alt="" src=images/BIM_Library_screenshot.png  style="width:800px;">
+<img alt="" src=images/BIM_Library_screenshot.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -31,6 +33,8 @@ Instrumentul Bibliotecă vă permite să plasați, în modelul curent, un obiect
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -52,6 +56,8 @@ Instrumentul Bibliotecă vă permite să plasați, în modelul curent, un obiect
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -66,5 +72,13 @@ Instrumentul Bibliotecă vă permite să plasați, în modelul curent, un obiect
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/ro
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Library/ro

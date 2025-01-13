@@ -1,7 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Snap Perpendicular
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Snapping , Snap perpendicular
+   Workbenches: Draft_Workbench, BIM_Workbench
    SeeAlso: Draft_Snap, Draft_Snap_Lock
 ---
 

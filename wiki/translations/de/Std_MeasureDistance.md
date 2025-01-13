@@ -4,14 +4,18 @@
    Name/de: Std AbstandMessen
    MenuLocation: Werkzeuge , Abstand messen
    Workbenches: Alle
-   SeeAlso: Part_Measure_Linear/de, Draft_Dimension/de
+   SeeAlso: Std_Measure/de, Draft_Dimension/de
 ---
 
 # Std MeasureDistance/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug **Std AbstendMessen** erstellt ein Distance-Objekt, das den Abstand zwischen zwei Punkten misst und anzeigt.
+
+
 
 ## Anwendung
 
@@ -23,13 +27,19 @@ Das Werkzeug **Std AbstendMessen** erstellt ein Distance-Objekt, das den Abstand
 4.  Die Auswahlreihenfolge der Punkte kann die Lage der Maßlinie beeinflussen.
 5.  Wahlweise kann die Lage der Maßlinie umgekehrt werden, indem die {{PropertyView/de|Mirror}} des Distance-Objekts geändert wird.
 
+
+
 ## Hinweise
 
 -   Das Fangwerkzeug des Arbeitsbereichs [Draft](Draft_Workbench/de.md) kann nicht mit diesem Werkzeug zusammen verwendet werden.
 -   Um einer Zeichnung Maße hinzuzufügen, werden die Bemaßungswerkzeuge des Arbeitsbereichs [TechDraw](TechDraw_Workbench/de.md) verwendet.
 -   Für umfangreichere Messwerkzeuge kann der [externe Arbeitsbereich](External_workbenches/de.md) <img alt="" src=images/Manipulator_workbench_icon.svg  style="width:24px;"> [Manipulatorverwendet](Manipulator_Workbench/de.md) werden.
 
+
+
 ## Eigenschaften
+
+
 
 ### Daten
 
@@ -47,6 +57,8 @@ Das Werkzeug **Std AbstendMessen** erstellt ein Distance-Objekt, das den Abstand
 
 -    {{PropertyData/de|Distance}}: Der gemessene Abstand zwischen P1 und P2 (schreibgeschützt) .
 
+
+
 ### Ansicht
 
 
@@ -62,7 +74,7 @@ Das Werkzeug **Std AbstendMessen** erstellt ein Distance-Objekt, das den Abstand
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

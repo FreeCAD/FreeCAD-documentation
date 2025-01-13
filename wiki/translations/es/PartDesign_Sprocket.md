@@ -24,6 +24,8 @@ Esta herramienta permite crear un perfil 2D de una rueda dentada. Se puede acolc
 3.  Haga clic en **Aceptar**
 4.  Si la rueda dentada se crea fuera del cuerpo activo, arrástrela y suéltela en un cuerpo para aplicar otras características como el acolchado.
 
+
+
 ## Propiedades
 
 -    **Número de dientes**: Número de dientes
@@ -37,7 +39,13 @@ Esta herramienta permite crear un perfil 2D de una rueda dentada. Se puede acolc
 -    **Grosor**: El grosor principal del rueda. **Nota:** El rueda no puede limitarse a rellenar este grosor porque los dientes tienen chaflanes laterales. Por lo tanto, mira la definición de la rueda dentada para modelar una rueda dentada 3D válida. {{Version/es|0.20}}
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

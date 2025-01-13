@@ -1,25 +1,32 @@
 # Manual:A gentle introduction/de
 {{Manual:TOC}}
 
-[Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) ist eine populäre, quelloffene Programmiersprache, die sehr oft als Skriptsprache in Anwendungen eingebettet ist, so auch in FreeCAD. Sie hat eine Reihe von Eigenschaften, die sie für uns FreeCAD-Anwender geeignet machen: Sie ist sehr leicht zu erlernen, besonders für Leute, die noch nie programmiert haben und sie ist in viele andere Anwendungen eingebettet. Das macht sie zu einem wertvollen Werkzeug, das sich zu lernen lohnt, da sie auch in anderen Programmen wie [Blender](http://www.blender.org), [Inkscape](http://www.inkscape.org) oder [GRASS](http://grass.osgeo.org/) verwendet werden kann.
+[Python](https://de.wikipedia.org/wiki/Python_(Programmiersprache)) ist eine weitverbreitete, quelloffene Programmiersprache, die man an ihrer Einfachheit, Vielseitigkeit und Lesbarkeit erkennt. Sie ist oft als Skriptsprache in Anwendungen eingebettet und FreeCAD ist da keine Ausnahme. Diese Integration ermöglicht Anwendern Aufgaben zu automatisieren, Arbeitsabläufe anzupassen und die Funktionalität der Software weit über die grafische Schnittstelle hinaus zu erweitern.
 
-FreeCAD macht umfangreichen Gebrauch von Python. Damit kann auf fast alle Funktionen von FreeCAD zugegriffen werden, um sie zu steuern. So können beispielsweise neue Objekte erstellt, ihre Geometrie geändert, ihr Inhalt analysiert und sogar neue Bedienelemente, Werkzeuge und Bedienfelder erstellt werden. Einige FreeCAD-Arbeitsbereiche und die meisten Addon-Arbeitsbereiche sind vollständig in Python programmiert. FreeCAD enthält eine fortschrittliche Python-Konsole, die über den Menüeintrag **Ansicht-\>Paneele-\>Python-Konsole** zur Verfügung steht. Sie ist oft nützlich, um Operationen durchzuführen, für die es noch keine Schaltfläche in der Symbolleiste gibt, oder um Formen auf Probleme zu überprüfen oder um sich wiederholende Aufgaben durchzuführen:
+Python bietet einige Vorteile, die es besonders für FreeCAD-Anwender interessant macht. Es ist Anfängerfreundlich mit einer intuitiven Syntax, die das Erlernen vereinfacht, sogar für diejenigen, die noch keine Programmiererfahrung besitzen. Diese gute Zugänglichkeit ist besonders wertvoll für die FreeCAD-Gemeinschaft, wo Anwender mit unterschiedlichen Hintergründen (Bauwesen, Architektur und Konstruktion) ohne weitreichende Programmierkenntnisse zusammenkommen.
 
-![](images/Exercise_python_01.jpg )
+Darüber hinaus ist Python aufgrund seiner weiten Verbreitung in anderen Anwendungen wie [Blender](https://www.blender.org) für 3D-Modellierung, [Inkscape](https://www.inkscape.org) für Vektorgrafiken und [GRASS GIS](https://grass.osgeo.org) für Geodatenanalysen eine unverzichtbare Fähigkeit für alle, die ihre Skriptfähigkeiten erweitern möchten. Die Beherrschung von Python in FreeCAD verbessert nicht nur Ihre Fähigkeit, benutzerdefinierte Tools und Makros zu erstellen, sondern vermittelt auch übertragbare Fähigkeiten, die auf verschiedenen Softwareplattformen angewendet werden können.
 
-Aber die Python-Konsole hat noch eine andere sehr wichtige Verwendung: Jedes Mal, wenn du eine Schaltfläche in der Werkzeugleiste drückst oder andere Operationen in FreeCAD ausführst, wird ein Teil des Python-Codes in der Konsole ausgegeben (wenn die Option **Skriptbefehle in Python-Konsole anzeigen** in den Voreinstellungen unter **Bearbeiten → Einstellungen... → Python → Makro** aktiviert ist) und ausgeführt. Wenn du die Python-Konsole offen lässt, kannst du buchstäblich sehen, wie sich der Python-Code bei der Arbeit entfaltet, und im Handumdrehen, fast ohne es zu wissen, wirst du etwas von der Sprache Python lernen.
+In FreeCAD ermöglicht Python-Scripting dem Anwender:
 
-FreeCAD verfügt auch über ein [Makro-System](Macros/de.md), mit dem du Aktionen aufzeichnen kannst, die später wiedergegeben werden können. Dieses System verwendet ebenfalls die Python-Konsole, indem es einfach alles aufzeichnet, was darin gemacht wird.
+-   Automatisieren Sie sich wiederholende Aufgaben, um Zeit zu sparen und Fehler zu reduzieren.
+-   Erstellen Sie benutzerdefinierte parametrische Objekte, die sich dynamisch an Änderungen anpassen.
+-   Entwickeln Sie personalisierte Makros und Tools, die auf bestimmte Arbeitsabläufe zugeschnitten sind.
+-   Interagieren Sie mit der Anwendungsprogrammierschnittstelle (API) von FreeCAD, um programmgesteuert auf Geometrie, Szenen und Benutzeroberflächenelemente zuzugreifen und diese zu bearbeiten.
 
-In diesem Kapitel werden wir ganz allgemein die Sprache Python entdecken. Wenn du daran interessiert bist, mehr zu erfahren, hat das FreeCAD-Dokumentations-Wiki einen ausführlichen Abschnitt zum Thema [Python-Programmierung](Power_users_hub/de.md).
+Durch die Nutzung von Python können FreeCAD-Benutzer das volle Potenzial der Software freisetzen und sie in ein leistungsstarkes und flexibles Werkzeug verwandeln, das auf ihre individuellen Anforderungen zugeschnitten ist.
+
+FreeCAD enthält eine erweiterte Python-Konsole, die über **Ansicht → Bedienfelder → Python**-Konsole zugänglich ist. Mit diesem Tool können Benutzer Vorgänge über die grafische Benutzeroberfläche hinaus ausführen, z. B. auf erweiterte Funktionen zugreifen, Geometriefehler beheben und Aufgaben automatisieren. Es protokolliert auch Python-Befehle für GUI-Aktionen, wenn die Option *Skriptbefehle in Python-Konsole anzeigen* unter **Bearbeiten → Einstellungen → Python → Makro** aktiviert ist. Wenn Sie die Konsole geöffnet lassen, können Sie den Python-Code beim Arbeiten beobachten. Dies bietet eine intuitive Möglichkeit, die Sprache zu erlernen und gleichzeitig die Funktionen von FreeCAD zu erkunden. Schließlich verfügt FreeCAD auch über ein [Makrosystem](Makros.md), mit dem Sie Aktionen aufzeichnen können, um sie später erneut auszuführen. Dieses System verwendet auch die Python-Konsole, indem es einfach alles aufzeichnet, was darin getan wird.
+
+![](images/FreeCAD_Python_Console.png )
+
+In diesem Kapitel werden wir ganz allgemein die Sprache Python entdecken. Wer daran interessiert ist, mehr zu erfahren, findet im FreeCAD-Dokumentations-Wiki einen ausführlichen Abschnitt zum Thema [Python-Programmierung](Power_users_hub/de.md).
 
 
 
 ### Python-Code schreiben 
 
-Es gibt zwei einfache Möglichkeiten, Python-Code in FreeCAD zu schreiben: Von der Python-Konsole aus (**Ansicht → Paneele → Python-Konsole**), oder vom Makro-Editor aus (**Makro → Makros... → Erstellen**). In der Konsole schreibst du nacheinander Python-Befehle, die ausgeführt werden, wenn du die Eingabetaste drückst, während Makros ein komplexeres Skript aus mehreren Zeilen enthalten können, das nur dann ausgeführt wird, wenn das Makro von demselben Makro-Fenster aus gestartet wird.
-
-In diesem Kapitel wirst du beide Methoden verwenden können, aber es wird dringend empfohlen, die Python-Konsole zu verwenden, da sie dich sofort über alle Fehler informiert, die du beim Tippen machst.
+In FreeCAD können Sie Python-Code auf zwei Arten schreiben: über die Python-Konsole (**Ansicht → Bedienfelder → Python-Konsole**) oder mithilfe des Makro-Editors (**Makro → Makros → Erstellen**). Die Python-Konsole ermöglicht es Ihnen, Befehle einzeln einzugeben, die sofort nach Drücken der Eingabetaste ausgeführt werden, was sie perfekt für schnelle Tests oder interaktive Erkundungen macht. Der Makro-Editor hingegen wird zum Schreiben und Speichern komplexerer Skripte verwendet, die aus mehreren Codezeilen bestehen. Diese Makros können später als Ganzes aus dem Makrofenster ausgeführt werden, was eine leistungsstarke Möglichkeit bietet, sich wiederholende Aufgaben zu automatisieren und die Funktionalität von FreeCAD zu erweitern. In diesem Kapitel können Sie beide Methoden verwenden, es wird jedoch dringend empfohlen, die Python-Konsole zu verwenden, da diese Sie sofort über alle Fehler informiert, die Sie beim Eintippen machen.
 
 Wenn du Python zum ersten Mal verwendest, solltest du diese kurze [Einführung in die Python-Programmierung](Introduction_to_Python/de.md) liest, bevor du weitermachst, wird sie die grundlegenden Konzepte von Python klarer machen.
 
@@ -27,84 +34,160 @@ Wenn du Python zum ersten Mal verwendest, solltest du diese kurze [Einführung i
 
 ### Handhabung von FreeCAD Objekten 
 
-Beginnen wir damit, ein neues leeres Dokument zu erstellen:
+Beginnen wir, indem wir ein neues leeres Dokument erstellen:
 
-doc = FreeCAD.newDocument()
 
-Wenn du dies in der FreeCAD-Python-Konsole eingibst, wirst du, sobald du \"FreeCAD.\" eintippst (das Wort FreeCAD gefolgt von einem Punkt), bemerken, dass sich ein Fenster öffnet, das ermöglicht den Rest deiner Zeile schnell automatisch vervollständigen zu können. Besser noch, jeder Eintrag in der Autovervollständigungsliste hat eine QuickInfo, die erklärt, was er tut. Dies macht es sehr einfach, die verfügbaren Funktionen zu erkunden. Bevor du \"newDocument\" wählst, wirf einen Blick auf die anderen verfügbaren Optionen.
+```python
+doc = FreeCAD.newDocument()
+```
 
-![](images/Exercise_python_02.jpg )
+Sobald Sie in der FreeCAD Python-Konsole FreeCAD eingeben (das Wort „FreeCAD" gefolgt von einem Punkt), wird ein Autovervollständigungsfenster angezeigt. Diese Funktion beschleunigt nicht nur Ihren Arbeitsablauf, indem sie verfügbare Befehle vorschlägt, sondern hilft Ihnen auch, neue Funktionen und Features in FreeCAD zu entdecken. Jeder Eintrag in der Liste enthält einen Tooltip, der seinen Zweck erklärt, sodass die verfügbaren Funktionen leichter zu verstehen und zu erkunden sind. Diese Autovervollständigungsfunktion ist besonders hilfreich für Anfänger, die Python-Skripting lernen, und für fortgeschrittene Benutzer, die effizient durch die umfangreiche API von FreeCAD navigieren. Nehmen Sie sich einen Moment Zeit, um die Optionen im Autovervollständigungsfenster zu erkunden -- möglicherweise entdecken Sie Befehle, die Ihren Arbeitsablauf vereinfachen oder neue Möglichkeiten eröffnen.
 
-Sobald du **Enter** drückst, wird unser neues Dokument erstellt. Dies ist ähnlich wie das Drücken der Schaltfläche \"Neues Dokument\" in der Werkzeugleiste. In Python wird der Punkt verwendet, um etwas anzuzeigen, das in etwas anderem enthalten ist (newDocument ist eine Funktion, die sich innerhalb des FreeCAD-Moduls befindet). Das sich öffnende Fenster zeigt dir daher alles, was in \"FreeCAD\" enthalten ist. Wenn du nach \"newDocument\" anstelle der Klammern einen Punkt hinzufügen würdest, würde es dir alles anzeigen, was in der Funktion \"newDocument\" enthalten ist. Die Klammern sind obligatorisch, wenn du eine Python-Funktion, wie diese hier, aufrufst. Wir werden das weiter unten besser veranschaulichen.
+![](images/FreeCAD_python_newDocument.png )
 
-Kommen wir nun zurück zu unserem Dokument. Lasse uns sehen, was wir damit machen können. Gib Folgendes ein und untersuche die verfügbaren Optionen:
+Durch Eingeben von **FreeCAD.newDocument()** wird ein neues, leeres Dokument in FreeCAD erstellt, genauso wie durch Klicken auf die Schaltfläche **Neues Dokument** in der Symbolleiste. Wenn Sie **doc = FreeCAD.newDocument()** ausführen, wird das neue Dokumentobjekt der Variable **doc** zugewiesen, sodass Sie es programmgesteuert bearbeiten können. Mit doc können Sie Objekte hinzufügen, Eigenschaften ändern oder das Dokument speichern.
 
+In Python wird der Punkt (.) verwendet, um anzuzeigen, dass ein Element in einem anderen enthalten ist. Beispielsweise ist **newDocument** eine Funktion innerhalb des **FreeCAD-Moduls**, weshalb wir FreeCAD.newDocument schreiben. Das angezeigte Autovervollständigungsfenster zeigt alles an, was im FreeCAD-Modul verfügbar ist. Wenn Sie nach newDocument einen Punkt eingeben (ohne die Klammern hinzuzufügen), wird alles angezeigt, was zur Funktion newDocument gehört. Dies veranschaulicht, wie Python Objekte und ihre Komponenten organisiert und darauf zugreift. Es ist wichtig zu beachten, dass die Klammern beim Aufrufen einer Python-Funktion obligatorisch sind, da sie die Ausführung der Funktion signalisieren.
+
+Kommen wir nun zurück zu unserem Dokument. Lasst uns sehen, was wir damit machen können. Wir geben Folgendes ein und durchsuchen die verfügbaren Optionen:
+
+
+```python
 doc.
+```
 
-Normalerweise sind Namen, die mit einem Großbuchstaben beginnen, Attribute: Sie enthalten einen Wert. Namen, die mit einem Kleinbuchstaben beginnen, sind Funktionen (auch Methoden genannt): sie \"tun etwas\". Namen, die mit einem Unterstrich beginnen, sind normalerweise für den internen Gebrauch des Moduls da, und du solltest sie ignorieren. Lasse uns eine der Methoden verwenden, um ein neues Objekt zu unserem Dokument hinzuzufügen:
+In FreeCAD können Ihnen die Namenskonventionen für Python-Befehle helfen, deren Zweck zu verstehen:
 
-box = doc.addObject("Part::Box","myBox")
+-   Namen, die mit einem Großbuchstaben beginnen, sind normalerweise Attribute, die Werte oder Daten speichern, wie z. B. Eigenschaften eines Objekts.
+-   Namen, die mit einem Kleinbuchstaben beginnen, sind normalerweise Funktionen (auch Methoden genannt), die Aktionen oder Operationen ausführen, wie z. B. das Erstellen oder Ändern von Objekten.
+-   Namen, die mit einem Unterstrich (\_) beginnen, sind im Allgemeinen für die interne Verwendung innerhalb des Moduls vorgesehen und können normalerweise ignoriert werden.
 
-Unser Kasten wird in der Baumansicht hinzugefügt, aber in der 3D-Ansicht passiert noch nichts, weil beim Arbeiten von Python aus das Dokument nie automatisch neu berechnet wird. Wir müssen dies manuell tun, wann immer es erforderlich ist:
+Diese Unterscheidung hilft Ihnen, sich in der API von FreeCAD zurechtzufinden und den für Ihre Anforderungen geeigneten Befehl auszuwählen. Sie können beispielsweise eine Methode verwenden, um einem Dokument ein neues Objekt hinzuzufügen. Die Methode führt die Aktion des Erstellens und Hinzufügens des Objekts aus, während Attribute die Eigenschaften des Objekts speichern. Das Verständnis dieser Struktur erleichtert das Erkunden der verfügbaren Funktionen, insbesondere bei Verwendung der Autovervollständigungsfunktion oder beim Lesen von Tooltips. Fügen wir eine Box hinzu.
 
+
+```python
+box = doc.addObject("Part::Box", "myBox")
+```
+
+Der Befehl **box = doc.addObject(\"Part::Box\", \"myBox\")** fügt dem Dokument ein neues 3D-Boxobjekt hinzu. Hier ist eine einfache Erklärung:
+
+-   **doc.addObject**: Dies weist FreeCAD an, dem Dokument ein neues Objekt hinzuzufügen.
+-   **Part::Box**: Dies gibt den zu erstellenden Objekttyp an, in diesem Fall eine 3D-Box.
+-   **myBox**: Dies weist dem neuen Objekt einen Namen zu, sodass es später leichter identifiziert und referenziert werden kann.
+
+Das Ergebnis dieses Befehls ist, dass im aktiven Dokument eine Box angezeigt wird und die Variable box einen Verweis darauf speichert, sodass Sie sie später ändern oder damit interagieren können. Unsere Box wird in der Baumansicht hinzugefügt, aber in der 3D-Ansicht passiert noch nichts, da das Dokument beim Arbeiten mit Python nie automatisch neu berechnet wird. Wir müssen das bei Bedarf manuell tun:
+
+
+```python
 doc.recompute()
+```
 
 Jetzt ist unser Kasten in der 3D-Ansicht erschienen. Viele der Schaltflächen auf der Werkzeugleiste, mit denen in FreeCAD Objekte hinzugefügt werden können, tun eigentlich zwei Dinge: das Objekt hinzufügen und neu berechnen. Versuche nun, mit der entsprechenden Schaltfläche im Arbeitsbereich Part eine Kugel hinzuzufügen, und du wirst sehen, wie die beiden Zeilen des Python-Codes nacheinander ausgeführt werden.
 
-Du kannst eine Liste aller möglichen Objekttypen wie Part::Box abfragen:
+![](images/FreeCAD_python_Sphere.png )
 
+Wir können eine Liste aller möglichen Objekttypen wie Part::Box abfragen:
+
+
+```python
 doc.supportedTypes()
+```
 
-Lass uns nun den Inhalt unseres Kastens erkunden:
+Lasst uns nun den Inhalt unseres Quaders erkunden:
 
+
+```python
 box.
+```
 
-Du wirst sofort ein paar sehr interessante Dinge sehen, wie zum Beispiel:
+Sofort sehen wir ein paar sehr interessante Dinge, wie zum Beispiel:
 
-box.Height 
 
-Dadurch wird die aktuelle Höhe unseres Kastens ausgegeben. Versuchen wir nun, das zu ändern:
+```python
+box.Height
+```
 
-box.Height = 5 
+Dadurch wird die aktuelle Höhe unseres Quaders ausgegeben. Lasst uns nun versuchen das zu ändern:
 
-Wenn du dein Kästchen mit der Maus markierst, siehst du, dass im Eigenschafteneditor unter dem **Daten**-Reiter unsere Eigenschaft **Höhe** mit dem neuen Wert erscheint. Alle Eigenschaften eines FreeCAD-Objekts, die in den Reitern **Daten** und **Ansicht** erscheinen, sind auch von Python direkt zugänglich, und zwar über ihren Namen, wie wir es bei der Eigenschaft Höhe getan haben. Auf die Dateneigenschaften wird z.B. direkt vom Objekt selbst aus zugegriffen:
 
-box.Length 
+```python
+box.Height = 5
+```
 
-Ansichtseigenschaften werden in einem **ViewObject** gespeichert. Jedes FreeCAD-Objekt verfügt über ein ViewObject, das die visuellen Eigenschaften des Objekts speichert. Wenn FreeCAD ohne seine grafische Schnittstelle ausgeführt wird (z.B. wenn es von einem Terminal mit der Befehlszeilenoption -c gestartet wird oder wenn es von einem anderen Python-Skript aus verwendet wird), ist das ViewObject nicht verfügbar, da es überhaupt keine bildliche Darstellung gibt.
+Wird ein Kästchen mit der Maus markiert, sehen wir, dass im Eigenschafteneditor unter dem Reiter **Daten** unsere Eigenschaft **Höhe** mit dem neuen Wert erscheint. Alle Eigenschaften eines FreeCAD-Objekts, die in den Reitern **Daten** und **Ansicht** erscheinen, sind auch mit Python direkt zugänglich, und zwar über ihre Namen, wie wir es bei der Eigenschaft Höhe getan haben. Auf die Dateneigenschaften wird z.B. direkt vom Objekt selbst aus zugegriffen:
 
-Versuche das folgende Beispiel, um auf die Linienfarbe unserer Kiste zuzugreifen:
 
-box.ViewObject.LineColor 
+```python
+box.Length
+```
+
+In FreeCAD werden visuelle Eigenschaften von einem **ViewObject** verwaltet. Jedes FreeCAD-Objekt hat ein zugehöriges ViewObject, das Informationen darüber speichert, wie das Objekt in der grafischen Benutzeroberfläche angezeigt wird, beispielsweise Farbe, Transparenz oder Sichtbarkeit. Das ViewObject ist jedoch nur zugänglich, wenn FreeCAD mit seiner grafischen Benutzeroberfläche ausgeführt wird. Wenn FreeCAD in einem nicht grafischen Modus gestartet wird -- beispielsweise von einem Terminal mit der Befehlszeilenoption -c oder wenn es als Python-Bibliothek in einem externen Skript verwendet wird -- ist das ViewObject nicht verfügbar. Dies liegt daran, dass in diesen Modi keine visuelle Darstellung des Objekts vorhanden ist, da die grafische Benutzeroberfläche nicht geladen wird.
+
+Wir probieren das folgende Beispiel, um auf die Linienfarbe unseres Quaders zuzugreifen:
+
+
+```python
+box.ViewObject.LineColor
+```
 
 
 
 ### Vektoren und Platzierungen 
 
-Vektoren sind ein grundlegendes Konzept in jeder 3D-Anwendung. Es ist eine Liste von 3 Zahlen (x, y und z), die einen Punkt oder eine Position im 3D-Raum beschreiben. Mit Vektoren können viele Dinge gemacht werden, wie z.B. Additionen, Subtraktionen, Projektionen und vieles mehr. In FreeCAD funktionieren Vektoren wie folgt:
+Vektoren sind ein grundlegendes Konzept in jeder 3D-Anwendung. Ein Vektor ist im Wesentlichen eine Liste von drei Zahlen (x, y und z), die einen Punkt, eine Position oder eine Richtung im 3D-Raum beschreiben. Vektoren sind entscheidend für die Definition von Geometrie, Transformationen und Interaktionen in der 3D-Umgebung. Sie dienen als Bausteine ​​für Operationen wie Translationen, Rotationen und Skalierungen.
 
-myvec = FreeCAD.Vector(2,0,0)
+In FreeCAD werden Vektoren häufig zum Erstellen und Bearbeiten von Objekten verwendet. Sie ermöglichen eine breite Palette mathematischer Operationen wie Addition, Subtraktion, Kreuzprodukte, Skalarprodukte und Projektionen. Mit diesen Operationen können Sie Entfernungen, Winkel und Richtungen berechnen oder Beziehungen zwischen Objekten im Raum definieren.
+
+Das Verständnis von Vektoren und ihrer Funktionsweise ist für effektives Scripting und Anpassung in FreeCAD unerlässlich. Vektoren werden beispielsweise verwendet, um Objekte zu positionieren, ihre Ausrichtung zu definieren oder sogar die Pfade für komplexe Operationen wie Sweeps oder Lofts zu berechnen.
+
+In FreeCAD werden Vektoren mithilfe der Klasse **Vector** dargestellt, die verschiedene Methoden und Eigenschaften zum Ausführen von Operationen und zum Zugriff auf ihre Komponenten bereitstellt. Die Beherrschung dieser Fähigkeiten wird Ihre Fähigkeit, programmgesteuert mit der 3D-Umgebung von FreeCAD zu interagieren, erheblich verbessern. In FreeCAD funktionieren Vektoren folgendermaßen:
+
+
+```python
+myvec = FreeCAD.Vector(2, 0, 0)
 print(myvec)
 print(myvec.x)
 print(myvec.y)
-othervec = FreeCAD.Vector(0,3,0)
-sumvec = myvec.add(othervec)
+othervec = FreeCAD.Vector(0, 3, 0)
+sumvec = myvec.add(othervec)
+```
 
-Ein weiteres gemeinsames Merkmal von FreeCAD-Objekten ist ihre **Platzierung**. Wie wir in früheren Kapiteln gesehen haben, hat jedes Objekt eine Placement-Eigenschaft, die die Position (Base) und die Orientierung (Rotation) des Objekts enthält. Diese Eigenschaften lassen sich von Python aus leicht manipulieren, z.B. um unser Objekt zu verschieben:
+Hier ist eine kurze Aufschlüsselung der obigen Befehle:
 
+-   **myvec = FreeCAD.Vector(2,0,0)**: Erstellt einen Vektor myvec mit X = 2, Y = 0, Z = 0.
+-   **print(myvec)**: Druckt den Vektor myvec mit seinen Komponenten (X, Y, Z).
+-   **print(myvec.x)**: Druckt die X-Komponente von myvec.
+-   **print(myvec.y)**: Druckt die Y-Komponente von myvec.
+-   **othervec = FreeCAD.Vector(0,3,0)**: Erstellt einen zweiten Vektor othervec mit X = 0, Y = 3, Z = 0.
+-   **sumvec = myvec.add(othervec)**: Addiert myvec und othervec, um einen neuen Vektor sumvec zu erstellen, der die Summe ihrer Komponenten enthält.
+
+Ein weiteres gemeinsames Merkmal von FreeCAD-Objekten ist ihre **Platzierung**. Wie wir in früheren Kapiteln gesehen haben, hat jedes Objekt eine Platzierungseigenschaft, die die Position (Basis) und Ausrichtung (Rotation) des Objekts enthält. Diese Eigenschaften lassen sich von Python aus leicht manipulieren, beispielsweise um unser Objekt zu verschieben:
+
+
+```python
 print(box.Placement)
 print(box.Placement.Base)
-box.Placement.Base = sumvec
-otherpla = FreeCAD.Placement()
-otherpla.Base = FreeCAD.Vector(5,5,0)
-box.Placement = otherpla
+box.Placement.Base = sumvec
+otherpla = FreeCAD.Placement()
+otherpla.Base = FreeCAD.Vector(5, 5, 0)
+box.Placement = otherpla
+```
+
+Hier ist eine kurze Aufschlüsselung der obigen Befehle:
+
+-   **print(box.Placement)**: Druckt die Platzierung der Box, einschließlich ihrer Position, Drehung und Ausrichtung im 3D-Raum.
+-   **print(box.Placement.Base)**: Druckt die Position (Basis) der Box, die ein Vektor ist, der ihre Position im 3D-Raum darstellt.
+-   **box.Placement.Base = sumvec**: Setzt die Basisposition (Position) der Box auf den Vektor sumvec und verschiebt die Box effektiv an diese neue Position.
+-   **otherpla = FreeCAD.Placement()**: Erstellt ein neues Platzierungsobjekt namens otherpla.
+-   **otherpla.Base = FreeCAD.Vector(5,5,0)**: Setzt die Basisposition von otherpla auf einen Vektor bei den Koordinaten (5, 5, 0).
+-   **box.Placement = otherpla**: Wendet otherpla auf die Box an und aktualisiert ihre Platzierung auf die neue Position und Ausrichtung, die durch otherpla definiert wird.
 
 **Mehr lesen**
 
 -   [Python](https://www.python.org)
 -   [Makros](Macros/de.md)
 -   [Einführung in Python](Introduction_to_Python/de.md)
--   [Python Skripterstellung Tutorium](Python_scripting_tutorial/de.md)
+-   [Anleitung Skripterstellung mit Python](Python_scripting_tutorial/de.md)
 -   [Hauptanwenderzentrum](Power_users_hub/de.md)
 
 

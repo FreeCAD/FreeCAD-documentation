@@ -11,18 +11,7 @@
 
 Elimină istoricul piesei, astfel încât pașii diferiți pentru a crea piesa nu mai sunt accesibili / editabili de loc.
 
-
-**![](images/)_[Part_SimpleCopy‎](Part_SimpleCopy‎.md)**
-
-produces a copy that has no parametric history; the steps and operations needed to create it aren\'t accessible any more.
-
-
-<div class="mw-translate-fuzzy">
-
-With Simple copy only a non-parametric simple solid is produced, so if you want to change anything you have to go back to your creation file or history fix the issue then create a new simple solid.
-
-
-</div>
+The <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> **Part SimpleCopy** command creates non-parametric copies of objects.
 
 
 
@@ -36,18 +25,26 @@ Mark part of choice in the tree view and choose **Part → Create simple copy**.
 
 </div>
 
-1.  Select an object for which you wish to make a copy.
-2.  Go to the menu **Part → Create a copy → ![](images/)_[Create_simple_copy](Part_SimpleCopy.md)**.
+1.  Select one or more objects.
+2.  Select the **Part → Create a copy → <img src="images/Part_SimpleCopy.svg" width=16px> Create simple copy** option from the menu.
+
+## Notes
+
+-   For objects nested in containers [Part TransformedCopy](Part_TransformedCopy.md) should be used instead.
 
 ## Properties
 
-### Data
+See also: [Property editor](Property_editor.md).
 
-The copy has a simple **Placement** property like any other [Part Feature](Part_Feature.md).
+The created objects are [Part Feature](Part_Feature.md) objects with no additional properties.
 
-### View
 
-The copy has simple view properties like any other [Part Feature](Part_Feature.md).
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

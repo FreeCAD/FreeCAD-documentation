@@ -43,13 +43,15 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Fenêtre en cascade](Std_CascadeWindows/fr.md) : mets les fenêtres en cascade.
 
--   <img alt="" src=images/Std_Windows.svg  style="width:32px;"> [Fenêtres\...](Std_Windows/fr.md) : ouvre une boîte de dialogue à partir de laquelle une fenêtre peut être activée.
+-   \... Les 10 premières fenêtres sont listées ici. Sélectionnez une fenêtre pour l\'activer.
+
+-   <img alt="" src=images/Std_Windows.svg  style="width:32px;"> [Fenêtres\...](Std_Windows/fr.md) : ouvre une fenêtre de dialogue à partir de laquelle une fenêtre peut être activée.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

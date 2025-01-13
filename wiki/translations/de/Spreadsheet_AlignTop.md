@@ -1,23 +1,29 @@
 ---
  GuiCommand:
    Name: Spreadsheet AlignTop
-   Name/de: Kalkulationstabelle ObenAusrichten
-   MenuLocation: Kalkulationstabelle , Ausrichtung , Oben Ausrichten
+   Name/de: Spreadsheet AusrichtenOben
+   MenuLocation: Kalkulationstabelle , Ausrichtung , Nach oben ausrichten
    Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
 ---
 
 # Spreadsheet AlignTop/de
 
+
+
 ## Beschreibung
 
-Das **[<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Kalkulationstabelle ObenAusrichten](Spreadsheet_AlignTop/de.md)** Werkzeug bewirkt, dass der Text innerhalb der Zelle nach oben ausgerichtet wird.
+Das Werkzeug <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> **Spreadsheet AusrichtenOben** richtet den Inhalt ausgewählter Zellen am oberen Rand aus.
+
+
 
 ## Anwendung
 
-1.  Stelle sicher, dass eine aktive **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md)** geöffnet ist, so dass die Schaltfläche aktiviert ist.
-2.  Wähle eine Zelle.
-3.  Drücke die **[<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Kalkulationstabelle ObenAusrichten](Spreadsheet_AlignTop/de.md)** Schaltfläche.
+1.  Sicherstellen, dass eine [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md) aktiviert ist.
+2.  Eine oder mehrere Zellen auswählen.
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Nach oben ausrichten](Spreadsheet_AlignTop/de.md)** drücken.
+    -   Den Menüeintrag **Kalkulationstabelle → Ausrichtung → [<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> Nach oben ausrichten** auswählen.
 
 
 

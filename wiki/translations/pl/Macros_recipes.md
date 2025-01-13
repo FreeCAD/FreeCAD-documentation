@@ -92,6 +92,8 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 
 <div class="mw-collapsible-content">
 
+-    <img style="width:16px;" src="images/Text-x-python.png"> [Konwerter Podręcznika FreeCAD](FreeCAD_Manual_Converter/pl.md): Skrypt Pythona, który automatycznie generuje wersje PDF i EPUB [Podręcznika FreeCAD](Manual:Introduction/pl.md).
+
 -    <img style="width:16px;" src="images/Macro_Build_Utility.png"> [Makro Build Utility](Macro_Build_Utility/pl.md): To makro udostępnia narzędzie do składania projektu z plików projektów podrzędnych przy użyciu funkcji Połącz projekt.
 
 -    <img style="width:16px;" src="images/Macro_clone_explicit.png"> [Makro clone explicit](Macro_clone_explicit/pl.md): Tworzy kopię każdego zaznaczonego obiektu i ustawia jego właściwości na wyrażenie łączące z oryginalnym obiektem, czyniąc z niego jawny i edytowalny klon.
@@ -131,6 +133,8 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 <div class="mw-collapsible-content">
 
 -    <img style="width:16px;" src="images/Applications-python.svg"> [Makro 3DXML import](Macro_3DXML_import/pl.md): Importuje plik 3DXML-ascii do programu FreeCAD, ograniczona funkcjonalność.
+
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Macro Batch export to mesh](Macro_Batch_Export_To_Mesh/pl.md): Pomaga w zbiorczym eksporcie plików STL i OBJ. Dodaje GUI aby przyspieszyć konwersję i zapisywanie wskazanych obiektów.
 
 -    <img style="width:16px;" src="images/Macro_Compound_Plus.png"> [Makro Compound Plus](Macro_Compound_Plus/pl.md): Zestaw poleceń szkicu w małym makrze dla szkicu 2D Przykład: praca z plikami DXF.
 
@@ -217,8 +221,6 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 
 -    <img style="width:16px;" src="images/Text-x-python.png"> [Makro export transient FEM results](Macro_export_transient_FEM_results/pl.md): To makro eksportuje wiele obiektów wyników FEM z analizy stanów nieustalonych do formatu VTK i generuje plik PVU, który może być użyty do załadowania wyników bezpośrednio do programu ParaView w celu dalszego przetwarzania końcowego.
 
--    <img style="width:16px;" src="images/Macro_GMSH.png"> [Makro GMSH](Macro_GMSH/pl.md): Tworzenie siatek FEM za pomocą Generatora siatek GMSH.
-
 
 </div>
 
@@ -274,8 +276,6 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 -    <img style="width:16px;" src="images/Macro_FC_element_selector.png"> [Makro FC element selector](Macro_FC_element_selector/pl.md): Ta makrodefinicja wyświetla wszystkie elementy poniżej kursora w taki sam sposób, jak \"Makro Mysz nad cb\" z GUI *(elementy zasłonięte przez inne elementy również zostaną wyświetlone)*.
 
 -    <img style="width:16px;" src="images/FCInfo.png"> [Makro FCInfo](Macro_FCInfo/pl.md): Podaje szereg informacji o wybranym kształcie i może wyświetlić przeliczenie długości, nachylenia *(stopnie, radian, gradient)* kształtu, powierzchni, objętości oraz masy kształtu w wybranej gęstości w różnych jednostkach międzynarodowych i anglosaskich.
-
--    <img style="width:16px;" src="images/FCInfo.png"> [Makro FCInfo Alternate Linux](Macro_FCInfo_Alternate_Linux/pl.md): To samo, co powyżej, ale dla systemu Linux *(przestarzałe)*.
 
 -    <img style="width:16px;" src="images/FCInfoToolBar.png"> [Makro FCInfo ToolBar](Macro_FCInfo_ToolBar/pl.md): Wyświetla szereg informacji o wybranym kształcie jako FCInfo w mini pasku narzędzi.
 
@@ -413,9 +413,9 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 
 -    <img style="width:16px;" src="images/FCCreaLoft.png"> [Makro Loft](Macro_Loft/pl.md): Tworzy wyciągnięcie przez profile z listy poliinii *(specjalnie utworzonej dla [Makrodefinicji Texture](Macro_Texture/pl.md))*.
 
--    <img style="width:16px;" src="images/Macro_makeCube.png"> [Makro Make Cube](Macro_Make_Cube/pl.md): Tworzy [prostopadłościan](http://en.wikipedia.org/wiki/Cuboid) na podstawie czterech punktów.
-
 -    <img style="width:16px;" src="images/Applications-python.svg"> [Makro: Umieść obraz](Macro_Place_Image/pl.md): Tworzy [płaszczyznę obrazu](Image_CreateImagePlane/pl.md) i wyrównuje ją do istniejącego [prostokąta](Draft_Rectangle/pl.md) środowiska Kreślenie.
+
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Makrodefinicja Punkty do krzywych złożonych](Macro_Points_to_Splines.md): Tworzy krzywe złożone z sekcji obiektów Punktów.
 
 -    <img style="width:16px;" src="images/Dodecahedron.svg"> [Makro Polyhedrons](Macro_Polyhedrons/pl.md): To makro tworzy wielościany parametryczne (dwunastościan, dwudziestościan, czworościan foremny, \...). Możliwość dostosowania wymiaru promienia lub boku.
 
@@ -449,6 +449,8 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 
 <div class="mw-collapsible-content">
 
+-    <img style="width:16px;" src="images/Applications-python.svg"> [MakrodefinicjaWyrównaj środek ramki otaczającej obiekt](Macro_Align_Object_BoundBox_Center.md): Wyrównuje 2 (lub więcej) obiektów poprzez środek ramek je otaczających.
+
 -    <img style="width:16px;" src="images/Macro_Align_Object_to_View.png"> [Makro Align Object to View](Macro_Align_Object_to_View/pl.md): To makro wyrównuje wybrany obiekt do bieżącego widoku i ustawia współrzędne Umiejscowienie kamery.
 
 -    <img style="width:16px;" src="images/Macro_ArrayCopy.png"> [Makro ArrayCopy](Macro_ArrayCopy/pl.md): Kopiuje zaznaczony obiekt kilka razy na siatce szyku.
@@ -468,8 +470,6 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 -    <img style="width:16px;" src="images/Macro_FlattenWire3Points.png"> [Makro FlattenWire3Points](Macro_FlattenWire3Points/pl.md): Spłaszcza polilinie środowiska Rysunek Roboczy, które nie są płaskie, do płaszczyzny zdefiniowanej przez trzy
 
 -    <img style="width:16px;" src="images/Macro_HealArcs.png"> [Makro HealArcs](Macro_HealArcs/pl.md): Czasami łuki są przekształcane w krzywe złożone, na przykład gdy zastosowano do nich operacje skalowania. To makro odtwarza z nich prawidłowe łuki. Przydatne przed eksportem do formatu dxf.
-
--    <img style="width:16px;" src="images/Image_Scaling.svg"> [Makro Image Scaling](Macro_Image_Scaling/pl.md): Makrodefinicja ułatwiająca skalowanie rysunków, grafik, schematów, planów i podobnych obrazów 2D w środowisku pracy Obraz.
 
 -    <img style="width:16px;" src="images/Macro_JointWire.png"> [Makro JointWire](Macro_JointWire/pl.md): Umożliwia znalezienie i połączenie wszystkich niepołączonych krawędzi z najbliższą niepołączoną krawędzią za pomocą linii.
 
@@ -621,13 +621,15 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 
 <div class="mw-collapsible-content">
 
--    <img style="width:16px;" src="images/aliasmanager_icon.png"> [Makro Alias Manager](Macro_Alias_Manager/pl.md): Pomaga w zarządzaniu aliasami w arkuszu roboczym FreeCAD Spreadsheet. Umożliwia on tworzenie, usuwanie i przenoszenie aliasów oraz tworzenie grup plików \"rodziny części\".
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Makrodefinicja Alias dla tablicy dla obiektu](Macro_Alias_For_Table_For_Object.md): Automatycznie tworzy aliasy w dwuwymiarowej tablicy używając nazw wierszy i kolumn.
 
 -    <img style="width:16px;" src="images/ConstraintToAlias.svg"> [Makro ConstraintToAlias](Macro_ConstraintToAlias/pl.md): Umożliwia utworzenie arkusza kalkulacyjnego lub dodanie aliasu do istniejącego arkusza kalkulacyjnego z poziomu otwartego edytora szkiców.
 
 -    <img style="width:16px;" src="images/easy-alias-icon.png"> [Makro EasyAlias](Macro_EasyAlias/pl.md): Szybkie tworzenie aliasów w arkuszu kalkulacyjnym FreeCAD. Wykorzystuje on etykiety z jednej kolumny do tworzenia aliasów dla sąsiednich komórek w następnej kolumnie po prawej stronie, np. etykiety z kolumny A stają się aliasami dla komórek w kolumnie B.
 
 -    <img style="width:16px;" src="images/Macro_FCSpreadsheet_Extract.png"> [Makro FCSpreadSheet Extract](Macro_FCSpreadSheet_Extract/pl.md):Ta makrodefinicja zapisuje dane w pliku csv z formułą lub w pliku xml.
+
+-    <img style="width:16px;" src="images/FindAliasReferences.png"> [Makro FindAliasReferences](Macro_FindAliasReferences/pl.md): Znajduje wszystkie wyrażenia w otwartych dokumentach, które zawierają alias lub, jeśli alias nie jest zdefiniowany, wartość w wybranych komórkach arkusza kalkulacyjnego.
 
 -    <img style="width:16px;" src="images/Macro_Sketch_Constraint_From_Spreadsheet.svg"> [Makro Sketch Constraint From Spreadsheet](Macro_Sketch_Constraint_From_Spreadsheet/pl.md): Szybko dodaj wiązanie długości do linii lub między 2 punktami, używając aliasu komórki arkusza kalkulacyjnego lub adresu.
 
@@ -655,6 +657,10 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 
 -    <img style="width:16px;" src="images/Macro_Arch_Axis_System_Repartition.png"> [Makro Arch Axis System Repartition](Macro_Arch_Axis_System_Repartition/pl.md): Ta makrodefinicja umożliwia utworzenie układu osi środowiska Architektura wzdłuż linii przy użyciu zestawu parametrów.
 
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Makro Convert 021](Macro_Convert_021/pl.md): Konwertuje plik FreeCAD zapisany w wersji post-0.21 z powrotem do formatu 0.21.
+
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Makro Download Classifications](Macro_Download_Classifications.md): Pobiera paczkę systemów klasyfikacji BIM (Masterformat, Uniformat, \...) do użycia w projektach BIM we FreeCAD.
+
 -    <img style="width:16px;" src="images/Macro_Duplicate_Selection.png"> [Makro Duplicate Selection](Macro_Duplicate_Selection/pl.md): Ta makrodefinicja sprawdza, czy zaznaczenie jest zdublowane, jeśli zaznaczysz obiekt w oknie widoku 3D, kursor \"Kursor Zakaz\" zatrzyma się, jeśli zaznaczenie będzie zdublowane, makro pozostanie aktywne.
 
 -    <img style="width:16px;" src="images/Macro_Easy_Cutouts_for_Enclosures.png"> [Makro Easy cutouts for Enclosure Design](Macro_Easy_cutouts_for_Enclosure_Design/pl.md): Ta makrodefinicja tworzy wycięcia dla obudów w bardzo wygodny sposób.
@@ -676,6 +682,10 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 -    <img style="width:16px;" src="images/Pinger_Icon.svg"> [Makro Pinger](Macro_Pinger/pl.md): Łatwe przywoływanie użytkowników na forum.
 
 -    <img style="width:16px;" src="images/Macro_Recompute_Profiler.png"> [Makro Recompute Profiler](Macro_Recompute_Profiler/pl.md): Mierzy czas potrzebny do ponownego obliczenia każdego obiektu w projekcie.
+
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Makro Wiki Object Properties List Generator](Macro_Wiki_Object_Properties_List_Generator/pl.md): Generuje listy właściwości obiektów do użycia w dokumentacji wiki programu FreeCAD.
+
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Makro Wiki Object Properties List Generator Basic Version](Macro_Wiki_Object_Properties_List_Generator_Basic_Version/pl.md): Generuje listy właściwości obiektów do użycia w dokumentacji wiki programu FreeCAD.
 
 -    <img style="width:16px;" src="images/Replace_Part.png"> [Makro Replace Part in Assembly](Macro_Replace_Part_in_Assembly/pl.md): Zastępuje część *(zwykłą kopię)* w \"złożeniu\" inną częścią *(zwykłą kopią)*.
 
@@ -756,36 +766,6 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 -    <img style="width:16px;" src="images/Macro_Joint_Icon.svg"> [Makro Joint](Macro_Joint/pl.md): Tworzy różnorodne połączenia, takie jak połączenia wpuszczane / czopowe, połączenia skrzynkowe, połączenia na jaskółczy ogon i połączenia zatrzaskowe.
 
 -   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [makeTransparent](https://github.com/dprojects/Woodworking/blob/master/Tools/makeTransparent.py): Przełącza wszystkie części z trybu nieprzezroczystego na przezroczysty i z powrotem, umożliwiając podgląd otworów pilotażowych, pogłębień i innych połączeń.
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-
-
-### <img alt="" src=images/Std_FreeCADWebsite.svg  style="width:32px;"> Inne ciekawe makrodefinicje stworzone przez użytkowników FreeCAD 
-
-
-<div class="mw-collapsible-content">
-
--   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [By hamish2014](https://github.com/hamish2014?tab=repositories): FreeCAD_assembly2, FreeCAD_drawing_dimensioning, i inne.
-
--   <img alt="" src=images/2364.png  style="width:24px;"> [By microelly2](https://github.com/microelly2?tab=repositories) : FreeCAD_macro, geodata, Animacja, freecad-nurbs, PieMenu i inne.
-
--   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [By oddtopus](https://github.com/oddtopus?tab=repositories): Flamingo *(środowisko pracy dla konstrukcji ramowych za stali)*.
-
--   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [By realthunder](https://github.com/realthunder/FreeCAD_assembly3#installation): środowisko pracy Złożenie 3 i inne.
-
--   <img alt="" src=images/681.jpg  style="width:24px;"> [By rockn](https://github.com/j-wiedemann?tab=repositories): FreeCAD-Timber, FreeCAD-addons, FreeCAD-library, FreeCAD-StructuresBois i więcej.
-
--   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [By Siardeni](https://github.com/Siardeni/FreeCADTools): Program narzędziowy do tworzenia profili metalowych, rur kwadratowych, profili z, palet, obrotów, rysunków i innych.
-
--   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [By triplus](https://github.com/triplus?tab=repositories): IconThemes, ShortCuts, NavigationIndicator, TabBar, Launcher, PersistentToolbars, PieMenu, i więcej.
 
 
 </div>

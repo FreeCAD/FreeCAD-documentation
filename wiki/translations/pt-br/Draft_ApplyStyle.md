@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft ApplyStyle
    MenuLocation: Utilities , Apply current style
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Workbenches: Draft_Workbench
    SeeAlso: Draft_SetStyle
 ---
 
@@ -34,7 +34,7 @@ The <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Draft Ap
 
 1.  Optionally change the style settings with the [Draft SetStyle](Draft_SetStyle.md) command.
 2.  Select one or more objects.
-3.  Select the **Utilities → <img src="images/Draft_ApplyStyle.svg" width=16px> Apply current style** option from the menu.
+3.  Select the **Utilities → <img src="images/Draft_ApplyStyle.svg" width=16px> Apply current style** option from the menu, or from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
 
 ## Notes
 

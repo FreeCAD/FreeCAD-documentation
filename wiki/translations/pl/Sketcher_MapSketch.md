@@ -4,7 +4,7 @@
    Name/pl: Szkicownik: Mapuj szkic na powierzchnię
    Workbenches: Sketcher_Workbench/pl, PartDesign_Workbench/pl
    MenuLocation: Projekt Części / Szkicownik , Mapuj szkic na powierzchnię ...
-   SeeAlso: Sketcher_NewSketch/pl
+   SeeAlso: Sketcher_ReorientSketch/pl, Sketcher_NewSketch/pl
 ---
 
 # Sketcher MapSketch/pl
@@ -13,13 +13,13 @@
 
 ## Opis
 
-To narzędzie mapuje istniejący szkic na powierzchni kształtu. Cechy Part Design stworzone na podstawie tego szkicu zostaną połączone z bryłą podstawową w przypadku cech dodatkowych *(Pad, Revolution)* lub odjęte od bryły podstawowej w przypadku cech odejmowanych *(Pocket, Groove)*.
+Narzędzie <img alt="" src=images/Sketcher_MapSketch.svg  style="width:24px;"> **Mapuj szkic na powierzchnię** dołącza szkic do wybranej geometrii.
 
 Proszę zauważyć, że narzędzie to nie jest używane do tworzenia nowych szkiców. Mapuje ono jedynie lub przekształca istniejący szkic na powierzchnię bryły lub funkcji Part Design. Typowe przypadki użycia to:
 
--   Szkic został stworzony na standardowej płaszczyźnie *(XY, XZ, YZ)* i chcesz go odwzorować na powierzchni bryły, aby zbudować na niej obiekt.
--   Szkic został zmapowany na konkretnej powierzchni bryły, ale trzeba go zmapować na innej powierzchni.
--   Naprawiając zepsuty model.
+-   Szkic został stworzony na standardowej płaszczyźnie *(XY, XZ, YZ)* i chcesz go dołączyć na powierzchni bryły, aby zbudować na niej obiekt.
+-   Szkic został dołączony na konkretnej powierzchni bryły, ale trzeba go dołączyć na innej powierzchni.
+-   Zepsuty model wymaga naprawy.
 
 <img alt="" src=images/Sketcher_MapSketch_00.png  style="width:480px;">
 
@@ -30,29 +30,16 @@ Proszę zauważyć, że narzędzie to nie jest używane do tworzenia nowych szki
 -   Wybierz powierzchnię elementu Part Design lub bryły.
 -   Kliknij na ikonę **<img src="images/Sketcher_MapSketch.svg" width=16px> [Mapuj szkic na powierzchnię](Sketcher_MapSketch.md)** na pasku narzędzi *(lub przejdź do menu PartDesign lub Sketch w zależności od tego, które Środowisko pracy jest aktywne)*.
 
-
-
-## Stosować przy naprawie uszkodzonego modelu 
-
-Funkcja Sketcher: MapSketch jest często używana przy naprawie uszkodzonego modelu.
-
-Jednym z częstych przypadków zastosowania jest przerwanie wykresu zależności. *(Możesz zobaczyć wykres zależności przez **Narzędzia** → **[Wykres zależności](Std_DependencyGraph/pl.md)**)*. Może się to zdarzyć, gdy usuniesz element na środku drzewa modelu. W poniższym przykładzie uszkodzimy i naprawimy model.
-
-To jest model podstawowy. Ma jedno wyciągnięcie, kieszeń, i wyciągnięcie w tej kieszeni. Zauważ, że wykres zależności jest liniowy.
-
-![](images/JschremppFCADEdit1.png )
-
-Teraz skasowaliśmy kieszeń i szkic, który ją stworzył *(Pocket i Sketch001)*. Zauważ, że wykres zależności jest uszkodzony. Aby naprawić ten model chcemy przymocować Sketch002 do górnej powierzchni Pada. W widoku modelu widać, że łatwo byłoby wybrać niewłaściwą powierzchnię.
-
-![](images/JschremppFCADEdit2.png )
-
-Aby naprawić model, najpierw zmieniamy widoczność brył. Ukrywamy Pad001 i sprawiamy, że Pad jest widoczny.
-
-![](images/JschremppFCADEdit3.png )
-
-Teraz wybieramy górną powierzchnię wyciągnięcia *(Pad)*, kolejnie wybieramy narzędzie *Mapuj szkic na powierzchnię*. W oknie dialogowym, które się pojawi, wybieramy **Sketch002**. Nasz model jest teraz naprawiony. W widoku modelu uwidaczniamy Pad001 i ukrywamy Pad przedstawiony zostanie właściwy model.
-
-![](images/JschremppFCADEdit4.png )
+1.  Wybierz obiekt z kształtem, lub jeden lub więcej wierzchołków, krawędzi, i/lub ścian, oraz/lub płaszczyznę.
+2.  Istnieje kilka sposobów, aby uruchomić narzędzie:
+    -   Kliknij przycisk **<img src="images/Sketcher_MapSketch.svg" width=16px> '''Mapuj szkic na powierzchnię'''**.
+    -   Wybierz opcję z menu **Szkic → <img src="images/Sketcher_MapSketch.svg" width=16px> Mapuj szkic na powierzchnię**.
+3.  Otwiera się okno dialogowe **Wybierz szkic**.
+4.  Wybierz szkic z rozwijanej listy.
+5.  Naciśnij przycisk **OK**.
+6.  Otwiera się okno dialogowe **Dołączanie szkicu**.
+7.  Wybierz [metodę dołączania](Part_EditAttachment/pl#Tryby_dołączenia.md) z listy rozwijanej. Lub wybierz **Nie dołączaj**, aby odłączyć szkic.
+8.  Naciśnij przycisk **OK**.
 
 
 

@@ -18,14 +18,14 @@ La commande **Std Fermer tout** ferme toutes les fenêtres, fermant ainsi tous l
 ## Utilisation
 
 1.  Sélectionnez l\'option **Fichier  → <img src="images/Std_CloseAllWindows.svg" width=16px> Fermer tout** dans le menu.
-2.  S\'il y a des documents non enregistrés, une boîte de dialogue vous demandera de les enregistrer :
+2.  S\'il y a des documents non enregistrés, une fenêtre de dialogue vous demandera de les enregistrer :
     -   Appuyez sur le bouton **Enregistrer** pour enregistrer le document actif. Si nécessaire, entrez d\'abord un nom de fichier.
     -   Appuyez sur le bouton **Supprimer** pour supprimer le document actif et perdre toutes les modifications.
 
 ## Options
 
--   Lorsque la boîte de dialogue s\'affiche: appuyez sur **Echap** ou sur le bouton **Annuler** pour abandonner la commande.
--   S\'il existe plusieurs documents non enregistrés: cochez la case {{CheckBox|TRUE|Appliquer la réponse à tous}} pour éviter d\'être invité à chaque fois pour chaque document non enregistré.
+-   Lorsque la boîte de dialogue s\'affiche: appuyez sur **Échap** ou sur le bouton **Annuler** pour abandonner la commande.
+-   S\'il existe plusieurs documents non enregistrés: cochez la case **Appliquer la réponse à tous** pour éviter d\'être invité à chaque fois pour chaque document non enregistré.
 
 
 
@@ -35,26 +35,15 @@ La commande **Std Fermer tout** ferme toutes les fenêtres, fermant ainsi tous l
 
 
 
-## Préférences
-
--   Le dernier emplacement de fichier utilisé est stocké: **Outils → Éditer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
-
-
-
 ## Script
 
-
-**Voir aussi :**
-
-[FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
-
-Pour fermer un document, utilisez la méthode `closeDocument` de l\'application FreeCAD. Pour un exemple de script, voir [Std Nouveau](Std_New/fr.md).
+Voir [Std Nouveau](Std_New/fr#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

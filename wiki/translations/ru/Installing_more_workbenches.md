@@ -5,6 +5,8 @@
 
 Читайте далее для получения дополнительной информации относительно установки верстаков.
 
+
+
 ## Общее описание 
 
 Workbenches are nothing more than collections of files that are placed in a folder. This folder is usually compressed into a zip archive. On installation, this folder is simply uncompressed and copied to
@@ -34,9 +36,11 @@ Workbenches installed in this way will be available only to one user, but will n
 
 Copy the workbench folder into `$USER_DIR/Mod/`, where `$USER_DIR` is the FreeCAD directory for a particular `username` (you can find the latter by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md)).
 
--   On Linux it is usually `/home/username/.local/share/FreeCAD/Mod/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/Mod/` ({{VersionMinus|0.19}}).
+-   On Linux it is usually `/home/username/.local/share/FreeCAD/Mod/`
 -   On Windows it is `%APPDATA%\FreeCAD\Mod\`, which is usually `C:\Users\username\Appdata\Roaming\FreeCAD\Mod\`
--   On macOS it is usually `/Users/username/Library/Preferences/FreeCAD/Mod/`.
+-   On macOS it is usually `/Users/username/Library/Application Support/FreeCAD/Mod/`.
+
+
 
 ## Дополнительная информация 
 

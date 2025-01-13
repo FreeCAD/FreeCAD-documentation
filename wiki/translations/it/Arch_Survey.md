@@ -10,10 +10,19 @@
 # Arch Survey/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento **<img src="images/Arch_Survey.svg" width=16px> [Ispeziona](Arch_Survey/it.md)** entra in una speciale modalità di rilevamento, che consente di acquisire rapidamente misure e informazioni provenienti da un modello, e di trasferirle ad altre applicazioni. Quando si è in modalità Ispeziona, cliccando sui diversi sotto-elementi degli oggetti 3D si acquisiscono le seguenti informazioni (a secondo di cosa si clicca):
+
+
+</div>
 
 -   Se si fa clic su uno spigolo, si ottiene la sua lunghezza
 -   Se si fa clic su un vertice, si ottiene la sua altezza (coordinata sull\'asse Z)
@@ -34,11 +43,17 @@ Quando vengono acquisite delle informazioni, succedono tre cose:
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Premere il pulsante **<img src="images/Arch_Survey.svg" width=16px> [Ispeziona](Arch_Survey/it.md)
 **
 2.  Cliccare su vertici, spigoli, facce o fare doppio clic per selezionare gli oggetti interi
 3.  Fare clic all\'esterno di qualsiasi geometria (sullo sfondo della vista 3D) per rimuovere le etichette esistenti, stampare una riga del totale nella finestra di dialogo Azioni e riavviare da zero il conteggio delle lunghezze e delle aree.
 4.  Premere **ESC** o il pulsante **'''Close'''** per uscire dalla modalità di indagine e rimuovere tutte le etichette.
+
+
+</div>
 
 
 
@@ -49,12 +64,20 @@ Quando vengono acquisite delle informazioni, succedono tre cose:
 
 <img alt="" src=images/Arch_Survey_spreadsheet.jpg  style="width:640px;">
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 
 **Vedere anche:**
 
 [API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+
+
+</div>
 
 La modalità di indagine non ha un\'interfaccia di programmazione, ma da qualsiasi oggetto selezionato basato su [Part](Part_Workbench/it.md) è facile raccogliere le stesse informazioni e riprodurle utilizzando il seguente script:
 
@@ -73,6 +96,20 @@ for obj in selection:
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/it
+⏵ [documentation index](../README.md) > Arch Survey/it

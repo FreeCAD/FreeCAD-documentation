@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -23,6 +25,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Использование
@@ -31,7 +35,7 @@
 </div>
 
 1.  Select a mesh object.
-2.  Press the **<img src="images/Arch_SplitMesh.svg" width=16px> [Split Mesh](Arch_SplitMesh.md)** entry in **Arch → Utilities → Split Mesh**.
+2.  Select the **Utils → <img src="images/Arch_SplitMesh.svg" width=16px> Split Mesh** option from the menu.
 
 ## Scripting
 
@@ -75,5 +79,13 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/ru
+⏵ [documentation index](../README.md) > Arch SplitMesh/ru

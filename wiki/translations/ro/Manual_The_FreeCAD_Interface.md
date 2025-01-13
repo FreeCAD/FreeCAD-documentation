@@ -1,7 +1,13 @@
 # Manual:The FreeCAD Interface/ro
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD utilizează [Qt framework](https://en.wikipedia.org/wiki/Qt_(software)) pentru a desena și administra interfața sa. Acest cadru este folosit într-o gamă largă de aplicații, astfel încât interfața FreeCAD este foarte clasică și nu prezintă dificultăți speciale în înțelegere Cele mai multe butoane sunt standard și vor fi găsite acolo unde vă așteptați(File -\> Open, Edit -\> Paste, etc). Iată aspectul FreeCAD atunci când îl deschideți pentru prima dată, imediat după instalare, afișându-vă centrul de start:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -11,7 +17,13 @@ FreeCAD utilizează [Qt framework](https://en.wikipedia.org/wiki/Qt_(software)) 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Centrul de start este un \"ecran de întâmpinare\" convenabil, care arată informații utile pentru noii veniți, cum ar fi cele mai recente fișiere pe care le-ați lucrat, ce este nou în lumea FreeCAD sau informații rapide despre cele mai comune ateliere de lucru. De asemenea, vă va notifica dacă este disponibilă o nouă versiune stabilă a FreeCAD.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -33,9 +45,17 @@ Dar după un timp sau după ce ați făcut unele modificări în preferințe, ve
 
 ### Ateliere
 
-Rețineți că unele dintre pictograme s-au schimbat între cele două capturi de ecran de mai sus. Aici intră în joc cel mai important concept utilizat în interfața FreeCAD: atelierul de lucru.
+
+<div class="mw-translate-fuzzy">
 
 Atelierele de lucru reprezintă grupuri de instrumente (butoane din bara de instrumente, meniuri și alte controale de interfață) care sunt grupate împreună în funcție de specialitate. Gândiți-vă la un atelier unde aveți oameni care lucrează împreună: o persoană care lucrează cu metal, altul cu lemn. Fiecare dintre ei are, în atelierul lor, o masă separată cu instrumente specifice pentru slujba sa. Cu toate acestea, toate pot lucra pe aceleași obiecte. Același lucru se întâmplă în FreeCAD.
+
+
+</div>
+
+In the context of FreeCAD, each Workbench is tailored to a particular type of task, organizing all the necessary tools for that activity in one interface. When switching between Workbenches, the set of tools and controls visible in the user interface adjusts to reflect the needs of the selected task, though the actual project contents or \"scene\" you are working on does not change. This allows for seamless transitions in workflow, such as beginning a design with basic 2D shapes in the Draft Workbench and then elaborating on these designs with advanced modeling tools in the Part Workbench.
+
+The terms \"Workbench\" and \"Module\" are sometimes used interchangeably, but they have distinct meanings within FreeCAD. A Module is any extension that adds functionality to FreeCAD, while a Workbench is a specific kind of Module equipped with its own user interface components such as toolbars and menus, designed to facilitate specific types of tasks. Thus, every Workbench is a Module, but not every Module qualifies as a Workbench.
 
 Cel mai important control al interfeței FreeCAD este selectorul de atelier(Workbench), pe care îl folosiți pentru a comuta de la un ataelier la altul:
 
@@ -47,6 +67,44 @@ Cel mai important control al interfeței FreeCAD este selectorul de atelier(Work
 
 </div>
 
+-   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> The [Assembly Workbench](Assembly_Workbench.md) for building and solving mechanical assemblies. <small>(v1.0)</small> 
+
+-   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> The [BIM Workbench](BIM_Workbench.md) for working with architectural elements and creating [BIM](https://en.wikipedia.org/wiki/Building_information_modeling) models. It combines the Arch Workbench and the formerly external BIM Workbench available in {{VersionMinus|0.21}}.
+
+-   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> The [CAM Workbench](CAM_Workbench.md) is used to produce G-Code instructions. This workbench was called \"Path Workbench\" in {{VersionMinus|0.21}}.
+
+-   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> The [Draft Workbench](Draft_Workbench.md) contains 2D tools and basic 2D and 3D CAD operations.
+
+-   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> The [FEM Workbench](FEM_Workbench.md) provides Finite Element Analysis (FEA) workflow.
+
+-   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> The [Inspection Workbench](Inspection_Workbench.md) is made to give you specific tools for the examination of shapes. Still in the early stages of development.
+
+-   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> The [Material Workbench](Material_Workbench.md) handles the FreeCAD material system. <small>(v1.0)</small> 
+
+-   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> The [Mesh Workbench](Mesh_Workbench.md) for working with triangulated meshes.
+
+-   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> The [OpenSCAD Workbench](OpenSCAD_Workbench.md) for interoperability with OpenSCAD and repairing [constructive solid geometry](Constructive_solid_geometry.md) (CSG) model history.
+
+-   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> The [Part Workbench](Part_Workbench.md) for working with geometric primitives and boolean operations.
+
+-   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> The [Part Design Workbench](PartDesign_Workbench.md) for building Part shapes from sketches.
+
+-   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> The [Points Workbench](Points_Workbench.md) for working with point clouds.
+
+-   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> The [Reverse Engineering Workbench](Reverse_Engineering_Workbench.md) is intended to provide specific tools to convert shapes/solids/meshes into parametric FreeCAD-compatible features.
+
+-   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> The [Robot Workbench](Robot_Workbench.md) for studying robot movements. Currently unmaintained.
+
+-   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> The [Sketcher Workbench](Sketcher_Workbench.md) for working with geometry-constrained sketches.
+
+-   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> The [Spreadsheet Workbench](Spreadsheet_Workbench.md) for creating and manipulating spreadsheet data.
+
+-   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> The [Surface Workbench](Surface_Workbench.md) provides tools to create and modify surfaces. It is similar to the [Part Builder](Part_Builder.md) Face from edges option.
+
+-   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> The [TechDraw Workbench](TechDraw_Workbench.md) for producing technical drawings from 3D models. It is the successor of the [Drawing Workbench](Drawing_Workbench.md).
+
+-   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> The [Test Framework Workbench](Testing.md) is for debugging FreeCAD.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -54,8 +112,6 @@ Atelierele de lucru adesea îi lasă confuzi pe utilizatorii noi, deoarece nu es
 
 
 </div>
-
-Later in this manual, you will also find a table showing the contents of all Workbenches.
 
 
 
@@ -71,49 +127,35 @@ Să aruncăm o privire mai bună asupra diferitelor părți ale interfeței:
 
 </div>
 
+The main window of the application can be roughly divided into 11 sections:
 
-<div class="mw-translate-fuzzy">
+1.  The [Main view area](Main_view_area.md), which can contain different tabbed windows.
+2.  The [3D view](3D_view.md), normally embedded in the [main view area](Main_view_area.md). The 3D view is the central element of the interface, displaying and allowing manipulation of the objects you are working on. It is possible to have multiple views of the same document (or objects) or to have several documents open simultaneously. Additionally, each view can be detached from the main window separately.
+3.  The Model and and the [Tasks](Task_panel.md) tab.
+    1.  The Model tab shows you the contents and structure of your document.
+    2.  The Tasks tab is where FreeCAD will prompt you for values specific to the workbench and tool you are currently using (for example dimensions of an object).
+4.  The [Property editor](Property_editor.md) which appears when the Model tab is active in the interface. It allows managing the publicly exposed properties of the objects in the document. It consists of the Data and View sections, showing the visualization properties and the parametric properties of the objects respectively.
+5.  The [Selection view](Selection_view.md) which indicates the objects or sub-elements of objects (vertices, edges, faces) that are selected.
+6.  The [Report view](Report_view.md) where messages, warnings and errors are shown.
+7.  The [Python console](Python_console.md).The Python console, where all the commands executed are printed, and where you can enter Python code.
+8.  The [Status bar](Status_bar.md) where some messages and tooltips appear.
+9.  The toolbar area, where the toolbars are docked.
+10. The [workbench selector](Std_Workbench.md), where you select the active [workbench](Workbenches.md).
+11. The [standard menu](Standard_Menu.md), which holds basic operations of the program.
 
--   **The 3D view** este componentul principal al interfeței. Acesta poate fi deconectat din fereastra principală, într-o fereastră care îi este didicată, puteți avea mai multe vizualizări ale aceluiași document (sau aceleași obiecte) sau mai multe documente deschise în același timp. Puteți selecta obiecte sau părți de obiecte făcând clic pe ele și puteți panorama, mări și roti vizualizarea cu butoanele mouse-ului. Acest lucru va fi explicat în continuare în capitolul următor.
--   **The combo view** has two tab uri:
-    -   Model tab vă arată conținutul și structura documentului de mai sus și proprietățile (sau parametrii) obiectelor selectate mai jos. Aceste proprietăți sunt separate în două categorii:
-        -   Data (proprietăți care privesc geometria însăși)
-        -   View (proprietăți care afectează modul în care arată geometria pe ecran).
-    -   Tasks Tab este locul în care FreeCAD vă va solicita valori specifice instrumentului pe care îl utilizați în prezent - de exemplu, introduceți o valoare \"lungime\" atunci când este utilizat instrumentul Linie. Se va închide automat după apăsarea butonului OK (sau Cancel). De asemenea, făcând dublu clic pe obiectul asociat în vizualizarea combo, majoritatea instrumentelor vă vor permite să redeschideți panoul de sarcini pentru a modifica setările.
--   **The report view** este în mod normal ascuns, dar este o idee bună să-l lăsați deschis, deoarece va afișa orice informații, avertismente sau erori pentru a vă ajuta să descifrați (sau să depanați) ce ați greșit.
--   **The Python console** este de asemenea ascuns în mod implicit. Aici puteți interacționa cu conținutul documentului folosind [Python language](https://en.wikipedia.org/wiki/Python_%28programming_language%29). Deoarece fiecare acțiune pe care o faceți pe interfața FreeCAD execută de fapt o bucată de cod Python, acest lucru vă permite să vizualizați codul în timp real - permițându-vă un mod minunat și ușor de a învăța un pic de Python pe drum, aproape fără să observați aceasta.
-
-
-</div>
-
-In addition to the 3D view panel, the following information panels are available. They may be made visible or hidden by selecting them from **View → Panels** . The name of the panel appears in the upper left corner of the panel when it is displayed:
-
--   **The combo view** has two tabs:
-    -   The Model tab shows you the contents and structure of your document above and the properties (or parameters) of the selected object(s) below. These properties are separated into two categories:
-        -   Data (properties which concern the geometry itself)
-        -   View (properties that affect how the geometry looks on screen).
-    -   The Tasks tab is where FreeCAD will prompt you for values specific to the workbench and tool you are currently using. For example, entering a \'length\' value when the [Draft Workbench Line Tool](Draft_Line.md) is being used. It will clear and switch back to the Model tab after the **OK** (or Cancel) button is pressed. Double-clicking the related object in the Model tab will usually reopen the corresponding Task tab in order to modify the settings.
-        The Tasks tab sometimes has puzzling and frustrating side-effects. If the Task tab is not empty, some FreeCAD operations will not work as expected. For example, if you have a single object in your model such as a cube, double-clicking on it will open the Tasks tab to allow you to modify the parameters characterizing the cube. If you have the [Selection view](#Selection_view.md) open, you will see the cube\'s internal name listed there. The entire cube will turn green in the 3D panel, indicating the entire cube is selected. Clicking on the background will deselect the entire cube and clear the Selection view. So far, this is normal behavior. However, if you now click on a face of the cube, instead of that face being selected, nothing will be selected --- because the Tasks tab has not been completed. Even if you have made no modifications to the parameters there, FreeCAD is waiting for the **OK** (or other) button in the Tasks tab to be clicked.
-
--   **The report view** is normally hidden, but it is a good idea to open it as it will list any information, warnings or errors to help you decipher (or debug) what you may have done wrong.
--   **The Python console** is also hidden by default. This is where you can interact with the contents of the document using the [Python language](https://en.wikipedia.org/wiki/Python_%28programming_language%29). Since every action you do on the FreeCAD interface actually executes a piece of Python code, having this open allows you to watch the code unfold in real time --- allowing you a wonderful and easy way to learn a little Python on the way, almost without noticing it.
--   **The tree view** displays only the object tree shown under the Model tab in the combo view. It is normally hidden.
--   **The property view** displays only the object property information shown at the bottom of the combo view. It is normally hidden.
--   **The selection view** shows the names of any objects which are currently selected. These are the objects to which a workbench operation will be applied. It can be used to refine the selection by deselecting some of those objects before a workbench operation is applied. The selection view can also be used to search for objects by name and then select them. By default, the selection view is hidden. While you can often determine the currently selected object(s) by looking at the object tree in the Model tab of the combo view, for complex operations requiring multiple selections and where selection is difficult it is helpful to make this view visible so you can both see the labels and count the selected objects.
-
-
-<div class="mw-translate-fuzzy">
-
-![](images/Freecad-interface-07.jpg )
-
-
-</div>
+Most of the above panels can be hidden or revealed using the **View → Panels menu**
 
 
 
 ### Personalizarea interafeței 
 
+
+<div class="mw-translate-fuzzy">
+
 Interfața FreeCAD este foarte personalizabilă. Toate panourile și barele de unelte pot fi mutate în locuri diferite sau stive una deasupra celeilalte. De asemenea, acestea pot fi închise și redeschise atunci când este necesar din meniul Vizualizare sau făcând clic dreapta pe o zonă goală a interfeței. Există, însă, mai multe opțiuni disponibile, cum ar fi crearea de bare de instrumente personalizate cu instrumente de la oricare dintre atelierele de lucru sau atribuirea și schimbarea comenzilor rapide de la tastatură.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

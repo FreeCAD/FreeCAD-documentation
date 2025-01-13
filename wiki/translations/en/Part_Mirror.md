@@ -9,7 +9,7 @@
 
 ## Description
 
-**Part Mirror** creates a new object (image) which is a reflection of the original object (source). The image object is created behind a mirror plane. The mirror plane may be standard plane (**XY**, **YZ**, or **XZ**), any plane parallel to a standard plane, or (<small>(v0.22)</small> ) any arbitrary plane by using a reference object.
+**Part Mirror** creates a new object (image) which is a reflection of the original object (source). The image object is created behind a mirror plane. The mirror plane may be standard plane (**XY**, **YZ**, or **XZ**), any plane parallel to a standard plane, or (<small>(v1.0)</small> ) any arbitrary plane by using a reference object.
 
 An example:
 
@@ -36,7 +36,11 @@ An example:
 3.  If you have not yet selected objects or want to change the selection: pick one or more objects from the **Shapes** list.
 4.  Do one of the following:
     -   Select a standard **Mirror plane** from the dropdown list.
-    -   Select a reference object in the [Tree view](Tree_view.md) or the [3D view](3D_view.md). The reference object can be any planar face or circular edge.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Select a reference object in the [Tree view](Tree_view.md) or the [3D view](3D_view.md). The reference object can be any planar face or circular edge.
 5.  Press the **OK** button.
 6.  For each source object a separate Part Mirror object is created.
 

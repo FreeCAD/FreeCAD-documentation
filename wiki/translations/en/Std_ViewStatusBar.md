@@ -20,7 +20,7 @@ The **Std ViewStatusBar** command toggles the display of the [Status bar](Status
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

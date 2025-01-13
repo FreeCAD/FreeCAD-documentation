@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign AdditiveWedge
    Name/fr: PartDesign Pyramide tronquée additive
-   MenuLocation: Part Design , Créer une primitive additive , Pyramide tronquée additive
+   MenuLocation: PartDesign , Créer une primitive additive , Pyramide tronquée additive
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/fr, PartDesign_SubtractiveWedge/fr
@@ -15,6 +15,8 @@
 Insère une Pyramide tronquée primitive dans un corps actif comme fonction de base, ou fusionne avec les fonctions existantes.
 
 <img alt="" src=images/PartDesign_AdditiveWedge_example.png  style="width:200px;">
+
+
 
 ## Utilisation
 
@@ -30,6 +32,8 @@ La Pyramide tronquée peut être éditée après sa création de deux façons :
 -   Double-cliquez la dans l\'arborescence ou faire un clic droit dessus et sélectionnez **Éditer la primitive** dans le menu contextuel. Cela fait apparaître les paramètres de la Primitive.
 -   Via l\'[Éditeur de propriétés](Property_editor/fr.md).
 
+
+
 ## Propriétés
 
 En utilisant le placement par défaut, les entrées ci-dessous sont :
@@ -43,6 +47,8 @@ En utilisant le placement par défaut, les entrées ci-dessous sont :
 -    **X2 min/max**: Dimension de la face du dessus selon l\'axe X
 
 -    **Z2 min/max**: Dimension de la face du dessus selon l\'axe Z
+
+
 
 ## Pyramides
 

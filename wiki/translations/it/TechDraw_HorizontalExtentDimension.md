@@ -1,84 +1,65 @@
 ---
  GuiCommand:
-   Name: TechDraw Dimension Horizontal Extent
-   Name/it: Estensione orizzontale
-   MenuLocation: TechDraw , Estensione orizzontale
+   Name: TechDraw HorizontalExtentDimension
+   Name/it: TechDraw Quota estensione orizzontale
+   MenuLocation: TechDraw , Quotatura , Inserisci Quota estensione orizzontale
    Workbenches: TechDraw_Workbench/it
+   Version: 0.19
    SeeAlso: TechDraw_LengthDimension/it, TechDraw_VerticalExtentDimension/it
 ---
 
 # TechDraw HorizontalExtentDimension/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Lo strumento **TechDraw Quota estensione orizzontale** aggiunge una quota lineare a una Vista. La quota si estende dal punto più a sinistra degli oggetti selezionati al punto più a destra.
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento Estensione orizzontale aggiunge una quota lineare a una vista. La dimensione si estende dal punto più a sinistra degli oggetti selezionati al punto più a destra. Viene posizionato un vertice cosmetico nei punti estremi.
-
-
-</div>
-
-<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
+*Quotatura dell'estensione orizzontale e verticale di una B-spline*
 
 
 
-*Estensione orizzontale della faccia BSpline*
+## Utilizzo
+
+1.  Selezionare una Vista o una raccolta di Bordi in una Vista.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   
+        {{Version/it|1.0}}
+        
+        : Se la [preferenza](TechDraw_Preferences/it#Dimensions.md) degli **Strumenti di quotatura** è impostata su {{Value|Strumento singolo}} (predefinito): premere la freccia giù a destra del pulsante **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** e seleziona il pulsante **[[Image:TechDraw_HorizontalExtentDimension.svg|16px] ] Opzione Inserisci Quota estensione orizzontale** dal menu a discesa.
+
+    -   Se questa preferenza ha un valore diverso (e in {{VersionMinus/it|0.21}}): premere il pulsante **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Inserisci Quota estensione orizzontale](TechDraw_HorizontalExtentDimension/it.md)**.
+
+    -   Selezionare l\'opzione **TechDraw → Quotatura → <img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> Inserisci Quota estensione orizzontale** dal menu.
+3.  Una quota viene aggiunta alla Vista.
+4.  La quota può essere trascinata nella posizione desiderata.
+5.  Se necessario, aggiungere tolleranze come descritto in [questa pagina](TechDraw_Geometric_dimensioning_and_tolerancing/it#Tolleranze.md).
 
 
-</div>
 
-## Usage
+### Cambiare le proprietà 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare una vista o una serie di bordi in una vista.
-2.  Premere il pulsante **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Estensione orizzontale](TechDraw_HorizontalExtentDimension/it.md)**.
-3.  Viene aggiunta dimensione alla vista. La dimensione può essere trascinata nella posizione desiderata.
-
-
-</div>
-
-### Change properties 
-
-To change the properties of a dimension object either double-click it in the drawing or in the [Tree view](Tree_view.md). This will open the [Dimension dialog](TechDraw_LengthDimension#Dimension_dialog.md).
+Per modificare le proprietà di un oggetto quota, fare doppio clic su di esso nel disegno o nella [Vista ad albero](Tree_view/it.md). Si aprirà la [Finestra di dialogo Quota](TechDraw_LengthDimension/it#Finestra_di_dialogo_Quota.md).
 
 
 
 ## Limitazioni
 
-
-<div class="mw-translate-fuzzy">
-
-Gli oggetti dimensione sono vulnerabili ai problemi di \"[denominazione topologica](topological_naming_problem/it.md)\". Per maggiori informazioni vedere le informazioni nello strumento **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Lunghezza](TechDraw_LengthDimension/it.md)**.
+Gli oggetti Quota sono vulnerabili al \"[problema di denominazione topologica](Topological_naming_problem/it.md)\". Vedere [TechDraw Quota allineata](TechDraw_LengthDimension/it.md).
 
 
-</div>
 
-## Notes
+## Note
 
-See [TechDraw LengthDimension](TechDraw_LengthDimension#Notes.md).
+Vedere [TechDraw Quota allineata](TechDraw_LengthDimension/it#Note.md).
 
 
 
 ## Proprietà
 
-
-<div class="mw-translate-fuzzy">
-
-Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_LengthDimension/it.md). Eccezioni rilevate.
-
-
-</div>
+Vedere [TechDraw Quota allineata](TechDraw_LengthDimension/it#Proprietà.md). Eccezioni indicate di seguito.
 
 
 
@@ -87,30 +68,15 @@ Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Leng
 
 {{Properties_Title|Base}}
 
-
-<div class="mw-translate-fuzzy">
-
--    **MeasureType**: `True` - basata sulla geometria 3D o \"Projected\" - basata sul disegno. Normalmente non manipolato direttamente dall\'utente finale. Non ancora implementata per Estensione orizzontale.
-
-
-</div>
+-    **Measure Type|Enumeration**: non ancora implementato per le quote di estensione.
 
 
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Estensione orizzontale può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
-
-
-</div>
+Lo strumento Quota estensione orizzontale può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite le seguenti funzioni:
 
 
 ```python

@@ -29,13 +29,13 @@ Polecenie **Poprzednie** aktywuje poprzednie okno w [Głównym obszarze widoku](
 
 ## Uwagi
 
--   Okna głównego obszaru widoku są również wymienione w menu **Okna** i mogą być stamtąd aktywowane.
+-   Pierwsze 10 okien głównego widoku jest również wymieniona w menu **Okna** i mogą być stamtąd aktywowane.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

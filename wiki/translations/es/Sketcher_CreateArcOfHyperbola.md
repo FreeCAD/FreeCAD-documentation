@@ -17,13 +17,22 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 Esta herramienta crea un arco de hipérbola por centro, radio mayor y puntos finales.
 
-![](images/Sketcher_Arc_of_Hyperbola_01.png )
+
+</div>
+
+![](images/Sketcher_CreateArcOfHyperbola_Example.png ) 
+*Arc of hyperbola (white) with internal geometry (dark yellow)*
 
 
 
 ## Utilización
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -36,6 +45,10 @@ Esta herramienta crea un arco de hipérbola por centro, radio mayor y puntos fin
 
 
 </div>
+
+## Notes
+
+-   Elements of the internal geometry can be deleted. They can be recreated at any time with [Sketcher RestoreInternalAlignmentGeometry](Sketcher_RestoreInternalAlignmentGeometry.md).
 
 
 

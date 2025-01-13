@@ -3,6 +3,8 @@
 
 
 
+
+
 ## Wprowadzenie
 
 Środowisko pracy [Test](Testing/pl.md) nie jest tak naprawdę programem do modelowania, ale zawiera zestaw skryptów środowiska [Python](Python/pl.md) do wykonywania różnych testów na głównych komponentach programu FreeCAD w celu usuwania problemów. Zobacz także stronę [debugowanie](Debugging/pl.md).
@@ -30,11 +32,15 @@ Jeśli test nie wymaga GUI, można go także wykonać w trybie konsoli, ustawiaj
 freecad -c -t TestPartDesignApp
 ```
 
+
+
 ## Menu Narzędzia test 
 
 W każdym katalogu najwyższego poziomu w programie FreeCAD powinien znajdować się plik z testami, które można uruchomić dla danego programu lub modułu. Plik ten zwykle zaczyna się od słowa `Test`.
 
 Aby uruchomić test z poziomu programu FreeCAD, należy przejść do środowiska Test Workbench, następnie **Test commands → TestToolsGui → Self test → Select test name**, a następnie wpisać nazwę pliku Python z testami. Na przykład dla środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) będzie to **TestDraft**, po czym należy nacisnąć przycisk **Start**.
+
+
 
 ## Funkcje testujące 
 
@@ -44,17 +50,25 @@ To jest lista aplikacji testowych od wersji 0.15 git 4207:
 
 Dodanie funkcji testowania
 
+
+
 ### Testy podstawowe 
 
 Dodaj funkcje testowania
+
+
 
 ### Testy jednostkowe 
 
 Dodaj funkcje testowania
 
+
+
 ### Dokument
 
 Dodaj funkcje testowania
+
+
 
 ### Testy Unicode 
 
@@ -63,6 +77,8 @@ Dodaj funkcje testowania
 ### MeshTestsApp
 
 Dodaj funkcje testowania
+
+
 
 ### Test środowiska Rysunek Roboczy 
 
@@ -80,7 +96,7 @@ Dodaj funkcje testowania
 
 Dodaj funkcje testowania
 
-### TestPathApp
+### TestCAMApp
 
 Testowanie środowiska pracy Path:
 
@@ -108,9 +124,13 @@ Testowanie środowiska pracy Path:
 -   TestPathVcarve: Test ogólnej funkcjonalności działania funkcji Vcarve.
 -   TestPathVoronoi:
 
+
+
 ### Środowiska pracy 
 
 Dodaj funkcje testowania
+
+
 
 ### Menu
 
@@ -124,12 +144,16 @@ Dodaj funkcje testowania
 
 Dodaj funkcje testowania
 
+
+
 ## Tworzenie skryptów 
 
 
 **Zobacz również:**
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+
+
 
 ### Wyświetl listę wszystkich modułów testowych najwyższego poziomu 
 
@@ -139,6 +163,8 @@ FreeCAD.__unit_test__
 ```
 
 Należy zauważyć, że zwracane tutaj moduły testowe zależą od tego, czy dostępny jest interfejs graficzny, czy nie. Tzn. jeśli test jest wykonywany w trybie konsoli, brakuje różnych testów kończących się na \"Gui\".
+
+
 
 ### Wykonaj określone testy 
 
@@ -155,6 +181,8 @@ Uruchamia wszystkie testy zdefiniowane w klasie Python:
 import Test, femtest.app.test_solver_calculix
 Test.runTestsFromClass(femtest.app.test_solver_calculix.TestSolverCalculix)
 ```
+
+
 
 ### Przykład 1 
 
@@ -175,7 +203,11 @@ r = unittest.TextTestRunner()
 r.run(suite)
 ```
 
+
+
 ## Zasoby dodatkowe 
+
+
 
 ### Tematy na forum 
 

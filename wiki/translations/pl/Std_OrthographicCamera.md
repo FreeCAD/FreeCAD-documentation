@@ -32,32 +32,33 @@ Polecenie **Widok ortogonalny** przełącza ujęcie widoku w aktywnym oknie [wid
 
 ## Ustawienia
 
--   Typ ujęcia widoku można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Typ projekcji**. Wybrany typ będzie używany dla wszystkich widoków 3D wszystkich otwartych dokumentów, a także dla nowych dokumentów. Zobacz dodatkowe informacje o [konfiguracji](Preferences_Editor/pl#Widok_3D.md).
+Zobacz też: [Edytor preferencji](Preferences_Editor/pl.md).
+
+-   Typ ujęcia widoku można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Typ projekcji**. Wybrany typ będzie używany dla wszystkich widoków 3D wszystkich otwartych dokumentów, a także dla nowych dokumentów.
 
 
 
 ## Tworzenie skryptów 
 
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby zmienić widok na ortognalny, należy użyć metody `setCameraType` obiektu ActiveView. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
+Użyj metody `setCameraType` obiektu View aby zmienić widok na ortogonalny lub perspektywę.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.setCameraType('Orthographic')
-FreeCADGui.ActiveDocument.ActiveView.getCameraType()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.setCameraType("Perspective")
+view.setCameraType("Orthographic")
+view.getCameraType()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

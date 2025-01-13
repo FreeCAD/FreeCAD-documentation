@@ -1,33 +1,35 @@
 # Standard Menu/es
-## Introduction
+## Introducción
 
-The standard menu gives access to tools that can be used in all workbenches. The menu may look slightly different depending on the desktop environment (KDE, Gnome, Windows, macOS, etc.). Workbenches can also add sub-menus depending on how they decide to structure their tools.
+El menú estándar da acceso a herramientas que se pueden utilizar en todos los entornos de trabajo. El menú puede verse ligeramente diferente según el entorno de escritorio (KDE, Gnome, Windows, macOS, etc.). Los entornos de trabajo también pueden agregar submenús dependiendo de cómo decidan estructurar sus herramientas.
 
 
 {{StdMenu
 |
-[File](Std_File_Menu.md)
+[Archivo](Std_File_Menu/es.md)
 &nbsp;&nbsp;&nbsp;
-[Edit](Std_Edit_Menu.md)
+[Editar](Std_Edit_Menu/es.md)
 &nbsp;&nbsp;&nbsp;
-[View](Std_View_Menu.md)
+[Ver](Std_View_Menu/es.md)
 &nbsp;&nbsp;&nbsp;
-[Tools](Std_Tools_Menu.md)
+[Herramientas](Std_Tools_Menu/es.md)
 &nbsp;&nbsp;&nbsp;
-[Macro](Std_Macro_Menu.md)
+[Macro](Std_Macro_Menu/es.md)
 &nbsp;&nbsp;&nbsp;
-[Windows](Std_Windows_Menu.md)
+[Ventanas](Std_Windows_Menu/es.md)
 &nbsp;&nbsp;&nbsp;
-[Help](Std_Help_Menu.md)
+[Ayuda](Std_Help_Menu/es.md)
 }}
 
 
 
-*The standard menu*
+*El menú estándar*
 
-## Sub-menus 
 
-The standard menu is composed of 7 sub-menus:
+
+## Sub-menús 
+
+El menú estándar se compone de 7 submenús:
 
 -    {{StdMenu|[File](Std_File_Menu.md)}}The File menu provides tools related to file input and output.
 
@@ -44,7 +46,7 @@ The standard menu is composed of 7 sub-menus:
 -    {{StdMenu|[Help](Std_Help_Menu.md)}}The Help menu provides access to the help system and links to the FreeCAD website and forum.
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}  {{Interface navi}}
 

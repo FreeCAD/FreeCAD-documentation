@@ -1,58 +1,60 @@
 ---
  GuiCommand:
-   Name: Sketcher ToggleConstraint   Name/it: Vincoli guida o definitivi
-   Workbenches: Sketcher Workbench/it, PartDesign Workbench/it
-   MenuLocation: Sketch , Vincoli , Vincoli guida o definitivi
-   SeeAlso: Sketcher_ToggleConstruction/it
+   Name: Sketcher ToggleDrivingConstraint
+   Name/it: Sketcher Attiva/disattiva vincolo di guida/riferimento
+   Workbenches: Sketcher Workbench/it
+   Shortcut: **K** **X**
    Version: 0.16
+   SeeAlso: Sketcher_ToggleActiveConstraint/it
 ---
 
 # Sketcher ToggleDrivingConstraint/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Lo strumento <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:24px;"> [Sketcher Attiva/disattiva vincolo di guida/riferimento](Sketcher_ToggleDrivingConstraint/it.md) alterna gli [strumenti di creazione di vincoli dimensionali](Sketcher_Workbench/it#Sketcher_CompDimensionTools.md) tra la modalità di guida e quella di riferimento oppure alterna i vincoli dimensionali selezionati tra quelli modalità.
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento <img alt="" src=images/Sketcher_ToggleConstraint.svg  style="width:24px;"> **Toggle Constraint** commuta i vincoli dimensionali (blocco, distanza orizzontale o verticale, lunghezza, raggio e angolo) in modalità di riferimento e viceversa. Le icone nella barra degli strumenti diventano blu e, al posto dei vincoli dimensionali, vengono create delle quote di riferimento. Le quote di riferimento non vincolano lo schizzo. Può essere utile creare quote di riferimento in uno schizzo come modo per verificare le misurazioni; quando gli viene assegnato un nome, possono essere utilizzate anche per guidare i vincoli in un altro schizzo attraverso le [espressioni](Expressions/it.md).
-
-
-</div>
-
-![](images/Sketcher_Constraint_Toolbar_ReferenceMode.png ) 
-*La barra degli strumenti Vincolo di Sketcher con i vincoli dimensionali nella modalità quote di riferimento (blu).*
+Contrariamente ai vincoli guida, i vincoli di riferimento non vincolano lo schizzo, il loro valore dipende da altri vincoli e sono guidati. Possono essere utili per verificare le misurazioni. Possono essere utilizzati in [espressioni](Expressions/it.md), ma non nello schizzo stesso.
 
 ![](images/Sketcher_ToggleConstraint_example.png ) 
-*Per definire il profilo sono stati impostati un vincolo di distanza orizzontale (50 mm), un vincolo verticale (30 mm) e un vincolo di angolo (75°); poi al segmento inclinato è stata aggiunta una quota di riferimento per conoscerne la sua lunghezza (31,0583 mm).*
+*Un vincolo guida di distanza orizzontale (50 mm), un vincolo guida di distanza verticale (30 mm) e un vincolo guida di angolo (75°) sono stati impostati per definire il profilo; è stata aggiunta una quota di riferimento sul segmento di linea obliqua per conoscerne la lunghezza (31,0583 mm).*
 
 
 
 ## Utilizzo
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **[<img src=images/Sketcher_ToggleConstraint.svg style="width:24px"> '''Vincoli guida o definitivi'''**. Le icone di vincoli dimensionali nella barra degli strumenti Vincoli di Sketcher passano da rosso a blu.
-2.  Funziona come la creazione di vincoli dimensionali, sempre nello stesso modo, ma ora viene invece aggiunta una quota di riferimento di colore blu.
-3.  Per riportare la barra degli strumenti Vincoli dello Sketcher alla modalità vincolo (rosso), premere nuovamente il pulsante Vincoli guida o definitivi.
-4.  Per trasformare un vincolo dimensionale in una quota di riferimento, o il contrario, selezionarlo e premere il pulsante Vincoli guida o definitivi.
+### Attiva/disattiva strumenti 
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
+1.  Assicurarsi che non siano stati selezionati vincoli dimensionali.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_ToggleDrivingConstraint.svg" width=16px> [Attiva/disattiva vincolo di guida/riferimento](Sketcher_ToggleDrivingConstraint/it.md)**.
+    -   Selezionare l\'opzione **Schizzo → Vincoli Sketcher → <img src="images/Sketcher_ToggleDrivingConstraint.svg" width=16px> Attiva/disattiva vincolo di guida/riferimento** dal menu.
+    -   Usare la scorciatoia da tastiera: **K** quindi **X**.
+3.  La modalità degli strumenti di creazione dei vincoli dimensionali viene attivata:
+    -   In modalità guida le icone del menu e della barra degli strumenti sono rosse e creano vincoli di guida (predefinito [color](Sketcher_Preferences/it#Appearance.md) rosso). L\'icona di questo strumento è quindi: <img alt="" src=images/Sketcher_ToggleConstraint.svg  style="width:16px;">.
+    -   In modalità riferimento le icone dei menu e della barra degli strumenti sono blu e creano vincoli di riferimento (colore predefinito blu). L\'icona di questo strumento è quindi: <img alt="" src=images/Sketcher_ToggleConstraint_Driven.svg  style="width:16px;">.
 
 
 
+### Attiva/disattiva vincoli 
 
-</div>
+1.  Selezionare uno o più vincoli dimensionali.
+2.  Richiamare lo strumento come descritto sopra o con una delle seguenti opzioni aggiuntive:
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [3D view](3D_view/it.md) e selezionare l\'opzione **<img src="images/Sketcher_ToggleDrivingConstraint.svg" width=16px> Attiva/disattiva vincolo di guida/riferimento** da il menu contestuale.
+
+    -   Fare clic con il pulsante destro del mouse sulla sezione **Vincoli** della [Finestra di dialogo Sketcher](Sketcher_Dialog/it.md) e selezionare l\'opzione **Attiva/disattiva da/in riferimento** dal menu contestuale.
+3.  I vincoli selezionati vengono modificati dalla modalità di guida alla modalità di riferimento o viceversa. Il loro aspetto cambia di conseguenza.
+4.  La modalità degli strumenti di creazione dei vincoli dimensionali non viene modificata.
+
+
+
 
 
 {{Sketcher_Tools_navi

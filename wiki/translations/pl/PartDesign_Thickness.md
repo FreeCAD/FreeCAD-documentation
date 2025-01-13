@@ -67,7 +67,7 @@ Narzędzie <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;">
     -   
         **Powłoka**
         
-        : Można wybrać tylko tę opcję.
+        : Można wybrać tylko tę opcję. Wybierz ją jeśli chcesz uzyskać obiekt taki jak waza, bez pokrywy, ale ze spodem.
 
     -   
         **Rura**

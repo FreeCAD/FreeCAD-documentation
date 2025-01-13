@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft AnnotationStyleEditor
    Name/de: Draft BeschriftungsstilEditor
-   MenuLocation: Anmerkung , Beschriftungsstile...
-   Workbenches: Draft_Workbench/de
+   MenuLocation: Anmerkung , Beschriftungsstile....<br>Verwalten , Beschriftungsstile...
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    SeeAlso: Draft_Text/de, Draft_Label/de, Draft_Dimension/de
    Version: 0.19
 ---
@@ -24,8 +24,9 @@ Das Werkzeug **<img src="images/Draft_AnnotationStyleEditor.svg" width=24px> [Be
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> [Beschriftungsstile...](Draft_AnnotationStyleEditor/de.md)** drücken.
-    -   Den Menüeintrag **Anmerkung → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Beschriftungsstile...** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Die Schaltfläche **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> [Beschriftungsstile...](Draft_AnnotationStyleEditor/de.md)** drücken.
+    -   Draft: Den Menüeintrag **Anmerkung → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Beschriftungsstile...** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Verwalten → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Beschriftungsstile...** auswählen.
 2.  Das Dialogfenster **Anmerkungsstil-Editor** wird geöffnet.
 3.  Einen Stil aus der Aufklappliste **Stil-Name** auswählen oder {{Value|Neu hinzufügen...}} auswählen, um einen neuen Stil zu definieren.
 4.  Wahlweise die Eigenschaften des Stils anpassen.
@@ -37,9 +38,18 @@ Das Werkzeug **<img src="images/Draft_AnnotationStyleEditor.svg" width=24px> [Be
 
 
 
+## Anwenden
+
+Um einen Beschriftungssstil anzuwenden, ändert man die {{PropertyView/de|Annotation Style}} des Anmerkungsobjekts. Diese Eigenschaft findet man auf dem Tab **Ansicht** des Eigenschafteneditors.
+
+![](images/Draft_AnnotationStyleEditor_Apply.png ) 
+*Auswählen eines Beschriftungsstils*
+
+
+
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Die Beschriftungsstile werden als geordnete Wörterbücher im `Meta`-Attribut des Dokuments gespeichert. Dieses Attribut wird vom Beschriftungsstil-Editor gelesen, wenn er geöffnet wird.
 

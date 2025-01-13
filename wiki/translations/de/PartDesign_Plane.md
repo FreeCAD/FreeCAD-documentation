@@ -10,13 +10,19 @@
 
 # PartDesign Plane/de
 
+
+
 ## Beschreibung
 
 Erstelle eine **Bezugsebene** (DatumPlane) die als Referenz für Skizzen oder andere Bezugselemente genutzt werden kann. Skizzen können auf einer Bezugsebene erstellt werden. ![](images/Datum_plane.png ) *Eine Bezugsebene, die drei Ecken eines Quaders schneidet mit einem Zylinder der aus einer Skizze auf dieser Bezugsebene erzeugt wurde.*
 
+
+
 ## Voraussetzungen
 
 In FreeCAD 0.18 kann eine Bezugsebene nur innerhalb eines <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Körpers](PartDesign_Body.md) erstellt werden. Jeder Körper hat einen Ursprung, der durch Voreinstellung versteckt ist. Um sich auf diese Ursprungsebenen beziehen zu können, müssen sie sichtbar gemacht werden. Dies sollte gemacht werden, bevor eine Bezugsebene erstellt wird.
+
+
 
 ## Anwendung
 
@@ -37,9 +43,19 @@ In FreeCAD 0.18 kann eine Bezugsebene nur innerhalb eines <img alt="" src=images
 8.  
     **OK**drücken.
 
+
+
 ## Optionen
 
 Mit einem Doppelklick auf die Beschriftung der Bezugsebene in der Baumstruktur oder durch einen Rechtsklick und Auswählen von **Bezug ändern** im Kontextmenü können die Einstellungen der Bezugsebene geändert werden. Mehr Details zum Anhängemodus und dem Positionsversatz gibt es in [Part Anhang bearbeiten](Part_EditAttachment/de.md).
+
+
+
+## Einstellungen
+
+Die Standardeinstellungen für Streufarbe und Transparenz von [PartDesign Bezugselementen](PartDesign_CompDatums/de.md) wird durch den [Feinabstummungsparameter](Fine-tuning/de#Arbeitsbereich_PartDesign.md) **DefaultDatumColor** gesteuert.
+
+
 
 ## Eigenschaften
 

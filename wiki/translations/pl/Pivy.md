@@ -3,7 +3,7 @@
 
 [Pivy](Pivy/pl.md) jest biblioteką wiążącą [Python](Python/pl.md) do [Coin](https://github.com/coin3d), biblioteką renderowania 3D używaną w FreeCAD do wyświetlania obiektów w oknie [widoku 3D](3D_view/pl.md). Coin jest otwartą implementacją specyfikacji \"Open Inventor\" do obsługi grafiki. Dlatego w środowisku FreeCAD terminy *Pivy*, *Coin* lub *Open Inventor* odnoszą się zasadniczo do tego samego.
 
-Po zaimportowaniu do działającego interpretera Python, Pivy pozwala nam na bezpośrednią komunikację z dowolnym działającym [scenegrafem](Scenegraph/pl.md) Coin, takim jak [widok 3D](3D_view/pl.md), a nawet na tworzenie nowych. Pivy nie jest wymagany do kompilacji FreeCAD, ale jest wymagany podczas uruchamiania opartych na Pythonie środowisk pracy, które tworzą kształty na ekranie, takich jak [Rysunek Roboczy](Draft_Workbench/pl.md) i [Architektura](Arch_Workbench/pl.md). Z tego powodu, Pivy jest zwykle instalowany podczas instalacji programu FreeCAD.
+Po zaimportowaniu do działającego interpretera Python, Pivy pozwala nam na bezpośrednią komunikację z dowolnym działającym [scenegrafem](Scenegraph/pl.md) Coin, takim jak [widok 3D](3D_view/pl.md), a nawet na tworzenie nowych. Pivy nie jest wymagany do kompilacji FreeCAD, ale jest wymagany podczas uruchamiania opartych na Pythonie środowisk pracy, które tworzą kształty na ekranie, takich jak [Rysunek Roboczy](Draft_Workbench/pl.md) i [BIM](BIM_Workbench/pl.md). Z tego powodu, Pivy jest zwykle instalowany podczas instalacji programu FreeCAD.
 
 Biblioteka Coin jest podzielona na kilka części, sam Coin do manipulowania scenegrafami oraz wiązania dla kilku systemów GUI, takich jak Windows i Qt. Jeśli są obecne w systemie, moduły te są również dostępne dla Pivy. Moduł Coin jest zawsze obecny i to właśnie z niego będziemy korzystać, ponieważ nie będziemy musieli dbać o zakotwiczenie naszego wyświetlacza 3D w jakimkolwiek interfejsie, to już robi FreeCAD. Jedyne co musimy zrobić to:
 
@@ -11,6 +11,8 @@ Biblioteka Coin jest podzielona na kilka części, sam Coin do manipulowania sce
 ```python
 from pivy import coin
 ```
+
+
 
 ## Scenograf
 
@@ -96,6 +98,8 @@ sg.removeChild(myCustomNode)
 
 {{Top}}
 
+
+
 ## Informacje zwrotne 
 
 Mechanizm [callback](http://en.wikipedia.org/wiki/Callback_%28computer_science%29) to system, który pozwala bibliotece, takiej jak nasza biblioteka Coin, na odpowiadanie, czyli wywoływanie określonej funkcji z aktualnie uruchomionego obiektu Python. W ten sposób Coin może powiadomić Cię, że w scenie wystąpiło jakieś konkretne zdarzenie. Coin może obserwować bardzo różne rzeczy, takie jak pozycja myszy, kliknięcia przycisków myszy, wciśnięte klawisze klawiatury i wiele innych.
@@ -120,7 +124,7 @@ class ButtonTest:
 ButtonTest()
 ```
 
-Wywołanie zwrotne musi być zainicjowane z obiektu, ponieważ ten obiekt musi być nadal uruchomiony, gdy nastąpi wywołanie zwrotne. Zobacz także [kompletną listę](Code_snippets/pl#Obserwowanie_zdarze.C5.84_myszy_w_przegl.C4.85darce_3D_za_pomoc.C4.85_.C5.9Brodowiska_Python.md) możliwych zdarzeń i ich parametrów, lub oficjalną dokumentację Coin. {{Top}}
+Wywołanie zwrotne musi być zainicjowane z obiektu, ponieważ ten obiekt musi być nadal uruchomiony, gdy nastąpi wywołanie zwrotne. Zobacz także [kompletną listę](Code_snippets/pl#Obserwowanie_zdarze.C5.84_myszy_w_przegl.C4.85darce_3D_za_pomoc.C4.85_.C5.9Brodowiska_Python.md) możliwych zdarzeń i ich parametrów, lub oficjalną dokumentację Coin. 
 
 ## Dokumentacja
 
@@ -146,6 +150,8 @@ SoFile.getClassId()
 -   [dokumentacja Wiki dla Coin3D](https://github.com/coin3d/coin/wiki/Documentation), na GitHubie.
 -   [Coin3D Documentation](https://coin3d.github.io/Coin/html/), najnowsza, automatycznie generowana dokumentacja Doxygen.
 -   [(Open)Inventor Mentor](https://webdocs.cs.ualberta.ca/~graphics/books/mentor.pdf) - zalecane.
+
+
 
 ### Starsze
 

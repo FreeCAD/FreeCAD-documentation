@@ -3,6 +3,8 @@
 
 
 
+
+
 ## Introduzione
 
 FreeCAD is able to perform plots using the [matplotlib](https://matplotlib.org/) [Python](Python.md) library. A module is provided to this end, as an external add-on in version 0.19 and as a core component from version 0.20 on. Older versions of FreeCAD are not covered in this documentation.
@@ -33,6 +35,8 @@ Plot.plot([0, 1], [0, 2])
 ```
 
 You can find more complex examples in the [Plot Basic tutorial](Plot_Basic_tutorial.md) and the [Plot MultiAxes tutorial](Plot_MultiAxes_tutorial.md).
+
+
 
 ### Strumenti
 

@@ -47,6 +47,8 @@ A Part Sphere object created with the [scripting example](#Scripting.md) below i
 -   A Part Sphere can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 选项

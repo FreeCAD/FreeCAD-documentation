@@ -14,14 +14,21 @@
 
 ## Opis
 
-To narzędzie usuwa wszystkie wiązania z edytowanego szkicu, a geometrię pozostawia nienaruszoną.
+Narzędzie <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:24px;"> **Usuń wszystkie wiązania** usuwa wszystkie wiązania ze szkicu.
 
 
 
 ## Użycie
 
-1.  Przejdź do menu **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_DeleteAllConstraints.svg style="width:16px"> Usuń wszystkie wiązania**.
-2.  Odpowiedz **Tak** w oknie dialogowym.
+1.  Istnieje kilka sposobów wywołania tego narzędzia:
+    -   Wybierz z menu **Szkic → Narzędzia szkicownika → <img src="images/Sketcher_DeleteAllConstraints.svg" width=16px> Usuń wszystkie wiązania**.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view.md) i wybierz opcję **<img src="images/Sketcher_DeleteAllConstraints.svg" width=16px> Usuń wszystkie wiązania** z menu podręcznego *(niedostępne, jeśli istnieje zaznaczenie)*.
+2.  Otworzy się okno dialogowe **Usuń wszystkie wiązania**.
+3.  Naciśnij przycisk **Tak**, aby potwierdzić i zakończyć działanie narzędzia.
 
 
 

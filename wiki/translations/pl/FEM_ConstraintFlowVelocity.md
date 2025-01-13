@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ConstraintFlowVelocity
    Name/pl: MES: Warunek brzegowy prędkości przepływu
    MenuLocation: Model , Warunki brzegowe dla płynu , Warunek brzegowy prędkości przepływu
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_ConstraintInitialFlowVelocity/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintFlowVelocity/pl
@@ -20,8 +25,8 @@ Definiuje prędkość przepływu jako warunek brzegowy dla krawędzi w 2D lub po
 ## Użycie
 
 1.  Wciśnij przycisk **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> [Warunek brzegowy prędkości przepływu](FEM_ConstraintFlowVelocity/pl.md)** lub wybierz opcję **Model → Warunki brzegowe dla płynu → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Warunek brzegowy prędkości przepływu**.
-2.  Wybierz docelowe krawędzie lub ściany.
-3.  Wciśnij przycisk **Dodaj**.
+2.  Wciśnij przycisk **Dodaj**.
+3.  Wybierz docelowe krawędzie lub ściany.
 4.  Odznacz *nieokreślony* żeby aktywować wymagane pola do edycji.
 5.  Wprowadź wartości prędkości lub (<small>(v0.21)</small> ) równanie.
 

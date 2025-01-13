@@ -3,7 +3,7 @@
    Name: Draft LayerManager
    Name/pl: Rysunek Roboczy: Zarządzaj warstwami
    MenuLocation: Narzędzia , Zarządzaj warstwami ...
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
    Version: 0.21
    SeeAlso: BIM_Workbench/pl, Draft_Layer/pl
 ---

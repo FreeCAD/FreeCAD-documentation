@@ -21,7 +21,7 @@ Dans ce tutoriel, nous analysons la déformation par cisaillement d\'un bloc com
 
 ## Géométrie
 
-D\'abord nous créons deux cubes concentriques, un de taille 10mm et l\'autre de 5mm. Ceci est fait dans l\'[atelier Part](Part_Module/fr.md). Par défaut le cube est situé à l\'origine \[0, 0, 0\], donc le cube plus petit doit être réduit et déplacé en modifiant les valeurs dans l\'onglet Données du panneau de propriété. Pour rendre le cœur visible, la Transparence du bloc extérieur est mise à 50 dans le panneau Vue de propriété. Le résultat est présenté ci-dessous.
+D\'abord nous créons deux cubes concentriques, un de taille 10 mm et l\'autre de 5 mm. Ceci est fait dans l\'[atelier Part](Part_Workbench/fr.md). Par défaut le cube est situé à l\'origine \[0, 0, 0\], donc le cube plus petit doit être réduit et déplacé en modifiant les valeurs dans l\'onglet Données du panneau de propriété. Pour rendre le cœur visible, la transparence du bloc extérieur est mise à 50 dans l\'[éditeur de propriétés](Property_editor/fr.md). Le résultat est présenté ci-dessous.
 
 <img alt="" src=images/Pic1.png  style="width:700px;">
 
@@ -33,9 +33,9 @@ Ensuite, mettez en surbrillance les deux blocs dans l\'arborescence et créez de
 
 ## Maillage et régions de maillage 
 
-À partir de l\'atelier FEM, nous créons un conteneur Analysis. Celui-ci contiendra toutes les définitions requises pour l\'analyse CalculiX et ses résultats. Notez que ce conteneur Analysis doit être activé (cliquez avec le bouton droit de la souris et sélectionnez \"Activate analysis\") chaque fois que vous rechargez le fichier ou après être passé d\'une autre analyse à une autre. Pour démarrer le processus de maillage, mettez en évidence le CompoundFilter dans l\'arborscence des objets et activez le dialogue de maillage **Mesh → Maillage FEM à partir d\'une forme avec Gmsh**. Quittez la boîte de dialogue en cliquant sur OK.
+À partir de l\'atelier FEM, nous créons un conteneur Analysis. Celui-ci contiendra toutes les définitions requises pour l\'analyse CalculiX et ses résultats. Notez que ce conteneur Analysis doit être activé (cliquez avec le bouton droit de la souris et sélectionnez \"Activate analysis\") chaque fois que vous rechargez le fichier ou après être passé d\'une autre analyse à une autre. Pour démarrer le processus de maillage, mettez en évidence le CompoundFilter dans l\'arborescence des objets et activez la fenêtre de dialogue de maillage **Mesh → Maillage FEM à partir d\'une forme avec Gmsh**. Quittez la fenêtre de dialogue en cliquant sur OK.
 
-Un objet Mesh est maintenant créé dans l\'arborscence des objets. Mettez cet objet en surbrillance et créez un objet Mesh Region via **Mesh → Région de maillage FEM**. Ouvrez la boîte de dialogue de cette région de maillage en double-cliquant et cochez le bouton radio à Solid. Cliquez ensuite sur le bouton \"Add Reference\" et sélectionnez l\'objet CompoundFilter dans la fenêtre graphique. Cela devrait ajouter une référence à \"CompoundFilter:Solid1\" dans la liste des objets de la région de maillage. Enfin, spécifiez la taille maximale des éléments pour cette région (5 mm dans l\'analyse actuelle). Quittez la boîte de dialogue en cliquant sur OK.
+Un objet Mesh est maintenant créé dans l\'arborscence des objets. Mettez cet objet en surbrillance et créez un objet Mesh Region via **Mesh → Région de maillage FEM**. Ouvrez la fenêtre de dialogue de cette région de maillage en double-cliquant et cochez le bouton radio à Solid. Cliquez ensuite sur le bouton \"Add Reference\" et sélectionnez l\'objet CompoundFilter dans la fenêtre graphique. Cela devrait ajouter une référence à \"CompoundFilter:Solid1\" dans la liste des objets de la région de maillage. Enfin, spécifiez la taille maximale des éléments pour cette région (5 mm dans l\'analyse actuelle). Quittez la fenêtre de dialogue en cliquant sur OK.
 
 <img alt="" src=images/Pic3.png  style="width:700px;">
 
@@ -53,7 +53,7 @@ Remarque2 : si vous avez des difficultés à choisir \"CompoundFilter:Solid2\" c
 
 Un matériau est attribué aux régions Mesh via un objet SolidMaterial. Dans ce tutoriel, nous affectons deux matériaux : un pour la matrice et un pour le noyau.
 
-Commencez par sélectionner le CompoundFilter dans l\'arborescence des objets. Créez ensuite un objet SolidMaterial via l\'option de menu **Modèle → Créer un matériau FEM pour un solide**. Ouvrez la boîte de dialogue et cochez le bouton radio pour Solid, appuyez sur \"Add Reference\" et sélectionnez l\'objet CompoundFilter dans la fenêtre graphique. La liste des références devrait maintenant afficher \"CompoundFilter:Solid1\", comme précédemment. Nous attribuons un matériau ABS à la matrice, avec un module de Young d\'environ 1 % de celui de l\'acier.
+Commencez par sélectionner le CompoundFilter dans l\'arborescence des objets. Créez ensuite un objet SolidMaterial via l\'option de menu **Modèle → Créer un matériau FEM pour un solide**. Ouvrez la fenêtre de dialogue et cochez le bouton radio pour Solid, appuyez sur \"Add Reference\" et sélectionnez l\'objet CompoundFilter dans la fenêtre graphique. La liste des références devrait maintenant afficher \"CompoundFilter:Solid1\", comme précédemment. Nous attribuons un matériau ABS à la matrice, avec un module de Young d\'environ 1 % de celui de l\'acier.
 
 <img alt="" src=images/Pic5.png  style="width:700px;">
 
@@ -63,7 +63,7 @@ Répétez la procédure ci-dessus pour le noyau (\"CompoundFilter:Solid2\") à l
 
 ## Support coulissant 
 
-Pour créer une condition de \"cisaillement simple\" pour le bloc composite, les déformations aux limites ne doivent pas être contraintes. Pour ce faire, le bloc est placé sur un support coulissant. Cela laisse trois degrés de liberté dans le plan du support (2 translations et une rotation) et ceux-ci seront contraints plus tard. (Remarque : comme le plan empêche la déformation de la face, il induit toujours une contrainte mineure, qui pourrait être éliminée par un choix différent des conditions limites). Pour créer une condition limite de glissement, ajoutez un objet FemConstraintDisplacement (**Modèle → Conditions limites et charges mécaniques → Condition limite de déplacement**). La boîte de dialogue étant ouverte, sélectionnez d\'abord la face à laquelle la condition limite doit être appliquée, puis cliquez sur le bouton Ajouter. Comme le bloc est autorisé à glisser dans le plan x-y, seul le bouton radio \"Fixe\" pour \"Displacement z\" est sélectionné et les autres boutons radio sont tous laissés à \"Libre\".
+Pour créer une condition de \"cisaillement simple\" pour le bloc composite, les déformations aux limites ne doivent pas être contraintes. Pour ce faire, le bloc est placé sur un support coulissant. Cela laisse trois degrés de liberté dans le plan du support (2 translations et une rotation) et ceux-ci seront contraints plus tard. (Remarque : comme le plan empêche la déformation de la face, il induit toujours une contrainte mineure, qui pourrait être éliminée par un choix différent des conditions limites). Pour créer une condition limite de glissement, ajoutez un objet FemConstraintDisplacement (**Modèle → Conditions limites et charges mécaniques → Condition limite de déplacement**). La fenêtre de dialogue étant ouverte, sélectionnez d\'abord la face à laquelle la condition limite doit être appliquée, puis cliquez sur le bouton Ajouter. Comme le bloc est autorisé à glisser dans le plan x-y, seul le bouton radio \"Fixe\" pour \"Displacement z\" est sélectionné et les autres boutons radio sont tous laissés à \"Libre\".
 
 <img alt="" src=images/Pic6.png  style="width:700px;">
 
@@ -87,7 +87,7 @@ La dernière étape de la définition de l\'analyse est l\'application des charg
 
 ## Analyse CalculiX 
 
-Maintenant que toutes les régions maillées, le matériau et les conditions aux limites ont été définis, nous sommes prêts à analyser la déformation du bloc avec CalculiX. Activez l\'analyse en faisant un clic droit sur \"Activate analysis\", ouvrez la boîte de dialogue de CalculiX en double-cliquant sur l\'objet CalculiXccxTools et sélectionnez un répertoire pour les fichiers temporaires créés par FC et CCX. Écrivez le fichier d\'entrée CCX et vérifiez s\'il y a des messages d\'avertissement ou d\'erreur.
+Maintenant que toutes les régions maillées, le matériau et les conditions aux limites ont été définis, nous sommes prêts à analyser la déformation du bloc avec CalculiX. Activez l\'analyse en faisant un clic droit sur \"Activate analysis\", ouvrez la fenêtre de dialogue de CalculiX en double-cliquant sur l\'objet CalculiXccxTools et sélectionnez un répertoire pour les fichiers temporaires créés par FC et CCX. Écrivez le fichier d\'entrée CCX et vérifiez s\'il y a des messages d\'avertissement ou d\'erreur.
 
 <img alt="" src=images/PIC9.png  style="width:700px;">
 

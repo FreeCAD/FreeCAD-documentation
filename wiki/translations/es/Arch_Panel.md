@@ -14,9 +14,17 @@
 
 </div>
 
+
+
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 Esta herramienta le permite construir todo tipo de elementos tipo panel, típicamente para construcciones de paneles como el proyecto [WikiHouse](http://www.wikihouse.cc/), pero también para todo tipo de objetos que se basan en un perfil plano.
+
+
+</div>
 
 <img alt="" src=images/Arch_Panel_example.jpg  style="width:700px;">
 
@@ -32,6 +40,8 @@ Desde la versión 0.17, el Arch panel también se puede usar para crear perfiles
 
 <img alt="" src=images/Arch_panel_wave.jpg  style="width:700px;">
 
+
+
 ## Utilización
 
 
@@ -44,6 +54,8 @@ Desde la versión 0.17, el Arch panel también se puede usar para crear perfiles
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -62,6 +74,8 @@ Desde la versión 0.17, el Arch panel también se puede usar para crear perfiles
 
 </div>
 
+
+
 ## Opciones
 
 
@@ -76,6 +90,8 @@ Desde la versión 0.17, el Arch panel también se puede usar para crear perfiles
 
 
 </div>
+
+
 
 ## Propiedades
 
@@ -130,13 +146,17 @@ Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, 
     -   If no `baseobj` is given, you can provide the numerical values for the `length`, `width`, and `thickness` to create a block panel.
 -   If a `placement` is given, it is used.
 
-Ejemplo: 
+Ejemplo:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
 Rect = Draft.makeRectangle(1000, 400)
 Panel = Arch.makePanel(Rect, thickness=36)
 ```
+
+
 
 ## Tutoriales
 
@@ -158,6 +178,11 @@ Panel = Arch.makePanel(Rect, thickness=36)
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/es
+⏵ [documentation index](../README.md) > Arch Panel/es

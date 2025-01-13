@@ -37,15 +37,15 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_Redo.svg  style="width:32px;"> [Rétablir](Std_Redo/fr.md) : rétablit une action précédemment annulée.
 
--   <img alt="" src=images/Std_Cut.svg  style="width:32px;"> [Couper](Std_Cut/fr.md) : copie les cellules de la feuille de calcul dans le Presse-papiers et les efface.
+-   <img alt="" src=images/Std_Cut.svg  style="width:32px;"> [Couper](Std_Cut/fr.md) : copie les cellules de la feuille de calcul dans le presse-papiers et les efface.
 
 -   <img alt="" src=images/Std_Copy.svg  style="width:32px;"> [Copier](Std_Copy/fr.md) : copie des objets dans le presse-papiers.
 
 -   <img alt="" src=images/Std_Paste.svg  style="width:32px;"> [Coller](Std_Paste/fr.md) : colle des objets du presse-papiers dans le document.
 
--   <img alt="" src=images/Std_DuplicateSelection.svg  style="width:32px;"> [Dupliquer la sélection](Std_DuplicateSelection/fr.md) : duplique les objets dans le document.
+-   <img alt="" src=images/Std_DuplicateSelection.svg  style="width:32px;"> [Dupliquer la sélection](Std_DuplicateSelection/fr.md) : duplique les objets dans le document. **Si l'[atelier PartDesign](PartDesign_Workbench/fr.md) est actif, l'outil [PartDesign Dupliquer la sélection](PartDesign_DuplicateSelection/fr.md) ({{Version/fr|1.0**) apparaît ici à la place.}}
 
--   <img alt="" src=images/Std_Refresh.svg  style="width:32px;"> [Rafraîchir](Std_Refresh/fr.md) : recalcule le document.
+-   <img alt="" src=images/Std_Refresh.svg  style="width:32px;"> [Recalculer](Std_Refresh/fr.md) : recalcule le document.
 
 -   <img alt="" src=images/Std_BoxSelection.svg  style="width:32px;"> [Sélection par boite](Std_BoxSelection/fr.md) : permet la sélection de tout objet dans une zone rectangulaire.
 
@@ -65,6 +65,8 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [Basculer le mode édition](Std_Edit/fr.md) : active ou désactive le mode d\'édition d\'un objet.
 
+-   <img alt="" src=images/Std_Properties.svg  style="width:32px;"> [Propriétés](Std_Properties/fr.md) : affiche le panneau de l\'[éditeur de propriétés](Property_editor.md). {{Version/fr|1.0}}
+
 -   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> [Mode d\'édition](Std_UserEditMode/fr.md) : définit le mode d\'édition à utiliser lorsqu\'un objet est double-cliqué dans la [vue en arborescence](Tree_view/fr.md). {{Version/fr|0.20}}
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Préférences](Std_DlgPreferences/fr.md) : ouvre l\'[éditeur de préférences](Preferences_Editor/fr.md). 
@@ -74,7 +76,7 @@ Les outils suivants sont disponibles dans ce menu :
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

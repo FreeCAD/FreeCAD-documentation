@@ -5,11 +5,21 @@
 
 </div>
 
+
+
 ## Descriere
+
+
+<div class="mw-translate-fuzzy">
 
 Draws a square inscribed in a construction geometry circle. When starting the tool, the mouse pointer changes to a white cross with a red hexagon icon. The coordinates of the pointer are shown beside it in blue in real time.
 
+
+</div>
+
 ![](images/SketcherCreateSquareExample.png‎ )
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -19,21 +29,13 @@ Draws a square inscribed in a construction geometry circle. When starting the to
 
 </div>
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
 
 <div class="mw-translate-fuzzy">
 
 -   După apăsarea butonului **[<img src=images/Sketcher_CreateSquare.png style="width:16px"> Create square** , click o dată pentru a defini centrul, apoi mutați mouse-ul și click a doua oară pentru a defini unul dintre vârfuri.
 -   Apăsați **Esc** sau click butonul dreapta al mouse-ului pentru a abandona/anula funcția.
-
-
-</div>
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-Când este definită schița obiectului geometric cercul circumscris este vizibil, când se închide schița acesta este ascuns.
 
 
 </div>

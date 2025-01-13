@@ -4,21 +4,23 @@
    MenuLocation: Sketch , Sketcher visual , Show/hide B-spline information layer , Show/hide B-spline control polygon
    Workbenches: Sketcher_Workbench
    Version: 0.17
-   SeeAlso: Sketcher_CompCreateBSpline
+   SeeAlso: Sketcher_CreateBSpline
 ---
 
 # Sketcher BSplinePolygon/pt-br
 
 ## Description
 
-Shows or hides the display of the defining polygon of a B-spline (see [this page](B-Splines.md) for more info about B-splines).
+The <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:24px;"> [Sketcher BSplinePolygon](Sketcher_BSplinePolygon.md) tool shows or hides the [B-spline](B-Splines.md) control polygon in all sketches.
 
 ![](images/Sketcher_B-spline_example01.png ) 
-*A B-spline curve. The control polygon are the green straight lines connecting the control points.*
+*The control polygon (green straight lines) connects the control points (marked with dark yellow weight circles).*
 
 ## Usage
 
-1.  Select a B-spline and use the toolbar button **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Show/hide B-spline control polygon](Sketcher_BSplinePolygon.md)**.
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_BSplinePolygon.svg" width=16px> [Show/hide B-spline control polygon](Sketcher_BSplinePolygon.md)** button.
+    -   Select the **Sketch → Sketcher visual → Show/hide B-spline information layer → <img src="images/Sketcher_BSplinePolygon.svg" width=16px> Show/hide B-spline control polygon** option from the menu.
 
 
 

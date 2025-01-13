@@ -3,7 +3,7 @@
    Name: Sketcher MirrorSketch
    Name/pl: Szkicownik: Odbicie lustrzane szkicu
    MenuLocation: Szkic , Odbicie lustrzane szkicu
-   Workbenches: Sketcher_Workbench/pl
+   Workbenches: Sketcher_Workbench/pl, PartDesign_Workbench/pl 
    Version: 0.16
 ---
 
@@ -13,21 +13,23 @@
 
 ## Opis
 
-Odbicie lustrzane szkicu wzdłuż osi x, osi y lub punktu początku układu współrzędnych. To polecenie jest wywoływane gdy szkic **nie jest** edytowany. Tworzy ono nowy szkic, który zawiera lustrzaną geometrię.
+Narzędzie <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:24px;"> **Odbicie lustrzane szkicu** odbija szkice względem osi X, osi Y lub początku układu współrzędnych.
 
 
 
 ## Użycie
 
-1.  Wybierz szkic, który ma być odbiciem lustrzanym *(zazwyczaj klikając na niego w [widoku drzewa](Tree_view/pl.md))*.
-2.  Kliknij w przycisk **[<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> '''Odbicie lustrzane szkicu'''** lub wybierz funkcję **Szkic → [<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> Odbicie lustrzane szkicu** z menu głównego.
-3.  Szkic wynikowy jest tworzony jako osobny, nowy obiekt.
-
-
-
-## Uwagi
-
--   Przed zastosowaniem operacji można wybrać wiele szkiców.
+1.  Wybierz jeden lub więcej szkiców.
+2.  Jest kilka sposobów, aby uruchomić narzędzie:
+    -   Kliknij przycisk **<img src="images/Sketcher_MirrorSketch.svg" width=16px> '''Odbicie lustrzane szkicu'''** *(nie dostępne w środowisku pracy [Projekt Części](PartDesign_Workbench/pl.md))*.
+    -   Wybierz opcję z menu **Szkic → <img src="images/Sketcher_MirrorSketch.svg" width=16px> Odbicie lustrzane szkicu**.
+3.  Otwiera się okno dialogowe **Wybierz oś / punkt odbicia lustrzanego**.
+4.  Wybierz jedną z dostępnych opcji:
+    -   **Oś X**
+    -   **Oś Y**
+    -   **Początek układu współrzędnych**
+5.  Naciśnij przycisk **OK**.
+6.  Dla każdego zaznaczonego szkicu tworzony jest nowy szkic.
 
 
 

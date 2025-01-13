@@ -12,6 +12,9 @@
 # Arch Stairs/it
 
 
+</div>
+
+
 
 ## Descrizione
 
@@ -32,6 +35,9 @@ Vedere in [Stairs entry in wikipedia](https://en.wikipedia.org/wiki/Stairs) la d
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Facoltativamente selezionare uno o più oggetti base, ad esempio [Linee di Draft](Draft_Line/it.md) e [Polilinea di Draft](Draft_Wire/it.md):
     -   Per creare i pianerottoli verranno utilizzate polilinee con due o più segmenti. Devono trovarsi su un piano parallelo al piano XY globale. Ad esempio, selezionare una polilinea a forma di U per un pianerottolo a mezzo giro e una polilinea a forma di L per un pianerottolo d\'angolo.
     -   Le linee di bozza verranno utilizzate per creare le rampe.
@@ -40,7 +46,17 @@ Vedere in [Stairs entry in wikipedia](https://en.wikipedia.org/wiki/Stairs) la d
 2.  Premere il pulsante **<img src="images/Arch_Stairs.svg" width=16px> [Scala](Arch_Stairs/it.md)**, oppure premere i tasti **S**, **R**.
 3.  Impostare le proprietà desiderate. Alcune parti delle scale, come la struttura, potrebbero non essere visualizzate immediatamente se una qualsiasi delle proprietà lo rende impossibile, ad esempio uno spessore della struttura pari a 0.
 
-<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;"> 
+
+</div>
+
+<img alt="" src=images/Stairs_and_Landing_02.png  style="width:600px;">
+
+<img alt="" src=images/Stairs_and_Landing_01.png  style="width:600px;">
+
+<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;">
+
+
+
 *Scale complesse basate su una selezione di linee e collegate come mostrato a sinistra.<br>
 In rosso i cavi utilizzati per gli atterraggi a Z=1500mm, Z=3000mm e Z=4500mm.<br>
 In nero le linee che li collegano utilizzate per le rampe.*
@@ -55,6 +71,9 @@ In nero le linee che li collegano utilizzate per le rampe.*
 
 
 {{TitleProperty|Segment and Parts}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Abs Top|Vector**: (sola lettura) Il livello più alto assoluto a cui conducono le scale.
 
@@ -79,6 +98,9 @@ In nero le linee che li collegano utilizzate per le rampe.*
 -    **Railing Offset Right|Length**: Scostamento della ringhiera destra dal bordo delle scale o del pianerottolo.
 
 -    **Railing Right|LinkHidden**: L\'oggetto ringhiera destra. {{Version/it|0.20}}: tipo di proprietà aggiornato da {{Incode|String}} a {{Incode|LinkHidden}}.
+
+
+</div>
 
 
 {{TitleProperty|Stairs}}
@@ -147,9 +169,15 @@ In nero le linee che li collegano utilizzate per le rampe.*
 
 ## Limitazioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Al momento sono disponibili solo scale dritte
 -   Vedere [nel forum](http://forum.freecadweb.org/viewtopic.php?f=23&t=6534) per scale circolari.
 -   Per seguire l\'evoluzione dello strumento consultare la pagina [Arch Stairs](http://forum.freecadweb.org/viewtopic.php?f=9&t=4564) nel forum
+
+
+</div>
 
 
 
@@ -176,6 +204,20 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/it
+⏵ [documentation index](../README.md) > Arch Stairs/it

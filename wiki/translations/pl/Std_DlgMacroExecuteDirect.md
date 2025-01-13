@@ -20,7 +20,7 @@ Polecenie **Wykonaj makrodefinicję w trakcie edycji** powoduje wykonanie makra 
 
 ## Użycie
 
-1.  W razie potrzeby otwórz właściwą makrodefinicję w edytorze makrodefinicji. Patrz polecenie [Okno dialogowe Makrodefinicje](Std_DlgMacroExecute/pl.md)
+1.  W razie potrzeby otwórz właściwą makrodefinicję w edytorze makrodefinicji. Zobacz [Okno dialogowe Makrodefinicje](Std_DlgMacroExecute/pl.md)
 2.  Upewnij się, że okno edytora makrodefinicji jest aktywne.
 3.  Istnieje kilka sposobów wywołania polecenia:
     -   Naciśnij przycisk **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Wykonaj makro](Std_DlgMacroExecuteDirect.md)**.
@@ -38,7 +38,7 @@ Polecenie **Wykonaj makrodefinicję w trakcie edycji** powoduje wykonanie makra 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

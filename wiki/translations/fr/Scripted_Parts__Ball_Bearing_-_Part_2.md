@@ -1,8 +1,8 @@
 ---
  TutorialInfo:r
-   Topic:  Part : écrire un script - Roulement à bille #2
-   Level:  Débutant
-   Time:  30 min
+   Topic: Part Tutoriel écrire un script - Roulement à bille #2
+   Level: Débutant
+   Time: 30 min
    Author: r-frank
    FCVersion: 0.16.6706
    Files: 
@@ -18,32 +18,32 @@ Cela ressemblera à ceci :
 
 ### Workflow ou flux de travail 
 
-Le flux de travail est plus ou moins identique à la façon dont vous créeriez la pièce dans l\'atelier Part Design
+Le flux de travail est plus ou moins identique à la façon dont vous créeriez la pièce dans l\'atelier PartDesign
 Juste quelques petites differences.
 \*Créer un nouveau document vide et en faire le document actif
 
--   Dessinez la forme de base de l\'anneau extérieur composé de quatre lignes droites et de quatre arcs
+-   Dessiner la forme de base de l\'anneau extérieur composé de quatre lignes droites et de quatre arcs
 
 !{width="150"}
 
--   Reliez les lignes et les arcs et transformez les en un seul contour
+-   Relier les lignes et les arcs et transformez les en un seul contour
 -   Transformer le contour en face
--   Faites pivoter la face pour obtenir une forme volumique
--   Dessinez un cercle
+-   Faire pivoter la face pour obtenir une forme volumique
+-   Dessiner un cercle
 -   Transformer le cercle en contour
 -   Transformer le contour en face
 -   Faire pivoter la face et appliquer une coupe booléenne pour obtenir une rainure dans la bague extérieure
--   Dessinez la forme de base de la bague intérieure composée de quatre lignes droites et de quatre arcs
--   Connectez les lignes et les arcs et transformez les en un seul contour
+-   Dessiner la forme de base de la bague intérieure composée de quatre lignes droites et de quatre arcs
+-   Connecter les lignes et les arcs et transformez les en un seul contour
 -   Transformer le contour en face
--   Faites pivoter la face pour obtenir une forme volumique
--   Dessinez un cercle
+-   Faire pivoter la face pour obtenir une forme volumique
+-   Dessiner un cercle
 -   Transformer le cercle en contour
 -   Transformer le contour en face
 -   Faire pivoter la face et appliquer une coupe booléenne pour obtenir une rainure dans la bague intérieure
 -   Insérer des billes avec le même flux de travail que dans la partie 1 
 -   Définir la vue sur axonométrique
--   Zoomez pour une vue d\'ensemble
+-   Zoomer pour une vue d\'ensemble
 
 ### Concevoir la rainure 
 

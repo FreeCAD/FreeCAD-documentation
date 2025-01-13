@@ -31,7 +31,7 @@ Il comando **Ripristina** chiude il documento attivo e riapre l\'ultima versione
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

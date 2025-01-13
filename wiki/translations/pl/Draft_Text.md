@@ -3,7 +3,7 @@
    Name: Draft Text
    Name/pl: Rysunek roboczy: Tekst
    MenuLocation: Adnotacja , Tekst
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **T** **E**
    Version: 0.7
    SeeAlso: Draft_Label/pl, Draft_ShapeString/pl
@@ -41,10 +41,10 @@ Zobacz również: [Rysunek roboczy: Tacka narzędziowa](Draft_Tray/pl.md) oraz [
 
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 1.0)*.
 
 -   Aby ręcznie wprowadzić współrzędne, po prostu wprowadź liczby, a następnie naciśnij klawisz **Enter** pomiędzy każdą składową X, Y i Z. Możesz wcisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> dodaj punkt**, gdy już wprowadzisz żądane wartości. Zaleca się wysunięcie kursora poza okno [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
--   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są względne w stosunku do globalnego układu współrzędnych, w przeciwnym razie są względne w stosunku do układu współrzędnych [płaszczyznay roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są względne w stosunku do globalnego układu współrzędnych, w przeciwnym razie są względne w stosunku do układu współrzędnych [płaszczyznay roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij klawisz **N** lub zaznacz pole wyboru **Kontynuuj** aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie zostanie uruchomione ponownie po zakończeniu pracy, umożliwiając kontynuowanie tworzenia tekstów. Skrót ten nie działa w drugim panelu zadań. Opcja ta nie jest dostępna w pierwszym panelu zadań w programie FreeCAD w wersji 0.19 i wcześniejszych.
 -   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby przerwać bieżące polecenie.
@@ -53,7 +53,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 ## Uwagi
 
--   Tekst może być edytowany poprzez dwukrotne kliknięcie na nim w [Widoku drzewa](Tree_view/pl.md). <small>(v0.20)</small> 
+-   Tekst może być edytowany poprzez dwukrotne kliknięcie na nim w [Widoku drzewa](Tree_view/pl.md).
 -   Teksty utworzone lub zapisane za pomocą funkcji [z wydania 0.21](Release_notes_0.21/pl.md) nie są wstecznie kompatybilne.
 
 

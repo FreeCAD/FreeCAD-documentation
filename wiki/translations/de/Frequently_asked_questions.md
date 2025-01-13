@@ -23,12 +23,6 @@ FreeCADs zugrunde liegender geometrischer Modellierungskern, die [OpenCASCADE Te
 
 
 
-#### Für Mac Nutzer 
-
-Es wird nur die MacIntel Architektur unterstützt. Für die PowerPC Architektur sind keine Builds verfügbar.
-
-
-
 ### Was, wenn ich FreeCAD selbst kompilieren möchte? 
 
 Der Quellcode von FreeCAD ist immer im Projekt-Quellcode-Repositorium verfügbar. Wenn du FreeCAD selbst kompilierst, kannst du die neuesten Funktionen verwenden, die gerade entwickelt werden, erfordert aber ein wenig Computerkenntnisse, obwohl das Verfahren ziemlich einfach ist. Der Zugriff auf den Quellcode wird erklärt [hier](Compile_on_Linux/de#Abruf_der_Quelle.md), und wir haben detaillierte Anweisungen zum Kompilieren auf [Windows](Compile_on_Windows/de.md), [Linux](Compile_on_Linux/de.md) und [macOS](Compile_on_MacOS/de.md).
@@ -131,12 +125,6 @@ Ein Segmentierungsfehler tritt bei {{SystemOutput|vbo_save_playback_vertex_list(
 
 
 
-### Ich habe Schwierigkeiten bei der Ausführung von FreeCAD auf macOS 
-
-Die Mac Plattform ist weniger einfach zu unterstützen als Windows oder Linux, da keiner der Hauptentwickler einen Mac besitzt. Die macOS Pakete werden von freiwilligen FreeCAD Benutzern kompiliert, und es kann sein, dass sie auf Ihrem Rechner nicht richtig funktionieren, je nach System. Deine beste Chance ist wahrscheinlich, in die Foren zu gehen, nach macOS-bezogenen Beiträgen zu suchen und dein Problem dort zu diskutieren oder zu sehen, ob jemand anderes eine Lösung gefunden hat.
-
-
-
 ### Ich kann keine numerischen Werte in den Eigenschaftenfeldern von FreeCAD ändern 
 
 <img alt="Sprachoptionen" src=images/Jj62l.png  style="width:480px;">
@@ -165,7 +153,7 @@ Es gibt ein [Makro findeKonfigDateien](Macro_findConfigFiles/de.md), das beim Au
 
 ### Ist FreeCAD wirklich kostenlos? Sogar für kommerzielle Nutzung? 
 
-FreeCAD ist [Open-Source Software](https://de.wikipedia.org/wiki/Open_Source) und ist nicht nur frei, um es für sich selbst oder für kommerzielle Zwecke zu nutzen, sondern auch, um es zu verteilen, zu modifizieren oder sogar in einer Closed-Source Anwendung zu verwenden. Zusammenfassend, du bist frei (fast) alles damit machen zu können, was du willst. Siehe die [Lizenz](Licence/de.md) Seite für weitere Details.
+FreeCAD ist [Open-Source-Software](https://de.wikipedia.org/wiki/Open_Source) und ist nicht nur frei, um es für sich selbst oder für kommerzielle Zwecke zu nutzen, sondern auch, um es zu verteilen, zu modifizieren oder sogar in einer Closed-Source-Anwendung zu verwenden. Zusammenfassend, du bist frei (fast) alles damit machen zu können, was du willst. Siehe die [Lizenz](License/de.md)-Seite für weitere Details.
 
 
 
@@ -237,7 +225,12 @@ Der obige Code ruft die Form von einem Objekt ab, zeigt die Flächen und Drähte
 
 ### Meine booleschen Operationen schlagen fehl oder liefern merkwürdige Ergebnisse 
 
-Der [Open CASCADE](https://en.wikipedia.org/wiki/Open_CASCADE_Technology) Geometriemodellierungs Kernel, der in FreeCAD für die Teilegeometrie verwendet wird, hat, obwohl er wahrscheinlich der beste verfügbare Open-Source Geometrie Kernel ist, seine Schwächen und Begrenzungen. In der Tat sind die booleschen Operationen (Verschmelzen, Subtraktion, Schnittmenge) nicht seine besten Eigenschaften und liefern oft seltsame Ergebnisse. Dies ist eine Begrenzung, die wir derzeit nicht lösen können, daher ist es am besten, wenn du versuchst, das gewünschte Ergebnis durch eine andere Art der Modellierung zu erhalten. Zum Beispiel können Probleme mit Grundelementen wie Zylindern oft gelöst werden, indem man stattdessen einen extrudierten Kreis verwendet. Koplanare Flächen zwischen Teilen können Probleme verursachen, ebenso wie Flächentangentialität. Als allgemeine Regel gilt: Wenn eine Form nicht funktioniert, versuche, sie auf eine andere Weise umzuformen. In 99 % der Fälle wirsr du am Ende das gewünschte Ergebnis erzielen.
+Wie alle Kernel zum Modellieren von Festkörpern hat auch der Kernel zum geometrischen Modellieren von [Open CASCADE](https://en.wikipedia.org/wiki/Open_CASCADE_Technology), der in FreeCAD für die Geometrie von Part-Objekten verwendet wird, seine Schwächen und Einschränkungen, auch wenn er wahrscheinlich der beste zur Verfügung stehende quelloffene Geometrie-Kernel ist. Boolesche Verknüpfungen (Vereinigung, Differenz, Schnitt) sind komplizierte Vorgänge und liefern oft seltsame Ergebnisse. Dies ist derzeit eine Einschränkung, die wir nicht auf einen Schlag lösen können, daher ist es am besten, wenn man versuchst, das gewünschte Ergebnis durch eine andere Art des Modellierens zu erhalten. Zum Beispiel können Probleme mit Grundelementen wie Zylindern oft gelöst werden, indem man stattdessen einen extrudierten Kreis verwendet. Komplanare Flächen zwischen Teilen können Probleme verursachen, ebenso wie tangierende Flächen. Als allgemeine Regel gilt: Wenn eine Form nicht funktioniert, versuche, sie auf eine andere Weise umzuformen. In 99 % der Fälle wird man am Ende das gewünschte Ergebnis erhalten.
+
+To understand boolean operations better, see these articles:
+
+-   <https://wiki.mcneel.com/rhino/booleanfaq>
+-   <https://dev.opencascade.org/doc/overview/html/specification__boolean_operations.html#autotoc_md293>
 
 
 
@@ -326,7 +319,7 @@ Sicher. Alle Illustrationen (Symbole, Banner, usw.) von FreeCAD sind LGPL lizenz
 
 ### Kann ich Teile von FreeCAD in anderen Anwendungen wiederverwenden? 
 
-Ja, du kannst die Kernteile von FreeCAD in anderen Anwendungen verwenden, solange du die Bedingungen der LGPL einhältst. Bibliotheken von Drittanbietern, [externe Arbeitsbereiche](External_workbenches/de.md) und [Makros](Macros/de.md) können ihren eigenen Lizenzbedingungen unterliegen, also wende dich bitte an ihre Autoren. Weitere Informationen findest Du auf der [Lizenz](Licence/de.md) Seite.
+Ja, du kannst die Kernteile von FreeCAD in anderen Anwendungen verwenden, solange du die Bedingungen der LGPL einhältst. Bibliotheken von Drittanbietern, [externe Arbeitsbereiche](External_workbenches/de.md) und [Makros](Macros/de.md) können ihren eigenen Lizenzbedingungen unterliegen, also wende dich bitte an ihre Autoren. Weitere Informationen findest Du auf der [Lizenz](License/de.md)-Seite.
 
 
 

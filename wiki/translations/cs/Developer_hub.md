@@ -30,7 +30,7 @@ Dokumentace pro vývojáře zahrnuje následující sekce:
 -   [Kompilace na Windows](Compile_on_Windows.md)
 -   [Kompilace na Unixu](Compile_on_Linux.md)
 -   [Kompilace na Mac OS X](Compile_on_MacOS.md)
--   [Detaily licence](Licence.md) - o licenci FreeCADu
+-   [Detaily licence](License.md) - o licenci FreeCADu
 -   [Knihovny třetích stran](Third_Party_Libraries.md)
 -   [Nástroje třetích stran](Third_Party_Tools.md)
 -   [Spuštění a konfigurace](Start_up_and_Configuration.md)

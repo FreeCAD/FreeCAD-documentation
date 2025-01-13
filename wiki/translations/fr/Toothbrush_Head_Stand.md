@@ -20,7 +20,7 @@
 
 Les brosses à dents électriques viennent rarement avec une tête, tandis que dans une famille, vous verrez souvent plusieurs têtes utilisées avec un seul moteur. Beaucoup de personnes confrontées à un problème commun nous conduisent à une variété de solutions, comme vous pouvez le voir sur Thingiverse (200 à 800 projets sont liés à cela). Voici la première réponse et comment la concevoir.
 
-Ce tutoriel vous guidera à travers les étapes nécessaires pour modéliser la partie montrée dans l\'image ci-dessous en utilisant les outils de base de l\'[atelier Part Design](PartDesign_Workbench/fr.md) (beaucoup d\'outils et de capacités ne sont pas couverts).
+Ce tutoriel vous guidera à travers les étapes nécessaires pour modéliser la partie montrée dans l\'image ci-dessous en utilisant les outils de base de l\'[atelier PartDesign](PartDesign_Workbench/fr.md) (beaucoup d\'outils et de capacités ne sont pas couverts).
 
 ![](images/TBHS-model.png )
 
@@ -28,7 +28,7 @@ Ce tutoriel vous guidera à travers les étapes nécessaires pour modéliser la 
 
 ## Première idée : un plateau 
 
--   A partir de la page d\'accueil, sélectionnez ![](images/Workbench_PartDesign.svg‎‎ ) \"Part Design\" ou créez un nouveau document et sélectionnez l\'atelier \"Part Design\".
+-   A partir de la page d\'accueil, sélectionnez ![](images/Workbench_PartDesign.svg‎‎ ) \"PartDesign\" ou créez un nouveau document et sélectionnez l\'atelier \"PartDesign\".
 
 ![](images/TBHS-0.png )
 
@@ -36,7 +36,7 @@ Ce tutoriel vous guidera à travers les étapes nécessaires pour modéliser la 
 
 ### Créer une esquisse 
 
--   Cliquez sur le bouton <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [**Nouvelle esquisse**](Sketcher_NewSketch/fr.md). Soit à partir du menu de tâches contextuelles à gauche, soit de la barre d\'outils ci-dessus ou du menu Part Design en haut.
+-   Cliquez sur le bouton <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [**Nouvelle esquisse**](Sketcher_NewSketch/fr.md). Soit à partir du menu de tâches contextuelles à gauche, soit de la barre d\'outils ci-dessus ou du menu PartDesign en haut.
 
 <img alt="" src=images/TBHS-1.JPG  style="width:800px;">
 
@@ -237,7 +237,7 @@ Dans cette deuxième partie, vous apprendrez également à utiliser d\'autres ou
 
 ## Deuxième idée : un groupe 
 
--   Créez un nouveau document et sélectionnez l\'atelier ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design*.
+-   Créez un nouveau document et sélectionnez l\'atelier ![](images/Workbench_PartDesign.svg‎‎ ) *PartDesign*.
 
 
 

@@ -46,7 +46,7 @@ Interpreter Python posiada również wbudowany system pomocy. Powiedzmy, że nie
 
 
 ```python
-help("print")
+help(print)
 ```
 
 Otrzymasz długi i kompletny opis wszystkiego, co może zrobić polecenie `print()`.

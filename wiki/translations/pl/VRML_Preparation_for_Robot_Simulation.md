@@ -1,47 +1,48 @@
 # VRML Preparation for Robot Simulation/pl
-{{TutorialInfo
-|Topic=Robot Workbench
-|Level=Intermediate
-|Time=
+{{TutorialInfo/pl
+|Topic=środowisko pracy Robot
+|Level=średnio zaawansowany
+|Time=dowolny
 |Author=
 |FCVersion=0.11.4252ppa1
 |Files=
 }}
 
 
-**The FreeCAD Robot Workbench is unmaintained. Please mention on the FreeCAD forum if you have an interest in maintaining this 
-workbench.**
+**Środowisko pracy FreeCAD Robot nie jest utrzymywane. Prosimy o wzmiankę na forum FreeCAD, jeśli jesteś zainteresowany utrzymaniem tego środowiska pracy.**
 
-## Overview
 
-This tutorial explains how to use FreeCAD and the <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Robot Simulation Workbench](Robot_Workbench.md) to simulate the motions of 6-axis serial robot. **The tutorial focuses on the creation of the VRML file** used as visualization. The base of the VRML file is a FreeCAD model. The version of FreeCAD used is 0.11.4252ppa1 on Ubuntu 32bit.
 
-## Open a file or create one with FreeCAD 
+## Informacje ogólne 
 
-The tutorial is based on a STEP-file of a Stäubli TX40 (TX40-HB.stp). You can download the file from [Stäubli](https://secure.staubli.com/Intranet_Applications/Robotics/Group/RobDoc.nsf/ea05b3f4b301f597c1256d5f005665e8/bc3707ec036c9f6bc12576c700327958/$FILE/page.html). However, though I still didn\'t have time to check this, the method should also apply to a model completely made in FreeCAD. After opening the file, you should obtain this:
+Ten samouczek wyjaśnia, jak korzystać z FreeCAD i środowiska symulacji <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Robot](Robot_Workbench/pl.md) do symulacji ruchów 6-osiowego robota szeregowego. **Samouczek skupia się na tworzeniu pliku VRML** używanego jako wizualizacja. Podstawą pliku VRML jest model FreeCAD. Użyta wersja FreeCAD to 0.11.4252ppa1 na Ubuntu 32bit.
+
+## Otwórz plik lub utwórz go za pomocą FreeCAD 
+
+Samouczek opiera się na pliku STEP urządzenia Stäubli TX40 (TX40-HB.stp). Plik można pobrać ze strony [Stäubli](https://secure.staubli.com/Intranet_Applications/Robotics/Group/RobDoc.nsf/ea05b3f4b301f597c1256d5f005665e8/bc3707ec036c9f6bc12576c700327958/$FILE/page.html). Jednak, choć wciąż nie miałem czasu, aby to sprawdzić, metoda ta powinna mieć również zastosowanie do modelu wykonanego w całości w programie FreeCAD. Po otwarciu pliku powinieneś otrzymać:
 
 <img alt="" src=images/staeubli_step_import.png  style="width:1024px;">
 
-Notice, that on import, the robot is made of 8 shapes, directly on the root of the document tree. The structure of the exported VRML file may change if groups are used. The shapes are ordered from the base to the tool. The last shape contains the axes of rotations of all robot axes. The correlation shape name -- part name is given by (as for now (March 2011) FreeCAD doesn\'t import the names included in STEP files):
+Zauważ, że po zaimportowaniu obiekt robot składa się z 8 kształtów, bezpośrednio na korzeniu drzewa dokumentu. Struktura wyeksportowanego pliku VRML może ulec zmianie, jeśli używane są grupy. Kształty są uporządkowane od podstawy do narzędzia. Ostatni kształt zawiera osie obrotu wszystkich osi robota. Nazwa kształtu korelacji - nazwa części jest podana przez *(na chwilę obecną (marzec 2011) FreeCAD nie importuje nazw zawartych w plikach STEP)*:
 
-  FreeCAD name   STEP name
+  nazwa FreeCAD   nazwa STEP
    
-  TX40_HB        HORIZONTAL BASE CABLE OUTLET
-  TX40_HB001     SHOULDER
-  TX40_HB002     ARM
-  TX40_HB003     ELBOW
-  TX40_HB004     FOREARM
-  TX40_HB005     WRIST
-  TX40_HB006     TOOL FLANGE
-  TX40_HB007     ?
+  TX40_HB         HORIZONTAL BASE CABLE OUTLET
+  TX40_HB001      SHOULDER
+  TX40_HB002      ARM
+  TX40_HB003      ELBOW
+  TX40_HB004      FOREARM
+  TX40_HB005      WRIST
+  TX40_HB006      TOOL FLANGE
+  TX40_HB007      ?
 
-For this import, change the "Display Mode" of each shape, TX40_HB007 excepted, from "Flat Lines" to "Shaded" for the VRML export to look good. I also changed the colors to \[245, 196, 0\] and \[204, 204, 204\] to better correspond to Stäubli\'s yellow. Hide TX40_HB007 because it contains the axes of all joints and cannot be taken apart.
+W przypadku tego importu należy zmienić \"Tryb wyświetlania\" każdego kształtu, z wyjątkiem TX40_HB007, z \"Cieniowany z krawędziami\" na \"Cieniowane\", aby eksport VRML wyglądał dobrze. Zmieniłem również kolory na \[245, 196, 0\] i \[204, 204, 204\], aby lepiej odpowiadały żółtemu kolorowi Stäubli. Ukryj TX40_HB007, ponieważ zawiera on osie wszystkich połączeń i nie można go rozdzielić.
 
-## Measure geometric characteristics 
+## Pomiar charakterystyk geometrycznych 
 
-In order to build the Denavit-Hartenberg table (see [Robot 6-Axis](Robot_6-Axis.md)) and prepare the vrml file, you need to get characteristics of the robot. For now, the measurement tool of FreeCAD is not ready, you can use the axes included in TX40_HB007 (the co-ordinates are indicated on the bottom left when you point an object with the mouse) or you have to use the Python console to get some information about the geometry. Note that the DH-table is only required if you need to use the inverse kinematics, i.e. get the Cartesian coordinates or drive the robot with Cartesian coordinates. The DH-table for this robot is the following (mm, deg and deg/s):
+Aby zbudować tabelę Denavita-Hartenberga *(patrz [Robot: 6-osi](Robot_6-Axis/pl.md))* i przygotować plik vrml, musisz uzyskać charakterystykę robota. Na razie narzędzie pomiarowe FreeCAD nie jest gotowe, możesz użyć osi zawartych w TX40_HB007 (współrzędne są wskazywane w lewym dolnym rogu po wskazaniu obiektu myszą) lub musisz użyć konsoli Python, aby uzyskać informacje o geometrii. Należy pamiętać, że tabela DH jest wymagana tylko wtedy, gdy trzeba użyć kinematyki odwrotnej, tj. uzyskać współrzędne kartezjańskie lub sterować robotem za pomocą współrzędnych kartezjańskich. Tabela DH dla tego robota jest następująca *(mm, stopnie i stopnie/s)*:
 
-  i   d     θ         r     α     θmin   θmax    Axis velocity
+  i   d     θ         r     α     θmin   θmax    Prędkość osi
   ---       
   1   320   q1        0     -90   -180   180     555
   2   35    q2 - 90   225   0     -125   125     475
@@ -50,9 +51,9 @@ In order to build the Denavit-Hartenberg table (see [Robot 6-Axis](Robot_6-Axis.
   5   0     q5        0     90    -120   133.5   1135
   6   65    q6        0     0     -270   270     1575
 
-The csv file is then:
+Plik csv to:
 
-a  , alpha, d  , theta, rotDir, maxAngle, minAngle, AxisVelocity
+a  , alpha, d  , theta, rotDir, maxAngle, minAngle, Prędkość osi
 0  ,   -90, 320,     0,      1,      180,     -180, 555
 225,     0,  35,   -90,      1,      125,     -125, 475
 0  ,    90,   0,    90,      1,      138,     -138, 585
@@ -60,9 +61,9 @@ a  , alpha, d  , theta, rotDir, maxAngle, minAngle, AxisVelocity
 0  ,    90,   0,     0,      1,    133.5,     -120, 1135
 0  ,     0,  65,     0,      1,      270,     -270, 1575
 
-## Export to VRML 
+## Eksport do VRML 
 
-Export the document to a VRML file. The structure of the VRML file is the following: 
+Eksport dokumentu do pliku VRML. Struktura pliku VRML jest następująca: 
 
 #VRML V2.0 utf8
 Group {
@@ -105,15 +106,15 @@ Group {
 
 
 
-You can notice that we have 8 independent groups corresponding to the 8 shapes.
+Można zauważyć, że mamy 8 niezależnych grup odpowiadających 8 kształtom.
 
-## Preparation of the vrml file 
+## Przygotowanie pliku vrml 
 
-All shapes in the VRML file are expressed in the base frame, independently from each other. For the [Robot Simulation Workbench](Robot_Workbench.md), we need to create a structure where a movement of a shape induces a movement of all shapes situated afterwards in the structure. The placement of the shapes will be relative to the preceding shape, so we need to include some translations from the absolute reference system to the relative one. The translations are described in the following picture:
+Wszystkie kształty w pliku VRML są wyrażone w ramce bazowej, niezależnie od siebie. Dla środowiska [symulacji Robot](Robot_Workbench.md) musimy stworzyć strukturę, w której ruch kształtu wywołuje ruch wszystkich kształtów znajdujących się po nim w strukturze. Umieszczenie kształtów będzie względne w stosunku do poprzedniego kształtu, więc musimy uwzględnić pewne translacje z bezwzględnego układu odniesienia do względnego. Przesunięcia te zostały opisane na poniższym rysunku:
 
 ![](images/staeubli_important_points.png )
 
-With
+Przy
 
 :   A=(0, 0, 168)
 :   B=(0, 107.8, 320)
@@ -122,11 +123,11 @@ With
 :   E=(0, 35, 770)
 :   F=(0, 35, 835).
 
-Let\'s take the example of axis 4 between ELBOW and FOREARM, situated at D=(xd, yd, zd). The anchor for the FreeCAD axis is 
+Weźmy przykład osi 4 między ELBOW i FOREARM, znajdującej się w D=(xd, yd, zd). Kotwica dla osi FreeCAD to 
 
 "DEF FREECAD_AXIS4 Transform { rotation 0 1 0 0 children ["
 
- This corresponds to a rotation about the y-axis. In the CAD model, the rotation is about the z-axis. Thus, we need to a rotation about the x-axis of $\pi$ before the FreeCAD axis definition and of $-\pi$ after it. Also, a translation of (-xd, -yd, -zd) is needed just before the Group corresponding to the definition of FOREARM to express it in the relative reference frame centered at D. This means that a translation of (xd, yd, zd) must be inserted before the first rotation. At the end, the VRML file from the definition of ELBOW to the definition of FOREARM looks like this: 
+ Odpowiada to obrotowi wokół osi y. W modelu CAD obrót dotyczy osi z. Dlatego potrzebujemy obrotu wokół osi x $\pi$ przed definicją osi FreeCAD i $-\pi$ po niej. Ponadto translacja (-xd, -yd, -zd) jest potrzebna tuż przed grupą odpowiadającą definicji FOREARM, aby wyrazić ją we względnym układzie odniesienia wyśrodkowanym w D. Oznacza to, że przesunięcie (xd, yd, zd) musi zostać wstawione przed pierwszym obrotem. Na koniec plik VRML od definicji ELBOW do definicji FOREARM wygląda następująco: 
 
       # ELBOW
       Group {
@@ -153,7 +154,7 @@ Let\'s take the example of axis 4 between ELBOW and FOREARM, situated at D=(xd, 
 
 
 
-At the end of the document, the appropriate closing brackets must be inserted: 
+Na końcu dokumentu należy wstawić odpowiednie nawiasy zamykające: 
 
 #VRML V2.0 utf8
   
@@ -284,7 +285,7 @@ Group {
   }
 }
 
- Here is a patch to obtain the VRML file suitable for robot simulation: 
+ Oto łatka pozwalająca uzyskać plik VRML odpowiedni do symulacji robota: 
 
 7a8
 >         # HORIZONTAL BASE CABLE OUTLET 

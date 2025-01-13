@@ -8,9 +8,13 @@
 
 # Fasteners Flip/ru
 
+
+
 ## Описание
 
-The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Fasteners Flip** command inverts the orientation of [attached fasteners](Fasteners_Workbench#Usage.md) by changing their **invert** property.
+The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Fasteners Flip** command inverts the orientation of [attached fasteners](Fasteners_Workbench#Usage.md) by changing their **Invert** property.
+
+
 
 ## Применение
 
@@ -20,19 +24,18 @@ The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Fasteners 
     -   Выбрав пункт главного меню **Стандартные изделия → <img src="images/Fasteners_Flip.svg" width=16px> Перевернуть крепёж**.
 3.  Ориентация выбранного крепежа будет изменена на противоположную.
 
+
+
 ## Примечания
 
--   The **invert** property is ignored for unattached fasteners and they cannot be flipped with this command. To flip them their **Placement** should be changed, for example with the <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std TransformManip](Std_TransformManip.md) command.
+-   The **Invert** property is ignored for unattached fasteners and they cannot be flipped with this command. To flip them their **Placement** should be changed, for example with the <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std TransformManip](Std_TransformManip.md) command.
 
 
 
 
-
-{{Fasteners Tools navi
-
-}}
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Flip/ru
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners Flip/ru

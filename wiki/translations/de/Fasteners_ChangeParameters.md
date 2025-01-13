@@ -10,9 +10,13 @@
 
 # Fasteners ChangeParameters/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:24px;"> **Fasteners ParameterÄndern** kann verwendet werden, um die Parameter von Verbindungselementen zu ändern.
+
+
 
 ## Anwendung
 
@@ -30,12 +34,9 @@ Der Befehl <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:2
 
 
 
-
-{{Fasteners Tools navi
-
-}}
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ChangeParameters/de
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners ChangeParameters/de

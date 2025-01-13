@@ -16,12 +16,12 @@
 
 **[<img src=images/Surface_Filling.svg style="width:16px"> [Surface Füllfläche](Surface_Filling/de.md)**
 
-erstellet eine Oberfläche aus einer Reihe von verbundenen Randkurven. Die Krümmung der Oberfläche kann zusätzlich über Kanten und Knotenpunkte innerhalb der Fläche sowie einer Stützfläche gesteuert werden.
+erstellt eine Oberfläche aus einer Reihe von verbundenen Randkurven. Die Krümmung der Oberfläche kann zusätzlich über Kanten und Knotenpunkte innerhalb der Fläche sowie einer Stützfläche gesteuert werden.
 
-The base geometry can belong to curves created with the [Draft Workbench](Draft_Workbench.md) or the [Sketcher Workbench](Sketcher_Workbench.md), but can also belong to solid objects such as those created with the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md).
+Die Basisgeometrie kann zu Kurven, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, gehören, aber auch zu Festkörperobjekten, die mit demArbeitsbereich [Part](Part_Workbench/de.md) erzeugt wurden.
 
 <img alt="" src=images/Surface_Filling_example.png  style="width:600px;"> 
-*Two filled surfaces delimited by four edges located on the XY plane. The surface on the right is additionally controlled by a non-boundary edge.*
+*Zwei gefüllte Oberflächen, umrandet von vier Kanten auf der XY-Ebene. Die Oberfläche auf der rechten Seite wird zusätzlich durch eine Kante beeinflusst, die nicht zur Umrandung gehört.*
 
 
 
@@ -144,14 +144,14 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 ## Skripten
 
 
-**See also:**
+**Siehe auch:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 The Surface Filling tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::Filling` object.
 
--   The edges to be used to define the surface must be assigned as a [LinkSubList](LinkSubList.md) to the `BoundaryEdges` property of the object.
--   Auxiliary edges and vertices must be assigned as a [LinkSubLists](LinkSubList.md) to the `UnboundEdges` and `Points` properties of the object.
+-   The edges to be used to define the surface must be assigned as a [LinkSubList](FeaturePython_Custom_Properties#App:_PropertyLinkSubList.md) to the `BoundaryEdges` property of the object.
+-   Auxiliary edges and vertices must be assigned as a [LinkSubLists](FeaturePython_Custom_Properties#App:_PropertyLinkSubList.md) to the `UnboundEdges` and `Points` properties of the object.
 -   All objects with edges need to be computed before they can be used as input for the properties of the Filling object.
 
 

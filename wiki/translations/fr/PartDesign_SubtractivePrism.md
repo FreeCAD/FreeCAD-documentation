@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign SubtractivePrism
    Name/fr: PartDesign Prisme soustractif
-   MenuLocation: Part Design , Créer une primitive soustractive , Prisme soustractif
+   MenuLocation: PartDesign , Créer une primitive soustractive , Prisme soustractif
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/fr, PartDesign_AdditivePrism/fr
@@ -33,8 +33,8 @@ Il est possible de créer des prismes biaisés en spécifiant des angles par rap
 
 Le Prisme peut être éditée après sa création de deux façons :
 
--   Double-cliquez le dans l\'arborescence ou faire un clic droit dessus et sélectionnez **Éditer la primitive** dans le menu contextuel. Cela fait apparaître les paramètres des Primitives.
--   Via l\'[Éditeur de propriétés](Property_editor/fr.md).
+-   Double-cliquer son étiquette dans l\'arborescence, ou faire un clic droit sur l\'étiquette et sélectionner **Éditer la primitive** dans le menu contextuel; ceci ouvre les Propriétés de la primitive.
+-   Via l\'[éditeur de propriétés](Property_editor/fr.md).
 
 
 

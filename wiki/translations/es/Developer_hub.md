@@ -16,16 +16,22 @@ La documentación para desarrolladores comprende las siguientes secciones:
 
 ### Compilando FreeCAD 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Gestión del código fuente](Source_code_management/es.md)
 -   [Encontrar asistencia](Tracker/es.md) cuando tienes un problema o crees que has encontrado un error
 -   [Compilación en Windows](Compile_on_Windows/es.md)
 -   [Compilación en Unix](Compile_on_Linux/es.md)
 -   [Compilación en OS X](Compile_on_MacOS/es.md)
--   [Detalles de la Licencia](Licence/es.md) sobre las licencias de FreeCAD
+-   [Detalles de la Licencia](License/es.md) sobre las licencias de FreeCAD
 -   [Bibliotecas de terceros](Third_Party_Libraries/es.md)
 -   [Herramientas de terceros](Third_Party_Tools/es.md)
 -   [Inicio y configuración](Start_up_and_Configuration/es.md)
 -   [Documentación del código fuente](Source_documentation/es.md)
+
+
+</div>
 
 
 

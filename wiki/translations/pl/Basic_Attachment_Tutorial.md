@@ -92,7 +92,7 @@ Zrób to samo dla podtytułu Pozycja. Zmień wartość odsunięcia X na 80mm, a 
 
 Przesunięcie dołączenia jest często używane w połączeniu z wyrażeniami, aby zaoferować parametryczne położenie równoległe do płaszczyzny, np. pozycjonowanie szkicu na górnej powierzchni podkładki przy użyciu wyrażenia *(Pad.Length)* dla przesunięcia Z.
 
-Szkic może być teraz wyciągnięty <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;">, załóżmy, że wysokość wyciągnięcia powinna być taka sama jak szerokość szkicu. W oknie dialogowym **Parametry wyciągnięcia** wybierz pole **Długość**, naciśnij klawisz **<nowiki>=</nowiki>** lub wybierz ikonę funkcji <img alt="" src=images/Bound-expression.svg  style="width:24px;"> i wpisz **Sketch.Constraints.szerokość**, to wyrażenie powinno mieć wartość \"40 mm\", następnie zaznacz **Symetrycznie do płaszczyzny** i naciśnij przycisk **OK**.
+Szkic może być teraz wyciągnięty <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;">, załóżmy, że wysokość wyciągnięcia powinna być taka sama jak szerokość szkicu. W oknie dialogowym **Parametry wyciągnięcia** wybierz pole **Długość**, naciśnij klawisz \>.Constraints.width**\", to wyrażenie powinno mieć wartość \"40 mm\", następnie zaznacz **Symetrycznie do płaszczyzny** i naciśnij przycisk **OK**.
 
 ![centre\|Bazowe wyciągnięcie](images/BasePad2.png )
 
@@ -100,7 +100,7 @@ Zróbmy następny szkic, nie jest tak naprawdę ważne, który wybierzemy, ale n
 
 Utwórz nowy szkic, wybierz dowolną płaszczyznę *(docelowo i tak zmienimy jego dołączenie)*.
 
-Narysuj trójkąt, zrównaj dwa boki i zwiąż długość w taki sam sposób, jak w przypadku długości wyciągnięcia, tylko tym razem zastosuj formułę **Sketch.Constraints.szerokość/2**.
+Narysuj trójkąt, zrównaj dwa boki i zwiąż długość w taki sam sposób, jak w przypadku długości wyciągnięcia, tylko tym razem zastosuj formułę \"**Sketch.Constraints.width/2**\" lub \"**\<\>.Constraints.width/2**\".
 
 Powinny pozostać dwa stopnie swobody, czyli położenie względem Odniesienie położenia. Przymocuj jeden z rogów do Odniesienia położenia tak, aby szkic wyglądał następująco:
 
@@ -172,7 +172,7 @@ Teraz można wprowadzić [kieszeń](PartDesign_Pocket/pl.md) do szkicu.
 
 ### O krok dalej 
 
-Utwórz następny szkic, wymiary powinny być wyrażeniami *(\"**Sketch.Constraints.szerokość**\", \"**Sketch.Constraints.szerokość/2**\")* i powinien być związany z punktem odniesienia położenia w wierzchołku sąsiadującym z przeciwprostokątną i jej najkrótszym bokiem. *(Jeśli jesteś zaznajomiony z funkcją **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Kalka techniczna](Sketcher_CarbonCopy/pl.md)** możesz jej użyć, aby w pustym szkicu utworzyć kopię szkicu \"IsoscelesSketch\" i odpowiednio edytować jego parametry)*.
+Utwórz następny szkic, wymiary powinny być wyrażeniami *(\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\" lub \"**\<\>.Constraints.width**\",\"**\<\>.Constraints.width/2**\")* i powinien być związany z punktem odniesienia położenia w wierzchołku sąsiadującym z przeciwprostokątną i jej najkrótszym bokiem. *(Jeśli jesteś zaznajomiony z funkcją **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Kalka techniczna](Sketcher_CarbonCopy/pl.md)** możesz jej użyć, aby w pustym szkicu utworzyć kopię szkicu \"IsoscelesSketch\" i odpowiednio edytować jego parametry)*.
 
 Zmień nazwę szkicu na RightAngleTriangleSketch.
 
@@ -221,7 +221,7 @@ FreeCAD oferuje kilka sposobów, aby to zrobić.
 
 W naszym ostatecznym szkicu zamocujemy go arbitralnie i skorygujemy jego położenie za pomocą modyfikatorów wymienionych powyżej.
 
-Utwórz ostateczny szkic, którego wymiary powinny być wyrażeniami *(\"**Sketch.Constraints. szerokość**\", \"**Sketch.Constraints. szerokość/2**\")* i który powinien być związany do punktu odniesienia położenia w wierzchołku sąsiadującym z przeciwprostokątną i jej najkrótszym bokiem.
+Utwórz ostateczny szkic, którego wymiary powinny być wyrażeniami *(\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\" lub \"**\<\>.Constraints.width**\" , \"**\<\>.Constraints.width/2**\")* i który powinien być związany do punktu odniesienia położenia w wierzchołku sąsiadującym z przeciwprostokątną i jej najkrótszym bokiem.
 
 Zmień nazwę szkicu na FinalSketch.
 

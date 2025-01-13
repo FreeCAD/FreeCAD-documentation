@@ -12,12 +12,21 @@
 # Draft Rotate/ru
 
 
+</div>
+
+
 
 ## Описание
 
-The <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Draft Rotate** command rotates or copies selected objects around a center point by a given angle. In subelement mode the command rotates selected points and edges, or copies selected edges, of [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md).
+The <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Draft Rotate** command rotates or copies selected objects around a center point by a given angle. The axis of rotation is perpendicular to the current [working plane](Draft_SelectPlane.md) and the rotation angle is relative to that plane. In subelement mode the command rotates selected points and edges, or copies selected edges, of [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md).
+
+
+<div class="mw-translate-fuzzy">
 
 Команду можно использовать на 2D-объектах, созданных в [верстаке Draft](Draft_Workbench/ru.md) или [верстаке Sketcher](Sketcher_Workbench/ru.md), а также на многих 3D-объектах, созданных с помощью [верстака Part](Part_Workbench/ru.md), [верстака PartDesign](PartDesign_Workbench/ru.md) и [верстака Arch](Arch_Workbench/ru.md).
+
+
+</div>
 
 <img alt="" src=images/Draft_Rotate_example.jpg  style="width:400px;"> 
 *Rotating an object around a center point*
@@ -31,7 +40,8 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 1.  Optionally select one or more objects, or one or more subelements of [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Rotate.svg" width=16px> [Rotate](Draft_Rotate.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Rotate.svg" width=16px> Rotate** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Modification → <img src="images/Draft_Rotate.svg" width=16px> Rotate** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Modify → <img src="images/Draft_Rotate.svg" width=16px> Rotate** option from the menu.
     -   Use the keyboard shortcut: **R** then **O**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
 4.  The **Rotate** task panel opens. See [Options](#Options.md) for more information.
@@ -42,10 +52,10 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 ## Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 -   To manually enter the coordinates for the center of rotation enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system.
 -   Press **N** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing. This mode really only makes sense if copy mode is switched on. Depending on the **Select base objects after copying** preference, either the original objects are selected for the next command call or the copies that were created last. See [Preferences](#Preferences.md).
 -   Press **C** or click the **Copy** checkbox to toggle copy mode. If copy mode is on, the command will create rotated copies instead of rotating the original objects.
 -   Press **B** or click the **Modify subelements** checkbox to toggle subelement mode. If subelement mode is on, the command will use the selected subelements instead of the whole objects. The subelements must belong to [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
@@ -59,6 +69,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 ## Примечания
 
 -   An Object that is [attached](Part_EditAttachment.md) cannot be rotated with the Draft Rotate command. To rotate it either its **Support** object has to be rotated, or its **Attachment Offset** has to be changed.
+-   The base angle concept can be somewhat confusing. Especially since it works only when selecting points, not when specifying the angle using the input field. An explanation of how it works, with an example, can be found in [this forum thread](https://forum.freecad.org/viewtopic.php?p=736674#p736674).
 
 
 

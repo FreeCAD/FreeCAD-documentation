@@ -2,18 +2,18 @@
  GuiCommand:
    Name: Arch PipeConnector
    Name/fr: Arch Raccord
-   MenuLocation: Arch , Outils pour la tuyauterie , Raccord
+   MenuLocation: 3D/BIM , Raccord
    Workbenches: Arch_Workbench/fr
    Shortcut: **P** **C**
    Version: 0.17
-   SeeAlso: Arch_Pipe/fr, Arch_Equipment/fr
+   SeeAlso: 
 ---
 
 # Arch PipeConnector/fr
 
 ## Description
 
-Cet outil vous permet de créer des raccords entre deux ou plusieurs [Arch Conduites](Arch_Pipe/fr.md) sélectionnés.
+L\'outil **Arch Raccord** vous permet de créer des raccords entre deux ou plusieurs [Arch Conduites](Arch_Pipe/fr.md) sélectionnés.
 
 
 
@@ -30,7 +30,7 @@ Cet outil vous permet de créer des raccords entre deux ou plusieurs [Arch Condu
 
 
 
-## Processus de travail typique 
+## Flux de travail typique 
 
 Voir les informations de [Arch Conduite](Arch_Pipe/fr.md) pour le processus d\'utilisation des conduites et la création de raccords.
 
@@ -43,7 +43,9 @@ Voir les informations de [Arch Conduite](Arch_Pipe/fr.md) pour le processus d\'u
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Raccord peut être utilisé dans une [macro](Macros/fr.md) ou depuis la console [Python](Python/fr.md) en utilisant la fonction suivante : 
+L\'outil Raccord peut être utilisé dans une [macro](Macros/fr.md) ou depuis la console [Python](Python/fr.md) en utilisant la fonction suivante :
+
+
 ```python
 Connector = makePipeConnector(pipes, radius=0, name="Connector")
 ```
@@ -51,7 +53,9 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 -   Crée un objet `Connector` à partir du `pipes` donné qui est une liste de [Arch Conduite](Arch_Pipe/fr.md) et éventuellement un rayon `radius` de courbure.
     -   Les objets de base ([Draft Polylignes](Draft_Wire/fr.md)) des [Arch Conduites](Arch_Pipe/fr.md) devraient partager un point d\'extrémité afin de créer un raccord correct et lisse.
 
-Exemple : 
+Exemple :
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -86,5 +90,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/fr
+⏵ [documentation index](../README.md) > Arch PipeConnector/fr

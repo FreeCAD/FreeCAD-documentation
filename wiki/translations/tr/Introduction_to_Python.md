@@ -121,7 +121,7 @@ Python yorumlayıcı ayrıca dahili bir yardım sistemine sahiptir. Yazmayı den
 
 
 ```python
-help("print")
+help(print)
 ```
 
 

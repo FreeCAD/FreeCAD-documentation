@@ -11,22 +11,43 @@
 # Arch Floor/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Il [Piano](Arch_Floor/it.md) del modulo Arch è un gruppo speciale di oggetti di FreeCAD che possiede alcune proprietà aggiuntive particolarmente utili nella costruzione dei piani. In particolare, possiede la proprietà di altezza, che i suoi oggetti figli, i muri ([muri](Arch_Wall/it.md) e le [strutture](Arch_Structure/it.md)), possono utilizzare per impostare automaticamente la loro altezza. I piani sono prevalentemente utilizzati per organizzare il modello.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 A partire da FreeCAD 0.18, il Piano è derivato interamente dall\'oggetto [Parte di edificio](Arch_BuildingPart/it.md), che è un contenitore generale per organizzare un modello di edificio non limitato a piani o pavimenti. Gli oggetti Piano creati con versioni precedenti di FreeCAD possono essere convertiti nel nuovo tipo facendo clic con il pulsante destro del mouse su di essi e scegliendo `Convert to BuildingPart`.
 
 
+</div>
+
+
 
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Opzionalmente, selezionare uno o più oggetti da includere nel nuovo piano.
 2.  Richiamare il comando Piano in uno di questi modi:
     -   Premere il pulsante **<img src="images/Arch_Floor.svg" width=16px> [Piano](Arch_Floor/it.md)** nella barra degli strumenti.
     -   Usare la scorciatoia **L** **V** da tastiera.
     -   Usare **Arch → Piano** dal menu principale.
+
+
+</div>
 
 
 
@@ -41,6 +62,11 @@ A partire da FreeCAD 0.18, il Piano è derivato interamente dall\'oggetto [Parte
 
 Un oggetto Piano condivide tutte le proprietà di una [Parte di edificio](Arch_BuildingPart/it.md), con la proprietà **Ifc Type** impostata su `"Building Storey"`.
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 
@@ -48,7 +74,18 @@ Un oggetto Piano condivide tutte le proprietà di una [Parte di edificio](Arch_B
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Piano può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Piano può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 Floor = makeFloor(objectslist=None, baseobj=None, name="Floor")
 ```
@@ -78,6 +115,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/it
+⏵ [documentation index](../README.md) > Arch Floor/it

@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Tanım
 
 Eskizler veya diğer referans geometri için referans olarak kullanılabilecek bir **referans noktası** oluşturur.
@@ -26,6 +28,8 @@ Z = 2\'de ek konumu olan bir küreye tutturulmuş bir referans noktası
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -57,6 +61,8 @@ Z = 2\'de ek konumu olan bir küreye tutturulmuş bir referans noktası
 
 </div>
 
+
+
 ## Seçenekler
 
 
@@ -67,6 +73,12 @@ Model ağacında Referans noktası etiketine çift tıklayın veya sağ tıklay�
 
 </div>
 
+## Preferences
+
+See [PartDesign Plane](PartDesign_Plane#Preferences.md).
+
+
+
 ## Özellikler
 
 -    **MapMode**:Kullanılan ek modunu listeler.
@@ -74,6 +86,8 @@ Model ağacında Referans noktası etiketine çift tıklayın veya sağ tıklay�
 -    **Attachment Offset**: Ataşman yerleşimine atıfta bulunan bir dönüştürme (çeviri ve döndürme) uygular.
 
 -    **Label**: Nesneye verilen ad, bu ad uygun şekilde değiştirilebilir.
+
+
 
 ## Sınırlamalar
 

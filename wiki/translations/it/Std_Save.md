@@ -40,26 +40,15 @@ Il comando **Salva** salva il documento attivo.
 
 
 
-## Preferenze
-
--   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
-
-
-
 ## Script
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
-
-Per salvare un documento, utilizzare il metodo `save` dell\'oggetto documento. Un nuovo documento deve prima essere salvato con il metodo `saveAs` dell\'oggetto documento. Per un esempio di scripting vedere [Nuovo](Std_New/it.md).
+Vedere [Nuovo](Std_New/it#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

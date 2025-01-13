@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand
    Name: FEM ConstraintCurrentDensity
    MenuLocation: Model , Electromagnetic boundary conditions , Current density boundary condition
    Workbenches: FEM_Workbench
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic, FEM_EquationMagnetodynamic2D
+}}
+{{GuiCommandFemInfo
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintCurrentDensity
@@ -16,8 +21,8 @@ Creates a FEM boundary condition for the current density. To be used together wi
 ## Usage
 
 1.  Press the **<img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> [Current density boundary condition](FEM_ConstraintCurrentDensity.md)** button or use the menu **Model → Electromagnetic boundary conditions → <img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> Current density boundary condition**.
-2.  In the [3D view](3D_view.md) select the object the boundary condition should be applied to.
-3.  Press the **Add** button.
+2.  Press the **Add** button.
+3.  In the [3D view](3D_view.md) select the object the boundary condition should be applied to.
 
 ## Options
 

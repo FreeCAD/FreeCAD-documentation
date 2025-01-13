@@ -20,9 +20,19 @@ FreeCAD, подобно многим современным приложения
 
 Следующие верстаки идут в комплекте с каждой установкой FreeCAD:
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Стандартные инструменты](Std_Base/ru.md). На самом деле это не верстак, а скорее категория \'стандартных\' команд и инструментов, которые можно использовать на всех верстаках.
 
--   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Верстак Arch](Arch_Workbench/ru.md) для работы с элементами архитектуры.
+
+</div>
+
+-   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> The [Assembly Workbench](Assembly_Workbench.md) for building and solving mechanical assemblies. <small>(v1.0)</small> 
+
+-   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> The [BIM Workbench](BIM_Workbench.md) for working with architectural elements and creating [BIM](https://en.wikipedia.org/wiki/Building_information_modeling) models. It combines the Arch Workbench and the formerly external BIM Workbench available in {{VersionMinus|0.21}}.
+
+-   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> The [CAM Workbench](CAM_Workbench.md) is used to produce G-Code instructions. This workbench was called \"Path Workbench\" in {{VersionMinus|0.21}}.
 
 -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Верстак Draft](Draft_Workbench/ru.md) содержит 2D-инструменты и основные операции 2D и 3D CAD.
 
@@ -35,6 +45,8 @@ FreeCAD, подобно многим современным приложения
 
 
 </div>
+
+-   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> The [Material Workbench](Material_Workbench.md) handles the FreeCAD material system. <small>(v1.0)</small> 
 
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Верстак Mesh](Mesh_Workbench/ru.md) для работы с триангулярными (разбитыми на треугольники) сетками.
 
@@ -55,14 +67,6 @@ FreeCAD, подобно многим современным приложения
 </div>
 
 -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [ Верстак Part Design](PartDesign_Workbench/ru.md) для построения фигур деталей из эскизов.
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Верстак Path](Path_Workbench/ru.md) используется для создания инструкций G-Code. Он всё ещё находится в стадии разработки.
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -92,6 +96,16 @@ FreeCAD, подобно многим современным приложения
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [Верстак Spreadsheet](Spreadsheet_Workbench/ru.md) для создания и обработки данных электронной таблицы.
 
+-   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Верстак Surface](Surface_Workbench/ru.md) предоставляет инструменты для создания и изменения поверхностей. Он похож на опцию Грань из отрезков [Построителя Форм](Part_Builder/ru.md).
+
+-   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [Верстак TechDraw](TechDraw_Workbench/ru.md) для создания технических чертежей из 3D-моделей. Это преемник [Верстака Drawing](Drawing_Workbench/ru.md).
+
+-   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Верстак Test Framework](Testing/ru.md) предназначен для отладки FreeCAD.
+
+### Obsolete
+
+The following workbenches are no longer included after version 0.21:
+
 
 <div class="mw-translate-fuzzy">
 
@@ -100,15 +114,7 @@ FreeCAD, подобно многим современным приложения
 
 </div>
 
--   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Верстак Surface](Surface_Workbench/ru.md) предоставляет инструменты для создания и изменения поверхностей. Он похож на опцию Грань из отрезков [Построителя Форм](Part_Builder/ru.md).
-
--   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [Верстак TechDraw](TechDraw_Workbench/ru.md) для создания технических чертежей из 3D-моделей. Это преемник [Верстака Drawing](Drawing_Workbench/ru.md).
-
--   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Верстак Test Framework](Testing/ru.md) предназначен для отладки FreeCAD.
-
 -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Верстак Web](Web_Workbench/ru.md) предоставляет окно браузера вместо [3D вида](3D_view/ru.md) FreeCAD.
-
-### Obsolete
 
 The following workbenches are no longer included after version 0.20:
 

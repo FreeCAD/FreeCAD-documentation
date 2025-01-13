@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Part ProjectionOnSurface
-   Name/fr: Part Projection sur surface
+   Name/fr: Part Projeter sur une surface
    MenuLocation: Part , Projeter sur une surface...
    Workbenches: Part_Workbench/fr
    Version: 0.19
@@ -14,7 +14,7 @@
 ## Description
 
 
-**[<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Projection sur surface](Part_ProjectionOnSurface/fr.md)**
+**[<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Projeter sur une surface](Part_ProjectionOnSurface/fr.md)**
 
 est utilisé pour projeter une [forme](Shape/fr.md) au-dessus d\'une surface depuis une autre [forme](Shape/fr.md). Cela peut être utilisé pour projeter un logo ou un objet texte (voir **[<img src=images/_Draft_ShapeString.svg style="width:16px"> [Draft Forme à partir d'un texte](Draft_ShapeString/fr.md)**) sur des surfaces courbes pour créer des effets intéressants.
 
@@ -93,8 +93,8 @@ L\'algorithme de projection n\'est parfois pas en mesure de créer une face de p
 Si ça arrive :
 
 -   Vérifiez si votre face source est valide. Lancer l\'outil **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part Vérifier la géométrie](Part_CheckGeometry/fr.md)** pour obtenir des indices.
--   Vérifiez si la direction de projection est valide. La face source peut-elle être projetée de manière réaliste sur la surface cible? Une projection droite toucherait-elle la surface? Ajustez la caméra de sorte que la face source soit devant la surface cible et réessayez.
--   Essayez d\'utiliser l\'option {{RadioButton|TRUE|Afficher les bords}}. Les bords sont-ils correctement projetés? Essayez de créer à la main une face avec les bords.
+-   Vérifiez si la direction de projection est valide. La face source peut-elle être projetée de manière réaliste sur la surface cible ? Une projection droite toucherait-elle la surface? Ajustez la caméra de sorte que la face source soit devant la surface cible et réessayez.
+-   Essayez d\'utiliser l\'option {{RadioButton|TRUE|Afficher les bords}}. Les arêtes sont-elles correctement projetées ? Essayez de créer à la main une face avec des arêtes.
 
 La projection effectuée dans l\'atelier Part n\'est pas paramétrique. Si vous avez besoin d\'un flux de travail paramétrique, veuillez consulter la [classe Projection](https://gist.github.com/CsatiZoltan/f4fd10bf20923143ba0e0678ea1d3d61), qui est un objet scripté en Python, destiné à une utilisation programmatique.
 
@@ -106,7 +106,11 @@ La projection effectuée dans l\'atelier Part n\'est pas paramétrique. Si vous 
 
 
 
-## Exemples
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

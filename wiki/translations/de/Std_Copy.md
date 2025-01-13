@@ -20,7 +20,7 @@ Der **Std Kopieren**-Befehl kopiert Objekte in die Zwischenablage.
 
 1.  Ein oder mehrere Objekte auswählen.
 2.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Std_Copy.svg" width=16px> [Std Kopieren](Std_Copy/de.md)** drücken.
+    -   Die Schaltfläche **<img src="images/Std_Copy.svg" width=16px> [Kopieren](Std_Copy/de.md)** drücken.
     -   Den Menüeintrag **Bearbeiten → <img src="images/Std_Copy.svg" width=16px> Kopieren** auswählen.
     -   Die Option **Bearbeiten → <img src="images/Std_Copy.svg" width=16px> Kopieren** aus dem Kontextmenü der [Baumansicht](Tree_view/de.md) auswählen.
     -   Das Tastaturkürzel **Strg** + **C**.
@@ -30,14 +30,14 @@ Der **Std Kopieren**-Befehl kopiert Objekte in die Zwischenablage.
 
 ## Hinweise
 
--   Wenn du in einem FreeCAD-Textfenster, einem Eingabefenster oder einem Kalkulationsblatt arbeitest, wird der Standard-Tastaturkurzbefehl **Strg**+**C** - in fast allen Fällen - nicht den **Std Kopieren**-Befehl aufrufen, sondern stattdessen die Kopieren-Funktion des Betriebssystems benutzen.
+-   Wenn du in einem FreeCAD-Textfenster, einem Eingabefenster oder einem Kalkulationsblatt arbeitest, wird der Standard-Tastaturkurzbefehl **Strg**+**C** in fast allen Fällen nicht diesen Befehl aufrufen, sondern stattdessen die Kopieren-Funktion des Betriebssystems benutzen.
 -   Es ist nicht möglich, native Objekte zwischen FreeCad und anderen Anwendungen zu kopieren/einzufügen.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

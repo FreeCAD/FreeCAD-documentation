@@ -229,7 +229,7 @@ Now you can proceed to add other primitives like **[<img src=images/Part_Cylinde
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> No problems with meshing of the resulting object, unlike method 5.
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Due to invalidity of self-intersecting sweeps, it is next to impossible to generate a thread with no gap between each tooth, that is, with no straight cylindrical face at the inner sides of the thread.
--   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Boolean operations are required to obtain a single contiguous solid. Boolean operations take take a relatively long time to calculate, and fail often.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Boolean operations are required to obtain a single contiguous solid. Boolean operations take a relatively long time to calculate, and fail often.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Threads with a high number of turns are problematic.
 
 

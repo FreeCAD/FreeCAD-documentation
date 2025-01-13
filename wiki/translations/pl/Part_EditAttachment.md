@@ -14,162 +14,52 @@
 
 ## Opis
 
-**Dołączenie** jest narzędziem do dołączania obiektu do jednego lub większej liczby innych obiektów. Dołączony obiekt jest powiązany z obiektem, do którego się odnosi, co oznacza, że jeśli [umiejscowienie](Std_Placement/pl.md) lub geometria obiektu, do którego wykonano odniesienie zostanie zmieniona, położenie dołączonego obiektu zostanie odpowiednio zaktualizowane.
+<img alt="" src=images/Part_EditAttachment.svg  style="width:24px;"> **Dołączenie** jest narzędziem do dołączania obiektu do jednego lub większej liczby innych obiektów. Dołączony obiekt jest powiązany z obiektem, do którego się odnosi, co oznacza, że jeśli [umiejscowienie](Std_Placement/pl.md) lub geometria obiektu, do którego wykonano odniesienie zostanie zmieniona, położenie dołączonego obiektu zostanie odpowiednio zaktualizowane.
 
 
 
-## Mechanizm dołączania 
+## Silniki dołączania 
 
-Dołączanie obiektu jest kontrolowane przez jeden z czterech silników dołączania. Domyślny silnik używany dla obiektu zależy od jego typu.
+Dołączanie obiektu jest kontrolowane przez jeden z czterech silników dołączania. Domyślny silnik używany dla obiektu zależy od jego typu. Silnik dołączania obiektu można zmienić poprzez jego właściwość **Attacher Engine** (<small>(v1.0)</small> ) lub [ukrytą](Property_editor/pl#Menu_kontekstowe.md) właściwość **Attacher Type**.
 
-Są to:
+Dostępne silniki są wymienione w tabeli poniżej. Silniki dołączania kontrolują właściwość **Umiejscowienie** obiektów. Wszystkie silniki mogą być użyte dla dowolnych obiektów z tą właściwością. Ale wyniki ostatnich trzech z nich mają najwięcej sensu jeśli kształt obiektu pasuje do wspomnianego \'kształtu logicznego\'.
 
--   [Attacher::AttachEnginePoint](#Attacher:_AttachEnginePoint.md)
--   [Attacher::AttachEngineLine](#Attacher:_AttachEngineLine.md)
--   [Attacher::AttachEnginePlane](#Attacher:_AttachEnginePlane.md)
--   [Attacher::AttachEngine3D](#Attacher:_AttachEngine3D.md)
+  Silnik dołączania                                   Typ dołączania                Kształt logiczny
+    
+  [Silnik 3D](#Engine_3D/pl.md)               Attacher::AttachEngine3D      
+  [Silnik Płaszczyzna](#Engine_Plane/pl.md)   Attacher::AttachEnginePlane   Płaska ściana zbieżna z płaszczyzną XY Umiejscowienia
+  [Silnik Linia](#Engine_Line/pl.md)          Attacher::AttachEngineLine    Prosta krawędź współliniowa z osią Z Umiejscowienia
+  [Silnik Punkt](#Engine_Point/pl.md)         Attacher::AttachEnginePoint   Wierzchołek zbieżny z początkiem układu współrzędnych Umiejscowienia
 
-Pozostała część tej strony skupia się na AttachEngine3D. Tryby innych silników są tylko wymienione. Należy pamiętać, że tryby AttachEnginePlane są w rzeczywistości identyczne z trybami AttachEngine3D.
+Pozostała część tej strony skupia się na Silniku 3D. Tryby innych silników są tylko wymienione. Należy pamiętać, że tryby Silnika Płaszczyzna są w rzeczywistości identyczne z trybami Silnika 3D.
 
 
 
 ## Użycie
 
 1.  Wybierz obiekt, który ma zostać dołączony.
-2.  Wybierz opcję z menu **Część → <img src="images/Part_EditAttachment.svg" width=16px> Dołączenie ...**.
+2.  Wykonaj jedną z poniższych czynności:
+    -   Jeśli obiekt ma już właściwość **Map Mode**: kliknij na tym polu w [Edytorze właściwości](Property_editor/pl.md) i wciśnij przycisk **...**, który się pojawi.
+    -   Wybierz opcję z menu **Część → <img src="images/Part_EditAttachment.svg" width=16px> Dołączenie ...**.
 3.  Otworzy się panel zadań **Dołączenie**.
 4.  W górnej części panelu zadań można odczytać *Nie dołączono*. Pierwszy przycisk oznaczony **Wybieranie ...** jest podświetlony, aby wskazać, że oczekiwany jest wybór w oknie [widoku 3D](3D_view.md).
 5.  Wybierz wierzchołek, krawędź lub ścianę/płaszczyznę należącą do innego obiektu.
-6.  W polu wprowadzania po prawej stronie przycisku wyświetlany będzie wybrany obiekt i jego element podrzędny. Na przykład, jeśli wybrana jest ściana [sześcianu środowiska Część](Part_Box/pl.md), pole może pokazywać informację {{Value|Sześcian:Ściana6}}.
+6.  W polu wprowadzania po prawej stronie przycisku wyświetlany będzie wybrany obiekt i jego element podrzędny. Na przykład, jeśli wybrana jest ściana [sześcianu środowiska Część](Part_Box/pl.md), pole może pokazywać informację {{Value|Sześcian:Ściana6}}. Etykieta przycisku wyświetla teraz typ elementu podrzędnego.
 7.  Dostępne tryby są filtrowane na podstawie wybranych odniesień i ich kolejności. Na przykład dla trybów [Wyrównanie O-Z-X](#Wyrównanie_O-Z-X.md) do [Wyrównanie O-Y-X](#Wyrównanie_O-Y-X.md) pierwsze odniesienie musi być wierzchołkiem. Jeśli pierwsze odwołanie jest elementem podrzędnym innego typu, są one automatycznie usuwane z listy.
-8.  Wybierz [Tryb dołączania](#Tryb_dołączania.md) z listy. Aby uzyskać informacje na temat trybów dołączania, wskaż je kursorem myszki, aby wyświetlić podpowiedź.
-9.  W górnej części panelu zadań jest teraz wyświetlana informacja *Dołączono w trybie *.
+8.  W górnej części panelu zadań jest teraz wyświetlana informacja *Dołączono w trybie *.
+9.  Opcjonalnie wybierz inny [Tryb dołączania](#Tryb_dołączania.md) z listy. Aby uzyskać informacje na temat trybów dołączania, wskaż je kursorem myszki, aby wyświetlić podpowiedź.
 10. W zależności od wybranego trybu, można dodać do trzech kolejnych odniesień, naciskając przyciski **Odniesienie2**, **Odniesienie3** i **Odniesienie4** i powtarzając krok 5. Możliwe jest również określenie wszystkich odniesień przed wybraniem trybu dołączania.
-11. Po wybraniu dodatkowego odniesienia etykieta poprzedniego przycisku zmieni się i wyświetli w opisie typ elementu podrzędnego tego odniesienia.
-12. Opcjonalnie można dodać do 3 kolejnych referencji, naciskając przyciski **Odniesienie 2**, **Odniesienie 3** i **Odniesienie 4** i powtarzając krok 4.
-13. Opcjonalnie ustaw [Odsunięcie dołączenia](#Odsunięcie_dołączenia.md).
-14. Naciśnij **OK**.
-15. Jeśli dotyczy, opcjonalnie zmień właściwość **Map Path Parameter** w [Edytorze parametrów](Property_editor/pl.md).
-
-
-
-## Zmiana silnika dołączenia 
-
-Istnieje możliwość ręcznej zmiany silnika dołączania obiektu:
-
-1.  Wybierz obiekt.
-2.  Kliknij prawym przyciskiem myszy w oknie [Edytora właściwości](Property_editor/pl.md) i wybierz **Wyświetl wszystko** z menu kontekstowego.
-3.  Edytuj właściwość **Typ dołączenia** obiektu.
+11. Opcjonalnie ustaw [Odsunięcie dołączenia](#Odsunięcie_dołączenia.md).
+12. Naciśnij **OK**.
+13. Jeśli dotyczy, opcjonalnie zmień właściwość **Map Path Parameter** w [Edytorze właściwości](Property_editor/pl.md).
 
 
 
 ## Tryby dołączenia 
 
 
-<div class="toccolours mw-collapsible mw-collapsed">
 
-
-
-### Attacher::AttachEnginePoint
-
-
-<div class="mw-collapsible-content">
-
--   Nieaktywny,
--   Odniesienie położenia obiektów,
--   Ogniskowa 1,
--   Ogniskowa 2,
--   Na krawędzi,
--   Środek krzywizny,
--   Środek ciężkości,
--   Wierzchołek,
--   W pobliżu punktu 1,
--   W pobliżu punktu 2.
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-
-
-### Attacher::AttachEngineLine
-
-
-<div class="mw-collapsible-content">
-
--   Nieaktywny,
--   Oś X Obiektu,
--   Oś Y obiektu,
--   Oś Z obiektu,
--   Oś krzywizny,
--   Linia kontrolna 1,
--   Linia kontrolna 2,
--   Asymptota 1,
--   Asymptota 2,
--   Stycznie,
--   Normalna do krawędzi,
--   Binormalna,
--   Przez dwa punkty,
--   Linia zbliżeniowa,
--   Pierwsza oś główna,
--   Druga oś główna,
--   Trzecia oś główna,
--   Normalna do powierzchni.
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-
-
-### Attacher::AttachEnginePlane
-
-
-<div class="mw-collapsible-content">
-
--   Nieaktywny,
--   Przenieś odniesienie położenia
--   XY obiektu
--   XZ obiektu
--   YZ obiektu
--   Płaszczyzna ściany
--   Prostopadle do powierzchni
--   Normalna do krawędzi
--   NB układu Freneta
--   TN układu Freneta
--   TB układu Freneta
--   Współosiowo
--   Przekrój przez obrót wokół osi
--   Płaszczyzna wyznaczona przez 3 punkty
--   Normalna do 3 punktów
--   Składany
--   Bezwładność 2-3
--   Wyrównanie O-N-X
--   Wyrównanie O-N-Y
--   Wyrównanie O-X-Y
--   Wyrównanie O-X-N
--   Wyrównanie O-Y-N
--   Wyrównanie O-Y-X
-
-
-</div>
-
-
-</div>
-
-
-
-### Attacher::AttachEngine3D
+### Silnik 3D 
 
 <img alt="" src=images/Part_Offset_Tasks.png  style="width:250px;">
 
@@ -370,7 +260,7 @@ Osie X, Y i Z są dopasowane do osi układu współrzędnych bezwładnościowych
 
 #### Wyrównanie O-Z-X 
 
-Punkt odniesienia położenia jest dopasowany do pierwszego wierzchołka. Osie Z i X są wyrównane w kierunku wierzchołka lub wzdłuż linii.
+Początek obiektu jest dopasowany do pierwszego wierzchołka. Osie Z i X są wyrównane w kierunku wierzchołka lub wzdłuż linii.
 
 Zapoznaj się z treścią strony [Wyrównanie trybów dołączania typu O-X-Y](O-X-Y_Type_Attachment_Modes/pl.md), aby uzyskać więcej informacji na temat następujących trybów:
 
@@ -387,7 +277,7 @@ Zapoznaj się z treścią strony [Wyrównanie trybów dołączania typu O-X-Y](O
 
 #### Wyrównanie O-Z-Y 
 
-Punkt odniesienia położenia jest dopasowany do pierwszego wierzchołka. Osie Z i Y są wyrównane w kierunku wierzchołka lub wzdłuż linii.
+Początek obiektu jest dopasowany do pierwszego wierzchołka. Osie Z i Y są wyrównane w kierunku wierzchołka lub wzdłuż linii.
 
 Patrz [Wyrównanie O-Z-X](#Wyrównanie_O-Z-X.md).
 
@@ -395,7 +285,7 @@ Patrz [Wyrównanie O-Z-X](#Wyrównanie_O-Z-X.md).
 
 #### Wyrównanie O-X-Y 
 
-Punkt odniesianie położenia jest dopasowany do pierwszego wierzchołka. Osie X i Y są wyrównane w kierunku wierzchołka lub wzdłuż linii.
+Początek obiektu jest dopasowany do pierwszego wierzchołka. Osie X i Y są wyrównane w kierunku wierzchołka lub wzdłuż linii.
 
 Patrz [Wyrównanie O-Z-X](#Wyrównanie_O-Z-X.md).
 
@@ -403,7 +293,7 @@ Patrz [Wyrównanie O-Z-X](#Wyrównanie_O-Z-X.md).
 
 #### Wyrównanie O-X-Z 
 
-Punkt odniesienia położenia jest dopasowany do pierwszego wierzchołka. Osie X i Z są wyrównane w kierunku wierzchołka lub wzdłuż linii.
+Początek obiektu jest dopasowany do pierwszego wierzchołka. Osie X i Z są wyrównane w kierunku wierzchołka lub wzdłuż linii.
 
 Patrz [Wyrównanie O-Z-X](#Wyrównanie_O-Z-X.md).
 
@@ -411,7 +301,7 @@ Patrz [Wyrównanie O-Z-X](#Wyrównanie_O-Z-X.md).
 
 #### Wyrównanie O-Y-Z 
 
-Punkt odniesienia położenia jest dopasowany do pierwszego wierzchołka. Osie Y i Z są wyrównane w kierunku wierzchołka lub wzdłuż linii.
+Początek obiektu jest dopasowany do pierwszego wierzchołka. Osie Y i Z są wyrównane w kierunku wierzchołka lub wzdłuż linii.
 
 Patrz [Wyrównanie O-Z-X](#Wyrównanie_O-Z-X.md).
 
@@ -419,9 +309,128 @@ Patrz [Wyrównanie O-Z-X](#Wyrównanie_O-Z-X.md).
 
 #### Wyrównanie O-Y-X 
 
-Punkt odniesiania położenia jest dopasowany do pierwszego wierzchołka. Osie Y i X są wyrównane w kierunku wierzchołka lub wzdłuż linii.
+Początek obiektu jest dopasowany do pierwszego wierzchołka. Osie Y i X są wyrównane w kierunku wierzchołka lub wzdłuż linii.
 
 Patrz [Wyrównanie O-Z-X](#Wyrównanie_O-Z-X.md).
+
+
+
+#### XY równoległe do płaszczyzny 
+
+
+{{Version/pl|1.0}}
+
+Płaszczyzna XY jest wyrównywana aby była równoległa do płaszczyzny XY Umiejscowienia powiązanego obiektu i przechodziła przez wierzchołek. Początek jest dopasowywany do rzutu początku powiązanego obiektu na płaszczyznę XY.
+
+Zauważ, że musisz wskazać cały obiekt a nie tylko jego element podrzędny, taki jak ściana czy płaszczyzna.
+
+:; Kombinacje odniesień:
+
+:   Dowolny cały obiekt (z właściwością **Umiejscowienie**), wierzchołek
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Silnik Płaszczyzna 
+
+
+<div class="mw-collapsible-content">
+
+-   Nieaktywny
+-   Przenieś odniesienie położenia
+-   XY obiektu
+-   XZ obiektu
+-   YZ obiektu
+-   Płaszczyzna ściany
+-   Prostopadle do powierzchni
+-   Normalna do krawędzi
+-   NB układu Freneta
+-   TN układu Freneta
+-   TB układu Freneta
+-   Współosiowo
+-   Przekrój przez obrót wokół osi
+-   Płaszczyzna wyznaczona przez 3 punkty
+-   Normalna do 3 punktów
+-   Składany
+-   Bezwładność 2-3
+-   Wyrównanie O-N-X
+-   Wyrównanie O-N-Y
+-   Wyrównanie O-X-Y
+-   Wyrównanie O-X-N
+-   Wyrównanie O-Y-N
+-   Wyrównanie O-Y-X
+-   XY równolegle do płaszczyzny {{Version/pl|1.0}}
+
+
+</div>
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Silnik Linia 
+
+
+<div class="mw-collapsible-content">
+
+-   Nieaktywny
+-   Oś X Obiektu
+-   Oś Y obiektu
+-   Oś Z obiektu
+-   Oś krzywizny
+-   Linia kontrolna 1
+-   Linia kontrolna 2
+-   Asymptota 1
+-   Asymptota 2
+-   Stycznie
+-   Normalna do krawędzi
+-   Binormalna
+-   Przez dwa punkty
+-   Przecięcie {{Version/pl|1.0}}
+-   Linia zbliżeniowa
+-   Pierwsza oś główna
+-   Druga oś główna
+-   Trzecia oś główna
+-   Normalna do powierzchni
+
+
+</div>
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Silnik Punkt 
+
+
+<div class="mw-collapsible-content">
+
+-   Nieaktywny
+-   Odniesienie położenia obiektów
+-   Ogniskowa 1
+-   Ogniskowa 2
+-   Na krawędzi
+-   Środek krzywizny
+-   Środek ciężkości
+-   Wierzchołek
+-   W pobliżu punktu 1
+-   W pobliżu punktu 2
+
+
+</div>
+
+
+</div>
 
 
 

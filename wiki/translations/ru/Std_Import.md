@@ -30,7 +30,8 @@ The **Std Import** command imports geometry from a different file format into th
 
 1.  There are several ways to invoke the command:
     -   Select the **File → <img src="images/Std_Import.svg" width=16px> Import...** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**I**.
+    -   Use the keyboard shortcut: **Ctrl**+**I**. {{VersionMinus|1.0}}
+    -   Use the keyboard shortcut: **Ctrl**+**Shift**+**I**. <small>(v1.1)</small> 
 2.  Optionally select the correct file format in the dialog box.
 3.  Select a file.
 4.  Press the **Open** button.
@@ -47,15 +48,21 @@ The **Std Import** command imports geometry from a different file format into th
 
 -   To convert an imported [mesh object](Mesh_Workbench.md) into a solid see the [Import from STL or OBJ](Import_from_STL_or_OBJ.md) tutorial.
 -   To import into a new document you can use the [Std Open](Std_Open.md) command.
--   Some workbenches have additional import commands. See: [Import Export](Import_Export.md).
+-   Some workbenches have additional import commands. See [Import Export](Import_Export.md).
 
 
 
 ## Настройки
 
+
+<div class="mw-translate-fuzzy">
+
 -   См. так же: [Настройки Импорта Экспорта](Import_Export_Preferences/ru.md).
 -   Путь к последнему файлу к которому была применена данная команда сохраняется в параметр: **Инструменты → Редактор параметров... → BaseApp → Preferences → General → FileOpenSavePath**.
 -   Путь к последнему импортированному файлу сохраняется в параметр: **Инструменты → Редактор параметров... → BaseApp → Preferences → General → FileImportFilter**.
+
+
+</div>
 
 ## Image Plane 
 
@@ -124,7 +131,7 @@ An Image Plane object is derived from an [App GeoFeature](App_GeoFeature.md) obj
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

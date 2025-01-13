@@ -1,55 +1,31 @@
 # Macro FCSpring On Surface/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro FCSpring On Surface
 |Icon=FCSpring_On_Surface.png
-|Description=Questa macro crea un'elica (o molla) attorno a un oggetto solido qualunque sia la sua forma, l'elica segue l'intera superficie dell'oggetto (è richiesta Python2) <br /> Scarica il [https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png toolBar icon]
+|Description=Questa macro crea un'elica (o molla) attorno a un oggetto solido qualunque sia la sua forma, l'elica segue l'intera superficie dell'oggetto (è richiesto Python2) 
 |Author=Mario52
-|Version=00.00
-|Date=2019/12/20
-|Download=ToolBar icon [https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png the Icons]
-|FCVersion=0.18 é piu alto
-|SeeAlso=[Macro FCSpring Helix Variable](Macro_FCSpring_Helix_Variable/it.md) [<img src=images/FCSpring_Helix_Variable.png style="width:24px">
+|Version=00.01
+|Date=2024/01/15
+|Download=[https://wiki.freecad.org/images/3/38/FCSpring_On_Surface.png ToolBar Icon]
+|FCVersion=0.18 o superiore
+|SeeAlso=[Macro FCSpring Helix Variable](Macro_FCSpring_Helix_Variable/it.md)
 }}
-
-
-</div>
 
 
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
 Questa macro crea un\'elica attorno a un oggetto solido qualunque sia la sua forma, l\'elica segue l\'intera superficie dell\'oggetto. (Python2 è richiesto)
-
-
-</div>
 
 <img alt="" src=images/FCSpring_On_Surface_00.png  style="width:480px;">
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
-
-
-</div>
+## Utilizzo
 
 Seleziona l\'oggetto (solido), la macro calcola per valore predefinito:
 
-
-<div class="mw-translate-fuzzy">
-
--   Il valore di altezza del BoundBox dell\'oggetto l\'asse X BounBox il valore Y dell\'asse BoundBox Z il valore la più bassa dell\'oggetto.
-
-
-</div>
+-   Il valore dell\'altezza del BoundBox dell\'oggetto, il valore X del centro del BoundBox, il valore Y del centro del BoundBox e il valore Z della base del BoundBox.
 
 ![](images/FCSpring_On_Surface_02.png )
 
@@ -61,15 +37,9 @@ Seleziona l\'oggetto (solido), la macro calcola per valore predefinito:
 
 **Coordinate Begin:**
 
-
-<div class="mw-translate-fuzzy">
-
 -   **X :** Il valore X. Se l\'oggetto è sfalsato, il valore dell\'asse centrale X BoundBox viene rilevato e utilizzato per difetto.
--   **Y :** The value Y. Se l\'oggetto è sfalsato, il valore dell\'asse centrale Y BoundBox viene rilevato e utilizzato per difetto.
--   **Z :** The value Z. Se l\'oggetto è sfalsato, il valore del punto più basso dell\'asso Z del BoundBox viene rilevato e utilizzato per difetto.
-
-
-</div>
+-   **Y :** Il valore Y. Se l\'oggetto è sfalsato, il valore dell\'asse centrale Y BoundBox viene rilevato e utilizzato per difetto.
+-   **Z :** Il valore Z. La Z della base del BoundBox viene rilevata e utilizzata per impostazione predefinita.
 
 **Options:**
 
@@ -87,7 +57,7 @@ Seleziona l\'oggetto (solido), la macro calcola per valore predefinito:
 
 ## Script
 
-ToolBar icon
+Icona barra strumenti
 
 ![](images/FCSpring_On_Surface.png )
 
@@ -659,11 +629,13 @@ The Genesis [Zwei Helix - ein Sweep](https://forum.freecadweb.org/viewtopic.php?
 
 The original code [How to intersect a line with a part](https://www.forum.freecadweb.org/viewtopic.php?f=22&t=5456#p44194) by wandererfan
 
-### Version
 
-00.01 2024/01/15 : adapt styleSheet to new Qt
 
-00.00 20/12/2019 : first
+### Versione
+
+00.01 2024/01/15 : adattato foglio di stile al nuovo Qt
+
+00.00 20/12/2019 : iniziale
 
 
 

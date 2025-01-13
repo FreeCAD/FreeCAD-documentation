@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft_PointArray
-   Name/it: Serie su punti
-   MenuLocation: Modifiche , Strumenti serie ,  Serie su punti
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Serie su punti
+   MenuLocation: Modifiche , Strumenti serie ,  Serie su punti<br>Modifica ,  Serie su punti
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Version: 0.18
    SeeAlso: Draft_OrthoArray/it, Draft_PolarArray/it, Draft_CircularArray/it, Draft_PathArray/it, Draft_PathLinkArray/it, Draft_PointLinkArray/it
 ---
@@ -16,11 +16,9 @@
 
 Il comando <img alt="" src=images/Draft_PointArray.svg  style="width:24px;"> **Serie su punti** crea una serie (array) regolare da un oggetto base selezionato posizionando copie nei punti da un oggetto punto. Utilizzare invece il comando [Serie di link su punti](Draft_PointLinkArray/it.md) per creare una serie [Link](App_Link/it.md) più efficiente. Fatta eccezione per il tipo di matrice creata, Serie di link o Serie normale, il comando [Serie di link su punti](Draft_PointLinkArray/it.md) è identico a questo comando.
 
-L\'oggetto di base può essere un oggetto 2D creato con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche un oggetto 3D come quelli creati con [Part](Part_Workbench/it.md), \[ \[PartDesign_Workbench/it\|PartDesign\]\] o [Arch](Arch_Workbench/it.md).
+L\'oggetto di base può essere un oggetto 2D creato con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche un oggetto 3D come quelli creati con [Part](Part_Workbench/it.md), \[ \[PartDesign_Workbench/it\|PartDesign\]\] o [BIM](BIM_Workbench/it.md).
 
-L\'oggetto punto può essere qualsiasi oggetto con una forma e vertici (inclusa una [Parte](Std_Part/it.md) contenente uno o più di tali oggetti), così come un [mesh](Mesh_Workbench/it.md) e un [nuvola di punti](Points_Workbench/it.md). I punti duplicati nell\'oggetto punto vengono filtrati. {{Version/it|0.21}}
-
-In {{VersionMinus/it|0.20}} sono supportati solo tre tipi di oggetto punto, vedere [Oggetto punto versione 0.20 e precedenti](#Oggetto_punto_versione_0.20_e_precedenti.md).
+L\'oggetto punto può essere qualsiasi oggetto con una forma e vertici (inclusa una [Parte](Std_Part/it.md) contenente uno o più di tali oggetti), così come un [mesh](Mesh_Workbench/it.md) e un [nuvola di punti](Points_Workbench/it.md). I punti duplicati nell\'oggetto punto vengono filtrati.
 
 <img alt="" src=images/Draft_PointArray_Example.png  style="width:400px;"> 
 *Serie su punti*
@@ -33,19 +31,10 @@ In {{VersionMinus/it|0.20}} sono supportati solo tre tipi di oggetto punto, vede
 2.  Aggiungere l\'oggetto punto alla selezione.
 3.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_PointArray.svg" width=16px> [Serie su punti](Draft_PointArray/it.md)**.
-    -   Selezionare l\'opzione **Modifiche → Strumenti serie→ <img src="images/Draft_PointArray.svg" width=16px> Serie su punti** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Modifiche → Strumenti serie→ <img src="images/Draft_PointArray.svg" width=16px> Serie su punti** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_PointArray.svg" width=16px> Serie su punti** dal menu.
 4.  La serie viene creata.
 5.  Facoltativamente, modificare le [proprietà](#Proprietà.md) della serie nell\'[Editor delle proprietà](property_editor/it.md).
-
-
-
-## Oggetto punto versione 0.20 e precedenti 
-
-Questi sono gli oggetti punto supportati in {{VersionMinus/it|0.20}} e come possono essere creati:
-
--   [Part Composto](Part_Compound/it.md): creare uno o più [Punti Draft](Draft_Point/it.md) o [Punti Part](Part_Point/it.md), selezionarli e richiamarli con il comando [Part Composto](Part_Compound/it.md).
--   Blocco di Draft: creare uno o più [Punti Draft](Draft_Point/it.md) o [Punti Part](Part_Point/it.md), selezionarli e invocare il comando [Draft Promuovi](Draft_Upgrade/it.md).
--   [Sketch](Sketcher_NewSketch/it.md): Creare uno [Sketch](Sketcher_NewSketch/it.md) e aggiungere uno o più [Punti Sketch](Sketcher_CreatePoint/it.md) allo sketch.
 
 
 
@@ -101,9 +90,11 @@ Le proprietà in questo gruppo sono disponibili solo per le serie di link. Veder
 
 -    **Expand Array|Bool**: specifica se espandere la serie nella [Vista ad albero](Tree_view/it.md) per abilitare la selezione dei suoi singoli elementi. Disponibile solo per le serie di Link.
 
--    **Extra Placement|Placement**: : specifica un ulteriore [posizionamento](Placement/it.md), traslazione e rotazione, per ogni elemento nella serie.
+-    **Extra Placement|Placement**: specifica un ulteriore [posizionamento](Placement/it.md), traslazione e rotazione, per ogni elemento nella serie.
 
--    **Point Object|Link**: specifica l\'oggetto composto i cui punti vengono utilizzati per posizionare gli elementi nella serie. L\'oggetto deve avere una proprietà **Links**, **Components** o **Geometry** e contenere almeno un elemento con **X**, **Y ** e le proprietà **Z**.
+-    **Fuse|Bool**: specifica se gli elementi sovrapposti nell\'array sono fusi o meno. Non utilizzato per per le serie di Link. {{Version/it|0.22}}
+
+-    **Point Object|Link**: specifica l\'oggetto i cui punti vengono utilizzati per posizionare gli elementi nella serie.
 
 ### View
 

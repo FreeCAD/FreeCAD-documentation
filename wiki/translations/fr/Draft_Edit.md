@@ -3,7 +3,7 @@
    Name: Draft Edit
    Name/fr: Draft Éditer
    MenuLocation: Modification , Éditer
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   Workbenches: Draft_Workbench/fr
    Shortcut: **D** **E**
    SeeAlso: Std_Edit/fr
 ---
@@ -12,7 +12,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Edit.svg  style="width:24px;"> **Draft Éditer** place les objets sélectionnés en mode Draft Édition. Dans ce mode, les propriétés des objets peuvent être modifiées graphiquement. En général, les nœuds peuvent être déplacés et, dans certains cas, les options du menu contextuel peuvent être sélectionnées. La commande peut gérer la plupart des objets Draft, mais aussi certains autres objets. Voir [Objets pris en charge](#Objets_pris_en_charge.md). Les objets Draft supportés peuvent aussi être mis en mode Draft Édition avec la commande [Std Mode édition](Std_Edit/fr.md).
+La commande <img alt="" src=images/Draft_Edit.svg  style="width:24px;"> **Draft Éditer** place les objets sélectionnés en mode d\'édition. Dans ce mode, les propriétés des objets peuvent être modifiées graphiquement. En général, les nœuds peuvent être déplacés et, dans certains cas, les options du menu contextuel peuvent être sélectionnées. La commande peut gérer la plupart des objets Draft, mais aussi certains autres objets. Voir [Objets pris en charge](#Objets_pris_en_charge.md). Les objets Draft pris en charge peuvent aussi être mis en mode Draft Éditer avec la commande [Std Mode édition](Std_Edit/fr.md).
 
 ![](images/Draft_Edit_example.png ) 
 *4 objets en mode Draft Éditer : une Draft Polyligne (rouge), un Draft Arc (noir), une Draft B-spline (vert) et une Draft Courbe de Bézier (magenta).*
@@ -41,11 +41,11 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_C
     -   Sélectionnez une option dans le menu contextuel.
     -   Si l\'option sélectionnée nécessite la saisie d\'un point :
         -   Le [panneau des tâches des nœuds](#Modifier_les_n.C5.93uds_par_le_panneau_des_t.C3.A2ches.md) s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-        -   Choisissez un point dans la [vue 3D](3D_view/fr.md) ou rentrez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+        -   Choisissez un point dans la [vue 3D](3D_view/fr.md) ou rentrez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
 6.  Déplacez un nœud de manière facultative :
     -   Cliquez sur le nœud dans la [vue 3D](3D_view/fr.md).
     -   Le [panneau des tâches du nœud](#Modifier_les_n.C5.93uds_par_le_panneau_des_t.C3.A2ches.md) s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-    -   Choisissez un point dans la [vue 3D](3D_view/fr.md) ou rentrez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez un point**.
+    -   Choisissez un point dans la [vue 3D](3D_view/fr.md) ou rentrez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
     -   Le résultat dépend de l\'objet et du nœud sélectionné.
 7.  Appuyez sur **Échap** ou sur le bouton **Fermer** (le bouton en haut du panneau des tâches, sans l\'image) pour terminer la commande.
 
@@ -63,10 +63,11 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 ### Modifier les nœuds par le panneau des tâches 
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune. Vous pouvez aussi appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Ajouter un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune. Vous pouvez aussi appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Pour utiliser des coordonnées polaires, entrez une valeur pour **Longueur** et une valeur pour **Angle**, et appuyez sur **Entrée** après chacune d\'elles.
 -   Cochez la case **Angle** pour contraindre le pointeur à l\'angle spécifié.
--   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   Appuyez sur **R** ou cliquez sur la case à cocher **Relatif** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées du point sélectionné sont relatives au point d\'origine, sinon elles sont relatives à l\'origine du système de coordonnées. {{Version/fr|1.0}}
+-   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md).
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 
 
@@ -79,7 +80,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 -   Si le nœud de début ou de fin d\'une polyligne ouverte est déplacé de manière à coïncider, la polyligne est fermée.
 -   Menu contextuel du noeud : {{Value|Supprimer un point}}. Il doit rester au moins deux points.
--   Menu contextuel de l\'arête : {{Value|Ajouter un point}}, {{Value|Ouvrir une polyligne}}/{{Value|Fermer une polyligne}} ({{Version/fr|0.21}}) et {{Value|Inverser une polyligne}} ({{Version/fr|0.20}}).
+-   Menu contextuel de l\'arête : {{Value|Ajouter un point}}, {{Value|Ouvrir une polyligne}}/{{Value|Fermer une polyligne}} ({{Version/fr|0.21}}) et {{Value|Inverser une polyligne}}.
 
 
 
@@ -220,7 +221,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
 -   La couleur des nœuds temporaires est la même que celle des symboles d\'aimantation. Cette couleur peut être modifiée dans les préférences : **Édition → Préférences... → Draft → Grille et aimantation → Couleur des symboles d'aimantation**. Notez que cette couleur n\'est pas utilisée pour les nœuds temporaires affichés pour les [Draft Courbes de Bézier](Draft_BezCurve/fr.md). Ces noeuds utilisent la **Couleur de ligne** de la courbe à la place.
--   La taille des nœuds dépend de : **Édition → Préférences... → Affichage → Vue 3D → Taille des marqueurs**. {{Version/fr|0.22}}
+-   La taille des nœuds dépend de : **Édition → Préférences... → Affichage → Vue 3D → Taille des marqueurs**. {{Version/fr|1.0}}
 
 
 

@@ -43,5 +43,13 @@ The **Arch CutLine** tool cuts a solid Arch object like an [Arch Wall](Arch_Wall
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/pt-br
+⏵ [documentation index](../README.md) > Arch CutLine/pt-br

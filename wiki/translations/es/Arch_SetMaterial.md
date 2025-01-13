@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -23,6 +25,8 @@ Las herramientas Material permiten agregar [materials](Material.md) al documento
 </div>
 
 ![](images/Arch_materials_01.jpg )
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -43,6 +47,8 @@ Las herramientas Material permiten agregar [materials](Material.md) al documento
 
 
 </div>
+
+
 
 ## Opciones
 
@@ -87,6 +93,11 @@ This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IF
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/es
+⏵ [documentation index](../README.md) > Arch SetMaterial/es

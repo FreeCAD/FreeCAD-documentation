@@ -5,7 +5,7 @@
    MenuLocation: Skizze , Sketcher-Randbedingungen , Vertikal festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **V**
-   SeeAlso: Sketcher_ConstrainHorizontal/de
+   SeeAlso: Sketcher_ConstrainHorVer/de, Sketcher_ConstrainHorizontal/de
 ---
 
 # Sketcher ConstrainVertical/de
@@ -14,11 +14,22 @@
 
 ## Beschreibung
 
-Erstellt die Randbedingung VertikalFestlegen für die ausgewählten Linien- oder Linienzugelemente. Ab {{{VersionPlus/de|0.17}}} kann sie auch Knoten vertikal festlegen. Es kann mehr als ein Objekt ausgewählt werden.
+Das Werkzeug <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> [Sketcher VertikalFestlegen](Sketcher_ConstrainVertical/de.md) legt Linien oder Punktpaare vertikal fest (parallel zur vertikalen Achse der Skizze).
+
+
+{{Version/de|1.0}}
+
+: In den meisten Fällen ist es ratsam das kombinierte Werkzeug [Sketcher HorVerFestlegen](Sketcher_ConstrainHorVer/de.md) zu verwenden.
 
 
 
 ## Anwendung
+
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
+
+
+
+### [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md) 
 
 1.  Die Linien oder Knoten auswählen, die vertikal festgelegt werden sollen.
 2.  Um den Befehl VertikalFestlegen aufzurufen:
@@ -30,12 +41,15 @@ Erstellt die Randbedingung VertikalFestlegen für die ausgewählten Linien- oder
 
 
 
+### Einmal-Ausführen-Modus 
+
+Siehe [Sketcher HorizontalFestlegen](Sketcher_ConstrainHorizontal/de#Einmal-Ausführen-Modus.md).
+
+
+
 ## Skripten
 
-
-```pythonSketch.addConstraint(Sketcher.Constraint('Vertical', Line))```
-
-Die Seite [Sketcher Skripterstellung](Sketcher_scripting/de.md) erklärt die Werte, die für `Line` verwendet werden können und enthält weitere Beispiele, wie man Randbedingungen mit Python-Skripten erstellt.
+Siehe [Sketcher HorizontalFestlegen](Sketcher_ConstrainHorizontal/de#Skripten.md).
 
 
 

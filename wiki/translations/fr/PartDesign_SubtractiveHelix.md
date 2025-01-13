@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign SubtractiveHelix
    Name/fr: PartDesign Hélice soustractive
-   MenuLocation: Part Design , Créer une fonction soustractive , Hélice soustractive
+   MenuLocation: PartDesign , Créer une fonction soustractive , Hélice soustractive
    Workbenches: PartDesign_Workbench/fr
    Version: 0.19
    SeeAlso: PartDesign_AdditiveHelix/fr
@@ -41,11 +41,11 @@ Lors de la création d\'une hélice soustractive, la boîte de dialogue **Param�
 Cette option spécifie l\'axe autour duquel l\'esquisse doit être balayée.
 
 -   **Axe normal à l\'esquisse** : sélectionne la normale de l\'esquisse qui passe par l\'origine de l\'esquisse comme axe. {{Version/fr|0.20}}
--   **Axe d\'esquisse vertical** : sélectionne l\'axe vertical de l\'esquisse.
--   **Axe d\'esquisse horizontal** : sélectionne l\'axe horizontal de l\'esquisse.
+-   **Axe vertical de l\'esquisse** : sélectionne l\'axe vertical de l\'esquisse.
+-   **Axe horizontal de l\'esquisse** : sélectionne l\'axe horizontal de l\'esquisse.
 -   **Ligne de construction** : sélectionne une ligne de construction contenue dans l\'esquisse utilisée par l\'hélice. La liste déroulante contiendra une entrée pour chaque ligne de construction. La première ligne de construction créée dans l\'esquisse sera intitulée *Ligne de construction 1*.
--   **Axes de base (X/Y/Z)** : sélectionne l\'axe X, Y ou Z de l\'origine du corps ;
--   **Sélectionnez une référence\...** : permet de sélectionner dans la vue 3D une arête sur le corps ou une [ligne de référence](PartDesign_Line/fr.md).
+-   **Axes (X/Y/Z)** : sélectionne l\'axe X, Y ou Z de l\'origine du corps ;
+-   **Sélectionner une référence\...** : permet de sélectionner dans la vue 3D une arête sur le corps ou une [ligne de référence](PartDesign_Line/fr.md).
 
 ### Mode
 
@@ -84,25 +84,25 @@ Angle du cône qui forme une coque autour de l\'hélice. Plage autorisée : \[-8
 
 ### Pas à gauche 
 
-Si coché, le sens de rotation de l\'hélice est inversé, passant par défaut du sens des aiguilles d\'une montre au sens inverse.
+Si cette case est cochée, le sens de rotation de l\'hélice est inversé, passant par défaut du sens horaire par défaut au sens antihoraire.
 
 
 
 ### Inversé
 
-Si coché, la direction de l\'axe de l\'hélice est inversée par rapport à la valeur par défaut.
+Si la case est cochée, la direction de l\'axe de l\'hélice est inversée par rapport à la valeur par défaut.
 
 
 
 ### Supprimer l\'extérieur du profil 
 
-Si coché, le résultat sera l\'intersection du profil balayé et du corps préexistant.
+Si la case est cochée, le résultat sera l\'intersection du profil balayé et du corps préexistant.
 
 
 
-### Mise à jour de la vue 
+### Mettre à jour la vue 
 
-Si coché, l\'hélice sera affichée dans la vue et la mise à jour sera automatique à chaque modification des paramètres.
+Si la case est cochée, l\'hélice sera affichée dans la vue et la mise à jour sera automatique à chaque modification des paramètres.
 
 
 
@@ -120,7 +120,7 @@ Si coché, l\'hélice sera affichée dans la vue et la mise à jour sera automat
 
 -    **Turns**: nombre de tours (ne doit pas être un nombre entier)
 
--    **Left Handed**: voir [Gaucher](#Gaucher.md).
+-    **Left Handed**: voir [Pas à gauche](#Pas_à_gauche.md).
 
 -    **Reversed**: vrai ou faux. Voir [Inversé](#Invers.C3.A9.md).
 
@@ -143,6 +143,13 @@ Si coché, l\'hélice sera affichée dans la vue et la mise à jour sera automat
 -    **Up to face**: non utilisé.
 
 -    **Allow multiple face**: non utilisé.
+
+
+
+## Remarques
+
+-   Une <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [PartDesign Forme liée](PartDesign_ShapeBinder/fr.md) ne peut pas être utilisée pour le profil.
+-   Lors de l\'utilisation d\'une <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md) pour le profil, la sélection de la liaison dans la [vue en arborescence](Tree_view/fr.md) échouera, mais la face de la liaison devra être sélectionnée dans la [vue 3D](3D_view/fr.md).
 
 
 

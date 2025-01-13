@@ -28,23 +28,27 @@ Veuillez visiter la page [Part Scinder](Part_Slice/fr.md) pour plus d\'informati
 
 La commande Séparer/exploser crée plus que l\'objet tranché. Dans l\'exemple suivant, un cube est découpé en tranches par une face.
 
-Le tranchage est créé et pour chaque partie de celui-ci, un [Part Filtre composé](Part_CompoundFilter/fr.md) est créé. Ainsi, la même tranche se produit plusieurs fois sous chaque CompoundFilter (Filtre composé). Tous ces CompoundFilters sont réunis dans un Compound (Composé).
+Le tranchage est créé et pour chaque partie de celui-ci, un [Part Filtre de composé](Part_CompoundFilter/fr.md) est créé. Ainsi, la même tranche se produit plusieurs fois sous chaque CompoundFilter (Filtre de composé). Tous ces CompoundFilters sont réunis dans un Compound (Composé).
 
 ![](images/Part_SliceApartTree.png )
+
+
 
 ## Exemple
 
 -   Faire un puzzle : Voir [Part Scinder](Part_Slice/fr.md) exemple étapes 1 à 6
 
+
+
 ## Script
 
-L\'outil peut être utilisé dans une [macros](macros/fr.md) et à partir de la console python en utilisant la fonction suivante :
+L\'outil peut être utilisé dans une [macro](macros/fr.md) et à partir de la console Python en utilisant la fonction suivante :
 
 `BOPTools.SplitFeatures.makeSlice(name)`
 
-Réglez le mode sur **Split** pour séparer/exploser
+Réglez le mode sur **Scinder** pour séparer/exploser
 
--   Crée une fonction Slice vide. Les propriétés \"Base\" et \"Outils\" doivent être attribuées explicitement, par la suite.
+-   Crée une fonction Slice vide. Les propriétés \"Base\" et \"Tools\" doivent être attribuées explicitement, par la suite.
 -   Renvoie l\'objet nouvellement créé.
 
 Séparer/exploser peut également être appliqué à des formes simples, sans avoir besoin d\'un objet document via : 
@@ -59,9 +63,13 @@ j.Tools = FreeCADGui.Selection.getSelection()[1:]
 
 L\'outil lui-même est implémenté en Python, voir **/Mod/Part/BOPTools/SplitFeatures.py** ([lien GitHub](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/SplitFeatures.py)) là où FreeCAD est installé.
 
+
+
 ## Remarques
 
 Séparer/exploser a été introduit dans FreeCAD v0.18.15506. FreeCAD doit être compilé avec OCC 6.9.0 ou une version ultérieure sinon, l\'outil n\'est pas disponible.
+
+
 
 ## Tutoriels vidéo 
 

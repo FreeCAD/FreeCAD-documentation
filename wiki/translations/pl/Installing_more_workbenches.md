@@ -40,9 +40,9 @@ Skopiuj folder środowiska pracy do katalogu `$INSTALL_DIR/Mod/`, gdzie `$INSTAL
 
 Skopiuj folder środowiska pracy do katalogu `$USER_DIR/Mod/`, gdzie `$USER_DIR` jest katalogiem FreeCAD dla konkretnego `username`. *(można go znaleźć wpisując `App.getUserAppDataDir()` w [konsoli Python](Python_console/pl.md))*.
 
--   W systemie Linux jest to zazwyczaj `/home/username/.local/share/FreeCAD/Mod/` (<small>(v0.20)</small> ) lub `/home/username/.FreeCAD/Mod/` ({{VersionMinus/pl|0.19}}).
+-   W systemie Linux jest to zazwyczaj `/home/username/.local/share/FreeCAD/Mod/`.
 -   W systemie Windows jest to `%APPDATA%\FreeCAD\Mod\`, czyli zwykle `C:\Users\username\Appdata\Roaming\FreeCAD\Mod\`.
--   Na macOS jest to zwykle `/Users/username/Library/Preferences/FreeCAD/Mod/`.
+-   Na macOS jest to zwykle `/Users/username/Library/Application Support/FreeCAD/Mod/`.
 
 
 

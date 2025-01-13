@@ -52,10 +52,14 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_WhatsThis.svg  style="width:32px;"> [What\'s This](Std_WhatsThis.md): Opens the help documentation for a command.
 
+-   <img alt="" src=images/Std_RestartInSafeMode.svg  style="width:32px;"> [Restart in safe mode](Std_RestartInSafeMode.md): Restarts FreeCAD in a *factory reset* state for debugging. <small>(v1.0)</small> 
+
+-   <img alt="" src=images/Start_Start.svg  style="width:32px;"> [Start](Start_Start.md): Opens the Start page. <small>(v1.0)</small> 
 
 
 
- {{Std Base navi}}
+
+ {{Std_Base_navi}}
 
 
 

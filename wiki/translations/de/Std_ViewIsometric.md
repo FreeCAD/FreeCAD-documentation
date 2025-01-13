@@ -23,37 +23,34 @@ Der **Std AnsichtIsometrisch**-Befehl richtet die Kamera in der aktiven [3D-Ansi
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Std_ViewIsometric.svg" width=16px> [Std Isometrische Ansicht auswählen (0)](Std_ViewIsometric/de.md)** drücken.
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Std_ViewIsometric.svg" width=16px> [Isometrisch](Std_ViewIsometric/de.md)** drücken.
     -   Den Menüeintrag **Ansicht → Standardansichten → Axonometrisch → Isometrisch** auswählen.
     -   Die Menüoption **Standardansichten → Axonometrisch → Isometrisch** im Kontextmenü der [3D-Ansicht](3D_view/de.md) auswählen.
-    -   Die Menüoption **<img src="images/Std_ViewIsometric.svg" width=16px> Isometric** im Miniwürfelmenü des [Navigationswürfels](Navigation_Cube/de.md) auswählen.
+    -   Die Menüoption **<img src="images/Std_ViewIsometric.svg" width=16px> Isometrisch** im Miniwürfelmenü des [Navigationswürfels](Navigation_Cube/de.md) auswählen.
     -   Das Tastaturkürzel: **0**.
 
 
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um die Ansicht auf isometrisch zu ändern, verwende die Methode `viewIsometric` des AktiveAnsicht Objekts. Diese Methode ist nicht verfügbar, wenn sich FreeCAD im Konsolenmodus befindet.
+Die Methode `viewIsometric` des View-Objekts wird verwendet, um die Ansicht auf isometrisch zu ändern. Die Methoden `viewDimetric` und `viewTrimetric` stehen auch zur Verfügung.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.viewIsometric()
-FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.viewIsometric()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

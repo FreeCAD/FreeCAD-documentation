@@ -11,10 +11,19 @@
 # Arch BuildingPart/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Parti di edificio sostituisce i vecchi [Piano](Arch_Floor/it.md) e [Edificio](Arch_Building/it.md) di Arch con una versione più capace che può essere utilizzata non solo per creare Piani o Livelli, ma anche tutti i tipi di situazioni in cui è necessario raggruppare oggetti Arch o BIM diversi e quel gruppo può aver bisogno di essere gestito come un oggetto o replicato.
+
+
+</div>
 
 
 
@@ -84,7 +93,7 @@ Una Parte di Edificio di Arch deriva da un oggetto [App GeoFeature](App_GeoFeatu
 
 {{TitleProperty|Children}}
 
--    **Height Propagate|Bool**: Se vero, il valore dell\'altezza si propaga agli oggetti contenuti.
+-    **Height Propagate|Bool**: Se vero, il valore dell\'altezza si propaga agli oggetti contenuti. Vedere la proprietà **Height** per ulteriori informazioni.
 
 
 {{TitleProperty|IFC}}
@@ -240,6 +249,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/it
+⏵ [documentation index](../README.md) > Arch BuildingPart/it

@@ -9,7 +9,7 @@ Uchopování znamená \"přilepení\" následujících 3D bodu k existujícímu 
 
 </div>
 
-Snapping is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) commands.
+Snapping is available with most [Draft](Draft_Workbench.md) and [BIM](BIM_Workbench.md) commands.
 
 ![](images/Draft_Snap_Endpoint_example.png ) 
 *Snapping to the endpoint of an edge*

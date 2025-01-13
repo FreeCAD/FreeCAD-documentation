@@ -1,9 +1,14 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand
    Name: FEM MaterialFluid
    MenuLocation: Model , Materials , Material for fluid
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
+}}
+{{GuiCommandFemInfo
+   Solvers: CalculiX, Elmer
+}}
 ---
 
 # FEM MaterialFluid/en
@@ -23,11 +28,10 @@ Creates a material for fluid.
 2.  To edit an existing MaterialFluid object:
     -   Double-click it in the [Tree view](Tree_view.md).
 3.  The FEM material task panel opens.
-4.  Select a fluid type. For Computational Fluid Dynamics (CFD), *Air* or *Water* are common options.
-5.  Provided you are applying fluid to the whole object, don\'t select any geometrical entities (leave the reference list empty). Fluid will be applied to the whole model. Otherwise assign fluid to particular model domains manually by selecting some of them for each inserted material, if you do that, do not leave any domain of your model without fluid assigned.
-6.  You can adjust fluid properties such as density, kinematic viscosity, thermal conductivity, etc., a few key fluids are already assigned in the list and they don\'t need any tweaking.
-7.  If you make modifications, you can save your customized material.
-8.  Press the **Close** button to close the task panel.
+4.  Select a fluid material from the drop-down list. For Computational Fluid Dynamics (CFD), *Air* or *Water* are common options.
+5.  Optionally, press the **Use this task panel** button to modify material properties such as density, kinematic viscosity, thermal conductivity, etc.
+6.  Provided you are applying fluid to the whole object, don\'t select any geometrical entities (leave the reference list empty). Fluid will be applied to the whole model. Otherwise assign fluid to particular model domains manually by selecting some of them for each inserted material, if you do that, do not leave any domain of your model with no fluid assigned.
+7.  Press the **Close** button to close the task panel.
 
 
 

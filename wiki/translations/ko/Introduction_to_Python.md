@@ -1,29 +1,20 @@
 # Introduction to Python/ko
-<div class="mw-translate-fuzzy">
+## 소개
+
+이것은 [파이썬](https://en.wikipedia.org/wiki/Python_%28programming_언어%29)을 처음 접하는 사람들을 위한 짧은 자습서입니다. 파이썬은 오픈 소스, 다중 플랫폼[프로그래밍 언어](https://en.wikipedia.org/wiki/Programming_언어)입니다.
+
+-   인간이 읽을 수 있도록 설계되어 상대적으로 배우고 이해하기 쉽습니다.
+-   통역 됩니다. 이는 프로그램을 실행하기 전에 컴파일할 필요가 없음을 의미합니다. 원하는 경우 파이썬 코드를 한 줄씩 즉시 실행할 수도 있습니다.
+-   스크립팅 언어로 다른 프로그램에 포함될 수 있습니다. FreeCAD에는 파이썬 통역기가 내장되어 있습니다. FreeCAD의 일부를 조작하기 위해 파이썬 코드를 작성할 수 있습니다. 이것은 매우 강력합니다. 즉, 자신만의 도구를 만들 수 있다는 의미입니다.
+-   확장이 가능하며, 새로운 모듈을 쉽게 파이썬 설치에 연결하고 기능을 확장할 수 있습니다. 예를 들어, 파이썬이 이미지를 읽고 쓸 수 있고, Twitter와 통신할 수 있으며, 운영 체제에서 수행할 작업을 예약할 수 있는 모듈이 있습니다.
+
+다음은 매우 기본적인 소개일 뿐 완전한 자습서는 아닙니다. 그러나 이것이 FreeCAD와 그 메커니즘에 대한 추가 탐구를 위한 좋은 출발점이 되기를 바랍니다.파이썬 통역기에 아래 코드 조각을 입력하는 것이 좋습니다.
 
 
-{{docnav|Macros|Python scripting tutorial}}
 
+## 통역기
 
-</div>
-
-
-
-
-## Introduction
-
-This is a short tutorial for those new to [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29). Python is an open-source, multiplatform [programming language](https://en.wikipedia.org/wiki/Programming_language). It has several features that make it different from other programming languages, and very accessible to new users:
-
--   It has been designed to be to readable by human beings, making it relatively easy to learn and understand.
--   It is interpreted, this means that programs do not need to be compiled before they can be executed. Python code can be executed immediately, even line by line if you wish.
--   It can be embedded in other programs as a scripting language. FreeCAD has an embedded Python interpreter. You can write Python code to manipulate parts of FreeCAD. This is very powerful, it means you can build your very own tools.
--   It is extensible, you can easily plug new modules into your Python installation and extend its functionality. For example, there are modules that allow Python to read and write images, to communicate with Twitter, to schedule tasks to be performed by your operating system, etc.
-
-The following is a very basic introduction, and by no means a complete tutorial. But hopefully it will provide a good starting point for further exploration into FreeCAD and its mechanisms. We strongly encourage you to enter the code snippets below into a Python interpreter.
-
-## The interpreter 
-
-Usually when writing computer programs, you open a text editor or your special programming environment (which is basically a text editor with some additional tools), write your program, then compile and execute. Often one or more errors were made during entry, so your program won\'t work. You may even get an error message telling you what went wrong. Then you go back to your text editor, correct the mistakes, run again, repeating until your program works as intended.
+일반적으로 컴퓨터 프로그램을 작성할 때 텍스트 편집기나 특수 프로그래밍 환경(기본적으로 몇 가지 추가 도구가 포함된 텍스트 편집기)을 열고 프로그램을 작성한 다음 컴파일하고 실행합니다. 입력하는 동안 하나 이상의 오류가 발생하여 프로그램이 작동하지 않는 경우가 많습니다. 무엇이 잘못되었는지 알려주는 오류 메시지가 나타날 수도 있습니다. 그런 다음 텍스트 편집기로 돌아가 실수를 수정하고 다시 실행하며 프로그램이 의도한 대로 작동할 때까지 반복합니다.
 
 In Python that whole process can be done transparently inside the Python interpreter. The interpreter is a Python window with a command prompt, where you can simply type Python code. If you have installed Python on your computer (download it from the [Python website](https://www.python.org/) if you are on Windows or Mac, install it from your package repository if you are on GNU/Linux), you will have a Python interpreter in your start menu. But, as already mentioned, FreeCAD also has a built-in Python interpreter: the [Python console](Python_console.md).
 
@@ -55,7 +46,7 @@ The Python interpreter also has a built-in help system. Let\'s say we don\'t und
 
 
 ```python
-help("print")
+help(print)
 ```
 
 You\'ll get a long and complete description of everything the `print()` command can do.
@@ -500,15 +491,6 @@ dir()
 
 
 {{Top}}
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav|[Macros](Macros.md)|[Python 스크립팅 자습서](Python_scripting_tutorial.md)}}
-
-
-</div>
 
 
 

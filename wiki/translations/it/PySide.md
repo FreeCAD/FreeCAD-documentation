@@ -7,13 +7,15 @@
 
 
 
+
+
 ## Introduzione
 
 La libreria [PySide](PySide/it.md) dà accesso al toolkit Qt dell\'interfaccia utente grafica multipiattaforma (GUI) di [Python](Python/it.md). Qt è una raccolta di librerie C++, ma con l\'aiuto di PySide, gli stessi componenti possono essere usati da [Python](Python/it.md). Ogni interfaccia grafica che può essere creata in C++, può anche essere creata e modificata in Python. Un vantaggio dell\'utilizzo di Python è che le interfacce Qt possono essere sviluppate e testate dal vivo, poiché non è necessario compilare i file sorgente.
 
 Quando si installa FreeCAD, si dovrebbe ottenere sia Qt che PySide come parte del pacchetto. Se si sta [compilando](Compiling/it.md), si deve verificare che queste due librerie siano installate affinché FreeCAD funzioni correttamente. Naturalmente, PySide funzionerà solo se è presente Qt.
 
-In passato, FreeCAD utilizzava PyQt, un\'altra associazione Qt per Python, ma nel 2013 ([commit 1dc122dc9a](https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) il progetto è migrato a PySide perché ha una [licenza](licence/it.md) più permissiva.
+In passato, FreeCAD utilizzava PyQt, un\'altra associazione Qt per Python, ma nel 2013 ([commit 1dc122dc9a](https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) il progetto è migrato a PySide perché ha una [Licenza](License/it.md) più permissiva.
 
 Per ulteriori informazioni, vedere:
 
@@ -22,6 +24,8 @@ Per ulteriori informazioni, vedere:
 
 ![](images/PySideScreenSnapshot1.jpg ) ![](images/PySideScreenSnapshot2.jpg ) 
 *Esempi creati con PySide. A sinistra: una semplice finestra di dialogo. A destra: una finestra di dialogo più complessa con grafici.*
+
+
 
 ## PySide in FreeCAD con Qt5 
 
@@ -45,7 +49,7 @@ PySide2.QtUiTools -> PySide.QtUiTools
 L\'unico aspetto insolito è che le classi `PySide2.QtWidgets` sono posizionate nel namespace `PySide.QtGui`. 
 ```python
 PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
-``` {{Top}}
+```
 
 ## Esempi di utilizzo di PySide 
 
@@ -55,7 +59,7 @@ PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
 
 Gli esempi di PySide sono divisi in 3 parti, differenziate per livello di esposizione a PySide, Python e alle parti incorporate in FreeCAD. La prima pagina contiene una panoramica e le basi della materia, fornisce una descrizione di PySide e di come è organizzato, mentre la seconda e la terza pagina contengono soprattutto degli esempi di codice di diversi livelli.
 
-Si ritiene che questi esempi siano utili per iniziare, dopodiché l\'utente potrà consultare altre risorse online o la documentazione ufficiale. {{Top}}
+Si ritiene che questi esempi siano utili per iniziare, dopodiché l\'utente potrà consultare altre risorse online o la documentazione ufficiale. 
 
 ## Documentazione
 

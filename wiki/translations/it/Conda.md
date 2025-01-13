@@ -4,11 +4,13 @@
 
 
 
-This page is meant to introduce Conda as a package, dependency, and environment manager for FreeCAD.
+Questa pagina ha lo scopo di presentare Conda come gestore di pacchetti, dipendenze e ambienti per FreeCAD.
 
 Attualmente questa pagina cataloga principalmente i collegamenti alle discussioni pertinenti del forum di FreeCAD e ad altri luoghi sul web, ma l\'intenzione è di documentare i punti salienti di questi collegamenti in questa pagina.
 
-See also a [video tutorial](https://www.youtube.com/watch?v=sCs8xlrw2nM) of the contents of this page
+Vedere anche questo [video tutorial](https://www.youtube.com/watch?v=sCs8xlrw2nM) sui contenuti di questa pagina
+
+
 
 ## Motivazione
 
@@ -16,73 +18,85 @@ Le motivazioni per l\'utilizzo di Conda sono molteplici, così come lo scopo di 
 
 Analizziamole.
 
+
+
 ### Conda come gestore di pacchetti 
 
-First, Conda is a package manager \-- similar to apt or pip.
+Innanzitutto, Conda è un gestore di pacchetti, simile a apt o pip.
 
-This means we can install **packages** with a a simple conda install from various [channels](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html#what-is-a-conda-channel) such as [conda-forge](https://conda-forge.org/).
+Ciò significa che possiamo installare **pacchetti** con un semplice conda install da vari [canali](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html#what-is-a-conda-channel) come [conda-forge](https://conda-forge.org/).
 
-Conda Forge is analogous to [the Python Package Index (PyPI)](https://pypi.org/), a community channel made up of thousands of contributors, and serves [freecad](https://anaconda.org/conda-forge/freecad) as a conda package.
+Conda Forge è analogo a [Python Package Index (PyPI)](https://pypi.org/), un canale comunitario composto da migliaia di contributori e serve [freecad](https://anaconda.org/conda-forge/freecad) come pacchetto conda.
+
+
 
 ### Conda come gestore delle dipendenze 
 
-Next, Conda is a dependency manager, also similar to apt or pip.
+Inoltre, Conda è un gestore delle dipendenze, anch\'esso simile a apt o pip.
 
-Conda can manage the dependencies and install the dependencies for a project like FreeCAD.
+Conda può gestire le dipendenze ed installarle per un progetto come FreeCAD.
 
-Why not just use pip? pip works really well for managing the dependencies of projects that *only* use python.
+Perché non usare semplicemente pip? pip funziona molto bene per gestire le dipendenze di progetti che utilizzano *solo* Python.
 
-Conda works for multiple languages, and is therefore better suited for managing the dependencies of projects like FreeCAD that have dependencies across a variety of languages like C / C++ and Python.
+Conda funziona per più linguaggi ed è quindi più adatto per gestire le dipendenze di progetti come FreeCAD che hanno dipendenze in una varietà di linguaggi come C/C++ e Python.
+
+
 
 ### Conda come gestore dell\'ambiente 
 
-Conda has the concept of an [environment](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html) which is the unique combination of packages and versions needed to run a piece of software. For example, a FreeCAD workbench.
+Conda ha il concetto di un [ambiente](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html) che è la combinazione unica di pacchetti e versioni necessarie per eseguire una parte di software. Ad esempio, un ambiente di lavoro di FreeCAD.
 
-With environments, you can easily \"activate\" and \"deactivate\" them, or switch between versions of packages needed for particular pieces of software.
+Per gli ambienti è possibile \"attivarli\" e \"disattivarli\" facilmente oppure passare da una versione all\'altra dei pacchetti necessari per particolari software.
 
-This is useful for testing how a workbench behaves with a particular set of packages. For example, how does a workbench behave in FreeCAD 18.4 vs 19?
+Ciò è utile per testare il comportamento di un ambiente con un particolare set di pacchetti. Ad esempio, come si comporta un ambiente di lavoro in FreeCAD 18.4 rispetto a 19?
 
-Conda environments allow you to reproduce the same exact environment on different machines.
+Gli ambienti Conda ti consentono di riprodurre lo stesso esatto ambiente su macchine diverse.
 
-For example, multiple local developer machines, or a remote build-server hosted by Travis CI.
+Ad esempio, più macchine di sviluppo locali o un server di build remoto ospitato da Travis CI.
+
+
 
 ## Installazione di Conda 
 
 1\. [Install Miniconda](https://docs.conda.io/en/latest/miniconda.html).
 
-2.Verificare che l\'installazione sia riuscita e acquisisci familiarità con l\'interfaccia a riga di comando di conda (CLI command line interface). $ conda --help
+2.Verificare che l\'installazione sia riuscita e acquisisci familiarità con l\'interfaccia a riga di comando di 
 
-## Installing FreeCAD Using Conda 
+## Installazione di FreeCAD utilizzando Conda 
 
-First, you need to decide whether you want to install a **stable** version of FreeCAD, or experiment with the latest **unstable** code from FreeCAD master.
+Per prima cosa è necessario decidere se si desidera installare una versione **stable** di FreeCAD o sperimentare l\'ultimo codice main **unstable** di FreeCAD.
 
-Stable released versions of FreeCAD are served on the conda-forge channel, while the latest from FreeCAD master is served on the freecad/label/dev channel.
+Le versioni stabili di FreeCAD sono disponibili sul canale conda-forge, mentre le ultime novità main di FreeCAD sono disponibili sul canale freecad/label/dev.
 
-  Conda Channel         Stable?
+  Canale Conda          Stabile?
    
-  conda-forge         Yes ✔️
+  conda-forge         Sì ✔️
   freecad/label/dev   No ❌
 
-Secondly, since you can easily create dedicated environments in conda, it\'s recommended to create one for FreeCAD.
+In secondo luogo, poiché è possibile creare facilmente ambienti dedicati in conda, si consiglia di crearne uno per FreeCAD.
 
-The create command allows you to create an environment from a list of specified packages. In our case, we want to create an environment called \"fcenv\" (short for FreeCAD environment) from the freecad package, and tell conda to search for the freecad package using the conda-forge channel. 
+Il comando create consente di creare un ambiente da un elenco di pacchetti specificati. Nel nostro caso, si vuole creare un ambiente chiamato \"fcenv\" (abbreviazione di ambiente FreeCAD) dal pacchetto freecad e dire a conda di cercare il pacchetto freecad utilizzando il comando del canale conda-forge. 
 ```python
 conda create --name fcenv --channel conda-forge freecad
-``` **Tip:** You can alternatively tell conda to always search conda-forge when installing packages with the following command: 
+``` **Suggerimento:** In alternativa su può dire a conda di cercare sempre conda-forge durante l\'installazione dei pacchetti con il seguente comando: 
 ```python
 conda config --add channels conda-forge
-``` The weekly builds can be installed from the freecad/label/dev channel like so: 
+``` Le build settimanali possono essere installate dal canale freecad/label/dev in questo modo: 
 ```python
 conda create --name fcenv-dev --channel freecad/label/dev freecad
 ```
 
-## FreeCAD Forum Discussion 
+
+
+## Discussione nel forum di FreeCAD 
 
 -   [Let\'s talk about Conda](https://forum.freecadweb.org/viewtopic.php?t=39656)
 -   [Packaging solution: (ana)conda](https://forum.freecadweb.org/viewtopic.php?f=10&t=15197)
 -   [FreeCAD Conda Distribution](https://forum.freecadweb.org/viewtopic.php?f=8&t=45582)
 
-## See Also 
+
+
+## Vedere anche 
 
 -   <https://docs.conda.io/en/latest/>
 -   <https://conda-forge.org/docs/>

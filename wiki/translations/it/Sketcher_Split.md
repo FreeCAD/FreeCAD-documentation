@@ -1,45 +1,51 @@
 ---
  GuiCommand:
    Name: Sketcher Split
-   MenuLocation: Sketch , Sketcher geometries , Split edge
-   Workbenches: Sketcher_Workbench
+   Name/it: Sketcher Dividi
+   MenuLocation: Schizzo , Strumenti Sketcher , Dividi bordo
+   Workbenches: Sketcher_Workbench/it
    Shortcut: **G** **Z**
    Version: 0.20
-   SeeAlso: Sketcher_Trimming
+   SeeAlso: Sketcher_Trimming/it
 ---
 
 # Sketcher Split/it
 
-## Description
 
-This tool splits an edge into two, with existing applicable constraints being copied to the new edge. The position of the point where the edges meet is not constrained. Periodic curves (i.e. circles, ellipses and periodic B-splines) are converted to non-periodic curves (respectively arcs of circles, arcs of ellipses and non-periodic B-splines).
 
-![](images/SketcherSplitExample1.png ) ![](images/SketcherSplitExample2.png ) ![](images/SketcherSplitExample3.png )
+## Descrizione
 
-## Usage
+Lo strumento <img alt="" src=images/Sketcher_Split.svg  style="width:24px;"> [Sketcher Dividi](Sketcher_Split/it.md) divide un bordo. Se il bordo è una curva chiusa (cioè un cerchio, un\'ellisse o una B-spline periodica) viene convertito in una curva aperta (rispettivamente un arco, un arco di ellisse o una B-spline non periodica).
 
-1.  Press the **[<img src=images/Sketcher_Split.svg style="width:16px"> [Split edge](Sketcher_Split.md)** button. The mouse pointer turns into a white cross with a red split symbol.
-2.  Click on the edge in the place where you want to split it.
-3.  From the line and arc edges, two new will be created, connected at the point clicked. A circle is converted to an arc with the very same center point and other constraints the original circle had.
-4.  Pressing **Esc** or pressing the right mouse button will terminate the function.
 
-## Limitations
 
--   In {{VersionMinus|0.20}} the action is not supported for ellipses, parabolas, hyperbolas and B-splines.
+## Utilizzo
 
-## Notes
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
--   All coincidences are transferred - start point, end point and center point (if applicable).
--   Point on object constraint is transferred to the closer newly created edge.
--   Vertical and horizontal constraints are copied to both offsprings.
--   Parallel and perpendicular constraints are copied for both line segments, for arc only once, to the closer part.
--   Equality constraint is transferred only for resulting arc edges, line segments do not receive it.
--   Symmetry constraint is currently not transferred.
--   Block constraint is currently not transferred.
--   Horizontal, vertical and length constraints between points are transferred to the outer points of the new edges.
--   Point distance constraint is assigned only once, to the closer edge segment.
--   Radius and diameter constraints are copied to any resulting arc.
--   Angle constraint is currently not transferred
+1.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_Split.svg" width=16px> [Dividi bordo](Sketcher_Split/it.md)**.
+    -   Selezionare l\'opzione **Schizzo → Strumenti Sketcher → <img src="images/Sketcher_Split.svg" width=16px> Dividi bordo** dal menu.
+    -   Usare la scorciatoia da tastiera: **G** quindi **Z**.
+2.  Se c\'è una selezione precedente, viene cancellata. Lo strumento non accetta una preselezione.
+3.  Il cursore si trasforma in una croce con l\'icona dello strumento.
+4.  Fare clic su un bordo nel punto in cui deve essere diviso.
+5.  Se il bordo originale è una linea o una curva aperta, vengono creati due nuovi bordi collegati da un [Vincolo coincidente](Sketcher_ConstrainCoincident/it.md). Per le curve chiuse viene creata una nuova curva aperta, il nuovo punto quindi non riceve un vincolo Coincidente. I vincoli applicabili esistenti vengono trasferiti ai nuovi bordi. Vedi [Note](#Note.md).
+6.  Questo strumento viene sempre eseguito in modalità continua: facoltativamente mantienere la divisione dei bordi.
+7.  Per terminare, fare clic in un\'area vuota nella [VIsta 3D](3D_view/it.md), fare clic con il pulsante destro del mouse o premere **Esc** oppure avviare un altro strumento di creazione di geometrie o vincoli.
+
+
+
+## Note
+
+-   Un vincolo [Coincidente](Sketcher_ConstrainCoincident/it.md) viene applicato ai punti centrali dei nuovi archi.
+-   I vincoli [Raggio](Sketcher_ConstrainRadius/it.md) e [Diametro](Sketcher_ConstrainDiameter/it.md) vengono copiati su nuovi archi (con conseguente ridondanza).
+-   I vincoli coincidenti e i vincoli [Punto sull\'oggetto](Sketcher_ConstrainPointOnObject/it.md) vengono trasferiti al nuovo bordo più vicino.
+-   I vincoli [Orizzontale](Sketcher_ConstrainHorizontal/it.md) e [Verticale](Sketcher_ConstrainVertical/it.md) tra i punti vengono trasferiti al nuovo bordo più vicino.
+-   I vincoli orizzontali e verticali associati alle linee vengono copiati nei nuovi segmenti di linea.
+-   I vincoli [Parallelo](Sketcher_ConstrainParallel/it.md) e [Perpendicolare](Sketcher_ConstrainPerpendicular/it.md) vengono copiati su nuovi segmenti di linea, per i nuovi archi vengono copiati solo su quello più vicino.
+-   I vincoli [Distanza orizzontale](Sketcher_ConstrainDistanceX/it.md), [Distanza verticale](Sketcher_ConstrainDistanceY/it.md) e [Distanza](Sketcher_ConstrainDistance/it.md) vengono trasferiti al nuovo bordo più vicino.
+-   I vincoli [Angolo](Sketcher_ConstrainAngle/it.md), [Simmetrico](Sketcher_ConstrainSymmetric/it.md) e [Blocca](Sketcher_ConstrainBlock/it.md) attualmente non vengono trasferiti.
 
 
 

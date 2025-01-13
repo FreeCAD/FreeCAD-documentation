@@ -119,9 +119,7 @@ De nouvelles formes primitives ont été ajoutées à l\'outil [Création de pri
 
 Un nouveau jeu d\'outils a été ajouté à l\'[atelier Part](Part_Workbench/fr.md). Vous pouvez sélectionner deux éléments (sommets, arêtes ou faces) pour afficher leur distance absolue et le long des axes X et Y.
 
-
-
-## Part Design & Sketcher 
+## PartDesign & Sketcher 
 
 
 
@@ -235,7 +233,7 @@ Les outils [Agréger](Draft_Upgrade/fr.md) et [Désagréger](Draft_Downgrade/fr.
 
 ### Copie de face 
 
-Le nouvel outil [Facebinder](Draft_Facebinder/fr.md) effectue une opération très simple mais potentiellement très utile : il assemble un groupe de faces sélectionnées depuis différents objets, et créé un nouvel objet à partir de ces faces. Le nouvel objet conserve des liens avec les objets initiaux, donc tout changement de ceux-ci se reflète sur l\'objet Facebinder. Ceci devrait s\'avérer utile surtout pour les objets [architecturaux](Arch_Workbench/fr.md), en construisant de nouveaux objets à partir des faces de plusieurs autres objets.
+Le nouvel outil [Surface liée](Draft_Facebinder/fr.md) effectue une opération très simple mais potentiellement très utile : il assemble un groupe de faces sélectionnées depuis différents objets, et créé un nouvel objet à partir de ces faces. Le nouvel objet conserve des liens avec les objets initiaux, donc tout changement de ceux-ci se reflète sur l\'objet Surface liée. Ceci devrait s\'avérer utile surtout pour les objets [architecturaux](Arch_Workbench/fr.md), en construisant de nouveaux objets à partir des faces de plusieurs autres objets.
 
 
 

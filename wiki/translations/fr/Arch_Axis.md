@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch Axis
    Name/fr: Arch Axes
-   MenuLocation: Arch , Outils pour les axes , Axe
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: Annotation , Axes
+   Workbenches: BIM_Workbench/fr
    Shortcut: **A** **X**
    SeeAlso: Arch_AxisSystem/fr, Arch_Grid/fr
 ---
@@ -22,7 +22,7 @@ L\'outil **<img src="images/Arch_Axis.svg" width=16px> [Axes](Arch_Axis/fr.md)**
 ## Utilisation
 
 1.  Appuyez sur le bouton **<img src="images/Arch_Axis.svg" width=16px> [Axe](Arch_Axis/fr.md)** ou appuyez sur les touches **A** puis **X**.
-2.  [Draft Déplacer](Draft_Move/fr.md)/[Draft Rotation](Draft_Rotate/fr.md) positionnent le système d\'axes dans la position souhaitée.
+2.  [Draft Déplacer](Draft_Move/fr.md)/[Draft Pivoter](Draft_Rotate/fr.md) positionnent le système d\'axes dans la position souhaitée.
 3.  Passez en mode édition en double-cliquant sur le système d\'axes dans l\'arborescence pour ajuster ses paramètres tels que le nombre d\'axes, les distances et les angles entre les axes.
 
 ## Options
@@ -30,7 +30,7 @@ L\'outil **<img src="images/Arch_Axis.svg" width=16px> [Axes](Arch_Axis/fr.md)**
 -   Chaque axe de la série a sa propre distance et son propre angle par rapport à l\'axe précédent. Cela permet de faire des systèmes très complexes tels que des systèmes non orthogonaux, des systèmes polaires ou tout type de système non uniforme.
 -   Double-cliquez sur l\'axe dans la vue en arborescence permet d\'éditer les distances, les angles et les étiquettes de chaque axe.
 -   La longueur des axes, la taille des bulles et les styles de numérotation sont personnalisables directement via les propriétés du système d\'axes.
--   Chaque axe peut également afficher une étiquette, modifiable via la boîte de dialogue du panneau des tâches.
+-   Chaque axe peut également afficher une étiquette, modifiable via la fenêtre de dialogue du panneau des tâches.
 
 
 
@@ -104,5 +104,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/fr
+⏵ [documentation index](../README.md) > Arch Axis/fr

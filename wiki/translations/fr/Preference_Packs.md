@@ -3,23 +3,31 @@
 
 Un **kit de préférences** est un ensemble de préférences de l\'utilisateur ({{Version/fr|0.20}}) qui peut être installée comme une extension et appliquée comme un seul ensemble. N\'importe quel paramètre de l\'utilisateur qui peut être défini dans le fichier user.cfg peut être inclus dans un kit de préférences. L\'application d\'un kit de préférences définit toutes les variables du fichier CFG fourni sans modifier aucun autre paramètre utilisateur. Par exemple, ces kitx peuvent être utilisés pour créer des \"Thèmes\" en regroupant une feuille de style personnalisée avec un ensemble de préférences utilisateur qui définit les différentes couleurs et styles d\'éléments dans FreeCAD qui ne sont pas contrôlés par la feuille de style.
 
+
+
 ## Interface des kits de préférences 
 
 La plupart des interactions de l\'utilisateur avec les kits de préférences installés se font via l\'onglet **Général** de la section **Paramètres généraux** de l\'[Éditeur des préférences](Preferences_Editor/fr.md)
 
 <img alt="" src=images/PreferencePacks_MainInterface.png  style="width:400px;">
 
+
+
 ## Appliquer un kit installé 
 
 Pour appliquer un kit de préférences, cliquez sur le bouton **Appliquer** à côté de son nom dans l\'onglet *Général* de [Réglage des préférences](Preferences_Editor/fr.md). Le cœur d\'un kit de préférences est un ensemble de préférences de l\'utilisateur. Lors de l\'application d\'un kit, chacune de ces préférences est modifiée à la valeur définie dans le kit. A titre facultatif, l\'auteur du kit peut avoir inclus une macro pré- et/ou post-application qui peut également être exécutée. Comme les kits peuvent potentiellement apporter des modifications importantes (et éventuellement indésirables) à vos préférences utilisateur, une sauvegarde horodatée de vos préférences d\'origine est effectuée et stockée dans **FREECAD_USER_DATA/SavedPreferencePacks/Backups**. Ces sauvegardes sont conservées pendant une semaine.
 
+
+
 ## Créer un nouveau kit 
 
-Les kits peuvent être créés à la main ou lancés en utilisant le bouton **Save new...** dans l\'onglet *Général* de [Réglage des préférences](Preferences_Editor/fr.md). Cliquer sur le bouton affiche une boîte de dialogue demandant un nom pour le nouveau kit, et affiche un ensemble de cases à cocher permettant de ne stocker qu\'un sous-ensemble de préférences.
+Les kits peuvent être créés à la main ou lancés en utilisant le bouton **Save new...** dans l\'onglet *Général* de [Réglage des préférences](Preferences_Editor/fr.md). Cliquer sur le bouton affiche une fenêtre de dialogue demandant un nom pour le nouveau kit, et affiche un ensemble de cases à cocher permettant de ne stocker qu\'un sous-ensemble de préférences.
 
 <img alt="" src=images/PreferencePacks_SaveNewPack.png  style="width:400px;">
 
 En raison de la façon dont FreeCAD utilise les préférences en interne, seuls les éléments contenus dans ces fichiers modèles peuvent être enregistrés automatiquement en utilisant cette procédure. Les éléments non inclus dans les fichiers modèles doivent être inclus manuellement dans le fichier \*.cfg du kit. Il n\'y a pas de limite intégrée aux éléments de préférences qui peuvent être inclus dans un kit de préférences, mais il est fortement déconseillé aux auteurs de changer la langue de l\'utilisateur, ou de modifier la liste des fichiers récents, ou de changer quoi que ce soit lié à un état temporaire de l\'interface utilisateur (par exemple, la taille enregistrée d\'une fenêtre redimensionnable, etc).
+
+
 
 ### Détails du modèle 
 
@@ -302,6 +310,8 @@ Ces sections répertorient toutes les préférences contenues dans les modèles 
 
 </div>
 
+
+
 ### Structure du kit de préférence 
 
 Bien que le noyau de la plupart des kits de préférences soit un seul fichier de configuration, en raison de leur conception pour la distribution, une structure auxiliaire est également nécessaire. Quatre fichiers de base définissent un kit, disposés dans la structure de répertoire suivante (pour un kit de préférence nommé \"SamplePreferencePack\") :
@@ -353,13 +363,17 @@ Le fichier package.xml pour ce kit d\'exemple pourrait être :
 
     </package>
 
+
+
 ### Inclure des modèles dans votre extension 
 
 De nombreuses extensions comportent des informations de préférence spécifiables par l\'utilisateur qui sont ajoutées au fichier user.cfg. L\'auteur d\'une extension peut également choisir de fournir un fichier modèle de kit de préférences qui répertorie les variables de configuration de l\'utilisateur pouvant être enregistrées automatiquement à l\'aide de la méthode \"Save new pack\" décrite ci-dessus. Pour inclure ces fichiers modèles, les auteurs d\'addons doivent créer un sous-répertoire dans leur paquet appelé \"PreferencePackTemplates\" ou \"preference_pack_templates\". Ce dossier doit contenir un ou plusieurs fichiers \*.cfg : chacun doit être un fichier XML user.cfg valide et bien formé contenant une ou plusieurs variables de configuration définies sur leurs valeurs par défaut. Le nom du fichier doit refléter son objectif, par exemple \"colors.cfg\", \"active_tabs.cfg\", etc. Cet ensemble de fichiers sera présenté à l\'utilisateur lorsqu\'il enregistrera un nouveau kit de préférences, chaque fichier recevant une entrée cochable dans la liste des éléments à enregistrer. Le nom du fichier est utilisé pour générer l\'entrée de l\'interface utilisateur, les caractères de soulignement étant remplacés par des espaces (et l\'extension étant omise).
 
+
+
 ## Distribuer un kit 
 
-Les kits de préférences sont distribués de manière identique aux [ateliers externes](External_workbenches/fr.md) par le biais du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour installer un kit manuellement, utilisez git pour cloner le dépôt du kit dans votre répertoire de données FreeCAD ((entrez `App.getUserAppDataDir()` dans la [console Python](Python_console/fr.md) pour obtenir ce chemin)), dans un sous-répertoire appelé \"Preference Packs\".
+Les kits de préférences sont distribués de manière identique aux [ateliers externes](External_workbenches/fr.md) par le biais du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md). Pour installer un kit manuellement, utilisez git pour cloner le dépôt du kit dans votre répertoire de données FreeCAD ((entrez `App.getUserAppDataDir()` dans la [console Python](Python_console/fr.md) pour obtenir ce chemin)), dans un sous-répertoire appelé \"Preference Packs\". Notez que les paquets installés par l\'utilisateur et portant le même nom qu\'un paquet inclus sont prioritaires.
 
 Voir aussi [Kits de préférences privés](Private_Preference_Packs/fr.md).
 

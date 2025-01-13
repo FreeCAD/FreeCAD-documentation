@@ -33,22 +33,18 @@ Elementele ferestrei se bazează pe obiecte 2D închise, cum ar fi [Draft Rectan
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Instrumentul Window are câteva funcții **presets**, acest lucru permite utilizatorului să creeze tipuri comune de ferestre și uși cu anumiți parametri editabili, fără a fi nevoie ca utilizatorul să creeze manual obiecte și componente de bază 2D.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
 
 Toate informațiile aplicabile unui [Arch Window](Arch_Window.md) se aplică și pentru [Arch Door](Arch_Door.md), deoarece este același obiect de bază. Principala diferență dintre un Ferest și o Ușă este că Ușa are un panou interior care este arătat opac (ușa însăși), în timp ce Fereastra are un panou parțial transparent (geamul).
-
-
-</div>
-
-<img alt="" src=images/Arch_Window_example.jpg  style="width:600px;">
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Arch_Window_example.jpg  style="width:600px;">
 
 
 </div>
@@ -99,7 +95,13 @@ If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon M
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ### Crearea de la zero 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -206,11 +208,11 @@ Windows can also take advantage of other tools, specifically [PartDesign](PartDe
 
 <img alt="" src=images/Arch_window_type_example.png  style="width:800px;">
 
-[Download the example file shown above](https://github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
+[Download the example file shown above](https://github.com/FreeCAD/Examples/raw/master/Arch_Example_Files/Window_Type.FCStd)
 
 ### Example workflow 
 
--   Create a window frame object, a glass panel, and any other window component you need, using [Part Workbench](Part.md) or [PartDesign](PartDesign_Workbench.md) tools.
+-   Create a window frame object, a glass panel, and any other window component you need, using [Part Workbench](Part_Workbench.md) or [PartDesign](PartDesign_Workbench.md) tools.
 -   For example, create a base rectangular sketch for your window, then a profile sketch for the frame, and create a [Part Sweep](Part_Sweep.md) to sweep the profile around the base sketch. Create a [Part Offset2D](Part_Offset2D.md) from the base sketch, then a [Part Extrude](Part_Extrude.md) to create the glass panel
 -   Make sure all these pieces have a unique, meaningful name (for example, \"Frame\" or \"Glass Panel\")
 -   Create an [App Part](App_Part.md), and place all your subcomponents in it
@@ -221,9 +223,9 @@ Windows can also take advantage of other tools, specifically [PartDesign](PartDe
     -   **Subvolume** as a PropertyLink and link it to the volume to be subtracted that we created above
     -   **Tag** as a PropertyString
 
-### Materials
-
 Our window type is now ready. We can create window objects from it, simply by selecting the App Part and pressing the window button. The \"Height\", \"Width\", \"Subvolume\" and \"Tag\" properties of the window will be linked to the corresponding property of the App Part, if existing.
+
+### Materials
 
 To build a material for type-based windows:
 
@@ -240,6 +242,14 @@ You can use any other kind of workflow than the one described above, the importa
 
 
 ## Proprietăți
+
+### Data
+
+
+{{TitleProperty|Window}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Height**: Înălțimea acestei ferestre
 
@@ -260,6 +270,9 @@ You can use any other kind of workflow than the one described above, the importa
 -    **Symbol Plan**: Shows 2D opening symbol in plan
 
 -    **Symbol Elevation**: Shows 2D opening symbol in elevation
+
+
+</div>
 
 ## Scripting
 
@@ -295,7 +308,9 @@ Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Win
 
 </div>
 
-Exempluː 
+Exempluː
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -304,7 +319,9 @@ Window = Arch.makeWindow(Rect1)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-You can also create a Window from a preset. 
+You can also create a Window from a preset.
+
+
 ```python
 Window = makeWindowPreset(windowtype, width, height, h1, h2, h3, w1, w2, o1, o2, placement=None)
 ```
@@ -317,7 +334,9 @@ Window = makeWindowPreset(windowtype, width, height, h1, h2, h3, w1, w2, o1, o2,
 
 </div>
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, Arch
 
@@ -338,6 +357,11 @@ Door = Arch.makeWindowPreset("Simple door",
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/ro
+⏵ [documentation index](../README.md) > Arch Window/ro

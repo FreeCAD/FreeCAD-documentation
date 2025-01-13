@@ -2,7 +2,8 @@
  GuiCommand:
    Name: Draft Snap WorkingPlane
    Name/pl: Rysunek Roboczy: Przyciągnij do płaszczyzny roboczej
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Przyciąganie , Przyciągnij do płaszczyzny roboczej
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    SeeAlso: Draft_Snap/pl, Draft_Snap_Lock/pl, Draft_SelectPlane/pl
 ---
 
@@ -26,10 +27,11 @@ Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąg
 1.  Opcjonalnie zmień [płaszczyznę roboczą](Draft_SelectPlane/pl.md).
 2.  Upewnij się, że przyciąganie jest włączone. Zobacz <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
 3.  Jeśli **Przyciąganie do płaszczyzny roboczej** nie jest aktywne, wykonaj jedną z poniższych czynności:
-    -   Naciśnij przycisk **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px>** na pasku narzędzi przyciągania.
-    -   Naciśnij przycisk **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px>** w [widżecie przyciągania](Draft_snap_widget/pl.md).
+    -   Naciśnij przycisk **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px> [Przyciągnij do płaszczyzny roboczej](Draft_Snap_WorkingPlane/pl.md)** na pasku narzędzi przyciągania.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Naciśnij przycisk **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px> [Przyciągnij do płaszczyzny roboczej](Draft_Snap_WorkingPlane/pl.md)** w [widżecie przyciągania](Draft_snap_widget/pl.md).
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Przyciąganie → <img src="images/Draft_Snap_WorkingPlane.svg" width=16px> Przyciągnij do płaszczyzny roboczej** z menu lub menu kontekstowego [widoku 3D](3D_view/pl.md).
 4.  Upewnij się, że co najmniej jedna inna opcja przyciągania jest aktywna.
-5.  Wybierz polecenie [Rysunku Roboczego](Draft_Workbench/pl.md) lub [Architektury](Arch_Workbench/pl.md), aby utworzyć geometrię.
+5.  Wybierz polecenie środowiska Rysunek Roboczy lub BIM, aby utworzyć geometrię.
 6.  Pamiętaj, że możesz również zmienić opcje przyciągania, gdy polecenie jest aktywne.
 7.  Przesuń kursor nad obiekt, do którego chcesz przyciągnąć.
 8.  Obiekt zostanie podświetlony.

@@ -16,18 +16,18 @@
 
 **AeroFoil** est une macro pour être utilisée dans l\'application FreeCAD. AeroFoil crée des courbes et des faces de profils aérodynamiques en utilisant des modèles prédéfinis, des fonctions algébriques, ainsi que des fichiers DAT ou CSV importés.
 
-![](images/AeroFoil-reduced.png )    Voici l\'icône *AeroFoil Macro*.
+![](images/AeroFoil-reduced.png )    Icône **AeroFoil Macro**.
 
-La macro AeroFoil peut être téléchargée en utilisant le [Gestionnaire des extensions](Std_AddonMgr/fr.md) intégré au logiciel FreeCAD.
+La macro AeroFoil peut être téléchargée en utilisant le [gestionnaire des extensions](Std_AddonMgr/fr.md) intégré au logiciel FreeCAD.
 
 
 
-####  Caractéristiques principales 
+#### Fonctions principales 
 
 -   Affinement des points du profil aérodynamique
 -   Génération de copies multiples de profils aérodynamiques
 -   Sortie de courbes 2D et de faces planes
--   Création de DWire/PolyLine et BSpline
+-   Création de DWire/polyligne et B-spline
 -   Création de l\'atelier Sketcher et de l\'atelier Draft
 -   Esquisses entièrement contraintes dans l\'atelier Sketcher
 -   Génération de courbes de voilure divisées (supérieure et inférieure)
@@ -38,7 +38,7 @@ La macro AeroFoil peut être téléchargée en utilisant le [Gestionnaire des ex
 
 
 
-####  Fonctionnalités supplémentaires {{VersionPlus/fr|0.19}} 
+#### Fonctions supplémentaires {{VersionPlus/fr|0.19}} 
 
 Propriétés de l\'objet AeroFoil *(en lecture seulement)* :
 {{Properties Title|Base}}
@@ -106,7 +106,7 @@ C:/Users/User_Name/AppData/Roaming/FreeCAD/Macro
 
 ## Utilisation
 
-L\'AeroFoil peut être chargé en effectuant les étapes suivantes :
+AeroFoil peut être chargé en effectuant les étapes suivantes :
 
 1.  Lancez l\'application **FreeCAD**.
 2.  Allez dans **Macro → Macros ...**.
@@ -128,7 +128,7 @@ Une fois la macro AeroFoil chargée, suivez les instructions des boîtes de dial
 
 
 
-####  Conseils à garder à l\'esprit pendant l\'utilisation : 
+#### Conseils à garder à l\'esprit pendant l\'utilisation 
 
 1.  Pour les profils NACA, les deux derniers chiffres (combinés) ne peuvent pas avoir une valeur nulle ; l\'épaisseur ne peut pas être une valeur nulle.
 2.  Les profils NACA à 5 chiffres sont limités aux modèles suivants (\'XX\' indique les deux derniers chiffres, l\'épaisseur, du profil) :
@@ -149,8 +149,8 @@ Une fois la macro AeroFoil chargée, suivez les instructions des boîtes de dial
 8.  Les courbes ou les points qui se croisent entre **0** et **1**, tous deux exclusifs, renverront une erreur.
 9.  Les courbes ou les points qui contiennent les données du profil inférieur ne peuvent pas être reflétés.
 10. Pour les importations de fichiers, il est suggéré de laisser les numéros de ligne, de rangée et de colonne à leurs valeurs par défaut, sauf si vous êtes bien informé.
-11. L\'augmentation des paramètres **refine** et **quantity** augmente le temps de calcul et les ressources.
-12. La longueur absolue de l\'accord, en millimètres, ne peut être inférieure à **1mm**.
+11. Augmenter des paramètres **refine** et **quantity** allonge le temps de calcul et les ressources.
+12. La longueur absolue de la corde, en millimètres, ne peut être inférieure à **1mm**.
 
 \[\[<File:AeroFoil-preset-functions.png%7Cframe%7Ccenter%7Calt=AeroFoil-preset-functions.png>\|
 

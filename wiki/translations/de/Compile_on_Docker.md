@@ -50,14 +50,10 @@ Dadurch wird eine Kopie der neuesten Version des FreeCAD Quellcodes in einem neu
 
 
 {{Code|lang=bash|code=
-git clone https://github.com/FreeCAD/FreeCAD.git ~/my_code/freecad_source
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git ~/my_code/freecad_source
 }}
 
 Weitere Informationen über die Verwendung von Git und das Einbringen von Code in das Projekt findest Du unter [Quellcodeverwaltung](Source_code_management/de.md).
-
-### Quellarchiv
-
-Alternativ kannst du den Quellcode als [archive](https://github.com/FreeCAD/FreeCAD/releases/latest), eine `.zip` oder `.tar.gz` Datei herunterladen und in das gewünschte Verzeichnis entpacken.
 
 
 

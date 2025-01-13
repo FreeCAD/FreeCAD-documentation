@@ -9,6 +9,8 @@
 
 # Surface Sections/de
 
+
+
 ## Beschreibung
 
 
@@ -22,13 +24,17 @@ wird verwendet, um eine Oberfläche über Kanten zu erstellen, die Querschnitte 
 
 *Left: control edges (transversal sections). Right: surface produced from these edges.*
 
+
+
 ## Anwendung
 
-1.  Make sure you have at lease two edges or curves in space. For example, these can be created with tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) or the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md).
+1.  Make sure you have at least two edges or curves in space. For example, these can be created with tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) or the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md).
 2.  Press the **[<img src=images/Surface_Sections.svg style="width:16px"> [Surface sections](Surface_Sections.md)** button.
 3.  Press **Add edge**.
 4.  Use the pointer to pick the desired edges in the [3D view](3D_view.md); a preview of the final shape will be shown after selecting two valid edges.
 5.  Press **OK** to complete the operation.
+
+
 
 ## Optionen
 
@@ -42,11 +48,15 @@ wird verwendet, um eine Oberfläche über Kanten zu erstellen, die Querschnitte 
 
 -   Press **Cancel** or **Esc** to abort the current operation.
 
+
+
 ## Eigenschaften
 
 A [Surface Sections](Surface_Sections.md) (`Surface::Sections` class) is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the Surface Sections has the following properties in the [property editor](property_editor.md).
+
+
 
 ### Daten
 
@@ -54,6 +64,8 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 {{TitleProperty|Sections}}
 
 -    **NSections|LinkSubList**: a list of edges that will be used to build the surface.
+
+
 
 ### Ansicht
 
@@ -68,6 +80,8 @@ The shape of the surface depends on the direction of the chosen edges; if edges 
 
 <img alt="" src=images/Surface_twisting_example_smooth.png  style="width:330px;"> <img alt="" src=images/Surface_twisting_example_twisted.png  style="width:330px;">
 
+
+
 ## Skripten
 
 
@@ -75,9 +89,9 @@ The shape of the surface depends on the direction of the chosen edges; if edges 
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Surface Sections tool can be used in [macros](macros.md) and from the [Python](Python.md) console by adding the `Surface::Sections` object.
+The Surface Sections tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::Sections` object.
 
--   The edges to be used to define the surface must be assigned as a [LinkSubList](LinkSubList.md) to the `NSections` property of the object.
+-   The edges to be used to define the surface must be assigned as a [LinkSubList](FeaturePython_Custom_Properties#App:_PropertyLinkSubList.md) to the `NSections` property of the object.
 -   All objects with edges need to be computed before they can be used as input for the properties of the Sections object.
 
 

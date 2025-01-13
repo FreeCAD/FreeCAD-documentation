@@ -13,9 +13,9 @@
 
 </div>
 
-## Descriere
 
-<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
+
+## Descriere
 
 
 <div class="mw-translate-fuzzy">
@@ -24,6 +24,16 @@ Instrumentul de referință vă permite să plasați un obiect în documentul cu
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
+
+<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -44,6 +54,8 @@ Instrumentul de referință vă permite să plasați un obiect în documentul cu
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -58,6 +70,8 @@ Instrumentul de referință vă permite să plasați un obiect în documentul cu
 
 </div>
 
+
+
 ## Proprietăți
 
 -    **File**: Fișierul de bază pe care se bazează această componentă
@@ -65,6 +79,8 @@ Instrumentul de referință vă permite să plasați un obiect în documentul cu
 -    **Part**:Partea care trebuie utilizată din fișierul de bază
 
 -    **Update Colors**: Dacă este adevărat, culorile fișierului conectat/link vor fi menținete actualizate
+
+
 
 ## Scrip-Programare 
 
@@ -78,18 +94,34 @@ Instrumentul Reference poate fi utilizat în [macro-uri](Macros/ro.md) și din c
 
 
 ```python
-makeReference ([file_path,object_name])
+reference = makeReference([filepath], [partname], [name])
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 creează un obiect tip Reference din obiectul dat în fișierul specificat.
 
-Exempluː 
+
+</div>
+
+Exempluː
+
+
 ```python
 import Arch
-Arch.makeReference("/path/to/some/file.FSCtd","myPart")
+Arch.makeReference("/path/to/some/file.FSCtd", "myPart")
 ```
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/ro
+⏵ [documentation index](../README.md) > Arch Reference/ro

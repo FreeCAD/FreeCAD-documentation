@@ -1,20 +1,25 @@
 ---
  GuiCommand:
    Name: Web BrowserNext
+   Name/pl: Web: Następna strona
    MenuLocation: 
-   Workbenches: Web_Workbench, Start_Workbench
+   Workbenches: Web_Workbench/pl, Start_Workbench/pl
    SeeAlso: 
 ---
 
 # Web BrowserNext/pl
 
-## Description
 
-Use the <img alt="" src=images/Web_BrowserNext.svg  style="width:24px;"> **Web BrowserNext** command to go to the next page in the list of visited web pages.
 
-## Usage
+## Opis
 
-1.  Press the **<img src="images/Web_BrowserNext.svg" width=16px> [Next page](Web_BrowserNext.md)** button.
+Użyj polecenia <img alt="" src=images/Web_BrowserNext.svg  style="width:24px;"> **Następna strona**, aby przejść do kolejnej strony z listy odwiedzonych stron internetowych.
+
+
+
+## Użycie
+
+1.  Naciśnij przycisk **<img src="images/Web_BrowserNext.svg" width=16px> '''Następna strona'''**.
 
 
 

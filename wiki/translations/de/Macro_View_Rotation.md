@@ -1,67 +1,40 @@
 # Macro View Rotation/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
-|Name=View Rotation
+|Name=Macro View Rotation
 |Icon=Macro_View_Rotation.png
-|Translate=View Rotation
-|Description=Makro bietet eine grafische Benutzeroberfläche, mit der die Objekte in der Ansicht präzise gedreht werden können.<br />Download the [http://forum.freecadweb.org/download/file.php?id=453 Icon] of the macro.<br />
+|Translate=View-Rotation
+|Description=Diese Benutzerschnittstelle (GUI) ermöglicht Ansichten präziser zu drehen als mit der Maus. Gedreht wird um Achsen, die auf den Anwender ausgerichtet sind und nicht auf die Objekte; dennoch ist das Ziel die Objekte eher um einen gemeinsamen angenäherten mittelpunkt zu drehen, als um den Mittelpunkt der Ansicht.<br />
+Die GUI befindet sich standardmäßig oben rechts auf dem Bildschirm; dies kann durch Bearbeiten geändert werden.<br />
+<br />
+[http://forum.freecad.org/download/file.php?id=453 Icons Package]
 |Author=Joe Dowsett
 |Version=1.0
 |Date=2012-01-04
-|FCVersion=All
-|Download=[http://forum.freecadweb.org/download/file.php?id=453 Icons Package]<br />[https://www.freecadweb.org/wiki/images/a/af/Macro_View_Rotation.png Icon ToolBar]
-|SeeAlso=[Macro Rotate View](Macro_Rotate_View/de.md)<br />[Macro FCCamera](Macro_FCCamera/de.md)
+|FCVersion=Alle
+|Download=[https://wiki.freecad.org/images/a/af/Macro_View_Rotation.png ToolBar Icon]
+|SeeAlso=[Macro Rotate View](Macro_Rotate_View.md), [Macro FCCamera](Macro_FCCamera.md)
 }}
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Über diese GUI kann die Ansicht präziser gedreht werden als bei Verwendung der Maus. Die Rotation richtet sich nach den Achsen, die in Bezug auf den Benutzer festgelegt sind, und nicht auf die Objekte. Das Ziel besteht jedoch darin, dass sich die Objekte um ihre ungefähre gemeinsame Mitte herum drehen, anstatt um die Ansichtsmitte Die GUI befindet sich standardmäßig rechts oben auf dem Bildschirm. Dieses Verhalten kann durch Bearbeiten geändert werden
+Diese Benutzerschnittstelle (GUI) ermöglicht Ansichten präziser zu drehen als mit der Maus. Gedreht wird um Achsen, die auf den Anwender ausgerichtet sind und nicht auf die Objekte; dennoch ist das Ziel die Objekte eher um einen gemeinsamen angenäherten mittelpunkt zu drehen, als um den Mittelpunkt der Ansicht.
 
-
-</div>
-
-The GUI defaults to the top right of the screen, this behaviour can be changed by editing.
+Die GUI befindet sich standardmäßig oben rechts auf dem Bildschirm; dies kann durch Bearbeiten geändert werden.
 
 
 {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/PureGui/ViewRotation.FCMacro}}
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="Rotate view" src=images/Macro_View_Rotation_00.png  style="width:480px;">  Mit drei Symbolen werden die Drehrichtungen symbolisiert. Eine ZIP-Datei mit diesen Symbolen finden Sie [here](http://forum.freecadweb.org/download/file.php?id=453), die Bilder sollten sich in dem Ordner befinden, der Ihre Makros enthält. Bitte zögern Sie nicht, bessere beizutragen!
-
-
-</div>
+<img alt="Rotate view" src=images/Macro_View_Rotation_00.png  style="width:480px;">  Drei Symbole symbolisieren die Drehrichtungen. Eine ZIP-Datei mit diesen Symbolen befindet sich [hier](http://forum.freecadweb.org/download/file.php?id=453), die Bilder sollten sich in dem Ordner des Benutzers befinden, der die Makros enthält. Bessere können gerne beigesteuert werden!
 
 
 
+## Skript
 
-<div class="mw-translate-fuzzy">
+Die neueste Version des Makros befindet sich unter [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro). Der einfachste Weg, dieses Makro zu installieren, ist der [Addon-Manager](Std_AddonMgr/de.md).
 
-## Code
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Die neueste Version des Makros finden Sie unter [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro). Der einfachste Weg, dieses Makro zu installieren, ist der [Addon-Manager](Std_AddonMgr/de.md).
-
-
-</div>
-
-ToolBar Icon ![](images/Macro_View_Rotation.png )
+Werkzeugleistensymbol ![](images/Macro_View_Rotation.png )
 
 **Macro View Rotation.FCMacro** {{MacroCode|code=
 # -*- coding: utf-8 -*-
@@ -315,32 +288,14 @@ if __name__ == '__main__':
 
 ## Option
 
-
-<div class="mw-translate-fuzzy">
-
-## Option 
-
-am Ende der Funktion \'initUI\'. Die ersten beiden Argumente (rechts-300, 0) (Zeile 91) geben die Position für die obere linke Ecke des Fensters an. Ich habe die Erfahrung gemacht, dass das Verhalten auf Ubuntu wie beabsichtigt war, aber Vista positionierte das Fenster zu hoch und die 0 dazu in \~ 30 geändert werden.
-
-
-</div>
-
-
+Am Ende der Funktion \'initUI\'ergeben die ersten beiden Argumente (right-300, 0) (Zeile 91) geben die Position für die obere linke Ecke des Fensters an. Ich habe die Erfahrung gemacht, dass das Verhalten auf Ubuntu wie beabsichtigt war, aber Vista positionierte das Fenster zu hoch; in dem Fall kann die 0 in \~ 30 geändert werden.
 ```python
         self.setGeometry(right-300, 0, 300, 150)
 ```
 
 ## Forum
 
-
-<div class="mw-translate-fuzzy">
-
-## Diskussionsseite
-
-[View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
-
-
-</div>
+[View+Rotation](http://forum.freecad.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
 
 
 

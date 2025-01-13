@@ -5,7 +5,7 @@
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **E** **A**
    Version: 0.15
-   SeeAlso: Sketcher_CreateEllipseByCenter, Sketcher_CompCreateArc
+   SeeAlso: Sketcher_CreateEllipseByCenter
 ---
 
 # Sketcher CreateArcOfEllipse/zh-cn
@@ -14,29 +14,44 @@
 
 ## 描述
 
-This tool draws an arc of ellipse by picking four points: the center, the end of major radius, the start point and the end point. When starting the tool, the mouse pointer changes to a white cross with a red ellipse arc icon. Besides are coordinates shown in real time.
+The <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:24px;"> [Sketcher CreateArcOfEllipse](Sketcher_CreateArcOfEllipse.md) tool creates an arc of ellipse.
 
-<img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;"> 
-*The sequence of clicks is indicated by yellow arrows with numbers.<br>
-C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.*
+![](images/Sketcher_CreateArcOfEllipse_Example.png ) 
+*Arc of ellipse (white) with internal geometry (dark yellow)*
 
 
 
 ## 用法
 
--   Press the **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Create arc of ellipse](Sketcher_CreateArcOfEllipse.md)** button.
--   First click in 3D view sets ellipse center. Second click sets the first radius and orientation of the ellipse. Third click sets the other radius and the start of the arc. The fourth click sets the end of the arc.
--   After the fourth click, the arc of ellipse is created, together with a set of construction geometry aligned to it (major diameter, minor diameter, two foci). The construction geometry can be manually deleted if not needed, and recreated later. See [Sketcher Show Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md).
--   Pressing **ESC** or clicking the right mouse button cancels the function.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-## Peculiarities
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_CreateArcOfEllipse.svg" width=16px> [Arc of ellipse by center, radius, endpoints](Sketcher_CreateArcOfEllipse.md)** button.
+    -   Select the **Sketcher → Sketcher geometries → <img src="images/Sketcher_CreateArcOfEllipse.svg" width=16px> Create arc of ellipse** option from the menu.
+    -   Use the keyboard shortcut: **G** then **E**, then **A**.
+2.  The cursor changes to a cross with the tool icon.
+3.  Pick the center of the arc.
+4.  Pick an endpoint of one of the axes of the arc, this also defines one of its radii.
+5.  Pick the start point of the arc, this also defines the other radius of the arc.
+6.  Pick the endpoint of the arc.
+7.  The arc of ellipse is created, including a set of internal geometry (major axis, minor axis and two foci).
+8.  If the tool runs in [continue mode](Sketcher_Workbench#Continue_modes.md):
+    1.  Optionally keep creating arcs.
+    2.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
 
--   Major and minor axes of underlying ellipse are strict and cannot be swapped by resizing. The underlying ellipse must be rotated to swap the axes.
--   Unlike ellipse that can be constrained to become a circle, ellipse arc cannot represent an arc of circle.
--   Moving the arc of ellipse by edge is the same as moving ellipse\'s center.
+## Notes
+
+-   Elements of the internal geometry can be deleted. They can be recreated at any time with [Sketcher RestoreInternalAlignmentGeometry](Sketcher_RestoreInternalAlignmentGeometry.md).
+-   Once created, the major and minor axes of an arc of ellipse are strict and cannot be swapped by resizing. This is a consequence of the solver parametrization and the same strict behavior of [OpenCASCADE](OpenCASCADE.md). An arc of ellipse must be rotated to swap its axes.
+
+
+<div class="mw-translate-fuzzy">
 
 
 
+
+
+</div>
 
 
 {{Sketcher Tools navi

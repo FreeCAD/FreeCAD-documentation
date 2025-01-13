@@ -16,7 +16,13 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Инструмент для вычисления всех фрагментов, которые могут возникнуть в результате применения логических операций между входными фигурами. Например, для двух пересекающихся сфер создаются три неперекрывающихся, но соприкасающихся твердых тела.
+
+
+</div>
 
 ![600px](images/Part_BooleanFragments_Demo.png)
 
@@ -56,14 +62,6 @@
 2.  Вызвать команду Part BooleanFragments несколькими способами:
     -   Нажатие кнопки <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> на панели инструментов
     -   Использование пункта **Деталь → Разделить → Boolean Fragments** в меню Деталь
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Создается параметрический объект Boolean Fragments. Исходные объекты скрываются, а результат пересечения показываются в [Окне трёхмерного вида](3D_view/ru.md).
 
 
 </div>
@@ -144,6 +142,11 @@ j.Objects = FreeCADGui.Selection.getSelection()
 
 
 </div>
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

@@ -51,13 +51,13 @@ Pentru [select](Draft_Select/it.md) mai multe obiecte:
 
 ## Notes
 
--   The standard keyboard shortcut **Ctrl**+**X** does not call the **Std Cut** command but uses the Cut function from the OS instead. You can use this shortcut in most FreeCAD text windows and input boxes, it also works for spreadsheet cells.
+-   The standard keyboard shortcut **Ctrl**+**X** does not call this command but uses the Cut function from the OS instead. You can use this shortcut in most FreeCAD text windows and input boxes, it also works for spreadsheet cells.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

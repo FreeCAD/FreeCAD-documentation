@@ -10,14 +10,10 @@
 # WebTools Git/es
 
 
-<div class="mw-translate-fuzzy">
-
-
 **A partir de FreeCAD v0.17, esta herramienta ha sido eliminada del Ambiente de trabajos Arquitectura y ahora forma parte del [Ambiente de trabajos HerramientasWeb](WebTools_Workbench/es.md) externo que puedes instalar a través del menú Herramientas → <img src="images/AddonManager.svg" width=24px> [Administrador de complementos](Std_AddonMgr/es.md).
 **
 
 
-</div>
 
 ## Descripción
 
@@ -27,6 +23,8 @@ Git es una herramienta compleja, considere la posibilidad de aprender los fundam
 
 Requisito:*\' Para poder utilizar este comando, el paquete [gitpython](https://github.com/gitpython-developers/GitPython) debe estar instalado en tu sistema. En la mayoría de las distribuciones de linux, gitpython está disponible en los repositorios de software estándar como*gitpython*o*python-git\'\'.
 
+
+
 ## Utilización
 
 1.  Asegúrate de que la [Vista de informe](Report_view/es.md) está abierta ya que los mensajes Git se imprimirán allí.
@@ -34,6 +32,8 @@ Requisito:*\' Para poder utilizar este comando, el paquete [gitpython](https://g
 3.  Seleccionar el menú **HerramientasWeb → <img src="images/WebTools_Git.svg" width=16px> [Git](WebTools_Git/es.md)
 **
 4.  Esto abre un [Panel de tareas](Task_panel/es.md) en la [Vista combo](Combo_view/es.md).
+
+
 
 ## Opciones
 
@@ -48,10 +48,20 @@ Requisito:*\' Para poder utilizar este comando, el paquete [gitpython](https://g
 -   El botón **Pull** descargará cualquier nuevo cambio en el repositorio desde el remoto seleccionado. Si el archivo actualmente abierto en FreeCAD está siendo modificado por un pull, un mensaje de advertencia te informará para que puedas guardar el archivo de nuevo o guardarlo en otro lugar.
 -   El botón **Empujar** subirá su(s) última(s) confirmación(es) al remoto seleccionado.
 
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ## Limitaciones
 
 -   La herramienta no puede crear nuevos repositorios todavía. Debe tener un repositorio local ya creado. (FreeCAD comprobará si el archivo del documento actual está dentro de un repositorio Git).
 -   La herramienta no puede cambiar o crear ramas. Debes hacerlo manualmente con las herramientas Git estándar.
+
+
+</div>
+
+
 
 ## Habilitación de diffs legibles por humanos para archivos FCStd con la utilidad fcinfo 
 
@@ -113,6 +123,11 @@ Cada archivo de FreeCAD contiene un número de suma de comprobación SHA1, que c
 
 Para habilitar el uso de fcinfo (sólo para Linux y Mac - PARAHACER: añadir instrucciones para Windows)
 
+### Using fcinfo on a single Git repository 
+
+
+<div class="mw-translate-fuzzy">
+
 1.  Guarda el archivo fcinfo en algún lugar de la ruta de tu sistema
 2.  Hazlo ejecutable
 3.  Crea un archivo .gitattributes en tu repositorio Git y añade la siguiente línea en él:
@@ -128,6 +143,61 @@ Alternativamente, si quieres invocar fcinfo con argumentos (por ejemplo, --gui) 
 
  [diff "fcinfo"]
  textconv = sh -c '/ruta/a/fcinfo --gui "$0"'
+
+
+</div>
+
+
+:   
+    {{Code|lang=text|code=
+    *.FCStd diff=fcinfo
+    }}
+    
+
+-   Add the following lines to the {{Incode|.gitconfig}} file in your home directory:
+
+:   
+    {{Code|lang=text|code=
+    [diff "fcinfo"]
+    textconv = /path/to/fcinfo
+    }}
+    
+
+-   Alternatively, if you want to invoke fcinfo with arguments (e.g., {{Incode|--gui}}) use [this approach](https://stackoverflow.com/questions/55601430/how-to-pass-a-filename-argument-gitconfig-diff-textconv):
+
+:   
+    {{Code|lang=text|code=
+    [diff "fcinfo"]
+    textconv = sh -c '/path/to/fcinfo --gui "$0"'XD
+    }}
+    
+
+Note that if you are working in a collaborative project you may want to include the fcinfo tool in your repository, in that case the path is relative to your Git repository root directory.
+
+### Enabling fcinfo globally 
+
+If you are working on many projects that need fcinfo tool you can enable it globally for your user.
+
+-   Create a {{Incode|$HOME/.config/git/attributes}} file and add the following line on it:
+
+:   
+    {{Code|lang=text|code=
+    *.FCStd diff=fcinfo
+    }}
+    
+
+-   Add the following lines to the {{Incode|$HOME/.config/git/config}} file:
+    -   It\'s equivalent command is {{Incode|git config --global diff.fcinfo.textconv "/path/to/fcinfo"}}.
+    -   Arch Linux users using {{Incode|freecad}} package can use {{Incode|textconv = fcinfo}} since it\'s already installed on their system.
+
+:   
+    {{Code|lang=text|code=
+    [diff "fcinfo"]
+    textconv = /path/to/fcinfo
+    }}
+    
+
+Note that any configuration made in a repository basis overrides global configurations.
 
 
 

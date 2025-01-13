@@ -12,10 +12,19 @@
 # Arch Space/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Spazio consente di definire un volume vuoto, basato su una forma solida, oppure definendo i suoi confini, o con un mix di entrambi. Se è basato esclusivamente sui confini, il volume viene calcolato a partire dai confini dati, e sottraendo lo spazio interno ai confini. L\'oggetto Spazio definisce sempre un volume solido. Può anche essere visualizzata la superficie di un oggetto spazio, calcolata intersecando un piano orizzontale nel centro di massa del volume dello spazio.
+
+
+</div>
 
 <img alt="" src=images/Arch_Space_example.jpg  style="width:640px;">
 
@@ -27,11 +36,17 @@ Lo strumento Spazio consente di definire un volume vuoto, basato su una forma so
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare un oggetto solido esistente o le facce che lo delimitano.
 2.  Invocare il comando Spazio utilizzando uno dei seguenti metodi:
     -   Premendo il pulsante **<img src="images/Arch_Space.svg" width=16px> [Spazio](Arch_Space/it.md)** nella barra degli strumenti.
     -   Usando i tasti della tastiera **S** e poi **P**
     -   Usando la voce **Arch → Spazio** dal menu in alto
+
+
+</div>
 
 
 
@@ -163,6 +178,9 @@ Arch.removeSpaceBoundaries(Space, selection)
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{docnav/it
 |[Piano di sezione](Arch_SectionPlane/it.md)
 |[Scale](Arch_Stairs/it.md)
@@ -173,6 +191,14 @@ Arch.removeSpaceBoundaries(Space, selection)
 }}
 
 
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Space/it
+⏵ [documentation index](../README.md) > Arch Space/it

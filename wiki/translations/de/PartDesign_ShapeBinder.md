@@ -29,25 +29,23 @@ Die referenzierte Geometrie kann entweder ein einzelnes Objekt sein (z.B. ein [P
 
 1.  Den [Körper aktivieren](PartDesign_Body/de#Aktiver_Status.md), in den der Formbinder eingebunden werden soll.
 2.  Wahlweise ein einzelnes Objekt auswählen oder ein oder mehrere Unterelemente die zu demselben übergeordneten Objekte gehören. Unterelemente können nur in der [3D-Ansicht](3D_view/de.md) ausgewählt werden.
-3.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/PartDesign_ShapeBinder.svg" width=16px> [PartDesign Formbinder](PartDesign_ShapeBinder/de.md)** drücken.
     -   Den Menüeintrag **Part Design → <img src="images/PartDesign_ShapeBinder.svg" width=16px> Formbinder erstellen** auswählen.
-4.  Der Aufgabenbereich **Bezugsform-Parameter** wird geöffnet.
-5.  Wahlweise ein Objekt auswählen; dies ist nicht erforderlich, wenn Unterelemente ausgwählt werden sollen:
+3.  Der Aufgabenbereich **Bezugsform-Parameter** wird geöffnet.
+4.  Wahlweise ein Objekt auswählen; dies ist nicht erforderlich, wenn Unterelemente ausgwählt werden sollen:
     1.  Die Schaltfläche **Objekt** drücken.
     2.  Ein objekt in der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen.
     3.  Alle zuvor Ausgewählten Unterelemente werden entfernt.
     4.  Wird hier ein Körper ausgewählt, können keine Unterelemente ausgewählt werden, da sie zu einem anderen Objekt gehören, nämlich dem Formelement an der [Spitze](PartDesign_Body/de#Spitze.md) (Arbeitsposition) des Körpers.
-6.  Wahlweise Unterelemente auswählen:
+5.  Wahlweise Unterelemente auswählen:
     1.  Die Schaltfläche **Geometrie hinzufügen** drücken.
     2.  Ein Unterelement in der [3D-Ansicht](3D_view/de.md) auswählen.
     3.  Die Schaltfläche **Geometrie hinzufügen** muss für jedes Unterelement gedrückt werden, das hinzugefügt werden soll.
     4.  Nur Unterelemente, die zu demselben übergeordneten Objekt gehören, können ausgewählt werden. Wenn erforderlich, die Schaltfläche **Objekt** drücken, um ein anderes übergeordnetes Objekt auszuwählen.
-7.  Wahlweise Unterelemente entfernen:
+6.  Wahlweise Unterelemente entfernen:
     1.  Die Schaltfläche **Geometrie entfernen** drücken.
     2.  Ein Unterelement in der [3D-Ansicht](3D_view/de.md) auswählen.
     3.  Die Schaltfläche **Geometrie entfernen** muss für jedes Unterelement gedrückt werden, das entfernt werden soll.
-8.  Die Schaltfläche **OK** drücken.
+7.  Die Schaltfläche **OK** drücken.
 
 
 
@@ -66,7 +64,17 @@ Die Bearbeitung eines Formbinders wird mit Doppelklick auf sein Symbol in der [B
 
 ## Vergleich PartDesign Teilformbinder und PartDesign Formbinder 
 
-Siehe [Vergleich von PartDesign-Teilformbinder und PartDesign-Formbinder](PartDesign_SubShapeBinder/de#Vergleich_von_PartDesign_Teilformbinder_und_PartDesign_Formbinder.md).
+Die Werkzeuge PartDesign Teilformbinder und [PartDesign Formbinder](PartDesign_ShapeBinder/de.md) sind ziemlich ähnlich. Ihre Namen sind etwas verwirrend, da beide sowohl ganze Objekte als auch Unterelemente referenzieren können.
+
+The main differences are:
+
+-   Editing a PartDesign ShapeBinder is easier. Double-clicking the object in the [Tree view](Tree_view.md) will open a task panel.
+-   A PartDesign ShapeBinder can either reference a single whole object, or subelements belong to a single parent object. A PartDesign SubShapeBinder does not have these restrictions.
+-   Only PartDesign SubShapeBinders can reference geometry from an external file.
+-   A PartDesign SubShapeBinder always tracks the relative placement of the referenced geometry. For a PartDesign ShapeBinder this behavior is optional through its **Trace Support** property.
+-   Only PartDesign SubShapeBinders support 2D offsetting.
+
+While keeping in mind that each of these tools has its pros and cons and the choice may depend on the use case, one can conclude that using a SubShapeBinder is currently recommended for most applications due to its versatility and range of options. More about these tools can be found in MangoJelly\'s video \[<https://www.youtube.com/watch?v=ylAMGQ8HV0w>\| FreeCAD For Beginners 34: Part Design Shape Binder vs Sub Shape Binder\].
 
 
 

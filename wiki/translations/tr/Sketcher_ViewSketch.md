@@ -15,7 +15,13 @@
 
 ## Tanım
 
+
+<div class="mw-translate-fuzzy">
+
 Bu araç, model görünümünü çizim düzlemine dik olarak ayarlar. Kullanıcı, modelin başka bir yönünü incelemek için model görünümü yönünü değiştirdiğinde ve eskiz için normal bir görünüme dönmek istediğinde faydalıdır.
+
+
+</div>
 
 
 
@@ -26,6 +32,8 @@ Bu araç, model görünümünü çizim düzlemine dik olarak ayarlar. Kullanıc�
 
 
 </div>
+
+See also: [Sketcher Preferences](Sketcher_Preferences#Display.md).
 
 
 <div class="mw-translate-fuzzy">

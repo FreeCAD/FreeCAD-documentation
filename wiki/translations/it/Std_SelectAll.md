@@ -9,13 +9,19 @@
 
 # Std SelectAll/it
 
+
+
 ## Descrizione
 
 Il comando **Seleziona tutto** permette di selezionare tutti gli elementi di un documento attivo con una sola azione.
 
+
+
 ## Utilizzo
 
 1.  Selezionare l\'opzione **Modifica → <img src="images/Std_SelectAll.svg" width=16px> Seleziona tutto** dal menu.
+
+
 
 ## Note
 
@@ -25,7 +31,7 @@ Il comando **Seleziona tutto** permette di selezionare tutti gli elementi di un 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

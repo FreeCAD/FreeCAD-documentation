@@ -4,7 +4,7 @@
    Name/fr: Part Échelle
    MenuLocation: Part , Échelle...
    Workbenches: Part_Workbench/fr
-   Version: 0.22
+   Version: 1.0
    SeeAlso: Draft_Clone/fr, Draft_Scale/fr
 ---
 

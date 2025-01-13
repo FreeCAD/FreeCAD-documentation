@@ -17,21 +17,23 @@
 
 ![](images/GGTuto1_Vue.PNG )
 
-Цель этого урока - научить начинающих пользователей FreeCAD нескольким базовым функциям на примере. Изучив основы в [уголке пользователя](User_hub/ru.md), вы сможете смоделировать свою первую деталь шаг за шагом.
+Цель этого урока - научить начинающих пользователей FreeCAD нескольким базовым функциям на примере простой детали. Изучив основы в [уголке пользователя](User_hub/ru.md), вы сможете смоделировать свою первую деталь шаг за шагом.
 
 **В частности, в этом уроке мы рассмотрим:**
 
--   Using [Part Design workbench](PartDesign_Workbench.md), tracing the sketch.
--   Using Pad and Pocket features.
--   Changing color and transparency.
--   Moving the part manually.
--   Displaying reference dimensions in the sketch.
--   Editing one or more dimensions.
--   Using external geometry feature and using a reference plane to centre a hole.
+-   Создание эскиза с помощью [Верстака Part Design](PartDesign_Workbench/ru.md).
+-   Использование инструментов выдавливания и выреза.
+-   Изменение цвета и прозрачности.
+-   Перемещение тела вручную.
+-   Отображение опорных размеров на эскизе.
+-   Изменение одного или более размеров.
+-   Использование возможностей внешней геометрии и использование опорной плоскости для создания центра отверстия.
 
-### Using [Part Design workbench](PartDesign_Workbench.md), tracing the sketch 
 
-Создайте новый документ и включите верстак **[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design'''** используя либо [переключатель верстаков](Getting_started/ru#Exploring_the_interface.md) (помечен числом 10 на картинке по ссылке), либо через главное меню **Вид → Верстак**. FreeCAD запустится с панелями инструментов вверху, комбинированным видом слева и 3D видом справа.
+
+### Создание эскиза с помощью [Верстака Part Design](PartDesign_Workbench/ru.md) 
+
+Создайте новый документ и включите верстак **[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design'''** используя либо [переключатель верстаков](Getting_started/ru#Exploring_the_interface\ru.md) (помечен числом 10 на картинке по ссылке), либо через главное меню **Вид → Верстак**. FreeCAD запустится с панелями инструментов вверху, комбинированным видом слева и 3D видом справа.
 
 **Создайте тело:**
 
@@ -248,33 +250,33 @@
 
 **Сокрытие вспомогательных линий:**
 
-It is often possible to avoid creating construction lines. You can edit the sketch again, erase the construction lines and use a <img alt="" src=images/Constraint_Symmetric.svg  style="width:24px;"> [Symmetric constraint](Sketcher_ConstrainSymmetric.md) between the two opposite vertices of the external geometry lines and the centre of the circle (select points in this order):
+Иногда можно обойтись без вспомогательных линий. Откройте эскиз снова, удалите вспомогательные линии и создайте <img alt="" src=images/Constraint_Symmetric.svg  style="width:24px;"> [Ограничение симметрии](Sketcher_ConstrainSymmetric/ru.md) между двумя противоположными концами линий внешней геометрии и центром круга (выберите точки в этом порядке):
 
 ![](images/GGTuto1_12.PNG )
 
-We get exactly the same result for the position of the hole. In fact, thanks to the constraints available in the Sketcher workbench, there are many possible methods. This example shows that it is often better to choose the simplest method, thus limiting the number of objects created as well as the errors that might result.
+Мы получили центр отверстия точно в том же месте. Итак, благодаря инструментам ограничений, доступных в верстаке Sketcher, есть несколько несколько методов решить одну и ту же задачу. Этот пример показывает, что часто лучше выбрать простейший метод, ограничив количество создаваемых объектов и количество ошибок, которые могут возникнуть.
 
-**Second method using a datum plane.**
+**Второй метод с использованием опорной плоскости.**
 
-Here is another, faster method that is possible since version 0.17: the use of a datum plane and its attachment.
+Есть другой, более быстрый метод, доступный с версии 0.17: использование опорной плоскости грани.
 
-Start by erasing the \"Pocket\" function as well as the sketch of the hole. Select the top face and click <img alt="" src=images/PartDesign_Point.svg  style="width:24px;"> [Datum point](PartDesign_Point.md): create a datum point in the active body. The attachment mode chosen must be \"Center of mass\".
+Сначала на Комбо панели удалите объект \"Pocket\" вместе с эскизом отверстия. Выберите верхнюю грань и нажмите <img alt="" src=images/PartDesign_Point.svg  style="width:24px;"> [Создать опорную точку](PartDesign_Point/ru.md): появится опорная точка на выбранной грани тела. Режим присоединения должен быть \"Центр масс\".
 
-As the face is rectangular, its center of mass corresponds to the center of its diagonals. Validate, and a datum point is created.
+Т.к. грань тела прямоугольная, ее центр масс совпадает с центром ее диагоналей. Нажмите \"Ok\" и на грани появится опорная точка.
 
-Select the top face again and while holding down the CTRL key, select the point you just created in the Model tree, release CTRL and click <img alt="" src=images/PartDesign_Plane.svg  style="width:24px;"> [Datum plane](PartDesign_Plane.md). A reference plane is created with the origin of the point. Click OK.
+Выберите верхнюю грань снова и держа нажатой клавишу CTRL, выберите точку, которую вы только что создали на дереве модели, затем отпустите клавишу CTRL и нажмите <img alt="" src=images/PartDesign_Plane.svg  style="width:24px;"> [Опорная плоскость](PartDesign_Plane/ru.md). Появится опорная плоскость, совпадающая с опорной точкой и гранью. Нажмите \"Ok\".
 
-It is now very easy to center the circle! Select from the Model tree or in the 3D view the plane you created, and click on <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Create a sketch](Sketcher_NewSketch.md), a sketch is created with as origin, the origin of the plane. Then just trace the 5 mm radius circle on this origin, then validate (the sketch must be green imperatively).
+Теперь очень легко создать центр круга! Выберите на дереве модели или на 3D виде плоскость, которую вы только что создали и нажмите <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Создать новый эскиз](Sketcher_NewSketch/ru.md), появится эскиз на опорной плоскости с началом координат в опорной точке. Затем создайте круг радиусом 5 мм с центром в начале координат и нажмите \"Ok\" (эскиз должен стать зеленым).
 
-You get with \"Pocket\", as created previously, the hole and it will always be centered.
+Создайте вырез как вы это делали ранее, получится отверстие, которое всегда будет в центре верней грани.
 
 ![](images/GGTuto1_9.PNG )
 
-This tutorial is completed, save this file, you can have fun exploring various features. Change other dimensions, make other shapes, put other holes on other faces, it is when making mistakes that we progress!
+Это руководство подошло к концу, сохраните файл, теперь на этой модели вы можете изучать возможности FreeCAD. Меняйте размеры, меняйте формы, делайте отверстия на других поверхностях тела. Не бойтесь делать ошибки, только совершая ошибки мы учимся!
 
-You can also continue with this other tutorial of a slightly more complicated part:
+Вы можете открыть другое руководство на слегка более сложной детали:
 
-[Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md)
+[Руководство по созданию простой детали в верстаке \"Part Design\"](Basic_Part_Design_Tutorial/ru.md)
 
 
 {{PartDesign Tools navi

@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft ShapeString
    Name/fr: Draft Forme à partir d'un texte
-   MenuLocation: Draft , Forme à partir d'un texte
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Formes , Forme à partir d'un texte<br><br>BIM : Annotation , Forme à partir d'un texte
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: 
    Version/fr: 0.14
    SeeAlso: Draft_Text/fr, Draft_Label/fr, Part_Extrude/fr
@@ -28,7 +28,8 @@ Pour les utilisateurs de Windows : veuillez d\'abord lire le paragraphe [Sélect
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_ShapeString.svg" width=16px> [Forme à partir d'un texte](Draft_ShapeString/fr.md)**.
-    -   Sélectionnez l\'option **Draft → <img src="images/Draft_ShapeString.svg" width=16px> Forme à partir d'un texte** du menu.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionnez l\'option **Formes → <img src="images/Draft_ShapeString.svg" width=16px> Forme à partir d'un texte** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionnez l\'option **Annotation → <img src="images/Draft_ShapeString.svg" width=16px> Forme à partir d'un texte** du menu.
 2.  Le panneau de tâches **Forme à partir d'un texte** s\'ouvre.
 3.  Cliquez sur un point dans la [vue 3D](3D_view/fr.md) ou rentrez des coordonnées.
 4.  Vous pouvez également appuyer sur le bouton **Réinitialiser le point** pour réinitialiser le point à l\'origine.
@@ -46,15 +47,20 @@ Pour les utilisateurs de Windows : veuillez d\'abord lire le paragraphe [Sélect
 
 
 
-## Remarques
+## Chemin d\'accès relatif à la police 
 
--   Une Draft Forme à partir d\'un texte peut être éditée en double-cliquant dessus dans la [vue en arborescence](Tree_view/fr.md). {{Version/fr|0.20}}
--   Les polices prises en charge sont TrueType (**.ttf**), OpenType (**.otf**) et Type 1 (**.pfb**).
--   La commande est limitée au texte de gauche à droite. Les textes de droite à gauche et de haut en bas ne sont pas pris en charge.
--   De très petites hauteurs de texte peuvent entraîner des formes de caractères déformées en raison de la perte de détails lors de la mise à l\'échelle.
--   Les polices peuvent générer une géométrie problématique. En effet, les contours des polices peuvent se chevaucher et présenter de petites discontinuités. Ces conditions sont considérées comme des erreurs dans les bords utilisés pour définir les faces.
--   Une Forme à partir d\'un texte peut également être créée avec la [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/fr.md).
--   Pour créer des Draft Formes à partir d\'un texte disposées de manière circulaire, utilisez la [Macro FCCircularText](Macro_FCCircularText/fr.md).
+
+{{Version/fr|1.1}}
+
+Il est possible de spécifier un chemin relatif pour le fichier de police. Pour cela, le document FreeCAD doit avoir été sauvegardé au moins une fois.
+
+Quelques exemples :
+
+-    **./SomeFont.ttf**: le fichier de police se trouve dans le même répertoire que le document.
+
+-    **./MonRépertoire/CertainesFont.ttf**: le fichier de police se trouve dans le sous-répertoire **Mon_répertoire** du répertoire du document.
+
+-    **../SomeFont.ttf**: le fichier de police se trouve dans le répertoire parent du répertoire du document.
 
 
 
@@ -69,6 +75,18 @@ Il n\'est pas possible d\'appuyer sur le bouton **...** puis de sélectionner un
 -   Spécifiez le fichier de police dans le champ de saisie. Vous pouvez bien sûr taper le chemin complet ou copier-coller le chemin depuis l\'explorateur de fichiers de Windows. Mais il existe aussi une autre façon de saisir le chemin. Si vous saisissez {{Value|C:\}}, une liste déroulante s\'affiche. Sélectionnez {{Value|Windows}} dans cette liste et ajoutez {{Value|\F}}. Sélectionnez {{Value|Fonts}} dans la nouvelle liste déroulante. Enfin, ajoutez {{Value|\}} et la ou les premières lettres du fichier de police, puis sélectionnez-le dans la liste déroulante.
 
 Voir le paragraphe [Préférences](#Pr.C3.A9f.C3.A9rences.md) ci-dessous pour l\'emplacement des préférences mentionnées.
+
+
+
+## Remarques
+
+-   Une Draft Forme à partir d\'un texte peut être éditée en double-cliquant dessus dans la [vue en arborescence](Tree_view/fr.md).
+-   Les polices prises en charge sont TrueType (**.ttf**), OpenType (**.otf**) et Type 1 (**.pfb**).
+-   La commande est limitée au texte de gauche à droite. Les textes de droite à gauche et de haut en bas ne sont pas pris en charge.
+-   De très petites hauteurs de texte peuvent entraîner des formes de caractères déformées en raison de la perte de détails lors de la mise à l\'échelle.
+-   Les polices peuvent générer une géométrie problématique. En effet, les contours des polices peuvent se chevaucher et présenter de petites discontinuités. Ces conditions sont considérées comme des erreurs dans les bords utilisés pour définir les faces.
+-   Une Forme à partir d\'un texte peut également être créée avec la [macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/fr.md).
+-   Pour créer des Draft Formes à partir d\'un texte disposées de manière circulaire, utilisez la [macro FCCircularText](Macro_FCCircularText/fr.md).
 
 
 
@@ -105,25 +123,25 @@ Un objet Draft Forme à partir d\'un texte est dérivé d\'un [Part Part2DObject
 
 -    **Font File|File**: nom du fichier de la police.
 
--    **Fuse|Bool**: fusionne les faces si les faces se chevauchent, ce qui n\'est généralement pas nécessaire (peut être très lent). Ignoré si **Make Face** est `False`. {{Version/fr|0.22}}
+-    **Fuse|Bool**: fusionne les faces si les faces se chevauchent, ce qui n\'est généralement pas nécessaire (peut être très lent). Ignoré si **Make Face** est `False`. {{Version/fr|1.0}}
 
--    **Justification|Enumeration**: alignement horizontal et vertical. Options : {{value|Top-Left}}, {{value|Top-Center}}, {{value|Top-Right}}, {{value|Middle-Left}}, {{value|Middle-Center}}, {{value|Middle-Right}}, {{value|Bottom-Left}}, {{value|Bottom-Center}}, {{value|Bottom-Right}}. {{Version/fr|0.22}}
+-    **Justification|Enumeration**: alignement horizontal et vertical. Options : {{value|Top-Left}}, {{value|Top-Center}}, {{value|Top-Right}}, {{value|Middle-Left}}, {{value|Middle-Center}}, {{value|Middle-Right}}, {{value|Bottom-Left}}, {{value|Bottom-Center}}, {{value|Bottom-Right}}. {{Version/fr|1.0}}
 
--    **Justification Reference|Enumeration**: référence de hauteur utilisée pour la justification. Options : {{value|Cap Height}}, {{value|Shape Height}}. La hauteur de la forme dépend des caractères figurant dans **String**. {{Version/fr|0.22}}
+-    **Justification Reference|Enumeration**: référence de hauteur utilisée pour la justification. Options : {{value|Cap Height}}, {{value|Shape Height}}. La hauteur de la forme dépend des caractères figurant dans **String**. {{Version/fr|1.0}}
 
--    **Keep Left Margin|Bool**: conserve la marge gauche et l\'espace blanc en tête lorsque la justification est à gauche. {{Version/fr|0.22}}
+-    **Keep Left Margin|Bool**: conserve la marge gauche et l\'espace blanc en tête lorsque la justification est à gauche. {{Version/fr|1.0}}
 
 -    **Make Face|Bool**: remplit les lettres avec des faces.
 
--    **Oblique Angle|Angle**: angle oblique. Doit être compris entre -80° et +80°. {{Version/fr|0.22}}
+-    **Oblique Angle|Angle**: angle oblique. Doit être compris entre -80° et +80°. {{Version/fr|1.0}}
 
--    **Scale To Size|Bool**: met à l\'échelle pour s\'assurer que la hauteur de la majuscule est égale à la taille. Si la valeur est `False`, en fonction de la police, la hauteur de la majuscule ne correspondra pas exactement à **Size**. {{Version/fr|0.22}}
+-    **Scale To Size|Bool**: met à l\'échelle pour s\'assurer que la hauteur de la majuscule est égale à la taille. Si la valeur est `False`, en fonction de la police, la hauteur de la majuscule ne correspondra pas exactement à **Size**. {{Version/fr|1.0}}
 
 -    **Size|Length**: hauteur du texte.
 
 -    **String|String**: chaîne de texte. Une Forme à partir de texte ne peut afficher qu\'une seule ligne de texte.
 
--    **Tracking|Distance**: espace entre les caractères. Le type de propriété a été mis à jour ({{Version/fr|0.22}}).
+-    **Tracking|Distance**: espace entre les caractères. {{Version/fr|1.0}} Le type de la propriété a été mis à jour.
 
 <img alt="" src=images/Draft_ShapeString_Justification.png  style="width:200px;"> 
 *La hauteur du rectangle rouge (ligne continue) est égale à la hauteur de la majuscule.<br>

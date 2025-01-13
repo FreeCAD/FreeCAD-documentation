@@ -1,54 +1,49 @@
 # Macro Cut Circle/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
 |Name=Macro Cut Circle
 |Name/de=Makro Cut Circle
-|Icon=Macro_Cut_Circle.png
-|Description=Schneide einen Kreis oder Kreisbogen in mehrere Bögen, die erzeugten Bögen können zur Unterscheidung abwechselnd eingefärbt werden. Der neue Kreis wird in der realen Koordinate des Objekts erstellt, nicht in der Koordinate des Körpers.<br/>{{ColoredText|(Befehlszeile, füge  dieses komplette Makro in die Python Konsole ein)}}.
+
+|Description=Cuts circles or arcs into multiple arcs. The created arcs can be colored alternately to distinguish them.<br/>{{ColoredText|(Command line, paste the complete macro in the Python console)}}.
+
+|Description=Schneidet Kreise oder Kreisbögen in mehrere Bögen. Die erstellten Bögen können zur Unterscheidung abwechselnd eingefärbt werden.<br/>{{ColoredText|(Befehlszeile, füge das komplette Makro in die Python-Konsole ein)}}.
 |Author=mario52
 |Version=00.03
 |Date=2019-07-02
 |FCVersion=Alle
-|Download=[https://www.freecadweb.org/wiki/images/9/93/Macro_Cut_Circle.png Symbol]
+|Download=[https://www.wiki.freecad.org/wiki/images/9/93/Macro_Cut_Circle.png Werkzeugleistensymbol]
 }}
-
-
-</div>
 
 
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Makro schneidet einen Kreis oder Kreisbogen in mehrere Bögen, die Bögen können zur Unterscheidung abwechselnd eingefärbt werden.
-
-
-</div>
+Dieses Makro schneidet Kreise oder Kreisbögen in mehrere Bögen. Die Bögen können zur Unterscheidung abwechselnd eingefärbt werden.
 
 <img alt="" src=images/Macro_CutCircle_00.png  style="width:400px;"> 
 *KreisSchneiden*
 
-## Usage
 
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
-Kopiere das Makro **cutCirle** komplett in die Python Konsole FreeCAD wähle den/die Kreis(e) und (oder) Bogen Typ in der Konsole:
+1.  Das Makro **cutCirle** in die [Python-Konsole](Python_console/de.md) kopieren.
 
+2.  
+    **Enter**drücken (Der Code ist jetzt im Speicher).
 
-</div>
+3.  Einen oder mehrere Kreise oder Kreisbögen auswählen.
+
+4.  Die Funktion {{Incode|cutCircle()}} mit 1 oder 2 Argumenten von der Python-Konsole aus aufrufen:
+    -   Beispiel mit 1 Argument: {{Incode|cutCircle(4)}}. Dies erstellt 4 neue Bögen zu jedem ausgewählten Kreis oder Kreisbogen und stoppt an der Stelle (keine Einfärbung).
+    -   Beispiel mit 2 Argumenten: {{Incode|cutCircle(6, 1)}}. Dies erstellt 6 neue Bögen zu jedem ausgewählten Kreis oder Kreisbogen, die abwechselnd in Rot und Weiß eingefärbt werden, wie in der Abbildung dargestellt.
+
+5.  Das originale Objekt wird nicht gelöscht.
 
 
 
 ## Skript
 
-ToolBar Icon ![](images/Macro_Cut_Circle.png )
+Werkzeugleistensymbol ![](images/Macro_Cut_Circle.png )
 
 **Macro_Cut_Circle.FCMacro**
 
@@ -129,29 +124,17 @@ cutCircle(5, 1)  # here with 5 arcs and colored
 cutCircle(4)     #
 ```
 
-## Project
 
-
-<div class="mw-translate-fuzzy">
 
 ## Projekt
 
 Kreis auf Zylinder schneiden
 
-
-</div>
-
 ## Version
 
 ver 00.03 02/07/2019 : \"App.ActiveDocument.recompute()\" hinzugefügt
 
-
-<div class="mw-translate-fuzzy">
-
 ver 00.02 09/03/2015 : Hinzufügen von Bögen erzeugen, die abwechselnd rot-weiß-rot-weiß gefärbt sind \.... oder nicht
-
-
-</div>
 
 ver 00.01 24/02/2015 :
 

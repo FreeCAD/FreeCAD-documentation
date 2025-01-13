@@ -3,6 +3,8 @@
 
 
 
+
+
 ## Introducción
 
 
@@ -36,11 +38,15 @@ If a test does not need the GUI, it can also be executed in console mode by sett
 freecad -c -t TestPartDesignApp
 ```
 
+
+
 ## Menú de prueba 
 
 Cada directorio de nivel superior en FreeCAD debe tener un archivo con las pruebas que se pueden ejecutar para ese ambiente de trabajo o módulo en particular. El archivo suele empezar con la palabra `Test`.
 
 Para ejecutar una prueba desde FreeCAD, cambia al ambiente de trabajo Pruebas, luego **Comandos de prueba → TestHierramientasGui → Autoprueba → Seleccionar nombre de la prueba**, luego introduce el nombre del archivo Python con las pruebas; por ejemplo, para el [Ambiente de trabajo Borrador](Draft_Workbench/es.md), esto sería **PruebaBorrador**, luego presiona **Inicio**.
+
+
 
 ## Funciones de prueba 
 
@@ -57,6 +63,8 @@ Add test function
 ### UnitTests
 
 Add test function
+
+
 
 ### Documento
 
@@ -86,7 +94,7 @@ Add test function
 
 Add test function
 
-### TestPathApp
+### TestCAMApp
 
 Path workbench test cases:
 
@@ -114,9 +122,13 @@ Path workbench test cases:
 -   TestPathVcarve: Test general functionality of Vcarve operation.
 -   TestPathVoronoi:
 
+
+
 ### Ambiente de trabajo 
 
 Add test function
+
+
 
 ### Menú
 
@@ -129,6 +141,8 @@ Add test function
 ### Menu.MenuCreateCases
 
 Add test function
+
+
 
 ## Guionización
 
@@ -162,6 +176,8 @@ import Test, femtest.app.test_solver_calculix
 Test.runTestsFromClass(femtest.app.test_solver_calculix.TestSolverCalculix)
 ```
 
+
+
 ### Ejemplo 1 
 
 Within the Python Console of FreeCAD, the following code format may be used to run built-in tests. Replace the red \"**TestFem**\" text in the code below with the desired module test name.
@@ -181,7 +197,11 @@ r = unittest.TextTestRunner()
 r.run(suite)
 ```
 
+
+
 ## Recursos adicionales 
+
+
 
 ### Temas del foro 
 

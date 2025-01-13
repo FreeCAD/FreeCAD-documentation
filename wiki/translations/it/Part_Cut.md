@@ -1,53 +1,45 @@
-# Part Cut/it
 ---
- GuiCommand:   Name: Part_Cut   Name/it: Sottrai   MenuLocation: Part , Booleana , Sottrai   Workbenches: Part_Workbench/it   Parte, Part Common/it, Part Boolean/it---
+ GuiCommand:
+   Name: Part Taglio
+   MenuLocation: Parte , Operazione booleana , Taglio
+   Workbenches: Part_Workbench/it
+   SeeAlso: Part_Boolean/it, Part_Fuse/it, Part_Common/it
+---
 
-
-</div>
+# Part Cut/it
 
 
 
 ## Descrizione
 
-**Sottrae** gli oggetti Parte selezionati, l\'ultimo viene sottratto dal primo. Questa operazione è completamente parametrica e i componenti possono essere modificati e il risultato ricalcolato.
+Lo strumento <img alt="" src=images/Part_Cut.svg  style="width:24px;"> **Part Taglio** taglia (sottrae) gli oggetti Part selezionati, l\'ultimo viene sottratto dal primo. Questa operazione è completamente parametrica e i componenti possono essere modificati e il risultato ricalcolato.
 
+Questo strumento è una forma automatizzata di <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Operazione booleana](Part_Boolean/it.md).
 
-<div class="mw-translate-fuzzy">
-
-**Nota:** Questo comando è una forma automatizzata di <img alt="" src=images/Part_Booleans.svg  style="width:24px;"> [operazione booleana](Part_Boolean/it.md).
-
-
-</div>
-
-[480px\|left\|Cut](IMAGE:Part_Cut_01.png.md)
+<img alt="" src=images/Part_Cut_01.png  style="width:480px;">
 
 
 
 ## Utilizzo
 
 1.  Selezionare due forme.
-2.  Premere il pulsante **Part** → **Booleana** → **Taglio** dal menu principale o il pulsante **<img src="images/Part_Cut.png" width=16px> '''Taglio'''** dalla barra degli strumenti.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Part_Cut.svg" width=16px> [Taglio](Part_Cut/it.md)**.
+    -   Selezionare l\'opzione **Parte → Operazione booleana → <img src="images/Part_Cut.svg" width=16px> Taglio** dal menu.
 
 
 
 ## Input supportati 
 
-
-<div class="mw-translate-fuzzy">
-
-Gli oggetti in ingresso devono essere delle forme [OpenCascade](OpenCascade/it.md). Ad esempio: cose fatte con gli ambienti Parte, PartDesign o Sketcher. Non mesh (a meno che essi non siano stati convertiti in Forme). Per gli oggetti mesh ci sono strumenti booleani specifici nell\'ambiente Mesh.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Gli oggetti di input devono essere forme [OpenCASCADE](OpenCASCADE/it.md). Ad esempio oggetti realizzati con gli ambienti Part, PartDesign o Sketcher. Per le mesh sono disponibili strumenti booleani dedicati nell\' [Ambiente Mesh](Mesh_Workbench/it.md).
 
 
 
 
 
-</div>
+{{Part_Tools_navi
+
+}}
 
 
 

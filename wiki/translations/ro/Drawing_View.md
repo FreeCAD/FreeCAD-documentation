@@ -38,10 +38,6 @@ Deschideți obiectul Page din arborele Project și selectați View. Parametrii s
 -   **Afișează liniile ascunse**: comută sau dezactivează vizibilitatea liniilor ascunse selectând *Adevărat* sau *Fals*.
 -   **Afișează liniile netede**: comută sau dezactivează vizibilitatea liniilor netede prin selectarea*True*sau*False*. Liniile netede sunt de asemenea numite margini de tangență. Aceste margini indică schimbări de suprafață între suprafețele tangente.
 
-### Expertul vizualizării desenului 
-
-Pentru a genera automat o foaie de desen cu vizualizări standard, utilizați [Automatic drawing Macro](Macro_Automatic_drawing.md). 
-
 ### Other
 
 If you are looking for persective-orthographic toggling in 3D view check [Std PerspectiveCamera](Std_PerspectiveCamera.md) and [Std OrthographicCamera](Std_OrthographicCamera.md)

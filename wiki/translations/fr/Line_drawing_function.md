@@ -102,7 +102,7 @@ Remarquez qu\'il existe également une alternative à `addEventCallbackPivy()` a
 def getpoint(self, event_cb):
 ```
 
-Nous définissons maintenant la fonction `getpoint()` qui sera exécutée lorsqu\'un bouton de la souris est enfoncé dans une vue 3D. Cette fonction recevra un argument que nous appellerons `event_cb`. A partir de ce rappel d\'événement, nous pouvons accéder à l\'objet événement qui contient plusieurs informations (plus d\'informations [ici](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)).
+Nous définissons maintenant la fonction `getpoint()` qui sera exécutée lorsqu\'un bouton de la souris est enfoncé dans une vue 3D. Cette fonction recevra un argument que nous appellerons `event_cb`. A partir de ce rappel d\'événement, nous pouvons accéder à l\'objet événement qui contient plusieurs informations (plus d\'informations [ici](Code_snippets/fr#Observer_des_évènements_de_la_souris_dans_la_vue_3D_via_Python.md)).
 
 
 ```python
@@ -123,7 +123,7 @@ Ici, nous avons les coordonnées du curseur de la souris sur l\'écran.
 point = self.view.getPoint(pos[0], pos[1])
 ```
 
-Cette fonction nous donne le vecteur (x,y,z) du point qui se trouve sur le plan focal, juste sous curseur de notre souris. Si vous êtes dans la vue caméra, imaginez un rayon provenant de la caméra, en passant par le curseur de la souris, et en appuyant sur le plan focal. C\'est l\'emplacement de notre point 3D. Si nous sommes en vue orthogonale, le rayon est parallèle à la direction de la vue.
+Cette fonction nous donne le vecteur (x,y,z) du point qui se trouve sur le plan focal, juste sous curseur de notre souris. Si vous êtes dans la vue de la caméra, imaginez un rayon provenant de la caméra, en passant par le curseur de la souris, et en appuyant sur le plan focal. C\'est l\'emplacement de notre point 3D. Si nous sommes en vue orthogonale, le rayon est parallèle à la direction de la vue.
 
 
 ```python

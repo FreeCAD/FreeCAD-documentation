@@ -3,7 +3,7 @@
 
 Ta strona zbiera informacje o solverze MES [CalculiX](http://www.calculix.de/), który stanowi domyślny solver w **<img src="images/Workbench_FEM.svg" width=24px> [środowisku pracy MES](FEM_Workbench/pl.md)** do analiz mechanicznych i termo-mechanicznych. W zależności od systemu operacyjnego, może być konieczność zainstalowania tego solvera przed uruchomieniem pierwszej symulacji w nim. Zobacz stronę [Instalacja środowiska MES](FEM_Install/pl.md).
 
-Ten solver nadaje się do symulacji liniowych i nieliniowych zagadnień statycznych, dynamicznych i termicznych. Operuje on na plikach (`.inp`) środowiska Abaqus, co oznacza, że może być używany z różnymi preprocessorami, które wspierają ten format. Posiada on własny preprocessor graficzny, który nie jest jednak używany we FreeCAD (zaimplementowany jest sam solver).
+Ten solver nadaje się do symulacji liniowych i nieliniowych zagadnień statycznych, dynamicznych i termicznych. Operuje on na plikach (`.inp`) bazujących na oprogramowaniu Abaqus, co oznacza, że może być używany z różnymi preprocessorami, które wspierają ten format. Posiada on własny preprocessor graficzny, który nie jest jednak używany we FreeCAD (zaimplementowany jest sam solver).
 
 CalculiX jest stworzony do pracy na platformach Unixowych jak Linux i Irix, ale też MS-Windows. Został opracowany przez inżynierów z MTU Aero Engines w Munich (Niemcy) do wspomagania projektowania części maszyn takich jak turbiny silników odrzutowych. CalculiX jest obecnie udostępniany publicznie na zasadach licencji GPLv2.
 
@@ -68,9 +68,9 @@ Interfejs solvera CalculiX wspiera następujące obiekty:
 -   Ekwiwalentne odkształcenia plastyczne (PEEQ) -- jeśli używany był nieliniowy materiał
 -   Temperatury -- dla analiz termomechanicznych
 
-FreeCAD odczytuje wyniki z pliku \*.frd utworzonego przez CalculiX. Jeśli te wyniki zawierają wiele przyrostów czasowych, każdy przyrost jest importowany do FreeCAD jako nowy obiekt wyników. To samo zachowanie dotyczy analiz modalnych i wyboczeniowych z wieloma wartościami własnymi.
+FreeCAD odczytuje wyniki z pliku ***.frd** utworzonego przez CalculiX. Jeśli te wyniki zawierają wiele przyrostów czasowych, każdy przyrost jest importowany do FreeCAD jako nowy obiekt wyników. To samo zachowanie dotyczy analiz modalnych i wyboczeniowych z wieloma wartościami własnymi.
 
-Siły reakcji można odczytać z pliku ccx_dat_file, który zawiera ich składowe *(fx, fy, fz)* dla każdego warunku brzegowego utwierdzenia lub przemieszczenia, który blokuje translacyjne stopnie swobody.
+Siły reakcji można odczytać z pliku *ccx_dat_file*, który zawiera ich składowe *(fx, fy, fz)* dla każdego warunku brzegowego utwierdzenia lub przemieszczenia, który blokuje translacyjne stopnie swobody.
 
 
 

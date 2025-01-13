@@ -39,6 +39,11 @@ The clone component will simply have its **CloneOf** property set to the selecte
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/pt-br
+⏵ [documentation index](../README.md) > Arch CloneComponent/pt-br

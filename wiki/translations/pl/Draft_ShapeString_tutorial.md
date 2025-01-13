@@ -34,8 +34,8 @@ Aby użyć funkcji Kształt z tekstu wewnątrz środowiska pracy <img alt="" src
 
 Środowisko pracy [Szkicownik](Sketcher_Workbench/pl.md) jest krótko używane do narysowania linii pomocniczej. Więcej informacji o narzędziach tego środowiska pracy można znaleźć na stronach:
 
--   [Podstawy dla środowiska pracy Szkicownik](Basic_Sketcher_Tutorial/pl.md).
--   [Informator do szkicownika](Sketcher_reference/pl.md).
+-   [Podstawy dla środowiska pracy Szkicownik](Basic_Sketcher_Tutorial/pl.md)
+-   [Poradnik do szkicownika](Sketcher_Lecture/pl.md)
 
 
 
@@ -85,7 +85,7 @@ Aby użyć funkcji Kształt z tekstu wewnątrz środowiska pracy <img alt="" src
 :   5.4. Zmień **Z** na `0 mm`.
 :   5.5. Lub naciśnij **Zresetuj współrzędne punktu**.
 :   5.6. Zmień **Ciąg znaków** na `FreeCAD`. Zmień **Wysokość** na `5 mm`. Zmień **Śledzenie** na `0 mm`.
-:   5.7. Upewnij się, że **Plik czcionki** wskazuje na prawidłową czcionkę, na przykład `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf`. Naciśnij przycisk wielokropka **…**, aby otworzyć okno dialogowe systemu operacyjnego w celu znalezienia czcionki.
+:   5.7. Upewnij się, że **Plik czcionki** wskazuje na prawidłową czcionkę (np. `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf` lub `C:/Windows/Fonts/arial.ttf`). Naciśnij przycisk wielokropka **…**, aby otworzyć okno dialogowe systemu operacyjnego w celu znalezienia czcionki.
 
     :   
         **Uwaga:**

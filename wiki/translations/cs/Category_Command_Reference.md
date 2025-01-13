@@ -7,12 +7,12 @@ This category contains the help pages of each of FreeCAD command.
 | --- | --- | --- |
 | [Arch Add/cs](Arch_Add/cs.md) | [Arch Axis/cs](Arch_Axis/cs.md) | [Arch Building/cs](Arch_Building/cs.md) |
 | [Arch Check/cs](Arch_Check/cs.md) | [Arch CloseHoles/cs](Arch_CloseHoles/cs.md) | [Arch Floor/cs](Arch_Floor/cs.md) |
-| [Arch Frame/cs](Arch_Frame/cs.md) | [Arch IfcExplorer/cs](Arch_IfcExplorer/cs.md) | [Arch MeshToShape/cs](Arch_MeshToShape/cs.md) |
-| [Arch Rebar/cs](Arch_Rebar/cs.md) | [Arch Remove/cs](Arch_Remove/cs.md) | [Arch RemoveShape/cs](Arch_RemoveShape/cs.md) |
-| [Arch Roof/cs](Arch_Roof/cs.md) | [Arch SectionPlane/cs](Arch_SectionPlane/cs.md) | [Arch SelectNonSolidMeshes/cs](Arch_SelectNonSolidMeshes/cs.md) |
-| [Arch Site/cs](Arch_Site/cs.md) | [Arch Space/cs](Arch_Space/cs.md) | [Arch SplitMesh/cs](Arch_SplitMesh/cs.md) |
-| [Arch Stairs/cs](Arch_Stairs/cs.md) | [Arch Structure/cs](Arch_Structure/cs.md) | [Arch Survey/cs](Arch_Survey/cs.md) |
-| [Arch Wall/cs](Arch_Wall/cs.md) | [Arch Window/cs](Arch_Window/cs.md) | [Draft AddToGroup/cs](Draft_AddToGroup/cs.md) |
+| [Arch Frame/cs](Arch_Frame/cs.md) | [Arch MeshToShape/cs](Arch_MeshToShape/cs.md) | [Arch Rebar/cs](Arch_Rebar/cs.md) |
+| [Arch Remove/cs](Arch_Remove/cs.md) | [Arch RemoveShape/cs](Arch_RemoveShape/cs.md) | [Arch Roof/cs](Arch_Roof/cs.md) |
+| [Arch SectionPlane/cs](Arch_SectionPlane/cs.md) | [Arch SelectNonSolidMeshes/cs](Arch_SelectNonSolidMeshes/cs.md) | [Arch Site/cs](Arch_Site/cs.md) |
+| [Arch Space/cs](Arch_Space/cs.md) | [Arch SplitMesh/cs](Arch_SplitMesh/cs.md) | [Arch Stairs/cs](Arch_Stairs/cs.md) |
+| [Arch Structure/cs](Arch_Structure/cs.md) | [Arch Survey/cs](Arch_Survey/cs.md) | [Arch Wall/cs](Arch_Wall/cs.md) |
+| [Arch Window/cs](Arch_Window/cs.md) | [BIM IfcExplorer/cs](BIM_IfcExplorer/cs.md) | [Draft AddToGroup/cs](Draft_AddToGroup/cs.md) |
 | [Draft ApplyStyle/cs](Draft_ApplyStyle/cs.md) | [Draft Arc/cs](Draft_Arc/cs.md) | [Draft Array/cs](Draft_Array/cs.md) |
 | [Draft BezCurve/cs](Draft_BezCurve/cs.md) | [Draft BSpline/cs](Draft_BSpline/cs.md) | [Draft Circle/cs](Draft_Circle/cs.md) |
 | [Draft Clone/cs](Draft_Clone/cs.md) | [Draft Dimension/cs](Draft_Dimension/cs.md) | [Draft Downgrade/cs](Draft_Downgrade/cs.md) |

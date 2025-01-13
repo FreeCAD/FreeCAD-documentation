@@ -1,37 +1,7 @@
----
- GuiCommand:
-   Name: Path DressupLeadInOut
-   MenuLocation: Path , Path Dressup , LeadInOut
-   Workbenches: Path_Workbench
-   SeeAlso: Path_DressupDogbone, Path_DressupTag, Path_DressupRampEntry, Path_DressupDragKnife
----
-
 # Path DressupLeadInOut/pl
-
-## Description
-
-## Usage
-
-## Options
-
-## Limitations
-
-## Scripting
-
-
-```python
-Add python code here
-```
-
-
-
-
-
-{{Path_Tools_navi
-
-}}
+1.  REDIRECT [CAM_DressupLeadInOut/pl](CAM_DressupLeadInOut/pl.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupLeadInOut/pl
+⏵ [documentation index](../README.md) > Path DressupLeadInOut/pl

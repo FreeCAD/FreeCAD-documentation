@@ -15,22 +15,24 @@ Basic_Attachment_Tutorial
 
 ## Beschreibung
 
-**Part Befestigen** ist ein Hilfsmittel, um ein Objekt an einem oder mehreren anderen Objekten zu befestigen. Das befestigte Objekt ist mit den referenzierten Objekten verknüpft, d.h. wenn die [Positionierung](Std_Placement/de.md) oder die Geometrie der referenzierten Objekt geändert wird, wird die Positionierung des befestigten Objekts entsprechend aktualisiert.
+Der Befehl <img alt="" src=images/Part_EditAttachment.svg  style="width:24px;"> **Part Befestigen** befestigt ein Objekt an einem oder mehreren anderen Objekten. Das befestigte Objekt ist mit den referenzierten Objekten verknüpft, d.h. wenn sich die [Positionierung](Std_Placement/de.md) oder die Geometrie der referenzierten Objekte ändert, wird die Positionierung des befestigten Objekts entsprechend aktualisiert.
 
 
 
 ## Befestigungswerkzeuge
 
-Das Befestigen eines Objekts wird durch eins von vier Befestigungswerkzeugen (attach engines) gesteuert. Welches Werkzeug für einn Objekt voreingestellt ist, hängt von seiner Art ab.
+Das Befestigen eines Objekts wird durch eins von vier Befestigungswerkzeugen (attach engines) gesteuert. Welches Werkzeug für ein Objekt voreingestellt ist, hängt von seiner Art ab. Das Befestigungswerkzeug eines Objekts kann über seine {{PropertyData/de|Attacher Engine}} geändert werden ({{Version/de|1.0}}) oder durch seine [ausgeblendete](Property_editor/de#Kontextmenü.md) (hidden) {{PropertyData/de|Attacher Type}}.
 
-Die vier Werkzeuge sind:
+Die vorhandenen Befestigungswerkzeuge sind in der nachfolgenden Tabelle aufgelistet. Befestigungswerkzeuge kontrollieren die {{PropertyData/de|Placement}} (Positionierung) von Objekten. Alle Befestigungswerkzeuge können für alle Objekte, die diese Eigenschaft besitzen, verwendet werden. Aber die Ergebnisse der letzten drei sind am sinnvollsten, wenn die Form der Objekte mit der erwähnten \"Logischen Form\" zusammenpassen.
 
--   [Attacher::AttachEnginePoint](#Attacher:_AttachEnginePoint.md)
--   [Attacher::AttachEngineLine](#Attacher:_AttachEngineLine.md)
--   [Attacher::AttachEnginePlane](#Attacher:_AttachEnginePlane.md)
--   [Attacher::AttachEngine3D](#Attacher:_AttachEngine3D.md)
+  Befestigungswerkzeug                       Befestigungstyp               Logische Form
+    
+  [3D-Engine](#3D-Engine.md)         Attacher::AttachEngine3D      
+  [Plane-Engine](#Plane-Engine.md)   Attacher::AttachEnginePlane   Ebene Fläche die mit der XY-Ebene der Positionierung übereinstimmt
+  [Line-Engine](#Line-Engine.md)     Attacher::AttachEngineLine    Gerade Kante die mit der Z-Achse der Positionierung kolliniear ist
+  [Point-Engine](#Point-Engine.md)   Attacher::AttachEnginePoint   Knotenpunkt der mit dem Ursprung der Positionierung übereinstimmt
 
-Der Rest dieser Seite hat den Fokus auf dem Werkzeug AttachEngine3D. Die Verfahren der anderen Werkzeuge werden hier nur aufgelistet. Man beachte, dass die Verfahren von AttachEnginePlane in Wirklichkeit identisch sind mit denen von AttachEngine3D.
+Der Rest dieser Seite hat den Fokus auf dem Werkzeug 3D-Engine. Die Verfahren der anderen Werkzeuge werden hier nur aufgelistet. Man beachte, dass die Verfahren der Plane-Engine in Wirklichkeit identisch sind mit denen der 3D-Engine.
 
 
 
@@ -38,152 +40,40 @@ Der Rest dieser Seite hat den Fokus auf dem Werkzeug AttachEngine3D. Die Verfahr
 
 1.  Das Objekt auswählen, das befestigt werden soll.
 
-2.  Den Menüeintrag **Part → <img src="images/Part_EditAttachment.svg" width=16px> Befestigung...** auswählen.
+2.  Eine der folgenden Möglichkeiten ausführen:
+    -   Wenn das Objekt schon eine {{PropertyData/de|Map Mode}} besitzt: Im [Eigenschafteneditor](Property_editor/de.md) in dieses Feld klicken und die Schaltfläche **...** drücken, die dann erscheint.
+    -   Den Menüeintrag **Part → <img src="images/Part_EditAttachment.svg" width=16px> Befestigung...** auswählen.
 
-3.  Der Aufgaben-Bereich **Anhang** wird geöffnet.
+3.  Das Aufgaben-Fenster **Befestigen** wird geöffnet.
 
-4.  Oben im Aufgaben-Bereich steht *Nicht gebunden*. Die erste Schaltfläche **Auswählen...** wird hervorgehoben, um anzuzeigen, dass eine Auswahl in der [3D-Ansicht](3D_view/de.md) erwartet wird.
+4.  Oben im Aufgaben-Fenster steht *Nicht befestigt*. Die erste Schaltfläche **Auswählen...** wird hervorgehoben, um anzuzeigen, dass eine Auswahl in der [3D-Ansicht](3D_view/de.md) erwartet wird.
 
-5.  Einen Knoten, eine Kante oder eine Fläche bzw. Ebene auswählen, der/die zu einem anderen Objekt gehören.
+5.  Einen Knoten, eine Kante oder eine Fläche bzw. Ebene auswählen, der/die zu einem anderen Objekt gehört.
 
-6.  Im Eingabefeld rechts der Schaltfläche wird das referenzierte Objekt mit Subelement angezeigt. Wenn zum Beispiel eine Fläche eines [Part Würfels](Part_Box/de.md) ausgewählt ist, kann das Feld {{Value|Box:Face6}} anzeigen.
+6.  Im Eingabefeld rechts der Schaltfläche wird das referenzierte Objekt mit Subelement angezeigt. Wenn zum Beispiel eine Fläche eines [Part-Quaders](Part_Box/de.md) ausgewählt ist, kann das Feld {{Value|Box:Face6}} anzeigen. Die Bezeichnung (Label) der Schaltfläche zeigt jetzt die Art des Unterelements an.
 
 7.  Die zur Verfügung stehenden Verfahren werden auf Basis der ausgewählten Bezugselemente und deren Reihenfolge gefiltert. Beispielsweise muss für die Verfahren [Ausrichtung O-Z-X](#Ausrichtung_O-Z-X.md) bis [Ausrichtung O-Y-X](#Ausrichtung_O-Y-X.md) das erste Bezugselement ein Knoten sein. Ist das erste Bezugselement ein Subelement einer anderen Art, werden sie von der Liste gelöscht.
 
-8.  Einen [Befestigungsmodus](#Attachment_mode/de.md) in der Liste auswählen. Für Informationen zu den Befestigungsverfahren fährt man mit dem Mauszeiger darüber, um einen QuickTip zum jeweiligen Verfahren anzuzeigen.
+8.  *Befestigungsverfahren: * wird jetzt oben im Aufgaben-Fenster angezeigt.
 
-9.  *Befestigt im Modus * wird jetzt oben im Aufgaben-Bereich angezeigt.
+9.  Wahlweise einen anderen [Befestigungsmodus](#Attachment_mode/de.md) in der Liste auswählen. Für Informationen zu den Befestigungsverfahren fährt man mit dem Mauszeiger darüber, um einen QuickTip zum jeweiligen Verfahren anzuzeigen.
 
 10. Abhängig vom ausgewählten Verfahren werden bis zu drei weitere Bezugselemente hinzugefügt, indem die Schaltflächen **Bezugselement2**, **Bezugselement3**, und **Bezugselement4** gedrückt und jeweils der Schritt 5 wiederholt werden. Es ist auch möglich, alle Bezugselemente vor der Auswahl eines Befestigungsverfahrens festzulegen.
 
-11. Wird ein weiteres Bezugselement ausgewählt, wird sich die Beschriftung der vorherigen Schaltfläche anpassen und die Art des Subelements jenes Bezugselements anzeigen.
+11. Wahlweise einen [Befestigungsversatz](#Befestigungsversatz.md) eingeben.
 
-12. Wahlweise einen [Befestigungsversatz](#Befestigungsversatz.md) eingeben.
-
-13. 
+12. 
     **OK**drücken.
 
-14. Wo möglich, kann wahlweise die {{PropertyData/de|Map Path Parameter}} im [Eigenschafteneditor](Property_editor/de.md) geändert werden.
-
-
-
-## Befestigungswerkzeug wechseln 
-
-Es ist möglich, das Befestigungswerkzeug eines Objekts manuell zu wechseln:
-
-1.  Das Objekt auswählen.
-2.  Rechtsklick in den [Eigenschafteneditor](Property_editor/de.md) und **Alles anzeigen** im Kontextmenü auswählen.
-3.  Die {{PropertyData/de|Attacher Type}} des Objekts bearbeiten
+13. Wo möglich, kann wahlweise die {{PropertyData/de|Map Path Parameter}} im [Eigenschafteneditor](Property_editor/de.md) geändert werden.
 
 
 
 ## Befestigungsverfahren
 
 
-<div class="toccolours mw-collapsible mw-collapsed">
 
-
-
-### Attacher::AttachEnginePoint
-
-
-<div class="mw-collapsible-content">
-
--   Deactivated (Deaktiviert)
--   Object\'s origin (Objektursprung)
--   Focus1 (Fokus1)
--   Focus2 (Fokus2)
--   On edge (Auf Kante)
--   Center of curvature (Krümmungsmittelpunkt)
--   Center of mass (Schwerpunkt)
--   Vertex (Knoten)
--   Proximity point 1 (Näherungspunkt 1)
--   Proximity point 2 (Näherungspunkt 2)
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-
-
-### Attacher::AttachEngineLine
-
-
-<div class="mw-collapsible-content">
-
--   Deactivated
--   Object\'s X
--   Object\'s Y
--   Object\'s Z
--   Axis of curvature
--   Directrix1
--   Directrix2
--   Asymptote1
--   Asymptote2
--   Tangent
--   Normal to edge
--   Binormal
--   Through two points
--   Proximity line
--   1st principal axis
--   2nd principal axis
--   3rd principal axis
--   Normal to surface
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-
-
-### Attacher::AttachEnginePlane
-
-
-<div class="mw-collapsible-content">
-
--   Deactivated
--   Translate origin
--   Object\'s XY
--   Object\'s XZ
--   Object\'s YZ
--   Plane face
--   Tangent to surface
--   Normal to edge
--   Frenet NB
--   Frenet TN
--   Frenet TB
--   Concentric
--   Revolution Section
--   Plane by 3 points
--   Normal to 3 points
--   Folding
--   Inertia 2-3
--   Align O-N-X
--   Align O-N-Y
--   Align O-X-Y
--   Align O-X-N
--   Align O-Y-N
--   Align O-Y-X
-
-
-</div>
-
-
-</div>
-
-
-
-### Attacher::AttachEngine3D
+### 3D-Engine 
 
 <img alt="" src=images/Part_Offset_Tasks.png  style="width:250px;">
 
@@ -191,7 +81,7 @@ Es ist möglich, das Befestigungswerkzeug eines Objekts manuell zu wechseln:
 
 #### Deaktiviert
 
-Befestigen ist deaktiviert. Das Objekt kann durch Bearbeiten der Eigenschaft [Positionierung](Placement/de.md) bewegt werden.
+Befestigen ist deaktiviert. Das Objekt kann durch Bearbeiten seiner Eigenschaft [Placement](Placement/de.md) (Positionierung) bewegt werden.
 
 
 
@@ -248,7 +138,7 @@ Die XY-Ebene wird zu einer ebenen Fläche deckungsgleich ausgerichtet.
 
 
 
-#### XY tangential an Oberfläche 
+#### XY tangential zur Oberfläche 
 
 Die XY-Ebene wird an einem Knoten tangential zu einer Oberfläche ausgerichtet.
 
@@ -259,7 +149,7 @@ Die XY-Ebene wird an einem Knoten tangential zu einer Oberfläche ausgerichtet.
 
 
 
-#### Z tangential zu Kante 
+#### Z tangential zur Kante 
 
 Die Z-Achse wird tangential zu einer Kante ausgerichtet. Ein optionaler Knoten legt fest, an welcher Stelle.
 
@@ -277,11 +167,11 @@ Ist kein Knoten verknüpft, legt die {{PropertyData/de|Map Path Parameter}} den 
 
 <img alt="" src=images/Attacher_mode_FrenetNB.png  style="width:250px;">
 
-Die X- und Y-Achsen werden an die normale (N) und die binormale (B) Achse des [Frenet-Serret Koordinatensystems](https://de.wikipedia.org/wiki/Frenetsche_Formeln) ([Frenet-Serret coordinate system](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)) in einem Punkt auf einer gekrümmten Kante angeglichen. Ein optionaler Knoten legt fest, an welcher Stelle.
+Die X- und Y-Achsen werden an der normalen (N) und der binormalen (B) Achse des [Frenet-Serret-Koordinatensystems](https://de.wikipedia.org/wiki/Frenetsche_Formeln) ([Frenet-Serret coordinate system](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)) in einem Punkt auf einer gekrümmten Kante ausgerichtet. Ein optionaler Knoten legt fest, an welcher Stelle.
 
 Ist kein Knoten verknüpft, legt die {{PropertyData/de|Map Path Parameter}} den Punkt fest. Der Ursprung des Objekts wird auf den Knoten verschoben, wenn dieser zuerst ausgewählt wurde oder er wird an der Kurve belassen, wenn die Kurve zuerst ausgewählt wurde.
 
-*Frenet NBT* entspricht *Z tangential zu Kante*, außer dass die X-Achse eindeutig festgelegt ist.
+*Frenet NBT* entspricht *Z tangential zur Kante*, außer dass die X-Achse eindeutig festgelegt ist.
 
 :;Kombinationen der Bezugselemente:
 
@@ -295,7 +185,7 @@ Ist kein Knoten verknüpft, legt die {{PropertyData/de|Map Path Parameter}} den 
 
 <img alt="" src=images/Attacher_mode_FrenetTN.png  style="width:250px;">
 
-Die X- und Y-Achsen werden an die tangentiale (T) und die normale Achse des Frenet-Serret Koordinatensystems in einem Punkt auf einer gekrümmten Kante angeglichen. Ein optionaler Knoten legt fest, an welcher Stelle.
+Die X- und Y-Achsen werden an der tangentialen (T) und der normalen (N) Achse des Frenet-Serret-Koordinatensystems in einem Punkt auf einer gekrümmten Kante ausgerichtet. Ein optionaler Knoten legt fest, an welcher Stelle.
 
 Siehe [Frenet NBT](#Frenet_NBT.md).
 
@@ -313,7 +203,7 @@ Siehe [Frenet NBT](#Frenet_NBT.md).
 
 #### Konzentrisch
 
-Die XY-Ebene wird an den [Krümmungskreis](https://de.wikipedia.org/wiki/Krümmungskreis) ([osculating circle](https://en.wikipedia.org/wiki/Osculating_circle)) in einem Punkt auf einer Kante angeglichen. Ein optionaler Knoten legt fest, an welcher Stelle.
+Die XY-Ebene wird an dem [Krümmungskreis](https://de.wikipedia.org/wiki/Krümmungskreis) ([osculating circle](https://en.wikipedia.org/wiki/Osculating_circle)) in einem Punkt auf einer Kante ausgerichtet. Ein optionaler Knoten legt fest, an welcher Stelle.
 
 Ist kein Knoten verknüpft, legt die {{PropertyData/de|Map Path Parameter}} den Punkt fest.
 
@@ -330,7 +220,7 @@ Ist kein Knoten verknüpft, legt die {{PropertyData/de|Map Path Parameter}} den 
 
 #### Drehung Abschnitt 
 
-Die Y-Achse wird an die Achse des Krümmungskreises in einem Punkt auf einer Kante angeglichen. Ein optionaler Knoten legt fest, an welcher Stelle.
+Die Y-Achse wird an der Achse des Krümmungskreises in einem Punkt auf einer Kante ausgerichtet. Ein optionaler Knoten legt fest, an welcher Stelle.
 
 Siehe [Konzentrisch](#Konzentrisch.md).
 
@@ -369,9 +259,9 @@ Dies ist ein spezieller Modus zum Falten von Polyedern. Vier Linien mit einem ge
 
 
 
-#### Trägheits-KS 
+#### Inertial-Koordinatensystem 
 
-Die X-, Y-, und Z-Achsen werden denen eines Trägheitskoordinatensystems angeglichen, das aus den Hauptachsen der Massenträgheit und dem Masseschwerpunkt abgeleitet wird.
+Die X-, Y-, und Z-Achsen werden an denen eines Inertial-Koordinatensystems (Trägheitskoordinatensystem) ausgerichtet, das aus den Hauptachsen der Massenträgheit und dem Masseschwerpunkt abgeleitet wird.
 
 :;Kombinationen der Bezugselemente:
 
@@ -384,7 +274,7 @@ Die X-, Y-, und Z-Achsen werden denen eines Trägheitskoordinatensystems angegli
 
 #### Ausrichten O-Z-X 
 
-Der Ursprung wird auf den ersten Knoten gesetzt. Die X-, und Z-Achsen werden in Richtung auf einen Knoten zu oder entlang einer Linie ausgerichtet.
+Der Ursprung wird auf den ersten Knoten gesetzt. Die X- und Z-Achsen werden in Richtung auf einen Knoten zu oder entlang einer Linie ausgerichtet.
 
 Siehe [Befestigungsverfahren der Art O-X-Y](O-X-Y_Type_Attachment_Modes/de.md) für weitere Eizelheiten.
 
@@ -409,7 +299,7 @@ Siehe [Ausrichten O-Z-X](#Ausrichten_O-Z-X.md).
 
 #### Ausrichten O-X-Y 
 
-Der Ursprung wird auf den ersten Knoten gesetzt. Die X-, und Y-Achsen werden in Richtung auf einen Knoten zu oder entlang einer Linie ausgerichtet.
+Der Ursprung wird auf den ersten Knoten gesetzt. Die X- und Y-Achsen werden in Richtung auf einen Knoten zu oder entlang einer Linie ausgerichtet.
 
 Siehe [Ausrichten O-Z-X](#Ausrichten_O-Z-X.md).
 
@@ -417,7 +307,7 @@ Siehe [Ausrichten O-Z-X](#Ausrichten_O-Z-X.md).
 
 #### Ausrichten O-X-Z 
 
-Der Ursprung wird auf den ersten Knoten gesetzt. Die X-, und Z-Achsen werden in Richtung auf einen Knoten zu oder entlang einer Linie ausgerichtet.
+Der Ursprung wird auf den ersten Knoten gesetzt. Die X- und Z-Achsen werden in Richtung auf einen Knoten zu oder entlang einer Linie ausgerichtet.
 
 Siehe [Ausrichten O-Z-X](#Ausrichten_O-Z-X.md).
 
@@ -425,7 +315,7 @@ Siehe [Ausrichten O-Z-X](#Ausrichten_O-Z-X.md).
 
 #### Ausrichten O-Y-Z 
 
-Der Ursprung wird auf den ersten Knoten gesetzt. Die Y-, und Z-Achsen werden in Richtung auf einen Knoten zu oder entlang einer Linie ausgerichtet.
+Der Ursprung wird auf den ersten Knoten gesetzt. Die Y- und Z-Achsen werden in Richtung auf einen Knoten zu oder entlang einer Linie ausgerichtet.
 
 Siehe [Ausrichten O-Z-X](#Ausrichten_O-Z-X.md).
 
@@ -433,9 +323,128 @@ Siehe [Ausrichten O-Z-X](#Ausrichten_O-Z-X.md).
 
 #### Ausrichten O-Y-X 
 
-Der Ursprung wird auf den ersten Knoten gesetzt. Die Y-, und X-Achsen werden in Richtung auf einen Knoten zu oder entlang einer Linie ausgerichtet.
+Der Ursprung wird auf den ersten Knoten gesetzt. Die Y- und X-Achsen werden in Richtung auf einen Knoten zu oder entlang einer Linie ausgerichtet.
 
 Siehe [Ausrichten O-Z-X](#Ausrichten_O-Z-X.md).
+
+
+
+#### XY parallel zur Ebene 
+
+
+{{Version/de|1.0}}
+
+Die XY-Ebene wird parallel zur XY-Ebene der Positionierung eines verknüpften Objekts ausgerichtet und verlauft durch einen Knoten. Der Ursprung wird auf den auf die XY-Ebene projizierten Ursprung des verknüpften Objekts gesetzt.
+
+Man beachte, dass das gesamte Objekt ausgewählt werden muss und nicht nur ein Teilelement, wie eine Fläche oder Ebene.
+
+:;Kombinationen der Bezugselemente:
+
+:   Ein beliebiges komplettes Objekt (mit einer {{PropertyData/de|Placement}}), Knoten
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Plane-Engine 
+
+
+<div class="mw-collapsible-content">
+
+-   Deactivated
+-   Translate origin
+-   Object\'s XY
+-   Object\'s XZ
+-   Object\'s YZ
+-   Plane face
+-   Tangent to surface
+-   Normal to edge
+-   Frenet NB
+-   Frenet TN
+-   Frenet TB
+-   Concentric
+-   Revolution Section
+-   Plane by 3 points
+-   Normal to 3 points
+-   Folding
+-   Inertia 2-3
+-   Align O-N-X
+-   Align O-N-Y
+-   Align O-X-Y
+-   Align O-X-N
+-   Align O-Y-N
+-   Align O-Y-X
+-   XY parallel to plane <small>(v1.0)</small> 
+
+
+</div>
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Line-Engine 
+
+
+<div class="mw-collapsible-content">
+
+-   Deactivated
+-   Object\'s X
+-   Object\'s Y
+-   Object\'s Z
+-   Axis of curvature
+-   Directrix1
+-   Directrix2
+-   Asymptote1
+-   Asymptote2
+-   Tangent
+-   Normal to edge
+-   Binormal
+-   Through two points
+-   Intersection <small>(v1.0)</small> 
+-   Proximity line
+-   1st principal axis
+-   2nd principal axis
+-   3rd principal axis
+-   Normal to surface
+
+
+</div>
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Point-Engine 
+
+
+<div class="mw-collapsible-content">
+
+-   Deactivated (Deaktiviert)
+-   Object\'s origin (Objektursprung)
+-   Focus1 (Fokus1)
+-   Focus2 (Fokus2)
+-   On edge (Auf Kante)
+-   Center of curvature (Krümmungsmittelpunkt)
+-   Center of mass (Schwerpunkt)
+-   Vertex (Knoten)
+-   Proximity point 1 (Näherungspunkt 1)
+-   Proximity point 2 (Näherungspunkt 2)
+
+
+</div>
+
+
+</div>
 
 
 

@@ -10,7 +10,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fasteners Déplacer la fixation** déplace et attache une fixation à un bord circulaire. Elle peut également être utilisée pour détacher une fixation. Une fixation attachée a une **base Object** et sa **Placement** est liée dynamiquement à cet objet.
+La commande <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fasteners Déplacer la fixation** déplace et attache une fixation à un bord circulaire. Elle peut également être utilisée pour détacher une fixation. Une fixation attachée a une **Base Object** et sa **Placement** est liée dynamiquement à cet objet.
 
 
 
@@ -42,12 +42,9 @@ La commande <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fa
 
 
 
-
-{{Fasteners Tools navi
-
-}}
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Move/fr
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners Move/fr

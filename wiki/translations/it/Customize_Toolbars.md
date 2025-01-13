@@ -1,9 +1,28 @@
+---
+ TutorialInfo:t
+   Topic: Configurazione
+   Level: Principiante
+   Time: 5 minuti
+   Author: User:Mario52
+   FCVersion: Tutte
+   SeeAlso: Interface_Customization/it.
+---
+
 # Customize Toolbars/it
-{{TutorialInfo/it|Topic=Configurazione|Level=Principiante|Time=5 minuti|Author=[Mario52](User_Mario52.md)|FCVersion=Tutte}}
+
+
+
+
+
+
 
 ## Introduzione
 
-Questo tutorial mostra la personalizzazione delle barre degli strumenti. Gli strumenti (inclusi gli strumenti Macro) possono essere usati in diversi ambienti di lavoro. In un esempio, una Macro diventa uno Strumento-macro creando un **\'Testo**\', un **\'Suggerimento**\' (Tool tip) e una **\'Icona**\'. Successivamente questo Strumento-macro diventa parte di una barra degli strumenti extra in un ambiente di lavoro.
+Questo tutorial mostra come aggiungere un pulsante per una [macro](Macros/it.md) ad una barra degli strumenti personalizzata.
+
+Per informazioni più generali vedere [Personalizzare l\'interfaccia](Interface_Customization/it.md).
+
+
 
 ## Utilizzo
 
@@ -107,11 +126,7 @@ Selezionare la tabella *Macro*
 
 -   La nuova barra degli strumenti è ora contenuta nel menu di scelta rapida della barra degli strumenti. Se la barra degli strumenti viene attivata (segno di spunta blu) le sue icone sono visibili (nel nostro esempio c\'è solo la fotocamera).
 
-<img alt="New Toolbar" src=images/CustomizeToolBar_18.png  style="width:640px;"> 
-
-## Note
-
-Vedere anche [Personalizzare l\'interfaccia](Interface_Customization/it.md)
+<img alt="New Toolbar" src=images/CustomizeToolBar_18.png  style="width:640px;">
 
 
 

@@ -3,7 +3,7 @@
    Name: PartDesign SubShapeBinder
    Name/it: Lega forme secondarie
    Workbenches: PartDesign_Workbench/it
-   MenuLocation: Part Design , Forme legate secondarie
+   MenuLocation: Part Design , Crea un riferimento per i sotto oggetti
    Version: 0.19
    SeeAlso: PartDesign_ShapeBinder/it, PartDesign_Clone/it
 ---
@@ -17,21 +17,9 @@
 
 ## Descrizione
 
+Lo strumento **PartDesign SubShapeBinder** crea una forma legata che fa riferimento alla geometria da uno o più oggetti principali. Un SubShapeBinder viene in genere utilizzato all\'interno di un [Corpo](PartDesign_Body/it.md) per fare riferimento alla geometria esterna al corpo. L\'utilizzo della geometria esterna direttamente in un corpo non è consentito e porterà a errori fuori ambito. Ma un SubShapeBinder può essere utilizzato anche senza essere annidato in un Body.
 
-<div class="mw-translate-fuzzy">
-
-[PartDesign SubShapeBinder](PartDesign_SubShapeBinder/it.md) importa un elemento da un altro corpo nel [Corpo](PartDesign_Body/it.md) attivo. Può prendere delle [Forme](Shape/it.md) o essere \"associato\" a uno o più oggetti o sottoelementi (bordi o facce) di un altro oggetto.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Può anche legare oggetti nidificati all\'interno di [Parti](Std_Part/it.md) e seguirà il posizionamento relativo di queste funzioni. Ciò è utile nel contesto della creazione di [assemblaggi](Assembly/it.md), poiché spesso si deve fare riferimento a [funzioni](PartDesign_Feature/it.md) che sono già correttamente posizionate in un altro sottoassieme.
-
-
-</div>
+Una Forma Legata Secondaria traccerà il posizionamento relativo della geometria di riferimento, che è utile nel contesto della creazione di [assiemi](Assembly/it.md), ma oltre a ciò ha anche un proprio posizionamento.
 
 The referenced geometry can consist of one or multiple elements. Each element can be an individual object (for example a [PartDesign Body](PartDesign_Body.md)), a subobject (for example a [Part Box](Part_Box.md) inside a [Std Part](Std_Part.md), or a [sketch](PartDesign_NewSketch.md) or [Feature](PartDesign_Feature.md) inside a Body), or a subelement (a face, edge or vertex). Which geometry should be selected depends on the intended purpose of the SubShapeBinder. For a Boolean operation you would need to select a solid. For a [Pad operation](PartDesign_Pad.md) a face, a sketch or a planar wire can be used. And for the [external geometry](Sketcher_External.md) in a sketch, or to attach a sketch, any combination of subelements may be appropriate. Elements can belong to different parent objects, and can even belong to the Body the SubShapeBinder is nested in. Because a SubShapeBinder is [Link-based](Std_LinkMake.md) the referenced geometry can also belong to an external document.
 
@@ -63,7 +51,9 @@ The referenced geometry can consist of one or multiple elements. Each element ca
 
 ## Utilizzo
 
-### Same document 
+
+
+### Stesso documento 
 
 1.  If there are multiple Bodies in the document: optionally [activate the Body](PartDesign_Body#Active_status.md) the SubShapeBinder should be nested in.
 2.  Select the required geometry. Subelements can only be selected in the [3D view](3D_view.md).
@@ -73,7 +63,9 @@ The referenced geometry can consist of one or multiple elements. Each element ca
 4.  The SubShapeBinder is created.
 5.  If there is only one Body in the document the SubShapeBinder is automatically added to it and the Body is activated. If this is the case and the SubShapeBinder should not be nested, it can be dragged out of the Body and dropped onto the <img alt="" src=images/Document.svg  style="width:16px;"> document node in the [Tree view](Tree_view.md).
 
-### External document 
+
+
+### Documento esterno 
 
 1.  If required open the source document (the external document) and the target document. Both documents must have been saved at least once.
 2.  If there are multiple Bodies in the target document: optionally activate the Body the SubShapeBinder should be nested in.
@@ -81,7 +73,9 @@ The referenced geometry can consist of one or multiple elements. Each element ca
 4.  Switch to the target document by clicking its tab in the [Main view area](Main_view_area.md).
 5.  Invoke the tool as described above.
 
-### Start with empty SubShapeBinder 
+
+
+### Inizia con SubShapeBinder vuoto 
 
 1.  Follow the instructions described under [Same document](#Same_document.md) above but without selecting geometry.
 2.  An empty SubShapeBinder is created.
@@ -90,26 +84,18 @@ The referenced geometry can consist of one or multiple elements. Each element ca
 5.  Optionally add more geometry in the same manner.
 6.  To replace already referenced geometry hold down **Ctrl** during the drag and drop operation.
 
-## Notes
 
--   2D offsetting is supported for some shape types, included planar faces, edges and wires. Because offsetting is a difficult operation for the software it does not always succeed. <small>(v0.20)</small> 
+
+## Note
+
+-   2D offsetting is supported for some shape types, included planar faces, edges and wires. Because offsetting is a difficult operation for the software it does not always succeed.
 -   A SubShapeBinder that is not nested in a Body can be used as the [Base Feature](PartDesign_Body#Base_Feature.md) for a new Body.
 -   The **Support** property contains the links to the referenced geometry. The property is read only by default, but can be changed by following the instructions described under [Start with empty SubShapeBinder](#Start_with_empty_SubShapeBinder.md).
 -   A SubShapeBinder created from a sketch can have an opposite \"tool direction\". For example a [Pad](PartDesign_Pad.md) created from the sketch may extend in the +Y direction, while a [Pad](PartDesign_Pad.md), with the same properties, created from the SubShapeBinder extends in the -Y direction. Toggling the **Reversed** property (or checkbox) will solve this.
 
 ## PartDesign SubShapeBinder vs. PartDesign ShapeBinder 
 
-The PartDesign SubShapeBinder tool and the [PartDesign ShapeBinder](PartDesign_ShapeBinder.md) tool are quite similar. Their names are somewhat confusing as both can reference whole objects and subelements.
-
-The main differences are:
-
--   Editing a PartDesign ShapeBinder is easier. Double-clicking the object in the [Tree view](Tree_view.md) will open a task panel.
--   A PartDesign ShapeBinder can either reference a single whole object, or subelements belong to a single parent object. A PartDesign SubShapeBinder does not have these restrictions.
--   Only PartDesign SubShapeBinders can reference geometry from an external file.
--   A PartDesign SubShapeBinder always tracks the relative placement of the referenced geometry. For a PartDesign ShapeBinder this behavior is optional through its **Trace Support** property.
--   Only PartDesign SubShapeBinders support 2D offsetting.
-
-While keeping in mind that each of these tools has its pros and cons and the choice may depend on the use case, one can conclude that using a SubShapeBinder is currently recommended for most applications due to its versatility and range of options. More about these tools can be found in MangoJelly\'s video \[<https://www.youtube.com/watch?v=ylAMGQ8HV0w>\| FreeCAD For Beginners 34: Part Design Shape Binder vs Sub Shape Binder\].
+See [PartDesign ShapeBinder](PartDesign_ShapeBinder#PartDesign_SubShapeBinder_vs._PartDesign_ShapeBinder.md).
 
 
 
@@ -159,20 +145,33 @@ While keeping in mind that each of these tools has its pros and cons and the cho
 
 {{TitleProperty|Cache}}
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Body|Matrix|hidden**: matrice di unità di questo oggetto.
+
+
+</div>
 
 
 {{TitleProperty|Offsetting}}
 
--    **Offset**: 2D offset to apply. If Offset = 0, then no offset is applied. If Offset \< 0, then the offset is applied inward. <small>(v0.20)</small> 
+-    **Offset**: 2D offset to apply. If Offset = 0, then no offset is applied. If Offset \< 0, then the offset is applied inward.
 
--    **Offset Join Type**: Join method of offsetting non-tangent joints. The method can be {{Value|Arcs}}, {{Value|Tangent}} or {{Value|Intersection}}. <small>(v0.20)</small> 
+-    **Offset Join Type**: Join method of offsetting non-tangent joints. The method can be {{Value|Arcs}}, {{Value|Tangent}} or {{Value|Intersection}}.
 
--    **Offset Fill|Bool**: If `True`, a face is made between the new wire and the original wire. See also the **Make Face** property. <small>(v0.20)</small> 
+-    **Offset Fill|Bool**: If `True`, a face is made between the new wire and the original wire. See also the **Make Face** property.
 
--    **Offset Open Result|Bool**: Affects the way open wires are processed. If `False`, an open wire is made. If `True`, a closed wire is made from a double-sided offset, with rounds around open vertices. <small>(v0.20)</small> 
+-    **Offset Open Result|Bool**: Affects the way open wires are processed. If `False`, an open wire is made. If `True`, a closed wire is made from a double-sided offset, with rounds around open vertices.
 
--    **Offset Intersection|Bool**: Affects the way compounds are processed. If `False`, all children are processed independently. If `True`, and children are edges and wires, the children are offset in a collective manner. <small>(v0.20)</small> 
+-    **Offset Intersection|Bool**: Affects the way compounds are processed. If `False`, all children are processed independently. If `True`, and children are edges and wires, the children are offset in a collective manner.
+
+### View
+
+
+{{TitleProperty|Base}}
+
+-    **Use Binder Style|Bool**: If `True` the colors of the binder object depend on the [fine-tuning](Fine-tuning#PartDesign_Workbench.md) parameter **DefaultDatumColor**. If `False`, normal shape colors are applied.
 
 
 

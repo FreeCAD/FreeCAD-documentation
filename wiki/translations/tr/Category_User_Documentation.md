@@ -10,6 +10,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Arch Equipment/tr](Arch_Equipment/tr.md) | [Arch Floor/tr](Arch_Floor/tr.md) | [Arch Remove/tr](Arch_Remove/tr.md) |
 | [Arch SectionPlane/tr](Arch_SectionPlane/tr.md) | [Arch Structure/tr](Arch_Structure/tr.md) | [Arch Wall/tr](Arch_Wall/tr.md) |
 | [Arch Workbench/tr](Arch_Workbench/tr.md) | [Basic Part Design Tutorial/tr](Basic_Part_Design_Tutorial/tr.md) | [Branding/tr](Branding/tr.md) |
+| [CAM Helix/tr](CAM_Helix/tr.md) | [CAM MillFace/tr](CAM_MillFace/tr.md) | [CAM Workbench/tr](CAM_Workbench/tr.md) |
 | [Compile on MacOS/tr](Compile_on_MacOS/tr.md) | [Compile on MinGW/tr](Compile_on_MinGW/tr.md) | [Compile on Windows/tr](Compile_on_Windows/tr.md) |
 | [Contributors/tr](Contributors/tr.md) | [Creating a simple part with PartDesign/tr](Creating_a_simple_part_with_PartDesign/tr.md) | [Document structure/tr](Document_structure/tr.md) |
 | [Download/tr](Download/tr.md) | [Draft AddConstruction/tr](Draft_AddConstruction/tr.md) | [Draft AddToGroup/tr](Draft_AddToGroup/tr.md) |
@@ -41,50 +42,49 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Image Workbench/tr](Image_Workbench/tr.md) | [Import Export Preferences/tr](Import_Export_Preferences/tr.md) | [Import Export/tr](Import_Export/tr.md) |
 | [Inspection Workbench/tr](Inspection_Workbench/tr.md) | [Installing on Linux/tr](Installing_on_Linux/tr.md) | [Installing on Mac/tr](Installing_on_Mac/tr.md) |
 | [Installing on Windows/tr](Installing_on_Windows/tr.md) | [Interface Customization/tr](Interface_Customization/tr.md) | [Getting started/tr](Getting_started/tr.md) |
-| [Licence/tr](Licence/tr.md) | [Localisation/tr](Localisation/tr.md) | [Macro Fonts Win10 PYMP/tr](Macro_Fonts_Win10_PYMP/tr.md) |
+| [License/tr](License/tr.md) | [Localisation/tr](Localisation/tr.md) | [Macro Fonts Win10 PYMP/tr](Macro_Fonts_Win10_PYMP/tr.md) |
 | [Main Page/tr](Main_Page/tr.md) | [Mesh Workbench/tr](Mesh_Workbench/tr.md) | [Mouse navigation/tr](Mouse_navigation/tr.md) |
 | [Navigation Cube/tr](Navigation_Cube/tr.md) | [Online Help Startpage/tr](Online_Help_Startpage/tr.md) | [Online Help Toc/tr](Online_Help_Toc/tr.md) |
 | [OpenSCAD Workbench/tr](OpenSCAD_Workbench/tr.md) | [Part Box/tr](Part_Box/tr.md) | [Part Builder/tr](Part_Builder/tr.md) |
 | [Part Ellipse/tr](Part_Ellipse/tr.md) | [Part Extrude/tr](Part_Extrude/tr.md) | [Part Line/tr](Part_Line/tr.md) |
-| [Part Module/tr](Part_Module/tr.md) | [Part Primitives/tr](Part_Primitives/tr.md) | [Part Prism/tr](Part_Prism/tr.md) |
+| [Part Primitives/tr](Part_Primitives/tr.md) | [Part Prism/tr](Part_Prism/tr.md) | [Part Workbench/tr](Part_Workbench/tr.md) |
 | [PartDesign AdditiveBox/tr](PartDesign_AdditiveBox/tr.md) | [PartDesign AdditiveCone/tr](PartDesign_AdditiveCone/tr.md) | [PartDesign AdditiveCylinder/tr](PartDesign_AdditiveCylinder/tr.md) |
 | [PartDesign AdditiveEllipsoid/tr](PartDesign_AdditiveEllipsoid/tr.md) | [PartDesign AdditiveLoft/tr](PartDesign_AdditiveLoft/tr.md) | [PartDesign AdditivePipe/tr](PartDesign_AdditivePipe/tr.md) |
 | [PartDesign AdditivePrism/tr](PartDesign_AdditivePrism/tr.md) | [PartDesign AdditiveSphere/tr](PartDesign_AdditiveSphere/tr.md) | [PartDesign AdditiveTorus/tr](PartDesign_AdditiveTorus/tr.md) |
 | [PartDesign AdditiveWedge/tr](PartDesign_AdditiveWedge/tr.md) | [PartDesign Body/tr](PartDesign_Body/tr.md) | [PartDesign Boolean/tr](PartDesign_Boolean/tr.md) |
-| [PartDesign Chamfer/tr](PartDesign_Chamfer/tr.md) | [PartDesign Clone/tr](PartDesign_Clone/tr.md) | [PartDesign CompPrimitiveAdditive/tr](PartDesign_CompPrimitiveAdditive/tr.md) |
-| [PartDesign CompPrimitiveSubtractive/tr](PartDesign_CompPrimitiveSubtractive/tr.md) | [PartDesign Draft/tr](PartDesign_Draft/tr.md) | [PartDesign Fillet/tr](PartDesign_Fillet/tr.md) |
-| [PartDesign Groove/tr](PartDesign_Groove/tr.md) | [PartDesign Hole/tr](PartDesign_Hole/tr.md) | [PartDesign InvoluteGear/tr](PartDesign_InvoluteGear/tr.md) |
-| [PartDesign Line/tr](PartDesign_Line/tr.md) | [PartDesign LinearPattern/tr](PartDesign_LinearPattern/tr.md) | [PartDesign Mirrored/tr](PartDesign_Mirrored/tr.md) |
-| [PartDesign MoveFeature/tr](PartDesign_MoveFeature/tr.md) | [PartDesign MoveFeatureInTree/tr](PartDesign_MoveFeatureInTree/tr.md) | [PartDesign MoveTip/tr](PartDesign_MoveTip/tr.md) |
-| [PartDesign MultiTransform/tr](PartDesign_MultiTransform/tr.md) | [PartDesign NewSketch/tr](PartDesign_NewSketch/tr.md) | [PartDesign Pad/tr](PartDesign_Pad/tr.md) |
-| [PartDesign Plane/tr](PartDesign_Plane/tr.md) | [PartDesign Pocket/tr](PartDesign_Pocket/tr.md) | [PartDesign Point/tr](PartDesign_Point/tr.md) |
-| [PartDesign PolarPattern/tr](PartDesign_PolarPattern/tr.md) | [PartDesign Preferences/tr](PartDesign_Preferences/tr.md) | [PartDesign Revolution/tr](PartDesign_Revolution/tr.md) |
-| [PartDesign ShapeBinder/tr](PartDesign_ShapeBinder/tr.md) | [PartDesign SubtractiveBox/tr](PartDesign_SubtractiveBox/tr.md) | [PartDesign SubtractiveCone/tr](PartDesign_SubtractiveCone/tr.md) |
-| [PartDesign SubtractiveCylinder/tr](PartDesign_SubtractiveCylinder/tr.md) | [PartDesign SubtractiveEllipsoid/tr](PartDesign_SubtractiveEllipsoid/tr.md) | [PartDesign SubtractiveLoft/tr](PartDesign_SubtractiveLoft/tr.md) |
-| [PartDesign SubtractivePipe/tr](PartDesign_SubtractivePipe/tr.md) | [PartDesign SubtractivePrism/tr](PartDesign_SubtractivePrism/tr.md) | [PartDesign SubtractiveSphere/tr](PartDesign_SubtractiveSphere/tr.md) |
-| [PartDesign SubtractiveTorus/tr](PartDesign_SubtractiveTorus/tr.md) | [PartDesign SubtractiveWedge/tr](PartDesign_SubtractiveWedge/tr.md) | [PartDesign Thickness/tr](PartDesign_Thickness/tr.md) |
-| [PartDesign WizardShaft/tr](PartDesign_WizardShaft/tr.md) | [PartDesign Workbench/tr](PartDesign_Workbench/tr.md) | [Path Helix/tr](Path_Helix/tr.md) |
-| [Path MillFace/tr](Path_MillFace/tr.md) | [Path Workbench/tr](Path_Workbench/tr.md) | [Placement/tr](Placement/tr.md) |
-| [Plot Axes/tr](Plot_Axes/tr.md) | [Plot Grid/tr](Plot_Grid/tr.md) | [Plot Labels/tr](Plot_Labels/tr.md) |
-| [Plot Legend/tr](Plot_Legend/tr.md) | [Plot Positions/tr](Plot_Positions/tr.md) | [Plot Series/tr](Plot_Series/tr.md) |
-| [Plot Workbench/tr](Plot_Workbench/tr.md) | [Points Workbench/tr](Points_Workbench/tr.md) | [Preferences Editor/tr](Preferences_Editor/tr.md) |
-| [Property editor/tr](Property_editor/tr.md) | [Raytracing Workbench/tr](Raytracing_Workbench/tr.md) | [Reverse Engineering Workbench/tr](Reverse_Engineering_Workbench/tr.md) |
-| [Robot 6-Axis/tr](Robot_6-Axis/tr.md) | [Robot CreateRobot/tr](Robot_CreateRobot/tr.md) | [Robot CreateTrajectory/tr](Robot_CreateTrajectory/tr.md) |
-| [Robot Export/tr](Robot_Export/tr.md) | [Robot RestoreHomePos/tr](Robot_RestoreHomePos/tr.md) | [Robot SetDefaultOrientation/tr](Robot_SetDefaultOrientation/tr.md) |
-| [Robot SetDefaultValues/tr](Robot_SetDefaultValues/tr.md) | [Robot SetHomePos/tr](Robot_SetHomePos/tr.md) | [Robot Simulate/tr](Robot_Simulate/tr.md) |
-| [Robot tutorial/tr](Robot_tutorial/tr.md) | [Robot Workbench/tr](Robot_Workbench/tr.md) | [Screenshots/tr](Screenshots/tr.md) |
-| [Ship AreasCurve/tr](Ship_AreasCurve/tr.md) | [Ship Workbench/tr](Ship_Workbench/tr.md) | [Sketcher Clone/tr](Sketcher_Clone/tr.md) |
-| [Sketcher EditSketch/tr](Sketcher_EditSketch/tr.md) | [Sketcher LeaveSketch/tr](Sketcher_LeaveSketch/tr.md) | [Sketcher MapSketch/tr](Sketcher_MapSketch/tr.md) |
-| [Sketcher NewSketch/tr](Sketcher_NewSketch/tr.md) | [Sketcher ReorientSketch/tr](Sketcher_ReorientSketch/tr.md) | [Sketcher ViewSketch/tr](Sketcher_ViewSketch/tr.md) |
-| [Sketcher Workbench/tr](Sketcher_Workbench/tr.md) | [Source documentation/tr](Source_documentation/tr.md) | [Spreadsheet Workbench/tr](Spreadsheet_Workbench/tr.md) |
-| [Standard Menu/tr](Standard_Menu/tr.md) | [Start up and Configuration/tr](Start_up_and_Configuration/tr.md) | [Start Workbench/tr](Start_Workbench/tr.md) |
-| [Std AddonMgr/tr](Std_AddonMgr/tr.md) | [Std Group/tr](Std_Group/tr.md) | [Std Part/tr](Std_Part/tr.md) |
-| [Surface Workbench/tr](Surface_Workbench/tr.md) | [TechDraw Workbench/tr](TechDraw_Workbench/tr.md) | [Testing/tr](Testing/tr.md) |
-| [Third Party Libraries/tr](Third_Party_Libraries/tr.md) | [Third Party Tools/tr](Third_Party_Tools/tr.md) | [Tracker/tr](Tracker/tr.md) |
-| [Tutorials/tr](Tutorials/tr.md) | [User hub/tr](User_hub/tr.md) | [Video tutorials/tr](Video_tutorials/tr.md) |
-| [Web Workbench/tr](Web_Workbench/tr.md) | [Workbenches/tr](Workbenches/tr.md) | [Category:Arch/tr](Category_Arch/tr.md) |
-| [Category:BIM/tr](Category_BIM/tr.md) | [Category:Draft/tr](Category_Draft/tr.md) | [Category:Image/tr](Category_Image/tr.md) |
-| [Category:Inspection/tr](Category_Inspection/tr.md) | [Category:Macros/tr](Category_Macros/tr.md) | [Category:Test Framework/tr](Category_Test_Framework/tr.md) |
+| [PartDesign Chamfer/tr](PartDesign_Chamfer/tr.md) | [PartDesign Clone/tr](PartDesign_Clone/tr.md) | [PartDesign Draft/tr](PartDesign_Draft/tr.md) |
+| [PartDesign Fillet/tr](PartDesign_Fillet/tr.md) | [PartDesign Groove/tr](PartDesign_Groove/tr.md) | [PartDesign Hole/tr](PartDesign_Hole/tr.md) |
+| [PartDesign InvoluteGear/tr](PartDesign_InvoluteGear/tr.md) | [PartDesign Line/tr](PartDesign_Line/tr.md) | [PartDesign LinearPattern/tr](PartDesign_LinearPattern/tr.md) |
+| [PartDesign Mirrored/tr](PartDesign_Mirrored/tr.md) | [PartDesign MoveFeature/tr](PartDesign_MoveFeature/tr.md) | [PartDesign MoveFeatureInTree/tr](PartDesign_MoveFeatureInTree/tr.md) |
+| [PartDesign MoveTip/tr](PartDesign_MoveTip/tr.md) | [PartDesign MultiTransform/tr](PartDesign_MultiTransform/tr.md) | [PartDesign NewSketch/tr](PartDesign_NewSketch/tr.md) |
+| [PartDesign Pad/tr](PartDesign_Pad/tr.md) | [PartDesign Plane/tr](PartDesign_Plane/tr.md) | [PartDesign Pocket/tr](PartDesign_Pocket/tr.md) |
+| [PartDesign Point/tr](PartDesign_Point/tr.md) | [PartDesign PolarPattern/tr](PartDesign_PolarPattern/tr.md) | [PartDesign Preferences/tr](PartDesign_Preferences/tr.md) |
+| [PartDesign Revolution/tr](PartDesign_Revolution/tr.md) | [PartDesign ShapeBinder/tr](PartDesign_ShapeBinder/tr.md) | [PartDesign SubtractiveBox/tr](PartDesign_SubtractiveBox/tr.md) |
+| [PartDesign SubtractiveCone/tr](PartDesign_SubtractiveCone/tr.md) | [PartDesign SubtractiveCylinder/tr](PartDesign_SubtractiveCylinder/tr.md) | [PartDesign SubtractiveEllipsoid/tr](PartDesign_SubtractiveEllipsoid/tr.md) |
+| [PartDesign SubtractiveLoft/tr](PartDesign_SubtractiveLoft/tr.md) | [PartDesign SubtractivePipe/tr](PartDesign_SubtractivePipe/tr.md) | [PartDesign SubtractivePrism/tr](PartDesign_SubtractivePrism/tr.md) |
+| [PartDesign SubtractiveSphere/tr](PartDesign_SubtractiveSphere/tr.md) | [PartDesign SubtractiveTorus/tr](PartDesign_SubtractiveTorus/tr.md) | [PartDesign SubtractiveWedge/tr](PartDesign_SubtractiveWedge/tr.md) |
+| [PartDesign Thickness/tr](PartDesign_Thickness/tr.md) | [PartDesign WizardShaft/tr](PartDesign_WizardShaft/tr.md) | [PartDesign Workbench/tr](PartDesign_Workbench/tr.md) |
+| [Placement/tr](Placement/tr.md) | [Plot Axes/tr](Plot_Axes/tr.md) | [Plot Grid/tr](Plot_Grid/tr.md) |
+| [Plot Labels/tr](Plot_Labels/tr.md) | [Plot Legend/tr](Plot_Legend/tr.md) | [Plot Positions/tr](Plot_Positions/tr.md) |
+| [Plot Series/tr](Plot_Series/tr.md) | [Plot Workbench/tr](Plot_Workbench/tr.md) | [Points Workbench/tr](Points_Workbench/tr.md) |
+| [Preferences Editor/tr](Preferences_Editor/tr.md) | [Property editor/tr](Property_editor/tr.md) | [Raytracing Workbench/tr](Raytracing_Workbench/tr.md) |
+| [Reverse Engineering Workbench/tr](Reverse_Engineering_Workbench/tr.md) | [Robot 6-Axis/tr](Robot_6-Axis/tr.md) | [Robot CreateRobot/tr](Robot_CreateRobot/tr.md) |
+| [Robot CreateTrajectory/tr](Robot_CreateTrajectory/tr.md) | [Robot Export/tr](Robot_Export/tr.md) | [Robot RestoreHomePos/tr](Robot_RestoreHomePos/tr.md) |
+| [Robot SetDefaultOrientation/tr](Robot_SetDefaultOrientation/tr.md) | [Robot SetDefaultValues/tr](Robot_SetDefaultValues/tr.md) | [Robot SetHomePos/tr](Robot_SetHomePos/tr.md) |
+| [Robot Simulate/tr](Robot_Simulate/tr.md) | [Robot tutorial/tr](Robot_tutorial/tr.md) | [Robot Workbench/tr](Robot_Workbench/tr.md) |
+| [Screenshots/tr](Screenshots/tr.md) | [Ship AreasCurve/tr](Ship_AreasCurve/tr.md) | [Ship Workbench/tr](Ship_Workbench/tr.md) |
+| [Sketcher Clone/tr](Sketcher_Clone/tr.md) | [Sketcher EditSketch/tr](Sketcher_EditSketch/tr.md) | [Sketcher LeaveSketch/tr](Sketcher_LeaveSketch/tr.md) |
+| [Sketcher MapSketch/tr](Sketcher_MapSketch/tr.md) | [Sketcher NewSketch/tr](Sketcher_NewSketch/tr.md) | [Sketcher ReorientSketch/tr](Sketcher_ReorientSketch/tr.md) |
+| [Sketcher ViewSketch/tr](Sketcher_ViewSketch/tr.md) | [Sketcher Workbench/tr](Sketcher_Workbench/tr.md) | [Source documentation/tr](Source_documentation/tr.md) |
+| [Spreadsheet Workbench/tr](Spreadsheet_Workbench/tr.md) | [Standard Menu/tr](Standard_Menu/tr.md) | [Start up and Configuration/tr](Start_up_and_Configuration/tr.md) |
+| [Start Workbench/tr](Start_Workbench/tr.md) | [Std AddonMgr/tr](Std_AddonMgr/tr.md) | [Std Group/tr](Std_Group/tr.md) |
+| [Std Part/tr](Std_Part/tr.md) | [Std ToggleFreeze/tr](Std_ToggleFreeze/tr.md) | [Surface Workbench/tr](Surface_Workbench/tr.md) |
+| [TechDraw Workbench/tr](TechDraw_Workbench/tr.md) | [Testing/tr](Testing/tr.md) | [Third Party Libraries/tr](Third_Party_Libraries/tr.md) |
+| [Third Party Tools/tr](Third_Party_Tools/tr.md) | [Tracker/tr](Tracker/tr.md) | [Tutorials/tr](Tutorials/tr.md) |
+| [User hub/tr](User_hub/tr.md) | [Video tutorials/tr](Video_tutorials/tr.md) | [Web Workbench/tr](Web_Workbench/tr.md) |
+| [Workbenches/tr](Workbenches/tr.md) | [Category:Assembly/tr](Category_Assembly/tr.md) | [Category:BIM/tr](Category_BIM/tr.md) |
+| [Category:CAM/tr](Category_CAM/tr.md) | [Category:Draft/tr](Category_Draft/tr.md) | [Category:Inspection/tr](Category_Inspection/tr.md) |
+| [Category:Macros/tr](Category_Macros/tr.md) | [Category:Material/tr](Category_Material/tr.md) | [Category:Test Framework/tr](Category_Test_Framework/tr.md) |
 | [Category:Tutorials/tr](Category_Tutorials/tr.md) | [Category:Workbenches/tr](Category_Workbenches/tr.md) |
 
 

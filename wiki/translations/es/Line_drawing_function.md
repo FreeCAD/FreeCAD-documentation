@@ -10,6 +10,8 @@ Esta página muestra cómo se puede crear funcionalidades avanzadas con Python. 
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## El archivo de guión principal 
@@ -50,6 +52,8 @@ class line:
 
 
 {{Top}}
+
+
 
 ## Explicación detallada 
 
@@ -278,6 +282,8 @@ Como ya hemos terminado con nuestra línea, vamos a quitar el mecanismo de devol
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Pruebas y Uso del archivo de guión 
@@ -345,6 +351,8 @@ A continuación, haz clic dos veces en la vista 3D, y \.... ¡bingo!, ¡aquí es
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -438,6 +446,8 @@ Eso es todo, ahora sólo hay que reiniciar FreeCAD y tendremos un agradable ento
 
 
 {{Top}}
+
+
 
 ## ¿Quieres más? 
 

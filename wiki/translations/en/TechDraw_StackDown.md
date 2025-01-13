@@ -20,7 +20,7 @@ See [TechDraw StackTop](TechDraw_StackTop.md).
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

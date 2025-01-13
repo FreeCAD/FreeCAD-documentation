@@ -1,10 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM MaterialReinforced
    Name/fr: FEM Matériau renforcé
    MenuLocation: Modèle , Matériaux , Matériau renforcé 
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: CalculiX
+}}
 ---
 
 # FEM MaterialReinforced/fr
@@ -32,6 +38,7 @@ Crée un matériau matriciel renforcé. Il combine un matériau de matrice (par 
 
 -   Dans les paramètres du solveur CalculiX, il faut régler la non-linéarité du matériau sur linéaire si [FEM Matériau mécanique non linéaire](FEM_MaterialMechanicalNonlinear/fr.md) n\'est pas utilisé.
 -   Plus d\'informations sur cette fonctionnalité, et un exemple de son utilisation, peuvent être trouvés sur la page [FEM Analyse du béton armé](Analysis_of_reinforced_concrete_with_FEM/fr.md).
+-   Pour un tutoriel vidéo (basé sur le [tutoriel FEM](FEM_tutorial/fr.md)) qui utilise cet outil, regardez : [FEM MaterialReinforced tutorial](https://www.youtube.com/watch?v=SZTIqhfCSVc).
 
 
 

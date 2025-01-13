@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Point
    Name/fr: Draft Point
-   MenuLocation: Draft , Point
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Formes , Point<br><br>BIM : Formes 2D , Point
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Version: 0.7
 ---
 
@@ -23,16 +23,17 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyer sur le bouton **<img src="images/Draft_Point.svg" width=16px> [Point](Draft_Point/fr.md)**.
-    -   Sélectionner l\'option **Draft → <img src="images/Draft_Point.svg" width=16px> Point** du menu.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionner l\'option **Formes → <img src="images/Draft_Point.svg" width=16px> Point** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionner l\'option **Formes 2D → <img src="images/Draft_Point.svg" width=16px> Point** du menu.
 2.  Le panneau de tâches **Point** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisir un point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+3.  Choisir un point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut (pour la version 1.0).
 
--   Pour saisir manuellement des coordonnées, entrer les composantes X, Y et Z, et appuyer sur **Entrée** après chacune, ou appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyer sur **G** ou cliquer sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   Pour saisir manuellement des coordonnées, entrer les composantes X, Y et Z, et appuyer sur **Entrée** après chacune, ou appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Appuyer sur **G** ou cliquer sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md).
 -   Appuyer sur **N** ou cliquer sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des points.
 -   Appuyer sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyer sur **Échap** ou sur le bouton **Fermer** pour interrompre la commande.
@@ -41,7 +42,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 ## Remarques
 
--   Utilisez <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft Aimantation Au plus proche](Draft_Snap_Near/fr.md) ({{VersionMinus/fr|0.20}}) ou <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Draft Draft Aimantation Terminaison](Draft_Snap_Endpoint/fr.md) ({{VersionPlus/fr|0.21}}) pour s\'aimanter aux Draft points.
+-   Utilisez <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Draft Draft Aimantation Extrémité](Draft_Snap_Endpoint/fr.md) pour s\'aimanter aux Draft points.
 
 
 

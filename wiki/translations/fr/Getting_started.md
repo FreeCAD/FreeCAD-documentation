@@ -3,9 +3,9 @@
 
 FreeCAD est une [application de modélisation paramétrique](About_FreeCAD/fr.md) 3D. Elle est principalement destinée à la conception mécanique, mais sert aussi à toutes les utilisations où vous avez besoin de modéliser des objets avec précision et de contrôler l\'historique de la modélisation 3D.
 
-FreeCAD est en cours de développement depuis 2002 et propose une grande liste de [fonctions](Feature_list/fr.md). Des capacités manquent encore mais il est assez puissant pour une utilisation amateur et de petits ateliers. Il existe une communauté d\'utilisateurs enthousiastes en pleine croissance qui participent au [forum FreeCAD](http://forum.freecadweb.org/index.php) et vous pouvez trouver [nombreux exemples](http://forum.freecadweb.org/viewforum.php?f=24) de projets de qualité développés avec FreeCAD. Voir aussi [FreeCAD utilisé en production](FreeCAD_used_in_production.md).
+FreeCAD est en cours de développement depuis 2002 et propose une grande liste de [fonctions](Feature_list/fr.md). Des fonctions manquent encore mais il est assez puissant pour une utilisation amateur et de petits projets. Il existe une communauté d\'utilisateurs enthousiastes en pleine croissance qui participent au [forum FreeCAD](http://forum.freecad.org/index.php) et vous pouvez trouver [nombreux exemples](http://forum.freecad.org/viewforum.php?f=24) de projets de qualité développés avec FreeCAD.
 
-Comme tous les projets de logiciels libres, FreeCAD dépend de sa communauté pour se développer, gagner en fonctionnalités et corriger les bogues. N\'oubliez pas cela lorsque vous utilisez FreeCAD. Si vous l\'aimez, vous pouvez [faire un don](Donate/fr.md) et [Contribuer à FreeCAD](Help_FreeCAD/fr.md) de diverses manières, comme par exemple rédiger de la documentation et faire des traductions.
+Comme tous les projets de logiciels libres, FreeCAD dépend de sa communauté pour se développer, gagner en fonctionnalités et corriger les bogues. N\'oubliez pas cela lorsque vous utilisez FreeCAD. Si vous l\'aimez, vous pouvez [faire un don](Donate/fr.md) et [contribuer à FreeCAD](Help_FreeCAD/fr.md) de diverses manières, comme par exemple rédiger de la documentation et faire des traductions.
 
 Voir aussi :
 
@@ -46,7 +46,7 @@ Tout d\'abord, téléchargez et installez FreeCAD. Voir la page [Téléchargemen
 :   10\. Le [sélecteur d\'atelier](Std_Workbench/fr.md), dans lequel vous sélectionnez l\'[atelier](workbenches/fr.md) actif.
 :   11\. Le [menu standard](Standard_Menu/fr.md), qui contient les opérations de base du programme.
 
-Le concept principal de l\'interface FreeCAD est qu\'il est composé d\'[ateliers](workbenches/fr.md). Un atelier est une collection d\'outils adaptés pour une tâche spécifique, comme travailler avec des [maillages](Mesh_Workbench/fr.md), faire du [dessin 2D](Draft_Workbench/fr.md), ou faire des [esquisses contraintes](Sketcher_Workbench/fr.md). Vous pouvez changer l\'[atelier](Std_Workbench.md) actuel avec le sélecteur d\'ateliers (7). Vous pouvez [personnaliser](Interface_Customization/fr.md) les outils inclus dans chaque atelier, ajouter des outils provenant d\'autres ateliers ou même créer vos propres outils, que nous appelons [macros](Macros/fr.md). Les points de départ largement utilisés sont [l\'atelier PartDesign](PartDesign_Workbench/fr.md) et [l\'atelier Part](Part_Workbench/fr.md).
+Le principe de l\'interface de FreeCAD est qu\'elle est composée d\'[ateliers](workbenches/fr.md). Un atelier est une collection d\'outils adaptés à une tâche spécifique, comme travailler avec des [maillages](Mesh_Workbench/fr.md), faire du [dessin 2D](Draft_Workbench/fr.md), ou créer des [esquisses contraintes](Sketcher_Workbench/fr.md). Vous pouvez changer d\'atelier à l\'aide du [sélecteur d\'atelier](Std_Workbench/fr.md). Vous pouvez [personnaliser](Interface_Customization/fr.md) les outils inclus dans chaque atelier, ajouter des outils provenant d\'autres ateliers ou même des outils créés par vous-même, que nous appelons [macros](Macros/fr.md). Les ateliers de départ les plus utilisés sont [l\'atelier PartDesign](PartDesign_Workbench/fr.md) et [l\'atelier Part](Part_Workbench/fr.md).
 
 Lorsque vous démarrez FreeCAD pour la première fois, la page Start s\'affiche. Voici son apparence sous la version 0.19 :
 
@@ -58,7 +58,7 @@ La page Start permet de passer rapidement à l\'un des ateliers les plus usuels,
 
 ## Naviguer dans l\'espace 3D 
 
-FreeCAD propose différents [modes de navigation](Mouse_navigation/fr.md), qui changent la façon dont vous utilisez votre souris pour interagir avec les objets de la vue 3D et la vue elle-même. L\'un d\'eux est spécialement conçu pour les [touchpads](Mouse_navigation/fr#Mode_Touchpad.md) où le bouton central de la souris n\'est pas utilisé. Le mode de navigation par défaut est le [mode CAD](Mouse_navigation/fr#Mode_CAD.md). Vous pouvez rapidement changer le mode de navigation utilisé par le bouton **[<img src=images/NavigationCAD_dark.svg style="width:16px">** dans la [barre d\'état](Status_bar/fr.md) ou en cliquant avec le bouton droit de la souris sur une zone vide de la [Vue_3D](3D_view/fr.md).
+FreeCAD propose différents [modes de navigation](Mouse_navigation/fr.md), qui changent la façon dont vous utilisez votre souris pour interagir avec les objets de la vue 3D et la vue elle-même. L\'un d\'eux est spécialement conçu pour les [touchpads](Mouse_navigation/fr#Mode_Touchpad.md) où le bouton central de la souris n\'est pas utilisé. Le mode de navigation par défaut est le [mode CAD](Mouse_navigation/fr#Mode_CAD.md). Vous pouvez rapidement changer le mode de navigation utilisé par le bouton **[<img src=images/NavigationCAD_dark.svg style="width:16px">** dans la [barre d\'état](Status_bar/fr.md) ou en cliquant avec le bouton droit de la souris sur une zone vide de la [vue 3D](3D_view/fr.md).
 
 Plusieurs vue prédéfinies (vue de dessus, vue de face, etc.) sont disponibles dans le menu Affichage, dans la barre d\'outils ainsi que par des raccourcis numériques (**1**, **2**, etc\...). Un clic droit sur un objet ou sur une zone vide de la vue 3D vous donne un accès rapide à certaines opérations courantes, telles que la définition d\'une vue particulière, ou localiser un objet dans l\'arborescence.
 
@@ -66,9 +66,9 @@ Plusieurs vue prédéfinies (vue de dessus, vue de face, etc.) sont disponibles 
 
 ## Premiers pas avec FreeCAD 
 
-L\'objectif de FreeCAD est de vous permettre de créer des modèles 3D de haute précision, de maintenir un contrôle serré de ces modèles (être capable de revenir en arrière dans l\'historique de la modélisation et de modifier les paramètres) et finalement de construire ces modèles (via l\'impression 3D, l\'usinage CNC ou même les chantiers de construction). Il est donc très différent des autres applications 3D conçues pour d\'autres fins, tels que le film d\'animation ou les jeux. Sa courbe d\'apprentissage peut être ardue, spécialement si c\'est votre premier contact avec la modélisation 3D. Si vous êtes bloqués à un moment donné, n\'oubliez pas que l\'amicale communauté des utilisateurs du [forum forum de FreeCAD](http://forum.freecadweb.org/index.php) pourrait être en mesure de vous sortir d'embarras sans délai.
+L\'objectif de FreeCAD est de vous permettre de créer des modèles 3D de haute précision, de garder un contrôle étroit sur ces modèles (en étant capable de revenir à l\'historique de la modélisation et de modifier les paramètres), et finalement de construire ces modèles (via l\'impression 3D, l\'usinage CNC ou même le chantier de construction). Il est donc très différent des autres applications 3D conçues pour d\'autres fins, tels que le film d\'animation ou les jeux. Sa courbe d\'apprentissage peut être ardue, spécialement si c\'est votre premier contact avec la modélisation 3D. Si vous êtes bloqués à un moment donné, n\'oubliez pas que l\'amicale communauté des utilisateurs du [forum forum de FreeCAD](http://forum.freecad.org/index.php) pourrait être en mesure de vous sortir d'embarras sans délai.
 
-L\'atelier que vous utiliserez à l\'aide de FreeCAD dépend du type de travail à effectuer : Si vous travaillez sur des modèles mécaniques, ou plus généralement tous les petits objets, vous aurez probablement envie d\'essayer l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Si vous voulez travailler en 2D, passez à l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md) si vous avez besoin de contraintes. Si vous voulez faire de la modélisation BIM, lancez l\'[atelier Arch](Arch_Workbench/fr.md). Et si vous venez du monde OpenSCAD, essayez l\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md). Il existe également de nombreux ateliers développés par la communauté, les [ateliers externes](External_workbenches/fr.md).
+L\'atelier que vous utiliserez à l\'aide de FreeCAD dépend du type de travail à effectuer : Si vous travaillez sur des modèles mécaniques, ou plus généralement tous les petits objets, vous aurez probablement envie d\'essayer l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Si vous voulez travailler en 2D, passez à l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md) si vous avez besoin de contraintes. Si vous voulez faire de la modélisation BIM, lancez l\'[atelier BIM](BIM_Workbench/fr.md). Et si vous venez du monde OpenSCAD, essayez l\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md). Il existe également de nombreux ateliers développés par la communauté, les [ateliers externes](External_workbenches/fr.md).
 
 Vous pouvez changer d\'atelier à tout moment et aussi changer les [préférences](Interface_Customization/fr.md) de votre atelier favori pour ajouter des outils d\'autres ateliers.
 
@@ -76,16 +76,16 @@ Vous pouvez changer d\'atelier à tout moment et aussi changer les [préférence
 
 ## Travailler avec PartDesign et l\'atelier Sketcher 
 
-L\'atelier [PartDesign](PartDesign_Workbench/fr.md) est spécialement conçu pour construire des objets complexes, à partir de formes simples et en ajoutant ou en supprimant des opérations (que nous appelons \"fonctions\"), jusqu\'à obtention de votre objet final. Toutes les fonctions que vous avez appliquées durant le processus de modélisation sont stockées dans une vue distincte appelée [Vue Modèle](Document_structure/fr.md), qui contient également les autres objets de votre document. Vous pouvez considérer un objet PartDesign comme une succession d\'opérations, chacune appliquée au résultat de la précédente, formant une grande chaîne structurée. Dans l\'arborescence, vous voyez votre objet final, mais vous pouvez développer et récupérer tous les états précédents et modifier leurs paramètres, qui mettent automatiquement à jour l\'objet final.
+L\'[atelier PartDesign](PartDesign_Workbench/fr.md) est spécialement conçu pour construire des objets complexes, à partir de formes simples et en ajoutant ou en supprimant des opérations (que nous appelons \"fonctions\"), jusqu\'à obtention de votre objet final. Toutes les fonctions que vous avez appliquées durant le processus de modélisation sont stockées dans une vue distincte appelée [Vue Modèle](Document_structure/fr.md), qui contient également les autres objets de votre document. Vous pouvez considérer un objet PartDesign comme une succession d\'opérations, chacune appliquée au résultat de la précédente, formant une grande chaîne structurée. Dans l\'arborescence, vous voyez votre objet final, mais vous pouvez développer et récupérer tous les états précédents et modifier leurs paramètres, qui mettent automatiquement à jour l\'objet final.
 
-L\'atelier PartDesign fait un usage intensif d\'un autre atelier, l\'atelier [Sketcher](Sketcher_Workbench/fr.md). Le Sketcher vous permet de dessiner des formes 2D, puis de leur appliquer des contraintes. Par exemple, vous pourriez dessiner un rectangle et définir la taille d\'un côté à l\'aide d\'une contrainte de longueur. Ce côté ne pourra plus être redimensionné (à moins d\'éditer et modifier cette contrainte).
+L\'atelier PartDesign fait un usage intensif d\'un autre atelier, l\'[atelier Sketcher](Sketcher_Workbench/fr.md). L\'esquisseur vous permet de dessiner des formes 2D, puis de leur appliquer des contraintes. Par exemple, vous pourriez dessiner un rectangle et définir la taille d\'un côté à l\'aide d\'une contrainte de longueur. Ce côté ne pourra plus être redimensionné (à moins d\'éditer et modifier cette contrainte).
 
-Les formes 2D faites avec le Sketcher servent beaucoup dans l\'atelier PartDesign, par exemple pour extruder des volumes 3D, ou dessiner des zones sur la face de votre objet, qui seront ensuite évidées ou extrudées de son volume principal. Il s\'agit d\'un flux de production typique de PartDesign :
+Les formes 2D faites avec l\'esquisseur servent beaucoup dans l\'atelier PartDesign, par exemple pour extruder des volumes 3D, ou dessiner des zones sur la face de votre objet, qui seront ensuite évidées ou extrudées de son volume principal. Il s\'agit d\'un flux de travail typique de PartDesign :
 
 1.  Créez une nouvelle esquisse
 2.  Dessinez un profil fermé (assurez-vous que tous les points sont joints)
 3.  Fermez l\'esquisse
-4.  Extrudez-l\'esquisse en un objet 3D avec l\'outil Protrusion
+4.  Extrudez l\'esquisse en un objet 3D avec l\'outil Protrusion
 5.  Sélectionnez une face du solide extrudé
 6.  Créez une seconde esquisse (cette fois elle sera dessinée sur la face sélectionnée)
 7.  Dessinez un profil fermé
@@ -100,21 +100,21 @@ Ce qui vous donne un objet comme ceci :
 
 
 
-## Travailler avec les ateliers Draft et Arch 
+## Travailler avec les ateliers Draft et BIM 
 
-Les ateliers [Draft](Draft_Workbench/fr.md) et [Arch](Arch_Workbench/fr.md) se comportent un peu différemment des autres ateliers ci-dessus, bien qu\'ils suivent les mêmes règles communes à l\'ensemble de FreeCAD. En bref, alors que le Sketcher (esquisse) et PartDesign sont faits principalement pour concevoir des pièces uniques, Draft et Arch sont faits pour faciliter votre travail lorsque vous travaillez avec plusieurs objets simples.
+Les ateliers [Draft](Draft_Workbench/fr.md) et [BIM](BIM_Workbench/fr.md) se comportent un peu différemment des autres ateliers ci-dessus, bien qu\'ils suivent les mêmes règles communes à l\'ensemble de FreeCAD. En bref, alors que Sketcher et PartDesign sont principalement conçus pour réaliser des pièces uniques, Draft et BIM sont faits pour faciliter votre travail lorsque vous travaillez avec plusieurs objets simples.
 
 L\'[atelier Draft](Draft_Workbench/fr.md) vous propose des outils 2D un peu semblables à ce que vous pouvez trouver dans les applications de CAO 2D traditionnelles telles que [AutoCAD](https://fr.wikipedia.org/wiki/AutoCAD). Cependant, le dessin 2D étant loin du champ d\'application de FreeCAD, ne vous attendez pas à y trouver la gamme complète d\'outils que ces applications offrent. La plupart des outils Draft travaillent non seulement dans un plan 2D, mais également dans l\'espace 3D et bénéficient de systèmes spéciaux d\'assistance tels que les [Plans de travail](Draft_SelectPlane/fr.md) et l\'[aimantation d\'objet](Draft_Snap/fr.md).
 
-L\'[atelier Arch](Arch_Workbench/fr.md) ajoute des outils de modélisation [BIM](http://fr.wikipedia.org/wiki/Building_Information_Modeling) à FreeCAD, vous permettant de construire des modèles architecturaux à partir d\'objets paramétriques. L\'atelier Arch s\'appuie beaucoup sur les autres modules tels que Draft et le Sketcher. Tous les outils Draft sont également présents dans l\'atelier Arch, et la plupart des outils Arch font usage des systèmes d\'assistance Draft.
+L\'[atelier BIM](BIM_Workbench/fr.md) ajoute des outils de modélisation [BIM](http://fr.wikipedia.org/wiki/Building_Information_Modeling) à FreeCAD, vous permettant de construire des modèles architecturaux à partir d\'objets paramétriques. L\'atelier BIM s\'appuie beaucoup sur les autres modules tels que Draft et le Sketcher. Tous les outils Draft sont également présents dans l\'atelier BIM, et la plupart des outils BIM font usage des systèmes d\'assistance Draft.
 
-Le travail typique avec les ateliers Arch et Draft peut être :
+Le flux de travail avec les ateliers BIM et Draft peut être :
 
-1.  Dessiner plusieurs lignes avec l\'outil Draft Line
+1.  Dessiner plusieurs lignes avec l\'outil Draft Polyligne
 2.  Sélectionner chaque ligne et cliquer sur l\'outil Mur pour construire un mur sur chacune d\'elle
-3.  Sélectionner les murs et les joindre en cliquant sur l\'outil Ajouter un composant
-4.  Créer un objet Étage et déplacer vos murs sous celui-ci dans l\'arborescence
-5.  Créer un objet Bâtiment et déplacer votre plancher sous celui-ci dans l\'arborescence
+3.  Sélectionner les murs et les joindre en cliquant sur l\'outil Ajouter un composant de BIM
+4.  Créer un objet Étage et, dans l\'arborescence, faites glisser vos murs dans l\'objet Étage
+5.  Créer un objet Bâtiment et, dans l\'arborescence, faites glisser votre Étage (qui comprend maintenant les murs) dans l\'objet Bâtiment
 6.  Créer une fenêtre en cliquant sur l\'outil Fenêtre, sélectionner un paramètre prédéfini, puis cliquer sur une face d\'un mur
 7.  Ajouter des cotes en réglant d\'abord le plan de travail si nécessaire, puis en utilisant l\'outil Cote
 
@@ -126,22 +126,21 @@ Plus d\'informations sur la page [tutoriels](Tutorials/fr.md).
 
 
 
-## Addons, Macro et ateliers externe 
+## Extensions
 
-FreeCAD, en tant que logiciel open source, offre la possibilité de compléter ses ateliers avec des addons.
+Tout utilisateur peut développer ses propres fonctions pour FreeCAD et les mettre à la disposition de la communauté FreeCAD en tant qu\'[extension](Addon/fr.md).
 
-Le principe des [extensions](Addon/fr.md) est basé sur le développement d\'un atelier complémentaire. Tout utilisateur peut développer une fonction qu\'il estime manquante pour ses propres besoins ou, finalement, pour la communauté. Avec le forum, l\'utilisateur peut demander un avis, une aide. Il peut partager, ou non, l\'objet de son développement selon les règles du droit d\'auteur à définir. Gratuit pour elle/lui. Pour le développer, l\'utilisateur dispose de fonctions [scriptées](scripting/fr.md).
+Il existe trois types de extensions :
 
-Il existe deux types d\'addons :
-
-1.  [Macros](Macros/fr.md) : courts extraits de code Python fournissant un nouvel outil ou de nouvelles fonctionnalités. Les macros commencent généralement par simplifier ou automatiser la tâche de dessin ou d\'édition d\'un objet particulier. Si plusieurs de ces macros sont collectées dans un répertoire, l\'intégralité du répertoire peut être distribué en tant que nouveau plan de travail.
-2.  [Ateliers externes](External_workbenches/fr.md) : un ensemble d\'outils programmés en Python ou en C++ qui étend FreeCAD de manière importante. Si un atelier est suffisamment développé et bien documenté, il peut être inclus comme l'un des ateliers de base de FreeCAD. Sous [Ateliers externes](External_workbenches/fr.md), vous trouverez le principe et une liste des bibliothèques existantes.
+-   Les [macros](Macros/fr.md) : petit bout de code en [Python](Python/fr.md) qui fournit un nouvel outil ou une nouvelle fonction dans un fichier unique se terminant par `.FCMacro`.
+-   Les [ateliers](External_workbenches/fr.md) : ensembles de fichiers en Python qui fournissent des [commandes graphiques](Gui_Command/fr.md) (outils) autour d\'un sujet particulier.
+-   Les [kits de préférences](Preference_Packs/fr.md) : des paquets de préférences d\'utilisateurs.
 
 
 
 ## Script
 
-Et enfin, une des caractéristiques les plus puissantes de FreeCAD est l\'environnement de [programmation de macros](scripting/fr.md). À partir de la console Python intégrée (ou depuis n\'importe quel autre éditeur de macro Python), vous pouvez accéder à presque n\'importe quelle partie de FreeCAD, créer ou modifier la géométrie, modifier la représentation de ces objets dans la scène 3D ou accéder et modifier l\'interface de FreeCAD. Les scripts Python peuvent aussi s\'utiliser par [des Macros](Macros/fr.md), lesquelles fournissent une méthode simple pour créer des commandes personnalisées.
+Enfin, l\'une des fonctions les plus intéressantes de FreeCAD est l\'environnement de [script](Power_users_hub/fr#Scripts_dans_FreeCAD/fr.md). À partir de la console Python intégrée (ou de tout autre script Python externe), vous pouvez accéder à presque toutes les parties de FreeCAD, créer ou modifier la géométrie, modifier la représentation de ces objets dans la scène 3D ou accéder à l\'interface de FreeCAD et la modifier. Les scripts Python peuvent également être utilisés dans les [macros](Macros/fr.md), lesquelles fournissent une méthode simple pour créer des commandes personnalisées.
 
 
 

@@ -28,9 +28,9 @@ To narzędzie umożliwia więc używanie programu FreeCAD z zewnętrznymi solver
     -   wybrać opcję **Siatka → <img src="images/FEM_MeshGroup.svg" width=24px> Grupa siatki MES** z menu.
 3.  Kolejnym krokiem jest wybór czy grupa ma korzystać z nazwy obiektu czy wprowadzonej etykiety
     -   Jeśli zaznaczona jest **Nazwa**, podczas eksportu zostanie użyta nazwa obiektu grupy siatki.
-    -   Jeśli zaznaczona jest**Etykieta**, podczas eksportu zostanie użyta wprowadzona etykieta.
-4.  Wciśnij przycisk **OK**.
-5.  Zamknij okno dialogowe.
+    -   Jeśli zaznaczona jest **Etykieta**, podczas eksportu zostanie użyta wprowadzona etykieta.
+4.  Kliknij przycisk **Dodaj** i wybierz obiekt geometryczny *(bryłę, ścianę, krawędź lub wierzchołek)*. Można dodać więcej takich obiektów, ale muszą one być tego samego typu. Grupa siatki będzie składać się z podstawowych elementów siatki.
+5.  Wciśnij przycisk **OK**.
 
     :   Rezultat: Powinieneś zobaczyć nowy obiekt `FEMMeshGroup` pod obiektem `FEMMeshGMSH` w aktywnym kontenerze analizy.
 6.  Kliknij dwukrotnie na obiekcie `FEMMeshGMSH` w drzewie modelu i wciśnij przycisk **Zastosuj** aby wymusić ponowne przeliczenie/etykietowanie siatki.
@@ -43,6 +43,9 @@ To narzędzie umożliwia więc używanie programu FreeCAD z zewnętrznymi solver
 -   Po utworzeniu siatki można zmienić etykietę przy pomocy [edytora właściwości](Property_editor/pl.md).
 -   Po zmianie właściwości należy ponownie otworzyć okno dialogowe Gmsh i wcisnąć przycisk **Zastosuj** *(można pozostawić okno dialogowe otwarte podczas zmieniania właściwości)*.
 -   Można utworzyć tyle grup siatki, ile potrzeba.
+-   Domyślnie grupy siatek mogą być eksportowane tylko do formatów .med i .unv. Aby móc eksportować je do formatu .inp, należy włączyć opcję *Eksportuj dane grupy* w [preferencjach eksportu INP](Import_Export_Preferences/pl#INP.md).
+    -   Ustawienie preferencji *Które elementy siatki wyeksportować* na *Najwyższe* lub *MES* zapewni, że elementy niższych rzędów nie używane w analizie (np. powłokowe w przypadku analizy na bryłach) nie będą eksportowane.
+    -   Aby wyeksportować zestawy węzłów do tego formatu, właściwość **Groups Of Nodes** [obiektu siatki Gmsh](FEM_MeshGmshFromShape/pl.md) musi być ustawiona na {{true/pl}}.
 
 
 

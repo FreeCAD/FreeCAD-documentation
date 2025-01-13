@@ -4,7 +4,7 @@
    Name/pl: Std: Importuj
    MenuLocation: Plik , Importuj ...
    Workbenches: wszystkie
-   Shortcut: **Ctrl** + **I**
+   Shortcut: **Ctrl**+**Shift**+**I**
    SeeAlso: Std_Open/pl, Import_Export/pl, Import_Export_Preferences/pl
 ---
 
@@ -27,7 +27,8 @@ Polecenie **Importuj** importuje geometrię z innego formatu pliku do aktywnego 
 
 1.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Wybierz z menu opcję **Plik → <img src="images/Std_Import.svg" width=16px> Importuj ...**.
-    -   Użyj skrótu klawiaturowego: **Ctrl** + **I**.
+    -   Użyj skrótu klawiaturowego: **Ctrl** + **I**. {{VersionMinus/pl|1.0}}
+    -   Użyj skrótu klawiaturowego: **Ctrl**+**Shift**+**I**. {{Version/pl|1.1}}
 2.  Opcjonalnie wybierz odpowiedni format pliku w oknie dialogowym.
 3.  Wybierz plik.
 4.  Naciśnij przycisk **Otwórz**.
@@ -51,8 +52,6 @@ Polecenie **Importuj** importuje geometrię z innego formatu pliku do aktywnego 
 ## Ustawienia
 
 -   Zobacz stronę: [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md).
--   Zapamiętana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
--   Zapamiętany jest ostatni używany filtr eksportu: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileExportFilter**.
 
 
 
@@ -123,7 +122,7 @@ Obiekt Płaszczyzna obrazu wywodzi się z obiektu [App: Cechy geometrii](App_Geo
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -1,20 +1,15 @@
 # Macro SelectVisible/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro SelectVisible
-|Translate=Seleziona oggetti visibili|Description=Seleziona tutti gli oggetti visibili.
+|Translate=Seleziona oggetti visibili
 |Icon=SelectVisible.png
+|Description=Verranno selezionati tutti e soli gli oggetti visibili nell'albero.
 |Author=galou_breizh
 |Version=1.0
 |Date=2016-04-08
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/5/51/SelectVisible.png ToolBar Icon]
+|Download=[https://wiki.freecad.org/images/5/51/SelectVisible.png Icona della barra degli strumenti]
 }}
-
-
-</div>
 
 
 
@@ -27,35 +22,15 @@ Seleziona tutti gli oggetti visibili nella struttura e solo questi.
 
 
 
+## Utilizzo
 
-<div class="mw-translate-fuzzy">
+Copiare la macro nella cartella delle macro ed eseguirla (vedi [Come installare le macro](How_to_install_macros/it.md) per ulteriori dettagli).
 
-## Uso
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Copiare la macro nella propria cartella delle macro ed eseguirla (per maggiori dettagli vedere [Come installare le macro](How_to_install_macros/it.md)).
-
-
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-## Codice
-
-
-</div>
+## Script
 
 L\'ultima versione della macro si trova in <https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/SelectVisible.FCMacro>
 
-ToolBar Icon ![](images/SelectVisible.png )
+Icona della barra degli strumenti ![](images/SelectVisible.png )
 
 **Macro_Select.FCMacro** {{MacroCode|code=
 # FreeCAD Macro SelectVisible

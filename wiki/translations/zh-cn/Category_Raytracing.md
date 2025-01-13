@@ -1,5 +1,5 @@
 # Category:Raytracing/zh-cn
-This category lists pages related to the [Raytracing Workbench/zh-cn](Raytracing_Workbench/zh-cn.md).
+This category is for pages related to the [Raytracing Workbench/zh-cn](Raytracing_Workbench/zh-cn.md).
 
 ### Contents
 

@@ -1,7 +1,4 @@
 # Macro Loft/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
 |Name=Macro Loft
 |Icon=FCCreaLoft.png
@@ -9,27 +6,16 @@
 |Author=Mario52
 |Version=00.04
 |Date=2019-07-03
-|Download=[https://www.freecadweb.org/wiki/images/2/29/FCCreaLoft.png ToolBar Icon]
-|SeeAlso= [32px|FCTexture](File:FCTexture.png.md) [Macro Texture](Macro_Texture/de.md)
+|Download=[https://wiki.freecad.org/wiki/images/2/29/FCCreaLoft.png Werkzeugleistensymbol]
+|SeeAlso=[Macro Texture](Macro_Texture/de.md)
 |FCVersion=Alle
 }}
-
-
-</div>
 
 
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
 Speziell für einfaches Lofting mit Linien geschrieben, die mit dem [Macro Texture](Macro_Texture/de.md) erzeugt wurden (kann aber für gewöhnliche Lofts geeignet sein und verwendet werden)
-
-
-</div>
-
-
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/c477f892233d6abe02df5e97af828ff4/raw/d633193c577e8257ef458b8c1824d1047c3c6613/Macro_FCCreaLoft.FCMacro}}
 
 <img alt="" src=images/Texture_001_Logo.png  style="width:480px;"> 
@@ -67,13 +53,7 @@ Das Makro und das Symbol in das Makroverzeichnis kopieren.
 
 ## Skript
 
-
-<div class="mw-translate-fuzzy">
-
-Die Symbole für Ihre Werkzeugleiste <img alt="" src=images/FCCreaLoft.png  style="width:64px;">
-
-
-</div>
+Das Symbol für die Werkzeugleiste <img alt="" src=images/FCCreaLoft.png  style="width:64px;">
 
 Laden Sie das Makro in herunter Gist [**Macro_FCCreaLoft.FCMacro**](https://gist.github.com/mario52a/c477f892233d6abe02df5e97af828ff4)
 

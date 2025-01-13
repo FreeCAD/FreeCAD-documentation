@@ -9,7 +9,13 @@
 
 ## Popis
 
+
+<div class="mw-translate-fuzzy">
+
 Tento nástroj nastaví pohled modelu kolmo k rovině náčrtu. Je to užitečné když uživatel změnil orientaci modelu kvůli prozkoumání jiných aspektů modelu a chce se vrátit k pohledu kolmému k náčrtu.
+
+
+</div>
 
 
 
@@ -20,6 +26,8 @@ Tento nástroj nastaví pohled modelu kolmo k rovině náčrtu. Je to užitečn�
 
 
 </div>
+
+See also: [Sketcher Preferences](Sketcher_Preferences#Display.md).
 
 
 <div class="mw-translate-fuzzy">

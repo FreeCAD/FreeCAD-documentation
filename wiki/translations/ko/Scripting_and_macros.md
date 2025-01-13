@@ -82,15 +82,6 @@
     -   [Svg namespace](Svg_Namespace.md)
 
 
-<div class="mw-translate-fuzzy">
-
-
-{{docnav|[Creating a FeaturePython Box, Part II](Creating_a_FeaturePython_Box,_Part_II.md)|}}
-
-
-</div>
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripting and macros/ko

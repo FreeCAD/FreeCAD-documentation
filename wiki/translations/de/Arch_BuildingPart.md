@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Arch BuildingPart
    Name/de: Arch Gebäudeteil
-   MenuLocation: Arch , Gebäudeteil
+   MenuLocation: Arch , Gebäudeteil, 3D/BIM , Level
    Workbenches: Arch_Workbench/de
    Version: 0.18
    SeeAlso: Arch_Building/de, Arch_Site/de
@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Das Werkzeug Gebäudeteil ersetzt die alten Werkzeuge [Arch Geschoss](Arch_Floor/de.md) und [Arch Gebäude](Arch_Building/de.md) durch eine leistungsfähigere Version, die nicht nur für Geschosse/Etagen/Ebenen verwendet werden kann, sondern auch für alle möglichen Situationen, in denen verschiedene Arch- oder BIM-Objekte gruppiert werden sollen, um diese Gruppe als ein Objekt zu verwenden oder zu vervielfältigen.
+Der Gebäudeteil (BuildingPart-Objekt), der mit den Befehlen BIM-Stockwerk oder BIM-Gebäude erstellt wird, ersetzt die alten Objekte [Arch-Stockwerk](Arch_Floor/de.md) und [Arch-Gebäude](Arch_Building/de.md) durch eine leistungsfähigere Version, die nicht nur für Geschosse/Etagen/Ebenen verwendet werden kann, sondern auch für alle möglichen Situationen, in denen verschiedene Arch- oder BIM-Objekte gruppiert werden sollen, um diese Gruppe als ein Objekt zu verwenden oder zu vervielfältigen.
 
 
 
@@ -87,7 +87,7 @@ Ein Arch Gebäudeteil (BuildingPart-Objekt) wird von einem [App GeoFeature](App_
 
 {{TitleProperty|Children}}
 
--    **Height Propagate|Bool**: If true, the height value propagates to contained objects.
+-    **Height Propagate|Bool**: If true, the height value propagates to contained objects. See the **Height** property for additional conditions that apply.
 
 
 {{TitleProperty|IFC}}
@@ -244,5 +244,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/de
+⏵ [documentation index](../README.md) > Arch BuildingPart/de

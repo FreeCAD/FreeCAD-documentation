@@ -56,13 +56,15 @@ Spessore di una lastra viene utilizzato per definire lo spessore degli elementi 
 ## Proprietà
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Thickness**
 
 : specifica lo spessore della shell.
 
 
-
-## Script
+</div>
 
 
 

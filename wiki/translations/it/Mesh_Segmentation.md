@@ -19,13 +19,13 @@ Il comando **Crea segmenti di mesh** crea segmenti di mesh separati per i tipi d
 
 ## Utilizzo
 
-1.  Select a single mesh object.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_Segmentation.svg" width=16px> [Create mesh segments...](Mesh_Segmentation.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_Segmentation.svg" width=16px> Create mesh segments...** option from the menu.
-3.  The **Mesh segmentation** task panel opens.
-4.  Optionally check the **Smooth mesh** option and specify a value for the smoothness of the mesh. The higher the value the smoother the mesh is assumed to be. Specifying {{Value|0}} has the same effect as unchecking this option. Do not select this option if you want to create planar segments.
-5.  Select the surface type you wish to create mesh segments for. You can select more than one type, but this can lead to poorer results. The available surface types are:
+1.  Selezionare un singolo oggetto mesh.
+2.  Ci sono diversi modi per invocare il comando:
+    -   Premere il pulsante **<img src="images/Mesh_Segmentation.svg" width=16px> [Crea segmenti di mesh...](Mesh_Segmentation/it.md)**.
+    -   Selezionare dal menu l\'opzione **Mesh → <img src="images/Mesh_Segmentation.svg" width=16px> Crea segmenti di mesh...**.
+3.  Si apre il pannello **Segmentazione della mesh**.
+4.  Facoltativamente selezionare l\'opzione **Levigatura della mesh** e specificare un valore per la raccordatura della mesh. Più alto è il valore più liscia si presume che sia la maglia. Specificare {{Value|0}} ha lo stesso effetto di deselezionare questa opzione. Non selezionare questa opzione se si desidera creare segmenti planari.
+5.  Selezionare il tipo di superficie per cui si desidera creare i segmenti della mesh. È possibile selezionare più di un tipo, ma questo può portare a risultati più approssimativi. I tipi di superficie disponibili sono:
     -   
         **Plane**
         
@@ -41,17 +41,17 @@ Il comando **Crea segmenti di mesh** crea segmenti di mesh separati per i tipi d
     -   
         **Freeform**
         
-6.  Specify the required settings. Make sure the **Tolerance** values are not too low, and the **Minimum number of faces** values not too high.
-7.  Press the **OK** button.
-8.  The command will create a [group](Std_Group.md) containing separate mesh objects, each a segment of the original mesh object.
-9.  If the created group is empty try using the command again with modified settings.
+6.  Specificare le impostazioni richieste. Assicurarsi che il valore di **Tolerance** non sia troppo basso, e che il numero **Minimum number of faces** non sia troppo elevato.
+7.  Premere il pulsante **OK**.
+8.  Il comando creerà un [gruppo](Std_Group/it.md) contenente oggetti mesh separati, ciascuno un segmento dell\'oggetto mesh originale.
+9.  Se il gruppo creato è vuoto provare ad usare nuovamente il comando dopo aver modificato le impostazioni.
 
 
 
 ## Note
 
--   The current version of the command has trouble identifying faces at the edges of surface types.
--   In some cases the [Mesh SegmentationBestFit](Mesh_SegmentationBestFit.md) command will produce better results.
+-   La versione attuale del comando presenta problemi nell\'identificazione delle facce ai bordi dei tipi di superficie.
+-   In alcuni casi il comando [Adatta i segmenti](Mesh_SegmentationBestFit/it.md) produrrà risultati migliori.
 
 
 

@@ -3,7 +3,7 @@
    Name: Sketcher MergeSketches
    Name/fr: Sketcher Fusionner des esquisses
    MenuLocation: Esquisse , Fusionner des esquisses
-   Workbenches: Sketcher_Workbench/fr
+   Workbenches: Sketcher_Workbench/fr, PartDesign_Workbench/fr
    Version: 0.15
 ---
 
@@ -11,15 +11,17 @@
 
 ## Description
 
-Fusionne deux esquisses ou plus en une seule.
+L\'outil <img alt="" src=images/Sketcher_MergeSketches.svg  style="width:24px;"> [Sketcher Fusionner des esquisses](Sketcher_MergeSketches/fr.md) permet de fusionner deux esquisses ou plus.
 
 
 
 ## Utilisation
 
 1.  Sélectionnez deux esquisses ou plus.
-2.  Cliquez sur **<img src="images/Sketcher_MergeSketches.svg" width=16px> [Fusionner des esquisses](Sketcher_MergeSketches/fr.md)** ou choisissez **Esquisse → <img src="images/Sketcher_MergeSketches.svg" width=16px> [Fusionner des esquisses](Sketcher_MergeSketches/fr.md)** du menu supérieur.
-3.  L\'esquisse résultante sera créée comme un nouvel objet séparé.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_MergeSketches.svg" width=16px> [Fusionner des esquisses](Sketcher_MergeSketches/fr.md)** (non disponible dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md)).
+    -   Sélectionnez l\'option **Esquisse → <img src="images/Sketcher_MergeSketches.svg" width=16px> Fusionner des esquisses** du menu.
+3.  Une nouvelle esquisse est créée.
 
 
 

@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign AdditiveEllipsoid
    Name/fr: PartDesign Ellipsoïde additif
-   MenuLocation: Part Design , Créer une primitive additive , Ellipsoïde additif
+   MenuLocation: PartDesign , Créer une primitive additive , Ellipsoïde additif
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/fr, PartDesign_SubtractiveEllipsoid/fr
@@ -15,6 +15,8 @@
 Insére un Ellipsoïde primitif dans le corps actif comme fonction de base, ou fusionne avec les fonctions existantes.
 
 <img alt="" src=images/PartDesign_AdditiveEllipsoid_example.png  style="width:200px;">
+
+
 
 ## Utilisation
 
@@ -29,6 +31,8 @@ L\'Ellipsoïde peut être édité après sa création de deux façons :
 
 -   Double-cliquez le dans l\'arborescence ou faire un clic droit dessus et sélectionnez **Éditer la primitive** dans le menu contextuel. Cela fait apparaître les paramètres des Primitives.
 -   Via l\'[Éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ## Propriétés
 

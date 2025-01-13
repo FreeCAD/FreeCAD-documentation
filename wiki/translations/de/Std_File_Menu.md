@@ -35,7 +35,9 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_New.svg  style="width:32px;"> [Neu](Std_New/de.md): Erstellt ein neues leeres Dokument.
 
--   <img alt="" src=images/Std_Open.svg  style="width:32px;"> [ Öffne\...](Std_Open/de.md): Öffnet ein Dokument oder importiert Dateien.
+-   <img alt="" src=images/Std_Open.svg  style="width:32px;"> [Öffnen\...](Std_Open/de.md): Öffnet ein Dokument oder importiert Dateien.
+
+-   [Zuletzt geöffnete Dateien](Std_RecentFiles/de.md): Zeigt die Liste der zuletzt verwendeten Dateien an.
 
 -   <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:32px;"> [Schließen](Std_CloseActiveWindow/de.md): Schließt das aktive Fenster.
 
@@ -49,23 +51,21 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_SaveAll.svg  style="width:32px;"> [Alles speichern](Std_SaveAll/de.md): Speichert alle geöffneten Dokumente.
 
--   <img alt="" src=images/Std_Revert.svg  style="width:32px;"> [Rückgängig](Std_Revert/de.md): Kehrt zu der gespeicherten Version des Dokuments zurück.
+-   <img alt="" src=images/Std_Revert.svg  style="width:32px;"> [Änderungen widerufen](Std_Revert/de.md): Kehrt zu der gespeicherten Version des Dokuments zurück.
 
--   <img alt="" src=images/Std_Import.svg  style="width:32px;"> [Import\...](Std_Import/de.md): Importiert eine Datei in das Dokument.
+-   <img alt="" src=images/Std_Import.svg  style="width:32px;"> [Importieren\...](Std_Import/de.md): Importiert eine Datei in das Dokument.
 
--   <img alt="" src=images/Std_Export.svg  style="width:32px;"> [Export\...](Std_Export/de.md): Exportiert Objekt(e) aus dem Dokument.
+-   <img alt="" src=images/Std_Export.svg  style="width:32px;"> [Exportieren\...](Std_Export/de.md): Exportiert Objekte aus dem Dokument.
 
--   <img alt="" src=images/Std_MergeProjects.svg  style="width:32px;"> [Projekt zusammenführen\...](Std_MergeProjects/de.md): Fügt dem Dokument die Objekte aus einer FreeCAD-Datei hinzu.
+-   <img alt="" src=images/Std_MergeProjects.svg  style="width:32px;"> [Dokument zusammenführen\...](Std_MergeProjects/de.md): Fügt dem Dokument die Objekte aus einer FreeCAD-Datei hinzu.
 
--   <img alt="" src=images/Std_ProjectInfo.svg  style="width:32px;"> [Projektinformation\...](Std_ProjectInfo/de.md): Zeigt Details zum Dokument an.
+-   <img alt="" src=images/Std_ProjectInfo.svg  style="width:32px;"> [Dokumentinformationen\...](Std_ProjectInfo/de.md): Zeigt Details zum Dokument an.
 
 -   <img alt="" src=images/Std_Print.svg  style="width:32px;"> [Drucken\...](Std_Print/de.md): Druckt das Dokument.
 
 -   <img alt="" src=images/Std_PrintPreview.svg  style="width:32px;"> [Druckvorschau\...](Std_PrintPreview/de.md): Zeigt eine Druckvorschau an.
 
--   <img alt="" src=images/Std_PrintPdf.svg  style="width:32px;"> [Export PDF\...](Std_PrintPdf/de.md): Exportiert das Dokument als PDF.
-
--   [Letzte Dateien](Std_RecentFiles/de.md): Zeigt die Liste der zuletzt geöffneten Dateien an.
+-   <img alt="" src=images/Std_PrintPdf.svg  style="width:32px;"> [PDF exportieren\...](Std_PrintPdf/de.md): Exportiert das Dokument als PDF-Datei.
 
 -   <img alt="" src=images/Std_Quit.svg  style="width:32px;"> [Beenden](Std_Quit/de.md): Beendet die Anwendung.
 
@@ -73,7 +73,7 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

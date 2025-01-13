@@ -26,7 +26,7 @@ Since FreeCAD version 0.20 this command and the Help system are managed by a sep
 ## Применение
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_WhatsThis.svg" width=16px> [Std WhatsThis](Std_WhatsThis.md)** button.
+    -   Press the **<img src="images/Std_WhatsThis.svg" width=16px> [What's This?](Std_WhatsThis.md)** button.
     -   Select the **Help → <img src="images/Std_WhatsThis.svg" width=16px> What's This?** option from the menu.
     -   Use the keyboard shortcut: **Shift**+**F1**.
 2.  Click a toolbar button or a menu option.
@@ -39,10 +39,16 @@ Since FreeCAD version 0.20 this command and the Help system are managed by a sep
 -   The Help system has a number of preferences. See [Preferences Editor](Preferences_Editor#Help.md).
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Std Base navi
+
+
+</div>
+
+
+{{Std_Base_navi
 
 }}
 

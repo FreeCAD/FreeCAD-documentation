@@ -31,34 +31,32 @@ Der Befehl **Std AnsichtAllesEinpassen** zoomt und schwenkt die Kamera, bis alle
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um die Ansicht auf \'Alles einpassen\' zu ändern, verwende die Methode `fitAll` des AktiveAnsicht-Objekts. Diese Methode ist nicht verfügbar, wenn sich FreeCAD im Konsolenmodus befindet.
+Die Methode `fitAll` des View-Objekts wird verwendet, um den Zoomfaktor so zu ändern, dass alles in die Ansicht passt.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.fitAll()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.fitAll()
 ```
 
-Alternativ kann die `SendMsgToActiveView`-Methode des FreeCADGui-Objekts benutzt werden. Diese Methode ist im FreeCAD-Konsolenmodus nicht verfügbar.
+Für die aktive Ansicht kann auch die Methode `SendMsgToActiveView` des FreeCADGui-Objekts verwendet werden.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.SendMsgToActiveView('ViewFit')
+FreeCADGui.SendMsgToActiveView("ViewFit")
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

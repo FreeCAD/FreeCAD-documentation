@@ -5,20 +5,16 @@
    MenuLocation: Esquisse , Géométries d'esquisse , Activer/désactiver la géométrie de construction
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **N**
-   SeeAlso: Sketcher_ToggleDrivingConstraint/fr
+   SeeAlso: 
 ---
 
 # Sketcher ToggleConstruction/fr
 
 ## Description
 
-Cet outil permet de basculer les géométries sélectionnées de/vers le mode de construction. Cela concerne toutes les géométries.
+L\'outil <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:24px;"> [Sketcher Géométrie de construction](Sketcher_ToggleConstruction/fr.md) permet de faire basculer les outils de création de géométrie en mode construction ou de faire basculer une géométrie sélectionnée en mode construction ou de la faire basculer en mode construction.
 
-La géométrie de construction est un outil important de Sketcher. Lorsque vous utilisez une esquisse pour une opération 3D, la géométrie de construction est ignorée.
-
-En **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [mode édition d'esquisse](Sketcher_EditSketch/fr.md)**, la géométrie de construction est affichée en bleu et ne deviendra verte que lorsqu\'une esquisse est entièrement contrainte. Une fois que vous **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [quittez l'esquisse](Sketcher_LeaveSketch/fr.md)**, la géométrie de construction est masquée dans la [vue 3D](3D_view/fr.md).
-
-Les lignes de construction peuvent être utilisées comme axe de rotation par la fonction **[<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Révolution](PartDesign_Revolution/fr.md)**.
+La géométrie de construction est marquée par une [couleur](Sketcher_Preferences/fr#Apparence.md) dédiée (bleu par défaut) et un type de ligne ({{Version/fr|1.0}}). La géométrie de construction n\'est pas visible à l\'extérieur de l\'esquisse, elle est destinée à aider à définir les contraintes et autres géométries à l\'intérieur de l\'esquisse elle-même. Les lignes de construction peuvent toutefois être utilisées comme axe de rotation par [PartDesign Révolution](PartDesign_Revolution/fr.md).
 
 <img alt="" src=images/Sketcher_ConstructionMode_fr_01.png  style="width:480px;">
 
@@ -26,22 +22,29 @@ Les lignes de construction peuvent être utilisées comme axe de rotation par la
 
 ## Utilisation
 
-Il y a deux façons d\'utiliser cet outil :
-
-1.  Sans que rien ne soit sélectionné dans la [vue 3D](3D_view/fr.md) :
-    -   Activez le mode construction en cliquant sur le bouton **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Activer/désactiver la géométrie de construction](Sketcher_ToggleConstruction/fr.md)** ou en faisant **Esquisse → Géométries d'esquisse → [<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> Activer/désactiver la géométrie de construction** du menu.
-    -   La couleur utilisée pour la création de nouveaux éléments géométriques sera alors le bleu.
-    -   Les éléments géométriques qui seront créés par la suite seront créés en mode construction.
-2.  Avec un ou plusieurs éléments géométriques sélectionnés dans la [vue 3D](3D_view/fr.md).
-    -   Activez l\'outil en cliquant sur le bouton **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Activer/désactiver la géométrie de construction](Sketcher_ToggleConstruction/fr.md)** ou en le sélectionnant dans le menu.
-    -   Les éléments sélectionnés passent alors en mode construction.
-    -   Par la suite, les éléments qui seront créés par la suite seront à nouveau des géométries normales.
 
 
+### Basculer les outils 
 
-## Remarques
+1.  Assurez-vous qu\'il n\'y a pas de sélection.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Activer/désactiver la géométrie de construction](Sketcher_ToggleConstruction/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Géométries d'esquisse → <img src="images/Sketcher_ToggleConstruction.svg" width=16px> Activer/désactiver la géométrie de construction** du menu.
+    -   Cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> Activer/désactiver la géométrie de construction** du menu contextuel.
+    -   Utilisez le raccourci clavier : **G** puis **N**.
+3.  Le mode des outils de création de géométrie est basculé :
+    -   En mode normal, les icônes du menu et de la barre d\'outils sont blanches et créent des géométries régulières (couleur blanche par défaut). L\'icône de cet outil est alors : <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:16px;">.
+    -   En mode construction, les icônes du menu et de la barre d\'outils sont bleues et créent des géométries de construction (couleur bleue par défaut). L\'icône de cet outil est alors : <img alt="" src=images/Sketcher_ToggleConstruction_Constr.svg  style="width:16px;">.
 
--    **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Sketcher Point](Sketcher_CreatePoint/fr.md)**créera toujours des points en mode construction, quel que soit l\'état du basculement de la barre d\'outils. Sélectionnez les points souhaités dans la [vue 3D](3D_view/fr.md) après la création et cliquez sur **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Activer/désactiver la géométrie de construction](Sketcher_ToggleConstruction/fr.md)** pour les transformer en géométrie normale.
+
+
+### Basculer la géométrie 
+
+1.  Sélectionnez un ou plusieurs éléments dans l\'esquisse.
+2.  Lancez l\'outil comme décrit ci-dessus, ou avec l\'option supplémentaire suivante :
+    -   Cliquez avec le bouton droit de la souris dans la section **Éléments** de la [fenêtre de dialogue](Sketcher_Dialog/fr.md) et sélectionnez l\'option **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> Activer/désactiver la géométrie de construction** du menu contextuel.
+3.  Les éléments sélectionnés passent de la géométrie normale à la géométrie de construction ou vice versa. Leur apparence change en conséquence.
+4.  Le mode des outils de création de géométrie n\'est pas modifié.
 
 
 

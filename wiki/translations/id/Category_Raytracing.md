@@ -1,5 +1,5 @@
 # Category:Raytracing/id
-This category lists pages related to the [Raytracing Workbench/id](Raytracing_Workbench/id.md).
+This category is for pages related to the [Raytracing Workbench/id](Raytracing_Workbench/id.md).
 
 ### Contents
 

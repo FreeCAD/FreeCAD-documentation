@@ -17,31 +17,25 @@ La commande **Std Afficher les objets** affiche tous les objets appartenant au d
 
 ## Utilisation
 
-1.  Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_ShowObjects.svg" width=16px> Afficher tous les objets** dans le menu.
+1.  Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_ShowObjects.svg" width=16px> Afficher tous les objets** du menu.
 
 
 
 ## Remarques
 
--   L\'action de cette commande ne peut pas être annulée avec [Std Annuler](Std_Undo/fr.md).
--   La visibilité d\'un objet peut également être modifiée via sa propriété **Visibility** associée dans l\'[éditeur de propriétés](Property_editor/fr.md) ou la [vue combinée](Combo_view/fr.md).
+Voir [Std Basculer la visibilité](Std_ToggleVisibility/fr#Remarques.md)
 
 
 
 ## Script
 
-
-**Voir aussi :**
-
-[FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
-
-Pour un exemple de script, voir [Std Basculer la visibilité](Std_ToggleVisibility/fr.md).
+Voir [Std Basculer la visibilité](Std_ToggleVisibility/fr#Script.md)
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

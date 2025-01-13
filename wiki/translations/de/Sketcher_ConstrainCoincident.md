@@ -14,32 +14,51 @@
 
 ## Beschreibung
 
-Verbindet einen Punkt deckungsgleich (koinzident) mit einem oder mehreren anderen Punkten. Neu in {{Version/de|0.21}}: Werden zwei oder mehr Kreise, Bögen, Ellipsen oder Ellipsenbögen ausgewählt, stellt dies eine Randbedingung \"Konzentrisch festlegen\" dar.
+Das Werkzeug <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Sketcher KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md) erstellt eine Randbedingung zwischen Punkten. die sie koinzident (deckungsgleich) festlegt oder ({{Version/de|0.21}}) eine Randbedingung zwischen Kreisen, Kreisbögen, Ellipsen, Ellipsenbögen, die sie konzentrisch festlegt (indem ihre Mittelpunkte koinzident festgelegt werden).
+
+
+{{Version/de|1.0}}
+
+: Dieses Werkzeug wird durch das Werkzeug [Sketcher KoinzidentFestlegenKombiniert](Sketcher_ConstrainCoincidentUnified/de.md) ersetzt, wenn die Option **Koinzidenz und Punkt auf Objekt vereinigen** in den [Voreinstellungen](Sketcher_Preferences/de#Allgemein.md) ausgewählt wurde.
 
 
 
 ## Anwendung
 
-1.  Eine der folgenden Möglichkeiten ausführen:
-    -   Zwei oder mehr Punkte auswählen
-    -   Zwei oder mehr Kanten von Kreisen, Bögen, Ellipsen oder Ellipsenbögen auswählen.
-2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Koinzidenz festlegen](Sketcher_ConstrainCoincident/de.md)** in der Symbolleiste drücken.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
+
+
+
+### [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md) 
+
+1.  Sicherstellen, dass die Auswahl leer ist.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_ConstrainCoincident.svg" width=16px> [KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Sketcher-Randbedingungen → <img src="images/Sketcher_ConstrainCoincident.svg" width=16px> KoinzidentFestlegen** auswählen.
     -   Das Tastaturkürzel **C**.
-    -   Den Menüeintrag **Skizze → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> Koinzidenz festlegen** auswählen.
+3.  Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
+4.  Eine der folgenden Möglichkeiten auswählen:
+    -   Zwei Punkte auswählen.
+    -   Zwei Kanten von Kreisen, Kreisbögen, Ellipsen oder Ellipsenbögen auswählen.
+5.  Eine Randbedingung wird hinzugefügt.
+6.  Wahlweise weitere Randbedingungen erstellen.
+7.  Zum Beenden die rechte Maustaste oder **Esc** drücken; oder ein anderes Werkzeug zum Erstellen von Geometrien oder Randbedingungen aufrufen.
 
 
 
-## Alternativen zu Koinzident festlegen 
+### Einmal-Ausführen-Modus 
 
-Die beiden Elemente einer Randbedingung [KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md) müssen Startpunkt- oder Endpunkt-Knoten oder Mittelpunkte von Bögen, Kreisen oder Ellipsen sein. Einige Kombinationen, die mit KoinzidentFestlegen nicht möglich sind, können mit anderen Randbedingungen emuliert werden:
+1.  Eine der folgenden Möglichkeiten auswählen:
+    -   Zwei oder mehr Punkte auswählen.
+    -   Zwei oder mehr Kanten von Kreisen, Kreisbögen, Ellipsen oder Ellipsenbögen auswählen.
+2.  Das Werkzeug wie oben beschrieben aufrufen.
+3.  Abhängig von der Auswahl werden eine oder mehrere Randbedingungen hinzugefügt.
 
--   Die Randbedingung <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> [SymmetrieFestlegen](Sketcher_ConstrainSymmetric/de.md) kann verwendet werden, um einen Start-, End- oder Mittelpunkt auf den Mittelpunkt einer geraden Linie zu legen.
--   Eine Randbdingung Mittelpunkt-auf-Mittelpunkt zweier Geraden kann emuliert werden durch das Erstellen eines neuen <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:24px;"> [Punktes](Sketcher_CreatePoint/de.md) und zweimaliger Verwendung der Randbedingung <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> [SymmetrischFestlegen](Sketcher_ConstrainSymmetric/de.md), so dass er auf den Mittelpunkten beider Linien liegt.
--   Ein Knoten kann mit einer Randbedingung <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [PunktAufObjektFestlegen](Sketcher_ConstrainPointOnObject/de.md) so festgelegt werden, dass auf einer Kante liegt. Bei dieser Randbedingung kann der Punkt überall auf der vollen Ausdehnung eines Segments oder einer Kurve liegen (also auch vor dem Startpunkt oder hinter dem Endpunkt).
--   Eine kollineare (fluchtende) Platzierung zweier Geraden erhält man durch Anwendung einer Randbedingung <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> [TangentialFestlegen](Sketcher_ConstrainTangent/de.md) auf sie, oder durch die Kombination der Randbedingungen <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [PunktAufObjektFestlegen](Sketcher_ConstrainPointOnObject/de.md) und <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> [ParallelFestlegen](Sketcher_ConstrainParallel/de.md).
--   Zwei Kanten können deckungsgleich platziert werden, indem die Randbedingung <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md) zweimal angewendet wird, auf jeweils ein Paar von Extrempunkten (Start- oder Endpunkte).
--   Zwei Kreise können deckungsgleich platziert werden, indem man mit der Randbedingung <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md) die Mittelpunkte zusammenführt und die Randbedingung <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> [GleichheitFestlegen](Sketcher_ConstrainEqual/de.md) auf ihre Kanten anwendet. Bei Bögen stellt dies sicher, dass beide Bögen Teil desselben Kreises sind, während sie unterschiedliche Start- und Endpunkte haben können.
+
+
+## Hinweise
+
+-    {{Version/de|1.0}}: Punkte denen die Randbedingung Koinzident festlegen zugeornet ist, werden mit der [Farbe](Sketcher_Preferences/de#Darstellung.md) der **Symbole für Randbedingungen** gekennzeichnet.
 
 
 

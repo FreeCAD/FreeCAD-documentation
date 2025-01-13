@@ -9,19 +9,23 @@
 
 # Std ToggleNavigation/pl
 
+
+
 ## Opis
 
 Polecenie **Przełącz tryb nawigacji** jest przeznaczone do pewnych operacji inspekcji i pewnych interaktywnych operacji edycji siatki. Operacje te są dość *wymagające* i dlatego polegają na trybie edycji, podczas którego większość opcji nawigacyjnych jest wyłączona. Za pomocą tego polecenia można tymczasowo przełączyć się z trybu edycji do trybu nawigacji, a po zmianie [widoku 3D](3D_view/pl.md), przełączyć się z powrotem do trybu edycji.
 
 Nie należy mylić tego polecenia z poleceniem [Std: Edycja](Std_Edit/pl.md).
 
+
+
 ## Użycie
 
 *Przykład demonstrujący polecenie:*
 
 1.  Przełącz się na środowisko pracy <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Siatka](Mesh_Workbench/pl.md)
-2.  Wybierz opcję z menu **Siatki → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Bryła pierwotna ...**.
-3.  Otworzy się okno dialogowe Bryła pierwotna.
+2.  Wybierz opcję z menu **Siatki → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Bryła pierwotna ...](Mesh_BuildRegularSolid/pl.md)**.
+3.  Otworzy się okno dialogowe **Bryła pierwotna**.
 4.  Wybierz **elipsoidę** z listy rozwijanej.
 5.  Naciśnij przycisk **Utwórz**.
 6.  Naciśnij przycisk **Zamknij**, aby zamknąć okno dialogowe.
@@ -50,7 +54,7 @@ Nie należy mylić tego polecenia z poleceniem [Std: Edycja](Std_Edit/pl.md).
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

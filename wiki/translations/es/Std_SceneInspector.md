@@ -18,11 +18,17 @@ El comando **Std InspectorEscenas** abre un cuadro de diálogo que muestra una v
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Seleccione la opción **Hierramientas → <img src="images/Std_SceneInspector.svg" width=16px> Inspector Escenas...** en el menú.
 2.  Se abre el cuadro de diálogo del inspector de escenas.
 3.  El cuadro de diálogo no tiene modelo, lo que significa que puede permanecer abierto mientras sigues trabajando en FreeCAD.
 4.  Opcionalmente pulsa el **Refrescar** para actualizar la vista general.
 5.  Pulse el botón **Cerrar** para cerrar el cuadro de diálogo.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -34,7 +40,7 @@ El comando **Std InspectorEscenas** abre un cuadro de diálogo que muestra una v
 </div>
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

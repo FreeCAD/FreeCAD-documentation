@@ -1,36 +1,136 @@
 ---
- GuiCommand:Addon/de
+ GuiCommand:
    Name: BIM Project
    Name/de: BIM Projekt
-   Workbenches: BIM Workbench/de
-   Addon: BIM
-   MenuLocation: Verwalten , Projekt verwalten...
+   MenuLocation: 3D/BIM , Projekt
+   Workbenches: BIM_Workbench/de
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # BIM Project/de
 
+
+
 ## Beschreibung
 
-<img alt="" src=images/BIM_project_screenshot.png  style="width:1024px;">
+Das Werkzeug **BIM Projekt** erstellt ein [Native-IFC](NativeIFC/de.md)-Projekt im aktuellen Dokument. In IFC ist ein Projekt (IfcProject) das Grundobjekt aller Inhalte des Modells. Es muss in jeder IFC-Datei vorhanden sein.
 
-Der Projekteinstellungsdialog ist ein Assistentendialog, der es dir ermöglicht, einen Basissatz von Führungsobjekten im aktuellen Dokument oder in einem neuen Dokument zu erstellen, der dir hilft, mit der Modellierung eines BIM Projekts zu beginnen.
+Es ist nicht nötig, ein Projekt zu erstellen, um ein FreeCAD-Modell in eine IFC-Datei zu exportieren, da ein Standardprojekt hinuzgefügt wird, wann immer eine IFC-Datei exportiert wird. Wird jedoch mit [NativeIFC](NativeIFC/de.md) gearbeitet, wird eine IFC-Datei an das Modell angefügt und die gesamte Geometrie sowie alle Eigenschaften des Modells und seiner Komponenten werden dieser angefügten IFC-Datei entnommen. Das Projekt ist die Stelle an der die IFC-Datei im Dokument eingefügt wird.
 
-Der Projekteinstellungsdialog kann erstellt werden:
 
--   Eine neue [Dokument](Document_structure/de.md). Alternativ werden die anderen Objekte im aktuell geöffneten Dokument angelegt.
--   Ein [Standort](Arch_Site/de.md). Das Standortobjekt repräsentiert ein Stück Gelände, auf dem sich dein Projekt befinden wird. Du kannst ihm eine Reihe nützlicher Eigenschaften geben, wie z. B. eine Straßenadresse und Erdkoordinaten. Bei der Erstellung ist der Standort nur ein leerer Container für andere BIM Objekte, aber ein 3D Objekt, das das eigentliche Gelände darstellt, kann später daran angehängt werden.
--   Ein [Gebäude](Arch_Building/de.md). Das Gebäudeobjekt ist ein Container für alle BIM Objekte, die zu einem Gebäude gehören werden. Sie können einen Gebäudetyp definieren und ihm grobe rechteckige Abmessungen geben, die als ein auf der Bodenebene (X,Y) gezeichnetes Rechteck dargestellt werden.
--   Ein Satz von [Achsen](Arch_Axis/de.md), indem Sie deren Anzahl und Abstand definieren. Die Achsen werden als Richtlinien für die Ausrichtung von 2D- und 3D-Objekten verwendet. Diese Achsen können später geändert oder neue Achsen eingeführt werden.
--   Ein Satz von [GebäudeTeile](Arch_BuildingPart/de.md) zur Darstellung von Ebenen. GebäudeTeile sind generische BIM Container Objekte, die verwendet werden können, um andere BIM Objekte auf eine Reihe von sinnvollen Arten zu gruppieren, z. B. wiederholbare Komponenten oder Gebäudeebenen.
--   Ein Satz von Standard [Gruppen](Std_Group/de.md) innerhalb jeder Ebene. Gruppen können verwendet werden, um Ihre BIM Objekte in übersichtlicheren Kategorien zu organisieren, wie z. B. \"Wände\" oder \"Säulen\". Sie haben keinen Einfluss auf das Modell selbst, helfen aber oft, die Struktur Ihres Modells übersichtlicher zu gestalten, wenn es viele Objekte enthält.
+<div lang="en" dir="ltr" class="mw-content-ltr">
 
-### Vorlagen
+Typically, you create a BIM project to attach an IFC file. When creating the project, the attached IFC file is blank, and not saved. The next time you will save the FreeCAD file, you will also be asked to save the IFC file.
 
-Das Projektwerkzeug unterstützt zwei Arten von Vorlagen: Nachdem du die verschiedenen Optionen ausgefüllt hast, kann der Inhalt des BIM Projekteinstellungsassistenten als Vorlage **gespeichert** werden. Diese Vorlagen können **wiederhergestellt** und zu einem späteren Zeitpunkt angepasst werden. Die Projektvorlagen werden als einfache Textdateien in deinem FreeCAD Benutzerordner gespeichert.
 
-Alternativ kannst du auch den Inhalt des aktuellen Dokuments als Vorlage speichern. Dadurch wird das aktuell geöffnete Dokument als Standarddatei **.FCStd** gespeichert, enthält aber auch zusätzliche BIM Einstellungen wie die aktuelle Arbeitsebene oder die aktuellen Einheiten. Wenn du die Option **Wiederherstellen** jederzeit verwendest, wird der Inhalt dieser Vorlagendatei mit dem aktiven Dokument zusammengeführt und alle darin gefundenen Einstellungen werden angewendet.
+</div>
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+If you distribute the FreeCAD file, all attached IFC files must be distributed together, otherwise FreeCAD won\'t be able to extract the geometry. However, if the **shape mode** property of all objects contained in a project is set to **Shape**, then the FreeCAD file can be distributed without the accompanying IFC file, and will still open correctly on other computers. The IFC objects, however, won\'t be editable anymore.
+
+
+</div>
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+When inserting an IFC file, a project object is created, that contains all the contents of the file. Like all NativeIFC objects, the project can be expanded by double-clicking it in the tree.
+
+
+</div>
+
+
+
+## Anwendung
+
+1.  Sichertellen, dass ein FreeCAD-Dokument geöffnet ist.
+2.  Die Schaltfläche **<img src="images/BIM_Project.svg" width=16px> [Projekt](BIM_Project/de.md)** Drücken.
+3.  Wahlweise das Dokument sperren, indem die Schaltfläche **<img src="images/IFC.svg" width=16px> [IFC Sperren](NativeIFC/de#Locked_and_unlocked_modes.md)** gedrückt wird.
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+## Locked and unlocked mode 
+
+
+</div>
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+In the [BIM Workbench](BIM_Workbench.md), the status bar features an **<img src="images/IFC.svg" width=16px> [IFC Lock](NativeIFC#Locked_and_unlocked_modes.md)** button that allows to toggle between **locked** and **unlocked** modes. When unlocked, you can have several [projects](BIM_Project.md) inside your FreeCAD document, and also have both IFC and non-IFC elements.
+
+
+</div>
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+In locked mode, the data attached to your project object becomes attached directly to the FreeCAD document. The FreeCAD document acts as a faithful replica, or rendering, of the IFC document. The project object is therefore removed. You can have only one project in your FreeCAD document, and you cannot have non-IFC objects anymore (every new object is instantly converted to IFC).
+
+
+</div>
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+## Adding objects to a project 
+
+
+</div>
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+Objects are added to a project simply by dragging and dropping them onto the project in the tree view. These objects will be converted to IFC and might loose some of their former parametric behaviours when those are not supported by IFC.
+
+
+</div>
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+## Diff
+
+
+</div>
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+When the project contains unsaved changes, a red dot will appear on its tree icon. Right-clicking the project and choosing **IFC → Diff** will open a dialog to see a [diff](https://en.wikipedia.org/wiki/Diff) of what has changed in the attached IFC file. This is a good way to make sure what you changed is really what you intended.
+
+
+</div>
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+## Saving
+
+
+</div>
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+IFC files attached to a project are automatically saved each time you save the FreeCAD file. They can also be saved manually anytime by right-clicking the project and choosing **IFC → Save**.
+
+
+</div>
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > BIM Project/de
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Project/de

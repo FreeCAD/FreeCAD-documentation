@@ -87,13 +87,13 @@ Ein Part-Loft-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgel
 
 {{TitleProperty|Loft}}
 
--    {{PropertyData/de|Sections|LinkList}}: listet die verwendeten Querschnitte.
+-    {{PropertyData/de|Sections|LinkList}}: Listet die verwendeten Querschnitte.
 
--    {{PropertyData/de|Solid|Bool}}: true oder false (Standardwert). True bewirkt, dass ein Festkörper (Solid) erstellt wird.
+-    {{PropertyData/de|Solid|Bool}}: False (Standardwert). True bewirkt, dass ein Festkörper (Solid) erstellt wird.
 
--    {{PropertyData/de|Ruled|Bool}}: true oder false (Standardwert). True bewirkt, dass Regelflächen erstellt werden.
+-    {{PropertyData/de|Ruled|Bool}}: False (Standardwert). True bewirkt, dass eine Regelfläche erstellt wird.
 
--    {{PropertyData/de|Closed|Bool}}: true oder false (Standardwert). True bewirkt, dass ein geschlossenes Loft-Objekt durch Verbinden des letzten mit dem ersten Profil erstellt wird.
+-    {{PropertyData/de|Closed|Bool}}: False (Standardwert). True bewirkt, dass ein geschlossenes Loft-Objekt erstellt wird, durch Verbinden des letzten Profils mit dem ersten.
 
 -    {{PropertyData/de|Max Degree|IntegerConstraint}}: Größtmöglicher Grad.
 

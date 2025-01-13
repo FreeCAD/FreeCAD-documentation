@@ -5,7 +5,7 @@
    Workbenches: Sketcher_Workbench/pl
    MenuLocation: Szkic , Wiązania szkicownika , Wiązanie równości
    Shortcut: **E**
-   SeeAlso: Sketcher_ConstrainRadius/pl
+   SeeAlso: 
 ---
 
 # Sketcher ConstrainEqual/pl
@@ -14,47 +14,47 @@
 
 ## Opis
 
-Wiązanie Równości wymusza, aby dwa lub więcej odcinki w linii, linii łamanej lub prostokącie miały jednakową długość. W przypadku zastosowania do łuków lub okręgów, promienie są wiązane tak, aby były równe. Wiązanie nie może być stosowane do elementów pierwotnych geometrii, które nie są tego samego typu *(np. odcinki linii i łuki)*.
+Narzędzie <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> **Wiązanie równości** ogranicza krawędzie, aby miały taką samą długość *(linie)* lub krzywiznę *(inne krawędzie z wyjątkiem [krzywej złożonej](Sketcher_CreateBSpline/pl.md))*. Wybrane krawędzie muszą być tego samego typu. Okręgi i łuki kołowe są tego samego typu *(ich promienie są równe)*, podobnie jak elipsy i łuki eliptyczne *(ich główne i mniejsze promienie są równe)*.
 
 
 
 ## Użycie
 
-Poniższy przykładowy rysunek zawiera szereg pierwotnych elementów szkicowych *(linia, linia łamana, prostokąt, łuk i okrąg)*.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
-![](images/EqualConstraint1.png )
 
-Wybierz co najmniej dwa segmenty linii *(np. Linię i jeden bok prostokąta)*.
 
-![](images/EqualConstraint2.png )
+### [Tryb kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md) 
 
-Kliknij na przycisk **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązanie równości](Sketcher_ConstrainEqual.md)** na pasku narzędzi Szkicownika *(w Środowiska pracy Szkicownik lub Projekt części)* lub wybierz pozycję menu Wiązanie równości z podmenu Wiązania Środowiska pracy Szkicownik lub lub Projekt części, zależnie od tego, które środowisko pracy zostanie wybrane, aby zastosować wiązanie do wybranych elementów.
+1.  Upewnij się, że nie ma zaznaczenia.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_ConstrainEqual.svg" width=16px> '''Wiązanie równości'''**.
 
-![](images/EqualConstraint3.png )
+    -   Wybierz z menu opcję **Szkic → Wiązania szkicownika → <img src="images/Sketcher_ConstrainEqual.svg" width=16px> Wiązanie równości**.
 
-Teraz wybierz łuk i okrąg na szkicu.
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz opcję **Wiązanie → <img src="images/Sketcher_ConstrainEqual.svg" width=16px> Wiązanie równości** z menu podręcznego.
 
-![](images/EqualConstraint4.png )
+    -   Użyj skrótu klawiaturowego: **E**.
+3.  Kursor zmieni się w krzyżyk z ikoną narzędzia.
+4.  Wybierz dwie krawędzie tego samego typu.
+5.  Zostanie dodane wiązanie.
+6.  Opcjonalnie można kontynuować tworzenie wiązań.
+7.  Aby zakończyć, kliknij prawym przyciskiem myszy lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
 
-i zastosuj **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązanie równości](Sketcher_ConstrainEqual.md)** jak poprzednio.
 
-![](images/EqualConstraint5.png )
 
-Teraz wybierz odcinek linii, wszystkie segmenty linii łamanej i jeden z pozostałych niezwiązanych boków prostokąta
+### Tryb jednorazowy 
 
-![](images/EqualConstraint6.png )
-
-i zastosuj **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązanie równości](Sketcher_ConstrainEqual.md)** jak poprzednio.
-
-![](images/EqualConstraint7.png )
-
-Wybierz segment linii i łuk
-
-![](images/EqualConstraint8.png )
-
-i zastosuj **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązanie równości](Sketcher_ConstrainEqual.md)** jak poprzednio. Wyskakujący komunikat wskazuje, że elementy podlegające wiązaniom muszą być tego samego typu geometrycznego *(linie o krzywiznach zerowych lub linie o krzywiznach niezerowych)*.
-
-![](images/EqualConstraint9.png )
+1.  Wybierz jedną lub więcej krawędzi.
+2.  Wywołaj narzędzie jak wyjaśniono powyżej lub z następującą dodatkową opcją:
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widok 3D](3D_view/pl.md) i wybierz opcję **<img src="images/Sketcher_ConstrainEqual.svg" width=16px> Wiązanie równości** z menu podręcznego.
+3.  W zależności od wyboru dodawane jest jedno lub więcej wiązań.
 
 
 

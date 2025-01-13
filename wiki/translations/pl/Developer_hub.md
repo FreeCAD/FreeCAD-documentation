@@ -21,7 +21,7 @@ Dokumentacja dla programisty składa się z następujących części:
 -   [kompilacja w systemie Linux](Compile_on_Linux/pl.md)
 -   [Kompilacja w systemie MacOS](Compile_on_MacOS/pl.md)
 -   [kompilacja w systemie Windows](Compile_on_Windows/pl.md)
--   [Szczegóły licencji](Licence/pl.md) o licencjach programu FreeCAD.
+-   [Szczegóły licencji](License/pl.md) o licencjach programu FreeCAD.
 -   [Biblioteki zewnętrzne](Third_Party_Libraries/pl.md)
 -   [Narzędzia zewnętrzne](Third_Party_Tools/pl.md)
 -   [Uruchomienie i konfiguracja](Start_up_and_Configuration/pl.md)

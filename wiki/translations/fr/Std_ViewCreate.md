@@ -13,8 +13,10 @@
 
 La commande **Std Créer une nouvelle vue‏‎** crée une nouvelle [vue 3D](3D_view/fr.md) pour le document actif. Des vues 3D supplémentaires peuvent être utiles si vous souhaitez inspecter le modèle dans plusieurs directions ou à différents niveaux de zoom.
 
-![](images/ViewCreate1.png ) 
+<img alt="" src=images/ViewCreate1.png  style="width:400px;"> 
 *L'interface FreeCAD avec plusieurs vues 3D*
+
+
 
 ## Utilisation
 
@@ -28,7 +30,7 @@ La commande **Std Créer une nouvelle vue‏‎** crée une nouvelle [vue 3D](3D
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Circle
    Name/pl: Rysunek roboczy: Okrąg
-   MenuLocation: Kreślenie , Okrąg
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Kreślenie , Okrąg<br>Kreślenie 2D , Okrąg
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **C** **I**
    Version: 0.7
    SeeAlso: Draft_Arc/pl, Draft_Arc_3Points/pl
@@ -31,7 +31,8 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Circle.svg" width=16px> '''Okrąg'''**.
-    -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Circle.svg" width=16px> Okrąg**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Circle.svg" width=16px> Okrąg**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Kreślenie 2D → <img src="images/Draft_Circle.svg" width=16px> Okrąg** z menu.
     -   Użyj skrótu klawiaturowego: **C**, a następnie **I**.
 2.  Otworzy się panel zadań **Okrąg**. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
 3.  Wybierz pierwszy punkt, środek okręgu, w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
@@ -41,10 +42,10 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 1.0)*.
 
 -   Aby ręcznie wprowadzić współrzędne środka, wprowadź składowe X, Y i Z, a następnie naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już żądane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor poza obszar okna [widoku 3D](3D_view/pl.md).
--   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny robocza](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny robocza](Draft_SelectPlane/pl.md).
 -   Naciśnij klawisz **F** lub kliknij pole wyboru **Wypełniony**, aby przełączyć tryb wypełnienia. Jeśli tryb wypełnienia jest włączony, utworzony okrąg będzie miał ustawioną właściwość {{PropertyData/pl|Make Face}} na `True` i będzie miał wypełnioną ścianę.
 -   Naciśnij klawisz **N** lub kliknij pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie zostanie uruchomione ponownie po zakończeniu, umożliwiając dalsze tworzenie okręgów.
 -   Naciśnij klawisz **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).

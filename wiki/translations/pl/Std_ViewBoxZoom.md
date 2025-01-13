@@ -10,9 +10,13 @@
 
 # Std ViewBoxZoom/pl
 
+
+
 ## Opis
 
 Polecenie **Powiększ obszar** powoduje powiększenie prostokątnego obszaru zdefiniowanego przez użytkownika, czyli obszaru o kształcie kwadratu, w aktywnym oknie [widoku 3D](3D_view/pl.md).
+
+
 
 ## Użycie
 
@@ -25,7 +29,7 @@ Polecenie **Powiększ obszar** powoduje powiększenie prostokątnego obszaru zde
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

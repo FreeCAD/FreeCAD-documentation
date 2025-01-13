@@ -3,6 +3,8 @@ FreeCAD 0.18 è stato rilasciato il 12 marzo 2019, può essere scaricato dalla p
 
 Le note di rilascio delle precedenti versioni di FreeCAD sono disponibili nella pagina [Funzionalità di FreeCAD](Feature_list/it#Release_notes.md).
 
+
+
 ## Punti salienti 
 
 Strumenti di [TechDraw](#Ambiente_TechDraw.md) estesi
@@ -26,6 +28,8 @@ Strumenti di [Arch e BIM](#Ambiente_Arch.md) migliorati ed estesi.
 
 
 
+
+
 ## Aspetti generali 
 
 -   Start center ridisegnato
@@ -39,6 +43,8 @@ Strumenti di [Arch e BIM](#Ambiente_Arch.md) migliorati ed estesi.
 -   Ora è possibile specificare un\'immagine di sfondo personalizzata per la finestra principale di FreeCAD usando l\'opzione [**Preferenze → Generale → Abilita lo sfondo a mosaico**](Preferences_Editor/it#Generale.md).
 
 <File:Start> center 0.18 screenshot.jpg\|thumb\|left\|Start center ridisegnato <File:FC018> Navigation Cube.png\|thumb\|left\|Il cubo di navigazione <File:FreeCAD> with background image.jpg\|thumb\|left\|FreeCAD con un\'immagine di sfondo personalizzata.
+
+
 
 
 
@@ -63,6 +69,8 @@ Strumenti di [Arch e BIM](#Ambiente_Arch.md) migliorati ed estesi.
 -   [Riferimento esterno](Arch_Reference/it.md) ora permette di collegare parti da un altro file di FreeCAD in un file di FreeCAD.
 
 -   Ma c\'è molto di più! Controllare in [Arch/BIM development reports](https://github.com/yorikvanhavre/BIM_Workbench/wiki) per vedere tutto ciò che è stato fatto in quest\'anno.
+
+
 
 ## Ambiente Draft 
 
@@ -104,6 +112,8 @@ Strumenti di [Arch e BIM](#Ambiente_Arch.md) migliorati ed estesi.
 
 La gestione del materiale è stata migliorata. Ora è possibile utilizzare l\'editor globale del materiale di FreeCAD. Vedere anche [scheda materiale](Release_notes_0.18/it#Material_Handling.md). Per questo, il pannello Azioni del materiale FEM è stato ottimizzato.
 
+
+
 ## Ambiente Part 
 
 -   Lo strumento [Controlla geometria](Part_CheckGeometry/it.md) ora apre una finestra con una barra di avanzamento e un pulsante **Cancel** per terminare l\'attività se impiega troppo tempo.
@@ -111,22 +121,32 @@ La gestione del materiale è stata migliorata. Ora è possibile utilizzare l\'ed
 
 -   Il nuovo strumento [SliceApart](Part_SliceApart/it.md) si basa su [Slice to Compound](Part_Slice/it.md) e include un\'esplosione automatica dei composti per separare facilmente gli oggetti.
 
+
+
 ## Ambiente PartDesign 
 
 -   Il nuovo strumento [Sistema di coordinate locale](PartDesign_CoordinateSystem/it.md) ora consente di aggiungere la visualizzazione del sistema di coordinate locale a diversi oggetti di riferimento.
 
+
+
 ## Ambiente Path 
+
+
 
 ### Miglioramenti generali 
 
 -   Path ora può visualizzare correttamente il gcode con i termini ABC dell\'asse
 -   Miglioramenti all\'editor degli utensili: modifica semplificata per tipi di utensili selettivi
 
+
+
 ### Miglioramenti delle lavorazioni 
 
 -   Ora le lavorazioni possono avere più oggetti di base
 -   L\'organizzazione del contenitore delle lavorazioni è stata migliorata
 -   I valori predefiniti per le impostazioni delle operazioni possono essere controllati tramite SetupSheets
+
+
 
 ### Operazioni
 
@@ -137,10 +157,14 @@ La gestione del materiale è stata migliorata. Ora è possibile utilizzare l\'ed
 -   RampEntry dressup ora ha un punto di partenza configurabile
 -   L\'operazione PocketShape ora può \'usare il contorno\'
 
+
+
 ### Post Processori 
 
 -   grbl_post -- argomento per sopprimere i comandi di cambio utensile
 -   grbl_g81 post processor
+
+
 
 ## Ambiente Sketcher 
 
@@ -164,7 +188,11 @@ Rilevanti Link del forum:
 -   [Sketcher Auto Remove Redundants mode](https://forum.freecadweb.org/viewtopic.php?f=9&t=30594)
 -   [Constraints extended naming](https://forum.freecadweb.org/viewtopic.php?f=10&t=28890)
 
+
+
 ## Ambiente Spreadsheet 
+
+
 
 ## Ambiente Surface 
 
@@ -192,6 +220,8 @@ TechDraw ha ricevuto numerose aggiunte e miglioramenti per v0.18.
 <img alt="Una schea materiale" src=images/Material-Card-018.png  style="width:300px;"> La gestione del materiale è stata migliorata. Ora è possibile creare delle **schede materiali** per ogni materiale. Le schede possono contenere tutte le informazioni, proprietà fisiche, specifiche architettoniche, collegamenti Web, commenti. ecc. Le schede sono file di testo con il suffisso **.FCMat** e possono essere utilizzate per tutti gli ambienti di FreeCAD.
 
 FreeCAD fornisce le schede materiali per metalli standard, materie plastiche e diversi tipi di acciaio.
+
+
 
 ## Moduli aggiuntivi 
 

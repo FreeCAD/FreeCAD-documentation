@@ -5,7 +5,7 @@
    MenuLocation: Szkic , Wygląd w szkicowniku , Pokaż / ukryj warstwę informacyjną krzywej złożonej / ukryj ramkę kontrolną krzywej złożonej
    Workbenches: Sketcher_Workbench/pl
    Version: 0.17
-   SeeAlso: Sketcher_CompCreateBSpline/pl
+   SeeAlso: Sketcher_CreateBSpline/pl
 ---
 
 # Sketcher BSplinePolygon/pl
@@ -14,16 +14,18 @@
 
 ## Opis
 
-Pokazuje lub ukrywa wyświetlanie zdefiniowanego wielokąta krzywej złożonej *(zobacz stronę [Krzywe złożone](B-Splines/pl.md) aby dowiedzieć się więcej)*.
+Narzędzie <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:24px;"> **Pokaż / ukryj ramkę kontrolną krzywej złożonej** pokazuje lub ukrywa wielokąt kontrolny [krzywej złożonej](B-Splines/pl.md) we wszystkich szkicach.
 
 ![](images/Sketcher_B-spline_example01.png ) 
-*A Krzywa złożona. Wielokąty kontrolne to zielone linie proste łączące punkty kontrolne.*
+*Wielobok kontrolny ''(zielone linie proste)'' łączy punkty kontrolne ''(zaznaczone ciemnożółtymi okręgami)''.*
 
 
 
 ## Użycie
 
-1.  Wybierz krzywą złożoną i użyj przycisku na pasku narzędzi **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> '''Pokaż / ukryj ramkę kontrolną krzywej złożonej'''**.
+1.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_BSplinePolygon.svg" width=16px> '''Pokaż / ukryj ramkę kontrolną krzywej złożonej'''**.
+    -   Wybierz z menu **Szkic → Widok szkicu → Pokaż / ukryj warstwę informacyjną krzywej złożonej → <img src="images/Sketcher_BSplinePolygon.svg" width=16px> Pokaż / ukryj ramkę kontrolną krzywej złożonej**.
 
 
 

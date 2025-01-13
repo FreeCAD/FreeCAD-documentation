@@ -63,6 +63,8 @@ The following tools are available in this menu:
 
 </div>
 
+-   \... The first 10 windows are listed here. Select a window to activate it.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -75,7 +77,7 @@ Ferestre\...
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

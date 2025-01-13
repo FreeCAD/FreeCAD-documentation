@@ -3,7 +3,9 @@
 
 [Geskriptete Objekte](Scripted_objects/de.md) werden jedes Mal neu aufgebaut, wenn ein [FCStd Dokument](File_Format_FCStd/de.md) geöffnet wird. Zu diesem Zweck behält das Dokument eine Referenz auf das Modul und die Python Klasse, die zur Erstellung des Objekts verwendet wurden, zusammen mit seinen Eigenschaften.
 
-Attribute der Klasse, die zur Erstellung des Objekts verwendet wurde, können ebenfalls gespeichert, d.h. \"serialisiert\" werden. Dies kann weiter durch die `__getstate__` und `__setstate__` Methoden der Klasse gesteuert werden.
+Attribute der Klasse, die zur Erstellung des Objekts verwendet wurde, können ebenfalls gespeichert, d.h. \"serialisiert\" werden. Dies kann weiter durch die Methoden `dumps` und `loads` der Klasse gesteuert werden.
+
+
 
 ## Speichern aller Attribute 
 
@@ -62,6 +64,8 @@ Wenn wir die Datei erneut öffnen, können wir das Wörterbuch der Klasse des Ob
 
 Wir sehen, dass alle Attribute, die in der Klasse mit `self` beginnen, gespeichert wurden. Diese können von unterschiedlichem Typ sein, einschließlich Zeichenfolge, Liste, Fließkommazahl und Wörterbuch. Das ursprüngliche Tupel für `self.color` wurde in eine Liste konvertiert, aber ansonsten wurden alle Attribute gleich geladen.
 
+
+
 ## Speichern besonderer Attribute 
 
 Wir können eine Klasse ähnlich der ersten definieren, die bestimmte Attribute zum Speichern implementiert. 
@@ -86,15 +90,15 @@ class CustomStates:
     def execute(self, obj):
         pass
 
-    def __getstate__(self):
+    def dumps(self):
         return self.color, self.width
 
-    def __setstate__(self, state):
+    def loads(self, state):
         self.color = state[0]
         self.width = state[1]
 ```
 
-The return value of `__getstate__` is the object that will be serialized. This can be a single value, or a tuple of values. When the object is restored, the class calls the `__setstate__` method, passing the `state` variable with the serialized content. In this case `state` is a tuple that is unpacked into the respective variables to reconstruct the \"state\" that original existed. 
+The return value of `dumps` is the object that will be serialized. This can be a single value, or a tuple of values. When the object is restored, the class calls the `loads` method, passing the `state` variable with the serialized content. In this case `state` is a tuple that is unpacked into the respective variables to reconstruct the \"state\" that original existed. 
 ```python
 state = (self.color, self.width)
 state = ((0, 0, 1), 2.5)
@@ -109,7 +113,7 @@ We can create an object with this class, and save the document, just like in the
 {'color': [0, 0, 1], 'width': 2.5}
 ```
 
-The original tuple for `self.color` was converted to a list, but otherwise the information was recovered fine. Instead of restoring all attributes like in the previous case, only the attributes that we specified in `__getstate__` and `__setstate__` were restored.
+The original tuple for `self.color` was converted to a list, but otherwise the information was recovered fine. Instead of restoring all attributes like in the previous case, only the attributes that we specified in `dumps` and `loads` were restored.
 
 ## Usage
 
@@ -127,10 +131,10 @@ class DraftObject:
     def __init__(self, obj, _type):
         self.Type = _type
 
-    def __getstate__(self):
+    def dumps(self):
         return self.Type
 
-    def __setstate__(self, state):
+    def loads(self, state):
         if state:
             self.Type = state
 ```
@@ -148,10 +152,10 @@ class CustomObject:
         self.Type = _type
         self.version = "0.18"
 
-    def __getstate__(self):
+    def dumps(self):
         return self.Type, self.version
 
-    def __setstate__(self, state):
+    def loads(self, state):
         if state:
             self.Type = state[0]
             self.version = state[1]
@@ -177,7 +181,7 @@ class CustomObject:
 -   [Scripted objects migration](Scripted_objects_migration.md)
 -   [FreeCAD Forum Discussion: Scripted Object Serialization: json or pickle?](https://forum.freecadweb.org/viewtopic.php?f=10&t=49120)
 
--   [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009), explanation of `__getstate__` and `__setstate__` in the forum.
+-   [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009), explanation of `dumps` and `loads` in the forum.
 -   [The Pickle module](https://docs.python.org/3/library/pickle.html#object.__getstate__) in the Python documentation.
 
 

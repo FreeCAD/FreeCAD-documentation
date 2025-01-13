@@ -32,7 +32,7 @@ La commande **Std Transformer** permet d\'appliquer des incréments de rotation 
     -   Appuyer et maintener le bouton gauche de la souris sur une sphère et faites glisser l\'objet pour le faire pivoter autour de cet axe.
 6.  Faites l\'une des choses suivantes :
     -   Appuyer sur le bouton **OK** pour confirmer et terminer la commande.
-    -   Appuyer sur le bouton **Annuler** pour annuler les transformations appliquées et terminer la commande. {{Version/fr|0.22}}
+    -   Appuyer sur le bouton **Annuler** pour annuler les transformations appliquées et terminer la commande. {{Version/fr|1.0}}
 
 
 
@@ -40,13 +40,13 @@ La commande **Std Transformer** permet d\'appliquer des incréments de rotation 
 
 -   Dès que vous tournez/déplacez l\'objet dans la [vue 3D](3D_view/fr.md), les changements sont appliqués.
 -   Certains objets ayant une propriété **Placement**, comme les esquisses, ne peuvent pas être manipulés, de même que les objets attachés à d\'autres objets.
--   Il n\'y a pas de bouton **Annuler** dans {{VersionMinus/fr|0.21}}. Dans ces versions vous pouvez appuyer sur le bouton **OK** et utiliser le <img alt="" src=images/Std_Undo.svg  style="width:20px;"> [Annuler](Std_Undo/fr.md) pour annuler les modifications après coup.
+-   Il n\'y a pas de bouton **Annuler** dans {{VersionMinus/fr|0.21}}. Dans ces versions vous pouvez appuyer sur le bouton **OK** et utiliser le <img alt="" src=images/Std_Undo.svg  style="width:16px;"> [Annuler](Std_Undo/fr.md) pour annuler les modifications après coup.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

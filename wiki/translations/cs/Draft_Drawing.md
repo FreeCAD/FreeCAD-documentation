@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Tento nástroj umožňuje umístit vybrané objekty na svg [Výkresy](Drawing_Workbench/cs.md). Jestliže v dokumentu není žádná [šablona](Drawing_templates/cs.md), bude použita defaultní.
+Tento nástroj umožňuje umístit vybrané objekty na svg [Výkresy](Drawing_Workbench/cs.md). Jestliže v dokumentu není žádná šablona, bude použita defaultní.
 
 
 </div>

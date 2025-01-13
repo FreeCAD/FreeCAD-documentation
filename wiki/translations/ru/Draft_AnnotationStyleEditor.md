@@ -24,8 +24,9 @@ The <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:24px;">
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> [Annotation styles...](Draft_AnnotationStyleEditor.md)** button.
-    -   Select the **Annotation → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Annotation styles...** option from the menu.
+    -   [Draft](Draft_Workbench.md): Press the **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> [Annotation styles...](Draft_AnnotationStyleEditor.md)** button.
+    -   Draft: Select the **Annotation → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Annotation styles...** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Manage → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Annotation styles...** option from the menu.
 2.  The **Annotation Styles Editor** dialog box opens.
 3.  Select a style from the **Style name** dropdown list, or choose {{Value|Add new...}} to define a new style.
 4.  Optionally adjust the properties of the style.
@@ -34,6 +35,13 @@ The <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:24px;">
 7.  Optionally press the **[<img src=images/Std_Import.svg style="width:16px">** button to import all styles from a **.json** file. This will overwrite existing styles with the same name.
 8.  Optionally press the **[<img src=images/Std_Export.svg style="width:16px">** button to export all styles to a **.json** file.
 9.  Press the **OK** button to close the dialog box and finish the command.
+
+## Apply
+
+To apply an annotation style change the **Annotation Style** property of annotation objects. This property can be found on the **View** tab of the [Property editor](Property_editor.md).
+
+![](images/Draft_AnnotationStyleEditor_Apply.png ) 
+*Selecting an annotation style*
 
 ## Scripting
 

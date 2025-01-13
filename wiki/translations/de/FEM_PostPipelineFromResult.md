@@ -20,55 +20,64 @@ ResultPipeline ist ein Ergebnisobjekt, das eine neue grafische Darstellung von F
 
 ## Anwendung
 
-1.  Select a result object.
-2.  Click the **<img src="images/FEM_PostPipelineFromResult.svg" width=16px> '''Post pipeline from result'''** button, or select the **Results → <img src="images/FEM_PostPipelineFromResult.svg" width=16px> Post pipeline from result** option from the menu.
-3.  A new object called \"Pipeline\" is added to your analysis.
-4.  Double-click the new Pipeline object in the [Tree view](Tree_view.md) and select a display mode and the result field. For example for the mode {{Value|Surface}} and the field {{Value|Von Mises stress}} the pipeline will look like this:
+1.  Wähle ein Ergebnisobjekt.
+2.  Klicke auf die Schaltfläche **<img src="images/FEM_PostPipelineFromResult.svg" width=16px> '''Nachbearbeitungspipeline aus Ergebnis'''** oder wähle die Option **Ergebnisse → <img src="images/FEM_PostPipelineFromResult.svg" width=16px> Nachbearbeitungspipeline aus Ergebnis** aus dem Menü.
+3.  Ein neues Objekt namens \"Pipeline\" wird zur Analyse hinzugefügt.
+4.  Doppelklicke auf das neue Pipeline-Objekt in der [Baumansicht](Tree_view.md) und wähle einen Anzeigemodus und das Ergebnisfeld aus. Für den Modus {{Value|Oberfläche}} und das Feld {{Value|Von Mises Spannung}} sieht die Pipeline zum Beispiel so aus:
 
 <img alt="" src=images/Pipeline.PNG  style="width:500px;">
 
-If you see no model in the graphical area, go to and enable **Edit → Preferences → Display → 3D View → Rendering → Backlight color**.
+Wenn kein Modell im grafischen Bereich zusehen ist, aktiviere die Hintergrundbeleuchtung **FreeCad → Einstellungen → Anzeige → 3D-Ansicht → Rendern → Farbe der Hintergrundbeleuchtung**.
 
-If you use a [SI](https://en.wikipedia.org/wiki/International_System_of_Units)-derived FreeCAD [unit system](Preferences_Editor#Units.md), the values in the output scale are based on SI units as well. This means the displacement is in meter, the stress is in Pascal and the temperature is in Kelvin.
+Wenn ein vom [SI](https://en.wikipedia.org/wiki/International_System_of_Units) abgeleitetes FreeCAD [Einheiten System](Preferences_Editor#Units.md) verwendet wird, basieren auch die Werte der Ausgabeskala auf SI-Einheiten. Das bedeutet, dass die Verschiebung in Meter, die Spannung in Pascal und die Temperatur in Kelvin angegeben wird.
 
 
 
 ## Eigenschaften
 
-### Dialog box 
 
-This pipeline dialog box has the following settings:
 
--   **Mode**: How to draw the results. The possible modes are
-    -   **Outline**: The outline of the result mesh. In fact, it displays no results but only the borders of the mesh.
-    -   **Nodes**: The result mesh nodes.
-    -   **Surface**: This is the default and displays the surface of the result mesh.
-    -   **Surface with Edges**: Like **Surface** but with the mesh outline edges and the surface mesh node connection lines.
--   **Field**: Which result property to draw.
--   **Vector**: Is only active if the **Field** is a vector. You can select whether to display the vector *Magnitude* or its X, Y, Z components.
+### Dialog Fenster 
 
-### Scale
+Dieses Pipeline-Dialogfenster hat die folgenden Einstellungen:
 
-If you double-click on the scale, you get this settings dialog box:
+-   **Modus**: Darstellungsmöglichkeiten für das Ergebnisnetz
+    -   **Outline**: Ein Quader dessen Flächen auf den äußersten Punkten vom Netz liegt.
+    -   **Nodes**: Die Knoten vom Netz.
+    -   **Surface**: Dies ist die Standardeinstellung und zeigt die Oberfläche.
+    -   **Surface with Edges**: Wie **Sureface**, aber mit den Maschenumrisskanten und den Verbindungslinien der Oberflächenknoten.
+    -   **Wireframe**: Drahtgitter
+    -   **Wireframe (Nur Oberfläche)**: Das Drahtgitter nur von der Oberfläche.
+    -   **Nodes (Nur Oberfläche)**: Die Knoten vom Netz nur von der Oberfläche.
+-   **Feld**: Hier ist der darzustellende Wert zu wählen.
+-   **Vektor**: Ist nur aktiv, wenn das **Feld** ein Vektor ist. Wählbar ist der Vektor *Magnitude* oder einer seiner X-, Y- und Z-Komponenten.
+
+
+
+### Farbscala
+
+Duch Doppelklick auf die Skala öffnet dieses Einstellungsfenster:
 
 ![](images/SIMTUT_05.PNG )
 
-and you can modify these properties:
+Diese Eigenschaften können geändert werden:
 
--   **Gradient**: You can select reversed order of the default color gradient, *Red-White-Blue*, *Black-White* or *White-Black*.
--   **Style**: The default option *Flow* uses the full color gradient range. The option *Zero* uses only the color gradient range starting form the color that would display the mean value to the maximum.
--   **Visibility**: The option *Out grayed* will color all mesh nodes whose values are outside the set minimum/maximum range in gray. The option *Out transparent* will make these mesh nodes transparent.
--   **Parameter range**: Minimum and maximum values are filled-in automatically. You can modify them, however make sure you know what you are doing. You can also change the number of displayed decimal places and the number of labels distributed over the parameter range.
+-   **Farbmodell**: Es kann die umgekehrte Reihenfolge des Standardfarbverlaufs oder *Rot-Weiß-Blau*, *Schwarz-Weiß* und *Weiß-Schwarz* gewählt werden.
+-   **Stil**: Die Standardoption *Fließend* verwendet den gesamten Farbverlauf. Die Option *Null-basiert* verwendet nur den Farbvbereich, beginnend mit der Farbe, die den Mittelwert bis zum Maximum anzeigt.
+-   **Sichtbarkeit**: Die Option *Ausgegraut* färbt alle Netzknoten, deren Werte außerhalb des eingestellten Minimal-/Maximalbereichs liegen, grau. Die Option *Transparent* macht diese Maschenknoten transparent.
+-   **Parameterbereich**: Mindest- und Höchstwerte werden automatisch ausgefüllt, diese Werte können geändert werden. Es können auch die Anzahl der angezeigten Dezimalstellen und die Anzahl der über den Parameterbereich verteilten Beschriftungen eingestellt werden.
 
-### Property Editor 
 
-In the [property editor](Property_editor.md) you can set in the *View* tab the settings from the dialog box. In the *Data* tab you can additionally set this:
 
--    **Mode**: How the filters used in the pipeline will be treated. These modes are possible:
+### Eigenschaftseditor
 
-    -   **Serial**: In this mode every filter takes the previous filter as input. The order is hereby the order of creation. The first created filter takes the pipeline as input. Its **Input** property is therefore empty.
-    -   **Parallel**: In this mode all filters take the pipeline as input.
-    -   **Custom**: <small>(v0.20)</small>  This is the default and keeps the input of the filters as they are. Therefore it allows to have e.g. two filters that take the pipeline as input, and a third filter that takes one of the two filters as input.
+Im [Eigenschaftseditor](Property_editor/de.md) können auf der Registerkarte *Ansicht* und *Daten* ebenfalls die Einstellungen aus dem Dialogfeld, und weitere, vorgenommen werden.
+
+-    **Mode**: Wie die in der Pipeline verwendeten Filter behandelt werden sollen. Diese Modi sind möglich:
+
+    -   **Serial**: In diesem Modus nimmt jeder Filter den vorherigen Filter als Eingabe. Die Reihenfolge ist dabei die Reihenfolge der Erstellung. Der erste erstellte Filter nimmt die Pipeline als Eingabe. Seine **Input** Eigenschaft ist daher leer.
+    -   **Parallel**: In diesem Modus nehmen alle Filter die Rohrleitung als Eingabe.
+    -   **Costum**: <small>(v0.20)</small>  Dies ist die Voreinstellung und lässt die Eingabe der Filter so, wie sie sind. Daher ist es möglich, z.B. zwei Filter zu haben, die die Pipeline als Input nehmen, und einen dritten Filter, der einen der beiden Filter als Input nimmt.
 
 
 

@@ -10,10 +10,19 @@
 # FEM ElementFluid1D/ru
 
 
+</div>
+
+
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Создает секцию для анализа жидкостей методом конечных элементов в пневматических и гидравлических сетях.
+
+
+</div>
 
 
 
@@ -43,8 +52,14 @@
 
 ## Примечания
 
+
+<div class="mw-translate-fuzzy">
+
 1.  С примером построения гидравлической системы трубопроводов можно ознакомится по ссылке: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node13.html>
 2.  Модель расчета **fluid elements for 1D flow** использует \*FLUID SECTION параметры карточки материала. Подробную информацию о данном разделе параметров можно найти здесь:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

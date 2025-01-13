@@ -1,63 +1,67 @@
-# <img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Workbench/es
+# <img alt="Icono de entorno de trabajo Plot" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Workbench/es
 
 
 
 
-## Introduction
 
-FreeCAD is able to perform plots using the [matplotlib](https://matplotlib.org/) [Python](Python.md) library. A module is provided to this end, as an external add-on in version 0.19 and as a core component from version 0.20 on. Older versions of FreeCAD are not covered in this documentation.
 
-The produced plots offer the standard [matplotlib](https://matplotlib.org/) tools to edit and save. On top of that, a <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) is provided as an external add-on offering more complete tools to edit the plot and save it. The add-on can be installed with the [Add-on manager](Std_AddonMgr.md).
+## Introducción
 
-## Module
+FreeCAD puede realizar gráficas utilizando la biblioteca [matplotlib](https://matplotlib.org/) de [Python](Python.md). Se proporciona un módulo para este fin, como complemento externo en la versión 0.19 y como componente central a partir de la versión 0.20. Las versiones anteriores de FreeCAD no están cubiertas en esta documentación.
 
-The module can be invoked in a Python console or in a [macro](Macros.md). The first thing you must do is importing the module. In FreeCAD 0.19 you must first install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), and then you can import Plot by typing:
+Los gráficos producidos ofrecen las herramientas estándar de [matplotlib](https://matplotlib.org/) para editar y guardar. Además de eso, se proporciona un entorno de trabajo <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot](Plot_Workbench/es.md) como complemento externo que ofrece herramientas más completas para editar el trazado y guardarlo. El complemento se puede instalar con el [Administrador de complementos](Std_AddonMgr.md).
+
+
+
+## Módulo
+
+El módulo se puede invocar en una consola de Python o en una [macro](Macros.md). Lo primero que debes hacer es importar el módulo. En FreeCAD 0.19, primero debe instalar el entorno de trabajo <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot](Plot_Workbench/es.md) usando el [Administrador de complementos](Std_AddonMgr/es.md), y luego puede importar Plot escribiendo:
 
 
 ```python
 from freecad.plot import Plot
 ```
 
-Since FreeCAD 0.20 the plot module is already packaged with the program, so you don\'t need to install any add-on, but just type:
+Desde FreeCAD 0.20, el módulo de trazado ya está incluido con el programa, por lo que no necesita instalar ningún complemento, simplemente escriba:
 
 
 ```python
 from FreeCAD.Plot import Plot
 ```
 
-After that, you can plot a straight line from (0,0) to (1,2) just simply typing:
+Después de eso, puedes trazar una línea recta desde (0,0) hasta (1,2) simplemente escribiendo:
 
 
 ```python
 Plot.plot([0, 1], [0, 2])
 ```
 
-You can find more complex examples in the [Plot Basic tutorial](Plot_Basic_tutorial.md) and the [Plot MultiAxes tutorial](Plot_MultiAxes_tutorial.md).
+Puedes encontrar ejemplos más complejos en el [tutorial básico de Plot](Plot_Basic_tutorial/es.md) y el [tutorial multi-ejes de Plot](Plot_MultiAxes_tutorial/es.md).
 
-## Herramientas
 
-If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [Plot Workbench](Plot_Workbench.md) using the [Add-on manager](Std_AddonMgr.md), you will have the following tools available to manage the plots created with the module:
 
--   <img alt="" src=images/Plot_Save.png  style="width:32px;"> [Guardar gráfico](Plot_Save/es.md): Guarda el gráfico en varios formatos, seleccionando el tamaño y resolución.
--   <img alt="" src=images/Plot_Axes.png  style="width:32px;"> [Ejes](Plot_Axes/es.md): Añade, elimina o edita los ejes.
--   <img alt="" src=images/Plot_Series.png  style="width:32px;"> [Series](Plot_Series/es.md): Edita el estilo de las series y establece su título.
--   <img alt="" src=images/Plot_Grid.png  style="width:32px;"> [Malla](Plot_Grid/es.md): Muestra/oculat la malla.
--   <img alt="" src=images/Plot_Legend.png  style="width:32px;"> [Legenda](Plot_Legend/es.md): Muestra/oculta la leyenda.
--   <img alt="" src=images/Plot_Labels.png  style="width:32px;"> [Títulos](Plot_Labels/es.md): Edita los títulos.
--   <img alt="" src=images/Plot_Positions.png  style="width:32px;"> [Posiciones](Plot_Positions/es.md): Posiciona los diferentes elementos, como títulos o legenda.
+## Herramientas de entorno de trabajo 
 
-## Scripting
+Si decide instalar el <img alt="" src=images/Workbench_Plot.svg  style="width:24px;"> [entorno de trabajo Plot](Plot_Workbench/es.md) usando el [Administrador de complementos](Std_AddonMgr/es.md), tendrá las siguientes herramientas disponibles para administrar las gráficas creadas con el módulo:
 
-## Scripting 
+-   <img alt="" src=images/Plot_Save.svg  style="width:32px;"> [Guardar gráfico](Plot_Save/es.md): Guarda el gráfico en varios formatos, seleccionando el tamaño y resolución.
+-   <img alt="" src=images/Plot_Axes.svg  style="width:32px;"> [Ejes](Plot_Axes/es.md): Agrega, elimina o edita los ejes.
+-   <img alt="" src=images/Plot_Series.svg  style="width:32px;"> [Series](Plot_Series/es.md): Edita el estilo de las series y establece su título.
+-   <img alt="" src=images/Plot_Grid.svg  style="width:32px;"> [Malla](Plot_Grid/es.md): Muestra/oculta la malla.
+-   <img alt="" src=images/Plot_Legend.svg  style="width:32px;"> [Leyenda](Plot_Legend/es.md): Muestra/oculta la leyenda.
+-   <img alt="" src=images/Plot_Labels.svg  style="width:32px;"> [Títulos](Plot_Labels/es.md): Edita los títulos.
+-   <img alt="" src=images/Plot_Positions.svg  style="width:32px;"> [Posiciones](Plot_Positions/es.md): Posiciona los diferentes elementos, como títulos o leyenda.
 
-Siendo el módulo de graficado una adaptación de `matplotlib`, usted puede hacer uso libremente de todas las posibilidades del mismo. Acuda a la sección [Scripting and macros](Scripting_and_macros.md) para saber más.
+
+
+## Programación
+
+Siendo el módulo de graficado una capa encima de `matplotlib`, usted puede hacer uso libremente de todas las posibilidades de esta biblioteca. Acuda a la sección [Programación y macros](Scripting_and_macros/es.md) para saber más.
 
 ## Tutorial
 
-## Tutorial 
-
--   [Plot Basic tutorial/es](Plot_Basic_tutorial/es.md)
--   [Plot MultiAxes tutorial/es](Plot_MultiAxes_tutorial/es.md)
+-   [Tutorial básico de Plot](Plot_Basic_tutorial/es.md)
+-   [Tutorial de multi-ejes de Plot](Plot_MultiAxes_tutorial/es.md)
 
 
 {{Plot_Tools_navi

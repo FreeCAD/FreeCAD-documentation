@@ -101,9 +101,6 @@ To reference any items in the [Workbench Sketcher](Sketcher_Workbench.md) use th
 </div>
 
 
-
-
-
 {{PartDesign Tools navi
 
 }}

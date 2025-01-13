@@ -175,7 +175,7 @@ A <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Detail V
 
 ### Arch View 
 
-An <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Arch View](TechDraw_ArchView.md) displays a view of an <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Arch SectionPlane](Arch_SectionPlane.md). Its content is rendered by the <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Arch workbench](Arch_Workbench.md).
+An <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Arch View](TechDraw_ArchView.md) displays a view of an <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Arch SectionPlane](Arch_SectionPlane.md). Its content is rendered by the <img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [BIM workbench](BIM_Workbench.md).
 
 ### Draft View 
 
@@ -487,7 +487,7 @@ The <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:16px;"> [WeldSy
 
 ### Surface finish symbols 
 
-<img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:16px;"> [Add Surface Finish Symbol](TechDraw_SurfaceFinishSymbol.md) adds a surface finish symbol to the page, which means these symbols do not move with their referenced geometry.
+<img alt="" src=images/TechDraw_SurfaceFinishSymbols.svg  style="width:16px;"> [Add Surface Finish Symbol](TechDraw_SurfaceFinishSymbols.md) adds a surface finish symbol to the page, which means these symbols do not move with their referenced geometry.
 
  <img alt="" src=images/TechDraw_ExampleDrawing-25.png  style="width:300px;"> 
 

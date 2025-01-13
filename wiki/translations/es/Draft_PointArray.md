@@ -36,9 +36,7 @@ creados con el [Ambiente de Trabajo Borrador](Draft_Workbench/es.md) o [Amb
 
 </div>
 
-The point object can be any object with a shape and vertices (including a [Std Part](Std_Part.md) containing one or more of such objects), as well as a [mesh](Mesh_Workbench.md) and a [point cloud](Points_Workbench.md). Duplicate points in the point object are filtered out. <small>(v0.21)</small> 
-
-In {{VersionMinus|0.20}} only three point object types are supported see [Point object version 0.20 and below](#Point_object_version_0.20_and_below.md).
+The point object can be any object with a shape and vertices (including a [Std Part](Std_Part.md) containing one or more of such objects), as well as a [mesh](Mesh_Workbench.md) and a [point cloud](Points_Workbench.md). Duplicate points in the point object are filtered out.
 
 <img alt="" src=images/Draft_PointArray_Example.png  style="width:400px;"> 
 *Borrador ArregloPunto*
@@ -57,20 +55,6 @@ In {{VersionMinus|0.20}} only three point object types are supported see [Point 
     -   Seleccione la opción **Modificación → Herramientas de arreglo →<img src="images/Draft_PointArray.svg" width=16px> Arreglo de puntos** en el menú.
 4.  Se crea el arreglo.
 5.  Opcionalmente cambia las [propiedades](#Propiedades.md) del arreglo en el [Editor de propiedades](property_editor/es.md).
-
-
-</div>
-
-## Point object version 0.20 and below 
-
-
-<div class="mw-translate-fuzzy">
-
-Un compuesto de puntos es un objeto que contiene uno o más puntos. Estos son los compuestos de puntos soportados y cómo se pueden crear:
-
--   [Compuesta Pieza](Part_Compound.md): Cree uno o más [Borrador Puntos](Draft_Point/es.md) o [Pieza Puntos](Part_Point/es.md), selecciónelos e invoque el comando [Compuesta Pieza](Part_Compound/es.md).
--   Bloque de borrador: Crea uno o más [Borrador Puntos](Draft_Point/es.md) o [Pieza Puntos](Part_Point/es.md), selecciónalos e invoca el comando [Borrador Actualización](Draft_Upgrade/es.md).
--   [Croquizador Croquis](Sketcher_NewSketch/es.md): Crea un [Croquis](Sketcher_NewSketch/es.md) y añade uno o más [Croquizador Puntos](Sketcher_CreatePoint/es.md) al croquis.
 
 
 </div>
@@ -133,7 +117,9 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 -    **Extra Placement|Placement**: : specifies an additional [placement](Placement.md), translation and rotation, for each element in the array.
 
--    **Point Object|Link**: specifies the compound object whose points are used to position the elements in the array. The object must have a **Links**, **Components** or **Geometry** property, and contain at least one element with **X**, **Y**, and **Z** properties.
+-    **Fuse|Bool**: specifies if overlapping elements in the array are fused or not. Not used for Link arrays. <small>(v1.0)</small> 
+
+-    **Point Object|Link**: specifies the object whose points are used to position the elements in the array.
 
 
 

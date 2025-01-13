@@ -1,12 +1,4 @@
 # Scripting and macros/es
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
 ## Vista general de las páginas de scripts de Python 
 
 -   Páginas relacionadas con la pitón en el Manual:
@@ -88,15 +80,6 @@
     -   [Python development environment](Python_Development_Environment.md)
     -   [Quantity](Quantity.md)
     -   [Svg namespace](Svg_Namespace.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -3,7 +3,7 @@
    Name: TechDraw DetailView
    MenuLocation: TechDraw , TechDraw Views , Insert Detail View
    Workbenches: TechDraw_Workbench
-   SeeAlso: TechDraw_View, TechDraw_ProjectionGroup
+   SeeAlso: TechDraw_View
 ---
 
 # TechDraw DetailView/en
@@ -41,11 +41,22 @@ The **TechDraw DetailView** tool creates a view of a small area of an existing v
 -   The outlines of detail views can be round or square. This is controlled by the **Detail View Outline Shape** [preference](TechDraw_Preferences#Annotation.md).
 -   [Forum topic with a good discussion about setting the anchor.](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
-## Properties Detail View 
+## Properties
 
-See also [TechDraw View](TechDraw_View#Properties.md).
+See also: [Property editor](Property_editor.md).
+
+In the properties of the **Base View** you can change the appearance of the detail outline.
+
+A Detail View, formally a {{Incode|TechDraw::DrawViewDetail}} object, is derived from a [Part View](TechDraw_View#Properties_Part_View.md), formally a {{Incode|TechDraw::DrawViewPart}} object, and inherits all its properties. It also has the following additional properties:
 
 ### Data
+
+
+{{TitleProperty|Appearance}}
+
+-    **Show Matting|Bool**: Show or hide the matting around the detail view. <small>(v1.0)</small> 
+
+-    **Show Highlight|Bool**: Show or hide the detail highlight in the source view. <small>(v1.0)</small> 
 
 
 {{TitleProperty|Detail}}
@@ -58,26 +69,11 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 -    **Reference|String**: An identifier for the detail view in the **Base View**.
 
-## Properties Base View 
-
-A detail view inherits all applicable properties of its **Base View**. In the properties of that view you can change the appearance of the detail outline:
-
-### View
-
-
-{{TitleProperty|Hightlight}}
-
--    **Highlight Adjust|Float**: See [TechDraw View](TechDraw_View#View.md)
-
--    **Highlight Line Color|Color**: Idem.
-
--    **Highlight Line Style|Enumeration**: Idem.
 
 
 
 
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

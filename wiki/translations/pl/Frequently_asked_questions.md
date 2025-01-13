@@ -25,12 +25,6 @@ Podstawą FreeCAD jest jądro modelowania geometrycznego, [OpenCASCADE Technolog
 
 
 
-#### Dla użytkowników komputerów Mac 
-
-Obsługiwana jest tylko architektura MacIntela. Nie ma dostępnych kompilacji dla architektury PowerPC.
-
-
-
 ### Co jeśli sam chcę skompilować FreeCAD? 
 
 Kod źródłowy FreeCAD jest zawsze dostępny w repozytorium kodu źródłowego projektu. Samodzielna kompilacja FreeCAD pozwala na korzystanie z najnowszych funkcji, które są opracowywane, ale wymaga odrobiny wiedzy komputerowej, chociaż procedura jest dość prosta. Dostęp do kodu źródłowego jest opisany na stronie [pobieranie kodu źródłowego](Compile_on_Linux/pl#Pobieranie_kodu_.C5.BAr.C3.B3d.C5.82owego.md), a my mamy szczegółowe instrukcje kompilacji dla środowisk [Linux](CompileOnUnix/pl.md), [Mac OSX](compileOnMac/pl.md) i [Windows](CompileOnWindows/pl.md).
@@ -137,12 +131,6 @@ Błąd segmentacji występuje przy {{SystemOutput|vbo_save_playback_vertex_list(
 
 
 
-### Mam problem z uruchomieniem FreeCAD na Mac OSX 
-
-Platforma Mac jest trudniejsza w obsłudze niż Windows czy Linux, ponieważ żaden z głównych programistów nie używa takiej platformy. Pakiety OSX są kompilowane przez ochotników używających FreeCAD, a czasami mogą nie działać poprawnie na twoim komputerze, w zależności od systemu. Prawdopodobnie najlepszą szansą jest udanie się na forum, szukanie wątków związanych z systemem Mac OSX i omówienie tam swojego problemu lub sprawdzenie, czy ktoś inny napotkał rozwiązanie.
-
-
-
 ### Nie mogę zmienić wartości liczbowych w panelach właściwości FreeCAD 
 
 <img alt="Wybór języka." src=images/Jj62l.png  style="width:480px;">
@@ -171,7 +159,7 @@ Istnieje [Makro findConfigFiles](Macro_findConfigFiles/pl.md), które pomoże Ci
 
 ### Czy FreeCAD jest naprawdę bezpłatny? Nawet do użytku komercyjnego? 
 
-FreeCAD jest [oprogramowaniem Open-Source](http://en.wikipedia.org/wiki/Open-source_software) i może być używany nie tylko dla siebie lub do wykonywania prac komercyjnych, ale także do dystrybucji, modyfikacji, a nawet wykorzystania w aplikacji z zamkniętym kodem źródłowym. Podsumowując, możesz robić *(prawie)* wszystko, co tylko zechcesz. Więcej informacji można znaleźć na stronie [Licencja](Licence/pl.md).
+FreeCAD jest [oprogramowaniem Open-Source](http://en.wikipedia.org/wiki/Open-source_software) i może być używany nie tylko dla siebie lub do wykonywania prac komercyjnych, ale także do dystrybucji, modyfikacji, a nawet wykorzystania w aplikacji z zamkniętym kodem źródłowym. Podsumowując, możesz robić *(prawie)* wszystko, co tylko zechcesz. Więcej informacji można znaleźć na stronie [Licencja](License/pl.md).
 
 
 
@@ -245,7 +233,12 @@ Powyższy kod pobiera kształt z obiektu, pokazuje ściany i polilinie obiektu *
 
 ### Moje operacje logiczne zawodzą, lub dają dziwne wyniki 
 
-Jądro modelowania geometrycznego [Open CASCADE](https://en.wikipedia.org/wiki/Open_CASCADE_Technology) używane w FreeCAD do geometrii części, choć prawdopodobnie najlepsze dostępne jądro geometrii typu open source, ma swoje wady i ograniczenia. Rzeczywiście, operacje logiczne *(łączenie, odejmowanie, przecinanie)* nie są jego najlepszymi cechami i często dają dziwne wyniki. Jest to obecnie ograniczenie, którego nie jesteśmy w stanie rozwiązać od razu, więc najlepszą drogą jest próba uzyskania pożądanego rezultatu poprzez modelowanie w inny sposób. Na przykład, problemy z prymitywami takimi jak cylinder mogą być często rozwiązane poprzez użycie zamiast niego wyciągniętego okręgu. Powierzchnie współpłaszczyznowe między częściami mogą powodować problemy, podobnie jak styczność powierzchni. Zasadniczo, jeśli kształt nie działa, spróbuj przebudować go w inny sposób. W 99% przypadków na końcu uda ci się uzyskać pożądany rezultat.
+Jak każde jądro modelowania bryłowego, jądro modelowania geometrycznego [Open CASCADE](https://en.wikipedia.org/wiki/Open_CASCADE_Technology) używane w FreeCAD do geometrii części, choć prawdopodobnie najlepsze dostępne jądro geometrii typu open source, ma swoje wady i ograniczenia. Operacje logiczne *(łączenie, odejmowanie, przecinanie)* są skomplikowane i często dają dziwne wyniki. Jest to obecnie ograniczenie, którego nie jesteśmy w stanie rozwiązać od razu, więc najlepszą drogą jest próba uzyskania pożądanego rezultatu poprzez modelowanie w inny sposób. Na przykład, problemy z prymitywami takimi jak cylinder mogą być często rozwiązane poprzez użycie zamiast niego wyciągniętego okręgu. Powierzchnie współpłaszczyznowe między częściami mogą powodować problemy, podobnie jak styczność powierzchni. Zasadniczo, jeśli kształt nie działa, spróbuj przebudować go w inny sposób. W 99% przypadków na końcu uda ci się uzyskać pożądany rezultat.
+
+Aby lepiej zrozumieć operacje logiczne, zobacz te artykuły:
+
+-   <https://wiki.mcneel.com/rhino/booleanfaq>
+-   <https://dev.opencascade.org/doc/overview/html/specification__boolean_operations.html#autotoc_md293>
 
 
 
@@ -336,7 +329,7 @@ Jasne. Wszystkie prace graficzne *(ikony, banery, itp.)* FreeCAD są licencjonow
 
 ### Czy mogę ponownie wykorzystać moduły FreeCAD w innej aplikacji? 
 
-Tak, możesz używać podstawowych części FreeCAD w innych aplikacjach, o ile przestrzegasz warunków licencji LGPL. Biblioteki stron trzecich, [zewnętrzne środowiska pracy](External_workbenches/pl.md) i [makrodefinicje](Macros/pl.md) mogą podlegać ich własnym warunkom licencyjnym, więc należy skonsultować się z ich autorami. Więcej szczegółów można znaleźć na stronie [Licencja](Licence/pl.md).
+Tak, możesz używać podstawowych części FreeCAD w innych aplikacjach, o ile przestrzegasz warunków licencji LGPL. Biblioteki stron trzecich, [zewnętrzne środowiska pracy](External_workbenches/pl.md) i [makrodefinicje](Macros/pl.md) mogą podlegać ich własnym warunkom licencyjnym, więc należy skonsultować się z ich autorami. Więcej szczegółów można znaleźć na stronie [Licencja](License/pl.md).
 
 
 

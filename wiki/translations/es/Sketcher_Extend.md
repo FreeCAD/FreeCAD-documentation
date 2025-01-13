@@ -39,6 +39,8 @@ La herramienta **extender borde** extiende una borde a una ubicación arbitraria
 
 ## Utilización
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
 
 <div class="mw-translate-fuzzy">
 
@@ -54,8 +56,7 @@ La herramienta **extender borde** extiende una borde a una ubicación arbitraria
 
 ## Notes
 
--   Only arcs and lines can be extended at this time.
--   The target edge or point object may be modified as well if it is not fully constrained.
+-   If not fully constrained, the target edge or point may be modified as well.
 
 
 <div class="mw-translate-fuzzy">

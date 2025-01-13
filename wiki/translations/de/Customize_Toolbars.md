@@ -1,17 +1,26 @@
+---
+ TutorialInfo:e
+   Topic: Symbolleisten anpassen
+   Level: Anfänger
+   Time: 5 Minuten
+   Author: User:Mario52
+   FCVersion: Alle
+   SeeAlso: Interface_Customization/de.
+---
+
 # Customize Toolbars/de
-{{TutorialInfo/de
-|Topic=Beispielthema
-|Level=Anfänger
-|Time=5 Minuten
-|Author=[Mario52](User_Mario52.md)
-|FCVersion=Alle
-}}
+
+
+
+
 
 
 
 ## Zusammenfassung
 
-Dieses Tutorium zeigt dir die Anpassung von Werkzeugleisten. Werkzeuge (einschließlich Makrowerkzeuge) können in verschiedenen Arbeitsbereichen verwendet werden. In einem Beispiel wird ein Makro zu einem Makrowerkzeug, indem ein **Menütext**, eine **Werkzeugspitze** und ein **Symbol** erstellt wird. Danach wird dieses Makrowerkzeug Teil einer zusätzlichen Werkzeugleiste in einem Arbeitsbereich.
+Diese Anleitung zeigt, wie eine Schaltfläche für ein [Makro](Macros/de.md) zu einer selbsterstellten Symbolleiste hinzugefügt wird.
+
+Für allgemeinere Informationen siehe [Anpassung der Oberfläche](Interface_Customization/de.md).
 
 
 
@@ -117,13 +126,7 @@ Dieses Tutorium zeigt dir die Anpassung von Werkzeugleisten. Werkzeuge (einschli
 
 -   Deine neue Werkzeugleiste ist jetzt im Rechtsklickmenü der Werkzeugleisten enthalten. Seine Symbole (in unserem Beispiel nur die Kamera) sind sichtbar, wenn die Symbolleiste aktiviert ist (blaues Häkchen).
 
-<img alt="Neue Werkzeugleiste" src=images/CustomizeToolBar_18.png  style="width:640px;"> 
-
-
-
-## Hinweise
-
-Siehe auch [Anpassung der Oberfläche](Interface_Customization/de.md).
+<img alt="Neue Werkzeugleiste" src=images/CustomizeToolBar_18.png  style="width:640px;">
 
 
 

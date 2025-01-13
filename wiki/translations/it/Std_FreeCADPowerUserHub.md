@@ -27,7 +27,7 @@ Attualmente il comando punta a [<https://wiki.freecad.org/Power_users_hub>](http
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

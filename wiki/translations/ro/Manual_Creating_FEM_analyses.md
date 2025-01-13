@@ -1,7 +1,13 @@
 # Manual:Creating FEM analyses/ro
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 MEF înseamnă [Finite Element Method](https://en.wikipedia.org/wiki/Finite_element_method). Este un subiect matematic vast, dar în FreeCAD ne putem gândi la acesta ca la o modalitate de a calcula propagările în interiorul unui obiect 3D, prin tăierea lui în bucăți infinitezimal mici și analizarea impactului fiecărei bucăți mici asupra vecinilor săi. Acest lucru are mai multe utilizări în diverse domenii ale ingineriei în general și al câmpuri electromagnetice ( ca alt exemplu), dar ne vom concentra pe o utilizare deja dezvoltată în FreeCAD, care simulează deformările în obiecte care sunt supuse forțelor și greutăților.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -19,6 +25,22 @@ Obtaining such simulation is done in FreeCAD with the [FEM Workbench](FEM_Workbe
 
 </div>
 
+This workbench allows for the integration of other FreeCAD workbenches, enabling seamless model preparation and analysis. It also provides powerful post-processing tools to visualize and interpret simulation results, such as stress, deformation, and thermal distributions. The workflow follows these steps:
+
+-   **Preparing the Geometry**: The model must be simplified or optimized for FEM analysis. This often includes removing unnecessary details or features that don\'t contribute to the simulation but could make it computationally expensive. You can use tools from other workbenches, like <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench.md) or <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench.md), to prepare your 3D geometry.
+
+-   **Assigning Material Properties** :Material definitions are critical for accurate simulations. Properties such as Young\'s modulus, Poisson's ratio, and density are assigned for structural simulations, or thermal conductivity and specific heat capacity for thermal analysis. Materials can be selected from FreeCAD's material library or customized as needed.
+
+-   **Meshing**: Meshing divides the geometry into finite elements, allowing the solver to analyze the object. Mesh quality is crucial, as finer meshes result in more accurate simulations but require more computational power. Tools are available to refine the mesh locally, focusing on areas where stress or deformation is expected to be higher.
+
+-   **Applying Loads and Constraints**: In this step, physical conditions such as forces, pressures, moments, or thermal loads are applied to the model. Boundary conditions are also defined, such as fixing points, applying symmetry constraints, or restricting movement, depending on the scenario being simulated.
+
+-   **Running the Solver**: Once the setup is complete, the solver calculates the model\'s response to the applied conditions. Solvers like CalculiX compute displacements, stresses, and other quantities, depending on the type of analysis performed. The process can take varying amounts of time depending on the mesh density and model complexity.
+
+-   **Post-Processing**: After the simulation, results are visualized using tools in the FEM Workbench. Stress, strain, and displacement fields are represented as color maps and deformation plots can be generated. These visualizations allow for a thorough analysis of the model\'s performance, highlighting areas of high stress or deformation.
+
+<img alt="" src=images/FreeCAD_FEMBeam.png  style="width:600px;">
+
 
 
 ### Pregătirea FreeCAD 
@@ -33,7 +55,16 @@ The simulation itself is done by another piece of software, that is used by Free
 
 ### Preparing the geometry 
 
+
+<div class="mw-translate-fuzzy">
+
 We will start with the house we modeled in the [BIM modeling](Manual_BIM_modeling.md) chapter. However, some changes have to be made to make the model suitable for FEM calculations. This involves, basically, discarding the objects that we don\'t want to include in the calculation, such as the door and window, and joining all the remaining objects into one.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   Load the [house model](https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.FCStd) we modeled earlier
 -   Delete or hide the page object, the section planes and the dimensions, leaving only our model
@@ -43,25 +74,12 @@ We will start with the house we modeled in the [BIM modeling](Manual_BIM_modelin
 -   Our model is now clean:
 
 
+</div>
+
+
 <div class="mw-translate-fuzzy">
 
 ![](images/Exercise_fem_02.jpg )
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   The FEM Workbench can currently only calculate deformations on a single object. Therefore, we need to join our two objects (the wall and the slab). Switch to the [Part Workbench](Part_Workbench.md), select the two objects, and press the <img alt="" src=images/Part_Union.png  style="width:16px;"> [Union](Part_Union.md). We have now obtained a fused object:
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-![](images/Exercise_fem_03.jpg )
 
 
 </div>
@@ -82,14 +100,6 @@ We will start with the house we modeled in the [BIM modeling](Manual_BIM_modelin
 
 <div class="mw-translate-fuzzy">
 
-![](images/Exercise_fem_04.jpg )
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   After pressing OK and a few seconds of calculation, our FEM mesh is now ready:
 
 
@@ -102,6 +112,8 @@ We will start with the house we modeled in the [BIM modeling](Manual_BIM_modelin
 
 
 </div>
+
+-   Our mesh is ready.
 
 
 <div class="mw-translate-fuzzy">
@@ -119,6 +131,8 @@ We will start with the house we modeled in the [BIM modeling](Manual_BIM_modelin
 
 
 </div>
+
+<img alt="" src=images/FreeCAD_FEM_material.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -171,9 +185,15 @@ We will start with the house we modeled in the [BIM modeling](Manual_BIM_modelin
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   We can now look at the results. Close the task panel, and see that a new **Results** object has been added to our analysis.
 -   Double-click the Results object
 -   Set the type of result that you want to see on the mesh, for example \"absolute displacement\", tick the **show** checkbox under **Displacement**, and move the slider next to it. You will be able to see the deformation growing as you apply more force:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -184,10 +204,6 @@ We will start with the house we modeled in the [BIM modeling](Manual_BIM_modelin
 </div>
 
 The results displayed by the FEM workbench are of course currently not enough to perform real-life decisions about structures dimensioning and materials. However, they can already give precious information about how the forces flow through a structure, and which are the weak areas that will feel the most stress.
-
-**Downloads**
-
--   The file created during this exercise: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/fem.FCStd>
 
 **Read more**
 

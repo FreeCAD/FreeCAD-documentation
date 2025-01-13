@@ -59,23 +59,23 @@ Nachdem **OK** drücken, werden die ausgewählten Objekte in den Speicher kopier
 
 ## Baumansicht
 
-In der [Baumansicht](tree_view/de.md) können Elemente eins nach dem anderen ausgewählt oder abgewählt werden, durch gedrückt halten der **Strg** Taste und mit der Maus klicken.
+In der [Baumansicht](tree_view/de.md) können Elemente eins nach dem anderen ausgewählt oder abgewählt werden, durch gedrückt halten der **Strg** Taste und durch klicken der Maus.
 
-Eine Reihe von Elementen kann durch klicken auf das erste Element ausgewählt werden, durch gedrückt halten der **Shift** und klicken auf das letzte Element.
+Eine Reihe von Elementen kann durch klicken auf das erste Element ausgewählt werden, durch gedrückt halten der **Shift** Taste und klicken auf das letzte Element.
 
-Selecting a single item will also show its properties in the [property editor](property_editor.md).
+Wenn Sie ein einzelnes Element auswählen, werden auch dessen Eigenschaften im [Eigenschaften-Editor](property_editor.md) angezeigt.
 
-Double clicking will open any associated [task panel](task_panel.md) containing actions. Make sure to close this task panel before executing another command or switching to any other workbench.
+Durch einen Doppelklick wird ein [Aufgabenfeld](task_panel.md) mit zugehörigen Aktionen geöffnet. Stellen Sie sicher, dass Sie dieses Aufgabenfeld schließen, bevor Sie einen anderen Befehl ausführen oder zu einer anderen Workbench wechseln.
 
-More methods are available by opening the context menu (right-click), depending on the object selected or the active workbench; see the information in [tree view](tree_view.md).
+Weitere Methoden sind durch Öffnen des Kontextmenüs (Rechtsklick) verfügbar, je nach ausgewähltem Objekt oder aktiver Workbench; siehe die Informationen in der [Baumansicht](tree_view.md).
 
 
 
 ## Skripterstellung
 
-Selecting objects is inherently a graphical task and therefore it is only available when the graphical user interface is loaded.
+Die Auswahl von Objekten ist naturgemäß eine grafische Aufgabe und steht daher nur zur Verfügung, wenn die grafische Benutzeroberfläche geladen ist.
 
-These methods can be used in [macros](Macros.md) or from the [Python console](Python_console.md):
+Diese Methoden können in [Makros](Macros/de.md) oder von der [Python Konsole](Python_console/de.md) aus verwendet werden:
 
 
 ```python
@@ -86,7 +86,7 @@ Gui.Selection.addSelectionGate
 Gui.Selection.Filter
 ```
 
-The `addSelectionGate` method prevents the user from selecting objects not specified in the selection string. A <img alt="" src=images/Button_invalid.svg  style="width:16px;"> symbol appears when the pointer is over an item not in the specified group.
+Die Methode `addSelectionGate` verhindert, dass der Benutzer Objekte auswählt, die nicht im Auswahlstring angegeben sind. Ein <img alt="" src=images/Button_invalid.svg  style="width:16px;"> Symbol erscheint, wenn sich der Mauszeiger über einem Objekt befindet, das nicht in der angegebenen Gruppe ist.
 
 
 ```python
@@ -99,14 +99,14 @@ Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Face")
 Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Vertex")
 ```
 
-To remove `SelectionGate()`:
+Zum Entfernen `SelectionGate()`:
 
 
 ```python
 Gui.Selection.removeSelectionGate()
 ```
 
-See the [Source documentation](Source_documentation.md) and [Std PythonHelp](Std_PythonHelp.md) for more help on using these tools.
+Siehe die [Quellendokumentation](Source_documentation/de.md) und [Std PythonHilfe](Std_PythonHelp/de.md) für weitere Hilfe zur Verwendung dieser Werkzeuge.
 
 
 

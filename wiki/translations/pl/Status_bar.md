@@ -14,6 +14,21 @@ Pasek stanu pokazuje również ostatni wskazany obiekt *(każdy obiekt pod kurso
 ![](images/FreeCAD_Status_bar_selected.png )
 
 
+
+## Szybki pomiar 
+
+
+{{Version/pl|1.0}}
+
+Funkcja Szybki pomiar korzysta z prawej części paska statusu aby wyświetlać pomiary w oparciu o zaznaczenia w widoku 3D:
+
+-   Długość krawędzi
+-   Powierzchnia ścian
+-   Odległość między punktami, krawędziami lub ścianami
+-   Kąt między krawędziami
+-   Promień krawędzi kołowych lub ścian cylindrycznych
+
+
 {{Interface navi
 
 }}

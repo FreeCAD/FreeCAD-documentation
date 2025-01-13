@@ -1,7 +1,7 @@
 # Path FacePocket/en
-1.  REDIRECT [Path_Pocket_Shape/en](Path_Pocket_Shape/en.md)
+1.  REDIRECT [CAM_Pocket_Shape/en](CAM_Pocket_Shape/en.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path FacePocket/en
+⏵ [documentation index](../README.md) > Path FacePocket/en

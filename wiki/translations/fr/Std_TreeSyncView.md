@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Std TreeSyncView
    Name/fr: Std Arborescence Synchroniser la vue
-   MenuLocation: Affichage , Actions dans la vue en arborescence , Synchroniser la vue 
+   MenuLocation: Affichage , Actions dans l'arborescence , Synchroniser la vue 
    Workbenches: Tous
    Shortcut: **T** **1**
    Version: 0.19
@@ -20,20 +20,22 @@ La commande **Std Synchroniser la vue** bascule en mode Synchronisation de vue d
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **Synchroniser la vue** dans le menu déroulant. Remarque : l\'image du bouton changera en fonction de l\'option sélectionnée.
-    -   Sélectionnez l\'option **Affichage → Actions dans la vue en arborescence → <img src="images/Std_TreeSyncView.svg" width=16px> Synchroniser la vue** dans le menu.
+    -   Sélectionnez l\'option **Affichage → Actions dans l'arborescence → Synchroniser la vue** dans le menu.
     -   Utilisez le raccourci clavier : **T** puis **1**.
 
 
 
 ## Préférences
 
-Le mode Synchroniser la vue de l\'arborescence peut également être défini dans le [réglage des préférences](Preferences_Editor/fr#Sélection.md) : **Édition → Préférences → Général → Sélection**.
+Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md).
+
+Le mode Synchroniser la vue de l\'arborescence peut également être défini dans les préférences : **Édition → Préférences → Général → Sélection → Basculer automatiquement vers la vue 3D contenant l'objet sélectionné**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

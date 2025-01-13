@@ -1,15 +1,19 @@
 # Defeaturing/fr
 ## Introduction
 
-La déconstruction de Modèles 3D a été ajouté à Open CASCADE 7.3 [1](https://dev.opencascade.org/index.php?q=node/1211) et peut être utilisé pour éditer des modèles STEP en supprimant des éléments du modèle.
+La suppression de fonctions de modèles 3D a été ajoutée à [Open CASCADE 7.3](https://dev.opencascade.org/index.php?q=node/1211) et peut être utilisée pour modifier des modèles STEP en supprimant des fonctions du modèle.
 
-Il permet également de modéliser directement le modèle lorsque l\'historique des opérations n\'est pas disponible. (C\'est le cas pour les modèles 3D STEP). Defeaturing peut également être utile pour supprimer les informations propriétaires du modèle avant de le partager.
+Il est également possible de l\'utiliser pour la modélisation directe, lorsque l\'historique des opérations n\'est pas disponible. (C\'est le cas pour les modèles 3D STEP). La suppression de fonctions peut également être utile pour supprimer les informations propriétaires du modèle avant de le partager.
 
-Le moyen le plus simple d'utiliser Defeaturing est d'utiliser [l\'atelier Defeaturing](Defeaturing_Workbench/fr.md).
+Le moyen le plus simple de supprimer des fonctions est d'utiliser l\'[atelier Defeaturing](Defeaturing_Workbench/fr.md).
+
+
 
 ## Extrait de code 
 
-Defeaturing peut également être utilisé avec Python : 
+La suppression de fonctions peut également être utilisé avec Python :
+
+
 ```python
 box = Part.makeBox(10,10,10)
 box2 = Part.makeBox(5,5,5,FreeCAD.Vector(5,5,0))
@@ -21,8 +25,10 @@ Part.show(box4) #show defeatured shape
 ```
 
 <img alt="" src=images/box3.PNG  style="width:200px;"> 
-*Forme Box3 utilisée dans le code python, avant d'être déconstruite* <img alt="" src=images/box4.PNG  style="width:200px;"> 
-*Forme Box4 utilisée dans le code python, déconstruite*
+*Forme Box3 utilisée dans le code Python, avant la suppression d'une fonction*
+
+<img alt="" src=images/box4.PNG  style="width:200px;"> 
+*Forme Box4 utilisée dans le code Python, après la suppression de la fonction*
 
 
 

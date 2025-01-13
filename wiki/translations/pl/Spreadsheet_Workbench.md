@@ -38,11 +38,11 @@
 
 -   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Wyrównaj w dół](Spreadsheet_AlignBottom/pl.md): wyrównuje treść wybranych komórek do dołu.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Pogrubienie](Spreadsheet_StyleBold/pl.md): ustawia pogrubienie treści wybranych komórek.
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Pogrubienie](Spreadsheet_StyleBold/pl.md): włącza/wyłącza pogrubienie zawartości wybranych komórek.
 
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Kursywa](Spreadsheet_StyleItalic/pl.md): ustawia treść wybranych komórek na kursywę.
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Kursywa](Spreadsheet_StyleItalic/pl.md): włącza/wyłącza kursywę zawartości wybranych komórek.
 
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Podkreślenia](Spreadsheet_StyleUnderline/pl.md): ustawia treść wybranych komórek jako podkreśloną.
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Podkreślenia](Spreadsheet_StyleUnderline/pl.md): włącza/wyłącza podkreślenie zawartości wybranych komórek.
 
 -   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Ustaw alias](Spreadsheet_SetAlias/pl.md): ustawia alias dla wybranej komórki.
 
@@ -335,63 +335,31 @@ Aby na przykład powiązać zakres komórek A3-C4 z zakresem komórek B1-D2:
 
 {{Version/pl|0.20}}
 
-Za pomocą Arkuszy kalkulacyjnych można tworzyć tabele konfiguracyjne zawierające zestawy wstępnie zdefiniowanych parametrów modelu, a następnie dynamicznie zmieniać konfigurację, która ma być używana. Aby dowiedzieć się więcej na temat działania tej funkcji, zobacz [ten post na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183).
-
-
-<div class="mw-collapsible mw-collapsed toccolours">
-
-Rozwiń tę sekcję, aby zapoznać się z krótkim przewodnikiem po tworzeniu tabeli konfiguracyjnej.
-
-
-<div class="mw-collapsible-content">
-
-1.  W nowym dokumencie najpierw utwórz [Część](Std_Part.md) środowiska pracy Część, następnie utwórz [sześcian](Part_Box/pl.md), [walec](Part_Cylinder/pl.md) i arkusz kalkulacyjny.
-2.  Sześcian i walec są automatycznie umieszczane w kontenerze [Część](Std_Part/pl.md). Umieść w nim także arkusz kalkulacyjny.
-3.  W arkuszu kalkulacyjnym wprowadź zawartość w sposób przedstawiony poniżej. Ustaw aliasy dla komórek B2 jako {{Value|szerokość}}, C2 jako {{Value|długość}} i D2 jako {{Value|promień}}:
-    ![](images/Spreadsheet_configuration_table_screenshot_4.png )
-4.  Powiąż [wyrażeniem](Expressions.md) komórki {{Value|Spreadsheet.szerokość}} i {{Value|Spreadsheet.długość}} do właściwości sześcianu **Szerokość** i **Długość**, odpowiednio:
-    ![](images/Spreadsheet_configuration_table_screenshot_2.png )
-5.  Powiąż wyrażenie {{Value|Spreadsheet.promień}} z właściwością **Promień** walca. Zmień także wartość **Wysokość** walca na {{Value|5 mm}}, tak aby był on niższy niż sześcian.
-6.  Kliknij prawym przyciskiem myszy komórkę A2 w arkuszu kalkulacyjnym i wybierz z menu kontekstowego polecenie **Tabela konfiguracji ...**.
-7.  Zostanie otwarte okno dialogowe **Ustawienia tabeli konfiguracji**.
-8.  Wprowadź następujące dane:
-    ![](images/Spreadsheet_configuration_table_screenshot_5.png )
-9.  Naciśnij przycisk **OK**.
-10. Do kontenera [Część](Std_Part.md) jest dodawana nowa właściwość o nazwie **Konfiguracja**, która umożliwia wybór konfiguracji, jak pokazano poniżej:
-    ![](images/Spreadsheet_configuration_table_screenshot_6.png )
-
-Za pomocą [Łącza](Std_LinkMake/pl.md) lub funkcji [Łącznik kształtów podrzędnych](PartDesign_SubShapeBinder/pl.md) można utworzyć instancję [zmienną](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) obiektu konfigurowalnego, wykonując następujące czynności:
-
-1.  Utwórz [Łącze](Std_LinkMake/pl.md) do kontenera [Część](Std_Part/pl.md) i ustaw jego właściwość **Kopiuj łącze przy zmianie** na wartość {{Value|Włączone}}.
-2.  Przenieś łącze w nowe miejsce, zmieniając jego **Umiejscowienie** tak, aby łatwiej było je odróżnić od oryginalnego obiektu.
-3.  Wybierz inną **Konfigurację** dla łącza, aby utworzyć jego wersję wariantową.
-
-Podobne kroki dotyczą funkcji [Łącznik kształtów podrzędnych](PartDesign_SubShapeBinder/pl.md), z tą różnicą, że jego właściwość do aktywowania instancji wariantu nazywa się **Kopiuj łącze przy zmianie**.
-
-
-</div>
-
-
-</div>
+Za pomocą Arkuszy kalkulacyjnych można tworzyć tabele konfiguracyjne zawierające zestawy wstępnie zdefiniowanych parametrów modelu, a następnie dynamicznie zmieniać konfigurację, która ma być używana. Zobacz poradnik [Tabele konfiguracji](Configuration_Tables/pl.md). Aby dowiedzieć się więcej na temat działania tej funkcji, zobacz [ten post na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183).
 
 
 
-## Podstawy pisania skryptów 
+## Tworzenie skryptów 
 
 
 ```python
 import Spreadsheet
-sheet = App.ActiveDocument.addObject("Spreadsheet::Sheet","MySpreadsheet")
+sheet = App.ActiveDocument.addObject("Spreadsheet::Sheet", "MySpreadsheet")
 sheet.Label = "Dimensions"
 
-sheet.set('A1','10mm')
+sheet.set("A1", "10mm")
 sheet.recompute()
-sheet.get('A1')
+sheet.get("A1")
 
-sheet.setAlias('B1','Diameter')
-sheet.set('Diameter','20mm')
+sheet.setAlias("B1", "Diameter")
+sheet.set("Diameter", "20mm")
 sheet.recompute()
-sheet.get('Diameter')
+sheet.get("Diameter")
+
+# sheet.get() results in an error if the cell is empty.
+# sheet.getContents() can be used to check the cell first.
+if sheet.getContents("C1"):
+    print(sheet.get("C1"))
 ```
 
 

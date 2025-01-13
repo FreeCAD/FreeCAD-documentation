@@ -12,7 +12,7 @@ The Arch Building is a special type of FreeCAD group object particularly suited 
 ## Usage
 
 1.  Optionally, select one or more objects to be included in your new building.
-2.  Press the **<img src="images/Arch_Building.svg" width=16px> [Arch Building](Arch_Building.md)** button, or press the **B** then **U** keys.
+2.  Press the **<img src="images/Arch_Building.svg" width=16px> [Building](Arch_Building.md)** button, or press the **B** then **U** keys.
 
 ## Options
 
@@ -66,6 +66,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/uk
+⏵ [documentation index](../README.md) > Arch Building/uk

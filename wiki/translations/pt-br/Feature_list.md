@@ -77,7 +77,13 @@ Esta é lista recursos uma extensa, porém incompleta, que o FreeCAD disponibili
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   **posibilidade de realizar o carregamento posterior de funções e dados, por meio das estruturas Plugin e Módulo**. O FreeCAD é constituído por uma aplicação-base e por vários módulos, que são carregados quando necessário. A maior parte das ferramentas e tipos de geometria são armazenadas em módulos. Os módulos se comportam como plug-ins, pois podem ser carregados automaticamente sob demanda, e módulos externos ao desenvolvimento base do FreeCAD podem ser adicionados ou removidos.
+
+
+</div>
 
 -   **objetos parametrizáveis e associativos**. Em um documento do FreeCAD, todos os objetos podem ser definidos por parâmetros, que podem ser modificados e recalculados a qualquer momento. As relações entre objetos são vitais para que a modificação de um parâmetro possa ser utilizada para modificar parâmetros de todos os objetos que dele dependem.
 
@@ -101,7 +107,13 @@ Esta é lista recursos uma extensa, porém incompleta, que o FreeCAD disponibili
 
 -   **orientado à transação**. A pilha desfazer/refazer armazena transações realizados nos documentos (e não ações isoladas), permitindo que cada ferramenta defina exatamente o que deve ser desfeito ou refeito.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **estrutura [scripting](Power_users_hub/pt-br.md) integrada**. O FreeCAD possui um interpretador [Python](http://www.python.org/) embutido, com uma API que cobre praticamente qualquer parte da aplicação, da interface, da geometria e da representação desta geometria no visualizador 3D. O interpretador pode executar comandos simples e scripts complexos; módulos inteiros podem ser programados completamente em Python.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

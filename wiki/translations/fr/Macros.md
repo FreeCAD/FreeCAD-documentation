@@ -17,7 +17,7 @@ Voyez la [Documentation pour utilisateurs expérimentés](Power_users_hub/fr.md)
 
 Activez la sortie de la console dans le menu **Edition → Préférences → Python → Macro → Montrer les commandes du script dans la console Python**. Vous verrez que dans FreeCAD, chaque action que vous effectuez, comme appuyer sur un bouton, génère une commande Python. Ces commandes sont ce qui peut être enregistré dans une macro. L\'outil principal pour créer des macros est la barre d\'outils des macros : ![](images/Macros_toolbar.jpg ). Vous y avez 4 boutons : Enregistrer, Arrêter l\'enregistrement, Editer et Lire la macro en cours.
 
-C\'est très simple à utiliser : appuyez sur le bouton d\'enregistrement, il vous sera demandé de donner un nom à votre macro, puis effectuez quelques actions. Lorsque vous avez terminé, cliquez sur le bouton Arrêter l\'enregistrement et vos actions seront enregistrées. Vous pouvez maintenant accéder à la boîte de dialogue de macro avec le bouton d\'édition.
+C\'est très simple à utiliser : appuyez sur le bouton d\'enregistrement, il vous sera demandé de donner un nom à votre macro, puis effectuez quelques actions. Lorsque vous avez terminé, cliquez sur le bouton Arrêter l\'enregistrement et vos actions seront enregistrées. Vous pouvez maintenant accéder à la fenêtre de dialogue de macro avec le bouton d\'édition.
 
 ![](images/Macros.png ) 
 *Interface listant les macros disponibles dans le système*

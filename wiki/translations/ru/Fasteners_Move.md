@@ -7,11 +7,23 @@
 
 # Fasteners Move/ru
 
+
+
 ## Описание
+
+
+<div class="mw-translate-fuzzy">
 
 Команда <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Переместить крепёж** перемещает и устанавливает крепёж в указанную грань круглой формы. Данная команда может быть также применена для отсоединения крепежа. Крепеж который не присоединен к какой-либо грани, можно свободно перемещать. В свою очередь установленный крепёж привязан к объекту к которому он прикреплён и может перемещаться только совместно с этим объектом. Установленный крепеж имеет базовый объект в свойствах **base Object** и положение **Placement** такого крепежа динамический привязано к данному объекту.
 
+
+</div>
+
+
+
 ## Применение
+
+
 
 ### Установка
 
@@ -24,6 +36,8 @@
     -   Или через пункт меню **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener**.
 3.  Крепёжное изделие будет перемещено к выбранному ребру круглой формы и будет установлено рядом с ним.
 
+
+
 ### Отсоединение
 
 1.  Select a single fastener.
@@ -33,14 +47,17 @@
 3.  The fastener is detached.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Fasteners Tools navi
 
-}}
+
+</div>
+
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Move/ru
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners Move/ru

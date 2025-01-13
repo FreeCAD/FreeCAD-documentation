@@ -45,6 +45,8 @@ Per rendere attiva un\'altra documentazione di FreeCAD, è necessario applicare 
 -   Chiudere le **Preferenze** con **OK**.
 -   Ora si dovrebbe avere la nuova documentazione disponibile nell\'assistente Qt, accessibile da FreeCAD.
 
+
+
 ## Una nota su Ubuntu 
 
 Possono sorgere difficoltà quando si tenta di installare i pacchetti di documentazione su Ubuntu (ad esempio, `freecad-doc` o `freecad-daily-doc`). In tal caso, l\'esecuzione dei passaggi seguenti consentirà di disporre della documentazione offline.

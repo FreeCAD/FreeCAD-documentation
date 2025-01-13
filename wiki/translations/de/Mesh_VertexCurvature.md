@@ -12,10 +12,10 @@
 
 ## Beschreibung
 
-The **Mesh VertexCurvature** command creates Mesh Curvature objects for mesh objects. A curvature object displays the curvature of a mesh using different colors for the convex, flat and concave parts.
+Der Befehl **Mesh Knotenkrümmumg** erstellt Mesh-Krümmumgsobjekte (\*\_Curvature objects) für Mesh-Objekte (Netzobjekte). Ein Krümmumgsobjekt stellt die Krümmung eines Netzes dar und setzt unterschiedliche Farben für konvexe, ebene und konkave Bereiche ein.
 
 ![](images/Mesh_VertexCurvature_example.png ) 
-*Example of a Mesh Curvature object*
+*Beispiel eines Mesh-Krümmungsobjekts*
 
 
 

@@ -89,9 +89,9 @@ The **TechDraw PageDefault** tool creates a new Page object using the the templa
 
 {{TitleProperty|Grid}}
 
--    **Show Grid**: Show a grid over this Page. <small>(v0.20)</small> 
+-    **Show Grid**: Show a grid over this Page.
 
--    **Grid Spacing**: Distance between grid lines. <small>(v0.20)</small> 
+-    **Grid Spacing**: Distance between grid lines.
 
 
 

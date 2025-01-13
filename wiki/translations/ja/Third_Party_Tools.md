@@ -22,7 +22,7 @@
 
 #### Qt-Toolkit 
 
-Qtツールキットは、芸術、プラットフォーム非依存のユーザーインターフェイスデザインツールです。それは[LibPack](Third_Party_Libraries.md)のFreeCADの中に含まれていますが、[www.trolltech.com](http://www.trolltech.com)でもダウンロードすることができます。
+Qtツールキットは、芸術、プラットフォーム非依存のユーザーインターフェイスデザインツールです。それは[LibPackのFreeCADの](Third_Party_Libraries.md)中に含まれていますが、[www.trolltech.com](http://www.trolltech.com)でもダウンロードすることができます。
 
 
 </div>

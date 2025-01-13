@@ -24,7 +24,7 @@ crée une surface paramétrique à partir de deux, trois ou quatre arêtes de li
 
 
 
-*A gauche: arêtes utilisées pour générer une surface avec l'outil [Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md), 4 arêtes connectées, 3 arêtes connectées et 2 arêtes déconnectées. A droite: surface résultante de l'utilisation des 4, 3 et 2 arêtes respectivement.*
+*A gauche : arêtes utilisées pour générer une surface avec l'outil [Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md), 4 arêtes connectées, 3 arêtes connectées et 2 arêtes déconnectées.<br> A droite : surface résultante de l'utilisation de 4, 3 et 2 arêtes respectivement.*
 
 
 
@@ -35,7 +35,7 @@ crée une surface paramétrique à partir de deux, trois ou quatre arêtes de li
 3.  Appuyez sur **OK**.
 
 
-**remarque:**
+**Remarque :**
 
 une fois créée, il n\'est pas possible d\'appliquer des contraintes supplémentaires à la surface créée.
 
@@ -52,7 +52,7 @@ une fois créée, il n\'est pas possible d\'appliquer des contraintes supplémen
 
 [Surface Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md) (classe `Surface::GeomFillSurface`) est dérivée de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature` via la sous-classe `Part::Spline`), elle partage donc toutes les propriétés de cette dernière.
 
-Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surface Remplissage a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
+Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), *Surface Remplir entre les courbes limites* a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
 
 
 
@@ -61,9 +61,9 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Fill Type|Enumeration}}: l\'algorithme de remplissage appliqué. Stretch, le style avec les patchs les plus plats; [{{Value|Coons}}](https://en.wikipedia.org/wiki/Coons_patch), un style arrondi avec moins de profondeur que Curved; Curved, le style avec les patchs les plus arrondis.
+-    {{PropertyData/fr|Fill Type|Enumeration}}: algorithme de remplissage appliqué. Stretch, le style avec les patchs les plus plats; [{{Value|Coons}}](https://en.wikipedia.org/wiki/Coons_patch), un style arrondi avec moins de profondeur que Curved; Curved, le style avec les patchs les plus arrondis.
 
--    {{PropertyData/fr|Boundary List|LinkSubList}}: une liste d\'arêtes qui seront utilisées pour construire la surface.
+-    {{PropertyData/fr|Boundary List|LinkSubList}}: une liste des arêtes qui seront utilisées pour construire la surface.
 
 -    {{PropertyData/fr|Reversed List|BoolList|(hidden)}}:
 
@@ -86,7 +86,7 @@ Par exemple, si deux courbes ont les points
 ```python
 curve1 = [a, b, c, d]
 curve2 = [e, f, g]
-``` et la surface résultante après avoir utilisé **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md)** ou **[<img src=images/Surface_Sections.svg style="width:16px"> [Sections](Surface_Sections/fr.md)** est une surface torsadée, vous pouvez créer une troisième courbe égale à l\'une des deux courbes d\'origine mais avec une liste de points inversée.
+``` et la surface résultante après avoir utilisé **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md)** ou **[<img src=images/Surface_Sections.svg style="width:16px"> [Surface Sections](Surface_Sections/fr.md)** est une surface torsadée, vous pouvez créer une troisième courbe égale à l\'une des deux courbes d\'origine mais avec une liste de points inversée.
 
 Soit 
 ```python
@@ -105,20 +105,20 @@ En termes pratiques, cela signifie que toutes les arêtes utilisées pour géné
 Lorsque la propriété {{PropertyView/fr|Lighting}} de la surface est {{Value|One side}}, une face sera coloriée complètement en noir si sa direction normale pointe dans la [Vue 3D](3D_view/fr.md) (loin du visualiseur actuel) indiquant une face inversée par rapport aux autres faces colorées.
 
 <img alt="" src=images/Surface_twisting_example_smooth.png  style="width:330px;"> <img alt="" src=images/Surface_twisting_example_twisted.png  style="width:330px;"> 
-*A gauche: les arêtes limites sont orientées dans la même direction et ainsi la surface générée est lisse. A droite: les arêtes limites ont des directions opposées et donc la surface générée se tord sur elle-même, ce qui entraîne des auto-intersections.*
+*A gauche : les arêtes limites sont orientées dans la même direction et ainsi la surface générée est lisse.<br>A droite : les arêtes limites ont des directions opposées et donc la surface générée se tord sur elle-même, ce qui entraîne des auto-intersections.*
 
 
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
 L\'outil Surface Remplir entre les courbes limites peut être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en ajoutant l\'objet `Surface::GeomFillSurface`.
 
--   Les arêtes à utiliser pour définir la surface doivent être affectées en tant que [LinkSubList](LinkSubList/fr.md) à la propriété `BoundaryList` de l\'objet.
+-   Les arêtes à utiliser pour définir la surface doivent être affectées en tant que [LinkSubList](FeaturePython_Custom_Properties/fr#App:_PropertyLinkSubList.md) à la propriété `BoundaryList` de l\'objet.
 -   Le type d\'algorithme doit être attribué comme une chaîne de caractère à la propriété `FillType`.
 -   Tous les objets avec des arêtes doivent être calculés avant de pouvoir être utilisés comme entrée pour les propriétés de l\'objet GeomFillSurface.
 

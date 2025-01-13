@@ -296,7 +296,7 @@ Cela montre une fois de plus qu\'il y a toujours plusieurs façons de produire l
 
 FreeCAD est un modeleur 3D paramétrique, ce qui vous permet de changer n\'importe quel *placement* ou *dimension* et le modèle sera mis à jour en conséquence. En général, cela fonctionne, mais il est possible de casser un modèle lors de l\'édition - par exemple lorsqu\'un congé est basé sur une arête qui n\'existe plus à cause d\'une modification. Lorsqu\'un modèle se casse pendant la modification, on parle de **TNP ou [Problème de dénomination topologique](Topological_naming_problem/fr.md)**.
 
-Allez-y et expérimentez en changeant les dimensions et les placements pour voir si vous pouvez casser le modèle, n\'oubliez pas de recalculer le modèle après les changements si nécessaire. Cela peut être fait avec le bouton <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Rafraîchir](Std_Refresh/fr.md) dans la barre d\'outils, si l\'icône est grisée, il n\'est pas nécessaire de rafraîchir l\'objet.
+Allez-y et expérimentez en changeant les dimensions et les placements pour voir si vous pouvez casser le modèle, n\'oubliez pas de recalculer le modèle après les changements si nécessaire. Cela peut être fait avec le bouton <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Recalculer](Std_Refresh/fr.md) dans la barre d\'outils, si l\'icône est grisée, il n\'est pas nécessaire de recalculer l\'objet.
 
 
 

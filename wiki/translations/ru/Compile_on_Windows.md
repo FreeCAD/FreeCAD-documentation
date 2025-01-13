@@ -1,6 +1,18 @@
 # Compile on Windows/ru
 <div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
+
+
+
+
+
+<div class="mw-translate-fuzzy">
+
 На этой странице шаг за шагом объясняется \"как скомпилировать FreeCAD 0.19 или новее в Windows\"\". Для других платформ см.[Compiling](Compiling.md).
 
 
@@ -76,7 +88,7 @@
 
 
 ```python
-git clone https://github.com/FreeCAD/FreeCAD.git
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git
 ```
 
 
@@ -232,6 +244,17 @@ git clone https://github.com/FreeCAD/FreeCAD.git
 
 
 </div>
+
+### Building from cmd.exe command line 
+
+If you want build from the command line, CMake output will show you the proper command to run (which depends on the configured release directory). But this command will produce a *Debug* build which does not work on Windows and results in a Numpy import error in FreeCAD (which is a known issue but hard to fix). You need to specify the *\--config Release* option to force a *Release* build:
+
+
+```python
+cmake --build E:/release --config Release
+```
+
+Please note that setting CMake variables like *CMAKE_BUILD_TYPE* does not have any effect, only specifying the *\--config* option as shown above works.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -741,6 +764,15 @@ To build FreeCAD using the self-compiled Netgen, you must do the following:
 Смотрите также
 
 -   [Compiling - Speeding up](Compiling_(Speeding_up).md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 
 
 </div>

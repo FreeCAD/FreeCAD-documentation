@@ -8,11 +8,17 @@
 
 ## Обзор
 
+
+<div class="mw-translate-fuzzy">
+
 В последних дистрибутивах Linux, FreeCAD, как правило, собирается легко, поскольку все зависимости обычно предоставляются менеджером пакетов. В основном сборка включает 3 этапа:
 
 1.  Получение исходного кода FreeCAD.
 2.  Получение зависимостей, или пакетов, от которых зависит FreeCAD
 3.  Настройка с помощью `cmake` и компиляция с помощью `make`.
+
+
+</div>
 
 Ниже вы найдете подробное описание процесса сборки, некоторых [скриптов компиляции](#Automatic_build_scripts.md) и особенностей, с которыми Вы можете столкнуться. Если вы найдете ошибки, устаревшие сведения (дистрибутивы Linux меняются быстро), или если вы используете дистрибутив, которого нет в списке, обсудите вопрос на [форуме](https://forum.freecadweb.org/index.php), и помогите нам исправить это.
 
@@ -48,12 +54,6 @@ git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git freecad-so
 
 
 
-### Архив с исходным кодом 
-
-Кроме того, вы можете загрузить исходники непосредственно с [GitHub](https://github.com/FreeCAD/FreeCAD/releases/latest), в качестве `.zip` или `.tar.gz` архива, и распаковать его в заданный каталог.
-
-
-
 ## Установка зависимостей (Dependencies) 
 
 Для компиляции FreeCAD необходимо установить требуемые зависимости (dependencies), упомянутые в [сторонних библиотеках](Third_Party_Libraries/ru.md); пакеты, содержащие эти зависимости для различных дистрибутивов Linux, перечислены ниже. Обратите внимание, что имена и доступность библиотек будут зависеть от вашего конкретного дистрибутива; если ваш дистрибутив устарел, некоторые пакеты могут быть недоступны или иметь другое имя. В этом случае посмотрите раздел [↓ старые и нестандартные дистрибутивы](#Older_and_non-conventional_distributions.md) расположенный ниже.
@@ -80,6 +80,8 @@ git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git freecad-so
 ```python
 sudo apt build-dep freecad
 ```
+
+Alternatively, replace `freecad` with `freecad-daily` to install the build dependencies for the main development branch. You\'ll need to have the [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Development_PPA_(Daily).md) added to your software sources.
 
 Однако, если версия FreeCAD в репозиториях старая, зависимости (dependencies) могут быть уже устаревшими для компиляции последней версии FreeCAD. Поэтому, пожалуйста, убедитесь, что вы установили следующие пакеты.
 
@@ -134,11 +136,17 @@ Boost библиотеки должны быть обязательно уста
 -    `libboost-thread-dev`
     
 
+
+<div class="mw-translate-fuzzy">
+
 Должны быть установлены Coin библиотеки:
 
 -    `libcoin80-dev`, для Debian Jessie, Stretch, Ubuntu с 16.04 до 18.10, или
 
 -    `libcoin-dev`, для Debian Buster, Ubuntu 19.04 и выше, а так же Ubuntu 18.04/18.10 вместе с [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Official_Ubuntu_repository.md) должны быть добавлены в иходники.
+
+
+</div>
 
 Несколько библиотек, которые занимаются вычислениями, триангулированными поверхностями, сортировкой, мешами (meshes), компьютерным зрением, картографическими проекциями, 3D-визуализацией, оконной системой X11, парсингом XML и чтением Zip-файлов:
 
@@ -162,7 +170,7 @@ Boost библиотеки должны быть обязательно уста
 -    `libproj-dev`
     
 
--    `libvtk7-dev`or `libvtk6-dev`
+-    `libvtk9-dev`, `libvtk8-dev`, `libvtk7-dev` or `libvtk6-dev`
 
 -    `libx11-dev`
     
@@ -236,7 +244,13 @@ Python 2 и Qt4 уже устарели и не рекомендуются к п
 
 #### Python 3 и Qt5 
 
+
+<div class="mw-translate-fuzzy">
+
 При компиляции FreeCAD в Debian Buster, Ubuntu 19.04 и выше, а также Ubuntu 18.04/18.10 с [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Official_Ubuntu_repository.md) добавленным в ваш исходный код, установите следующие зависимости.
+
+
+</div>
 
 -    `qtbase5-dev`
     
@@ -315,8 +329,7 @@ Python 2 и Qt4 уже устарели и не рекомендуются к п
 -    `python3-pyside2.qtwebchannel`
     
 
--    `python3-pyside2uic`
-    
+-    `python3-pyside2uic`(not required on Ubuntu 20.04 and later)
 
 
 
@@ -324,7 +337,13 @@ Python 2 и Qt4 уже устарели и не рекомендуются к п
 
 Ядро OpenCascade - это основная графическая библиотека для создания 3D-фигур. Она существует в виде официальной версии OCCT и виде версии для сообщества OCE. Версия для сообщества к применению больше не рекомендуется, так как она устарела.
 
+
+<div class="mw-translate-fuzzy">
+
 Для Debian Buster и Ubuntu 18.10 и выше, а так же для Ubuntu 18.04 с [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Official_Ubuntu_repository.md) добавлеными в ваши исходники, установите официальные пакеты.
+
+
+</div>
 
 -    `libocct*-dev`-   
         `libocct-data-exchange-dev`
@@ -501,8 +520,8 @@ ln -s pyuic5 pyside2-uic
 }}
 
 Теперь компиляция может быть продолжена. {{Code|lang=bash|code=
-cd freecad-build/
-cmake ../freecad-source -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DUSE_PYBIND11=ON
+cd build/
+cmake ../ -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DUSE_PYBIND11=ON
 make -j2
 }}
 
@@ -543,6 +562,10 @@ file (REAL_PATH ${OpenCASCADE_INSTALL_PREFIX} OpenCASCADE_INSTALL_PREFIX)
 }}
 
 This trivial change needs to be made inside the build directory once cmake has been run and failed. Re-running cmake will then correctly detect the OCCT libraries in the normal way.
+
+#### Fedora38/39
+
+Now install Python 3.11. This includes a notable change in how Python initializes when running a program. As a result FreeCAD fails to find OpenCamLib, meaning [3D Surface](CAM_Surface.md) and [Waterline](CAM_Waterline.md) are not available in the [CAM Workbench](CAM_Workbench.md). This was fixed in the master branch on 20th Mar 2024 ([Pull request #13059](https://github.com/FreeCAD/FreeCAD/pull/13059)).
 
 
 <div class="mw-translate-fuzzy">
@@ -864,6 +887,9 @@ zypper in libqt5-qtbase-devel libqt5-qtsvg-devel libqt5-qttools-devel boost-deve
 -    `utf8cpp`
     
 
+-    `verdict`
+    
+
 -    `xerces-c`
     
 
@@ -872,7 +898,14 @@ zypper in libqt5-qtbase-devel libqt5-qtsvg-devel libqt5-qttools-devel boost-deve
 
 
 ```python
-sudo pacman -S --needed boost cmake coin curl desktop-file-utils eigen gcc-fortran git glew hicolor-icon-theme jsoncpp libspnav med nlohmann-json opencascade pyside2-tools pyside2 python-matplotlib python-netcdf4 python-packaging python-pivy qt5-svg qt5-tools qt5-webengine shared-mime-info shiboken2 swig utf8cpp xerces-c yaml-cpp 
+sudo pacman -S --needed --asdeps boost cmake coin curl desktop-file-utils eigen gcc-fortran git glew hicolor-icon-theme jsoncpp libspnav med nlohmann-json opencascade python-matplotlib python-netcdf4 python-packaging python-pivy qt5-svg qt5-tools qt5-webengine shared-mime-info swig utf8cpp xerces-c yaml-cpp 
+```
+
+FreeCAD currently uses QT5. This requires packages which have been moved from the official repositories to the AUR. These packages will be compiled by source and may take a long time depending on the available hardware.
+
+
+```python
+yay -S --needed --asdeps pyside2 pyside2-tools shiboken2
 ```
 
 
@@ -905,7 +938,13 @@ sudo pacman -S --needed boost cmake coin curl desktop-file-utils eigen gcc-fortr
 
 ### Pivy
 
+
+<div class="mw-translate-fuzzy">
+
 [Pivy](Pivy/ru.md) (обертки Python для Coin3d) не требуется для сборки FreeCAD или его запуска, но необходимы в качестве зависимости от среды выполнения для [Draft Workbench](Draft_Workbench/ru.md). Если вы не собираетесь использовать эти инструментальные средства, вам не понадобится Pivy. Однако обратите внимание, что верстак Draft используется внутри других рабочих столов, таких как [Arch](Arch_Workbench/ru.md) и [BIM](BIM_Workbench/ru.md), поэтому для использования этих инструментальных средств также необходимо установить Pivy.
+
+
+</div>
 
 К ноябрю 2015 года устаревшая версия Pivy, включенная в исходный код FreeCAD, больше не будет компилироваться во многих системах. Это не большая проблема, так как обычно вы должны получить Pivy от менеджера пакетов вашего дистрибутива; если вы не можете найти Pivy, вам, возможно, придется скомпилировать его самостоятельно, см. Инструкции по компиляции Pivy.
 
@@ -957,7 +996,7 @@ FreeCAD использует CMake в качестве основной сист
 
 
 {{Code|lang=bash|code=
-# from the base of your freecad source folder:
+# from your freecad-source folder:
 mkdir build
 cd build
 cmake ../
@@ -1032,8 +1071,8 @@ cmake -D <var>:<type>=<value> $SOURCE_DIR
 
 
 {{Code|lang=bash|code=
-cmake -D BUILD_FEM:BOOL=OFF ../freecad-source
-cmake -DBUILD_FEM=OFF ../freecad-source
+cmake -D BUILD_FEM:BOOL=OFF ../
+cmake -DBUILD_FEM=OFF ../
 }}
 
 Все возможные переменные перечислены в файле `InitializeFreeCADBuildOptions.cmake`, расположенном в каталоге `CMake/FreeCAD_Helpers`. В этом файле найдёте слово `option`, чтобы перейти к переменным, которые можно задать, и просмотреть их значения по умолчанию.
@@ -1058,7 +1097,7 @@ cmake -DBUILD_FEM=OFF ../freecad-source
 
 
 {{Code|lang=bash|code=
-cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Debug ../freecad-source
+cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Debug ../
 }}
 
 
@@ -1069,7 +1108,7 @@ cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Debug ../freecad-s
 
 
 {{Code|lang=bash|code=
-cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../freecad-source
+cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../
 }}
 
 
@@ -1094,7 +1133,7 @@ cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../freecad
 
 
 {{Code|lang=bash|code=
-cmake ../freecad-source
+cmake ../
 }}
 
 
@@ -1119,7 +1158,7 @@ cmake ../freecad-source
 
 
 {{Code|lang=bash|code=
-cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 ../freecad-source
+cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 ../
 }}
 
 Если это не сработает, вам, возможно, придется определить дополнительные переменные, указывающие на требуемые библиотеки Python, и включить каталоги:
@@ -1130,7 +1169,7 @@ cmake -DPYTHON_EXECUTABLE=/usr/bin/python3.6 \
     -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m \
     -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so \
     -DPYTHON_PACKAGES_PATH=/usr/lib/python3.6/site-packages/ \
-    ../freecad-source
+    ../
 }}
 
 В одной системе, возможно, имеет несколько независимых версий Python, поэтому расположение и номера версий ваших файлов Python будут зависеть от вашего конкретного дистрибутива Linux. Используйте `python3-V` для отображения версии Python, которую вы используете в настоящее время; необходимы только первые два числа; например, если результатом является `Python 3.6.8`, вам необходимо указать каталоги, относящиеся к версии 3.6. Если вы не знаете нужных каталогов, попробуйте выполнить их поиск с помощью команды `locate`.
@@ -1330,8 +1369,8 @@ git pull
 
 
 {{Code|lang=bash|code=
-cd ../freecad-build
-cmake .
+cd build
+cmake ../
 make -j$(nproc --ignore=2)
 }}
 
@@ -1341,7 +1380,7 @@ In case the compiled source code was installed with `sudo make install` (for Deb
 
 
 {{Code|lang=bash|code=
-cd freecad-source/freecad-build
+cd freecad-source/build
 xargs sudo rm < install_manifest.txt
 }}
 
@@ -1390,9 +1429,9 @@ sudo apt-get build-dep freecad-daily
 sudo apt-get install freecad-daily
 
 git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git freecad-source
-mkdir freecad-build
-cd freecad-build
-cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DFREECAD_USE_PYBIND11=ON ../freecad-source
+mkdir freecad-source/build
+cd freecad-source/build
+cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DFREECAD_USE_PYBIND11=ON ../
 make -j$(nproc --ignore=2)
 }}
 

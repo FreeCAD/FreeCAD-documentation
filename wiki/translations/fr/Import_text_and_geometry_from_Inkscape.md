@@ -19,15 +19,19 @@
 Ce tutoriel est censé montrer comment importer du texte ou de la géométrie créé avec inkscape via svg-format dans FreeCAD.
 Inkscape 0.91 et FreeCAD 0.16.6704 sur Windows sont utilisés pour ces opérations.
 
+
+
 ## Conseils généraux pour l\'importation à partir de inkscape 
 
 -   l\'importation svg dans FreeCAD ne peut pas gérer un fichier svg avec une résolution de plus de 45 dpi, alors vérifiez les paramètres dans inkscape
 -   lors de l\'importation d\'objets chemin qui n\'apparaissent pas très lisses dans la vue 3D dans FreeCAD , cela peut être dû aux paramètres de FreeCAD pour la vue de la forme.
-    -   dans FreeCAD, choisissez **Édition** → **Préférences** → **Part Design** → **Vue de la forme**
+    -   dans FreeCAD, choisissez **Édition** → **Préférences** → **PartDesign** → **Vue de la forme**
     -   en ce qui concerne \"Tesselation\" (mosaïque), la \"Déviation maximale pour la zone de délimitation du modèle\", la valeur par défaut est \"0,5%\"
     -   le réglage de cette valeur à une valeur inférieure augmentera la douceur du modèle dans la vue 3D (et utilisera plus de performances du PC)
     -   n\'utilisez pas de valeurs inférieures à \"0,01%\", cela entraînera probablement un crash de FreeCAD
     -   dans ce cas, la suppression des fichiers \"system.cfg\" et \"user.cfg\" dans votre répertoire FreeCAD-user résoudra ce problème
+
+
 
 ## Importation de texte à partir de inkscape 
 
@@ -41,6 +45,8 @@ Inkscape 0.91 et FreeCAD 0.16.6704 sur Windows sont utilisés pour ces opératio
 -   Utilisez les outils pad ou l\'outil [Part Extrusion](Part_Extrude/fr.md) sur les faces pour obtenir des solides
 -   vous pouvez fusionner vos objets ou utiliser des composés sur eux en fonction de vos travaux prévus
 
+
+
 ## Importation de géométrie à partir de inkscape 
 
 Puisque inkscape et FreeCAD semblent avoir des approches différentes sur la façon d\'appliquer des dimensions sur l\'objet svg, le flux de travail recommandé semble être :
@@ -51,6 +57,8 @@ Puisque inkscape et FreeCAD semblent avoir des approches différentes sur la fa�
 -   Enregistrez au format de fichier \"Inkscape SVG (\*.svg)\" ou \"SVG simple (\*.svg)\"
 -   ouvrez le fichier dans FreeCAD, en choisissant l\'option \"SVG en tant que géométrie (importSVG)\"
 -   les dimensions des objets dans inkscape et dans FreeCAD devraient maintenant être identiques
+
+
 
 ## Crédits
 

@@ -1,64 +1,71 @@
 ---
  GuiCommand:
    Name: Arch CutPlane
-   MenuLocation: Arch , Cut with plane
-   Workbenches: Arch_Workbench
+   Name/pl: Architektura: Przetnij płaszczyzną
+   MenuLocation: Modyfikacja , Przetnij płaszczyzną
+   Workbenches: BIM_Workbench/pl
 ---
 
 # Arch CutPlane/pl
 
-## Description
 
-The **Arch CutPlane** tool cuts a solid Arch object like an [Arch Wall](Arch_Wall.md) or [Arch Structure](Arch_Structure.md) with a planar face.
+
+## Opis
+
+Narzędzie **Przytnij płaszczyzną** tnie bryłę obiektu Architektury, taką jak [ścianę](Arch_Wall/pl.md) lub [konstrukcję](Arch_Structure/pl.md) za pomocą płaskiej płaszczyzny.
 
 <img alt="" src=images/Arch_CutPlane_example.jpg  style="width:400px;"> 
-*Left: Before applying the CutPlane tool. Middle: resulting wall after the cut is done. Right: yet another optional result*
-
-## Usage
-
-1.  If the cutting plane is to be derived from a straight edge (<small>(v0.22)</small> ) optionally align the [working plane](Draft_SelectPlane.md):
-    -   The selected edge cannot be parallel to the normal of the working plane.
-    -   The generated cutting face will be perpendicular to the working plane.
-2.  Select the object to be cut.
-3.  Do one of the following:
-    -   Select an object with a single planar face. <small>(v0.22)</small> 
-    -   Select a planar face in the [3D view](3D_view.md).
-    -   Select an object with a single straight edge. <small>(v0.22)</small> 
-    -   Select a straight edge in the [3D view](3D_view.md). <small>(v0.22)</small> 
-4.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Arch_CutPlane.svg" width=16px> [Cut with plane](Arch_CutPlane.md)** button.
-    -   Select the **Arch → <img src="images/Arch_CutPlane.svg" width=16px> Cut with plane** option from the menu.
-5.  Choose **Behind** or **Front** to indicate on which side of the cutting face material should be removed.
-6.  Press the **OK** button.
-
-## Scripting
+*Po lewej: Przed zastosowaniem narzędzia Przetnij płaszczyzną. Środek: wynikowa ściana po zakończeniu cięcia. Po prawej: kolejny opcjonalny wynik.*
 
 
-**See also:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Użycie
 
-The CutPlane tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+1.  Jeśli płaszczyzna cięcia ma być wyprowadzona z krawędzi prostej ({{Version/pl|1.0}}) opcjonalnie wyrównaj [płaszczyznę roboczą](Draft_SelectPlane/pl.md):
+    -   Wybrana krawędź nie może być równoległa do normalnej płaszczyzny roboczej.
+    -   Wygenerowana powierzchnia cięcia będzie prostopadła do płaszczyzny roboczej.
+2.  Wybierz obiekt do wycięcia.
+3.  Wykonaj jedną z następujących czynności:
+    -   Wybierz obiekt z pojedynczą płaską powierzchnią. {{Version/pl|1.0}}
+    -   Wybierz płaską powierzchnię w [widoku 3D](3D_view/pl.md).
+    -   Wybierz obiekt z pojedynczą prostą krawędzią. {{Version/pl|1.0}}
+    -   Wybierz prostą krawędź w [widoku 3D](3D_view/pl.md). {{Version/pl|1.0}}
+4.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Arch_CutPlane.svg" width=16px> '''Przetnij płaszczyzną'''**.
+    -   Wybierz z menu opcję **Modyfikacja → <img src="images/Arch_CutPlane.svg" width=16px> Przetnij płaszczyzną**.
+5.  Wybierz **Za** lub **Przed**, aby wskazać, po której stronie powierzchni cięcia materiał ma zostać usunięty.
+6.  Naciśnij przycisk **OK**.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie Przetnij płaszczyzną może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python
 cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 ```
 
--   Creates a `cutObj` object from the given `archObject`, which is cut by `cutPlane`, which is the face of another object.
+-   Tworzy obiekt `cutObj` z podanego `archObject`, który jest przecinany przez `cutPlane`, która jest powierzchnią innego obiektu.
     -   
         `archObject`
         
-        should be a `SelectionObject` obtained from `FreeCADGui.Selection.SelectionEx()[0]`.
+        powinien być `SelectionObject` uzyskanym z `FreeCADGui.Selection.SelectionEx()[0]`.
 
     -   
         `cutPlane`
         
-        should be a `FaceObject` obtained from `FreeCADGui.Selection.SelectionEx()[0].SubObjects[0]`.
+        powinien być `FaceObject` uzyskanym z `FreeCADGui.Selection.SelectionEx()[0].SubObjects[0]`.
 
--    `sideFace`specifies on which side of the `FaceObject` a volume will be created; this volume will then be used to subtract from the `archObject`. If `sideFace` is `0` it will create a volume in the rear of the face, otherwise it create it in front of the face.
+-    `sideFace`określa, po której stronie `FaceObject` zostanie utworzona objętość; objętość ta zostanie następnie użyta do odjęcia od `archObject`. Jeśli `sideFace` to `0`, zostanie utworzona objętość z tyłu obiektu, w przeciwnym razie zostanie ona utworzona z przodu obiektu.
 
-Example:
+Przykład:
 
 
 ```python
@@ -104,5 +111,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/pl
+⏵ [documentation index](../README.md) > Arch CutPlane/pl

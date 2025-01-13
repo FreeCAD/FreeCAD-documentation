@@ -1,7 +1,7 @@
 # Path ToolBit Library Manager
-1.  REDIRECT [Path ToolBitLibraryOpen](Path_ToolBitLibraryOpen.md)
+1.  REDIRECT [CAM_ToolBitLibraryOpen](CAM_ToolBitLibraryOpen.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit Library Manager
+⏵ [documentation index](../README.md) > Path ToolBit Library Manager

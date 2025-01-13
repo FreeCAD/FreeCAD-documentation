@@ -12,7 +12,7 @@
 
 ## Opis
 
-**Odbicie lustrzane** tworzy nowy obiekt *(obraz)*, który jest odbiciem oryginalnego obiektu *(źródła)*. Obiekt obrazu jest tworzony za płaszczyzną lustrzaną. Płaszczyzna lustrzana może być płaszczyzną standardową *(**XY**, **YZ** lub **XZ**)* lub dowolną płaszczyzną równoległą do płaszczyzny standardowej lub ({{Version/pl|0.22}}) dowolną płaszczyznę przy użyciu obiektu referencyjnego.
+**Odbicie lustrzane** tworzy nowy obiekt *(obraz)*, który jest odbiciem oryginalnego obiektu *(źródła)*. Obiekt obrazu jest tworzony za płaszczyzną lustrzaną. Płaszczyzna lustrzana może być płaszczyzną standardową *(**XY**, **YZ** lub **XZ**)* lub dowolną płaszczyzną równoległą do płaszczyzny standardowej lub ({{Version/pl|1.0}}) dowolną płaszczyznę przy użyciu obiektu referencyjnego.
 
 Dla przykładu:
 
@@ -42,7 +42,11 @@ Dla przykładu:
 3.  Jeśli nie zaznaczyłeś jeszcze obiektów lub chcesz zmienić zaznaczenie: wybierz jeden lub więcej obiektów z listy **Kształty**.
 4.  Wykonaj jedną z następujących czynności:
     -   Wybierz standardową **Płaszczyznę lustrzaną** z rozwijanej listy.
-    -   Wybierz obiekt odniesienia w oknie [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md). Obiektem odniesienia może być dowolna płaska powierzchnia lub okrągła krawędź.
+
+    -   
+        {{Version/pl|1.0}}
+        
+        : Wybierz obiekt odniesienia w oknie [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md). Obiektem odniesienia może być dowolna płaska powierzchnia lub okrągła krawędź.
 5.  Naciśnij przycisk **OK**.
 6.  Dla każdego obiektu źródłowego tworzony jest osobny obiekt Odbicie lustrzane.
 

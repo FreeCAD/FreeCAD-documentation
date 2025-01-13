@@ -322,9 +322,9 @@ node_sensor.attach(camera_node)```
 
 
 
-### Beobachten von Mausereignissen im 3D Betrachter über Python 
+### Mausereignisse in der 3D-Ansicht beobachten mit Python 
 
-Das Inventor Framework ermöglicht es, einen oder mehrere Aufrufknoten zum Szenegraphen des Betrachters hinzuzufügen. Standardmäßig wird in FreeCAD ein Aufrufknoten vom Betrachter installiert, der es erlaubt, globale oder statische C++ Funktionen hinzuzufügen. In der entsprechenden Python Bindung werden einige Methoden zur Verfügung gestellt, um diese Technik aus dem Python Code heraus zu nutzen.
+Das Inventor Framework ermöglicht es, einen oder mehrere Aufrufknoten zum Szenegraphen des Betrachters hinzuzufügen. Standardmäßig wird in FreeCAD ein Aufrufknoten vom Betrachter installiert, der es erlaubt, globale oder statische C++ Funktionen hinzuzufügen. In der entsprechenden Python-Bindung werden einige Methoden zur Verfügung gestellt, um diese Technik aus dem Python-Code heraus zu nutzen.
 
 
 ```python
@@ -879,7 +879,9 @@ c = v.addEventCallback("SoMouseButtonEvent",o.logPosition)
 
 {{Top}}
 
-### Display the active document 
+
+
+### Das aktive Dokument anzeigen 
 
 
 ```python
@@ -892,7 +894,7 @@ App.addDocumentObserver(obs)
 #App.removeDocumentObserver(obs)                 # desinstalle la fonction residente
 ```
 
-To remove the observer call:
+Um den Beobachter zu entfernen, aufrufen Sie:
 
 
 ```pythonApp.removeDocumentObserver(obs)                 # desinstalle la fonction residente

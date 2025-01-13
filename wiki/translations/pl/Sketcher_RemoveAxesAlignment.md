@@ -14,22 +14,27 @@
 
 ## Opis
 
-To narzędzie usuwa wyrównania osi *(wiązania <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [Poziome](Sketcher_ConstrainHorizontal/pl.md), <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [Pionowe](Sketcher_ConstrainVertical/pl.md))* z wybranych elementów, próbując zachować relację wiązań.
+Narzędzie <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> **Usuń wyrównanie osi** usuwa wyrównanie osi wybranych krawędzi, zastępując wiązania [poziome](Sketcher_ConstrainHorizontal/pl.md) i [pionowe](Sketcher_ConstrainVertical/pl.md) wiązaniami [równolegle](Sketcher_ConstrainParallel/pl.md) i [prostopadle](Sketcher_ConstrainPerpendicular/pl.md). Krawędzie można następnie obracać bez utraty ich ortogonalnej relacji.
 
 
 
 ## Użycie
 
-1.  Wybierz geometrię z wyrównaniem osi, na przykład [prostokąt](Sketcher_CreateRectangle/pl.md).
-2.  Naciśnij przycisk <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> **Usuń wyrównanie osi** na pasku narzędzi.
+1.  Wybierz dwie lub więcej krawędzi z wiązaniami poziomymi lub pionowymi, na przykład [prostokąt](Sketcher_CreateRectangle/pl.md).
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_RemoveAxesAlignment.svg" width=16px> '''Usuń wyrównanie osi'''**.
+    -   Wybierz z menu opcję **Szkic → Narzędzia szkicownika → <img src="images/Sketcher_RemoveAxesAlignment.svg" width=16px> Usuń wyrównanie osi**.
+    -   Użyj skrótu klawiaturowego: **Z**, a następnie **R**.
 
-W rezultacie wiązania *(poziome, pionowe)* zostaną usunięte. W przykładzie prostokąta, pozostaje on prostokątem, ale staje się obracalny.
+
+
+## Przykład
 
 <img alt="" src=images/SketcherRemoveAxesAlignmentStart.png  style="width:300px;"> 
 *Wybrany prostokąt z wiązaniami poziomymi i pionowymi.*
 
 <img alt="" src=images/SketcherRemoveAxesAlignmentResult.png  style="width:300px;"> 
-*Prostokąt po użyciu funkcji ''Usuń wyrównanie osi''.*
+*Prostokąt po użyciu narzędzia.*
 
 
 

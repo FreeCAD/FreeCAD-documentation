@@ -1,74 +1,49 @@
 ---
  GuiCommand:
-   Name: Sketcher_CarbonCopy
+   Name: Sketcher CarbonCopy
    Name/it: Copia carbone
-   MenuLocation: Sketch , Geometrie , Copia carbone
+   MenuLocation: Schizzo , Strumenti Sketcher , Crea copia carbone
    Workbenches: Sketcher Workbench/it
+   Shortcut: **G** **W**
    Version: 0.17
 ---
 
 # Sketcher CarbonCopy/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-Lo strumento <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:16px;"> **Copia carbone** copia tutta la geometria e i vincoli di un altro schizzo nello schizzo attivo.
+Lo strumento <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:24px;"> [Sketcher Copia carbone](Sketcher_CarbonCopy/it.md) copia tutta la geometria e i vincoli da un altro schizzo nello schizzo attivo.
 
-
-<div class="mw-translate-fuzzy">
-
-I vincoli dimensionali che esistono prima della funzione di copia rimangono collegati ai vincoli dimensionali dello schizzo originale attraverso le [espressioni](expressions/it.md).
-
-
-</div>
+I vincoli dimensionali che esistono prima della funzione di copia rimangono collegati ai vincoli dimensionali dello schizzo originale attraverso le [espressioni](Expressions/it.md).
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Assicurarsi di essere nella modalità di modifica di uno <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Schizzo](Sketcher_NewSketch/it.md).
-2.  Premere il pulsante **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> Copia carbone**.
-3.  Fare clic su un bordo in un altro schizzo.
-4.  Gli elementi della geometria ed i vincoli vengono copiati nello schizzo attivo.
-5.  Premere **Esc** o il pulsante destro del mouse per terminare l\'operazione.
-
-
-</div>
-
-## Notes
-
--   When sketches are used in the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), normally the sketch to carbon copy should be in the same **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)** as the currently active sketch. If the sketch to be copied is not in the active [Body](PartDesign_Body.md), the mouse pointer will not allow selection. In this case, hold **Ctrl** to allow selection of sketches from other Bodies.
--   Normally, the sketch to select should be in a plane that is parallel to the currently active sketch. If the sketch to be copied is not parallel to the currently active sketch, hold **Ctrl**+**Alt** to allow selection of non-parallel sketches. The object will then be adjusted to the active sketch\'s plane. Noteː as of this writing this needs a save and reload of the document to make it visible. This works for sketches located outside of the currently active [Body](PartDesign_Body.md) as well.
--   Since carbon-copied dimensional constraints use expressions they are rendered in a different color. The color can be customized with the [Preferences Editor](Preferences_Editor.md) at **Edit → Preferences → Sketcher → Colors → Constraint colors → Expression dependent constraint**.
--   If the Sketcher mode has been changed to construction mode using **[<img src=images/Sketcher_ToggleConstruction.svg style="width:24px"> [Toggle construction geometry](Sketcher_ToggleConstruction.md)** all copied geometry will be created in construction mode.
+1.  Assicurarsi di essere nella modalità di modifica di uno [schizzo](Sketcher_NewSketch/it.md) esistente. Questo schizzo è il destinatario dell\'operazione.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_CarbonCopy.svg" width=16px> [Crea copia carbone](Sketcher_CarbonCopy/it.md)**.
+    -   Selezionare l\'opzione **Schizzo → Strumenti Sketcher → <img src="images/Sketcher_CarbonCopy.svg" width=16px> Crea copia carbone** dal menu.
+    -   Usare la scorciatoia da tastiera: **G** quindi **W**.
+3.  Il cursore si trasforma in una croce con l\'icona dello strumento.
+4.  Scegliere un bordo da un altro schizzo. Questo schizzo è la fonte dell\'operazione. Vedere [Note](#Note.md).
+5.  Gli elementi geometrici e i vincoli vengono copiati nello schizzo attivo.
+6.  Questo strumento viene sempre eseguito in modalità continua: facoltativamente copiare schizzi aggiuntivi.
+7.  Per terminare, fare clic con il pulsante destro del mouse o premere **Esc** oppure avviare un altro strumento di creazione di geometrie o vincoli.
 
 
 
-## Limitazioni
+## Note
 
-
-<div class="mw-translate-fuzzy">
-
--   Viene copiato tutto il contenuto dello schizzo; non è possibile selezionare solo una parte di esso.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   Nell\'[Ambiente PartDesign](PartDesign_Workbench/it.md) è possibile selezionare lo schizzo da copiare dall\'esterno del [Corpo](PartDesign_Body/it.md) dello schizzo attualmente attivo, ma solo se il tasto **Ctrl** è tenuto premuto durante la selezione.
+-   Lo schizzo da copiare in copia carbone deve essere piano parallelo allo schizzo attualmente attivo. In caso contrario, durante la selezione è necessario tenere premuti i tasti **Ctrl** e **Alt**. Questo funziona anche per gli schizzi situati al di fuori del corpo attivo.
+-   Se la [geometria di costruzione](Sketcher_ToggleConstruction/it.md) è attiva, la geometria copiata viene creata come geometria di costruzione.
+-   Viene copiato lo schizzo completo, non è possibile selezionarne solo una porzione. Ma dopo la copia è possibile eliminare gli elementi indesiderati.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

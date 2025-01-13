@@ -13,7 +13,7 @@
 
 ## Opis
 
-Creates an array of selected sketcher elements.
+The <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:16px;"> [Sketcher Rectangular array](Sketcher_RectangularArray.md) command creates an array of selected sketcher elements.
 
 
 

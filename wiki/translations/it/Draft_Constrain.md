@@ -1,9 +1,9 @@
 # Draft Constrain/it
 ## Descrizione
 
-Oltre all\'inserimento delle coordinate o all\'uso degli [agganci](Draft_Snap/it.md) (snap), esiste una funzione chiamata vincolo che aiuta a disegnare con precisione in ambiente <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md) e <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/it.md). Per ogni punto successivo è possibile vincolare il movimento del cursore alla direzione X, Y o Z del sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). Questo può essere utilizzato ad esempio per creare una linea perfettamente verticale.
+Oltre all\'inserimento delle coordinate o all\'uso degli [agganci](Draft_Snap/it.md) (snap), esiste una funzione chiamata vincolo che aiuta a disegnare con precisione in ambiente <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md) e <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/it.md). Per ogni punto successivo è possibile vincolare il movimento del cursore alla direzione X, Y o Z del sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). Questo può essere utilizzato ad esempio per creare una linea perfettamente verticale.
 
-I vincoli sono disponibili con la maggior parte dei comandi [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md).
+I vincoli sono disponibili con la maggior parte dei comandi [Draft](Draft_Workbench/it.md) e [BIM](BIM_Workbench/it.md).
 
 ![](images/Draft_Constrain_taskpanel_example.png ) 
 *Mentre il cursore è vincolato, il pannello delle attività blocca i valori che non vengono modificati*
@@ -12,7 +12,7 @@ I vincoli sono disponibili con la maggior parte dei comandi [Draft](Draft_Workbe
 
 ## Utilizzo vincoli orizzontali e verticali 
 
-1.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+1.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [BIM](BIM_Workbench/it.md) per creare la propria geometria.
 2.  Scegliere un primo punto. È necessario un punto precedente.
 3.  Effettuare una delle seguenti operazioni:
     -   Per un vincolo orizzontale: spostare il cursore a sinistra o a destra del punto precedente.
@@ -27,7 +27,7 @@ I vincoli sono disponibili con la maggior parte dei comandi [Draft](Draft_Workbe
 
 ## Utilizzo vincoli X, Y e Z 
 
-1.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+1.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [BIM](BIM_Workbench/it.md) per creare la propria geometria.
 2.  Scegliere un primo punto. È necessario un punto precedente.
 3.  Premere **X**, **Y** o **Z** per specificare la direzione.
 4.  Il cursore è ora vincolato.

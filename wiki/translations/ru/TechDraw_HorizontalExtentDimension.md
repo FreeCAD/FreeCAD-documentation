@@ -23,7 +23,13 @@ The **TechDraw HorizontalExtentDimension** tool adds a linear dimension to a Vie
 
 1.  Select a View or a collection of Edges in a View.
 2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Insert Horizontal Extent Dimension](TechDraw_HorizontalExtentDimension.md)** button.
+    -   
+        <small>(v1.0)</small> 
+        
+        : If the **Dimensioning tools** [preference](TechDraw_Preferences#Dimensions.md) is set to {{Value|Single tool}} (default): press the down arrow to the right of the **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button and select the **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> Insert Horizontal Extent Dimension** option from the dropdown.
+
+    -   If this preference has a different value (and in {{VersionMinus|0.21}}): press the **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Insert Horizontal Extent Dimension](TechDraw_HorizontalExtentDimension.md)** button.
+
     -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> Insert Horizontal Extent Dimension** option from the menu.
 3.  A dimension is added to the View.
 4.  The dimension may be dragged to the desired position.
@@ -87,7 +93,13 @@ App.ActiveDocument.DimExtent001.FormatSpec = '%.0f'
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

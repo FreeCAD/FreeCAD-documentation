@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -22,11 +24,13 @@ Esta herramienta permite construir una lámina 2D, incluyendo cualquier número 
 
 </div>
 
-<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:600px;">
 
-<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:600px;">
 
 *La imagen de arriba muestra cómo aparecen las láminas del panel cuando se exportan a DXF.*
+
+
 
 ## Utilización
 
@@ -41,6 +45,8 @@ Esta herramienta permite construir una lámina 2D, incluyendo cualquier número 
 
 </div>
 
+
+
 ## Opciones
 
 -   Después de crear la lámina del panel, con o sin objetos secundarios, se puede agregar/eliminar cualquier otro objeto secundario a/desde la lámina del panel haciendo doble clic en ella en la vista de árbol y agregando o quitando objetos de su carpeta de grupo
@@ -48,6 +54,8 @@ Esta herramienta permite construir una lámina 2D, incluyendo cualquier número 
 -   Es posible crear automáticamente paneles compuestos de más de una lámina de un material, mediante el aumento de su propiedad de láminas
 -   Las láminas del panel pueden mostrar un margen, que es útil para asegurarse de que siempre haya un espacio determinado entre los objetos internos y el borde de la lámina
 -   Cuando las láminas del Panel se exportan a DXF, los contornos, agujeros internos, etiquetas de sus hijos internos se colocan en diferentes capas, como se muestra en la imagen de arriba
+
+
 
 ## Propiedades
 
@@ -148,6 +156,8 @@ FreeCAD.ActiveDocument.recompute()
 Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 ```
 
+
+
 ## Tutoriales
 
 
@@ -168,6 +178,11 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/es
+⏵ [documentation index](../README.md) > Arch Panel Sheet/es

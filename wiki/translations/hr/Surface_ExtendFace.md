@@ -8,6 +8,8 @@
 
 # Surface ExtendFace/hr
 
+
+
 ## Opis
 
 
@@ -20,6 +22,8 @@ extrapolates an existing face or surface at its boundaries with its local U and 
 
 
 *Left: original face. Right: extended face.*
+
+
 
 ## Upotreba
 
@@ -62,6 +66,8 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 -    **SampleV|IntegerConstraint**: it defaults to {{Value|32}}.
 
+
+
 ### Pogled
 
 
@@ -78,7 +84,7 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 The Surface Extend tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::Extend` object.
 
--   The face to extend must be assigned as a [LinkSub](LinkSub.md) to the `Face` property of the object. It must contain only a single face.
+-   The face to extend must be assigned as a [LinkSub](FeaturePython_Custom_Properties#App:_PropertyLinkSub.md) to the `Face` property of the object. It must contain only a single face.
 
 
 ```python

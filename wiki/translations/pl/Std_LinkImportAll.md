@@ -35,7 +35,7 @@ Polecenie to zasadniczo uruchamia funkcję **[<img src=images/Std_LinkImport.svg
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

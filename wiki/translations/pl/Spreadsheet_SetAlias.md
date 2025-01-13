@@ -14,17 +14,18 @@
 
 ## Opis
 
-Narzędzie **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Definiuj alias](Spreadsheet_SetAlias/pl.md)** otwiera okno dialogowe, w którym można ustawić alias dla komórki. Zamiast używać przypisanej nazwy komórki, takiej jak A2, B3 lub C4, można użyć nazwy niestandardowej.
+Narzędzie <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> **Definiuj alias** otwiera okno dialogowe, w którym można ustawić alias dla komórki. Zamiast używać przypisanej nazwy komórki, takiej jak A2, B3 lub C4, można użyć nazwy niestandardowej.
 
 
 
 ## Użycie
 
-Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md)**, aby przycisk był dostępny.
-
-1.  Wybierz komórkę.
-2.  Naciśnij przycisk **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Definiuj alias](Spreadsheet_SetAlias/pl.md)**.
-3.  Wprowadź nazwę:
+1.  Upewnij się, że jest aktywny [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md).
+2.  Wybierz komórkę.
+3.  Istnieje kilka sposobów wywołania tego narzędzia:
+    -   Naciśnij przycisk **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Definiuj alias](Spreadsheet_SetAlias/pl.md)**.
+    -   Użyj skrótu klawiaturowego: **Ctrl**+**Shift**+**A**.
+4.  Wprowadź alias:
     -   Dozwolone są tylko znaki alfanumeryczne i znak podkreślenia (od `A` do `Z`, od `a` do `z`, od `0` do `9` oraz `_`).
     -   Pierwszy znak musi być literą.
     -   Nie wolno używać 1 lub 2 wielkich liter, po których następuje od 1 do 5 cyfr, na przykład `AB123`, ponieważ jest to zarezerwowane dla adresu komórki.

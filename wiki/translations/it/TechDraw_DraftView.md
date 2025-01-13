@@ -1,135 +1,100 @@
 ---
  GuiCommand:
    Name: TechDraw_DraftView
-   Name/it: Vista di Draft
-   MenuLocation: TechDraw , Vista di Draft
-   Workbenches: TechDraw_Workbench/it
-   SeeAlso: Draft Workbench/it, TechDraw_ArchView/it
+   Name/it: TechDraw Vista di Draft
+   MenuLocation: TechDraw , Viste da altri ambienti , Inserisci  Oggetto Ambiente Draft
+   Workbenches: TechDraw_Workbench/it, Draft_Workbench/it
+   SeeAlso: TechDraw_ArchView/it
 ---
 
 # TechDraw DraftView/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [Vista di Draft](TechDraw_DraftView/it.md) inserisce in una pagina di disegno una vista di un oggetto basato su [Part](Part_Workbench/it.md) selezionato o di un gruppo. A differenza dello strumento standard <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [Vista](TechDraw_View/it.md), le viste create con questo strumento sono gestite da <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md), e appositamente progettato per mostrare oggetti 2D. Vedere le note.
-
-
-</div>
+Lo strumento **TechDraw Vista di Draft** inserisce una vista di un oggetto selezionato basato su [Part](Part_Workbench/it.md) o Gruppo in una pagina di disegno. A differenza dello strumento standard <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [Vista](TechDraw_View/it.md), le viste create con questo strumento sono gestite dallo strumento <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md) e appositamente progettate per mostrare oggetti 2D. Vedere [Note](#Note.md).
 
 ![](images/TechDraw_DraftView_example.png ) 
-*Elementi di Draft, cerchi e schiere, importati in una pagina di disegno TechDraw*
+*Elementi di Draft, cerchi e serie, importati in una pagina di disegno TechDraw*
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare un oggetto Draft nella finestra 3D o nella vista a albero.
-2.  Se nel documento ci sono più pagine di disegno, è necessario selezionare anche la pagina desiderata nella struttura.
-3.  Premere il pulsante **<img src="images/TechDraw_DraftView.svg" width=16px> [Vista di Draft](TechDraw_DraftView/it.md)
-**
-4.  Nella pagina viene aggiunta una vista di un oggetto di Draft.
-
-
-</div>
+1.  Facoltativamente ruotare la [Vista 3D](3D_view/it.md). La direzione della telecamera nella [Vista 3D](3D_view/it.md) determina il valore iniziale della proprietà **Direction** della vista.
+2.  Seleziona uno o più oggetti nella [Vista 3D](3D_view/it.md) o nella [Vista ad albero](Tree_view/it.md). Verrà creata una vista separata per ciascun oggetto.
+3.  Se nel documento sono presenti più pagine di disegno: facoltativamente aggiungere la pagina desiderata alla selezione selezionandola nella [Vista ad albero](Tree_view/it.md).
+4.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/TechDraw_DraftView.svg" width=16px> [Inserisci Oggetto Ambiente Draft](TechDraw_DraftView/it.md)**.
+    -   Seleziona l\'opzione **TechDraw → Viste da altri Ambienti di lavoro → <img src="images/TechDraw_DraftView.svg" width=16px> Inserisci Oggetto Ambiente Draft** dal menu.
+5.  Se nel documento sono presenti più pagine di disegno e non si ha ancora selezionato una pagina, si apre la finestra di dialogo **Scelta pagina**:
+    1.  Selezionare la pagina desiderata.
+    2.  Premere il pulsante **OK**.
 
 
 
 ## Opzioni
 
-
-<div class="mw-translate-fuzzy">
-
--   La creazione di una vista di Draft di un gruppo gestisce in modo ricorsivo tutti gli oggetti trovati in quel gruppo e nei suoi sottogruppi. La vista viene aggiornata automaticamente quando i contenuti del gruppo cambiano.
+-   La creazione di una Vista di Draft di un livello (layer) gestisce in modo ricorsivo tutti gli oggetti trovati su quel livello. La vista viene aggiornata automaticamente quando i contenuti del livello cambiano.
 -   Non è prevista la rimozione delle linee nascoste. Ogni faccia trovata negli oggetti gestiti viene semplicemente proiettata lungo il vettore Direzione, quando le facce si sovrappongono non viene intrapresa nessuna azione specifica.
 -   La vista di Draft supporta anche tutti gli oggetti Draft che non sono basati su parti, come dimensioni e testi
 -   Colore, larghezza e tipo di linea possono essere specificati nelle proprietà. I tipi di linea possono essere perfezionati dando direttamente un valore [stroke-dasharray](https://www.w3.org/TR/SVG/painting.html#StrokeProperties), ad esempio 3,5.
 -   Le facce proiettate vengono riempite con il colore della faccia.
 
 
-</div>
 
+## Note
 
-
-
-<div class="mw-translate-fuzzy">
-
-### Limitazioni
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Poiché la Vista di Draft è resa all\'interno del modulo [Draft](Draft_Workbench/it.md), TechDraw ha un controllo limitato sul suo aspetto. Potrebbe essere necessario apportare delle modifiche all\'interno di Draft per ottenere la rappresentazione desiderata.
-
-
-</div>
+Il rendering di Vista di Draft viene eseguito all\'interno dell\'ambiente [Draft](Draft_Workbench/it.md), pertanto TechDraw ha un controllo limitato sul suo aspetto. Potrebbe essere necessario apportare modifiche all\'interno di Draft per ottenere la rappresentazione desiderata.
 
 
 
 ## Proprietà
 
-See also [TechDraw View](TechDraw_View#Properties.md).
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-### Data
+Una Vista Draft, formalmente un oggetto {{Incode|TechDraw::DrawViewDraft}}, ha le [proprietà](TechDraw_View/it#Properties_Part_View.md) comuni a tutti i tipi di vista. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{TitleProperty|Draft view}}
 
+-    **Source|Link**: l\'oggetto Draft da visualizzare.
 
-<div class="mw-translate-fuzzy">
+-    **Line Width|Float**: la larghezza delle linee, indipendentemente dalla scala.
 
--    **Source**: L\'oggetto di Draft da visualizzare
+-    **Font Size|Float**: la dimensione di tutti i testi che appaiono in questa vista (testi e dimensioni).
 
--    **LineWidth**: La larghezza delle linee, indipendentemente dalla scala
+-    **Direction|Vector**: la direzione di proiezione da utilizzare.
 
--    **FontSize**: Le dimensioni di tutti i testi che compaiono in questa vista (i testi e le dimensioni)
+-    **Color|Color**: il colore delle linee.
 
--    **Direction**: La direzione di proiezione da usare
+-    **Line Style|String**: uno stile di linea da utilizzare per questa vista. Può essere {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dashdot}}, {{Value|Dot}} o un modello di linea SVG come {{Value|0.20,0.20}}.
 
--    **Color**: Il colore delle linee
+-    **Line Spacing|Float**: la spaziatura tra le righe da usare per i testi multilinea.
 
--    **LineStyle**: Lo stile di linea da utilizzare per questa vista. Può essere Solid, Dashed, Dashdot, Dot o un modello linea SVG come 0.20,0.20
-
--    **LineSpacing**: Interlinea per testi multilinea
+-    **Override Style|Bool**: Se `True`, il colore della linea, la larghezza e lo stile di questa vista sovrascriveranno quelli dell\'oggetto renderizzato.
 
 
-</div>
+{{TitleProperty|Drawing view}}
+
+-    **Symbol|String|Hidden**: Il codice SVG che definisce questo simbolo.
+
+-    **Editable Texts|StringList**: Valori di sostituzione per le stringhe modificabili in questo simbolo.
+
+-    **Owner|Link**: Feature a cui è collegato questo simbolo. {{Version/it|1.0}}
 
 
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-<div class="mw-translate-fuzzy">
-
-
-**Vedere anche:**
-
-[API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento New Draft può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
-
-
-</div>
+Lo strumento New Draft può essere utilizzato nelle [macro](Macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
 
 
 ```python
@@ -139,16 +104,10 @@ rc = page.addView(dv)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
 
 
-
-
-</div>
-
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

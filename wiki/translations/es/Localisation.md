@@ -70,15 +70,33 @@ Cuando el wiki se alejó de SourceForge, [Yorik](User_Yorik.md) instaló [MediaW
 
 La herramienta está documentada en [Help:Extension:Translate](http://www.mediawiki.org/wiki/Help:Extension:Translate), y forma parte de [MediaWiki Language Extension Bundle](http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle).
 
+
+<div class="mw-translate-fuzzy">
+
 Para empezar rápidamente a preparar una página para su traducción, lea el [Ejemplo de traducción de una página](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example). Esencialmente, un par de
+
+
+</div>
 
     &lt;translate&gt; ... &lt;/translate&gt;
 
+
+<div class="mw-translate-fuzzy">
+
 tags rodear toda la página para activar el sistema de traducción, y la página debe estar marcada para ser traducida.
+
+
+</div>
 
 Para ver un ejemplo de cómo funciona la herramienta de traducción, visite la [Página principal](Main_Page/es.md). Verá una barra de idiomas generada automáticamente en la parte superior. Haga clic en [Hauptseite](Main_Page/de.md) (alemán), le llevará a [Main Page/de](Main_Page/de.md). Justo debajo del título, puedes leer , siendo XX el porcentaje actual de traducción. Haga clic en \"Traducir\" en la parte superior de la página para iniciar la utilidad de traducción para actualizar, corregir y revisar la traducción existente.
 
+
+<div class="mw-translate-fuzzy">
+
 Si va a [Main Page](Main_Page.md), notará que ya no puede editar la página directamente haciendo clic en las etiquetas \[Edit\], y el enlace superior \"Editar\" ha sido sustituido por el enlace \"Traducir\" que abre la utilidad de traducción.
+
+
+</div>
 
 Cuando se añade un nuevo contenido, la página en inglés debe crearse primero y luego traducirse a otro idioma. Si alguien quiere cambiar o añadir contenido en una página, la página en inglés debe ser modificada primero.
 
@@ -179,12 +197,6 @@ Todo lo que sigue es automático en lo que respecta a un desarrollador. El admin
 Los módulos o macros de terceros se traducen prácticamente de la misma manera, con la diferencia de que debes hacer parte del trabajo tú mismo. Este [discusión del foro](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) describe los detalles.
 
 Actualización: ver [Traducir un banco de trabajo externo](Translating_an_external_workbench/es.md)
-
-
-
-### Técnicas de traducción de módulos más antiguas 
-
-[Localización Métodos antiguos](Localization_Older_Methods/es.md) describe el uso de herramientas de traducción como Qt Linguist, lupdate, lrelease, pylupdate4, etc en detalle. La mayor parte de esto ya no es necesario para los módulos de FreeCAD/master, pero puede ser útil para preparar y actualizar módulos de terceros.
 
 
 

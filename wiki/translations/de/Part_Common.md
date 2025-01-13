@@ -9,18 +9,32 @@
 
 # Part Common/de
 
+
+
 ## Beschreibung
 
 Extrahiert den gemeinsamen Teil (Schnittmenge) zweier ausgewählter Part-Objekte. Diese Operation ist voll parametrisch und die Komponenten können modifiziert und das Ergebnis neu berechnet werden.
+
+
 
 ## Anwendung
 
 1.  Wähle zwei Formen
 2.  Drücke die **![](images/)_[Schnitt](Part_Common/de.md)** Schaltfläche.
 
+
+
 ## Unterstützte Eingaben 
 
 Eingabeobjekte müssen [OpenCASCADE](OpenCASCADE/de.md) Formen sein. Beispiele: Dinge, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurde. Keine Polygonnetze (es sei denn, diese wurden in Formen konvertiert) - für Polygonnetze gibt es gesonderte boolesche Werkzeuge im Netzkonstruktionsarbeitsbereich.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

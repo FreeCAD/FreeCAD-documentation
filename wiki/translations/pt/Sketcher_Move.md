@@ -18,9 +18,12 @@
 
 ## Descrição
 
-Moves the selected sketch elements from one point to another, using the last selected point as reference.
+The <img alt="" src=images/Sketcher_Move.svg  style="width:16px;"> [Sketcher Move](Sketcher_Move.md) command moves the selected sketch elements from one point to another, using the last selected point as reference.
 
-![](images/sketcher_move.png‎ ) 
+![](images/sketcher_move.png‎ )
+
+
+
 *The sequence of clicks is indicated by yellow arrows with numbers. Select element '''A'''; see a vector line indicated by two red lines from pivot point '''A''' pointing to mouse position number '''2'''. Move the mouse pointer to the target location '''3''' and see the element now as '''B''' autoconstrained on point '''3'''.*
 
 ## Usage

@@ -1,7 +1,7 @@
 # Shape/fr
 ## Introduction
 
-Dans FreeCAD, le mot \"[Shape](Shape/fr.md)\" est normalement utilisé pour faire référence à une classe [ Part TopoShape](Part_TopoShape.md) (`Part::TopoShape`), un type d\'objet qui donne un élément sa représentation géométrique et paramétrique 3D (cube, pyramide, sphère, cylindre, fusion, etc.).
+Dans FreeCAD, le mot \"[Shape](Shape/fr.md)\" est normalement utilisé pour faire référence à une classe [ Part TopoShape](Part_TopoShape/fr.md) (`Part::TopoShape`), un type d\'objet qui donne un élément sa représentation géométrique et paramétrique 3D (cube, pyramide, sphère, cylindre, fusion, etc.).
 
 Essentiellement, tous les objets affichés dans la [vue 3D](3D_view/fr.md) ont un [TopoShape](Part_TopoShape/fr.md), à l\'exception des \"[maillages](Mesh/fr.md)\", qui ont un [MeshObject](Mesh_MeshObject/fr.md) (classe `Mesh::MeshObject`).
 

@@ -28,7 +28,7 @@ Obecnie polecenie wskazuje na [<https://wiki.freecad.org/Power_users_hub>](https
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

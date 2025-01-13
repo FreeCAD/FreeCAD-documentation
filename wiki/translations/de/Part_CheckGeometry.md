@@ -77,5 +77,13 @@ In addition to detecting potential geometry errors, this tool shows a range of p
 
 
 
+
+
+{{Part_Tools_navi
+
+}}
+
+
+
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/de

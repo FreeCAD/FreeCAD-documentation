@@ -24,10 +24,9 @@ Creates a FEM boundary condition for a prescribed displacement of a selected obj
 ## Применение
 
 1.  Press the **<img src="images/FEM_ConstraintDisplacement.svg" width=16px> [Displacement boundary condition](FEM_ConstraintDisplacement.md)** button or select the menu **Model → Mechanical boundary conditions and loads → <img src="images/FEM_ConstraintDisplacement.svg" width=16px> Displacement boundary condition**.
-2.  In the [3D view](3D_view.md) select the object the boundary condition should be applied to, which can be a vertex (corner), edge, or face.
-3.  Press the **Add** button.
-4.  Uncheck *Unspecified* to activate the necessary fields for editing.
-5.  Set the values or (<small>(v0.21)</small> ) specify a formula for the displacements.
+2.  Press the **Add** button.
+3.  In the [3D view](3D_view.md) select the object the boundary condition should be applied to, which can be a vertex, edge, or face (but all the selected objects have to be of the same type). To remove objects from the list, press the **Remove** button and click on them.
+4.  Check the boxes next to the degrees of freedom that you want to use. By default, they are set to zero (fixed) but any value (<small>(v0.21)</small> : or a formula for Elmer) can be specified.
 
 ## Formulas
 
@@ -88,7 +87,13 @@ For the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px
 -   Prescribing a displacement for a degree of freedom is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

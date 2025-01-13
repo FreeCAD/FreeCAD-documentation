@@ -44,193 +44,63 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 ### Materiali
 
+  - <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;">[Materiale FEM per solidi](FEM_MaterialSolid/it.md): Consente di selezionare un materiale solido dal database.
 
-<div class="mw-translate-fuzzy">
+  - <img alt="" src=images/FEM_MaterialFluid.svg  style="width:32px;"> [Materiale FEM per fluidi](FEM_MaterialFluid/it.md): Consente di selezionare un materiale fluido dal database.
 
--   <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;">[Materiale FEM per solidi](FEM_MaterialSolid/it.md): Consente di selezionare un materiale dal database.
+  - <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width:32px;"> [Materiale non lineare](FEM_MaterialMechanicalNonlinear/it.md): Consente di aggiungere un modello di materiale meccanico non lineare.
 
+  - <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [ Materiale rinforzato (calcestruzzo)](FEM_MaterialReinforced/it.md): Consente di selezionare dal database i materiali rinforzati costituiti da una matrice e da un rinforzo.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_MaterialFluid.svg  style="width:32px;"> [Materiale FEM per fluidi](FEM_MaterialFluid/it.md): Consente di selezionare un materiale dal database.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width:32px;"> [Materiale non lineare](FEM_MaterialMechanicalNonlinear/it.md): Consente di selezionare un materiale dal database.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [ Materiale rinforzato (calcestruzzo)](FEM_MaterialReinforced/it.md): Consente di selezionare dal database i materiali rinforzati costituiti da una matrice e da un rinforzo.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Editor dei materiali](FEM_MaterialEditor/it.md): Consente di aprire l\'editor dei materiali per modificare i materiali.
-
-
-</div>
+  - <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Editor dei materiali](FEM_MaterialEditor/it.md): Consente di aprire l\'editor dei materiali per modificare i materiali.
 
 
 
 ### Geometria dell\'elemento 
 
+  - <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Sezione trasversale di trave](FEM_ElementGeometry1D/it.md): Utilizzato per definire le sezioni trasversali per gli elementi trave.
 
-<div class="mw-translate-fuzzy">
+  - <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Rotazione di trave](FEM_ElementRotation1D/it.md): Utilizzato per ruotare le sezioni trasversali degli elementi trave.
 
--   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Sezione trasversale di trave](FEM_ElementGeometry1D/it.md): Utilizzato per definire le sezioni trasversali per gli elementi trave.
+  - <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Spessore di una lastra](FEM_ElementGeometry2D/it.md): Utilizzato per definire lo spessore dell\'elemento lastra.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Rotazione di trave](FEM_ElementRotation1D/it.md): Utilizzato per ruotare le sezioni trasversali degli elementi trave.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Spessore di una lastra](FEM_ElementGeometry2D/it.md): Utilizzato per definire lo spessore dell\'elemento lastra.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Sezione del fluido per flusso 1D](FEM_ElementFluid1D/it.md): Utilizzato per creare un elemento sezione del fluido FEM per reti pneumatiche e idrauliche.
-
-
-</div>
+  - <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Sezione del fluido per flusso 1D](FEM_ElementFluid1D/it.md): Utilizzato per creare un elemento sezione del fluido FEM per reti pneumatiche e idrauliche.
 
 ### Electromagnetic boundary conditions 
 
+  - <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Condizione al contorno del potenziale elettrostatico](FEM_ConstraintElectrostaticPotential/it.md): Utilizzato per la definizione del potenziale elettrostatico.
 
-<div class="mw-translate-fuzzy">
+  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Condizione al contorno della densità di corrente](FEM_ConstraintCurrentDensity/it.md): Utilizzato per definire una densità di corrente. {{Version/it|0.21}}
 
-  - <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Vincolo Potenziale elettrostatico](FEM_ConstraintElectrostaticPotential/it.md): Utilizzato per la definizione del potenziale elettrostatico.
+  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Condizione al contorno della magnetizzazione](FEM_ConstraintMagnetization/it.md): Utilizzato per definire una magnetizzazione. {{Version/it|0.21}}
 
 
-</div>
 
+### Condizioni al contorno del fluido 
 
-<div class="mw-translate-fuzzy">
+  - <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Condizione iniziale di velocità del flusso](FEM_ConstraintInitialFlowVelocity/it.md): Utilizzato per definire una velocità di flusso iniziale per un corpo (volume).
 
-  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Vincolo densità di corrente](FEM_ConstraintCurrentDensity/it.md): Utilizzato per definire una densità di corrente. {{Version/it|0.21}}
+  - <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Condizione iniziale di pressione](FEM_ConstraintInitialPressure/it.md): Utilizzato per definire una pressione iniziale per un corpo (volume). {{Version/it|0.21}}
 
+  - <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Condizione al contorno della velocità del flusso](FEM_ConstraintFlowVelocity/it.md): Utilizzato per definire una velocità del flusso come condizione di un contorno su un bordo (2D) o una faccia (3D).
 
-</div>
 
 
-<div class="mw-translate-fuzzy">
+### Caratteristiche dell\'analisi geometrica 
 
-  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Vincolo magnetizzazione](FEM_ConstraintMagnetization/it.md): Utilizzato per definire una magnetizzazione. {{Version/it|0.21}}
+  - <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Vincolo multi-punto piano](FEM_ConstraintPlaneRotation/it.md): Utilizzato per definire un vincolo per mantenere i nodi di una superficie planare sullo stesso piano.
 
+  - <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Funzione di stampa della sezione](FEM_ConstraintSectionPrint/it.md): Utilizzato per stampare le variabili di output facciali predefinite (forze e momenti) nel file di dati.
 
-</div>
+  - <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Sistema di coordinate locali](FEM_ConstraintTransform/it.md): Utilizzato per definire un vincolo di trasformazione su una faccia.
 
 
 
+### Condizioni al contorno e carichi meccanici 
 
-<div class="mw-translate-fuzzy">
+  - <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Condizione al contorno fissa](FEM_ConstraintFixed/it.md): Utilizzato per definire un vincolo fisso su punto/bordo/faccia(e).
 
-### Vincoli dei fluidi 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Vincolo velocità iniziale del flusso](FEM_ConstraintInitialFlowVelocity/it.md): Utilizzato per definire una velocità di flusso iniziale per un corpo (volume).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Vincolo pressione iniziale](FEM_ConstraintInitialPressure.md): Utilizzato per definire una pressione iniziale per un corpo (volume). {{Version/it|0.21}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Vincolo velocità del flusso](FEM_ConstraintFlowVelocity/it.md): Utilizzato per definire una velocità del flusso come condizione di un contorno su un bordo (2D) o una faccia (3D).
-
-
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-### Vincoli geometrici 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Vincolo piano di rotazione](FEM_ConstraintPlaneRotation/it.md): Utilizzato per definire un vincolo piano di rotazione su una faccia piana.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Stampa sezione dei vincoli](FEM_ConstraintSectionPrint/it.md): Utilizzato per stampare le variabili di output facciale predefinite (forze e momenti) nel file dat.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Vincolo trasforma](FEM_ConstraintTransform/it.md): Utilizzato per definire un vincolo di trasformazione su una faccia.
-
-
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-### Vincoli meccanici 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Vincolo fissaggio](FEM_ConstraintFixed/it.md): Utilizzato per definire un vincolo di fissaggio su un punto, bordo o faccia (e).
-
-
-</div>
+  - <img alt="" src=images/FEM_ConstraintRigidBody.svg  style="width:32px;"> [Vincolo di corpo rigido](FEM_ConstraintRigidBody/it.md): Utilizzato per applicare il vincolo di corpo rigido di CalculiX che vincola il movimento dei nodi di un\'entità geometrica selezionata al movimento di un punto di riferimento posizionati dall\'utente. {{Version/it|1.0}}
 
 
 <div class="mw-translate-fuzzy">
@@ -364,9 +234,15 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_MeshGroup.svg  style="width:32px;"> [Gruppo di mesh FEM](FEM_MeshGroup/it.md): Raggruppa ed etichetta insieme gli elementi di una mesh (vertice, bordo, superficie), utile per esportare la mesh a solutori esterni.
 
--   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [ Imposta i nodi](FEM_CreateNodesSet/it.md): Crea o definisce un set di nodi da mesh FEM.
+-   <img alt="" src=images/FEM_CreateElementsSet.svg  style="width:32px;"> [Erase Elements](FEM_CreateElementsSet.md): Hides elements selected by a polygon from the mesh. <small>(v1.0)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Converti mesh FEM in mesh](FEM_FemMesh2Mesh/it.md): Converte la superficie di una mesh FEM in una mesh.
+
+
+</div>
 
 
 
@@ -486,20 +362,54 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/_FEM_MeshDisplayInfo.svg  style="width:32px;"> [Visualizza info mesh FEM](FEM_MeshDisplayInfo/it.md): Visualizza le statistiche di base della mesh esistente - numero di nodi ed elementi di ogni tipo.
 
-## Obsolete tools 
 
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condizione limite del fluido](FEM_ConstraintFluidBoundary/it.md): Utilizzato per definire una condizione al contorno del fluido.
 
--   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Vincolo cuscinetto](FEM_ConstraintBearing/it.md): Utilizzato per definire un vincolo cuscinetto.
-
--   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Vincolo ingranaggio](FEM_ConstraintGear/it.md): Utilizzato per definire un vincolo di ingranaggio.
-
--   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Vincolo puleggia](FEM_ConstraintPulley/it.md): Utilizzato per definire un vincolo puleggia.
+### Strumenti obsoleti 
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Risolutore CalculiX (nuovo framework)](FEM_SolverCalculiX/it.md): Uguale al framework originale <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Risolutore CalculiX Standard](FEM_SolverCalculixCxxtools/it.md) con controlli aggiuntivi.
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condizione limite del fluido](FEM_ConstraintFluidBoundary/it.md): Utilizzato per definire una condizione al contorno del fluido.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Vincolo cuscinetto](FEM_ConstraintBearing/it.md): Utilizzato per definire un vincolo cuscinetto.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Vincolo ingranaggio](FEM_ConstraintGear/it.md): Utilizzato per definire un vincolo di ingranaggio.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Vincolo puleggia](FEM_ConstraintPulley/it.md): Utilizzato per definire un vincolo puleggia.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Risolutore CalculiX (nuovo framework)](FEM_SolverCalculiX/it.md): Uguale al framework originale <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Risolutore CalculiX Standard](FEM_SolverCalculixCxxtools/it.md) con controlli aggiuntivi. Lo strumento era incompleto. Non disponibile in {{VersionPlus/it|0.22}}.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [ Imposta i nodi](FEM_CreateNodesSet/it.md): Crea o definisce un set di nodi da mesh FEM. Lo strumento era incompleto e non poteva essere utilizzato. Non disponibile in {{VersionPlus/it|0.22}}.
 
 
 </div>

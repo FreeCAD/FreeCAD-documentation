@@ -58,7 +58,9 @@ La collection de tutoriels disponibles sur le wiki FreeCAD est encore très épa
 
 FreeCAD est une application très technique, et sa courbe d\'apprentissage peut être raide. Assurez-vous de compter sur les tutoriels, le wiki de la documentation et n\'hésitez pas à poser des questions sur le forum si vous rencontrez un problème spécifique. Les questions clairement énoncées reçoivent généralement des réponses très rapides et très complètes.
 
- Une liste très approximative de choses que vous devez savoir
+
+
+### Une liste très approximative de choses que vous devez savoir 
 
 -   L\'interface FreeCAD est divisée en ateliers. Les ateliers sont simplement des collections d\'outils (boutons de la barre d\'outils et menus) qui sont regroupés, généralement pour une certaine tâche. Lorsque vous passez à un autre atelier, l\'interface affiche les outils de ce plan de travail. Mais le contenu de votre document 3D ne change pas. Vous travaillez toujours sur le même document et sur les mêmes objets.
 
@@ -74,15 +76,13 @@ FreeCAD est une application très technique, et sa courbe d\'apprentissage peut 
 
 
 
-## Exercice: modélisation d\'un panneau de toit 
+## Exercice : modélisation d\'un panneau de toit 
 
 Pour présenter un flux de travail typique dans FreeCAD, modélisons un panneau de toit comme décrit sur <http://opensourceecology.org/wiki/MicroHouse_4_Roof_-_Module_-_Build_Instructions>. Pour ce faire, nous allons commencer à dessiner les différentes pièces dans une esquisse contrainte 2D, puis nous tirerons parti de l\'objet Arch Window spécial, qui est capable de construire des objets 3D complexes à partir d\'une esquisse 2D contenant les contours de plusieurs pièces. Enfin, puisque ce dont nous avons besoin n\'est pas une fenêtre, mais un panneau de toit, nous allons simplement convertir notre objet fenêtre en un autre type Arc
 
 
 
 ### 1. Ouvrez FreeCAD, puis définissez vos unités préférées sur \"impérial\" 
-
-A part pour les US, traduire \"pieds\" par mètre et \"in\" par cm (note du traducteur)
 
 Dans le menu Edition → Préférences → Général → Unités
 
@@ -241,9 +241,11 @@ Les deux outils Draft Rotate et Move utilisent le système Snapping Draft. Diff�
 ![](images/Arch_panel_tutorial_20.jpg )
 
 
-  {{Sketcher Tools navi}}
+{{BIM_Tools_navi
+
+}} {{Draft_Tools_navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/fr
+⏵ [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Arch panel tutorial/fr

@@ -106,7 +106,7 @@ page.addView(hatch)
 </div>
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

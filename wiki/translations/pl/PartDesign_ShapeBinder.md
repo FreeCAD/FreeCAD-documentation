@@ -14,7 +14,7 @@
 
 ## Opis
 
-Narzędzie **Łącznik kształtu** tworzy spoiwo kształtu odwołujące się do geometrii z jednego obiektu nadrzędnego. Łącznik kształtu jest używany wewnątrz [Zawartości](PartDesign_Body/pl.md) do odwoływania się do geometrii spoza obiektu Zawartości. Używanie zewnętrznej geometrii bezpośrednio w bryle jest niedozwolone i prowadzi do błędów wykraczających poza zakres.
+Narzędzie **Łącznik kształtu** tworzy łącznik kształtu odwołujący się do geometrii z jednego obiektu nadrzędnego. Łącznik kształtu jest używany wewnątrz [Zawartości](PartDesign_Body/pl.md) do odwoływania się do geometrii spoza obiektu Zawartości. Używanie zewnętrznej geometrii bezpośrednio w bryle jest niedozwolone i prowadzi do błędów wykraczania poza zakres.
 
 Łącznik kształtu będzie śledził względne położenie geometrii, do której się odwołuje, co jest przydatne w kontekście tworzenia [złożeń](Assembly.md), jeśli jego właściwość **Wsparcie śledzenia** jest ustawiona na wartość {{True/pl}}. Zobacz [przykład](#Przykład.md) poniżej, aby zrozumieć, jak to działa.
 
@@ -27,11 +27,9 @@ Geometrią odniesienia może być pojedynczy obiekt *(na przykład [Prostopadło
 
 ## Użycie
 
-1.  [Aktywuj zawrtość](PartDesign_Body/pl#Pojedyncza_ci.C4.85g.C5.82a_bry.C5.82a.md), w którym Łącznik kształtu ma być zagnieżdżony.
+1.  [Aktywuj zawartość](PartDesign_Body/pl#Pojedyncza_ci.C4.85g.C5.82a_bry.C5.82a.md), w którym Łącznik kształtu ma być zagnieżdżony.
 2.  Opcjonalnie wybierz pojedynczy obiekt lub jeden lub więcej elementów podrzędnych należących do tego samego obiektu nadrzędnego. Elementy podrzędne mogą być wybrane tylko w oknie [widoku 3D](3D_view/pl.md).
-3.  Istnieje kilka sposobów na wywołanie narzędzia:
-    -   Naciśnij przycisk **<img src="images/PartDesign_ShapeBinder.svg" width=16px> [Łącznik kształtu](PartDesign_ShapeBinder/pl.md)**.
-    -   Wybierz opcję **Projekt Części → <img src="images/PartDesign_ShapeBinder.svg" width=16px> Utwórz łącznik kształtu**.
+3.  Wybierz opcję **Projekt Części → <img src="images/PartDesign_ShapeBinder.svg" width=16px> Utwórz łącznik kształtu**.
 4.  Otwiera się panel zadań **Pozycja odniesienia parametrów kształtu**.
 5.  Opcjonalnie wybierz obiekt, nie jest to wymagane, jeśli chcesz wybrać elementy podrzędne:
     1.  Naciśnij przycisk **Obiekt**.
@@ -66,7 +64,17 @@ Aby edytować Łącznik kształtu, kliknij go dwukrotnie w oknie [widoku drzewa]
 
 ## Łącznik kształtu obiektu podrzędnego kontra łącznik kształtu 
 
-Zapoznaj się z akapitem: [Łącznik kształtu obiektu podrzędnego](PartDesign_SubShapeBinder/pl#.C5.81.C4.85cznik_kszta.C5.82tu_obiektu_podrz.C4.99dnego_kontra_.C5.82.C4.85cznik_kszta.C5.82tu.md).
+Narzędzie Łącznik kształtów podrzędnych środowiska pracy Projekt Części i narzędzie [Łącznik kształtu](PartDesign_ShapeBinder/pl.md) są dość podobne. Ich nazwy są nieco mylące, ponieważ oba mogą odwoływać się do całych obiektów i elementów podrzędnych.
+
+Główne różnice to:
+
+-   Edycja Łącznika kształtów środowiska Projekt Części jest łatwiejsza. Dwukrotne kliknięcie obiektu w [Widoku drzewa](Tree_view/pl.md) otworzy panel zadań.
+-   Łącznik kształtu środowiska Projekt Części może odwoływać się do pojedynczego całego obiektu lub elementy podrzędne należą do pojedynczego obiektu nadrzędnego. Łącznik kształtu podrzędnego środowiska Projekt Części nie ma tych ograniczeń.
+-   Tylko Łącznik kształtu podrzędnego środowiska Projekt Części może odwoływać się do geometrii z pliku zewnętrznego.
+-   Łącznik kształtu podrzędnego środowiska Projekt Części zawsze śledzi względne położenie geometrii, do której się odwołuje. W przypadku Łącznika kształtów środowiska Projekt Części to zachowanie jest opcjonalne poprzez jego właściwość **Trace Support**.
+-   Tylko Łącznik kształtu podrzędnego środowiska Projekt Części obsługuje odsunięcie 2D.
+
+Pamiętając, że każde z tych narzędzi ma swoje wady i zalety, a wybór może zależeć od przypadku użycia, można stwierdzić, że użycie Łącznika kształtów podrzędnych jest obecnie zalecane dla większości zastosowań ze względu na jego wszechstronność i zakres opcji. Więcej informacji na temat tych narzędzi można znaleźć w filmie MangoJelly \[<https://www.youtube.com/watch?v=ylAMGQ8HV0w>\| FreeCAD dla początkujących 34: Projekt Części, Łącznik kształtów kontra Łącznik kształtów podrzędnych\].
 
 
 

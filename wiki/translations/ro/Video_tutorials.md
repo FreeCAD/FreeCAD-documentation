@@ -73,7 +73,7 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 ## Design Architectural 
 
-Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench.md), and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
+Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md) and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
 
 Since there are many videos that deal with this topic, please visit [Video tutorials for architectural design](Video_tutorials_for_architectural_design.md).
 
@@ -108,6 +108,8 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 -   [flowwie\'s corner](https://www.youtube.com/c/flowwiescorner/videos) by flowwie in German: a nice series of 62 short videos concerning FreeCAD 0.18 and 0.19, from basic to intermediate level.
 
 -   [Evgeniy Ivanov](https://www.youtube.com/c/CFDIntech/videos) by Evgeniy Ivanov in English: a nice series of videos concerning FreeCAD 0.19, from basic to intermediate level.
+
+-   [FreeCAD tutorials at Spoken tutorials](https://spoken-tutorial.org/tutorial-search/?search_foss=FreeCAD&search_language=English) a series of beginners and intermediate video tutorials.
 
 
 

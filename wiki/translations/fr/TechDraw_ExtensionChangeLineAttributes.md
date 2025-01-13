@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw ExtensionChangeLineAttributes
    Name/fr: TechDraw Modification des attributs
-   MenuLocation: TechDraw , Extensions : attributs/modifications , Modifier les attibuts de lignes
+   MenuLocation: TechDraw , Extensions : attributs/modifications , Modifier les attributs de la ligne
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20
@@ -24,11 +24,11 @@ L\'outil **TechDraw Modification des attributs** modifie les attributs (style, l
 
 ## Utilisation
 
-1.  Spécifiez à votre convenance les attributs d\'une ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;">. [TechDraw Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
+1.  Spécifiez à votre convenance les attributs d\'une ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;">. [TechDraw Choix des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
 2.  Sélectionnez une ou plusieurs lignes cosmétiques et/ou lignes centrales.
 3.  Il existe plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionChangeLineAttributes.svg" width=16px> [Modifier les attibuts de lignes](TechDraw_ExtensionChangeLineAttributes/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions : attributs/modifications → <img src="images/TechDraw_ExtensionChangeLineAttributes.svg" width=16px> Modifier les attibuts de lignes** à partir du menu.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionChangeLineAttributes.svg" width=16px> [Modifier les attributs de lignes](TechDraw_ExtensionChangeLineAttributes/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Extensions : attributs/modifications → <img src="images/TechDraw_ExtensionChangeLineAttributes.svg" width=16px> Modifier les attributs de lignes** à partir du menu.
 4.  Les attributs des lignes sélectionnées sont mis à jour.
 
 

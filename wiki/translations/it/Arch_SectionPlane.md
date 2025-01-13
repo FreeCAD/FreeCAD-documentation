@@ -11,10 +11,19 @@
 # Arch SectionPlane/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento posiziona nel documento corrente un attrezzo **Piano di sezione**, che definisce una sezione o un piano di vista. Il piano di sezione viene posizionato in funzione del corrente [Piano di lavoro](Draft_SelectPlane/it.md) e può essere spostato e riorientato muovendolo e ruotandolo, fino a quando non riproduce la vista 2D che si vuole ottenere. L\'oggetto Piano di sezione prende in considerazione solo un certo insieme di oggetti. Gli oggetti che sono selezionati quando si crea un piano di sezione sono aggiunti a queesto insieme automaticamente. Altri oggetti possono essere aggiunti o rimossi da un Piano di sezione anche in seguito con gli strumenti [Aggiungi componente](Arch_Add/it.md) o [Rimuovi componente](Arch_Remove/it.md), o facendo doppio clic sul Piano di sezione nella vista ad albero.
+
+
+</div>
 
 Il piano di sezione da solo non creerà alcuna vista del suo insieme di oggetti. Per questo, è necessario creare una [Vista Arch di TechDraw](TechDraw_ArchView/it.md) per creare una vista in una [Pagina TechDraw](TechDraw_Workbench/it.md).
 
@@ -24,12 +33,18 @@ Il piano di sezione da solo non creerà alcuna vista del suo insieme di oggetti.
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Opzionalmente, impostare il [Piano di lavoro](Draft_SelectPlane/it.md) per riflettere il piano in cui si desidera posizionare il piano di sezione.
 2.  Selezionare gli oggetti da includere nella sezione.
 3.  Premere il pulsante **<img src="images/Arch_SectionPlane.svg" width=16px> [Piano di sezione](Arch_SectionPlane/it.md)**, oppure premere i tasti **S** e **P**.
 4.  [Spostare](Draft_Move/it.md) o [ruotare](Draft_Rotate/it.md) il piano di sezione nella posizione corretta, se necessario.
 5.  Selezionare il piano di sezione se non è già stato selezionato.
 6.  Utilizzare una [Vista 2D di Draft](Draft_Shape2DView/it.md) o una [Vista TechDraw di Arch](TechDraw_ArchView/it.md) per creare una vista.
+
+
+</div>
 
 
 
@@ -125,6 +140,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/it
+⏵ [documentation index](../README.md) > Arch SectionPlane/it

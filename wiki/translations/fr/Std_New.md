@@ -14,59 +14,83 @@
 
 La commande **Std Nouveau** crée un nouveau document vide et en fait le document actif.
 
+
+
 ## Utilisation
 
-1.  Lancez la commande de plusieurs manières:
-    -   En appuyant sur le bouton **<img src="images/Std_New.svg" width=16px> [Std Nouveau](Std_New/fr.md)
+1.  Lancez la commande de plusieurs manières :
+    -   Appuyez sur le bouton **<img src="images/Std_New.svg" width=16px> [Nouveau](Std_New/fr.md)
 **
-2.  \* Sélectionnez l\'option **File → <img src="images/Std_New.svg" width=16px> Nouveau** dans le menu.
-3.  \* Utilisez le raccourci clavier: **Ctrl**+**N**.
+2.  \* Sélectionnez l\'option **Fichier → <img src="images/Std_New.svg" width=16px> Nouveau** du menu.
+3.  \* Utilisez le raccourci clavier : **Ctrl**+**N**.
+
+
 
 ## Préférences
 
--   FreeCAD créera un nouveau document au démarrage si **Outils → Editer paramètres ... → BaseApp → Preferences → Document → CreateNewDoc** est réglé sur `True`. Ce paramètre peut également être modifié dans les [Réglage des préférences](Preferences_Editor/fr#Document.md).
--   Certaines propriétés du document: noms d\'auteur, nom de l\'entreprise et informations de licence, peuvent être prédéfinies dans [Réglage des préférences](Preferences_Editor/fr#Document.md).
+Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md).
+
+-   Par défaut, FreeCAD démarre sans nouveau document. Cochez l\'option **Édition → Préférences... → Général → Document → Créer un nouveau document au démarrage** pour modifier ce comportement.
+-   Certaines propriétés du document : nom de l\'auteur, nom de la société et informations de licence, peuvent être prédéfinies : **Édition → Préférences... → Général → Document → Création et licence**.
+
+
 
 ## Propriétés
 
-La plupart des propriétés peuvent également être modifiées dans la boîte de dialogue de la commande [Std Information sur le projet](Std_ProjectInfo/fr.md).
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
--    **Comment**: n\'importe quel commentaire.
+La plupart des propriétés peuvent également être modifiées dans la boîte de dialogue de la commande [Std Informations sur le document](Std_ProjectInfo/fr.md).
 
--    **Company**: nom de l\'entreprise. **Peut être prédéfini**.
 
--    **Created By**: nom de l\'auteur. **Peut être prédéfini**.
 
--    **Creation Date**: horodatage automatique. **Non modifiable**.
+### Données
 
--    **File Name**: le chemin complet du fichier. Vide si le document n\'a pas été enregistré. **Non modifiable**.
 
--    **Id**: Pas encore implémenté.
+{{TitleProperty|Base}}
 
--    **Label**: nom qui apparaîtra dans la [vue en arborescence](tree_view/fr.md). Par défaut, le nom du document.
+-    **Comment|String**: tout commentaire éventuel.
 
--    **Last Modified By**: nom de l\'auteur. **Peut être prédéfini**.
+-    **Company|String**: nom de l\'entreprise.
 
--    **Last Modified Date**: horodatage automatique. **Non modifiable**.
+-    **Created By|String**: nom de l\'auteur.
 
--    **License**: type de licence. **Peut être prédéfini**.
+-    **Creation Date|String**: horodatage automatique (en lecture seule).
 
--    **License URL**: URL de licence. **Peut être prédéfini**.
+-    **Nom du fichier|Chaîne**: chemin complet du fichier. Blanc si le document n\'a pas été enregistré (lecture seule).
 
--    **Show Hidden**: Si la valeur est true, les éléments qui ont été masqués dans la [vue en arborescence](tree_view/fr.md) seront quand même affichés. Masquer des éléments dans l\'arborescence peut être utile lorsque vous travaillez sur des modèles plus grands.
+-    **Id|String**: pas encore implémenté.
 
--    **Tip**: Pas encore implémenté.
+-    **Label|String**: le nom qui apparaîtra dans la [vue en arborescence](Tree_view/fr.md). Remplacé par le nom du document après réouverture.
 
--    **Tip Name**: Pas encore implémenté.
+-    **Last Modified By|String**: nom de l\'auteur.
 
--    **Transient Dir**: répertoire transitoire utilisé pour les données de récupération. **Non modifiable**.
+-    **Last Modified Date|String**: horodatage automatique (en lecture seule).
+
+-    **License|String**: type de licence.
+
+-    **License URL|String**: URL de la licence.
+
+-    **Material|Map|Hidden**: associé aux propriétés des matériaux.
+
+-    **Meta|Map|Caché**: associé à des méta-informations supplémentaires.
+
+-    **Show Hidden|Bool**: si true, les éléments qui ont été cachés dans l\'arborescence seront quand même affichés. Cacher des éléments dans l\'arbre peut s\'avérer utile lorsque l\'on travaille sur des modèles de grande taille.
+
+-    **Tip|Link**: pas encore implémenté.
+
+-    **Tip Name|String**: pas encore implémenté.
+
+-    **Transient Dir|String**: répertoire de transition utilisé pour les données de récupération (en lecture seule).
+
+-    **Uid|UUID|Hidden**: UUID du document (en lecture seule).
+
+-    **Unit System|Enumeration**: système d\'unité du document. La valeur initiale dépend du [système d\'unités par défaut](Preferences_Editor/fr#Général_2.md). {{Version/fr|1.0}}
+
+
 
 ## Script
 
-
-**Voir aussi:**
-
-[FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 Pour créer un nouveau document, utilisez la méthode `newDocument([name], [hidden<nowiki>=</nowiki>False])` de l\'application FreeCAD. Le nom du document doit être unique, ce qui est vérifié automatiquement. Si aucun nom n\'est fourni, le document sera nommé \"Sans titre\". Si `hidden<nowiki>=</nowiki>True` est utilisé, le nouveau document ne sera pas affiché dans l\'interface graphique et aucun onglet n\'apparaîtra pour ce document.
 
@@ -97,7 +121,7 @@ FreeCAD.closeDocument(doc.Name)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

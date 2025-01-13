@@ -3,6 +3,8 @@
 
 
 
+
+
 ## Introdução
 
 The [Test Framework Workbench](Testing.md) is not really a modelling workbench, but it contains a set of [Python](Python.md) scripts to perform different tests on the core components of FreeCAD, in order to debug problems. See also [debugging](debugging.md).
@@ -80,7 +82,7 @@ Add test function
 
 Add test function
 
-### TestPathApp
+### TestCAMApp
 
 Path workbench test cases:
 

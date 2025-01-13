@@ -10,9 +10,13 @@
 
 # Std Redo/it
 
+
+
 ## Descrizione
 
 Il comando **Ripristina** inverte l\'azione del comando [Annulla](Std_Undo/it.md).
+
+
 
 ## Utilizzo
 
@@ -21,36 +25,29 @@ Il comando **Ripristina** inverte l\'azione del comando [Annulla](Std_Undo/it.md
     -   Selezionare l\'opzione **Modifica → <img src="images/Std_Redo.svg" width=16px> Ripristina** dal menu.
     -   Usare la scorciatoia da tastiera: **Ctrl**+**Y**.
 
+
+
 ## Opzioni
 
 -   Per ripristinare più azioni, fare clic sulla freccia nera a destra del pulsante **<img src="images/Std_Redo.svg" width=16px> Ripristina** e selezionare dall\'elenco.
 
+
+
 ## Preferenze
 
--   La funzione Annulla o Ripristina può essere disabilitata impostando **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → UsingUndo** su `False`, ma questo non è raccomandato. Questa impostazione può anche essere modificata nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
--   Il numero massimo di passaggi di Annulla o Ripristina è controllato da **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → MaxUndoSize**. Questa impostazione può anche essere modificata nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
+Vedere [Annulla](Std_Undo/it#Preferenze.md).
+
+
 
 ## Script
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
-
-Per ripristinare un\'azione che è stata appena annullata, utilizzare il metodo `redo` dell\'oggetto documento.
-
-
-```python
-import FreeCAD
-
-FreeCAD.ActiveDocument.redo()
-```
+Vedere [Annulla](Std_Undo/it#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

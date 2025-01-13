@@ -4,7 +4,7 @@
    Name/pl: Rysunek Techniczny: Dodaj widok do grupy wycinków
    MenuLocation: Rysunek Techniczny , Widoki wycinków , Dodaj widok do grupy wycinków
    Workbenches: TechDraw_Workbench/pl
-   SeeAlso: TechDraw_ClipGroup/pl, TechDraw_ClipGroupRemove/pl
+   SeeAlso: 
 ---
 
 # TechDraw ClipGroupAdd/pl

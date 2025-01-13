@@ -14,12 +14,9 @@
 
 ## Opis
 
-Narzędzie do obliczania wszystkich fragmentów, które mogą wynikać z zastosowania operacji logicznych między kształtami wejściowymi. Na przykład dla dwóch przenikających się kul generowane są trzy nienakładające się, ale stykające się bryły.
+Narzędzie <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> **Fragmentacja funkcją logiczną** oblicza wszystkie fragmenty, które mogą wynikać z zastosowania operacji logicznych między kształtami wejściowymi. Na przykład dla dwóch przenikających się kul generowane są trzy nienakładające się, ale stykające się bryły.
 
-![600px](images/Part_BooleanFragments_Demo.png)
-
-
-
+![600px](images/Part_BooleanFragments_Demo.png) 
 *Na powyższym obrazku poszczególne elementy zostały ręcznie rozsunięte, aby uwidocznić cięcie.*
 
 Kształt wyjściowy jest zawsze złożony. Zawartość złożenia zależy od typu kształtu wejściowego i trybu działania. Oznacza to, że nie masz natychmiastowego dostępu do poszczególnych elementów wyniku - elementy pozostają zgrupowane. Poszczególne elementy można wyodrębnić poprzez rozbicie złożenia funkcją *([Rozbij kształt](Draft_Downgrade/pl.md))*.
@@ -36,15 +33,11 @@ W trybie \"BryłaZłożona\" bryły są łączone w bryłę złożoną *(bryła 
 
 ## Użycie
 
-1.  Wybierz obiekty do przecięcia.
-
-Kolejność wyboru nie ma znaczenia, ponieważ działanie narzędzia jest symetryczne. Wystarczy wybrać jeden kształt podrzędny każdego obiektu *(np. ściany)*. Możesz także wybrać złożenie zawierające wszystkie kształty do połączenia, np. [w Szyku ortogonalnym](Draft_OrthoArray/pl.md).
-
-1.  Polecenie **Fragmentacja funkcją logiczną** można wywołać na kilka sposobów:
-    -   Naciskając przycisk <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> na pasku narzędzi.
-    -   Używając pozycji **Część → Podziel → Fragmentacja funkcją logiczną** w menu głównym.
-
-Tworzony jest obiekt parametryczny \\\FragmentyLogiczne\\\. Oryginalne obiekty są ukrywane, a wynik połączenia jest wyświetlany w oknie [widoku 3D](3D_view/pl.md).
+1.  Wybierz obiekty do przecięcia. Kolejność wyboru nie ma znaczenia, ponieważ działanie narzędzia jest symetryczne. Wystarczy wybrać jeden kształt podrzędny każdego obiektu *(np. ściany)*. Możesz także wybrać złożenie zawierające wszystkie kształty do połączenia, np. [w Szyku ortogonalnym](Draft_OrthoArray/pl.md).
+2.  Istnieje kilka sposobów na wywołanie tego narzędzia:
+    -   Naciśnij przycisk **<img src="images/Part_BooleanFragments.svg" width=16px> [Fragmentacja funkcją logiczną](Part_BooleanFragments/pl.md)**.
+    -   Wybierz opcję **Część → Podziel → <img src="images/Part_BooleanFragments.svg" width=16px> Fragmentacja funkcją logiczną** z menu.
+3.  Utworzony zostanie parametryczny obiekt Boolean Fragments. Oryginalne obiekty zostaną ukryte a wynik przecięcia będzie pokazany w [widoku 3D](3D_view/pl.md).
 
 
 
@@ -107,6 +100,14 @@ Samo narzędzie jest zaimplementowane w środowisku Python, patrz /Mod/Part/BOPT
 ## Uwagi
 
 Narzędzie zostało wprowadzone w wersji FreeCAD v0.17.8053. FreeCAD musi być skompilowany z OCC **6.9.0** lub nowszym. W przeciwnym razie narzędzie jest niedostępne.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

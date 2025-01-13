@@ -14,7 +14,7 @@
 
 ## Opis
 
-Tworzy szyk wybranych elementów szkicownika.
+Narzędzie <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> **Szyk prostokątny** tworzy tablicę wybranych elementów szkicu.
 
 
 

@@ -40,10 +40,6 @@ Crée une contrainte FEM pour une condition de limite de température.
 
 </div>
 
-### Option
-
-By default, this feature defines a temperature boundary condition. By using the option **Concentrated heat flux**, one can specify a heat flux value (in mW) in each node belonging to the selected geometrical entity.
-
 
 
 ## Notă

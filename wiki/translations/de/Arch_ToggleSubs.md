@@ -2,9 +2,9 @@
  GuiCommand:
    Name: Arch ToggleSubs
    Name/de: Arch UnterkomponentenUmschalten
-   MenuLocation: Arch , Dienstprogramme , Unterkomponenten umschalten
-   Workbenches: Arch_Workbench/de
-   Shortcut: **Strg**+**Leertaste**
+   MenuLocation: Utils , Unterkomponenten umschalten
+   Workbenches: BIM_Workbench/de
+   Shortcut: Ctrl + Space
    SeeAlso: Arch_Component/de
 ---
 
@@ -14,28 +14,36 @@
 
 ## Beschreibung
 
-Dieses Werkzeug schaltet die Sichtbarkeit aller Subtraktionen eines [Arch](Arch_Workbench/de.md) Objekts zwischen sichtbar und verborgen um.
+Das Werkzeug **Arch UnterkomponentenUmschalten** schaltet die Sichtbarkeit aller Subtraktionen eines [BIM](BIM_Workbench/de.md)-Objekts zwischen ein- und ausgeblendet um.
 
-Wenn ein Bogenobjekt, wie z.B. eine [Arch Wand](Arch_Wall/de.md), ausgewählt ist und du **Leerzeichen** drückst, wird normalerweise nur die Außenwand ausgeblendet oder sichtbar gemacht, nicht aber die inneren Objekte.
+Wenn ein Arch-Objekt, wie z.B. eine [Arch-Wand](Arch_Wall/de.md), ausgewählt ist und das **Leerzeichen** gedrückt wird, wird normalerweise nur die Außenwand aus- bzw. eingeblendet, nicht aber die inneren Objekte.
 
-Mit diesem Werkzeug werden die inneren subtrahierten Objekte alle sichtbar oder verborgen.
+Mit diesem Werkzeug werden alle inneren abgezogenen Objekte ein- bzw. ausgeblendet.
 
 
 
 ## Anwendung
 
-1.  Wähle ein Arch-Objekt aus, das Subtraktionen hat.
-2.  Menü auswählen **Arch → Dienstprogramme → <img src="images/Arch_ToggleSubs‏‎.svg" width=16px> [Unterkomponenten umschalten](Arch_ToggleSubs/de.md)**.
+1.  Ein Arch-Objekt auswählen, das Abzugsobjekte enthält.
+2.  Den Menüeintrag **Utils → <img src="images/Arch_ToggleSubs‏‎.svg" width=16px> [Unterkomponenten umschalten](Arch_ToggleSubs/de.md)** auswählen.
 
 
 
 ## Optionen
 
-Die Farbe eines Subtraktionselements kann dem Stil der [Entwurfskonstruktion](Draft_ToggleConstructionMode/de.md) Elemente folgen, indem die entsprechende Option in den [Arch_Einstellungen](Arch_Preferences/de.md), im Menü **Bearbeiten → Einstellungen → Arch → Allgemeine Einstellungen → Entwurfskonstruktionsstil auf Unterkomponenten anwenden** aktiviert wird.
+Die Farbe eines Subtraktionselements kann dem Stil der [Draft-Konstruktions](Draft_ToggleConstructionMode/de.md)- Elemente folgen, indem die entsprechende Option in den [Arch-Einstellungen](Arch_Preferences/de.md) im Menü **Bearbeiten → Einstellungen → Arch → Allgemeine Einstellungen → Anwenden des Draft Konstruktionsstils auf Teilkomponenten** aktiviert wird.
 
-Der [Entwurfskonstruktion](Draft_ToggleConstructionMode/de.md) Stil kann in den [Entwurf Einstellungen](Draft_Preferences/de.md), im Menü **Einstellungen → Entwurf → Allgemeiner Entwurf** eingestellt werden.
+Der [Draft-Konstruktions](Draft_ToggleConstructionMode/de.md)-Stil kann in den [Draft-Einstellungen](Draft_Preferences/de.md), im Menü **Einstellungen → Draft → Allgemeine Einstellungen** eingestellt werden.
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/de
+⏵ [documentation index](../README.md) > Arch ToggleSubs/de

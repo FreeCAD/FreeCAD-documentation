@@ -129,20 +129,20 @@ This command will print a list of all the pages containing a link to SourceForge
 
 {{SystemInput|pwb.py listpages.py -weblink:sourceforge.net}}
 
-This command will replace all the links to the old SourceForge Forum with a link to the new freecadweb.org-hosted Forum
+This command will replace all the links to the old SourceForge Forum with a link to the new freecad.org-hosted Forum
 
 
-{{SystemInput|pwb.py replace.py -weblink:sourceforge.net/apps/phpbb/free-cad "sourceforge.net/apps/phpbb/free-cad" "forum.freecadweb.org"}}
+{{SystemInput|pwb.py replace.py -weblink:sourceforge.net/apps/phpbb/free-cad "sourceforge.net/apps/phpbb/free-cad" "forum.freecad.org"}}
 
 This command will print a list of all the pages containing the word \'PartDesign\', starting with the page titled \"2d Drafting Module\" and going on alphabetically
 
 
 {{SystemInput|pwb.py listpages.py -start:"2d Drafting Module" -grep:PartDesign}}
 
-This command will replace all the secure links to the old SourceForge Forum with a link to the new freecadweb.org-hosted Forum in the translated pages
+This command will replace all the secure links to the old SourceForge Forum with a link to the new freecad.org-hosted Forum in the translated pages
 
 
-{{SystemInput|pwb.py replace.py -start:Translations:! "https://sourceforge.net/apps/phpbb/free-cad" "http://forum.freecadweb.org"}}
+{{SystemInput|pwb.py replace.py -start:Translations:! "https://sourceforge.net/apps/phpbb/free-cad" "http://forum.freecad.org"}}
 
 ## FreeCAD Wiki Related Commands 
 
@@ -156,7 +156,7 @@ List all pages that a specific wiki templates is used in
 
 {{SystemInput|python3 pwb.py templatecount -list GuiCommand}}
 
-Replace a string in all the pages listed in the Arch category (a/k/a )
+Replace a string in all the pages listed in the Arch category
 
 
 {{SystemInput|python3 pwb.py replace.py -cat:Arch}}

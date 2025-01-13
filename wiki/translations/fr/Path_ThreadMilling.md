@@ -1,38 +1,7 @@
----
- GuiCommand:
-   Name: Path ThreadMilling
-   Name/fr: Path Fraisage de filets
-   MenuLocation: Path , Opérations spécialisées , Fraisage de filets
-   Workbenches: Path_Workbench/fr
----
-
 # Path ThreadMilling/fr
-
-## Description
-
-
-
-## Utilisation
-
-## Options
-
-
-
-## Propriétés
-
-
-
-## Script
-
-
-
-
-
-{{Path_Tools_navi
-
-}}
+1.  REDIRECT [CAM_ThreadMilling/fr](CAM_ThreadMilling/fr.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ThreadMilling/fr
+⏵ [documentation index](../README.md) > Path ThreadMilling/fr

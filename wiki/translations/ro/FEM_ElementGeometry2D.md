@@ -15,7 +15,7 @@
 
 </div>
 
-**ElementGeometry2D** is used to define the thickness of shell FEM elements, all or lying on the chosen surface.
+**ElementGeometry2D** is used to define the thickness of 2D (shell and <small>(v1.0)</small> : plane stress/strain) FEM elements, all or lying on the chosen surface.
 
 
 
@@ -31,7 +31,7 @@
     -   Press the **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [Shell plate thickness](FEM_ElementGeometry2D.md)** button.
     -   Select the **Model → Element Geometry → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Shell plate thickness** option from the menu.
 2.  Specify the shell thickness.
-3.  Optionally press the **Add** button in the task panel and then click on the face you want to have a prescribed thickness. If the face selection is empty, all remaining faces (whose thickness is not defined by other [FEM ElementGeometry2D](FEM_ElementGeometry2D.md) objects) will be automatically assigned.
+3.  Optionally press the **Add** button in the task panel and then click on the face you want to have a prescribed thickness. If the face selection is empty, all the remaining faces (whose thickness is not defined by other [FEM ElementGeometry2D](FEM_ElementGeometry2D.md) objects) will be automatically assigned.
 
 ## Limitations
 
@@ -42,13 +42,12 @@
 
 **Thickness**
 
-: specifies the thickness of the shell.
-
-## Scripting
+: specifies the thickness of the 2D elements.
 
 ## Notes
 
-For viewing results from CalculiX solver on the mesh expanded to the prescribed thickness, property `Beam Shell Result Output 3D` in the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) need to be set to `True`.
+-   For viewing results from CalculiX solver on the mesh expanded to the prescribed thickness, property `Beam Shell Result Output 3D` in the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) need to be set to `True`.
+-   This feature uses the [\*SHELL SECTION card in CalculiX](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node238.html) for shell elements and [\*SOLID SECTION card](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node239.html) for plane stress/strain elements.
 
 
 

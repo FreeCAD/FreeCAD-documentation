@@ -9,6 +9,8 @@
 
 # FEM MeshDisplayInfo/de
 
+
+
 ## Beschreibung
 
 Displays basic statistics of existing mesh - number of nodes and elements of each type. Particularly, total number of the following features is shown:
@@ -36,12 +38,16 @@ Displays basic statistics of existing mesh - number of nodes and elements of eac
 -   Quadratic prisms,
 -   Quadratic pyramids.
 
+
+
 ## Anwendung
 
 1.  Zuerst ein Finite-Elemente-Netz erstellen (mit einer der vorhandenen Möglichkeiten).
 2.  Das Netz in der [Baumansicht](Tree_view/de.md) auswählen.
 3.  Mit der rechten Maustaste darauf klicken und **<img src="images/FEM_MeshDisplayInfo.svg" width=16px> [Informationen zum FEM-Netz anzeigen](FEM_MeshDisplayInfo/de.md)** im Kontextmenü auswählen.
 4.  Zum Schließen des FEM-Mesh-Info-Fensters, klickt man **OK**.
+
+
 
 ## Skripten
 

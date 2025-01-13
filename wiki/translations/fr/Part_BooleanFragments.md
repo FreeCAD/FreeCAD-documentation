@@ -12,12 +12,9 @@
 
 ## Description
 
-Outil permettant de calculer tous les fragments pouvant résulter de l\'application d\'opérations booléennes entre des formes d\'entrée. Par exemple, pour deux sphères entrecroisées, trois solides non chevauchants mais se touchant sont générés.
+L\'outil <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> **Part Fragments booléens** calcule tous les fragments qui peuvent résulter de l\'application d\'opérations booléennes entre des formes d\'entrée. Par exemple, pour deux sphères entrecroisées, trois solides non chevauchants mais se touchant sont générés.
 
-![600px](images/Part_BooleanFragments_Demo.png)
-
-
-
+![600px](images/Part_BooleanFragments_Demo.png) 
 *Dans l'image ci-dessus, les pièces ont été déplacées manuellement pour révéler la fragmentation.*
 
 La forme résultante est toujours un composé. Le contenu du composé dépend des types de forme et du mode opératoire. Cela signifie que vous n\'avez pas immédiatement accès aux éléments individuels du résultat. Ces éléments restent regroupés. Chaque élément peut être extrait en faisant exploser le composé ([Draft Désagréger](Draft_Downgrade/fr.md)).
@@ -34,13 +31,11 @@ En mode \"CompSolid\" (composé de solides), les solides sont combinés en un co
 
 ## Utilisation
 
-1.  Sélectionnez les objets à intersecter.
-    L\'ordre de sélection n\'est pas important, puisque l\'action de l\'outil est symétrique. Il suffit de sélectionner une sous-forme de chaque objet (par exemple, les faces). Vous pouvez également sélectionner un composé contenant toutes les formes à connecter, par exemple [Draft Réseau orthogonal](Draft_OrthoArray/fr.md).
-2.  Lancez la commande Part Fragments booléens de plusieurs façons :
-    -   En appuyant sur le bouton <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> de la barre d\'outils.
-    -   En utilisant l\'entrée **Part → Scinder → Fragments booléens** dans le menu Part.
-
-Un objet paramétrique Fragments booléens est créé. Les objets d\'origine sont cachés et le résultat de l\'intersection est affiché dans la [vue 3D](3D_view/fr.md)
+1.  Sélectionnez les objets à intersecter. L\'ordre de sélection n\'est pas important puisque l\'action de l\'outil est symétrique. Il suffit de sélectionner une sous-forme de chaque objet (par exemple, les faces). Vous pouvez également sélectionner un composé contenant toutes les formes à connecter, par exemple un [Draft Réseau orthogonal](Draft_OrthoArray/fr.md).
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le **<img src="images/Part_BooleanFragments.svg" width=16px> [Fragments booléens](Part_BooleanFragments/fr.md)**.
+    -   Sélectionnez l\'option **Part → Scinder → <img src="images/Part_BooleanFragments.svg" width=16px> Fragments booléens** du menu.
+3.  Un objet paramétrique Fragments booléens est créé. Les objets originaux sont cachés et le résultat de l\'intersection est affiché dans la [vue 3D](3D_view/fr.md).
 
 
 
@@ -103,6 +98,14 @@ L\'outil lui-même est implémenté en Python, voir /Mod/Part/BOPTools/SplitFeat
 ## Remarques
 
 L\'outil a été introduit dans FreeCAD v0.17.8053. FreeCAD doit être compilé avec OCC 6.9.0 ou version ultérieure, sinon l\'outil n\'est pas disponible.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

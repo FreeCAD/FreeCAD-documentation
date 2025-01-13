@@ -23,7 +23,7 @@ FreeCAD può memorizzare le impostazioni della fotocamera in un massimo di 50 \"
 
 ### Descrizione
 
-L\'opzione di menu **Salva le viste \...** salva tutte le viste bloccate esistenti in un file con l\'estensione \*.cam.
+L\'opzione di menu **Salva le viste \...** salva tutte le viste bloccate esistenti in un file con l\'estensione ***.cam**.
 
 
 
@@ -48,7 +48,7 @@ L\'opzione di menu **Salva le viste \...** salva tutte le viste bloccate esisten
 
 ### Descrizione 
 
-L\'opzione del menu **Carica le viste\...** carica le viste bloccate da un file con l\'estensione \*.cam. Tutte le viste bloccate esistenti vengono eliminate.
+L\'opzione del menu **Carica le viste\...** carica le viste bloccate da un file con l\'estensione ***.cam**. Tutte le viste bloccate esistenti vengono eliminate.
 
 
 
@@ -123,7 +123,7 @@ Per ogni vista bloccata viene aggiunta un\'opzione **Ripristina vista** con la q
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

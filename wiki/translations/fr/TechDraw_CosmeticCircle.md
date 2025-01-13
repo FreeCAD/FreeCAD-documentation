@@ -4,7 +4,7 @@
    Name/fr: TechDraw Cercle cosmétique
    MenuLocation: TechDraw , Ajouter des lignes , Ajouter un cercle cosmétique
    Workbenches: TechDraw_Workbench/fr
-   Version: 0.22
+   Version: 1.0
    SeeAlso: TechDraw_2PointCosmeticLine/fr
 ---
 
@@ -52,7 +52,7 @@ Pour modifier les attributs d\'un cercle cosmétique :
 
 ## Remarques
 
--   Pour supprimer un cercle cosmétique, utilisez <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md) ou sélectionnez-le et appuyez sur **Suppr**.
+-   Pour supprimer un cercle cosmétique, sélectionnez-le et appuyez sur **Supprimer**.
 -   Pour modifier l\'apparence d\'un cercle cosmétique, utilisez <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [TechDraw Apparence des lignes](TechDraw_DecorateLine/fr.md).
 
 
@@ -73,7 +73,7 @@ Les cercles cosmétiques peuvent être créés à l\'aide de la méthode {{Incod
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

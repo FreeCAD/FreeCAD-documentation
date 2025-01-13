@@ -1,25 +1,35 @@
 # Arch SHP/pl
-## Description
+## Opis
 
-FreeCAD is able to import [shapefiles](https://en.wikipedia.org/wiki/Shapefile)
+FreeCAD jest w stanie importować [pliki typu shapefiles](https://en.wikipedia.org/wiki/Shapefile).
 
-The importer uses the shapefile.py library from <https://github.com/GeospatialPython/pyshp>, it is not found on your system on first run, the importer will propose to download and install it for you.
+Importer korzysta z biblioteki shapefile.py ze strony <https://github.com/GeospatialPython/pyshp>. Jeśli nie zostanie ona znaleziona w systemie przy pierwszym uruchomieniu, importer zaproponuje jej pobranie i zainstalowanie.
 
-Shapefiles are composed of 3 files (a .shp, a .shx and a .dbf file), any of them can be used with this importer. They are composed of 2D objects of one geometry type, that can be polygons/faces, polylines or point cloud (all 3 types are supported by this importer), and custom fields, for which each face, polyline or point in the shapefile has a value. This is the real gem of GIS, to bind a database with geometry. The most common use is to have one field to represent the elevation coordinate of each shape in the file. On opening the file, the importer will ask you what field to get shape elevations from.
+Obiekty Shapefiles składają się z 3 plików *(.shp, .shx i .dbf)*, z których każdy może być używany z tym importerem. Zawierają one obiekty 2D jednego typu geometrii, które mogą być wielokątami/powierzchniami, poliliniami lub chmurami punktów *(wszystkie 3 typy są obsługiwane przez ten importer)*, oraz pola niestandardowe, dla których każda powierzchnia, polilinia lub punkt w pliku shapefile ma wartość. Jest to prawdziwy klejnot GIS, umożliwiający powiązanie bazy danych z geometrią. Najczęstszym zastosowaniem jest posiadanie jednego pola reprezentującego współrzędne wysokości każdego kształtu w pliku. Po otwarciu pliku importer zapyta, z którego pola pobrać wysokość kształtu.
 
-One shape will be created from each shapefile in FreeCAD.
+Z każdego pliku kształtu w programie FreeCAD zostanie utworzony jeden kształt.
 
-Note that all the question of georeferenced units, with hundreds of projection systems used worldwide, is not treated at the moment. The coordinates from the file are used \"as is\".
+Należy zauważyć, że kwestia jednostek georeferencyjnych, przy setkach systemów projekcyjnych używanych na całym świecie, nie jest obecnie rozpatrywana. Współrzędne z pliku są używane w stanie „takim, jakim są".
 
-## Related
 
--   FreeCAD Forum thread announcement [Shapefile Importer](https://forum.freecadweb.org/viewtopic.php?f=9&t=46150)
--   Forum thread on [OSArch](https://community.osarch.org/discussion/comment/578#Comment_578) discussion
--   [Import Export](Import_Export.md)
--   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
--   [Import Export Preferences](Import_Export_Preferences.md)
+
+## Powiązane
+
+-   Ogłoszenie na forum FreeCAD [Shapefile Importer](https://forum.freecadweb.org/viewtopic.php?f=9&t=46150)
+-   Dyskusja na forum [OSArch](https://community.osarch.org/discussion/comment/578#Comment_578)
+-   [Import Eksport](Import_Export/pl.md)
+-   [FreeCAD Jak importować eksportować](FreeCAD_Howto_Import_Export.md)
+-   [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md)
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch SHP/pl
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch SHP/pl

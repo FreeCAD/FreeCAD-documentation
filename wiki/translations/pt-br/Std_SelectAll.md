@@ -24,7 +24,7 @@ The **Std SelectAll** command selects all objects in the [Tree view](Tree_view.m
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -13,6 +13,8 @@
 
 
 
+
+
 ## Introduction
 
 Ce tutoriel porte sur la mise en place d\'un mécanisme simple, principalement avec les outils de l\'<img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [atelier externe Assembly3](Assembly3_Workbench/fr.md).
@@ -22,7 +24,11 @@ L\'assemblage cinématique que nous allons créer se compose de quatre parties :
 <img alt="" src=images/Assembly3_KinematicExample-01.png  style="width:400px;"> 
 *Pièces assemblées : la base (ambre), le curseur (bleu clair), la manivelle (rouge), la bielle (vert)*
 
+
+
 ## Assemblage
+
+
 
 ### Les pièces 
 
@@ -42,7 +48,11 @@ La **bielle** comporte deux trous cylindriques.
 
 <img alt="" src=images/Assembly3_KinematicExample-05.png  style="width:300px;">
 
+
+
 ### Liaisons
+
+
 
 #### Verrouiller la base 
 
@@ -58,6 +68,8 @@ Pour maintenir l\'assemblage à la position désirée, il faut verrouiller la ba
 
 Ensuite, les quatre parties sont reliées par quatre articulations. La chaîne cinématique commence à la base.
 
+
+
 #### Liaison base-curseur 
 
 La liaison base-curseur est une **liaison cylindrique**. Elle permet au curseur de glisser et de tourner autour de l\'axe Z du trou de la base tout en gardant les axes Z des deux éléments alignés (colinéaires).
@@ -70,6 +82,8 @@ La contrainte correspondante est la contrainte \"AxialAlignment\". Elle fonction
 
 <img alt="" src=images/Assembly3_KinematicExample-10.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_KinematicExample-11.png  style="width:300px;"> 
 *Faces sélectionnées → Objets alignés*
+
+
 
 #### Liaison base-manivelle 
 
@@ -84,6 +98,8 @@ La contrainte correspondante est la contrainte \"PlaneCoincident\". Elle fonctio
 <img alt="" src=images/Assembly3_KinematicExample-12.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_KinematicExample-13.png  style="width:300px;"> 
 *Face et bord sélectionnés → Objets alignés*
 
+
+
 #### Liaison curseur-bielle 
 
 La liaison curseur-bielle est une **articulation charnière**. Elle permet à la tige de tourner autour de l\'axe Z de la tige du curseur tout en maintenant les axes Z des deux éléments alignés (colinéaires) et le décalage entre leurs plans XY constant.
@@ -97,6 +113,8 @@ La contrainte correspondante est la contrainte \"PlaneCoincident\" (voir ci-dess
 <img alt="" src=images/Assembly3_KinematicExample-14.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_KinematicExample-15.png  style="width:300px;"> 
 *Face et bord sélectionnés → Objets alignés*
 
+
+
 #### Liaison manivelle-bielle 
 
 La liaison manivelle-bielle est un *joint cylindrique*. Elle permet à la tige de tourner et de glisser le long de l\'axe Z de la manivelle tout en maintenant les axes Z des deux éléments alignés (colinéaires). Mais seule la rotation sera possible car le mouvement de glissement est limité par la combinaison de l\'articulation base-manivelle et de l\'articulation curseur-bielle.
@@ -109,6 +127,8 @@ La contrainte correspondante est la contrainte \"AxialAlignment\" (voir ci-dessu
 
 <img alt="" src=images/Assembly3_KinematicExample-16.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_KinematicExample-01.png  style="width:300px;"> 
 *Faces sélectionnées → Objets alignés*
+
+
 
 #### Contraintes redondantes 
 
@@ -128,6 +148,8 @@ D\'autre part, la rotation autour de l\'axe X (rouge) est déjà empêchée par 
 :   Pour éviter cette redondance, un objet auxiliaire et les contraintes correspondantes pourraient être insérés, mais ceci est pour un autre tutoriel.
 :   Pour éviter de contraindre deux fois le décalage entre la base et la bielle, différentes contraintes ont été utilisées, une seule d\'entre elles fixant le mouvement le long de l\'axe Z.
 
+
+
 ### Actionneur
 
 Il s\'agit toujours d\'un assemblage statique. Pour le transformer en un assemblage cinématique, une contrainte doit être utilisée comme actionneur. Pour utiliser la contrainte \"PlaneCoincident\" de la liaison base-manivelle comme actionneur, nous devons contrôler l\'angle entre l\'axe de la base et la manivelle. Ceci peut être fait en définissant la propriété **Lock Angle** à `True`. Et pour une utilisation ultérieure, l\'étiquette est marquée du suffixe *.Driver*.
@@ -135,6 +157,8 @@ Il s\'agit toujours d\'un assemblage statique. Pour le transformer en un assembl
 La propriété **Angle** peut maintenant être utilisée pour faire tourner la manivelle.
 
 <img alt="" src=images/Assembly3_KinematicExample-07.gif  style="width:350px;">
+
+
 
 ## Contrôleur
 

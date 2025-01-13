@@ -27,10 +27,14 @@ Installation manuelle
 
 Allez sur <https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons> et suivez les instructions qui y sont données. Vous y trouverez également de plus amples informations sur cet atelier.
 
+
+
 ## Utilisation
 
 -   Une fois installé, ouvrez l\'atelier Pyramids-and-Polyhedrons
 -   Cliquez sur une partie de votre choix et ajustez les paramètres selon vos préférences.
+
+
 
 ## Tutoriels sur youtube 
 
@@ -39,7 +43,7 @@ Allez sur <https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons> et suiv
 
 ## Discussion
 
-Veuillez diriger vos commentaires, idées, réflexions sur cet atelier vers le fil de discussion dédié de FreeCAD (lien). Les bogues peuvent également être soumis à la file d\'attente des problèmes de dépôt GitHub.
+Veuillez diriger vos commentaires, idées, réflexions sur cet atelier vers le fil de discussion dédié de FreeCAD (lien). Les bogues peuvent également être soumis à la file d\'attente des problèmes sur le dépôt GitHub.
 
 
 

@@ -21,7 +21,7 @@ Currently the command points to [<https://wiki.freecad.org/User_hub>](https://wi
 
 
 
- {{Std Base navi}}
+ {{Std_Base_navi}}
 
 
 

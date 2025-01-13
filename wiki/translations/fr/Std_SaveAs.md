@@ -23,30 +23,19 @@ La commande **Std Enregistrer sous** enregistre le document actif sous un nouvea
 
 ## Options
 
--   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
+-   Appuyez sur **Échap** ou sur le bouton **Annuler** pour annuler la commande.
 
 
 
 ## Remarques
 
--   Cette commande peut également être utilisée pour enregistrer des graphiques de dépendance. Voir [Std Graphique de dépendance](Std_DependencyGraph/fr.md).
-
-
-
-## Préférences
-
--   Le dernier emplacement de fichier utilisé est stocké: **Outils → Éditer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Cette commande peut également être utilisée pour enregistrer des graphiques des dépendances. Voir [Std Graphe des dépendances](Std_DependencyGraph/fr.md).
 
 
 
 ## Script
 
-
-**Voir aussi :**
-
-[FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
-
-Pour enregistrer un document sous un nouveau nom, utilisez la méthode `saveAs` de l\'objet document. Pour un exemple de script, voir [Std Nouveau](Std_New/fr.md).
+Voir [Std Nouveau](Std_New/fr#Script.md).
 
 
 

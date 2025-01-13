@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil **TechDraw Infobulle** peut ajouter des infobulles avec une ligne de référence dans un dessin.
+L\'outil **TechDraw Infobulle** peut ajouter des infobulles avec une ligne de repère dans un dessin.
 
 <img alt="" src=images/Techdraw_balloon.png  style="width:600px;">
 
@@ -21,10 +21,10 @@ L\'outil **TechDraw Infobulle** peut ajouter des infobulles avec une ligne de r�
 ## Utilisation
 
 1.  Sélectionnez l\'un des éléments suivants :
-    -   Une vue (sur la page ou dans la [Vue en arborescence](Tree_view/fr.md)).
-    -   Un sommet dans une vue. {{Version/fr|0.20}}
-    -   Une arête dans une vue. {{Version/fr|0.20}}
-    -   Une région fermée dans une vue. {{Version/fr|0.20}}
+    -   Une vue (sur la page ou dans la [vue en arborescence](Tree_view/fr.md)).
+    -   Un sommet dans une vue.
+    -   Une arête dans une vue.
+    -   Une région fermée dans une vue.
 2.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_Balloon.svg" width=16px> [Insérer une infobulle](TechDraw_Balloon/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Annotations → <img src="images/TechDraw_Balloon.svg" width=16px> Insérer une infobulle** du menu.
@@ -34,13 +34,13 @@ L\'outil **TechDraw Infobulle** peut ajouter des infobulles avec une ligne de r�
 
 Pour déplacer la bulle de l\'infobulle, appuyez et maintenez le bouton gauche de la souris sur son centre et faites glisser la souris.
 
-Pour modifier les propriétés d\'une infobulle, double-cliquez dessus dans la page ou dans la [Vue en arborescence](Tree_view/fr.md). Cela ouvrira le panneau des tâches de l\'infobulle.
+Pour modifier les propriétés d\'une infobulle, double-cliquez dessus dans la page ou dans la [vue en arborescence](Tree_view/fr.md). Cela ouvrira le panneau des tâches de l\'infobulle.
 
 **Remarque :** la position de l\'infobulle est relative à sa vue source et utilise le même facteur d\'échelle.
 
 
 
-## Utiliser les séparateurs 
+## Utiliser des séparateurs 
 
 Lorsque vous utilisez une forme de rectangle, vous pouvez ajouter des séparateurs en utilisant \"\|\" dans le texte. Par exemple \"AAA\|TEST\|111\" donne :
 
@@ -72,9 +72,11 @@ Lorsque vous utilisez une forme de rectangle, vous pouvez ajouter des séparateu
 
 -    **Text Wrap**: longueur d\'habillage du texte. -1 signifie que le texte ne sera jamais encapsulé et que le résultat est dans tous les cas une seule ligne.
 
--    **Kink Length**: distance entre la **forme** et le pli de la ligne de repère.
+-    **Kink Length**: distance de la **forme** au pli de la ligne de repère.
 
 -    **X**: position horizontale de l\'infobulle par rapport à la vue.
+
+-    **Y**: position verticale de l\'infobulle par rapport à la vue.
 
 
 
@@ -108,7 +110,7 @@ rc = page.addView(bal1)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

@@ -3,7 +3,7 @@
    Name: PartDesign_Scaled
    Name/fr: PartDesign Mise à l'échelle
    MenuLocation: Aucune 
-   Workbenches: PartDesign Workbench/fr
+   Workbenches: PartDesign_Workbench/fr
    SeeAlso: PartDesign_MultiTransform/fr
 ---
 
@@ -45,7 +45,7 @@ S\'il n\'y a pas eu une transformation au préalable lors de la <img alt="" src=
 1.  Sélectionnez un élément du corps actif dans la [vue en arborescence](Tree_view/fr.md).
 2.  Effectuez l\'une des opérations suivantes :
     -   Appuyez sur le bouton **<img src="images/PartDesign_MultiTransform.svg" width=16px> [Transformation multiple](PartDesign_MultiTransform/fr.md)**.
-    -   Sélectionnez l\'option **Part Design → Appliquer une transformation → <img src="images/PartDesign_MultiTransform.svg" width=16px> Transformation multiple** du menu.
+    -   Sélectionnez l\'option **PartDesign → Appliquer une transformation → <img src="images/PartDesign_MultiTransform.svg" width=16px> Transformation multiple** du menu.
 3.  Le [panneau des tâches](Task_panel/fr.md) **Paramètres de la transformation multiple** s\'ouvre. Voir ci-dessus.
 
 ## Options

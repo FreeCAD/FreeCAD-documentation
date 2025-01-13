@@ -4,6 +4,7 @@
    Name/it: Grafico delle dipendenze
    MenuLocation: Strumenti , Grafico delle dipendenze...
    Workbenches: Tutti
+   SeeAlso: Std_ExportDependencyGraph/it
 ---
 
 # Std DependencyGraph/it
@@ -25,7 +26,7 @@ Il grafico delle dipendenze è uno strumento di pura visualizzazione, quindi non
 
 ## Installazione
 
-Per utilizzare il grafico delle dipendenze, si deve prima installare un software di terze parti chiamato [Graphviz](http://graphviz.org/). Se Graphviz non è installato in precedenza o è installato in una posizione non convenzionale, FreeCAD visualizza il seguente dialogo:
+Per utilizzare il grafico delle dipendenze, si deve prima installare un software di terze parti chiamato [Graphviz](https://graphviz.org/). Se Graphviz non è installato in precedenza o è installato in una posizione non convenzionale, FreeCAD visualizza il seguente dialogo:
 
 ![](images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png )
 
@@ -150,7 +151,7 @@ Quindi si può dire a FreeCAD di cercare in quella directory.
 
 1.  Assicurarsi che la scheda del grafico delle dipendenze sia in primo piano.
 2.  Selezionare l\'opzione **File → [Salva](Std_Save/it.md)** o **File → [Salva con nome](Std_SaveAs/it.md)** dal menu.
-3.  Immettere un nome per il file e selezionare il tipo di file (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg or \*.pdf).
+3.  Immettere un nome per il file e selezionare il tipo di file (\*.gv, \*.png, \*.bmp, \*.gif, \*.jpg, \*.svg or \*.pdf).
 4.  Premere il pulsante **Salva**.
 
 
@@ -158,7 +159,7 @@ Quindi si può dire a FreeCAD di cercare in quella directory.
 ## Principi generali 
 
 -   Il grafico mostra gli oggetti in ordine cronologico inverso, dal basso verso l\'alto.
--   La direzione delle frecce che mostrano le dipendenze dovrebbe sempre puntare verso il basso, dall\'oggetto figlio all\'oggetto genitore. Una freccia rivolta verso l\'alto indica una dipendenza ciclica, ed è un problema che deve essere risolto.
+-   La direzione delle frecce che mostrano le dipendenze dovrebbe sempre puntare verso il basso. Una freccia rivolta verso l\'alto indica una dipendenza ciclica, ed è un problema che deve essere risolto.
 -   Uno schizzo che contiene collegamenti a una [geometria esterna](Sketcher_External/it.md), oltre alla freccia che lo collega al suo genitore, ha un numero con un suffisso \'x\' e mostra il numero della geometria esterna collegata nello schizzo.
 -   Gli oggetti possono avere dipendenze da più genitori. Ad esempio, per un modello costruito in [PartDesign](PartDesign_Workbench/it.md), una Tasca può essere collegata al suo Schizzo e alla funzione Pad che lo precede.
 -   Le dipendenze non consentite (ad esempio tra un\'operazione di [Draft](Draft_Workbench/it.md) o [Part](Part_Workbench/it.md) e un elemento all\'interno di un [Corpo di PartDesign](PartDesign_Body/it.md)) sono visualizzate con una freccia rossa. Questo tipo di collegamento mostra in genere un errore \'Links go out of allowed scope\' nella [vista reportvista](Report_view/it.md) report.
@@ -167,19 +168,13 @@ Quindi si può dire a FreeCAD di cercare in quella directory.
 
 
 
-## Limitazioni
-
--   Il grafico delle dipendenze non è di aiuto con problemi causati dal problema della [denominazione topologica](Topological_naming_problem/it.md). Se uno schizzo scambia le facce di una funzione dopo una modifica, esso è ancora collegato alla funzione. Anche se alcune funzioni sono interrotte, il grafico delle dipendenze rimane invariato.
 
 
-
-
-
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/it
+⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > Std DependencyGraph/it

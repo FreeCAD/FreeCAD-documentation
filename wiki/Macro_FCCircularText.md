@@ -4,8 +4,8 @@
 |Icon=FCCircularTextButtom.png
 |Description=This macro makes use of the [[Draft ShapeString]] tool to create a text line placed in different circular orientations, including circumferential and helical (in the fashion of a Trajan Column). It can also be used to create a clock face with Arabic numerals ''1, 2, 3,'' etc., or Roman numerals ''I, II, III,'' etc.
 |Author=Mario52
-|Version=0.22c
-|Date=2023/11/17
+|Version=0.22e
+|Date=2024/07/11
 |FCVersion=0.19 and more
 |Download=[https://www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png ToolBar Icon]
 }}
@@ -371,7 +371,7 @@ the last Radio Button used is saved in the parameter of FreeCAD
 
 -    **Reset**: Reset all values and displays the number of characters displayed in the window.
 
--    **Run Comp**: Launches the macro and creates a Compount object of all characters.
+-    **Run Comp**: Launches the macro and creates a Compound object of all characters.
 
 -    **Run**: Launches the macro
 
@@ -494,7 +494,7 @@ The button icon:
 
 or download the script :
 
-\- on github [Macro_FCCircularText.FCMacro](https://gist.github.com/mario52a/a25e802498bae6959335) ver 0.21 2022/05/31
+\- on github [Macro_FCCircularText.FCMacro](https://gist.github.com/mario52a/a25e802498bae6959335)
 
 \- at the forum [Extrude from curved surface of cylinder](http://forum.freecadweb.org/viewtopic.php?f=3&t=7384&p=87642#p87642)
 
@@ -719,6 +719,10 @@ Image:FCCircularText Correction.gif\|Character overlap issue and the workaround
  Writing on a path circular text of position object selected.
 
 ## Change log 
+
+-   ver 0.22e 2024/07/11 : delete **\"ss.support = None\"**
+
+-   ver 0.22d 2024/07/11 : delete **\"import WebGui\"** cause error in 0.22xxx FC and replaced by **\"import webbrowser\"**
 
 -   ver 0.22c 2023/11/17 : adding restore selection after delete the last object , by TheMarkster , thanks
 

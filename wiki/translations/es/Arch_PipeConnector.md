@@ -11,6 +11,11 @@
 
 # Arch PipeConnector/es
 
+
+</div>
+
+
+
 ## Descripción
 
 
@@ -24,6 +29,8 @@ Esta herramienta permite crear una conexión de esquina o de salida en T entre d
 
 </div>
 
+
+
 ## Como utilizar 
 
 
@@ -36,9 +43,13 @@ Esta herramienta permite crear una conexión de esquina o de salida en T entre d
 
 </div>
 
+
+
 ### Propiedades
 
 -    {{PropertyData/es|Radius}}: El radio de curvatura de este conector
+
+
 
 ## Flujo de trabajo típico 
 
@@ -76,7 +87,9 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 -   Creates a `Connector` object from the given `pipes`, which is a list of [Arch Pipes](Arch_Pipe.md), and optionally a `radius` of curvature.
     -   The base objects ([Draft Wires](Draft_Wire.md)) of the [Arch Pipes](Arch_Pipe.md) should share an endpoint so they create a proper, smooth connector.
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -119,6 +132,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/es
+⏵ [documentation index](../README.md) > Arch PipeConnector/es

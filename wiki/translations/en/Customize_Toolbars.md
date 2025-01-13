@@ -1,9 +1,24 @@
+---
+ TutorialInfo:
+   Topic: Customize Toolbars
+   Level: Beginner
+   Time: 5 minutes
+   Author: User:Mario52
+   FCVersion: All
+   SeeAlso: Interface_Customization.
+---
+
 # Customize Toolbars/en
-{{TutorialInfo|Topic=SampleTopic|Level=Beginner|Time=5 minutes|Author=[Mario52](User_Mario52.md)|FCVersion=All}}
+
+
+
+
 
 ## Synopsis
 
-This tutorial shows you the customization of toolbars. Tools (inclusive Macro-tools) can be used in different workbenches. In an example a Macro becomes a Macro-tool by creation of a **Menu text**, a **Tool tip** and an **Icon**. Afterwards this Macro-tool becomes part of an extra toolbar in a workbench.
+This tutorial shows how to add a button for a [macro](Macro.md) to a custom toolbar.
+
+For more general information see [Interface Customization](Interface_Customization.md).
 
 ## Usage
 
@@ -107,11 +122,7 @@ This tutorial shows you the customization of toolbars. Tools (inclusive Macro-to
 
 -   Your new toolbar is now contained in the toolbars\' right-click menu. Its Icons (in our example only the camera) are visible, if the toolbar is activated (blue checkmark).
 
-<img alt="New Toolbar" src=images/CustomizeToolBar_18.png  style="width:640px;"> 
-
-## Notes
-
-See also [Interface Customization](Interface_Customization.md).
+<img alt="New Toolbar" src=images/CustomizeToolBar_18.png  style="width:640px;">
 
 
 

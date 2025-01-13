@@ -1,48 +1,59 @@
 ---
  GuiCommand:
    Name: Arch Building
-   MenuLocation: Arch , Building
-   Workbenches: Arch_Workbench
+   Name/pl: Architektura: Budynek
+   MenuLocation: 3d / BIM , Budynek
+   Workbenches: BIM_Workbench/pl
    Shortcut: **B** **U**
-   SeeAlso: Arch_BuildingPart, Arch_Site
+   SeeAlso: 
 ---
 
 # Arch Building/pl
 
-## Description
-
-The Arch Building is a special type of FreeCAD group object particularly suited for representing a whole building unit. They are mostly used to organize your model, by containing [floor](Arch_Floor.md) objects.
-
-## Usage
-
-1.  Optionally, select one or more objects to be included in your new building.
-2.  Press the **<img src="images/Arch_Building.svg" width=16px> [Arch Building](Arch_Building.md)** button, or press the **B** then **U** keys.
-
-## Options
-
--   Starting from FreeCAD version 0.18, the Building object is actually a [BuildingPart](Arch_BuildingPart.md) with its **IFC Type** property set to \"Building\". You can convert any BuildingPart to a Building simply by changing its IFC Type.
--   After creating a building, you can add more objects to it by drag and dropping them in the Tree View or by using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
--   You can remove objects from a building by drag and dropping them out of it the Tree View or by using the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
-
-## Properties
-
--    **Building Type**: The type of this building, to choose from a list
-
-## Scripting
 
 
-**See also:**
+## Opis
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+**Budynek** środowiska Architektura jest specjalnym typem obiektu grupy FreeCAD, szczególnie odpowiednim do reprezentowania całej jednostki budynku. Są one najczęściej używane do organizowania modelu, zawierając obiekty [kondygnacji](Arch_Floor/pl.md).
 
-The Building tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+
+
+## Użycie
+
+1.  Opcjonalnie wybierz jeden lub więcej obiektów, które mają być zawarte w nowym budynku.
+2.  Naciśnij przycisk **<img src="images/Arch_Building.svg" width=16px> '''Budynek'''** lub naciśnij klawisze **B**, a następnie **U**.
+
+
+
+## Opcje
+
+-   Począwszy od wersji FreeCAD 0.18, obiekt Budynku jest w rzeczywistości obiektem [Część budynku](Arch_BuildingPart/pl.md) z jego właściwością **Typ IFC** ustawioną na \"Building\". Możesz przekonwertować dowolną Część budynku na budynek, po prostu zmieniając jej typ IFC.
+-   Po utworzeniu budynku można dodać do niego więcej obiektów, przeciągając je i upuszczając w widoku drzewa lub używając przycisku **<img src="images/Arch_Add.svg" width=16px> [Połącz obiekty](Arch_Add/pl.md)**.
+-   Możesz usunąć obiekty z budynku przeciągając i upuszczając je w widoku drzewa lub używając narzędzia **<img src="images/Arch_Remove.svg" width=16px> [Usuń komponent](Arch_Remove/pl.md)**.
+
+
+
+## Właściwości
+
+-    **Typ Budynku**: Typ tego budynku, do wyboru z listy.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Budynek** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji: 
 ```python
 Building = makeBuilding(objectslist=None, baseobj=None, name="Building")
 ```
 
--   Creates a `Building` object from `objectslist`, which is a list of objects, or `baseobj`, which is a `Shape`.
+-   Tworzy obiekt `Building` z `objectslist`, który jest listą obiektów, lub `baseobj`, który jest obiektem `Shape`.
 
-Example:
+Przykład:
 
 
 ```python
@@ -65,5 +76,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/pl
+⏵ [documentation index](../README.md) > Arch Building/pl

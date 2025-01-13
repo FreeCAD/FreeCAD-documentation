@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -33,6 +35,8 @@ To group 3D objects as a single unit, with the intention of creating assemblies,
 *Various elements inside Std Groups in the tree view.*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utilizare
@@ -54,6 +58,8 @@ De îndată ce semnul se schimbă într-un simbol \"plus\", este posibil să vă
 
 </div>
 
+
+
 ## Proprietăți
 
 The [Std Group](Std_Group.md), internally called [App DocumentObjectGroup](App_DocumentObjectGroup.md) (`App::DocumentObjectGroup` class), is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class) and inherits all its properties.
@@ -72,6 +78,8 @@ The Std Group has the same properties as the [App FeaturePython](App_FeaturePyth
 
 
 </div>
+
+
 
 ## Script
 
@@ -115,6 +123,8 @@ obj.Label = "Custom label"
 ```
 
 For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPython` object with a custom icon and additional properties.
+
+
 
 ## Legături
 

@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descripción
 
 Las Construcciones son un tipo especial de objeto grupo de FreeCAD particularmente ajustadas para la representación de una unidad de construcción completa. Se utilizan principalmente para organizar el modelo, conteniendo objetos [piso](Arch_Floor/es.md).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -35,6 +39,8 @@ Las Construcciones son un tipo especial de objeto grupo de FreeCAD particularmen
 
 </div>
 
+
+
 ## Opciones
 
 
@@ -49,6 +55,8 @@ Las Construcciones son un tipo especial de objeto grupo de FreeCAD particularmen
 ## Properties
 
 -    **Building Type**: The type of this building, to choose from a list
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
@@ -108,6 +116,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/es
+⏵ [documentation index](../README.md) > Arch Building/es

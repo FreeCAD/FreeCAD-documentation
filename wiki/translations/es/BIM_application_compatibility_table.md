@@ -9,7 +9,13 @@ Esta página da una visión general de cómo las diferentes herramientas y conce
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 **HACER:** Añadir otras aplicaciones BIM: Allplan, Tekla, Vectorworks, BricsCAD, ¿qué más?
+
+
+</div>
 
 +++++
 |                                                        | FreeCAD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Revit                                                                                                                                                                                                                            | ArchiCAD                                                                                                                                                                                                                               |
@@ -42,4 +48,4 @@ Esta página da una visión general de cómo las diferentes herramientas y conce
 
 
 ---
-⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM application compatibility table/es
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM application compatibility table/es

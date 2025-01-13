@@ -1,7 +1,7 @@
 # FEM Mesh/pl
 ## Stwórz siatkę elementów skończonych 
 
-Analiza metodą elementów skończonych (MES) jest przeprowadzana na siatce składającej się z wielu trójkątnych i czworokątnych elementów skończonych, na które podzielona jest oryginalna geometria. Im gęstsza siatka, tym dokładniejsze będą wyniki, ale też dłużej potrwają obliczenia. Równowaga między rozmiarem siatki a czasem obliczeń i dokładnością wyników to istotna charakterystyka dobrze zdefiniowanej analizy MES.
+Analiza [metodą elementów skończonych (MES)](https://pl.wikipedia.org/wiki/Metoda_element%C3%B3w_sko%C5%84czonych) jest przeprowadzana na siatce składającej się z wielu trójkątnych/czworościennych i czworokątnych/prostopadłościennych lub innych elementów skończonych, na które podzielona jest oryginalna geometria. Im gęstsza siatka, tym dokładniejsze będą wyniki, ale też dłużej potrwają obliczenia. Równowaga między rozmiarem siatki a czasem obliczeń i dokładnością wyników to istotna charakterystyka dobrze zdefiniowanej analizy MES.
 
 W [środowisku pracy MES](FEM_Workbench/pl.md) dostępne są różne sposoby przygotowywania siatki:
 
@@ -10,7 +10,7 @@ W [środowisku pracy MES](FEM_Workbench/pl.md) dostępne są różne sposoby prz
 -   Import siatki z zewnętrznego środowiska. Uściślając, Gmsh i Netgen mogą być użyte poza programem FreeCAD aby stworzyć siatkę dla brył takich jak modele w plikach Step.
 -   Ręczne tworzenie siatki poprzez skrypty [Pythona](Python/pl.md).
 
-Narzędzia Gmsh i Netgen wspierają tworzenie siatki dla obiektów tworzonych w środowiskach pracy [Część](Part_Workbench/pl.md) i [Projekt Części](PartDesign_Workbench/pl.md), jak również prostych kopii tych obiektów. W ogólności, każde środowisko pracy, które generuje bryły, jak [Architektura](Arch_Workbench/pl.md) może być użyte do przygotowania geometrii, na której zostanie utworzona siatka. Zwróć uwagę, że siatka używana do analiz MES jest inna niż siatka tworzona lub importowana ze środowiska pracy [Siatka](Mesh_Workbench/pl.md).
+Narzędzia Gmsh i Netgen wspierają tworzenie siatki dla obiektów tworzonych w środowiskach pracy [Część](Part_Workbench/pl.md) i [Projekt Części](PartDesign_Workbench/pl.md), jak również prostych kopii tych obiektów. W ogólności, każde środowisko pracy, które generuje bryły, jak [BIM](BIM_Workbench/pl.md) może być użyte do przygotowania geometrii, na której zostanie utworzona siatka. Zwróć uwagę, że siatka używana do analiz MES jest inna niż siatka tworzona lub importowana ze środowiska pracy [Siatka](Mesh_Workbench/pl.md).
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 *Środowisko pracy MES wywołuje zewnętrzne narzędzie Gmsh aby uzyskać siatkę z bryły utworzonej w dowolnym środowisku pracy we FreeCAD; może również zaimportować siatkę utworzoną poza FreeCAD*
@@ -652,7 +652,7 @@ Więcej informacji o elementach i ich strukturze danych we FreeCAD można znale�
 
 
 
-## Skrypty
+## Tworzenie skryptów 
 
 
 

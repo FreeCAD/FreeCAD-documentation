@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -24,24 +26,34 @@ La herramienta [Arquitectura Armadura](Arch_Truss/es.md) construye un objeto [1]
 
 <img alt="" src=images/Arch_Truss_example.png  style="width:600px;">
 
+
+
 ## Utilización
+
+
 
 ### Crear a partir de un objeto seleccionado 
 
 1.  Use a workbench of your choice to create a single line
 2.  Select that line
-3.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Arch Truss](Arch_Truss.md)** button
+3.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Truss](Arch_Truss.md)** button
 4.  Adjust the truss properties to your liking
+
+
 
 ### Crear desde cero 
 
 1.  Make sure nothing is selected
-2.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Arch Truss](Arch_Truss.md)** button
+2.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Truss](Arch_Truss.md)** button
 3.  Click in the 3D view to define a first point, or manually enter X, Y and Z coordinates
 4.  Click in the 3D view to define a second point, or manually enter X, Y and Z coordinates
 5.  Adjust the truss properties to your liking
 
+
+
 ## Propiedades
+
+
 
 ### Datos
 
@@ -74,6 +86,8 @@ La herramienta [Arquitectura Armadura](Arch_Truss/es.md) construye un objeto [1]
 -    **RodEnd**: If the truss has a rod at its endpoint or not
 
 -    **RodMode**: How to draw the rods
+
+
 
 ## Archivos de guión 
 
@@ -111,6 +125,11 @@ truss.HeightEnd = 400
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/es
+⏵ [documentation index](../README.md) > Arch Truss/es

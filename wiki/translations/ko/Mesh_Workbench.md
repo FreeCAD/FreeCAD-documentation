@@ -1,19 +1,32 @@
-# <img alt="Mesh workbench icon" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/ko
+# Mesh Workbench/ko
+<div class="mw-translate-fuzzy">
 
 
 
 
-## Introduction
 
-The <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md) handles [triangle meshes](http://en.wikipedia.org/wiki/Triangle_mesh). Meshes are a special type of 3D object, composed of triangular faces connected by their vertices and edges.
+</div>
 
-Many 3D applications, like [Sketchup](http://en.wikipedia.org/wiki/Sketchup), [Blender](http://en.wikipedia.org/wiki/Blender_(software)), [Maya](http://en.wikipedia.org/wiki/Maya_(software)) and [3D Studio Max](http://en.wikipedia.org/wiki/3d_max), use meshes as their primary type of 3D object. Since meshes are very simple objects, containing only vertices (points), edges and triangular faces, they are very easy to create, modify, subdivide, stretch, and can easily be passed from one application to another without any loss of details. In addition, since meshes contain very simple data, 3D applications can usually manage very large quantities of them without using a lot of resources. For these reasons, meshes are often the 3D object type of choice for applications dealing with movies, animation, and image creation.
+<img alt="메쉬 작업대 아이콘" src=images/Workbench_Mesh.svg  style="width:128px;">
 
-However, in the field of engineering meshes present a big limitation: they cannot accurately define curved surfaces. This is why FreeCAD relies on [Brep](wikipedia_Boundary_representation.md) instead. The Mesh Workbench offers some commands to directly manipulate meshes, but it is most often used to import 3D mesh data and convert it to a solid for use with the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) or <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md).
+
+
+
+
+
+## 소개
+
+<img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> **메쉬 작업대**에서는 [삼각형 메쉬](http://en.wikipedia.org/wiki/Triangle_mesh)를 처리합니다.메쉬는 꼭지점과 가장자리로 연결된 삼각형 면으로 구성된 특별한 유형의 3D 개체입니다.
+
+[Sketchup](http://en.wikipedia.org/wiki/Sketchup), [Blender](http://en.wikipedia.org/wiki/Blender_(software)), [Maya](http://en.wikipedia.org/wiki/Maya_(software)) 및 [3D Studio Max](http://en.wikipedia.org/wiki/3d_max)와 같은 많은 3D 응용 프로그램은 메쉬를 기본 유형의 3D 개체로 사용합니다. 메쉬는 꼭지점(점), 모서리 및 삼각형 면만 포함하는 매우 단순한 개체이므로 생성, 수정, 세분화, 늘리기가 매우 쉽고 세부 정보 손실 없이 한 응용 프로그램에서 다른 응용 프로그램으로 쉽게 전달할 수 있습니다. 이러한 이유로 메쉬는 영화, 애니메이션 및 이미지 생성을 다루는 응용 프로그램에서 선택되는 3D 객체 유형인 경우가 많습니다.
+
+그러나 엔지니어링 메쉬 분야에서는 다음과 같은 큰 한계가 있습니다: 곡면을 정확하게 정의할 수 없습니다. 이것이 FreeCAD가 대신 [Brep에](wikipedia_Boundary_Representation.md) 의존하는 이유입니다. 메쉬 워크벤치는 메쉬를 직접 조작하는 몇 가지 명령을 제공하지만, 3D 메쉬 데이터를 가져와 솔리드로 변환하여 <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [부품 작업대또는](Part_Workbench/ko.md) <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [부품설계 작업대와](PartDesign_Workbench/ko.md) 함께 사용하는 데 가장 많이 사용됩니다.
 
 <img alt="" src=images/Mesh_example.jpg  style="width:500px;">
 
-## Tools
+
+
+## 도구
 
 All Mesh Workbench tools can be accessed from the **Meshes** menu. Almost all are also available in one of the Mesh toolbars.
 
@@ -84,9 +97,9 @@ All Mesh Workbench tools can be accessed from the **Meshes** menu. Almost all ar
 
 There are some [export preferences related to Mesh Formats](Import_Export_Preferences#Mesh_Formats.md) but these are not used by commands belonging to this workbench. They are used by the [Std Export](Std_Export.md) command.
 
-Mesh Workbench preferences can be found in the following categories of the [Preferences Editor](Preferences_Editor.md):
+Mesh Workbench preferences can be found in the following groups in the [Preferences Editor](Preferences_Editor.md):
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor#Display.md): On the [Mesh view](Preferences_Editor#Mesh_view.md) tab several preferences can be set.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor#Display.md): On the [Mesh view](Preferences_Editor#Mesh_view.md) page several preferences can be set.
 -   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences.md): The [Mesh Union](Mesh_Union.md), [Mesh Intersection](Mesh_Intersection.md) and [Mesh Difference](Mesh_Difference.md) commands require [OpenSCAD](http://www.openscad.org/) and use the **OpenSCAD executable** preference to find its executable.
 
 ## Notes
@@ -97,7 +110,13 @@ Mesh Workbench preferences can be found in the following categories of the [Pref
 -   See [Asymptote](Asymptote.md) to export meshes to the Asymptote format.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Mesh Tools navi

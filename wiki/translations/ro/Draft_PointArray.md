@@ -25,11 +25,9 @@ Instrumentul PointArray plasează copii ale unei forme selectate de-a lungul dif
 
 </div>
 
-The base object can be a 2D object created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also a 3D object such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
+The base object can be a 2D object created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also a 3D object such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [BIM Workbench](BIM_Workbench.md).
 
-The point object can be any object with a shape and vertices (including a [Std Part](Std_Part.md) containing one or more of such objects), as well as a [mesh](Mesh_Workbench.md) and a [point cloud](Points_Workbench.md). Duplicate points in the point object are filtered out. <small>(v0.21)</small> 
-
-In {{VersionMinus|0.20}} only three point object types are supported see [Point object version 0.20 and below](#Point_object_version_0.20_and_below.md).
+The point object can be any object with a shape and vertices (including a [Std Part](Std_Part.md) containing one or more of such objects), as well as a [mesh](Mesh_Workbench.md) and a [point cloud](Points_Workbench.md). Duplicate points in the point object are filtered out.
 
 <img alt="" src=images/Draft_PointArray_Example.png  style="width:400px;"> 
 *Draft PointArray*
@@ -54,14 +52,6 @@ In {{VersionMinus|0.20}} only three point object types are supported see [Point 
 
 
 </div>
-
-## Point object version 0.20 and below 
-
-These are the supported point objects in {{VersionMinus|0.20}} and how they can be created:
-
--   [Part Compound](Part_Compound.md): Create one or more [Draft Points](Draft_Point.md) or [Part Points](Part_Point.md), select them and invoke the [Part Compound](Part_Compound.md) command.
--   Draft Block: Create one or more [Draft Points](Draft_Point.md) or [Part Points](Part_Point.md), select them and invoke the [Draft Upgrade](Draft_Upgrade.md) command.
--   [Sketcher Sketch](Sketcher_NewSketch.md): Create a [Sketch](Sketcher_NewSketch.md) and add one or more [Sketcher Points](Sketcher_CreatePoint.md) to the sketch.
 
 
 

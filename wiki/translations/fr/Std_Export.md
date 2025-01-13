@@ -18,43 +18,40 @@ La commande **Std Exporter** exporte les objets sélectionnés vers un format de
 
 ## Utilisation
 
-1.  Sélectionnez un ou plusieurs objets. Pour éviter d\'exporter des objets invisibles ou en double:
+1.  Sélectionnez un ou plusieurs objets. Pour éviter d\'exporter des objets invisibles ou en double :
     -   Soyez prudent lorsque vous utilisez **Ctrl**+**A** pour sélectionner tous les objets. Cela sélectionnera également des objets invisibles.
     -   Sélectionnez un [PartDesign Corps](PartDesign_Body/fr.md) en sélectionnant uniquement le corps lui-même ou sa dernière fonction.
-    -   Sélectionnez un [Std Group](Std_Group/fr.md) ou un [Std Part](Std_Part/fr.md) en sélectionnant uniquement l\'objet parent lui-même ou les objets imbriqués à l\'intérieur.
-    -   N\'utilisez pas la commande [Std Tout sélectionner](Std_SelectAll/fr.md) car elle sélectionnera également les sous-éléments des Corps PartDesign.
-    -   Pour la même raison, la commande [Std Sélection par boîte](Std_BoxSelection/fr.md) doit être évitée dans FreeCAD version 0.18 et antérieure.
-2.  Il existe plusieurs façons d\'appeler la commande :
-    -   Sélectionnez l\'option **Fichier → <img src="images/Std_Export.svg" width=16px> Exporter...** dans le menu.
-    -   Utilisez le raccourci clavier: **Ctrl**+**E**..
-3.  Sélectionnez le format de fichier correct dans la boîte de dialogue.
+    -   Sélectionnez un [Std Groupe](Std_Group/fr.md) ou un [Std Part](Std_Part/fr.md) en sélectionnant uniquement l\'objet parent lui-même ou les objets imbriqués à l\'intérieur.
+    -   N\'utilisez pas la commande [Std Tout sélectionner](Std_SelectAll/fr.md) car elle sélectionnera également les sous-éléments des PartDesign Corps.
+2.  Il existe plusieurs façons de lancer la commande :
+    -   Sélectionnez l\'option **Fichier → <img src="images/Std_Export.svg" width=16px> Exporter...** du menu.
+    -   Utilisez le raccourci clavier: **Ctrl**+**E**.
+3.  Sélectionnez le format de fichier correct dans la fenêtre de dialogue.
 4.  Entrez un nom de fichier.
 5.  Appuyez sur le bouton **Enregistrer**.
 
 ## Options
 
--   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
+-   Appuyez sur **Échap** ou sur le bouton **Annuler** pour annuler la commande.
 
 
 
 ## Remarques
 
 -   Pour exporter un [objet maillé](Mesh_Workbench/fr.md) dans un format de fichier solide, il doit d\'abord être converti. Voir le tutoriel [Importer depuis STL ou OBJ](Import_from_STL_or_OBJ/fr.md).
--   Certains ateliers ont des commandes d\'exportation supplémentaires. Voir: [Import Export](Import_Export/fr.md).
+-   Certains ateliers ont des commandes d\'exportation supplémentaires. Voir [Import Export](Import_Export/fr.md).
 
 
 
 ## Préférences
 
--   Voir : [Préférences Import Export](Import_Export_Preferences/fr.md).
--   Le dernier emplacement de fichier utilisé est stocké: **Outils → Éditer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
--   Le dernier filtre d\'exportation utilisé est stocké: **Outils → Éditer les paramètres... → BaseApp → Preferences → General → FileExportFilter**.
+-   Voir [Préférences Importer/Exporter](Import_Export_Preferences/fr.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

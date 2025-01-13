@@ -3,7 +3,7 @@
    Name: Draft Stretch
    Name/pl: Rysunek Roboczy: Rozciągnij
    MenuLocation: Modyfikacja , Rozciągnij
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **S** **H**
    Version: 0.17
 ---
@@ -25,10 +25,11 @@ Polecenie <img alt="" src=images/Draft_Stretch.svg  style="width:24px;"> **Rozci
 
 Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysunek Roboczy: Wiązania](Draft_Constrain/pl.md).
 
-1.  Opcjonalnie wybierz jeden lub więcej obiektów. Obiektami muszą być [liniami](Draft_Line/pl.md), [poliliniami](Draft_Wire/pl.md), [prostokątami](Draft_Rectangle/pl.md), [krzywymi złożonymi](Draft_BSpline/pl.md) lub [krzywymi Bézier\'a](Draft_BezCurve/pl.md). Inne obiekty są ignorowane.
+1.  Opcjonalnie wybierz jeden lub więcej obiektów. Obiekty muszą być [liniami](Draft_Line/pl.md), [poliliniami](Draft_Wire/pl.md), [prostokątami](Draft_Rectangle/pl.md), [krzywymi złożonymi](Draft_BSpline/pl.md) lub [krzywymi Béziera](Draft_BezCurve/pl.md). Inne obiekty są ignorowane.
 2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_Stretch.svg" width=16px> '''Rozciągnij'''**.
-    -   Wybierz opcję z menu **Modyfikacja → <img src="images/Draft_Stretch.svg" width=16px> Rozciągnij**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz opcję z menu **Modyfikacja → <img src="images/Draft_Stretch.svg" width=16px> Rozciągnij**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Modyfikacja → <img src="images/Draft_Stretch.svg" width=16px> Rozciągnij** z menu.
     -   Użyj skrótu klawiaturowego: **S**, a następnie **H**.
 3.  Jeśli obiekt nie został jeszcze wybrany: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 4.  Otworzy się panel zadań **Rozciągnij**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
@@ -46,7 +47,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź składowe X, Y i Z i naciśnij **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie wskaźnika poza obszar okna [widoku 3D](3D_view.md) przed wprowadzeniem współrzędnych.
 -   Wciśnij **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne drugiego punktu przesunięcia są względne do pierwszego punktu, w przeciwnym razie są one względne do początku układu współrzędnych.
--   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij **Esc** lub przycisk **Zamknij**, aby przerwać polecenie.
 

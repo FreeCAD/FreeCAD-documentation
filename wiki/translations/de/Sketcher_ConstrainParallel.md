@@ -5,7 +5,7 @@
    MenuLocation: Skizze , Sketcher-Randbedingungen , Parallel festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **P**
-   SeeAlso: Sketcher_ConstrainVertical/de, Sketcher_ConstrainHorizontal/de
+   SeeAlso: 
 ---
 
 # Sketcher ConstrainParallel/de
@@ -14,33 +14,47 @@
 
 ## Beschreibung
 
-Die Randbedingung ParallelFestlegen legt die Parallelität zweier ausgewählter gerader Linien oder Kanten zueinander fest.
+Das Werkzeug <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> [Sketcher ParallelFestlegen](Sketcher_ConstrainParallel/de.md) legt Linien parallel zueinander fest.
 
 
 
-## Erstellung
+## Anwendung
 
-Die Skizze enthält zwei zufällig ausgerichtete Linien.
-
-<img alt="" src=images/ConstrainParallel1.png  style="width:500px;">
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
 
 
-*Wähle beide Linien aus, indem Du nacheinander auf jede von ihnen klickst.*
+### [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md) 
 
-<img alt="" src=images/ConstrainParallel2.png  style="width:500px;">
+1.  Sicherstellen, dass die Auswahl leer ist.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_ConstrainParallel.svg" width=16px> [Parallel festlegen](Sketcher_ConstrainParallel/de.md)** drücken.
 
-Es gibt mehrere Möglichkeiten die Randbedingung ParallelFestlegen aufzurufen:
+    -   Den Menüeintrag **Skizze → Sketcher-Randbedingungen → <img src="images/Sketcher_ConstrainParallel.svg" width=16px> Parallel festlegen** auswählen.
 
--   Die Schaltfläche **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Parallel festlegen](Sketcher_ConstrainParallel.md)** der Sketcher-Werkzeugleiste Sketcher-Randbedingungen drücken.
--   Das Tastaturkürzel **P**.
--   Den Menüeintrag **Skizze → Sketcher-Randbedingungen → [<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> Parallel festlegen** auswählen.
+    -   
+        {{Version/de|1.0}}
+        
+        : Ein Rechtsklick in die [3D-Ansicht](3D_view/de.md) und die Menüoption **Festlegen → <img src="images/Sketcher_ConstrainParallel.svg" width=16px> Parallel festlegen** im Kontextmenü auswählen.
 
-<img alt="" src=images/ConstrainParallel3.png  style="width:500px;">
+    -   Das Tastaturkürzel **P**.
+3.  Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
+4.  Zwei Kanten auswählen.
+5.  Eine Randbedingung wird hinzugefügt.
+6.  Wahlweise weitere Randbedingungen erstellen.
+7.  Zum Beenden die rechte Maustaste oder **Esc** drücken; oder ein anderes Werkzeug zum Erstellen von Geometrien oder Randbedingungen aufrufen.
 
 
 
-*Ergebnis: Die ausgewählten Linien werden gezwungen, parallel zueinander zu verlaufen. Wird die Ausrichtung einer Linie geändert, ändert sich auch die der anderen Linie, so dass beide Ausrichtungen gleich bleiben.*
+### Einmal-Ausführen-Modus 
+
+1.  Zwei oder mehr Linien auswählen. {{Version/de|1.0}}: Punkte können in der Auswahl enthalten sein, werden aber ignoriert.
+2.  Das Werkzeug aufrufen, wie oben beschrieben oder mit der folgenden zusätzlichen Option:
+    -   
+        {{Version/de|1.0}}
+        
+        : Ein Rechtsklick in die [3D-Ansicht](3D_view/de.md) und die Menüoption **<img src="images/Sketcher_ConstrainParallel.svg" width=16px> Parallel festlegen** im Kontextmenü auswählen.
+3.  Abhängig von der Auswahl werden eine oder mehrere Randbedingungen hinzugefügt.
 
 
 

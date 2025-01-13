@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign SubtractiveEllipsoid
    Name/fr: PartDesign Ellipsoïde soustractif
-   MenuLocation: Part Design , Créer une primitive soustractive , Ellipsoïde soustractif 
+   MenuLocation: PartDesign , Créer une primitive soustractive , Ellipsoïde soustractif 
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/fr, PartDesign_AdditiveEllipsoid/fr
@@ -18,6 +18,8 @@ Insère un Ellipsoïde primitif soustractif dans le corps actif. Sa forme est so
 
 *À gauche, le corps actif (A) en gris et l\'ellipsoïde soustractif (B) en rouge transparent ; le résultat final est à droite.*
 
+
+
 ## Utilisation
 
 1.  Presser le bouton **<img src="images/PartDesign_SubtractiveEllipsoid.svg" width=24px> '''Ellipsoïde additif'''**. **Remarque**: l\'Ellipsoïde soustractif fait partie d\'un menu d\'icônes appelé *Créer une primitive soustractive*. Après le démarrage de FreeCAD, le cube soustractif est celui affiché dans la barre d\'outils. Pour obtenir l\'Ellipsoïde soustractif, cliquez sur la flèche vers le bas à côté de l\'icône visible et sélectionnez \"Ellipsoïde soustractif\" dans le menu.
@@ -31,6 +33,8 @@ L\'Ellipsoïde peut être édité après sa création de deux façons :
 
 -   Double-cliquez le dans l\'arborescence ou faire un clic droit dessus et sélectionnez **Éditer la primitive** dans le menu contextuel. Cela fait apparaître les paramètres des Primitives.
 -   Via l\'[Éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ## Propriétés
 

@@ -1,7 +1,8 @@
 ---
  GuiCommand:
-   Name/de: Raytracing Objekt 
-   MenuLocation: Raytracing , Part‏‎|
+   Name: Raytracing WritePart
+   Name/de: Raytracing TeilAusgeben
+   MenuLocation: Raytracing , Utilities , Teil nach POV-Ray exportieren
    Workbenches: Raytracing_Workbench/de
    Shortcut: 
    SeeAlso: 
@@ -10,49 +11,28 @@
 # Raytracing WritePart/de
 
 
-</div>
-
- {{Raytracing_Tools_navi/de}}
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Exportiert das ausgewählte Teil in eine pov-Datei zur Verwendung in einem POV-Ray Projekt.
-
-
-</div>
-
- {{Userdocnavi/de}}
-
-
-<div class="mw-translate-fuzzy">
-
-## Benutzung
-
-1.  Selektiere das zu exportierende Teil in der Baumansicht
-2.  Wähle **Raytracing** → **Utilities** → **<img src="images/Raytracing_WritePart.svg" width=32px> Exportiere Teil nach POV-Ray...** aus dem oberen Menü.
-
-
-</div>
+Exportiert das ausgewählte Teil in eine pov-Datei zur Verwendung in einem POV-Ray-Projekt.
 
 
 
-## Beschränkungen
+## Anwendung
+
+1.  Selektiere das zu exportierende Teil in der [Baumansicht](Tree_view/de.md) Baumansicht
+2.  Wähle **Raytracing** → **Utilities** → **<img src="images/Raytracing_WritePart.svg" width=32px> Teil nach POV-Ray exportieren...** aus dem oberen Menü.
 
 
 
-## Anmerkungen
-
-
-<div class="mw-translate-fuzzy">
+## Einschränkungen
 
 
 
+## Hinweise
 
 
-</div>
+
 
 
 {{Raytracing_Tools_navi

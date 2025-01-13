@@ -38,6 +38,10 @@ Lo strumento Rimuovi oggetto cosmetico rimuove gli oggetti cosmetici da una pagi
 
 </div>
 
+## Notes
+
+-   You can also select cosmetic objects and press **Delete**. <small>(v1.0)</small> 
+
 
 <div class="mw-translate-fuzzy">
 

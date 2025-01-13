@@ -80,11 +80,23 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 
 Инструмент описан в [Help:Extension:Translate](http://www.mediawiki.org/wiki/Help:Extension:Translate) и является частью [MediaWiki Language Extension Bundle](http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle).
 
+
+<div class="mw-translate-fuzzy">
+
 Чтобы быстро начать работу по подготовке страницы для перевода, пожалуйста, прочитайте [страницу с примером перевода](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example/ru). По сути, требуется пара тэгов
+
+
+</div>
 
     &lt;translate&gt; ... &lt;/translate&gt;
 
+
+<div class="mw-translate-fuzzy">
+
 окружающих всю страницу, для активации системы перевода, и страница должна будет промаркирована для перевода.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -205,10 +217,6 @@ Everything after this is automatic as far as a developer is concerned. The admin
 3rd party modules or macros are translated in much the same fashion, except that you must do some of the work yourself. This [forum discussion](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) describes the details.
 
 Update: see [Translating an external workbench](Translating_an_external_workbench.md)
-
-### Older module translation techniques 
-
-[Localization Older Methods](Localization_Older_Methods.md) describes the use of translation tools such as Qt Linguist, lupdate, lrelease, pylupdate4, etc in detail. Most of this is no longer required for FreeCAD/master modules, but may be helpful preparing and updating 3rd party modules.
 
 
 

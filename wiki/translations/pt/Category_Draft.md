@@ -5,7 +5,7 @@ This category list pages related to the \"User_Documentation/pt\" and \"Workbenc
 
 |     |     |     |
 | --- | --- | --- |
-| [Draft tutorial/pt](Draft_tutorial/pt.md) | [Draft Workbench/pt](Draft_Workbench/pt.md) |
+| [Draft Workbench/pt](Draft_Workbench/pt.md) |
 
 
 

@@ -27,10 +27,13 @@ Przy pierwszym użyciu komendy <img alt="" src=images/SheetMetal_Unfold.svg  sty
 ## Użycie
 
 1.  Wybierz jedną płaską powierzchnię części z blachy.
-2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> **Rozwiń bez nadzoru** używając do tego celu jednego z poniższych sposobów:
-    -   Przycisk **<img src="images/_SheetMetal_UnattendedUnfold.svg_" width=16px> '''Rozwiń bez nadzoru'''**.
-    -   Opcja menu **SheetMetal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> Rozwiń bez nadzoru**.
-    -   Skrót klawiaturowy: **U**.
+2.  To polecenie można wywołać na kilka sposobów:
+    -   Wciśnij przycisk **<img src="images/SheetMetal_UnattendedUnfold.svg_" width=16px> '''Rozwiń bez nadzoru'''**.
+    -   Wybierz opcję **Sheet Metal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> Rozwiń bez nadzoru** z menu.
+    -   Kliknij prawym przyciskiem myszy w [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md) i wybierz opcję **Sheet Metal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Rozwiń bez nadzoru](SheetMetal_UnattendedUnfold/pl.md)** z menu kontekstowego.
+    -   Użyj skrótu klawiaturowego: **U**.
+3.  Utworzony zostanie obiekt **Unfold**.
+4.  Opcjonalnie dostosuj parametry w [Edytorze właściwości](Property_editor/pl.md).
 
 
 
@@ -44,17 +47,7 @@ Aby udostępnić to polecenie, należy najpierw włączyć tryb inżynieryjny w 
 
 Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt **Rozwiń bez nadzoru** środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
-
-
-
-### Dane
-
-
-{{Properties_Title|Podstawowe}}
-
--    **Etykieta|String**: Wartość domyślna: {{value|Rozwiń}} *(+ kolejny numer dla drugiego i kolejnych elementów)*.
-    Nazwa edytowalna przez użytkownika, może to być dowolny ciąg znaków UTF8.
+Obiekt **Rozwiń bez nadzoru** środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) lub, jeśli jest w obrębie [Zawartości środowiska Projekt Części](PartDesign_Body/pl.md), z obiektu [Cechy tego środowiska](PartDesign_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
 

@@ -38,6 +38,14 @@ The following tools are available in this menu:
 
 <div class="mw-translate-fuzzy">
 
+-   [Fișiere recente](Std_RecentFiles/ro.md) este o scurtătură care deschide o casetă de dialog și listează ultimele documente deschise în Free CAD oricare ar fi originea sau extensia lor.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:32px;">[Close](Std_CloseActiveWindow/ro.md) Închide documentul curent.
 
 
@@ -129,15 +137,13 @@ The following tools are available in this menu:
 
 </div>
 
--   [Fișiere recente](Std_RecentFiles/ro.md) este o scurtătură care deschide o casetă de dialog și listează ultimele documente deschise în Free CAD oricare ar fi originea sau extensia lor.
-
 <img alt="" src=images/Std_Quit.svg  style="width:32px;"> [Ieșire](Std_Quit/ro.md) închide FreeCAD.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

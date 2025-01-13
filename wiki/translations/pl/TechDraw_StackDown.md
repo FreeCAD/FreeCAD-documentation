@@ -23,7 +23,7 @@ Zobacz również [Przesuń poziom na górę](TechDraw_StackTop/pl.md).
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

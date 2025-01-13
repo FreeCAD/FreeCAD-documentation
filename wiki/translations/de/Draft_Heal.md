@@ -3,7 +3,7 @@
    Name: Draft Heal
    Name/de: Draft Heilen
    MenuLocation: Dienstprogramme , Heilen
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de
    SeeAlso: Draft_Upgrade/de, Draft_Downgrade/de
 ---
 

@@ -9,9 +9,13 @@
 
 # Std Quit/hr
 
+
+
 ## Opis
 
 The **Std Quit** command closes the FreeCAD application and optionally saves unsaved documents.
+
+
 
 ## Koristi
 
@@ -24,18 +28,14 @@ The **Std Quit** command closes the FreeCAD application and optionally saves uns
 
 ## Options
 
--   If there are multiple unsaved documents: check the {{CheckBox|TRUE|Apply answer to all}} checkbox to avoid being prompted for each unsaved document separately.
+-   If there are multiple unsaved documents: check the **Apply answer to all** checkbox to avoid being prompted for each unsaved document separately.
 -   If there are unsaved documents: press **Esc** or the **Cancel** button to abort the command.
 
-## Preferences
-
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 
 
-
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

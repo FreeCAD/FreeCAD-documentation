@@ -1,43 +1,58 @@
 ---
  GuiCommand:
    Name: Arch CutLine
-   MenuLocation: Arch , Cut with line
+   Name/pl: Architektura: Linia Cięcia
+   MenuLocation: Architektura , Linia Cięcia
    Workbenches: Arch_Workbench
    Version: 0.19
-   SeeAlso: Arch_CutPlane
+   SeeAlso: Arch_CutPlane/pl
 ---
 
 # Arch CutLine/pl
 
-## Description
 
-The **Arch CutLine** tool cuts a solid Arch object like an [Arch Wall](Arch_Wall.md) or [Arch Structure](Arch_Structure.md) with a straight edge. Based on that edge and the normal of the [Draft working plane](Draft_SelectPlane.md) a cutting face is generated.
+
+## Opis
+
+Narzędzie **Linia Cięcia** przecina obiekt architektury, taki jak [ściana](Arch_Wall/pl.md) lub [konstrukcja](Arch_Structure/pl.md), prostą krawędzią. W oparciu o tę krawędź i normalną [Płaszczyzna robocza szkicu](Draft_SelectPlane/pl.md) generowana jest powierzchnia cięcia.
 
 <img alt="" src=images/Arch_CutLine_example_1.png  style="width:" height="300px;"> <img alt="" src=images/Arch_CutLine_example_2.png  style="width:" height="300px;">
 
 
 
-*[Arch Wall](Arch_Wall.md) cut by a line. Left: subtractive box that appears when using the tool. Right: resulting wall after the cut is done.*
-
-## Usage
-
-1.  If required align the working plane:
-    -   The selected edge may not be parallel to the normal of the working plane.
-    -   The generated cutting face will be perpendicular to the working plane.
-2.  Select the object to be cut in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-3.  Select a straight edge. This must be selected in the [3D view](3D_view.md).
-4.  Press the **<img src="images/Arch_CutLine.svg" width=16px> [Cut with line](Arch_CutLine.md)** button.
-5.  Choose **Behind** or **Front** to indicate on which side of the cutting face material should be removed.
-6.  Press the **OK** button.
-
-## Scripting
+*[Sciana](Arch_Wall/pl.md) przecięta linią. Po lewej: pole odejmowania, które pojawia się podczas korzystania z narzędzia. Po prawej: ściana wynikowa po zakończeniu cięcia.*
 
 
-**See also:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Użycie
+
+1.  W razie potrzeby wyrównaj płaszczyznę roboczą:
+    -   Wybrana krawędź może nie być równoległa do normalnej płaszczyzny roboczej.
+    -   Wygenerowana powierzchnia cięcia będzie prostopadła do płaszczyzny roboczej.
+2.  Wybierz obiekt w [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md) do wycięcia.
+3.  Wybierz krawędź prostą. Musi być ona wybrana w [widoku 3D](3D_view/pl.md).
+4.  Naciśnij przycisk **<img src="images/Arch_CutLine.svg" width=16px> [Cięcie linią](Arch_CutLine/pl.md)**.
+5.  Wybierz **Za** lub **Przed**, aby wskazać, po której stronie powierzchni cięcia materiał ma zostać usunięty.
+6.  Naciśnij przycisk **OK**.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/pl
+⏵ [documentation index](../README.md) > Arch CutLine/pl

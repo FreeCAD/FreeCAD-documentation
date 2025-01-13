@@ -16,7 +16,7 @@
 Funkcja <img alt="" src=images/PartDesign_Scaled.svg  style="width:24px;"> **Skaluj** jest jedną z opcji transformacji narzędzia <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;">. [Transformacji wielokrotnej](PartDesign_MultiTransform/pl.md). W przeciwieństwie do innych opcji, nie jest ona dostępna jako osobne narzędzie. Przekształca ona wynik transformacji w sekwencję przeskalowanych obiektów o równomiernie rozłożonych współczynnikach skali. Zaczynając od obiektu bazowego z poprzedniej transformacji, współczynnik skali wzrasta lub maleje, aż do osiągnięcia podanej wartości na ostatnim elemencie.
 
 <img alt="" src=images/PartDesign_Scaled-01.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/PartDesign_Scaled-02.png  style="width:300px;"> 
-*Wzorzec liniowy i biegunowy → Skalowanie wzorca liniowego z 3 krokami ''(wystąpieniami)'' i wzorca biegunowego z 12 krokami.*
+*Szyk liniowy i kołowy → Skalowanie szyku liniowego z 3 krokami ''(wystąpieniami)'' i szyku kołowego z 12 krokami.*
 
 Jeśli w obrębie elementu nie było wcześniejszego przekształcenia <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> [Transformacji wielokrotnej](PartDesign_MultiTransform/pl.md), przeskalowane elementy zostaną umieszczone w tej samej pozycji co element bazowy. Może to skutkować nieoczekiwanymi kształtami, jeśli element bazowy nie jest całkowicie objęty skalowanym obiektem. Dlatego nie zaleca się używania **Skalowania** jako pierwszej transformacji dla funkcji Transformacji wielokrotnej.
 
@@ -67,7 +67,7 @@ Jeśli w obrębie elementu nie było wcześniejszego przekształcenia <img alt="
 
 ## Uwagi
 
--   Środek skalowania jest środkiem ciężkości elementu, co może powodować:
+-   Środek skalowania jest środkiem ciężkości elementu, co może sprawiać, że:
     -   rosnący element będzie wystawał po przeciwnej stronie elementu nadrzędnego,
     -   kurczący się element straci kontakt z elementem nadrzędnym i zniknie,
     -   zmniejszająca się kieszeń stanie się niewidocznym zagłębieniem wewnątrz elementu nadrzędnego.

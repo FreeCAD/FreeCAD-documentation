@@ -1,27 +1,18 @@
 ---
  GuiCommand:
    Name: Ship Hydrostatics
-   Name/de: Schiff Hydrostatik
-   MenuLocation: Schiffkonstruktion , Hydrostatics
-   Workbenches: Ship Workbench/de
-   Shortcut: |
-SeeAlso=
+   Name/de: Ship Hydrostatik
+   MenuLocation: Ship design , Hydrostatik
+   Workbenches: Ship_Workbench/de
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship Hydrostatics/de
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
-
-IN ARBEIT
-
-
-</div>
 
 Plot the ship hydrostatics.
 
@@ -50,7 +41,7 @@ with $F_\mathrm d$ the drag force, $\rho$ the water density, $u$ the ship veloci
 
 The MCT plays a mayor role in the load condition planning, since it gives information about the effect of displacing any load along the ship. The actual MCT is computed according the transversal gravity center to metacenter distance, GML, obviously requiring the gravity center position. However, as it is a common practice in naval architecture, the distance of such metacenter to the buoyancy center, BML, is considered similar to such GML ($GML / BML \simeq 1$). Please note that is only valid for the longitudinal direction ($GMT / BMT \neq 1$).
 
-Some times the BML is prefered to the MCT. If it is your case, you just need to apply
+Sometimes the BML is preferred to the MCT. If it is your case, you just need to apply
 
 $BML = \dfrac{100 \,\, L \,\, MCT}{\Delta},$
 
@@ -94,25 +85,12 @@ The task panel is shown. You must select the trim angle as well as the range of 
 
 Press the **Accept** button when you are ready, so the Ship module will start the computation. During the computation FreeCAD will become almost irresponsive. It is however plotting the information in runtime, as well as a progress bar of the process. You can switch to a different plot tab, or stop the computation pressing the **Cancel** button. Just please be patient since those actions will be executed just after the next draft sample computation is finished.
 
+
+
 ## Tutorien
 
-
-<div class="mw-translate-fuzzy">
-
--   [FreeCAD Schiffs s60 Tutorium](FreeCAD-Ship_s60_tutorial/de.md)
--   [FreeCAD Schiffs s60 Tutorium (II)](FreeCAD-Ship_s60_tutorial_(II)/de.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   [FreeCAD-Ship s60 Anleitung ](FreeCAD-Ship_s60_tutorial/de.md)
+-   [FreeCAD-Ship s60 Anleitung (II)](FreeCAD-Ship_s60_tutorial_(II)/de.md)
 
 
 

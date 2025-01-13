@@ -1,7 +1,7 @@
 # Path 3DPocket
-1.  REDIRECT [Path_Pocket_3D](Path_Pocket_3D.md)
+1.  REDIRECT [CAM_Pocket_3D](CAM_Pocket_3D.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path 3DPocket
+⏵ [documentation index](../README.md) > Path 3DPocket

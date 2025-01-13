@@ -10,6 +10,8 @@
 # Part Sphere/ru
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Описание
@@ -28,6 +30,8 @@
 A Part Sphere can be truncated at the top and/or bottom by changing its **Angle1** and/or **Angle2** properties. It can be turned into a segment of a sphere by changing its **Angle3** property.
 
 <img alt="" src=images/Part_Sphere_Example.png  style="width:400px;">
+
+
 
 ## Применение
 
@@ -53,6 +57,8 @@ A Part Sphere object created with the [scripting example](#Scripting.md) below i
 -   A Part Sphere can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Свойства
@@ -63,6 +69,8 @@ A Part Sphere object created with the [scripting example](#Scripting.md) below i
 See also: [Property editor](Property_editor.md).
 
 A Part Sphere object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+
 
 ### Данные
 

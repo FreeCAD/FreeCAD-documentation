@@ -25,7 +25,13 @@ Das Werkzeug **TechDraw MaßRadius** fügt einer Ansicht ein Radienmaß hinzu. D
 1.  Einen Kreis oder Kreisbogen auswählen. Die Geometrie kann in der [3D-Ansicht](3D_view/de.md) oder in der Zeichnung ausgewählt werden. Hinweis: Einige Bögen, die kreisförmig aussehen, können tatsächlich Ellipsen oder B-Splines sein. In diesen Fällen können keine Radienmaße erstellt werden.
 2.  Wenn die Geometrie in der 3D-Ansicht ausgewählt wurde, wird die korrekte TechDraw-ansicht in der [Baumansicht](Tree_view/de.md) ausgewählt.
 3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-    -   Die Schaltfläche **<img src="images/TechDraw_RadiusDimension.svg" width=16px> [Radienmaß einfügen](TechDraw_RadiusDimension/de.md)** drücken.
+    -   
+        {{Version/de|1.0}}
+        
+        : Ist die [Einstellung](TechDraw_Preferences/de#Maßeinträge.md) **Maß-Werkzeuge** auf {{Value|Einzelnes Werkzeug}} (Standardeinstellung) gesetzt: Den Nach-unten-Pfeil rechts neben der Schaltfläche **<img src="images/TechDraw_Dimension.svg" width=|x16px> <img src="images/Toolbar_flyout_arrow.svg" width=x16px>** drücken und die Menüoption **<img src="images/TechDraw_RadiusDimension.svg" width=16px> Radienmaß einfügen** in der Ausklappliste auswählen.
+
+    -   Hat die Einstellung einen anderen Wert (und in {{VersionMinus/de|0.21}}): Die Schaltfläche **<img src="images/TechDraw_RadiusDimension.svg" width=16px> [Radienmaß einfügen](TechDraw_RadiusDimension/de.md)** drücken.
+
     -   Den Menüeintrag **TechDraw → Maßeinträge → <img src="images/TechDraw_RadiusDimension.svg" width=16px> Radienmaß einfügen** auswählen.
 4.  Ein Maß wird der Ansicht hinzugefügt.
 5.  Das Maß kann auf die gewünschte Position gezogen werden.
@@ -65,7 +71,7 @@ Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Eigenschaften.md).
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug MaßRadius kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 

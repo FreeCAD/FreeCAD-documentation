@@ -123,11 +123,23 @@ Wiki SourceForge\'dan uzaklaştığında, [Yorik](User_Yorik.md), sayfaların ç
 
 Bu araç [Help: Extension: Translate](http://www.mediawiki.org/wiki/Help:Extension:Translate) bölümünde belgelenmiştir ve [MediaWiki Dilinin Uzatma Paketi](http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle)nin bir parçasıdır.
 
+
+<div class="mw-translate-fuzzy">
+
 Çeviri için bir sayfa hazırlamaya hemen başlamak için, lütfen [Sayfa çeviri örneğini](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example) okuyun. Temel olarak, çeviri sistemini etkinleştirmek için tüm sayfayı çevreleyen bir çift
+
+
+</div>
 
     &lt;translate&gt; ... &lt;/translate&gt;
 
+
+<div class="mw-translate-fuzzy">
+
 etiketi olmalı ve sayfanın çeviri için işaretlenmesi gerekir.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -329,20 +341,6 @@ Bundan sonraki her şey bir geliştirici için otomatiktir. Yönetici metin dize
 3rd party modules or macros are translated in much the same fashion, except that you must do some of the work yourself. This [forum discussion](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) describes the details.
 
 Update: see [Translating an external workbench](Translating_an_external_workbench.md)
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-### Eski modül çeviri teknikleri 
-
-[Yerelleştirme Eski Yöntemler](Localization_Older_Methods/tr.md), Qt Linguist, lupdate, lrelease, pylupdate4 gibi çeviri araçlarının kullanımını ayrıntılı olarak açıklar. Bunun çoğu artık FreeCAD / master modülleri için gerekli değildir, ancak 3. parti modülleri hazırlamak ve güncellemek için yardımcı olabilir.
-
-
-</div>
-
-[Localization Older Methods](Localization_Older_Methods.md) describes the use of translation tools such as Qt Linguist, lupdate, lrelease, pylupdate4, etc in detail. Most of this is no longer required for FreeCAD/master modules, but may be helpful preparing and updating 3rd party modules.
 
 
 

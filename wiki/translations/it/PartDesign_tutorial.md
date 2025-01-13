@@ -14,16 +14,10 @@ Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base
 
 !{width="480"}
 
-
-<div class="mw-translate-fuzzy">
-
 ### Requisiti
 
 -   FreeCAD versione 0.17 o superiore
--   Il lettore abbia terminato il tutorial di Schizzo
-
-
-</div>
+-   Il lettore abbia terminato il Tutorial base di Sketcher
 
 ### Procedimento
 
@@ -31,53 +25,27 @@ Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base
 
 Lo scopo dell\'ambiente PartDesign è quello di consentire all\'utente di creare la geometria nello spazio 3D. Pertanto, esso è dotato degli strumenti adatti ad usare gli schizzi e a convertirli in oggetti 3D.
 
-
-<div class="mw-translate-fuzzy">
-
 Per raggiungere questo obiettivo ci sono due funzioni fondamentali : !{width="32"} Prisma e !{width="32"} Rivoluzione. Assieme alle loro controparti sottrattive {width="32"} Cavità e !{width="32"} Gola) esse costituiscono la maggior parte delle azioni comuni utilizzate da questo ambiente.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 1.  Passare nell\'ambiente PartDesign
-2.  Selezionare lo schizzo creato nel tutorial di Schizzo
+2.  Con lo schizzo selezionato nella vista ad albero, premere **File:PartDesign_Body.svg   16px PartDesign_Body**{: mediawiki}, scegliere il piano XY predefinito, e premere **OK**. Lo schizzo dovrebbe ora apparire all\'interno del Corpo.
 3.  Selezionare !{width="32"} Pad
 4.  Impostare la distanza 5 mm
 5.  Selezionare **Ok**
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Un altro strumento per creare la geometria 3D è !{width="32"} Rivoluzione.
-
-
-</div>
 
 !{width="480"}
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Creare uno schizzo basato sull\'immagine predente
-2.  Selezionare !{width="32"} Rivoluzione
-3.  Impostare \"Axis\" su \"Asse orizzontale dello schizzo\"
-4.  Impostare l\'angolo a 360°
-
-
-</div>
+1.  Creare un nuovo Corpo **File:PartDesign_Body.svg   16px PartDesign_Body/it**{: mediawiki}, quindi uno schizzo basato sull\'immagine precedente.
+2.  Lo schizzo può trovarsi su qualsiasi piano, ma deve essere coincidente con l\'asse orizzontale.
+3.  Selezionare !{width="32"} Rivoluzione
+4.  Impostare \"Axis\" su \"Asse orizzontale dello schizzo\"
+5.  Impostare l\'angolo a 360°
 
 #### Funzioni sottrattive 
 
 Iniziare creando un disegno con la forma da sottrarre.
-
-
-<div class="mw-translate-fuzzy">
 
 1.  Selezionare la faccia piatta superiore di **Revolution**
 2.  Selezionare !{width="32"} Nuovo schizzo
@@ -87,15 +55,9 @@ Iniziare creando un disegno con la forma da sottrarre.
 6.  Creare un esagono centrato nello stesso centro dell\'arco e impostare il raggio del cerchio di riferimento a 5 mm
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
 {{Message| '''Geometria esterna'''
 Dopo che è stato creato un elemento 3D è possibile creare dei riferimenti ad esso all'interno di uno schizzo.
-# Selezionare Image:Sketcher_External.png Sketcher_External/it.
+# Selezionare Image:Sketcher_External.svg Sketcher_External/it.
 # Accostarsi all'elemento a cui si desidera fare riferimento, ad esempio, il bordo di un '''Pad'''.
 # Cliccare sull'elemento
 # Nello schizzo dovrebbero apparire dei nuovi elementi di un colore diverso  nella posizione della funzionalità a cui si desidera fare riferimento.
@@ -104,22 +66,13 @@ Dopo che è stato creato un elemento 3D è possibile creare dei riferimenti ad e
 # PartDesign tutorial/it
 
  
-
-</div>
-
 <img alt="" src=images/PartDesign_pocket_exercise.png  style="width:480px;">
 
 Procedere applicando una funzione **Cavità**.
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Selezionare lo schizzo
-2.  Selezionare <img alt="" src=images/PartDesign_Pocket.png  style="width:32px;"> [Cavità](PartDesign_Pocket/it.md)
+2.  Selezionare <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [Tasca](PartDesign_Pocket/it.md)
 3.  Impostare la lunghezza **Attraversa tutto**
-
-
-</div>
 
 #### Le funzioni Serie 
 
@@ -134,14 +87,8 @@ Richiamare il profilo estruso che è stato creato all\'inizio del tutorial.
 
 Invece di creare un cerchio per ogni foro nello schizzo, introduciamo il concetto di **Pattern Features** (Schiera di funzioni). Questi strumenti funzionano replicando una funzione che è già stata creata nel pezzo e che si vuole riprodurre in una disposizione lineare o circolare. Utilizzeremo una combinazione di schiere **Lineari** e **Polari** simulativamente per ottenere il pezzo finale.
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Nella vista ad albero selezionare la funzione Pocket appena creata.
-2.  Selezionare <img alt="" src=images/PartDesign_MultiTransform.png  style="width:32px;"> [MultiTrasformazione](PartDesign_MultiTransform/it.md) di PartDesign
-
-
-</div>
+1.  Nella vista ad albero selezionare la funzione Tasca appena creata.
+2.  Selezionare <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [MultiTrasformazione](PartDesign_MultiTransform/it.md) di PartDesign
 
 Nella Vista combinata viene chiesto di introdurre le trasformazioni che si desiderano. Si noti che nel menu dei parametri di MultiTransform si vede che FreeCAD ha identificato la Pocket come funzionalità originale e una seconda casella chiede di fare clic con il tasto destro per introdurre le funzionalità del modello.
 

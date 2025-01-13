@@ -1,14 +1,13 @@
 # Category:Start/it
-This category lists pages related to the [Start Workbench/it](Start_Workbench/it.md).
+This category is for pages related to the [Start Workbench](Start_Workbench.md).
 
 ### Contents
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Start/it](Artwork_Start/it.md) | [Start Preferences/it](Start_Preferences/it.md) | [Start Workbench/it](Start_Workbench/it.md) |
-|
+| [Start Preferences/it](Start_Preferences/it.md) | [Start Workbench/it](Start_Workbench/it.md) |
 
 
 
 ---
-⏵ [documentation index](../README.md) > Category:Start/it
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Category:Start/it

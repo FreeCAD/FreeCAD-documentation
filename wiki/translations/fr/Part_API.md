@@ -1,5 +1,5 @@
 # Part API/fr
-**(Novembre 2018) Ces informations peuvent être incomplètes et obsolètes. Pour obtenir l'API la plus récente, consultez [https://www.freecadweb.org/api documentation autogénérée API] ou [https://freecad-python-stubs.readthedocs.io/en/latest/autoapi/Part/ documentation autogénérée Python Part API].**
+**(Novembre 2018) Ces informations peuvent être incomplètes et obsolètes. Pour obtenir l'API la plus récente, consultez la [https://www.freecadweb.org/api documentation de l'API générée automatiquement] ou la [https://freecad-python-stubs.readthedocs.io/en/latest/autoapi/Part/ documentation de l'API générée automatiquement en Python pour Part].**
 
 Le module **Part** <img alt="" src=images/Workbench_Part.png  style="width:16px;"> est une connexion directe entre **FreeCAD** et le noyau **OpenCasCade**. Il fournit principalement des [TopoShapes](TopoShape_API/fr.md) qui sont les types d\'objets principaux utilisés par OpenCascade. Le module **Part** contient également une variété de fonctions utiles pour créer et manipuler des **topoShapes**. Exemple : 
 ```python

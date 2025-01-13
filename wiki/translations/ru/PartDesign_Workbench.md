@@ -1,4 +1,13 @@
-# <img alt="Логотип верстака PartDesign" src=images/Workbench_PartDesign.svg  style="width:64px;"> PartDesign Workbench/ru
+# PartDesign Workbench/ru
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="Логотип верстака PartDesign" src=images/Workbench_PartDesign.svg  style="width:128px;">
 
 
 
@@ -7,17 +16,33 @@
 
 ## Введение
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">[Верстак PartDesign](PartDesign_Workbench/ru.md) предоставляет расширенные инструменты для моделирования сложных твердотельных деталей. Он в основном ориентирован на создание механических деталей, которые можно изготовить и собрать в готовое изделие. Тем не менее, созданные твёрдые тела можно использовать повсеместно для любых других целей, таких как [архитектурное проектирование](Arch_Workbench/ru.md), [анализ методом конечных элементов](FEM_Workbench/ru.md) или [механическая обработка и 3D-печать](Path_Workbench/ru.md).
 
-Верстак PartDesign неразрывно связан с [верстаком Sketcher](Sketcher_Workbench/ru.md). Пользователь обычно создаёт эскиз, затем использует инструмент [PartDesign выдавливание](PartDesign_Pad/ru.md) для создания простого твёрдого тела, которое в последующем модифицируется (изменяется).
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 В то время как <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Верстак Part](Part_Workbench/ru.md) основан на методологии [конструктивной сплошной геометрии](constructive_solid_geometry/ru.md) (CSG) для построения фигур, верстак PartDesign использует параметрическую методологию редактирования объектов, которая означает, что базовое твёрдое тело последовательно преобразуется путем добавления элементов от начала и до тех пор, пока не будет получена окончательная форма. Более полное объяснение данного процесса смотри на странице [особенности редактирования компонентов](feature_editing/ru.md). Более полное описание этого процесса смотри на странице [редактирования элементов](feature_editing/ru.md), а затем смотри [Создание простой детали с помощью PartDesign](Creating_a_simple_part_with_PartDesign/ru.md), чтобы приступить к созданию твёрдых тел.
 
+
+</div>
+
+See the [feature editing](Feature_editing.md) page for a more complete explanation of this process, and then see [Creating a simple component with PartDesign](Creating_a_simple_part_with_PartDesign.md) to get started with creating solids.
+
+
+<div class="mw-translate-fuzzy">
+
 Более подробное обсуждение различий между верстаками Part и Part Design можно найти на странице: [Part и Part Design](Part_and_PartDesign/ru.md).
 
-Тела, созданные с помощью верстака PartDesign, достаточно часто сталкиваются с [проблемой назначения имени элементам топологии](Topological_naming_problem/ru.md), которая приводит к переименованию внутренних объектов при изменении параметрических операций. Эту проблему можно свести к минимуму, следуя рекомендациям, указаным на странице [с описанием особенностей редактирования компонентов](feature_editing/ru.md), а так же используя опорные (datum) объекты в качестве поддержки эскизов и компонентов.
 
-<img alt="" src=images/PartDesign_Example.png  style="width:500px;">
+</div>
+
+![](images/PartDesign_Workbench_Example.jpg )
 
 
 
@@ -27,27 +52,83 @@
 
 
 
-### Инструменты структуры 
-
-Эти инструменты на самом деле не являются частью верстака PartDesign. Они относятся к категории [Стандартных инструментов](Std_Base/ru.md). Они были разработаны в версии 0.17 с целью упорядочивания и создания [сборок](Assembly/ru.md); как таковые, они весьма полезны при работе с телами, созданными с помощью этого верстака.
-
--   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Создать деталь](Std_Part/ru.md): создает новую Деталь в текущем документе и делает её активной.
-
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Создать группу](Std_Group/ru.md): добавляет в текущий документ контейнер группы, который позволяет организовать объекты в [древовидном представлении](Tree_view.md).
-
-
-
 ### Вспомогательные инструменты Part Design 
 
 -   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Создать тело](PartDesign_Body/ru.md): создаёт объект [Тело](Body/ru.md) и делает его активным.
 
+-   <img alt="" src=images/PartDesign_NewSketch.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create Sketch:
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Создать эскиз](PartDesign_NewSketch/ru.md): создаёт новый эскиз на выбранной грани или плоскости. Если во время выполнения этого инструмента не выбрана ни одна из граней, пользователю будет предложено выбрать плоскость на Панели задач. После чего интерфейс переключится на [верстак Sketcher](Sketcher_Workbench/ru.md) в режим редактирования.
 
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Редактировать эскиз](Sketcher_EditSketch/ru.md): редактировать выбранный эскиз.
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Разместить эскиз на грани](Sketcher_MapSketch/ru.md): сопоставляет эскиз с ранее выбранной плоскостью или гранью активного тела.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Редактировать эскиз](Sketcher_EditSketch/ru.md): редактировать выбранный эскиз.
+
+
+</div>
+
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Проверить эскиз](Sketcher_ValidateSketch/ru.md): проверяет допуски различных точек и корректирует их.
+
+-   <img alt="" src=images/Part_CheckGeometry.svg  style="width:32px;"> [Check geometry](Part_CheckGeometry.md): Checks the geometry of selected objects for errors.
+
+-   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Create a shape binder](PartDesign_ShapeBinder.md): creates a shape binder referencing geometry from a single parent object.
+
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Создать новую под-объектную связующую форму](PartDesign_SubShapeBinder/ru.md): создаёт геометрию привязки формы из одного или нескольких родительских объектов.
+
+-   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Создать клон](PartDesign_Clone/ru.md): клонирует выбранное тело.
+
+-   <img alt="" src=images/PartDesign_Plane.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create a datum (
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/PartDesign_Plane.svg  style="width:32px;"> [Создать опорную плоскость](PartDesign_Plane/ru.md): создает опорную плоскость в активном теле.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/PartDesign_Line.svg  style="width:32px;"> [Создать опорный отрезок](PartDesign_Line/ru.md): создает опорный отрезок в активном теле.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Создать опорную точку](PartDesign_Point/ru.md): создает опорную точку в активном теле.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Создать локальную систему координат](PartDesign_CoordinateSystem/ru.md): создает локальную систему координат прикрепленную к опорной геометрии в активном теле.
+
+
+</div>
+
+
+:   
+    <small>(v1.1)</small> : these tools have been replaced by new [datum tools](Std_Base#Part_Datums.md).
 
 
 
@@ -55,27 +136,15 @@
 
 
 
-#### Инструменты создания опорных элементов 
-
--   <img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Создать опорную точку](PartDesign_Point/ru.md): создает опорную точку в активном теле.
-
--   <img alt="" src=images/PartDesign_Line.svg  style="width:32px;"> [Создать опорный отрезок](PartDesign_Line/ru.md): создает опорный отрезок в активном теле.
-
--   <img alt="" src=images/PartDesign_Plane.svg  style="width:32px;"> [Создать опорную плоскость](PartDesign_Plane/ru.md): создает опорную плоскость в активном теле.
-
--   <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Создать локальную систему координат](PartDesign_CoordinateSystem/ru.md): создает локальную систему координат прикрепленную к опорной геометрии в активном теле.
-
--   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Создать связующую форму](PartDesign_ShapeBinder/ru.md): создаёт привязку формы, ссылающуюся на геометрию из одного родительского объекта.
-
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Создать новую под-объектную связующую форму](PartDesign_SubShapeBinder/ru.md): создаёт геометрию привязки формы из одного или нескольких родительских объектов.
-
--   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Создать клон](PartDesign_Clone/ru.md): клонирует выбранное тело.
-
-
-
 #### Аддитивные инструменты 
 
+
+<div class="mw-translate-fuzzy">
+
 Это инструменты для создания базовых конструктивных элементов или для добавления простых аддитивных геометрических форм к уже существующему твёрдому телу.
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Выдавливание](PartDesign_Pad/ru.md): выдавливает твёрдое тело из выбранного эскиза.
 
@@ -87,7 +156,7 @@
 
 -   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Аддитивная спираль](PartDesign_AdditiveHelix/ru.md): создает сплошное тело, перемещая эскиз по спирали.
 
--   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md): добавляет аддитивный примитив к активному телу.
+-   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create an additive primitive:
 
   -<img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Аддитивный параллелепипед](PartDesign_AdditiveBox/ru.md): создаёт аддитивный параллелепипед.
 
@@ -123,7 +192,7 @@
 
 -   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Субтрактивная спираль](PartDesign_SubtractiveHelix/ru.md): создает сплошную форму, перемещая эскиз вдоль спирали и вычитает его из активного тела.
 
--   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md): создает субтрактивный примитив и отнимает его от активного тела.
+-   <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create a subtractive primitive:
 
   -<img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Субтрактивный параллепипед](PartDesign_SubtractiveBox/ru.md): создает субтрактивный прямоугольный параллелепипед и отнимает его от активного тела.
 
@@ -143,7 +212,39 @@
 
 
 
+#### Логические операции 
+
+-   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Булева операция](PartDesign_Boolean/ru.md): импортирует одно или несколько тел или клонов PartDesign в активное тело и применяет логическую операцию.
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+#### Инструменты обработки граней тела 
+
+
+</div>
+
+Данные инструменты предназначены для создания кромок и обработки граней.
+
+-   <img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [Скругление](PartDesign_Fillet/ru.md): скругление граней активного тела.
+
+-   <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [Фаска](PartDesign_Chamfer/ru.md): снимает фаску с граней активного тела.
+
+-   <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [Уклон](PartDesign_Draft/ru.md): создает уклон выбранных граней активного тела
+
+-   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Преобразовать в полое тело](PartDesign_Thickness/ru.md): создает толстостенную полую оболочку из активного твердого тела и убирая выбранные грани.
+
+
+
+
+<div class="mw-translate-fuzzy">
+
 #### Инструменты преобразования 
+
+
+</div>
 
 Это инструменты для преобразования существующих элементов.
 
@@ -158,41 +259,27 @@
 
 
 
-#### Инструменты обработки граней тела 
-
-Данные инструменты предназначены для создания кромок и обработки граней.
-
--   <img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [Скругление](PartDesign_Fillet/ru.md): скругление граней активного тела.
-
--   <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [Фаска](PartDesign_Chamfer/ru.md): снимает фаску с граней активного тела.
-
--   <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [Уклон](PartDesign_Draft/ru.md): создает уклон выбранных граней активного тела
-
--   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Преобразовать в полое тело](PartDesign_Thickness/ru.md): создает толстостенную полую оболочку из активного твердого тела и убирая выбранные грани.
-
-
-
-#### Логические операции 
-
--   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Булева операция](PartDesign_Boolean/ru.md): импортирует одно или несколько тел или клонов PartDesign в активное тело и применяет логическую операцию.
-
-
-
 #### Дополнительные
 
 Некоторые дополнительные функции в меню \"Part Design\":
 
--   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Миграция](PartDesign_Migrate/ru.md): переносит файлы, созданные с помощью более старых версий FreeCAD. Если файл полностью основан на функциях PartDesign, миграция должна пройти успешно. Если файл содержит смешанные объекты Part/Part Design/Draft объекты, преобразование, скорее всего, завершится неудачно.
-
 -   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Цепное колесо (звездочка)](PartDesign_Sprocket/ru.md): создает профиль цепного колеса (звездочки), который можно далее сделать объемным.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Шестерня с эвольвентным профилем](PartDesign_InvoluteGear/ru.md): создает внутренний или наружный эвольвентный профиль шестерни, который далее можно сделать объемным.
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Мастер проектирования вала](PartDesign_WizardShaft/ru.md): Создает вал из таблицы значений и позволяет анализировать силы и моменты. Вал создается как фигура вращения из эскиза, который можно редактировать.
 
 
 
 ### Инструменты контекстного меню 
+
+-   [Suppressed](PartDesign_Suppressed.md): checkbox to disable a specific feature without deleting it. <small>(v1.0)</small> 
 
 <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Установить точку завершения расчёта тела](PartDesign_MoveTip/ru.md): переопределяет положение конечной точки расчёта детали.
 
@@ -206,7 +293,17 @@
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Внешний вид](Std_SetAppearance/ru.md): определяет внешний вид всей детали (прозрачность, цвет и т.д.).
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Установить цвета](Part_FaceColors/ru.md): позволяет назначить цвета для граней детали.
+
+
+</div>
+
+### Obsolete tools 
+
+-   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Migrate](PartDesign_Migrate.md): migrates files from FreeCAD versions below 0.17 to version 0.17. This tool is not available in <small>(v1.0)</small> .
 
 
 
@@ -219,11 +316,17 @@
 
 ## Учебники
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Использование FreeCAD](http://help-freecad-jpg87.fr/), вебсайт, описывающий рабочий процесс проектирования механики.
 -   [Создание простейшей детали с помощью PartDesign](Creating_a_simple_part_with_PartDesign/ru.md)
 -   [Базовый учебник Part Design](Basic_Part_Design_Tutorial/ru.md)
 -   [Учебник PartDesign Bearingholder I](PartDesign_Bearingholder_Tutorial_I/ru.md) (требует обновления)
 -   [Учебник PartDesign Bearingholder II](PartDesign_Bearingholder_Tutorial_II/ru.md) (требует обновления)
+
+
+</div>
 
 
 
@@ -234,7 +337,13 @@
 <img alt="" src=images/PartDesign_ExampleSphere-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleTorus-01.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExamplePad-09.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-05.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSpring-04.png  style="width:80px;">
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
  {{PartDesign_Tools_navi}}

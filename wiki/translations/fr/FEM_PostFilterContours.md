@@ -25,16 +25,18 @@ Pour plus d'informations sur ce modèle, consultez la section 14 des [https://ww
 1.  Sélectionnez un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md) déjà créé.
 2.  Créez le filtre soit en appuyant sur le bouton **<img src="images/FEM_PostFilterContours.svg" width=16px> '''Filtre par contours'''** ou en utilisant le menu **Résultats → <img src="images/FEM_PostFilterContours.svg" width=16px> Filtre par contours**.
 3.  Ajustez les **Options d'affichage des résultats** comme pour le [pipeline de résultats](FEM_PostPipelineFromResult/fr.md). Vous devrez peut-être cacher le pipeline pour voir l\'effet du filtre dans l\'aperçu.
-4.  Dans la boîte de dialogue qui apparaît, définissez le champ du résultat et le nombre de contours.
+4.  Dans la fenêtre de dialogue qui apparaît, définissez le champ du résultat et le nombre de contours.
 5.  Cliquez sur le bouton **OK** pour terminer la commande.
 
 ## Options
 
-La boîte de dialogue propose les paramètres suivants :
+La fenêtre de dialogue propose les paramètres suivants :
 
 -   **Champ** : le champ de résultats à dessiner.
 -   **Vecteur** : si le **Champ** est un vecteur, les composantes du vecteur.
 -   **Nombre de contours** : nombre de contours à créer. Remarque : selon la géométrie, le nombre de contours créés peut être supérieur à celui spécifié. Ceci est dû à l\'algorithme de création. Cependant, pour les géométries 2D et 3D simples, le nombre devrait être correct.
+-   **Lissage** : si cette option est cochée, le filtre de lissage Laplacien est appliqué au filtre Contours pour rendre les isosurfaces moins grossières. {{Version/fr|1.1}}
+-   **Facteur de relaxation** : contrôle le niveau de lissage via la quantité de déplacement des sommets (si le lissage est activé). {{Version/fr|1.1}}
 -   **Pas de couleur** : ne pas appliquer de couleur aux contours.
 
 **Remarque** : un **champ** ne peut être défini que si une fonction de filtre existe et a été appliquée avec <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:16px;"> [Appliquer les modifications](FEM_PostApplyChanges/fr.md). Vous pouvez également rouvrir la boîte de dialogue du filtre.

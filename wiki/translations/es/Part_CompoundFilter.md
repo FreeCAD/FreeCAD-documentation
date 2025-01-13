@@ -14,6 +14,8 @@
 
 ![](images/CompoundFilter.png )
 
+
+
 ## Descripción
 
 
@@ -27,6 +29,8 @@ El FiltroCompuesto puede utilizarse para extraer las piezas individuales del res
 Puede extraer a los niños por sus índices, probar a los niños por colisiones con la forma de la plantilla, y filtrar a los niños en base a sus propiedades, como la longitud, el área, el volumen.
 
 Si sólo hay un niño en el resultado, la salida es el niño. Si hay más de un hijo en la salida, la salida es un nuevo compuesto.
+
+
 
 ## Utilización
 
@@ -48,19 +52,21 @@ Si sólo hay un niño en el resultado, la salida es el niño. Si hay más de un 
 6.  If you want to extract another piece select the sliced object again. It is now placed under the CompoundFilter in the tree
 7.  Repeat the selection procedure from above. The slice and its subelements will be displayed under both CompoundFilters; they are, of course not repeated in the model. A very fast way to extract another piece is to copy the CompoundFilter. But **watch out**: You are asked if you want to copy the elements under the CompoundFilter too, which you must answer with *no*, you don\'t want to copy them, you only reference them.
 
+
+
 ## Propiedades
 
 -    **Base**: Object to be filtered.
 
 -    **Filter Type**selectable options:
 
-    -   bypass; no filter. The original compound is output, unchanged.
-    -   specific items; extract the items listed in the \"items\" property
-    -   collision-pass; extract pieces that touch or intersect with \'Stencil\' shape.
-    -   window-volume (default); extract all pieces which have a volume between \"Window From\" and \"Window To\" where 100% is the biggest piece - and not the unsliced object. The value of 100% is a reference value which can be overridden by \"OverrideMaxVal\".
-    -   window-area; the same as window-volume where the sliced area determines the selection instead of the volume.
-    -   window-length; the same as window-volume where the length of the edges determines the selection instead of the volume.
-    -   window-distance; extract children whose distance to \'Stencil\' shape is within value window, defined by properties \"WindowFrom\", \"WindowTo\", \"OverrideMaxVal\".
+    -   bypass: no filter. The original compound is output, unchanged.
+    -   specific items: extract the items listed in the \"items\" property
+    -   collision-pass: extract pieces that touch or intersect with \'Stencil\' shape.
+    -   window-volume (default): extract all pieces which have a volume between \"Window From\" and \"Window To\" where 100% is the biggest piece - and not the unsliced object. The value of 100% is a reference value which can be overridden by \"OverrideMaxVal\".
+    -   window-area: the same as window-volume where the sliced area determines the selection instead of the volume.
+    -   window-length: the same as window-volume where the length of the edges determines the selection instead of the volume.
+    -   window-distance: extract children whose distance to \'Stencil\' shape is within value window, defined by properties \"Window From\", \"Window To\", \"Override Max Val\".
 
 -    **Invert**: If set to true the list as described above is excluded instead of included.
 

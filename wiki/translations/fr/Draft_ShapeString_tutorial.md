@@ -1,6 +1,6 @@
 ---
  TutorialInfo:r
-   Topic: Product design
+   Topic: Conception de produit
    Level: Débutant
    Time: 30 minutes
    Author: r-frank et vocx
@@ -34,8 +34,8 @@ Pour utiliser ShapeStrings à l\'intérieur de l\'[atelier PartDesign](PartDesig
 
 L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tracer une ligne auxiliaire. Pour plus d\'informations sur les outils de cet atelier, consultez
 
--   le [Tutoriel d\'introduction à Sketcher](Basic_Sketcher_Tutorial/fr.md)
--   le [Manuel de référence pour Sketcher](Sketcher_reference/fr.md)
+-   le [tutoriel d\'introduction à Sketcher](Basic_Sketcher_Tutorial/fr.md)
+-   le [manuel de référence pour Sketcher](Sketcher_Lecture/fr.md)
 
 
 
@@ -85,14 +85,14 @@ L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tr
 :   5.4. Remplacez **Z** en `0 mm`.
 :   5,5. Ou appuyez sur **Réinitialiser le point**.
 :   5.6. Remplacez **Chaîne** par `FreeCAD`; mettez la **Hauteur** à `5 mm`; remplacez **Suivi** en `0 mm`.
-:   5.7. Assurez-vous que le **Fichier de police** pointe vers une police valide, par exemple `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf`. Appuyez sur les points de suspension **...** pour ouvrir la boîte de dialogue du système d\'exploitation pour trouver une police.
+:   5.7. Assurez-vous que le **Fichier de police** pointe vers une police valide (par exemple `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf` ou `C:/Windows/Fonts/arial.ttf`). Appuyez sur les points de suspension **...** pour ouvrir la boîte de dialogue du système d\'exploitation pour trouver une police.
 
     :   
         **Remarque :**
         
         pour plus de détails sur le travail avec les polices, veuillez vous reporter à la section [Draft Formes à partir texte Remarques](Draft_ShapeString/fr#Remarques.md).
 :   5.8. Appuyez sur **OK**. Cela créera un objet `ShapeString`.
-:   5.9. Recalculez le document en appuyant sur **[<img src=images/Std_Refresh.svg style="width:16px"> [Rafraîchir](Std_Refresh/fr.md)**.
+:   5.9. Recalculez le document en appuyant sur **[<img src=images/Std_Refresh.svg style="width:16px"> [Recalculer](Std_Refresh/fr.md)**.
 :   5.10. Dans la [vue en arborescence](Tree_view/fr.md), sélectionnez `ShapeString`, dans l\'onglet **Vue**, changez la valeur de **Largeur de ligne** à `2.0`.
 :   5.11. Dans la [vue en arborescence](Tree_view/fr.md), sélectionnez `Chamfer`, dans l\'onglet **Vue**, changez la valeur de **Visibility** à `false` ou appuyez sur **Espace** sur le clavier. Cela masquera l\'objet afin que vous puissiez mieux voir le `ShapeString`.
 :   5.12. Pour voir la Forme à partir d\'un texte ci-dessus, changez la vue en appuyant sur **[<img src=images/View-top.svg style="width:16px"> [Vue de dessus (XY)](Std_ViewTop/fr.md)** ou **2** au clavier.
@@ -129,7 +129,7 @@ Nous allons maintenant dessiner une simple esquisse qui sera utilisée comme gé
 
 :   9.1. Choisissez la face inclinée créée par l\'opération de chanfrein (`Face3`).
 :   9.2. Cliquez sur **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Créer une esquisse](Sketcher_NewSketch/fr.md)**. Dans la boîte de dialogue **Sketch attachment**, sélectionnez `FlatFace`, puis appuyez sur **OK**.
-:   9.3. La vue doit s\'ajuster automatiquement afin que la caméra soit parallèle au visage sélectionné.
+:   9.3. La vue doit s\'ajuster automatiquement afin que la prise de vue soit parallèle à la face sélectionné.
 :   9.4. Tracez une ligne horizontale dans une position générale sur le dessus du visage. La longueur n\'est pas importante; nous sommes simplement intéressés par sa position.
 :   9.5. Contraindre l\'extrémité gauche à `2.5 mm` de l\'axe X local et de l\'axe Y local, à l\'aide de **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Contrainte de distance horizontale](Sketcher_ConstrainDistanceX/fr.md)** et **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Contrainte de distance verticale](Sketcher_ConstrainDistanceY/fr.md)**.
 :   9,6. Étant donné que l\'esquisse n\'est qu\'un objet auxiliaire, nous n\'avons pas besoin de le contraindre complètement. Vous pouvez le faire si vous le souhaitez en affectant une distance fixe, par exemple `20 mm`, à nouveau avec **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Contrainte de distance horizontale](Sketcher_ConstrainDistanceX/fr.md)**.
@@ -152,12 +152,12 @@ Nous allons maintenant dessiner une simple esquisse qui sera utilisée comme gé
 :   11.1. Cochez l\'option **Appliquer des changements incrémentiels**.
 :   11.2. Changez **Rotation** en `Axe de rotation avec angle`; **Axe** en `Z`. (en définissant les valeurs `X`, `Y` et `Z` des valeurs de l\'axe à `0`, `0` et `1` respectivement, `Z` étant la troisième entrée), et **Angle** à `90 deg`, puis cliquez sur **Appliquer**. Ceci appliquera une rotation autour de l\'axe Z et remettra le champ **Angle** à zéro.
 :   11.3. Changez **Rotation** en `Axe de rotation avec angle`; **Axe** en `Y`. (en définissant les valeurs `X`, `Y` et `Z` des valeurs de l\'axe à `0`, `1` et `0` respectivement), et **Angle** à `45 deg`, puis cliquez sur **Appliquer**. Ceci appliquera une rotation autour de l\'axe Y et remettra le champ **Angle** à zéro.
-:   11.4. Cliquez sur **OK** pour fermer la boîte de dialogue.
+:   11.4. Cliquez sur **OK** pour fermer la fenêtre de dialogue.
 
 12\. Basculez à nouveau vers l\'[Atelier Draft](Draft_Workbench/fr.md).
 
 :   12.1. Passez au style de dessin \"Filaire\" avec **Affichage → [Style de représentation](Std_DrawStyle/fr.md) → [<img src=images/DrawStyleWireFrame.svg style="width:16px"> Filaire** ou appuyez sur **[<img src=images/DrawStyleWireFrame.svg style="width:16px"> [Filaire](Std_DrawStyle/fr.md)** dans la barre d\'outils de la vue. Cela vous permettra de voir les objets derrière d\'autres objets.
-:   12.2. Assurez-vous que la méthode [Draft Aimantation](Draft_Snap/fr.md) \"Aimantation Terminaison\" est active. Cela peut être fait à partir du menu **Draft → Aimantation → [<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Verrouillage de l'aimantation](Draft_Snap_Lock/fr.md)** puis ** → [<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Aimantation Terminaison](Draft_Snap_Endpoint/fr.md)** ou en appuyant sur **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Verrouillage de l'aimantation](Draft_Snap_Lock/fr.md)** et **[<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** dans la barre d\'outils Snap.
+:   12.2. Assurez-vous que la méthode [Draft Aimantation](Draft_Snap/fr.md) \"Aimantation Terminaison\" est active. Cela peut être fait à partir du menu **Draft → Aimantation → [<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Verrouiller l'aimantation](Draft_Snap_Lock/fr.md)** puis ** → [<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Aimantation Extrémité](Draft_Snap_Endpoint/fr.md)** ou en appuyant sur **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Verrouiller l'aimantation](Draft_Snap_Lock/fr.md)** et **[<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Extrémité](Draft_Snap_Endpoint/fr.md)** dans la barre d\'outils Snap.
 
 13\. Dans la [vue en arborescence](Tree_view/fr.md), sélectionnez `Extrude`.
 

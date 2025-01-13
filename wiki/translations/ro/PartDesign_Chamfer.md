@@ -130,7 +130,7 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
 2.  There are several ways to select edges to chamfer:
     -   Select one or more edges of the Body individually.
     -   Select one or more faces of the Body to select all their edges.
-    -   Select a feature (usually the last feature) of the Body to select all its edges. <small>(v0.20)</small> 
+    -   Select a feature (usually the last feature) of the Body to select all its edges.
 3.  For a chain of tangentially connected edges only a single edge needs to be selected, the chamfer will propagate along the chain.
 4.  There are several ways to invoke the tool:
     -   Press the **<img src="images/PartDesign_Chamfer.svg" width=16px> [Chamfer](PartDesign_Chamfer.md)** button.
@@ -153,7 +153,7 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
     -   Press the **Add** button to start selecting edges and/or faces in the [3D view](3D_view.md).
     -   To select all remaining edges do the following:
         1.  If required press the **Add** button.
-        2.  Use the **Ctrl**+**Shift**+**A** keyboard shortcut, or right-click the list and select **Add all edges** from the context menu. <small>(v0.20)</small> 
+        2.  Use the **Ctrl**+**Shift**+**A** keyboard shortcut, or right-click the list and select **Add all edges** from the context menu.
 -   To remove edges do one of the following:
     -   Press the **Remove** button to start deselecting edges and/or faces in the [3D view](3D_view.md). Selected elements are highlighted in purple.
     -   Select one or more elements in the list and press the **Del** key, or right-click the list and select **Remove** from the context menu.
@@ -176,7 +176,7 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
 -   Set the **Size** of the chamfer.
 -   Set the **Size2** of the chamfer (only available if **Two distances** is selected).
 -   Set the **Angle** of the chamfer (only available if **Distance and angle** is selected).
--   Check the **Use all edges** checkbox to select all edges of the previous feature. This deactivates the selection list and the related buttons. <small>(v0.20)</small> 
+-   Check the **Use all edges** checkbox to select all edges of the previous feature. This deactivates the selection list and the related buttons.
 
 ## Notes
 

@@ -1,11 +1,11 @@
 ---
  GuiCommand:
    Name: PartDesign SubShapeBinder
-   Name/pl: Projekt Części: Łącznik kształtów podrzędnych
+   Name/pl: Projekt Części: Łącznik kształtów obiektu podrzędnego
    Workbenches: PartDesign_Workbench/pl
-   MenuLocation: Projekt Części , Utwórz łącznik kształtu obiektu podrzędnego
+   MenuLocation: Projekt Części , Łącznik kształtów obiektu podrzędnego
    Version: 0.19
-   SeeAlso: PartDesign_ShapeBinder/pl, PartDesign_Clone/pl
+   SeeAlso: PartDesign_Clone/pl
 ---
 
 # PartDesign SubShapeBinder/pl
@@ -14,7 +14,7 @@
 
 ## Opis
 
-Narzędzie **Łącznik kształtów podrzędnych** tworzy spoiwo kształtu odwołujące się do geometrii z jednego lub więcej obiektów nadrzędnych. Narzędzie Łącznik kształtów podrzędnych jest zazwyczaj używane wewnątrz [zawartości](PartDesign_Body/pl.md) do odwoływania się do geometrii spoza Zawartości. Używanie zewnętrznej geometrii bezpośrednio w bryle jest niedozwolone i prowadzi do błędów wykraczających poza zakres. Jednak Łącznik kształtów podrzędnych może być również używany bez zagnieżdżania w Zawartości.
+Narzędzie **Łącznik kształtów podrzędnych** tworzy łącznik kształtu odwołujący się do geometrii z jednego lub więcej obiektów nadrzędnych. Narzędzie Łącznik kształtów podrzędnych jest zazwyczaj używane wewnątrz [Zawartości](PartDesign_Body/pl.md) do odwoływania się do geometrii spoza Zawartości. Używanie zewnętrznej geometrii bezpośrednio w bryle jest niedozwolone i prowadzi do błędów wykraczania poza zakres. Jednak Łącznik kształtów podrzędnych może być również używany bez zagnieżdżania w Zawartości.
 
 Łącznik kształtów podrzędnych śledzi względne rozmieszczenie geometrii, do której się odwołuje, co jest przydatne w kontekście tworzenia [złożeń](Assembly/pl.md), ale oprócz tego ma również własne umiejscowienie.
 
@@ -70,7 +70,7 @@ Z prawej strony dwie bryły Łącznika kształtów podrzędnych odwołujące si�
 
 ## Uwagi
 
--   Odsunięcie 2D jest obsługiwane dla niektórych typów kształtów, w tym powierzchni płaskich, krawędzi i polilinii. Ponieważ odsunięcie jest trudną operacją dla programu, nie zawsze się udaje. {{Version/pl|0.20}}
+-   Odsunięcie 2D jest obsługiwane dla niektórych typów kształtów, w tym powierzchni płaskich, krawędzi i polilinii. Ponieważ odsunięcie jest trudną operacją dla programu, nie zawsze się udaje.
 -   Łącznik kształtów podrzędnych, który nie jest zagnieżdżony w bryle, może zostać użyty jako [cecha podstawowa](PartDesign_Body/pl#W.C5.82a.C5.9Bciwo.C5.9B.C4.87_podstawowa.md) dla nowej Zawartości.
 -   Właściwość **Podparcie** zawiera odnośniki do geometrii, do której się odwołujemy. Domyślnie właściwość ta jest tylko do odczytu, ale można ją zmodyfikować, postępując zgodnie z instrukcjami opisanymi w sekcji [Zacznij od pustego Łącznika kształtów podrzędnych](#Zacznij_od_pustego_.C5.81.C4.85cznika_kszta.C5.82t.C3.B3w_podrz.C4.99dnych.md).
 -   Łącznik kształtów podrzędnych utworzony ze szkicu może mieć przeciwny \"kierunek narzędzia\". Na przykład [wyciągnięcie](PartDesign_Pad/pl.md) utworzone ze szkicu może rozciągać się w kierunku +Y, podczas gdy [wyciągnięcie](PartDesign_Pad/pl.md) o tych samych właściwościach utworzone z Łącznika kształtów podrzędnych rozciąga się w kierunku -Y. Przełączenie właściwości **Odwrócony** *(lub pola wyboru)* rozwiąże ten problem.
@@ -79,17 +79,7 @@ Z prawej strony dwie bryły Łącznika kształtów podrzędnych odwołujące si�
 
 ## Łącznik kształtów podrzędnych kontra łącznik kształtu 
 
-Narzędzie Łącznik kształtów podrzędnych środowiska pracy Projekt Części i narzędzie [Łącznik kształtu](PartDesign_ShapeBinder/pl.md) są dość podobne. Ich nazwy są nieco mylące, ponieważ oba mogą odwoływać się do całych obiektów i elementów podrzędnych.
-
-Główne różnice to:
-
--   Edycja obiektu Łącznik kształtu jest łatwiejsza. Dwukrotne kliknięcie na obiekt w oknie [Widok drzewa](Tree_view/pl.md) spowoduje otwarcie panelu zadań.
--   Łącznik kształtu środowiska pracy Projekt Części może odwoływać się do pojedynczego całego obiektu lub elementów podrzędnych należących do pojedynczego obiektu nadrzędnego. Łącznik kształtów podrzędnych środowiska pracy Projekt Części nie ma tych ograniczeń.
--   Tylko obiekty Łącznik kształtów podrzędnych środowiska pracy Projekt Części mogą odwoływać się do geometrii z pliku zewnętrznego.
--   Łącznik kształtów podrzędnych środowiska pracy Projekt Części zawsze śledzi względne umiejscowienie geometrii, do której się odwołuje. Dla Łącznika kształtu to zachowanie jest opcjonalne poprzez jego właściwość **Śledź podparcie**.
--   Tylko narzędzie Łącznik kształtów podrzędnych obsługuje odsunięcie 2D.
-
-Pamiętając, że każde z tych narzędzi ma swoje wady i zalety, a wybór może zależeć od przypadku użycia, można stwierdzić, że użycie Łącznika kształtów podrzędnych jest obecnie zalecane dla większości zastosowań ze względu na jego wszechstronność i zakres opcji. Więcej informacji na temat tych narzędzi można znaleźć w filmie MangoJelly \[<https://www.youtube.com/watch?v=ylAMGQ8HV0w>\| FreeCAD dla początkujących 34: Projekt Części, Łącznik kształtów kontra Łącznik kształtów podrzędnych\].
+Zapoznaj się z akapitem: [Łącznik kształtu](PartDesign_ShapeBinder/pl#.C5.81.C4.85cznik_kszta.C5.82tu_obiektu_podrz.C4.99dnego_kontra_.C5.82.C4.85cznik_kszta.C5.82tu.md).
 
 
 
@@ -123,7 +113,7 @@ Obiekt Łącznik kształtów podrzędnych środowiska Projekt Części wywodzi s
 -    **Bind Copy On Change|Enumeration**
     
 
--    **Refine|Bool**: jeśli parametr przyjmie wartość {{TRUE/pl}}, to nadmiarowe krawędzie zostaną usunięte *(na przykład po operacji logicznej)*. {{Version/pl|0.20}}
+-    **Refine|Bool**: jeśli parametr przyjmie wartość {{TRUE/pl}}, to nadmiarowe krawędzie zostaną usunięte *(na przykład po operacji logicznej)*.
 
 -    **_ Version|Integer|hidden**: wersja obiektu tego typu.
 
@@ -133,20 +123,29 @@ Obiekt Łącznik kształtów podrzędnych środowiska Projekt Części wywodzi s
 
 {{TitleProperty|Cache}}
 
--    **Body|Matrix|ukryte**: macierz jednorodności tego obiektu.
+-    **Body|Matrix|ukryte**: macierz jednorodności (osobna właściwość dla każdego obiektu we właściwości **Support**)..
 
 
 {{TitleProperty|Wyrównanie}}
 
--    **Offset**: Odsunięcie 2D, które ma być zastosowane. Jeśli wartość odsunięcia = 0, nie zostanie zastosowane żadne odsunięcie. Jeśli wartość odsunięcia \< 0, wówczas odsunięcie jest stosowane do wewnątrz. {{Version/pl|0.20}}
+-    **Offset**: Odsunięcie 2D, które ma być zastosowane. Jeśli wartość odsunięcia = 0, nie zostanie zastosowane żadne odsunięcie. Jeśli wartość odsunięcia \< 0, wówczas odsunięcie jest stosowane do wewnątrz.
 
--    **Offset Join Type**: Metoda dołączania dotycząca odsunięcia połączeń niestycznych. Metodą może być {{Value|Arcs}}, {{Value|Tangent}} lub {{Value|Intersection}}. {{Version/pl|0.20}}
+-    **Offset Join Type**: Metoda dołączania dotycząca odsunięcia połączeń niestycznych. Metodą może być {{Value|Arcs}}, {{Value|Tangent}} lub {{Value|Intersection}}.
 
--    **Offset Fill|Bool**: Jeśli parametr ten zostanie ustawiony na wartość `True`, pomiędzy nową i oryginalną linią zostanie utworzona ściana. Zobacz także właściwość **Make Face**. {{Version/pl|0.20}}
+-    **Offset Fill|Bool**: Jeśli parametr ten zostanie ustawiony na wartość `True`, pomiędzy nową i oryginalną linią zostanie utworzona ściana. Zobacz także właściwość **Make Face**.
 
--    **Offset Open Result|Bool**: Wpływa na sposób przetwarzania otwartych polilinii. Jeśli parametr zostanie ustawiony na wartość `False`, zostanie utworzona otwarta polilinia. Jeśli {{TRUE/pl}}, powstanie zamknięta polilinia z dwustronnego odsunięcia, z zaokrągleniami wokół otwartych wierzchołków. {{Version/pl|0.20}}
+-    **Offset Open Result|Bool**: Wpływa na sposób przetwarzania otwartych polilinii. Jeśli parametr zostanie ustawiony na wartość `False`, zostanie utworzona otwarta polilinia. Jeśli {{TRUE/pl}}, powstanie zamknięta polilinia z dwustronnego odsunięcia, z zaokrągleniami wokół otwartych wierzchołków.
 
--    **Offset Intersection|Bool**: Wpływa na sposób przetwarzania złożeń. Jeśli parametr ten zostanie ustawiony na wartość {{FALSE/pl}}, wszystkie elementy potomne są przetwarzane niezależnie. Jeśli {{TRUE/pl}}, a elementami potomnymi są krawędzie i polilinie, są one odsuwane w sposób zbiorczy. {{Version/pl|0.20}}
+-    **Offset Intersection|Bool**: Wpływa na sposób przetwarzania złożeń. Jeśli parametr ten zostanie ustawiony na wartość {{FALSE/pl}}, wszystkie elementy potomne są przetwarzane niezależnie. Jeśli {{TRUE/pl}}, a elementami potomnymi są krawędzie i polilinie, są one odsuwane w sposób zbiorczy.
+
+
+
+### Widok
+
+
+{{TitleProperty|Base}}
+
+-    **Use Binder Style|Bool**: Jeśli {{TRUE/pl}}, kolory obiektu łącznika kształtu zależą od parametru [dostrajania](Fine-tuning/pl#środowisko_pracy_Projekt_Części.md) **DefaultDatumColor**. Jeśli {{FALSE/pl}}, stosowane są normalne kolory kształtu.
 
 
 

@@ -7,12 +7,16 @@
 
 # Fasteners ScrewCalculator/ru
 
+
+
 ## Описание
 
 The <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> **Fasteners ScrewCalculator** command shows a calculator to determine the tap hole size of screws.
 
 ![](images/Fasteners_ScrewCalculator_Dialog.png ) 
 *The Screw hole calculator dialog box*
+
+
 
 ## Применение
 
@@ -26,14 +30,17 @@ The <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> *
 6.  Press the **Close** button (provided by the OS) to close the dialog box.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Fasteners Tools navi
 
-}}
+
+</div>
+
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ScrewCalculator/ru
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners ScrewCalculator/ru

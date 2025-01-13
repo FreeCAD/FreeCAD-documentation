@@ -146,6 +146,14 @@ Jeśli opcja ta jest zaznaczona, helisa będzie wyświetlana w oknie widoku w tr
 
 
 
+## Uwagi
+
+-   Narzędzie <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [Łącznik kształtu](PartDesign_ShapeBinder/pl.md) nie może być użyte dla profilu.
+-   Podczas korzystania z narzędzia <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [Łącznik kształtów podrzędnych](PartDesign_SubShapeBinder/pl.md) dla profilu, wybranie łącznika w oknie [widoku drzewa](Tree_view/pl.md) nie powiedzie się, zamiast tego powierzchnia łącznika musi zostać wybrana w oknie [widoku 3D](3D_view/pl.md).
+-   Helisy są bardzo problematyczne do prawidłowego przeliczenia dla silnika CAD, ponieważ występujące w ich przypadku krzywe pchają precyzję liczb zmiennoprzecinkowych do granic możliwości. To oznacza, że przeprowadzanie dalszych operacji na helisie, takich jak próby zastosowania operacji logicznych z innym obiektem, mogą być bardzo podatne na niewielkie zmiany. Kiedy zawodzą, często psują model w niespodziewany sposób. Aby tego uniknąć, należy starać się zapewniać wyraźne przenikanie operacji na helisie lub wyraźny jego brak. Dokładne dopasowanie, gdzie powierzchnia helisy jest idealnie zrównana z powierzchnią innego obiektu jest niestabilne. Przykładem jest gwint wokół walca trzpienia śruby. Może to nawet zadziałać początkowo i zepsuć się dopiero później, gdy obiekty zostaną nieco przemieszczone.
+
+
+
 ## Przykłady
 
 ![Przykładowa helisa wykorzystująca [krzywą złożoną](images/Sketcher_CreateBSpline/pl.md) w szkicu](PartDesign_AdditiveHelix_example_bspline.png )

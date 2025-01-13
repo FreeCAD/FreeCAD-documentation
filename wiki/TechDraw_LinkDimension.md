@@ -8,8 +8,6 @@
 
 # TechDraw LinkDimension
 
-The **TechDraw LinkDimension** tool is expected to be deprecated in the future. The [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) tool can be used to change both 2D and 3D references.
-
 ## Description
 
 The **TechDraw LinkDimension** tool creates a link between 3D geometry and one or more existing projected Dimensions on a Page. This link allows the Dimension to use actual 3D values instead of 2D projected values.
@@ -50,7 +48,7 @@ The TechDraw LinkDimension tool is not directly usable in macros, but changing t
 
 
 
- {{TechDraw Tools navi}}
+ {{TechDraw_Tools_navi}}
 
 
 

@@ -25,32 +25,19 @@ Il comando **Stereo quad buffer** cambia la [Vista 3D](3D_view/it.md) attiva in 
 
 ## Preferenze
 
--   La distanza occhio-occhio può essere modificata nelle preferenze: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Distanza tra gli occhi per le modalità stereo**. Vedere [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md).
+Vedere [Stereo rosso/ciano](Std_ViewIvStereoRedGreen/it#Preferenze.md).
 
 
 
 ## Script
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
-
-Per modificare la visualizzazione in stereo quad buffer utilizzare il metodo `setStereoType` dell\'oggetto ActiveView. Questo metodo non è disponibile se FreeCAD è in modalità console.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.setStereoType('QuadBuffer')
-FreeCADGui.ActiveDocument.ActiveView.getStereoType()
-```
+Vedere [Stereo rosso/ciano](Std_ViewIvStereoRedGreen/it#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

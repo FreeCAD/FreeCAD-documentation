@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part JoinCutout
    Name/de: Part Ausschneiden
-   MenuLocation: Formteil , Verbinden , Ausschnitt für Objekt
+   MenuLocation: Formteil , Verbinden , Für Objekt ausschneiden
    Workbenches: Part_Workbench/de
    Version: 0.16
    SeeAlso: Part_JoinConnect/de, Part_JoinEmbed/de, Part_Boolean/de, Part_Thickness/de
@@ -10,26 +10,30 @@
 
 # Part JoinCutout/de
 
+
+
 ## Beschreibung
 
-Das Werkzeug <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part Ausschneiden](Part_JoinCutout/de.md) erstellt einen Ausschnitt in einem Hohlkörper (z.B. einem Rohr), in den ein anderer Hohlkörper passt.
+Das Werkzeug <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> **Part Ausschneiden** erstellt einen Ausschnitt in einem Hohlkörper (z.B. einem Rohr), in den ein anderer Hohlkörper passt.
 
 ![600px](images/JoinFeatures_Cutout.png)
 
+
+
 ## Anwendung
 
-1.  Zuerst das Basisobjekt auswählen, dann das Objekt, das den Ausschnitt definiert.
-    Die Reihenfolge der Auswahl ist wichtig. Es reicht aus, nur eine Teilform jedes Objekts (z.B. Flächen) auszuwählen.
-2.  Der Befehl Part **Ausschnitt für Objekt** kann auf mehrere Arten aufgerufen werden:
-    -   Drücken der Schaltfläche <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Ausschnitt für Objekt](Part_JoinCutout/de.md) in der Part-Werkzeugleiste
-    -   Auswahl des Eintrags **Formteil → Verbinden → Ausschnitt für Objekt** im Part-Menü
+1.  Zuerst das Basisobjekt auswählen, dann das Objekt zum Einbetten. Die Reihenfolge der Auswahl ist wichtig. Es reicht aus, nur eine Teilform jedes Objekts (z.B. Flächen) auszuwählen.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltflächen **<img src="images/Part_JoinCutout.svg" width=16px> [Für Objekt ausschneiden](Part_JoinCutout/de.md)** drücken.
+    -   Den Menüeintrag **Part → Verbinden → <img src="images/Part_JoinCutout.svg" width=16px> Für Objekt ausschneiden** auswählen.
+3.  Ein JoinFeature-Objekt wird erstellt, dessen Modus auf \'Embed\' eingestellt ist. Die originalen Objekte werden ausgeblendet und das Ergebnis des Einbettens wird in der [3D-Ansicht](3D_view/de.md) angezeigt.
 
-A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original objects are hidden, and the result of cutting is shown in [3D view](3D_view.md).
+
 
 ## Eigenschaften
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Basis}}
 
 -    **Base**: Reference to base object (the one to make the cutout in). The object should be a single solid.
 
@@ -39,6 +43,8 @@ A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original obje
 
 -    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences. When Mode property is \'bypass\', Refine is ignored (never applied).
 
+
+
 ## Beispiel
 
 1.  Create a pipe by applying [thickness](Part_Thickness.md) to a [cylinder](Part_Cylinder.md):
@@ -47,6 +53,8 @@ A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original obje
     ![320px](images/JoinFeatures_Example_step2.png)
 3.  Select the first pipe, then the second pipe (order of selection is important), and click the \'Cutout for object\' option from the Join tools dropdown toolbar button.
     ![320px](images/JoinFeatures_Example_step3_Cutout.png)
+
+
 
 ## Algorithmus
 
@@ -59,6 +67,8 @@ Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es is
 3\. Falls **Refine** den Wert `True` hat, ist die entstandene Form [verfeinert](Part_RefineShape/de.md).
 ![800px](images/JoinFeatures-Algo-Cutout.png)
 
+
+
 ### Hinweise
 
 -   Falls das Objekt nach Schritt 1 ein Stück bliebt, ist das Ergebnis des Ausschnitts äquivalent zu [booleschem Schneiden](Part_Cut/de.md) der Basis mit dem Werkzeug.
@@ -66,6 +76,8 @@ Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es is
 -   Weil das größte Objekt durch Volumenvergleich der Teile festgelegt wird, kann das Werkzeug nur mit Volumenkörpern arbeiten. Da
 
 Because the largest piece is determined by comparing volumes of pieces, the tool can only work with solids. Dies könnte sich in der Zukunft ändern.
+
+
 
 ## Skripten
 
@@ -85,6 +97,14 @@ j.Tool = FreeCADGui.Selection.getSelection()[1]
 }}
 
 Das Werkzeug selbst ist in Python implementiert, siehe **/Mod/Part/JoinFeatures.py** ([GitHub link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) innerhalb des FreeCAD-Installationsverzeichnisses.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

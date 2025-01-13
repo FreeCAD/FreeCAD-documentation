@@ -17,9 +17,9 @@
 
 ## Descrição
 
-The <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> **Draft Clone** command creates linked copies, clones, of selected objects. The shape of a clone is parametric, it will update if its source object changes. But a clone does have its own position, rotation, and scale, and its own [View properties](Property_editor.md). For [Arch](Arch_Workbench.md) objects the command creates a special type of clone: an Arch clone.
+The <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> **Draft Clone** command creates linked copies, clones, of selected objects. The shape of a clone is parametric, it will update if its source object changes. But a clone does have its own position, rotation, and scale, and its own [View properties](Property_editor.md). For [BIM](BIM_Workbench.md) objects the command creates a special type of clone: an Arch clone.
 
-The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md). Clones of 2D objects can be used in [PartDesign Bodies](PartDesign_Body.md).
+The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [BIM Workbench](BIM_Workbench.md). Clones of 2D objects can be used in [PartDesign Bodies](PartDesign_Body.md).
 
 <img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;"> 
 *Draft Clone next to its source object*
@@ -39,7 +39,7 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 
 ## Propriedades
 
-See also: [Property editor](property_editor.md).
+See also: [Property editor](Property_editor.md).
 
 An object created with the Draft Clone command is derived from a [Part Part2DObject](Part_Part2DObject.md), a [Part Feature](Part_Feature.md) object or, if an Arch Clone is created, from the object type of the source object. It inherits all properties from that object. A clone derived from one of the first two objects also has the following additional properties:
 
@@ -69,7 +69,7 @@ cloned_object = make_clone(obj, delta=None, forcedraft=False)
 
 -    `delta`is the displacement vector to be applied to the clone.
 
--   If `forcedraft` is `False` and `obj` contains a single [Arch object](Arch_Workbench.md) an Arch Clone is created. Set `forcedraft` to `True` to create a Draft Clone instead.
+-   If `forcedraft` is `False` and `obj` contains a single [BIM object](BIM_Workbench.md), an Arch Clone is created. Set `forcedraft` to `True` to create a Draft Clone instead.
 
 -    `cloned_object`is returned with the clone object.
 

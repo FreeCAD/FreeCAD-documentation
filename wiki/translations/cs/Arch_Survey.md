@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -31,6 +33,8 @@ Když jsou informace posbírány, stanou se 3 věci:
 *Obrázek nahoře ukazuje co se stane při spuštění přehledového módu.*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Použití
@@ -55,6 +59,8 @@ Když jsou informace posbírány, stanou se 3 věci:
 -   Once you are done, before closing, you can export the contents of the Task dialog by pressing the \"export CSV\" button. The resulting CSV file can then be opened in any spreadsheet application such as Excel or LibreOffice Calc. The values and units will be separated in the resulting CSV file, and the totals are written as SUM() functions.
 
 <img alt="" src=images/Arch_Survey_spreadsheet.jpg  style="width:640px;">
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
@@ -88,5 +94,13 @@ for obj in selection:
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/cs
+⏵ [documentation index](../README.md) > Arch Survey/cs

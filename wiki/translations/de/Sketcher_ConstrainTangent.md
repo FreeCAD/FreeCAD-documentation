@@ -2,99 +2,122 @@
  GuiCommand:
    Name: Sketcher ConstrainTangent
    Name/de: Sketcher TangentialFestlegen
-   MenuLocation: Sketch , Skizzen-Beschränkungen , Tangente setzen
+   MenuLocation: Skizze , Sketcher-Randbedingungen , Tangential oder kollinear festlegen
    Workbenches: Sketcher_Workbench/de 
    Shortcut: **T**
-   SeeAlso: Sketcher_ConstrainPointOnObject/de
+   SeeAlso: 
 ---
 
 # Sketcher ConstrainTangent/de
 
+
+
 ## Beschreibung
+
+The <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> [Sketcher ConstrainTangent](Sketcher_ConstrainTangent.md) tool constrains two edges, or an edge and an axis, to be tangent. Lines are treated as infinite, and open curves are virtually extended as well. The constraint can also connect two edges, forcing them to be tangent at the joint. If two lines are selected, or a line and the endpoint of another line, the lines are made collinear.
 
 Die Randbedingung TangentialFestlegen legt fest, dass sich zwei Kurven berühren (sie tangential sind). Linien werden als unendlich angesehen, und Bögen werden wie Vollkreise/Ellipsen behandelt. Die Randbedingung ist auch in der Lage, zwei Kurven miteinander zu verbinden, und sie gleichzeitig an der Verbindungsstelle tangential festzulegen, wodurch die Verbindung glatt wird.
 
-Die Randbedingung TangentialFestlegen kann auch mit zwei Linien verwendet werden, um sie kollinear (fluchtend) auszurichten.
+
 
 ## Anwendung
 
-Es gibt fünf verschiedene Arten, wie die Randbedingung angewendet werden kann:
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
-1.  zwischen zwei Kurven (nicht für alle Kurven verfügbar)
-2.  zwischen zwei Endpunkten einer Kurve, wodurch eine glatte Verbindung entsteht
-3.  zwischen einer Kurve und einem Endpunkt einer anderen Kurve
-4.  zwischen zwei Kurven an einem benutzerdefinierten Punkt
-5.  zwischen zwei Linien, um eine kollineare Bedingung zu erzeugen
 
-Um die Randbedingung TangentialFestlegen anzuwenden, sollten die folgenden Schritte befolgt werden:
 
--   Zwei oder drei Elemente der Skizze auswählen.
--   Die Randbedingung aufrufen, durch klicken auf das Symbol in der Werkzeugleiste, durch Auswahl des Menüelements oder durch Verwendung eines Tastaturkürzels.
+### [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md) 
 
-### Zwischen zwei Kurven (direkte Tangentialität) 
+1.  Sicherstellen, dass die Auswahl leer ist.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_ConstrainTangent.svg" width=16px> [Tangential oder kollinear festlegen](Sketcher_ConstrainTangent/de.md)** drücken.
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:600px;">
+    -   Den Menüeintrag **Skizze → Sketcher-Randbedingungen → <img src="images/Sketcher_ConstrainTangent.svg" width=16px> Tangential oder kollinear festlegen** auswählen.
 
-Zwei Kurven werden so angeordnet, dass sie sich tangential berühren; der Berührungspunkt wird implizit bestimmt. Dieser Modus wird angewandt, wenn zwei Kurven als ganzes ausgewählt werden.
+    -   
+        {{Version/de|1.0}}
+        
+        : Ein Rechtsklick in die [3D-Ansicht](3D_view/de.md) und die Menüoption **Festlegen → <img src="images/Sketcher_ConstrainTangent.svg" width=16px> Tangential oder kollinear festlegen** im Kontextmenü auswählen.
 
-**Zulässige Auswahl:**
+    -   Das Tastaturkürzel **T**.
+3.  Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
+4.  Eine der folgenden Möglichkeiten auswählen:
+    -   Zwei beliebige Kanten, außer B-Splines, auswählen.
+    -   Einen Punkt und zwei Kanten auswählen (in dieser Reihenfolge).
+    -   Eine Kante, einen Punkt und eine weitere Kante auswählen (wie vorher).
+5.  Eine Randbedingung Tangential oder kollinear festlegen wird hinzugefügt. Wurden ein Punkt und zwei Kanten ausgewählt, können bis zu zwei Randbedingungen [Punkt auf Objekt festlegen](Sketcher_ConstrainPointOnObject/de.md) hinzugefügt werden. Siehe [Beispiele](#Zwischen_zwei_Kanten_in_einem_Punkt.md).
+6.  Wahlweise weitere Randbedingungen erstellen.
+7.  Zum Beenden die rechte Maustaste oder **Esc** drücken; oder ein anderes Werkzeug zum Erstellen von Geometrien oder Randbedingungen aufrufen.
 
--   Linie + Linie, Kreis, Kreisbogen, Ellipse, Ellipsenbogen
--   Kreis, Kreisbogen + Kreis, Kreisbogen
 
-Wenn die direkte Tangentialität zwischen den ausgewählten Kurven nicht unterstützt wird (zum Beispiel zwischen einem Kreis und einer Ellipse), wird ein Hilfspunkt automatisch eingefügt und die Tangentialität mittels Punkt wird angewandt.
 
-Es wird nicht empfohlen den Berührungspunkt zu bestimmen, indem ein Punkt generiert wird, der so eingeschränkt wird, dass er auf beiden Kurven liegt. Dies funktioniert im Prinzip, aber die Konvergenz der Lösung wird erheblich erschwert, sprunghafter und benötigt mehr als doppelt so vieler Iterationen als normal. Wenn der Berührungspunkt benötigt wird, sollte andere Einschränkungen benutzt werden, um ihn zu bestimmen.
+### Einmal-Ausführen-Modus 
 
-### Zwischen zwei Endpunkten (Punkt-zu-Punkt Tangentialität) 
+1.  Eine der folgenden Möglichkeiten auswählen:
+    -   Zwei Kanten auswählen (siehe oben).
+    -   Zwei Kanten auswählen, die zu unterschiedlichen Kanten gehören.
+    -   Eine Kante und den Endpunkt einer anderen Kante auswählen (in beliebiger Reihenfolge).
+    -   Einen Punkt und zwei Kanten auswählen (wie vorher).
+2.  Das Werkzeug aufrufen, wie oben beschrieben oder mit der folgenden zusätzlichen Möglichkeit:
+    -   
+        {{Version/de|1.0}}
+        
+        : Ein Rechtsklick in die [3D-Ansicht](3D_view/de.md) und die Menüoption **<img src="images/Sketcher_ConstrainTangent.svg" width=16px> Tangential oder kollinear festlegen** im Kontextmenü auswählen.
+3.  Eine Randbedingung Tangential oder kollinear festlegen wird hinzugefügt. Wurden ein Punkt und zwei Kanten ausgewählt, können auch bis zu zwei Randbedingungen [Punkt auf Objekt festlegen](Sketcher_ConstrainPointOnObject/de.md) hinzugefügt werden. Siehe [Beispiele](#Zwischen_zwei_Kanten_in_einem_Punkt.md).
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
 
-In diesem Modus werden die Endpunkte deckungsgleich gemacht und die Verbindung wird tangential gemacht (C1-glatt oder \"scharf\", je nach Platzierung der Kurven vor Anwendung der Beschränkung). Dieser Modus wird angewendet, wenn zwei Endpunkte von zwei Kurven ausgewählt wurden. Wenn du diese Art der Tangente willst, darfst du nicht die Deckungsgleichheit plus die Tangente zwischen den Kurven/Linien verwenden. Der Löser kann für diese Kombination keine stabilen Lösungen erzeugen und ersetzt die Beschränkungen entsprechend.
 
-**Zulässige Auswahl:**
+## Beispiele
 
--   Endpunkt einer Linie / eines Bogens / eines Ellipsenbogens + Endpunkt einer Linie / eines Bogens / eines Ellipsenbogens (im Allgemeinen zwei Endpunkte von jedweden Kurven)
 
-### Zwischen einer Kurve und einem Endpunkt (Punkt-zu-Kurve Tangentialität) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:600px;">
+### Zwischen zwei Kanten 
 
-In diesen Modus wird der Endpunkt der einen Kurve auf die andere Kurve gelegt und die Kurven berühren sich tangential in diesen Punkt. Dieser Modus wird angewandt, wenn eine Kurve und der Endpunkt einer anderen Kurve ausgewählt wurden.
+<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:400px;">
 
-**Zulässige Auswahl:**
+Die zwei Kanten werden tangential ausgerichtet. Ist eine der Kanten ein [Kegelschnitt](Sketcher_Workbench/de#Sketcher_CompCreateConic.md), wird ein [Punktobjekt](Sketcher_CreatePoint/de.md) hinzugefügt, das mit jeweils einer Randbedingung [Punkt auf Objekt festlegen](Sketcher_ConstrainPointOnObject/de.md) mit beiden (verlängerten) Kanten verbunden ist.
 
--   Linie, Kreis, Kreisbogen, Ellipsenbogen + Endpunkt einer Linie / eines Kreises / eines Kreisbogens / eines Ellipsenbogens (im Allgemeinen jede Kurve + der Endpunkt irgend einer anderen Kurve)
+Es wird nicht empfohlen den Berührpunkt manuell zu bestimmen, indem ein Punkt erstellt wird, der auf beiden Kurven liegend festgelegt wird. Dies funktioniert im Prinzip, aber die Konvergenz der Lösung wird erheblich erschwert, sprunghafter und benötigt ungefähr doppelt so viele Iterationen wie normal. Wird der Berührpunkt benötigt, werden stattdessen zwei Kanten und ein vorhandener Punkt ausgewählt.
 
-### Zwischen zwei Kurven an einem Punkt (Punkt-Tangentialität) (v0.15) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:600px;">
 
-In diesen Modus werden zwei Kurven tangential an einem ausgewählten Punkt angeordnet. Dieser Modus wird angewandt, wenn zwei Kurven und ein Punkt ausgewählt werden.
+### Zwischen zwei Endpunkten 
 
-**Zulässige Auswahl:**
+<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:400px;">
 
--   irgendeine Linie / Kurve + irgend eine Linie / Kurve + irgendein Punkt
+Die Endpunkte werden koinzident (deckungsgleich) festgelegt und der Winkel zwischen den Kanten in diesem Punkt auf 180° (stumpfe Verbindung) oder 0° (Scharfe Verbindung) festgelegt, abhängig von der Positionierung der Kanten bevor die Randbedingung zugeordnet wurde.
 
-\"Irgendein Punkt\" kann ein einzelner Punkt oder ein Punkt von irgendwas, zum Beispiel der Mittelpunkt eines Kreises oder der Endpunkt eines Bogens oder der Koordinatenursprung sein.
 
-Damit die Beschränkung korrekt funktioniert, muss der Punkt auf beiden Kurven liegen. Wenn also die Beschränkung aufgerufen wird, wird der Punkt automatisch an beide Kurven gebunden ([Hilfsbeschränkungen](Sketcher_helper_constraint/de.md) wird hinzugefügt, falls erforderlich), und die Kurven werden an den Punkt tangential gezwungen. Bei diesen [Hilfsbeschränkungen](Sketcher_helper_constraint/de.md) handelt es sich um einfache reguläre Beschränkungen. Sie können manuell hinzugefügt oder gelöscht werden.
 
-Verglichen mit der direkten Tangentialität ist diese Beschränkung langsamer, weil mehr Freiheitsgrade involviert sind, aber wenn der Berührungspunkt benötigt wird, ist dies der empfohlene Modus, weil er eine bessere Konvergenz der Lösung aufweist verglichen mit der direkten Tangentialität + Punkt auf zwei Kurven.
+### Zwischen Kante und Endpunkt 
 
-Die Platzierung des Punktes vor der Anwendung der Beschränkung ist ein Hinweis für den Löser, wo die Tangentialität sein soll. Mit diesem Modus ist es möglich zwei Ellipsen so anzuordenen, dass sie sich gegenseitig in zwei Punkten berühren.
+<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:400px;">
 
-### Zwischen zwei Linien (kollinear) 
+Der Endpunkt einer Kante wird auf der anderen Kante liegend und die Kanten in diesem Punkt tangential zueinander festgelegt.
 
-<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
 
-**Akzeptierte Auswahl:**
 
--   jede Linie/Knoten + jede Linie/Knoten
+### Zwischen zwei Kanten in einem Punkt 
+
+<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:400px;">
+
+Die zwei Kanten werden in einem gegebenen Punkt tangential zueinander festgelegt. Der Punkt kann ein beliebiger Punkt sein z.B. der Mittelpunkt eines Kreises, der Endpunkt einer Kante oder der Ursprung; er kann zu einer der Kanten gehören und er kann auch ein [Punktobjekt](Sketcher_CreatePoint/de.md) sein. Wenn erforderlich, werden Randbedingungen [Punkt auf Objekt festlegen](Sketcher_ConstrainPointOnObject/de.md) hinzugefügt, um sicherzustellen, dass der Punkt auf beiden (verlängerten) Kanten liegt. Diese zusätzlichen Randbedingungen werden These additional constraints are called [Helferrandbedingungen](Sketcher_helper_constraint/de.md) genannt.
+
+Verglichen mit der direkten Tangentialität ist diese Randbedingung langsamer, weil mehr Freiheitsgrade involviert sind, aber wenn der Berührungspunkt benötigt wird, ist dies der empfohlene Modus, weil er eine bessere Konvergenz der Lösung aufweist.
+
+
+
+### Zwischen zwei Linien 
+
+<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:400px;">
+
+Die beiden Linien werden kollinear zueinander ausgerichtet.
+
+
 
 ## Skripten
 
-Die tangentiale Beschränkung kann aus [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole wie folgt erstellt werden: 
+Die Randbedingung TangentialFestlegen kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Befehlen erstellt werden: 
 ```python
 # direct tangency
 Sketch.addConstraint(Sketcher.Constraint('Tangent',icurve1,icurve2))
@@ -107,17 +130,17 @@ Sketch.addConstraint(Sketcher.Constraint('Tangent',icurve1,pointpos1,icurve2))
 
 # tangent-via-point (plain constraint, helpers are not added automatically)
 Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoidpoint,pointpos)) 
-``` wobei:
+``` wobei
 
-  - `Sketch` ist ein Skizzenobjekt
+  - `Sketch` ein Skizzenobjekt ist.
 
-  - `icurve1`, `icurve2` sind zwei Integer Zahlen, die die Kurven identifizieren, die zueinander tangential liegen sollen. Dies Integer Zahlen sind Indexwerte der Skizze (der Wert, der vom Aufruf `Sketch.addGeometry` zurückgegeben wird).
+  - `icurve1`, `icurve2` zwei ganze Zahlen (integer) sind, die die Kurven identifizieren, die zueinander tangential liegen sollen. Diese Ganzzahlen sind Indexwerte der Skizze (die entsprechenden Rückgabewerte von `Sketch.addGeometry`).
 
-  - `pointpos1`, `pointpos2` sollten 1 für den Startpunkt und 2 für den Endpunkt sein.
+  - `pointpos1`, `pointpos2` 1 für den Startpunkt und 2 für den Endpunkt sein sollten.
 
-  - `geoidpoint` und `pointpos` in `TangentViaPoint` sind die Indexe, die den Punkt der Tangentialität spezifizieren.
+  - `geoidpoint` und `pointpos` in `TangentViaPoint` die Indizes sind, die den Berührpunkt festlegen.
 
-Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite erklärt die Werte, die für `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` und `pointpos` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python Skripten erstellt.
+Die Seite [Sketcher Skripterstellung](Sketcher_scripting/de.md) erklärt die Werte, die für `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` und `pointpos` verwendet werden können und enthält weitere Beispiele, wie man Randbedingungen mit Python-Skripten erstellt.
 
 
 

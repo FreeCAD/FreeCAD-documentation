@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher External
    Name/pl: Szkicownik: Utwórz geometrię zewnętrzną
-   MenuLocation: Szkic , Elementy geometryczne szkicownika , Utwórz geometrię zewnętrzną
+   MenuLocation: Szkic , Narzędzia szkicownika , Utwórz geometrię zewnętrzną
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **X**
    SeeAlso: Sketcher_ToggleConstruction/pl
@@ -14,74 +14,43 @@
 
 ## Opis
 
-Użyj narzędzia**<img src="images/Sketcher_External.svg" width=16px> '''Utwórz geometrię zewnętrzną'''** kiedy musisz zastosować wiązanie pomiędzy geometrią szkicu a czymś na zewnątrz szkicu. To działa przez wstawienie do szkicu połączonej geometrii konstrukcyjnej. Domyślny kolor połączonych zewnętrznych krawędzi to magenta. Tak samo jak w przypadku standardowych, niepołączonej geometrii konstrukcyjnej *(niebieska)*, zewnętrznie połączona geometria jest widoczna tylko gdy szkic jest w trybie edycji i nie jest bezpośrednio wykorzystywana w późniejszym użyciu gotowego szkicu w innym narzędziu. Oba typy geometrii konstrukcyjnej mogą być używane jako odniesienie dla wiązań w szkicu.
 
-Ostrzeżenie: użycie tego narzędzia do łączenia z wygenerowaną geometrią *(bryłą)* może prowadzić do nieoczekiwanych wyników z powodu [Problemu nazewnictwa topologicznego](Topological_naming_problem/pl.md). Zobacz również [Porady dotyczące tworzenia stabilnych modeli](Feature_editing/pl#Porady_dotycz.C4.85ce_tworzenia_stabilnych_modeli.md).
+{{VersionMinus/pl|1.0}}
 
-<FILE:Sketcher_ExternalEsempio1.png>
+: Narzędzie <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> **Utwórz geometrię zewnętrzną** rzutuje krawędzie i / lub wierzchołki należące do obiektów znajdujących się poza szkicem na płaszczyznę szkicu. Rzutowana geometria nazywana jest „geometrią zewnętrzną". Pozostaje parametrycznie powiązana ze swoimi obiektami źródłowymi. Krawędzie geometrii zewnętrznej są oznaczone dedykowanym [kolorem](Sketcher_Preferences/pl#Wygląd_zewnętrzny.md) *(domyślnie magenta)* i rodzajem linii *({{Version/pl|1.0}})*. Podobnie jak w przypadku geometrii konstrukcyjnej, geometria zewnętrzna nie jest widoczna poza szkicem, ma pomóc w zdefiniowaniu wiązań i innej geometrii wewnątrz samego szkicu.
+
+
+{{VersionPlus/pl|1.1}}
+
+: Zobacz stronę <img alt="" src=images/Sketcher_Projection.svg  style="width:24px;"> [Rzutowanie](Sketcher_Projection/pl.md)
+
+![](images/Sketcher_ExternalEsempio1.png ) 
+*Dwie linie w kolorze magenta to zewnętrzna geometria połączona z krawędziami wcześniej istniejącego [wyciągnięcia](PartDesign_Pad/pl.md). Są one używane do związania okręgów.*
 
 
 
 ## Użycie
 
--   Utwórz nowy szkic lub otwórz istniejący szkic.
--   Kliknij przycisk **[<img src=images/Sketcher_External.svg style="width:16px"> '''Geometria zewnętrzna'''**.
--   Wybierz krawędź lub wierzchołek, do którego chcesz łączyć w szkicu.
--   Naciśnij klawisz **Esc** lub wybierz inne narzędzie, aby zatrzymać importowanie geometrii do szkicu.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
-### Zasady wyboru 
-
--   Tylko krawędzie i wierzchołki z obiektów z tego samego układu współrzędnych są dozwolone.
-
-Oznacza to, że szkic i obiekt muszą znajdować się w tej samej Zawartości *(podczas pracy w środowisku Projekt Części)*, lub w tej samej Części *(podczas pracy w środowisku Część)*, lub obie poza jakimikolwiek Częściami i Zawartościami.
-
-Na przykład, jeśli otwarty szkic znajduje się w Zawartości, możesz użyć innego szkicu z Zawartości jako geometrii zewnętrznej, ale nie możesz użyć szkicu z Zawartości001 lub krawędzi z Prostopadłościanu z środowiska Część znajdującego się w najwyższym poziomie projektu. Użyj funkcji Łącznik kształtu, aby wprowadzić kopię obiektu do układu współrzędnych otwartego szkicu. Wtedy będziesz mógł użyć krawędzi / wierzchołków obiektu Łącznik kształtu.
-
--   Zależności kołowe nie są dozwolone.
-
-Oznacza to, że nie można łączyć się z Kieszenią wykonaną za pomocą tego szkicu. Nie możesz przyłączyć do żadnego obiektu, który zależy od szkicu.
-
-Szkic nie musi znajdować się na żadnej ścianie, aby móc korzystać z tego narzędzia. Łącza bezpośrednio między szkicami są możliwe i zalecane, ponieważ są one bardziej niezawodne.
-
-### Wygląd po pomyślnym Łączeniu 
-
-Gdy krawędź zostanie pomyślnie połączona, zostanie na nią nałożona linia *(domyślnie w kolorze magenty, wierzchołki będą czerwone)*, która będzie widoczna w szkicu tylko wtedy, gdy szkic jest w trybie edycji.
-
-### Podobieństwo do Linii Konstrukcyjnych 
-
-Linie geometrii zewnętrznej *(domyślnie w kolorze magenta)* są podobne *(domyślny kolor niebieski)* do [linii konstrukcyjnych](Sketcher_ToggleConstruction/pl.md) z tą różnicą, że linie geometrii zewnętrznej w kolorze magenta są parametrycznie połączone z elementem bryły, na której szkic jest mapowany. Geometria konstrukcyjna stanowi linie, które są liniami wewnętrznymi w szkicu i są widoczne tylko wtedy, gdy szkic znajduje się w trybie edycji, i będą używane tylko jako referencje wiązań, a nie bezpośrednio do późniejszych operacji na bryłach, takich jak Wyciągnięcie czy Kieszeń.
+1.  Istnieje kilka sposobów na wywołanie narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_External.svg" width=16px> '''Utwórz geometrię zewnętrzną'''**.
+    -   Wybierz z menu opcję **Szkic → Narzędzia szkicownika → <img src="images/Sketcher_External.svg" width=16px> Utwórz geometrię zewnętrzną**.
+    -   Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i z menu kontekstowego wybierz opcję **<img src="images/Sketcher_External.svg" width=16px> Utwórz geometrię zewnętrzną**.
+    -   Użyj skrótu klawiaturowego: **G**, a następnie **X**.
+2.  Kursor zmieni się w krzyżyk z ikoną narzędzia.
+3.  Wybierz krawędź zewnętrzną lub wierzchołek. Zobacz [Uwagi](#Uwagi.md).
+4.  Zostanie utworzona geometria zewnętrzna.
+5.  To narzędzie zawsze działa w trybie kontynuacji: opcjonalnie można kontynuować wybieranie zewnętrznych krawędzi i / lub wierzchołków.
+6.  Aby zakończyć, kliknij prawym przyciskiem myszy lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
 
 
 
-### Użycie Geometrii Zewnętrznej podczas pracy w Środowisku Projekt Części 
+## Uwagi
 
-Podczas pracy w środowisku Projekt Części, narzędzie Geometria Zewnętrzna jest używane do pomocy w pozycjonowaniu konstruowanej bryły w stosunku do poprzedniego etapu jej budowy. Środowisko Projekt Części jest przeznaczone do tworzenia pojedynczej bryły, dlatego te szkice w połączeniu z geometrią zewnętrzną są używane do tworzenia nowych cech tej samej bryły.
-
-Geometria zewnętrzna może być na przykład użyta jako odniesienie dla wiązania używanego w celu umieszczenia otworu na obiekcie w określonym miejscu względem krawędzi lub wierzchołka tego obiektu.
-
-
-
-### Użycie Geometrii Zewnętrznej podczas pracy w Środowisku Część 
-
-Można użyć dowolnej geometrii środowiska Część, która znajduje się w układzie współrzędnych szkicu. Zaleca się łączenie z najwcześniejszą możliwą cechą, ponieważ tworzy to bardziej stabilne połączenie.
-
-
-
-## Przykład
-
-Poniżej znajduje się szkic zmapowawany na górną ścianę bryły utworzonej z Wyciągnięcia poprzedniego szkicu. Linie w kolorze magenta to Geometria Zewnętrzna połączona z dwiema krawędziami tego wcześniej istniejącego Wyciągniecia.
-
-W tym przypadku są one używane jako referencje dla wiązań stycznych z obwodami jednego okręgu. Są one również używane jako referencje dla wiązania poziomego i pionowego w celu umiejscowienia środka drugiego okręgu względem końca i góry Wyciągnięcia.
-
-<FILE:Sketcher_ExternalEsempio2.png>
-
-To jest ten sam szkic w trybie edycji, z ukrytym wyciągnięciem, na którym jest on zmapowany.
-
-<FILE:Sketcher_ExternalEsempio4.png>
-
-Gdy edycja szkicu jest zamknięta, zewnętrzne linie Geometrii nie są widoczne.
-
-<FILE:Sketcher_ExternalEsempio3.png>
+-   Można wybrać tylko krawędzie i wierzchołki z obiektów w tym samym układzie współrzędnych. Szkic i obiekt muszą znajdować się w tej samej [Zawartości](PartDesign_Body/pl.md) lub tej samej [Części](Std_Part/pl.md), lub w obu w globalnym układzie współrzędnych. Użyj [łącznika](PartDesign_SubShapeBinder/pl.md), aby przenieść kopię obiektu do bieżącego układu współrzędnych, jeśli jest to wymagane.
+-   Zależności kołowe nie są dozwolone. Nie można utworzyć łącza do obiektu, który zależy od samego szkicu.
+-   Łącza do elementów z innych szkiców są możliwe i zalecane, ponieważ są bardziej niezawodne niż łącza do wygenerowanej (bryłowej) geometrii. Te ostatnie mogą cierpieć z powodu [problemu nazewnictwa topologicznego](Topological_naming_problem/pl.md). Zobacz [Porady dotyczące tworzenia stabilnych modeli](Feature_editing/pl#Porady_dotyczące_tworzenia_stabilnych_modeli.md).
 
 
 

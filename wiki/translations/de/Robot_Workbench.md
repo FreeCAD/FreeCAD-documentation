@@ -1,14 +1,16 @@
 # Robot Workbench/de
-**Der Roboter Arbeitsbereich ist nicht gewartet. Wenn du Erfahrung mit dem Thema hast und daran interessiert bist, es zu pflegen, gib bitte deine Absicht im Entwicklerbereich des [https://forum.freecadweb.org/index.php FreeCAD Forums] an.
+**Der Arbeitsbereich Robot ist nicht gewartet. Wenn du Erfahrung mit dem Thema hast und daran interessiert bist, es zu pflegen, gib bitte deine Absicht im Entwicklerbereich des [https://forum.freecadweb.org/index.php FreeCAD Forums] an.
 
-Der Grund dafür, dass sich dieser Arbeitsbereich noch im Master Quellcode befindet, liegt darin, dass dieser Arbeitsbereich in C++ programmiert ist. Wenn dieser Arbeitsbereich in Python programmiert werden könnte, dann könnte sie zu einem[externen Arbeitsbereich](external_workbenches/de.md) gemacht und in ein separates Repositorium verschoben werden.
+Der Grund dafür, dass sich dieser Arbeitsbereich noch im Master-Quellcode befindet, liegt darin, dass dieser Arbeitsbereich in C++ programmiert ist. Wenn dieser Arbeitsbereich in Python programmiert werden könnte, dann könnte er zu einem [externen Arbeitsbereich](external_workbenches/de.md) gemacht und in ein separates Repositorium verschoben werden.
 **
 
-## Einführung
 
-<img alt="Roboter Arbeitsbereichssymbol" src=images/Workbench_Robot.svg  style="width:128px;">
 
-Die <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Roboter Arbeitsbereich](Robot_Workbench/de.md) ist ein Werkzeug zur Simulation eines Standard [6-Achsen Industrieroboters](Robot_6-Axis/de.md), wie [Kuka](http://kuka.com/).
+## Einleitung
+
+<img alt="Symbol des Arbeitsbereichs Robot" src=images/Workbench_Robot.svg  style="width:128px;">
+
+Der Arbeitsbereich <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Roboter](Robot_Workbench/de.md) ist ein Werkzeug zur Simulation eines Standard-[6-Achsen Industrieroboters](Robot_6-Axis/de.md), wie [Kuka](http://kuka.com/).
 
 Du kannst die folgenden Aufgaben erledigen:
 
@@ -56,6 +58,8 @@ Werkzeuge zum Erstellen und Bearbeiten von Trajektorien. Es gibt zwei Arten, die
 -   <img alt="" src=images/Robot_Edge2Trac.svg  style="width:30px;"> [Erstellen einer Trajektorie aus Kanten](Robot_Edge2Trac/de.md): Einfügen eines neuen Objekts, das Kanten zu einer Trajektorie zerlegt
 -   <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width:30px;"> [Ankleiden einer Trajektorie](Robot_TrajectoryDressUp/de.md): Erlaubt dir, eine oder mehrere Eigenschaften einer Trajektorie außer Kraft zu setzen
 -   <img alt="" src=images/Robot_TrajectoryCompound.svg  style="width:30px;"> [Trajektorienverbund](Robot_TrajectoryCompound/de.md): Erzeugen eines Verbunds aus einigen Einzeltrajektorien
+
+
 
 ## Skripten
 

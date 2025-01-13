@@ -16,11 +16,16 @@
 
 ## Popis
 
+
+<div class="mw-translate-fuzzy">
+
 Tento nástroj vytvoří oblouk zadáním 3 bodů: střed, počáteční úhel na poloměru a koncový úhel.
 
-Po spuštění nástroje se ukazatel myši změní na bílý křížek s červenou ikonou oblouku. Souřadnice ukazatele jsou zobrazeny modře vedle něj v reálném čase.
 
-<img alt="Střed byl vybrán, přetažením nastaven poloměr‎" src=images/Sketcher_ArcExample1.png ) ![Byl vybrán střed a poloměr, přetažením nastaven koncový úhel](images/Sketcher_ArcExample2.png  style="width:407" height="360px;">
+</div>
+
+<img alt="" src=images/Sketcher_ArcExample3.png  style="width:400px;"> 
+*Arc created in Center mode with automatically applied constraints defined by entering all On-View-Parameters*
 
 
 
@@ -31,6 +36,11 @@ Po spuštění nástroje se ukazatel myši změní na bílý křížek s červen
 
 
 </div>
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
+Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">

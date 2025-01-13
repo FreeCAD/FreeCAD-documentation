@@ -1,42 +1,7 @@
----
- GuiCommand:
-   Name: Path DressupAxisMap
-   Name/pl: Path: Odwzorowanie osi
-   MenuLocation: Ścieżka , Ulepszenie ścieżki , Odwzorowanie osi
-   Workbenches: Path_Workbench/pl
----
-
 # Path DressupAxisMap/pl
-
-
-
-## Opis
-
-
-
-## Użycie
-
-
-
-## Opcje
-
-
-
-## Właściwości
-
-
-
-## Tworzenie skryptów 
-
-
-
-
-
-{{Path_Tools_navi
-
-}}
+1.  REDIRECT [CAM_DressupAxisMap/pl](CAM_DressupAxisMap/pl.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupAxisMap/pl
+⏵ [documentation index](../README.md) > Path DressupAxisMap/pl

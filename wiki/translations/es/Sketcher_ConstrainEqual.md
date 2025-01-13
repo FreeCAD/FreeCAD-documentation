@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -23,85 +25,39 @@ La restricción Igual fuerza que dos o más segmentos de línea en una línea, p
 
 </div>
 
+## Usage
 
-<div class="mw-translate-fuzzy">
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-## Funcionamiento
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
 
-El croquis de ejemplo de abajo contiene una serie de primitivas de croquis ( línea, polilínea, rectángulo, arco y circunferencia).
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ConstrainEqual.svg" width=16px> [Constrain equal](Sketcher_ConstrainEqual.md)** button.
 
-<img alt="" src=images/EqualConstraint1.png  style="width:256px;">
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainEqual.svg" width=16px> Constrain equal** option from the menu.
 
-Selecciona dos o más segmentos de línea (por ejemplo la línea y un lado del rectángulo).
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Constrain → <img src="images/Sketcher_ConstrainEqual.svg" width=16px> Constrain equal** option from the context menu.
 
-<img alt="" src=images/EqualConstraint2.png  style="width:256px;">
+    -   Use the keyboard shortcut: **E**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Select two edges of the same type.
+5.  A constraint is added.
+6.  Optionally keep creating constraints.
+7.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
 
-Pulsa sobre el icono de la Restricción Igual <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> en la barra de herramientas del Croquizador (tanto en el entorno del Croquizador como en el de Diseño de Piezas) o selecciona el elemento Restricción Igual en el submenú de las restricciones del entorno del Croquizador o en el entorno de Diseño de Piezas, dependiendo del entorno que esté seleccionado (Croquizador o Diseño de Piezas) para aplicar la restricción a los elementos seleccionados.
+### Run-once mode 
 
-<img alt="" src=images/EqualConstraint3.png  style="width:256px;">
-
-Ahora selecciona el arco y la circunferencia en el croquis.
-
-<img alt="" src=images/EqualConstraint4.png  style="width:256px;">
-
-y aplica la Restricción Igual <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> tal como hiciste antes.
-
-<img alt="" src=images/EqualConstraint5.png  style="width:256px;">
-
-Ahora selecciona el segmento de línea, todos los segmentos de la polilínea y uno de los lados del rectángulo que no están restringidos
-
-<img alt="" src=images/EqualConstraint6.png  style="width:256px;">
-
-y aplica la Restricción Igual <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> tal como hiciste antes.
-
-<img alt="" src=images/EqualConstraint7.png  style="width:256px;">
-
-Selecciona el segmento de línea y el arco
-
-<img alt="" src=images/EqualConstraint8.png  style="width:256px;">
-
-y aplica la Restricción Igual <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> tal como hiciste antes. Un letrero de mensaje indica que los elementos restringidos deben ser del mismo tipo geométrico (líneas de curvatura cero o líneas de curvatura distinta de cero).
-
-<img alt="" src=images/EqualConstraint9.png  style="width:256px;">
-
-
-</div>
-
-The example sketch below contains a number of sketch primitives (line, poly-line, rectangle, arc and circle).
-
-![](images/EqualConstraint1.png )
-
-Select two or more line segments (e.g. line and one side of the rectangle).
-
-![](images/EqualConstraint2.png )
-
-Click on **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** in the Sketcher toolbar (in either the Sketcher or Part Design workbenches) or select the Constrain Equal menu item from the Sketcher constraints sub menu item in either the Sketch or Part Design menu item depending upon which workbench is selected (Sketcher or Part Design) to apply the constraint to the selected items.
-
-![](images/EqualConstraint3.png )
-
-Now select the arc and the circle in the sketch.
-
-![](images/EqualConstraint4.png )
-
-and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before.
-
-![](images/EqualConstraint5.png )
-
-Now select the line segment, all segments of the poly-line and one of the remaining unconstrained sides of the rectangle
-
-![](images/EqualConstraint6.png )
-
-and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before.
-
-![](images/EqualConstraint7.png )
-
-Select the line segment and the arc
-
-![](images/EqualConstraint8.png )
-
-and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before. A pop-up message indicates that the constrained items have to be of the same geometrical type (lines of zero curvature or lines of non-zero curvature).
-
-![](images/EqualConstraint9.png )
+1.  Select two or more edges of the same type.
+2.  Invoke the tool as explained above, or with the following additional option:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ConstrainEqual.svg" width=16px> Constrain equal** option from the context menu.
+3.  Depending on the selection one or more constraints are added.
 
 ## Scripting
 

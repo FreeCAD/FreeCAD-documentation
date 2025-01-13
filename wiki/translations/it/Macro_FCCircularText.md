@@ -5,8 +5,8 @@
 |Icon=FCCircularTextButtom.png
 |Description=Questa macro utilizza lo strumento [[Draft ShapeString]] per creare una riga di testo posizionata con diversi orientamenti circolari, inclusi circonferenza ed elicoidale (alla maniera di una colonna Traiana). Può anche essere usata per creare un quadrante di orologio con numeri arabi ''1, 2, 3,'' ecc., o numeri romani ''I, II, III,'' ecc.
 |Author=Mario52
-|Version=0.22c
-|Date=2023/11/17
+|Version=0.22e
+|Date=2024/07/11
 |FCVersion=0.19 è più
 |Download=[https://www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png ToolBar Icon]
 }}
@@ -18,7 +18,7 @@
 Questa macro utilizza lo strumento <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft Forma da testo](Draft_ShapeString/it.md) per creare una riga di testo posizionata con diversi orientamenti circolari, inclusi circonferenza ed elicoidale alla maniera di una [Colonna di Traiano](http://en.wikipedia.org/wiki/Trajan%27s_Column). Può anche essere usata per creare un quadrante di orologio con numeri arabi *1, 2, 3,* ecc., o numeri romani *I, II, III,* ecc. Quest\'ultimo utilizzo è stato ispirato dalla discussione del Forum [Macro per creare il quadrante dell\'orologio](http://forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock) del membro della comunità FC, cblt2l.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/7ab8a1e9dd7f924a62ecef83ec1d2ad8723e37d6/Macro_FCCircularText.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/b80bc84eb1f39084a20564cf02c48764906fd6b8/Macro_FCCircularText.FCMacro}}
 
 <img alt="texte 360 degrees" src=images/FCCircularText_01.png  style="width:400px;"> 
 *Esempio di macro che mostra il testo con un orientamento a 360 gradi*
@@ -517,7 +517,7 @@ Per maggiori informazioni vedere [Personalizzare la barra degli strumenti](Custo
 
 o tele carica lo script :
 
-\- on github [Macro_FCCircularText.FCMacro](https://gist.github.com/mario52a/a25e802498bae6959335) ver 0.21 2022/05/31
+\- on github [Macro_FCCircularText.FCMacro](https://gist.github.com/mario52a/a25e802498bae6959335)
 
 \- o dal forum [Extrude from curved surface of cylinder](http://forum.freecadweb.org/viewtopic.php?f=3&t=7384&p=87642#p87642)
 
@@ -744,6 +744,10 @@ Scrivere un testo circolare posizionato su un oggetto selezionato
 
 
 ## Registro delle modifiche: 
+
+-   ver 0.22e 2024/07/11 : eliminato **\"ss.support = None\"**
+
+-   ver 0.22d 2024/07/11 : eliminato **\"import WebGui\"** causave errore in 0.22xxx FC e rimpiazzato da **\"import webbrowser\"**
 
 -   ver 0.22c 2023/11/17 : adding restore selection after delete the last object , by TheMarkster , thanks
 

@@ -9,6 +9,8 @@
 
 # Part Cone/ru
 
+
+
 ## Описание
 
 
@@ -22,6 +24,8 @@
 The default Part Cone is truncated. It can be turned into a full, untruncated, cone by changing its **Radius1** or **Radius2** property to zero. It can be turned into a segment of a cone by changing its **Angle** property.
 
 <img alt="" src=images/Part_Cone_Example.png  style="width:400px;">
+
+
 
 ## Применение
 
@@ -45,6 +49,8 @@ A Part Cone object created with the [scripting example](#Scripting.md) below is 
 ## Notes
 
 -   A Part Cone can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+
+
 
 ## Свойства
 

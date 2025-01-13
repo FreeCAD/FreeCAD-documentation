@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Sketcher RenderingOrder
-   Name/it: Sketcher Ordine di rendering
+   Name/it: Sketcher Configura l'ordine di rendering
    Workbenches: Sketcher_Workbench/it
    Version: 0.21
 ---
@@ -12,7 +12,7 @@
 
 ## Descrizione
 
-Il comando **Sketcher Ordine di rendering** attualmente non fa nulla. Ma nel relativo menu è possibile modificare l\'ordine di visualizzazione di tutti gli schizzi.
+Lo strumento <img alt="" src=images/Sketcher_RenderingOrder.svg  style="width:16px;"> [Configura l\'ordine di rendering](Sketcher_RenderingOrder/it.md) attualmente non fa nulla. Ma nel relativo menu è possibile modificare l\'ordine di visualizzazione di tutti gli schizzi.
 
 In caso di oggetti coincidenti, l\'ordine di visualizzazione determina quali elementi appaiono in primo piano, e quindi vengono selezionati per primi, nella [Vista 3D](3D_view/it.md).
 

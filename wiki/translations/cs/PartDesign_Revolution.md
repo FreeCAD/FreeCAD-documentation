@@ -17,15 +17,18 @@ This tool revolves a selected sketch or 2D object about a given axis. For all th
 
 </div>
 
-![](images/PartDesign_Revolution_example.svg ) 
+![](images/PartDesign_Revolution_example.svg )
+
+
+
 *Above: sketch (A) is revolved 270 degrees counter-clockwise around axis (B); resulting solid (C) is shown right.*
 
 ## Usage
 
-1.  Select the sketch to be revolved. A face on the existing solid can alternatively be used.
-2.  Press the **<img src="images/PartDesign_Revolution.svg" width=24px> '''Revolution'''** button.
-3.  Set the Revolution parameters (see next section).
-4.  Press **OK**.
+1.  Select a single sketch or one or more faces from the Body.
+2.  Press the **<img src="images/PartDesign_Revolution.svg" width=24px> [Revolution](PartDesign_Revolution.md)** button.
+3.  Set the Revolution parameters, see [Options](#Options.md) below.
+4.  Press the **OK** button.
 
 ## Options
 
@@ -63,59 +66,117 @@ Poznámka: Všechny příklady odkazují na Základnu, Osu a Umístění, které
 
 </div>
 
-+++
-| ![](images/partdesign_revolution_parameters.png ) | ### Axis                                                                                                                                                                                                                                                                                                                                                                    |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | This option specifies the axis about which the sketch is to be revolved.                                                                                                                                                                                                                                                                                                    |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | -   **Vertical sketch axis**: selects the vertical sketch axis.                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | -   **Horizontal sketch axis**: selects the horizontal sketch axis.                                                                                                                                                                                                                                                                                                         |
-|                                                                                  | -   **Construction line**: selects a construction line contained in the sketch used by the Revolution. The drop down list will contain an entry for each construction line. The first construction line will be labelled *Construction line 1*.                                                                                                                             |
-|                                                                                  | -   **Base (X/Y/Z) axis**: selects the X, Y or Z axis of the Body\'s Origin.                                                                                                                                                                                                                                                                                                |
-|                                                                                  | -   **Select reference\...**: allows selection in the 3D view of an edge on the Body, or a [datum line](PartDesign_Line.md).                                                                                                                                                                                                                                        |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | ### Angle                                                                                                                                                                                                                                                                                                                                                                   |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | This controls the angle through which the revolution is to be formed, e.g. 360° would be a full, contiguous revolution. The images in the [examples](#Examples.md) section demonstrate some of the possibilities with specifying different angles. It is not possible to specify negative angles (use the **Reversed** option instead) or angles greater than 360°. |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | ### Symmetric to plane                                                                                                                                                                                                                                                                                                                                 |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | If checked, the revolution will extend half of the specified angle in both directions from the sketch plane.                                                                                                                                                                                                                                                                |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | ### Reversed                                                                                                                                                                                                                                                                                                                                                                |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | If checked, the direction of revolution is reversed from default clockwise to counterclockwise.                                                                                                                                                                                                                                                                             |
-+++
+![](images/partdesign_revolution_parameters.png )
+
+### Type
+
+
+<small>(v1.0)</small> 
+
+Type offers five different ways of specifying the angle of the revolution:
+
+#### Dimension
+
+Enter a numeric value for the **Angle** of the revolution. With the option **Symmetric to plane** the revolution will extend half the given angle to either side of the sketch or face.
+
+#### To last 
+
+The revolution will extend up to the last face of the support it encounters in its direction. If there is no support, an error message will appear.
+
+#### To first 
+
+The revolution will extend up to the first face of the support it encounters in its direction. If there is no support, an error message will appear.
+
+#### Up to face 
+
+The revolution will extend up to a face. Press the **Face** button and select a face or a [datum plane](PartDesign_Plane.md) from the Body.
+
+#### Two dimensions 
+
+This allows to enter a second angle in which the revolution should extend in the opposite direction. The directions can be switched by checking the **Reversed** option.
+
+### Axis
+
+Specifies the axis of the revolution:
+
+-   **Vertical sketch axis**: selects the vertical sketch axis.
+-   **Horizontal sketch axis**: selects the horizontal sketch axis.
+-   **Construction line**: selects a construction line from the sketch used by the revolution. The dropdown list will contain an entry for each construction line. The first construction line will be labelled *Construction line 1*.
+-   **Base (X/Y/Z) axis**: selects the X, Y or Z axis of the Body\'s origin.
+-   **Select reference\...**: allows the selection of a straight edge or a [datum line](PartDesign_Line.md) from the Body.
+
+Note that when changing the axis, the **Reversed** option may be (un)checked automatically.
+
+### Angle
+
+Defines the angle of the revolution. This option is only available if **Type** is **Dimension** or **Two dimensions**. Angles larger than 360° are not possible. Nor are negative values, use the **Reversed** option instead.
+
+### Symmetric to plane 
+
+Check this option to extend the revolution half the given angle to either side of the sketch or face. This option is only available if **Type** is **Dimension**.
+
+### Reversed
+
+Reverses the direction of the revolution.
+
+### 2nd angle 
+
+
+<small>(v1.0)</small> 
+
+Defines the angle of the revolution in the opposite direction. This option is only available if **Type** is **Two dimensions** and **Angle** is smaller than 360°.
 
 ## Properties
 
-Below are properties which can be defined after creation of the feature. Data properties *Base* and *Axis* are uneditable.
-
--    **Angle**: angle of rotation. See [Angle](#Angle.md).
-
--    **Label**: label given to the operation, can be changed at convenience.
-
--    **Midplane**: true or false. See [Symmetric to plane](#Symmetric_to_plane.md).
-
--    **Reversed**: true or false. See [Reversed](#Reversed.md).
-
--    **Refine**: true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
-
-## Examples
-
-![Example revolution using a construction line as the Revolution axis: In this image the angle is 75°, revolution is about the construction line (Sketch axis 0).](images/PartDesign_Revolution_axis_fromconstructionlines1.jpg )
-
-## Useful links 
+### Data
 
 
-<div class="mw-translate-fuzzy">
+{{TitleProperty|Part Design}}
 
-## Užitečné odkazy 
+-    **Refine|Bool**
+    
 
-[Příklad](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) na fóru.
+
+{{TitleProperty|Revolution}}
+
+-    **Type|Enumeration**
+    
+
+-    **Base|Vector**: (read-only)
+
+-    **Axis|Vector**: (read-only)
+
+-    **Angle|Angle**
+    
+
+-    **Up To Face|LinkSub**
+    
+
+-    **Angle2|Angle**
+    
+
+-    **Reference Axis|LinkSub**
+    
 
 
-</div>
+{{TitleProperty|Sketch Based}}
+
+-    **Profile|LinkSub**
+    
+
+-    **Midplane|Bool**
+    
+
+-    **Reversed|Bool**
+    
+
+-    **Allow Multi Face|Bool**
+    
+
+## Notes
+
+-   A <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [ShapeBinder](PartDesign_ShapeBinder.md) cannot be used for the profile.
+-   When using a <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [SubShapeBinder](PartDesign_SubShapeBinder.md) for the profile, selecting the binder in the [Tree view](Tree_view.md) will fail, instead the binder\'s face has to be selected in the [3D view](3D_view.md).
 
 
 

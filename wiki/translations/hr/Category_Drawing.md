@@ -1,5 +1,5 @@
 # Category:Drawing/hr
-This category lists pages related to the [Drawing Workbench/hr](Drawing_Workbench/hr.md).
+This category is for pages related to the [Drawing Workbench/hr](Drawing_Workbench/hr.md).
 
 ### Contents
 

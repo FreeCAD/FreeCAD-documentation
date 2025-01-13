@@ -60,6 +60,7 @@ Hier werden die Regel gelistet, auf die man sich im Forum geeinigt hat. (Siehe o
 **R4**: Zusammengesetzte Begriffe werden zusammengeschrieben oder mit Bindestrich verbunden, wenn es dadurch besser lesbar wird. (Im Zweifelsfall hilft der Duden weiter)
 
 :   Fremdwort-Bestandteile (wie die nicht zu übersetzenden Arbeitsbereiche) sollten mit einem Bindestrich verbunden werden, z.B. Sketcher-Arbeitsbereich, PartDesign-Werkzeuge, Draft-Linienzug.
+:   Wird eine Benennung nachgestellt, wird kein Bindestrich benötigt, z.B. \"der Arbeitsbereich Part\" statt \"der Part-Arbeitsbereich\", \"das Werkzeug B-Spline\" statt \"das B-Spline-Werkzeug\".
 :   Auch Abkürzungen sollten mit einem Bindestrich verbunden werden, z.B. CAD-Programm, SVG-Datei.
 :   Die Getrenntschreibung zusammengesetzter Begriffe im Englischen sollte nicht zum Vorbild genommen werden.
 
@@ -94,8 +95,8 @@ Sie enthält:
 
 So wird ergänzt (Diese Seite lebt vom Mitmachen!):
 
--   Wenn ein Begriff/Ausdruck nicht vorhanden ist sollte er ergänzt werden. Wenn es keine Einwände gibt, ist nichts weiteres zu tun.
--   Sollte es Einwände geben, sollten sie im Forum diskutiert werden um sich auf ein weitere Vorgehen (editieren, löschen\...) zu einigen.
+-   Wenn ein Begriff/Ausdruck nicht vorhanden ist, sollte er ergänzt werden. Wenn es keine Einwände gibt, ist nichts weiteres zu tun.
+-   Sollte es Einwände geben, sollten sie im Forum diskutiert werden, um sich auf ein weiteres Vorgehen (Editieren, Löschen\...) zu einigen.
 
 Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterungen *kursiv*.
 
@@ -140,118 +141,427 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 <div class="mw-collapsible-content toccolours">
 
-  Englischer Ausdruck                                                                                                           Funktion          Deutscher Ausdruck                Anmerkung
-     
-  Std Base                                                                                                                      Workbench name    Std Basis                         Wiki-Seite, übersetzen?
-  *File menu*                                                                                                                                                                       
-  File                                                                                                                          Menue header      **Datei**                         
-  <img alt="" src=images/Std_New.svg  style="width:16px;"> New                                                                                Command           **Neu**                           
-  *Edit menu*                                                                                                                                                                       
-  Edit                                                                                                                          Menue header      **Bearbeiten**                    
-  <img alt="" src=images/Std_Undo.svg  style="width:16px;"> Undo                                                                             Command           **Rückgängig**                    
-  *View menu*                                                                                                                                                                       
-  View                                                                                                                          Menue header      **Ansicht**                       
-  <img alt="" src=images/Std_ViewCreate.svg  style="width:16px;"> Create new view                                                      Command           **Neue Ansicht**                  
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Standard views                                                               Generic term      **Standardansichten**             
-  <img alt="" src=images/Std_ViewFitAll.svg  style="width:16px;"> Fit all                                                              Command           **Einpassen**                     
-  <img alt="" src=images/Std_ViewFitSelection.svg  style="width:16px;"> Fit selection                                            Command           Selektion einpassen               Auswahl einpassen?
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Axonometric                                                                  Generic term      Axonometrisch                     
-  <img alt="" src=images/Std_ViewIsometric.svg  style="width:16px;"> Isometric                                                      Command           **Isometrisch**                   
-  <img alt="" src=images/Std_ViewDimetric.svg  style="width:16px;"> Dimetric                                                         Command           Dimetrisch                        
-  <img alt="" src=images/Std_ViewTrimetric.svg  style="width:16px;"> Trimetric                                                      Command           Trimetrisch                       
-                                                                                                                                                                                    
-  <img alt="" src=images/Std_ViewHome.svg  style="width:16px;"> Home                                                                     Command           Home                              ?
-  <img alt="" src=images/Std_ViewFront.svg  style="width:16px;"> Front                                                                  Command           Vorne                             Vorderansicht?
-  <img alt="" src=images/Std_ViewTop.svg  style="width:16px;"> Top                                                                        Command           Oben                              Draufsicht?
-  <img alt="" src=images/Std_ViewRight.svg  style="width:16px;"> Right                                                                  Command           Rechts                            Seitenansicht rechts?
-  <img alt="" src=images/Std_ViewRear.svg  style="width:16px;"> Rear                                                                     Command           Hinten                            Rückansicht?
-  <img alt="" src=images/Std_ViewBottom.svg  style="width:16px;"> Bottom                                                               Command           Unten                             Untersicht?
-  <img alt="" src=images/Std_ViewLeft.svg  style="width:16px;"> Left                                                                     Command           Links                             Seitenansicht links?
-  <img alt="" src=images/Std_ViewRotateLeft.svg  style="width:16px;"> Rotate left                                                  Command           Nach links drehen                 
-  <img alt="" src=images/Std_ViewRotateRight.svg  style="width:16px;"> Rotate right                                               Command           Rechtsherum rotieren              Nach rechts drehen?
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Freeze display                                                               Generic term      **Ansicht einfrieren**            
-  Save views\...                                                                                                                Command           **Ansichten speichern**\...       
-  Load views\...                                                                                                                Command           **Ansichten laden**\...           
-  Freeze view                                                                                                                   Command           **Ansicht einfrieren**            
-  Clear views                                                                                                                   Command           **Ansichten löschen**             
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Draw style                                                                   Generic term      **Zeichenstil**                   
-  <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:16px;"> As is                                                          Command           Original                          ?
-  <img alt="" src=images/Std_DrawStylePoints.svg  style="width:16px;"> Points                                                     Command           Punkte                            
-  <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:16px;"> Wireframe                                            Command           Drahtgitter                       
-  <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:16px;"> Hidden line                                        Command           Versteckte Kanten                 Verdeckte Kanten?
-  <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:16px;"> No shading                                           Command           Keine Schattierung                
-  <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:16px;"> Shaded                                                     Command           Schattiert                        
-  <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:16px;"> Flat lines                                           Command           Flache Linien                     
-                                                                                                                                                                                    
-  <img alt="" src=images/Std_SelBoundingBox.svg  style="width:16px;"> Bounding box                                                 Command           Begrenzungsrahmen                 
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Stereo                                                                       Generic term      Stereo                            Übersetzen?
-  <img alt="" src=images/Std_ViewIvStereoRedGreen.svg  style="width:16px;"> Stereo red/cyan                                  Command           Stereo rot/cyan                   
-  <img alt="" src=images/Std_ViewIvStereoQuadBuff.svg  style="width:16px;"> Stereo quad buffer                               Command           Stereo 4-fach Puffer              
-  <img alt="" src=images/Std_ViewIvStereoInterleavedRows.svg  style="width:16px;"> Stereo interleaved Rows            Command           Horizontales Interlacing          
-  <img alt="" src=images/Std_ViewIvStereoInterleavedColumns.svg  style="width:16px;"> Stereo interleaved Columns   Command           Vertikales Interlacing            
-  <img alt="" src=images/Std_ViewIvStereoOff.svg  style="width:16px;"> Stereo Off                                                 Command           Stereo aus                        
-  <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:16px;"> Issue camera position                                  Command           Kameraposition ausgeben           
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Zoom                                                                         Generic term      Zoom                              Übersetzen?
-  <img alt="" src=images/Std_ViewZoomIn.svg  style="width:16px;"> Zoom in                                                              Command           Vergrößern                        
-  <img alt="" src=images/Std_ViewZoomOut.svg  style="width:16px;"> Zoom out                                                           Command           Verkleinern                       
-  <img alt="" src=images/Std_ViewBoxZoom.svg  style="width:16px;"> Box zoom                                                           Command           Zoomen mit Rechteck               
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Document window                                                              Generic term      Dokumentfenster                   
-  Docked                                                                                                                        Command           Angedockt                         
-  Undocked                                                                                                                      Command           Abgedockt                         
-  <img alt="" src=images/Std_ViewFullscreen.svg  style="width:16px;"> Full screen                                                  Command           Vollbild                          
-                                                                                                                                                                                    
-  <img alt="" src=images/Std_AxisCross.svg  style="width:16px;"> Toggle axis cross                                                      Command           Achsenkreuz ein/ausschalten       ein-?
-  <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:16px;"> Clipping plane                                             Command           Schnittebene                      
-  <img alt="" src=images/Part_SectionCut.svg  style="width:16px;"> Persistent section cut                                             Command           Persistent section cut            Übersetzen!
-  <img alt="" src=images/Std_TextureMapping.svg  style="width:16px;"> Texture mapping\...                                          Command           Texturabbildung\...               
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Visibility                                                                   Generic term      **Sichtbarkeit**                  
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Workbench                                                                    Generic term      **Arbeitsbereich**                
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Toolbars                                                                     Generic term      Symbolleisten                     Werkzeugleisten?
-  File                                                                                                                          Command, toggle   **Datei**                         
-  Workbench                                                                                                                     Command, toggle   Workbench                         Übersetzen? Arbeitsbereich
-  Macro                                                                                                                         Command, toggle   *\'Makro*                         
-  View                                                                                                                          Command, toggle   **Ansicht**                       
-  Structure                                                                                                                     Command, toggle   Structure                         Übersetzen?
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Panels                                                                       Generic term      Paneele                           Übersetzen?
-  Report view                                                                                                                   Command, toggle   **Ausgabefenster**                
-  Selection view                                                                                                                Command, toggle   **Auswahlfenster**                
-  Combo view                                                                                                                    Command, toggle   **Combo-Ansicht**                 
-  Python comsole                                                                                                                Command, toggle   **Python-Konsole**                
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> TreeView actions                                                             Generic term      BaumAnsicht-Aktionen              Übersetzen?
-                                                                                                                                                                                    
-  Status bar                                                                                                                    Command, toggle   **Statusleiste**                  
-  Tools                                                                                                                         Menue header      **Werkzeuge**                     
-  <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> Edit parameters\...                                              Command           **Parameter bearbeiten**          
-  *Macro menu*                                                                                                                                                                      
-  Macro                                                                                                                         Menue header      **Makro**                         
-  <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:16px;"> Macro recording\...                                          Command           **Makro aufzeichnen**\...         
-  <img alt="" src=images/Std_MacroStopRecord.svg  style="width:16px;"> Stop macro recording                                       Command           **Makroaufzeichnung beenden**     
-  <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> Macros\...                                                 Command           **Makros**\...                    
-  Recent macros                                                                                                                 Command           **Aktuelle Makros**               
-  <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:16px;"> Execute macro                                  Command           **Makro ausführen**               
-  Attach to remote debugger\...                                                                                                 Command           An Remote-Debugger anhängen\...   
-  <img alt="" src=images/Std_MacroStartDebug.svg  style="width:16px;"> Debug macro                                                Command           **Makro debuggen**                
-  <img alt="" src=images/Std_MacroStopDebug.svg  style="width:16px;"> Stop debugging                                               Command           **Debuggen stoppen**              
-  Step over                                                                                                                     Command           Einen Schritt weiter              
-  Step into                                                                                                                     Command           Einzelschritt                     
-  Toggle breakpoint                                                                                                             Command           Haltepunkt an/aus                 
-  *Windows menu*                                                                                                                                                                    
-  Windows                                                                                                                       Menue header      **Fenster**                       
-  <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:16px;"> Next                                                 Command           **Nächstes Fenster**              
-  *Help menu*                                                                                                                                                                       
-  Help                                                                                                                          Menue header      **Hilfe**                         
-  <img alt="" src=images/Std_OnlineHelp.svg  style="width:16px;"> Help                                                                 Command           Hilfe                             
-  *Additional tools panel*                                                                                                                                                          
-  Structure                                                                                                                     Panel header      Structure                         Nur Symbolleiste, Übersetzen?
-  <img alt="" src=images/Std_Part.svg  style="width:16px;"> Create part                                                                      Command           Baugruppe erstellen               
-  <img alt="" src=images/Std_Group.svg  style="width:16px;"> Create Group                                                                   Command           Gruppe erstellen                  
-  <img alt="" src=images/Std_LinkMake.svg  style="width:16px;"> Make link                                                                Command           Verknüpfung erstellen             
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Link actions                                                                 Generic term      Link actions                      Übersetzen?
-  <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:16px;"> Make sub-link                                            Command           Unterverknüpfung erstellen        
-  <img alt="" src=images/Std_LinkReplace.svg  style="width:16px;"> Replace with link                                                  Command           Durch Verknüpfung ersetzen        
-  <img alt="" src=images/Std_LinkUnlink.svg  style="width:16px;"> Unlink                                                               Command           Verknüpfung auflösen              
-  <img alt="" src=images/Std_LinkImport.svg  style="width:16px;"> Import link                                                          Command           Verknüpfung importieren           
-  <img alt="" src=images/Std_LinkImportAll.svg  style="width:16px;"> Import all links                                               Command           Alle Verknüpfungen importieren    
++++++
+| Englischer Ausdruck                                                                                                         | Funktion        | Deutscher Ausdruck                        | Anmerkung                                            |
++=============================================================================================================================+=================+===========================================+======================================================+
+| Std Base                                                                                                                    | Workbench name  | Std Basis                                 | Wiki-Seite, übersetzen?                              |
++++++
+| *File menu*                                                                                                                 |                 |                                           |                                                      |
++++++
+| File                                                                                                                        | Menue header    | **Datei**                                 |                                                      |
++++++
+| <img alt="" src=images/Std_New.svg  style="width:16px;"> New                                                                              | Command         | **Neu**                                   |                                                      |
++++++
+| <img alt="" src=images/Std_Open.svg  style="width:16px;"> Open\...                                                                       | Command         | **Öffnen\...**                            |                                                      |
++++++
+| Open Recent                                                                                                                 | Command         | Zuletzt geöffnete Dateien                 | Zuletzt verwendete Dateien öffnen?                   |
++++++
+|                                                                                                                             |                 |                                           |                                                      |
++++++
+| <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:16px;"> Close                                                | Command         | **Schließen**                             |                                                      |
++++++
+| <img alt="" src=images/Std_CloseAllWindows.svg  style="width:16px;"> Close all                                                | Command         | **Alles schließen**                       | Alle (Fenster/Dokumente/Dateien) schließen?          |
++++++
+|                                                                                                                             |                 |                                           |                                                      |
++++++
+| <img alt="" src=images/Std_Save.svg  style="width:16px;"> Save                                                                           | Command         | **Speichern**                             |                                                      |
++++++
+| <img alt="" src=images/Std_SaveAs.svg  style="width:16px;"> Save as                                                                    | Command         | **Speichern unter**                       |                                                      |
++++++
+| <img alt="" src=images/Std_SaveCopy.svg  style="width:16px;"> Save a copy                                                            | Command         | Speichern einer Kopie\...                 | Eine Kopie speichern?                                |
++++++
+| <img alt="" src=images/Std_SaveAll.svg  style="width:16px;"> Save all                                                                 | Command         | **Alles Speichern**                       |                                                      |
++++++
+| <img alt="" src=images/Std_Revert.svg  style="width:16px;"> Revert                                                                     | Command         | **Änderungen widerrufen**                 |                                                      |
++++++
+|                                                                                                                             |                 |                                           |                                                      |
++++++
+| <img alt="" src=images/Std_Import.svg  style="width:16px;"> Import\...                                                                 | Command         | **Importieren\...**                       |                                                      |
++++++
+| <img alt="" src=images/Std_Export.svg  style="width:16px;"> Export\...                                                                 | Command         | **Exportieren\...**                       |                                                      |
++++++
+| <img alt="" src=images/Std_MergeProjects.svg  style="width:16px;"> Merge project\...                                            | Command         | **Dokument zusammenführen**               |                                                      |
++++++
+| <img alt="" src=images/Std_ProjectInfo.svg  style="width:16px;"> Document information\...                                         | Command         | **Dokumentinformation\...**               |                                                      |
++++++
+|                                                                                                                             |                 |                                           |                                                      |
++++++
+| <img alt="" src=images/Std_Print.svg  style="width:16px;"> Print\...                                                                    | Command         | **Drucken\...**                           |                                                      |
++++++
+| <img alt="" src=images/Std_PrintPreview.svg  style="width:16px;"> Print preview\...                                              | Command         | **Druckvorschau\...**                     |                                                      |
++++++
+| <img alt="" src=images/Std_PrintPdf.svg  style="width:16px;"> Export PDF\...                                                         | Command         | **PDF exportieren\...**                   |                                                      |
++++++
+| *Edit menu*                                                                                                                 |                 |                                           |                                                      |
++++++
+| Edit                                                                                                                        | Menue header    | **Bearbeiten**                            |                                                      |
++++++
+| <img alt="" src=images/Std_Undo.svg  style="width:16px;"> Undo                                                                           | Command         | **Rückgängig**                            |                                                      |
++++++
+| <img alt="" src=images/Std_Redo.svg  style="width:16px;"> Redo\...                                                                       | Command         | **Wiederherstellen**                      |                                                      |
++++++
+|                                                                                                                             |                 |                                           |                                                      |
++++++
+| <img alt="" src=images/Std_Cut.svg  style="width:16px;"> Cut                                                                              | Command         | **Ausschneiden**                          |                                                      |
++++++
+| <img alt="" src=images/Std_Copy.svg  style="width:16px;"> Copy                                                                           | Command         | **Kopieren**                              |                                                      |
++++++
+| <img alt="" src=images/Std_Paste.svg  style="width:16px;"> Paste                                                                        | Command         | **Einfügen**                              |                                                      |
++++++
+| <img alt="" src=images/Std_DuplicateSelection.svg  style="width:16px;"> Duplicate selection                                | Command         | **Auswahl duplizieren**                   |                                                      |
++++++
+|                                                                                                                             |                 |                                           |                                                      |
++++++
+| <img alt="" src=images/Std_Refresh.svg  style="width:16px;"> Refresh                                                                  | Command         | **Aktualisieren**                         |                                                      |
++++++
+| <img alt="" src=images/Std_BoxSelection.svg  style="width:16px;"> Box selection                                                  | Command         | **Rechteckauswahl**                       |                                                      |
++++++
+| <img alt="" src=images/Std_BoxElementSelection.svg  style="width:16px;"> Box element selection                            | Command         | Box-Element Auswahl                       |                                                      |
++++++
+| <img alt="" src=images/Std_SelectAll.svg  style="width:16px;"> Select all                                                           | Command         | **Alles auswählen**                       |                                                      |
++++++
+| <img alt="" src=images/Std_Delete.svg  style="width:16px;"> Delete                                                                     | Command         | **Löschen**                               |                                                      |
++++++
+| <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:16px;"> Send to Python Console                           | Command         | **An Python-Konsole senden**              |                                                      |
++++++
+|                                                                                                                             |                 |                                           |                                                      |
++++++
+| <img alt="" src=images/Std_Placement.svg  style="width:16px;"> Placement\...                                                        | Command         | **Positionierung\...**                    |                                                      |
++++++
+| <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> Transform                                                  | Command         | Transformieren                            | Bewegen?                                             |
++++++
+| <img alt="" src=images/Std_Alignment.svg  style="width:16px;"> Alignment\...                                                        | Command         | **Ausrichtung\...**                       |                                                      |
++++++
+| <img alt="" src=images/Std_Edit.svg  style="width:16px;"> Toggle Edit mode                                                               | Command         | **Bearbeitungsmodus umschalten**          |                                                      |
++++++
+| <img alt="" src=images/Std_Properties.svg  style="width:16px;"> Properties                                                         | Command         | **Eigenschaften**                         |                                                      |
++++++
+|                                                                                                                             |                 |                                           |                                                      |
++++++
+| <img alt="" src=images/Std_UserEditMode.svg  style="width:16px;"> Edit mode                                                      | Command         | **Bearbeitungsmodus**                     |                                                      |
++++++
+| *View menu*                                                                                                                 |                 |                                           |                                                      |
++++++
+| View                                                                                                                        | Menue header    | **Ansicht**                               |                                                      |
++++++
+| <img alt="" src=images/Std_ViewCreate.svg  style="width:16px;"> Create new view                                                    | Command         | **Neue Ansicht**                          |                                                      |
++++++
+| <img alt="" src=images/Std_OrthographicCamera.svg  style="width:16px;"> Orthographic view                                  | Command         | **Orthogonale Ansicht**                   |                                                      |
++++++
+| <img alt="" src=images/Std_PerspectiveCamera.svg  style="width:16px;"> Perspective view                                     | Command         | **Perspektivische Ansicht**               | Perspektivansicht?                                   |
++++++
+| <img alt="" src=images/Std_MainFullscreen.svg  style="width:16px;"> Fullscreen                                                 | Command         | **Vollbild**                              |                                                      |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Standard views                                                             | Generic term    | **Standardansichten**                     |                                                      |
++++++
+| <img alt="" src=images/Std_ViewFitAll.svg  style="width:16px;"> Fit all                                                            | Command         | **Einpassen**                             |                                                      |
++++++
+| <img alt="" src=images/Std_ViewFitSelection.svg  style="width:16px;"> Fit selection                                          | Command         | **Auswahl einpassen**                     |                                                      |
++++++
+| <img alt="" src=images/Std_AlignToSelection.svg  style="width:16px;"> Align to selection                                     | Command         | **Auf die Auswahl ausrichten**            |                                                      |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:12px;"> <img alt="" src=images/Arrow-down.svg  style="width:12px;"> Axonometric               | Generic term    | **Axonometrisch**                         |                                                      |
++++++
+| <img alt="" src=images/Std_ViewIsometric.svg  style="width:16px;"> Isometric                                                    | Command         | **Isometrisch**                           |                                                      |
++++++
+| <img alt="" src=images/Std_ViewDimetric.svg  style="width:16px;"> Dimetric                                                       | Command         | **Dimetrisch**                            |                                                      |
++++++
+| <img alt="" src=images/Std_ViewTrimetric.svg  style="width:16px;"> Trimetric                                                    | Command         | **Trimetrisch**                           |                                                      |
++++++
+|                                                                                                                             |                 |                                           |                                                      |
++++++
+| <img alt="" src=images/Std_ViewHome.svg  style="width:16px;"> Home                                                                   | Command         | Home                                      | ?                                                    |
++++++
+| <img alt="" src=images/Std_ViewFront.svg  style="width:16px;"> Front                                                                | Command         | **Vorderansicht**                         |                                                      |
++++++
+| <img alt="" src=images/Std_ViewTop.svg  style="width:16px;"> Top                                                                      | Command         | **Draufsicht**                            |                                                      |
++++++
+| <img alt="" src=images/Std_ViewRight.svg  style="width:16px;"> Right                                                                | Command         | **Seitenansicht von rechts**              |                                                      |
++++++
+| <img alt="" src=images/Std_ViewRear.svg  style="width:16px;"> Rear                                                                   | Command         | **Rückansicht**                           |                                                      |
++++++
+| <img alt="" src=images/Std_ViewBottom.svg  style="width:16px;"> Bottom                                                             | Command         | **Untersicht**                            |                                                      |
++++++
+| <img alt="" src=images/Std_ViewLeft.svg  style="width:16px;"> Left                                                                   | Command         | **Seitenansicht von links**               |                                                      |
++++++
+| <img alt="" src=images/Std_ViewRotateLeft.svg  style="width:16px;"> Rotate left                                                | Command         | **Nach links drehen**                     |                                                      |
++++++
+| <img alt="" src=images/Std_ViewRotateRight.svg  style="width:16px;"> Rotate right                                             | Command         | **Nach rechts drehen**                    |                                                      |
++++++
+| Store working view                                                                                                          | Command         | **Arbeitsansicht speichern**              |                                                      |
++++++
+| Recall working view                                                                                                         | Command         | **Arbeitsansicht wiederherstellen**       |                                                      |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Freeze display                                                             | Generic term    | **Ansicht einfrieren**                    |                                                      |
++++++
+| Save views\...                                                                                                              | Command         | **Ansichten speichern**\...               |                                                      |
++++++
+| Load views\...                                                                                                              | Command         | **Ansichten laden**\...                   |                                                      |
++++++
+| Freeze view                                                                                                                 | Command         | **Ansicht einfrieren**                    |                                                      |
++++++
+| Clear views                                                                                                                 | Command         | **Ansichten löschen**                     |                                                      |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Draw style                                                                 | Generic term    | **Darstellungsart**                       |                                                      |
++++++
+| <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:16px;"> As is                                                        | Command         | Original                                  | ?                                                    |
++++++
+| <img alt="" src=images/Std_DrawStylePoints.svg  style="width:16px;"> Points                                                   | Command         | **Punkte**                                |                                                      |
++++++
+| <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:16px;"> Wireframe                                          | Command         | **Drahtgitter**                           |                                                      |
++++++
+| <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:16px;"> Hidden line                                      | Command         | Versteckte Kanten                         | Verdeckte Kanten?                                    |
++++++
+| <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:16px;"> No shading                                         | Command         | Keine Schattierung                        |                                                      |
++++++
+| <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:16px;"> Shaded                                                   | Command         | Schattiert                                |                                                      |
++++++
+| <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:16px;"> Flat lines                                         | Command         | Flache Linien                             |                                                      |
++++++
+|                                                                                                                             |                 |                                           |                                                      |
++++++
+| <img alt="" src=images/Std_SelBoundingBox.svg  style="width:16px;"> Bounding box                                               | Command         | Begrenzungsrahmen                         |                                                      |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Stereo                                                                     | Generic term    | Stereo                                    | Übersetzen?                                          |
++++++
+| <img alt="" src=images/Std_ViewIvStereoRedGreen.svg  style="width:16px;"> Stereo red/cyan                                | Command         | Stereo rot/cyan                           | Stereo rot/blaugrün?                                 |
++++++
+| <img alt="" src=images/Std_ViewIvStereoQuadBuff.svg  style="width:16px;"> Stereo quad buffer                             | Command         | Stereo 4-fach Puffer                      | Stereo Vierfachpuffer?                               |
++++++
+| <img alt="" src=images/Std_ViewIvStereoInterleavedRows.svg  style="width:16px;"> Stereo interleaved Rows          | Command         | Horizontales Interlacing                  | Horizontale Halbbilder?                              |
++++++
+| <img alt="" src=images/Std_ViewIvStereoInterleavedColumns.svg  style="width:16px;"> Stereo interleaved Columns | Command         | Vertikales Interlacing                    | Vertikale Halbbilder?                                |
++++++
+| <img alt="" src=images/Std_ViewIvStereoOff.svg  style="width:16px;"> Stereo Off                                               | Command         | Stereo aus                                |                                                      |
++++++
+| <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:16px;"> Issue camera position                                | Command         | Kameraposition ausgeben                   |                                                      |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Zoom                                                                       | Generic term    | Zoom                                      | Übersetzen?                                          |
++++++
+| <img alt="" src=images/Std_ViewZoomIn.svg  style="width:16px;"> Zoom in                                                            | Command         | **Vergrößern**                            |                                                      |
++++++
+| <img alt="" src=images/Std_ViewZoomOut.svg  style="width:16px;"> Zoom out                                                         | Command         | **Verkleinern**                           |                                                      |
++++++
+| <img alt="" src=images/Std_ViewBoxZoom.svg  style="width:16px;"> Box zoom                                                         | Command         | Zoomen mit Rechteck                       | Zoom mit Rechteckauswahl?                            |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Document window                                                            | Generic term    | **Dokumentfenster**                       |                                                      |
++++++
+| Docked                                                                                                                      | Command         | **Angedockt**                             |                                                      |
++++++
+| Undocked                                                                                                                    | Command         | **Abgedockt**                             |                                                      |
++++++
+| <img alt="" src=images/Std_ViewFullscreen.svg  style="width:16px;"> Full screen                                                | Command         | **Vollbild**                              |                                                      |
++++++
+|                                                                                                                             |                 |                                           |                                                      |
++++++
+| <img alt="" src=images/Std_AxisCross.svg  style="width:16px;"> Toggle axis cross                                                    | Command         | **Achsenkreuz ein-/ausblenden**           |                                                      |
++++++
+| <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:16px;"> Clipping plane                                           | Command         | **Schnittebene**                          |                                                      |
++++++
+| <img alt="" src=images/Part_SectionCut.svg  style="width:16px;"> Persistent section cut                                           | Command         | **Dauerhafte Schnittdarstellung**         |                                                      |
++++++
+| <img alt="" src=images/Std_TextureMapping.svg  style="width:16px;"> Texture mapping\...                                        | Command         | Texturabbildung\...                       |                                                      |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Visibility                                                                 | Generic term    | **Sichtbarkeit**                          |                                                      |
++++++
+| <img alt="" src=images/Std_ToggleVisibility.svg  style="width:16px;"> Toggle visibility                                      | Command         | **Ein-/ausblenden**                       |                                                      |
++++++
+| <img alt="" src=images/Std_ShowSelection.svg  style="width:16px;"> Show selection                                               | Command         | **Auswahl einblenden**                    |                                                      |
++++++
+| <img alt="" src=images/Std_HideSelection.svg  style="width:16px;"> Hide selection                                               | Command         | **Auswahl ausblenden**                    |                                                      |
++++++
+| <img alt="" src=images/Std_SelectVisibleObjects.svg  style="width:16px;"> Select visible objects                         | Command         | **Sichtbare Objekte auswählen**           |                                                      |
++++++
+| <img alt="" src=images/Std_ToggleObjects.svg  style="width:16px;"> Toggle all objects                                           | Command         | Alle Objekte umschalten                   |                                                      |
++++++
+| <img alt="" src=images/Std_ShowObjects.svg  style="width:16px;"> Show all objects                                                 | Command         | **Alle Objekte einblenden**               |                                                      |
++++++
+| <img alt="" src=images/Std_HideObjects.svg  style="width:16px;"> Hide all objects                                                 | Command         | **Alle Objekte ausblenden**               |                                                      |
++++++
+| <img alt="" src=images/Std_ToggleSelectability.svg  style="width:16px;"> Toggle selectability                             | Command         | Selektierbarkeit an/aus                   | Auswählbarkeit umschalten                            |
++++++
+|                                                                                                                             |                 |                                           |                                                      |
++++++
+| <img alt="" src=images/Std_ToggleNavigation.svg  style="width:16px;"> Toggle navigation/Edit mode                            | Command         | Navigations-/Editier-Modus                | Navigations-/Bearbeitungsmodus (umschalten)?         |
++++++
+| <img alt="" src=images/Std_SetMaterial.svg  style="width:16px;"> Material\...                                                     | Command         | **Material\...**                          |                                                      |
++++++
+| <img alt="" src=images/Std_SetAppearance.svg  style="width:16px;"> Appearance\...                                               | Command         | Darstellung\...                           |                                                      |
++++++
+| <img alt="" src=images/Std_RandomColor.svg  style="width:16px;"> Random color                                                     | Command         | **Zufällige Farbe**                       |                                                      |
++++++
+| (<img alt="" src=images/Part_ColorPerFace.svg  style="width:16px;"> Color per face)                                             | Command         | Farbe pro Fläche                          | (Wenn Arbeitsbereich Part oder PartDesign aktiv ist) |
++++++
+| <img alt="" src=images/Std_ToggleTransparency.svg  style="width:16px;"> Toggle transparency                                | Command         | **Transparenzmodus umschalten**           |                                                      |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Workbench                                                                  | Generic term    | **Arbeitsbereich**                        | (Arbeitsbereichsauswahl)                             |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Toolbars                                                                   | Generic term    | Symbolleisten                             | (Symbolleistenauswahl)                               |
++++++
+| File                                                                                                                        | Command, toggle | **Datei**                                 |                                                      |
++++++
+| Edit                                                                                                                        | Command, toggle | **Bearbeiten**                            |                                                      |
++++++
+| Clipboard                                                                                                                   | Command, toggle | **Zwischenablage**                        |                                                      |
++++++
+| Workbench                                                                                                                   | Command, toggle | **Arbeitsbereich**                        |                                                      |
++++++
+| Macro                                                                                                                       | Command, toggle | **Makro**                                 |                                                      |
++++++
+| View                                                                                                                        | Command, toggle | **Ansicht**                               |                                                      |
++++++
+| Individual views                                                                                                            | Command, toggle | **Einzelne Ansichten**                    |                                                      |
++++++
+| Structure                                                                                                                   | Command, toggle | Struktur                                  | Strukturieren?                                       |
++++++
+| Help                                                                                                                        | Command, toggle | **HIlfe**                                 |                                                      |
++++++
+| Lock toolbars                                                                                                               | Command, toggle | **Symbolleisten sperren**                 |                                                      |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Panels                                                                     | Generic term    | Fenster                                   |                                                      |
++++++
+| Task view                                                                                                                   | Command, toggle | **Aufgaben**                              | Aufgaben-Fenster                                     |
++++++
+| Tree view                                                                                                                   | Command, toggle | **Baumansicht**                           |                                                      |
++++++
+| Property view/editor                                                                                                        | Command, toggle | **Eigenschaften**                         | Eigenschafteneditor                                  |
++++++
+| Selection view                                                                                                              | Command, toggle | **Auswahlansicht**                        |                                                      |
++++++
+| Python comsole                                                                                                              | Command, toggle | **Python-Konsole**                        |                                                      |
++++++
+| Report view                                                                                                                 | Command, toggle | **Ausgabefenster**                        |                                                      |
++++++
+| Combo view                                                                                                                  | Command, toggle | **Combo-Ansicht**                         |                                                      |
++++++
+| Model                                                                                                                       | Command, toggle | **Modell**                                |                                                      |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Dock window overlay                                                        | Generic term    | Überlagerungsmodus angedockter Fenster    |                                                      |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Link navigation                                                            | Generic term    | Verknüpfungsnavigation                    | ?                                                    |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> TreeView actions                                                           | Generic term    | BaumAnsicht-Aktionen                      | Übersetzen?                                          |
++++++
+|                                                                                                                             |                 |                                           |                                                      |
++++++
+| Status bar                                                                                                                  | Command, toggle | **Statusleiste**                          |                                                      |
++++++
+| *Tools menu*                                                                                                                |                 |                                           |                                                      |
++++++
+| Tools                                                                                                                       | Menue header    | **Werkzeuge**                             |                                                      |
++++++
+| <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> Edit parameters\...                                            | Command         | **Parameter bearbeiten**                  |                                                      |
++++++
+| <img alt="" src=images/Std_ViewScreenShot.svg  style="width:16px;"> Save image\...                                             | Command         | **Bild speichern**                        |                                                      |
++++++
+| <img alt="" src=images/Std_ViewLoadImage.svg  style="width:16px;"> Load image\...                                               | Command         | **Bild laden\...**                        |                                                      |
++++++
+| <img alt="" src=images/Std_SceneInspector.svg  style="width:16px;"> Scene Inspector\...                                        | Command         | Szenengraph untersuchen\...               | Szenendiagramm?                                      |
++++++
+| <img alt="" src=images/Std_DependencyGraph.svg  style="width:16px;"> Dependency grap\...                                      | Command         | **Abhängigkeitsdiagramm**                 |                                                      |
++++++
+| Export dependency graph\...                                                                                                 | Command         | **Abhängigkeitsdiagramm exportieren\...** |                                                      |
++++++
+| <img alt="" src=images/Std_ProjectUtil.svg  style="width:16px;"> Document utility\...                                             | Command         | **Dokument-Dienstprogramm\...**           |                                                      |
++++++
+| <img alt="" src=images/Std_TextDocument.svg  style="width:16px;"> Add text document                                              | Command         | **Textdokument hinzufügen**               |                                                      |
++++++
+| <img alt="" src=images/Std_DemoMode.svg  style="width:16px;"> View turntable\...                                                     | Command         | **Drehscheibe\...**                       |                                                      |
++++++
+| <img alt="" src=images/Std_UnitsCalculator.svg  style="width:16px;"> Units converter\...                                      | Command         | Einheiten-Umrechner\...                   |                                                      |
++++++
+| <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> Customize\...                                                  | Command         | Benutzerdefiniert\...                     | Anpassen?                                            |
++++++
+| <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> Addon manager                                                          | Command         | **Addon-Manager**                         |                                                      |
++++++
+| <img alt="" src=images/Std_Measure.svg  style="width:16px;"> Measure                                                                  | Command         | Messen                                    |                                                      |
++++++
+| *Macro menu*                                                                                                                |                 |                                           |                                                      |
++++++
+| Macro                                                                                                                       | Menue header    | **Makro**                                 |                                                      |
++++++
+| <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:16px;"> Macro recording\...                                        | Command         | **Makro aufzeichnen**\...                 |                                                      |
++++++
+| <img alt="" src=images/Std_MacroStopRecord.svg  style="width:16px;"> Stop macro recording                                     | Command         | **Makroaufzeichnung beenden**             |                                                      |
++++++
+| <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> Macros\...                                               | Command         | **Makros**\...                            |                                                      |
++++++
+| Recent macros                                                                                                               | Command         | **Aktuelle Makros**                       |                                                      |
++++++
+| <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:16px;"> Execute macro                                | Command         | **Makro ausführen**                       |                                                      |
++++++
+| Attach to remote debugger\...                                                                                               | Command         | An Remote-Debugger anhängen\...           |                                                      |
++++++
+| <img alt="" src=images/Std_MacroStartDebug.svg  style="width:16px;"> Debug macro                                              | Command         | **Makro debuggen**                        |                                                      |
++++++
+| <img alt="" src=images/Std_MacroStopDebug.svg  style="width:16px;"> Stop debugging                                             | Command         | **Debuggen stoppen**                      |                                                      |
++++++
+| Step over                                                                                                                   | Command         | Einen Schritt weiter                      |                                                      |
++++++
+| Step into                                                                                                                   | Command         | Einzelschritt                             |                                                      |
++++++
+| Toggle breakpoint                                                                                                           | Command         | Haltepunkt an/aus                         |                                                      |
++++++
+| *Windows menu*                                                                                                              |                 |                                           |                                                      |
++++++
+| Windows                                                                                                                     | Menue header    | **Fenster**                               |                                                      |
++++++
+| <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:16px;"> Next                                               | Command         | **Nächstes Fenster**                      |                                                      |
++++++
+| <img alt="" src=images/Std_ActivatePrevWindow.svg  style="width:16px;"> Previous                                           | Command         | **Vorheriges Fenster**                    |                                                      |
++++++
+| <img alt="" src=images/Std_TileWindows.svg  style="width:16px;"> Tile                                                             | Command         | **Anordnen**                              |                                                      |
++++++
+| <img alt="" src=images/Std_Windows.svg  style="width:16px;"> Windows\...                                                              | Command         | **Fenster\...**                           |                                                      |
++++++
+| *Help menu*                                                                                                                 |                 |                                           |                                                      |
++++++
+| Help                                                                                                                        | Menue header    | **Hilfe**                                 |                                                      |
++++++
+| <img alt="" src=images/Std_OnlineHelp.svg  style="width:16px;"> Help                                                               | Command         | Hilfe                                     |                                                      |
++++++
+| *Additional tools panel*                                                                                                    |                 |                                           |                                                      |
++++++
+| Structure                                                                                                                   | Panel header    | **Struktur**                              | Nur Symbolleiste                                     |
++++++
+| <img alt="" src=images/Std_Part.svg  style="width:16px;"> Create part                                                                    | Command         | Baugruppe erstellen                       | Bauelement?                                          |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create Datums                                                              | Generic term    | Bezugselemente erstellen                  |                                       |
+|                                                                                                                             |                 |                                           | {{Version/de|1.1}}                                   |
+|                                                                                                                             |                 |                                           |                                                   |
++++++
+| <img alt="" src=images/Std_CoordinateSystem.svg  style="width:16px;"> Create a coordinate system                             | Command         | Bezugssytem erstellen                     |                                       |
+|                                                                                                                             |                 |                                           | {{Version/de|1.1}}                                   |
+|                                                                                                                             |                 |                                           |                                                   |
++++++
+| <img alt="" src=images/Std_Plane.svg  style="width:16px;"> Create a datum plane                                                         | Command         | Bezugsebene erstellen                     |                                       |
+|                                                                                                                             |                 |                                           | {{Version/de|1.1}}                                   |
+|                                                                                                                             |                 |                                           |                                                   |
++++++
+| <img alt="" src=images/Std_Axis.svg  style="width:16px;"> Create a datum line                                                            | Command         | Bezugslinie erstellen                     |                                       |
+|                                                                                                                             |                 |                                           | {{Version/de|1.1}}                                   |
+|                                                                                                                             |                 |                                           |                                                   |
++++++
+| <img alt="" src=images/Std_Point.svg  style="width:16px;"> Create a datum point                                                         | Command         | Bezugspunkt erstellen                     |                                       |
+|                                                                                                                             |                 |                                           | {{Version/de|1.1}}                                   |
+|                                                                                                                             |                 |                                           |                                                   |
++++++
+| <img alt="" src=images/Std_Group.svg  style="width:16px;"> Create Group                                                                 | Command         | **Gruppe erstellen**                      |                                                      |
++++++
+| <img alt="" src=images/Std_LinkMake.svg  style="width:16px;"> Make link                                                              | Command         | **Verknüpfung erstellen**                 |                                                      |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Link actions                                                               | Generic term    | Link actions                              | Übersetzen?                                          |
++++++
+| <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:16px;"> Make sub-link                                          | Command         | **Unterverknüpfung erstellen**            |                                                      |
++++++
+| <img alt="" src=images/Std_LinkReplace.svg  style="width:16px;"> Replace with link                                                | Command         | Durch Verknüpfung ersetzen                |                                                      |
++++++
+| <img alt="" src=images/Std_LinkUnlink.svg  style="width:16px;"> Unlink                                                             | Command         | Verknüpfung auflösen                      |                                                      |
++++++
+| <img alt="" src=images/Std_LinkImport.svg  style="width:16px;"> Import link                                                        | Command         | Verknüpfung importieren                   |                                                      |
++++++
+| <img alt="" src=images/Std_LinkImportAll.svg  style="width:16px;"> Import all links                                             | Command         | Alle Verknüpfungen importieren            |                                                      |
++++++
 
 
 </div>
@@ -262,14 +572,14 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 <div class="mw-collapsible mw-collapsed">
 
-#### Arbeitsbereich <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Arch](Arch_Workbench.md) 
+#### Arbeitsbereich <img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [BIM](BIM_Workbench.md) 
 
 
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                  Funktion         Deutscher Ausdruck    Anmerkung
      
-  <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> Arch        Workbench name   **Arch**              Arbeitsbereich, nicht übersetzen!
+  <img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> BIM           Workbench name   **BIM**               Arbeitsbereich, nicht übersetzen!
   Arch                                                                 Menue header     Arch                  Menü-Überschrift (übersetzen?)
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Utilities           Generic term     **Dienstprogramme**   
   <img alt="" src=images/Arch_Component.svg  style="width:16px;"> Component   Command          Komponente            
@@ -285,6 +595,79 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Annotation          Generic term     Annotation            Siehe Draft -\> Annotation. (Übersetzen?)
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Modification        Generic term     Modification          Siehe Draft -\> Modification. (Übersetzen?)
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Utilities           Generic term     Dienstprogramme       Siehe Draft -\> Utilities
+
+
+</div>
+
+
+</div>
+
+
+<div class="mw-collapsible mw-collapsed">
+
+#### Arbeitsbereich <img alt="" src=images/Workbench_Assembly.svg  style="width:16px;"> [Assembly](Assembly_Workbench/de.md) 
+
+
+<div class="mw-collapsible-content toccolours">
+
+  Englischer Ausdruck                                                                 Funktion         Deutscher Ausdruck                           Anmerkung
+     
+  <img alt="" src=images/Workbench_Assembly.svg  style="width:16px;"> Assembly           Workbench name   **Assembly**                                 Arbeitsbereich, nicht übersetzen!
+  Assembly                                                                            Menue header     **Assembly**                                 Menü-Überschrift (übersetzen?)
+  <img alt="" src=images/Assembly_CreateAssembly.svg style="width:16px;"> Create Assembly                        Command          **Baugruppe erstellen**                      
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Insert                             Generic term     Einfügen                                     Objekt einfügen?
+  <img alt="" src=images/Assembly_InsertLink.svg style="width:16px;"> Insert Link                                Command          **Komponente einfügen**                      
+  <img alt="" src=images/Assembly_InsertNewPart.svg style="width:16px;"> Insert a new Part                       Command          Bauelement einfügen                          Std-Part?
+                                                                                                                                                    
+  <img alt="" src=images/Assembly_SolveAssembly.svg style="width:16px;"> Solve Assembly                          Command          Baugruppe lösen                              Baugruppe ausrichten, Baugruppe berechnen?
+  <img alt="" src=images/Assembly_CreateView.svg style="width:16px;"> Create exploded view                       Command          **Explosionsansicht erstellen**              
+  <img alt="" src=images/Assembly_CreateSimulation.svg style="width:16px;"> Create simulation                    Command          Simulation erstellen                         
+  <img alt="" src=images/Assembly_CreateBom.svg style="width:16px;"> Create Bill of Materials                    Command          **Stückliste erstellen**                     
+  <img alt="" src=images/Assembly_ExportASMT.svg style="width:16px;"> Export ASMT File                           Command          **ASMT-Datei exportieren**                   Nur menü
+                                                                                                                                                    
+  <img alt="" src=images/Assembly_ToggleGrounded.svg style="width:16px;"> Toggle grounded                        Command          **Festsetzen umschalten**                    
+                                                                                                                                                    
+  <img alt="" src=images/Assembly_CreateJointFixed.svg style="width:16px;"> Create Fixed Joint                   Command          **Starre Verbindung erstellen**              
+  <img alt="" src=images/Assembly_CreateJointRevolute.svg style="width:16px;"> Create Revolute Joint             Command          **Drehverbindung erstellen**                 (Drehgelenk, Scharnier?)
+  <img alt="" src=images/Assembly_CreateJointCylindrical.svg style="width:16px;"> Create Cylindrical Joint       Command          Zylindrische Verbindung erstellen            Drehschubgelenk, Drehschubverbindung, zylindrische Führung?
+  <img alt="" src=images/Assembly_CreateJointSlider.svg style="width:16px;"> Create Slider Joint                 Command          Gleitverbindung erstellen                    Schubgelenk, Schubverbindung, Linearführung, prismatische Führung?
+  <img alt="" src=images/Assembly_CreateJointBall.svg style="width:16px;"> Create Ball Joint                     Command          Kugelverbindung erstellen                    Kugelgelenk, Punktverbindung?
+                                                                                                                                                    
+  <img alt="" src=images/Assembly_CreateJointDistance.svg style="width:16px;"> Create Distance Joint             Command          Abstandsverbindung erstellen                 Abstand?
+  <img alt="" src=images/Assembly_CreateJointParallel.svg style="width:16px;"> Create Parallel Joint             Command          Parallele Verbindung erstellen               Parallelführung?
+  <img alt="" src=images/Assembly_CreateJointPerpendicular.svg style="width:16px;"> Create Perpendicular Joint   Command          Rechtwinklige Verbindung erstellen           Rechtwinklige Führung?
+  <img alt="" src=images/Assembly_CreateJointAngle.svg style="width:16px;"> Create Angle Joint                   Command          Winkelverbindung erstellen                   Winkelführung?
+                                                                                                                                                    
+  <img alt="" src=images/Assembly_CreateJointRackPinion.svg style="width:16px;"> Create Rack and Pinion Joint    Command          **Zahnstange-Ritzel-Verbindung erstellen**   Kopplung, Übersetzung?
+  <img alt="" src=images/Assembly_CreateJointScrew.svg style="width:16px;"> Create Distance Joint                Command          Spindelverbindung erstellen                  Kopplung, Übersetzung?
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create Gear/Belt Joint             Generic term     **Zahnrad-/Riemenverbindung erstellen**      Kopplung, Übersetzung?
+  <img alt="" src=images/Assembly_CreateJointGears.svg style="width:16px;"> Create Gears Joint                   Command          **Zahnradverbindung erstellen**              Übersetzung?
+  <img alt="" src=images/Assembly_CreateJointBelt.svg style="width:16px;"> Create Belt Joint                     Command          **Riemenverbindung erstellen**               Übersetzung?
+
+
+</div>
+
+
+</div>
+
+
+<div class="mw-collapsible mw-collapsed">
+
+#### Arbeitsbereich <img alt="" src=images/Workbench_CAM.svg  style="width:16px;"> [CAM](CAM_Workbench.md) 
+
+
+<div class="mw-collapsible-content toccolours">
+
+  Englischer Ausdruck                                                      Funktion         Deutscher Ausdruck       Anmerkung
+     
+  <img alt="" src=images/Workbench_CAM.svg  style="width:16px;"> CAM               Workbench name   **CAM**                  Arbeitsbereich, nicht übersetzen!
+  CAM                                                                      Menue header     CAM                      Menü-Überschrift (übersetzen?)
+  <img alt="" src=images/Path_Job.svg  style="width:16px;"> Job                         Command          **Auftrag**              
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Path Dressup            Generic term     Path Dressup             Übersetzen?
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Supplemental Commands   Generic term     Supplemental Commands    Übersetzen?
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Path Modification       Generic term     Path Modification        Übersetzen?
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Utils                   Generic term     Utils                    Übersetzen?
+  PropertyBag                                                              Command          Eigenschaften Sammlung   Bindestrich?
 
 
 </div>
@@ -563,12 +946,12 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
                                                                                                                                                                      
   <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> Create primitives\...                        Command          **Grundkörper erstellen**\...             Werkzeug zum Erstellen von Primitiven
   <img alt="" src=images/Part_Plane.svg  style="width:16px;"> Plane                                                  Menue item       **Ebene**                                 
-  <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:16px;"> Box                        Menue item       **Quader**                                
-  <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:16px;"> Cylinder         Menue item       **Zylinder**                              
-  <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:16px;"> Cone                     Menue item       **Kegel**                                 
-  <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> Sphere               Menue item       **Kugel**                                 
-  <img alt="" src=images/Tree_Part_Ellipsoid_Parametric.svg  style="width:16px;"> Ellipsoid      Menue item       Ellipsoid                                 
-  <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:16px;"> Torus                  Menue item       **Torus**                                 
+  <img alt="" src=images/Part_Box.svg  style="width:16px;"> Box                                                        Menue item       **Quader**                                
+  <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> Cylinder                                         Menue item       **Zylinder**                              
+  <img alt="" src=images/Part_Cone.svg  style="width:16px;"> Cone                                                     Menue item       **Kegel**                                 
+  <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> Sphere                                               Menue item       **Kugel**                                 
+  <img alt="" src=images/Part_Ellipsoid.svg  style="width:16px;"> Ellipsoid                                      Menue item       Ellipsoid                                 
+  <img alt="" src=images/Part_Torus.svg  style="width:16px;"> Torus                                                  Menue item       **Torus**                                 
   <img alt="" src=images/Part_Prism.svg  style="width:16px;"> Prism                                                  Menue item       **Prisma**                                
   <img alt="" src=images/Part_Wedge.svg  style="width:16px;"> Wedge                                                  Menue item       **Keil**                                  
   <img alt="" src=images/Part_Helix.svg  style="width:16px;"> Helix                                                  Menue item       Helix                                     Wendel?
@@ -642,113 +1025,185 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 <div class="mw-collapsible-content toccolours">
 
-  Englischer Ausdruck                                                                                                   Funktion            Deutscher Ausdruck                                                                                       Anmerkung
-     
-  <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> Part Design                                      Workbench name      **Part Design**                                                                                          Arbeitsbereich, nicht übersetzen!
-  Part Design                                                                                                           Menue header        Teile-Konstruktion, (Bauteilkonstruktion)                                                                Menü-Überschrift, übersetzt (herbk Weshalb auf der Oberfläche übersetzt? Das ist das Menü zur WB die Part Design heißt ;-) )
-  <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> Create body                                                Command             Körper erstellen                                                                                         
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;">Create a datum                                                        Generic term        Bezugselement erstellen                                                                                  
-  <img alt="" src=images/PartDesign_Point.svg  style="width:16px;"> Create a datum point                                     Command             Bezugspunkt erstellen                                                                                    
-  <img alt="" src=images/PartDesign_Line.svg  style="width:16px;"> Create a datum line                                        Command             Bezugslinie erstellen                                                                                    
-  <img alt="" src=images/PartDesign_Plane.svg  style="width:16px;"> Create a datum plane                                     Command             Bezugsebene erstellen                                                                                    
-                                                                                                                                                                                                                                                     
-  <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:16px;"> Create a local coordinate system   Command             Lokales Koordinatensystem erstellen                                                                      
-  <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> Create a shape binder                        Command             Formbinder erstellen                                                                                     
-  <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> Create a sub-object(s) shape binder    Command             Formbinder für Teilobjekt erstellen                                                                      
-  <img alt="" src=images/PartDesign_Clone.svg  style="width:16px;"> Create a clone                                           Command             Klon erstellen                                                                                           
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create an additive feature                                           Generic term        Hinzuzufügende Objekte                                                                                   
-  <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> Pad                                                          Command             Extrusionsobjekt (passend zum Oberbegriff) oderExtrudieren/aufdicken (passend zu to pad)   Aufpolsterung sollte korrigiert werden.
-  <img alt="" src=images/PartDesign_Revolution.svg  style="width:16px;"> Revolution                                     Command             Drehteil/Drehobjekt (passend zum Oberbegriff)                                                            Drehen sollte korrigiert werden.
-  <img alt="" src=images/PartDesign_AdditiveLoft.svg  style="width:16px;"> Additive loft                              Command             Hinzuzufügende Ausformung                                                                                \"Zu addierende\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:16px;"> Additive pipe                              Command             Hinzuzufügendes Rohr                                                                                     \"Zuzufügendes\" sollte korrigiert werden (Crowdin)(herbk: englischer Begriff ist schon unpassend, das ist kein Rohr)
-  <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:16px;"> Additive helix                           Command             Hinzuzufügende Wendel                                                                                    
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create an additive primitive                                         Generic term        Hinzuzufügende Grundkörper                                                                               
-  <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> Additive Box                                 Command             Hinzuzufügender Quader                                                                                   \"Zu addierender\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/_PartDesign_AdditiveCylinder.svg  style="width:16px;"> Additive Cylinder                Command             Hinzuzufügender Zylinder                                                                                 \"Zu addierender\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/PartDesign_AdditiveSphere.svg  style="width:16px;"> Additive Sphere                        Command             Hinzuzufügende Kugel                                                                                     \"Zu addierende\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:16px;"> Additive Cone                              Command             Hinzuzufügender Kegel                                                                                    
-  <img alt="" src=images/_PartDesign_AdditiveEllipsoid.svg  style="width:16px;"> Additive Ellipsoid             Command             Hinzuzufügendes Ellipsoid                                                                                \"Zu addierendes\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/PartDesign_AdditiveTorus.svg  style="width:16px;"> Additive Torus                           Command             Hinzuzufügender Torus                                                                                    \"Zu addierender\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:16px;"> Additive Prism                           Command             Hinzuzufügendes Prisma                                                                                   
-  <img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:16px;"> Additive Wedge                           Command             Hinzuzufügender Keil                                                                                     \"Zu addierender\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create a subtractive feature                                         Generic term        Abzuziehende Objekte                                                                                     
-  <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> Pocket                                                 Command             **Tasche**                                                                                               
-  <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> Hole                                                       Command             **Bohrung**                                                                                              
-  <img alt="" src=images/PartDesign_Groove.svg  style="width:16px;"> Groove                                                 Command             (Ring-) **Nut**                                                                                          
-  <img alt="" src=images/PartDesign_SubtractiveLoft.svg  style="width:16px;"> Subtractive loft                     Command             Abzuziehende Ausformung                                                                                  \"Abziehbare\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/PartDesign_SubtractivePipe.svg  style="width:16px;"> Subtractive pipe                     Command             Abzuziehendes Rohr                                                                                       \"Abziehbare\" sollte korrigiert werden (Crowdin)(herbk: englischer Begriff ist schon unpassend, das ist kein Rohr)
-  <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:16px;"> Subtractive helix                  Command             Abzuziehende Wendel                                                                                      
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create a subtractive primitive                                       Generic term        Abzuziehende Grundkörper                                                                                 
-  <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:16px;"> Subtractive Box                        Command             Abzuziehender Quader                                                                                     
-  <img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:16px;"> Subtractive Cylinder         Command             Abzuziehender Zylinder                                                                                   
-  <img alt="" src=images/_PartDesign_SubtractiveSphere.svg  style="width:16px;"> Subtractive Sphere             Command             Abzuziehende Kugel                                                                                       
-  <img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:16px;"> Subtractive Cone                     Command             Abzuziehender Kegel                                                                                      
-  <img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:16px;"> Subtractive Ellipsoid      Command             Abzuziehendes Ellipsoid                                                                                  
-  <img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:16px;"> Subtractive Torus                  Command             Abzuziehender Torus                                                                                      
-  <img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:16px;"> Subtractive Prism                  Command             Abzuziehendes Prisma                                                                                     
-  <img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:16px;"> Subtractive Wedge                  Command             Abzuziehender Keil                                                                                       
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Apply a pattern                                                      Generic term        Muster anwenden                                                                                          
-  <img alt="" src=images/PartDesign_Mirrored.svg  style="width:16px;"> Mirrored                                           Command             **Spiegeln**                                                                                             
-  <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> Linear pattern                           Command             Lineares Muster                                                                                          
-  <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:16px;"> Polar pattern                              Command             Polares Muster                                                                                           
-  <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> Create MultiTransform                  Command             Mehrfach-Transformation erstellen                                                                        
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Apply a dress-up feature                                             Generic term        Modifikationen                                                                                           
-  <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> Fillet                                                 Command             **Verrundung**                                                                                           
-  <img alt="" src=images/PartDesign_Chamfer.svg  style="width:16px;"> Chamfer                                              Command             Fase                                                                                                     
-  <img alt="" src=images/PartDesign_Draft.svg  style="width:16px;"> Draft                                                    Command             **Formschräge**                                                                                          
-  <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> Thickness                                        Command             **Dicke**, Wandstärke                                                                                    
-                                                                                                                                                                                                                                                     
-  <img alt="" src=images/PartDesign_Boolean.svg  style="width:16px;"> Boolean operation                                    Command             **Boolesche Operation**                                                                                  
-  <img alt="" src=images/PartDesign_Migrate.svg  style="width:16px;"> Migrate                                              Command             Migrieren                                                                                                Nur Menü
-  <img alt="" src=images/PartDesign_Sprocket.svg  style="width:16px;"> Sprocket\...                                       Command             Kettenrad\...                                                                                            Nur Menü
-  Sprocket parameter                                                                                                    Task panel header   Kettenradparameter                                                                                       
-  Number of teeth                                                                                                       Task panel label    Anzahl der Zähne                                                                                         
-  Sprocket Reference                                                                                                    Task panel label    Kettenradreferenz                                                                                        
-  Chain Pitch                                                                                                           Task panel label    Kettenteilung                                                                                            
-  Roller Diameter                                                                                                       Task panel label    Rollendurchmesser                                                                                        Hohe Genauigkeit?
-  Thickness                                                                                                             Task panel label    Dicke                                                                                                    Zahnbreite?
-  <img alt="" src=images/_PartDesign_InternalExternalGear.svg  style="width:16px;"> Involute gear\...        Command             Evolventenrad\...                                                                                        Nur Menü
-  Involute parameter                                                                                                    Task panel header   Evolventenparameter                                                                                      
-  Number of teeth                                                                                                       Task panel label    Anzahl der Zähne                                                                                         
-  Module                                                                                                                Task panel label    **Modul**                                                                                                
-  Pressure angle                                                                                                        Task panel label    Eingriffswinkel                                                                                          
-  High precision                                                                                                        Task panel label    Hohe Präzision                                                                                           Hohe Genauigkeit?
-  External gear                                                                                                         Task panel label    Außenrad                                                                                                 Stirnrad?
-  <img alt="" src=images/_PartDesign_WizardShaft.svg  style="width:16px;"> Shaft design wizard\...                    Command             (Shaft design wizard\...)                                                                                Nur Menü
-  *Sketcher Menu*                                                                                                                                                                                                                                    
-  Sketch                                                                                                                Menue header        Skizze                                                                                                   Menü-Überschrift (übersetzen?, Skizzieren?)
-  <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:16px;"> Create sketch                                        Command             **Skizze erstellen**                                                                                     (PartDesign_NewSketch != Sketcher_NewSketch)
-  <img alt="" src=images/Sketcher_EditSketch.svg‎‎  style="width:16px;"> Edit sketch                                        Command             **Skizze bearbeiten**                                                                                    Nur Schaltfläche
-  <img alt="" src=images/Sketcher_LeaveSketch.svg‎‎  style="width:16px;"> Leave sketch                                     Command             **Skizze verlassen**                                                                                     Nur Menü
-  <img alt="" src=images/Sketcher_ViewSketch.svg‎‎  style="width:16px;"> View sketch                                        Command             **Skizze anzeigen**                                                                                      Nur Menü
-  <img alt="" src=images/Sketcher_MapSketch.svg‎‎  style="width:16px;"> Map sketch to face\...                               Command             **Skizze einer Fläche zuordnen**\...                                                                     
-  <img alt="" src=images/Sketcher_ReorientSketch.svg‎‎  style="width:16px;"> Reorient sketch\...                        Command             **Skizze neu ausrichten**\...                                                                            Nur Menü
-  <img alt="" src=images/Sketcher_ValidateSketch.svg‎‎  style="width:16px;"> Validate sketch\...                        Command             **Skizze überprüfen**\...                                                                                Nur Menü
-
-
-</div>
-
-
-</div>
-
-
-<div class="mw-collapsible mw-collapsed">
-
-#### Arbeitsbereich <img alt="" src=images/Workbench_Path.svg  style="width:16px;"> [Path](Path_Workbench.md) 
-
-
-<div class="mw-collapsible-content toccolours">
-
-  Englischer Ausdruck                                                      Funktion         Deutscher Ausdruck       Anmerkung
-     
-  <img alt="" src=images/Workbench_Path.svg  style="width:16px;"> Path            Workbench name   **Path**                 Arbeitsbereich, nicht übersetzen!
-  Path                                                                     Menue header     Path                     Menü-Überschrift (übersetzen?)
-  <img alt="" src=images/Path_Job.svg  style="width:16px;"> Job                         Command          **Auftrag**              
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Path Dressup            Generic term     Path Dressup             Übersetzen?
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Supplemental Commands   Generic term     Supplemental Commands    Übersetzen?
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Path Modification       Generic term     Path Modification        Übersetzen?
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Utils                   Generic term     Utils                    Übersetzen?
-  PropertyBag                                                              Command          Eigenschaften Sammlung   Bindestrich?
++++++
+| Englischer Ausdruck                                                                                                 | Funktion          | Deutscher Ausdruck                                                                                     | Anmerkung                                                          |
++=====================================================================================================================+===================+========================================================================================================+====================================================================+
+| <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> Part Design                                    | Workbench name    | **Part Design**                                                                                        | Arbeitsbereich, nicht übersetzen!                                  |
++++++
+| Part Design                                                                                                         | Menue header      | **Part Design**                                                                                        | Menü-Überschrift                                                   |
++++++
+| <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> Create body                                              | Command           | **Körper erstellen**                                                                                   |                                                                    |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;">Create a datum                                                      | Generic term      | Bezugselement erstellen                                                                                |                                                     |
+|                                                                                                                     |                   |                                                                                                        | {{VersionMinus/de|1.0}}                                            |
+|                                                                                                                     |                   |                                                                                                        |                                                                 |
++++++
+| <img alt="" src=images/PartDesign_Point.svg  style="width:16px;"> Create a datum point                                   | Command           | Bezugspunkt erstellen                                                                                  |                                                     |
+|                                                                                                                     |                   |                                                                                                        | {{VersionMinus/de|1.0}}                                            |
+|                                                                                                                     |                   |                                                                                                        |                                                                 |
++++++
+| <img alt="" src=images/PartDesign_Line.svg  style="width:16px;"> Create a datum line                                      | Command           | Bezugslinie erstellen                                                                                  |                                                     |
+|                                                                                                                     |                   |                                                                                                        | {{VersionMinus/de|1.0}}                                            |
+|                                                                                                                     |                   |                                                                                                        |                                                                 |
++++++
+| <img alt="" src=images/PartDesign_Plane.svg  style="width:16px;"> Create a datum plane                                   | Command           | Bezugsebene erstellen                                                                                  |                                                     |
+|                                                                                                                     |                   |                                                                                                        | {{VersionMinus/de|1.0}}                                            |
+|                                                                                                                     |                   |                                                                                                        |                                                                 |
++++++
+| <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:16px;"> Create a local coordinate system | Command           | Lokales Koordinatensystem erstellen                                                                    |                                                     |
+|                                                                                                                     |                   |                                                                                                        | {{VersionMinus/de|1.0}}                                            |
+|                                                                                                                     |                   |                                                                                                        |                                                                 |
++++++
+| <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> Create a shape binder                      | Command           | **Formbinder erstellen**                                                                               |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> Create a sub-object(s) shape binder  | Command           | **Teilformbinder erstellen**                                                                           |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_Clone.svg  style="width:16px;"> Create a clone                                         | Command           | Klon erstellen                                                                                         |                                                                    |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create an additive feature                                         | Generic term      | **Objekte hinzufügen**                                                                                 |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> Pad                                                        | Command           | Extrusionsobjekt (passend zum Oberbegriff) oderExtrudieren/aufdicken (passend zu to pad) | Aufpolsterung sollte korrigiert werden.                            |
++++++
+| <img alt="" src=images/PartDesign_Revolution.svg  style="width:16px;"> Revolution                                   | Command           | **Drehteil**                                                                                           |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_AdditiveLoft.svg  style="width:16px;"> Additive loft                            | Command           | Ausformung                                                                                             | Formübergang, Übergangsform?                                       |
++++++
+| <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:16px;"> Additive pipe                            | Command           | Rohr                                                                                                   | (herbk: englischer Begriff ist schon unpassend, das ist kein Rohr) |
++++++
+| <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:16px;"> Additive helix                         | Command           | **Wendel**                                                                                             |                                                                    |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create an additive primitive                                       | Generic term      | **Grundkörper hinzufügen**                                                                             |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> Additive Box                               | Command           | **Quader**                                                                                             |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_AdditiveCylinder.svg  style="width:16px;"> Additive Cylinder                | Command           | **Zylinder**                                                                                           |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_AdditiveSphere.svg  style="width:16px;"> Additive Sphere                      | Command           | **Kugel**                                                                                              |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:16px;"> Additive Cone                            | Command           | **Kegel**                                                                                              |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_AdditiveEllipsoid.svg  style="width:16px;"> Additive Ellipsoid             | Command           | **Ellipsoid**                                                                                          |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_AdditiveTorus.svg  style="width:16px;"> Additive Torus                         | Command           | **Torus**                                                                                              |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:16px;"> Additive Prism                         | Command           | **Prisma**                                                                                             |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:16px;"> Additive Wedge                         | Command           | **Keil**                                                                                               |                                                                    |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create a subtractive feature                                       | Generic term      | **Objekte abziehen**                                                                                   |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> Pocket                                               | Command           | **Vertiefung**                                                                                         |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> Hole                                                     | Command           | **Bohrung**                                                                                            |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_Groove.svg  style="width:16px;"> Groove                                               | Command           | **Nut**                                                                                                | Ringnut?                                                           |
++++++
+| <img alt="" src=images/PartDesign_SubtractiveLoft.svg  style="width:16px;"> Subtractive loft                   | Command           | Ausformung                                                                                             |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_SubtractivePipe.svg  style="width:16px;"> Subtractive pipe                   | Command           | Rohr                                                                                                   | (herbk: englischer Begriff ist schon unpassend, das ist kein Rohr) |
++++++
+| <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:16px;"> Subtractive helix                | Command           | **Wendel**                                                                                             |                                                                    |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create a subtractive primitive                                     | Generic term      | **Grundkörper abziehen**                                                                               |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:16px;"> Subtractive Box                      | Command           | **Quader**                                                                                             |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:16px;"> Subtractive Cylinder       | Command           | **Zylinder**                                                                                           |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_SubtractiveSphere.svg  style="width:16px;"> Subtractive Sphere             | Command           | **Kugel**                                                                                              |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:16px;"> Subtractive Cone                   | Command           | **Kegel**                                                                                              |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:16px;"> Subtractive Ellipsoid    | Command           | **Ellipsoid**                                                                                          |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:16px;"> Subtractive Torus                | Command           | **Torus**                                                                                              |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:16px;"> Subtractive Prism                | Command           | **Prisma**                                                                                             |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:16px;"> Subtractive Wedge                | Command           | **Keil**                                                                                               |                                                                    |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Apply a pattern                                                    | Generic term      | **Muster anwenden**                                                                                    |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_Mirrored.svg  style="width:16px;"> Mirrored                                         | Command           | **Spiegeln**                                                                                           |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> Linear pattern                         | Command           | **Lineares Muster**                                                                                    |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:16px;"> Polar pattern                            | Command           | **Polares Muster**                                                                                     |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> Create MultiTransform                | Command           | **Mehrfach-Transformation erstellen**                                                                  |                                                                    |
++++++
+| <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Apply a dress-up feature                                           | Generic term      | **Modifikationen**                                                                                     |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> Fillet                                               | Command           | **Verrundung**                                                                                         |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_Chamfer.svg  style="width:16px;"> Chamfer                                            | Command           | **Fase**                                                                                               |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_Draft.svg  style="width:16px;"> Draft                                                  | Command           | **Formschräge**                                                                                        |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> Thickness                                      | Command           | **Dicke**                                                                                              | Wandstärke                                                         |
++++++
+|                                                                                                                     |                   |                                                                                                        |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_Boolean.svg  style="width:16px;"> Boolean operation                                  | Command           | **Boolesche Verknüpfung**                                                                              |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_Migrate.svg  style="width:16px;"> Migrate                                            | Command           | Migrieren                                                                                              | Nur Menü {{VersionMinus/de|0.21.0}}                  |
++++++
+| <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> Check Geometry                                     | Command           | Geometrie überprüfen                                                                                   |                                                     |
+|                                                                                                                     |                   |                                                                                                        | {{VersionPlus/de|1.0}}                                             |
+|                                                                                                                     |                   |                                                                                                        |                                                                 |
++++++
+| <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:16px;"> Involute gear\...        | Command           | **Evolventenrad**\...                                                                                  | Nur Menü                                                           |
++++++
+| Involute parameter                                                                                                  | Task panel header | **Evolventenradparameter**                                                                             |                                                                    |
++++++
+| Number of teeth                                                                                                     | Task panel label  | **Anzahl der Zähne**                                                                                   |                                                                    |
++++++
+| Module                                                                                                              | Task panel label  | **Modul**                                                                                              |                                                                    |
++++++
+| Pressure angle                                                                                                      | Task panel label  | **Eingriffswinkel**                                                                                    |                                                                    |
++++++
+| High precision                                                                                                      | Task panel label  | Hohe Präzision                                                                                         | Hohe Genauigkeit?                                                  |
++++++
+| External gear                                                                                                       | Task panel label  | **Außenverzahnung**                                                                                    |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_Sprocket.svg  style="width:16px;"> Sprocket\...                                     | Command           | Kettenrad\...                                                                                          | Nur Menü                                                           |
++++++
+| Sprocket parameter                                                                                                  | Task panel header | Kettenradparameter                                                                                     |                                                                    |
++++++
+| Number of teeth                                                                                                     | Task panel label  | Anzahl der Zähne                                                                                       |                                                                    |
++++++
+| Sprocket Reference                                                                                                  | Task panel label  | Kettenradreferenz                                                                                      |                                                                    |
++++++
+| Chain Pitch                                                                                                         | Task panel label  | Kettenteilung                                                                                          |                                                                    |
++++++
+| Roller Diameter                                                                                                     | Task panel label  | **Rollendurchmesser**                                                                                  |                                                                    |
++++++
+| Thickness                                                                                                           | Task panel label  | **Zahnbreite**                                                                                         |                                                                    |
++++++
+| <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:16px;"> Shaft design wizard\...                    | Command           | Entwurfsassistent für Wellen\...                                                                       | Nur Menü                                                           |
++++++
+| *Sketcher Menu*                                                                                                     |                   |                                                                                                        |                                                                    |
++++++
+| Sketch                                                                                                              | Menue header      | **Skizze**                                                                                             | Menü-Überschrift                                                   |
++++++
+| <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:16px;"> Create sketch                                      | Command           | **Skizze erstellen**                                                                                   | (PartDesign_NewSketch != Sketcher_NewSketch)                       |
++++++
+| <img alt="" src=images/Sketcher_EditSketch.svg‎‎  style="width:16px;"> Edit sketch                                      | Command           | **Skizze bearbeiten**                                                                                  |                                                                    |
++++++
+| <img alt="" src=images/Sketcher_LeaveSketch.svg‎‎  style="width:16px;"> Leave sketch                                   | Command           | **Skizze verlassen**                                                                                   | Nur Menü                                                           |
++++++
+| <img alt="" src=images/Sketcher_ViewSketch.svg‎‎  style="width:16px;"> View sketch                                      | Command           | **Skizzenansicht**                                                                                     | Nur Menü                                                           |
++++++
+| <img alt="" src=images/Sketcher_MapSketch.svg‎‎  style="width:16px;"> Attach sketch\...                                  | Command           | **Skizze befestigen\...**                                                                              |                                                                    |
++++++
+| <img alt="" src=images/Sketcher_ReorientSketch.svg‎‎  style="width:16px;"> Reorient sketch\...                      | Command           | **Skizze neu ausrichten**\...                                                                          | Nur Menü                                                           |
++++++
+| <img alt="" src=images/Sketcher_ValidateSketch.svg‎‎  style="width:16px;"> Validate sketch\...                      | Command           | **Skizze überprüfen**\...                                                                              | Nur Menü                                                           |
++++++
+| <img alt="" src=images/Sketcher_MergeSketches.svg‎‎  style="width:16px;"> Merge sketches                             | Command           | Skizzen zusammenführen\...                                                                             | Nur Menü                                                           |
++++++
+| <img alt="" src=images/Sketcher_MirrorSketch.svg‎‎  style="width:16px;"> Mirror sketch\...                            | Command           | **Skizze spiegeln**\...                                                                                | Nur Menü                                                           |
++++++
 
 
 </div>
@@ -910,33 +1365,34 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
   Sketch                                                                                                                                                    Menue header     Sketch                                                           Menü-Überschrift (übersetzen?)
   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:16px;"> New sketch                                                                               Command          **Skizze erstellen**                                             (Sketcher_NewSketch != PartDesign_NewSketch)
   <img alt="" src=images/Sketcher_EditSketch.svg‎‎  style="width:16px;"> Edit sketch                                                                            Command          **Skizze bearbeiten**                                            
-  <img alt="" src=images/Sketcher_LeaveSketch.svg‎‎  style="width:16px;"> Leave sketch                                                                         Command          **Skizze verlassen**                                             
-  <img alt="" src=images/Sketcher_ViewSketch.svg‎‎  style="width:16px;"> View sketch                                                                            Command          **Skizze anzeigen**                                              
-  <img alt="" src=images/Sketcher_ViewSection.svg‎‎  style="width:16px;"> View section                                                                         Command          Abschnitt anzeigen                                               Skizzenebene anzeigen?
   <img alt="" src=images/Sketcher_MapSketch.svg‎‎  style="width:16px;"> Map sketch to face\...                                                                   Command          **Skizze einer Fläche zuordnen**\...                             
   <img alt="" src=images/Sketcher_ReorientSketch.svg‎‎  style="width:16px;"> Reorient sketch\...                                                            Command          **Skizze neu ausrichten**\...                                    
   <img alt="" src=images/Sketcher_ValidateSketch.svg‎‎  style="width:16px;"> Validate sketch\...                                                            Command          **Skizze überprüfen**\...                                        
   <img alt="" src=images/Sketcher_MergeSketches.svg‎‎  style="width:16px;"> Merge sketches                                                                   Command          Skizzen zusammenführen                                           (Skizzen zusammenlegen/zusamenfassen?)
   <img alt="" src=images/Sketcher_MirrorSketch.svg‎‎  style="width:16px;"> Mirror sketch                                                                      Command          **Skizze spiegeln**                                              
+                                                                                                                                                                                                                                              
+  <img alt="" src=images/Sketcher_LeaveSketch.svg‎‎  style="width:16px;"> Leave sketch                                                                         Command          **Skizze verlassen**                                             
+  <img alt="" src=images/Sketcher_ViewSketch.svg‎‎  style="width:16px;"> View sketch                                                                            Command          **Skizze anzeigen**                                              
+  <img alt="" src=images/Sketcher_ViewSection.svg‎‎  style="width:16px;"> View section                                                                         Command          Schnitt anzeigen                                                 Skizzenebene anzeigen?
   <img alt="" src=images/Sketcher_StopOperation.svg‎‎  style="width:16px;"> Stop operation                                                                   Command          **Vorgang stoppen**                                              
+                                                                                                                                                                                                                                              
+  <img alt="" src=images/Sketcher_Grid.svg  style="width:16px;"> Toggle grid                                                                                        Command          **Raster ein-/ausblenden**                                       
+  <img alt="" src=images/Sketcher_Snap.svg  style="width:16px;"> Toggle snap                                                                                        Command          **Einrasten umschalten**                                         
+  <img alt="" src=images/Sketcher_RenderingOrder.svg  style="width:16px;"> Configure rendering order                                                      Command          **Rendering-Reihenfolge konfigurieren**                          
+                                                                                                                                                                                                                                              
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher geometries                                                                                      Generic term     **Skizzengeometrien**                                            
   <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:16px;"> Create point                                                                         Command          **Punkt erstellen**                                              
+  <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:16px;"> Create polyline                                                                Command          **Linienzug erstellen**                                          
   <img alt="" src=images/Sketcher_CreateLine.svg  style="width:16px;"> Create line                                                                            Command          **Linie erstellen**                                              
-  <img alt="" src=images/Sketcher_CreateArc.svg  style="width:16px;"> Create arc by center                                                                     Command          Bogen aus Mittelpunkt erstellen                                  Bogen/Kreisbogen?
-  <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:16px;"> Create arc by three points                                                   Command          **Kreisbogen durch drei Punkte erstellen**                       
-  <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:16px;"> Create circle                                                                      Command          **Kreis erstellen**                                              
-  <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:16px;"> Create circle by three points                                          Command          **Kreis durch drei Punkten erstellen**                           
-  <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:16px;"> Create ellipse by center                                         Command          **Ellipse um Mittelpunkt erstellen**                             
-  <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:16px;"> Create ellipse by three points                                 Command          **Ellipse durch drei Punkte erstellen**                          
+  <img alt="" src=images/Sketcher_CreateArc.svg  style="width:16px;"> Create arc by center                                                                     Command          **Kreisbogen um Mittelpunkt erstellen**                          
+  <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:16px;"> Create arc by three points                                                   Command          **Kreisbogen durch 3 Punkte erstellen**                          
   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:16px;"> Create an arc of ellipse                                               Command          **Ellipsenbogen erstellen**                                      
   <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width:16px;"> Create an arc of hyperbola                                         Command          **Hyperbelbogen erstellen**                                      
   <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:16px;"> Create an arc of parabola                                            Command          **Parabelbogen erstellen**                                       
-  <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:16px;"> Create B-spline                                                                  Command          **B-Spline erstellen**                                           
-  <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:16px;"> Create periodic B-spline                                         Command          **Geschlossenen B-Spline erstellen**                             
-  <img alt="" src=images/Sketcher_CreateBSplineByInterpolation.svg  style="width:16px;"> B-spline by knots                                  Command          B-Spline interpolieren                                           
-  <img alt="" src=images/Sketcher_CreatePeriodicBSplineByInterpolation.svg  style="width:16px;"> Periodic B-spline by knots         Command          Geschlossenen B-Spline interpolieren                             
-                                                                                                                                                                                                                                              
-  <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:16px;"> Create polyline                                                                Command          **Linienzug erstellen**                                          
+  <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:16px;"> Create circle                                                                      Command          **Kreis um Mittelpunkt erstellen**                               
+  <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:16px;"> Create circle by three points                                          Command          **Kreis durch 3 Punkten erstellen**                              
+  <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:16px;"> Create ellipse by center                                         Command          **Ellipse um Mittelpunkt erstellen**                             
+  <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:16px;"> Create ellipse by three points                                 Command          **Ellipse durch 3 Punkte erstellen**                             
   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:16px;"> Create rectangle                                                             Command          **Rechteck erstellen**                                           
   <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:16px;"> Create centered rectangle                                      Command          **Zentriertes Rechteck erstellen**                               
   <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:16px;"> Create rounded rectangle                                                           Command          **Abgerundetes Rechteck erstellen**                              
@@ -947,64 +1403,94 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
   <img alt="" src=images/Sketcher_CreateHeptagon.svg  style="width:16px;"> Create heptagon                                                                Command          **Siebeneck erstellen**                                          
   <img alt="" src=images/Sketcher_CreateOctagon.svg  style="width:16px;"> Create octagon                                                                   Command          **Achteck erstellen**                                            
   <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:16px;"> Create regular polygon                                             Command          **Regelmäßiges Vieleck erstellen**                               
-  <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:16px;"> Create slot                                                                            Command          Nut erstellen                                                    Kontur für Nut oder Feder\...
+  <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:16px;"> Create slot                                                                            Command          **Nut erstellen**                                                Kontur für Nut oder Feder\...
+  <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:16px;"> Create B-spline                                                                  Command          **B-Spline erstellen**                                           
+  <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:16px;"> Create periodic B-spline                                         Command          **Geschlossenen B-Spline erstellen**                             
+  <img alt="" src=images/Sketcher_CreateBSplineByInterpolation.svg  style="width:16px;"> B-spline by knots                                  Command          **B-Spline durch Knoten erstellen**                              
+  <img alt="" src=images/Sketcher_CreatePeriodicBSplineByInterpolation.svg  style="width:16px;"> Periodic B-spline by knots         Command          **Geschlossenen B-Spline durch Knoten interpolieren**            
                                                                                                                                                                                                                                               
-  <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:16px;"> Create fillet                                                                      Command          Abrundung erstellen                                              Verbindungsbogen?
-  <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:16px;"> Create corner-preserving fillet                                          Command          Eckerhaltende Verrundung erstellen                               Verbindungsbogen?
-  <img alt="" src=images/Sketcher_Trimming.svg  style="width:16px;"> Trim edge                                                                                  Command          **Kante zuschneiden**                                            
-  <img alt="" src=images/Sketcher_Extend.svg  style="width:16px;"> Extend edge                                                                                    Command          **Kante verlängern**                                             
-  <img alt="" src=images/Sketcher_Split.svg  style="width:16px;"> Split edge                                                                                       Command          **Kante teilen**                                                 
-  <img alt="" src=images/Sketcher_External.svg  style="width:16px;"> External geometry                                                                          Command          **Externe Geometrie**                                            
-  <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:16px;"> Carbon copy                                                                            Command          **Pause**                                                        
-  <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:16px;"> Toggle construction geometry                                           Command          Umschalten der Hilfsgeometrie                                    
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher constraints                                                                                     Generic term     Skizzen-Beschränkungen                                           Sketcher-Randbedingungen
-  <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:16px;"> Constrain coinzident                                                 Command          **Koinzidenz festlegen**                                         
-  <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:16px;"> Constrain point onto object                                    Command          Punkt auf Objekt festlegen                                       auf Linie?
-  <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> Constrain vertically                                                     Command          **Vertikal festlegen**                                           
+  <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:16px;"> Toggle construction geometry                                           Command          **Hilfsgeometrie umschalten**                                    
+                                                                                                                                                                                                                                              
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher constraints                                                                                     Generic term     **Sketcher-Randbedingungen**                                     
+  <img alt="" src=images/Sketcher_ConstrainCoincidentUnified.svg  style="width:16px;"> Constrain coincident (unified)                         Command          **Koinzident festlegen** (kombiniert)                            
+  <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:16px;"> Constrain coincident                                                 Command          **Koinzident festlegen**                                         
+  <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:16px;"> Constrain point onto object                                    Command          **Punkt auf Objekt festlegen**                                   
+  <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:16px;"> Horizontal/vertical                                                          Command          **Horizontal / vertikal festlegen**                              
   <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> Constrain horizontally                                               Command          **Horizontal festlegen**                                         
+  <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> Constrain vertically                                                     Command          **Vertikal festlegen**                                           
   <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:16px;"> Constrain parallel                                                       Command          **Parallel festlegen**                                           
   <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:16px;"> Constrain perpendicular                                        Command          **Rechtwinklig festlegen**                                       
-  <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:16px;"> Constrain tangent                                                          Command          **Tangential festlegen**                                         
+  <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:16px;"> Constrain tangent or collinear                                             Command          **Tangential oder kollinear festlegen**                          
   <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:16px;"> Constrain equal                                                                Command          **Gleichheit festlegen**                                         
-  <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:16px;"> Constrain symmetrical                                                  Command          **Symmetrie festlegen**                                          
+  <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:16px;"> Constrain symmetrical                                                  Command          **Symmetrisch festlegen**                                        
   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:16px;"> Constrain block                                                                Command          **Fixieren**                                                     
                                                                                                                                                                                                                                               
   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:16px;"> Constrain lock                                                                   Command          **Sperren**                                                      
   <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:16px;"> Constrain horizontal distance                                          Command          **Horizontalen Abstand festlegen**                               
   <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:16px;"> Constrain vertical distance                                            Command          **Vertikalen Abstand festlegen**                                 
   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:16px;"> Constrain distance                                                       Command          **Abstand festlegen**                                            
-  <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:16px;"> Constrain radius or weight                                                   Command          **Radius oder Gewicht festlegen**                                
-  <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:16px;"> Constrain diameter                                                       Command          **Durchmesser festlegen**                                        
   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:16px;"> Constrain auto radius/diameter                                               Command          **Automatisch Radius oder Durchmesser festlegen**                
+  <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:16px;"> Constrain radius or weight                                                   Command          **Radius festlegen**                                             
+  <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:16px;"> Constrain diameter                                                       Command          **Durchmesser festlegen**                                        
   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:16px;"> Constrain angle                                                                Command          **Winkel festlegen**                                             
+  <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:16px;"> Constrain lock                                                                   Command          **Sperren**                                                      
   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:16px;"> Constrain refraction (Snell\'s law)                                    Command          **Lichtbrechung (nach Snellius-Gesetz) festlegen**               
-  <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:16px;"> Constrain internal alignment                           Command          Interne Ausrichtung festlegen                                    Entfallen mit V.0.21
                                                                                                                                                                                                                                               
-  <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:16px;"> Toggle driving/reference constraint                          Command          **Einschränkung zwischen festlegend und anzeigend umschalten**   Randbedingung
-  <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:16px;"> Aktivate/deactivate constraint                                 Command          **Einschränkung aktivieren/deaktivieren**                        Randbedingung
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher tools                                                                                           Generic term     Skizzen-Werkzeuge                                                Sketcher-?
-  <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:16px;"> Select unconstrained DoF                                       Command          **Unterbestimmte Elemente auswählen**                            
-  <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:16px;"> Select associated constraints                                            Command          Zugehörige Einschränkungen auswählen                             Randbedingungen?
-  <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:16px;"> Select associated geometry   Command          **Zugehörige Geometrie auswählen**                               
-  <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg  style="width:16px;"> Select redundant constraints                           Command          **Überflüssige Randbedingungen auswählen**                       
-  <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg  style="width:16px;"> Select conflicting constraints                     Command          **Widersprüchliche Randbedingungen auswählen**                   
-  <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:16px;"> Show/hide internal geometry                Command          **Interne Geometriie anzeigen/ausblenden**                       
+  <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:16px;"> Toggle driving/reference constraint                          Command          **Randbedingung zwischen festlegend und anzeigend umschalten**   
+  <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:16px;"> Aktivate/deactivate constraint                                 Command          **Randbedingung aktivieren/deaktivieren**                        
+                                                                                                                                                                                                                                              
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher tools                                                                                           Generic term     **Sketcher-Werkzeuge**                                           
+  <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:16px;"> Create fillet                                                                      Command          **Verrundung erstellen**                                         
+  <img alt="" src=images/Sketcher_CreateChamfer.svg  style="width:16px;"> Create chamfer                                                                   Command          **Fase erstellen**                                               
+  <img alt="" src=images/Sketcher_Trimming.svg  style="width:16px;"> Trim edge                                                                                  Command          **Kante zuschneiden**                                            
+  <img alt="" src=images/Sketcher_Extend.svg  style="width:16px;"> Extend edge                                                                                    Command          **Kante verlängern**                                             
+  <img alt="" src=images/Sketcher_Split.svg  style="width:16px;"> Split edge                                                                                       Command          **Kante teilen**                                                 
+  <img alt="" src=images/Sketcher_External.svg  style="width:16px;"> External geometry                                                                          Command          **Externe Geometrie erstellen**                                  
+  <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:16px;"> Carbon copy                                                                            Command          **Blaupause erstellen**                                          
                                                                                                                                                                                                                                               
   <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:16px;"> Select origin                                                                      Command          **Ursprung auswählen**                                           
-  <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:16px;"> Select vertical axis                                                   Command          **Vertikale Achse auswählen**                                    
   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:16px;"> Select horizontal axis                                             Command          **Horizontale Achse auswählen**                                  
+  <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:16px;"> Select vertical axis                                                   Command          **Vertikale Achse auswählen**                                    
                                                                                                                                                                                                                                               
+  <img alt="" src=images/Sketcher_Translate.svg  style="width:16px;"> Array transform                                                                          Command          **Linear anordnen**                                              
+  <img alt="" src=images/Sketcher_Rotate.svg  style="width:16px;"> Polar transform                                                                                Command          **Bogenförmig anordnen**                                         
+  <img alt="" src=images/Sketcher_Scale.svg  style="width:16px;"> Scale transform                                                                                  Command          **Skalieren**                                                    
+  <img alt="" src=images/Sketcher_Offset.svg  style="width:16px;"> Offset geometry                                                                                Command          **Versatzkontur**                                                
   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:16px;"> Symmetry                                                                                   Command          **Symmetrie**                                                    
-  <img alt="" src=images/Sketcher_Clone.svg  style="width:16px;"> Clone                                                                                            Command          **Klonen**                                                       
-  <img alt="" src=images/Sketcher_Copy.svg  style="width:16px;"> Copy                                                                                               Command          **Kopieren**                                                     
-  <img alt="" src=images/Sketcher_Move.svg  style="width:16px;"> Move                                                                                               Command          **Verschieben**                                                  
-  <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:16px;"> Rectangular Array                                                          Command          **Rechteckige Anordnung**                                        
   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:16px;"> Remove axes alignment                                                Command          **Achsenausrichtung entfernen**                                  
                                                                                                                                                                                                                                               
   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:16px;"> Delete all geometry                                                      Command          **Gesamte Geometrie löschen**                                    
   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:16px;"> Delete all constraints                                             Command          **Alle Randbedingungen löschen**                                 
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher B-spline tools                                                                                  Generic term     B-Spline-Werkzeuge                                               
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher vitual space                                                                                    Generic term     Virtueller Bereich                                               
+                                                                                                                                                                                                                                              
+  <img alt="" src=images/Edit-copy.svg  style="width:16px;"> Copy in Sketcher                                                                                           Command          **Kopieren im Sketcher**                                         
+  <img alt="" src=images/Edit-cut.svg  style="width:16px;"> Cut in Sketcher                                                                                              Command          **Ausschneiden im Sketcher**                                     
+  <img alt="" src=images/Edit-paste.svg  style="width:16px;"> Paste in Sketcher                                                                                        Command          **Einfügen im Sketcher**                                         
+                                                                                                                                                                                                                                              
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher B-spline tools                                                                                  Generic term     **B-Spline-Werkzeuge**                                           
+  <img alt="" src=images/Sketcher_BSplineConvertToNURBS.svg  style="width:16px;"> Convert geometry to B-spline                                     Command          **Geometrie in B-Spline konvertieren**                           
+  <img alt="" src=images/Sketcher_BSplineIncreaseDegree.svg  style="width:16px;"> Increase B-spline degree                                         Command          **Grad des B-Splines erhöhen**                                   
+  <img alt="" src=images/Sketcher_BSplineDecreaseDegree.svg  style="width:16px;"> Decrease B-spline degree                                         Command          **Grad des B-Splines verringern**                                
+  <img alt="" src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg  style="width:16px;"> Increase knot multiplicity                   Command          **Vielfachheit eines Knotens erhöhen**                           
+  <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:16px;"> Decrease knot multiplicity                   Command          **Vielfachheit eines Knotens verringern**                        
+  <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:16px;"> Insert knot                                                              Command          **Knoten einfügen**                                              
+  <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:16px;"> Join curves                                                                            Command          **Kurven verbinden**                                             
+                                                                                                                                                                                                                                              
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher visual                                                                                          Generic term     Sketcher visuell                                                 
+  <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:16px;"> Select unconstrained DoF                                       Command          **Unterbestimmte Elemente auswählen**                            
+  <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:16px;"> Select associated constraints                                            Command          **Zugehörige Randbedingungen auswählen**                         
+  <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:16px;"> Select associated geometry   Command          **Zugehörige Geometrie auswählen**                               
+  <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg  style="width:16px;"> Select redundant constraints                           Command          **Überflüssige Randbedingungen auswählen**                       
+  <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg  style="width:16px;"> Select conflicting constraints                     Command          **Widersprüchliche Randbedingungen auswählen**                   
+                                                                                                                                                                                                                                              
+  <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:16px;"> Show/hide circular helper for arcs                                                     Command          **Kreishelfer für Bögen ein-/ausblenden**                        
+  <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:16px;"> Show/hide internal geometry                Command          **Interne Geometrie anzeigen/ausblenden**                        
+  <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:16px;"> Switch virtual space                                                   Command          **Virtuellen Bereich wechseln**                                  
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Show/hide B-spline information layer                                                                     Generic term     B-Spline-Informationsebene                                       
+  <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:16px;"> Show/hide B-spline degree                                                        Command          **B-Spline-Grad ein-/ausblenden**                                
+  <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:16px;"> Show/hide B-spline control polygon                                             Command          **B-Spline-Kontrollpolygon ein-/ausblenden**                     
+  <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:16px;"> Show/hide B-spline curvature comb                                                    Command          **B-Spline-Krümmungskamm ein-/ausblenden**                       
+  <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:16px;"> Show/hide B-spline knot multiplicity                         Command          **Vielfachheit der B-Spline-Knoten ein-/ausblenden**             
+  <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:16px;"> Show/hide B-spline control point weight                                  Command          **Gewicht der B-Spline-Kontrollpunkte ein-/ausblenden**          
 
 
 </div>
@@ -1282,6 +1768,38 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 <div class="mw-collapsible mw-collapsed">
 
+#### <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [Gear](FCGear_Workbench.md) 
+
+
+<div class="mw-collapsible-content toccolours">
+
+  Englischer Ausdruck                                                                                         Funktion         Deutscher Ausdruck                      Anmerkung
+     
+  <img alt="" src=images/Workbench_Surface.svg  style="width:16px;"> Surface                                      Workbench name   **Gear**                                Arbeitsbereich, nicht übersetzen!
+  Surface                                                                                                     Menue header     Gear                                    Menü-Überschrift (übersetzen?)
+  <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:16px;"> Involute Gear                            Command          **Evolventenzahnrad**                   
+  <img alt="" src=images/FCGear_InternalInvoluteGear.svg  style="width:16px;"> Internal Involute Gear   Command          **Innenverzahntes Evolventenzahnrad**   
+  <img alt="" src=images/FCGear_InvoluteRack.svg  style="width:16px;"> Involute Rack                            Command          **Evolventenzahnstange**                
+  <img alt="" src=images/FCGear_CycloidGear.svg  style="width:16px;"> Cycloid Gear                               Command          **Zykloidenzahnrad**                    
+  <img alt="" src=images/FCGear_CycloidRack.svg  style="width:16px;"> Cycloid Rack                               Command          **Zykloidenzahnstange**                 
+  <img alt="" src=images/FCGear_BevelGear.svg  style="width:16px;"> Bevel Gear                                     Command          **Kegelrad**                            
+  <img alt="" src=images/FCGear_CrownGear.svg  style="width:16px;"> Crown Gear                                     Command          **Kronenrad**                           
+  <img alt="" src=images/FCGear_WormGear.svg  style="width:16px;"> Worm Gear                                        Command          **Schneckenwelle**                      
+  <img alt="" src=images/FCGear_TimingGearT.svg  style="width:16px;"> Timing Gear T-shape                        Command          ZahnriemenscheibeT                      
+  <img alt="" src=images/FCGear_TimingGear.svg  style="width:16px;"> Timing Gear                                  Command          **Zahnriemenscheibe**                   
+  <img alt="" src=images/FCGear_LanternGear.svg  style="width:16px;"> Lantern Gear                               Command          **Triebstockrad**                       
+  <img alt="" src=images/FCGear_HypoCycloidGear.svg  style="width:16px;"> HypoCycloid Gear                   Command          **Hypozykloidenrad**                    
+  <img alt="" src=images/FCGear_GearConnector.svg  style="width:16px;"> Combine two gears                      Command          **Zahnradpaarung**                      
+
+
+</div>
+
+
+</div>
+
+
+<div class="mw-collapsible mw-collapsed">
+
 ##### <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:16px;"> [SheetMetal](SheetMetal_Workbench.md) 
 
 
@@ -1305,6 +1823,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
   <img alt="" src=images/SheetMetal_AddBend.svg‎‎‎‎  style="width:16px;"> Make Bend                             Command          Bogen einfügen                     
   <img alt="" src=images/SheetMetal_SketchOnSheet.svg‎‎  style="width:16px;"> Sketch On Sheet metal     Command          Skizze auf Blech                   
   <img alt="" src=images/SheetMetal_Forming.svg‎‎  style="width:16px;"> Make Forming in Wall                  Command          Prägen                             
+  <img alt="" src=images/SheetMetal_BaseShape.svg‎‎  style="width:16px;"> Add base shape                    Command          Grundform hinzufügen               
 
 
 </div>
@@ -1380,6 +1899,9 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
   Flange                       Noun      Bördel, stehender Falz, Umbug, Kante                                                                                                                                                               Oberbegriff für rechtwinklig abgestellte Blechränder
   Groove and tongue            Noun      Nut und Feder                                                                                                                                                                                      Hier für die Holzverbindung (Paneele für Vertäfelung)
   Hem                          Noun      Falz                                                                                                                                                                                               Oberbegriff für (auch mehrfach) umgeschlagene Blechränder
+  Polylinie                    Noun      Linienzug (Zeichnungen und Skizzen, meist 2D)                                                                                                                                                      Eine Abfolge unterschiedlicher Linien, die an ihren Endpunkten verbunden sind; offen oder geschlossen, aber ohne T-Verbindung oder Kreuzung.
+  Removed section              Noun      ?                                                                                                                                                                                                  Wie eingedrehter Schnitt, aber außerhalb des Objektumrisses, entlang der Schnittlinie verschoben. Removed im Sinne von relocated
+  Revolved section             Noun      Eingedrehter Schnitt                                                                                                                                                                               Schnitt innerhalb des Objektumrisses (Symmetrielinie = Schnittlinie)
   Scale                        Noun      Maßstab                                                                                                                                                                                            Darstellungsverhältnis meist gezeichneter Geometrie zum Tatsächlichen Objekt
   Script                       Noun      **Skript**                                                                                                                                                                                         Schriftliche Ausarbeitung, hier im Sinne eines in einer Makro-Sprache verfassten, eher kurzen Programms
   Script                       Verb      Programmieren, Skript erstellen, **skripten**                                                                                                                                                      Skripten ist als Übersetzung fragwürdig, eignet sich aber gut um zwischen dem Programmieren umfangreicher Programme und dem Erstellen kleinerer Programme (Skripte, Macros) zu unterscheiden.
@@ -1387,6 +1909,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
   Slot and key                 Noun      Nut und Feder                                                                                                                                                                                      Hier für Welle-Nabe-Verbindungen. (Eine Passfeder in einer gefrästen Passfedernut der Welle und einer durchlaufenden geräumten Nut in der Nabe)
   Straight flange              Noun      Kante                                                                                                                                                                                              Rechtwinklig und entlang einer Geraden abgestellter Blechrand
   Topological naming problem   Noun      Problem der topologischen Benennung                                                                                                                                                                Das häufig benutzte \"topologisches Benennungsproblem\" ist nicht richtig, da es sich nicht um ein Benennungsproblem handelt, das topologisch ist, sondern um eine topologische Benennung, die Probleme bereitet.
+  Wire                         Noun      Kantenzug (Formränder, oft 3D)                                                                                                                                                                     Eine Abfolge unterschiedlicher Kanten, die an ihren Endpunkten verbunden sind; offen oder geschlossen, aber ohne T-Verbindung oder Kreuzung.
 
 
 </div>
@@ -1449,6 +1972,40 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 +++
 |                              |                                                                                                                                                                                                                                                                            |
 +++
+
+
+</div>
+
+
+</div>
+
+
+<div class="mw-collapsible mw-collapsed">
+
+## Statistiken zur Übersetzung 
+
+
+<div class="mw-collapsible-content toccolours">
+
+### Übersetzungen der letzten 30 Tage 
+
+
+{{Special:TranslationStats/language=de;days=30;width=600;height=300}}
+
+### Übersetzungen im vergangenen Jahr 
+
+
+{{Special:TranslationStats/language=de;days=366;width=600;height=300}}
+
+### Aktive Übersetzer im vergangenen Jahr 
+
+
+{{Special:TranslationStats/language=de;count=users;scale=months;days=366;width=600;height=200}}
+
+### Geprüfte Übersetzungen im vergangenen Jahr 
+
+
+{{Special:TranslationStats/language=de;count=reviews;scale=months;days=366;width=600;height=200}}
 
 
 </div>

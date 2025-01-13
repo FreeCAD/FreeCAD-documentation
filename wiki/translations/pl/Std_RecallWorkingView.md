@@ -30,10 +30,7 @@ Polecenie **Odtwórz widok** przywołuje zapisany widok roboczy aktywnego okna [
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Odtworzenie zapisanego widoku roboczego do aktywnego okna widoku 3D:
 
@@ -48,7 +45,7 @@ FreeCADGui.runCommand("Std_RecallWorkingView", 0)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

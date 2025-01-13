@@ -49,7 +49,7 @@ Când tastați în **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 ### Find file / Find in files 
 
 :   
-    <small>(v0.22)</small> 
+    <small>(v1.0)</small> 
     
 
 
@@ -170,13 +170,15 @@ Când tastați în **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 ## Preferences
 
--   The user macros location can also be changed in the preferences: **Edit → Preferences... → Python → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+See also: [Preferences Editor](Preferences_Editor.md).
+
+-   The user macros location can also be changed in the preferences: **Edit → Preferences... → Python → Macro → Macro path**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

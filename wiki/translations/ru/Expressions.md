@@ -1,7 +1,13 @@
 # Expressions/ru
 ## Обзор
 
+
+<div class="mw-translate-fuzzy">
+
 Некоторые свойства объектов могут быть определены с помощью математических выражений. В графическом интерфейсе счетчики или поля ввода свойств которые поддерживают выражения, содержат синий значок <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Щелчок по значку или ввод знака равенства **&#61;** вызывает редактор выражений для этого конкретного свойства.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -416,7 +422,7 @@ For more than one %-specifier use the following syntax: `<<Cube length is %s and
 
 ### Vector functions 
 
-Functions: <small>(v0.22)</small> .
+Functions: <small>(v1.0)</small> .
 
 +++
 | Function / Operator                 | Description                                                                                                                                                                         |
@@ -559,6 +565,8 @@ and `Placement` can each be represented by a `Matrix`. The following functions a
 
 Conditional expressions are of the form `condition ? resultTrue : resultFalse`. The condition is defined as an expression that evaluates to either `0` (false) or non-zero (true).
 
+Note that to use a boolean property as the condition this syntax must be used: `VarSet.MyBool &#61;&#61; 1 ? 10 mm : 15 mm`.
+
 The following [relational operators](https://en.wikipedia.org/wiki/Relational_operator#Standard_relational_operators) are defined:
 
   Unit      Description
@@ -601,6 +609,9 @@ The following units are recognized by the expression parser:
 
 ### Угол
 
+
+<div class="mw-translate-fuzzy">
+
   Единица измерения   Описание
    
   °                   [Градус](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)); тоже самое, что и deg
@@ -611,6 +622,9 @@ The following units are recognized by the expression parser:
   ″                   [Угловая секунда](https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)#%D0%A3%D0%B3%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4%D0%B0); тоже самое, что и S
   M                   [Минута дуги](https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%83%D1%82%D0%B0_%D0%B4%D1%83%D0%B3%D0%B8); тоже самое, что и ′
   ′                   [Минута дуги](https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%83%D1%82%D0%B0_%D0%B4%D1%83%D0%B3%D0%B8); тоже самое, что и M
+
+
+</div>
 
 
 
@@ -1023,7 +1037,33 @@ Of course, it\'s up to you to load the corresponding documents later when you wa
 ## Известные проблемы / нерешённые задачи 
 
 -   FreeCAD does not yet have a built-in expression manager where all expressions in a document are listed, and can be created, deleted, queried, etc. But an addon is available: [fcxref expression manager](https://github.com/gbroques/fcxref).
--   Open bugs/tickets for Expressions can be found on [GitHub](https://github.com/FreeCAD/FreeCAD/issues?q=is%3Aissue+is%3Aopen+label%3AExpressions).
+-   Open bugs/tickets for Expressions can be found on [GitHub](https://github.com/FreeCAD/FreeCAD/labels/Topic%3A%20Expressions).
+
+
+{{Top}}
+
+## Scripting
+
+
+```python
+import FreeCAD as App
+
+doc = App.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+cyl = doc.addObject("Part::Cylinder", "Cylinder")
+cyl_name = cyl.Name
+
+box.setExpression("Height", f"{cyl_name}.Height / 2")
+box.setExpression("Length", f"{cyl_name}.Radius * 2")
+box.setExpression("Width", "Length")
+
+doc.recompute()
+
+# Expressions are stored in the ExpressionEngine property:
+for prop, exp in box.ExpressionEngine:
+    val = getattr(box, prop)
+    print(f"Property: '{prop}' -- Expression: '{exp}' -- Current value: {val}")
+```
 
 
 {{Top}}

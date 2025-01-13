@@ -1,137 +1,112 @@
 ---
  GuiCommand:
-   Name: Sketcher_ConstrainAngle
-   Name/it: Angolo
-   Workbenches: Sketcher Workbench/it
-   Shortcut: **A**
-   MenuLocation: Sketch , Vincoli , Angolo
-   SeeAlso: Sketcher ConstrainDistance/it, Sketcher ConstrainPerpendicular/it
+   Name: Sketcher ConstrainAngle
+   Name: Sketcher Vincolo angolo
+   MenuLocation: Schizzo , Vincoli Sketcher , Vincolo angolo
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **K** **A**
+   SeeAlso: Sketcher_ConstrainPerpendicular/it
 ---
 
 # Sketcher ConstrainAngle/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Il vincolo Angolo è un [vincolo valore](Sketcher_Workbench/it#Vincoli_dello_schizzo.md) destinato a fissare gli angoli in uno schizzo. È in grado di impostare le pendenze delle singole linee, gli angoli tra le linee, gli angoli di intersezioni di curve, e l\'ampiezza dei settori di cerchio.
-
-
-</div>
+Lo strumento <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:24px;"> [Sketcher Vincolo angolo](Sketcher_ConstrainAngle/it.md) fissa l\'angolo tra due bordi (le linee vengono quindi trattate come infinite e anche le curve aperte sono virtualmente estese), l\'angolo di una linea con l\'asse orizzontale dello schizzo o con l\'angolo di apertura di un arco circolare.
 
 
 
 ## Utilizzo
 
-Ci sono quattro modi diversi per applicare il vincolo:
-
-1.  a una singola linea
-2.  tra due linee
-3.  a una intersezione di curve
-4.  a archi di circonferenze
-
-
-<div class="mw-translate-fuzzy">
-
-Per applicare il vincolo angolo, si dovrebbe il seguire la seguente procedura:
-
-1.  Selezionare una, due o tre entità nello schizzo. La modalità sarà scelta in funzione della selezione.
-2.  Richiamare il comando in uno di questi modi:
-    -   Cliccare sull\'icona **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Angolo** della barra degli strumenti.
-    -   Usare la scorciatoia da tastiera **A**.
-    -   Usare la voce **Sketch → Vincoli → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Angolo** dal menu principale.
-3.  Si apre una finestra di dialogo di modifica del dato.
-4.  Se necessario, modificare il valore. **Nota:** L\'angolo può essere inserito anche come una espressione che viene valutata e di cui viene memorizzato il risultato.
-5.  Fare clic su **OK**.
-
-
-</div>
-
-Come per qualsiasi vincolo valore, è possibile modificare in seguito il valore dell\'angolo facendo doppio clic sul vincolo nella lista dei vincoli o nella vista 3D. Un valore negativo inverte la direzione dell\'angolo.
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
 
 
-## Modalità di vincolo 
+### [Modalità continua](Sketcher_Workbench/it#Continue_modes.md) 
+
+1.  Assicurarsi che non ci sia alcuna selezione.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   
+        {{Version/it|1.0}}
+        
+        : Se la [preferenza](Sketcher_Preferences/it#General.md) **Vincoli dimensionali** è impostata su {{Value|Strumento singolo}} (predefinito): premere la freccia giù a destra del pulsante **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** e selezionare il pulsante **<img src="images/Sketcher_ConstrainAngle.svg" width=16px> Vincolo angolo** dal menu a discesa.
+
+    -   Se questa preferenza ha un valore diverso (e in {{VersionMinus/it|0.21}}): premere il pulsante **<img src="images/Sketcher_ConstrainAngle.svg" width=16px> [Vincolo angolo](Sketcher_ConstrainAngle/it.md)**.
+
+    -   Selezionare l\'opzione **Schizzo → Vincoli Sketcher → <img src="images/Sketcher_ConstrainAngle.svg" width=16px> Vincolo angolo** dal menu.
+
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [Vista 3D](3D_view/it.md) e selezionare l\'opzione **Dimensione → [16px](Immagine:Sketcher_ConstrainAngle.svg.md) Vincolo angolo** dall\'elenco menu contestuale.
+
+    -   Usare la scorciatoia da tastiera: **K** quindi **A**.
+3.  Il cursore si trasforma in una croce con l\'icona dello strumento.
+4.  Effettuare una delle seguenti operazioni:
+    -   Selezionare due linee.
+    -   Selezionare un punto e due bordi (in quest\'ordine).
+    -   Selezionare uno spigolo, un punto e uno spigolo (idem).
+5.  Se viene creato un [vincolo dimensionale guida](Sketcher_ToggleDrivingConstraint/it.md), a seconda delle [preferenze](Sketcher_Preferences/it#Display.md), si apre una finestra di dialogo per [modificarne il valore](Sketcher_Workbench/it#Edit_constraints.md). Un valore negativo invertirà la direzione dell\'angolo.
+6.  Viene aggiunto un vincolo Angolo. Se sono stati selezionati un punto e due bordi, è possibile aggiungere anche fino a due [Vincoli punto su oggetto](Sketcher_ConstrainPointOnObject/it.md). Vedere [Esempi](#Tra_due_bordi_in_un_punto.md).
+7.  Facoltativamente, continuare a creare vincoli.
+8.  Per terminare, fare clic con il pulsante destro del mouse o premere **Esc** oppure avviare un altro strumento di creazione di geometrie o vincoli.
 
 
 
-### Angolo di inclinazione di una linea 
+### Modalità di esecuzione una sola volta 
 
-**Selezioni accettate:** linea
-
-<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:600px;">
-
-Il vincolo imposta l\'angolo polare della direzione della linea. È l\'angolo tra la linea e l\'asse X dello schizzo.
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-### Ampiezza di un arco (v0.15) 
+1.  Effettuare una delle seguenti operazioni:
+    -   Selezionare una singola linea.
+    -   Selezionare un singolo arco circolare.
+    -   Selezionare due linee.
+    -   Selezionare un punto e due bordi (in qualsiasi ordine).
+2.  Richiamare lo strumento come spiegato sopra.
+3.  Facoltativamente [modificare il valore del vincolo](Sketcher_Workbench/it#Edit_constraints.md).
+4.  Viene aggiunto un vincolo Angolo. Se sono stati selezionati un punto e due bordi, è possibile aggiungere anche fino a due [Vincoli Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md). Vedere [Esempi](#Tra_due_bordi_in_un_punto.md).
 
 
-</div>
 
-**Selezioni accettate:** arco di circonferenza
+## Esempi
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:600px;">
 
-In questa modalità, il vincolo fissa l\'ampiezza di un arco di circonferenza.
+
+### Linea singola 
+
+<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:400px;">
+
+L\'angolo della linea con l\'asse X positivo dello schizzo è fissato.
+
+
+
+### Arco circolare singolo 
+
+<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:400px;">
+
+L\'angolo di apertura dell\'arco è fissato.
 
 
 
 ### Tra due linee 
 
-**Selezioni accettate:** linea + linea
+<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:400px;">
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:600px;">
-
-In questa modalità, il vincolo imposta l\'angolo tra due linee. Non è necessario che le linee siano intersecanti.
+L\'angolo tra le due linee è fissato. Non è necessario che le linee si intersechino.
 
 
 
+### Tra due bordi in un punto 
 
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:400px;">
 
-### Nell\'intersezione tra due curve (angolo-nel-punto) (v0.15) 
-
-
-</div>
-
-**Selezioni accettate:** qualsiasi linea/curva + qualsiasi linea/curva + qualsiasi punto
-
-<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:600px;">
-
-In questa modalità, l\'angolo tra due curve è vincolato nel punto della loro intersezione. Il punto di intersezione può essere anche sull\'estensione delle curve. Il punto di intersezione in cui applicare il vincolo deve essere definito esplicitamente, poiché tipicamente le curve si intersecano in più punti.
-
-
-<div class="mw-translate-fuzzy">
-
-Affinchè il vincolo funzioni correttamente, il punto deve appartenere a entrambe le curve. Quindi, appena il vincolo viene invocato, il punto viene automaticamente vincolato su entrambe le curve, e l\'angolo tra le curve viene vincolato nel punto. Se è necessario viene aggiunto un [vincolo di supporto](Sketcher_helper_constraint/it.md). I vincoli di supporto sono dei normali vincoli che possono essere aggiunti o cancellati manualmente. Nell\'immagine dell\'esempio precedente non ci sono vincoli di supporto, perché il punto selezionato è già l\'intersezione delle curve.
-
-
-</div>
+L\'angolo tra i due bordi in un dato punto è fissato. Il punto può essere qualsiasi punto, ad es. il centro di un cerchio, il punto finale di un bordo o l\'origine, può appartenere a uno o entrambi i bordi e può anche essere un [oggetto Point](Sketcher_CreatePoint/it.md). Se necessario, vengono aggiunti [Vincoli Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md) per garantire che il punto si trovi su entrambi i bordi (estesi). Questi vincoli aggiuntivi sono chiamati [vincoli di supporto](Sketcher_helper_constraint/it.md).
 
 
 
 ## Script
 
-
-<div class="mw-translate-fuzzy">
-
-I vincoli di angolo possono essere creati con le [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) utilizzando la seguente funzione:
-
-
-</div>
-
-
+Il Vincolo angolo può essere creato da [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando quanto segue: 
 ```python
 # line slope angle
 Sketch.addConstraint(Sketcher.Constraint('Angle',iline,angle))
@@ -144,9 +119,7 @@ Sketch.addConstraint(Sketcher.Constraint('Angle',iline1,pointpos1,iline2,pointpo
 
 # angle-via-point (no helper constraints are added automatically when from python)
 Sketch.addConstraint(Sketcher.Constraint('AngleViaPoint',icurve1,icurve2,geoidpoint,pointpos,angle))
-```
-
-Dove:
+``` Dove:
 
   - `Sketch` è un oggetto sketch
 
@@ -158,16 +131,10 @@ Dove:
 
   - `angle` è il valore dell\'angolo in radianti. L\'angolo è valutato tra i vettori tangenti, in senso antiorario. I vettori tangenti sono orientati dall\'inizio verso la fine per le linee (o viceversa quando nella modalità angolo tra linee viene fornito il punto finale), e lungo la direzione antioraria per cerchi, archi ed ellissi. Quantity è anche accettata come un angolo (e.g. `App.Units.Quantity('45 deg')`)
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `iline`, `iline1`, `iline2`, `pointpos1`, `pointpos2`, `geoidpoint` and `pointpos` and contains further examples on how to create constraints from Python scripts.
-
-
-<div class="mw-translate-fuzzy">
+La pagina [Sketcher scripting](Sketcher_scripting/it.md) spiega i valori che possono essere utilizzati per `iline`, `iline1`, `iline2`, `pointpos1`, `pointpos2`, `geoidpoint` e `pointpos` e contiene ulteriori esempi su come creare vincoli da script Python.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

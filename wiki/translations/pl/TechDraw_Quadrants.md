@@ -33,7 +33,7 @@ Narzędzie **Dodaj wierzchołki kwadrantu** dodaje trzy [wierzchołki kosmetyczn
 ## Uwagi
 
 -   Utworzone wierzchołki kosmetyczne nie są parametrycznie powiązane z wybranymi krawędziami.
--   Aby usunąć wierzchołek kosmetyczny należy użyć narzędzia <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [Usuń geometrie pomocnicze](TechDraw_CosmeticEraser/pl.md).
+-   Aby usunąć wierzchołek kosmetyczny należy zaznaczyć ją i nacisnąć **Delete**. {{Version/pl|1.0}}
 
 
 

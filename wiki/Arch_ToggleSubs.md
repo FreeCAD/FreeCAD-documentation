@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch ToggleSubs
-   MenuLocation: Arch , Utilities , Toggle Subcomponents
-   Workbenches: Arch_Workbench
+   MenuLocation: Utils , Toggle subcomponents
+   Workbenches: BIM_Workbench
    Shortcut: Ctrl + Space
    SeeAlso: Arch_Component
 ---
@@ -11,7 +11,7 @@
 
 ## Description
 
-This tools toggles the visibility of all the subtractions of an [Arch](Arch_Workbench.md) object between visible and hidden.
+The **Arch ToggleSubs** tools toggles the visibility of all the subtractions of an [BIM](BIM_Workbench.md) object between visible and hidden.
 
 Normally, if an Arch object, like an [Arch Wall](Arch_Wall.md), is selected and you press **Space** only the external wall will be hidden or made visible, but not the internal objects.
 
@@ -20,7 +20,7 @@ With this tool, the internal subtracted objects will all become visible or hidde
 ## Usage
 
 1.  Select an Arch object that has subtractions.
-2.  Select menu **Arch → Utilities → <img src="images/Arch_ToggleSubs‏‎.svg" width=16px> [Toggle Subcomponents‏‎](Arch_ToggleSubs‏‎.md)**.
+2.  Select the **Utils → <img src="images/Arch_ToggleSubs.svg" width=16px> Toggle subcomponents** option from the menu.
 
 ## Options
 
@@ -30,5 +30,10 @@ The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in th
 
 
 
+
+ {{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs
+⏵ [documentation index](../README.md) > Arch ToggleSubs

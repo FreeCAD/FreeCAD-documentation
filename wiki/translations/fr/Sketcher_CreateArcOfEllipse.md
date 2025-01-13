@@ -6,7 +6,7 @@
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **E** **A**
    Version: 0.15
-   SeeAlso: Sketcher_CreateEllipseByCenter/fr, Sketcher_CompCreateArc/fr
+   SeeAlso: Sketcher_CreateEllipseByCenter/fr
 ---
 
 # Sketcher CreateArcOfEllipse/fr
@@ -15,28 +15,37 @@
 
 ## Description
 
-Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du rayon majeur, le rayon mineur. Lors du démarrage de l\'outil, le pointeur de la souris passe à une croix blanche avec une icône d\'ellipse rouge. En outre, les coordonnées sont affichées en temps réel.
+L\'outil <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:24px;"> [Sketcher Arc d\'ellipse](Sketcher_CreateArcOfEllipse/fr.md) crée un arc d\'ellipse.
 
-<img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;"> 
-*La séquence des clics est indiquée par des flèches jaunes avec des numéros.<br>
-C est le centre, a le diamètre majeur, b le diamètre mineur, F1 et F2 sont les foyers.*
+![](images/Sketcher_CreateArcOfEllipse_Example.png ) 
+*Arc d'ellipse (en blanc) avec géométrie interne (en jaune foncé)*
 
 
 
 ## Utilisation
 
--   Cliquer sur le bouton **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Créer un arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md)**.
--   Le premier clic dans la vue 3D, définit le centre de l\'ellipse. Le deuxième clic définit le premier rayon et l\'orientation de l\'ellipse. Le troisième clic définit l\'autre rayon et le début de l\'arc. le quatrième clic définit le point final.
--   Après le quatrième clic, l\'arc d\'ellipse est créée, ainsi que l\' ensemble de géométrie de construction (en traits bleu) aligné (diamètre principal, diamètre mineur, deux foyers). La géométrie de la construction peut être supprimée manuellement si elle n\'est pas nécessaire et recréée ultérieurement. Consulter [Afficher/masquer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
--   En appuyant sur **Echap** ou en cliquant sur le bouton droit de la souris, vous annulez la fonction.
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
+
+1.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_CreateArcOfEllipse.svg" width=16px> [Arc d'ellipse par son centre, son rayon, des extrémités](Sketcher_CreateArcOfEllipse/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Géométries d'esquisse → <img src="images/Sketcher_CreateArcOfEllipse.svg" width=16px> Créer un arc d'ellipse** du menu.
+    -   Utilisez le raccourci clavier : **G** puis **E**, puis **A**.
+2.  Le curseur se transforme en croix avec l\'icône de l\'outil.
+3.  Choisissez le centre de l\'arc.
+4.  Choisissez un point d\'extrémité de l\'un des axes de l\'arc, ce qui définit également l\'un de ses rayons.
+5.  Choisissez le point de départ de l\'arc, qui définit également l\'autre rayon de l\'arc.
+6.  Choisissez le point d\'arrivée de l\'arc.
+7.  L\'arc d\'ellipse est créé, y compris un ensemble de géométrie interne (grand axe, petit axe et deux foyers).
+8.  Si l\'outil fonctionne en [mode continu](Sketcher_Workbench/fr#Modes_continus.md) :
+    1.  Vous pouvez continuer à créer des arcs d\'ellipse.
+    2.  Pour terminer, cliquez avec le bouton droit de la souris ou appuyez sur **Échap**, ou démarrez un autre outil de création de géométrie ou de contrainte.
 
 
 
-## Particularités
+## Remarques
 
--   Les axes majeurs et mineurs de l\'ellipse sous-jacente sont stricts et ne peuvent pas être échangés par un redimensionnement. L\'ellipse sous-jacente doit être retournée pour permuter les axes.
--   Contrairement à l\'ellipse qui peut être contrainte pour devenir un cercle, l\'arc de l\'ellipse ne peut pas représenter un arc de cercle.
--   Déplacer l\'arc d\'une ellipse par son bord revient à déplacer le centre de l\'ellipse.
+-   Les éléments de la géométrie interne peuvent être supprimés. Ils peuvent être recréés à tout moment avec [Sketcher Géométrie interne d\'alignement](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
+-   Une fois créé, les axes majeurs et mineurs d\'un arc ou d\'une ellipse sont figés et ne peuvent plus être redimensionnés. Ceci est une conséquence de la paramétrisation du solveur et du même comportement strict d\'[OpenCASCADE](OpenCASCADE/fr.md). Un arc d\'ellipse doit être tourné pour intervertir ses axes.
 
 
 

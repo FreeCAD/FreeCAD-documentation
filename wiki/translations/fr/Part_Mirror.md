@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Part_Mirror
-   Name/fr: Part Miroir
-   MenuLocation: Part , Mettre en miroir...
+   Name/fr: Part Objet en miroir
+   MenuLocation: Part , Créer un objet en miroir...
    Workbenches: Part_Workbench/fr
 ---
 
@@ -10,7 +10,7 @@
 
 ## Description
 
-**Part Miroir** crée un nouvel objet (image) qui est la réflexion de l\'objet source sélectionné par rapport à un plan miroir. Le plan miroir peut être un plan standard (**XY**, **YZ**, ou **XZ**) ou n\'importe quel plan parallèle à un plan standard ou ({{Version/fr|0.22}}) tout plan arbitraire en utilisant un objet de référence.
+**Part Objet en miroir** crée un nouvel objet (image) qui est la réflexion de l\'objet source sélectionné par rapport à un plan miroir. Le plan miroir peut être un plan standard (**XY**, **YZ**, ou **XZ**) ou n\'importe quel plan parallèle à un plan standard ou ({{Version/fr|1.0}}) tout plan arbitraire en utilisant un objet de référence.
 
 Un exemple :
 
@@ -34,12 +34,16 @@ Un exemple :
 
 1.  Vous pouvez sélectionner un ou plusieurs objets sources.
 2.  Il y a plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Part_Mirror.svg" width=16px> [Mettre en miroir...](Part_Mirror/fr.md)**.
-    -   Sélectionnez la **Part → <img src="images/Part_Mirror.svg" width=16px> Mettre en miroir...** du menu.
+    -   Appuyez sur le bouton **<img src="images/Part_Mirror.svg" width=16px> [Créer un objet en miroir...](Part_Mirror/fr.md)**.
+    -   Sélectionnez l\'option **Part → <img src="images/Part_Mirror.svg" width=16px> Créer un objet en miroir...** du menu.
 3.  Si vous n\'avez pas encore sélectionné d\'objets ou si vous souhaitez modifier la sélection : choisissez un ou plusieurs objets dans la liste **Formes**.
 4.  Faites l\'une des choses suivantes :
     -   Sélectionnez un **Plan miroir** standard dans la liste déroulante.
-    -   Sélectionnez un objet de référence dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md). L\'objet de référence peut être n\'importe quelle face plane ou arête circulaire.
+
+    -   
+        {{Version/fr|1.0}}
+        
+        : sélectionnez un objet de référence dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md). L\'objet de référence peut être n\'importe quelle face plane ou arête circulaire.
 5.  Appuyez sur le bouton **OK**.
 6.  Pour chaque objet source, un objet Part Mirror séparé est créé.
 

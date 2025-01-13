@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Arc 3Points
    Name/de: Draft Bogen 3Punkte
-   MenuLocation: Zeichnen , Bogenwerkzeuge , Bogen aus 3 Punkten
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Zeichnen , Bogenwerkzeuge , Bogen durch 3 Punkte<br>2D-Entwurf , Bogen durch 3 Punkte
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **A** **T**
    Version: 0.19
    SeeAlso: Draft_Arc/de, Draft_Circle/de
@@ -30,8 +30,9 @@ Siehe auch: [Draft-Ablage](Draft_Tray/de.md), [Draft-Einrasten](Draft_Snap/de.md
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_Arc_3Points.svg" width=16px> [Bogen aus 3 Punkten](Draft_Arc_3Points/de.md)** drücken.
-    -   Den Menüeintrag **Zeichnen → Bogenwerkzeuge → <img src="images/Draft_Arc_3Points.svg" width=16px> Bogen aus 3 Punkten** auswählen.
-    -   Das Tastaturkürzel **A** dann **T**. {{Version/de|0.20}}
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Zeichnen → Bogenwerkzeuge → <img src="images/Draft_Arc_3Points.svg" width=16px> Bogen durch 3 Punkte** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **2D-Entwurf → <img src="images/Draft_Arc_3Points.svg" width=16px> Bogen durch 3 Punkte** auswählen.
+    -   Das Tastaturkürzel **A** dann **T**.
 2.  Der Aufgaben-Bereich **Bogen aus 3 Punkten** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 3.  Den ersten Punkt in der [3D-Ansicht](3D_view/de.md) oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
 4.  Den zweiten Punkt in der [3D-Ansicht](3D_view/de.md) oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
@@ -41,13 +42,13 @@ Siehe auch: [Draft-Ablage](Draft_Tray/de.md), [Draft-Einrasten](Draft_Snap/de.md
 
 ## Optionen
 
-Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 1.0).
 
 -   Zum manuellen Eingeben der Koordinaten des Mittelpunktes werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam den Mauszeiger aus der [3D-Ansicht](3D_view.md) heraus zu bewegen, bevor die Koordinaten eingegeben werden.
 
 -    **R**drücken oder die Checkbox **Relative** aktivieren, um den Relativ-Modus umzuschalten. Wenn der Relativ-Modus aktiviert ist, beziehen sich Koordinaten auf den zuletzt eingegebenen Punkt, falls vorhanden, andernfalls auf den Ursprung des Koordinatensystems.
 
--    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md).
 
 -    **N**drücken oder die Checkbox **Continue** aktivieren, um den Fortsetzen-Modus umzuschalten. Wenn der Fortsetzen-Modus aktiviert ist, wird der Befehl nach dem Beenden erneut gestartet, und ermöglicht so mit dem Erstellen von Bögen fortzufahren.
 
@@ -79,7 +80,7 @@ Siehe [Draft Kreis](Draft_Circle/de#Eigenschaften.md).
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Zum Erstellen eines Draft-Bogens durch 3 Punkte wird die Methode `make_arc_3points` des Draft-Moduls verwendet:
 

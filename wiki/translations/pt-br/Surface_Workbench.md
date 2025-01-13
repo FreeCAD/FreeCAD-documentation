@@ -1,4 +1,13 @@
-# <img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/pt-br
+# Surface Workbench/pt-br
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width:128px;">
 
 
 

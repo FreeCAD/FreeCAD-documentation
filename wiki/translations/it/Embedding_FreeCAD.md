@@ -85,7 +85,7 @@ Il tassellamento produce una lista di vertici e un elenco di facce definite dai 
        Blender.Redraw()
 }}
 
-Ovviamente questo script è molto semplice (in realtà ne ho fatto uno più avanzato [FreeCAD to Blender importer](https://yorik.orgfree.com/scripts/import_freecad.py)), è probabile che si voglia estenderlo, per esempio per importare anche oggetti mesh, o importare la geometria di una parte che non ha facce, o importare altri formati di file che FreeCAD è in grado di leggere. Si potrebbe anche voler esportare la geometria in un documento di FreeCAD, cosa che può essere fatto allo stesso modo. Si potrebbe anche voler costruire un dialogo per permettere all\'utente di scegliere cosa importare, ecc.. La bellezza di tutto questo risiede proprio nel fatto che lasciate lavorare FreeCAD in ombra, mentre i suoi risultati sono presentati nel programma di vostra scelta.
+Ovviamente questo script è molto semplice (in realtà ne ho fatto uno più avanzato [FreeCAD to Blender importer](https://yorik.uncreated.net/archive/scripts/blender24/import_freecad.py)), è probabile che si voglia estenderlo, per esempio per importare anche oggetti mesh, o importare la geometria di una parte che non ha facce, o importare altri formati di file che FreeCAD è in grado di leggere. Si potrebbe anche voler esportare la geometria in un documento di FreeCAD, cosa che può essere fatto allo stesso modo. Si potrebbe anche voler costruire un dialogo per permettere all\'utente di scegliere cosa importare, ecc.. La bellezza di tutto questo risiede proprio nel fatto che lasciate lavorare FreeCAD in ombra, mentre i suoi risultati sono presentati nel programma di vostra scelta.
 
 
 **Nota:**
@@ -120,7 +120,9 @@ Notare che, questa soluzione, naturalmente, non funziona per nessuna applicazion
 
 Anche se è possibile importare FreeCAD con un interprete Python esterno, questo non è uno scenario di utilizzo comune e richiede una certa cura. In generale, è meglio usare il Python incluso con FreeCAD, eseguire FreeCAD da linea di comando, o come un sottoprocesso. Vedere [Avvio e configurazione](Start_up_and_Configuration/it.md) per maggiori informazioni sulle ultime due opzioni.
 
-Dato che il modulo Python di FreeCAD viene compilato da C ++ (invece di essere un puro modulo Python), esso può essere importato solo da un interprete Python compatibile. Generalmente questo significa che l\'interprete Python deve essere compilato con lo stesso compilatore C che è stato utilizzato per costruire FreeCAD. Le informazioni sul compilatore utilizzato per costruire un interprete Python (compreso quello costruito con FreeCAD) si possono trovare nel seguente modo: 
+Dato che il modulo Python di FreeCAD viene compilato da C ++ (invece di essere un puro modulo Python), esso può essere importato solo da un interprete Python compatibile. Generalmente questo significa che l\'interprete Python deve essere compilato con lo stesso compilatore C che è stato utilizzato per costruire FreeCAD. Le informazioni sul compilatore utilizzato per costruire un interprete Python (compreso quello costruito con FreeCAD) si possono trovare nel seguente modo:
+
+
 ```python
 >>> import sys
 >>> sys.version

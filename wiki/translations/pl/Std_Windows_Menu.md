@@ -43,13 +43,15 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Kaskadowo](Std_CascadeWindows/pl.md): Układa okna.
 
+-   \... Pierwszych 10 okien jest tu wymienionych. Wybierz okno aby je aktywować.
+
 -   <img alt="" src=images/Std_Windows.svg  style="width:32px;"> [Okna \...](Std_Windows/pl.md): Otwiera okno dialogowe, z którego można aktywować okno.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -1,10 +1,10 @@
 ---
  GuiCommand:
    Name: TechDraw_ClipGroupAdd
-   Name/it: Aggiungi una vista al gruppo clip
-   MenuLocation: TechDraw , Clipped Views , Aggiungi una vista al gruppo clip
+   Name/it: Aggiungi una vista al gruppo di ritaglio
+   MenuLocation: TechDraw , Viste ritagliate , Aggiungi una vista al gruppo di ritaglio
    Workbenches: TechDraw_Workbench/it
-   SeeAlso: TechDraw_ClipGroup/it, TechDraw_ClipGroupRemove/it
+   SeeAlso: 
 ---
 
 # TechDraw ClipGroupAdd/it

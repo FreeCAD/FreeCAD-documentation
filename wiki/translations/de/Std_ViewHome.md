@@ -15,7 +15,7 @@
 
 ## Beschreibung
 
-Der Befehl **Std HomeAnsicht** macht die Kamera (-Ausrichtung) in der aktiven [3D-Ansicht](3D_view/de.md) zur Standard-Kameraausrichtung. Anschließend wird der Bildausschnitt so verschoben und skaliert, dass alle sichtbaren Objekte in die Ansicht passen.
+Der Befehl **Std HomeAnsicht** macht die Kamera (-Ausrichtung) in der aktiven [3D-Ansicht](3D_view/de.md) zur Standard-Kameraausrichtung. Und der Bildausschnitt wird so verschoben und skaliert, dass alle sichtbaren Objekte in die Ansicht passen.
 
 
 
@@ -30,13 +30,15 @@ Der Befehl **Std HomeAnsicht** macht die Kamera (-Ausrichtung) in der aktiven [3
 
 ## Einstellungen
 
--   Die Standard-Kameraausrichtung kann in den Einstellungen angepasst werden: **Bearbeiten → Einstellungen... → Anzeige → Navigation → Standard-Kameraausrichtung**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Die Standard-Kameraausrichtung kann angepasst werden: **Bearbeiten → Einstellungen... → Anzeige → Navigation → Standard-Kameraausrichtung**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

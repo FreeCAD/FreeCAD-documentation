@@ -24,32 +24,19 @@ Il comando **Vista in prospettiva** commuta la [vista 3D](3D_view/it.md) attiva 
 
 ## Preferenze
 
--   Il tipo di camera può essere modificato nelle preferenze: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Tipo di camera**. Il tipo selezionato verrà utilizzato per tutte le viste 3D di tutti i documenti aperti e anche per i nuovi documenti. Vedere in [Editor delle preferenze](Preferences_Editor/it#Vista_3D.md).
+Vedere [Vista ortografica](Std_OrthographicCamera/it#Preferenze.md).
 
 
 
 ## Script
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
-
-Per cambiare nella vista in prospettiva, utilizzare il metodo `setCameraType` dell\'oggetto ActiveView. Questo metodo non è disponibile se FreeCAD è in modalità console.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.setCameraType('Perspective')
-FreeCADGui.ActiveDocument.ActiveView.getCameraType()
-```
+Vedere [Vista ortografica](Std_OrthographicCamera/it#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

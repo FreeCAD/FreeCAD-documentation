@@ -6,7 +6,7 @@
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
-   SeeAlso: TechDraw_ExtensionArcLengthAnnotation/de
+   SeeAlso: TechDraw_AreaDimension/de
 ---
 
 # TechDraw ExtensionAreaAnnotation/de
@@ -34,10 +34,11 @@ Das Werkzeug **TechDraw ErgänzungFlächenangabe** berechnet die Fläche der aus
 
 ## Einschränkungen
 
+-    {{VersionMinus/de|0.21}}: Das Werkzeug kann keine Flächen mit gekrümmten Kanten auswerten.
 
-{{VersionMinus/de|0.21}}
+-   Löcher (Inseln) in der ausgewählten Fläche werden ignoriert. Dieser [Forum-Post](https://forum.freecad.org/viewtopic.php?p=783325#p783325) zeigt eine Übergangslösung. Man kann auch [TechDraw AreaDimension](TechDraw_AreaDimension/de.md) verwenden, aber man muss dann die {{PropertyData/de|References 3D}} des erstellten Maßes korrekt angeben.
 
-: Das Werkzeug kann keine Flächen mit gekrümmten Kanten auswerten.
+-   Der berechnete Flächeninhalt ist nicht dynamisch mit der Fläche verknüpft. Ändert sich der Flächeninhalt der Fläche, wird der Text nicht aktualisiert.
 
 
 

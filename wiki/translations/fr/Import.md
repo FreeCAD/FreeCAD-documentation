@@ -1,6 +1,6 @@
 ---
  TutorialInfo:r
-   Topic: Atelier Arch
+   Topic: Atelier BIM
    Level: Avancé
    Time: 120 minutes
    Author: Pablo Gil
@@ -11,6 +11,8 @@
 ## Introduction
 
 La recherche d\'une copie de travail d\'IfcOpenShell-python sous OSX/macOS pour importer/exporter des fichiers IFC a été si difficile que je partage ce tutoriel au cas où cela aiderait plus de gens. Mon système est OSX 10.11.6, 64 bits avec Python 2.7.11, cela pourrait fonctionner pour vous si vous avez également OSX car ils sont souvent 64 bits mais peuvent différer du mien. La procédure peut être très similaire si vous exécutez Linux ou Windows, mais elle présente probablement quelques différences.
+
+
 
 ## Conditions
 
@@ -125,6 +127,8 @@ J\'espère que cela vous aidera.
 
 Tchao!
 
+
+
 ## Liens
 
 -   Fil du forum en relation [discussion](http://forum.freecadweb.org/viewtopic.php?f=23&t=17536)
@@ -138,4 +142,4 @@ Tchao!
 
 
 ---
-⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > [3rd Party](Category_3rd Party.md) > [File_Formats](Category_File_Formats.md) > Import/Export IFC - compiling IfcOpenShell/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [3rd_Party](Category_3rd_Party.md) > [File_Formats](Category_File_Formats.md) > Import/Export IFC - compiling IfcOpenShell/fr

@@ -1,30 +1,30 @@
 ---
  GuiCommand:
    Name: Arch Roof
-   MenuLocation: Arch , Roof
-   Workbenches: Arch_Workbench
+   MenuLocation: 3D/BIM , Roof
+   Workbenches: BIM_Workbench
    Shortcut: **R** **F**
-   SeeAlso: Arch_Structure, Arch_Wall
+   SeeAlso: 
 ---
 
 # Arch Roof
 
 ## Description
 
-The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** tool allows for the creation of a sloped roof from a selected wire. The created roof object is parametric, keeping its relationship with the base object. The principle is that each edge is seen allotting a profile of roof (slope, width, overhang, thickness).
+The **Arch Roof** tool allows for the creation of a sloped roof from a selected wire. The created roof object is parametric, keeping its relationship with the base object. The principle is that each edge is seen allotting a profile of roof (slope, width, overhang, thickness).
 
 **Note:** This tool is still in development, and might fail with very complex shapes.
 
  <img alt="" src=images/RoofExample.png  style="width:600px;">  
 *View from above a building model showing the roof with certain transparency*
 
-## Usage
+## Usage (wire base) 
 
 1.  Create a closed wire with following the counter-clockwise direction and select it.
 
     :   <img alt="" src=images/CounterclockwiseWire.png  style="width:600px;">
 
-2.  Press the **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** button, or press **R** then **F** keys
+2.  Press the **<img src="images/Arch_Roof.svg" width=16px> [Roof](Arch_Roof.md)** button, or press **R** then **F** keys
 
 3.  The default roof object could have a strange shape, it\'s because the tool is missing some necessary information.
 
@@ -47,6 +47,26 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
 
 9.  
     **Note**: for better comprehension, please see this [youtube clip](https://www.youtube.com/watch?v=4Urwru71dVk).
+
+## Usage (solid base) 
+
+If your roof has a complex shape (e.g. contains pitched windows or other non-standard features) you can create a custom solid object using various other FreeCAD workbenches ([Part](Part_Workbench.md), [Sketcher](Sketcher_Workbench.md) etc.). And then use this solid as the **Base** object of your roof:
+
+1.  Select the solid base object.
+2.  Press the **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** button, or press **R** then **F** keys.
+
+## Subtracting a roof 
+
+Roofs have an automatically generated subtraction volume (<small>(v1.0)</small>  for roofs with a solid base). When a roof is [removed](Arch_Remove.md) from the walls of a building, both the roof itself as well as everything above it is subtracted from the walls.
+
+
+<small>(v1.0)</small> 
+
+: It is possible to override the automatic subtraction volume by setting the **Subvolume** property of the roof to a custom solid object.
+
+ <img alt="" src=images/Arch_Roof_Subtract_Default.png  style="width:" height="150px;"> <img alt="" src=images/Arch_Roof_Subtract_Subvolume.png  style="width:" height="150px;"> <img alt="" src=images/Arch_Roof_Subvolume_Example.png  style="width:" height="150px;">  
+*Solid-based roof before (1st image) and after (2nd image) [removing](Arch_Remove.md) it from walls.<br>
+The 3rd image shows the generated subtraction volume.*
 
 ## Options
 
@@ -76,6 +96,8 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
 -    **Ridge Length|Length**: The total length of the ridges and hips of the roof.
 
 -    **Runs|FloatList**: The list of horizontal length projections of the roof segments.
+
+-    **Subvolume|Link**: The volume to subtract. If specified it is used instead of the auto-generated subvolume. <small>(v1.0)</small> 
 
 -    **Thickness|FloatList**: The list of thicknesses of the roof segments.
 
@@ -125,5 +147,10 @@ doc.recompute()
 
 
 
+
+ {{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof
+⏵ [documentation index](../README.md) > Arch Roof

@@ -3,7 +3,7 @@
    Name: Draft Apply
    Name/fr: Draft Appliquer le style
    MenuLocation: Utilitaires , Appliquer le style en cours
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   Workbenches: Draft_Workbench/fr
    SeeAlso: Draft_SetStyle/fr
 ---
 
@@ -31,9 +31,9 @@ La commande <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **
 
 ## Utilisation
 
-1.  Vous pouvez éventuellement modifier les paramètres du style avec la commande [Draft Définir le style](Draft_SetStyle/fr.md).
+1.  Vous pouvez modifier les paramètres du style avec la commande [Draft Définir le style](Draft_SetStyle/fr.md).
 2.  Sélectionnez un ou plusieurs objets.
-3.  Sélectionnez l\'option **Utilitaires → <img src="images/Draft_ApplyStyle.svg" width=16px> Appliquer le style en cours** dans le menu.
+3.  Sélectionnez l\'option **Utilitaires → <img src="images/Draft_ApplyStyle.svg" width=16px> Appliquer le style en cours** du menu, ou dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou de la [vue 3D](3D_view/fr.md).
 
 
 

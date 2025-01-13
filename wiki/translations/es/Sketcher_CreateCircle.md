@@ -26,9 +26,16 @@ Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca 
 
 </div>
 
-![](images/Sketcher_CircleExample1.png‎ ) 
+![](images/Sketcher_CircleExample1.png‎ )
+
+
 
 ## Utilización
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
+Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">

@@ -30,7 +30,7 @@ Il est préférable d\'utiliser une **contrainte géométrique** à la place d\'
 
 1\. Ouvrez FreeCAD, créez un nouveau document vide avec **Fichier → [<img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)**.
 
-:   1.1. Basculez vers l\'[atelier Sketcher](Sketcher_Workbench/fr.md) depuis le [sélectionneur d\'atelier](Std_Workbench/fr.md) ou le **[menu affichage](Std_View_Menu/fr.md) → Atelier → Sketcher**.
+:   1.1. Basculez vers l\'[atelier Sketcher](Sketcher_Workbench/fr.md) depuis le [sélecteur d\'atelier](Std_Workbench/fr.md) ou le **[menu affichage](Std_View_Menu/fr.md) → Atelier → Sketcher**.
 
 Quelques actions à retenir :
 
@@ -136,8 +136,8 @@ En regardant la section **Constraints** du [Panneau des tâches](Task_Panel/fr.m
     == Ressources additionnelles == 
 
     * [Tutoriel d'introduction à Sketcher](Basic_Sketcher_Tutorial/fr.md)
-    * [Manuel de référence pour Sketcher](Sketcher_reference/fr.md)
-    * [Tutoriel Sketcher (Esquisseur)](Sketcher_Tutorial/fr.md)
+    * [Manuel de référence pour Sketcher](Sketcher_Lecture/fr.md)
+    * [Tutoriel Sketcher](Sketcher_Tutorial/fr.md)
 
 
     {{Sketcher Tools navi}}

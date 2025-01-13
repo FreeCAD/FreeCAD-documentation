@@ -1,7 +1,6 @@
 ---
  GuiCommand:
    Name: Std MacroStepInto
-   Empty: 1
    MenuLocation: Macro , Step into
    Workbenches: All
    Shortcut: **F11**
@@ -18,7 +17,7 @@ This command does not work at this time.
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

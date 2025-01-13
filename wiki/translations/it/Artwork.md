@@ -3,21 +3,27 @@ Questi oggetti grafici sono stati creati per FreeCAD. Sono utilizzabili liberame
 
 Per contribuire alla realizzazione di icone, si prega di leggere prima le [linee guida per le opere grafiche](Artwork_Guidelines/it.md).
 
-## Miscellaneous icons 
 
-### FreeCAD logo 
+
+## Icone varie 
+
+
+
+### Logo di FreeCAD 
 
 <img alt="" src=images/Freecad.svg  style="width:64px;">
 
-### Workbench icons used in the wiki 
 
-<img alt="" src=images/Workbench_Arch.svg  style="width:64px;"> <img alt="" src=images/Workbench_Draft.svg  style="width:64px;"> <img alt="" src=images/Workbench_FEM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Inspection.svg  style="width:64px;"> <img alt="" src=images/Workbench_Mesh.svg  style="width:64px;"> <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> <img alt="" src=images/Workbench_Part.svg  style="width:64px;"> <img alt="" src=images/Workbench_PartDesign.svg  style="width:64px;"> <img alt="" src=images/Workbench_Path.svg  style="width:64px;"> <img alt="" src=images/Workbench_Points.svg  style="width:64px;"> <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> <img alt="" src=images/Workbench_Robot.svg  style="width:64px;"> <img alt="" src=images/Workbench_Sketcher.svg  style="width:64px;"> <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> <img alt="" src=images/Workbench_Start.svg  style="width:64px;"> <img alt="" src=images/Workbench_Surface.svg  style="width:64px;"> <img alt="" src=images/Workbench_TechDraw.svg  style="width:64px;"> <img alt="" src=images/Workbench_Test.svg  style="width:64px;"> <img alt="" src=images/Workbench_Web.svg  style="width:64px;">
+
+### Icone dell\'ambiente di lavoro utilizzate nel wiki 
+
+<img alt="" src=images/Workbench_Assembly.svg  style="width:64px;"> <img alt="" src=images/Workbench_BIM.svg  style="width:64px;"> <img alt="" src=images/Workbench_CAM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Draft.svg  style="width:64px;"> <img alt="" src=images/Workbench_FEM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Inspection.svg  style="width:64px;"> <img alt="" src=images/Workbench_Material.svg  style="width:64px;"> <img alt="" src=images/Workbench_Mesh.svg  style="width:64px;"> <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> <img alt="" src=images/Workbench_Part.svg  style="width:64px;"> <img alt="" src=images/Workbench_PartDesign.svg  style="width:64px;"> <img alt="" src=images/Workbench_Points.svg  style="width:64px;"> <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> <img alt="" src=images/Workbench_Robot.svg  style="width:64px;"> <img alt="" src=images/Workbench_Sketcher.svg  style="width:64px;"> <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> <img alt="" src=images/Workbench_Surface.svg  style="width:64px;"> <img alt="" src=images/Workbench_TechDraw.svg  style="width:64px;"> <img alt="" src=images/Workbench_Test.svg  style="width:64px;">
 
 
 
 ## Schermate di avvio 
 
-See [Artwork Splash screen](Artwork_Splash_screen.md).
+Vedere [Artwork Splash screen](Artwork_Splash_screen/it.md).
 
 
 
@@ -27,131 +33,173 @@ See [Artwork Splash screen](Artwork_Splash_screen.md).
 
 ### Da src/Gui/ 
 
-See [Artwork Gui](Artwork_Gui.md).
+Vedere [Artwork Gui](Artwork_Gui/it.md).
 
-### From src/Mod/Arch/ 
 
-See [Artwork Arch](Artwork_Arch.md).
 
-### From src/Mod/Draft/ 
+### Da src/Mod/Assembly/ 
 
-See [Artwork Draft](Artwork_Draft.md).
+Vedere [Artwork Assembly](Artwork_Assembly/it.md).
 
-### From src/Mod/Fem/ 
 
-See [Artwork Fem](Artwork_Fem.md).
 
-### From src/Mod/Inspection/ 
+### Da src/Mod/BIM/ 
 
-See [Artwork Inspection](Artwork_Inspection.md).
+Vedere [Artwork BIM](Artwork_BIM/it.md).
+
+
+
+### Da src/Mod/CAM/ 
+
+Vedere [Artwork CAM](Artwork_CAM/it.md).
+
+
+
+### Da src/Mod/Draft/ 
+
+Vedere [Artwork Draft](Artwork_Draft/it.md).
+
+
+
+### Da src/Mod/Fem/ 
+
+Vedere [Artwork Fem](Artwork_Fem/it.md).
+
+
+
+### Da src/Mod/Inspection/ 
+
+Vedere [Artwork Inspection](Artwork_Inspection/it.md).
 
 
 
 ### Da src/Mod/Material/ 
 
-See [Artwork Material](Artwork_Material.md).
-
-### From src/Mod/Mesh/ 
-
-See [Artwork Mesh](Artwork_Mesh.md).
-
-### From src/Mod/MeshPart/ 
-
-See [Artwork MeshPart](Artwork_MeshPart.md).
-
-### From src/Mod/OpenSCAD/ 
-
-See [Artwork OpenSCAD](Artwork_OpenSCAD.md).
-
-### From src/Mod/Part/ 
-
-See [Artwork Part](Artwork_Part.md).
-
-### From src/Mod/PartDesign/ 
-
-See [Artwork PartDesign](Artwork_PartDesign.md).
-
-### From src/Mod/Path/ 
-
-See [Artwork Path](Artwork_Path.md).
-
-### From src/Mod/Points/ 
-
-See [Artwork Points](Artwork_Points.md).
-
-### From src/Mod/ReverseEngineering/ 
-
-See [Artwork ReverseEngineering](Artwork_ReverseEngineering.md).
-
-### From src/Mod/Robot/ 
-
-See [Artwork Robot](Artwork_Robot.md).
-
-### From src/Mod/Sketcher/ 
-
-See [Artwork Sketcher](Artwork_Sketcher.md).
-
-### From src/Mod/Spreadsheet/ 
-
-See [Artwork Spreadsheet](Artwork_Spreadsheet.md).
-
-### From src/Mod/Start/ 
-
-Vedere [Artwork Start](Artwork_Start/it.md).
-
-### From src/Mod/Surface/ 
-
-See [Artwork Surface](Artwork_Surface.md).
-
-### From src/Mod/TechDraw/ 
-
-See [Artwork TechDraw](Artwork_TechDraw.md).
+Vedere [Artwork Material](Artwork_Material/it.md).
 
 
 
+### Da src/Mod/Mesh/ 
 
-<div class="mw-translate-fuzzy">
-
-### Da src/Mod/Test/Gui/Resources/icons/ 
+Vedere [Artwork Mesh](Artwork_Mesh/it.md).
 
 
-</div>
 
-See [Artwork Test](Artwork_Test.md).
+### Da src/Mod/MeshPart/ 
 
-### From src/Mod/Tux/ 
+Vedere [Artwork MeshPart](Artwork_MeshPart/it.md).
 
-See [Artwork Tux](Artwork_Tux.md).
 
-### From src/Mod/Web/ 
 
-See [Artwork Web](Artwork_Web.md).
+### Da src/Mod/OpenSCAD/ 
+
+Vedere [Artwork OpenSCAD](Artwork_OpenSCAD/it.md).
+
+
+
+### Da src/Mod/Part/ 
+
+Vedere [Artwork Part](Artwork_Part/it.md).
+
+
+
+### Da src/Mod/PartDesign/ 
+
+Vedere [Artwork PartDesign](Artwork_PartDesign/it.md).
+
+
+
+### Da src/Mod/Points/ 
+
+Vedere [Artwork Points](Artwork_Points/it.md).
+
+
+
+### Da src/Mod/ReverseEngineering/ 
+
+Vedere [Artwork ReverseEngineering](Artwork_ReverseEngineering/it.md).
+
+
+
+### Da src/Mod/Robot/ 
+
+Vedere [Artwork Robot](Artwork_Robot/it.md).
+
+
+
+### Da src/Mod/Sketcher/ 
+
+Vedere [Artwork Sketcher](Artwork_Sketcher/it.md).
+
+
+
+### Da src/Mod/Spreadsheet/ 
+
+Vedere [Artwork Spreadsheet](Artwork_Spreadsheet/it.md).
+
+
+
+### Da src/Mod/Surface/ 
+
+Vedere [Artwork Surface](Artwork_Surface/it.md).
+
+
+
+### Da src/Mod/TechDraw/ 
+
+Vedere [Artwork TechDraw](Artwork_TechDraw/it.md).
+
+
+
+### Da src/Mod/Test/ 
+
+Vedere [Artwork Test](Artwork_Test/it.md).
+
+
+
+### Da src/Mod/Tux/ 
+
+Vedere [Artwork Tux](Artwork_Tux/it.md).
 
 
 
 ## Ambienti esterni e componenti aggiuntivi 
 
-### From Mod/asm3/ 
 
-See [Artwork Assembly3](Artwork_Assembly3.md).
 
-### From Mod/Plot/ 
+### Da Mod/asm3/ 
 
-See [Artwork Plot](Artwork_Plot.md).
+Vedere [Artwork Assembly3](Artwork_Assembly3/it.md).
+
+
+
+### Da Mod/Plot/ 
+
+Vedere [Artwork Plot](Artwork_Plot/it.md).
 
 
 
 ### Da Mod/Reinforcement/ 
 
-See [Artwork Reinforcement](Artwork_Reinforcement.md).
+Vedere [Artwork Reinforcement](Artwork_Reinforcement/it.md).
 
-### From Mod/Render/ 
 
-See [Artwork Render](Artwork_Render.md).
 
-### From Mod/Ship/ 
+### Da Mod/Render/ 
 
-See [Artwork Ship](Artwork_Ship.md).
+Vedere [Artwork Render](Artwork_Render/it.md).
+
+
+
+### Da Mod/SheetMetal/ 
+
+Vedere [Artwork SheetMetal](Artwork_SheetMetal/it.md).
+
+
+
+### Da Mod/Ship/ 
+
+Vedere [Artwork Ship](Artwork_Ship/it.md).
 
 
 

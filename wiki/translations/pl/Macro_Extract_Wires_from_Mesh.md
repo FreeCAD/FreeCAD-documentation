@@ -1,22 +1,27 @@
 # Macro Extract Wires from Mesh/pl
-{{Macro
+{{Macro/pl
 |Name=Macro Extract Wires from Mesh
+|Translate=Makrodefinicja: Wyodrębnij linie z siatki
 |Icon=Macro_Extract_Wires_from_Mesh.png
-|Description=Finds boundary wires in selected mesh objects. Boundary wires are formed from all the edges found in the mesh that are shared by only one face, that is, they are "border" edges. The found wires get added to the document (one compound per mesh object), while the mesh itself gets hidden.
+|Description=Znajduje polilinie graniczne w wybranych obiektach siatki. Polilinie graniczne są tworzone ze wszystkich krawędzi znalezionych w siatce, które są współdzielone tylko przez jedną ścianę, czyli są to krawędzie "brzegowe". Znalezione polilinie są dodawane do dokumentu ''(jeden związek na obiekt siatki)'', podczas gdy sama siatka jest ukrywana.
 |Author=Yorik
 |Version=1
 |Date=2016-12-17
-|FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/2/28/Macro_Extract_Wires_from_Mesh.png ToolBar Icon]
+|FCVersion=wszystkie
+|Download=[https://www.freecadweb.org/wiki/images/2/28/Macro_Extract_Wires_from_Mesh.png Ikonka paska narzędzi]
 }}
 
-## Description
 
-Finds boundary wires in selected mesh objects. Boundary wires are formed from all the edges found in the mesh that are shared by only one face, that is, they are \"border\" edges. The found wires get added to the document (one compound per mesh object), while the mesh itself gets hidden.
 
-## Script
+## Opis
 
-ToolBar Icon ![](images/Macro_Extract_Wires_from_Mesh.png )
+Znajduje polilinie graniczne w wybranych obiektach siatki. Polilinie graniczne są tworzone ze wszystkich krawędzi znalezionych w siatce, które są współdzielone tylko przez jedną ścianę, czyli są to krawędzie \"brzegowe\". Znalezione polilinie są dodawane do dokumentu *(jeden związek na obiekt siatki)*, podczas gdy sama siatka jest ukrywana.
+
+
+
+## Skrypt
+
+Ikonka paska narzędzi ![](images/Macro_Extract_Wires_from_Mesh.png )
 
 **Macro_Extract_Wires_from_Mesh.FCMacro**
 

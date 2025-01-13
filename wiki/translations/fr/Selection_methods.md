@@ -45,7 +45,7 @@ Elle permet également d\'effectuer certaines actions comme [Std Affichage de la
 
 *Cela devrait être dans la page [Fenêtre de sélection](Selection_view/fr.md).*
 
-Sélectionnez un objet complexe, par exemple un [PartDesign Corps](PartDesign_Body/fr.md) ou [Std Part](Std_Part/fr.md), puis dans la [fenêtre de sélection](Selection_view/fr.md) sélectionnez à nouveau l\'objet puis appuyez sur **Ctrl** + **C** au clavier pour ouvrir la boîte de dialogue **Sélection des objets**. Cela permet de copier l\'objet sélectionné avec tous ou seulement certains des objets de dépendance de cet objet. Par exemple, pour un [Std Part](Std_Part/fr.md), les objets possibles à sélectionner incluent [Std Part](Std_Part/fr.md) lui-même, mais aussi son origine, ses trois axes de base (XYZ) et ses trois plans de base (XY, YZ, XZ).
+Sélectionnez un objet complexe, par exemple un [PartDesign Corps](PartDesign_Body/fr.md) ou [Std Part](Std_Part/fr.md), puis dans la [fenêtre de sélection](Selection_view/fr.md) sélectionnez à nouveau l\'objet puis appuyez sur **Ctrl** + **C** au clavier pour ouvrir la fenêtre de dialogue **Sélection des objets**. Cela permet de copier l\'objet sélectionné avec tous ou seulement certains des objets de dépendance de cet objet. Par exemple, pour un [Std Part](Std_Part/fr.md), les objets possibles à sélectionner incluent [Std Part](Std_Part/fr.md) lui-même, mais aussi son origine, ses trois axes de base (XYZ) et ses trois plans de base (XY, YZ, XZ).
 
 Après avoir appuyé sur **OK**, les objets sélectionnés sont copiés en mémoire puis peuvent être collés dans le document pour dupliquer uniquement ces objets.
 
@@ -53,7 +53,7 @@ Après avoir appuyé sur **OK**, les objets sélectionnés sont copiés en mémo
 
 
 
-*Boîte de dialogue de sélection d'objet lancée depuis la [fenêtre de sélection](Selection_view/fr.md).*
+*Fenêtre de dialogue de sélection d'objet lancée depuis la [fenêtre de sélection](Selection_view/fr.md).*
 
 
 

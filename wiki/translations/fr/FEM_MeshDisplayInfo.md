@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: FEM MeshDisplayInfo
-   Name/fr: FEM Affichage des informations du maillage FEM
-   MenuLocation: Menu contextuel sur l'objet maillé , Afficher les informations sur le maillage FEM
+   Name/fr: FEM Informations du maillage FEM
+   MenuLocation: Menu contextuel sur l'objet maillé , Afficher les informations sur le maillage de l'atelier FEM
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
 ---
@@ -36,12 +36,16 @@ Affiche les statistiques de base du maillage existant - nombre de nœuds et d\'�
 -   Prismes quadratiques,
 -   Pyramides quadratiques.
 
+
+
 ## Utilisation
 
 1.  Créez d\'abord un maillage d\'éléments finis (en utilisant l\'une des techniques disponibles).
-2.  Sélectionnez le maillage dans la [Vue en arborescence](Tree_view/fr.md).
-3.  Faites un clic droit dessus et choisissez le bouton **<img src="images/FEM_MeshDisplayInfo.svg" width=16px> [Afficher les informations sur le maillage FEM](FEM_MeshDisplayInfo/fr.md)**.
+2.  Sélectionnez le maillage dans la [vue en arborescence](Tree_view/fr.md).
+3.  Faites un clic droit dessus et choisissez le bouton **<img src="images/FEM_MeshDisplayInfo.svg" width=16px> [Afficher les informations sur le maillage de l'atelier FEM](FEM_MeshDisplayInfo/fr.md)**.
 4.  Pour fermer la fenêtre FEM Mesh Info, cliquez sur **OK**.
+
+
 
 ## Script
 

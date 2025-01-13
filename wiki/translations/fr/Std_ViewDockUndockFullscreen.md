@@ -66,7 +66,7 @@ L\'option de menu **Désancrer** sépare la [vue 3D](3D_view/fr.md) active de l\
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

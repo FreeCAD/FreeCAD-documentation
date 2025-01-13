@@ -192,6 +192,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/es
+⏵ [documentation index](../README.md) > Arch SectionPlane/es

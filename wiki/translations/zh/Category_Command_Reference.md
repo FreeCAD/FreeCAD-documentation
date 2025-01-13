@@ -5,9 +5,9 @@ This category contains the help pages of each of FreeCAD [Command](Command.md).
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:GuiCommand/zh](Template_GuiCommand/zh.md) | [Path ExportTemplate/zh](Path_ExportTemplate/zh.md) | [Path Inspect/zh](Path_Inspect/zh.md) |
-| [Path Job/zh](Path_Job/zh.md) | [Path SelectLoop/zh](Path_SelectLoop/zh.md) | [Path Simulator/zh](Path_Simulator/zh.md) |
-| [Path ToolLibraryEdit/zh](Path_ToolLibraryEdit/zh.md) |
+| [CAM ExportTemplate/zh](CAM_ExportTemplate/zh.md) | [CAM Inspect/zh](CAM_Inspect/zh.md) | [CAM Job/zh](CAM_Job/zh.md) |
+| [CAM SelectLoop/zh](CAM_SelectLoop/zh.md) | [CAM Simulator/zh](CAM_Simulator/zh.md) | [Template:GuiCommand/zh](Template_GuiCommand/zh.md) |
+|
 
 
 

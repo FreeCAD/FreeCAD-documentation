@@ -43,8 +43,6 @@ Lo strumento **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Estr
 
 </div>
 
-When selecting a single sketch, it can have multiple enclosed profiles inside a larger one, for example a rectangle with two circles inside it. But the profiles may not intersect each other. <small>(v0.20)</small> 
-
 
 
 ## Opzioni
@@ -57,7 +55,13 @@ Quando si crea un estrusione, la vista combinata passa automaticamente al riquad
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/pad_parameters_cropped_it.png )
+
+
+</div>
 
 
 
@@ -87,13 +91,25 @@ Inserire un valore numerico per la lunghezza dell\'estrusione. La direzione pred
 
 #### Fino all\'ultimo 
 
+
+<div class="mw-translate-fuzzy">
+
 Il solido viene estruso fino all\'ultima faccia del supporto nella direzione di estrusione. Se non vi è alcun supporto, viene visualizzato un messaggio di errore.
+
+
+</div>
 
 
 
 #### Fino al primo 
 
+
+<div class="mw-translate-fuzzy">
+
 Il solido viene estruso fino alla prima faccia del supporto nella direzione di estrusione. Se non vi è alcun supporto, viene visualizzato un messaggio di errore.
+
+
+</div>
 
 
 
@@ -119,17 +135,12 @@ Questo consente di inserire una seconda lunghezza per estendere l\'estrusione in
 
 </div>
 
+#### Up to shape 
 
 
-### Quota 
+<small>(v1.0)</small> 
 
-
-<div class="mw-translate-fuzzy">
-
-Definisce la lunghezza dell\'estrusione. Si possono utilizzare diverse unità di misura, indipendentemente dalle unità definite nelle preferenze dell\'utente (m, cm, mm, nm, ft o \', in o \").
-
-
-</div>
+: The pad will extend up to the selected shape. Optionally press the **Select shape** button and select a shape. Leave the **Select all faces** checkbox enabled or disable it, press the **Select faces** button and select the faces up to which the pad should be created.
 
 
 
@@ -143,15 +154,49 @@ Offset dalla faccia in cui terminerà l\'estrusione. Questa opzione è disponibi
 
 </div>
 
+
+
+### Quota 
+
+
+<div class="mw-translate-fuzzy">
+
+Definisce la lunghezza dell\'estrusione. Si possono utilizzare diverse unità di misura, indipendentemente dalle unità definite nelle preferenze dell\'utente (m, cm, mm, nm, ft o \', in o \").
+
+
+</div>
+
+### 2nd length 
+
+Defines the length of the pad in the opposite direction. This option is only available if **Type** is **Two dimensions**.
+
+
+
+### Simmetrica al piano 
+
+
+<div class="mw-translate-fuzzy">
+
+Estende la lunghezza data su entrambi i lati del piano di schizzo, simmetricamente al piano dello schizzo, metà per parte.
+
+
+</div>
+
+
+
+### Invertita
+
+Inverte la direzione dell\'estrusione.
+
 ### Direction
 
 #### Direction/edge
 
 You can select the direction of the extrusion:
 
--   **Sketch normal:** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
--   **Select reference\...:** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
--   **Custom direction:** The sketch is extruded along a direction that can be specified via vector values.
+-   **Sketch normal** or **Face normal:** The sketch or face is extruded in the direction of its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used.
+-   **Select reference\...:** The sketch or face is extruded in the direction of a straight edge or a [datum line](PartDesign_Line.md) selected from the Body.
+-   **Custom direction:** The sketch or face is extruded in the direction of the specified vector.
 
 
 
@@ -184,52 +229,30 @@ Se spuntato, la direzione del prisma non sarà il vettore normale dello schizzo 
 
 </div>
 
-Se selezionata, la lunghezza del prisma è misurata lungo la normale dello schizzo, altrimenti lungo la direzione personalizzata. {{Version/it|0.20}}
-
-
-
-### Simmetrica al piano 
-
 
 <div class="mw-translate-fuzzy">
 
-Estende la lunghezza data su entrambi i lati del piano di schizzo, simmetricamente al piano dello schizzo, metà per parte.
+Se selezionata, la lunghezza del prisma è misurata lungo la normale dello schizzo, altrimenti lungo la direzione personalizzata. {{Version/it|0.20}}
 
 
 </div>
 
-
-
-### Invertita
-
-Inverte la direzione dell\'estrusione.
-
 ### Taper angle 
 
-
-<small>(v0.20)</small> 
-
-Tapers the pad in the extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is either **Dimension** or **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
-
-Limitations:
-
--   Sketches containing [B-Splines](B-Splines.md) often cannot be properly tapered. This is a limitation of the [OpenCASCADE](OpenCASCADE.md) kernel that FreeCAD uses.
--   For larger angles tapering will fail if the end face of the pad would have fewer edges than the start face/sketch.
-
-### 2nd length 
-
-Defines the length of the pad in the opposite extrusion direction. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available if **Type** is **Two dimensions**.
+Tapers the pad in the extrusion direction by the given angle. A positive angle means the outer pad border gets wider. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts. This option is only available if **Type** is **Dimension** or **Two dimensions**.
 
 ### 2nd taper angle 
 
-
-<small>(v0.20)</small> 
-
-Tapers the pad in the opposite extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
+Tapers the pad in the opposite extrusion direction by the given angle. See **Taper angle**. This option is only available if **Type** is **Two dimensions**.
 
 
 
 ## Proprietà
+
+### Data
+
+
+{{TitleProperty|Pad}}
 
 
 <div class="mw-translate-fuzzy">
@@ -256,6 +279,26 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 </div>
 
 
+{{TitleProperty|Part Design}}
+
+-    **Refine|Bool**: True or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in **Preferences → Part Design → General → Model settings**).
+
+
+{{TitleProperty|Sketch Based}}
+
+-    **Profile|LinkSub**
+    
+
+-    **Midplane|Bool**
+    
+
+-    **Reversed|Bool**
+    
+
+-    **Allow Multi Face|Bool**
+    
+
+
 
 ## Limitazioni
 
@@ -277,7 +320,13 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

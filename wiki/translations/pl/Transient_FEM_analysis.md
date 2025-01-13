@@ -98,7 +98,7 @@ W programie FreeCAD możemy użyć <img alt="" src=images/FEM_PostPipelineFromRe
 
 
 
-### Pobieranie
+## Do pobrania 
 
 -   [Przykładowy plik bez wyników *(200 kB)*](https://drive.google.com/file/d/1m3RiJ-JM7QSJ6YDhZnafHIbyL92V6sYU/view?usp=sharing).
 

@@ -1,7 +1,7 @@
 # Tree view/pl
 ## Wprowadzenie
 
-[Widok drzewa](Tree_view.md) pojawia się w zakładce **Model** w [widoku połączonym](Combo_view.md), jest to jeden z najważniejszych paneli w [interfejsie użytkownika](Interface.md). Pokazuje wszystkie obiekty zdefiniowane przez użytkownika, które są częścią dokumentu FreeCAD. Widok drzewa jest reprezentacją [struktury dokumentu](document_structure.md) i wskazuje, jakie informacje są zapisane na dysku.
+**Widok drzewa** pojawia się w górnej części panelu **Model** (jeśli [widok połączony](Combo_view/pl.md) jest aktywny) lub jako niezależny panel. Pokazuje wszystkie obiekty zdefiniowane przez użytkownika, które są częścią dokumentu FreeCAD. Widok drzewa jest reprezentacją [struktury dokumentu](Document_structure/pl.md) i wskazuje, jakie informacje są zapisywane na dysku.
 
 Obiekty te niekoniecznie muszą być kształtami geometrycznymi widocznymi w [oknie widoku 3D](3D_view.md), ale mogą również zawierać obiekty danych utworzone za pomocą dowolnego [Środowiska pracy](Workbenches.md).
 
@@ -16,7 +16,7 @@ Obiekty te niekoniecznie muszą być kształtami geometrycznymi widocznymi w [ok
 ## Praca z widokiem drzewa 
 
 Domyślnie, zawsze gdy tworzony jest nowy obiekt, jest on dodawany na końcu listy w widoku drzewa. Widok drzewa umożliwia zarządzanie obiektami w celu utrzymania ich w zorganizowanym szyku.
-Pozwala na tworzenie [grup](Std_Group/pl.md), przesuwanie obiektów wewnątrz grup, przesuwanie grup wewnątrz innych grup, zmianę nazwy obiektów, kopiowanie obiektów, usuwanie obiektów i inne operacje w menu kontekstowym *(kliknięcie prawym przyciskiem myszki)*, które zależą od aktualnie wybranego obiektu i aktualnie aktywnego warsztatu.
+Pozwala na tworzenie [grup](Std_Group/pl.md), przesuwanie obiektów wewnątrz grup, przesuwanie grup wewnątrz innych grup, zmianę nazwy obiektów, kopiowanie obiektów, usuwanie obiektów i używając opcji z [menu podręcznego](#Menu_podręczne.md).
 
 Wiele operacji tworzy obiekty, które są zależne od wcześniej utworzonego obiektu. W tym przypadku widok drzewa pokazuje tę zależność poprzez pochłanianie starszego obiektu wewnątrz nowego obiektu. Rozwijanie i zwijanie obiektów w widoku drzewa pokazuje parametryczną historię tego obiektu. Obiekty głębiej położone wewnątrz innych są starsze, natomiast obiekty znajdujące się na zewnątrz są nowsze i pochodzą od obiektów starszych. Modyfikując obiekty wewnętrzne, operacje parametryczne rozprzestrzeniają się aż do góry, generując nowy wynik.
 
@@ -31,16 +31,13 @@ Pełne rozwinięcie drzewa na wielu poziomach ujawnia oryginalne elementy, któr
 
 ### Kolumny widoku drzewa 
 
-Domyślnie widok drzewa wyświetla tylko jedną kolumnę z etykietami i ikonami obiektów. Opcjonalnie można wyświetlić także drugą kolumnę z opisami, a następnie dodać nagłówki kolumn.
-
-Aby włączyć kolumnę opisu, kliknij prawym przyciskiem myszki widok drzewa i w menu kontekstowym wybierz:
-**Ustawienia widoku drzewa → Pokaż kolumnę opisu**. {{Version/pl|0.21}}
+Widok drzewa zawsze wyświetla kolumnę z ikonami i etykietami obiektów. Opcjonalnie mogą być również wyświetlane dwie dodatkowe kolumny. Aby włączyć te kolumny, kliknij prawym przyciskiem myszy widok drzewa i w menu podręcznym wybierz **Ustawienia Widoku drzewa**, a następnie **Pokaż kolumnę opisu** *({{Version/pl|0.21}})* i / lub **Pokaż nazwę wewnętrzną** *(<small>(v1.0)</small> )*. Nagłówki kolumn są dodawane, jeśli wyświetlana jest więcej niż jedna kolumna. Należy pamiętać, że wewnętrzne nazwy obiektów nie mogą zostać zmienione.
 
 
 
 ### Edycja etykiety obiektu 
 
-Zaznacz obiekt w pierwszej kolumnie i naciśnij przycisku **F2** *(w systemach Linux i Windows)* lub **Enter** *(na macOS)*, pozwala na edycję właściwości **Etykieta** obiektu. Tę właściwość można również edytować za pomocą menu kontekstowego opisanego poniżej lub w sekcji [Edytora właściwości](Property_editor/pl.md).
+Zaznacz obiekt w pierwszej kolumnie i naciśnij przycisku **F2** *(w systemach Linux i Windows)* lub **Enter** *(na macOS)*, pozwala na edycję właściwości **Etykieta** obiektu. Tę właściwość można również edytować za pomocą opcji menu kontekstowego **Zmień nazwę** lub w sekcji [Edytora właściwości](Property_editor/pl.md).
 
 
 
@@ -50,116 +47,27 @@ Obiekt może opcjonalnie posiadać opis. Informacje te są przechowywane w jego 
 
 
 
-## Działania
+### Menu podręczne 
 
-Ponieważ widok drzewa zawiera listę obiektów, które mogą być widoczne w oknie [widoku 3D](3D_view/pl.md), wiele z tych działań jest takich samych jak te, które mogą być wykonane bezpośrednio z okna [widoku 3D](3D_view/pl.md). Akcje mogą być uruchamiane z poziomu **Menu podręcznego**, dostępnego po kliknięciu prawym przyciskiem myszy tła lub obiektu.
-
-
-
-### Uruchomienie aplikacji 
-
-Po uruchomieniu aplikacji domyślnym środowiskiem pracy jest [Start](Start_Workbench/pl.md) jest aktywny i nie utworzono żadnego dokumentu, a menu podręczne okna [widoku drzewa](Tree_view/pl.md) pokazuje pozycje:
-
--    **Akcje z wyrażeniami**:
-
-    -   [Kopiuj wybrane](Expressions/pl.md),
-    -   [Kopiuj aktywny element](Expressions/pl.md),
-    -   [Kopiuj wszystkie dokumenty](Expressions/pl.md),
-    -   [Wklej](Std_Paste/pl.md).
-
-Umożliwiają one pracę z różnymi dokumentami, ale są wyłączone, jeśli nie ma dokumentu.
+Opcje w menu kontekstowym widoku drzewa zależą od wybranych obiektów i aktualnie aktywnego środowiska pracy. Aby wyświetlić to menu, kliknij prawym przyciskiem myszy tło listy, kliknij prawym przyciskiem myszy obiekt na liście lub zaznacz wiele obiektów na liście, a następnie kliknij prawym przyciskiem myszy jeden z nich.
 
 
 
-### Nowy dokument 
+### Klawisze modyfikujące 
 
-Po utworzeniu nowego dokumentu kliknięcie tła prawym przyciskiem myszy otwiera menu podręczne zawierające teraz dwie pozycje:
+W widoku drzewa można używać zwykłych klawiszy modyfikujących. Modyfikatory można również łączyć.
 
--    **Akcje z wyrażeniami**jak powyżej, ale z aktywowanymi dwiema pozycjami:
+-    **Ctrl**: przytrzymaj ten klawisz, aby zaznaczyć wiele obiektów.
 
-    -   [Kopiuj aktywny dokument](Expressions/pl.md),
-    -   [Kopiuj wszystkie dokumenty](Expressions/pl.md).
-
-
-
-### Wybór dokumentu 
-
-Jeśli wybierzesz aktywny dokument i klikniesz prawym przyciskiem myszy, oprócz pozycji **Akcje z wyrażeniami** i **Akcje z linkami**, menu podręczne zawiera następujące polecenia:
-
--    **Pokaż ukryte obiekty**: Jeśli opcja jest aktywna, widok drzewa pokaże ukryte elementy.
-
--    **Znajdź**: Wyświetli pole do wprowadzania nazwy obiektu, do znalezienia wewnątrz wybranego dokumentu.
-
--    **Zamknij dokument**: zamyka wybrany dokument.
-
--    **Dodaj obiekty zależne do zaznaczenia**: wszystkie zależne obiekty zostaną dodane do zaznaczenia. W ten sposób można zobaczyć zależności i np. usunąć wszystkie zależne obiekty jednocześnie. Dostępne tylko dla obiektów z łączami i dokumentów.
-
--    **Pomiń ponowne obliczenia**: Jeśli opcja jest aktywna, obiekty dokumentu nie będą automatycznie [przeliczane](Std_Refresh/pl.md). Dostępne tylko wtedy, gdy aktywna jest funkcja **Pomiń przeliczanie**.
-
-    -   
-        **Pozwól na ponowienie wybranych przeliczeń**
-        
-        : jeśli opcja jest aktywna, dokument pozwoli na [przeliczenie](Std_Refresh/pl.md) tylko niektórych obiektów.
-
--    **Zaznacz do przeliczenia**: zaznacza wszystkie obiekty dokumentu jako zmodyfikowane i gotowe do [przeliczenia](Std_Refresh.md).
-
--    **[Utwórz grupę](Std_Group/pl.md)**: Tworzy [grupę](Std_Group.md) w wybranym dokumencie.
+-    **Shift**: przytrzymanie tego klawisza powoduje zaznaczenie wszystkich obiektów pomiędzy poprzednio zaznaczonym obiektem a następnym zaznaczonym obiektem.
 
 
 
-### Zaznaczanie obiektów 
+### Skróty klawiaturowe 
 
-Po dodaniu obiektów do dokumentu kliknięcie na nich prawym przyciskiem myszki powoduje wyświetlenie dodatkowych poleceń. Zależą one od liczby wybranych obiektów, ich typu, a także od aktywnego obszaru roboczego. W większości przypadków i w większości środowisk pracy *(z wyjątkiem [Start](Start_Workbench/pl.md))* dostępne są wtedy następujące polecenia:
+Następujące skróty klawiaturowe są dostępne, gdy aktywny jest widok drzewa:
 
--    **[Wygląd zewnętrzny](Std_SetAppearance/pl.md)**: uruchamia okno dialogowe do zmiany właściwości wizualnych całego obiektu.
-
--    **[Nadaj kolor losowo](Std_RandomColor/pl.md)**: przypisuje kolor losowo do obiektu.
-
--    **[Wytnij](Std_Cut/pl.md)**: wyłączone.
-
--    **[Kopiuj](Std_Copy/pl.md)**: kopiuje obiekt do pamięci.
-
--    **[Wklej](Std_Paste/pl.md)**: wkleja skopiowany obiekt do dokumentu; kopia jest dodawana na ostatniej pozycji widoku drzewa.
-
--    **[Usuń](Std_Delete/pl.md)**: usuwa obiekt z dokumentu.
-
--    **[Przełącz widoczność w widoku drzewa](#Symbol_oka.md)**: przełącza widoczność obiektów w Widoku drzewa.
-
--    **Zaznacz do przeliczenia**: zaznacza wybrany obiekt jako \"dotknięty\" i gotowy do [przeliczenia](Std_Refresh/pl.md).
-
--    **Przelicz obiekt**: oblicza ponownie wybrany obiekt.
-
--    **Zmień nazwę**: rozpoczyna edycję etykiety wybranego obiektu, a nie nazwy, która jest tylko do odczytu. Opcja ta jest dostępna tylko wtedy, gdy wybrany jest pojedynczy obiekt.
-
-Jako przykład rozszerzenia menu kontekstowego, jeśli [sześcian](Part_Box/pl.md) jest kliknięty prawym przyciskiem myszy, gdy aktywne jest środowisko pracy [Część](Part_Workbench/pl.md), dostępne są następujące dodatkowe polecenia:
-
--    **[Edytuj](Std_Edit/pl.md)**: uruchamia tryb edycji obiektu.
-
--    **[Transform](Std_TransformManip/pl.md)**: uruchamia widżet transformacji, aby przesunąć lub obrócić obiekt.
-
--    **[Edytor dołączenia](Part_EditAttachment/pl.md)**: uruchamia okno dialogowe dołączenia obiektu do jednego lub więcej innych obiektów.
-
--    **[Ustaw kolory ...](Part_FaceColors/pl.md)**: ustawia kolor wybranych powierzchni obiektu.
-
--    **[Przełącz widoczność](Std_ToggleVisibility/pl.md)**: sprawia, że obiekt jest widoczny lub niewidoczny w oknie [widoku 3D](3D_view/pl.md).
-
--    **[Pokaż zaznaczone](Std_ShowSelection/pl.md)**: czyni zaznaczony obiekt widocznym.
-
--    **[Ukryj zaznaczone](Std_HideSelection/pl.md)**: czyni zaznaczony obiekt niewidocznym.
-
--    **[Przełącznik wyboru](Std_ToggleSelectability/pl.md)**: przełącza możliwość wyboru obiektu w oknie [widoku 3D](3D_view/pl.md).
-
--    **[Wybierz wszystkie wystąpienia](Std_TreeSelectAllInstances.md)**: zaznacza wszystkie wystąpienia tego obiektu w widoku drzewa.
-
--    **[Wyślij do konsoli Python](Std_SendToPythonConsole/pl.md)**: tworzy zmienną w [Konsoli Python](Python_console/pl.md) odwołującą się do obiektu.
-
-
-
-### Operacje na klawiaturze 
-
-Gdy użytkownik jest skupiony na widoku drzewa, dostępne są następujące operacje klawiaturowe:
-
--    **Ctrl**\+**F**: otwiera okno wyszukiwania na dole drzewa, umożliwiając wyszukiwanie i docieranie do obiektów za pomocą ich nazw lub etykiet.
+-    **Ctrl**\+**F**: otwiera okno wyszukiwania na dole drzewa, umożliwiając wyszukiwanie i docieranie do obiektów za pomocą ich nazw wewnętrznych lub etykiet.
 
 -   Rozwijanie i zwijanie za pomocą kombinacji klawiszy **Alt**+**Arrow**: {{Version/pl|0.20}}
     -   
@@ -196,15 +104,15 @@ Oznacza to, że obiekt musi zostać [przeliczony](Std_Refresh/pl.md), z powodu z
 
 
 
-### ![](images/FreeCAD_Tree_view_tip.png ) Biała strzałka na zielonym tle 
+### ![](images/FreeCAD_Tree_view_error.png ) Biały wykrzyknik na czerwonym tle 
 
-Oznacza to tak zwany [czubek](PartDesign_Body/pl#Czubek.md) korpusu. Jest to zazwyczaj ostatnia cecha obiektu [zawartość](PartDesign_Body/pl.md) i reprezentuje całą bryłę dla świata zewnętrznego, np. gdy bryła jest eksportowana lub używana w operacjach [logicznych](Part_Boolean/pl.md) środowiska Część. Czubek może być zmieniany przez użytkownika.
+Wskazuje to, że w obiekcie wystąpił błąd, który należy naprawić. Po przeliczeniu całego dokumentu po najechaniu myszką na obiekt w widoku drzewa zostanie wyświetlona etykietka z opisem błędu. **Uwaga**: Wszystkie inne obiekty zależne od obiektu w stanie błędu, nie zostaną poprawnie przeliczone, mogą więc nadal prezentować nieaktualny stan.
 
 
 
 ### ![](images/FreeCAD_Tree_view_unattached.png ) Fioletowe ogniwo łańcucha na białym tle 
 
-Jest to typowe dla [szkiców](Sketch/pl.md), pierwotnych brył geometrycznych, takich jak sześcian, walec, itp. oraz geometrii [punktu odniesienia](Datum.md). Wskazuje, że obiekt nie jest do niczego przymocowany. Nie ma on przesunięcia dołączenia i pobiera swoją pozycję i wyrównanie wyłącznie z właściwości [umiejscowienie](Placement.md).
+Jest to typowe dla [szkiców](Sketch/pl.md), prymitywów [środowiska Projekt Części](PartDesign_Workbench/pl.md), takich jak sześcian, walec, itp. oraz geometrii [konstrukcyjnej](Datum/pl.md). Wskazuje, że obiekt nie jest do niczego przymocowany. Nie ma on przesunięcia dołączenia i pobiera swoją pozycję i wyrównanie wyłącznie z właściwości [umiejscowienie](Placement/pl.md).
 
 Dostępny jest [Poradnik: Podstawy przyłączania](Basic_Attachment_Tutorial.md) wyjaśniający jak radzić sobie z takimi obiektami.
 
@@ -212,13 +120,34 @@ Dostępny jest [Poradnik: Podstawy przyłączania](Basic_Attachment_Tutorial.md)
 
 ### ![](images/FreeCAD_Tree_view_notfullyconstrained.png ) Żółty znak X 
 
-Jest to używane tylko dla [szkiców](Sketch/pl.md) i wskazuje, że szkic nie jest w pełni związany. Wewnątrz środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md) liczba pozostałych stopni swobody jest wyświetlana w komunikatach solvera.
+Jest on używany tylko w odniesieniu do [szkiców](Sketch/pl.md) i wskazuje, że szkic nie jest w pełni związany. Jeśli szkic jest w trybie [edycji](Sketcher_EditSketch/pl.md), liczba pozostałych stopni swobody jest wyświetlana w [komunikatach solvera](Sketcher_Dialog/pl#Komunikaty_solvera.md).
 
 
 
-### ![](images/FreeCAD_Tree_view_error.png ) Biały wykrzyknik na czerwonym tle 
+### ![](images/FreeCAD_Tree_view_tip.png ) Biała strzałka na zielonym tle 
 
-Wskazuje to, że w obiekcie wystąpił błąd, który należy naprawić. Po przeliczeniu całego dokumentu po najechaniu myszką na obiekt w widoku drzewa zostanie wyświetlona etykietka z opisem błędu. **Uwaga**: Wszystkie inne obiekty zależne od obiektu w stanie błędu, nie zostaną poprawnie przeliczone, mogą więc nadal prezentować nieaktualny stan.
+Oznacza to tak zwany [czubek](PartDesign_Body/pl#Czubek.md) korpusu. Jest to zazwyczaj ostatnia cecha obiektu [zawartość](PartDesign_Body/pl.md) i reprezentuje całą bryłę dla świata zewnętrznego, np. gdy bryła jest eksportowana lub używana w operacjach [logicznych](Part_Boolean/pl.md) środowiska Część. Czubek może być zmieniany przez użytkownika.
+
+
+
+### ![](images/FreeCAD_Tree_view_suppressed.png ) Czerwony backslash 
+
+
+{{Version/pl|1.0}}
+
+Wskazuje to na wyłączoną funkcję środowiska [Projekt Części](PartDesign_Workbench/pl.md).
+
+
+
+### ![](images/FreeCAD_Tree_view_link.png ) Zakrzywiona biała strzałka w górę 
+
+To oznacza [zlinkowany](Std_LinkMake/pl.md) obiekt.
+
+
+
+### ![](images/FreeCAD_Tree_view_link_external.png ) Dwie zakrzywione białe strzałki w górę 
+
+To oznacza [zlinkowany](Std_LinkMake/pl.md) obiekt załadowany z zewnętrznego dokumentu.
 
 
 
@@ -227,9 +156,24 @@ Wskazuje to, że w obiekcie wystąpił błąd, który należy naprawić. Po prze
 Oznacza to, że obiekt będzie ukryty w Widoku drzewa, jeśli opcja menu podręcznego **Pokaż elementy ukryte w Widoku drzewa** zostanie odznaczona.
 
 
-{{Interface navi
 
-}} {{Std Base navi}}
+### ![](images/FreeCAD_Tree_view_frozen.png ) Cyjanowy kryształ lodu 
+
+
+{{Version/pl|1.0}}
+
+Wskazuje to na [zamrożony](Std_ToggleFreeze/pl.md) obiekt, który nie jest ponownie przeliczany, gdy zmieniają się jego obiekty nadrzędne.
+
+
+
+## Ustawienia
+
+Zobacz [Widok połączony](Combo_view/pl#Ustawienia.md).
+
+
+{{Interface_navi
+
+}} {{Std_Base_navi}}
 
 
 

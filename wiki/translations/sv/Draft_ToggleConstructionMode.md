@@ -37,9 +37,9 @@ The Draft module features a construction mode, which allows to draw certain obje
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_ToggleConstructionMode.svg" width=16px> [Toggle construction mode](Draft_ToggleConstructionMode.md)** button in the [Draft Tray](Draft_Tray.md). This button is depressed if Draft construction mode is currently on.
-    -   Select the **Utilities → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Toggle construction mode** option from the menu.
-    -   Use the keyboard shortcut: **C** then **M**.
+    -   Press the ![](images/Draft_tray_button_construction.png ) button in the [Draft Tray](Draft_Tray.md). This button is depressed if Draft construction mode is currently on.
+    -   [Draft](Draft_Workbench.md): Select the **Utilities → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Toggle construction mode** option from the menu, or from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
+    -   Draft: Use the keyboard shortcut: **C** then **M**.
 2.  The button in the [Draft Tray](Draft_Tray.md) is updated.
 
 ## Notes

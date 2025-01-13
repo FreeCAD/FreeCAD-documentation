@@ -8,7 +8,9 @@ Le génie civil est un vaste domaine d\'ingénierie et couvre plusieurs sujets, 
 1.  [Atelier Armatures](Arch_Rebar/fr.md)
 2.  [Atelier Transport](Transportation_Workbench/fr.md)
 
-Les outils Armatures font actuellement partie de l\'[atelier Arch (Architecture)](Arch_Workbench.md).
+Les outils Armatures font actuellement partie de l\'[atelier BIM](BIM_Workbench.md).
+
+
 
 ## Sujets de forum associés 
 
@@ -21,6 +23,8 @@ Les outils Armatures font actuellement partie de l\'[atelier Arch (Architecture)
 -   Captures d\'écran
 -   Plan de travail
 -   Rehaussez cette page wiki
+
+
 
 ## Liens associés 
 

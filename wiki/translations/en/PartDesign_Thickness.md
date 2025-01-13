@@ -56,7 +56,7 @@ The <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> **Part
     -   
         **Skin**
         
-        : Only this option can be selected.
+        : Select this option if you want to get an item like a vase, headless but with the bottom. Only this option can be selected.
 
     -   
         **Pipe**
@@ -66,7 +66,7 @@ The <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> **Part
     -   
         **Recto Verso**
         
-        : Not implemented. See [idem](https://forum.freecadweb.org/viewtopic.php?p=484495#p484495).
+        : Not implemented. See [this forum topic](https://forum.freecadweb.org/viewtopic.php?p=484495#p484495).
 
 -    **Join Type**:
 

@@ -10,9 +10,13 @@
 
 # Std ViewFullscreen/ru
 
+
+
 ## Описание
 
 The **Std ViewFullscreen** command switches [3D views](3D_view.md) to and from fullscreen mode. 3D views are automatically [undocked](Std_ViewDockUndockFullscreen.md) for fullscreen mode.
+
+
 
 ## Применение
 
@@ -21,6 +25,8 @@ The **Std ViewFullscreen** command switches [3D views](3D_view.md) to and from f
     -   Select the **View → Document window → <img src="images/Std_ViewFullscreen.svg" width=16px> Fullscreen** option from the menu. This option does not work if you want to switch off fullscreen mode and there are other docked 3D views.
     -   Select the **Document window → <img src="images/Std_ViewFullscreen.svg" width=16px> Fullscreen** option from the 3D view context menu.
     -   Use the keyboard shortcut: **F11**.
+
+
 
 ## Примечания
 
@@ -31,7 +37,7 @@ The **Std ViewFullscreen** command switches [3D views](3D_view.md) to and from f
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

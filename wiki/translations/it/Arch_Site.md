@@ -11,18 +11,33 @@
 # Arch Site/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gruppo standard di FreeCAD con quelle degli oggetti Arch. Esso è particolarmente adatto per rappresentare un intero sito del progetto o un terreno. Nei lavori di architettura basati su IFC, serve soprattutto per organizzare il modello, racchiudendo in esso gli oggetti [edificio](Arch_Building/it.md). Il sito è utilizzato anche per gestire e visualizzare un terreno fisico, e può calcolare i volumi di terra che devono essere aggiunti o rimossi.
+
+
+</div>
 
 
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare uno o più oggetti da includere nel nuovo sito
 2.  Premere il pulsante **<img src="images/Arch_Site.svg" width=16px> [Sito](Arch_Site/it.md)
 **, oppure premere i tasti **S** e **I**
+
+
+</div>
 
 
 
@@ -111,7 +126,13 @@ La geometria sito sarà ricalcolata e le proprietà aree, il perimetro e i volum
 
 Se nel proprio sistema è installato [Ladybug](https://www.ladybug.tools/ladybug.html), i [Siti](Arch_Site/it.md) di Arch possono visualizzare un diagramma solare o del vento. Per questo, le proprietà **Longitude**, **Latitude** e **Declination** (precedentemente era **North Deviation**) devono essere impostate correttamente, e la proprietà **Solar Diagram** o **Wind Rose** impostata su `True`. {{Version/it|0.17}} e {{Version/it|0.19}}
 
+
+<div class="mw-translate-fuzzy">
+
 **Nota**: Se non avete Ladybug, [pysolar](http://pysolar.org/) è ancora supportato per generare diagrammi solari, ma non rose dei venti. E\' richiesto Pysolar 0.7 o superiore; questa versione funziona solo con Python 3. Se serve questa funzione con Python 2, si deve avere Pysolar 0.6 in quanto questa è l\'ultima versione che funziona con Python 2. Tuttavia, Ladybug è uno strumento molto più potente che probabilmente verrà utilizzato di più in futuro, quindi si consiglia di utilizzarlo al posto di pysolar. Ladybug può essere installato semplicemente tramite [pip](https://github.com/ladybug-tools/ladybug).
+
+
+</div>
 
 ![](images/Freecad-solar-diagram.jpg )
 
@@ -191,6 +212,20 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/it
+⏵ [documentation index](../README.md) > Arch Site/it

@@ -24,11 +24,19 @@ This command is the third of three steps to convert a shell object made with the
 
 ## Usage
 
-1.  Select one or more edge(s).
-2.  Activate the <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **SheetMetal AddBend** command using one of the following:
-    -   The **<img src="images/SheetMetal_AddBend.svg" width=16px> [SheetMetal AddBend](SheetMetal_AddBend.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_AddBend.svg" width=16px> Make Bend** menu option.
-    -   The keyboard shortcut: **S** then **B**.
+1.  Select one or more edges.
+2.  There are several ways to invoke the command:
+    -   Press the **<img src="images/SheetMetal_AddBend.svg" width=16px> [Make Bend](SheetMetal_AddBend.md)** button.
+    -   Select the **SheetMetal → <img src="images/SheetMetal_AddBend.svg" width=16px> Make Bend** option from the menu.
+    -   Right-click in the [Tree view](Tree_view.md) or the [3D view](3D_view.md) and select the **SheetMetal → <img src="images/SheetMetal_AddBend.svg" width=16px> Make Bend** option from the context menu.
+    -   Use the keyboard shortcut: **S** then **B**.
+3.  The **Bend sharp corner Parameters** [Task panel](Task_panel.md) opens (introduced in version 0.5.00).
+4.  Optionally press the **Select** button to add more faces.
+    -   Press the **Preview** button to finish the selection and display the changes.
+5.  Optionally adjust the parameters in the Task panel.
+6.  Press the **OK** button to finish the command and close the Task panel.
+7.  A **SolidBend** object will be created consisting of one new bend at each selected edge.
+8.  Optionally adjust the parameters in the [Property editor](Property_editor.md).
 
  <img alt="" src=images/SheetMetal_ConvertShellObject-07.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-08.png  style="width:200px;"> 
 
@@ -42,18 +50,9 @@ See [SheetMetal AddRelief](SheetMetal_AddRelief#Notes.md) for hints about creati
 
 See also: [Property editor](Property_editor.md).
 
-A SheetMetal SolidBend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+A SheetMetal SolidBend object is derived from a [Part Feature](Part_Feature.md) object or, if it is inside a [PartDesign Body](PartDesign_Body.md), from a [PartDesign Feature](PartDesign_Feature.md) object, and inherits all its properties. It also has the following additional properties:
 
 ### Data
-
-
-{{Properties_Title|Base}}
-
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
-
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
-
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
 
 
 {{Properties_Title|Parameters}}

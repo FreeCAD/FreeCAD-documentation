@@ -3,7 +3,7 @@
    Name/pl: Rysunek Roboczy: Przesuń
    Name: Draft Move
    MenuLocation: Modyfikacja , Przesuń
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **M** **V**
    Version: 0.7
    SeeAlso: Draft_SubelementHighlight/pl
@@ -17,7 +17,7 @@
 
 Polecenie <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **Przesuń** - przesuwa lub kopiuje wybrane obiekty z jednego punktu do drugiego. W trybie elementu podrzędnego polecenie przesuwa wybrane punkty i krawędzie, lub kopiuje wybrane krawędzie [Linii](Draft_Line/pl.md) i [Polilinii](Draft_Wire/pl.md).
 
-Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
+Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [BIM](BIM_Workbench/pl.md).
 
 <img alt="" src=images/Draft_Move_example.jpg  style="width:400px;"> 
 *Przemieszczanie obiektu z jednego punktu do innego.*
@@ -31,7 +31,8 @@ Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysu
 1.  Opcjonalnie wybierz jeden lub więcej obiektów, albo jeden lub więcej elementów podrzędnych typu [linia](Draft_Line/pl.md) lub [polilinia](Draft_Wire/pl.md).
 2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Move.svg" width=16px> '''Przesuń'''**.
-    -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Move.svg" width=16px> Przesuń**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Move.svg" width=16px> Przesuń**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Modyfikacja → <img src="images/Draft_Move.svg" width=16px> Przesuń** z menu.
     -   Użyj skrótu klawiaturowego: **M**, a następnie **V**.
 3.  Jeśli nie zaznaczyłeś jeszcze żadnego obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 4.  Otworzy się panel zadań **Przesuń**. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
@@ -43,14 +44,14 @@ Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysu
 
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 1.0)*.
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź składowe X, Y i Z, i naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już żądane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor poza okno [widoku 3D](3D_view/pl.md).
 -   Aby użyć współrzędnych biegunowych, wprowadź wartość dla **Długość** i wartość w polu **Kąt**, a następnie naciśnij klawisz **Enter** po każdym z nich.
 -   Zaznacz pole wyboru **Kąt**, aby ograniczyć kursor do określonego kąta.
 -   Naciśnij **L**, aby zmienić aktywność z pola wprowadzania **X** na pole wprowadzania **Długość** i z powrotem. W zależności od pola wejściowego, które jest aktywne, pole wyboru **Kąt** jest zaznaczane lub odznaczane.
 -   Naciśnij klawisz **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne drugiego punktu są zależne od pierwszego punktu, w przeciwnym razie są odniesione do początku układu współrzędnych.
--   Naciśnij klawisz **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij klawisz **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij klawisz **N** lub kliknij pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie zostanie uruchomione ponownie po zakończeniu. Ten tryb naprawdę ma sens tylko wtedy, gdy włączony jest tryb kopiowania. W zależności od preferencji **Zaznacz obiekty bazowe po skopiowaniu**, albo oryginalne obiekty są wybierane do następnego wywołania polecenia, albo kopie, które zostały utworzone jako ostatnie. Zobacz [Preferencje](#Preferencje.md).
 -   Naciśnij klawisz **C** lub kliknij pole wyboru **Kopiuj**, aby przełączyć tryb kopiowania. Jeśli tryb kopiowania jest włączony, polecenie utworzy przeniesione kopie zamiast przenoszenia oryginalnych obiektów.
 -   Naciśnij przycisk **B** lub kliknij pole wyboru **Modyfikuj elementy podrzędne**, aby przełączyć tryb elementów podrzędnych. Jeśli tryb elementów podrzędnych jest włączony, polecenie będzie używać wybranych elementów podrzędnych zamiast całych obiektów. Elementy podrzędne muszą należeć do [linii](Draft_Line/pl.md) lub [polilinii](Draft_Wire/pl.md).

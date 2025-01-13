@@ -18,7 +18,7 @@
 
 ## Premiers pas 
 
-Nous travaillerons dans l\'<img alt="" src=images/_Workbench_Part.svg  style="width:24px;"> [Atelier Part](Part_Workbench/fr.md) - sélectionnez-le dans les menus via **Affichage → Atelier → Part** ou depuis le [sélecteur d\'ateliers](Std_Workbench/fr.md).
+Nous travaillerons dans l\'<img alt="" src=images/_Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) - sélectionnez-le dans les menus via **Affichage → Atelier → Part** ou depuis le [sélecteur d\'atelier](Std_Workbench/fr.md).
 
 -   Créez un nouveau document vide.
 -   Basculez vers la <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Vue isométrique](Std_ViewIsometric.md).

@@ -9,15 +9,21 @@
 
 # Std Edit/de
 
+
+
 ## Beschreibung
 
 Der **Std Bearbeiten**-Befehl aktiviert oder deaktiviert den Bearbeitungsmodus eines Objekts.
+
+
 
 ## Anwendung
 
 1.  Falls kein Objekt im Bearbeitungsmodus ist: wähle ein einzelnes Objekt.
 2.  Wähle die **Bearbeiten → <img src="images/Std_Edit.svg" width=16px> Bearbeitungsmodus umschalten**-Option aus dem Menü.
 3.  Entweder wird der vorgegebene Bearbeitungsmodus des gewählten Objekts aktiviert oder der bestehende Bearbeitungsmodus wird deaktiviert.
+
+
 
 ## Hinweise
 
@@ -26,12 +32,11 @@ Der **Std Bearbeiten**-Befehl aktiviert oder deaktiviert den Bearbeitungsmodus e
 -   Die verfügbare Funktionalität im Bearbeitungsmodus hängt vom Objekttyp ab.
 -   Der Bearbeitungsmodus kann auch durch Doppelklicken auf ein Objekts in der [Baumansicht](Tree_view/de.md) aktiviert werden. In diesem Fall kann der verwendete Bearbeitungsmodus mit der [Std BenutzerBearbeitungsModus](Std_UserEditMode/de.md)-Anweisung festgelegt werden.
 
+
+
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Zur Aktivierung des Bearbeitungsmodus eines Objekts benutze die `setEdit`-Methode des document-Objekts. Diese Methode ist nicht verfügbar, wenn sich FreeCAD im Konsolenmodus befindet.
 
@@ -62,7 +67,7 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

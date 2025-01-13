@@ -9,11 +9,15 @@
 
 # Std PythonHelp/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std PythonHilfe** startet einen Webserver, der über eine lokale Schnittstelle mit dem voreingestellten Internet-Browser des Systems kommuniziert. Der Webserver zeigt Informationen über die verfügbaren [Python](Python/de.md)-Module, Klassen und Funktionen von FreeCAD an. Die benötigten Seiten werden automatisch generiert.
 
-Der Webserver basiert auf dem Python Modul [pydoc](https://docs.python.org/3.8/library/pydoc.html#module-pydoc) und extrahiert daher die Dokumentationstexte (docstrings) von Python-Dateien (`.py`) sowie die Textdokumentation, die in den Python-Wrappern (`.xml`) definiert ist, die den zugrunde liegenden C++ Code offenlegen.
+Der Webserver basiert auf dem Python Modul [pydoc](https://docs.python.org/3.8/library/pydoc.html#module-pydoc) und extrahiert daher die Dokumentationstexte (docstrings) von Python-Dateien (***.py**) sowie die Textdokumentation, die in den Python-Wrappern (***.xml**) definiert ist, die den zugrunde liegenden C++ Code offenlegen.
+
+
 
 ## Anwendung
 
@@ -24,7 +28,7 @@ Der Webserver basiert auf dem Python Modul [pydoc](https://docs.python.org/3.8/l
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

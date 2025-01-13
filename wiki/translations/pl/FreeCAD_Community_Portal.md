@@ -1,7 +1,9 @@
 # FreeCAD Community Portal/pl
-This is the place to put all kind of FreeCAD-related stuff! If you work on something FreeCAD-related, please include it here!
+To jest miejsce do umieszczania wszelkiego rodzaju rzeczy związanych z FreeCAD! Jeśli pracujesz nad czymś związanym z FreeCAD, proszę zamieść to tutaj!
 
-## Places where FreeCAD appears on the net 
+
+
+## Miejsca, w których FreeCAD pojawia się w sieci 
 
 -   [Wikipedia](https://en.wikipedia.org/wiki/FreeCAD)
 -   [Softpedia](http://linux.softpedia.com/get/Multimedia/Graphics/FreeCAD-31097.shtml)
@@ -11,24 +13,34 @@ This is the place to put all kind of FreeCAD-related stuff! If you work on somet
 -   [Freshports](http://www.freshports.org/cad/freecad/)
 -   [Packman](http://packman.links2linux.de/package/2776)
 
-## FreeCAD-related projects 
 
--   [Architecture workflow](http://yorik.uncreated.net/guestblog.php?tag=freecad) : An example of how FreeCAD can begin to have its preliminary place in an architecture workflow\...
 
-## FreeCAD Community Addons 
+## Projekty związane z FreeCAD 
 
-These are FreeCAD community developed workbenches, scripts, macros, and addons for FreeCAD. Starting from v0.17 the Addon Manager was implemented in to FreeCAD core, and makes it extremely convenient to install addons approved by the community.
+-   [Przepływ pracy w architekturze](http://yorik.uncreated.net/guestblog.php?tag=freecad): Przykład tego, jak FreeCAD może zacząć mieć swoje wstępne miejsce w przepływie pracy w środowisku architektów \...
 
--   [FreeCAD GitHub addons repository](https://github.com/FreeCAD/FreeCAD-addons) is the GitHub repository that hosts FreeCAD addons.
--   [External workbenches](External_workbenches.md) is the wiki page dedicated to explaining more details about each Addon.
 
-## Publicity
 
-### Social networks 
+## Dodatki społeczności FreeCAD 
+
+Są to opracowane przez społeczność FreeCAD środowiska pracy, skrypty, makra i dodatki dla FreeCAD. Począwszy od wersji 0.17 Menedżer dodatków został zaimplementowany w rdzeniu FreeCAD i sprawia, że instalacja dodatków zatwierdzonych przez społeczność jest niezwykle wygodna.
+
+-   [Repozytorium dodatków FreeCAD GitHub](https://github.com/FreeCAD/FreeCAD-addons) to repozytorium GitHub, w którym znajdują się dodatki FreeCAD.
+-   [Zewnętrzne środowiska pracy](External_workbenches/pl.md) to strona wiki poświęcona wyjaśnieniu szczegółów dotyczących każdego dodatku.
+
+
+
+## Promocja
+
+
+
+### Serwisy społecznościowe 
 
 -   [yorik](User_Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
-### News Sites 
+
+
+### Witryny informacyjne 
 
 -   <http://makezine.com/>
 -   <http://www.webupd8.org/>
@@ -41,12 +53,16 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 -   <http://www.inside3dp.com/>
 -   <http://diy3dprinting.blogspot.com/>
 
-### Other Sites 
+
+
+### Inne witryny 
 
 -   <http://forum.lulzbot.com/viewforum.php?f=30>
 -   <http://forum.diigiit.com/>
 
-### Blogs
+
+
+### Blogi
 
 -   <http://www.blender3darchitect.com/>
 -   <http://linuxaideddesign.blogspot.de/>
@@ -54,29 +70,39 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 -   <http://opensourcedesigntools.blogspot.de/>
 -   [yorik](User_Yorik.md) - <http://yorik.uncreated.net>
 
-### French
+
+
+### Francuski
 
 -   <http://www.linuxgraphic.org/>
 -   <https://freecad-france.com/>
 -   <https://linuxfr.org/>
 
-### Spanish
+
+
+### Hiszpański
 
 -   <http://www.iearobotics.com/blog/>
 
-### Italian
+
+
+### Włoski
 
 -   <http://ingegnerialibera.altervista.org/blog/doku.php>
 
-### Polish
+
+
+### Polski
 
 -   <http://www.ubucentrum.net>
 -   <http://wkupiesila.blogspot.com>
 -   <http://cadblog.pl>
 
-## You too! 
 
--   See what you can do to [Help FreeCAD](Help_FreeCAD.md)\...
+
+## Ty również! 
+
+-   Zobacz, co możesz zrobić, aby [wesprzeć projekt FreeCAD](Help_FreeCAD/pl.md) \...
 
 
 

@@ -13,9 +13,17 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument vă permite să construiți tot felul de elemente de tip panou, de obicei pentru construcții de panouri, cum ar fi proiectul [WikiHouse](http://www.wikihouse.cc/), dar și pentru toate tipurile de obiecte bazate pe un profil plat.
+
+
+</div>
 
 <img alt="" src=images/Arch_Panel_example.jpg  style="width:700px;">
 
@@ -31,6 +39,8 @@ Din versiunea 0.17, Panoul Arch poate fi de asemenea utilizat pentru a crea prof
 
 <img alt="" src=images/Arch_panel_wave.jpg  style="width:700px;">
 
+
+
 ## Cum se folosește 
 
 
@@ -43,6 +53,8 @@ Din versiunea 0.17, Panoul Arch poate fi de asemenea utilizat pentru a crea prof
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -61,6 +73,8 @@ Din versiunea 0.17, Panoul Arch poate fi de asemenea utilizat pentru a crea prof
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -75,6 +89,8 @@ Din versiunea 0.17, Panoul Arch poate fi de asemenea utilizat pentru a crea prof
 
 
 </div>
+
+
 
 ## Proprietăți
 
@@ -125,13 +141,17 @@ Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, 
     -   If no `baseobj` is given, you can provide the numerical values for the `length`, `width`, and `thickness` to create a block panel.
 -   If a `placement` is given, it is used.
 
-Exempluː 
+Exempluː
+
+
 ```python
 import FreeCAD, Draft, Arch
 
 Rect = Draft.makeRectangle(1000, 400)
 Panel = Arch.makePanel(Rect, thickness=36)
 ```
+
+
 
 ## Tutoriale
 
@@ -153,6 +173,11 @@ Panel = Arch.makePanel(Rect, thickness=36)
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/ro
+⏵ [documentation index](../README.md) > Arch Panel/ro

@@ -160,10 +160,6 @@ See the forum thread, [PDF inside the project](https://forum.freecadweb.org/view
 
 -   See [Std ProjectUtil](Std_ProjectUtil.md).
 
-## Other
-
--   A file Converter utility [ImageConv](ImageConv.md).
-
 
 
 ---

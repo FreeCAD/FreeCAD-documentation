@@ -6,7 +6,7 @@
 
 Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.md).
 
-Une icône FreeCAD est composée de 6 éléments qui peuvent être mémorisés facilement en utilisant l\'acronyme \"SALCHO\": **S**troke, **A**lignment, **L**highting, **C**olor, **H**highlighting, **O**utline
+Une **icône** FreeCAD est composée de 6 éléments qui peuvent être mémorisés facilement en utilisant l\'acronyme \"SALCHO\": **S**troke, **A**lignment, **L**highting, **C**olor, **H**highlighting, **O**utline
 
 Voici un exemple concret mais arbitraire :
 
@@ -33,6 +33,8 @@ Cette icône s\'affiche comme suit:
 | <img alt="" src=images/FreeCAD_icon_example.svg  style="width:16px;"> | 6 px, petite taille, comme il apparaît dans la [vue en arborescence](tree_view/fr.md). |
 +++
 
+
+
 ## Couleurs
 
 
@@ -40,22 +42,67 @@ Cette icône s\'affiche comme suit:
 
 FreeCAD utilise une palette adaptée de la palette [Tango palette](https://web.archive.org/web/20190921043652/http://tango.freedesktop.org/tango_icon_theme_guidelines). Chaque couleur principale est disponible en 4 tons : Highlight, Base, Dark et Outline. Notez que le contour n\'est pas complètement noir mais une variation très sombre de la base.
 
-![](images/Green_tones.PNG ) 
-*Exemple d'une famille de couleurs à 4 tons (caméléon)*
++++++
+| #fce94f         | #edd400         | #c4a000         | #302b00         |
+| (252, 233, 79)  | (237, 212, 0)   | (196, 160, 0)   | (48, 43, 0)     |
+| Butter 1        | Butter 2        | Butter 3        | Butter 4        |
++=================+=================+=================+=================+
+| #8ae234         | #73d216         | #4e9a06         | #172a04         |
+| (138, 226, 52)  | (115, 210, 22)  | (78, 154, 6)    | (23, 42, 4)     |
+| Chameleon 1     | Chameleon 2     | Chameleon 3     | Chameleon 4     |
++++++
+| #fcaf3e         | #f57900         | #ce5c00         | #321900         |
+| (252, 175, 62)  | (245, 121, 0)   | (206, 92, 0)    | (50, 25, 0)     |
+| Orange 1        | Orange 2        | Orange 3        | Orange 4        |
++++++
+| #729fcf         | #3465a4         | #204a87         | #0b1521         |
+| (114, 159, 207) | (52, 101, 164)  | (32, 74, 135)   | (11, 21, 33)    |
+| Sky Blue 1      | Sky Blue 2      | Sky Blue 3      | Sky Blue 4      |
++++++
+| #ad7fa8         | #75507b         | #5c3566         | #171018         |
+| (173, 127, 168) | (117, 80, 123)  | (92, 53, 102)   | (23, 16, 24)    |
+| Plum 1          | Plum 2          | Plum 3          | Plum 4          |
++++++
+| #e9b96e         | #c17d11         | #8f5902         | #271903         |
+| (233, 185, 110) | (193, 125, 17)  | (143, 89, 2)    | (39, 25, 3)     |
+| Chocolate 1     | Chocolate 2     | Chocolate 3     | Chocolate 4     |
++++++
+| #ef2929         | #cc0000         | #a40000         | #280000         |
+| (239, 41, 41)   | (204, 0, 0)     | (164, 0, 0)     | (40, 0, 0)      |
+| Scarlet Red 1   | Scarlet Red 2   | Scarlet Red 3   | Scarlet Red 4   |
++++++
+| #34e0e2         | #16d0d2         | #06989a         | #042a2a         |
+| (52, 224, 226)  | (22, 208, 210)  | (6, 152, 154)   | (4, 42, 42)     |
+| FreeTeal 1      | FreeTeal 2      | FreeTeal 3      | FreeTeal 4      |
++++++
+| #ffffff         | #eeeeec         | #d3d7cf         | #babdb6         |
+| (255, 255, 255) | (238, 238, 236) | (211, 215, 207) | (186, 189, 182) |
+| Snowy White     | Aluminium 1     | Aluminium 2     | Aluminium 3     |
++++++
+| #888a85         | #555753         | #2e3436         | #000000         |
+| (136, 138, 133) | (85, 87, 83)    | (46, 52, 54)    | (0, 0, 0)       |
+| Aluminium 4     | Aluminium 5     | Aluminium 6     | Jet Black       |
++++++
 
-Voir [FreeCAD palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) pour la gamme complète. Une sélection de quelques couleurs clés.
+
+
+*Palette complète*
+
+Une sélection de quelques couleurs clés.
 
       
-                                                                                                                                                          Utilisez les tons jaunes pour les outils qui créent des objets; pour un exemple, voir [Atelier Part](Part_Workbench/fr.md) et [Atelier Draft](Draft_Workbench/fr.md).
-  style=\"background-color:#729fcf;\|   style=\"background-color:#3465a4;\|   style=\"background-color:#204a87;\|   style=\"background-color:#0b1521;\|   Utilisez les tons bleus pour les outils qui modifient les objets; pour un exemple, voir [Atelier Part](Part_Workbench/fr.md) et [Atelier Draft](Draft_Workbench/fr.md).
-  style=\"background-color:#34e0e2\|    style=\"background-color:#16d0d2\|    style=\"background-color:#06989a\|    style=\"background-color:#042a2a\|    Utilisez les tons bleu canard pour les outils liés à la vue; pour un exemple, voir [Le menu affichage](Std_View_Menu/fr.md).
-  style=\"background-color:#ef2929\|    style=\"background-color:#cc0000\|    style=\"background-color:#a40000\|    style=\"background-color:#280000\|    Utilisez les tons rouges pour les outils liés à la contrainte; pour un exemple, voir [Atelier Sketcher](Sketcher_Workbench/fr.md).
+                                                                                                                                                          Utiliser les tons jaunes pour les outils qui créent des objets, par exemple voir l\'[atelier Part](Part_Workbench/fr.md) et l\'[atelier Draft](Draft_Workbench/fr.md).
+  style=\"background-color:#729fcf;\|   style=\"background-color:#3465a4;\|   style=\"background-color:#204a87;\|   style=\"background-color:#0b1521;\|   Utiliser les tons bleus pour les outils qui modifient les objets, par exemple voir l\'[atelier Part](Part_Workbench/fr.md) et l\'[atelier Draft](Draft_Workbench/fr.md).
+  style=\"background-color:#34e0e2\|    style=\"background-color:#16d0d2\|    style=\"background-color:#06989a\|    style=\"background-color:#042a2a\|    Utiliser les tons bleus sarcelles pour les outils liés à l\'affichage, par exemple voir le [Std Menu Affichage](Std_View_Menu/fr.md).
+  style=\"background-color:#ef2929\|    style=\"background-color:#cc0000\|    style=\"background-color:#a40000\|    style=\"background-color:#280000\|    Utiliser les tons rouges pour les outils liés aux contraintes, par exemple voir l\'[atelier Sketcher](Sketcher_Workbench/fr.md).
       
 
    
   style=\"width: 25%;\|Pourquoi me limiter à ces couleurs ?   Restreindre les couleurs à une palette définie permet d\'éviter une iconographie hétérogène et améliore la lisibilité lorsqu\'il existe de nombreuses icônes.
-  Comment utiliser la palette FreeCAD ?                       L\'installation de [la palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) est aussi simple que de la [copier dans votre dossier de palette Inkscape](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
+  Comment utiliser la palette FreeCAD ?                       L\'installation de [la palette](https://gist.github.com/GAZ082/724d2092b2986e3b17b9663f34093cf5) est aussi simple que de la [copier dans votre dossier de palette Inkscape](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
    
+
+
 
 ## Grille et Largeur du trait 
 
@@ -79,6 +126,8 @@ Les traits ne doivent pas être *plus petits* que 2 pixels, avec des extrémité
   Comment puis-je me conformer à cela?                                              Si vous utilisez Inkscape, accédez à **Fichier → Propriétés du document** et confirmez que la largeur, la hauteur et les unités de votre page sont correctes. Ensuite, allez dans l\'onglet **Grilles**, cliquez sur **Nouveau**, définissez les unités sur `px`, `Spacing X` et `Spacing Y` à 1 et `Grille principale tous les` à 2.
    
 
+
+
 ## Contour
 
 
@@ -93,6 +142,8 @@ En vous basant sur la couleur principale de l\'icône, assurez-vous qu\'il y a u
   style=\"width: 25%\";\|Pourquoi l\'esquisse est-elle nécessaire?   Le contour est le squelette sur lequel tout le reste se bloque en ajoutant un contraste de forme. L\'utilisation de la couleur Outline ou de la couleur Dark dépend de la situation, mais sans cette ligne, la gamme d\'arrière-plans sur lesquels l\'icône est visible est considérablement limitée.
   Comment puis-je me conformer à cela?                               Ajoutez simplement un trait de 2 pixels autour de chaque partie de l\'icône qui sera adjacente à la couleur d\'arrière-plan, c\'est-à-dire que le contour est destiné aux traits externes. Dans le cas de formes qui ont un trou au milieu, par exemple un beignet, le contour doit également être ajouté au trou intérieur. Accrochez les nœuds de votre chemin à la grille chaque fois que possible, en visant les intersections mineures de la grille.
    
+
+
 
 ## Surbrillance
 
@@ -109,6 +160,8 @@ Pour mettre en surbrillance, ajoutez un trait interne de 2px pour aider à faire
   Comment puis-je me conformer à cela ?                        Tout comme le contour, tracez simplement un trait de 2px autour du côté interne du contour, en alignant les nœuds sur la grille lorsque cela est possible, en visant les intersections de grille mineures.
    
 
+
+
 ## Éclairage
 
 
@@ -124,11 +177,15 @@ Selon les directives de Tango, si vous ajoutez un effet d\'éclairage dégradé,
   Comment puis-je me conformer à cela ?                     Définissez le remplissage comme un dégradé linéaire ou radial. Dans Inkscape, cela est disponible dans les paramètres de trait et de remplissage. Avec \"F2\", il est possible de déplacer les nœuds d\'ajustement du gradient pour s\'assurer qu\'ils sont à l\'angle voulu.
    
 
+
+
 ## Format d\'enregistrement recommandé 
 
 Il est conseillé de faire toutes les icônes en format [SVG](SVG.md), par exemple avec [Inkscape](http://inkscape.org). Cela rend plus facile l'application des changements et des icônes dérivés dans l\'espace de la même application.
 
 Lors de la validation des icônes à utiliser directement par FreeCAD (dans un fichier \*.qrc), enregistrez-les sous \"Plain SVG\". Cela réduira la taille de l\'icône et économisera l\'espace disque et mémoire.
+
+
 
 ## Remarques de clôture 
 
@@ -136,9 +193,13 @@ Rappelez-vous : **SALCHO** (AVC, alignement, éclairage, couleur, mise en évide
 
 Voici quelques conseils pour vérifier votre travail :
 
+
+
 ### Vérification de la taille 
 
 Inkscape dispose d\'un outil pratique pour vérifier votre icône à différentes tailles. Allez dans **Affichage → Aperçu de l'icône...** et il vous montrera des aperçus de votre icône redimensionnée à 16, 24, 32 et 64 pixels.
+
+
 
 ### Vérification de votre contour 
 
@@ -153,6 +214,8 @@ Inkscape dispose d\'un outil pratique pour vérifier votre icône à différente
    
   Mon icône est à peine visible.   Vous avez un contraste de forme médiocre. Vérifiez le contour et mettez en surbrillance, l\'un d\'entre eux est probablement manquant ou mal appliqué.
    
+
+
 
 ### Vérification de votre contraste 
 

@@ -6,12 +6,12 @@ Après l\'importation, le modèle n\'est (pour FreeCAD) qu\'un assemblage de fac
 Pour ce faire :
 
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md).
-2.  Sélectionnez le maillage et allez au menu **Part → [Créer une forme à partir du maillage](Part_ShapeFromMesh/fr.md)** ou cliquez sur <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:24px;"> [Part Créer une forme à partir du maillage](Part_ShapeFromMesh/fr.md).
-3.  Cliquez sur **OK** dans le dialogue.
-4.  Sélectionnez la forme nouvellement créée.
+2.  Sélectionnez le maillage et allez au menu **Part → [Créer une forme à partir du maillage](Part_ShapeFromMesh/fr.md)** ou cliquez sur le bouton <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:24px;"> [Créer une forme à partir du maillage](Part_ShapeFromMesh/fr.md).
+3.  Cliquez sur **OK** dans la fenêtre de dialogue.
+4.  Sélectionnez la forme créée.
 5.  Sélectionnez **Part → [Convertir en solide](Part_MakeSolid/fr.md)**.
 6.  Sélectionnez le nouveau solide créé.
-7.  Aller à **Part → [Affiner la forme](Part_RefineShape/fr.md)** ou pressez le bouton <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Affiner la forme](Part_RefineShape/fr.md).
+7.  Allez à **Part → Créer une copie → [Affiner la forme](Part_RefineShape/fr.md)** ou pressez le bouton <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Affiner la forme](Part_RefineShape/fr.md).
 
 **Remarque :** la dernière étape n'est pas nécessaire mais elle nettoiera le solide de la plupart de ses arêtes résiduelles sur les surfaces planes et cylindriques.
 
@@ -21,18 +21,18 @@ Pour ce faire :
 
 ### \"cannot convert because shape is not a shell\" 
 
-Votre coque semble avoir des erreurs, peut-être qu\'elle n\'est pas fermée (elle serait trouée). Étant donné que les fonctions de maillage dans FreeCAD sont un peu limitées pour le moment, vous pouvez essayer d'examiner et de réparer votre modèle avec un logiciel tiers. Après cela, vous pouvez essayer à nouveau d'importer et de convertir votre modèle.
+Votre coque semble avoir des erreurs, peut-être qu\'elle n\'est pas fermée (elle serait trouée). Étant donné que les fonctions de l\'atelier Mesh de FreeCAD sont un peu limitées pour le moment, vous pouvez essayer d'examiner et de réparer votre modèle avec un logiciel tiers. Après cela, vous pouvez essayer à nouveau d'importer et de convertir votre modèle.
 
 
 
 ## Programmes tierces 
 
--   [Meshlab](http://meshlab.sourceforge.net/)
+-   [MeshLab](https://www.meshlab.net/)
     -   licence : open source (GPL V2)
     -   fonctionne sous Windows 32/64 bits, Linux et macOS
--   [netFabb basique](http://www.netfabb.com/downloadcenter.php?basic=1)
+-   [Meshmixer](https://meshmixer.com/)
     -   Licence : freeware
-    -   fonctionne sous Windows XP/7/8, Linux et macOS
+    -   fonctionne sous Windows 64-bit
 
 
 
@@ -45,7 +45,7 @@ Votre coque semble avoir des erreurs, peut-être qu\'elle n\'est pas fermée (el
 
 ## En relation 
 
--   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export/fr.md)
+-   [FreeCAD How to Import Export](FreeCAD_Howto_Import_Export/fr.md)
 
 
 

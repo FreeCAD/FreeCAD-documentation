@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Downgrade
    Name/fr: Draft Désagréger
-   MenuLocation: Modification , Désagréger
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft/BIM : Modification , Désagréger
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **D** **N**
    SeeAlso: Draft_Upgrade/fr, Part_Cut/fr
 ---
@@ -15,7 +15,7 @@
 La commande <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Draft Désagréger** déclasse les objets sélectionnés. Le résultat dépend du nombre d\'objets sélectionnés et de leur type. La commande peut par exemple déconstruire un solide 3D en faces séparées et un fil en arêtes séparées. Si deux faces sont sélectionnées, un objet [Part Soustraction](Part_Cut/fr.md) est créé à partir de celles-ci. Notez que tous les objets ne peuvent pas être déclassés. Cette commande est le pendant de la commande [Draft Agréger](Draft_Upgrade/fr.md).
 
 <img alt="" src=images/Draft_Downgrade_example.jpg  style="width:400px;"> 
-*Deux faces se chevauchant sont déclassées en un objet Part Soustraction, qui est déclassé en une face. Cette face est ensuite déclassée en un fil fermé, qui est finalement déclassé en arêtes séparées.*
+*Deux faces se chevauchant sont désagrégées en un objet Part Soustraction, qui est désagrégé en une face. Cette face est ensuite déclassée en une polyligne fermée, qui est finalement désagrégée en arêtes séparées.*
 
 
 
@@ -24,9 +24,10 @@ La commande <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **D
 1.  En option, sélectionnez un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Downgrade.svg" width=16px> [Désagréger](Draft_Downgrade/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Downgrade.svg" width=16px> Désagréger** dans le menu.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionnez l\'option **Modification → <img src="images/Draft_Downgrade.svg" width=16px> Désagréger** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionnez l\'option **Modification → <img src="images/Draft_Downgrade.svg" width=16px> Désagréger** du menu.
     -   Utilisez le raccourci clavier : **D** puis **N**.
-3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
+3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [vue 3D](3D_view/fr.md).
 
 
 
@@ -41,7 +42,7 @@ Pour désagréger des objets, utilisez la méthode `downgrade` du module Draft.
 downgrade_list = downgrade(objects, delete=False, force=None)
 ```
 
--    `objects`contient les objets à déclasser. Il s\'agit soit d\'un objet unique, soit d\'une liste d\'objets.
+-    `objects`contient les objets à désagréger. Il s\'agit soit d\'un objet unique, soit d\'une liste d\'objets.
 
 -   Si `delete` est `True`, les objets sources sont supprimés.
 

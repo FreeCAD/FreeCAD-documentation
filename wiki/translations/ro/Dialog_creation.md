@@ -15,6 +15,8 @@ In this example, the entire interface is defined in [Python](Python.md). Althoug
 *Two general methods to create interfaces, by including the interface in the Python file, or by using `.ui* files.`
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Proiectarea dialogului 
@@ -65,6 +67,8 @@ Este vorba despre tot ce trebuie să facem în Qt Designer. Un ultim lucru, totu
 </div>
 
 ![](images/Qtpropeditor.jpg )
+
+
 
 ## Traducerea dialogului nostru în python 
 
@@ -278,6 +282,8 @@ class plane():
       self.d.show()
 
 ```
+
+
 
 
 <div class="mw-translate-fuzzy">

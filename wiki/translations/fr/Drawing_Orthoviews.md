@@ -14,6 +14,8 @@ L\'outil Orthoviews insère un ensemble de projections orthographiques de l\'obj
 
 L\'outil Orthoviews crée toutes les projections orthographiques à l\'emplacement approprié pour la vue principale donnée.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez une fonctionnalité dans l\'arborescence du modèle.
@@ -33,6 +35,8 @@ Selon les sélections effectuées, certaines options peuvent ne pas être dispon
 -   **Axis aligned right**: choisissez l\'axe qui pointe vers la droite sur la feuille de dessin. L\'axe restant sera vertical sur la page.
 -   **Secondary views**: choisissez les vues que vous souhaitez créer. La vue principale se situe au centre des cases à cocher et est orientée par les options {{Variable|View from}} et {{Variable|Axis aligned right}}. Des vues secondaires seront créées pour chaque case cochée.
 
+
+
 ### Généralités
 
 -   **Auto scale / position**: si cette case est cochée, l\'échelle de vue, l\'emplacement et l\'espacement seront choisis de manière à utiliser au mieux l\'espace disponible sur la page. Si cette case n\'est pas cochée, l\'utilisateur spécifie l\'échelle, l\'emplacement et l\'espacement.
@@ -42,9 +46,13 @@ Selon les sélections effectuées, certaines options peuvent ne pas être dispon
 -   **Show hidden lines**: si cette option est sélectionnée, les lignes cachées seront visibles dans les vues créées.
 -   **Show smooth lines**: si cette option est sélectionnée, affiche les lignes où la courbure est discontinue (par exemple, lorsqu\'un congé est relié à une partie plate).
 
+
+
 ## Propriétés
 
 Il n\'y a pas de propriétés pour cette commande. La commande crée des propriétés pour chacune des vues individuelles.
+
+
 
 ## Script
 
@@ -53,11 +61,6 @@ Orthoviews n\'est pas appelé dans les scripts. Les vues individuelles créées 
 ## Limitations
 
 A ajouter.
-
-## Tutoriels
-
--   [Tutoriel de Dessin](Drawing_tutorial/fr.md) introduction à la création de plans avec l\'atelier de dessin.
--   [Manuel : Génération de dessins 2D](Manual:Generating_2D_drawings/fr.md) avec l\'atelier Drawing et l\'extension Cotation du dessin.
 
 
 

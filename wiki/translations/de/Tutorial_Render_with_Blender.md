@@ -18,7 +18,7 @@
 
 ## Einführung
 
-This tutorial shows how to produce a rendered image in [Blender](https://www.blender.org/), beginning from a part or assembly created with FreeCAD. It assumes that the user already created the part in FreeCAD, or has imported it into it. Then this part is exported to Blender for rendering.
+Diese Anleitung zeigt, wie man die Darstellung eines mit FreeCAD erstellten Bauteils oder einer Baugruppe in [Blender](https://www.blender.org/) generiert. Es wird angenommen, dass der Anwender das Bauteil bereits in FreeCAD erstellt oder importiert hat; dann wird dieses Bauteil zum rendern nach Blender exportiert.
 
 It produces a rendering with Blender 2.80 with both the EEVEE and Cycles renderers. It shows various [Python](Python.md) commands that can be used to perform actions quicker both in FreeCAD and Blender.
 

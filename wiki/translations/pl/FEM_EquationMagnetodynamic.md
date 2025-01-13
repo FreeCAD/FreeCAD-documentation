@@ -10,6 +10,10 @@
 
 # FEM EquationMagnetodynamic/pl
 
+
+
+## Opis
+
 To równanie przeprowadza analizę z użyciem [równań Maxwella](https://pl.wikipedia.org/wiki/R%C3%B3wnania_Maxwella).
 
 Informacje o teorii stojącej za tym równaniem można znaleźć w dokumencie [Elmer models manual](http://www.elmerfem.org/blog/documentation/), w sekcji **Computation of Magnetic Fields in 3D** *(obliczenia pól magnetycznych w 3D)*.

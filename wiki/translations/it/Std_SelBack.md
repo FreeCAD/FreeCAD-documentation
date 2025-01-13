@@ -38,7 +38,7 @@ Il comando **Selezione precedente** ripristina la selezione [Vista ad albero](Tr
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

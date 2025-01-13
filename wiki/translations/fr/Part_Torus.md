@@ -23,7 +23,7 @@ Un Part Tore peut être transformé en un segment de tore en modifiant sa propri
 
 1.  Il y a plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Part_Torus.svg" width=16px> [Tore](Part_Torus/fr.md)**.
-    -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Torus.svg" width=16px> Tore** dans le menu.
+    -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Torus.svg" width=16px> Tore** du menu.
 2.  Le tore est créé.
 3.  Vous pouvez modifier les dimensions et le **Placement** du tore en effectuant l\'une des opérations suivantes :
     -   Double-cliquez sur l\'objet dans la [vue en arborescence](Tree_view/fr.md) :

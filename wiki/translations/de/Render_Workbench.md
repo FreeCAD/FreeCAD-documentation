@@ -9,31 +9,25 @@
 
 Der Arbeitsbereich Render dient dazu, hochwertige Abbildungen von FreeCAD-Modellen mit Hilfe externer quelloffener Rendering-Engines zu errechnen.
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
 Image:Pabellon_de_Barcelona.png\|Barcelona pavilion
-Screenshot Image:Pabellon_de_Barcelona_Pov_large.png\|Barcelona pavilion
-Povray rendering Image:Pabellon_de_Barcelona_Cycles.png\|Barcelona pavilion
-Cycles rendering Image:Asm_V4.png\|Asm V4
-Screenshot Image:Asm_V4_lux.png\|Asm V4
-LuxCore rendering Image:Asm_V4_ospray2.png\|Asm V4
-Ospray rendering Image:Church_of_the_light.png\|Church of the light
-Screenshot Image:Church_of_the_light_lux2.png\|Church of the light
-LuxCore rendering Image:Church_of_the_light_cycles.png\|Church of the light
-Cycles rendering Image:Car.png\|Car
-Screenshot Image:Car_ospray.png\|Car
-Ospray rendering Image:Car_lux.png\|Car
-LuxCore rendering Image:Brick_assembly.png\|Brick assembly
-Screenshot Image:Brick_assembly_appleseed.png\|Brick assembly
-Appleseed rendering Image:Brick_assembly_luxcore.png\|Brick assembly
-Luxcore rendering Image:VillaSavoye.png\|Villa Savoye
-Screenshot Image:VillaSavoye appleseed.png\|Villa Savoye
-Appleseed rendering Image:VillaSavoye Cycles.png\|Villa Savoye
-Cycles rendering
-
-
-</div>
+Bildschirmaufnahme Image:Pabellon_de_Barcelona_Pov_large.png\|Barcelona pavilion
+Povray-Rendering Image:Pabellon_de_Barcelona_Cycles.png\|Barcelona pavilion
+Cycles-Rendering Image:Asm_V4.png\|Asm V4
+Bildschirmaufnahme Image:Asm_V4_lux.png\|Asm V4
+LuxCore-Rendering Image:Asm_V4_ospray2.png\|Asm V4
+Ospray-Rendering Image:Church_of_the_light.png\|Church of the light
+Bildschirmaufnahme Image:Church_of_the_light_lux2.png\|Church of the light
+LuxCore-Rendering Image:Church_of_the_light_cycles.png\|Church of the light
+Cycles-Rendering Image:Car.png\|Car
+Bildschirmaufnahme Image:Car_ospray.png\|Car
+Ospray-Rendering Image:Car_lux.png\|Car
+LuxCore-Rendering Image:Brick_assembly.png\|Brick assembly
+Bildschirmaufnahme Image:Brick_assembly_appleseed.png\|Brick assembly
+Appleseed-Rendering Image:Brick_assembly_luxcore.png\|Brick assembly
+Luxcore-Rendering Image:VillaSavoye.png\|Villa Savoye
+Bildschirmaufnahme Image:VillaSavoye appleseed.png\|Villa Savoye
+Appleseed-Rendering Image:VillaSavoye Cycles.png\|Villa Savoye
+Cycles-Rendering
 
 Als reiner Python-Arbeitsbereich fügt sich Render nahtlos in FreeCAD ein: Die ganze zu rendernde Szene - Objekte, Beleuchtung, Werkstoffe, Kamera, usw. - kann mit FreeCAD-Objekten beschrieben werden, um dann zu externen Renderern exportiert zu werden.
 
@@ -73,29 +67,13 @@ Im Quick-Start-Modus, nach der vollständigen Installation des Arbeitsbereiches,
 
 </div>
 
+**Und ein erstes Rendering des eigenen Modells sollte fertig sein.**
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-**And you should get a first rendering of your model.**
-
-
-</div>
+Weitere Anleitungen findet man im [GitHub-Repository](https://github.com/FreeCAD/FreeCAD-render) oder in der Online-Hilfe.
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-More instructions can be found in the [GitHub repository](https://github.com/FreeCAD/FreeCAD-render) or the online help.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Features
-
-
-</div>
+## Funktionen
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">

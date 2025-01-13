@@ -157,6 +157,13 @@ Eine Wendel, die sich nicht selbst durchdringt, ist sichtbar, wenn **Werkzeuge �
 
 
 
+## Hinweise
+
+-   Ein <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [ShapeBinder](PartDesign_ShapeBinder/de.md) kann nicht als Profil verwendet werden.
+-   Wird ein <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [Teilformbinder](PartDesign_SubShapeBinder/de.md) (SubShapeBinder) als Profil verwendet, funktioniert die Auswahl in der [Baumansicht](Tree_view/de.md) nichtl, stattdessen muss die Fläche des Teilformbinders in der [3D-Ansicht](3D_view/de.md) ausgewählt werden.
+
+
+
 
 
 {{PartDesign Tools navi

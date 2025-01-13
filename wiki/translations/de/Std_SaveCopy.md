@@ -10,9 +10,13 @@
 
 # Std SaveCopy/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std KopieSpeichern** speichert eine Kopie des aktiven Dokuments unter einem neuen Dateinamen.
+
+
 
 ## Anwendung
 
@@ -20,20 +24,17 @@ Der Befehl **Std KopieSpeichern** speichert eine Kopie des aktiven Dokuments unt
 2.  Einen Dateinamen im Dialogfeld eingeben.
 3.  Schaltfläche **Speichern** drücken.
 
+
+
 ## Optionen
 
 -    **Esc**oder Schaltfläche **Abbrechen** drücken, um den Befehl abzubrechen.
 
-## Einstellungen
 
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um eine Kopie eines Dokuments zu speichern, kann man die Methode `saveCopy` des Document-Objekts verwenden.
 
@@ -57,7 +58,7 @@ doc.saveCopy(fnm)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

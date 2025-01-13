@@ -10,6 +10,8 @@
 
 # FEM EquationFlow/de
 
+## Description
+
 Diese Gleichung berechnet zähflüssige Fluidströme unter Verwendung der [Navier-Stokes-Gleichungen](https://en.wikipedia.org/wiki/Navier-Stokes_Equations) (engl.).
 
 For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Navier-Stokes Equations*.

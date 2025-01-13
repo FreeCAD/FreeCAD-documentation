@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Circle
    Name/fr: Draft Cercle
-   MenuLocation: Draft , Cercle
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Formes , Cercle<br><br>BIM : Formes 2D , Cercle
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **C** **I**
    Version: 0.7
    SeeAlso: Draft_Arc/fr, Draft_Arc_3Points/fr
@@ -28,19 +28,20 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyer sur le **<img src="images/Draft_Circle.svg" width=16px> [Cercle](Draft_Circle/fr.md)**.
-    -   Sélectionner l\'option **Draft → <img src="images/Draft_Circle.svg" width=16px> Cercle** du menu.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionner l\'option **Formes → <img src="images/Draft_Circle.svg" width=16px> Cercle** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionner l\'option **Formes 2D → <img src="images/Draft_Circle.svg" width=16px> Cercle** du menu.
     -   Utiliser le raccourci clavier : **C** puis **I**.
 2.  Le panneau de tâches **Cercle** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisir le premier point, le centre du cercle dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+3.  Choisir le premier point, le centre du cercle dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
 4.  Choisir le deuxième point dans la [vue 3D](3D_view/fr.md) ou entrer un **Rayon**.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut (pour la version 1.0).
 
--   Pour saisir manuellement les coordonnées du centre, entrez les valeurs de X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **F** ou cliquez sur la case à cocher **Rempli** pour basculer en mode rempli. Si le mode rempli est activé, le cercle créé aura {{PropertyData/fr|Make Face}} défini sur `True` et aura une face remplie.
+-   Pour saisir manuellement les coordonnées du centre, entrez les valeurs de X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md).
+-   Appuyez sur **F** ou cliquez sur la case à cocher **Remplir** pour basculer en mode rempli. Si le mode rempli est activé, le cercle créé aura {{PropertyData/fr|Make Face}} défini sur `True` et aura une face remplie.
 -   Appuyez sur **N** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des cercles.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Échap** ou sur le bouton **Fermer** pour interrompre la commande.

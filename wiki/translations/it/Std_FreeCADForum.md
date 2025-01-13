@@ -27,7 +27,7 @@ Attualmente il comando punta a [<https://forum.freecad.org>](https://forum.freec
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

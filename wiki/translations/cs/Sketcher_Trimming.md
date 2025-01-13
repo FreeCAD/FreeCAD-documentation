@@ -25,9 +25,7 @@ Tento nástroj ořezává přímku nebo kružnici na nejbližší přečnívají
 
 </div>
 
-This tool trims an edge at the nearest intersections with other edges. If the selected edge does not intersect other edges it will be deleted.
-
-![](images/SketcherTrimExample1.png ) ![](images/SketcherTrimExample2.png ) ![](images/SketcherTrimExample3.png )
+The <img alt="" src=images/Sketcher_Trimming.svg  style="width:24px;"> [Sketcher Trimming](Sketcher_Trimming.md) tool trims an edge at the nearest intersections with other edges. If the selected edge does not intersect other edges it will be deleted.
 
 
 
@@ -38,6 +36,8 @@ This tool trims an edge at the nearest intersections with other edges. If the se
 
 
 </div>
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
 
 <div class="mw-translate-fuzzy">

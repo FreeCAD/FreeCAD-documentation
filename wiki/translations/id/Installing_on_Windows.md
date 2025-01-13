@@ -60,21 +60,7 @@ Note that this {{Incode|/NCRC}} flag is **not recommended** since the corruption
 
 ## Chocolatey
 
-It is highly recommended that you use a package manager such as Chocolatey to keep your software updated. You can install Chocolatey following [these instructions](https://chocolatey.org/install) and then open a PowerShell terminal as admin and run:
-
-
-{{Code|lang=text|code=
-choco install freecad
-}}
-
-Every once in a while you can update your software with:
-
-
-{{Code|lang=text|code=
-choco upgrade freecad
-}}
-
-This will get the latest version available from the Chocolatey repository. If there are any issues with the Chocolatey package, you can contact maintainers on [this page](https://chocolatey.org/packages/freecad).
+Using the [Chocolatey](https://chocolatey.org/install) package manager is currently not recommended as that repository is no longer kept up-to-date.
 
 ## Uninstallation
 

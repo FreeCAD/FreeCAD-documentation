@@ -5,7 +5,7 @@
    Author: User:WandererFan
    Time: Moins d'une heure
    FCVersion: 0.17 ou ultérieur
-   Files: https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd?raw=true Exemple sous 0.17 Part Design<br/>https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd?raw=true Exemple tutoriel TechDraw
+   Files: https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd?raw=true Exemple sous 0.17 PartDesign<br/>https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd?raw=true Exemple tutoriel TechDraw
 ---
 
 # Basic TechDraw Tutorial/fr
@@ -22,7 +22,7 @@ Ce tutoriel présente au nouvel utilisateur certains des outils et techniques ut
 
 ## Avant de commencer 
 
-Téléchargez le [fichier exemple](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd?raw=true) du tutoriel Part Design.
+Téléchargez le [fichier exemple](https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd?raw=true) du tutoriel PartDesign.
 
 
 

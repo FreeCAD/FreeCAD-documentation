@@ -42,32 +42,32 @@ To learn more about stress linearization plots, you can read [this description](
     -   Minor principal,
 
     -   
-        <small>(v0.22)</small> 
+        <small>(v1.0)</small> 
         
         : Stress xx component,
 
     -   
-        <small>(v0.22)</small> 
+        <small>(v1.0)</small> 
         
         : Stress xy component,
 
     -   
-        <small>(v0.22)</small> 
+        <small>(v1.0)</small> 
         
         : Stress xz component,
 
     -   
-        <small>(v0.22)</small> 
+        <small>(v1.0)</small> 
         
         : Stress yy component,
 
     -   
-        <small>(v0.22)</small> 
+        <small>(v1.0)</small> 
         
         : Stress yz component,
 
     -   
-        <small>(v0.22)</small> 
+        <small>(v1.0)</small> 
         
         : Stress zz component.
 2.  Invoke the command either by:

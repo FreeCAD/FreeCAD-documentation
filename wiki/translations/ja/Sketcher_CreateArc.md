@@ -16,11 +16,16 @@
 
 ## 説明
 
+
+<div class="mw-translate-fuzzy">
+
 このツールは中心、円上の開始角度、終了角度の三点のピックによって円弧を描きます。
 
-このツールを起動するとマウスポインターが赤い円弧アイコンのついた白い十字に変わります。またポインターの指す座標がリアルタイムに青色で横に表示されます。
 
-<img alt="中心選択後、ドラッグによって半径を設定?" src=images/Sketcher_ArcExample1.png ) ![中心と開始角度選択後、ドラッグして終了角度を設定?](images/Sketcher_ArcExample2.png  style="width:407" height="360px;">
+</div>
+
+<img alt="" src=images/Sketcher_ArcExample3.png  style="width:400px;"> 
+*Arc created in Center mode with automatically applied constraints defined by entering all On-View-Parameters*
 
 
 
@@ -31,6 +36,11 @@
 
 
 </div>
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
+Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">

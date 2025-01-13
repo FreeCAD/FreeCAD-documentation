@@ -1,5 +1,5 @@
 # Category:Image/uk
-This category lists pages related to the [Image Workbench/uk](Image_Workbench/uk.md).
+This category is for pages related to the [Image Workbench/uk](Image_Workbench/uk.md).
 
 ### Contents
 

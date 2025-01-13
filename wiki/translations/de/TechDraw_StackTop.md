@@ -31,7 +31,7 @@ Das Werkzeug **TechDraw StapelOberseite** bewegt Ansichten auf die Oberseite des
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Die Stapelreihenfolge kann in Skripten durch Ändern der Eigenschaft {{Incode|StackOrder}} des {{Incode|ViewObject}}s einer Ansicht erfolgen.
 
@@ -39,7 +39,7 @@ Die Stapelreihenfolge kann in Skripten durch Ändern der Eigenschaft {{Incode|St
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

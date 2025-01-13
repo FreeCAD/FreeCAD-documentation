@@ -46,7 +46,7 @@
 -    {{StdMenu|[Справка](Std_Help_Menu/ru.md)}}Меню «Справка» обеспечивает доступ к справочной системе, веб-сайту и форуму FreeCAD.
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}  {{Interface navi}}
 

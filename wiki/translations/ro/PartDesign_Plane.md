@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descriere
 
 Creați un plan de referință **datum plane** care poate fi folosit ca referință pentru schițe sau alte forme geometrice de referințe. Schițele pot fi atașate la planele de referință . ![](images/Datum_plane.png ) \"Planul de referință care traversează cele trei colțuri ale cubului cu partea de sus a unui Cilindru folosind planul de referință X-Y\".
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -26,6 +30,8 @@ Creați un plan de referință **datum plane** care poate fi folosit ca referin�
 </div>
 
 A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Body](PartDesign_Body.md). Every body has an origin, which is hidden by default. To be able to refer to the origin base planes, make the the origin visible. You can do this before creating a datum plane.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -50,6 +56,8 @@ A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" s
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 Faceți dublu clic pe eticheta DatumPlane din arborescența Model sau faceți clic cu butonul din dreapta și selectați **Editați datum** din meniul contextual pentru a edita parametrii. Pentru mai multe detalii despre modul referențiere și offset (decalajul referinței), consultați [Attachment](Part_EditAttachment.md).
@@ -64,6 +72,12 @@ Faceți dublu clic pe eticheta DatumPlane din arborescența Model sau faceți cl
 
 
 </div>
+
+## Preferences
+
+The default diffuse color and transparency of [PartDesign datums](PartDesign_CompDatums.md) is controlled by the **DefaultDatumColor** [fine-tuning parameter](Fine-tuning#PartDesign_Workbench.md).
+
+
 
 
 <div class="mw-translate-fuzzy">

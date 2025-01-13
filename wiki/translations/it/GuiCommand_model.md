@@ -16,28 +16,12 @@
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
+Mentre la pagina è in costruzione, aggiungere il template [Template:UnfinishedDocu](Template_UnfinishedDocu.md) nella parte superiore della pagina semplicemente digitando: ****
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Mentre la pagina è in costruzione, aggiungere la template  a inizio pagina.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Inserire qui una breve descrizione di cosa fa il comando.
-
-
-</div>
+In questo primo paragrafo fornire una breve descrizione di ciò che fa il comando. La descrizione può fare riferimento ad altri ambienti di lavoro come <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/it.md). (*Nota dell\'editore:* l\'immagine è 24px, non 16px)
 
 Remember to use [Template:Version](Template_Version.md), [Template:VersionMinus](Template_VersionMinus.md), [Template:VersionPlus](Template_VersionPlus.md) and [Template:Obsolete](Template_Obsolete.md) when applicable.
 
@@ -66,6 +50,8 @@ Aggiungere un\'immagine se possibile, e per favore seguire le linee guida di [Wi
 Chiudere e riaprire i tag di traduzione prima e dopo le immagini e gli altri elementi fissi, se non c\'è bisogno di tradurli. La didascalia dovrebbe sempre essere tradotta.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utilizzo
@@ -80,6 +66,8 @@ Chiudere e riaprire i tag di traduzione prima e dopo le immagini e gli altri ele
     -   Use the keyboard shortcut **F** then **C** or **Ctrl**+**Z**. (*Editor note:* This uses the [Template:KEY](Template_KEY.md) template, not all commands have a keyboard shortcut)
 2.  Detailed steps as needed. Some steps may need **Keyboard** presses while others may require using the mouse to click on a **Button**.
 3.  Set options and press **OK**.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -98,6 +86,8 @@ Chiudere e riaprire i tag di traduzione prima e dopo le immagini e gli altri ele
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Esempio
@@ -108,6 +98,8 @@ Optionale
 </div>
 
 Optional.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -122,6 +114,8 @@ Optional.
 -   Optional. Use a bullet list if there are multiple items. You can also mention limitations here.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Proprietà
@@ -132,6 +126,8 @@ Optional.
 See also: [Property editor](Property_editor.md).
 
 An object is usually derived from a base object. You should not list the properties that are inherited from that base object. See for example [Draft Wire](Draft_Wire#Properties.md).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -153,6 +149,8 @@ An object is usually derived from a base object. You should not list the propert
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Vista
@@ -170,6 +168,8 @@ An object is usually derived from a base object. You should not list the propert
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -213,6 +213,8 @@ import FreeCAD, Base
 
 Model = Base.makeExampleCommandModel(FreeCAD.Data1, FreeCAD.Data2)
 ```
+
+
 
 
 <div class="mw-translate-fuzzy">

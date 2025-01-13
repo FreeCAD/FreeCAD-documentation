@@ -119,18 +119,18 @@ Diese Eigenschaften stehen im [Eigenschafteneditor](property_editor/de.md) zur V
 
 {{TitleProperty|Optionen anzeigen (Display Options)}}
 
--    **Display Mode|Enumeration**: {{value|Group}}.
+-    {{PropertyView/de|Display Mode|Enumeration}}: {{value|Group}}.
 
--    **Show In Tree|Bool**: if it is `True`, the object appears in the [Tree view](Tree_view.md). Otherwise, it is set as invisible.
+-    {{PropertyView/de|Show In Tree|Bool}}: Wenn auf `True` gesetzt, wird das Objekt in der [Baumansicht](Tree_view/de.md) angezeigt. Andernfalls wird es ausgeblendet.
 
--    **Visibility|Bool**: if it is `True`, the object appears in the [3D view](3D_view.md); otherwise it is invisible. By default this property can be toggled on and off by pressing the **Space** bar in the keyboard.
+-    {{PropertyView/de|Visibility|Bool}}: Wenn auf `True` gesetzt, wird das Objekt in der the [3D-Ansicht](3D_view/de.md); andernfalls wird es ausgeblendet. Standardmäßig kann diese Eigenschaft durch Drücken der **Leertaste** der Tastatur umgeschaltet werden.
 
 
 {{TitleProperty|Auswahl (Selection)}}
 
--    **On Top When Selected|Enumeration**: {{value|Disabled}} (default), {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
+-    {{PropertyView/de|On Top When Selected|Enumeration}}: {{value|Disabled}} (Standardwert), {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
 
--    **Selection Style|Enumeration**: {{value|Shape}} (default), {{value|BoundBox}}. If the option is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} only the bounding box will be highlighted.
+-    {{PropertyView/de|Selection Style|Enumeration}}: {{value|Shape}} (Standardwert), {{value|BoundBox}}. Ist die Option {{value|Shape}} ausgewält, wird die gesamte Form (Knoten, Kanten, und Flächen) in der [3D-Ansicht](3D_view/de.md) hervorgehoben; ist es {{value|BoundBox}}, wird nur der Begrenzungsrahmen hervorgehoben.
 
 
 
@@ -142,10 +142,10 @@ Diese Eigenschaften stehen im [Eigenschafteneditor](property_editor/de.md) zur V
 
 Ein geöffnetes Dokument kann mehrere Teile enthalten. Aber nur ein Teil kann aktiv sein. Das aktive Teil wird in der [Baumansicht](Tree_view/de.md) mit einer Hintergrundfarbe angezeigt, die mit dem **Aktiver Behälter**-Wert im [Voreinstellungseditor](Preferences_Editor/de#Farben.md) angegeben wird. Der voreingestellte Wert ist hellblau. Es wird auch mit der Schrifteigenschaft \'fett\' angezeigt.
 
-Eine Zusammenstellung aktivieren oder deaktivieren:
+Ein Part-Objekt aktivieren oder deaktivieren:
 
--   Doppelklick auf die Zusammenstellung in der [Baumansicht](Tree_view/de.md) oder
--   das Kontextmenü mit einem Rechtsklick öffnen und **Toggle active part** wählen.
+-   Doppelklick auf das Part-Objekt in der [Baumansicht](Tree_view/de.md) oder
+-   Das Kontextmenü öffnen (Rechtsklick) und **Aktives Objekt** wählen.
 
 ![](images/Std_Part_active.png )
 
@@ -221,10 +221,10 @@ class MyGroup(object):
         if obj:
             self.attach(obj)
 
-    def __getstate__(self):
+    def dumps(self):
         return
 
-    def __setstate__(self, _state):
+    def loads(self, _state):
         return
 
     def attach(self, obj):
@@ -246,16 +246,16 @@ class ViewProviderMyGroup(object):
         vobj.addExtension("Gui::ViewProviderOriginGroupExtensionPython")
         self.ViewObject = vobj
 
-    def __getstate__(self):
+    def dumps(self):
         return None
 
-    def __setstate__(self, _state):
+    def loads(self, _state):
         return None
 
 App.ActiveDocument.addObject("Part::FeaturePython",
                              "Group",
-                             group.MyGroup(),
-                             group.ViewProviderMyGroup(),
+                             MyGroup(),
+                             ViewProviderMyGroup(),
                              True)
 ```
 

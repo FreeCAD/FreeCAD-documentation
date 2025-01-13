@@ -1,43 +1,45 @@
-# Part RuledSurface/it
 ---
- GuiCommand:   Name: Part RuledSurface   Name/it: Superficie rigata   MenuLocation: Parte , Superficie rigata   Workbenches: Part_Workbench/it     Parte|SeeAlso: ---
+ GuiCommand:
+   Name: Part RuledSurface
+   Name/it: Part Superficie rigata
+   MenuLocation: Parte , Superficie rigata
+   Workbenches: Part_Workbench/it
+   SeeAlso: Part_MakeFace/it
+---
+
+# Part RuledSurface/it
 
 
-</div>
 
 ## Descrizione
 
-Questo strumento crea una [superficie rigata](http://it.wikipedia.org/wiki/Superficie_rigata) tra due linee o bordi selezionati in precedenza.
+Il comando <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> **Part Superficie rigata** crea una [superficie rigata](https://en.wikipedia.org/wiki/Ruled_surface) che si estende tra due bordi/polilinee selezionati.
 
-![](images/PartRuledSurface_it.png ) 
+![](images/PartRuledSurface_it.png )
+
+
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare due linee o due spigoli
-2.  Eseguire lo strumento <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Superficie rigata](Part_RuledSurface/it.md)
-
-## Altro
-
-La macro [Sviluppa superfici rigate](Macro_Unroll_Ruled_Surface/it.md) permette di creare e inserire in una tavola di disegno lo sviluppo di una superficie rigata.
+1.  Selezionare due bordi o polilinee (contorni aperti o chiusi).
+2.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Part Superficie rigata](Part_RuledSurface/it.md)
+    -   Usare la voce **Parte → Superficie rigata** nel menu Parte
+3.  Viene creata una superficie rigata tra i bordi/polilinee selezionati.
 
 
-</div>
 
-## Notes
+## Note
 
--   [App Link](App_Link.md) objects linked to the appropriate object types can also be used as source objects. <small>(v0.20)</small> 
-
-
-<div class="mw-translate-fuzzy">
+-   Gli oggetti [App Link](App_Link/it.md) collegati ai tipi di oggetto appropriati possono essere utilizzati anche come oggetti di origine.
 
 
 
 
 
-</div>
+{{Part_Tools_navi
+
+}}
 
 
 

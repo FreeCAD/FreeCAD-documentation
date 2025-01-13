@@ -1,44 +1,33 @@
-# Sketcher SelectHorizontalAxis/it
 ---
- GuiCommand:   Name: Sketcher SelectHorizontalAxis   Name/it: Seleziona l'asse X   Workbenches: Sketcher Workbench/it   Sketcher|MenuLocation: Sketch , Strumenti , Seleziona l'asse orizzontale   Shortcut: Shift+Ctrl+H   SeeAlso:    Version: 0.15---
+ GuiCommand:
+   Name: Sketcher SelectHorizontalAxis
+   Name/it: Sketcher Seleziona l'asse orizzontale
+   MenuLocation: Schizzo , Strumenti Sketcher , Seleziona l'asse orizzontale
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **Z** **H**
+   Version: 0.15
+---
 
-
-</div>
+# Sketcher SelectHorizontalAxis/it
 
 
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Seleziona l\'asse orizzontale di uno schizzo.
-
-
-</div>
+Lo strumento <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:24px;"> [Sketcher Seleziona l\'asse orizzontale](Sketcher_SelectHorizontalAxis/it.md) seleziona l\'asse orizzontale dello schizzo.
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Entrare in modalità di modifica del disegno.
-2.  Scegliere ** Sketch** → ** Strumenti** → **<img src="images/Sketcher_SelectHorizontalAxis.png" width=32px> Seleziona l'asse orizzontale** dal menu in alto.
-3.  Viene selezionato l\'asse orizzontale del disegno.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  Esistono diversi modi per richiamare lo strumento:
+    -   Selezionare l\'opzione **Schizzo → Strumenti Sketcher → [<img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Seleziona l'asse orizzontale** dal menu.
+    -   Fare clic con il pulsante destro del mouse sulla sezione **Elementi** della [Finestra di dialogo Sketchcher](Sketcher_Dialog/it.md) e selezionare l\'opzione **<img src="images/Sketcher_SelectHorizontalAxis.svg" width=16px> Seleziona l'asse orizzontale** dal menu contestuale.
+    -   Usare la scorciatoia da tastiera: **Z** quindi **H**.
+2.  Viene selezionato l\'asse orizzontale dello schizzo.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

@@ -44,7 +44,6 @@ Aggiunge le proprietà dei materiali ad una parte.
     -   A condizione che si stia applicando lo stesso materiale all\'intero oggetto, non selezionare alcuna entità geometrica (lasciare vuota l\'elenco dei riferimenti). Il materiale viene applicato a tutto il modello. In caso contrario, assegnare manualmente il materiale a particolari parti del modello selezionandone alcune per ciascun materiale inserito, ma non lasciare alcuna parte del modello senza materiale assegnato.
     -   È possibile regolare le proprietà del materiale come la densità, il modulo di Young, il rapporto di Poisson, ecc., Tuttavia la maggior parte dei materiali comuni sono già disponibili nei materiali predefini e non necessitano di alcun ritocco.
     -   Se si apportano delle modifiche, è possibile salvare il materiale personalizzato.
-
 -   Cliccare su **Chiudi** per chiudere la finestra di dialogo e creare un oggetto **<img src="images/FEM_MaterialSolid.png" width=32px> Materiale solido
 **
 

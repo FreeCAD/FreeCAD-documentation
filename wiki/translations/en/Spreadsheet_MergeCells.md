@@ -10,13 +10,15 @@
 
 ## Description
 
-The **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Spreadsheet MergeCells](Spreadsheet_MergeCells.md)** tool merges at least two selected cells in an existing spreadsheet in the active document.
+The <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> **Spreadsheet MergeCells** tool merges a rectangular cell range.
 
 ## Usage
 
-1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Select at least two contiguous cells.
-3.  Press the **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Spreadsheet MergeCells](Spreadsheet_MergeCells.md)** button.
+1.  Make sure there is an active [spreadsheet](Spreadsheet_CreateSheet.md).
+2.  Select two or more cells that form a rectangular cell range. The range may include already merged cells.
+3.  There are several ways to invoke the tool:
+    -   Press the **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Merge cells](Spreadsheet_MergeCells.md)** button.
+    -   Select the **Spreadsheet → [<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> Merge cells** option from the menu.
 
 
 

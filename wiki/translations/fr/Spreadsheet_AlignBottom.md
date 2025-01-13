@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Spreadsheet AlignBottom
    Name/fr: Spreadsheet Alignement en bas
-   MenuLocation: Spreadsheet , Alignement , Alignement en bas
+   MenuLocation: Spreadsheet , Alignement , Aligner en bas
    Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
 ---
@@ -11,13 +11,17 @@
 
 ## Description
 
-L\'outil **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Spreadsheet Alignement en bas](Spreadsheet_AlignBottom/fr.md)** aligne le texte à l\'intérieur de la cellule sur le bas de la cellule.
+L\'outil <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> **Spreadsheet Alignement en bas** aligne le contenu des cellules sélectionnées en bas.
+
+
 
 ## Utilisation
 
-1.  Assurez-vous qu\'il y a une **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [feuille de calcul](Spreadsheet_CreateSheet/fr.md)** ouverte pour que le bouton soit activé.
-2.  Sélectionnez une cellule.
-3.  Appuyez sur le bouton **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Alignement en bas](Spreadsheet_AlignBottom/fr.md)**.
+1.  Assurez-vous qu\'il existe une [feuille de calcul](Spreadsheet_CreateSheet/fr.md) active.
+2.  Sélectionnez une ou plusieurs cellules.
+3.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Aligner en bas](Spreadsheet_AlignBottom/fr.md)**.
+    -   Sélectionnez l\'option **Spreadsheet → Alignement → [<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> Aligner en bas** du menu.
 
 
 

@@ -8,9 +8,13 @@
 
 # Part CrossSections/hr
 
+
+
 ## Opis
 
 The **Cross-sections** utility creates one or more cross-sections through the selected shape, parallel to one of the default global planes (XY, XZ or YZ).
+
+
 
 ### Kako koristiti 
 
@@ -29,6 +33,8 @@ The **Cross-sections** utility creates one or more cross-sections through the se
 -   The resulting object is not parametric, that is it is not linked to the original shape.
 -   A single object is created, even with more than one cross-section.
 
+
+
 ## Primjer
 
 ![Select an object](images/SectionCross1.png )
@@ -36,6 +42,14 @@ The **Cross-sections** utility creates one or more cross-sections through the se
 ![Dialog window](images/SectionCross2.png )
 
 ![Result](images/SectionCross3.png )
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

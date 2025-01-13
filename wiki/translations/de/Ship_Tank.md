@@ -1,18 +1,14 @@
 ---
  GuiCommand:
-   Name: Ship TankNew
-   Name/de: Schiff TankNeu
-   MenuLocation: Gewichte , Erstelle einen neuen Tank
-|
-   Workbenches: Ship Workbench/de
+   Name: Ship Tank
+   Name/de: Ship Tank
+   MenuLocation: Weights , Create a new tank
+   Workbenches: Ship_Workbench/de
    Shortcut: 
    SeeAlso: 
 ---
 
 # Ship Tank/de
-
-
-</div>
 
 
 
@@ -38,15 +34,6 @@ When the **Accept** button is pressed, a new tank instance is created inside the
 
 -   [FreeCAD Schiffs s60 Tutorium](FreeCAD-Ship_s60_tutorial/de.md)
 -   [FreeCAD Schiffs s60 Tutorium (II)](FreeCAD-Ship_s60_tutorial_(II)/de.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

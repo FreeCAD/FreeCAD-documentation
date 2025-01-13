@@ -10,9 +10,13 @@
 
 # Std MainFullscreen/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std HauptfensterVollbild** schaltet das Hauptfenster, die FreeCAD-Oberfläche, in den Vollbildmodus oder wieder zurück.
+
+
 
 ## Anwendung
 
@@ -24,7 +28,7 @@ Der Befehl **Std HauptfensterVollbild** schaltet das Hauptfenster, die FreeCAD-O
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

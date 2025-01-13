@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch CloseHoles
    Name/fr: Arch Fermer les trous
-   MenuLocation: Arch , Utilitaires , Fermer les trous
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: Utilitaires , Fermer les trous
+   Workbenches: BIM_Workbench/fr
    SeeAlso: Arch_Check/fr
 ---
 
@@ -18,7 +18,7 @@ Cet outil identifie les trous (séquence circulaire d\'arêtes ouvertes) dans un
 ## Utilisation
 
 1.  Sélectionnez un objet [Shape](Part_Workbench/fr.md).
-2.  Appuyez sur l\'entrée **<img src="images/Arch_CloseHoles.svg" width=16px> [Fermer les trous](Arch_CloseHoles/fr.md)** dans **Arch → Utilitaires → Fermer les trous**.
+2.  Sélectionnez l\'option **Utilitaires → <img src="images/Arch_CloseHoles.svg" width=16px> Fermer les trous** du menu.
 
 
 
@@ -36,7 +36,7 @@ solid = closeHole(shape)
 
 -   Ferme un trou dans une `shape` qui est un `Part.Shape` et renvoie le nouvel objet `solid`.
 
-Exemple: 
+Exemple : 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -60,5 +60,13 @@ solid = Arch.closeHole(Wall.Shape)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/fr
+⏵ [documentation index](../README.md) > Arch CloseHoles/fr

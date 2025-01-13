@@ -52,5 +52,13 @@ Das Dienstprogramm \"Querschnitte\" erstellt einen oder mehrere Schnitte durch d
 
 
 
+
+
+{{Part_Tools_navi
+
+}}
+
+
+
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/de

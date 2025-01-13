@@ -18,7 +18,7 @@ L\'opération inverse est [Part Forme à partir du maillage](Part_ShapeFromMesh/
 
 ## Utilisation
 
-1.  Sélectionnez éventuellement un ou plusieurs objets.
+1.  Vous pouvez sélectionner un ou plusieurs objets.
 2.  Il existe plusieurs manières de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/_Mesh_FromPartShape.svg" width=16px> [Créer un maillage à partir d'une forme...](Mesh_FromPartShape/fr.md)**.
     -   Sélectionnez l\'option **Maillages → <img src="images/_Mesh_FromPartShape.svg" width=16px> Créer un maillage à partir d'une forme...** du menu.
@@ -40,11 +40,11 @@ Voici les mailleurs disponibles et leurs paramètres :
 
 -    **Déviation de surface**: la [déviation linéaire](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage par rapport à la surface de l\'objet.
 
--    **Déviation angulaire**: la [déviation angulaire](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage à la suivante . Ce paramètre est utilisé lors du maillage de surfaces courbes.
+-    **Déviation angulaire**: la [déviation angulaire](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) maximale d\'une section de maillage à la suivante. Ce paramètre est utilisé lors du maillage de surfaces courbes.
 
--    **Écart relatif de surface**: si cochée, la déviation linéaire maximale d\'un segment de maillage sera **Déviation de surface** multipliée par la longueur du segment de maillage courant (bord).
+-    **Déviation relative de surface**: si coché, la déviation linéaire maximale d\'un segment de maillage sera la **Déviation de surface** spécifiée multipliée par la longueur du segment de maillage en cours (arête).
 
--    **Appliquer les couleurs des faces au maillage**: si coché, le maillage obtiendra les couleurs de face de l\'objet.
+-    **Appliquer les couleurs des faces au maillage**: si coché, le maillage prendra les couleurs des faces de l\'objet.
 
 -    **Définir les segments par les couleurs des faces**: si coché, les segments de maillage seront regroupés en fonction des couleurs des faces de l\'objet. Ces groupes seront exportés pour les formats de sortie de maillage prenant en charge cette fonctionnalité (le format [OBJ](https://fr.wikipedia.org/wiki/Objet_3D_(format_de_fichier)) par exemple).
 
@@ -52,9 +52,9 @@ Voici les mailleurs disponibles et leurs paramètres :
 
 ### Mailleur Mefisto 
 
--    **Longueur maximale d'arêtes**: la longueur maximale du bord du maillage. Une valeur plus petite donne un maillage plus fin. Si vous spécifiez {{Value|0}} ou décochez la case, vous obtenez un maillage très grossier.
+-    **Longueur maximale des arêtes**: longueur maximale des arêtes du maillage. Une valeur plus petite donne un maillage plus fin. Si vous spécifiez {{Value|0}} ou décochez la case, vous obtenez un maillage très grossier.
 
-    -   Si vous appuyez sur le bouton **Estimation**, le mailleur entrera une valeur estimée pour **Longueur maximale d'arêtes**. Cette valeur n\'est pas très fiable si plusieurs objets ont été sélectionnés.
+    -   Si vous appuyez sur le bouton **Estimation**, le mailleur entrera une valeur estimée pour la **Longueur maximale des arêtes**. Cette valeur n\'est pas très fiable si plusieurs objets ont été sélectionnés.
 
 
 
@@ -88,17 +88,17 @@ Voici les mailleurs disponibles et leurs paramètres :
         : pour cette option, les paramètres suivants peuvent être spécifiés:
 
         -   
-            **Classement des tailles de maillages**
+            **Taille des maillages**
             
             : une valeur plus petite donne un maillage plus fin. La valeur doit être comprise dans la plage {{Value|0.1}} - {{Value|1.0}}.
 
         -   
-            **Élément par arête**
+            **Nombre d'éléments par arête**
             
             : une valeur plus grande donne un maillage plus fin. La valeur doit être comprise dans la plage {{Value|0.2}} - {{Value|10.0}}.
 
         -   
-            **Élément par rayon de courbure**
+            **Nombre d'éléments par rayon de courbure**
             
             : une valeur plus grande donne un maillage plus fin. La valeur doit être comprise dans la plage {{Value|0.2}} - {{Value|10}}.
 
@@ -112,7 +112,7 @@ Voici les mailleurs disponibles et leurs paramètres :
 
 ### Mailleur Gmsh 
 
-Pour les utilisateurs Linux : le module externe [Gmsh](https://gmsh.info/) est requis.
+Pour les utilisateurs sous Linux : le module externe [Gmsh](https://gmsh.info/) est requis.
 
 -    **Maillage**: sélectionnez une option de maillage :
 
@@ -121,7 +121,7 @@ Pour les utilisateurs Linux : le module externe [Gmsh](https://gmsh.info/) est r
         
 
     -   
-        **Adaptif**
+        **Adaptatif**
         
 
     -   
@@ -144,13 +144,13 @@ Pour les utilisateurs Linux : le module externe [Gmsh](https://gmsh.info/) est r
         **Parallélogrammes**
         
 
--    **Taille maximale de l'élément**: une valeur plus petite donne un maillage plus fin. Spécifiez {{Value|0}} pour que cette taille soit automatiquement déterminée.
+-    **Taille maximale des éléments**: une valeur plus petite donne un maillage plus fin. Spécifiez {{Value|0}} pour que cette taille soit automatiquement déterminée.
 
--    **Taille minimale de l'élément**: une valeur plus petite donne un maillage plus fin. La valeur doit être inférieure à **Taille maximale de l'élément**. Spécifiez {{Value|0}} pour que cette taille soit automatiquement déterminée.
+-    **Taille minimale des éléments**: une valeur plus petite donne un maillage plus fin. La valeur doit être inférieure à **Taille maximale des éléments**. Spécifiez {{Value|0}} pour que cette taille soit automatiquement déterminée.
 
 -    **Angle**: semble ne pas être pris en charge pour le moment.
 
--    **Chemin**: appuyez sur le bouton **...** et allez jusqu\'au chemin **gmsh.exe**.
+-    **Chemin**: appuyez sur le bouton **...** et accédez au chemin de **gmsh.exe**.
 
 -   Si le processus de maillage prend trop de temps, vous pouvez appuyer sur le bouton **Arrêter** pour l\'abandonner.
 
@@ -162,7 +162,7 @@ Pour les utilisateurs Linux : le module externe [Gmsh](https://gmsh.info/) est r
 
 -   Cette commande n\'est pas limitée aux objets créés avec l\'[atelier Part](Part_Workbench/fr.md). Il peut créer un maillage à partir de n\'importe quel objet qui a une forme, y compris des objets créés avec l\'[atelier Part](PartDesign_Workbench/fr.md).
 -   La commande [Std Exporter](Std_Export/fr.md) peut exporter des objets de forme directement vers un format de maillage.
--   Voir aussi : Tutoriel [Exportation de fichier STL ou OBJ](Export_to_STL_or_OBJ/fr.md).
+-   Voir aussi le tutoriel [Exportation de fichier STL ou OBJ](Export_to_STL_or_OBJ/fr.md).
 
 
 
@@ -174,7 +174,7 @@ Pour les utilisateurs Linux : le module externe [Gmsh](https://gmsh.info/) est r
 
 -   Le paramètre **Déviation de surface** est enregistré : **Outils → Editer les de paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → LinearDeflection**.
 -   Le paramètre **Déviation angulaire** est enregistré : **Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → AngularDeflection**.
--   Le paramètre **Écart relatif de surface** est enregistré : **Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → RelativeLinearDeflection**.
+-   Le paramètre **Déviation relative de surface** est enregistré : **Outils → Editer les paramètres... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → RelativeLinearDeflection**.
 
 
 

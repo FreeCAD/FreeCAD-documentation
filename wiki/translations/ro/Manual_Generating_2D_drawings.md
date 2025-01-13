@@ -25,13 +25,7 @@ Exemplele tipice sunt [instrucţiunile de montare ale Ikea](http://www.ikea.com/
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-Atelierul de Desenare vă permite să creați foi de desen care pot fi goale sau să utilizați un șablon predefinit [template](Drawing_templates.md) pentru a avea deja o serie de elemente pe foaie, cum ar fi chenarul și titlul. Pe aceste coli, puteți plasa vizualizările [views](Drawing_View.md) obiectelor 3D pe care le-ați modelat anterior și să configurați modul în care aceste vizualizări ar trebui să apară pe hârtie. În fine, grație [addon](https://github.com/FreeCAD/FreeCAD-addons) numit [Drawing Dimensioning Workbench](https://github.com/hamish2014/FreeCAD_drawing_dimensioning), puteți plasa tot felul de adnotări pe foaie, cum ar fi cotele/dimensiunile, textul și alte simboluri comune utilizate în mod obișnuit în desenele tehnice.
-
-
-</div>
+The TechDraw Workbench allows you to create sheets, which can be blank or use a pre-made [template](TechDraw_Templates.md) to already have a series of items on the sheet, such as borders and a title. On these sheets, you can then place views of the 3D objects you modeled previously, and configure how these views will appear on the sheet. You can also place all kinds of annotations on the sheet, such as dimensions, texts, and other symbols commonly used in technical drawings.
 
 Odată desenate, schemele pot fi listate la imprimantă sau exportate în formatele [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics), PDF sau [DXF](https://en.wikipedia.org/wiki/AutoCAD_DXF).
 
@@ -43,13 +37,7 @@ Pe parcursul următorului exerciţiu, vom vedea cum se realizează un desen simp
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-![](images/Exercise_drawing_01.jpg )
-
-
-</div>
+![](images/Exercise_TechDraw_01.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -81,6 +69,8 @@ Pe parcursul următorului exerciţiu, vom vedea cum se realizează un desen simp
 
 </div>
 
+![](images/Exercise_drawing_02.jpg )
+
 
 <div class="mw-translate-fuzzy">
 
@@ -94,6 +84,8 @@ Pe parcursul următorului exerciţiu, vom vedea cum se realizează un desen simp
 
 </div>
 
+![](images/Exercise_TechDraw_04.png )
+
 
 <div class="mw-translate-fuzzy">
 
@@ -102,7 +94,7 @@ Pe parcursul următorului exerciţiu, vom vedea cum se realizează un desen simp
 
 </div>
 
--   We can tweak the aspect of our views if we want, for example we can change their **Line Width** property (under the View tab in the Combo View) to 0.5.
+-   We can tweak the aspect of our views if we want, for example, we can change their **Line Width** property (under the View tab in the Combo View) to 0.5.
 
 
 <div class="mw-translate-fuzzy">
@@ -121,13 +113,7 @@ Vom plasa cote și indicații pe desenul nostru. Există două moduri de a adău
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-![](images/Exercise_drawing_04.jpg )
-
-
-</div>
+![](images/Exercise_TechDraw_05.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -138,15 +124,23 @@ Vom plasa cote și indicații pe desenul nostru. Există două moduri de a adău
 
 </div>
 
+![](images/Exercise_TechDraw_07.png )
 
-<div class="mw-translate-fuzzy">
+-   We will now place the two callouts shown in the image above, using the <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [TechDraw Balloon](TechDraw_Balloon.md) tool.
 
--   Vom plasa două indicații, utilizând instrumentul **Welding/Groove symbols** , selectând opțiunea implicită (fără simbolul canelurii). Desenați cele două linii ca pe imaginea de mai sus.
--   Acum plasați două texte utilizând instrumentul **Add text** , și modificați proprietata conținutului **text** după dorința dvs de conținut preferat.
--   Desenul nostru este acum complet, tot ce trebuie lăsat este să completați blocul de titluri. Cu majoritatea șabloanelor implicite pentru FreeCAD, acest lucru se poate face cu ușurință, prin modificarea proprietății **Editable Texts** a paginii.
+![](images/Exercise_TechDraw_06.png )
 
+1.  Looking at the Page in the [3D view](3D_view.md) window, select the View to which the Balloon will be attached, as shown in the image above.
+2.  Press the <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> Balloon button.
+3.  The cursor is now displayed as a balloon icon. Click on the page to place the balloon origin at the desired position.
+4.  The balloon bubble may be dragged to the desired position.
+5.  Change the balloon properties by double-clicking the balloon label or the balloon object in the [tree view](Tree_view.md). This will open the Balloon Task dialog. Set the Value field to the desired text and change the Symbol drop-down menu selection to **None**
+6.  Press **OK**
+7.  Repeat the operation for the second callout.
 
-</div>
+-   We will now fill in the sheet title block.
+    -   Make sure that the View frames, labels, and vertices are visible. If not, hit the <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> Toggle button.
+    -   Edit the text in each section of the sheet title block by clicking on the small green square on the left side of the text.
 
 
 <div class="mw-translate-fuzzy">

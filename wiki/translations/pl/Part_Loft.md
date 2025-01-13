@@ -82,11 +82,11 @@ Obiekt **Wyciągnięcia przez profile** wywodzi się z obiektu [Część: Cecha]
 
 -    **Profile|LinkList**: lista używanych profili.
 
--    **Bryła|Bool**: przyjmuje wartości {{true/pl}} lub {{false/pl}} *(domyślnie)*. Wartość true określa utworzenie bryły.
+-    **Bryła|Bool**: {{false/pl}} *(domyślnie)*. Wartość {{true/pl}} określa utworzenie bryły.
 
--    **Powierzchnia prostokreślna|Bool**: {{true/pl}} lub {{false/pl}} *(domyślnie)*. True tworzy powierzchnię prostokreślną.
+-    **Powierzchnia prostokreślna|Bool**: {{false/pl}} *(domyślnie)*. {{true/pl}} tworzy powierzchnię prostokreślną.
 
--    **Zamknięty|Bool**: {{true/pl}} lub {{false/pl}} *(domyślnie)*. True tworzy obiekt zamknięty poprzez połączenie profilu ostatniego z pierwszym.
+-    **Zamknięty|Bool**: {{false/pl}} *(domyślnie)*. {{true/pl}} tworzy obiekt zamknięty poprzez połączenie profilu ostatniego z pierwszym.
 
 -    **Maksymalnie stopni|IntegerConstraint**: ilość stopni maksymalnie.
 

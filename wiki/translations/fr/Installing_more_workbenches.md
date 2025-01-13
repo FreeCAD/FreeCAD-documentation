@@ -40,9 +40,9 @@ Les ateliers installés de cette manière ne seront disponibles que pour un seul
 
 Copiez le dossier de l\'atelier dans `$USER_DIR/Mod/` où `$USER_DIR` est le répertoire FreeCAD d\'un `nom d'utilisateur` spécifique. (vous pouvez trouver ce dernier en tapant `App.getUserAppDataDir()` dans la [console Python](Python_console/fr.md)).
 
--   Sous Linux, il s\'agit généralement de **/home/<username>/.local/share/FreeCAD/Mod/** ({{VersionPlus/fr|0.20}}) ou **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus/fr|0.19}}).
+-   Sous Linux, il s\'agit généralement de **/home/<username>/.local/share/FreeCAD/Mod/**
 -   Sous Windows, c\'est `%APPDATA%\FreeCAD\Mod\`, lequel est généralement `C:\Users\''username''\Appdata\Roaming\FreeCAD\Mod\`
--   Sous macOS, c\'est généralement `/Users/username/Library/Preferences/FreeCAD/Mod/`.
+-   Sous macOS, c\'est généralement `/Users/username/Library/Application Support/FreeCAD/Mod/`.
 
 
 

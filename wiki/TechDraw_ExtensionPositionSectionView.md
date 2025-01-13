@@ -12,7 +12,7 @@
 
 ## Description
 
-The **TechDraw ExtensionPositionSectionView** tool orthogonally aligns a section view with its source view. You can select [a section view](#Usage_view_selection.md) or (<small>(v0.22)</small> ) select [an edge and a vertex](#Usage_edge_vertex_selection.md).
+The **TechDraw ExtensionPositionSectionView** tool orthogonally aligns a section view with its source view. You can select [a section view](#Usage_view_selection.md) or (<small>(v1.0)</small> ) select [an edge and a vertex](#Usage_edge_vertex_selection.md).
 
 ## Usage - view selection 
 

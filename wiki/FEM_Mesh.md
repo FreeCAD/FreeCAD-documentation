@@ -1,7 +1,7 @@
 # FEM Mesh
 ## Create a finite element mesh 
 
-Finite element analysis (FEA) is performed on a mesh composed of multiple triangular and quadrilateral finite elements that subdivide an original body. The more refined the mesh is, the more accurate the numerical results will be, but also the computation time will be larger. A balance between the size of the mesh, and computation time and accuracy of results is an important characteristic of a well defined finite element analysis.
+[Finite element analysis (FEA)](https://en.wikipedia.org/wiki/Finite_element_method) is performed on a mesh composed of multiple triangular/tetrahedral, quadrilateral/hexahedral or other finite elements that subdivide an original body. The more refined the mesh is, the more accurate the numerical results will be, but also the computation time will be larger. A balance between the size of the mesh, and computation time and accuracy of results is an important characteristic of a well defined finite element analysis.
 
 There are different possibilities to set up a mesh in the [FEM Workbench](FEM_Workbench.md):
 
@@ -10,7 +10,7 @@ There are different possibilities to set up a mesh in the [FEM Workbench](FEM_Wo
 -   Importing a mesh from another program. In particular, Gmsh and Netgen can be used by themselves outside of FreeCAD to mesh solid bodies like Step files.
 -   Manually creating the mesh through [Python](Python.md) scripting.
 
-The Gmsh and Netgen tools support meshing bodies created with the [Part Workbench](Part_Workbench.md) and [PartDesign Workbench](PartDesign_Workbench.md), as well as simple copies of those solids. In general, any workbench that generates solid objects, like the [Arch Workbench](Arch_Workbench.md), can be used as the basis from which to create meshes. Notice that a mesh used for FEA is different from a mesh created or imported from the [Mesh Workbench](Mesh_Workbench.md).
+The Gmsh and Netgen tools support meshing bodies created with the [Part Workbench](Part_Workbench.md) and [PartDesign Workbench](PartDesign_Workbench.md), as well as simple copies of those solids. In general, any workbench that generates solid objects, like the [BIM Workbench](BIM_Workbench.md), can be used as the basis from which to create meshes. Notice that a mesh used for FEA is different from a mesh created or imported from the [Mesh Workbench](Mesh_Workbench.md).
 
  <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;">  
 *The FEM Workbench calls the external tool Gmsh to obtain a mesh from a solid body created with any workbench in FreeCAD; it can also import a mesh created externally*

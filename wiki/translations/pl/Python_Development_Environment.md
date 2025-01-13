@@ -1,29 +1,31 @@
 # Python Development Environment/pl
-## A Simplistic Development Environment for Python within FreeCAD 
+## Uproszczone środowisko programistyczne dla Python w FreeCAD 
 
-[Python](wikipedia:Python_(programming_language).md) is a programming environment which has been incorporated into the [FreeCAD](https://www.freecadweb.org/) system. Using Python many operations offered by FreeCAD are available for programmatic access. Python programs for FreeCAD are usually developed to be either run on the Python console or through the Macro facility of FreeCAD (see [How to install macros](How_to_install_macros.md)).
+[Python](https://pl.wikipedia.org/wiki/Python) to środowisko programistyczne, które zostało włączone do systemu [FreeCAD](https://www.freecadweb.org/). Za jego pomocą wiele operacji oferowanych przez FreeCAD jest dostępnych dla środowiska programistycznego. Programy Python dla FreeCAD są zwykle tworzone tak, aby można je było uruchamiać w konsoli Python lub za pomocą funkcji makr FreeCAD *(patrz [Jak zainstalować makrodefinicje](How_to_install_macros/pl.md))*.
 
-There are numerous tools available for program development in Python. The complicating factors for developing Python to use with FreeCAD are twofold: first the tools do not have any support for the numerous data structures and access points of FreeCAD; secondly they do not work \"within FreeCAD\". This means that you can use them to develop code outside of FreeCAD and not be able to test in the target environment; or you can develop Python in the target environment (i.e. the FreeCAD environment) but not have any support from the development tools. Neither of these is an acceptable solution.
+Dostępnych jest wiele narzędzi do tworzenia programów w środowisku Python. Czynniki komplikujące rozwój Pythona do użytku z FreeCAD są dwojakie: po pierwsze narzędzia nie mają żadnego wsparcia dla licznych struktur danych i punktów dostępu FreeCAD. Po drugie nie działają \"w FreeCAD\". Oznacza to, że można ich używać do rozwijania kodu poza FreeCAD i nie być w stanie testować w środowisku docelowym, lub można rozwijać Pythona w środowisku docelowym *(tj. środowisku FreeCAD)*, ale nie mieć żadnego wsparcia ze strony narzędzi programistycznych. Żadne z tych rozwiązań nie jest akceptowalne.
 
-## Background
 
-Modern software development at the commercial standard is usually done using a set of tools generically referred to as [\'IDE\'](wikipedia_Integrated_development_environment.md). Typically these tools include the following 3:
 
--   source code editor
--   build automation tools
--   debugger
+## Kontekst
 
-which are standard while the following are present in some IDEs but not in others:
+Nowoczesne tworzenie oprogramowania w standardzie komercyjnym odbywa się zwykle przy użyciu zestawu narzędzi ogólnie określanych jako [IDE](https://pl.wikipedia.org/wiki/Zintegrowane_%C5%9Brodowisko_programistyczne). Zazwyczaj narzędzia te obejmują następujące elementy:
 
--   intelligent code completion
--   integrated compiler, interpreter, or both
--   version control system
--   Graphical User Interface (GUI) construction
--   class browser
--   object browser
--   class hierarchy diagram
+-   edytor kodu źródłowego,
+-   narzędzia do automatyzacji kompilacji,
+-   debugger.
 
-A summary of the status of these tools within FreeCAD is (\'N/A\' meaning \'Not Available\'):
+które są standardowe, podczas gdy poniższe są obecne w niektórych IDE, ale nie we wszystkich:
+
+-   inteligentne uzupełnianie kodu,
+-   zintegrowany kompilator, interpreter lub oba te elementy,
+-   system kontroli wersji,
+-   Budowa graficznego interfejsu użytkownika *(GUI)*,
+-   przeglądarka klas,
+-   przeglądarka obiektów,
+-   diagram hierarchii klas.
+
+Podsumowanie statusu tych narzędzi w FreeCAD jest następujące *(\"N/A\" oznacza \"Niedostępne\")*:
 
 
 <table style="width: 100%" border="1">
@@ -34,7 +36,7 @@ A summary of the status of these tools within FreeCAD is (\'N/A\' meaning \'Not 
 
 <td>
 
-source code editor
+editor kodu
 
 
 </td>
@@ -42,7 +44,7 @@ source code editor
 
 <td>
 
-a variety of editors are available for the platforms supported by FreeCAD, discussed below
+dla platform obsługiwanych przez FreeCAD dostępne są różne edytory, omówione poniżej
 
 
 </td>
@@ -56,7 +58,7 @@ a variety of editors are available for the platforms supported by FreeCAD, discu
 
 <td>
 
-build automation tools
+narzędzia automatyzacji kompilacji
 
 
 </td>
@@ -86,7 +88,7 @@ debugger
 
 <td>
 
-planned but not available yet, there are some work-arounds discussed below
+Planowane, ale jeszcze niedostępne, istnieją pewne obejścia omówione poniżej
 
 
 </td>
@@ -100,7 +102,7 @@ planned but not available yet, there are some work-arounds discussed below
 
 <td>
 
-intelligent code completion
+inteligentne uzupełnianie kodu
 
 
 </td>
@@ -108,29 +110,7 @@ intelligent code completion
 
 <td>
 
-there is some available through the Python console but that is all
-
-
-</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>
-
-integrated compiler, interpreter, or both
-
-
-</td>
-
-
-<td>
-
-the Python compiler is integrated with the Python console but not with the editors
+niektóre są dostępne za pośrednictwem konsoli Python, ale to wszystko
 
 
 </td>
@@ -144,7 +124,7 @@ the Python compiler is integrated with the Python console but not with the edito
 
 <td>
 
-version control system
+zintegrowany kompilator, interpreter lub oba te elementy
 
 
 </td>
@@ -152,29 +132,7 @@ version control system
 
 <td>
 
-N/A - there is only one version of the file
-
-
-</td>
-
-
-</tr>
-
-
-<tr>
-
-
-<td>
-
-Graphical User Interface (GUI) construction
-
-
-</td>
-
-
-<td>
-
-what is available is basic and based on copy/paste of code (see [PySide](PySide.md))
+kompilator Python jest zintegrowany z konsolą Python, ale nie z edytorami
 
 
 </td>
@@ -188,7 +146,51 @@ what is available is basic and based on copy/paste of code (see [PySide](PySide.
 
 <td>
 
-class browser
+system kontroli wersji
+
+
+</td>
+
+
+<td>
+
+N/A - istnieje tylko jedna wersja pliku
+
+
+</td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td>
+
+budowa graficznego interfejsu użytkownika *(GUI)*
+
+
+</td>
+
+
+<td>
+
+To, co jest dostępne, jest podstawowe i opiera się na kopiowaniu / wklejaniu kodu *(patrz [PySide](PySide/pl.md))*.
+
+
+</td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td>
+
+przeglądarka klasy
 
 
 </td>
@@ -210,7 +212,7 @@ N/A
 
 <td>
 
-object browser
+przeglądarka obiektów
 
 
 </td>
@@ -232,7 +234,7 @@ N/A
 
 <td>
 
-class hierarchy diagram
+diagram hierarchii klas
 
 
 </td>
@@ -251,32 +253,36 @@ N/A
 
 </table>
 
-Many tools exist to support the above function for Python programming but unfortunately they do not integrate with the FreeCAD development environment.
+Istnieje wiele narzędzi wspierających powyższą funkcję dla programowania w Pythonie, ale niestety nie integrują się one ze środowiskiem programistycznym FreeCAD.
 
-A list of IDEs for Python is located at [Integrated Development Environments for Python](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments).
+Lista IDE dla Python znajduje się na stronie [Integrated Development Environments for Python](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments).
 
-## Editors
 
-There is an editor for Python as part of FreeCAD, it is started by clicking the Edit button on the Macro -\> [Macros\...](Std_DlgMacroExecute.md). If you want to use a 3rd party editor which takes advantage of your platform then there are various Python editors available, for numerous platforms and with a variety of level of functionality. One advantage of using an external editor is that the display area of FreeCAD can be used for output (both graphic and textual to the console) while the source code is displayed in a different application. A list of editors for Python for a variety of platforms is available at [Python Editors](https://wiki.python.org/moin/PythonEditors)
 
-Note: For the Macintosh the text editor [TextWrangler](http://www.barebones.com/products/textwrangler/) works well. It has code highlighting and excellent search facilities. There are options to execute jobs in Python but of course they do not work with the FreeCAD environment.
+## Edytor
 
-### Macro Source Code Directories 
+Istnieje edytor Python będący częścią FreeCAD, jest on uruchamiany poprzez kliknięcie przycisku Edycja na Makrodefinicjach -\> [Makrodefinicje \...](Std_DlgMacroExecute/pl.md). Jeśli chcesz korzystać z innego edytora, który wykorzystuje twoją platformę, dostępne są różne edytory Python, dla wielu platform i z różnym poziomem funkcjonalności. Jedną z zalet korzystania z zewnętrznego edytora jest to, że obszar wyświetlania FreeCAD może być używany do wyjścia *(zarówno graficznego, jak i tekstowego do konsoli)*, podczas gdy kod źródłowy jest wyświetlany w innej aplikacji. Lista edytorów dla Python dla różnych platform jest dostępna pod adresem [edytory Python](https://wiki.python.org/moin/PythonEditors).
 
-There are two directories used by FreeCAD, by default they are the same directory but they are pointed to by different callable point in FreeCAD:
+Uwaga: Na komputerach Macintosh dobrze sprawdza się edytor tekstu [TextWrangler](http://www.barebones.com/products/textwrangler/). Posiada podświetlanie kodu i doskonałe możliwości wyszukiwania. Istnieją opcje wykonywania zadań w Pythonie, ale oczywiście nie działają one w środowisku FreeCAD.
+
+
+
+### Katalogi kodu źródłowego makrodefinicji 
+
+Istnieją dwa katalogi używane przez FreeCAD, domyślnie są one tym samym katalogiem, ale są wskazywane przez różne punkty wywoływalne w FreeCAD:
 
 -   FreeCAD.ConfigGet(\"UserAppData\")
 -   FreeCAD.ParamGet(\'User parameter:BaseApp/Preferences/Macro\').GetString(\'MacroPath\')
 
-The first one \"UserAppData\" points to a directory where things like configuration files or other files intended for the user but not to be edited by the user may be stored.
+Pierwszy z nich \"UserAppData\" wskazuje na katalog, w którym mogą być przechowywane takie rzeczy, jak pliki konfiguracyjne lub inne pliki przeznaczone dla użytkownika, ale nie do edycji przez użytkownika.
 
-The second one \"MacroPath\" points to a directory where the Python files which are macro files for FreeCAD are stored. To mark a Python file as a macro file for FreeCAD, the file extension is changed from \".py\" to \".FCMacro\".
+Drugi \"MacroPath\" wskazuje na katalog, w którym przechowywane są pliki Python, które są plikami makrodefinicji dla FreeCAD. Aby oznaczyć plik Python jako plik makra dla FreeCAD, rozszerzenie pliku zmienia się z \".py\" na \".FCMacro\".
 
-By default these two directories are the same location but this is not necessary. It might be convenient to alter the location for the macro files (\*.FCMacro) to a different location.
+Domyślnie te dwa katalogi znajdują się w tej samej lokalizacji, ale nie jest to konieczne. Wygodna może być zmiana lokalizacji plików makr (\*.FCMacro) na inną.
 
-Editing files located in the \"MacroPath\" is straight forward, the text editor will accommodate this. For ease of use of FreeCAD Macro files, it is advisable to keep all the macro files in the directory pointed to by \"MacroPath\".
+Edycja plików znajdujących się w \"MacroPath\" jest prosta, edytor tekstu to umożliwi. Aby ułatwić korzystanie z plików makr FreeCAD, zaleca się przechowywanie wszystkich plików makr w katalogu wskazywanym przez \"MacroPath\".
 
-To alter the \"MacroPath\" directory, use Tools-\>Edit Parameters and then select Preferences/Macro/MacroPath where the text may be double-clicked and edited. Alternatively \"MacroPath\" can be altered by the code:
+Aby zmienić katalog \"MacroPath\", użyj ** Przybory -> Edycja parametrów ...**, a następnie wybierz Preferences/Macro/MacroPath, gdzie tekst można kliknąć dwukrotnie i edytować. Alternatywnie \"MacroPath\" można zmienić za pomocą kodu:
 
 
 ```python
@@ -286,22 +292,24 @@ FreeCAD.ParamGet('User parameter:BaseApp/Preferences/Macro').SetString('MacroPat
 ## Debugger
 
 
-**'''A debugger is planned for FreeCAD and these steps are a work-around until it is available. See github.com/mumme74/FreeCAD/tree/editor_fixes'''**
+**'''Debugger jest planowany dla FreeCAD, a te kroki są obejściem do czasu jego udostępnienia. Zobacz informacje w serwisie: github.com/mumme74/FreeCAD/tree/editor_fixes'''**
 
-[Debuggers](https://en.wikipedia.org/wiki/Debugger) typically provide two main features (among others):
+[Debuggery](https://en.wikipedia.org/wiki/Debugger) zazwyczaj zapewniają dwie główne funkcje *(między innymi)*:
 
--   breakpoints in the source code
--   variable inspection
+-   punkty przerwania w kodzie źródłowym
+-   inspekcja zmiennych
 
-**Breakpoints** are \'traps\' that are placed in the code, if the execution path through the code encounters one of these breakpoints, then execution is halted or suspended. Note that execution is not stopped as when a program is stopped all memory resident information such as variables is lost. While the program is suspended the contents of variables can be inspected and sometimes altered (which depends on the ability of the debugger). Generally the source code can not be changed although some environments do support this. When ready, the execution of the source code can be resumed. Numerous breakpoints can be placed in the code and numerous suspensions through the breakpoints may occur. The purpose of the debugger is to make sure that the execution with the breakpoints and suspensions is functionally identical to execution without breakpoints.
+**Punkty przerwania** to \"pułapki\", które są umieszczane w kodzie, jeśli ścieżka wykonania kodu napotka jeden z tych punktów przerwania, wykonanie zostanie zatrzymane lub zawieszone. Należy pamiętać, że wykonywanie nie zostaje zatrzymane, ponieważ gdy program zostaje zatrzymany, wszystkie informacje znajdujące się w pamięci, takie jak zmienne, zostają utracone. Podczas gdy program jest zawieszony, zawartość zmiennych może być sprawdzana i czasami zmieniana *(co zależy od możliwości debuggera)*. Ogólnie rzecz biorąc, kod źródłowy nie może być zmieniany, chociaż niektóre środowiska to obsługują. Gdy kod źródłowy jest gotowy, można wznowić jego wykonywanie. W kodzie można umieścić liczne punkty przerwania i mogą wystąpić liczne zawieszenia przez punkty przerwania. Celem debuggera jest upewnienie się, że wykonanie z punktami przerwania i zawieszeniami jest funkcjonalnie identyczne z wykonaniem bez punktów przerwania.
 
-**Variable Inspections** are available during the suspension of execution caused by a breakpoint. Generally the contents of variables can be viewed, many debuggers also support the editing of the contents before execution resumes.
+**Inspekcje zmiennych** są dostępne podczas zawieszenia wykonywania spowodowanego punktem przerwania. Zasadniczo można przeglądać zawartość zmiennych, wiele debuggerów obsługuje również edycję zawartości przed wznowieniem wykonywania.
 
-Although a fully functioned debugger is planned for FreeCAD it is not available as of yet. This section will detail some work-arounds for the interim until the debugger is released.
+Chociaż dla FreeCAD planowany jest w pełni funkcjonalny debugger, nie jest on jeszcze dostępny. Ta sekcja zawiera szczegółowe informacje na temat niektórych obejść tymczasowych do czasu wydania debuggera.
 
-### Breakpoints
 
-Implementing breakpoints involves a supervisory level of code which administers the execution of the code under development. Such a level of code for Python development within FreeCAD is not presently available. As a weak substitute, the following code is an option. Instead of suspending the execution the code will halt execution completely by dividing a number by zero. This really is a very weak option compared to a proper debugger breakpoint, also this option is only of use when used alongside the routine shown in the next section \'Variable Inspection\'.
+
+### Punkty przerwania 
+
+Wdrożenie punktów przerwania wymaga nadzorczego poziomu kodu, który zarządza wykonaniem kodu w trakcie rozwoju. Taki poziom kodu dla rozwoju Python w FreeCAD nie jest obecnie dostępny. Jako słaby substytut, poniższy kod jest opcją. Zamiast zawieszać wykonywanie, kod całkowicie zatrzyma wykonywanie, dzieląc liczbę przez zero. Jest to naprawdę bardzo słaba opcja w porównaniu do właściwego punktu przerwania debuggera, również ta opcja jest przydatna tylko wtedy, gdy jest używana razem z procedurą pokazaną w następnej sekcji \"Inspekcja zmiennych\".
 
 **Breakpoint Code** 
 ```python
@@ -316,18 +324,18 @@ def breakpoint(*args):
     
 ```
 
-**Console Traceback**
+**Śledzenie konsoli**
 
-When a program fails during execution, Python generates what is known as a traceback which lists the order of program execution (i.e. which program called which program in which order).
+Gdy program zawiedzie podczas wykonywania, Python generuje tak zwany traceback, który zawiera listę kolejności wykonywania programu *(tj. który program wywołał który program w jakiej kolejności)*.
 
-For the code sample
+Przykładowy kod:
 
 
 ```python
 breakpoint('amalgamation routine')
 ```
 
-we get the following traceback:
+otrzymujemy następujący traceback:
 
 
 ```python
@@ -340,28 +348,30 @@ Traceback (most recent call last):
 ZeroDivisionError: integer division or modulo by zero
 ```
 
-Reading the traceback we can determine that:
+Czytając traceback możemy stwierdzić, że:
 
--   a message of \'Breakpoint: amalgamation routine\' was sent by the breakpoint which has the string \'amalgamation routine\'
--   the execution error occurred at line 28 of module \'myNewMacro\'
--   routine \'myNewMacro\' was called from line 40 in the module \'testStub\'
+-   komunikat \"Breakpoint: amalgamation routine\" został wysłany przez punkt przerwania, który ma ciąg \"amalgamation routine,
+-   błąd wykonania wystąpił w linii 28 modułu \"myNewMacro\",
+-   procedura \'myNewMacro\' została wywołana z linii 40 w module \"testStub\".
 
-Assuming the string passed to the breakpoint call is meaningful then the location of the breakpoint can easily be determined. Note that is a complex system the traceback may have tens or even hundreds of entries in it.
+Zakładając, że ciąg znaków przekazany do wywołania punktu przerwania jest znaczący, można łatwo określić lokalizację punktu przerwania. Należy pamiętać, że jest to złożony system, w którym śledzenie może zawierać dziesiątki, a nawet setki wpisów.
 
-To become productive with these breakpoints, continue on to the next section.
+Aby uzyskać produktywność z tymi punktami przerwania, przejdź do następnej sekcji.
 
-### Variable Inspection 
 
-The second main feature of a debugger is to examine and possibly alter the contents of variables. Once again, until the FreeCAD debugger for Python is ready we have to depend on work-arounds.
 
-A feature of the FreeCAD system is the provision of global variables. These variables that are created by the Python code and exist in FreeCAD\'s memory until the user quits from FreeCAD. The form of these variables is:
+### Inspekcja zmiennych 
+
+Drugą główną funkcją debuggera jest badanie i ewentualna zmiana zawartości zmiennych. Po raz kolejny, dopóki debugger FreeCAD dla Python nie będzie gotowy, musimy polegać na obejściach.
+
+Cechą systemu FreeCAD jest dostarczanie zmiennych globalnych. Zmienne te są tworzone przez kod Python i istnieją w pamięci FreeCAD, dopóki użytkownik nie opuści FreeCAD. Postać tych zmiennych to:
 
 
 ```python
 FreeCAD.myVariable = 123
 ```
 
-The statement creates a Python variable in the FreeCAD memory which is fully accessible to Python code, in fact it behaves identically to a normal Python variable. Yet after the Python code finishes running, no matter if it is running as a macro or through the console, there will be a variable \'FreeCAD.myVariable\' remaining in memory with the value of 123. Entering:
+Instrukcja tworzy zmienną Python w pamięci FreeCAD, która jest w pełni dostępna dla kodu Python, w rzeczywistości zachowuje się identycznie jak normalna zmienna Python. Jednak po zakończeniu działania kodu Python, niezależnie od tego, czy jest on uruchamiany jako makrodefinicja, czy przez konsolę, w pamięci pozostanie zmienna \"FreeCAD.myVariable\" o wartości 123. Wprowadzanie:
 
 
 ```python
@@ -369,7 +379,7 @@ The statement creates a Python variable in the FreeCAD memory which is fully acc
 123
 ```
 
-will produce the contents of the variable on the console. This value will remain in FreeCAD until either it is changed or the user Quits from FreeCAD. This means the value is present and available for a subsequent Python program to read from. At any time it can be checked from the console by typing it\'s name. So a program called \'Program A\':
+wyświetli zawartość zmiennej na konsoli. Wartość ta pozostanie we FreeCAD, dopóki nie zostanie zmieniona lub użytkownik nie opuści FreeCAD. Oznacza to, że wartość jest obecna i dostępna do odczytu przez kolejny program Python. W dowolnym momencie można ją sprawdzić z konsoli, wpisując jej nazwę. Tak więc program o nazwie \"Program A\":
 
 
 ```python
@@ -380,7 +390,7 @@ myListVariable.append('abc')
 FreeCAD.myVariable = myListVariable
 ```
 
-can run and load values into the global variable. Later a second program called \'Program B\' can run and retrieve the value:
+może uruchomić się i załadować wartości do zmiennej globalnej. Później drugi program o nazwie \"Program B\" może zostać uruchomiony i pobrać wartość:
 
 
 ```python
@@ -388,7 +398,7 @@ myOtherVariable = FreeCAD.myVariable
 # further calculations involving myOtherVariable
 ```
 
-Presumably \'Program B\' then goes on to make calculations involving the values left in FreeCAD.myVariable. At any time the user can type on the console to inspect the variable contents:
+Przypuszczalnie \"Program B\" wykonuje następnie obliczenia obejmujące wartości pozostawione w FreeCAD.myVariable. W dowolnym momencie użytkownik może wpisać na konsoli, aby sprawdzić zawartość zmiennej:
 
 
 ```python
@@ -397,13 +407,15 @@ Presumably \'Program B\' then goes on to make calculations involving the values 
 >>> 
 ```
 
-An important fact to be aware of with FreeCAD global variables is that they exist in memory and are lost when the program is Quit from. They are not saved with documents but only exist in memory.
+Ważnym faktem, o którym należy pamiętać w przypadku zmiennych globalnych FreeCAD, jest to, że istnieją one w pamięci i są tracone po zamknięciu programu. Nie są one zapisywane z dokumentami, ale istnieją tylko w pamięci.
 
-### Usage
 
-This brings us to a point where we can put the two steps together and use them to trace down errors in code. This is a bit cumbersome to use but is only the option until the FreeCAD debugger is ready.
 
-It\'s probably easiest to present through an example, say the following program is being debugged:
+## Użycie
+
+To prowadzi nas do punktu, w którym możemy połączyć te dwa kroki i użyć ich do śledzenia błędów w kodzie. Jest to nieco uciążliwe w użyciu, ale jest to tylko opcja, dopóki debugger FreeCAD nie będzie gotowy.
+
+Prawdopodobnie najłatwiej jest to przedstawić na przykładzie, powiedzmy, że debugowany jest następujący program:
 
 
 ```python
@@ -419,7 +431,7 @@ def monthCounter():
     FreeCAD.Console.PrintMessage(numberOfMonths)
 ```
 
-Execution of the program on the console yields:
+Wykonanie programu na konsoli daje wynik:
 
 
 ```python
@@ -427,7 +439,7 @@ Execution of the program on the console yields:
 10
 ```
 
-which is not what we expected! Assuming we are unable to see the errors we can use our unsophisticated breakpoint and variable examiner as follows. We can insert a line to copy the value of the variable we are wondering about to a global variable, then we can place a breakpoint to halt execution there:
+co nie jest tym, czego się spodziewaliśmy! Zakładając, że nie jesteśmy w stanie zobaczyć błędów, możemy użyć naszego niewyszukanego breakpointa i egzaminatora zmiennych w następujący sposób. Możemy wstawić linię, aby skopiować wartość zmiennej, nad którą się zastanawiamy, do zmiennej globalnej, a następnie możemy umieścić punkt przerwania, aby zatrzymać wykonywanie w tym miejscu:
 
 
 ```python
@@ -445,7 +457,7 @@ def monthCounter():
     FreeCAD.Console.PrintMessage(numberOfMonths)
 ```
 
-Now when we run the program we get:
+Teraz po uruchomieniu programu otrzymujemy:
 
 
 ```python
@@ -459,7 +471,7 @@ ZeroDivisionError: integer division or modulo by zero
 >>> 
 ```
 
-Probably things don\'t look so good, but what we can now do is inspect the value of the Python variable \'temporaryVariable1\' as we assigned it\'s value to the global variable \'FreeCAD.saveMyVariable\':
+Prawdopodobnie sprawy nie wyglądają tak dobrze, ale to, co możemy teraz zrobić, to sprawdzić wartość zmiennej Python \"temporaryVariable1\", ponieważ przypisaliśmy jej wartość do zmiennej globalnej \"FreeCAD.saveMyVariable\":
 
 
 ```python
@@ -468,23 +480,23 @@ Probably things don\'t look so good, but what we can now do is inspect the value
 >>>
 ```
 
-Remembering that the variable \'FreeCAD.saveMyVariable\' holds the value of the Python variable \'temporaryVariable1\' we can now determine the error in the value and start tracing back to determine where the error came from. When we are looking at \'FreeCAD.saveMyVariable\' it is important to realise that the variable \'temporaryVariable1\' is no longer available - it has been garbage collected away by the Python system.
+Pamiętając, że zmienna \"FreeCAD.saveMyVariable\" przechowuje wartość zmiennej Python \"temporaryVariable1\", możemy teraz określić błąd w wartości i rozpocząć śledzenie wstecz, aby określić, skąd pochodzi błąd. Kiedy patrzymy na \"FreeCAD.saveMyVariable\", ważne jest, aby zdać sobie sprawę, że zmienna \"temporaryVariable1\" nie jest już dostępna - została wyczyszczona przez system Python.
 
-Once the error has been located in the statement
+Po zlokalizowaniu błędu w instrukcji
 
 
 ```python
 numberOfSeasons = 3
 ```
 
-and corrected to:
+i poprawieniu na:
 
 
 ```python
 numberOfSeasons = 4
 ```
 
-Then we can run the program again, and get the value of \'11\' which is still not right. We can make more assignments to FreeCAD global variables, have multiple breakpoints (although the first one encountered will stop execution)
+Następnie możemy ponownie uruchomić program i uzyskać wartość \"11\", która nadal nie jest prawidłowa. Możemy wykonać więcej przypisań do zmiennych globalnych FreeCAD, mieć wiele punktów przerwania *(chociaż pierwszy napotkany zatrzyma wykonywanie)*.
 
 
 ```python
@@ -504,7 +516,7 @@ def monthCounter():
     FreeCAD.Console.PrintMessage(numberOfMonths)
 ```
 
-We now have two breakpoints (although one is commented out) and two FreeCAD global variables in use. There is no practical limit to the global variables available from FreeCAD so there is no need to economise unnecessarily. We can now produce the following on the console:
+Mamy teraz dwa punkty przerwania *(chociaż jeden jest zakomentowany)* i dwie zmienne globalne FreeCAD w użyciu. Nie ma praktycznego limitu zmiennych globalnych dostępnych w FreeCAD, więc nie ma potrzeby niepotrzebnego oszczędzania. Możemy teraz wygenerować następujące wyniki na konsoli:
 
 
 ```python
@@ -515,30 +527,36 @@ We now have two breakpoints (although one is commented out) and two FreeCAD glob
 >>> 
 ```
 
-Some points about the use of the FreeCAD global variables:
+Kilka punktów dotyczących korzystania ze zmiennych globalnych FreeCAD:
 
--   Python treats these variables identically to any other Python variable
--   these variables may hold any Python data type - anything a regular Python variable would hold
--   these variables may be used to \'bring out\' the contents of a Python variable so we can see them
--   also these variables may be used to \'supply\' values to a Python variable by setting their value from the console prior to running a routine, or setting it in a previous Python program
--   these variables may be used to pass data between two programs that run at different points in time
--   (to repeat) these variables are only for the duration of the FreeCAD session, once the user Quits from FreeCAD then the variables are lost
+-   Python traktuje te zmienne identycznie jak każdą inną zmienną Pythona
+-   zmienne te mogą przechowywać dowolny typ danych Pythona - wszystko, co może przechowywać zwykła zmienna Pythona
+-   zmienne te mogą być użyte do \"wydobycia\" zawartości zmiennej Pythona, abyśmy mogli ją zobaczyć
+-   zmienne te mogą być również używane do \"dostarczania\" wartości do zmiennej Python poprzez ustawienie ich wartości z konsoli przed uruchomieniem procedury lub ustawienie ich w poprzednim programie Python
+-   zmienne te mogą być używane do przekazywania danych między dwoma programami, które działają w różnych punktach czasowych
+-   *(powtarzam)* te zmienne są tylko na czas trwania sesji FreeCAD, gdy użytkownik wyjdzie z FreeCAD, zmienne zostaną utracone.
 
-### Variable Watcher 
 
-There is a utility [Global Variable Watcher](Macro_Global_Variable_Watcher.md) to help monitor the global variables of FreeCAD. It can display the contents of a global variable either on request or on a timed basis.
 
-### Name Space Clash 
+### Obserwowanie zmiennych 
 
-One thing to be aware of is as there is no management of global variable names by FreeCAD so there is the possibility of changing a variable from the system or another piece of code. Consequently it is a good idea to prefix your variables with something unique such as the routine name. For example to use a variablefrom a routine called \'alpha1\' the global name could be \'FreeCAD.alpha1MyVariable\'.
+Istnieje narzędzie [Podgląd zmiennych globalnych](Macro_Global_Variable_Watcher/pl.md), które pomaga monitorować zmienne globalne FreeCAD. Może wyświetlać zawartość zmiennej globalnej na żądanie lub w określonym czasie.
 
-## Coding Framework 
 
-When developing small pieces of Python code in FreeCAD it may be sufficient to use the Python console. However as the number of lines of code grows it makes more sense to store them in a file. Python can be in any file ending with the extension \".py\", however FreeCAD also provides a mechanism called Macro for storing such programs and interacting with them (e.g. editing, running). Python in regular \'.py\' files may only run from the Python console while python in macro file \'.FCMacro\' can be run from the FreeCAD interface for executing macros. One downside with the FreeCAD menu interface is it is menu based with a control window and potentially causes some clutter on the on-screen GUI.
 
-An easier approach is to take the Python code and instead of starting it from the FreeCAD Macro menu, start it from a toolbar. A Python routine linked to a button on a toolbar may be executed by one click. Also as the toolbars are floating windows they do not clutter the on-screen display. In fact if the FreeCAD window is less then the physical size of the screen the toolbar may be left to float outside of the FreeCAD window. This is beneficial when screen snapshots are required of the FreeCAD display. Also the toolbar can be much smaller than the macro control window displayed by the Macro menu of FreeCAD.
+### Konflikt przestrzeni nazw 
 
-Connecting a macro to a button on a toolbar is covered in [How to Install Macros](How_to_install_macros.md) and [How to Customise a Toolbar](Customize_Toolbars.md). It can take a number of minutes to connect a macro to button on toolbar, select an icon etc. This is not always required as sometimes you simply want to quickly flesh out a piece of code which will then be integrated in some other code. For this situation a Test Stub can be beneficial. There is no real definition for what a test stub would entail, it really depends on the person and the application area. An example is shown below:
+Jedną rzeczą, o której należy pamiętać, jest to, że FreeCAD nie zarządza globalnymi nazwami zmiennych, więc istnieje możliwość zmiany zmiennej z systemu lub innego fragmentu kodu. W związku z tym dobrym pomysłem jest poprzedzenie zmiennych czymś unikalnym, takim jak nazwa procedury. Na przykład, aby użyć zmiennej z procedury o nazwie \"alpha1\", nazwa globalna może brzmieć \"FreeCAD.alpha1MyVariable\".
+
+
+
+## Struktura kodowania 
+
+Podczas opracowywania małych fragmentów kodu Python w FreeCAD wystarczające może być użycie konsoli Python. Jednak wraz ze wzrostem liczby linii kodu bardziej sensowne jest przechowywanie ich w pliku. Python może znajdować się w dowolnym pliku kończącym się rozszerzeniem \".py\", jednak FreeCAD zapewnia również mechanizm o nazwie Makrodefinicje do przechowywania takich programów i interakcji z nimi *(np. edycji, uruchamiania)*. Python w zwykłych plikach \".py\" może być uruchamiany tylko z konsoli, podczas gdy Python w pliku makrodefinicji \".FCMacro\" może być uruchamiany z interfejsu FreeCAD do wykonywania makr. Jedną z wad interfejsu menu FreeCAD jest to, że jest on oparty na menu z oknem sterowania i potencjalnie powoduje bałagan na ekranie GUI.
+
+Łatwiejszym podejściem jest pobranie kodu Python i zamiast uruchamiania go z menu makrodefinicji FreeCAD, uruchomienie go z paska narzędzi. Procedura Python powiązana z przyciskiem na pasku narzędzi może zostać wykonana jednym kliknięciem. Ponadto, ponieważ paski narzędzi są pływającymi oknami, nie zaśmiecają ekranu. W rzeczywistości, jeśli okno FreeCAD jest mniejsze niż fizyczny rozmiar ekranu, pasek narzędzi może unosić się poza oknem FreeCAD. Jest to korzystne, gdy wymagane są zrzuty ekranu z wyświetlacza FreeCAD. Ponadto pasek narzędzi może być znacznie mniejszy niż okno sterowania makrami wyświetlane przez menu Macro FreeCAD.
+
+Podłączanie makra do przycisku na pasku narzędzi zostało opisane w [Jak zainstalować makrodefinicje](How_to_install_macros/pl.md) i [Dostosowanie pasków narzędzi](Customize_Toolbars/pl.md). Podłączenie makrodefinicji do przycisku na pasku narzędzi, wybranie ikony itp. może zająć kilka minut. Nie zawsze jest to wymagane, ponieważ czasami po prostu chcesz szybko opracować fragment kodu, który następnie zostanie zintegrowany z innym kodem. W takiej sytuacji Test Stub może być korzystny. Nie ma prawdziwej definicji tego, co pociąga za sobą skrót testowy, to naprawdę zależy od osoby i obszaru aplikacji. Przykład pokazano poniżej:
 
 
 ```python
@@ -576,48 +594,52 @@ QtGui.QMessageBox.information(None,"","Test Stub")
 ##########################################################################################
 ```
 
-This test stub also serves as a template for code with locations defined for the different aspects of a large Python program. When executed the test stub program simply generates a message showing it\'s name and finishes. In using a test stub, any main line code written is placed at the very end of the file with code for class definition, functions etc. placed in the previous sections. The template can easily be altered to match the situation. Obviously for a program of 5 lines there is no need for such an amount of documentation.
+Ten skrót testowy służy również jako szablon kodu z lokalizacjami zdefiniowanymi dla różnych aspektów dużego programu Python. Po uruchomieniu skrót testowy po prostu generuje komunikat pokazujący jego nazwę i kończy działanie. Podczas korzystania ze skrótów testowych, każdy napisany kod głównej linii jest umieszczany na samym końcu pliku z kodem definicji klas, funkcji itp. umieszczonym w poprzednich sekcjach. Szablon można łatwo zmienić, aby dopasować go do sytuacji. Oczywiście dla programu składającego się z 5 linii nie ma potrzeby tworzenia takiej ilości dokumentacji.
 
-By keeping a button permanently on a toolbar and linking that button to the test stub, there is always an area to write code and execute it immediately. The execution will be independent of the Python console. Also the execution can be independent of the screen GUI. Output from the program under development will appear as it should on the screen without any other artifacts from the programming environment. The Python console can be hidden to increase display area or used for any other purpose if needed. When execution is handled by the button on the toolbar the console is not required.
+Utrzymując przycisk na stałe na pasku narzędzi i łącząc ten przycisk ze skrótem testu, zawsze jest miejsce na napisanie kodu i natychmiastowe wykonanie go. Wykonanie będzie niezależne od konsoli Pythona. Również wykonanie może być niezależne od GUI ekranu. Dane wyjściowe z opracowywanego programu pojawią się na ekranie tak, jak powinny, bez żadnych innych artefaktów ze środowiska programistycznego. Konsola Pythona może być ukryta, aby zwiększyć obszar wyświetlania lub użyta do innych celów, jeśli zajdzie taka potrzeba. Gdy wykonanie jest obsługiwane przez przycisk na pasku narzędzi, konsola nie jest wymagana.
 
-When the code is finished then is can simply be copied/pasted over to another file and the test stub left empty until the next time it is needed.
+Gdy kod zostanie ukończony, można go po prostu skopiować/wkleić do innego pliku i pozostawić test stub pusty do następnego razu, gdy będzie potrzebny.
 
-Multiple pieces of code can be developed using the same test stub with some extra code for providing multiple buttons which is located at [PySide Beginner Examples - More Than 2 Buttons](PySide_Beginner_Examples#More_Than_2_Buttons.md).
+Wiele fragmentów kodu można opracować przy użyciu tego samego kodu testowego z dodatkowym kodem do obsługi wielu przycisków, który znajduje się pod adresem [Przykłady PySide dla początkujących - więcej niż dwa przyciski](PySide_Beginner_Examples/pl#Więcej_niż_2_przyciski.md).
 
-**More PySide Support**
+**Więcej wsparcia dla PySide**
 
-For more support using the PySide GUI there is the page [PySide](PySide.md)
+Więcej informacji na temat korzystania z PySide GUI można znaleźć na stronie opisującej [PySide](PySide/pl.md).
 
-**More Python Programming Support**
+**Więcej wsparcia dla programowania w Python**
 
-For more assistance with Python coding, there is a macro written to aid in developing Python code, it is located at [Python Assistant Window](Macro_Python_Assistant_Window.md).
+Aby uzyskać większą pomoc w kodowaniu w Pythonie, istnieje makro napisane, aby pomóc w tworzeniu kodu Python, znajduje się ono na stronie [Okno asystenta Python](Macro_Python_Assistant_Window/pl.md).
 
-## Putting It All Together 
 
-Screen management can be a challenge when developing code that has complex and detailed graphical output like FreeCAD does. The following system works well:
 
--   FreeCAD for console, report, GUI display
--   toolbar to invoke code being developed
--   external editor to modify code
--   PAW (Python Assistant Window) to aid Python code generation
+## Składanie wszystkiego w całość 
 
-**Screen Management**
+Zarządzanie ekranem może być wyzwaniem podczas tworzenia kodu, który ma złożone i szczegółowe dane graficzne, takie jak FreeCAD. Następujący system działa dobrze:
 
-With the test stub operated from a toolbar, and an external editor used, the window layout on the screen will be something like:
+-   FreeCAD dla konsoli, raportów, wyświetlania GUI,
+-   pasek narzędzi do wywoływania opracowywanego kodu,
+-   zewnętrzny edytor do modyfikacji kodu,
+-   PAW *(Python Assistant Window)* do wspomagania generowania kodu Python.
+
+**Zarządzanie ekranem**
+
+W przypadku, gdy skrót testowy jest obsługiwany z paska narzędzi i używany jest zewnętrzny edytor, układ okna na ekranie będzie wyglądał mniej więcej tak:
 
 ![](images/PythonDevelopmentEnvironment.jpg )
 
-\"tree\" in the diagram refers to the Combi or Tree browsers, the Python console and Report view are combined into the lower window and selectable by buttons. By selective use of the tools the development stream can be optimised, the above is only one idea. Tailoring is done on a personal basis.
+\"Drzewo\" na diagramie odnosi się do przeglądarek Combi lub Tree, konsola Python i widok raportu są połączone w dolnym oknie i wybierane za pomocą przycisków. Poprzez selektywne wykorzystanie narzędzi można zoptymalizować strumień rozwoju, powyższe jest tylko jednym z pomysłów. Dostosowanie odbywa się indywidualnie.
 
-## Miscellaneous Links 
 
-Some other links about IDEs for Python which might be of interest are:
 
--   [Comparison of Python IDEs for Development](http://www.pythoncentral.io/comparison-of-python-ides-development/)
--   [Choosing the Best Python IDE](http://pedrokroger.net/choosing-best-python-ide/)
--   [Your Development Environment](http://docs.python-guide.org/en/latest/dev/env/)
--   [PyCharm Community Edition IDE](http://www.jetbrains.com/pycharm/)
--   [Using Pyzo Python IDE with FreeCAD](Pyzo.md)
+## Różne odnośniki 
+
+Inne linki dotyczące IDE dla Python, które mogą być interesujące to:
+
+-   [Comparison of Python IDEs for Development](http://www.pythoncentral.io/comparison-of-python-ides-development/).
+-   [Wybór najlepszego IDE dla Pythona](http://pedrokroger.net/choosing-best-python-ide/).
+-   [Twoje środowisko programistyczne](http://docs.python-guide.org/en/latest/dev/env/).
+-   [PyCharm IDE w wersji Community Edition](http://www.jetbrains.com/pycharm/).
+-   [Korzystanie z Pyzo Python IDE z FreeCAD](Pyzo/pl.md).
 
 
 

@@ -2,11 +2,11 @@
 {{Macro/fr
 |Name=Macro Sketch Constraint From Spreadsheet
 |Name/fr=Macro Sketch Constraint From Spreadsheet
-|Description=Macro qui, par un simple clic sur une cellule du tableur, ajoute une contrainte de longueur à une ligne ou entre 2 points en utilisant un alias ou une adresse de cellule du tableur (ex. C2). Les modifications futures de la feuille de calcul mettront à jour la contrainte. La macro peut créer des alias pour vous.<br>Il suffit de sélectionner une ligne, deux points ou une contrainte, de cliquer sur une cellule de la feuille de calcul et d'exécuter la macro. Vous pouvez sélectionner des lignes, des points aux extrémités d'une ligne, des points, des cercles ou des arcs de cercle.
+|Description=Macro qui, par un simple clic sur une cellule du tableur, ajoute une contrainte de longueur à une ligne, un cercle ou entre 2 points en utilisant un alias ou une adresse de cellule du tableur (ex. C2). Les modifications futures de la feuille de calcul mettront à jour la contrainte. La macro peut créer des alias pour vous.<br>Il suffit de sélectionner une ligne, deux points ou une contrainte, de cliquer sur une cellule de la feuille de calcul et d'exécuter la macro. Vous pouvez sélectionner des lignes, des points aux extrémités d'une ligne, des points, des cercles ou des arcs de cercle.
 |Author=2cv001
 |Download=[https://wiki.freecad.org/images/d/dc/Macro_Sketch_Constraint_From_Spreadsheet.svg Icône de la barre d'outils]
-|Version=01.01
-|Date=2024-01-07
+|Version=01.04
+|Date=2024-11-25
 |FCVersion=Toutes
 }}
 
@@ -21,7 +21,7 @@ Il suffit de sélectionner 1 ligne, 2 points ou une contrainte, de cliquer sur u
 ![](images/SketchConstraintFromSpreadsheet1.gif )
 
 
-{{Codeextralink|https://raw.githubusercontent.com/2cv001/freecad/main/sketchConstraintFromSpreadsheet.FCMacro}}
+{{Codeextralink|https://raw.githubusercontent.com/2cv001/FreeCAD-macros/master/Spreadsheet/Sketch_Constraint_From_Spreadsheet.FCMacro}}
 
 
 
@@ -125,6 +125,7 @@ La macro fonctionne également pour les protusions (propriété Length), les poc
 Merci à openBrain, mario52 et onekk pour leur aide sur le code!
 Merci à Syres pour les tests et pour l\'aide sur le format dans le code.
 Merci à Roy043 et David69 pour les diverses révisions et améliorations du wiki.
+Merci à L\'ami René pour les tests et les idées.
 
 ## Script
 
@@ -132,11 +133,11 @@ Icône de la barre d\'outils ![](images/Macro_Sketch_Constraint_From_Spreadsheet
 
 ### Code
 
-ver 01 02 11/01/2024 by 2cv001 **Macro_Sketch_Constraint_From_Spreadsheet.FCMacro** 
+ver 01.04 2024/11/25 by 2cv001 **Macro_Sketch_Constraint_From_Spreadsheet.FCMacro** 
 
 #### Téléchargement
 
-{{CodeDownload|https://github.com/2cv001/freecad/blob/main/sketchConstraintFromSpreadsheet.FCMacro| Download latest version of the macro}}
+{{CodeDownload|https://raw.githubusercontent.com/2cv001/FreeCAD-macros/master/Spreadsheet/Sketch_Constraint_From_Spreadsheet.FCMacro| Download latest version of the macro}}
 
 
 

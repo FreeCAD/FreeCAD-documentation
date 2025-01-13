@@ -59,9 +59,15 @@ Cuando varios muros deberían intersecar, tienes que ubicarlos en un [piso](Arch
 
 ### Dibujar un muro sobre los objetos seleccionados 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selecciona uno o más objetos de geometría base (objeto de borrador, croquis, etc.)
 2.  Pulse el botón **<img src="images/Arch_Wall.svg" width=16px> [Arquitectura Muro](Arch_Wall/es.md)**, o pulse las teclas **W** y luego **A**.
 3.  Ajuste las propiedades necesarias, como la altura o la anchura.
+
+
+</div>
 
 
 
@@ -132,7 +138,17 @@ Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and al
 
 {{TitleProperty|Component}}
 
--    **Base**: The base object this wall is built on
+See [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|IFC}}
+
+See [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|IFC Attributes}}
+
+See [Arch Component](Arch_Component#Properties.md).
 
 
 {{TitleProperty|Wall}}
@@ -162,6 +178,8 @@ Los objetos de muro heredan las propiedades de los objetos [Pieza](Part_Workbenc
 
 
 </div>
+
+<img alt="" src=images/Sketch_vs_Wall.jpg  style="width:480px;">
 
 ## Scripting
 
@@ -226,6 +244,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/es
+⏵ [documentation index](../README.md) > Arch Wall/es

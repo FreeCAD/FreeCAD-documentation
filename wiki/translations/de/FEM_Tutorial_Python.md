@@ -26,13 +26,15 @@ Dieses Tutorium soll zeigen, wie eine einfache Finite-Elemente-Analyse (**FEA**)
 
 ## Voraussetzungen
 
--   The compatible version of FreeCAD as designated in the tutorial overview.
+-   Die kompatible Version von FreeCAD, wie in der Tutorial-Übersicht angegeben.
 
-    :   Use the **Help → About FreeCAD** to see the version of FreeCAD that is installed.
--   **Impotant Note:** Due to the continuous development of the <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM Workbench](FEM_Workbench.md) it is recommended to use the latest development snapshot of FreeCAD especially for Python scripted FEM analyses.
--   A working FEM workbench. Run the [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md) analysis to ascertain this.
+    :   Verwende **Hilfe → Über FreeCAD**, um die installierte Version von FreeCAD anzuzeigen.
+-   **Wichtiger Hinweis:** Aufgrund der kontinuierlichen Weiterentwicklung der <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM Workbench](FEM_Workbench/de.md) wird empfohlen, den neuesten Entwicklungs-Snapshot von FreeCAD zu verwenden, insbesondere für FEM-Analysen mit Python-Skripten.
+-   Eine funktionierende FEM-Workbench. Führe die [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md)-Analyse aus, um dies festzustellen.
 
-## Let\'s start 
+
+
+## Lasst uns beginnen 
 
 
 
@@ -111,9 +113,9 @@ analysis_object.addObject(force_constraint)
 
 ### FEM Netz (Anleitung) 
 
-This section contains the FEM mesh code. Please expand it to view the contents.
+Dieser Abschnitt enthält den FEM-Netzcode. Bitte erweitere ihn, um den Inhalt anzuzeigen.
 
-**Note:** Check out the [Additional Information](#Additional_Information.md) section below for how to script mesh generation with GMSH or Netgen mesh object.
+**Hinweis:** Lese den Abschnitt [Zusätzliche Informationen](#Additional_Information.md) weiter unten, um zu erfahren, wie du die Mesh-Generierung mit GMSH- oder Netgen-Mesh-Objekten schreibst.
 
 
 <div class="mw-collapsible-content">
@@ -447,7 +449,9 @@ analysis_object.addObject(femmesh_obj)
 
 </div>
 
-### FEM mesh (gmsh) 
+
+
+### FEM-Netz (gmsh) 
 
 
 ```python
@@ -479,7 +483,9 @@ doc.recompute()
 analysis_object.addObject(mesh)
 ```
 
-### Recompute
+
+
+### Neu berechnen 
 
 
 ```python
@@ -489,16 +495,18 @@ doc.recompute()
 ###
 ```
 
-## Run the analysis 
 
-To run the analysis using Python, an instance of the `ccxtools` module class `FemToolsCcx` needs to be created. Once this instance has been created, we have two choices when running the analysis:
 
-1.  Run all processes together at once (see [\"All in one\"](#All_in_one.md) section below)
-2.  Run processes one after the other (see [\"Step by step\"](#Step_by_step.md) section below)
+## Führe die Analyse aus 
 
-If there is only one analysis in the document and only one solver in the analysis, then no objects need to be passed on `fea init`. The `init` method of the `fea` class will activate the analysis **if the GUI is up**.
+Um die Analyse mit Python auszuführen, muss eine Instanz der Modulklasse `ccxtools` `FemToolsCcx` erstellt werden. Sobald diese Instanz erstellt wurde, haben wir beim Ausführen der Analyse zwei Möglichkeiten:
 
-Activating an analysis using Python works a follows:
+1.  Alle Prozesse gleichzeitig ausführen (siehe Abschnitt [\"Alles in einem\"](#Alles_in_einem.md) unten)
+2.  Prozesse nacheinander ausführen (siehe Abschnitt [\"Schritt für Schritt\"](#Schritt_für_Schritt.md) unten)
+
+Wenn es nur eine Analyse im Dokument und nur einen Solver in der Analyse gibt, müssen keine Objekte an `fea init` übergeben werden. Die Methode `init` der Klasse `fea` aktiviert die Analyse, **wenn die GUI aktiv ist**.
+
+Das Aktivieren einer Analyse mit Python funktioniert folgendermaßen:
 
 
 ```python
@@ -509,7 +517,9 @@ FemGui.setActiveAnalysis(doc.Analysis)
 ###
 ```
 
-#### All in one 
+
+
+#### Alles in einem 
 
 
 ```python
@@ -522,7 +532,9 @@ fea.run()
 ###
 ```
 
-#### Step by step 
+
+
+#### Schritt für Schritt 
 
 
 ```python
@@ -548,7 +560,9 @@ else:
 ###
 ```
 
-## Show the results 
+
+
+## Ergebnisse anzeigen 
 
 
 ```python
@@ -564,24 +578,30 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 ###
 ```
 
-### Additional Information 
 
-#### Scripting FEM mesh objects 
+
+### Zusätzliche Informationen 
+
+
+
+#### Skripting für FEM-Netzobjekte 
 
 ##### Netgen
 
-Scripting the Netgen mesh object was attempted in the [\"Parametrized FEM study\"](http://forum.freecadweb.org/viewtopic.php?f=18&t=16944#p134519) (FreeCAD FEM subforum thread), but has some limitations.
+Das Skripting des Netgen-Mesh-Objekts wurde in der [„Parametrisierte FEM-Studie"](http://forum.freecadweb.org/viewtopic.php?f=18&t=16944#p134519) (Thread im FreeCAD FEM-Unterforum) versucht, weist aber einige Einschränkungen auf.
 
 ##### GMSH
 
-On the contrary, the GMSH mesh object fully supports Python scripting. See the following forum posts:
+Andererseits unterstützt das GMSH-Mesh-Objekt das Python-Skripting vollständig. Siehe die folgenden Forenbeiträge:
 
 -   <https://forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
--   forum topic <http://forum.freecadweb.org/viewtopic.php?f=18&t=20087>
+-   Forenthema <http://forum.freecadweb.org/viewtopic.php?f=18&t=20087>
 
-#### Scripting multiple analysis 
 
-See forum post: <http://forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
+
+#### Skripting für Mehrfachanalysen 
+
+Siehe Forenbeitrag: <http://forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
 
 #### Scripting results 
 

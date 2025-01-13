@@ -10,34 +10,43 @@
 
 # Std Undo/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std Rückgängig** macht die letzte Aktion rückgängig.
 
+
+
 ## Anwendung
 
-1.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Std_Undo.svg" width=16px> [Std Rückgängig](Std_Undo/de.md)**-Schaltfläche.
-    -   Wähle die **Bearbeiten → <img src="images/Std_Undo.svg" width=16px> Rückgängig**-Option aus dem Menü
-    -   Benutze das Tastaturkürzel: **Strg**+**Z**.
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Std_Undo.svg" width=16px> [Rückgängig](Std_Undo/de.md)** drücken.
+    -   Den Menüeintrag **Bearbeiten → <img src="images/Std_Undo.svg" width=16px> Rückgängig** auswählen.
+    -   Das Tastaturkürzel **Strg** + **Z**.
+
+
 
 ## Optionen
 
--   Um mehrere Aktionen rückgängig zu machen, klicke auf den schwarzen Pfeil-nach-unten rechts neben der **<img src="images/Std_Undo.svg" width=16px> [Std Rückgängig](Std_Undo/de.md)**-Schaltfläche und wähle aus der Liste aus.
+-   Um mehrere Aktionen rückgängig zu machen, auf den schwarzen Pfeil-nach-unten rechts neben der Schaltfläche **<img src="images/Std_Undo.svg" width=16px> [Rückgängig](Std_Undo/de.md)** klicken und aus der Liste auswählen.
+
+
 
 ## Einstellungen
 
--   Die Rückgängig/Wiederherstellen-Funktionalität kann deaktiviert werden, indem **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Document → UsingUndo** auf `False` gesetzt wird, aber dies wird nicht empfohlen. Diese Einstellung kann auch im [Voreinstellungseditor](Preferences_Editor/de#Document.md) geändert werden.
--   Die maximale Anzahl von Rückgängig/Wiedererstellen-Schritten wird über **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Document → MaxUndoSize** definiert. Diese Einstellung kann auch im [Voreinstellungseditor](Preferences_Editor/de#Document.md) geändert werden.
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Die Rückgängig/Wiederherstellen-Funktionalität kann ausgeschaltet werden, indem **Bearbeiten → Einstellungen... → Allgemein → Dokument → Rückgängigmachen/Wiederholen in Dokumenten verwenden** deaktiviert wird. Aber dies wird nicht empfohlen.
+-   Die maximale Anzahl von Rückgängig/Wiedererstellen-Schritten wird über **Bearbeiten → Einstellungen... → Allgemein → Dokument → Maximale Rückgängigmachen/Wiederholen-Schritte** festgelegt.
+
+
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um die letzte Aktion rückgängig zu machen, benutze die `undo`-Methode des document-Objekts.
+Um die letzte Aktion rückgängig zu machen, wird die Methode `undo` des document-Objekts verwendet. Das Gegenstück, die Methode `redo` steht auch zur Verfügung.
 
 
 ```python
@@ -59,7 +68,7 @@ FreeCAD.ActiveDocument.UndoMode = 1
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -28,7 +28,13 @@ Narzędzie **Seria wymiarów kaskadowych pionowo** tworzy pionowe wymiary wspó�
 2.  Wybierz trzy lub więcej wierzchołków.
 3.  Kolejność wyboru pierwszych dwóch wierzchołków określa położenie linii bazowej. Jeśli wierzchołek wybrany jako pierwszy znajduje się poniżej drugiego, linia bazowa jest tworzona w najniższym wierzchołku, w przeciwnym razie jest tworzona w najwyższym wierzchołku.
 4.  Narzędzie można wywołać na kilka sposobów:
-    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionCreateVertCoordDimension.svg" width=16px> '''Seria wymiarów kaskadowych pionowo'''**.
+    -   
+        {{Version/pl|1.0}}
+        
+        : Jeśli [preferencja](TechDraw_Preferences/pl#Wymiary.md) **Narzędzie wymiarowania** jest ustawiona na {{Value|Narzędzie pojedyncze}} (domyślnie): kliknij na strzałce skierowanej w dół po prawej stronie od przycisku **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** i wybierz opcję **<img src="images/TechDraw_ExtensionCreateVertCoordDimension.svg" width=16px> Seria wymiarów kaskadowych pionowo** z listy rozwijanej.
+
+    -   Jeśli ta preferencja ma inną wartość (i {{VersionMinus/pl|0.21}}): wciśnij przycisk **<img src="images/TechDraw_ExtensionCreateVertCoordDimension.svg" width=16px> [Seria wymiarów kaskadowych pionowo](TechDraw_ExtensionCreateVertCoordDimension/pl.md)**.
+
     -   Wybierz opcję z menu **Rysunek Techniczny → Rozszerzenia: Wymiary → <img src="images/TechDraw_ExtensionCreateVertCoordDimension.svg" width=16px> Seria wymiarów kaskadowych pionowo**.
 5.  Tworzone są wymiary współrzędnych z wyśrodkowanymi tekstami wymiarowania.
 

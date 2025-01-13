@@ -22,20 +22,22 @@ Der Befehl **Std BaumSyncAuswahl** schaltet den Sync-Auswahl-Modus der [Baumansi
 
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Den nach unten weisenden Pfeil rechts neben der Schaltfläche **<img src="images/Std_TreeSyncView.svg" width=16px>** anklicken und den Eintrag **Sync-Auswahl** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
-    -   Den Menüeintrag **Ansicht → Baumansicht-Aktionen → <img src="images/Std_TreeSyncSelection.svg" width=16px> Sync-Auswahl** auswählen.
+    -   Den Menüeintrag **Ansicht → Baumansicht-Aktionen → Sync-Auswahl** auswählen.
     -   Das Tastaturkürzel **T** dann **2**.
 
 
 
 ## Einstellungen
 
--   Der Modus Sync-Auswahl der Baumansicht kann auch im [Voreinstellungseditor](Preferences_Editor/de#Auswahl.md) ausgewählt werden: **Bearbeiten→ Einstellungen... → Allgemein → Auswahl**.
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Der Modus Sync-Auswahl der Baumansicht kann auch in den Einstellungen festgelegt werden: **Bearbeiten→ Einstellungen... → Allgemein → Auswahl → Baum automatisch ausdehnen, wenn das zugehörige Objekt in der 3D-Ansicht ausgewählt wird**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

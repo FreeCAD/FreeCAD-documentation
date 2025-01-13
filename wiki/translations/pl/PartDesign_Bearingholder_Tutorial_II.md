@@ -85,9 +85,9 @@ For the rest of the machining, create a new Body. The bottom of the holder will 
 ![The machining Body\|thumb\|right\|400px](images/HolderTop2-18.jpg ) You can mirror the revolution on the YZ-axis. The picture on the right shows the \"machining\" Body. Of course, most of the dimensions of the Pads and Revolutions are not important as long as there is plenty of overlap.
 ![The finished Holder with machining\|thumb\|right\|400px](images/HolderTop2-19.jpg ) Finally, create a boolean operation to cut the machining Body out of the main Body. If you want a nice visual effect, you can colour the machined surfaces differently from the rest of the part. This is also a useful optical feedback showing you whether you forgot to machine somewhere.
 
-## Part One 
+## Część pierwsza 
 
-[PartDesign Bearingholder Tutorial I](PartDesign_Bearingholder_Tutorial_I.md)
+[Poradnik: Projekt części, uchwyt łożyska cześć 1](PartDesign_Bearingholder_Tutorial_I/pl.md)
 
 
 

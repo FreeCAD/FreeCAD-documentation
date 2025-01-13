@@ -13,39 +13,66 @@
 
 </div>
 
+
+
 ## Описание
-
-**Ограничение симметричности** требует от двух выделенных точек быть симметричными относительно данной линии, то есть от обеих точек требуется лежать на нормали к линии через обе точки на одинаковом расстоянии от линии. Альтернативно, она может наложить ограничение на две точки быть симметричными относительно третьей.
-
-## Применение
-
-<img alt="" src=images/SymmetricConstraint1.png  style="width:500px;">
-
-Выделите в эскизе две точки (вершины) и линию. Выделенные точки и линия станут тёмно-зелёными.
-
-<img alt="" src=images/SymmetricConstraint2.png  style="width:500px;">
 
 
 <div class="mw-translate-fuzzy">
 
-Кликните на иконке SymmetricalConstraint <img alt="" src=images/Constraint_Symmetric.png  style="width:16px;"> на панели инструментов Sketcher или выделите меню Constrain Symmetrical в субменю Sketcher Constraints в разделе меню Sketcher (или Part Design).
+**Ограничение симметричности** требует от двух выделенных точек быть симметричными относительно данной линии, то есть от обеих точек требуется лежать на нормали к линии через обе точки на одинаковом расстоянии от линии. Альтернативно, она может наложить ограничение на две точки быть симметричными относительно третьей.
 
 
 </div>
 
-Это назначит ограничения для выделенных элементов.
-
-<img alt="" src=images/SymmetricConstraint3.png  style="width:500px;">
 
 
-**Note:**
+## Применение
 
-Before Version 0.19 (see fix [1](https://github.com/FreeCAD/FreeCAD/pull/3746)), if you want to define a symmetry constraint with respect to a point, the order of the selection is important, depending on if you select the tool at the beginning or at the end.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
--   If you click the tool first: select the first point, then the symmetry reference point, and finally the second point.
--   If you click the tool last: select the first point, then the second point, and finally the symmetry reference point.
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
 
-See the tracker [issue #4144](https://freecadweb.org/tracker/view.php?id=4144), and [forum thread](https://forum.freecadweb.org/viewtopic.php?f=3&t=39611).
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> [Constrain symmetric](Sketcher_ConstrainSymmetric.md)** button.
+
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Constrain symmetric** option from the menu.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Constrain → <img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Constrain symmetric** option from the context menu.
+
+    -   Use the keyboard shortcut: **S**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Do one of the following:
+    -   Select two points and a symmetry point (in that order).
+    -   Select two points and a symmetry line (idem).
+    -   Select a point, a symmetry line and another point (idem).
+    -   Select a line and a symmetry point (idem).
+5.  A constraint is added.
+6.  Optionally keep creating constraints.
+7.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
+
+### Run-once mode 
+
+1.  Do one of the following:
+    -   Select two points and a symmetry point (in that order).
+    -   Select two points and a symmetry line (in any order).
+    -   Select a line and a symmetry point (idem).
+2.  Invoke the tool as explained above, or with the following additional option:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Constrain symmetric** option from the context menu.
+3.  A constraint is added.
+
+## Notes
+
+-   The arrows of this constraint show the color of the dimensional constraints.
+
+
 
 ## Программирование
 

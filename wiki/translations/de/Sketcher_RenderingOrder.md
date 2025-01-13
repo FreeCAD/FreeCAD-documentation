@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-Der Befehl **Sketcher RenderingReihenfolge** selbst macht aktuell gar nichts. Aber im zugehörigen Menü kann die Rendering-Reihenfolge für alle Skizzen geändert werden.
+Das Werkzeug <img alt="" src=images/Sketcher_RenderingOrder.svg  style="width:16px;"> [Sketcher RenderingReihenfolge](Sketcher_RenderingOrder/de.md) selbst macht aktuell gar nichts. Aber im zugehörigen Menü kann die Rendering-Reihenfolge für alle Skizzen geändert werden.
 
 Im Falle von deckungsgleichen Objekten gibt die Rendering-Reihenfolge vor, welche Elemente zuoberst liegen und daher in der [3D-Ansicht](3D_view/de.md) zuerst ausgewählt werden.
 

@@ -1,9 +1,9 @@
 # Draft Snap/ru
 ## Description
 
-In the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) and the <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md) you can create geometry by picking points in the [3D view](3D_view.md) or by entering coordinates in the [task panel](Task_panel.md) of commands. Another way of selecting points is by snapping. Snapping allows to select exact geometric points on, or defined by, existing objects or the grid. You can for example snap to the endpoint of a line, to the center of a circle, or to the intersection of two edges.
+In the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) and the <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM Workbench](BIM_Workbench.md) you can create geometry by picking points in the [3D view](3D_view.md) or by entering coordinates in the [task panel](Task_panel.md) of commands. Another way of selecting points is by snapping. Snapping allows to select exact geometric points on, or defined by, existing objects or the grid. You can for example snap to the endpoint of a line, to the center of a circle, or to the intersection of two edges.
 
-Snapping is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) commands.
+Snapping is available with most [Draft](Draft_Workbench.md) and [BIM](BIM_Workbench.md) commands.
 
 ![](images/Draft_Snap_Endpoint_example.png ) 
 *Snapping to the endpoint of an edge*
@@ -68,14 +68,14 @@ Note that circular edges do not have to be full circles.
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   When a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command requiring point input is active, the maximum distance at which [Draft Snap Grid](Draft_Snap_Grid.md) detects the intersections of grid lines can be changed on-the-fly by pressing **P** (increase key) or **M** (decrease key). This setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**. It can also be changed in the task panel of the [Draft SelectPlane](Draft_SelectPlane.md) command.
+-   When a [Draft](Draft_Workbench.md) or [BIM](BIM_Workbench.md) command requiring point input is active, the maximum distance at which [Draft Snap Grid](Draft_Snap_Grid.md) detects the intersections of grid lines can be changed on-the-fly by pressing **P** (increase key) or **M** (decrease key). This setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**. It can also be changed in the task panel of the [Draft SelectPlane](Draft_SelectPlane.md) command.
 -   To only snap when the **Snap modifier** key is held down:
     -   Deselect: **Edit → Preferences... → Draft → Grid and snapping → Always snap**.
     -   The default **Snap modifier** key, **Ctrl**, can be changed: **Edit → Preferences... → Draft → Grid and snapping → Snap modifier**.
--   To only show the Draft snap toolbar when a command is active select: **Edit → Preferences... → Draft → Interface → Only show the Draft snap toolbar during commands**. <small>(v0.22)</small> 
+-   To only show the Draft snap toolbar when a command is active select: **Edit → Preferences... → Draft → Interface → Only show the Draft snap toolbar during commands**. <small>(v1.0)</small> 
 -   The snap symbols can be changed: **Edit → Preferences... → Draft → Grid and snapping → Snap symbol style**.
 -   The color of the snap symbols and the dimensions of [Draft Snap Dimensions](Draft_Snap_Dimensions.md) can be changed: **Edit → Preferences... → Draft → Grid and snapping → Snap symbol color**.
--   The size of the snap symbols depends on: **Edit → Preferences... → Display → 3D View → Marker size**. <small>(v0.22)</small> 
+-   The size of the snap symbols depends on: **Edit → Preferences... → Display → 3D View → Marker size**. <small>(v1.0)</small> 
 -   The mentioned single character keyboard shortcuts can be changed: **Edit → Preferences... → Draft → Interface → In-command shortcuts**.
 
 

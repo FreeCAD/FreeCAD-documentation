@@ -570,7 +570,7 @@ Une façon de résoudre ce problème consiste simplement à supprimer toutes les
     1.  Utilisez un gestionnaire de fichiers et copiez le fichier que vous souhaitez renommer. Donnez ensuite le nouveau nom à la copie.
     2.  Ouvrez la copie dans FreeCAD. L\'assemblage et l\'ancien fichier doivent également être ouverts.
     3.  Sélectionnez l\'ancien objet dans l\'arborescence et cliquez pour changer la propriété \"Linked object\" (contient l\'ancien nom de fichier)
-    4.  Une boîte de dialogue de type liste s\'ouvre contenant toutes les pièces ouvertes. Elle montre les noms de fichiers et les objets de chaque partie. La pièce et l\'objet anciens sont sélectionnés. Localisez la pièce renommée dans l\'arborescence et sélectionnez le même objet dans la nouvelle pièce. Confirmez ensuite la sélection.
+    4.  Une fenêtre de dialogue de type liste s\'ouvre contenant toutes les pièces ouvertes. Elle montre les noms de fichiers et les objets de chaque partie. La pièce et l\'objet anciens sont sélectionnés. Localisez la pièce renommée dans l\'arborescence et sélectionnez le même objet dans la nouvelle pièce. Confirmez ensuite la sélection.
     5.  Supprimez l\'ancienne partie de l\'arborescence. Le fichier peut également être supprimé maintenant.
     6.  Les contraintes et éléments de l\'ancienne pièce sont devenus invalides. Ouvrez la liste de contraintes ou d\'éléments dans l\'arborescence. Puis séquentiellement:
         -   Sélectionnez chaque surface d\'élément sur la nouvelle pièce. Un élément de l\'arborescence sera mis en évidence.

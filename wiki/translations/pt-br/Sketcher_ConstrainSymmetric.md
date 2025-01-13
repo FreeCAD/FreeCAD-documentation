@@ -14,31 +14,54 @@
 
 ## Description
 
-The **Symmetrical Constraint** constrains two selected points to be symmetrical around a given line, i.e., both selected points are constrained to lie on a normal to the line through both points and are constrained to be equidistant from the line. Alternatively it can constrain two points to be symmetric with respect to a third one.
+The <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> [Sketcher ConstrainSymmetric](Sketcher_ConstrainSymmetric.md) tool constrains two points to be symmetrical around a line or axis, or around a third point.
 
 ## Usage
 
-<img alt="" src=images/SymmetricConstraint1.png  style="width:500px;">
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-Select two points (vertexes) in the sketch and a line in the sketch. The selected points and the line will be dark green.
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
 
-<img alt="" src=images/SymmetricConstraint2.png  style="width:500px;">
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> [Constrain symmetric](Sketcher_ConstrainSymmetric.md)** button.
 
-Click on **[<img src=images/Sketcher_ConstrainSymmetric.svg style="width:16px"> [Constrain symmetric](Sketcher_ConstrainSymmetric.md)** or select the Constrain Symmetrical menu item from the Sketcher Constraints sub menu of the Sketcher (or Part Design) menu item.
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Constrain symmetric** option from the menu.
 
-This will apply the constraint to the selected items.
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Constrain → <img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Constrain symmetric** option from the context menu.
 
-<img alt="" src=images/SymmetricConstraint3.png  style="width:500px;">
+    -   Use the keyboard shortcut: **S**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Do one of the following:
+    -   Select two points and a symmetry point (in that order).
+    -   Select two points and a symmetry line (idem).
+    -   Select a point, a symmetry line and another point (idem).
+    -   Select a line and a symmetry point (idem).
+5.  A constraint is added.
+6.  Optionally keep creating constraints.
+7.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
 
 
-**Note:**
 
-Before Version 0.19 (see fix [1](https://github.com/FreeCAD/FreeCAD/pull/3746)), if you want to define a symmetry constraint with respect to a point, the order of the selection is important, depending on if you select the tool at the beginning or at the end.
+### Modo de execução única 
 
--   If you click the tool first: select the first point, then the symmetry reference point, and finally the second point.
--   If you click the tool last: select the first point, then the second point, and finally the symmetry reference point.
+1.  Do one of the following:
+    -   Select two points and a symmetry point (in that order).
+    -   Select two points and a symmetry line (in any order).
+    -   Select a line and a symmetry point (idem).
+2.  Invoke the tool as explained above, or with the following additional option:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Constrain symmetric** option from the context menu.
+3.  A constraint is added.
 
-See the tracker [issue #4144](https://freecadweb.org/tracker/view.php?id=4144), and [forum thread](https://forum.freecadweb.org/viewtopic.php?f=3&t=39611).
+## Notes
+
+-   The arrows of this constraint show the color of the dimensional constraints.
 
 ## Scripting
 

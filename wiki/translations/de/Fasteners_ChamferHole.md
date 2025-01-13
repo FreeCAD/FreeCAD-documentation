@@ -8,12 +8,16 @@
 
 # Fasteners ChamferHole/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:24px;"> **Fasteners Lochsenkung** erstellt eine Senkung an einem Loch für Senkschrauben.
 
 ![](images/Fasteners_ChamferHole_Example.png ) 
 *Löcher mit Senkung für Senkschrauben*
+
+
 
 ## Anwendung
 
@@ -39,6 +43,8 @@ Der Befehl <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:24px;"
 11. A Countersunk object with a chamfered recess for each selected edge is created.
 12. Optionally attach screws. See [Fasteners Workbench](Fasteners_Workbench#Usage.md).
 
+
+
 ## Hinweise
 
 -   Countersunk objects are parametric. An existing Countersunk object can be edited by double-clicking it in the [Tree view](Tree_view.md). The **Chamfer holes for countersunk screws** task panel will open. Circular edges can be added or removed, and the parameters of edges can be changed.
@@ -46,12 +52,9 @@ Der Befehl <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:24px;"
 
 
 
-
-{{Fasteners Tools navi
-
-}}
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ChamferHole/de
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners ChamferHole/de

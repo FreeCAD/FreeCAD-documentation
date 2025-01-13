@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign_Draft
    Name/fr: PartDesign Dépouille
-   MenuLocation: Part Design , Appliquer une fonction d'habillage , Dépouille
+   MenuLocation: PartDesign , Appliquer une fonction d'habillage , Dépouille
    Workbenches: PartDesign_Workbench/fr
 ---
 
@@ -31,7 +31,7 @@ L\'outil <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> **Par
 2.  Sélectionnez une ou plusieurs faces du corps.
 3.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/PartDesign_Draft.svg" width=16px> [Dépouille](PartDesign_Draft/fr.md)**.
-    -   Sélectionnez l\'option **Part Design → Appliquer une fonction d'habillage → <img src="images/PartDesign_Draft.svg" width=16px> Dépouille** dans le menu.
+    -   Sélectionnez l\'option **PartDesign → Appliquer une fonction d'habillage → <img src="images/PartDesign_Draft.svg" width=16px> Dépouille** dans le menu.
 4.  S\'il n\'y a pas de corps actif, et qu\'il y a deux corps ou plus dans le document, le dialogue **Corps actif requis** s\'ouvrira et vous invitera à en activer un. S\'il n\'y a qu\'un seul corps, il sera activé automatiquement.
 5.  Le [panneau des tâches](Task_panel/fr.md) des **Paramètres de la dépouille**. Voir [Options](#Options.md) pour plus d\'informations.
 6.  Appuyez sur le bouton **OK** pour terminer.
@@ -112,7 +112,7 @@ Un objet Part Dépouille est dérivé d\'un [Part Feature](Part_Feature/fr.md) e
 
 {{Properties_Title|Part Design}}
 
--    **Refine|Bool**: affine la forme (nettoie les arêtes redondantes) après l\'ajout/soustraction. La valeur par défaut est déterminée par la préférence **Affiner automatiquement le modèle après une opération sur une esquisse**. Voir [PartDesign Préférences](PartDesign_Preferences/fr#G.C3.A9n.C3.A9ral.md).
+-    **Refine|Bool**: affiner la forme (nettoie les arêtes redondantes) après l\'ajout/soustraction. La valeur par défaut est déterminée par la préférence **Affiner automatiquement le modèle après une opération sur une esquisse**. Voir [PartDesign Préférences](PartDesign_Preferences/fr#G.C3.A9n.C3.A9ral.md).
 
 
 

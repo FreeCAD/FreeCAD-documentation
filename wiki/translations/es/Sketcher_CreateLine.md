@@ -28,16 +28,13 @@ Esta herramienta dibuja una línea indicando dos puntos en la vista 3D. Cuando s
 ![](images/Sketcher_LineExample1.png‎ )
 
 
-<div class="mw-translate-fuzzy">
-
-El objeto línea creado comienza y termina en los puntos dados, pero la línea es infinita respecto a las restricciones [Tangente](Sketcher_ConstrainTangent/es.md), [PuntoEnObjeto](Sketcher_ConstrainPointOnObject/es.md) y [ÁnguloInterno](Sketcher_ConstrainAngle/es.md). Esto significa, por ejemplo, que un punto con la restricción [PuntoEnObjeto](Sketcher_ConstrainPointOnObject/es.md) puede no estar situado entre los dos puntos dados, sino que puede estar fuera de los dos puntos en la extensión de la línea dibujada.
-
-
-</div>
-
-
 
 ## Utilización
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
+Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">

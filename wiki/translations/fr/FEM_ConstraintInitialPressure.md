@@ -1,11 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM ConstraintInitialPressure
    Name/fr: FEM Pression initiale
    MenuLocation: Modèle , Conditions limites de fluide , Condition de pression initiale
    Workbenches: FEM_Workbench/fr
    Version: 0.21
    SeeAlso: FEM_ConstraintInitialFlowVelocity/fr
+}}{{GuiCommandFemInfo/fr
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintInitialPressure/fr

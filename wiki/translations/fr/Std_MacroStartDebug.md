@@ -18,7 +18,7 @@ Cette commande ne fonctionne pas pour le moment.
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

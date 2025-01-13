@@ -25,7 +25,7 @@ Das Werkzeug **TechDraw BlattExportierenDXF** speichert ein Zeichnungsblatt als 
     -   Die Schaltfläche **<img src="images/TechDraw_ExportPageDXF.svg" width=16px> [Seite als DXF-Datei exportieren](TechDraw_ExportPageDXF/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → Page  → <img src="images/TechDraw_ExportPageDXF.svg" width=16px> Seite als DXF-Datei exportieren** auswählen.
     -   Wenn ein Zeichnungsblatt im [Hauptansichtsbereich](Main_view_area/de.md) angezeigt wird: Mit der rechten Maustaste in das Fenster des Blattes klicken und im Kontextmenü die Option **Export DXF** auswählen.
-3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
     1.  Das gewünschte Blatt auswählen.
     2.  Die Schaltfläche **OK** drücken.
 4.  Das Dialogfenster **Seite als DXF-Datei exportieren** wird geöffnet.
@@ -33,7 +33,7 @@ Das Werkzeug **TechDraw BlattExportierenDXF** speichert ein Zeichnungsblatt als 
 
 
 
-### Begrenzungen
+### Einschränkungen
 
 -   Radien- und Durchmessermaße werden nur dann korrekt exportiert, wenn sie \"innerhalb\" des Bogens liegen.
 -   Skalierung wird nicht unterstützt. Das DXF wird in der tatsächlichen Größe der TechDraw Seite gezeichnet.
@@ -85,7 +85,7 @@ TechDraw.writeDXFPage(page,filename)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

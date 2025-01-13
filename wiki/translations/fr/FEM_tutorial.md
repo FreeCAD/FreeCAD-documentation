@@ -64,7 +64,7 @@ Maintenant, nous avons un modèle avec lequel travailler.
 3.  Sélectionnez <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:24px;"> [Condition de limite fixe](FEM_ConstraintFixed/fr.md).
 4.  Cliquez sur **Ajouter**, sélectionnez la face arrière de l\'objet Cube (face sur l\'axe *YZ*) et cliquez sur **OK**.
 5.  Sélectionnez <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> [Charge d\'effort](FEM_ConstraintForce/fr.md).
-6.  Cliquez sur **Ajouter**, sélectionnez la face avant de l\'objet Cube (la face parallèle à la face arrière) et définissez la valeur **Charge \[N\]** à 9000000.
+6.  Cliquez sur **Ajouter**, sélectionnez la face avant de l\'objet Cube (la face parallèle à la face arrière) et définissez la valeur **Force \[N\]** à 9000000.
 7.  Réglez la *Direction* sur *-Z* en sélectionnant une des arêtes de la face parallèle à cette direction.
 8.  Cliquez sur **OK**.
 
@@ -86,7 +86,7 @@ Il est recommandé de faire un maillage comme dernière étape des préparations
 #### Netgen
 
 1.  Sélectionnez le modèle.
-2.  <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:24px;"> [Maillage FEM à partir d\'une forme de Netgen](FEM_MeshNetgenFromShape/fr.md) : Génère un maillage d\'éléments finis pour un modèle en utilisant Netgen.
+2.  <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:24px;"> [Mailler avec Netgen](FEM_MeshNetgenFromShape/fr.md) : génère un maillage d\'éléments finis pour un modèle en utilisant Netgen.
 3.  Dans la boîte de dialogue de maillage, cliquez sur **Appliquer** et **OK**.
 
 Vous pouvez également faire glisser et déposer un maillage pour une analyse mécanique d\'un objet qui ne possède pas de maillage dans la [Vue en arborescence](Tree_view/fr.md)
@@ -94,7 +94,7 @@ Vous pouvez également faire glisser et déposer un maillage pour une analyse m�
 #### GMSH
 
 1.  Sélectionnez le modèle.
-2.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> [Maillage FEM à partir d\'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md) : Génère un maillage d\'éléments finis pour un modèle en utilisant Gmsh.
+2.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> [FEM Mailler avec Gmsh](FEM_MeshGmshFromShape/fr.md) : génère un maillage d\'éléments finis pour un modèle en utilisant Gmsh.
 3.  Dans la boîte de dialogue de maillage, cliquez sur **Appliquer** et **OK**.
 
 Nous avons maintenant créé un maillage de notre objet et nous sommes prêt à ajouter des contraintes et des forces.
@@ -134,6 +134,12 @@ Nous avons maintenant créé un maillage de notre objet et nous sommes prêt à 
 {{Note|Comparaison avec le fichier d'exemple précédent|Si vous sélectionnez le type de résultat '''déplacement Z''',  vous pouvez voir que la valeur obtenue est presque identique au fichier d'exemple fourni avec FreeCAD. Des différences pourraient survenir en raison de la qualité du maillage et le nombre de nœuds qu'il contient.}}
 
 Nous avons complété la procédure de base de l\'[atelier FEM](FEM_Workbench/fr.md).
+
+
+
+## Remarques
+
+-   Pour un tutoriel vidéo basé sur ce tutoriel écrit, regardez : [FEM MaterialReinforced tutorial](https://www.youtube.com/watch?v=SZTIqhfCSVc).
 
 
 {{FEM Tools navi

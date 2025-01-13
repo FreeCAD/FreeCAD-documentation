@@ -213,7 +213,7 @@ Następnie uruchom ponownie program FreeCAD. W niektórych dystrybucjach jest to
 
 
 
-## Znane problemy 
+#### Znane problemy 
 
 Jeden z użytkowników zgłosił [na forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327), że widzi następującą sytuację: {{code|  Spacenav daemon 0.6
   failed to open config file /etc/spnavrc: No such file or directory. using defaults.
@@ -240,27 +240,31 @@ Urządzenia wejściowe 3Dconnexion są obsługiwane w systemie Mac OS, pod warun
 
 ### Windows
 
-Począwszy od wersji 0.13, mysz 3D jest obsługiwana w systemie Windows. Musisz mieć zainstalowane sterowniki 3Dconnexion.
+Począwszy od wersji 0.13, mysz 3D jest obsługiwana w systemie Windows. Musisz mieć zainstalowane sterowniki 3Dconnexion. W wersji FreeCAD 1.0 wprowadzono [nową integrację z urządzeniami 3Dconnexion](https://github.com/FreeCAD/FreeCAD/pull/12929). Jeśli FreeCAD jest kompilowany z tą integracją to wspierane są tylko nowe urządzanie: wsparcie dla starszych urządzeń będzie wymagało samodzielnego skompilowania programu ze zmienną cMake FREECAD_3DCONNEXION_SUPPORT ustawioną na \"Raw Input\". Użytkownicy systemu operacyjnego Windows powinni mieć świadomość, iż sterownik 3Dconnexion (*nie* kod we FreeCAD) zawiera pakiet telemetryczny, który wysyła informacje o zainstalowanym oprogramowaniu do 3Dconnexion.
 
 
 
 #### Znane problemy 
 
-Występuje problem polegający na tym, że program 3Dconnexion wysyła do programu FreeCAD zduplikowane zdarzenia przewijania, co powoduje przeskakiwanie widoku. Aby to naprawić:
-
-1.  Otwórz Właściwości 3Dconnexion. Możesz dwukrotnie kliknąć jego ikonę na pasku zadań, obok zegara Windows.
-2.  Kliknij przycisk Ustawienia zaawansowane.
-3.  Otwórz program FreeCAD lub przełącz się do już otwartego okna programu FreeCAD.
-4.  Przełącz się z powrotem do Ustawień zaawansowanych 3Dconnexion. Upewnij się, że w nagłówku jest napisane \"FreeCAD\".
-5.  Usuń zaznaczenie wszystkich pól na stronie.
-
-ref: <https://freecadweb.org/tracker/view.php?id=1893>
+-   W FreeCAD w wersji 1.0 i nowszych zmiana ustawień w oknie konfiguracji 3DX może nie przynieść oczekiwanych rezultatów *([issue](https://github.com/FreeCAD/FreeCAD/issues/14044))*. Aby to naprawić:
+    1.  Zatrzymaj sterownik *(uruchamiając Stop 3DxWare)*.
+    2.  Przejdź do **..<user>\AppData\Roaming\3Dconnexion\3DxWare\Cfg** i usuń plik **FreeCAD.xml**.
+    3.  Uruchom sterownik *(uruchamiając Start 3DxWare)*.
+    4.  Uruchom FreeCAD i sprawdź, czy możesz zmienić ustawienia [Spaceball](#Ruch_Spaceball.md).
 
 
 
 ## Konfiguracja programu FreeCAD 
 
-Obsługa myszy 3D została wykonana za pomocą projektu spnav w systemie Linux i na bardzo niskim poziomie w systemie Windows. Oznacza to, że nie było obsługi żadnych ustawień urządzenia, ponieważ w systemie Linux nie ma dobrego wsparcia, a w systemie Windows jest to nadpisane. Dlatego do okna *Dostosuj* dodano dwie dodatkowe strony.
+
+{{VersionPlus/pl|1.0}}
+
+: Manipulator 3Dconnexion można skonfigurować w aplikacji sterownika *(oprogramowanie 3DxWare)*.
+
+
+{{VersionMinus/pl|0.21}}
+
+: Jeśli zostanie wykryty Spaceball, następujące zakładki w [oknie dialogowym Dostosuj](Interface_Customization/pl.md) mogą być użyte do zmiany ustawień:
 
 <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
 

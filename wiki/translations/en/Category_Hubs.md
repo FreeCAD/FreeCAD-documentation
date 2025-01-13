@@ -5,8 +5,8 @@ This category gathers the meeting points of the 3 broad categories of users of F
 
 |     |     |     |
 | --- | --- | --- |
-| [Developer hub/en](Developer_hub/en.md) | [Power users hub/en](Power_users_hub/en.md) | [Scientific literature/en](Scientific_literature/en.md) |
-| [User hub/en](User_hub/en.md) |
+| [Developer hub/en](Developer_hub/en.md) | [Power users hub/en](Power_users_hub/en.md) | [User hub/en](User_hub/en.md) |
+|
 
 
 

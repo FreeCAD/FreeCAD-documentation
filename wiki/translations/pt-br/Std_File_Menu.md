@@ -3,6 +3,8 @@
 
 
 
+
+
 ## Introdução
 
 The **Std File Menu** is one of the 7 sub-menus in the [standard menu](Standard_Menu.md):
@@ -35,6 +37,8 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_Open.svg  style="width:32px;"> [Open\...](Std_Open.md): Opens a document or imports files.
 
+-   [Open Recent](Std_RecentFiles.md): Shows the recent file list.
+
 -   <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:32px;"> [Close](Std_CloseActiveWindow.md): Closes the active window.
 
 -   <img alt="" src=images/Std_CloseAllWindows.svg  style="width:32px;"> [Close All](Std_CloseAllWindows.md): Closes all windows.
@@ -55,7 +59,7 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_MergeProjects.svg  style="width:32px;"> [Merge project\...](Std_MergeProjects.md): Adds the objects from a FreeCAD file to the document.
 
--   <img alt="" src=images/Std_ProjectInfo.svg  style="width:32px;"> [Project information\...](Std_ProjectInfo.md): Shows details of the document.
+-   <img alt="" src=images/Std_ProjectInfo.svg  style="width:32px;"> [Document information\...](Std_ProjectInfo.md): Shows details of the document.
 
 -   <img alt="" src=images/Std_Print.svg  style="width:32px;"> [Print\...](Std_Print.md): Prints the document.
 
@@ -63,15 +67,13 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_PrintPdf.svg  style="width:32px;"> [Export PDF\...](Std_PrintPdf.md): Exports the document as PDF.
 
--   [Recent files](Std_RecentFiles.md): Shows the recent file list.
-
 -   <img alt="" src=images/Std_Quit.svg  style="width:32px;"> [Exit](Std_Quit.md): Quits the application.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

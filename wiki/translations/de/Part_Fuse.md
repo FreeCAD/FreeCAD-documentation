@@ -46,7 +46,13 @@ Verbunde werden unterstützt; es wird jedoch davon ausgegangen, dass sich in ein
 
 Elemente können einer Vereinigung hinzugefügt und von ihr entfernt werden, indem sie mit der Maus in der Baumansicht in das Vereinigungsobjekt hinein oder aus ihm heraus gezogen werden. Um Elemente aus einer Vereinigung herauszuziehen, müssen sie auf dem Dokument-Knoten (dem Dateinamen) des Modells abgelegt werden. Eine manuelle Neuberechnung (Taste **F5** oder auf die Schaltfläche <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Aktualisieren](Std_Refresh/de.md) drücken) ist erforderlich, um die Ergebnisse zu sehen.
 
-Nachdem dieser Vorgang abgeschlossen ist, kann es notwendig sein, die Form mit <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [FormAufbereiten](Part_RefineShape/de.md) zu säubern.
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

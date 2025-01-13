@@ -5,17 +5,21 @@ Der Zweck dieser Seite ist es, ein minimales Beispiel zu geben, das die Funktion
 
 Siehe unten, [Full and complete minimal example](#Full_and_Complete_Minimal_Example.md).
 
-The following GIF demonstrates attaching our custom box to a cylinder, and automatically updating it\'s position when the cylinder\'s position changes.
+Das folgende GIF zeigt das Befestigen unseres benutzerdefinierten Würfels an einen Zylinder, damit dieser seine Position automatisch nachführt wenn der Zylinder seine Position ändert.
 
 ![](images/Box-attached-to-cylinder-demo.gif )
 
-**NOTE:** The box is our custom scripted object, and the cylinder is a regular FreeCAD object generated from the Part workbench.
+**HINWEIS:** Der Würfel ist unser benutzerdefiniertes Objekt, und der Zylinder ist ein reguläres FreeCAD Objekt, das im Arbeitsbereich Part erzeugt wurde.
 
-## Making Scripted Objects Attachable 
 
-### Add Attach Extension 
 
-First, we need to add the Part::AttachExtensionPython extension to our Part::FeaturePython oject in the constructor, or __init__ method, of our custom scripted object.
+## Benutzerdefinierte Objekte verknüpfbar machen 
+
+
+
+### Einfügen der Anfügen Erweiterung 
+
+Zuerst müssen wir die Part::AttachExtensionPython Erweiterung zum Konstruktor unseres Part::FeaturePython Objektes oder in die __init__ Methode, unseres benutzerdefinierten Objektes einfügen.
 
  {.python .numberLines}
 class Box():
@@ -29,16 +33,18 @@ class Box():
         ... custom properties
 
         # Needed to make this object "attachable"
-        obj.addExtension('Part::AttachExtensionPython', obj)
+        obj.addExtension('Part::AttachExtensionPython')
 
 
-Without adding this code, we\'ll see the following warning dialog when attaching our custom scripted object to another object.
+Ohne Anfügen dieses Code erhalten wir die folgenden Warnung, falls wir versuchen unser benutzerdefiniertes Objekt an ein anderes Objekt anzufügen.
 
 ![](images/Part-attachment-warning-dialog.png )
 
-### Update Position Based on Attached Object 
 
-Then, in the \execute\ method of our custom scripted object, we need to call the \positionBySupport\ on our \Part::FeaturePython\ object.
+
+### Anfügen der Position basierend auf dem angefügten Objekt 
+
+Dann müssen wir in der \execute\ Methode unseres benutzerdefinierten Objektes \positionBySupport\ unseres \Part::FeaturePython\ aufrufen.
 
  {.python .numberLines}
 class Box:...
@@ -50,9 +56,11 @@ class Box:...
         obj.Shape = Part.makeBox(...)
 
 
-Without calling positionBySupport, our custom scripted object won\'t update it\'s position when the position of the attached-to object changes.
+Ohne den Aufruf von positionBySupport, würde unser benutzerdefiniertes Objekt seine Position nicht anfügen, falls sich die Position des Objektes an welches es angefügt ist, ändert.
 
-## Full and Complete Minimal Example 
+
+
+## Abschließend das vollständige minimale Beispiel 
 
  {.python .numberLines}
 import FreeCAD as App
@@ -86,7 +94,7 @@ class Box():
 
         # Needed to make this object "attachable",
         # or able to attach parameterically to other objects
-        obj.addExtension('Part::AttachExtensionPython', obj)
+        obj.addExtension('Part::AttachExtensionPython')
 
     def execute(self, obj):
         """
@@ -118,16 +126,20 @@ box = create_box('CustomBox', document)
 document.recompute()
 
 
-## References
+
+
+## Hinweise
 
 -   [Part EditAttachment](Part_EditAttachment.md)
 -   [FreeCAD Forum - Parametric attachment of scripted object](https://forum.freecadweb.org/viewtopic.php?f=22&t=24794)
 -   [FreeCAD Forum - Port attachment to be an extension](https://forum.freecadweb.org/viewtopic.php?f=10&t=18978&start=10)
 -   [GitHub - freecad-part-attachment-python-example](https://github.com/gbroques/freecad-part-attachment-python-example)
 
-## Tested With the Following FreeCAD Version 
 
-Tested with the following FreeCAD version information:
+
+## Mit den folgenden Versionen von FreeCAD getestet 
+
+Mit den folgenden Versionen von FreeCAD getestet:
 
     OS: Ubuntu 18.04.3 LTS
     Word size of OS: 64-bit
@@ -142,10 +154,10 @@ Tested with the following FreeCAD version information:
     OCC version: 7.3.0
     Locale: English/UnitedStates (en_US)
 
-Note: For FreeCAD 0.19 this tutorial needs a minor update:
+Hinweis: Für FreeCAD 0.19 benötigt dieses Tutorial eine geringfügige Erweiterung:
 
--   The second argument of the\addExtension\ method got deprecated.
--   For details see <https://forum.freecadweb.org/viewtopic.php?f=10&t=54370>
+-   Das zweite Argument der \addExtension\ Methode wurde überflüssig.
+-   Detail siehe <https://forum.freecadweb.org/viewtopic.php?f=10&t=54370>
 
 
 

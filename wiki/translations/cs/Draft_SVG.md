@@ -7,6 +7,8 @@ Draft SVG is a software module used by the <img alt="" src=images/Std_Open.svg  
 *Inkscape drawing exported to SVG, which is subsequently opened in FreeCAD*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Otevření
@@ -39,6 +41,8 @@ The following SVG objects can be imported:
 FreeCAD will not import path objects that have only one point ([forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Export
@@ -63,6 +67,8 @@ The following FreeCAD objects can be exported:
 -   Dimensions
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 Mějte na mysli, že SVG je 2D formát, takže všechny Z informace budou ignorovány (všechny objekty budou ploché).
@@ -71,6 +77,8 @@ Mějte na mysli, že SVG je 2D formát, takže všechny Z informace budou ignoro
 </div>
 
 SVG is a 2D format, so all Z information will be disregarded (all objects will be flattened).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -99,6 +107,8 @@ SVG editor Inkscapu aktuálně pracuje s dokumenty s rozlišením 90 DPI. Nezál
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

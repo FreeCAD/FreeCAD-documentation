@@ -1,31 +1,69 @@
 # Manual:The FreeCAD Interface/fr
 {{Manual:TOC}}
 
-FreeCAD utilise le [framework Qt](https://fr.wikipedia.org/wiki/Qt) pour dessiner et gérer son interface. Ce framework est utilisé par un large éventail d\'applications. Ainsi l\'interface FreeCAD est alors très classique et ne présente pas de difficulté particulière à comprendre. La plupart des boutons sont standards et vous les trouverez où vous les attendez **Fichier → Ouvrir, Modifier → Coller, etc.** Voici l\'apparence de FreeCAD lorsque vous l'ouvrez pour la première fois, juste après l\'installation :
+FreeCAD est basé sur le [framework Qt](https://fr.wikipedia.org/wiki/Qt) et se caractérise par une interface simple et directe. Les utilisateurs de CAO les plus expérimentés pourront identifier les similitudes avec d\'autres logiciels, tandis que les nouveaux utilisateurs trouveront qu\'il est facile de naviguer et de découvrir les différentes options offertes par FreeCAD. Voici l\'apparence par défaut de FreeCAD :
 
-![](images/FreeCAD-v0-18-FirstStart.png )
+<img alt="" src=images/FreeCAD_022_Start.png  style="width:600px;">
 
-L\'écran de démarrage est un « écran de bienvenue » qui présente des informations utiles pour les nouveaux arrivants comme les derniers fichiers sur lesquels vous avez travaillé, les nouveautés de FreeCAD ou des informations rapides sur les ateliers les plus courants. Il vous informera également si une nouvelle version stable de FreeCAD est disponible.
+La page de démarrage sert d\'écran d\'accueil, conçu pour faciliter l\'accès rapide et facile aux principales zones de FreeCAD qu\'un utilisateur pourrait souhaiter explorer. Grâce à elle, les utilisateurs peuvent sans effort créer de nouvelles pièces, ouvrir des fichiers récents et lancer des dessins en 2D. En outre, il comporte des raccourcis vers des ressources utiles telles que des tutoriels et des forums d\'utilisateurs, qui sont inestimables pour les débutants et les utilisateurs expérimentés à la recherche de conseils ou d\'astuces. Les utilisateurs peuvent facilement personnaliser l\'apparence de la page de démarrage en fonction de leurs préférences.
 
-Après quelques temps, lorsque vous vous serez familiarisés avec FreeCAD, vous pourrez peut-être modifier les préférences afin qu'au démarrage de FreeCAD vous vous trouviez directement dans l'un des ateliers avec un nouveau document ouvert. Ou, fermez simplement l\'onglet de la page de démarrage et créez un nouveau document :
+Au fur et à mesure que vous vous familiarisez avec FreeCAD, vous pouvez ajuster les paramètres dans les préférences. Vous pouvez ainsi configurer FreeCAD pour qu\'il s\'ouvre directement dans l\'un des ateliers avec un nouveau document prêt à l\'emploi lorsque vous le lancez. Vous pouvez également fermer l\'onglet Page de démarrage et créer manuellement un nouveau document.
 
-![](images/FreeCAD-v0-18-NewProject.png )
+<img alt="" src=images/FreeCAD_022_PartDesign.png  style="width:600px;">
 
 
 
 ### Les ateliers 
 
-Notez que certaines des icônes ont changé entre les deux captures d\'écran ci-dessus. C\'est là où le concept le plus important utilisé dans l\'interface FreeCAD entre en jeu : les ateliers.
+FreeCAD utilise un système appelé « ateliers », similaire aux cadres conceptuels utilisés dans les logiciels de conception avancés tels que Revit ou CATIA. L\'idée d\'un atelier est analogue aux stations spécialisées d\'un laboratoire scientifique, où différents postes de travail sont équipés pour des types d\'expériences distincts. Dans un laboratoire, vous pouvez avoir une zone dédiée à la chimie, une autre à la biologie et une troisième à la physique, chacune équipée des outils spécifiques nécessaires à ces disciplines.
 
-Les ateliers sont des groupes d\'outils (boutons de barre d\'outils, menus et autres contrôles d\'interface) qui sont regroupés par spécialité. Pensez à un atelier où vous auriez différentes personnes travaillant ensemble : une personne travaille le métal, une autre le bois. Chacune d\'elles a dans son atelier une table séparée avec des outils spécifiques pour son travail. Elles peuvent aussi toutes travailler sur les mêmes objets. Il en va de même dans FreeCAD.
+Dans le contexte de FreeCAD, chaque atelier est adapté à un type de tâche particulier, organisant tous les outils nécessaires à cette activité dans une seule interface. Lorsque vous passez d\'un atelier à l\'autre, l\'ensemble des outils et des commandes visibles dans l\'interface utilisateur s\'adapte pour refléter les besoins de la tâche sélectionnée, bien que le contenu du projet ou la « scène » sur laquelle vous travaillez ne change pas. Cela permet des transitions transparentes dans le flux de travail, par exemple en commençant une conception avec des formes 2D de base dans l\'atelier Draft, puis en élaborant ces conceptions avec des outils de modélisation avancés dans l\'atelier Part.
+
+Les termes « Atelier » et « Module » sont parfois utilisés de manière interchangeable, mais ils ont des significations distinctes dans FreeCAD. Un module est une extension qui ajoute des fonctionnalités à FreeCAD, alors qu\'un atelier est un type spécifique de module équipé de ses propres composants d\'interface utilisateur tels que les barres d\'outils et les menus, conçus pour faciliter des types de tâches spécifiques. Ainsi, chaque atelier est un module, mais tous les modules ne sont pas des ateliers.
 
 Le contrôle le plus important de l\'interface FreeCAD est le sélecteur d'atelier (Workbench) que vous utilisez pour passer d\'un atelier à l\'autre :
 
-![](images/FreeCAD-v0-18-WorkbenchMenu.png )
+<img alt="" src=images/FreeCAD_WB.png  style="width:600px;">
 
-Les ateliers perturbent souvent les nouveaux utilisateurs car il n\'est pas toujours facile de savoir dans quel atelier rechercher un outil spécifique. Mais après un certain temps, ces utilisateurs ont une meilleure perception des outils qu\'offre FreeCAD et s\'adaptent. Les ateliers sont également entièrement personnalisables (voir ci-dessous). Le même outil peut apparaître dans plusieurs ateliers. L\'icône du bouton d\'un outil particulier sera toujours le même quel que soit l\'atelier dans lequel il apparaît.
+-   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> L\'[atelier Assembly](Assembly_Workbench/fr.md) pour la construction et la résolution d\'assemblages mécaniques. {{Version/fr|1.0}}
 
-Plus loin dans ce manuel, vous trouverez également un tableau montrant le contenu de tous les ateliers.
+-   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> L\'[atelier BIM](BIM_Workbench/fr.md) pour travailler avec des éléments architecturaux et créer des modèles [BIM](https://fr.wikipedia.org/wiki/Building_information_modeling). Il combine l\'atelier Arch et l\'ancien atelier BIM externe disponible dans la {{VersionMinus/fr|0.21}}.
+
+-   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> L\'[atelier CAM](CAM_Workbench/fr.md) est utilisé pour produire des instructions en G-Code. Cet atelier était appelé \"atelier Path\" {{VersionMinus/fr|0.21}}.
+
+-   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> L\'[atelier Draft](Draft_Workbench/fr.md) contient des outils 2D et des opérations de CAO 2D et 3D de base.
+
+-   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> L\'[atelier FEM](FEM_Workbench/fr.md) fournit un flux de travail d\'analyse par éléments finis (FEA).
+
+-   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> L\'[atelier Inspection](Inspection_Workbench/fr.md) est fait pour vous donner des outils spécifiques pour l\'examen des formes. Il en est encore aux premiers stades de développement.
+
+-   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> L\'[atelier Material](Material_Workbench/fr.md) gère le système des matériaux de FreeCAD. {{Version/fr|1.0}}
+
+-   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> L\'[atelier Mesh](Mesh_Workbench/fr.md) pour travailler avec des maillages triangulés.
+
+-   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> L\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md) pour l\'interopérabilité avec OpenSCAD et la réparation de [Géométrie Solide Constructive](Constructive_solid_geometry/fr.md) (CSG).
+
+-   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> L\' [atelier Part](Part_Workbench/fr.md) pour travailler avec des primitives géométriques et des opérations booléennes.
+
+-   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> L\'[atelier PartDesign](PartDesign_Workbench/fr.md) pour créer des formes de pièces à partir d\'esquisses.
+
+-   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> L\'[atelier Points](Points_Workbench/fr.md) pour travailler avec des nuages de points.
+
+-   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> L\'[atelier Reverse Engineering](Reverse_Engineering_Workbench/fr.md) est destiné à fournir des outils spécifiques pour convertir des formes/solides/mailles en fonctionnalités paramétriques compatibles avec FreeCAD.
+
+-   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> L\'[atelier Robot](Robot_Workbench/fr.md) pour étudier les mouvements des robots. Non maintenu pour le moment.
+
+-   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> L\'[atelier Sketcher](Sketcher_Workbench/fr.md) pour travailler avec des esquisses à géométrie contrainte.
+
+-   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> L\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md) pour créer et manipuler des données de feuilles de calcul.
+
+-   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> L\'[atelier Surface](Surface_Workbench/fr.md) fournit des outils pour créer et modifier des surfaces. Il est similaire à l\'outil [Part Générateur de formes](Part_Builder/fr.md) à partir des arêtes.
+
+-   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> L\'[atelier TechDraw](TechDraw_Workbench/fr.md) pour produire des dessins techniques à partir de modèles 3D. C\'est le successeur de l\'[atelier Drawing](Drawing_Workbench/fr.md).
+
+-   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> L\'[atelier Test](Testing/fr.md) est destiné au débogage de FreeCAD.
+
+Les ateliers déconcertent souvent les nouveaux utilisateurs, car il n\'est pas toujours facile de savoir dans quel atelier chercher un outil spécifique. Mais ils s\'apprennent rapidement et, au bout d\'un certain temps, ils leur paraîtront naturels. Les nouveaux utilisateurs se rendent rapidement compte que les ateliers sont un moyen pratique d\'organiser la multitude d\'outils offerts par FreeCAD. En outre, les ateliers sont entièrement personnalisables.
 
 
 
@@ -33,36 +71,35 @@ Plus loin dans ce manuel, vous trouverez également un tableau montrant le conte
 
 Regardons mieux les différentes parties de l\'interface :
 
-![](images/FreeCAD-v0-18-Cube.png )
+<img alt="" src=images/FreeCAD_022_Interface.png  style="width:800px;">
 
--   **La vue 3D** est le composant principal de l\'interface. Il peut être séparé de la fenêtre principale, dans une fenêtre qui lui est dédiée. Vous pouvez avoir plusieurs vues du même document (ou des mêmes objets) ou plusieurs documents ouverts en même temps. Vous pouvez sélectionner des objets ou des parties d\'objets en cliquant dessus et vous pouvez obtenir une vue panoramique, zoomer et faire pivoter la vue avec les boutons de la souris. Ceci sera expliqué plus tard, dans le prochain chapitre.
+La fenêtre principale de l\'application peut être divisée en 11 sections :
 
-Outre le panneau de la vue 3D, les panneaux d'informations suivants sont disponibles. Ils peuvent être rendus visibles ou masqués en les sélectionnant depuis **Affichage → Panneaux**. Le nom du panneau apparaît dans le coin supérieur gauche du panneau lorsqu\'il est affiché :
+1.  La [zone de vue principale](main_view_area/fr.md) qui peut contenir différentes fenêtres à onglets.
+2.  La [vue 3D](3D_view/fr.md), normalement intégrée à la [zone de vue principale](main_view_area/fr.md). La vue 3D est l\'élément central de l\'interface. Elle affiche et permet de manipuler les objets sur lesquels vous travaillez. Il est possible d\'avoir plusieurs vues du même document (ou des mêmes objets) ou d\'avoir plusieurs documents ouverts simultanément. De plus, chaque vue peut être détachée de la fenêtre principale séparément.
+3.  L\'onglet Modèle et l\'onglet [Tâches](Task_panel/fr.md).
+    1.  L\'onglet Modèle vous montre le contenu et la structure de votre document.
+    2.  L\'onglet Tâches est l\'endroit où FreeCAD vous demandera des valeurs spécifiques à l\'atelier et à l\'outil que vous utilisez (par exemple les dimensions d\'un objet).
+4.  L\'[éditeur de propriétés](Property_editor/fr.md) qui apparaît lorsque l\'onglet Modèle est actif dans l\'interface. Il permet de gérer les propriétés exposées publiquement des objets du document. Il se compose des sections Data et View, qui présentent respectivement les propriétés de visualisation et les propriétés paramétriques des objets.
+5.  La [fenêtre de sélection](Selection_view/fr.md) qui indique les objets ou les sous-éléments d\'objets (sommets, arêtes, faces) qui sont sélectionnés.
+6.  La [vue rapport](Report_view/fr.md) où sont affichés les messages, les avertissements et les erreurs.
+7.  La [console Python](Python_console/fr.md) où toutes les commandes exécutées sont imprimées et où vous pouvez entrer du code Python.
+8.  La [barre d\'état](Status_bar/fr.md) où apparaissent certains messages et infobulles.
+9.  La zone de la barre d\'outils, où les barres d\'outils sont ancrées.
+10. Le [sélecteur d\'atelier](Std_Workbench.md) où vous sélectionnez l\'[atelier](Workbenches/fr.md) actif.
+11. Le [menu standard](Standard_Menu.md) qui contient les opérations de base du programme.
 
--   **La vue combinée** *( ![en Anglais,](images/Flag-en.jpg ) Combo View)* comporte deux onglets :
-    -   L\'onglet Modèle *( ![en Anglais,](images/Flag-en.jpg ) Model)* vous montre le contenu et la structure de votre document ci-dessus et les propriétés (ou les paramètres) des objets sélectionnés ci-dessous. Ces propriétés sont séparées en deux catégories :
-        -   Données *( ![en Anglais,](images/Flag-en.jpg ) Data)* : propriétés qui concernent la géométrie elle-même,
-        -   Affichage *( ![en Anglais,](images/Flag-en.jpg ) View)* : propriétés qui affectent la façon dont la géométrie apparait à l\'écran.
-    -   L\'onglet Tâches *( ![en Anglais,](images/Flag-en.jpg ) Tasks)* est l\'endroit où FreeCAD vous demandera des valeurs spécifiques à l\'outil que vous utilisez à cet instant, par exemple, en entrant une valeur « longueur » lorsque l\'[outil Ligne de l\'atelier Draft](Draft_Line/fr.md) est utilisé. Il se ferme automatiquement après avoir appuyé sur le bouton **OK** (ou Annuler). En double-cliquant sur l\'objet associé dans la vue combinée, la plupart des outils vous permettront de rouvrir cet onglet Tâches afin de modifier les paramètres.
-        L\'onglet Tâches a parfois des effets secondaires déroutants et frustrants. Si l\'onglet Tâche n\'est pas vide, certaines opérations FreeCAD ne fonctionneront pas comme prévu. Par exemple, si vous avez un seul objet dans votre modèle, tel qu\'un cube, double-cliquez dessus pour ouvrir l\'onglet Tâches afin de vous permettre de modifier les paramètres caractérisant le cube. Si vous avez ouvert la vue [Afficher la Sélection ](#Affichage_Sélection.md), le nom interne du cube y est répertorié. Le cube entier deviendra vert dans le panneau 3D, indiquant que le cube entier est sélectionné. Un clic sur l'arrière-plan désélectionnera le cube entier et effacera la vue Sélection. Jusqu\'à présent, c\'est un comportement normal. Toutefois, si vous cliquez maintenant sur une face du cube au lieu de sélectionner cette face, rien ne sera sélectionné car l'onglet Tâches n'a pas été complété. Même si vous n'avez apporté aucune modification aux paramètres, FreeCAD attend que le bouton **OK** (ou autre) de l'onglet Tâches soit cliqué.
-
--   **La vue rapport** est normalement caché. Toutefois il est intéressant de l\'ouvrir. Elle permet de voir un certain nombre d\'informations telles que des avertissements ou des erreurs vous aidant à debugger ce que vous auriez pu mal faire.
--   **La console Python** est aussi cachée par défaut. C\'est ici que vous interagissez avec le contenu du document en utilisant [le langage Python](https://fr.wikipedia.org/wiki/Python_%28programming_language%29). Chaque action que vous faites dans FreeCAD est traductible par du code Python. En ayant cette fenêtre ouverte, cela vous permet de voir la correspondance dans le code en temps réel --- c\'est aussi une manière d\'apprendre un peu de Python sans même sans rendre compte.
--   **La vue arborescente** affiche uniquement l\'arborescence sous l\'onglet Modèle dans la vue combinée. Elle est habituellement cachée.
--   **La vue propriété** montre les informations propres à l\'objet en bas de la vue combinée. Elle est habituellement cachée.
--    **La vue afficher sélection** affiche les noms des objets couramment sélectionnés. Ce sont les objets sur lesquels les opérations de l\'atelier seront effectives. Elle peut être utilisée pour affiner la sélection en désélectionnant certains objets avant l\'application d\'une opération de l\'atelier. La vue de sélection peut également être utilisée pour rechercher des objets par nom, puis de les sélectionner. Par défaut, la vue de sélection est masquée. Bien que vous puissiez souvent déterminer le ou les objets couramment sélectionnés en consultant l'arborescence des objets dans l'onglet Modèle de la vue combinée, pour les opérations complexes nécessitant plusieurs sélections et où la sélection est difficile, il est utile de rendre cette vue visible afin que vous puissiez voir à la fois les étiquettes et compter les objets sélectionnés.
-
-![](images/FreeCAD-v0-18-ExtrudeTask.png )
+La plupart des panneaux ci-dessus peuvent être cachés ou révélés par **Affichage → Panneaux**.
 
 
 
 ### Personnalisation de l\'interface 
 
-L\'interface de FreeCAD est hautement personnalisable. Tous les panneaux et barres d\'outils peuvent être déplacés à différents endroits ou empilés les uns sur les autres. Ils peuvent également être fermés et rouverts quand c'est nécessaire dans le menu Affichage ou en cliquant avec le bouton droit de la souris sur une zone vide de l\'interface. Il existe bien d\'autres options disponibles, telles que la création de barres d\'outils personnalisées avec des outils à partir de n\'importe quel atelier ou l'affectation et la modification des raccourcis clavier.
+L\'interface de FreeCAD est conçue pour une personnalisation poussée. Toutes les barres d\'outils et tous les panneaux peuvent être déplacés, empilés ou même ancrés dans diverses configurations selon les préférences de l\'utilisateur. En outre, ils peuvent être fermés puis rouverts selon les besoins. Au-delà de ces capacités, les utilisateurs disposent de nombreuses autres options, notamment la possibilité de créer des barres d\'outils personnalisées avec des outils sélectionnés dans l\'un des ateliers disponibles, et d\'attribuer ou de modifier des raccourcis clavier pour rationaliser le flux de travail. Cette flexibilité permet aux utilisateurs d\'adapter l\'environnement à leurs besoins et préférences spécifiques.
 
 Ces options de personnalisation avancées sont disponibles à partir du menu **Outils → Personnaliser...** :
 
-![](images/FreeCAD-v0-18-CustomizeInterface.png )
+<img alt="" src=images/FreeCAD_022_Customization.png  style="width:600px;">
 
 **Pour en savoir plus** :
 

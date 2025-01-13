@@ -11,10 +11,13 @@
 # Std Import/ko
 
 
+</div>
+
+
 
 ## 설명
 
-**표준 가져오기(Std Import)** 명령은 다른 형식의 파일에서 지오메트리를 활성 문서로 가져옵니다. 다양한 파일 형식이 지원되며 어떤 형식에는 가져오기 옵션이 여러 가지 존재합니다. 자세한 내용은 [가져오기 내보내기](Import_Export/ko.md)를 참조하십시오.
+**표준 가져오기(Std Import)** 명령은 다른 형식의 파일에서 지오메트리를 활성 문서로 가져옵니다. 다양한 파일 형식이 지원되며 어떤 형식에는 가져오기 옵션이 여러 가지 존재합니다. 자세한 내용은 [가져오기 내보내기를](Import_Export/ko.md) 참조하십시오.
 
 
 <small>(v0.21)</small> 
@@ -24,6 +27,9 @@
 
 
 ## 용법
+
+
+<div class="mw-translate-fuzzy">
 
 1.  이 명령을 수행하는 방법은 여러 가지입니다:
     -   메뉴에서 **파일 → <img src="images/Std_Import.svg" width=16px> 가져오기...** 옵션을 선택합니다.
@@ -37,6 +43,9 @@
     **열기**버튼을 누릅니다.
 
 
+</div>
+
+
 
 ## 선택 사항 
 
@@ -46,7 +55,7 @@
 
 ## 비고
 
--   가져온 [메시 개체](Mesh_Workbench/ko.md)를 솔리드로 변환하려면 [STL이나 OBJ 가져오기](Import_from_STL_or_OBJ/ko.md) 자습서를 참조하십시오.
+-   가져온 [메시 개체를](Mesh_Workbench/ko.md) 솔리드로 변환하려면 [STL이나 OBJ 가져오기](Import_from_STL_or_OBJ/ko.md) 자습서를 참조하십시오.
 -   새 문서로 가져오려면 [표준 열기](Std_Open/ko.md) 명령을 사용할 수 있습니다.
 -   일부 작업대에는 추가적인 가져오기 명령이 있습니다. 참조: [가져오기 내보내기](Import_Export/ko.md).
 
@@ -54,9 +63,15 @@
 
 ## 환경 설정 
 
+
+<div class="mw-translate-fuzzy">
+
 -   참조: [가져오기 내보내기 환경 설정](Import_Export_Preferences/ko.md).
 -   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
 -   마지막으로 가져온 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileImportFilter**.
+
+
+</div>
 
 ## Image Plane 
 
@@ -125,7 +140,7 @@ An Image Plane object is derived from an [App GeoFeature](App_GeoFeature.md) obj
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

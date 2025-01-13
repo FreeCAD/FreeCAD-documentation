@@ -5,7 +5,7 @@
    MenuLocation: Edit , Box element selection
    Workbenches: Alle
    Shortcut: **Shift**+**E**
-   SeeAlso: Std_BoxSelection/de, Std_SelectAll/de
+   SeeAlso: Part_BoxSelection/de, Std_SelectAll/de
 ---
 
 # Std BoxElementSelection/de
@@ -16,28 +16,31 @@
 
 Der Befehl **Std RechteckElementAuswahl** wählt Flächen innerhalb eines benutzerdefinierten Bereichs (Auswahlrechteck, engl. Box) in der [3D-Ansicht](3D_view/de.md) aus.
 
+Note that if a whole object falls inside the rectangle, the object itself, instead of its faces, is selected. To avoid this create two box selections for each object (hold down **Ctrl** while dragging the 2nd rectangle), or use the [Part BoxSelection](Part_BoxSelection.md) command instead.
+
 
 
 ## Anwendung
 
 1.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Wähle die **Bearbeiten → <img src="images/Std_BoxElementSelection.svg" width=16px> Box-Element Auswahl**-Option aus dem Menü.
-    -   Benutze den Tastaturkurzbefehl: **Shift**+**E**.
-2.  Tue eins der folgenden Dinge:
-3.  Ziehe ein Rechteck von links nach rechts, um Flächen auszuwählen, deren geometrische Mittelpunkte im Rechteck liegen.
-    -   Ziehe ein Rechteck von rechts nach links, um Flächen auszuwählen, deren Zeichen-Box (teilweise) im Rechteck liegen oder es berühren.
+    -   Den Menüeintrag **Bearbeiten → <img src="images/Std_BoxElementSelection.svg" width=16px> Box-Element Auswahl** auswählen.
+    -   Das Tastaturkürzel: **Shift**+**E**.
+2.  Eine der folgenden Möglichkeiten auswählen:
+    -   Ein Rechteck von links nach rechts aufziehen, um Flächen auszuwählen, deren geometrische Mittelpunkte im Rechteck liegen.
+    -   Ein Rechteck von rechts nach links aufziehen, um Flächen auszuwählen, die (teilweise) innerhalb des Rechtecks liegen oder davon berührt werden.
 
 
 
 ## Hinweise
 
 -   Benutze den [Std Rechteckauswahl](Std_BoxSelection/de.md)-Befehl, um Objekte statt Flächen mit dem Auswahlrechteck auszuwählen.
+-   Dieser Befehl kann nicht genutzt werden, um Elemente in einer Skizze auszuwählen. Siehe Arbeitsbereich [Sketcher](Sketcher_Workbench/de#Auswahlmethoden.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

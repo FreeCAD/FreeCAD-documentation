@@ -1,19 +1,24 @@
 # Splash screen/de
 ## Beschreibung
 
-Der Begrüßungsbildschirm (Splash-Screen) ist ein Bild, das während des Starts von FreeCAD erscheint. Für jede neue Veröffentlichung wird er in einer offenen Abstimmung aus Beiträgen von Anwendern ausgewählt. Der Begrüßungsbildschirm kann im [Voreinstellungseditor](Preferences_Editor/de.md) ausgeschaltet werden, indem die Option \"Splashscreen beim Starten anzeigen\" deaktiviert wird.
+Der Begrüßungsbildschirm (Splash-Screen) ist ein Bild, das während des Starts von FreeCAD erscheint. Der Begrüßungsbildschirm kann im [Voreinstellungseditor](Preferences_Editor/de#Allgemein_2.md) ausgeschaltet werden, indem die Option \"Splashscreen beim Starten anzeigen\" deaktiviert wird.
+
+
+{{Version/de|1.0}}
+
+: Das Bild des Begrüßungsbildschirms wird zufällig aus mehreren Bildern ausgewählt, die Modelle von Anwendern zeigen und ausgewählte Addon-Arbeitsbereiche.
 
 
 
 ## Benutzerdefinierter Begrüßungsbildschirm 
 
-To use a custom splash screen, you have to place an image named **splash_image.png** in one of the following directories depending on the operating system:
+Um einen eigenen Begrüßungsbildschirm einzusetzen, muss der als Abbildung mit dem Namen **splash_image.png** in einem der, vom jeweiligen Betriebssystem abhängigen, folgenden Verzeichnisse abgelegt werden:
 
--   **Linux:** **$XDG_DATA_HOME/FreeCAD/Gui/images/** (normally this corresponds to **~/.local/share/FreeCAD/Gui/images/**)
--   **Windows:** **%APPDATA%\FreeCAD\Gui\images\** (normally **C:\Users\username\AppData\Roaming\FreeCAD\Gui\images\**)
+-   **Linux:** **$XDG_DATA_HOME/FreeCAD/Gui/images/** (das entspricht normalerweise **~/.local/share/FreeCAD/Gui/images/**)
+-   **Windows:** **%APPDATA%\FreeCAD\Gui\images\** (normalerweise **C:\Users\username\AppData\Roaming\FreeCAD\Gui\images\**)
 -   **MacOS:** **~/Library/Application Support/FreeCAD/Gui/images/**
 
-The directory can be found using the {{Incode|App.getUserAppDataDir()}} command in the [Python console](Python_console.md). The {{Incode|Gui}} and {{Incode|images}} folders may have to be created first. The same custom splash screen will be used for all versions of FreeCAD on a given computer.
+Das Verzeichnis kann Durch Eingeben des Python-Befehls {{Incode|App.getUserAppDataDir()}} in der [Python-Konsole](Python_console/de.md) gefunden werden. Die Ordner {{Incode|Gui}} und {{Incode|images}} müssen eventuell zuerst noch angelegt werden. Derselbe eigene Begrüßungsbildschirm wird für alle FreeCAD-Versionen auf diesem Computer eingesetzt.
 
 
 

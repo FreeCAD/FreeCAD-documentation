@@ -1,8 +1,8 @@
 ---
  GuiCommand:
+   Name: Raytracing Lux
    Name/de: Raytracing Lux
    MenuLocation: Raytracing , Neues Luxrender Projekt‏‎
-|
    Workbenches: Raytracing_Workbench/de
    Shortcut: 
    SeeAlso: 
@@ -11,64 +11,32 @@
 # Raytracing Lux/de
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
 Fügt ein neues LuxRender Projekt in das Dokument ein.
 
 
-</div>
 
-## Usage
+## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-## Verwendung
-
-1.  Klicke auf das schwarze \"nach unten\" -Symbol nach <img alt="" src=images/Raytracing_Lux.png  style="width:32px;"> um zwischen den verschiedenen vordefinierten Vorlagen zu wählen.
+1.  Klicke auf das schwarze \"nach unten\" -Symbol nach <img alt="" src=images/Raytracing_Lux.png  style="width:32px;">, um zwischen den verschiedenen vordefinierten Vorlagen zu wählen.
 2.  Oder wähle ** Raytracing** → ** Neues Luxrender Projekt** und eine der vordefinierten Vorlagen aus dem oberen Menü.
-3.  Es wird ein neues POVRay Projekt mit dem Namen \"LuxProject\" erstellt.
+3.  Es wird ein neues LuxRender-Projekt mit dem Namen \"LuxProject\" erstellt.
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 ## Einschränkungen
 
-Das Projekt kann nur aus vordefinierten Vorlagen erstellt werden.
-Zusätzliche Projektkonfigurationen würden die Definition von zusätzlichen Vorlagen erfordern.
-
-
-</div>
-
--   Project can only be created from pre-defined templates.
--   Additional project-setups would require definition of extra templates.
-
-
-<div class="mw-translate-fuzzy">
-
-## Anmerkungen
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   Das Projekt kann nur aus vordefinierten Vorlagen erstellt werden.
+-   Zusätzliche Projektkonfigurationen würden die Definition von zusätzlichen Vorlagen erfordern.
 
 
 
+## Hinweise
 
 
-</div>
+
 
 
 {{Raytracing_Tools_navi

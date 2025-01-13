@@ -10,6 +10,8 @@
 
 # Part ProjectionOnSurface/de
 
+
+
 ## Beschreibung
 
 
@@ -24,6 +26,8 @@ Wenn eine Quelle [Form](Shape/de.md) angegeben wird, kann dieses Werkzeug Kanten
 
 
 *Projektion eines Logos auf eine gekrümmte Oberfläche*
+
+
 
 ## Anwendung
 
@@ -73,11 +77,15 @@ Hinweise:
 -   Alternativ drücke die **X:**, **Y:**, oder **Z:** Schaltflächen um die Projektionsrichtung auf die globalen Hauptachsen einzustellen, +X, -X, +Y, -Y, +Z, or -Z.
 -   Beachte jedoch, dass eine Änderung der Projektionsrichtung die Projektionsvorschau nicht automatisch aktualisiert; dazu musst du die Geometrie neu auswählen, indem du die **Hinzufügen...** Schaltflächen drückst und die Unterelemente erneut auswählst.
 
+
+
 ## Optionen
 
 -    **Extrusionshöhe**: Dies ist die Höhe der festen Form, die durch Extrudieren der projizierten Fläche aus der Zielfläche und entlang des Negativs der Projektionsrichtung entsteht. Wenn die Projektionsrichtung beispielsweise entlang +Y {{Value|(0, 1, 0)}}, wird die Extrusion in der Richtung -Y {{Value|(0, -1, 0)}} erzeugt. Diese Volumenkörper Extrusion wird nur dann erzeugt, wenn das gewählte Unterelement eine geschlossene Fläche war, durch drücken der **Fläche hinzufügen** Schaltfläche, und durch Auswahl der {{RadioButton|TRUE|Alles anzeigen}} Option.
 
 -    **Festkörpertiefe**: dies ist die Entfernung, um die das Projektionsobjekt entlang der Projektionsrichtung bewegt wird. Negative Werte verschieben das Objekt in die entgegengesetzte Richtung; dadurch kann eine Projektion erzeugt werden, die von der Zielfläche versetzt ist.
+
+
 
 ## Begrenzungen
 
@@ -91,11 +99,19 @@ Wenn dies geschieht:
 
 The projection done in the Part workbench is not parametric. If you need a parametric workflow, please consult with the [Projection class](https://gist.github.com/CsatiZoltan/f4fd10bf20923143ba0e0678ea1d3d61), which is a Python scripted object, intended for programmatic use.
 
+
+
 ## Verweise
 
 -   Forumsbeitrag: [Flächen auf gebogene Oberfläche projizieren](https://forum.freecadweb.org/viewtopic.php?f=9&t=33700)
 
-## Beispiele
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

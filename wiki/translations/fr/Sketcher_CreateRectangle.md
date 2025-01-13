@@ -2,19 +2,17 @@
  GuiCommand:
    Name: Sketcher CreateRectangle
    Name/fr: Sketcher Rectangle
-   MenuLocation: Esquisse , Géométries d'esquisse, Créer un rectangle
+   MenuLocation: Esquisse , Géométries d'esquisse , Créer un rectangle
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **R**
-   SeeAlso: Sketcher_CreateOblong/fr, Sketcher_CreatePolyline/fr
+   SeeAlso: Sketcher_CreatePolyline/fr
 ---
 
 # Sketcher CreateRectangle/fr
 
 ## Description
 
-Cet outil dessine un rectangle en choisissant deux points opposés. Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône de rectangle rouge. Les coordonnées du pointeur sont affichées à côté en bleu en temps réel.
-
-Pour définir un rectangle à l\'aide d\'un point central et d\'un point du bord, utilisez l\'outil [Rectangle centré](Sketcher_CreateRectangle_Center/fr.md).
+L\'outil <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [Sketcher Rectangle](Sketcher_CreateRectangle/fr.md) crée un rectangle. {{Version/fr|1.0}} : l\'outil dispose de quatre modes, dont deux peuvent également produire des parallélogrammes. Les coins arrondis et la création d\'une copie décalée sont des fonctions optionnelles.
 
 ![](images/SketcherCreateRectangleExample.png‎ )
 
@@ -22,26 +20,41 @@ Pour définir un rectangle à l\'aide d\'un point central et d\'un point du bord
 
 ## Utilisation
 
--   Après avoir appuyé sur le bouton <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> **Rectangle**, cliquez une fois pour définir le premier coin, puis déplacez la souris et une seconde fois pour définir le coin opposé.
--   Appuyez sur **Echap** ou cliquez sur le bouton droit de la souris pour annuler la fonction.
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
 
+Pos-OVP = [Paramètres d\'affichage](Sketcher_Preferences/fr#Général.md) de position. {{Version/fr|1.0}}
+Dim-OVP = Paramètres d\'affichage des dimensions. {{Version/fr|1.0}}
 
-
-## Remarques
-
--   Lorsque les outils rectangulaires sont lancés, une section **Paramètres du rectangle** est ajoutée en haut du [panneau des tâches](Task_panel/fr.md) ({{Version/fr|0.22}}). Elle contient :
-
-1.  Une boîte à boutons **Mode** pour choisir l\'un des modes de dessin du rectangle :
-    -   Coin, longueur et largeur
-    -   Centre, longueur et largeur
-    -   3 coins
-    -   Centre et deux coins
-2.  Une case à cocher **Coins arrondis** pour appliquer des coins arrondis au rectangle.
-3.  Une case à cocher **Cadre** pour ajouter un contour avec un décalage constant au rectangle (arrondi).
-
--   Les trois boutons de cette sélection lancent maintenant le même outil mais avec différentes combinaisons prédéfinies de mode et d\'options qui peuvent encore être modifiées après le premier clic.
--   Si l\'option **Coins arrondis** est activée, que le décalage est vers l\'intérieur et que la valeur du décalage est supérieure au rayon de l\'angle, le contour décalé sera créé sans filets.
--   Les modes **3 coins** et **Centre et deux coins** créent des parallélogrammes plutôt que des rectangles.
+1.  Il existe plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_CreateRectangle.svg" width=16px> [Rectangle](Sketcher_CreateRectangle/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Géométries d'esquisse → <img src="images/Sketcher_CreateRectangle.svg" width=16px> Créer un rectangle** du menu.
+    -   Cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **<img src="images/Sketcher_CreateRectangle.svg" width=16px> Créer un rectangle** du menu contextuel.
+    -   Utilisez le raccourci clavier : **G** puis **R**.
+2.  Le curseur se transforme en croix avec l\'icône du mode d\'outil en cours.
+3.  La section **Paramètres du rectangle** ({{Version/fr|1.0}}) est ajoutée en haut de la [fenêtre de dialogue de l\'esquisse](Sketcher_Dialog/fr.md).
+4.  Vous pouvez appuyer sur la touche **U** ou cocher la case **Coins arrondis** pour appliquer des congés au rectangle. {{Version/fr|1.0}}
+5.  Vous pouvez appuyer sur la touche **J** ou cochez la case **Cadre** pour créer une seconde forme décalée. {{Version/fr|1.0}}
+6.  Vous pouvez appuyer sur la touche **M** ou sélectionnez dans la liste déroulante de la section des paramètres pour changer le mode de l\'outil :
+    -   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:16px;"> **Coin, largeur, hauteur** :
+        1.  Choisissez le premier coin du rectangle, ou avec Pos-OVP : entrez ses coordonnées X et/ou Y.
+        2.  Choisissez le coin opposé du rectangle, ou avec Dim-OVP : entrez la largeur et/ou la hauteur du rectangle.
+    -   <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:16px;"> **Centre, largeur, hauteur** : {{Version/fr|1.0}}
+        1.  Choisissez le centre du rectangle, ou avec Pos-OVP : entrez ses coordonnées X et/ou Y.
+        2.  Choisissez un coin du rectangle, ou avec Dim-OVP : entrez la largeur et/ou la hauteur du rectangle.
+    -   <img alt="" src=images/Sketcher_CreateRectangle3Points.svg  style="width:16px;"> **3 coins** : {{Version/fr|1.0}}
+        1.  Choisissez le premier coin du rectangle, ou avec Pos-OVP : entrez ses coordonnées X et/ou Y.
+        2.  Choisissez le point d\'extrémité du premier bord du rectangle, ou avec Dim-OVP : entrez la longueur et/ou l\'angle du premier bord. L\'angle est relatif à l\'axe X de l\'esquisse.
+        3.  Choisissez le troisième coin, opposé au premier, du rectangle, ou avec Dim-OVP : entrez la longueur et/ou l\'angle du deuxième bord. L\'angle est relatif au premier bord. Ce n\'est que si cet angle est de 90° que le résultat sera un rectangle.
+    -   <img alt="" src=images/Sketcher_CreateRectangle3Points_Center.svg  style="width:16px;"> **Centre, 2 coins** : {{Version/fr|1.0}}
+        1.  Choisir le centre du rectangle, ou avec Pos-OVP : entrez ses coordonnées X et/ou Y.
+        2.  Choisissez le premier coin du rectangle, ou avec Pos-OVP : entrez ses coordonnées X et/ou Y.
+        3.  Choisissez le deuxième coin du rectangle, ou avec Dim-OVP : entrez la longueur et/ou l\'angle de l\'arête entre le premier et le deuxième coin. L\'angle est relatif à l\'autre arête reliée au premier coin. Le résultat ne sera un rectangle que si cet angle est de 90°.
+7.  Si **Coins arrondis** est sélectionné : choisissez un point pour définir le rayon du congé, ou avec Dim-OVP : saisissez-le.
+8.  Si **Cadre** est sélectionné : choisissez un point pour définir la distance de décalage, ou avec Dim-OVP : saisissez-le. Si le décalage est vers l\'intérieur et plus grand que le rayon, la forme du décalage n\'aura pas de filets.
+9.  La géométrie est créée et les contraintes Pos-OVP et Dim-OVP applicables sont ajoutées.
+10. Si l\'outil fonctionne en [mode continu](Sketcher_Workbench/fr#Modes_continus.md) :
+    1.  Vous pouvez continuer à créer des rectangles.
+    2.  Pour terminer, cliquez avec le bouton droit de la souris ou appuyez sur **Échap**, ou démarrez un autre outil de création de géométrie ou de contrainte.
 
 
 

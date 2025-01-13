@@ -2,10 +2,10 @@
  GuiCommand:
    Name: Sketcher ConstrainAngle
    Name/de: Sketcher WinkelFestlegen
-   MenuLocation: Sketch , Sketcher constraints , Winkel festlegen
+   MenuLocation: Skizze , Sketcher-Randbedingungen , Winkel festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **K** **A**
-   SeeAlso: Sketcher_ConstrainDistance/de, Sketcher_ConstrainPerpendicular/de
+   SeeAlso: Sketcher_ConstrainPerpendicular/de
 ---
 
 # Sketcher ConstrainAngle/de
@@ -14,82 +14,91 @@
 
 ## Beschreibung
 
-Die Randbedingung Winkel festlegen ist eine [maßliche Randbedingung](Sketcher_Workbench/de#Sketcher-Randbedingungen.md), die dazu dient, Winkel in der Skizze festzulegen. Sie ist in der Lage, die Neigungen einzelner Linien, Winkel zwischen den Linien, Winkel der Schnittpunkte von Kurven und Winkelbereiche von Kreisbögen festzulegen.
+Das Werkzeug <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:24px;"> [Sketcher WinkelFestlegen](Sketcher_ConstrainAngle/de.md) legt den Winkel zwischen zwei Kanten fest (Linien werden als unendlich angesehen (Geraden) und offene Kurven werden auch entsprechend virtuell erweitert), den Winkel einer Linie zur horizontalen Achse der Skizze oder den überstrichenen Winkel eines Kreisbogens.
 
 
 
 ## Anwendung
 
-Es gibt vier verschiedene Möglichkeiten, wie die Randbedingung angewendet werden kann:
-
--   auf einzelne Linien
--   zwischen Linien
--   auf Schnittpunkten von Kurven
--   auf Kreisbögen
-
-Um die Randbedingung Winkel festlegen anzuwenden, sollte man diesen Schritten folgen:
-
-1.  Ein, zwei oder drei Elemente in der Skizze auswählen. Der Modus wird abhängig von der Auswahl gewählt.
-
-2.  Die Randbedingung kann mit verschiedenen Methoden aufgerufen werden:
-    -   Die Schaltfläche **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Winkel festlegen](Sketcher_ConstrainAngle/de.md)** in der Werkzeugleiste drücken.
-    -   Das Tastaturkürzel **K** dann **A**.
-    -   Den Menüeintrag **Skizze → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Winkel festlegen** auswählen.
-
-3.  Ein Dialogfenster zum Ändern des (Winkel-) Wertes wird geöffnet.
-
-4.  Falls erforderlich, den Winkel ändern. **Hinweis:** Der Winkel kann als Ausdruck eingegeben werden, der ausgewertet und als Ergebnis gespeichert wird.
-
-5.  
-    **OK**klicken.
-
-Wie bei jeder maßlichen Randbedingung ist es möglich, den Winkelwert später zu ändern, durch Doppelklick der Randbedingung in der Liste unter Einschränkungen oder der 3D-Ansicht. Die Eingabe eines negativen Wertes führt zum Umklappen der Winkelrichtung.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
 
 
-## Varianten der Randbedingung 
+### [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md) 
+
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   
+        <small>(v1.0)</small> 
+        
+        : If the **Dimensioning constraints** [preference](Sketcher_Preferences#General.md) is set to {{Value|Single tool}} (default): press the down arrow to the right of the **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button and select the **<img src="images/Sketcher_ConstrainAngle.svg" width=16px> Constrain angle** option from the dropdown.
+
+    -   If this preference has a different value (and in {{VersionMinus|0.21}}): press the **<img src="images/Sketcher_ConstrainAngle.svg" width=16px> [Constrain angle](Sketcher_ConstrainAngle.md)** button.
+
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainAngle.svg" width=16px> Constrain angle** option from the menu.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Dimension → <img src="images/Sketcher_ConstrainAngle.svg" width=16px> Constrain angle** option from the context menu.
+
+    -   Use the keyboard shortcut: **K** then **A**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Do one of the following:
+    -   Select two lines.
+    -   Select a point and two edges (in that order).
+    -   Select an edge, a point and an edge (idem).
+5.  If a [driving dimensional constraint](Sketcher_ToggleDrivingConstraint.md) is created, depending on the [preferences](Sketcher_Preferences#Display.md), a dialog opens to [edit its value](Sketcher_Workbench#Edit_constraints.md). A negative value will reverse the angle direction.
+6.  An Angle constraint is added. If a point and two edges have been selected, up to two [Point to object constraints](Sketcher_ConstrainPointOnObject.md) can also be added. See [Examples](#Between_two_edges_at_point.md).
+7.  Optionally keep creating constraints.
+8.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
+
+### Run-once mode 
+
+1.  Do one of the following:
+    -   Select a single line.
+    -   Select a single circular arc.
+    -   Select two lines.
+    -   Select a point and two edges (in any order).
+2.  Invoke the tool as explained above.
+3.  Optionally [edit the constraint value](Sketcher_Workbench#Edit_constraints.md).
+4.  An Angle constraint is added. If a point and two edges have been selected, up to two [Point on object constraints](Sketcher_ConstrainPointOnObject.md) can also be added. See [Examples](#Between_two_edges_at_point.md).
 
 
 
-### Neigungswinkel einer Linie 
-
-**Akzeptierte Auswahl:** Linie
-
-<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:600px;">
-
-Die Randbedingung legt den polaren Winkel der Linienrichtung fest. Es ist der Winkel zwischen der Linie und der X-Achse der Skizze.
+## Beispiele
 
 
 
-### Winkel eines Kreisbogens 
+### Einzelne Linie 
 
-**Akzeptierte Auswahl:** Kreisbogen
+<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:400px;">
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:600px;">
-
-In diesem Modus fixiert die Randbedingung die Winkelspannweite eines Kreisbogens.
+Der Winkel wird zwischen der Linie und der positiven X-Achse der Skizze festgelegt.
 
 
 
-### Zwischen Linien 
+### Einzelner Kreisbogen 
 
-**Akzeptierte Auswahl:** Linie + Linie
+<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:400px;">
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:600px;">
-
-In diesem Modus legt die Randbedingung den Winkel zwischen zwei Linien fest. Es ist nicht erforderlich, dass sich die Linien schneiden.
+Der überstrichene Winkel des Kreisbogens wird festgelegt.
 
 
 
-### Zwischen Kurven im Schnittpunkt (Winkel-über-Punkt) 
+### Zwischen zwei Linien 
 
-**Akzeptierte Auswahl:** beliebige Linie/Kurve + beliebige Linie/Kurve + beliebiger Punkt
+<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:400px;">
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:600px;">
+Der Winkel zwischen zwei Linien wird festgelegt. Es ist nicht erforderlich, dass sich die Linien schneiden.
 
-In diesem Modus wird der Winkel zwischen zwei Kurven in ihrem Schnittpunkt festgelegt. Der Schnittpunkt kann auf der Verlängerung der Kurven liegen. Der Punkt sollte explizit angegeben werden, da sich Kurven üblicherweise in mehr als einem Punkt schneiden.
 
-Damit die Randbedingung korrekt funktioniert, muss der Punkt auf beiden Kurven liegen. Wenn die Randbedingung aufgerufen wird, wird der Punkt automatisch auf beiden Kurven festgelegt (bei Bedarf werden [Hilfsrandbedingungen](Sketcher_helper_constraint/de.md) hinzugefügt), und der Winkel zwischen den Kurven wird in dem Punkt festgelegt. Diese [Hilfsrandbedingungen](Sketcher_helper_constraint/de.md) sind einfach normale Randbedingungen. Sie können manuell hinzugefügt oder gelöscht werden. Auf dem obigen Beispielbild gibt es keine Hilfsrandbedingungen, da der ausgewählte Punkt bereits der Schnittpunkt der Kurven ist.
+
+### Zwischen zwei Kanten am Knotenpunkt 
+
+<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:400px;">
+
+The angle between the two edges at a given point is fixed. The point can be any point, e.g. the center of a circle, the endpoint of an edge, or the origin, it can belong to either or both edges, and it can also be a [Point object](Sketcher_CreatePoint.md). If required [Point on object constraint(s)](Sketcher_ConstrainPointOnObject.md) are added to ensure the point lies on both (extended) edges. These additional constraints are called [helper constraints](Sketcher_helper_constraint.md).
 
 
 

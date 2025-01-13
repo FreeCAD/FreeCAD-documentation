@@ -1,10 +1,9 @@
 ---
  GuiCommand:
-   Name: Ship PlotGZ
-   Name/de: Schiff PlotGZ
-   MenuLocation: Gewichte , GZ Kurve Berechnung
-|
-   Workbenches: Ship Workbench/de
+   Name: Ship GZ
+   Name/de: Ship GZ
+   MenuLocation: Weights , GZ curve computation
+   Workbenches: Ship_Workbench/de
    Shortcut: 
    SeeAlso: 
 ---
@@ -12,33 +11,17 @@
 # Ship GZ/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-## Einführung
-
-ZUTUN
+in Arbeit\...
 
 
-</div>
 
 ## Tutorien
 
 -   [FreeCAD Schiffs s60 Tutorium](FreeCAD-Ship_s60_tutorial/de.md)
 -   [FreeCAD Schiffs s60 Tutorium (II)](FreeCAD-Ship_s60_tutorial_(II)/de.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

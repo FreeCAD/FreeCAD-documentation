@@ -1,20 +1,25 @@
 ---
  GuiCommand:
    Name: Web BrowserBack
+   Name/pl: Web: Poprzednia strona
    MenuLocation: 
-   Workbenches: Web_Workbench, Start_Workbench
+   Workbenches: Web_Workbench/pl, Start_Workbench/pl
    SeeAlso: 
 ---
 
 # Web BrowserBack/pl
 
-## Description
 
-Use the <img alt="" src=images/Web_BrowserBack.svg  style="width:24px;"> **Web BrowserBack** command to go to the previous page in the list of visited web pages.
 
-## Usage
+## Opis
 
-1.  Press the **<img src="images/Web_BrowserBack.svg" width=16px> [Previous page](Web_BrowserBack.md)** button.
+Użyj polecenia <img alt="" src=images/Web_BrowserBack.svg  style="width:24px;"> **Poprzednia strona**, aby przejść do poprzedniej strony z listy odwiedzonych stron internetowych.
+
+
+
+## Użycie
+
+1.  Naciśnij przycisk **<img src="images/Web_BrowserBack.svg" width=16px> '''Poprzednia strona'''**.
 
 
 

@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Trimex
-   MenuLocation: Modification , Trimex
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Modification , Trimex<br>Modify , Trimex
+   Workbenches: Draft_Workbench, BIM_Workbench
    Shortcut: **T** **R**
    SeeAlso: Part_Extrude
 ---
@@ -24,7 +24,8 @@ Bottom: a face extruded into a solid body.*
 1.  Optionally select one object. The object must be a [Draft Line](Draft_Line.md), a [Draft Wire](Draft_Wire.md), a [Draft Arc](Draft_Arc.md) or a [Draft Circle](Draft_Circle.md) (which can only be trimmed). If the selected object is closed it must have its **Make Face** property set to `False`.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Trimex.svg" width=16px> [Trimex](Draft_Trimex.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Trimex.svg" width=16px> Trimex** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Modification → <img src="images/Draft_Trimex.svg" width=16px> Trimex** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Modify → <img src="images/Draft_Trimex.svg" width=16px> Trimex** option from the menu.
     -   Use the keyboard shortcut: **T** then **R**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
 4.  The **Trimex** task panel opens. See [Options](#Options.md) for more information.

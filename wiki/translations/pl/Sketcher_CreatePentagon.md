@@ -6,6 +6,7 @@
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **P** **5**
    Version: 0.15
+   SeeAlso: Sketcher_CreateRegularPolygon/pl
 ---
 
 # Sketcher CreatePentagon/pl
@@ -14,7 +15,7 @@
 
 ## Opis
 
-Rysuje pięciokąt wpisany w okrąg z geometrii konstrukcyjnej. Po uruchomieniu narzędzia kursor myszki zmienia kształt na biały krzyż z czerwoną ikoną sześciokąta. W czasie rzeczywistym wyświetlane są obok niego współrzędne wskaźnika w kolorze niebieskim.
+Narzędzie <img alt="" src=images/Sketcher_CreatePentagon.svg  style="width:24px;"> **Utwórz pięciokąt** tworzy pięciokąt. {{Version/pl|1.0}}: Jest to to samo narzędzie co [Utwórz wielokąt foremny](Sketcher_CreatePentagon/pl.md), ale z liczbą boków ustawioną na 5.
 
 ![](images/SketcherCreatePentagonExample.png‎ )
 
@@ -22,14 +23,13 @@ Rysuje pięciokąt wpisany w okrąg z geometrii konstrukcyjnej. Po uruchomieniu 
 
 ## Użycie
 
--   Po naciśnięciu przycisku **[<img src=images/Sketcher_CreatePentagon.svg style="width:16px"> [Pięciokąt](Sketcher_CreatePentagon/pl.md)**, kliknij raz, aby ustawić środek, a następnie przesuń kursor i kliknij drugi raz, aby ustawić jeden z wierzchołków.
--   Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszki powoduje przerwanie działania narzędzia.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
-
-
-## Uwagi
-
-Wyznaczony okrąg to geometria konstrukcyjna, która jest widoczna tylko podczas edycji szkicu.
+1.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_CreatePentagon.svg" width=16px> '''Pięciokąt'''**.
+    -   Wybierz z menu opcję **Szkic → Elementy geometryczne szkicownik → <img src="images/Sketcher_CreatePentagon.svg" width=16px> Utwórz pięciokąt**.
+    -   Użyj skrótu klawiaturowego: **G**, następnie **P**, a potem **5**.
+2.  Dalsze kroki można znaleźć w [Utwórz wielokąt foremny](Sketcher_CreateRegularPolygon/pl#Użycie.md).
 
 
 

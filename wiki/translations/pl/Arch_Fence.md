@@ -1,69 +1,88 @@
 ---
  GuiCommand:
    Name: Arch Fence
-   MenuLocation: Arch , Fence
-   Workbenches: Arch_Workbench
+   Name/pl: Architektura: Ogrodzenie
+   MenuLocation: 3D / BIM , Ogrodzenie
+   Workbenches: BIM_Workbench/pl
    Version: 0.19
 ---
 
 # Arch Fence/pl
 
-## Description
 
-The [Arch Fence](Arch_Fence.md) is a object that builds a fence by repeating a single fence post and section along a given path.
+
+## Opis
+
+Narzędzie **Ogrodzenie** jest obiektem, który buduje ogrodzenie poprzez powtarzanie pojedynczego słupka i sekcji wzdłuż danej ścieżki.
 
 <img alt="" src=images/Arch_Fence_description_example.png  style="width:600px;">
 
-## Usage
 
-### Creating from scratch 
 
-1.  Use a workbench of your choice to create a single fence post and a single section.
-2.  Create the path the fence should follow using the [Sketcher Workbench](Sketcher_Workbench.md) or [Draft Workbench](Draft_Workbench.md).
-3.  Switch back to the [Arch Workbench](Arch_Workbench.md).
-4.  Select the section, post and path in exactly that order.
-5.  Press the **<img src="images/Arch_Fence.svg" width=16px> [Arch Fence](Arch_Fence.md)** button
+## Użycie
 
-## Options
 
-For now the tool assumes the following
 
-1.  The Path is drawn on the XY-Plane
-2.  Section and Post are drawn at the origin so that they stand upright in front view
+### Tworzenie od podstaw 
 
-## Properties
+1.  Użyj wybranego środowiska pracy, aby utworzyć pojedynczy słupek ogrodzenia i pojedynczą sekcję.
+2.  Stwórz ścieżkę, którą ma podążać ogrodzenie, używając środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md) lub [Rysunek Roboczy](Draft_Workbench/pl.md).
+3.  Przełącz się z powrotem do środowiska [BIM](BIM_Workbench.md).
+4.  Wybierz sekcję, słupek i ścieżkę dokładnie w tej kolejności.
+5.  Naciśnij przycisk **<img src="images/Arch_Fence.svg" width=16px> '''Ogrodzenie'''**.
 
-### Data
 
--    **Path**: The path the fence should follow
 
--    **Post**: A single fence post to repeat
+## Opcje
 
--    **Section**: A single section to repeat
+Na razie narzędzie przyjmuje następujące założenia
 
--    **Number Of Posts**: The total number of posts used to build the fence. This is calculated automatically.
+1.  Ścieżka jest rysowana na płaszczyźnie XY.
+2.  Przekrój i słupek są rysowane w punkcie początkowym, tak aby stały pionowo w widoku z przodu.
 
--    **Number Of Sections**: The total number of sections used to build the fence. This is calculated automatically.
 
-### View
 
--    **Use Original Colors**: When set to `True` the fence will use the colors from the original section and post. Otherwise the ShapeColor of the fence will be used to colorize the fence.
+## Właściwości
 
-## Notes
 
--   Arch Fence was introduced in FC v0.19 by user furti.
--   [Forum thread](https://forum.freecadweb.org/viewtopic.php?t=36149) discussing Arch Fence functionality
 
-## Scripting
+### Dane
 
-The Fence tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+-    **Ścieżka**: Ścieżka, którą powinno podążać ogrodzenie.
+
+-    **Słupek**: Pojedynczy słupek ogrodzenia do powtórzenia.
+
+-    **Sekcja**: Pojedyncza sekcja do powtórzenia.
+
+-    **lLiczba słupków**: Całkowita liczba słupków użytych do budowy ogrodzenia. Jest ona obliczana automatycznie.
+
+-    **lLiczba sekcji**: Całkowita liczba sekcji użytych do budowy ogrodzenia. Jest ona obliczana automatycznie.
+
+
+
+### Widok
+
+-    **Używaj oryginalnych kolorów**: Po ustawieniu na {{True/pl}} ogrodzenie użyje kolorów z oryginalnej sekcji i słupka. W przeciwnym razie do pokolorowania ogrodzenia zostanie użyty Kolor Kształtu ogrodzenia.
+
+
+
+## Uwagi
+
+-   Obiekt Ogrodzenie został wprowadzony w FC v0.19 przez użytkownika furti.
+-   [Wątek na forum](https://forum.freecadweb.org/viewtopic.php?t=36149) omawiający funkcjonalność Ogrodzenia.
+
+
+
+## Tworzenie skryptów 
+
+Narzędzie **Ogrodzenie** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python
 Fence = buildFence(section, post, path)
 ```
 
-Example:
+Przykład:
 
 
 ```python
@@ -98,5 +117,13 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/pl
+⏵ [documentation index](../README.md) > Arch Fence/pl

@@ -10,6 +10,10 @@
 
 # FEM EquationMagnetodynamic2D/pl
 
+
+
+## Opis
+
 To równanie przeprowadza wersję 2D analizy [równań Maxwella](https://pl.wikipedia.org/wiki/R%C3%B3wnania_Maxwella) gdy niewiadomą jest składowa z (lub φ).
 
 Informacje o teorii stojącej za tym równaniem można znaleźć w dokumencie [Elmer models manual](http://www.elmerfem.org/blog/documentation/), w sekcji **Computation of Magnetic Fields in 2D** *(obliczenia pól magnetycznych w 2D)*.

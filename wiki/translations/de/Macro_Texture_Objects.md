@@ -1,33 +1,21 @@
 # Macro Texture Objects/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
 |Name=Texture Objects
 |Translate=Texture Objects
 |Icon=Macro_Texture_Objects.png
-|Description=This macro allows you to temporarily put a texture image on selected objects. To remove the textures, simply close and reopen the document.
+|Description=Dieses Makro ermöglicht eine Texturabbildung auf ausgewählte Objekte zu legen. Zum Entfernen der Texturen einfach das Dokument schließen und erneut öffnen.
 |Author=yorik
-|Version=1.0
-|Date=2011-10-13
-|Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_Texture_Objects.png Icon Toolbar]
+|Version=1.1
+|Date=2023-12-08
+|Download=[https://wiki.freecad.org/wiki/images/d/da/Macro_Texture_Objects.png ToolBar Icon]
 |FCVersion= 0.18 und darunter
 }}
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Mit diesem Makro können Sie ein Texturbild vorübergehend auf ausgewählten Objekten platzieren. Um die Texturen zu entfernen, schließen Sie das Dokument einfach und öffnen Sie es erneut.
-
-
-</div>
+Dieses Makro ermöglicht eine Texturabbildung auf ausgewählte Objekte zu legen. Zum Entfernen der Texturen einfach das Dokument schließen und erneut öffnen.
 
 <img alt="" src=images/Textured_objects.jpg  style="width:680px;">
 
@@ -58,21 +46,9 @@ for obj in FreeCADGui.Selection.getSelection():
 
 ## Links
 
+-   Forum-Thread [Macro Texture Objects](https://forum.freecadweb.org/viewtopic.php?t=7216)
 
-<div class="mw-translate-fuzzy">
-
-[Macro Texture Objects](https://forum.freecadweb.org/viewtopic.php?t=7216)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-[Script to map texture with environement checked](https://forum.freecadweb.org/viewtopic.php?f=3&t=28795)
-
-
-</div>
+-   Forum-Thread [https://forum.freecadweb.org/viewtopic.php?f=3&t=28795 Script to map texture with environement checked](https://forum.freecadweb.org/viewtopic.php?f=3&t=28795_Script_to_map_texture_with_environement_checked.md)
 
 
 

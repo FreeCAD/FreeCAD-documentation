@@ -3,6 +3,7 @@
    Name: Spreadsheet StyleBold
    MenuLocation: Spreadsheet , Styles , Bold text
    Workbenches: Spreadsheet_Workbench
+   Shortcut: **Ctrl**+**B**
    Version: 0.17
 ---
 
@@ -10,13 +11,16 @@
 
 ## Description
 
-The **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Spreadsheet StyleBold](Spreadsheet_StyleBold.md)** tool makes the text inside the cell adopt **bold** style.
+The <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> **Spreadsheet StyleBold** tool toggles the contents of selected cells to/from bold.
 
 ## Usage
 
-1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Select a cell.
-3.  Press the **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Spreadsheet StyleBold](Spreadsheet_StyleBold.md)** button.
+1.  Make sure there is an active [spreadsheet](Spreadsheet_CreateSheet.md).
+2.  Select one or more cells.
+3.  There are several ways to invoke the tool:
+    -   Press the **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Bold text](Spreadsheet_StyleBold.md)** button.
+    -   Select the **Spreadsheet → Styles → [<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> Bold text** option from the menu.
+    -   Use the keyboard shortcut: **Ctrl**+**B**. <small>(v1.1)</small> 
 
 
 

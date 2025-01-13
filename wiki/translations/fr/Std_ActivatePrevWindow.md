@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Std ActivatePrevWindow
    Name/fr: Std Précédente
-   MenuLocation: Fenêtre , Précédente
+   MenuLocation: Fenêtres , Précédente
    Workbenches: Tous
    Shortcut: **Ctrl**+**Shift**+**Tab**
    SeeAlso: Std_ActivateNextWindow/fr, Std_Windows/fr
@@ -20,20 +20,20 @@ La commande **Std Précédente** active la fenêtre précédente dans la [zone d
 
 1.  La zone de vue principale doit contenir au moins deux fenêtres.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Sélectionnez l\'option **Fenêtre → <img src="images/Std_ActivatePrevWindow.svg" width=16px> Précédente** du menu.
+    -   Sélectionnez l\'option **Fenêtres → <img src="images/Std_ActivatePrevWindow.svg" width=16px> Précédente** du menu.
     -   Utilisez le raccourci clavier : **Ctrl**+**Shift**+**Tab**.
 
 
 
 ## Remarques
 
--   Les fenêtres de la zone d\'affichage principale sont également répertoriées dans le menu **Fenêtre** et peuvent être activées à partir de là.
+-   Les 10 premières fenêtres de la zone d\'affichage principale sont également répertoriées dans le menu **Fenêtres** et peuvent être activées à partir de là.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -3,11 +3,6 @@
 
 L\'interface FreeCAD est basée sur la boîte à outils [Qt](https://fr.wikipedia.org/wiki/Qt) et possède une bonne organisation. Certains aspects de l\'interface peuvent être personnalisés. Vous pouvez, par exemple, ajouter des barres d\'outils personnalisées avec des outils de plusieurs ateliers ou des outils définis dans des macros et vous pouvez créer vos propres raccourcis clavier. Mais les menus et barres d\'outils par défaut fournis avec FreeCAD et ses ateliers ne peuvent pas être modifiés.
 
-
-{{Version/fr|0.21}}
-
-: l\'onglet des Ateliers n\'est plus disponible. Sa fonction a été déplacée vers l\'onglet [Ateliers disponibles](Preferences_Editor/fr#Ateliers_disponibles.md) dans la section Ateliers de [Réglage des préférences](Preferences_Editor/fr.md).
-
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *La boite de dialogue de personnalisation de l'interface*
 
@@ -17,17 +12,17 @@ L\'interface FreeCAD est basée sur la boîte à outils [Qt](https://fr.wikipedi
 
 1.  Les commandes disponibles dans la boite de dialogue de personnalisation d\'interface dépendent des ateliers qui ont été chargés dans la session FreeCAD en cours. Vous devez donc d\'abord charger tous les établis dont vous souhaitez avoir accès aux commandes.
 2.  Il existe plusieurs façons de lancer la commande <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std Personnaliser](Std_DlgCustomize/fr.md) :
-    -   Sélectionnez l\'option **Outils → <img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** du le menu.
+    -   Sélectionnez l\'option **Outils → <img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** du menu.
     -   Cliquez avec le bouton droit sur une zone de barre d\'outils et choisissez **<img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** dans le menu contextuel.
-3.  La boîte de dialogue Personnaliser s\'ouvre. Pour plus d\'informations, voir [Options](#Options.md).
-4.  Le bouton **Aide** démarre la commande <img alt="" src=images/Std_WhatsThis.svg  style="width:16px;"> [Std Qu\'est-ce que c\'est ?](Std_WhatsThis/fr.md)
+3.  La boîte de dialogue **Personnaliser** s\'ouvre. Pour plus d\'informations, voir [Options](#Options.md).
+4.  Le bouton **Aide** ne fonctionne pas pour le moment.
 5.  Appuyez sur le bouton **Fermer** pour fermer la boîte de dialogue.
 
 
 
 ## Options
 
-Dans la boîte de dialogue Personnaliser, les onglets suivants sont disponibles :
+Dans la fenêtre de dialogue Personnaliser, les onglets suivants sont disponibles :
 
 
 
@@ -207,9 +202,9 @@ Si vous souhaitez utiliser une macro téléchargée à partir d\'une autre sourc
 6.  Vous pouvez également saisir un raccourci dans la zone de saisie **Créer un raccourci**. Voir [Clavier](#Clavier.md) pour plus d\'informations.
 7.  Pour ajouter une icône :
     1.  Appuyez sur le bouton **Icône** **...**.
-    2.  La boîte de dialogue **Choisir une icône** s\'ouvre.
+    2.  La fenêtre de dialogue **Choisir une icône** s\'ouvre.
     3.  Si nécessaire, appuyez sur le bouton **Dossiers d'icônes...** pour ajouter un dossier d\'icônes.
-    4.  Sélectionnez une icône dans le panneau. La boîte de dialogue **Choisir une icône** se ferme automatiquement.
+    4.  Sélectionnez une icône dans le panneau. La fenêtre de dialogue **Choisir une icône** se ferme automatiquement.
 8.  Appuyez sur le bouton **Ajouter**.
 9.  La commande de la macro apparaît dans le panneau de gauche.
 10. La commande de la macro peut maintenant être sélectionnée dans l\'onglet [Barre d\'outils](#Barre_d'outils.md).
@@ -261,20 +256,7 @@ Vous pouvez également créer votre propre thème si vous n\'êtes pas satisfait
 
 ## Extensions
 
-Les extensions du <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md) offrent un autre moyen de personnaliser l\'interface utilisateur. Plusieurs [kits de preférences](Preference_Packs/fr.md) permettent de modifier le [thème](#Thèmes.md) sont disponibles.
-
-Dans la catégorie Ateliers du gestionnaire des extensions, certaines extensions de l\'utilisateur triplus peuvent être trouvées :
-
--   <https://github.com/triplus/CubeMenu> ({{VersionMinus/fr|0.20}})
--   <https://github.com/triplus/Glass>.
--   <https://github.com/triplus/IconThemes>
--   <https://github.com/triplus/Launcher>
--   <https://github.com/triplus/PieMenu>
--   <https://github.com/triplus/RemBench>
--   <https://github.com/triplus/ShortCuts>
-
-
-{{Top}}
+Les extensions du <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md) offrent un autre moyen de personnaliser l\'interface utilisateur. Plusieurs [ateliers externes](External_workbenches/fr.md) et [kits de preférences](Preference_Packs/fr.md) sont disponibles. {{Top}}
 
 
 

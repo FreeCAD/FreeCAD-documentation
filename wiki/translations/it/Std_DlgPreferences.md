@@ -4,6 +4,7 @@
    Name/it: Preferenze
    MenuLocation: Modifica , Preferenze...
    Workbenches: Tutti
+   Shortcut: **Ctrl**+**,**
    SeeAlso: Preferences_Editor/it
 ---
 
@@ -19,7 +20,9 @@ Il comando **Preferenze\...** apre l\'[editor delle preferenze](Preferences_Edit
 
 ## Utilizzo
 
-Selezionare l\'opzione **Modifica → <img src="images/Std_DlgPreferences.svg" width=16px> Preferenze...** dal menu principale.
+1.  Esistono diversi modi per richiamare il comando:
+    -   Selezionare l\'opzione **Modifica → <img src="images/Std_DlgPreferences.svg" width=16px> Preferenze...** dal menu.
+    -   Usare la scorciatoia da tastiera: **Ctrl**+**,**. {{Version/it|1.1}}
 
 
 
@@ -32,7 +35,7 @@ Selezionare l\'opzione **Modifica → <img src="images/Std_DlgPreferences.svg" w
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -22,20 +22,22 @@ Il comando **Pre-selezione** attiva o disattiva la modalità PreSelection della 
 
 1.  Esistono diversi modi per invocare il comando:
     -   Fare clic sulla freccia nera in basso a destra del pulsante **<img src="images/Std_TreeSyncView.svg" width=16px>** e selezionare l\'opzione **Pre-selezione** dal riquadro a comparsa. Nota: l\'immagine del pulsante cambierà a seconda dell\'opzione selezionata.
-    -   Selezionare l\'opzione **Visualizza → Azioni della vista ad albero → <img src="images/Std_TreeSyncView.svg" width=16px> Pre-selezione** dal menu.
+    -   Selezionare l\'opzione **Visualizza → Azioni della vista ad albero → Pre-selezione** dal menu.
     -   Usare la scorciatoia da tastiera: **T** poi **4**.
 
 
 
 ## Preferenze
 
-La modalità di Pre-selezione della vista ad albero può essere impostata anche nell\'[Editor delle preferenze](Preferences_Editor/it#Selezione.md): **Modifica→ Preferenze → Generale → Selezione**.
+Vedere anche: [Editor delle Preferenze](Preferences_Editor/it.md).
+
+La modalità di Pre-selezione della vista ad albero può essere impostata anche nelle preferenzeː **Modifica→ Preferenze → Generale → Selezione → Preseleziona l'oggetto nella vista 3D quando il mouse passa sopra l'elemento dell'albero**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

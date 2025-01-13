@@ -10,28 +10,45 @@
 
 # Arch Equipment/ru
 
+
+</div>
+
+
+
 ## Описание
+
+
+<div class="mw-translate-fuzzy">
 
 Инструмент \"Оборудование\" предлагает вам простой и удобный способ добавления в интерьер ваших проектов неструктурных, автономных элементов, таких как: предметы мебели, бытовая техника, сантехническое оборудование или электроприборы. Оборудование основано на [деталях верстака Part](Part_Workbench/ru.md), что позволяет извлечь выгоду из солидных возможностей геометрии BRep и создавать красивые виды при визуализации в виде плана и сечения.
 
-![](images/Arch_equipment_example.jpg ) 
+
+</div>
+
+<img alt="" src=images/Arch_equipment_example.jpg  style="width:600px;"> 
 *Furniture objects enclosed in an [Arch Equipment](Arch_Equipment.md) object. The flat projections can be obtained by the [Draft Shape2DView](Draft_Shape2DView.md) tool*
 
 Начиная с версии 0.17, объекты оборудования также имеют свойство **HiRes (высокая детализация)**, к которому может быть присоединен [Mesh](Mesh_Workbench/ru.md) объект. Объекты оборудования затем могут быть созданы для отображения этой высокоспециализированной модели в 3D-представлении вместо их формы, что позволяет использовать любые объекты с высокой детализацией, такие как реалистичные предметы мебели, обычно встречающиеся на веб-сайтах.
 
-![](images/Arch_equipment_mesh.jpg ) 
+<img alt="" src=images/Arch_equipment_mesh.jpg  style="width:600px;"> 
 *Furniture objects enclosed in an [Arch Equipment](Arch_Equipment.md) object, with a high resolution mesh attached*
 
 При использовании экспортера Arch OBJ все объекты оборудования, находящиеся в режиме отображения сетки, будут экспортироваться как mesh сетка, а не как форма.
 
+
+
 ## Применение
 
 1.  Select a [Part](Part_Workbench.md) shape, and optionally a [Mesh](Mesh_Workbench.md) object.
-2.  Press the **<img src="images/Arch_Equipment.svg" width=16px> [Arch Equipment](Arch_Equipment.md)** button, or press **E** then **Q** keys.
+2.  Press the **<img src="images/Arch_Equipment.svg" width=16px> [Equipment](Arch_Equipment.md)** button, or press **E** then **Q** keys.
+
+
 
 ## Опции
 
 -   Оборудование обладает такими же общими свойствами и моделью поведения, как и все остальные [компоненты верстака Arch](Arch_Component/ru.md)
+
+
 
 ## Свойства
 
@@ -40,6 +57,8 @@
 -    **Url**: An URL of the product page where more information about this equipment can be found.
 
 -    **Mesh**: A [Mesh](Mesh_Workbench.md) representation to use for this equipment. When set, the **Mesh** display mode becomes available.
+
+
 
 ## Программирование
 
@@ -71,6 +90,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/ru
+⏵ [documentation index](../README.md) > Arch Equipment/ru

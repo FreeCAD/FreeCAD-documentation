@@ -1,48 +1,38 @@
 # Task panel/de
 ## Einführung
 
-Der [Aufgabenbereich](Task_panel/de.md) erscheint im Reiter **Aufgaben** der [Combo-Ansicht](Combo_view/de.md) und ist einer der wichtigen Bereiche der [Oberfläche](interface/de.md). Er ist ein anpassbarer Bereich, der jede Art von grafischen Fensterbestandteilen (Widgets), wie z.B. ausklappbare Unterfenster, Tabellen, Eingabefelder, Kontrollkästchen, Drehfelder, Auswahlfelder, Textfelder, Schaltflächen, Beschriftungen, Bilder und andere Elemente enthalten kann, abhängig vom gerade aktiven [Arbeitsbereich](Workbenches/de.md) und dem gerade aktiven Werkzeug.
+Das [Aufgaben-Fenster](Task_panel/de.md) erscheint in einem eigenständigen [andockbaren Fenster](Combo_view/de#Aufgaben-Fenster_über_der_Combo-Ansicht_andocken.md) **Aufgaben**. und ist einer der wichtigen Bereiche der [Oberfläche](interface/de.md). Es ist ein anpassbares Fenster, das jede Art von grafischen Fensterbestandteilen (Widgets), wie z.B. Eingabefelder, Kontrollkästchen, Drehfelder, Schaltflächen, Beschriftungen, Bilder und andere Elemente, enthalten kann, abhängig vom gerade aktiven Werkzeug.
 
-<img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="550px;">
-
-
-
-*Der Reiter Aufgaben zeigt verschiedene (passende) Befehle an, wenn der Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md) aktiv ist und eine [Skizze](sketch/de.md) ausgewählt ist.*
+<img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="250px;">
 
 
 
-## Arbeiten mit dem Aufgabenbereich 
-
-Ein Aufgabenbereich öffnet sich normalerweise, wenn ein Werkzeug aktiviert wird, das eine Benutzereingabe erfordert, entweder durch Drücken einer Schaltfläche in der Werkzeugleiste oder durch Doppelklicken auf ein Objekt. Wenn das Werkzeug keine Benutzereingabe erfordert, erzeugt es sein Ergebnis oder wird beendet, zeigt aber keinen Aufgabenbereich an.
-
-Bei den Benutzereingaben kann es sich um Text, 3D Punktkoordinaten, Elemente aus einer Liste, Flächen aus einer Form oder Optionen zur Änderung der Funktionsweise des Werkzeugs handeln.
-
-![](images/FreeCAD_Combo_view_Task_panel_Sketcher.png )
+*Das Aufgaben-Fenster zeigt verschiedene Werkzeuge an, wenn der Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md) aktiv ist und eine [Skizze](sketch/de.md) ausgewählt ist.*
 
 
 
-*Aufgabenbereich, der geöffnet wird, wenn eine [Skizze](Sketch/de.md) bearbeitet wird. Es werden verschiedene Arten von Informationen angezeigt, z. B. Lösermeldungen, Gitteroptionen, Beschränkungen und geometrische Elemente.*
+## Arbeiten mit dem Aufgaben-Fenster 
 
-Es gibt viele Befehle, die die Auswahl von im Dokument vorhandenen Formen oder Objekten erfordern. In solchen Fällen wartet der Aufgaben-Bereich darauf, dass der Benutzer die entsprechenden Objekte aus der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählt. Wenn der Aufgaben-Bereich geöffnet ist, ist es möglich, zum Reiter **Modell** zu wechseln, um die [Baumansicht](Tree_view/de.md) anzuzeigen und ein Objekt auszuwählen. Sobald dies geschehen ist, kann man zum Reiter **Aufgaben** zurückwechseln, um mit dem Befehl fortzufahren. Der Aufgaben-Bereich wird in der Regel durch Anklicken der Schaltfläche **OK** bzw. **Schließen** geschlossen oder durch Drücken der **Esc**-Taste auf der Tastatur, um den Befehl abzubrechen.
+Ein Aufgaben-Fenster öffnet sich normalerweise, wenn ein Werkzeug aktiviert wird, das eine Benutzereingabe erfordert. Wenn das Werkzeug keine Benutzereingabe erfordert, erzeugt es sein Ergebnis oder wird beendet, zeigt aber keinen Aufgaben-Fenster an. Die Eingabe des Anwenders kann alles sein, wie z.B. Text, 3D-Punkt-Kordinaten, Elemente einer Liste, Flächen einer Form oder Auswahlmöglichkeiten zum Verändern der Arbeitsweise des Werkzeugs.
 
-![](images/FreeCAD_Combo_view_Task_panel_ArchComponent.png )
+Es gibt viele Werkzeuge, die die Auswahl von Formen oder Objekten erfordern. In solchen Fällen wartet das Aufgaben-Fenster darauf, dass der Benutzer die entsprechenden Objekte in der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählt. Wenn das Aufgaben-Fenster geöffnet ist, ist es möglich, zur [Baumansicht](Tree_view/de.md) zu wechseln, um ein Objekt auszuwählen. Sobald dies geschehen ist, kann man zum **Aufgaben-Fenster** zurückwechseln, um mit dem Werkzeug fortzufahren. Das Aufgaben-Fenster wird in der Regel durch Anklicken einer Schaltfläche **OK** bzw. **Schließen** geschlossen oder durch Drücken der **Esc**-Taste auf der Tastatur, um das Werkzeug abzubrechen.
+
+<img alt="" src=images/FreeCAD_Combo_view_Task_panel_ArchComponent.png  style="width:250px;">
 
 
 
 *Aufgabenbereich, der beim Bearbeiten einer [Arch Komponente](Arch_Component/de.md) geöffnet wird. Der Aufgabenbereich wartet darauf, dass der Benutzer Objekte auswählt, die der Komponente hinzugefügt oder von ihr subtrahiert werden können.*
 
-**Hinweis:** Bitte beachte, dass der Wechsel vom **Aufgaben** Reiter zum **Modell** Reiter den aktiven Befehl nicht beendet; die Aufgabe läuft weiterhin im Hintergrund. Der Benutzer ist dafür verantwortlich, den aktiven Befehl ordnungsgemäß zu beenden oder abzubrechen, bevor er eine andere Aufgabe startet; eine laufende Aufgabe zu verlassen, kann beim Versuch, andere Werkzeuge zu starten, zu Fehlern führen.
-
 
 
 ## Hinweise
 
--   Benutzer, die von anderen CAD-Anwendungen umsteigen, die die **ESC**-Taste als Teil ihres Arbeitsablaufs verwenden, können in FreeCAD andere Ergebnisse erhalten. Wenn die **ESC**-Taste in FreeCAD gedrückt wird, wird der Aufgabenbereich geschlossen, der im Fokus liegt. Um diese Funktion zu deaktivieren, siehe [Fine-tuning/de#ESC TasteFine tuning](Fine-tuning/de#ESC_TasteFine_tuning.md) und [Sketcher Voreinstellungen](Sketcher_Preferences#Allgemein.md).
+-   Benutzer, die von anderen CAD-Anwendungen umsteigen, die die **ESC**-Taste als Teil ihres Arbeitsablaufs verwenden, können in FreeCAD andere Ergebnisse erhalten. Wenn die **ESC**-Taste in FreeCAD gedrückt wird, wird das Aufgaben-Fenster geschlossen, das im Fokus liegt. Um diese Funktion zu deaktivieren, siehe [Feinabstimmung](Fine-tuning/de#Esc-Taste.md) und [Sketcher Voreinstellungen](Sketcher_Preferences/de#Allgemein.md).
 
 
-{{Interface navi
+{{Interface_navi
 
-}}
+}} {{Std_Base_navi}}
 
 
 

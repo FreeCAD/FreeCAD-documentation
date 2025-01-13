@@ -25,7 +25,13 @@ Das Werkzeug **TechDraw MaßHorizontaleAusdehnung** fügt einer Ansicht ein line
 
 1.  Eine Ansicht oder mehrere Kanten in einer Ansicht auswählen.
 2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-    -   Die Schaltfläche **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Horizontale Ausdehnung](TechDraw_HorizontalExtentDimension/de.md)** drücken.
+    -   
+        {{Version/de|1.0}}
+        
+        : Ist die [Einstellung](TechDraw_Preferences/de#Maßeinträge.md) **Maß-Werkzeuge** auf {{Value|Einzelnes Werkzeug}} (Standardeinstellung) gesetzt: Den Nach-unten-Pfeil rechts neben der Schaltfläche **<img src="images/TechDraw_Dimension.svg" width=|x16px> <img src="images/Toolbar_flyout_arrow.svg" width=x16px>** drücken und die Menüoption **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> Horizontale Ausdehnung** in der Ausklappliste auswählen.
+
+    -   Hat die Einstellung einen anderen Wert (und in {{VersionMinus/de|0.21}}): Die Schaltfläche **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Horizontale Ausdehnung](TechDraw_HorizontalExtentDimension/de.md)** drücken.
+
     -   Den Menüeintrag **TechDraw → Page  → <img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> Horizontale Ausdehnung** auswählen.
 3.  Ein Maß wird zur Ansicht hinzugefügt.
 4.  Das Maß kann an die gewünschte Position gezogen werden.
@@ -68,7 +74,7 @@ Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Eigenschaften.md). Ausn
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug MaßHorizontaleAusdehnung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 

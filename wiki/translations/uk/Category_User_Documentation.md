@@ -19,15 +19,16 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Installing on Windows/uk](Installing_on_Windows/uk.md) | [Interface Customization/uk](Interface_Customization/uk.md) | [Localisation/uk](Localisation/uk.md) |
 | [Main Page/uk](Main_Page/uk.md) | [Mesh Workbench/uk](Mesh_Workbench/uk.md) | [Mouse navigation/uk](Mouse_navigation/uk.md) |
 | [Online Help Startpage/uk](Online_Help_Startpage/uk.md) | [Online Help Toc/uk](Online_Help_Toc/uk.md) | [OpenSCAD Workbench/uk](OpenSCAD_Workbench/uk.md) |
-| [Part Module/uk](Part_Module/uk.md) | [PartDesign Workbench/uk](PartDesign_Workbench/uk.md) | [Points Workbench/uk](Points_Workbench/uk.md) |
+| [Part Workbench/uk](Part_Workbench/uk.md) | [PartDesign Workbench/uk](PartDesign_Workbench/uk.md) | [Points Workbench/uk](Points_Workbench/uk.md) |
 | [Preferences Editor/uk](Preferences_Editor/uk.md) | [Property editor/uk](Property_editor/uk.md) | [Raytracing Workbench/uk](Raytracing_Workbench/uk.md) |
 | [Robot Workbench/uk](Robot_Workbench/uk.md) | [Ship Workbench/uk](Ship_Workbench/uk.md) | [Sketcher Workbench/uk](Sketcher_Workbench/uk.md) |
 | [Spreadsheet Workbench/uk](Spreadsheet_Workbench/uk.md) | [Standard Menu/uk](Standard_Menu/uk.md) | [Start Workbench/uk](Start_Workbench/uk.md) |
 | [Surface Workbench/uk](Surface_Workbench/uk.md) | [TechDraw Workbench/uk](TechDraw_Workbench/uk.md) | [Testing/uk](Testing/uk.md) |
 | [Tutorials/uk](Tutorials/uk.md) | [User hub/uk](User_hub/uk.md) | [Video tutorials/uk](Video_tutorials/uk.md) |
-| [Web Workbench/uk](Web_Workbench/uk.md) | [Workbenches/uk](Workbenches/uk.md) | [Category:Arch/uk](Category_Arch/uk.md) |
-| [Category:BIM/uk](Category_BIM/uk.md) | [Category:Draft/uk](Category_Draft/uk.md) | [Category:Tutorials/uk](Category_Tutorials/uk.md) |
-| [Category:Workbenches/uk](Category_Workbenches/uk.md) |
+| [Web Workbench/uk](Web_Workbench/uk.md) | [Workbenches/uk](Workbenches/uk.md) | [Category:Assembly/uk](Category_Assembly/uk.md) |
+| [Category:BIM/uk](Category_BIM/uk.md) | [Category:CAM/uk](Category_CAM/uk.md) | [Category:Draft/uk](Category_Draft/uk.md) |
+| [Category:Material/uk](Category_Material/uk.md) | [Category:Tutorials/uk](Category_Tutorials/uk.md) | [Category:Workbenches/uk](Category_Workbenches/uk.md) |
+|
 
 
 

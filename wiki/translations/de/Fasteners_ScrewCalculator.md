@@ -8,12 +8,16 @@
 
 # Fasteners ScrewCalculator/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> **Fasteners ScrewCalculator** zeigt einer Rechner zum Ermitteln des Kernlochdurchmessers einer Gewindebohrung an.
 
 ![](images/Fasteners_ScrewCalculator_Dialog.png ) 
 *Das Dialogfenster des Schraubenloch-Rechners*
+
+
 
 ## Anwendung
 
@@ -29,12 +33,9 @@ Der Befehl <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24
 
 
 
-
-{{Fasteners Tools navi
-
-}}
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ScrewCalculator/de
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners ScrewCalculator/de

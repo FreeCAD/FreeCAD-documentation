@@ -4,7 +4,7 @@
    Name/it: Importa
    MenuLocation: File , Importa...
    Workbenches: All
-   Shortcut: **Ctrl**+**I**
+   Shortcut: **Ctrl**+**Shift**+**I**
    SeeAlso: Std_Open/it, Import_Export/it, Import_Export_Preferences/it
 ---
 
@@ -27,7 +27,8 @@ Il comando **Importa** importa la geometria da un diverso formato di file nel do
 
 1.  Esistono diversi modi per invocare il comando:
     -   Selezionare l\'opzione **File →  <img src="images/Std_Import.svg" width=16px> Importa...** dal menu.
-    -   Usare la scorciatoia da tastiera: **Ctrl**+**I**.
+    -   Usare la scorciatoia da tastiera: **Ctrl**+**I**. {{VersionMinus/it|1.0}}
+    -   Usare la scorciatoia da tastiera: **Ctrl**+**Shift**+**I**. {{Version/it|1.1}}
 2.  Facoltativamente, selezionare il formato file corretto nella finestra di dialogo.
 3.  Selezionare un file.
 4.  Premere il pulsante **Apri**.
@@ -50,9 +51,7 @@ Il comando **Importa** importa la geometria da un diverso formato di file nel do
 
 ## Preferenze
 
--   Vedere [Preferenze di Importa e esporta](Import_Export_Preferences/it.md).
--   L\'ultima posizione del file utilizzato è memorizzata in: {{MenuCommand | Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileOpenSavePath}}.
--   L\'ultimo filtro di importazione utilizzato è memorizzato in: {{MenuCommand | Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileImportFilter}}.
+-   Vedere [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md).
 
 
 
@@ -132,7 +131,7 @@ Un oggetto Image Plane deriva da un oggetto [App GeoFeature](App_GeoFeature/it.m
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

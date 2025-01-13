@@ -3,8 +3,8 @@
    Name: Draft SelectPlane
    Name/de: Draft EbeneAuswählen
    MenuLocation: Dienstprogramme , Ebene wählen
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
-   Shortcut: **W** **P**
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
+   Shortcut: Draft: **W** **P**
    SeeAlso: Draft_WorkingPlaneProxy/de
 ---
 
@@ -14,14 +14,14 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> **Draft EbeneAuswählen** legt die aktuelle Arbeitsebene fest. Dies ist die Ebene in der [3D-Ansicht](3D_view/de.md) auf der neue [Draft](Draft_Workbench.md)-Objekte erstellt werden. Eine Arbeitsebene kann auf einer oder mehreren [Voreinstellungen](#Anwendung_mit_Voreinstellungen.md) basieren oder auf einer Auswahl. Die Auswahl kann vor dem Aufruf des Befehls erfolgen ([Vorauswahl](#Anwendung_mit_Vorauswahl.md)) oder danach ([nachträgliche Auswahl](#Anwendung_mit_nahträglicher_Auswahl.md)).
+Der Befehl <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> **Draft EbeneAuswählen** legt die aktuelle Arbeitsebene fest. Dies ist die Ebene in der [3D-Ansicht](3D_view/de.md), auf der neue [Draft](Draft_Workbench.md)-Objekte erstellt werden. Eine Arbeitsebene kann auf einer oder mehreren [Voreinstellungen](#Anwendung_mit_Voreinstellungen.md) basieren oder auf einer Auswahl. Die Auswahl kann vor dem Aufruf des Befehls erfolgen ([Vorauswahl](#Anwendung_mit_Vorauswahl.md)) oder danach ([nachträgliche Auswahl](#Anwendung_mit_nahträglicher_Auswahl.md)).
 
 
-{{Version/de|0.22}}
+{{Version/de|1.0}}
 
 : Zu jeder 3D-Ansicht wird eine eigene Arbeitebene gespeichert.
 
-Die Schaltfläche ![](images/Draft_tray_button_plane.png ) im [Draft Tray](Draft_Tray.md) ändert sich abhängig von der aktuellen Arbeitsebene. {{Version/de|0.22}}: Ist die Arbeitsebene nicht auf **Auto** gesetzt, wird der Benennung der Schaltfläche ein Stern (*****) vorangestellt, wenn der Ursprung der Arbeitsebene nicht dem globalen Ursprung entspricht.
+Die Schaltfläche ![](images/Draft_tray_button_plane.png ) im [Draft Tray](Draft_Tray.md) ändert sich abhängig von der aktuellen Arbeitsebene. {{Version/de|1.0}}: Ist die Arbeitsebene nicht auf **Auto** gesetzt, wird der Benennung der Schaltfläche ein Stern (*****) vorangestellt, wenn der Ursprung der Arbeitsebene nicht dem globalen Ursprung entspricht.
 
 <img alt="" src=images/WorkingPlane_example.png  style="width:400px;"> 
 *Formen die auf unterschiedlichen Arbeitsebenen erstellt wurden*
@@ -33,32 +33,29 @@ Die Schaltfläche ![](images/Draft_tray_button_plane.png ) im [Draft Tray](Draft
 1.  Eine der folgenden Möglichkeiten ausführen:
     -   Ein einzelnes Objekt auswählen. Die folgenden Objekte werden unterstützt:
         -   [Draft ArbeitsebenenProxies](Draft_WorkingPlaneProxy/de.md): Die {{PropertyView/de|View Data}} (die Kameraposition) und die {{PropertyView/de|Visibility Map}} (die gespeicherten Sichtbarkeitseinstellungen von Objekten) des Arbeitseben-Proxys werden ebenfalls wiederhergestellt.
-        -   [Arch Achsen](Arch_Axis/de.md) ({{Version/de|0.22}})
-        -   [Arch Achsensysteme](Arch_AxisSystem/de.md) ({{Version/de|0.22}})
+        -   [Arch Achsen](Arch_Axis/de.md) ({{Version/de|1.0}})
+        -   [Arch Achsensysteme](Arch_AxisSystem/de.md) ({{Version/de|1.0}})
         -   [Arch Gebäudeteile](Arch_BuildingPart/de.md)
         -   [Arch Schnittebenen](Arch_SectionPlane/de.md)
         -   [Std Teile](Std_Part/de.md): Sollen nicht nur die angeklickten Subelemente ausgewählt werden, wird empfohlen Std-Teile in der [Baumansicht](Tree_view/de.md) auszuwählen.
-        -   Nicht-Festkörper-Objekte, die aus einer einzelnen ebenen Fläche oder einer einzelnen gekrümmten Kante bestehen oder ({{Version/de|0.22}}) die mindestens drei Knoten enthalten.
-        -   Festkörper-Objekte oder Objekte ohne eine Form, die eine {{PropertyData/de|Placement}} besitzen. ({{Version/de|0.22}})
+        -   Nicht-Festkörper-Objekte, die aus einer einzelnen ebenen Fläche oder einer einzelnen gekrümmten Kante bestehen oder ({{Version/de|1.0}}) die mindestens drei Knoten enthalten.
+        -   Festkörper-Objekte oder Objekte ohne eine Form, die eine {{PropertyData/de|Placement}} besitzen. ({{Version/de|1.0}})
     -   Ein oder mehrere Unterelemente auswählen. Zur Wahl stehen:
         -   Eine ebene Fläche.
         -   Eine gekrümmte Kante.
         -   Drei Knotenpunkte.
-        -   Eine Kante und ein Knoten oder zwei Kanten. Die Knoten müssen zusammen eine Ebene definieren. ({{Version/de|0.22}})
+        -   Eine Kante und ein Knoten oder zwei Kanten. Die Knoten müssen zusammen eine Ebene definieren. ({{Version/de|1.0}})
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche ![](images/Draft_tray_button_plane.png ) im [Draft Tray](Draft_Tray/de.md) drücken.
-    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_SelectPlane.svg" width=16px> Ebene wählen** auswählen.
-    -   Das Tastaturkürzel **W** dann **P**.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Dienstprogramme → <img src="images/Draft_SelectPlane.svg" width=16px> Ebene wählen** auswählen oder die Menüoption im Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen.
+    -   Draft: Das Tastaturkürzel **W** dann **P**.
 3.  Die Arbeitsebene und die Schaltfläche in der [Draft Tray](Draft_Tray/de.md) werden aktualisiert.
 
 
 
 ## Anwendung mit nachträglicher Auswahl 
 
-1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche ![](images/_Draft_tray_button_plane.png ) im [Draft Tray](Draft_Tray/de.md) drücken.
-    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_SelectPlane.svg" width=16px> Ebene wählen** auswählen.
-    -   Das Tastaturkürzel **W** dann **P**.
+1.  Den Befehl aufrufen, wie oben beschrieben.
 2.  Der Aufgaben-Bereich **Arbeitsebene einrichten** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 3.  Eine der folgenden Möglichkeiten ausführen:
     -   Ein einzelnes Objekt auswählen. Siehe den [vorherigen Absatz](#Anwendung_mit_Vorauswahl.md).
@@ -70,10 +67,7 @@ Die Schaltfläche ![](images/Draft_tray_button_plane.png ) im [Draft Tray](Draft
 
 ## Anwendung mit Voreinstellungen 
 
-1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche ![](images/Draft_tray_button_plane.png ) im [Draft Tray](Draft_Tray/de.md) drücken.
-    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_SelectPlane.svg" width=16px> Ebene wählen** auswählen.
-    -   Das Tastaturkürzel **W** dann **P**.
+1.  Den Befehl aufrufen, wie oben beschrieben.
 2.  Der Aufgaben-Bereich **Arbeitsebene einrichten** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 3.  Eine der Schaltflächen drücken, um den Befehl zu beenden.
 4.  Die Arbeitsebene und die Schaltfläche im [Draft Tray](Draft_Tray/de.md) werden aktualisiert.
@@ -90,7 +84,7 @@ Die Schaltfläche ![](images/Draft_tray_button_plane.png ) im [Draft Tray](Draft
 
 -   Die Schaltfläche **<img src="images/View-isometric.svg" width=16px> Zur Ansicht ausrichten** drücken, um die Arbeitsebene zur aktuellen [3D-Ansicht](3D_view/de.md) auszurichten. Ist die Checkbox **Ebene in Ansicht zentrieren** nicht aktiviert, ist der Ursprung der Arbeitsebene deckungsgleich mit dem Ursprung des globalen Koordinatensystems, andernfalls ist er deckungsgleich mit der Mitte der aktuellen [3D-Ansicht](3D_view/de.md).
 
--   Die Schaltfläche **<img src="images/View-axonometric.svg" width=16px> Automatisch** drücken, um die Arbeitsebene auf **Auto** zu setzen. Eine auf **Auto** gesetzte Arbeitsebene wird automatisch zur aktuellen [3D-Ansicht](3D_view/de.md) ausgerichtet, wann immer ein Draft- oder [Arch](Arch_Workbench/de.md)-Befehl gestartet wird, der eine Punkteingabe erfordert. Dies ist entspricht dem Drücken der Schaltfläche **<img src="images/View-isometric.svg" width=16px> Zur Ansicht ausrichten**, bevor der Befehl verwendet wird. Außerdem richtet sich die Arbeitsebene zu ebenen Flächen aus, die vor dem Start des Befehls ausgewählt wurden, oder wenn während der Ausführung des Befehls Punkte auf ebenen Flächen ausgewählt werden.
+-   Die Schaltfläche **<img src="images/View-axonometric.svg" width=16px> Automatisch** drücken, um die Arbeitsebene auf **Auto** zu setzen. Eine auf **Auto** gesetzte Arbeitsebene wird automatisch zur aktuellen [3D-Ansicht](3D_view/de.md) ausgerichtet, wann immer ein Draft- oder [BIM](BIM_Workbench/de.md)-Befehl gestartet wird, der eine Punkteingabe erfordert. Dies ist entspricht dem Drücken der Schaltfläche **<img src="images/View-isometric.svg" width=16px> Zur Ansicht ausrichten**, bevor der Befehl verwendet wird. Außerdem richtet sich die Arbeitsebene zu ebenen Flächen aus, die vor dem Start des Befehls ausgewählt wurden, oder wenn während der Ausführung des Befehls Punkte auf ebenen Flächen ausgewählt werden.
 
 -    **Versetzen**legt den senkrechten Abstand zwischen der berechneten Ebene und der tatsächlichen Arbeitsebene fest.
 
@@ -98,11 +92,13 @@ Die Schaltfläche ![](images/Draft_tray_button_plane.png ) im [Draft Tray](Draft
 
 -   Einen Knoten in der [3D-Ansicht](3D_view/de.md) auswählen und die Schaltfläche **<img src="images/Draft_Move.svg" width=16px> Move working plane** drücken, um die die Arbeitsebene so zu versetzen, dass ihr Ursprung auf dem ausgewählten Knoten liegt.
 
+-   Die Schaltfläche **Rasterfarbe** ermöglicht die Farbe des Rasters schnell zu ändern. {{Version/de|1.0}}
+
 -    **Rasterabstand**legt den Abstand zwischen den Rasterlinien fest.
 
--   Der Wert **Hauptlinien alle** legt fest, wo Hauptrasterlinien gezeichnet werden. Hauptrasterlinien sind geringfügig dicker, als normale Rasterlinen. Ist z.B. der Rasterabstand {{Value|0.5 m}} und es gibt eine Hauptlinie alle {{Value|10}} Linien, treten die Hauptlinien alle {{Value|5 m}} auf.
+-   Der Wert **Hauptlinien alle** legt fest, wo Hauptrasterlinien gezeichnet werden. Hauptrasterlinien sind geringfügig dicker, als untergeordnete Rasterlinen. Ist z.B. der Rasterabstand {{Value|0.5 m}} und es gibt eine Hauptlinie alle {{Value|10}} Kästchen, treten die Hauptlinien alle {{Value|5 m}} auf.
 
--   Der Wert **Grid extension** legt die Anzahl der Rasterlinien in X- und Y-Richtung des Rasters fest.
+-   Der Wert **Grid size** legt die Anzahl der Kästchen in X- und Y-Richtung des Rasters fest.
 
 -   Der **Einrast-Radius** ist der maximale Abstand, den [Draft EinrastenAufRaster](Draft_Snap_Grid/de.md) berücksichtigt, um die Schnittstellen der Rasterlinien zu finden.
 
@@ -110,7 +106,7 @@ Die Schaltfläche ![](images/Draft_tray_button_plane.png ) im [Draft Tray](Draft
 
 -   Die Schaltfläche **<img src="images/sel-back.svg" width=16px> Vorherige** drücken, um die Arbeitsebene auf ihre vorherige Position zurückzusetzen.
 
--   Die Schaltfläche **Next <img src="images/sel-forward.svg" width=16px>** drücken, um die Arbeitsebene auf ihre nachfolgende Position zu setzen. {{Version/de|0.22}}
+-   Die Schaltfläche **Next <img src="images/sel-forward.svg" width=16px>** drücken, um die Arbeitsebene auf ihre nachfolgende Position zu setzen. {{Version/de|1.0}}
 
 -    **Esc**oder die Schaltfläche **Close** drücken, um den Befehl abzubrechen.
 
@@ -135,10 +131,10 @@ Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstel
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 
-{{Version/de|0.22}}
+{{Version/de|1.0}}
 
 Das Modul WorkingPlane (Arbeitsebene) enthält zwei Klassen zur Erstellung von Arbeitsebenen (working plane objects): Die Klasse `PlaneBase` und die Klasse `PlaneGui`. Die zweite Klasse ist von der ersten abgeleitet. Objekte der Klasse `PlaneGui` arbeiten mit der GUI (Schaltfläche im [Draft Tray](Draft_Tray/de.md)), der [3D-Ansicht](3D_view.md) und dem [Raster](Draft_Snap_Grid/de.md) zusammen. `PlaneBase`-Objekte tun dies nicht.
 

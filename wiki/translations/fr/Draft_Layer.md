@@ -3,7 +3,7 @@
    Name: Draft Layer
    Name/fr: Draft Calque
    MenuLocation: Utilitaires , Calque
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   Workbenches: Draft_Workbench/fr
    Version: 0.19
    SeeAlso: Draft_AutoGroup/fr, Draft_LayerManager/fr
 ---
@@ -20,7 +20,7 @@ La commande <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Draft
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Layer.svg" width=16px> [Calque](Draft_Layer/fr.md)**.
-    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_Layer.svg" width=16px> Calque** du menu.
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_Layer.svg" width=16px> Calque** du menu, ou dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou de la [vue 3D](3D_view/fr.md).
     -   Si le conteneur de calque existe déjà : clic droit dessus dans la [vue en arborescence](Tree_view/fr.md) et sélectionnez l\'option **<img src="images/Draft_NewLayer.svg" width=16px> Ajouter un nouveau calque** dans le menu contextuel.
 2.  S\'il n\'existe pas, le conteneur de calque est créé en premier.
 3.  Un calque est créé et placé dans le conteneur de calque.
@@ -104,11 +104,13 @@ Les propriétés de cette section sont appliquées aux objets qui sont placés �
 
 -    **Override Line Color Children|Bool**: indique si les modifications apportées à **Line Color** du calque sont propagées aux objets situés à l\'intérieur du calque.
 
--    **Override Shape Color Children|Bool**: spécifie si les modifications apportées à **Shape Color** du calque sont propagées aux objets situés dans le calque.
+-    **Override Shape Appearance Children|Bool**: spécifie si les changements apportés à **Shape Appearance** du calque sont propagés aux objets à l\'intérieur du calque. {{Version/fr|1.0}}
 
--    **Shape Color|Color**: spécifie la couleur de la forme du calque.
+-    **Shape Appearance|MaterialList**: spécifie l\'apparence de la forme du calque. {{Version/fr|1.0}}
 
--    **Transparency|Percent**: spécifie la transparence du calque.
+-    **Shape Color|Color|hidden**: spécifie la couleur de la forme du calque. Elle est synchronisée avec la **Couleur diffuse** de **Shape Appearance**.
+
+-    **Transparence|Percent**: spécifie la transparence du calque. Elle est synchronisée avec la **Transparence** de **Shape Appearance**.
 
 
 {{TitleProperty|Print}}

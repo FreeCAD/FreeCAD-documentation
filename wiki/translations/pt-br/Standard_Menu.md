@@ -40,7 +40,7 @@ O menu padrão é composto por 7 submenus:
 -    {{StdMenu|[Ajuda](Std_Help_Menu/pt-br.md)}}O menu Ajuda fornece acesso ao sistema de ajuda e links para o site e fórum do FreeCAD.
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}  {{Interface navi}}
 

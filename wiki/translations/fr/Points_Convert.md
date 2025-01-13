@@ -22,9 +22,9 @@ Ici, un objet forme fait référence à tout objet avec une propriété **Shape*
 2.  Il y a plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Points_Convert.svg" width=16px> [Convertir en points...](Points_Convert/fr.md)**.
     -   Sélectionnez l\'option **Points → <img src="images/Points_Convert.svg" width=16px> Convertir en points...** du menu.
-3.  La boîte de dialogue **Distance** s\'ouvre.
+3.  La fenêtre de dialogue **Distance** s\'ouvre.
 4.  Entrez la **distance maximale**. La valeur doit être comprise entre {{Value|0.01}} et {{Value|10.00}}.
-5.  Appuyez sur le bouton **OK** pour fermer la boîte de dialogue et terminer la commande.
+5.  Appuyez sur le bouton **OK** pour fermer la fenêtre de dialogue et terminer la commande.
 
 
 

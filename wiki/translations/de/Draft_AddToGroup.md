@@ -3,7 +3,7 @@
    Name: Draft AddToGroup
    Name/de: Draft ZurGruppeHinzufügen
    MenuLocation: Dienstprogramme , Zur Gruppe hinzufügen...
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de
    SeeAlso: Std_Group/de, Draft_AddNamedGroup/de, Draft_AddConstruction/de, Draft_AutoGroup/de
 ---
 
@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft ZuGruppeHinzufügen** verschiebt Objekte in eine [Std Gruppe](Std_Group/de.md) oder ein gruppenartiges [Arch](Arch_Workbench/de.md)-Objekt. Damit können auch Objekte aus einer Gruppe entfernt werden.
+Der Befehl <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft ZuGruppeHinzufügen** verschiebt Objekte in eine [Std Gruppe](Std_Group/de.md) oder ein gruppenartiges [BIM](BIM_Workbench/de.md)-Objekt. Damit können auch Objekte aus einer Gruppe entfernt werden.
 
 
 
@@ -22,8 +22,7 @@ Der Befehl <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **D
 1.  Ein oder mehrere Objekte auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_AddToGroup.svg" width=16px> [In Gruppe verschieben...](Draft_AddToGroup/de.md)** drücken.
-    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_AddToGroup.svg" width=16px> In Gruppe verschieben...** auswählen.
-    -   Den Eintrag **Dienstprogramme → <img src="images/Draft_AddToGroup.svg" width=16px> In Gruppe verschieben...** im Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen.
+    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_AddToGroup.svg" width=16px> In Gruppe verschieben...** auswählen oder die Menüoption im Kontextmenü der [Baumansicht](Tree_view/de.md) oder [3D-Ansicht](3D_view/de.md) auswählen.
 3.  Ein Menü wird neben dem Cursor angezeigt. Eine der folgenden Möglichkeiten auswäheln:
     -   
         **Gruppierung aufheben**

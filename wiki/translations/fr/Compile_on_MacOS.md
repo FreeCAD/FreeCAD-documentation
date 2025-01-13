@@ -148,7 +148,7 @@ La commande suivante clone le référentiel FreeCAD git dans un répertoire appe
 
 
 ```python
-git clone https://github.com/FreeCAD/FreeCAD FreeCAD-git
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD FreeCAD-git
 ```
 
 Créez le dossier build.
@@ -187,7 +187,7 @@ ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/
 
 Ouvrez l\'application CMake, et remplissez les champs source et dossier de compilation. Dans cet exemple, il s\'agirait de **/Users/username/FreeCAD/FreeCAD-git** pour les sources et */Users/username/FreeCAD/build*\' pour le dossier de build.
 
-Ensuite, cliquez sur le bouton **Configure** pour remplir la liste des options de configuration. Cela affichera une boîte de dialogue vous demandant de spécifier quel générateur utiliser. Laissez la valeur par défaut **Unix Makefiles**. La configuration échouera pour la première fois car certaines options doivent être changées. Remarque: vous devrez cocher la case à cocher **Advanced** pour obtenir toutes les options.
+Ensuite, cliquez sur le bouton **Configure** pour remplir la liste des options de configuration. Cela affichera une fenêtre de dialogue vous demandant de spécifier quel générateur utiliser. Laissez la valeur par défaut **Unix Makefiles**. La configuration échouera pour la première fois car certaines options doivent être changées. Remarque : vous devrez cocher la case à cocher **Advanced** pour obtenir toutes les options.
 
 Définissez les options du tableau ci-dessus, puis cliquez à nouveau sur **Configure** puis sur **Generate**.
 

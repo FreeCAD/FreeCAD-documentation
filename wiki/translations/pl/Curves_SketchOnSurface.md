@@ -12,7 +12,7 @@
 
 ## Opis
 
-To narzędzie mapuje szkic na powierzchnię, jak etykietę na butelce. Szkic musi być faktycznie dołączony do powierzchni *(patrz Sketch.Support)*. Tryb `Map` szkicu nie ma wpływu na wynik.
+Narzędzie to mapuje szkic na dowolną zakrzywioną powierzchnię, na przykład jak etykieta na butelce. Szkic musi być faktycznie dołączony do powierzchni *(patrz Sketch.Support)*. Tryb `Map` szkicu nie ma wpływu na wynik.
 
 <img alt="" src=images/Curves_SketchOnSurface_demo.png  style="width:600" height="400px;"> 
 *Powyżej: obiekt `Sketch_On_Surface* zastosowany do powierzchni walca ''(po lewej)'' i szkic źródłowy w trybie edycji ''(po prawej)''.`

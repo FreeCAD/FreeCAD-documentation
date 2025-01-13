@@ -215,7 +215,7 @@ Dopo avere riavviare FreeCAD. Su alcune distro è necessario a ogni avvio.
 
 
 
-### Problemi noti 
+#### Problemi noti 
 
 Un utente segnalato nel [forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) ha visualizzato quanto segue:
 
@@ -236,31 +236,35 @@ sudo spnavd_ctl x11 start
 sudo systemctl restart spacenavd 
 ```
 
-### macOS
+### MacOS
 
 Su macOS i dispositivi di input 3Dconnexion sono supportati, purché FreeCAD sia costruito e utilizzato su un sistema con i driver 3Dconnexion installati. Potrebbe essere necessario 3DxWare 10.7.2 o superiore per macOS 12 Monterey.
 
 ### Windows
 
-A partire dalla versione 0.13, mouse 3D è supportato sotto windows. È necessario avere installato i driver appropriati, ma dato che il supporto è stato sviluppato su un livello inferiore, eseguirà l\'override le impostazioni che impostato nel pannello di controllo 3D Connexion. Tuttavia, la maggior parte di tali impostazioni è possibile impostare in strumenti \>\> finestra di dialogo Personalizza, sotto schede Spaceball.
+A partire dalla versione 0.13, il mouse 3D è supportato sotto windows. È necessario avere installato i driver 3Dconnexion. Nella versione 1.0 di FreeCAD è stata introdotta una [nuova integrazione con i dispositivi 3Dconnexion](https://github.com/FreeCAD/FreeCAD/pull/12929). Se compilato con tale integrazione, è supportato solo l\'hardware recente: per supportare i dispositivi più vecchi gli utenti dovranno auto-compilarli con la variabile cMake FREECAD_3DCONNEXION_SUPPORT impostata su \"Raw Input\". Gli utenti Windows devono essere consapevoli che il driver di 3Dconnexion (\"non\" il codice in FreeCAD) contiene un pacchetto di telemetria che comunica le informazioni sul software installato a 3Dconnexion.
 
 
 
 #### Problemi noti 
 
-C\'è un problema in cui 3Dconnexion invia eventi di scorrimento duplicati a FreeCAD, causando il salto della vista. Per risolverlo:
-
-1.  Apri proprietà 3Dconnexion. Puoi fare doppio clic sulla sua icona nella barra delle applicazioni, accanto all\'orologio di Windows.
-2.  Fare clic sul pulsante Impostazioni avanzate.
-3.  Apri FreeCAD o passa a una finestra di FreeCAD già aperta.
-4.  Torna alle impostazioni avanzate di 3Dconnexion. Conferma che dice \"FreeCAD\" nell\'intestazione.
-5.  Deseleziona tutte le caselle nella pagina.
-
-ref: <https://freecadweb.org/tracker/view.php?id=1893>
+-   In FreeCAD versione 1.0 e successive la modifica delle impostazioni nella finestra di configurazione 3DX potrebbe non produrre i risultati attesi ([issue](https://github.com/FreeCAD/FreeCAD/issues/14044)). Per risolvere questo problema:
+    1.  Arrestare il driver (eseguendo Stop 3DxWare).
+    2.  Andare in **..<utente>\AppData\Roaming\3Dconnexion\3DxWare\Cfg** ed eliminare il file **FreeCAD.xml**.
+    3.  Avviare il driver (eseguendo Start 3DxWare).
+    4.  Eseguire FreeCAD e verificare se è possibile modificare le impostazioni di [Spaceball Motion](#Spaceball_Motion.md).
 
 ## Setting up FreeCAD 
 
-Il supporto per il mouse 3D è stata fatta con il progetto spnav su Linux e su un livello molto basso su Windows. Questo significa che non c\'era alcun supporto per tutte le impostazioni per un dispositivo, dato che su Linux non c\'è nessun buon supporto per questo, e su Windows è sottoposto a override. Ecco perché due pagine supplementari sono stati aggiunti alla finestra di dialogo \"Personalizza\".
+
+{{VersionPlus/it|1.0}}
+
+: Il manipolatore 3Dconnexion può essere configurato nella sua app driver (software 3DxWare).
+
+
+{{VersionMinus/it|0.21}}
+
+: se viene rilevata un Spaceball, è possibile utilizzare le seguenti schede nella [finestra di dialogo Personalizza](Interface_Customization/it.md) per modificare le impostazioni:
 
 <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
 

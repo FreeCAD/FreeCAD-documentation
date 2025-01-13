@@ -24,7 +24,7 @@ Acest instrument convertește un filament [Wires](Draft_Wire.md) într-o funcți
 </div>
 
 <img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width:400px;"> 
-*Converting a Draft Wire to a Draft BSpline, and a closed Draft BSpline to a closed Draft Wire*
+*Converting a wire to a B-spline, and a closed B-spline to a closed wire*
 
 
 

@@ -1,18 +1,18 @@
 # Macro Express Placement
 {{Macro
-|Name=Express Placement
+|Name=Macro Express Placement
 |Description=Display and quickly edit a selected object's placement coordinates directly or via expressions.
 |Author=screeneroner
 |Download=[https://raw.githubusercontent.com/screeneroner/fc-express-placement/master/fc-express-placement.FCMacro Express Placement]
 |Version=1.0
 |Date=2023-08-01
-|FCVersion= created and tested in 0.21
+|FCVersion=Created and tested in 0.21
 |Icon=Std_AxisCross_example.svg
 }}
 
 ## Description
 
-Express Placement is a FreeCAD GUI addon. It allows quick editing of the X, Y, Z placement coordinates for the currently selected object.
+The macro **Express Placement** is a FreeCAD GUI addon. It allows quick editing of the X, Y, Z placement coordinates for the currently selected object.
 
 ## Difference and benefits 
 
@@ -28,7 +28,7 @@ The standard FreeCAD built-in editor requires many additional mouse clicks befor
 2.  Click on the Position branch to unfold the X, Y, Z coordinates fields.
 3.  Click on the desired coordinate to make the expression editing icon visible.
 4.  Click the expression editing icon, which is so small that it may be a challenge to hit it.
-    Alternatively, press the \"=\" key on the keyboard. This may take even longer than clicking the icon.
+    Alternatively, press the **&#61;** key on the keyboard. This may take even longer than clicking the icon.
 
 You must repeat these clicks when you select another object. Again and again\...
 
@@ -67,7 +67,7 @@ When you decide to change the placement of the selected object, just double-clic
 
 ## Script
 
-Click here to show/hide the Addon source code.
+Click here to show/hide the Addon source code. 
 
 
 <div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-codeBlock">

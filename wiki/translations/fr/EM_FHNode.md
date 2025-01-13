@@ -25,7 +25,7 @@ L\'outil Noeud FH insère un objet FastHenry de type Nœud.
 L\'objet Noeud FH peut être basé sur la position d\'un objet [Draft Point](Draft_Point/fr.md) ou vous pouvez sélectionner l\'emplacement 3D du Noeud FH.
 
 1.  Appuyez sur la touche **<img src="images/EM_FHNode.svg" width=16px> [EM FHNode](EM_FHNode/fr.md)** ou appuyez sur la touche **E** puis **N**.
-2.  Cliquez sur un point de la vue 3D ou tapez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+2.  Cliquez sur un point de la vue 3D ou rentrez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
 
 Alternativement, vous pouvez également :
 
@@ -34,9 +34,9 @@ Alternativement, vous pouvez également :
 
 ## Options
 
--   Pour saisir les coordonnées manuellement, entrez simplement les chiffres, puis appuyez sur **Entrée** entre chaque composante X, Y et Z. Vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées pour insérer le point.
--   Cochez la case pour basculer le mode *continue* . Si le mode Continuer est activé, l\'outil FHNode redémarrera après avoir placé un nœud, vous permettant d\'en placer un autre sans appuyer à nouveau sur le bouton de l\'outil.
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande en cours.
+-   Pour saisir les coordonnées manuellement, entrez simplement les chiffres, puis appuyez sur **Entrée** entre chaque composante X, Y et Z. Vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées pour insérer le point.
+-   Cochez la case pour basculer le mode *continu*. Si le mode continu est activé, l\'outil FHNode redémarrera après avoir placé un nœud, vous permettant d\'en placer un autre sans appuyer à nouveau sur le bouton de l\'outil.
+-   Appuyez sur **Échap** ou sur le bouton **Fermer** pour abandonner la commande en cours.
 
 
 

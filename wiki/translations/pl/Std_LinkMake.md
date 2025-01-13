@@ -14,7 +14,7 @@
 
 ## Opis
 
-Narzędzie **[<img src=images/Std_LinkMake.svg style="width:16px"> '''Utwórz łącze'''** tworzy obiekt [App: Łącze](App_Link/pl.md) *(klasa `App::Link`)*, typ obiektu, który odwołuje się lub łączy z innym obiektem, w tym samym dokumencie lub w innym dokumencie. Jest specjalnie zaprojektowany do wydajnego wielokrotnego powielania pojedynczego obiektu, co pomaga w tworzeniu skomplikowanych [złożeń](Assembly/pl.md) z mniejszych złożeń podrzędnych i wielu komponentów wielokrotnego użytku, takich jak śruby, nakrętki i podobne elementy złączne.
+Narzędzie **[<img src=images/Std_LinkMake.svg style="width:16px"> '''Utwórz łącze'''** tworzy obiekt [App: Łącze](App_Link/pl.md) *(klasa `App::Link`)*, typ obiektu, który odwołuje się lub łączy z innym obiektem, w tym samym dokumencie lub w innym dokumencie. Jest specjalnie zaprojektowany do wydajnego wielokrotnego powielania pojedynczego obiektu, co pomaga w tworzeniu skomplikowanych [złożeń](assembly/pl.md) z mniejszych złożeń podrzędnych i wielu komponentów wielokrotnego użytku, takich jak śruby, nakrętki i podobne elementy złączne.
 
 Obiekt [App: Łącze](App_Link/pl.md) został nowo wprowadzony w wersji 0.19. W przeszłości proste duplikowanie obiektów można było osiągnąć za pomocą **[<img src=images/Draft_Clone.svg style="width:16px"> [Klonu](Draft_Clone/pl.md)**, ale jest to mniej wydajne rozwiązanie ze względu na jego implementację, która zasadniczo tworzy kopię wewnętrznego [kształtu](Part_TopoShape/pl.md) obiektu źródłowego. Z drugiej strony, obiekt Łącze odwołuje się bezpośrednio do oryginalnego Kształtu, więc jest bardziej wydajny pamięciowo.
 
@@ -207,37 +207,67 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 
 {{TitleProperty|Łącze}}
 
--    **Powiązane Obiekty|XLink**: wskazuje obiekt źródłowy [App: Łącze](App_Link/pl.md). Może to być cały obiekt lub jego element *(wierzchołek, krawędź lub ściana)*.
+-    **ColoredElements|LinkSubHidden|LockDynamic, Ukryte**: lista elementów Łącza, których kolor został nadpisany.
+
+-    **Element Count|IntegerConstraint|LockDynamic**: Liczba elementów łącza. Domyślnie {{Value|0}}. Jeśli ma wartość {{Value|1}} lub większą, [App Link](App_Link/pl.md) będzie zachowywać się jak tablica i powieli ten sam **Linked Object** wiele razy. Jeśli **Show Elements** ma wartość {{TRUE/pl}}, każdy element w tablicy będzie wyświetlany w [widoku drzewa](tree_view.md), a każdy z nich może mieć zmodyfikowane własne **Umiejscowienie**. Każda kopia łącza będzie miała nazwę opartą na [Nazwie](Object_name.md) łącza, powiększoną o `_iN`, gdzie `N` jest liczbą zaczynającą się od `0`. Na przykład, z pojedynczym `Link`, kopie będą miały nazwy `Link_i0`, `Link_i1`, `Link_i2`, itd.
+
+-    **ElementList|LinkList|Immutable, Ukryte, LockDynamic**: lista elementów Łącza.
+
+-    **LinkClaimChild|Bool|LockDynamic**: Uznanie połączonego obiektu za element podrzędny.
+
+-    **LinkCopyOnChange|Enumeration|LockDynamic**:
+
+    -   
+        {{value|Disabled}}
+        
+        : wyłącza tworzenie kopii połączonego obiektu wywoływane zmianą którejkolwiek z jego właściwości ustawionych jako {{value|CopyOnChange}}.
+
+    -   
+        {{value|Enabled}}
+        
+        : włącza głęboką kopię połączonego obiektu jeśli którakolwiek z jego właściwości oznaczonych jako {{value|CopyOnChange}} ulegnie zmianie. Po utworzeniu głębokiej kopii nie będzie żadnego połączenia między oryginalnym i skopiowanym obiektem. Zatem zmiany w oryginalnym obiekcie nie będą odzwierciedlone w kopiach.
+
+    -   
+        {{value|Owned}}
+        
+        : oznacza, że połączony obiekt został skopiowany i należy do Połączenia. Ten stan jest ustawiany automatycznie przez samo Połączenie, użytkownik normalnie tego nie robi. Połączenie spróbuje zsynchronizować wszelkie zmiany oryginalnego połączonego obiektu z powrotem do kopii (uwaga edytora: to drugie wydaje się nie być zaimplementowane w oficjalnej wersji programu FreeCAD).
+
+    -   
+        {{value|Tracking}}
+        
+        : to samo co {{value|Enabled}}, ale dodatkowo kopia będzie automatycznie odświeżana jeśli oryginalny obiekt źródłowy ulegnie zmianie.
+
+-    **LinkCopyOnChangeGroup|Link|Hidden, LockDynamic**: Powiązany z wewnętrznym obiektem grupy do przechowywania kopii po zmianie.
+
+-    **LinkCopyOnChangeSource|XLink|Hidden, LockDynamic**: Obiekt źródła kopii po zmianie
+
+-    **LinkCopyOnChangeTouched|Bool|Hidden, LockDynamic**: Wskazuje, że kopia na zmienionym obiekcie źródłowym została zmieniona.
+
+-    **LinkExecute|String|LockDynamic**: nazwa funkcji execute, która zostanie uruchomiona dla tego konkretnego obiektu łącza. Domyślnie {{Value|'appLinkExecute'}}. Ustaw ją na {{Value|'None'}}, aby ją wyłączyć.
+
+-    **Link Placement|Placement|Hidden, LockDynamic**: jest to odsunięcie nałożone na **Placement** obiektu **Linked Object**. Ta właściwość jest normalnie ukryta, ale pojawia się, jeśli **Link Transform** jest ustawiona na `True`; w tym przypadku właściwość **Umiejscowienie** staje się teraz ukryta.
 
 -    **Przekształcanie łączy|Bool**: domyślnie ustawiona na wartość {{FALSE/pl}}, w którym to przypadku Łącze zastąpi własne położenie **Powiązaniem Obiektu**. Jeśli właściwość jest ustawiona na {{TRUE/pl}}, Łącze zostanie umieszczone w tej samej pozycji co **Powiązane Obiekty**, a jego położenie będzie względne w stosunku do położenia **Powiązanych Obiektów**. Można to również osiągnąć za pomocą narzędzia **[<img src=images/Std_LinkMakeRelative.svg style="width:16px">. [Utwórz łącze względne](Std_LinkMakeRelative/pl.md)**.
 
+-    **Powiązane Obiekty|XLink**: wskazuje obiekt źródłowy [App: Łącze](App_Link/pl.md). Może to być cały obiekt lub jego element *(wierzchołek, krawędź lub ściana)*.
+
 -    **Umiejscowienie|Placement**: umiejscowienie odnośnika we współrzędnych bezwzględnych.
 
--    **Umiejscowienie łącza|Placement|Ukryte**: jest to przesunięcie nałożone na **Umiejscowienie** **Powiązanego obiektu**. Ta właściwość jest normalnie ukryta, ale pojawia się, jeśli właściwość **Przekształcanie łączy** jest ustawiona na wartość {{TRUE/pl}}. W tym przypadku właściwość **Umiejscowienie** staje się teraz ukryta.
-
--    **Wyświetl element|Bool**: właściwość domyślnie ustawiona na wartość {{TRUE/pl}}, w którym to przypadku [widok drzewa](Tree_view/pl.md) pokaże poszczególne kopie Łącza, tak długo jak właściwość **Liczba elementów** jest równa {{Value|1}} lub większa.
-
--    **Liczba elementów|IntegerConstraint**: domyślnie {{Value|0}}. Jeśli wartość wynosi {{Value|1}} lub jest większa, obiekt [App: Łącze](App_Link.md) będzie zachowywać się jak szyk i powieli ten sam **Powiązany obiekt** wiele razy. Jeśli właściwość**Wyświetl element** ma wartość {{TRUE/pl}}, każdy element w tablicy będzie wyświetlany w [Widoku drzewa](Tree_view/pl.md), a każdy z nich może mieć zmodyfikowane własne **Umiejscowienie**. Każda kopia Łącza będzie miała nazwę opartą na właściwości [Nazwa](Object_name.md) Łącza, powiększoną o `_iN`, gdzie `N` jest liczbą zaczynającą się od `0`. Na przykład, z pojedynczym obiektem `Łącze`, kopie będą miały nazwy `Link_i0`, `Link_i1`, `Link_i2` itd.
-
--    **Link Execute|String**: nazwa funkcji execute, która zostanie uruchomiona dla tego konkretnego obiektu Łącza. Domyślnie jest to {{Value|'appLinkExecute'}}. Ustaw ją na {{Value|'None'}}, aby ją wyłączyć.
-
--    **Colored Elements|LinkSubHidden|Ukryte**: lista elementów Łącza, których kolor został nadpisany.
+-    **PlacementList|PlacementList|LockDynamic**: Umiejscowienie dla każdego elementu Łącza.
 
 -    **Skala|Float**: domyślnie przyjmuje wartość {{Value|1.0}}. Jest to współczynnik równomiernego skalowania w każdym kierunku `X`, `Y` i `Z`. Na przykład, sześcian o wymiarach {{Value|2 mm}} x {{Value|2 mm}} x {{Value|2 mm}}, który jest skalowany przez {{Value|2.0}}, da w wyniku kształt o wymiarach {{Value|4 mm}} x {{Value|4 mm}} x {{Value|4 mm}}.
 
--    **Wektor skali|Vector|Ukryte**: współczynnik skali dla każdego elementu `(X, Y, Z)` dla wszystkich elementów Łącza, gdy właściwość **Liczba elementów** ma wartość {{Value|1}} lub większą. Jeśli **Skala** ma wartość inną niż {{Value|1.0}}, ta sama wartość zostanie użyta w trzech komponentach.
-
 -    **Lista skali|VectorList**: współczynnik skali dla każdego elementu Łącza.
 
--    **Lista wyświetlania|BoolList|Ukryte**: {{emphasis|(tylko do odczytu)}} stan widoczności każdego elementu Łącza, każdy element przyjmuje wartości albo {{TRUE/pl}} albo {{FALSE/pl}}.
+-    **Wektor skali|Vector|Ukryte**: współczynnik skali dla każdego elementu `(X, Y, Z)` dla wszystkich elementów Łącza, gdy właściwość **Liczba elementów** ma wartość {{Value|1}} lub większą. Jeśli **Skala** ma wartość inną niż {{Value|1.0}}, ta sama wartość zostanie użyta w trzech komponentach.
 
--    **Lista umiejscowienia|PlacementList|Ukryte**: {{emphasis|(tylko do odczytu)}} the placement for each Link element.
+-    **Wyświetl element|Bool**: właściwość domyślnie ustawiona na wartość {{TRUE/pl}}, w którym to przypadku [widok drzewa](Tree_view/pl.md) pokaże poszczególne kopie Łącza, tak długo jak właściwość **Liczba elementów** jest równa {{Value|1}} lub większa.
 
--    **Lista elementów|LinkList|Ukryte**: lista elementów Łącza.
+-    **_ChildCache|LinkList|NoPersist, ReadOnly, Ukryte**: Do zrobienia.
 
--    **_LinkTouched|Bool|Ukryte**:
+-    **_LinkOwner|Integer|Ukryte, Output**: Do zrobienia.
 
--    **_ChildCache|LinkList|Ukryte**:
+-    **_LinkTouched|Bool|NoPersist, Ukryte**: Do zrobienia.
 
 
 {{TitleProperty|Podstawa}}
@@ -384,6 +414,8 @@ obj.Label = "Custom label"
 
 
 ## Dodatkowe informacje 
+
+Jeśli chcesz pominąć szczegóły dotyczące historii, przejdź do [wprowadzenia do łączy dla użytkowników](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link).
 
 Obiekt [App Łącze](App_Link/pl.md) został wprowadzony po 2 latach rozwoju i prototypowania. Komponent ten został wymyślony i opracowany niemal samodzielnie przez użytkownika **realthunder**. Motywacje i implementacje stojące za tym projektem zostały opisane na jego stronie GitHub, [Link](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link). Aby wdrożyć tę funkcję, wprowadzono kilka podstawowych zmian w programie FreeCAD. Zostały one również obszernie udokumentowane w artykule [Core-Changes](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes).
 

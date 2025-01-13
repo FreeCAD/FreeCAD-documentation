@@ -1,5 +1,5 @@
 # Part Measure Menu/en
-1.  REDIRECT [Part_Module/en#Measure](Part_Module/en#Measure.md)
+1.  REDIRECT [Part_Workbench/en#Measure](Part_Workbench/en#Measure.md)
 
 
 

@@ -3,11 +3,6 @@
 
 La interfaz de FreeCAD está basada en el moderno kit de herramientas [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) y tiene una organización a nivel de la técnica . Algunos aspectos de la interfaz pueden ser personalizados. Puedes, por ejemplo, añadir barras de herramientas personalizadas, con herramientas de varios ambientes de trabajo o herramientas definidas en macros, y puedes crear tus propios atajos de teclado. Pero los menús y las barras de herramientas por defecto que vienen con FreeCAD y sus ambientes de trabajo no se pueden cambiar.
 
-
-<small>(v0.21)</small> 
-
-: The Workbenches tab is no longer available. Its functionality has been moved to the [Available Workbenches](Preferences_Editor#Available_Workbenches.md) tab in the Workbenches section of the [Preferences Editor](Preferences_Editor.md).
-
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *El cuadro diálogo Personalizar*
 
@@ -266,16 +261,6 @@ Los complementos ofrecen otra forma de personalizar la interfaz de uso. A contin
 
 
 </div>
-
-In the Workbenches category of the Addon Manager some addons by user triplus can be found:
-
--   <https://github.com/triplus/CubeMenu> (for {{VersionMinus|0.20}})
--   <https://github.com/triplus/Glass>.
--   <https://github.com/triplus/IconThemes>
--   <https://github.com/triplus/Launcher>
--   <https://github.com/triplus/PieMenu>
--   <https://github.com/triplus/RemBench>
--   <https://github.com/triplus/ShortCuts>
 
 
 {{Top}}

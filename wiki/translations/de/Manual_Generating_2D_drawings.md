@@ -1,7 +1,7 @@
 # Manual:Generating 2D drawings/de
 {{Manual:TOC}}
 
-Wenn dein Modell nicht direkt von einer Maschine gedruckt oder gefräst werden kann, z. B. ist es zu groß (ein Gebäude) oder es erfordert manuellen zusammenbau, nachdem die Teile fertig sind, musst du normalerweise einer anderen Person erklären, wie man das macht. In technischen Bereichen (Ingenieurwesen, Architektur usw.) geschieht dies meist anhand von Zeichnungen. Die Zeichnungen werden der Person ausgehändigt, die für den Zusammenbau des Endprodukts verantwortlich ist, und erklären, wie man das macht.
+Wenn dein Modell nicht direkt von einer Maschine gedruckt oder gefräst werden kann, weil es z. B. zu groß ist (ein Gebäude) oder einen manuellen Zusammenbau erfordert, nachdem die Teile fertig sind, muss man normalerweise einer anderen Person erklären, wie man das macht. In technischen Bereichen (Ingenieurwesen, Architektur usw.) geschieht dies meist anhand von Zeichnungen. Die Zeichnungen werden der Person ausgehändigt, die für den Zusammenbau des Endprodukts verantwortlich ist, und erklären, wie man das macht.
 
 Typische Beispiele sind Ikea Anleitungen, [Architekturzeichnungen](https://en.wikipedia.org/wiki/Architectural_drawing) und [Blaupausen](https://en.wikipedia.org/wiki/Blueprint). Diese Zeichnungen enthalten in der Regel nicht nur die Zeichnung selbst, sondern auch viele Anmerkungen, wie Text, Maße, Zahlen und Symbole, die anderen Menschen helfen, zu verstehen, was und wie getan werden muss.
 
@@ -13,32 +13,33 @@ Sobald die Zeichnungsblätter vollständig sind, können sie gedruckt oder als [
 
 In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuhlmodells aus der [FreeCAD-Bibliothek](https://github.com/FreeCAD/FreeCAD-library) (Industrial Design → Chairs → IkeaLikeChair) erstellt wird. Die FreeCAD-Bibliothek kann einfach zu Deiner FreeCAD-Installation hinzugefügt werden (siehe das [FreeCAD installieren](Installing/de.md) Kapitel dieses Handbuchs), oder Du kannst einfach das Modell auf der Bibliothekswebseite oder über die direkten Verknüpfung am Ende dieses Kapitels herunterladen.
 
-![](images/Exercise_TechDraw_01.svg )
+![](images/Exercise_TechDraw_01.png )
 
--   Lade die IkeaÄhnlicherStuhl Datei aus der Bibliothek. Du kannst wählen zwischen der .[FCStd](File_Format_FCStd/de.md) Version, die die komplette Modellierungshistorie enthält, oder die .[step](STEP/de.md) Version, die nur ein Objekt ohne die Historie enthält. Da wir nicht weiter modellieren wollen, ist es das Beste, die .step Version zu wählen, da sie einfacher zu bearbeiten ist.
+-   Wir laden die Datei IkeaLikeChair aus der Bibliothek. Wir können wählen zwischen der .[FCStd](File_Format_FCStd/de.md)-Version, die die komplette Modellierungshistorie enthält, oder die .[step](STEP/de.md)-Version, die nur ein Objekt ohne die Historie enthält. Da wir nicht weitermodellieren wollen, ist es das Beste, die .step-Version auszuwählen, da sie einfacher zu bearbeiten ist.
 
 ![](images/Parts_library.jpg )
 
--   Wechsle zum <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md)
--   Drücke die <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:16px;"> [SeitenVorlage](TechDraw_PageTemplate/de.md) Schaltfläche
--   Wähle die **A4_Hochformat_ISO 7200TD** Vorlage. Ein neuer Reiter öffnet sich im Deinem FreeCAD Fenster und zeigt die neue Seite.
--   Wähle in der [Baumansicht](tree_view/de.md) (oder dem Modell Reiter) das Stuhlmodell. Es wird höchstwahrscheinlich so etwas wie \"Open CASCADE STEP Übersetzer\" genannt werden.
--   Drücke die <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> [Ansicht](TechDraw_View/de.md)-Schaltfläche.
--   Ein Ansichtsobjekt wird auf unserer Seite erstellt. Wähle das Ansichtsobjekt in der Baumansicht aus, und gib der Ansicht dann die folgenden [Eigenschaften](TechDraw_View/de#Properties.md) im Datenreiter der Combo-Ansicht:
-    -   Unter der Basiskategorie:
+-   Zum Arbeitsbereich <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/de.md) wechseln.
+-   Die Schaltfläche <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:16px;"> [Neues Zeichnungsblatt aus einer Vorlage erstellen](TechDraw_PageTemplate/de.md) drücken
+-   Die Vorlage **A4_Hochformat_ISO 7200TD** auswählen. Ein neuer Reiter öffnet sich im FreeCAD-Fenster und zeigt das neue Zeichnungsblatt.
+-   In der [Baumansicht](tree_view/de.md) (oder dem Reiter Modell) das Stuhlmodell auswählen. Es wird höchstwahrscheinlich so etwas wie \"Open CASCADE STEP Übersetzer\" genannt werden.
+-   Die Schaltfläche <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> [Ansicht einfügen](TechDraw_View/de.md) drücken.
+-   Ein Ansichtsobjekt wird auf unserem Blatt erstellt. Das Ansichtsobjekt in der Baumansicht auswählen, und der Ansicht dann die folgenden [Eigenschaften](TechDraw_View/de#Properties.md) im Datenreiter der Combo-Ansicht anpassen:
+
+-   -   In der Kategorie Basis:
         -   X: 70 mm
         -   Y: 120 mm
         -   Drehung: 0
-        -   Maßstab: 0.1
-    -   Unter der Projektionskategorie (klicke auf den Aufklapppfeil, um die x-, y- und z-Komponenten dieser Eigenschaften einzeln zu ändern):
+        -   Maßstab: 0,1
+    -   In der Kategorie Projection (auf den Aufklapppfeilklicken, um die x-, y- und z-Komponenten dieser Eigenschaften einzeln zu ändern):
         -   Richtung: \[0 0 1\]
-        -   XRichtung: \[0 -1 0\] (Ändere zuerst das y-Feld, dann das x-Feld)
--   Wir haben jetzt eine hübsche Draufsicht auf unseren Stuhl. Drücke die <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> [UmschaltenRahmen](TechDraw_ToggleFrame/de.md)-Schaltfläche, um die Ansichtsrahmen, Beschriftungen und Knoten auszuschalten.
+        -   XRichtung: \[0 -1 0\] (Zuerst das y-Feld ändern, dann das x-Feld)
+-   Wir haben jetzt eine hübsche Draufsicht auf unseren Stuhl. Die Schaltfläche <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> [Ansichtsrahmen ein- oder ausschalten](TechDraw_ToggleFrame/de.md), um die Ansichtsrahmen, Beschriftungen und Knoten auszuschalten.
 
 ![](images/Exercise_drawing_02.jpg )
 
--   Lass uns diese Operation zweimal wiederholen, um zwei weitere Ansichten zu erstellen. Wir werden die X und Y Werte setzen, die die Position der Ansicht auf der Seite angibt, um sie getrennt von der Draufsicht anzuzeigen, und ihre Richtung, um verschiedene Ansichtsausrichtungen zu erstellen. Gib jeder neuen Ansicht die folgenden Eigenschaften:
-    -   View001 (Frontansicht): X: 70, Y: 220, Maßstab: 0.1, Drehung: 0, Richtung: (0,-1,0)
+-   Lasst uns diesen Arbeitsschritt zweimal wiederholen, um zwei weitere Ansichten zu erstellen. Wir werden ihre X- und Y-Werte eingeben, die die Position der Ansicht auf der Seite angeben, um sie getrennt von der Draufsicht anzuzeigen und ihre Richtung, um verschiedene Ansichtsausrichtungen zu erstellen. Dazu für jede neuen Ansicht die folgenden Eigenschaften eingeben:
+    -   View001 (Vorderansicht): X: 70, Y: 220, Maßstab: 0.1, Drehung: 0, Richtung: (0,-1,0)
     -   View002 (Seitenansicht): X: 150, Y: 220, Maßstab: 0.1, Drehung: 0, XRichtung: (1,0,0)
 -   Danach erhalten wir die folgende Seite:
 
@@ -46,7 +47,7 @@ In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuh
 
 -   Beachte, dass es möglicherweise einfachere Wege gibt, die gewünschten Ansichten zu bekommen. Du kannst einfach [rotieren](Manual:Navigating_in_the_3D_view/de.md) die 3D-Ansicht deines Modells drehen und sobald du die gewünschte Ansicht hast, wähle das Modell in der Baumansicht aus und drücke <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> Neue Ansicht. Dadurch wird automatisch eine Ansicht mit den gewünschten Rotations- und Richtungseigenschaften eingefügt. Du kannst auch das <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:16px;"> [Projektionsgruppe](TechDraw_ProjectionGroup/de.md)-Werkzeug verwenden.
 
--   Wir können den Aspekt unserer Ansichten optimieren, wenn wir wollen, z.B. können wir ihre **Linienbreite** Eigenschaft (unter dem Ansichtsreiter in der Combo Ansicht) auf 0.5 ändern.
+-   Wir können die Darstellung unserer Ansichten optimieren, wenn wir wollen, z.B. können wir ihre Eigenschaft **Linienbreite** (unter dem Reiter Ansicht in der Combo-Ansicht) auf 0.5 ändern.
 
 Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gibt zwei Arten, Bemaßungen zu einem Modell hinzuzufügen: Eine ist, die Bemaßungen mit dem <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [Abmessung](Draft_Dimension/de.md) Werkzeug des [Entwurf Arbeitsbereich](Draft_Workbench/de.md) im 3D-Modell zu platzieren und dann mit dem <img alt="" src=images/TechDraw_DraftView.svg  style="width:16px;"> [Entwurfsansicht](TechDraw_DraftView/de.md)-Werkzeug (das mit einer Bemaßung oder einer Gruppe, die Bemaßungen enthält, benutzt werden kann) eine Ansicht dieser Bemaßungen auf unsererem Blatt zu platzieren, oder wir können mit dem [Zeichnungsbemaßungs Arbeitsbereich](https://github.com/hamish2014/FreeCAD_drawing_dimensioning), der aus den [FreeCAD Erweiterungen](https://github.com/FreeCAD/FreeCAD-addons) installierbar ist, Dinge direkt auf dem Zeichenblatt tun. Wir werden hier die letztere Methode benutzen.
 
@@ -56,27 +57,27 @@ Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gib
 
 ![](images/Exercise_TechDraw_05.png )
 
--   Wiederhole den Vorgang, bis alle Maße, die du angeben möchtest, platziert sind. Verwende die Werkzeuge <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> [TechDraw MaßVertikal](TechDraw_VerticalDimension/de.md) und <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> [TechDraw MaßHorizontal](TechDraw_HorizontalDimension/de.md) nach Bedarf.
--   Nimm dir eine Minute Zeit, um dir die [Eigenschaften](TechDraw_LengthDimension/de#Eigenschaften.md) des Dimension-Objekts in der Combo-Ansicht anzusehen.
--   Bitte beachte, dass bei dem Bemaßen einer [axonometrischen](https://en.wikipedia.org/wiki/Axonometric_projection) Ansicht (z.B. isometrische Ansicht) anstelle einer Ansicht der [Mehrfachansicht](https://en.wikipedia.org/wiki/Multiview_projection) (z.B. Vorderansicht), wie wir es hier getan haben, du das Werkzeug <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:16px;"> [MaßVerknüpfen](TechDraw_LinkDimension/de.md) verwenden musst, um die wahre Länge (anstatt der projizierten Länge) als Maß(zahl) zu erhalten.
+-   Den Vorgang wiederholen, bis alle Maße, die angeben werden sollen, positioniert sind. Nach Bedarf die Werkzeuge <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> [Vertikales Maß einfügen](TechDraw_VerticalDimension/de.md) und <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> [Horizontales Maß einfügen](TechDraw_HorizontalDimension/de.md) einsetzen.
+-   Wir nehmen uns einen Moment, um die [Eigenschaften](TechDraw_LengthDimension/de#Eigenschaften.md) des Dimension-Objekts in der Combo-Ansicht anzusehen.
+-   Bitte beachten, dass bei dem Bemaßen einer [axonometrischen](https://en.wikipedia.org/wiki/Axonometric_projection) Ansicht (z.B. isometrische Ansicht) anstelle einer Ansicht der [Mehrfachansicht](https://en.wikipedia.org/wiki/Multiview_projection) (z.B. Vorderansicht), wie wir es hier getan haben, das Werkzeug <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:16px;"> [Maß mit 3D-Geometrie verknüpfen](TechDraw_LinkDimension/de.md) eingesetzt werden muss, um die wahre Länge (anstatt der projizierten Länge) als Maß(zahl) zu erhalten.
 
 ![](images/Exercise_TechDraw_07.png )
 
--   Wir werden nun die beiden in der obigen Abbildung gezeigten Aufrufe unter Verwendung des <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [Stücklistensymbol](TechDraw_Balloon/de.md) Werkzeugs platzieren.
+-   We will now place the two callouts shown in the image above, using the <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [TechDraw Balloon](TechDraw_Balloon.md) tool.
 
 ![](images/Exercise_TechDraw_06.png )
 
-1.  Beim Betrachten der Seite im [Baumansicht](3D_view/de.md) Fenster, wähle die Ansicht, an die das Stücklistensymbol angehängt wird, wie in der Abbildung oben gezeigt.
-2.  Drücke die <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> Stücklistensymbol Schaltfläche.
-3.  Der Mauszeiger wird jetzt als Stücklistensymbol angezeigt. Klicke auf die Seite, um den Stücklistensymbolursprung an der gewünschten Position zu platzieren.
-4.  Die Stücklistensymbolblase kann an die gewünschte Position gezogen werden.
-5.  Ändere die Stücklistensymboleigenschaften durch Doppelklicken auf die Stücklistensymbolbeschriftung oder das Stücklistensymbolobjekt in der [Baumansicht](Tree_view/de.md). Dadurch wird der Stücklistensymbol Aufgabendialog geöffnet. Setze das Wert Feld auf den gewünschten Text und ändere die Symbol Ausklappmenüauswahl auf **Kein**.
-6.  Drücke **OK**
-7.  Wiederhole den Vorgang für den zweite Aufruf.
+1.  Looking at the Page in the [3D view](3D_view.md) window, select the View to which the Balloon will be attached, as shown in the image above.
+2.  Press the <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> Balloon button.
+3.  The cursor is now displayed as a balloon icon. Click on the page to place the balloon origin at the desired position.
+4.  The balloon bubble may be dragged to the desired position.
+5.  Change the balloon properties by double-clicking the balloon label or the balloon object in the [tree view](Tree_view.md). This will open the Balloon Task dialog. Set the Value field to the desired text and change the Symbol drop-down menu selection to **None**
+6.  Press **OK**
+7.  Repeat the operation for the second callout.
 
--   Wir werden nun das Blatttitelfeld ausfüllen.
-    -   Stelle sicher, dass die Ansichtsrahmen, Beschriftungen und Knoten sichtbar sind. Wenn dies nicht der Fall ist, drücke die <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;">-Umschalttaste.
-    -   Bearbeite den Text in jedem Abschnitt des Blatttitelblocks, indem du auf das kleine grüne Quadrat auf der linken Seite des Textes klickst.
+-   We will now fill in the sheet title block.
+    -   Make sure that the View frames, labels, and vertices are visible. If not, hit the <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> Toggle button.
+    -   Edit the text in each section of the sheet title block by clicking on the small green square on the left side of the text.
 
 Unsere Seite kann nun ins SVG für eine weitere Verarbeitung in grafischen Anwendungen wie [Inkscape](http://www.inkscape.org) oder ins DXF exportiert werden. Wähle die Seite in der [Baumansicht](Tree_view/de.md) und wähle dann Menü **Datei → Export**. Das DXF-Format ist in fast allen vorhandenen 2D CAD Anwendungen importierbar. TechDraw-Seiten können auch direkt gedruckt oder in PDF exportiert werden.
 

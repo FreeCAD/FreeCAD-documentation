@@ -467,6 +467,30 @@ Profil łączony → Profil z zazębiającym się przedłużeniem, ten efekt ko�
 </div>
 
 
+<div class="mw-collapsible mw-collapsed">
+
+### Składanie obiektu <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> 
+
+
+<div class="mw-collapsible-content toccolours">
+
+Składany obiekt jest wynikiem wygięcia blachy na danej linii.
+
+Zmień właściwość **Pozycja**, aby kontrolować położenie zagięcia względem linii zagięcia.
+
+<img alt="" src=images/SheetMetal_Example-10o.png  style="width:600px;">
+
+
+
+*Przekrój gięcia: Linia gięcia leży na górnej powierzchni półfabrykatu ''(kolor czarny)'' z 10 mm odsunięciem od krawędzi, jej położenie zaznaczono pięciokątem. Określa ona również wirtualne przecięcie półfabrykatu i wygiętej ścianki.*
+
+
+</div>
+
+
+</div>
+
+
 
 ---
 ⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Examples/pl

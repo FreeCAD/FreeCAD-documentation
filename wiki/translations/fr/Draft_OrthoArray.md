@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft OrthoArray
    Name/fr: Draft Réseau orthogonal
-   MenuLocation: Modification , Outils pour les réseaux , Réseau
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Modification , Outils pour les réseaux , Réseau orthogonal<br><br>BIM : Modification , Réseau orthogonal
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Version: 0.19
    SeeAlso: Draft_PolarArray/fr, Draft_CircularArray/fr, Draft_PathArray/fr, Draft_PathLinkArray/fr, Draft_PointArray/fr, Draft_PointLinkArray/fr
 ---
@@ -14,7 +14,7 @@
 
 La commande <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Draft Réseau orthogonal** crée un réseau orthogonal (3 axes) à partir d\'un objet sélectionné. La commande peut éventuellement créer un réseau de liens [Link](App_Link/fr.md), plus efficace qu\'un réseau normal.
 
-Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
+Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier BIM](BIM_Workbench/fr.md).
 
 <img alt="" src=images/Draft_Array_example.png  style="width:300px;"> 
 *Un Draft réseau orthogonal*
@@ -23,15 +23,16 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 
 ## Utilisation
 
-1.  Sélectionner un objet au choix.
+1.  Sélectionnez un objet.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_OrthoArray.svg" width=16px> [Réseau](Draft_OrthoArray/fr.md)**.
-    -   Sélectionnez l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_OrthoArray.svg" width=16px> Réseau** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Draft_OrthoArray.svg" width=16px> [Réseau orthogonal](Draft_OrthoArray/fr.md)**.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionnez l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_OrthoArray.svg" width=16px> Réseau orthogonal** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionnez l\'option **Modification → <img src="images/Draft_OrthoArray.svg" width=16px> Réseau orthogonal** du menu.
 3.  Le panneau de tâches **Réseau orthogonal** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet.
 5.  Saisissez les paramètres requis dans le panneau des tâches.
 6.  Pour terminer la commande, effectuez l\'une des opérations suivantes :
-    -   Cliquez dans la [Vue 3D](3D_view/fr.md).
+    -   Cliquez dans la [vue 3D](3D_view/fr.md).
     -   Appuyez sur **Entrée**.
     -   Appuyez sur le bouton **OK**.
 
@@ -44,7 +45,7 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 -   Appuyez sur le bouton **Réinitialiser X, Y ou Z** pour réinitialiser le déplacement dans la direction donnée aux valeurs par défaut.
 -   Si la case **Union** est cochée, les éléments qui se chevauchent dans le réseau sont fusionnés. Cela ne fonctionne pas pour les réseaux de liens.
 -   Si la case **Lier un réseau** est cochée, un réseau de liens est créé au lieu d\'un réseau normal. Un réseau de liens est plus efficace car ses éléments sont des objets [App Link](App_Link/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande en cours.
+-   Appuyez sur **Échap** ou sur le bouton **Annuler** pour annuler la commande en cours.
 
 
 
@@ -122,9 +123,9 @@ Les propriétés de ce groupe sont cachées pour les réseaux orthogonaux et les
 
 -    **Base|Link**: spécifie l\'objet à dupliquer dans le réseau.
 
--    **Count|Integer**: (en lecture seule) spécifie le nombre total d\'éléments dans le réseau. {{VersionMinus/fr|0.20}} : uniquement disponible pour les réseaux Link.
+-    **Count|Integer**: (en lecture seule) spécifie le nombre total d\'éléments dans le réseau.
 
--    **Expand Array|Bool**: spécifie s\'il faut développer le réseau dans la [vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type Link.
+-    **Expand Array|Bool**: spécifie s\'il faut développer le réseau dans la [vue en arborescence](Tree_view/fr.md) pour permettre la sélection de chaque élément. Disponible uniquement pour les réseaux de type Link.
 
 -    **Fuse|Bool**: spécifie si les éléments qui se chevauchent dans le réseau sont fusionnés ou non. Non utilisé pour les réseaux de type Link.
 

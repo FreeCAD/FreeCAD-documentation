@@ -1,7 +1,13 @@
 # Arch 3DS/tr
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
 Yapı tezgahı [3DS](https://en.wikipedia.org/wiki/.3ds) dosyalarının alınmasını destekler. 3DS formatı eski fakat internette hala yaygın olarak kullanılıyor. Ağ verisi ve malzeme bilgisi içerebilir. Şu anda, dosyada bulunan mesh nesnelerini FreeCAD mesh nesneleri olarak içe aktarır ancak henüz malzeme desteği sunmuyor.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -13,6 +19,11 @@ Yapı tezgahı [3DS](https://en.wikipedia.org/wiki/.3ds) dosyalarının alınmas
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch 3DS/tr
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > Arch 3DS/tr

@@ -47,9 +47,13 @@ Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
 
 3\. Use the XML Editor to add a \"freecad\" namespace clause to the `<svg>` item.
 
-:   xmlns:freecad="[http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace](http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace)"
+-    {{VersionMinus|0.20}}: xmlns:freecad="[http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace](http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace)"
 
-Note that your editable texts will *not* work if you use \"<https://>\...\", even though the wiki is reached via https these days. Since SVG is a human readable format you could also enter the line above into the file with a text editor. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
+:   Note that your editable texts will *not* work if you use \"<https://>\...\", even though the wiki is reached via https these days.
+
+-    <small>(v0.21)</small> : xmlns:freecad="[https://www.freecad.org/wiki/index.php?title=Svg_Namespace](https://www.freecad.org/wiki/index.php?title=Svg_Namespace)"
+
+Since SVG is a human readable format you can also enter the line above into the file with a text editor. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
 *align=center|Inkscape: XML Editor adding the "freecad" namespace clause to the <svg> item* 
 
 ## Create template drawing 

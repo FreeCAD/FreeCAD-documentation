@@ -10,14 +10,21 @@
 
 # Spreadsheet Export/pl
 
+
+
 ## Opis
 
-Narzędzie **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Eksportuj](Spreadsheet_Export/pl.md)** pozwala wyeksportować dane arkusza kalkulacyjnego do pliku w formacie CSV, które można następnie otworzyć i wykorzystać w innych aplikacjach. Zwróć uwagę, że domyślnym separatorem pól jest znak {{Incode|tabulacji}}, a nie {{Incode|przecinek}}. Można to jednak zmienić w [ustawieniach](Spreadsheet_Preferences/pl.md). *({{Version/pl|0.20}})*
+Narzędzie <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> 
+**Arkusz Kalkulacyjny: Eksportuj** eksportuje arkusz kalkulacyjny do pliku w formacie CSV, który można wykorzystać w innych aplikacjach. Zwróć uwagę, że domyślnym separatorem pól jest znak {{Incode|tabulacji}}, a nie {{Incode|przecinek}}. Można to jednak zmienić w [ustawieniach](Spreadsheet_Preferences/pl.md). *({{Version/pl|0.20}})*
+
+
 
 ## Użycie
 
-1.  Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md)**, aby przycisk był dostępny.
-2.  Naciśnij przycisk **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [eksportuj](Spreadsheet_Export/pl.md)**.
+1.  Upewnij się, że jest aktywny [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md).
+2.  Istnieje kilka sposobów wywołania tego narzędzia:
+    -   Naciśnij przycisk **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Eksportuj arkusz kalkulacyjny](Spreadsheet_Export/pl.md)**.
+    -   Wybierz opcję **Arkusz Kalkulacyjny → [<img src=images/Spreadsheet_Export.svg style="width:16px"> Eksportuj arkusz kalkulacyjny** z menu.
 
 
 

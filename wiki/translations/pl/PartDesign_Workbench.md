@@ -7,17 +7,15 @@
 
 ## Wprowadzenie
 
-<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">[PartDesign](PartDesign_Workbench/pl.md) oferuje zaawansowane narzędzia do modelowania złożonych części brył. Głównie skupia się on na tworzeniu części mechanicznych, które mogą być produkowane i montowane w gotowy produkt. Niemniej jednak, utworzone bryły mogą być wykorzystywane ogólnie do wszelkich innych celów, takich jak [projekt architektoniczny](Arch_Workbench/pl.md), [analiza elementów skończonych](FEM_Workbench/pl.md) lub [obróbka CNC i drukowanie 3D](Path_Workbench/pl.md).
+Środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> **Projekt Części** zapewnia zaawansowane narzędzia do modelowania komponentów bryłowych. Koncentruje się głównie na tworzeniu komponentów mechanicznych, które mogą być wytwarzane i składane w gotowy produkt. Niemniej jednak, utworzone bryły mogą być wykorzystywane do innych celów, takich jak: [projekt BIM](BIM_Workbench/pl.md), [analiza MES](FEM_Workbench/pl.md) lub [obróbka CNC i druk 3D](Path_Workbench/pl.md).
 
-Środowisko pracy Projekt Części jest nierozerwalnie związane ze środowiskiem pracy [Szkicownik](Sketcher_Workbench/pl.md). Użytkownik zazwyczaj tworzy szkic, następnie używa narzędzia [Wyciągnij](PartDesign_Pad/pl.md), aby go wytłoczyć i utworzyć bryłę podstawową, a następnie modyfikuje tę bryłę.
+Środowisko pracy Projekt Części korzysta z podejścia opartego o cechy. Komponent jest reprezentowany przez kontener Zawartość. Definiuje on lokalny układ współrzędnych i zawiera kumulatywne cechy, które definiują komponent. Cechy są w większości oparte o parametryczne szkice i mogą być addytywne (dodające materiał) lub subtraktywne (odejmujące materiał). Przykładowo narzędzie [Wyciągnij](PartDesign_Pad/pl.md) dodaje wyciągany szkic do tworzonej bryły zaś narzędzie [Kieszeń](PartDesign_Pocket/pl.md) odejmuje wyciągany szkic. Każda cecha jest kumulatywna i budowana na wyniku poprzednich cech. Możliwe jest też używanie prymitywów ([Walec](PartDesign_AdditiveCylinder/pl.md), [Sfera](PartDesign_AdditiveSphere/pl.md) itd.) jak i brył tworzonych poza Zawartością jako cechy.
 
-Podczas gdy środowisko <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) opiera się na [konstruktywnej geometrii bryły](constructive_solid_geometry/pl.md) *(CSG)* dla budowania kształtów, Projekt Części wykorzystuje metodę edycji parametrów i funkcji, co oznacza, że bryła podstawowa jest kolejno przekształcana przez dodanie elementów na górze, aż do uzyskania ostatecznego kształtu. Zobacz stronę [funkcje edycji](Feature_editing/pl.md), aby uzyskać pełniejsze wyjaśnienie tego procesu, a następnie zobacz [Tworzenie prostej części w środowisku Projekt Części](Creating_a_simple_part_with_PartDesign/pl.md), aby rozpocząć tworzenie brył.
+Zobacz stronę [Edycja cech](Feature_editing/pl.md) aby znaleźć bardziej kompletne wyjaśnienie tego procesu a następnie zobacz stronę [Projekt Części: tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md) aby rozpocząć pracę z tworzeniem brył.
 
-Bardziej szczegółowa dyskusja na temat środowisk Part kontra Part Design znajduje się tutaj: [Część i Projekt części](Part_and_PartDesign/pl.md).
+Środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Część](Part_Workbench/pl.md) zapewnia alternatywne podejście oparte o metologię [constructive solid geometry](constructive_solid_geometry/pl.md) (CSG) do tworzenia kształtów. Szczegółowe porównanie środowisk pracy Część i Projekt Części można znaleźć na stronie [Część i Projekt Części](Part_and_PartDesign/pl.md).
 
-Korpusy utworzone w PartDesign często podlegają [problemom nazewnictwa według kolejności chronologicznej](topological_naming_problem.md), co powoduje zmianę nazw wewnętrznych cech podczas modyfikacji operacji parametrycznych. Problem ten można zminimalizować stosując najlepsze praktyki opisane na stronie [edycja funkcji](feature_editing.md) oraz wykorzystując obiekty odniesienia jako wsparcie dla szkiców i funkcji.
-
-<img alt="" src=images/PartDesign_Example.png  style="width:500px;">
+![](images/PartDesign_Workbench_Example.jpg )
 
 
 
@@ -27,27 +25,40 @@ Narzędzia Part Design znajdują się w menu **Part Design** oraz na pasku narz�
 
 
 
-### Narzędzia organizujące strukturę dokumentu 
-
-Są to narzędzia, które nie są częścią Środowiska pracy **PartDesign**. Należą one do systemu [Std Base](Std_Base/pl.md). Zostały one opracowane w wersji **0.17** z zamiarem zorganizowania modelu i utworzenia [złożeń](Assembly.md). Jako takie, są bardzo przydatne przy pracy z bryłami stworzonymi przy pomocy tego stołu roboczego.
-
--   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Stwórz nową część \...](Std_Part/pl.md): dodaje kolejną pozycję części na drzewku do aktywnego dokumentu i czyni ją aktywną.
-
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Utwórz nową grupę \...](Std_Group.md): dodaje do aktywnego dokumentu pozycję grupy, co pozwala uporządkować obiekty w [widoku drzewa](Tree_view/pl.md).
-
-
-
 ### Narzędzia pomocnicze 
 
 -   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Stwórz nową zawartość \...](PartDesign_Body/pl.md): Tworzy obiekt [Body](Body.md) w aktywnym dokumencie i czyni go aktywnym.
 
--   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Utwórz nowy szkic](PartDesign_NewSketch.md): tworzy nowy szkic na wybranej ścianie lub płaszczyźnie. Jeśli podczas uruchamiania tego narzędzia nie zostanie wybrana żadna twarz, użytkownik zostanie poproszony o wybranie płaszczyzny z panelu Zadania. Następnie interfejs przełącza się na Środowisko pracy [Sketcher](Sketcher_Workbench/pl.md) w trybie edycji szkicu.
+-   <img alt="" src=images/PartDesign_NewSketch.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Utwórz szkic:
 
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Edycja wybranego szkicu](Sketcher_EditSketch/pl.md): Uruchamia edycje szkicu wybranego na drzewku modelu.
+  -<img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Utwórz szkic](PartDesign_NewSketch/pl.md): tworzy nowy szkic na wybranej ścianie lub płaszczyźnie. Jeśli podczas uruchamiania tego narzędzia nie zostanie wybrana żadna ściana, użytkownik zostanie poproszony o wybranie płaszczyzny z panelu zadań. Następnie interfejs przełącza się na Środowisko pracy [Szkicownik](Sketcher_Workbench/pl.md) w trybie edycji szkicu.
 
--   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Mapuj szkic na powierzchnię](Sketcher_MapSketch/pl.md): mapuje szkic do wcześniej wybranej płaszczyzny lub ściany aktywnej bryły.
+  - <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Mapuj szkic na powierzchnię](Sketcher_MapSketch/pl.md): dołącza szkic do geometrii wybranej z aktywnej bryły.
+
+  - <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Edycja wybranego szkicu](Sketcher_EditSketch/pl.md): Otwiera wybrany szkic do edycji.
 
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md): Sprawdza odchylenia różnych punktów i dopasowuje je.
+
+-   <img alt="" src=images/Part_CheckGeometry.svg  style="width:32px;"> [Sprawdź geometrię](Part_CheckGeometry/pl.md): sprawdza geometrię wybranych obiektów pod kątem błędów.
+
+-   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Utwórz łącznik kształtu](PartDesign_ShapeBinder/pl.md): tworzy łącznik kształtu odwołujący się do geometrii z jednego obiektu nadrzędnego.
+
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Utwórz łącznik kształtów podrzędnych](PartDesign_SubShapeBinder/pl.md): tworzy łącznik kształtu odwołujący się do geometrii z jednego lub więcej obiektów nadrzędnych.
+
+-   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Stwórz nowego klona](PartDesign_Clone.md): tworzy klon wybranej bryły.
+
+-   <img alt="" src=images/PartDesign_Plane.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Utwórz punkt odniesienia (
+
+  -<img alt="" src=images/PartDesign_Plane.svg  style="width:32px;"> [Utwórz nową płaszczyznę odniesienia](PartDesign_Plane.md): tworzy płaszczyznę odniesienia w aktywnej części bryły. ({{VersionMinus/pl|1.0}})
+
+  -<img alt="" src=images/PartDesign_Line.svg  style="width:32px;"> [Utwórz nowa linię odniesienia](PartDesign_Line.md): tworzy linię odniesienia w aktywnej części bryły. ({{VersionMinus/pl|1.0}})
+
+  -<img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Utwórz nowy punkt odniesienia](PartDesign_Point.md): tworzy punkt odniesienia w aktywnej części bryły. ({{VersionMinus/pl|1.0}})
+
+  -<img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Utwórz lokalny system współrzędnych](PartDesign_CoordinateSystem.md): tworzy lokalny układ odniesienia połączony z geometrią punktu odniesienia w aktywnej bryle. ({{VersionMinus/pl|1.0}})
+
+:   
+    {{Version/pl|1.1}}: te narzędzia zostały zastąpione nowymi [narzędziami do geometrii pomocniczych](Std_Base/pl#Part_Datums.md).
 
 
 
@@ -55,39 +66,21 @@ Są to narzędzia, które nie są częścią Środowiska pracy **PartDesign**. N
 
 
 
-#### Narzędzia odniesienia 
-
--   <img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Utwórz nowy punkt odniesienia](PartDesign_Point.md): tworzy punkt odniesienia w aktywnej części bryły. {{Version/pl|0.17}}
-
--   <img alt="" src=images/PartDesign_Line.svg  style="width:32px;"> [Utwórz nowa linię odniesienia](PartDesign_Line.md): tworzy linię odniesienia w aktywnej części bryły.
-
--   <img alt="" src=images/PartDesign_Plane.svg  style="width:32px;"> [Utwórz nową płaszczyznę odniesienia](PartDesign_Plane.md): tworzy płaszczyznę odniesienia w aktywnej części bryły.
-
--   <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Utwórz lokalny system współrzędnych](PartDesign_CoordinateSystem.md): tworzy lokalny układ odniesienia połączony z geometrią punktu odniesienia w aktywnej bryle.
-
--   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Utwórz spoiwo kształtu.](PartDesign_ShapeBinder/pl.md): tworzy spoiwo kształtu odwołujące się do geometrii z jednego obiektu nadrzędnego.
-
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Utwórz spoiwo do elementu podrzędnego](PartDesign_SubShapeBinder/pl.md): tworzy spoiwo kształtu odwołujące się do geometrii z jednego lub więcej obiektów nadrzędnych.
-
--   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Stwórz nowego klona](PartDesign_Clone.md): tworzy klon wybranej bryły.
-
-
-
 #### Narzędzia dodawania nowych elementów 
 
-Są to narzędzia do tworzenia podstawowych właściwości lub dodawania materiału do istniejącej bryły.
+Są to narzędzia do tworzenia elementów bazowych lub dodawania materiałów do istniejącej bryły.
 
 -   <img alt="" src=images/PartDesign_Pad.png  style="width:32px;"> [Wyciągnij wybrany szkic](PartDesign_Pad.md): wybrany szkic wyciąga do bryły.
 
 -   <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Wyciągnij przez obrót \...](PartDesign_Revolution.md): tworzy bryłę, obracając szkic wokół osi. Szkic musi tworzyć profil zamknięty.
 
--   <img alt="" src=images/PartDesign_Additive_Loft.svg  style="width:32px;"> [Lofuj wybrany profil \...](PartDesign_AdditiveLoft.md): tworzy bryłę, dokonując połączenia między dwoma lub więcej szkicami.
+-   <img alt="" src=images/PartDesign_AdditiveLoft.svg  style="width:32px;"> [Lofuj wybrany profil \...](PartDesign_AdditiveLoft.md): tworzy bryłę, dokonując połączenia między dwoma lub więcej szkicami.
 
--   <img alt="" src=images/PartDesign_Additive_Pipe.svg  style="width:32px;"> [Rozciągnij wybrany rysunek wzdłuż ścieżki \...](PartDesign_AdditivePipe.md): tworzy bryłę poprzez przeciągnięcie jednego lub więcej szkiców wzdłuż otwartej lub zamkniętej ścieżki.
+-   <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:32px;"> [Rozciągnij wybrany rysunek wzdłuż ścieżki \...](PartDesign_AdditivePipe.md): tworzy bryłę poprzez przeciągnięcie jednego lub więcej szkiców wzdłuż otwartej lub zamkniętej ścieżki.
 
 -   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Addytywna helisa](PartDesign_AdditiveHelix/pl.md): tworzy bryłę poprzez przeciągnięcie szkicu wzdłuż helisy.
 
--   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Utwórz bryłę pierwotną do dodania](PartDesign_CompPrimitiveAdditive.md): dodaje do aktywnej bryły dodatek w postaci elementu pierwotnego.
+-   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Utwórz bryłę pierwotną do dodania:
 
   -<img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Addytywny sześcian](PartDesign_AdditiveBox.md): dodaje do aktywnej bryły dodatek w postaci kostki.
 
@@ -123,7 +116,7 @@ Są to narzędzia do odejmowania materiału z istniejącej bryły.
 
 -   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Subtraktywna helisa](PartDesign_SubtractiveHelix/pl.md): tworzy bryłę przez przeciągnięcie szkicu wzdłuż helisy i odejmuje ją od aktywnej bryły.
 
--   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Utwórz bryłę pierwotną do odjęcia](PartDesign_CompPrimitiveSubtractive.md): dodaje ubytek w kształcie elementu pierwotnego.
+-   <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Utwórz bryłę pierwotną do odjęcia:
 
   -<img alt="" src=images/PartDesign_Subtractive_Box.svg  style="width:32px;"> [Subtraktywny sześcian](PartDesign_SubtractiveBox.md): dodaje do aktywnej bryły ubytek w kształcie kostki.
 
@@ -143,7 +136,27 @@ Są to narzędzia do odejmowania materiału z istniejącej bryły.
 
 
 
-#### Narzędzia do przekształcania 
+#### Narzędzia do przeprowadzania operacji logicznych 
+
+-   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Operacje logiczne](PartDesign_Boolean.md): importuje jedną lub więcej brył lub klonów PartDesign do aktywnego elementu i przeprowadza operację logiczną.
+
+
+
+### Narzędzia do wykańczania 
+
+Narzędzia te umożliwiają wykonanie określonej modyfikacji krawędzi lub powierzchni.
+
+\_\*<img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [Utwórz zaokrąglenie na krawędzi](PartDesign_Fillet.md): tworzy zaokrąglenia na określonych krawędziach wybranego kształtu.
+
+-   <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [Fazuj wybrane krawędzie \...](PartDesign_Chamfer.md): tworzy fazy na wybranych krawędziach aktywnej bryły.
+
+-   <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [Utwórz szkic na obszarze](PartDesign_Draft.md): na wybrane powierzchnie aktywnej bryły stosuje szkic pod odpowiednim kątem.
+
+-   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Utwórz bryłę narzędziem grubość](PartDesign_Thickness.md): tworzy grubą powłokę z aktywnej bryły i powoduje otwarcie wybranych ścian.
+
+
+
+### Narzędzia do przekształcania 
 
 Są to narzędzia służące do przekształcania istniejących właściwości.
 
@@ -158,41 +171,21 @@ Są to narzędzia służące do przekształcania istniejących właściwości.
 
 
 
-#### Narzędzia do obróbki krawędzi 
-
-Narzędzia te umożliwiają wykonanie określonej modyfikacji krawędzi lub powierzchni.
-
-\_\*<img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [Utwórz zaokrąglenie na krawędzi](PartDesign_Fillet.md): tworzy zaokrąglenia na określonych krawędziach wybranego kształtu.
-
--   <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [Fazuj wybrane krawędzie \...](PartDesign_Chamfer.md): tworzy fazy na wybranych krawędziach aktywnej bryły.
-
--   <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [Utwórz szkic na obszarze](PartDesign_Draft.md): na wybrane powierzchnie aktywnej bryły stosuje szkic pod odpowiednim kątem.
-
--   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Utwórz bryłę narzędziem grubość](PartDesign_Thickness.md): tworzy grubą powłokę z aktywnej bryły i powoduje otwarcie wybranych ścian.
-
-
-
-#### Narzędzia do przeprowadzania operacji logicznych 
-
--   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Operacje logiczne](PartDesign_Boolean.md): importuje jedną lub więcej brył lub klonów PartDesign do aktywnego elementu i przeprowadza operację logiczną.
-
-
-
 #### Dodatki
 
 Kilka dodatkowych funkcji, które można znaleźć w menu Part Design:
 
--   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Przenieś](PartDesign_Migrate.md): migruje pliki utworzone w starszych wersjach FreeCAD. Jeśli plik jest oparty wyłącznie na funkcjach PartDesign, migracja powinna zakończyć się sukcesem. Jeśli plik zawiera mieszane obiekty Part/Part Design/Draft, konwersja najprawdopodobniej się nie powiedzie.
-
 -   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Kreator projektowania kół łańcuchowych](PartDesign_Sprocket/pl.md): tworzy profil koła zębatego, który może być użyty do wyciągnięcia.
 
--   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Kreator projektowania przekładni ewolwentowych](PartDesign_InvoluteGear/pl.md): tworzy profil koła zębatego, który może być użyty do wyciągnięcia.
+-   <img alt="" src=images/PartDesign_InvoluteGear.svg  style="width:32px;"> [Koło zębate ewolwentowe](PartDesign_InvoluteGear/pl.md): tworzy profil koła zębatego, który może być użyty do wyciągnięcia.
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Twórca wałów](PartDesign_WizardShaft.md): tworzy wał z tabeli wartości i pozwala na analizę sił i momentów. Wał jest tworzony za pomocą szkicu obrotowego, który można edytować.
 
 
 
 ### Pozycje w menu kontekstowym 
+
+-   [Wygaszony](PartDesign_Suppressed/pl.md): pole, którego zaznaczenie wyłącza daną cechę bez usuwania jej. {{Version/pl|1.0}}
 
 -   <img alt="" src=images/_PartDesign_MoveTip.svg  style="width:32px;"> [Ustaw czubek](PartDesign_MoveTip.md): pozwala na przedefiniowanie czubka, który jest elementem eksponowanym na zewnątrz korpusu.
 
@@ -206,14 +199,20 @@ Kilka dodatkowych funkcji, które można znaleźć w menu Part Design:
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Wygląd zewnętrzny](Std_SetAppearance.md): określa wygląd całej części *(przezroczystość kolor itp.)*.
 
--   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Ustaw kolor](Part_FaceColors.md): przypisuje kolory do poszczególnych powierzchni.
+-   <img alt="" src=images/Part_ColorPerFace.svg  style="width:32px;"> [Ustaw kolor ściany](Part_ColorPerFace.md): Przypisuje kolory do poszczególnych powierzchni obiektów.
+
+
+
+### Narzędzia przestarzałe 
+
+-   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Przenieś ze starszej wersji](PartDesign_Migrate/pl.md): przenosi pliki z wersji programu FreeCAD poniżej 0.17 do wersji 0.17. To narzędzie nie jest dostępne w {{VersionPlus/pl|1.0}}.
 
 
 
 ## Ustawienia
 
--   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Ustawienia](PartDesign_Preferences.md): opcje dostępne w Narzędziach PartDesign.
--   [Ustawienia drobiazgowe](Fine-tuning.md): kilka dodatkowych parametrów, aby dopracować zachowanie PartDesign.
+-   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Ustawienia](PartDesign_Preferences/pl.md): opcje dostępne w Narzędziach PartDesign.
+-   [Dostrajanie parametrów](Fine-tuning/pl.md): kilka dodatkowych parametrów, aby dopracować zachowanie PartDesign.
 
 
 
@@ -221,7 +220,7 @@ Kilka dodatkowych funkcji, które można znaleźć w menu Part Design:
 
 -   [How to use FreeCAD](http://help-freecad-jpg87.fr/), strona internetowa opisująca przebieg pracy w zakresie projektowania mechanicznego.
 -   [Projekt części: tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md).
--   [Podstawy dla Środowiska pracy Projekt Części](Basic_Part_Design_Tutorial/pl.md).
+-   [Podstawy dla Środowiska pracy Projekt Części 019](Basic_Part_Design_Tutorial_019/pl.md).
 -   [Poradnik: Projekt części uchwyt łożyska I](PartDesign_Bearingholder_Tutorial_I/pl.md) *(wymaga aktualizacji)*.
 -   [Poradnik: Projekt części uchwyt łożyska II](PartDesign_Bearingholder_Tutorial_II/pl.md) *(wymaga aktualizacji)*.
 

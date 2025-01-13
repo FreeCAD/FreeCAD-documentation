@@ -3,9 +3,9 @@
    Name: FEM MaterialEditor
    Name/it: Editor dei materiali
    MenuLocation: Modello , Materiali , Editor dei materiali
-   Workbenches: FEM_Workbench/it
-   Shortcut: 
-   SeeAlso: FEM_tutorial/it
+   Workbenches: FEM_Workbench/it, Arch_Workbench/it
+   Version: 0.18
+   SeeAlso: Arch_SetMaterial/it, FEM_tutorial/it
 ---
 
 # FEM MaterialEditor/it
@@ -20,7 +20,7 @@
 
 <div class="mw-translate-fuzzy">
 
-L\'editor dei materiali consente di modificare e salvare le informazioni contenute in un [materiale](Material.md) di FreeCAD. Attualmente tali materiali sono utilizzati dagli ambienti [FEM](FEM_Workbench/it.md) e [Arch](Arch_Workbench/it.md).
+L**\'Editor dei materiali** consente di modificare e salvare le informazioni contenute in un [Materiale di FreeCAD](Material/it.md). Attualmente tali materiali sono utilizzati dai banchi da lavoro <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/it.md) e <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/it.md).
 
 
 </div>
@@ -36,12 +36,12 @@ All\'editor dei materiale attualmente si può accedere da:
 
 <div class="mw-translate-fuzzy">
 
--   Ambiente Arch:
-    -   Dal pulsante **Edit material** del pannello di creazione dei [nuovi materiali](Arch_SetMaterial/it.md) del modulo [Arch](Arch_Workbench/it.md)
--   Ambiente FEM:
-    -   Dal menu Modello → Materiali → Material editor
-    -   Dall\'icona Material editor
--   Via python:
+1.  <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/it.md):
+    -   Il pulsante **<img src="images/Arch_SetMaterial.svg" width=16px> [Materiale](Arch_SetMaterial/it.md)**.
+    -   La voce di menu **Arch → Strumenti di materiali → <img src="images/Arch_SetMaterial.svg" width=16px> Materiale**.
+2.  <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/it.md):
+    -   Il pulsante **<img src="images/FEM_MaterialEditor.svg" width=16px> [Materiale](FEM_MaterialEditor/it.md)**.
+    -   La voce di menu **Model → Materiali → <img src="images/FEM_MaterialEditor.svg" width=16px> Editor dei Materiali**.
 
 
 </div>

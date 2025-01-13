@@ -6,9 +6,9 @@
 |Description=Cette macro crée un ressort personnalisable. Chaque tour peut modifier la configuration du ressort qui peut être enregistrée dans un fichier avec l'extension '''.FCSpring''' ou les coordonnées '''.FCSpringCoor'''.<br/>Sont détectés : surface (direction de la face), Cylindre (rayon), Ellipse (rayon mineur), Sphère (rayon), Toroïde (rayon 1), Plan (direction), Ligne (suit la direction), Point (position du sommet XYZ).<br/ > Si aucun objet n'est détecté (pas de sélection), le ressort est créé au point XYZ 0., 0., 0.<br/>Voir des [https://www.freecadweb.org/wiki/Macro_FCSpring_Helix_Variable/fr#Exemples exemples]<br/><br/>Le fichier .zip [https://forum.freecadweb.org/download/file.php?id=80844 des icônes]
 |Author=Mario52
 |Download=[https://wiki.freecad.org/images/6/69/FCSpring_Helix_Variable.png Icône de la barre d'outils]
-|Version=01.18c
-|Date=2023/09/01
-|FCVersion=0.19
+|Version=01.19
+|Date=2024/07/11
+|FCVersion=0.19 and bigger
 }}
 
 ## Description
@@ -18,7 +18,7 @@ Sont détectées : Surface (Direction de la face), Cylindre (Rayon), Ellipse (Mi
 Si aucun objet n\'est détecté (pas de sélection) le ressort est créé au point XYZ 0., 0., 0.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/3f6e4df2768f36e88af4f56af669206ff0d33e0c/Macro_FCSpring_Helix_Variable.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/91cbf54580d8af331f9b371f4951a40b9ef506f3/Macro_FCSpring_Helix_Variable.FCMacro}}
 
 <img alt="" src=images/TruncateSpring00.png  style="width:400px;"> 
 *FCSpring Helix Variable*
@@ -337,6 +337,8 @@ Modification du diamètre à chaque spire au choix : fait
 
 
 ## Versions
+
+11/07/2024 version 01.19 delete **\"import WebGui\"** replaced by **\"import webbrowser\"** and optimise filter for **OS Linux Mint**
 
 2023/09/01 Version 0.18c adding **FreeCAD.activeDocument().recompute(None,True,True)***Texte en italique* \"bug\" fixed by **Syres** thanks [How to draw polygonal spirals in Freecad?](https://forum.freecad.org/viewtopic.php?p=703568#p703568)
 

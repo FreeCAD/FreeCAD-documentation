@@ -2,7 +2,6 @@
  GuiCommand:
    Name: Std MacroStepOver
    Name/pl: Std: Krok dalej
-   Empty: 1
    MenuLocation: Makrodefinicje , Krok dalej
    Workbenches: wszystkie
    Shortcut: **F10**
@@ -21,7 +20,7 @@ To polecenie w tej chwili nie działa.
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

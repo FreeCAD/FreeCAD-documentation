@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Hatch
    Name/de: Draft Schraffur
-   MenuLocation: Entwurf , Schraffur
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Zeichnen , Schraffur<br>Anmerkung , Schraffur
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **H** **A**
    Version: 0.20
    SeeAlso: Draft_Pattern/de
@@ -15,68 +15,73 @@
 
 ## Beschreibung
 
-The <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> **Draft Hatch** command creates hatches on the planar faces of a selected object.
+Der Befehl <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> **Draft Schraffur** erzeugt Schraffuren auf den ebenen Flächen eines ausgewählten Objekts.
 
 
 
 ## Anwendung
 
-1.  Select an object with faces. Only the planar faces of the object will be hatched.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Hatch.svg" width=16px> [Hatch](Draft_Hatch.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_Hatch.svg" width=16px> Hatch** option from the menu.
-    -   Use the keyboard shortcut: **H** then **A**.
-3.  The **Hatch** task panel opens. See [Options](#Options.md) for more information.
-4.  Press the **OK** button to finish the command.
+1.  Ein Objekt mit Flächen auswählen. Nur die ebenen Flächen des Objekts werden schraffiert.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_Hatch.svg" width=16px> [Schraffur](Draft_Hatch/de.md)** drücken.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Zeichnen → <img src="images/Draft_Hatch.svg" width=16px> Schraffur** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Anmerkung → <img src="images/Draft_Hatch.svg" width=16px> Schraffur** auswählen.
+    -   Das Tastaturkürzel **H** dann **A**.
+3.  Das Aufgaben-Fenster **Schraffur** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+4.  Die Schaltfläche **OK** drücken.
 
 
 
 ## Optionen
 
--   Press the **...** button to select a **PAT file**. See [Notes](#Notes.md).
--   Select a **Pattern** from the file. It is currently advisable to avoid patterns with dashed lines.
--   Specify a **Scale** for the pattern.
--   Specify a **Rotation** for the pattern.
--   Press **Esc** or the **Cancel** button to abort the command.
+-   Die Schaltfläche **...** drücken und eine **PAT-Datei** auswählen. Siehe [Hinweise](#Hinweise.md).
+
+-    **Muster**aus der Datei wählen. Derzeit ist es ratsam, Muster mit Strichlinien zu vermeiden.
+
+-    **Maßstab**für das Muster angeben.
+
+-    **Drehung**für das Muster angeben.
+
+-    **Esc**oder die Schaltfläche **Cancel** drücken, um den Befehl abzubrechen.
 
 
 
-## Schraffurausrichtung
+## Schraffur-Ausrichtung 
 
-When the hatch pattern for a face is calculated it is temporarily translated to the global XY plane by default. For a face with straight edged the first straight edge determines how this happens. The first point of that edge is put on the origin, and the edge itself is aligned with the X-axis. If you create [Draft Wires](Draft_Wire.md) with that in mind you can control how the hatch pattern is aligned with the outline of the face.
+Wenn das Schraffurmuster für eine Fläche berechnet wird, wird es standardmäßig vorübergehend in die globale XY-Ebene übersetzt. Bei einer Fläche mit geraden Kanten bestimmt die erste gerade Kante, wie dies geschieht. Der erste Punkt dieser Kante wird auf den Ursprung gelegt und die Kante selbst wird an der X-Achse ausgerichtet. Wenn ein [Draft-Linienzug](Draft_Wire/de.md) in diesem Sinne erstellt wird, kann gesteuert werden, wie das Schraffurmuster an der Kontur der Fläche ausgerichtet wird.
 
-If all faces of the selected object are on the global XY plane you can switch off this default behavior by setting the **Translate** property of the Draft Hatch to `False`. The hatch pattern is then aligned with the origin and the X axis of the global coordinate system. For faces on the XY plane with straight edges the **Translate** property can be used to switch between absolute (on the left in the image) and relative (on the right in the image) patterns.
+Wenn alle Flächen des ausgewählten Objekts auf der globalen XY-Ebene liegen, kann dieses Standardverhalten ausgeschaltet werden, indem die Eigenschaft {{PropertyData/de|Translate}} der Draft-Schraffur auf `False` gesetzt wird. Das Schraffurmuster wird dann mit dem Ursprung und der X-Achse des globalen Koordinatensystems ausgerichtet. Für Flächen auf der XY-Ebene mit geraden Kanten kann die Eigenschaft {{PropertyData/de|Translate}} verwendet werden, um zwischen absoluten (links im Bild) und relativen (rechts im Bild) Mustern zu wechseln.
 
 <img alt="" src=images/Draft_Hatch_alignment.png  style="width:400px;"> 
 *
-Two Draft Wires with hatches.<br>
-The wires were created in a CCW direction starting from the bottom left point.<br>
-For the Draft Hatch on the left the Translate property is set to false.<br>
-For the Draft Hatch on the right it is set to true.
+Zwei Draft-Linienzüge mit Schraffur.<br>
+Die Linien wurden ausgehend vom unteren linken Punkt gegen den Uhrzeigersinn  erstellt.<br>
+Bei der Draft-Schraffur auf der linken Seite ist die Eigenschaft Translate auf false gesetzt.<br>
+Bei der Draft-Schraffur auf der rechten Seite ist sie auf true gesetzt.
 *
 
 
 
 ## Hinweise
 
--   For now the advice is to download a PAT file. Many can be found online. You can for example do a web search for **acad.pat** or **acadiso.pat**.
--   A small PAT file is installed with FreeCAD: **<program_folder>/data/Mod/TechDraw/PAT/FCPAT.pat**, where **<program_folder>** is the FreeCAD program folder:
-    -   On Linux it is usually **/usr/share/freecad**.
-    -   On Windows it is usually **C:\Program Files\FreeCAD**.
-    -   On macOS it is usually **/Applications/FreeCAD**.
+-   Für den Moment empfiehlt es sich, eine PAT-Datei herunterzuladen. Viele können online gefunden werden. Es kann zum Beispiel eine Websuche nach **acad.pat** oder **acadiso.pat** durchgeführt werden.
+-   Eine kleine PAT-Datei wird mit FreeCAD installiert: **<PROGRAMM_ORDNER>/data/Mod/TechDraw/PAT/FCPAT.pat**, wobei der **<PROGRAMM_ORDNER>** der FreeCAD-Programmordner ist:
+    -   Unter Linux ist es normalerweise **/usr/share/freecad**.
+    -   Unter Windows ist es normalerweise **C:\Program Files\FreeCAD**.
+    -   Unter macOS ist es normalerweise **/Applications/FreeCAD**.
 
 
 
 ## Einstellungen
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
-The following preferences are involved:
+Es handelt sich dabei um die folgenden Einstellungen:
 
--   PAT file: **Tools → Edit parameters... → BaseApp → Preferences → Mod → TechDraw → PAT → FilePattern**.
--   Pattern: **Tools → Edit parameters... → BaseApp → Preferences → Mod → TechDraw → PAT → NamePattern**.
--   Scale: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → HatchPatternScale**.
--   Rotation: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → HatchPatternRotation**.
+-   PAT-Datei: **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Mod → TechDraw → PAT → FilePattern**.
+-   Muster: **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Mod → TechDraw → PAT → NamePattern**.
+-   Maßstab: **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Mod → Draft → HatchPatternScale**.
+-   Drehung: **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Mod → Draft → HatchPatternRotation**.
 
 
 
@@ -84,7 +89,7 @@ The following preferences are involved:
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-A Draft Hatch object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+Ein Draft-Schraffur-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
 
 
@@ -93,25 +98,25 @@ A Draft Hatch object is derived from a [Part Feature](Part_Feature.md) object an
 
 {{TitleProperty|Hatch}}
 
--    **Base|Link**: specifies the object whose faces are hatched.
+-    {{PropertyData/de|Basis|Link}}: gibt das Objekt an, dessen Flächen schraffiert werden.
 
--    **File|File**: specifies the PAT file.
+-    {{PropertyData/de|File|File}}: gibt die PAT-Datei an.
 
--    **Pattern|String**: specifies the pattern name.
+-    {{PropertyData/de|Pattern|String}}: gibt den Namen des Musters an.
 
--    **Rotation|Angle**: specifies the rotation of the pattern.
+-    {{PropertyData/de|Rotation|Angle}}: gibt die Drehung des Musters an.
 
--    **Scale|Float**: specifies the scale of the pattern.
+-    {{PropertyData/de|Scale|Float}}: gibt den Maßstab des Musters an.
 
--    **Translate|Bool**: specifies if the faces are temporarily translated to the global XY plane during the hatching process. Setting it to `False` may give wrong results for non-XY faces.
+-    {{PropertyData/de|Translate|Bool}}: gibt an, ob die Flächen während des Schraffiervorgangs vorübergehend in die globale XY-Ebene übersetzt werden. Die Einstellung `False` kann zu falschen Ergebnissen bei nicht XY-Flächen führen.
 
 
 
 ## Skripten
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-To create a Draft Hatch use the `make_hatch` method of the Draft module.
+Zum Erstellen einer Draft-Schraffur wird die Methode `make_hatch` des Draft-Moduls verwendet:
 
 
 ```python

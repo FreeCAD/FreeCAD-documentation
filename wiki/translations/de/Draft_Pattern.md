@@ -1,25 +1,25 @@
 # Draft Pattern/de
 ## Beschreibung
 
-[Draft](Draft_Workbench/de.md)-Objekte mit einer {{PropertyData/de|Make Face}} können ein SVG-muster anstelle einer einfarbigen Fläche anzeigen.
+[Draft](Draft_Workbench/de.md)-Objekte mit einer {{PropertyData/de|Make Face}} können ein SVG-Schraffurmuster anstelle einer einfarbigen Fläche anzeigen.
 
 ![](images/DraftPatternSample.png ) 
-*Eine Ellipse und ein Vieleck mit einem SVG-Muster*
+*Eine Ellipse und ein Vieleck mit einem SVG-Schraffurmuster*
 
 
 
 ## Anwendung
 
-1.  Stelle sicher, dass die Objekte geschlossen und planar sind und sich nicht selbst schneiden.
-2.  Um einen [Entwurf Draht](Draft_Wire/de.md), einen [Entwurf BSpline](Draft_BSpline/de.md), eine [Entwurf KubischeBezKurve](Draft_CubicBezCurve/de.md) oder eine [Entwurf BezKurve](Draft_BezCurve/de.md) zu schließen, setze deren **Geschlossen** Eigenschaft auf `True`.
-3.  Um einen [Entwurf Kreis](Draft_Circle/de.md) oder eine [Entwurf Ellipse](Draft_Ellipse/de.md) zu schließen, setze die Eigenschaften **Erster Winkel** und **Letzter Winkel** auf denselben Wert.
-4.  Wähle die Objekte aus.
-5.  Wechsle auf den Reiter **Ansicht** des [Eigenschateneditors](Property_editor/de.md).
-6.  Der **Anzeigemodus** muss auf {{Value|Flache Linien}} eingestellt sein.
-7.  Wähle ein **Muster**.
-8.  Ändere optional die **Mustergröße**. Beachte, dass ein höherer Wert zu einem dichteren Muster führt.
-9.  Das Muster wird nicht angezeigt, wenn die Objekte ausgewählt sind. Hebe die Auswahl der Objekte auf, um das Ergebnis zu überprüfen.
-10. Wähle optional die Objekte erneut aus, um die Mustereigenschaften zu ändern.
+1.  Sicherstellen, dass die Objekte geschlossen sowie eben sind und sich nicht selbst schneiden.
+2.  Um einen [Draft-Linienzug](Draft_Wire/de.md), einen [Draft-B-Spline](Draft_BSpline/de.md), eine [Draft-KubischeBézierkurve](Draft_CubicBezCurve/de.md) oder eine [Draft-Bézierkurve](Draft_BezCurve/de.md) zu schließen, wird deren {{PropertyData/de|Closed}} auf `True` gesetzt.
+3.  Um einen [Draft-Kreis](Draft_Circle/de.md) oder eine [Draft-Ellipse](Draft_Ellipse/de.md) zu schließen, werden ihre {{PropertyData/de|First Angle}} und ihre {{PropertyData/de|Last Angle}} auf denselben Wert gesetzt.
+4.  Die Objekte auswählen.
+5.  Auf den Reiter **Ansicht** des [Eigenschateneditors](Property_editor/de.md) wechseln.
+6.  Die {{PropertyView/de|Display Mode}} muss auf {{Value|Flat Lines}} gesetzt sein.
+7.  Ein Schraffurmuster der {{PropertyView/de|Pattern}} auswählen.
+8.  Wahlweise die {{PropertyView/de|Pattern Size}} (Größe des Schrafurmusters) ändern. Man beachte, dass ein höherer Wert zu einem dichteren Muster führt.
+9.  Das Schrafurmuster wird nicht angezeigt, wenn die Objekte ausgewählt sind. Die Auswahl der Objekte aufheben, um das Ergebnis zu überprüfen.
+10. Wahlweise die Objekte erneut auswählen, um die Mustereigenschaften zu ändern.
 
 
 
@@ -31,8 +31,8 @@ Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|co
 
 ## Hinweise
 
--   SVG-Muster werden in **.SVG**-Dateien gespeichert. Es ist möglich, eigene Muster zu verwenden. Siehe [Einstellungen](#Einstellungen.md).
--   Die Muster selbst werden nicht im FreeCAD-Dokument gespeichert. Objekte, deren {{PropertyView/de|Muster}} nicht gefunden werden, werden stattdessen mit einer einfarbigen Fläche dargestellt.
+-   SVG-Schraffurmuster werden in **.SVG**-Dateien gespeichert. Es ist möglich, eigene Muster zu verwenden. Siehe [Einstellungen](#Einstellungen.md).
+-   Die Muster selbst werden nicht im FreeCAD-Dokument gespeichert. Objekte, deren {{PropertyView/de|Pattern}} nicht gefunden wird, werden stattdessen mit einer einfarbigen Fläche dargestellt.
 
 
 

@@ -7,7 +7,7 @@ Ta strona pokaże Ci, jak dodać nowe środowisko pracy do interfejsu programu F
 
 ## Struktura środowiska pracy 
 
-Potrzebny jest folder o dowolnej nazwie, umieszczony w katalogu Mod użytkownika, z plikiem `Init.py` i opcjonalnie plikiem `InitGui.py`. Plik Init jest wykonywany podczas uruchamiania FreeCAD, a plik `InitGui.py` jest wykonywany natychmiast po nim, ale tylko wtedy, gdy FreeCAD uruchamia się w trybie GUI. To wszystko, czego potrzebuje FreeCAD, aby znaleźć środowisko pracy podczas uruchamiania i dodać je do swojego interfejsu.
+Potrzebny jest folder o dowolnej nazwie, umieszczony w katalogu Mod użytkownika, z plikiem `Init.py` i opcjonalnie plikiem `InitGui.py`. Plik `Init.py` jest wykonywany podczas uruchamiania FreeCAD, a plik `InitGui.py` jest wykonywany natychmiast po nim, ale tylko wtedy, gdy FreeCAD uruchamia się w trybie GUI. To wszystko, czego potrzebuje FreeCAD, aby znaleźć środowisko pracy podczas uruchamiania i dodać je do swojego interfejsu.
 
 Katalog Mod użytkownika jest podkatalogiem katalogu danych aplikacji użytkownika (można go znaleźć wpisując `App.getUserAppDataDir()` w [konsoli Python](Python_console/pl.md)):
 
@@ -31,7 +31,7 @@ Wewnątrz tych plików można robić, co się chce. Zazwyczaj są one używane w
 
 -   W pliku InitGui.py zazwyczaj definiuje się środowisko pracy, które zawiera nazwę, ikonę i serię poleceń FreeCAD *(patrz poniżej)*. Ten plik Pythona definiuje również funkcje, które są wykonywane podczas ładowania FreeCAD *(starasz się robić tam jak najmniej, aby nie spowalniać uruchamiania)*, kolejną, która jest wykonywana, gdy środowisko pracy jest aktywowane *(to tam będziesz wykonywał większość pracy)*, a trzecią, gdy środowisko pracy jest dezaktywowane *(dzięki czemu możesz usuwać rzeczy w razie potrzeby)*.
 
-Opisana tutaj struktura i zawartość plików środowiska pracy jest klasycznym sposobem tworzenia nowego środowiska pracy. Można użyć niewielkiej odmiany w strukturze plików podczas tworzenia nowego środowiska pracy w Pythonie, ten alternatywny sposób najlepiej opisać jako \"środowisko pracy z przestrzenią nazw\", otwierając możliwość użycia narzędzia pip do zainstalowania środowiska pracy. Obie struktury działają, więc jest to bardziej kwestia preferencji podczas tworzenia nowego środowiska roboczego. Przedstawiony tutaj styl i struktura środowiska roboczego są dostępne w globalnej przestrzeni nazw FreeCAD, podczas gdy w przypadku alternatywnego stylu i struktury środowisko robocze znajduje się w dedykowanej przestrzeni nazw. Więcej informacji na ten temat można znaleźć w sekcji [Powiązane](Workbench_creation#Powiązane.md).
+Opisana tutaj struktura i zawartość plików środowiska pracy jest klasycznym sposobem tworzenia nowego środowiska pracy. Można użyć niewielkiej odmiany w strukturze plików podczas tworzenia nowego środowiska pracy w Pythonie, ten alternatywny sposób najlepiej opisać jako \"środowisko pracy z przestrzenią nazw\", otwierając możliwość użycia narzędzia pip do zainstalowania środowiska pracy. Obie struktury działają, więc jest to bardziej kwestia preferencji podczas tworzenia nowego środowiska roboczego. Przedstawiony tutaj styl i struktura środowiska roboczego są dostępne w globalnej przestrzeni nazw FreeCAD, podczas gdy w przypadku alternatywnego stylu i struktury środowisko robocze znajduje się w dedykowanej przestrzeni nazw. Więcej informacji na ten temat można znaleźć w sekcji [Powiązane](#Powiązane.md).
 
 
 
@@ -85,7 +85,7 @@ extern "C" {
 # *   it under the terms of the GNU Lesser General Public License (LGPL)    *
 # *   as published by the Free Software Foundation; either version 2 of     *
 # *   the License, or (at your option) any later version.                   *
-# *   for detail see the LICENCE text file.                                 *
+# *   for detail see the LICENSE text file.                                 *
 # *                                                                         *
 # *   FreeCAD is distributed in the hope that it will be useful,            *
 # *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
@@ -104,7 +104,7 @@ FreeCAD.addExportType("My own format (*.own)", "exportOwn")
 print("I am executing some stuff here when FreeCAD starts!")
 }}
 
-Możesz wybrać dowolną licencję dla swojego środowiska pracy, ale pamiętaj, że jeśli chcesz, aby Twoje środowisko pracy było w pewnym momencie zintegrowane z kodem źródłowym FreeCAD i rozpowszechniane z nim, musi to być LGPL2+, jak w powyższym przykładzie. Zobacz stronę wyjaśniającą zagadnienia [Licencji](Licence/pl.md).
+Możesz wybrać dowolną licencję dla swojego środowiska pracy, ale pamiętaj, że jeśli chcesz, aby Twoje środowisko pracy było w pewnym momencie zintegrowane z kodem źródłowym FreeCAD i rozpowszechniane z nim, musi to być LGPL2+, jak w powyższym przykładzie. Zobacz stronę wyjaśniającą zagadnienia [Licencji](License/pl.md).
 
 Funkcje `FreeCAD.addImportType()` i `addEXportType()` pozwalają na podanie nazwy i rozszerzenia typu pliku oraz modułu Python odpowiedzialnego za jego import. W powyższym przykładzie moduł `importOwn.py` będzie obsługiwał pliki `.own`. Więcej przykładów można znaleźć na stronie [Wycinki kodów](Code_snippets/pl.md).
 
@@ -357,7 +357,7 @@ compileA2pResources.py ze środowiska roboczego A2Plus:
 #*   it under the terms of the GNU Lesser General Public License (LGPL)    *
 #*   as published by the Free Software Foundation; either version 2 of     *
 #*   the License, or (at your option) any later version.                   *
-#*   for detail see the LICENCE text file.                                 *
+#*   for detail see the LICENSE text file.                                 *
 #*                                                                         *
 #*   This program is distributed in the hope that it will be useful,       *
 #*   but WITHOUT ANY WARRANTY; without even the implied warranty of        *

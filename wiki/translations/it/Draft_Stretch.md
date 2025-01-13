@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Stretch
-   Name/it: Stira
-   MenuLocation: Modifiche , Stira
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Stira
+   MenuLocation: Modifiche , Stira<br>Modifica , Stira
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **S** **H**
    Version: 0.17
 ---
@@ -28,7 +28,8 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 1.  Opzionalmente selezionare uno o più oggetti. Gli oggetti devono essere [Linee](Draft_Line/it.md), [Polilinee](Draft_Wire/it.md), [Rettangoli](Draft_Rectangle/it.md), [BSplines](Draft_BSpline/it.md) o [ BezCurves](Draft_BezCurve/it.md). Gli altri oggetti vengono ignorati.
 2.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Stretch.svg" width=16px> [Stira](Draft_Stretch/it.md)**.
-    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Stretch.svg" width=16px> Stira** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Modifiche → <img src="images/Draft_Stretch.svg" width=16px> Stira** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_Stretch.svg" width=16px> Stira** dal menu.
     -   Usare la scorciatoia da tastiera: **S** poi **H**.
 3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
 4.  Si apre il pannello delle attività **Stira**. Vedi [Opzioni](#Opzioni.md) per maggiori informazioni.
@@ -46,7 +47,7 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 
 -   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
 -   Premere **R** o fare clic sulla casella di controllo **Relativa** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate del secondo punto dello spostamento sono relative al primo punto, altrimenti sono relative all\'origine del sistema di coordinate.
--   Premere **G** o fai clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **G** o fai clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md).
 -   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
 -   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 

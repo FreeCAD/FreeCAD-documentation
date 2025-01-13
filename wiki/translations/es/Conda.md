@@ -10,11 +10,15 @@ Actualmente, esta página cataloga principalmente los enlaces a los debates pert
 
 See also a [video tutorial](https://www.youtube.com/watch?v=sCs8xlrw2nM) of the contents of this page
 
+
+
 ## Motivación
 
 La motivación para usar Conda es múltiple, como lo es el propósito de Conda.
 
 Vamos a desglosarlo.
+
+
 
 ### Conda como un administrador de paquetes 
 
@@ -23,6 +27,8 @@ En primer lugar, Conda es un gestor de paquetes, similar a apt o pip.
 Esto significa que podemos instalar *paquetes* con un simple conda install de varios [canales](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html#what-is-a-conda-channel) como [conda-forge](https://conda-forge.org/).
 
 Conda Forge es análogo a [the Python Package Index (PyPI)](https://pypi.org/), un canal comunitario formado por miles de colaboradores, y sirve [freecad](https://anaconda.org/conda-forge/freecad) como un paquete de conda.
+
+
 
 ### Conda como un Gerente de la dependencia 
 
@@ -33,6 +39,8 @@ Conda puede manejar las dependencias e instalar las dependencias para un proyect
 ¿Por qué no usar pip? pip funciona muy bien para manejar las dependencias de los proyectos que *sólo* usan pitón.
 
 Conda funciona para múltiples lenguajes, y por lo tanto es más adecuado para gestionar las dependencias de proyectos como FreeCAD que tienen dependencias a través de una variedad de lenguajes como C / C++ y Python.
+
+
 
 ### Conda como un Gerente d\'Ambiente 
 
@@ -46,17 +54,31 @@ Los entornos de Conda permiten reproducir exactamente el mismo entorno en difere
 
 Por ejemplo, múltiples máquinas de desarrollo local, o un servidor de construcción remoto alojado por Travis CI.
 
+
+
 ## Instalación de Conda 
 
 1\. [Instalar Miniconda](https://docs.conda.io/en/latest/miniconda.html).
 
-2\. Verifique que su instalación fue exitosa y familiarícese con el conda *CLI*. $ conda --help
+2\. Verifique que su instalación fue exitosa y familiarícese con el conda *CLI*. 
 
 ## Instalando FreeCAD usando Conda 
 
+
+<div class="mw-translate-fuzzy">
+
 Primero, debes decidir si quieres instalar una versión *estable* de FreeCAD, o experimentar con el último código *inestable* de FreeCAD master.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Las versiones estables de FreeCAD se sirven en el canal conda-forja, mientras que la última de FreeCAD maestro se sirve en el canal freecad/label/dev.
+
+
+</div>
 
   Canal Conda           Estable?
    
@@ -76,11 +98,15 @@ conda config --add channels conda-forge
 conda create --name fcenv-dev --channel freecad/label/dev freecad
 ```
 
+
+
 ## Discusión en el foro de FreeCAD 
 
 -   [Hablemos de Conda](https://forum.freecadweb.org/viewtopic.php?t=39656)
 -   [Solución de embalaje: (ana)conda](https://forum.freecadweb.org/viewtopic.php?f=10&t=15197)
 -   [FreeCAD Conda Distribución](https://forum.freecadweb.org/viewtopic.php?f=8&t=45582)
+
+
 
 ## Ver también 
 

@@ -9,6 +9,8 @@
 
 # SheetMetal AddFoldWall/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> [Abkanten](SheetMetal_AddFoldWall/de.md) kantet eine Blechplatte (Platine) entlang einer gewählten Linie mit einem vorgegebenen Radius ab.
@@ -24,17 +26,26 @@ Er kann mit einer zuvor zugeschnittenen Platine verwendet werden, um
 
 *Vorab beschnittene Platine und Biegelinie mit zwei Lücken → perforierte Biegezone mit einigen weiterhin ebenen Geometrien*
 
+
+
 ## Anwendung
 
 1.  Die Fläche auswählen, die abgekantet werden soll.
-2.  Die **Ctrl**-Taste (bzw. die**Command** Taste für macOS) drücken und halten.
-3.  Eine komplanare <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketcher_Workbench/de.md) auswählen (d.h. eine auf derselben Ebene liegende) für die (Abschnitte der) **Biegelinie** (vorzugsweise aus der [Baumansich](Tree_view/de.md)).
-4.  Die **Ctrl**-Taste (bzw. die**Command** Taste für macOS) loslassen.
-5.  Den Befehl <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:16px;"> **SheetMetal Abkanten** aktivieren durch
-    -   Die Schaltfläche **<img src="images/SheetMetal_AddFoldWall.svg" width=16px> [Abkanten](SheetMetal_AddFoldWall/de.md)**.
-    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_AddFoldWall.svg" width=16px> Abkanten** menu option.
-    -   Das Tastenkürzel: **C** dann **F**.
-6.  Den Wert der Eigenschaft {{PropertyData/de|Position}} verändern, um die Lage der Biegung im Bezug auf die Biegelinie einzustellen.
+2.  Die **Ctrl**-Taste (bzw. die **Command**-Taste für macOS) drücken und halten.
+3.  Eine komplanare <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketcher_Workbench/de.md) auswählen (d.h. eine auf derselben Ebene liegende) für die (Abschnitte der) **Biegelinie** (vorzugsweise aus der [Baumansicht](Tree_view/de.md)).
+4.  Die **Ctrl**-Taste (bzw. die **Command**-Taste für macOS) loslassen.
+5.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/SheetMetal_AddFoldWall.svg" width=16px> [Abkanten](SheetMetal_AddFoldWall/de.md)** drücken.
+    -   Den Menüeintrag **Sheet Metal → <img src="images/SheetMetal_AddFoldWall.svg" width=16px> Abkanten** auswählen.
+    -   Ein Rechtsklick in die [Baumansicht](Tree_view/de.md) oder die [3D-Ansicht](3D_view/de.md) und die Menüoption **Sheet Metal → <img src="images/SheetMetal_AddFoldWall.svg" width=16px> Abkanten** im Kontextmenü auswählen.
+    -   Das Tastaturkürzel **C** dann **F**.
+6.  Das [Aufgaben-Fenster](Task_panel/de.md) **Blech-Grundform erstellen** wird geöffnet (eingeführt in Version 0.5.00).
+7.  Wahlweise die Schaltfläche **Basisobjekt** drücken, um eine andere Fläche auszuwählen.
+8.  Wahlweise die Schaltfläche **Bend Line** drücken, um eine andere Skizze auszuwählen.
+9.  Wahlweise die Parameter im Aufgaben-Fenster anpassen.
+10. Die Schaltfläche **OK** drücken, um den Befehl abzuschließen und das Aufgaben-Fenster zu schließen.
+11. Ein **Fold**-Objekt wird erstell.
+12. Wahlweise die Parameter im [Eigenschafteneditor](Property_editor/de.md) anpassen.
 
 <img alt="" src=images/SheetMetal_AddFoldWall-15.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddFoldWall-14.png  style="width:300px;">
 
@@ -42,35 +53,37 @@ Er kann mit einer zuvor zugeschnittenen Platine verwendet werden, um
 
 *Biegelinie(n) in der Mitter der Perforation liegend → Damit die Biegung gleichfalls zentriert bleibt, muss die {{PropertyData/de|Position* auf {{value|middle}} gesetzt werden}}
 
+
+
 ### Hinweise
 
 -   Die Biegelinienskizze muss **komplanar** zu der ausgewählten Fläche sein.
 
 -   Die Biegelinienabschnitte müssen zueinander kollinear sein.
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Ein SheetMetal-Fold-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+Ein SheetMetal-Fold-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet oder, wenn es sich in einem [PartDesign-Körper](PartDesign_Body/de.md) befindet, von einem [PartDesign Formelement](PartDesign_Feature/de.md) und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
-
-
-{{Properties_Title/de|Basis}}
-
--    {{PropertyData/de|Label|String}}: Standardwert: Der vom Benutzer änderbare Name dieses Objekts, der aus einer beliebigen UTF8-Zeichenkette bestehen kann.
-
--    {{PropertyData/de|Base Feature|Link|hidden}}: Base Feature. Verweis zum Eltern-Objekt.
-
--    {{PropertyData/de|_Body|LinkHidden|hidden}}: Unsichtbarer Verweis zum Eltern-Body.
 
 
 {{Properties_Title/de|Parameters}}
 
 -    {{PropertyData/de|Bend Line|Link}}: \"Bend Reference Line List\". Verknüpfung zu den Biegelinienobjekten.
 
--    {{PropertyData/de|Position|Enumeration}}: \"Bend Line Position\". Lage der Biegelinie. {{value|forward}} (standard), {{value|middle}}, {{value|backward}}.
+-    {{PropertyData/de|Position|Enumeration}}: \"Bend Line Position\". Lage der Biegelinie.
+
+    :   
+        {{value|intersection of planes}}
+        
+        (Schnittlinie der Ebene, introduced in version 0.4.12), {{value|forward}} (standard), {{value|middle}}, {{value|backward}}.
 
 -    {{PropertyData/de|angle|Angle}}: \"Bend Angle\". Biegewinkel. Standardwinkel: {{value|90,00°}}.
 
@@ -78,13 +91,20 @@ Ein SheetMetal-Fold-Objekt wird von einem [Part-Formelement](Part_Feature/de.md)
 
 -    {{PropertyData/de|invert|Bool}}: \"Invert Bend Direction\". Biegerichtung umkehren. Standardwert: `False`
 
--    {{PropertyData/de|invertbend|Bool}}: \"Invert Solid Bend Direction\". Abzukantende Seite wechseln. Standardwert:  `True` tauscht die Seite neben der Biegelinie, die gekantet wird.
+-    {{PropertyData/de|invertbend|Bool}}: \"Invert Solid Bend Direction\". Abzukantende Seite wechseln. Standardwert: `False`
+
+    :   
+        `True`
+        
+        tauscht die Seite neben der Biegelinie, die gekantet wird.
 
 -    {{PropertyData/de|kfactor|FloatConstraint}}: \"Neutral Axis Position\". Lage der neutralen Faser. Standardwert: {{value|0,50}}.
 
 -    {{PropertyData/de|radius|Length}}: \"Bend Radius\". Biegeradius. Standardwert: {{value|1,00 mm}}.
 
 -    {{PropertyData/de|unfold|Bool}}: \"Unfold Bend\". Abwickeln. Standardwert: `False`
+
+
 
 ## Beispiel
 
@@ -96,6 +116,8 @@ Ein SheetMetal-Fold-Objekt wird von einem [Part-Formelement](Part_Feature/de.md)
 
 
 <div class="mw-collapsible-content">
+
+
 
 ### Vorbereitung
 
@@ -112,6 +134,8 @@ Die Biegelinien könnten mit einem anderen Werkzeug erstellt werden, aber hey, w
 
 <img alt="" src=images/SheetMetal_AddFoldWall-21.png  style="width:280px;"> <img alt="" src=images/SheetMetal_AddFoldWall-20.png  style="width:200px;"> 
 *Skizzen auf ihrer gemeinsamen Ebene und ihre Darstellung im Konstruktionsbaum*
+
+
 
 ## Arbeitsablauf
 

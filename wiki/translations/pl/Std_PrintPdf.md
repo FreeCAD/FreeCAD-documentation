@@ -9,9 +9,13 @@
 
 # Std PrintPdf/pl
 
+
+
 ## Opis
 
 Polecenie **Std PrintPdf** jest przeznaczone głównie do tworzenia plików [PDF](PDF/pl.md) ze stron [Rysunku technicznego](TechDraw_Workbench/pl.md), ale może być również użyte do tworzenia plików PDF z tego, co jest aktualnie widoczne w oknie [widoku 3D](3D_view/pl.md).
+
+
 
 ## Użycie
 
@@ -20,24 +24,24 @@ Polecenie **Std PrintPdf** jest przeznaczone głównie do tworzenia plików [PDF
 3.  Wprowadź nazwę pliku w oknie dialogowym.
 4.  Naciśnij przycisk **Zapisz**.
 
+
+
 ## Opcje
 
 -   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
+
+
 
 ## Uwagi
 
 -   Aby utworzyć plik PDF ze strony TechDraw możesz również użyć opcji menu **Plik → Eksportuj → Rysunek techniczny (*.svg *.dxf *.pdf)**. Możesz też kliknąć prawym przyciskiem myszy stronę Rysunku Technicznego w [głównym obszarze widoku](Main_view_area/pl.md) i wybrać **Eksportuj do formatu PDF** z menu kontekstowego.
 -   Plik PDF utworzony z [widoku 3D](3D_view/pl.md) będzie zawierał obraz bitmapowy, zrzut ekranu.
 
-## Ustawienia
-
--   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 
 
-
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

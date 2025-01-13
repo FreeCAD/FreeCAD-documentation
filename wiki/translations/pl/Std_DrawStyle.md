@@ -104,7 +104,7 @@ Styl **Płaskie linie** zastępuje styl **Tryb wyświetlania** obiektów. Ten st
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

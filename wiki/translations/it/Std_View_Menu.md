@@ -46,6 +46,7 @@ In questo menu sono disponibili i seguenti strumenti:
 -   Viste standard
     -   <img alt="" src=images/Std_ViewFitAll.svg  style="width:32px;"> [Visualizza tutto](Std_ViewFitAll/it.md): adatta la vista per rendere visibili tutti gli oggetti.
     -   <img alt="" src=images/Std_ViewFitSelection.svg  style="width:32px;"> [Visualizza la selezione](Std_ViewFitSelection/it.md): adatta la vista agli oggetti selezionati.
+    -   <img alt="" src=images/Std_AlignToSelection.svg  style="width:32px;"> [Allinea alla selezione](Std_AlignToSelection/it.md): allinea la vista alla selezione. {{Version/it|1.0}}
     -   Assonometria
         -   <img alt="" src=images/Std_ViewIsometric.svg  style="width:32px;"> [Isometrica](Std_ViewIsometric/it.md): passa alla vista isometrica.
         -   <img alt="" src=images/Std_ViewDimetric.svg  style="width:32px;"> [Dimetrica](Std_ViewDimetric/it.md): passa alla vista dimetrica.
@@ -57,14 +58,14 @@ In questo menu sono disponibili i seguenti strumenti:
     -   <img alt="" src=images/Std_ViewRear.svg  style="width:32px;"> [Da dietro](Std_ViewRear/it.md): passa alla vista posteriore.
     -   <img alt="" src=images/Std_ViewBottom.svg  style="width:32px;"> [Dal basso](Std_ViewBottom/it.md): passa alla vista dal basso.
     -   <img alt="" src=images/Std_ViewLeft.svg  style="width:32px;"> [Da sinistra](Std_ViewLeft/it.md): passa alla vista laterale sinistra.
-    -   <img alt="" src=images/Std_RotateLeft.png  style="width:32px;"> [Ruota a sinistra](Std_ViewRotateLeft/it.md): ruota la vista a sinistra.
-    -   <img alt="" src=images/Std_RotateRight.png  style="width:32px;"> [Ruota a destra](Std_ViewRotateRight/it.md): ruota la vista a destra.
+    -   <img alt="" src=images/Std_ViewRotateLeft.svg  style="width:32px;"> [Ruota a sinistra](Std_ViewRotateLeft/it.md): ruota la vista a sinistra.
+    -   <img alt="" src=images/Std_ViewRotateRight.svg  style="width:32px;"> [Ruota a destra](Std_ViewRotateRight/it.md): ruota la vista a destra.
     -   [Memorizza vista attiva](Std_StoreWorkingView/it.md): memorizza le impostazioni della telecamera della vista 3D attiva nella sua vista di lavoro. {{Version/it|0.21}}
     -   [Richiama vista](Std_RecallWorkingView/it.md): Richiama la vista di lavoro memorizzata della vista 3D attiva. {{Version/it|0.21}}
 
 -   [Viste bloccate](Std_FreezeViews/it.md)
-    -   [Salva le viste\...](Std_FreezeViews/it#Salva_le_viste....md): salva le viste fissate in un file.
-    -   [Carica le viste\...](Std_FreezeViews/it#Carica_le_viste....md): carica le viste fissate da un file.
+    -   [Salva le viste\...](Std_FreezeViews/it#Salva_le_viste.md): salva le viste fissate in un file.
+    -   [Carica le viste\...](Std_FreezeViews/it#Carica_le_viste.md): carica le viste fissate da un file.
     -   [Fissa la vista](Std_FreezeViews/it#Fissa_la_vista.md): memorizza la vista corrente in una vista fissata.
     -   [Pulisci le viste](Std_FreezeViews/it#Pulisci_le_viste.md): elimina tutte le viste fissate.
 
@@ -101,7 +102,8 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Piano di taglio](Std_ToggleClipPlane/it.md): taglia temporaneamente gli oggetti.
 
--   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Taglio sezione persistente](Part_SectionCut/it.md): Crea tagli persistenti di oggetti e assiemi. **-- Disponibile se [Part](Part_Workbench/it.md) o [PartDesign](PartDesign_Workbench/it.md) è stato caricato.**{{Version/it|0.20}}
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Taglio sezione persistente](Part_SectionCut/it.md): Crea tagli persistenti di oggetti e assiemi. 
+**-- Disponibile se [Part](Part_Workbench/it.md) o [PartDesign](PartDesign_Workbench/it.md) è stato caricato.**
 
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Mappa una trama\...](Std_TextureMapping/it.md): mappa temporaneamente una trama su tutti gli oggetti.
 
@@ -114,55 +116,60 @@ In questo menu sono disponibili i seguenti strumenti:
     -   <img alt="" src=images/Std_ShowObjects.svg  style="width:32px;"> [Mostra tutti gli oggetti](Std_ShowObjects/it.md): mostra tutti gli oggetti.
     -   <img alt="" src=images/Std_HideObjects.svg  style="width:32px;"> [Nascondi tutti gli oggetti](Std_HideObjects/it.md): nasconde tutti gli oggetti.
     -   <img alt="" src=images/Std_ToggleSelectability.svg  style="width:32px;"> [Commuta la selezionabilità](Std_ToggleSelectability/it.md): attiva o disattiva la selezionabilità degli oggetti.
-    -   <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:32px;"> [Attiva/disattiva le misure](View_Measure_Toggle_All/it.md): attiva o disattiva la visualizzazione delle misurazioni di Part.
-    -   <img alt="" src=images/View_Measure_Clear_All.svg  style="width:32px;"> [Cancella le misure](View_Measure_Clear_All/it.md): cancella le misure di Part.
 
 -   <img alt="" src=images/Std_ToggleNavigation.svg  style="width:32px;"> [Attiva/disattiva modalità modifica](Std_ToggleNavigation/it.md): alterna tra la modalità di navigazione e la modalità di modifica.
 
--   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Aspetto\...](Std_SetAppearance/it.md): apre il pannello dellle azioni per le proprietà di visualizzazione degli oggetti.
+-   <img alt="" src=images/Std_SetMaterial.svg  style="width:32px;"> [Materiale\...](Std_SetMaterial/it.md): Imposta il materiale degli oggetti selezionati. 
+**-- Disponibile se l'[Ambiente Material](Material_Workbench/it.md) è stato caricato direttamente o indirettamente (tramite ad esempio l'[Ambiente Part](Part_Workbench/it.md) o l'[Ambiente PartDesign](PartDesign_Workbench/it.md)).**
 
--   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Colore casuale](Std_RandomColor/it.md): Applica un colore casuale agli oggetti.
+
+{{Version/it|1.0}}
+
+-   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Aspetto\...](Std_SetAppearance/it.md): Imposta le proprietà di visualizzazione degli oggetti selezionati. 
+**-- Disponibile se l'[Ambiente Material](Material_Workbench/it.md) è stato caricato direttamente o indirettamente (tramite ad esempio l'[Ambiente Part](Part_Workbench/it.md) o l'[Ambiente PartDesign](PartDesign_Workbench/it.md)).**
+
+-   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Colore casuale](Std_RandomColor/it.md): Applica un colore diffuso casuale agli oggetti.
+
+-   <img alt="" src=images/Part_ColorPerFace.svg  style="width:32px;"> [Colore per faccia](Part_ColorPerFace/it.md): imposta le proprietà di visualizzazione delle facce selezionate. 
+**-- Disponibile se l'[Ambiente Part](Part_Workbench/it.md) o l'[Ambiente PartDesign](PartDesign_Workbench/it.md) sono attivi.**
+
+-   <img alt="" src=images/Std_ToggleTransparency.svg  style="width:32px;"> [Attiva/disattiva la trasparenza](Std_ToggleTransparency/it.md): Attiva/disattiva la trasparenza degli oggetti selezionati. {{Version/it|1.0}}
 
 -   [Ambiente](Std_Workbench/it.md): seleziona nel sottomenu uno degli ambienti di lavoro di base, oppure un [ambiente esterno](external_workbenches/it.md) installato nel sistema.
 
-
-<div class="mw-translate-fuzzy">
-
--   Barre degli strumenti **Ogni barra degli strumenti può essere attivata o disattivata nel sottomenu. Alcuni ambienti di lavoro aggiungono delle proprie barre degli strumenti.**
+-   Barre degli strumenti **-- Ogni barra degli strumenti può essere attivata o disattivata nel sottomenu.**
     -   File
     -   Modifica {{Version/it|0.21}}
-    -   Clipboard {{Version/it|0.21}}
-    -   Ambienti
+    -   Appunti {{Version/it|0.21}}
+    -   Ambiente
     -   Macro
     -   Vista
+    -   Viste individuali {{Version/it|1.0}}
     -   Struttura
     -   Aiuto {{Version/it|0.21}}
+    -   \... Se l\'ambiente corrente dispone di barre degli strumenti, queste verranno visualizzate qui.
+    -   [Blocca le barre degli strumenti](Std_ToggleToolBarLock/it.md): Se attivato, le barre degli strumenti non si possono spostare. {{Version/it|1.0}}
 
-
-</div>
-
--   Pannelli **Ogni pannello può essere attivato o disattivato nel sottomenu.**
-    -   [Vista ad albero](Tree_view/it.md) **-- Disponibile se [Modalità vista ad albero](Preferences_Editor/it#Generale_2.md) è {{Value|Vista ad albero e proprietà**.}}
-    -   [Proprietà](Property_editor/it.md) **-- Idem.**
-    -   [Selezione](Selection_view/it.md)
-    -   [Azioni](Task_panel/it.md)
+-   Pannelli **-- Ciascun pannello può essere attivato o disattivato nel sottomenu.**
+    -   [Vista ad albero](Tree_view/it.md) **-- Disponibile come pannello separato se [Modalità di visualizzazione Vista albero e Proprietà](Preferences_Editor/it#Generale_2.md) è {{Value|Independent**.}}
+    -   [Editor delle proprietà](Property_editor/it.md) **-- Idem.**
+    -   [Modello](Combo_view/it.md) **-- Combina la vista ad albero e la vista Proprietà in un unico pannello. Disponibile se [Modalità di visualizzazione Vista albero e Proprietà](Preferences_Editor/it#Generale_2.md) è {{Value|Combined**.}}
+    -   [Vista selezione](Selection_view/it.md)
     -   [Console Python](Python_console/it.md)
+    -   [Finestra dei Report](Report_view/it.md)
+    -   [Pannello Azione](Task_panel/it.md)
     -   [Vista DAG](DAG_view/it.md) **-- Non disponibile per impostazione predefinita, vedere [Vista DAG](DAG_view/it.md).**
-    -   [Vista combinata](Combo_view/it.md) **-- Disponibile se [Modalità vista ad albero](Preferences_Editor/it#Generale_2.md) is {{Value|Vista combinata**.}}
-    -   [Report](Report_view/it.md)
 
--   Dock window overlay <small>(v0.22)</small> 
-    -   [Toggle overlay for all](Std_DockOverlayAll.md): Toggles overlay mode for all docked windows.
-    -   [Toggle transparent for all](Std_DockOverlayTransparentAll.md): Toggles transparent mode for all docked overlay windows. This makes the docked windows stay transparent at all times.
-    -   [Toggle overlay](Std_DockOverlayToggle.md): Toggles overlay mode for the docked window under the cursor.
-    -   [Toggle transparent](Std_DockOverlayToggleTransparent.md): Toggles transparent mode for the docked window under cursor. This makes the docked window stay transparent at all times.
-    -   [Bypass mouse events in docked overlay windows](Std_DockOverlayMouseTransparent.md): Bypasses all mouse events in docked overlay windows.
-    -   [Toggle left](Std_DockOverlayToggleLeft.md): Shows/hides the left overlay panel.
-    -   [Toggle right](Std_DockOverlayToggleRight.md): Shows/hides the right overlay panel.
-    -   [Toggle top](Std_DockOverlayToggleTop.md): Shows/hides the top overlay panel.
-    -   [Toggle bottom](Std_DockOverlayToggleBottom.md): Shows/hides the bottom overlay panel.
-
--   <img alt="" src=images/Std_ToggleTransparency.svg  style="width:32px;"> [Toggle transparency](Std_ToggleTransparency.md):
+-   Finestra ancorata sovrappoosta {{Version/it|1.0}}
+    -   [Attiva/disattiva sovrapposizione per tutte](Std_DockOverlayAll.md): attiva/disattiva la modalità sovrapposizione per tutte le finestre ancorate.
+    -   [Attiva/disattiva trasparenza per tutte](Std_DockOverlayTransparentAll.md): attiva/disattiva la modalità trasparente per tutte le finestre sovrapposte ancorate. Ciò fa sì che le finestre ancorate rimangano sempre trasparenti.
+    -   [Attiva/disattiva sovrapposizione](Std_DockOverlayToggle.md): attiva/disattiva la modalità sovrapposizione per la finestra ancorata sotto il cursore.
+    -   [Attiva/disattiva trasparenza](Std_DockOverlayToggleTransparent.md): attiva/disattiva la modalità trasparente per la finestra ancorata sotto il cursore. Ciò fa sì che la finestra ancorata rimanga sempre trasparente.
+    -   [Ignora gli eventi del mouse nelle finestre sovrapposte ancorate](Std_DockOverlayMouseTransparent.md): ignora tutti gli eventi del mouse nelle finestre sovrapposte ancorate.
+    -   [Attiva/disattiva a sinistra](Std_DockOverlayToggleLeft.md): mostra/nasconde il pannello in sovrapposizione sinistro.
+    -   [Attiva/disattiva a destra](Std_DockOverlayToggleRight.md): mostra/nasconde il pannello in sovrapposizione destro.
+    -   [Attiva/disattiva superiore](Std_DockOverlayToggleTop.md): mostra/nasconde il pannello in sovrapposizione superiore.
+    -   [Attiva/disattiva inferiore](Std_DockOverlayToggleBottom.md): mostra/nasconde il pannello di sovrapposizione inferiore.
 
 -   Collegamento di navigazione
     -   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Vai all\'oggetto collegato](Std_LinkSelectLinked/it.md): seleziona l\'oggetto collegato e passa al suo documento.
@@ -170,14 +177,14 @@ In questo menu sono disponibili i seguenti strumenti:
     -   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;"> [Seleziona tutti i collegamenti](Std_LinkSelectAllLinks/it.md): seleziona tutti i collegamenti a un oggetto.
 
 -   Azioni della vista ad albero
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sincronizza la vista](Std_TreeSyncView/it.md): attiva o disattiva la modalità Sincronizza la vista della [vista ad albero](Tree_view/it.md).
-    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sincronizza la selezione](Std_TreeSyncSelection/it.md): attiva o disattiva la modalità Sincronizza la selezione della vista ad albero.
-    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sincronizza la posizione](Std_TreeSyncPlacement/it.md): attiva o disattiva la modalità Sincronizza la posizione della vista ad albero.
-    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selezione](Std_TreePreSelection/it.md): attiva o disattiva la modalità di preselezione della vista ad albero.
-    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Registra la selezione](Std_TreeRecordSelection/it.md): attiva o disattiva la modalità Registra la selezione della vista ad albero.
-    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Documento singolo](Std_TreeSingleDocument/it.md): commuta la vista ad albero nella modalità Documento singolo.
-    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Multi documento](Std_TreeMultiDocument/it.md): commuta la vista ad albero nella modalità Multi documento.
-    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Comprimi/espandi](Std_TreeCollapseDocument/it.md): commuta la vista ad albero nella modalità Comprimi documento.
+    -   [Sincronizza la vista](Std_TreeSyncView/it.md): attiva o disattiva la modalità Sincronizza la vista della [vista ad albero](Tree_view/it.md).
+    -   [Sincronizza la selezione](Std_TreeSyncSelection/it.md): attiva o disattiva la modalità Sincronizza la selezione della vista ad albero.
+    -   [Sincronizza la posizione](Std_TreeSyncPlacement/it.md): attiva o disattiva la modalità Sincronizza la posizione della vista ad albero.
+    -   [Pre-selezione](Std_TreePreSelection/it.md): attiva o disattiva la modalità di preselezione della vista ad albero.
+    -   [Registra la selezione](Std_TreeRecordSelection/it.md): attiva o disattiva la modalità Registra la selezione della vista ad albero.
+    -   [Documento singolo](Std_TreeSingleDocument/it.md): commuta la vista ad albero nella modalità Documento singolo.
+    -   [Multi documento](Std_TreeMultiDocument/it.md): commuta la vista ad albero nella modalità Multi documento.
+    -   [Comprimi/espandi](Std_TreeCollapseDocument/it.md): commuta la vista ad albero nella modalità Comprimi documento.
     -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Avvia il trascinamento](Std_TreeDrag/it.md): avvia un\'operazione di trascinamento per gli oggetti selezionati nella vista ad albero.
     -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Vai alla selezione](Std_TreeSelection/it.md): scorre la vista ad albero fino al primo oggetto creato in una selezione della vista 3D.
     -   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Selezione precedente](Std_SelBack/it.md): Ripristina la precedente selezione salvata.
@@ -189,7 +196,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

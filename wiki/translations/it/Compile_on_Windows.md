@@ -59,7 +59,7 @@ Per creare un ramo locale e scaricare il codice sorgente è necessario aprire un
 
 
 ```python
-git clone https://github.com/FreeCAD/FreeCAD.git
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git
 ```
 
 
@@ -183,6 +183,19 @@ Ecco una descrizione di alcune di queste variabili:
 ## Compilare FreeCAD 
 
 A seconda del compilatore, il processo per la compilazione di FreeCAD sarà leggermente diverso. Nelle sezioni seguenti sono descritti i flussi di lavoro noti. Se stai costruendo con Qt Creator, passa a [Compilazione con Qt Creator (obsoleto)](#Compilazione_con_Qt_Creator_(obsoleto).md), altrimenti procedi direttamente:
+
+
+
+### Compilazione dalla riga di comando cmd.exe 
+
+Se si vuole compilare dalla riga di comando, l\'output di CMake mostrerà il comando corretto da eseguire (che dipende dalla release directory configurata). Ma questo comando produrrà una compilazione \"Debug\" che non funziona su Windows e si traduce in un errore di importazione Numpy in FreeCAD (che è un problema noto ma difficile da risolvere). È necessario specificare l\'opzione *\--config Release* per forzare una build *Release*:
+
+
+```python
+cmake --build E:/release --config Release
+```
+
+Tenere presente che l\'impostazione delle variabili CMake come *CMAKE_BUILD_TYPE* non ha alcun effetto, funziona solo specificando l\'opzione *\--config* come mostrato sopra.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

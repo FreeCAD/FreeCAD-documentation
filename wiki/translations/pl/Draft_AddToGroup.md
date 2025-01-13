@@ -3,7 +3,7 @@
    Name: Draft AddToGroup
    Name/pl: Rysunek Roboczy: Dodaj do grupy
    MenuLocation: Narzędzia , Dodaj do grupy ...
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
    SeeAlso: Std_Group/pl, Draft_AddNamedGroup/pl, Draft_AddConstruction/pl, Draft_AutoGroup/pl
 ---
 
@@ -13,7 +13,7 @@
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Dodaj do grupy** przenosi obiekty do [Grupy](Std_Group/pl.md) lub obiektu podobnego do grupy [Architektury](Arch_Workbench/pl.md). Może ono również rozgrupować obiekty.
+Polecenie <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Dodaj do grupy** przenosi obiekty do [Grupy](Std_Group/pl.md) lub obiektu podobnego do grupy [BIM](BIM_Workbench/pl.md). Może ono również rozgrupować obiekty.
 
 
 
@@ -22,8 +22,7 @@ Polecenie <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Do
 1.  Wybierz jeden lub więcej obiektów.
 2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_AddToGroup.svg" width=16px> '''Przenieś do grupy'''**.
-    -   Wybierz opcję z menu **Narzędzia → <img src="images/Draft_AddToGroup.svg" width=16px> Przenieś do grupy ...**.
-    -   Wybierz opcję **Narzędzia → <img src="images/Draft_AddToGroup.svg" width=16px> Przenieś do grupy ...** z menu kontekstowego okna [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
+    -   Wybierz opcję **Narzędzia → <img src="images/Draft_AddToGroup.svg" width=16px> Przenieś do grupy ...** z menu lub menu kontekstowego [widoku drzewa](Tree_view/pl.md) bądź [widoku 3D](3D_view/pl.md).
 3.  W pobliżu kursora wyświetlane jest menu. Wykonaj jedną z następujących czynności:
     -   Wybierz **Rozgrupuj**, aby przenieść obiekty poza grupę (grupy), w której się znajdują.
     -   Wybierz grupę, do której chcesz przenieść obiekty.

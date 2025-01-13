@@ -84,12 +84,12 @@ The properties of a Part Primitive can also be changed in the [Property editor](
 Можно создать следующие примитивы:
 
 -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Плоскость](Part_Plane/ru.md): Создаёт плоскость.
--   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Куб](Part_Box/ru.md): Создаёт куб. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Куб](Part_Box/ru.md).
--   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Цилиндр](Part_Cylinder/ru.md): Создаёт цилиндр. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Цилиндр](Part_Cylinder/ru.md).
--   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Конус](Part_Cone/ru.md): Создаёт конус. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Конус](Part_Cone/ru.md).
--   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Сфера](Part_Sphere/ru.md): Создаёт сферу. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Сфера](Part_Sphere/ru.md).
+-   <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Куб](Part_Box/ru.md): Создаёт куб. Этот объект также может быть создан с помощью инструмента [Куб](Part_Box/ru.md).
+-   <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Цилиндр](Part_Cylinder/ru.md): Создаёт цилиндр. Этот объект также может быть создан с помощью инструмента [Цилиндр](Part_Cylinder/ru.md).
+-   <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Конус](Part_Cone/ru.md): Создаёт конус. Этот объект также может быть создан с помощью инструмента [Конус](Part_Cone/ru.md).
+-   <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Сфера](Part_Sphere/ru.md): Создаёт сферу. Этот объект также может быть создан с помощью инструмента [Сфера](Part_Sphere/ru.md).
 -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Эллипсоид](Part_Ellipsoid/ru.md): Создаёт эллипсоид.
--   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Тор](Part_Torus/ru.md): Создаёт тор. Этот объект также может быть создан с помощью инструмента <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Тор](Part_Torus/ru.md).
+-   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Тор](Part_Torus/ru.md): Создаёт тор. Этот объект также может быть создан с помощью инструмента [Тор](Part_Torus/ru.md).
 -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Призма](Part_Prism/ru.md): Создаёт призму.
 -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Клин](Part_Wedge/ru.md): Создаёт клин.
 -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Винтовая спираль(Helix)](Part_Helix/ru.md): Создаёт винтовую спираль.

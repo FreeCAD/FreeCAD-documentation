@@ -41,7 +41,7 @@ Narzędzie **Wyciągnięcie po ścieżce** środowiska pracy Część jest podob
 
 ### Akceptowana geometria 
 
--   **Profile**: mogą być punktem *(wierzchołkiem)*, linią *(krawędzią)*, konturem lub ścianą. Krawędzie i kontury mogą być otwarte lub zamknięte. Istnieją różne [ograniczenia](#Ograniczenia.md), patrz poniżej.
+-   **Profile**: mogą być punktem *(wierzchołkiem)*, linią *(krawędzią)*, konturem lub ścianą. Krawędzie i kontury mogą być otwarte lub zamknięte. Istnieją różne [ograniczenia](#Ograniczenia.md), patrz poniżej. W niektórych przypadkach nie wystarczy prawidłowo zrównać profil ze ścieżką. Aby narzędzie zadziałało poprawnie, może być również konieczne [dołączenie](Part_EditAttachment/pl.md) profilu do ścieżki. Jeśli szkic profilu jest dołączony do złego końca krawędzi ścieżki, zmień wartość właściwości **Map Path Parameter** z 0 na 1.
 
 -   **Ścieżka**: może być linią *(krawędzią)* lub serią linii połączonych, linią złożoną lub różnymi elementami pierwotnymi środowiska Część, elementami środowiska Rysunek Roboczy, lub szkicem. Ścieżka może być otwarta lub zamknięta.
 

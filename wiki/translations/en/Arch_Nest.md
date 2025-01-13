@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch Nest
-   MenuLocation: Arch , Panel tools , Nest
-   Workbenches: Arch_Workbench
+   MenuLocation: Utils , Panel tools , Nest
+   Workbenches: BIM_Workbench
    Version: 0.17
    SeeAlso: Arch_Panel, Arch_Panel_Sheet
 ---
@@ -11,7 +11,7 @@
 
 ## Description
 
-The **<img src="images/Arch_Nest.svg" width=16px> [Arch Nest](Arch_Nest.md)** tool allows to select a flat shape to be a container, and a series of other flat shapes to be organized inside the space defined by the container shape. This is typically needed for CNC operations, where you want to cut a series of pieces out of a base panel, and need to organize those pieces in the best possible compact way so they occupy less space on the panel.
+The **Arch Nest** tool allows to select a flat shape to be a container, and a series of other flat shapes to be organized inside the space defined by the container shape. This is typically needed for CNC operations, where you want to cut a series of pieces out of a base panel, and need to organize those pieces in the best possible compact way so they occupy less space on the panel.
 
 The algorithm behind the Nest tool is in constant evolution, and is currently not fully optimized. In the future the performance of this tool should become much better.
 
@@ -21,9 +21,9 @@ The algorithm behind the Nest tool is in constant evolution, and is currently no
 
 ## Usage
 
-1.  Press the **<img src="images/Arch_Nest.svg" width=16px> [Arch Nest](Arch_Nest.md)** button.
+1.  Select the **Utils → Panel tools → <img src="images/Arch_Nest.svg" width=16px> Nest** option from the menu.
 2.  Select an object to be the container. This object must be flat, and, at the moment, rectangular.
-3.  Click the **Pick container** button to use that object as the container.
+3.  Click the **Pick selected** button to use that object as the container.
 4.  Select a series of other flat objects that you wish to place inside the container. These objects must all be flat and in the same plane as the container.
 5.  Adjust desired options below.
 6.  Start the calculation process.
@@ -43,5 +43,13 @@ The algorithm behind the Nest tool is in constant evolution, and is currently no
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/en
+⏵ [documentation index](../README.md) > Arch Nest/en

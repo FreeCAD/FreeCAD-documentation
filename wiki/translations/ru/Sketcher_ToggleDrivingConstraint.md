@@ -17,22 +17,40 @@
 
 ## Описание
 
-The **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Toggle driving constraint](Sketcher_ToggleDrivingConstraint.md)** tool turns dimensional constraints (Lock, Horizontal/Vertical distance, Length, Radius and Angle) into reference mode, and back. The icons in the toolbar turn blue, and rather than dimensional constraints, reference dimensions are created. Reference dimensions do not constrain the sketch. It can be useful to create reference dimensions in a sketch as a way to check on measurements; when given a name, they can also be used to drive constraints in another sketch through [expressions](Expressions.md).
+The <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:24px;"> [Sketcher ToggleDrivingConstraint](Sketcher_ToggleDrivingConstraint.md) tool either toggles the [dimensional constraint creation tools](Sketcher_Workbench#Sketcher_CompDimensionTools.md) between driving and reference mode, or toggles selected dimensional constraints between those modes.
 
-![](images/Sketcher_Constraint_Toolbar_ReferenceMode.png ) 
-*The Sketcher Constraint toolbar with the dimensional constraints in reference dimension mode (blue).*
+Contrary to driving constraints, reference constraints do not constrain the sketch, their value depends on other constraints, they are driven. They can be useful to verify measurements. They can be used in [expressions](Expressions.md), but not in the sketch itself.
 
 ![](images/Sketcher_ToggleConstraint_example.png ) 
-*A horizontal distance constraint (50 mm), a vertical constraint (30 mm) and an angle constraint (75°) were set to define the profile; a reference dimension was added on the slanted line segment to know its length (31.0583 mm).*
+*A driving horizontal distance constraint (50 mm), a driving vertical distance constraint (30 mm) and a driving angle constraint (75°) were set to define the profile; a reference dimension was added on the slanted line segment to know its length (31.0583 mm).*
 
 
 
 ## Применение
 
-1.  Press the **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Toggle driving constraint](Sketcher_ToggleDrivingConstraint.md)** button. The dimensional constraints icons in the Sketcher Constraints toolbar turn from red to blue.
-2.  The usual method of creating dimensional constraints works the same, but a blue reference dimension is added instead.
-3.  To turn the Sketcher Constraints toolbar back to constraint mode (red), press the Toggle Constraint button again.
-4.  To turn a dimensional constraint into a reference dimension, or the reverse, select it and press the Toggle Constraint button.
+### Toggle tools 
+
+1.  Make sure no dimensional constraints have been selected.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ToggleDrivingConstraint.svg" width=16px> [Toggle driving/reference constraint](Sketcher_ToggleDrivingConstraint.md)** button.
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ToggleDrivingConstraint.svg" width=16px> Toggle driving/reference constraint** option from the menu.
+    -   Use the keyboard shortcut: **K** then **X**.
+3.  The mode of the dimensional constraint creation tools is toggled:
+    -   In driving mode their menu and toolbar icons are red, and they create driving constraints (default [color](Sketcher_Preferences#Appearance.md) red). The icon of this tool is then: <img alt="" src=images/Sketcher_ToggleConstraint.svg  style="width:16px;">.
+    -   In reference mode their menu and toolbar icons are blue, and they create reference constraints (default color blue). The icon of this tool is then: <img alt="" src=images/Sketcher_ToggleConstraint_Driven.svg  style="width:16px;">.
+
+### Toggle constraints 
+
+1.  Select one or more dimensional constraints.
+2.  Invoke the tool as described above, or with one of the following additional options:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ToggleDrivingConstraint.svg" width=16px> Toggle driving/reference constraint** option from the context menu.
+
+    -   Right-click in the **Constraints** section of the [Sketcher Dialog](Sketcher_Dialog.md) and select the **Toggle to/from reference** option from the context menu.
+3.  The selected constraints are changed from driving to reference mode or vice versa. Their appearance changes accordingly.
+4.  The mode of the dimensional constraint creation tools is not changed.
 
 
 <div class="mw-translate-fuzzy">

@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil Intégrer un objet incorpore un objet à paroi (un tuyau, par exemple) dans un autre objet à paroi.
+L\'outil <img alt="" src=images/Part_JoinEmbed.svg  style="width:24px;"> **Part Intégrer** incorpore un objet à paroi (un tuyau, par exemple) dans un autre objet à paroi.
 
 ![600px](images/JoinFeatures_Embed.png)
 
@@ -20,10 +20,11 @@ L\'outil Intégrer un objet incorpore un objet à paroi (un tuyau, par exemple) 
 
 ## Utilisation
 
-1.  Sélectionnez d\'abord l\'objet de base, puis l\'objet à intégrer. L\'ordre de sélection est important. Il suffit de sélectionner une sous-forme de chaque objet (par exemple, des faces).
-2.  Lancez la commande Intégrer un objet.
-
-Un objet Part Intégrer est créé, avec le mode défini sur \'Embed\' (Intégré). Les objets originaux sont masqués et le résultat de l\'intégration est affiché dand la vue 3D.
+1.  Sélectionnez d\'abord l\'objet de base, puis l\'objet à intégrer. L\'ordre de sélection est important. Il suffit de sélectionner une sous forme de chaque objet (par exemple les faces).
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Part_JoinEmbed.svg" width=16px> [Intégrer un objet](Part_JoinEmbed/fr.md)**.
+    -   Sélectionnez l\'option **Part → Joindre → <img src="images/Part_JoinEmbed.svg" width=16px> Intégrer un objet** du menu.
+3.  Un objet Part JoinFeature est créé, avec un mode défini sur \"Embed\". Les objets originaux sont cachés et le résultat de la découpe est affiché dans la [vue 3D](3D_view/fr.md).
 
 
 
@@ -32,13 +33,13 @@ Un objet Part Intégrer est créé, avec le mode défini sur \'Embed\' (Intégr�
 
 {{TitleProperty|Base}}
 
--    **Base**: Référence à l\'objet de base (celui dans lequel l\'autre objet doit être incorporé). L\'objet doit être un seul solide.
+-    **Base**: référence à l\'objet de base (celui dans lequel l\'autre objet doit être incorporé). L\'objet doit être un seul solide.
 
--    **Tool**: Référence à l\'objet Insert (l\'objet à incorporer). L\'objet peut être un solide unique ou un [composé valide](Part_Compound/fr.md) de solides.
+-    **Tool**: référence à l\'objet Insert (l\'objet à intégrer). L\'objet peut être un solide unique ou un [composé valide](Part_Compound/fr.md) de solides.
 
--    **Mode**: Le mode opératoire est égal à \'Intégrer\' (Changer ce qui transformera l\'Insert en une autre Part_JoinXXX). La valeur \'bypass\' peut être utilisée pour désactiver temporairement les calculs longs (un composé de Base et Insert sera créé, ce qui est une opération rapide).
+-    **Mode**: le mode opératoire équivalent à \"Intégrer\" (modifier cela transformera l\'outil en un autre Part_JoinXXX). La valeur \"bypass\" peut être utilisée pour désactiver temporairement les calculs longs (un composé de Base et Tool sera créé, ce qui est une opération rapide).
 
--    **Refine**: Définit si l\'opération [Affiner](Part_RefineShape/fr.md) doit être appliquée ou non à la forme finale. La valeur par défaut est déterminée par une case à cocher \"Affiner automatiquement la forme après l\'opération booléenne\" dans les préférences de PartDesign. Lorsque la propriété Mode est réglée sur \"bypass\", Affiner est ignoré (jamais appliqué).
+-    **Refine**: [affiner](Part_RefineShape/fr.md) ou non la forme finale. La valeur par défaut est déterminée par une case à cocher \"Affiner automatiquement la forme après l\'opération booléenne\" dans les préférences de PartDesign. Lorsque la propriété Mode est réglée sur \"bypass\", Affiner est ignoré (jamais appliqué).
 
 
 
@@ -65,7 +66,7 @@ Les algorithmes derrière les outils Joindre sont assez simples et leur compréh
 
 3\. Le plus grand solide est une [Union](Part_Fuse/fr.md) avec l\'objet Tool.
 
-4\. Si la propriété Affiner est vraie, la forme résultante est [affinée](Part_RefineShape/fr.md).
+4\. Si la propriété Refine est vraie, la forme résultante est [affinée](Part_RefineShape/fr.md).
 ![800px](images/_JoinFeatures-Algo-Embed.png)
 
 

@@ -45,9 +45,9 @@ Abhängig von der Auswahl werden einige Felder aktiviert oder bleiben deaktivier
 
 ### Gewindeart und -Größe 
 
--   **Profil**: Wenn auf *Ohne* gesetzt, wird keine Gewindeinfo definiert. Einträge für [ISO-](https://en.wikipedia.org/wiki/ISO_metric_screw_thread) und [UTS-](https://en.wikipedia.org/wiki/Unified_Thread_Standard)Gewindeprofile aktivieren die Felder zur Einstellung der *Größe*.
+-   **Profil**: Wenn auf *Ohne* gesetzt, wird keine Gewindeinfo definiert. Einträge für [ISO-](https://en.wikipedia.org/wiki/ISO_metric_screw_thread) und [UTS-](https://en.wikipedia.org/wiki/Unified_Thread_Standard)Gewindeprofile aktivieren die Felder zur Einstellung von *Größe*, *Spiel*, *Mit Gewinde versehen*.
 -   **Mit Gewinde versehen**: Wenn aktiviert, werden der Bohrungsfunktion Gewindedaten hinzufügt und der Kerndurchmesser des Gewindes verwendet. Wenn nicht aktiviert, gilt die Bohrung als gewindefrei und der Nenndurchmesser mit definiertem *Spiel* wird ausgewählt.
--   **Gewinde darstellen**: Wenn aktiviert, wird ein richtiges Gewinde geformt. Dies verbraucht viel Rechenleistung und wird für Modelle normalerweise nicht verwendet, außer für Anschauungszwecke oder manchmal für 3D-Drucke. Wenn es verwendet wird, wird empfohlen, diese Funktion als eine der letzten zu aktivieren, weil sie die Rechenzeit für Neuberechnungen signifikant erhöht. ({{Version/de|0.20}})
+-   **Gewinde darstellen**: Wenn aktiviert, wird ein richtiges Gewinde geformt. Dies verbraucht viel Rechenleistung und wird für Modelle normalerweise nicht verwendet, außer für Anschauungszwecke oder manchmal für 3D-Drucke. Wenn es verwendet wird, wird empfohlen, diese Funktion als eine der letzten zu aktivieren, weil sie die Rechenzeit für Neuberechnungen signifikant erhöht.
 -   **Richtung**: Legt die Gewinderichtung fest (Rechtsgewinde oder Linksgewinde), wenn *Mit Gewinde versehen* aktiviert ist.
 -   **Größe**: Legt die Gewindegröße fest. Erfordert, dass *Profil* auf eines der [ISO-](https://en.wikipedia.org/wiki/ISO_metric_screw_thread) oder [UTS-](https://en.wikipedia.org/wiki/Unified_Thread_Standard)Gewindeprofile eingestellt ist.
 -   **Spiel**: Stellt entweder Standard, Eng oder Weit für das Spiel von Durchgangsbohrungen ein. Für ISO-Gewinde entsprechen die Durchmesser der Norm ISO 273, für UTS werden sie nach einer Faustregel berechnet, da es keine Norm gibt, die sie festlegt. Nur für Bohrungen ohne Gewinde (Durchgangsbohrung) verfügbar.
@@ -59,21 +59,21 @@ Abhängig von der Auswahl werden einige Felder aktiviert oder bleiben deaktivier
 
 ### Bohrloch
 
--   **Typ**: Legt die Art der Senkung fest: *Nichts* bedeutet ohne Senkung (Durchgangsloch); andere Optionen sind verschiedene Schraubennormen und die generischen Typen *Flachsenkung*, *Kegelsenkung* und ({{Version/de|0.21}}) *Bohrsenkung*.
+-   **Art der Senkung**: Legt die Ausführung der Senkung fest: *Nichts* bedeutet ohne Senkung; andere Optionen sind verschiedene Schraubennormen und die generischen Typen *Flachsenkung*, *Kegelsenkung* und ({{Version/de|0.21}}) *Bohrsenkung*. Die Varianten ISO und DIN 7984 erscheinen, wenn für *Profil* ISO oder DIN ausgewählt wird.
 -   **Durchmesser**: Legt den oberen Durchmesser (an der Skizzenebene) für die Senkung fest.
--   **Tiefe**: Die Festlegung der Tiefe ist abhängig von der Art (Type) der Senkung:
+-   **Tiefe**: Die Festlegung der Tiefe ist abhängig von der Art der Senkung:
     -   Für eine *Flachsenkung* ist es die Tiefe der Senkung, von der Skizzenebene aus gemessen.
     -   Für eine *Kegelsenkung* ist es die Höhe eines Schraubenkopfes unterhalb der Skizzenebene.
     -   Für eine *Bohrsenkung* ist es die Tiefe des zylindrischen Anteils der Senkung.
--   **Winkel der Kegelsenkung**: Kegelwinkel der Senkung. Nur anwendbar für Kegelsenkungen.
+-   **Winkel der Kegelsenkung**: Kegelwinkel der Senkung. Nur anwendbar für Kegelsenkungen, Bohrsenkungen sowie Senkungen nach ISO 2009, ISO 7046 und ISO 10642.
 
 
 
 ### Bohrungsgrund
 
--   **Typ**: definiert den Grund der Bohrung, wenn *Tiefe* auf *Abmessung* gesetzt ist.
+-   **Bohrerspitze**: definiert den Bohrungsgrund, wenn *Tiefe* auf *Abmessung* gesetzt ist.
     -   **Flach** erstellt einen flachen Bohrungsgrund
-    -   **Konisch** erzeugt eine konische Vertiefung. Seine Option **Für die Tiefe berücksichtigen** zieht die Kegelhöhe von der *Abmessung* ab. Wenn also z.B. *Abmessung* 7,00 ist und die Option nicht verwendet wird, ist der zylindrische Teil der Bohrung 7,00 und die Höhe der konischen Vertiefung kommt noch hinzu. Wenn die Option verwendet wird, beträgt die gesamte Bohrungstiefe einschließlich der konischen Spitze 7,00.
+    -   **Konisch** erzeugt einen konischen Bohrungsgrund. Seine Option **Für die Tiefe berücksichtigen** zieht die Kegelhöhe von der *Abmessung* ab. Wenn also z.B. *Abmessung* 7,00 ist und die Option nicht verwendet wird, ist der zylindrische Teil der Bohrung 7,00 und die Höhe des konischen Anteils kommt noch hinzu. Wenn die Option verwendet wird, beträgt die gesamte Bohrungstiefe einschließlich der konischen Spitze 7,00.
 
 
 
@@ -97,7 +97,7 @@ Viele der Dateneigenschaften sind die gleichen wie unter [Optionen](#Optionen.md
 ## Einschränkungen
 
 -   Standardmäßig wird die Funktion Bohrung unterhalb der Skizzenebene extrudieren. Wenn der Volumenkörper auf der XY-Ebene liegt und die Lochskizze mit der XY-Ebene verbunden ist, wird sie versuchen, vom Volumenkörper weg zu extrudieren und scheinbar kein Ergebnis erzielen. In diesem Fall muss die Option *Umgekehrt* gesetzt werden, alternativ kann die Skizze auf die Unterseite des Volumenkörpers gelegt werden.
--   Gewinde darstellen funktioniert nur, wenn Umgekehrt nicht aktiviert ist.
+-   Gewinde darstellen funktioniert nur, wenn *Umgekehrt* nicht aktiviert ist.
 
 
 

@@ -18,45 +18,33 @@ La commande **Std Zoom arrière** effectue un zoom arrière dans la [vue 3D](3D_
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande :
-    -   Sélectionnez l\'option **Affichage → Zoom → <img src="images/Std_ViewZoomOut.svg" width=16px> Zoom arrière** dans le menu.
+1.  Il existe plusieurs façons de lancer la commande :
+    -   Sélectionnez l\'option **Affichage → Zoom → <img src="images/Std_ViewZoomOut.svg" width=16px> Zoom arrière** du menu.
     -   Utilisez le raccourci clavier : **Ctrl**+**-**.
 
 
 
 ## Remarques
 
--   Il est également possible de dézoomer avec la molette de défilement de la souris.
+Voir [Std Zoom avant](Std_ViewZoomIn/fr#Remarques.md).
 
 
 
 ## Préférences
 
--   Le facteur de zoom peut être modifié dans les préférences : **Édition → Préférences... → Affichage → Navigation → Pas du zoom**. Ce paramètre affecte également le zoom de la molette de défilement. Voir [Éditeur de préférences](Preferences_Editor/fr#Navigation.md).
+Voir [Std Zoom avant](Std_ViewZoomIn/fr#Préférences.md).
 
 
 
 ## Script
 
-
-**Voir aussi :**
-
-[FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
-
-Pour dézoomer, utilisez la méthode `zoomOut` de l\'objet ActiveView. Cette méthode n\'est pas disponible si FreeCAD est en mode console.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.zoomOut()
-```
+Voir [Std Zoom avant](Std_ViewZoomIn/fr#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

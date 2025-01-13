@@ -11,7 +11,7 @@ Queste icone si trovano nel percorso di origine indicato di Link Branch di Realt
 
 ![](images/Assembly_Disabled.svg ) ![](images/Assembly_GotoRelation.svg ) ![](images/Assembly_Import.svg ) ![](images/Assembly_ImportMulti.svg ) ![](images/Assembly_LockMover.svg ) ![](images/Assembly_Move.svg ) ![](images/Assembly_New_Assembly.svg ) ![](images/Assembly_New_Element.svg ) ![](images/Assembly_New_Group.svg ) ![](images/Assembly_QuickMove.svg )
 
-![](images/Assembly_QuickSolve.svg ) ![](images/Assembly_ShowElementCS.svg ) ![](images/Assembly_SmartRecompute.svg ) ![](images/Assembly_TogglePartVisibility.svg ) ![](images/Assembly_Trace.svg ) ![](images/Assembly_TreeItemDown.svg ) ![](images/Assembly_TreeItemUp.svg ) ![](images/Assembly_Workplane.svg ) ![](images/AssemblyWorkbench.svg )
+![](images/Assembly_QuickSolve.svg ) ![](images/Assembly_ShowElementCS.svg ) ![](images/Assembly_SmartRecompute.svg ) ![](images/Assembly_TogglePartVisibility.svg ) ![](images/Assembly_Trace.svg ) ![](images/Assembly_TreeItemDown.svg ) ![](images/Assembly_TreeItemUp.svg ) ![](images/Assembly_Workplane.svg ) ![](images/Assembly3_workbench_icon.svg )
 
 ### Mod/asm3/freecad/asm3/Gui/Resources/icons/constraints/
 
@@ -30,4 +30,4 @@ Queste icone si trovano nel percorso di origine indicato di Link Branch di Realt
 
 
 ---
-⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/it
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Assembly3/it

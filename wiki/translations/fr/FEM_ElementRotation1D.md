@@ -1,10 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM ElementRotation1D
    Name/fr: FEM Rotation d'un élément 1D
    MenuLocation: Modèle , Géométrie de l'élement , Rotation d'un élément 1D
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: CalculiX
+}}
 ---
 
 # FEM ElementRotation1D/fr
@@ -22,11 +28,14 @@
     -   Sélectionnez l\'option **Modèle → Géométrie de l'élément → <img src="images/FEM_ElementRotation1D.svg" width=16px> Rotation d'un élément 1D** du menu.
 2.  Spécifiez l\'angle selon lequel le profilé de l\'élément doit être tourné.
 
-## Options
-
 
 
 ## Propriétés
+
+
+**Rotation**
+
+: spécifie l\'angle de rotation.
 
 ## Limitations
 
@@ -37,6 +46,7 @@
 ## Remarques
 
 -   Pour visualiser la section transversale tournée, il est nécessaire de définir `Beam Shell Result Output 3D` dans le [FEM Solveur CalculiX standard](FEM_SolverCalculixCxxtools/fr.md) sur `True` et de lancer l\'analyse.
+-   Cette fonction utilise le [jeu de paramètres \*BEAM SECTION de CalculiX](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node162.html).
 
 
 

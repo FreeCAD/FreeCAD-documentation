@@ -13,7 +13,7 @@
 
 ## Description
 
-L\'outil **TechDraw Aligner obliquement** aligne les cotes obliques pour créer une chaîne de cotes.
+L\'outil **TechDraw Aligner obliquement** aligne les cotes inclinées pour créer une chaîne de cotes.
 
 <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimensionExample.png  style="width:400px;"> 
 *A droite, les cotes alignées*
@@ -22,7 +22,7 @@ L\'outil **TechDraw Aligner obliquement** aligne les cotes obliques pour créer 
 
 ## Utilisation
 
-1.  Sélectionnez deux cotes obliques ou plus.
+1.  Sélectionnez deux cotes inclinées ou plus.
 2.  La première cote définit la position. Cette cote ne sera pas déplacée.
 3.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionPosObliqueChainDimension.svg" width=16px> [Aligner obliquement](TechDraw_ExtensionPosObliqueChainDimension/fr.md)**.

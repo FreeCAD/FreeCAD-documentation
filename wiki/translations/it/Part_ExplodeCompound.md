@@ -1,60 +1,44 @@
 ---
- GuiCommand:   Name: Part ExplodeCompound
-   Name/it: Esplodi composto
+ GuiCommand:
+   Name: Part ExplodeCompound
+   Name/it: Part esplodi composto
    MenuLocation: Part , Composto , Esplodi composto
-   Version: 0.18.15506
    Workbenches: Part_Workbench/it
+   Version: 0.18
    SeeAlso: Part_Compound/it, Draft Downgrade/it
 ---
 
 # Part ExplodeCompound/it
 
 
-</div>
 
 ## Descrizione
 
+Lo strumento <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> **Part Esplodi composto** suddivide un composto di forme, per rendere disponibile ciascuna forma contenuta (figlio) come oggetto separato nell\'albero del modello. I figli vengono automaticamente inseriti in un [Gruppo](Std_Group/it.md) se c\'è più di un figlio.
 
-<div class="mw-translate-fuzzy">
-
-Strumento per dividere composti di forme, per rendere ogni forma contenuta (figlio) disponibile come oggetto separato nell\'albero del modello. I figli vengono automaticamente inseriti in [Gruppo](Std_Group/it.md) se c\'è più di un figlio.
-
-
-</div>
-
-È semi-parametrico: le forme dei figli si aggiorneranno man mano che il composto sorgente cambia, ma se viene modificato il numero di figli nel composto, nell\'esploso mancano alcune forme o ci sono oggetti ridondanti in una condizione di errore.
+È semi-parametrico: le forme dei figli si aggiorneranno man mano che il composto sorgente cambia, ma se viene modificato il numero di figli nel composto, nell\'esploso mancheranno alcune forme o ci saranno oggetti ridondanti in una condizione di errore.
 
 I posizionamenti delle forme estratte seguono i posizionamenti degli originali, oltre alla proprietà Posizionamento di ogni figlio.
 
 Lo strumento esplode anche forme non composte nei loro costituenti di livello inferiore: solidi composti in solidi, solidi in gusci, gusci in facce, facce in contorni, contorni in bordi, bordi in vertici.
 
+
+
 ## Utilizzo
 
-1.  Invocare il comando Esplodi il composto in uno di questi modi:
-    -   Premere sul pulsante <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> nella barra degli strumenti di Part
-    -   Usare **Parte → Composto → Esplodi il composto** dal menu principale
+1.  Selezionare un singolo composto.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Part_ExplodeCompound.svg" width=16px> [Esplodi composto](Part_ExplodeCompound/it.md)**.
+    -   Selezionare l\'opzione **Parte → Composto → <img src="images/Part_ExplodeCompound.svg" width=16px> Esplodi composto** dal menu.
+
+
 
 ## Casi d\'uso 
 
-
-<div class="mw-translate-fuzzy">
-
--   modificare le posizioni delle forme realizzate da una <img alt="" src=images/Draft_Array.svg  style="width:24px;"> [Serie](Draft_Array/it.md) di Draft
--   ottenere pezzi divisi dal risultato di <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Affetta in composto](Part_Slice/it.md) o da una <img alt="" src=images/Part_Cut.svg  style="width:24px;"> [Sottrazione booleana](Part_Cut/it.md)
--   ottenere i contorni individuali dagli schizzi e dalle facce multi-contorno
--   ottenere un solido puro da un solido in un composto, da utilizzare nell\'ambiente <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   La modifica delle posizioni delle forme create da <img alt="" src=images/Draft_OrthoArray.svg  style="width:16px;"> [Draft Serie ortogonale](Draft_OrthoArray/it.md)
+-   L\'ottenimento di pezzi divisi dal risultato di <img alt="" src=images/Part_Slice.svg  style="width:16px;"> [Part Affetta](Part_Slice/it.md) e <img alt="" src=images/Part_Cut.svg  style="width:16px;"> [Part Taglio](Part_Cut/it.md)
+-   L\'ottenimento di contorni individuali da schizzi e facce a più contorni
+-   L\'ottenimento di un solido puro da un solido in composto, da utilizzare in <img alt="" src=images/Workbench_FEM.svg  style="width:16px;"> [Ambiente FEM](FEM_Workbench/it.md).
 
 
 

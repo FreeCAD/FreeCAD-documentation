@@ -1,22 +1,16 @@
 # Macro Texture/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
 |Name=Macro Texture
-|Translate=Macro Texture
+|Translate=Makro Textur
 |Icon=FCTexture.png
-|Description=Erzeugt ein 3D-Bild aus einem BMP-Bild.
+|Description=Das Makro erstellt ein 3D-Bild von einem 8-bit (256 Farben) BMP-Bild.<br/>Mit andern Worten: Es ermöglicht ein 3D-Projekt sehr einfach von einem Bitmap-Bild, das eine Grauskala mit 256 Graustufen verwendet, ausgehend aufzubauen.<br/>Ist ein 32-bit BMP-Bild ausgewählt, wird das Bild durch Punkte dargestellt.<br/>Das Makro '''FCCreaLoft Macro Loft''' wird verwendet, um die mehrfache Loft-Ausführung zu automatisieren.
 |Author=Mario52
-|Version=0.14c
-|Date=2021/01/16
-|FCVersion=0.18 and more
-|Download=[https://www.freecadweb.org/wiki/images/9/90/FCTexture.png ToolBar Icon], [https://www.freecadweb.org/wiki/Macro_Loft Macro Loft] [16px|FCCreaLoft](File:FCCreaLoft.png.md)
+|Version=0.15
+|Date=2025/01/04
+|FCVersion=0.18 und neuer
+|Download=[https://www.freecad.org/wiki/images/9/90/FCTexture.png ToolBar-Icon]
 |SeeAlso=[32px|FCCreaLoft](File:FCCreaLoft.png.md) [Macro Loft](Macro_Loft/de.md)
 }}
-
-
-</div>
 
 
 
@@ -24,26 +18,14 @@
 
 Mit diesem kleinen Makro können Sie aus einem Bitmap-Bild mit 256 Graustufen sehr einfach ein 3D-Projekt erstellen.
 
-
-<div class="mw-translate-fuzzy">
-
-Ich hoffe, dass dieses Makro die Denkweise von CAD und CNC jedes Bild revolutionieren wird, wenn das, was ohne Eingriff in Objekt 3D konvertiert werden kann.
-
-
-</div>
+Ich hoffe, dass dieses Makro unsere Denkweise beim Modellieren mit CAD und CNC revolutionieren wird, wenn das Konvertieren in 3D-Objekte kaum bis gar keine Eingriffe braucht.
 
 Alles wird möglich, unabhängig von der Komplexität des Bildes!
 
-
-<div class="mw-translate-fuzzy">
-
-Das Makro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/de.md) wird zum Automatisieren der Multi Loft-Operation benutzt.
+Das <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Makro Loft](Macro_Loft/de.md) wird zum Automatisieren der Multi-Loft-Operation benutzt.
 
 
-</div>
-
-
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/3ec2ab127d8ad01a6b657aa5df9a6127ff07c7c0/Macro%2520FCTexture.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/f18613c8bfd142e644ba79fc8dd34a5f72282f18/Macro%2520FCTexture.FCMacro}}
 
 <img alt="" src=images/Texture_004_Honda.png  style="width:480px;"> 
 *Texture 004 Honda*
@@ -66,13 +48,7 @@ Wichtiger Hinweis: Je nach Größe des Bildes kann das Projekt sehr groß werden
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### Die Schnittstelle 
-
-
-</div>
+### Schnittstelle
 
 <img alt="Texture 002" src=images/Texture_002.png  style="width:300px;">
 
@@ -80,132 +56,77 @@ Wichtiger Hinweis: Je nach Größe des Bildes kann das Projekt sehr groß werden
 
 #### Koordinaten
 
+-    **Coordinate X <img src="images/Std_CoordinateSystem.svg" width=24px>**{{SpinBox|0,00 mm}}: Die X-Koordinate der Position des Objekts (Standardwert: 0).
 
-<div class="mw-translate-fuzzy">
+-    **Coordinate Y <img src="images/Std_CoordinateSystem.svg" width=24px>**{{SpinBox|0,00 mm}}: Die Y-Koordinate der Position des Objekts (Standardwert: 0).
 
-#### Coordinate
-
--   Coordinate X <img alt="" src=images/Std_CoordinateSystem.svg  style="width:24px;"> {{SpinBox|0,00 mm}} : X-Koordinate der Position des Objekts, Standard: 0.
--   Coordinate Y <img alt="" src=images/Std_CoordinateSystem.svg  style="width:24px;"> {{SpinBox|0,00 mm}} : Y-Koordinate der Position des Objekts, Standard: 0.
--   Coordinate Z <img alt="" src=images/Std_CoordinateSystem.svg  style="width:24px;"> {{SpinBox|0,00 mm}} : Koordinate Z-Position des Objekts, Standard: 0.
-
-
-</div>
+-    **Coordinate Z <img src="images/Std_CoordinateSystem.svg" width=24px>**{{SpinBox|0,00 mm}}: Die Z-Koordinate der Position des Objekts (Standardwert: 0).
 
 #### Stretching
 
+-    **Stretching X**{{SpinBox|0,00 mm}}: Verkleinerung oder Vergrößerung des **X-Wertes** (Länge) des Objekts (Standardwert: 0)
 
-<div class="mw-translate-fuzzy">
+-    **Stretching Y**{{SpinBox|0,00 mm}}: Verkleinerung oder Vergrößerung des **Y-Wertes** (Höhe) des Objekts of the object (Standardwert: 0)
 
-#### Stetching
-
--   Stetching X {{SpinBox|0,00 mm}} : Verengung oder Vergrößerung der Objektlänge, Standard: 0.
--   Stetching Y {{SpinBox|0,00 mm}} : Verkleinerung oder Vergrößerung der Höhe des Objekts, Standardeinstellung: 0.
--   Stetching Z {{SpinBox|0,00 mm}} : Verkleinerung oder Vergrößerung der Objekttiefe, Standard: 0.
-
-
-</div>
+-    **Stretching Z**{{SpinBox|0,00 mm}}: Verkleinerung oder Vergrößerung des **Z-Wertes** (Tiefe) des Objekts (Standardwert: 0)
 
 #### Inversion
 
+-    {{CheckBox|Axis X}}: Kehrt die **X**-Koordinaten des Bildes um.
 
-<div class="mw-translate-fuzzy">
+-    {{CheckBox|Axis Y}}: Kehrt die **Y**-Koordinaten des Bildes um.
 
-#### Inversion 
-
--    {{CheckBox|Axis X}}: Umkehrkoordinaten **X** Bild.
-
--    {{CheckBox|Axis Y}}: Umkehrkoordinaten **Y** Bild.
-
--    {{CheckBox|Axis Z}}: Umkehrkoordinaten **Z** Bild.
+-    {{CheckBox|Axis Z}}: Kehrt die **Z**-Koordinaten des Bildes um.
 
 
-</div>
 
-#### 8 bit Mode 
-
-
-<div class="mw-translate-fuzzy">
-
-#### Modus 8 Bits 
+#### 8-Bit-Modus 
 
 Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte Funktion an: 0, wenn die Einstellung auf Schwarz (**Schwarz**) 255 oder 20 steht, wenn die Einstellung Weiß ist (**Weiß**).
 
+-    {{RadioButton|TRUE|<img src="images/Draft_Wire.svg" width=24px> Wire}}: Die Linie (Vektor) als Linienzug (Wire) erstellen.
 
-</div>
+-    {{RadioButton|<img src="images/Draft_BSpline.svg" width=24px> Bspline}}: Die Linie (Vektor) als -Spline erstellen.
 
+-    {{RadioButton|<img src="images/Workbench_Points.svg" width=24px> Cloud}}: Die Vektoren der Punkte in einer Punktewolke erstellen.
 
-<div class="mw-translate-fuzzy">
-
--    {{RadioButton|TRUE|<img src="images/Draft_Wire.svg" width=24px> Wire}}: Bauen Sie Ihre Linie (Vektor) in der Form von Wire.
-
--    {{RadioButton|<img src="images/Draft_BSpline.svg" width=24px> Bspline}}: Bauen Sie Ihre Linie (Vektor) in Form von Bspline.
-
--    {{RadioButton|<img src="images/Workbench_Points.svg" width=24px> Cloud}}: bildet die Punktvektoren in der Punktewolke.
-
--    {{RadioButton|<img src="images/Draft_Point.svg" width=24px> Point}}: erstellt an jedem Pixel (Vektor) einen Punkt. (die Prozedur kann lang sein)
+-    {{RadioButton|<img src="images/Draft_Point.svg" width=24px> Point}}: Erstellt einen Punkt an jedem Pixel (Vektor). (Hinweis: Diese Prozedur ist sehr rechenintensiv)
 
 -    {{CheckBox|Nuance}}: Wenn die Option Farbton aktiviert ist, wird die Farbe des Punktes als Bild dargestellt.
 
 
-</div>
 
-#### 32 bit Mode 
+#### 32-Bit-Modus 
 
+-    {{RadioButton|TRUE|Photo}}: Der Fotomodus wird automatisch aktiviert, wenn ein 32-Bit-Bild erkannt wird. (Hinweis: Die Prozedur ist sehr rechenintensiv)
 
-<div class="mw-translate-fuzzy">
-
-#### Mode 32 Bits 
-
--    {{RadioButton|TRUE|Photo}}: Der Fotomodus wird automatisch aktiviert, wenn ein 32-Bit-Bild erkannt wird. (die Prozedur kann lang sein)
-
--    {{RadioButton|Plan}}: Mit dem Plan können Sie ein **\'32-Bit-Bild** importieren und den Hintergrund des Plans ignorieren. Standardmäßig ist der Kartenhintergrund schwarz, um zu ignorieren, dass Farben mit dem Befehl **Capping** eingestellt werden können. Wenn Weiß markiert ist, wird der untere Bereich weiß angezeigt. (die Prozedur kann lang sein)
+-    {{RadioButton|Plan}}: Erlebt ein **\'32-Bit-Bild** zu importieren und den Hintergrund des Plans ignorieren. Standardmäßig ist der Kartenhintergrund schwarz, um zu ignorieren, dass Farben mit dem Befehl **Capping** eingestellt werden können. Wenn Weiß markiert ist, wird der untere Bereich weiß angezeigt. (Hinweis: Die Prozedur ist sehr rechenintensiv)
 
 
-</div>
 
-#### File
+#### Datei
 
+-    {{CheckBox|.pcd}}: Wenn aktiviert, wird eine Datei (originalName.bmp.pcd) im selben Verzeichnis wie die Datei (pcd v0.7) gespeichert.
 
-<div class="mw-translate-fuzzy">
-
-#### File 
-
--    {{CheckBox|.pcd}}: Wenn eine Datei markiert ist, wird originalName.bmp.pcd im selben Verzeichnis der Datei (pcd v0.7) gespeichert.
-
--    {{CheckBox|.asc}}: Wenn eine Datei markiert ist, wird originalName.bmp.asc im selben Verzeichnis der Datei gespeichert. Diese Datei kann als Cloud-Punkt verwendet werden (Format: X Y Z).
-
-
-</div>
+-    {{CheckBox|.asc}}: Wenn aktiviert, wird eine Datei (originalName.bmp.asc) im selben Verzeichnis wie die Datei gespeichert. Diese Datei kann als Punktwolke verwendet werden (Format: X Y Z).
 
 #### Capping (10mm) 
 
+-   Slider : Die Höhe des Formulars angeben. Die Höhe wird auf dem Titelrahmen angezeigt.
 
-<div class="mw-translate-fuzzy">
+-    {{SpinBox|0 height}}: Die Höhe des Formulars angeben. Die Höhe wird auf dem Titelrahmen angezeigt.
 
-#### Verschließen (10mm) 
+-   Raw mode {{CheckBox|20}} : Zum Einstellen der Anzahl der Farben (Tiefe). Der Standardmodus ist 0-20 (was ein Filter darstellt und weitere Details entsprechend der Komplexität des Bildes liefert), sobald der Modus 0 bis 255 (der gesamte Farbbereich) markiert ist.
 
--   Slider : gibt die Höhe des Formulars an, die auf dem Titelrahmen angezeigt wird.
+-    {{CheckBox}}: Diese Option ermöglicht Zugriff auf die Spinbox Contour.
 
--    {{SpinBox|0 height}}: gibt die Höhe des Formulars an, die auf dem Titelrahmen angezeigt wird.
+-    {{SpinBox|0/2 Contour}}: Diese Spinbox gibt die Konturlinie an. Nicht verwenden (außer: 0 für die Basis).
 
--   Raw mode {{CheckBox|20}} : zum Einstellen der Anzahl der Farben (Tiefe). Der Standardmodus ist 0-20 (was ein Filter darstellt und weitere Details entsprechend der Komplexität des Bildes erhalten), sobald der Modus 0 bis 255 (der gesamte Farbbereich) markiert ist.
-
--    {{CheckBox}}: Diese CheckBox hat die Spinbox aktiviert.
-
--    {{SpinBox|0/2 Contour}}: Diese Spinbox gibt die Konturlinie nicht an (zB: 0 für die Basis).
-
--   Capping {{CheckBox|White}} : Die Capping-Funktion kann auf der Farbauswahl (Weiß (Standard) oder Schwarz) festgelegt werden. Der Grad der Verkappung der Regel 20 auf 0 (oder 255 auf 0), wenn das Kontrollkästchen auf **W** (nicht markiert) oder 0 bis 20 (oder 0 bis 255) gesetzt ist, wenn das Kontrollkästchen auf **B gesetzt ist**(geprüft).
+-   Capping {{CheckBox|White}} : Diese Funktion kann auf der Farbauswahl (Weiß (Standard) oder Schwarz) festgelegt werden. Der Grad der Verkappung der Regel 20 auf 0 (oder 255 auf 0), wenn das Kontrollkästchen auf **W** (nicht markiert) oder 0 bis 20 (oder 0 bis 255) gesetzt ist, wenn das Kontrollkästchen auf **B gesetzt ist**(geprüft).
 
 -    {{SpinBox|20 Capping}}: Diese Spinbox gibt den Grad der Verkappung an.
 
 
-</div>
-
-#### Command
-
-
-<div class="mw-translate-fuzzy">
 
 #### Befehl
 
@@ -221,9 +142,6 @@ Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte F
     -   \_\_Für die Suche, ob das Makro aktualisiert wurde:\_\_
     -   User parameter:**BaseApp/Preferences/Macros/FCMmacros/FCTexture → switchVesionMacroSearch**
     -   Passen Sie die switchVesionMacroSearch auf `True` an (standardmäßig `False`).
-
-
-</div>
 
 -    **Quit**: beendet die Funktion.
 
@@ -264,7 +182,7 @@ The images were inclined to enhance the 3D effect.
 
 <File:Texture> Nano Photo.png\|Here an example of a bmp image converted to points and restoring picture the width of the image is 6.5 nm
 [thanks for the permission of Yorik](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893#p47075) Image:Texture NanoDesign.png\|Here an example of a bmp image converted to object 3D of 6.7 nm width.
-[thanks for the permission of Yorik](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893#p47075)
+[thanks for the permission of Yorik](https://forum.freecad.org/viewtopic.php?f=24&t=5893#p47075)
 
 
 </center>
@@ -273,7 +191,7 @@ The images were inclined to enhance the 3D effect.
 
 <center>
 
-Image:Texture 001 Logo.png\|The logo of FreeCAD. Image:Texture 002 Fe FC.png\|A portion of the screen FreeCAD. The [file](http://forum.freecadweb.org/viewtopic.php?f=3&t=4708&start=10#p46353).
+Image:Texture 001 Logo.png\|The logo of FreeCAD. Image:Texture 002 Fe FC.png\|A portion of the screen FreeCAD. The [file](https://forum.freecad.org/viewtopic.php?f=3&t=4708&start=10#p46353).
 
 
 </center>
@@ -291,7 +209,7 @@ Image:Texture_003_napperon.png\|A portion of a tablecloth. Image:Texture_005_lar
 
 <center>
 
-<File:FCTexture> 006.png\|Mode Plan: the image on the left the white background has been ignored in the right image the colour black has been ignored (an [example](http://forum.freecadweb.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024) on the forum)
+<File:FCTexture> 006.png\|Mode Plan: the image on the left the white background has been ignored in the right image the colour black has been ignored (an [example](https://forum.freecad.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024) on the forum)
 
 
 </center>
@@ -322,7 +240,7 @@ Image:Texture_003_napperon.png\|A portion of a tablecloth. Image:Texture_005_lar
 **1:** Create loft with the <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> tools or with the <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/de.md)
 **2:** Select all and extrude with the tools <img alt="" src=images/Part_Extrude.svg  style="width:24px;">
 **3A:** For Linux Download [GMSHMesh](https://github.com/psicofil/Macros_FreeCAD) (author psicofil) [Macro_GMSH Wiki page](Macro_GMSH.md)
-**3B:** For Windows Download [GmshMesh2.zip](http://forum.freecadweb.org/download/file.php?id=15220) unzip the file and install it in your Mod directory (author ulrich1a)
+**3B:** For Windows Download [GmshMesh2.zip](https://forum.freecad.org/download/file.php?id=15220) unzip the file and install it in your Mod directory (author ulrich1a)
 **4:** Create your Mesh file and use it
 
 
@@ -341,23 +259,17 @@ Image:Texture_003_napperon.png\|A portion of a tablecloth. Image:Texture_005_lar
 
 ## Verweise
 
-
-<div class="mw-translate-fuzzy">
-
-## Links
-
-Die Diskussion über [the forum](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893) Um Ihre Eindrücke zu vermitteln oder kontaktieren Sie mich.
-
-
-</div>
+Die Diskussion über [the forum](https://forum.freecad.org/viewtopic.php?f=24&t=5893) Um Ihre Eindrücke zu vermitteln oder kontaktieren Sie mich.
 
 Das Makro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/de.md) wird zum Automatisieren der Multi Loft-Operation benutzt.
 
-[apply hair cell texture](http://forum.freecadweb.org/viewtopic.php?f=3&t=4708&start=10#p46353)
+[apply hair cell texture](https://forum.freecad.org/viewtopic.php?f=3&t=4708&start=10#p46353)
 
-[How to handle pdf import properly and feasibly?](http://forum.freecadweb.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024)
+[How to handle pdf import properly and feasibly?](https://forum.freecad.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024)
 
 ## Revision
+
+-   ver 0.15 2025/01/04 delette all references to PySide and QtWidgets , chrono by chrisb
 
 -   Ver 0.14c : 15-01-2021 include **Gui.SendMsgToActiveView(\"ViewFit\")**
 

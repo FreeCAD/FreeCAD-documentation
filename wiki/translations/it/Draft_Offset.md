@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Offset
-   Name/it: Offset
-   MenuLocation: Modifiche , Offset
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Offset
+   MenuLocation: Modifiche , Offset<br>Modifica , Offset
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **O** **S**
    SeeAlso: Part_Offset2D/it
 ---
@@ -28,7 +28,8 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 1.  Facoltativamente selezionare un oggetto. L\'oggetto deve trovarsi sul [piano di lavoro](Draft_SelectPlane/it.md).
 2.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Offset.svg" width=16px> [Offset](Draft_Offset/it.md)**.
-    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Offset.svg" width=16px> Offset** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Modifiche → <img src="images/Draft_Offset.svg" width=16px> Offset** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_Offset.svg" width=16px> Offset** dal menu.
     -   Usare la scorciatoia da tastiera: **O** poi **S**.
 3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
 4.  Si apre il pannello attività **Offset**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
@@ -44,7 +45,7 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 
 ## Opzioni
 
-È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 0.22).
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 1.0).
 
 -   Se la casella di controllo **Offset in OCC** è selezionata, viene utilizzato uno stile di offset speciale: le [Polilinee](Draft_Wire/it.md) aperte sono sfalsate su entrambi i lati e i nuovi bordi sono collegati con angoli arrotondati. Questo funziona solo per oggetti planari con almeno due spigoli. Si noti che con questo stile viene creato un nuovo oggetto non parametrico e, se la modalità di copia è disattivata, l\'oggetto originale viene eliminato.
 -   Premere **C** o fare clic sulla casella di controllo **Copia** per attivare o disattivare la modalità di copia. Se la modalità copia è attiva, il comando creerà una copia sfalsata invece di sfalsare l\'oggetto originale.

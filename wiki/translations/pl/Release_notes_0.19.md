@@ -7,6 +7,8 @@ Starsze uwagi na temat wydania FreeCAD można znaleźć w [Lista funkcji](Featur
 
 *Simpson i Shipton, silnik parowy o krótkim skoku około 1845 roku, z poziomym tłokiem obrotowym, model wykonany przez **un1corn**, [Prezentacje użytkowników](https://forum.freecadweb.org/viewtopic.php?f=24&t=39024)*.
 
+
+
 ## Najważniejsze informacje 
 
 +++
@@ -35,15 +37,21 @@ Starsze uwagi na temat wydania FreeCAD można znaleźć w [Lista funkcji](Featur
 |                                                                               | Wśród wielu małych udoskonaleń, nowe funkcje obejmują: wymiary są teraz zgodne z jedną z norm ISO 129-1 lub ASME Y14.5M; nowe [adnotacje w dymkach](TechDraw_Balloon/pl.md) do umieszczania tekstu wewnątrz koła lub wielokąta; nowe [adnotacje tekstowe](TechDraw_RichTextAnnotation/pl.md) aby uwzględnić duże akapity sformatowane jako pogrubione lub kursywa; [wierzchołki kosmetyczne](TechDraw_CosmeticVertex.md) oraz [krawędzie kosmetyczne](TechDraw_FaceCenterLine/pl.md) które nie są częścią oryginalnego modelu, ale mogą być wykorzystane do stworzenia niestandardowych wymiarów; podstawowe wsparcie dla [symboli spawalniczych](TechDraw_WeldSymbol/pl.md); nowe [aktywne widoki](TechDraw_ActiveView/pl.md) w trybie *zrzut ekranu* okna [widoku 3D](3D_view/pl.md); nowe podstawowe szablony dla rozmiarów ISO *(A0 do A4)*, a także wzorce języka rosyjskiego i chińskiego; nowe wymiary poziome i pionowe, które mierzą [pełny zakres projekcji](TechDraw_HorizontalExtentDimension/pl.md); Kreskowanie SVG jest teraz dostępne, gdy strona jest eksportowana do SVG. Nowy obiekt [App Link](App_Link/pl.md) jest teraz również obsługiwany jako źródło do tworzenia widoków, co jest przydatne przy pracy ze [złożeniami](Assembly/pl.md). |
 +++
 
+
+
 ## Informacje ogólne 
 
 Z ponad 8128 zadań w gałęzi master od wydania wersji 0.18, jest to jedno z najbardziej rozbudowanych wydań w historii, z kilkoma nowymi komponentami, takimi jak nowy obiekt **App::Link**. Również wieloma nowymi narzędziami w Środowisku pracy [TechDraw](TechDraw_Workbench/pl.md), które czynią FreeCAD jeszcze potężniejszym dla zadań modelowania i montażu 3D. Poza tym, ekosystem FreeCAD nadal się rozrasta wraz z bardziej wyspecjalizowanymi [zewnętrznymi środowiskami pracy](external_workbenches/pl.md).
+
+
 
 ### Python 3 oraz Qt5 
 
 Wysiłek włożony w migrację z Pythona 2 i Qt4 do Pythona 3 i Qt5 jest zasadniczo zakończony i większość programistów przeniosła się do mechanizmów Pythona3/Qt5.
 
 Niewątpliwie istnieją nieprzewidziane błędy; zostaną one usunięte w miarę ich zgłaszania. Jakakolwiek istniejąca zależność od Pythona 2 lub Qt4 nie będzie wspierana po 1 stycznia 2020 roku, po tym jak Python 2 został oficjalnie bez wsparcia Fundacji Pythona. Proszę zauważyć, że niektóre dodatki nie zostały jeszcze przeniesione do Pythona3/Qt5. Może to być spowodowane kilkoma przyczynami, w tym brakiem czasu dla ich programistów lub uszkodzonymi zależnościami, które mogą nie być łatwo naprawione, lub po prostu dlatego, że dodatek jest uważany za przestarzały. Osoby zainteresowane migracją konkretnego Środowiska pracy lub narzędzia zachęca się do udziału w [Forum FreeCAD](https://forum.freecadweb.org/). Zobacz również [Python3 i Qt5 Kompatybilne dodatki dla Środowisk pracy *(w przygotowaniu do wersji 0.18)*](https://forum.freecadweb.org/viewtopic.php?f=10&t=30624).
+
+
 
 ### Znane problemy 
 
@@ -54,6 +62,8 @@ Naprawiono problem z widocznością zawartości [Std Part](Std_Part.md) w Qt5, g
 -   Naprawiono błąd w `MainWindow::setActiveWindow`, aby uniknąć awarii podczas powrotu z pełnego ekranu; [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?p=326093#p326093), [popełnić c4e34ed9b](https://github.com/FreeCAD/FreeCAD/commit/c4e34ed9b).
 -   Naprawiono błąd [issue #4088](https://freecadweb.org/tracker/view.php?id=4088) dotyczący widoczności zmiany początku części zmieniającej się podczas oddokowania widoku 3D; [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?p=326093#p326093), [commit 1e19ef5be](https://github.com/FreeCAD/FreeCAD/commit/1e19ef5be).
 -   Naprawiono błąd [nr 3130](https://freecadweb.org/tracker/view.php?id=0003130) o błędach Qt5 przy korzystaniu z monitora zewnętrznego o wysokiej rozdzielczości; [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=34916), [commit 2f2d505359](https://github.com/FreeCAD/FreeCAD/commit/2f2d5053599785fdc8db481682746066911033b4).
+
+
 
 ### W rozwoju 
 
@@ -66,6 +76,8 @@ Aby [skompilować FreeCAD pod Windows](Compile_on_Windows/pl.md), dostępne są 
 -   Jest nowy kontener Docker do budowy FreeCAD, patrz [kompilacja przez Docker](Compile_on_Docker.md); [na forum](https://forum.freecadweb.org/viewtopic.php?f=4&t=42954dyskusja).
 -   Struktura Bug Trackera oraz Wiki została przeniesiona na serwer dedykowany, dzięki czemu jest łatwiejsza do zarządzania przez administratorów projektu; [na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=42795dyskusja).
 
+
+
 ### Dokumentacja
 
 -   Strona [kompilacja w systemie Linux](Compile_on_Linux/pl.md) została zweryfikowana w celu lepszego wyjaśnienia wymagań dotyczących kompilacji na różnych dystrybucjach Linuksa. Ponieważ wielu deweloperów używa systemów opartych na Debianie, ta sekcja otrzymała najwięcej uwagi. Użytkownicy innych dystrybucji Linuksa są zachęcani do utrzymywania dokumentacji dla swojej konkretnej dystrybucji.
@@ -77,11 +89,15 @@ Aby [skompilować FreeCAD pod Windows](Compile_on_Windows/pl.md), dostępne są 
 -   Strona [Zewnętrzne środowiska pracy](External_workbenches/pl.md) została przeorganizowana w taki sposób, że wszystkie bogate w funkcje, publicznie dostępne Środowiska pracy zostały wymienione. Jeśli chcesz dodać do tej strony Środowisko pracy, pokaż go na forum i podaj informacje pomocnicze, takie jak podręcznik użytkownika, strony Wiki i link do jego repozytorium. Następnie należy postarać się o włączenie go do [Menadżera Dodatków](Std_AddonMgr/pl.md).
 -   Wprowadzono ulepszenia na stronach [Poradniki](Tutorials/pl.md) i [Wideo poradniki](Video_tutorials/pl.md). W szczególności, podkreślono, że czytelnicy powinni brać pod uwagę tylko te wideo poradniki, które są wykonane w wersji **0.17** lub wyższej.
 
+
+
 ### Znane problemy 
 
 -   Black screen spowodowany przez sterowniki kart wideo, podczas uruchamiania FreeCAD wewnątrz maszyny wirtualnej, [wydanie #3939](https://freecadweb.org/tracker/view.php?id=3939).
 -   Joystick USB Wingman firmy Logitech może powodować niestabilne zachowanie podczas obracania i powiększania widoku, [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=36712&start=10).
 -   Nawigacja za pomocą gestów jest w pełni obsługiwana dla Windows, ale musi być jeszcze utrzymywana w Linuksie i MacOS. Problem: programista, DeepSOIC, nie posiada maszyny MacOS ze swoim specjalnym trackpadem i nie testował go również na Linuksie, [forum discussion](https://forum.freecadweb.org/viewtopic.php?p=308403#p308402).
+
+
 
 ## Interfejs użytkownika 
 
@@ -104,6 +120,8 @@ Aby [skompilować FreeCAD pod Windows](Compile_on_Windows/pl.md), dostępne są 
 |                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |                                                                                | [Wiki](https://wiki.freecadweb.org/Std_ViewScreenShot#Creation_method), [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=41950&start=10), [commit 8e5151002](https://github.com/FreeCAD/FreeCAD/commit/8e5151002).                                                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
+
+
 
 ## Aplikacja::Łączenie i montaż 
 
@@ -137,6 +155,8 @@ W końcu doszło do wniosku o wciągnięcie i połączenie:
 Obiekt **App Link** przygotowuje FreeCAD do fazy, która została zaplanowana po przeprojektowaniu [PartDesign we FreeCAD 0.17](Release_notes_0.17.md), która pracuje ze złożeniami.
 
 [Assembly3](Assembly3_Workbench.md) to Środowisko pracy do wykonywania złożeń napisane w Pythonie przez użytkownika realthunder, które korzysta z funkcji **App Link**. W trakcie jego rozwoju stanowiło ono stanowisko testowe dla komponentu **App Link**. Podczas gdy Assembly3 nie jest jeszcze oficjalnie częścią FreeCAD, z włączeniem funkcji **App Link**, jest kwestią czasu, aby Assembly3 zostałnie udostępniony jako dodatek instalacyjny, tak jak obecnie Środowiska pracy [A2plus](A2plus_Workbench.md) oraz [Assembly4](Assembly4_Workbench.md).
+
+
 
 ## System podstawowy, App, baza i przestrzenie nazw Gui 
 
@@ -174,6 +194,8 @@ Oprócz wprowadzenia [App Link](App_Link.md), gałąź **LinkMerge** wprowadził
 -   Nowa obsługa dla [glTF](Import_Export/pl#Przegląd_formatów_plików.md), *(wymaga OCC 7.5.0)* [commit](https://github.com/FreeCAD/FreeCAD/commit/74b866ed3).
 -   Nowy eksporter dla [WebGL](Import_Export/pl#Przegląd_formatów_plików.md), [pull request #4025](https://github.com/FreeCAD/FreeCAD/pull/4025).
 
+
+
 ## Menadżer dodatków 
 
 +++
@@ -181,6 +203,8 @@ Oprócz wprowadzenia [App Link](App_Link.md), gałąź **LinkMerge** wprowadził
 +++
 | <img alt="" src=images/addon_manager_ui_tweak.png  style="width:384px;">       | Dodatkowo przedstawi informacje o tym, czy dodatek jest przestarzały, lub aktualnie zainstalowany lub czy dostępna jest aktualizacja. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394&p=340109#p340109), [pull request #2605](https://github.com/FreeCAD/FreeCAD/pull/2605).                                                                                                                                                       |
 +++
+
+
 
 ## Środowisko pracy Architektura 
 
@@ -199,7 +223,7 @@ Deweloperzy środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md), [Architek
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                                                               | [Arch Fence in action](https://forum.freecadweb.org/viewtopic.php?f=24&t=37121).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 +++
-| <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width:384px;"> | Ulepszenia w [Zbrojenie - Addon](Reinforcement_Addon.md), które rozszerza narzędzie [Arch Pręty zbrojeniowe](Arch_Rebar.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width:384px;"> | Ulepszenia w środowisku pracy[Zbrojenie](Reinforcement_Workbench.md), które rozszerza narzędzie [Pręty zbrojeniowe](Arch_Rebar/pl.md) środowiska Architektura.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                                                               | Zautomatyzowany graficzny interfejs użytkownika **zbrojenia**: celem jest ułatwienie automatycznego tworzenia prostych i złożonych zbrojeń. Rozwój ten został przeprowadzony w ramach projektu [Google Summer of Code 2019](Google_Summer_of_Code_2019.md) projekt: [Suraj_Dadral/gsoc_proposal](User:Suraj_Dadral/gsoc_proposal.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -227,6 +251,8 @@ Deweloperzy środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md), [Architek
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                                                               | [Commit e42a26fba1](https://github.com/FreeCAD/FreeCAD/commit/e42a26fba1), [commit 7c12c8688c](https://github.com/FreeCAD/FreeCAD/commit/7c12c8688c).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 +++
+
+
 
 ## Środowisko pracy Rysunek Roboczy 
 
@@ -315,6 +341,8 @@ Deweloperzy środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md), [Architek
 |                                                                                                                                 | [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=23&t=44051), [commit 1b887fa0f5](https://github.com/FreeCAD/FreeCAD/commit/1b887fa0f5), [commit 4555a77663](https://github.com/FreeCAD/FreeCAD/commit/4555a77663), [commit 5b3fea59e0](https://github.com/FreeCAD/FreeCAD/commit/5b3fea59e0).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 +++
 
+
+
 ### Kolejne ulepszenia dla Draft 
 
 -   Narzędzie [Draft: Linia łamana](Draft_Wire/pl.md) w menu jest teraz nazywane **Polyline**, zamiast **DWire**. Wszystkie opcje i funkcje pozostają takie same, więc nie narusza to kompatybilności, [commit 39e748229e](https://github.com/FreeCAD/FreeCAD/commit/39e748229e67fa93e924e355c0ce0897c870d756).
@@ -326,6 +354,8 @@ Deweloperzy środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md), [Architek
 -   **Tryb paska narzędzi** podczas uruchamiania narzędzi Draft został usunięty. Był to interfejs, który był używany w przeszłości, ale stał się przestarzały, ponieważ [panel zadań](task_panel/pl.md) stał się dominującym interfejsem, [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=34&t=42782), [pull request #2973](https://github.com/FreeCAD/FreeCAD/pull/2973).
 
 -    `Draft.copy`teraz pracuje z każdym obiektem dokumentowym, dzięki nowemu `Document.copyObject()` metoda wprowadzona przy użyciu LinkMerge; pull request [#3658](https://github.com/FreeCAD/FreeCAD/pull/3658).
+
+
 
 ## Środowisko pracy MES 
 
@@ -353,20 +383,28 @@ Deweloperzy środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md), [Architek
 | <img alt="" src=images/FEM_tie-constraint-dialog.png  style="width:287px;"> Dostępne są dwa nowe wiązania:menu menu jeden nowy solver:menu  oraz możliwość nadpisania stałej:menu **Model → Nadpisz wiązania → [<img src=images/FEM_ConstantVacuumPermittivity.svg style="width:16px"> [Stała przenikalność próżni](FEM_ConstantVacuumPermittivity.md)**. |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 +++
 
+
+
 ### Dalsze ulepszenia MES 
 
 -   W ramach projektu Elmer opracowano bibliotekę do obsługi przetwarzania wstępnego typu wsadowego dla ElmerSolver, przy użyciu Środowiska pracy FEM. Obejmuje także tworzenie obiektów siatkowych dla FreeCAD, manipulowanie rozmiarami siatki dla brył, tworzenie siatek elementów skończonych przy użyciu Gmsh, uruchamianie ElmerGrid i eksportowanie siatki dla ElmerSolver, a także wybieranie i nazywanie brył i granic dla ElmerSolver; [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=38950), [elmerfem](https://github.com/ElmerCSC/elmerfem) repozytorium *(Główne repozytorium Elmer)*, [FreeCADBatchFEMTools](https://github.com/ElmerCSC/elmerfem/tree/devel/ElmerWorkflows/FreeCADBatchFEMTools) repozytorium *(biblioteka do interakcji z FEM, LGPL 2.1)*.
 -   Integracja solwera OOFem, która rozpoczęła się w 2018 roku, postępuje, więc jest to teraz kolejna opcja, która może być wykorzystana do analizy strukturalnej w FreeCAD. Ten solwer jest o tyle interesujący, że oprócz wielu nieliniowych modeli materiałowych posiada elementy interfejsu, jak również kontrolę długości łuku. Integracja OOFEM z FEM została przeprowadzona w ramach różnych zobowiązań, które razem służą jako dokumentacja dotycząca sposobu integracji podobnych rozwiązań; [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=31288), [femoofem](https://github.com/berndhahnebach/FreeCAD_bhb/tree/femoofem) gałąź, [OOFEM](http://www.oofem.org/) witryna główna, [oofem](https://github.com/oofem/oofem) repozytorium *(LGPL 2.1)*.
 -   Uaktualnione standardy kodowania, które dążą do zgodności PEP8 z Pythonem; [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=12833), [commit ad03ee9bdf](https://github.com/FreeCAD/FreeCAD/commit/ad03ee9bdfeeb23d5c79cf462ba4a5b5566c5bc1), [commit 27cb54009b](https://github.com/FreeCAD/FreeCAD/commit/27cb54009b57c1938f7ff97026c8b35c1688233f).
 
+
+
 ## Import
 
 -   Ulepszona kompatybilność importu/eksportu z komercyjnymi systemami CAD, przy użyciu skompresowanego formatu pliku STEP, lub STPZ, [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=37469), [pull request #2323](https://github.com/FreeCAD/FreeCAD/pull/2323), [commit 7de89cf62e](https://github.com/FreeCAD/FreeCAD/commit/7de89cf62e0411dcd).
+
+
 
 ## Postępowanie z materiałami 
 
 
 **Brak informacji.**
+
+
 
 ## Środowisko pracy Siatka 
 
@@ -382,11 +420,15 @@ Deweloperzy środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md), [Architek
 |                                                                             | [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=34&t=47494), [Pull request #4462](https://github.com/FreeCAD/FreeCAD/pull/4462)                                                                                                                                                                                                                                                                                                    |
 +++
 
+
+
 ### Planowane ulepszenia 
 
 -   Teraz można wziąć plik siatki OpenInventora *(**.iv**)*, i wyeksportować go do formatu STL; [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=43926#p378032), [commit 601ac707b2](https://github.com/FreeCAD/FreeCAD/commit/601ac707b2).
 -   Obecnie możliwe jest wyeksportowanie [siatki](Mesh/pl.md) do formatu [Asymptote](Asymptote/pl.md) (**.asy** ); [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=48915), [commits 4badaba5](https://github.com/FreeCAD/FreeCAD/commit/4badaba5), [50bbd522](https://github.com/FreeCAD/FreeCAD/commit/50bbd522), [58a92681](https://github.com/FreeCAD/FreeCAD/commit/58a92681), [dd7afa72](https://github.com/FreeCAD/FreeCAD/commit/dd7afa72), [b0f78f5a](https://github.com/FreeCAD/FreeCAD/commit/b0f78f5a).
 -   Większość narzędzi spośród środowiska pracy [Siatka](Mesh_Workbench/pl.md) mają teraz odpowiedni symbol, dzięki czemu łatwiej rozpoznać funkcję w menu i paskach narzędzi; [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=34&t=47494), pull request [#3816](https://github.com/FreeCAD/FreeCAD/pull/3816), [#3864](https://github.com/FreeCAD/FreeCAD/pull/3864).
+
+
 
 ## Środowisko pracy Część 
 
@@ -406,6 +448,8 @@ Deweloperzy środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md), [Architek
 |                                                                                             | [Pull request #3078](https://github.com/FreeCAD/FreeCAD/pull/3078).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 +++
 
+
+
 ### Planowane ulepszenia 
 
 -   Okno dialogowe do edycji [graniastosłupa](Part_Prism/pl.md) pozwala teraz na określenie kąta względem normalnej wybranej płaszczyzny dołączania. W ten sposób można tworzyć graniastosłupy skośne. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=27&t=49343#p422857), [pull request #3793](https://github.com/FreeCAD/FreeCAD/pull/3793).
@@ -413,6 +457,8 @@ Deweloperzy środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md), [Architek
 -   Dzięki połączeniu [App Link](App_Link/pl.md) wprowadzono dwie nowe komendy, [Część: TransformedCopy](Part_TransformedCopy/pl.md) oraz [Część: ElementCopy](Part_ElementCopy/pl.md). Komendy te tworzą nieparametryczne kopie ciała z przekształconym umieszczeniem oraz elementem (wierzchołkiem, krawędzią lub powierzchnią); [commit 6da72b9859](https://github.com/FreeCAD/FreeCAD/commit/6da72b9859f6d21119831d44a8d132c8e2dfb544). Te operacje zasadniczo sprawiają, że [Macro Repro Wire](Macro_Repro_Wire/pl.md) staje się nieaktualne.
 -   Możliwe jest teraz ustawienie [wyrażenia](Expressions/pl.md) dla wszystkich parametrów [brył pierwotnych](Part_Workbench#Primitives/pl.md). [commit dd4874d2](https://github.com/FreeCAD/FreeCAD/commit/dd4874d2) and [commit 7405dd0e](https://github.com/FreeCAD/FreeCAD/commit/7405dd0e).
 -   Naprawiono zepsute wsparcie dla jednostek **INCH** podczas eksportowania do formatów STEP / IGES, [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=36808&p=314172#p314172), [commit 1b26173580](https://github.com/FreeCAD/FreeCAD/commit/1b2617358).
+
+
 
 ## Środowisko pracy Projekt części 
 
@@ -443,12 +489,16 @@ Deweloperzy środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md), [Architek
 | <img alt="" src=images/PartDesign_sprocket-feature.png  style="width:384px;">                   | Nowa funkcjonalność [ Zębatka ](PartDesign_Sprocket/pl.md) pozwala na tworzenie zębatek łańcuchowych. [Dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=44525), [pull request #3280](https://github.com/FreeCAD/FreeCAD/pull/3280).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
 
+
+
 ### Planowane ulepszenia 
 
 -   Okno dialogowe [otwór](PartDesign_Hole/pl.md) zostało przerobione w celu uzyskania zgodnych z normami wymiarów luzu i otworów gwintowanych.
 -   Teraz możliwe jest ustawienie [wyrażeń](Expressions/pl.md) dla wszystkich parametrów [addytywnych](PartDesign_CompPrimitiveAdditive/pl.md) oraz [subtraktywych](PartDesign_CompPrimitiveSubtractive/pl.md) brył pierwotnych [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=36458), [pull request #3225](https://github.com/FreeCAD/FreeCAD/pull/3225).
 -   Teraz możliwe jest ustawienie [wyrażeń](Expressions/pl.md) dla kątów zaczepienia elementów pierwotnych addytywnych i subtraktywnych. Wcześniej, wyrażenia były dostępne tylko dla przesunięć kierunkowych. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=44346), [commit 1cfe6d2cc7](https://github.com/FreeCAD/FreeCAD/commit/1cfe6d2cc7).
 -   Można teraz zmieniać pozycje listy w różnych oknach dialogowych. Na przykład [w tym poście na forum](https://forum.freecadweb.org/viewtopic.php?f=27&t=48998#p420352) istnieje doskonały przykład, dlaczego lista elementów ma znaczenie dla transformacji. [Tutaj](https://forum.freecadweb.org/viewtopic.php?f=19&t=50222#p430499) znajduje się jeszcze jeden przykład zapotrzebowania na szkic dla wyciągnięcia po profilach. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=27&t=48998), [pull request #3760](https://github.com/FreeCAD/FreeCAD/pull/3760), [commit 94ca4388e](https://github.com/FreeCAD/FreeCAD/commit/94ca4388e).
+
+
 
 ## Środowisko pracy Path 
 
@@ -521,11 +571,15 @@ Deweloperzy środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md), [Architek
         -   Wyjście może być uporządkowane według narzędzia, operacji lub oprzyrządowania, aby zminimalizować wymianę narzędzi lub czas przejazdu,
         -   Gcode może być podzielony na wiele plików wyjściowych.
 
+
+
 ## Środowisko pracy Render 
 
 Dodano wsparcie dla samodzielnego renderowania **Cycles** Blendera; [commit 759067912f](https://github.com/FreeCAD/FreeCAD-render/commit/759067912f0640e4b3dac41b104d2372978f94a1); [FreeCAD-render](https://github.com/FreeCAD/FreeCAD-render) repozytorium. Silnik renderowania *Cycles standalone* zazwyczaj musi być skompilowany ze źródła, ponieważ binaria zwykle nie są dostarczane w kompletnej dystrybucji Blendera.
 
 Poza tym, Środowisko pracy Render ma już wsparcie dla: Pov-Ray, Luxrender i Appleseed.
+
+
 
 ## Środowisko pracy Szkicownik 
 
@@ -549,6 +603,8 @@ Poza tym, Środowisko pracy Render ma już wsparcie dla: Pov-Ray, Luxrender i Ap
 -   Narzędzie [Zaokrąglenie](Sketcher_CreateFillet/pl.md) zachowuje teraz wszystkie możliwe istniejące wiązania przenoszonych linii.[pull request #4296](https://github.com/FreeCAD/FreeCAD/pull/4296), [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=54179)
 -   Nowa metoda uzyskania indeksu geometrycznego [szkicu](Sketcher_SketchObject.md),`SketchObject.getGeoVertexIndex(index)`; [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=48707), [pull request #3713](https://github.com/FreeCAD/FreeCAD/pull/3713).
 
+
+
 ## Środowisko pracy Spreadsheet 
 
 Wprowadzenie [App Link](App_Link.md) przyniosło również pewne ulepszenia w możliwościach [Wyrażeń](Expressions.md) FreeCAD, które są widoczne w [Edytorze właściwości](Property_editor.md), oraz w [Środowisku pracy Sprachsheet](Spreadsheet_Workbench.md). Są one opisane w [Core-Changes](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes), oraz w tym [wątku na forum](https://forum.freecadweb.org/viewtopic.php?f=27&t=38974).
@@ -567,11 +623,15 @@ Poprzednie Commits zmieniło sposób, w jaki w jaki funkcjonuje automatyczne uzu
 
 Dane wpisane do komórki nie są już domyślnie testowane jako wyrażenie. Teraz wyrażenie musi zaczynać się od znaku równości `{{:=`}}. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=39665), [pull request #4215](https://github.com/FreeCAD/FreeCAD/pull/4215).
 
+
+
 ## Środowisko pracy Start 
 
 +++
 | <img alt="" src=images/FreeCAD_Start_WB_thumbs.png  style="width:384px;"> | Ponownie dodano przykładowe pliki do strony startowej z zapisanymi miniaturkami w ich ikonach. [dyskusja na Forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=34586&start=110), [pull request #2316](https://github.com/FreeCAD/FreeCAD/pull/2316). |
 +++
+
+
 
 ## Środowisko pracy Surface 
 
@@ -584,6 +644,8 @@ Dane wpisane do komórki nie są już domyślnie testowane jako wyrażenie. Tera
 |                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                                                   | Podobnie, ikony zostały zaktualizowane, aby były bardziej atrakcyjne wizualnie.                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
+
+
 
 ## Środowisko pracy Rysunek techniczny 
 
@@ -637,6 +699,8 @@ Dane wpisane do komórki nie są już domyślnie testowane jako wyrażenie. Tera
 |                                                                                                                                                                                               | [Dyskusja na forum](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=47013), [commit a9b718d1e0](https://github.com/FreeCAD/FreeCAD/commit/a9b718d1e0).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +++
 
+
+
 ### Dalsze ulepszenia dla TechDraw 
 
 -   Toczyły się dyskusje na temat zmiany standardowego zachowania TechDraw. Zamiast automatycznego aktualizowania stron rysunkowych, byłyby one aktualizowane tylko na żądanie. Złagodziłoby to skutki spowolnienia przez TechDraw reszty FreeCAD podczas modelowania. Co więcej, teraz gdy [App Link](App_Link.md) jest zawarte w FreeCAD, strony TechDraw mogą być przechowywane w osobnym pliku i ładowane na żądanie; [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=35&t=35086) *(główna dyskusja)*, [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=35&t=38822) *(alternatywy)*.
@@ -652,9 +716,13 @@ Dane wpisane do komórki nie są już domyślnie testowane jako wyrażenie. Tera
 -   Obecnie można zastąpić wyświetlane wartości tolerancji, na przykład użyć tekstu w tolerancjach. Co więcej, można teraz zastosować niestandardowy format wyświetlania dla każdej, nadmiarowej i zaniżonej tolerancji. [żądanie wciągnięcia #4087](https://github.com/FreeCAD/FreeCAD/pull/4087).
 -   Narzędzie [LineGroup](TechDraw_LineGroup/pl.md) do ustawiania domyślnych szerokości linii dla rysunków można teraz wybrać z dostępnych grup w [ preferencjach](TechDraw_Preferences/pl#Adnotacje.md). [żądanie wciągnięcia \# 4083](https://github.com/FreeCAD/FreeCAD/pull/4083)
 
+
+
 ## Strona internetowa 
 
 -   Wsparcie QtWebEngine dla Qt 5.7 i wyższych oraz wsparcie awaryjne dla QWebkit dla Qt 5.6 i niższych, [pull request #1937](https://github.com/FreeCAD/FreeCAD/pull/1937).
+
+
 
 ## Makrodefinicje
 
@@ -664,12 +732,16 @@ Więcej informacji na temat makr można znaleźć w [Przepisach na makra](Macros
 | <img alt="" src=images/Structural_frame.png  style="width:384px;"> | Automatyczny konstruktor lekkich stelaży stalowych i panelizator. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=23&t=26092),[FreeCAD-Steel_Frame](https://gitlab.com/Oriond/FreeCAD-Steel_Frame) repozytorium *(GPL 3)*, [Wizualizacje](https://peertube.social/videos/watch/cbd2efd0-f763-41ac-9e38-2e0034c56703). |
 +++
 
+
+
 ## Moduły dodatkowe 
 
 
 **Uwaga:**
 
 Są to nowe stanowiska pracy utworzone w tym cyklu rozwojowym lub starsze stanowiska pracy, które otrzymały aktualizacje. Zobacz [zewnętrzne stanowiska pracy](External_workbenches.md), aby uzyskać pełną listę dodatkowych Środowisk pracy, które mogą być zainstalowane w programie FreeCAD. Jeśli chcesz aby Twoje Środowisko pracy zostało dodane, dołącz do forum i zaprezentuj swój kod.
+
+
 
 ### 3D Printing Tools 
 
@@ -679,6 +751,8 @@ Są to nowe stanowiska pracy utworzone w tym cyklu rozwojowym lub starsze stanow
 |                                                                           | [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=36564),[3D Printing Tools](https://github.com/mark1791/3D_Printing_Tools) repozytorium **(LGPL 2.1)**.                                                                                                                                                                                                           |
 +++
 
+
+
 ### A2plus
 
 +++
@@ -686,6 +760,8 @@ Są to nowe stanowiska pracy utworzone w tym cyklu rozwojowym lub starsze stanow
 |                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                                           | Uwaga: A2plus nie jest kompatybilny z Assembly2 lub innymi Środowiskami pracy. W przypadku tworzenia montaży w poprzednich Środowiskach pracy, należy je w całości odtworzyć na A2plus.                                                                                                                                                                                                                                                                                                |
 +++
+
+
 
 ### Assembly3
 
@@ -699,6 +775,8 @@ Są to nowe stanowiska pracy utworzone w tym cyklu rozwojowym lub starsze stanow
 |                                                           | Uwaga: Assembly3 nie jest kompatybilny z Assembly2 lub innymi Środowiskami pracy do montażu. W przypadku tworzenia montaży w poprzednich Środowiskach pracy, należy je w całości odtworzyć na Assembly3.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 +++
 
+
+
 ### Assembly4
 
 +++
@@ -711,6 +789,8 @@ Są to nowe stanowiska pracy utworzone w tym cyklu rozwojowym lub starsze stanow
 |                                                           | Uwaga: Assembly4 nie jest kompatybilny z Assembly3 lub innymi Środowiskami pracy do montażu. W przypadku tworzenia montaży w poprzednich Środowiskach pracy, należy je w całości odtworzyć na Assembly4.                                                                                                                                                                                                                                                 |
 +++
 
+
+
 ### ArchTextures
 
 +++
@@ -722,6 +802,8 @@ Są to nowe stanowiska pracy utworzone w tym cyklu rozwojowym lub starsze stanow
 |                                                                 | [FreeCAD-ArchTextures](https://github.com/furti/FreeCAD-ArchTextures) repozytorium *(MIT)*.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 +++
 
+
+
 ### BOLTSFC
 
 +++
@@ -730,11 +812,15 @@ Są to nowe stanowiska pracy utworzone w tym cyklu rozwojowym lub starsze stanow
 |                                                       | Przetłumaczono z www.DeepL.com/Translator (wersja darmowa) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=4549), [Homepage](https://www.bolts-library.org/en/index.html), [BOLTSFC](https://github.com/boltsparts/BOLTSFC) repozytorium, [BOLTS](https://github.com/boltsparts/BOLTS) repozytorium główne *(GPL 3)*.                                                                                                                                                                                 |
 +++
 
+
+
 ### Środowisko pracy CurvedShapes 
 
 +++
 | <img alt="" src=images/Curved_shapes_wb.png  style="width:384px;"> | Środowisko pracy CurvedShapes posiada narzędzia do projektowania powierzchni 3D począwszy od szkieletu złożonego z wielu łuków w płaszczyznach XY, XZ lub YZ. Został on stworzony specjalnie w celu uproszczenia modelowania skrzydeł samolotów. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=36989), [CurvedShapesWorkbench](https://github.com/chbergmann/CurvedShapesWorkbench) repozytorium *(LGPL 3)*. |
 +++
+
+
 
 ### Dodo (wcześniej Flamingo) 
 
@@ -749,11 +835,15 @@ Są to nowe stanowiska pracy utworzone w tym cyklu rozwojowym lub starsze stanow
 |                                                       | [flamingo](https://github.com/oddtopus/flamingo) repozytorium *(LGPL 3)*,                                                                                                                                                                                                                                         |
 +++
 
+
+
 ### Fasteners
 
 +++
 | <img alt="" src=images/Fastener_workbench.png  style="width:384px;"> | Środowisko pracy [Fasteners](Fasteners_Workbench.md) do generowania standardowych śrub ISO, śrub, podkładek i innych elementów złącznych został zaktualizowany do pracy z Pythonem 3 i Qt5. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?t=11429), [FreeCAD_FasternersWB](https://github.com/shaise/FreeCAD_FastenersWB) repozytorium *(GPL 2)*, [dodatkowe szczegóły](http://theseger.com/projects/2015/07/generating-holes-for-countersunk-screws-in-freecad/). |
 +++
+
+
 
 ### Środowisko pracy MeshRemodel 
 
@@ -762,6 +852,8 @@ Są to nowe stanowiska pracy utworzone w tym cyklu rozwojowym lub starsze stanow
 |                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                   | [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=38670) *(jedyne zapowiedź)*, [MeshRemodel](https://github.com/mwganson/MeshRemodel) repozytorium *(LGPL 2.1)*.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
+
+
 
 ### Środowisko pracy MOOC 
 
@@ -773,6 +865,8 @@ Są to nowe stanowiska pracy utworzone w tym cyklu rozwojowym lub starsze stanow
 |                                                                     | [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=37584), [mooc-workbench](https://framagit.org/freecad-france/mooc-workbench) repozytorium *(GPL 2)*.                                               |
 +++
 
+
+
 ### NodeEditor (PyFlow) 
 
 +++
@@ -782,6 +876,8 @@ Są to nowe stanowiska pracy utworzone w tym cyklu rozwojowym lub starsze stanow
 |                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                             | [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=36299), [NodeEditor](https://github.com/microelly2/NodeEditor) repozytorium *(MIT License)*, [PyFlow](https://github.com/microelly2/PyFlow) zmodyfikowane rozgałęzienie *(Apache 2.0 license)*, [PyFlow](https://github.com/wonderworks-software/PyFlow) projekt oryginalny *(Apache 2.0 license)*.                                                                                                                     |
 +++
+
+
 
 ### Trails PyTrails, Turns oraz pivy_trackers i Geomatics 
 

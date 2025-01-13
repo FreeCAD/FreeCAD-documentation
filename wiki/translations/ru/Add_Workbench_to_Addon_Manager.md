@@ -1,7 +1,13 @@
 # Add Workbench to Addon Manager/ru
 ## Вступление
 
+
+<div class="mw-translate-fuzzy">
+
 Данная страница содержит пошаговую инструкцию позволяющую добавить Python верстак в [Менеджер дополнений](Std_AddonMgr/ru.md).
+
+
+</div>
 
 Требуется:
 

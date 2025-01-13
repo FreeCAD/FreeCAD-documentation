@@ -27,7 +27,7 @@ La commande pointe vers [<https://wiki.freecad.org/User_hub>](https://wiki.freec
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

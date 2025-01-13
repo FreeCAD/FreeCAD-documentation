@@ -165,7 +165,7 @@ mybox = box.create('my_box')
 
 Notez que l\'icône est grise. FreeCAD nous dit que l\'objet ne peut rien afficher dans la [Vue 3D](3D_view/fr.md). Cliquez sur l\'objet et regardez ses propriétés dans l\'[Éditeur de propriétés](Property_editor/fr.md). Il n\'y a pas grand-chose là-bas, juste le nom de l\'objet.
 
-Notez également qu\'il y a une petite coche bleue à côté de l\'objet FeaturePython dans l\'arborescence. En effet, lorsqu\'un objet est créé ou modifié, il est \"touché\" et doit être recalculé. Appuyez sur le bouton **<img src="images/Std_Refresh.svg" width=16px> [Std Rafraîchir](Std_Refresh/fr.md)** pour y parvenir. Nous ajouterons du code pour automatiser cela plus tard. 
+Notez également qu\'il y a une petite coche bleue à côté de l\'objet FeaturePython dans l\'arborescence. En effet, lorsqu\'un objet est créé ou modifié, il est \"touché\" et doit être recalculé. Appuyez sur le bouton **<img src="images/Std_Refresh.svg" width=16px> [Std Recalculer](Std_Refresh/fr.md)** pour y parvenir. Nous ajouterons du code pour automatiser cela plus tard. 
 
 
 Jetons un oeil aux attributs de notre objet : 

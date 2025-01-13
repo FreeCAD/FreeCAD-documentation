@@ -25,10 +25,10 @@ Mostra o nasconde la visualizzazione del pettine di curvatura di una curva B-spl
 
 </div>
 
-The curvature comb indicates the curvature (value of the second-order derivative) of the B-spline at every position. The higher the curvature at a position, the more is the the comb away from the curve. For positive curvatures (\"turn to the right\"), the comb is at the other side of the curve than for negative curvatures.
+The curvature comb indicates the curvature (value of the second-order derivative) along a B-spline. The higher the curvature, the longer the comb\'s teeth are. Where a B-spline curves to the right the comb is on its left side and vice versa.
 
 ![](images/sketcher_BSplineCurvatureShow.png ) 
-*B-spline with a saddle point at its mid position - the curvature comb there is zero.*
+*B-spline with a saddle point at its midpoint, the curvature comb is zero there.*
 
 ## Usage
 

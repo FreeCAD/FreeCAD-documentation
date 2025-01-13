@@ -1,7 +1,7 @@
 # Path GcodeFromShape/en
-1.  REDIRECT [Path_Shape/en](Path_Shape/en.md)
+1.  REDIRECT [CAM_Shape/en](CAM_Shape/en.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path GcodeFromShape/en
+⏵ [documentation index](../README.md) > Path GcodeFromShape/en

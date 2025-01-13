@@ -19,6 +19,8 @@ La bibliothèque IFC++ peut être utilisée à des fins générales et comprend 
 
 dans l\'usage courant, les noms \"IfcQuery\", \"IFC++\" et \"IfcPlusPlus\" peuvent être utilisés de manière interchangeable pour désigner la même chose, la bibliothèque C++, ou plus spécifiquement le visualiseur IFC gratuit.
 
+
+
 ## Installation
 
 La distribution IFC++ est fournie sous forme de code source, donc pour utiliser la bibliothèque et le visualiseur, le code doit être compilé.
@@ -30,9 +32,13 @@ IFC ++ est développé principalement sur une plate-forme Windows aussi il inclu
 
 il existe un visualiseur plus complet qui utilise des bibliothèques IFC++ précompilées destinées à Windows. Cette visionneuse est gratuite mais n\'est pas open source. Il est disponible en téléchargeant le package `SimpleViewerExampleQt.zip` depuis {{URL|http://www.ifcquery.com/}} et en exécutant `SimpleViewerExampleQt.exe`. Ce visualiseur est autonome, tout ce dont il a besoin pour s\'exécuter est inclus dans l\'archive `.zip`.
 
+
+
 ## Compilation sous Windows 
 
 Suivez les instructions du dépôt officiel [ifcplusplus](https://github.com/ifcquery/ifcplusplus).
+
+
 
 ## Compilation sous Linux 
 
@@ -42,6 +48,8 @@ Les instructions générales sont les suivantes:
 2.  Rassemblez toutes les dépendances pour la compilation, y compris un compilateur C++, CMake et Make, et les fichiers de développement pour Boost, Qt 5, ainsi que la bibliothèque OpenSceneGraph (OSG) pour la visualisation.
 3.  Exécutez `cmake` pour générer un `Makefile`, puis démarrez la compilation en exécutant `make`.
 4.  Installez les bibliothèques `libIfcPlusPlus.a` et `libcarve.so` dans le chemin de bibliothèque approprié afin qu\'elles soient trouvées par le visualiseur d\'exemples IFC++.
+
+
 
 ### Prérequis
 
@@ -88,6 +96,8 @@ Carve est une bibliothèque C++ [Géométrie Solide Constructive](constructive_s
 
 Le projet étant désormais sous licence MIT, des copies des fichiers source Carve sont désormais incluses dans le référentiel IFC++. Cela signifie que lors de la compilation IFC++, `libcarve.so` sera également compilé. Cette bibliothèque doit être disponible dans le système pour que la visionneuse d\'exemples IFC++ fonctionne correctement.
 
+
+
 ### Configuration de CMake 
 
 Il est recommandé d\'effectuer la configuration et la compilation dans un répertoire build spécifique séparé du répertoire source.
@@ -105,6 +115,8 @@ Par défaut, le type de compilation est `Release` mais il peut également être 
 cmake -DCMAKE_BUILD_TYPE=Debug ../ifcplusplus-source/
 ```
 
+
+
 ### Compilation réelle 
 
 S\'il n\'y avait pas de message d\'erreur lors de la configuration avec CMake, un `Makefile` aurait dû être créé dans le répertoire build, vous pouvez donc procéder à la compilation des bibliothèques en exécutant `make`.
@@ -118,6 +130,8 @@ make -j N
 `N`
 
 est le nombre de processeurs que vous attribuez au processus de compilation; choisissez au moins un de moins que le nombre total de cœurs de processeur dont vous disposez.
+
+
 
 ### Test de la compilation dans le répertoire build 
 
@@ -134,6 +148,8 @@ Release/SimpleViewerExample IfcOpenHouse.ifc
 ```
 
 Si le type de build a été défini sur `Debug`, alors les bibliothèques compilées apparaîtront dans le sous-répertoire `Debug/` à la place.
+
+
 
 ### Installation des bibliothèques compilées 
 
@@ -157,6 +173,8 @@ Par défaut, `CMAKE_INSTALL_PREFIX` est `/usr/local/`, donc tous les fichiers co
 /usr/local/include/ifcpp/writer/*.h
 /usr/local/share/IFCPP/cmake/*.cmake
 }}
+
+
 
 ### Chemin de la bibliothèque 
 
@@ -186,6 +204,8 @@ Pour rendre cet effet persistant, cette variable d\'environnement peut être dé
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 ```
 
+
+
 ### Suppression des bibliothèques compilées 
 
 Pour supprimer les bibliothèques installées, supprimez simplement les fichiers correspondants qui ont été installés. {{Code|lang=sh|code=
@@ -196,6 +216,8 @@ sudo rm -rf /usr/local/include/carve
 sudo rm -rf /usr/local/include/ifcpp
 sudo rm -rf /usr/local/share/IFCPP/cmake/
 }}
+
+
 
 ## Corrections pour Linux 
 
@@ -208,6 +230,8 @@ En particulier, un fork du projet principal est maintenu avec de petits correcti
 Si le code du dépôt officiel ne fonctionne pas ou semble avoir des problèmes sous Linux, essayez de suivre les mêmes instructions de compilation mais en utilisant les sources de ce dépôt alternatif. Ce dépôt contient souvent des commits derrière la distribution principale, mais il vise à rester à jour et en même temps à fournir des correctifs spécifiques à Linux. Ces améliorations sont normalement renvoyées au dépôt principal afin de permettre à la branche officielle de se compiler sous Linux sans problème.
 
 Le développeur principal d\'IFC++ ne prend pas en charge Linux directement, les développeurs Linux doivent donc être prêts à résoudre les problèmes et à soumettre des correctifs lors de l\'utilisation d\'IFC++ sous Linux.
+
+
 
 ### Icônes invisibles 
 
@@ -225,6 +249,8 @@ SET(RESOURCES ${viewer_dir}/Resources/ifcplusplus.qrc)
 QT5_ADD_RESOURCES(SimpleViewerExample_RESOURCES_RCC ${RESOURCES})
 }}
 
+
+
 ## Plus d\'informations 
 
 -   [projet IFC++](https://www.ifcquery.com/)
@@ -235,9 +261,11 @@ QT5_ADD_RESOURCES(SimpleViewerExample_RESOURCES_RCC ${RESOURCES})
 -   Fil allemand: [IfcQuery / IfcPlusPlus selber kompilieren](https://forum.freecadweb.org/viewtopic.php?f=13&t=48648)
 
 
- {{FEM Tools navi}}
+{{BIM_Tools_navi
+
+}} {{FEM_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > IfcPlusPlus/fr
+⏵ [documentation index](../README.md) > IfcPlusPlus/fr

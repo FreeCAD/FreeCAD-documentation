@@ -3,15 +3,21 @@
 
 **Pakiet Preferencji** jest dystrybuowalnym zbiorem preferencji użytkownika ({{Version/pl|0.20}}), który może być zainstalowany jako dodatek i zastosowany jako pojedynczy zestaw. Każdy parametr użytkownika, który może być ustawiony w pliku user.cfg może być zawarty w pakiecie preferencji. Zastosowanie pakietu preferencji ustawia wszystkie zmienne w dostarczonym pliku CFG, nie modyfikując żadnych innych ustawień użytkownika. Na przykład, te pakiety mogą być użyte do stworzenia \"Motywów\" poprzez połączenie niestandardowego arkusza stylów wraz z zestawem preferencji użytkownika, które ustawiają różne kolory i style elementów w programie FreeCAD, które nie są kontrolowane przez arkusz stylów.
 
+
+
 ## Pakiet Preferencji głównego interfejsu użytkownika 
 
 Większość interakcji użytkownika z zainstalowanymi Pakietami Preferencji odbywa się poprzez zakładkę **Ogólne** w sekcji **Ustawienia ogólne** [Edytora Preferencji](Preferences_Editor/pl.md).
 
 <img alt="" src=images/PreferencePacks_MainInterface.png  style="width:400px;">
 
+
+
 ## Użycie zainstalowanego pakietu 
 
 Aby zastosować pakiet preferencji, kliknij przycisk **Zastosuj** obok jego nazwy w zakładce **Ogólne** w edytorze [Edytor Preferencji](Preferences_Editor/pl.md). Głównym elementem pakietu preferencji jest zestaw preferencji użytkownika. Podczas stosowania pakietu każda z tych preferencji jest zmieniana na wartość zdefiniowaną w pakiecie. Opcjonalnie, autor pakietu może dołączyć makro przed i/lub po zastosowaniu, które również może zostać uruchomione. Ponieważ pakiety mogą potencjalnie dokonać dużych (i potencjalnie niepożądanych) zmian w preferencjach użytkownika, wykonywana jest kopia zapasowa oryginalnych preferencji ze znacznikiem czasu i przechowywana w folderze **FREECAD_USER_DATA/SavedPreferencePacks/Backups**. Te kopie zapasowe są przechowywane przez jeden tydzień.
+
+
 
 ## Tworzenie nowego pakietu 
 
@@ -20,6 +26,8 @@ Pakiety mogą być tworzone ręcznie lub inicjowane za pomocą przycisku **Zapis
 <img alt="" src=images/PreferencePacks_SaveNewPack.png  style="width:400px;">
 
 Ze względu na sposób, w jaki FreeCAD wewnętrznie używa preferencji, tylko elementy zawarte w tych plikach szablonów mogą być zapisane automatycznie przy użyciu tej procedury. Elementy nie zawarte w plikach szablonów muszą być ręcznie dołączone do pliku \*.cfg pakietu. Nie ma wbudowanego ograniczenia co do tego, jakie elementy preferencji mogą być zawarte w pakiecie preferencji, ale autorom zdecydowanie odradza się zmienianie ustawionego języka użytkownika, modyfikowanie listy ostatnich plików lub zmienianie czegokolwiek związanego z tymczasowym stanem UI *(np. zapisany rozmiar okna z możliwością zmiany rozmiaru itp.)*.
+
+
 
 ### Szczegóły szablonu 
 
@@ -302,6 +310,8 @@ Te sekcje zawierają listę wszystkich preferencji zawartych we wbudowanych szab
 
 </div>
 
+
+
 ### Struktura pakietu preferencji 
 
 Podczas gdy rdzeniem większości Pakietów Preferencji jest pojedynczy plik konfiguracyjny, z powodu ich przeznaczenia do dystrybucji, wymagana jest również pewna pomocnicza struktura. Cztery podstawowe pliki definiują pakiet, ułożone w następującej strukturze katalogów *(dla pakietu preferencji o nazwie \"SamplePreferencePack\")*:
@@ -353,13 +363,17 @@ Plik package.xml dla tego przykładowego pakietu może mieć następującą post
 
     </package>
 
+
+
 ### Włączanie szablonów do dodatku 
 
 Wiele dodatków zawiera informacje o preferencjach użytkownika, które są dodawane do pliku user.cfg. Autor dodatku może również dostarczyć plik szablonu pakietu preferencji, zawierający listę zmiennych konfiguracyjnych użytkownika, które mogą być automatycznie zapisane za pomocą opisanej powyżej metody \"Zapisz nowy pakiet\". Aby dołączyć te pliki szablonów, autorzy dodatków powinni utworzyć w swoim pakiecie podkatalog o nazwie \"PreferencePackTemplates\" lub \"preference_pack_templates\". W tym katalogu powinien znajdować się jeden lub więcej plików \*.cfg: każdy z nich musi być poprawnym, dobrze sformatowanym plikiem XML user.cfg, zawierającym jedną lub więcej zmiennych konfiguracyjnych ustawionych na wartości domyślne. Nazwa pliku powinna odzwierciedlać jego przeznaczenie, np. \"colors.cfg\", \"active_tabs.cfg\" itd. Ten zestaw plików zostanie przedstawiony użytkownikowi podczas zapisywania nowego pakietu preferencji, a każdy z nich będzie miał zaznaczoną pozycję na liście elementów do zapisania. Do wygenerowania wpisu w interfejsie użytkownika używana jest nazwa pliku, przy czym podkreślenia są zastępowane spacjami (a rozszerzenie pomijane).
 
+
+
 ## Dystrybucja pakietu 
 
-Pakiety Preferencji są dystrybuowane tak samo jak [Zewnętrzne środowiska pracy](External_workbenches/pl.md) poprzez <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md). Aby zainstalować pakiet ręcznie, użyj git, aby sklonować repozytorium pakietów do katalogu danych FreeCAD *((wpisz `App.getUserAppDataDir()` w [Konsoli Python](Python_console/pl.md), aby poznać tę ścieżkę))*, w podkatalogu o nazwie \"Pakiety preferencji\".
+Pakiety Preferencji są dystrybuowane tak samo jak [Zewnętrzne środowiska pracy](External_workbenches/pl.md) poprzez <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md). Aby zainstalować pakiet ręcznie, użyj git, aby sklonować repozytorium pakietów do katalogu danych FreeCAD *((wpisz `App.getUserAppDataDir()` w [Konsoli Python](Python_console/pl.md), aby poznać tę ścieżkę))*, w podkatalogu o nazwie \"Pakiety preferencji\". Należy pamiętać, że pakiety zainstalowane przez użytkownika o tej samej nazwie co dołączony pakiet mają pierwszeństwo.
 
 Zobacz również stronę [Osobiste pakiety preferencji](Private_Preference_Packs/pl.md).
 

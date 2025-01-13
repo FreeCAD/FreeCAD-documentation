@@ -32,6 +32,8 @@ Acest tutorial are rolul de a introduce cititorul în fluxul de lucru de bază a
 
 </div>
 
+This tutorial was originally written by Drei, and it was rewritten and illustrated by vocx.
+
 This tutorial is meant to introduce the reader to the basic workflow of the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md).
 
 
@@ -50,7 +52,7 @@ The reader will practice:
 -   Applying datum constraints
 -   Obtaining a closed profile
 
-For a more in depth description of the sketcher, read the [Sketcher reference](Sketcher_reference.md).
+For a more in depth description of the sketcher, read the [Sketcher Lecture](Sketcher_Lecture.md).
 
 ![](images/00_Sk01_Sketcher_fully_constrained_final.png )
 
@@ -453,7 +455,7 @@ Ar trebui să finalizați cu o schiță complet constrânsă. Aceasta poate fi c
 
 ## Additional information 
 
-For a more in depth description of the sketcher, visit the [Sketcher Workbench](Sketcher_Workbench.md) documentation and also read the [Sketcher reference](Sketcher_reference.md).
+For a more in depth description of the sketcher, visit the [Sketcher Workbench](Sketcher_Workbench.md) documentation and also read the [Sketcher Lecture](Sketcher_Lecture.md).
 
 Constraining a sketch can be done in many different ways. In general, it is recommended to use geometrical constraints first, and minimize the number of datum constraints, as this simplifies the task of the internal constraint solver. To investigate this, repeat this example, now adding the constraints in different order.
 

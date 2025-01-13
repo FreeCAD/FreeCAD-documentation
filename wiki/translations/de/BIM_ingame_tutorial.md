@@ -1,586 +1,664 @@
 # <img alt="" src=images/BIM_tutorial_screenshot.png  style="width:1024px;"> BIM ingame tutorial/de
 
 
-{{BIMTutorialAction|descr=Dies ist das Imspiel Tutorium des [BIM Arbeitsbereichs](BIM_Workbench/de.md). Es ist nicht dafür gedacht, hier im Wiki gelesen zu werden, sondern es wird aus FreeCAD heraus, im BIM Arbeitsbereich, unter dem Menü '''Hilfe -> BIM Tutorium''' gestartet. Es enthält eine Reihe von Schritten, die vom Benutzer auszuführen sind. Jeder Schritt wird durch eine Instanz der [<nowiki>{{BIMTutorialAction|descr|goal1|test1|goal2|test2}}</nowiki>](Template_BIMTutorialAction.md) Vorlage abgeschlossen, die über die Bedingung informiert, die erfüllt werden muss. Bilder sollten 300px breit sein. Auf dieser Seite sollten keine SVG Bilder verwendet werden, da sie vom QTextBrowser Widget nicht unterstützt werden}}
+{{BIMTutorialAction/de|descr=Dies ist die anwendungsinterne Anleitung des Arbeitsbereichs [BIM](BIM_Workbench/de.md). Sie ist nicht dafür gedacht, hier im Wiki gelesen zu werden, sondern wird aus FreeCAD heraus im Arbeitsbereich BIM, unter dem Menü '''Hilfe → BIM-Anleitung''' gestartet. Sie enthält eine Reihe von Schritten, die vom Benutzer auszuführen sind. Jeder Schritt wird durch eine Instanz der Vorlage [<nowiki>{{BIMTutorialAction/de|descr|goal1|test1|goal2|test2}}</nowiki>](Template:BIMTutorialAction/de.md) abgeschlossen, die über die Bedingung informiert, die erfüllt werden muss. Bilder sollten 300px breit sein. Auf dieser Seite sollten keine SVG-Bilder verwendet werden, da sie vom QTextBrowser-Widget nicht unterstützt werden}}
 
 
 
-### Willkommen im BIM Arbeitsbereich! 
+### Willkommen im Arbeitsbereich BIM! 
 
 <img alt="" src=images/BIM_Tutorial_title.jpg  style="width:300px;">
 
-Dieses Tutorial lässt dich durch die verschiedenen Funktionalitäten der [BIM Arbeitsbereich](BIM_Workbench/de.md) durchlaufen und hilft dir, durch die Modellierung eines sehr einfachen Pavillongebäudes in die Spur zu kommen. Die komplette Bearbeitung sollte je nach deinen Vorkenntnissen im Umgang mit 3D Anwendungen zwischen einer und zwei Stunden dauern.
+Diese Anleitung führt den Anwender durch die verschiedenen Funktionalitäten des Arbeitsbereichs [BIM](BIM_Workbench/de.md) und hilft, durch die Modellierung eines sehr einfachen Pavillongebäudes, den richtigen Weg zu finden. Die komplette Bearbeitung sollte je nach Vorkenntnissen im Umgang mit 3D-Anwendungen zwischen einer und zwei Stunden dauern.
 
-Du kannst es jederzeit unterbrechen und später fortsetzen, indem du das Menü **Hilfe -\> Willkommensbildschirm** wählst und erneut auf den Punkt **BIM Tutorium** klickst.
+Sie kann jederzeit angehalten und später fortgesetzt werden, indem der Menüeintrag **Hilfe → BIM-Anleitung** ausgewählt wird.
 
-Bei einigen Schritten dieses Tutoriums musst du Aktionen ausführen. Diese werden unter diesem Textfeld angezeigt, mit einem Symbol, das anzeigt, ob die Aufgabe abgeschlossen wurde oder nicht. Aber da wir hier bei FreeCAD gute Menschen sind, ist es nicht zwingend erforderlich, die Aktionen abzuschließen, um durch diese Seiten zu gelangen. Du kannst einfach durch das Lernprogramm blättern und die Aktionen nach Belieben überspringen.
+Einige Schritte dieser Anleitung erfordern die Mitarbeit den Anwenders. Dazu werden unter diesem Textfeld Aufgaben angezeigt, mit einem Symbol, das anzeigt, ob eine Aufgabe abgeschlossen wurde oder nicht. Aber da wir hier bei FreeCAD gute Menschen sind, ist es nicht zwingend erforderlich, die Aufgaben abzuschließen, um durch diese Seiten zu gelangen. Die Anleitung kann einfach durchgeblättert und die Aufgaben nach Belieben übersprungen werden.
 
 
 
-#### Über FreeCAD Versionen 
+#### Über FreeCAD-Versionen 
 
-Dieses Tutorium ist für die aktuellste verfügbare Entwicklungsversion von FreeCAD geschrieben. (derzeit 0.19). Der BIM Arbeitsbereich ist jedoch so konzipiert, dass er mit jeder Version von FreeCAD kompatibel ist. Wenn du eine ältere FreeCAD Version als die hier angegebene verwendest, könnten einige BIM Werkzeuge anders aussehen, anders funktionieren oder sogar nicht verfügbar sein. Lies die [Dokumentation](BIM_Workbench/de.md), um im Zweifelsfall mehr zu erfahren.
+Diese Anleitung ist für die aktuellste verfügbare Entwicklungsversion von FreeCAD geschrieben. (derzeit 1.1.0dev). Der Arbeitsbereich BIM ist jedoch so konzipiert, dass er mit jeder Version von FreeCAD kompatibel ist. Wird eine ältere FreeCAD-Version als die hier angegebene verwendet, könnten einige BIM-Werkzeuge anders aussehen, anders funktionieren oder sogar nicht verfügbar sein. Im Zweifelsfall hilft das Lesen der [Dokumentation](BIM_Workbench/de.md), um mehr zu erfahren.
 
 
 
 #### Hinweis
 
-Dieses Tutorial wird noch geschrieben, und ist daher **unvollständig**! Wenn du Vorschläge hast oder Dinge, die du unklar findest, dann hilf uns doch im [FreeCAD-Forum](https://forum.freecadweb.org/viewforum.php?f=23), es besser zu machen!
+An dieser Anleitung wird noch geschrieben, sie ist daher **unvollständig**! Wenn du Vorschläge hast oder Dinge, die du unklar findest, dann hilf uns doch im [FreeCAD-Forum](https://forum.freecad.org/viewforum.php?f=23), sie zu verbessern!
 
 
-{{BIMTutorialAction|descr=Keine Aktion für diesen Schritt ausführen}}
+{{BIMTutorialAction/de|descr=Keine Aktion für diesen Schritt ausführen}}
 
 
 
 ### FreeCAD einrichten 
 
-FreeCAD hat ein umfangreiches Voreinstellungssystem mit vielen Optionen, die unter dem Menü **Bearbeiten-\>Voreinstellungen** zu finden sind. Jeder zusätzlicher Arbeitsbereich kann weitere Einstellungsseiten hinzufügen, was es sehr komplex macht.
+FreeCAD hat ein umfangreiches Voreinstellungssystem mit vielen Optionen, die unter dem Menü **Bearbeiten → Einstellungen** zu finden sind. Jeder zusätzliche Arbeitsbereich kann weitere Einstellungsseiten hinzufügen, was es sehr komplex macht.
 
-Der BIM Arbeitsbereich bietet einen [vereinfachten Einrichtungsbildschirm](BIM_Setup/de.md), mit dem du schnell einige der nützlichsten Einstellungen für die BIM Arbeit vornehmen kannst. Der Bildschirm **BIM Einstellungen** befindet sich im Menü **Verwalten -\> BIM Einrichtung** (Du kannst auch auf die entsprechende Schaltfläche in der Symbolleiste \"Verwalten\" klicken):
+Der Arbeitsbereich BIM stellt ein [vereinfachtes Einrichtungsfenster](BIM_Setup/de.md) zur Verfügung, mit dem schnell einige der nützlichsten Einstellungen für die BIM-Arbeit vorgenommen werden können. Das Fenster **BIM-Einstellungen** befindet sich unter dem Menüeintrag **Verwalten → BIM einrichten\...** (Es kann auch die entsprechende Schaltfläche in der Symbolleiste \"Werkzeuge verwalten\" angeklickt werden):
 
 <img alt="" src=images/BIM_Tutorial_01.jpg  style="width:300px;">
 
-Öffne nun den BIM Einstellungen Bildschirm und lege die verschiedenen Optionen nach deinem Geschmack fest.
+Öffne nun den Dialog BIM Setup und lege die verschiedenen Optionen nach deinem Geschmack fest.
 
 Im Bedarfsfall bewegen die Maus über eine beliebige Option oder Einstellung, um eine Beschreibung zu sehen, wofür sie verwendet wird:
 
 <img alt="" src=images/BIM_Tutorial_02.jpg  style="width:300px;">
 
-In diesem Tutorium werden wir in Zentimetern arbeiten. Wir schlagen daher vor, die bevorzugten Einheiten auf **Zentimeter** und die Standardgröße des Gitterquadrats auf **10 cm** einzustellen. Diese Einstellungen können jederzeit über die Schaltfläche \"Arbeitsebene\" in der Hauptsymbolleiste und die Einheitenanzeige in der Statusleiste (unten rechts) geändert werden:
+In dieser Anleitung werden wir in Zentimetern arbeiten. Wir empfehlen daher, die bevorzugten Einheiten auf **Zentimeter** und die Standardgröße eines Rasterquadrats auf **10 cm** einzustellen. Diese Einstellungen können jederzeit über die Schaltfläche für die Auswahl der Arbeitsebene in der Hauptsymbolleiste und die Einheitenanzeige in der Statusleiste (unten rechts) geändert werden:
 
 <img alt="" src=images/BIM_tutorial_14.jpg  style="width:300px;">
 
 
-{{BIMTutorialAction|goal1=Open the BIM setup screen|test1=True if hasattr(FreeCADGui,"BIMSetupDialog") else False|goal2=Set units to centimeters and grid size to 10cm|test2=True if ((FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Units").GetInt("UserSchema",0) == 4) and (FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetFloat("gridSpacing",10) == 100)) else False}}
+{{BIMTutorialAction/de
+|goal1=Den Dialog BIM Setup öffnen 
+|test1=True if hasattr(FreeCADGui,"BIMSetupDialog") else False
+|goal2=Set preferred working units to centimeters and the default size of a grid square to 10 cm
+|test2=True if ((FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Units").GetInt("UserSchema",0) == 4) and (FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetString("gridSpacing") == '10.00 cm')) else False}}
 
 
 
 ### Neues Dokument erstellen 
 
-If you just installed FreeCAD, you are probably currently looking at the **FreeCAD Start Page**:
+Wurde FreeCAD eben erst installiert, wird wahrscheinlich gerade die **FreeCAD-Startseite** angezeigt:
 
 <img alt="" src=images/BIM_tutorial_13.jpg  style="width:300px;">
 
-The start page lists the latest documents you have been working with, and, on its different tabs, explains how to get help. But in order to start working, we need to create a new, empty **document**. If you haven\'t done it yet, create now a new document by using the \"Create new\...\" item of the start page, or by navigating to menu **File -\> New**:
+Die Startseite zeigt die Dokumente an, an denen zu letzt gearbeitet wurde und erklärt auf verschiedenen Registerkarten wie man Hilfe erhält. Um jedoch mit der Arbeit zu beginnen, müssen wir ein neues, leeres Dokument erstellen. Falls dies noch nicht geschehen ist, wird jetzt ein neues Dokument erstellt, indem das Element \"Leere Datei\" auf der Startseite verwendet wird oder über der Menüeintrag \"Datei → Neu\" ausgewählt wird:
 
 <img alt="" src=images/BIM_tutorial_09.jpg  style="width:300px;">
 
-You will then find yourself in the 3D space of FreeCAD, ready to work:
+Sie befinden sich dann im 3D-Raum von FreeCAD und sind bereit mit der Arbeit zu beginnen.
 
 <img alt="" src=images/BIM_tutorial_10.jpg  style="width:300px;">
 
 
-{{BIMTutorialAction|goal1=Create a new document|test1=True if FreeCAD.ActiveDocument else False}}
+{{BIMTutorialAction/de
+|goal1=Ein neues Dokument erstellen
+|test1=True if FreeCAD.ActiveDocument else False
+}}
 
 
 
-### Navigieren in der 3D Ansicht 
+### In der 3D-Ansicht navigieren 
 
-There are several ways to interact with the mouse in FreeCAD. These are called [navigation styles](Mouse_navigation.md). You can change the current navigation style anytime by clicking on the navigation style button in the status bar. Hovering the mouse over that button will also show you what each mouse button does. Several of them are made to match other well-known applications. Choose one you are comfortable with.
+Es gibt mehrere Möglichkeiten, wie Sie mit der Maus in FreeCAD interagieren können. Diese werden als [Navigationsstile](Mouse_navigation.md) bezeichnet. Sie können den aktuellen Navigationsstil jederzeit ändern, indem Sie auf die Schaltfläche für den Navigationsstil in der Statusleiste klicken. Wenn Sie die Maus über diese Schaltfläche bewegen, wird Ihnen auch angezeigt, welche Funktionen jeder Mausbutton hat. Einige von ihnen sind so gestaltet, dass sie zu anderen bekannten Anwendungen passen. Wählen Sie einen Stil, mit dem Sie vertraut sind.
 
 <img alt="" src=images/BIM_Tutorial_03.jpg  style="width:300px;">
 
-Controlling how you look at your model in the 3D view can be done in multiple ways: Using the **mouse** (depending on the navigation style you chose), the **keyboard** (explore the contents of the **View** menu to find out more), or the [Navigation Cube](Navigation_Cube.md) (click the different arrows and faces of the cube to align the view).
+Die Kontrolle darüber, wie Sie Ihr Modell in der 3D-Ansicht betrachten, kann auf verschiedene Arten erfolgen: Verwenden der Maus (abhängig vom gewählten Navigationsstil), der Tastatur (bitte lesen Sie den Inhalt des Ansicht-Menüs, um mehr zu erfahren) oder des [Navigationswürfels](Navigation_Cube.md) (Klicken Sie auf die verschiedenen Pfeile und Flächen des Würfels, um die Ansicht auszurichten).
 
 <img alt="" src=images/BIM_Tutorial_04.jpg  style="width:300px;">
 
 
-{{BIMTutorialAction|goal1=Choose a navigation style|test1=True|goal2=Set yourself in Top view|test2=True if FreeCADGui.ActiveDocument.ActiveView.getViewDirection().getAngle(FreeCAD.Vector(0,0,-1)) < 0.01 else False}}
+{{BIMTutorialAction/de
+|goal1=Einen Navigationsstil auswählen
+|test1=True
+|goal2=In die Draufsicht wechseln
+|test2=True if FreeCADGui.ActiveDocument.ActiveView.getViewDirection().getAngle(FreeCAD.Vector(0,0,-1)) < 0.01 else False
+}}
 
 
 
 ### Umorganisieren der Oberfläche 
 
-All panels and toolbars in FreeCAD can be moved and reorganized. Larger panels can also be joined by dragging and dropping them on another one. If your screen is too small to display all the toolbars and their contents (truncated toolbars will appear with a \>\> sign), it might be a good idea to move them to a better position.
+Alle Fenster und Werkzeugleisten in FreeCAD können bewegt und neu organisiert werden. Größere Anzeigetafeln können durch Ziehen und fallen lassen mit anderen zusammen gefügt werden. Wenn dein Bildschirm zu klein ist um alle Werkzeugleisten und deren Inhalt anzuzeigen, (abgeschnittene Werkzeugleisten werden mit einem \>\> Zeichen angezeigt) ist es eine gute Idee sie an eine bessere Position zu bewegen.
 
 <img alt="" src=images/BIM_Tutorial_05.jpg  style="width:300px;">
 
-Toolbars and panels can also be turned on and off from the **View** menu.
+Werkzeugleisten und Fenster können mit dem **Ansicht** Menü ein- und ausgeschaltet werden.
 
-The BIM workbench also features switch buttons in the status bar, that turns additional panels like selection view, report view and python console on and off. These panels are often useful while working with FreeCAD, but they use precious screen space. You can usually turn everything off until you need them. Remember that error messages are printed in the report window, so in case anything goes wrong, be sure to have a look there.
+Der Arbeitsbereich BIM bietet in der Statusleiste Schaltflächen, welche zusätzliche Fenster wie Selection View, Report View und Python console ein- und ausschalten. Diese Fenster sind beim Arbeiten mit FreeCAD oft nützlich, aber sie verbrauchen wertvolle Bildschirmfläche. Du kannst für gewöhnlich alles ausschalten bis du es benötigst. Erinnere dich, dass Fehlermeldungen im Report View angezeigt werden, wenn etwas falsch läuft, schaue dort nach.
 
 <img alt="" src=images/BIM_tutorial_17.jpg  style="width:300px;">
 
 
-{{BIMTutorialAction|descr=No action to perform for this step}}
+{{BIMTutorialAction/de
+|descr=Keine Aktion für diesen Schritt ausführen
+}}
 
 
 
-### Die BIM Arbeitsbereichswerkzeuge 
+### Die Werkzeuge des Arbeitsbereichs BIM 
 
-The [BIM Workbench](BIM_Workbench.md) contains tools borrowed from other workbenches such as [Arch](Arch_Workbench.md), [Draft](Draft_Workbench.md) or [Part](Part_Workbench.md), as well as a couple of its own tools. These are organized in several categories. Each category has a menu and a toolbar. Take a moment to explore the contents of the menus described below.
+Der [Arbeitsbereich BIM](BIM_Workbench.md) enthält sowohl Werkzeuge die aus anderen Arbeitsbereichen wie [Draft](Draft_Workbench.md) oder [Part](Part_Workbench.md), ausgeborgt sind, als auch eigene Werkzeuge. Sie sind in mehreren Bereichen organisiert. Jeder Bereich hat ein Menü und eine Werkzeugleiste. Nimm dir einen Moment Zeit und erforsche den Inhalt der unten beschriebenen Menüs.
 
 
 
-#### 2D Entwurf 
+#### 2D-Zeichnen 
 
-These tools allow you to draw flat objects, such as lines, polylines, rectangles, arcs, etc\... that will become the bases of your BIM objects. For example, you can use a polyline to define the base trace a wall, or a rectangle as a profile for a beam. All 2D objects are created in the current [working plane](Draft_SelectPlane.md).
+Diese Werkzeuge ermöglichen, ebene Objekte, wie Linien, Linienzüge, Rechtecke, Kreisbögen usw\... zu zeichnen, welche als Basis für BIM-Objekte eingesetzt werden. Zum Beispiel kann ein Linienzug als Umriss einer Mauer, oder ein Rechteck als Profil für einen Balken verwendet werden. Alle 2D-Objekte werden auf der aktuellen [Arbeitsebene](Draft_SelectPlane/de.md) erzeugt.
 
 <img alt="" src=images/BIM_Tutorial_35.jpg  style="width:300px;">
 
 
 
-#### 3D und BIM Modellierung 
+#### 3D/BIM
 
-This category contains tools to create BIM objects such as [walls](Arch_Wall.md) or [windows](Arch_Window.md), and generic, non-BIM 3D objects such as [boxes](BIM_Box.md), that you can turn into BIM objects later on. The result is different if you use the tool with an object selected or not. If not, you will be presented with a creation interface. If you have selected an object before running the tool, an object of the corresponding type will be created using the selected object as a base.
+Diese Gruppe enthält Werkzege zum Erzeugen von BIM Objekten wie [Wand](Arch_Wall.md) oder [Fenster](Arch_Window.md), und generisch, nicht-BIM Objekte wie Quader, die du später in BIM Objekte wandeln kannst. Das Ergebnis ist unterschiedlich je nachdem ob du das Werkzeug mit einem ausgewählten Objekt verwendest oder nicht. Falls nicht, wird ein Erzeugungsfenster angezeigt. Falls du vor dem Ablauf des Werkzeuges ein Objekt ausgewählt hast, dann wird unter Verwendung des gewählten Objektes ein Objekt der entsprechenden Type erzeugt.
 
 <img alt="" src=images/BIM_Tutorial_33.jpg  style="width:300px;">
 
-A typical example is to press the [wall](Arch_Wall.md) button with a selected [line](Draft_Line.md) or [polyline](Draft_Wire.md). A wall will be created automatically, using the line or polyline as its baseline.
+Ein typisches Beispiel ist die [Wand](Arch_Wall.md) Schaltfläche zu betätigen während eine [Linie](Draft_Line.md) oder ein [Linienzug](Draft_Wire.md) ausgewählt ist. Es wird automatisch eine Wand erzeugt, wobei die Linie oder der Linienzug als Basis verwendet wird.
 
-Non-BIM objects, including objects made in other workbenches, can be turned into BIM objects anytime, by selecting them and pressing any of the BIM tool buttons.
+Nicht-BIM Objekte, eingeschlossen Objekte die in anderen Arbeitsbereichen erzeugt wurden, könne jederzeit in BIM Objekte verwandelt werden, indem sie ausgewählt werden und eine BIM Schaltfläche gedrückt wird.
 
 
 
-#### Anmerkung
+#### Beschriften
 
-These tools produce annotative objects such as dimensions, texts, labels or grids, that are not used for modeling but to annotate your models and produce understandable drawings.
+Diese Werkzeuge erstellen Beschriftungsobjekte wie z.B. Maße, Texte, Hinweise oder Raster, die nicht zum Modellieren eingesetzt werden, sondern zum Beschriften der Modelle und zum Erstellen verständlicher Zeichnungen.
 
 <img alt="" src=images/BIM_Tutorial_34.jpg  style="width:300px;">
 
 
 
-#### Fangen
+#### Einrasten
 
-These tools turn [snapping](Draft_Snap.md) positions on/off. Like in most BIM applications, each additional snapping position adds calculation time when drawing, so it is best to only keep the ones you need turned on.
+Diese Werkzeuge schalten das [Einrasten](Draft_Snap/de.md) an Positionen ein/aus. Wie bei den meisten BIM Anwendungen, benötigt jedes Einrasten an Positionen beim Zeichnen Berechnungszeit, deshalb ist es am Besten dies nur wenn notwendig eingeschaltet lassen.
 
 
 
 #### Ändern
 
-These tools modify existing objects. They contain usual transformation tools such as Move or Rotate, plus a series of others that only work for specific object types.
+Diese Werkzeuge verändern bestehende Objekte. Sie beinhalten gewöhnlich Werkzeuge zur Transformation wie Bewegen oder Drehen, zusätzlich andere die nur bei speziellen Objekten arbeiten.
 
 
 
-#### Verwalte
+#### Verwalten
 
-This category contains general management tools. Most of them allow you to edit BIM properties of a large group of objects simultaneously, without the need to select them.
+Diese Gruppe enthält generelle Management Werkzeuge. Die meisten erlauben es Eigenschaften einer großen Gruppe von BIM Objekten gleichzeitig zu ändern, ohne dass einzelne ausgewählt werden müssen.
 
-Each tool contained in these menus has its own documentation page that describes in detail how it works and what options are available. They are listed on the [BIM Workbench documentation](BIM_Workbench.md) page, which is also accessible from the **Help** menu, or by using menu **Help -\> What\'s this?** and clicking on any toolbar button.
+Jedes Werkzeug, dass in diesen Menüs enthalten ist, hat seine eigene Dokumentationsseite, die im Detail beschreibt, wie es arbeitet und welche Optionen zur Verfügung stehen. Sie werden auf der Dokumentationsseite des Arbeitsbereichs [BIM](BIM_Workbench/de.md) aufgelistet, die auch über das Menü **Hilfe** erreichbar ist, oder durch Auswählen des Menüeintrags **Hilfe → Direkthilfe** und Anklicken einer beliebigen Schaltfläche einer Werkzeugleiste.
 
 
-{{BIMTutorialAction|descr=No action to perform for this step}}
+{{BIMTutorialAction/de
+|descr=Keine Aktion für diesen Schritt ausführen
+}}
 
 
 
 ### Bereite deinen Arbeitsbereich vor 
 
-There are many ways to create BIM objects in FreeCAD. You can use the native [BIM tools](BIM_Workbench.md) from this workbench, or use any other FreeCAD tool from other [workbenches](Workbenches.md). Both the 2D drawing tools and the 3D BIM tools from this workbench, unlike other workbenches such as Part Design, make extensive use of **working planes** and **snapping**.
+Es gibt viele Wege um in FreeCAD BIM-Objekte zu erstellen. Man kann die [BIM-Werkzeuge](BIM_Workbench/de.md) dieses Arbeitsbereiches verwenden, oder jedes andere Werkzeug aus anderen [Arbeitsbereichen](Workbenches/de.md). Beide, die Werkzeuge für *2D-Zeichnen* und *3D-BIM* dieses Arbeitsbereichs, verwenden, anders als andere Arbeitsbereiche wie Part Design, weitgehend die **Arbeitsebene** und das **Einrasten**.
 
-The [working plane](Draft_SelectPlane.md) is where your next objects will be created. You can set it to one of the basic orthogonal planes (ground, front, side), or use any selected face to define the current working plane. You can also use [Working Plane Proxies](Draft_WorkingPlaneProxy.md) from menu **Utils** to store a specific working plane position inside your model. [Building Parts](Arch_BuildingPart.md) also contain an implicit working plane position. Changing the current working plane is done by pressing the working plane button on the BIM toolbar. The **grid** always reflects where the working plane is.
+Die [Arbeitsfläche](Draft_SelectPlane.md) ist dort wo die Objekte erzeugt werden. Man kann sie auf eine der rechtwinkeligen Basisebenen (Boden, Vorderseite, Seite) legen, oder man kann jede ausgewählte Fläche zum Festlegen verwenden. Man kann auch [Arbeitsflächen Proxies](Draft_WorkingPlaneProxy/de.md) aus den Menü **Werkzeuge** verwenden, um eine spezielle Lage der Arbeitsfläche im Modell zu speichern. [Teile Erzeugen](Arch_BuildingPart/de.md) enthält eine implizierte Positionierung der Arbeitsfläche. Die aktuelle Arbeitsfläche wird durch Betätigen der Arbeitsflächen Schaltfläche in der BIM Werkzeugleiste gewechselt. Der **Raster** zeigt immer wo die Arbeitsfläche ist.
 
-As you will have noticed, view angle and working plane are not tied together. You can work on your working plane from any view angle.
+Wie du schon bemerkt hast, sind der Blickwinkel und die Arbeitsfläche nicht miteinander verknüpft. Man kann auf der Arbeitsfläche aus jedem beliebigen Blickwinkel arbeiten.
 
-Set the working plane in \"Top\" mode now:
+Setze jetzt die Arbeitsfläche in den \"Oben\" Modus:
 
 <img alt="" src=images/BIM_Tutorial_06.jpg  style="width:300px;">
 
-The [snapping tools](Draft_Snap.md) allow you to place new objects and points precisely according to existing geometry. However, enabling many snapping locations might slow down the drawing operations, so it is wise to only enable the snapping tools you intent to use. Take a moment to review what each of them does, so when needed you will know which can be disabled.
+Die [snapping tools](Draft_Snap/de.md) erlauben es neue Objekte und Punkte genau an die vorhandene Geometrie anzuhängen. Wie auch immer, viele Einrast Orte können die Zeichenoperationen langsam machen, deshalb ist es günstig nur notwendige Einrast Werkzeuge zu erlauben. Überlege eine Moment was jedes von ihnen macht, dann wirst du erkennen welches deaktiviert werden kann.
 
 <img alt="" src=images/BIM_Tutorial_07.jpg  style="width:300px;">
 
-Take special notice of the last one, the **working plane snapping** tool, as it will force any snapped point to lie on the working plane, thus preventing you to snap above or under the working plane. You will often need to turn it on or off, depending on the operation you are performing.
+Beachte besonders das letzte, das **Arbeitsflächen Einrast** Werkzeug, denn dieses zwingt jeden Punkt auf der Arbeitsfläche zu liegen, somit wird verhindert dass oberhalb oder unterhalb der Arbeitsfläche eingerastet wird. Es wird, abhängig von der durchgeführten Operation, oft notwendig sein dieses ein- oder auszuschalten.
 
 
-{{BIMTutorialAction|goal1=Set the working plane in "Top" (XY) mode|test1=True if ((FreeCAD.DraftWorkingPlane.axis.getAngle(FreeCAD.Vector(0,0,1)) < 0.01) and (FreeCAD.DraftWorkingPlane.weak == False)) else False|goal2=Review the different snapping tools|test2=True}}
+{{BIMTutorialAction/de
+|goal1=Die Arbeitsebene in den Modus "Draufsicht" (XY) versetzen
+|test1=True if ((FreeCAD.DraftWorkingPlane.axis.getAngle(FreeCAD.Vector(0,0,1)) < 0.01) and (FreeCAD.DraftWorkingPlane.weak == False)) else False
+|goal2=Nochmals die unterschiedlichen Einrastwerkzeuge betrachten
+|test2=True
+}}
 
 
 
 ### Zeichnen einer ersten Wand 
 
-Let\'s start building our pavilion by creating some walls. Walls can be made either directly with the [wall](Arch_Wall.md) tool, or by first drawing 2D objects such as [lines](Draft_Line.md), [wires](Draft_Wire.md) (polylines) or [sketches](Sketcher_NewSketch.md), that will define the baseline of our walls. When you have such a baseline object selected, pressing the Wall tool will automatically convert it into a wall.
+Starten wir mit dem Erbauen unseres Pavillion mit dem Erzeugen einiger Wände. Wände können entweder direkt mit dem [Wand](Arch_Wall/de.md), oder durch zuerst Zeichnen von 2D Objekten wie [Linie](Draft_Line/de.md), [Linienzug](Draft_Wire/de.md) (Polylinien) oder [Skizzen](Sketcher_NewSketch/de.md), welche die Grundlinie unserer Wände definieren, erzeugt werden. Wenn ein Grundlinien Element ausgewählt ist wird es durch Betätigen des Wand Werkzeuges automatisch in eine Wand umgewandelt.
 
-First, zoom out until a good part or all of the grid is seen. This will make it much easier to see what we are doing:
+Zoome zuerst hinaus bis der Großteil oder der gesamte Raster sichtbar ist. Das macht es viel einfacher zu sehen was wir machen:
 
 <img alt="" src=images/BIM_tutorial_15.jpg  style="width:300px;">
 
-Then, press the <img alt="" src=images/Arch_Wall.png  style="width:16px;"> **Wall** button from the toolbar (or choose menu item **3D/BIM -\> Wall**). Click two points on the grid, vertically aligned, distant by **300 cm**. Pressing SHIFT after the first point has been clicked will help you to keep your wall horizontal or vertical. The side panel will inform you of the length of wall while drawing.
+Dann die Schaltfläche <img alt="" src=images/Arch_Wall.png  style="width:16px;"> **Wand** in der Symbolleiste drücken (oder den Menüeintrag **3D/BIM → Wand** auswählen). Auf dem Raster zwei vertikal ausgerichtete Punkte mit **300 cm** Abstand anklicken. Das Drücken der SHIFT-Taste nach dem Anklicken des ersten Punktes hilft die Wand horizontal oder vertikal ausgerichtet zu lassen. Das seitliche Fenster zeigt während des Zeichnens die Länge der Wand an.
 
 <img alt="" src=images/BIM_tutorial_16.jpg  style="width:300px;">
 
-If you created a wrong wall, no worries! Simply delete it or undo it (menu **Edit -\> Undo**) and try again.
+Falls eine falsche Wand erstellt wurde, keine Sorge! Einfach die Wand löschen oder die Erstellung rückgängig machen (Menüeintrag **Bearbeiten → Rückgängig**) und erneut versuchen.
 
 
-{{BIMTutorialAction|goal1=Create a wall|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "MakeBlocks" in o.PropertiesList]) == 1)}}
+{{BIMTutorialAction/de
+|goal1=Eine Wand erstellen
+|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "MakeBlocks" in o.PropertiesList]) == 1)
+}}
 
 
 
 ### Zeichnen einer zweiten Wand 
 
-Make a second, horizontal wall of 4 meters (or 400 centimeters) long. Select the <img alt="" src=images/Arch_Wall.png  style="width:16px;"> **Wall** tool again, pan and zoom out until you see a good area of the grid, and pick two points from the grid to define the start and end points of the new wall:
+Erzeuge eine zweite, horizontale Wand die 4 Meter (oder 400 cm) lang ist. Wähle wieder das <img alt="" src=images/Arch_Wall.png  style="width:16px;"> **Wand** Werkzeug, verschiebe oder zoome bis du einen guten Teilbereich des Rasters siehst, und klicke zwei Punkte um den Start- und Endpunkt der neuen Wand festzulegen:
 
 <img alt="" src=images/BIM_tutorial_11.jpg  style="width:300px;">
 
-After they are created, select both walls by pressing CTRL and clicking them both in the 3D view or in the [tree view](Document_structure.md), and adjust their **height** property to 2.5 meters and their **width** to 20 centimeters (or any other measurement you are comfortable with, if working in another unit), so they look like this (Use the mouse to rotate the view, according to the navigation style you choose):
+Wähle, nachdem sie erzeugt wurden, beide Wände durch drücken von CTRL und anklicken beider in der 3D Ansicht oder im [Modellbaum](Document_structure/de.md), und stelle ihre Eigenschaft **Höhe** auf 2.5 Meter, und **Breite** auf 20 cm (oder jedes andere Maß mit dem du vertraut bist, falls du mit anderen Einheiten arbeitest) ein. Dann sehen sie so aus (Verwende die Maus um die Ansicht gemäß dem verwendeten Navigations Style zu drehen):
 
 <img alt="" src=images/BIM_tutorial_08.jpg  style="width:300px;">
 
-You can always correct or change properties after a wall or any other BIM object has been created. By expanding the wall object in the tree view, then double-clicking the baseline of the wall, you can also modify its base 2D object. Most BIM objects in FreeCAD are based on another object, such as a baseline or a profile.
+Du kannst immer, nachdem eine Wand oder ein anderes BIM Objekt erzeugt wurde, die Eigenschaften ausbessern oder ändern. Durch erweitern des Wand Objektes im Modellbaum, und anschließendes Doppelklicken der Basislinie der Wand, kann man auch sein 2D Basisobjekt verändern. Die Meisten BIM Objekte basieren auf anderen Objekten wie Basislinien oder Profilen.
 
 <img alt="" src=images/BIM_tutorial_12.jpg  style="width:300px;">
 
 
 
-#### Wichtige Anmerkung 
+#### Wichtiger Hinweis 
 
-You will notice that some property changes, in FreeCAD, don\'t reflect immediately on the object in the 3D view. Instead, the object is marked with a \"to be recomputed\" blue mark in the tree:
+Du wirst bemerken, dass einige Änderungen von Eigenschaften in FreeCAD nicht sofort in der 3D Ansicht erscheinen. Statt dessen wird das Objekt im Modellbaum blau als \"muss neu berechnet werden\" markiert:
 
 <img alt="" src=images/BIM_Tutorial_20.jpg  style="width:300px;">
 
-The reason for this is that a FreeCAD document can be a very complex chain of inter-dependent objects. Updating one can trigger an update on many others, and therefore take a long time. To avoid this, some operations simply mark the object to be recomputed, and you trigger the recomputation yourself by using menu **Edit -\> Refresh** or pressing **Ctrl+R**.
+Der Grund ist, dass ein FreeCAD-Dokument eine sehr komplexe Kette von untereinander abhängigen Objekten sein kann. Das Aktualisieren eines Objekts kann das Aktualisieren vieler anderer Objekte auslösen, und sehr viel Zeit erfordern. Um dies zu vermeiden, markieren einige Vorgänge das Objekt einfach als neu zu berechnen und der Anwender löst die Neuberechnung selbst aus, durch das Auswählen des Menüeintrags **Bearbeiten → Aktualisieren** oder durch Drücken von **Ctrl + R**.
 
 
-{{BIMTutorialAction|goal1=Create two orthogonal wall objects|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "MakeBlocks" in o.PropertiesList]) == 2)|goal2=Set their height to 2.50 meters and width to 20 centimeters|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "MakeBlocks" in o.PropertiesList and o.Height.Value == 2500 and o.Width.Value == 200]) == 2)}}
+{{BIMTutorialAction/de
+|goal1=Zwei rechtwinklige Wände (wall objects) erstellen
+|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "MakeBlocks" in o.PropertiesList]) == 2)
+|goal2=Ihre höhe auf 2.50 m and ihre Breite auf 20 cm festlegen
+|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "MakeBlocks" in o.PropertiesList and o.Height.Value == 2500 and o.Width.Value == 200]) == 2)
+}}
 
 
 
-### Vergiss nicht, die Datei regelmäßig zu speichern! 
+### Nicht vergessen, die Datei regelmäßig zu speichern! 
 
-Like any other computer application, FreeCAD is subject to failing or crashing, specially when we have little experience with it. Saving your file often is a very good habit to take in these early moments. FreeCAD also has an auto-saving mechanism, that you can set up under menu **Edit -\> Preferences -\> General -\> Document**.
+Wie jede andere Computeranwendung, ist FreeCAD anfällig dafür zu versagen oder abzustürzen, besonders, wenn wir wenig Erfahrung mit ihm haben. Häufiges Sichern einer Datei ist gute Angewohnheit, an die man sich schon frühzeitig gewöhnen sollte. FeeCAD besitzt auch einen Mechanismus zum automatischen Speichern, den man im Menü **Bearbeiten → Einstellungen → Allgemein → Dokument** einstellen kann.
 
-Save your file now by using menu **File -\> Save**.
+Jetzt die Datei speichern mit **Datei → Speichern**.
 
 
-{{BIMTutorialAction|goal1=Save your file|test1=bool(FreeCAD.ActiveDocument.FileName)}}
+{{BIMTutorialAction/de
+|goal1=Die Datei sichern
+|test1=bool(FreeCAD.ActiveDocument.FileName)
+}}
 
 
 
 ### Zeichnen einer Dachfläche 
 
-We will now place a roof slab on top of our walls. Instead of drawing the slab directly, like we did with the walls, we will here first draw a rectangle, then turn the rectangle into a slab. We will now explore two methods to do so, both are useful to know, so we suggest you to try one first, then undo it (or reload the file), and try the other method.
+Wir werden jetzt eine Dachplatte oben auf unsere Wände platzieren. Anstatt die Platte, wie wir es mit den Wänden gemacht haben, direkt zu zeichnen werden wir hier zuerst ein Rechteck zeichnen, dass wir dann in eine Platte verwandeln. Wir werden jetzt zwei Methoden erforschen, um das zu machen. Es ist nützlich beide zu kennen. Wir versuchen zuerst die eine, dann löschen wir (oder neu Laden der Datei), und dann versuchen wir die Andere.
 
 
 
 #### Methode 1: Zeichne die Scheibe auf dem Boden an und bringen Sie sie dann in Position 
 
-It is often convenient to consider the top XY plane (the ground plane) as a kind of \"drawing board\", where we will be building our objects, and move then next to their correct position. There is an additional advantage here, our working plane is already in \"Top\" mode, so we don\'t need to change it.
+Es ist oft bequem die obere XY Ebene (die Grundebene) als eine Art von \"Zeichenebene\" aufzufassen, auf der wir unsere Objekte erzeugen, die wir anschließend zu ihren richtigen Positionen verschieben. Es gibt hier den zusätzlichen Vorteil, dass die Arbeitsebene sich schon im \"Oben\" Modus befindet, wir sie also nicht verändern müssen.
 
-Set yourself in top view, zoom out a bit until you see both walls, and draw a rectangle encompassing them both. Press the <img alt="" src=images/Draft_Rectangle.png  style="width:16px;"> **Rectangle** button from the toolbar (or choose menu item **2D Drafting -\> Rectangle**):
+Jetzt in die Draufsicht wechseln, etwas heraus-zoomen, bis beide Wände zu sehen sind, und ein Rechteck zeichnen das beide beinhaltet. Die Schaltfläche <img alt="" src=images/Draft_Rectangle.png  style="width:16px;"> **Rechteck** in der Symbolleiste drücken (oder den Menüeintrag **2D-Zeichnen → Rechteck** auswählen):
 
 <img alt="" src=images/BIM_Tutorial_18.jpg  style="width:300px;">
 
-Rotate your view to inspect the results. By default, the rectangle is filled with a face. This can be changed by changing the **Make Face** property of our rectangle to False. For the slab we are going to build, this has no impact, for other types of objects, however, the base object being a polyline or a face can make a difference.
+Drehe deine Ansicht um die Resultate zu begutachten. Als Standard ist das Rechteck mit einer Fläche gefüllt. Das kann durch Ändern der **Make Face** Eigenschaft unseres Rechteckes auf False geändert werden. Für die Platte die wir erzeugen werden hat das keinen Einfluss, aber für andere Arten von Objekten kann es einen Unterschied machen ob das Basisobjekt ein Linienzug oder eine Fläche ist.
 
 <img alt="" src=images/BIM_Tutorial_19.jpg  style="width:300px;">
 
-The next step is to build a slab by *extruding* it with our rectangle as its base *profile*. In FreeCAD, structural objects such as columns, beams or slabs are all made with a same object, called **Structure**. After a structural object is created, setting is **IFC Type** property to the desired type (column, slab, etc\...) is all that is needed to change its type.
+Der nächste Schritt ist das Erstellen der Platte durch *Extrudieren* , mit unserem Rechteck als *Basisprofil*. In FreeCAD werden Strukturobjekte wie Säulen, Balken oder Platten mit dem gleichen Objekt, welches **Struktur** genannt wird, erstellt. Nachdem ein Strukturobjekt erstellt wurde, genügt es um seine Art zu Ändern seine Eigenschaft **IFC Typ** auf die gewünschte Art (Säule, Platte usw\...) einzustellen.
 
-Make sure our rectangle is selected, then press the <img alt="" src=images/BIM_Slab.png  style="width:16px;"> **Slab** button from the toolbar (or choose menu item **3D/BIM -\> Slab**). As stated above, this can also be done with the Column or Beam tools, as they all produce the same type of object. After our object is created, we need to make the following changes to its properties:
+Sicherstellen, dass unser Rechteck ausgewählt ist, dann die Schaltfläche <img alt="" src=images/BIM_Slab.png  style="width:16px;"> **Platte** in der Symbolleiste drücken (oder den Menüeintrag **3D/BIM → Platte** auswählen). Wie vorher angegeben, kann das auch mit den Stützen- oder Balkenwerkzeugen ausgeführt werden, da alle dieselbe Art Objekt erstelle. Nachdem unser Objekt erzeugt wurde, müssen wir seine Eigenschaften wie folgt ändern:
 
--   Set its **Height** to **20 cm**
--   Verify its **IFC Type** is set to **Slab**
+-   Setze seine **Höhe** auf **20 cm**
+-   Überprüfe ob sein **IFC Type** auf **Platte** gesetzt ist
 
-Now we need to move our new roof slab to its correct position, that is, above the walls. So we need to move it upwards, in the Z direction, by a distance of 250 cm, which is the height of our walls. We can simply edit the **Placement** property of our slab, expand its **Position** attribute, and set the value of **z** to 250 cm. Our slab is now well in place:
+Jetzt müssen wir unsere Dachplatte an die richtige Position verschieben, das ist oberhalb der Wände. Wir müssen sie aufwärts, in Z Richtung, um 250 cm was die Höhe unserer Wände ist, bewegen. Wir können einfach die **Placement** Eigenschaft unserer Platte editieren, ihr **Position** Attribut öffnen und den Wert von **z** auf 250 cm setzen. unsere Platte befindet sich jetzt am richtigen Ort:
 
 <img alt="" src=images/BIM_Tutorial_21.jpg  style="width:300px;">
 
-Another way to move our slab to its correct position, is to use the <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Move** tool from the **Modify** menu. For that, we need to set our working plane in a vertical plane first, by pressing the <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> **working plane** button (make sure you don\'t have any face selected), and setting it to **XZ (Front)**. By setting ourselves in front view (press key **1**), we can now select the slab, press the <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Move** button, and move our slab by clicking one of its base points, and, with **Shift** pressed to restrict the movement vertically, click one point on top of the walls:
+Eine andere Möglichkeit um unsere Platte in die richtige Position zu bewegen ist das <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Verschieben** Werkzeug im Menü **Modifizieren**. Dazu müssen wir zuerst die Arbeitsfläche in eine vertikale Fläche setzen, indem wir die <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> **Arbeitsfläche** Schaltfläche drücken (stelle sicher, dass keine andere Fläche ausgewählt ist) und sie auf **XZ (Vorderfront)** setzen. Indem wir uns selbst in die Vorderansicht setzen (drücke Taste **1**) können wir jetzt die Platte wählen, die <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Bewegen** Schaltfläche drücken, und die Platte durch klicken eines Basispunktes und mit gedrückter **Shift** Taste die Bewegung als vertikal einschränkend, einen Punkt an der Oberseite der Wände klicken, bewegen:
 
 <img alt="" src=images/BIM_Tutorial_23.jpg  style="width:300px;">
 
-#### Method 2: Draw the slab directly in the correct plane 
 
-Another useful method is directly working on the intended plane. We can easily set the working plane to the top surface of the walls, which is where we want our slab. Selecting a face and pressing the <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> **working plane** button sets the working plane to coincide with the selected face. Select the top face of the wall and set it as the current working plane. The placement of the grid moves to show the current working plane.
+
+#### Method 2: Zeichne die Platte direkt in der richtigen Ebene 
+
+Eine andere nützliche Methode arbeitet direkt auf der vorgesehenen Ebene. Wir können die Arbeitsebene auf die Oberseite der Wände setzen, dort wo wir unsere Platte wünschen. Auswählen einer Fläche und und drücken der <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> **Arbeitsflächen** Schaltfläche setzt die Arbeitsfläche auf die gewählte Fläche. Wähle die Deckfläche einer Wand und setze die aktuelle Arbeitsfläche. Das Platzierung des Rasters bewegt sich, um die aktuelle Arbeitsfläche zu zeigen.
 
 <img alt="" src=images/BIM_Tutorial_22.jpg  style="width:300px;">
 
-Everything we draw from now on will happen in that plane. If you like, you can now set yourself in top view, but this is not necessary. Once your working plane is set, and if **working plane snapping** is enabled, you can draw directly in any type of 3D view.
+Alles was wir von jetzt an zeichnen erfolgt auf dieser Fläche. Wenn du möchtest kannst du dich jetzt in die Deckfläche setzen, aber das ist nicht notwendig. Wenn die Arbeitsfläche einmal gesetzt ist und **Einrasten** aktiviert ist, kann man in jeder 3D Ansicht direkt zeichnen.
 
-Once our rectangular *profile* is drawn, we can follow the same method as in method one to create a slab (select it, press the **Structure** button, adjust its properties).
-
-
-{{BIMTutorialAction|goal1=Create a rectangle|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Rectangle" in o.Name]) == 1)|goal2=Create a 20cm thick slab|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "IfcType" in o.PropertiesList and o.IfcType == "Slab" and o.Height.Value == 200]) == 1)}}
+Sobald unser rechteckiges *Profil* gezeichnet ist, können wir zum Erzeugen der Platte die gleiche Methode wie in der ersten Methode verwenden (auswählen, drücken der **Struktur** Schaltfläche, einstellen der Eigenschaften).
 
 
+{{BIMTutorialAction/de
+|goal1=Ein Rechteck erstellen
+|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Rectangle" in o.Name]) == 1)
+|goal2=Eine 20 cm dicke Platte erstellen
+|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "IfcType" in o.PropertiesList and o.IfcType == "Slab" and o.Height.Value == 200]) == 1)
+}}
 
-### Erstellen einer Metallsäule 
 
-Let\'s add a metallic column to give better support to our slab. Make sure the working plane is in Top mode, let\'s start by putting ourselves in top view (press key **2**), and turn the slab off, so we see better what\'s underneath. Select the slab, and press the **Space** key to turn its display off.
 
-In FreeCAD, it is very easy to turn objects or groups on and off, and the tree shows you clearly what is shown and what is hidden. Be sure to use that often!
+### Eine Metallsäule erstellen 
 
-The **Column** tool (as well as the Beam tool) has some built-in profiles that we will use now. Make sure nothing is selected, then press the Column button. In the **Structure options**, select **CHS** (for \"Circular Hollow Section\"; RHS is \"Rectangular Hollow Section\", HEA, HEB, etc. are various \"H\" sections, etc.):
+Lass uns zu Unterstützung der Platte eine Säule aus Metall hinzufügen. Stelle sicher, dass die Arbeitsebene im Oben Modus ist. Wir beginnen damit, dass wir uns in den Ansicht von Oben Modus (drücke die Taste **2**) stellen und die Platte ausblenden, so dass wir besser sehen was sich darunter befindet. Wähle die Platte aus, und drücke die **Leertaste** sodass ihre Anzeige ausgeblendet wird.
+
+In FreeCAD ist es sehr einfach Objekte oder Gruppen ein- oder auszublenden, und der Modellbaum zeigt eindeutig was zu sehen ist und was verborgen ist. Verwende dies oftmals!
+
+Das Werkzeug **Stütze** (ebenso das Werkzeug Balken) hat ein paar eingebaute Profile die wir jetzt verwenden werden. Sicherstellen, dass nichts ausgewählt ist, dann die Schaltfläche Säule drücken. In den **Strukturoptionen** die Kategorie **CHS** (für \"Hohler Kreisquerschnitt\"; RHS \"Hohler Rechteckquerschnitt\", HEA, HEB, usw. sind verschiedene \"H\"-Querschnitte usw.):
 
 <img alt="" src=images/BIM_Tutorial_24.jpg  style="width:300px;">
 
-And click a point to place your column, more or less at this position. Make sure the new column has an IFC Type of \"Column\" and give it a Height of 250cm to make it the same height as our walls.
+Und klicke einen Punkt an um die Säule zu platzieren mehr oder weniger an dieser Position. Stelle sicher, dass die neue Säule den IFC Typ \"Säule\" hat, und gib ihr die Höhe 250 cm damit sie gleiche Höhe wie die Wände hat.
 
 <img alt="" src=images/BIM_Tutorial_25.jpg  style="width:300px;">
 
-Unfortunately, the CHS preset has only one diameter option of 42mm, which is very thin to support our concrete roof slab. Fortunately, as everything is parametric, it is easy to change the diameter. Expand the new structural object in the tree view, and you will find its profile object, named CHS423. Change its diameter to 12cm and its thickness to 8mm. Now we have a strong enough column. Notice that you can specify units on the fly and switch between 0,8cm and 8mm without issue. FreeCAD will take care of conversion.
+Der Standard-Durchmesser der Einstellung CHS ist mit 21,3 mm sehr klein und damit zu dünn, um eine Dachplatte aus Beton zu unterstützen. Zum Glück, da alles parametrisch ist, ist es einfach den Durchmesser zu ändern. Das neue Strukturobjekt wird in der Baumansicht erweitert und wir sehen sein Profilobjekt mit dem Namen CHS21.3x2.6\_. Seinen Durchmesser ändern wir auf 12 cm und seine Wandstärke auf 8 mm. Jetzt haben wir eine Stütze mit ausreichender Festigkeit. Man beachte, dass die Einheiten während der Eingabe (on the fly) eingestellt werden können und dass der Wechsel zwischen 0,8 cm und 8 mm problemlos erfolgt. FreeCAD kümmert sich um die Umwandlung.
 
 
 
 #### Trägerplatte hinzufügen 
 
-We need a way to attach our metal column to the concrete slab. So let\'s add a plate to its top, which can be bolted to the concrete slab. This will illustrate how you can easily modify BIM objects and create the very precise ones you need.
+Wir brauchen noch einen Weg um unsere Metallsäule an der Betonplatte zu befestigen. Dafür fügen wir an ihrem Oberteil eine Platte an, die an die Betonplatte angeschraubt werden kann. Dies erklärt wie einfach man BIM Objekte ändern kann, um genau die benötigten zu erzeugen.
 
-Let\'s start by changing the height of our column from 250cm to 249cm, to give it a space for a 1cm-thick plate. Then draw a 20cm x 20cm rectangle, either on the ground plane or by setting the top of the column as the current working plane, as we learned in the previous step. Use the **Move** tool, with midpoint and center snaps turned on, if needed, to center the rectangle over the column center.
+Wir beginnen mit dem Ändern der Höhe der Säule von 250 cm auf 249 cm, damit wir Platz für eine 1cm starke Platte bekommen. Dann zeichnen wir ein 20 cm x 20 cm großes Rechteck, entweder auf der Bodenebne, oder indem wir die Deckelfläche der Stütze als aktuelle Arbeitsfläche festlegen, was wir in einem vorherigen Schritt gelernt haben. Das Werkzeug **Verschieben**, mit Einrasten auf Mittelpunkt und Einrasten auf Kantenmitte aktiviert, wird verwendet, um das Rechteck über der Mitte der Säule zu zentrieren.
 
-Using the Slab tool again, create a structural object from the rectangle, give it a height of 1cm, and move it to a height of 249cm:
+Das Werkzeug Platte wird erneut verwendet, um aus dem Rechteck ein Strukturobjekt zu erstellen, das die Höhe 1 cm erhält und auf eine Höhe von 249 cm verschoben wird:
 
 <img alt="" src=images/BIM_Tutorial_26.jpg  style="width:300px;">
 
-Now let\'s add our plate to the column. BIM objects in FreeCAD have two properties named **Additions** and **Subtractions** that can receive objects that need to be unioned or subtracted to/from them. To add the plate to our column, select the plate, then, with **Ctrl** pressed, select the column and use the <img alt="" src=images/Arch_Add.png  style="width:16px;"> **Add** tool from the **Modify** menu. Our plate is now part of the column:
+Jetzt fügen wir die Platte an die Säule an. In FreeCAD haben BIM Objekte zwei Eigenschaften namens **Addition** und **Subtraktion** die Objekte, welche miteinander vereinigt oder voneinander subtrahiert werden, erhalten können. Um die Platte mit der Säule zu vereinigen, wähle die Platte, dann, mit gedrückter **CTRL**, wähle die Säule und verwende das<img alt="" src=images/Arch_Add.png  style="width:16px;"> **Union** Werkzeug aus dem **Modifizieren** Menü. unsere Platte ist jetzt ein Teil der Säule:
 
 <img alt="" src=images/BIM_Tutorial_27.jpg  style="width:300px;">
 
-By starting from simple shapes as *profiles*, and adding or subtracting objects, we can quickly create very complex BIM objects. Note that the Additions and Subtractions of a given BIM object can easily be changed by double-clicking them in the tree view and using the Add and Remove buttons there. Also, a same object can be used as an addition or subtraction to multiple other objects.
+Ausgehend von einfachen Formen wie **Profilen**, und dem Hinzufügen oder Heraustrennen von Objekten, können wir sehr schnell komplizierte BIM-Objekte erstellen. Dabei ist zu beachten, dass das Hinzufügen und Heraustrennen eines vorhandenen BIM-Objektes einfach geändert werden kann, indem es in der Baumansicht doppelt angeklickt und dort die Schaltflächen Hinzufügen und Entfernen verwendet werden. Dasselbe Objekt kann auch zu mehreren anderen Objekte hinzugefügt oder aus ihnen herausgetrennt werden.
 
 <img alt="" src=images/BIM_Tutorial_28.jpg  style="width:300px;">
 
 
-{{BIMTutorialAction|goal1=Create a CTH tubular column|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "CTH" in o.Label]) == 1)|goal2=Add a 20cm x 20cm plate to the column|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Shape" in o.PropertiesList and (abs(o.Shape.Volume - 7409000) < 10000)]) == 1)}}
+{{BIMTutorialAction/de
+|goal1=Eine röhrenförmige CHS-Säule erstellen
+|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "CHS" in o.Label]) == 1)
+|goal2=Eine 20 cm x 20 cm große Platte zur Stütze hinzufügen
+|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Shape" in o.PropertiesList and (FreeCAD.Units.Quantity("300 cm^3") < o.Shape.Volume < FreeCAD.Units.Quantity("500 cm^3"))]) == 1)}}
 
 
 
-### Hinzufügen einer Tür 
+### Eine Tür hinzufügen 
 
-Like columns and beams, doors and windows are created with a same [Window](Arch_Window.md) object in FreeCAD. Only their IFC type changes. They can be independent or, if an object is selected when running the tool, inserted in another BIM object, in which case they will automatically create a hole through it.
+Wie Stützen und Balken werden Türen und Fenster in FreeCAD aus demselben [Fenster](Arch_Window/de.md)-Objekt erzeugt. Nur ihr IFC-Typ ändert sich. Sie können unabhängig sein, oder wenn während das Werkzeug arbeitet ein Objekt ausgewählt ist, in ein anderes BIM-Objekt eingefügt werden; im letzteren Fall erzeugen sie automatisch ein Loch in diesem.
 
-Let\'s insert a 80cm x 210cm glass door in one of our walls. Start by placing the working plane on a face of a wall, which will make it easier to precisely place our window:
+Lasst uns in eine unserer Wände eine 80 cm x 210 cm große Glastür einfügen. Wir starten mit dem Positionieren der Arbeitsebene auf einer Fläche der Wand, wodurch das genaue anbringen unserer Tür einfacher wird.
 
 <img alt="" src=images/BIM_Tutorial_29.jpg  style="width:300px;">
 
-Then, with the wall selected, select **Door** from the **BIM** menu. Select the **Glass door** preset, and set the **Width** to 80cm and **Height** to 210cm. You can set the other values as you like:
+Danach, während eine Wand ausgewählt ist, Im **BIM**-Menü **Tür** auswählen. Die Voreinstellong **Glastür** auswählen und für die **Breite** 80 cm sowie für die **Höhe** 210 cm eingeben. Wenn gewünscht, können auch die anderen Werte angepasst werden:
 
 <img alt="" src=images/BIM_Tutorial_30.jpg  style="width:300px;">
 
-Click a point on the base of the wall where you wish to place the window. This can be difficult, as the grid lines don\'t necessarily correspond to the wall edges. Press the **Q** key while you have an active snap at a grid intersection, and press it again with an active snap on the bottom of the wall. FreeCAD will create a new snap point where their horizontal/vertical axis intersect. Use this to find a suitable point:
+Klicke dort wo du die Türe anbringen möchtest einen Punkt auf der Unterkante der Wand. Das kann schwierig sein, weil die Rasterlinien nicht unbedingt auf den Kanten der Wand liegen. Drücke die Taste **Q** während ein Gitterpunkt des Rasters eingefangen ist, und drücke sie wieder wenn die Unterkante der Wand eingefangen ist. FreeCAD erzeugt am Schnitt ihrer horizontalen/vertikalen Achsen einen neuen Fangpunkt. Verwende das, um einen geeigneten Punkt zu finden:
 
 <img alt="" src=images/BIM_Tutorial_31.jpg  style="width:300px;">
 
-If your door didn\'t get placed correctly, try the **Move** tool to move it to its correct position. Otherwise use undo or delete it from the model tree and try again.
+Falls deine Türe nicht richtig platziert wurde, versuche sie mit dem **Verschieben** Werkzeug an die Richtige Position zu bewegen. Andernfalls verwende Rückgängig oder Löschen im Modellbaum und versuche es noch einmal.
 
-When everything is done, you should obtain a door properly inserted into its wall:
+Wenn alles ausgeführt wurde, solltest du eine richtig in die Wand eingefügte Türe erhalten.
 
 <img alt="" src=images/BIM_Tutorial_32.jpg  style="width:300px;">
 
 
-{{BIMTutorialAction|goal1=Create a glass door|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Window" in o.Name]) == 1)}}
+{{BIMTutorialAction/de
+|goal1=Eine Glastür erstellen
+|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Window" in o.Name]) == 1)}}
 
 
 
 ### Organisieren unseres Modells 
 
-We now have in our model a growing collection of BIM objects. It is time to tidy things up. Creating well organized models, easily understandable by others, is a very important part of building quality BIM models.
+In unserem Modell haben wir jetzt eine schnell wachsende Sammlung von BIM Objekten. Es ist Zeit aufzuräumen. Das Erzeugen von gut organisierten Modellen, die für andere leicht verständlich sind, ist ein wichtiger Teil beim Anfertigen von qualitätsvollen BIM Modellen.
 
-A first very simple and very good habit to take is to give proper and meaningful names to our objects, so we can easily identify them in the tree view later on. To rename an object, right-click it in the tree view and choose **Rename**. A model where components are easily identifiable by others is a huge part of what makes a good BIM model.
+Eine erste einfache und sehr nützliche Angewohnheit ist es, unseren Objekten sinnvolle und aussagekräftige **Namen** zu geben, sodass wir sie später in der Baumansicht leicht erkennen können. Um ein Objekt umzubenennen, wird es mit der rechten Maustaste angeklickt und **Umbenennen** ausgewählt. Ein Modell, in dem die Komponenten für Andere leicht erkennbar sind, ist ein wichtiger Teil dessen, was ein gutes BIM-Modell ausmacht.
 
-Another interesting operation to do is **grouping**. Groups allow you to organize your objects in the tree view, like files and folders. An object can only belong to one group. Groups are created by right-clicking the document root or any other group in the tree view, and selecting **Create group**. You can then drag objects in and out of groups in the tree view.
+Eine andere interessante Sache ist das **Gruppieren**. Gruppen erlauben es deine Objekte im Modellbaum wie Dateien und Inhaltsverzeichnisse zu organisieren. Jedes Objekt kann nur zu einer Gruppe gehören. Gruppen werden durch Rechtsklick der Dokumentwurzel oder einer anderen Gruppe im Modellbaum und wählen von **Gruppe erstellen** aktiviert. Man kann Objekte in Gruppen hinein oder heraus ziehen.
 
-A third way to organize things is by using layers. Layers are independent of groups, you can use both systems at the same time if you wish. Like groups, layers allow you to easily turn on/off a series of objects, but unlike groups, they cannot be stacked inside one another. They also allow you to override visual settings such as the color and line width of their child objects. Layers are created and managed using the Layers manager tool found under menu **Manage -\> Layers manager**. Objects are added or removed by dragging them in and out of layers in the tree view.
+Ein dritter Weg, um Dinge zu organisieren, ist das Verwenden von **Ebenen** (Layer). Ebenen sind unabhängig von Gruppen und wir können, wenn wir möchten, beide (Ordnungs-) Systeme gleichzeitig verwenden. Wie Gruppen erlauben auch Ebenen das einfache ein- und ausblenden einer Serie von Objekten, aber anders als Gruppen können sie nicht ineinander geschachtelt werden. Sie ermöglichen auch visuelle Einstellungen wie Farbe oder Strichbreite ihrer Kind-Objekte zu überschreiben. Ebenen werden mit dem Werkzeug Ebenen-Manager erzeugt und verwaltet, das über den Menüeintrag **Verwalten → Ebenen verwalten\...** erreicht wird. Objekte werden in Ebenen eingefügt oder daraus entfernt, indem sie in die Baumansicht hinein- oder aus ihr herausgezogen werden. Der **Ebenen-Manager** in der Hauptsymbolleiste lässt uns die aktuelle Ebene auswählen. Nach erfolgter Auswahl, wird jedes neue 2D- oder BIM-Objekt automatisch in dieser Ebene abgelegt.
 
-The **Layer selector** on the main toolbar allows you to set a current layer. After doing so, any new 2D or BIM object will automatically be placed in that layer.
-
-Finally, BIM applications usually allow you to group objects into **levels** (or storeys) and **buildings**. FreeCAD offers these tools as well under the **3D/BIM modeling** menu. Like beams and columns, levels and buildings use a same object type called [Building Part](Arch_BuildingPart.md) with a different IFC type. They work the same way as groups, once created, you can drag and drop any object in and out of it. Building Parts are compatible with groups, so you can place groups inside them.
+Schließlich ermöglichen BIM-Anwendungen Objekte in **Stockwerken** und **Gebäuden** zu gruppieren. FreeCAD stellt diese Werkzeuge im Menü **3D/BIM** bereit. Wie Balken und Säulen verwenden Stockwerke und Gebäude dieselbe Objektart, die [Gebäudeteil](Arch_BuildingPart/de.md) genannt wird, aber mit unterschiedlichen IFC-Typen. Sie arbeiten genau so wie Gruppen. Sobald sie erzeugt sind kann man Objekte hinein- oder herausziehen. Gebäudeteile sind kompatibel mit Gruppen; man kann Gruppen darin ablegen.
 
 <img alt="" src=images/BIM_Tutorial_36.jpg  style="width:300px;">
 
-Building Parts have many other uses, refer to their [documentation](Arch_BuildingPart.md) to know more.
+Für Gebäude Teile gibt es viele andere Verwendungsmöglichkeiten, erfahre mehr in der[Dokumentation](Arch_BuildingPart/de.md).
 
-Create a Building Part now by selecting **Level** from the **3D/BIM Modeling** menu. Make sure its IFC type is set to **Building Storey**, and drag all our other root BIM objects (no need to do so with included objects like the door or the plate of the column) into it, that is, our two walls, the roof slab and the metal column.
+Zum Erstellen eines Gebäudeteils wird **Stockwerk** im Menü **3D/BIM** ausgewählt. Wir überprüfen, ob sein IFC-Typ auf **Building Storey** gestellt ist, und ziehen alle BIM-Wurzel-Objekte hinein (nicht nötig für eingeschlossene Objekte wie die Tür oder die Platte), also die zwei Wände, die Dachplatte und die Metallsäule.
 
-Note that, as Building Parts are generic building components, you are not forced to organize your model by levels in FreeCAD. You can choose to group your elements differently. But the IFC format expects things to be grouped by level, so if you plan to use that format, it is best to consider your Building Parts as levels.
+Beachte, dass du weil Gebäude Teile in FreeCAD allgemeine Gebäude Komponenten sind, nicht gezwungen bist dein Modell in Stockwerken zu organisieren. Du kannst dich auch entscheiden deine Elemente anders zusammenzufassen. Aber das IFC Format erwartet, dass die Dinge in Stockwerken gruppiert sind. Wenn du also planst dieses Format zu verwenden, dann ist es am Besten deine Gebäude Teile als Stockwerke aufzufassen.
 
 
-{{BIMTutorialAction|goal1=Create a level|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name]) == 1)|goal2=Add the four other root BIM objects to it|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name and (len(o.Group) == 4)]) == 1)}}
+{{BIMTutorialAction/de
+|goal1=Ein Stockwerk (level) erstellen
+|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name]) == 1)
+|goal2=Die vier anderen BIM-Grundobjekte zu ihm hinzufügen
+|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name and (len(o.Group) == 4)]) == 1)}}
 
 
 
 ### Hinzufügen von Schnittebenen 
 
-One of the most commonly operations done with a BIM model is to extract 2D drawings from it, such as plans or elevations. There are several ways to do that in FreeCAD, depending on the result you wish to obtain. Basically, you can choose between producing the 2D result inside the 3D space, which is useful if you wish to rework it there, build further on it or better control how it is exported to formats like [DXF](Draft_DXF.md) or [DWG](FreeCAD_and_DWG_Import.md), or on a [TechDraw sheet](TechDraw_Workbench.md) that is better suited for impression or export to PDF. In both cases, it starts with placing a [Section Plane](Arch_SectionPlane.md) in your model:
+Eine der häufigsten Tätigkeiten, die mit einem BIM-Modell durchgeführt werden, ist das Ableiten von 2D-Zeichnungen mit Ansichten wie Grundrissen und Aufrissen. In FreeCAD gibt es, abhängig vom erwarteten Ergebnis, mehrere Möglichkeiten dies zu tun. Prinzipiell kann man wählen, zwischen dem Erzeugen von 2D-Ergebnissen im 3D-Raum, dies ist sinnvoll, wenn dort geändert oder weiterentwickelt werden soll oder wenn man mehr Kontrolle über die Exportvorgänge in die Formate wie [DXF](Draft_DXF/de.md) oder [DWG](FreeCAD_and_DWG_Import/de.md) haben möchte und dem Erstellen von 2D-Ansichten auf einem TechDraw Zeichnungsblatt, das besser zum Ausdrucken geeignet ist oder zum Export als PDF. In beiden Fällen startet man mit dem Positionieren einer [Schnittebene](Arch_SectionPlane/de.md) in dem Modell:
+
+In beiden Fällen beginnen wir mit dem Positionieren einer [Schnittebene](Arch_SectionPlane/de.md) in unserem Modell:
 
 <img alt="" src=images/BIM_Tutorial_37.jpg  style="width:300px;">
 
-1.  Select the Level object that contains your objects, that we created in the last step
-2.  Add a Section Plane from menu **Annotations-\>Section Plane**
+1.  Das Stockwerk-Objekt auswählen, das die im letzten Schritt erzeugten Objekte enthält.
+2.  Eine Schnittebene einfügen, durch Auswählen des Menüeintrags **Anmerkung → Schnittebene**
 
-Section planes don\'t cut through the whole model, but only through objects in their **Objects** property. You can select the Section Plane to check and change the contents of this property anytime.
+Schnittebenen schneiden nicht durch das gesamte Modell, sondern nur durch Dinge die Bestandteile ihrer **Objekte** sind. Du kannst zu jeder Zeit die Schnittebene auswählen um die Bestandteile zu überprüfen und zu ändern.
 
-By default, the new section plane will be placed in the middle of the selected object or its contents, and will look downwards, as to create a floor plan view. But the section plane is an object like any other and can be moved and rotated to do what you need. Place it horizontally to create a plan view, vertically inside your model to create a section, or outside the model to create an elevation.
+Als Standard wird, um einen Grundriss zu erzeugen, die neue Schnittebene in der Mitte des gewählten Objektes oder ihrer Inhalte platziert, Blickrichtung nach unten. Aber die Schnittebene ist ein Objekt wie jedes andere und kann so wie du es benötigst verschoben oder gedreht werden. Platziere sie horizontal um einen Grundriss zu erzeugen, vertikal innerhalb des Modells um einen Schnitt zu erzeugen, oder außerhalb des Modells um einen Fasadenplan zu erzeugen.
 
 
-{{BIMTutorialAction|goal1=Select the main Building Part|test1=bool(len([o for o in FreeCADGui.Selection.getSelection() if "BuildingPart" in o.Name]) == 1)|goal2=Create a section plane|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Section" in o.Name and (len(o.Objects) == 1) and ("BuildingPart" in o.Objects[0].Name)]) == 1)}}
+{{BIMTutorialAction/de
+|goal1=Den Haupt-Gebäudeteil auswählen
+|test1=bool(len([o for o in FreeCADGui.Selection.getSelection() if "BuildingPart" in o.Name]) == 1)
+|goal2=Eine Schnittebene erstellen
+|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Section" in o.Name and (len(o.Objects) == 1) and ("BuildingPart" in o.Objects[0].Name)]) == 1)}}
 
 
 
 ### 2D Ansichten als Geometrie extrahieren 
 
-Once your section plane is in place, we can now create 2D geometry from what it sees using the [Shape2DView](Draft_Shape2DView.md) tool:
+Sobald deine Schnittebene platziert ist können wir aus dem was sie zeigt mit dem [Form2DAnsicht](Draft_Shape2DView/de.md) Werkzeug eine 2D Geometrie erzeugen:
 
 <img alt="" src=images/BIM_Tutorial_38.jpg  style="width:300px;">
 
-1.  Select the section plane
-2.  Create a Shape 2D View using **Modify-\>Shape 2D View**
-3.  Our view object is hidden under the walls. Turn the display of the level and the section plane off by selecting them both in the tree view and pressing the **Space** key, so we can view our result better
+1.  Die Schnittebene auswählen.
+2.  Eine 2D-Formansicht erstellen, durch Verwenden von **Anmerkung → Formbasierte Ansicht**
+3.  Unser Objekt ist hinter den Wänden verborgen. Zum Ausblenden des Stockwerkes und der Schnittebene, werden beide in der Baumansicht ausgewählt und die **Leertaste** gedrückt; so können wir unser Ergebnis besser sehen.
 
 <img alt="" src=images/BIM_Tutorial_39.jpg  style="width:300px;">
 
-The 2D view we created is a all-in-one 2D object and will be located on the (0,0) ground plane in the model. It can be moved around, and will be recalculated if the model changes.
+Die 2D-Ansicht, die wir erzeugt haben, ist ein alles-in-einem 2D-Objekt und wird im Nullpunkt (0,0) auf der Basisebene im Modell positioniert. Sie kann bewegt werden, und wird wenn sich das Modell ändert neu berechnet.
 
-To create thicker lines for cut areas, you can create another Shape 2D view, and set its **Projection Mode** property to \"Cutlines\" or \"Cutfaces\", and its **In Place** property to \"False\". You will then have two objects, one for viewed lines and one for cut lines, for which you can give different line thicknesses.
-
-
-{{BIMTutorialAction|goal1=Select the section plane|test1=bool(len([o for o in FreeCADGui.Selection.getSelection() if "Section" in o.Name]) == 1)|goal2=Create a Shape 2D View|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Shape2DView" in o.Name]) == 1)}}
+Um breitere Linien für geschnittene Flächen zu erhalten, kannst du noch eine Shape 2D Ansicht erzeugen, setze seine **Projection Mode** Eigenschaft auf \"Cutlines\" oder \"Cutfaces\" und seine **In Place** Eigenschaft auf \"Falsch\". Du wirst dann zwei Objekte haben, eines für die sichtbaren Linien und eines für die Schnittlinien, für die du unterschiedliche Linienbreiten einstellen kannst.
 
 
+{{BIMTutorialAction/de
+|goal1=Die Schnittebene auswählen
+|test1=bool(len([o for o in FreeCADGui.Selection.getSelection() if "Section" in o.Name]) == 1)
+|goal2=Eine 2D-Ansicht erstellen
+|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Shape2DView" in o.Name]) == 1)
+}}
 
-### Kommentieren und Exportieren in 2D CAD Formate 
 
-You can place [Texts](Draft_Text.md), [Labels](Draft_Label.md) (text with line and arrow), [Dimensions](Draft_Dimension.md) on anything in the model space: Either directly on the 3D model, or on the 2D view that we created in the step above. The choice is yours, depending on what you wish to achieve. If you leave the 2D view exactly under the 3D model, you might also want to do both in one go.
+
+### Beschriften und in 2D-CAD-Formate exportieren 
+
+Du kannst [Text](Draft_Text/de.md), [Hinweise](Draft_Label/de.md) (Text mit Linie und Pfeil), [Maß](Draft_Dimension/de.md) auf alles im Modellraum platzieren: Entweder direkt im 3D Modell, oder in der 2D Ansicht die wir im obigem Schritt erzeugt haben. Die Wahl liegt bei dir, abhängig davon was du erzielen möchtest.
 
 ![](images/BIM_Tutorial_34.jpg )
 
-Annotations (texts, labels, dimensions) will be placed on the current **Working Plane**. Be sure to place your working plane where you want your annotations. You can this way place annotations in any plane of the 3D space: Horizontally or vertically. You can also move or rotate them after creation.
+Anmerkungen (Texte, Hinweise, Bemaßungen) werden in der aktuellen **Arbeitsebene** platziert. Stelle sicher, dass deine Arbeitsebene dort platziert ist wo du die Anmerkungen haben möchtest. So kannst du Anmerkungen in jeder Ebene des 3D Raumes platzieren: Horizontal oder vertikal. Du kannst sie nach dem Erzeugen auch verschieben und drehen.
 
-Let\'s place a horizontal dimension between the extremities of our two walls:
+Lass uns ein horizontales Maß zwischen den Endpunkten unserer Wände platzieren:
 
 ![](images/BIM_Tutorial_40.jpg )
 
-1.  Set the **working plane** to **Top** position
-2.  Orient your view to be able to view the base of both walls
-3.  Choose menu **Annotations -\>** <img alt="" src=images/Draft_Dimension.png  style="width:16px;"> [Dimension](Draft_Dimension.md)
-4.  Click a first point at the extremity of the left wall
-5.  Press **SHIFT** to constrain the dimension vertically or horizontally
-6.  Click a second point at the extremity of the right wall
-7.  Click a third point to indicate where to place the dimension line
+1.  Die **Arbeitsebene** auf **Draufsicht** einstellen.
+2.  Die Ansicht so ausrichten, dass die Basis beider Wände zu sehen sind.
+3.  Den Menüeintrag **Anmerkung** → <img alt="" src=images/Draft_Dimension.png  style="width:16px;"> [Maß](Draft_Dimension/de.md) auswählen.
+4.  Einen ersten Punkt am Endpunkt der linken Wand anklicken.
+5.  Die **SHIFT**-Taste drücken, um das Maß horizontal oder vertikal festzulegen.
+6.  Einen zweiten Punkt am Endpunkt der rechten Wand anklicken.
+7.  Einen dritten Punkt anklicken, um zu zeigen wo die Maßlinie verlaufen soll.
 
-[Dimensions](Draft_Dimension.md) have a lot of settings to tweak their aspect and the size and type of the text and arrow. You can set your preferred defaults under menu **Edit-\>Preferences-\>Draft-\>Text and Dimensions**.
+[Maße](Draft_Dimension/de.md) haben viele Einstellungen für die Feinabstimmung ihres Aussehens sowie der Größe und Art von Texten und Pfeilen. Bevorzugte Standardwerte können unter **Bearbeiten → Einstellungen → Draft → Texte und Bemaßungen** eingestellt werden.
 
-Now let\'s add a text:
+Lass uns jetzt einen Text hinzufügen:
 
 ![](images/BIM_Tutorial_41.jpg )
 
-1.  Choose menu **Annotations -\>** <img alt="" src=images/Draft_Text.png  style="width:16px;"> [Text](Draft_Text.md)
-2.  Click a location in the 3D view to place the text
-3.  Write the text you wish, for example **Pavilion**, then click the **Create Text** button or press Enter twice.
+1.  Den Menüeintrag **Anmerkungen** → <img alt="" src=images/Draft_Text.png  style="width:16px;"> [Text](Draft_Text/de.md) auswählen.
+2.  Eine Stelle in der 3D-Ansicht anklicken, um den Text zu positionieren.
+3.  Den gewünschten Text schreiben, zum Beispiel **Pavillon**, dann die Schaltfläche **Text erstellen** anklicken oder zweimal die Eingabetaste drücken.
 
-A good idea is to create **Groups** for the different sets of annotations (plan, section, different scales, etc\...):
+Es ist eine gute Idee für unterschiedliche Sätze von Anmerkungen (Pläne, Schnitte, unterschiedliche Maßstäbe, usw\...) **Gruppen** zu erzeugen:
 
-1.  Create a group by right-clicking the document root and select **Create group**, rename it to \"Annotations\"
-2.  Select the annotations we created above in the tree and drag and drop them into the group
+1.  Erzeuge eine Gruppe durch Rechtsklick auf die Wurzel des Dokumentes und wähle **Erzeuge Gruppe**, benenne sie um auf \"Anmerkungen\"
+2.  Wähle die vorher erzeugten Anmerkungen im Modellbaum und ziehe sie in die Gruppe
 
-#### Exporting to DXF 
 
-2D objects such as lines or circles or 2D views as we created above or annotations are very suited to export to traditional 2D CAD formats such as [DXF or DWG](Draft_DXF.md). The DWG format requires an additional piece of software to be installed on your system, check the [instructions](Draft_DXF.md) to do that if needed.
 
-Let\'s try to export our 2D work to DXF:
+#### Exportieren nach DXF 
 
-1.  Select the 2D view, the dimension and the text
-2.  Select menu **File-\>Export**, choose the **Autodesk DXF**format, a file name, and press **Export**
+2D objekte wie Linien oder Kreise oder 2D Ansichten wie wir sie oben erzeugt haben oder Anmerkungen sind gut geeignet um sie in traditionelle CAD Formate wie [DXF oder DWG](Draft_DXF/de.md). Das DWG Format erfordert eine zusätzliche Software die in deinem System installiert werden muss, überprüfe die [Anleitungen](Draft_DXF/de.md) um das Notwendige zu machen.
 
-If you don\'t use any 2D CAD program, there are several free and open-source applications that can open DXF files (apart from FreeCAD itself, of course!) such as [LibreCAD](https://librecad.org/) and [QCAD CE](https://qcad.org/).
+Versuchen wir unsere 2D Arbeit nach DXF zu exportieren:
+
+1.  Die 2D-Ansicht, das Maß und den Text auswählen
+2.  Den Menüeintrag **Datei → Exportieren** auswählen, dann das **Autodesk DXFformat** auswählen, einen Dateinamen eingeben und **Exportieren** drücken.
+
+Falls du kein anderes 2D CAD Programm verwendest, gibt es mehrere freie und open-source Anwendungen die DXF Dateien öffnen können (abgesehen natürlich von FreeCAD!) wie etwa [LibreCAD](https://librecad.org/) und [QCAD CE](https://qcad.org/).
 
 ![](images/BIM_Tutorial_42.jpg )
 
 
-{{BIMTutorialAction|goal1=Create a dimension|test1=bool(len([obj for obj in FreeCAD.ActiveDocument.Objects if "Dimension" in obj.Name]))|goal2=Create a text|test2=bool(len([obj for obj in FreeCAD.ActiveDocument.Objects if "Text" in obj.Name]))}}
+{{BIMTutorialAction/de
+|goal1=Ein Maß erstellen
+|test1=bool(len([obj for obj in FreeCAD.ActiveDocument.Objects if "Dimension" in obj.Name]))
+|goal2=Einen Text erstellen
+|test2=bool(len([obj for obj in FreeCAD.ActiveDocument.Objects if "Text" in obj.Name]))
+}}
 
 
 
-### Erzeugen von 2D Geometrie auf einem bedruckbaren Blatt 
+### 2D-Geometrie auf einem druckbaren Zeichnungsblatt erstellen 
 
-Printable sheets are created and managed with the [TechDraw Workbench](TechDraw_Workbench.md). Let\'s create a new sheet and place a view of our model on it:
+Druckbare Zeichnungsblätter werden im Arbeitsbereich [TechDraw Workbench](TechDraw_Workbench.md) erstellt und verwaltet. Lasst uns ein neues Blatt erstellen und darauf eine Ansicht auf unser Modell anlegen:
 
-1.  Switch to the **TechDraw Workbench**
-2.  Create a new empty sheet using the default template from menu **TechDraw -\> Insert default page**
-3.  Select the section plane and create a view on the page using **TechDraw -\> Insert Arch Workbench Object**
-4.  Change the **Scale** property of your Arch View and recalculate the model (F5) to see your changes.
+1.  In den Arbeitsbereich **TechDraw** wechseln.
+2.  Ein neues leeres Zeichnungsblatt erstellen, indem der Menüeintrag **TechDraw → Seite → Neues Zeichnungsblatt aus der Standardvorlage erstellen** ausgewählt wird.
+3.  Die Schnittebene auswählen und auf dem Blatt mit **TechDraw → Ansichten von anderen Arbeitsbereichen → Objekt des Arbeitsbereichs BIM einfügen** eine Ansicht einfügen.
+4.  Die Eigenschaft **Maßstab** der Arch-Ansicht ändern.
 
-\... To be continued
-
-
-{{BIMTutorialAction|descr=No action to perform for this step}}
+\... Fortsetzen
 
 
-
-### Exportieren einer IFC Datei 
-
-The [IFC, or Industry Foundation Classes](https://en.wikipedia.org/wiki/Industry_Foundation_Classes), is a protocol and file format aimed at interchanging BIM model between applications. By saving your model as an IFC file, you will be able to open it in most or all other open-source or proprietary BIM applications out there.
-
-IFC import/export operations in FreeCAD are performed by an external piece of software called [IfcOpenShell](http://www.ifcopenshell.org/). Read the [Arch IFC](Arch_IFC.md) page to learn further about how to install it.
-
-Once IfcOpenShell is installed, exporting your model as an IFC file is as simple as selecting the objects you wish to export, or just the top container (group or Building Part) that contains all other objects you wish to export, and use menu **File-\>Export** and choose the IFC file format.
-
-Finally, once you have exported an IFC file, it is always a good idea to inspect it before sending it to other people, to make sure the model looks good and no object is missing. There are many free IFC viewer applications available on the internet for many platforms. A good, open-source viewer that works on all platforms is [IFC++](http://ifcquery.com/). If you want to use the IFC file for further editing [Blender BIM Add-on](https://blenderbim.org/) might be useful.
-
-To test the structure and validity of your model for IFC export run the **Manage-\>IFC Preflight** tool. This will be discussed in the next section.
-
-
-{{BIMTutorialAction|goal1=Open the BIM preflight tool and run all the tests|test1=True if (hasattr(FreeCADGui,"BIMPreflightDone") and (FreeCADGui.BIMPreflightDone == True)) else False}}
+{{BIMTutorialAction/de
+|descr=Keine Aktion für diesen Schritt ausführen
+}}
 
 
 
-### Verwalten der BIM Eigenschaften 
+### Eine IFC-Datei exportieren 
 
-A huge part of what makes a good BIM model are the non-geometry properties that you can give to your objects, such as type, material, or properties specific to a certain type. For example, a wall can be marked as load-bearing or not. Or as exterior or interior. The [IFC format](https://en.wikipedia.org/wiki/Industry_Foundation_Classes) is very rich in that regard. The amount of specifications and properties you want to give your objects depends mostly on your needs and how you work with others and what they expect your BIM model to contain.
+[Industry Foundation Classes](https://de.wikipedia.org/wiki/Industry_Foundation_Classes) oder kurz IFC bezeichnet ein Protokoll- und Dateiformat, zum Austauschen von BIM-Modellen zwischen Anwendungen. Wird ein Modell als IFC-Datei abgespeichert, kann es in den meisten oder sogar allen Open-Source- oder Urheberrechtlich geschützten BIM-Anwendungen geöffnet werden.
 
-One thing is important to keep in mind: all BIM/Arch objects in FreeCAD support the full set of IFC properties. Other FreeCAD objects, such as those modeled with other workbenches, will also be exported to IFC but you cannot change any of their IFC properties. You can however convert any FreeCAD object to a BIM object by selecting the object and using **3D/BIM -\> Create Component**.
+Vorgänge für IFC-Import bzw. IFC-Export werden in FreeCAD durch eine externe Software namens [IfcOpenShell](http://www.ifcopenshell.org/) ausgeführt. Auf der Seite [Arch IFC](Arch_IFC/de.md) gibt es mehr Informationen zum Installationsvorgang.
 
-The main pieces of information you can give your objects are:
+Sobald IfcOpenShell installiert ist, ist der Export eines Modells so einfach wie das Auswählen des Objektes, das exportiert werden soll oder nur des obersten Behälters (Gruppe oder Gebäudeteil), der alle weiteren Objekte enthält, die exportiert werden sollen sowie das Verwenden von **Datei → Exportieren** und dem Auswählen des IFC-Dateiformats.
+
+Schließlich, wenn die IFC-Datei exportiert wurde, ist es immer eine gute Idee, sie vor dem Versenden an andere Personen zu überprüfen, um sicher zu sein, dass das Modell gut aussieht und keine Objekte vergessen wurden. Im Internet gibt es für viele Plattformen freie IFC Betrachter. Ein guter open-source Betrachter, der auf allen Platformen arbeitet ist [IFC++](http://ifcquery.com/). Soll die IFC-Datei weiterbearbeitet werden, könnte [Bonsai](https://bonsaibim.org) nützlich sein.
+
+Um die Struktur und die Gültigkeit eines Modells für den IFC-Export zu testen, wird das Werkzeug **Verwalten → Überprüfungen bevorzugen\...** verwendet. Dies wird im nächsten Abschnitt besprochen.
+
+
+{{BIMTutorialAction/de
+|goal1=Das Werkzeug BIM Preflight öffnen und alle Tests ausführen
+|test1=True if (hasattr(FreeCADGui,"BIMPreflightDone") and (FreeCADGui.BIMPreflightDone == True)) else False
+}}
+
+
+
+### BIM-Eigenschaften verwalten 
+
+Ein Großteil dessen was ein gute BIM Modell ausmacht sind nicht geometrische Eigenschaften wie Type, Material oder spezielle Eigenschaften für einen Typ, die du deinen Objekten zuweisen kannst. Zum Beispiel eine Wand kann als tragend oder nicht tragend markiert werden. Oder als Außen- oder Innenwand. Das [IFC format](https://en.wikipedia.org/wiki/Industry_Foundation_Classes) Format ist in dieser Hinsicht sehr vielfältig. Die Menge an Baubeschreibungen und Eigenschaften die du deinen Objekten zuteilen möchtest hängt meist von deinen Bedürfnissen ab, und wie du mit Anderen zusammenarbeitest, und welche Inhalte diese in deinem BIM Modell erwarten.
+
+Eines ist wichtig im Kopf zu behalten: Alle BIM-/Arch-Objekte in FreeCAD unterstützen den gesamten Satz der IFC-Eigenschaften. Andere FreeCAD-Objekte, wie solche die mit anderen Arbeitsbereichen modelliert wurden, werden auch als IFC exportiert, aber es können keine ihrer IFC-Eigenschaften geändert werden. Es kann aber jedes FreeCAD-Objekt in ein BIM-Objekt umgewandelt werden, indem das Objekt ausgewählt und **3D/BIM → Komponente** verwendet wird.
+
+Die Hauptteile an Informationen die du deinen Objekten geben kannst sind:
 
 
 
 #### Name und Beschreibung 
 
-This seems obvious, but the simplest way to make your model more understandable to others is to properly name each of your objects, and, if relevant, add a description. This is done simply by selecting an object, and pressing **F2**, or change its **Label** property to rename it. The Description will be found among the object properties.
+Das scheint offensichtlich, aber der einfachste Weg um dein Modell für andere verständlich zu machen ist deine Objekte genau zu benennen, und, wenn sachdienlich eine Beschreibung hinzuzufügen. Dies kann man einfach machen, indem ein Objekt gewählt wird, und durch drücken von **F2** oder ändern seiner **Marken** Eigenschaft umbenannt wird.
 
 
 
-#### Der BIM/IFC Typ 
+#### Der BIM-/IFC-Typ 
 
-This is the most fundamental piece of information. In FreeCAD, an object created with the wall tool will have its IFC type set to \"Wall\" by default. But you can change this anytime. So you can use the wall tool to model a beam for example. You only need to change its IFC type after creating it. To change the IFC type of an object, select it, find its **IFC Type** in its properties, and change to another type from the drop-down list.
+Dies ist der wesentliche Teil der Information. In FreeCAD wird für jedes Objekt, dass mit dem Wand Werkzeug erzeugt wurde der IFC Typ als Standard auf \"Wand\" gesetzt. Aber du kannst das jederzeit ändern. So kann man zum Beispiel das Wand Werkzeug zum modellieren eines Balkens verwenden. Du musst nach dem Erzeugen nur seinen IFC Typ ändern. Um den IFC Typ eines Objektes zu ändern, wähle es aus, finde seinen **IFC Typ** in seinen Eigenschaften heraus, und wechsle zu einem anderen Typ aus der Aufklappliste.
 
-You can also bulk-manage names, types and materials of several objects at a time using the IFC elements manager found under menu **Manage-\>IFC elements**.
+Durch verwenden des IFC-Element-Managers unter dem Menüeintrag **Verwalten → IFC-Elemente verwalten** können gleichzeitig Namen, Typen und Materialien mehrerer Objekte verwaltet werden.
 
 
 
 #### Materialien
 
-Each object of a construction has a material. So it makes sense to give each object of your model a proper material, such as concrete or wood. To attribute a material to an object, select the object, and use the [materials manager](Arch_SetMaterial.md) from menu **Manage-\>Materials**.
+Jedes Objekt einer Konstruktion hat ein Material. Daher ist es sinnvoll jedem Objekt eines Modells ein passendes Material, wie Beton oder Holz, zuzuordnen. Um einem Objekt ein Material zuzuweisen, wähle das Objekt, und verwende [Material Verwaltung](Arch_SetMaterial/de.md) aus dem Menü **Verwalten → Material**.
 
 
 
 #### Eigenschaften
 
-Each BIM object can also receive additional properties, for example to indicate that a wall is load-bearing or not. IFC allows you to add custom properties to just anything, but most types such as Wall or Beam also have special, predefined sets of properties, usually named Pset_WallCommon or Pset_BeamCommon. You can choose to add these sets to your objects, modify the value of the properties contained in the set, or add your custom properties. Managing the IFC properties for a selected object or bulk edit the properties of several objects at a time is done using the properties manager under menu **Manage-\>IFC properties**.
+Jedes BIM-Objekt kann auch zusätzliche Eigenschaften erhalten, zum Beispiel um zu zeigen, dass eine Wand tragend ist oder nicht. IFC erlaubt es maßgeschneiderte Eigenschaften zu fast allem zuzuordnen, aber die meisten Typen wie Wände oder Balken haben spezielle, vordefinierte Sätze von Eigenschaften, die für gewöhnlich als Pset_WallCommon oder Pset_BeamCommon bezeichnet werden. Du kannst diese Sätze zu deinen Objekten hinzufügen, Werte von Eigenschaften in den Sätzen ändern, oder maßgeschneiderte Eigenschaften hinzufügen. Das Verwalten von IFC-Eigenschaften eines ausgewählten Objektes, oder das gleichzeitige gemeinsame Bearbeiten der Eigenschaften mehrerer Objekte wird mit dem Eigenschaften-Verwalter unter dem Menüeintrag **Verwalten → IFC-Eigenschaften verwalten\...** durchgeführt.
 
 
 
 #### Größen
 
-Quantities such as length or width or height of a wall can also be specifically written to an IFC file. They are not linked to the geometry of the object, so when meeting such quantities in an IFC file there is no guarantee that they reflect the actual object geometry. However, these quantities allow applications that are not able to process the geometry, such as spreadsheet applications, to know the principal dimensions of objects. You can check which quantities will be exported to IFC using the quantities manager found under menu **Manage-\>IFC quantities**.
+Größen wie Länge, Breite oder Höhe einer Wand können auch extra in eine IFC-Datei geschrieben werden. Sie sind nicht mit der Geometrie des Objektes verknüpft, somit gibt es keine Garantie, dass sie sich auf die aktuelle Geometrie des Objektes beziehen, wenn man diese Größen in der IFC-Datei antrifft. Allerdings erlauben diese Größen Programmen, welche die Geometrie nicht verarbeiten können, wie etwa Tabellenkalkulationen, die Hauptmaße zu erkennen. Durch Verwenden des Größen-Verwalters unter dem Menüeintrag **Verwalten → IFC-Mengen verwalten\...** lässt sich überprüfen, welche Größen nach IFC exportiert werden.
 
-The IFC format has many particularities and sometimes the application you will be opening your IFC file with or the person who will receive your IFC file will have further requirements. Becoming a fluent BIM modeller often means to get familiar with all these particularities and what needs to be added or specified to your BIM model. The BIM workbench of FreeCAD provides a [BIM Preflight](BIM_Preflight.md) tool that allows you to check your model for several of these particularities and most common requirements, and help you decide what to include in your model or not.
+#### BIM Preflight tool 
+
+Das IFC Format hat viele Besonderheiten, und manchmal wird die Anwendung mit der du deine IFC Datei öffnen wirst, oder die Person die deine IFC Datei empfangen wird, weitere Anforderungen haben. Ein geübter BIM Modellierer zu werden bedeutet oft mit allen diesen Besonderheiten, und damit welche Anforderungen an dein BIM Modell angefügt oder vorgegeben werden müssen, vertraut zu werden. Der BIM Arbeitsbereich von FreeCAD bietet ein BIM Überprüfungen Werkzeug, welches es dir erlaubt den Modell auf mehrere dieser Besonderheiten und meist üblichen Anforderungen zu überprüfen, und dir hilft zu entscheiden was dein Modell enthalten soll oder nicht.
 
 
-{{BIMTutorialAction|descr=No action to perform for this step}}
+{{BIMTutorialAction/de
+|descr=Keine Aktion für diesen Schritt ausführen
+}}
 
 
 
 ### Erkunde andere BIM Werkzeuge und andere Arbeitsbereiche 
 
-Take a moment to explore the other available BIM tools. Remeber that some are still not finished, and might not do everything you expect from them. Use the \"What\'s this?\" button found in menu **Help** to open the help page of any tool. The [FreeCAD forum](https://forum.freecadweb.org) is also always a good place to search or ask when encountering a specific problem you cannot solve.
+Nimm dir einen Augenblick Zeit, um andere vorhandene BIM Werkzeuge zu erkunden. Denke daran, dass einige noch nicht fertig gestellt sind, und nicht alles machen was du von ihnen erwartest. Verwende die \"Was ist das?\" Schaltfläche, im Menü **Hilfe** zum Öffnen der Hilfe Seite jedes Werkzeuges. Das [FreeCAD forum](https://forum.freecadweb.org) ist auch ein guter Ort zum suchen oder fragen bei speziellen Problemen die du nicht lösen kannst.
 
-FreeCAD is a big family of workbenches, and tools from other workbenches often come in handy. As we saw above, almost any object created from other workbenches can be turned into a valid BIM object, simply using the **3D/BIM -\> Create component** tool and giving it the correct IFC type.
+FreeCAD ist eine große Familie von Arbeitsbereichen, und Werkzeuge von anderen Arbeitsbereichen sind oft praktisch. Wie wir oben gesehen haben, kann fast jedes in einem anderen Arbeitsbereich erzeugte Objekt einfach durch das Werkzeug **3D/BIM → Generische 3D-Werkzeuge → Komponente** und Angabe des richtigen IFC-Typs in ein gültiges BIM-Objekt verwandelt werden.
 
-There are more tutorials about BIM and other workbenches in the [Tutorials](Tutorials.md) section of the [FreeCAD documentation](https://wiki.freecadweb.org), and a complete video series of [BIM tutorials](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU) on youtube.
+Es gibt im [Tutorien](Tutorials/de.md) Abschnitt der [FreeCAD documentation](https://wiki.freecadweb.org) mehr Tutorien über BIM und andere Arbeitsbereiche, und eine vollständige Video Serie von [BIM tutorials](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU) auf Youtube.
 
 
-{{BIMTutorialAction|descr=Keine Aktion für diesen Schritt ausführen}}
+{{BIMTutorialAction/de
+|descr=Keine Aktion für diesen Schritt ausführen
+}}
 
 
 
 ### Hilf FreeCAD, ein besseres Werkzeug zu werden! 
 
-FreeCAD ist eine freie Software, die von einer enthusiastischen Gemeinschaft von Anwendern entwickelt wird. Einige von ihnen entwickeln Code, und viele andere tragen in der einen oder anderen Form dazu bei, die Software besser zu machen, indem sie Dokumentation schreiben, Fehler finden und melden, Ideen einreichen, Tutorials schreiben und viele andere Dinge. Je mehr und je aktiver wir sind, desto schneller wird die Software weiterentwickelt. Warum nicht bei uns mitmachen? Ein guter Ort, um damit anzufangen, ist der [BIM-Bereich im FreeCAD Forum](https://forum.freecadweb.org/viewforum.php?f=23). Wir sehen uns dort!
+FreeCAD ist eine freie Software, die von einer enthusiastischen Gemeinschaft von Anwendern entwickelt wird. Einige von ihnen entwickeln Code, und viele andere tragen in der einen oder anderen Form dazu bei, die Software zu verbessern, indem sie Dokumentation schreiben, Fehler finden und melden, Ideen einreichen, Anleitungen schreiben und viele andere Dinge. Je mehr und je aktiver wir sind, desto schneller wird die Software weiterentwickelt. Warum nicht bei uns mitmachen? Ein guter Ort, um damit anzufangen, ist der [BIM-Bereich im FreeCAD-Forum](https://forum.freecadweb.org/viewforum.php?f=23). Wir sehen uns dort!
 
 
-{{BIMTutorialAction|descr=Keine Aktion für diesen Schritt ausführen}}
+{{BIMTutorialAction/de
+|descr=Keine Aktion für diesen Schritt ausführen
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Tutorials](Category_Tutorials.md) > BIM ingame tutorial/de
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [BIM](BIM_Workbench.md) > BIM ingame tutorial/de

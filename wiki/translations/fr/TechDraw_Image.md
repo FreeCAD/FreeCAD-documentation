@@ -13,6 +13,11 @@
 
 L\'outil **TechDraw Image** insère une image [bitmap](Bitmap/fr.md) (png, jpeg, jpg, bmp, etc.) à partir d\'un fichier dans la page en tant que vue.
 
+
+{{Version/fr|1.0}}
+
+: l\'outil [TechDraw Vue](TechDraw_View/fr.md) peut également créer une vue d\'un objet Image.
+
 ![](images/TechDraw_Image_example.png ) 
 *Image insérée dans la page de dessin*
 
@@ -21,23 +26,23 @@ L\'outil **TechDraw Image** insère une image [bitmap](Bitmap/fr.md) (png, jpeg,
 ## Comment faire 
 
 1.  S\'il y a plusieurs pages de dessin dans le document : activez la page souhaitée en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
-2.  Il y a plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_Image.svg" width=16px> [Insérer une image bitmap](TechDraw_Image/fr.md)
+2.  Appuyez sur le bouton **<img src="images/TechDraw_Image.svg" width=16px> [Insérer une image bitmap](TechDraw_Image/fr.md)
 **
-    -   Sélectionnez l\'option **TechDraw → Vues de TechDraw → <img src="images/TechDraw_Image.svg" width=16px> Insérer une image bitmap** dans le menu.
-3.  Si le document comporte plusieurs pages de dessin et que vous n\'avez pas encore activé de page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
+3.  Si le document contient plusieurs pages de dessin et que vous n\'avez pas encore activé de page, la fenêtre de dialogue **Sélecteur de pages** s\'ouvre :
     1.  Sélectionnez la page désirée.
     2.  Appuyez sur le bouton **OK**.
-4.  Une boîte de dialogue de fichier s\'ouvre.
-    1.  Sélectionnez un emplacement et un nom de fichier.
-    2.  L\'image est insérée.
-5.  Vous pouvez éventuellement modifier sa propriété **Scale** pour ajuster sa taille.
+4.  Un navigateur de fichiers s\'ouvre.
+5.  Sélectionnez un fichier image.
+6.  Une vue d\'un objet Image est insérée.
+7.  Vous pouvez modifier sa propriété **Scale** pour ajuster sa taille.
 
 
 
 ## Propriétés
 
-Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+
+Une vue d\'une image, en fait un objet {{Incode|TechDraw::DrawViewImage}}, possède les [propriétés](TechDraw_View/fr#Propriétés_Vue_de_Part.md) communes à tous les types de vues. Elle possède également les propriétés supplémentaires suivantes :
 
 
 
@@ -84,7 +89,7 @@ dvi.Width  = 200
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

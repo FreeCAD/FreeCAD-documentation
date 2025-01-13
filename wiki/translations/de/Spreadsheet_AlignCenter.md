@@ -1,23 +1,29 @@
 ---
  GuiCommand:
    Name: Spreadsheet AlignCenter
-   Name/de: Kalkulationstabelle MittigAusrichten
-   MenuLocation: Kalkulationstabelle , Ausrichtung , Mittig Ausrichten
+   Name/de: Spreadsheet AusrichtenMitte
+   MenuLocation: Kalkulationstabelle , Ausrichtung , Zentrieren
    Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
 ---
 
 # Spreadsheet AlignCenter/de
 
+
+
 ## Beschreibung
 
-Das **[<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [Kalkulationstabelle MittigAusrichten](Spreadsheet_AlignCenter/de.md)** Werkzeug bewirkt, dass der Text innerhalb der Zelle mittig ausgerichtet wird.
+Das Werkzeug <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> **Spreadsheet AusrichtenMitte** zentriert den Inhalt ausgewählter Zellen horizontal.
+
+
 
 ## Anwendung
 
-1.  Stelle sicher, dass eine aktive **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md)** geöffnet ist, so dass die Schaltfläche aktiviert ist.
-2.  Wähle eine Zelle.
-3.  Drücke die **[<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [Kalkulationstabelle MittigAusrichten](Spreadsheet_AlignCenter/de.md)** Schaltfläche.
+1.  Sicherstellen, dass eine [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md) aktiviert ist.
+2.  Eine oder mehrere Zellen auswählen.
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [Zentrieren](Spreadsheet_AlignCenter/de.md)** drücken.
+    -   Den Menüeintrag **Kalkulationstabelle → Ausrichtung → [<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> Zentrieren** auswählen.
 
 
 

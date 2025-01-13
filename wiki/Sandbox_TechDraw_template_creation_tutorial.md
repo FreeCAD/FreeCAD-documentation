@@ -40,7 +40,7 @@ Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
 
 -   Select the topmost<svg>item and press the **+** located on the top left of the contents window to create a new entry
 -   In the **Name** field of the new item, paste xmlns:freecad
--   In the **Attribute** field, paste "[http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace](http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace)". Press **Enter** to confirm the edit to the namespace; if you just click away, the edit will revert.
+-   In the **Attribute** field, paste "[https://wiki.freecad.org/index.php?title=Svg_Namespace](https://wiki.freecad.org/index.php?title=Svg_Namespace)". Press **Enter** to confirm the edit to the namespace; if you just click away, the edit will revert.
 
 Note that your editable texts will *not* work if you use \"<https://>\...\", even though the wiki is reached via https these days. Since SVG is a human readable format you could also enter the line above into the file with a text editor. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
 *align=center|Inkscape: XML Editor adding the "freecad" namespace clause to the <svg> item* 

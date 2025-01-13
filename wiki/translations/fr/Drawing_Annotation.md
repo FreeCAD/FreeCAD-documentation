@@ -16,11 +16,11 @@ Cette commande vous permet de placer un bloc de texte sur une [Feuille A3 paysag
 
 ## Utilisation
 
-1.  Créer une [Feuille A3 paysage](Drawing_Landscape_A3.md)
-2.  [Rafraichir](Std_Refresh.md) la vue si une Feuille n\'est pas ouverte
+1.  Créez une [Drawing page](Drawing_Landscape_A3/fr.md)
+2.  [Recalculez](Std_Refresh.md) la vue si une vue de Drawing n\'est pas ouverte
 3.  Appuyer sur le bouton **<img src="images/Drawing_Annotation.png" width=16px> [Annotation](Drawing_Annotation/fr.md)
 **
-4.  Ajuster les propriétés souhaitées comme le contenu du texte, la police, la taille et sa position.
+4.  Ajustez les propriétés souhaitées comme le contenu du texte, la police, la taille et sa position.
 
 
 

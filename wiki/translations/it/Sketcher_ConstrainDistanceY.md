@@ -1,22 +1,20 @@
 ---
  GuiCommand:
    Name: Sketcher ConstrainDistanceY
-   Name/it: Distanza Verticale   Workbenches: Sketcher Workbench/‭it
-   MenuLocation: Sketch , Vincoli , Distanza verticale
-   Shortcut: Shift+V
+   Name/it: Sketcher Vincolo distanza verticale
+   MenuLocation: Schizzo , Vincoli Sketcher , Vincolo distanza verticale
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **I**
    SeeAlso: Sketcher_ConstrainDistanceX/it, Sketcher_ConstrainDistance/it
 ---
 
 # Sketcher ConstrainDistanceY/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-Fissa una distanza verticale tra due punti. È applicabile tra tutti i punti dello schizzo. Quando viene selezionato un solo punto la distanza è riferita all\'origine.
+Lo strumento <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Sketcher Vincolo distanza verticale](Sketcher_ConstrainDistanceY/it.md) fissa la distanza verticale tra due punti o gli estremi di una linea. Se viene preselezionato un punto singolo, la distanza è relativa all\'origine dello schizzo.
 
 ![](images/Sketcher_ConstraintDistanceY_example.png )
 
@@ -24,54 +22,60 @@ Fissa una distanza verticale tra due punti. È applicabile tra tutti i punti del
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare due punti o una linea
-2.  Richiamare il comando in uno di questi modi:
-    -   Cliccare sull\'icona **[<img src=images/Sketcher_ConstrainDistanceY.png style="width:24px"> '''Distanza verticale'''** della barra degli strumenti.
-    -   Usare la scorciatoia da tastiera **Maiusc** + **V**.
-    -   Usare la voce **Sketch → Vincoli → Distanza verticale** dal menu principale.
-3.  Si apre una finestra di dialogo per modificare o confermare il valore. Premere **OK** per confermare.
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
 
-</div>
+
+### [Modalità continua](Sketcher_Workbench/it#Continue_modes.md) 
+
+1.  Assicurarsi che non ci sia alcuna selezione.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   
+        {{Version/it|1.0}}
+        
+        : Se la [preferenza](Sketcher_Preferences/it#General.md) **Vincoli dimensionali** è impostata su {{Value|Strumento singolo}} (predefinito): premere la freccia giù a destra del Pulsante **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** e selezionare il pulsante **<img src="images/Sketcher_ConstrainDistanceY.svg" width=16px> Vincolo distanza verticale** dal menu a discesa.
+
+    -   Se questa preferenza ha un valore diverso (e in {{VersionMinus/it|0.21}}): premere il pulsante **<img src="images/Sketcher_ConstrainDistanceY.svg" width=16px> [Vincolo distanza verticale](Sketcher_ConstrainDistanceY/it.md)**.
+
+    -   Selezionare l\'opzione **Schizzo → Vincoli Sketcher → <img src="images/Sketcher_ConstrainDistanceY.svg" width=16px> Vincolo distanza verticale** dal menu.
+
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [Vista 3D](3D_view/it.md) e selezionare l\'opzione **Dimensione → <img src="images/Sketcher_ConstrainDistanceY.svg" width=16px> Vincolo distanza verticale** dal menu contestuale.
+
+    -   Usare la scorciatoia da tastiera: **I**.
+3.  Per ulteriori passaggi vedere [Sketcher Vincolo distanza orizzontale](Sketcher_ConstrainDistanceX/it#Continue_mode.md)
 
 
-<div class="mw-translate-fuzzy">
 
-**Nota:** lo strumento di vincolo può essere avviato anche senza selezione precedente, ma richiede la selezione di due punti o una linea. Per impostare la distanza dall\'origine, è necessario selezionare anche il punto di origine dello schizzo. Di default il comando è in modalità continua per creare nuovi vincoli; per uscire dal comando premere il tasto destro del mouse o una volta il tasto **ESC**.
+### Modalità di esecuzione una sola volta 
+
+Vedere [Sketcher Vincolo distanza orizzontale](Sketcher_ConstrainDistanceX/it#Run-once_mode.md).
 
 
-</div>
 
-## Scripting
+## Script
 
-Distance from origin:
+Distanza dall\'origine:
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Edge, PointOfEdge, -1, 1, App.Units.Quantity('123.0 mm')))```
 
-Distance between two vertices:
+Distanza tra due vertici:
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```
 
-Vertical span of line (the GUI allows selecting the edge itself, but it is just a shorthand for using the two extremities of the same line):
+Tratto verticale della linea (la GUI consente di selezionare il bordo stesso, ma è solo una scorciatoia per utilizzare le due estremità della stessa linea):
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceY', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))```
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Edge`, `Edge1`, `Edge2`, `PointOfEdge`, ` PointOfEdge1`, ` PointOfEdge2` and `Line`, and contains further examples on how to create constraints from Python scripts.
-
-
-<div class="mw-translate-fuzzy">
+La pagina [Sketcher scripting](Sketcher_scripting/it.md) spiega i valori che possono essere utilizzati per `Edge`, `Edge1`, `Edge2`, `PointOfEdge`, ` PuntoOfEdge1`, ` PointOfEdge2` e `Line` e contiene ulteriori esempi su come creare vincoli da script Python.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

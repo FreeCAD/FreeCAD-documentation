@@ -28,10 +28,18 @@ Polecenie może utworzyć tylko jedno podcięcie naraz.
 ## Użycie
 
 1.  Wybierz jedną lub więcej krawędzi.
-2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:16px;"> **Wykonaj podcięcie narożnika** używając jednej z poniższych opcji:
-    -   Przycisk **<img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Wykonaj podcięcie narożnika**.
-    -   Opcja menu **SheetMetal → <img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Wykonaj podcięcie narożnika**.
-    -   Skrót klawiaturowy: **C** + **R**.
+2.  Istnieje kilka sposobów na wywołanie tego polecenia:
+    -   Wciśnij przycisk **<img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Wykonaj podcięcie narożnika**.
+    -   Wybierz opcję **SheetMetal → <img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Wykonaj podcięcie narożnika** z menu.
+    -   Kliknij prawym przyciskiem myszy w [widoju drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md) i wybierz opcję **Sheet Metal → <img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Wykonaj podcięcie narożnika** z menu kontekstowego.
+    -   Użyj skrótu klawiaturowego: **C** a następnie **R**.
+3.  Otwarty zostanie [panel zadań](Task_panel/pl.md) **Generate Sheet Metal base shape** (wprowadzony w wersji 0.5.00).
+4.  Opcjonalnie wciśnij przycisk **Wybierz** aby ponownie wybrać krawędzie.
+    -   Wciśnij przycisk **Podgląd** aby zakończyć wybór i wyświetlić zmiany.
+5.  Opjconalnie dostosuj parametry w panelu zadań.
+6.  Wciśnij przycisk **OK** aby zakończyć polecenie i zamknąć panel zadań.
+7.  Obiekt **CornerRelief** zostanie utworzony i będzie się składał z jednego nowego podcięcia narożnika dla wskazanego narożnika.
+8.  Opcjonalnie dostosuj parametry w [Edytorze właściwości](Property_editor/pl.md).
 
 
 
@@ -80,9 +88,8 @@ Przełączenie na Skalowany-Okrąąg i utworzenie kolejnej rozwiniętej bryły p
 
 ## Uwagi
 
--   Współczynnik **k** określa, gdzie w grubości arkusza znajduje się oś neutralna.
-
-*(Dobrze byłoby wiedzieć, czy współczynnik ten jest zgodny ze standardem ISO czy ANSI \...)*
+-   Współczynnik **k** określa, gdzie w grubości arkusza znajduje się oś neutralna według standardu ANSI.
+-   Możliwy jest wybór więcej niż dwóch krawędzi, ale tylko pierwsze dwie są brane pod uwagę.
 
 
 
@@ -90,18 +97,11 @@ Przełączenie na Skalowany-Okrąąg i utworzenie kolejnej rozwiniętej bryły p
 
 Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt Podcięcia narożnika środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+Obiekt Podcięcia narożnika środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) lub, jeśli jest w obrębie [Zawartości środowiska Projekt Części](PartDesign_Body/pl.md), z obiektu [Cechy tego środowiska](PartDesign_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
 
 ### Dane
-
-
-{{Properties_Title|Podstawowe}}
-
--    **Cecha bazowa|Link|hidden**: Cecha bazowa. Łącze do cechy nadrzędnej.
-
--    **_Body|LinkHidden|hidden**: Ukryte łącze do elementu nadrzędnego.
 
 
 {{Properties_Title|Parametry}}

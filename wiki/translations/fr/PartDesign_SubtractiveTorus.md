@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign SubtractiveTorus
    Name/fr: PartDesign Tore soustractif
-   MenuLocation: Part Design , Créer une  primitive soustractive , Tore soustractif
+   MenuLocation: PartDesign , Créer une  primitive soustractive , Tore soustractif
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/fr, PartDesign_AdditiveTorus/fr

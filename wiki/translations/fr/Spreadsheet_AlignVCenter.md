@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Spreadsheet AlignVCenter
    Name/fr: Spreadsheet Alignement vertical au centre
-   MenuLocation: Spreadsheet , Alignement , Alignement vertical au centre
+   MenuLocation: Spreadsheet , Alignement , Aligner verticalement au centre
    Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
 ---
@@ -11,13 +11,17 @@
 
 ## Description
 
-L\'outil **[<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Spreadsheet Alignement vertical au centre](Spreadsheet_AlignVCenter/fr.md)** fait en sorte que le texte à l\'intérieur de la cellule s\'aligne verticalement sur le centre de la cellule.
+L\'outil <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> **Spreadsheet Alignement vertical au centre** aligne le contenu des cellules sélectionnées au centre verticalement.
+
+
 
 ## Utilisation
 
-1.  Assurez-vous qu\'il y a une **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [feuille de calcul](Spreadsheet_CreateSheet/fr.md)** ouverte pour que le bouton soit activé.
-2.  Sélectionnez une cellule.
-3.  Appuyez sur le bouton **[<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Alignement vertical au centre](Spreadsheet_AlignVCenter/fr.md)**.
+1.  Assurez-vous qu\'il existe une [feuille de calcul](Spreadsheet_CreateSheet/fr.md) active.
+2.  Sélectionnez une ou plusieurs cellules.
+3.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **[<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Aligner verticalement au centre](Spreadsheet_AlignVCenter/fr.md)**.
+    -   Sélectionnez l\'option **Spreadsheet → Alignement → [<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> Aligner verticalement au centre** du menu.
 
 
 

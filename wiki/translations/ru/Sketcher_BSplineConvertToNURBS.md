@@ -1,0 +1,61 @@
+---
+ GuiCommand:
+   Name/ru: Преобразовать геометрию в B-Сплайн
+   Name: Sketcher_BSplineApproximate
+   MenuLocation: Sketch , Эскизирование B-spline tools , Преобразовать геометрию в B-Сплайн
+   Workbenches: Sketcher_Workbench/ru
+   Version: 0.17
+   SeeAlso: Sketcher_CompCreateBSpline/ru
+---
+
+# Sketcher BSplineConvertToNURBS/ru
+
+
+</div>
+
+
+
+## Описание
+
+The <img alt="" src=images/Sketcher_BSplineConvertToNURBS.svg  style="width:24px;"> [Sketcher BSplineConvertToNURBS](Sketcher_BSplineConvertToNURBS.md) tool converts edges to [B-splines](B-Splines.md).
+
+<img alt="" src=images/sketcher_BSplineConvertToNurb.png  style="width:300px;"> 
+*Various objects before conversion.*
+
+<img alt="" src=images/sketcher_BSplineConvertToNurb1.png  style="width:300px;"> 
+*The same objects after conversion to B-splines.*
+
+
+
+## Применение
+
+1.  Select one or more edges.
+2.  There are several ways to invoke the tool:
+    -   Press the **[<img src=images/Sketcher_BSplineConvertToNURBS.svg style="width:16px"> [Convert geometry to B-spline](Sketcher_BSplineConvertToNURBS.md)** button.
+    -   Select the **Sketch → Sketcher B-spline tools → <img src="images/Sketcher_BSplineConvertToNURBS.svg" width=16px> Convert geometry to B-spline** option from the menu.
+3.  The edges are converted.
+
+## Notes
+
+-   Make sure to have the B-spline [degree](Sketcher_BSplineDegree.md), [polygon](Sketcher_BSplinePolygon.md), [comb](Sketcher_BSplineComb.md), [multiplicity](Sketcher_BSplineKnotMultiplicity.md) and/or [weight](Sketcher_BSplinePoleWeight.md) visible, otherwise nothing seems to happen.
+-   If you have converted straight lines you need to [increase the degree](Sketcher_BSplineIncreaseDegree.md) of the created B-splines to make them \"bendable\".
+-   The tool does not remove the internal geometry of [conics](Sketcher_Workbench#Sketcher_CompCreateConic.md). This has to be deleted manually.
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
+
+}}
+
+
+
+---
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineConvertToNURBS/ru

@@ -1,5 +1,5 @@
 # Flamingo Workbench/fr
-**L'atelier Flamingo (Python2/Qt4) a été remplacé par l'atelier Dodo (Python3/Qt5).
+**L'atelier Flamingo (Python2/Qt4) a été remplacé par l'atelier Dodo (Python3/Qt5).<br/>
 Cette page wiki mettra en évidence les différences entre ces deux ateliers.**
 
 ## Introduction
@@ -32,6 +32,8 @@ Par commodité, les outils Flamingo/Dodo sont groupés dans trois barres d\'outi
 
   - **Utils** fournit quelques fonctionnalités pour interroger les objets du modèle et leur distance, pour déplacer/pivoter le plan de travail et un petit hack de la boîte de dialogue de création de [Draft Polyligne](Draft_Wire/fr.md), qui permet de changer la position du plan de travail à la volée.
 
+
+
 ## Références
 
 -   Auteur : oddtopus
@@ -41,9 +43,13 @@ Par commodité, les outils Flamingo/Dodo sont groupés dans trois barres d\'outi
 
 <https://github.com/oddtopus/dodo>
 
+
+
 ## Installation
 
 Cet atelier peut être installé à partir du [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
+
+
 
 ## Outils Frame 
 
@@ -145,7 +151,7 @@ Outil permettant de faire pivoter un objet de 180 degrés autour de l'axe \"X\" 
 
 :   9\) Déplacer la poutre (classe shiftBeam)
 
-Boîte de dialogue pour déplacer et copier des objets.
+Fenêtre de dialogue pour déplacer et copier des objets.
 
 Les zones de texte **X**, **Y** et **Z** permettent de saisir directement la valeur de déplacement dans chaque direction.
 
@@ -209,6 +215,8 @@ Si des entités sont présélectionnées avant d\'appeler cette commande, la pre
 
 Outil pour ajuster les poutres aux angles droits des encadrements. Pour comprendre au mieux son fonctionnement, reportez-vous au tutoriel précédent.
 
+
+
 ## Outils Pype 
 
 
@@ -222,7 +230,7 @@ Outil pour ajuster les poutres aux angles droits des encadrements. Pour comprend
 
 :   1\) Ajouter un tube
 
-Ouvre une boîte de dialogue pour insérer des tubes.
+Ouvre une fenêtre de dialogue pour insérer des tubes.
 
 La liste déroulante située en haut à droite est une fonctionnalité commune à toutes les boîtes de dialogue \"Insert \...\" : elle répertorie les objets canalisation définis dans le document actuel : cette option permet de sélectionner à quelle canalisation attribuer les tuyaux nouvellement créés. Vous pouvez également laisser  (aucun) pour que l\'objet soit créé sur la ligne principale du modèle de pièce. Dans le coin supérieur gauche est imprimée la classification de tuyauterie actuellement sélectionnée, extraite de la liste dans la colonne de droite. Les dimensions des tuyaux pour chaque classe de tuyau sont définies dans des fichiers .csv, qu\'il est possible d\'ajouter ou de modifier, avec quelques règles de nommage simples, en fonction des besoins. Les courbes, les réductions, etc. ont les mêmes règles pour la définition de leurs tableaux de dimensions : voir les fichiers dans ../Mod/flamingo/Tables. Lisez aussi \"tutorialPype.pdf\" pour savoir comment les personnaliser ou les créer.
 
@@ -245,7 +253,7 @@ Le bouton **Apply** permet d\'appliquer une longueur différente ou un diamètre
 
 :   2\) Ajouter un coude
 
-Ouvre une boîte de dialogue pour insérer un coude.
+Ouvre une fenêtre de dialogue pour insérer un coude.
 
 En plus des widgets communs avec les autres boîtes de dialogue \"Insert\...\", le bouton **Trim/Extend** (Couper/Etendre) permet d\'ajuster la longueur des tuyaux sélectionnés au bord sélectionné de la courbe. Pour définir la position et l\'orientation, les sélections suivantes sont possibles:
 
@@ -259,7 +267,7 @@ Si aucun angle n\'est spécifié, la valeur par défaut est 90 degrés.
 
 :   3\) Ajouter une réduction
 
-Ouvre une boîte de dialogue pour insérer des réductions concentriques.
+Ouvre une fenêtre de dialogue pour insérer des réductions concentriques.
 
 Pour définir la position et l\'orientation, les sélections suivantes sont possibles: deux tuyaux parallèles (éventuellement colinéaires)
 
@@ -276,7 +284,7 @@ Si deux tuyaux sont sélectionnés, l\'outil essaiera automatiquement de les con
 
 :   4\) Insérer un bouchon
 
-Ouvre la boîte de dialogue pour insérer des bouchons.
+Ouvre la fenêtre de dialogue pour insérer des bouchons.
 
 Pour définir la position et l\'orientation, les sélections suivantes sont possibles:
 
@@ -302,7 +310,7 @@ Si un tuyau est sélectionné, ses propriétés sont appliquées à la bride.
 
 :   7\) Ajouter un boulon en U
 
-Ouvre la boîte de dialogue pour insérer des boulons en U.
+Ouvre la fenêtre de dialogue pour insérer des boulons en U.
 
 Pour définir la position et l\'orientation, les sélections suivantes sont possibles:
 
@@ -426,6 +434,8 @@ Ouvre une boîte de dialogue similaire à \"Dessiner un DWire\" avec la boîte d
 
 C\'est un outil pour créer un objet \"tuyau\" à partir d\'un fichier .STEP ou .IGES ou .BREP. Il charge le fichier importé dans la propriété Shape d\'un FeaturePython.
 
+
+
 ## Utilitaires
 
 
@@ -486,6 +496,8 @@ Pour déplacer rapidement une pièce, par exemple pour accéder aux objets sous-
 
 Ouvre une boîte de dialogue pour calculer les pertes de pression sur les pièces tuyauterie sélectionnées dans la fenêtre ou sur un embranchement. Le coefficient de frottement est calculé pour chaque tube droit et chaque coude. Pour les autres objets, la perte de charge concentrée est calculée à l\'aide du facteur de débit, à condition que l\'attribut Kv soit disponible et défini sur une valeur positive.
 
+
+
 ## Liens
 
 -   Forum : [Nouvel atelier pour structure métallique](http://forum.freecadweb.org/viewtopic.php?f=8&t=17035) (annonce)
@@ -503,11 +515,15 @@ Ouvre une boîte de dialogue pour calculer les pertes de pression sur les pièce
     -   [File d\'attente de Flamingo GitHub](https://github.com/oddtopus/flamingo/issues)
     -   [File d\'attente de Dodo GitHub](https://github.com/oddtopus/dodo/issues)
 
+
+
 ## Autres liens intéressants 
 
 -   [Ateliers externes](External_workbenches/fr.md)
 -   [Macros](Macros_recipes/fr.md)
 -   [OSE-Piping-Workbench : pour créer des raccords de tuyauterie supplémentaires](https://wiki.opensourceecology.org/wiki/OSE_Piping_Workbench)
+
+
 
 ## Ateliers externes 
 

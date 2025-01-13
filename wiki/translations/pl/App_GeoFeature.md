@@ -22,7 +22,7 @@ Niektóre z najważniejszych obiektów pochodnych są następujące:
 -   Klasa [Część: Cecha](Part_Feature/pl.md), rodzic większości obiektów o kształtach [topologicznych](Part_TopoShape/pl.md) 2D i 3D.
 -   Klasa [Siatka: Cecha](Mesh_Feature/pl.md), rodzic większości obiektów wykonanych z [Siatka](Mesh_MeshObject/pl.md), a nie brył.
 -   Klasa [MES: FemMeshObject](FEM_Mesh/pl.md), rodzic siatek elementów skończonych utworzonych za pomocą [środowiska pracy MES](FEM_Workbench/pl.md).
--   Klasa [CAM: Cecha](Path_Feature/pl.md), rodzic ścieżek utworzonych za pomocą [środowiska pracy Część](Path_Workbench/pl.md) do użytku w obróbce CNC.
+-   Klasa [CAM: Cecha](CAM_Feature/pl.md), rodzic ścieżek utworzonych za pomocą [środowiska pracy CAM](CAM_Workbench/pl.md) do użytku w obróbce CNC.
 -   Klasa [App: Część](App_Part/pl.md), która definiuje [Std: Część](Std_Part/pl.md), które mogą być używane jako kontenery korpusów do wykonywania złożeń.
 
 Podczas tworzenia tego obiektu w środowisku [Python](Python/pl.md), zamiast klasy podrzędnej `App::GeoFeature`, należy utworzyć klasę podrzędną `App::GeometryPython`, ponieważ ta ostatnia zawiera domyślnego dostawcę widoku oraz atrybuty `Proxy` dla samego obiektu i jego dostawcy widoku. Zobacz także sekcję [tworzenie skryptów](App_GeoFeature/pl#Tworzenie_skryptów.md).

@@ -23,7 +23,7 @@ Polecenie **Zapisz obrazek** otwiera okno dialogowe umożliwiające utworzenie p
 ## Użycie
 
 1.  Wybierz z menu opcję **Przybory → <img src="images/Std_ViewScreenShot.svg" width=16px> Zapisz obrazek...**.
-2.  Zostanie otwarte okno dialogowe Zapisz obrazek.
+2.  Zostanie otwarte okno dialogowe **Zapisz obrazek**.
 3.  Opcjonalnie naciśnij przycisk **Rozszerz**, aby wyświetlić dodatkowy panel w oknie dialogowym. Więcej informacji znajdziesz w sekcji [Opcje](#Opcje.md).
 4.  Ewentualnie przejdź do właściwego folderu.
 5.  Wprowadź nazwę pliku i wybierz jego typ.
@@ -87,9 +87,9 @@ Polecenie **Zapisz obrazek** otwiera okno dialogowe umożliwiające utworzenie p
 
 ### Komentarz do obrazka 
 
-1.  Wybierz opcję {{RadioButton|TRUE|Wstaw MIBA}}, aby dodać informacje [MIBA](MIBA.md) do pliku. Nie wszystkie formaty obrazów to obsługują.
-2.  Lub wybierz opcję {{RadioButton|TRUE|Wstaw komentarz}} i wpisz komentarz w polu tekstowym, aby osadzić komentarz w pliku. Nie wszystkie formaty obrazów obsługują tę funkcję.
-3.  Zaznacz pole wyboru {{CheckBox|TRUE|Dodaj znak wodny}}, aby dodać znak wodny. Znak wodny jest umieszczany w lewym dolnym rogu obrazu i zawiera logo i nazwę programu FreeCAD nad głównym adresem URL programu FreeCAD: [www.freecadweb.org](http://www.freecadweb.org).
+1.  Wybierz opcję **Wstaw MIBA**, aby dodać informacje [MIBA](http://juergen-riegel.net/Miba/) do pliku. Nie wszystkie formaty obrazów to obsługują.
+2.  Lub wybierz opcję **Wstaw komentarz** i wpisz komentarz w polu tekstowym, aby osadzić komentarz w pliku. Nie wszystkie formaty obrazów obsługują tę funkcję.
+3.  Zaznacz pole wyboru **Dodaj znak wodny**, aby dodać znak wodny. Znak wodny jest umieszczany w lewym dolnym rogu obrazu i zawiera logo i nazwę programu FreeCAD nad głównym adresem URL programu FreeCAD: [www.freecadweb.org](https://www.freecadweb.org).
 
 
 
@@ -102,37 +102,43 @@ Polecenie **Zapisz obrazek** otwiera okno dialogowe umożliwiające utworzenie p
 
 ## Ustawienia
 
--   Tło widoku 3D można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Kolory → Kolor tła**. Zobacz także [Edytor ustawień](Preferences_Editor/pl#Kolory.md).
--   Aby zmienić antyaliasing widoku 3D: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Renderowanie → Wygładzanie**. Zobacz także [Edytor ustawień](Preferences_Editor/pl#Widok_3D.md).
+Zobacz też: [Edytor preferencji](Preferences_Editor/pl.md).
+
+-   Tło widoku 3D można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Kolory → Kolor tła**.
+-   Aby zmienić antyaliasing widoku 3D: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Renderowanie → Wygładzanie**.
 
 
 
 ## Tworzenie skryptów 
 
-Istnieje możliwość tworzenia zrzutów ekranu za pomocą kodu środowiska Python.
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Istnieje możliwość tworzenia zrzutów ekranu za pomocą kodu Pythona.
 
 
 ```python
-Gui.ActiveDocument.ActiveView.saveImage('C:/temp/test.png',1656,783,'Current')
+Gui.ActiveDocument.ActiveView.saveImage("D:/temp/test.png", 1656, 783, "Current")
 ```
 
 Ten skrypt zapisuje serię zrzutów ekranu o różnych rozmiarach i z różnych kierunków. Zmieniany jest także typ ujęcia widoku - ortograficzny lub perspektywiczny.
 
 
 ```python
-import Part, PartGui
-# Loading test part
-Part.open('C:/Documents and Settings/jriegel/My Documents/Projects/FreeCAD/data/Blade.stp')
-OutDir = 'C:/temp/'
- 
-# Creating images with different Views, Cameras and sizes
-for p in ['PerspectiveCamera','OrthographicCamera']:
+import FreeCADGui as Gui
+import Part
+
+out_dir = "D:/temp/"
+name = "Blade"
+view = Gui.ActiveDocument.ActiveView
+
+# Create images with different Views, Cameras and sizes
+for p in ["PerspectiveCamera", "OrthographicCamera"]:
     Gui.SendMsgToActiveView(p)
-    for f in ['ViewAxo','ViewFront','ViewTop']:
+    for f in ["ViewAxo", "ViewFront", "ViewTop"]:
         Gui.SendMsgToActiveView(f)
-        for x,y in [[500,500],[1000,3000],[3000,1000],[3000,3000],[8000,8000]]:
-            Gui.ActiveDocument.ActiveView.saveImage(OutDir + 'Blade_' + p +'_' + f + '_' + x + '_' + y + '.jpg',x,y,'White')
-            Gui.ActiveDocument.ActiveView.saveImage(OutDir + 'Blade_' + p +'_' + f + '_' + x + '_' + y + '.png',x,y,'Transparent')
+        for x, y in [[500, 500], [1000, 3000], [3000, 1000], [3000, 3000], [8000, 8000]]:
+            view.saveImage(out_dir + name + "_" + p + "_" + f + "_" + str(x) + "_" + str(y) + ".jpg", x, y, "White")
+            view.saveImage(out_dir + name + "_" + p + "_" + f + "_" + str(x) + "_" + str(y) + ".png", x, y, "Transparent")
 
 # Close active document
 App.closeDocument(App.ActiveDocument.Name)
@@ -142,7 +148,7 @@ App.closeDocument(App.ActiveDocument.Name)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

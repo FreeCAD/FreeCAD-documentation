@@ -2,9 +2,8 @@
  GuiCommand:Addon/pl
    Name: BIM Preflight
    Name/pl: BIM: Kontrola wstępna
-   Workbenches: Image:IFC.svg BIM_Workbench/pl
-   Addon: BIM
-   MenuLocation: Manage , Preflight check
+   MenuLocation: Zarządzanie , Kontrola wstępna
+   Workbenches: BIM_Workbench/pl
 ---
 
 # BIM Preflight/pl
@@ -13,11 +12,11 @@
 
 ## Opis
 
-<img alt="" src=images/BIM_preflight_screenshot.png  style="width:1024px;">
+Narzędzie **Kontrola wstępna** umożliwia przeprowadzenie kilku testów modelu w celu zweryfikowania jego zgodności ze standardami IFC i najlepszymi praktykami, a także pomaga wykryć ewentualne problemy, które warto naprawić.
+
+<img alt="" src=images/BIM_preflight_screenshot.png  style="width:600px;">
 
 Ponieważ FreeCAD jest bardzo swobodną platformą do modelowania, wymagania są bardzo niskie. Zasadniczo można modelować i organizować model BIM w dowolny sposób, korzystając ze wszystkich narzędzi oferowanych przez FreeCAD, zarówno ze środowiska pracy BIM, jak i innych środowisk pracy. Format IFC ma jednak pewne surowe wymagania, a inne aplikacje BIM, które mogą odczytywać pliki IFC, często wprowadzają dodatkowe ograniczenia, ponieważ często mają trudności z niektórymi jednostkami lub sposobem modelowania niektórych obiektów.
-
-Narzędzie Kontrola wstępna umożliwia przeprowadzenie kilku testów modelu w celu zweryfikowania jego zgodności ze standardami IFC i najlepszymi praktykami, a także pomaga wykryć ewentualne problemy, które warto naprawić.
 
 Wyniki większości testów dostarczanych przez to narzędzie są opcjonalne, co oznacza, że możesz wyeksportować swój model, nawet jeśli zakończą się one niepowodzeniem. To Ty musisz ocenić, czy potrzebujesz testu, aby go zdać, czy nie. Dołożyliśmy wszelkich starań, aby dostarczyć rzetelnych informacji, które pomogą Ci podjąć decyzję.
 
@@ -107,5 +106,13 @@ def myCustomTest():
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > BIM Preflight/pl
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Preflight/pl

@@ -1,36 +1,70 @@
 ---
- GuiCommand:Addon/fr
+ GuiCommand:
    Name: BIM Project
-   Name/fr: BIM Project
+   Name/fr: BIM Projet
+   MenuLocation: 3D/BIM , Projet
    Workbenches: BIM_Workbench/fr
-   Addon: BIM
-   MenuLocation: Manage , Manage project...
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # BIM Project/fr
 
 ## Description
 
-<img alt="" src=images/BIM_project_screenshot.png  style="width:1024px;">
+L\'outil **BIM Projet** crée un projet d\'[IFC natif](NativeIFC/fr.md) dans le document en cours. En IFC, un projet (IfcProject) est l\'objet racine de tous les contenus du modèle. Il est obligatoire d\'en avoir un dans chaque fichier IFC.
 
-La boîte de dialogue de configuration du projet est une boîte de dialogue d'assistant qui vous permet de créer un jeu d'objets de guidage dans le document actuel ou dans un nouveau document, ce qui vous aidera à démarrer la modélisation d'un projet BIM.
+Il n\'est pas nécessaire de créer un projet pour exporter un modèle FreeCAD en IFC, car un projet par défaut sera ajouté chaque fois que vous exporterez un fichier IFC. Cependant, lorsque vous travaillez avec [NativeIFC](NativeIFC/fr.md), un fichier IFC est attaché au modèle, et toute la géométrie et les propriétés de ce modèle et de ses composants proviennent du fichier IFC attaché. Le projet est l\'endroit où le fichier IFC est attaché au document.
 
-La boîte de dialogue de configuration du projet peut créer:
+Généralement, vous créez un projet BIM pour y joindre un fichier IFC. Lors de la création du projet, le fichier IFC joint est vide et n\'est pas enregistré. La prochaine fois que vous enregistrerez le fichier FreeCAD, il vous sera également demandé d\'enregistrer le fichier IFC.
 
--   Un nouveau [document](Document_structure/fr.md). Sinon, les autres objets seront créés dans le document couramment ouvert.
--   Un [Site](Arch_Site/fr.md). L\'objet Site représente un terrain sur lequel votre projet sera situé. Vous pouvez lui attribuer un certain nombre de propriétés utiles, telles que l\'adresse postale et les coordonnées de la terre. Lors de la création, le site est simplement un conteneur vide pour d\'autres objets BIM, mais un objet 3D représentant le terrain réel peut être associé ultérieurement.
--   Un [Bâtiment](Arch_Building/fr.md). L\'objet Bâtiment est un conteneur pour tous les objets BIM qui appartiendront à un même bâtiment. Vous pouvez définir un type de bâtiment et lui attribuer des dimensions rectangulaires brutes qui seront représentées par un rectangle dessiné sur le plan du sol (X, Y).
--   Un ensemble d\'[Axes](Arch_Axis/fr.md), en définissant leur nombre et leur espacement. Les axes servent de lignes directrices pour aligner des objets 2D et 3D. Ces axes peuvent être modifiés ou de nouveaux axes introduits ultérieurement.
--   Un ensemble de [Parties de bâtiment](Arch_BuildingPart/fr.md) pour représenter les niveaux. Les Parties de bâtiment sont des objets conteneurs BIM génériques qui peuvent être utilisés pour regrouper d\'autres objets BIM de plusieurs manières significatives, telles que des composants répétables ou des niveaux de construction.
--   Un ensemble de [Groupes](Std_Group/fr.md) par défaut à l\'intérieur de chaque niveau. Les Groupes peuvent être utilisés pour organiser vos objets BIM dans des catégories plus explicites, telles que \"Murs\" ou \"Colonnes\". Ils n\'ont aucun impact sur le modèle lui-même mais aident souvent à rendre la structure de votre modèle plus lisible lorsqu\'elle contient beaucoup d\'objets.
+Si vous distribuez le fichier FreeCAD, tous les fichiers IFC attachés doivent être distribués ensemble, sinon FreeCAD ne pourra pas extraire la géométrie. Cependant, si la propriété **shape mode** de tous les objets contenus dans un projet est réglée sur **Shape**, alors le fichier FreeCAD peut être distribué sans le fichier IFC qui l\'accompagne et s\'ouvrira toujours correctement sur d\'autres ordinateurs. Les objets IFC, cependant, ne seront plus éditables.
 
-### Modèles
+Lors de l\'insertion d\'un fichier IFC, un objet projet est créé, qui contient tout le contenu du fichier. Comme tous les objets NativeIFC, le projet peut être développé en double-cliquant dessus dans l\'arborescence.
 
-L\'outil Projet prend en charge deux types de modèles : Une fois que vous avez rempli les différentes options, le contenu de l\'assistant de configuration de projet BIM peut être **enregistré** en tant que modèle. Ces modèles peuvent être **restaurés** et adaptés ultérieurement. Les modèles de projet sont stockés sous forme de fichiers de texte brut dans votre dossier d'utilisateur FreeCAD.
 
-Vous pouvez aussi enregistrer le contenu du document actuel en tant que modèle. Cela enregistrera le document actuellement ouvert en tant que fichier standard **.FCStd**, mais inclura également des paramètres BIM supplémentaires tels que l\'atelier actuel ou les unités actuelles. En utilisant l\'option de **restauration** à tout moment, le contenu de ce fichier modèle sera fusionné dans le document actif et tous les paramètres qui s\'y trouvent seront appliqués.
+
+## Utilisation
+
+1.  Assurez-vous d\'avoir un document FreeCAD ouvert.
+2.  Appuyez sur le bouton **<img src="images/BIM_Project.svg" width=16px> [Projet](BIM_Project/fr.md)**.
+3.  Vous pouvez verrouiller le document en appuyant sur le bouton **<img src="images/IFC.svg" width=16px> [Verrouiller en IFC](NativeIFC/fr#Modes_verrouillé_et_déverrouillé.md)**.
+
+
+
+## Modes verrouillé et déverrouillé 
+
+Dans l\'[atelier BIM](BIM_Workbench/fr.md), la barre d\'état comporte un bouton **<img src="images/IFC.svg" width=16px> [Verrouiller en IFC](Mode_verrouillé.md)** qui permet de basculer entre les modes **verrouillé** et **déverrouillé**. En mode déverrouillé, vous pouvez avoir plusieurs [projets](BIM_Project/fr.md) dans votre document FreeCAD, ainsi que des éléments IFC et non-IFC.
+
+En mode verrouillé, les données attachées à votre objet de projet sont directement attachées au document FreeCAD. Le document FreeCAD agit comme une réplique fidèle, ou un rendu, du document IFC. L\'élément de projet est donc supprimé. Vous ne pouvez avoir qu\'un seul projet dans votre document FreeCAD, et vous ne pouvez plus avoir d\'objets non-IFC (tout nouvel objet est instantanément converti en IFC).
+
+
+
+## Ajouter des objets à un projet 
+
+Les objets sont ajoutés à un projet simplement en les faisant glisser et en les déposant sur le projet dans l\'arborescence. Ces objets seront convertis en IFC et pourraient perdre certains de leurs anciens comportements paramétriques lorsque ceux-ci ne sont pas pris en charge par l\'IFC.
+
+
+
+## Différence
+
+Lorsque le projet contient des modifications non enregistrées, un point rouge apparaît sur l\'icône de l\'arbre. En cliquant avec le bouton droit de la souris sur le projet et en choisissant **IFC → Différence**, une fenêtre de dialogue s\'ouvrira pour afficher une [différence](https://fr.wikipedia.org/wiki/Diff) de ce qui a été modifié dans le fichier IFC joint. C\'est un bon moyen de s\'assurer que ce que vous avez modifié correspond bien à ce que vous vouliez.
+
+
+
+## Enregistrer
+
+Les fichiers IFC attachés à un projet sont automatiquement enregistrés chaque fois que vous enregistrez le fichier FreeCAD. Ils peuvent également être sauvegardés manuellement à tout moment en cliquant avec le bouton droit de la souris sur le projet et en choisissant **IFC → Enregistrer**.
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > BIM Project/fr
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Project/fr

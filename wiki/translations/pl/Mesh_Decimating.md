@@ -29,7 +29,7 @@ Polecenie **Uprość** zmniejsza liczbę ścian w obiektach siatkowych.
         -   Przesuń suwak lub wpisz liczbę, aby określić nieprzekraczalną liczbę ścian.
     -   W pozostałych przypadkach:
         -   Przesuń suwak lub wprowadź liczbę, aby określić procentową liczbę ścian.
-        -   Określ parametr **Tolerancja**.
+        -   Określ parametr **Tolerancja**. Parametr tolerancji w procesie upraszczania siatki działa jak ustawienie kontroli jakości. Wyobraź sobie, że próbujesz uprościć szczegółową rzeźbę do bardziej szorstkiego kształtu bez utraty zbyt wielu ważnych cech. Ustawienie wyższej tolerancji pozwala na większe zmiany i większe uproszczenie, co skutkuje bardziej chropowatym kształtem. Niższa tolerancja oznacza, że proces upraszczania będzie bardziej ostrożny i wprowadzi tylko niewielkie poprawki, utrzymując kształt bliższy oryginałowi. Jeśli tolerancja jest ustawiona na zero, proces uprości kształt tak bardzo, jak to możliwe w ramach swoich zasad, dążąc do równowagi między zmniejszeniem złożoności a zachowaniem rozpoznawalności oryginalnej formy.
 5.  Naciśnij przycisk **OK**, aby zakończyć polecenie.
 
 

@@ -149,7 +149,7 @@ Der folgende Befehl wird das FreeCAD git Repositorium in ein Verzeichnis namens 
 
 
 ```python
-git clone https://github.com/FreeCAD/FreeCAD FreeCAD-git
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD FreeCAD-git
 ```
 
 Erstelle den Kompilierordner.

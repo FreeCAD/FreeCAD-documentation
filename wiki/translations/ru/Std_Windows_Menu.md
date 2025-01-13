@@ -43,6 +43,8 @@
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Каскад](Std_CascadeWindows/ru.md): Располагает окна каскадом.
 
+-   \... The first 10 windows are listed here. Select a window to activate it.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -55,7 +57,7 @@
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -9,6 +9,9 @@
 # Sketcher ValidateSketch/zh-cn
 
 
+</div>
+
+
 
 ## 描述
 
@@ -20,7 +23,7 @@
 
 </div>
 
-![](images/Sketcher_ValidateSketch_taskpanel.png ) 
+<img alt="" src=images/Sketcher_ValidateSketch_taskpanel.png  style="width:" height="500px;"> 
 *The Sketcher validation task panel*
 
 

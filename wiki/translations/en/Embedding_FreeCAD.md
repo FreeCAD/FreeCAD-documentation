@@ -83,7 +83,7 @@ The tesselation produce a list of vertices and a list of faces defined by vertic
        Blender.Redraw()
 }}
 
-Of course this script is very simple (in fact I made a more advanced [FreeCAD to Blender importer](https://yorik.orgfree.com/scripts/import_freecad.py)), you might want to extend it, for example importing mesh objects too, or importing Part geometry that has no faces, or import other file formats that FreeCAD can read. You might also want to export geometry to a FreeCAD document, which can be done the same way. You might also want to build a dialog, so the user can choose what to import, etc\... The beauty of all this actually lies in the fact that you let FreeCAD do the ground work while presenting its results in the program of your choice.
+Of course this script is very simple (in fact I made a more advanced [FreeCAD to Blender importer](https://yorik.uncreated.net/archive/scripts/blender24/import_freecad.py)), you might want to extend it, for example importing mesh objects too, or importing Part geometry that has no faces, or import other file formats that FreeCAD can read. You might also want to export geometry to a FreeCAD document, which can be done the same way. You might also want to build a dialog, so the user can choose what to import, etc\... The beauty of all this actually lies in the fact that you let FreeCAD do the ground work while presenting its results in the program of your choice.
 
 
 **Note:**
@@ -106,7 +106,7 @@ FreeCADGui.showMainWindow()
 
 If the host application is based on Qt then this solution should work on all platforms which Qt supports. However, the host should link the same Qt version as FreeCAD because otherwise you could run into unexpected runtime errors.
 
-For non-Qt applications, however, there are a few limitations you must be aware of. This solution probably doesn\'t work together with all other toolkits. For Windows it works as long as the host application is directly based on Win32 or any other toolkit that internally uses the Win32 API such as wxWidgets, MFC or WinForms. In order to get it working under X11 the host application must link the \"glib\" library.
+For non-Qt applications, however, there are a few limitations you must be aware of. This solution probably doesn\'t work together with all other toolkits. For Windows it works as long as the host application is directly based on Win32 or any other toolkit that internally uses the Win32 API such as wxWidgets, MFC or WinForms. In order to get it working under [X11](https://en.wikipedia.org/wiki/X_Window_System) the host application must link the [glib](https://docs.gtk.org/glib/) library.
 
 Note, for any console application this solution of course doesn\'t work because there is no event loop running.
 
@@ -114,7 +114,9 @@ Note, for any console application this solution of course doesn\'t work because 
 
 Although it is possible to import FreeCAD to an external Python interpreter, this is not a common usage scenario and requires some care. Generally, it is better to use the Python included with FreeCAD, run FreeCAD via command line, or as a subprocess. See [Start up and Configuration](Start_up_and_Configuration.md) for more on the last two options.
 
-Since the FreeCAD Python module is compiled from C++ (rather than being a pure Python module), it can only be imported from a compatible Python interpreter. Generally this means that the Python interpreter must be compiled with the same C compiler as was used to build FreeCAD. Information about the compiler used to build a Python interpreter (including the one built with FreeCAD) can be found as follows: 
+Since the FreeCAD Python module is compiled from C++ (rather than being a pure Python module), it can only be imported from a compatible Python interpreter. Generally this means that the Python interpreter must be compiled with the same C compiler as was used to build FreeCAD. Information about the compiler used to build a Python interpreter (including the one built with FreeCAD) can be found as follows:
+
+
 ```python
 >>> import sys
 >>> sys.version

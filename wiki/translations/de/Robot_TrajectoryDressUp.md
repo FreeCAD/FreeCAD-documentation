@@ -1,9 +1,12 @@
-# Robot TrajectoryDressUp/de
 ---
- GuiCommand:   Name: Robot TrajectoryDressUp   Workbenches: Robot_Workbench/de   Robot|MenuLocation: Robot , TrajectoryDressUp ---
+ GuiCommand:
+   Name: Robot TrajectoryDressUp
+   Name/de: Robot TrajectoryDressUp
+   MenuLocation: Robot , TrajectoryDressUp
+   Workbenches: Robot_Workbench/de
+---
 
-
-</div>
+# Robot TrajectoryDressUp/de
 
 ## Description
 
@@ -23,12 +26,8 @@ Resulting in the ability to change values for:
 -   position and orientation
 
 
-<div class="mw-translate-fuzzy">
 
-#### Bemerkungen
-
-
-</div>
+## Hinweise
 
 
 

@@ -9,9 +9,22 @@
 
 # Sketcher MergeSketches/ru
 
+
+</div>
+
+
+
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Объединить два или более эскизов в один.
+
+
+</div>
+
+
 
 ## Применение
 

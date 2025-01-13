@@ -14,9 +14,7 @@
 
 ## Opis
 
-Rysuje kontur wpustu przez wybranie środka dwóch półokręgów. *(W starszych wersjach FreeCAD, przez wybranie jednego środka półkola i punktu końcowego drugiego półkola.)*
-
-Podczas uruchamiania narzędzia kursor myszki zmienia wygląd na biały krzyż z czerwoną ikoną rowka. Współrzędne kursora są wyświetlane obok niego, w czasie rzeczywistym w kolorze niebieskim.
+Narzędzie <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> **Utwórz owal** tworzy szczelinę, zamkniętą polilinię składającą się z dwóch półkoli połączonych dwiema równoległymi liniami prostymi.
 
 ![](images/SketcherCreateSlotExample.png‎ )
 
@@ -24,15 +22,33 @@ Podczas uruchamiania narzędzia kursor myszki zmienia wygląd na biały krzyż z
 
 ## Użycie
 
--   Po naciśnięciu przycisku na pasku narzędzi <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> **Utwórz wpust** kliknij raz, aby ustawić środek jednego półkola, następnie przesuń kursor i kliknij drugi raz, aby ustawić środek drugiego półkola.
--   Przytrzymanie klawisza **Ctrl** podczas tworzenia drugiego punktu spowoduje, że wpust będzie rysowany poziomo lub pionowo {{Version/pl|0.20}}
--   Naciśnięcie klawisza **Esc** lub kliknięcie prawego przycisku myszki spowoduje zakończenie działania tego narzędzia.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
+
+Pos-OVP = Pozycyjne [Parametry w widoku](Sketcher_Preferences#Ogólne/pl.md). {{Version/pl|1.0}}
+Dim-OVP = Wymiarowe parametry w widoku. {{Version/pl|1.0}}
+
+1.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_CreateSlot.svg" width=16px> Utwórz szczelinę**.
+    -   Wybierz z menu opcję **Szkic → Elementy geometryczne szkicownika → <img src="images/Sketcher_CreateSlot.svg" width=16px> Utwórz szczelinę**.
+    -   Skrót klawiaturowy: **G**, a następnie **S**.
+2.  Kursor zmieni się w krzyżyk z ikoną narzędzia.
+3.  Wybierz środek pierwszego półkola. Lub za pomocą Pos-OVP: wprowadź jego współrzędne X i / lub Y.
+4.  Wybierz środek drugiego półkola. Lub za pomocą Dim-OVP: wprowadź odległość między środkami i / lub kąt szczeliny. Kąt odnosi się do osi X szkicu.
+5.  Wybierz punkt, aby zdefiniować promień szczeliny. Lub za pomocą Dim-OVP: wprowadź ten promień.
+6.  Szczelina jest tworzona i dodawane są odpowiednie wiązania oparte na Pos-OVP i Dim-OVP.
+7.  Jeśli narzędzie działa w [trybie kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md):
+    1.  Opcjonalnie kontynuuj tworzenie szczelin.
+    2.  Aby zakończyć, kliknij prawym przyciskiem myszy lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
 
 
 
 ## Uwagi
 
--   Wpust może być również związany poziomo lub pionowo, jeśli opcja **Wiązania automatyczne** jest włączona. {{Version/pl|0.20}}
+-    {{VersionMinus/pl|0.21}}*({{Version/pl|0.20}})*: Przytrzymanie **Ctrl** podczas wybierania drugiego środka ograniczy rysowanie szczeliny w poziomie lub w pionie.
+
+-    {{Version/pl|1.0}}: [Przyciąganie do kąta](Sketcher_Snap/pl.md) może być używane do kontrolowania kąta szczeliny.
+
+-    {{Version/pl|0.20}}: Szczelina może być również ograniczona poziomo lub pionowo, jeśli włączona jest opcja [Wiązania automatyczne](Sketcher_Workbench/pl#Wiązania_automatyczne.md).
 
 
 

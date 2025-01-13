@@ -39,110 +39,110 @@ Pliki użyte w tym poradniku znajdują się w poście #8 [w tym samym wątku](ht
 
 Postępuj zgodnie z podstawowym przepływem pracy opisanym w dokumentacji środowiska pracy [Raytracing](Raytracing_Workbench/pl.md).
 
-For direct rendering to work, the `povray` executable must be set in **Edit → Preferences → Raytracing → Render → POV-Ray executable**; set it to its location in your system, for example, `/usr/bin/povray`. Other options used by the renderer can be defined here as well, including the width `+W` and height `+H` of the image, and the use of antialiasing `+A`.
+Aby renderowanie bezpośrednie działało, wykonawczy plik `povray` musi być ustawiony w **Edycja → Preferencje ...→ Raytracing → Renderowanie → Plik wykonywalny POV-Ray**. Ustaw go na swoją lokalizację w systemie, na przykład `/usr/bin/povray`. Inne opcje używane przez renderowanie mogą być również zdefiniowane tutaj, włączając szerokość `+W` i wysokość `+H` obrazu, oraz użycie antyaliasingu `+A`.
 
 
 
 ## Przygotowanie pliku .pov 
 
-1\. Stwórz projekt korzystając z części wytworzonych za pomocą środowisk[Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) czy dowolnego innego które pozwoli na stworzenie bryły jak na przykład środowisko [Architektura](Arch_workbench/pl.md). Następnie przypisz elementom kolory lub materiały tak by w przybliżeniu przypominały ostateczny docelowy wygląd.
+1\. Stwórz projekt korzystając z części wytworzonych za pomocą środowisk[Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) czy dowolnego innego które pozwoli na stworzenie bryły jak na przykład środowisko [Architektura](Arch_Workbench/pl.md). Następnie przypisz elementom kolory lub materiały tak by w przybliżeniu przypominały ostateczny docelowy wygląd.
 
 <img alt="" src=images/01_T04_FreeCAD_POVray_model.png  style="width:600px;">
 
 
 
-*align=center|Złożenie trzech elementów w FreeCAD, z wstępnie przypisanymi kolorami lub/i materiałami.*
+*align=center|Złożenie trzech elementów w FreeCAD, z wstępnie przypisanymi kolorami lub / i materiałami.*
 
-2\. If your model is very detailed, make sure the **Deviation** of the body is set to a low value, between `0.1` and `0.01`, or even smaller. The lower this value is, the more detailed the exported mesh will be, and thus the better the quality of the render will be.
+2\. Jeśli twój model jest bardzo szczegółowy, upewnij się, że wartość {{PropertyView/pl|Odchyłka}} zawartości jest ustawiona na niską wielkość, pomiędzy `0.1` a `0.01`, lub nawet mniejszą. Im niższa jest ta wartość, tym bardziej szczegółowa będzie wyeksportowana siatka, a co za tym idzie, tym lepsza będzie jakość otrzymanego renderu.
 
 ![](images/02_T04_FreeCAD_POVray_deviation.png )
 
 
 
-*align=center|Deviation property of the bodies created in FreeCAD; the deviation needs to be small in order to export the parts with good resolution.*
+*align=center|Właściwość odchylenia zawartości utworzonych w programie FreeCAD. Wartość odchylenia musi być małe, aby można było eksportować części z dobrą rozdzielczością.*
 
-3\. Create a POV-Ray project by clicking **<img src="images/Raytrace_New.svg" width=16px> [New](Raytracing_New.md)**. If the viewport is set as [orthographic](Std_OrthographicCamera.md), change it to [perspective](Std_PerspectiveCamera.md), as the renderer will normally work with a camera with perspective view. Using perspective view will allow you to see better the type of scene that will be rendered.
+3\. Utwórz projekt POV-Ray, klikając **<img src="images/Raytrace_New.svg" width=16px> [Nowy](Raytracing_New/pl.md)**. Jeśli widok jest ustawiony jako [ortogonalny](Std_OrthographicCamera/pl.md), zmień go na [perspektywiczny](Std_PerspectiveCamera/pl.md), ponieważ renderer zazwyczaj pracuje z kamerą o widoku perspektywicznym. Użycie widoku perspektywicznego pozwoli ci lepiej zobaczyć rodzaj sceny, który zostanie zrenderowany.
 
-4\. Select all objects that you want to add to your scene, then select the created `PovProject` object, and click on **<img src="images/Raytrace_NewPartSegment.svg" width=16px> [InsertPart](Raytracing_InsertPart.md)**.
-
-
-**Note:**
-
-beware of those objects that are not currently visible in the 3D viewport. If they are invisible but are included in the scene, they will still be rendered. On the other hand, if you really want to omit a body from being rendered, don\'t select it for inclusion into the POV-Ray project.
+4\. Zaznacz wszystkie obiekty, które chcesz dodać do sceny, a następnie zaznacz utworzony obiekt {{Incode|PovProject}} i kliknij przycisk **<img src="images/Raytrace_NewPartSegment.svg" width=16px> [Wstaw część](Raytracing_InsertPart/pl.md)**.
 
 
-**Note 2:**
+**Uwaga:**
 
-all objects in the POV-Ray project will have a name based on their internal FreeCAD name. It\'s important to note which is the POV-Ray name, as further options, for example, the material textures, will be assigned to these POV-Ray names.
+należy uważać na obiekty, które nie są aktualnie widoczne w rzutni 3D. Jeśli są one niewidoczne, ale znajdują się w scenie, nadal będą renderowane. Z drugiej strony, jeśli naprawdę chcesz pominąć bryłę w renderowaniu, nie wybieraj jej do włączenia do projektu POV-Ray.
 
-5\. In the 3D viewport, zoom, pan and rotate the view to setup the scene as you want. Make sure the objects are centered in the viewport, then select the created `PovProject` object, and press **<img src="images/Raytrace_ResetCamera.svg" width=16px> [ResetCamera](Raytracing_ResetCamera.md)**.
 
-6\. The POV-Ray file is now ready; it contains the selected objects and the camera information. Select the created `PovProject` object, and then press **<img src="images/Raytrace_ExportProject.svg" width=16px> [ExportProject](Raytracing_ExportProject.md)** to save the `.pov` file.
+**Uwaga 2:**
 
-7\. The created `.pov` file can now be rendered directly from FreeCAD. Select the created `PovProject` object, then press **<img src="images/Raytrace_Render.svg" width=16px> [Render](Raytracing_Render.md)**. When the popup image appears on screen, click on it so that it is sent to FreeCAD in its own window tab.
+Wszystkie obiekty w projekcie POV-Ray będą miały nazwę opartą na ich wewnętrznej nazwie FreeCAD. Ważne jest, aby pamiętać, która jest nazwą POV-Ray, ponieważ dalsze opcje, na przykład tekstury materiałów, zostaną przypisane do tych nazw POV-Ray.
+
+5\. W widoku 3D, przybliż, przesuń i obróć widok, aby ustawić scenę zgodnie z własnymi preferencjami. Upewnij się, że obiekty są wyśrodkowane w widoku, a następnie wybierz utworzony obiekt `PovProject` i kliknij przycisk **<img src="images/Raytrace_ResetCamera.svg" width=16px> [Resetuj kamerę](Raytracing_ResetCamera/pl.md)**.
+
+6\. Plik POV-Ray jest teraz gotowy. Zawiera wybrane obiekty oraz informacje o kamery. Wybierz utworzony obiekt `PovProject`, a następnie kliknij przycisk **<img src="images/Raytrace_ExportProject.svg" width=16px> [Eksportuj projekt](Raytracing_ExportProject/pl.md)** aby zapisać plik `.pov`.
+
+7\. Utworzony plik `.pov` może teraz być renderowany bezpośrednio z programu FreeCAD. Wybierz utworzony obiekt `PovProject`, a następnie kliknij przycisk **<img src="images/Raytrace_Render.svg" width=16px> [Renderuj](Raytracing_Render/pl.md)**. Gdy pojawi się obraz w wyskakującym okienku, kliknij na niego, aby został przesłany do programu FreeCAD w swojej własnej karcie okna.
 
 <img alt="" src=images/03_T04_FreeCAD_POVray_first_render.png  style="width:600px;">
 
 
 
-*align=center|First render of the assembly produced with POV-Ray, with the standard template written by the Raytracing Workbench.*
+*align=center|Pierwszy render zespołu wykonany za pomocą POV-Ray, ze standardowym szablonem napisanym przez środowisko pracy Raytracing.*
 
-7.1. With the `.pov` file already created, it is also possible to run `povray` from the command line. 
+7.1. Mając już utworzony plik `.pov`, możliwe jest również uruchomienie `povray` z wiersza poleceń. 
 ```python
 povray assembly.pov +W800 +H600 +AM2 +A
 ```
 
-The options `+WX +HY` set the horizontal and vertical pixel sizes of the final image.
+Opcje `+WX +HY` ustawiają poziomy i pionowy rozmiar pikseli końcowego obrazu.
 
-The options `+AM2` (type 2, recursive super-sampling) and `+A` trigger antialiasing to produce a smoother image.
+Opcje `+AM2` (typ 2, rekurencyjne superpróbkowanie) i `+A` (typ 2, rekursywne super-próbkowanie) i `+A` uruchamiają antyaliasing w celu uzyskania gładszego obrazu.
 
-8\. By double clicking the `PovProject` object it\'s possible to see that it is using the `ProjectStd.pov` template; this template creates a basic `.pov` file which will produce a simple and dark image.
+8\. Klikając dwukrotnie obiekt `PovProject` można zobaczyć, że używa on szablonu `ProjectStd.pov`. Szablon ten tworzy podstawowy plik `.pov`, który wygeneruje prosty i ciemny obraz.
 
-To improve the appearance of the image, use a better template. Double click the `PovProject` object and choose the `RadiosityNormal.pov` template. Then export a new `.pov` file, and run again the renderer. The image should look brighter and generally better.
+Aby poprawić wygląd obrazu, użyj lepszego szablonu. Kliknij dwukrotnie obiekt `PovProject` i wybierz szablon `RadiosityNormal.pov`. Następnie wyeksportuj nowy plik `.pov` i ponownie uruchom renderer. Obraz powinien wyglądać jaśniej i ogólnie lepiej.
 
 <img alt="" src=images/04_T04_FreeCAD_POVray_first_render_radiosity.png  style="width:600px;">
 
 
 
-*align=center|Render of the assembly produced with POV-Ray, with the RadiosityNormal template written by the Raytracing Workbench.*
+*align=center|Render zespołu wykonanego za pomocą POV-Ray, z szablonem RadiosityNormal napisanym przy użyciu środowiska Raytracing.*
 
-Once again double click the `PovProject` object and now choose the `RadiosityOutdoorHQ.pov` template. Then export a new `.pov` file, and run again the renderer. The image should take longer to produce, but the result should have better quality. <img alt="" src=images/05_T04_FreeCAD_POVray_first_render_radiosity_outdoor.png  style="width:600px;">
+Ponownie kliknij dwukrotnie obiekt `PovProject` i wybierz szablon `RadiosityOutdoorHQ.pov`. Następnie wyeksportuj nowy plik `.pov` i ponownie uruchom renderer. Tworzenie obrazu powinno potrwać dłużej, ale wynik powinien mieć lepszą jakość. <img alt="" src=images/05_T04_FreeCAD_POVray_first_render_radiosity_outdoor.png  style="width:600px;">
 
 
 
-*align=center|Render of the assembly produced with POV-Ray, with the RadiosityOutdoorHQ template written by the Raytracing Workbench.*
+*align=center|Render zespołu wykonany za pomocą POV-Ray, z szablonem RadiosityOutdoorHQ napisanym przy użyciu środowiska Raytracing.*
 
-If the rendered image is good enough, then it can be saved, and there is nothing more to do. However, in order to control precisely the appearance of the materials and produce even better results, the `.pov` file needs to be edited manually.
+Jeśli wyrenderowany obraz jest wystarczająco dobry, można go zapisać i nie trzeba nic więcej robić. Aby jednak precyzyjnie kontrolować wygląd materiałów i uzyskać jeszcze lepsze rezultaty, plik `.pov` należy edytować ręcznie.
 
-In the following sections, we edit the basic `.pov` file produced with the `ProjectStd` template.
+W kolejnych sekcjach edytujemy podstawowy plik `.pov` utworzony przy użyciu szablonu `ProjectStd`.
 
 
 
 ## Edycja pliku .pov 
 
-9\. The `.pov` file generated by FreeCAD is a simple text file that can be opened with any editor. It loosely resembles a C++ source code file: directives start with a hash `#` and are terminated by a semi-colon `;`. Curly braces { } are used to limit section blocks, and indentation is arbitrary white space. Comments are indicated with a double slash `//`; block comments can be defined with a pair of `/*  */`, like in C.
+9\. Wygenerowany przez FreeCAD plik `.pov` to zwykły plik tekstowy, który można otworzyć za pomocą dowolnego edytora. Luźno przypomina plik źródłowy w języku C++: dyrektywy zaczynają się od znaku krzyżyka `#` i kończą średnikiem `;`. Nawiasy klamrowe { } są używane do ograniczenia bloków sekcji, a wcięcia to dowolne białe znaki. Komentarze są oznaczane podwójnym ukośnikiem `//`. Komentarze blokowe można zdefiniować za pomocą pary `/*  */`, podobnie jak w języku C.
 
-The file may look complicated at first but 90% of its content is just mesh data that doesn\'t require many changes, as these meshes represent the geometry of the bodies that we want to render.
+Na początku plik może wyglądać na skomplikowany, ale 90% jego zawartości to tylko dane siatki, które nie wymagają wielu zmian, ponieważ siatki te reprezentują geometrię ciał, które chcemy renderować.
 
-The file is structured as follows:
+Plik jest zorganizowany w następujący sposób:
 
--   Includes
--   Global settings
--   Sky sphere
--   Planes
--   Finishes and textures
--   Camera
--   Mesh and body information
--   Light source
+-   Dołączenia,
+-   Globalne ustawienia,
+-   Sfera nieba,
+-   Płaszczyzny,
+-   Wykończenia i tekstury,
+-   Kamera,
+-   Informacje o siatce i bryle,
+-   Źródło światła.
 
-The camera information will not be touched, neither most information in the meshes. The main modifications will be made on the other sections.
+Informacje o kamerze nie zostaną zmienione, podobnie jak większość informacji w siatkach. Główne modyfikacje zostaną wprowadzone w pozostałych sekcjach.
 
-As the meshes won\'t be heavily modified, the file can be re-organized so this information is at the end of the file.
+Ponieważ siatki nie będą mocno modyfikowane, plik można przeorganizować tak, aby te informacje znajdowały się na końcu pliku.
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-This is the complete content of the `.pov` file, only without the meshes.
+To jest kompletna zawartość pliku `.pov`, bez siatek.
 
 
 <div class="mw-collapsible-content">
@@ -228,11 +228,13 @@ light_source {
 
 </div>
 
-### Basic re-organization 
 
-10\. Open the `.pov` file with a text editor, go to the end of the file, select and cut the `light_source` section, and paste it before the first `//face number1` line.
 
-The resulting file should have the `camera` and `light_source` sections next to each other, for example
+### Podstawowa reorganizacja 
+
+10\. Otwórz plik \.pov\ za pomocą edytora tekstu, przejdź do końca pliku, zaznacz i wyciągnij sekcję \light_source\, a następnie wklej ją przed pierwszą linią z komentarzem \//face number1\.
+
+Plik wynikowy powinien mieć sekcje `camera` i `light_source` obok siebie, na przykład:
 
 
 ```python
@@ -261,9 +263,11 @@ light_source {
 .
 ```
 
-### Prepare lights 
 
-11\. By default, the project file defines one light with a position and color. 
+
+### Przygotowanie oświetlenia 
+
+11\. Domyślnie plik projektu definiuje jedno światło z pozycją i kolorem. 
 ```python
 light_source {
   cam_location + cam_angle * 100
@@ -271,11 +275,11 @@ light_source {
 }
 ```
 
-The position of the light is defined by a vector `<x, y, z>`. The `color` can be established like an `<r, g, b>` vector or it could also be a named color such as `White`. If the RGB values are given, they should be in the range `0.0` to `1.0` for the light to have normal brightness.
+Pozycja światła jest określana przez wektor `<x, y, z>`. Kolor może być określony jako wektor `<r, g, b>` lub można użyć nazwanego koloru, takiego jak `White`. Jeśli podano wartości RGB, powinny się one zawierać w zakresie od `0.0` do `1.0`, aby światło miało normalną jasność.
 
-Like other objects, the light can be modified with many options. The `area_light` option creates a rectangular source, which is more realistic as it results in diffuse illumination that creates soft shadows. The `adaptive` keyword helps reduce the computation time of the light paths; the larger the value the more accurate the result will be; to avoid long rendering times you should use the smallest integer that gives an acceptable result (`1` or `2` is usually enough); to obtain the best result remove the keyword completely (long rendering time). The `jitter` keyword helps improve the shadows by randomly shifting the position of the lights. The keywords `circular` and `orient` turn the area light into a spherical source, which will produce better shadows when there are rounded objects in the scene. Including `fade_distance` and `fade_power` is helpful to attenuate the value of the light with distance, just like it happens with a real light source.
+Podobnie jak inne obiekty, światło można modyfikować za pomocą wielu opcji. Opcja `area_light` tworzy źródło prostokątne, co jest bardziej realistyczne, ponieważ powoduje rozproszone oświetlenie tworzące miękkie cienie. Słowo kluczowe `adaptive` pomaga zmniejszyć czas obliczeń ścieżek świetlnych; im większa wartość, tym dokładniejszy będzie wynik; aby uniknąć długiego czasu renderowania, należy użyć najmniejszej wartości całkowitej, która daje akceptowalny wynik *(zwykle wystarczy `1` lub `2`)*. Dla uzyskania najlepszego rezultatu usuń całkowicie słowo kluczowe *(długi czas renderowania)*. Słowo kluczowe `jitter` pomaga poprawić cienie poprzez losowe przesunięcie pozycji świateł. Słowa kluczowe `circular` i `orient` zamieniają światło obszarowe w źródło sferyczne, co pozwoli uzyskać lepsze cienie w przypadku obiektów zaokrąglonych na scenie. Włączenie `fade_distance` i `fade_power` jest pomocne w tłumieniu wartości światła wraz z odległością, tak jak ma to miejsce w przypadku prawdziwego źródła światła.
 
-Set up the light coming from the right and above. 
+Ustaw światło padające z prawej strony i z góry. 
 ```python
 light_source {
     <1200, 1000, -1300>
@@ -288,7 +292,7 @@ light_source {
 }
 ```
 
-If the light source is supposed to be in the scene, it may be useful to see a reference on the screen where this source should be. To this effect, create a sphere of a small radius and assume this sphere represents the light source; position the sphere where you want, then move the light very close to these coordinates, and test the lighting of the scene; when you are satisfied with the position of the light, simply delete the sphere. 
+Jeśli źródło światła ma znajdować się w scenie, przydatne może być wyświetlenie na ekranie odniesienia do miejsca, w którym to źródło powinno się znajdować. W tym celu utwórz kulę o małym promieniu i załóż, że reprezentuje ona źródło światła. Umieść kulę w wybranym miejscu, a następnie przesuń światło bardzo blisko tych współrzędnych i przetestuj oświetlenie sceny. Gdy będziesz zadowolony z położenia światła, po prostu usuń kulę. 
 ```python
 sphere {
     <1200, 1000, -1200>, 10
@@ -296,7 +300,7 @@ sphere {
 }
 ```
 
-12\. The `sky_sphere` section is used to create a realistic sky background. It is commonly defined as a `gradient` and a `color_map` of at least two colors in order to produce a smooth transition from the color of the horizon to the color of the zenith of the scene.
+12\. Sekcja `sky_sphere` służy do stworzenia realistycznego tła nieba. Zazwyczaj definiuje się je jako `gradient` oraz `color_map` składający się przynajmniej z dwóch kolorów, aby uzyskać płynny przejście od koloru horyzontu do koloru zenitu sceny.
 
 
 ```python
@@ -315,21 +319,23 @@ sky_sphere {
 
 
 
-*align=center|Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up.*
+*align=center|Zaczynając od standardowego szablonu, wyrenderuj scenę za pomocą POV-Ray, z ustawionym źródłem światła i sferą nieba.*
 
-### Prepare the body textures 
 
-13\. The textures of each body need to be adjusted. This is the most time-consuming job of this process.
 
-In the `.pov` file each body is described in this way
+### Przygotowanie tekstur obiektów 
+
+13\. Tekstury każdego elementu muszą zostać dopasowane. Jest to najbardziej czasochłonne zadanie w tym procesie.
+
+W pliku `.pov` każdy element jest opisane w ten sposób:
 
 -   Face1, Face2, Face3, Face4, \...
--   Body (union of faces)
--   Object
+-   Element *(suma zbiorów ścian)*,
+-   Obiekt.
 
-A body mesh is defined by faces, and each face is defined by a series of triangular elements that themselves are defined by `vertex_vectors`, `normal_vectors`, and `face_indices`. This information doesn\'t need to be modified at all. Then, each body is defined as the union of the specified faces. Again, this information doesn\'t need modification.
+Siatka elementu jest określana przez ściany, a każda ściana jest określana przez serię trójkątnych elementów, które same są określane przez `vertex_vectors`, `normal_vectors`, i `face_indices`. Te informacje nie wymagają żadnych zmian. Następnie, każdy element jest zdefiniowany jako suma określonych ścian. Ponownie, te informacje nie wymagają modyfikacji.
 
-Finally, each `object` to be rendered is defined as one of the specified bodies, with a particular `texture`, which itself is defined by properties like `pigment` and `finish`. 
+Wreszcie, każdy `object` do wyrenderowania jest definiowany jako jeden z określonych elementów, z określoną `texture`, która sama jest definiowana przez właściwości takie jak `pigment` i `finish`. 
 ```python
 // instance to render
 object {Pov_Body
@@ -340,9 +346,9 @@ object {Pov_Body
 }
 ```
 
-By searching the `.pov` file for the keyword `object`, it\'s possible to go directly to the desired part in the file, and modify its `texture` appropriately.
+Przeszukując plik `.pov` pod kątem słowa kluczowego `object`, można przejść bezpośrednio do wybranej części pliku i odpowiednio zmodyfikować jej `texture`.
 
-As indicated in the comment, the definition of `StdFinish` is at the top of the file, in this case before the camera information. This value can be declared in many ways, as a combination of different properties, as shown in the commented and uncommented lines. 
+Jak wskazano w komentarzu, definicja `StdFinish` znajduje się na górze pliku, w tym przypadku przed informacjami o kamerze. Wartość ta może być zadeklarowana na wiele sposobów, jako kombinacja różnych właściwości, jak pokazano w zakomentowanych i niezakomentowanych liniach. 
 ```python
 // Standard finish
 //#declare StdFinish = F_MetalA;
@@ -353,33 +359,37 @@ As indicated in the comment, the definition of `StdFinish` is at the top of the 
 #declare StdFinish = finish { ambient 0.01 diffuse 0.9 phong 1.0 phong_size 70 metallic brilliance 1.5} ;
 ```
 
-In general, a `texture` is a container that describes a material; it includes information like the `pigment` (color or graphic), `normal` (how the color changes with the curvature of the surface), `finish` (interaction of the surface with the light), `pattern` (agate, brick, dents, leopard, radial, ripples, tiling, waves, wood, etc.), and other properties. There are many options that can be combined together to produce a texture. This mixing is not trivial, but there are many examples online to obtain the desired appearance of the material.
+Generalnie, tekstura `texture` to kontener opisujący materiał. Zawiera informacje takie jak `pigment` *(kolor lub grafika)*, `normal` *(jak kolor zmienia się w zależności od krzywizny powierzchni)*, `finish` *(interakcja powierzchni z światłem)*, `pattern` *(agat, cegła, wgłębienia, lampart, promienisty, fale, kafle, fale, drewno, itp.)* oraz inne właściwości. Istnieje wiele opcji, które można połączyć, aby uzyskać teksturę. To mieszanie nie jest trywialne, ale istnieje wiele przykładów online, które pozwalają uzyskać pożądany wygląd materiału.
 
-#### Material libraries 
 
-14\. POV-Ray comes with an extensive library of materials that can be used by name. By default, the project template makes available some materials by using `#include` statements at the beginning of the file. These materials can be further modified as desired. 
+
+#### Biblioteka materiałów 
+
+14\. POV-Ray jest dostarczany z obszerną biblioteką materiałów, które mogą być używane według nazwy. Domyślnie szablon projektu udostępnia niektóre materiały za pomocą instrukcji `#include` na początku pliku. Materiały te można dowolnie modyfikować. 
 ```python
 #include "colors.inc"
 #include "metals.inc"
 ```
 
-The library `colors.inc` defines basic colors by name, `Red`, `Green`, `Blue`, `Yellow`, `Cyan`, `Magenta`, `Clear`, `White`, and `Black`. It also defines several other shades as well as functions to transform colors. The library `metals.inc` contains copper, silver, chrome, and brass textures, and `golds.inc` contains the gold textures.
+Biblioteka `colors.inc` definiuje podstawowe kolory według nazwy, takie jak `Red`, `Green`, `Blue`, `Yellow`, `Cyan`, `Magenta`, `Clear`, `White` i `Black`. Zawiera również kilka innych odcieni oraz funkcje do transformacji kolorów. Biblioteka `metals.inc` zawiera tekstury miedzi, srebra, chromu i mosiądzu, a `golds.inc` zawiera tekstury złota.
 
-The standard libraries are located in the installation directory of POV-ray, for example 
+Standardowe biblioteki znajdują się w katalogu instalacyjnym POV-ray, na przykład: 
 ```python
 /usr/share/povray-3.7/include/
 ```
 
-#### New textures 
 
-15\. For example, to create a mirror texture, the `finish` is given a high value of `reflection`. 
+
+#### Nowe tekstury 
+
+Na przykład, aby stworzyć teksturę lustra, właściwości `finish` są ustawione na wysoką wartość odbicia, czyli `reflection`. 
 ```python
 #declare T_mirror = texture {
     finish { reflection {0.9} }
 }
 ```
 
-Alternatively, for metals, a predefined finish can be used. 
+Alternatywnie, w przypadku metali, można zastosować predefiniowane wykończenie. 
 ```python
 #include "metals.inc"
 #declare T_mirror = texture {
@@ -387,14 +397,14 @@ Alternatively, for metals, a predefined finish can be used.
 }
 ```
 
-Then it can be assigned to the specific object. 
+Następnie można je przypisać do określonego obiektu. 
 ```python
 object {Pov_Body002
     texture { T_mirror }
 }
 ```
 
-The `woods.inc` library defines the `T_Wood7` texture (yellow pine, ragged grain). It can be used as the basis of a more complex texture, with some additional scaling and translation. 
+Biblioteka `woods.inc` definiuje teksturę `T_Wood7` *(sosna żółta, nieregularne słoje)*. Może być wykorzystana jako podstawa dla bardziej złożonej tekstury, z dodatkowym skalowaniem i translacją. 
 ```python
 #include "woods.inc"
 #declare T_wood = texture {
@@ -405,14 +415,14 @@ The `woods.inc` library defines the `T_Wood7` texture (yellow pine, ragged grain
 }
 ```
 
-Then it is assigned to the specific object. 
+Następnie można ją przypisać do określonego obiektu. 
 ```python
 object {Pov_Body
     texture { T_wood }
 }
 ```
 
-The `glass.inc` library defines `F_Glass2` as a finish for transparent acrylic; it also defines `I_Glass` as an interior material which, together with the `caustics` option, is used to calculate as close as possible the effects of light passing through a transparent material. In this case, the `material` section is used, containing external (`texture`) and internal (`interior`) information of the material.
+Biblioteka `glass.inc` definiuje `F_Glass2` jako wykończenie dla transparentnego akrylu. Definiuje również `I_Glass` jako materiał wewnętrzny, który w połączeniu z opcją `caustics` jest używany do obliczenia jak najdokładniejszych efektów światła przechodzącego przez materiał transparentny. W tym przypadku sekcja `material` jest używana, zawierając zewnętrzne *(`texture`)* i wewnętrzne *(`interior`)* informacje o materiale.
 
 
 ```python
@@ -425,7 +435,7 @@ The `glass.inc` library defines `F_Glass2` as a finish for transparent acrylic; 
 }
 ```
 
-Then it is assigned to the specific object. 
+Następnie można je przypisać do określonego obiektu. 
 ```python
 object {Pov_Body001
     material { M_vase }
@@ -436,13 +446,15 @@ object {Pov_Body001
 
 
 
-*align=center|Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, and materials assigned.*
+*align=center|Zaczynając od standardowego szablonu, render sceny w POV-Ray, z ustawionym źródłem światła i sferą nieba oraz przypisanymi materiałami.*
 
-### Prepare planes 
 
-16\. If not provided by the original 3D model, planes can be added to simulate a floor or table top on which the objects are standing. More planes can be defined to serve as walls or other types of boundaries.
 
-By default, a single plane is created. It is placed 1 millimeter below the model, so that it appears as a floor. The plane is assigned a basic texture that is black and slightly reflective. 
+### Przygotowanie płaszczyzn 
+
+16\. Jeśli oryginalny model 3D tego nie zapewnia, można dodać płaszczyzny symulujące podłogę lub blat stołu, na którym stoją obiekty. Więcej płaszczyzn można zdefiniować jako ściany lub inne rodzaje granic.
+
+Domyślnie tworzona jest pojedyncza płaszczyzna. Jest ona umieszczona 1 milimetr pod modelem, dzięki czemu wygląda jak podłoga. Płaszczyzna ma przypisaną podstawową teksturę, która jest czarna i lekko odblaskowa. 
 ```python
 plane {
   y, -1
@@ -450,9 +462,9 @@ plane {
 }
 ```
 
-Notice that in POV-Ray the X axis is defined as horizontal (left-right), the Y axis is defined as vertical (up-down), and the Z axis is defined as depth (front-rear).
+Zauważ, że w POV-Ray oś X jest zdefiniowana jako pozioma *(lewo-prawo)*, oś Y jest zdefiniowana jako pionowa *(góra-dół)*, a oś Z jest zdefiniowana jako głębokość *(przód-tył)*.
 
-For a simple gray floor, that is barely reflective use 
+Aby uzyskać zwykłe szare podłorze, która jest ledwo odblaskowa, użyj: 
 ```python
 plane {
   y, -1
@@ -466,9 +478,9 @@ plane {
 
 *align=center|Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, and a floor plane with a basic gray texture.*
 
-17\. The plane can be given a more complex appearance with the help of normals and material libraries.
+17\. Płaszczyźnie można nadać bardziej złożony wygląd za pomocą normalnych i bibliotek materiałów.
 
-Define a normal map that will be used to give the plane the appearance of a parquet floor.
+Zdefiniuj mapę normalnych, która zostanie użyta do nadania płaszczyźnie wyglądu parkietu.
 
 
 ```python
@@ -478,7 +490,7 @@ Define a normal map that will be used to give the plane the appearance of a parq
 } ;
 ```
 
-Then define the plane. As `pigment` use a wood `color_map` defined in `woods.inc`, and modify it with `turbulence` and `scale` so that the wood grain looks random. Then add the created normal, together with another normal; this will result in the texture of the parquet with slight imperfections. Then as `finish`, make it a little bit reflective and glossy.
+Następnie zdefiniuj płaszczyznę. Jako `pigment` użyj tekstury drewna zdefiniowanej w `woods.inc`, a następnie zmodyfikuj ją za pomocą `turbulence` i `scale`, aby słoje drewna wyglądały losowo. Następnie dodaj utworzoną normalną, razem z inną normalną; spowoduje to efekt tekstury parkietu z lekkimi niedoskonałościami. Na koniec, jako `finish`, ustaw nieco odbijający i błyszczący efekt.
 
 
 ```python
@@ -504,9 +516,9 @@ plane {
 
 
 
-*align=center|Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, and a floor plane with a parquet texture.*
+*align=center|Zaczynając od standardowego szablonu, render sceny w POV-Ray, z ustawionym źródłem światła i sferą nieba, przypisanymi materiałami i płaszczyzną podłogi z teksturą parkietu.*
 
-18\. Add a second plane, this time perpendicular to the Z direction, to serve as a backwall. Displace it just a little bit behind the model to avoid covering the mirror. Include the `stones.inc` library, add a generic granite texture, and scale it a bit. This will result in the appearance off a simple dry wall.
+18\. Dodaj drugą płaszczyznę, tym razem prostopadłą do kierunku Z, aby służyła jako ściana tylna. Przesuń ją nieco za model, aby uniknąć zakrycia lustra. Dołącz bibliotekę `stones.inc`, dodaj ogólną teksturę granitu i nieco ją przeskaluj. Spowoduje to uzyskanie wyglądu prostej suchej ściany.
 
 
 ```python
@@ -520,7 +532,7 @@ plane {
 }
 ```
 
-A third plane can be added behind the position of the camera so that the mirror reflects a limited area between the two walls.
+Trzecią płaszczyznę można dodać za pozycją kamery, tak aby lustro odbijało ograniczony obszar między dwiema ścianami.
 
 
 ```python
@@ -538,11 +550,13 @@ plane {
 
 
 
-*align=center|Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, a floor plane with a parquet texture, and back walls with drywall textures.*
+*align=center|Zaczynając od standardowego szablonu, render sceny w POV-Ray, z ustawionym źródłem światła i sferą nieba, przypisanymi materiałami, płaszczyzną podłogi z teksturą parkietu i tylnymi ścianami z teksturami płyt kartonowo-gipsowych.*
 
-### Prepare the global settings, radiosity 
 
-19\. The global settings define ambient light.
+
+### Przygotuj ustawienia globalne, radiosity 
+
+19\. Ustawienia globalne definiują oświetlenie otoczenia.
 
 
 ```python
@@ -553,9 +567,9 @@ global_settings {
 }
 ```
 
-The `radiosity` property inside the `global_settings` controls the way POV-Ray computes diffuse light interactions between different objects. It\'s essential to adjust this property to obtain good rendering results.
+Właściwość `radiosity` wewnątrz `global_settings` kontroluje sposób, w jaki POV-Ray oblicza interakcje rozproszonego światła między różnymi obiektami. Dostosowanie tej właściwości jest niezbędne do uzyskania dobrych wyników renderowania.
 
-Because it can be time consuming to test different `radiosity` settings you can use a variable `Rad_Quality` and a `#switch` statement to quickly set low, medium or high quality render settings. The higher the quality settings the more time is required to render an image.
+Ponieważ testowanie różnych ustawień `radiosity` może być czasochłonne, można użyć zmiennej `Rad_Quality` i instrukcji `#switch`, aby szybko ustawić niską, średnią lub wysoką jakość renderowania. Im wyższe ustawienia jakości, tym więcej czasu potrzeba na wyrenderowanie obrazu.
 
 
 ```python
@@ -602,9 +616,9 @@ global_settings {
 
 
 
-*align=center|Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, a floor plane with a parquet texture, and back walls with drywall textures. Radiosity settings for fast rendering.*
+*align=center|Zaczynając od standardowego szablonu, render sceny w POV-Ray, z ustawionym źródłem światła i sferą nieba, przypisanymi materiałami, płaszczyzną podłogi z teksturą parkietu i tylnymi ścianami z teksturami płyt kartonowo-gipsowych. Ustawienia Radiosity dla szybkiego renderowania.*
 
-20\. The `rad_def.inc` library defines a macro to quickly set up the `radiosity` to a predefined configuration. 
+20\. Biblioteka `rad_def.inc` definiuje makro do szybkiej konfiguracji `radiosity` do predefiniowanej konfiguracji. 
 ```python
 #include "rad_def.inc"
 global_settings {
@@ -614,7 +628,7 @@ global_settings {
 }
 ```
 
-The `Setting` value can be one of the predefined constants: 
+Wartość `Setting` może być jedną z predefiniowanych stałych: 
 ```python
 Radiosity_Default
 Radiosity_Debug
@@ -629,9 +643,9 @@ Radiosity_IndoorLQ
 Radiosity_IndoorHQ
 ```
 
-The `Normal` and `Media` values are either `off` or `on`.
+Wartości `Normal` i `Media` to albo `off` albo `on`.
 
-Therefore, to test different settings, the `#switch` statement could also be written like in the following.
+Dlatego, aby przetestować różne ustawienia, instrukcja `#switch` może być również napisana jak poniżej.
 
 
 ```python
@@ -663,40 +677,36 @@ global_settings {
 }
 ```
 
-The exact values used by these presets can be found in the `rad_def.inc` file which is found in the installation directory of POV-Ray, for example: 
+Dokładne wartości używane przez te ustawienia można znaleźć w pliku `rad_def.inc`, który znajduje się na przykład w katalogu instalacyjnym POV-Ray: 
 ```python
 /usr/share/povray-3.7/include/
 ```
 
-The [Raytracing Workbench](Raytracing_Workbench.md) has three default templates:
-
--    `ProjectStd.pov`, it doesn\'t use `radiosity` at all.
-
--    `RadiosityNormal.pov`, it uses the preset `Radiosity_Normal`.
-
--    `RadiosityOutdoorHQ.pov`, it uses the preset `Radiosity_OutdoorHQ`.
-
-## Final render 
-
-21\. The edited `.pov` file can be saved when all adjustments have been done.
-
-The final structure is as follows:
-
--   Includes, with additional libraries
--   Global settings, with radiosity parameters
--   Sky sphere, with lighter color
--   Planes, positioned and with textures
--   Finishes and textures, with custom definitions
--   Camera, not changed
--   Light source, with additional properties
--   Mesh and body information, using the textures defined previously
+W środowisku pracy [Raytracing](Raytracing_Workbench/pl.md) są trzy domyślne szablony: - `ProjectStd.pov`, który w ogóle nie używa `radiosity`. - `RadiosityNormal.pov`, który używa predefiniowanego ustawienia `Radiosity_Normal`. - `RadiosityOutdoorHQ.pov`, który używa predefiniowanego ustawienia `Radiosity_OutdoorHQ`.
 
 
-**Note:**
 
-the sections of the `.pov` file can be in any order, although it is probably easier to work with the file if the mesh information is at the end.
+## Renderowanie końcowe 
 
-The final rendering can be done by clicking **<img src="images/Raytrace_Render.svg" width=16px> [Render](Raytracing_Render.md)** or by running the executable from the command line.
+21\. Edytowany plik `.pov` można zapisać po wprowadzeniu wszystkich zmian.
+
+Ostateczna struktura wygląda następująco:
+
+-   Włączenia, z dodatkowymi bibliotekami,
+-   Globalne ustawienia, z parametrami radiosity,
+-   Sfera niebieska, z jaśniejszym kolorem,
+-   Płaszczyzny, ustawione i z teksturami,
+-   Wykończenia i tekstury, z własnymi definicjami,
+-   Kamera, niezmieniona,
+-   Źródło światła, z dodatkowymi właściwościami,
+-   Informacje o siatce i bryłach, korzystające z wcześniej zdefiniowanych tekstur.
+
+
+**Uwaga:**
+
+sekcje pliku `.pov` mogą być w dowolnej kolejności, choć prawdopodobnie łatwiej będzie pracować z plikiem, jeśli informacje o siatce będą na końcu.
+
+Ostateczny rendering można wykonać klikając **<img src="images/Raytrace_Render.svg" width=16px> [Render](Raytracing_Render.md)** lub uruchamiając plik wykonywalny z wiersza poleceń.
 
 
 ```python
@@ -707,12 +717,12 @@ povray assembly.pov +W800 +H600 +AM2 +A
 
 
 
-*align=center|Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, a floor plane with a parquet texture, and back walls with drywall textures. Radiosity settings for high quality result: `Radiosity_Final* and {{incode|recursion_limit 2`.}}
+*align=center|Rozpocznij od standardowego szablonu, wyrenderuj scenę z użyciem POV-Ray, gdzie źródło światła i sfera niebieska są skonfigurowane, materiały przypisane, płaszczyzna podłogi z teksturą parkietu, a tylne ściany z teksturami gipsowymi. Ustawienia radiosity dla wysokiej jakości wyniku: `Radiosity_Final* oraz {{incode|recursion_limit 2`.}}
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-This is the complete content of the `.pov` file, only without the last section, that is, without the meshes.
+To jest kompletna zawartość pliku `.pov`, bez ostatniej sekcji, czyli bez siatek.
 
 
 <div class="mw-collapsible-content">
@@ -869,20 +879,22 @@ light_source {
 
 </div>
 
-## Final notes 
 
-POV-Ray is a relatively old piece of software, first released in the early 1990s. Its main advantages over more modern software are
 
--   it is a tested solution that has existed for many years
--   runs in many operating systems
--   the scene can be set with only one text file
--   requires simple computational resources to produce a high quality image, so it works even in relatively old hardware
+## Uwagi końcowe 
 
-The user is advised to read the POV-Ray documentation and more tutorials or examples in order to get the right settings for his or her needs.
+POV-Ray to stosunkowo stary program, który został wydany na początku lat 90. Jego główne zalety w porównaniu z bardziej nowoczesnymi oprogramowaniami to:
 
--   [POV-Ray for Unix version 3.7](http://www.povray.org/documentation/3.7.0/index.html)
--   [POV-Ray Tutorial](http://www.povray.org/documentation/3.7.0/t2_0.html)
--   [POV-Ray Reference](http://www.povray.org/documentation/3.7.0/r3_0.html)
+-   jest to przetestowane rozwiązanie, które istnieje od wielu lat,
+-   działa w wielu systemach operacyjnych,
+-   scena może być ustawiona za pomocą jednego pliku tekstowego,
+-   do wygenerowania wysokiej jakości obrazu wymaga prostych zasobów obliczeniowych, dlatego działa nawet na stosunkowo starym sprzęcie.
+
+Użytkownikowi zaleca się przeczytanie dokumentacji POV-Ray oraz zapoznanie się z dodatkowymi samouczkami lub przykładami, aby uzyskać odpowiednie ustawienia zgodne z jego potrzebami.
+
+-   [POV-Ray dla systemu Unix w wersji 3.7](http://www.povray.org/documentation/3.7.0/index.html)
+-   [Samouczek POV-Ray](http://www.povray.org/documentation/3.7.0/t2_0.html)
+-   [Dokumentacja POV-Ray](http://www.povray.org/documentation/3.7.0/r3_0.html)
 
 
 {{Raytracing Tools navi

@@ -87,7 +87,7 @@ For those nostalgic for old CAD software, sticky fonts (in which letters are mad
 
 ### Export drawing pages to DXF 
 
-The system used to export Drawing pages to DXF until now used a very complicated hack to convert the SVG code to FreeCAD object then back to DXF with the Draft exporters. Now, the export is done internally inside the Drawing module, which gives much faster and reliable results. DXF export now uses a [template system](Drawing_templates.md) similar to SVG sheets. If your Drawing page uses a certain SVG template, and a DXF template with the same name is found at the same location, it is used to generate the DXF file.
+The system used to export Drawing pages to DXF until now used a very complicated hack to convert the SVG code to FreeCAD object then back to DXF with the Draft exporters. Now, the export is done internally inside the Drawing module, which gives much faster and reliable results. DXF export now uses a template system similar to SVG sheets. If your Drawing page uses a certain SVG template, and a DXF template with the same name is found at the same location, it is used to generate the DXF file.
 
 ![](images/Drawing-dxf-export.jpg )
 

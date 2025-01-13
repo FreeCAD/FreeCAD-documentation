@@ -1,5 +1,5 @@
 # Google Summer of Code
-1.  REDIRECT [Google Summer of Code 2023](Google_Summer_of_Code_2023.md)
+1.  REDIRECT [Google Summer of Code 2024](Google_Summer_of_Code_2024.md)
 
 
 

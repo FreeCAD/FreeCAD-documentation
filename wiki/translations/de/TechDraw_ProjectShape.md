@@ -74,15 +74,9 @@ Die Projektion wird von einem [Part Feature](Part_Feature.md) abgeleitet und erb
 
 
 
-## Hinweise
-
-Dieses Werkzeug befand sich früher im Arbeitsbereich Drawing.
 
 
-
-
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

@@ -1,6 +1,6 @@
 ---
  TutorialInfo:r
-   Topic: Analyse par Éléménts Finis
+   Topic: Analyse par éléménts finis
    Level: Intermédiaire
    Time: 30 minutes
    Author: http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd

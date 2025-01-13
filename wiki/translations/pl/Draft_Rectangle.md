@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Rectangle
    Name/pl: Rysunek Roboczy: Prostokąt
-   MenuLocation: Kreślenie , Prostokąt
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Kreślenie , Prostokąt<br>Kreślenie 2D , Prostokąt
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **R** **E**
    Version: 0.7
 ---
@@ -28,8 +28,9 @@ Rogi prostokąta mogą być zaokrąglone lub sfazowane poprzez zmianę właściw
 Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Draft_Rectangle.svg" width=16px> [Tworzy prostokąt ...](Draft_Rectangle/pl.md)**.
-    -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Rectangle.svg" width=16px> Prostokąt**.
+    -   Naciśnij przycisk **<img src="images/Draft_Rectangle.svg" width=16px> [Prostokąt](Draft_Rectangle/pl.md)**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Rectangle.svg" width=16px> Prostokąt**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Kreślenie 2D → <img src="images/Draft_Rectangle.svg" width=16px> Prostokąt** z menu.
     -   Użyj skrótu klawiaturowego: **R**, a następnie **E**.
 2.  Otworzy się panel zadań **Prostokąt**. Zobacz akapit [Opcje](#Opcje.md), aby uzyskać więcej informacji.
 3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
@@ -39,11 +40,11 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 1.0)*.
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź składowe X, Y i Z, i naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już żądane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor myszki poza okno [widoku 3D](3D_view/pl.md).
 -   Naciśnij klawisz **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne drugiego punktu są odniesione do pierwszego punktu, w przeciwnym razie są one odniesione do początku układu współrzędnych.
--   Naciśnij klawisz **G** lub kliknij w pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij klawisz **G** lub kliknij w pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij klawisz **F** lub kliknij pole wyboru **Wypełnienie**, aby przełączyć tryb wypełnienia. Jeśli tryb wypełnienia jest włączony, utworzony prostokąt będzie miał ustawioną właściwość {{PropertyData/pl|Utwórz ścianę}} na wartość `True` i będzie miał wypełnioną powierzchnię.
 -   Naciśnij klawisz **N** lub kliknij pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie zostanie uruchomione ponownie po zakończeniu operacji, umożliwiając dalsze tworzenie prostokątów.
 -   Naciśnij klawisz **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).

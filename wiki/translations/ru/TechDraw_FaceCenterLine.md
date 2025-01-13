@@ -77,7 +77,7 @@ Any of the centerline tools (<img alt="" src=images/TechDraw_FaceCenterLine.svg 
 
 ## Примечания
 
--   To delete a centerline use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+-   To delete a centerline select it and press **Delete**. <small>(v1.0)</small> 
 -   FaceCenterLines will eventually replace two View properties:
     -   
         **HorizCenterLine**

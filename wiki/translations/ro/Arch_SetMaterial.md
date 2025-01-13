@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -22,6 +24,8 @@ Instrumentul Material permite să se adauge [materials](Material.md) la document
 </div>
 
 ![](images/Arch_materials_01.jpg )
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -42,6 +46,8 @@ Instrumentul Material permite să se adauge [materials](Material.md) la document
 
 
 </div>
+
+
 
 ## Opţiuni
 
@@ -86,6 +92,11 @@ This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IF
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/ro
+⏵ [documentation index](../README.md) > Arch SetMaterial/ro

@@ -19,7 +19,7 @@
 
 The <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> **Draft Scale** command scales or copies selected objects around a base point. In subelement mode the command scales selected points and edges of [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md).
 
-The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
+The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [BIM Workbench](BIM_Workbench.md).
 
 <img alt="" src=images/Draft_Scale_example.png  style="width:400px;"> 
 *Scaling an object around a base point*
@@ -33,7 +33,8 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 1.  Optionally select one or more objects, or one or more subelements of [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Scale.svg" width=16px> [Scale](Draft_Scale.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Scale.svg" width=16px> Scale** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Modification → <img src="images/Draft_Scale.svg" width=16px> Scale** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Modify → <img src="images/Draft_Scale.svg" width=16px> Scale** option from the menu.
     -   Use the keyboard shortcut: **S** then **C**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
 4.  The **Scale** task panel opens. See [Options](#Options.md) for more information.
@@ -51,7 +52,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   To manually enter the coordinates for the base point enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press the **Close** button to abort the command.
 

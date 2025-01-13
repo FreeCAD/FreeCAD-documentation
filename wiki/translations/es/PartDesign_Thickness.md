@@ -133,7 +133,13 @@ A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) 
 -    **Intersection|Bool**: Enable intersection-handling. Default: `False`.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

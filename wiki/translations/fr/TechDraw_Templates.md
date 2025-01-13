@@ -1,25 +1,42 @@
 # TechDraw Templates/fr
 ## Description
 
-Chaque page TechDraw est basée sur un objet Modèle. **TechDraw Modèle** contrôle la taille du papier et contient des graphiques et du texte fixes, par exemple un cadre de page ou une bordure.
+Chaque page TechDraw est basée sur un objet Template. Le modèle fournit une zone dans l\'arrière-plan de la page pour insérer des vues, des symboles et d\'autres objets d\'annotation, et définit la taille du papier. Seuls les éléments situés dans la zone de dessin seront rendus pour l\'exportation ou l\'impression.
 
-Le modèle peut également contenir des champs de texte modifiables pour des attributs tels que *Titre*, *Sous-titre*, *Auteur*, *Date*, *Échelle*, *Poids*, *Numéro du dessin* et *Feuille*.
+Le modèle peut également contenir des graphiques tels qu\'un cadre définissant la zone de dessin, y compris les champs d\'index, les marques de pliage et, éventuellement, un bloc de titre qui contient à son tour des textes fixes et [modifiable](Svg_Namespace/fr#freecad_editable.md). Le cartouche peut également être inséré séparément en tant que [symbole](TechDraw_Symbol/fr.md).
 
-Les modèles sont des fichiers [SVG](SVG/fr.md) qui peuvent être créés et modifiés en dehors de FreeCAD, avec une application telle que [Inkscape](https://fr.wikipedia.org/wiki/Inkscape).
+Les modèles, comme des symboles, sont des fichiers [SVG](SVG/fr.md) qui peuvent être créés et modifiés en dehors de FreeCAD, ou bien une application telle que [Inkscape](https://fr.wikipedia.org/wiki/Inkscape), ou avec un simple éditeur de texte. Les deux peuvent contenir des champs de texte modifiables, mais ils utilisent des outils d\'édition différents.
+
+Un nouvel outil de remplissage automatique ({{Version/fr|1.0}}) permet de remplir automatiquement les champs de texte modifiables d\'un modèle lorsqu\'il est inséré. Cela nécessite des modèles qui utilisent le nouvel attribut [freecad:autofill](Svg_Namespace/fr#freecad_autofill.md). Les noms d\'attributs suivants sont valables pour le remplissage automatique : \"auteur\", \"date\", \"organisation\", \"échelle\", \"feuille\", \"titre\", \"numéro de page\" et \"nombre de pages\".
 
 
 
 ## Propriétés
 
--    **Orientation**: Portrait ou Paysage.
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
--    **Width**: Largeur du papier en mm.
+Un objet Template a les propriétés suivantes :
 
--    **Height**: Hauteur du papier en mm
 
--    **Page Result**: Une copie du fichier modèle original incluant toutes les modifications apportées aux textes modifiables. Cela permet aux utilisateurs qui ne possèdent pas une copie du fichier modèle de voir la page comme prévu. Pas typiquement utile pour les utilisateurs finaux.
+{{TitleProperty|Base}}
 
--    **Template**: a) Un pointeur vers la copie du fichier modèle original incorporé dans ce fichier \*.FCStd, ou b) un chemin de fichier vers un modèle accessible sur la machine actuelle. Utilisez le bouton de sélection de fichier (\...) pour changer de modèle.
+-    **Orientation|Enumeration**: {{Value|Portrait}} ou {{Value|Landscape}}.
+
+
+{{TitleProperty|Page Properties}}
+
+-    **Width|Length**: largeur du papier en mm.
+
+-    **Height|Length**: hauteur du papier en mm.
+
+-    **Editable Texts|Map|Hidden**: Liste clé/valeur (Key:Value) des textes modifiables dans le modèle.
+
+
+{{TitleProperty|Template}}
+
+-    **Page Result|FileIncluded**: copie du fichier modèle original comprenant toutes les modifications apportées aux textes modifiables. Cela permet aux utilisateurs qui n\'ont pas de copie du fichier modèle de voir la page telle qu\'elle est prévue. Cette option n\'est généralement pas utile pour les utilisateurs finaux.
+
+-    **Template|File**: un pointeur sur la copie du fichier modèle original qui est incorporé dans ce fichier ***.FCStd**, ou un chemin d\'accès à un modèle accessible sur la machine actuelle. Voir le [paragraphe suivant](#Sélectionner_un_autre_fichier_modèle.md) pour des informations sur la façon de modifier le modèle.
 
 
 
@@ -27,12 +44,12 @@ Les modèles sont des fichiers [SVG](SVG/fr.md) qui peuvent être créés et mod
 
 Pour sélectionner un modèle différent pour un dessin :
 
-1.  Localisez l\'objet Page souhaité dans la [Vue par arborescence](Tree_view/fr.md).
+1.  Localisez l\'objet Page souhaité dans la [vue par arborescence](Tree_view/fr.md).
 2.  Développez le nœud Page si nécessaire.
 3.  Sélectionnez l\'objet Modèle.
-4.  Dans l\'[Éditeur de propriétés](Property_editor/fr.md), cliquez dans le champ de propriété **Template**.
+4.  Dans l\'[éditeur de propriétés](Property_editor/fr.md), cliquez dans le champ de **Template**.
 5.  Appuyez sur le bouton **...** (point de suspension) qui apparaît.
-6.  Un dialogue de fichier ouvre le dossier dans lequel se trouve le modèle en cours. Si la page a été créée dans la session FreeCAD en cours, il s\'agit du dossier de modèle par défaut (tel que défini dans les [TechDraw Préférences](TechDraw_Preferences/fr#Fichiers.md)).
+6.  Une fenêtre de dialogue ouvre le dossier dans lequel se trouve le modèle en cours. Si la page a été créée dans la session FreeCAD en cours, il s\'agit du dossier du modèle par défaut (tel que défini dans les [TechDraw Préférences](TechDraw_Preferences/fr#Fichiers.md)).
 7.  Vous pouvez aussi naviguer vers un autre dossier.
 8.  Sélectionnez un autre fichier modèle.
 9.  Appuyez sur le bouton **OK**.
@@ -43,14 +60,14 @@ Si vous avez modifié un fichier modèle et que vous souhaitez mettre à jour un
 
 ## Modèles personnalisés 
 
-Un nombre limité de modèles pré-formatés dans différentes tailles de page sont inclus avec FreeCAD. Ils se trouvent dans
+Un nombre limité de modèles pré-formatés avec différentes tailles de page sont inclus avec FreeCAD. Ils se trouvent dans :
 
 
 ```python
 $INSTALL_DIR/Mod/TechDraw/Templates/
 ```
 
-Où `$INSTALL_DIR` est le répertoire où FreeCAD a été installé, par exemple
+Où `$INSTALL_DIR` est le répertoire où FreeCAD a été installé, par exemple :
 
 
 ```python
@@ -65,9 +82,9 @@ Voir aussi [Comment créer un modèle TechDraw personnalisé](TechDraw_TemplateH
 
 ## Remarques
 
--   Les modèles TechDraw ne sont pas entièrement interchangeables avec les [Drawing Modèles](Drawing_templates/fr.md). En général, les modèles de Drawing fonctionneront dans TechDraw, mais il peut y avoir des problèmes avec le texte modifiable.
+-   La bibliothèque de FreeCAD utilise pour traiter les SVG **ne supporte que la spécification svg-tiny**. En particulier : \"SVG Tiny does not support gradients, transparency, clipping, masks, symbols, patterns, underline text, strike through text, vertical text, or SVG filter effects.\" (extrait de l\'aide d\'Adobe Illustrator). L\'utilisation de ces fonctionnalités dans votre modèle personnalisé entraînera des problèmes de rendu.
 
--   Les clauses de transformation Svg **causeront des problèmes** dans les modèles personnalisés. Voir une discussion sur Stackoverflow à l\'adresse [supprimer les clauses de transformation dans les fichiers SVG](https://stackoverflow.com/questions/13329125/removing-transforms-in-svg-files).
+-   Les clauses de transformation Svg **peuvent causer des problèmes** dans les modèles personnalisés. Voir la discussion Stackoverflow sur [suppression des clauses de transformation dans les fichiers SVG (en)](https://stackoverflow.com/questions/13329125/removing-transforms-in-svg-files), surtout si Inkscape en utilise trop. Mais elles ne peuvent pas être évitées si vous avez besoin d\'un texte pivoté dans votre modèle.
 
 -   La clause **xml:space=\"preserve\"** pose parfois des problèmes de taille et de positionnement du texte. Il est préférable d\'éviter/de supprimer cette clause du code SVG de votre modèle personnalisé.
 

@@ -3,6 +3,8 @@
 
 
 
+
+
 ## Вступление
 
 Меню \"Файл\" это одно из 7-ми меню [стандартного меню](Standard_Menu/ru.md):
@@ -35,6 +37,14 @@
 
 -   <img alt="" src=images/Std_Open.svg  style="width:32px;"> [Открыть\...](Std_Open/ru.md): Открывает документ или импортирует файл.
 
+
+<div class="mw-translate-fuzzy">
+
+-   [Недавние файлы](Std_RecentFiles/ru.md): Показывает список недавно открытых файлов.
+
+
+</div>
+
 -   <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:32px;"> [Закрыть](Std_CloseActiveWindow/ru.md): Закрывает активное окно.
 
 -   <img alt="" src=images/Std_CloseAllWindows.svg  style="width:32px;"> [Закрыть всё](Std_CloseAllWindows/ru.md): Закрывает все окна.
@@ -55,7 +65,13 @@
 
 -   <img alt="" src=images/Std_MergeProjects.svg  style="width:32px;"> [Объединить проект\...](Std_MergeProjects/ru.md): Добавляет объекты из файла FreeCAD в текущий документ.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_ProjectInfo.svg  style="width:32px;"> [Информация о проекте\...](Std_ProjectInfo/ru.md): Показывает детали текущего документа.
+
+
+</div>
 
 -   <img alt="" src=images/Std_Print.svg  style="width:32px;"> [Печать\...](Std_Print/ru.md): Печать документа.
 
@@ -63,15 +79,13 @@
 
 -   <img alt="" src=images/Std_PrintPdf.svg  style="width:32px;"> [Экспортировать PDF\...](Std_PrintPdf/ru.md): Экспортирует документ как PDF.
 
--   [Недавние файлы](Std_RecentFiles/ru.md): Показывает список недавно открытых файлов.
-
 -   <img alt="" src=images/Std_Quit.svg  style="width:32px;"> [Выход](Std_Quit/ru.md) Выйти из приложения.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

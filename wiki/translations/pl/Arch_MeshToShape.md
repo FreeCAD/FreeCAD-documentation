@@ -1,53 +1,68 @@
 ---
  GuiCommand:
    Name: Arch MeshToShape
-   MenuLocation: Arch , Utilities , Mesh to Shape
-   Workbenches: Arch_Workbench
-   SeeAlso: Arch_SplitMesh, Arch_RemoveShape
+   Name/pl: Architektura: Kształt z siatki
+   MenuLocation: Narzędzia , Kształt z siatki
+   Workbenches: BIM_Workbench/pl
+   SeeAlso: Arch_SplitMesh/pl,  Arch_RemoveShape/pl
 ---
 
 # Arch MeshToShape/pl
 
-## Description
-
-[Arch MeshToShape](Arch_MeshToShape.md) converts a selected [Mesh](Mesh.md) ([Mesh Feature](Mesh_Feature.md)) object into a [Shape](Shape.md) ([Part Feature](Part_Feature.md)) object.
-
-This tool is optimized for objects with flat faces (no curves). The corresponding tool **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
-
-## Usage
-
-1.  Select a mesh object.
-2.  Press the **<img src="images/Arch_MeshToShape.svg" width=16px> [Mesh to Shape](Arch_MeshToShape.md)** entry in **Arch → Utilities → Mesh to Shape**.
-
-## Properties
-
-## Limitations
-
-## Scripting
 
 
-**See also:**
+## Opis
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Narzędzie **Kształt z siatki** konwertuje wybrany obiekt [siatki](Mesh/pl.md) *([cechy siatki](Mesh_Feature/pl.md))* na obiekt [kształtu](Shape/pl.md) *([cechę Części](Part_Feature/pl.md))*.
 
-This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+Narzędzie to jest zoptymalizowane dla obiektów o płaskich powierzchniach *(bez krzywych)*. Odpowiednie narzędzie **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Utwórz kształt z siatki](Part_ShapeFromMesh/pl.md)** ze środowiska <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Część](Part_Workbench/pl.md) może być bardziej odpowiednie dla obiektów zawierających zakrzywione powierzchnie.
+
+
+
+## Użycie
+
+1.  Wybierz obiekt siatki.
+2.  Naciśnij przycisk w menu **Narzędzia → <img src="images/Arch_MeshToShape.svg" width=16px> Kształt z siatki**.
+
+
+
+## Właściwości
+
+
+
+## Ograniczenia
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Kształt z siatki** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
+
+
 ```python
 new_obj = meshToShape(obj, mark=True, fast=True, tol=0.001, flat=False, cut=True)
 ```
 
-The above code snippet converts the given `obj` (a mesh), into a shape, joining coplanar facets.
+Powyższy fragment kodu konwertuje podaną `obj` (siatkę) w kształt łączący współpłaszczyznowe elementy.
 
--   If `mark` is `True`, non-solid objects will be marked in red.
+-   Jeśli właściwość `mark` ma wartość `True`, obiekty nie będące bryłami zostaną wyróżnione kolorem czerwonym.
 
--   If `fast` is `True`, it uses a faster algorithm by building a shell from the facets then removing splitter.
+-   Jeśli ma wartość`fast` ma wartość `True`, używa szybszego algorytmu, budując powłokę z elementów, a następnie usuwając rozdzielacz.
 
--    `tol`is the tolerance used when converting mesh segments to wires.
+-    `tol`jest tolerancją używaną podczas konwersji segmentów siatki na druty.
 
--   If `flat` is `True`, it will force the wires to be perfectly planar to be sure they can be converted into faces, but this might leave gaps in the final shell.
+-   Jeśli ma wartość`flat` ma wartość `True`, wymusi to, że polilinie będą idealnie płaskie, aby upewnić się, że można je przekonwertować na ściany, ale może to pozostawić luki w końcowej powłoce.
 
--   If `cut` is `True`, holes in faces are made by subtraction.
+-   Jeśli ma wartość`cut` ma wartość `True`, otwory w ścianach są tworzone przez odejmowanie.
 
-Example: 
+Przykład:
+
+
 ```python
 import Arch, Mesh, BuildRegularGeoms
 
@@ -62,5 +77,13 @@ new_obj = Arch.meshToShape(Box)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/pl
+⏵ [documentation index](../README.md) > Arch MeshToShape/pl

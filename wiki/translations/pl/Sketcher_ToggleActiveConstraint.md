@@ -15,30 +15,42 @@
 
 ## Opis
 
-Narzędzie **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Przełącz aktywność wiązania](Sketcher_ToggleActiveConstraint/pl.md)** pozwala aktywować i dezaktywować już nałożone wiązania. Dzięki temu można zachować wiązanie w tle, ale tymczasowo przetestować inny układ istniejącej geometrii.
+Narzędzie <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:24px;"> **Przełącz aktywność wiązania** aktywuje lub dezaktywuje wybrane wiązania. Dezaktywacja wiązań pozwala na testowanie innych układów geometrii bez usuwania wiązań.
 
-Narzędzie **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Przełącz kontrolę wiązania](Sketcher_ToggleDrivingConstraint/pl.md)** jest podobne w tym, że wyłącza działanie danego wiązania. Jednak w przypadku tego narzędzia wiązanie nie zachowuje swojej starej wartości. Z drugiej strony, z **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Przełącz aktywność wiązania](Sketcher_ToggleActiveConstraint/pl.md)** możesz natychmiast ponownie aktywować stare wiązanie.
+Jest to narzędzie podobne do [Przełącz kontrolę wiązania](Sketcher_ToggleDrivingConstraint/pl.md), ale w przeciwieństwie do niego działa również dla wiązań geometrycznych, a wartości dezaktywowanych wiązań wymiarowych są zachowywane.
 
 
 
 ## Użycie
 
-1.  Wybierz wiązanie ustawione już wcześniej, a następnie naciśnij **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> '''Przełącz aktywność wiązania'''**.
-2.  Alternatywnie, przejdź do [panelu zadań](Task_panel/pl.md), w sekcji **Wiązania**, wybierz wiązanie, następnie otwórz menu podręczne *(kliknij prawym przyciskiem myszy)* i wybierz **Dezaktywuj**.
-3.  Aby ponownie aktywować wiązanie, zaznacz je i naciśnij **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> '''Przełącz aktywność wiązania'''** ponownie.
+1.  Wybierz jedno lub więcej wiązań.
+2.  Istnieje kilka sposobów wywołania tego narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_ToggleActiveConstraint.svg" width=16px> '''Przełącz aktywność wiązania'''**.
+
+    -   Wybierz z menu **Szkic → Elementy geometryczne szkicownika → <img src="images/Sketcher_ToggleActiveConstraint.svg" width=16px> Przełącz aktywność wiązania**.
+
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz opcję **<img src="images/Sketcher_ToggleActiveConstraint.svg" width=16px> Przełącz aktywność wiązania** z menu podręcznego.
+
+    -   W sekcji **Wiązania** [okna dialogowego](Sketcher_Dialog/pl.md) wybierz opcję **Aktywuj** lub **Dezaktywuj** z menu podręcznego. Oferowana opcja zależy od wybranego stanu wybranego wiązania.
+
+    -   Użyj skrótu klawiaturowego: **K**, a następnie **Z**.
+3.  Aktywne wybrane wiązania są dezaktywowane i zmieniają kolor na szary *(domyślny [kolor](Sketcher_Preferences#Wygląd.md))*, podczas gdy wybrane dezaktywowane wiązania są aktywowane i powracają do koloru czerwonego *(domyślny kolor)*.
 
 
 
-## Przykłady
+## Przykład
 
-<img alt="" src=images/Sketcher_ToggleActiveConstraint_example_active.png  style="width:" height="350px;"> 
+<img alt="" src=images/Sketcher_ToggleActiveConstraint_example_active.png  style="width:400px;"> 
 *W pełni związany szkic.*
 
-<img alt="" src=images/Sketcher_ToggleActiveConstraint_example_disabled_1.png  style="width:" height="350px;"> <img alt="" src=images/Sketcher_ToggleActiveConstraint_example_disabled_2.png  style="width:" height="350px;"> 
-*Po lewej: dezaktywowane wiązanie. Szkic nie jest już w pełni związany.<br>Po prawej: niezwiązana geometria może być przesuwana. Starsze wiązanie jest nadal dostępne i można je ponownie aktywować, aby powrócić do w pełni związanego szkicu.*
+<img alt="" src=images/Sketcher_ToggleActiveConstraint_example_disabled_1.png  style="width:400px;"> 
+*Jedno z wiązań kątowych zostało dezaktywowane, szkic nie jest już w pełni wiązany.*
 
-<img alt="" src=images/Sketcher_ToggleActiveConstraint_task_panel.png  style="width:" height="350px;"> 
-*Panel zadań z wyłączonym wiązaniem.*
+<img alt="" src=images/Sketcher_ToggleActiveConstraint_example_disabled_2.png  style="width:400px;"> 
+*Geometria bez wiązań może być przemieszczana. Dezaktywowane wiązanie jest nadal dostępne i można je ponownie aktywować, aby powrócić do w pełni związanego szkicu.*
 
 
 
@@ -54,7 +66,7 @@ Aktywny status wiązania może być kontrolowany w [makrodefinicjachs](Macros/pl
 SketchObject.toggleActive(index)
 ```
 
-Użyj metody `toggleActive` istniejącego [obiektu szkicu](Szkicownik_SketchObject/pl.md) oraz `index` wiązania, aby je aktywować lub dezaktywować. Indeks zaczyna się od `0` aż do `N-1`, gdzie `N` to całkowita liczba więzów.
+Użyj metody `toggleActive` istniejącego [obiektu szkicu](Sketcher_SketchObject/pl.md) oraz `index` wiązania, aby je aktywować lub dezaktywować. Indeks zaczyna się od `0` aż do `N-1`, gdzie `N` to całkowita liczba więzów.
 
 Przykład: 
 ```python

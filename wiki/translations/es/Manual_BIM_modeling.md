@@ -1,7 +1,4 @@
 # Manual:BIM modeling/es
-}
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -13,7 +10,13 @@
 
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 El modelado de información de construcción significa (BIM, engl.: Building Information Modelling) [1](https://es.wikipedia.org/wiki/Modelado_de_informaci%C3%B3n_de_construcci%C3%B3n). La definición exacta de lo que es varía, pero podemos decir simplemente que es la forma en que se modelan hoy en día los edificios y otras grandes estructuras como puentes, túneles, etc. Los modelos BIM suelen basarse en modelos 3D, y además incluyen una serie de capas de información adicionales, como información sobre materiales, relaciones con otros objetos o modelos, o instrucciones especiales para la construcción o el mantenimiento. Esta información adicional permite todo tipo de análisis avanzados del modelo, como la resistencia estructural, la estimación de costes y tiempos de construcción o el cálculo del consumo energético.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -23,23 +26,17 @@ El [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md) de FreeCAD implement
 
 </div>
 
-Como en el [Ambiente de trabajo Disegno Piezas](PartDesign_Workbench/es.md), los objetos producidos por el Arch Workbench están destinados a ser construidos en el mundo real. Por lo tanto, necesitan ser **sólidos**\'. Las herramientas de Arch normalmente se encargan de ello automáticamente, y también proporcionan herramientas de utilidad para ayudarte a comprobar la validez de los objetos.
-
 
 <div class="mw-translate-fuzzy">
 
-El ambiente de trabajo Arquitectura también incluye todas las herramientas del [Ambiente de trabajo de Borrador](Draft_Workbench/es.md), y utiliza su sistema de rejilla y ajuste. Antes de empezar, siempre es una buena idea navegar a través de las páginas de preferencias tanto de Draft como de Arch y establecer la configuración por defecto a su gusto.
+Como en el [Ambiente de trabajo Disegno Piezas](PartDesign_Workbench/es.md), los objetos producidos por el Arch Workbench están destinados a ser construidos en el mundo real. Por lo tanto, necesitan ser **sólidos**\'. Las herramientas de Arch normalmente se encargan de ello automáticamente, y también proporcionan herramientas de utilidad para ayudarte a comprobar la validez de los objetos.
 
 
 </div>
 
 En este capítulo veremos cómo modelar este pequeño edificio:
 
-![](images/Exercise_arch_01.jpg )
-
-y producir una vista en planta y en sección a partir de ella:
-
-![](images/Exercise_arch_02.jpg )
+![](images/FreeCAD_BIMHouse.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -66,19 +63,27 @@ NOTA: Debido a un error en la versión 0.18, asegúrese de hacer las líneas en 
 
 ![](images/Exercise_arch_03.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 Observa que hemos dibujado siempre en la misma dirección (en el sentido de las agujas del reloj). Esto no es necesario, pero asegurará que las paredes que construiremos a continuación tengan todas la misma dirección izquierda y derecha. También podrías pensar que aquí podríamos haber dibujado simplemente un rectángulo, lo cual es cierto. Pero las cuatro líneas nos permitirán ilustrar mejor cómo añadir un objeto dentro de otro.
 
--   Once your have created the lines check their start and end points and adjust if necessary to get them exactly correct.
+
+</div>
+
+-   Once you have created the lines check their start and end points and adjust if necessary to get them exactly correct.
 
 ![](images/Manual-BIM_Modeling_-_Adjusting_Lines.png )
 
--   Select the first line, then press the <img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [Wall](Arch_Wall.md) button.
--   Repeat this for the 3 other lines, until you have 4 walls.
--   Select the four walls, and set their **Height** property to **3.00m** and their **Alignment** property to **left**. If you didn\'t draw the lines in the same order as we did above, some of the walls might have their left and right directions flipped, and might need to be set to **right** instead. You will obtain four intersecting walls, on the inside of the baselines:
+-   Select all four lines, then press the <img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [Wall](Arch_Wall.md) button.
+-   Set the walls\' **Height** to 3m (default).
+-   Set **Alignment** property to **left**. Setting the Alignment property to the left ensures that the walls you create will be positioned to the left side of the lines you drew. In FreeCAD's BIM Workbench, walls are typically generated based on a reference line, and the left or right alignment dictates which side of the line the wall will be placed.
+
+If you didn't draw the lines in the same order as instructed (clockwise), the orientation of some walls may be flipped, meaning they could be positioned on the opposite side of the line (to the right instead of the left). In that case, you would need to adjust the alignment to the right for those specific walls to ensure they all align consistently. Once this is set correctly, you\'ll have four walls that intersect at the corners, positioned on the inside of the baseline, forming the desired layout.
 
 ![](images/Exercise_arch_04.jpg )
 
-Now we need to join these walls together, so they intersect properly. This is not necessary when your walls are drawn in a way that they already connect cleanly, but here we need to, since they are intersecting. In Arch, this is done by electing one of the walls to be the \"host\", and adding the others to it, as \"additions\". All arch objects can have any number of additions (objects whose geometry will be added to the host\'s geometry), and subtractions (objects whose geometry will be subtracted). The additions and subtractions of an object can be managed anytime by double-clicking the object in the tree.
+After creating walls, the next step is to join them so they intersect properly. This is necessary when walls don\'t connect cleanly at their intersections. To do this, you select one wall as the \"host\" and add the other walls as \"additions\", merging their geometry with the host. All objects in the BIM Workbench can have multiple additions (which add geometry) or subtractions (which remove geometry). These relationships can be managed anytime by double-clicking the object in the tree, allowing for flexible adjustments to ensure the walls and other architectural elements integrate smoothly.
 
 -   Select the four walls with **Ctrl** pressed, the last one being the wall that you chose to become the host
 -   Press the <img alt="" src=images/Arch_Add.svg  style="width:16px;"> [Add](Arch_Add.md) button. The four walls have now been turned into one:
@@ -87,156 +92,66 @@ Now we need to join these walls together, so they intersect properly. This is no
 
 The individual walls are however still accessible, by expanding the wall in the tree view.
 
--   Let\'s now place a door. In FreeCAD, doors are considered a special case of windows, so this is done using the [Window](Arch_Window.md) tool.
--   Start by selecting the wall. This is not necessary, but a good habit to take. If an object is selected when starting the window tool, you will force the window to be inserted in that object, even if you snap to another object.
--   Set the [Working Plane](Draft_SelectPlane.md) to **auto** so we are not restricted to the ground plane
--   Press the <img alt="" src=images/Arch_Window.svg  style="width:16px;"> [Window](Arch_Window.md) button.
--   In the window creation panel, select the **Glass door** preset, and set its **Width** to 0.9m and its **Height** to 2.1m
--   Make sure the <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Near snap](Draft_Snap_Near.md) location is turned on, so we can snap on faces
--   Place your window roughly on the middle of the front face of the wall:
+-   Let\'s now place a door by pressing on the <img alt="" src=images/BIM_Door.svg  style="width:16px;"> [Door](BIM_Door.md) tool.
+-   Begin by selecting the wall. While this step isn\'t required, it\'s a useful habit to develop. If an object is selected before starting an operation, the operation will automatically apply to that entity by default.
+-   Set the <img alt="" src=images/View-axonometric.svg  style="width:16px;"> [Working Plane](Draft_SelectPlane.md) to **auto** so we are not restricted to the ground plane
+-   Press the <img alt="" src=images/BIM_Door.svg  style="width:16px;"> [Door](BIM_Door.md) button.
+-   In the door creation panel, select the **Glass door** preset, and set its **Width** to 1 m and its **Height** to 2.1m. You will notice that you can choose between various door types and set up their parameters as you wish. In FreeCAD a door is derived by an [window](Arch_Window.md) operation.
+-   Make sure the <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Snap near](Draft_Snap_Near.md) option is turned on, so we can snap on faces
+-   Place your door roughly on the middle of the front face of the wall:
 
-![](images/Exercise_arch_06.jpg )
+![](images/FreeCAD_BIMDoor.png )
 
--   After clicking, our window is placed on the correct face, but not exactly where we want:
+-   We can now set the precise location by expanding the wall and the window objects in the tree view and changing the **Placement** property of the base sketch of our door. Set its position to **x = 0.5 m, y = 0, z = 0**. Our door is now exactly where we want it:
 
-![](images/Exercise_arch_07.jpg )
+![](images/FreeCAD_BIMDoorPos.png )
 
--   We can now set the precise location by expanding the wall and the window objects in the tree view, and changing the **Placement** property of the base sketch of our door. Set its position to **x = 2m, y = 0, z = 0**. Our window is now exactly where we want it:
+-   Let\'s place a window next to our door. Select the wall, press the <img alt="" src=images/Arch_Window.svg  style="width:16px;"> [Window](Arch_Window.md) tool, select the **Open 2-pane** preset, and place a **1m x 1m** window in the same face as the door. Set the placement of the underlying sketch to position **x = 0, y = 0, z = 1.1m**, so the upper line of the window is aligned to the top of the door.
 
-![](images/Exercise_arch_08.jpg )
+![](images/FreeCAD_BIMWindow.png )
 
--   Repeat the operation to place a window: Select the wall, press the window tool, select the **Open 2-pane** preset, and place a 1m x 1m window in the same face as the door. Set the placement of the underlying sketch to position **x = 0.6m, y = 0, z = 1.1m**, so the upper line of the window is aligned to the top of the door.
-
-![](images/Exercise_arch_09.jpg )
-
-Windows are always built on sketches. It is easy to create custom windows by first creating a sketch on a face, then turning it into a window by selecting it, then pressing the window button. Then, the window creation parameters, that is, which wires of the sketch must be extruded and how much, can be defined by double-clicking the window in the tree view. Now, let\'s create a slab:
+Windows are always based on sketches. You can easily create custom windows by first drawing a sketch on a face, then turning that sketch into a window by selecting it and clicking the window button. Afterward, you can define the window\'s parameters---such as which parts of the sketch should be extruded and by how much---by double-clicking the window in the tree view. Now, let\'s move on to creating a slab:
 
 -   Set the [Working Plane](Draft_SelectPlane.md) to **XY** plane
--   Create a <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [rectangle](Draft_Rectangle.md) with a **length** of 5m, a height of **4m**, and place it at position x:-0.5m, y:-0.5m, z:0.
+-   Create a <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [rectangle](Draft_Rectangle.md) with a **length** of 5m, a height of **4m**, and place it at position x:-0.5m, y:-0.7m, z:0.
 -   Select the rectangle
--   Click the <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [structure](Arch_Structure.md) tool to create a slab from the rectangle
--   Set the **height** property of the slab to 0.2m and its **normal** direction to (0,0,-1) because we want it to extrude downwards. We could also simply have moved it 0.2m down, but it is always good practice to keep extruded objects at the same place as their base profile.
+-   Click the <img alt="" src=images/BIM_Slab.svg  style="width:16px;"> [Slab](BIM_Slab.md) tool to create a slab from the rectangle
+-   Keep the default values of 0.2m for the **height** property and set the normal **direction** to (0,0,-1), so the extrusion goes downward. While we could have moved the object 0.2m downward instead, it\'s a good practice to keep extruded objects aligned with their base profile to maintain consistency and accuracy in the model.
 -   Set the **Ifc Type** property of the slab to **slab**. This is not necessary in FreeCAD, but is important for IFC export, as it will ensure that the object is exported with the correct IFC type.
 
-![](images/Exercise_arch_10.jpg )
+![](images/FreeCAD_BIMSlab.png )
 
--   Let\'s now use one of the structural presets to make a metallic beam. Click the <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [structure](Arch_Structure.md) button, select a **HEB 180** preset, and set its height to **4m**. Place it anywhere:
+-   Let\'s put a roof over our heads now. We can easily do it by using the <img alt="" src=images/Arch_Roof.svg  style="width:16px;"> [Roof](Arch_Roof.md) tool.
+-   Press the <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:16px;"> [Snap working plane](Draft_Snap_WorkingPlane.md) option to enable the drafting on all planes.
+-   By choosing one of the top faces of our house press the <img alt="" src=images/Draft_SelectPlane.svg  style="width:16px;"> [Select plane](Draft_SelectPlane.md) button. The working plane is now set to that face.
+-   Create a <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [rectangle](Draft_Rectangle.md), snapping to two opposite points of the walls:
+-   On the **data** tab of the roof set the **Runs** parameter to 1600.
+-   If you wish to change the color of the roof you can do so on the view tab
 
-![](images/Exercise_arch_11.jpg )
+![](images/FreeCAD_BIMHouseg.png )
 
--   Adjust its **placement** by setting its **Angle** to 90° in the (1,0,0) axis, and its **position** to x:90mm, y:3.5m, z:3.09m. This will position the beam exactly on one of the side walls:
+With that, our model is now complete. The next step is to organize it properly to ensure it exports correctly to the IFC format. IFC files require all building elements to be grouped within a **building** object, and optionally, within a specific **story**. Additionally, all buildings must be located on a **site**. However, FreeCAD\'s IFC exporter will automatically generate a default site if one isn\'t present, so we don\'t need to add it manually. It\'s important to properly structure the model to comply with IFC standards, ensuring smooth collaboration and compatibility with other BIM software. Proper organization will also help avoid any data loss or errors during the export process.
 
-![](images/Exercise_arch_12.jpg )
-
--   We need now to duplicate this beam a couple of times. We could do that one by one using the <img alt="" src=images/Draft_Clone.svg  style="width:16px;"> [clone](Draft_Clone.md) tool, but there is a better way, to do all the copies at once using an array:
--   Select the beam
--   Press the <img alt="" src=images/Draft_OrthoArray.svg  style="width:16px;"> [Draft OrthoArray](Draft_OrthoArray.md) button
--   Set the **Number of elements** for the X direction of the array to 6, set the number for the Y and Z direction to 1, and press **OK**.
--   Expand the **interval X** property of the array, and press the small <img alt="" src=images/Bound-expression-unset.png  style="width:16px;"> **expression** icon at the right side of the X field. This will open an [expressions editor](Expressions.md):
-
-![](images/Exercise_arch_13.jpg )
-
--   Write **(4m-180mm)/5** in the expression field, and press **OK**. This will set the x value to 0.764 (4m is the total length of our front wall, 180mm is the width of the beam, which is why it is called HEB180, and we want a fifth of that space as interval between each beam):
-
-![](images/Exercise_arch_14.jpg )
-
--   We can now easily build a simple slab on top of them, by drawing a rectangle directly on the top plane of the beams. Select a top face of one of the beams
--   Press the <img alt="" src=images/Draft_SelectPlane.svg  style="width:16px;"> [working plane](Draft_SelectPlane.md) button. The working plane is now set to that face.
--   Create a <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [rectangle](Draft_Rectangle.md), snapping to two opposite points of the border beams:
-
-![](images/Exercise_arch_15.jpg )
-
--   Select the rectangle
--   Click the <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [structure](Arch_Structure.md) button and create a slab with a height of **0.2m**.
-
-That\'s it, our model is now complete. We should now organize it so it exports correctly to IFC. The IFC format requires that all objects of a building are inside a building object, and optionally, inside a story. It also requires that all buildings are placed on a site, but the IFC exporter of FreeCAD will add a default site automatically if needed, so we don\'t need to add one here.
-
--   Select the two slabs, the wall, and the array of beams
+-   Select the walls, the slab, and the roof.
 -   Press the <img alt="" src=images/Arch_Floor.svg  style="width:16px;"> [Floor](Arch_Floor.md) button
 -   Select the floor we just created
 -   Press the <img alt="" src=images/Arch_Building.svg  style="width:16px;"> [Building](Arch_Building.md) button
 
 Our model is now ready to export:
 
-![](images/Exercise_arch_16.jpg )
+![](images/FreeCAD_BIMExport.png )
 
 The [IFC format](https://en.wikipedia.org/wiki/Industry_Foundation_Classes) is one of the most precious assets in a free BIM world, because it allows the exchange of data between any application and actor of the construction world, in an open manner (the format is open, free and maintained by an independent consortium). Exporting your BIM models as IFC ensures that anyone can see and analyze them, no matter the application used.
-
-In FreeCAD, IFC import and export is done by interfacing with another piece of software, called [IfcOpenShell](http://ifcopenshell.org/). To be able to export to IFC from FreeCAD, the [IfcOpenShell-python](http://ifcopenshell.org/python) package must be installed on your system. Be sure to select one which uses the same python version as FreeCAD. The python version that FreeCAD uses is informed when opening the **View -\> Panels -\> Python console** panel in FreeCAD. When that is done, we can now export our model:
 
 -   Select the top object you want to export, that is, the Building object.
 -   Select menu **File -\> Export -\> Industry Foundation Classes** and save your file.
 -   The resulting IFC file can now be opened in a wide range of applications and viewers (the image below shows the file opened in the free [IfcPlusPlus](http://www.ifcquery.com/) viewer). Checking the exported file in such a viewer application before distributing it to other people is important to check that all the data contained in the file is correct. FreeCAD itself can also be used to re-open the resulting IFC file.
 
-![](images/Exercise_arch_17.jpg )
+![](images/FreeCAD_BIMIFC.png )
 
-We will now place some dimensions. Unlike the [previous chapter](Manual_Generating_2D_drawings.md), where we drew all the dimensions directly on the Drawing sheet, we will use another method here, and place [Draft dimensions](Draft_Dimension.md) directly in the 3D model. These dimensions will then be placed on the Drawing sheet automatically. We will first make two groups for our dimensions, one for the dimensions that will appear in the plan view, and another for those that appear on the elevation.
+We can use the <img alt="" src=images/Workbench_TechDraw.svg  style="width:16px;"> [TechDraw Workbench](TechDraw_Workbench.md) to create a drawing of our building. The process is similar to what was shown in the previous section, so we won\'t go into too much detail here. Simply create a new view by using the <img alt="" src=images/TechDraw_PageDefault.svg  style="width:16px;"> [insert Default Page](TechDraw_PageDefault.md) option, then select the view you want to display in the drawing and add dimensions where necessary. This will allow us to create a professional 2D representation of the 3D model for documentation or presentation purposes.
 
--   Right-click the \"house\" document in the tree view, and create two new groups: **Plan dimensions** and **Elevation dimensions**.
--   Set the [Working Plane](Draft_SelectPlane.md) to **XY** plane
--   Make sure the <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:16px;"> [restrict](Draft_Snap_WorkingPlane.md) snap location is turned on, so everything you draw stays on the working plane.
--   Draw a couple of <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:16px;"> [Dimensions](Draft_Snap_Dimensions.md), for example as on the image below. Pressing **Shift** and **Ctrl** while snapping the dimension points will give you additional options.
-
-![](images/Exercise_arch_18.jpg )
-
--   Select all your dimensions, and drag them to the **Plan dimensions** group in the tree view
--   Set the [Working Plane](Draft_SelectPlane.md) to **XZ** plane, that is, the frontal vertical plane.
--   Repeat the operation, draw a couple of dimensions, and place them in the **Elevation dimensions** group.
-
-![](images/Exercise_arch_19.jpg )
-
-We will now prepare a set of views from our model, to be placed on a Drawing page. We can do that with the tools from the Drawing Workbench, as we have seen in the previous chapter, but the Arch Workbench also offers an all-in-one advanced tool to produce plan, section and elevation views, called [Section Plane](Arch_SectionPlane.md). We will now add two of these section planes, to create a plan view and an elevation view.
-
--   Select the building object in the tree view
--   Press the <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Section Plane](Arch_SectionPlane.md) button.
--   Set its **Display Height** property to 5m, its **Display Length** to 6m, so we encompass our house (this is not needed, but will look better, as it will show naturally what it is used for), and its **Placement** position at x:2m, y:1.5m, z:1.5m.
--   Check the list of objects considered by the Section Plane by double-clicking it in the [tree view](Tree_view.md). Section Planes only render specified objects from the model, not all of them. The objects considered by the Section Plane can be changed here.
-
-![](images/Exercise_arch_20.jpg )
-
--   Repeat the operation to create another section plane, give it the same display length and height, and give it the following **Placement**: position: x:2m, y:-2m, z:1.5m, angle: 90°, axis: x:1, y:0, z:0. Make sure this new section plane also considers the building object.
-
-![](images/Exercise_arch_21.jpg )
-
-
-**Development of the [Drawing Workbench](Drawing_Workbench.md) stopped in FreeCAD 0.16, and the new [TechDraw Workbench](TechDraw_Workbench.md) aiming to replace it was introduced in v0.17. The Drawing Workbench may be removed in future releases. Use the TechDraw Workbench instead.**
-
--   Now we have everything we need, and we can create our Drawing page. Start by switching to the [Drawing Workbench](Drawing_Workbench.md), and create a new default <img alt="" src=images/Drawing_Landscape_A3.png  style="width:16px;"> [A3 page](Drawing_Landscape_A3.md) (or select another template if you wish).
--   Select the first section plane, used for the plan view
--   Press the <img alt="" src=images/Drawing_DraftView.png  style="width:16px;"> [Draft View](Drawing_DraftView.md) button. This tool offers a couple of additional features over the standard [Drawing View](Drawing_View.md) tool, and supports the Section Planes from the Arch Workbench.
--   Give the new view the following properties:
-    -   X: 50
-    -   Y: 140
-    -   Scale: 0.03
-    -   Line width: 0.15
-    -   Show Cut True
-    -   Show Fill: True
--   Select the other section plane, and create a new Draft View, with the following properties:
-    -   X: 250
-    -   Y: 150
-    -   Scale: 0.03
-    -   Rendering: Solid
-
-![](images/Exercise_arch_22.jpg )
-
-We will now create two more Draft Views, one for each group of dimensions.
-
--   Select the Plan dimensions group
--   Press the <img alt="" src=images/Drawing_DraftView.png  style="width:16px;"> [Draft View](Drawing_DraftView.md) button.
--   Give the new view the following properties:
-    -   X: 50
-    -   Y: 140
-    -   Scale: 0.03
-    -   Line width: 0.15
-    -   Font size: 10mm
--   Repeat the operation for the other group, with the following settings:
-    -   X: 250
-    -   Y: 150
-    -   Scale: 0.03
-    -   Line width: 0.15
-    -   Font size: 10mm
-    -   Direction: 0,-1,0
-    -   Rotation: 90°
+![](images/FreeCAD_BIMHouseDrawing.png )
 
 Our page is now ready, and we can export it to SVG or DXF formats, or print it. The SVG format allows you to open the file using illustration applications such as [Inkscape](http://www.inkscape.org), with which you can quickly enhance technical drawings and turn them into much nicer presentation drawings. It offers many more possibilities than the DXF format.
 
@@ -278,6 +193,11 @@ Our page is now ready, and we can export it to SVG or DXF formats, or print it. 
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > Manual:BIM modeling/es
+⏵ [documentation index](../README.md) > Manual:BIM modeling/es

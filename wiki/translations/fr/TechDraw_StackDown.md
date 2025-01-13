@@ -21,7 +21,7 @@ Voir [TechDraw Empiler en haut](TechDraw_StackTop/fr.md).
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

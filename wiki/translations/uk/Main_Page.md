@@ -1,7 +1,15 @@
 # Main Page/uk
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
+
 ## Введення
 
 Це - wiki-збірник документації про [FreeCAD](http://www.freecadweb.org/?lang=uk). Існує два головних методи вивчення документації: шляхом вивчення куточків користувача та шляхом вивчення інструкції. Це поки що незакінчена робота, яка створюється товариством користувачів і розробників FreeCAD. Якщо ви знайшли невірну або відсутню інформацію - будь ласка, [зробіть FreeCAD кращє](Special:MyLanguage/help_FreeCAD/uk.md)!
+
+
+</div>
 
 
 
@@ -22,7 +30,7 @@
 
 ## Посібник
 
-<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual_Introduction.md)  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/).
+<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual_Introduction.md)  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecad.org/manual/).
 
 
 

@@ -8,12 +8,16 @@
 
 # Std TileWindows/de
 
+
+
 ## Beschreibung
 
 Der **Std FensterAnordnen**-Befehl ordnet die Fenster im [Hauptansichtsbereich](Main_view_area/de.md) so an, dass sie alle sichtbar sind und nicht überlappen. Das Ergebnis wird durch die Reihenfolge festgelegt, in der die Fenster das letzte Mal aktiviert wurden.
 
-<img alt="" src=images/Std_TileWindows_example.png  style="width:600px;"> 
+<img alt="" src=images/Std_TileWindows_example.png  style="width:400px;"> 
 *Hauptansichtsbereich mit drei gekachelten Fenstern*
+
+
 
 ## Anwendung
 
@@ -24,7 +28,7 @@ Der **Std FensterAnordnen**-Befehl ordnet die Fenster im [Hauptansichtsbereich](
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

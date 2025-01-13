@@ -35,22 +35,35 @@ Wenn eine Konturskizze hinzugefügt wird, erzeugt er **verzahnte Geometrie** um 
 
 ### Einfache Verlängerung 
 
-1.  Eine oder mehrere Flächen auswählen, die verlängert werden soll.
-2.  Den Befehl <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **Kante verlängern** aktivieren durch
-    -   Die Schaltfläche **<img src="images/SheetMetal_Extrude.svg" width=16px> [Kante verlängern](SheetMetal_Extrude/de.md)**.
-    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_Extrude.svg" width=16px> Kante verlängern**.
-    -   Das Tastenkürzel: **E**.
-3.  Den Wert der {{PropertyData/de|length}} verändern, um die Länge der Verlängerung einzustellen.
+1.  Eine oder mehrere Flächen auswählen, die verlängert werden sollen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/SheetMetal_Extrude.svg" width=16px> [Kante verlängern](SheetMetal_Extrude/de.md)** drücken.
+    -   Den Menüeintrag **Sheet Metal → <img src="images/SheetMetal_Extrude.svg" width=16px> Kante verlängern** auswählen.
+    -   Ein Rechtsklick in die [Baumansicht](Tree_view/de.md) oder die [3D-Ansicht](3D_view/de.md) und die Menüoption **Sheet Metal → <img src="images/SheetMetal_Extrude.svg" width=16px> Kante verlängern** im Kontextmenü auswählen.
+    -   Das Tastaturkürzel **E**.
+3.  Das [Aufgaben-Fenster](Task_panel/de.md) **Extend Parameters** wird geöffnet (eingeführt in Version 0.5.00).
+4.  Wahlweise die Schaltfläche **Auswählen** drücken, um weiter Flächen hinzuzufügen.
+    -   Die Schaltfläche **Vorschau** drücken, um die Auswahl abzuschließen und die Äderungen anzuzeigen.
+5.  Wahlweise die Parameter im Aufgaben-Fenster anpassen.
+6.  Die Schaltfläche **OK** drücken, um den Befehl abzuschließen und das Aufgaben-Fenster zu schließen.
+7.  Ein **Extend**-Objekt wird erstellt, das eine neue Flächenverlängerung an jeder ausgewählten Kante enthält.
+8.  Wahlweise die Eigenschaften im [Eigenschafteneditor](Property_editor/de.md) anpassen.
 
 
 
 ### Verzahnte Erweiterung 
 
-1.  Eine Kantenfläche auswählen, die erweitert werden soll.
-2.  Den Befehl <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **Kante verlängern** aktivieren (siehe oben).
-3.  Eine komplanare Konturskizze zur {{PropertyData/de|Sketch}} hinzufügen.
-    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_Extrude.svg" width=16px> Kante verlängern**.
-4.  Den Wert der {{PropertyData/de|Offset}} verändern, um den Spalt um die Erweiterung herum einzustellen.
+:   (Eine <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketcher_Workbench/de.md) für die Verzahnung vorbereiten)
+
+1.  Die Kantenfläche auswählen, die erweitert werden soll.
+2.  Den Befehl aktivieren, wie oben beschrieben.
+3.  Die Schaltfläche **OK** drücken, um den Befehl abzuschließen und das Aufgaben-Fenster zu schließen.
+4.  Im [Eigenschafteneditor](Property_editor/de.md) die Schaltfläche **...** der {{PropertyData/de|Sketch}} drücken.
+5.  Das Dialogfenster \"Link\" wird geöffnet.
+    -   Die vorbereitete Skizze in der Liste auswählen.
+    -   Die Schaltfläche **OK** drücken, um das Dialogfenster zu schließen.
+6.  Die {{PropertyData/de|Ausschneiden}} auf `True` setzen, um Ausschnitte zu erstellen, die Platz für die Erweiterungen schaffen.
+7.  Den Wert der {{PropertyData/de|Offset}} verändern, um den Spalt um die Erweiterung herum einzustellen.
 
 <img alt="" src=images/SheetMetal_Extrude-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-04.png  style="width:200px;">
 
@@ -92,20 +105,11 @@ Wenn eine Konturskizze hinzugefügt wird, erzeugt er **verzahnte Geometrie** um 
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Ein SheetMetal-Extend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+Ein SheetMetal-Extend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet oder, wenn es sich in einem [PartDesign-Körper](PartDesign_Body/de.md) befindet, von einem [PartDesign Formelement](PartDesign_Feature/de.md) und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
 
 
 ### Daten
-
-
-{{Properties_Title/de|Basis}}
-
--    {{PropertyData/de|Label|String}}: Standardwert: Der vom Benutzer änderbare Name dieses Objekts, der aus einer beliebigen UTF8-Zeichenkette bestehen kann.
-
--    {{PropertyData/de|Base Feature|Link|hidden}}: Base Feature. Verweis zum Eltern-Objekt.
-
--    {{PropertyData/de|_Body|LinkHidden|hidden}}: Unsichtbarer Verweis zum Eltern-Body.
 
 
 {{Properties_Title/de|Parameters}}

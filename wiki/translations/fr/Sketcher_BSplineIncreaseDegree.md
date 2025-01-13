@@ -5,42 +5,56 @@
    MenuLocation: Esquisse , Outils d'esquisse des B-splines , Augmenter le degré d'une B-spline
    Workbenches: Sketcher_Workbench/fr
    Version: 0.17
-   SeeAlso: Sketcher_BSplineDegree/fr, Sketcher_BSplineDecreaseDegree/fr
+   SeeAlso: Sketcher_BSplineDecreaseDegree/fr
 ---
 
 # Sketcher BSplineIncreaseDegree/fr
 
 ## Description
 
-Augmente le degré (ordre) d\'une B-spline (voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
-
-Les B-splines sont essentiellement une combinaison de [courbes de Bézier](https://fr.wikipedia.org/wiki/Courbe_de_B%C3%A9zier) (bien expliqué ces vidéos [ici](https://www.youtube.com/watch?v=bE1MrrqBAl8) et [ici](https://www.youtube.com/watch?v=xXJylM2S72s)).
-
-Dans cette spline cubique (degré 3) il y a 3 segments, ce qui signifie que 3 courbes sont reliées à 2 nœuds
-(le degré est indiqué par le nombre, l\'indication peut être modifiée à l\'aide du bouton de la barre d\'outils **[<img src=images/Sketcher_BSplineDegree.svg style="width:24px"> [Afficher/masquer le degré B-spline](Sketcher_BSplineDegree/fr.md)**) :
-
-<img alt="" src=images/Sketcher_BSplineDegree3.png  style="width:400px;"> 
-*Une B-spline de degrés 3 et avec 2 nœuds qui ont chacun la multiplicité 1.*
-
-Les segments extérieurs ont chacun 2 points de contrôle, le point intérieur aucun pour remplir la contrainte que les nœuds ont la multiplicité 1. (voir [cette page](Sketcher_BSplineDecreaseKnotMultiplicity/fr#Description.md) pour une explication de la multiplicité)
-
-Augmenter le degré ajoutera des points de contrôle et la forme de la spline ne sera pas modifiée :
-
-<img alt="" src=images/Sketcher_BSplineDegree4.png  style="width:400px;"> 
-*Même B-spline où le degré a été changé de 3 à 4. Notez que la multiplicité des nœuds a également été augmentée.*
-
-Si vous prenez ce résultat et diminuez le degré, vous ne pouvez pas obtenir l\'état initial de la spline car les informations ont été perdues par la diminution précédente du degré. Pour notre exemple, la diminution du degré conduit à nouveau à ceci :
-
-<img alt="" src=images/Sketcher_BSplineDegree3from4.png  style="width:400px;"> 
-*Même B-spline où le degré est passé de 4 à 3. Notez que la multiplicité des nœuds a été augmentée. En fonction de la spline, l'algorithme pour diminuer le degré peut ajouter beaucoup de nœuds pour préserver la forme de la spline, comme ici avec cet exemple.*
-
-Vous pouvez voir que maintenant chaque segment a 2 points de contrôle et les nœuds coïncident avec chacun un autre point de contrôle. Les nœuds ont maintenant une continuité *C*^0^ de sorte que la spline obtienne des \"bords\" lorsque vous déplacez un point de contrôle. Ainsi, l\'information d\'une continuité supérieure est perdue. (voir [cette page](Sketcher_BSplineDecreaseKnotMultiplicity/fr#Description.md) pour une explication de la continuité)
+L\'outil <img alt="" src=images/Sketcher_BSplineIncreaseDegree.svg  style="width:24px;"> [Sketcher Augmenter le degré d\'une B-spline](Sketcher_BSplineIncreaseDegree/fr.md) augmente le degré (l\'ordre) des [B-splines](B-Splines/fr.md).
 
 
 
 ## Utilisation
 
-1.  Sélectionnez une arête à partir d\'une B-spline existante et appuyez sur **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> '''Augmenter le degré de la B-spline'''**.
+1.  Sélectionnez une ou plusieurs B-splines.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_BSplineIncreaseDegree.svg" width=16px> [Augmenter le degré de la B-spline](Sketcher_BSplineIncreaseDegree/fr.md)**.
+
+    -   Sélectionnez l\'option **Esquisse → Outils d'esquisse des B-splines → <img src="images/Sketcher_BSplineIncreaseDegree.svg" width=16px> Augmenter le degré de la B-spline** du menu.
+
+    -   
+        {{Version/fr|1.0}}
+        
+        : cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **<img src="images/Sketcher_BSplineIncreaseDegree.svg" width=16px> Augmenter le degré de la B-spline** du menu contextuel.
+
+
+
+## Exemple
+
+Les B-splines sont essentiellement une combinaison de [courbes de Bézier](https://fr.wikipedia.org/wiki/Courbe_de_B%C3%A9zier) (bien expliqué ces vidéos [ici](https://www.youtube.com/watch?v=bE1MrrqBAl8) et [ici](https://www.youtube.com/watch?v=xXJylM2S72s)).
+
+Dans cette spline cubique (degré 3) il y a 3 segments, ce qui signifie que 3 courbes sont reliées à 2 nœuds.
+
+Le degré est indiqué par le chiffre au centre. Voir <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:16px;"> [Afficher/masquer le degré des B-splines](Sketcher_BSplineDegree/fr.md).
+
+<img alt="" src=images/Sketcher_BSplineDegree3.png  style="width:400px;"> 
+*Une B-spline de degrés 3 et avec 2 nœuds qui ont chacun une multiplicité de 1.*
+
+Les segments extérieurs ont chacun 2 points de contrôle, le segment intérieur n\'en a aucun pour s\'assurer que les nœuds ont une multiplicité de 1. Voir [cette page](Sketcher_BSplineDecreaseKnotMultiplicity/fr#Description.md) pour une explication de la multiplicité.
+
+En augmentant le degré à 4, on ajoute des points de contrôle sans modifier la forme de la B-spline :
+
+<img alt="" src=images/Sketcher_BSplineDegree4.png  style="width:400px;"> 
+*Même B-spline où le degré a été changé de 3 à 4. Notez que la multiplicité des nœuds a également été augmentée.*
+
+À partir de ce résultat, il n\'est pas possible de revenir à l\'état initial de la B-spline en diminuant le degré. Certaines informations sont perdues lorsque le degré d\'une B-spline est modifié. Diminuer le degré à 3 conduit à ce résultat :
+
+<img alt="" src=images/Sketcher_BSplineDegree3from4.png  style="width:400px;"> 
+*Même B-spline où le degré a été ramené de 4 à 3. Notez que la multiplicité des nœuds a de nouveau augmenté. En fonction de la B-spline, l'algorithme de réduction du degré peut ajouter un grand nombre de nœuds pour préserver la forme, comme c'est le cas ici.*
+
+Chaque segment a maintenant 2 points de contrôle et chaque nœud coïncide avec un point de contrôle supplémentaire. Les nœuds ont une continuité *C^0^* telle que la B-spline obtiendra des \"coins\" si vous déplacez un point de contrôle. L\'information d\'une continuité plus élevée est donc perdue. Voir [cette page](Sketcher_BSplineDecreaseKnotMultiplicity/fr#Description.md) pour une explication sur la continuité.
 
 
 

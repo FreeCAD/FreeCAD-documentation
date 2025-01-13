@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch Panel Sheet
    Name/fr: Arch Feuille de panneaux
-   MenuLocation: Arch , Outils pour les panneaux , Feuille de panneaux
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: Utilitaires , Outils pour les panneaux , Feuille de panneaux
+   Workbenches: BIM_Workbench/fr
    Shortcut: **P** **S**
    SeeAlso: Arch_Panel/fr, Arch_Panel_Cut/fr, Arch_Nest/fr
 ---
@@ -14,9 +14,9 @@
 
 Cet outil permet de construire une feuille 2D, comprenant un nombre quelconque d\'objets [Arch Découpe de panneau](Arch_Panel_Cut/fr.md), ou tout autre objet 2D tel que ceux réalisés par l\'[atelier Draft](Draft_Workbench/fr.md) et l\'[atelier Sketcher](Sketcher_Workbench/fr.md). La feuille de panneaux est généralement réalisée pour mettre en page les découpes à effectuer par une machine CNC. Ces feuilles peuvent ensuite être exportées vers un fichier [DXF](Draft_DXF/fr.md).
 
-<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:600px;">
 
-<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:600px;">
 
 *L\'image ci-dessus montre comment les feuilles de panneaux apparaissent lors de l\'exportation au format DXF.*
 
@@ -25,7 +25,7 @@ Cet outil permet de construire une feuille 2D, comprenant un nombre quelconque d
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets [Arch Découpe de panneau](Arch_Panel_Cut/fr.md) ou tout autre objet 2D qui se trouve sur le plan XY.
-2.  Appuyez sur le bouton **<img src="images/Arch_Panel_Sheet.svg" width=16px> [Feuille de panneaux](Arch_Panel_Sheet/fr.md)**, ou appuyez sur les touches **P** puis **S**.
+2.  Sélectionnez l\'option **Utilitaires → Outils pour les panneaux → <img src="images/Arch_Panel.svg" width=16px> Feuille de panneaux** du menu.
 3.  Réglez les propriétés souhaitées.
 
 ## Options
@@ -130,5 +130,13 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/fr
+⏵ [documentation index](../README.md) > Arch Panel Sheet/fr

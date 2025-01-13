@@ -1,9 +1,14 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand
    Name: FEM MeshGmshFromShape
    MenuLocation: Mesh , FEM mesh from shape by Gmsh
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
+}}
+{{GuiCommandFemInfo
+   Solvers: All
+}}
 ---
 
 # FEM MeshGmshFromShape
@@ -16,14 +21,17 @@ Depending on your operating system and your installation package, Gmsh might be 
 
 ## Usage
 
-1.  Select the shape you want to analyze. For volume FEM this needs to be a solid or compsolid. A compsolid is necessary if your part is made from multiple materials. (A compsolid can be created with the [BooleanFragments](Part_BooleanFragments.md) command.)
+1.  Select the shape you want to analyze. For volume FEM this needs to be a solid or compsolid. A compsolid is necessary if your part is made from multiple materials (a compsolid can be created with the [BooleanFragments](Part_BooleanFragments.md) command).
+2.  Activate the tool in one of the following ways:
     -   Press the **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md)** button.
     -   Select the **Mesh → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> FEM mesh from shape by Gmsh** option from the menu.
-2.  Optionally edit the minimal and maximal element size (autodetection often creates meshes that are too coarse).
-3.  Click the **Apply** button and wait for the generation of the mesh to complete.
-4.  Close the task. You now should see a new FEMMeshGMSH object in your active analysis container.
+3.  Optionally, edit the minimum and maximum element size (the default setting often creates meshes that are too coarse). You can also change the element dimension (but the default *From shape* setting is normally sufficient) and order.
+4.  Click the **Apply** button and wait for the generation of the mesh to complete. <small>(v1.0)</small> : Optionally, press the **Cancel** button to abort meshing.
+5.  Click the **OK** button to close the task. You now should see a new FEMMeshGmsh object in your active analysis container. You can also click the **Cancel** button to cancel the changes or creation of the mesh object.
 
 After the mesh has been created, you can change its properties using the [property editor](Property_editor.md). After you change a property, you must reopen the Gmsh dialog again and click the **Apply** button (you can leave the dialog open while changing properties).
+
+The **Gmsh version** button allows you to check the details about the currently linked Gmsh binary.
 
 ## Properties
 
@@ -77,6 +85,13 @@ After the mesh has been created, you can change its properties using the [proper
 
     -   true; linear interpolation is used
     -   false (default); curvilinear interpolation is used
+
+-    **Subdivision Algorithm**<small>(v1.0)</small> : allows the creation of quadrilateral and hexahedral elements by subdivision
+
+    -   None; doesn\'t use any subdivision algorithm
+    -   All Quadrangles; creates quadrilateral elements by subdivision
+    -   All Hexahedra; creates hexahedral elements by subdivision
+    -   Barycentric; creates triangular elements by barycentric subdivision
 
 ## Notes
 

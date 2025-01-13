@@ -5,7 +5,11 @@
 
 </div>
 
+
+
 ## Descriere
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -15,13 +19,23 @@
 
 </div>
 
+
+
 ## Opţiuni
+
+
 
 ## Proprietăți
 
+
+
 ## Limite
 
+
+
 ## Notă
+
+
 
 ## Scrip-Programare 
 

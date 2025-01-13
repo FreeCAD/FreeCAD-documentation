@@ -6,7 +6,7 @@
 
 für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
 
-Ein FreeCAD Symbol wird aus 6 Elementen zusammengesetzt, die man sich mit dem Akronym SALCHO merken kann: **S**troke, **A**lignment, **L**ighting, **C**olor, **H**ighlighting, **O**utline. (deutsch: *Strich*, *Ausrichtung*, *Beleuchtung*, *Farbe*, *Hervorhebung*, *Kontur*)
+Ein FreeCAD **Symbol** (icon) wird aus 6 Elementen zusammengesetzt, die man sich mit dem Akronym SALCHO merken kann: **S**troke, **A**lignment, **L**ighting, **C**olor, **H**ighlighting, **O**utline. (deutsch: *Strich*, *Ausrichtung*, *Beleuchtung*, *Farbe*, *Hervorhebung*, *Kontur*)
 
 Hier ist ein konkretes, wenn auch willkürliches Beispiel:
 
@@ -42,21 +42,64 @@ Dieses Symbol wird wie folgt angezeigt:
 
 FreeCAD verwendet eine Palette, die der [Tango Palette](https://web.archive.org/web/20190921043652/http://tango.freedesktop.org/tango_icon_theme_guidelines) nachempfunden ist. Jede Hauptfarbe gibt es in 4 Farbtönen: Highlight, Base, Dark und Outline. Beachte, dass die Umrisslinie nicht komplett schwarz ist, sondern eine sehr dunkle Variante der Grundfarbe.
 
-![](images/Green_tones.PNG ) 
-*Beispiel für eine 4 Ton Farbfamilie (Chamäleon)*
++++++
+| #fce94f         | #edd400         | #c4a000         | #302b00         |
+| (252, 233, 79)  | (237, 212, 0)   | (196, 160, 0)   | (48, 43, 0)     |
+| Butter 1        | Butter 2        | Butter 3        | Butter 4        |
++=================+=================+=================+=================+
+| #8ae234         | #73d216         | #4e9a06         | #172a04         |
+| (138, 226, 52)  | (115, 210, 22)  | (78, 154, 6)    | (23, 42, 4)     |
+| Chameleon 1     | Chameleon 2     | Chameleon 3     | Chameleon 4     |
++++++
+| #fcaf3e         | #f57900         | #ce5c00         | #321900         |
+| (252, 175, 62)  | (245, 121, 0)   | (206, 92, 0)    | (50, 25, 0)     |
+| Orange 1        | Orange 2        | Orange 3        | Orange 4        |
++++++
+| #729fcf         | #3465a4         | #204a87         | #0b1521         |
+| (114, 159, 207) | (52, 101, 164)  | (32, 74, 135)   | (11, 21, 33)    |
+| Sky Blue 1      | Sky Blue 2      | Sky Blue 3      | Sky Blue 4      |
++++++
+| #ad7fa8         | #75507b         | #5c3566         | #171018         |
+| (173, 127, 168) | (117, 80, 123)  | (92, 53, 102)   | (23, 16, 24)    |
+| Plum 1          | Plum 2          | Plum 3          | Plum 4          |
++++++
+| #e9b96e         | #c17d11         | #8f5902         | #271903         |
+| (233, 185, 110) | (193, 125, 17)  | (143, 89, 2)    | (39, 25, 3)     |
+| Chocolate 1     | Chocolate 2     | Chocolate 3     | Chocolate 4     |
++++++
+| #ef2929         | #cc0000         | #a40000         | #280000         |
+| (239, 41, 41)   | (204, 0, 0)     | (164, 0, 0)     | (40, 0, 0)      |
+| Scarlet Red 1   | Scarlet Red 2   | Scarlet Red 3   | Scarlet Red 4   |
++++++
+| #34e0e2         | #16d0d2         | #06989a         | #042a2a         |
+| (52, 224, 226)  | (22, 208, 210)  | (6, 152, 154)   | (4, 42, 42)     |
+| FreeTeal 1      | FreeTeal 2      | FreeTeal 3      | FreeTeal 4      |
++++++
+| #ffffff         | #eeeeec         | #d3d7cf         | #babdb6         |
+| (255, 255, 255) | (238, 238, 236) | (211, 215, 207) | (186, 189, 182) |
+| Snowy White     | Aluminium 1     | Aluminium 2     | Aluminium 3     |
++++++
+| #888a85         | #555753         | #2e3436         | #000000         |
+| (136, 138, 133) | (85, 87, 83)    | (46, 52, 54)    | (0, 0, 0)       |
+| Aluminium 4     | Aluminium 5     | Aluminium 6     | Jet Black       |
++++++
 
-Siehe [FreeCAD Palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) für die gesamte Bandbreite. Eine Auswahl einiger Schlüsselfarben.
+
+
+*Vollständige Palette*
+
+Eine Auswahl einiger Hauptfarben.
 
       
-                                                                                                                                                          Verwende die gelben Farbtöne für Werkzeuge, die Objekte erstellen; für ein Beispiel siehe [Teil](Part_Workbench/de.md) und [Entwurf Arbeitsbereich](Draft_Workbench/de.md).
-  style=\"background-color:#729fcf;\|   style=\"background-color:#3465a4;\|   style=\"background-color:#204a87;\|   style=\"background-color:#0b1521;\|   Verwende die Blautöne für Werkzeuge, die Objekte verändern; für ein Beispiel siehe [Teil](Part_Workbench/de.md) und [Entwurf Arbeitsbereich](Draft_Workbench/de.md).
-  style=\"background-color:#34e0e2\|    style=\"background-color:#16d0d2\|    style=\"background-color:#06989a\|    style=\"background-color:#042a2a\|    Verwende die blaugrünen Farbtöne für ansichtsbezogene Werkzeuge; für ein Beispiel siehe das [Ansichtsmenü](Std_View_Menu/de.md).
-  style=\"background-color:#ef2929\|    style=\"background-color:#cc0000\|    style=\"background-color:#a40000\|    style=\"background-color:#280000\|    Verwende die roten Töne für Werkzeuge, die sich auf Beschränkungen beziehen; für ein Beispiel siehe [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md).
+                                                                                                                                                          Gelbtöne sollten für Werkzeuge verwendet werden, die Objekte erstellen; siehe die Arbeitsbereiche [Part](Part_Workbench/de.md) und [Draft](Draft_Workbench/de.md) für Beispiele.
+  style=\"background-color:#729fcf;\|   style=\"background-color:#3465a4;\|   style=\"background-color:#204a87;\|   style=\"background-color:#0b1521;\|   Blautöne sollten für Werkzeuge verwendet werden, die Objekte verändern; siehe die Arbeitsbereiche [Part](Part_Workbench/de.md) und [Draft](Draft_Workbench/de.md) für Beispiele.
+  style=\"background-color:#34e0e2\|    style=\"background-color:#16d0d2\|    style=\"background-color:#06989a\|    style=\"background-color:#042a2a\|    Türkistöne sollten für Werkzeuge im Zusammenhang mit Ansichten verwendet werden; siehe [Menü Ansicht](Std_View_Menu/de.md) für Beispiele.
+  style=\"background-color:#ef2929\|    style=\"background-color:#cc0000\|    style=\"background-color:#a40000\|    style=\"background-color:#280000\|    Rottöne sollten für Werkzeuge im Zusammenhang mit (dem Festlegen von) Randbedingungen verwendet werden; siehe den Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) für Beispiele.
       
 
    
-  style=\"width: 25%;\|Warum sollte ich mich auf diese Farben begrenzen?   Die Einschränkung auf eine bestimmte Farbpalette hilft, eine heterogene Ikonographie zu vermeiden und verbessert die Lesbarkeit bei vielen Symbolen.
-  Wie verwende ich die FreeCAD Palette?                                    Die Installation [der Palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) ist so einfach wie [Kopiere dir sie in deinen Inkscape Palettenordner](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
+  style=\"width: 25%;\|Warum sollte ich mich auf diese Farben beschränken?   Die Einschränkung auf eine bestimmte Farbpalette hilft, eine heterogene Ikonographie zu vermeiden und verbessert die Lesbarkeit bei vielen Symbolen.
+  Wie verwende ich die FreeCAD-Palette?                                      Die Installation [der Palette](https://gist.github.com/GAZ082/724d2092b2986e3b17b9663f34093cf5) ist so einfach wie [Kopiere dir sie in deinen Inkscape Palettenordner](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
    
 
 

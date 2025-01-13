@@ -41,29 +41,31 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_ViewLoadImage.svg  style="width:32px;"> [Bild laden\...](Std_ViewLoadImage/de.md): Lädt ein Bild (zur Ansicht). {{Version/de|0.21}}
 
--   <img alt="" src=images/Std_SceneInspector.svg  style="width:32px;"> [Szenen Inspektor\...](Std_SceneInspector/de.md): Zeigt eine Übersicht der Szenegraph-Knoten der aktiven 3D-Ansicht an.
+-   <img alt="" src=images/Std_SceneInspector.svg  style="width:32px;"> [Szenengraph untersuchen\...](Std_SceneInspector/de.md): Zeigt eine Übersicht der Szenengraph-Knoten der aktiven 3D-Ansicht an.
 
--   <img alt="" src=images/Std_DependencyGraph.svg  style="width:32px;"> [Abhängigkeitsgraph\...](Std_DependencyGraph/de.md): Zeigt den Abhängigkeitsgraphen von Objekten an.
+-   <img alt="" src=images/Std_DependencyGraph.svg  style="width:32px;"> [Abhängigkeitsdiagramm\...](Std_DependencyGraph/de.md): Zeigt das Abhängigkeitsdiagramm von Objekten an.
 
--   <img alt="" src=images/Std_ProjectUtil.svg  style="width:32px;"> [Projekt Hilfsmittel\...](Std_ProjectUtil/de.md): Hilft bei der Reparatur beschädigter Projektdateien.
+-   [Abhängigkeitsdiagramm exportieren\...](Std_ExportDependencyGraph/de.md) {{Version/de|0.21}}
 
--   <img alt="" src=images/Std_MeasureDistance.svg  style="width:32px;">: [Abstand messen](Std_MeasureDistance/de.md) Erstellt ein Objekt zum Messen und Anzeigen eines Abstands.
+-   <img alt="" src=images/Std_ProjectUtil.svg  style="width:32px;"> [Dokument-Dienstprogramm\...](Std_ProjectUtil/de.md): Hilft bei der Reparatur beschädigter Projektdateien.
 
--   <img alt="" src=images/Std_TextDocument.svg  style="width:32px;">: [Hinzufügen Textdokument](Std_TextDocument/de.md): Erstellt ein Objekt, das Text enthalten kann.
+-   <img alt="" src=images/Std_TextDocument.svg  style="width:32px;">: [Textdokument hinzufügen](Std_TextDocument/de.md): Erstellt ein Objekt, das Text enthalten kann.
 
--   <img alt="" src=images/Std_DemoMode.svg  style="width:32px;"> [Ansicht Drehscheibe\...](Std_DemoMode/de.md): Dreht die Kamera in der aktiven 3D-Ansicht kontinuierlich.
+-   <img alt="" src=images/Std_DemoMode.svg  style="width:32px;"> [Drehscheibe\...](Std_DemoMode/de.md): Dreht die Kamera in der aktiven 3D-Ansicht kontinuierlich.
 
--   <img alt="" src=images/Std_UnitsCalculator.svg  style="width:32px;"> [Einheitenrechner\...](Std_UnitsCalculator/de.md): Öffnet einen Rechner für die Umrechnung von Einheiten.
+-   <img alt="" src=images/Std_UnitsCalculator.svg  style="width:32px;"> [Einheiten-Umrechner\...](Std_UnitsCalculator/de.md): Öffnet einen Rechner für die Umrechnung von Maßeinheiten.
 
--   <img alt="" src=images/Std_DlgCustomize.svg  style="width:32px;"> [Anpassung\...](Std_DlgCustomize/de.md): Öffnet ein Dialogfeld mit Anpassungsoptionen.
+-   <img alt="" src=images/Std_DlgCustomize.svg  style="width:32px;"> [Anpassen\...](Std_DlgCustomize/de.md): Öffnet ein Dialogfeld mit Anpassungsoptionen.
 
--   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Addon-Manager](Std_AddonMgr/de.md): Öffnet den Addon-Manager, mit dem [Externe Arbeitsbereiche](External_workbenches/de.md) und [Makros](macros/de.md) installiert werden können.
+-   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Addon-Manager](Std_AddonMgr/de.md): Öffnet den Addon-Manager, mit dem [externe Arbeitsbereiche](External_workbenches/de.md), [Voreinstellungspakete](Preference_Packs/de.md) und [Makros](macros/de.md) installiert werden können.
+
+-   <img alt="" src=images/Std_Measure.svg  style="width:32px;"> [Messen](Std_Measure/de.md): MIsst Objekte {{Version/de|1.0}}
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

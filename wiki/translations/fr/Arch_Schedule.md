@@ -2,21 +2,16 @@
  GuiCommand:
    Name: Arch Schedule
    Name/fr: Arch Nomenclature
-   MenuLocation: Arch , Nomenclature
-   Workbenches: Arch_Workbench/fr
-   SeeAlso: Arch_Equipment/fr
+   MenuLocation: Gestion , Nomenclature
+   Workbenches: BIM_Workbench/fr
+   SeeAlso: 
 ---
 
 # Arch Schedule/fr
 
 ## Description
 
-L\'outil Nomenclature vous permet de créer et d\'alimenter automatiquement une [feuille de calculs](Spreadsheet_Workbench/fr.md) avec les contenus recueillis dans le modèle.
-
-
-**Remarque**
-
-: cet outil a été complètement réécrit dans la version 0.17 de FreeCAD et est différent des versions précédentes.
+L\'outil **Arch Nomenclature** vous permet de créer et d\'alimenter automatiquement une [feuille de calculs](Spreadsheet_Workbench/fr.md) avec les contenus recueillis dans le modèle.
 
 Pour une solution plus générale, consultez l\'[atelier Reporting](https://github.com/furti/FreeCAD-Reporting/tree/master) dans la liste des [ateliers externes](External_workbenches/fr.md). Cet atelier utilise la syntaxe SQL pour extraire des informations du document.
 
@@ -24,10 +19,10 @@ Pour une solution plus générale, consultez l\'[atelier Reporting](https://gith
 
 ## Utilisation
 
-1.  Ouvrer ou créer un document FreeCAD qui contient plusieurs objets.
-2.  Cliquer sur le bouton **<img src="images/Arch_Schedule.svg" width=16px> [Nomenclature](Arch_Schedule/fr.md)**.
-3.  Ajuster les options désirées.
-4.  Cliquer **OK**.
+1.  Ouvrez ou créez un document FreeCAD contenant quelques objets.
+2.  Appuyez sur le bouton **<img src="images/Arch_Schedule.svg" width=16px> [Nomenclature](Arch_Schedule/fr.md)**.
+3.  Ajustez les options souhaitées. Activez l\'option **Lier à une feuille de calcul** si vous souhaitez que la nomenclature génère une [feuille de calcul](Spreadsheet_Workbench/fr.md) FreeCAD. Ou bien, cliquez avec le bouton droit de la souris sur la nomenclature dans la [vue en arborescence](Tree_view/fr.md) après sa création et sélectionnez **Joindre une feuille de calcul** dans le menu contextuel.
+4.  Appuyez sur **OK**.
 
 
 
@@ -37,67 +32,65 @@ Tout d\'abord, vous devez disposer d\'un modèle. Par exemple, voici un document
 
 ![](images/Arch_schedule_example01.jpg )
 
-Vous appuyez sur le bouton **<img src="images/Arch_Schedule.svg" width=16px> [Nomenclature](Arch_Schedule/fr.md)**. Vous obtenez un panneau de tâches comme celui-ci. Il est assez large, vous devrez donc élargir le panneau des tâches pour travailler confortablement.
+Lorsque vous appuyez sur le bouton **<img src="images/Arch_Schedule.svg" width=16px> [Nomenclature](Arch_Schedule/fr.md)**, cette fenêtre de dialogue s\'ouvre :
 
-![](images/Arch_schedule_example02.jpg )
+![](images/ArchSchedule.png )
 
-Ensuite, vous pouvez remplir le classeur ligne par ligne. Chaque ligne est une \"requête\" et affichera une ligne dans la feuille de calcul. Appuyez sur le bouton **Ajouter** pour ajouter une nouvelle ligne et double-cliquez sur chaque cellule de cette ligne pour remplir les valeurs. Le bouton **Supprimer** supprimera la ligne qui contient une cellule sélectionnée, et **Effacer** supprimera toutes les lignes. Les valeurs possibles à mettre dans les colonnes sont :
+Vous pouvez maintenant remplir la nomenclature ligne par ligne. Chaque ligne est une \"requête\" et affichera une ligne dans la feuille de calcul. Appuyez sur le bouton **<img src="images/List-add.svg" width=16px> Ajouter une ligne** pour ajouter une nouvelle ligne, et double-cliquez sur chaque cellule de cette ligne pour remplir les valeurs. Le bouton **<img src="images/List-remove.svg" width=16px> Supprimer une ligne** supprimera la ligne qui contient une cellule sélectionnée et **<img src="images/Delete.svg" width=16px> Effacer** supprimera toutes les lignes. Les valeurs possibles pour les colonnes sont :
 
--   **Description** : description pour cette requête. La colonne Description sera la première colonne de la feuille de calcul résultante. Une description est obligatoire pour qu\'une requête soit effectuée. Si vous laissez la cellule de description vide, toute la ligne sera ignorée et laissée vide dans la feuille de calcul. Cela vous permet d\'ajouter des lignes \"séparateur\".
--   **Valeur** : il s\'agit de la requête réelle que vous souhaitez effectuer sur tous les objets sélectionnés par la requête. Il peut s\'agir de deux choses: soit le mot `count`, soit une propriété d\'objet:
-    -   Si vous entrez `count` (ou `Count` ou `COUNT`, insensible à la casse), les objets sélectionnés seront simplement comptés.
-    -   Si vous entrez une propriété d\'objet, la valeur de cette propriété pour chacun des objets sélectionnés sera extraite et résumée. Les objets qui ne possèdent pas la propriété seront ignorés. Utilisez la notation par points pour récupérer les propriétés des propriétés : `PropertyOfObject.PropertyOfProperty1.PropertyOfProperty2`. Si la propriété avant le premier point commence par une lettre minuscule, elle sera considérée comme une référence à l\'objet lui-même et sera ignorée. Saisir par exemple `object.Shape.Volume` équivaut à saisir `Shape.Volume`.
--   **Unité** : unité optionnelle pour exprimer les résultats. C\'est à vous de donner une unité qui correspond à la requête que vous faites, par exemple, si vous récupérez des volumes, vous devez utiliser une unité de volume, telle que `m^3`. Si vous utilisez une mauvaise unité, par ex.cm, vous obtiendrez de mauvais résultats.
--   **Objets** : vous pouvez laisser ce champs vide, alors tous les objets du document seront considérés par cette requête, ou donner une liste séparée par des points-virgules (;) des noms d\'objets (pas d\'étiquettes). Si l\'un des objets de cette liste est un groupe, ses enfants seront également sélectionnés. La manière la plus simple d\'utiliser cette fonctionnalité est donc de regrouper vos objets de manière significative dans le document, et de donner ici simplement un nom de groupe. Vous pouvez également utiliser le bouton **Ajouter la sélection** pour ajouter des objets actuellement sélectionnés dans le document.
--   **Filtre** : ici vous pouvez ajouter un point-virgule `;` - liste de filtres séparés. Chaque filtre est écrit sous la forme: `property:value`. Vous ne pouvez utiliser que des propriétés contenant une valeur de chaîne. La propriété et la valeur ne sont pas sensibles à la casse. `value` peut être omis mais pas `:`. Pour gérer correctement les nomenclatures créées avec les versions précédentes d\'Arch Nomenclature, la propriété `type` sera traduite en propriété `ifctype`. Il est conseillé de ne pas utiliser `type` dans les nouveaux horaires.
+-   **Description** : une description de cette requête. La colonne Description sera la première colonne de la feuille de calcul résultante. La description est obligatoire pour qu\'une requête soit exécutée. Si vous laissez la cellule de description vide, la ligne entière sera ignorée et laissée vide dans la feuille de calcul. Cela vous permet d\'ajouter des lignes \"séparatrices\".
+-   **Propriété** : c\'est la requête réelle que vous souhaitez effectuer sur tous les objets sélectionnés par la requête. Il peut s\'agir de deux choses : soit le mot `count`, soit une propriété de l\'objet :
+    -   Si vous entrez `count` (ou `Count` ou `COUNT`, la casse n\'est pas prise en compte), les objets sélectionnés seront simplement comptés.
+    -   Si vous saisissez une propriété d\'objet, la valeur de cette propriété sera récupérée pour chacun des objets sélectionnés et additionnée. Les objets qui n\'ont pas la propriété donnée seront ignorés. En général, le nom d\'une propriété est celui qui apparaît dans l\'[éditeur de propriétés](Property_editor/fr.md), sans espace (par exemple, tapez `PerimeterLength` dans la colonne Propriété si l\'objet a un `Perimeter Length` dans l\'éditeur de propriétés). Utilisez la notation par points pour récupérer les propriétés des propriétés : `PropertyOfObject.PropertyOfProperty1.PropertyOfProperty2`. Si la propriété précédant le premier point commence par une lettre minuscule, elle sera considérée comme une référence à l\'objet lui-même et sera ignorée. Saisir par exemple `object.Shape.Volume` revient à saisir `Shape.Volume`.
+-   **Unité** : une unité facultative pour exprimer les résultats. Par exemple, si vous recherchez des volumes, vous devez utiliser une unité de volume, telle que `m^3` ou `m³`. Si vous utilisez une mauvaise unité pour la propriété, par exemple `cm` pour le volume, vous obtiendrez de faux résultats.
+-   **Objets** : si vous pouvez laisser ce champ vide alors tous les objets du document seront pris en compte par cette requête, ou rentrez une liste de noms d\'objets séparés par des points-virgules `;`. Si l\'un des objets de cette liste est un groupe, ses enfants seront également sélectionnés. La manière la plus simple d\'utiliser cette fonction est donc de regrouper vos objets de manière significative dans le document, et de donner un nom de groupe ici. Vous pouvez également utiliser le **<img src="images/Edit-select-all.svg" width=16px> Ajouter une sélection** pour ajouter les objets sélectionnés dans le document. Vous devez utiliser des noms internes ici. Pour sélectionner les objets par leur étiquette, laissez cette colonne vide et utilisez la colonne Filtre à la place.
+-   **Filtre** : ici vous pouvez ajouter une liste de filtres séparés par un point-virgule `;`. Chaque filtre est écrit sous la forme : `property:value`. Vous ne pouvez utiliser que des propriétés contenant une chaîne de caractères. La propriété et la valeur sont insensibles à la casse. `value` peut être omis mais pas `:`. Pour gérer correctement les nomenclatures créées avec des versions antérieures d\'Arch Nomenclature, la propriété `type` sera traduite en propriété `ifctype`. Il est conseillé de ne pas utiliser `type` dans les nouveaux programmes.
 
-:   Par exemple :
++++
+| Requête                                | Description                                                                                                                                                                                                                                                                                                                         |
++========================================+=====================================================================================================================================================================================================================================================================================================================================+
+|                         | Cette requête ne retient que les objets dont le **Label** contient \"floor1\" et dont **IFC Type** contient \"window\". Une fenêtre avec **Label** \"Floor1-AA\" et **IFC Type** \"Window Standard Case\" sera incluse. |
+| `label:floor1;ifctype:window` |                                                                                                                                                                                                                                                                                                                                     |
+|                                     |                                                                                                                                                                                                                                                                                                                                     |
++++
+|                         | Ne retiendra que les objets ayant \"door\" dans leur **Label**                                                                                                                                                                                                                                           |
+| `label:door`                  |                                                                                                                                                                                                                                                                                                                                     |
+|                                     |                                                                                                                                                                                                                                                                                                                                     |
++++
+|                         | Ne retiendra que les objets qui n\'ont pas \"door\" dans leur **Label**                                                                                                                                                                                                                                  |
+| `!label:door`                 |                                                                                                                                                                                                                                                                                                                                     |
+|                                     |                                                                                                                                                                                                                                                                                                                                     |
++++
+|                         | Ne retiendra que les objets qui ont \"structural\" dans leurs **IFC Type**                                                                                                                                                                                                                               |
+| `ifctype:structural`          |                                                                                                                                                                                                                                                                                                                                     |
+|                                     |                                                                                                                                                                                                                                                                                                                                     |
++++
+|                         | Ne retiendra que les objets qui n\'ont pas \"structural\" dans **IFC Type** ou qui n\'ont pas la propriété **IFC Type**.                                                                                                                                                      |
+| `!ifctype:something`          |                                                                                                                                                                                                                                                                                                                                     |
+|                                     |                                                                                                                                                                                                                                                                                                                                     |
++++
+|                         | Ne conservera que les objets qui n\'ont pas la propriété **IFC Type**.                                                                                                                                                                                                                                   |
+| `!ifctype:`                   |                                                                                                                                                                                                                                                                                                                                     |
+|                                     |                                                                                                                                                                                                                                                                                                                                     |
++++
 
-    :   
-        `label:floor1;ifctype:window`
-        
-        ne conservera que les objets qui ont \"floor1\" dans leur **Label** et \"window\" dans leur **IFC Type**. Une fenêtre avec **Label** \"Floor1-AA\" et **IFC Type** \"Window Standard Case\" sera inclus.
+: Exemples de requêtes de filtrage
 
-    :   
-        `label:door`
-        
-        ne conservera que les objets qui ont \"door\" dans leur **Label**.
+Le bouton **<img src="images/Document-open.svg" width=16px> Importer** vous permet de créer cette liste dans un autre tableur et de l\'importer ici sous forme de fichier CSV.
 
-    :   
-        `!label:door`
-        
-        ne conservera que les objets qui n\'ont pas de \"door\" dans leur **Label**.
+La nomenclature terminée peut ressembler à ceci :
 
-    :   
-        `ifctype:structural`
-        
-        ne conservera que les objets qui ont \"structural\" dans leur **IFC Type**.
+![](images/ArchScheduleExample.png )
 
-    :   
-        `!ifctype:something`
-        
-        ne conservera que les objets qui n\'ont pas de \"structural\" dans leur **IFC Type** ou qui n\'ont pas la propriété **IFC Type**.
-
-    :   
-        `!ifctype:`
-        
-        ne conservera que les objets qui n\'ont pas la propriété **IFC Type**.
-
-Le bouton **Importer** vous permet de créer cette liste dans un autre tableur et de l\'importer ici sous forme de fichier csv.
-
-Nous pouvons donc construire une liste de requêtes comme celle-ci :
-
-![](images/Arch_schedule_example03.jpg )
-
-Après cela, appuyez sur le bouton **OK** et un nouvel objet Nomenclature est ajouté au document, qui contient une feuille de calcul de résultats :
+Enfin, appuyez sur **OK** et une nouvelle nomenclature est ajoutée au document. Si l\'option connexe a été sélectionnée, la nomenclature contiendra une feuille de calcul associée :
 
 ![](images/Arch_schedule_example04.jpg )
 
-En double-cliquant sur l\'objet Nomenclature, vous revenez au panneau des tâches et modifiez les valeurs. En double-cliquant sur la feuille de calcul elle-même, vous obtenez les résultats dans 3 colonnes : description, valeur, unité (le cas échéant) :
+Pour modifier une nomenclature existante, double-cliquez dessus dans l\'arborescence. En double-cliquant sur la feuille de calcul, vous obtenez les résultats dans 3 colonnes : Description, Valeur, Unité (le cas échéant) :
 
 ![](images/Arch_schedule_example05.jpg )
 
-La feuille de calcul peut ensuite être exportée au format CSV normalement, à partir de l\'atelier Spreadsheet.
+La feuille de calcul peut ensuite être exportée au format CSV normalement à partir de l\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md).
 
 
 
@@ -107,5 +100,13 @@ Il est possible d\'ajouter vos propres propriétés aux objets. Celles-ci sont a
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/fr
+⏵ [documentation index](../README.md) > Arch Schedule/fr

@@ -11,31 +11,19 @@
 |Download=[https://www.freecadweb.org/wiki/images/a/a3/Macro_Stairs.png ToolBar Icon]
 }}
 
-## Description
 
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
 Crea una scala a chiocciola
 
-
-</div>
-
 <img alt="" src=images/Macro_CircularStair.png  style="width:480px;">
 
-## Usage
 
 
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 Creare lo scalino modello, selezionare l\'oggetto e avviare la macro
-
-
-</div>
 
 -   **Hmarche** : alzata dello scalino
 -   **nombre** : numero di scalini per giro
@@ -47,7 +35,7 @@ Creare lo scalino modello, selezionare l\'oggetto e avviare la macro
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Stairs.png )
+Icona barra strumenti ![](images/Macro_Stairs.png )
 
 **Macro_Stairs.FCMacro**
 
@@ -124,17 +112,11 @@ except Exception:
 
 }}
 
-## Links
 
 
-<div class="mw-translate-fuzzy">
-
-## Link
+## Collegamenti
 
 La discussione nel forum [Newbie question - spiral stairs reloaded](http://forum.freecadweb.org/viewtopic.php?f=3&t=9921)
-
-
-</div>
 
 
 

@@ -46,6 +46,7 @@ Les outils suivants sont disponibles dans ce menu :
 -   Vues standards
     -   <img alt="" src=images/Std_ViewFitAll.svg  style="width:32px;"> [Tout afficher](Std_ViewFitAll/fr.md) : adapte tous les objets visibles à l\'intérieur de la vue.
     -   <img alt="" src=images/Std_ViewFitSelection.svg  style="width:32px;"> [Afficher la sélection](Std_ViewFitSelection/fr.md) : adapte les objets sélectionnés à l\'intérieur de la vue.
+    -   <img alt="" src=images/Std_AlignToSelection.svg  style="width:32px;"> [Aligner sur la sélection](Std_AlignToSelection/fr.md) : aligne la vue sur la sélection. {{Version/fr|1.0}}
     -   Axonométrique
         -   <img alt="" src=images/Std_ViewIsometric.svg  style="width:32px;"> [Isométrique](Std_ViewIsometric/fr.md) : bascule vers une vue isométrique.
         -   <img alt="" src=images/Std_ViewDimetric.svg  style="width:32px;"> [Dimétrique](Std_ViewDimetric/fr.md) : bascule vers une vue dimétrique.
@@ -57,13 +58,13 @@ Les outils suivants sont disponibles dans ce menu :
     -   <img alt="" src=images/Std_ViewRear.svg  style="width:32px;"> [Vue de l\'arrière](Std_ViewRear/fr.md) : bascule vers la vue arrière.
     -   <img alt="" src=images/Std_ViewBottom.svg  style="width:32px;"> [Vue de dessous](Std_ViewBottom/fr.md) : bascule vers la vue de dessous.
     -   <img alt="" src=images/Std_ViewLeft.svg  style="width:32px;"> [Vue de gauche](Std_ViewLeft/fr.md) : bascule vers la vue de gauche.
-    -   <img alt="" src=images/Std_RotateLeft.png  style="width:32px;"> [Rotation à gauche](Std_ViewRotateLeft/fr.md) : fait pivoter la vue vers la gauche.
-    -   <img alt="" src=images/Std_RotateRight.png  style="width:32px;"> [Rotation à droite](Std_ViewRotateRight/fr.md) : fait pivoter la vue vers la droite.
+    -   <img alt="" src=images/Std_ViewRotateLeft.svg  style="width:32px;"> [Rotation à gauche](Std_ViewRotateLeft/fr.md) : fait pivoter la vue vers la gauche.
+    -   <img alt="" src=images/Std_ViewRotateRight.svg  style="width:32px;"> [Rotation à droite](Std_ViewRotateRight/fr.md) : fait pivoter la vue vers la droite.
     -   [Stocker la vue de travail](Std_StoreWorkingView/fr.md) : stocke les paramètres de la caméra de la vue 3D active dans sa vue de travail. {{Version/fr|0.21}}
-    -   [Rappel de la vue de travail](Std_RecallWorkingView/fr.md) : rappelle la vue de travail stockée de la vue 3D active. {{Version/fr|0.21}}
+    -   [Rappel de la vue de travail](Std_RecallWorkingView/fr.md) : rappelle la vue de travail enregistrée de la vue 3D active. {{Version/fr|0.21}}
 
 -   [Figer l\'affichage](Std_FreezeViews/fr.md)
-    -   [Enregistrer les vues](Std_FreezeViews/fr#Enregistrer_les_vues.md) : enregistre les vues figées dans un fichier.
+    -   [Enregistrer les vues\...](Std_FreezeViews/fr#Enregistrer_les_vues.md) : enregistre les vues figées dans un fichier.
     -   [Charger les vues\...](Std_FreezeViews/fr#Charger_les_vues.md) : charge les vues figées à partir d\'un fichier.
     -   [Figer l\'affichage](Std_FreezeViews/fr#Figer_l.27affichage.md) : stocke la vue en cours dans une vue figée.
     -   [Effacer les vues](Std_FreezeViews/fr#Effacer_les_vues.md) : supprime toutes les vues figées.
@@ -85,7 +86,7 @@ Les outils suivants sont disponibles dans ce menu :
     -   <img alt="" src=images/Std_ViewIvStereoInterleavedRows.svg  style="width:32px;"> [Lignes stéréo entrelacées](Std_ViewIvStereoInterleavedRows/fr.md) : bascule vers la vue stéréo des lignes entrelacées.
     -   <img alt="" src=images/Std_ViewIvStereoInterleavedColumns.svg  style="width:32px;"> [Colonnes stéréo entrelacées](Std_ViewIvStereoInterleavedColumns/fr.md) : bascule vers la vue stéréo des colonnes entrelacées.
     -   <img alt="" src=images/Std_ViewIvStereoOff.svg  style="width:32px;"> [Stéréo désactivée](Std_ViewIvStereoOff/fr.md) : désactive la vue stéréo.
-    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> [Position de la caméra](Std_ViewIvIssueCamPos/fr.md) : imprime les paramètres de la caméra dans la [Vue rapport](Report_view/fr.md) et la [console Python](Python_console/fr.md).
+    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> [Position de la caméra](Std_ViewIvIssueCamPos/fr.md) : affiche les paramètres de la caméra dans la [vue rapport](Report_view/fr.md) et la [console Python](Python_console/fr.md).
 
 -   Zoom
     -   <img alt="" src=images/Std_ViewZoomIn.svg  style="width:32px;"> [Zoom avant](Std_ViewZoomIn/fr.md) : effectue un zoom avant sur la vue.
@@ -101,7 +102,8 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Couper selon des plans](Std_ToggleClipPlane/fr.md) : coupe temporairement les objets.
 
--   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Coupe persistante](Part_SectionCut/fr.md) : crée des coupes persistantes d\'objets et d\'assemblages. **-- Disponible si l'[atelier Part](Part_Workbench/fr.md) ou l'[atelier PartDesign](PartDesign_Workbench/fr.md) ont été chargés.** {{Version/fr|0.20}}
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Coupe persistante](Part_SectionCut/fr.md) : crée des coupes persistantes d\'objets et d\'assemblages. 
+**-- Disponible si l'[atelier Part](Part_Workbench/fr.md) ou l'[atelier PartDesign](PartDesign_Workbench/fr.md) ont été chargés.**
 
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Appliquer une texture\...](Std_TextureMapping/fr.md) : applique temporairement une texture à tous les objets.
 
@@ -114,16 +116,22 @@ Les outils suivants sont disponibles dans ce menu :
     -   <img alt="" src=images/Std_ShowObjects.svg  style="width:32px;"> [Afficher tous les objets](Std_ShowObjects/fr.md) : affiche tous les objets.
     -   <img alt="" src=images/Std_HideObjects.svg  style="width:32px;"> [Masquer tous les objets](Std_HideObjects/fr.md) : masque tous les objets.
     -   <img alt="" src=images/Std_ToggleSelectability.svg  style="width:32px;"> [Basculer la sélectivité](Std_ToggleSelectability/fr.md) : active/désactive la sélection des objets.
-    -   <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:32px;"> [Basculer les mesures](View_Measure_Toggle_All/fr.md) : active/désactive l\'affichage des mesures de [Part](Part_Workbench/fr.md) .
-    -   <img alt="" src=images/View_Measure_Clear_All.svg  style="width:32px;"> [Supprimer les mesures](View_Measure_Clear_All/fr.md) : efface les mesures de Part.
 
 -   <img alt="" src=images/Std_ToggleNavigation.svg  style="width:32px;"> [Basculer en mode navigation](Std_ToggleNavigation/fr.md) : active/désactive entre le mode de navigation et le mode d\'édition.
 
--   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Apparence](Std_SetAppearance/fr.md) : ouvre le panneau d\'affichage des tâches Propriétés des objets.
+-   <img alt="" src=images/Std_SetMaterial.svg  style="width:32px;"> [Matériau\...](Std_SetMaterial/fr.md) : définit le matériau des objets sélectionnés. **-- Disponible si l'[atelier Material](Material_Workbench/fr.md) a été chargé directement ou indirectement (via par exemple l'[atelier Part](Part_Workbench/fr.md) ou l'[atelier PartDesign](PartDesign_Workbench/fr.md)).** {{Version/fr|1.0}}
 
--   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Couleur aléatoire](Std_RandomColor/fr.md) : applique une couleur aléatoire aux objets.
+-   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Apparence](Std_SetAppearance/fr.md) : définit les propriétés d\'affichage des objets sélectionnés. 
+**-- Disponible si l'[atelier Material](Material_Workbench/fr.md) a été chargé directement ou indirectement (via par exemple l'[atelier Part](Part_Workbench/fr.md) ou l'[atelier PartDesign](PartDesign_Workbench/fr.md)).**
 
--   [Atelier](Std_Workbench/fr.md) **--Sélection d'un atelier à partir du sous-menu.**
+-   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Couleur aléatoire](Std_RandomColor/fr.md) : applique une couleur diffuse aléatoire aux objets.
+
+-   <img alt="" src=images/Part_ColorPerFace.svg  style="width:32px;"> [Couleur par face](Part_ColorPerFace/fr.md) : définit les propriétés d\'affichage des faces sélectionnées. 
+**Disponible si l'[atelier Part](Part_Workbench/fr.md) ou l'[atelier PartDesign](PartDesign_Workbench/fr.md) ont été chargés.**
+
+-   <img alt="" src=images/Std_ToggleTransparency.svg  style="width:32px;"> [Basculer la transparence](Std_ToggleTransparency/fr.md) : active/désactive la transparence des objets sélectionnés. {{Version/fr|1.0}}
+
+-   [Sélecteur d\'atelier](Std_Workbench/fr.md) **-- Sélection d'un atelier à partir du sous-menu.**
 
 -   Barres d\'outils **-- Chaque barre d'outils peut être activée ou désactivée dans le sous-menu.**
     -   Fichier
@@ -132,22 +140,23 @@ Les outils suivants sont disponibles dans ce menu :
     -   Atelier
     -   Macro
     -   Vue
+    -   Vues individuelles {{Version/fr|1.0}}
     -   Structure
     -   Aide {{Version/fr|0.21}}
-    -   \... Si l\'atelier en cours possède des barres d\'outils, elles apparaissent ici
-    -   [Verrouiller les barres d\'outils](Std_ToggleToolBarLock/fr.md) : si cette option est activée, les barres d\'outils ne peuvent pas être déplacées. {{Version/fr|0.22}}
+    -   \... Si l\'atelier en cours possède des barres d\'outils, elles apparaissent ici.
+    -   [Verrouiller les barres d\'outils](Std_ToggleToolBarLock/fr.md) : si cette option est activée, les barres d\'outils ne peuvent pas être déplacées. {{Version/fr|1.0}}
 
 -   Panneaux **-- Chaque panneau peut être activé ou désactivé dans le sous-menu.**
-    -   [Vue en arborescence](Tree_view/fr.md) **-- Disponible si le [Mode d'affichage de l'arborescence](Preferences_Editor/fr#Général_2.md) est mis à {{Value|Arborescence et Propriétés**.}}
+    -   [Vue en arborescence](Tree_view/fr.md) **-- Disponible comme paneeau indépendant si le [Mode d'affichage de l'arborescence et des propriétés](Preferences_Editor/fr#Général_2.md) est mis à {{Value|Indépendant**.}}
     -   [Éditeur de propriétés](Property_editor/fr.md) **-- Idem.**
+    -   [Vue combinée](Combo_view/fr.md) **-- Combine l'arborescence et l'affichage des propriétés en un seul panneau. Disponible si le [Mode d'affichage de l'arborescence et des propriétés](Preferences_Editor/fr#Général_2.md) est mis à {{Value|Combiné**.}}
     -   [Fenêtre de sélection](Selection_view/fr.md)
-    -   [Panneau des tâches](Task_panel/fr.md)
     -   [Console Python](Python_console/fr.md)
-    -   [Vue DAG](DAG_view/fr.md) **-- Non disponible par défaut, voir [Vue DAG](DAG_view/fr.md).**
-    -   [Vue combinée](Combo_view/fr.md) **-- Disponible si le [Mode d'affichage de l'arborescence](Preferences_Editor/fr#Général_2.md) est mis à {{Value|Vue combinée**.}}
     -   [Vue rapport](Report_view/fr.md)
+    -   [Panneau des tâches](Task_panel/fr.md)
+    -   [Vue DAG](DAG_view/fr.md) **-- Non disponible par défaut, voir [Vue DAG](DAG_view/fr.md).**
 
--   Fenêtres ancrables superposées {{Version/fr|0.22}}
+-   Fenêtres ancrables superposées {{Version/fr|1.0}}
     -   [Basculer la superposition pour tout](Std_DockOverlayAll/fr.md) : active/désactive le mode de superposition pour toutes les fenêtres ancrables.
     -   [Basculer la transparence pour tout](Std_DockOverlayTransparentAll/fr.md) : active/désactive le mode transparent pour toutes les fenêtres superposées ancrables. Cela permet aux fenêtres ancrables de rester transparentes tout le temps.
     -   [Basculer une superposition](Std_DockOverlayToggle/fr.md) : active/désactive le mode de superposition pour la fenêtre ancrée sous le curseur.
@@ -158,22 +167,20 @@ Les outils suivants sont disponibles dans ce menu :
     -   [Basculer en haut](Std_DockOverlayToggleTop/fr.md) : affiche/masque le panneau de recouvrement supérieur.
     -   [Basculer en bas](Std_DockOverlayToggleBottom/fr.md) : affiche/masque le panneau de recouvrement inférieur.
 
--   <img alt="" src=images/Std_ToggleTransparency.svg  style="width:32px;"> [Basculer la transparence](Std_ToggleTransparency/fr.md) :
-
 -   Lien de navigation
     -   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Objet lié](Std_LinkSelectLinked/fr.md) : sélectionne l\'objet lié et bascule à son document.
     -   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Objet lié le plus profond](Std_LinkSelectLinkedFinal/fr.md) : sélectionne l\'objet lié le plus profond et bascule à son document.
     -   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;"> [Tous les liens](Std_LinkSelectAllLinks/fr.md) : sélectionne tous les liens vers un objet.
 
 -   Actions sur l\'arborescence
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Synchroniser la vue](Std_TreeSyncView/fr.md) : bascule la [vue en arborescence](Tree_view/fr.md) en mode synchronisation.
-    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Synchroniser la sélection](Std_TreeSyncSelection/fr.md) : bascule la vue en arborescence en mode Synchroniser la sélection.
-    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Synchroniser le placement](Std_TreeSyncPlacement/fr.md) : bascule la vue en arborescence en mode Synchroniser le placement.
-    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Préselection](Std_TreePreSelection/fr.md) : bascule la vue en arborescence en mode Préselection.
-    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Enregistrer la sélection](Std_TreeRecordSelection/fr.md) : bascule la vue en arborescence en mode Enregistrer la sélection.
-    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Document unique](Std_TreeSingleDocument/fr.md) : bascule la vue en arborescence en mode Document unique.
-    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Tous les documents](Std_TreeMultiDocument/fr.md) : bascule la vue en arborescence en mode Tous les documents.
-    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Réduire/développer](Std_TreeCollapseDocument/fr.md) : bascule la vue en arborescence en mode Réduire/développer.
+    -   [Synchroniser la vue](Std_TreeSyncView/fr.md) : bascule la [vue en arborescence](Tree_view/fr.md) en mode synchronisation.
+    -   [Synchroniser la sélection](Std_TreeSyncSelection/fr.md) : bascule la vue en arborescence en mode Synchroniser la sélection.
+    -   [Synchroniser le placement](Std_TreeSyncPlacement/fr.md) : bascule la vue en arborescence en mode Synchroniser le placement.
+    -   [Préselection](Std_TreePreSelection/fr.md) : bascule la vue en arborescence en mode Préselection.
+    -   [Enregistrer la sélection](Std_TreeRecordSelection/fr.md) : bascule la vue en arborescence en mode Enregistrer la sélection.
+    -   [Document unique](Std_TreeSingleDocument/fr.md) : bascule la vue en arborescence en mode Document unique.
+    -   [Tous les documents](Std_TreeMultiDocument/fr.md) : bascule la vue en arborescence en mode Tous les documents.
+    -   [Réduire/développer](Std_TreeCollapseDocument/fr.md) : bascule la vue en arborescence en mode Réduire/développer.
     -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Déplacement](Std_TreeDrag/fr.md) : lance une opération de glissement pour les objets sélectionnés dans l\'arborescence.
     -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Aller à la sélection](Std_TreeSelection/fr.md) : fait défiler l\'arborescence jusqu\'au premier objet créé dans une sélection de vue 3D.
     -   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Sélection précédente](Std_SelBack/fr.md) : rétablit la sélection précédente de l\'arborescence.
@@ -185,7 +192,7 @@ Les outils suivants sont disponibles dans ce menu :
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

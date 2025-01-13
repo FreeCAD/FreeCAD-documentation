@@ -5,69 +5,62 @@
 
 ## Introduction
 
-L\'[atelier PartDesign](PartDesign_Workbench/fr.md) <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> fournit des outils avancés pour la modélisation de pièces complexes et solides. Il est principalement axé sur la création de pièces mécaniques pouvant être fabriquées et assemblées dans un produit fini. Néanmoins, les solides créés peuvent en général être utilisés à d\'autres fins, tels que la [conception architecturale](Arch_Workbench/fr.md), l\'[analyse par éléments finis](FEM_Workbench/fr.md) ou l\'[usinage et l\'impression 3D](Path_Workbench/fr.md).
+L\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> **atelier PartDesign** fournit des outils pour la modélisation de composants solides. Il est principalement axé sur la création de composants mécaniques qui peuvent être fabriqués et assemblés en un produit fini. Néanmoins, les solides créés peuvent en général être utilisés à d\'autres fins, tels que la [modélisation BIM](BIM_Workbench/fr.md), l\'[analyse par éléments finis](FEM_Workbench/fr.md) ou l\'[usinage et l\'impression 3D](CAM_Workbench/fr.md).
 
-L\'atelier PartDesign est étroitement lié à l\'[atelier Sketcher (Esquisse)](Sketcher_Workbench/fr.md). L\'utilisateur crée normalement une esquisse, puis utilise l\'outil [PartDesign Protrusion](PartDesign_Pad/fr.md) pour l\'extruder et créer un solide de base, ensuite ce solide peut être à nouveau modifié.
+L\'atelier PartDesign utilise une méthodologie basée sur les fonctions. Un composant est représenté par le conteneur d\'un objet Corps (Body en anglais). Le corps définit un système de coordonnées local et contient les fonctions cumulatives qui définissent le composant. La plupart des fonctions sont basées sur des esquisses paramétriques et sont soit additives, soit soustractives. Par exemple, l\'outil [Protrusion](PartDesign_Pad/fr.md) ajoute l\'esquisse extrudée au solide en cours de développement, tandis que l\'outil [Cavité](PartDesign_Pocket/fr.md) soustrait l\'esquisse extrudée. Chaque fonction est cumulative et s\'appuie sur le résultat des fonctions précédentes. Il est également possible d\'utiliser des primitives ([Cylindre](PartDesign_AdditiveCylinder/fr.md), [Sphère](PartDesign_AdditiveSphere/fr.md), etc.) ainsi que des solides créés en dehors du corps comme des fonctions.
 
-Alors que l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) est basé sur la méthodologie de [géométrie de construction de solides](constructive_solid_geometry/fr.md) (CSG en anglais: \"Constructive Solid Geometry\") pour la construction de formes, l\'atelier PartDesign utilise une méthodologie paramétrique d\'édition de fonctions, ce qui signifie qu\'un solide de base est transformé de manière séquentielle en lui ajoutant des fonctions jusqu\'à l\'obtention de la forme finale. Voir la page [édition de fonctions](feature_editing/fr.md) pour une explication plus complète de ce processus, puis voir [Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md) pour commencer à créer des solides.
+Voir la page [Édition de fonctions](Feature_editing/fr.md) pour une explication plus complète de ce processus, puis voir [PartDesign Tutoriel pour créer une pièce simple](Creating_a_simple_part_with_PartDesign.md) pour commencer à créer des solides.
 
-Une discussion plus détaillée de l\'atelier Part par rapport à l\'atelier Part Design peut être trouvée ici: [Part et Part Design](Part_and_PartDesign/fr.md).
+L\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [atelier Part](Part_Workbench/fr.md) fournit une méthodologie alternative à la [géométrie de construction de solides](Constructive_solid_geometry/fr.md) (CSG en anglais) pour la construction de formes. Pour une discussion détaillée sur l\'atelier Part par rapport à l\'atelier PartDesign, voir [Part et PartDesign](Part_and_PartDesign/fr.md).
 
-Les corps créés avec PartDesign sont souvent soumis à un [problème de dénomination topologique](Topological_naming_problem/fr.md) qui entraîne le changement de nom des fonctionnalités internes lors de la modification des opérations paramétriques. Ce problème peut être minimisé en suivant les meilleures pratiques décrites dans la page d\'[édition de fonctions](feature_editing/fr.md) et en tirant parti des objets de référence pour la prise en charge des esquisses et des fonctionnalités.
-
-<img alt="" src=images/PartDesign_Example.png  style="width:500px;">
+![](images/PartDesign_Workbench_Example.jpg )
 
 
 
 ## Outils
 
-Les outils Part Design sont situés dans le menu **Part Design** qui apparaît lorsque l\'atelier Part Design est chargé.
+Les outils de PartDesign se situent dans le menu **PartDesign** qui apparaît lorsque l\'atelier PartDesign est chargé.
 
 
 
-### Outils structure 
-
-Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennent au système [Std Base](Std_Base/fr.md). Ils ont été développés en v0.17 avec l\'intention qu\'ils seraient utiles pour organiser un modèle et créer des assemblages ; en tant que tels, ils sont très utiles lorsque vous travaillez avec des corps créés avec cet atelier.
-
--   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Pièce](Std_Part/fr.md) : ajoute un conteneur Pièce dans le document actif et le rend actif.
-
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Groupe](Std_Group/fr.md) : ajoute un Groupe dans l\'arborescence du document actif, qui permet d\'organiser les objets dans la [vue arborescence](Tree_view/fr.md).
-
-
-
-### Outils d\'assistance Part Design 
+### Outils d\'assistance de PartDesign 
 
 -   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Corps](PartDesign_Body/fr.md) : crée un objet [Body](Body/fr.md) dans le document actif et le rend actif.
 
--   ![\|32px](images/Sketcher_NewSketch.svg ) [Esquisse](PartDesign_NewSketch/fr.md) : crée une nouvelle esquisse sur un plan ou une face sélectionnée. Si rien n\'est sélectionné, l\'utilisateur est invité à sélectionner un plan dans le panneau Tâches. L\'interface bascule ensuite vers l\'[atelier Sketcher](Sketcher_Workbench/fr.md) en mode d\'édition d\'esquisse.
+-   <img alt="" src=images/PartDesign_NewSketch.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Créer une esquisse :
 
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Modifier une esquisse](Sketcher_EditSketch/fr.md) : modifie l\'esquisse sélectionnée.
+  - ![\|32px](images/PartDesign_NewSketch.svg ) [Esquisse](PartDesign_NewSketch/fr.md) : crée une nouvelle esquisse sur un plan ou une face sélectionnée. Si rien n\'est sélectionné, l\'utilisateur est invité à sélectionner un plan dans le panneau Tâches. L\'interface bascule ensuite vers l\'[atelier Sketcher](Sketcher_Workbench/fr.md) en mode d\'édition d\'esquisse.
 
--   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Appliquer une esquisse sur une face](Sketcher_MapSketch/fr.md) : applique une esquisse sur une face ou un plan sélectionné du corps actif.
+  - <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Ancrer une esquisse](Sketcher_MapSketch/fr.md) : ancre une esquisse à la géométrie sélectionnée dans le corps actif.
+
+  - <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Modifier une esquisse](Sketcher_EditSketch/fr.md) : ouvre l\'esquisse sélectionnée pour la modifier.
 
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Valider une esquisse](Sketcher_ValidateSketch/fr.md) : vérifie la tolérance de différents points et les ajuste.
 
-
-
-### Outils de modélisation Part Design 
-
-
-
-#### Outils de référence 
-
--   <img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Point de référence](PartDesign_Point/fr.md) : crée un point de référence dans le corps actif.
-
--   <img alt="" src=images/PartDesign_Line.svg  style="width:32px;"> [Ligne de référence](PartDesign_Line/fr.md) : crée une ligne de référence (droite) dans le corps actif.
-
--   <img alt="" src=images/PartDesign_Plane.svg  style="width:32px;"> [Plan de référence](PartDesign_Plane/fr.md) : crée un plan de référence dans le corps actif.
-
--   <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Système de coordonnées local](PartDesign_CoordinateSystem/fr.md) : crée un système de coordonnées local attaché à la géométrie de référence dans le corps actif.
+-   <img alt="" src=images/Part_CheckGeometry.svg  style="width:32px;"> [Vérifier la géométrie](Part_CheckGeometry/fr.md) : vérifie la géométrie des objets sélectionnés pour en détecter les erreurs.
 
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Forme liée](PartDesign_ShapeBinder/fr.md) : crée une forme liée référençant la géométrie d\'un seul objet parent.
 
 -   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Sous forme liée](PartDesign_SubShapeBinder/fr.md) : crée une forme liée référençant la géométrie d\'un ou plusieurs objets parents.
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Clone](PartDesign_Clone/fr.md) : crée un clone dans le corps actif.
+
+-   <img alt="" src=images/PartDesign_Plane.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Créer une référence (
+
+  -<img alt="" src=images/PartDesign_Plane.svg  style="width:32px;"> [Plan de référence](PartDesign_Plane/fr.md) : crée un plan de référence dans le corps actif. ({{VersionMinus/fr|1.0}})
+
+  -<img alt="" src=images/PartDesign_Line.svg  style="width:32px;"> [Ligne de référence](PartDesign_Line/fr.md) : crée une ligne de référence dans le corps actif. ({{VersionMinus/fr|1.0}})
+
+  -<img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Point de référence](PartDesign_Point/fr.md) : crée un point de référence dans le corps actif. ({{VersionMinus/fr|1.0}})
+
+  -<img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Système de coordonnées local](PartDesign_CoordinateSystem/fr.md) : crée un système de coordonnées local attaché à la géométrie de référence dans le corps actif. ({{VersionMinus/fr|1.0}})
+
+:   
+    {{Version/fr|1.1}}: ces outils ont été remplacés par de nouveaux [outils de référence](Std_Base/fr#Part_Datums.md).
+
+
+
+### Outils de modélisation de PartDesign 
 
 
 
@@ -85,7 +78,7 @@ Ces outils permettent de créer des fonctions de base ou d\'ajouter de la matiè
 
 -   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Hélice additive](PartDesign_AdditiveHelix/fr.md) : crée un solide en balayant une esquisse le long d\'une hélice.
 
--   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Créer une primitive additive](PartDesign_CompPrimitiveAdditive/fr.md) : ajoute une primitive additive dans le corps actif.
+-   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Créer une primitive additive :
 
   -<img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Cube additif](PartDesign_AdditiveBox/fr.md) : crée un cube additif.
 
@@ -121,7 +114,7 @@ Ces outils permettent d\'enlever de la matière à un corps solide existant.
 
 -   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Hélice soustractive](PartDesign_SubtractiveHelix/fr.md) : crée une forme solide en balayant une esquisse le long d\'une hélice et en la soustrayant du corps actif.
 
--   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Créer une primitive soustractive](PartDesign_CompPrimitiveSubtractive/fr.md) : soustrait une primitive du corps actif.
+-   <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Créer une primitive soustractive :
 
   -<img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Cube soustractif](PartDesign_SubtractiveBox/fr.md) : crée un cube soustractif.
 
@@ -141,7 +134,27 @@ Ces outils permettent d\'enlever de la matière à un corps solide existant.
 
 
 
-#### Outils de transformation 
+#### Booléen
+
+-   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Opération booléenne](PartDesign_Boolean/fr.md) : importe un ou plusieurs corps ou PartDesign clones dans le corps actif et applique une opération booléenne.
+
+
+
+### Outils de finition 
+
+Ces outils appliquent un traitement aux arêtes ou faces.
+
+-   <img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [Congé](PartDesign_Fillet/fr.md) : applique un arrondi/congé sur les arêtes sélectionnées du corps actif.
+
+-   <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [Chanfrein](PartDesign_Chamfer/fr.md) : applique un chanfrein sur les arêtes sélectionnées du corps actif.
+
+-   <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [Dépouille](PartDesign_Draft/fr.md) : applique un angle de dépouille aux faces sélectionnées du corps actif.
+
+-   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Évidement](PartDesign_Thickness/fr.md) : crée une évidement épais à partir du corps actif et ouvre la face sélectionnée.
+
+
+
+### Outils de transformation 
 
 Il s\'agit d\'outils permettant de transformer des fonctions existantes.
 
@@ -156,41 +169,21 @@ Il s\'agit d\'outils permettant de transformer des fonctions existantes.
 
 
 
-#### Outils d\'habillage 
-
-Ces outils appliquent un traitement aux arêtes ou faces.
-
--   <img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [Congé](PartDesign_Fillet/fr.md) : applique un arrondi/congé sur les arêtes sélectionnées du corps actif.
-
--   <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [Chanfrein](PartDesign_Chamfer/fr.md) : applique un chanfrein sur les arêtes sélectionnées du corps actif.
-
--   <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [Dépouille](PartDesign_Draft/fr.md) : applique un angle de dépouille aux faces sélectionnées du corps actif.
-
--   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Évidement](PartDesign_Thickness/fr.md) : crée une évidement épais à partir du corps actif et ouvre la face sélectionnée.
-
-
-
-#### Booléen
-
--   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Opération booléenne](PartDesign_Boolean/fr.md) : importe un ou plusieurs corps ou PartDesign clones dans le corps actif et applique une opération booléenne.
-
-
-
 #### Extras
 
-Des fonctionnalités supplémentaires se trouvent dans le menu Part Design :
-
--   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Migrer](PartDesign_Migrate/fr.md) : migre des fichiers créés dans des versions antérieures de FreeCAD. Si le fichier ne contient que des fonctions PartDesign, la migration devrait réussir. Si le fichier contient des objets mixtes Part/Part Design/Draft, la conversion échouera presque certainement.
+Des fonctions supplémentaires se trouvent dans le menu PartDesign :
 
 -   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Pignon](PartDesign_Sprocket/fr.md) : crée un profil de pignon qui peut être extrudé.
 
--   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Engrenage à développante](PartDesign_InvoluteGear/fr.md) : crée un profil d\'engrenage à développante qui peut être extrudé.
+-   <img alt="" src=images/PartDesign_InvoluteGear.svg  style="width:32px;"> [Engrenage à développante](PartDesign_InvoluteGear/fr.md) : crée un profil d\'engrenage à développante qui peut être extrudé.
 
 -   <img alt="" src=images/WizardShaft.svg  style="width:32px;"> [Conception d\'arbre](PartDesign_WizardShaft/fr.md) : génère un arbre à partir d\'un tableau de valeurs et permet d\'analyser les forces et les moments. L\'arbre est construit à partir de la révolution d\'une esquisse qui peut être modifiée.
 
 
 
 ### Éléments du menu contextuel 
+
+-   [Désactiver](PartDesign_Suppressed/fr.md) : case à cocher pour désactiver une fonction particulière sans la supprimer. {{Version/fr|1.0}}
 
 -   <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Désigner comme fonction résultante](PartDesign_MoveTip/fr.md) : redéfinit la fonction résultante qui est la fonction exposée à l\'extérieur du Corps.
 
@@ -204,7 +197,13 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design :
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Std Apparence](Std_SetAppearance/fr.md) : détermine l\'apparence de la pièce entière (transparence des couleurs etc\...).
 
--   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Part Définir les couleurs](Part_FaceColors/fr.md) : attribue des couleurs aux faces des pièces.
+-   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Couleur par face](Part_ColorPerFace/fr.md) : attribue des couleurs aux faces des pièces.
+
+
+
+## Outils obsolètes 
+
+-   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Migrer](PartDesign_Migrate/fr.md) : migre les fichiers des versions de FreeCAD inférieures à 0.17 vers la version 0.17. Cet outil n\'est pas disponible dans la {{VersionPlus/fr|1.0}}.
 
 
 
@@ -218,16 +217,16 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design :
 ## Tutoriels
 
 -   [Comment utiliser FreeCAD](http://help-freecad-jpg87.fr/00fr/index.php), un site web décrivant le flux de travail de la conception mécanique.
--   [Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md)
--   [Tutoriel d\'introduction PartDesign](Basic_Part_Design_Tutorial/fr.md)
--   [Conception Support de Roulement Tutoriel I](PartDesign_Bearingholder_Tutorial_I/fr.md) (nécessite une mise à jour)
--   [Tutoriel de Conception de Support de Roulement II](PartDesign_Bearingholder_Tutorial_II/fr.md) (nécessite une mise à jour)
+-   [PartDesign Tutoriel pour créer une pièce simple](Creating_a_simple_part_with_PartDesign/fr.md)
+-   [PartDesign Tutoriel d\'introduction V0.19](Basic_Part_Design_Tutorial_019/fr.md)
+-   [PartDesign Tutoriel pour la conception d\'un support de roulement (I)](PartDesign_Bearingholder_Tutorial_I/fr.md) (nécessite une mise à jour)
+-   [PartDesign Tutoriel pour la conception d\'un support de roulement (II)](PartDesign_Bearingholder_Tutorial_II/fr.md) (nécessite une mise à jour)
 
 
 
 ## Exemples
 
-Pour avoir une idée de ce qui peut être réalisé avec les outils de Part Design, jetez un coup d\'œil aux [PartDesign Exemples](PartDesign_Examples/fr.md) :
+Pour avoir une idée de ce qui peut être réalisé avec les outils de PartDesign, jetez un coup d\'œil aux [PartDesign Exemples](PartDesign_Examples/fr.md) :
 
 <img alt="" src=images/PartDesign_ExampleSphere-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleTorus-01.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExamplePad-09.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-02.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSweep-05.png  style="width:80px;"> <img alt="" src=images/PartDesign_ExampleSpring-04.png  style="width:80px;">
 

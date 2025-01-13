@@ -1,38 +1,7 @@
----
- GuiCommand:
-   Name: Path Probe
-   Name/fr: Path Sonde
-   MenuLocation: Path , Autres commandes , Sonde
-   Workbenches: Path_Workbench/fr
----
-
 # Path Probe/fr
-
-## Description
-
-
-
-## Utilisation
-
-## Options
-
-
-
-## Propriétés
-
-
-
-## Script
-
-
-
-
-
-{{Path_Tools_navi
-
-}}
+1.  REDIRECT [CAM_Probe/fr](CAM_Probe/fr.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Probe/fr
+⏵ [documentation index](../README.md) > Path Probe/fr

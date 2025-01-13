@@ -52,31 +52,32 @@ A minimal example of what is necessary to have in a script is shown in this port
 
 import FreeCAD
 from FreeCAD import Placement, Rotation, Vector
+import FreeCADGui
 
-DOC = FreeCAD.activeDocument()
 DOC_NAME = "Wiki_Example"
-
-# Helpers methods
-
-def clear_doc():
-    """Clear activeDocument deleting all the objects."""
-    for obj in DOC.Objects:
-        DOC.removeObject(obj.Name)
-
-def setview():
-    """Rearrange View."""
-    FreeCAD.Gui.SendMsgToActiveView("ViewFit")
-    FreeCAD.Gui.activeDocument().activeView().viewAxometric()
-
-if DOC is None:
-    FreeCAD.newDocument(DOC_NAME)
-    FreeCAD.setActiveDocument(DOC_NAME)
-    DOC = FreeCAD.activeDocument()
-else:
-    clear_doc()
+DOC = FreeCAD.newDocument(DOC_NAME)
+FreeCAD.setActiveDocument(DOC.Name)
 
 ROT0 = Rotation(0, 0, 0)
 VEC0 = Vector(0, 0, 0)
+
+# Helper function
+
+def set_view():
+    """Rearrange View."""
+    if not FreeCAD.GuiUp:
+        return
+    doc = FreeCADGui.ActiveDocument
+    if doc is None:
+        return
+    view = doc.ActiveView
+    if view is None:
+        return
+    # Check if the view is a 3D view:
+    if not hasattr(view, "getSceneGraph"):
+        return
+    view.viewAxometric()
+    view.fitAll()
 ```
 
 Some tricks are incorporated in the above code:
@@ -89,7 +90,7 @@ Let\'s start with a small script that does a very small job, but display the pow
 
 
 ```python
-# Script methods
+# Script functions
 
 def my_box(name, len, wid, hei):
     """Create a box."""
@@ -106,10 +107,10 @@ def my_box(name, len, wid, hei):
 
 obj = my_box("test_cube", 5, 5, 5)
 
-setview()
+set_view()
 ```
 
-Write above lines of code after `# Script methods` and press the green arrow in the **Macro toolbar**
+Write above lines of code after `# Script functions` and press the green arrow in the **Macro toolbar**.
 
 You will see some magic things, a new document is open named \"Wiki_example\" and you will see in the 3d view a [Cube](Part_Box.md), like the one in the image below.
 
@@ -117,7 +118,7 @@ You will see some magic things, a new document is open named \"Wiki_example\" an
 
 ## Something more 
 
-Not that amazing? Yes, but we have to start somewhere, we can do the same thing with a [Cylinder](Part_Cylinder.md), add these lines of code after the `my_box()` method and before the line: `# objects definition`.
+Not that amazing? Yes, but we have to start somewhere, we can do the same thing with a [Cylinder](Part_Cylinder.md), add these lines of code after the `my_box()` function and before the line: `# objects definition`.
 
 
 ```python
@@ -137,12 +138,12 @@ Even here nothing too exciting. But please note some peculiarities:
 
 -   The absence of the usual reference to the `App.`, present in many Documentation code snippets, is deliberate, this code could be used even invoking FreeCAD as a module in an external Python interpreter, the thing is not easily doable with an AppImage, but with some care it could be done. Plus in the standard Python motto that \"better explicit than implicit\" `App.` is explaining in a very \"poor\" way where the things are from.
 -   Note the use of the \"constant\" name assigned to the active Document in `DOC &#61; FreeCAD.activeDocument()`; activeDocument is not a \"constant\" in a strict sense, but in a \"semantical\" way is our \"active Document\", that for our use is a proper \"constant\" so the Python convention to use the \"ALL CAPS\" name for \"constants\", not to mention that `DOC` is much shorten than `FreeCAD.activeDocument()`.
--   Every method returns a geometry, this will be clear in the continuation of the page.
+-   Every function returns a geometry, this will be clear in the continuation of the page.
 -   Geometry didn\'t have the `Placement` property, when using the simple geometries to make more complex geometry, managing `Placement` is a awkward thing.
 
 Now what to do with this geometries?
 
-Let\'s introduce boolean operations. As a starter example put these lines after `my_cyl`, this create a method for a **Fusion** also know as **Union** operation:
+Let\'s introduce boolean operations. As a starter example put these lines after `my_cyl`, this create a function for a **Fusion** also know as **Union** operation:
 
 
 ```python
@@ -157,7 +158,7 @@ def fuse_obj(name, obj_0, obj_1):
     return obj
 ```
 
-Nothing exceptional also here, note however the uniformity in method coding; This approach is more linear that those seen around other tutorial on scripting, this \"linearity\" help greatly in readability and also with cut-copy-paste operations.
+Nothing exceptional also here, note however the uniformity in function coding; This approach is more linear than those seen around other tutorial on scripting, this \"linearity\" help greatly in readability and also with cut-copy-paste operations.
 
 Let\'s use the geometries, delete lines below the code section starting with `# objects definition`, and insert the following lines:
 
@@ -171,7 +172,7 @@ obj1 = my_cyl("test_cyl", 360, 2, 10)
 
 fuse_obj("Fusion", obj, obj1)
 
-setview()
+set_view()
 ```
 
 Launch the script with the green arrow and we will see in the 3D view something like:
@@ -204,7 +205,7 @@ But over other consideration, one thing is crucial, geometry **reference point**
 
 This information has to be kept in mind especially when we have to apply a rotation.
 
-Some examples may help, delete all the line after `my_cyl` method and insert the portion of code below:
+Some examples may help, delete the `my_box` function and all lines after the `my_cyl` function, and add the code below after the `my_cyl` function:
 
 
 ```python
@@ -278,16 +279,16 @@ def airplane():
 
 airplane()
 
-setview()
+set_view()
 
 ```
 
 Let\'s explain something in the code:
 
--   We have used a method to define a sphere, using the most easy definition, using only the radius.
+-   We have used a function to define a sphere, using the most easy definition, using only the radius.
 -   We have introduced a second writing for the **Union** or **Fusion**, using multiple objects, not more distant from the usual **Part::Fuse** it uses **Part:Multifuse**. We only use one property `Shapes`. We have passed a **tuple** as arguments, but it accepts also a **list**.
 -   We have defined a complex object **airplane**, but we have done it in a **\"parametric\"** way, defining some parameters and deriving other parameters, through some calculation, based on the main parameters.
--   We have used some Placement `Placement` poperties around in the method and before returning the final geometries we have used a `Rotation` property with the *Yaw-Pitch-Roll* writing. Note the last `Vector(0, 0, tail_position)`, that define a **center of rotation** of the whole geometry.
+-   We have used some Placement `Placement` poperties around in the function and before returning the final geometries we have used a `Rotation` property with the *Yaw-Pitch-Roll* writing. Note the last `Vector(0, 0, tail_position)`, that define a **center of rotation** of the whole geometry.
 
 ++++
 | ![Airplane example](images/Aereo.png ) | ![Airplane rotated](images/Aereo2.png ) | ![Placement property](images/Aereo-prop.png ) |
@@ -315,7 +316,7 @@ What has happened?
 
 FreeCAD has translated the `Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, tail_position)` in other words our `Placement` definition that specifies three components, **Translation**, **Rotation** and **center of rotation** in the \"internal\" values of only two components, **Translation** and **Rotation**.
 
-you can easily visualize the value of `tail_position` using a print statement in the `airplane()` method and see that it is:
+you can easily visualize the value of `tail_position` using a print statement in the `airplane()` function and see that it is:
 
 
 ```python
@@ -345,40 +346,41 @@ License:
     Creative Commons Attribution 3.0
 
 Summary:
-    This code is a sample code written for FreeCAD Wiki page.
-    It create and airplane shaped solid made using standard "Part WB" built in shapes.
+    This is sample code written for a FreeCAD Wiki page.
+    It creates an airplane shaped solid using standard "Part WB" shapes.
 
 """
 
 import FreeCAD
 from FreeCAD import Placement, Rotation, Vector
+import FreeCADGui
 
-DOC = FreeCAD.activeDocument()
 DOC_NAME = "Wiki_Example"
-
-# Helpers methods
-
-def clear_doc():
-    """Clear activeDocument deleting all the objects."""
-    for obj in DOC.Objects:
-        DOC.removeObject(obj.Name)
-
-def setview():
-    """Rearrange View."""
-    FreeCAD.Gui.SendMsgToActiveView("ViewFit")
-    FreeCAD.Gui.activeDocument().activeView().viewAxometric()
-
-if DOC is None:
-    FreeCAD.newDocument(DOC_NAME)
-    FreeCAD.setActiveDocument(DOC_NAME)
-    DOC = FreeCAD.activeDocument()
-else:
-    clear_doc()
+DOC = FreeCAD.newDocument(DOC_NAME)
+FreeCAD.setActiveDocument(DOC.Name)
 
 ROT0 = Rotation(0, 0, 0)
 VEC0 = Vector(0, 0, 0)
 
-# Script methods
+# Helper function
+
+def set_view():
+    """Rearrange View."""
+    if not FreeCAD.GuiUp:
+        return
+    doc = FreeCADGui.ActiveDocument
+    if doc is None:
+        return
+    view = doc.ActiveView
+    if view is None:
+        return
+    # Check if the view is a 3D view:
+    if not hasattr(view, "getSceneGraph"):
+        return
+    view.viewAxometric()
+    view.fitAll()
+
+# Script functions
 
 def my_cyl(name, ang, rad, hei):
     """Create a Cylinder."""
@@ -461,7 +463,7 @@ def airplane():
 
 airplane()
 
-setview()
+set_view()
 ```
 
 

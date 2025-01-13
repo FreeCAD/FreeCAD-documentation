@@ -28,7 +28,7 @@ The **Std LinkSelectLinked** command selects the **Linked Object**, the source o
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

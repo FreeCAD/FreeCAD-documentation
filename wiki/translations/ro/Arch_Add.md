@@ -54,6 +54,8 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 
 </div>
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
@@ -113,5 +115,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/ro
+⏵ [documentation index](../README.md) > Arch Add/ro

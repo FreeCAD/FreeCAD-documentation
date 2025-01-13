@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Part BooleanFragments
-   MenuLocation: Part , Split , Boolean Fragments
+   MenuLocation: Part , Split , Boolean fragments
    Workbenches: Part_Workbench
    Version: 0.17
    SeeAlso: Part_Slice, Part_XOR, Part_CompJoinFeatures, Part_Boolean
@@ -11,12 +11,9 @@
 
 ## Description
 
-Tool to compute all fragments that can result from applying Boolean operations between input shapes. For example, for two intersecting spheres, three non-overlapping but touching solids are generated.
+The <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> **Part BooleanFragments** tool computes all fragments that can result from applying Boolean operations between input shapes. For example, for two intersecting spheres, three non-overlapping but touching solids are generated.
 
-![600px](images/Part_BooleanFragments_Demo.png)
-
-
-
+ ![600px](images/Part_BooleanFragments_Demo.png)  
 *In the image above, the pieces were moved apart manually afterwards, to reveal the slicing.*
 
 The output shape is always a compound. The content of the compound depends on input shape types and operation mode. That means, you don\'t immediately get access to individual pieces of the result - the pieces remain grouped together. The individual pieces can be extracted by exploding the compound ([Draft Downgrade](Draft_Downgrade.md)).
@@ -31,13 +28,11 @@ In \"CompSolid\" mode, the solids are joined into a compsolid (compsolid is a se
 
 ## Usage
 
-1.  Select objects to be intersected.
-    The order of selection is not important, since the action of the tool is symmetric. It is enough to select one sub-shape of each object (e.g., faces). You can also select a compound containing all the shapes to be connected, e.g. [Draft OrthoArray](Draft_OrthoArray.md).
-2.  Invoke the Part BooleanFragments command several ways:
-    -   Pressing the <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> button in the toolbar
-    -   Using the **Part → Split → Boolean Fragments** entry in the Part menu
-
-A Boolean Fragments parametric object is created. Original objects are hidden, and the result of intersection is shown in [3D view](3D_view.md).
+1.  Select objects to be intersected. The order of selection is not important, since the action of the tool is symmetric. It is enough to select one sub-shape of each object (e.g. faces). You can also select a compound containing all shapes to be connected, e.g. a [Draft OrthoArray](Draft_OrthoArray.md).
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Part_BooleanFragments.svg" width=16px> [Boolean fragments](Part_BooleanFragments.md)** button.
+    -   Select the **Part → Split → <img src="images/Part_BooleanFragments.svg" width=16px> Boolean fragments** option from the menu.
+3.  A Boolean Fragments parametric object is created. Original objects are hidden, and the result of intersection is shown in the [3D view](3D_view.md).
 
 ## Properties
 
@@ -88,6 +83,11 @@ The tool itself is implemented in Python, see /Mod/Part/BOPTools/SplitFeatures.p
 ## Notes
 
 The tool was introduced in FreeCAD v0.17.8053. FreeCAD needs to be compiled with OCC 6.9.0 or later; otherwise, the tool is unavailable.
+
+
+
+
+ {{Part_Tools_navi}}
 
 
 

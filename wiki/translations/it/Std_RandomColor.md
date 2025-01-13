@@ -12,7 +12,9 @@
 
 ## Descrizione
 
-Il comando **Colore casuale** applica un {{PropertyView/it|Shape Color}} casuale agli oggetti selezionati.
+Il comando **Colore casuale** applica un **Colore diffuso** casuale alla **Shape Appearance** degli oggetti selezionati.
+
+Questa pagina è stata aggiornata per la versione 1.0.
 
 
 
@@ -21,19 +23,19 @@ Il comando **Colore casuale** applica un {{PropertyView/it|Shape Color}} casuale
 1.  Selezionare uno o più oggetti.
 2.  Esistono diversi modi per invocare il comando:
     -   Selezionare l\'opzione **Visualizza → <img src="images/Std_RandomColor.svg" width=16px> Colore casuale** dal menu.
-    -   Selezionare l\'opzione **<img src="images/Std_RandomColor.svg" width=16px> Colore casuale** dal menu contestuale [Vista ad albero](Tree_view/it.md) (vedi screenshot) o [Vista 3D](3D_view/it.md).
+    -   Selezionare l\'opzione **<img src="images/Std_RandomColor.svg" width=16px> Colore casuale** dal menu contestuale [Vista ad albero](Tree_view/it.md) o [Vista 3D](3D_view/it.md).
 
 
 
 ## Note
 
--   Le proprietà {{PropertyView/it|Shape Color}} possono anche essere modificate nell\'[Editor delle proprietà](Property_editor/it.md) o nella [Vista combinata](Combo_view/it.md).
+-   La proprietà {{PropertyView/it|Shape Appearance}} degli oggetti può essere modificata anche nell\'[Editor delle proprietà](Property_editor/it.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

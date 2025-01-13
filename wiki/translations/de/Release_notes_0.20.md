@@ -70,24 +70,17 @@ The help system was rewritten and upgraded to display information directly from 
 
 ### Weitere Verbesserungen Benutzeroberfläche 
 
-
-<div class="mw-translate-fuzzy">
-
--   Es ist nun möglich, die Ansicht des [Abhängigkeitsgraphen](Std_DependencyGraph/de.md) mit der Maus zu verschieben. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=34791), [pull request #4638](https://github.com/FreeCAD/FreeCAD/pull/4638).
--   Es wurde ein Problem behoben, bei dem die Verwendung eines Stifttabletts (z.B. Wacom Tablett) so langsam war, dass es völlig unbrauchbar wurde. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=45046), [pull request #4687](https://github.com/FreeCAD/FreeCAD/pull/4687).
-
-
-</div>
-
+-   Es ist jetzt möglich den Dezimaltrenner einzusetzen, der der Sprache der FreeCad-Benutzerschnittstelle entspricht. Z.B. unter einem deutschen Windows: Wird dessen Spracheinstellung auf **English** gesetzt und die neue Option **Use selected language number format** ausgewählt, wird der Punkt als Dezimaltrennzeichen eingesetzt. Siehe [Voreinstellungen](Preferences_Editor/de#Allgemein.md). [Pull-Request #6364](https://github.com/FreeCAD/FreeCAD/pull/6364)**Hinweis**: Für [FEM](FEM_Workbench/de.md)-Simulationen wird ausdrücklich empfohlen den Punkt als Dezimaltrennzeichen zu verwenden, um richtige Ergebneissen zu erhalten.
+-   Zwei neue Stile der Mausnavigetion wurden hinzugefügt. Einer basiert auf [OpenSCAD](Mouse_navigation/de#OpenSCAD-Navigation.md), der andere auf [TinkerCAD](Mouse_navigation/de#TinkerCAD-Navigation.md). [Forum discussion OpenSCAD](https://forum.freecadweb.org/viewtopic.php?f=8&t=60975), [Forum discussion TinkerCAD](https://forum.freecadweb.org/viewtopic.php?p=544639#p544376), [commit 1](https://github.com/FreeCAD/FreeCAD/commit/a1c9ab658c), [commit 2](https://github.com/FreeCAD/FreeCAD/commit/ef100d55e9d50), [commit 3](https://github.com/FreeCAD/FreeCAD/commit/549e5b5650).
+-   Es ist jetzt möglich die Ansicht des [Abhängigkeitsgraphen](Std_DependencyGraph/de.md) mit der Maus zu verschieben. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=34791), [Pull-Request #4638](https://github.com/FreeCAD/FreeCAD/pull/4638).
+-   Ein Problem wurde behoben, bei dem Geräte mit Eingabestiften (z.B. Wacom-Tablet) im Einsatz so langsam arbeiteten, dass sie total unbrauchbar waren. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=45046), [Pull-Request #4687](https://github.com/FreeCAD/FreeCAD/pull/4687).
+-   Die Größe des Koordinatensystems in der 3D-Ansicht kann jetzt in den Voreinstellungen im Abschnitt [Anzeige → 3D-Ansicht](Preferences_Editor/de#3D-Ansicht.md) angepasst werden. [Pull-Request #5182](https://github.com/FreeCAD/FreeCAD/pull/5182)
+-   Einen neue Einstellung unter[Einstellungen → Allgemein](Preferences_Editor/de#Allgemein.md) ermöglicht, das Dezimaltrennzeichen des Ziffernblocks mit dem ortsüblichen zu ersetzen, wenn sie unterschiedlich sind. [Pull-Request #3256](https://github.com/FreeCAD/FreeCAD/pull/3256) [Pull-Request #5150](https://github.com/FreeCAD/FreeCAD/pull/5150) [Pull-Request 5203](https://github.com/FreeCAD/FreeCAD/pull/5203)
+-   Es ist jetzt möglich, die **Rückschritt**-Taste (Backspace) als eigenständiges Tastaturkürzel einzustellen, ohne dass eine weitere Modifizierungstaste angegeben werden muss. [Pull-Request #5428](https://github.com/FreeCAD/FreeCAD/pull/5428)
 
 
 
-<div class="mw-translate-fuzzy">
-
-## Kernsystem, Anwendung, Basis und Gui Namensräume 
-
-
-</div>
+## Kernsystem und API 
 
 ### Core
 
@@ -285,16 +278,12 @@ FreeCAD received many new Python API functions:
 
 ## Arbeitsbereich FEM 
 
-
-<div class="mw-translate-fuzzy">
-
    
-  <img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature_relnotes_0.20.png  style="width:384px;"> Wirkung von *Netzweite von Krümmung*; links: auf 12 gesetzt, rechts: deaktiviert                 Es gibt eine neue Eigenschaft für den [Gmsh](FEM_MeshGmshFromShape/de.md) Vernetzer. Die Anzahl der Netzelemente pro $2\pi$ mal dem Radius der Krümmung kann angegeben werden. Der Standardwert ist 12. Um ein feineres Netz an kleinen Ecken oder Löchern zu erhalten, kann dieser Wert erhöht werden, um bessere Ergebnisse zu erzielen. Diese Funktion erfordert Gmsh 4.8 oder eine neuere Version. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=56401), [pull request #4596](https://github.com/FreeCAD/FreeCAD/pull/4596)
-  <img alt="" src=images/FEM_Gmsh-RecombinationAlgorithm_relnotes_0.20.png  style="width:384px;"> Auswirkung des rcombination Algorithmus; links: mit *Simple*, rechts: mit *Simple full-quad*   FreeCAD erlaubt nun die Auswahl eines Algorithmus sowie die 3D Netzrekombination für den [Gmsh](FEM_MeshGmshFromShape.md) Vernetzers. Für weitere Details über die Rekombination von Netzelementen siehe [FEM NetzGmshAusForm](FEM_MeshGmshFromShape/de#Element_Rekombination.md). [Pull request #4706](https://github.com/FreeCAD/FreeCAD/pull/4706)
+  <img alt="" src=images/FEM_Z88-settings_relnotes_0.20.png  style="width:384px;">Die neuen Z88-Einstellungen und ihre Standardwerte                                                                             Der Gleichungslöser [Z88](FEM_SolverZ88/de.md) ist jetzt voll einsetzbar. Die Berechnungsmethode und die Speichereinstellungen können angepasst werden. Die neuen Standardwerte ermöglichen, auch komplexe Simulationen direkt auszuführen. [commit d035bbc1ca and following](https://github.com/FreeCAD/FreeCAD/commit/d035bbc1ca)
+  <img alt="" src=images/FEM_buckling-analysis_relnotes_0.20.gif  style="width:384px;">Ergebnisse einer linearen Analyse auf Knicken.Das Blid anklicken, um die Animation anzusehen.          Es ist jetzt möglich, Knickanalysen unter Verwendung des Gleichungslösers [Calculix](FEM_SolverCalculixCxxtools/de.md) auszuführen. [Pull-Request #4379](https://github.com/FreeCAD/FreeCAD/pull/4379)
+  <img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature_relnotes_0.20.png  style="width:384px;"> Wirkung von *Netzweite von Krümmung*; links: auf 12 gesetzt, rechts: deaktiviert                  Es gibt eine neue Eigenschaft für den [Gmsh](FEM_MeshGmshFromShape/de.md) Vernetzer. Die Anzahl der Netzelemente pro $2\pi$ mal dem Radius der Krümmung kann angegeben werden. Der Standardwert ist 12. Um ein feineres Netz an kleinen Ecken oder Löchern zu erhalten, kann dieser Wert erhöht werden, um bessere Ergebnisse zu erzielen. Diese Funktion erfordert Gmsh 4.8 oder eine neuere Version. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=56401), [Pull-Request #4596](https://github.com/FreeCAD/FreeCAD/pull/4596)
+  <img alt="" src=images/FEM_Gmsh-RecombinationAlgorithm_relnotes_0.20.png  style="width:384px;"> Auswirkung des recombination Algorithmus; links: mit *Simple*, rechts: mit *Simple full-quad*   FreeCAD erlaubt jetzt die Auswahl eines Algorithmus sowie die 3D-Netzrekombination für den Gleichungslöser [Gmsh](FEM_MeshGmshFromShape/de.md). Für weitere Details über die Rekombination von Netzelementen siehe [FEM NetzGmshAusForm](FEM_MeshGmshFromShape/de#Element_Rekombination.md). [Pull-Request #4706](https://github.com/FreeCAD/FreeCAD/pull/4706)
    
-
-
-</div>
 
 
 
@@ -368,7 +357,7 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 ### Weitere Formteil Verbesserungen 
 
 -   The dialog to edit [Cylinders](Part_Cylinder.md) now allows to specify an angle relative to the normal of the chosen attachment plane. This way one can create skew cylinders. [Pull request #4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
--   The [Face Colors](Part_FaceColors.md) tool now also allows to set the transparency (*Alpha channel*) of faces. This transparency can be [exported](Import_Export.md), making e.g. STEP files with transparent parts possible.
+-   The [Face Colors](Part_ColorPerFace.md) tool now also allows to set the transparency (*Alpha channel*) of faces. This transparency can be [exported](Import_Export.md), making e.g. STEP files with transparent parts possible.
 -   The following commands now support App::Links: [Loft](Part_Loft.md), [Sweep](Part_Sweep.md), [Extrude](Part_Extrude.md), [Revolve](Part_Revolve.md), [Reverse shapes](Part_ReverseShape.md), [Mirror](Part_Mirror.md), [Offset2D](Part_Offset2D.md), [Offset3D](Part_Offset.md), [Check Geometry](Part_CheckGeometry.md), [Ruled Surface](Part_RuledSurface.md), [Cross-sections](Part_CrossSections.md), and [Thickness](Part_Thickness.md). [Pull request #6478](https://github.com/FreeCAD/FreeCAD/pull/6478)
 
 
@@ -415,7 +404,7 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 -   [Chamfer](PartDesign_Chamfer.md) and [Fillet](PartDesign_Fillet.md) dialogs now each have a new Use all edges checkbox, which is connected to the Use All Edges property for these objects. When the box is checked the property is set to True, when unchecked the property is set to False. When Use All Edges is True there is protection against the [topological naming problem](Topological_naming_problem.md) because then all of the edges of the base object are used regardless of how many edges there are. [Pull request #5340](https://github.com/FreeCAD/FreeCAD/pull/5340)
 -   Plane selection when [adding a new sketch](PartDesign_NewSketch.md) can now be achieved with a single-click in the 3D View. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/5408) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=19&t=65020)
 -   When a PartDesign tool is run without an active body, FreeCAD now offers to activate a body or create a new one. [Pull request #4949](https://github.com/FreeCAD/FreeCAD/pull/4949)
--   The [Face Colors](Part_FaceColors.md) tool is now also available from the PartDesign workbench.
+-   The [Face Colors](Part_ColorPerFace.md) tool is now also available from the PartDesign workbench.
 
 
 
@@ -436,41 +425,40 @@ New options were added to support running either FreeCAD, OpenSCAD, or both, in 
 
 ## Arbeitsbereich Skizzierer 
 
-
-<div class="mw-translate-fuzzy">
-
 +++
-| <img alt="" src=images/SketcherSplitExample2.png )                                                | Neue ![](images/Sketcher_Split.svg  style="width:24px;"> [Aufteilen](Sketcher_Split/de.md) Funktion zum Aufteilen bestehender Linien oder Bögen. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=55412) [pull request #4420](https://github.com/FreeCAD/FreeCAD/pull/4420)                                                                                                                                                                                    |
+| <img alt="" src=images/SketcherSplitExample2_relnotes_0.20.png )                                                | Neue ![](images/Sketcher_Split.svg  style="width:24px;"> [Aufteilen](Sketcher_Split/de.md) Funktion zum Aufteilen bestehender Linien oder Bögen. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=55412) [Pull-Rrequest #4420](https://github.com/FreeCAD/FreeCAD/pull/4420)                                                                                                                                                                                   |
 +++
-| <img alt="" src=images/SketcherCreateRoundedRectangleExample.png )                | Neues ![](images/Sketcher_CreateOblong.svg  style="width:24px;"> [Abgerundetes Rechteck](Sketcher_CreateOblong.md) Werkzeug zum Erstellen von Rechtecken mit abgerundeten Ecken. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=59210) [Main pull request #4835](https://github.com/FreeCAD/FreeCAD/pull/4835)                                                                                                                                       |
+| <img alt="" src=images/SketcherCreateRoundedRectangleExample_relnotes_0.20.png )                | Neues ![](images/Sketcher_CreateOblong.svg  style="width:24px;"> [Abgerundetes Rechteck](Sketcher_CreateOblong/de.md) Werkzeug zum Erstellen von Rechtecken mit abgerundeten Ecken. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=59210) [Main Pull-Request #4835](https://github.com/FreeCAD/FreeCAD/pull/4835)                                                                                                                                    |
 +++
-| <img alt="" src=images/SketcherCreateCenteredRectangleExample.png  style="width:384px;"> | Neu <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> [Zentriertes Rechteck](Sketcher_CreateRectangle_Center/de.md) Werkzeug um Rechtecke über einen Mittelpunkt zu definieren. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/8b4acf11c2caf53cc1cb8dccd8bb6de8516f4492)                                                                                                                                                             |
+| <img alt="" src=images/SketcherCreateCenteredRectangleExample_relnotes_0.20.png  style="width:384px;"> | Neu <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> [Zentriertes Rechteck](Sketcher_CreateRectangle_Center/de.md) Werkzeug um Rechtecke über einen Mittelpunkt zu definieren. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/8b4acf11c2caf53cc1cb8dccd8bb6de8516f4492)                                                                                                                                                             |
 +++
-| <img alt="" src=images/Radiam_anim.gif  style="width:384px;">                                                       | Neu <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:24px;"> [Radiam](Sketcher_ConstrainRadiam/de.md) Funktion zur automatischen Zuweisung von Gewicht auf B-Spline Pol, Durchmesser auf Vollkreis oder Radius auf Bogen. Unterstützung von Mehrfachauswahl als Durchmesser/Radius Werkzeuge. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584&start=20#p509485) [Haupt-Pull-Request #4855](https://github.com/FreeCAD/FreeCAD/pull/4855) |
+| <img alt="" src=images/Radiam_anim_relnotes_0.20.gif )                                                                    | Neu ![](images/Sketcher_ConstrainRadiam.svg  style="width:24px;"> [Radiam](Sketcher_ConstrainRadiam/de.md) Funktion zur automatischen Zuweisung von Gewicht auf B-Spline-Pol, Durchmesser auf Vollkreis oder Radius auf Bogen. Unterstützung von Mehrfachauswahl als Durchmesser/Radius Werkzeuge. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584&start=20#p509485) [Haupt-Pull-Request #4855](https://github.com/FreeCAD/FreeCAD/pull/4855) |
 +++
-| <img alt="" src=images/SketcherRemoveAxesAlignmentResult.png )                        | Neues ![](images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> [Achsenausrichtung entfernen](Sketcher_RemoveAxesAlignment/de.md) Beschränkungswerkzeug zum Entfernen der Achsenausrichtung unter Beibehaltung der Beschränkungsbeziehung der Auswahl. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)                                                                                                    |
+| <img alt="" src=images/SketcherRemoveAxesAlignmentResult_relnotes_0.20.png )                        | Neues Werkzeug für Randbedingungen ![](images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> [Achsenausrichtung entfernen](Sketcher_RemoveAxesAlignment/de.md) zum Entfernen der Achsenausrichtung unter Beibehaltung der festgelegten Beziehungen in der Auswahl. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)                                                                                        |
 +++
-
-
-</div>
+| ![](images/SketcherSnapSlot_relnotes_0.20.gif )                                                          | [Slots](Sketcher_CreateSlot/de.md) können horizontal oder vertikal festgelegt werden, entweder durch manuelles Einrasten mit der **Ctrl**-Taste oder durch den Einsatz der Option **Automatische Randbedingungen** im Sketcher. [Pull-Request #5200](https://github.com/FreeCAD/FreeCAD/pull/5200)                                                                                                                                                                   |
++++
+| <img alt="" src=images/SketcherBSplineInsertKnot_relnotes_0.20.gif )                                        | Ein neues Werkzeug ![](images/Sketcher_BSplineInsertKnot.svg  style="width:24px;"> [Knoten einfügen](Sketcher_BSplineInsertKnot/de.md) zum Einfügen eines Knotens in einen vorhandenen B-Spline. [Pull-Request #5311](https://github.com/FreeCAD/FreeCAD/pull/5311) und [Pull-Request #6356](https://github.com/FreeCAD/FreeCAD/pull/6356)                                                                                                                            |
++++
 
 
 
 ### Weitere Skizzierer Verbesserungen 
 
-
-<div class="mw-translate-fuzzy">
-
--   Überarbeitete Stutzen Unterstützung:
-
-[Pull Anfrage](https://github.com/FreeCAD/FreeCAD/pull/4330) [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=54441) \<\-- Benötigt Screencasts
-
--   Das Verhalten des <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> [Schlitz](Sketcher_CreateSlot/de.md) hat sich geändert. Schlitze können nun durch die Definition des Zentrums beider Halbkreise erstellt werden. [Pull Anfrage](https://github.com/FreeCAD/FreeCAD/pull/4843) [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=59243&p=508658#p508658)
--   Die Sichtbarkeitsautomatik erlaubt es, Skizzierer im [Abschnittsmodus](Sketcher_ViewSection/de.md) zu öffnen, wenn man in den Bearbeitungsmodus wechselt. [Pull Anfrage](https://github.com/FreeCAD/FreeCAD/pull/4742) [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=57056)
--   Sichtbarkeits Automatisierung erlaubt es, die Kamera in den [Orthographic mode](Std_OrthographicCamera/de.md) zu zwingen, wenn man den Editiermodus betritt. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4778) [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=44747)
-
-
-</div>
+-   Überarbeitete Auswahl von Beschnittkanten. [Pull-Request #4330](https://github.com/FreeCAD/FreeCAD/pull/4330) [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=54441)
+-   Das Verhalten des Werkzeugs <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> [Nut](Sketcher_CreateSlot/de.md) wurde geändert. Die Geometrie kann jetzt durch festlegen der Mittelpunkte beider Halbkreise erstellt werden. [Pull-Request](https://github.com/FreeCAD/FreeCAD/pull/4843) [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=59243&p=508658#p508658)
+-   Die Automatisierung der Sichtbarkeit ermöglicht den Sketcher mit aktivierter Funktion [Schnitt anzeigen](Sketcher_ViewSection/de.md) zu öffnen, wenn in den Bearbeitungsmodus gewechselt wird. [Pull-Request #4742](https://github.com/FreeCAD/FreeCAD/pull/4742) [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=57056)
+-   Die Automatisierung der Sichtbarkeit ermöglicht die Kamera auf [Orthogonale Ansicht](Std_OrthographicCamera/de.md) umzuschalten, wenn in den Bearbeitungsmodus gewechselt wird. [Pull-Request #4778](https://github.com/FreeCAD/FreeCAD/pull/4778) [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=44747)
+-   Option zur Anzeige des Namens einer maßeichen Randbedingung und zur Verwendung eines eigenen Formats dafür. [Pull-Request #4966](https://github.com/FreeCAD/FreeCAD/pull/4966) [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?t=61153)
+-   Beim Skizzieren mit [Kreisbogen durch 3 Punkte erstellen](Sketcher_Create3PointArc/de.md) und aktivierten Automatische Randbedingungen, wird für alle 3 Punkte [Tangential festlegen](Sketcher_ConstrainTangent/de.md) vorgeschlagen, wenn der Mauszeiger über einer Linie bzw. Kurve schwebt. [Pull-Request #4945](https://github.com/FreeCAD/FreeCAD/pull/4945) [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=60596&p=520217#p520209)
+-   Radius- und Durchmesserangaben werden leicht gedreht angezeigt, um die Sichtbarkeit zu verbessern. Der Anwender kann den Winkel vorgeben oder wahlweise einstellen, dass ein zufälliger Winkel verwendet wird. Unter [Feinabstimmung](Fine-tuning/de.md) sind die erforderlichen Parameter dokumentiert. [Pull-Request #4934](https://github.com/FreeCAD/FreeCAD/pull/4934) [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=60370)
+-   Es ist jetzt möglich, den Richtungswinkel festzulegen, wenn das Werkzeug [Rechteckige Anordnung](Sketcher_RectangularArray/de.md) eingesetzt wird. [commitc9eaa239](https://github.com/FreeCAD/FreeCAD/commit/c9eaa239) [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?p=535691#p535691)
+-   Es ist jetzt möglich, den Richtungswinkel festzulegen, wenn die Werkzeuge [Klonen](Sketcher_Clone/de.md), [Kopieren](Sketcher_Copy/de.md) und [Verschieben](Sketcher_Move/de.md) eingesetzt werden. [commit](https://github.com/FreeCAD/FreeCAD/commit/6e4a09f569cf) [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=62799)
+-   Mit einem Rechtsklick in die Baumansicht kann jetzt die Menüoption \"Anhang-Editor\" im Kontextmenü ausgewählt werden, das den Dialog [Anhang](Part_EditAttachment/de.md) öffnet, um die Befestigung zu bearbeiten. [commit c3511ba2f0](https://github.com/FreeCAD/FreeCAD/commit/c3511ba2f0)
+-   Die Auswahl von Randbedingungen ist deaktiviert, während ein Werkzeug zur Erstellung von Geometrien oder eines zum Erstellen von Randbedingungen eingesetzt wird. Sie kann auch jeder Zeit manuell deaktiviert werden, indem die **Shift**-Taste gedrückt wird. [Pull-Request #5398](https://github.com/FreeCAD/FreeCAD/pull/5398) [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=65465)
+-   Ein vielseitiger Filter wurde der Aufgaben-Tafel des Sketchers hinzugefügt, um die Sichtbarkeitssteuerung von Randbedingungen zu erleichtern. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=60569)
+-   Es ist jetzt möglich, zum Zeitpunkt der Erstellung, den Grad eines B-Splines einzustellen ([Pull request #6463](https://github.com/FreeCAD/FreeCAD/pull/6463)) und den zuletzt festgelegten Kontrollpunkt zurückzunehmen ([Pull-Request #6476](https://github.com/FreeCAD/FreeCAD/pull/6476)).
+-   Die vorgegebenen Tastaturkürzel wurden überprüft und angepasst, um widersprüchliche zu entfernen und die anderen einprägsamer anzulegen. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=41272); Bildschirmfotos der Tastaturkürzel für [Randbedingungen](https://wiki.freecadweb.org/images/0/0c/Sketcher_Shortcuts_v0.20_Screenshot_Constraints.png), [Geometrie](https://wiki.freecadweb.org/images/4/48/Sketcher_Shortcuts_v0.20_Screenshot_Geometry.png) und [verschiedene Werkzeuge](https://wiki.freecadweb.org/images/9/90/Sketcher_Shortcuts_v0.20_Screenshot_variousTools.png)
 
 
 
@@ -584,56 +572,42 @@ The [Ship Workbench](Ship_Workbench.md) is back to life!
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### Entwicklung
-
-
-</div>
+## Kompilieren
 
 Since this release FreeCAD can only be compiled using Qt 5.x and Python 3.x. The lowest supported Python version is 3.6.9 according to [this forum thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=62701).
 
+Zum Kompilieren von FreeCAD siehe die Anleitungen für [Windows](Compile_on_Windows/de.md), [Linux](Compile_on_Linux/de.md) und [MacOS](Compile_on_MacOS/de.md).
 
-<div class="mw-translate-fuzzy">
+Die unterstützten Betriebssysteme sind:
 
-Um [FreeCAD unter Windows kompilieren](Compile_on_Windows/de.md), gibt es verschiedene Libpacks (vorgepackte Bibliotheken):
-
--   Libpack für Windows mit Qt xx, OCC yy, und Python zz
-
-
-</div>
-
-The supported operating systems are:
-
--   Windows 7, 8, 10 and 11
+-   Windows 7, 8, 10 und 11
 -   Linux Ubuntu Bionic Beaver (18.04) and Focal Fossa (20.04)
--   MacOS: 10.12 Sierra or newer
+-   MacOS: 10.12 Sierra oder neuer
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### Bekannte Begrenzungen 
+## Bekannte Einschränkungen 
 
 
-</div>
 
-### 32-bit Windows 
+### 32-bit-Windows 
 
-Since FreeCAD 0.19 we no longer officially support 32-bit Windows. FreeCAD might work on these systems, but no support is given.
+Seit FreeCAD 0.19 wird 32bit Windows nicht mehr offiziell unterstützt. FreeCAD kann auf solchen Systemen funktionieren, es wird aber keine Hilfestellung (mehr) dazu geben.
 
-### Remote Desktop under Windows 
 
-Depending on the OpenGL graphics capabilities of a computer, it might be that one encounters a crash when running FreeCAD via remote desktop. To fix this upgrade your OpenGL driver. Only if this doesn\'t help:
 
--   Download [this](https://downloads.fdossena.com/geth.php?r=mesa64-latest) OpenGL library for 64bit Windows and extract it.
--   Rename the DLL file to *opengl32sw.dll* and copy it to the *bin* subfolder of FreeCAD\'s installation folder (overwrite the existing DLL there).
+### Remote-Desktop unter Windows 
 
-### MacOS: Start Workbench shows blank page 
+Abhängig von den OpenGL-Grafik-Fähigkeiten eines Rechners kann es vorkommen, dass FreeCAD abstürzt, wenn man es über Remote-Desktop ausführt. Dies lässt sich durch Aktualisieren des OpenGL-Treibers beheben. Nur wenn das nicht hilft:
 
-If the [Start Workbench](Start_Workbench.md) shows only a blank page, you must enable the option **Use software OpenGL** in the menu **Edit → Preferences → Display**.
+-   [Diese](https://downloads.fdossena.com/geth.php?r=mesa64-latest) OpenGL-Bibliothek für 64bit-Windows herunterladen und extrahieren.
+-   Die DLL-Datei zu *opengl32sw.dll* umbenennen und in das Unterverzeichnis *bin* in FreeCADs Installationsverzeichnis kopieren (die dort existierende DLL überschreiben).
+
+
+
+### MacOS: Arbeitsbereich Start zeigt eine leere Seite 
+
+Zeigt der Arbeitsbereich [Start](Start_Workbench/de.md) nur eine leere Seite, muss die Einstellung **Software OpenGL verwenden** im Menü **Edit → Einstellungen → Anzeige** aktiviert werden.
 
 
 

@@ -19,6 +19,8 @@ FreeCAD is extensible by [Python](Python.md) code that is run directly in the [P
 
 If you\'d like to contribute content to these pages, request a wiki account with editor permissions [in the forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), and read the [WikiPages](WikiPages.md) for the general guidelines that you should follow. For other ways to contribute with the project, see the [Help FreeCAD](Help_FreeCAD.md) page.
 
+
+
 ## FreeCAD 커스터마이징 
 
 
@@ -34,6 +36,8 @@ If you\'d like to contribute content to these pages, request a wiki account with
 
 
 </div>
+
+
 
 ## FreeCAD 안에서 스크립팅 
 
@@ -85,7 +89,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 -   [Scripted objects](Scripted_objects.md): how to make 100% Python-scripted objects.
     -   [Scripted objects with attachment](Scripted_objects_with_attachment.md): how to make scripted objects attachable to other objects.
-    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md): how to save and restore attributes of the proxy class with `__getstate__` and `__setstate__`.
+    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md): how to save and restore attributes of the proxy class with `dumps` and `loads`.
     -   [Scripted objects migration](Scripted_objects_migration.md): how to migrate old scripted objects to a new class.
 
 ### Examples
@@ -96,6 +100,8 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 -   [Embedding FreeCAD](Embedding_FreeCAD.md): How to import FreeCAD as a Python module in other applications
 -   The [Draft Workbench](Draft_Workbench.md) adds basic 2d drawing functions to freecad. It is written entirely in Python, so it can be a good example if you want to write your own modules.
 -   [FreeCAD vector math library](FreeCAD_vector_math_library.md) : A couple of handy functions to manipulate FreeCAD vectors. This library is also included in the Draft module.
+
+
 
 ## API 함수 
 
@@ -110,6 +116,8 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 -   [Compiling FreeCAD on Windows](Compile_on_Windows.md) and [Compiling FreeCAD on Linux](Compile_on_Linux.md)
 -   [Branding](Branding.md): Simple modifications you can do to the source code to change some aspects of FreeCAD
 -   [Extra python modules](Extra_python_modules.md) : Extend the FreeCAD python interpreter with these powerful modules!
+
+
 
 ## Python 투토리얼 
 
@@ -147,11 +155,11 @@ The following two references are PyQt specific (not PySide) but may offer some i
 -   [High Level 3D Graphics Programming in Python](http://ftp.ntua.gr/mirror/python/pycon/dc2004/papers/47/) : Pivy example from Pycon 2004
 -   [Introducing Pivy into studierstube](https://www.semanticscholar.org/paper/Integrating-Pivy-into-Studierstube-4.2-Gruber/08c9a89c8326c87f81c2d83428029fbfb6c2ae64) [(Mirror)](https://www.researchgate.net/publication/228737136_Integrating_Pivy_into_Studierstube_42) : A paper that is not really a tutorial, but that illustrates well how Pivy works (requires an academic account)
 
+
+
 ## 커뮤니티 프로젝트 
 
 On the [Community portal](FreeCAD_Community_Portal.md), you can find other FreeCAD-based projects run by the FreeCAD users community. If you are starting a new FreeCAD project, be sure to list it there! We also have a page with things you can do if you would like to [Help FreeCAD](Help_FreeCAD.md).
-
--   [Scientific literature](Scientific_literature.md): articles that reference or use the FreeCAD system in different ways.
 
 
 

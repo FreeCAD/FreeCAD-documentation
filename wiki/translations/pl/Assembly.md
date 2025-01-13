@@ -38,7 +38,7 @@ Ogólnie rzecz biorąc, obiekt **[<img src=images/Std_Part.svg style="width:16px
 
 ### Złożenie z więzami 
 
-Można też użyć dedykowanego środowiska pracy do złożeń, jak <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench/pl.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Złożenie 3](Assembly3_Workbench/pl.md), czy <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Złożenie 4](Assembly4_Workbench/pl.md). Należy pamiętać, że [Złożenie 2](Assembly2_Workbench/pl.md) nie jest utrzymywany, więc nie jest zalecany dla nowych modeli.
+Można też użyć wbudowanego [środowiska pracy Złożenie](Assembly_Workbench/pl.md) lub jego zewnętrznych odpowiedników, jak <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench/pl.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Złożenie 3](Assembly3_Workbench/pl.md), czy <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Złożenie 4](Assembly4_Workbench/pl.md). Należy pamiętać, że [Złożenie 2](Assembly2_Workbench/pl.md) nie jest utrzymywany, więc nie jest zalecany dla nowych modeli.
 
 Środowiska pracy złożeń wykorzystują wiązania i wyrażenia do tworzenia relacji między obiektami w modelu, aby matematycznie powiązać obiekty w miejscu, na przykład: \"ta ściana powinna przylegać do tej drugiej ściany\", \"ten walec powinien być współśrodkowy z tym okręgiem\", \"ten punkt powinien podążać za tą krawędzią\" itp.
 
@@ -48,11 +48,9 @@ Jest to zaawansowane wykorzystanie oprogramowania, które jest zwykle używane w
 
 ## Uwagi
 
-Od wersji FreeCAD 0.19 nie ma oficjalnego środowiska pracy dla złożeń, które byłoby domyślnie dołączone do systemu. Środowiska pracy złożeń są trudne do zaprogramowania, ponieważ trzeba rozwiązać wiele problemów dotyczących efektywnego wykorzystania obiektu [Zawartości](Body/pl.md) i [Części](Part/pl.md) w modelu. Niemniej jednak, wprowadzenie obiektu [App Link](App_Link/pl.md) poprawiło sytuację.
+-   Od wersji FreeCAD 1.0, dostępne jest oficjalne [środowisko pracy Złożenie](Assembly_Workbench/pl.md) uwzględnione w domyślnej instalacji.
 
-Zauważ, że środowiska złożeń są z reguły niekompatybilne między sobą. Jeśli stworzysz złożenie w jednym z nich, powinieneś trzymać się oryginalnego środowiska, i nie używać innego w tym samym dokumencie.
-
-Środowiska pracy złożeń wciąż się rozwijają i oczekuje się, że w pewnym momencie jedno z nich pojawi się jako \"oficjalne\". Mogłoby się to stać poprzez promocję jednego z obecnych stanowisk do tworzenia złożeń, lub poprzez ich połączenie w celu stworzenia bardziej kompletnego rozwiązania.
+-   Zauważ, że środowiska złożeń są z reguły niekompatybilne między sobą. Jeśli stworzysz złożenie w jednym z nich, powinieneś trzymać się oryginalnego środowiska i nie używać innego w tym samym dokumencie.
 
 
 {{Std Base navi

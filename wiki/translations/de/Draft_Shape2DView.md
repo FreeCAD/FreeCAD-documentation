@@ -3,7 +3,7 @@
    Name: Draft Shape2DView
    Name/de: Draft Form2DAnsicht
    MenuLocation: Änderung , Form in 2D Ansicht
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de
    SeeAlso: TechDraw_ProjectShape/de
 ---
 
@@ -15,28 +15,30 @@
 
 Der Befehl <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> **Draft Form2DAnsicht** erstellt 2D-Projektionen von ausgewählten Objekten, in der Regel 3D-Festkörper oder [Arch Schnittebenen](Arch_SectionPlane/de.md). Die Projektionen werden in der [3D-Ansicht](3D_view/de.md) dargestellt.
 
-Draft Shape2DView projections can be displayed on a [TechDraw Workbench](TechDraw_Workbench.md) page using the [TechDraw DraftView](TechDraw_DraftView.md) command. Alternatively the [TechDraw Workbench](TechDraw_Workbench.md) offer its own projection commands. But these create projections that are only displayed on the drawing page and not in the [3D view](3D_view.md).
+Draft Form2DAnsichten können im [Arbeitsbereich TechDraw](TechDraw_Workbench/de.md) auf einer Seite mit dem [TechDraw DraftAnsicht](TechDraw_DraftView/de.md) Befehl angezeigt werden. Wahlweise bietet der Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md) seine eigenen Befehle zum Projizieren an. Aber diese Projektionen werden nur in der Seite der Zeichnung, nicht in der [3D Ansicht](3D_view/de.md) angezeigt.
 
 ![](images/Draft_Shape2DView_example.jpg ) 
-*Projection of solid shapes onto the XY plane*
+*Projektion einer Festkörper Form in der XY Ebene*
 
 
 
 ## Anwendung
 
-1.  Optionally rotate the [3D view](3D_view.md). The camera direction in the [3D view](3D_view.md) determines the projection vector. For example, a [top view](Std_ViewTop.md) will project onto the XY plane. The projection vector is ignored for projections created from [Arch SectionPlanes](Arch_SectionPlane.md).
-2.  Optionally select one or more objects.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Shape2DView.svg" width=16px> [Shape 2D view](Draft_Shape2DView.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Shape2DView.svg" width=16px> Shape 2D view** option from the menu.
-4.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
-5.  The projected objects are created on the XY plane.
+1.  Drehe wahlweise die [3D Ansicht](3D_view/de.md). Die Blickrichtung der Kamera in der [3D Ansicht](3D_view/de.md) bestimmt den Projektionsvektor. Zum Beispiel eine [Draufsicht](Std_ViewTop/de.md) wird auf die XY Ebene projiziert. Bei Projektionen die aus einer [Arch Schnittebene](Arch_SectionPlane/de.md) entstehen wird der Projektionsvektor nicht beachtet.
+2.  Wahlweise wähle eines oder mehrere Objekte.
+3.  Es gibt verschiedene Möglichkeiten um den Befehl zu aktivieren:
+    -   Drücke die **<img src="images/Draft_Shape2DView.svg" width=16px> [Form 2D Ansicht](Draft_Shape2DView/de.md)** Schaltfläche.
+    -   Wähle die **Änderungen → <img src="images/Draft_Shape2DView.svg" width=16px> Form 2D Ansicht** Option aus dem Menü.
+4.  Wenn du bis jetzt noch kein Objekt ausgewählt hast: wähle ein Objekt in der [3D Ansicht](3D_view/de.md).
+5.  Die projizierten Objekte werden in der XY Ebene erzeugt.
 
-## How to produce plans and sections with different linewidths 
+
+
+## Wie erzeugt man Pläne und Schnitte mit unterschiedlicher Strichbreite 
 
 <img alt="" src=images/Draft_shape2dview_example_plan.png  style="width:700px;">
 
-Drawings with different linewidths for viewed and cut lines can easily be produced by using two shape2Dview objects from a same [Arch SectionPlane](Arch_SectionPlane.md). One of the shape2Dview objects has its projection mode set to **Solid**, which renders the viewed lines, and another set to **Cut lines** or **Cut faces** to render the cut lines. The two shape2Dviews are then placed at the same location, one on top of the other.
+Zeichnungen mit unterschiedlicher Strichbreite für gesehene und geschnittene Linien können durch Verwendung von zwei shape2Dview Objekten aus der selben [Arch Schnittebene](Arch_SectionPlane/de.md) erzeugt werden. Eines der Form2DAnsichten Objekte hat seinen Projektionsmodus auf **Solid** gesetzt, was zum Zeichnen der gesehenen Linien führt, und ein anderes ist auf **Schnittlinien** gesetzt um die Schnittlinien zu zeichnen. Die zwei Form2DAnsichten werden dann über einander an dem selben Ort platziert.
 
 
 
@@ -53,56 +55,58 @@ Ein Draft Shape2DView-Objekt wird von einem [Part Part2DObject](Part_Part2DObjec
 
 {{TitleProperty|Draft}}
 
--    **Auto Update|Bool**: specifies if the projection should be automatically recomputed if the **Base** object changes. Selecting {{False}} can be useful if there are many Draft Shape2DViews in a document or if they are complex. If set to {{False}} the [Std Refresh](Std_Refresh.md) command must be used to update the projection. <small>(v0.20)</small> 
+-    **Auto Update|Bool**: legt fest, ob die Projektion automatisch neu berechnet wird, wenn sich das **Base** Objekt ändert. Wählen von {{False}} kann ützlich sein, wenn es in einem Dokument viele Draft Form2DAnsichten gibt oder sie kompliziert sind. Falls auf {{False}} gesetzt muss der Befehl [Std Refresh](Std_Refresh.md) zum neuberechnen der Projektion verwendet werden.
 
--    **Base|Link**: specifies the object to be projected.
+-    **Base|Link**: legt das Objekt welches projiziert werden muss fest.
 
--    **Face Numbers|IntegerList**: specifies the indices of the faces to be projected. Only works if **Projection Mode** is {{Value|Individual Faces}}.
+-    **Clip|Bool**: falls True, wird der Inhalt falls möglich mit dem Rand der Schnittebene abgeschnitten. Dies überschreibt die Abschneiden Eigenschaft des Objektes.
 
--    **Fuse Arch|Bool**: specifies if [Arch objects](Arch_Workbench.md) of the same type and material are fused or not.
+-    **Face Numbers|IntegerList**: legt die Indizes der zu projizierenden Flächen fest. Funktioniert nur wenn {{PropertyData/de|Projektionsmodus}} auf {{Value|Individual Faces}} gesetzt ist.
 
--    **Hidden Lines|Bool**: specifies if hidden lines are shown or not.
+-    **Fuse Arch|Bool**: legt fest ob [BIM Objekte](BIM_Workbench/de.md) mit gleichem Typ und Material vereinigt werden oder nicht.
 
--    **In Place|Bool**: only works if the selected object is an [Arch SectionPlane](Arch_SectionPlane.md), and **Projection Mode** is {{Value|Cutlines}} or {{Value|Cutfaces}}, specifies if the projection will appear co-planar with the section plane.
+-    **Hidden Lines|Bool**: legt fest, ob versteckte Linien dargestellt werden oder nicht.
 
--    **Projection|Vector**: specifies the direction of the projection. Ignored if **Base** is an [Arch SectionPlane](Arch_SectionPlane.md).
+-    **In Place|Bool**: funktioniert nur wenn das gewählte Objekt ein [Arch Schnittebene](Arch_SectionPlane/de.md) ist, und {{PropertyData/de|Projektionsmodus}} den Wert {{Value|Cutlines}} oder {{Value|Cutfaces}}hat, legt fest, ob die Projektion co-planar mit der Schnittebene erscheint.
 
--    **Projection Mode|Enumeration**: specifies the projection mode. The following modes are available:
+-    **Projection|Vector**: legt die Richtung der Projektion fest. Wird ignoriert wenn **Base** eine [Arch Schnittebene](Arch_SectionPlane/de.md) ist.
+
+-    **Projection Mode|Enumeration**: legt dem Modus der Projektion fest. Folgende Modi sind möglich:
 
     -   
         {{Value|Solid}}
         
-        : projects the entire selected object.
+        : projiziert das gesamte gewählte Objekt.
 
     -   
         {{Value|Individual Faces}}
         
-        : only projects the faces in the **Face Numbers** list.
+        : projiziert nur die Flächen aus der {{PropertyData/de|Flächen Nummern}} Liste.
 
     -   
         {{Value|Cutlines}}
         
-        : only works if the selected object is an [Arch SectionPlane](Arch_SectionPlane.md), projects only the edges cut by the section plane.
+        : funktioniert nur wenn das gewählte Objekt eine [Arch Schnittebene](Arch_SectionPlane/de.md) ist, projiziert nur die von der Schnittebene geschnittenen Kanten.
 
     -   
         {{Value|Cutfaces}}
         
-        : only works if the selected object is an [Arch SectionPlane](Arch_SectionPlane.md), projects the areas cut through solids by the section plane as faces.
+        : funktioniert nur wenn das gewählte Objekt eine [Arch Schnittebene](Arch_SectionPlane/de.md) ist, projiziert jene Bereiche die von der Schnittebene durch Festkörper geschnitten wurden als Flächen.
 
     -   
         {{Value|Solid faces}}
         
-        : projects the entire selected object by cutting faces one by one. Can be used if the {{Value|Solid}} mode gives wrong results. <small>(v0.20)</small> 
+        : projiziert das gesamte gewählte Objekt durch schneiden der Flächen eine nach der anderen. Kann verwendet werden, falls der {{Value|Solid}} Modus falsche Ergebnisse liefert.
 
--    **Segment Length|Float**: specifies the size in millimeters of linear segments if **Tessellation** is `True`.
+-    **Segment Length|Float**: legt die Größe von linearen Elemente in Millimetern fest falls {{PropertyData/de|Mosaik}} auf `True` steht.
 
--    **Tessellation|Bool**: specifies if tessellation should be performed. Tessellation means that curves are replaced by sequences of line segments. This can be computationally intensive if the **Segment Length** is too short.
+-    **Tessellation|Bool**: legt fest, ob ein Mosaik erzeugt werden soll. Mosaik bedeutet, dass Kurven durch eine Reihe von Liniensegmenten ersetzt werden. Das kann zu intensiven Rechnungen führen wenn die {{PropertyData/de|Segment Länge}} zu kurz ist.
 
--    **Visible Only|Bool**: specifies if the projection should only be recomputed if it is visible.
+-    **Visible Only|Bool**: legt fest, ob die Projektion wenn sie sichtbar ist neu berechnet werden soll.
 
--    **Exclusion Points|Vector list**: A list of exclusion points. Any edge passing through any of those points will not be drawn. <small>(v0.20)</small> 
+-    **Exclusion Points|Vector list**: Eine Liste mit ausgeschlossenen Punkten. Kanten die durch einen dieser Punkte gehen werden nicht gezeichnet.
 
--    **Exclusion Names|String list**: A list of object names. Any viewed or cut child object with a name in that list will not be drawn. <small>(v0.21)</small> 
+-    **Exclusion Names|String list**: Eine Liste mit Objektnamen. Jedes sichtbare oder geschnittene Kind Objekt in dieser Liste wird nicht gezeichnet. <small>(v0.21)</small> 
 
 
 
@@ -119,24 +123,24 @@ Ein Draft Shape2DView-Objekt wird von einem [Part Part2DObject](Part_Part2DObjec
 
 ## Skripten
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Siehe auch: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To create a 2D projection use the `make_shape2dview` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeShape2DView` method.
+Verwende zum Erzeugen einer Projektion die Methode `make_shape2dview` (<small>(v0.19)</small> ) des Moduls Draft. Diese Methode ersetzt die veraltete Methode `makeShape2DView`.
 
 
 ```python
 shape2dview = make_shape2dview(baseobj, projectionVector=None, facenumbers=[])
 ```
 
--    `baseobj`is the object to be projected.
+-    `baseobj`ist das Objekt, welches projiziert werden soll.
 
--    `projectionVector`is the projection vector. If not supplied the Z axis is used.
+-    `projectionVector`ist der Projektionsvektor. Falls nicht angegeben wird die Z Achse verwendet.
 
--    `facenumbers`is a list of face numbers (0-based). If supplied only these faces are considered.
+-    `facenumbers`ist eine Liste der Flächennummern (0-beginnend). Falls vorhanden werden nur diese Flächen berücksichtigt.
 
--    `shape2dview`is returned with the created 2D projection.
+-    `shape2dview`wird mit der erzeugten 2D Projektion zurück geliefert.
 
-Change the `ProjectionMode` property of the created object if required. It can be: `"Solid"`, `"Individual Faces"`, `"Cutlines"`, `"Cutfaces"` or `"Solid faces"`.
+Ändere falls notwendig die Eigenschaft `ProjectionMode` des erzeugten Objektes. Sie kann `"Solid"`, `"Individual Faces"`, `"Cutlines"`, `"Cutfaces"` oder `"Solid faces"` sein.
 
 Beispiel:
 

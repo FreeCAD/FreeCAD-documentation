@@ -1,7 +1,12 @@
 # Splash screen/it
 ## Descrizione
 
-La schermata iniziale è un\'immagine che appare durante l\'avvio di FreeCAD. Per ogni nuova versione, viene selezionata in una votazione aperta dai contributi degli utenti. Si può disabilitare la schermata iniziale nell\'[Editor Preferenze](Preferences_Editor/it.md) deselezionando l\'opzione **Abilita la schermata iniziale all\'avvio**.
+La schermata iniziale è un\'immagine che appare durante l\'avvio di FreeCAD. Si può disabilitare la schermata iniziale nell\'[Editor delle Preferenze](Preferences_Editor/it#Generale_2.md) deselezionando l\'opzione **Abilita la schermata iniziale all\'avvio**.
+
+
+{{Version/it|1.0}}
+
+: l\'immagine della schermata iniziale viene scelta casualmente da più immagini inclusi i modelli utente e gli ambienti di lavoro aggiuntivi selezionati.
 
 
 

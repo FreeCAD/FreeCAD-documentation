@@ -12,9 +12,17 @@ Dacă pagina nu apare, faceți clic pe<img alt="" src=images/view-refresh.png  s
 
 <img alt="" src=images/Drawing_Page.png  style="width:500px;">
 
+
+
 ## Opțiuni
 
--   Șablonul utilizat de o pagină poate fi modificat prin proprietatea Template din ecranul Date. Faceți clic pe câmpul de valoare, apoi pe butonul \"\...\" și navigați la un [suitable template](Drawing_templates.md). Apoi reîmprospătați vizualizarea.
+
+<div class="mw-translate-fuzzy">
+
+-   Șablonul utilizat de o pagină poate fi modificat prin proprietatea Template din ecranul Date. Faceți clic pe câmpul de valoare, apoi pe butonul \"\...\" și navigați la un suitable template. Apoi reîmprospătați vizualizarea.
+
+
+</div>
 
 
 {{docnav|[Open scalable vector graphic](Drawing_Open_SVG.md)|[Insert a view](Drawing_View.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Drawing_Open_SVG.png|IconC=Workbench_Drawing.svg|IconR=Drawing_View.png}}

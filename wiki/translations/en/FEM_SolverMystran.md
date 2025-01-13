@@ -20,7 +20,9 @@ The [SolverMystran](FEM_SolverMystran.md) command enables usage of the [MYSTRAN]
 
 ## Installation
 
-You can get the Mystran Windows executable [here](https://github.com/MYSTRANsolver/MYSTRAN%20Releases). Put the folder where you place **Mystran.exe** in the Windows\'s PATH variable.
+### Windows
+
+You can get the Mystran executable [here](https://github.com/MYSTRANsolver/MYSTRAN/releases). Put the folder where you place **mystran.exe** (the executable must have this exact name - remove the remaining part of the default name) in the Windows PATH variable or just place the file in the **FreeCAD\bin** folder. If necessary, specify it under **Preferences → FEM → Mystran**.
 
 The [SolverMystran](FEM_SolverMystran.md) also needs two other packages:
 
@@ -33,7 +35,23 @@ pyNastran can be installed through pip:
 2.  Enter: {{Incode|python -m pip install pyNastran}}
 3.  It will be installed in the **FreeCAD\bin\lib\site-packages** folder.
 
-hfcMystran can be downloaded from its github site as a zip file. Unzip it and place it in the **FreeCAD\Mod** folder.
+hfcMystran can be downloaded from its github site as a zip file (*Code → Download ZIP*). Unzip it and place it in the **FreeCAD\Mod** folder.
+
+### Linux
+
+Linux installation procedure is similar but there are some differences.
+
+After downloading the Mystran executable, rename it as explained above, allow it to be executed (*right-click → Properties → Permissions → Allow executing file as program*) and put it in the **usr/bin** directory of FreeCAD.
+
+To install pyNastran, enter the following commands in the [Python console](Python_console.md) in FreeCAD:
+
+
+```python
+import subprocess
+subprocess.run(['pip', 'install', 'pyNastran'])
+```
+
+Finally, download and unpack hfcMystran and put it in the **usr/Mod** directory of FreeCAD.
 
 ## Quick test 
 
@@ -41,7 +59,17 @@ After installation you can select **Utilities → Open FEM examples** in the FEM
 
 ## Usage
 
-ToDo
+1.  After the creation of an <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> [Analysis container](FEM_Analysis.md), use one of the following alternatives:
+    -   Select **Solve → <img src="images/FEM_SolverMystran.svg" width=x16px> Solver Mystran** from the menu.
+    -   Press the **S** then **M** shortcut keys.
+2.  Double click the <img alt="" src=images/FEM_SolverMystran.svg  style="width:" height="16px;"> SolverMystran object.
+3.  Click the **Write** button.
+4.  Click the **Run** button.
+
+## Limitations
+
+-   Currently, only displacements are available as contour plots from analyses with this solver. To see the stresses, switch to hfcMystran workbench, open your case and its F06 file. pyNastran GUI can be used to plot all the results.
+-   Only the following element types are currently supported: first and second order tetrahedrons, first order triangular and quadrilateral shells and first order beams. If different elements are generated with Gmsh, the Mystran solver will show an error.
 
 ## File function 
 

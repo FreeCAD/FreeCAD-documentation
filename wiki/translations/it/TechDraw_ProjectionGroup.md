@@ -1,38 +1,24 @@
 ---
  GuiCommand:
    Name: TechDraw_ProjectionGroup
-   Name/it: Gruppo di proiezioni
-   MenuLocation: TechDraw , Gruppo di proiezioni
+   Name/it: TechDraw Gruppo di proiezioni
+   MenuLocation: TechDraw , Viste TechDraw , Gruppo di proiezioni
    Workbenches: TechDraw_Workbench/it
-   Shortcut: 
-   SeeAlso: TechDraw_View/it, TechDraw_SectionView/it
-   Version: 
+   SeeAlso: TechDraw_View/it
 ---
 
 # TechDraw ProjectionGroup/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:24px;"> [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md) crea una [proiezione multivista](https://en.wikipedia.org/wiki/Multiview_projection) di uno o più oggetti 3D. È anche possibile includere le viste isometriche dei 4 angoli anteriori.
+Lo strumento **TechDraw Gruppo di proiezioni** crea una [proiezione multivista](https://en.wikipedia.org/wiki/Multiview_projection) di uno o più oggetti 3D, utilizzando la tradizionale [first-](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) o la [proiezione del terzo angolo](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection). Possono essere incluse anche le viste isometriche dei 4 angoli anteriori.
 
 
-</div>
+{{Version/it|1.0}}
 
-
-<div class="mw-translate-fuzzy">
-
-Se si desidera produrre una sola vista, non conviene utilizzare Gruppo di proiezioni, meglio usare invece [Vista](TechDraw_View/it.md). Se non si desidera utilizzare il tradizionale modo di visualizzazione [primo](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) o [terzo angolo di proiezione](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection), è possibile utilizzare diverse volte \"Vista\" al posto di \"Gruppo di proiezioni\".
-
-
-</div>
+: anche lo strumento [TechDraw Vista](TechDraw_View/it.md) può creare un Gruppo di Proiezione. Si consiglia di utilizzare quello strumento.
 
 <img alt="" src=images/TechDraw_ProjGroup_example.png  style="width:400px;"> 
 *Tre viste ortogonali e una vista isometrica di un oggetto solido*
@@ -41,69 +27,48 @@ Se si desidera produrre una sola vista, non conviene utilizzare Gruppo di proiez
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare uno o più oggetti, \"Corpo\" o \"Parte\", nella finestra 3D o nella vista ad albero. Se nel documento ci sono più pagine di disegno, è anche necessario selezionare la pagina desiderata nella struttura.
-2.  Premere il pulsante **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)**.
-3.  Si apre una finestra in cui è possibile selezionare quali viste devono apparire, la scala del gruppo e altri parametri:
-
-
-</div>
-
-![](images/TaskProjGroup.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Finestra di dialogo delle azioni del gruppo di proiezioni. Il campo centrale indica la direzione corrente della vista con le percentuali degli assi x, y e z.*
-
-
-</div>
+Vedere [TechDraw View](TechDraw_View/it#Usage_Projection_Group_Item_and_Projection_Group.md), ma per richiamare lo strumento selezionare l\'opzione **TechDraw → TechDraw Views → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Inserisci gruppo di proiezione** dal menu.
 
 
 
 ## Proprietà
 
-### Data
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
+
+Un Gruppo di Proiezione, formalmente un oggetto {{Incode|TechDraw::DrawProjGroup}}, ha le [proprietà](TechDraw_View/it#Properties_Part_View.md) comuni a tutti i tipi di Vista. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{TitleProperty|Base}}
 
--    **Source|LinkList**: Links to the drawable objects to be depicted.
+-    **Source|LinkList**: collegamenti agli oggetti disegnabili da rappresentare.
 
--    **XSource|XLinkList**: Links to the drawable objects in an external file.
+-    **XSource|XLinkList**: collegamenti agli oggetti disegnabili in un file esterno.
 
--    **Anchor|Link**: The central view in the group. Normally the Front view.
+-    **Anchor|Link**: la vista centrale nel gruppo. Normalmente la vista frontale.
 
--    **ProjectionType|Enumeration**: {{Value|First Angle}} or {{Value|Third Angle}}.
-
-For the other properties in this group see [TechDraw View](TechDraw_View#Properties.md).
+-    **ProjectionType|Enumeration**: {{Value|First Angle}} o {{Value|Third Angle}}.
 
 
 {{TitleProperty|Collection}}
 
--    **Views|LinkList**: Links to the views in this ProjectionGroup.
+-    **Views|LinkList**: collegamenti alle viste in questo Gruppo di proiezioni.
 
 
 {{TitleProperty|Distribute}}
 
--    **Auto Distribute|Bool**: If `True`, space out individual views automatically. Use `False` to position manually.
+-    **Auto Distribute|Bool**: se `True`, distanzia automaticamente le singole viste. Utilizzare `False` per posizionarle manualmente.
 
--    **spacing X|Length**: Horizontal space between views when automatically positioned. Note that Scale and the size of other views in the group also influence the spacing.
+-    **spacing X|Length**: spazio orizzontale tra le viste quando posizionate automaticamente. Tenere presente che anche la scala e la dimensione delle altre viste nel gruppo influenzano la spaziatura.
 
--    **spacing Y|Length**: Vertical space between views when automatically positioned.
-
-### View
+-    **spacing Y|Length**: spazio verticale tra le viste quando posizionate automaticamente.
 
 
-{{TitleProperty|Base}}
 
-See [TechDraw View](TechDraw_View#Properties.md).
-
-## Notes
+## Note
 
 Le Proiezioni ereditano nel loro complesso X, Y, ScaleType, Scale e Rotation dalla vista di base.
 
@@ -117,18 +82,9 @@ Notare che la casella centrale visualizza la direzione di proiezione corrente de
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-<div class="mw-translate-fuzzy">
-
-
-**Vedere anche:**
-
-[TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-A Projection Group can be created with [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+Un Gruppo di proiezioni può essere creato con [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando le seguenti funzioni:
 
 
 ```python
@@ -165,25 +121,13 @@ group.Y = page.PageHeight / 2
 doc.recompute()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Nota di programmazione: Il Gruppo di proiezioni deve sempre essere aggiunto alla Pagina (ad esempio page.addView(group) prima di aggiungere delle proiezioni al Gruppo. Ciò consente al Gruppo di proiezioni di utilizzare i valori dei parametri predefiniti derivati dalla pagina genitore.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Nota: il gruppo di proiezioni deve essere sempre aggiunto alla Pagina, {{Incode|page.addView(group)}}, prima di aggiungere proiezioni al Gruppo. Ciò consente al Gruppo di proiezione di utilizzare i valori dei parametri predefiniti derivati ​​dalla pagina principale.
 
 
 
 
 
-</div>
-
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

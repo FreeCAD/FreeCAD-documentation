@@ -18,6 +18,8 @@ En raison du rapport d\'engrènement favorable et de la production relativement 
 ![](images/Involute-Gear_example.png ) 
 *De gauche à droite: Engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal*
 
+
+
 ## Utilisation
 
 1.  Passez à l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [atelier FCGear](FCGear_Workbench/fr.md).
@@ -26,16 +28,20 @@ En raison du rapport d\'engrènement favorable et de la production relativement 
     -   Sélectionnez l\'option **Gear → [<img src=images/FCGear_InvoluteGear.svg style="width:16px"> Involute Gear** dans le menu.
 3.  Modifiez le paramètre de l\'engrenage en fonction des conditions requises (voir [Propriétés](#Propri.C3.A9t.C3.A9s.md)).
 
+
+
 ## Propriétés
 
 Un objet FCGear InvoluteGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
 
 {{Properties_Title|accuracy}}
 
--    **numpoints|Integer**: valeur par défaut à {{Value|6}}. Changement du profil de la développante. La modification de la valeur peut conduire à des résultats inattendus.
+-    **numpoints|Integer**: valeur par défaut à {{Value|20}}. Changement du profil de la développante. La modification de la valeur peut conduire à des résultats inattendus.
 
 -    **simple|Bool**: valeur par défaut à {{False}}. {{True}} génère un affichage simplifié (sans dents et seulement un cylindre en diamètre primitif).
 
@@ -46,38 +52,53 @@ Un objet FCGear InvoluteGear est dérivé d\'un [Part Feature](Part_Feature/fr.m
 
 -    **module|Length**: valeur par défaut à {{Value|1 mm}}. Module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir [Remarques](#Remarques.md)).
 
--    **teeth|Integer**: valeur par défaut à {{Value|15}}. Nombre de dents (voir [Remarques](#Remarques.md)).
+-    **num_teeth|Integer**: valeur par défaut à {{Value|15}}. Nombre de dents (voir [Remarques](#Remarques.md)).
 
 
 {{Properties_Title|computed}}
 
--    **angular_backlash|Angle**: (lecture seule)
+-    **addendum_diameter|Length**: valeur par défaut à {{Value|17 mm}}. Diamètre extérieur, mesuré au niveau de l\'addendum (l\'extrémité des dents).
 
--    **da|Length**: (lecture seule) diamètre extérieur, mesuré à l\'addendum (la pointe des dents).
+-    **angular_backlash|Angle**: (en lecture seule) angle selon lequel cet engrenage peut tourner sans déplacer l\'engrenage correspondant.
 
--    **df|Length**: (lecture seule) diamètre de la racine, mesuré au pied des dents.
+-    **pitch_diameter|Length**: valeur par défaut à {{Value|15 mm}}. Le diamètre primitif.
 
--    **dw|Length**: (lecture seule) diamètre du pas de travail.
+-    **root_diameter|Length**: (en lecture seule) diamètre de la racine, mesuré au pied des dents.
 
--    **transverse_pitch|Length**: (lecture seule) pas dans le plan de rotation.
+-    **transverse_pitch|Length**: valeur par défaut à {{Value|3.14 mm}}. Le pas transversal.
+
+-    **traverse_module|Length**: valeur par défaut à {{Value|1 mm}}. Le module transversal de l\'engrenage généré.
 
 
 {{Properties_Title|fillets}}
 
--    **head_fillet|Float**: valeur par défaut à {{Value|0 mm}}.
+-    **head_fillet|Float**: valeur par défaut à {{Value|0 mm}}. Un congé pour la tête de la dent.
 
--    **root_fillet|Float**: valeur par défaut à {{Value|0 mm}}.
+-    **root_fillet|Float**: valeur par défaut à {{Value|0 mm}}. Un congé pour la racine de la dent.
 
 -    **undercut|Bool**: valeur par défaut à {{False}}. {{True}} modifie le profil de la racine de la dent (voir [Remarques](#Remarques.md)).
 
 
 {{Properties_Title|helical}}
 
--    **beta|Angle**: valeur par défaut à {{Value|0 °}}. Avec l\'angle d\'hélice β, un engrenage hélicoïdal est créé - valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche (voir [Remarques](#Remarques.md)).
-
 -    **double_helix|Bool**: valeur par défaut à {{False}}, {{True}} crée un engrenage à double hélice (voir [Remarques](#Remarques.md)).
 
--    **properties_from_tool|Bool**: valeur par défaut à {{False}}. Si {{True}} et **beta** est différent de zéro, les paramètres de l\'engrenage sont recalculés en interne pour l\'engrenage tourné.
+-    **helix_angle|Angle**: valeur par défaut à {{Value|0 °}}. Avec l\'angle d\'hélice β, un engrenage hélicoïdal est créé - valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche (voir [Remarques](#Remarques.md)).
+
+-    **properties_from_tool|Bool**: valeur par défaut à {{False}}. Si {{True}} et que **helix_angle** est différent de zéro, les paramètres de l\'engrenage sont recalculés en interne pour l\'engrenage tourné.
+
+
+{{Properties_Title|hole}}
+
+-    **Axle_hole|Bool**: valeur par défaut à {{False}}. {{True}} active un trou central pour un axe.
+
+-    **Axle_holesize|Length**: valeur par défaut à {{Value|10 mm}}. Diamètre du trou pour un axe.
+
+-    **offset_hole|Bool**: valeur par défaut à {{False}}, {{True}} active un trou décalé.
+
+-    **offset_holeoffset|Length**: valeur par défaut à {{Value|10 mm}}. Le décalage du trou de décalage.
+
+-    **offset_holesize|Length**: valeur par défaut à {{Value|10 mm}}. Le diamètre du trou de décalage.
 
 
 {{Properties_Title|involute}}
@@ -101,6 +122,8 @@ Un objet FCGear InvoluteGear est dérivé d\'un [Part Feature](Part_Feature/fr.m
 {{Properties_Title|version}}
 
 -    **version|String**:
+
+
 
 ## Remarques
 
@@ -126,39 +149,39 @@ Un objet FCGear InvoluteGear est dérivé d\'un [Part Feature](Part_Feature/fr.m
 
 Un profil de dent en 2D, obtenu en fixant la valeur de **height** à zéro, ne peut pas être utilisé avec des caractéristiques nécessitant une forme en 2D. Par exemple, les fonctions [PartDesign Protrusion](PartDesign_Pad/fr.md) et [PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md) n\'acceptent pas un tel profil comme base. Pour les détails techniques, veuillez vous reporter à la question connexe [issue on GitHub](https://github.com/looooo/freecad.gears/issues/97).
 
+
+
 ## Formules utiles 
+
+
 
 ### Engrenages droits standards 
 
 Le terme \"standard\" désigne ici les engrenages droits sans coefficient de décalage de profil ($x$).
 
 +++++
-| Symbole  | Terme                                           | Formule                                | Paramètre FCGear                            |
-+==========+=================================================+========================================+=============================================+
-| $m$      | *Module*                                        | \-                                     | $\texttt{module}$                           |
+| Symbole  | Terme                                           | Formule                                | Paramètre FCGear                        |
++==========+=================================================+========================================+=========================================+
+| $m$      | *Module*                                        | \-                                     | $\texttt{module}$                       |
 +++++
-| $z$      | *Nombre de dents*                               | \-                                     | $\texttt{teeth}$                            |
+| $z$      | *Nombre de dents*                               | \-                                     | $\texttt{teeth}$                        |
 +++++
-| $\alpha$ | *Angle de pression*                             | \-                                     | $\texttt{pressure} {\_} \texttt{parameter}$ |
-|          |                                                 | Typiquement, $\alpha = 20^\circ$       |                                             |
+| $\alpha$ | *Angle de pression*                             | Typiquement, $\alpha = 20^\circ$       | $\texttt{pressure} {\_} \texttt{angle}$ |
 +++++
-| d        | *Diamètre de référence* ou *Diamètre primitif*. | $z \cdot m$                            | \-                                          |
+| $d$      | *Diamètre de référence* ou *Diamètre primitif*. | $z \cdot m$                            | $\texttt{dw}$                           |
 +++++
-| $h^*_a$  | *Coefficient de l\'addendum*                    | \-                                     | $h^*_a = 1 + \texttt{ head}$                |
-|          |                                                 | Typiquement, $h^*_a = 1$               |                                             |
+| $h^*_a$  | *Coefficient de l\'addendum*                    | Typiquement, $h^*_a = 1$               | $h^*_a = 1 + \texttt{ head}$            |
 +++++
-| $h^*_f$  | *Coefficient du dedendum*                       | \-                                     | $h^*_f = 1 + \texttt{ clearance}$           |
-|          |                                                 | Typiquement, $h^*_f = 1.25$            |                                             |
+| $h^*_f$  | *Coefficient du dedendum*                       | Typiquement, $h^*_f = 1.25$            | $h^*_f = 1 + \texttt{ clearance}$       |
 +++++
-| $h_a$    | *Addendum*                                      | $h_a = h^*_a \cdot m$                  | \-                                          |
+| $h_a$    | *Addendum*                                      | $h_a = h^*_a \cdot m$                  | \-                                      |
 +++++
-| $h_f$    | *Dedendum*                                      | $h_f = h^*_f \cdot m$                  | \-                                          |
+| $h_f$    | *Dedendum*                                      | $h_f = h^*_f \cdot m$                  | \-                                      |
 +++++
-| $h$      | *Hauteur des dents* or *Profondeur des dents*   | $h = h_a + h_f$                        | \-                                          |
-|          |                                                 | Typically, $h = 2.25 \cdot m$          |                                             |
+| $h$      | *Hauteur des dents* or *Profondeur des dents*   | $h = h_a + h_f$                        | \-                                      |
+|          |                                                 | Typically, $h = 2.25 \cdot m$          |                                         |
 +++++
-| $x$      | *Coefficient de décalage du profil*             | \-                                     | $\texttt{shift}$                            |
-|          |                                                 | Pour les engrenages standards, $x = 0$ |                                             |
+| $x$      | *Coefficient de décalage du profil*             | Pour les engrenages standards, $x = 0$ | $\texttt{shift}$                        |
 +++++
 
 : style=\"text-align: left;\" \| Formules de base communes aux engrenages cylindriques standard internes et externes
@@ -190,7 +213,7 @@ Le terme \"standard\" désigne ici les engrenages droits sans coefficient de dé
 ++++
 | Symbole | Terme                                 | Formule                         |
 +=========+=======================================+=================================+
-| $a$     | *Distance entre centres*              | $d = \frac{d_1 + d_2}{2}$       |
+| $a$     | *Distance entre centres*              | $a = \frac{d_1 + d_2}{2}$       |
 ++++
 | $c$     | *Dégagement de la tête et de la base* | $c_1 = h_{f2} - h_{a1}$         |
 |         |                                       | $c_2 = h_{f1} - h_{a2}$         |
@@ -208,7 +231,7 @@ Le terme \"standard\" désigne ici les engrenages droits sans coefficient de dé
     -   
         **axle base**
         
-        = **(pitch diameter (dw) 1 + 2)** : 2
+        = **(pitch diameter (dw) 1 + pitch diameter (dw) 2)** : 2
 
     -   
         **addendum diameter**
@@ -219,6 +242,8 @@ Le terme \"standard\" désigne ici les engrenages droits sans coefficient de dé
         **module**
         
         = **pitch diameter (dw)** \* **cos beta** : **teeth**
+
+
 
 ## Script
 

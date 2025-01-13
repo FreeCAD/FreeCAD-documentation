@@ -20,13 +20,13 @@ Cette macro permet de définir rapidement et facilement la couleur et la transpa
 
 1.  Sélectionnez un ou plusieurs sous-objets.
 2.  Exécutez la macro.
-3.  La boîte de dialogue de couleur standard de Qt s\'ouvre.
+3.  La fenêtre de dialogue de couleur standard de Qt s\'ouvre.
 4.  Sélectionnez la couleur.
 5.  Définissez la transparence en modifiant le canal alpha (0 = totalement opaque, 255 = totalement transparent).
 6.  Effectuez l\'une des opérations suivantes :
     -   Appuyez sur le bouton **OK** pour fermer la boîte de dialogue et appliquer la couleur et la transparence.
     -   Appuyez sur le bouton **Cancel** pour annuler la macro.
-7.  Si vous avez appuyé sur le bouton **OK** et que les sous-objets appartiennent à plusieurs objets, la boîte de dialogue de couleur s\'ouvrira à nouveau pour l\'objet suivant.
+7.  Si vous avez appuyé sur le bouton **OK** et que les sous-objets appartiennent à plusieurs objets, la fenêtre de dialogue de couleur s\'ouvrira à nouveau pour l\'objet suivant.
 
 
 

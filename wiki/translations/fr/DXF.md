@@ -17,7 +17,7 @@ Si vous avez l'intention de vérifier fréquemment les paramètres, nous vous re
 
 Vous trouverez plus d\'informations sur les pages [Draft DXF](Draft_DXF/fr.md) et [FreeCAD et Importation DXF](FreeCAD_and_DXF_Import/fr.md).
 
-Si vous utilisez la géométrie importée pour créer des formes 3D dans l\'atelier Part Design, essayez [Sketcher Valider une esquisse](Sketcher_ValidateSketch/fr.md) après avoir importé le fichier DXF dans une esquisse.
+Si vous utilisez la géométrie importée pour créer des formes 3D dans l\'atelier PartDesign, essayez [Sketcher Valider une esquisse](Sketcher_ValidateSketch/fr.md) après avoir importé le fichier DXF dans une esquisse.
 
 
 

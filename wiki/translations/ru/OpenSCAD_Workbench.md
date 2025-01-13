@@ -1,5 +1,10 @@
 # <img alt="Логотип верстака OpenSCAD" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> OpenSCAD Workbench/ru
 
+
+
+
+
+
 ## Введение
 
 The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) is intended to offer interoperability with the open source software [OpenSCAD](http://www.openscad.org/). This program is not distributed as part of FreeCAD, but should be installed to make full use of this workbench. OpenSCAD should not be confused with [OpenCASCADE](OpenCASCADE.md), which is the geometrical kernel that FreeCAD uses to build geometry on screen. The OpenCASCADE libraries are always needed to use FreeCAD, while the OpenSCAD executable is entirely optional.
@@ -7,9 +12,6 @@ The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCA
 It contains a [CSG](OpenSCAD_CSG.md) importer to open the CSG files from OpenSCAD, and an exporter to output a CSG based tree. Geometry which is not based on CSG operations will be exported as a mesh.
 
 This workbench contains functions to modify the CSG feature tree and repair models. It also contains general purpose tools that do not require installation of OpenSCAD; they can be used in conjunction with other workbenches. For example, the [Mesh Workbench](Mesh_Workbench.md) internally uses the OpenSCAD functions to perform operations with [meshes](mesh.md), as they are quite robust.
-
-
-
 
 ![](images/OpenSCADexamaple1.png )
 
@@ -42,7 +44,12 @@ pip3 install --user ply
 
 The OpenSCAD language allows the use of variables and loops. It allows you to specify sub-modules to reuse geometry and code. This high degree of flexibility makes parsing very complex. Currently the OpenSCAD Workbench cannot handle the OpenSCAD language natively. Instead, if OpenSCAD is installed, it can be used to convert the input to the CSG format, which is a subset of the OpenSCAD language, and can be used as the input to OpenSCAD for further processing. During conversion all parametric behavior is lost, meaning that all variable names are discarded, loops expanded, and mathematical expressions evaluated.
 
+
+
 ## Инструменты
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/OpenSCAD_ColorCodeShape.svg  style="width:32px;"> [Color Code Shape](OpenSCAD_ColorCodeShape/ru.md): Изменить цвет всех или выбранных поверхностей относительно их годности.
 -   <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width:32px;"> [Заменить объект](OpenSCAD_ReplaceObject/ru.md): Заменить объект в древе компонентов.
@@ -56,6 +63,11 @@ The OpenSCAD language allows the use of variables and loops. It allows you to sp
 -   <img alt="" src=images/OpenSCAD_MeshBoolean.png  style="width:32px;"> [Mesh Boolean](OpenSCAD_MeshBoolean/ru.md): Создаёт новый полигональный объект бинарными операциями из форм.
 -   <img alt="" src=images/OpenSCAD_Hull.svg  style="width:32px;"> [Hull](OpenSCAD_Hull/ru.md): Применяет операцию Convex Hull (создание выпуклой оболочки) к выбранным формам.
 -   <img alt="" src=images/OpenSCAD_Minkowski.svg  style="width:32px;"> [Minkowski](OpenSCAD_Minkowski/ru.md): Применяет суммы Минковского к выбранным формам.
+
+
+</div>
+
+
 
 ## Настройки
 

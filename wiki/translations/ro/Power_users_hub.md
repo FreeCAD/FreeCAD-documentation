@@ -32,6 +32,8 @@ Aceste pagini sunt în stadiu incipient de dezvoltare. Dacă nu găsiți informa
 
 </div>
 
+
+
 ## personalizare FreeCAD 
 
 
@@ -65,6 +67,8 @@ Aceste pagini sunt în stadiu incipient de dezvoltare. Dacă nu găsiți informa
 
 
 </div>
+
+
 
 ### Module
 
@@ -139,6 +143,8 @@ Deoarece funcționalitatea FreeCAD este separată în module care se ocupă cu t
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Lucrul cu obiecte parametrice 
@@ -151,7 +157,7 @@ Deoarece funcționalitatea FreeCAD este separată în module care se ocupă cu t
 
 -   [Scripted objects](Scripted_objects.md): how to make 100% Python-scripted objects.
     -   [Scripted objects with attachment](Scripted_objects_with_attachment.md): how to make scripted objects attachable to other objects.
-    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md): how to save and restore attributes of the proxy class with `__getstate__` and `__setstate__`.
+    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md): how to save and restore attributes of the proxy class with `dumps` and `loads`.
     -   [Scripted objects migration](Scripted_objects_migration.md): how to migrate old scripted objects to a new class.
 
 ### Examples
@@ -247,8 +253,6 @@ Pe pagina [Community portal](FreeCAD_Community_Portal.md), puteți căuta alte p
 
 
 </div>
-
--   [Scientific literature](Scientific_literature.md): articles that reference or use the FreeCAD system in different ways.
 
 
 

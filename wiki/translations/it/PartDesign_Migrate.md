@@ -2,16 +2,14 @@
  GuiCommand:
    Name: PartDesign Migrate
    Name/it: Migra
-   Empty: 1
-   Workbenches: PartDesign Workbench/it
    MenuLocation: Part Design , Migra
+   Workbenches: PartDesign_Workbench/it
    Version: 0.17
 ---
 
 # PartDesign Migrate/it
 
 
-</div>
 
 ## Descrizione
 
@@ -20,18 +18,16 @@ PartDesign in FreeCAD v0.17 introduce nuovi strumenti ed elementi che non sono r
 
 {{Version/it|0.17}}
 
+
+
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Aprire un documento di FreeCAD creato con la versione 0.16 o precedente.
-2.  Passare all\'ambiente PartDesign.
-3.  Andare nel menu **Part Design** → **Migra**.
+1.  Aprire un documento di FreeCAD creato con {{VersionMinus/it|0.16}}
+2.  Passare a **<img src="images/Workbench_PartDesign.svg" width=16px> [PartDesign](PartDesign_Workbench/it.md)**.
+3.  Andare al menu **Part Design** → **Migra**.
 4.  Se la migrazione funziona, viene creato un <img alt="" src=images/Std_Part.svg  style="width:24px;"> [contenitore Part](Std_Part/it.md) che contiene uno o più <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Corpi](PartDesign_Body/it.md), ognuno dei quali ospita una catena di funzioni.
 
 
-</div>
 
 ## Limitazioni
 
@@ -40,13 +36,7 @@ PartDesign in FreeCAD v0.17 introduce nuovi strumenti ed elementi che non sono r
 -   Se il documento da migrare ha un flusso di lavoro misto Parte/Part Design/Draft, la conversione molto probabilmente fallisce o, al massimo, produce risultati imprevisti, e il documento deve essere migrato manualmente.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{PartDesign Tools navi

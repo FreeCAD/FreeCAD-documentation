@@ -25,6 +25,8 @@ A Part Cylinder can be turned into a segment of a cylinder by changing its **Ang
 <img alt="" src=images/Part_Cylinder_Example.png  style="width:400px;">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 如何使用
@@ -35,7 +37,7 @@ A Part Cylinder can be turned into a segment of a cylinder by changing its **Ang
 </div>
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Cylinder.svg" width=16px> [Part Cylinder](Part_Cylinder.md)** button.
+    -   Press the **<img src="images/Part_Cylinder.svg" width=16px> [Cylinder](Part_Cylinder.md)** button.
     -   Select the **Part → Primitives → <img src="images/Part_Cylinder.svg" width=16px> Cylinder** option from the menu.
 2.  The cylinder is created.
 3.  Optionally change the dimensions and **Placement** of the cylinder by doing one of the following:
@@ -56,6 +58,8 @@ A Part Cylinder object created with the [scripting example](#Scripting.md) below
 ## Notes
 
 -   A Part Cylinder can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+
+
 
 
 <div class="mw-translate-fuzzy">

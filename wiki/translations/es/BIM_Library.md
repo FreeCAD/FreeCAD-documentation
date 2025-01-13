@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -23,7 +25,7 @@ La herramienta de biblioteca le permite colocar, en el modelo actual, un objeto 
 
 </div>
 
-<img alt="" src=images/BIM_Library_screenshot.png  style="width:800px;">
+<img alt="" src=images/BIM_Library_screenshot.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -32,6 +34,8 @@ La herramienta de biblioteca le permite colocar, en el modelo actual, un objeto 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -53,6 +57,8 @@ La herramienta de biblioteca le permite colocar, en el modelo actual, un objeto 
 
 </div>
 
+
+
 ## Opciones
 
 
@@ -67,5 +73,13 @@ La herramienta de biblioteca le permite colocar, en el modelo actual, un objeto 
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/es
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Library/es

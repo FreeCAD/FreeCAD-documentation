@@ -11,7 +11,7 @@
 
 ## Description
 
-The <img alt="" src=images/SheetMetal_Relief.svg  style="width:16px;"> [SheetMetal AddRelief](SheetMetal_AddRelief.md) command creates corner reliefs, cutouts, at the points where three sections (base plate/walls/flanges) of a sheet metal object meet. Without these reliefs the object will not be unfoldable.
+The <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> [SheetMetal AddRelief](SheetMetal_AddRelief.md) command creates corner reliefs, cutouts, at the points where three sections (base plate/walls/flanges) of a sheet metal object meet. Without these reliefs the object will not be unfoldable.
 
 This command is the first of three steps to convert a shell object made with the [Part Workbench](Part_Workbench.md) or [PartDesign Workbench](PartDesign_Workbench.md) into an unfoldable sheet metal object:
 
@@ -25,10 +25,18 @@ This command is the first of three steps to convert a shell object made with the
 ## Usage
 
 1.  Select one or more corner vertex(es).
-2.  Activate the <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **SheetMetal AddRelief** command using one of the following:
-    -   The **<img src="images/SheetMetal_AddRelief.svg" width=16px> [SheetMetal AddRelief](SheetMetal_AddRelief.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_AddRelief.svg" width=16px> Make Relief** menu option.
-    -   The keyboard shortcut: **S** then **R**
+2.  There are several ways to invoke the command:
+    -   Press the **<img src="images/SheetMetal_AddRelief.svg" width=16px> [Make Relief](SheetMetal_AddRelief.md)** button.
+    -   Select the **SheetMetal → <img src="images/SheetMetal_AddRelief.svg" width=16px> Make Relief** option from the menu.
+    -   Right-click in the [Tree view](Tree_view.md) or the [3D view](3D_view.md) and select the **Sheet Metal → <img src="images/SheetMetal_AddRelief.svg" width=16px> Make Relief** option from the context menu.
+    -   Use the keyboard shortcut: **S** then **R**.
+3.  The **Add Corner Relief on Solid** [Task panel](Task_panel.md) opens (introduced in version 0.5.00).
+4.  Optionally press the **Select** button to add more vertices.
+    -   Press the **Preview** button to finish the selection and display the changes.
+5.  Optionally adjust the parameters in the Task panel.
+6.  Press the **OK** button to finish the command and close the Task panel.
+7.  A **CornerRelief** object will be created consisting of one new corner relief at each selected vertex.
+8.  Optionally adjust the parameters in the [Property editor](Property_editor.md).
 
  <img alt="" src=images/SheetMetal_ConvertShellObject-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-06.png  style="width:200px;"> 
 
@@ -59,18 +67,9 @@ To create a hollow cuboid with the [PartDesign Workbench](PartDesign_Workbench.m
 
 See also: [Property editor](Property_editor.md).
 
-A SheetMetal Relief object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+A SheetMetal Relief object is derived from a [Part Feature](Part_Feature.md) object or, if it is inside a [PartDesign Body](PartDesign_Body.md), from a [PartDesign Feature](PartDesign_Feature.md) object, and inherits all its properties. It also has the following additional properties:
 
 ### Data
-
-
-{{Properties_Title|Base}}
-
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
-
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
-
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
 
 
 {{Properties_Title|Parameters}}

@@ -1,9 +1,9 @@
 # Draft Snap/de
 ## Beschreibung
 
-In den Arbeitsbereichen <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) und <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md) kann Geometrie erstellt werden durch Auswählen von Punkten in der [3D-Ansicht](3D_view/de.md) oder durch Eingabe von Koordinaten im [Aufgaben-Bereichl](Task_panel/de.md) der Befehle. Eine Weitere Möglichkeit Punkte auszuwählen ist durch Einrasten (Fangen). Einrasten erlaubt, exakte geometrische Punkte auf dem Raster auszuwählen, Punkte auf anderen Objekten, die auf dem Raster liegen oder Punkte, die durch diese Objekte festgelegt werden. Es kann z.B. auf dem Endpunkt einer Linie, dem Mittelpunkt eines Kreises oder dem Schnittpunkt zweier Kanten eingerastet werden.
+In den Arbeitsbereichen <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) und <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/de.md) kann Geometrie erstellt werden durch Auswählen von Punkten in der [3D-Ansicht](3D_view/de.md) oder durch Eingabe von Koordinaten im [Aufgaben-Bereichl](Task_panel/de.md) der Befehle. Eine Weitere Möglichkeit Punkte auszuwählen ist durch Einrasten (Fangen). Einrasten erlaubt, exakte geometrische Punkte auf dem Raster auszuwählen, Punkte auf anderen Objekten, die auf dem Raster liegen oder Punkte, die durch diese Objekte festgelegt werden. Es kann z.B. auf dem Endpunkt einer Linie, dem Mittelpunkt eines Kreises oder dem Schnittpunkt zweier Kanten eingerastet werden.
 
-Das Einrasten steht den meisten Befehlen der Arbeitsbereiche [Draft](Draft_Workbench/de.md) und [Arch](Arch_Workbench/de.md) zur Verfügung.
+Das Einrasten steht den meisten Befehlen der Arbeitsbereiche [Draft](Draft_Workbench/de.md) und [BIM](BIM_Workbench/de.md) zur Verfügung.
 
 ![](images/Draft_Snap_Endpoint_example.png ) 
 *Einrasten auf dem Endpunkt einer Kante*
@@ -56,7 +56,7 @@ Man beachte, dass kreisförmige Kanten keine Vollkreise sein müssen.
 
 -   Einrasten kann mit [Beschränken](Draft_Constrain/de.md) kombiniert werden.
 
--    **Q**drücken, um einen \"Haltepunkt\" an der aktuellen Position des Mauszeigers einzufügen. Es kann auf die orthogonalen Achsen eines Haltepunktes eingerastet werden und auf die Schnittpunkte dieser Achsen. Ist die Option [Draft EinrastenAufMittelpunkt](Draft_Snap_Midpoint/de.md) aktiv, kann auch auf den Mittelpunkt zwischen zwei Haltepunkten iengerastet werden.
+-    **Q**drücken, um einen \"Haltepunkt\" an der aktuellen Position des Mauszeigers einzufügen. Es kann auf die orthogonalen Achsen eines Haltepunktes eingerastet werden und auf die Schnittpunkte dieser Achsen. Ist die Option [Draft EinrastenAufMittelpunkt](Draft_Snap_Midpoint/de.md) aktiv, kann auch auf den Mittelpunkt zwischen zwei Haltepunkten eingerastet werden.
 
 -    ****einmal oder mehrmals drücken, um auf einem Objekt einzurasten, das durch eine andere Geometrie verdeckt wird. Dies nennt sich \"snap cycling\". Man beachte, dass sich der Mauszeiger etwas in der [3D-Ansicht](3D_view.md) bewegen muss, nachem die Taste gedrückt wurde.
 
@@ -79,14 +79,14 @@ Man beachte, dass kreisförmige Kanten keine Vollkreise sein müssen.
 
 Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
--   Erfordert ein [Draft](Draft_Workbench.md)- oder [Arch](Arch_Workbench.md)-Befehl, das die Punkteingabe aktiv ist, kann der maximale Abstand, bei dem [Draft EinrastenAufRaster](Draft_Snap_Grid/de.md) einen Schnittpunkt von Rasterlinien erkennt,\"on-the-fly\" geändert werden durch Drücken von **P** (Mehr-Taste) oder **M** (Weniger-Taste). Diese Einstellung wird gespeichert unter **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Mod → Draft → snapRange**. Sie kann auch im Aufgaben-Bereich des Befehls [Draft EbeneAuswählen](Draft_SelectPlane/de.md) angepasst werden.
+-   Erfordert ein [Draft](Draft_Workbench.md)- oder [BIM](BIM_Workbench/de.md)-Befehl, das die Punkteingabe aktiv ist, kann der maximale Abstand, bei dem [Draft EinrastenAufRaster](Draft_Snap_Grid/de.md) einen Schnittpunkt von Rasterlinien erkennt,\"on-the-fly\" geändert werden durch Drücken von **P** (Mehr-Taste) oder **M** (Weniger-Taste). Diese Einstellung wird gespeichert unter **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Mod → Draft → snapRange**. Sie kann auch im Aufgaben-Bereich des Befehls [Draft EbeneAuswählen](Draft_SelectPlane/de.md) angepasst werden.
 -   Um nur dann einzurasten, wenn der **Einrasten**-Umschalter gedrückt gehalten wird:
     -   Abwählen: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten → Immer einrasten (deaktiviert den Einrast-Umschalter)**.
     -   Die standardmäßige Taste für **Einrasten**, **Ctrl**, kann geändert werden: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten → Einrast-Umschalter**.
--   Soll die Symbolleiste Draft-Einrasten nur angezeigt werden, wenn ein Befehl aktiv ist: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten →  Die Symbolleiste Draft-Einrasten nur während der Ausführung von Befehlen anzeigen** aktivieren. {{Version/de|0.22}}
+-   Soll die Symbolleiste Draft-Einrasten nur angezeigt werden, wenn ein Befehl aktiv ist: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten →  Die Symbolleiste Draft-Einrasten nur während der Ausführung von Befehlen anzeigen** aktivieren. {{Version/de|1.0}}
 -   Die Einrastsymbole können geändert werden: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten → Stil der Einrastsymbole**.
 -   Die Farbe der Einrastsymbole und der Maße von [Draft EinrastenAufMaße](Draft_Snap_Dimensions/de.md) kann geändert werden: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten → Farbe der Einrastsymbole**.
--   Die Größe der Einrastsymbole hängt ab von: **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Markergröße**. {{Version/de|0.22}}
+-   Die Größe der Einrastsymbole hängt ab von: **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Markergröße**. {{Version/de|1.0}}
 -   Die genannten Einzelzeichen-Tastaturkürzel können geändert werden: **Bearbeiten → Einstellungen... → Draft → Schnittstelle → Befehlsinterne Tastaturkürzel**.
 
 

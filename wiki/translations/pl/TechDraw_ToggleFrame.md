@@ -4,7 +4,7 @@
    Name/pl: Rysunek Techniczny: Włącz / wyłącz wyświetlanie ramek
    MenuLocation: Rysunek Techniczny , Widoki , Włącz / wyłącz wyświetlanie ramek
    Workbenches: TechDraw_Workbench/pl
-   SeeAlso: TechDraw_View/pl, TechDraw_ProjectionGroup/pl
+   SeeAlso: TechDraw_View/pl
 ---
 
 # TechDraw ToggleFrame/pl
@@ -27,7 +27,7 @@ Narzędzie **Włącz / wyłącz wyświetlanie ramek** włącza lub wyłącza wy�
     -   Naciśnij przycisk **<img src="images/TechDraw_ToggleFrame.svg" width=16px> '''Włącz / wyłącz wyświetlanie ramek'''**.
     -   Wybierz opcję z menu **Rysunek Techniczny → Widoki → <img src="images/TechDraw_ToggleFrame.svg" width=16px> Włącz / wyłącz wyświetlanie ramek**.
     -   Jeśli strona jest wyświetlana w [głównym obszarze widoku](Main_view_area.md): kliknij prawym przyciskiem myszk na oknie strony i wybierz opcję **Włącz / wyłącz wyświetlanie ramek** z menu podręcznego.
-3.  Jeśli w dokumencie znajduje się wiele stron rysunków, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+3.  Jeśli w dokumencie znajduje się wiele stron rysunków, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**:
     1.  Wybierz żądaną stronę.
     2.  Naciśnij przycisk **OK**.
 4.  Aktualnie widoczne ramki widoku znikną. Pojawią się aktualnie niewidoczne ramki widoku.
@@ -49,13 +49,13 @@ Rozmiar punktów wierzchołków można dostosować w zakładce [skala](TechDraw_
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-Narzędzie te nie jest obecnie wyposażone w interfejs programistyczny.
+To narzędzie nie jest obecnie wyposażone w interfejs programistyczny.
 
 
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

@@ -2,8 +2,8 @@
  GuiCommand:
    Name: TechDraw ArchView
    Name/pl: Rysunek Techniczny: Wstaw obiekt środowiska Architektura
-   MenuLocation: Rysunek Techniczny , Widoki , Wstaw obiekt środowiska Architektura
-   Workbenches: TechDraw_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Rysunek Techniczny , Widoki , Wstaw obiekt środowiska BIM
+   Workbenches: TechDraw_Workbench/pl, BIM_Workbench/pl
    SeeAlso: Arch_SectionPlane/pl
 ---
 
@@ -15,18 +15,21 @@
 
 Narzędzie **Wstaw obiekt środowiska Architektura** wstawia widok **<img src="images/Arch_SectionPlane.svg" width=16px> [przekroju](Arch_SectionPlane/pl.md)** na stronie [Rysunku Technicznego](TechDraw_PageDefault/pl.md).
 
-![](images/TechDraw_Arch_example.jpg )
+
+{{Version/pl|1.0}}
+
+: Narzędzie [Wstaw widok](TechDraw_View/pl.md) również może wstawić widok obiektu środowiska Architektura.
+
+<img alt="" src=images/TechDraw_Arch_example.jpg  style="width:500px;">
 
 
 
 ## Użycie
 
-1.  Wybierz pojedynczą płaszczyznę przekroju architektonicznego w oknie [widoku 3D](3D_view/pl.md) lub [widoku drzewa](Tree_view/pl.md).
+1.  Wybierz płaszczyznę przekroju architektonicznego w oknie [widoku 3D](3D_view/pl.md) lub [widoku drzewa](Tree_view/pl.md).
 2.  Jeśli w dokumencie znajduje się wiele stron rysunku: opcjonalnie dodaj żądaną stronę do zaznaczenia, wybierając ją w [Widoku drzewa](Tree_view/pl.md).
-3.  Istnieje kilka sposobów wywołania narzędzia:
-    -   Naciśnij **<img src="images/TechDraw_ArchView.svg" width=24px> '''Wstaw obiekt środowiska Architektura'''**.
-    -   Wybierz opcję z menu **Rysunek Techniczny → Widoki → <img src="images/TechDraw_ArchView.svg" width=16px> Wstaw obiekt środowiska Architektura**.
-4.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze wybrana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+3.  Wybierz opcję **Rysunek Techniczny → Widoki z innych środowisk roboczych → <img src="images/TechDraw_ArchView.svg" width=16px> Wstaw obiekt środowiska pracy BIM** z menu.
+4.  Jeśli w dokumencie znajduje się wiele stron rysunku i żadna strona nie jest wyświetlana w [obszarze widoku głównego](Main_view_area/pl.md), a strona nie została jeszcze wybrana, otworzy się okno dialogowe **Wybór strony**:
     1.  Wybierz żądaną stronę.
     2.  Naciśnij przycisk **OK**.
 
@@ -34,7 +37,7 @@ Narzędzie **Wstaw obiekt środowiska Architektura** wstawia widok **<img src="i
 
 ## Opcje
 
--   Widok Architektoniczny jest renderowany przez środowisko pracy [Architektura](Arch_Workbench/pl.md).
+-   Widok Architektoniczny jest renderowany przez środowisko pracy [BIM](BIM_Workbench/pl.md).
 -   [Wymiary](Draft_Snap_Dimensions/pl.md), [teksty](Draft_Text/pl.md) i każdy inny obiekt 2D *(szkic lub rysunek)* uwzględniany przez płaszczyznę przekroju jest renderowany \"tak jak jest\" *(bez przecięć lub ukrytych linii)* na wierzchu geometrii bryłowej.
 -   Objętość [kubatury](Arch_Space/pl.md) nie jest renderowana, renderowana jest tylko etykieta.
 -   Linie przecięcia, linie rzutowane *(jeśli właściwość Pokaż ukryte jest ustawiona na {{True/pl}})* i linie 2D powyżej mogą być renderowane z różnymi szerokościami linii. Można to skonfigurować w preferencjach środowiska Architektura.
@@ -58,13 +61,15 @@ Narzędzie **Wstaw obiekt środowiska Architektura** wstawia widok **<img src="i
 
 ## Uwagi
 
-Widok architektoniczny jest renderowany w środowisku [Architektura](Arch_Workbench/pl.md), dlatego środowisko Rysunek Techniczny ma ograniczoną kontrolę nad jego wyglądem. Może być konieczne wprowadzenie zmian w środowisku pierwotnym, aby uzyskać pożądaną reprezentację.
+Widok architektoniczny jest renderowany w środowisku [BIM](BIM_Workbench/pl.md), dlatego środowisko Rysunek Techniczny ma ograniczoną kontrolę nad jego wyglądem. Może być konieczne wprowadzenie zmian w środowisku pierwotnym, aby uzyskać pożądaną reprezentację.
 
 
 
 ## Właściwości
 
-Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw_View/pl#Widok.md) środowiska Rysunek Techniczny.
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt środowiska Architektura, formalnie obiekt {{Incode|TechDraw::DrawViewArch}} ma [właściwości](TechDraw_View/pl#Właściwości_-_Widok_części.md) wspólne dla wszystkich typów Widoków. Ma też następujące dodatkowe właściwości:
 
 
 
@@ -92,6 +97,17 @@ Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw
 -    **Szerokość linii cięcia|Float**: Szerokość linii cięcia w tym widoku.
 
 -    **Dołącz do Arch|Bool**: Jeśli parametr ma wartość {{TRUE/pl}}, ściany i struktury zostaną połączone materiałem.
+
+-    **Odstęp wierszy|Float**: Odstęp między wierszami do użycia dla tekstów wielowierszowych. {{Version/pl|1.0}}
+
+
+{{TitleProperty|Widok rysunku}}
+
+-    **Symbol|String|Hidden**: Kod SVG definiujący ten symbol.
+
+-    **Editable Texts|StringList**: Wartości podstawienia dla edytowalnych ciągów w tym symbolu.
+
+-    **Owner|Link**: Cecha, do której ten symbol jest dołączony. {{Version/pl|1.0}}
 
 
 

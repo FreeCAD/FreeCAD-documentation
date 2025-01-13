@@ -1,4 +1,4 @@
-# <img alt="Inspektion Arbeitsbereichssymbol" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/de
+# <img alt="Symbol des Arbeitsbereichs Inspection" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/de
 
 
 

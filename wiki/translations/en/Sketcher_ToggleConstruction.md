@@ -4,39 +4,40 @@
    MenuLocation: Sketch , Sketcher geometries , Toggle construction geometry
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **N**
-   SeeAlso: Sketcher_ToggleDrivingConstraint
+   SeeAlso: 
 ---
 
 # Sketcher ToggleConstruction/en
 
 ## Description
 
-This tool toggles sketch geometry from/to construction mode. It affects all geometry.
+The <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:24px;"> [Sketcher ToggleConstruction](Sketcher_ToggleConstruction.md) tool either toggles the geometry creation tools to/from construction mode, or toggles selected geometry to/from construction geometry.
 
-Construction geometry is an important tool of the sketcher. When using a sketch for a 3D operation, construction geometry is ignored.
-
-In **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Edit sketch](Sketcher_EditSketch.md)**, construction geometry is shown as blue, and won\'t turn green when a sketch is fully constrained. Once you **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch.md)**, construction geometry is hidden in the [3D view](3D_view.md).
-
-Construction lines can be used as rotation axis by the **[<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Revolution](PartDesign_Revolution.md)** feature.
+Construction geometry is marked with a dedicated [color](Sketcher_Preferences#Appearance.md) (default blue) and (<small>(v1.0)</small> ) linetype. Construction geometry is not visible outside the sketch, it is intended to help define constraints and other geometry inside the sketch itself. Construction lines can however be used as a rotation axis by [PartDesign Revolution](PartDesign_Revolution.md).
 
 <img alt="" src=images/Sketcher_ConstructionMode_fr_01.png  style="width:480px;">
 
 ## Usage
 
-There are two ways of using this tool:
+### Toggle tools 
 
-1.  Without having anything selected in the [3D view](3D_view.md):
-    -   Invoke construction mode by clicking on the **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction geometry](Sketcher_ToggleConstruction.md)** button or by using the **Sketch → Sketcher geometries → [<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> Toggle construction geometry** entry in the Sketcher menu.
-    -   This will change the color for creating new geometric elements to blue.
-    -   Newly created geometric elements will now be created in construction mode.
-2.  With one or more geometric elements selected in the [3D view](3D_view.md)
-    -   Invoke the tool by clicking on the **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction geometry](Sketcher_ToggleConstruction.md)** button or by selecting it from the menu
-    -   The selected elements will now be changed to construction mode.
-    -   Afterwards newly created elements will again be normal geometry.
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Toggle construction geometry](Sketcher_ToggleConstruction.md)** button.
+    -   Select the **Sketcher → Sketcher geometries → <img src="images/Sketcher_ToggleConstruction.svg" width=16px> Toggle construction geometry** option from the menu.
+    -   Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> Toggle construction geometry** option from the context menu.
+    -   Use the keyboard shortcut: **G** then **N**.
+3.  The mode of the geometry creation tools is toggled:
+    -   In normal mode their menu and toolbar icons are white, and they create regular geometry (default color white). The icon of this tool is then: <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:16px;">.
+    -   In construction mode their menu and toolbar icons are blue, and they create construction geometry (default color blue). The icon of this tool is then: <img alt="" src=images/Sketcher_ToggleConstruction_Constr.svg  style="width:16px;">.
 
-## Notes
+### Toggle geometry 
 
--    **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Create point](Sketcher_CreatePoint.md)**will always create points in construction mode regardless of the toolbar toggle state, select the desired points in the [3D view](3D_view.md) after creation and click **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction geometry](Sketcher_ToggleConstruction.md)** to change them to normal geometry.
+1.  Select one or more elements in the sketch.
+2.  Invoke the tool as described above, or with the following additional option:
+    -   Right-click in the **Elements** section of the [Sketcher Dialog](Sketcher_Dialog.md) and select the **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> Toggle construction geometry** option from the context menu.
+3.  The selected elements are changed from normal geometry to construction geometry or vice versa. Their appearance changes accordingly.
+4.  The mode of the geometry creation tools is not changed.
 
 
 

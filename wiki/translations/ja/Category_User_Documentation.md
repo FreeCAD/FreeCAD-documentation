@@ -17,7 +17,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Interface Customization/ja](Interface_Customization/ja.md) | [Main Page/ja](Main_Page/ja.md) | [Mesh API/ja](Mesh_API/ja.md) |
 | [Mesh Workbench/ja](Mesh_Workbench/ja.md) | [Navigation Cube/ja](Navigation_Cube/ja.md) | [Online Help Startpage/ja](Online_Help_Startpage/ja.md) |
 | [Online Help Toc/ja](Online_Help_Toc/ja.md) | [OpenSCAD AddOpenSCADElement/ja](OpenSCAD_AddOpenSCADElement/ja.md) | [Part Boolean/ja](Part_Boolean/ja.md) |
-| [Part Module/ja](Part_Module/ja.md) | [PartDesign WizardShaft/ja](PartDesign_WizardShaft/ja.md) | [PartDesign Workbench/ja](PartDesign_Workbench/ja.md) |
+| [Part Workbench/ja](Part_Workbench/ja.md) | [PartDesign WizardShaft/ja](PartDesign_WizardShaft/ja.md) | [PartDesign Workbench/ja](PartDesign_Workbench/ja.md) |
 | [Plot Save/ja](Plot_Save/ja.md) | [Preferences Editor/ja](Preferences_Editor/ja.md) | [Raytracing Workbench/ja](Raytracing_Workbench/ja.md) |
 | [Robot Workbench/ja](Robot_Workbench/ja.md) | [Ship Workbench/ja](Ship_Workbench/ja.md) | [Sketcher ConstrainEqual/ja](Sketcher_ConstrainEqual/ja.md) |
 | [Sketcher ConstrainHorizontal/ja](Sketcher_ConstrainHorizontal/ja.md) | [Sketcher CreateArc/ja](Sketcher_CreateArc/ja.md) | [Sketcher CreateCircle/ja](Sketcher_CreateCircle/ja.md) |
@@ -26,10 +26,10 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Std New/ja](Std_New/ja.md) | [Std Open/ja](Std_Open/ja.md) | [Std ViewScreenShot/ja](Std_ViewScreenShot/ja.md) |
 | [Surface Workbench/ja](Surface_Workbench/ja.md) | [TechDraw Workbench/ja](TechDraw_Workbench/ja.md) | [Third Party Libraries/ja](Third_Party_Libraries/ja.md) |
 | [Third Party Tools/ja](Third_Party_Tools/ja.md) | [Tracker/ja](Tracker/ja.md) | [User hub/ja](User_hub/ja.md) |
-| [Workbenches/ja](Workbenches/ja.md) | [Category:Arch/ja](Category_Arch/ja.md) | [Category:BIM/ja](Category_BIM/ja.md) |
-| [Category:Draft/ja](Category_Draft/ja.md) | [Category:Macros/ja](Category_Macros/ja.md) | [Category:Mesh/ja](Category_Mesh/ja.md) |
-| [Category:Points/ja](Category_Points/ja.md) | [Category:Tutorials/ja](Category_Tutorials/ja.md) | [Category:Workbenches/ja](Category_Workbenches/ja.md) |
-|
+| [Workbenches/ja](Workbenches/ja.md) | [Category:Assembly/ja](Category_Assembly/ja.md) | [Category:BIM/ja](Category_BIM/ja.md) |
+| [Category:CAM/ja](Category_CAM/ja.md) | [Category:Draft/ja](Category_Draft/ja.md) | [Category:Macros/ja](Category_Macros/ja.md) |
+| [Category:Material/ja](Category_Material/ja.md) | [Category:Mesh/ja](Category_Mesh/ja.md) | [Category:Points/ja](Category_Points/ja.md) |
+| [Category:Tutorials/ja](Category_Tutorials/ja.md) | [Category:Workbenches/ja](Category_Workbenches/ja.md) |
 
 
 

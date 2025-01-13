@@ -9,8 +9,6 @@
 
 # TechDraw LinkDimension/de
 
-Das Werkzeug **TechDraw MaßVerknüpfen** wird zukünftig als überholt gelten. Das Werkzeug [TechDraw Maßreparatur](TechDraw_DimensionRepair/de.md) kann zum Ändern von sowohl 2D- als auch 3D-Referenzen verwendet werden.
-
 
 
 ## Beschreibung
@@ -58,7 +56,7 @@ Zu beachten ist, dass, wenn das zu verknüpfende Maß auf zwei Eckpunkten basier
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug TechDraw MaßVerknüpfen kann nicht direkt in Makros verwendet werden, aber durch das Ändern der {{PropertyData/de|References 3D}} kann das gleiche Ergebnis erreicht werden.
 
@@ -66,7 +64,7 @@ Das Werkzeug TechDraw MaßVerknüpfen kann nicht direkt in Makros verwendet werd
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

@@ -12,7 +12,7 @@
 
 ## Description
 
-La **Contrainte de distance** définit la longueur d\'une ligne, la distance perpendiculaire entre un point et une ligne, la distance entre deux points ou {{Version/fr|0.21}}, la distance entre les bords de deux cercles ou entre le bord d\'un cercle et une ligne.
+L\'outil <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;"> [Sketcher Contrainte de distance](Sketcher_ConstrainDistance/fr.md) fixe la longueur d\'une ligne, la distance entre deux points, la distance perpendiculaire entre un point et une ligne, ou {{Version/fr|0.21}}, la distance entre les bords de deux cercles ou arcs, ou entre le bord d\'un cercle ou d\'un arc et une ligne, ou {{Version/fr|1.0}}, la longueur d\'un arc.
 
 ![](images/Sketcher_ConstrainDistance_example.png )
 
@@ -20,20 +20,67 @@ La **Contrainte de distance** définit la longueur d\'une ligne, la distance per
 
 ## Utilisation
 
-1.  Choisissez une ligne, ou un point et une ligne, ou deux points, ou les bords de deux cercles, ou le bord d\'un cercle et une ligne.
-2.  Il y a plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Contrainte de distance](Sketcher_ConstrainDistance/fr.md)**
-    -   Utilisez les raccourcis clavier **K** puis **D**
-    -   Utilisez **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Contrainte de distance** du menu supérieur.
-3.  Une boîte de dialogue contextuelle s\'ouvre pour modifier ou confirmer la valeur. Appuyez sur **OK** pour valider.
-
-**Remarque :** l\'outil de contrainte peut également être démarré sans sélection préalable (en dehors des cas cercle à cercle et cercle à ligne). Pour définir la distance perpendiculaire entre un point et une droite, le point doit être sélectionné en premier. Par défaut, la commande sera en mode continu afin de créer de nouvelles contraintes. Appuyez sur le bouton droit de la souris ou sur **Echap** pour quitter la commande.
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
 
 
 
-### Conseil
+### [Mode continu](Sketcher_Workbench/fr#Modes_continus.md) 
 
-Le cas échéant envisagez d\'utiliser de préférence les fonctions **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Sketcher Contrainte distance en X](Sketcher_ConstrainDistanceX/fr.md)** ou **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Sketcher Contrainte distance en Y](Sketcher_ConstrainDistanceY/fr.md)**. Ces contraintes sont plus robustes et plus rapides à calculer que l\'outil **contrainte de distance**.
+1.  Assurez-vous qu\'il n\'y a pas de sélection.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   
+        {{Version/fr|1.0}}
+        
+        : si la [préférence](Sketcher_Preferences/fr#Général.md) des **contraintes des dimensions** est réglée sur {{Value|Outil unique}} (par défaut) : appuyez sur la flèche vers le bas à droite du bouton **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** et sélectionnez l\'option **<img src="images/Sketcher_ConstrainDistance.svg" width=16px> Contrainte de distance** dans le menu déroulant.
+
+    -   Si cette préférence a une valeur différente (et dans {{VersionMinus/fr|0.21}}) : appuyez sur le bouton **<img src="images/Sketcher_ConstrainDistance.svg" width=16px> [Contrainte de distance](Sketcher_ConstrainDistance/fr.md)**.
+
+    -   Sélectionnez l\'option **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Contrainte de distance** du menu.
+
+    -   
+        {{Version/fr|1.0}}
+        
+        : cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **Dimension → <img src="images/Sketcher_ConstrainDistance.svg" width=16px> Contrainte de distance** du menu contextuel.
+
+    -   Utilisez le raccourci clavier **K** puis **D**.
+3.  Le curseur se transforme en croix avec l\'icône de l\'outil.
+4.  Effectuez l\'une des opérations suivantes :
+    -   Sélectionnez une seule ligne.
+    -   Sélectionnez deux points.
+    -   Sélectionnez un point et une ligne (dans cet ordre).
+5.  Si une [contrainte pilotante de dimension](Sketcher_ToggleDrivingConstraint/fr.md) est créée, en fonction des [préférences](Sketcher_Preferences/fr#Affichage.md), une fenêtre de dialogue s\'ouvre pour [modifier sa valeur](Sketcher_Workbench/fr#Modifier_les_contraintes.md).
+6.  Une contrainte est ajoutée.
+7.  Vous pouvez éventuellement continuer à créer des contraintes.
+8.  Pour terminer, cliquez avec le bouton droit de la souris ou appuyez sur **Échap**, ou démarrez un autre outil de création de géométrie ou de contrainte.
+
+
+
+### Mode unique 
+
+1.  Faites l\'une des choses suivantes :
+    -   Sélectionnez une seule ligne.
+
+    -   Sélectionnez deux points.
+
+    -   Sélectionnez un point et une ligne (dans n\'importe quel ordre).
+
+    -   Sélectionnez les bords de deux cercles ou arcs.
+
+    -   Sélectionnez le bord d\'un cercle ou d\'un arc et une ligne (idem).
+
+    -   
+        {{Version/fr|1.0}}
+        
+        : sélectionnez le bord d\'un seul arc.
+2.  Lancer l\'outil comme expliqué ci-dessus.
+3.  Vous pouvez [modifier la valeur de la contrainte](Sketcher_Workbench/fr#Modifier_les_contraintes.md).
+4.  Une contrainte est ajoutée.
+
+
+
+## Remarques
+
+-   Le cas échéant envisagez d\'utiliser de préférence les fonctions **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Sketcher Contrainte distance en X](Sketcher_ConstrainDistanceX/fr.md)** ou **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Sketcher Contrainte distance en Y](Sketcher_ConstrainDistanceY/fr.md)**. Elles sont plus efficaces.
 
 
 

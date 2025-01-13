@@ -1,31 +1,37 @@
 # Animation Workbench/it
-## Introduction
+## Introduzione
 
-Animation Toolkit for FreeCAD
+Kit di strumenti di animazione per FreeCAD
 
-This Workbench can be used to create sequences of pictures.
+Questo Ambiente di lavoro può essere utilizzato per creare sequenze di immagini.
 
-**It is still under construction - all contributions welcomed \...**
+**È ancora in fase di realizzazione - tutti i contributi sono benvenuti\...**
 
-## References
 
--   Author: [microelly2](https://github.com/microelly2)
+
+## Riferimenti
+
+-   Autore: [microelly2](https://github.com/microelly2)
 -   Home page: [Animation](https://github.com/microelly2/Animation)
--   Source code on github: [Animation](https://github.com/microelly2/Animation)
+-   Codice sorgente su github: [Animation](https://github.com/microelly2/Animation)
 
-## Installation
 
-This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
 
-## Tools
+## Installazione
 
-Detailed description [here](http://freecadbuch.de/doku.php?id=Animation%20Wokbench#the_toolset)
+Questo Ambiente può essere installato con [Addon Manager](Std_AddonMgr/it.md). Per l\'installazione manuale vedere [Installazione di altri ambienti di lavoro](Installing_more_workbench/it.md).
 
-Toolbar
+
+
+## Strumenti
+
+Descrizione dettagliata [qui](http://freecadbuch.de/doku.php?id=Animation%20Wokbench#the_toolset)
+
+Barra degli strumenti
 
 ![](images/Animation-menu-orizz.png )
 
-Drop down menu
+Menu a discesa
 
 -   <img alt="" src=images/Animation_Mover.png  style="width:32px;"> **Mover**: moves objects during a time intervall along the motion Vector.
 -   <img alt="" src=images/Animation_Rotator.png  style="width:32px;"> **Rotator**: rotates objects during a time intervall. Further parameters are Rotation Axis/Direction, Center of Rotation and Angle.
@@ -79,22 +85,26 @@ Other
 -   <img alt="" src=images/Animation_Icon2.png  style="width:32px;"> **Icon2**:
 -   <img alt="" src=images/Animation_Icon3.png  style="width:32px;"> **Icon3**:
 
-## Links to Animation WB 
 
--   Workbench Wiki: [www.freecadbuch.de](http://freecadbuch.de/doku.php?id=Animation%20Wokbench)
--   FreeCAD Wiki:
--   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?t=8976&start=10>
--   Tutorials: [Toolset](http://freecadbuch.de/doku.php?id=Animation%20Wokbench#abroller)
--   Videos: [Animation videos](http://freecadbuch.de/doku.php?id=animation:videos)
--   Files: [Examples](https://github.com/microelly2/Animation-WB-Examples)
--   Test cases: [Test cases](https://github.com/microelly2/Animation/tree/master/testcases)
--   Report bugs: Please report bugs at [FreeCAD forum](http://forum.freecadweb.org/index.php), or at [Animation issues](https://github.com/microelly2/Animation/issues)
 
-## Other useful links 
+## Link all\'Ambiente Animation 
 
--   [ExplodedAnimation](http://www.freecadweb.org/wiki/index.php?title=Sandbox:ExplodedAnimation): FreeCAD workbench to create exploded views and animations of assemblies.
--   [Assembly2](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Assembly2): Assembly workbench for FreeCAD with support for importing parts from external files.
--   [External workbenches](External_workbenches.md)
+-   Wiki dell\'Ambiente: [www.freecadbuch.de](http://freecadbuch.de/doku.php?id=Animation%20Wokbench)
+-   Wiki di FreeCAD:
+-   Forum di FreeCAD: <http://forum.freecadweb.org/viewtopic.php?t=8976&start=10>
+-   Tutorial: [Toolset](http://freecadbuch.de/doku.php?id=Animation%20Wokbench#abroller)
+-   Video: [Animation videos](http://freecadbuch.de/doku.php?id=animation:videos)
+-   File: [Examples](https://github.com/microelly2/Animation-WB-Examples)
+-   Casi di test: [Test cases](https://github.com/microelly2/Animation/tree/master/testcases)
+-   Segnala un bug: si prega di segnalare i bug su [FreeCAD forum](http://forum.freecadweb.org/index.php), oppure su [Animation issues](https://github.com/microelly2/Animation/issues)
+
+
+
+## Altri link utili 
+
+-   [ExplodedAnimation](http://www.freecadweb.org/wiki/index.php?title=Sandbox:ExplodedAnimation): Ambiente di lavoro di FreeCAD per creare viste esplose e animazioni di assiemi.
+-   [Assembly2](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Assembly2): Ambiente di lavoro Assembly di FreeCAD con supporto per l\'importazione di parti da file esterni.
+-   [Ambienti complementari](External_workbenches/it.md)
 
 
 

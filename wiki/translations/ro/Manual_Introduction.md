@@ -1,11 +1,15 @@
 # Manual:Introduction/ro
 {{Manual:TOC}}
 
-![150\|center](images/Crystal_Clear_manual.png )
+[FreeCAD](https://www.freecad.org) is an open-source, free parametric 3D computer-aided design (CAD) modelling tool used to create objects ranging from simple designs to complex projects consisting of extensive assemblies of numerous parts. Due to its open-source nature, FreeCAD can be freely downloaded, distributed, modified, and used for both personal and commercial purposes. The source code is openly published under the [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) license. This makes FreeCAD an appealing option not only for relatively inexperienced users, such as hobbyists in the 3D printing world, but also for experienced users looking to experiment with a different parametric tool.
 
-[FreeCAD](http://www.freecad.org) is a free, open source parametric 3D modeling application. It is made primarily to model real-world objects, ranging from small electronic components up to large objects such as buildings and civil engineering projects, with a strong focus on 3D-printable objects. FreeCAD is free to download, use, distribute and modify, and its source code is open and published under the very permissive [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) license. The data you produce with FreeCAD is fully yours, and can be recovered without FreeCAD.
+
+<div class="mw-translate-fuzzy">
 
 FreeCAD este, de asemenea, fundamental un proiect social, deoarece este dezvoltat și menținut de o comunitate de dezvoltatori și utilizatori unite de pasiunea lor pentru FreeCAD.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -19,14 +23,6 @@ Acest manual este un experiment care se face în contra direcției moderne a pag
 <div class="mw-translate-fuzzy">
 
 Acesta manula a fost scris pentru versiunea stabilă de FreeCAD cu numărul **0.16**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Tot conținutul manualului acesta este publicat sub licența [Creative Commons 4.0](http://creativecommons.org/licenses/by/4.0/), și poate fi utilizat liber, copiat, sau modificat. Sursa fișierelor acestui manual sunt găzduite pe [wiki](Main_Page.md), și în original pe contul [github](https://github.com/yorikvanhavre/FreeCAD-manual) utilizat pentru a scrie prima verisune aacestei cărți. Mai ușor de citit în, PDF, MOBI and EPUB versiuni desiponibile pe [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details). Ovariatnă tipărită este în pregătire.
 
 
 </div>

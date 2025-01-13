@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft PolarArray
    Name/de: Draft PolareAnordnung
-   MenuLocation: Änderung , Array tools , Polare Anordnung
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Änderung , Anordnungswerkzeuge , Polare Anordnung<br>Bearbeiten , Polare Anordnung
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Version: 0.19
    SeeAlso: Draft_OrthoArray/de, Draft_CircularArray/de, Draft_PathArray/de, Draft_PathLinkArray/de, Draft_PointArray/de, Draft_PointLinkArray/de
 ---
@@ -16,7 +16,7 @@
 
 Der Befehl <img alt="" src=images/Draft_PolarArray.svg  style="width:24px;"> **Draft PolareAnordnung** erstellt eine Anordnung aus einem ausgewählten Objekt, indem er Kopien entlang einer Kreisumfangslinie positioniert. Der Befehl kann wahlweise auch eine Verknüpfungsanordnung ([Link](App_Link/de.md)-Array,) erstellen, die effizienter ist, als eine normale Anordnung.
 
-Dieser Befehl kann für 2D-Objekte verwendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, aber auch für viele 3D-Objekte, die mit anderen Arbeitsbereichen wie [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erstellt wurden.
+Dieser Befehl kann für 2D-Objekte verwendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, aber auch für viele 3D-Objekte, die mit anderen Arbeitsbereichen wie [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [BIM](BIM_Workbench/de.md) erstellt wurden.
 
 <img alt="" src=images/Draft_PolarArray_example.png  style="width:400px;"> 
 *Draft PolareAnordnung*
@@ -30,7 +30,8 @@ Siehe auch: [Draft Fangen](Draft_Snap/de.md).
 1.  Wahlweise ein Objekt auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_PolarArray.svg" width=16px> [Polare Anordnung](Draft_PolarArray/de.md)** drücken.
-    -   Den Menüeintrag **Änderung → Anordnungswerkzeuge → <img src="images/Draft_PolarArray.svg" width=16px> Polare Anordnung** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Änderung → Anordnungswerkzeuge → <img src="images/Draft_PolarArray.svg" width=16px> Polare Anordnung** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Bearbeiten → <img src="images/Draft_PolarArray.svg" width=16px> Polare Anordnung** auswählen.
 3.  Der Aufgaben-Bereich **Polare Anordnung** wird geöffnet. Siehe [Optionen](#Optionen.md) für wietere Informationen.
 4.  Wurde noch kein Objekt ausgewählt: Ein Objekt auswählen.
 5.  Im Aufgaben-Bereich die erforderlichen Parameter eingeben.
@@ -80,7 +81,7 @@ Siehe [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de#Eigenschaften.md).
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 
 

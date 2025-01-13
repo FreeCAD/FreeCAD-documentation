@@ -2,120 +2,131 @@
  GuiCommand:
    Name: FCGear InvoluteRack
    Name/it: Cremagliera
-   MenuLocation: FCGear , Create an Involute rack
-   Workbenches: FCGear Workbench/it
+   MenuLocation: Gear , Involute Rack
+   Workbenches: FCGear_Workbench/it
    Shortcut: None
-   Version: 0.16
-   SeeAlso: FCGear InvoluteGear/it
+   Version: v0.16
+   SeeAlso: FCGear_InvoluteGear/it
 ---
 
 # FCGear InvoluteRack/it
 
 
-</div>
 
 ## Descrizione
 
-Gear racks are used to convert a rotary motion into a linear motion or vice versa. The following examples show the different applications:
+Le cremagliere vengono utilizzate per convertire un movimento rotatorio in un movimento lineare o viceversa. I seguenti sono esempi di alcune applicazioni:
 
--   A rack with gear on at a retaining weir.
--   Various rack systems of rack-and-pinion railways.
--   Rack and pinion steering in a vehicle.
--   Rack and pinion winch as mechanical hoist (e.g. car jack).
--   Pneumatic rack and pinion drives used to control valves in pipeline transport.
+-   Una cremagliera con ingranaggio inserito in uno sbarramento di contenimento.
+-   Vari sistemi a cremagliera di trasporto con ingranaggi.
+-   Sterzo a pignone più cremagliera in un veicolo.
+-   Verricello a pignone e cremagliera come paranco meccanico (ad es. cric per auto).
+-   Azionamenti pneumatici a pignone e cremagliera utilizzati per controllare le valvole nelle tubazioni delle condotte.
 
 ![](images/Involute-Rack_example.png ) 
-*From left to right: Spur gearing, helical gearing, double helical gearing*
+*Da sinistra a destra: ingranaggi cilindrici, ingranaggi elicoidali, ingranaggi elicoidali doppi*
 
-## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_InvoluteRack.svg style="width:16px"> [Involute Rack](FCGear_InvoluteRack.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_InvoluteRack.svg style="width:16px"> Involute Rack** option from the menu.
-3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
 
-## Properties
+## Utilizzo
 
-An FCGear InvoluteRack object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+1.  Passare a <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/it.md).
+2.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **[<img src=images/FCGear_InvoluteRack.svg style="width:16px"> [Involute Rack](FCGear_InvoluteRack/it.md)** nella barra degli strumenti.
+    -   Selezionare l\'opzione **Gear → [<img src=images/FCGear_InvoluteRack.svg style="width:16px"> Involute Rack** dal menu.
+3.  Modificare il parametro dell\'ingranaggio alle condizioni richieste (vedere [Proprietà](#Proprietà.md)).
 
-### Data
+
+
+## Proprietà
+
+Un oggetto FCGear InvoluteRack deriva da un oggetto [Part Feature](Part_Feature/it.md) ed eredita tutte le sue proprietà. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{Properties_Title|base}}
 
--    **add_endings|Bool**: If {{True}} (default), then the total length of the rack is teeth \* pitch. If {{False}}, then the rack starts with a tooth-flank.
+-    **add_endings|Bool**: Se {{True}} (predefinito), la lunghezza totale della cremagliera è denti \* passo. Se {{False}}, la cremagliera inizia con un fianco dentellato.
 
--    **height|Length**: Default is {{Value|5 mm}}. Value of the gear width.
+-    **height|Length**: Il valore predefinito è {{Value|5 mm}}. Valore della larghezza dell\'ingranaggio.
 
--    **module|Length**: Default is {{Value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
+-    **module|Length**: L\'impostazione predefinita è {{Value|1 mm}}. Il modulo è il rapporto tra il diametro di riferimento dell\'ingranaggio diviso per il numero di denti (vedere [Note](#Note.md)).
 
--    **teeth|Integer**: Default is {{Value|15}}. Number of teeth.
+-    **teeth|Integer**: L\'impostazione predefinita è {{Value|15}}. Numero di denti.
 
--    **thickness|Length**: Default is {{Value|5}}. Height from the tooth root to the lower side of the rod.
+-    **thickness|Length**: L\'impostazione predefinita è {{Value|5}}. Altezza del piede del dente dal piano inferiore della cremagliera.
 
 
 {{Properties_Title|computed}}
 
--    **transverse_pitch|Length**: (read-only) Pitch in the transverse plane (see [Notes](#Notes.md)).
+-    **transverse_pitch|Length**: (sola lettura) Inclinazione nel piano trasversale (vedere [Note](#Note.md)).
 
 
 {{Properties_Title|fillets}}
 
--    **head_fillet|Float**: Default is {{Value|0 mm}}.
+-    **head_fillet|Float**: L\'impostazione predefinita è {{Value|0 mm}}.
 
--    **root_fillet|Float**: Default is {{Value|0 mm}}.
+-    **root_fillet|Float**: L\'impostazione predefinita è {{Value|0 mm}}.
 
 
 {{Properties_Title|helical}}
 
--    **beta|Angle**: Default is {{Value|0 °}}. With the helix angle β a helical gear is created -- positive value → rotation direction right, negative value → rotation direction left.
+-    **beta|Angle**: L\'impostazione predefinita è {{Value|0 °}}. Con l\'angolo dell\'elica β viene creato un ingranaggio elicoidale -- valore positivo → senso di rotazione destra, valore negativo → senso di rotazione sinistra.
 
--    **double_helix|Bool**: Default is {{False}}, {{True}} creates a double helix gear (see [Notes](#Notes.md)).
+-    **double_helix|Bool**: L\'impostazione predefinita è {{False}}, {{True}} crea un ingranaggio a doppia elica (vedere [Note](#Note.md)).
 
--    **properties_from_tool|Bool**: Default is {{False}}. If {{True}} and **beta** is not zero, gear parameters are recomputed internally for the rotated gear.
+-    **properties_from_tool|Bool**: L\'impostazione predefinita è {{False}}. Se {{True}} e **beta** non sono zero, i parametri dell\'ingranaggio vengono ricalcolati internamente per l\'ingranaggio ruotato.
 
 
 {{Properties_Title|involute}}
 
--    **pressure_angle|Angle**: Default is {{Value|20 °}} (see [Notes](#Notes.md)).
+-    **pressure_angle|Angle**: Il valore predefinito è {{Value|20°}} (vedere [Note](#Note.md)).
 
 
 {{Properties_Title|precision}}
 
--    **simplified|Bool**: Default is {{False}}, {{True}} generates a simplified display (without teeth).
+-    **simplified|Bool**: L\'impostazione predefinita è {{False}}, {{True}} genera una visualizzazione semplificata (senza denti).
 
 
 {{Properties_Title|tolerance}}
 
--    **clearance|Float**: Default is {{Value|0.25}} (see [Notes](#Notes.md)).
+-    **clearance|Float**: Il valore predefinito è {{Value|0,25}} (vedere [Note](#Note.md)).
 
--    **head|Float**: Default is {{Value|0}}. This value is used to change the tooth height.
+-    **head|Float**: L\'impostazione predefinita è {{Value|0}}. Questo valore viene utilizzato per modificare l\'altezza del dente.
 
 
 {{Properties_Title|version}}
 
 -    **version|String**:
 
-## Notes
 
--    **transverse_pitch**: The value is the result of multiplication of **module * pi**. This means for the standard involute rack of FCGear: 15 (**teeth**) \* 3.14 (**transverse_pitch**) is 47.12 mm. See also **module** further below.
 
--    **clearance**: At a gear pair, clearance is the distance between the tooth tip of the first gear and the tooth root of the second gear.
+## Note
 
--    **double_helix**: To use the double helical gearing the helix angle β (**beta**) for the helical gearing must first be entered.
+-    **transverse_pitch**: Il valore è il risultato della moltiplicazione di **module * pi**. Ciò significa per la cremagliera evolvente standard di FCGear: 15 (**teeth**) \* 3,14 (**transverse_pitch**) è 47,12 mm. Vedere anche **module** più avanti.
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth. The result of the multiplication is displayed in **transverse_pitch**
+-    **clearance**: In una coppia di ingranaggi, il gioco è la distanza tra la testa del dente del primo ingranaggio e il piede del dente del secondo ingranaggio.
 
--    **pressure_parameter**: Only change the parameter, if sufficient knowledge of the gear geometry is available.
+-    **double_helix**: Per utilizzare la doppia dentatura elicoidale è necessario prima inserire l\'angolo dell\'elica β (**beta**) per la dentatura elicoidale.
 
-## Useful formulas 
+-    **module**: Utilizzando le linee guida ISO (Organizzazione internazionale per la standardizzazione), la dimensione del modulo è designata come l\'unità che rappresenta le dimensioni dei denti degli ingranaggi. Modulo (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). Se si moltiplica il Modulo per Pigreco, si può ottenere il Passo (p). Il passo è la distanza tra i punti corrispondenti sui denti adiacenti. Il risultato della moltiplicazione viene visualizzato in **transverse_pitch**
 
-See [FCGear InvoluteGear](FCGear_InvoluteGear#Useful_formulas.md).
+-    **pressure_parameter**: Modificare questo parametro solo se si dispone di una conoscenza sufficiente della geometria dell\'ingranaggio.
 
-## Scripting
 
-Use the power of python to automate your gear modeling: 
+
+## Formule utili 
+
+Vedere [FCGear: Ingranaggio ad evolvente](FCGear_InvoluteGear/it#Formule_utili.md).
+
+
+
+## Script
+
+Utilizzare la potenza di Python per automatizzare la modellazione degli ingranaggi: 
 ```python
 import FreeCAD as App
 import freecad.gears.commands
@@ -127,15 +138,6 @@ gear.double_helix = True
 App.ActiveDocument.recompute()
 Gui.SendMsgToActiveView("ViewFit")
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

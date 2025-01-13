@@ -9,6 +9,8 @@
 
 # Std DlgCustomize/es
 
+
+
 ## Descripción
 
 El comando **Std DiálogoPersonalizar** abre el cuadro de diálogo Personalizar que da acceso a varias opciones de personalización.
@@ -19,7 +21,12 @@ El comando **Std DiálogoPersonalizar** abre el cuadro de diálogo Personalizar 
 
 *El cuadro diálogo Personalizar*
 
+
+
 ## Utilización
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Los comandos disponibles en el cuadro de diálogo Personalizar dependen de los ambientes de trabajo que se hayan cargado en la sesión actual de FreeCAD. Así que primero debes cargar todos los ambientes de trabajo a cuyos comandos quieras tener acceso.
 2.  Hay varias formas de invocar el comando:
@@ -30,10 +37,13 @@ El comando **Std DiálogoPersonalizar** abre el cuadro de diálogo Personalizar 
 5.  Pulse el botón **Cerrar** para cerrar el cuadro de diálogo.
 
 
+</div>
 
 
 
-{{Std Base navi
+
+
+{{Std_Base_navi
 
 }}
 

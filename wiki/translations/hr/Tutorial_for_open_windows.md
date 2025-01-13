@@ -260,9 +260,11 @@ The [TechDraw Workbench](TechDraw_Workbench.md) only has minimal control over ho
 A closer interaction between the workbenches is planed for future versions of FreeCAD. In those versions it is expected that long-standing issues be resolved, such as controlling the characteristics of lines and faces (line width, line color, face color, hatch patterns, and others).
 
 
-  {{TechDraw Tools navi}}
+{{BIM_Tools_navi
+
+}} {{Draft_Tools_navi}} {{TechDraw_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/hr
+⏵ [documentation index](../README.md) > Tutorial for open windows/hr

@@ -11,9 +11,9 @@ Consultez la page [tutoriels](tutorials/fr.md) pour des tutoriels détaillés. V
 
 ## Conception architecturale 
 
-Vidéos montrant la modélisation de pièces, de maisons, d\'immeubles de bureaux et de structures similaires et de dessin de plans d\'étage, à l\'aide des ateliers tels que <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/fr.md) et <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/fr.md).
+Vidéos montrant la modélisation de pièces, de maisons, d\'immeubles de bureaux et de structures similaires et de dessin de plans d\'étage, à l\'aide des ateliers tels que <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md) et <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/fr.md).
 
--   [playlists de Yorik van Havre](https://www.youtube.com/user/yorikvanhavre/playlists): le développeur principal [atelier Arch](Arch_Workbench/fr.md) a plusieurs listes sur FreeCAD pour la modélisation de bâtiments ainsi que l\'architecture générale.
+-   [playlists de Yorik van Havre](https://www.youtube.com/user/yorikvanhavre/playlists): le développeur principal [atelier BIM](BIM_Workbench/fr.md) a plusieurs listes sur FreeCAD pour la modélisation de bâtiments ainsi que l\'architecture générale.
     -   [Présentation de l\'atelier Arch de FreeCAD](https://www.youtube.com/watch?v=lTDOeHapv_E): FreeCAD 0.16, présentation pour #ODC2016PN.
     -   [BIM avec FreeCAD - Introduction](https://www.youtube.com/watch?v=rkWOFQ2fGZQ): introduction générale à FreeCAD 0.17.
     -   [BIM avec FreeCAD](https://www.youtube.com/watch?v=QhDMhYvxPO4&list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU): FreeCAD 0.17 à 0.19, vidéos générales sur BIM et l\'atelier Arch, y compris la configuration, la construction de murs, de fenêtres, en utilisant des objets 2D et des expressions.

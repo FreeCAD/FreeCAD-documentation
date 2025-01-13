@@ -1,5 +1,5 @@
 # Category:Image/zh-cn
-This category lists pages related to the [Image Workbench/zh-cn](Image_Workbench/zh-cn.md).
+This category is for pages related to the [Image Workbench/zh-cn](Image_Workbench/zh-cn.md).
 
 ### Contents
 

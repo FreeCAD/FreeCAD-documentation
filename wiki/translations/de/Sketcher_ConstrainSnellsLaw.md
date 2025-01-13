@@ -14,12 +14,9 @@
 
 ## Beschreibung
 
-Beschränkt zwei Linien, um dem Gesetz der Lichtbrechung zu folgen, wenn es durch eine Grenzfläche dringt, in der sich zwei Materialien mit unterschiedlichen Brechungsindizes treffen. Siehe [1](https://de.wikipedia.org/wiki/Snelliussches_Brechungsgesetz) auf Wikipedia für weitere Informationen.
+Das Werkzeug <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> [Sketcher ConstrainSnellsLaw](Sketcher_ConstrainSnellsLaw/de.md) Legt zwei Linien so fest, dass sie der Lichtbrechung entsprechen, die beim Passieren einer Grenzfläche auftritt, an der zwei Werkstoffe mit unterschiedlichen Brechungsindizes aufeinander treffen. Siehe [Snelliussches_Brechungsgesetz](https://de.wikipedia.org/wiki/Snelliussches_Brechungsgesetz).
 
-<img alt="" src=images/Snells_law2_witheq.svg  style="width:" height="400px;">
-
-
-
+<img alt="" src=images/Snells_law2_witheq.svg  style="width:" height="400px;"> 
 *Snelliussches Gesetz*
 
 
@@ -27,55 +24,56 @@ Beschränkt zwei Linien, um dem Gesetz der Lichtbrechung zu folgen, wenn es durc
 ## Anwendung
 
 <img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;"> 
-*Die Reihenfolge der Klicks wird durch gelbe Pfeile mit Zahlen angezeigt. n1, n2 sind nur Bezeichnungen, die zeigen, wo sich die Brechungsindizes befinden.*
+*Die Reihenfolge der Klicks wird durch gelbe Pfeile mit Zahlen angezeigt. n1, n2 zeigen, wo sich die Brechungsindizes befinden.*
 
--   Du brauchst zwei Linien, die einem Lichtstrahl folgen sollen, und eine Kurve, die als Schnittfläche dient. Die Linien sollten sich auf verschiedenen Seiten der Schnittfläche befinden.
--   Wähle den Endpunkt einer Linie, einen Endpunkt einer anderen Linie und die Schnittflächenkante. Die Schnittfläche kann eine [Linie](Sketcher_CreateLine/de.md), ein [Bogen](Sketcher_CompCreateArc/de.md), ein [Kreis](Sketcher_CompCreateCircle/de.md) oder ein [Kegel](Sketcher_CompCreateConic/de.md).
-
-sein. Beachte die Reihenfolge, in der du die Endpunkte ausgewählt hast.
-
--   Rufe die Zwangsbeschränkung auf. Es erscheint ein Dialog, in dem nach einem Verhältnis der Brechungsindizes n2/n1 gefragt wird. n2 entspricht dem Medium, in dem sich die Linie des zweiten ausgewählten Endpunkts befindet, n1 ist für die erste Linie.
--   Die Endpunkte werden zur Deckung gebracht (falls erforderlich), auf die Schnittstelle beschränkt (falls erforderlich) und das Snelliussche Gesetz wird beschränkt.
-
-Beachte, dass mehrere [Hilfsbeschränkungen](Sketcher_helper_constraint/de.md) automatisch (Punkt-auf-Objekt, deckungsgleich) hinzugefügt werden. Sie können gelöscht werden, wenn sie eine Redundanz verursachen oder manuell hinzugefügt werden, wenn sie nicht automatisch hinzugefügt wurden. Für die tatsächliche Beschränkung des Snelliusschen Brechungsgesetzes müssen die Endpunkte der Linien deckungsgleich sein und auf der Schnittfläche liegen, sonst ist das Verhalten undefiniert.
-
-Durch Verwenden der **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Polylinie](Sketcher_CreatePolyline/de.md)** ist es möglich, die Zeichnung von Lichtstrahlen zu beschleunigen. In diesem Fall kann man zwei deckungsgleiche Endpunkte durch Kastenauswahl auswählen.
+1.  Zwei Linien, die einen Lichtstrahl darstellen, und eine Kante, die eine Grenzschicht darstellt, vorbereiten. Die Linien sollten sich auf unterschiedlichen Seiten der Grenzschichtkante befinden, die eine [Linie](Sketcher_CreateLine/de.md), ein [Kreisbogen](Sketcher_CreateArc/de.md), ein [Kreis](Sketcher_CreateCircle/de.md) oder ein [Kegelschnitt](Sketcher_CompCreateConic/de.md) sein kann.
+2.  Einen Endpunkt der ersten Linie, einen Endpunkt der zweiten Linie und die Grenzschichtkante auswählen. Bei der Auswahl ist die Reihenfolge zu beachten.
+3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Den Menüeintrag **Skizze → Sketcher-Randbedingungen → <img src="images/Sketcher_ConstrainSnellsLaw.svg" width=16px> Lichtbrechung (nach Snellius-Gesetz) festlegen** auswählen.
+    -   Das Tastaturkürzel **K** dann **W**.
 
 
 
-## Anmerkungen
 
--   Die eigentliche Beschränkung nach Snelliussches Brechungsgesetz erzwingt die einfachgesetzliche Gleichung n1\*sin(theta1) = n2\*sin(theta2). Es ist notwendig, dass die Linienenden durch andere Zwangsbeschränkungen zufällig und auf der Schnittfläche gemacht werden. Die notwendigen Hilfsbeschränkungen werden automatisch auf der Grundlage der aktuellen Koordinaten der Elemente hinzugefügt.
--   Die Pythonroutine fügt die Hilfsbeschränkungen nicht hinzu. Diese müssen vom Skript manuell hinzugefügt werden (siehe Beispiel im Abschnitt Skripten).
--   Diese Hilfsbeschränkungen können vorübergehend gelöscht und die Endpunkte auseinandergezogen werden, was nützlich sein kann, wenn man einen reflektierten Strahl oder Doppelbrechungsstrahl konstruieren möchte.
--   Im Gegensatz zur Realität sind Brechungsindizes mit Lichtstrahlen verknüpft, aber nicht entsprechend der Grenzseiten. Dies ist nützlich, um die Doppelbrechung zu emulieren, Pfade verschiedener Wellenlängen aufgrund der Brechung zu konstruieren und den Winkel des Auftretens der Totalreflexion leicht zu konstruieren.
--   Beide Strahlen können sich auf der gleichen Seite der Grenzfläche befinden und erfüllen damit die Randbedingung. Dies ist physikalischer Unfug, es sei denn, das Verhältnis n2/n1 ist 1,0, in diesem Fall emuliert die Einschränkung eine Reflexion.
--   Kreis- und Ellipsenbögen werden auch als Strahlen (physikalischer Unfug) akzeptiert.
+1.  Der Dialog **Brechungsindex-Verhältnis** wird geöffnet.
+2.  einen Wert für **Verhältnis n2/n1** eingeben, wobei **n2** für das Medium gilt, in dem sich die zweite ausgewählte Linie befindet, und **n1** für das Medium der ersten Linie gilt.
+3.  Eine Randbedingung Lichtbrechung (nach Snellius-Gesetz) festlegen wird hinzugefügt. Wenn nötig, werden die Endpunkte mit den Randbedingungen [Koinzident festlegen](Sketcher_ConstrainCoincident/de.md) und [Punkt auf Objekt festlegen](Sketcher_ConstrainPointOnObject/de.md) mit der Grenzschichtkante verbunden. Diese zusätzlichen Randbedingungen werden [Helferrandbedingungen](Sketcher_helper_constraint/de.md) genannt.
+
+
+
+## Hinweise
+
+-   Die eigentliche Randbedingung nach Snellius-Gesetz verwendet die einfache Gleichung n1 \* sin(theta1) = n2 \* sin(theta2). Es erfordert, dass die Linienenden durch andere Randbedingungen deckungsgleich (koinzident) und auf der Grenzlinie liegend festgelegt werden, andernfalls ist ihr Verhalten nicht definiert. Die notwendigen Helferrandbedingungen werden automatisch auf Grundlage der aktuellen Koordinaten der Elemente hinzugefügt.
+-   In Python müssen die Helferrandbedingungen manuell hinzugefügt werden (siehe [Skripten](#Skripten.md)).
+-   Diese Helferrandbedingungen können vorübergehend gelöscht und die Endpunkte auseinandergezogen werden, was nützlich sein kann, wenn man einen reflektierten Strahl oder einen Doppelbrechungsstrahl konstruieren möchte.
+-   Im Gegensatz zur Realität sind Brechungsindizes mit Lichtstrahlen verknüpft, aber nicht den Seiten der Grenze entsprechend. Dies ist nützlich, um die Doppelbrechung zu emulieren, Pfade verschiedener Wellenlängen aufgrund der Brechung zu konstruieren und den Winkel des Auftretens der Totalreflexion leicht zu konstruieren.
+-   Beide Strahlen können sich auf der gleichen Seite der Grenzfläche befinden und gleichzeitig die Gleichung der Randbedingung erfüllen. Dies ist physikalischer Unfug, es sei denn, das Verhältnis n2 / n1 ist 1,0; in diesem Fall emuliert die Randbedingung eine Reflexion.
+-   Kreis- und Ellipsenbögen werden auch als Strahlen akzeptiert. Aber auch dies ist physikalischer Unfug.
 
 
 
 ## Skripten
 
-Die Beschränkungen können aus [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole durch folgende Funktion verwendet werden:
+Die Randbedingungen können in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit dem folgenden Befehl erstellt werden:
 
 
 ```python
 Sketch.addConstraint(Sketcher.Constraint('SnellsLaw',line1,pointpos1,line2,pointpos2,interface,n2byn1))
 ```
 
-wobei:
+wobei
 
-  - {{Incode|Sketch}} ist ein Skizzenobjekt
+  - {{Incode|Sketch}} ein Skizzenobjekt ist.
 
-  - {{Incode|line1}} und {{Incode|pointpos1}} sind zwei ganze Zahlen, die den Endpunkt der Linie im Medium mit dem Brechungsindex von *n1* identifizieren. {{Incode|line1}} ist der Index der Linie in der Skizze (der Wert, der von Sketch.addGeometry zurückgegeben wird), und {{Incode|pointpos1}} sollte 1 für Startpunkt und 2 für Endpunkt sein.
+  - {{Incode|line1}} und {{Incode|pointpos1}} zwei ganze Zahlen sind, die den Endpunkt der Linie im Medium mit dem Brechungsindex von *n1* identifizieren. {{Incode|line1}} ist der Index der Linie in der Skizze (der Rückgabewert von Sketch.addGeometry), und {{Incode|pointpos1}} sollte 1 für den Startpunkt und 2 für den Endpunkt sein.
 
-  - {{Incode|line2}} und {{Incode|pointpos2}} sind die Indizes, die den Endpunkt der zweiten Zeile angeben (in Medium *n2*)
+  - {{Incode|line2}} und {{Incode|pointpos2}} die Indizes sind, die den Endpunkt der zweiten Linie angeben (in Medium *n2*)
 
-  - `interface` ist der Index, der die Linie angibt, die auf die Position des Interface zwischen Medium *n1* und Medium *n2* hinweist
+  - `interface` der Index der Linie ist, die die Position der Grenzfläche zwischen Medium *n1* und Medium *n2* darstellt.
 
-  - {{Incode|n2byn1}} ist eine Gleitkommazahl, die dem Verhältnis der Brechungsindizes *n2*/*n1* entspricht
+  - {{Incode|n2byn1}} eine Gleitkommazahl ist, die dem Verhältnis der Brechungsindizes *n2*/*n1* entspricht.
 
-Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, die für `iline1`, `iline2`, `pointpos2` und `interface` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
+Die Seite [Sketcher Skripterstellung](Sketcher_scripting/de.md) erklärt die Werte, die für `line1`, `pointpos1`, `line2`, `pointpos2` und `interface` verwendet werden können und enthält weitere Beispiele, wie man Randbedingungen mit Python-Skripten erstellt.
 
 Beispiel:
 
@@ -87,7 +85,6 @@ import FreeCAD
 
 StartPoint = 1
 EndPoint = 2
-MiddlePoint = 3
 
 f = App.activeDocument().addObject("Sketcher::SketchObject","Sketch")
 

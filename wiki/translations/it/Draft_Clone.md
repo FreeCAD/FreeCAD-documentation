@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Clone
-   Name/it: Clona
+   Name/it: Draft Clona
    MenuLocation: Modifiche , Clona
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Workbenches: Draft_Workbench/it
    Shortcut: **C** **L**
    SeeAlso: Draft Scale/it
 ---
@@ -14,9 +14,9 @@
 
 ## Descrizione
 
-Il comando <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> **Clona** crea copie collegate, cloni, degli oggetti selezionati. La forma di un clone è parametrica, si aggiornerà se il suo oggetto sorgente cambia. Ma un clone ha la propria posizione, rotazione e scala e le proprie [ Proprietà Vista](Property_editor/it.md). Per gli oggetti [Arch](Arch_Workbench/it.md) il comando crea un tipo speciale di clone: ​​un clone di Arch.
+Il comando <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> **Clona** crea copie collegate, cloni, degli oggetti selezionati. La forma di un clone è parametrica, si aggiornerà se il suo oggetto sorgente cambia. Ma un clone ha la propria posizione, rotazione e scala e le proprie [ Proprietà Vista](Property_editor/it.md). Per gli oggetti [BIM](BIM_Workbench/it.md) il comando crea un tipo speciale di clone: ​​un clone di Arch.
 
-Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [Arch](Arch_Workbench/it.md). I cloni di oggetti 2D possono essere utilizzati in [Corpi di PartDesign](PartDesign_Body/it.md).
+Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [BIM](BIM_Workbench/it.md). I cloni di oggetti 2D possono essere utilizzati in [Corpi di PartDesign](PartDesign_Body/it.md).
 
 <img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;"> 
 *Clone accanto al suo oggetto sorgente*
@@ -70,7 +70,7 @@ cloned_object = make_clone(obj, delta=None, forcedraft=False)
 
 -    `delta`è il vettore spostamento da applicare al clone.
 
--   Se `forcedraft` è `False` e `obj` contiene un singolo [Arch object](Arch_Workbench/it.md) viene creato un Arch Clone. Imposta `forcedraft` su `True` per creare invece un Draft Clone.
+-   Se `forcedraft` è `False` e `obj` contiene un singolo [oggetto BIM](BIM_Workbench/it.md) viene creato un Arch Clone. Imposta `forcedraft` su `True` per creare invece un Draft Clone.
 
 -    `cloned_object`viene restituito con l\'oggetto clone.
 

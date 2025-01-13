@@ -9,9 +9,13 @@
 
 # PartDesign Sprocket/de
 
+
+
 ## Beschreibung
 
 Mit diesem Werkzeug kann ein 2D-Profil eines Kettenrads (oder Ritzels) erstellt werden. Es kann mit der Funktion [PartDesign Aufpolsterung](PartDesign_Pad/de.md) extrudiert werden.
+
+
 
 ## Anwendung
 
@@ -25,6 +29,8 @@ Mit diesem Werkzeug kann ein 2D-Profil eines Kettenrads (oder Ritzels) erstellt 
     **OK**klicken.
 
 5.  Wenn es keinen aktiven Körper gibt: Das Kettenrad zur Anwendung weiterer Formelemente wie Aufpolsterung auf einen Körper ziehen.
+
+
 
 ## Eigenschaften
 

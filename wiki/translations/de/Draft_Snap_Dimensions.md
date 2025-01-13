@@ -2,7 +2,8 @@
  GuiCommand:
    Name: Draft Snap Dimensions
    Name/de: Draft EinrastenAufMaße
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Einrasten , Einrasten auf Maße
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    SeeAlso: Draft_Snap/de, Draft_Snap_Lock/de, Draft_SelectPlane/de
 ---
 
@@ -26,9 +27,10 @@ Für allgemeine Informationen zum Einrasten (Fangen) siehe [Draft Einrasten](Dra
 1.  Wahlweise die [Arbeitsebene](Draft_SelectPlane/de.md) wechseln.
 2.  Einrasten sollte aktiviert sein. Siehe <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft EinrastenSperren](Draft_Snap_Lock/de.md).
 3.  Ist **Draft EinrastenAufMaße** nicht aktiv, gibt es folgende Möglichkeiten:
-    -   Die Schaltfläche **<img src="images/Draft_Snap_Dimensions.svg" width=16px>** in der Symbolleiste Draft-Einrasten drücken.
-    -   Die Schaltfläche **<img src="images/Draft_Snap_Dimensions.svg" width=16px> Bemaßung einrasten** im [Draft-Widget Einrasten](Draft_snap_widget/de.md) drücken.
-4.  Einen [Draft](Draft_Workbench/de.md)- oder [Arch](Arch_Workbench/de.md)-Befehl auswählen, um die gewünschte Geometrie zu erstellen.
+    -   Die Schaltfläche **<img src="images/Draft_Snap_Dimensions.svg" width=16px> [Einrasten auf Maße](Draft_Snap_Dimensions/de.md)** in der Symbolleiste Draft-Einrasten drücken.
+    -   [Draft](Draft_Workbench/de.md): Die Schaltfläche **<img src="images/Draft_Snap_Dimensions.svg" width=16px> Einrasten auf Maße** im [Draft-Widget Einrasten](Draft_snap_widget/de.md) drücken.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Einrasten → <img src="images/Draft_Snap_Dimensions.svg" width=16px> Einrasten auf Maße** auswählen oder die Menüoption im Kontextmenü in der [3D-Ansicht](3D_view/de.md) auswählen.
+4.  Einen Draft- oder BIM-Befehl auswählen, um die gewünschte Geometrie zu erstellen.
 5.  Man beachte, dass die Einrast-Optionen auch dann geändert werden können, wenn ein Befehl aktiv ist.
 6.  Einen ersten Punkt auswählen. Diese Einrast-Option erfordert einen vorherigen Punkt.
 7.  Während der Mauszeiger bewegt wird, werden temporäre Maße angezeigt.

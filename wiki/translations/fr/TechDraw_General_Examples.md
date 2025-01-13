@@ -99,13 +99,13 @@ Jusqu\'à présent, on peut dire que TechDraw, en relation avec des modèles SVG
 
 Les vues contiennent la description géométrique en 2D d\'un objet. Le contenu d\'une vue TechDraw peut être dérivé de la géométrie 3D ou obtenu à partir d\'un autre atelier comme des <img alt="" src=images/TechDraw_ArchView.svg  style="width:16px;"> [vues de Arch](TechDraw_ArchView/fr.md) et des <img alt="" src=images/TechDraw_DraftView.svg  style="width:16px;"> [vues de Draft](TechDraw_DraftView/fr.md).
 
-Comme FreeCAD est une application de modélisation 3D, la fonction clé de TechDraw est de dériver des vues 2D à partir d\'une géométrie 3D. Prenons un exemple simple, la pièce du [Tutoriel d\'introduction Part Design](Basic_Part_Design_Tutorial/fr.md) qui est également utilisée avec le [TechDraw Tutoriel d\'introduction](Basic_TechDraw_Tutorial/fr.md) :
+Comme FreeCAD est une application de modélisation 3D, la fonction clé de TechDraw est de dériver des vues 2D à partir d\'une géométrie 3D. Prenons un exemple simple, la pièce du [Tutoriel d\'introduction à PartDesign](Basic_Part_Design_Tutorial/fr.md) qui est également utilisée avec le [TechDraw Tutoriel d\'introduction](Basic_TechDraw_Tutorial/fr.md) :
 
 <img alt="" src=images/Tut17_final_refined.png  style="width:300px;">
 
 
 
-*Pièce du tutoriel d'introduction Part Design*
+*Pièce du tutoriel d'introduction à PartDesign*
 
 
 
@@ -211,7 +211,7 @@ Une <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [vue d�
 
 ### La vue de Arch 
 
-Une <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [vue de Arch](TechDraw_ArchView/fr.md) affiche une vue d\'un <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Arch Plan de coupe](Arch_SectionPlane/fr.md). Son contenu est rendu par l\'<img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [atelier Arch](Arch_Workbench/fr.md).
+Une <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [vue de Arch](TechDraw_ArchView/fr.md) affiche une vue d\'un <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Arch Plan de coupe](Arch_SectionPlane/fr.md). Son contenu est rendu par l\'<img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [atelier BIM](Workbench_BIM/fr.md).
 
 
 
@@ -275,7 +275,7 @@ Deux autres outils mesurent la longueur totale horizontalement ou verticalement 
 
 Ils ne peuvent pas (encore) être liés à la géométrie 3D.
 
-Voir [Boîte de dialogue Cote](TechDraw_LengthDimension/fr#Boîte_de_dialogue_Cote.md) (et la section suivante sur les propriétés) pour tous les paramètres qui ne sont pas mentionnés dans cet aperçu.
+Voir [Fenêtre de dialogue Cote](TechDraw_LengthDimension/fr#Fenêtre_de_dialogue_Cote.md) (et la section suivante sur les propriétés) pour tous les paramètres qui ne sont pas mentionnés dans cet aperçu.
 
 
 
@@ -421,7 +421,7 @@ Les tolérances indiquent de combien une cote mesurée peut s\'écarter de la va
 
 Pour une tolérance asymétrique, définissez la propriété **Equal Tolerance** à {{false}} et spécifiez également une valeur inférieure pour la propriété **Under Tolerance**.
 
-Les valeurs peuvent être définies dans la [boîte de dialogue Cote](TechDraw_LengthDimension/fr#Boîte_de_dialogue_Cote.md) ou directement dans l\'[éditeur de propriétés](Property_editor/fr.md).
+Les valeurs peuvent être définies dans la [fenêtre de dialogue Cote](TechDraw_LengthDimension/fr#Fenêtre_de_dialogue_Cote.md) ou directement dans l\'[éditeur de propriétés](Property_editor/fr.md).
 
 
 
@@ -487,7 +487,7 @@ La propriété **Kink Length** doit être réglée à {{Value|0}} pour les ligne
 
 
 
-*Désormais, la ligne de référence commence sur le cadre, ce qui est parfait pour les lignes horizontales, mais il est désormais impossible de dessiner correctement les lignes de référence verticales*
+*Désormais, la ligne de repère commence sur le cadre, ce qui est parfait pour les lignes horizontales, mais il est désormais impossible de dessiner correctement les lignes de repère verticales*
 
 .
 
@@ -505,7 +505,7 @@ Les cibles de référence sont des points ou des zones relativement petites qui 
 
 Il n\'y a pas de solution connue pour le moment.
 
-:   Les symboles de points spéciaux pour indiquer le point de référence de la cible de référence ne sont pas encore inclus dans les options des lignes de référence.
+:   Les symboles de points spéciaux pour indiquer le point de référence de la cible de référence ne sont pas encore inclus dans les options des lignes de repère.
 :   Les cercles doivent être dérivés de la géométrie 3D et sont difficiles à gérer dans les groupes de projection.
 
 
@@ -531,7 +531,7 @@ Un indicateur de tolérance, également appelé \"cadre de contrôle des caract�
 
 *Cotes théoriquement exactes (en rouge) et indicateurs de tolérance par rapport à l'élément de référence A (en bleu)*
 
-Les indicateurs de tolérance sont comme des symboles d\'éléments de référence ajoutés à l\'aide des <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [infobulles](TechDraw_Balloon/fr.md) mais en utilisant l\'option {{value|Rectangle}}. Utilisez <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:16px;"> [Personnaliser le format d\'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md) pour insérer des caractères spéciaux.
+Les indicateurs de tolérance sont comme des symboles d\'éléments de référence ajoutés à l\'aide des <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [infobulles](TechDraw_Balloon/fr.md) mais en utilisant l\'option {{value|Rectangle}}. Utilisez <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:16px;"> [Personnaliser l\'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md) pour insérer des caractères spéciaux.
 
 Dans la plupart des cas, les indicateurs de tolérance sont alignés sur une ligne de cote, ce qui est impossible dans TechDraw, sauf pour les cotes horizontales car, comme nous l\'avons déjà mentionné, les annotations des infobulles ne peuvent pas pivotées. {{Top}}
 
@@ -539,17 +539,17 @@ Dans la plupart des cas, les indicateurs de tolérance sont alignés sur une lig
 
 
 
-### Lignes de référence 
+### Lignes de repère 
 
-Une <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:16px;"> [ligne de référence](TechDraw_LeaderLine/fr.md) pointe vers un sommet, une arête ou une face où des informations rattachées sont valides.
+Une <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:16px;"> [ligne de repère](TechDraw_LeaderLine/fr.md) pointe vers un sommet, une arête ou une face où des informations rattachées sont valides.
 
-:   Les outils qui fournissent des informations et s\'attachent à une ligne de référence présélectionnée sont l\'<img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:16px;"> [Annotation texte enrichi](TechDraw_RichTextAnnotation/fr.md) et la <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:16px;"> [Soudure](TechDraw_WeldSymbol/fr.md).
+:   Les outils qui fournissent des informations et s\'attachent à une ligne de repère présélectionnée sont l\'<img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:16px;"> [Annotation texte enrichi](TechDraw_RichTextAnnotation/fr.md) et la <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:16px;"> [Soudure](TechDraw_WeldSymbol/fr.md).
 
 
 
 ### Infobulles
 
-Une <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [infobulle](TechDraw_Balloon/fr.md) est une combinaison d\'une ligne de référence et d\'un texte court. Elle nécessite une vue présélectionnée, ou un élément appartenant à une vue, sinon la commande renverra un message d\'erreur. La ligne de référence commence tout le temps horizontalement et pointe vers l\'élément sélectionné après une courte distance définie dans la propriété **Kink Length**. Sa valeur peut également être fixée à {{Value|0}}.
+Une <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [infobulle](TechDraw_Balloon/fr.md) est une combinaison d\'une ligne de repère et d\'un texte court. Elle nécessite une vue présélectionnée, ou un élément appartenant à une vue, sinon la commande renverra un message d\'erreur. La ligne de repère commence tout le temps horizontalement et pointe vers l\'élément sélectionné après une courte distance définie dans la propriété **Kink Length**. Sa valeur peut également être fixée à {{Value|0}}.
 
 
 
@@ -566,7 +566,7 @@ Techdraw fournit deux outils pour ajouter du texte à un dessin :
 
 L\'outil <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:16px;"> [Soudure](TechDraw_WeldSymbol/fr.md) s\'attache à une ligne de référence présélectionnée et ajoute des informations sur la manière de créer une certaine soudure entre deux objets afin d\'éviter de modéliser les faces de soudure sur les pièces brutes. Le texte de la fourche détermine le processus de soudage ou de brasage à utiliser pour la soudure.
 
-:   Il semble que les symboles de soudure nécessitent une ligne de référence intégrée pour obtenir un symbole de fourche correspondant à la taille du texte, sinon les symboles sur la ligne de référence doivent être redimensionnables.
+:   Il semble que les symboles de soudure nécessitent une ligne de repère intégrée pour obtenir un symbole de fourche correspondant à la taille du texte, sinon les symboles sur la ligne de repère doivent être redimensionnables.
 
 <img alt="" src=images/TechDraw_ExampleDrawing-26.png  style="width:300px;">
 
@@ -578,7 +578,7 @@ L\'outil <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:16px;"> [S
 
 ### Symboles d\'état de surface 
 
-<img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:16px;"> [Symbole d\'état de surface](TechDraw_SurfaceFinishSymbol/fr.md) ajoute un symbole de finition de surface à la page, ce qui signifie que ces symboles ne se déplacent pas avec la géométrie référencée.
+<img alt="" src=images/TechDraw_SurfaceFinishSymbols.svg  style="width:16px;"> [Symbole de finition de surface](TechDraw_SurfaceFinishSymbols/fr.md) ajoute un symbole de finition de surface à la page, ce qui signifie que ces symboles ne se déplacent pas avec la géométrie référencée.
 
 <img alt="" src=images/TechDraw_ExampleDrawing-25.png  style="width:300px;">
 

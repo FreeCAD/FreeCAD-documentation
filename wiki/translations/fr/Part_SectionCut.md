@@ -21,11 +21,11 @@ La fonction **Coupe persistante** est disponible pour tous les ateliers, mais el
 
 ## Utilisation
 
-![La boîte de dialogue Coupe persistante](images/Part_SectionCut_Dialog.png )
+![La fenêtre de dialogue Coupe persistante](images/Part_SectionCut_Dialog.png )
 
-La boîte de dialogue **Coupe persistante** s\'ouvre via le menu **Affichage → <img src="images/Part_SectionCut.svg" width=24px> Coupe persistante**. Elle est indépendante du plan de travail actuel et du document actuellement ouvert. Elle peut être détachée de sa position d\'ouverture en appuyant sur le bouton en haut à droite de la boîte de dialogue.
+La fenêtre de dialogue **Coupe persistante** s\'ouvre via le menu **Affichage → <img src="images/Part_SectionCut.svg" width=24px> Coupe persistante**. Elle est indépendante du plan de travail actuel et du document ouvert. Elle peut être détachée de sa position d\'ouverture en appuyant sur le bouton en haut à droite de la fenêtre de dialogue.
 
-La fonction **Coupe persistante** prend en compte tous les objets Part visibles dans le document actif. Vous pouvez donc contrôler ce qui sera coupé, en rendant une partie visible ou non. En cochant l\'une des options **Coupe** dans la boîte de dialogue, la fonction est activée. Vous pouvez alors soit saisir une position (en coordonnées du document), soit utiliser les curseurs pour définir la position de la coupe. Il est également possible de combiner des coupes, par exemple pour couper dans les directions X et Z. Les boutons **Inverser** permettent de retourner le côté qui est coupé.
+La fonction **Coupe persistante** prend en compte tous les objets Part visibles dans le document actif. Vous pouvez donc contrôler ce qui sera coupé, en rendant une partie visible ou non. En cochant l\'une des options **Coupe** dans la fenêtre de dialogue, la fonction est activée. Vous pouvez alors soit saisir une position (en coordonnées du document), soit utiliser les curseurs pour définir la position de la coupe. Il est également possible de combiner des coupes, par exemple pour couper dans les directions X et Z. Les boutons **Inverser** permettent de retourner le côté qui est coupé.
 
 Dès que l\'option *Coupe* est cochée dans la boîte de dialogue, vous obtenez un objet coupé dans la [vue en arborescence](Tree_view/fr.md). Son nom est par exemple *Coupe en Y* lorsqu\'il s\'agit d\'une coupe dans la direction des ordonnées.
 
@@ -37,16 +37,16 @@ En décochant toutes les options **Coupe**, le bouton **Rafraîchir la vue** dev
 
 Si l\'option **Auto** dans la section face coupée est cochée, la couleur et la transparence des objets coupés seront prises pour la face coupée. Cela ne fonctionne que si tous les objets coupés ont la même couleur ou la même transparence.
 
-L\'option **Couper des objets s\'intersectant** permet de couper également les objets qui se croisent. Dans les assemblages, les intersections se produisent parfois pour des objets qui sont conçus pour ne se toucher que pour des raisons de précision numérique. L\'inconvénient de cette option est que tous les objets visibles auront la même couleur. Cette couleur peut être spécifiée dans la section **Face coupée** de la boîte de dialogue. Si vous avez besoin d\'une découpe pour, par exemple, une belle image avec plusieurs couleurs par face, vous pouvez changer les couleurs des faces en utilisant l\'outil <img alt="" src=images/Part_FaceColors.svg  style="width:24px;"> [Part Définir les couleurs\...](Part_FaceColors/fr.md).
+L\'option **Couper des objets s\'intersectant** permet de couper également les objets qui se croisent. Dans les assemblages, les intersections se produisent parfois pour des objets qui sont conçus pour ne se toucher que pour des raisons de précision numérique. L\'inconvénient de cette option est que tous les objets visibles auront la même couleur. Cette couleur peut être spécifiée dans la section **Face coupée** de la fenêtre de dialogue. Si vous avez besoin d\'une découpe pour, par exemple, une belle image avec plusieurs couleurs par face, vous pouvez changer les couleurs des faces en utilisant l\'outil <img alt="" src=images/Part_ColorPerFace.svg  style="width:24px;"> [Part Couleur par face](Part_ColorPerFace/fr.md).
 
-**Remarque :** pour les assemblages, les curseurs de la boîte de dialogue sont désactivés (sauf celui de la transparence). La raison en est qu\'un mouvement de curseur entraîne de nombreuses opérations de coupe dans un court laps de temps. Pour les assemblages, cela consomme rapidement toute la puissance de l\'unité centrale et un mouvement du curseur n\'est pas utile.
+**Remarque :** pour les assemblages, les curseurs dans la fenêtre de dialogue sont désactivés (sauf celui de la transparence). La raison en est qu\'un mouvement de curseur entraîne de nombreuses opérations de coupe dans un court laps de temps. Pour les assemblages, cela consomme rapidement toute la puissance de l\'unité centrale et un mouvement du curseur n\'est pas utile.
 
-Lorsque vous sélectionnez un objet coupé dans l\'arborescence et que vous ouvrez ensuite la boîte de dialogue Coupe persistante, les positions de la coupe seront lues dans la boîte de dialogue.
+Lorsque vous sélectionnez un objet coupé dans l\'arborescence et que vous ouvrez ensuite la fenêtre de dialogue Coupe persistante, les positions de la coupe seront lues dans la fenêtre de dialogue.
 
 ## Applications
 
--   Un cas d\'utilisation important est que Coupe persistante crée de vraies coupes, pas des coupes creuses comme la fonction <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:24px;"> [Std Couper selon des plans](Std_ToggleClipPlane/fr.md).
--   Coupe persistante est utile pour les assemblages afin de visualiser, par exemple, le principe de fonctionnement d\'un appareil. Vous pouvez ainsi vouloir colorer certaines faces de coupe en utilisant l\'outil <img alt="" src=images/Part_FaceColors.svg  style="width:24px;"> [Part Définir les couleurs](Part_FaceColors/fr.md). Pour utiliser cet outil, passez dans l\'atelier Part ou PartDesign, cliquez avec le bouton droit de la souris sur l\'objet coupé dans la vue en arborescence et sélectionnez dans le menu contextuel **Définir les couleurs**.
+-   Un cas d\'utilisation important est que Coupe persistante crée des coupes remplies, et non des coupes creuses comme la fonction <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:24px;"> [Std Couper selon des plans](Std_ToggleClipPlane/fr.md).
+-   Coupe persistante est utile pour les assemblages afin de visualiser, par exemple, le principe de fonctionnement d\'un appareil. Vous pouvez ainsi vouloir colorer certaines faces de coupe en utilisant l\'outil <img alt="" src=images/Part_ColorPerFace.svg  style="width:24px;"> [Part Couleur par face](Part_ColorPerFace/fr.md). Pour utiliser cet outil, passez dans l\'atelier Part ou PartDesign, cliquez avec le bouton droit de la souris sur l\'objet coupé dans la vue en arborescence et sélectionnez dans le menu contextuel **Définir les couleurs**.
 -   Sans l\'option **Couper des objets s\'intersectant**, seules les parties qui ne croisent pas les autres seront coupées. Ceci peut être utilisé comme test de collision.
 -   La fonction Coupe persistante peut être utilisée pour les dessins techniques pour mettre en évidence certaines zones ou pour pouvoir dessiner dans les dimensions. L\'image ci-dessous montre un exemple d\'utilisation des fonctions de [TechDraw](TechDraw_Workbench/fr.md) que sont <img alt="" src=images/TechDraw_ActiveView.svg  style="width:24px;"> [Vue active](TechDraw_ActiveView/fr.md) et <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [Vue](TechDraw_View/fr.md).
 
@@ -83,9 +83,9 @@ Lorsque vous sélectionnez un objet coupé dans l\'arborescence et que vous ouvr
 
 -   Il peut y avoir des artefacts de couleur dans le résultat de la coupe. Si et comment cela dépend de la bibliothèque OpenCASCADE et aussi de la position de la vue. Dans de nombreux cas, les artefacts de couleur disparaissent lorsque la vue 3D est légèrement tournée.
 
--   Lorsque vous avez des objets coupés avec des couleurs différentes, il n\'est pas possible d\'appliquer automatiquement leur couleur aux faces coupées correspondantes. Toutes les faces coupées auront la même couleur que celle sélectionnée dans la boîte de dialogue.
+-   Lorsque vous avez des objets coupés avec des couleurs différentes, il n\'est pas possible d\'appliquer automatiquement leur couleur aux faces coupées correspondantes. Toutes les faces coupées auront la même couleur que celle sélectionnée dans la fenêtre de dialogue.
 
--   Lorsque vous utilisez l\'[atelier A2plus](A2plus_Workbench/fr.md), il n\'est pas possible d\'appliquer automatiquement la couleur des pièces assemblées aux faces coupées correspondantes. Toutes les faces coupées auront la même couleur que celle sélectionnée dans la boîte de dialogue. La raison est que A2plus ne saisit pas les pièces [comme lien](App_Link/fr.md) mais les charge comme fichier.
+-   Lorsque vous utilisez l\'[atelier A2plus](A2plus_Workbench/fr.md), il n\'est pas possible d\'appliquer automatiquement la couleur des pièces assemblées aux faces coupées correspondantes. Toutes les faces coupées auront la même couleur que celle sélectionnée dans la fenêtre de dialogue. La raison est que A2plus ne saisit pas les pièces [comme lien](App_Link/fr.md) mais les charge comme fichier.
 
 
 

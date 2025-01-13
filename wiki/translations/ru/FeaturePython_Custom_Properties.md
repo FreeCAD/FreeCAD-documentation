@@ -66,6 +66,37 @@ obj.ThePropertyName = ["aaa", "bbb", "ccc"]
 obj.ThePropertyName = "bbb"
 ```
 
+
+<small>(v1.0)</small> 
+
+: The {{Incode|enum_vals}} argument of the {{Incode|addProperty}} function can also be used to define the enumeration cases.
+
+
+<small>(v1.0)</small> 
+
+: The full signature of the function is:
+
+
+```python
+obj.addProperty(type: string, name: string, group="", doc="", attr=0, read_only=False, hidden=False, enum_vals=[])
+```
+
+-    {{Incode|type}}: Property type.
+
+-    {{Incode|name}}: Property name.
+
+-    {{Incode|group}}: Property subsection.
+
+-    {{Incode|doc}}: Tooltip.
+
+-    {{Incode|attr}}: Attribute, see [Scripted objects](Scripted_objects#Property_attributes.md).
+
+-    {{Incode|read_only}}: See idem.
+
+-    {{Incode|hidden}}: See idem.
+
+-    {{Incode|enum_vals}}: Enumeration values (list of string), only relevant if type is [App::PropertyEnumeration](#App:_PropertyEnumeration.md).
+
 ## App::PropertyAcceleration
 
 A {{TODO}}acceleration property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
@@ -168,7 +199,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -185,7 +216,7 @@ Identical to [App::PropertyVectorDistance](#App:_PropertyVectorDistance.md).
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -212,7 +243,7 @@ obj.ThePropertyName.Value # returns 500.0
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -223,7 +254,7 @@ obj.ThePropertyName.Value # returns 500.0
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -234,7 +265,7 @@ obj.ThePropertyName.Value # returns 500.0
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -245,7 +276,7 @@ obj.ThePropertyName.Value # returns 500.0
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -256,7 +287,7 @@ obj.ThePropertyName.Value # returns 500.0
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -267,7 +298,7 @@ obj.ThePropertyName.Value # returns 500.0
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -278,7 +309,7 @@ obj.ThePropertyName.Value # returns 500.0
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -289,7 +320,7 @@ obj.ThePropertyName.Value # returns 500.0
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -312,7 +343,15 @@ obj.ThePropertyName = "Quux"                 # choose single item
 obj.ThePropertyName # returns "Quux"
 ```
 
-As of FreeCAD 0.20, you can also group enumerations, which are displayed in the GUI using a submenu interface. To group, use the `|` character (vertical pipe) as a separator, e.g.:
+
+<small>(v1.0)</small> 
+
+: The {{Incode|enum_vals}} argument of the {{Incode|addProperty}} function can also be used to define the enumeration cases. See [above](#Creating_a_FeaturePython_object_and_adding_a_property_to_it.md).
+
+
+<small>(v0.20)</small> 
+
+: It is possible to group enumerations, which are displayed in the GUI using a submenu interface. To group, use the `<nowiki>|</nowiki>` character (vertical pipe) as a separator, e.g.:
 
 
 ```python
@@ -457,7 +496,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -525,7 +564,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -536,7 +575,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -547,7 +586,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -679,16 +718,20 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkSub
 
-A {{TODO}}linkSub property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+A LinkSub is a list of two elements: the first is a reference to a [document object](App_DocumentObject.md), the second a string or a list of strings indicating the internal name(s) of subelement(s). For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
 
 
 ```python
-obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
+doc = FreeCAD.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+
+obj = doc.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyLinkSub", "ThePropertyName", "Subsection", "Description for tooltip")
-obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName # returns {{TODO}}"example value for getter"
-}}
+obj.ThePropertyName = [box, ["Vertex1", "Vertex2"]]
+
+doc.recompute()
+```
 
 ## App::PropertyLinkSubChild
 
@@ -731,16 +774,21 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkSubList
 
-A {{TODO}}linkSubList property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+A LinkSubList is a list of tuples. Each tuple contains two elements: the first is a reference to a [document object](App_DocumentObject.md), the second a string or a list of strings indicating the internal name(s) of subelement(s). For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
 
 
 ```python
-obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
+doc = FreeCAD.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+cyl = doc.addObject("Part::Cylinder", "Cylinder")
+
+obj = doc.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyLinkSubList", "ThePropertyName", "Subsection", "Description for tooltip")
-obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName # returns {{TODO}}"example value for getter"
-}}
+obj.ThePropertyName = [(box, ["Vertex1", "Vertex2"]), (cyl, "Edge1")]
+
+doc.recompute()
+```
 
 ## App::PropertyLinkSubListChild
 
@@ -787,7 +835,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -798,7 +846,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -809,7 +857,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -820,7 +868,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -831,7 +879,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -855,7 +903,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1002,7 +1050,7 @@ Identical to [App::PropertyVectorDistance](#App:_PropertyVectorDistance.md).
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1080,7 +1128,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1091,7 +1139,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1102,7 +1150,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1128,7 +1176,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1165,7 +1213,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1176,7 +1224,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1187,7 +1235,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1198,7 +1246,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1209,7 +1257,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1220,7 +1268,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1316,7 +1364,7 @@ obj.ThePropertyName # returns [Vector (0, 10, 0), Vector (1, 2, 3), Vector (30, 
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1327,7 +1375,7 @@ obj.ThePropertyName # returns [Vector (0, 10, 0), Vector (1, 2, 3), Vector (30, 
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1351,7 +1399,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1362,7 +1410,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1373,7 +1421,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1436,7 +1484,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>
@@ -1447,7 +1495,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 <div class="mw-translate-fuzzy">
 
 
-{{Version/ru|1.0}}
+{{Version/ru|0.21}}
 
 
 </div>

@@ -74,9 +74,6 @@ Um beliebige Elemente im [Sketcher](Sketcher_Workbench/de.md) zu referenzieren, 
 
 
 
-
-
-
 {{PartDesign Tools navi
 
 }}

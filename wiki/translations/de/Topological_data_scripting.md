@@ -39,7 +39,7 @@ Die folgenden topologischen Datentypen stehen zur Verfügung:
 -   **Solid** Ein Teil des (Konstruktion-)Raumes, der durch eine geschlossene Hülle begrenzt ist. Ein Solid (Festkörper) ist dreidimensional.
 -   **Shell** Hülle = Ein Satz (eine Menge) von über ihre Kanten verbundenen Flächen. Eine Hülle kann offen oder geschlossen sein.
 -   **Face** In 2D ist es ein Teil einer Ebene; in 3D ist es ein Teil einer Oberfläche (Trägerfläche). Die Form wird durch Konturen begrenzt (getrimmt). Ein Face (eine Fläche) ist zweidimensional (hat keine Wandstärke).
--   **Wire** Ein Satz von über ihre Endpunkten verknüpften Kanten. Ein \"Wire\" kann eine offene oder geschlossene Form haben, je nach dem ob Start- und Endpunkt verbunden sind oder nicht.
+-   **Wire** Ein Satz von über ihre Endpunkte verknüpften Kanten. Ein \"Wire\" kann eine offene oder geschlossene Form haben, je nach dem ob Start- und Endpunkt verbunden sind oder nicht.
 -   **Edge** Ein topologisches Element (Kante) das einer begrenzten Kurve entspricht. Eine Kante ist generell durch Knoten(-punkte) (Vertizes) begrenzt. Eine Kante (Edge) ist eindimensional (hat keine radiale Ausdehnung).
 -   **Vertex** Ein topologisches Element das einem (Knoten-)Punkt entspricht. Es ist nulldimensional.
 -   **Shape** (Form) ist der Oberbegriff für all die zuvor aufgezählten Elemente.
@@ -51,13 +51,13 @@ Die folgenden topologischen Datentypen stehen zur Verfügung:
 
 ## Beispiel: Einfache Topologie erstellen 
 
-![Wire](images/Wire.png )
+![Linienzug (Wire)](images/Wire.png )
 
-Wir werden nun eine Topologie erstellen, indem wir sie mit einfacheren Geometrien konstruieren. Als Beispiel verwenden wir ein Teil, wie im Bild zu sehen, das aus vier Knoten, zwei Kreisen und zwei Linien besteht. 
+Wir werden nun eine Topologie erstellen, indem wir sie aus einfacheren Geometrien zusammensetzen. Als Beispiel verwenden wir ein Teil, wie im Bild zu sehen, das aus vier Knoten, zwei Kreisbögen und zwei Linien besteht. 
 
 ### Geometrie erstellen 
 
-Zuerst erstellen wir die individuellen geometrischen Teile dieses Drahtes (Wire). Dabei stellen wir sicher, dass die Teile, die später verbunden werden, dieselben Knoten verwenden.
+Zuerst werden die individuellen geometrischen Teile dieses Linienzuges (Wire) erstellt. Dabei wird darauf geachtet, dass die Teile, die später verbunden werden, dieselben Knoten verwenden.
 
 Also erstellen wir zuerst die (Knoten-)Punkte (Vertices/Vertexes):
 
@@ -78,9 +78,9 @@ V4 = App.Vector(0, -10, 0)
 
 ### Bogen
 
-![Circle](images/Circel.png )
+![Kreisbogen](images/Circel.png )
 
-Für jeden Bogen benötigen wir einen Hilfspunkt:
+Für jeden Kreisbogen benötigen wir einen Hilfspunkt:
 
 
 ```python
@@ -97,7 +97,7 @@ C2 = Part.Arc(V2, VC2, V3)
 
 ### Linie
 
-![Line](images/Line.png )
+![Linie](images/Line.png )
 
 Die Linienabschnitte können aus zwei Punkten erstellt werden:
 
@@ -128,7 +128,7 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 ### Ein prismatisches Objekt erstellen 
 
-Jetzt wird der Draht in eine Richtung extrudiert und so eine wirkliche 3D-Form erstellt:
+Jetzt wird der Linienzug in eine Richtung extrudiert und so eine wirkliche 3D-Form erstellt:
 
 
 ```python

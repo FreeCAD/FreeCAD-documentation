@@ -1,19 +1,28 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/de
    Name: FEM MaterialReinforced
    Name/de: FEM MaterialBewehrt
    MenuLocation:  Modell , Materialien , Verstärkter Werkstoff 
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
+}}
+{{GuiCommandFemInfo/de
+   Solvers: CalculiX
+}}
 ---
 
 # FEM MaterialReinforced/de
 
-## Description
+
+
+## Beschreibung
 
 Creates a reinforced matrix material. It combines a matrix material (e.g. concrete) and a reinforcement material (e.g. steel).
 
-## Usage
+
+
+## Anwendung
 
 1.  To create a new MaterialReinforced object do the following:
     -   Click the **<img src="images/FEM_MaterialReinforced.svg" width=16px> [Reinforced material (concrete)](FEM_MaterialReinforced.md)** button or choose the **Model → Materials → <img src="images/FEM_MaterialReinforced.svg" width=16px> Reinforced material (concrete)‏‎** option from the menu.
@@ -28,6 +37,7 @@ Creates a reinforced matrix material. It combines a matrix material (e.g. concre
 
 -   In the CalculiX solver settings, one has to set Material Nonlinearity to linear if [FEM MaterialMechanicalNonlinear](FEM_MaterialMechanicalNonlinear.md) is not used.
 -   More information about this feature, and an example of its usage, can be found in [Analysis of reinforced concrete with FEM](Analysis_of_reinforced_concrete_with_FEM.md).
+-   For a video tutorial (based on the [FEM Tutorial](FEM_tutorial.md)) that uses this tool, watch: [FEM MaterialReinforced tutorial](https://www.youtube.com/watch?v=SZTIqhfCSVc).
 
 
 

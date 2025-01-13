@@ -11,7 +11,7 @@ Um dies zu tun:
 4.  Die neu erstellte Form auswählen.
 5.  Den Menüeintrag **Part → [In Festkörper umwandeln](Part_MakeSolid/de.md)** auswählen.
 6.  Den neu erstellten Festkörper auswählen.
-7.  Den Menüeintrag **Part → [Form aufbereiten](Part_RefineShape/de.md)** oder die Schaltfläche <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Form aufbereiten](Part_RefineShape/de.md) drücken.
+7.  Den Menüeintrag **Part → Kopie erstellen → [Form aufbereiten](Part_RefineShape/de.md)** oder die Schaltfläche <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Form aufbereiten](Part_RefineShape/de.md) drücken.
 
 **Hinweis**: Der letzte Schritt ist nicht notwendig, aber er reinigt den Festkörper von den meisten seiner Restkanten auf ebenen und zylindrischen Oberflächen.
 
@@ -27,12 +27,12 @@ Nun, deine Schale scheint Fehler zu haben, vielleicht ist sie nicht geschlossen 
 
 ## Drittanbieterprogramme
 
--   [Meshlab](http://meshlab.sourceforge.net/)
+-   [MeshLab](https://www.meshlab.net/)
     -   Lizenz: Open Source (GPL V2)
     -   Läuft unter Windows 32/64 bit, Linux und macOS
--   [netFabb basic](http://www.netfabb.com/downloadcenter.php?basic=1)
+-   [Meshmixer](https://meshmixer.com/)
     -   Lizenz: Freeware
-    -   Läuft unter Windows XP/7/8, Linux and macOS
+    -   Läuft unter Windows 64-bit
 
 
 

@@ -1,15 +1,15 @@
 # Package Metadata/de
 ## Einleitung
 
-Beginning in FreeCAD version 0.20, external addons (workbenches, macros, and preference packs) may be distributed with a metadata file describing the contents of the package. If the file \"package.xml\" is present it is read by FreeCAD and its contents used in various parts of the user interface. It is currently optional for workbenches and macros, and required for preference packs. This page documents the format of that metadata file. The format (and the contents of this Wiki page) are based on [REP 149](https://ros.org/reps/rep-0149.html).
+Beginnend mit FreeCAD Version 0.20 können externe Addons (Arbeitsbereiche, Makros und Preference-Packs) mit einer Metadaten-Datei vertrieben werden, die den Inhalt des Pakets beschreibt. Ist die Datei \"package.xml\" vorhanden, wird sie von FreeCAD ausgelesen und ihre Inhalte in verschiedenen Bereichen der Benutzerschnittstelle verwendet. Derzeit ist es für Arbeitsbereiche und Makros optional und für Preference-Packs erforderlich. Diese Seite dokumentiert das Format dieser Metadaten-Datei. Das Format (und der Inhalt dieser Wikiseite) basiert auf [REP 149](https://ros.org/reps/rep-0149.html).
 
 ## Overall file format 
 
-This document currently describes file format version 1.
+Dieses Dokument beschreibt derzeit das Datenformat in Version 1.
 
-The metadata file must be a valid, well-formed XML 1.0 document. It must be called \"package.xml\", and must exist in the base directory of the software package\'s primary branch (as specified by the [FreeCAD-addons .gitmodules file](https://github.com/FreeCAD/FreeCAD-addons/blob/master/.gitmodules)) in its git repository. Only the package.xml file from the primary branch is considered by the Addon Manager. All understood XML tags are in lowercase, but unrecognized tags are **not** an error. Most tags are optional, and some only apply to certain types of package contents (for example, only Workbenches currently provide a \"classname\" element). Unneeded or unrecognized elements are ignored.
+Die Metadaten-Datei muss ein gültiges, wohlgeformtes XML 1.0-Dokument sein. Sie muss \"package.xml\" genannt werden und sie muss im Basisverzeichnis des Hauptzweigs des Software-Pakets vorhanden sein (wie angegeben durch die [.gitmodules-Datei des FreeCAD-Addons](https://github.com/FreeCAD/FreeCAD-addons/blob/master/.gitmodules)) in ihrem git-Speicher. Nur die Datei package.xml des Hauptzweiges wird vom Addon-Manager berücksichtigt. Alle bekannten XML-Tags werden kleingeschrieben, aber unbekannte Tags sind \"keine\" Fehler. Die meisten Tags sind optional und einige betreffen nur bestimmte Arten von Paketinhalten (z.B. stellen nur Aufgabenbereiche ein \"classname\"-Element zur Verfügung). Nicht benötigte und unbekannte Elemente werden ignoriert.
 
-Any file path specified in package.xml must use the slash (\"/\") as the directory separator: on systems that expect a different separator during execution (e.g. Windows) FreeCAD will automatically convert to the correct separator.
+Jeder in package.xml angegebener Pfadname muss den Schrägstrich (\"/\") als Verzeichnistrenner verwenden; auf Systemen, die während der Ausführung ein anderes Trennzeichen erwarten (z.B. Windows), wandelt FreeCAD diese automatisch in das korrekte Trennzeichen um.
 
 ## Content elements 
 
@@ -93,7 +93,7 @@ An orphaned package is one with no current maintainer. Orphaned packages should 
 
 AT LEAST ONE REQUIRED (multiple allowed)
 
-SPDX short identifier of the license(s) for this package, e.g. BSD-2-Clause, GPL-3, LGPL-2.1. In order to assist machine readability, only include the license\'s SPDX short identifier (see [the SPDX site](https://spdx.org/licenses/)). For multiple licenses multiple separate tags must be used. A package will have multiple licenses if different source files have different licenses. Every license occurring in the source files should have a corresponding  tag. For any explanatory text about licensing caveats, please use the  tag.
+SPDX short identifier of the license(s) for this package, e.g. BSD-2-Clause, GPL-3.0-or-later, LGPL-2.1-or-later. In order to assist machine readability, only include the license\'s SPDX short identifier (see [the SPDX site](https://spdx.org/licenses/)). For multiple licenses multiple separate tags must be used. A package will have multiple licenses if different source files have different licenses. Every license occurring in the source files should have a corresponding  tag. For any explanatory text about licensing caveats, please use the  tag. To specify that no license applies (e.g. \"All rights reserved.\") set this value to \"UNLICENSED\". To specify a custom license without an SPDX identifier set this value to \"SEE LICENSE IN \".
 
 Commonly-used license strings:
 
@@ -128,6 +128,8 @@ Commonly-used license strings:
     
 
 -    `"CC0-1.0"`(Public Domain dedication)
+
+**Backwards-compatibility note**: The Addon Manager will attempt to normalize license identifiers that do not exactly match an SPDX license string. This will sometimes result in a license ID that yields a non-FSF-Libre or non-OSI-approved license: for example \"LGPL2\" will be normalized to \"LGPL-2.0\", which is a non-FSF-Libre license: what was probably intended was \"LGPL-2.1-or-later\".
 
 #### Attributes 
 

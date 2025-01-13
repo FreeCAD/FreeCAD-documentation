@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -25,8 +27,10 @@ La herramienta [Architectura Estructura](Arch_Structure/es.md) permite construir
 
 Si no se da ningún perfil, se dispone de un conjunto de preajustes para construir rápidamente un elemento estructural a partir de un perfil estándar predefinido.
 
-![](images/Arch_Structure_example.jpg ) 
+<img alt="" src=images/Arch_Structure_example.jpg  style="width:400px;"> 
 *Columna basada en un perfil base 2D; una columna y una viga definidas por su altura, longitud y anchura, sin perfil base; una estructura metálica basada en una cara 2D*
+
+
 
 ## Utilización
 
@@ -40,6 +44,8 @@ Si no se da ningún perfil, se dispone de un conjunto de preajustes para constru
 
 
 </div>
+
+
 
 ## Opciones
 
@@ -56,7 +62,11 @@ Si no se da ningún perfil, se dispone de un conjunto de preajustes para constru
 
 </div>
 
+
+
 ## Propiedades
+
+
 
 ### Datos
 
@@ -80,11 +90,15 @@ Si no se da ningún perfil, se dispone de un conjunto de preajustes para constru
 
 </div>
 
+
+
 ### Vista
 
 -    **Tipo de nodos**: El tipo de nodos estructurales de este objeto, lineal o de área.
 
 -    **Mostrar Nodos**: Muestra u oculta los nodos estructurales.
+
+
 
 ## Predefinidos
 
@@ -99,6 +113,8 @@ El botón **Switch L/H** se puede usar para cambiar los valores de Longitud y Al
 
 <img alt="" src=images/Arch_precast_example.jpg  style="width:960px;"> 
 *Algunos preajustes para estructuras prefabricadas de hormigón*
+
+
 
 ## Nodos estructurales 
 
@@ -148,24 +164,32 @@ La herramienta Estructura se puede utilizar en [macros](macros/es.md) y desde la
 
 
 ```python
-Structure = makeStructure(baseobj=None, height=None)
-Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
+structure = makeStructure(baseobj=None, height=None)
+structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 -   Crea un objeto `Structure` a partir del `baseobj` dado, que es un perfil cerrado, y la extrusión `height` dada.
     -   Si no se da el `baseobj`, puede proporcionar los valores numéricos para el `length`, `width`, y `height` para crear una estructura de bloques.
     -   El `baseobj` también puede ser cualquier objeto sólido existente.
 
-Ejemplo: 
+
+</div>
+
+Ejemplo:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
-Rect = Draft.makeRectangle(200, 300)
-Structure1 = Arch.makeStructure(Rect, height=2000)
+rect = Draft.make_rectangle(200, 300)
+structure1 = Arch.makeStructure(rect, height=2000)
 FreeCAD.ActiveDocument.recompute()
 
-Structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
-Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
+structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
+Draft.move(structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
 
@@ -179,6 +203,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/es
+⏵ [documentation index](../README.md) > Arch Structure/es

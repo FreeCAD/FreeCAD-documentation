@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw ExtensionRemovePrefixChar
    Name/fr: TechDraw Supprimer les symboles
-   MenuLocation: TechDraw , Extensions : cotes , Supprimer le préfixe
+   MenuLocation: TechDraw , Extensions : cotes , Supprimer les symboles
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20
@@ -24,8 +24,8 @@ L\'outil **TechDraw Supprimer les symboles** supprime tous les symboles devant l
 
 1.  Sélectionnez une ou plusieurs cotes.
 2.  Il existe plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionRemovePrefixChar.svg" width=16px> [Supprimer le préfixe](TechDraw_ExtensionRemovePrefixChar/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions : cotes → <img src="images/TechDraw_ExtensionRemovePrefixChar.svg" width=16px> Supprimer le préfixe** à partir du menu.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionRemovePrefixChar.svg" width=16px> [Supprimer les symboles](TechDraw_ExtensionRemovePrefixChar/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Extensions : cotes → <img src="images/TechDraw_ExtensionRemovePrefixChar.svg" width=16px> Supprimer les symboles** du menu.
 3.  Tous les symboles préfixes sont supprimés du texte des cotes sélectionnées.
 
 

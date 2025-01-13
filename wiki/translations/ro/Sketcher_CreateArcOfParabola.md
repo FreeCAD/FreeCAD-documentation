@@ -17,9 +17,16 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument crează un arc de parabolă definit prin focar, vertex și endpoints.
 
-![](images/Sketcher_Arc_of_Parabola_01.png )
+
+</div>
+
+![](images/Sketcher_CreateArcOfParabola_Example.png ) 
+*Arc of parabola (white) with internal geometry (dark yellow)*
 
 
 
@@ -31,6 +38,8 @@ Acest instrument crează un arc de parabolă definit prin focar, vertex și endp
 
 </div>
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
 
 <div class="mw-translate-fuzzy">
 
@@ -39,6 +48,10 @@ Acest instrument crează un arc de parabolă definit prin focar, vertex și endp
 
 
 </div>
+
+## Notes
+
+-   Elements of the internal geometry can be deleted. They can be recreated at any time with [Sketcher RestoreInternalAlignmentGeometry](Sketcher_RestoreInternalAlignmentGeometry.md).
 
 
 

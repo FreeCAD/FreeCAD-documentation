@@ -24,7 +24,7 @@ The **Std DlgCustomize** command opens the Customize dialog box giving access to
 2.  There are several ways to invoke the command:
     -   Select the **Tools → <img src="images/Std_DlgCustomize.svg" width=16px> Customize...** option from the menu.
     -   Right-click a toolbar area and choose **<img src="images/Std_DlgCustomize.svg" width=16px> Customize...** from the context menu.
-3.  The Customize dialog box opens. For more information see [Interface Customization](Interface_Customization#Options.md).
+3.  The **Customize** dialog box opens. For more information see [Interface Customization](Interface_Customization#Options.md).
 4.  The **Help** button does not work at this time.
 5.  Press the **Close** button to close the dialog box.
 
@@ -32,7 +32,7 @@ The **Std DlgCustomize** command opens the Customize dialog box giving access to
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

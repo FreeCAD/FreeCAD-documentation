@@ -2,11 +2,11 @@
  GuiCommand:
    Name: Arch Pipe
    Name/de: Arch Rohr
-   MenuLocation: Arch , Pipe tools , Rohr
-   Workbenches: Arch_Workbench/de
+   MenuLocation: 3D/BIM , Rohr
+   Workbenches: BIM_Workbench/de
    Shortcut: **P** **I**
    Version: 0.17
-   SeeAlso: Arch_PipeConnector/de, Arch_Equipment/de
+   SeeAlso: 
 ---
 
 # Arch Pipe/de
@@ -15,17 +15,17 @@
 
 ## Beschreibung
 
-Dieses Werkzeug ermöglicht Rohre von Grund auf oder aus ausgewählten Objekten zu erstellen. Die ausgewählten Objekte müssen Part-basiert sein (Draft, Skizze, etc\...) und genau offenen Draht enthalten.
+Das Werkzeug **Arch Rohr** ermöglicht Rohre von Grund auf oder aus ausgewählten Objekten zu erstellen. Die ausgewählten Objekte müssen Part-basiert sein (Draft, Skizze, usw\...) und dürfen nur genau einen offenen Linienzug enthalten.
 
 
 
 ## Anwendung
 
 1.  Wahlweise eine lineare [Part](Part_Workbench/de.md)-Form wie eine [Draft Linie](Draft_Line/de.md), einen [Draft Linienzug](Draft_Wire/de.md) oder eine offene [Skizze](Sketcher_NewSketch/de.md).
-2.  Es gibt mehrere Möglichkeiten diesen Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Arch_Pipe.svg" width=16px> [Arch Rohr](Arch_Pipe/de.md)** drücken.
+2.  Es gibt mehrere Möglichkeiten, diesen Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Arch_Pipe.svg" width=16px> [Rohr](Arch_Pipe/de.md)** drücken.
     -   Das Tastaturkürzel **P** dann **I**.
-    -   Den Menüeintrag **Arch → Rohrwerkzeuge → Rohr** auswählen.
+    -   Den Menüeintrag **3D/BIM → Rohr** auswählen.
 
 
 
@@ -37,13 +37,37 @@ Dieses Werkzeug ermöglicht Rohre von Grund auf oder aus ausgewählten Objekten 
 
 ## Eigenschaften
 
--    **Länge**: Setzt die Länge dieses Rohrs, wenn sie nicht auf einem Draht basiert
 
--    **Durchmesser**: Der Durchmesser dieses Rohres, wenn es nicht auf einem Profil basiert
 
--    **Basis**: Der Basisdraht dieses Rohrs, falls vorhanden
+### Daten
 
--    **Profil**: Das Basisprofil dieses Rohres. Wenn nicht angegeben, ist das Rohr zylindrisch.
+
+{{TitleProperty|Component}}
+
+-    **Base|Link**: The base wire of this pipe, if any.
+
+For the other properties in the group see [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|Pipe}}
+
+-    {{PropertyData/de|Diameter|Length}}: Der Durchmesser dieses Rohres, wenn seine {{PropertyData/de|Profile Type}} {{Value|Circle}} ist.
+
+-    {{PropertyData/de|Height|Length}}: Die Höhe dieses Rohres, wenn seine {{PropertyData/de|Profile Type}} {{Value|Rectangle}} ist.
+
+-    {{PropertyData/de|Length|Length}}: Die Länge dieses Rohres, wenn es nicht auf einem Liniezug basiert.
+
+-    {{PropertyData/de|Offset End|Length}}: Der Abstand zum Endpunkt des Rohres. Wird automatisch gesetzt, wenn ein [Arch Rohrverbinder](Arch_PipeConnector/de.md) an diesem Punkt hinzugefügt wird, um das Rohr an den Verbinder anzupassen. Siehe [Typischer Arbeitsablauf](#Typischer_Arbeitsablauf.md) weiter unten.
+
+-    {{PropertyData/de|Offset Start|Length}}: Der Abstand zum Startpunkt des Rohres. Wie vorhergehend beschrieben.
+
+-    {{PropertyData/de|Profile|Link}}: Das Basis-Profil dieses Rohres. Ist nichts vorgegeben, wird das Rohrprofil von der {{PropertyData/de|Profile Type}} abgeleitet.
+
+-    {{PropertyData/de|Profile Type|Enumeration}}: Das Profil dieses Rohres. Wird nur dann verwendet, wenn die {{PropertyData/de|Profile}} leer ist. Die Optionen sind: {{Value|Circle}} (Kreis), {{Value|Square}} (Quadrat) oder {{Value|Rectangle}} (Rechteck).
+
+-    {{PropertyData/de|Wall Thickness|Length}}: Die Wandstärke dieses Rohres.
+
+-    {{PropertyData/de|Width|Length}}: Die Breite dieses Rohres, wenn seine {{PropertyData/de|Profile Type}} auf {{Value|Square}} oder {{Value|Rectangle}} gesetzt ist.
 
 
 
@@ -92,12 +116,14 @@ Es ist auch möglich, Arch Rohre ohne Grundlinie zu erstellen. In diesem Fall ve
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug Rohr kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden: 
+Das Werkzeug Rohr kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden:
+
+
 ```python
-Pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
+pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
 ```
 
--   Creates a `Pipe` object from the given `baseobj` and `diameter`.
+-   Creates a `pipe` object from the given `baseobj` and `diameter`.
     -   
         `baseobj`
         
@@ -114,16 +140,24 @@ p1 = FreeCAD.Vector(1000, 0, 0)
 p2 = FreeCAD.Vector(2500, 200, 0)
 p3 = FreeCAD.Vector(3100, 1000, 0)
 p4 = FreeCAD.Vector(3500, 500, 0)
-Line = Draft.makeWire([p1, p2, p3, p4])
+line = Draft.make_wire([p1, p2, p3, p4])
 
-Pipe = Arch.makePipe(Line, 200)
+pipe = Arch.makePipe(line, 200)
 FreeCAD.ActiveDocument.recompute()
 
-Pipe2 = Arch.makePipe(diameter=120, length=3000)
+pipe2 = Arch.makePipe(diameter=120, length=3000)
 FreeCAD.ActiveDocument.recompute()
 ```
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/de
+⏵ [documentation index](../README.md) > Arch Pipe/de

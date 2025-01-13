@@ -14,7 +14,7 @@
 
 ## Opis
 
-Narzędzie **Osadź** umożliwia umieszczenie obiektu ze ściankami *(np. rury)* w innym obiekcie ze ściankami.
+Narzędzie <img alt="" src=images/Part_JoinEmbed.svg  style="width:24px;"> **Osadź** umożliwia umieszczenie obiektu ze ściankami *(np. rury)* w innym obiekcie ze ściankami.
 
 ![600px](images/JoinFeatures_Embed.png)
 
@@ -23,9 +23,10 @@ Narzędzie **Osadź** umożliwia umieszczenie obiektu ze ściankami *(np. rury)*
 ## Użycie
 
 1.  Wybierz najpierw obiekt bazowy, a następnie obiekt, który ma zostać osadzony. Kolejność wyboru jest ważna. Wystarczy wybrać jeden kształt podrzędny każdego obiektu *(np. ściany)*.
-2.  Wywołaj polecenie Osadź obiekt.
-
-Tworzony jest obiekt środowiska Część CechaPołączenia z ustawionym trybem \"Osadź\". Oryginalne obiekty są ukryte, a wynik osadzenia jest wyświetlany w oknie widoku 3D.
+2.  Istnieje kilka sposobów na wywołanie tego polecenia:
+    -   Wciśnij przycisk **<img src="images/Part_JoinEmbed.svg" width=16px> [Osadź obiekt](Part_JoinEmbed/pl.md)**.
+    -   Wybierz opcję **Część → Połącz → <img src="images/Part_JoinEmbed.svg" width=16px> Osadź obiekt** z menu.
+3.  Zostanie utworzony obiekt Part JoinFeature z trybem ustawionym na \'Osadź\'. Oryginalne obiekty zostaną ukryte a wynik osadzania będzie pokazany w [widoku 3D](3D_view/pl.md).
 
 
 

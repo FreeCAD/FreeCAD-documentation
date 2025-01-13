@@ -4,7 +4,7 @@
    Name/pl: Std: Wymiarowanie odległości
    MenuLocation: Przybory , Wymiarowanie odległości
    Workbenches: wszystkie
-   SeeAlso: Part_Measure_Linear/pl, Draft_Dimension/pl
+   SeeAlso: Std_Measure/pl,Part_Measure_Linear/pl, Draft_Dimension/pl
 ---
 
 # Std MeasureDistance/pl
@@ -74,7 +74,7 @@ Polecenie **Wymiarowanie odległości** tworzy obiekt odległość, który mierz
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

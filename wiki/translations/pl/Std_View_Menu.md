@@ -46,6 +46,7 @@ W tym menu dostępne są następujące narzędzia:
 -   Widoki standardowe
     -   <img alt="" src=images/Std_ViewFitAll.svg  style="width:32px;"> [Dopasuj wszystko](Std_ViewFitAll/pl.md): Dopasowuje wszystkie widoczne obiekty wewnątrz widoku.
     -   <img alt="" src=images/Std_ViewFitSelection.svg  style="width:32px;"> [Dopasuj wybrane](Std_ViewFitSelection/pl.md): Dopasowuje do widoku wybrane obiekty.
+    -   <img alt="" src=images/Std_AlignToSelection.svg  style="width:32px;"> [Wyrównaj do zaznaczenia](Std_AlignToSelection/pl.md): Wyrównuje widok do zaznaczenia {{Version/pl|1.0}}
     -   Aksonometryczny
         -   <img alt="" src=images/Std_ViewIsometric.svg  style="width:32px;"> [Izometryczny](Std_ViewIsometric/pl.md): Przełącza do widoku izometrycznego.
         -   [Dimetryczny](Std_ViewDimetric/pl.md): Przełącza na widok aksonometryczny dwumiarowy.
@@ -65,8 +66,8 @@ W tym menu dostępne są następujące narzędzia:
 -   [Przechwyć aktualny obraz](Std_FreezeViews/pl.md)
     -   [Zapisz widok \...](Std_FreezeViews/pl#Zapisz_widok.md): Zapisuje w pliku zamrożony widok.
     -   [Wczytaj widok \...](Std_FreezeViews/pl#Wczytaj_widok.md): Ładuje zamrożony widok z pliku.
-    -   [Zamroź widok](Std_FreezeViews/pl#Zamro.C5.BA_widok.md): Zachowuje aktualny widok w zamrożonym widoku.
-    -   [Wyczyść widok](Std_FreezeViews/pl#Wyczy.C5.9B.C4.87_widoki.md): Kasuje wszystkie zamrożone widoki.
+    -   [Zamroź widok](Std_FreezeViews/pl#Zamroź_widok.md): Zachowuje aktualny widok w zamrożonym widoku.
+    -   [Wyczyść widoki](Std_FreezeViews/pl#Wyczyść_widoki.md): Kasuje wszystkie zamrożone widoki.
 
 -   [Styl rysowania](Std_DrawStyle/pl.md)
     -   <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:32px;"> [Domyślny](Std_DrawStyle/pl#Domy.C5.9Blny.md)
@@ -101,7 +102,8 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Przełącz płaszczyznę tnącą](Std_ToggleClipPlane/pl.md): Tymczasowo ukrywa obiekty po jednej stronie wirtualnej płaszczyzny w aktywnym widoku 3D.
 
--   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Wycinek przekroju](Part_SectionCut/pl.md): Tworzenie trwałych wycinków obiektów i zespołów. **-- Dostępne, jeśli załadowano środowisko pracy [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md).** {{Version/pl|0.20}}
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Wycinek przekroju](Part_SectionCut/pl.md): Tworzenie trwałych wycinków obiektów i zespołów. 
+**-- Dostępne, jeśli załadowano środowisko pracy [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md).**
 
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Odwzorowanie tekstury](Std_TextureMapping/pl.md): Tymczasowo umieszcza teksturę na wszystkich obiektach.
 
@@ -114,37 +116,47 @@ W tym menu dostępne są następujące narzędzia:
     -   <img alt="" src=images/Std_ShowObjects.svg  style="width:32px;"> [Pokaż wszystkie obiekty](Std_ShowObjects/pl.md): Pokazuje wszystkie obiekty.
     -   <img alt="" src=images/Std_HideObjects.svg  style="width:32px;"> [Ukryj wszystkie obiekty](Std_HideObjects/pl.md): Ukrywa wszystkie obiekty.
     -   <img alt="" src=images/Std_ToggleSelectability.svg  style="width:32px;"> [Toggle selectability](Std_ToggleSelectability/pl.md): Przełącza możliwość wyboru obiektów.
-    -   <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:32px;"> [Przełącz widoczność pomiarów](View_Measure_Toggle_All/pl.md): Przełącza widoczność wymiarów części.
-    -   <img alt="" src=images/View_Measure_Clear_All.svg  style="width:32px;"> [Wyczyść pomiary](View_Measure_Clear_All/pl.md): Kasuje wymiary części.
 
 -   <img alt="" src=images/Std_ToggleNavigation.svg  style="width:32px;"> [Przełącz tryb nawigacji / edycji](Std_ToggleNavigation/pl.md): Przełącza pomiędzy trybem nawigacji a trybem edycji.
 
--   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Wygląd zewnętrzny \...](Std_SetAppearance/pl.md): Otwiera panel zadań wyświetlania właściwości obiektów.
+-   <img alt="" src=images/Std_SetMaterial.svg  style="width:32px;"> [Materiał \...](Std_SetMaterial/pl.md): Ustawia materiał wybranych obiektów. **-- Dostępne tylko jeśli [środowisko Materiał](Material_Workbench/pl.md) zostało załadowane bezpośrednio lub pośrednio (np. poprzez [środowisko pracy Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md)).** {{Version/pl|1.0}}
 
--   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Barwa losowa](Std_RandomColor/pl.md): Stosuje losowy kolor dla obiektów.
+-   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Wygląd zewnętrzny \...](Std_SetAppearance/pl.md): Ustawia właściwości wyglądu wybranych obiektów. 
+**-- Dostępne jeśli [środowisko Materiał](Material_Workbench/pl.md) zostało załadowane bezpośrednio lub pośrednio (np. poprzez [środowisko pracy Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench.md)).**
+
+-   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Barwa losowa](Std_RandomColor/pl.md): Stosuje losowy kolor rozproszony dla obiektów.
+
+-   <img alt="" src=images/Part_ColorPerFace.svg  style="width:32px;"> [Kolor dla ściany](Part_ColorPerFace/pl.md): Ustawia właściwości wyglądu dla wybranych ścian. 
+**-- Dostępne, jeśli aktywne jest środowisko pracy [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md).**
+
+-   <img alt="" src=images/Std_ToggleTransparency.svg  style="width:32px;"> [Włącz / wyłącz przezroczystość](Std_ToggleTransparency/pl.md): Przełącza przezroczystość wybranych obiektów. {{Version/pl|1.0}}
 
 -   [Środowisko pracy](Std_Workbench/pl.md): **-- Wybierz jedno ze środowisk pracy w menu.**
 
 -   Paski narzędzi **-- Każdy pasek narzędzi można włączyć lub wyłączyć w menu podrzędnym.**
-    -   Plik.
-    -   Środowisko pracy.
-    -   Makrodefinicje.
-    -   Widok.
-    -   Struktura.
-    -   \... Jeśli bieżące środowisko pracy ma paski narzędzi, pojawiają się one tutaj
-    -   [Zablokuj paski narzędzi](Std_ToggleToolBarLock/pl.md): Jeśli funkcja jest włączona, paski narzędzi nie są ruchome. {{Version/pl|0.22}}
+    -   Plik
+    -   Edycja <small>(v0.21)</small> 
+    -   Schowek <small>(v0.21)</small> 
+    -   Środowisko pracy
+    -   Makrodefinicje
+    -   Widok
+    -   Poszczególne widoki <small>(v1.0)</small> 
+    -   Struktura
+    -   Pomoc <small>(v0.21)</small> 
+    -   \... Jeśli bieżące środowisko pracy ma paski narzędzi, pojawiają się one tutaj.
+    -   [Zablokuj paski narzędzi](Std_ToggleToolBarLock/pl.md): Jeśli funkcja jest włączona, paski narzędzi nie są ruchome. {{Version/pl|1.0}}
 
 -   Panele **-- Każdy panel można włączyć lub wyłączyć w menu podrzędnym.**
-    -   [Widok drzewa](Tree_view/pl.md) **-- Dostępne, jeśli opcja [Tryb widoku drzewa](Preferences_Editor/pl#Ogólne_2.md) jest ustawiona na {{Value|Widok drzewa i widok właściwości**.}}
+    -   [Widok drzewa](Tree_view/pl.md) **-- Dostępne jako osobny panel jeśli opcja [Tryb widoku drzewa i widoku właściwości](Preferences_Editor/pl#Ogólne_2.md) jest ustawiona na {{Value|Niezależny**.}}
     -   [Widok właściwości](Property_editor/pl.md) **-- Analogicznie.**
+    -   [Model](Combo_view.md) **-- Łączy widok drzewa i widok właściwości w jednym panelu. Dostępne jeśli opcja [Tryb widoku drzewa i widoku właściwości](Preferences_Editor/pl#Ogólne_2.md) jest ustawiona na {{Value|Połączone**.}}
     -   [Wybór widoku](Selection_view/pl.md).
-    -   [Panel zadań](Task_panel/pl.md)
     -   [Konsola Python](Python_console/pl.md).
-    -   [Widok DAG](DAG_view/pl.md), **-- Niedostępne domyślnie, zobacz stronę [Widok DAG](DAG_view/pl.md).**
-    -   [Model](Combo_view.md) **-- Dostępne, jeśli opcja [Tryb widoku drzewa](Preferences_Editor/pl#Ogólne_2.md) ma wartość {{Value|Widok złożony**.}}
     -   [Widok raportu](Report_view/pl.md)
+    -   [Panel zadań](Task_panel/pl.md)
+    -   [Widok DAG](DAG_view/pl.md), **-- Niedostępne domyślnie, zobacz stronę [Widok DAG](DAG_view/pl.md).**
 
--   Nakładka okna Docka {{Version/pl|0.22}}.
+-   Nakładka okna Docka {{Version/pl|1.0}}.
     -   [Przełącz nakładkę dla wszystkich](Std_DockOverlayAll/pl.md): Przełącza tryb nakładki dla wszystkich zadokowanych okien.
     -   [Przełącz przezroczystość dla wszystkich](Std_DockOverlayTransparentAll/pl.md): Włącza tryb przezroczystości dla wszystkich zadokowanych okien nakładki. Dzięki temu zadokowane okna pozostaną przezroczyste przez cały czas.
     -   [Przełącz nakładkę](Std_DockOverlayToggle/pl.md): Przełącza tryb nakładki dla okna zadokowanego pod kursorem.
@@ -155,14 +167,12 @@ W tym menu dostępne są następujące narzędzia:
     -   [Przełącz u góry](Std_DockOverlayToggleTop/pl.md): Pokazuje / ukrywa górny panel nakładki.
     -   [Przełącz u dołu](Std_DockOverlayToggleBottom/pl.md): Pokazuje / ukrywa dolny panel nakładki.
 
--   <img alt="" src=images/Std_ToggleTransparency.svg  style="width:32px;"> [Włącz / wyłącz przezroczystość](Std_ToggleTransparency/pl.md):
-
 -   Nawigacja przy użyciu łączy
     -   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Przejdź do połączonego obiektu](Std_LinkSelectLinked/pl.md): Wybiera połączony obiekt i przełącza do jego dokumentu.
     -   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md): Wybiera najgłębiej połączony obiekt i przełącza do jego dokumentu.
     -   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;">. [Zaznacz wszystkie łącza](Std_LinkSelectAllLinks/pl.md): Wybiera wszystkie łącza do obiektu.
 
--   Działania w zakresie widoku drzewa.
+-   Działania w zakresie widoku drzewa
     -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Widok synchroniczny](Std_TreeSyncView/pl.md): Przełącza [TWidok drzewa](Tree_view/pl.md) w tryb Widok synchroniczny.
     -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Wybór synchroniczny](Std_TreeSyncSelection/pl.md).
     -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Umieszczenie synchroniczne](Std_TreeSyncPlacement/pl.md): Przełącza tryb Umieszczenie synchroniczne w widoku drzewa.
@@ -182,7 +192,7 @@ W tym menu dostępne są następujące narzędzia:
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

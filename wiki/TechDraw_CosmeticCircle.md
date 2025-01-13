@@ -3,7 +3,7 @@
    Name: TechDraw CosmeticCircle
    MenuLocation: TechDraw , Add Lines , Add Cosmetic Circle
    Workbenches: TechDraw_Workbench
-   Version: 0.22
+   Version: 1.0
    SeeAlso: TechDraw_2PointCosmeticLine
 ---
 
@@ -45,7 +45,7 @@ To change the attributes of a cosmetic circle:
 
 ## Notes
 
--   To delete a cosmetic circle use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md) or select it and press **Del**.
+-   To delete a cosmetic circle select it and press **Delete**.
 -   To change the appearance of a cosmetic circle use <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [TechDraw DecorateLine](TechDraw_DecorateLine.md).
 
 ## Properties
@@ -61,7 +61,7 @@ Cosmetic circles can be created using the {{Incode|makeCosmeticCircle(center, ra
 
 
 
- {{TechDraw Tools navi}}
+ {{TechDraw_Tools_navi}}
 
 
 

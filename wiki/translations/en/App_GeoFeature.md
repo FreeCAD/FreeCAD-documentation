@@ -20,7 +20,7 @@ Some of the most important derived objects are the following:
 -   The [Part Feature](Part_Feature.md) class, the parent of most objects with 2D and 3D [topological shapes](Part_TopoShape.md).
 -   The [Mesh Feature](Mesh_Feature.md) class, the parent of most objects made from [meshes](Mesh_MeshObject.md), not solids.
 -   The [Fem FemMeshObject](FEM_Mesh.md) class, the parent of finite element meshes created with the [FEM Workbench](FEM_Workbench.md).
--   The [Path Feature](Path_Feature.md) class, the parent of paths created with the [Path Workbench](Path_Workbench.md) for use in CNC machining.
+-   The [CAM Feature](CAM_Feature.md) class, the parent of paths created with the [CAM Workbench](CAM_Workbench.md) for use in CNC machining.
 -   The [App Part](App_Part.md) class, which defines [Std Parts](Std_Part.md) that can be used as containers of bodies to perform assemblies.
 
 When creating this object in [Python](Python.md), instead of sub-classing `App::GeoFeature`, you should sub-class `App::GeometryPython` because the latter includes a default view provider, and `Proxy` attributes for the object itself, and its view provider. See [Scripting](App_GeoFeature#Scripting.md).

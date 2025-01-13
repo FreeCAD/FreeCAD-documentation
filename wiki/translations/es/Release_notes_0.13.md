@@ -18,13 +18,19 @@ Versiones anteriores: [0.12](Release_notes_0.12/es.md) - [0.11](Release_notes_0.
 -   **Preferencias de Color**: ¿Aburrido del aspecto por defecto de FreeCAD con sus antiguas líneas negras sobre formas grises? Ahora se puede editar en las preferencias del usuario (Mostrar-\> Color), junto con otros colores por defecto.
 -   **Alineamiento**: Dos formas se pueden alinear entre si con hasta tres puntos con esta herramienta disponible en el menú Editar.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Módulo de Dibujo 
 
 -   **Operación de Clip**: Un nuevo objeto de [clip](Drawing_Clip/es.md) permite situar vistas de los objetos enlazados dentro de rectángulos en las hojas de dibujo.
--   **Bloques de títulos editables**: Cuando se diseñan [plantillas de dibujo](Drawing_templates/es.md), ahora es posible marcar textos como editables. Dichos textos se convierten directamente en editables en FreeCAD.
+-   **Bloques de títulos editables**: Cuando se diseñan plantillas de dibujo, ahora es posible marcar textos como editables. Dichos textos se convierten directamente en editables en FreeCAD.
 -   **Operación Anotaciones**: Un nuevo objeto [Anotación](Drawing_Annotation/es.md), una operación simple para situar rápidamente bloques de texto en una hoja de dibujo.
 -   **Vistas ortográficas**: Una nueva herramienta [Vistas ortográficas del dibujo](Drawing_Orthoviews/es.md) facilita la creación de múltiples vistas todas alineadas entre sí, de acuerdo con el sistema de proyección del primer cuadrante o del tercer cuadrante.
 -   Algunos errores corregidos ahora permiten imprimir páginas a escala.
+
+
+</div>
 
 ## Módulo de Croquizado 
 

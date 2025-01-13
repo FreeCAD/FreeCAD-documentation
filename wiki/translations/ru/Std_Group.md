@@ -11,6 +11,8 @@
 
 # Std Group/ru
 
+
+
 ## Описание
 
 [Std Group](Std_Group.md) (internally called [App DocumentObjectGroup](App_DocumentObjectGroup.md)) is a general purpose container that allows you to group different types of objects in the [Tree view](Tree_view.md), regardless of their data type. It is used as a simple folder to categorize and organize the objects in your model, in order to keep a logical structure. Std Groups may be nested inside other Std Groups.
@@ -25,6 +27,8 @@ To group 3D objects as a single unit, with the intention of creating assemblies,
 
 *Various elements inside Std Groups in the tree view.*
 
+
+
 ## Применение
 
 1.  Do one of the following:
@@ -35,11 +39,15 @@ To group 3D objects as a single unit, with the intention of creating assemblies,
 4.  To remove objects from the Group, drag them out of the Group, and onto the document label at the top of the [Tree view](Tree_view.md).
 5.  Objects can also be added and removed by editing the **Group** property of the Group.
 
+
+
 ## Свойства
 
 The [Std Group](Std_Group.md), internally called [App DocumentObjectGroup](App_DocumentObjectGroup.md) (`App::DocumentObjectGroup` class), is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class) and inherits all its properties.
 
 The Std Group has the same properties as the [App FeaturePython](App_FeaturePython#Properties.md), which is the most basic instance of an [App DocumentObject](App_DocumentObject.md). It also has the following additional properties in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
+
+
 
 ### Данные
 
@@ -49,6 +57,8 @@ The Std Group has the same properties as the [App FeaturePython](App_FeaturePyth
 -    **Group|LinkList**: a list of referenced objects. By default, it is empty {{value|[]}}.
 
 -    **_ Group Touched|Bool|Hidden**: whether the group is touched or not.
+
+
 
 ## Программирование
 
@@ -96,6 +106,8 @@ obj.Label = "Custom label"
 
 For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPython` object with a custom icon and additional properties.
 
+
+
 ## Ссылки
 
 -   [Use case in Arch Tutorial](Arch_tutorial#Organizing_your_model.md)
@@ -103,7 +115,13 @@ For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPy
 -   [Organizing your model](http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std_Base_navi

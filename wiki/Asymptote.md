@@ -7,7 +7,7 @@ Asymptote support was added in FreeCAD version 0.19.
 
 ## Exporting
 
-1.  Optionally assign colors to the faces of the object you want to export with the <img alt="" src=images/Part_FaceColors.svg  style="width:24px;"> [Part FaceColors](Part_FaceColors.md) command.
+1.  Optionally assign colors to the faces of the object you want to export with the <img alt="" src=images/Part_ColorPerFace.svg  style="width:24px;"> [Part ColorPerFace](Part_ColorPerFace.md) command.
 2.  Change to the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
 3.  Create a mesh from the object with the <img alt="" src=images/Mesh_FromPartShape.svg  style="width:24px;"> [Mesh FromPartShape](Mesh_FromPartShape.md) command.
 4.  Select the new mesh object.

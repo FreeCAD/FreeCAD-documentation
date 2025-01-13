@@ -70,12 +70,18 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 ## Prcorso del file LineGroup 
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Windows**: `C:\Program Files\FreeCAD\data\Mod\TechDraw\LineGroup\`
 -   **Mac**: `/Applications/FreeCAD.app/Contents/Mod/TechDraw/LineGroup/`
 -   **Linux**: `/usr/share/freecad/Mod/TechDraw/LineGroup/`
     -   ***freecad-daily PPA***: `/usr/share/freecad-daily/Mod/TechDraw/LineGroup/`
 
 Nota: È stata aggiunta una nuova preferenza per consentire all\'utente di utilizzare il proprio file Gruppo di linee personale.
+
+
+</div>
 
 
 ```python
@@ -125,7 +131,7 @@ Nota: È stata aggiunta una nuova preferenza per consentire all\'utente di utili
 </div>
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

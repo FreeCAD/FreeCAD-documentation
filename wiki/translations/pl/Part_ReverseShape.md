@@ -12,15 +12,15 @@
 
 ## Opis
 
-Odwraca normalne wszystkich ścian wybranego obiektu.
+Polecenie <img alt="" src=images/Part_ReverseShape.svg  style="width:24px;"> **Odwróć kształty** tworzy parametryczne kopie z odwróconymi kierunkami normalnymi z wybranych obiektów.
 
 
 
 ## Użycie
 
-1.  Wybierz kształt.
+1.  Wybierz jeden lub więcej obiektów.
 2.  Wybierz z menu opcję **Część → <img src="images/Part_ReverseShape.svg" width=16px> Odwróć kształty** z menu.
-3.  Odwrócony kształt zostanie utworzony jako nowy oddzielny obiekt.
+3.  Dla każdego wybranego obiektu zostanie utworzony odwrócony kształt.
 
 
 
@@ -33,9 +33,26 @@ Odwraca normalne wszystkich ścian wybranego obiektu.
 
 ## Właściwości
 
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt Część: Odwróć kształty wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
-## Tworzenie skryptów
+
+### Dane
+
+
+{{TitleProperty|Reverse}}
+
+-    **Source|Link**: określa powiązany kształt źródłowy.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

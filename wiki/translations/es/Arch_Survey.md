@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -34,7 +36,7 @@ Cuando se recopila una información de este tipo, suceden varias cosas:
 
 ## Usage
 
-1.  Press the **<img src="images/Arch_Survey.svg" width=16px> [Arch Survey](Arch_Survey.md)** button.
+1.  Select the **Utils → <img src="images/Arch_Survey.svg" width=16px> Survey** option from the menu.
 2.  Click on vertices, edges, faces or double-click to select whole objects.
 3.  Click outside any geometry (on the background of the 3D view) to remove existing labels, print a total line in the Task dialog, and restart counting lengths and areas from zero.
 4.  Press **Esc** or the **Close** button to exit survey mode and remove all the labels.
@@ -71,5 +73,13 @@ for obj in selection:
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/es
+⏵ [documentation index](../README.md) > Arch Survey/es

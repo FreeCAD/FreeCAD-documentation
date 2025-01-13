@@ -3,20 +3,58 @@
 
 În ultimele două capitole, am văzut cum să [create Part geometry](Manual_Creating_and_manipulating_geometry.md) și [create parametric objects](Manual_Creating_parametric_objects.md). O ultimă piesă lipsește pentru a obține un control deplin peste FreeCAD: Creați instrumente care vor interacționa cu utilizatorul.
 
+
+<div class="mw-translate-fuzzy">
+
 În multe situații, nu este foarte ușor să construim un obiect cu valori zero, așa cum am făcut-o cu dreptunghiul din capitolul precedent, și apoi să cerem utilizatorului să completeze valorile Înălțime și Lățime din panoul Proprietăți. Aceasta funcționează pentru un număr foarte mic de obiecte, dar va deveni foarte obositoare dacă aveți multe dreptunghiuri. O modalitate mai bună ar fi să puteți da deja înălțimea și lățimea la crearea dreptunghiului.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Python oferă un instrument de bază pentru ca utilizatorul să introducă text pe ecran:
+
+
+</div>
 
 text = raw_input("Height of the rectangle?")
 print("The entered height is ",text)
 
 Totuși, aceasta necesită o consolă Python care rulează, iar atunci când executăm codul dintr-o macrocomandă, nu suntem întotdeauna siguri că avem Consola Python va fi activată pe mașina utilizatorului.
 
+
+<div class="mw-translate-fuzzy">
+
 Interfața utilizatorului grafic [Graphical User Interface](https://en.wikipedia.org/wiki/Graphical_user_interface), sau GUI, adică întreaga parte a programului FreeCAD care este afișat pe ecran (meniul, barele de instrumente, vizualizarea 3D etc.), este acolo în acest scop: interacționați cu utilizatorul. Interfața FreeCAD este construită cu [Qt](https://en.wikipedia.org/wiki/Qt_(software)), o trusă de instrumente GUI foarte variate, care oferă o gamă largă de instrumente, cum ar fi casete, butoane, etichete, casete de introducere a textului sau meniuri derulante. Acestea sunt numite generic "widget-uri".
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Instrumentele Qt sunt foarte ușor de utilizat din Python, datorită unui modul Python numit Pyside [Pyside](https://en.wikipedia.org/wiki/PySide) (Există și alte module Python care comunică cu Qt de la Python). Acest modul vă permite să creați și să interacționați cu widget-uri, să citiți ce a făcut utilizatorul cu ele sau să faceți lucruri atunci când, de exemplu, a fost apăsat un buton.
 
+
+</div>
+
+One of the key advantages of Qt is its cross-platform compatibility, enabling FreeCAD to run seamlessly on different operating systems like Windows, macOS, and Linux. Additionally, Qt's flexibility makes it easy for developers to extend or customize FreeCAD's interface, either by creating new toolbars and menus or by building entirely new modules that integrate into the software. This adaptability ensures that FreeCAD remains both user-friendly and highly extensible.
+
+For users interested in scripting or developing new tools, FreeCAD\'s Python API also provides access to many Qt features. This means you can not only automate tasks but also create custom widgets or dialogs that integrate directly into the FreeCAD environment.
+
+The Qt tools are very easy to use from Python, thanks to a Python module called [PySide](https://en.wikipedia.org/wiki/PySide). PySide is the official Python binding for the Qt library, providing a seamless way to create and interact with widgets programmatically. It allows developers to design interfaces, manage user inputs (such as reading text from input boxes), and define actions based on user interactions, such as responding to a button press. Using PySide, you can build custom dialog boxes, menus, and toolbars directly within FreeCAD, extending its functionality in a way that integrates smoothly with its existing interface.
+
+PySide makes it easy to connect user actions to specific functions in your code. For example, you can set up a button so that when it's pressed, it triggers a script to execute a command or modify an object in the 3D view. This interactive capability opens up endless possibilities for customizing workflows and automating repetitive tasks.
+
+
+<div class="mw-translate-fuzzy">
+
 Qt furnizează de asemenea un alt instrument numit [Qt Designer](http://doc.qt.io/qt-4.8/designer-manual.html), care astăzi este încorporată într-o aplicație mai mare numită Qt Creator [Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator).Permite crearea grafică a casetelor de dialog și a panourilor de interfață, în loc să le codeze manual. In acest capitol,vom folosi Qt Creator pentru a proiecta un widget pe care îl vom folosi în panoul de Sarcini **Task** al FreeCAD. Prin urmare, va trebui să descărcați și să instalați Qt Creator de pe [official page](https://www.qt.io/ide/) dacă sunteți pe Windows sau Mac (sub Linux, va fi de obicei disponibilă din aplicația dvs. de manager de software).
+
+
+</div>
 
 În exercițiul următor, vom crea mai întâi un panou cu Qt Creator care solicită valorile de lungime, lățime și înălțime, apoi vom crea în jurul lui o clasă Python care va citi valorile introduse de utilizator din panou și va crea o casetă cu dimensiunile date. Acest Python va fi folosit de FreeCAD pentru afișarea și controlul panoului de sarcini:
 
@@ -54,7 +92,13 @@ Să începem prin crearea unui widget. Start Qt Creator, apoi meniul **File -\> 
 
 ![](images/Exercise_python_09.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Acum widget-ul nostru s-a terminat, trebuie doar să ne asigurăm de ultimul lucru. Din moment ce FreeCAD va trebui să acceseze acel widget și să citească valorile Lungime, Lățime și Înălțime, trebuie să le dăm nume potrivite widget-urilor, astfel încât să le putem recupera cu ușurință din interiorul FreeCAD. Faceți clic pe fiecare dintre Double Spin Boxes și în fereastra din partea dreaptă sus, faceți dublu clic pe Objedt Name și schimbați-le la ceva ușor de memorat, de exemplu: BoxLength, BoxWidth și BoxHeight:
+
+
+</div>
 
 ![](images/Exercise_python_10.jpg )
 
@@ -96,7 +140,13 @@ panel = BoxTaskPanel()
 FreeCADGui.Control.showDialog(panel)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 În codul de mai sus, am folosit o funcție convenabilă (PySideUic.loadUi) din modulul FreeCADGui. Această funcție încarcă un fișier .ui, creează un widget Qt din acesta și scrie numele, astfel încât să putem accesa cu ușurință subspațiul după nume (ex: self.form.BoxLength).
+
+
+</div>
 
 Funcția \"accept\" este, de asemenea, o facilitate oferită de Qt. Atunci când există un buton \"OK\" într-o casetă de dialog (care este cazul în mod implicit când se utilizează panoul Task FreeCAD) \"accept\" va fi executat automat când apăsați butonul \"OK\". În mod similar, puteți adăuga o funcție de \"respingere\" care se execută atunci când apăsați butonul \"Cancel\". În cazul nostru, am eliminat această funcție, așa că apăsând \"Cancel\" va cauza comportamentul implicit (nu faceți nimic și închideți caseta de dialog).
 
@@ -115,7 +165,13 @@ panel = BoxTaskPanel()
  FreeCADGui.Control.showDialog(panel)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Rețineți că widget-ul creat de PySideUic.loadUi nu este specific pentru FreeCAD, este un widget standard Qt care poate fi utilizat cu alte instrumente Qt. De exemplu, am fi arătat o casetă de dialog separată cu ea. Încercați acest lucru în Consola Python a FreeCAD (folosind calea corectă spre fișierul .ui, desigur):
+
+
+</div>
 
 
 ```python
@@ -124,7 +180,13 @@ from PySide import QtGui
  w.show()
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Bineînțeles noi nu am adăugat butonul \"OK\" sau \"Cancel\" în caseta nostră de dialog, deoarece a fost făcut pentru a fi utilizat de panoul sarcini(Task) FreeCAD, care oferă deja astfel de butoane. Deci, nu există nicio modalitate de a închide dialogul(altul decât apăsarea butonului de închidere a ferestrei). Dar funcția show () creează o casetă de dialog nemodal, ceea ce înseamnă că aceasta nu blochează restul interfeței. Deci, în timp ce dialogul este încă deschis, putem citi valorile câmpurilor:
+
+
+</div>
 
 
 ```python

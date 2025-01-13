@@ -94,7 +94,7 @@ The **Std SendToPythonConsole** command creates variables in the [Python console
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

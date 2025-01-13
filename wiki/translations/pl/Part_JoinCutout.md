@@ -22,15 +22,11 @@ Narzędzie <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> **Wy
 
 ## Użycie
 
-1.  Najpierw wybierz obiekt bazowy, a następnie obiekt do zdefiniowania wycięcia.
-
-Kolejność wyboru jest ważna. Wystarczy wybrać jeden kształt podrzędny każdego obiektu *(np. ściany)*.
-
-1.  Polecenie Wycięcie dla obiektu można wywołać na kilka sposobów:
-    -   Naciśnij przycisk <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> **Wycięcie dla obiektu** na pasku narzędzi.
-    -   Użyj polecenia **Część → Połącz → Wycięcie dla obiektu** w menu głównym.
-
-Tworzony jest obiekt środowiska Część Wycięcie dla obiektu z ustawionym trybem \"Wycięcie\". Oryginalne obiekty są ukryte, a wynik osadzenia jest wyświetlany w oknie widoku 3D.
+1.  Najpierw wybierz obiekt bazowy, a następnie obiekt do zdefiniowania wycięcia. Kolejność wyboru jest ważna. Wystarczy wybrać jeden kształt podrzędny każdego obiektu *(np. ściany)*.
+2.  Istnieje kilka sposobów na wywołanie tego polecenia:
+    -   Naciśnij przycisk **<img src="images/Part_JoinCutout.svg" width=16px> [Wycięcie dla obiektu](Part_JoinCutout/pl.md)**.
+    -   Wybierz opcję **Część → Połącz → Wycięcie dla obiektu** z menu.
+3.  Utworzony zostanie obiekt JoinFeature z trybem ustawionym na \'Wycięcie\'. Oryginalne obiekty zostaną ukryte a wynik cięcia będzie pokazany w [widoku 3D](3D_view/pl.md).
 
 
 
@@ -104,6 +100,14 @@ j.Tool = FreeCADGui.Selection.getSelection()[1]
 }}
 
 Samo narzędzie jest zaimplementowane w środowisku Python, patrz **/Mod/Part/JoinFeatures.py** ([Link do Github](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) w miejscu, w którym zainstalowany jest FreeCAD.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

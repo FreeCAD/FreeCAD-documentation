@@ -3,11 +3,10 @@
 |Name=Macro CloneConvert
 |Translate=Macro CloneConvert
 |Icon=Macro_CloneConvert.png
-|Description={{ColoredText|#ff0000|#ffffff|Letzte Aktualisierung: GUI modifiziert für die HiDPI-Unterstützung (QGridLayout). Läuft ab FC 0.18 (PySide2 Qt5)}}<br/><br/> 
-Für vorherige Versionen siehe [https://gist.githubusercontent.com/mario52a/9f2f2f6144e1307a048f1840ef99300c/raw/0a141260ad8d5f67f0fc18b9b40ef37757c06c65/Macro_CloneConvert.FCMacro Macro_CloneConvert] und installiere sie manuell.<br/><br/>Erstellt eine(n) Klon/Kopie/Verbund des/der Objekt(e) und konvertiert in die gewünschte Position und Größe (inch, mm, m, µm...) oder frei. Das Basisobjekt wird in mm erkannt (FreeCAD-Basis).
+|Description=Erstellt einen Klon, eine Kopie oder einen Verbund des bzw. der Objekte und konvertiert in die gewünschte Position und Größe (inch, mm, m, µm...) oder frei. Das Basisobjekt wird in mm erkannt (FreeCAD-Basis).
 |Author=mario52
-|Version=0.15
-|Date=2020-06-06
+|Version=00.16
+|Date=2025-01-06
 |FCVersion=ab 0.18
 |Download=[https://www.freecadweb.org/wiki/images/0/0a/Macro_CloneConvert.png ToolBar Icon]
 }}
@@ -17,7 +16,7 @@ Für vorherige Versionen siehe [https://gist.githubusercontent.com/mario52a/9f2f
 Erzeugt einen Klon oder eine Kopie des Objekts und konvertiert es an der gewählten Position und Größe (Zoll, mm, m, µm \...) oder frei. Das Basisobjekt wird in mm (FreeCAD-Basis) erkannt.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/9f2f2f6144e1307a048f1840ef99300c/raw/39bc54e90b80053a5af76b0b17694cb53697aebd/Macro_CloneConvert.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/9f2f2f6144e1307a048f1840ef99300c/raw/fb76b3c728c1c7cd085e87f5d6d223d9f79bb574/Macro_CloneConvert.FCMacro}}
 
 ## Verwendung
 
@@ -107,6 +106,8 @@ Das Symbol ![](images/Macro_CloneConvert.png )
 Laden Sie das Makro in herunter Gist [Macro_CloneConvert.FCMacro](https://gist.github.com/mario52a/9f2f2f6144e1307a048f1840ef99300c)
 
 ## Revision
+
+06/01/2025 ver 00.16 remplace PySide2 to PySide augmente mini et maxi efface toutes les reference a PySide, PySide2 et QtWidgets et correction clone, compound
 
 06/06/2020 ver 0.15 = icon
 

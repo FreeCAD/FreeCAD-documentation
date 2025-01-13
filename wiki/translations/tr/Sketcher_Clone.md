@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Açıklama
 
 
@@ -25,6 +27,8 @@ Seçilen eskiz öğelerini referans olarak son seçilen noktayı kullanarak bir 
 </div>
 
 Bir klonun, klonunun bir Eskiz Kopyası haline geldiğine dikkat edin. Bağlantılı kısıtlamalar oluşturmak istiyorsanız, orijinal kaynak öğelerini tekrar klonlayın.
+
+
 
 
 <div class="mw-translate-fuzzy">

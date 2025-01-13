@@ -54,16 +54,18 @@ Polecenie **Rejestrator makrodefinicji** uruchamia sesję nagrywania [makrodefin
 
 ## Ustawienia
 
--   Ścieżkę do makrodefinicji można również zmienić w preferencjach: **Edycja → Preferencje ... → Python → Makropolecenia → Ścieżka do plików makrodefinicji**. Patrz [Edytor ustawień](Preferences_Editor/pl#Makropolecenia.md)
+Zobacz też: [Edytor preferencji](Preferences_Editor/pl.md).
+
+-   Ścieżkę do makrodefinicji można również zmienić w preferencjach: **Edycja → Preferencje ... → Python → Makropolecenia → Ścieżka do plików makrodefinicji**.
 -   W większości przypadków niepożądane jest rejestrowanie akcji, które nie zmieniają modelu: pod **Edycja → Preferencje ... → Python → Makropolecenia → Polecenia GUI** wykonaj jedną z następujących czynności:
-    -   Aby wykluczyć te działania odznacz pole wyboru {{CheckBox|FALSE|Nagrywanie poleceń GUI}}.
-    -   Aby uwzględnić je tylko jako komentarze zaznacz oba pola wyboru {{CheckBox|TRUE|Nagrywanie poleceń GUI}} i {{CheckBox|TRUE|Zarejestruj jako komentarz}}.
+    -   Aby wykluczyć te działania odznacz pole wyboru **Nagrywanie poleceń GUI**.
+    -   Aby uwzględnić je tylko jako komentarze zaznacz oba pola wyboru **Nagrywanie poleceń GUI** i **Zarejestruj jako komentarz**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

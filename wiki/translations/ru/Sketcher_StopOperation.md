@@ -13,15 +13,21 @@
 ## Описание
 
 
+<div class="mw-translate-fuzzy">
+
+
 **[<img src=images/Sketcher_StopOperation.svg style="width:16px"> [Остановить операцию](Sketcher_StopOperation/ru.md)**
 
 останавливает текущую активную команду во время редактирования эскиза; такие как операция рисования, операция ограничения, операция B-сплайна и т.д.
 
-Это равнозначно нажатию клавиши **Esc**.
+
+</div>
 
 
 
 ## Применение
+
+See also: [Continue modes](Sketcher_Workbench#Continue_modes.md).
 
 
 <div class="mw-translate-fuzzy">

@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Move
    Name/de: Draft Verschieben
-   MenuLocation: Änderung , Verschieben
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Änderung , Verschieben<br>Bearbeiten , Verschieben
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **M****V**
    Version: 0.7
    SeeAlso: Draft_SubelementHighlight/de
@@ -17,7 +17,7 @@
 
 Der Befehl <img alt="" src=images/Draft_Move.svg  style="width:24px;"> **Draft-Verschieben** verschiebt oder kopiert die ausgewählten Objekt von einem Punkt zu einem anderen. Im Unterelemente-Modus verschiebt die Anweisung ausgewählte Punkte und Kanten oder kopiert ausgewählte Kanten von [Draft Linien](Draft_Line/de.md) und [Draft Polylinien](Draft_Wire/de.md).
 
-Die Anweisung kann auf 2D-Formen, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, angewendet werden, aber auch auf viele 3D-Objekte, wie jenen, die mit den Arbeitsbereichen [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erzeugt wurden.
+Die Anweisung kann auf 2D-Formen, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, angewendet werden, aber auch auf viele 3D-Objekte, wie jenen, die mit den Arbeitsbereichen [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [BIM](BIM_Workbench/de.md) erzeugt wurden.
 
 <img alt="" src=images/Draft_Move_example.jpg  style="width:400px;"> 
 *Verschieben eines Objekts von einem Punkt zu einem anderen Punkt*
@@ -31,7 +31,8 @@ Siehe auch: [Draft Einrasten](Draft_Snap/de.md) und [Draft Beschränken](Draft_C
 1.  Wahlweise ein oder mehrere Objekte auswählen, oder ein oder mehrere Unterelemente einer [Draft Linie](Draft_Line/de.md) oder eines [Draft Drahtes](Draft_Wire/de.md).
 2.  Es gibt mehrere Moglichkeiten den Befehl auszuführen:
     -   Die Schaltfläche **<img src="images/Draft_Move.svg" width=16px> [Verschieben](Draft_Move/de.md)** drücken.
-    -   Den Menüeintrag **Änderung → <img src="images/Draft_Move.svg" width=16px> Verschieben** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Änderung → <img src="images/Draft_Move.svg" width=16px> Verschieben** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Bearbeiten → <img src="images/Draft_Move.svg" width=16px> Verschieben** auswählen.
     -   Die Tastenkombination: **M** dann **V**.
 3.  Wenn noch kein Objekt ausgewählt wurde: ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
 4.  Der Aufgabenbereich **Verschieben** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
@@ -43,7 +44,7 @@ Siehe auch: [Draft Einrasten](Draft_Snap/de.md) und [Draft Beschränken](Draft_C
 
 ## Optionen
 
-Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 1.0).
 
 -   Um Koordinaten manuell einzugeben, werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben oder die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** gedrückt, sobald die gewünschten Werte eingegeben sind. Man sollte aber vorher den Mauszeiger aus der [3D-Ansicht](3D_view.md) herausziehen.
 
@@ -55,7 +56,7 @@ Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geänd
 
 -    **R**drücken oder die Check-Box **Relativ** anklicken, um den Relativ-Modus umzuschalten. Ist der Relativ-Modus aktiviert, beziehen sich die Koordinaten des zweiten Punktes auf den ersten. Andernfalls beziehen sie sich auf den Ursprung des Koordinatensystems.
 
--    **G**drücken oder die Check-Box **Global** anklicken, um den Global-Modus umzuschalten. ist der Global-Modus aktiviert, beziehen sich die Koordinaten auf das globale Koordinatensystem. Andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+-    **G**drücken oder die Check-Box **Global** anklicken, um den Global-Modus umzuschalten. ist der Global-Modus aktiviert, beziehen sich die Koordinaten auf das globale Koordinatensystem. Andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md).
 
 -    **N**drücken oder die Check-Box **Fortsetzen** anklicken, um den Fortsetzen-Modus umzuschalten. Ist der Fortsetzen-Modus aktiviert, wird der Befehl nach dem Beenden erneut gestartet. Dieser Modus ist nur sinnvoll, wenn der Kopieren-Modus aktiviert. Abhängig von der Eigenschaft **Wähle ursprüngliche Objekte nach dem Kopieren aus** wird entweder das Ursprungsobjekt oder die zuletzt erstellte Kopie für die nächste Ausführung des Befehls ausgewählt. Siehe [Einstellungen](#Einstellungen.md).
 
@@ -90,7 +91,7 @@ Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstel
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Zum Verschieben von Objekten wird die Methode `move` des Draft-Moduls verwendet.
 

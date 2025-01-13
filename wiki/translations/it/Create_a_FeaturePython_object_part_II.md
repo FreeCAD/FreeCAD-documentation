@@ -157,13 +157,13 @@ class ViewProviderBox:
             "   #######      "};
             """
 
-    def __getstate__(self):
+    def dumps(self):
         """
         Called during document saving.
         """
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         """
         Called during document restore.
         """
@@ -364,13 +364,13 @@ class ViewProviderBox:
             "   #######      "};
             """
 
-    def __getstate__(self):
+    def dumps(self):
         """
         Called during document saving.
         """
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         """
         Called during document restore.
         """

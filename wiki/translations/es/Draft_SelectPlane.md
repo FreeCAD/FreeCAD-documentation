@@ -32,11 +32,11 @@ El <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente de
 </div>
 
 
-<small>(v0.22)</small> 
+<small>(v1.0)</small> 
 
 : For each 3D view a separate working plane is stored.
 
-The ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tray.md) changes depending on the current working plane. <small>(v0.22)</small> : If the working plane is not set to **Auto** an asterisk (*****) is appended to the button label if the origin of the working plane does not match the global origin.
+The ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tray.md) changes depending on the current working plane. <small>(v1.0)</small> : If the working plane is not set to **Auto** an asterisk (*****) is appended to the button label if the origin of the working plane does not match the global origin.
 
 <img alt="" src=images/WorkingPlane_example.png  style="width:400px;">
 
@@ -63,10 +63,7 @@ The ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tr
 
 ## Usage with post-selection 
 
-1.  There are several ways to invoke the command:
-    -   Press the ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tray.md).
-    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select plane** option from the menu.
-    -   Use the keyboard shortcut: **W** then **P**.
+1.  Invoke the command as explained above.
 2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
 3.  Do one of the following:
     -   Select a single object. See the [previous paragraph](#Usage_with_pre-selection.md).
@@ -139,7 +136,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 </div>
 
 
-<small>(v0.22)</small> 
+<small>(v1.0)</small> 
 
 The WorkingPlane module offers two classes to create working plane objects: the `PlaneBase` class and the `PlaneGui` class. The second class inherits from the first. Objects of the `PlaneGui` class interact with the GUI (the [Draft Tray](Draft_Tray.md) button), the [3D view](3D_view.md) and the [grid](Draft_Snap_Grid.md). `PlaneBase` objects do not.
 

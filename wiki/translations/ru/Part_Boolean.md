@@ -9,6 +9,8 @@
 
 # Part Boolean/ru
 
+
+
 ## Описание
 
 
@@ -33,6 +35,8 @@
 
 *Dialog to select objects and perform boolean operations with them.*
 
+
+
 ## Применение
 
 See the individual commands:
@@ -52,14 +56,6 @@ See the individual commands:
 -    **<img src="images/Part_Section.svg" width=16px> [Part Section](Part_Section.md)
 **
     
-
-
-<div class="mw-translate-fuzzy">
-
-Смотрите далее Деталь → [Уточнить форму](Part_RefineShape/ru.md)
-
-
-</div>
 
 ## Coplanar problems 
 
@@ -82,6 +78,14 @@ In cases of coplanarity, even if the first boolean operation succeeds, subsequen
 
 
 *Left: shapes that share a face, a boolean union may produce incorrect results. Right: shapes that intersect each other clearly, the boolean union will be successful in most cases.*
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

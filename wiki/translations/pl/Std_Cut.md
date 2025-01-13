@@ -23,20 +23,20 @@ Aby wyciąć obiekty innych typów, można użyć polecenia [Kopiuj](Std_Copy/pl
 
 1.  Zaznacz jedną lub więcej komórek w arkuszu kalkulacyjnym.
 2.  Istnieje kilka sposobów wywołania polecenia:
-    -   Naciśnij przycisk **<img src="images/Std_Cut.svg" width=16px> '''Wytnij'''**.
+    -   Wciśnij przycisk **<img src="images/Std_Cut.svg" width=16px> [Wytnij](Std_Cut/pl.md)**.
     -   Wybierz z menu opcję z menu **Edycja → <img src="images/Std_Cut.svg" width=16px> Wytnij**.
 
 
 
 ## Uwagi
 
--   Standardowy skrót klawiaturowy **Ctrl** + **X** nie wywołuje polecenia **Std Wytnij**, lecz używa funkcji Wytnij systemu operacyjnego. Tego skrótu można używać w większości okien tekstowych i pól wprowadzania danych programu FreeCAD, działa on także w komórkach arkusza kalkulacyjnego.
+-   Standardowy skrót klawiszowy **Ctrl** + **X** nie wywołuje polecenia **Std Wytnij**, lecz używa funkcji Wytnij systemu operacyjnego. Tego skrótu można używać w większości okien tekstowych i pól wprowadzania danych programu FreeCAD, działa on także w komórkach arkusza kalkulacyjnego.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

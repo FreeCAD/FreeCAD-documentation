@@ -40,12 +40,13 @@ Teraz wystarczy kliknąć na ikone aplikacji, aby uruchomić FreeCAD. Jeśli uka
 
 Obecnie nie ma dezinstalatora dla FreeCAD zainstalowanego z pakietem dmg. Aby całkowicie usunąć FreeCAD i wszystkie zainstalowane komponenty, przeciągnij następujące pliki i foldery do kosza:
 
--   W katalogu aplikacji:
+-   W katalogu Applications:
     -   /Applications/FreeCAD.app
 -   W katalogu domowym biblioteki użytkownika
     -   \$HOME/Library/Application Support/FreeCAD
     -   \$HOME/Library/Preferences/FreeCAD
     -   \$HOME/Library/Preferences/com.freecad.FreeCAD.plist
+    -   \$HOME/Library/Preferences/freecad.plist
     -   \$HOME/Library/Caches/FreeCAD
 
 Jeśli zainstalowałeś FreeCAD z homebrajskim, po prostu użyj polecenia `brew uninstall freecad`, aby odinstalować /Applications/FreeCAD.app. Powiązane pliki i katalogi w bibliotece domowej użytkownika będą musiały zostać usunięte samodzielnie.

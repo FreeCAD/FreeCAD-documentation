@@ -215,7 +215,7 @@ Danach starten Sie FreeCAD neu. Bei einigen Distributionen ist dies nach jedem B
 
 
 
-### Bekannte Probleme 
+#### Bekannte Probleme 
 
 Ein Benutzer berichtete im [Forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) und sah folgendes:
 
@@ -236,33 +236,39 @@ sudo spnavd_ctl x11 start
 sudo systemctl restart spacenavd 
 ```
 
-### macOS
+
+
+### MacOS
 
 3Dconnexion Eingabegeräte werden unter macOS unterstützt, vorausgesetzt, dass FreeCAD auf einem System mit installierten 3Dconnexion-Treibern erstellt und verwendet wird. Für macOS 12 sollte man 3DxWare 10.7.2 oder neuer verwenden.
 
 ### Windows
 
-Ab der Version 0.13 wird die 3D Maus unter Windows unterstützt. Sie müssen die 3Dconnexion Treiber installiert haben.
+Ab der Version 0.13 wird die 3D-Maus unter Windows unterstützt. Sie müssen die 3Dconnexion Treiber installiert haben. In FreeCAD Version 1.0 wurde eine [new integration with 3Dconnexion devices](https://github.com/FreeCAD/FreeCAD/pull/12929) eingeführt. Wenn Sie mit dieser Integration kompilieren, wird nur neuere Hardware unterstützt: Um ältere Geräte zu unterstützen, müssen Sie selbst kompilieren und die cMake-Variable FREECAD_3DCONNEXION_SUPPORT auf \"Raw Input\" setzen. Windows-Benutzer sollten sich darüber im Klaren sein, dass der Treiber von 3Dconnexion (*nicht* der Code in FreeCAD) ein Telemetriepaket enthält, das Informationen über die installierte Software an 3Dconnexion übermittelt.
 
 
 
 #### Bekannte Probleme 
 
-Es gibt ein Problem, bei dem 3Dconnexion doppelte Scroll-Ereignisse an FreeCAD sendet, wodurch die Ansicht springt. Um es zu reparieren:
-
-1.  Öffne die 3Dconnexion Eigenschaften. Du kannst auf das Symbol in der Aufgabenleiste neben der Windows Uhr doppelklicken.
-2.  Klicke auf die Schaltfläche Erweiterte Einstellungen.
-3.  Öffne FreeCAD oder wechsle zu einem bereits geöffneten FreeCAD Fenster.
-4.  Wechsle zurück zu den erweiterten 3Dconnexion Einstellungen. Bestätige , dass in der Überschrift \"FreeCAD\" steht.
-5.  Deaktiviere alle Kontrollkästchen auf der Seite.
-
-ref: <https://freecadweb.org/tracker/view.php?id=1893>
+-   In FreeCAD Version 1.0 und neuer führt das Ändern der Einstellungen im 3DX-Konfigurationsfenster eventuell nicht zu den erwarteten Ergebnissen ([issue](https://github.com/FreeCAD/FreeCAD/issues/14044)). Um dies zu beheben:
+    1.  Den Treiber anhalten (durch Ausführen von Stop 3DxWare).
+    2.  Zu **..<user>\AppData\Roaming\3Dconnexion\3DxWare\Cfg** wechseln und die Datei **FreeCAD.xml** löschen.
+    3.  Den Treiber starten (durch Ausführen von Start 3DxWare).
+    4.  FreeCAD starten und prüfen, ob die Einstellungen der [Spaceball Bewegung](#Spaceball_Motion/.md) eingestellt werden können.
 
 
 
 ## FreeCAD einrichten 
 
-Die 3D Mausunterstützung wurde mit dem spnav Projekt unter Linux und auf einem sehr niedrigen Niveau unter Windows realisiert. Das bedeutet, dass es keine Unterstützung für irgendwelche Einstellungen für ein Gerät gab, da es unter Linux keine gute Unterstützung dafür gibt und unter Windows wird sie überschrieben. Aus diesem Grund wurden dem Dialog \"Anpassen\" zwei zusätzliche Seiten hinzugefügt.
+
+{{VersionPlus/de|1.0}}
+
+: Das 3Dconnexion-Eigabegerät kann in seiner Treiber-App eingestellt werden (3DxWare-Software).
+
+
+{{VersionMinus/de|0.21}}
+
+: Wird eine 3D-Maus erkannt, können folgende Reiter im [Dialog zum Anpassen der Oberfläche](Interface_Customization/de.md) zum Ändern der Einstellungen eingesetzt werden:
 
 <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
 
@@ -298,17 +304,17 @@ Um einen bestimmten Befehl mit einer Schaltfläche zu verbinden, wähle die Scha
 
 ### Fehlersuche
 
-Check if your FreeCAD installation links to the spacenav library. The best way to check this is by running FreeCAD from the command line terminal `FreeCAD --log-file /tmp/freecad.log` and close it immediately again. Then open the file **/tmp/freecad.log** and search for the messages:
+Prüfen Sie ob Ihre FreeCAD-Installation auf die spacenav-Bibliothek verweist. Der beste Weg dies herauszufinden ist FreeCAD von der Kommandozeile aus zu starten `FreeCAD --log-file /tmp/freecad.log` und gleich wieder zu schliessen. Danach die Datei **/tmp/freecad.log** öffnen und nach der Nachricht zu suchen:
 
 
 `Connected to spacenav daemon`
 
-or
+oder
 
 
 `Couldn't connect to spacenav daemon. Please ignore if you don't have a spacemouse.`
 
-If none of them appears then your FreeCAD build doesn\'t link to the spacenav library. If the former message appears then it basically works. The latter message means there is probably a problem with the spacenav daemon.
+Sollte keines von Beiden erscheinen dann verweist Ihr FreeCAD nicht auf die spacenav-Bibliothek. Erscheint die erste Meldung funktioniert es grundsätzlich. Die zweite Meldung bedeutet dass wahrscheinlich ein Problem mit dem spacenav-Daemon vorliegt.
 
 
 

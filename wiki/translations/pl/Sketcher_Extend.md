@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher Extend
    Name/pl: Szkicownik: Przedłuż krawędź
-   MenuLocation: Szkic , Elementy geometryczne szkicownika , Przedłuż krawędź
+   MenuLocation: Szkic , Narzędzia szkicownika , Przedłuż krawędź
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **Q**
    Version: 0.17
@@ -15,7 +15,7 @@
 
 ## Opis
 
-Narzędzie **Przedłuż krawędź** przedłuża krawędź do dowolnego miejsca w szkicu lub do docelowej krawędzi lub obiektu punktu.
+Narzędzie <img alt="" src=images/Sketcher_Extend.svg  style="width:24px;"> **Przedłuż krawędź** wydłuża lub skraca linię lub łuk do dowolnego miejsca lub do docelowej krawędzi lub punktu.
 
 <img alt="" src=images/Sketcher_Extend_example_01.png  style="width:600px;"> 
 *Rysunek z lewej '''(1)''', dwa elementy szkicu przed operacją,<br>w środku '''(2)''', linia jest przedłużana do łuku,<br>z prawej '''(3)''', efekt końcowy.*
@@ -24,18 +24,29 @@ Narzędzie **Przedłuż krawędź** przedłuża krawędź do dowolnego miejsca w
 
 ## Użycie
 
-1.  Naciśnij przycisk **[<img src=images/Sketcher_Extend.svg style="width:16px"> [Rozszerz krawędź](Sketcher_Extend/pl.md)**.
-2.  Wybierz linię lub łuk.
-3.  W oknie widoku 3D przesuń kursor myszki w kierunku, w którym chcesz rozszerzyć.
-4.  Kliknij w dowolnym miejscu w przestrzeni, lub
-5.  Aby przedłużyć do innej krawędzi, umieść kursor myszki nad docelową krawędzią. Gdy zostanie ona podświetlona, a ikona wiązania **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)** pojawi się obok kursora myszki, kliknij, aby potwierdzić. Zostanie dodany punkt na obiekcie.
-6.  Aby rozciągnąć do punktu w szkicu, umieść kursor myszki nad punktem docelowym. Gdy zostanie on podświetlony i pojawi się ikona **[16px](Plik:Sketcher_ConstrainCoincident.svg.md) [Wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md)** obok kursora myszki, kliknij, aby potwierdzić. Zostanie dodane wiązanie zbieżności.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
+
+1.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_Extend.svg" width=16px> '''Przedłuż krawędź'''**.
+    -   Wybierz z menu opcję **Szkic → Narzędzia szkicownika → <img src="images/Sketcher_Extend.svg" width=16px> Przedłuż krawędź**.
+    -   Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i z menu kontekstowego wybierz opcję **<img src="images/Sketcher_Extend.svg" width=16px> Przedłuż krawędź**.
+    -   Użyj skrótu klawiaturowego: **G**, a następnie **Q**.
+2.  Jeśli istnieje poprzednie zaznaczenie, zostanie ono usunięte. Narzędzie nie akceptuje wstępnego zaznaczenia.
+3.  Kursor zmienia się w krzyżyk z ikoną narzędzia.
+4.  Wybierz linię lub łuk.
+5.  Przesuń kursor w kierunku, w którym chcesz wydłużyć lub skrócić.
+6.  Wykonaj jedną z następujących czynności:
+    -   Kliknij dowolny punkt.
+    -   Aby wydłużyć / skrócić do innej krawędzi opcja *([wiązania automatyczne](Sketcher_Workbench/pl#Wiązania_automatyczne.md) musi być włączona)*: Umieść kursor nad krawędzią docelową. Gdy jest ona podświetlona, a ikona wiązania <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:16px;"> [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md) pojawi się obok kursora, kliknij aby potwierdzić. Wiązanie zostanie dodane.
+    -   Aby wydłużyć / skrócić do punktu *(automatyczne wiązania muszą być włączone)*: Umieść kursor nad punktem docelowym. Gdy jest on podświetlony i obok kursora pojawi się ikona <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:16px;"> [wiązania zbieżności](Sketcher_ConstrainCoincident/pl.md), kliknij, aby potwierdzić. Wiązanie zostanie dodane.
+7.  Jeśli narzędzie działa w [trybie kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md):
+    1.  Opcjonalnie kontynuuj wydłużanie / skracanie krawędzi.
+    2.  Aby zakończyć, kliknij w pustym obszarze w [widoku 3D](3D_view/pl.md), kliknij prawym przyciskiem myszy lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
 
 
 
 ## Uwagi
 
--   W tej chwili można przedłużać tylko łuki i linie.
 -   Docelowy obiekt krawędzi lub punktu może być również modyfikowany, jeśli nie jest w pełni związany.
 
 

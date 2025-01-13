@@ -1,7 +1,13 @@
 # Manual:The Community/ro
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 Nici un manual care să se ocupe de software-ul gratuit și de tip open source n-ar fi complet fără un capitol despre comunitate. Fiindcă marea majoritate a proiectelor software sunt gratuite și open source, FreeCAD este realizată de către o comunitate și susținută de această comunitate. În loc de o firma opacă, necunoscută, impersonală și inaccesibilă, care este mai mult decât adesea găsită în spatele software-ului comercial, comunitățile de software gratuite și open source sunt spații deschise, unde sunteți bineveniți ca utilizator și unde puteți obține răspunsuri foarte rapid și chiar să vă spuneți punctul de vedere în dezvoltarea software-ului în sine. Sunteți, de asemenea, mai mult decât bineveniți să ajutați, există sarcini pentru toată lumea.
+
+
+</div>
 
 Comunitatea este un grup în creștere, eclectic, din tot felul de oameni uniți de pasiunea lor pentru FreeCAD.Toți lucrează voluntar pe FreeCAD în timpul liber (deși uneori companiile sau persoanele fizice petrec câteva ore de programare per dezvoltator pentru a crea o funcție specifică).Some are professional programmers, some are long-time FreeCAD users (some of them are true FreeCAD gurus, who know almost everything, and many of them end up knowing a lot about FreeCAD programming too), and many are new users of FreeCAD. There is nothing specific to do to be part of the community. Just use FreeCAD!
 

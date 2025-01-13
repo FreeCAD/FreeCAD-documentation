@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil **TechDraw Insérer une annotation de texte enrichi** ajoute un bloc d\'annotation formaté à une [Ligne de référence](TechDraw_LeaderLine/fr.md) ou à une vue.
+L\'outil **TechDraw Insérer une annotation de texte enrichi** ajoute un bloc d\'annotation formaté à une [Ligne de repère](TechDraw_LeaderLine/fr.md) ou à une vue.
 
 <img alt="" src=images/TechDraw_RichTextBlock_sample.png  style="width:220px;"> 
 *Bloc de texte d'une annotation de texte enrichi*
@@ -22,11 +22,11 @@ L\'outil **TechDraw Insérer une annotation de texte enrichi** ajoute un bloc d\
 ## Utilisation
 
 1.  S\'il y a plusieurs pages de dessin dans le document : activez la page désirée en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
-2.  Pour attacher la Annotation texte enrichi à une [ligne de référence](TechDraw_LeaderLine/fr.md), sélectionnez la ligne dans la [vue en arborescence](Tree_view/fr.md) ou sur la page.
+2.  Pour attacher la Annotation texte enrichi à une [ligne de repère](TechDraw_LeaderLine/fr.md), sélectionnez la ligne dans la [vue en arborescence](Tree_view/fr.md) ou sur la page.
 3.  Il y a plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_RichTextAnnotation.svg" width=16px> [Insérer une annotation de texte enrichi](TechDraw_RichTextAnnotation/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Annotations → <img src="images/TechDraw_RichTextAnnotation.svg" width=16px> Insérer une annotation de texte enrichi** du menu.
-4.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la boîte de dialogue **Sélecteur de page** s\'ouvre : {{Version/fr|0.20}}
+4.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la fenêtre de dialogue **Sélecteur de page** s\'ouvre :
     1.  Sélectionnez la page désirée.
     2.  Appuyez sur le bouton **OK**.
 5.  Un panneau de tâches s\'ouvre.

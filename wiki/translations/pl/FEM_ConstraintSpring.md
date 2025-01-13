@@ -1,12 +1,17 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand
    Name: FEM ConstraintSpring
-|Name/pɬMES Sprężyna
+   Name/pl: MES Sprężyna
    MenuLocation: Model , Warunki brzegowe i obciążenia mechaniczne , Sprężyna
    Workbenches: FEM_Workbench/pl
    Shortcut: 
    Version: 0.20
    SeeAlso: 
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintSpring/pl
@@ -27,8 +32,9 @@ Definiuje warunek brzegowy sprężyny, do wykorzystania w analizach mechanicznyc
 ## Użycie
 
 1.  Użyj przycisku **<img src="images/FEM_ConstraintSpring.svg" width=16px> [Sprężyna](FEM_ConstraintSpring/pl.md)** lub opcji **Model → Warunki brzegowe i obciążenia mechaniczne → <img src="images/FEM_ConstraintSpring.svg" width=16px> Sprężyna** w menu.
-2.  W [widoku 3D](3D_view/pl.md) wybierz ściany, do których sprężyna powinna zostać przyłożona.
-3.  Zdefiniuj sztywność w kierunku normalnym lub stycznym (w N/m) i wybierz, które Elmer powinien użyć.
+2.  Wciśnij przycisk **Dodaj**.
+3.  W [widoku 3D](3D_view/pl.md) wybierz ściany, do których sprężyna powinna zostać przyłożona. Aby usunąć ściany z zaznaczenia, wciśnij przycisk **Usuń** i kliknij na nich.
+4.  Zdefiniuj sztywność w kierunku normalnym lub stycznym (w N/m) i wybierz, którą Elmer powinien użyć.
 
 
 

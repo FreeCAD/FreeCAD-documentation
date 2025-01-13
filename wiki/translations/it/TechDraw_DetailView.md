@@ -1,120 +1,90 @@
 ---
  GuiCommand:
-   Name: TechDraw_DetailView
-   Name/it: Dettaglio
-   MenuLocation: TechDraw , Dettaglio
+   Name: TechDraw DetailView
+   Name/it: TechDraw Vista dettaglio
+   MenuLocation: TechDraw , Viste TechDraw , Vista dettaglio
    Workbenches: TechDraw_Workbench/it
-   SeeAlso: TechDraw_View/it, TechDraw_ProjectionGroup/it
+   SeeAlso: TechDraw_View/it
 ---
 
 # TechDraw DetailView/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Lo strumento **TechDraw Vista dettaglio** crea una vista di una piccola area di una vista esistente.
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento Dettaglio crea una vista che contiene l\'ingrandimento di un\'area di una vista esistente.
-
-
-</div>
-
-![](images/ViewDetail.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Vista di dettaglio con casella di visualizzazione circolare di una vista esistente*
-
-
-</div>
+![](images/ViewDetail.png ) 
+*Vista dettaglio con contorno circolare*
 
 
 
 ## Utilizzo
 
+1.  Selezionare una vista di base per la vista di dettaglio.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/TechDraw_DetailView.svg" width=16px> [Inserisci Vista dettaglio](TechDraw_DetailView/it.md)**.
+    -   Seleziona l\'opzione **TechDraw → Viste TechDraw → <img src="images/TechDraw_DetailView.svg" width=16px> Inserisci Vista dettaglio** dal menu.
+3.  Un contorno evidenziato viene aggiunto alla vista di base, una vista di dettaglio viene aggiunta alla pagina e si apre un pannello delle azioni.
+4.  Per maggiore chiarezza è meglio spostare la vista di dettaglio in modo che non si sovrapponga più alla vista di base: tenere premuto il tasto sinistro del mouse sulla sua cornice o etichetta e trascinarla in una nuova posizione.
+5.  Per modificare la posizione del contorno evidenziato, effettuare una delle seguenti operazioni:
+    -   Spostare il contorno trascinando:
+        1.  Premere il pulsante **Trascina evidenziazione**.
+        2.  Il contorno viene contrassegnato sulla pagina e viene aggiunta un\'etichetta temporanea da *trascinare*.
+        3.  Tenere premuto il pulsante sinistro del mouse sul contorno stesso o su quell\'etichetta e trascinare il contorno in una nuova posizione.
+    -   Spostare il contorno inserendo le coordinate:
+        1.  Cambiare le coordinate X e Y nel pannello delle attività. Le coordinate sono relative al centro della vista di base.
+6.  Facoltativamente modificare il **Raggio** della vista di dettaglio.
+7.  Facoltativamente modificare il **Tipo di scala** e il **Fattore di scala** della vista dettaglio. Vedere [Vista TechDraw](TechDraw_View/it#Proprietà.md) per ulteriori informazioni.
+8.  Specificare un\'etichetta **Riferimento**. Questa etichetta verrà visualizzata vicino al contorno evidenziato.
+9.  Premere il pulsante **OK**.
 
-<div class="mw-translate-fuzzy">
-
--   Selezionare una vista in una pagina o nella struttura.
--   Premere il pulsante **<img src="images/TechDraw_DetailView.svg" width=16px> [Dettaglio](TechDraw_DetailView/it.md)** per creare la vista del dettaglio.
--   Nella finestra di dialogo delle azioni che viene visualizzata è possibile definire il raggio della casella della vista, la scala e la posizione della vista. Per quest\'ultima si può:
-    -   editare le coordinate, oppure
-    -   premere il pulsante **Drag Highlight**. In questo caso il bordo originale del dettaglio viene evidenziato in grassetto e con l\'etichetta *trascina*. Fare clic sul bordo o sull\'etichetta, tenere premuto il pulsante del mouse e trascinalo nella posizione desiderata. Rilasciare infine il mouse per accettare la modifica.
 
 
-</div>
+## Note
 
-## Notes
+-   Per modificare una vista dettaglio, fare doppio clic su di essa nella [Vista ad albero](Tree_view/it.md).
+-   I contorni delle viste di dettaglio possono essere rotondi o quadrati. Ciò è controllato dalla **Forma del contorno della vista di dettaglio** [preferenza](TechDraw_Preferences/it#Annotazione.md).
+-   [Argomento del forum con una buona discussione sull\'impostazione dell\'ancoraggio.](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
--   To edit a detail view double-click it in the [Tree view](Tree_view.md).
--   The outlines of detail views can be round or square. This is controlled by the **Detail View Outline Shape** [preference](TechDraw_Preferences#Annotation.md).
--   [Forum topic with a good discussion about setting the anchor.](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
-## Properties Detail View 
 
-See also [TechDraw View](TechDraw_View#Properties.md).
+## Proprietà
 
-### Data
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
+
+Nelle proprietà della **Base View** si può modificare l\'aspetto del contorno dei dettagli.
+
+Una Vista di Dettaglio, formalmente un oggetto {{Incode|TechDraw::DrawViewDetail}}, è derivata da un oggetto [Part View](TechDraw_View#Properties_Part_View.md), formalmente un oggetto {{Incode|TechDraw::DrawViewPart}} ed eredita tutti le sue proprietà. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
+
+
+{{TitleProperty|Appearance}}
+
+-    **Show Matting|Bool**: mostra o nasconde la cornice attorno alla Vista di Dettaglio. {{Version/it|1.0}}
+
+-    **Show Highlight|Bool**: mostra o nasconde l\'evidenziazione dei dettagli nella vista sorgente. {{Version/it|1.0}}
 
 
 {{TitleProperty|Detail}}
 
--    **Base View|Link**: The view on which the detail view is based.
+-    **Base View|Link**: la vista su cui si basa la vista di dettaglio.
 
--    **Anchor Point|Vector**: The center of the detail view within the **Base View**.
+-    **Anchor Point|Vector**: il centro della vista di dettaglio all\'interno di **Base View**.
 
--    **Radius|Float**: The size of the area in the **Base View** that is displayed in the detail view.
+-    **Radius|Float**: la dimensione dell\'area in **Base View** visualizzata nella vista dettaglio.
 
--    **Reference|String**: An identifier for the detail view in the **Base View**.
-
-## Properties Base View 
-
-
-<div class="mw-translate-fuzzy">
-
-### Vista base 
-
-Una vista Dettaglio eredita tutte le proprietà applicabili della vista specificata come **BaseView**. Nelle proprietà di questa vista è possibile modificare l\'aspetto del contorno del dettaglio:
-
-
-</div>
-
-### View
-
-
-{{TitleProperty|Hightlight}}
-
-
-<div class="mw-translate-fuzzy">
-
--    **Highlight Adjust**: angolo di rotazione in senso orario della vista Dettaglio.
-
--    **Highlight Line Color**: Colore della linea per la forma del contorno. L\'impostazione predefinita per questo è l\'impostazione **Detail Highlight** nelle [preferenze di TechDraw](TechDraw_Preferences/it.md).
-
--    **Highlight Line Style**: Stile di linea per la forma del contorno. L\'impostazione predefinita per questo è l\'impostazione **Detail Highlight Style** nelle [preferenze di TechDraw](TechDraw_Preferences/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-    **Reference|String**: un identificatore per la vista di dettaglio in **Base View**.
 
 
 
 
 
-</div>
-
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

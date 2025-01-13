@@ -38,7 +38,6 @@ Narzędzie **Wstaw wierzchołek kosmetyczny** dodaje do widoku [wierzchołek](Gl
 ## Uwagi
 
 -   Nie można zmienić położenia istniejącego wierzchołka kosmetycznego. W tej chwili nie ma innego sposobu niż usunięcie go i utworzenie nowego.
--   Aby usunąć wierzchołek kosmetyczny należy użyć narzędzia <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [Usuń geometrie pomocnicze](TechDraw_CosmeticEraser/pl.md).
 
 
 

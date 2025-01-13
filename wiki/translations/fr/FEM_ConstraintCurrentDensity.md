@@ -1,11 +1,17 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM ConstraintCurrentDensity
    Name/fr: FEM Densité de courant
    MenuLocation: Modèle , Conditions limites électromagnétiques , Condition limite de densité de courant
    Workbenches: FEM_Workbench/fr
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic/fr, FEM_EquationMagnetodynamic2D/fr
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintCurrentDensity/fr
@@ -19,8 +25,8 @@ Crée une condition limite FEM pour la densité de courant. À utiliser avec les
 ## Utilisation
 
 1.  Appuyez sur le bouton **<img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> [Condition limite de densité de courant](FEM_ConstraintCurrentDensity/fr.md)** ou utilisez le menu **Modèle → Conditions limites électromagnétiques → <img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> Condition limite de densité de courant**.
-2.  Dans la [vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la condition de limite doit être appliquée.
-3.  Appuyez sur le bouton **Ajouter**.
+2.  Appuyez sur le bouton **Ajouter**.
+3.  Dans la [vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la condition de limite doit être appliquée.
 
 ## Options
 

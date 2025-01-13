@@ -37,14 +37,15 @@ Documentul este deschis și inserat în proiect.
 
 ## Preferences
 
--   The maximum number of files in the recent files list is determined by the **Tools → Edit parameters... → BaseApp → Preferences → RecentFiles → RecentFiles** setting. This setting can also be changed in the [Preferences Editor](Preferences_Editor#General.md).
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+See also: [Preferences Editor](Preferences_Editor.md).
+
+-   The maximum number of files in the list is determined by the **Edit → Preferences... → General → General → Size of recent file list** preference.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

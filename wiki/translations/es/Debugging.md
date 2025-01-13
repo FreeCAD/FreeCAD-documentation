@@ -1,81 +1,65 @@
 # Debugging/es
-<div class="mw-translate-fuzzy">
-
 ## Prueba primero 
 
-Antes de que pruebes con la depuración utiliza el marco de pruebas para verificar si los test estándar funcionan correctamente. Si no es posible que la instalación esté rota.
+Antes de pasar por la molestia de la depuración, utilice el [Marco de pruebas](Testing.md) para comprobar si las pruebas estándar funcionan correctamente. Si no se ejecutan por completo, es posible que haya una instalación defectuosa.
 
 
-</div>
-
-Before you go through the pain of debugging use the [Test framework](Testing.md) to check if the standard tests work properly. If they do not run complete there is possibly a broken installation.
-
-
-
-
-<div class="mw-translate-fuzzy">
 
 ## Línea de comandos 
 
-El *depurador* de FreeCAD está soportado por unos cuantos mecanismos internos. La versión en línea de comandos de FreeCAD opciones para soporte de depuración:
+La *depuración* de FreeCAD está respaldada por algunos mecanismos internos. La versión de línea de comandos de FreeCAD proporciona algunas opciones para soporte de depuración.
 
--v: Con la opción \"v\" FreeCAD ofrece una salida más verbosa.
--l: Con la opción \"l\" FreeCAD escribe información adicional a un archivo de registro.
+Estas son las opciones reconocidas actualmente en FreeCAD 0.19:
 
+Opciones genéricas:
 
-</div>
+  -v [ --version ]          Imprime la cadena de versión
+  -h [ --help ]             Imprime el mensaje de ayuda
+  -c [ --console ]          Comienza en modo consola
+  --response-file arg       También se puede especificar con '@nombre'
+  --dump-config             Configuración de volcados
+  --get-config arg          Imprime el valor de la clave de configuración solicitada
 
-The *debugging* of FreeCAD is supported by a few internal mechanisms. The command line version of FreeCAD provides some options for debugging support.
+Configuración:
 
-These are the currently recognized options in FreeCAD 0.19:
-
-Generic options:
-
- -v [ --version ]          Prints version string
- -h [ --help ]             Prints help message
- -c [ --console ]          Starts in console mode
- --response-file arg       Can be specified with '@name', too
- --dump-config             Dumps configuration
- --get-config arg          Prints the value of the requested configuration key
-
-Configuration:
-
- -l [ --write-log ]        Writes a log file to:
-                           $HOME/.local/share/FreeCAD/FreeCAD.log (Linux)
-                           $HOME/Library/Application\ Support/FreeCAD/FreeCAD.log (macOS)
-                           %APPDATA%\FreeCAD\FreeCAD.log (Windows)
- --log-file arg            Unlike to --write-log this allows to log to an 
-                           arbitrary file
- -u [ --user-cfg ] arg     User config file to load/save user settings
- -s [ --system-cfg ] arg   System config file to load/save system settings
- -t [ --run-test ] arg     Test case - or 0 for all
- -M [ --module-path ] arg  Additional module paths
- -P [ --python-path ] arg  Additional Python paths
- --single-instance         Allow to run a single instance of the application
+  -l [ --write-log ]        Escribe un archivo de registro en:
+                            $HOME/.local/share/FreeCAD/FreeCAD.log (Linux)
+                            $HOME/Library/Application\ Support/FreeCAD/FreeCAD.log (macOS)
+                            %APPDATA%\FreeCAD\FreeCAD.log 
+  --log-file arg            A diferencia de --write-log, esto permite iniciar sesión en un 
+                            archivo arbitrario
+  -u [ --user-cfg ] arg     Archivo de configuración de usuario para cargar/guardar configuraciones de usuario
+  -s [ --system-cfg ] arg   Archivo de configuración del sistema para cargar/guardar la configuración del sistema
+  -t [ --run-test ] arg     Caso de prueba - o 0 para todos
+  -M [ --module-path ] arg  Rutas de módulos adicionales
+  -P [ --python-path ] arg  Rutas adicionales de Python
+  --single-instance         Permite ejecutar una única instancia de la aplicación
 
 ## Generating a Backtrace 
 
 If you are running a version of FreeCAD from the bleeding edge of the development curve, it may \"crash\". You can help solve such problems by providing the developers with a \"backtrace\". To do this, you need to be running a \"debug build\" of the software. \"Debug build\" is a parameter that is set at compile time, so you\'ll either need to compile FreeCAD yourself, or obtain a pre-compiled \"debug\" version.
 
-### For Linux 
+
+
+### Para Linux 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
 
-Linux Debugging →
+Depuración de Linux →
 
 
 <div class="mw-collapsible-content">
 
-Prerequisites:
+Requisitos previos:
 
--   software package gdb installed
--   a debug build of FreeCAD (at this time only available by [building from source](Compile_on_Linux#For_a_Debug_build.md))
--   a FreeCAD model that causes a crash
+-   paquete de software gdb instalado
+-   una versión de depuración de FreeCAD (en este momento solo está disponible mediante la [compilación desde el código fuente](Compile_on_Linux#For_a_Debug_build.md))
+-   un modelo de FreeCAD que provoca un problema
 
-Steps: Enter the following in your terminal window:
+Pasos: Ingrese lo siguiente en la ventana de su terminal:
 
-Find FreeCAD binary on your system:
+Encuentre el binario FreeCAD en su sistema:
 
 
 ```python
@@ -86,7 +70,7 @@ $ cd /usr/local/freecad/bin
 $ gdb FreeCAD
 ```
 
-GNUdebugger will output some initializing information. The (gdb) shows GNUDebugger is running in the terminal, now input:
+GNUdebugger generará información de inicialización. El (gdb) muestra que GNUDebugger se está ejecutando en la terminal, ahora ingrese:
 
 
 ```python
@@ -94,21 +78,21 @@ GNUdebugger will output some initializing information. The (gdb) shows GNUDebugg
 (gdb) run
 ```
 
-FreeCAD will now start up. Perform the steps that cause FreeCAD to crash or freeze, then enter in the terminal window:
+FreeCAD ahora se iniciará. Realice los pasos que hacen que FreeCAD se bloquee o se congele, luego ingrese en la ventana de terminal:
 
 
 ```python
 (gdb) bt
 ```
 
-This will generate a lengthy listing of exactly what the program was doing when it crashed or froze. Include this with your problem report.
+Esto generará una lista larga de exactamente lo que estaba haciendo el programa cuando falló o se congeló. Incluya esto con su informe de problemas.
 
 
 ```python
 (gdb) bt full
 ```
 
-Print the values of the local variables also. This can be combined with a number to limit the number of frames shown.
+Imprima también los valores de las variables locales. Esto se puede combinar con un número para limitar la cantidad de fotogramas mostrados.
 
 
 </div>
@@ -116,17 +100,19 @@ Print the values of the local variables also. This can be combined with a number
 
 </div>
 
-### For macOS 
+
+
+### Para macOS 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
 
-macOS Debugging →
+Depuración de macOS →
 
 
 <div class="mw-collapsible-content">
 
-Prerequisites:
+Requisitos previos:
 
 -   software package lldb installed
 -   a debug build of FreeCAD
@@ -437,15 +423,6 @@ See the [main article about Pyzo](Pyzo.md).
 ## Debugging OpenCasCade 
 
 For developers needing to dig deeper in to the OpenCasCade kernel, user \@abdullah has created a [thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=47017) orientation discussing how to do so.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

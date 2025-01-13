@@ -225,6 +225,10 @@ A questo punto il flusso di lavoro di base per il [Modulo FEM](FEM_Workbench/it.
 
 </div>
 
+## Notes
+
+-   For a video tutorial based on this written tutorial watch: [FEM MaterialReinforced tutorial](https://www.youtube.com/watch?v=SZTIqhfCSVc).
+
 
 {{FEM Tools navi
 

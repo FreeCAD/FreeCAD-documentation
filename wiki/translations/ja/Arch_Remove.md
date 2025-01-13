@@ -10,6 +10,8 @@
 
 </div>
 
+
+
 ## 説明
 
 
@@ -17,8 +19,8 @@
 
 Removeツールは2種類の操作を提供します：
 
--   Archオブジェクトからサブコンポーネントを取り除きます。例えば[Arch Add](Arch_Add/jp.md)の例のような壁に追加されていた直方体を壁から取り除きます。
--   [シェイプ](Part_Module/jp.md)ベースのオブジェクトを[壁](Arch_Wall/jp.md)や[骨組み](Arch_Structure/jp.md)といった Archコンポーネントから減算します。
+-   Archオブジェクトからサブコンポーネントを取り除きます。例えば[Arch Addの](Arch_Add/jp.md)例のような壁に追加されていた直方体を壁から取り除きます。
+-   [シェイプベースのオブジェクトを](Part_Module/jp.md)[壁や](Arch_Wall/jp.md)[骨組みといった](Arch_Structure/jp.md) Archコンポーネントから減算します。
 
 
 </div>
@@ -34,6 +36,8 @@ The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px>
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -56,7 +60,9 @@ The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px>
 Or
 
 1.  Select objects to be subtracted, the last object selected must the Arch object from which the other objects will be subtracted.
-2.  Press the **<img src="images/Arch_Remove.svg" width=16px>** button, or **Arch** → **<img src="images/Arch_Remove.svg" width=16px> [Remove](Arch_Remove.md)** from the top menu.
+2.  Press the **<img src="images/Arch_Remove.svg" width=16px> [Remove component](Arch_Remove.md)** button, or **Modify → <img src="images/Arch_Remove.svg" width=16px> Remove component** from the top menu.
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
@@ -66,7 +72,9 @@ Or
 
 </div>
 
-The Remove tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The Remove tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 removeComponents(objectsList, host=None)
 ```
@@ -74,7 +82,9 @@ removeComponents(objectsList, host=None)
 -   Removes the given objects in `objectsList` from their parents.
 -   If a `host` object is specified, this function will try adding the objects in `objectsList` as holes to the `host`.
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -104,6 +114,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/ja
+⏵ [documentation index](../README.md) > Arch Remove/ja

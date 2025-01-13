@@ -17,65 +17,39 @@ Vazba rovnoběžnosti zajistí, že dvě vybrané přímky nebo hrany jsou vzáj
 
 </div>
 
-## Operation
+## Usage
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-<div class="mw-translate-fuzzy">
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
 
-#### Postup
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ConstrainParallel.svg" width=16px> [Constrain parallel](Sketcher_ConstrainParallel.md)** button.
 
-Náčrt obsahuje dvě náhodně orientované přímky.
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainParallel.svg" width=16px> Constrain parallel** option from the menu.
 
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Constrain → <img src="images/Sketcher_ConstrainParallel.svg" width=16px> Constrain parallel** option from the context menu.
 
-</div>
+    -   Use the keyboard shortcut: **P**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Select two lines.
+5.  A constraint is added.
+6.  Optionally keep creating constraints.
+7.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
 
+### Run-once mode 
 
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/ConstrainParallel1.png  style="width:256px;">
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Postupným kliknutím vyberte obě přímky.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/ConstrainParallel2.png  style="width:256px;">
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Aplikujte vazbu rovnoběžnosti výběrem její ikony <img alt="" src=images/Constraint_Parallel.png  style="width:16px;"> z pruhu nástrojů vazeb Náčrtu nebo výběrem položky Vazba rovnoběžnosti ze submenu vazeb náčrtu v Náčrtu (pracovní plocha Náčrt) nebo Návrh dílu (pracovní plocha Návrh Dílu).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/ConstrainParallel3.png  style="width:256px;">
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Vybrané přímky jsou upraveny tak, že jsou vzájemně rovnoběžné. Změna orientace jedné z nich změní stejně i orientaci druhé.
-
-
-</div>
+1.  Select two or more lines. <small>(v1.0)</small> : Points can be included in the selection, but will be ignored.
+2.  Invoke the tool as explained above, or with the following additional option:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ConstrainParallel.svg" width=16px> Constrain parallel** option from the context menu.
+3.  Depending on the selection one or more constraints are added.
 
 ## Scripting
 

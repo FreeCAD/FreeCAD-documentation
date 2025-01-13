@@ -84,9 +84,9 @@ Die Funktionalität von FreeCAD ist in Module unterteilt, die sich mit spezielle
 
 ### Arbeiten mit parametrischen Objekten 
 
--   [Geskriptete Objekte](Scripted_objects/de.md): wie man 100% Python geskriptete Objekte erstellt.
-    -   [Geskriptete Objekte mit Anhang](Scripted_objects_with_attachment/de.md): wie man geskriptete Objekte an andere Objekte anhängen kann.
-    -   [Geskriptete Objekte, die Attribute speichern](Scripted_objects_migration/de.md): wie man Attribute der Proxy Klasse mit `__getstate__` und `__setstate__` speichert und wiederherstellt.
+-   [Skriptgenerierte Objekte](Scripted_objects/de.md): wie man 100% Python skriptgenerierte Objekte erstellt.
+    -   [Skriptgenerierte Objekte mit Anhang](Scripted_objects_with_attachment/de.md): wie man skriptgenerierte Objekte an andere Objekte anhängen kann.
+    -   [Skriptgenerierte Objekte, die Attribute speichern](Scripted_objects_saving_attributes/de.md): wie man Attribute der Proxy-Klasse mit `dumps` und `loads` speichert und wiederherstellt.
     -   [Geskriptete Objekte migrieren](Scripted_objects_migration/de.md): wie man alte geskriptete Objekte in eine neue Klasse überführt.
 
 
@@ -155,8 +155,6 @@ Die folgenden beiden Referenzen sind PyQt spezifisch (nicht PySide), könnten ab
 ## Gemeinschaftsprojekte
 
 Auf dem [Gemeinschaftsportal](FreeCAD_Community_Portal/de.md), findet man weitere FreeCAD basierte Projekte, die von der FreeCAD Anwendergemeinschaft ausgeführt werden. Wenn man ein neues FreeCAD Projekt startet, sollte es dort aufgelistet werden! Wir haben auch eine Seite mit Dingen, die Du, wenn Du möchtest tun kannst [Hilf FreeCAD](Help_FreeCAD/de.md).
-
--   [Wissenschaftliche Literatur](Scientific_literature/de.md): Artikel, die sich auf das FreeCAD System beziehen oder es auf unterschiedliche Weise nutzen.
 
 
 

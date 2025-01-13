@@ -5,14 +5,16 @@
 
 </div>
 
+
+
 #### Beskrivning
 
-This tool splits a selected [Mesh](Mesh_Workbench.md) object into its separate components
+The **Arch SplitMesh** tool splits a selected [Mesh](Mesh_Workbench.md) object into its separate components
 
 ## Usage
 
 1.  Select a mesh object.
-2.  Press the **<img src="images/Arch_SplitMesh.svg" width=16px> [Split Mesh](Arch_SplitMesh.md)** entry in **Arch → Utilities → Split Mesh**.
+2.  Select the **Utils → <img src="images/Arch_SplitMesh.svg" width=16px> Split Mesh** option from the menu.
 
 ## Scripting
 
@@ -56,5 +58,13 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/sv
+⏵ [documentation index](../README.md) > Arch SplitMesh/sv

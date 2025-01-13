@@ -27,7 +27,7 @@ Attualmente il comando punta a [<https://wiki.freecad.org/User_hub>](https://wik
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -31,11 +31,11 @@ FreeCAD prend en charge plusieurs progiciels tiers prêts à l\'emploi. Dans de 
 
 ### GraphViz
 
-[GraphViz](https://www.graphviz.org) est un logiciel de visualisation de graphes open source. Il est utilisé par l\'outil [Std Graphique de dépendance](Std_DependencyGraph/fr.md).
+[GraphViz](https://www.graphviz.org) est un logiciel de visualisation de graphes open source. Il est utilisé par l\'outil [Std Graphe des dépendances](Std_DependencyGraph/fr.md).
 
 ### OpenCAMLib
 
-[OpenCAMLib](http://www.anderswallin.net/CAM) est une bibliothèque open source d\'algorithmes de fabrication assistée par ordinateur (FAO). Il est utilisé dans [atelier Path](Path_Workbench/fr.md). Voir la page [OpenCamLib](OpenCamLib/fr.md) pour les instructions d\'installation.
+[OpenCAMLib](http://www.anderswallin.net/CAM) est une bibliothèque open source d\'algorithmes de fabrication assistée par ordinateur (FAO). Il est utilisé dans [atelier CAM](CAM_Workbench/fr.md). Voir la page [OpenCamLib](OpenCamLib/fr.md) pour les instructions d\'installation.
 
 ### OpenSCAD
 
@@ -67,11 +67,11 @@ FreeCAD ne peut pas lire et écrire directement des fichiers DWG. Pour convertir
 -   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (gratuit, mais pas open-source).
 -   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). {{Version/fr|0.20}}
 
-Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md) et [FreeCAD et l\'importation DWG](FreeCAD_and_DWG_Import/fr.md) pour plus d\'informations.
+Voir [Préférences Importer/Exporter](Import_Export_Preferences/fr#DWG.md) et [FreeCAD et l\'importation DWG](FreeCAD_and_DWG_Import/fr.md) pour plus d\'informations.
 
 ### IfcOpenShell
 
-[IfcOpenShell](http://ifcopenshell.org) est une bibliothèque permettant de travailler avec le format de fichier IFC (Industry Foundation Classes) utilisé dans la conception architecturale. La bibliothèque est également utilisée par les outils [Arch IfcExplorer](Arch_IfcExplorer/fr.md) ({{VersionMinus/fr|0.18}}) et [BIM IfcExplorer](BIM_IfcExplorer/fr.md). IfcOpenShell est inclus dans les programmes d\'installation de FreeCAD pour Windows et Mac.
+[IfcOpenShell](http://ifcopenshell.org) est une bibliothèque permettant de travailler avec le format de fichier IFC (Industry Foundation Classes) utilisé dans la conception architecturale. La bibliothèque est également utilisée par les outils [Arch IfcExplorer](Arch_IfcExplorer/fr.md) ({{VersionMinus/fr|0.18}}) et [BIM Explorateur d\'IFC](BIM_IfcExplorer/fr.md). IfcOpenShell est inclus dans les programmes d\'installation de FreeCAD pour Windows et Mac.
 
 ### IfcJson
 
@@ -107,7 +107,7 @@ Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md) et [F
 
 ### Gmsh
 
-[Gmsh](http://gmsh.info) est un générateur automatique de maillage par éléments finis. il est utilisé par les outils [FEM FEM Maillage à partir d\'une forme avec Gmsh](FEM_MeshGmshFromShape/fr.md) et [Mesh Tesselation](Mesh_FromPartShape/fr.md).
+[Gmsh](http://gmsh.info) est un générateur automatique de maillage par éléments finis. il est utilisé par les outils [FEM Mailler avec Gmsh](FEM_MeshGmshFromShape/fr.md) et [Mesh Tesselation](Mesh_FromPartShape/fr.md).
 
 ### Elmer
 
@@ -130,7 +130,7 @@ Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md) et [F
 # Pages en relation 
 
 -   [Import Export](Import_Export/fr.md)
--   [Préférences d\'Import Export](Import_Export_Preferences/fr.md)
+-   [Préférences Importer/Exporter](Import_Export_Preferences/fr.md)
 -   [Bibliothèques tierces](Third_Party_Libraries/fr.md)
 
 

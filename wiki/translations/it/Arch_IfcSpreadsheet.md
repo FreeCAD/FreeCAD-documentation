@@ -11,6 +11,9 @@
 # Arch IfcSpreadsheet/it
 
 
+</div>
+
+
 
 ## Descrizione
 
@@ -20,11 +23,17 @@ Questo strumento crea un foglio di calcolo per memorizzare le proprietà [IFC](A
 
 ## Uso
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare un oggetto.
 2.  Richiamare il comando utilizzando uno di questi metodi:
     -   Premereil pulsante **<img src="images/Arch_IfcSpreadsheet.svg" width=16px> Crea un foglio di calcolo IFC** nella barra degli strumenti.
     -   Usare la scorciatoia da tastiera **I** **P**.
     -   Usare la voce **Arch → Utilità → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Crea un foglio di calcolo IFC** del menu principale.
+
+
+</div>
 
 
 
@@ -54,6 +63,20 @@ spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/it
+⏵ [documentation index](../README.md) > Arch IfcSpreadsheet/it

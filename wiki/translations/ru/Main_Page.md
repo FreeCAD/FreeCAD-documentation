@@ -1,7 +1,15 @@
 # Main Page/ru
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
+
 ## Введение
 
 Это вики-страница документации [FreeCAD](http://www.freecadweb.org/?lang=ru). Существует несколько способов использования этой документации: путём изучения центров, следуя руководству или используя пункты меню Справка во FreeCAD . Это пока ещё незавершённая работа, написанная сообществом пользователей и разработчиков FreeCAD. Если вы обнаружили неверную или отсутствующую информацию, пожалуйста, [помогите FreeCAD](Special:MyLanguage/help_FreeCAD/ru.md)!
+
+
+</div>
 
 
 
@@ -16,23 +24,20 @@
 
 ## Руководство
 
-<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Руководство по FreeCAD](Manual:Introduction/ru.md) это ещё один, более линейный способ представления информации, содержащейся в этой вики. Руководство разработано таким способом, чтобы вы его читали как книгу, и непринужденно знакомились со множеством других страниц из вышеуказанных центров. Также доступна [версия в формате ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) и [несколько переводов в формате pdf](https://www.freecadweb.org/manual/).
+
+<div class="mw-translate-fuzzy">
+
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Руководство по FreeCAD](Manual:Introduction/ru.md) это ещё один, более линейный способ представления информации, содержащейся в этой вики. Руководство разработано таким способом, чтобы вы его читали как книгу, и непринужденно знакомились со множеством других страниц из вышеуказанных центров. Также доступна [версия в формате ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) и [несколько переводов в формате pdf](https://www.freecadweb.org/manual/). 
 
 
 
-
+</div>
 
 
 
 ## Оглавление
 
-
-<div class="mw-translate-fuzzy">
-
-В следующем списке оглавлений перечислены все статьи этой вики, которые составляют основу оффлайн документации, поставляемой с приложением FreeCAD. Они доступны на нескольких языках:
-
-
-</div>
+Оглавление доступно на нескольких языках:
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |
@@ -67,13 +72,25 @@
 
 ### Исходный код 
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD может быть скомпилирован на всех платформах с помощью [CMake](https://cmake.org/). Исходный код распространяется под лицензией [LGPL](https://ru.wikipedia.org/wiki/GNU_Lesser_General_Public_License) и размещается на [GitHub](https://github.com/FreeCAD/FreeCAD) и дублируется на [GitLab](https://gitlab.com/freecad/FreeCAD), [SourceForge](https://sourceforge.net/projects/free-cad/) и [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Есть инструкции по сборке для [Windows](Compile_on_Windows/ru.md), [Linux](Compile_on_Linux/ru.md) и [MacOS](Compile_on_MacOS/ru.md). Документация по исходному коду [размещена здесь](http://www.freecadweb.org/api/), сгенерирована [Doxygen](Doxygen/ru.md), и [задокументирована на wiki](Source_documentation/ru.md) .
+
+
+</div>
 
 
 
 ### О разработке 
 
+
+<div class="mw-translate-fuzzy">
+
 Посмотрите страницы [Планы разработки](Development_roadmap/ru.md), чтобы быть в курсе о том что планируется. [Список изменений](http://www.freecadweb.org/tracker/changelog_page.php) и [Планы](http://www.freecadweb.org/tracker/roadmap_page.php) на [трекере FreeCAD](http://www.freecadweb.org/tracker), показывающему продвижение к следующему релизу, или [Статистику проекта](http://www.ohloh.net/p/freecad) для получения подробной информации о коде FreeCAD. Всё общение по ходу разработки идёт на [форуме](http://forum.freecadweb.org), так что обязательно посетите его, если хотите присоединиться.
+
+
+</div>
 
 
 

@@ -1,23 +1,29 @@
 ---
  GuiCommand:
    Name: Spreadsheet SplitCell
-   Name/de: Kalkulationstabelle ZellenTeilen
+   Name/de: Spreadsheet ZelleTeilen
    Workbenches: Spreadsheet_Workbench/de
-   MenuLocation: Kalkulationstabelle , Zellen Teilen
+   MenuLocation: Kalkulationstabelle , Zelle teilen
    Version: 0.17
 ---
 
 # Spreadsheet SplitCell/de
 
+
+
 ## Beschreibung
 
-Das **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Kalkulationstabelle ZelleTeilen](Spreadsheet_SplitCell/de.md)** Werkzeug teilt eine Zelle auseinander, die in einer bestehenden Tabelle im aktiven Dokument zu einer Zelle zusammengeführt wurde.
+Das Werkzeug <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> **Spreadsheet ZelleTeilen** teilt eine zuvor verbundene Zelle.
+
+
 
 ## Anwendung
 
-1.  Stelle sicher, dass eine aktive **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md)** geöffnet ist, so dass die Schaltfläche aktiviert ist.
-2.  Wähle eine Zelle aus, die zuvor **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Zusammengeführt](Spreadsheet_MergeCells/de.md)**.
-3.  Drücke die **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Kalkulationstabelle ZelleTeilen](Spreadsheet_SplitCell/de.md)** Schaltfläche.
+1.  Sicherstellen, dass eine [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md) aktiviert ist.
+2.  Eine zuvor [verbundene](Spreadsheet_MergeCells/de.md) Zelle auswählen.
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Zelle teilen](Spreadsheet_SplitCell/de.md)** drücken.
+    -   Den Menüeintrag **Kalkulationstabelle → [<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> Zelle teilen** auswählen.
 
 
 

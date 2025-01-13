@@ -12,7 +12,7 @@
 
 ## Description
 
-La commande **Sketcher Ordre de rendu** elle-même ne fait actuellement rien. Mais dans le menu associé, l\'ordre de rendu de toutes les esquisses peut être modifié.
+L\'outil <img alt="" src=images/Sketcher_RenderingOrder.svg  style="width:16px;"> [Sketcher Ordre de rendu](Sketcher_RenderingOrder/fr.md) lui-même ne fait actuellement rien. Mais dans le menu associé, l\'ordre de rendu de toutes les esquisses peut être modifié.
 
 Dans le cas d\'objets coïncidents, l\'ordre de rendu détermine quels éléments apparaissent en haut et sont donc sélectionnés en premier dans la [vue 3D](3D_view.md).
 

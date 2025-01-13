@@ -169,11 +169,5 @@ Consulte o tópico do fórum, [PDF inside the project](https://forum.freecadweb.
 
 
 
-## Outros
-
--   Um utilitário conversor de arquivos [ImageConv](ImageConv/pt-br.md).
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [File_Formats](Category_File_Formats.md) > File Format FCStd/pt-br

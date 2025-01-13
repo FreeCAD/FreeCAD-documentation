@@ -9,9 +9,13 @@
 
 # Std SaveCopy/pl
 
+
+
 ## Opis
 
 Polecenie **Zapisz jako kopię** zapisuje kopię aktywnego dokument w pliku pod nową nazwą.
+
+
 
 ## Użycie
 
@@ -19,20 +23,17 @@ Polecenie **Zapisz jako kopię** zapisuje kopię aktywnego dokument w pliku pod 
 2.  Wprowadź nazwę pliku w oknie dialogowym.
 3.  Naciśnij przycisk **Zapisz**.
 
+
+
 ## Opcje
 
 -   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
-## Ustawienia
 
--   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby zapisać kopię dokumentu, należy użyć metody `saveCopy` obiektu *document*.
 
@@ -56,7 +57,7 @@ doc.saveCopy(fnm)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

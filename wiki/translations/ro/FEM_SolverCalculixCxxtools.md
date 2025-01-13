@@ -89,10 +89,23 @@ Default values can be set in the menu **Edit** → **Preferences** → **FEM** �
 
 </div>
 
+-    **Beam Reduced Integration**\- <small>(v1.0)</small> :
+
+    -   true - uses beam elements with reduced integration (B31R or B32R), required when pipe beam section is used, can also make it possible to obtain [accurate results with plasticity](https://forum.freecad.org/viewtopic.php?t=61233)
+    -   false - uses regular (fully-integrated) beam elements
+
+
+<div class="mw-translate-fuzzy">
+
 -    **Beam Shell Result Output 3D**: rețineți că CalculiX extinde intern elementele 1D și 2D în elemente 3D pentru a realiza analiza FE
 
     -   false - rezultatele elementelor 1D și 2D vor fi medii la nodurile rețelei originale 1D sau 2D (adică fascicolul curbat curbat va arăta 0 solicitări nodale datorită mediei)
     -   true - rețeaua rezultată va conține elemente 1D și 2D extins la elementele 3D
+
+
+</div>
+
+-    **Buckling Accuracy**\- <small>(v1.1)</small> : defines the accuracy of buckling eigenvalue evaluation. In most cases it can be left with the default value (0.01) but sometimes it might be necessary to lower it (e.g. to 0.0001) to capture the first eigenvalue.
 
 
 <div class="mw-translate-fuzzy">
@@ -191,6 +204,15 @@ Default values can be set in the menu **Edit** → **Preferences** → **FEM** �
 
 </div>
 
+-    **Model Space**\- <small>(v1.0)</small> : switches between 3D and 2D analyses, the latter require surface geometry on the XY plane (on the right of the Y axis in the axisymmetric case) with [thickness definition](FEM_ElementGeometry2D.md) (value ignored in the axisymmetric case) and proper boundary conditions ([displacement boundary condition](FEM_ConstraintDisplacement.md) with degrees of freedom X and Y has to be used instead of [fixed boundary condition](FEM_ConstraintFixed.md)) and in-plane loads applied to edges
+
+    -   3D - three-dimensional solid/shell/beam elements are used
+    -   plane stress - plane stress 2D solid elements are used
+    -   plane strain - plane strain 2D solid elements are used
+    -   axisymmetric - axisymmetric 2D solid elements are used
+
+-    **Output Frequency**\- <small>(v1.0)</small> : defines the frequency of results writing in increments (the default setting of 1 means that the results are written every increment, setting 2 would save the results every 2 increments and so on), particularly useful for nonlinear and transient simulations, helps reduce the clutter in the tree since currently a pair of results objects (CCX_Results and Pipeline_CCX_Results) is created for each results frame
+
 -    **Split Input Writer**:
 
     -   false - scrie intrări întregi într-un fișier \* .inp pentru a fi utilizat de CalculiX solver
@@ -207,6 +229,12 @@ Default values can be set in the menu **Edit** → **Preferences** → **FEM** �
 
 </div>
 
+-    **Thermo Mech Type**\- <small>(v1.0)</small> :
+
+    -   coupled - coupled thermo-mechanical analysis
+    -   uncoupled - uncoupled thermo-mechanical analysis
+    -   pure heat transfer - purely thermal analysis (*\*HEAT TRANSFER*)
+
 
 <div class="mw-translate-fuzzy">
 
@@ -222,6 +250,10 @@ Default values can be set in the menu **Edit** → **Preferences** → **FEM** �
 
 
 </div>
+
+-    **Time Maximum Step**\- <small>(v1.0)</small> : maximum time increment of the step, used when parameter **Iterations User Defined Incrementations** or **Iterations User Defined Time Step Length** is *true*
+
+-    **Time Minimum Step**\- <small>(v1.0)</small> : minimum time increment of the step, used when parameter **Iterations User Defined Incrementations** or **Iterations User Defined Time Step Length** is *true*
 
 -    **Working Dir**: calea către directorul de lucru care va fi folosit pentru fișierele de analiză CalculiX.
 

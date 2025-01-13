@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign SubtractiveBox
    Name/fr: PartDesign Cube soustractif
-   MenuLocation: Part Design , Créer une primitive soustractive , Cube soustractif
+   MenuLocation: PartDesign , Créer une primitive soustractive , Cube soustractif
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/fr, PartDesign_AdditiveBox/fr
@@ -15,6 +15,8 @@
 Insère un Cube soustractif dans le corps actif. Sa forme est soustraite du solide existant.
 
 ![](images/PartDesign_SubtractiveBox_example.png ) *À gauche : le corps actif (A) est en gris et le cube soustractif (B) est en rouge transparent ; le résultat final est à droite.*
+
+
 
 ## Utilisation
 
@@ -29,6 +31,8 @@ Le Cube peut être édité après sa création de deux façons :
 
 -   Double-cliquez le dans l\'arborescence ou faire un clic droit dessus et sélectionnez **Éditer la primitive** dans le menu contextuel. Cela fait apparaître les paramètres des Primitives.
 -   Via l\'[Éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ## Propriétés
 

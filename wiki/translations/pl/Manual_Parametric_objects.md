@@ -1,35 +1,43 @@
 # Manual:Parametric objects/pl
 {{Manual:TOC}}
 
-FreeCAD is designed for parametric modeling. This means that the geometry that you create, instead of being freely sculptable, is produced by rules and parameters. For example, a cylinder might be produced from a radius and a height. With these two parameters, the program has enough information to build the cylinder.
+FreeCAD stosuje podejście projektowania parametrycznego, w którym geometria obiektów jest sterowana przez zasady i parametry, a nie dowolnie modelowana. Oznacza to, że wymiary i cechy każdego komponentu są definiowane przez parametry, które instruują program, jak generować geometrię. Na przykład, aby stworzyć cylinder, określa się takie parametry jak promień i wysokość. Na podstawie tych wartości FreeCAD generuje precyzyjny kształt geometryczny.
 
-Parametric objects, in FreeCAD, are in reality small pieces of a program that run whenever one of the parameters has changed. Objects can have a lot of different kinds of parameters: numbers (integers like 1, 2, 3 or floating-point values like 3.1416), real-world sizes (1mm, 2.4m, 4.5ft), (x,y,z) coordinates, text strings (\"hello!\") or even another object.
+We FreeCAD obiekty parametryczne są zasadniczo małymi, programowalnymi skryptami, które wykonują się po każdej zmianie parametru. Parametry te mogą się znacznie różnić, obejmując liczby całkowite i zmiennoprzecinkowe, wartości wymiarowe z rzeczywistego świata, takie jak milimetry, metry czy stopy, współrzędne (wyrażone jako x, y, z), ciągi tekstowe, a nawet odwołania do innych obiektów. Taka wszechstronność parametrów umożliwia tworzenie skomplikowanych modeli poprzez serię powiązanych operacji, w których każdy nowy obiekt czerpie swoje cechy z poprzedniego, wprowadzając jednocześnie dodatkowe atrybuty.
 
-This last type allows to quickly build complex chains of operations, each new object being based on a previous one, and adding new features to it.
+Na przykład, rozważmy tworzenie obiektu sześciennego za pomocą modelowania parametrycznego. Zaczynasz od podstawowego kształtu 2D w postaci prostokąta o długości l i szerokości w, nazwanego \'płytą\'. Ten szkic definiuje podstawę obiektu sześciennego. Następnie definiujesz operację \'Wyciągnięcia\', określając odległość, na jaką należy wypchnąć lub wciągnąć szkic, aby stworzyć obiekt 3D. W rezultacie powstaje sześcienny obiekt bazujący na kształcie szkicu oraz określonej odległości wyciągnięcia.
 
-In the example below, a solid, cubic object (Pad) is based on a rectangular 2D shape (Sketch) and has an extrusion distance. With these two properties, it produces a solid shape by extruding the base shape by the given distance. You can then use this object as a base for further operations, such as drawing a new 2D shape on one of its faces (Sketch001) and then making a subtraction (Pocket), until arriving at your final object.
+![](images/FreeCAD_022_PArametricDesignPlate.png )
 
-All the intermediary operations (2D shapes, pad, pocket, etc) are still there, and you can still change any of their parameters anytime. The whole chain will be rebuilt (recomputed) whenever needed.
+Na górnej powierzchni płyty rysujesz okrąg o określonej średnicy d. Następnie używasz tego okręgu do stworzenia kieszeni (usunięcia materiału) z oryginalnej płyty.
 
-![](images/Parametric_objects.jpg )
+![](images/FreeCAD_022_ParametricDesignPocket.png )
 
-Two important things are necessary to know:
+Jeśli zdecydujesz się zmienić którykolwiek z wymiarów płyty lub okręgu, ostateczny obiekt również zostanie zmodyfikowany. Dzięki zastosowaniu podejścia parametrycznego nie ma potrzeby tworzenia obiektu od nowa.
 
-1.  Recomputation is not always automatic. Heavy operations, that might modify a big portion of your document, and therefore take some time, are not performed automatically. Instead, the object (and all the objects that depend on it) will be marked for recomputation (a small blue icon appears on them in the tree view). You must then press the recompute button (or **Edit->Refresh**) to have all the marked objects recomputed.
-2.  The dependency tree must always flow in the same direction. Loops are forbidden. (See [DAG](Glossary#Directed_Acyclic_Graph.md), and [DAG view](DAG_view.md)) You can have object A which depends on object B which depend on object C. But you cannot have object A which depends on object B which depends on object A. That would be a circular dependency. However, you can have many objects that depend on the same object, for example objects B and C both depend on A. Menu **Tools -> Dependency graph** shows you a dependency diagram like on the image above. It can be useful to detect problems.
+1.  Przeliczanie nie zawsze odbywa się automatycznie. Ciężkie operacje, które mogą zmodyfikować dużą część dokumentu, a zatem zająć trochę czasu, nie są wykonywane automatycznie. Zamiast tego obiekt *(i wszystkie obiekty, które od niego zależą)* zostaną oznaczone do ponownego obliczenia *(w widoku drzewa pojawi się na nich mała niebieska ikona)*. Następnie należy nacisnąć przycisk ponownego obliczania *(lub **Edycja->Odśwież**)*, aby ponownie przeliczyć wszystkie zaznaczone obiekty.
+2.  Drzewo zależności musi zawsze płynąć w tym samym kierunku. Pętle są zabronione. *(Zobacz [DAG](Glossary#Directed_Acyclic_Graph.md) i [Widok DAG](DAG_view/pl.md))* Możesz mieć obiekt A, który zależy od obiektu B, który zależy od obiektu C. Ale nie możesz mieć obiektu A, który zależy od obiektu B, który zależy od obiektu A. To byłaby zależność kołowa. Można jednak mieć wiele obiektów, które zależą od tego samego obiektu, na przykład obiekty B i C zależą od A. Menu **Przybory -> Graf zależności** pokazuje diagram zależności, jak na powyższym obrazku. Może on być przydatny do wykrywania problemów.
 
-Not all objects are parametric in FreeCAD. Often, the geometry that you import from other files won\'t contain any parameter, and will be simple, non-parametric objects. However, these can often be used as a base, or starting point for newly created parametric objects, depending, of course, on what the parametric object requires and the quality of the imported geometry.
+W procesie modelowania parametrycznego w FreeCAD, analiza drzewa zależności obiektu daje wyraźny wgląd w sekwencyjną budowę i powiązania w obrębie modelu. U podstaw struktury w powyższym przykładzie znajduje się \'Szkic Płyty\', który stanowi podstawę początkowej formy modelu. Następnie stosowana jest operacja \'Wyciągnięcia\', która dodaje materiał do tego podstawowego szkicu, skutkując stworzeniem struktury trójwymiarowej z dwuwymiarowej bazy.
 
-All objects, however, parametric or not, will have a couple of basic parameters, such as a Name, which is unique in the document and cannot be edited, a Label, which is a user-defined name that can be edited, and a [placement](placement.md), which holds its position in the 3D space.
+Następnie na nowo utworzonej powierzchni tworzony jest \'Szkic Koła\'. To koło stanowi podstawę dla kolejnej operacji \'Kieszeni\'. Operacja kieszeni strategicznie usuwa materiał ze struktury, zasadniczo wycinając fragment na podstawie szkicu koła. Proces ten, polegający na dodawaniu i następnie usuwaniu materiału, pozwala na bezproblemowe wprowadzanie skomplikowanych geometrii i cech do podstawowego modelu.
 
-Finally, it is worth noting that custom parametric objects are [easy to program in python](Scripted_objects.md).
+Przez ten ciąg operacji --- zaczynając od szkicu bazowego, dodając objętość za pomocą wyciągnięcia, a następnie tworząc szczegółowe cechy z dodatkowymi szkicami i kieszeniami --- ostateczny obiekt nabiera kształtu. Każdy krok w tym łańcuchu zależy od swojego poprzednika, co ilustruje wzajemnie powiązany charakter projektowania parametrycznego we FreeCAD.
 
-**Read more**
+![](images/FreeCAD_022_ParametricDesignDependGraph.png )
 
--   [The properties editor](Property_editor.md)
--   [How to program parametric objects](Scripted_objects.md)
--   [Positioning objects in FreeCAD](Placement.md)
--   [Enabling the dependency graph](Std_DependencyGraph.md)
+Nie wszystkie obiekty są parametryczne w FreeCAD. Często geometria importowana z innych plików nie zawiera żadnych parametrów i będzie prostymi, nieparametrycznymi obiektami. Jednak często można je wykorzystać jako bazę lub punkt wyjścia dla nowo utworzonych obiektów parametrycznych, w zależności oczywiście od tego, czego wymaga obiekt parametryczny i jakości zaimportowanej geometrii.
+
+Wszystkie obiekty, parametryczne lub nie, będą jednak miały kilka podstawowych parametrów, takich jak Nazwa, która jest unikalna w dokumencie i nie może być edytowana, Etykieta, która jest nazwą zdefiniowaną przez użytkownika, którą można edytować, oraz [umiejscowienie](Placement/pl.md), które określa jego pozycję w przestrzeni 3D.
+
+Na koniec warto zauważyć, że niestandardowe obiekty parametryczne są obiektami [łatwymi do zaprogramowania w środowisku Python](Scripted_objects/pl.md).
+
+**Więcej informacji:**
+
+-   [Edytor własciwości](Property_editor/pl.md)
+-   [Obiekty tworzone skryptami](Scripted_objects/pl.md)
+-   [Umiejscowienie](Placement/pl.md)
+-   [Graf zależności](Std_DependencyGraph/pl.md)
 
 
 

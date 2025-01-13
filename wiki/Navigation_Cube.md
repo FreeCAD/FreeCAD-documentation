@@ -41,6 +41,10 @@ Clicking the small cube in the bottom right corner of the Navigation Cube brings
 
 -    **<img src="images/Std_ViewFitAll.svg" width=16px> [Fit all](Std_ViewFitAll.md)**: zooms and pans the camera so that all visible objects fit inside the view.
 
+-    **<img src="images/Std_ViewFitSelection.svg" width=16px> [Fit selection](Std_ViewFitSelection.md)**: zooms and pans the camera so that all selected objects fit inside the view. <small>(v1.0)</small> 
+
+-    **<img src="images/Std_AlignToSelection.svg" width=16px> [Align to selection](Std_AlignToSelection.md)**: points the camera in the view in the opposite direction of the normal of a planar face, or the opposite direction of a straight edge. <small>(v1.0)</small> 
+
 -    **Movable navigation cube**: if this checkbox (<small>(v0.21)</small> ) is checked the entire Navigation Cube can be moved by holding down the left mouse button anywhere on the main cube and dragging. This is intended to temporarily move the cube out of the way. The [advanced parameters](#Advanced_parameters.md) OffsetX and OffsetY can be used to permanently reposition the cube, see below.
 
 ## Customization

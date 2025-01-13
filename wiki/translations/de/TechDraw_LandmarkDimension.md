@@ -14,13 +14,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug **TechDraw MaßÜberOrientierungspunkte** fügt einer Ansicht ein lineares Maß hinzu. Das Maß basiert auf zwei Punkten (Point-Objekte wie [Draft Punkt](Draft_Point/de.md) oder [Part Punkt](Part_Point/de.md)) aus dem 3D-Modell.
-
-
-</div>
+Das Werkzeug **TechDraw MaßÜberOrientierungspunkte** fügt einer Ansicht ein lineares Maß hinzu. Das Maß basiert auf zwei Punkten (Point-Objekte wie [Draft Punkt](Draft_Point/de.md), [Part Punkt](Part_Point/de.md) oder [PartDesign Punkt](PartDesign_Point/de.md)) aus dem 3D-Modell.
 
 Der Zweck dieses Werkzeugs ist es, eine Abhilfe gegen die Beschädigung der Maße zu schaffen, die im Zusammenhang mit dem \"[Problem der topologischen Benennung](Topological_naming_problem/de.md)\" entsteht. Die Quellpunkte sollten [Ausdrücke](Expressions/de.md) verwenden oder andere Mechanismen enthalten, um ihre Position festzulegen. Da es sich bei den Punkten um [Dokumentobjekte](App_DocumentObject/de.md) und nicht um Formkomponenten handelt, ändert sich ihr Name bei Neuberechnungen nicht, so dass sie leicht gefunden werden können.
 
@@ -67,7 +61,7 @@ Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Eigenschaften.md).
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug MaßÜberOrientierungspunkte kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 

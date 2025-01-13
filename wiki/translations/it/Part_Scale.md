@@ -4,7 +4,7 @@
    Name: Part Scala
    MenuLocation: Parte , Scala...
    Workbenches: Part_Workbench/it
-   Version: 0.22
+   Version: 1.0
    SeeAlso: Draft_Clone/it, Draft_Scale
 ---
 

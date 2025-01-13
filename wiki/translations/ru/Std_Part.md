@@ -145,7 +145,7 @@ An open document can contain multiple Parts. But only one Part can be active. Th
 To activate or de-activate a Part:
 
 -   Double click on it on the [Tree view](Tree_view.md), or
--   Open the context menu (right click) and select **Toggle active part**.
+-   Open the context menu (right click) and select **Active object**.
 
 ![](images/Std_Part_active.png )
 
@@ -225,10 +225,10 @@ class MyGroup(object):
         if obj:
             self.attach(obj)
 
-    def __getstate__(self):
+    def dumps(self):
         return
 
-    def __setstate__(self, _state):
+    def loads(self, _state):
         return
 
     def attach(self, obj):
@@ -250,21 +250,27 @@ class ViewProviderMyGroup(object):
         vobj.addExtension("Gui::ViewProviderOriginGroupExtensionPython")
         self.ViewObject = vobj
 
-    def __getstate__(self):
+    def dumps(self):
         return None
 
-    def __setstate__(self, _state):
+    def loads(self, _state):
         return None
 
 App.ActiveDocument.addObject("Part::FeaturePython",
                              "Group",
-                             group.MyGroup(),
-                             group.ViewProviderMyGroup(),
+                             MyGroup(),
+                             ViewProviderMyGroup(),
                              True)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std_Base_navi

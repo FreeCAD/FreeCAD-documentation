@@ -1,5 +1,5 @@
 # Part Measure Menu/ru
-1.  REDIRECT [Part_Module/ru#Измерение](Part_Module/ru#Измерение.md)
+1.  REDIRECT [Part_Workbench/ru#Измерение](Part_Workbench/ru#Измерение.md)
 
 
 

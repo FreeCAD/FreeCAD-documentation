@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft CircularArray
-   Name/it: Serie circolare
+   Name/it: Draft Serie circolare
    MenuLocation: Modifiche , Strumenti serie , Serie circolare
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Workbenches: Draft_Workbench/it
    Version: 0.19
    SeeAlso: Draft_OrthoArray/it, Draft_PolarArray/it, Draft_PathArray/it, Draft_PathLinkArray/it, Draft_PointArray/it, Draft_PointLinkArray/it
 ---
@@ -16,7 +16,7 @@
 
 Il comando <img alt="" src=images/Draft_CircularArray.svg  style="width:24px;"> **Serie circolare** crea una serie (array) da un oggetto selezionato posizionando copie lungo circonferenze concentriche. Il comando può facoltativamente creare una Serie di [Link](App_Link/it.md), che è più efficiente di una Serie normale.
 
-Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [Arch](Arch_Workbench/it.md).
+Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [BIM](BIM_Workbench/it.md).
 
 <img alt="" src=images/Draft_CircularArray_example.png  style="width:400px;"> 
 *Serie circolare.*

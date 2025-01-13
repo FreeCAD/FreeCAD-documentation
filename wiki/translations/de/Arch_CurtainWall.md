@@ -2,11 +2,11 @@
  GuiCommand:
    Name: Arch CurtainWall
    Name/de: Arch Vorhangfassade
-   MenuLocation: Arch , Vorhandene Fassade
-   Workbenches: Arch_Workbench/de
+   MenuLocation: 3D/BIM , Vorhangfassade
+   Workbenches: BIM_Workbench/de
    Shortcut: **C** **W**
    Version: 0.19
-   SeeAlso: Arch_Wall/de, Arch_Grid/de
+   SeeAlso: 
 ---
 
 # Arch CurtainWall/de
@@ -15,7 +15,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug erstellt eine [Vorhangfassade](https://de.wikipedia.org/wiki/Vorhangfassade), indem es eine Grundfläche in viereckige Flächen unterteilt, dann vertikale Pfosten an den vertikalen Kanten und horizontale Pfosten an den horizontalen Kanten erzeugt und die Zwischenräume zwischen den Pfosten mit Paneelen füllt.
+Das Werkzeug **Arch Vorhangfassade** erstellt eine [Vorhangfassade](https://de.wikipedia.org/wiki/Vorhangfassade), indem es eine Grundfläche in viereckige Flächen unterteilt, dann vertikale Pfosten an den vertikalen Kanten und horizontale Pfosten an den horizontalen Kanten erzeugt und die Zwischenräume zwischen den Pfosten mit Platten füllt.
 
 <img alt="" src=images/Arch_CurtainWall_example.png  style="width:780px;">
 
@@ -39,20 +39,22 @@ Du kannst das Vorhangwand Werkzeug auch ohne ein ausgewähltes Objekt verwenden.
 
 ### Zeichnung einer Vorhangwand von Grund auf 
 
-1.  Stelle sicher, dass nichts ausgewählt ist
-2.  Drücke die Schaltfläche **<img src="images/Arch_CurtainWall.svg" width=16px> [Arch Vorhangfassade](Arch_CurtainWall/de.md)
-** oder drücke die Tasten **C** und dann **W**
-3.  Klicke auf einen ersten Punkt in der 3D-Ansicht oder gib eine Koordinate ein
-4.  Klicke auf einen zweiten Punkt in der 3D-Ansicht oder gib eine Koordinate ein
-5.  Stelle die benötigten Eigenschaften ein
+1.  Sicherstellen, dass nichts ausgewählt ist.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Arch_CurtainWall.svg" width=16px> [Vorhangfassade](Arch_CurtainWall/de.md)** drücken.
+    -   Den Menüeintrag **3D/BIM → <img src="images/Arch_CurtainWall.svg" width=16px> Vorhangfassade** auswählen.
+    -   Das Tastaturkürzel **C** dann **W**.
+3.  Einen ersten Punkt in der 3D-Ansicht anklicken oder eine Koordinate eingeben.
+4.  Einen zweiten Punkt in der 3D-Ansicht anklicken oder eine Koordinate eingeben.
+5.  Die erforderlichen Eigenschaften einstellen.
 
 
 
 ### Erstellung einer Vorhangwand aus einem gewählten Objekt 
 
-1.  Wähle ein oder mehrere Basisgeometrieobjekte (Entwurfsobjekt, Skizze, usw.).
-2.  Drücke die **<img src="images/Arch_CurtainWall.svg" width=16px> [Arch Vorhangfassade](Arch_CurtainWall/de.md)**, oder drücke die Tasten **C** und dann **W**.
-3.  Stelle die benötigten Eigenschaften ein.
+1.  Ein oder mehrere Basisgeometrieobjekte (Draft-Objekt, Skizze, usw.) auswählen.
+2.  Das Werkzeug wie oben beschrieben aufrufen.
+3.  Die erforderlichen Eigenschaften anpassen.
 
 
 
@@ -67,7 +69,7 @@ Du kannst das Vorhangwand Werkzeug auch ohne ein ausgewähltes Objekt verwenden.
 
 ## Eigenschaften
 
-Vorhangfassaden erben die Eigenschaften von [Arch Komponenten](Arch_Component/de.md) (Components-Objekte) und habe ebenfalls die folgenden zusätzlichen Eigenschaften:
+Vorhangfassaden erben die Eigenschaften von [Arch Komponenten](Arch_Component/de.md) (Component-Objekte) und besitzen auch die folgenden zusätzlichen Eigenschaften:
 
 -    {{PropertyData/de|Vertical Mullion Number}}:Die Anzahl der vertikalen Pfosten
 
@@ -80,6 +82,8 @@ Vorhangfassaden erben die Eigenschaften von [Arch Komponenten](Arch_Component/de
 -    {{PropertyData/de|Vertical Mullion Width}}: Die Breite der vertikalen Fassaden-Riegel, falls kein Profil ausgewählt wird
 
 -    {{PropertyData/de|Vertical Mullion Profile}}: Ein Profil für vertikale Fassaden-Riegel (deaktiviert vertikale Riegel-Abmessungen)
+
+-    {{PropertyData/de|Override Edges}}: ({{Version/de|1.0}}) Eingegeben werden die Indexzahlen von Kanten von ArchSketch-/Sketch-Basisgeometrien (im Bearbeitungsmodus). Ausgewählte Kanten werden eingesetzt, um die Form dieser Arch-Vorhangfassade zu erstellen (anstatt standardmäßig alle Kanten zu verwenden). ; wird ignoriert, wenn Base-ArchSketch die ausgewählten Kanten zur Verfügung stellt. ERWEITERUNG durch ArchSketch: GUI-Werkzeug \'Edit Curtain Wall\' wird durch das externe <img alt="" src=images/SketchArch_Workbench.svg  style="width:16px;"> [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) zur Verfügung gestellt, um den Anwender die Werte interaktiv eingeben zu lassen. \'Toponaming-Tolerant\' wenn ArchSketch als Basis eingesetzt wird (und das SketchArch Add-on installiert ist). Warnung: Nicht \'Toponaming-Tolerant\' wenn nur eine Skizze eingesetzt wird. (Siehe Forum - <https://forum.freecad.org/viewtopic.php?t=73018&start=40#p756554>)
 
 -    {{PropertyData/de|Horizontal Mullion Number}}: Die Anzahl der horizontalen Pfosten
 
@@ -145,7 +149,9 @@ Die nachfolgend beschriebene Prozedur erstellt eine Wand und eine Vorhangfassade
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug Vorhangfassade kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden: 
+Das Werkzeug Vorhangfassade kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
+
+
 ```python
 MyCurtainWall = makeCurtainWall(baseobj)
 ```
@@ -170,5 +176,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/de
+⏵ [documentation index](../README.md) > Arch CurtainWall/de

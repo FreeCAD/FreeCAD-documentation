@@ -9,11 +9,18 @@
 
 # Arch Fence/ru
 
+
+</div>
+
+
+
 ## Описание
 
-The [Arch Fence](Arch_Fence.md) is a object that builds a fence by repeating a single fence post and section along a given path.
+The **Arch Fence** is an object that builds a fence by repeating a single fence post and section along a given path.
 
 <img alt="" src=images/Arch_Fence_description_example.png  style="width:600px;">
+
+
 
 ## Применение
 
@@ -21,9 +28,11 @@ The [Arch Fence](Arch_Fence.md) is a object that builds a fence by repeating a s
 
 1.  Use a workbench of your choice to create a single fence post and a single section.
 2.  Create the path the fence should follow using the [Sketcher Workbench](Sketcher_Workbench.md) or [Draft Workbench](Draft_Workbench.md).
-3.  Switch back to the [Arch Workbench](Arch_Workbench.md).
+3.  Switch back to the [BIM Workbench](BIM_Workbench.md).
 4.  Select the section, post and path in exactly that order.
-5.  Press the **<img src="images/Arch_Fence.svg" width=16px> [Arch Fence](Arch_Fence.md)** button
+5.  Press the **<img src="images/Arch_Fence.svg" width=16px> [Fence](Arch_Fence.md)** button
+
+
 
 ## Опции
 
@@ -32,7 +41,11 @@ For now the tool assumes the following
 1.  The Path is drawn on the XY-Plane
 2.  Section and Post are drawn at the origin so that they stand upright in front view
 
+
+
 ## Свойства
+
+
 
 ### Данные
 
@@ -46,14 +59,20 @@ For now the tool assumes the following
 
 -    **Number Of Sections**: The total number of sections used to build the fence. This is calculated automatically.
 
+
+
 ### Вид
 
 -    **Use Original Colors**: When set to `True` the fence will use the colors from the original section and post. Otherwise the ShapeColor of the fence will be used to colorize the fence.
+
+
 
 ## Примечания
 
 -   Arch Fence was introduced in FC v0.19 by user furti.
 -   [Forum thread](https://forum.freecadweb.org/viewtopic.php?t=36149) discussing Arch Fence functionality
+
+
 
 ## Программирование
 
@@ -98,6 +117,20 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/ru
+⏵ [documentation index](../README.md) > Arch Fence/ru

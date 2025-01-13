@@ -28,7 +28,7 @@ Narzędzie **Wstaw obiekt środowiska Rysunek Roboczy** wstawia widok wybranego 
 4.  Istnieje kilka sposobów wywołania narzędzia:
 5.  Naciśnij przycisk **<img src="images/TechDraw_DraftView.svg" width=16px> '''Wstaw obiekt środowiska Rysunek Roboczy'''**.
     -   Wybierz opcję z menu **Rysunek Techniczny → Widoki → <img src="images/TechDraw_DraftView.svg" width=16px> Wstaw obiekt środowiska Rysunek Roboczy**.
-6.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze wybrana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+6.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze wybrana, otworzy się okno dialogowe **Wybór strony**:
     1.  Wybierz żądaną stronę.
     2.  Naciśnij przycisk **OK**.
 
@@ -52,7 +52,9 @@ Widok Rysunku Roboczego jest renderowany w środowisku [Rysunek Roboczy](Draft_W
 
 ## Właściwości
 
-Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw_View/pl#Widok.md) środowiska Rysunek Techniczny.
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt środowiska Rysunek Roboczy, formalnie obiekt {{Incode|TechDraw::DrawViewDraft}} ma [właściwości](TechDraw_View/pl#Właściwości.md) wspólne dla wszystkich typów Widoków. Ma też następujące dodatkowe właściwości:
 
 
 
@@ -73,9 +75,18 @@ Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw
 
 -    **Styl linii|String**: Styl linii używany dla tego widoku. Może to być {{Value|Solid}}, {{Value|Kreskowana}}, {{Value|Kreska kropka}}, {{Value|Kropkowana}} lub wzór linii SVG, taki jak {{Value|0.20,0.20}}.
 
--    **odstęp wierszy|Float**: Odstęp między wierszami tekstu dla tekstów wielowierszowych.
+-    **Odstęp wierszy|Float**: Odstęp między wierszami tekstu do użycia dla tekstów wielowierszowych.
 
 -    **Nadpisz styl|Bool**: Jeśli parametr przyjmuje wartość {{TRUE/pl}}, kolor linii, szerokość i styl tego widoku będą zastępować kolory, szerokość i styl renderowanego obiektu.
+
+
+{{TitleProperty|Widok rysunku}}
+
+-    **Symbol|String|Hidden**: Kod SVG definiujący ten symbol.
+
+-    **Editable Texts|StringList**: Wartości podstawienia dla edytowalnych ciągów w tym symbolu.
+
+-    **Owner|Link**: Cecha, do której ten symbol jest dołączony. {{Version/pl|1.0}}
 
 
 
@@ -96,7 +107,7 @@ rc = page.addView(dv)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

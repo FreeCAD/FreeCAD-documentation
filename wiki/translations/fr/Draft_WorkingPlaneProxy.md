@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft WorkingPlaneProxy
    Name/fr: Draft Proxy de plan de travail
-   MenuLocation: Utilitaires , Créer un proxy de plan de travail
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft/BIM : Utilitaires , Créer un proxy de plan de travail
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    SeeAlso: Draft_SelectPlane/fr
 ---
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **Draft Proxy de plan de travail** crée un proxy de plan de travail pour sauvegarder le [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours. Un proxy proxy de plan de travail peut être utilisé pour restaurer rapidement un plan de travail. La position de la caméra et la visibilité des objets dans la [Vue 3D](3D_view/fr.md) sont également enregistrées dans le proxy de plan de travail et peuvent, [accessoirement](#Propri.C3.A9t.C3.A9s.md), être restaurées également.
+La commande <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **Draft Proxy de plan de travail** crée un proxy de plan de travail pour sauvegarder le [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours. Un proxy proxy de plan de travail peut être utilisé pour restaurer rapidement un plan de travail. La position de la caméra et la visibilité des objets dans la [vue 3D](3D_view/fr.md) sont également enregistrées dans le proxy de plan de travail et peuvent, [accessoirement](#Propri.C3.A9t.C3.A9s.md), être restaurées également.
 
 <img alt="" src=images/Draft_WPProxy_example.png  style="width:400px;"> 
 *Trois proxy de plan de travail montrant différentes orientations et décalages*
@@ -20,12 +20,13 @@ La commande <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24p
 
 ## Utilisation
 
-1.  Changer éventuellement de [plan de travail](Draft_SelectPlane/fr.md).
-2.  Changer éventuellement de [Vue 3D](3D_view/fr.md).
-3.  Changer éventuellement l\'état de visibilité des objets dans le document.
+1.  Vous pouvez changer de [plan de travail](Draft_SelectPlane/fr.md).
+2.  Vous pouvez changer de [Vue 3D](3D_view/fr.md).
+3.  Vous pouvez changer l\'état de visibilité des objets dans le document.
 4.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Créer un proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md)**.
-    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Créer un proxy de plan de travail** dans le menu.
+    -   [Draft](Draft_Workbench/fr.md) : appuyez sur le bouton **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Créer un proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md)**.
+    -   Draft : sélectionnez l\'option **Utilitaires → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Créer un proxy de plan de travail** du menu ou dans le menu contextuel de la [vue en arborescenceou](Tree_view/fr.md) de la [vue 3D](3D_view/fr.md).
+    -   [BIM](BIM_Workbench/fr.md) : appuyez sur l\'option **Utilitaires → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Créer un proxy de plan de travail** du menu.
 5.  Un proxy de plan de travail est créé.
 6.  Pour aligner le [plan de travail](Draft_SelectPlane/fr.md) avec un proxy de plan de travail, double-cliquez sur le proxy de plan de travail dans la [Vue en arborescence](Tree_view/fr.md) ou utilisez-le avec la commande [Draft Plan de travail](Draft_SelectPlane/fr.md).
 

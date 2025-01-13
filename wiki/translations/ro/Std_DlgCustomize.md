@@ -41,7 +41,7 @@ Alegeți ** Tools** → **<img src="images/Std_DlgCustomize.png" width=32px> Cus
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

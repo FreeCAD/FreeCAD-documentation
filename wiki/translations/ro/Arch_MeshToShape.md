@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -23,6 +25,8 @@ Acest instrument convertește un obiect selectat [ Mesh](Mesh_Workbench.md) înt
 </div>
 
 This tool is optimized for objects with flat faces (no curves). The corresponding tool **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
+
+
 
 ## Cum se folosește 
 
@@ -70,7 +74,9 @@ Transformă o plasă într-op formă, unind fațetele coplanare.
 
 </div>
 
-Example: 
+Example:
+
+
 ```python
 import Arch, Mesh, BuildRegularGeoms
 
@@ -99,6 +105,11 @@ new_obj = Arch.meshToShape(Box)
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/ro
+⏵ [documentation index](../README.md) > Arch MeshToShape/ro

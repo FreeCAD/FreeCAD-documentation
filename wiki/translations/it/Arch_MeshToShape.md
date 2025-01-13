@@ -10,10 +10,19 @@
 # Arch MeshToShape/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Da Mesh a Forma converte un oggetto [Mesh](Mesh/it.md) ([Mesh Feature](Mesh_Feature/it.md)) selezionato in un oggetto [Forma](Shape/it.md) ([Part Feature](Part_Feature/it.md)).
+
+
+</div>
 
 Questo strumento è ottimizzato per oggetti con facce piane (senza curve). Lo strumento corrispondente **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Crea forma da mesh](Part_ShapeFromMesh/it.md)** dell\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Parte](Part_Workbench/it.md) potrebbe essere più adatto per oggetti che contengono superfici curve.
 
@@ -21,8 +30,14 @@ Questo strumento è ottimizzato per oggetti con facce piane (senza curve). Lo st
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare un oggetto mesh.
 2.  Premere il pulsante **<img src="images/Arch_MeshToShape.svg" width=16px> [Da Mesh a Forma](Arch_MeshToShape/it.md)** in **Arch → Utilità → Da mesh a forma**.
+
+
+</div>
 
 
 
@@ -41,7 +56,9 @@ Questo strumento è ottimizzato per oggetti con facce piane (senza curve). Lo st
 
 [API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Questo strumento può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+Questo strumento può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
 ```python
 new_obj = meshToShape(obj, mark=True, fast=True, tol=0.001, flat=False, cut=True)
 ```
@@ -58,7 +75,9 @@ new_obj = meshToShape(obj, mark=True, fast=True, tol=0.001, flat=False, cut=True
 
 -   Se `cut` è `True` i fori nelle facce sono fatti per sottrazione.
 
-Esempio: 
+Esempio:
+
+
 ```python
 import Arch, Mesh, BuildRegularGeoms
 
@@ -72,6 +91,20 @@ new_obj = Arch.meshToShape(Box)
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/it
+⏵ [documentation index](../README.md) > Arch MeshToShape/it

@@ -10,6 +10,8 @@
 
 # Std MacroStopDebug/ru
 
+
+
 ## Описание
 
 Эта команда не работает в настоящее время.
@@ -18,7 +20,7 @@
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

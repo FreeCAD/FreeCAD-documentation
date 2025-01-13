@@ -1,7 +1,7 @@
 # Path DressupBoundary
-1.  REDIRECT [Path_DressupPathBoundary](Path_DressupPathBoundary.md)
+1.  REDIRECT [CAM_DressupPathBoundary](CAM_DressupPathBoundary.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupBoundary
+⏵ [documentation index](../README.md) > Path DressupBoundary

@@ -5,7 +5,7 @@
    MenuLocation: Skizze , Sketcher visuell, B-spline-Informationsschicht ein- / ausblenden , B-Spline-Grad ein- / ausblenden
    Workbenches: Sketcher Workbench/de
    Version: 0.17
-   SeeAlso: Sketcher_CompCreateBSpline/de
+   SeeAlso: Sketcher_CreateBSpline/de
 ---
 
 # Sketcher BSplineDegree/de
@@ -14,17 +14,18 @@
 
 ## Beschreibung
 
-Blendet die Darstellung des Grades einer B-Spline-Kurve ein oder aus (siehe Seite [B-Splines](B-Splines/de.md) für weitere Informationen über B-Splines).
+Das Werkzeug <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [B-Spline-Grad ein- / ausblenden](Sketcher_BSplineDegree/de.md) blendet den Grad der B-Splines in allen Skizzen ein bzw. aus.
 
 ![](images/Sketcher_B-spline_example01.png ) 
-*Eine B-Spline-Kurve. Die grüne Ziffer "3" in der Mitte entspricht dem Grad der B-Spline-Kurve.*
+*Die Zahl 3 (grün, ohne Klammern) in der Mitte repräsentiert den [Grad](Sketcher_BSplineIncreaseDegree/de.md) des B-Splines.*
 
 
 
 ## Anwendung
 
-1.  Eine B-Spline-Kuve auswählen
-2.  Die Schaltfläche **[<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [B-Spline-Grad ein- / ausblenden](Sketcher_BSplineDegree/de.md)** drücken.
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_BSplineDegree.svg" width=16px> [B-Spline-Grad ein- / ausblenden](Sketcher_BSplineDegree/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Sketcher visuell → B-Spline Informationsebene ein- / ausblenden → <img src="images/Sketcher_BSplineDegree.svg" width=16px> B-Spline-Grad ein- / ausblenden** auswählen.
 
 
 

@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Std SelBack
    Name/fr: Std Sélection précédente
-   MenuLocation: Affichage , Actions dans la vue en arborescence , Sélection précédente
+   MenuLocation: Affichage , Actions dans l'arborescence , Sélection précédente
    Workbenches: Tous
    Shortcut: **S** **B**
    Version: 0.19
@@ -22,7 +22,7 @@ La commande **Std Sélection précédente** restaure la sélection précédente 
 1.  Il faut qu\'il y ait eu une sélection précédente dans la vue en arborescence.
 2.  Il y a plusieurs façons de lancer la commande :
     -   Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **<img src="images/Std_SelBack.svg" width=16px> Sélection précédente** dans la liste déroulante. Remarque : l\'image du bouton changera en fonction de l\'option sélectionnée.
-    -   Sélectionnez l\'option **Affichage → Actions dans la vue en arborescence → <img src="images/Std_SelBack.svg" width=16px> Sélection précédente** du menu.
+    -   Sélectionnez l\'option **Affichage → Actions dans l'arborescence → Sélection précédente** du menu.
     -   Utilisez le raccourci clavier : **S** puis **B**.
 3.  La sélection précédente est restaurée.
 
@@ -36,7 +36,7 @@ La commande **Std Sélection précédente** restaure la sélection précédente 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

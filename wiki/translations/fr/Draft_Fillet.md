@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Fillet
    Name/fr: Draft Congé
-   MenuLocation: Draft , Congé
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Formes , Congé<br><br>BIM : Formes 2D , Congé
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **F** **I**
    Version: 0.19
    SeeAlso: Draft_Line/fr, Draft_Wire/fr
@@ -13,24 +13,29 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draft Congé** crée un congé, un coin arrondi ou un chanfrein, un bord droit entre deux [Draft Lignes](Draft_Line/fr.md).
+La commande <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draft Congé** crée un congé, un coin arrondi, un chanfrein ou une arête droite entre deux arêtes sélectionnées.
+
+Dans la {{VersionMinus/fr|0.21}}, la commande ne fonctionne correctement que si les deux arêtes sélectionnées sont droites.
+
+Dans la {{VersionMinus/fr|1.0}}, si les objets sélectionnés ont plusieurs arêtes, leur première arête sera utilisée. Il se peut que ce ne soit pas l\'arête qui a été choisie dans la [vue 3D](3D_view/fr.md).
 
 <img alt="" src=images/Draft_Fillet_example.png  style="width:400px;"> 
-*Plusieurs congés et chanfreins créés entre deux lignes*
+*Plusieurs congés et chanfreins créés entre deux arêtes*
 
 
 
 ## Utilisation
 
-1.  Sélectionner deux [Draft Lignes](Draft_Line/fr.md) qui se rejoignent en un seul point.
+1.  Sélectionnez deux arêtes qui se rejoignent en un seul point.
 2.  Il y a plusieurs façons de lancer la commande :
-    -   Appuyer sur le **<img src="images/Draft_Fillet.svg" width=16px> [Congé](Draft_Fillet/fr.md)**.
-    -   Sélectionner l\'option **Draft → <img src="images/Draft_Fillet.svg" width=16px> Congé** du menu.
-    -   Utiliser le raccourci clavier : **F** puis **I**.
-3.  Saisir le **Rayon du congé**. Si l\'option **Créer un chanfrein** est sélectionnée, ce sera la taille du chanfrein (la longueur de la règle). Notez que la commande n\'aboutira pas si le rayon ou la taille du chanfrein est trop grand pour les lignes sélectionnées.
+    -   Appuyez sur le **<img src="images/Draft_Fillet.svg" width=16px> [Congé](Draft_Fillet/fr.md)**.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionnez l\'option **Formes → <img src="images/Draft_Fillet.svg" width=16px> Congé** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionnez l\'option **Formes 2D → <img src="images/Draft_Fillet.svg" width=16px> Congé** du menu.
+    -   Utilisez le raccourci clavier : **F** puis **I**.
+3.  Saisissez le **Rayon du congé**. Remarquez que la commande n\'aboutira pas si le rayon est trop grand pour les arêtes sélectionnées.
 4.  Vous pouvez vérifier l\'option **Supprimer les objets originaux**.
 5.  Vous pouvez vérifier l\'option **Créer un chanfrein**.
-6.  Si vous avez sélectionné l\'une des deux options précédentes : cliquer dans le champ de saisie **Rayon du congé**.
+6.  Si vous avez sélectionné l\'une des deux options précédentes : cliquez dans le champ de saisie **Rayon du congé**.
 7.  Appuyer sur **Entrée**.
 
 ## Options
@@ -41,9 +46,8 @@ La commande <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draf
 
 ## Remarques
 
--   Un Draft Congé ne peut pas être édité et n\'est pas lié aux lignes qui ont été utilisées pour le créer.
--   Seules les Draft Lignes, c\'est-à-dire les [Draft Polylignes](Draft_Wire/fr.md) avec seulement deux points sont supportés pour le moment.
--   Une [Draft Polyligne](Draft_Wire/fr.md) qui a au moins trois points peut recevoir un congé ou être chanfreinée en modifiant respectivement sa **Fillet Radius** ou **Chamfer Size**. Le fait que les [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md) puissent être jointes avec les commandes [Draft Polylignes](Draft_Wire/fr.md), [Draft Joindre](Draft_Join/fr.md) ou [Draft Agréger](Draft_Upgrade/fr.md), nous avons ici une méthode alternative pour créer des filets et des chanfreins.
+-   Un Draft Congé ne peut pas être édité et n\'est pas lié aux arêtes qui ont été utilisées pour le créer.
+-   Une [Draft Polyligne](Draft_Wire/fr.md) qui a au moins trois points peut recevoir un congé ou être chanfreinée en modifiant respectivement **Fillet Radius** ou **Chamfer Size**. Le fait que les [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md) puissent être jointes avec les commandes [Draft Polylignes](Draft_Wire/fr.md), [Draft Joindre](Draft_Join/fr.md) ou [Draft Agréger](Draft_Upgrade/fr.md), nous avons ici une méthode alternative pour créer des filets et des chanfreins.
 
 
 
@@ -60,11 +64,11 @@ Un objet Draft Congé est dérivé d\'un [Part Part2DObject](Part_Part2DObject/f
 
 {{TitleProperty|Draft}}
 
--    **End|VectorDistance**: (en lecture seule) spécifie le dernier point du congé.
+-    **End|VectorDistance**: (lecture seule) spécifie le dernier point du congé.
 
--    **Fillet Radius|Length**: (en lecture seule) rayon avec lequel le congé a été créé.
+-    **Fillet Radius|Length**: (lecture seule) rayon avec lequel le congé a été créé.
 
--    **Length|Length**: (en lecture seule) spécifie la longueur totale du congé.
+-    **Length|Length**: (lecture seule) spécifie la longueur totale du congé.
 
 -    **Start|VectorDistance**: (lecture seule) spécifie le point de départ du congé.
 
@@ -95,12 +99,12 @@ Pour créer un Draft Congé, utilisez la méthode `make_fillet` du module Draft 
 
 
 ```python
-fillet = make_fillet([line1, line2], radius=100, chamfer=False, delete=False)
+fillet = make_fillet([edge1, edge2], radius=100, chamfer=False, delete=False)
 ```
 
--   Crée un objet `Congé` entre les lignes `ligne1` et `ligne2`, en utilisant le `rayon` pour la courbure.
--   Si le `chanfrein` est `True`, il créera une arête droite de la longueur du `rayon`, au lieu d\'un arête arrondie.
--   Si `delete` est `True`, il supprimera les `ligne1` et `ligne2` données, et ne laissera que le nouvel objet.
+-   Crée un objet `Fillet` entre les objets arêtes `edge1` et `edge2`, en utilisant `radius` pour la courbure.
+-   Si `chamfer` est `True`, cela créera une arête droite au lieu d\'un arête arrondie.
+-   Si `delete` est `True`, cela supprimera `edge1` et `edge2` données et ne laissera que le nouvel objet.
 
 Exemple :
 
@@ -115,12 +119,12 @@ p1 = App.Vector(0, 0, 0)
 p2 = App.Vector(1000, 1000, 0)
 p3 = App.Vector(2000, 0, 0)
 
-line1 = Draft.make_line(p1, p2)
-line2 = Draft.make_line(p2, p3)
+edge1 = Draft.make_line(p1, p2)
+edge2 = Draft.make_line(p2, p3)
 
 doc.recompute()
 
-fillet = Draft.make_fillet([line1, line2], radius=500)
+fillet = Draft.make_fillet([edge1, edge2], radius=500)
 
 doc.recompute()
 ```

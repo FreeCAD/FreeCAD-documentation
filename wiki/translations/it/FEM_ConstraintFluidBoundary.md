@@ -1,9 +1,12 @@
-# FEM ConstraintFluidBoundary/it
 ---
- GuiCommand:   Name: FEM_ConstraintFluidBoundary   Name/it: Vincolo contorno del fluido   MenuLocation:  Modello , Vincoli dei fluidi , Vincolo contorno del fluido   ---
+ GuiCommand:
+   Name: FEM ConstraintFluidBoundary
+Name/it=Vincolo al contorno del fluido
+   MenuLocation: Modello , Vincoli dei fluidi , Vincolo contorno del fluido
+   Workbenches: FEM_Workbench/it
+---
 
-
-</div>
+# FEM ConstraintFluidBoundary/it
 
 
 
@@ -16,13 +19,7 @@ Da fare
 ## Utilizzo
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

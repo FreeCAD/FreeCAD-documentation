@@ -171,6 +171,20 @@ Arch.removeSpaceBoundaries(Space, selection)
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Space/ru
+⏵ [documentation index](../README.md) > Arch Space/ru

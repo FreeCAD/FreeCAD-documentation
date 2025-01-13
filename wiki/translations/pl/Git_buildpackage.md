@@ -1,32 +1,32 @@
 # Git buildpackage/pl
-Modern Debian development workflows involve [packaging with Git](https://wiki.debian.org/PackagingWithGit) and the primary tool for doing that is [git-buildpackage](http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html). git-buildpackage provides a gbp command with several options similar to the git command itself. Many of these commands are themselves just a wrapper of lower-level Debian tools, so the complexity to learning packaging can be quite high.
+Współczesne przepływy pracy w Debianie obejmują [tworzenie pakietów za pomocą Git](https://wiki.debian.org/PackagingWithGit) i podstawowym narzędziem do tego jest [git-buildpackage](http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html). git-buildpackage udostępnia polecenie gbp z kilkoma opcjami podobnymi do polecenia git samego w sobie. Wiele z tych poleceń to po prostu nakładka na niższopoziomowe narzędzia Debiana, więc złożoność nauki pakietowania może być dość wysoka.
 
-To get around that, here are the short & simple steps to getting started with git-buildpackage. This should work on nearly any Debian-based distribution, but I recommend working on this in a clean and separate environment a [Debian Unstable](Debian_Unstable.md) virtual machine.
+Aby to obejść, oto krótkie i proste kroki do rozpoczęcia pracy z git-buildpackage. Powinno to działać na prawie każdej dystrybucji opartej na Debianie, ale zalecam pracę nad tym w czystym i oddzielnym środowisku na maszynie wirtualnej [Debian Unstable](Debian_Unstable/pl.md).
 
-1.  Install it with sudo apt install git-buildpackage
-2.  Grab the dotfiles at the end of this page. You\'ll need: ~/.gbp.conf, ~/.pbuilderrc, and ~/.quiltrc
-3.  The package build will occur in a clean environment. Create it with sudo git-pbuilder create
-4.  Find the URL of a package you want to build on <https://salsa.debian.org>, the Debian project\'s self-hosted GitLab instance
-5.  Create a clone of it with 
-6.  Enter the cloned repo\'s directory with cd
-7.  Run the build with gbp buildpackage -us -uc
-8.  When it\'s finished, your packages will be at ../build-area/.
+1.  Zainstaluj go za pomocą polecenia sudo apt install git-buildpackage.
+2.  Pobierz pliki konfiguracyjne na końcu tej strony. Będziesz potrzebować: ~/.gbp.conf, ~/.pbuilderrc, i ~/.quiltrc.
+3.  Budowa pakietu będzie przeprowadzana w czystym środowisku. Utwórz je za pomocą polecenia sudo git-pbuilder create.
+4.  Znajdź adres URL pakietu, który chcesz zbudować na <https://salsa.debian.org>, samohostującym się instancji GitLab projektu Debian.
+5.  Utwórz jego klon za pomocą polecenia .
+6.  Wejdź do katalogu sklonowanego repozytorium za pomocą polecenia cd.
+7.  Uruchom proces budowy za pomocą polecenia gbp buildpackage -us -uc.
+8.  Gdy proces się zakończy, Twoje paczki znajdą się w ../build-area/.
 
 ##### gbp.conf
 
-Location: ~/.gbp.conf
+Lokalizacja: ~/.gbp.conf
 
 <https://gitlab.com/kkremitzki/dotfiles/blob/master/.gbp.conf>
 
 ##### pbuilderrc
 
-Location: ~/.pbuilderrc
+Lokalizacja: ~/.pbuilderrc
 
 <https://gitlab.com/kkremitzki/dotfiles/blob/master/.pbuilderrc>
 
 ##### quiltrc
 
-Location: ~/.quiltrc
+Lokalizacja: ~/.quiltrc
 
 <https://gitlab.com/kkremitzki/dotfiles/blob/master/.quiltrc>
 

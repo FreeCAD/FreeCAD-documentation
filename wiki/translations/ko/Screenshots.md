@@ -1,5 +1,22 @@
 # Screenshots/ko
-Here are a few screenshots showing different parts of FreeCAD. They are not ordered in any particular timeline, so the images may differ from your actual version. See more screenshots submitted by FreeCAD users on the [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) and on the [\"Show your project here!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).
+<div class="mw-translate-fuzzy">
+
+다음은 FreeCAD의 다양한 부분을 보여주는 몇 가지 갈무리 화면입니다. 정 타임라인에 정렬된 것이 아니므로 이미지가 실제 버전과 다를 수 있습니다. [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751)와 [\"Show your project here!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24)에 FreeCAD 사용자가 제출한 더 많은 갈무리화면 보세요.
+
+
+</div>
+
+### The 1.0 release 
+
+<img alt="" src=images/PartDesign_Pozidriv.png  style="width:1024px;">
+
+<img alt="" src=images/Assembly_Example.png  style="width:1024px;">
+
+<img alt="" src=images/BIM_Example.png  style="width:1024px;">
+
+<img alt="" src=images/FEM_Example.png  style="width:1024px;">
+
+
 
 ### 0.17 릴리스
 
@@ -29,6 +46,8 @@ Here are a few screenshots showing different parts of FreeCAD. They are not orde
 
 <img alt="" src=images/freeCAD-guitar.jpg  style="width:1024px;">
 
+
+
 ### 0.16 릴리스 
 
 <img alt="" src=images/Hhassey.png  style="width:1024px;">
@@ -43,6 +62,8 @@ Here are a few screenshots showing different parts of FreeCAD. They are not orde
 
 <img alt="" src=images/R_tec.jpeg  style="width:1024px;">
 
+
+
 ### 0.15 릴리스 
 
 <img alt="" src=images/Obijuan.png  style="width:1024px;">
@@ -55,151 +76,75 @@ Here are a few screenshots showing different parts of FreeCAD. They are not orde
 
 <img alt="" src=images/Lou_papet.png  style="width:1024px;">
 
+
+
 ### 0.14 릴리스 
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
-A jeep modeled by psicofil
+
+<div class="mw-translate-fuzzy">
+
+
+
+*psicofil이 모델링한 지프*
+
+
+</div>
 
 <img alt="" src=images/Rockn_house1.png  style="width:1024px;">
 
 <img alt="" src=images/Rockn_house2.png  style="width:1024px;">
 
-A house made with the Arch Workbench by rockn
+
+<div class="mw-translate-fuzzy">
+
+
+
+*rockn의 건축 작업대로 만든 집*
+
+
+</div>
 
 <img alt="" src=images/Mesh_curvature_plot1.jpeg  style="width:1024px;">
 
-Mesh curvature analysis by the Mesh Workbench
+
+
+*Mesh curvature analysis by the Mesh Workbench*
 
 <img alt="" src=images/Cura_export.png  style="width:1024px;">
 
-Export to external applications with python macros
 
-### 0.12 릴리스 
 
-![Assembly of multiple objects\|1024px](images/FreeCAD_aeroponic_system.jpg )
+*Export to external applications with python macros*
 
-![A fully-constrained sketch revolved to create a bike rim section\|1024px](images/rim_bling.png )
+### The 0.12 release 
+
+<img alt="" src=images/FreeCAD_aeroponic_system.jpg  style="width:1024px;">
+
+
+
+*Assembly of multiple objects*
+
+<img alt="" src=images/rim_bling.png  style="width:1024px;">
+
+
+
+*A fully-constrained sketch revolved to create a bike rim section*
 
 ### The 0.11 release 
 
 <img alt="" src=images/FreeCAD011.png  style="width:1024px;">
 
-### 0.10 릴리스 
+### The 0.10 release 
 
 ![](images/Freecad010.png )
 
-### 0.9 릴리스 
+### The 0.9 release 
 
 ![](images/Freecad09.jpg )
-
-### Measurement
-
-<img alt="" src=images/Measurement.jpeg  style="width:800px;">
-
-### STEP
-
-![](images/Screenshot-gcad.jpg )
-
-A screenshot showing FreeCAD importing and rendering a gCAD STEP model
-
-### STEP Data 
-
-<img alt="" src=images/TaskPanel.jpg  style="width:800px;">
-
-With loaded Robot gripper
-
-### Robot gripper 
-
-![](images/FreeCAD_Screenshot.png )
-
-On XP with Schenkel
-
-### Shape에서 불 연산 
-
-<img alt="" src=images/Part_BooleanOperations.png  style="width:800px;">
-
-불 연산
-
-### IGES
-
-![](images/Freecad-vista01.jpg )
-
-FreeCAD on Windows Vista, with an IGES model from [Rexroth](http://www13.boschrexroth-us.com) loaded
-
-### Fancy
-
-![](images/Sceenshot-reversevid.jpg‎ )
-
-You can customize a lot of aspects of FreeCAD!
-
-### Meshe에서 불 
-
-![](images/Screenshot_mesh.jpg )
-
-Mesh boolean operations in FreeCAD
-
-### 블렌더
-
-![](images/Fcblender.jpg )
-
-Blender has an [script](http://yorik.orgfree.com/guestblog.php?2009=105) to import FreeCAD files.
-
-### Drawing Extraction 
-
-<img alt="" src=images/Drawing_extraction.png  style="width:800px;">
-
-Extracting a 3D part (STEP in this case) to a SVG **Drawing Extraction** View. This is fully parametric, if the part change the view follows.
-
-### FreeCAD 그리고 QCad 
-
-![](images/Screenshot_qcad.jpg )
-
-A screenshot showing how a same file gets rendered by FreeCAD and qCAD
-
-### FreeCAD vs. Inkscape 
-
-![](images/Screenshot_inkscape.jpg )
-
-A screenshot showing how a same file gets rendered by FreeCAD and inkscape
-
-### Draft Workbench 
-
-![](images/Screenshot_draft.jpg )
-
-Freecad with the [draft Workbench](Draft_Workbench.md) loaded and a dxf drawing imported
-
-### Preferences
-
-![](images/Freecad-vista02.jpg )
-
-The preferences screen
-
-### On Ubuntu 
-
-![](images/Interface_screenshot.jpg )
-
-The FreeCAD interface when you start it for the first time, on Ubuntu
-
-### Windows installer 
-
-![](images/Screenshot_installer.jpg )
-
-Windows installer at work
-
-### Console mode 
-
-![](images/Screenshot_console.jpg )
-
-FreeCAD runs in console mode (without gui)
-
-### Save picture 
-
-![](images/Save_picture.png )
-
-Dialog to save a picture with arbitrary sizes.
 
 
 
 ---
-⏵ [documentation index](../README.md) > Screenshots/ko
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Screenshots](Category_Screenshots.md) > Screenshots/ko

@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -21,6 +23,8 @@ Fuziunea a două sau mai multor schițe.
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

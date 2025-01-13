@@ -18,6 +18,11 @@ Constrângerea greutății proprii este definită de către accelerația gravita
 </div>
 
 
+{{VersionMinus|0.21}}
+
+: The acceleration has a fixed value of 9.81 m/s\^2.
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -11,9 +11,22 @@
 
 # Arch Pipe/ru
 
+
+</div>
+
+
+
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Этот инструмент позволяет создавать трубы с нуля или из выбранных объектов. Выбранные объекты должны быть основами деталей (Draft, Sketch, и дт..) и содержать одну и только одну незамкнутую линию.
+
+
+</div>
+
+
 
 ## Применение
 
@@ -26,11 +39,36 @@
 
 </div>
 
+
+
 ## Параметры
+
+
+<div class="mw-translate-fuzzy">
 
 -   Трубы обладают таким же общими свойствами и моделью поведения, как и все остальные [компоненты верстака Arch](Arch_Component/ru.md)
 
+
+</div>
+
+
+
 ## Свойства
+
+### Data
+
+
+{{TitleProperty|Component}}
+
+-    **Base|Link**: The base wire of this pipe, if any.
+
+For the other properties in the group see [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|Pipe}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Length**: Задает длину данной трубы, когда она не основана на кривой
 
@@ -40,9 +78,20 @@
 
 -    **Profile**: Базовый профиль данной трубы. Если не задан, труба будет цилиндрическая.
 
+
+</div>
+
+
+
 ## Процесс создания 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Начните с размещения предметов сантехники/гидравлики (ниже указано пошагово). Вы переводите эти объекты в Оборудование, выбирая их и нажимая кнопку [Оборудование](Arch_Equipment/ru.md).
+
+
+</div>
 
 ![](images/Arch_pipe_example_01.jpg )
 
@@ -76,11 +125,23 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_05.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Теперь нам нужно только выбрать все наши линии и нажать кнопку [Труба](Arch_Pipe/ru.md). Инструмент Труба работает с любыми основами Деталей, которые содержат одну и только одну незамкнутую линию (или кривую).
+
+
+</div>
 
 ![](images/Arch_pipe_example_06.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Теперь мы можем создавать соединения, выбирая 2 или 3 соединенные трубы и нажимая кнопку [Соединитель Труб](Arch_PipeConnector.md). Если выбраны 3 трубы, две из них должны быть выровнены, чтобы создать элемент тройника:
+
+
+</div>
 
 ![](images/Arch_pipe_example_07.jpg )
 
@@ -113,10 +174,10 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 
 ```python
-Pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
+pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
 ```
 
--   Creates a `Pipe` object from the given `baseobj` and `diameter`.
+-   Creates a `pipe` object from the given `baseobj` and `diameter`.
     -   
         `baseobj`
         
@@ -133,16 +194,30 @@ p1 = FreeCAD.Vector(1000, 0, 0)
 p2 = FreeCAD.Vector(2500, 200, 0)
 p3 = FreeCAD.Vector(3100, 1000, 0)
 p4 = FreeCAD.Vector(3500, 500, 0)
-Line = Draft.makeWire([p1, p2, p3, p4])
+line = Draft.make_wire([p1, p2, p3, p4])
 
-Pipe = Arch.makePipe(Line, 200)
+pipe = Arch.makePipe(line, 200)
 FreeCAD.ActiveDocument.recompute()
 
-Pipe2 = Arch.makePipe(diameter=120, length=3000)
+pipe2 = Arch.makePipe(diameter=120, length=3000)
 FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/ru
+⏵ [documentation index](../README.md) > Arch Pipe/ru

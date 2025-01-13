@@ -2,10 +2,10 @@
  GuiCommand:
    Name: Arch Site
    Name/de: Arch Grundstück
-   Workbenches: Arch_Workbench/de
-   MenuLocation: Arch , Grundstück
+   MenuLocation: 3D/BIM , Grundstück
+   Workbenches: BIM_Workbench/de
    Shortcut: **S** **I**
-   SeeAlso: Arch_Floor/de, Arch_Building/de
+   SeeAlso: 
 ---
 
 # Arch Site/de
@@ -14,14 +14,14 @@
 
 ## Beschreibung
 
-Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard FreeCAD Gruppenobjekts und Arch Objekten kombiniert. Es ist besonders zur Repräsentation einer gesamten Projektfläche bzw. eines Terrains geeignet. In IFC-basierter architektonischer Arbeit dient es der Organisation deines CAD Modells und enthält [Gebäude](Arch_Building/de.md) Objekte. Die Baustelle wird auch verwendet, um vorhandenes Gelände zu verwalten und anzuzeigen und kann benutzt werden, um das Volumen von aufzufüllender oder abzutragender Erde zu berechnen.
+Das **Arch Grundstück** ist ein spezielles Objekt, das Eigenschaften eines normalen FreeCAD-Gruppenobjekts mit denen von Arch-Objekten kombiniert. Es ist besonders zur Darstellung einer gesamten Projektfläche bzw. eines Geländes geeignet. In IFC-basierter architektonischer Arbeit dient es der Organisation des CAD-Modells und enthält [Gebäude](Arch_Building/de.md) (Building-Objekte). Das Grundstück wird auch verwendet, um vorhandenes Gelände zu verwalten und anzuzeigen und kann benutzt werden, um das Volumen von aufzufüllender oder abzutragender Erde zu berechnen.
 
 
 
 ## Anwendung
 
-1.  Optional ein oder mehrere Objekte auswählen, die in eine neues Grundstück übernommen werden sollen.
-2.  Die Schaltfläche **<img src="images/Arch_Site.svg" width=16px> [Grundstück](Arch_Site/de.md)** drücken oder das Tastaturkürzel **S**, dann **I** verwenden.
+1.  Wahlweise ein oder mehrere Objekte auswählen, die in eine neues Grundstück übernommen werden sollen.
+2.  Die Schaltfläche **<img src="images/Arch_Site.svg" width=16px> [Grundstück](Arch_Site/de.md)** drücken oder das Tastaturkürzel **S** dann **I** verwenden.
 
 
 
@@ -109,7 +109,7 @@ Die Baustellengeometrie wird neu berechnet und die Flächen, der Umfang und die 
 
 Wenn [Ladybug](https://www.ladybug.tools/ladybug.html) auf deinem System installiert ist, kann [Arch Grundstück](Arch_Site/de.md) ein Solardiagramm und/oder eine Windrose anzeigen. Hierfür müssen {{PropertyData/de|Längengrad}}, {{PropertyData/de|Breitengrad}} und {{PropertyData/de|Deklination}} (previously {{PropertyData/de|Nordabweichung}}) korrekt eingestellt und {{PropertyView/de|Solardiagramm}} oder {{PropertyView/de|Windrose}} auf `True` gesetzt sein.
 
-**Hinweis**: Wenn du keinen Ladybug hast, wird [pysolar](http://pysolar.org/) immer noch unterstützt, um Solardiagramme zu erstellen, aber keine Windrosen. Pysolar 0.7 oder höher ist erforderlich; diese Version funktioniert nur mit Python 3. Wenn du diese Funktion mit Python 2 benötigst, solltest du Pysolar 0.6 haben, da dies die letzte Version ist, die mit Python 2 funktioniert. Allerdings ist Ladybug ein weitaus leistungsfähigeres Werkzeug, das in Zukunft wahrscheinlich häufiger verwendet werden wird, so dass wir empfehlen, es anstelle von Pysolar zu verwenden. Ladybug kann einfach über [pip](https://github.com/ladybug-tools/ladybug) installiert werden.
+**Hinweis**: Wenn du kein Ladybug hast, wird [pysolar](http://pysolar.org/) immer noch unterstützt, um Solardiagramme zu erstellen, aber keine Windrosen. Pysolar 0.7 oder höher ist erforderlich. Allerdings ist Ladybug ein weitaus leistungsfähigeres Werkzeug, das in Zukunft wahrscheinlich häufiger verwendet werden wird, so dass wir empfehlen, es anstelle von Pysolar zu verwenden. Ladybug kann einfach über [pip](https://github.com/ladybug-tools/ladybug) installiert werden.
 
 ![](images/Freecad-solar-diagram.jpg )
 
@@ -190,5 +190,13 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/de
+⏵ [documentation index](../README.md) > Arch Site/de

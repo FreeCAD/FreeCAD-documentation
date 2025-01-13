@@ -32,10 +32,10 @@ Git is a complex tool, consider learning the basics of it before using this tool
 
 ![Tasks tab showing Git interface](images/Arch_Git_panel.jpg )
 
--   The **Log** button will pop up a dialog showing the most recent log entries. The output corresponds to git log.
+-   The **Log** button will pop up a dialog showing the most recent log entries. The output corresponds to {{Incode|git log}}.
 -   The **Refresh** button will re-scan the repository for changed files. After saving your work you have to do a manual refresh.
--   The **Diff** button will show the differences between the current version of a selected file and the most recent version stored in the repository. The output corresponds to git diff.
-    -   By default a binary diff is made, you have to set up the fcinfo tool for textual diffing.
+-   The **Diff** button will show the differences between the current version of a selected file and the most recent version stored in the repository. The output corresponds to {{Incode|git diff}}.
+    -   By default a binary diff is made, you have to set up the {{Incode|fcinfo}} tool for textual diffing.
 -   The **Select all** button will select all files to be committed.
 -   The **Commit** button will commit the selected files. Be sure to write a commit message that describes the changes you are committing.
 -   The **Pull** button will **download** any new changes to the repository from the selected remote. If the file currently opened in FreeCAD is being modified by a pull, a warning message will inform you so you can either save the file again or save it elsewhere.
@@ -106,21 +106,70 @@ Each FreeCAD file contains a SHA1 checksum number, which will change each time t
 
 To enable the use of fcinfo (Linux and Mac only - TODO: add Windows instructions)
 
-1.  Save the fcinfo file somewhere in your system path
-2.  Make it executable
-3.  Create a .gitattributes file in your Git repository and add the following line in it:
+### Using fcinfo on a single Git repository 
 
-*.FCStd diff=fcinfo
+These are the steps to enable the use of fcinfo tool in a repository basis.
 
-Add the following lines to the .gitconfig file in your home directory:
+-   Save the fcinfo file somewhere in your system path.
 
-[diff "fcinfo"]
-textconv = /path/to/fcinfo
+:   Note: Since 2023-12-09, on Arch Linux systems the {{Incode|fcinfo}} script is included on {{Incode|freecad}} package, [patch here](https://gitlab.archlinux.org/archlinux/packaging/packages/freecad/-/commit/4419bfbfdb670abebd7f2e6ed93194e819781f7d).
 
-Alternatively, if you want to invoke fcinfo with arguments (e.g., --gui) use this approach [1](https://stackoverflow.com/questions/55601430/how-to-pass-a-filename-argument-gitconfig-diff-textconv):
+-   Make it executable.
 
-[diff "fcinfo"]
-textconv = sh -c '/path/to/fcinfo --gui "$0"'
+:   Note: Since 2023-12-09, on Arch Linux systems the {{Incode|fcinfo}} is available at {{Incode|/usr/bin/fcinfo}}.
+
+-   Create a {{Incode|.gitattributes}} file in your Git repository and add the following line in it:
+
+:   
+    {{Code|lang=text|code=
+    *.FCStd diff=fcinfo
+    }}
+    
+
+-   Add the following lines to the {{Incode|.gitconfig}} file in your home directory:
+
+:   
+    {{Code|lang=text|code=
+    [diff "fcinfo"]
+    textconv = /path/to/fcinfo
+    }}
+    
+
+-   Alternatively, if you want to invoke fcinfo with arguments (e.g., {{Incode|--gui}}) use [this approach](https://stackoverflow.com/questions/55601430/how-to-pass-a-filename-argument-gitconfig-diff-textconv):
+
+:   
+    {{Code|lang=text|code=
+    [diff "fcinfo"]
+    textconv = sh -c '/path/to/fcinfo --gui "$0"'XD
+    }}
+    
+
+Note that if you are working in a collaborative project you may want to include the fcinfo tool in your repository, in that case the path is relative to your Git repository root directory.
+
+### Enabling fcinfo globally 
+
+If you are working on many projects that need fcinfo tool you can enable it globally for your user.
+
+-   Create a {{Incode|$HOME/.config/git/attributes}} file and add the following line on it:
+
+:   
+    {{Code|lang=text|code=
+    *.FCStd diff=fcinfo
+    }}
+    
+
+-   Add the following lines to the {{Incode|$HOME/.config/git/config}} file:
+    -   It\'s equivalent command is {{Incode|git config --global diff.fcinfo.textconv "/path/to/fcinfo"}}.
+    -   Arch Linux users using {{Incode|freecad}} package can use {{Incode|textconv = fcinfo}} since it\'s already installed on their system.
+
+:   
+    {{Code|lang=text|code=
+    [diff "fcinfo"]
+    textconv = /path/to/fcinfo
+    }}
+    
+
+Note that any configuration made in a repository basis overrides global configurations.
 
 
 

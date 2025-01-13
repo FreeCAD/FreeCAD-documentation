@@ -3,7 +3,7 @@
    Name: Draft Layer
    Name/pl: Rysunek Roboczy: Warstwa
    MenuLocation: Narzędzia , Warstwa
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
    Version: 0.19
    SeeAlso: Draft_AutoGroup/pl, Draft_LayerManager/pl
 ---
@@ -22,7 +22,7 @@ Polecenie <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Warstwa
 
 1.  Istnieje kilka sposobów wywołania polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Layer.svg" width=16px> '''Warstwa'''**.
-    -   Wybierz z menu opcję **Narzędzia → <img src="images/Draft_Layer.svg" width=16px> Warstwa**.
+    -   Wybierz opcję **Narzędzia → <img src="images/Draft_Layer.svg" width=16px> Warstwa** z menu lub z menu kontekstowego [widoku drzewa](Tree_view.md) bądź [widoku 3D](3D_view.md).
     -   Jeśli kontener warstwy już istnieje: kliknij go prawym przyciskiem myszy w widoku drzewa i wybierz opcję **<img src="images/Draft_NewLayer.svg" width=16px> Dodaj nową warstwę** z menu kontekstowego.
 2.  Jeśli nie istnieje, najpierw tworzony jest kontener warstwy.
 3.  Warstwa jest tworzona i umieszczana w kontenerze warstw.
@@ -106,7 +106,9 @@ Właściwości w tej sekcji są stosowane do obiektów umieszczonych wewnątrz w
 
 -    **Zastąp elementy potomne kolorem linii|Bool**: określa, czy zmiany w **Kolorze linii** warstwy są przekazywane do obiektów wewnątrz warstwy.
 
--    **Zastąp elementy podrzędne kolorem kształtu|Bool**: określa, czy zmiany w **Kolorze kształtu** warstwy są przekazywane do obiektów wewnątrz warstwy.
+-    **Zastąp elementy podrzędne kolorem kształtu|Bool**: określa, czy zmiany w **Kolorze kształtu** warstwy są przekazywane do obiektów wewnątrz warstwy. {{Version/pl|1.0}}
+
+-    **Wygląd kształtu|MaterialList**: określa wygląd kształtu warstwy. {{Version/pl|1.0}}
 
 -    **Kolor kształtu|Color**: określa kolor kształtu warstwy.
 

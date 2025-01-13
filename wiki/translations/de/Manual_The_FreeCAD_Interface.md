@@ -1,31 +1,69 @@
 # Manual:The FreeCAD Interface/de
 {{Manual:TOC}}
 
-FreeCAD benutzt das [Qt Rahmenwerk](https://de.wikipedia.org/wiki/Qt_(Bibliothek)) um seine Oberfläche darzustellen und zu verwalten. Dieses Rahmenwerk wird in einer Vielzahl von Anwendungen verwendet, so dass die FreeCAD-Oberfläche sehr klassisch aussieht und es daher keine besondere Schwierigkeit darstellt, sie zu verstehen. Die meisten Schaltflächen sind Standard und werden dort angezeigt, wo du sie erwartest **Datei → Öffnen, Bearbeiten → Einfügen, usw**. Hier ist das Aussehen von FreeCAD, wenn du es zum ersten Mal öffnest, gleich nach der Installation, und zeigt dir das Startzentrum:
+FreeCAD basier auf dem [Qt-Rahmenwerk](https://de.wikipedia.org/wiki/Qt_(Bibliothek)) und ist durch eine einfache und geradlinige Benutzerschnittstelle gekennzeichnet. Erfahrenere CAD-Anwender können Ähnlichkeiten mit anderen Programmen erkennen, während neue Anwender einfach verschiedene neue Möglichkeiten ausprobieren, die FreeCAD bereithält. Hier ist das Standarderscheinungsbild von FreeCAD:
 
-![](images/FreeCAD-v0-18-FirstStart.png )
+![](images/FreeCAD_022_Start.png )
 
-Das Startcenter ist ein gefälliger \"Begrüßungsbildschirm\", der nützliche Informationen für Neueinsteiger anzeigt, wie z.B. die neuesten Dateien, an denen du gearbeitet hast, was es Neues in der FreeCAD Welt gibt oder Schnellinfos zu den gängigsten Arbeitsbereichen. Außerdem wirst Du benachrichtigt, wenn eine neue stabile Version von FreeCAD verfügbar ist.
+Die Startseite dient als Begrüßungsbildschirm und soll einen schnellen und einfachen Zugriff auf die wichtigsten Bereiche von FreeCAD ermöglichen, die ein Benutzer erkunden möchte. Über sie können Benutzer mühelos neue Teile erstellen, aktuelle Dateien öffnen und mit dem 2D-Entwurf beginnen. Darüber hinaus bietet sie Verknüpfungen zu hilfreichen Ressourcen wie Tutorials und Benutzerforen, die sowohl für Anfänger als auch für erfahrene Benutzer, die Anleitungen oder Tipps suchen, von unschätzbarem Wert sind. Benutzer können das Erscheinungsbild der Startseite problemlos nach ihren Wünschen anpassen.
 
-Nach einer Weile, wenn du dich mit FreeCAD besser auskennst, hast du vielleicht Änderungen in den Einstellungen vorgenommen, so dass du dich beim Start von FreeCAD direkt in einem der Arbeitsbereiche wiederfindest, wenn ein neues Dokument geöffnet ist. Oder du schließt einfach den Reiter \"Startseite\" und erstellst ein neues Dokument:
+Wenn du mit FreeCAD besser vertraut bist, kannst du die Einstellungen unter „Einstellungen" anpassen. Dadurch kannst du FreeCAD so konfigurieren, dass es direkt in einem der Arbeitsbereiche geöffnet wird und beim Starten ein neues Dokument bereitsteht. Alternativ kannst du einfach die Registerkarte „Startseite" schließen und manuell ein neues Dokument erstellen.
 
-![](images/FreeCAD-v0-18-NewProject.png )
+![](images/FreeCAD_022_PartDesign.png )
 
 
 
 ### Arbeitsbereiche
 
-Beachte, dass sich einige der Symbole zwischen den beiden obigen Bildschirmaufnahmen geändert haben. Hier kommt das wichtigste Konzept der FreeCAD-Oberfläche ins Spiel: Arbeitsbereiche.
+FreeCAD verwendet ein System namens „Arbeitsbereiche" (Workbenches), das den konzeptionellen Rahmenbedingungen in fortschrittlicher Designsoftware wie Revit oder CATIA ähnelt. Die Idee eines Arbeitsbereichs ist analog zu spezialisierten Stationen in einem wissenschaftlichen Labor, wo verschiedene Arbeitsstationen für unterschiedliche Arten von Experimenten ausgestattet sind. In einem Labor gibt es möglicherweise einen Bereich für Chemie, einen anderen für Biologie und einen dritten für Physik, die jeweils mit den spezifischen Werkzeugen ausgestattet sind, die für diese Disziplinen erforderlich sind.
 
-Arbeitsberiche sind Gruppen von Werkzeugen (Schaltflächen in der Symbolleiste, Menüs und andere Bedienelemente der Benutzeroberfläche), die nach Spezialgebieten gruppiert sind. Stelle dir eine Werkstatt vor, in der verschiedene Personen zusammenarbeiten: Eine Person, die mit Metall arbeitet, eine andere mit Holz. Jeder von ihnen hat in seiner Werkstatt einen separaten Tisch mit spezifischen Werkzeugen für seine Arbeit. Sie können jedoch alle an den gleichen Objekten arbeiten. Dasselbe geschieht in FreeCAD.
+Im Kontext von FreeCAD ist jeder Arbeitsbereich auf einen bestimmten Aufgabentyp zugeschnitten und organisiert alle erforderlichen Werkzeuge für diese Aktivität in einer Oberfläche. Beim Wechseln zwischen Arbeitsbereichen passt sich der in der Benutzeroberfläche sichtbare Satz von Werkzeugen und Steuerelementen an die Anforderungen der ausgewählten Aufgabe an, obwohl sich der eigentliche Projektinhalt oder die „Szene", an der du arbeitest, nicht ändert. Dies ermöglicht nahtlose Übergänge im Arbeitsablauf, z. B. das Beginnen eines Entwurfs mit grundlegenden 2D-Formen im Arbeitsbereich Draft und das anschließende Ausarbeiten dieser Entwürfe mit erweiterten Modellierungswerkzeugen im Arbeitsbereich Part.
+
+Die Begriffe „Arbeitsbereich" und „Modul" werden manchmal synonym verwendet, haben aber innerhalb von FreeCAD unterschiedliche Bedeutungen. Ein Modul ist jede Erweiterung, die FreeCAD Funktionalität hinzufügt, während ein Arbeitsbereich eine bestimmte Art von Modul ist, das mit eigenen Benutzeroberflächenkomponenten wie Symbolleisten und Menüs ausgestattet ist und bestimmte Aufgabentypen erleichtern soll. Daher ist jeder Arbeitsbereich ein Modul, aber nicht jedes Modul qualifiziert sich als Arbeitsbereich.
 
 Die wichtigste Steuerung der FreeCAD-Oberfläche ist der Arbeitsbereichswähler, mit dem du von einem Arbeitsbereich zum anderen wechseln kannst:
 
-![](images/FreeCAD-v0-18-WorkbenchMenu.png )
+![](images/FreeCAD_WB.png )
 
-Die Arbeitsbereiche verwirren neue Benutzer oft, da es nicht immer einfach ist, zu wissen, in welchem Arbeitsbereich man nach einem bestimmten Werkzeug suchen soll. Aber sie sind schnell zu begreifen, und nach kurzer Zeit wird es sich ganz natürlich anfühlen - wenn man erkennt, dass es ein bequemer Weg ist, die Vielzahl der Werkzeuge, die FreeCAD zu bieten hat, zu organisieren. Arbeitsbereiche sind auch vollständig anpassbar (siehe unten). Dasselbe Werkzeug kann in mehr als einem Arbeitsbereich erscheinen. Das Schaltflächensymbol für ein bestimmtes Werkzeug wird immer das gleiche sein, egal in welchem Arbeitsbereiche es erscheint.
+-   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> Der Arbeitsbereich [Assembly](Assembly_Workbench/de.md) zum Erstellen und Lösen mechanischer Baugruppen. {{Version/de|1.0}}
 
-Später in diesem Handbuch findest du auch eine Tabelle mit dem Inhalt aller Arbeitsbereiche.
+-   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> Der Arbeitsbereich [BIM](BIM_Workbench/de.md) zum Arbeiten mit Architekturelementen und Erstellen von [BIM](https://en.wikipedia.org/wiki/Building_information_modeling)-Modellen. Er kombiniert den Arbeitsbereich Arch und den ehemals externen Arbeitsbereich BIM, der in {{VersionMinus/de|0.21}} verfügbar ist.
+
+-   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> Der Arbeitsbereich [CAM](CAM_Workbench/de.md) Wird eingesetzt, um G-Code-Anweisungen zu erstellen. Dieser Arbeitsbereich wurde in {{VersionMinus/de|0.21}} \"Path\" genannt.
+
+-   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> Der Arbeitsbereich [Draft](Draft_Workbench/de.md) enthält 2D-Werkzeuge und grundlegende 2D- und 3D-CAD-Bearbeitungen.
+
+-   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> Der [Arbeitsbereich FEM](FEM_Workbench/de.md) stellt einen Arbeitsablauf für die Finite-Elemente-Analyse (FEA) zur Verfügung.
+
+-   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> Der Arbeitsbereich [Inspection](Inspection_Workbench/de.md) wurde entwickelt, um spezielle Werkzeuge für die Untersuchung von Formen bereitzustellen. Er befindet sich noch in einer frühen Entwicklungsphase.
+
+-   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> Der Arbeitsbereich [Material](Material_Workbench/de.md) kümmert sich um FreeCADs Materialsystem. {{Version/de|1.0}}
+
+-   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> Der Arbeitsbereich [Mesh](Mesh_Workbench/de.md) (Netz) für die Arbeit mit triangulierten Polygonnetzen.
+
+-   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> Der Arbeitsbereich [OpenSCAD](OpenSCAD_Workbench/de.md) für das Zusammenspiel mit OpenSCAD und die Reparatur der Modellhistorie von [konstruktiver Festkörpergeometrie](constructive_solid_geometry/de.md) (Constructive-Solid-Geometry - CSG).
+
+-   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> Der Arbeitsbereich [Part](Part_Workbench/de.md) für die Arbeit mit geometrischen Grundkörpern und booleschen Verknüpfungen.
+
+-   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> Der Arbeitsbereich [Part Design](PartDesign_Workbench/de.md) zum Erstellen von Part-Formen aus Skizzen.
+
+-   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> Der Arbeitsbereich [Points](Points_Workbench/de.md) (Punkte) für die Arbeit mit Punktwolken.
+
+-   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> Der Arbeitsbereich [Reverse Engineering](Reverse_Engineering_Workbench/de.md) soll spezielle Werkzeuge bereitstellen, um Formen, Festkörper oder Netze in parametrische, zu FreeCAD kompatible Formelemente umzuwandeln.
+
+-   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> Der Arbeitsbereich [Robot](Robot_Workbench/de.md) zur Untersuchung von Roboterbewegungen. Wird derzeit nicht gewartet.
+
+-   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> Der Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) (Skizzierer) für die Arbeit mit durch geometrische Beziehungen bestimmten Skizzen.
+
+-   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> Der Arbeitsbereich [Spreadsheet](Spreadsheet_Workbench/de.md) (Tabellenkalkulation) zur Erstellung und Bearbeitung von Daten in Kalkulations- bzw. Konstruktionstabellen.
+
+-   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> Der Arbeitsbereich [Surface](Surface_Workbench/de.md) (Oberfläche) stellt Werkzeuge zum Erstellen und Ändern von Oberflächen zur Verfügung. Er ähnelt der Option *Fläche aus Kanten* des [Part Form-Generators](Part_Builder/de.md).
+
+-   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> Der Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md) zur Erstellung technischer Zeichnungen aus 3D-Modellen. Er ist der Nachfolger des Arbeitsbereichs [Drawing](Drawing_Workbench/de.md).
+
+-   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> Der Arbeitsbereich [Test Framework](Testing/de.md) dient zum Debuggen von FreeCAD.
+
+Neue Benutzer sind durch die Arbeitsbereiche oft verwirrt, da es nicht immer einfach ist, zu wissen, in welchem ​​Arbeitsbereich man nach einem bestimmten Werkzeug suchen soll. Sie sind jedoch schnell zu erlernen und fühlen sich nach kurzer Zeit ganz natürlich an. Neue Benutzer erkennen schnell, dass Arbeitsbereiche eine praktische Möglichkeit sind, die Vielzahl der Werkzeuge zu organisieren, die FreeCAD zu bieten hat. Darüber hinaus sind Arbeitsbereiche auch vollständig anpassbar.
 
 
 
@@ -33,38 +71,37 @@ Später in diesem Handbuch findest du auch eine Tabelle mit dem Inhalt aller Arb
 
 Lass uns einen genaueren Blick auf die verschiedenen Teile der Oberfläche werfen:
 
-![](images/FreeCAD-v0-18-Cube.png )
+![](images/FreeCAD_022_Interface.png )
 
--   **Die 3D-Ansicht** ist die Hauptkomponente der Oberfläche; hier werden die Objekte, mit denen du arbeitest, gezeichnet und verändert. Du kannst mehrere Ansichten desselben Dokuments (oder derselben Objekte) oder mehrere Dokumente gleichzeitig geöffnet haben. Jede dieser Ansichten kann einzeln vom Hauptfenster abgedockt werden. Du kannst Objekte oder Teile von Objekten durch Anklicken auswählen und die Ansicht mit den Maustasten verschieben, zoomen und drehen. Dies wird im nächsten Kapitel näher erläutert.
+Das Hauptfenster der Anwendung lässt sich grob in 11 Abschnitte unterteilen:
 
-Neben dem Fenster der 3D-Ansicht stehen folgende Informationspaneele zur Verfügung. Sie können durch Auswahl unter **Ansicht → Paneele** ein- oder ausgeblendet werden. Der Name des Paneels erscheint in der linken oberen Ecke des Paneels, wenn es angezeigt wird:
+1.  Der [Hauptansichtsbereich](main_view_area/de.md), der verschiedene Fenster mit Registerkarten enthalten kann.
+2.  Die [3D-Ansicht](3D_view/de.md), normalerweise eingebettet in den [Hauptansichtsbereich](main_view_area/de.md). Die 3D-Ansicht ist das zentrale Element der Benutzeroberfläche. Sie zeigt die Objekte, an denen du arbeitest, und ermöglicht deren Bearbeitung. Es ist möglich, mehrere Ansichten desselben Dokuments (oder derselben Objekte) zu haben oder mehrere Dokumente gleichzeitig geöffnet zu haben. Darüber hinaus kann jede Ansicht separat vom Hauptfenster getrennt werden.
+3.  Das Modell und die Registerkarte [Aufgaben](task_panel/de.md).
+    1.  Die Registerkarte Modell zeigt dir den Inhalt und die Struktur deines Dokuments.
+    2.  Auf der Registerkarte Aufgaben fordert FreeCAD dich zur Eingabe von Werten auf, die für den Workbench und das Werkzeug spezifisch sind, das du gerade verwendest (z. B. die Abmessungen eines Objekts).
+4.  Der [Eigenschafteneditor](property_editor/de.md), der angezeigt wird, wenn die Registerkarte Modell in der Benutzeroberfläche aktiv ist. Er ermöglicht die Verwaltung der öffentlich zugänglichen Eigenschaften der Objekte im Dokument. Er besteht aus den Abschnitten Daten und Ansicht, in denen die Visualisierungseigenschaften bzw. die parametrischen Eigenschaften der Objekte angezeigt werden.
+5.  Die [Auswahlansicht](selection_view/de.md), die die ausgewählten Objekte oder Unterelemente von Objekten (Knoten, Kanten, Flächen) anzeigt.
+6.  Das [Ausgabefenster](report_view/de.md), in dem Nachrichten, Warnungen und Fehler angezeigt werden.
+7.  Die [Python-Konsole](python_console/de.md) in der alle ausgeführten Befehle ausgegeben werden und in der du Python-Code eingeben kannst.
+8.  Die [Statusleiste](status_bar/de.md), in der einige Nachrichten und Tooltips angezeigt werden.
+9.  Der Symbolleistenbereich, in dem die Symbolleisten angedockt sind.
+10. Die [Arbeitsbereichsauswahl](Std_Workbench/de.md), in der du den aktiven [Arbeitsbereich](Workbenches/de.md) auswählst.
+11. Das [Standardmenü](Standard_Menu/de.md), das die grundlegenden Operationen des Programms enthält.
 
--   **Die Combo-Ansicht** hat zwei Registerkarten:
-    -   Der Reiter Modell zeigt den Inhalt und die Struktur des Dokuments oben und die Eigenschaften (oder Parameter) des/der ausgewählten Objekts/e unten. Diese Eigenschaften sind in zwei Kategorien unterteilt:
-        -   Daten (Eigenschaften, die die Geometrie selbst betreffen)
-        -   Ansicht (Eigenschaften, die das Aussehen der Geometrie auf dem Bildschirm bestimmen).
-    -   Der Reiter Aufgaben; dies ist der Bereich, in dem FreeCAD nach Werten fragt, die spezifisch für den Arbeitsbereich und das Werkzeug sind, die du gerade verwendest. Zum Beispiel die Eingabe eines Wertes \'Länge\', wenn das Werkzeug [Linie](Draft_Line/de.md) des Arbeitsbereichs Draft verwendet wird.
+Drücke „CTRL-ENTER" zum Bestätigen und gehe zur nächsten
 
-Er wird geleert und wechselt zurück auf den Reiter Modell nachdem **OK** (oder Cancel) gedrückt wurde. Ein Doppelklick auf das zugehörige Objekt im Reiter Modell öffnet normalerweise wieder den entsprechenden Reiter Aufgaben, um die Einstellungen zu ändern.
-Der Reiter Aufgaben hat manchmal rätselhafte und frustrierende Nebeneffekte. Wenn der Aufgabenbereich nicht leer ist, werden einige FreeCAD-Operationen nicht wie erwartet funktionieren. Wenn du zum Beispiel ein einzelnes Objekt in deinem Modell hast, wie z.B. einen Würfel, öffnet ein Doppelklick darauf den Aufgabenbereich, um die Parameter, die den Würfel charakterisieren, zu ändern. Wenn die [Auswahlansicht](#Selection_view/de.md) geöffnet ist, siehst du den internen Namen des Würfels dort aufgelistet. Der gesamte Würfel wird in der 3D-Ansicht grün, was anzeigt, dass der gesamte Würfel ausgewählt ist. Ein Klick auf den Hintergrund hebt die Auswahl des gesamten Würfels auf und löscht die Auswahlansicht. Bislang ist dies ein normales Verhalten. Wenn du jetzt jedoch auf eine Fläche des Würfels klickst, wird anstatt dieser Fläche nichts ausgewählt, da der Aufgabenbereich nicht abgeschlossen ist. Auch wenn dort keine Änderungen an den Parametern vorgenommen wurden, wartet FreeCAD darauf, dass die Schaltfläche **OK** (oder eine andere) im Augabenbereich angeklickt werden.
-
--   **Das Ausgabefenster** ist normalerweise ausgeblendet, aber es ist eine gute Idee, es zu öffnen, da es alle Informationen, Warnungen oder Fehler auflistet, um dabei zu helfen, mögliche Fehler aufzuspüren (debugging).
--   **Die Python-Konsole** ist ebenfalls standardmäßig ausgeblendet. Hier kannst du mit Hilfe der [Sprache Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) mit dem Inhalt des Dokuments interagieren. Da jede Aktion, die du auf der FreeCAD-Oberfläche durchführst, tatsächlich ein Stück Python-Code ausführt, kannst du, wenn du diese geöffnet hast, die Entwicklung des Codes in Echtzeit beobachten --- und so nebenbei auf wunderbare und einfache Weise ein wenig Python lernen, fast ohne es zu merken.
--   **Die Baumansicht** zeigt nur den Objektbaum an, der unter dem Reiter Modell in der Combo-Ansicht angezeigt wird. Er ist normalerweise ausgeblendet.
--   **Die Eigenschaftenansicht** zeigt nur die Informationen zu den Objekteigenschaften an, die unten in der Combo-Ansicht angezeigt werden. Sie ist normalerweise ausgeblendet.
--   **Die Auswahlansicht** zeigt die Namen der aktuell gewählten Objekte an. Dies sind die Objekte, auf die eine Arbeitsbereichsoperation angewendet wird. Sie kann verwendet werden, um die Auswahl zu verfeinern, indem einige dieser Objekte vor der Anwendung einer Arbeitsbereichsoperation abgewählt werden. Die Auswahlansicht kann auch dazu verwendet werden, um Objekte nach Namen zu suchen und diese dann auszuwählen. Standardmäßig ist die Auswahlansicht ausgeblendet. Du kannst zwar oft das/die aktuell ausgewählte(n) Objekt(e) ermitteln, indem du dir den Objektbaum im Reiter Modell der Combo-Ansicht ansiehst, aber bei komplexen Operationen, die eine Mehrfachauswahl erfordern und bei denen die Auswahl schwierig ist, ist es hilfreich, diese Ansicht einzublenden, damit du sowohl die Benennungen sehen als auch die ausgewählten Objekte zählen kannst.
-
-![](images/FreeCAD-v0-18-ExtrudeTask.png )
+Die meisten der oben genannten Paneele können über das Menü **Ansicht → Bedienfelder** ausgeblendet oder angezeigt werden.
 
 
 
 ### Anpassung der Oberfläche 
 
-Die Oberfläche von FreeCAD ist in hohem Maße anpassbar. Alle Paneele und Werkzeugleisten können an verschiedene Stellen verschoben oder übereinander gestapelt werden. Sie können auch geschlossen und bei Bedarf über das Menü Ansicht oder durch einen Rechtsklick auf einen leeren Bereich der Oberfläche wieder geöffnet werden. Es sind jedoch noch viele weitere Optionen verfügbar, wie z.B. das Erstellen von benutzerdefinierten Symbolleisten mit Werkzeugen aus einer der Arbeitsbereiche oder das Zuweisen und Ändern von Tastaturkürzeln.
+Die FreeCAD-Oberfläche ist für umfassende Anpassungen konzipiert. Alle Symbolleisten und Bedienfelder können je nach Benutzerwunsch in verschiedenen Konfigurationen verschoben, gestapelt oder sogar angedockt werden. Darüber hinaus können sie bei Bedarf geschlossen und dann wieder geöffnet werden. Darüber hinaus haben Benutzer zahlreiche weitere Optionen, darunter die Möglichkeit, benutzerdefinierte Symbolleisten mit Werkzeugen aus den verfügbaren Arbeitsbereichen zu erstellen und Tastaturkürzel zuzuweisen oder zu ändern, um den Arbeitsablauf zu optimieren. Diese Flexibilität stellt sicher, dass Benutzer die Umgebung an ihre spezifischen Bedürfnisse und Vorlieben anpassen können.
 
 Diese erweiterten Anpassungsoptionen sind über das Menü **Werkzeuge → Menü Anpassen** verfügbar:
 
-![](images/FreeCAD-v0-18-CustomizeInterface.png )
+![](images/FreeCAD_022_Customization.png )
 
 **Weiterlesen**
 

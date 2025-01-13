@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -22,8 +24,10 @@
 
 </div>
 
-![](images/Sketcher_ValidateSketch_taskpanel.png ) 
+<img alt="" src=images/Sketcher_ValidateSketch_taskpanel.png  style="width:" height="500px;"> 
 *The Sketcher validation task panel*
+
+
 
 ## Применение
 
@@ -42,7 +46,11 @@
 
 </div>
 
+
+
 ## Опции
+
+
 
 ### Пропавшие совпадения 
 
@@ -55,6 +63,8 @@ Press **Highlight troublesome vertexes** to highlight vertexes that are outside 
 This tolerance is also used by the **Find**/**Fix** process.
 
 Установите флажок \"Игнорировать вспомогательную геометрию\", чтобы игнорировать вспомогательную геометрию при анализе.
+
+
 
 ### Неверные ограничения 
 
@@ -74,11 +84,15 @@ For instance, if a line is forced to shorten to become almost a point.
 
 Other examples: a zero length line or zero radius circle/arc.
 
+
+
 ### Перевернутая внешняя геометрия 
 
 Перевернутая внешняя геометрия может произойти из-за того, что обработка перевернутой геометрии была изменена около версии 0.15.
 
 This process might be helpful if sketches with external-geometry fail to solve because of these changes.
+
+
 
 ### Блокировка ориентации ограничений 
 

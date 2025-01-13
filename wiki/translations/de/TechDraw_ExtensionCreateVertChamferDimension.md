@@ -26,7 +26,13 @@ Das **TechDraw ExtensionCreateVertChamferDimension** Werkzeug erstellt ein verti
 
 1.  Zwei Knotenpunkte auswählen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-    -   Die schaltfläche **<img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> [Vertikales Maß an Fase erstellen](TechDraw_ExtensionCreateVertChamferDimension/de.md)** drücken.
+    -   
+        {{Version/de|1.0}}
+        
+        : Ist die [Einstellung](TechDraw_Preferences/de#Maßeinträge.md) **Maß-Werkzeuge** auf {{Value|Einzelnes Werkzeug}} (Standardeinstellung) gesetzt: Den Nach-unten-Pfeil rechts neben der Schaltfläche **<img src="images/TechDraw_Dimension.svg" width=|x16px> <img src="images/Toolbar_flyout_arrow.svg" width=x16px>** drücken und die Menüoption **<img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> Vertikales Maß an Fase erstellen** in der Ausklappliste auswählen.
+
+    -   Hat die Einstellung einen anderen Wert (und in {{VersionMinus/de|0.21}}): Die Schaltfläche **<img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> [Vertikales Maß an Fase erstellen](TechDraw_ExtensionCreateVertChamferDimension/de.md)** drücken.
+
     -   Den Menüeintrag **TechDraw → Ergänzung: Maße → <img src="images/TechDraw_ExtensionCreateVertChamferDimension.svg" width=16px> Vertikales Maß an Fase erstellen** auswählen.
 3.  Eine Fasenbemaßung wird eingefügt.
 

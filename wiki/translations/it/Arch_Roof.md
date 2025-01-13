@@ -11,10 +11,19 @@
 # Arch Roof/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento **<img src="images/Arch_Roof.svg" width=16px> [Tetto](Arch_Roof/it.md)** consente di creare un tetto inclinato selezionando un contorno. L\'oggetto Tetto creato in questo modo è parametrico e mantiene le sue relazioni con l\'oggetto base. Si basa sul principio che ad ogni bordo viene assegnata una falda del tetto (con le caratteristiche di pendenza, larghezza coperta, sbalzo, spessore).
+
+
+</div>
 
 **Nota:** Questo strumento è ancora in sviluppo e potrebbe non funzionare correttamente con le forme molto complesse.
 
@@ -23,7 +32,10 @@ Lo strumento **<img src="images/Arch_Roof.svg" width=16px> [Tetto](Arch_Roof/it.
 
 
 
-## Utilizzo
+## Utilizzo (profilo di base) 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Creare un contorno chiuso seguendo il senso antiorario e selezionarlo.
 
@@ -52,6 +64,33 @@ Lo strumento **<img src="images/Arch_Roof.svg" width=16px> [Tetto](Arch_Roof/it.
 
 9.  
     **Nota**: per una migliore comprensione, vedere questo [youtube clip](https://www.youtube.com/watch?v=4Urwru71dVk).
+
+
+</div>
+
+
+
+## Usage (solido di base) 
+
+Se il tetto ha una forma complessa (ad esempio contiene finestre inclinate o altre caratteristiche non standard) si può creare un oggetto solido personalizzato utilizzando vari altri ambienti di lavoro di FreeCAD ([Part](Part_Workbench/it.md), [Sketcher](Sketcher_Workbench/it.md) ecc.) . E poi usare questo solido come oggetto **Base** del tetto:
+
+1.  Selezionare l\'oggetto solido di base.
+2.  Premere il pulsante **<img src="images/Arch_Roof.svg" width=16px> [Tetto](Arch_Roof/it.md)**, oppure premere i tasti **R** quindi i tasti **F**.
+
+
+
+## Sottrarre un tetto 
+
+I tetti hanno un volume di sottrazione generato automaticamente ({{Version/it|1.0}} per tetti con una base solida). Quando un tetto viene [rimosso](Arch_Remove/it.md) dalle pareti di un edificio, sia il tetto stesso che tutto ciò che sta sopra di esso viene sottratto dalle pareti.
+
+
+{{Version/it|1.0}}
+
+: è possibile sovrascrivere il volume di sottrazione automatica impostando la proprietà **Subvolume** del tetto su un oggetto solido personalizzato.
+
+<img alt="" src=images/Arch_Roof_Subtract_Default.png  style="width:" height="150px;"> <img alt="" src=images/Arch_Roof_Subtract_Subvolume.png  style="width:" height="150px;"> <img alt="" src=images/Arch_Roof_Subvolume_Example.png  style="width:" height="150px;"> 
+*Tetto a base solida prima (1a immagine) e dopo (2a immagine) [averlo rimosso](Arch_Remove/it.md) dai muri.<br>
+La terza immagine mostra il volume di sottrazione generato.*
 
 
 
@@ -87,6 +126,8 @@ Lo strumento **<img src="images/Arch_Roof.svg" width=16px> [Tetto](Arch_Roof/it.
 -    **Ridge Length|Length**: La lunghezza totale delle creste e dei fianchi del tetto.
 
 -    **Runs|FloatList**: L\'elenco delle proiezioni della lunghezza orizzontale dei segmenti del tetto.
+
+-    **Subvolume|Link**: il volume da sottrarre. Se specificato, viene utilizzato al posto del sottovolume generato automaticamente. {{Version/it|1.0}}
 
 -    **Thickness|FloatList**: L\'elenco degli spessori dei segmenti del tetto.
 
@@ -137,6 +178,20 @@ doc.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/it
+⏵ [documentation index](../README.md) > Arch Roof/it

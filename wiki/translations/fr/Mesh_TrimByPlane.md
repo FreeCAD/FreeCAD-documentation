@@ -24,10 +24,10 @@ La commande **Ajuster par plan** permet de découper les faces et parties de fac
 **
     -   Sélectionnez l\'option **Maillages → Couper → <img src="images/Mesh_TrimByPlane.svg" width=16px> Ajuster le maillage avec un plan** du menu.
 
-3.  La boîte de dialogue **Découpe par un plan** s\'ouvre.
+3.  La fenêtre de dialogue **Découpe par un plan** s\'ouvre.
 
 4.  
-    **Sélectionner le coté à conserver.**en appuyant sur l\'un des boutons:
+    **Sélectionner le coté à conserver**en appuyant sur l\'un des boutons :
 
     -   
         **En-dessous**

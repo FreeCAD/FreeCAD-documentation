@@ -3,7 +3,7 @@
    Name: Draft Heal
    Name/pl: Rysunek Roboczy: Napraw
    MenuLocation: Narzędzia , Napraw
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
    SeeAlso: Draft_Upgrade/pl, Draft_Downgrade/pl
 ---
 

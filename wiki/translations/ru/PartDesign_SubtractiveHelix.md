@@ -10,6 +10,8 @@
 
 # PartDesign SubtractiveHelix/ru
 
+
+
 ## Описание
 
 The **SubtractiveHelix** tool modifies a solid by sweeping a selected sketch or 2D object along a helix path cutting away the material.
@@ -18,6 +20,8 @@ The **SubtractiveHelix** tool modifies a solid by sweeping a selected sketch or 
 
 *The profile (B), is swept around axis (A) in order to produce the helical groove (C) in the pre-existing work piece*
 
+
+
 ## Применение
 
 1.  Select the sketch to be swept into a helix. A face on the existing solid can alternatively be used.
@@ -25,6 +29,8 @@ The **SubtractiveHelix** tool modifies a solid by sweeping a selected sketch or 
 3.  Set the Helix parameters (see next section).
 4.  Inspect the Helix in the view window, to ensure that the parameters do not result in a self intersecting helix.
 5.  Press **OK**.
+
+
 
 ## Опции
 
@@ -51,6 +57,8 @@ This controls what parameters will be used to define the helix. The choices are:
 -   **Pitch-Turns-Angle**: definition via the height per turn and the number of turns
 -   **Height-Turns-Angle**: definition via the overall height and the number of turns
 -   **Height-Turns-Growth** <small>(v0.20)</small> : definition via the overall height, the number of turns and the growth of the helical radius. So a Height of zero leads to a path in form of a spiral. A Height and Growth of zero to leads to a path in form of a circle.
+
+
 
 ### Шаг
 
@@ -88,6 +96,8 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 
 -   A subtractive helix that does not intersect the body will be visible in the preview if **Tools → Edit parameters... → BaseApp → Preferences → Mod → PartDesign → SubtractiveHelixPreview** is set to `True`. The default for this preference is `True`. <small>(v0.20)</small> 
 
+
+
 ## Свойства
 
 -    **Pitch**: The axial distance between two turns.
@@ -120,8 +130,19 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 
 -    **Allow multiple face**: Not used.
 
+## Notes
+
+-   A <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [ShapeBinder](PartDesign_ShapeBinder.md) cannot be used for the profile.
+-   When using a <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [SubShapeBinder](PartDesign_SubShapeBinder.md) for the profile, selecting the binder in the [Tree view](Tree_view.md) will fail, instead the binder\'s face has to selected in the [3D view](3D_view.md).
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

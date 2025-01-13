@@ -1,138 +1,163 @@
 ---
  GuiCommand:
    Name: Arch CurtainWall
-   MenuLocation: Arch , Curtain Wall
-   Workbenches: Arch_Workbench
+   Name/pl: Architektura: Ściana kurtynowa
+   MenuLocation: 3D/BIM , Ściana kurtynowa
+   Workbenches: BIM_Workbench/pl
    Shortcut: **C** **W**
    Version: 0.19
-   SeeAlso: Arch_Wall, Arch_Grid
+   SeeAlso: 
 ---
 
 # Arch CurtainWall/pl
 
-## Description
 
-This tool creates a [curtain wall](https://en.wikipedia.org/wiki/Curtain_wall_(architecture)) by subdividing a base face into quadrangular faces, then creating vertical mullion on the vertical edges, horizontal mullions on the horizontal edges, and filling the spaces between mullions with panels.
+
+## Opis
+
+Narzędzie **Ściana kurtynowa** tworzy [ścianę kurtynową](https://pl.wikipedia.org/wiki/%C5%9Aciana_os%C5%82onowa), dzieląc powierzchnię bazową na czworokątne powierzchnie, a następnie tworząc pionowe słupy na pionowych krawędziach, poziome rygle na poziomych krawędziach i wypełniając przestrzenie między słupami panelami.
 
 <img alt="" src=images/Arch_CurtainWall_example.png  style="width:780px;">
 
-Curtain Walls can be created from any type of existing object, in which case all the faces of the object will be subdivided. It works therefore best if used with an object that has only one face. Typically, you would first create a face, preferably bound by exactly 4 edges, that represents the area you want to fill with a curtain wall, then apply the tool.
+Ściany kurtynowe mogą być tworzone z dowolnego istniejącego obiektu, w takim przypadku wszystkie powierzchnie obiektu zostaną podzielone. Działa to najlepiej, gdy używany jest obiekt posiadający tylko jedną powierzchnię. Zazwyczaj najpierw należy utworzyć powierzchnię, najlepiej ograniczoną dokładnie 4 krawędziami, która reprezentuje obszar, który chcesz wypełnić ścianą kurtynową, a następnie zastosować narzędzie.
 
-Curtain walls can also be built from a linear object, such as a line, arc or polyline, like the normal [wall](Arch_Wall.md) tool.
+Ściany kurtynowe można również budować z obiektów liniowych, takich jak linia, łuk lub polilinia, podobnie jak w przypadku zwykłego narzędzia [ściana](Arch_Wall/pl.md).
 
-Faces that have double curvature, or faces with more than 4 edges will work too, but the result is less predictable.
+Powierzchnie o podwójnej krzywiźnie lub powierzchnie o więcej niż 4 krawędziach również będą akceptowane, ale wynik będzie mniej przewidywalny.
 
-Faces will be divided in quadrangular facets. If the 4 points of the facet are coplanar, a square facet is created. If not, it is divided into two triangles and a diagonal mullion is added.
+Powierzchnie zostaną podzielone na czworokątne fragmenty. Jeśli 4 punkty fragmentu są współpłaszczyznowe, tworzony jest fragment w kształcie kwadratu. Jeśli nie, zostaje on podzielony na dwa trójkąty, i dodany zostanie ukośny słupek.
 
-In case you need a non-regular subdivision, it is also possible to build your own subdivided object, for example using [Arch Grid](Arch_Grid.md), and set the vertical and horizontal subdivisions of the curtain wall to 1.
+W przypadku, gdy potrzebny jest nieregularny podział, możliwe jest również zbudowanie własnego podzielonego obiektu, na przykład przy użyciu narzędzia [Siatka](Arch_Grid/pl.md), i ustawienie pionowych i poziomych podziałów ściany kurtynowej na 1.
 
-You can also use the curtain wall tool without any selected object, in which case you will be able to draw a baseline, which will the be extruded vertically to form the face on which the curtain wall will be built.
+Możesz także użyć narzędzia ściany kurtynowej bez zaznaczonego obiektu, w którym to przypadku będziesz mógł narysować linię bazową, która następnie zostanie wyciągnięta w pionie, aby utworzyć powierzchnię, na której zostanie zbudowana ściana kurtynowa.
 
-## Usage
 
-### Drawing a curtain wall from scratch 
 
-1.  Make sure nothing is selected
-2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall.md)** button, or press **C** then **W** keys.
-3.  Click a first point on the 3D view, or type coordinates.
-4.  Click a second point on the 3D view, or type coordinates.
-5.  Adjust needed properties.
+## Użycie
 
-### Creating a curtain wall from a selected object 
 
-1.  Select one or more base geometry objects (Draft object, sketch, etc).
-2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall.md)** button, or press the **C** then **W** keys.
-3.  Adjust needed properties.
 
-## Options
+### Kreślenie ścian kurtynowych od podstaw 
 
--   Curtain walls share the common properties and behaviours of all [Arch Components](Arch_Component.md)
--   Curtain wall mullions can be made from an automatic square profile (set their **Mullion Size** properties) or from a custom profile (set their **Mullion Profile** property). The mullions can be centered over each edge, or placed relatively to the (0,0,0) point by turning off the **Center Profile** property. For example, if you want a profile to be placed slightly behind the panels, you would draw that profile slightly below the (0,0,0) origin point
--   Curtain walls support [Multi-materials](Arch_MultiMaterial.md). Inside the multi-material, the **Frame** layer will be used for the mullions, and the **Glass panel** layer for panels, or **Solid panel** if no Glass panel layer exists in the multi-material.
--   Curtain walls can be based on a linear object such as a line, arc or polyline. In that case, internally, a base surface will be built by extruding the linear object along the direction given by the **Vertical Direction** property, by the length given by the **Height** property.
+1.  Upewnij się, że nic nie jest zaznaczone
+2.  Jest kilka sposobów na wywołanie tego polecenia:
+    -   Wciśnij przycisk **<img src="images/Arch_CurtainWall.svg" width=16px> '''Ściana kurtynowa'''**.
+    -   Wybierz opcję **3D/BIM → <img src="images/Arch_CurtainWall.svg" width=16px> Ściana kurtynowa** z menu.
+    -   Użyj skrótu klawiszowego **C**, a następnie **W**.
+3.  Kliknij pierwszy punkt w widoku 3D lub wpisz współrzędne.
+4.  Kliknij drugi punkt w widoku 3D lub wpisz współrzędne.
+5.  Dostosuj wymagane właściwości.
 
-## Properties
 
-Curtain wall objects inherit the properties of [Arch Components](Arch_Component.md) objects, and also have the following extra properties:
 
--    **Vertical Mullion Number**:The number of vertical mullions
+### Tworzenie ściany kurtynowej z wybranego obiektu 
 
--    **Vertical Mullion Alignment**: If the profile of the vertical mullions get aligned with the surface or not
+1.  Wybierz jeden lub więcej obiektów bazowych geometrii *(obiekt rysunku roboczego, szkicu itp.)*.
+2.  Wywołaj narzędzie jak opisano powyżej.
+3.  Dostosuj potrzebne właściwości.
 
--    **Vertical Sections**: The number of vertical sections of this curtain wall
 
--    **Vertical Mullion Height**: The height of the vertical mullions profile, if no profile is used
 
--    **Vertical Mullion Width**: The width of the vertical mullions profile, if no profile is used
+## Opcje
 
--    **Vertical Mullion Profile**: A profile for vertical mullions (disables vertical mullion size)
+-   Ściany kurtynowe dzielą wspólne właściwości i zachowania wszystkich [Komponentów Architektonicznych](Arch_Component/pl.md).
+-   Podpory kurtynowe mogą być wykonane z automatycznego profilu kwadratowego *(ustaw ich właściwość **Rozmiar Słupka**)* lub z profilu niestandardowego *(ustaw ich właściwość **Profil Słupka**)*. Słupki można umieścić na środku każdej krawędzi lub względem punktu (0,0,0) przez wyłączenie właściwości **Wyśrodkowany Profil**. Na przykład, jeśli chcesz, aby profil był umieszczony nieco za panelami, narysuj ten profil nieco poniżej punktu pochodzenia (0,0,0).
+-   Ściany kurtynowe obsługują [materiał złożony](Arch_MultiMaterial/pl.md). Wewnątrz materiału złożonego warstwa **Rama** będzie używana do słupów, a warstwa **Panel szklany** do paneli, lub **Panel stały** jeśli nie istnieje warstwa Panel szklany w materiale złożonym.
+-   Ściany kurtynowe mogą być oparte na obiekcie liniowym, takim jak linia, łuk lub polilinia. W tym przypadku wewnętrznie zostanie zbudowana powierzchnia podstawowa poprzez wytłaczanie obiektu liniowego w kierunku określonym przez właściwość **Kierunek Pionowy**, o długość określoną przez właściwość **Wysokość**.
 
--    **Horizontal Mullion Number**: The number of horizontal mullions
 
--    **Horizontal Mullion Alignment**: If the profile of the horizontal mullions gets aligned with the surface or not
 
--    **Horizontal Sections**: The number of horizontal sections of this curtain wall
+## Właściwości
 
--    **Horizontal Mullion Height**: The height of the horizontal mullions profile, if no profile is used
+Obiekty ścian osłonowych dziedziczą właściwości obiektów [Komponent](Arch_Component/pl.md), a także posiadają następujące dodatkowe właściwości:
 
--    **Horizontal Mullion Width**: The width of the horizontal mullions profile, if no profile is used
+-    **Ilość Słupków Pionowych**: Liczba pionowych słupków.
 
--    **Horizontal Mullion Profile**: A profile for horizontal mullions (disables horizontal mullion size)
+-    **Wyrównanie Słupków Pionowych**: Czy profil słupków pionowych ma być wyrównany ze ścianą czy nie.
 
--    **Diagonal Mullion Number**: The number of diagonal mullions
+-    **Sekcje Pionowe**: Liczba pionowych sekcji tej ściany kurtynowej.
 
--    **Diagonal Mullion Size**: The size of the diagonal mullions, if any, if no profile is used
+-    **Wysokość Słupka Pionowego**: Wysokość słupków pionowych, jeśli nie jest używany żaden profil.
 
--    **Diagonal Mullion Profile**: A profile for diagonal mullions, if any (disables horizontal mullion size)
+-    **Szerokość Słupka Pionowego**: Szerokość słupków pionowych, jeśli nie jest używany żaden profil.
 
--    **Panel Number**: The number of panels
+-    **Profil Słupka Pionowego**: Profil dla pionowych słupków *(wyłącza wielkość pionowego słupka)*.
 
--    **Panel Thickness**: The thickness of the panels
+-    **Ilość Słupków Poziomych**: Liczba poziomych słupków.
 
--    **Swap Horizontal Vertical**: Swaps horizontal and vertical lines
+-    **Wyrównanie Słupków Poziomych**: Czy profil poziomych słupków ma być wyrównany ze ścianą czy nie.
 
--    **Refine**: Perform subtractions between components so none overlap
+-    **Sekcje Poziome**: Liczba poziomych sekcji tej ściany kurtynowej.
 
--    **Center Profiles**: Centers the profile over the edges or not
+-    **Wysokość Słupka Poziomego**: Wysokość profilu poziomych rygli, jeśli nie jest używany żaden profil.
 
--    **Vertical Direction**: The vertical direction reference to be used by this object to deduce vertical/horizontal directions. Keep it close to the actual vertical direction of your curtain wall
+-    **Szerokość Słupka Poziomego**: Szerokość profilu poziomych słupków, jeśli nie jest używany żaden profil.
 
--    **Height**: The height of this curtain wall, in case it is based on a linear object
+-    **Profil Słupka Poziomego**: Profil dla poziomych słupków *(wyłącza wielkość poziomego słupka)*.
 
--    **Host**: The host of this curtain wall. The curtain wall will appear embedded in its host object in the tree view (no other action is performed)
+-    **Ilość Słupków Przekątnych**: Liczba przekątnych słupków.
 
-## Making frame walls 
+-    **Wielkość Słupka Przekątnego**: Wielkość przekątnych słupków, jeśli jakiekolwiek, jeśli nie jest używany żaden profil.
 
-Curtain walls are convenient to use in conjunction with [walls](Arch_Wall.md) to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete or brick).
+-    **Profil Słupka Przekątnego**: Profil dla przekątnych słupków, jeśli jakiekolwiek *(wyłącza wielkość poziomego słupka)*.
+
+-    **Nadpisywanie krawędzi**: *({{Version/pl|1.0}})* Wprowadzane są numery indeksowe krawędzi geometrii Bazowego obiektu ArchSketch / Szkic *(w trybie Edycji)*. Wybrane krawędzie są używane do tworzenia kształtu tej ściany kurtynowej architektury (zamiast domyślnego używania wszystkich krawędzi). Ignorowane, jeśli Bazowy szkic dostarczył wybrane krawędzie. AKTUALIZACJA przez ArchSketch: Narzędzie GUI \"Edytuj ścianę kurtynową\" jest dostępne w zewnętrznym <img alt="" src=images/SketchArch_Workbench.svg  style="width:16px;"> [dodatku SketchArch](https://github.com/paullee0/FreeCAD_SketchArch), aby umożliwić użytkownikom interaktywny wybór krawędzi. \"Toponaming-Tolerant\", jeśli ArchSketch jest używany jako baza 
+*(i zainstalowany jest dodatek SketchArch)*. Ostrzeżenie: Nie jest \'Toponaming-Tolerant\', jeśli używany jest tylko Szkic. *(Zobacz wątek na forum - <https://forum.freecad.org/viewtopic.php?t=73018&start=40#p756554>)*
+
+-    **Ilość Paneli**: Liczba paneli.
+
+-    **Grubość Paneli**: Grubość paneli.
+
+-    **Zamień Poziome z Pionowymi**: Zamienia poziome i pionowe linie.
+
+-    **Ulepsz**: Wykonuje odejmowanie między komponentami, aby żaden nie pokrywał się.
+
+-    **Wyśrodkuj Profile**: Wyśrodkowuje profil na krawędziach lub nie.
+
+-    **Kierunek Pionowy**: Odniesienie kierunku pionowego do wykorzystania przez ten obiekt do wydedukowania kierunków pionowych / poziomych. Utrzymuj go blisko rzeczywistego kierunku pionowego ściany kurtynowej.
+
+-    **Wysokość**: Wysokość tej ściany kurtynowej, jeśli jest oparta na obiekcie liniowym.
+
+-    **Obiekt nadrzędny**: Obiekt nadrzędny tej ściany kurtynowej. Ściana kurtynowa pojawi się osadzona w obiekcie nadrzędnym w widoku drzewa *(żadne inne działanie nie zostanie wykonane)*.
+
+
+
+## Wykonywanie ścianek szkieletowych 
+
+Ściany osłonowe są wygodne w wykonaniu w połączeniu z narzędziem [ściana](Arch_Wall/pl.md) w celu stworzenia ścian szkieletowych *(ścian, w których wewnętrzna warstwa konstrukcyjna wykonana jest z ram, zwykle drewnianych lub metalowych, zamiast z jednorodnego materiału, takiego jak beton lub cegła)*.
 
 <img alt="" src=images/Frame_wall_example.png  style="width:780px;">
 
-The procedure described below creates a wall and a curtain wall based on a same baseline, then gives the wall a multi-material which leaves an empty space, where the curtain wall is placed:
+Opisana poniżej procedura tworzy ścianę i ścianę kurtynową w oparciu o tę samą linię bazową, a następnie nadaje ścianie multi-materiał, który pozostawia pustą przestrzeń, w której umieszczana jest ściana kurtynowa:
 
-1.  Create a normal [Arch Wall](Arch_Wall.md), either by clicking two points of from an existing linear object
-2.  Select the base object of the newly created arch wall
-3.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall.md)** button, or press the **C** then **W** keys to create a curtain wall from the same baseline as the wall
-4.  Make sure both the wall and curtain wall have the same **Height**
-5.  Set the number of **horizontal sections** of the curtain wall to zero if you wish only vertical frames
-6.  Set the desired **horizontal mullion width** and **horizontal mullion height** (or use a mullion profile)
-7.  Prepare two (or more) [materials](Arch_SetMaterial.md), one for the panels, one for the void where the frame will be
-8.  Make one [multi-material](Arch_MultiMaterial.md), using one layer of the panel material, one layer of the void material with a negative width value (which will make it not drawn) corresponding to the vertical mullion height of the curtain wall, and another layer of panel material
-9.  Attribute the multi-material to the wall
-10. Set the **Host** property of the curtain wall to the wall we created in first point
-
-## Scripting
+1.  Stwórz zwykłą [ścianę](Arch_Wall/pl.md), klikając dwa punkty lub wybierając istniejący obiekt liniowy.
+2.  Wybierz obiekt bazowy nowo utworzonej ściany.
+3.  Naciśnij przycisk **<img src="images/Arch_CurtainWall.svg" width=16px> '''Ściana osłonowa'''**, lub użyj klawiszy **C** i **W** aby utworzyć ścianę osłonową bazującą na tej samej linii bazowej co ściana.
+4.  Upewnij się, że zarówno ściana, jak i ściana kurtynowa mają taką samą **Wysokość**.
+5.  Ustaw liczbę **sekcji poziomych** ściany kurtynowej na zero, jeśli chcesz mieć tylko ramy pionowe.
+6.  Ustaw pożądaną **szerokość słupka poziomego** i **wysokość słupka poziomego** *(lub użyj profilu słupka)*.
+7.  Przygotuj dwa *(lub więcej)* [materiały](Arch_SetMaterial/pl.md), jeden dla paneli, drugi dla pustki, w której będzie rama.
+8.  Utwórz [materiał złozony](Arch_MultiMaterial/pl.md), używając jednej warstwy materiału panelowego, jednej warstwy materiału pustki z ujemną wartością szerokości *(co spowoduje, że nie będzie ona rysowana)* odpowiadającą wysokości słupka pionowego ściany kurtynowej, oraz kolejnej warstwy materiału panelowego.
+9.  Przypisz materiał złozony do ściany.
+10. Ustaw właściwość **Obiekt nadrzędny** ściany kurtynowej na ścianę, którą stworzyliśmy w pierwszym punkcie.
 
 
-**See also:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Tworzenie skryptów 
 
-The Curtain wall tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Ściana osłonowa** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
+
+
 ```python
 MyCurtainWall = makeCurtainWall(baseobj)
 ```
 
-Example:
+Przykład:
 
 
 ```python
@@ -152,5 +177,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/pl
+⏵ [documentation index](../README.md) > Arch CurtainWall/pl

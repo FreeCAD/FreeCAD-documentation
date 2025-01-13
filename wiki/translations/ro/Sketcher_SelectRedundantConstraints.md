@@ -17,6 +17,16 @@ Selectează constrângerile redundante dintr-o schiță.
 
 </div>
 
+If such constraints exist in a sketch the [Solver messages section of the Sketcher Dialog](Sketcher_Dialog#Solver_messages.md) displays this message:
+
+-   Redundant constraints: (#, #, #)
+
+Where *(#, #, #)* are the indices of the constraints. Clicking the underlined text will select the redundant constraints.
+
+Please note that a sketch can also have redundant constraints if one of the other [solver messages](Sketcher_Dialog#Solver_messages.md) is displayed.
+
+
+
 
 <div class="mw-translate-fuzzy">
 
@@ -34,6 +44,11 @@ Selectează constrângerile redundante dintr-o schiță.
 
 
 </div>
+
+## Notes
+
+-   Redundant constraints must be removed from the sketch.
+-   Instead of the proposed indices it is also possible to delete other constraints.
 
 
 

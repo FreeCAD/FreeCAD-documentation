@@ -5,7 +5,7 @@
    MenuLocation: TechDraw , Vues de Techdraw , Copier une vue
    Workbenches: TechDraw_Workbench/fr
    Version: 0.20
-   SeeAlso: TechDraw_MoveView/fr
+   SeeAlso: 
 ---
 
 # TechDraw ShareView/fr
@@ -18,11 +18,11 @@ L\'outil **TechDraw Copier une vue** rend visible une vue et toutes ses dépenda
 
 ## Utilisation
 
-1.  Sélectionnez éventuellement une vue, une page de départ et une page d\'arrivée. Les pages doivent être sélectionnées dans cet ordre.
+1.  Vous pouvez sélectionner une vue, une page de départ et une page d\'arrivée. Les pages doivent être sélectionnées dans cet ordre.
 2.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_ShareView.svg" width=16px> [Copier la vue](TechDraw_ShareView/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_ShareView.svg" width=16px> Copier la vue** à partir du menu.
-3.  Une boîte de dialogue s\'ouvre pour vous permettre de sélectionner une Vue, de la Page de départ et à la Page d\'arrivée.
+    -   Sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_ShareView.svg" width=16px> Copier la vue** du menu.
+3.  Une fenêtre de dialogue s\'ouvre pour vous permettre de sélectionner une Vue, de la Page de départ et à la Page d\'arrivée.
 4.  Appuyez sur le bouton **OK**.
 
 
@@ -50,7 +50,7 @@ TechDrawTools.MoveView(viewName, fromPageName, toPageName, True)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

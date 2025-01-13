@@ -1,23 +1,39 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand
    Name: FEM ConstraintSelfWeight
    MenuLocation: Model , Mechanical boundary conditions and loads , Gravity load
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
+}}
+{{GuiCommandFemInfo
+   Solvers: CalculiX, Elmer
+}}
 ---
 
 # FEM ConstraintSelfWeight/en
 
 ## Description
 
-Defines a gravity acceleration of 9,81 m/s\^2 acting on the whole model in the prescribed direction.
+Defines a gravity acceleration acting on the whole model in the prescribed direction.
+
+
+{{VersionMinus|0.21}}
+
+: The acceleration has a fixed value of 9.81 m/s\^2.
 
 ## Usage
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [Gravity load](FEM_ConstraintSelfWeight.md)** button.
     -   Select the **Model → Mechanical boundary conditions and loads → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Gravity load** option from the menu.
-2.  You can modify the direction of gravity load by changing its vector coordinates in the property bar of the newly created ConstraintSelfWeight object.
+
+2.  A ConstraintSelfWeight object is created.
+
+3.  
+    <small>(v1.0)</small> : Optionally change its **Gravity Acceleration** property.
+
+4.  Optionally change its **Gravity Direction** property.
 
 ## Scripting
 
@@ -49,7 +65,8 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfw
 
 ### Limitations
 
--   You need to modify the .inp file to edit gravity acceleration.
+-    {{VersionMinus|0.21}}: You need to modify the .inp file to edit gravity acceleration.
+
 -   Self-weight is applied to the element set Eall which includes the whole model.
 
 ### Editing CalculiX input file 

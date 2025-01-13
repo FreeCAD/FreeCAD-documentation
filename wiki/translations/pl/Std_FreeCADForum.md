@@ -27,7 +27,7 @@ Obecnie polecenie wskazuje na [<https://forum.freecad.org>](https://forum.freeca
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

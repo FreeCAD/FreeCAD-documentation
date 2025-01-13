@@ -21,7 +21,7 @@ obj.supportedProperties()
 
 ##  Tworzenie obiektu FeaturePython i dodawanie do niego właściwości 
 
-This code will create an object with internal name `InternalObjectName` (automatically renamed to `InternalObjectName001` and so on, if an object named `InternalObjectName` already exists) and give it the user-friendly label `User-friendly label`. This label will be displayed in the [Tree view](Tree_view.md). [Expressions](Expressions.md) can refer to this object by its label using `<<User-friendly label>>`.
+Ten kod utworzy obiekt o wewnętrznej nazwie `InternalObjectName` *(automatycznie zmienianej na `InternalObjectName001` i tak dalej, jeśli istnieje już obiekt o nazwie `InternalObjectName`)* i nadaj mu przyjazną dla użytkownika etykietę `User-friendly label`. Ta etykieta będzie wyświetlana w [widoku drzewa](Tree_view/pl.md). [Wyrażenia](Expressions/pl.md) mogą odnosić się do tego obiektu za pomocą jego etykiety, używając `<<User-friendly label>>`.
 
 
 ```python
@@ -29,7 +29,7 @@ obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName
 obj.Label = "User-friendly label"
 ```
 
-To add a property to this object, use the long form of `addProperty` as shown below. FreeCAD will automatically split `ThePropertyName` and display it with spaces (`The Property Name`) in the [Data tab of the Property editor](Property_editor#View_and_Data_properties.md).
+Aby dodać właściwość do tego obiektu, użyj długiej formy `addProperty` jak pokazano poniżej. FreeCAD automatycznie rozbije `ThePropertyName` i wyświetli go z odstępami (`The Property Name`) na karcie [Dane edytora właściwości](Property_editor/pl#Właściwości_widoku_i_danych.md).
 
 
 ```python
@@ -39,16 +39,16 @@ obj.addProperty("App::PropertyBool", "ThePropertyName", "Subsection", "Descripti
 
 `App::PropertyBool`
 
-is the type of the property. The different types are described in more detail below.
+jest typem właściwości. Różne typy zostały opisane bardziej szczegółowo poniżej.
 
-You can also use the short form which omits the last two arguments. The subsection defaults to `Base`, and the tooltip is not displayed with this form.
+Można również użyć krótkiej formy, która pomija dwa ostatnie argumenty. Sekcja podrzędna jest domyślnie ustawiona na `Base`, a podpowiedź nie jest wyświetlana w tej formie.
 
 
 ```python
 obj.addProperty("App::PropertyBool", "ThePropertyName")
 ```
 
-To get or set the property, use `obj.ThePropertyName`:
+Aby uzyskać lub ustawić właściwość, użyj `obj.ThePropertyName`:
 
 
 ```python
@@ -58,7 +58,7 @@ obj.ThePropertyName = True
 thePropertyValue = obj.ThePropertyName
 ```
 
-If the type of the property is [App::PropertyEnumeration](#App:_PropertyEnumeration.md), the setter has a special behavior: setting a list of strings defines the cases allowed by the enumeration, setting a string selects one of these cases. To set the list of possible cases and set the current one, use:
+Jeśli typ właściwości to [App::PropertyEnumeration](#App:_PropertyEnumeration.md), setter ma specjalne zachowanie: ustawienie listy ciągów definiuje przypadki dozwolone przez wyliczenie, ustawienie ciągu wybiera jeden z tych przypadków. Aby ustawić listę możliwych przypadków i wybrać aktualny, użyj:
 
 
 ```python
@@ -68,9 +68,40 @@ obj.ThePropertyName = ["aaa", "bbb", "ccc"]
 obj.ThePropertyName = "bbb"
 ```
 
+
+{{Version/pl|1.0}}
+
+: Argument {{Incode|enum_vals}} funkcji {{Incode|addProperty}} może też być używany do definiowania przypadków wyliczenia.
+
+
+{{Version/pl|1.0}}
+
+: Pełna sygnatura tej funkcji to:
+
+
+```python
+obj.addProperty(type: string, name: string, group="", doc="", attr=0, read_only=False, hidden=False, enum_vals=[])
+```
+
+-    {{Incode|type}}: Typ właściwości.
+
+-    {{Incode|name}}: Nazwa właściwości.
+
+-    {{Incode|group}}: Subsekcja właściwości.
+
+-    {{Incode|doc}}: Podpowiedź narzędzia.
+
+-    {{Incode|attr}}: Atrybut, zobacz [Obiekty tworzone skryptami](Scripted_objects/pl#Atrybuty_właściwości.md).
+
+-    {{Incode|read_only}}: Zobacz to samo.
+
+-    {{Incode|hidden}}: Zobacz to samo.
+
+-    {{Incode|enum_vals}}: Wartości wyliczenia (lista ciągów znaków), ma znaczenie tylko jeśli typ to [App::PropertyEnumeration](#App:_PropertyEnumeration.md).
+
 ## App::PropertyAcceleration
 
-A {{TODO}}acceleration property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość {{TODO}} przyspieszenia. Może zawierać {{TODO}} \"dozwolony typ i/lub wartości\". Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -85,7 +116,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyAngle
 
-An angle property. It can contain an `angle` value. You can use \"Value\" variable to get float variable. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość kąta. Może zawierać wartość kątową. Możesz użyć zmiennej \"Value\" do uzyskania zmiennej typu float. Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -99,7 +130,7 @@ obj.ThePropertyName.Value # returns 180.0
 
 ## App::PropertyArea
 
-A {{TODO}}area property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość {{TODO}} powierzchni. Może zawierać {{TODO}} \"dozwolony typ i / lub wartości\". Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -112,7 +143,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyBool
 
-A boolean property. It can contain `True` and `False`. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość typu logicznego. Może zawierać wartości `True` i `False`. Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -126,7 +157,7 @@ obj.ThePropertyName # returns False
 
 ## App::PropertyBoolList
 
-A property containing a list of booleans. It can contain a Python list of booleans, e.g. `[True, False, True]`. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość zawierająca listę wartości logicznych. Może zawierać listę wartości logicznych w Pythonie, np. `[True, False, True]`. Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -140,7 +171,7 @@ obj.ThePropertyName[1] # returns False
 
 ## App::PropertyColor
 
-A color property. It can contain tuple of four `float` values. Each item can take values between 0.0 and 1.0. You can set red, green and blue values. Also you can set step transparency too. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość koloru. Może zawierać krotkę czterech wartości typu float. Każdy element może przyjmować wartości między 0.0 a 1.0. Możesz ustawić wartości czerwonej, zielonej i niebieskiej. Dodatkowo możesz ustawić stopień przezroczystości. Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -153,7 +184,7 @@ obj.ThePropertyName # returns (0.0, 1.0, 0.5, 0.8)
 
 ## App::PropertyColorList
 
-A {{TODO}}colorList property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość koloru. Może zawierać listę kolorów. Dla więcej szczegółów, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -167,24 +198,24 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 ## App::PropertyCurrentDensity
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyDensity
 
 ## App::PropertyDirection
 
-Identical to [App::PropertyVectorDistance](#App:_PropertyVectorDistance.md).
+Identycznie z [App::PropertyVectorDistance](#App:_PropertyVectorDistance.md).
 
 ## App::PropertyDissipationRate
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyDistance
 
-A distance property. It can contain a positive, negative or zero `distance` value. Use the \"Value\" member of the property to get the value as a float number. The value is always in mm, but in the [Property editor](Property_editor.md) is presented with units according to the preferences. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość odległości. Może zawierać wartość dodatnią, ujemną lub zerową odległości. Aby uzyskać wartość jako liczbę zmiennoprzecinkową, użyj elementu \"Value\" właściwości. Wartość zawsze jest wyrażona w milimetrach, ale w [edytorze właściwości](Property_editor/pl.md) jest prezentowana w jednostkach zgodnie z preferencjami. Dla więcej szczegółów, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
-[App::PropertyLength](#App:_PropertyLength.md) is a similar property that cannot contain a negative value.
+[App::PropertyLength](#App:_PropertyLength.md) to podobna właściwość, która nie może zawierać wartości ujemnej.
 
 
 ```python
@@ -224,23 +255,23 @@ obj.ThePropertyName.Value # returns 500.0
 ## App::PropertyElectricalResistance
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyElectricCharge
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyElectricCurrent
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyElectricPotential
 
 ## App::PropertyEnumeration
 
-An enumeration property. The allowed items are defined by setting the property to a list. After that, it can contain items of the given list. The list of allowed items can be changed by setting the property to a list again. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość typu enumeracyjnego. Dozwolone elementy są określane poprzez ustawienie właściwości na listę. Następnie może zawierać elementy z danej listy. Lista dozwolonych elementów może być zmieniona poprzez ponowne ustawienie właściwości na listę. Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego właściwości](#Tworzenie.md).
 
 
 ```python
@@ -254,7 +285,15 @@ obj.ThePropertyName = "Quux"                 # choose single item
 obj.ThePropertyName # returns "Quux"
 ```
 
-As of FreeCAD 0.20, you can also group enumerations, which are displayed in the GUI using a submenu interface. To group, use the `|` character (vertical pipe) as a separator, e.g.:
+
+{{Version/pl|1.0}}
+
+: Argument {{Incode|enum_vals}} funkcji {{Incode|addProperty}} może być również wykorzystywany do definiowania przypadków wyliczenia. Zobacz [sekcję powyżej](#Tworzenie_obiektu_FeaturePython_i_dodawanie_do_niego_właściwości.md).
+
+
+{{Version/pl|0.20}}
+
+: Można grupować wyliczenia, które są wyświetlane w interfejsie GUI za pomocą interfejsu z podmenu. Aby zgrupować, użyj znaku `<nowiki>|</nowiki>` *(pionowa kreska)* jako separatora, np.:
 
 
 ```python
@@ -267,18 +306,18 @@ obj.ThePropertyName = [
 obj.ThePropertyName = "Group 1 <nowiki>|</nowiki> Item A" # choose single item
 ```
 
-The GUI will display this as a menu structure:
+GUI wyświetli to jako strukturę menu:
 
--   Group 1
-    -   Item A
-    -   Item B
--   Group 2
-    -   Another item
-    -   Last item
+-   Grupa 1
+    -   Pozycja A
+    -   Pozycja B
+-   Grupa 2
+    -   Kolejny element
+    -   Ostatni element
 
 ## App::PropertyExpressionEngine
 
-A {{TODO}}expressionEngine property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut {{TODO}} expressionEngine. Może zawierać {{TODO}} \"dozwolone typy i / lub wartości\". Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenia obiektu FeaturePython i dodawania do niego właściwości](#Creating.md).
 
 
 ```python
@@ -291,7 +330,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyFile
 
-A filename property. It can contain a string indicating the path to a filename {{TODO}}:(Does it allow relative paths or absolute paths or both?). For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut NazwaPliku. Może zawierać ciąg znaków wskazujący ścieżkę do pliku. *(Czy pozwala na stosowanie ścieżek względnych, bezwzględnych, czy obu?)*. Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenia obiektu FeaturePython i dodawania do niego właściwości](#Creating.md).
 
 
 ```python
@@ -304,7 +343,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyFileIncluded
 
-A filename property that also includes the file itself into the document. The file doesn\'t get loaded into memory, it gets copied from the document archive into the document transient directory. There it is accessible for reading. You can get the transient path through {{Incode|getDocTransientPath()}}. As input, the property accepts a string containing the path to the original file. The property returns the path to the temporary file in the transient directory. For more details, see this [example from the Arch Workbench](https://github.com/FreeCAD/FreeCAD/blob/adfdbf7cd76fe78c7f818623e019454337ed1bcd/src/Mod/Arch/ArchBuildingPart.py#L595-L597).
+Atrybut typu nazwaPliku, który dodatkowo zawiera sam plik w dokumencie. Plik nie jest ładowany do pamięci, lecz zostaje skopiowany z archiwum dokumentu do katalogu tymczasowego dokumentu. Tam jest dostępny do odczytu. Ścieżkę tymczasową można uzyskać za pomocą {{Incode|getDocTransientPath()}}. Jako wejście atrybut przyjmuje ciąg znaków zawierający ścieżkę do oryginalnego pliku. Atrybut zwraca ścieżkę do pliku tymczasowego w katalogu tymczasowym. Aby uzyskać więcej informacji, zobacz ten [przykład z modułu Architektura](https://github.com/FreeCAD/FreeCAD/blob/adfdbf7cd76fe78c7f818623e019454337ed1bcd/src/Mod/Arch/ArchBuildingPart.py#L595-L597).
 
 
 ```python
@@ -317,7 +356,7 @@ obj.ThePropertyName # returns the path to the temporary file
 
 ## App::PropertyFloat
 
-A float property. It can contain a `float` value. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut typu zmiennoprzecinkowego. Może zawierać wartość typu `float`. Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -330,7 +369,7 @@ obj.ThePropertyName # returns 15.7
 
 ## App::PropertyFloatConstraint
 
-A float constraint property. It can contain a `float` value. By using this property you can set start and finish values. Also you can set step interval too. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut wiązań typu zmiennoprzecinkowego. Może zawierać wartość typu `float`. Korzystając z tego atrybutu, można ustawić wartości początkową i końcową. Można również ustawić interwał kroków. Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -343,7 +382,7 @@ obj.ThePropertyName # returns 50.0
 
 ## App::PropertyFloatList
 
-A float list property. It can contain list of `float` values. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość lista liczb zmiennoprzecinkowych. Może zawierać listę wartości typu `float`. Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego właściwości](#Creating.md).
 
 
 ```python
@@ -356,7 +395,7 @@ obj.ThePropertyName # returns [12.7, 5.8, 28.6, 17.22]
 
 ## App::PropertyFont
 
-A {{TODO}}font property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość czcionki {{TODO}}. Może zawierać {{TODO}} \"dozwolony typ i / lub wartości\". Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -369,7 +408,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyForce
 
-A {{TODO}}force property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość siły {{TODO}}. Może zawierać {{TODO}} \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -382,7 +421,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyFrequency
 
-A {{TODO}}frequency property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość częstotliwości {{TODO}}. Może zawierać {{TODO}} \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -400,7 +439,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyInteger
 
-An integer property. It can contain an integer value from -2147483646 to 2147483647 included. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut typu całkowitego. Może zawierać wartość całkowitą z zakresu od -2147483646 do 2147483647 włącznie. Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -413,7 +452,7 @@ obj.ThePropertyName # returns 25
 
 ## App::PropertyIntegerConstraint
 
-An integer constraint property. With this property you can set a default value, a minimum value, a maximum value and a step size. All values should be integers and can range from -2147483646 to 2147483647 included. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut ograniczenia typu całkowitego. Dzięki temu atrybutowi możesz ustawić wartość domyślną, minimalną, maksymalną oraz rozmiar kroku. Wszystkie wartości powinny być liczbami całkowitymi i mogą zawierać się w przedziale od -2147483646 do 2147483647 włącznie. Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -426,7 +465,7 @@ obj.ThePropertyName # returns 50
 
 ## App::PropertyIntegerList
 
-An integer list property. It can contain list of `integer` values. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut listy liczb całkowitych. Może zawierać listę wartości całkowitych. Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -439,7 +478,7 @@ obj.ThePropertyName # returns [12, 5, 28, 17]
 
 ## App::PropertyIntegerSet
 
-A {{TODO}}integerSet property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut zestawu liczb całkowitych. Może zawierać {{TODO}} \"dozwolone typy i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -472,9 +511,9 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLength
 
-A length property. It can contain a positive or zero `length` value. Use the \"Value\" member of the property to get the value as a float number. The value is always in mm, but in the [Property editor](Property_editor.md) is presented with units according to the preferences. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut długości. Może zawierać dodatnią lub zerową wartość długości. Użyj elementu \"Value\" atrybutu, aby uzyskać wartość jako liczbę zmiennoprzecinkową. Wartość zawsze jest podawana w milimetrach, ale w edytorze właściwości jest prezentowana zgodnie z preferencjami dotyczącymi jednostek. Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
-[App::PropertyDistance](#App:_PropertyDistance.md) is a similar property that can also contain a negative value.
+[App::PropertyDistance](#App:_PropertyDistance.md) to podobna właściwość, która nie może zawierać wartości ujemnej.
 
 
 ```python
@@ -488,7 +527,7 @@ obj.ThePropertyName.Value # returns 500.0
 
 ## App::PropertyLink
 
-A link property. It can contain link to an object. When you call this property, it will return the linked object. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut łącza. Może zawierać odnośnik do obiektu. Wywołanie tego atrybutu zwróci powiązany obiekt. Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -502,7 +541,7 @@ obj.ThePropertyName # returns link_obj
 
 ## App::PropertyLinkChild
 
-A {{TODO}}linkChild property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut linkChild. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -515,7 +554,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkGlobal
 
-A {{TODO}}linkGlobal property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość linkGlobalny. Może zawierać \"dozwolone typy i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -528,7 +567,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkHidden
 
-A {{TODO}}linkHidden property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość linkUkryty. Może zawierać \"dozwolone typy i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -541,7 +580,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkList
 
-A link list property. It can contain list of linked objects. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość lista odnośników. Może zawierać listę połączonych obiektów. Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -558,7 +597,7 @@ obj.ThePropertyName # returns [link_obj0, link_obj1, link_obj2]
 
 ## App::PropertyLinkListChild
 
-A {{TODO}}linkListChild property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut typu listaOdnośnikówPodrzędnych. Może zawierać „dozwolone typy i / lub wartości". Aby uzyskać więcej szczegółów, zobacz sekcję dotyczącą [Tworzenia obiektu FeaturePython i dodawania atrybutu do niego](#Creating.md).
 
 
 ```python
@@ -571,7 +610,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkListGlobal
 
-A {{TODO}}linkListGlobal property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość listaLinkówGlobalnych. Może zawierać \"dozwolone typy i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -584,7 +623,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkListHidden
 
-A {{TODO}}linkListHidden property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość listaLinkówUkrytych. Może zawierać \"dozwolone typy i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -597,20 +636,24 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkSub
 
-A {{TODO}}linkSub property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+LinkSub to lista dwóch elementów: pierwszy to odniesienie do [obiektu dokumentu](App_DocumentObject/pl.md) a drugi to ciąg znaków lub lista ciągów znaków wskazująca wewnętrzne nazwy elementów podrzędnych. Więcej informacji znajdziesz w sekcji o [tworzeniu obiektu FeaturePython i dodawaniu do niego właściwości](#Tworzenie.md).
 
 
 ```python
-obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
+doc = FreeCAD.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+
+obj = doc.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyLinkSub", "ThePropertyName", "Subsection", "Description for tooltip")
-obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName # returns {{TODO}}"example value for getter"
-}}
+obj.ThePropertyName = [box, ["Vertex1", "Vertex2"]]
+
+doc.recompute()
+```
 
 ## App::PropertyLinkSubChild
 
-A {{TODO}}linkSubChild property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość linkSubChild. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -623,7 +666,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkSubGlobal
 
-A {{TODO}}linkSubGlobal property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość linkSubGlobal. Może zawierać \"dozwolone typy i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -636,7 +679,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkSubHidden
 
-A {{TODO}}linkSubHidden property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość linkSubHidden. Może zawierać \"dozwolone typy i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -649,20 +692,25 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkSubList
 
-A {{TODO}}linkSubList property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+LinkSubList to lista krotek. Każda krotka zawiera dwa elementy: pierwszy to odniesienie do [obiektu dokumentu](App_DocumentObject/pl.md) a drugi to ciąg znaków lub lista ciągów znaków wskazująych wewnętrzne nazwy elementów podrzędnych. Więcej szczegółów znajdziesz w sekcji dotyczącej [tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Tworzenie.md).
 
 
 ```python
-obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
+doc = FreeCAD.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+cyl = doc.addObject("Part::Cylinder", "Cylinder")
+
+obj = doc.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyLinkSubList", "ThePropertyName", "Subsection", "Description for tooltip")
-obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName # returns {{TODO}}"example value for getter"
-}}
+obj.ThePropertyName = [(box, ["Vertex1", "Vertex2"]), (cyl, "Edge1")]
+
+doc.recompute()
+```
 
 ## App::PropertyLinkSubListChild
 
-A {{TODO}}linkSubListChild property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut typu linkSubListChild. Może zawierać „dozwolone typy i / lub wartości". Aby uzyskać więcej szczegółów, zobacz sekcję dotyczącą [Tworzenia obiektu FeaturePython i dodawania atrybutu do niego](#Creating.md).
 
 
 ```python
@@ -675,7 +723,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkSubListGlobal
 
-A {{TODO}}linkSubListGlobal property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość linkSubListGlobal. Może zawierać \"dozwolone typy i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -688,7 +736,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkSubListHidden
 
-A {{TODO}}linkSubListHidden property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość linkSubListHidden. Może zawierać \"dozwolone typy i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -726,7 +774,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyMap
 
-A {{TODO}}map property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Własciwość map. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -744,7 +792,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyMaterial
 
-A material property. It can contain a FreeCAD material object. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut materiału. Może zawierać obiekt materiału FreeCAD. Aby uzyskać więcej szczegółów, zobacz sekcję dotyczącą [Tworzenia obiektu FeaturePython i dodawania atrybutu do niego](#Creating.md).
 
 
 ```python
@@ -760,7 +808,7 @@ obj.ThePropertyName # returns material
 
 ## App::PropertyMaterialList
 
-A material list property. It can contain list of materials. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość lista materiałów. Może zawierać listę materiałów. Aby uzyskać więcej szczegółów, zobacz sekcję dotyczącą [Tworzenia obiektu FeaturePython i dodawania atrybutu do niego](#Creating.md).
 
 
 ```python
@@ -778,7 +826,7 @@ obj.ThePropertyName # returns [material0, material1, material2]
 
 ## App::PropertyMatrix
 
-A {{TODO}}matrix property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość macierz. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -791,7 +839,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyPath
 
-A path property. It can contain a string representing a path to a folder {{TODO}}:(does it also allow paths to files? does it allow relative or absolute paths or both?). For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość ścieżka. Może zawierać ciąg znaków reprezentujący ścieżkę do folderu: *(czy pozwala również na ścieżki do plików? czy dopuszcza ścieżki względne lub bezwzględne czy oba?)*. Aby uzyskać więcej szczegółów, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawania atrybutu do niego](#Creating.md).
 
 
 ```python
@@ -804,7 +852,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyPercent
 
-A {{TODO}}percent property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość procent. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -817,7 +865,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyPersistentObject
 
-A {{TODO}}persistentObject property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość persistentObject. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -830,7 +878,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyPlacement
 
-A placement property. It can contain `placement` object. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość umiejscowienie. Może zawierać obiekt `placement`. Aby uzyskać więcej szczegółów, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawania atrybutu do niego](#Tworzenie.md).
 
 
 ```python
@@ -845,7 +893,7 @@ obj.ThePropertyName # returns placement
 
 ## App::PropertyPlacementLink
 
-A {{TODO}}placementLink property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość LinkUmiejscowienia. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -858,7 +906,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyPlacementList
 
-A placement list property. It can contain list of `placements`. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość lista umiejscowień. Może zawierać listę obiektów `placements`. Aby uzyskać więcej szczegółów, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawania atrybutu do niego](#Creating.md).
 
 
 ```python
@@ -876,7 +924,7 @@ obj.ThePropertyName # returns [placement0, placement1, placement2]
 
 ## App::PropertyPosition
 
-Identical to [App::PropertyVectorDistance](#App:_PropertyVectorDistance.md).
+Identycznie z [App::PropertyVectorDistance](#App:_PropertyVectorDistance.md).
 
 ## App::PropertyPower
 
@@ -885,7 +933,7 @@ Identical to [App::PropertyVectorDistance](#App:_PropertyVectorDistance.md).
 
 ## App::PropertyPrecision
 
-A {{TODO}}precision property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość precyzja. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -898,7 +946,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyPressure
 
-A {{TODO}}pressure property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość ciśnienie. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -911,7 +959,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyPythonObject
 
-A {{TODO}}pythonObject property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość ObiektPython. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -924,7 +972,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyQuantity
 
-A {{TODO}}quantity property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość ilość. Może zawierać \"dozwolony typ i / lub wartości\". Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -937,7 +985,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyQuantityConstraint
 
-A {{TODO}}quantityConstraint property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość ilośćWiązań. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -967,7 +1015,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertySpeed
 
-A {{TODO}}speed property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość prędkości. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -987,7 +1035,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyString
 
-A {{TODO}}string property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość ciąg tekstowy. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1000,7 +1048,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyStringList
 
-A {{TODO}}stringList property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość lista ciągów tekstowych. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1039,11 +1087,11 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 ## App::PropertyUltimateTensileStrength
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyUUID
 
-A {{TODO}}uUID property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość uUID. Może zawierać \"dozwolony typ i / lub wartości\". Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -1056,7 +1104,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyVacuumPermittivity
 
-A {{TODO}}vacuumPermittivity property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość PrzepuszczalnośćPróżni. Może ona zawierać \"dozwolony typ i/lub wartości\". Więcej szczegółów znajdziesz w rozdziale o [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -1069,7 +1117,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyVector
 
-A vector property. It can contain a FreeCAD `vector` object. The value can set by supplying a vector or a tuple. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut typu wektor. Może zawierać obiekt FreeCAD typu wektor. Wartość może być ustawiona poprzez dostarczenie wektora lub krotki. Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1095,7 +1143,7 @@ obj.ThePropertyName # Vector (2.0, 4.0, 12.0)
 
 ## App::PropertyVectorDistance
 
-A vector property that is almost identical to [App::PropertyVector](#App:_PropertyVector.md). The only difference is that in the [Property editor](Property_editor.md) the \"x\", \"y\" and \"z\" members of this property are presented with units according to the preferences. But internally all values are unitless and therefore in mm.
+Atrybut typu wektorowego, który jest prawie identyczny z [App::PropertyVector](#App:_PropertyVector.md). Jedyną różnicą jest to, że w [edytorze właściwości](Property_editor/pl.md) \"x\", \"y\" i \"z\" tego atrybutu są prezentowane zgodnie z preferencjami jednostek. Jednak wewnętrznie wszystkie wartości są bezwymiarowe i dlatego wyrażane są w mm.
 
 
 ```python
@@ -1109,7 +1157,7 @@ obj.ThePropertyName.x # returns 1
 
 ## App::PropertyVectorList
 
-A vector list property. It can contain list of `vectors`. The value can set by supplying a list of vectors and/or tuples. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut typu lista wektorów. Może zawierać listę wektorów. Wartość może być ustawiona poprzez dostarczenie listy wektorów i/lub krotek. Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1129,16 +1177,16 @@ obj.ThePropertyName # returns [Vector (0, 10, 0), Vector (1, 2, 3), Vector (30, 
 ```
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyVelocity
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyVolume
 
-A {{TODO}}volume property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość objętość. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1152,21 +1200,21 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 ## App::PropertyVolumeFlowRate
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyVolumetricThermalExpansionCoefficient
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyWork
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyXLink
 
-A {{TODO}}xLink property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość xLink. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1179,7 +1227,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyXLinkList
 
-A {{TODO}}xLinkList property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość xLinkList. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1192,7 +1240,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyXLinkSub
 
-A {{TODO}}xLinkSub property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość xLinkSub. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1205,7 +1253,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyXLinkSubList
 
-A {{TODO}}xLinkSubList property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość xLinkSubList. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1219,16 +1267,16 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 ## App::PropertyYieldStrength
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyYoungsModulus
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## Mesh::PropertyCurvatureList
 
-A {{TODO}}curvatureList property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość listaKrzywizn. Może zawierać \"dozwolony typ i / lub wartości\". Aby uzyskać więcej szczegółów, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawania atrybutu do niego](#Creating.md).
 
 
 ```python
@@ -1241,7 +1289,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## Mesh::PropertyMeshKernel
 
-A mesh kernel property. It can contain a `mesh` object. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Atrybut jądra siatki. Może zawierać obiekt `mesh`. Aby uzyskać więcej szczegółów, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawania atrybutu do niego](#Creating.md).
 
 
 ```python
@@ -1257,7 +1305,7 @@ obj.ThePropertyName # returns mesh
 
 ## Mesh::PropertyNormalList
 
-A {{TODO}}normalList property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość listaNormalnych. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1270,7 +1318,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## Part::PropertyFilletEdges
 
-A {{TODO}}filletEdges property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość zaokrąglenieKrawędzi. Może zawierać \"dozwolone typy i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1283,7 +1331,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## Part::PropertyGeometryList
 
-A {{TODO}}geometryList property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość listaGeometrii. Może ona zawierać \"dozwolony typ i/lub wartości\". Więcej szczegółów znajdziesz w rozdziale o [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -1296,7 +1344,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## Part::PropertyPartShape
 
-A part shape property. It can contain `shape` object. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość kształt części. Może zawierać obiekt `shape`. Aby uzyskać więcej szczegółów, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawania atrybutu do niego](#Creating.md).
 
 
 ```python
@@ -1312,7 +1360,7 @@ obj.ThePropertyName # returns part
 
 ## Part::PropertyShapeHistory
 
-A {{TODO}}shapeHistory property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość historiaKształtu. Może zawierać \"dozwolony typ i / lub wartości\". Aby uzyskać więcej szczegółów, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawania atrybutu do niego](#Creating.md).
 
 
 ```python
@@ -1325,7 +1373,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## Path::PropertyPath
 
-A {{TODO}}path property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Własciwość ścieżka. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1338,7 +1386,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## Path::PropertyTool
 
-A {{TODO}}tool property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość narzędzie. Może zawierać \"dozwolony typ i / lub wartości\". Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -1351,7 +1399,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## Path::PropertyTooltable
 
-A {{TODO}}tooltable property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość tabelaNarzędzi. Może zawierać \"dozwolony typ i / lub wartości\". Aby uzyskać więcej szczegółów, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawania atrybutu do niego](#Creating.md).
 
 
 ```python
@@ -1364,7 +1412,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## Sketcher::PropertyConstraintList
 
-A {{TODO}}constraintList property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość listaWiązań. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1377,7 +1425,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## Spreadsheet::PropertyColumnWidths
 
-A {{TODO}}columnWidths property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość szerokościKolumn. Może zawierać listę kolorów. Dla więcej szczegółów, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -1390,7 +1438,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## Spreadsheet::PropertyRowHeights
 
-A {{TODO}}rowHeights property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość wysokośćWierszy. Może zawierać listę kolorów. Dla więcej szczegółów, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -1403,7 +1451,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## Spreadsheet::PropertySheet
 
-A {{TODO}}sheet property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość arkusz. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1416,7 +1464,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## Spreadsheet::PropertySpreadsheetQuantity
 
-A {{TODO}}spreadsheetQuantity property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość arkuszKalkulacyjnyIlość. Może zawierać \"dozwolony typ i / lub wartości\". Aby uzyskać więcej informacji, zobacz sekcję dotyczącą [Tworzenie obiektu FeaturePython i dodawanie do niego właściwości](#Creating.md).
 
 
 ```python
@@ -1429,7 +1477,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## TechDraw::PropertyCenterLineList
 
-A {{TODO}}centerLineList property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość listaLiniiŚrodkowych. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1442,7 +1490,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## TechDraw::PropertyCosmeticEdgeList
 
-A {{TODO}}cosmeticEdgeList property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość listaKrawędziKosmetycznych. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python
@@ -1455,7 +1503,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## TechDraw::PropertyCosmeticVertexList
 
-A {{TODO}}cosmeticVertexList property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Właściwość listaWierzchołkówKosmetycznych. Może zawierać \"dozwolony typ i / lub wartości\". Więcej szczegółów znajdziesz w sekcji dotyczącej [Tworzenia obiektu FeaturePython i dodawania do niego atrybutu](#Creating.md).
 
 
 ```python

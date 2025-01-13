@@ -10,6 +10,8 @@
 
 # Assembly3 CreateElement/ru
 
+
+
 ## Описание
 
 The <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:24px;"> [Create element](Assembly3_CreateElement.md) command creates new elements from selected objects.
@@ -18,10 +20,15 @@ The <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:24px;"> 
 
 (Обычно элементы создаются из выбранных объектов при применении к ним команды ограничения)
 
+
+
 ## Применение
 
 1.  Select one or more objects of the boundary representation such as planar **faces**, straight **edges**, or **points**
-2.  Press  or use the keyboard shortcut: **A** then **E**
+2.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Assembly_New_Element.svg‎‎" width=16px> [Create element](Assembly3_CreateElement.md)** button.
+    -   Select the **Assembly3 → <img src="images/Assembly_New_Element.svg‎‎" width=16px> Create element** option from the menu.
+    -   Use the keyboard shortcut **A** then **E**
 3.  (optional but recommended) Rename the elements by editing their **Label** properties.
 
 

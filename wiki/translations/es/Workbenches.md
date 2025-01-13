@@ -20,9 +20,19 @@ Tenga en cuenta que a veces se hace referencia a un Banco de trabajo como un *M�
 
 Los siguientes bancos de trabajo se incluyen en cada instalación de FreeCAD:
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std Base](Std_Base/es.md). No se trata realmente de un banco de trabajo, sino de una categoría de comandos y herramientas \"estándar\" que pueden utilizarse en todos los bancos de trabajo.
 
--   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> El [Banco de Trabajo Arquitectura](Arch_Workbench/es.md) para trabajar con elementos arquitectónicos.
+
+</div>
+
+-   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> The [Assembly Workbench](Assembly_Workbench.md) for building and solving mechanical assemblies. <small>(v1.0)</small> 
+
+-   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> The [BIM Workbench](BIM_Workbench.md) for working with architectural elements and creating [BIM](https://en.wikipedia.org/wiki/Building_information_modeling) models. It combines the Arch Workbench and the formerly external BIM Workbench available in {{VersionMinus|0.21}}.
+
+-   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> The [CAM Workbench](CAM_Workbench.md) is used to produce G-Code instructions. This workbench was called \"Path Workbench\" in {{VersionMinus|0.21}}.
 
 -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> El [Banco de Trabajo de Borradores](Draft_Workbench/es.md) contiene herramientas 2D y operaciones CAD básicas en 2D y 3D.
 
@@ -35,6 +45,8 @@ Los siguientes bancos de trabajo se incluyen en cada instalación de FreeCAD:
 
 
 </div>
+
+-   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> The [Material Workbench](Material_Workbench.md) handles the FreeCAD material system. <small>(v1.0)</small> 
 
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> El [Ambiente de Trabajo Malla](Mesh_Workbench/es.md) para trabajar con mallas trianguladas.
 
@@ -55,14 +67,6 @@ Los siguientes bancos de trabajo se incluyen en cada instalación de FreeCAD:
 </div>
 
 -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> El [Banco de Trabajo DiseñoPiezas](PartDesign_Workbench/es.md) para construir formas de piezas a partir de croquis.
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> El [Banco de Trabajo de Rutas](Path_Workbench/es.md) se utiliza para producir instrucciones de código G. Todavía está en desarrollo.
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -95,14 +99,6 @@ Los siguientes bancos de trabajo se incluyen en cada instalación de FreeCAD:
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> El [Centro de Trabajo Inicio](Start_Workbench/es.md) te permite saltar rápidamente a uno de los bancos de trabajo más comunes.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> El [Banco de Trabajo de Superficies](Surface_Workbench/es.md) proporciona herramientas para crear y modificar superficies. Es similar al constructor de formas de piezas Cara desde las aristas.
 
 
@@ -112,6 +108,18 @@ Los siguientes bancos de trabajo se incluyen en cada instalación de FreeCAD:
 
 -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> El [Banco de Trabajo del Prueba Estructura del marco](Testing/es.md) es para depurar FreeCAD.
 
+### Obsolete
+
+The following workbenches are no longer included after version 0.21:
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> El [Centro de Trabajo Inicio](Start_Workbench/es.md) te permite saltar rápidamente a uno de los bancos de trabajo más comunes.
+
+
+</div>
+
 
 <div class="mw-translate-fuzzy">
 
@@ -119,8 +127,6 @@ Los siguientes bancos de trabajo se incluyen en cada instalación de FreeCAD:
 
 
 </div>
-
-### Obsolete
 
 The following workbenches are no longer included after version 0.20:
 

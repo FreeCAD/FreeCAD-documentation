@@ -7,9 +7,9 @@
 Download [https://forum.freecadweb.org/download/file.php?id=80844 the Icons] in .zip file 
 |Author=Mario52
 |Download=[https://wiki.freecad.org/images/6/69/FCSpring_Helix_Variable.png ToolBar Icon]
-|Version=01.18c
-|Date=2023/09/01
-|FCVersion=0.19
+|Version=01.19
+|Date=2024/07/11
+|FCVersion=0.19 and bigger
 }}
 
 ## Description
@@ -19,7 +19,7 @@ Are detected: Surface (Face direction), Cylinder (Radius), Ellipse (MinorRadius)
 If no object is detected (not selection) the spring is created at the point XYZ 0., 0., 0.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/3f6e4df2768f36e88af4f56af669206ff0d33e0c/Macro_FCSpring_Helix_Variable.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/91cbf54580d8af331f9b371f4951a40b9ef506f3/Macro_FCSpring_Helix_Variable.FCMacro}}
 
 <img alt="" src=images/TruncateSpring00.png  style="width:400px;"> 
 *FCSpring Helix Variable*
@@ -307,6 +307,8 @@ soften fittings :done
 modify diameter to any coil :done
 
 ## Version
+
+11/07/2024 version 01.19 delete **\"import WebGui\"** replaced by **\"import webbrowser\"** and optimise filter for **OS Linux Mint**
 
 2023/09/01 Version 0.18c adding **FreeCAD.activeDocument().recompute(None,True,True)***Texte en italique* \"bug\" fixed by **Syres** thanks [How to draw polygonal spirals in Freecad?](https://forum.freecad.org/viewtopic.php?p=703568#p703568)
 

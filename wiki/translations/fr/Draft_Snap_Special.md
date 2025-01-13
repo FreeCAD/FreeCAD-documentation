@@ -2,7 +2,8 @@
  GuiCommand:
    Name: Draft Snap Special
    Name/fr: Draft Aimantation Spécial
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Aimantation , Aimanter à des points spéciaux
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Version: 0.17
    SeeAlso: Draft_Snap/fr, Draft_Snap_Lock/fr
 ---
@@ -24,9 +25,10 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 
 1.  Assurez-vous que l\'aimantation est activé. Voir <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;">. [Draft Verrouillage de l\'aimantation](Draft_Snap_Lock/fr.md).
 2.  Si **Draft Aimantation Spécial** n\'est pas actif, faites l\'une des choses suivantes :
-    -   Appuyez sur le bouton **<img src="images/Draft_Snap_Special.svg" width=16px>** de la barre d\'outils Draft Aimantation.
-    -   Maintenez le bouton **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** du [Draft Widget aimantation](Draft_snap_widget/fr.md) et dans le menu qui s\'ouvre, sélectionnez l\'option **<img src="images/Draft_Snap_Special.svg" width=16px> Aimanter à des points spéciaux (OFF)**.
-3.  Choisissez une commande de [Draft](Draft_Workbench/fr.md) ou de [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
+    -   Appuyez sur le bouton **<img src="images/Draft_Snap_Special.svg" width=16px> [Aimanter à des points spéciaux](Draft_Snap_Special/fr.md)** de la barre d\'outils Draft Aimantation.
+    -   [Draft](Draft_Workbench/fr.md) : maintenez le bouton **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** du [Draft Widget d\'aimantation](Draft_snap_widget/fr.md) et dans le menu qui s\'ouvre, sélectionnez l\'option **<img src="images/Draft_Snap_Special.svg" width=16px> Aimanter à des points spéciaux**.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionnez l\'option **Aimantation → <img src="images/Draft_Snap_Special.svg" width=16px> Aimanter à des points spéciaux** du menu ou dans le menu contextuel de la [vue 3D](3D_view/fr.md).
+3.  Choisissez une commande de Draft et de BIM pour créer votre géométrie.
 4.  Notez que vous pouvez également modifier les options d\'aimantation lorsqu\'une commande est active.
 5.  Déplacez le curseur sur un objet pris en charge.
 6.  L\'objet est mis en évidence.

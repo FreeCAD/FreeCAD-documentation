@@ -10,22 +10,26 @@
 
 # Part MakeFace/de
 
+
+
 ## Beschreibung
 
-**Part MakeFace**‏‎ creates a [plane](Part_Plane.md) in a custom shape. The shape is defined by a closed sketch contour.
+The <img alt="" src=images/Part_MakeFace.svg  style="width:24px;"> **Part MakeFace** command creates a planar face from one or more coplanar closed wires (contours). They can be any valid wire, i.e. created with the [Part Workbench](Part_Workbench.md), the [Draft Workbench](Draft_Workbench.md) or the [Sketcher Workbench](Sketcher_Workbench.md). The contours should not self-intersect, or intersect each other. They can be nested to create voids.
 
-It is possible to nest closed contours, for example to have circles inside a polygon. In this case the face will be created between the contours like in this example:
-
-<img alt="" src=images/Part_MakeFace-example.png  style="width:300px;">
+<img alt="" src=images/Part_MakeFace-example.png  style="width:500px;">
 
 
 
-*Example of a face created from a nested set of contours.*
+*Faces created from different sets of wires*
+
+
 
 ## Anwendung
 
-1.  Select a sketch defining at least one closed contour
-2.  Press the **<img src="images/Part_MakeFace.svg" width=16px> [Make face from wires](Part_MakeFace.md)** button
+1.  Select one or more objects containing one or more closed wires.
+2.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Part_MakeFace.svg" width=16px> [Make face from wires](Part_MakeFace.md)** button.
+    -   Select the **Part → <img src="images/Part_MakeFace.svg" width=16px> Make face from wires** option from the menu.
 
 
 

@@ -38,7 +38,7 @@ Sie muss hier abgelegt werden: `src/Mod/Fem/Gui/Resources/icons/`.
 
 ## Die neue Symboldatei registrieren 
 
-The new SVG icon file has to be registered for the GUI button by inserting it in `src/Mod/Fem/Gui/Resources/Fem.qrc`:
+Die neue SVG-Symboldatei muss für den GUI-Button registriert werden, indem sie in `src/Mod/Fem/Gui/Resources/Fem.qrc` eingefügt wird:
 
 
 {{code|code=
@@ -49,9 +49,9 @@ The new SVG icon file has to be registered for the GUI button by inserting it in
 
 ## Eine neue Befehlsklasse erstellen 
 
-A new command class has to be added to the `src/Mod/Fem/femcommands/commands.py` module.
+Eine neue Befehlsklasse muss zum Modul `src/Mod/Fem/femcommands/commands.py` hinzugefügt werden.
 
-Just copy/paste an existing command, then adjust the icon, menu text and tool-tip in `__init__(self)`:
+Kopieren Sie einfach einen bestehenden Befehl und passen Sie das Symbol, den Menütext und den Tooltip in `__init__(self)` an:
 
 
 {{code|code=
@@ -66,7 +66,7 @@ class _testButton(CommandManager):
         #self.do_activated = "add_obj_on_gui_selobj_noset_edit"
 }}
 
-Don\'t forget to register the command at the bottom of the module file with the `addCommand(...)` method:
+Vergiss nicht, den Befehl am Ende der Moduldatei mit der Methode `addCommand(...)` zu registrieren:
 
 
 {{code|code=
@@ -76,15 +76,15 @@ FreeCADGui.addCommand(
 )
 }}
 
-**Note**: Please see this [discussion thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=46693&start=10#p402004) in the forum if icons are involved.
+**Hinweis**: Bitte schaue diese [Diskussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=46693&start=10#p402004) im Forum an, wenn es um Icons geht.
 
 
 
 ## Einem Arbeitsbereich einen neuen Befehl hinzufügen 
 
-We will add the new command to both the **solve** toolbar and the **solve** menu.
+Wir fügen den neuen Befehl sowohl der Symbolleiste **Lösen** als auch dem Menü **Lösen** hinzu.
 
-Search for the following code snippet in `/Gui/Workbench.cpp` and add the new command:
+Suche den folgenden Codeschnipsel in `/Gui/Workbench.cpp` und füge den neuen Befehl hinzu:
 
 
 {{code|code= 
@@ -97,7 +97,7 @@ Search for the following code snippet in `/Gui/Workbench.cpp` and add the new co
             << "Separator"
 }}
 
-To add the command to the **solve** menu of the FEM workbench, search for the following code snippet in `Workbench.cpp`:
+Um den Befehl zum **Löser** Menü der FEM-Workbench hinzuzufügen, suche nach dem folgenden Codeschnipsel in `Workbench.cpp`:
 
 
 {{code|code= 
@@ -112,12 +112,14 @@ To add the command to the **solve** menu of the FEM workbench, search for the fo
            << "Separator"
 }}
 
-**Result**: You should have just successfully added a test button to a FEM workbench toolbar and menu. Now, you can [compile FreeCAD](Compiling.md) and test your new button.
+**Ergebnis**: Sie sollten soeben erfolgreich eine Test-Schaltfläche zur Symbolleiste und zum Menü einer FEM-Arbeitsbereich hinzugefügt haben. Jetzt kann FreeCAD kompiliert und Ihre neue Schaltfläche getesten werden.
 
-## Related
 
--   [Extend FEM Module](Extend_FEM_Module.md)
--   [Onboarding FEM Devs](Onboarding_FEM_Devs.md)
+
+## Verwandtes
+
+-   [FEM Modul Erweitern](Extend_FEM_Module/de.md)
+-   [Einführung für FEM-Entwickler](Onboarding_FEM_Devs/de.md)
 
 
 

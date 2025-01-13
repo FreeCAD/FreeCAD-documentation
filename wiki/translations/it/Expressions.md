@@ -1,17 +1,11 @@
 # Expressions/it
 ## Descrizione
 
-È possibile definire le proprietà utilizzando espressioni matematiche. Nella GUI, gli spin box o i campi di input che sono legati alle proprietà contengono un\'icona blu <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Cliccando sull\'icona, oppure digitando il segno di uguale **&#61;**, si porta in primo piano l\'editor delle espressioni per quella particolare proprietà.
+È possibile definire le proprietà utilizzando espressioni matematiche. Nella GUI, le caselle di selezione o i campi di input associati alle proprietà mostrano un\'icona blu <img alt="" src=images/Bound-expression.svg  style="width:16px;"> quando sono attivati. Facendo clic sull\'icona o digitando il segno uguale **&#61;** si apre l\'editor delle espressioni per quella particolare proprietà. Se il campo di input mostra un pulsante **...** invece di un\'icona, l\'editor delle espressioni può essere aperto facendo clic con il pulsante destro del mouse sulla proprietà e selezionando **Expression...** dal menu contestuale.
 
 Un\'espressione di FreeCAD è un\'espressione matematica che utilizza gli [operatori](#Operatori_supportati.md), le [funzioni](#Funzioni_supportate.md) e le [costanti](#Costanti_supportate.md) standard come descritto di seguito. Inoltre, l\'espressione può fare riferimento a proprietà dell\'oggetto e utilizzare anche [espressioni condizionali](#Espressioni_condizionali.md). I numeri in un\'espressione possono avere una [unità](#Unità.md) facoltativa allegata.
 
-
-<div class="mw-translate-fuzzy">
-
 I numeri possono utilizzare una virgola `,` o un punto decimale `.` per separare le cifre intere dai decimali. Quando viene utilizzato il marcatore decimale, *deve* essere seguito da almeno una cifra. Pertanto, le espressioni `1.+2.` e `1,+2,` non sono valide, ma `1.0 + 2.0` e `1,0 + 2 ,0` sono validi.
-
-
-</div>
 
 Gli operatori e le funzioni sono unit-aware (consapevoli delle unità), e richiedono combinazioni di unità valide, se sono necessarie. Ad esempio, `2mm + 4mm` è un\'espressione valida, mentre `2mm + 4` non lo è. Questo vale anche per i riferimenti alle proprietà dell\'oggetto che hanno unità, come la proprietà Length. Pertanto `Pad001.Length + 1` non è valido poiché aggiunge un numero puro a una proprietà con una unità di lunghezza, si richiede `Pad001.Length + 1mm`.
 
@@ -39,34 +33,11 @@ Gli argomenti possono includere riferimenti a celle in un foglio di calcolo. Un 
 
 ### Riferimenti a oggetti 
 
+Come già mostrato sopra,S si può fare riferimento a un oggetto tramite il suo **Name**. Ma si può anche usare la sua **Label**. Nel caso di una **Label**, essa deve essere racchiusa tra i simboli `<<` e `>>`, come questa: `<<Label>>`.
 
-<div class="mw-translate-fuzzy">
+È possibile fare riferimento a qualsiasi proprietà di un oggetto. Ad esempio, per fare riferimento all\'altezza di un cilindro, è possibile utilizzare `Cylinder.Height` o `<<Label_of_cylinder>>.Height`
 
-Si può fare riferimento a un oggetto tramite il suo **Name** o la sua **Label**. Nel caso di una **Label**, essa deve essere racchiusa tra i simboli `<<` e `>>`, come questa: `<<Label>>`.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-È possibile fare riferimento a qualsiasi proprietà di un oggetto. Ad esempio, per fare riferimento all\'altezza di un cilindro, è possibile utilizzare `Cylinder.Height` o `<<Long_name_of_cylinder>>.Height`. Per fare riferimento all\'oggetto stesso si usa la pseudo proprietà `_self`. Ad esempio, puoi utilizzare `Cylinder._self` o `<<Label_of_cylinder>>._self`.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Per ulteriori informazioni sui riferimenti agli oggetti, vedere [Riferimento ai dati_CAD](#Riferimento_ai_dati_CAD.md).
-
-
-</div>
-
-
-{{Top}}
-
-
+Per ulteriori informazioni sui riferimenti agli oggetti, vedere [Riferimento ai dati CAD](#Riferimento_ai_dati_CAD.md). 
 
 ## Costanti supportate 
 
@@ -112,13 +83,7 @@ Sono supportate le seguenti funzioni matematiche:
 
 #### Funzioni trigonometriche 
 
-
-<div class="mw-translate-fuzzy">
-
-[Le funzioni trigonometriche](https://en.wikipedia.org/wiki/Trigonometric_functions) usano il grado come unità predefinita. Per la misura in radianti, aggiungi primo valore in un\'espressione. Quindi ad es. `cos(45)` è uguale a `cos(pi rad / 4)`. Le espressioni in gradi possono utilizzare `deg` o `°`, ad es. `360deg - atan2(3; 4)` o `360&deg; - atan2(3; 4)`. Se un\'espressione è senza unità e deve essere convertita in gradi o radianti per compatibilità, moltiplicare per `1&nbsp;deg`, `1&nbsp;°` o `1&nbsp;rad` in modo appropriato, ad es. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
-
-
-</div>
+[Le funzioni trigonometriche](https://en.wikipedia.org/wiki/Trigonometric_functions) usano il grado come unità predefinita. Per i radianti, aggiungere primo valore in un\'espressione. Quindi ad es. `cos(45)` è uguale a `cos(pi rad / 4)`. Le espressioni in gradi possono utilizzare `deg` o `°`, ad es. `360deg - atan2(3; 4)` o `360&deg; - atan2(3; 4)`. Se un\'espressione è senza unità e deve essere convertita in gradi o radianti per compatibilità, moltiplicare per `1deg`, `1°` o `1rad` in modo appropriato, ad es. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
 
 ++++
 | Funzione               | Descrizione                                                                                                                                                                | Intervallo di valori                               |
@@ -449,7 +414,7 @@ I seguenti oggetti possono essere creati nelle espressioni utilizzando le seguen
 
 ### Funzioni vettoriali 
 
-Funzioni: {{Version/it|0.22}}.
+Funzioni: {{Version/it|1.0}}.
 
 +++
 | Funzione / Operatore                | Descrizzione                                                                                                                                                                                  |
@@ -592,7 +557,9 @@ e `Placement` possono essere rappresentati ciascuno da una `Matrix`. Le seguenti
 
 ## Espressioni condizionali 
 
-Le espressioni condizionali hanno la forma `condition ? resultTrue : resultFalse`. La condizione è definita come un\'espressione che restituisce `0` (falso) o diverso da zero (vero).
+Le espressioni condizionali hanno la forma `condizione ? resultTrue : resultFalse`. La condizione è definita come un\'espressione che restituisce `0` (false) o diverso da zero (true).
+
+Tenere presente che per utilizzare una proprietà booleana come condizione è necessario utilizzare questa sintassi: `VarSet.MyBool &#61;&#61; 1? 10 mm: 15 mm`.
 
 Sono definiti i seguenti [operatori relazionali](https://en.wikipedia.org/wiki/Relational_operator#Standard_relational_operators):
 
@@ -638,14 +605,14 @@ Il parser delle espressioni riconosce le seguenti unità:
 
   Unità   Descrizione
    
-  °       [Grado](https://it.wikipedia.org/wiki/Grado_d%27arco); alternativa all\'unità deg
-  deg     [Grado](https://it.wikipedia.org/wiki/Grado_d%27arco); alternativa all\'unità °
-  rad     [Radiante](https://it.wikipedia.org/wiki/Radiante)
-  gon     [Grado centesimale](https://it.wikipedia.org/wiki/Grado_centesimale)
-  S       [Secondo di arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternativa all\'unità ″
-  ″       [Secondo di arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternativa all\'unità S
-  M       [Minuto di arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternativa all\'unità ′
-  ′       [Minuto di arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternativa all\'unità M
+  °       [Degree](https://en.wikipedia.org/wiki/Degree_(angle)); alternativa all\'unità deg
+  deg     [Degree](https://en.wikipedia.org/wiki/Degree_(angle)); alternativa all\'unità °
+  rad     [Radiante](https://en.wikipedia.org/wiki/Radian)
+  gon     [Gradianti](https://en.wikipedia.org/wiki/Gon_(unità))
+  M       [Minuto d\'arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternativa all\'unità ′
+  \'      [Minuto d\'arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); questo è il simbolo primo (U+2032); alternativa all\'unità M
+  S       [Secondo d\'arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); **NON FUNZIONA**; alternativa all\'unità″
+  \"      [Secondo d\'arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); questo è il simbolo del doppio primo (U+2033); alternativa all\'unità S
 
 
 
@@ -962,143 +929,134 @@ Vedere [Spreadsheet SetAlias](Spreadsheet_SetAlias/it#Utilizzo.md).
 
 ## Riferimento ai dati CAD 
 
+È possibile utilizzare i dati del modello stesso in un\'espressione. Per fare riferimento a una proprietà utilizzare `object_name.property` o `<<object_label>>.property`, le etichette devono essere racchiuse tra `<<` e `>>} }. Se si desidera utilizzare le etichette, queste devono essere univoche.
 
-<div class="mw-translate-fuzzy">
+Tutti gli esempi successivi fanno riferimento all'oggetto con il suo nome, ma in tutti i casi è possibile utilizzare anche l'etichetta dell'oggetto.
 
-È possibile utilizzare i dati del modello stesso in un\'espressione. Per fare riferimento a una proprietà utilizzare `object.property`. Se la proprietà è composta da più campi, è possibile accedere ai singoli campi come `object.property.field`.
+Se la proprietà è un composto di campi, è possibile accedere ai singoli campi come {{incode|object_name.property.field`.
 
+Per fare riferimento agli oggetti dell'elenco utilizzare `object_name.list[list_index]`. Se si vuole fare riferimento a un vincolo in uno schizzo, usare `Sketch.Constraints[16]`. Se ci si trova nello stesso sketch è possibile ometterne il nome e usare semplicemente `Constraints[16]`. Tenere presente che l'indice inizia con 0, pertanto è necessario fare riferimento a Constraint17 come `Constraints[16]`.
 
-</div>
+Per fare riferimento all'oggetto stesso utilizzare la pseudo proprietà `_self`: `object_name._self`.
 
-All next examples reference the object by its name, but in all cases the object label can also be used.
+La tabella seguente mostra alcuni ulteriori esempi:
+{| class="wikitable"
+ !Dati CAD
+ !Chiamata nell'espressione
+ !Risultato
+ |-
+ |Lunghezza di un [Box di Part](Part_Box/it.md)
+ |`Box.Length`
+ |Lunghezza con unità (mm)
+ |-
+ |Volume di un Box
+ |`Box.Shape.Volume`
+ |Volume in mm&sup3; senza unità
+ |-
+ |Tipo di Shape di un Box
+ |`Box.Shape.ShapeType`
+ |Stringa: Solid
+ |-
+ |Etichetta di una Box
+ |`Box.Label`
+ |Stringa: Label
+ |-
+ |Coordinata X del centro di massa di un Box
+ |`Box.Shape.CenterOfMass.x`
+ |Coordinata X in mm senza unità
+ |-
+ |Coordinata X del Box placement
+ |`Box.Placement.Base.x`
+ |Coordinata X con l'unità (mm)
+ |-
+ |Componente X dell'asse di rotazione del placement di un Box
+ |`Box.Placement.Rotation.Axis.x`
+ |Componente X del vettore unitario in mm senza unità
+ |-
+ |Angolo di rotazione del placemente di un Box
+ |`Box.Placement.Rotation.Angle`
+ |Angolo di rotazione con unità (deg)
+ |-
+ |Oggetto Full Box
+ |`Box._self`
+ |Oggetto del tipo <Part::PartFeature>
+ |-
+ |Valore di un vincolo in uno schizzo
+ |`Constraints.Width`
+ |Valore numerico di un vincolo denominato `Width` nello sketch, se l'espressione è utilizzata nello sketch stesso.
+ |-
+ |Valore di un vincolo in uno schizzo
+ |`MySketch.Constraints.Width`
+ |Valore numerico di un vincolo denominato `Width` nello sketch, se l'espressione viene utilizzata all'esterno dello sketch.
+ |-
+ |Valore di un alias in uno Spreadsheet
+ |`Spreadsheet.Depth`
+ |Valore dell'alias `Depth` nel foglio di calcolo `Spreadsheet`
+ |-
+ |Valore di una proprietà locale
+ |`Length`
+ |Valore della proprietà **Length**, ad esempio in un oggetto Pad, se l'espressione è utilizzata ad esempio in **Length2** nello stesso oggetto.
+ |}
 
-If the property is a compound of fields, the individual fields can be accessed as `object_name.property.field`.
+<span id="Cyclic_dependencies"></span>
+=== Dipendenze cicliche ===
 
+FreeCAD controlla le dipendenze in base alla relazione tra gli oggetti del documento, non alle proprietà. Ciò significa che non è possibile fornire dati a un oggetto ed eseguire query sullo stesso oggetto per ottenere risultati. Ad esempio, anche se non esistono dipendenze cicliche quando vengono considerate le proprietà stesse, potresti non avere un oggetto che ottiene le sue dimensioni da un foglio di calcolo e quindi visualizza il volume di quell'oggetto nello stesso foglio di calcolo. Si devono utilizzare due fogli di calcolo, uno per gestire il proprio modello e l'altro per i report.
 
-<div class="mw-translate-fuzzy">
+Come soluzione alternativa è possibile visualizzare un intervallo di celle dal secondo foglio di calcolo nel primo (o viceversa) creando un [associazione di celle](Spreadsheet_Workbench#Cell_binding.md) con l'opzione **Nascondi dipendenza dell'associazione**.
 
-Per fare riferimento agli oggetti dell\'elenco, usa `<<object_label>>.list[list_index]` o `object_name.list[list_index]`. Se ad esempio si desidera fare riferimento a un vincolo in uno schizzo, lo si può fare usando `<<MySketch>>.Constraints[16]`. Se il riferimento si trova nello stesso schizzo, si può ometterne il nome e utilizzare solo `Constraints[16]`.
-**Nota:** L\'indice inizia con 0, quindi Constraint17 deve essere referenziato come `Constraints[16]`.
+Un altro modo per aggirare le dipendenze cicliche è nascondere il riferimento utilizzando la funzione `href` o `hiddenref` per le singole espressioni, ad esempio: `href(Box.Length)`.
 
+Tenere presente che entrambe le soluzioni alternative menzionate devono essere utilizzate con cautela e che non funzionano se le proprietà segnalate dipendono da dimensioni determinate dallo stesso foglio di calcolo.
+{{Top}}
+<span id="Document-wide_global_variables"></span>
+== Variabili globali nell'ambito del documento ==
 
-</div>
+Al momento in FreeCAD non esiste il concetto di variabili globali. Invece, utilizzando l'ambiente [Spreadsheet](Spreadsheet_Workbench/it.md), si possono definire delle variabili arbitrarie come celle in un foglio di calcolo, e poi assegnare loro un nome utilizzando la proprietà alias della cella (tasto destro del mouse sulla cella). Dopo si può accedere alla variabile da qualsiasi espressione, come per qualsiasi altra proprietà di un oggetto.
+{{Top}}
+<span id="Cross-document_linking"></span>
+== Riferimenti incrociati nel documento ==
 
-To reference the object itself use the `_self` pseudo property: `object_name._self`.
+È possibile (con limitazioni) definire una proprietà di un oggetto nel documento corrente (file ".FCstd") utilizzando un'espressione per fare riferimento a una proprietà di un oggetto contenuto in un documento diverso (file ".FCstd"). Ad esempio, una cella in un foglio di calcolo o la {{PropertyData/it|lunghezza}} di un cubo di Part, ecc. in un documento può essere definita da un'espressione che fa riferimento al valore di posizionamento X o ad un'altra proprietà di un oggetto contenuto in un documento diverso.
 
-
-<div class="mw-translate-fuzzy">
-
-La tabella seguente mostra alcuni esempi:
-
-++++
-| Dati CAD                                                     | Chiamata nell\'espressione               | Risultato                                                                                                                                                                                             |
-+==============================================================+==========================================+=======================================================================================================================================================================================================+
-| Lunghezza di un [Box di Part](Part_Box/it.md)        |                           | Lunghezza con unità (mm)                                                                                                                                                                              |
-|                                                              | `Box.Length`                    |                                                                                                                                                                                                       |
-|                                                              |                                       |                                                                                                                                                                                                       |
-++++
-| Volume di un Box                                             |                           | Volume in mm³ senza unità                                                                                                                                                                             |
-|                                                              | `Box.Shape.Volume`              |                                                                                                                                                                                                       |
-|                                                              |                                       |                                                                                                                                                                                                       |
-++++
-| Tipo di Shape di un Box                                      |                           | Stringa: Solid                                                                                                                                                                                        |
-|                                                              | `Box.Shape.ShapeType`           |                                                                                                                                                                                                       |
-|                                                              |                                       |                                                                                                                                                                                                       |
-++++
-| Etichetta di una Box                                         |                           | Stringa: Label                                                                                                                                                                                        |
-|                                                              | `Box.Label`                     |                                                                                                                                                                                                       |
-|                                                              |                                       |                                                                                                                                                                                                       |
-++++
-| Coordinata X del centro di massa di un Box                   |                           | Coordinata X in mm senza unità                                                                                                                                                                        |
-|                                                              | `Box.Shape.CenterOfMass.x`      |                                                                                                                                                                                                       |
-|                                                              |                                       |                                                                                                                                                                                                       |
-++++
-| Coordinata X del Box placement                               |                           | Coordinata X con l\'unità (mm)                                                                                                                                                                        |
-|                                                              | `Box.Placement.Base.x`          |                                                                                                                                                                                                       |
-|                                                              |                                       |                                                                                                                                                                                                       |
-++++
-| Componente X dell\'asse di rotazione del placement di un Box |                           | Componente X del vettore unitario in mm senza unità                                                                                                                                                   |
-|                                                              | `Box.Placement.Rotation.Axis.x` |                                                                                                                                                                                                       |
-|                                                              |                                       |                                                                                                                                                                                                       |
-++++
-| Angolo di rotazione del placemente di un Box                 |                           | Angolo di rotazione con unità (deg)                                                                                                                                                                   |
-|                                                              | `Box.Placement.Rotation.Angle`  |                                                                                                                                                                                                       |
-|                                                              |                                       |                                                                                                                                                                                                       |
-++++
-| Oggetto Full Box                                             |                                                                                                                                                          |
-|                                                              | `Box._self`                     |                                                                                                                                                                                                       |
-|                                                              |                                       |                                                                                                                                                                                                       |
-++++
-| Valore di un vincolo in uno schizzo                          |                           | Valore numerico di un vincolo denominato `Width` nello sketch, se l\'espressione è utilizzata nello sketch stesso.                                                             |
-|                                                              | `Constraints.Width`             |                                                                                                                                                                                                       |
-|                                                              |                                       |                                                                                                                                                                                                       |
-++++
-| Valore di un vincolo in uno schizzo                          |                           | Valore numerico di un vincolo denominato `Width` nello sketch, se l\'espressione viene utilizzata all\'esterno dello sketch.                                                   |
-|                                                              | `MySketch.Constraints.Width`    |                                                                                                                                                                                                       |
-|                                                              |                                       |                                                                                                                                                                                                       |
-++++
-| Valore di un alias in uno Spreadsheet                        |                           | Valore dell\'alias `Depth` nel foglio di calcolo `Spreadsheet`                                                                                          |
-|                                                              | `Spreadsheet.Depth`             |                                                                                                                                                                                                       |
-|                                                              |                                       |                                                                                                                                                                                                       |
-++++
-| Valore di una proprietà locale                               |                           | Valore della proprietà **Length**, ad esempio in un oggetto Pad, se l\'espressione è utilizzata ad esempio in **Length2** nello stesso oggetto. |
-|                                                              | `Length`                        |                                                                                                                                                                                                       |
-|                                                              |                                       |                                                                                                                                                                                                       |
-++++
-
-
-</div>
-
-### Cyclic dependencies 
-
-FreeCAD checks dependencies based on the relationship between document objects, not properties. This means that you cannot provide data to an object and query that same object for results. For example, even though there are no cyclic dependencies when the properties themselves are considered, you may not have an object which gets its dimensions from a spreadsheet and then display the volume of that object in the same spreadsheet. You have to use two spreadsheets, one to drive your model and the other for reporting.
-
-As a workaround it is possible to display a cell range from the second spreadsheet in the first (or vice versa) by creating a [cell binding](Spreadsheet_Workbench#Cell_binding.md) with the **Hide dependency of binding** option.
-
-Another way to workaround cyclic dependencies is to hide the reference by using the `href` or `hiddenref` function for individual expressions, for example: `href(Box.Length)`.
-
-Please note that both mentioned workarounds should be used with caution, and that they do not work if the properties that are reported depend on dimensions that are driven from the same spreadsheet. 
-
-## Variabili globali nell\'ambito del documento 
-
-Al momento in FreeCAD non esiste il concetto di variabili globali. Invece, utilizzando l\'ambiente [Spreadsheet](Spreadsheet_Workbench/it.md), si possono definire delle variabili arbitrarie come celle in un foglio di calcolo, e poi assegnare loro un nome utilizzando la proprietà alias della cella (tasto destro del mouse sulla cella). Dopo si può accedere alla variabile da qualsiasi espressione, come per qualsiasi altra proprietà di un oggetto. 
-
-## Riferimenti incrociati nel documento 
-
-È possibile (con limitazioni) definire una proprietà di un oggetto nel documento corrente (file \".FCstd\") utilizzando un\'espressione per fare riferimento a una proprietà di un oggetto contenuto in un documento diverso (file \".FCstd\"). Ad esempio, una cella in un foglio di calcolo o la {{PropertyData/it|lunghezza}} di un cubo di Part, ecc. in un documento può essere definita da un\'espressione che fa riferimento al valore di posizionamento X o ad un\'altra proprietà di un oggetto contenuto in un documento diverso.
-
-È possibile utilizzare il nome di un documento per fare riferimento ad esso da altri documenti. Quando si salva un documento per la prima volta, si sceglie un nome per il file; questo di solito è diverso dal default iniziale \"Unnamed1\" (o il suo equivalente tradotto). Per evitare la perdita dei collegamenti quando il documento master viene rinominato al momento del salvataggio, si consiglia di creare prima il documento master, creare un foglio di calcolo al suo interno e salvarlo. Successivamente è ancora possibile apportare modifiche e salvare il file, ma non si deve rinominarlo.
+È possibile utilizzare il nome di un documento per fare riferimento ad esso da altri documenti. Quando si salva un documento per la prima volta, si sceglie un nome per il file; questo di solito è diverso dal default iniziale "Unnamed1" (o il suo equivalente tradotto). Per evitare la perdita dei collegamenti quando il documento master viene rinominato al momento del salvataggio, si consiglia di creare prima il documento master, creare un foglio di calcolo al suo interno e salvarlo. Successivamente è ancora possibile apportare modifiche e salvare il file, ma non si deve rinominarlo.
 
 Una volta creato e salvato (e denominato) il documento master con il foglio di calcolo, è possibile creare dei documenti dipendenti. Supponendo che il documento master sia stato denominato `master`, il foglio di calcolo sia stato rinominato `modelConstants` e a una cella sia stato assegnato un nome alias `Length`, si può quindi accedere al valore con:
 
-
 `master#modelConstants.Length`
 
+Notare che il documento master deve sempre essere caricato affinché i valori del master siano disponibili per il documento dipendente.
 
-<div class="mw-translate-fuzzy">
+Naturalmente, dopo spetta all'utente il compito di caricare i documenti corrispondenti, quando si desidera cambiare qualcosa.
+{{Top}}
+<span id="Known_issues_/_remaining_tasks"></span>
+== Problemi noti / attività rimanenti ==
 
-**Notare** che il documento master deve sempre essere caricato affinché i valori del master siano disponibili per il documento dipendente.
+* FreeCAD non dispone ancora di un gestore di espressioni integrato in cui tutte le espressioni in un documento sono elencate e possono essere create, cancellate, interrogate, ecc. Ma è disponibile un componente aggiuntivo: [https://github.com/gbroques/fcxref fcxref expression manager].
+* I bug/ticket aperti per le espressioni possono essere trovati su [https://github.com/FreeCAD/FreeCAD/labels/Topic%3A%20Expressions GitHub].
+{{Top}}
+<span id="Scripting"></span>
+== Script ==
 
+```python
+import FreeCAD as App
 
-</div>
+doc = App.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+cyl = doc.addObject("Part::Cylinder", "Cylinder")
+cyl_name = cyl.Name
 
-Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrispondenti, quando si desidera cambiare qualcosa. 
+box.setExpression("Height", f"{cyl_name}.Height / 2")
+box.setExpression("Length", f"{cyl_name}.Radius * 2")
+box.setExpression("Width", "Length")
 
-## Problemi noti / attività rimanenti 
+doc.recompute()
 
-
-<div class="mw-translate-fuzzy">
-
--   I grafici delle dipendenze si basano sul rapporto tra gli oggetti del documento, non sulle proprietà. Questo significa che non è possibile fornire i dati a un oggetto e interrogare lo stesso oggetto per i risultati. Ad esempio, anche se non ci sono dipendenze cicliche quando vengono considerate solo le proprietà, non si può avere un oggetto che ottiene le sue dimensioni da un foglio di calcolo e quindi visualizza il volume di tale oggetto nello stesso foglio di calcolo. Per aggirare il problema, utilizzare più fogli di calcolo, ad esempio uno per sviluppare il modello, e l\'altro per i rapporti.
--   Il parser delle espressioni non gestisce bene le parentesi e non è in grado di analizzare correttamente alcune espressioni. Ad esempio: `<nowiki>=</nowiki> (A1 > A2) ? 1 : 0` restituisce un errore, mentre `<nowiki>=</nowiki> A1 > A2 ? 1 : 0` è accettato. L\'espressione `<nowiki>=</nowiki> 5 + ((A1>A2) ? 1 : 0)` non può essere inserita in nessuna forma.
--   Come affermato sopra, sfortunatamente, a volte il controllo integrato afferma che non esiste un nome valido. Continuare comunque a digitare. Dopo aver completato il riferimento completo, il pulsante **OK** diventerà attivo.
--   FreeCAD non ha ancora un gestore di espressioni integrato in cui sono elencate tutte le espressioni di un documento che possono essere create, eliminate, interrogate, ecc. Ma è disponibile un componente aggiuntivo: [gestore espressioni fcxref](https://github.com/gbroques/fcxref).
--   I bug aperti per le espressioni si trovano in [FreeCAD Bugtracker Expressions category](https://freecadweb.org/tracker/set_project.php?project_id=4;20)
-
-
-</div>
-
-
+# Expressions are stored in the ExpressionEngine property:
+for prop, exp in box.ExpressionEngine:
+    val = getattr(box, prop)
+    print(f"Property: '{prop}' -- Expression: '{exp}' -- Current value: {val}")
+```
 {{Top}}
 
 

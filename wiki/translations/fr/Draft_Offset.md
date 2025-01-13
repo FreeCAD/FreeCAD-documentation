@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Offset
    Name/fr: Draft Décaler
-   MenuLocation: Modification , Décaler
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft/BIM : Modification , Décaler
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **O** **S**
    SeeAlso: Part_Offset2D/fr
 ---
@@ -26,7 +26,8 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_C
 1.  Sélectionner un objet au choix. L\'objet doit se trouver sur le [Draft plan de travail](Draft_SelectPlane/fr.md) en cours.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyer sur le bouton **<img src="images/Draft_Offset.svg" width=16px> [Décaler](Draft_Offset/fr.md)**.
-    -   Sélectionner l\'option **Modification → <img src="images/Draft_Offset.svg" width=16px> Décaler** du menu.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionner l\'option **Modification → <img src="images/Draft_Offset.svg" width=16px> Décaler** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionner l\'option **Modification → <img src="images/Draft_Offset.svg" width=16px> Décaler** du menu.
     -   Utiliser le raccourci clavier : **O** puis **S**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionner un objet dans la [vue 3D](3D_view/fr.md).
 4.  Le panneau de tâches **Décalage** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
@@ -40,7 +41,7 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_C
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut (pour la version 1.0).
 
 -   Si la case **Décalage de type OCC** est cochée, un style de décalage spécial est utilisé : les [Draft Polylignes](Draft_Wire/fr.md) ouvertes sont décalées des deux côtés et les nouveaux bords sont connectés avec des coins arrondis. Ceci ne fonctionne que pour les objets planaires avec au moins deux bords. Notez qu\'avec ce style, un nouvel objet non paramétrique est créé, et si le mode copier est désactivé, l\'objet original est supprimé.
 -   Appuyer sur **C** ou cliquez sur la case **Copier** pour activer le mode de copie. Si le mode de copie est activé, la commande créera une copie décalée au lieu de décaler l\'objet original.

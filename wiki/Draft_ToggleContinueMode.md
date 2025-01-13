@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft ToggleContinueMode
    MenuLocation: Utilities , Toggle continue mode
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Workbenches: Draft_Workbench
 ---
 
 # Draft ToggleContinueMode

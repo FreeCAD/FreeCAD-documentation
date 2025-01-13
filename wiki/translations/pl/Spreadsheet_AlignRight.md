@@ -9,15 +9,21 @@
 
 # Spreadsheet AlignRight/pl
 
+
+
 ## Opis
 
-Narzędzie **[<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Wyrównaj do prawej](Spreadsheet_AlignRight/pl.md)** sprawia, że tekst wewnątrz komórki jest automatycznie wyrównywany do prawej strony.
+Narzędzie <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> **Wyrównaj do prawej** wyrównuje zawartości wybranych komórek do prawej.
+
+
 
 ## Użycie
 
-1.  Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md)**, aby przycisk był dostępny.
-2.  Wybierz komórkę.
-3.  Naciśnij przycisk **[<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Wyrównaj do prawej](Spreadsheet_AlignRight/pl.md)**.
+1.  Upewnij się, że jest aktywny [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md).
+2.  Wybierz jedną lub więcej komórek.
+3.  Istnieje kilka sposobów wywołania tego polecenia:
+    -   Naciśnij przycisk **[<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Wyrównaj do prawej](Spreadsheet_AlignRight/pl.md)**.
+    -   Wybierz opcję **Arkusz Kalkulacyjny → Wyrównanie → [<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> Wyrównaj do prawej** z menu.
 
 
 

@@ -3,7 +3,7 @@
    Name: Draft AutoGroup
    Name/de: Draft AutoGruppieren
    Empty: 1
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Version: 0.17
    SeeAlso: Draft_Layer/de, Std_Group/de
 ---
@@ -14,47 +14,57 @@
 
 ## Beschreibung
 
-Der Befehl **Draft AutoGruppieren** ändert den aktiven [Draft-Layer](Draft_Layer/de.md) oder [wahlweise](#Einstellungen.md) die aktive [Std Gruppe](Std_Group/de.md) bzw. gruppenartige [Arch](Arch_Workbench/de.md)-Objekte. Neue [Draft-](Draft_Workbench/de.md) und [Arch](Arch_Workbench/de.md)-Objekte werden automatisch auf diesem Layer bzw. in dieser Gruppe eingefügt.
+Der Befehl **Draft AutoGruppieren** ändert die aktive [Draft-Ebene](Draft_Layer/de.md) oder [wahlweise](#Einstellungen.md) die aktive [Std Gruppe](Std_Group/de.md) bzw. gruppenartige [BIM](BIM_Workbench/de.md)-Objekte. Neue [Draft-](Draft_Workbench/de.md) und [BIM](BIM_Workbench/de.md)-Objekte werden automatisch auf dieser Ebene bzw. in dieser Gruppe eingefügt.
 
-Dieser Befehl war ursprünglich für Gruppen gedacht, daher sein Name, wurde aber in FreeCAD-Version 0.19 überarbeitet als ein Layer-System eingeführt wurde. Da der Umgang mit Layern jetzt die Standardaufgabe des Befehls ist, liegt der Fokus dieser Seite im folgenden haupfsächlich auf Layern.
+Dieser Befehl war ursprünglich für Gruppen gedacht, daher sein Name, wurde aber in FreeCAD-Version 0.19 überarbeitet als ein Ebenen-System eingeführt wurde. Da der Umgang mit Ebenen jetzt die Standardaufgabe des Befehls ist, liegt der Fokus dieser Seite im folgenden haupfsächlich auf Ebenen.
 
 ![](images/Draft_tray_menu.png ) 
-*Das Layer-Menü im Draft-Tray*
+*Das Ebenen-Menü im Draft-Fach*
 
 
 
 ## Anwendung
 
-1.  Optionally select the layer you want to make active in the [Tree view](Tree_view.md).
-2.  There are several ways to invoke the command:
-    -   Press the ![](images/Draft_tray_button_layer.png ) button in the [Draft Tray](Draft_Tray.md). This button can look different. If there is an active layer it will show the name of the layer and a layer icon with the **Line Color** and **Shape Color** of the layer.
-    -   If you have selected a layer: select the **<img src="images/button_right.svg" width=16px> Activate this layer** option from the [Tree view](Tree_view.md) context menu.
-3.  If you have not yet selected a layer the layer menu opens. Do one of the following:
-    -   Select **None** to work without an active layer.
-    -   Select an existing layer to make active.
-    -   Select **Add new Layer** to create a new layer. Selecting this option will not change the active layer.
-4.  If the active layer was changed the button in the [Draft Tray](Draft_Tray.md) is updated.
+1.  Ebene auswählen(Optional), die in der [Baumansicht](Tree_view/de.md) aktiviert werden soll.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Im [Draft Fach](Draft_Tray/de.md) die ![](images/Draft_tray_button_layer.png ) Schaltfläche auswählen. Diese Schaltfläche kann unterschiedlich aussehen. Wenn es eine aktive Ebene gibt, zeigt sie den Namen der Ebene und ein Ebenen-Symbol mit der Linien- und Flächenfarbe der Ebene.
+    -   Ebene auswählen: Im Kontextmenü der [Baumansicht](Tree_view/de.md) die Option **<img src="images/button_right.svg" width=16px> Diese Ebene aktivieren** wählen.
+3.  Wenn keine Ebene ausgewählt wurde, wird das Ebenen-Menü geöffnet. Einen der folgenden Schritte wählen:
+    -   
+        **Keine**
+        
+        , um ohne aktive Ebene zu arbeiten.
 
-## Notes
+    -   Vorhandene Ebene auswählen, um sie zu aktivieren.
 
--   A new [layer](Draft_Layer.md) can also be created by right-clicking the layer container in the [Tree view](Tree_view.md) and selecting the **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer** option from the context menu.
--   If [Draft construction mode](Draft_ToggleConstructionMode.md) is switched on the active [layer](Draft_Layer.md) is ignored.
+    -   
+        **Neue Ebene hinzufügen**
+        
+        , um eine neue Ebene zu erstellen. Durch die Auswahl dieser Option wird die aktive Ebene nicht geändert.
+4.  Wenn die aktive Ebene geändert wurde, wird die Schaltfläche im [Draft Fach](Draft_Tray.md) aktualisiert.
+
+
+
+## Hinweise
+
+-   Eine neue [Ebene](Draft_Layer/de.md) kann auch erstellt werden, indem mit der rechten Maustaste auf den Ebenen-Container in der [Baumansicht](Tree_view/de.md) geklickt und im Kontextmenü die Option **<img src="images/Draft_NewLayer.svg" width=16px> Neue Ebene hinzufügen** ausgewählt wird.
+-   Wenn der [Konstruktionsmodus](Draft_ToggleConstructionMode/de.md) eingeschaltet ist, wird die aktive [Ebene](Draft_Layer/de.md) ignoriert.
 
 
 
 ## Einstellungen
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
--   This command can optionally also handle groups: **Edit → Preferences... → Draft → General → Include groups in layer list**.
+-   Dieser Befehl kann optional auch Gruppen verarbeiten: **Bearbeiten → Einstellungen... → Draft → Allgemein → Gruppen in Ebenenliste einbeziehen**.
 
 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-If the [Draft Workbench](Draft_Workbench.md) is active the FreeCADGui application object has a `draftToolBar` property. This `draftToolBar` object has an `autogroup` property, which contains the name of the active autogroup, or is `None` if no autogroup is active. To change the active autogroup use the `setAutoGroup` method of the `draftToolBar` object. To put objects in the active autogroup use the `autogroup` method of the Draft module.
+Ist der Arbeitsbereich [Draft](Draft_Workbench/de.md) aktiv, hat das FreeCADGui-Objekt eine Eigenschaft `draftToolBar`. Dieses `draftToolBar`-Objekt hat eine Eigenschaft `autogroup`, die den Namen der aktiven Autogruppe enthält oder `None` ist, wenn keine Autogruppe aktiv ist. Um die aktive Autogruppe zu ändern, wird die Methode `setAutoGroup` des `draftToolBar`-Objekts verwendet. Um Objekte in die aktive Autogruppe aufzunehmen, wird die Methode `autogroup` des Draft-Moduls verwendet.
 
 
 ```python

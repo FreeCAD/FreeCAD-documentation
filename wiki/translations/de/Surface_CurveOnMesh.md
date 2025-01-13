@@ -18,7 +18,7 @@
 
 erstellt angenäherte Spline-Abschnitte auf der Oberfläche eines ausgewählten [Netzes](Mesh_Workbench/de.md).
 
-Ist das Objekt kein [Netzsondern](Mesh/de.md) eine parametrische [Form](Shape/de.md) oder Fläche, muss es als erstes mit **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh AusPartForm](Mesh_FromPartShape/.md)** in ein Netz konvertiert werden.
+Ist das Objekt kein [Netzsondern](Mesh/de.md) eine parametrische [Form](Shape/de.md) oder Fläche, muss es als erstes mit **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh AusPartForm](Mesh_FromPartShape/de.md)** in ein Netz konvertiert werden.
 
 Diese auf der Oberfläche des Netzes erstellten Kanten können später genuzt werden, um die Oberfläche parametrisch nachzubauen mit Werkzeugen wie **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [GeomFüllfläche](Surface_GeomFillSurface/de.md)** und **[<img src=images/Surface_Sections.svg style="width:16px"> [Querschnitte](Surface_Sections/de.md)**.
 

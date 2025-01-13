@@ -94,7 +94,7 @@ Szkic główny zawiera prostokątny kształt podstawy modelu oraz dwa *nazwane w
 
 **Krok C: Przypisz wiązanie poziome**
 
-1.  Wybierz linię zdefiniowaną przez **P2** i **P3** w **Rys: MS3**.
+1.  Wybierz linię zdefiniowaną przez **P2** i **P3** w **Rys: MS3**. Etykiety takie jak P1, P2 itd. nie będą się pojawiały w szkicach, zostały dodane do odniesienia na rysunkach w tym poradniku.
 2.  Kliknij <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md):
     1.  Pomiędzy punktami końcowymi wybranej linii pojawi się wymiar. Ten wymiar to aktualna wartość długości.
     2.  Dodatkowo pojawi się okno dialogowe:
@@ -104,7 +104,6 @@ Szkic główny zawiera prostokątny kształt podstawy modelu oraz dwa *nazwane w
 1.  1.  Przypisz **Długość = 53 mm**
     2.  Aby można było później odwołać się do tego wymiaru potrzebna jest jego nazwa. Możesz użyć dowolnej nazwy, musi być ona tylko unikalna w obrębie szkicu. Przypisz **Nazwę = długość**.
     3.  Kliknij **OK**.
-
 2.  Wynik powinien być podobny do **Rys. MS4**
 
 **Krok D: Przypisz wiązanie symetrii**
@@ -154,9 +153,8 @@ Profil główny jest tworzony przez [wyciągnięcie](PartDesign_Pad/pl.md) noweg
 **Krok B: Dodaj geometrię**
 
 1.  Kliknij <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [Utwórz polilinię](Sketcher_CreatePolyline/pl.md) i utwórz kształt jak na **Rys: MP1**.
-2.  Etykiety P1, P2 itd. nie pojawią się w szkicu. Zostały one dodane w celach informacyjnych.
-3.  Dla ostatniego punktu końcowego odcinka upewnij się, że wybierasz pierwszy punkt kształtu. Punkt zmieni kolor i zobaczysz symbol <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [wiązania zbieżności](Sketcher_ConstrainCoincident/pl.md) w pobliżu kursora. Wiązania zbieżności muszą być jawne. Nie wystarczy, że dwa punkty pokrywają się wizualnie.
-4.  Naciśnij klawisz **Esc** lub kliknij prawym przyciskiem myszy, aby opuścić narzędzie.
+2.  Dla ostatniego punktu końcowego odcinka upewnij się, że wybierasz pierwszy punkt kształtu. Punkt zmieni kolor i zobaczysz symbol <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [wiązania zbieżności](Sketcher_ConstrainCoincident/pl.md) w pobliżu kursora. Wiązania zbieżności muszą być jawne. Nie wystarczy, że dwa punkty pokrywają się wizualnie.
+3.  Naciśnij klawisz **Esc** lub kliknij prawym przyciskiem myszy, aby opuścić narzędzie.
 
 **Krok C: Przypisz wiązania**
 
@@ -182,9 +180,7 @@ Tutaj działa automatyczne uzupełnianie.
         ![](images/Pd_tut_expression_end.png )
     2.  Kliknij **OK**, aby zamknąć okno dialogowe **Edytor formuł**.
     3.  Kliknij **OK**, aby zamknąć okno dialogowe **Wstaw długość**.
-
 2.  Powinieneś mieć w pełni związany szkic podobny do tego na **Rys.: MP2**.
-
 3.  Zwróć uwagę na różne kolory używane dla wiązań odległości przypisywanych za pomocą wyrażeń oraz te przypisywane z podaniem długości.
 
 **Krok D: Zamknij szkic**
@@ -281,7 +277,7 @@ Do stworzenia wycięcia użyjemy narzędzia <img alt="" src=images/PartDesign_Po
 
 Zamiast tworzyć kolejny szkic i kieszeń, wykorzystujemy symetrię modelu względem płaszczyzny YZ i użyjemy narzędzia <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [odbicie lustrzane](PartDesign_Mirrored/pl.md) do stworzenia drugiego wycięcia.
 
-1.  Wybierz **Kieszeń**.
+1.  Wybierz **Kieszeń** w [Widok drzewa](Tree_view/pl.md).
 2.  Kliknij narzędzie <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [odbicie lustrzane](PartDesign_Mirrored/pl.md):
     1.  Otwiera się panel zadań **Parametry odbicia lustrzanego**.
     2.  Z menu rozwijanego wybierz **Płaszczyznę** {{ComboBox|Pionowa oś szkicu}}. Płaszczyzna zostanie zdefiniowana przez tę oś *(oś Y)*, a także przez oś Z szkicu. Zauważ, że wybranie **Płaszczyzny bazowej YZ** dałoby ten sam efekt.
@@ -307,7 +303,7 @@ Boki tworzymy w podobny sposób, ale zamiast usuwać materiał będziemy dodawa�
 3.  Kliknij <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [utwórz prostokąt](Sketcher_CreateRectangle/pl.md) i utwórz prostokąt podobny do mniejszego prostokąta na **Rys: SD1**. Ponieważ prostokąt jest przesunięty względem osi X, nie powinno to wywołać automatycznego <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [dowiązania punktu na obiekcie](Sketcher_ConstrainPointOnObject/pl.md).
 4.  Zamknij narzędzie.
 5.  Kliknij narzędzie <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [geometria zewnętrzna](Sketcher_External/pl.md).
-6.  Wybierz punkt **P1** jak pokazano na **Rys: CC2**.
+6.  Wybierz punkt **P1** jak pokazano na **Rys: CC2** z obiektu **Szkic**.
 7.  Zamknij narzędzie.
 8.  Zastosuj następujące wiązania:
     1.  Wybierz jedną z poziomych linii, zastosuj narzędzie <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md), i przypisz wartość **7 mm**.

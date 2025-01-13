@@ -46,7 +46,7 @@ Outre les outils de la barre d\'outils, les fonctions suivantes sont également 
 -   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Déboguer la macro](Std_MacroStartDebug/fr.md)
 -   <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;"> [Arrêter le débogage](Std_MacroStopDebug/fr.md)
 -   [Passer outre](Std_MacroStepOver/fr.md)
--   [Pénétrer dans](Std_MacroStepInto/fr.md)
+-   [Rentrer dedans](Std_MacroStepInto/fr.md)
 -   [Basculer le point d\'arrêt](Std_ToggleBreakpoint/fr.md)
 
 

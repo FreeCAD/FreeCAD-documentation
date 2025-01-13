@@ -5,7 +5,7 @@
 
 ## Introduction
 
-L\'[atelier FEM](FEM_Workbench/fr.md) fournit un déroulement de tâches moderne d\'[analyse par éléments finis](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_%C3%A9l%C3%A9ments_finis) (FEA) pour FreeCAD. Cela signifie que tous les outils permettant d\'effectuer une analyse sont réunis dans une seule interface utilisateur graphique (GUI).
+L\'[atelier FEM](FEM_Workbench/fr.md) offre un flux de travail d\'[analyse par éléments finis](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_%C3%A9l%C3%A9ments_finis) pour FreeCAD. Cela signifie que tous les outils permettant d\'effectuer une analyse sont réunis dans une seule interface utilisateur graphique.
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
 
@@ -30,7 +30,7 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 
 
-*Déroulement des tâches de l'atelier FEM ; l'atelier fait appel à deux programmes externes pour effectuer le maillage d'un objet solide et la solution proprement dite du problème des éléments finis.*
+*Déroulement des tâches de l'atelier FEM : l'atelier fait appel à deux programmes externes pour effectuer le maillage d'un objet solide et la solution proprement dite du problème des éléments finis.*
 
 
 
@@ -100,11 +100,13 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
   - <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Condition de limite fixe](FEM_ConstraintFixed/fr.md) : utilisé pour définir une contrainte d\'immobilisation sur le point/bord/face(s).
 
+  - <img alt="" src=images/FEM_ConstraintRigidBody.svg  style="width:32px;"> [Contrainte de corps rigide](FEM_ConstraintRigidBody/fr.md) : utilisé pour appliquer la contrainte de corps rigide de CalculiX. Elle contraint le mouvement des nœuds d\'une entité géométrique sélectionnée au mouvement d\'un point de référence positionné par l\'utilisateur. {{Version/fr|1.0}}
+
   - <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Condition limite de déplacement](FEM_ConstraintDisplacement/fr.md) : utilisé pour définir une contrainte de déplacement sur le point/bord/face(s).
 
   - <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Contrainte de contact](FEM_ConstraintContact/fr.md) : utilisé pour définir une contrainte de contact entre deux faces.
 
-  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Contrainte de liaison](FEM_ConstraintTie/fr.md) : utilisé pour définir une contrainte de liaison (\"contact lié\") entre deux faces.
+  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Contrainte de liaison](FEM_ConstraintTie/fr.md) : utilisé pour définir une contrainte de liaison (\"contact lié\") entre deux faces ou, {{Version/fr|1.0}}, la symétrie cyclique.
 
   - <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Ressort](FEM_ConstraintSpring/fr.md) : utilisé pour définir un ressort. {{Version/fr|0.20}}
 
@@ -138,19 +140,19 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 ## Menu : Maillage 
 
--   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [Maillage FEM à partir d\'une forme avec Netgen](FEM_MeshNetgenFromShape/fr.md) : génère un maillage d\'éléments finis pour un modèle en utilisant Netgen.
+-   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [Mailler avec Netgen](FEM_MeshNetgenFromShape/fr.md) : génère un maillage d\'éléments finis pour un modèle en utilisant Netgen.
 
--   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [Maillage FEM à partir d\'une forme avec Gmsh](FEM_MeshGmshFromShape/fr.md) : génère un maillage d\'éléments finis pour un modèle en utilisant Gmsh.
+-   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [Mailler avec Gmsh](FEM_MeshGmshFromShape/fr.md) : génère un maillage d\'éléments finis pour un modèle en utilisant Gmsh.
 
--   <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;"> [Couche limite de maillage FEM](FEM_MeshBoundaryLayer/fr.md) : crée des maillages anisotropes pour des calculs précis près des bords.
+-   <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;"> [Couche limite de maillage](FEM_MeshBoundaryLayer/fr.md) : crée des maillages anisotropes pour des calculs précis près des frontières.
 
--   <img alt="" src=images/FEM_MeshRegion.svg  style="width:32px;"> [Région de maillage FEM](FEM_MeshRegion/fr.md) : crée une ou plusieurs zones localisées à mailler, ce qui optimise considérablement le temps d\'analyse.
+-   <img alt="" src=images/FEM_MeshRegion.svg  style="width:32px;"> [Mailler plus finement](FEM_MeshRegion/fr.md) : crée une ou plusieurs zones localisées à mailler, ce qui optimise considérablement le temps d\'analyse.
 
--   <img alt="" src=images/FEM_MeshGroup.svg  style="width:32px;"> [Groupe de maillage FEM](FEM_MeshGroup/fr.md) : regroupe et étiquette les éléments d\'un maillage (sommet, bord, surface) ensemble, ce qui est utile pour exporter le maillage vers des solveurs externes.
+-   <img alt="" src=images/FEM_MeshGroup.svg  style="width:32px;"> [Collecter un maillage](FEM_MeshGroup/fr.md) : regroupe et étiquette les éléments d\'un maillage (sommet, arête, surface) ensemble, ce qui est utile pour exporter le maillage vers des solveurs externes.
 
--   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Ensemble de nœuds](FEM_CreateNodesSet/fr.md) : crée/définit un ensemble de nœuds à partir d\'un maillage FEM.
+-   <img alt="" src=images/FEM_CreateElementsSet.svg  style="width:32px;"> [Effacer des éléments](FEM_CreateElementsSet/fr.md) : masque les éléments sélectionnés par un polygone du maillage. {{Version/fr|1.0}}
 
--   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Maillage FEM à maillage](FEM_FemMesh2Mesh/fr.md) : convertit la surface d\'un maillage FEM en maillage.
+-   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Maillage FEM en maillage surfacique](FEM_FemMesh2Mesh/fr.md) : convertit des surfaces d\'éléments 3D ou des éléments 2D entiers d\'un maillage sélectionné FEM en maillage surfacique.
 
 
 
@@ -248,23 +250,25 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 ## Menu contextuel 
 
--   <img alt="" src=images/FEM_MeshClear.svg  style="width:32px;"> [Supprimer maillage FEM](FEM_MeshClear/fr.md) : supprime le fichier de maillage du fichier FreeCAD. Utile pour alléger un fichier FreeCAD.
+-   <img alt="" src=images/FEM_MeshClear.svg  style="width:32px;"> [Effacer le maillage FEM](FEM_MeshClear/fr.md) : supprime le fichier de maillage du fichier FreeCAD. Utile pour alléger un fichier FreeCAD.
 
--   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width:32px;"> [Affichage des informations du maillage FEM](FEM_MeshDisplayInfo/fr.md) : affiche les statistiques de base du maillage existant - nombre de nœuds et d\'éléments de chaque type.
+-   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width:32px;"> [Informations du maillage FEM](FEM_MeshDisplayInfo/fr.md) : affiche les statistiques de base du maillage existant, le nombre de nœuds et d\'éléments de chaque type.
 
 
 
 ## Outils obsolètes 
 
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condition de limite du fluide](FEM_ConstraintFluidBoundary/fr.md) : utilisé pour définir une condition limite de fluide.
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condition de limite du fluide](FEM_ConstraintFluidBoundary/fr.md) : utilisé pour définir une condition limite de fluide. N\'avait pas de solveur. Non disponible dans {{VersionPlus/fr|1.0}}.
 
--   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Contrainte de roulement](FEM_ConstraintBearing/fr.md) : utilisé pour définir une contrainte de roulement.
+-   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Contrainte de roulement](FEM_ConstraintBearing/fr.md) : utilisé pour définir une contrainte de roulement. N\'avait pas de solveur. Non disponible dans {{VersionPlus/fr|1.0}}.
 
--   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Contrainte d\'engrenage](FEM_ConstraintGear/fr.md) : utilisé pour définir une contrainte d\'engrenage.
+-   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Contrainte d\'engrenage](FEM_ConstraintGear/fr.md) : utilisé pour définir une contrainte d\'engrenage. N\'avait pas de solveur. Non disponible dans {{VersionPlus/fr|1.0}}.
 
--   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Contrainte de poulie](FEM_ConstraintPulley/fr.md) : utilisé pour définir une contrainte de poulie.
+-   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Contrainte de poulie](FEM_ConstraintPulley/fr.md) : utilisé pour définir une contrainte de poulie. N\'avait pas de solveur. Non disponible dans {{VersionPlus/fr|1.0}}.
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solveur CalculiX (nouveau modèle)](FEM_SolverCalculiX/fr.md) : identique au modèle original <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solveur CalculiX standard](FEM_SolverCalculixCxxtools/fr.md) avec des vérifications supplémentaires. L\'outil était inachevé. Non disponible dans {{VersionPlus/fr|0.22}}.
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solveur CalculiX (nouveau modèle)](FEM_SolverCalculiX/fr.md) : identique au modèle original <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solveur CalculiX standard](FEM_SolverCalculixCxxtools/fr.md) avec des vérifications supplémentaires. L\'outil était inachevé. Non disponible dans {{VersionPlus/fr|1.0}}.
+
+-   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Ensemble de nœuds](FEM_CreateNodesSet/fr.md) : crée/définit un ensemble de nœuds à partir d\'un maillage FEM. L\'outil était inachevé et ne pouvait pas être utilisé. Non disponible dans {{VersionPlus/fr|1.0}}.
 
 
 

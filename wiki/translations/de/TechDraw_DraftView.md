@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw DraftView
    Name/de: TechDraw DraftAnsicht
-   MenuLocation: TechDraw , Views From Other Workbenches , Objekt des Draft-Arbeitsbereiches einfügen
+   MenuLocation: TechDraw , Ansichten von anderen Arbeitsbereichen , Objekt des Arbeitsbereichs Draft einfügen
    Workbenches: TechDraw_Workbench/de, Draft_Workbench/de
    SeeAlso: TechDraw_ArchView/de
 ---
@@ -28,7 +28,7 @@ Das Werkzeug **TechDraw DraftAnsicht** fügt eine Ansicht eines ausgewählten [P
 4.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/TechDraw_DraftView.svg" width=16px> [Objekt des Arbeitsbereichs Draft einfügen](TechDraw_DraftView/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → Views From Other Workbenches → <img src="images/TechDraw_DraftView.svg" width=16px> Objekt des Arbeitsbereichs Draft einfügen** auswählen.
-5.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+5.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
     1.  Das gewünschte Blatt auswählen.
     2.  Die Schaltfläche **OK** drücken.
 
@@ -52,7 +52,9 @@ Die Draft-Ansicht wird innerhalb des Arbeitsbereiches [Draft](Draft_Workbench/de
 
 ## Eigenschaften
 
-Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
+
+Eine Draft-Ansicht, oder formal ein {{Incode|TechDraw::DrawViewDraft}}-Objekt, besitzt die gemeinsamen [Eigenschaften](TechDraw_View/de#Eigenschaften_der_Bauteilansicht.md) aller Ansichtsarten. Sie enthält außerdem die folgenden Eigenschaften:
 
 
 
@@ -61,27 +63,36 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 {{TitleProperty|Draft view}}
 
--    **Source|Link**: Das Draft-Objekt, das angezeigt werden soll.
+-    {{PropertyData/de|Source|Link}}: Das Draft-Objekt, das angezeigt werden soll.
 
--    **Line Width|Float**: Die Breite der Linien, unabhängig vom Maßstab.
+-    {{PropertyData/de|Line Width|Float}}: Die Breite der Linien, unabhängig vom Maßstab.
 
--    **Font Size|Float**: Die Schrifthöhe aller Texte in dieser Ansicht (Texte und Maße).
+-    {{PropertyData/de|Font Size|Float}}: Die Schrifthöhe aller Texte in dieser Ansicht (Texte und Maße).
 
--    **Direction|Vector**: Die zu verwendende Projektionsrichtung.
+-    {{PropertyData/de|Direction|Vector}}: Die zu verwendende Projektionsrichtung.
 
--    **Color|Color**: Die Linienfarbe.
+-    {{PropertyData/de|Color|Color}}: Die Linienfarbe.
 
--    **Line Style|String**: Eine Linienart, die für diese Ansicht zu verwenden ist. Kann {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dashdot}}, {{Value|Dot}} (für Voll-, Strich-, Strich-Punkt-, Punktlinie) oder ein SVG-Linienmuster wie {{Value|0.20,0.20}} sein..
+-    {{PropertyData/de|Line Style|String}}: Eine Linienart, die für diese Ansicht zu verwenden ist. Kann {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dashdot}}, {{Value|Dot}} (für Voll-, Strich-, Strich-Punkt-, Punktlinie) oder ein SVG-Linienmuster wie {{Value|0.20,0.20}} sein..
 
--    **Line Spacing|Float**: Der zu verwendende Zeilenabstand bei mehrzeiligen Texten.
+-    {{PropertyData/de|Line Spacing|Float}}: Der zu verwendende Zeilenabstand bei mehrzeiligen Texten.
 
--    **Override Style|Bool**: Wenn `True`, überschreiben Linienfarbe, Linienbreite und Linienart dieser Ansicht jene des gerenderten Objekts.
+-    {{PropertyData/de|Override Style|Bool}}: Wenn `True`, überschreiben Linienfarbe, Linienbreite und Linienart dieser Ansicht jene des gerenderten Objekts.
+
+
+{{TitleProperty|Drawing view}}
+
+-    {{PropertyData/de|Symbol|String|Hidden}}: Der SVG-Code, der dieses Symbol definiert.
+
+-    {{PropertyData/de|Editable Texts|StringList|Hidden}}: Ersatzwert für bearbeitbare Zeichenfolgen in diesem Symbol.
+
+-    {{PropertyData/de|Owner|Link}}: Element dem das Symbol zugeordnet ist. {{Version/de|1.0}}
 
 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug DraftAnsicht kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgenden Funktionen verwendet werden:
 
@@ -96,7 +107,7 @@ rc = page.addView(dv)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

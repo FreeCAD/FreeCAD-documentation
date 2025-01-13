@@ -13,7 +13,7 @@
 
 ## Description
 
-La commande **Sketcher Grille** fait basculer la grille vers l\'esquisse en cours d\'édition. Les paramètres peuvent être modifiés dans le menu correspondant.
+L\'outil <img alt="" src=images/Sketcher_Grid.svg  style="width:16px;"> [Sketcher Grille](Sketcher_Grid/fr.md) active/désactive la grille dans l\'esquisse en cours d\'édition. Les paramètres peuvent être modifiés dans le menu correspondant.
 
 
 
@@ -21,8 +21,8 @@ La commande **Sketcher Grille** fait basculer la grille vers l\'esquisse en cour
 
 Voir aussi : [Sketcher Préférences](Sketcher_Preferences/fr#Grille.md).
 
-1.  Appuyez sur le bouton **<img src="images/Sketcher_Grid.svg" width=16px> [Grille](Sketcher_Grid/fr.md)** pour faire basculer la grille. La grille peut également être activée en modifiant la propriété **Show Grid** de l\'esquisse.
-2.  Cliquez éventuellement sur la flèche vers le bas à droite du bouton pour ouvrir le menu :
+1.  Appuyez sur le bouton **<img src="images/Sketcher_Grid.svg" width=16px> [Activer/désactiver la grille](Sketcher_Grid/fr.md)** pour faire basculer la grille. La grille peut également être activée en modifiant la propriété **Show Grid** de l\'esquisse.
+2.  Vous pouvez cliquer sur la flèche vers le bas à droite du bouton pour ouvrir le menu :
     ![](images/Sketcher_Grid_Menu.png )
     -   Si la case **Espacement automatique de la grille** est cochée, l\'espacement de la grille est automatiquement adapté en fonction des dimensions de la vue. Cela est enregistré dans la propriété **Grid Auto** de l\'esquisse.
 

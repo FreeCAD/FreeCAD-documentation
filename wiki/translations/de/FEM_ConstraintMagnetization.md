@@ -1,11 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/de
    Name: FEM ConstraintMagnetization
    Name/de: FEM RandbedingungMagnetisierung
    MenuLocation:  Modell , Elektromagnetische Randbedingungen , Randbedingung Magnetisierung
    Workbenches: FEM_Workbench/de
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic/de, FEM_EquationMagnetodynamic2D/de
+}}
+{{GuiCommandFemInfo/de
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintMagnetization/de
@@ -21,8 +26,8 @@ Erstellt eine FEM-Randbedingung für die Magnetisierung, zur Verwendung mit der 
 ## Anwendung
 
 1.  Die Schaltfläche **<img src="images/FEM_ConstraintMagnetization.svg" width=16px> [Randbedingung Magnetisierung](FEM_ConstraintMagnetization/de.md)** drücken oder den Menüeintrag **Modell → Elektromagnetische Randbedingungen → <img src="images/FEM_ConstraintMagnetization.svg" width=16px> Randbedingung Magnetisierung** auswählen.
-2.  In der [3D-Ansicht](3D_view/de.md) das Objekt auswählen, dem die Randbedingung zugeordnet werden soll.
-3.  Die Schaltfläche **Hinzufügen** drücken.
+2.  Die Schaltfläche **Hinzufügen** drücken.
+3.  In der [3D-Ansicht](3D_view/de.md) das Objekt auswählen, dem die Randbedingung zugeordnet werden soll.
 
 
 

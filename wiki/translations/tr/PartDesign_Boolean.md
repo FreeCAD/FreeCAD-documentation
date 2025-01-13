@@ -29,7 +29,7 @@
 5.  Select the type of Boolean operation in the drop down menu (Fuse, Cut or Common)
 6.  Click **OK**.
 
-Alternatively, objects can be selected prior to pressing the Boolean button. They will be added. automatically. When pre-selecting you are not restricted to Bodies. [PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) and even solids created with other workbenches can then also be selected.
+Alternatively, objects can be selected prior to pressing the Boolean button. They will be added automatically. When pre-selecting you are not restricted to Bodies. [PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) and even solids created with other workbenches can then also be selected.
 
 ## Options
 

@@ -33,13 +33,13 @@ La commande **Segmentation adaptée** crée des segments de maillage séparés p
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_SegmentationBestFit.svg" width=16px> Segmenter le maillage par des surfaces adaptées...** du menu.
 4.  Le panneau des tâches **Segmentation du maillage** s\'ouvre.
 5.  Appuyez sur l\'un des boutons **Paramètres...** pour identifier les paramètres d\'une surface :
-    -   La boîte de dialogue **Ajustement de la surface** s\'ouvre.
+    -   La fenêtre de dialogue **Ajustement de la surface** s\'ouvre.
     -   Sélectionnez une ou plusieurs faces appartenant à la surface :
         -   Appuyez sur le bouton **Région** et tout en maintenant le bouton gauche de la souris, dessinez une région, une spline fermée, dans la [vue 3D](3D_view/fr.md). Les faces qui tombent (partiellement) à l\'intérieur de la région seront sélectionnées.
         -   Appuyez sur le bouton **Triangle** pour sélectionner des faces une par une.
         -   Appuyez sur le bouton **Effacer** pour effacer la sélection.
     -   Appuyez sur le bouton **Calculer** pour calculer les paramètres.
-    -   Appuyez sur le bouton **OK** ou **Annuler** pour fermer la boîte de dialogue.
+    -   Appuyez sur le bouton **OK** ou **Annuler** pour fermer la fenêtre de dialogue.
 6.  Sélectionnez le ou les types de surface pour lesquels vous souhaitez créer des segments de maillage :
     -   
         **Plan**

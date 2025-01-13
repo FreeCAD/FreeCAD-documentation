@@ -24,6 +24,12 @@ L\'outil **TechDraw Gomme** efface les objets cosmétiques. Les objets cosmétiq
 
 
 
+## Remarques
+
+-   Vous pouvez également sélectionner des objets cosmétiques et appuyer sur **Supprimer**. {{Version/fr|1.0}}
+
+
+
 
 
 {{TechDraw Tools navi

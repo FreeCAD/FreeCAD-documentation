@@ -25,32 +25,47 @@ The **Std ViewIvStereoRedGreen** command changes the active [3D view](3D_view.md
 
 ## Настройки
 
+See also: [Preferences Editor](Preferences_Editor.md).
+
+
+<div class="mw-translate-fuzzy">
+
 -   Расстояние между глаз может быть изменено в настройках: **Правка → Настройки... → Отображение → Трёхмерный вид → Расстояние между глаз для стерео режима**. Смотри [Редактор настроек](Preferences_Editor/ru#3D_View.md).
+
+
+</div>
 
 
 
 ## Программирование
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-To change the view to red/cyan stereo use the `setStereoType` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+
+</div>
+
+Use the `setStereoType` method of the View object to change the stereo mode. The available modes are `"Anaglyph"`, `"QuadBuffer"`, `"InterleavedRows"`, `"InterleavedColumns"` and `"None"`.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.setStereoType('Anaglyph')
-FreeCADGui.ActiveDocument.ActiveView.getStereoType()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.setStereoType("Anaglyph")
+view.getStereoType()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

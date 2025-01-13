@@ -15,7 +15,7 @@
 
 ## Beschreibung
 
-Das Werkzeug **TechDraw ErgänzungSchnittAusrichten** richtet eine Schnittansicht rechtwinkelig zu ihrer Quellansicht aus. Es kann [eine Schnittansicht](#Anwendung_-_Ansicht_auswählen.md) oder ({{Version/de|0.22}}) [eine Kante und ein Knoten](#Anwendung_-_Kante_und_Knoten_auswählen.md) ausgewählt werden.
+Das Werkzeug **TechDraw ErgänzungSchnittAusrichten** richtet eine Schnittansicht rechtwinkelig zu ihrer Quellansicht aus. Es kann [eine Schnittansicht](#Anwendung_-_Ansicht_auswählen.md) oder ({{Version/de|1.0}}) [eine Kante und ein Knoten](#Anwendung_-_Kante_und_Knoten_auswählen.md) ausgewählt werden.
 
 
 

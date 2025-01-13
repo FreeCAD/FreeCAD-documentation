@@ -14,6 +14,8 @@
 
 ![](images/CompoundFilter.png )
 
+
+
 ## Descriere
 
 
@@ -27,6 +29,8 @@ CompoundFilter poate fi utilizată pentru extragerea pieselor individuale ale re
 Acesta poate extrage copiii prin indicii lor, testul copiilor pentru coliziuni cu formă de șablon și filtrează copii pe baza proprietăților lor, cum ar fi lungimea, suprafața, volumul.
 
 Dacă în rezultat există doar un copil, rezultatul este copilul. Dacă există mai mult de un copil la ieșire, rezultatul este un compus nou.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -62,7 +66,12 @@ Repetați procedura de selecție de mai sus. Felia și subelementele sale vor fi
 
 </div>
 
+
+
 ## Proprietăți
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Base**: Obiectul de filtat.
 
@@ -91,6 +100,9 @@ Repetați procedura de selecție de mai sus. Felia și subelementele sale vor fi
 -    **Window To**: Lower threshold percentage for selecting pieces, 100% is relative to the biggest piece.
 
 -    **items**: List or range of elements to be selected if Filter Type is \"specific items\".
+
+
+</div>
 
 
 

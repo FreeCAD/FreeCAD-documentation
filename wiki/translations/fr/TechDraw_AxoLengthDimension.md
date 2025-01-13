@@ -25,7 +25,7 @@ L\'outil **TechDraw Cote axonométrique** ajoute une cote à une vue axonométri
     -   Sélectionnez deux arêtes (e3 et e4 dans l\'image) et deux points (v1 et v2 dans l\'image). La première arête définit la direction de la ligne de la cote. La deuxième arête définit la direction des lignes d\'extension. Les points déterminent la distance mesurée.
 2.  Il y a plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_AxoLengthDimension.svg" width=16px> [Cote axonométrique](TechDraw_AxoLengthDimension/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Dimensions → <img src="images/TechDraw_AxoLengthDimension.svg" width=16px> Cote axonométrique** du menu.
+    -   Sélectionnez l\'option **TechDraw → Annotations → <img src="images/TechDraw_AxoLengthDimension.svg" width=16px> Cote axonométrique** du menu.
 3.  Une cote axonométrique est ajoutée à la vue.
 4.  La cote peut être déplacée jusqu\'à la position souhaitée.
 5.  Si nécessaire, ajoutez des tolérances comme décrit sur [cette page](TechDraw_Geometric_dimensioning_and_tolerancing/fr#Tolérances.md).

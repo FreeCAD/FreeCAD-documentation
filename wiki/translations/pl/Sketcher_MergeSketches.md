@@ -3,7 +3,7 @@
    Name: Sketcher MergeSketches
    Name/pl: Szkicownik: Połącz szkice
    MenuLocation: Szkic , Połącz szkice
-   Workbenches: Sketcher_Workbench/pl
+   Workbenches: Sketcher_Workbench/pl, PartDesign_Workbench/pl
    Version: 0.15
 ---
 
@@ -13,15 +13,19 @@
 
 ## Opis
 
-Połącz dwa lub więcej szkiców w jeden.
+Narzędzie <img alt="" src=images/Sketcher_MergeSketches.svg  style="width:24px;"> **Połącz szkice** łączy dwa lub więcej szkiców.
 
 
 
 ## Użycie
 
-1.  Wybierz dwa lub więcej szkiców,
-2.  Kliknij na przycisk **<img src="images/Sketcher_MergeSketches.svg" width=16px> [Połącz szkice](Sketcher_MergeSketches/pl.md)** lub wybierz **Szkic → <img src="images/Sketcher_MergeSketches.svg" width=16px> [Połącz szkice](Sketcher_MergeSketches/pl.md)** z menu głównego.
-3.  Szkic wynikowy zostanie utworzony jako oddzielny nowy obiekt.
+1.  Wybierz dwa lub więcej szkiców.
+2.  Istnieje kilka sposobów na uruchomienie narzędzia:
+
+-   Naciśnij przycisk **<img src="images/Sketcher_MergeSketches.svg" width=16px> '''Połącz szkice'''** *(nie jest dostępny w środowisku [Projekt Części](PartDesign_Workbench/pl.md))*.
+-   Wybierz opcję z menu **Szkic → <img src="images/Sketcher_MergeSketches.svg" width=16px> Połącz szkice**.
+
+Zostanie utworzony nowy szkic .
 
 
 

@@ -132,26 +132,36 @@ Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and al
 
 {{TitleProperty|Blocks}}
 
--    **Block Height**: The height of each block
+-    **Block Height**: The height of each block.
 
--    **Block Length**: The length of each block
+-    **Block Length**: The length of each block.
 
--    **Count Broken**: The number of broken blocks (read-only)
+-    **Count Broken**: The number of broken blocks (read-only).
 
--    **Count Entire**: The number of entire blocks (read-only)
+-    **Count Entire**: The number of entire blocks (read-only).
 
--    **Joint**: The size of the joints between each block
+-    **Joint**: The size of the joints, the empty space, between blocks.
 
--    **Make Blocks**: Enable this to make the wall generate blocks
+-    **Make Blocks**: Enables block generation.
 
--    **Offset First**: The horizontal offset of the first line of blocks
+-    **Offset First**: The horizontal offset of the first and every uneven line of blocks.
 
--    **Offset Second**: The horizontal offset of the second line of blocks
+-    **Offset Second**: The horizontal offset of the second and every even line of blocks.
 
 
 {{TitleProperty|Component}}
 
--    **Base**: The base object this wall is built on
+See [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|IFC}}
+
+See [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|IFC Attributes}}
+
+See [Arch Component](Arch_Component#Properties.md).
 
 
 {{TitleProperty|Wall}}
@@ -179,6 +189,8 @@ Objekt zdi dědí vlastnosti objektů [Modul Díl](Part_Workbench.md) a má ješ
 
 
 </div>
+
+<img alt="" src=images/Sketch_vs_Wall.jpg  style="width:480px;">
 
 ## Scripting
 
@@ -236,6 +248,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/cs
+⏵ [documentation index](../README.md) > Arch Wall/cs

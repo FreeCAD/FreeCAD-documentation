@@ -1,41 +1,49 @@
 ---
  GuiCommand:
    Name: Arch RemoveShape
-   MenuLocation: Arch , Utilities , Remove Shape
-   Workbenches: Arch_Workbench
-   SeeAlso: Arch_SplitMesh, Arch_MeshToShape
+   Name/pl: BIM: Usuń kształt
+   MenuLocation: Narzędzia , Usuń kształt z Architektury
+   Workbenches: BIM_Workbench/pl
+   SeeAlso: Arch_SplitMesh/pl,  Arch_MeshToShape/pl
 ---
 
 # Arch RemoveShape/pl
 
-## Description
-
-This tool attempts at removing the inner cubic shape of an **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)** or **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)**, and adjusting its properties, making it totally parametric. This tool will only work if the underlying shape is cubic (exactly 6 faces, all corners have only right angles).
-
-## Usage
-
-1.  Select an **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)
-** or **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)**
-2.  Press the **<img src="images/Arch_RemoveShape.svg" width=16px>** button or use **Arch** → **Utilities** → **<img src="images/Arch_RemoveShape.svg" width=16px> [Remove Shape](Arch_RemoveShape.md)** from the top menu.
-
-## Scripting
 
 
-**See also:**
+## Opis
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Narzędzie **Usuń kształt z Architektury** próbuje usunąć wewnętrzny sześcienny kształt [ściany](Arch_Wall/pl.md) lub [konstrukcji](Arch_Structure/pl.md) i dostosowanie jego właściwości, czyniąc go całkowicie parametrycznym. Narzędzie to będzie działać tylko wtedy, gdy kształt bazowy jest sześcienny *(dokładnie 6 ścian, wszystkie narożniki mają tylko kąty proste)*.
 
-This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+
+
+## Użycie
+
+1.  Wybierz obiekt **<img src="images/Arch_Wall.svg" width=16px> [ściany](Arch_Wall/pl.md)** lub **<img src="images/Arch_Structure.svg" width=16px> [konstrukcji](Arch_Structure/pl.md)**.
+2.  Naciśnij przycisk **Narzędzia → <img src="images/Arch_RemoveShape.svg" width=16px> Usuń kształt z Architektury** z menu głównego.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Kształt z siatki** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
+
+
 ```python
 removeShape(objs, mark=True)
 ```
 
--   Takes a list of Arch objects (`objs`) built on a cubic shape, and removes the inner shape, keeping the length, width and height as properties of the Arch object.
+-   Pobiera listę obiektów Architektury (`objs`) zbudowanych na sześciennym kształcie i usuwa wewnętrzny kształt, zachowując długość, szerokość i wysokość jako właściwości obiektu Architektury.
     -   
         `objs`
         
-        is a single object, [Arch Wall](Arch_Wall.md) or [Arch Structure](Arch_Structure.md), or a list of them.
--   If `mark` is `True`, objects that cannot be processed by this function will become red.
+        jest pojedynczym obiektem, [ściany](Arch_Wall/pl.md) lub [konstrukcji](Arch_Structure/pl.md), lub ich listą.
+-   Jeśli właściwość `mark` ma wartość `True`, obiekty, które nie mogą zostać przetworzone przez tę funkcję, zostaną zaznaczone na czerwono.
 
 
 ```python
@@ -56,5 +64,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/pl
+⏵ [documentation index](../README.md) > Arch RemoveShape/pl

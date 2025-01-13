@@ -22,20 +22,14 @@ Der Befehl **Std BaumSyncPosition** schaltet den Sync-Position-Modus der [Bauman
 
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Den nach unten weisenden Pfeil rechts neben der Schaltfläche **<img src="images/Std_TreeSyncView.svg" width=16px>** anklicken und den Eintrag **Sync-Platzierung** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
-    -   Den Menüeintrag **Ansicht → Baumansicht-Aktionen → <img src="images/Std_TreeSyncPlacement.svg" width=16px> Sync-Platzierung** auswählen.
+    -   Den Menüeintrag **Ansicht → Baumansicht-Aktionen → Sync-Platzierung** auswählen.
     -   Das Tastaturkürzel **T** dann **3**.
 
 
 
-## Einstellungen
-
-Die Einstellung Sync-Position der Baumansicht wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → TreeView → SyncPlacement** (Parametereditor). Es ist ein boolescher Wert, die Vorgabe ist `False`.
 
 
-
-
-
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -1,16 +1,54 @@
 # Arch IFC/it
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+
+
+
+
 ## Descrizione
 
-Gli ambienti <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/it.md) e <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/it.md) (Build Information Modeling) forniscono un importatore e esportatore [Industry Foundation Classes (IFC)](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). Il formato IFC è un formato sempre più diffuso per scambiare dati tra le applicazioni [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling), utilizzato in architettura e in ingegneria.
+
+<div class="mw-translate-fuzzy">
+
+L\'Ambiente <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/it.md) fornisce un importatore esportatore [Industry Foundation Classes (IFC)](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). Il formato IFC è un formato sempre più diffuso per scambiare dati tra le applicazioni [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling), utilizzato in architettura e in ingegneria.
+
+
+</div>
+
+Read more about handling IFC files in FreeCAD on the [NativeIFC](NativeIFC.md) page.
+
+#### IfcOpenShell
+
+
+<div class="mw-translate-fuzzy">
 
 Sia l\'importatore che l\'esportatore dipendono dalla libreria [IfcOpenShell](IfcOpenShell/it.md), che è inclusa in alcune distribuzioni di FreeCAD. Un modo semplice per verificare se IfcOpenShell è presente e disponibile, è provare a importare o esportare un file IFC o semplicemente inserire quanto segue nella [console Python](Python_console/it.md) di FreeCAD (che si attiva dal menu Visualizza → Pannelli):
+
+
+</div>
 
 
 ```python
 import ifcopenshell
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Se non viene visualizzato alcun messaggio di errore, IfcOpenShell è installato correttamente, e si può procedere con l\'[importazione](Std_Import/it.md) dei file IFC. Altrimenti, bisogna installarlo; leggere la pagina [IfcOpenShell](IfcOpenShell/it.md) per saperne di più su questo processo.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 **Nota:**
@@ -18,13 +56,31 @@ Se non viene visualizzato alcun messaggio di errore, IfcOpenShell è installato 
 lo strumento <img alt="" src=images/BIM_Setup.svg  style="width:16px;"> [BIM Setup](BIM_Setup/it.md) cerca IfcOpenShell ed emette una notifica se non è installato.
 
 
-**Nota 2:**
-
-In passato (2013) Arch utilizzava un importatore IFC più semplice che non dipende da IfcOpenShell. Questo vecchio modulo è ancora incluso nel codice sorgente ma a partire dalla v0.19 non è affatto raccomandato; è in grado di importare solo un piccolo sottoinsieme di oggetti IFC e dovrebbe essere considerato completamente obsoleto.
+</div>
 
 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Importazione
+
+
+</div>
+
+Starting from version 1.0, FreeCAD opens and imports IFC files natively. Read more on the [NativeIFC](NativeIFC.md) page.
+
+### Older importers 
+
+#### The Arch importer 
+
+The original IFC importer from the Arch Workbench has been disabled in FreeCAD version 1.0, but is still available from Python:
+
+
+```python
+from importers import importIFC
+importIFC.open("C:\\Path\\To\\My\\File.ifc")
+```
 
 Nel documento di FreeCAD sono importate dai file IFC2x3 o IFC4 tutte le entità basate su [IfcProduct](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifckernel/lexical/ifcproduct.htm). Le impostazioni delle preferenze IFC consentono di impostare il modo di importazione degli oggetti IFC:
 
@@ -37,7 +93,13 @@ Ognuno di questi tipi perde alcune informazioni rispetto a quello precedente, ma
 
 In genere, se si prova ad aprire un file di grandi dimensioni e FreeCAD impiega troppo tempo per importarlo, provare con una modalità di importazione di grado inferiore.
 
+
+<div class="mw-translate-fuzzy">
+
 IfcOpenShell supporta tutte le entità IFC2x3 e IFC4 (IFC4-add1 e IFC4-add2 sono in fase di implementazione nella v0.6 e potrebbero essere disponibili al momento della lettura), ma non tutte le entità possono essere convertite in oggetti [Arch](Arch_Workbench/it.md), quelle che non possono essere convertite sono importate come semplici forme [Part](Part_Workbench/it.md). L\'importatore IFC inizia importando tutte le entità IFC derivate da [IfcProduct](http://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifckernel/lexical/ifcprodrod.htm), ovvero, sostanzialmente, tutti gli oggetti che compongono un edificio, come pareti o finestre o tubi. Tutte le altre entità necessarie a uno di questi oggetti, come profili di estrusione o componenti di operazioni booleane, sono importate quando sono necessarie.
+
+
+</div>
 
 Se si utilizza una modalità di importazione che utilizza oggetti Arch, parametrici o meno, tutti gli oggetti porteranno il set completo di [ifcproperty.htm IfcProperties](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifcpropertyresource/lexical/) collegato a ciascun oggetto, raggruppato per Set di proprietà.
 
@@ -50,6 +112,27 @@ Le quantità specificate nel file IFC **NON** vengono importate. Tuttavia, poich
 Attivando **mostra i messaggi di debug** nelle impostazioni delle preferenze IFC viene stampato un rapporto che indica se l\'importazione di un oggetto dal file IFC non è riuscita.
 
 **Nota**: l\'ambiente BIM contiene lo strumento [IFC explorer](BIM_IfcExplorer/it.md) che consente di aprire un file IFC in modalità veloce, solo testo, e di importare solo le parti desiderate.
+
+#### The legacy importer 
+
+
+<div class="mw-translate-fuzzy">
+
+
+**Nota 2:**
+
+In passato (2013) Arch utilizzava un importatore IFC più semplice che non dipende da IfcOpenShell. Questo vecchio modulo è ancora incluso nel codice sorgente ma a partire dalla v0.19 non è affatto raccomandato; è in grado di importare solo un piccolo sottoinsieme di oggetti IFC e dovrebbe essere considerato completamente obsoleto.
+
+
+</div>
+
+The legacy importer can be used from Python:
+
+
+```python
+from importers import importIFClegacy
+importIFClegacy.open("C:\\Path\\To\\My\\File.ifc")
+```
 
 
 
@@ -70,6 +153,20 @@ Se la forma degli oggetti esportati si basa su una estrusione o una operazione b
 -   [IfcOpenShell](IfcOpenShell/it.md), ulteriori informazioni sull\'installazione di questa libreria.
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch IFC/it
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch IFC/it

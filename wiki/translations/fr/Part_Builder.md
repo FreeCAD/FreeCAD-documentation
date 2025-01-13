@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part Builder
    Name/fr: Part Générateur de forme
-   MenuLocation: Part , Générateur de forme
+   MenuLocation: Part , Générer une forme...
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Primitives/fr
 ---
@@ -11,7 +11,7 @@
 
 ## Description
 
-Outil pour créer des formes plus complexes à partir de diverses primitives géométriques paramétriques.
+Outil pour créer des formes plus complexes à partir de plusieurs primitives géométriques paramétriques.
 
 
 
@@ -55,7 +55,7 @@ Cet outil peut créer les objets suivants :
 1.  Sélectionner un ensemble fermé d\'arêtes délimitant la face dans la [vue 3D](3D_view/fr.md).
 2.  Sélectionnez si la face doit être planaire.
 3.  Cliquez sur **Créer**.
-4.  L\'objet sera créé dans la [Vue 3D](3D_view/fr.md) et sera répertorié dans la [vue en arborescence](Tree_view/fr.md).
+4.  L\'objet sera créé dans la [vue 3D](3D_view/fr.md) et sera répertorié dans la [vue en arborescence](Tree_view/fr.md).
 
 ![](images/Face_from_edges.gif )
 
@@ -63,7 +63,7 @@ Cet outil peut créer les objets suivants :
 
 ### Coque à partir de faces 
 
-1.  Sélectionner les faces dans la [vue 3D](3D_view/fr.md).
+1.  Sélectionnez les faces dans la [vue 3D](3D_view/fr.md).
 2.  Sélectionnez si la forme doit être raffinée.
 3.  Sélectionnez si toutes les faces doivent être incluses dans la coque.
 4.  Cliquez sur **Créer**.

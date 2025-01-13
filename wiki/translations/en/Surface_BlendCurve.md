@@ -71,7 +71,7 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 The Blend Curve tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::FeatureBlendCurve` object.
 
--   The edges to be used to define the curve must be assigned as [LinkSub](LinkSub.md) to the `StartEdge` and `EndEdge` properties of the object.
+-   The edges to be used to define the curve must be assigned as [LinkSub](FeaturePython_Custom_Properties#App:_PropertyLinkSub.md) to the `StartEdge` and `EndEdge` properties of the object.
 -   All objects with edges need to be computed before they can be used as input for the properties of the Blend Curve object.
 
 

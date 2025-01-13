@@ -17,7 +17,13 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Этот инструмент помещает в текущий документ \"что-то\" секущей плоскости, которое определяет сечение или план. \"Что-то\" получает своё положение в соответствии с текущей [рабочей плоскостью](Draft_SelectPlane/ru.md), и может быть перемещён и переориентирован через её перемещение и вращение, пока не получится требуемый двумерный вид. Секущая плоскость учитывает только определённый набор объектов. Выделенные в момент создания секущей плоскости добавляются в этот набор автоматически. Другие объекты могут быть позднее добавлены или удалены из объекта SectionPlane инструментами [Arch Add component](Arch_Add/ru.md) или [Arch Remove component](Arch_Remove/ru.md), или двойным кликом секущей плоскости в древе проекта.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -169,6 +175,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/ru
+⏵ [documentation index](../README.md) > Arch SectionPlane/ru

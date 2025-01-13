@@ -15,6 +15,8 @@ In this example, the entire interface is defined in [Python](Python.md). Althoug
 *Two general methods to create interfaces, by including the interface in the Python file, or by using `.ui* files.`
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Diseñar el letrero de diálogo 
@@ -65,6 +67,8 @@ Eso es prácticamente todo lo que necesitamos hacer en Qt Designer. Una última 
 </div>
 
 ![](images/Qtpropeditor.jpg )
+
+
 
 ## Convertir nuestro diálogo a Python 
 

@@ -10,9 +10,13 @@
 
 # Std Save/pl
 
+
+
 ## Opis
 
 Polecenie **Zapisz** powoduje zapisanie aktywnego dokumentu.
+
+
 
 ## Użycie
 
@@ -22,32 +26,29 @@ Polecenie **Zapisz** powoduje zapisanie aktywnego dokumentu.
     -   Użyj skrótu klawiaturowego: **Ctrl** + **S**.
 2.  W przypadku nowych dokumentów: wprowadź nazwę pliku w oknie dialogowym i naciśnij przycisk **Zapisz**.
 
+
+
 ## Opcje
 
 -   W przypadku zapisywania nowego dokumentu: naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
+
+
 
 ## Uwagi
 
 -   Tego polecenia można również użyć do zapisania grafów zależności. Zobacz informacje na stronie [Graf zależności](Std_DependencyGraph/pl.md).
 
-## Ustawienia
 
--   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby zapisać dokument, należy użyć metody `save` obiektu *document*. Nowy dokument musi być najpierw zapisany za pomocą metody `saveAs` obiektu *document*. Przykład skryptu można znaleźć na stronie opisującej opcję [Nowy](Std_New/pl#Tworzenie_skrypt.C3.B3w.md).
+Zobacz [Std: Nowy](Std_New/pl#Tworzenie_skryptów.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -1,7 +1,16 @@
 # Manual:Import and export to other filetypes/zh-cn
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD 可以导入和导出多种文件类型。以下是一些最重要的文件类型及其可用功能的简要描述：
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   格式    导入   导出   注释
      
@@ -20,9 +29,18 @@ FreeCAD 可以导入和导出多种文件类型。以下是一些最重要的文
   GCODE   是     是     FreeCAD 已经可以导入和导出多种 GCode 格式，但目前只支持少数机器。
   CSG     是     否     OpenSCAD 的 [CSG](https://en.wikipedia.org/wiki/Constructive_solid_geometry)（构造实体几何）格式。
 
+
+</div>
+
 其中一些文件格式具有选项。这些选项可以从菜单**编辑→首选项→导入/导出：**进行配置。
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Import_preferences.jpg )
+
+
+</div>
 
 **延伸阅读**
 

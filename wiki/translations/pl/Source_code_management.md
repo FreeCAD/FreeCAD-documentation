@@ -3,9 +3,11 @@
 
 Głównym narzędziem do zarządzania kodem źródłowym projektu FreeCAD jest [Git](http://en.wikipedia.org/wiki/Git_%28software%29), który może być łatwo zainstalowany w większości systemów operacyjnych z menedżera pakietów lub bezpośrednio z [strony internetowej Git](https://git-scm.com/). Zaleca się zapoznanie się ze środowiskiem Git przed bezpośrednią pracą z kodem źródłowym FreeCAD. Odwiedź stronę [dokumentacja Git](https://git-scm.com/doc), aby zapoznać się z podręcznikiem źródłowym, a także [Pro Git book](https://git-scm.com/book/en/v2), aby nauczyć się korzystać z systemu w sposób ogólny. Niniejszy dokument koncentruje się na wykorzystaniu Git do rozwoju FreeCAD. Kompilacja programu FreeCAD jest opisana na stronie [Kompilacja](Compiling/pl.md).
 
-Chociaż Git jest przede wszystkim aplikacją terminalową, istnieje wiele klientów graficznych, które ułatwiają pracę z gałęziami, nanoszenie poprawek i wysyłanie żądań ściągnięcia do gałęzi głównej. Przykłady obejmują [gitk](https://git-scm.com/docs/gitk) *(pierwszy opracowany interfejs graficzny)*, [gitg](https://wiki.gnome.org/Apps/Gitg/) *(Gnome)*, [qgit](https://github.com/tibirna/qgit) *(Qt)*, [tig](https://jonas.github.io/tig/) *(Ncurses)*, [git-cola](http://github.com/git-cola/git-cola) i [GitKraken](https://www.gitkraken.com/) *(własnościowy)*. Krótkie wprowadzenie do tego narzędzia można znaleźć w [Rozwój FreeCAD z GitKraken](Developing_FreeCAD_with_GitKraken/pl.md).
+Chociaż Git jest przede wszystkim aplikacją terminalową, istnieje wiele klientów graficznych, które ułatwiają pracę z gałęziami, nanoszenie poprawek i wysyłanie pull requestów do gałęzi main. Przykłady obejmują [gitk](https://git-scm.com/docs/gitk) *(pierwszy opracowany interfejs graficzny)*, [gitg](https://wiki.gnome.org/Apps/Gitg/) *(Gnome)*, [qgit](https://github.com/tibirna/qgit) *(Qt)*, [tig](https://jonas.github.io/tig/) *(Ncurses)*, [git-cola](http://github.com/git-cola/git-cola) i [GitKraken](https://www.gitkraken.com/) *(własnościowy)*. Krótkie wprowadzenie do tego narzędzia można znaleźć w [Rozwój FreeCAD z GitKraken](Developing_FreeCAD_with_GitKraken/pl.md).
 
 Uwaga: jeśli to wszystko zaczyna przyprawiać cię o zawrót głowy, istnieje bardzo dobra nietechniczna seria o tym, jak używać Gita i Githuba, zatytułowana \"[Git i Github dla poetów](https://youtu.be/BCQHnlnPusY)\".
+
+
 
 ## Dostęp do kodu źródłowego 
 
@@ -15,6 +17,8 @@ Jeśli zmiany w kodzie źródłowym są znaczące, zaleca się wyjaśnienie ich 
 
 <img alt="" src=images/FreeCAD_git_workflow.svg  style="width:600px;"> 
 *Ogólny przepływ pracy do rozwijania kodu dla FreeCAD. Każdy może uzyskać kod z głównego repozytorium, ale główni deweloperzy mają wyłączne prawo do przeglądania i łączenia zgłoszeń innych deweloperów.*
+
+
 
 ### Oficjalne repozytorium GitHub 
 
@@ -26,9 +30,11 @@ W przeszłości kod źródłowy był przechowywany w repozytorium SVN, {{URL|htt
 
 :   W związku z tym istnieje wiele zmian, które zostały wprowadzone przed tym czasem, a które nie są zapisane we współczesnej historii commitów Git. Więcej na ten temat można przeczytać na stronie [Historia](History/pl.md).
 
-## Ustawianie nazwy użytkownika Git 
 
-= Programiści powinni wysyłać kod do swojego osobistego repozytorium używając swojej nazwy użytkownika GitHub. Jeśli nie jest ona jeszcze ustawiona globalnie, można ją ustawić lokalnie dla bieżącego repozytorium Git w następujący sposób:
+
+### Ustawianie nazwy użytkownika Git 
+
+Programiści powinni wysyłać kod do swojego osobistego repozytorium używając swojej nazwy użytkownika GitHub. Jeśli nie jest ona jeszcze ustawiona globalnie, można ją ustawić lokalnie dla bieżącego repozytorium Git w następujący sposób:
 
 
 {{Code|lang=text|code=
@@ -37,6 +43,8 @@ git config user.email GITHUB_USERNAME@users.noreply.github.com
 }}
 
 Gdzie `"YOUR_NAME"` reprezentuje twoje pełne imię i nazwisko lub pseudonim, używane do identyfikacji autora danego commitu, a `GITHUB_USERNAME` oznacza nazwę twojego konta na GitHubie.
+
+
 
 ## Repozytoria zdalne 
 
@@ -57,6 +65,8 @@ Zalecamy pierwszą metodę, ponieważ jest ona o jeden krok krótsza.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 #### Metoda pierwsza: Rozwidlenie na GitHub i sklonowanie swojego widelca lokalnie 
 
@@ -103,6 +113,8 @@ upstream    https://github.com/FreeCAD/FreeCAD.git (push)
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 #### Metoda druga: Sklonuj FreeCAD bezpośrednio na swój komputer lokalny 
 
@@ -171,13 +183,17 @@ git remote show origin
 git remote show upstream
 }}
 
+
+
 ## Proces rozwoju w Git 
 
 
-**Nigdy nie rozwijaj swojej lokalnej gałęzi ''master''. Zamiast tego należy utworzyć lokalną gałąź do rozwoju, a następnie scalić tę lokalną gałąź z gałęzią główną poprzez pull request. Aby dowiedzieć się więcej, przeczytaj [https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell Git Branching], [https://book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging Basic Branching and Merging] oraz [https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project GitHub - Contributing to a project].**
+**Nigdy nie rozwijaj swojej lokalnej gałęzi ''main''. Zamiast tego należy utworzyć lokalną gałąź do rozwoju, a następnie scalić tę lokalną gałąź z gałęzią main poprzez pull request. Aby dowiedzieć się więcej, przeczytaj [https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell Git Branching], [https://book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging Basic Branching and Merging] oraz [https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project GitHub - Contributing to a project].**
 
 <img alt="" src=images/FreeCAD_git_branches_workflow.svg  style="width:800px;"> 
 *Ogólny tok pracy nad kodem programu FreeCAD przy użyciu `git*. Główne repozytorium jest rozwidlane online i klonowane na komputer offline ''(0)''; nowe gałęzie ''(1)'' są używane do wprowadzania lokalnych zmian i uzupełnień do kodu ''(2)''. Gałęzie są przebudowywane do najnowszego kodu online ''(3)'', a następnie są wypychane do zdalnego repozytorium ''(4)''. Następnie tworzone jest żądanie ściągnięcia w celu połączenia kodu z głównym repozytorium (5). Następnie klon osobisty jest aktualizowany nowym kodem głównym ''(a)''. Ten zaktualizowany kod główny jest również przesyłany do zdalnego repozytorium ''(b)'', aby mieć ten sam kod zarówno w trybie online, jak i offline.`
+
+
 
 ### Odgałęzienia
 
@@ -213,6 +229,8 @@ Po wprowadzeniu zmian i ich zatwierdzeniu użyj operacji `log` z następującymi
 git log --oneline --decorate --graph --all
 }}
 
+
+
 ### Committing
 
 Gdy już znajdziesz się w nowej gałęzi, edytuj wybrane pliki źródłowe za pomocą edytora tekstu. Aby sprawdzić, które pliki zostały zmodyfikowane, użyj operacji `status` i `diff`. Kiedy będziesz zadowolony z wprowadzonych zmian, zapisz je za pomocą operacji `commit`:
@@ -242,6 +260,8 @@ git commit -a
 }}
 
 Gdzie `path` może być dowolnym katalogiem lub plikiem.
+
+
 
 ### Pisanie dobrych komunikatów zgłoszeń commit 
 
@@ -273,12 +293,14 @@ Jeśli wykonujesz wiele powiązanych prac w gałęzi, powinieneś wykonać wiele
 
 
 {{Code|lang=text|code=
-git log master..myNewBranch
+git log main..myNewBranch
 }}
 
 aby zobaczyć poszczególne komunikaty zgłoszeń commit. Dzięki temu można napisać wysokiej jakości komunikat podczas wykonywania scalania.
 
-Kiedy łączysz się z wersją master, użyj opcji `--squash` i wykonaj commit z wysokiej jakości komunikatem commit. To pozwoli ci być bardzo liberalnym w swoich zgłoszeniach commit i pomoże zapewnić dobry poziom szczegółowości w komunikatach commit bez tak wielu odrębnych opisów.
+Kiedy łączysz się z wersją main, użyj opcji `--squash` i wykonaj commit z wysokiej jakości komunikatem commit. To pozwoli ci być bardzo liberalnym w swoich zgłoszeniach commit i pomoże zapewnić dobry poziom szczegółowości w komunikatach commit bez tak wielu odrębnych opisów.
+
+
 
 ### Squashing commits 
 
@@ -343,6 +365,8 @@ Podczas kodowania dla FreeCAD prosimy, abyś rozpoczynał każdą wiadomość co
 
 Twój PR będzie ułatwiał przeglądanie i szybciej zostanie scalony, jeśli będziesz uważał, aby używać rebase do strukturyzacji i opisywania swoich zgłoszeń commit przed wysłaniem.
 
+
+
 ### Przesłanie pracy do repozytorium GitHub 
 
 Gałęzie lokalne na Twoim komputerze nie są automatycznie synchronizowane ze zdalnymi serwerami, które określiłeś jako `origin` lub `upstream` ( patrz [Remote repositories](#Remote_repositories.md)). Musisz jawnie wysłać gałęzie na zdalne serwery, do których wymagany jest dostęp z prawem zapisu. Gdy to zrobisz, gałęzie staną się publiczne i dostępne do wglądu dla innych programistów.
@@ -374,34 +398,36 @@ git push -f origin myNewBranch
 
 Zwykły programista nie ma dostępu do zapisu w repozytorium `upstream` {{URL|https://github.com/FreeCAD/FreeCAD}}, dlatego nigdy nie należy umieszczać kodu na tym zdalnym serwerze.
 
+
+
 ### Rebasing from upstream 
 
 Podczas gdy Ty pracujesz nad swoją własną gałęzią, oficjalny kod programu FreeCAD \"idzie do przodu\" dzięki zgłoszeniom commit innych deweloperów i w ten sposób zaczyna odbiegać od kodu, który masz w swoim osobistym forku.
 
           .A origin/myNewBranch
          / 
-    oZ FreeCAD upstream/master
+    oZ FreeCAD upstream/main
 
 Dlatego, gdy jesteś gotowy do połączenia swojego oddziału z głównym repozytorium FreeCAD, musisz \"przebudować\" swoją kopię repozytorium, tak aby była jak najbardziej zbliżona do oficjalnego repozytorium. Zapoznaj się z treścią [Git Branching - Rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing), aby uzyskać więcej informacji.
 
 
 {{Code|lang=text|code=
 git checkout myNewBranch
-git pull --rebase upstream master
+git pull --rebase upstream main
 }}
 
-Spowoduje to pobranie kodu z gałęzi `master` repozytorium `upstream` (oficjalne źródło programu FreeCAD) i scalenie go z Twoją bieżącą gałęzią (`myNewBranch`), tak aby Twoje zmiany znalazły się na wierzchu najnowszego oficjalnego kodu. Jeśli nikt nie zmodyfikował tych samych plików, co Ty, to scalenie przebiegnie bez problemów. Jeśli niektóre pliki zostały zmienione w tym samym czasie przez różne osoby, może istnieć konflikt, który należy rozwiązać.
+Spowoduje to pobranie kodu z gałęzi `main` repozytorium `upstream` (oficjalne źródło programu FreeCAD) i scalenie go z Twoją bieżącą gałęzią (`myNewBranch`), tak aby Twoje zmiany znalazły się na wierzchu najnowszego oficjalnego kodu. Jeśli nikt nie zmodyfikował tych samych plików, co Ty, to scalenie przebiegnie bez problemów. Jeśli niektóre pliki zostały zmienione w tym samym czasie przez różne osoby, może istnieć konflikt, który należy rozwiązać.
 
                       .A' origin/myNewBranch
                      /
-    oZ FreeCAD upstream/master
+    oZ FreeCAD upstream/main
 
 Podsumowując, trzeba być w odpowiedniej gałęzi, przebudować kod do wykonania upstreamu, a następnie wykonać push.
 
 
 {{Code|lang=text|code=
 git checkout myNewBranch
-git pull --rebase upstream master
+git pull --rebase upstream main
 git push origin myNewBranch
 }}
 
@@ -417,11 +443,13 @@ git merge FETCH_HEAD
 
 
 {{Code|lang=text|code=
-git pull --rebase upstream master
+git pull --rebase upstream main
 
 git fetch upstream
-git rebase master
+git rebase main
 }}
+
+
 
 ### Scalanie gałęzi (pull request) 
 
@@ -441,7 +469,7 @@ GitHub wyświetli edytor tekstu, w którym można napisać wiadomość dokumentu
 
 
 {{Code|lang=text|code=
-base repository: FreeCAD/FreeCAD    base: master  <  head repository: GITHUB_USERNAME/FreeCAD    compare: myNewBranch
+base repository: FreeCAD/FreeCAD    base: main  <  head repository: GITHUB_USERNAME/FreeCAD    compare: myNewBranch
 
 Able to merge. These branches can be automatically merged.
 }}
@@ -474,7 +502,7 @@ Jeśli chcesz, możesz usunąć gałąź, która została właśnie scalona, a n
 
 
 {{Code|lang=text|code=
-oZA' FreeCAD upstream/master
+oZA' FreeCAD upstream/main
 }}
 
 
@@ -488,10 +516,12 @@ Interfejs pull request może być używany za każdym razem, gdy chcesz przesła
 
 
 {{Code|lang=text|code=
-base repository: SomeProject/Some_Software  base: master       <  head repository: GITHUB_USERNAME/Some_Software  compare: add_new_functions
-base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <  head repository: FreeCAD/FreeCAD                compare: master
+base repository: SomeProject/Some_Software  base: main       <  head repository: GITHUB_USERNAME/Some_Software  compare: add_new_functions
+base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <  head repository: FreeCAD/FreeCAD                compare: main
 base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <  head repository: GITHUB_USERNAME/FreeCAD        compare: fix-many-bugs-branch
 }}
+
+
 
 ### Utrzymywanie aktualnego repozytorium GitHub 
 
@@ -499,46 +529,46 @@ Po rozwidleniu FreeCAD, Twoje osobiste repozytorium istnieje niezależnie od ory
 
 
 {{Code|lang=text|code=
-This branch is 5 commits behind FreeCAD:master.
+This branch is 5 commits behind FreeCAD:main.
 }}
 
 W podobny sposób, jeśli utworzyłeś gałąź rozwojową z nowym kodem, GitHub poinformuje Cię, że ta gałąź wyprzedza Cię w liczbie zgłoszeń commit. To znaczy, że ta gałąź zawiera zmiany, które nie zostały jeszcze scalone z oficjalnym repozytorium FreeCAD:
 
 
 {{Code|lang=text|code=
-This branch is 3 commits ahead of FreeCAD:master.
+This branch is 3 commits ahead of FreeCAD:main.
 }}
 
 Podczas rozwijania możliwe są oba przypadki, ponieważ Twoja własna gałąź może nie zawierać zgłoszeń commit innych deweloperów, ale zawierać nowe, napisane przez Ciebie:
 
 
 {{Code|lang=text|code=
-This branch is 2 commits ahead, 14 commits behind FreeCAD:master. 
+This branch is 2 commits ahead, 14 commits behind FreeCAD:main. 
 }}
 
 Podczas tworzenia kodu zaleca się, abyś zmienił bazę gałęzi, w której aktualnie pracujesz, ponieważ dzięki temu Twoja gałąź będzie zawsze wyprzedzać kod główny FreeCAD.
 
-Jeśli chodzi o twoją oryginalną gałąź `master`, to nigdy nie będzie ona automatycznie aktualizowana przez GitHub. Musisz o to zadbać samodzielnie. Przełącz się na gałąź `master`, a następnie `pull` z `upstream` *(co spowoduje pobranie `fetch` i `merge`)*, a następnie przepchnij zaktualizowaną gałąź `master` do swojego zdalnego repozytorium `origin`.
+Jeśli chodzi o twoją oryginalną gałąź `main`, to nigdy nie będzie ona automatycznie aktualizowana przez GitHub. Musisz o to zadbać samodzielnie. Przełącz się na gałąź `main`, a następnie `pull` z `upstream` *(co spowoduje pobranie `fetch` i `merge`)*, a następnie przepchnij zaktualizowaną gałąź `main` do swojego zdalnego repozytorium `origin`.
 
 
 {{Code|lang=text|code=
-git checkout master
-git pull upstream master
-git push origin master
+git checkout main
+git pull upstream main
+git push origin main
 }}
 
 Po wykonaniu tych czynności GitHub poinformuje Cię, że jesteś zsynchronizowany z repozytorium `upstream`.
 
 
 {{Code|lang=text|code=
-This branch is even with FreeCAD:master. 
+This branch is even with FreeCAD:main. 
 }}
 
-Teraz, gdy twój `master` jest aktualny, możesz zdecydować się na przejście do niego i usunąć inną gałąź, której używałeś wcześniej do rozwijania funkcji.
+Teraz, gdy twój `main` jest aktualny, możesz zdecydować się na przejście do niego i usunąć inną gałąź, której używałeś wcześniej do rozwijania funkcji.
 
 
 {{Code|lang=text|code=
-git checkout master
+git checkout main
 git branch -d myNewBranch
 }}
 
@@ -564,30 +594,36 @@ git push origin :myNewBranch
 git push origin :someRemoteBranch
 }}
 
-Teraz, gdy masz już tylko aktualny `master`, możesz utworzyć nową gałąź i powtórzyć kroki zmiany plików, zgłoszenia commit, push, wysłania pull request, scalenia i aktualizacji.
+Teraz, gdy masz już tylko aktualny `main`, możesz utworzyć nową gałąź i powtórzyć kroki zmiany plików, zgłoszenia commit, push, wysłania pull request, scalenia i aktualizacji.
 
 
 {{Code|lang=text|code=
-git checkout master
+git checkout main
 git checkout -b anotherBranch
 }}
 
-Jeśli nie chcesz usuwać swojej już niestandardowej gałęzi, możesz wymusić jej aktualizację tak, aby była równa zaktualizowanej gałęzi `master`; następnie możesz zrobić z nią, co tylko chcesz, włączając w to dodawanie kolejnych zgłoszeń commit i wypychanie jej do zdalnego repozytorium `origin`.
+Jeśli nie chcesz usuwać swojej już niestandardowej gałęzi, możesz wymusić jej aktualizację tak, aby była równa zaktualizowanej gałęzi `main`; następnie możesz zrobić z nią, co tylko chcesz, włączając w to dodawanie kolejnych zgłoszeń commit i wypychanie jej do zdalnego repozytorium `origin`.
 
 
 {{Code|lang=text|code=
 git checkout myNewBranch
-git reset --hard master
+git reset --hard main
 git push -f origin myNewBranch
 }}
 
 Takie twarde resetowanie gałęzi zwykle nie jest potrzebne. W większości przypadków należy wykonać następujące czynności: utworzenie nowej gałęzi, wprowadzenie zmian, przepchnięcie tych zmian, scalenie gałęzi, a następnie usunięcie gałęzi.
 
+
+
 ## Zaawansowane operacje Git 
+
+
 
 ### Wyszukiwanie
 
 Oto kilka przydatnych narzędzi, które pomogą Ci znaleźć to, czego szukasz:
+
+
 
 #### Wyszukiwanie plików według nazw 
 
@@ -598,6 +634,8 @@ Użyj `git ls-files`, aby przeszukać repozytorium w poszukiwaniu plików, któr
 git ls-files *dxf*
 }}
 
+
+
 #### Wyszukiwanie ciągu znaków 
 
 Użyj `git grep`, aby przeszukać repozytorium w poszukiwaniu plików, które zawierają określony ciąg znaków w samych plikach. Poniższy przykład zwróci wszystkie wystąpienia plików, które zawierają \"dxf\" w każdym z nich.
@@ -606,6 +644,8 @@ Użyj `git grep`, aby przeszukać repozytorium w poszukiwaniu plików, które za
 {{Code|lang=text|code=
 git grep dxf
 }}
+
+
 
 ### Rozwiązywanie konfliktów scalania 
 
@@ -642,6 +682,8 @@ Więcej informacji o scalaniu i rozwiązywaniu konfliktów można znaleźć na s
 -   [Rozwiązywanie konfliktu scalania za pomocą wiersza poleceń](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).
 -   [Zewnętrzne narzędzia do scalania i dyfuzji](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_external_merge_tools), których można użyć po napotkaniu konfliktu w programie Git.
 
+
+
 ### Sprawdzanie zmian 
 
 Sprawdź historię pojedynczego pliku dla różnych zgłoszeń commit za pomocą operacji `log`:
@@ -653,17 +695,21 @@ git log --patch path
 
 Gdzie `path` może być dowolnym katalogiem lub plikiem. Zamiast `--patch` można również użyć skrótów `-p` lub `-u`.
 
+
+
 ### Sprawdzanie zmian między dwoma gałęziami 
 
 Sprawdź zmiany między dwiema gałęziami za pomocą operacji `log` i `diff` z podaniem nazw gałęzi:
 
 
 {{Code|lang=text|code=
-git log master..myBranch
-git diff master..myBranch
+git log main..myBranch
+git diff main..myBranch
 }}
 
 Operacja `log` pokazuje zgłoszenia commit, natomiast `diff` pokazuje rzeczywiste zmiany w plikach.
+
+
 
 ### Resetowanie plików i katalogów 
 
@@ -700,6 +746,8 @@ Gdzie `FETCH_HEAD` jest wierzchołkiem repozytorium `upstream`. Można też uży
 
 Operacja `revert` również odwraca zmiany. Jednak to polecenie robi to przez dodanie kolejnego zgłoszenia commit do historii. W wielu przypadkach nie jest to pożądane.
 
+
+
 ### Obcinanie starych gałęzi 
 
 Jeśli wysłałeś wiele gałęzi do repozytorium `upstream`, możesz chcieć usunąć te gałęzie ze swojego lokalnego systemu, ponieważ zostały już scalone. Gałąź w repozytorium `origin` online może zostać usunięta natychmiast po scaleniu. Następnie można usunąć lokalne odwołania do tej gałęzi, używając opcji `--prune` lub `prune` w operacjach `fetch` i `remote`.
@@ -724,9 +772,13 @@ Dobrą praktyką jest również odśmiecanie repozytorium po pewnym czasie za po
 git gc
 }}
 
+
+
 ### Praca z łatkami 
 
 Chociaż Git pozwala na łączenie różnych gałęzi kodu za pomocą `git merge` *(na swoim komputerze)* lub pull request *(w zdalnym repozytorium)*, to jednak zdarzają się sytuacje, w których pożądane może być utworzenie tradycyjnej \"łatki\" *(patch)*, którą można wysłać jako załącznik przez e-mail. Poniższy przepływ pracy wyjaśnia, jak to zrobić.
+
+
 
 #### Tworzenie łatek 
 
@@ -738,11 +790,11 @@ git branch -v
 git checkout myBranch
 }}
 
--   Teraz użyj `git format-patch` względem gałęzi master i użyj opcji `--stdout`, aby przekierować wynik na standardowe wyjście. Następnie przekieruj standardowe wyjście do pliku, który dla wygody jest tworzony powyżej katalogu z kodem źródłowym.
+-   Teraz użyj `git format-patch` względem gałęzi main i użyj opcji `--stdout`, aby przekierować wynik na standardowe wyjście. Następnie przekieruj standardowe wyjście do pliku, który dla wygody jest tworzony powyżej katalogu z kodem źródłowym.
 
 
 {{Code|lang=text|code=
-git format-patch master --stdout > ../myCode.patch
+git format-patch main --stdout > ../myCode.patch
 }}
 
 -   Inną metodą jest
@@ -774,6 +826,8 @@ gdzie `XXXX` jest liczbą od `0000` do `9999`, a komunikat commit stanowi więks
 0001-fix-ViewProjMatrix-getProjectionMatrix.patch
 }}
 
+
+
 #### Stosowanie łatek 
 
 Git może scalać poprawki lub różnice. Aby dowiedzieć się więcej o tym procesie, przeczytaj stronę [Stosowanie poprawek za pomocą Git](https://www.drupal.org/node/1399218).
@@ -803,6 +857,8 @@ Możesz wskazać `curl` na konkretne zgłoszenie commit poprawki w repozytorium 
 
     curl https://github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621.patch | git apply -
 
+
+
 #### Cofanie poprawki 
 
 Podczas stosowania poprawki modyfikuje się niektóre pliki. Modyfikacje te nie są jednak trwałe, dopóki nie zatwierdzisz zmian. Dlatego jeśli chcesz cofnąć poprawkę, skorzystaj z poniższych instrukcji.
@@ -820,6 +876,8 @@ Alternatywnie, spowoduje to usunięcie niezaakceptowanych zmian w gałęzi.
 {{Code|lang=text|code=
 git checkout -f
 }}
+
+
 
 ### Przechowywanie zgłoszeń commit git 
 
@@ -853,9 +911,13 @@ git stash list
 
 Aby dowiedzieć się więcej, przeczytaj [Przydatne sztuczki, których możesz nie wiedzieć o schowkach Git](https://medium.freecodecamp.org/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a).
 
+
+
 ### Sprawdź lokalnie żądania z GitHub 
 
 [Checkout GitHub pull requests locally](https://gist.github.com/piscisaureus/3342247)
+
+
 
 ### Obciążanie winą 
 
@@ -916,6 +978,8 @@ git bisect reset
 
 Uwaga: `git bisect` zajmuje dużo czasu, jeśli obszary poprawne i błędne są odległe od siebie.
 
+
+
 ## Numer rewizji FreeCAD 
 
 W przeciwieństwie do subversion, które używa kolejnych numerów dla swoich rewizji, Git tworzy [SHA-1 hash values](https://en.wikipedia.org/wiki/SHA-1) z każdym zgłoszeniem commit. Wartość skrótu to długi alfanumeryczny ciąg znaków, który wygląda następująco
@@ -925,18 +989,22 @@ W przeciwieństwie do subversion, które używa kolejnych numerów dla swoich re
 9b3ffef570596e184006287434fba54a4b03ccc3
 }}
 
+
+
 ### Numer ostatniej wersji 
 
 Aby znaleźć numer ostatniej rewizji w konkretnym oddziale, należy użyć operacji `rev-list` z opcją `--count`. Podaj nazwę gałęzi, zdalnego repozytorium, znacznika lub specjalny wskaźnik, taki jak `HEAD`, aby wskazać ostatni commit w tym konkretnym obiekcie.
 
 
 {{Code|lang=text|code=
-git rev-list --count master
+git rev-list --count main
 git rev-list --count HEAD
 git rev-list --count origin
 }}
 
 Można też przejrzeć [repozytorium na GitHubie](https://github.com/FreeCAD/FreeCAD) i zapoznać się z liczbą zgłoszeń commit zgłoszonych w danej gałęzi.
+
+
 
 ### Numer wersji określonego hasha zatwierdzenia commit 
 
@@ -947,6 +1015,8 @@ Ponieważ hash jest łańcuchem alfanumerycznym, nie jest zbyt użyteczne okreś
 git rev-list --count ab1520b872821414c6ce4a15fb85d471ac2a2b03
 git rev-list --count 9948ee4
 }}
+
+
 
 ### Hash wersji określonego numeru zatwierdzenia commit 
 
@@ -986,9 +1056,13 @@ git rev-list --count 44c2f19e38
 -   [Znajdowanie numeru rewizji żądania commit](https://forum.freecadweb.org/viewtopic.php?f=18&t=12883&p=103207#p103203),
 -   [Znajdowanie wartości hash odpowiadającej danemu numerowi żądania commit](https://forum.freecadweb.org/viewtopic.php?f=10&t=31118).
 
+
+
 ### Numer wydania w interfejsie programu FreeCAD 
 
 Numer wersji, który pojawia się w okienku dialogowym [Informacje o FreeCAD](Std_About/pl.md) jest zdefiniowany w pliku `src/Build/Version.h`, który jest tworzony w czasie kompilacji, gdy uruchamiane jest narzędzie `cmake`. Przeczytaj stronę [Wyodrębnij numer wersji ze źródła git](https://forum.freecadweb.org/viewtopic.php?f=4&t=3025), aby uzyskać więcej informacji.
+
+
 
 ## Dodawanie innych repozytoriów *(zdalnych)* 
 
@@ -998,7 +1072,7 @@ Użyj polecenia `git remote`, aby dodać te inne repozytoria, dzięki czemu będ
 
 
 {{Code|lang=text|code=
-git checkout master
+git checkout main
 git remote add OTHER_USER OTHER_URL
 git fetch OTHER_USER
 git checkout -b OTHER_BRANCH OTHER_USER/OTHER_BRANCH
@@ -1046,16 +1120,18 @@ Następnie możemy utworzyć lokalną gałąź, która będzie bazować na gał�
 git checkout -b local_branch_name /remotes/bernd/femdev
 }}
 
-Możesz też chcieć wykonać operację `git rebase` przeniesienia nowo utworzonej gałęzi na gałąź `upstream/master`, aby upewnić się, że używa ona najnowszego kodu. Jeśli istnieją konflikty, będą musiały być rozwiązane w tym momencie.
+Możesz też chcieć wykonać operację `git rebase` przeniesienia nowo utworzonej gałęzi na gałąź `upstream/main`, aby upewnić się, że używa ona najnowszego kodu. Jeśli istnieją konflikty, będą musiały być rozwiązane w tym momencie.
 
 
 {{Code|lang=text|code=
-git pull --rebase upstream master
+git pull --rebase upstream main
 }}
 
 Nowa gałąź jest gotowa do modyfikacji i kompilacji, jak opisano na stronie [Kompilacja](Compiling/pl.md).
 
 Przejdź do sekcji rozwoju na [forum FreeCAD](https://forum.freecadweb.org/viewforum.php?f=6), aby porozmawiać o rozwoju.
+
+
 
 ## Dodatkowe informacje 
 

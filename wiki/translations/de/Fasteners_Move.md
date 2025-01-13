@@ -8,11 +8,17 @@
 
 # Fasteners Move/de
 
+
+
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fasteners Move** bewegt Verbindungselemente und befestigt sie an eine kreisförmige Kante. Er kann auch zum Lösen eines Verbindungselementes verwendet werden. Ein befestigtes Verbindungselement besitzt eine {{PropertyData/de|base Object}} und seine {{PropertyData/de|Placement}} ist dynamisch mit dem Objekt verknüpft.
+Der Befehl <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fasteners Move** bewegt Verbindungselemente und befestigt sie an eine kreisförmige Kante. Er kann auch zum Lösen eines Verbindungselementes verwendet werden. Ein befestigtes Verbindungselement besitzt eine {{PropertyData/de|Base Object}} und seine {{PropertyData/de|Placement}} ist dynamisch mit dem Objekt verknüpft.
+
+
 
 ## Anwendung
+
+
 
 ### Befestigen
 
@@ -25,6 +31,8 @@ Der Befehl <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fas
     -   Den Menüeintrag **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** auswählen.
 3.  Das Verbindungselement wird zur ausgewählten Kante bewegt und daran befestigt.
 
+
+
 ### Lösen
 
 1.  Ein einzelnes Verbindungselement auswählen.
@@ -36,12 +44,9 @@ Der Befehl <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fas
 
 
 
-
-{{Fasteners Tools navi
-
-}}
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Move/de
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners Move/de

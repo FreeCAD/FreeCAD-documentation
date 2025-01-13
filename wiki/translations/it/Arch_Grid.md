@@ -10,10 +10,19 @@
 # Arch Grid/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento **<img src="images/Arch_Grid.svg" width=16px> [Griglia](Arch_Grid/it.md)** consente di posizionare nel documento un oggetto simile a una griglia. Questo oggetto ha lo scopo di fungere da base per costruire oggetti Arch che richiedono una trama regolare ma complessa, come finestre, facciate continue, griglie di colonne, ringhiere, ecc. L\'oggetto Grid è modificabile come un foglio di calcolo, dove è possibile aggiungere o rimuovere colonne e righe, definire le loro dimensioni e unire le celle.
+
+
+</div>
 
 La Griglia è un oggetto 2D e quindi può essere utilizzato ovunque sia necessaria una forma 2D, ad esempio in un [Disegno](Draft_Workbench/it.md) o uno [Schizzo](Sketcher_Workbench/it.md), ma può anche comportarsi come un [Sistema di assi](Arch_AxisSystem/it.md), e può essere utilizzato per propagare il posizionamento di altri oggetti Arch.
 
@@ -24,11 +33,17 @@ La Griglia è un oggetto 2D e quindi può essere utilizzato ovunque sia necessar
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Presmere il pulsante **<img src="images/Arch_Grid.svg" width=16px> [Griglia](Arch_Grid/it.md)**.
 2.  Impostare **Larghezza** e **Altezza** della griglia nelle proprietà.
 3.  Entrare nella modalità di modifica facendo doppio clic sull\'oggetto griglia nella vista ad albero.
 4.  Aggiungere righe e colonne.
 5.  Impostare la larghezza e l\'altezza desiderate di righe e colonne facendo doppio clic sulle intestazioni delle righe o colonne.
+
+
+</div>
 
 
 
@@ -103,6 +118,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Grid/it
+⏵ [documentation index](../README.md) > Arch Grid/it

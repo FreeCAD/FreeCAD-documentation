@@ -96,9 +96,9 @@ Wenn in der Konfigurationsdatei `user.cfg` keine Standardvorlage angegeben ist, 
 
 {{TitleProperty|Grid}}
 
--    {{PropertyView/de|Show Grid}}: Zeigt ein Raster über dieser Seite an. {{Version/de|0.20}}
+-    {{PropertyView/de|Show Grid}}: Zeigt ein Raster über dieser Seite an.
 
--    {{PropertyView/de|Grid Spacing}}: Abstand zwischen den Rasterlinien. {{Version/de|0.20}}
+-    {{PropertyView/de|Grid Spacing}}: Abstand zwischen den Rasterlinien.
 
 
 

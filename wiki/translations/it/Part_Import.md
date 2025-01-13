@@ -1,10 +1,10 @@
 ---
  GuiCommand:
    Name: Part Import‏‎
-   Name/it: Importa CAD
-   MenuLocation: Part , Importa CAD
+   Name/it: Part Importa
+   MenuLocation: Part , Importa file CAD...
    Workbenches: Part_Workbench/it
-   SeeAlso: Part_Export/it, Std_Import/it, Import_Export/it
+   SeeAlso: Std_Import/it, Import_Export/it
 ---
 
 # Part Import/it
@@ -13,15 +13,29 @@
 
 ## Descrizione
 
-Lo strumento **<img src="images/Part_Import.svg" width=16px> [Importa CAD](Part_Import/it.md)** di Part apre una finestra di dialogo che consente di importare un file CAD, [IGES](http://en.wikipedia.org/wiki/IGES), [STEP](http://en.wikipedia.org/wiki/Step_file), e [BREP](http://en.wikipedia.org/wiki/BREP) nel documento corrente.
+Il comando <img alt="" src=images/Part_Import.svg  style="width:24px;"> **Part Importa** importa la geometria da un formato di file diverso nel documento attivo. I formati di file supportati sono: [STEP](http://en.wikipedia.org/wiki/Step_file) (con o senza colori), [IGES](http://en.wikipedia.org/wiki/IGES) (con o senza colori ) e [BREP](http://en.wikipedia.org/wiki/BREP).
 
 
 
 ## Utilizzo
 
 1.  Impostare le [Preferenze di importazione e esportazione](Import_Export_Preferences/it.md) nell\'[editor delle preferenze](Preferences_Editor/it.md).
-2.  Andare nel menu **Parte →  [<img src=images/Part_Import.svg style="width:16px"> Importa CAD**.
-3.  Selezionare il file da importare.
+2.  Selezionare l\'opzione **Part → <img src="images/Part_Import.svg" width=16px> Importa file CAD...** dal menu.
+3.  Facoltativamente selezionare il formato file corretto nella finestra di dialogo.
+
+
+
+## Note
+
+-   Il comando [Importa](Std_Import/it.md) supporta molti più formati di file.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

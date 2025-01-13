@@ -1,9 +1,8 @@
 ---
  GuiCommand:
    Name: Arch Panel Cut
-   MenuLocation: Arch , Panel tools , Panel Cut
-   Workbenches: Arch_Workbench, Path_Workbench
-   Shortcut: **P** **C**
+   MenuLocation: Utils , Panel tools , Panel Cut
+   Workbenches: BIM_Workbench
    Version: 0.17
    SeeAlso: Arch_Panel, Arch_Panel_Sheet, Arch_Nest
 ---
@@ -12,14 +11,14 @@
 
 ## Description
 
-This tool creates, in the 3D document, a flat, 2D view of an [Arch Panel](Arch_Panel.md), to be included in an [Arch Panel Sheet](Arch_Panel_Sheet.md) or directly exported to [DXF](Draft_DXF.md). The Panel Cut objects are also supported by the [Path Workbench](Path_Workbench.md).
+The **Arch Panel Cut** tool creates, in the 3D document, a flat, 2D view of an [Arch Panel](Arch_Panel.md), to be included in an [Arch Panel Sheet](Arch_Panel_Sheet.md) or directly exported to [DXF](Draft_DXF.md). The Panel Cut objects are also supported by the [CAM Workbench](CAM_Workbench.md).
 
 <img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
 
 ## Usage
 
 1.  Select one or more [Arch Panel](Arch_Panel.md) objects.
-2.  Press the **<img src="images/Arch_Panel_Cut.svg" width=16px> [Arch Panel Cut](Arch_Panel_Cut.md)** button, or press **P** then **C** keys.
+2.  Select the **Utils → Panel tools → <img src="images/Arch_Panel_Cut.svg" width=16px> Panel Cut** option from the menu.
 3.  Adjust the desired properties.
 
 ## Options
@@ -100,5 +99,10 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+ {{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut
+⏵ [documentation index](../README.md) > Arch Panel Cut

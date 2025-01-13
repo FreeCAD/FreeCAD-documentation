@@ -1,28 +1,31 @@
 # Spreadsheet Preferences/it
-Le preferenze per l\'ambiente <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Spreadsheet](Spreadsheet_Workbench/it.md) ({{Version/it|0.20}}) sono disponibili nell\'[Editor Preferenze](Preferences_Editor/it.md). Nel menu selezionare **Modifica → Preferenze...** e poi **Spreadsheet**. Questa sezione è disponibile solo dopo aver aperto un documento contenente un oggetto foglio di calcolo, dopo aver visitato l\'ambiente o dopo aver caricato l\'ambiente tramite la scheda *Ambienti disponibili* nella sezione **Workbenches**.
+Le preferenze per l\'ambiente <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Spreadsheet](Spreadsheet_Workbench/it.md) ({{Version/it|0.20}}) sono disponibili nell\'[Editor Preferenze](Preferences_Editor/it.md). Nel menu selezionare **Modifica → Preferenze...** e poi **<img src="images/Workbench_Spreadsheet.svg" width=16px> Spreadsheet**.Questo gruppo è disponibile solo se Spreadsheet Workbench è stato caricato nella sessione corrente di FreeCAD.
 
-C\'è solo una scheda: *Spreadsheet* nella sezione **Spreadsheet**. In questa scheda è possibile specificare quanto segue:
+C\'è solo una pagina: Spreadsheet.
+
+![](images/Preferences_Spreadsheet_Page_Spreadsheet.png )
+
+In questa pagina è possibile specificare quanto segue:
 
 +++
-| Name                                   | Description                                                             |
-+========================================+=========================================================================+
-|                         | Il carattere usato come delimitatore di campo.                          |
-| **Carattere delimitatore** |                                                                         |
-|                                     |                                                                         |
+| Name                                                 | Description                                                                                                                                                                                                                                                             |
++======================================================+=========================================================================================================================================================================================================================================================================+
+|                                       | Il carattere usato come delimitatore di campo.                                                                                                                                                                                                                          |
+| **Carattere delimitatore**               |                                                                                                                                                                                                                                                                         |
+|                                                   |                                                                                                                                                                                                                                                                         |
 +++
-|                         | Il carattere usato come delimitatore di stringhe testuali.              |
-| **Doppio apice**           |                                                                         |
-|                                     |                                                                         |
+|                                       | Il carattere usato come delimitatore di stringhe testuali.                                                                                                                                                                                                              |
+| **Carattere di Citazione**               |                                                                                                                                                                                                                                                                         |
+|                                                   |                                                                                                                                                                                                                                                                         |
 +++
-|                         | Il carattere utilizzato per impedire l\'analisi del carattere seguente. |
-| **Carattere di escape**    |                                                                         |
-|                                     |                                                                         |
+|                                       | Il carattere utilizzato per impedire l\'analisi del carattere seguente.                                                                                                                                                                                                 |
+| **Carattere di escape**                  |                                                                                                                                                                                                                                                                         |
+|                                                   |                                                                                                                                                                                                                                                                         |
 +++
-|                                        |                                                                         |
+|                                       | Se selezionato e se la cella ha un valore e un alias, l\'alias e il valore vengono mostrati nel formato specificato. {{Value|%V}} è il segnaposto per il valore e {{Value|%A}} il segnaposto per l\'alias. {{Version/it|1.0}} |
+| **Mostra alias nella cella con formato** |                                                                                                                                                                                                                                                                         |
+|                                                   |                                                                                                                                                                                                                                                                         |
 +++
-
-![](images/Spreadsheet-Preferences-Spreadsheet.png ) 
-*The Spreadsheet tab*
 
 
 

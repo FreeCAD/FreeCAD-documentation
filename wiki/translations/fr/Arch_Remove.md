@@ -1,20 +1,20 @@
 ---
  GuiCommand:
    Name: Arch Remove
-   Name/fr: Arch Soustraire
-   MenuLocation: Arch , Enlever un composant
-   Workbenches: Arch_Workbench/fr
-   SeeAlso: Arch_CutLine, Arch_CutPlane, Arch_Add/fr
+   Name/fr: Arch Supprimer
+   MenuLocation: Modification , Supprimer un composant
+   Workbenches: BIM_Workbench/fr
+   SeeAlso: Arch_CutPlane, Arch_Add/fr
 ---
 
 # Arch Remove/fr
 
 ## Description
 
-Les outils de suppression vous permettent d\'effectuer 2 types d\'opérations :
+Les outils **Arch Supprimer** vous permettent d\'effectuer 2 types d\'opérations :
 
 -   Supprimer un sous-composant d\'un objet Arch, par exemple supprimer une boîte qui a été ajoutée à un mur avec **<img src="images/Arch_Add.svg" width=16px> [Arch Ajouter](Arch_Add/fr.md)**.
--   Soustraire un objet issu de l\'[Atelier Part](Part_Workbench/fr.md) d\'un composant Arch tel qu\'un **<img src="images/Arch_Wall.svg" width=16px> [Arch Mur](Arch_Wall/fr.md)** ou **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)**.
+-   Supprimer un objet issu de l\'[atelier Part](Part_Workbench/fr.md) d\'un composant Arch tel qu\'un **<img src="images/Arch_Wall.svg" width=16px> [Arch Mur](Arch_Wall/fr.md)** ou une **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)**.
 
 La contrepartie de cet outil est l\'outil **<img src="images/Arch_Add.svg" width=16px> [Arch Ajouter](Arch_Add/fr.md)
 **
@@ -27,21 +27,25 @@ La contrepartie de cet outil est l\'outil **<img src="images/Arch_Add.svg" width
 ## Utilisation
 
 1.  Sélectionnez un sous-composant dans un objet Arch.
-2.  Appuyez sur le bouton **<img src="images/Arch_Remove.svg" width=16px>** ou **Arch** → **<img src="images/Arch_Remove.svg" width=16px> [Enlever un composant](Arch_Remove/fr.md)** dans le menu supérieur.
+2.  Appuyez sur le bouton **<img src="images/Arch_Remove.svg" width=16px> [Supprimer un composant](Arch_Remove/fr.md)** ou **Modification → <img src="images/Arch_Remove.svg" width=16px> Supprimer un composant** du menu supérieur.
 
 Ou
 
-1.  Sélectionnez les objets à soustraire, le dernier objet sélectionné doit être l'objet Arch auquel les autres objets seront soustraits.
-2.  Appuyez sur le bouton **<img src="images/Arch_Remove.svg" width=16px>** ou **Arch** → **<img src="images/Arch_Remove.svg" width=16px> [Enlever un composant](Arch_Remove/fr.md)** dans le menu supérieur.
+1.  Sélectionnez les objets à soustraire, le dernier objet sélectionné doit être l'objet Arch à partir duquel les autres objets seront soustraits.
+2.  Appuyez sur le bouton **<img src="images/Arch_Remove.svg" width=16px> [Supprimer un composant](Arch_Remove/fr.md)** ou **Modification → <img src="images/Arch_Remove.svg" width=16px> Supprimer un composant** du menu supérieur.
+
+
 
 ## Script
 
 
 **Voir aussi :**
 
-[Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Soustraire peut être utilisé dans [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante: 
+L\'outil Soustraire peut être utilisé dans [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante:
+
+
 ```python
 removeComponents(objectsList, host=None)
 ```
@@ -49,7 +53,9 @@ removeComponents(objectsList, host=None)
 -   Supprime les objets donnés dans `objectsList` de leurs parents.
 -   Si un objet `host` est spécifié, cette fonction essaiera d\'ajouter les objets dans `objectsList` en tant que trous de l\'élément `host`.
 
-Exemple : 
+Exemple :
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -71,5 +77,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/fr
+⏵ [documentation index](../README.md) > Arch Remove/fr

@@ -94,7 +94,7 @@ A seconda dell\'oggetto selezionato e delle sue forme secondarie selezionate, se
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

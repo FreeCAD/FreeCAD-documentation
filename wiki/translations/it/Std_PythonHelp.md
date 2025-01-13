@@ -15,7 +15,7 @@
 
 Il comando **Documentazione automatica dei moduli Python** avvia un server Web che comunica con il browser Internet predefinito del sistema tramite un socket locale. Il server Web visualizza le informazioni sui moduli [Python](Python/it.md) disponibili, le classi e le funzioni di FreeCAD. Le pagine richieste vengono generate automaticamente.
 
-Il web server è basato sul modulo [pydoc](https://docs.python.org/3.8/library/pydoc.html#module-pydoc) di Python, e quindi estrae le docstring dei file Python (`.py` ) e la documentazione testuale definita nei wrapper Python (`.xml`) che espongono il codice C++ sottostante.
+Il web server è basato sul modulo [pydoc](https://docs.python.org/3.8/library/pydoc.html#module-pydoc) di Python, e quindi estrae le docstring dei file Python (***.py**) e la documentazione testuale definita nei wrapper Python (***.xml**) che espongono il codice C++ sottostante.
 
 
 
@@ -28,7 +28,7 @@ Il web server è basato sul modulo [pydoc](https://docs.python.org/3.8/library/p
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -35,7 +35,7 @@ Questo comando essenzialmente esegue <img alt="" src=images/Std_LinkImport.svg  
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

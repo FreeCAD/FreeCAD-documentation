@@ -15,7 +15,7 @@
 
 ## Description
 
-The <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> **Draft Arc** command creates a circular arc in the current [working plane](Draft_SelectPlane.md) from a center, a radius, a start angle and an aperture angle. The radius and the angles can be defined by picking points.
+The <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> **Draft Arc** command creates a circular arc on the current [working plane](Draft_SelectPlane.md) from a center, a radius, a start angle and an aperture angle. The radius and the angles can be defined by picking points.
 
 A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** that is not the same as its **Last Angle**.
 
@@ -28,8 +28,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Arc.svg" width=16px> [Arc](Draft_Arc.md)** button.
-    -   Select the **Drafting → Arc tools → <img src="images/Draft_Arc.svg" width=16px> Arc** option from the menu.
-    -   Use the keyboard shortcut: **A** then **R**. <small>(v0.20)</small> 
+    -   [Draft](Draft_Workbench.md): Select the **Drafting → Arc tools → <img src="images/Draft_Arc.svg" width=16px> Arc** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **2D Drafting → <img src="images/Draft_Arc.svg" width=16px> Arc** option from the menu.
+    -   Use the keyboard shortcut: **A** then **R**.
 2.  The **Arc** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick the first point, the center of the arc, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 4.  Pick the second point in the [3D view](3D_view.md), or enter a **Radius**.
@@ -38,10 +39,10 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ## Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 -   To manually enter the coordinates for the center enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system.
 -   Press **N** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating arcs.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.

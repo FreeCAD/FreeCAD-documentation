@@ -10,6 +10,8 @@
 
 # Part Defeaturing/ru
 
+
+
 ## Описание
 
 The **Defeaturing** tool is intended for removal of selected features from the model. In this context, features are meant as holes, protrusions, gaps, chamfers, fillets etc. found on the model.
@@ -26,15 +28,33 @@ To be available, this tool requires FreeCAD to be based on Open Cascade 7.3.0 or
 
 ![](images/Part_Defeaturing_example.png )
 
+
+
 ## Применение
 
 1.  Select the face(s) on the model to remove.
 2.  Press the **<img src="images/Part_Defeaturing.svg" width=16px> [Defeaturing](Part_Defeaturing.md)** button.
 3.  A new object is created labeled *Defeatured* in the Model [tree view](Tree_view.md), and the original object is hidden from view.
 
+
+
 ## Ссылки
 
 -   [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211), the official announcement on the Open Cascade collaborative development portal.
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

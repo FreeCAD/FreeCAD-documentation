@@ -11,7 +11,14 @@
 
 ## Description
 
-L\'outil **TechDraw Symbole** insère un fichier [SVG](SVG/fr.md) dans la page. Ce symbole peut être tout ce qui peut aider à annoter votre dessin et ne nécessite aucune modification supplémentaire.
+L\'outil **TechDraw Symbole** insère un objet Symbole. Un symbole est une vue simplifiée qui ne contient qu\'un seul fichier [SVG](SVG/fr.md) conforme à la spécification svg-tiny (voir [TechDraw Modèles](TechDraw_Templates/fr#Remarques.md)).
+
+Un symbole peut être n\'importe quoi qui aide à annoter un dessin et qui n\'a pas besoin d\'être modifié, il peut cependant contenir des [textes éditables](Svg_Namespace/fr#freecad_editable.md).
+
+
+{{Version/fr|1.0}}
+
+: l\'outil [TechDraw Vue](TechDraw_View/fr.md) peut également créer un symbole.
 
 <img alt="" src=images/TechDraw_SymbolSVG_sample.png  style="width:250px;"> 
 *Rose des vents ajoutée à la page de dessin. Ce symbole est disponible en installant l'extension "symbols_library" avec le [gestionnaire des extensions](Std_AddonMgr/fr.md)*
@@ -21,16 +28,14 @@ L\'outil **TechDraw Symbole** insère un fichier [SVG](SVG/fr.md) dans la page. 
 ## Utilisation
 
 1.  S\'il y a plusieurs pages de dessin dans le document : activez la page souhaitée en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
-2.  Il y a plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_Symbol.svg" width=16px> [Insérer un symbole SVG](TechDraw_Symbol/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Vues de TechDraw → <img src="images/TechDraw_Symbol.svg" width=16px> Insérer un symbole SVG** dans le menu.
-3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la boîte de dialogue **Sélecteur de page** s\'ouvre : {{Version/fr|0.20}}
+2.  Sélectionnez l\'option **TechDraw → Vues de TechDraw → <img src="images/TechDraw_Symbol.svg" width=16px> Insérer un symbole SVG** du menu.
+3.  Si le document contient plusieurs pages de dessin et que vous n\'avez pas encore activé de page, la fenêtre de dialogue **Sélecteur de pages** s\'ouvre :
     1.  Sélectionnez la page désirée.
     2.  Appuyez sur le bouton **OK**.
-4.  Une boîte de dialogue de fichier s\'ouvre.
-    1.  Sélectionnez un emplacement et un nom de fichier.
-5.  Le symbole est inséré.
-6.  Vous pouvez modifier sa propriété **Scale** pour ajuster sa taille.
+4.  Un navigateur de fichiers s\'ouvre.
+5.  Sélectionnez un fichier SVG.
+6.  Un symbole est inséré.
+7.  Vous pouvez modifier sa propriété **Scale** pour ajuster sa taille.
 
 
 
@@ -42,12 +47,22 @@ L\'outil **TechDraw Symbole** insère un fichier [SVG](SVG/fr.md) dans la page. 
 
 ## Propriétés
 
-Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+
+Un symbole, en fait un objet {{Incode|TechDraw::DrawViewSymbol}}, possède les [propriétés](TechDraw_View/fr#Propriétés_Vue_de_Part.md) communes à tous les types de vues. Il possède également les propriétés supplémentaires suivantes :
+
+
+
+### Données
 
 
 {{TitleProperty|Drawing view}}
 
--    **Editable Texts**: liste des textes modifiables, le cas échéant.
+-    **Symbol|String|Hidden**: code SVG définissant ce symbole.
+
+-    **Editable Texts|StringList**: valeurs de substitution pour les chaînes modifiables de ce symbole.
+
+-    **Owner|Link**: fonction à laquelle ce symbole est rattaché. {{Version/fr|1.0}}
 
 
 
@@ -72,7 +87,7 @@ rc = page.addView(sym)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

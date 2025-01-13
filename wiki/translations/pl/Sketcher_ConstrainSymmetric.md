@@ -5,38 +5,71 @@
    MenuLocation: Szkic , Wiązania szkicownika , Wiązanie symetrii
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **S**
-   SeeAlso: Sketcher_ConstrainParallel/pl
+   SeeAlso: 
 ---
 
 # Sketcher ConstrainSymmetric/pl
 
+
+
 ## Opis
 
-**Wiązanie symetrii** nadaje dwóm wybranym punktom symetrię wokół danej prostej, tzn. oba wybrane punkty muszą leżeć na normalnej do prostej przechodzącej przez oba punkty i muszą być jednakowo odległe od tej prostej. Alternatywnie funkcja ta może wymuszać, aby dwa punkty były symetryczne względem trzeciego.
+Narzędzie <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> **Wiązanie symetrii** wiąże dwa punkty, aby były symetryczne wokół linii lub osi, lub wokół trzeciego punktu.
+
+
 
 ## Użycie
 
-<img alt="" src=images/SymmetricConstraint1.png  style="width:500px;">
-
-Wybierz dwa punkty *(wierzchołki)* oraz linię na szkicu. Wybrane punkty i prosta będą miały kolor ciemnozielony.
-
-<img alt="" src=images/SymmetricConstraint2.png  style="width:500px;">
-
-Kliknij na przycisk **[<img src=images/Sketcher_ConstrainSymmetric.svg style="width:16px"> [Utwórz wiązanie symetrii ...](Sketcher_ConstrainSymmetric/pl.md)** lub wybierz pozycję z menu **Szkic → Wiązana szkicownika → Wiązanie symetrii**.
-
-Spowoduje to zastosowanie tego wiązania do wybranych elementów.
-
-<img alt="" src=images/SymmetricConstraint3.png  style="width:500px;">
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
 
-**Uwaga:**
 
-Przed wersją 0.19 (zobacz poprawkę [1](https://github.com/FreeCAD/FreeCAD/pull/3746)), jeśli chcesz zdefiniować wiązanie symetrii względem punktu, kolejność wyboru jest ważna, w zależności od tego, czy wybierasz narzędzie na wstępie, czy na końcu.
+### [Tryb kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md) 
 
--   Jeśli klikniesz w narzędzie jako pierwsze: wybierz najpierw pierwszy punkt, następnie punkt odniesienia symetrii, a na końcu drugi punkt.
--   Jeśli narzędzie zostanie kliknięte jako ostatnie: wybierz pierwszy punkt, następnie drugi punkt, a na końcu punkt odniesienia symetrii.
+1.  Upewnij się, że nie ma zaznaczenia.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> '''Wiązanie symetrii'''**.
 
-Zobacz tracker [issue #4144](https://freecadweb.org/tracker/view.php?id=4144), oraz [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=39611).
+    -   Wybierz z menu **Szkic → Wiązania szkicownika → <img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Wiązanie symetrii**.
+
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz opcję **Wiązanie → <img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Wiązanie symetrii** z menu podręcznego.
+
+    -   Użyj skrótu klawiaturowego: **S**.
+3.  Kursor zmieni się w krzyżyk z ikoną narzędzia.
+4.  Wykonaj jedną z następujących czynności:
+    -   Wybierz dwa punkty i punkt symetrii *(w tej kolejności)*.
+    -   Wybierz dwa punkty i linię symetrii *(w tej samej kolejności)*.
+    -   Wybierz punkt, linię symetrii i kolejny punkt *(w tej samej kolejności)*.
+    -   Wybierz linię i punkt symetrii *(analogicznie)*.
+5.  Wiązanie zostanie dodane.
+6.  Opcjonalnie można kontynuować tworzenie wiązań.
+7.  Aby zakończyć, kliknij prawym przyciskiem myszy lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
+
+
+
+### Tryb jednorazowy 
+
+1.  Wykonaj jedną z następujących czynności:
+    -   Wybierz dwa punkty i punkt symetrii *(w tej kolejności)*.
+    -   Wybierz dwa punkty i linię symetrii *(w dowolnej kolejności)*.
+    -   Wybierz linię i punkt symetrii *(w tej samej kolejności)*.
+2.  Wywołaj narzędzie jak wyjaśniono powyżej lub z następującą dodatkową opcją:
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widok 3D](3D_view/pl.md) i wybierz **<img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Wiązanie symetrii** z menu podręcznego.
+3.  Wiązanie zostanie dodane.
+
+
+
+## Uwagi
+
+-   Strzałki tego wiązania pokazują kolor więzów wymiarowych.
+
+
 
 ## Tworzenie skryptów 
 

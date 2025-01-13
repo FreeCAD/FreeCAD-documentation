@@ -93,7 +93,7 @@ Alli esta otra tabla de contenidos para el [Manual de FreeCAD](Manual_Introducti
 <div class="mw-translate-fuzzy">
 
 -   Desarrollo
-    -   [Licencia](Licence/es.md)
+    -   [Licencia](License/es.md)
     -   Compilando FreeCAD
         -   [Encontrando ayuda](Tracker/es.md)
         -   [Compilando en Windows](Compile_on_Windows/es.md)

@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/de
    Name: FEM ConstraintInitialFlowVelocity
    Name/de: FEM StartbedingungStrömungsgeschwindigkeit
    MenuLocation: Model , Fluid-Randbedingungen , Startbedingung Strömungsgeschwindigkeit
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_ConstraintFlowVelocity/de, FEM_ConstraintInitialPressure/de
+}}
+{{GuiCommandFemInfo/de
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintInitialFlowVelocity/de

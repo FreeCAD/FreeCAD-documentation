@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft AnnotationStyleEditor
    Name/pl: Rysunek Roboczy: Edytor stylu opisu
-   MenuLocation: Opis , Edytor stylu opisu ...
-   Workbenches: Draft_Workbench/pl
+   MenuLocation: Opis , Edytor stylu opisu ...<br>Zarządzaj , Edytor stylu opisu... 
+   Workbenches: Draft_Workbench/pl, BIM_Workbench
    SeeAlso: Draft_Text/pl, Draft_Label/pl, Draft_Dimension/pl
    Version: 0.19
 ---
@@ -24,8 +24,9 @@ Polecenie <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:2
 ## Użycie
 
 1.  Polecenie można wywołać na kilka sposobów:
-    -   Naciśnij przycisk **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> '''Edytor stylu opisu'''**.
-    -   Wybierz opcję z menu **Opisy → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Edytor stylu opisu ...**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Naciśnij przycisk **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> '''Edytor stylu opisu'''**.
+    -   Rysunek Roboczy: Wybierz opcję z menu **Opisy → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Edytor stylu opisu ...**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Zarządzaj → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Edytor stylu opisu...** z menu.
 2.  Otworzy się okno dialogowe **Edytor stylów opisów**.
 3.  Wybierz styl z listy rozwijanej **Nazwa stylu** lub wybierz {{Value|Dodaj nowy ...}}, aby zdefiniować nowy styl.
 4.  Opcjonalnie dostosuj właściwości stylu.
@@ -34,6 +35,15 @@ Polecenie <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:2
 7.  Opcjonalnie naciśnij przycisk **[<img src=images/Std_Import.svg style="width:16px">**, aby zaimportować wszystkie style z pliku **.json**. Spowoduje to nadpisanie istniejących stylów o tej samej nazwie.
 8.  Opcjonalnie naciśnij przycisk **[<img src=images/Std_Export.svg style="width:16px">**, aby wyeksportować wszystkie style do pliku **.json**.
 9.  Naciśnij przycisk **OK**, aby zamknąć okno dialogowe i zakończyć polecenie.
+
+
+
+## Zastosuj
+
+Aby zastosować styl opisu, zmień właściwość **Annotation Style** obiektów opisu. Można ją znaleźć w zakładce **Widok** [Edytora właściwości](Property_editor/pl.md).
+
+![](images/Draft_AnnotationStyleEditor_Apply.png ) 
+*Wybieranie stylu opisu*
 
 
 

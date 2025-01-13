@@ -3,7 +3,7 @@
    Name: Draft Dimension
    Name/pl: Draft: Wymiar
    MenuLocation: Adnotacja , Wymiar
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
    Shortcut: **D** **I**
    Version: 0.8
    SeeAlso: Draft_FlipDimension/pl
@@ -15,7 +15,7 @@
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> **Draft Dimension** [tworzy](#Tworzenie.md) [Wymiar liniowy](#Zastosowanie_wymiaru_liniowego.md), [Wymiar promieniowy](#Zastosowanie_wymiaru_promieniowego.md) lub [Wymiar kątowy](#Zastosowanie_wymiaru_kątowego.md). Polecenie może być również użyte do [konwersji](#Konwersja.md) obiektów [Std: Pomiar](Std_MeasureDistance/pl.md).
+Polecenie <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> **Draft Dimension** [tworzy](#Tworzenie.md) [Wymiar liniowy](#Zastosowanie_wymiaru_liniowego.md), [Wymiar promieniowy](#Zastosowanie_wymiaru_promieniowego.md) lub [Wymiar kątowy](#Zastosowanie_wymiaru_kątowego.md).
 
 Wymiary liniowe oparte na krawędziach i wymiary promieniowe są parametryczne. Oznacza to, że będą one aktualizowane, jeśli zmierzona krawędź zostanie zmodyfikowana. Zmierzone krawędzie mogą należeć do obiektów środowiska Rysunek Roboczy, ale także do brył. Wymiary kątowe nie są parametryczne.
 
@@ -26,13 +26,13 @@ Wymiary środowiska pracy Rysunek Techniczny mogą być wyświetlane na stronie 
 
 
 
-## Tworzenie
+## Użycie
 
 Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
 
 
-### Zastosowanie wymiaru liniowego 
+### Wymiar liniowy 
 
 1.  Opcjonalnie wybierz prostą krawędź w oknie [widoku 3D](3D_view/pl.md).
 2.  Polecenie można wywołać na kilka sposobów:
@@ -58,13 +58,10 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 
 
-### Zastosowanie wymiaru promieniowego 
+### Wymiaru promieniowy 
 
 1.  Opcjonalnie wybierz okrągłą krawędź w oknie [widoku 3D](3D_view/pl.md).
-2.  Istnieje kilka sposobów wywołania polecenia:
-    -   Naciśnij przycisk **<img src="images/Draft_Dimension.svg" width=16px> '''Wymiar'''**.
-    -   Wybierz z menu opcję **Opisy → <img src="images/Draft_Dimension.svg" width=16px> Wymiar**.
-    -   Użyj skrótu klawiaturowego: **D**, a następnie **I**.
+2.  Wywołaj polecenie jak opisano wyżej.
 3.  Otworzy się panel zadań **Wymiar**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
 4.  Jeśli krawędź nie została jeszcze wybrana, wykonaj jedną z poniższych czynności:
     -   Naciśnij **E** lub przycisk **<img src="images/view-select.svg" width=16px> Wybierz krawędź** i wybierz okrągłą krawędź w oknie [widoku 3D](3D_view/pl.md).
@@ -77,12 +74,9 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 
 
-### Zastosowanie wymiaru kątowego 
+### Wymiaru kątowy 
 
-1.  Polecenie można wywołać na kilka sposobów:
-    -   Naciśnij przycisk **<img src="images/Draft_Dimension.svg" width=16px> '''Wymiar'''**.
-    -   Wybierz z menu opcję **Opisy → <img src="images/Draft_Dimension.svg" width=16px> Wymiar**.
-    -   Użyj skrótu klawiaturowego: **D**, a następnie **I**.
+1.  Wywołaj polecenie jak opisano wyżej.
 2.  Otworzy się panel zadań **Wymiar**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
 3.  Wykonaj jedną z następujących czynności:
     -   Naciśnij **E** lub przycisk **<img src="images/view-select.svg" width=16px> Wybierz krawędź** i wybierz pierwszą prostą krawędź w oknie [widoku 3D](3D_view/pl.md). Powtórz tę czynność, aby wybrać drugą prostą krawędź.
@@ -94,29 +88,14 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 ### Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 1.0)*.
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź element X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie wskaźnika poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
 -   Wciśnij **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne są względne do ostatniego punktu, jeśli jest dostępny, w przeciwnym razie są one względne do początku układu współrzędnych.
--   Naciśnij **G** lub kliknij pole wyboru **Globalne**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **G** lub kliknij pole wyboru **Globalne**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij **N** lub kliknij pole wyboru **Kontynuuj**, aby włączyć tryb kontynuacji. Tryb ten działa tylko dla wymiarów liniowych. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, umożliwiając dalsze tworzenie wymiarów. Wszystkie kolejne wymiary będą rozpoczynać się od ostatniego punktu poprzedniego wymiaru i będą używać tej samej linii bazowej co pierwszy wymiar. Należy pamiętać, że wybór krawędzi nie jest możliwy dla kolejnych wymiarów.
 -   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij **Esc** lub przycisk **Zamknij**, aby zakończyć polecenie.
-
-
-
-## Konwersja
-
-
-
-### Użycie
-
-1.  Wybierz jeden lub więcej obiektów [Wymiarowanie odległości](Std_MeasureDistance/pl.md).
-2.  Polecenie można wywołać na kilka sposobów:
-    -   Naciśnij przycisk **<img src="images/Draft_Dimension.svg" width=16px> '''Wymiar'''**.
-    -   Wybierz z menu opcję **Adnotacja → <img src="images/Draft_Dimension.svg" width=16px> Wymiar**.
-    -   Użyj skrótu klawiaturowego: **D**, a następnie **I**.
-3.  Każdy wybrany obiekt zostanie zastąpiony nieparametrycznym liniowym wymiarem Draft Dimension.
 
 
 

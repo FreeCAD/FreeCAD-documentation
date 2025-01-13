@@ -1,0 +1,67 @@
+# Sketcher Lecture
+## Introduction
+
+User **chrisb** wrote the more than 80 page Sketcher Lecture. It is a reference manual for the [Sketcher Workbench](Sketcher_Workbench.md). For inexperienced users, it is a gentle introduction that covers the basic usage of the Sketcher, and then goes into many details of creating geometrical elements, and using each type of constraint.
+
+The manual is a work in progress, as some sections are reviewed and updated depending on the development occurring on the [Sketcher Workbench](Sketcher_Workbench.md). The original manual was written for FreeCAD 0.17, then it was updated for 0.18 and 0.19. The latest manual can be found in the forum thread, [Sketcher tutorial](https://forum.freecadweb.org/viewtopic.php?f=36&t=30104).
+
+ ![](images/Sketcher_reference.png )  
+*Example sketch in the Sketcher Lecture.*
+
+## Contents
+
+The general structure of the Sketcher Lecture is:
+
+-   Basics
+    -   Create a sketch
+    -   The Sketcher window
+    -   General remarks on degrees of freedom
+    -   Auto constraints
+-   Geometric elements
+    -   Common usage
+    -   Line
+    -   Circle
+    -   Arc
+    -   Polyline
+    -   Rectangle
+    -   Polygon
+    -   Slot
+    -   B-splines
+    -   Conical sections
+    -   Construction geometry
+    -   Point
+-   Constraints
+    -   Selecting constraints
+    -   Applying constraints
+    -   The solver
+    -   Coincidence
+    -   Point on object
+    -   Vertical
+    -   Horizontal
+    -   Parallel
+    -   Perpendicular
+    -   Tangency
+    -   Equality
+    -   Symmetry
+    -   Block
+    -   Horizontal distance
+    -   Vertical distance
+    -   Lock
+    -   Length
+    -   Radius and diameter
+    -   Angle
+    -   Further dos and don\'ts with constraints
+    -   Driven dimensions
+    -   External geometry
+-   Creating objects based on sketches
+    -   Sketches for pads and pockets
+    -   Use symmetry!
+    -   Placement and attachment offset
+    -   Validate sketches
+
+ {{Sketcher Tools navi}}
+
+
+
+---
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Lecture

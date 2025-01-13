@@ -13,6 +13,14 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 
+## Description
+
+
+</div>
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
 This equation performs analyses using a 2D version of the [Maxwell\'s equations](https://en.wikipedia.org/wiki/Maxwell%27s_equations) when the unknown is the z-component (or φ-component).
 
 

@@ -56,21 +56,7 @@ Notez que ce drapeau {{Incode|/NCRC}} n\'est **pas recommandé** puisque la vér
 
 ## Chocolatey
 
-Il est fortement recommandé d\'utiliser un gestionnaire de paquets tel que Chocolatey pour maintenir vos logiciels à jour. Vous pouvez installer Chocolatey en suivant [ces instructions](https://chocolatey.org/install), puis ouvrir un terminal PowerShell en tant qu\'administrateur et l\'exécuter :
-
-
-{{Code|lang=text|code=
-choco install freecad
-}}
-
-De temps en temps, vous pouvez mettre à jour votre logiciel avec
-
-
-{{Code|lang=text|code=
-choco upgrade freecad
-}}
-
-Cela permettra d\'obtenir la dernière version disponible dans le dépôt Chocolatey. Si vous rencontrez des problèmes avec le paquet Chocolatey, vous pouvez contacter les mainteneurs sur [cette page](https://chocolatey.org/packages/freecad).
+L\'utilisation du gestionnaire de paquets [Chocolatey](https://chocolatey.org/install) n\'est actuellement pas recommandée car ce dépôt n\'est plus tenu à jour.
 
 
 

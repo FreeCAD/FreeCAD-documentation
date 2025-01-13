@@ -1,9 +1,10 @@
 ---
  GuiCommand:
    Name: Std DependencyGraph
-   Name/de: Std Abhängigkeitsgraph
-   MenuLocation: Werkzeuge , Abhängigkeitsgraph...
+   Name/de: Std Abhängigkeitsdiagramm
+   MenuLocation: Werkzeuge , Abhängigkeitsdiagramm...
    Workbenches: Alle
+   SeeAlso: Std_ExportDependencyGraph/de
 ---
 
 # Std DependencyGraph/de
@@ -12,7 +13,7 @@
 
 ## Beschreibung
 
-Der Befehl **Std Abhängigkeitsgraph** zeigt die Abhängigkeiten zwischen Objekten im aktiven Dokument in einem \'Abhängigkeitsdiagramm\' an. Im Gegensatz zur [Baumansicht](Tree_view/de.md) werden die Objekte in umgekehrter chronologischer Reihenfolge aufgelistet, wobei das erste erstellte Objekt unten steht.
+Der Befehl **Std Abhängigkeitsdiagramm** zeigt die Abhängigkeiten zwischen Objekten im aktiven Dokument in einem Diagramm an. Im Gegensatz zur [Baumansicht](Tree_view/de.md) werden die Objekte in umgekehrter chronologischer Reihenfolge aufgelistet, wobei das erste erstellte Objekt unten steht.
 
 Es kann bei der Analyse eines FreeCAD-Dokuments und beim Auffinden von Verzweigungen in einem Baum nützlich sein. Das Layout des Abhängigkeitsdiagramms hängt davon ab, welcher Arbeitsbereich verwendet wurde, um die Objekte im Dokument zu erstellen. Beispielsweise kann ein Modell, das ausschließlich im Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md) erstellt wurde, ein lineares Abhängigkeitsdiagramm mit einem einzigen vertikalen Zweig anzeigen. Ein Modell, das mit [Part](Part_Workbench/de.md)-Arbeitsgängen erstellt wurde, hat viele Zweige, aber für ein einzelnes Teil schließen sie sich nach [Booleschen](Part_Boolean/de.md) Verknüpfungen oben an. Wenn dies nicht der Fall ist, bedeutet dies, dass sie separate Objekte sind.
 
@@ -23,7 +24,7 @@ Der Abhängigkeitsgraph ist ein reines Visualisierungswerkzeug, daher kann er ni
 
 ## Installation
 
-Um den Befehl verwenden zu können, muss eine Drittanbieter Software namens [Graphviz](http://graphviz.org/) installiert sein. Wenn du diese nicht vorinstalliert hast oder sie an einem unkonventionellen Ort installiert ist, zeigt FreeCAD den folgenden Dialog an:
+Um den Befehl verwenden zu können, muss eine Drittanbieter Software namens [Graphviz](https://graphviz.org/) installiert sein. Wenn du diese nicht vorinstalliert hast oder sie an einem unkonventionellen Ort installiert ist, zeigt FreeCAD den folgenden Dialog an:
 
 ![](images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png )
 
@@ -148,36 +149,30 @@ Du kannst ein Abhängigkeitsdiagramm speichern:
 
 1.  Stelle sicher, dass das Register Abhängigkeitsdiagramm im Vordergrund ist.
 2.  Wähle die Option **Datei → [Speichern](Std_Save/de.md)** oder **Datei  → [Speichern als](Std_SaveAs/de.md)** aus dem Menü.
-3.  Gib einen Dateinamen ein und wähle den Dateityp (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg oder \*.pdf).
+3.  Gib einen Dateinamen ein und wähle den Dateityp (\*.gv, \*.png, \*.bmp, \*.gif, \*.jpg, \*.svg oder \*.pdf).
 4.  Drücke die Taste **Save**.
 
 
 
 ## Allgemeine Grundsätze 
 
--   Die Grafik zeigt die Objekte in umgekehrter chronologischer Reihenfolge.
--   Die Richtung der Pfeile, die Abhängigkeiten anzeigen, sollte immer nach unten zeigen, vom untergeordneten Objekt zum übergeordneten Objekt. Ein Pfeil, der nach oben zeigt, weist auf eine zyklische Abhängigkeit hin, ein Problem, das gelöst werden muss.
--   Eine Skizze, die Verknüpfungen zu [externe Geometrie](Sketcher_External/de.md) enthält, hat eine Zahl mit dem Suffix \"x\", neben dem Pfeil, der sie mit seinem Vorläufer verbindet, die die Anzahl der in der Skizze verknüpften externen Geometrien anzeigt.
+-   Das Diagramm zeigt die Objekte in umgekehrter chronologischer Reihenfolge.
+-   Die Richtung der Pfeile, die Abhängigkeiten anzeigen, sollte immer nach unten zeigen. Ein Pfeil, der nach oben zeigt, weist auf eine zyklische Abhängigkeit hin, ein Problem, das gelöst werden muss.
+-   Eine Skizze, die Verknüpfungen zu [externer Geometrie](Sketcher_External/de.md) enthält, hat eine Zahl mit dem Suffix \"x\" neben dem Pfeil, der sie mit seinem Vorläufer verbindet, die die Anzahl der in der Skizze verknüpften externen Geometrien anzeigt.
 -   Objekte können Abhängigkeiten zu mehreren Vorläufern haben. Beispielsweise kann bei einem Modell, das in [PartDesign](PartDesign_Workbench/de.md) erstellt wurde, eine Tasche mit ihrer Skizze und mit dem Polster Formelement verknüpft sein, das ihr vorausging.
--   Unzulässige Abhängigkeiten (z.B. zwischen einem [Entwurf](Draft_Workbench/de.md)/[Part](Part_Workbench/de.md) Vorgang und einem Element innerhalb eines PartDesign Körpers) werden mit einem roten Pfeil angezeigt. Diese Verknüpfungstyp zeigt normalerweise einen \'Verknüpfungen gehen außerhalb des zulässigen Bereichs\' Fehler in der [Berichtsansicht](Report_view/de.md) an.
+-   Unzulässige Abhängigkeiten (z.B. zwischen einem [Draft\_](Draft_Workbench/de.md)/[Part-](Part_Workbench/de.md) Vorgang und einem Element innerhalb eines PartDesign-Körpers) werden mit einem roten Pfeil angezeigt. Diese Verknüpfungstyp zeigt normalerweise einen Fehler \'Verknüpfungen gehen außerhalb des zulässigen Bereichs\' im [Ausgabefenster](Report_view/de.md) an.
 -   Ein [Part Container](Std_Part/de.md) und [PartDesign Körper](PartDesign_Body/de.md) umschließen ihren Inhalt innerhalb eines Rahmens mit einem zufällig gefärbten Hintergrund. Ihr Ursprung umschließt ebenfalls seinen Inhalt (Standardebenen und -achsen) in einem Rahmen.
--   Ein [Gruppen](Std_Group/de.md) wird als ein einzelnes Element angezeigt, das mit seinem Inhalt verknüpft ist.
-
-
-
-## Begrenzungen
-
--   Das Abhängigkeitsdiagramm kann beim [topologischen Benennungsproblem](topological_naming_problem/de.md) nicht helfen. Wenn eine Skizze nach einer Bearbeitung die Flächen eines Formelements wechselt, ist sie immer noch mit dem Formelement verknüpft. Selbst wenn einige Formelemente gebrochen sind, bleibt das Abhängigkeitsdiagramm unverändert.
+-   Eine [Gruppe](Std_Group/de.md) wird als ein einzelnes Element angezeigt, das mit seinem Inhalt verknüpft ist.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/de
+⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > Std DependencyGraph/de

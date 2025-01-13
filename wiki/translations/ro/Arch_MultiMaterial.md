@@ -10,6 +10,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -34,6 +36,8 @@ Nu toate obiectele Arch pot folosi în prezent multi-materiale, iar utilizarea l
 
 </div>
 
+
+
 ## Cum se folosește 
 
 
@@ -47,6 +51,8 @@ Nu toate obiectele Arch pot folosi în prezent multi-materiale, iar utilizarea l
 
 
 </div>
+
+
 
 ## Opțiuni
 
@@ -87,6 +93,11 @@ This roughly corresponds to a combination of [IfcMaterialLayerSet](https://stand
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/ro
+⏵ [documentation index](../README.md) > Arch MultiMaterial/ro

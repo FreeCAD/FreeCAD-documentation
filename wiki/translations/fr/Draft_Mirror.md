@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Mirror
    Name/fr: Draft Miroir
-   MenuLocation: Modification , Miroir
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft/BIM : Modification , Mettre en miroir
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **M** **I**
    SeeAlso: Draft_Clone/fr
 ---
@@ -12,9 +12,9 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Mirror.svg  style="width:24px;"> **Draft Miroir** crée des copies miroir, des objets [Part Miroir](Part_Mirror/fr.md), à partir des objets sélectionnés. Un objet [Part Miroir](Part_Mirror/fr.md) est paramétrique et il sera mis à jour si son objet source change.
+La commande <img alt="" src=images/Draft_Mirror.svg  style="width:24px;"> **Draft Miroir** crée des copies miroir, des [Part Objets en miroir](Part_Mirror/fr.md), à partir des objets sélectionnés. Un [Part Objet en miroir](Part_Mirror/fr.md) est paramétrique et il sera mis à jour si son objet source change.
 
-Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
+Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier BIM](BIM_Workbench/fr.md).
 
 <img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;"> 
 *Mise en miroir d'un objet*
@@ -27,22 +27,23 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_C
 
 1.  Vous pouvez sélectionné un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyer sur le bouton **<img src="images/Draft_Mirror.svg" width=16px> [Miroir](Draft_Mirror/fr.md)**.
-    -   Sélectionner l\'option **Modification → <img src="images/Draft_Mirror.svg" width=16px> Miroir** du menu.
+    -   Appuyer sur le bouton **<img src="images/Draft_Mirror.svg" width=16px> [Mettre en miroir](Draft_Mirror/fr.md)**.
+    -   [Draft](Draft_Workbench/fr.md): sélectionner l\'option **Modification → <img src="images/Draft_Mirror.svg" width=16px> Mettre en miroir** du menu.
+    -   [BIM](BIM_Workbench/fr.md): sélectionner l\'option **Modification → <img src="images/Draft_Mirror.svg" width=16px> Mettre en miroir** du menu.
     -   Utiliser le raccourci clavier : **M** puis **I**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionner un objet dans la [vue 3D](3D_view/fr.md).
-4.  Le panneau de tâches **Miroir** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-5.  Choisir le premier point du plan miroir dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-6.  Choisir le deuxième point du plan miroir dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+4.  Le panneau de tâches **Mettre en miroir** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+5.  Choisir le premier point du plan miroir dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
+6.  Choisir le deuxième point du plan miroir dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
 7.  Le plan miroir est défini par les points sélectionnés et la normale du [Draft Plan de travail](Draft_SelectPlane/fr.md).
 
 ## Options
 
 Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyer sur **Entrée** après chaque valeur ou appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyer sur **Entrée** après chaque valeur ou appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyer sur **R** ou cliquer sur la case **Relatif** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées du deuxième point sont relatives au premier point, sinon elles sont relatives à l\'origine du système de coordonnées.
--   Appuyer sur **G** ou cliquer sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   Appuyer sur **G** ou cliquer sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md).
 -   Appuyer sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyer sur **Échap** ou sur le bouton **Fermer** pour abandonner la commande.
 
@@ -50,8 +51,8 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 ## Remarques
 
--   Les copies miroir des [Draft Lignes](Draft_Line/fr.md), [Draft Polylignes](Draft_Wire/fr.md), [Draft Arcs](Draft_Arc/fr.md) et [Draft Cercles](Draft_Circle/fr.md) peuvent être transformées en objets Draft éditables indépendants en utilisant [Draft Désagréger](Draft_Downgrade/fr.md) et ensuite [Draft Agréger](Draft_Upgrade/fr.md).
--   La commande [Part Copie simple](Part_SimpleCopy/fr.md) peut être utilisée pour créer une copie d\'un objet miroir qui n\'est pas lié à son objet source.
+-   Les copies en miroir des [Draft Lignes](Draft_Line/fr.md), [Draft Polylignes](Draft_Wire/fr.md), [Draft Arcs](Draft_Arc/fr.md) et [Draft Cercles](Draft_Circle/fr.md) peuvent être transformées en objets Draft éditables indépendants en utilisant [Draft Désagréger](Draft_Downgrade/fr.md) et ensuite [Draft Agréger](Draft_Upgrade/fr.md).
+-   La commande [Part Copie simple](Part_SimpleCopy/fr.md) peut être utilisée pour créer une copie d\'un objet mis en miroir qui n\'est pas lié à son objet source.
 
 
 
@@ -59,7 +60,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet [Part Miroir](Part_Mirror/fr.md) est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+Un [Part Objet en miroir](Part_Mirror/fr.md) est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 
 

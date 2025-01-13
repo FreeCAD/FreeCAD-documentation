@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Slope
    Name/pl: Rysunek Roboczy: Ustaw nachylenie
-   MenuLocation: Modyfikacja , Ustaw nachylenie
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Modyfikacja , Ustaw nachylenie<br>Narzędzia , Ustaw nachylenie
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Version: 0.17
 ---
 
@@ -24,8 +24,9 @@ Narzędzie <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Utwór
 
 1.  Wybierz jedną lub więcej [linii](Draft_Line/pl.md) i / lub [polilinii](Draft_Wire/pl.md).
 2.  Polecenie można wywołać na kilka sposobów:
-    -   Naciśnij przycisk **<img src="images/Draft_Slope.svg" width=16px> '''Ustaw nachylenie**.
-    -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Slope.svg" width=16px> Ustaw nachylenie**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Naciśnij przycisk **<img src="images/Draft_Slope.svg" width=16px> '''Ustaw nachylenie**.
+    -   Rysunek Roboczy: Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Slope.svg" width=16px> Ustaw nachylenie**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Narzędzia → <img src="images/Draft_Slope.svg" width=16px> Ustaw nachylenie** z menu.
 3.  Wprowadź wartość **Nachylenie**. {{Value|0}} oznacza, że każdy segment jest poziomy, {{Value|0.5}} oznacza, że wysokość delta dla każdego segmentu jest {{Value|0.5}} razy jego długość, itd. Wartość może być również ujemna.
 4.  Naciśnij **Enter** lub przycisk **OK**, aby zakończyć wykonywanie polecenia.
 

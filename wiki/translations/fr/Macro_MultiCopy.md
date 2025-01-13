@@ -90,7 +90,7 @@ Avant d\'exécuter l\'opération MultiCopy, sélectionnez d\'abord un ou plusieu
 
 
 
-###  Pour lancer la boîte de dialogue GUI: 
+###  Pour lancer la fenêtre de dialogue GUI : 
 
 
 ```python

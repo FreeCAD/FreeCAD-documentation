@@ -1,110 +1,126 @@
 # LuxCoreRender/pl
-**LuxCoreRender is not officially supported by the [Raytracing Workbench](Raytracing_Workbench.md), it is instead supported by the by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md).**
-
-# Description
-
-[LuxCoreRender](https://luxcorerender.org) is a physically based rendering engine, reboot of the now outdated [LuxRender](LuxRender.md). It is not officially supported by the [Raytracing Workbench](Raytracing_Workbench.md), although it might work.
-
-# Installation
-
-## Raytracing Workbench 
+**LuxCoreRender nie jest oficjalnie obsługiwany przez środowisko pracy [Raytracing](Raytracing_Workbench/pl.md), zamiast tego jest obsługiwany przez nowe środowisko [https://github.com/FreeCAD/FreeCAD-render Render Workbench], które ma go zastąpić. Środowisko pracy Render można zainstalować poprzez [Menedżer dodatków](Std_AddonMgr/pl.md).**
 
 
-**Officially the [Raytracing workbench](Raytracing_Workbench.md) does not work with LuxCoreRender, only with the outdated [LuxRender](LuxRender.md). Also the [Raytracing workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench**
 
-### Stable Version 
+# Opis
 
-LuxCoreRender is under active development, so to know which is the [latest stable version check on GitHub](https://github.com/LuxCoreRender/LuxCore/releases/latest).
+[LuxCoreRender](https://luxcorerender.org) to oparty na fizyce silnik renderujący, będący następcą przestarzałego [LuxRender](LuxRender/pl.md). Nie jest on oficjalnie wspierany przez środowisko pracy [Raytracing](Raytracing_Workbench/pl.md), choć może działać.
+
+
+
+# Instalacja
+
+
+
+## Środowisko pracy Raytracing 
+
+
+**Oficjalnie środowisko pracy [Raytracing](Raytracing_Workbench/pl.md) nie współpracuje z LuxCoreRender, a jedynie z przestarzałym [LuxRender](LuxRender/pl.md). Również środowisko pracy [Raytracing](Raytracing_Workbench/pl.md) jest zastępowane przez nowe [https://github.com/FreeCAD/FreeCAD-render środowisko pracy Render], które ma go zastąpić. Środowisko Render można zainstalować poprzez [Menadżer dodatków](Std_AddonMgr/pl.md). Informacje te są podane tutaj, ponieważ domyślnie FreeCAD jest nadal dostarczany ''(od wersji 0.19-24276)'' z środowiskiem Raytracing.**
+
+
+
+### Wersja stabilna 
+
+LuxCoreRender jest aktywnie rozwijany, więc aby dowiedzieć się, która wersja jest najnowsza [sprawdź najnowszą stabilną wersję na GitHub](https://github.com/LuxCoreRender/LuxCore/releases/latest).
 
 #### Linux
 
-***Compiled binaries***
+***Skompilowane binaria***
 
-If your distribution has it in the official repositories, you can install LuxCoreRender and all the relative dependencies through the package manager. Such distributions include: [Arch Linux (AUR)](https://aur.archlinux.org/packages/?O=0&SeB=nd&K=luxcorerender), [Fedora](https://src.fedoraproject.org/rpms/luxcorerender).
+Jeśli twoja dystrybucja ma go w oficjalnych repozytoriach, możesz zainstalować LuxCoreRender i wszystkie powiązane zależności za pomocą menedżera pakietów. Takie dystrybucje obejmują: [Arch Linux *(AUR)*](https://aur.archlinux.org/packages/?O=0&SeB=nd&K=luxcorerender), [Fedora](https://src.fedoraproject.org/rpms/luxcorerender).
 
-Otherwise it is possible to download the official binaries of the [latest stable release from GitHub](https://github.com/LuxCoreRender/LuxCore/releases/latest). The file will be something like *luxcorerender-{version number}-linux64.tar.bz2*. The faster solution (although not the best practice) is to extract the content of the archive in a suitable location, like *\~/LuxCoreRender*. If needed change the file permissions so that your user can execute the files you just extracted.
+W przeciwnym razie możliwe jest pobranie oficjalnych plików binarnych [najnowszego stabilnego wydania z GitHub](https://github.com/LuxCoreRender/LuxCore/releases/latest). Plik będzie miał postać *luxcorerender-{numer wersji}-linux64.tar.bz2*. Szybszym rozwiązaniem *(choć nie najlepszą praktyką)* jest wyodrębnienie zawartości archiwum w odpowiedniej lokalizacji, takiej jak *\~/LuxCoreRender*. W razie potrzeby zmień uprawnienia do plików, aby użytkownik mógł wykonać wyodrębnione pliki.
 
-***Compiling from source***
+***Kompilacja ze źródeł***
 
-If your distributions does not have LuxCoreRender in the repositories and the official binaries do not work on your computer, or you wish to, it is possible to compile LuxCoreRender from source. [The latest stable release](https://github.com/LuxCoreRender/LuxCore/releases/latest) includes the source, that will be something like \'luxcorerender-{version number}.tar.bz2\'\'
+Jeśli twoja dystrybucja nie ma LuxCoreRender w repozytoriach, a oficjalne binaria nie działają na twoim komputerze lub chcesz, możesz skompilować LuxCoreRender ze źródła. [Najnowsze stabilne wydanie](https://github.com/LuxCoreRender/LuxCore/releases/latest) zawiera źródło, które będzie czymś w rodzaju *luxcorerender-{numer wersji}.tar.bz2*
 
-***Configuring FreeCAD***
+***Konfiguracja FreeCAD***
 
-After installing LuxCoreRender, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Raytracing Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the [Raytracing Preferences](Raytracing_Preferences.md).
+Po zainstalowaniu LuxCoreRender uruchom FreeCAD, otwórz [edytor preferencji](Preferences_Editor/pl.md), załaduj środowisko pracy [Raytracing](Preferences_Editor/pl#Niezaładowane_środowiska_pracy.md) i przejdź do [ustawień](Raytracing_Preferences/pl.md) środowiska Raytracing.
 
-Set the Luxrender executable path to point to your installation of LuxCoreRender, usually it is */usr/bin/luxcoreui* (or if you installed it manually something like *\~/LuxCoreRender/luxcoreui*), and apply.
+Ustaw ścieżkę wykonywalną Luxrender, aby wskazywała na instalację LuxCoreRender, zwykle jest to */usr/bin/luxcoreui*(lub jeśli zainstalowałeś go ręcznie, coś w rodzaju *\~/LuxCoreRender/luxcoreui)* i zastosuj ustawienia.
 
-#### macOS
 
-[Check on GitHub for the latest stable release](https://github.com/LuxCoreRender/LuxCore/releases/latest), scroll down to the *Assets* section (expand it if needed) and download the macOS file. It will be something like *luxcorerender-{version number}-mac64.dmg*.
+
+#### MacOS
+
+[Sprawdź na GitHub najnowszą stabilną wersję](https://github.com/LuxCoreRender/LuxCore/releases/latest), przewiń w dół do sekcji \"Assets\" *(w razie potrzeby rozwiń ją)* i pobierz plik macOS. Będzie to coś w rodzaju *luxcorerender-{numer wersji}-mac64.dmg*.
 
 #### Windows
 
-[Check on GitHub for the latest stable release](https://github.com/LuxCoreRender/LuxCore/releases/latest), scroll down to the *Assets* section (expand it if needed) and download the Windows file. It will be something like *luxcorerender-{version number}-win64.zip*.
+[Sprawdź na GitHub najnowszą stabilną wersję](https://github.com/LuxCoreRender/LuxCore/releases/latest), przewiń w dół do sekcji *Assets* *(w razie potrzeby rozwiń ją)* i pobierz plik Windows. Będzie to coś w stylu *luxcorerender-{numer wersji}-win64.zip*.
 
-Then check in the note above the assets if there are any notes about dependencies for Windows user. For example to [use LuxRender 2.5](https://github.com/LuxCoreRender/LuxCore/releases/tag/luxcorerender_v2.5) you are required to install the [Microsoft Visual C++ Redistributable for Visual Studio 2017](https://aka.ms/vs/15/release/vc_redist.x64.exe) and the [Intel C++ redistributable](https://software.intel.com/sites/default/files/managed/59/aa/ww_icl_redist_msi_2018.3.210.zip).
+Następnie sprawdź w notatce nad zasobami, czy są jakieś uwagi dotyczące zależności dla użytkowników systemu Windows. Na przykład, aby [używać LuxRender 2.5](https://github.com/LuxCoreRender/LuxCore/releases/tag/luxcorerender_v2.5) należy zainstalować [Microsoft Visual C++ Redistributable for Visual Studio 2017](https://aka.ms/vs/15/release/vc_redist.x64.exe) i [Intel C++ Redistributable](https://software.intel.com/sites/default/files/managed/59/aa/ww_icl_redist_msi_2018.3.210.zip).
 
-After installing dependencies, extract the downloaded archive in a suitable folder, like *C:\\Tools\\LuxCoreRender*. Avoid using system folders like *C:\\Program Files* or *C:\\Program Files (x86)*.
+Po zainstalowaniu zależności rozpakuj pobrane archiwum w odpowiednim folderze, takim jak *C:\\Tools\\LuxCoreRender*. Unikaj używania folderów systemowych, takich jak *C:\\Program Files* lub *C:\\Program Files (x86)*.
 
-After installing LuxCoreRender, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Raytracing Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the [Raytracing Preferences](Raytracing_Preferences.md).
+Po zainstalowaniu LuxCoreRender uruchom FreeCAD, otwórz [edytor preferencji](Preferences_Editor/pl.md), załaduj środowisko pracy [Raytracing](Preferences_Editor/pl#Niezaładowane_środowiska_pracy.md) i przejdź do [ustawień](Raytracing_Preferences/pl.md) środowiska Raytracing.
 
-Set the Luxrender executable path to point to your installation of LuxCoreRender, that will be something like *C:/Tools/LuxCoreRender/luxcoreui.exe*, and apply.
+Ustaw ścieżkę wykonywalną Luxrender, aby wskazywała na instalację LuxCoreRender, będzie to coś w rodzaju *C:/Tools/LuxCoreRender/luxcoreui.exe* i zastosuj.
 
-### Development Version 
 
-LuxCoreRender is under active development, so to know which is the [latest development version](https://github.com/LuxCoreRender/LuxCore/releases) you have to manually check on GitHub for the latest marked as Pre-release.
 
-#### Linux 
+### Wersja rozwojowa 
 
-***Compiled binaries***
-
-If your distribution has it in the official repositories, you can install LuxCoreRender development version and all the relative dependencies through the package manager. Such distributions include: [Arch Linux (AUR)](https://aur.archlinux.org/packages/?O=0&SeB=nd&K=luxcorerender).
-
-Otherwise it is possible to download the official binaries of the [latest development version, marked as Pre-release, from GitHub](https://github.com/LuxCoreRender/LuxCore/releases). The file will be something like *luxcorerender-{version number}-linux64.tar.bz2* or *luxcorerender-latest-linux64.tar.bz2*. The faster solution (although not the best practice) is to extract the content of the archive in a suitable location, like *\~/LuxCoreRender*. If needed change the file permissions so that your user can execute the files you just extracted.
-
-***Compiling from source***
-
-If your distributions does not have LuxCoreRender development in the repositories and the official binaries do not work on your computer, or you wish to, it is possible to compile LuxCoreRender from source. [Check GitHub for the latest development version, marked as Pre-release](https://github.com/LuxCoreRender/LuxCore/releases) that includes the source, that will be something like \'luxcorerender-{version number}.tar.bz2\'\'
-
-***Configuring FreeCAD***
-
-After installing LuxCoreRender, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Raytracing Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the [Raytracing Preferences](Raytracing_Preferences.md).
-
-Set the Luxrender executable path to point to your installation of LuxCoreRender, usually it is */usr/bin/luxcoreui* (or if you installed it manually something like *\~/LuxCoreRender/luxcoreui*), and apply.
-
-#### macOS 
-
-[Check on GitHub for the latest development version](https://github.com/LuxCoreRender/LuxCore/releases), marked as Pre-release, scroll down to the *Assets* section (expand it if needed) and download the Windows file. It will be something like *luxcorerender-{version number}-mac64.dmg* or *luxcorerender-latest-mac64.dmg*.
-
-#### Windows 
-
-[Check on GitHub for the latest development version](https://github.com/LuxCoreRender/LuxCore/releases), marked as Pre-release, scroll down to the *Assets* section (expand it if needed) and download the Windows file. It will be something like *luxcorerender-{version number}-win64.zip* or *luxcorerender-latest-win64.zip*.
-
-Then check in the note above the assets if there are any notes about dependencies for Windows user. For example to [use LuxRender 2.5rc1](https://github.com/LuxCoreRender/LuxCore/releases/tag/luxcorerender_v2.5rc1) you are required to install the [Microsoft Visual C++ Redistributable for Visual Studio 2017](https://aka.ms/vs/15/release/vc_redist.x64.exe) and the [Intel C++ redistributable](https://software.intel.com/sites/default/files/managed/59/aa/ww_icl_redist_msi_2018.3.210.zip).
-
-After installing dependencies, extract the downloaded archive in a suitable folder, like *C:\\Tools\\LuxCoreRender*. Avoid using system folders like *C:\\Program Files* or *C:\\Program Files (x86)*.
-
-After installing LuxCoreRender, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Raytracing Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the [Raytracing Preferences](Raytracing_Preferences.md).
-
-Set the Luxrender executable path to point to your installation of LuxCoreRender, that will be something like *C:/Tools/LuxCoreRender/luxcoreui.exe*, and apply.
-
-## Render Workbench 
-
-As of now there are no significant differences between the Raytracing Workbench and the Render Workbench in the part regarding the installation of the external software, so refer to the [Raytracing Workbench section](LuxCoreRender#Raytracing_Workbench.md) to install LuxCoreRender and to this section for the Render Workbench configuration.
-
-First of all install the Render Workbench through the [Addon Manager](Std_AddonMgr.md) and restart FreeCAD.
+LuxCoreRender jest aktywnie rozwijany, więc aby dowiedzieć się, która wersja jest [najnowszą wersją rozwojową](https://github.com/LuxCoreRender/LuxCore/releases), należy ręcznie sprawdzić na GitHub najnowszą wersję oznaczoną jako Pre-release.
 
 #### Linux 
 
-After installing the Render Workbench and LuxCoreRender, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Render Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the Render Preferences.
+***Skompilowane binaria***
 
-Set the LuxCore UI path to point to your installation of LuxCoreRender, usually it is */usr/bin/luxcoreui* (or if you installed it manually something like *\~/LuxCoreRender/luxcoreui*), and apply.
+Jeśli twoja dystrybucja ma ją w oficjalnych repozytoriach, możesz zainstalować wersję rozwojową LuxCoreRender i wszystkie powiązane zależności za pomocą menedżera pakietów. Takie dystrybucje obejmują: [Arch Linux *(AUR)*](https://aur.archlinux.org/packages/?O=0&SeB=nd&K=luxcorerender).
+
+W przeciwnym razie możliwe jest pobranie oficjalnych plików binarnych [najnowszej wersji rozwojowej, oznaczonej jako Pre-release, z GitHub](https://github.com/LuxCoreRender/LuxCore/releases). Plik będzie miał postać *luxcorerender-{numer wersji}-linux64.tar.bz2* lub *luxcorerender-latest-linux64.tar.bz2*. Szybszym rozwiązaniem (choć nie najlepszą praktyką) jest wyodrębnienie zawartości archiwum w odpowiedniej lokalizacji, takiej jak *\~/LuxCoreRender*. W razie potrzeby zmień uprawnienia do plików, aby użytkownik mógł wykonać wyodrębnione pliki.
+
+***Kompilacja ze źródeł***
+
+Jeśli twoje dystrybucje nie mają w repozytoriach wersji rozwojowej LuxCoreRender, a oficjalne binaria nie działają na twoim komputerze lub chcesz, możesz skompilować LuxCoreRender ze źródeł. [Sprawdź GitHub dla najnowszej wersji rozwojowej, oznaczonej jako Pre-release](https://github.com/LuxCoreRender/LuxCore/releases), która zawiera źródło, które będzie czymś w rodzaju \"luxcorerender-{numer wersji}.tar.bz2\"\'
+
+***Konfiguracja FreeCAD***
+
+Po zainstalowaniu LuxCoreRender uruchom FreeCAD, otwórz [edytor preferencji](Preferences_Editor/pl.md), załaduj środowisko pracy [Raytracing](Preferences_Editor/pl#Niezaładowane_środowiska_pracy.md) i przejdź do [ustawień](Raytracing_Preferences/pl.md) środowiska Raytracing.
+
+Ustaw ścieżkę wykonywalną Luxrender, aby wskazywała na instalację LuxCoreRender, zwykle jest to */usr/bin/luxcoreui*(lub jeśli zainstalowałeś go ręcznie, coś w rodzaju *\~/LuxCoreRender/luxcoreui)* i zastosuj ustawienia.
+
+
+
+#### MacOS 
+
+[Sprawdź na GitHub najnowszą wersję rozwojową](https://github.com/LuxCoreRender/LuxCore/releases), oznaczoną jako Pre-release, przewiń w dół do sekcji *Assets* *(w razie potrzeby rozwiń ją)* i pobierz plik Windows. Będzie to coś w stylu *luxcorerender-{numer wersji}-mac64.dmg* lub *luxcorerender-latest-mac64.dmg*.
 
 #### Windows 
 
-After installing the Render Workbench and LuxCoreRender, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Render Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the Render Preferences.
+[Sprawdź na GitHub najnowszą wersję rozwojową](https://github.com/LuxCoreRender/LuxCore/releases), oznaczoną jako Pre-release, przewiń w dół do sekcji *Assets* *(w razie potrzeby rozwiń ją)* i pobierz plik Windows. Będzie to coś w stylu *luxcorerender-{numer wersji}-win64.zip* lub *luxcorerender-latest-win64.zip*.
 
-Set the LuxCore command (cli) path, something like *C:/Tools/LuxCore/pyluxcoretool.exe* and LuxCore UI path, something like *C:/Tools/LuxCore/luxcoreui.exe*, then apply.
+Następnie sprawdź w notatce nad zasobami, czy są jakieś uwagi dotyczące zależności dla użytkowników systemu Windows. Na przykład, aby [używać LuxRender 2.5rc1](https://github.com/LuxCoreRender/LuxCore/releases/tag/luxcorerender_v2.5rc1) należy zainstalować [Microsoft Visual C++ Redistributable for Visual Studio 2017](https://aka.ms/vs/15/release/vc_redist.x64.exe) i [Intel C++ Redistributable](https://software.intel.com/sites/default/files/managed/59/aa/ww_icl_redist_msi_2018.3.210.zip).
+
+Po zainstalowaniu zależności rozpakuj pobrane archiwum w odpowiednim folderze, takim jak *C:\\Tools\\LuxCoreRender*. Unikaj używania folderów systemowych, takich jak *C:\\Program Files* lub *C:\\Program Files (x86)*.
+
+Po zainstalowaniu LuxCoreRender uruchom FreeCAD, otwórz [edytor preferencji](Preferences_Editor/pl.md), załaduj środowisko pracy [Raytracing](Preferences_Editor/pl#Niezaładowane_środowiska_pracy.md) i przejdź do [ustawień](Raytracing_Preferences/pl.md) środowiska Raytracing.
+
+Ustaw ścieżkę wykonywalną Luxrender, aby wskazywała na instalację LuxCoreRender, będzie to coś w rodzaju *C:/Tools/LuxCoreRender/luxcoreui.exe* i zastosuj.
+
+
+
+## Środowisko pracy Render 
+
+Na chwilę obecną nie ma znaczących różnic między środowiskiem pracy Raytracing i Render w części dotyczącej instalacji zewnętrznego oprogramowania, więc odnieś się do sekcji: środowisko pracy[Raytracing](LuxCoreRender/pl#Raytracing_Workbench.md), aby zainstalować LuxCoreRender i do tej sekcji, aby skonfigurować środowisko pracy Render.
+
+Przede wszystkim zainstaluj środowisko Render poprzez [menadżer dodatków](Std_AddonMgr/pl.md) i uruchom ponownie FreeCAD.
+
+#### Linux 
+
+Po zainstalowaniu środowiska pracy Render i LuxCoreRender, uruchom FreeCAD, otwórz [edytor preferencji](Preferences_Editor/pl.md), [załaduj środowisko Render](Preferences_Editor/pl#Niezaładowane_środowiska_pracy.md) i przejdź do ustawień tego środowiska.
+
+Ustaw ścieżkę wykonywalną LuxCore UI, aby wskazywała na instalację LuxCoreRender, zwykle jest to */usr/bin/luxcoreui*(lub jeśli zainstalowałeś go ręcznie, coś w rodzaju *\~/LuxCoreRender/luxcoreui)* i zastosuj ustawienia.
+
+#### Windows 
+
+Po zainstalowaniu środowiska pracy Render i LuxCoreRender, uruchom FreeCAD, otwórz [edytor preferencji](Preferences_Editor/pl.md), [załaduj środowisko Render](Preferences_Editor/pl#Niezaładowane_środowiska_pracy.md) i przejdź do ustawień tego środowiska.
+
+Ustaw ścieżkę poleceń (cli) LuxCore, coś w rodzaju *C:/Tools/LuxCore/pyluxcoretool.exe* i ścieżkę interfejsu użytkownika LuxCore, coś w rodzaju *C:/Tools/LuxCore/luxcoreui.exe*, a następnie zastosuj ustawienia.
 
 
 

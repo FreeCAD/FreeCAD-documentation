@@ -48,5 +48,13 @@ Narzędzie **Przekrój poprzeczny** tworzy jeden lub więcej przekrojów przez w
 
 
 
+
+
+{{Part_Tools_navi
+
+}}
+
+
+
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/pl

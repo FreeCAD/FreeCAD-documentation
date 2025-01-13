@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Part BooleanFragments
-   Name/de: Part BoolescheFragmente
-   MenuLocation: Formteil , Teilen , Boolesche Fragmente
+   Name/de: Part BoolescheBestandteile
+   MenuLocation: Part , Teilen , Boolesche Bestandteile
    Workbenches: Part_Workbench/de
    Version: 0.17
    SeeAlso: Part_Slice/de, Part_XOR/de, Part_CompJoinFeatures/de, Part_Boolean/de
@@ -14,15 +14,12 @@
 
 ## Beschreibung
 
-Werkzeug zum Berechnen aller Fragmente, die sich aus der Anwendung boolescher Operationen zwischen Eingabeformen ergeben können. So werden beispielsweise für zwei sich schneidende Kugeln drei nicht überlappende, aber berührende Festkörper erzeugt.
+Das Werkzeug <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> **BoolescheBestandteile** berechnet alle Bruchteile, die sich aus der Anwendung boolescher Verknüpfungen zwischen Eingabeformen ergeben können. So werden beispielsweise aus zwei sich schneidende Kugeln drei nicht überlappende, aber berührende Festkörper erzeugt.
 
-![600px](images/Part_BooleanFragments_Demo.png)
-
-
-
+![600px](images/Part_BooleanFragments_Demo.png) 
 *Auf dem obigen Bild wurden die Teile anschließend manuell auseinandergezogen, um die Schnitte zu erkennen.*
 
-Die Ausgabeform ist immer eine Verbund. Der Inhalt des Verbunds hängt von den Eingangsformtypen und der Betriebsart ab. Das bedeutet, dass du nicht sofort Zugriff auf einzelne Teile des Ergebnisses hast - die Teile bleiben gruppiert. Die einzelnen Stücke können durch Auflösen der Verbindung entnommen werden ([Entwurf Herabstufen](Draft_Downgrade/de.md)).
+Die Ausgabeform ist immer ein Verbund. Der Inhalt des Verbundes hängt von der Art der Eingangsformen und der Betriebsart ab. Das bedeutet, dass man nicht sofort Zugriff auf einzelne Bestendteile des Ergebnisses hast - die Teile bleiben gruppiert. Die einzelnen Stücke können durch Auflösen des Verbundes entnommen werden ([Draft Zurückstufen](Draft_Downgrade/de.md)).
 
 Das Werkzeug verfügt über drei Modi: \"Standard\", \"Teilen\" und \"VerbundFestkörper\".
 
@@ -36,13 +33,11 @@ Im \"Verbundkörper\" Modus werden die Festkörper zu einem Verbundkörper verbu
 
 ## Anwendung
 
-1.  Wähle die zu kreuzenden Objekte aus.
-    Die Reihenfolge der Auswahl ist nicht wichtig, da die Wirkung des Werkzeugs symmetrisch ist. Es genügt, von jedem Objekt (z.B. Flächen) eine Unterform auszuwählen. Du kannst auch eine Verbindung auswählen, die alle zu verbindenden Formen enthält, z.B. [Entwurf AnordnungRechtwinklig](Draft_OrthoArray.md).
-2.  Rufe den Befehl Part BoolescheFragmente auf mehrere Arten auf:
-    -   Drücken der <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> Schaltfläche in der Werkzeugleiste
-    -   Verwendung des **Part → Teilen → Boolesche Fragmente** Eintrags im Part Menü
-
-Ein Boolesches Fragmentparametrisches Objekt wird erstellt. Originalobjekte werden ausgeblendet, und das Ergebnis der Schnittmenge wird in der [3D-Ansicht](3D_view/de.md) angezeigt.
+1.  Die zu (ver-) schneidenden Objekte auswählen. Die Reihenfolge der Auswahl ist nicht wichtig, da die Auswirkung des Werkzeugs symmetrisch ist. Es genügt, von jedem Objekt eine Teilform (z.B. eine Fläche) auszuwählen. Es kann auch ein Verbund ausgewählt werden, der alle zu verbindenden Formen enthält, z.B. eine [rechtwinklige Anordnung](Draft_OrthoArray/de.md).
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Part_BooleanFragments.svg" width=16px> [Boolesche Bestandteile](Part_BooleanFragments/de.md)** drücken.
+    -   Den Menüeintrag **Part → Teilen → Boolesche Bestandteile** auswählen.
+3.  Ein parametrisches Boolesche-Bestandteile-Objekt wird erstellt. Die originalen Objekte werden ausgeblendet und das Ergebnis des Schneidens wird in der [3D-Ansicht](3D_view/de.md) angezeigt.
 
 
 
@@ -61,7 +56,7 @@ Ein Boolesches Fragmentparametrisches Objekt wird erstellt. Originalobjekte werd
 
 ## Implementierungsdetails
 
-Das Werkzeug Boolesche Fragmente im \"Standardmodus\" ist der Allgemeine Verschmelzungs Operator (engl.: General Fuse Operator (GFA)) von OpenCascade. Es akzeptiert eine Kombination von wahrscheinlich allen Formtypen, und die Logik der Ausgabe ist ziemlich kompliziert. Siehe [OpenCascade Benutzerhandbuch: Boolesche Operationen](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__boolean_operations.html).
+Das Werkzeug Boolesche Bestandteile im \"Standardmodus\" ist der allgemeine Verschmelzungs-Operator (engl.: General Fuse Operator (GFA)) von OpenCascade. Es akzeptiert eine Kombination von wahrscheinlich allen Formtypen, und die Logik der Ausgabe ist ziemlich kompliziert. Siehe [OpenCascade Benutzerhandbuch: Boolesche Verknüpfungen](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__boolean_operations.html).
 
 Für die Modi \"Teilen\" und \"VerbundKörper\" erfolgt eine zusätzliche Nachbearbeitung durch FreeCAD.
 
@@ -73,8 +68,8 @@ Das Werkzeug kann in [Makros](macros/de.md) und von der Python-Konsole aus mit d
 
 **BOPTools.SplitFeatures.makeBooleanFragments(name)**
 
--   Erzeugt eine leere BoolescheFragment Funktion. Die \'Objekte\' Eigenschaft muss anschließend explizit zugewiesen werden.
--   Liefert das neu erstellte Objekt.
+-   Erzeugt ein leeres BooleanFragment-Formelement. Die Eigenschaft \'Objects\' muss anschließend explizit zugewiesen werden.
+-   Gibt das neu erstellte Objekt zurück.
 
 BoolescheFragmente kann auch auf einfache Formen angewendet werden, ohne dass ein Dokumentobjekt erforderlich ist, via:
 
@@ -105,6 +100,14 @@ Das Werkzeug selbst ist in Python implementiert, siehe /Mod/Part/BOPTools/SplitF
 ## Hinweise
 
 Das Werkzeug wurde in FreeCAD v0.17.8053 eingeführt. FreeCAD muss mit OCC 6.9.0 oder höher kompiliert werden, da das Werkzeug sonst nicht verfügbar ist.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

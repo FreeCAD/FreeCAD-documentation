@@ -1,83 +1,97 @@
 ---
  GuiCommand:
    Name: Surface Sections
+   Name/pl: Powierzchnia 3D: Przekrój powierzchni
    MenuLocation: Surface , Sections
-   Workbenches: Surface_Workbench
+   Workbenches: Surface_Workbench/pl
    Version: 0.19
 ---
 
 # Surface Sections/pl
 
-## Description
 
 
-**[<img src=images/Surface_Sections.svg style="width:16px"> [Surface Sections](Surface_Sections.md)**
+## Opis
 
-is used to create a surface from edges that represent transversal sections of a surface.
+Polecenie **[<img src=images/Surface_Sections.svg style="width:16px"> '''Przekrój powierzchni'''** służy do tworzenia powierzchni z krawędzi, które reprezentują poprzeczne przekroje powierzchni.
 
 <img alt="" src=images/Surface_Sections_edges_example.png  style="width:" height="250px;"> <img alt="" src=images/Surface_Sections_example.png  style="width:" height="250px;">
 
 
 
-*Left: control edges (transversal sections). Right: surface produced from these edges.*
-
-## Usage
-
-1.  Make sure you have at lease two edges or curves in space. For example, these can be created with tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) or the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md).
-2.  Press the **[<img src=images/Surface_Sections.svg style="width:16px"> [Surface sections](Surface_Sections.md)** button.
-3.  Press **Add edge**.
-4.  Use the pointer to pick the desired edges in the [3D view](3D_view.md); a preview of the final shape will be shown after selecting two valid edges.
-5.  Press **OK** to complete the operation.
-
-## Options
-
--    **Add edge**: press once to start picking edges in the [3D view](3D_view.md). Individual lines such as **[<img src=images/Draft_BSpline.svg style="width:16px"> [Draft BSplines](Draft_BSpline.md)** and **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Sketcher BSplines](Sketcher_CreateBSpline.md)** can be chosen, as well as any edge from solid objects, like those of **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Bodies](PartDesign_Body.md)** and **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Primitives](Part_Primitives.md)**.
-
--    **Remove edge**: press once to start picking edges in the [3D view](3D_view.md); these must be edges that were previously picked with **Add edge**.
-
--    **Right mouse button**: open the context menu and select **Remove**, or press **Del** in the keyboard, to remove the currently selected edge in the list.
-
--    **Drag**: drag the currently selected element in the list in order to change the order in which it will be processed; the list is processed from top to bottom.
-
--   Press **Cancel** or **Esc** to abort the current operation.
-
-## Properties
-
-A [Surface Sections](Surface_Sections.md) (`Surface::Sections` class) is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
-
-In addition to the properties described in [Part Feature](Part_Feature.md), the Surface Sections has the following properties in the [property editor](property_editor.md).
-
-### Data
+*Po lewej: krawędzie kontrolne ''(przekroje poprzeczne)''. Po prawej: powierzchnia utworzona z tych krawędzi.*
 
 
-{{TitleProperty|Sections}}
 
--    **NSections|LinkSubList**: a list of edges that will be used to build the surface.
+## Użycie
 
-### View
+1.  Upewnij się, że masz co najmniej dwie krawędzie lub krzywe w przestrzeni. Na przykład można je utworzyć za pomocą narzędzi środowiska pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md) lub <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md).
+2.  Naciśnij przycisk **[<img src=images/Surface_Sections.svg style="width:16px"> '''Przekrój powierzchni'''**.
+3.  Naciśnij **Dodaj krawędź**.
+4.  Użyj kursora, aby wybrać żądane krawędzie w oknie [widoku 3D](3D_view/pl.md); podgląd ostatecznego kształtu zostanie wyświetlony po wybraniu dwóch prawidłowych krawędzi.
+5.  Naciśnij **OK**, aby zakończyć operację.
 
 
-{{TitleProperty|Base}}
 
--    **Control Points|Bool**: it defaults to `False`; if set to `True`, it will show an overlay with the control points of the surface.
+## Opcje
 
-## Twisting of the surface 
+-    **Dodaj krawędź**: naciśnij raz, aby rozpocząć wybieranie krawędzi w oknie [widoku 3D](3D_view/pl.md). Pojedyncze linie, takie jak **[<img src=images/Draft_BSpline.svg style="width:16px"> [Rysunek Roboczy: Krzywa złożona](Draft_BSpline/pl.md)** i **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Szkicownik: Krzywa złożona](Sketcher_CreateBSpline/pl.md)**, a także dowolne krawędzie z obiektów bryłowych, jak te z **[<img src=images/PartDesign_Body.svg style="width:16px"> [Zawartości](PartDesign_Body/pl.md)** środowiska Projekt Części i **[<img src=images/Part_Primitives.svg style="width:16px"> [geometrie pierwotne](Part_Primitives/pl.md)** środowiska Część.
 
-The shape of the surface depends on the direction of the chosen edges; if edges are selected and the result is a surface that \"twists\" on itself, one of the edges may need its list of vertices in the reverse order. See the information in **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [GeomFillSurface](Surface_GeomFillSurface.md)** for a more complete explanation.
+-    **Usuń krawędź**: naciśnij raz, aby rozpocząć wybieranie krawędzi w oknie [Widok 3D](3D_view/pl.md); muszą to być krawędzie, które zostały wcześniej wybrane za pomocą **Dodaj krawędź**.
+
+-    **Prawy przycisk myszy**: otwórz menu podręczne i wybierz **Usuń** lub naciśnij **Del** na klawiaturze, aby usunąć aktualnie wybraną krawędź z listy.
+
+-    **Przeciągnij**: przeciągnięcie aktualnie zaznaczonego elementu na liście w celu zmiany kolejności, w jakiej będzie on przetwarzany; lista jest przetwarzana od góry do dołu.
+
+-   Naciśnij **Anuluj** lub **Esc**, aby przerwać bieżącą operację.
+
+
+
+## Właściwości
+
+Obiekt **Przekrój powierzchni** *(klasa `Surface::Sections`)* jest pochodną podstawowej klasy [Część: Cecha](Part_Feature/pl.md) *(klasa `Part::Feature`, poprzez klasę podrzędną `Part::Spline`)*, dlatego też dzieli z nią wszystkie jej właściwości.
+
+Oprócz właściwości opisanych na stronie [Cecha części](Part_Feature/pl.md), obiekt Przekrój powierzchni, posiada następujące właściwości w [edytorze właściwości](Property_editor/pl.md).
+
+
+
+### Dane
+
+
+{{TitleProperty|Przekroje}}
+
+-    **NSections|LinkSubList**: lista krawędzi, które zostaną użyte do zbudowania powierzchni.
+
+
+
+### Widok
+
+
+{{TitleProperty|Podstawa}}
+
+-    **Punkty kontrolne|Bool**: wartość domyślna to {{FALSE/pl}}, Jeśli ustawiono {{TRUE/pl}}, wyświetlona zostanie nakładka z punktami kontrolnymi krzywej.
+
+
+
+## Skręcenie powierzchni 
+
+Kształt powierzchni zależy od kierunku wybranych krawędzi. Jeśli krawędzie zostaną wybrane, a wynikiem będzie powierzchnia, która \"zakręca\" na siebie, jedna z krawędzi może wymagać listy wierzchołków w odwrotnej kolejności. Zobacz informacje na stronie **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Wypełnianie krzywych granicznych](Surface_GeomFillSurface/pl#Skręcenie_powierzchni.md)** w celu uzyskania pełniejszego wyjaśnienia.
 
 <img alt="" src=images/Surface_twisting_example_smooth.png  style="width:330px;"> <img alt="" src=images/Surface_twisting_example_twisted.png  style="width:330px;">
 
-## Scripting
 
 
-**See also:**
+## Tworzenie skryptów 
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Surface Sections tool can be used in [macros](macros.md) and from the [Python](Python.md) console by adding the `Surface::Sections` object.
+**Zobacz również:**
 
--   The edges to be used to define the surface must be assigned as a [LinkSubList](LinkSubList.md) to the `NSections` property of the object.
--   All objects with edges need to be computed before they can be used as input for the properties of the Sections object.
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie Przekrój powierzchni może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) poprzez dodanie obiektu `Surface::Sections`.
+
+-   Krawędzie, które mają być użyte do zdefiniowania krzywej, muszą być przypisane jako [Struktura danych LinkSub](FeaturePython_Custom_Properties/pl#App:_PropertyLinkSub.md) do właściwości `NSections` obiektu.
+-   Wszystkie obiekty z krawędziami muszą zostać obliczone, zanim będą mogły zostać użyte jako dane wejściowe dla właściwości obiektu Sections.
 
 
 ```python

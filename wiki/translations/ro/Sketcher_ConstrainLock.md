@@ -34,6 +34,10 @@
 
 </div>
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -44,11 +48,15 @@
 
 </div>
 
-**Notă:** instrumentul de constrângere poate fi pornit și fără o selecție prealabilă, dar va lucra doar cu un singur vârf și referința de constrângeri la punctul de origine al schiței. Implicit, comanda va fi în modul continuu pentru a crea noi constrângeri; apăsați o dată butonul drept al mouse-ului sau **ESC** pentru a părăsi comanda.
+### Run-once mode 
 
-## Scripting
+1.  Select one or more points.
+2.  Invoke the tool as explained above.
+3.  Depending on the selection two or more constraints are added.
 
-The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Lock](Sketcher_ConstrainLock.md) constraint is a GUI command which creates a <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontal distance](Sketcher_ConstrainDistanceX.md) and a <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertical distance](Sketcher_ConstrainDistanceY.md) constraint, it is not a constraint of its own. See the [Sketcher scripting](Sketcher_scripting.md) page for details and examples on how to create these constraints from Python scripts.
+## Notes
+
+-   There is no automatic prompt to edit the constraint values. If required values can be [edited manually](Sketcher_Workbench#Edit_constraints.md).
 
 
 

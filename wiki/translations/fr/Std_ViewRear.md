@@ -21,36 +21,23 @@ La **Std Vue de l\'arrière** place la caméra dans la [vue 3D](3D_view/fr.md) d
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande :
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Std_ViewRear.svg" width=16px> [Arrière](Std_ViewRear/fr.md)**.
-    -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewRear.svg" width=16px> Arrière** dans le menu.
-    -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewRear.svg" width=16px> Arrière** dans le menu contextuel de la [Vue 3D](3D_view/fr.md).
+    -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewRear.svg" width=16px> Arrière** du menu.
+    -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewRear.svg" width=16px> Arrière** du menu contextuel de la [vue 3D](3D_view/fr.md).
     -   Utilisez le raccourci clavier : **4**.
 
 
 
 ## Script
 
-
-**Voir aussi :**
-
-[FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
-
-Pour changer la vue en \'vue arrière\', utilisez la méthode `viewRear` de l\'objet ActiveView. Cette méthode n\'est pas disponible si FreeCAD est en mode console.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.viewRear()
-FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
-```
+Voir [Std Vue de face](Std_ViewFront/fr#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -1,7 +1,7 @@
 # Macro Iges PyImporter/fr
 {{Macro/fr
 |Name=Iges_PyImporter
-|Description=Importe un fichier IGES avec l'entité 128 dans FreeCAD.
+|Description=Importer un fichier IGES avec l'entité 128 dans FreeCAD.
 |Author=heda
 |Version=0.2
 |Date=2022-03-26
@@ -10,11 +10,13 @@
 
 ## Description
 
-Importation automatique de fichiers iges ascii avec des surfaces bspline, entité 128, par exemple créés avec FreeShip, qui semble toujours être mal géré par [OCC](OpenCASCADE/fr.md).
+Importation automatique de fichiers iges ascii avec des surfaces de B-spline, entité 128, par exemple créés avec FreeShip, qui semble toujours être mal géré par [OCC](OpenCASCADE/fr.md).
 
-De plus amples informations sont disponibles dans {{Incode|docstring}} de la macro.
+De plus amples informations sont disponibles dans la {{Incode|docstring}} de la macro.
 
 La macro peut être étendue pour couvrir d\'autres entités. Chacun est libre de développer, de modifier et d\'améliorer la macro, le mieux étant de la modifier ici sur le Wiki.
+
+
 
 ## Utilisation
 
@@ -26,13 +28,17 @@ Options :
 -   appliquer la couleur
 -   barre de progression
 
+
+
 ## Installation
 
 Avec le gestionnaire des extensions.
 
+
+
 ## Liens
 
-Forum : Il n\'y a pas de fil de discussion dédié, mais cette macro a été créée à partir de ce [fil du forum](https://forum.freecad.org/viewtopic.php?p=582137&sid=3a86de4d61ef810a81861c757e15129c#p582137).
+Forum : il n\'y a pas de fil de discussion dédié, mais cette macro a été créée à partir de ce [fil du forum](https://forum.freecad.org/viewtopic.php?p=582137&sid=3a86de4d61ef810a81861c757e15129c#p582137).
 
 ## Version
 

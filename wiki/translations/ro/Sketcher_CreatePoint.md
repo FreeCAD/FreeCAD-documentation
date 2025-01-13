@@ -17,7 +17,7 @@ Instrumentul Point creează un punct în schița curentă, care poate fi utiliza
 
 </div>
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
+
 
 
 <div class="mw-translate-fuzzy">
@@ -26,6 +26,10 @@ Instrumentul Point creează un punct în schița curentă, care poate fi utiliza
 
 
 </div>
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -37,17 +41,9 @@ Instrumentul Point creează un punct în schița curentă, care poate fi utiliza
 
 </div>
 
+## Notes
 
-
-## Opţiuni
-
-
-<div class="mw-translate-fuzzy">
-
-Modul de alinierea la grilă poate fi definit în [Sketcher Preferences](Sketcher_Preferences/ro.md). Punctul se aliniază pe linia de grilă dacă este la mai puțin de 25% din distanța dintre liniile grilei. Modul de ancorare nu fixează punctul pe grilă. Punctul poate fi deplasat cu mouse-ul sau cu ajutorul constrângerilor spre alte amplasamente.
-
-
-</div>
+-    {{VersionMinus|0.21}}: Points are always created as construction geometry. Optionally change them to normal geometry with [Sketcher ToggleConstruction](Sketcher_ToggleConstruction.md) to make them visible outside of Sketch editing mode.
 
 
 

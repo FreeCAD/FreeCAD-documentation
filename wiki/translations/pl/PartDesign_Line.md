@@ -39,6 +39,12 @@ Kliknij dwukrotnie etykietę LiniaOdniesienia w drzewie modelu lub kliknij prawy
 
 
 
+## Ustawienia
+
+Zobacz [Projekt Części: Płaszczyzna odniesienia](PartDesign_Plane/pl#Właściwości.md).
+
+
+
 ## Właściwości
 
 -    **Tryb mapowania**: wymienia używany tryb dołączania.

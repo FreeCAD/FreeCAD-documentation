@@ -20,8 +20,8 @@ Der Befehl **Std Textdokument** erstellt ein Objekt, das beliebigen Text aufnehm
 
 ## Anwendung
 
-1.  Den Menüeintrag **Werkzeuge → Textdokument hinzufügen** auswählen.
-2.  Das neu erstellte Objekt in der [Baumansicht](tree_view/de.md) doppelklicken, um eine Registerkarte zu öffnen, in die der Text geschrieben wird.
+1.  Den Menüeintrag **Werkzeuge → <img src="images/Std_TextDocument.svg" width=16px> Textdokument hinzufügen** auswählen.
+2.  Das neu erstellte Objekt in der [Baumansicht](Tree_view/de.md) doppelklicken, um eine Registerkarte zu öffnen, in die der Text geschrieben wird.
 3.  Text hizufügen.
 4.  Registerkarte schließen und die Datei speichern, wenn danach gefragt wird.
 
@@ -48,10 +48,7 @@ Der Befehl **Std Textdokument** erstellt ein Objekt, das beliebigen Text aufnehm
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md), und [skriptgesteuerte Objekte](scripted_objects/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Siehe [Part Formelement](Part_Feature/de.md) für allgemeine Informationen zum Hinzufügen von Objekten zu einem Dokument.
 
@@ -63,19 +60,19 @@ import FreeCAD as App
 import Draft
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::TextDocument", "Text_document")
+obj = doc.addObject("App::TextDocument", "Text_document")
 obj.Text = "textual information"
-App.ActiveDocument.recompute()
+doc.recompute()
 
 obj2 = Draft.makeShapeString(obj.Text, "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 10)
-App.ActiveDocument.recompute()
+doc.recompute()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -3,7 +3,7 @@
    Name: Std MeasureDistance
    MenuLocation: Tools , Measure distance
    Workbenches: All
-   SeeAlso: Part_Measure_Linear, Draft_Dimension
+   SeeAlso: Std_Measure, Draft_Dimension
 ---
 
 # Std MeasureDistance/en
@@ -61,7 +61,7 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

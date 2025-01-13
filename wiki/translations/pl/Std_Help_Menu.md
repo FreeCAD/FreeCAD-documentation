@@ -57,11 +57,15 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_WhatsThis.svg  style="width:32px;"> [Co to jest?](Std_WhatsThis/pl.md): Otwiera stronę pomocy konkretnej funkcji FreeCAD.
 
+-   <img alt="" src=images/Std_RestartInSafeMode.svg  style="width:32px;"> [Restart w trybie bezpiecznym](Std_RestartInSafeMode/pl.md): Restartuje FreeCAD w stanie po *resecie do ustawień fabrycznych* aby ułatwić rozwiązywanie problemów. {{Version/pl|1.0}}
+
+-   <img alt="" src=images/Start_Start.svg  style="width:32px;"> [Start](Start_Start/pl.md): Otwiera stronę Start. {{Version/pl|1.0}}
 
 
 
 
-{{Std Base navi
+
+{{Std_Base_navi
 
 }}
 

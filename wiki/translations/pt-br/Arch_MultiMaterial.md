@@ -4,10 +4,12 @@
    MenuLocation: Arch , Material tools , Multi-Material
    Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.17
-   SeeAlso: Arch_SetMaterial, Arch_CompSetMaterial
+   SeeAlso: Arch_SetMaterial
 ---
 
 # Arch MultiMaterial/pt-br
+
+
 
 ## Descrição
 
@@ -21,12 +23,16 @@ Not all Arch objects can currently make use of multi-materials, and the use they
 -   <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Windows](Arch_Window.md) with a MultiMaterial will attribute materials with a given name defined inside the MultiMaterial to window components with a same name or type (see below). Material thickness is not considered.
 -   <img alt="" src=images/Arch_Panel.svg  style="width:24px;"> [Panels](Arch_Panel.md) with a MultiMaterial will use the material definitions and thicknesses to create a multi-layer panel
 
+
+
 ## Utilização
 
 1.  Create first a series of **<img src="images/Arch_SetMaterial.svg" width=16px> [Arch Materials](Arch_SetMaterial.md)** that you will need in your Multi-Material.
 2.  Optionally, select an Arch object you wish to attribute the new Multi-Material to.
 3.  Press the **<img src="images/Arch_MultiMaterial.svg" width=16px> [Multi-Material](Arch_MultiMaterial.md)** button.
 4.  Set the desired material layers.
+
+
 
 ## Opções
 
@@ -47,6 +53,8 @@ Upon creating or editing a multi-material by double-clicking it in the tree, the
 
 This roughly corresponds to a combination of [IfcMaterialLayerSet](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) and [IfcMaterialLayer](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
 
+
+
 ## Limitações
 
 ## Scripting
@@ -61,6 +69,11 @@ This roughly corresponds to a combination of [IfcMaterialLayerSet](https://stand
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/pt-br
+⏵ [documentation index](../README.md) > Arch MultiMaterial/pt-br

@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -21,6 +23,8 @@ Acest instrument identifică și selectează obiecte non solide/neprintabile 3D 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -41,5 +45,13 @@ Acest instrument identifică și selectează obiecte non solide/neprintabile 3D 
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/ro
+⏵ [documentation index](../README.md) > Arch SelectNonSolidMeshes/ro

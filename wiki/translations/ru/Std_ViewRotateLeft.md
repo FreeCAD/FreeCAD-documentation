@@ -10,9 +10,13 @@
 
 # Std ViewRotateLeft/ru
 
+
+
 ## Описание
 
 The **Std ViewRotateLeft** command rotates the camera in the active [3D view](3D_view.md) around the view direction in 90-degree increments towards the left (counterclockwise).
+
+
 
 ## Применение
 
@@ -24,25 +28,31 @@ The **Std ViewRotateLeft** command rotates the camera in the active [3D view](3D
 ## Scripting
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-To rotate the view to the left use the `viewRotateLeft` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+
+</div>
+
+Use the `viewRotateLeft` method of the View object to rotate the view to the left. The `viewRotateRight` method is also available.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.viewRotateLeft()
-FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.viewRotateLeft()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

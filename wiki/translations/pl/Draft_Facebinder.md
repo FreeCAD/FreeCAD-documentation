@@ -1,10 +1,10 @@
 ---
  GuiCommand:
    Name: Draft Facebinder
-   Name/pl: Rysunek Roboczy: Łącznik kształtów
-   MenuLocation: Kreślenie , Łącznik kształtu
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
-   Shortcut: **F** **F**
+   Name/pl: Rysunek Roboczy: Łącznik kształtu
+   MenuLocation: Kreślenie , Łącznik kształtu<br>3D/BIM , Ogólne narzędzia 3D , Łącznik kształtu
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
+   Shortcut: Rysunek Roboczy: **F** **F**
    Version: 0.14
 ---
 
@@ -14,7 +14,7 @@
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Łącznik kształtów** tworzy obiekt powierzchniowy z wybranych ścian. Łącznik kształtów jest parametryczny, będzie się aktualizował jeśli zmodyfikujesz jego obiekt źródłowy *(lub obiekty źródłowe)*.
+Polecenie <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Łącznik kształtu** tworzy obiekt powierzchniowy z wybranych ścian. Łącznik kształtu jest parametryczny, będzie się aktualizował jeśli zmodyfikujesz jego obiekt źródłowy *(lub obiekty źródłowe)*.
 
 Można go użyć do utworzenia wyciągnięcia z kolekcji powierzchni. Takie wytłoczenie może na przykład reprezentować wykończenie ściany w projekcie architektonicznym.
 
@@ -28,8 +28,9 @@ Można go użyć do utworzenia wyciągnięcia z kolekcji powierzchni. Takie wyt�
 1.  Wybierz jedną lub więcej ścian.
 2.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Facebinder.svg" width=16px> [Tworzy obiekt powiązania ścian ...](Draft_Facebinder/pl.md)**.
-    -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Facebinder.svg" width=16px> Łącznik kształtu**.
-    -   Użyj skrótu klawiaturowego: **F**, a następnie **F**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Facebinder.svg" width=16px> Łącznik kształtu**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **3D/BIM → Ogólne narzędzia 3D → <img src="images/Draft_Facebinder.svg" width=16px> Łącznik kształtu** z menu.
+    -   Rysunek Roboczy: Użyj skrótu klawiaturowego: **F**, a następnie **F**.
 
 
 

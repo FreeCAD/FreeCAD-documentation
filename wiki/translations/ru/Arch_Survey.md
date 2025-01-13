@@ -12,9 +12,17 @@
 
 </div>
 
+
+
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Инструмент **<img src="images/Arch_Survey.svg" width=16px> [Анализ](Arch_Survey/ru.md)** переходит в специальный режим отображения, который позволяет быстро захватывать измерения и информацию с модели и передавать эту информацию другим приложениям. Когда вы находитесь в режиме Анализа, выбор различных под элементов трехмерных объектов предоставляет следующую информацию (в зависимости от того, что вы выбираете):
+
+
+</div>
 
 -   Если вы нажмете на край, вы получите его длину
 -   Если вы нажмете на вершину, вы получите ее высоту (координату по оси Z)
@@ -35,7 +43,7 @@ When such a piece of information is gathered, several things happen:
 
 ## Usage
 
-1.  Press the **<img src="images/Arch_Survey.svg" width=16px> [Arch Survey](Arch_Survey.md)** button.
+1.  Select the **Utils → <img src="images/Arch_Survey.svg" width=16px> Survey** option from the menu.
 2.  Click on vertices, edges, faces or double-click to select whole objects.
 3.  Click outside any geometry (on the background of the 3D view) to remove existing labels, print a total line in the Task dialog, and restart counting lengths and areas from zero.
 4.  Press **Esc** or the **Close** button to exit survey mode and remove all the labels.
@@ -71,6 +79,20 @@ for obj in selection:
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/ru
+⏵ [documentation index](../README.md) > Arch Survey/ru

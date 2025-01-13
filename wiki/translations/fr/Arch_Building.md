@@ -2,10 +2,10 @@
  GuiCommand:
    Name: Arch Building
    Name/fr: Arch Bâtiment
-   MenuLocation: Arch , Bâtiment
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: 3D/BIM , Bâtiment
+   Workbenches: BIM_Workbench/fr
    Shortcut: **B** **U**
-   SeeAlso: Arch_BuildingPart/fr, Arch_Site/fr
+   SeeAlso: 
 ---
 
 # Arch Building/fr
@@ -18,27 +18,29 @@ Arch Bâtiment est un type spécial d\'objet de groupe FreeCAD particulièrement
 
 ## Utilisation
 
-1.  Optionnellement, sélectionnez un ou plusieurs objets que vous voulez inclure dans votre nouveau bâtiment
+1.  Vous pouvez sélectionner un ou plusieurs objets que vous voulez inclure dans votre nouveau bâtiment
 2.  Pressez le bouton **<img src="images/Arch_Building.svg" width=16px> [Bâtiment](Arch_Building/fr.md)** ou appuyez sur les touches **B** puis **U**.
 
 ## Options
 
--   À partir de FreeCAD version 0.18, l\'objet Building est en réalité une [Arch Partie de bâtiment](Arch_BuildingPart/fr.md) (BuildingPart) avec sa propriété **IFC Type** définie sur \"Building\". Vous pouvez convertir n\'importe quelle BuildingPart en un bâtiment simplement en modifiant son Type IFC.
+-   À partir de FreeCAD version 0.18, l\'objet Building est en réalité une [Arch Partie de bâtiment](Arch_BuildingPart/fr.md) avec sa propriété **IFC Type** définie sur \"Building\". Vous pouvez convertir n\'importe quelle BuildingPart en un bâtiment simplement en modifiant son Type IFC.
 -   Après la création du bâtiment, vous pouvez ajouter un ou plusieurs objets que vous pouvez copier/coller dans la vue arborescente ou utilisez l\'outil **<img src="images/Arch_Add.svg" width=16px> [Arch Ajouter](Arch_Add/fr.md)**.
--   Vous pouvez effacer le bâtiment que vous avez copier/coller dans la vue arborescente ou utiliser l\'outil **<img src="images/Arch_Remove.svg" width=16px> [Arch Soustraire](Arch_Remove/fr.md)**.
+-   Vous pouvez effacer le bâtiment que vous avez copier/coller dans la vue arborescente ou utiliser l\'outil **<img src="images/Arch_Remove.svg" width=16px> [Arch Supprimer](Arch_Remove/fr.md)**.
 
 
 
 ## Propriétés
 
--    **Building Type**: Le type de ce bâtiment, à choisir dans une liste.
+-    **Building Type**: type de ce bâtiment à choisir à partir d\'une liste.
+
+
 
 ## Script
 
 
 **Voir aussi :**
 
-[Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
 L\'outil Bâtiment peut être utilisé à l\'intérieur d\'une [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante : 
 ```python
@@ -47,7 +49,7 @@ Building = makeBuilding(objectslist=None, baseobj=None, name="Building")
 
 -   Crée un objet `Building` à partir de `objectlist` qui est une liste d\'objets ou de `baseobj` qui est un `Shape`.
 
-Exemple:
+Exemple :
 
 
 ```python
@@ -70,5 +72,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/fr
+⏵ [documentation index](../README.md) > Arch Building/fr

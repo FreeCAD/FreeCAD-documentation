@@ -20,7 +20,7 @@ Der Befehl **Std Aktualisieren** berechnet das aktuelle Dokument neu. Der Befehl
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Std_Refresh.svg" width=16px> [Std Aktualisieren](Std_Refresh/de.md)** drücken.
+    -   Die Schaltfläche **<img src="images/Std_Refresh.svg" width=16px> [Aktualisieren](Std_Refresh/de.md)** drücken.
     -   Den Menüeintrag **Bearbeiten → <img src="images/Std_Refresh.svg" width=16px> Aktualisieren** auswählen.
     -   Das Tastaturkürzel **F5**.
 
@@ -41,10 +41,7 @@ Der Befehl **Std Aktualisieren** berechnet das aktuelle Dokument neu. Der Befehl
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um ein Dokument neu zu berechnen, verwendet man die Methode `recompute` des Document-Objekts.
 
@@ -60,7 +57,7 @@ doc.recompute()
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

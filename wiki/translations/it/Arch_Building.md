@@ -11,6 +11,9 @@
 # Arch Building/it
 
 
+</div>
+
+
 
 ## Descrizione
 
@@ -20,8 +23,14 @@ L\'Edificio di Arch è un gruppo speciale di oggetti di FreeCAD particolarmente 
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare uno o più oggetti da includere nel nuovo edificio.
 2.  Premere il pulsante **<img src="images/Arch_Building.svg" width=16px> Edificio**, oppure premere i tasti **B** e **U**.
+
+
+</div>
 
 
 
@@ -37,12 +46,20 @@ L\'Edificio di Arch è un gruppo speciale di oggetti di FreeCAD particolarmente 
 
 -    **Building Type**: Il tipo di edificio, da scegliere da una lista
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 
 **Vedere anche:**
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+
+
+</div>
 
 Lo strumento Edificio può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
 ```python
@@ -73,6 +90,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/it
+⏵ [documentation index](../README.md) > Arch Building/it

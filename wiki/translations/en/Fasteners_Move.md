@@ -9,7 +9,7 @@
 
 ## Description
 
-The <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fasteners Move** command moves and attaches a fastener to a circular edge. It can also be used to detach a fastener. An attached fastener has a **base Object** and its **Placement** is dynamically linked to that object.
+The <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fasteners Move** command moves and attaches a fastener to a circular edge. It can also be used to detach a fastener. An attached fastener has a **Base Object** and its **Placement** is dynamically linked to that object.
 
 ## Usage
 
@@ -35,12 +35,9 @@ The <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fasteners 
 
 
 
-
-{{Fasteners Tools navi
-
-}}
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Move/en
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners Move/en

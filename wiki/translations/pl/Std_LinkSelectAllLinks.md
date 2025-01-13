@@ -32,7 +32,7 @@ Polecenie **Wybierz wszystkie łącza** wybiera wszystkie obiekty [App Link](App
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -10,9 +10,13 @@
 
 # Std New/pl
 
+
+
 ## Opis
 
 Polecenie **Std Nowy** tworzy nowy pusty dokument i ustawia go jako dokument aktywny.
+
+
 
 ## Użycie
 
@@ -21,51 +25,73 @@ Polecenie **Std Nowy** tworzy nowy pusty dokument i ustawia go jako dokument akt
     -   Wybierz z menu opcję **Plik → <img src="images/Std_New.svg" width=16px> Nowy**.
     -   Użyj skrótu klawiaturowego: **Ctrl**+**N**.
 
+
+
 ## Ustawienia
 
--   Program FreeCAD będzie tworzył nowy dokument przy uruchamianiu, jeśli parametr **Przybory → Edycja parametrów ... → BaseApp → Preferencje → Dokument → CreateNewDoc** jest ustawiony na wartość {{TRUE/pl}}. To ustawienie można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
--   Niektóre właściwości dokumentu: nazwiska autorów, nazwę firmy i informacje o licencji, można wstępnie ustawić w programie przez [Edytor ustawień](Preferences_Editor/pl#Dokument.md).
+Zapoznaj się z informacjami na stronie: [Edytor preferencji](Preferences_Editor/pl.md).
+
+-   Domyślnie FreeCAD uruchamia się bez nowego dokumentu. Sprawdź opcję **Edycja → Preferencje ... → Ogólne → Dokument → Utwórz nowy dokument w trakcie uruchamiania**, aby zmienić to zachowanie.
+-   Niektóre właściwości dokumentu: nazwa autora, nazwa firmy i informacje o licencji, mogą być wstępnie ustawione: **Edycja → Preferencje ... → Ogólne → Dokument → Prawa autorskie i licencja**.
+
+
 
 ## Właściwości
 
+Zobacz również: [Edytor właściwości](Property_editor/pl.md).
+
 Większość właściwości można również zmienić w oknie dialogowym polecenia [Informacja o projekcie](Std_ProjectInfo/pl.md).
 
--    **Komentarz**: Wszelkie uwagi, które mogą mieć zastosowanie.
 
--    **Firma**: Nazwa firmy. **Możliwość wstępnego ustawienia**.
 
--    **Utworzony przez**: Imię i nazwisko autora. **Możliwość wstępnego ustawienia**.
+### Dane
 
--    **Data utworzenia**: Automatyczny datownik. **Nie można edytować**.
 
--    **Nazwa pliku**: Pełna ścieżka dostępu do pliku. Jeżeli dokument nie został zapisany, wartość jest pusta.. **Nie można edytować**.
+{{TitleProperty|Baza}}
 
--    **Id**: Jeszcze nie wdrożono.
+-    **Komentarz|String**: Wszelkie uwagi, które mogą mieć zastosowanie.
 
--    **Etykieta**: Nazwa, która będzie wyświetlana w oknie [Widoku drzewa](Tree_view/pl.md). Domyślnie jest to nazwa dokumentu.
+-    **Firma|String**: Nazwa firmy. **Możliwość wstępnego ustawienia**.
 
--    **Ostatnio zmodyfikowany przez**: Imię i nazwisko autora. **Możliwość wstępnego ustawienia**.
+-    **Utworzony przez|String**: Imię i nazwisko autora. **Możliwość wstępnego ustawienia**.
 
--    **Data ostatniej modyfikacji**: Automatyczny datownik. **Nie można edytować**.
+-    **Data utworzenia|String**: Automatyczny datownik. *(tylko do odczytu)*
 
--    **Licencja**: Rodzaj licencji projektu. **Możliwość wstępnego ustawienia**.
+-    **Nazwa pliku|String**: Pełna ścieżka dostępu do pliku. Jeżeli dokument nie został zapisany, wartość jest pusta *(tylko do odczytu)*.
 
--    **URL licencji**: Adres URL licencji. **Możliwość wstępnego ustawienia**.
+-    **Id|String**: Jeszcze nie wdrożono.
 
--    **Pokaż ukryte**: Jeśli parametr ma wartość prawda, elementy, które zostały ukryte w oknie [Widoku drzewa](Tree_view/pl.md), zostaną wyświetlone. Ukrywanie elementów w drzewie może być przydatne podczas pracy nad większymi modelami.
+-    **Etykieta|String**: Nazwa, która będzie wyświetlana w oknie [Widoku drzewa](Tree_view/pl.md). Zastąpiona nazwą dokumentu po ponownym otwarciu.
 
--    **Czubek**: Jeszcze nie wdrożono.
+-    **Ostatnio zmodyfikowany przez|String**: Imię i nazwisko autora. **Możliwość wstępnego ustawienia**.
 
--    **Nazwa czubka**: Jeszcze nie wdrożono.
+-    **Data ostatniej modyfikacji|String**: Automatyczny datownik. *(tylko do odczytu)*
 
--    **Katalog przejściowy**: Katalog tymczasowy używany do odzyskiwania danych. **Nie można edytować**.
+-    **Licencja|String**: Rodzaj licencji projektu. **Możliwość wstępnego ustawienia**.
+
+-    **URL licencji|String**: Adres URL licencji. **Możliwość wstępnego ustawienia**.
+
+-    **Materiał|Map|Ukryte**: Mapa z właściwościami materiału.
+
+-    **Meta|Map|Hidden**: Mapa z dodatkowymi informacjami meta.
+
+-    **Pokaż ukryte|Bool**: Jeśli wartość ta wynosi {{true/pl}}, elementy, które zostały ukryte w [Widoku drzewa](Tree_view/pl.md) i tak zostaną wyświetlone. Ukrywanie elementów w drzewie może być przydatne podczas pracy na większych modelach.
+
+-    **Czubek|Link**: Jeszcze nie zaimplementowane.
+
+-    **Nazwa czubka|String**: Jeszcze nie zaimplementowane.
+
+-    **Katalog przejściowy|String**: Katalog przejściowy używany do odzyskiwania danych *(tylko do odczytu)*.
+
+-    **Uid|UUID|Hidden**: UUID dokumentu (tylko do odczytu).
+
+-    **UkładJednostek|Enumeration**: System jednostek dokumentu. Wartość początkowa zależy od [Domyślny układ jednostek](Preferences_Editor/pl#Ogólne.md). {{Version/pl|1.0}}.
+
+
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby utworzyć nowy dokument, należy użyć metody `newDocument([nazwa], [hidden<nowiki>=</nowiki>False])` aplikacji FreeCAD. Nazwa dokumentu musi być unikalna, co jest sprawdzane automatycznie. Jeśli nie zostanie podana żadna nazwa, dokument zostanie nazwany \"Bez tytułu\". Jeśli użyto metody `hidden<nowiki>=</nowiki>True`, nowy dokument nie będzie wyświetlany w GUI i nie pojawi się dla niego żadna zakładka.
 
@@ -96,7 +122,7 @@ FreeCAD.closeDocument(doc.Name)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

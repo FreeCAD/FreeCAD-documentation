@@ -9,9 +9,13 @@
 
 # Std CloseAllWindows/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std AllesSchließen** schließt alle Fenster und dadurch alle Dokumente.
+
+
 
 ## Anwendung
 
@@ -20,33 +24,30 @@ Der Befehl **Std AllesSchließen** schließt alle Fenster und dadurch alle Dokum
     -   Drücke die **Speichern**-Schaltfläche zum Sichern des aktiven Dokuments. Falls erforderlich, gib zuerst den Dateinamen ein.
     -   Drücke die **Schließen ohne zu Speichern**-Schaltfläche, um das aktive Dokument zu verlassen und alle Änderungen zu verlieren.
 
+
+
 ## Optionen
 
--   Wenn die Dialog-Box angezeigt wird, drücke **Esc** oder die **Abbrechen**-Schaltfläche, um den Befehl abzubrechen.
--   Fall es mehrere nicht gesicherte Dokumente gibt: aktiviere das {{CheckBox|TRUE|Antwort auf alle anwenden}}-Kästchen, um zu vermeiden, für jedes ungesicherte Dokument separat aufgefordert zu werden.
+-   Wird die Dialog-Box angezeigt, **Esc** oder die Schaltfläche **Abbrechen** drücken, um den Befehl abzubrechen.
+-   Gibt es mehrere nicht gesicherte Dokumente: das Kästchen **Antwort auf alle anwenden** aktivieren, um zu vermeiden, für jedes ungesicherte Dokument separat aufgefordert zu werden.
+
+
 
 ## Hinweise
 
 -   Ein Dokument kann auch geschlossen werden, indem es in der [Baumansicht](Tree_view/de.md) mit einem Rechtsklick ausgewählt und **Dokument schließen** aus dem Kontextmenü benutzt wird.
 
-## Einstellungen
 
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath**.
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um ein Dokument zu schließen, benutze die `closeDocument`-Methode der FreeCAD-Anwendung. Für ein Skripting-Beispiel siehe [Std Neu](Std_New/de.md).
+Siehe [Std Neu](Std_New/de#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

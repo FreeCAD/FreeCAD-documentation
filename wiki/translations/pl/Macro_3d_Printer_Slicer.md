@@ -1,27 +1,28 @@
 # Macro 3d Printer Slicer/pl
-{{Macro
+{{Macro/pl
 |Name=Macro_3d_Printer_Slicer
+|Translate=Makrodefinicja: 3d Printer Slicer
 |Icon=Macro_3d_Printer_Slicer.png
-|Description=Export to slicing software for 3D printers. Exports stl file in the same directory as original design file, then opens it in slicing software.<br/>This code, when run, will export the currently open design to STL file, and open it in the slicing software that you use. This example is for '''[http://kisslicer.com/ KISSlicer]''', but can be modified to use '''[http://slic3r.org/ Slic3r]''', '''[http://wiki.ultimaker.com/Cura Cura]''', or any other 3d printer software. It can also be modified slightly to open up CAM software for CNC machines. 
+|Description=Umożliwia eksport do oprogramowania do cięcia dla drukarek 3D. Eksportuje plik stl do tego samego katalogu co oryginalny plik projektu, a następnie otwiera go w oprogramowaniu do cięcia.<br/>Kod ten, po uruchomieniu, wyeksportuje aktualnie otwarty projekt do pliku STL i otworzy go w używanym oprogramowaniu do cięcia. Przykład ten jest przeznaczony dla '''[http://kisslicer.com/ KISSlicer]''', ale można go zmodyfikować, aby używać '''[http://slic3r.org/ Slic3r]''', '''[http://wiki.ultimaker.com/Cura Cura]''' lub dowolnego innego oprogramowania do drukarek 3D. Można go również nieznacznie zmodyfikować, aby otworzyć oprogramowanie CAM dla maszyn CNC. 
 |Author=cae2100
 |Version=1.0
 |Date=2013-10-10
-|FCVersion=All
+|FCVersion=wszystkie
 |Download=[https://www.freecadweb.org/wiki/images/9/96/Macro_3d_Printer_Slicer.png ToolBar Icon]
-|SeeAlso=[Macro 3d Printer Slicer Individual Parts](Macro_3d_Printer_Slicer_Individual_Parts.md) <img src="images/Macro_3d_Printer_Slicer_Individual_Parts.svg" width=24px>
+|SeeAlso=[Makro 3d Printer Slicer Individual Parts](Macro_3d_Printer_Slicer_Individual_Parts/pl.md) <img src="images/Macro_3d_Printer_Slicer_Individual_Parts.svg" width=24px>
 }}
 
-## Description
+## Opis
 
-This code, when run, will export the currently open design to STL file, and open it in the slicing software that you use. This example is for **[KISSlicer](http://kisslicer.com/)**, but can be modified to use **[Slic3r](http://slic3r.org/)**, **[Cura](http://wiki.ultimaker.com/Cura)**, or any other 3d printer software. It can also be modified slightly to open up CAM software for CNC machines.
+Ten kod, po uruchomieniu, wyeksportuje aktualnie otwarty projekt do pliku STL i otworzy go w używanym oprogramowaniu do krojenia. Ten przykład dotyczy **[KISSlicer](http://kisslicer.com/)**, ale można go zmodyfikować tak, aby używał **[Slic3r](http://slic3r.org/)**, **[Cura](http://wiki.ultimaker.com/Cura)** lub dowolnego innego oprogramowania do drukarek 3D. Można go również nieznacznie zmodyfikować, aby otworzyć oprogramowanie CAM dla maszyn CNC.
 
-It is best used by creating a link to the macro on the toolbar, and when your ready to slice the object, just click it and your object, as it appears on the screen in FreeCAD will appear on your slicing software\'s interface, ready to slice. It will also create an STL file with the same filename as the design file in the same directory as the design file as a backup.
+Najlepiej używać go poprzez utworzenie linku do makra na pasku narzędzi, a gdy będziesz gotowy do cięcia obiektu, po prostu kliknij go, a obiekt, tak jak pojawia się na ekranie w FreeCAD, pojawi się w interfejsie oprogramowania do cięcia, gotowy do cięcia. Zostanie również utworzony plik STL o tej samej nazwie co plik projektu w tym samym katalogu co plik projektu jako kopia zapasowa.
 
 <img alt="" src=images/Macro_3d_Printer_Slicer_00.png  style="width:480px;">
 
-## Script
+## Skrypt
 
-The SLICER variable can be changed to any slicing software of your choosing, just make sure to set it before you try running it or it\'ll flag an error with the script.
+Zmienna SLICER może zostać zmieniona na dowolny wybrany program do krojenia, po prostu upewnij się, że ustawiłeś ją przed uruchomieniem, w przeciwnym razie skrypt zgłosi błąd.
 
 ToolBar Icon ![](images/Macro_3d_Printer_Slicer.png )
 
@@ -81,10 +82,10 @@ Mesh.export(visible_objs,stlFile)
 subprocess.Popen([SLICER + "KISSlicer", stlFile])
 }}
 
-## Credits
+## Podziękowania
 
-Thanks to [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) for his help in writing this script.
-Original forum topic: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
+Dziękujemy użytkownikowi [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) za pomoc w napisaniu tego skryptu.
+Oryginalny temat na forum: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
 
 
 

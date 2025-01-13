@@ -1,80 +1,81 @@
-# Sketcher ConstrainHorizontal/it
 ---
- GuiCommand:   Name: Constraint Horizontal   Name/it: Vincolo orizzontale   Workbenches: Sketcher Workbench/it   Schizzo, PartDesign Workbench/it---
+ GuiCommand:
+   Name: Sketcher ConstrainHorizontal
+   Name/it: Sketcher Vincolo orizzontale
+   MenuLocation: Schizzo , Vincoli Sketcher , Vincolo orizzontale
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **H**
+   SeeAlso: Sketcher_ConstrainHorVer/it, Sketcher_ConstrainVertical/it
+---
 
-
-</div>
+# Sketcher ConstrainHorizontal/it
 
 
 
 ## Descrizione
 
-Il vincolo Orizzontale impone a una o più linee selezionate nello schizzo di essere parallele all\'asse orizzontale del disegno.
+Lo strumento <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> [Sketcher Vincolo orizzontale](Sketcher_ConstrainHorizontal/it.md) vincola le linee o le coppie di punti ad essere orizzontali (parallele all\'asse orizzontale dello schizzo).
+
+
+{{Version/it|1.0}}
+
+: nella maggior parte dei casi è consigliabile utilizzare invece lo strumento combinato [Sketcher Vincolo orizzontale/verticale](Sketcher_ConstrainHorVer/it.md).
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-Selezionare una linea nello schizzo cliccando su di essa.
-
-<img alt="" src=images/HorizontalConstraint1.png  style="width:256px;">
-
-La linea assume il colore verde scuro.
-
-<img alt="" src=images/HorizontalConstraint2.png  style="width:256px;">
-
-Applicare il vincolo Orizzontale facendo clic sull\'icona vincolo orizzontale <img alt="" src=images/Constraint_Horizontal.svg  style="width:16px;"> nella barra degli strumenti vincoli di Schizzo oppure selezionando la voce nel menu orizzontale Vincoli di Schizzo nell\'ambiente Schizzo (o nel menu di Parte per l\'ambiente di lavoro Part Design).
-
-<img alt="" src=images/HorizontalConstraint3.png  style="width:256px;">
-
-La linea selezionata viene forzata parallela all\'asse orizzontale del disegno.
-
-Si possono selezionare più linee,
-
-<img alt="" src=images/HorizontalConstraint4.png  style="width:256px;">
-
-a cui applicare lo stesso vincolo di prima,
-
-<img alt="" src=images/HorizontalConstraint5.png  style="width:256px;">
-
-e forzarle parallele all\'asse orizzontale dello schizzo.
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
 
 
+### [Modalità continua](Sketcher_Workbench/it#Continue_modes.md) 
+
+1.  Assicurarsi che non ci sia alcuna selezione.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   
+        {{Version/it|1.0}}
+        
+        : Se la [preferenza](Sketcher_Preferences/it#General.md) **Strumento automatico per orizzontale/verticale** è selezionata (predefinito): premere la freccia giù a destra del pulsante **<img src="images/Sketcher_ConstrainHorVer.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** e selezionare l\'opzione **<img src="images/Sketcher_ConstrainHorizontal.svg" width=16px> Vincolo orizzontale** dal menu a discesa.
+
+    -   Se questa preferenza non è selezionata (e in {{VersionMinus/it|0.21}}): premere il pulsante **<img src="images/Sketcher_ConstrainHorizontal.svg" width=16px> [Vincolo orizzontale](Sketcher_ConstrainHorizontal/it.md)**.
+
+    -   Selezionare l\'opzione **Schizzo → Vincoli Sketcher → <img src="images/Sketcher_ConstrainHorizontal.svg" width=16px> Vincolo orizzontale** dal menu.
+
+    -   Usare la scorciatoia da tastiera: **H**.
+3.  Il cursore si trasforma in una croce con l\'icona dello strumento.
+4.  Effettuare una delle seguenti operazioni:
+    -   Selezionare due punti.
+    -   Selezionare una singola riga.
+5.  Viene aggiunto un vincolo.
+6.  Facoltativamente, continuare a creare vincoli.
+7.  Per terminare, fare clic con il pulsante destro del mouse o premere **Esc** oppure avviare un altro strumento di creazione di geometrie o vincoli.
 
 
-</div>
 
-<img alt="" src=images/HorizontalConstraint2.png  style="width:500px;"> 
-*The line turns dark green.*
+### Modalità di esecuzione una sola volta 
 
-<img alt="" src=images/HorizontalConstraint3.png  style="width:500px;"> 
-*Apply the Horizontal Constraint by clicking on the **[<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Constraint horizontal](Sketcher_ConstrainHorizontal.md)* in the Sketcher Constraints toolbar or by selecting the Constrain horizontally menu item in the Sketcher constraints sub menu of the Sketch menu item in the Sketcher work bench (or the Part Design menu item of the Part Design work bench). The selected line is constrained to be parallel to the horizontal axis of the sketch.**
+1.  Effettuare una delle seguenti operazioni:
+    -   Selezionare due o più punti.
+    -   Selezionare una o più righe. I punti possono essere inclusi nella selezione, ma verranno ignorati.
+2.  Richiamare lo strumento come spiegato sopra o con la seguente opzione aggiuntiva:
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [3D view](3D_view/it.md) e selezionare l\'opzione **<img src="images/Sketcher_ConstrainHorizontal.svg" width=16px> Vincolo orizzontale** dal menu contestuale .
+3.  A seconda della selezione vengono aggiunti uno o più vincoli.
 
-<img alt="" src=images/HorizontalConstraint4.png  style="width:500px;"> 
-*Multiple lines may be selected*
 
-<img alt="" src=images/HorizontalConstraint5.png  style="width:500px;"> 
-*and then applying the constraint as described above, they are constrained to be parallel to the sketch horizontal axis.*
 
-## Scripting
+## Script
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Horizontal', Line))```
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Line` and contains further examples on how to create constraints from Python scripts.
-
-
-<div class="mw-translate-fuzzy">
+La pagina [Sketcher scripting](Sketcher_scripting/it.md) spiega i valori che possono essere utilizzati per `Line` e contiene ulteriori esempi su come creare vincoli da script Python.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

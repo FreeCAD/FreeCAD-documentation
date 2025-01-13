@@ -5,24 +5,27 @@
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **P** **6**
    Version: 0.15
+   SeeAlso: Sketcher_CreateRegularPolygon
 ---
 
 # Sketcher CreateHexagon
 
 ## Description
 
-Draws an hexagon inscribed in a construction geometry circle. When starting the tool, the mouse pointer changes to a white cross with a red hexagon icon. The coordinates of the pointer are shown beside it in blue in real time.
+The <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:24px;"> [Sketcher CreateHexagon](Sketcher_CreateHexagon.md) tool creates a hexagon. <small>(v1.0)</small> : This is the same tool as [Sketcher CreateRegularPolygon](Sketcher_CreateRegularPolygon.md) but with the number of sides preset to 6.
 
  ![](images/SketcherCreateHexagonExample.png‎ ) 
 
 ## Usage
 
--   After pressing the **[<img src=images/Sketcher_CreateHexagon.svg style="width:16px"> [Create hexagon](Sketcher_CreateHexagon.md)** button, click once to set the center, then move the mouse and click a second time to set one of the vertices.
--   Pressing **Esc** or clicking the right mouse button cancels the function.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-## Notes
-
-The circumscribed circle is construction geometry, which is only visible when editing the sketch.
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_CreateHexagon.svg" width=16px> [Hexagon](Sketcher_CreateHexagon.md)** button.
+    -   Select the **Sketcher → Sketcher geometries → <img src="images/Sketcher_CreateHexagon.svg" width=16px> Create hexagon** option from the menu.
+    -   Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_CreateHexagon.svg" width=16px> Create hexagon** option from the context menu.
+    -   Use the keyboard shortcut: **G** then **P**, then **6**.
+2.  For further steps see [Sketcher CreateRegularPolygon](Sketcher_CreateRegularPolygon#Usage.md).
 
 
 

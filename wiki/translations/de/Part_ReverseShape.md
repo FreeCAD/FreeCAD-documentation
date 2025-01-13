@@ -12,15 +12,15 @@
 
 ## Beschreibung
 
-Kippt die Normalen aller Flächen des ausgewählten Objekts.
+Der Befehl <img alt="" src=images/Part_ReverseShape.svg  style="width:24px;"> **Part FormUmkehren** erstellt aus ausgewählten Objekten parametrische Kopien mit umgekehrten Flächennormalen.
 
 
 
 ## Anwendung
 
-1.  Form auswählen.
+1.  Eine oder mehrere Formen auswählen.
 2.  Den Menüeintrag **Part → <img src="images/Part_ReverseShape.svg" width=16px> Formen umkehren** auswählen.
-3.  Eine umgekehrte Form wird als neues separates Objekt erstellt.
+3.  Zu jedem ausgewählten Objekt wird eine umgekehrte Form erstellt.
 
 
 
@@ -33,9 +33,26 @@ Kippt die Normalen aller Flächen des ausgewählten Objekts.
 
 ## Eigenschaften
 
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
+
+Ein Part ReverseShape-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem besitzt es die folgende zusätzliche Eigenschaft:
 
 
-## Skripten
+
+### Daten
+
+
+{{TitleProperty|Reverse}}
+
+-    **Source|Link**: Gibt die verknüpfte Ausgangsform an.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

@@ -9,7 +9,7 @@
 
 </div>
 
-When imported in a running Python interpreter, Pivy allows us to communicate directly with any running Coin [scenegraph](Scenegraph.md), such as the [3D view](3D_view.md), or even to create new ones. Pivy is not required to compile FreeCAD, but it is required at runtime when running Python-based workbenches that create shapes on screen, like [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md). Because of this, Pivy is normally installed when installing a distribution of FreeCAD.
+When imported in a running Python interpreter, Pivy allows us to communicate directly with any running Coin [scenegraph](Scenegraph.md), such as the [3D view](3D_view.md), or even to create new ones. Pivy is not required to compile FreeCAD, but it is required at runtime when running Python-based workbenches that create shapes on screen, like [Draft](Draft_Workbench.md) and [BIM](BIM_Workbench.md). Because of this, Pivy is normally installed when installing a distribution of FreeCAD.
 
 
 <div class="mw-translate-fuzzy">
@@ -23,6 +23,8 @@ Coin biblioteket är uppdelat i flera delar, själva coin, för manipulation av 
 ```python
 from pivy import coin
 ```
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -157,6 +159,8 @@ sg.removeChild(myCustomNode)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Använda återanropsmekanismer 
@@ -204,6 +208,8 @@ Se även [den kompletta listan](Code_snippets#Observing_mouse_events_in_the_3D_v
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">

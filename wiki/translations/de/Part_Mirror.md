@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-**Part Spiegeln** erzeugt ein neues Objekt (Abbild), das eine Spiegelung des ursprünglichen Objekts (Quelle) ist. Das Abbildobjekt wird hinter einer Spiegelebene erzeugt. Die Spiegelebene kann eine Standardebene (**XY**, **YZ** oder **XZ**) oder ({{Version/de|0.22}}), unter Verwendung eines Referenzobjekts, eine beliebige Ebene sein.
+**Part Spiegeln** erzeugt ein neues Objekt (Abbild), das eine Spiegelung des ursprünglichen Objekts (Quelle) ist. Das Abbildobjekt wird hinter einer Spiegelebene erzeugt. Die Spiegelebene kann eine Standardebene (**XY**, **YZ** oder **XZ**) oder ({{Version/de|1.0}}), unter Verwendung eines Referenzobjekts, eine beliebige Ebene sein.
 
 Ein Beispiel:
 
@@ -41,15 +41,19 @@ Ein Beispiel:
 3.  Wurde noch kein Objekt ausgewählt oder soll die Auswahl geändert werden: Ein oder mehrere Objekte in der Liste **Formen** auswählen.
 4.  Eine der folgenden Möglichkeiten auswählen:
     -   Eine vorgegebene **Spiegelebene** in der Ausklappliste auswählen.
-    -   Ein Referenzobjekt in der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen. Das Referenzobjekt kann eine beliebige ebene Fläche oder kreisförmige Kante sein.
+
+    -   
+        {{Version/de|1.0}}
+        
+        : Ein Referenzobjekt in der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen. Das Referenzobjekt kann eine beliebige ebene Fläche oder kreisförmige Kante sein.
 5.  Die Schaltfläche **OK** drücken.
 6.  Für jedes Quellobjekt wird ein eigenes Part-Mirror-Objekt erstellt.
 
-When the select button label says **Selecting** you are in reference selection mode and there is a selection gate in effect, which disallows the selection of unsupported reference objects. Click the button to toggle the selection gate off, the button label then changes to **Select reference**.
+Wenn die Beschriftung der Auswahlschaltfläche **Auswählen** anzeigt, ist der Referenz-Auswahlmodus aktiv und es ist eine Auswahlsperre aktiv, die die Auswahl von nicht unterstützten Referenzobjekten verhindert. Die Schaltfläche anklicken, um die Auswahlsperre auszuschalten; die Beschriftung wechselt zu **Referenz auswählen**.
 
-The mirror plane is defined by a **Normal** (direction) and a **Base** (position). When the **Mirror Plane** property contains a reference object these properties are made read-only as they are then computed based on that object. The plane is infinite even if the reference object is not.
+Die Spiegelebene wird durch eine {{PropertyData/de|Normal}} (Richtung der Normale) und eine {{PropertyData/de|Base}} (Grundposition) festgelegt. Wenn die {{PropertyData/de|Mirror Plane}} (Spiegelebene) ein Referenzobjekt enthält, werden diese Eigenschaften auf schreibgeschützt geändert, da sie dann auf diesem Objekt basierend berechnet werden. Die Ebene ist unendlich, auch wenn das referenzobjekt nicht unendlich ist.
 
-A reference object can be a planar face, such as the face of a [Part Box](Part_Box.md), a circular edge, a [Datum Plane](PartDesign_Plane.md), an [origin plane](App_OriginGroupExtension.md) of a [Std Part](Std_Part.md) container, or any object with a single planar face or single circular edge. There is also support for [Links](App_Link.md). Note, however, that B-spline surfaces, such as [ruled surfaces](Part_RuledSurface.md) or [loft faces](Part_Loft.md) are not supported.
+Ein Referenzobjekt kann eine ebene Fläche sein, wie eine Fläche eines [Part-Würfels](Part_Box/de.md), eine kreisförmige Kante, eine [Bezugsebene](PartDesign_Plane/de.md), eine [Ursprungsebene](App_OriginGroupExtension/de.md) eines [Std-Part](Std_Part/de.md)-Containers oder irgendein Objekt mit einer einzelnen ebenen Fläche oder einer einzelnen kreisförmigen Kante. Es werden auch [Link-Objekte](App_Link/de.md) unterstützt. Man beachte, dass B-Spline-Oberflächen, wie [Regelflächen](Part_RuledSurface/de.md) oder [Loftflächen](Part_Loft/de.md) nicht unterstützt werden.
 
 
 

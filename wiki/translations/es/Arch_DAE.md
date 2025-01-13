@@ -58,6 +58,11 @@ La funcionalidad de importación de Collada en el módulo de Arquitectura depend
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch DAE/es
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch DAE/es

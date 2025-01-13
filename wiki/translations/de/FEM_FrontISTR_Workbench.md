@@ -13,12 +13,12 @@ The <img alt="" src=images/FrontISTR.svg  style="width:24px;"> FEM FrontISTR Wor
 
 ### Intended work-flow 
 
-1.  Set up an analysis model by FEM module (in the same way as calculiX).
+1.  Set up an analysis model by FEM module (in the same way as CalculiX).
 2.  Switch to the workbench **FrontISTR** and create a FrontISTR solver object by clicking on the toolbar button <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;">.
-3.  Double-click on the solver object in the document tree and set working directory.
+3.  Double-click on the solver object in the document tree and set the working directory.
 4.  Click on the button **Write input file**
 5.  Click on the button **Run FrontISTR**
-6.  Check FISTR_Results for post processing.
+6.  Check FISTR_Results for post-processing.
 
 ### Features
 
@@ -33,21 +33,21 @@ The <img alt="" src=images/FrontISTR.svg  style="width:24px;"> FEM FrontISTR Wor
         -   preconditioner: AMG, SSOR, Diagonal, ILU(k)(k=0,1,2)
         -   method: CG, BiCGSTAB, GMRES, GPBiCG
     -   direct: MUMPS
--   output file format: AVS, VTK(paraview required)
+-   output file format: AVS, VTK (ParaView required)
 
 ### Features to be supported in the future 
 
--   analysis: thermal transfer, dynamic, eigen, frequency
--   materials(mechanical): elastoplastic, hyper elastic, creep, visco elastic
+-   analysis: thermal transfer, dynamic, eigenfrequency
+-   materials(mechanical): elastoplastic, hyperelastic, creep, viscoelastic
 -   contact
 -   MPC(TIE)
--   elements: prism, hexa, beam, shell, truss etc.
+-   elements: prism, hexa, beam, shell, truss, etc.
 
 ### Limitations
 
--   FISTR_Results only contains results for surfaces. If you need the interior results, change Output File Format to VTK and visualize the results with paraview.
+-   FISTR_Results only contains results for surfaces. If you need the interior results, change the Output File Format to VTK and visualize the results with ParaView.
 -   The FEM FrontISTR workbench does not yet support thermal analyses. FISTR itself can perform thermal analyses and support for this is planned in the near future.
--   Mechanical analyses for different material in a model is not yet possible.
+-   Mechanical analyses with different materials in the model are not yet possible.
 
 ### Benchmark results 
 
@@ -57,16 +57,16 @@ See <https://github.com/FrontISTR/FEM_FrontISTR/tree/master/sample/benchmarks>.
 
 ### Addon Manager 
 
-FEM_FrontISTR can easily be installed via the FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) from the **Tools → Addon manager** menu. FEM_FrontISTR is under active development and will get new features frequently. Therefore you should update it regularly using also the menu **Tools → Addon manager**. The FEM_FrontISTR code is hosted and developed [on GitHub](https://github.com/FrontISTR/FEM_FrontISTR).
+FEM_FrontISTR can easily be installed via the FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) from the **Tools → Addon manager** menu. FEM_FrontISTR is under active development and will get new features frequently. Therefore you should update it regularly using the menu **Tools → Addon manager**. The FEM_FrontISTR code is hosted and developed [on GitHub](https://github.com/FrontISTR/FEM_FrontISTR).
 
 ### Manual
 
-See [How to install additional workbenches](How_to_install_additional_workbenches.md)
+See [How to install additional workbenches](How_to_install_additional_workbenches.md).
 
 ### Prerequisites
 
 -   FreeCAD 0.19 or newer
--   [Paraview](https://www.paraview.org/) (optional)
+-   [ParaView](https://www.paraview.org/) (optional)
 
 ### FrontISTR Solver Installation 
 

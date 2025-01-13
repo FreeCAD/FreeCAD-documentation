@@ -25,7 +25,6 @@ Il comando **Esporta** esporta gli oggetti selezionati in un formato file divers
     -   Selezionare un [Corpo di PartDesign](PartDesign_Body/it.md) selezionando solo il corpo stesso o la sua ultima funzione.
     -   Selezionare un [Gruppo](Std_Group/it.md) o una [Parte](Std_Part/it.md) selezionando solo l\'oggetto genitore stesso o gli oggetti nidificati al suo interno.
     -   Non utilizzare il comando [Seleziona tutto](Std_SelectAll/it.md) in quanto selezionerà anche i sotto-elementi dei corpi di PartDesign.
-    -   Per lo stesso motivo, il comando [Box di selezione](Std_BoxSelection/it.md) dovrebbe essere evitato nelle versioni 0.18 e precedenti di FreeCAD.
 2.  Esistono diversi modi per invocare il comando:
     -   Selezionare l\'opzione **File → <img src="images/Std_Export.svg" width=16px> Esporta...** dal menu.
     -   Usare la scorciatoia da tastiera: **Ctrl**+**E**.
@@ -44,21 +43,19 @@ Il comando **Esporta** esporta gli oggetti selezionati in un formato file divers
 ## Note
 
 -   Per esportare un [oggetto mesh](Mesh_Workbench/it.md) come solido, bisogna prima convertirlo. Vedere il tutorial [Importare da STL o OBJ](Import_from_STL_or_OBJ/it.md).
--   Alcuni ambienti hanno comandi di esportazione aggiuntivi. Vedere: [Importazione e esportazione](Import_Export/it.md).
+-   Alcuni ambienti hanno comandi di esportazione aggiuntivi. Vedere [Importazione e esportazione](Import_Export/it.md).
 
 
 
 ## Preferenze
 
--   Vedere [Preferenze di Importa e esporta](Import_Export_Preferences/it.md).
--   L\'ultima posizione del file utilizzato è memorizzata in: {{MenuCommand | Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileOpenSavePath}}.
--   L\'ultimo filtro di esportazione utilizzato è memorizzato in: {{MenuCommand | Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileExportFilter}}.
+-   Vedere [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -10,6 +10,10 @@
 
 # FEM EquationFlux/pl
 
+
+
+## Opis
+
 To równanie jest używane do wyznaczenia strumieni pochodzących głównie z równań typu Poissona. Obejmuje to <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [równanie ciepła](FEM_EquationHeat/pl.md) oraz <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [równanie elektrostatyczne](FEM_EquationElectrostatic/pl.md).
 
 Informacje o teorii stojącej za tym równaniem można znaleźć w dokumencie [Elmer models manual](http://www.elmerfem.org/blog/documentation/), w sekcji **Flux Computation** *(obliczenia strumieni)*.

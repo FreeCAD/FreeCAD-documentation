@@ -60,6 +60,8 @@ Bu aracın karşılığı [Mimari Kaldır](Arch_Remove/tr.md) aracıdır.
 
 </div>
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
@@ -128,5 +130,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/tr
+⏵ [documentation index](../README.md) > Arch Add/tr

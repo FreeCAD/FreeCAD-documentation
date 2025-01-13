@@ -197,6 +197,10 @@ Hemos mallado nuestro objeto y estamos listos para agregar restricciones y fuerz
 
 We are now finished with the basic workflow for the [FEM Workbench](FEM_Workbench.md).
 
+## Notes
+
+-   For a video tutorial based on this written tutorial watch: [FEM MaterialReinforced tutorial](https://www.youtube.com/watch?v=SZTIqhfCSVc).
+
 
 {{FEM Tools navi
 

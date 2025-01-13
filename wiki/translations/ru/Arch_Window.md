@@ -11,19 +11,37 @@
 # Arch Window/ru
 
 
+</div>
+
+
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 [Arch Window](Arch_Window/ru.md) (окно) это базовый объект для всех типов \"внедряемых\" объектов, таких как окна, двери и т.д\... Он спроектирован так, что может быть и независим, и \"базироваться\" на другом компоненте вроде [стены](Arch_Wall/ru.md), [структуры](Arch_Structure/ru.md), или [крыши](Arch_Roof/ru.md). У него своя собственная геометрия, которая может быть сделана из нескольких твердотельных компонентов (обычно оконная рама и внутренняя панель), и определяет объём, которые будет вычитаться из базового объекта, чтобы сделать проём.
+
+
+</div>
 
 Объекты Window базируются на замкнутых двумерных объектах, вроде [прямоугольников](Draft_Rectangle/ru.md) или [эскизов](Sketcher_Workbench.md), которые используются для определения их внутренних компонентов. Базовые двумерные объекты должны, следовательно, содержать несколько замкнутых многоугольников, которые могут быть скомбинированы для создания заполненных панелей (один многоугольник) или рамок (несколько многоугольников).
 
+
+<div class="mw-translate-fuzzy">
+
 Инструмент Window предлагает несколько **предустановок**, это позволяют пользователю создать общие типы окон и дверей с некоторыми редактируемыми параметрами, без необходимости создавать вручную двумерные объекты и компоненты.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Вся информация, применимая к [Arch Window](Arch_Window/ru.md), также относится к [Arch Door](Arch_Door/ru.md), поскольку это один и тот же базовый объект. Основное различие между окном и дверью состоит в том, что у двери есть внутренняя панель, которая показана непрозрачной (сама дверь), в то время как окно имеет частично прозрачную панель (стекло).
 
-<img alt="" src=images/Arch_Window_example.jpg  style="width:600px;"> 
-*Окно построено поверх [прямоугольника Draft](Draft_Rectangle/ru.md), а затем вставлено в [стену Arch](Arch_Wall/ru.md). Использование операции [Arch Add](Arch_Add/ru.md) автоматически прорезает требуемый проем в главной стене.*
+
+</div>
 
 <img alt="" src=images/Arch_Window_example2.jpg  style="width:600px;"> 
 *Более сложное окно, созданное на базе [эскиза](Sketcher_Workbench.md). При входе в режим редактирования окна, Вы можете создать различные компоненты, установить их толщину, и выделить и назначить многоугольники из эскиза для них.*
@@ -36,12 +54,18 @@
 
 ### Применение предустановок 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Нажмите кнопку **<img src="images/Arch_Window.svg" width=16px> [Окно](Arch_Window/ru.md)
 **, или нажмите клавиши **W**, затем **I**
 2.  Выберите предустановку из списка
 3.  Заполните желаемые параметры
 4.  В [трёхмерном просмотре](3D_view/ru.md) переместите окно в то место, где вы хотите его разместить. Если вы наведете указатель на [Arch Wall](Arch_Wall/ru.md), контур окна должен выровняться относительно лицевой стороны этого объекта.
 5.  Щелкните мышью на [трёхмерном просмотре](3D_view/ru.md) или трижды нажмите клавишу **Enter**, чтобы подтвердить координаты X, Y, Z места размещения.
+
+
+</div>
 
 #### Additional presets 
 
@@ -60,7 +84,13 @@ If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon M
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ### Создание с нуля 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -118,6 +148,9 @@ Image:ParametersDoorGlass.svg\|Glass door (стеклянная дверь) Imag
 
 ## Опции
 
+
+<div class="mw-translate-fuzzy">
+
 -   Оборудование обладает такими же общими свойствами и моделью поведения, как и все остальные [компоненты верстака Arch](Arch_Component/ru.md)
 -   Если метка **Auto-include** на панели задач создания окна не снята, окно не будет вмонтировано ни в один несущий объект при его создании.
 -   Добавить выделенное окно в [стену](Arch_Wall/ru.md), выделив оба и нажатием кнопки **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add/ru.md)**.
@@ -125,6 +158,9 @@ Image:ParametersDoorGlass.svg\|Glass door (стеклянная дверь) Imag
 -   При использовании предустановок часто полезно включить [привязку](Draft_Snap/ru.md) \"Near\", чтобы Вы смогли привязать окно к существующей грани.
 -   Отверстие, создаваемое окном в базовом объекте, определяется двумя параметрами: **Hole Depth** и **Hole Wire** ({{Version/ru|0.17}}). Число Hole Wire может быть получено в трёхмерном окне из панели задач окна, доступной при двойном клике на окне в древе проектов
 -   Окна могут использовать [Multi-Materials](Arch_MultiMaterial/ru.md). Окно ищет в присоединённом Multi-Material слои материала с теми же именами для каждого компонента окна, и используют их при нахождении. Например, компонент под названием \"OuterFrame\" ищет в приложеннном Multi-Material материальный слой под именем \"OuterFrame\". Если этот слой найден, его материал будет назначен компоненту OuterFrame. Значение толщины слоя материала отбрасывается.
+
+
+</div>
 
 
 
@@ -152,11 +188,11 @@ Windows can also take advantage of other tools, specifically [PartDesign](PartDe
 
 <img alt="" src=images/Arch_window_type_example.png  style="width:800px;">
 
-[Download the example file shown above](https://github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
+[Download the example file shown above](https://github.com/FreeCAD/Examples/raw/master/Arch_Example_Files/Window_Type.FCStd)
 
 ### Example workflow 
 
--   Create a window frame object, a glass panel, and any other window component you need, using [Part Workbench](Part.md) or [PartDesign](PartDesign_Workbench.md) tools.
+-   Create a window frame object, a glass panel, and any other window component you need, using [Part Workbench](Part_Workbench.md) or [PartDesign](PartDesign_Workbench.md) tools.
 -   For example, create a base rectangular sketch for your window, then a profile sketch for the frame, and create a [Part Sweep](Part_Sweep.md) to sweep the profile around the base sketch. Create a [Part Offset2D](Part_Offset2D.md) from the base sketch, then a [Part Extrude](Part_Extrude.md) to create the glass panel
 -   Make sure all these pieces have a unique, meaningful name (for example, \"Frame\" or \"Glass Panel\")
 -   Create an [App Part](App_Part.md), and place all your subcomponents in it
@@ -167,9 +203,9 @@ Windows can also take advantage of other tools, specifically [PartDesign](PartDe
     -   **Subvolume** as a PropertyLink and link it to the volume to be subtracted that we created above
     -   **Tag** as a PropertyString
 
-### Materials
-
 Our window type is now ready. We can create window objects from it, simply by selecting the App Part and pressing the window button. The \"Height\", \"Width\", \"Subvolume\" and \"Tag\" properties of the window will be linked to the corresponding property of the App Part, if existing.
+
+### Materials
 
 To build a material for type-based windows:
 
@@ -186,6 +222,14 @@ You can use any other kind of workflow than the one described above, the importa
 
 
 ## Свойства
+
+### Data
+
+
+{{TitleProperty|Window}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Height**: Высота окна
 
@@ -208,6 +252,9 @@ You can use any other kind of workflow than the one described above, the importa
 -    **Symbol Elevation**: показывает двумерный символ проема на фасаде
 
 
+</div>
+
+
 
 ## Программирование
 
@@ -216,7 +263,13 @@ You can use any other kind of workflow than the one described above, the importa
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Инструмент создания окон может использоваться в [макросах](Macros/ru.md) и их консоли [Python](Python/ru.md), с использованием следующих функций:
+
+
+</div>
 
 
 ```python
@@ -233,7 +286,9 @@ Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Win
 
 </div>
 
-Пример: 
+Пример:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -242,10 +297,15 @@ Window = Arch.makeWindow(Rect1)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-Вы можете так же создать окно из предустановок. 
+Вы можете так же создать окно из предустановок.
+
+
 ```python
 Window = makeWindowPreset(windowtype, width, height, h1, h2, h3, w1, w2, o1, o2, placement=None)
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 -   Создает объект `Window` на основе `windowtype`, который должен быть одним из имен, определенных в `Arch.WindowPresets`
     -   Некоторые из этих предустановок: `"Fixed"`, `"Open 1-pane"`, `"Open 2-pane"`, `"Sash 2-pane"`, `"Sliding 2-pane"`, `"Simple door"`, `"Glass door"`, `"Sliding 4-pane"`.
@@ -256,7 +316,12 @@ Window = makeWindowPreset(windowtype, width, height, h1, h2, h3, w1, w2, o1, o2,
 
 -   Если задано `placement`, используется оно.
 
-Пример: 
+
+</div>
+
+Пример:
+
+
 ```python
 import FreeCAD, Arch
 
@@ -271,6 +336,20 @@ Door = Arch.makeWindowPreset("Simple door",
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/ru
+⏵ [documentation index](../README.md) > Arch Window/ru

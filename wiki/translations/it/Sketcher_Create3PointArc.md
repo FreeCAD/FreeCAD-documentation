@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Sketcher Create3PointArc
-   Name/it: Crea arco da tre punti
-   MenuLocation: Schizzo , Geometrie , Arco da tre punti
+   Name/it: Sketcher Crea arco da 3 punti
+   MenuLocation: Schizzo , Geometrie Sketcher , Crea arco da 3 punti
    Workbenches: Sketcher_Workbench/it
    Shortcut: **G** **3** **A**
    SeeAlso: 
@@ -14,16 +14,19 @@
 
 ## Descrizione
 
-Questo strumento disegna un arco usando tre punti selezionati dall\'utente: il punto iniziale, il punto finale e un punto sull\'arco.
+Lo strumento <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:24px;"> [Sketcher Crea arco da 3 punti](Sketcher_Create3PointArc/it.md) crea un arco tramite i suoi punti finali e un punto lungo l\'arco. {{Version/it|1.0}}: Questo è lo stesso strumento di [Sketcher Crea arco dal centro](Sketcher_CreateArc/it.md) ma con una modalità iniziale diversa.
 
 
 
 ## Utilizzo
 
-Quando si avvia lo strumento, il puntatore del mouse si trasforma in una croce bianca con l\'icona di un arco rosso. Le coordinate del puntatore sono mostrate accanto, in blu, in tempo reale.
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
--   Scegliere i punti su un\'area vuota della vista 3D, o su un oggetto esistente (nella scheda [azioni](Task_panel.md) gli autovincoli devono essere attivi).
--   Premere **Esc** o cliccare con il tasto destro del mouse per annullare la funzione.
+1.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_Create3PointArc.svg" width=16px> [Crea arco da 3 punti](Sketcher_Create3PointArc/it.md)**.
+    -   Selezionare l\'opzione **Sketcher → Geometrie Sketcher → <img src="images/Sketcher_Create3PointArc.svg" width=16px> Crea arco da 3 punti** dal menu.
+    -   Usare la scorciatoia da tastiera: **G** quindi **3**, quindi **A**.
+2.  Per ulteriori passaggi, vedere [Sketcher Crea arco dal centro](Sketcher_CreateArc/it#Usage.md).
 
 
 

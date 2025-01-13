@@ -30,5 +30,13 @@ Obiekty wejściowe muszą być kształtami [OpenCascade](OpenCASCADE/pl.md). Prz
 
 
 
+
+
+{{Part_Tools_navi
+
+}}
+
+
+
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/pl

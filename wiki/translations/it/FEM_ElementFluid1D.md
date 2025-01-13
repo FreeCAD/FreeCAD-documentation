@@ -1,12 +1,25 @@
-# FEM ElementFluid1D/it
 ---
- GuiCommand:   Name: FEM_ElementFluid1D   Name/it: Elemento Fluido 1D   MenuLocation: Modello , Sezione del fluido per il flusso 1D   ---
+ GuiCommand:Container|
+{{GuiCommand/it
+   Name: FEM_ElementFluid1D
+   Name/it: Elemento Fluido 1D
+   MenuLocation: Modello , Sezione del fluido per il flusso 1D
+   
+   Shortcut: 
+   SeeAlso: FEM_tutorial/it
+}}
+{{GuiCommandFemInfo
+   Solvers: CalculiX
+}}
+---
+
+# FEM ElementFluid1D/it
 
 
 
 ## Descrizione
 
-Crea un elemento FEM di sezione del fluido per le reti pneumatiche e idrauliche
+Crea un elemento FEM di sezione del fluido per le reti pneumatiche e idrauliche risolto con CalculiX.
 
 
 
@@ -31,7 +44,7 @@ Crea un elemento FEM di sezione del fluido per le reti pneumatiche e idrauliche
 ## Note
 
 1.  Un esempio di impostazione di una rete idraulica è disponibile in: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node13.html>
-2.  La scheda \*FLUID SECTION viene utilizzata per modellare elementi fluidi per il flusso 1D. Le informazioni sulla scheda sono disponibili in: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node205.html>
+2.  La [\*scheda FLUID SECTION](http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node205.html) viene utilizzata per modellare elementi fluidi per il flusso 1D.
 
 
 

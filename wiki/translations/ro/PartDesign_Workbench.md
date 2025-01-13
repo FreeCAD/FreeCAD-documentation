@@ -18,24 +18,16 @@
 
 <div class="mw-translate-fuzzy">
 
-Baza de lucru PartDesign este în mod intrinsec legată de [Sketcher Workbench](Sketcher_Workbench.md). În mod normal, utilizatorul creează o schiță, apoi utilizează instrumentul [PartDesign Pad](PartDesign_Pad.md) pentru a-l extruda și a crea un solid de bază, iar acest solid este modificat ulterior.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 În timp ce [Part Workbench](Part_Workbench.md) se bazează pe o metodologie [constructive solid geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry) (CSG) pentru forme de construcție, Atelierul de lucru PartDesign utilizează o editare parametrică, ceea ce înseamnă că un solid de bază este transformat secvențial prin adăugarea de caracteristici deasupra până la obținerea formei finale. Consultați pagina [feature editing](feature_editing.md) pentru o explicație mai completă a acestui proces și apoi a se vedea [Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md) pentru a începe să creați solide.
 
 
 </div>
 
-A more detailed discussion of Part workbench versus Part Design workbench can be found here: [Part and Part Design](Part_and_PartDesign.md).
+See the [feature editing](Feature_editing.md) page for a more complete explanation of this process, and then see [Creating a simple component with PartDesign](Creating_a_simple_part_with_PartDesign.md) to get started with creating solids.
 
-The bodies created with PartDesign are often subject to the [topological naming problem](Topological_naming_problem.md) which causes internal features to be renamed when the parametric operations are modified. This problem can be minimized by following the best practices described in the [feature editing](feature_editing.md) page, and by taking advantage of datum objects as support for sketches and features.
+The <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) provides an alternative [constructive solid geometry](constructive_solid_geometry.md) (CSG) methodology for building shapes. For a detailed discussion of the Part Workbench versus the Part Design Workbench see [Part and Part Design](Part_and_PartDesign.md).
 
-<img alt="" src=images/PartDesign_Example.png  style="width:500px;">
+![](images/PartDesign_Workbench_Example.jpg )
 
 
 
@@ -49,27 +41,6 @@ Instrumentele de proiectare a componentelor sunt amplasate în meniul **Design P
 
 </div>
 
-### Structure tools 
-
-
-<div class="mw-translate-fuzzy">
-
-These are tools to organize the Model tree.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Std_Part.png  style="width:32px;"> [Part](Std_Part.md): adds a new Part container in the active document and makes it active.
--   <img alt="" src=images/Group.svg  style="width:32px;"> [Group](Std_Group.md): adds a Group in the active document\'s Model tree.
-
-
-</div>
-
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Group](Std_Group.md): adds a Group container in the active document, which allows organizing the objects in the [tree view](Tree_view.md).
-
 
 
 ### Instrumente Help pentru Part Design 
@@ -82,18 +53,12 @@ These are tools to organize the Model tree.
 
 </div>
 
+-   <img alt="" src=images/PartDesign_NewSketch.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create Sketch:
+
 
 <div class="mw-translate-fuzzy">
 
 -   ![ 32px](images/_PartDesign_NewSketch.png ) [ Creare schiță](PartDesign_NewSketch.md): creează o schiță nouă pe o față sau pe un plane selectat. Dacă nu este selectată nicio față în timp ce această unealtă este executată, utilizatorul este chemat să selecteze un plan din panoul Activități. Interfața trece apoi în modul [ Sketcher_Workbench](Sketcher_Workbench.md) în modul de editare a schițelor.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> [Edit sketch](Sketcher_EditSketch.md): Editează Sketch selectat.
 
 
 </div>
@@ -106,18 +71,36 @@ These are tools to organize the Model tree.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> [Edit sketch](Sketcher_EditSketch.md): Editează Sketch selectat.
+
+
+</div>
+
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Validate sketch](Sketcher_ValidateSketch.md): verifies the tolerance of different points and adjusts them.
 
-### Part Design Modeling tools 
+-   <img alt="" src=images/Part_CheckGeometry.svg  style="width:32px;"> [Check geometry](Part_CheckGeometry.md): Checks the geometry of selected objects for errors.
 
+-   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Create a shape binder](PartDesign_ShapeBinder.md): creates a shape binder referencing geometry from a single parent object.
 
-
-#### Instrumente de referință 
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Create a sub-object(s) shape binder](PartDesign_SubShapeBinder.md): creates a shape binder referencing geometry from one or more parent objects.
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/PartDesign_Point.png  style="width:32px;"> [Create a datum point](PartDesign_Point.md): creează un punct de referință în corpul activ.
+-   <img alt="" src=images/PartDesign_Clone.png  style="width:32px;"> [Create a clone](PartDesign_Clone.md): creează o clonă a corpului selectat.
+
+
+</div>
+
+-   <img alt="" src=images/PartDesign_Plane.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create a datum (
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/PartDesign_Plane.png  style="width:32px;"> [Create a datum plane](PartDesign_Plane.md): creează un plan de referință în corpul activ.
 
 
 </div>
@@ -133,7 +116,7 @@ These are tools to organize the Model tree.
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/PartDesign_Plane.png  style="width:32px;"> [Create a datum plane](PartDesign_Plane.md): creează un plan de referință în corpul activ.
+-   <img alt="" src=images/PartDesign_Point.png  style="width:32px;"> [Create a datum point](PartDesign_Point.md): creează un punct de referință în corpul activ.
 
 
 </div>
@@ -147,28 +130,22 @@ These are tools to organize the Model tree.
 </div>
 
 
-<div class="mw-translate-fuzzy">
+:   
+    <small>(v1.1)</small> : these tools have been replaced by new [datum tools](Std_Base#Part_Datums.md).
 
--   <img alt="" src=images/PartDesign_ShapeBinder.png  style="width:32px;"> [Create a shape binder](PartDesign_ShapeBinder.md): creează un liant de formă corpul activ.
-
-
-</div>
-
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Create a sub-object(s) shape binder](PartDesign_SubShapeBinder.md): creates a shape binder referencing geometry from one or more parent objects.
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_Clone.png  style="width:32px;"> [Create a clone](PartDesign_Clone.md): creează o clonă a corpului selectat.
-
-
-</div>
+### Part Design Modeling tools 
 
 
 
 #### Instrumente Aditive 
 
+
+<div class="mw-translate-fuzzy">
+
 Acestea sunt instrumente pentru crearea de caracteristici de bază sau adăugarea de materiale unui corp solid existent.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -204,13 +181,7 @@ Acestea sunt instrumente pentru crearea de caracteristici de bază sau adăugare
 
 -   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Additive helix](PartDesign_AdditiveHelix.md): creates a solid by sweeping a sketch along a helix.
 
-
-<div class="mw-translate-fuzzy">
-
--   [1](File:PartDesign_CompPrimitiveAdditive.png%7C48px)\] [Create an additive primitive](PartDesign_CompPrimitiveAdditive.md): adaugă o primitivă geometrică aditivă la corpul activ.
-
-
-</div>
+-   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create an additive primitive:
 
 
 <div class="mw-translate-fuzzy">
@@ -326,13 +297,7 @@ creează o formă solidă făcând o tranziție/extrudere între două sau mai m
 
 -   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Subtractive helix](PartDesign_SubtractiveHelix.md): creates a solid shape by sweeping a sketch along a helix and subtracts it from the active body.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Create a subtractive primitive](PartDesign_CompPrimitiveSubtractive.md): adaugă o primitivă geometrică substractivă la corpul activ.
-
-
-</div>
+-   <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create a subtractive primitive:
 
 
 <div class="mw-translate-fuzzy">
@@ -398,53 +363,25 @@ creează o formă solidă făcând o tranziție/extrudere între două sau mai m
 
 </div>
 
-
-
-#### instrumente de Transformare 
+#### Boolean
 
 
 <div class="mw-translate-fuzzy">
 
-Acestea sunt instrumente pentru transformarea caracteristicilor existente. Acestea vă vor permite să alegeți caracteristicile care trebuie transformate.
+-   <img alt="" src=images/PartDesign_Boolean.png  style="width:32px;"> [Boolean operation](PartDesign_Boolean.md): importă unul sau mai multe Corpuri sau Clone PartDesign în corpul activ și le aplică o operație booleană.
 
 
 </div>
 
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_Mirrored.png  style="width:32px;"> [Mirrored](PartDesign_Mirrored.md): simetrizați una sau mai multe caracteristici față de un plan sau o fațetă.
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_LinearPattern.png  style="width:32px;"> [Linear Pattern](PartDesign_LinearPattern.md): creează un model liniar bazat pe una sau mai multe caracteristici.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_PolarPattern.png  style="width:32px;"> [Polar Pattern](PartDesign_PolarPattern.md): creează un model circular/polar bazat pe una sau mai multe caracteristici.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_MultiTransform.png  style="width:32px;"> [Create MultiTransform](PartDesign_MultiTransform.md): creează un model bazat pe orice combinație a altor transformări.
-
-
-</div>
-
-
 
 #### Instrumente pentru traiectorie suplimentară 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -488,12 +425,52 @@ creează o cochilie/coajă groasă din corpul activ și deschide fațeta(ele) se
 
 </div>
 
-#### Boolean
+
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/PartDesign_Boolean.png  style="width:32px;"> [Boolean operation](PartDesign_Boolean.md): importă unul sau mai multe Corpuri sau Clone PartDesign în corpul activ și le aplică o operație booleană.
+#### instrumente de Transformare 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Acestea sunt instrumente pentru transformarea caracteristicilor existente. Acestea vă vor permite să alegeți caracteristicile care trebuie transformate.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/PartDesign_Mirrored.png  style="width:32px;"> [Mirrored](PartDesign_Mirrored.md): simetrizați una sau mai multe caracteristici față de un plan sau o fațetă.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/PartDesign_LinearPattern.png  style="width:32px;"> [Linear Pattern](PartDesign_LinearPattern.md): creează un model liniar bazat pe una sau mai multe caracteristici.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/PartDesign_PolarPattern.png  style="width:32px;"> [Polar Pattern](PartDesign_PolarPattern.md): creează un model circular/polar bazat pe una sau mai multe caracteristici.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/PartDesign_MultiTransform.png  style="width:32px;"> [Create MultiTransform](PartDesign_MultiTransform.md): creează un model bazat pe orice combinație a altor transformări.
 
 
 </div>
@@ -503,14 +480,6 @@ creează o cochilie/coajă groasă din corpul activ și deschide fațeta(ele) se
 #### Suplimentar
 
 Unele funcționalități suplimentare găsite în meniul PartDesign:
-
-
-<div class="mw-translate-fuzzy">
-
--   [Migrează](PartDesign_Migrate.md): migrează fișierele create cu versiuni mai vechi din FreeCAD. Dacă fișierul este o componentă pură pe bază de elemente, migrarea ar trebui să aibă succes. În cazul în care fișierul conține amestec de obiecte Part/Part Design/Draft, conversia va eșua, cel mai probabil.
-
-
-</div>
 
 -   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Sprocket](PartDesign_Sprocket.md): creates a sprocket profile that can be padded.
 
@@ -540,6 +509,8 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
 
 </div>
 
+-   [Suppressed](PartDesign_Suppressed.md): checkbox to disable a specific feature without deleting it. <small>(v1.0)</small> 
+
 -   <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Set tip](PartDesign_MoveTip.md): redefines the tip, which is the feature exposed outside of the Body.
 
 -   <img alt="" src=images/PartDesign_MoveFeature.svg  style="width:32px;"> [Move object to other body](PartDesign_MoveFeature.md): moves the selected sketch, datum geometry or feature to another Body.
@@ -558,7 +529,11 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Appearance](Std_SetAppearance.md): determines appearance of the whole part (color transparency etc.).
 
--   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Set colors](Part_FaceColors.md): assigns colors to part faces.
+-   <img alt="" src=images/Part_ColorPerFace.svg  style="width:32px;"> [Color per face](Part_ColorPerFace.md): Assigns colors to individual faces of objects.
+
+### Obsolete tools 
+
+-   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Migrate](PartDesign_Migrate.md): migrates files from FreeCAD versions below 0.17 to version 0.17. This tool is not available in <small>(v1.0)</small> .
 
 
 

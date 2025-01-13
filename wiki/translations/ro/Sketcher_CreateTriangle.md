@@ -9,7 +9,13 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Desenează un triunghi echilateral înscris într-un cerc . La pornirea instrumentului, indicatorul mouse-ului se schimbă într-o cruce albă cu o pictogramă cu un hexagon roșu. Coordonatele indicatorului sunt afișate lângă acesta în albastru și în timp real.
+
+
+</div>
 
 ![](images/SketcherCreateTriangleExample.png‎ )
 
@@ -23,6 +29,8 @@ Desenează un triunghi echilateral înscris într-un cerc . La pornirea instrume
 
 </div>
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
 
 <div class="mw-translate-fuzzy">
 
@@ -30,16 +38,6 @@ Desenează un triunghi echilateral înscris într-un cerc . La pornirea instrume
 -   Click o dată pentru a defini centrul,
 -   Glisați mouse-ul și click a doua oară pentru a seta unul dintre vârfuri.
 -   Apăsați **Esc** sau click butonul drepta al mouse-ului pentru a abandona/anula funcția.
-
-
-</div>
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-Când este definită schița obiectului geometric cercul circumscris este vizibil, când se închide schița acesta este ascuns.
 
 
 </div>

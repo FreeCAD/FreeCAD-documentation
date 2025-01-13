@@ -12,6 +12,14 @@
 |SeeAlso = [Mesh FEM da forma con GMSH](FEM_MeshGmshFromShape/it.md)
 }}
 
+
+
+## Informazioni importanti 
+
+Questa macro è obsoleta. È in codice Python 2.x. Tutto il codice è stato integrato direttamente nell\'ambiente FEM prima della versione 0.20 di FreeCAD. Vedere [MeshGmshFromShape in FEM](FEM_MeshGmshFromShape/it.md).
+
+
+
 ## Descrizione
 
 Semplice macro per creareMesh FEM Mesh con il generatore di mesh Gmsh. È possibile creare reticoli bidimensionali o tridimensionali

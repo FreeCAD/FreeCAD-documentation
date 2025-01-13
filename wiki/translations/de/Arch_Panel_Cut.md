@@ -2,9 +2,8 @@
  GuiCommand:
    Name: Arch Panel Cut
    Name/de: Arch Plattenzuschnitt
-   MenuLocation: Arch , Plattenwerkzeuge , Plattenzuschnitt
-   Workbenches: Arch_Workbench,Path_Workbench/de
-   Shortcut: **P** **C**
+   MenuLocation: Utils , Plattenwerkzeuge , Plattenzuschnitt
+   Workbenches: BIM_Workbench/de
    Version: 0.17
    SeeAlso: Arch_Panel/de, Arch_Panel_Sheet/de, Arch_Nest/de
 ---
@@ -15,7 +14,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug erstellt im 3D-Dokument eine ebene 2D-Ansicht einer [Arch Platte](Arch_Panel/de.md), die in eine [Arch Plattenzeichnung](Arch_Panel_Sheet/de.md) eingefügt oder direkt nach [DXF](Draft_DXF/de.md) exportiert wird. Die Plattenzuschnitt-Objekte werden auch durch den Arbeitsbereich [Path](Path_Workbench/de.md) unterstützt.
+Das Werkzeug **Arch Plattenzuschnitt** erstellt im 3D-Dokument eine ebene 2D-Ansicht einer [Arch Platte](Arch_Panel/de.md), die in eine [Arch Plattenzeichnung](Arch_Panel_Sheet/de.md) eingefügt oder direkt nach [DXF](Draft_DXF/de.md) exportiert wird. Die Plattenzuschnitt-Objekte werden auch durch den Arbeitsbereich [CAM](CAM_Workbench/de.md) unterstützt.
 
 <img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
 
@@ -24,7 +23,7 @@ Dieses Werkzeug erstellt im 3D-Dokument eine ebene 2D-Ansicht einer [Arch Platte
 ## Anwendung
 
 1.  Ein oder mehrere [Arch Platten](Arch_Panel/de.md)-Objekte auswählen.
-2.  Die Schaltfläche **<img src="images/Arch_Panel_Cut.svg" width=16px> [Arch Plattenzuschnitt](Arch_Panel_Cut/de.md)** drücken, oder das Tastaturkürzel **P** dann **C**.
+2.  Den Menüeintrag **Utils → Plattenwerkzeuge → <img src="images/Arch_Panel_Cut.svg" width=16px> Plattenzuschnitt** auswählen.
 3.  Die gewünschten Eigenschaften anpassen.
 
 
@@ -117,5 +116,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/de
+⏵ [documentation index](../README.md) > Arch Panel Cut/de

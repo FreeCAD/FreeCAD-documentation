@@ -1,38 +1,7 @@
----
- GuiCommand:
-   Name: Fasteners Shape
-   Name/fr: Fasteners Simplifier la forme
-   MenuLocation: Fasteners , Simplifier la forme
-   Workbenches: Fasteners_Workbench/fr
----
-
 # Fasteners Shape/fr
-
-## Description
-
-La commande <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> **Fasteners Simplifier la forme** crée des copies non-paramétriques des fixations. Cela peut être utile si vous souhaitez partager un document contenant des fixations avec des utilisateurs qui n\'ont pas installé l\'[atelier Fasteners](Fasteners_Workbench/fr.md).
-
-
-
-## Utilisation
-
-1.  Sélectionnez une ou plusieurs fixations.
-2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Fasteners_Shape.svg" width=16px> [Simplifier la forme](Fasteners_Shape/fr.md)**.
-    -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_Shape.svg" width=16px> Simplifier la forme** dans le menu.
-3.  Pour chaque fixation, une copie simplifiée est créée.
-4.  La propriété **Visibility** des fixations d\'origine est définie sur `False`.
-5.  Si vous le souhaitez, vous pouvez supprimer les fixations d\'origine.
-
-
-
-
-
-{{Fasteners Tools navi
-
-}}
+1.  REDIRECT [Fasteners_Simplify/fr](Fasteners_Simplify/fr.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Shape/fr
+⏵ [documentation index](../README.md) > Fasteners Shape/fr

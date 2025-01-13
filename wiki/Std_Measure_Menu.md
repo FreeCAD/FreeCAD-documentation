@@ -1,5 +1,5 @@
 # Std Measure Menu
-1.  REDIRECT [Part_Module#Measure](Part_Module#Measure.md)
+1.  REDIRECT [Part_Workbench#Measure](Part_Workbench#Measure.md)
 
 
 

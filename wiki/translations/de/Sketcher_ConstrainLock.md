@@ -14,23 +14,54 @@
 
 ## Beschreibung
 
-Die Randbedingung **Sperren** wendet die Randbedingungen **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [XAbstandFestlegen](Sketcher_ConstrainDistanceX/de.md)** und **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [YAbstandFestlegen](Sketcher_ConstrainDistanceY/de.md)** auf ausgewählte Knoten (Punkte) in der Skizze an. Wenn ein einzelner Knoten ausgewählt ist, beziehen sich die horizontalen und vertikalen Abstandsbedingungen auf den Ursprungspunkt der Skizze. Wenn zwei oder mehr Punkte ausgewählt sind, werden die horizontalen und vertikalen Abstandsbedingungen für jedes Punktpaar hinzugefügt. Es gibt keine automatische Aufforderung, die Werte der Randbedingungen zu bearbeiten, sie müssen manuell bearbeitet werden.
+Das Werkzeug <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Sperren](Sketcher_ConstrainLock/de.md) ordnet Punkten die Randbedingungen [Horizontalen Abstand festlegen](Sketcher_ConstrainDistanceX/de.md) und [Vertikalen Abstand festlegen](Sketcher_ConstrainDistanceY/de.md) zu. Ist ein einzelner punkt ausgewählt, beziehen sich die Randbedingungen auf den Ursprung der Skizze. Sind zwei oder mehr Punkte ausgewählt, beziehen sich die Randbedingungen auf den letzten Punkt in der Auswahl.
 
 
 
 ## Anwendung
 
-1.  Einen oder mehrere Knoten (Punkte) in der Skizze auswählen.
-2.  Die Schaltfläche **[<img src=images/Sketcher_ConstrainLock.svg style="width:16px"> [Sperren](Sketcher_ConstrainLock/de.md)** drücken.
-3.  Um die Werte der Randbedingungen zu bearbeiten, doppelklickt man auf einen Wert in der 3D-Ansicht, doppelklickt auf die Randbedingung oder rechtsklickt und wählt **Wert bearbeiten** in der Liste der Randbedingungen im Aufgabenbereich.
-
-**Anmerkung:** Dieses Werkzeug kann auch ohne vorherige Auswahl gestartet werden, aber es funktioniert dann nur mit einem einzigen Knoten und referenziert die Randbedingungen auf den Skizzenursprung. Voreingestellt arbeitet der Befehl im \"Fortsetzen-Mudus\", um neue Randbedingungen zu erstellen; die rechte Maustaste oder **ESC** einmal drücken, um den Befehl zu beenden.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
 
 
-## Skripten
+### [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md) 
 
-Die Randbedingung <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Sperren](Sketcher_ConstrainLock/de.md) ist ein GUI-Befehl, der die Randbedingungen <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Sketcher XAbstandFestlegen](Sketcher_ConstrainDistanceX/de.md) und <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Sketcher YAbstandFestlegen](Sketcher_ConstrainDistanceY/de.md) erstellt, sie ist keine eigenständige Randbedingung. Siehe die Seite [Sketcher Skripterstellung](Sketcher_scripting/de.md) für Details und Beispiele, wie diese Randbedingungen mit Python-Skripten erstellt werden können.
+1.  Sicherstellen, dass die Auswahl leer ist.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   
+        {{Version/de|1.0}}
+        
+        : Ist die [Voreinstellung](Sketcher_Preferences/de#Allgemein.md) **Werkzeuge für Maßeinträge** auf {{Value|Einzelnes Werkzeug}} gesetzt (Standardeinstellung): Den Abwärtspfeil rechts neben der Schaltfläche **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** drücken und **<img src="images/Sketcher_ConstrainLock.svg" width=16px> Sperren** in der Ausklappliste auswählen.
+
+    -   Ist die Voreinstellung auf einen anderen Wert gesetzt (und in {{VersionMinus/de|0.21}}): Die Schaltfläche **<img src="images/Sketcher_ConstrainLock.svg" width=16px> [Sperren](Sketcher_ConstrainLock/de.md)** drücken.
+
+    -   Den Menüeintrag **Skizze → Sketcher-Randbedingungen → <img src="images/Sketcher_ConstrainLock.svg" width=16px> Sperren** auswählen.
+
+    -   
+        {{Version/de|1.0}}
+        
+        : Ein Rechtsklick in die [3D-Ansicht](3D_view.md) und die Menüoption **Abmessung → <img src="images/Sketcher_ConstrainLock.svg" width=16px> Sperren** im Kontextmenü auswählen.
+
+    -   Das Tastaturkürzel **K** dann **L**.
+3.  Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
+4.  Einen einzelnen Punkt auswählen.
+5.  Zwei Randbedingungen werden hinzugefügt.
+6.  Wahlweise weitere Randbedingungen erstellen.
+7.  Zum Beenden die rechte Maustaste oder **Esc** drücken; oder ein anderes Werkzeug zum Erstellen von Geometrien oder Randbedingungen aufrufen.
+
+
+
+### Einmal-Ausführen-Modus 
+
+1.  Einen oder mehrere Punkte auswählen.
+2.  Das Werkzeug aufrufen, wie oben beschrieben.
+3.  Abhängig von der Auswahl werden zwei oder mehr Randbedingungen hinzugefügt.
+
+
+
+## Hinweise
+
+-   Es gibt keine automatisch Eingabeaufforderung zum Bearbeiten der zur Randbedingung gehörenden Werte. Falls erforderlich, können die Werte [manuell bearbeitet](Sketcher_Workbench/de#Randbedingungen_bearbeiten.md) werden.
 
 
 

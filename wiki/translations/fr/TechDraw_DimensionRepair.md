@@ -42,7 +42,7 @@ L\'outil TechDraw Réparation des cotes ne peut pas être utilisé dans des [mac
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

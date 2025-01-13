@@ -3,7 +3,7 @@
    Name: Draft ToggleContinueMode
    Name/de: Draft FortsetzungsmodusUmschalten
    MenuLocation: Werkzeuge , In den Fortsetzungsmodus umschalten
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de
 ---
 
 # Draft ToggleContinueMode/de

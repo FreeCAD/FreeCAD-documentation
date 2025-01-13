@@ -1,7 +1,12 @@
 # Splash screen/fr
 ## Description
 
-L\'écran de démarrage est une image qui apparaît au démarrage de FreeCAD. Pour chaque nouvelle version, elle est sélectionnée lors d\'un vote ouvert à partir des contributions des utilisateurs. Vous pouvez désactiver l\'écran de démarrage dans les [réglages des préférences](Preferences_Editor/fr.md) en décochant l\'option **Activer l\'écran de démarrage**.
+L\'écran de démarrage est une image qui apparaît au démarrage de FreeCAD. Vous pouvez désactiver l\'écran de démarrage dans les [réglages des préférences](Preferences_Editor/fr#Général_2/fr.md) en décochant l\'option **Activer l\'écran de démarrage**.
+
+
+{{Version/fr|1.0}}
+
+: l\'image de l\'écran d\'accueil est choisie de manière aléatoire parmi plusieurs images, y compris des modèles d\'utilisateurs et des extensions.
 
 
 

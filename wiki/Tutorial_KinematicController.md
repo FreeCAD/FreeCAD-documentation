@@ -281,17 +281,21 @@ For later use we need the driver type (Angle, Distance, Length) and so a {{Incod
 ...
     def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
-            "Angle",
             "PlaneCoincident",
             "AxialAlignment",
             "PlaneAlignment"
-            ]
+            ] # Angel constraints that use negative values, too
+        ANGLE_DEG_CONSTRAINTS = [
+            "Angle",
+            ] # Angel constraints that use positive values only
         DISTANCE_CONSTRAINTS = [
             "PointDistance",
             "PointsDistance"
-            ]
+            ] # Lenght constraints that use positive values only
         if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
+        elif constraint.ConstraintType in ANGLE_DEG_CONSTRAINTS:
+            return "AnglePos"
         elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
         else:
@@ -347,6 +351,11 @@ To complete the parameters we set a default number of steps that should be compu
             self.current_value = self.actuator.Angle
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
+            self.unit_suffix = (" °")
+        elif self.driver_type == "AnglePos":
+            self.current_value = float(str(self.actuator.Angle)[:-4])
+            self.start_value = 0.001 # Angle must not be <= 0 and >=180
+            self.end_value = 179.999
             self.unit_suffix = (" °")
         elif self.driver_type == "Distance":
             self.current_value = float(str(self.actuator.Distance)[:-3])
@@ -447,6 +456,11 @@ class ControlPanel(QDialog):
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
             self.unit_suffix = (" °")
+        elif self.driver_type == "AnglePos":
+            self.current_value = float(str(self.actuator.Angle)[:-4])
+            self.start_value = 0.001 # Angle must not be <= 0 and >=180
+            self.end_value = 179.999
+            self.unit_suffix = (" °")
         elif self.driver_type == "Distance":
             self.current_value = float(str(self.actuator.Distance)[:-3])
             self.start_value = 0.001 # Distance must not be <= 0
@@ -488,17 +502,21 @@ class ControlPanel(QDialog):
 
     def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
-            "Angle",
             "PlaneCoincident",
             "AxialAlignment",
             "PlaneAlignment"
-            ]
+            ] # Angel constraints that use negative values, too
+        ANGLE_DEG_CONSTRAINTS = [
+            "Angle",
+            ] # Angel constraints that use positive values only
         DISTANCE_CONSTRAINTS = [
             "PointDistance",
             "PointsDistance"
             ]
         if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
+        elif constraint.ConstraintType in ANGLE_DEG_CONSTRAINTS:
+            return "AnglePos"
         elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
         else:
@@ -595,6 +613,8 @@ Running the command {{Incode|"asm3CmdQuickSolve"}} starts the solver to rearrang
     def onActuatorSlider(self, slider_value):
         self.current_value = slider_value * self.stepRatio() + self.start_value
         if self.driver_type == "Angle":
+            self.actuator.Angle = self.current_value
+        elif self.driver_type == "AnglePos":
             self.actuator.Angle = self.current_value
         elif self.driver_type == "Distance":
             self.actuator.Distance = self.current_value
@@ -708,6 +728,11 @@ class ControlPanel(QDialog):
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
             self.unit_suffix = (" °")
+        elif self.driver_type == "AnglePos":
+            self.current_value = float(str(self.actuator.Angle)[:-4])
+            self.start_value = 0.001 # Angle must not be <= 0 and >=180
+            self.end_value = 179.999
+            self.unit_suffix = (" °")
         elif self.driver_type == "Distance":
             self.current_value = float(str(self.actuator.Distance)[:-3])
             self.start_value = 0.001 # Distance must not be <= 0
@@ -773,17 +798,21 @@ class ControlPanel(QDialog):
 
     def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
-            "Angle",
             "PlaneCoincident",
             "AxialAlignment",
             "PlaneAlignment"
-            ]
+            ] # Angel constraints that use negative values, too
+        ANGLE_DEG_CONSTRAINTS = [
+            "Angle",
+            ] # Angel constraints that use positive values only
         DISTANCE_CONSTRAINTS = [
             "PointDistance",
             "PointsDistance"
-            ]
+            ] # Lenght constraints that use positive values only
         if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
+        elif constraint.ConstraintType in ANGLE_DEG_CONSTRAINTS:
+            return "AnglePos"
         elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
         else:
@@ -810,6 +839,8 @@ class ControlPanel(QDialog):
     def onActuatorSlider(self, slider_value):
         self.current_value = slider_value * self.stepRatio() + self.start_value
         if self.driver_type == "Angle":
+            self.actuator.Angle = self.current_value
+        elif self.driver_type == "AnglePos":
             self.actuator.Angle = self.current_value
         elif self.driver_type == "Distance":
             self.actuator.Distance = self.current_value
@@ -986,6 +1017,11 @@ class ControlPanel(QDialog):
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
             self.unit_suffix = (" °")
+        elif self.driver_type == "AnglePos":
+            self.current_value = float(str(self.actuator.Angle)[:-4])
+            self.start_value = 0.001 # Angle must not be <= 0 and >=180
+            self.end_value = 179.999
+            self.unit_suffix = (" °")
         elif self.driver_type == "Distance":
             self.current_value = float(str(self.actuator.Distance)[:-3])
             self.start_value = 0.001 # Distance must not be <= 0
@@ -1067,17 +1103,21 @@ class ControlPanel(QDialog):
 
     def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
-            "Angle",
             "PlaneCoincident",
             "AxialAlignment",
             "PlaneAlignment"
-            ]
+            ] # Angel constraints that use negative values, too
+        ANGLE_DEG_CONSTRAINTS = [
+            "Angle",
+            ] # Angel constraints that use positive values only
         DISTANCE_CONSTRAINTS = [
             "PointDistance",
             "PointsDistance"
-            ]
+            ] # Lenght constraints that use positive values only
         if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
+        elif constraint.ConstraintType in ANGLE_DEG_CONSTRAINTS:
+            return "AnglePos"
         elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
         else:
@@ -1104,6 +1144,8 @@ class ControlPanel(QDialog):
     def onActuatorSlider(self, slider_value):
         self.current_value = slider_value * self.stepRatio() + self.start_value
         if self.driver_type == "Angle":
+            self.actuator.Angle = self.current_value
+        elif self.driver_type == "AnglePos":
             self.actuator.Angle = self.current_value
         elif self.driver_type == "Distance":
             self.actuator.Distance = self.current_value
@@ -1347,6 +1389,11 @@ class ControlPanel(QDialog):
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
             self.unit_suffix = (" °")
+        elif self.driver_type == "AnglePos":
+            self.current_value = float(str(self.actuator.Angle)[:-4])
+            self.start_value = 0.001 # Angle must not be <= 0 and >=180
+            self.end_value = 179.999
+            self.unit_suffix = (" °")
         elif self.driver_type == "Distance":
             self.current_value = float(str(self.actuator.Distance)[:-3])
             self.start_value = 0.001 # Distance must not be <= 0
@@ -1442,17 +1489,21 @@ class ControlPanel(QDialog):
 
     def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
-            "Angle",
             "PlaneCoincident",
             "AxialAlignment",
             "PlaneAlignment"
-            ]
+            ] # Angel constraints that use negative values, too
+        ANGLE_DEG_CONSTRAINTS = [
+            "Angle",
+            ] # Angel constraints that use positive values only
         DISTANCE_CONSTRAINTS = [
             "PointDistance",
             "PointsDistance"
-            ]
+            ] # Lenght constraints that use positive values only
         if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
+        elif constraint.ConstraintType in ANGLE_DEG_CONSTRAINTS:
+            return "AnglePos"
         elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
         else:
@@ -1482,6 +1533,8 @@ class ControlPanel(QDialog):
     def onActuatorSlider(self, slider_value):
         self.current_value = slider_value * self.stepRatio() + self.start_value
         if self.driver_type == "Angle":
+            self.actuator.Angle = self.current_value
+        elif self.driver_type == "AnglePos":
             self.actuator.Angle = self.current_value
         elif self.driver_type == "Distance":
             self.actuator.Distance = self.current_value

@@ -9,64 +9,38 @@ This page lists parameters that are not accessible via the preferences editor, b
 
 ## General
 
--   **Addons/developerMode** (boolean): Set to `True` to enable the developer mode of the [Addon Manager](Std_AddonMgr.md). See [Package Metadata](Package_Metadata#Validation.md).
-
--   **Bitmaps/Theme/ThemeSearchPaths** (boolean): Set to `False` so FreeCAD uses its included icons instead of the system icon theme on Linux.
-
+-   **Bitmaps/Theme/Name** (string): Specify the name of the icon theme to override the system icon theme used by FreeCAD. Only used if **Bitmaps/Theme/UseIconTheme** is `True`.
+-   **Bitmaps/Theme/ThemeSearchPaths** (boolean): Set to `False` so FreeCAD uses its included icons instead of the system icon theme on Linux. {{VersionMinus|0.21}}. For later versions use **Bitmaps/Theme/UseIconTheme** instead.
+-   **Bitmaps/Theme/UseIconTheme** (boolean): Set to `True` to force Qt to use icons from the system\'s icon theme. The default is `False` so FreeCAD will use its own icons. It does not affect other Qt icon theme mechanisms such as system dialogs, buttons and others. Those should always use the icons from the system theme. <small>(v1.0)</small> 
 -   **Dialog/DontUseNativeColorDialog** (boolean): Color picker dialog setting. Set to `False` if you want FreeCAD to use the native color dialog on your system rather than the Qt Color Dialog. Defaults to `True`.
-
 -   **Dialog/DontUseNativeDialog** (boolean): File dialog setting. Set to `False` if you want to use the native File dialog when opening files or to `True` to use the Qt File Picker Dialog. Default depends on a compile time setting: #define (USE_QT_FILEDIALOG).
-
 -   **Dialog/DontUseNativeFontDialog** (boolean): Used by the [Draft ShapeString](Draft_ShapeString.md) command. Set to `False` to use the native Font dialog. Defaults to `True`.
-
 -   **DockWindows/DAGView/Enabled** (boolean): Set to `True` to enable a beta [DAG view](DAG_view.md) dockable widget. After changing the parameter value, a FreeCAD restart is needed so the widget is available in the View/Panels list.
-
 -   **DockWindows/PropertyView/Enabled** (boolean): Set to `True` to enable a [Property View](Property_editor.md) dockable widget independent from the Combo View. After changing the parameter value, a FreeCAD restart is needed so the widget is available in the View/Panels list.
-
 -   **DockWindows/TreeView/Enabled** (boolean): Set to `True` to enable a [Tree View](Document_structure.md) dockable widget independent from the Combo View. After changing the parameter value, a FreeCAD restart is needed so the widget is available in the View/Panels list.
-
 -   **Document/AutoNameDynamicProperty** (boolean): Set to `True` to make FreeCAD automatically rename dynamic properties with an invalid specified name instead of throwing an exception. Note that Python code will not have access to the new name.
-
 -   **Document/ChangeViewProviderTouchDocument** (boolean): Set to `False` so items visibility changes won\'t mark the document as changed.
-
 -   **Document/SaveThumbnailFix** (boolean): Set to `True` to fix a problem with Qt5 that prevents the generation of `.FCStd` file thumbnails.
-
 -   **General/LockToolBars** (boolean): Set to `True` to prevent toolbars from being draggable, and to hide the small drag handles. Mostly used in conjunction with stylesheets that make the toolbars vertical.
-
 -   **General/RecentIncludesExported** (boolean): Set to `True` to include exported files in the Recent Files list. Defaults to `False`.
-
 -   **General/RecentIncludesImported** (boolean): Set to `False` to exclude imported files from the Recent Files list. Defaults to `True`.
-
 -   **General/ShowSplasherMessages** (boolean): Set to `False` to skip showing messages on the splashscreen. This may reduce the FreeCAD startup time. Defaults to `True`.
-
 -   **Macro/DuplicateFrom001** (boolean): Set to `True` to always begin searching for suggested duplicate macro filename with \@001 instead of current \@NNN, if applicable. Defaults to `False`.
-
 -   **Macro/DuplicateIgnoreExtraNote** (boolean): Set to `True` to ignore extra note when suggesting duplicate macro filename. Extra note is text in the filename following \"@NNN\" and before \".FCMacro\". Example: \"my_macro@005.my_note.FCMacro\". If `True` the next suggested filename is \"my_macro@006.FCMacro\". If set to `False` the next suggested filename is \"my_macro@006.my_note.FCMacro\". To be recognized as an extra note the text should begin with a dot (\".\") following the \"@NNN\". Otherwise, for example \"my_macro@006_my_note.FCMacro\" gets \"my_macro@006_my_note@001.FCMacro\" as suggested new filename, which might be desirable in some cases. Defaults to `False`.
-
 -   **Macro/ReplaceSpaces** (boolean): Set to `False` if you do not want spaces in your filenames automatically converted to underscores when creating, renaming, or duplicating a macro. Does not affect existing files, only matters when creating new file or renaming or duplicating existing file. Defaults to `True`.
-
 -   **MainWindow/ClearMenuBar** (boolean): Set to `True` to clear the menu bar on workbench change, useful when using a global menu as they may fail to update on workbench change and quickly get cluttered with each workbench\'s menu entries. Defaults to `False`. On macOS it is cleared either way to workaround a Qt bug.
-
 -   **MainWindow/ToolBarNameAsToolTip** (boolean): Set to `False` to not get the toolbar name as a tooltip. Defaults to `True`.
-
 -   **PropertyView/AutoTransactionView** (boolean): Set to `True` so changes of View tab properties are added to the undo stack (hence are undoable). Defaults to `False`.
-
 -   **Selection/AutoShowSelectionView** (boolean): Set to `True` to make the Selection View pane show automatically when selecting something. Defaults to `False`.
-
 -   **Selection/singleClickFeatureSelect** (boolean): Set to `False` to disable single click selection of a feature in PartDesign. Defaults to `True`.
-
 -   **TreeView/HideColumn** (boolean): Set to {{True}} to hide the \'Description\' column in the [Tree view](Tree_view.md). Defaults to `False`.
-
 -   **TreeView/TreeViewStretchDescription** (boolean): Set to `True` to stretch the \'Description\' column in the [Tree view](Tree_view.md) to the right edge of the pane. Defaults to `False`.
-
--    {{VersionMinus|0.20}}**View/Dimensions3dColor** (string): Set to a hex color value in the format `#RRGGBB` to change the direct dimension display color in [Part Measure Linear](Part_Measure_Linear.md). For <small>(v0.21)</small>  see [PartDesign Preferences](PartDesign_Preferences#Measure.md).
-
--    {{VersionMinus|0.20}}**View/DimensionsAngularColor** (string): Set to a hex color value in the format `#RRGGBB` to change the angular dimension display color in [Part Measure Angular](Part_Measure_Angular.md). For <small>(v0.21)</small>  see [PartDesign Preferences](PartDesign_Preferences#Measure.md).
-
--    {{VersionMinus|0.20}}**View/DimensionsDeltaColor** (string): Set to a hex color value in the format `#RRGGBB` to change the orthogonal dimensions display color in [Part Measure Linear](Part_Measure_Linear.md). For <small>(v0.21)</small>  see [PartDesign Preferences](PartDesign_Preferences#Measure.md).
-
+-   **View/AxisLetterColor** (unsigned): Color for the letters of the coordinate system shown in the lower right corner of the 3D view. Defaults to {{Value|255}}. See [here](Navigation_Cube#Customization.md) for information about the color value.
+-   **View/AxisXColor** (unsigned): Color for the X axis elements of the [Std TransformManip](Std_TransformManip.md) gizmo. Defaults to {{Value|3425907456}}. See [here](Navigation_Cube#Customization.md) for information about the color value.
+-   **View/AxisYColor** (unsigned): Idem for the Y axis elements. Defaults to {{Value|869020416}}.
+-   **View/AxisZColor** (unsigned): Idem for the Z axis elements. Defaults to {{Value|859032576}}.
+-   **View/LocalCoordinateSystemSize** (float): Size of local coordinate systems. Defaults to {{Value|2.0}}.
 -   **View/NavigationDebug** (boolean): Enables debug output of navigation styles (as of v0.19, only Gesture navigation style has something to say).
-
 -   **View/SavePicture** (string): Set to **FramebufferObject**, **PixelBuffer** or **CoinOffscreenRenderer** for different methods to produce images from the 3D view.
 
 
@@ -79,8 +53,8 @@ This page lists parameters that are not accessible via the preferences editor, b
 
 </div>
 
--   **General/ExportDefaultFilenameMultiple** (string): Set the default filename to use when exporting multiple objects. Defaults to \"%F\".
--   **General/ExportDefaultFilenameSingle** (string): Set the default filename to use when exporting a single object. Defaults to \"%F-%P-\".
+-   **General/ExportDefaultFilenameMultiple** (string): Set the default filename to use when exporting multiple objects. Defaults to {{Value|%F}}.
+-   **General/ExportDefaultFilenameSingle** (string): Set the default filename to use when exporting a single object. Defaults to {{Value|%F-%P-}}.
 
 Both of these options support the automatic insertion of various pieces of information into the filename, using the following format characters:
 
@@ -97,9 +71,9 @@ Any other characters are treated literally. If the resulting filename is illegal
 ## Связанные с Мышью 
 
 -   **General/ComboBoxWheelEventFilter** (boolean): Set to `True` so widgets do not catch mouse wheel event and prevent scrollable areas to be scrolled. Needs FreeCAD restart to be taken into account.
--   **View/GestureMoveThreshold** (integer): the distance (px) mouse cursor has to move to enter rotation or pan modes of Gesture navigation style. Default is 5.
+-   **View/GestureMoveThreshold** (integer): the distance (px) mouse cursor has to move to enter rotation or pan modes of Gesture navigation style. Defaults to {{Value|5}}.
 -   **View/GestureRollFwdCommand**, **View/GestureRollBackCommand** (string): commands to be executed by mouse button roll gestures of Gesture navigation style.
--   **View/GestureTapHoldTimeout** (integer): sets for how long to wait (in milliseconds) to enter pan mode in Gesture navigation style. It can be helpful to increase it if dragging geometry in sketcher is difficult. Default is 700.
+-   **View/GestureTapHoldTimeout** (integer): sets for how long to wait (in milliseconds) to enter pan mode in Gesture navigation style. It can be helpful to increase it if dragging geometry in sketcher is difficult. Defaults to {{Value|700}}.
 
 
 
@@ -133,10 +107,14 @@ See [Navigation Cube](Navigation_Cube#Advanced_parameters.md).
 
 -   **Mod/BIM/DefaultPageScale** (float): Default scaling for new TechDraw pages created from the BIM Workbench, in case the template doesn\'t contain any \"Scale\" or \"Scaling\" (case insensitive) editable text field.
 
+### <img alt="" src=images/Workbench_CAM.svg  style="width:24px;"> [CAM Workbench](CAM_Workbench.md) 
+
+-   The [CAM Workbench](CAM_Workbench.md) has two switches to enable experimental features documented on the [CAM experimental](CAM_experimental.md) page.
+
 ### <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) 
 
--   **Mod/Draft/DefaultAnnoDisplayMode** (integer): Set to {{Value|1}} to create Draft annotations ([texts](Draft_Text.md), [dimensions](Draft_Dimension.md) and [labels](Draft_Label.md)) with their **Display Mode** set to {{Value|Screen}}. Set to {{Value|0}} for new annotations with this property set to {{Value|World}}. Defaults to {{Value|0}}. <small>(v0.22)</small> 
--   **Mod/Draft/GridHideInOtherWorkbenches** (boolean): Set to `False` to keep the [Draft grid](Draft_ToggleGrid.md) when switching to workbenches other than [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md) or [Draft](Draft_Workbench.md). Defaults to `True`. <small>(v0.22)</small> 
+-   **Mod/Draft/DefaultAnnoDisplayMode** (integer): Set to {{Value|1}} to create Draft annotations ([texts](Draft_Text.md), [dimensions](Draft_Dimension.md) and [labels](Draft_Label.md)) with their **Display Mode** set to {{Value|Screen}}. Set to {{Value|0}} for new annotations with this property set to {{Value|World}}. Defaults to {{Value|0}}. <small>(v1.0)</small> 
+-   **Mod/Draft/GridHideInOtherWorkbenches** (boolean): Set to `False` to keep the [Draft grid](Draft_ToggleGrid.md) when switching to workbenches other than [BIM](BIM_Workbench.md) or [Draft](Draft_Workbench.md). Defaults to `True`. <small>(v1.0)</small> 
 -   **Mod/Draft/useSupport** (boolean): Set to `True` to set the **Support** property of Draft objects created on a face of an exiting base object to that base object. This was standard behavior before FreeCAD version 0.19. Note that this parameter may not be supported in future versions. Defaults to `False`.
 
 ### <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) 
@@ -146,18 +124,15 @@ See [Navigation Cube](Navigation_Cube#Advanced_parameters.md).
 ### <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) 
 
 -   **Mod/PartDesign/AdditiveHelixPreview** (boolean): Set to `True` to ensure an additive helix that does not intersect the body is visible in the preview. Defaults to `False`.
+-   **Mod/PartDesign/DefaultDatumColor** (unsigned): Diffuse color and transparency for [PartDesign datums](PartDesign_CompDatums.md), [PartDesign ShapeBinders](PartDesign_ShapeBinder.md) and [PartDesign SubShapeBinders](PartDesign_SubShapeBinder.md). Defaults to {{Value|4292280473}}. See [here](Navigation_Cube#Customization.md) for information about the color value.
 -   **Mod/PartDesign/SubtractiveHelixPreview** (boolean): Set to `True` to ensure a subtractive helix that does not intersect the body is visible in the preview. Defaults to `True`.
 -   **Mod/PartDesign/SwitchToTask** (boolean): Set to `False` to prevent the [PartDesign Workbench](PartDesign_Workbench.md) from switching to the Task panel when starting. Defaults to `True`.
 -   **Mod/PartDesign/SwitchToWB** (boolean): Set to `False` to prevent the [PartDesign Workbench](PartDesign_Workbench.md) to be automatically called when a [PartDesign Body](PartDesign_Body.md) is activated. Defaults to `True`.
 
-### <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Path Workbench](Path_Workbench.md) 
-
--   The [Path Workbench](Path_Workbench.md) has two switches to enable experimental features documented on the [Path experimental](Path_experimental.md) page.
-
 ### <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md) 
 
--   **Mod/Sketcher/RadiusDiameterConstraintDisplayAngleRandomness** (float): Set an angle randomness on the above value. Value is the range of the random angle, centered on base angle. Default is 0 degree.
--   **Mod/Sketcher/RadiusDiameterConstraintDisplayBaseAngle** (float): Set the angle (from horizontal) used to display radius/diameter constraints in Sketcher at creation time. Default is 15 degrees (if no value set).
+-   **Mod/Sketcher/RadiusDiameterConstraintDisplayAngleRandomness** (float): Set an angle randomness on the above value. Value is the range of the random angle, centered on base angle. Defaults to {{Value|0}}.
+-   **Mod/Sketcher/RadiusDiameterConstraintDisplayBaseAngle** (float): Set the angle (from horizontal) used to display radius/diameter constraints in Sketcher at creation time. Defaults to {{Value|15}}.
 -   **Mod/Sketcher/RoundRectangleSuggConstraints** (boolean): Set to `False` to disable the addition of two extra construction points when creating a rounded rectangle. <small>(v0.21)</small> 
 
 #### Constraint label colors 
@@ -175,8 +150,14 @@ The label in Sketcher that displays the current status of the constraints (e.g. 
 
 ### <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Start Workbench](Start_Workbench.md) 
 
+The Start Workbench is no longer included after version 0.21.
+
 -   **Mod/Start/DefaultImportXXX** (string): Where XXX is a lowercase file extension. For example DefaultImportifc for .IFC files. Allows to set a default import module to be used when clicking an icon on the start page, when several importers are available. For example, setting DefaultImportifc = ifc_import will use the NativeIFC importer if available. <small>(v0.21)</small> 
 -   **Mod/Start/TimeFormat** (string): A time format string such as {{Value|%m/%d/%Y %H:%M:%S}} used for the date in the tooltip that is shown when an item on the start page is hovered.
+
+### [Help Module](Help_Module.md) 
+
+-   **Mod/Help/UseWebModule** (boolean): Allows to force the use of the Web module to open MDI tabs. This can be useful to work around QWebEngine issues in some versions of Qt5. Defaults to `False`. <small>(v1.0)</small>
 
 
 

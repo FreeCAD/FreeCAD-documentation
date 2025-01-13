@@ -2,10 +2,10 @@
  GuiCommand:
    Name: Arch Wall
    Name/de: Arch Wand
-   MenuLocation: Arch , Wand
-   Workbenches: Arch_Workbench/de
+   MenuLocation: 3D/BIM , Wand
+   Workbenches: BIM_Workbench/de
    Shortcut: **W** **A**
-   SeeAlso: Arch_Structure/de
+   SeeAlso: 
 ---
 
 # Arch Wall/de
@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug erzeugt neue Wände oder baut Wände basierend auf einem anderen [Form](Part_Workbench/de.md)-basierten oder [Polygonnetz](Mesh_Workbench/de.md)-basierten Objekt. Eine Wand kann ohne ein Basisobjekt erstellt werden, wobei es sich dann wie ein räumliches Objekt verhält, mit Länge-, Breite- und Höhe-Eigenschaften. Wird auf einem existierenden Objekt aufgebaut, kann eine Wand aufgesetzt werden auf:
+Das Werkzeug **Arch Wand** erzeugt neue Wände oder baut Wände basierend auf einem anderen [Form](Part_Workbench/de.md)-basierten oder [Polygonnetz](Mesh_Workbench/de.md)-basierten Objekt. Eine Wand kann ohne ein Basisobjekt erstellt werden, wobei es sich dann wie ein räumliches Objekt verhält, mit Länge-, Breite- und Höhe-Eigenschaften. Wird auf einem existierenden Objekt aufgebaut, kann eine Wand aufgesetzt werden auf:
 
 -   Ein **lineares 2D Objekt**, wie z. B. Linien, Drähte, Bögen oder Skizzen. In diesem Fall kannst du Dicke, Ausrichtung (rechts, links oder zentriert) und Höhe ändern. Die Eigenschaft Länge hat keine Auswirkung.
 -   Eine **flache Fläche**, in diesem Fall kannst du nur die Höhe ändern. Die Eigenschaften Länge und Breite haben keine Auswirkung. Wenn die Grundfläche jedoch senkrecht ist, verwendet die Wand die Eigenschaft Breite anstelle der Höhe, so dass du Wände aus raumartigen Objekten oder Massenstudien erstellen kannst.
@@ -36,7 +36,10 @@ Wenn sich mehrere Wände überschneiden sollen, musst du diese in eine [Etage](A
 
 ### Zeichnen einer neuen Wand 
 
-1.  Die Schaltfläche **<img src="images/Arch_Wall.svg" width=16px> [Wand](Arch_Wall/de.md)** drücken oder die Tasten **W** und dann **A**.
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Arch_Wall.svg" width=16px> [Wand](Arch_Wall/de.md)** drücken.
+    -   Den Menüeintrag **3D/BIM → <img src="images/Arch_Wall.svg" width=16px> Wand** auswählen.
+    -   Das Tastaturkürzel **W** und dann **A**.
 2.  Einen ersten Punkt in der 3D-Ansicht anklicken oder die Koordinaten eingeben.
 3.  Einen zweiten Punkt in der 3D-Ansicht anklicken oder die Koordinaten eingeben.
 
@@ -45,7 +48,7 @@ Wenn sich mehrere Wände überschneiden sollen, musst du diese in eine [Etage](A
 ### Zeichnen einer Wand auf einem ausgewählten Objekt 
 
 1.  Ein oder mehrere Basisgeometrieobjekte (Draft-Objekt, Skizze, usw.) auswählen.
-2.  Die Schaltfläche **<img src="images/Arch_Wall.svg" width=16px> [Wand](Arch_Wall/de.md)** drücken oder die Tasten **W** und dann **A**.
+2.  Das Werkzeug wie oben beschrieben aufrufen.
 3.  Die benötigten Eigenschaften wie Höhe oder Breite anpassen.
 
 
@@ -106,41 +109,55 @@ Wände (Wall-Objekte) erben die Eigenschaften von [Part](Part_Workbench.md)-Obje
 
 -    {{PropertyData/de|Count Entire}}: Die Anzahl von ganzen Bausteinen (schreibgeschützt).
 
--    {{PropertyData/de|Joint}}: Die Breite der Fugen zwischen den Bausteinen.
+-    {{PropertyData/de|Joint}}: Die Breite der Fugen, der leere Raum zwischen Bausteinen.
 
--    {{PropertyData/de|Make Blocks}}: Aktiviere dies, damit die Wand aus Bausteinen (blocks) erzeugt wird
+-    {{PropertyData/de|Make Blocks}}: Aktiviert die Erstellung von Bausteinen (blocks).
 
--    {{PropertyData/de|Offset First}}: Der horizontale Abstand der erste Reihe von Bausteinen
+-    {{PropertyData/de|Offset First}}: Der horizontale Abstand der ersten und aller ungeraden Reihen von Bausteinen.
 
--    {{PropertyData/de|Offset Second}}: Der horizontale Abstand der zweiten Reihe von Bausteinen
+-    {{PropertyData/de|Offset Second}}: Der horizontale Abstand der zweiten und aller geraden Reihen von Bausteinen.
 
 
 {{TitleProperty|Component}}
 
--    {{PropertyData/de|Basis}}: Das Basisobjekt, auf dem diese Wand aufgebaut ist.
+Siehe [Arch Komponente](Arch_Component/de#Eigenschaften.md).
+
+
+{{TitleProperty|IFC}}
+
+Siehe [Arch Komponente](Arch_Component/de#Eigenschaften.md).
+
+
+{{TitleProperty|IFC Attributes}}
+
+Siehe [Arch Komponente](Arch_Component/de#Eigenschaften.md).
 
 
 {{TitleProperty|Wall}}
 
--    {{PropertyData/de|Align}}: Die Ausrichtung der Wand an ihrer Basislinie: Left, Right oder Center (links, rechts oder mittig)
+-    {{PropertyData/de|Align}}: Die Ausrichtung der Wand an ihrer Basislinie: Left, Right oder Center (links, rechts oder mittig). Die Richtung der individuellen Kanten des Basisobjekts (Sketch/ArchSketch) wird berücksichtigt und ergibt eine genauere Kontrolle über jeden Wandabschnitt. Siehe folgendes Diagram. Kreisbögen (arcs) in Skizzen verlaufen immer gegen den Uhrzeigersinn. Wenn ein gekrümmter Abschnitt einer Wand links ausgerichtet ist, entspricht die innere Kante des Abschnitts dem Kreisbogen der Skizze. Siehe auch **Override Align**.
 
--    {{PropertyData/de|Area}}:
+-    {{PropertyData/de|Area}}: Flächeninhalt der ganzen Wand; eine Unterteilung in Bausteine macht keinen Unterschied. (Schreibgeschützt).
 
 -    {{PropertyData/de|Face}}: Der Index der Fläche des zu benutzenden Basisobjekts. Falls der Wert nicht gesetzt wurde oder 0 ist, wird das gesamt Objekt benutzt.
 
--    {{PropertyData/de|Height}}: Die Höhe der Wand (wird nicht benutzt, wenn die Wand auf einer Fläche basiert).
+-    {{PropertyData/de|Height}}: Die Höhe der Wand. Wird ignoriert, wenn die Wand auf einem Festkörper basiert. Wenn auf Null gesetzt und die Wand befindet sich in einem [Geschoss](Arch_Floor/de.md)-Objekt dessen Höhe festgelegt ist, übernimmt die Wand automatisch den Wert der Geschosshöhe.
 
--    {{PropertyData/de|Length}}: Die Länge der Wand (wird nicht benutzt, wenn die Wand auf einer Fläche basiert).
+-    {{PropertyData/de|Length}}: Die Länge der Wand. Der Wert kann geändert werden, wenn die Wand auf einer Skizze ohne Randbedingungen mit einer einzelnen Kante, oder auf einem [Draft Linienzug](Draft_Wire/de.md) mit einer einzelnen Kante basiert, andernfalls ist der Wert schreibgeschützt. {{Version/de|1.0}} Der Wert ist präziser, wenn die Eigenschaft schreibgeschützt ist. Er basiert auf dem Mittelwert der Wand, falls Abschnitte unterschiedliche {{PropertyData/de|Width}}, {{PropertyData/de|Align}} und/oder {{PropertyData/de|Offset}} aufweisen. Man beachte, dass weiterhin Ungenauigkeiten auftreten können, wenn die Wand kompliziert ist, sie z.B. T-Stöße und Selbstdurchdringungen aufweist. In solchen Fällen ist es ratsam, die {{PropertyData/de|Horizontal Area}} für weitere Berechnungen zu verwenden.
 
--    {{PropertyData/de|Normal}}: Eine Extrusionsrichtung für die Wand. Wenn auf (0,0,0) gesetzt, wird die Extrusionsrichtung automatisch gesetzt.
+-    {{PropertyData/de|Normal}}: Die Extrusionsrichtung für die Wand. Wenn auf (0,0,0) gesetzt, wird die Extrusionsrichtung automatisch festgelegt.
 
--    {{PropertyData/de|Offset}}: Dies legt den Abstand zwischen der Wand und ihrer Basislinie fest. Das funktioniert nur, wenn die Eigenschaft Align auf Right (rechts) oder Left (links) gesetzt ist.
+-    {{PropertyData/de|Offset}}: Der Abstand zwischen der Wand und ihrer Grundlinie fest. Das funktioniert nur, wenn die Eigenschaft **Override Align** auf Right (rechts) oder Left (links) gesetzt ist. Die Richtung der individuellen Kanten des Basisobjekts (Sketch/ArchSketch) wird berücksichtigt und ergibt eine genauere Kontrolle über jeden Wandabschnitt. Siehe auch **Override Offset**.
 
--    {{PropertyData/de|Override Align}}:
+-    {{PropertyData/de|Override Align}}: Dies überschreibt das Attribut **Align**, um die Ausrichtung jedes Abschnitts der Wand einzeln festzulegen; wird ignoriert, wenn das Basisobjekt Informationen zur Ausrichtung über die Methode getAligns() zur Verfügung stellt (Ist ein Wert weder \'Links, Rechts noch MItte\', wird der Wert von \'Align\' verwendet). ERWEITERUNG durch ArchSketch: GUI-Werkzeug \'Edit Wall Segment Align\' wird durch das externe <img alt="" src=images/SketchArch_Workbench.svg  style="width:16px;"> [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) zur Verfügung gestellt, um den Anwender die Werte interaktiv eingeben zu lassen. \'Toponaming-Tolerant\' wenn ArchSketch als Basis eingesetzt wird (und das SketchArch Add-on installiert ist). Warnung: Nicht \'Toponaming-Tolerant\' wenn nur eine Skizze eingesetzt wird.
 
--    {{PropertyData/de|Override Width}}:
+-    {{PropertyData/de|Override Width}}: Dies überschreibt das Attribut **Width**, um die Breite für jeden Wandabschnitt einzeln festzulegen; wird ignoriert, wenn das Basisobjekt Informationen zur Breite über die Methode getWidths() zur Verfügung stellt. (Ist ein Wert null, wird der Wert von \'Width\' verwendet). ERWEITERUNG durch ArchSketch: GUI-Werkzeug \'Edit Wall Segment Width\' wird durch das externe <img alt="" src=images/SketchArch_Workbench.svg  style="width:16px;"> [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) zur Verfügung gestellt, um den Anwender die Werte interaktiv eingeben zu lassen. \'Toponaming-Tolerant\' wenn ArchSketch als Basis eingesetzt wird (und das SketchArch Add-on installiert ist). Warnung: Nicht \'Toponaming-Tolerant\' wenn nur eine Skizze eingesetzt wird.
 
--    {{PropertyData/de|Width}}: Die Breite der Wand (wird nicht benutzt, wenn die Wand auf einer Fläche basiert)
+-    {{PropertyData/de|Override Offset}}: ({{Version/de|1.0}}) Dies überschreibt das Attribut **Offset**, um den Abstand für jeden Wandabschnitt einzeln festzulegen; wird ignoriert, wenn das Basisobjekt Informationen zum Abstand über die Methode getOffsets() zur Verfügung stellt.(Ist ein Wert null, wird der Wert von \'Offset\' verwendet). ERWEITERUNG durch ArchSketch: GUI-Werkzeug \'Edit Wall Segment Offset\' wird durch das externe <img alt="" src=images/SketchArch_Workbench.svg  style="width:16px;"> [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) zur Verfügung gestellt, um den Anwender die Werte interaktiv eingeben zu lassen. \'Toponaming-Tolerant\' wenn ArchSketch als Basis eingesetzt wird (und das SketchArch Add-on installiert ist). Warnung: Nicht \'Toponaming-Tolerant\' wenn nur eine Skizze eingesetzt wird. Die Eigenschaft wird ignoriert, wenn der Basis-ArchSketch die ausgewählten Kanten zur verfügung stellt.
+
+-    {{PropertyData/de|Width}}: Die Breite der Wand. Wird ignoriert, wenn die Wand auf einer Fläche oder einem Festkörper basiert. Siehe auch **Override Width**.
+
+<img alt="" src=images/Sketch_vs_Wall.jpg  style="width:480px;">
 
 
 
@@ -186,5 +203,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/de
+⏵ [documentation index](../README.md) > Arch Wall/de

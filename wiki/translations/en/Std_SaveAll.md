@@ -21,24 +21,15 @@ The **Std SaveAll** command saves all open documents.
 
 -   For new documents: press **Esc** or the **Cancel** button to abort the command.
 
-## Preferences
-
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
-
 ## Scripting
 
-
-**See also:**
-
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-To save a document use the `save` method of the document object. A new document must first be saved with the `saveAs` method of the document object. For a scripting example see [Std New](Std_New.md).
+See [Std New](Std_New#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

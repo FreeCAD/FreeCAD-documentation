@@ -3,8 +3,7 @@
    Name: Draft FlipDimension
    Name/pl: Rysunek Roboczy: Odwróć wymiar
    MenuLocation: Modyfikacja , Odwróć wymiar
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
-
+   Workbenches: Draft_Workbench/pl
 ---
 
 # Draft FlipDimension/pl

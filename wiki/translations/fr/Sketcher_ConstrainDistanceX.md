@@ -12,7 +12,7 @@
 
 ## Description
 
-Fixe la distance horizontale entre 2 points ou extrémités de lignes. Si un seul point est sélectionné, la distance sera définie par rapport à l\'origine de l\'esquisse.
+L\'outil <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Sketcher Contrainte de distance en X](Sketcher_ConstrainDistanceX/fr.md) fixe la distance horizontale entre deux points ou les extrémités d\'une ligne. Si un seul point est présélectionné, la distance est relative à l\'origine de l\'esquisse.
 
 ![](images/Constraint_H_Distance.png )
 
@@ -20,14 +20,48 @@ Fixe la distance horizontale entre 2 points ou extrémités de lignes. Si un seu
 
 ## Utilisation
 
-1.  Choisissez un ou deux points ou une ligne.
-2.  Lancez l\'outil de plusieurs manières:
-    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md)** dans la barre d\'outils.
-    -   Utilisez le raccourci clavier **L**
-    -   Utilisez **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> Contrainte distance horizontale** dans le menu supérieur.
-3.  Une boîte de dialogue contextuelle s\'ouvre pour modifier ou confirmer la valeur. Appuyez sur **OK** pour valider.
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
 
-**Remarque :** l\'outil de contrainte peut également être démarré sans sélection préalable, mais nécessitera la sélection de 2 points ou d\'une ligne. Pour définir une distance par rapport à l\'origine, le point d\'origine de l\'esquisse devra également être sélectionné. Par défaut, la commande sera en mode continu afin de créer de nouvelles contraintes; appuyez sur le bouton droit de la souris ou sur **Echap** pour quitter la commande.
+
+
+### [Mode continu](Sketcher_Workbench/fr#Modes_continus.md) 
+
+1.  Assurez-vous qu\'il n\'y a pas de sélection.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   
+        {{Version/fr|1.0}}
+        
+        : si la [préférence](Sketcher_Preferences/fr#Général.md) des **contraintes des dimensions** est réglée sur {{Value|Outil unique}} (par défaut) : appuyez sur la flèche vers le bas à droite du bouton **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** et sélectionnez l\'option **<img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> Contrainte distance horizontale** dans le menu déroulant.
+
+    -   Si cette préférence a une valeur différente (et dans {{VersionMinus/fr|0.21}}) : appuyez sur le bouton **<img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> [Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md)**.
+
+    -   Sélectionnez l\'option **Esquisse → Contraintes d'esquisse → <img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> Contrainte distance horizontale** du menu.
+
+    -   
+        {{Version/fr|1.0}}
+        
+        : cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **Dimension → <img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> Contrainte distance horizontale** du menu contextuel.
+
+    -   Utilisez le raccourci clavier : **L**.
+3.  Le curseur se transforme en croix avec l\'icône de l\'outil.
+4.  Faites l\'une des choses suivantes :
+    -   Sélectionnez deux points (dont l\'un peut être l\'origine).
+    -   Sélectionnez une seule ligne.
+5.  Si une [contrainte pilotante de dimension](Sketcher_ToggleDrivingConstraint/fr.md) est créée, en fonction des [préférences](Sketcher_Preferences/fr#Affichage.md), une fenêtre de dialogue s\'ouvre pour [modifier sa valeur](Sketcher_Workbench/fr#Modifier_les_contraintes.md).
+6.  Une contrainte est ajoutée.
+7.  Il est possible de continuer à créer des contraintes.
+8.  Pour terminer, cliquez avec le bouton droit de la souris ou appuyez sur **Échap**, ou démarrez un autre outil de création de géométrie ou de contrainte.
+
+
+
+### Mode unique 
+
+1.  Faites l\'une des choses suivantes :
+    -   Sélectionnez un ou deux points.
+    -   Sélectionnez une seule ligne.
+2.  Lancez l\'outil comme expliqué ci-dessus.
+3.  Vous pouvez [modifier sa valeur](Sketcher_Workbench/fr#Modifier_les_contraintes.md).
+4.  Une contrainte est ajoutée.
 
 
 

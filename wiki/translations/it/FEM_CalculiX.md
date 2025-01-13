@@ -11,7 +11,13 @@ Questa pagina raccoglie le informazioni sul risolutore di elementi finiti [Calcu
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Il risolutore è in grado di eseguire calcoli lineari e non lineari, per problemi statici, dinamici e termici. Il risolutore funziona su un file di input Abaqus (`.inp`), il che significa che può essere utilizzato con diversi pre-processori che supportano questo formato. Il programma include un proprio preprocessore grafico che, tuttavia, non viene utilizzato da FreeCAD, ma solo dal risolutore.
+
+
+</div>
 
 CalculiX è progettato per funzionare su piattaforme Unix come Linux e Irix ma anche su MS-Windows. CalculiX è stato sviluppato dagli ingegneri di MTU Aero Engines, Monaco di Baviera, Germania, per assisterli nella progettazione di macchinari come le turbine a getto. Il software è attualmente rilasciato al pubblico secondo i termini della GPL versione 2.
 
@@ -111,7 +117,7 @@ L\'ambiente FEM può leggere lo stress risultante (Von Mises) e tutti gli sposta
 
 </div>
 
-Reaction forces can be found in ccx_dat_file which contains reaction force components (fx, fy, fz) for each fixed boundary condition and for each displacement boundary condition which constrains translation degrees of freedom.
+Reaction forces can be found in *ccx_dat_file* which contains reaction force components (fx, fy, fz) for each fixed boundary condition and for each displacement boundary condition which constrains translation degrees of freedom.
 
 ## Related
 

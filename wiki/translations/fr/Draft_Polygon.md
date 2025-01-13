@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Polygon
    Name/fr: Draft Polygone
-   MenuLocation: Draft , Polygone
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Formes , Polygone<br><br>BIM : Formes 2D , Polygone
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **P** **G**
    Version: 0.7
 ---
@@ -26,21 +26,22 @@ Un Draft Polygone peut passer du mode inscrit au mode circonscrit en modifiant s
 Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyer sur le **<img src="images/Draft_Polygon.svg" width=16px> [Polygone](Draft_Polygon/fr.md)**.
-    -   Sélectionner l\'option **Draft → <img src="images/Draft_Polygon.svg" width=16px> Polygone** du menu.
+    -   Appuyer sur le bouton **<img src="images/Draft_Polygon.svg" width=16px> [Polygone](Draft_Polygon/fr.md)**.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionner l\'option **Formes → <img src="images/Draft_Polygon.svg" width=16px> Polygone** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionner l\'option **Formes 2D → <img src="images/Draft_Polygon.svg" width=16px> Polygone** du menu.
     -   Utiliset le raccourci clavier : **P** puis **G**.
 2.  Le panneau de tâches **Polygone** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Régler le nombre souhaité de **Côtés**.
-4.  Choisir le premier point, le centre du polygone, dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+3.  Rentrer le nombre de **Côtés**.
+4.  Choisir le premier point, le centre du polygone, dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
 5.  Choisir le deuxième point dans la [vue 3D](3D_view/fr.md) ou entrer un **Rayon**.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut (pour la version 1.0).
 
--   Pour saisir manuellement les coordonnées du centre, entrer les valeurs X, Y et Z et appuyer sur **Entrée** après chaque valeur, ou appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyer sur **G** ou cliquer sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyer sur **F** ou cliquer sur la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, le polygone créé aura la valeur **Make Face** `True` et aura une face remplie.
+-   Pour saisir manuellement les coordonnées du centre, entrer les valeurs X, Y et Z et appuyer sur **Entrée** après chaque valeur, ou appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Appuyer sur **G** ou cliquer sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md).
+-   Appuyer sur **F** ou cliquer sur la case **Remplir** pour activer le mode de remplissage. Si le mode rempli est activé, le polygone créé aura la valeur **Make Face** `True` et aura une face remplie.
 -   Appuyer sur **N** ou cliquer sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des polygones.
 -   Appuyer sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyer sur **Échap** ou sur le bouton **Fermer** pour interrompre la commande.

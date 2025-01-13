@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Der Befehl **Sketcher Raster** schaltet das Raster in der Skizze, die gerade bearbeitet wird, ein bzw. aus. Einstellungen können im zugehörigen Menü angepasst werden.
+Das Werkzeug <img alt="" src=images/Sketcher_Grid.svg  style="width:16px;"> [Sketcher Raster](Sketcher_Grid/de.md) schaltet das Raster in der Skizze, die gerade bearbeitet wird, ein bzw. aus. Einstellungen können im zugehörigen Menü angepasst werden.
 
 
 

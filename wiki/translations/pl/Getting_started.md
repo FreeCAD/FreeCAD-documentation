@@ -3,7 +3,7 @@
 
 FreeCAD jest aplikacją typu 3D [parametric modeling application](About_FreeCAD/pl.md). Został stworzony przede wszystkim do projektowania mechanicznego. Może służyć również do wszystkich pokrewnych zastosowań, w których trzeba precyzyjnie modelować obiekty przestrzenne. Dodatkowo zapewnia kontrolę nad historią modelowania.
 
-Freecad jest już rozwijany od 2002 roku i oferuje sporą listę [funkcjonalności](Feature_list/pl.md). Niektórych z nich wciąż brakuje, w porównaniu z komercyjnymi rozwiązaniami. Jednak w zupełności spełnia wymagania hobbystów i osób pracujących z mniejszymi projektami. Na [forum](http://forum.freecadweb.org/index.php) możesz znaleźć naszą szybko rozwijającą się społeczność zaangażowaną w rozwój programu FreeCAD. [Tutaj](https://forum.freecadweb.org/viewforum.php?f=24) możesz znaleźć wiele wartościowych przykładowych projektów dla FreeCAD. Zobacz również, [FreeCAD używany w produkcji](FreeCAD_used_in_production.md).
+Freecad jest już rozwijany od 2002 roku i oferuje sporą listę [funkcjonalności](Feature_list/pl.md). Niektórych z nich wciąż brakuje, w porównaniu z komercyjnymi rozwiązaniami. Jednak w zupełności spełnia wymagania hobbystów i osób pracujących z mniejszymi projektami. Na [forum](http://forum.freecad.org/index.php) możesz znaleźć naszą szybko rozwijającą się społeczność zaangażowaną w rozwój programu FreeCAD. [Tutaj](https://forum.freecad.org/viewforum.php?f=24) możesz znaleźć wiele wartościowych przykładowych projektów we FreeCAD.
 
 Jak wszystkie wolne projekty, projekt FreeCAD jest uzależniony od swojej społeczności, aby się rozwijać, zdobywać funkcje i stabilizować *(usuwać błędy)*. Więc nie zapominaj o tym podczas używania programu FreeCAD. Jeśli ci się to podoba, możesz dokonać [darowizny](Donate/pl.md) i [wspomóc FreeCAD](Help_FreeCAD/pl.md) również na inne sposoby, takie jak tworzenie dokumentacji i tłumaczeń.
 
@@ -67,17 +67,17 @@ W menu Widok, na pasku narzędzi Widok oraz za pomocą skrótów klawiaturowych 
 ## FreeCAD pierwsze kroki 
 
 FreeCAD został zaprojektowany do tworzenia precyzyjnych modeli 3D, ścisłą kontrolę nad tymi modelami *(możliwość cofnięcia się w historii modelowania i zmiany parametrów)*, a w końcu na budowanie tych modeli *(poprzez wydruk w technologii 3D i obróbkę numeryczną CNC lub nawet budowę obiektu budowlanego)*.
-W związku z tym bardzo różni się on od innych aplikacji 3D stworzonych do innych celów, takich jak film animowany czy gry. Jego nauka może być bardzo trudna, zwłaszcza jeśli jest to Twój pierwszy kontakt z modelowaniem 3D. Jeśli w którymś momencie staniesz się zaskoczony, nie zapominaj, że przyjazna społeczność użytkowników na forum [FreeCAD forum](http://forum.freecadweb.org/index.php) może być w stanie wyciągnąć cię z tarapatów w mgnieniu oka.
+W związku z tym bardzo różni się on od innych aplikacji 3D stworzonych do innych celów, takich jak film animowany czy gry. Jego nauka może być bardzo trudna, zwłaszcza jeśli jest to Twój pierwszy kontakt z modelowaniem 3D. Jeśli w którymś momencie staniesz się zaskoczony, nie zapominaj, że przyjazna społeczność użytkowników na forum [FreeCAD forum](http://forum.freecad.org/index.php) może być w stanie wyciągnąć cię z tarapatów w mgnieniu oka.
 
-Środowisko pracy, z którego zaczniesz korzystać w FreeCAD, zależy od rodzaju pracy, którą musisz wykonać: Jeśli zamierzasz pracować na modelach mechanicznych lub ogólnie na małych obiektach, prawdopodobnie będziesz chciał wypróbować środowisko [Projekt Części](PartDesign_Workbench/pl.md). Jeśli pracujesz w trybie 2D, przejdź do środowiska [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), jeśli potrzebne Ci są określone wymagania. Jeśli chcesz pracować z modelami BIM, uruchom środowisko [Architektura](Arch_Workbench/pl.md). A jeśli pochodzisz ze świata OpenSCAD, wypróbuj Środowisko pracy [OpenSCAD](OpenSCAD_Workbench/pl.md). Dostępnych jest również wiele [zewnętrznych środowisk](External_workbenches/pl.md) opracowanych przez społeczność.
+Środowisko pracy, z którego zaczniesz korzystać w FreeCAD, zależy od rodzaju pracy, którą musisz wykonać: Jeśli zamierzasz pracować na modelach mechanicznych lub ogólnie na małych obiektach, prawdopodobnie będziesz chciał wypróbować środowisko [Projekt Części](PartDesign_Workbench/pl.md). Jeśli pracujesz w trybie 2D, przejdź do środowiska [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), jeśli potrzebne Ci są określone wymagania. Jeśli chcesz pracować z modelami BIM, uruchom środowisko [BIM](BIM_Workbench/pl.md). A jeśli pochodzisz ze świata OpenSCAD, wypróbuj Środowisko pracy [OpenSCAD](OpenSCAD_Workbench/pl.md). Dostępnych jest również wiele [zewnętrznych środowisk](External_workbenches/pl.md) opracowanych przez społeczność.
 
 Możesz przełączać Środowisko pracy w dowolnym momencie, a także [dostosować ustawienia](Interface_Customization/pl.md), aby dodać narzędzia z innych Środowisk pracy.
 
 
 
-## Pracujemy w PartDesign i Sketcher 
+## Pracujemy w środowiskach Projekt Części i Szkicownik 
 
-Środowisko pracy [Projekt Części](PartDesign_Workbench/pl.md) służy do budowania złożonych obiektów, począwszy od prostych kształtów i dodawania lub usuwania elementów *(zwanych \" cechami\")*, aż do osiągnięcia ostatecznego wyglądu projektowanego detalu. Wszystkie funkcje zastosowane w procesie modelowania są przechowywane w oddzielnym widoku zwanym [widok drzewa](Document_structure/pl.md), który zawiera również inne obiekty w dokumencie. Obiekt środowiska Projekt Części może być traktowany jako kolejna operacja, z których każda odnosi się do wyniku poprzedniej, tworząc jeden duży łańcuch. W widoku drzewa widzisz swój obiekt końcowy, ale możesz go rozwinąć i przeglądać wszystkie poprzednie stany oraz zmienić dowolny z ich parametrów, które automatycznie aktualizują obiekt końcowy.
+Środowisko pracy [Projekt Części](PartDesign_Workbench/pl.md) służy do budowania złożonych obiektów, począwszy od prostych kształtów i dodawania lub usuwania elementów *(zwanych \" cechami\")*, aż do osiągnięcia ostatecznego wyglądu projektowanego detalu. Wszystkie funkcje zastosowane w procesie modelowania są przechowywane w oddzielnym widoku zwanym [widokiem drzewa](Document_structure/pl.md), który zawiera również inne obiekty w dokumencie. Obiekt środowiska Projekt Części może być traktowany jako kolejna operacja, z których każda odnosi się do wyniku poprzedniej, tworząc jeden duży łańcuch. W widoku drzewa widzisz swój obiekt końcowy, ale możesz go rozwinąć i przeglądać wszystkie poprzednie stany oraz zmienić dowolny z ich parametrów, które automatycznie aktualizują obiekt końcowy.
 
 Projekt Części mocno bazuje na innym środowisku pracy, [Szkicownik](Sketcher_Workbench/pl.md). Szkicownik umożliwia rysowanie kształtów 2D, które są definiowane przez zastosowanie ograniczeń dla kształtu płaskiego. Na przykład, możesz narysować prostokąt i dodać wymiar boku, stosując ograniczenie długości jednego z boków. Nie można już zmieniać rozmiaru tego boku *(chyba że ograniczenie zostanie zmienione)*.
 
@@ -101,21 +101,21 @@ W każdej chwili możesz wybrać oryginalne szkice i zmodyfikować je lub zmieni
 
 
 
-## Praca z Draft i Arch 
+## Praca z Draft i BIM 
 
-Środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) i [Architektura](Arch_Workbench/pl.md) zachowują się nieco inaczej niż pozostałe omówione powyżej. Chociaż przestrzegają tych samych zasad, które są wspólne dla wszystkich we FreeCAD. Krótko mówiąc, podczas gdy Szkicownik i Projekt Części są stworzone przede wszystkim do projektowania pojedynczych elementów, Draft i Arch są stworzone, aby ułatwić pracę z kilkoma prostszymi obiektami.
+Środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) i [BIM](BIM_Workbench/pl.md) zachowują się nieco inaczej niż pozostałe omówione powyżej. Chociaż przestrzegają tych samych zasad, które są wspólne dla wszystkich we FreeCAD. Krótko mówiąc, podczas gdy Szkicownik i Projekt Części są stworzone przede wszystkim do projektowania pojedynczych elementów, Draft i BIM są stworzone, aby ułatwić pracę z kilkoma prostszymi obiektami.
 
 Środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) oferuje narzędzia 2D nieco podobne do tych, które można znaleźć w tradycyjnych aplikacjach 2D CAD, takich jak [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Jednakże, ponieważ szkic 2D jest daleki od celu twórców programu FreeCAD, nie oczekuj, że znajdziesz tam pełen wachlarz narzędzi, które oferują te dedykowane aplikacje. Większość narzędzi Draft działa nie tylko w płaszczyźnie 2D, ale także w pełnej przestrzeni 3D i korzysta ze specjalnych systemów pomocniczych, takich jak [płaszczyzny robocze](Draft_SelectPlane/pl.md) i [przyciąganie](Draft_Snap/pl.md).
 
-Środowisko pracy [Architektura](Arch_Workbench/pl.md) dodaje narzędzia [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) do FreeCAD, pozwalając na tworzenie modeli architektonicznych zawierających obiekty parametryczne. Środowisko pracy Architektura opiera się w dużym stopniu na innych modułach, takich jak Rysunek Roboczy i Szkicownik. Wszystkie narzędzia do tworzenia szkiców są również obecne w środowisku pracy Architektura, większość narzędzi architrktonicznych korzysta z systemów pomocniczych środowiska Rysunek Roboczy.
+Środowisko pracy [BIM](BIM_Workbench/pl.md) dodaje narzędzia [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) do FreeCAD, pozwalając na tworzenie modeli architektonicznych zawierających obiekty parametryczne. Środowisko pracy BIM opiera się w dużym stopniu na innych modułach, takich jak Rysunek Roboczy i Szkicownik. Wszystkie narzędzia do tworzenia szkiców są również obecne w środowisku pracy BIM, większość narzędzi BIM korzysta z systemów pomocniczych środowiska Rysunek Roboczy.
 
-Typowy tok pracy z Arch i Draft może wyglądać następująco:
+Typowy tok pracy z BIM i Draft może wyglądać następująco:
 
-1.  Narysuj kilka linijek przy pomocy narzędzia *\'Draft Line*.
-2.  Wybierz każdą linię i naciśnij narzędzie do tworzenia ścian *(Wall)* na każdej z nich.
-3.  Dołącz poszczególne linie do ściany wybierając je i naciskając narzędzie **Arch Add**.
-4.  Utwórz obiekt podłogi i przenieś ściany, na ta pozycję w widoku drzewa.
-5.  Utwórz okno, klikając narzędzie Okno *(Window)*, wybierz ustawienia w jego panelu, a następnie kliknij na wybraną ścianę.
+1.  Narysuj kilka linijek przy pomocy narzędzia *\'Linia* środowiska Rysunek Roboczy.
+2.  Wybierz każdą linię i naciśnij narzędzie do tworzenia ścian *(Ściana)* na każdej z nich.
+3.  Dołącz poszczególne linie do ściany wybierając je i naciskając narzędzie **BIM Add**.
+4.  Utwórz obiekt podłogi i w widoku drzewa przeciągnij ściany do obiektu podłogi.
+5.  Utwórz obiekt budynku i w widoku drzewa przeciągnij podłogę *(która teraz zawiera ściany)* do obiektu budynku.
 6.  Dodaj wymiary, najpierw ustawiając płaszczyznę roboczą jeśli to konieczne, a następnie użyj narzędzia **Draft Dimension**, aby zdefiniować głębokość osadzenia.
 
 Przykład efektu tego ćwiczenia:
@@ -126,22 +126,21 @@ Więcej informacji znajdziesz na stronie [Poradniki](Tutorials/pl.md).
 
 
 
-## Dodatki, Makrodefinicje i zewnętrzne Środowiska pracy 
+## Dodatki
 
-FreeCAD, jako oprogramowanie open source, oferuje możliwość uzupełnienia swoich Środowisk pracy o dodatki.
+Każdy użytkownik może opracować własne nowe funkcje dla FreeCAD i udostępnić je społeczności FreeCAD jako [Dodatki](Addon/pl.md).
 
-Zasada [Dodatki](Addon.md) opiera się na opracowaniu uzupełnienia Środowiska pracy. Każdy użytkownik może opracować funkcję, której mu brakuje dla własnych potrzeb lub, ostatecznie, dla społeczności. Za pośrednictwem forum, użytkownik może poprosić o opinię, lub pomoc. Może udostępniać, lub nie, obiekt swojej pracy zgodnie z regułami praw autorskich, *(po ich zdefiniowaniu)*. Bezpłatnie dla niej/niego. Do rozwoju, użytkownik ma dostępne funkcje [skrypty](scripting/pl.md).
+Istnieją trzy rodzaje dodatków:
 
-Istnieją dwa rodzaje dodatków:
-
-1.  [Makrodefinicje](Macros/pl.md): krótkie fragmenty kodu Pythona, które zapewniają nowe narzędzie lub funkcjonalność. Makra zazwyczaj są uruchamiane jako sposób na uproszczenie lub zautomatyzowanie zadania rysowania lub edycji konkretnego obiektu. Jeśli wiele z tych makrodefinicji jest zbieranych w jednym katalogu, cały katalog może być dystrybuowany jako nowe Środowisko pracy.
-2.  [Zewnętrzne środowiska pracy](External_workbenches/pl.md): zbiór narzędzi zaprogramowanych w Pythonie lub C++, które rozszerzają FreeCAD w istotny sposób. Jeśli dany stół pracy został wystarczająco rozwinięty i jest dobrze udokumentowany, może zostać włączony do FreeCAD jako jeden z podstawowych stołów roboczych. W sekcji [Zewnętrzne Środowiska pracy](External_workbenches/pl.md) można znaleźć listę i wytyczne dla istniejących bibliotek.
+-   [Makrodefinicje](Macros/pl.md): krótki fragment kodu w [Pythonie](Python/pl.md), który dostarcza nowe narzędzie lub funkcjonalność w pojedynczym pliku z rozszerzeniem `.FCMacro`.
+-   [Zestawy narzędzi](External_workbenches/pl.md): zbiory plików Pythona dostarczające powiązane [polecenia GUI](Gui_Command/pl.md) *(narzędzia)* skupione wokół określonego tematu.
+-   [Pakiety preferencji](Preference_Packs/pl.md): dystrybuowane zbiory preferencji użytkownika.
 
 
 
 ## Tworzenie skryptów 
 
-I na końcu, jedną z najpotężniejszych cech FreeCAD jest środowisko [skryptowe](scripting/pl.md). Ze zintegrowanej konsoli Pythona *(lub dowolnego innego zewnętrznego skryptu Pythona)*, możesz uzyskać dostęp do prawie każdej części FreeCAD. Możesz tworzyć lub modyfikować geometrię, modyfikować reprezentację obiektów w scenie 3D lub dostęp i modyfikować interfejs FreeCAD. Skrypty Pythona mogą być również używane w [makrodefinicjach](macros/pl.md), które zapewniają łatwą metodę tworzenia własnych poleceń.
+I na końcu, jedną z najpotężniejszych cech FreeCAD jest środowisko [skryptowe](Power_users_hub/pl#Tworzenie_skryptów_dla_FreeCAD.md). Ze zintegrowanej konsoli Pythona *(lub dowolnego innego zewnętrznego skryptu Pythona)*, możesz uzyskać dostęp do prawie każdej części FreeCAD. Możesz tworzyć lub modyfikować geometrię, modyfikować reprezentację obiektów w scenie 3D lub dostęp i modyfikować interfejs FreeCAD. Skrypty Pythona mogą być również używane w [makrodefinicjach](macros/pl.md), które zapewniają łatwą metodę tworzenia własnych poleceń.
 
 
 

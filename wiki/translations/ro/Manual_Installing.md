@@ -10,7 +10,13 @@
 
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD utilizează licența [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) , care vă permite să descărcați, să instalați, să redistribuiți și să utilizați FreeCAD așa cum doriți, indiferent de tipul de muncă pe care o veți realiza (comercială sau necomercială). Nu sunteți obligat la nicio clauză sau restricție, iar fișierele pe care le produceți cu ele sunt pe deplin ale dvs. Singurul lucru pe care licența îl interzice, într-adevăr, este să susții că ai programat tu însuți FreeCAD!
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -20,7 +26,13 @@ FreeCAD rulează fără nici o diferență pe Windows, Mac OS și Linux. Cu toat
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Pagina oficială de descărcat pentru Windows și Mac OS este <https://github.com/FreeCAD/FreeCAD/releases>
+
+
+</div>
 
 **Versiuni FreeCAD**
 
@@ -44,6 +56,9 @@ Dacă instalați FreeCAD într-o mașină virtuală, vă rugăm să fiți conșt
 
 ### Instalarea pe Windows 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Descărcați un pachet executabil (.exe) corespunzător la vesiunea dvs de Windows (32bit or 64bit) de la [download page](https://github.com/FreeCAD/FreeCAD/releases). Executabilul FreeCAD ar trebui să funcționeze pe orice versiune windows începând Windows 7.
 2.  Double-click pe executabilul descărcat.
 3.  Accept termenii licenței LGPL , acesta va fi unul dintre puținele cazuri în care puteți să faceți clic în mod sigur pe butonul \"acceptați\" fără a citi textul. Nu există clauze ascunse: ![](images/Freecad-windows-install-01.jpg )
@@ -51,6 +66,9 @@ Dacă instalați FreeCAD într-o mașină virtuală, vă rugăm să fiți conșt
 5.  Nu este nevoie să setați variabila PYTHONPATH, cu excepția cazului în care intenționați să îmbunătățiți programul în python, caz în care probabil că deja știți despre ce este vorba: ![](images/Freecad-windows-install-03.jpg )
 6.  În timpul instalării, vor fi instalate și câteva componente suplimentare, care sunt incluse în interiorul programului de instalare:![](images/Freecad-windows-install-04.jpg )
 7.  Gata, Asta este, FreeCAD este instalat. Îl veți găsi în meniul de pornire. ![](images/Freecad-windows-install-05.jpg )
+
+
+</div>
 
 **Instalarea versiunii în curs de dezvoltare**
 
@@ -85,7 +103,13 @@ Pe cele mai moderne distribuții Linux (Ubuntu, Fedora, OpenSUSE, Debian, Mint, 
 
 **Căi alternative**
 
+
+<div class="mw-translate-fuzzy">
+
 Una dintre bucuriile mari de a utiliza Linux este multitudinea de posibilități de a personaliza software-ul dvs., așa că nu vă abțineți. Sub Ubuntu și derivatele sale, FreeCAD poate fi de asemenea instalat de la [PPA](https://launchpad.net/~freecad-maintainers) fiind menținut de către comunitatea FreeCAD (conține și ambele versiuni și cea stabilă și cea în curs de dezvoltare) . În Fedora, versiunile recente de dezoltare a FreeCAD pot fi instalate de pe [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/), și deoarece acest lucru este un software open source, puteți, de asemenea, cu ușurință [compile FreeCAD yourself](Compiling.md).
+
+
+</div>
 
 
 
@@ -136,22 +160,39 @@ Odată ce ați instalat FreeCAD, este posibil să doriți să îl deschideți ș
 
 </div>
 
+#### General category, General tab 
 
-<div class="mw-translate-fuzzy">
+![](images/FreeCAD_022_GeneralGen.png )
 
-1.  **Language**: FreeCAD va prelua aatomat limba sistemul dvs de operare, dar dacă vreți să puteți schimba asta. FreeCAD este aproape în întregime tradus în 5 sau 6 limbi, plus multe altele care în prezent sunt doar parțial traduse. Puteți ușor:[help to translate FreeCAD](https://crowdin.com/project/freecad). ![](images/Freecad-basic-options01.jpg )
-2.  **Auto-load module**: În mod normal, FreeCAD va începe să vă afișeze pagina centrului de start. Puteți trece peste acest lucru și puteți începe o sesiune FreeCAD direct în atelierul de lucru ales de dumneavoastră.[Workbenches](Workbenches.md) va fi explicat în detaliu în [next chapter](Manual_The_FreeCAD_Interface.md).
-3.  **Create document at startup**: Combinat cu opțiunea de mai sus, acest lucru pornește FreeCAD gata de muncă. ![](images/Freecad-basic-options02.jpg )
-4.  **Storage options**: Ca orice aplicație complexă, FreeCAD ar putea să se prăbușească din când în când. Aici puteți configura câteva opțiuni care vă vor ajuta să vă recuperați activitatea în caz de accident.
-5.  **Authoring and license**: Puteți defini setările implicite care vor fi utilizate pentru fișierele dvs. noi. Luați în considerare posibilitatea de a face ca fișierele dvs. să poată fi redistribuite chiar de la început,[copyleft](https://en.wikipedia.org/wiki/Copyleft) licențiate ca [Creative Commons](https://creativecommons.org/).
-6.  **Redirect python messages to output view**:
+1.  **Language**: By default, FreeCAD will select your operating system\'s language, but you have the option to change it. Thanks to the dedication of many contributors, FreeCAD is available in a wide array of languages.
+2.  **Units**: This setting allows you to choose the default units system for your projects.
 
-Aceste două opțiuni sunt întotdeauna bune pentru a fi marcate, deoarece acestea vă vor permite să vedeți ce este greșit în RaportView atunci când există o problemă cu rularea unui anumit script python. ![](images/Freecad-basic-options03.jpg )
+#### General category, Document tab 
 
-1.  **Units**: aici puteți defini sistemul implicit de unități de măsură pe care doriți să-l utilizați. ![](images/Freecad-basic-options04.jpg )
+![](images/FreeCAD_022_GeneralDoc.png )
 
+1.  **Create a new document at startup**: FreeCAD will automatically open a new document each time the program starts.
+2.  **Storage options**: Configure settings here to help you recover your work in the event of a crash.
+3.  **\'Authoring and license**\': In this area, you can determine the settings for new files. To facilitate sharing, consider starting with a more permissive, copyleft license like Creative Commons.
 
-</div>
+#### Display category, Navigation tab 
+
+![](images/FreeCAD_022_DisplayNav.png )
+
+1.  **Zoom at cursor**: When enabled, zoom actions center on the mouse cursor. If disabled, zoom focuses on the center of the view.
+2.  **Invert zoom**: This option reverses the zoom direction in relation to mouse movement.
+
+#### Workbenches tab 
+
+![](images/FreeCAD_022_WBMenu.png )
+
+Although FreeCAD typically opens to the start page, this setting lets you bypass it. You can start directly in your preferred workbench. Additionally, you can customize which workbenches are displayed in the selector menu.
+
+#### Import-Export tab 
+
+![](images/FreeCAD_022_ImportExport.png )
+
+Here, define basic parameters for importing and exporting in various formats.
 
 
 
@@ -165,6 +206,8 @@ Pe masura ce proiectul FreeCAD si comunitatea sa cresc rapid si pentru ca este u
 
 </div>
 
+![](images/FreeCAD_022_AddonsMenu.png )
+
 
 <div class="mw-translate-fuzzy">
 
@@ -175,9 +218,7 @@ Pe masura ce proiectul FreeCAD si comunitatea sa cresc rapid si pentru ca este u
 
 </div>
 
-<img alt="" src=images/FreeCAD-addon-manager01.jpg  style="width:800px;">
-
-If you are using the Ubuntu operating system, some of the addons above are also available as packages on the [FreeCAD addons PPA](https://launchpad.net/freecad-extras)
+As of FreeCAD v0.17.9940, the recommended installation method of any of the above tools is the built-in Addon Manager. However, if for any reason this option is not available, then manual installation is always possible. More information can be found at the [FreeCAD addons page](https://github.com/FreeCAD/FreeCAD-addons)
 
 **De citit în plus**
 

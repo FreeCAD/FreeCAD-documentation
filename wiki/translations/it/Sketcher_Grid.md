@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Sketcher Grid
-   Name/it: Griglia
+   Name/it: Sketcher Griglia
    Workbenches: Sketcher_Workbench/it
    Version: 0.21
    SeeAlso: Sketcher_Snap/it
@@ -13,7 +13,7 @@
 
 ## Descrizione
 
-Il comando **Sketcher Griglia** attiva/disattiva la griglia nello schizzo attualmente in fase di modifica. Le impostazioni possono essere modificate nel relativo menu.
+Lo strumento <img alt="" src=images/Sketcher_Grid.svg  style="width:16px;"> [Griglia](Sketcher_Grid/it.md) attiva/disattiva la griglia nello schizzo attualmente in fase di modifica. Le impostazioni possono essere modificate nel relativo menu.
 
 
 

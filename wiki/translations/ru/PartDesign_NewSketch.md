@@ -66,10 +66,13 @@ To reference any items in the [Workbench Sketcher](Sketcher_Workbench.md) use th
 -    **Placement**: controls the orientation of the sketch in the 3D space; see [placement](Std_Placement.md). Disabled if the sketch is attached through the Map Mode property.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
 
+
+</div>
 
 
 {{PartDesign Tools navi

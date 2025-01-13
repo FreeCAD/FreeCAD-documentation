@@ -23,8 +23,13 @@ L\'outil **TechDraw Cote étendue horizontale** ajoute une cote linéaire à une
 
 1.  Sélectionnez une vue ou une collection d\'arêtes dans une vue.
 2.  Il y a plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Insérer une cote étendue horizontale](TechDraw_HorizontalExtentDimension/fr.md)
-**
+    -   
+        {{Version/fr|1.0}}
+        
+        : si la [préférence](TechDraw_Preferences/fr#Cotes.md) **Outils de cotation** est réglée sur {{Value|Outil unique}} (par défaut) : appuyez sur la flèche vers le bas à droite du bouton **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** et sélectionnez l\'option **<img src="images/TechDraw_ExtensionCreateHorizChainDimension.svg" width=16px> Cotes horizontales** du menu déroulant.
+
+    -   Si cette préférence a une valeur différente (et dans {{VersionMinus/fr|0.21}}) : appuyez sur le bouton **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Insérer une cote étendue horizontale](TechDraw_HorizontalExtentDimension/fr.md)**.
+
     -   Sélectionnez l\'option **TechDraw → Dimensions → <img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> Insérer une cote étendue horizontale** du menu.
 3.  Une cote est ajoutée à la vue.
 4.  La cote peut être déplacée jusqu\'à la position souhaitée.

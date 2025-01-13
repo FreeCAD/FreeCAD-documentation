@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Sketcher CreatePeriodicBSpline
-   Name/pl: Szkicownik: Okresowa krzywa złożona przez punkty
+   Name/pl: Szkicownik: Okresowa krzywa złożona przez punkty kontrolne
    MenuLocation:  Szkic , Elementy geometryczne szkicownika , Utwórz okresową krzywą złożoną
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **B** **P**
@@ -15,19 +15,18 @@
 
 ## Opis
 
-To narzędzie tworzy okresową *(zamkniętą)* krzywą złożoną z jej punktów kontrolnych. *(Zapoznaj się z treścią strony [Krzywe złożone](B-Splines/pl.md), aby uzyskać więcej informacji o krzywych typu B-splines)*.
-
-![](images/Sketcher_Periodic_B-spline_example01.png )
-
-
-
-*Okresowa krzywa złożona ''(w kolorze białym)'' utworzona z 5 punktów. Na zdjęciu wielobok kontrolny w kolorze zielonym ''(linie proste łączące czerwone punkty)'', koła wagowe w kolorze niebieskim oraz grzebień krzywizny w kolorze zielonym. Cyfra '''(3)''' w środku oznacza stopień krzywej złożonej, a cyfry '''(1)''' i '''(2)''' na węzłach leżących na krzywej oznaczają ich krotność.*
+Narzędzie <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:24px;"> **Okresowa krzywa złożona przez punkty kontrolne** tworzy okresową *(zamkniętą)* [krzywą złożoną](B-Splines/pl.md) z punktów kontrolnych. {{Version/pl|1.0}}: To jest to samo narzędzie co [Krzywa złożona przez punkty kontrolne](Sketcher_CreateBSpline/pl.md), ale z innym trybem początkowym.
 
 
 
 ## Użycie
 
-1.  Naciśnij przycisk **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Okresowa krzywa złożona przez punkty](Sketcher_CreatePeriodicBSpline/pl.md)**.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
+
+1.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_CreatePeriodicBSpline.svg" width=16px> '''Okresowa krzywa złożona przez punkty kontrolne'''**.
+    -   Wybierz z menu **Szkic → Elementy geometryczne szkicownika → <img src="images/Sketcher_CreatePeriodicBSpline.svg" width=16px> Utwórz okresową krzywą złożoną**.
+    -   Użyj skrótu klawiaturowego: **G**, następnie **B**, a potem **P**.
 2.  Dalsze kroki można znaleźć na stronie [Krzywa złożona przez punkty kontrolne](Sketcher_CreateBSpline/pl#Użycie.md).
 
 
@@ -40,7 +39,7 @@ Zobacz stronę [Krzywa złożona przez punkty kontrolne](Sketcher_CreateBSpline/
 
 ## Ograniczenia
 
-Zobacz tronę [Krzywa złożona przez punkty kontrolne](Sketcher_CreateBSpline#Ograniczenia.md).
+Zobacz stronę [Krzywa złożona przez punkty kontrolne](Sketcher_CreateBSpline#Ograniczenia.md).
 
 
 

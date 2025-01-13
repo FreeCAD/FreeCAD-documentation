@@ -3,7 +3,7 @@
    Name: Draft ShowSnapBar
    Name/pl: Rysunek Roboczy: Pokaż pasek narzędzi przyciągania
    MenuLocation: Narzędzia , Pokaż pasek narzędzi przyciągania
-   Workbenches:    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches:    Workbenches: Draft_Workbench/pl
    SeeAlso: Draft_Snap/pl
 ---
 

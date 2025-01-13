@@ -1,19 +1,15 @@
 # Manual:The FreeCAD document/de
 {{Manual:TOC}}
 
-Ein FreeCAD-Dokument enthält alle Objekte deiner Szene. Es kann Gruppen und Objekte enthalten, die mit einem beliebigen Arbeitsbereich erstellt wurden. Du kannst daher zwischen den Arbeitsbereichen wechseln und trotzdem am gleichen Dokument und/oder den Objekten innerhalb dieses Dokuments arbeiten. Das Dokument ist das, was auf der Festplatte gespeichert wird, wenn Du deine Arbeit speicherst. Du kannst auch mehrere Dokumente gleichzeitig in FreeCAD öffnen und mehrere Ansichten desselben Dokuments öffnen.
+Ein FreeCAD-Dokument ist der Kern einer Konstruktionsumgebung, die all die Objekte und Elemente einschließt, die eine Szene ausmachen. Es kann vielerlei Objekte enthalten, die in unterschiedlichen Arbeitsbereichen erstellt wurden, und ermöglicht nahtlose Integration und Flexibilität, da der Arbeitsbereich gewechselt werden kann, während man in demselben Dokument weiterarbeitet. Ein Dokument ist hauptsächlich die Datei, die man auf die Festplatte sichert und die Arbeitsergebnisse enthält; und FreeCAD ermöglicht sowohl mehrere Dokumente gleichzeitig zu öffnen als auch mehrere Ansichten desselben Dokuments.
 
-![](images/Freecad-document-01.jpg )
+Innerhalb des Dokuments können die Objekte in Gruppen sortiert werden, jedes mit einem eindeutigen Namen für einfaches Identifizieren und Verwalten. Diese Verwaltung von Gruppen, Objekten und ihrer Namen findet hauptsächlich in der [Baumansicht](Tree_view/de.md) statt. Hier können Anwender neue Gruppen erstellen, ihnen Objekte zuordnen und Objekte wieder herauslöschen. Detailliertere Anpassungen wie Objekte umzubenennen, ihre visuellen Eigenschaften wie die Farbe zu ändern oder die Sichtbarkeit einzustellen, können ausgeführt werden, wenn ein Objekt mit der rechten Maustaste in der Baumansicht angeklickt wird. Weitere Funktionalität kann abhängig von dem aktiven Arbeitsbereich bereitgestellt werden.
 
-Innerhalb des Dokuments können die Objekte in Gruppen verschoben werden und haben einen eindeutigen Namen. Die Verwaltung von Gruppen, Objekten und Objektnamen erfolgt hauptsächlich aus der Strukturansicht. Dort kannst Du Gruppen erstellen, Objekte in Gruppen verschieben, Objekte oder Gruppen löschen. Durch einen Rechtsklick in der Baumansicht oder auf ein Objekt kannst Du Objekte umbenennen, ihre Farbe ändern, sie aus- oder einblenden oder eventuell andere Operationen, abhängig von dem aktuellen Arbeitsbereich, durchführen.
+Objects in einem FreeCAD-Dokument unterscheiden sich stark in ihrer Art, da jeder Arbeitsbereich seine eigene Art von Objekten hinzufügt. Zum Beispiel fügt der Arbeitsbereich [Mesh](Mesh_Workbench/de.md) Netzobjekte hinzu und der Arbeitsbereich [Part](Part_Workbench/de.md) Part-Objekte. In allen FreeCAD-Sitzungen, in denen zumindest ein Dokument geöffnet ist, wird das Dokument als aktiv angesehen, das in der 3D-Ansicht dargestellt wird. Dies ist das Dokument, das gerade bearbeitet wird. Wechselt man den Reiter zu einem anderen Dokument, wird dieses das aktive Dokument und die meisten Arbeitsschritte werden an diesem ausgeführt.
 
-![](images/Freecad-document-02.jpg )
+FreeCAD-Dokumente werden im .FCStd-Dateiformat gespeichert, das eine zip-basierte Verbundstruktur verwendet die Formaten wie LibreOffice ähnelt. Falls technische Probleme auftreten, kann das Dokument meistens entpackt werden und ermöglicht den direkten Zugriff auf seine Inhalte, zur Fehlerbeseitigung oder Datenwiederherstellung. Diese Fähigkeit stellt eine weitere Sicherheitskomponente dar, die sicherstellt, das die Konstruktion gesichert und zurückgeholt werden kann, auch unter unerwarteten Umständen.
 
-Die Objekte in einem FreeCAD-Dokument können unterschiedlicher Art sein. Jeder Arbeitsbereich kann seine eigenen Objektarten hinzufügen, zum Beispiel fügt der Arbeitsbereich [Mesh](Mesh_Workbench/de.md) Netzobjekte (Mesh-objects), der Arbeitsbereich [Part](Part_Workbench/de.md) Bauteilobjekte (Part-objects) hinzu, usw.
-
-Wenn in FreeCAD mindestens ein Dokument geöffnet ist, gibt es immer ein und nur ein aktives Dokument. Das ist das Dokument, das in der aktuellen 3D-Ansicht erscheint, das Dokument, an dem du gerade arbeitest. Wenn du den Reiter zu einem anderen Dokument wechselst, wird dieses zum aktiven Dokument. Die meisten Vorgänge arbeiten immer auf dem aktiven Dokument.
-
-FreeCAD-Dokumente werden mit der Erweiterung .FcStd gespeichert; ihr Dateiformat ist ein auf zip basierendes Verbundformat, ähnlich dem von [LibreOffice](https://www.libreoffice.org). Wenn etwas sehr schief läuft, ist es oft möglich, es zu entpacken und das Problem zu beheben oder die Daten zu retten.
+![](images/FreeCAD_022_Document.png )
 
 **Weiterlesen**
 

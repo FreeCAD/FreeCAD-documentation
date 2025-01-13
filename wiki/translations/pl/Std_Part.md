@@ -145,7 +145,7 @@ Otwarty dokument może zawierać wiele części. Ale tylko jedna Część może 
 Aby uaktywnić lub dezaktywować Część:
 
 -   Kliknij dwukrotnie na jej pozycję w [widoku drzewa](Tree_view/pl.md), lub
--   Otwórz menu kontekstowe *(klikając prawym przyciskiem myszy)* i wybierz **Przełącz aktywność części**.
+-   Otwórz menu kontekstowe *(klikając prawym przyciskiem myszy)* i wybierz **Aktywny obiekt**.
 
 ![](images/Std_Part_active.png )
 
@@ -221,10 +221,10 @@ class MyGroup(object):
         if obj:
             self.attach(obj)
 
-    def __getstate__(self):
+    def dumps(self):
         return
 
-    def __setstate__(self, _state):
+    def loads(self, _state):
         return
 
     def attach(self, obj):
@@ -246,16 +246,16 @@ class ViewProviderMyGroup(object):
         vobj.addExtension("Gui::ViewProviderOriginGroupExtensionPython")
         self.ViewObject = vobj
 
-    def __getstate__(self):
+    def dumps(self):
         return None
 
-    def __setstate__(self, _state):
+    def loads(self, _state):
         return None
 
 App.ActiveDocument.addObject("Part::FeaturePython",
                              "Group",
-                             group.MyGroup(),
-                             group.ViewProviderMyGroup(),
+                             MyGroup(),
+                             ViewProviderMyGroup(),
                              True)
 ```
 

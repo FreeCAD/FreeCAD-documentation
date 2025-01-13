@@ -5,7 +5,7 @@ Cette page est destinée à vous permettre de démarrer rapidement avec FreeCAD 
 
 ### Mise en place 
 
-FreeCAD est une application de modélisation 3D polyvalente. Bien qu\'il ne s\'agisse pas uniquement d\'une application BIM, elle dispose de deux ateliers BIM dédiés : l\'[atelier Arch](Arch_Workbench/fr.md), qui est fourni avec chaque installation de FreeCAD, et contient un ensemble minimal d\'outils BIM, et l\'[atelier BIM](BIM_Workbench/fr.md), que vous devez installer via le [Gestionnaire des extensions](Std_AddonMgr/fr.md). Il est fortement recommandé de commencer par installer l\'atelier BIM, qui vous donnera un environnement plus proche de Revit.
+FreeCAD est une application de modélisation 3D polyvalente. Bien qu\'il ne s\'agisse pas uniquement d\'une application BIM, elle dispose de deux ateliers BIM dédiés : l\'[atelier BIM](BIM_Workbench/fr.md), qui est fourni avec chaque installation de FreeCAD et contient un ensemble d\'outils BIM.
 
 
 

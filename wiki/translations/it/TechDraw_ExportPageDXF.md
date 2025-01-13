@@ -1,66 +1,77 @@
 ---
  GuiCommand:
    Name: TechDraw ExportPageDXF
-   MenuLocation: TechDraw , Page , Export Page as DXF
-   Workbenches: TechDraw_Workbench
+   Name/it: TechDraw Esporta Pagina in DXF
+   MenuLocation: TechDraw , Pagina , Esporta Pagina in DXF
+   Workbenches: TechDraw_Workbench/it
    Version: 0.18
-   SeeAlso: TechDraw_ExportPageSVG, Draft_DXF
+   SeeAlso: TechDraw_ExportPageSVG/it, Draft_DXF/it
 ---
 
 # TechDraw ExportPageDXF/it
 
-## Description
 
-The **TechDraw ExportPageDXF tool** saves a drawing page as a [DXF](DXF.md) file.
 
-## Usage
+## Descrizione
 
-1.  If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](Tree_view.md).
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExportPageDXF.svg" width=16px> [Export Page as DXF](TechDraw_ExportPageDXF.md)** button.
-    -   Select the **TechDraw → Page  → <img src="images/TechDraw_ExportPageDXF.svg" width=16px> Export Page as DXF** option from the menu.
-    -   If a page is displayed in the [Main view area](Main_view_area.md): right-click the page\'s window and select the **Export DXF** option from the context menu.
-3.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
-    1.  Select the desired page.
-    2.  Press the **OK** button.
-4.  The **Save DXF file** dialog box opens.
-5.  Select a location and file name.
+Lo **strumento TechDraw Esporta Pagina in DXF** salva una pagina di disegno come file [DXF](DXF/it.md).
 
-### Limitations
 
--   Radial and Diameter dimensions will only export properly if they are \"inside\" the arc.
--   Scaling is not supported. The DXF will be drawn in the actual size of the TechDraw page.
--   Units are not supported. The DXF will be drawn in millimeters (mm). Dimension text will be shown exactly as displayed in TechDraw.
--   TechDraw can\'t export a [Insert Draft Workbench Object](TechDraw_DraftView.md) or an [Insert Arch Workbench Object](TechDraw_ArchView.md) to DXF. These views are [SVG](SVG.md) elements generated internally by the [Draft Workbench](Draft_Workbench.md), so there is no geometrical shape to export. To export a view as DXF, it must have been created with [Insert View](TechDraw_View.md) or [Insert Projection Group](TechDraw_ProjectionGroup.md). For example, select an [Arch SectionPlane](Arch_SectionPlane.md), then use [Draft Shape2DView](Draft_Shape2DView.md) to create a flat projection shape, and then use [Insert View](TechDraw_View.md) on this object. Alternatively, select the objects from the tree view or the 3D viewport, and export to DXF using **File → [Export](Std_Export.md)**.
--   The title block of a page is an [SVG](SVG.md) template as well, so it will not be exported to DXF either.
--   In general, TechDraw can only export to DXF those elements that are supported by the `Import::ImpExpDxfWrite` class of the [Import Module](Draft_DXF.md).
 
-## Notes
+## Utilizzo
 
--   This function exports the R12 (AC1009) and R14 (AC1014) versions of [DXF](DXF.md).
-    -   R12 is an older, simpler version of the standard, but should be readable by most other software.
-    -   R14 is the default version. It includes support for splines and ellipses among other things.
--   These parameters affect the output:
+1.  Se nel documento sono presenti più pagine di disegno: facoltativamente attivare la pagina desiderata selezionandola nella [Vista ad albero](Tree_view/it.md).
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/TechDraw_ExportPageDXF.svg" width=16px> [Esporta Pagina in DXF](TechDraw_ExportPageDXF/it.md)**.
+    -   Selezionare l\'opzione **TechDraw → Pagina → <img src="images/TechDraw_ExportPageDXF.svg" width=16px> Esporta Pagina in DXF** dal menu.
+    -   Se una pagina viene visualizzata nell\'[Area della vista principale](Main_view_area/it.md): fare clic con il pulsante destro del mouse sulla finestra della pagina e selezionare l\'opzione **Esporta DXF** dal menu contestuale.
+3.  Se nel documento sono presenti più pagine di disegno e non si ha ancora attivato una pagina, si apre la finestra di dialogo **Scelta Pagina**:
+    1.  Selezionare la pagina desiderata.
+    2.  Premere il pulsante **OK**.
+4.  Si apre la finestra di dialogo **Salva file DXF**.
+5.  Selezionare una posizione e un nome file.
+
+
+
+## Limitazioni
+
+-   Le quote radiali e di diametro verranno esportate correttamente solo se sono \"all\'interno\" dell\'arco.
+-   Il ridimensionamento non è supportato. Il DXF verrà disegnato nelle dimensioni effettive della pagina TechDraw.
+-   Le unità non sono supportate. Il DXF verrà disegnato in millimetri (mm). Il testo della quota verrà mostrato esattamente come visualizzato in TechDraw.
+-   TechDraw non può esportare un [oggetto Draft](TechDraw_DraftView/it.md) o un [oggetto Arch](TechDraw_ArchView/it.md) in DXF. Queste viste sono elementi [SVG](SVG/it.md) generati internamente da [Draft](Draft_Workbench/it.md), quindi non è presente alcuna forma geometrica da esportare. Per esportare una vista come DXF, deve essere stata creata con [Inserisci vista](TechDraw_View/it.md) o [Inserisci gruppo di proiezione](TechDraw_ProjectionGroup/it.md). Ad esempio, selezionare un [Arch Piano di Sezione](Arch_SectionPlane/it.md), quindi utilizzare [Draft Vista forma 2D](Draft_Shape2DView/it.md) per creare una forma di proiezione piatta, quindi utilizzare [Inserisci Vista](TechDraw_View/it.md) su questo oggetto. In alternativa, selezionare gli oggetti dalla vista ad albero o dalla vista 3D ed esportali in DXF utilizzando **File → [Exporta](Std_Export.md)**.
+-   Anche il cartiglio di una pagina è un modello [SVG](SVG/it.md), quindi neppure questo verrà esportato in DXF.
+-   In generale, TechDraw può esportare in DXF solo gli elementi supportati dalla classe `Import::ImpExpDxfWrite` del [Import Module](Draft_DXF/it.md).
+
+
+
+## Note
+
+-   Questa funzione esporta le versioni R12 (AC1009) e R14 (AC1014) di [DXF](DXF/it.md).
+    -   R12 è una versione precedente e più semplice dello standard, ma dovrebbe essere leggibile dalla maggior parte degli altri software.
+    -   R14 è la versione predefinita. Include, tra le altre cose, il supporto per spline ed ellissi.
+-   Questi parametri influiscono sull\'output:
     -   
-        **Tools → Edit parameters → BaseApp/Preferences/Mod/Import → DxfVersionOut**
+        **Strumenti → Modifica parametri → BaseApp/Preferences/Mod/Import → DxfVersionOut**
         
-        . This is an integer value. Valid entries are 12 or 14. The default is 14.
+        . Questo è un valore intero. Le voci valide sono 12 o 14. Il valore predefinito è 14.
 
     -   
-        **Tools → Edit parameters → BaseApp/Preferences/Mod/Import → DiscretizeEllipses**
+        **Strumenti → Modifica parametri → BaseApp/Preferences/Mod/Import → DiscretizeEllipses**
         
-        . This is a boolean value. If `True`, splines and ellipses are converted to polylines; if `False`, splines and ellipses are written as splines and ellipses objects. The default is `False`. If the DxfVersionOut parameter is 12, splines and ellipses are always converted to polylines.
+        . Questo è un valore booleano. Se `True`, spline ed ellissi vengono convertite in polilinee; se `False`, spline ed ellissi vengono scritte come oggetti spline ed ellissi. Il valore predefinito è `False`. Se il parametro DxfVersionOut è 12, le spline e le ellissi vengono sempre convertite in polilinee.
 
     -   
-        **Tools → Edit parameters → BaseApp/Preferences/Mod/Import → maxsegmentlength**
+        **Strumenti → Modifica parametri → BaseApp/Preferences/Mod/Import → maxsegmentlength**
         
-        . This is a float value. If splines and ellipses are converted to polylines this parameter determines the segment length.
+        . Questo è un valore float. Se le spline e le ellissi vengono convertite in polilinee, questo parametro determina la lunghezza del segmento.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The SaveDXF tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+## Script
+
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
+
+Lo strumento SaveDXF può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 ```python
@@ -71,7 +82,7 @@ TechDraw.writeDXFPage(page,filename)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

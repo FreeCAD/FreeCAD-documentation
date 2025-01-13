@@ -24,12 +24,12 @@ Standardmäßig ist der Part-Kegel ein Kegelstumpf. Er kann in einen Kegel mit S
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Part_Cone.svg" width=16px> [Part Kegel](Part_Cone/de.md)** drücken.
+    -   Die Schaltfläche **<img src="images/Part_Cone.svg" width=16px> [Kegel](Part_Cone/de.md)** drücken.
     -   Den Menüeintrag **Part → Grundkörper → <img src="images/Part_Cone.svg" width=16px> Kegel** auswählen.
 2.  Der Kegel wird erstellt.
 3.  Wahlweise die Abmaße und die {{PropertyData/de|Placement}} des Kegels anpassen durch eine der folgenden Möglichkeiten:
     -   Doppelklick auf das Objekt in der [Baumansicht](Tree_view/de.md):
-        1.  Der Aufgabenbereich **Geometrische Grundelemente** wird geöffnet.
+        1.  Das Aufgaben-Fenster **Geometrische Grundelemente** wird geöffnet.
         2.  Eine oder mehrere Eigenschaften ändern.
         3.  Das Objekt wird in der [3D-Ansicht](3D_view/de.md) dynamisch aktualisiert.
         4.  Die Schaltfläche **OK** drücken.
@@ -82,7 +82,7 @@ Das Objekt hat dieselben Befestigungseigenschaften wie ein [Part Part2DObject](P
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/), [Part Skripten](Part_scripting/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/), [Part Skripten](Part_scripting/de.md) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Ein Part Kegel wird mit der Methode `addObject()` des Dokuments erstellt.
 

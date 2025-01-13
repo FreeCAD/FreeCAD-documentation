@@ -1,5 +1,10 @@
 # <img alt="OpenSCAD workbench icon" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> OpenSCAD Workbench/ro
 
+
+
+
+
+
 ## Introducere
 
 Atelierul OpenSCAD este într-un stadiu timpuriu de dezvoltare. Se intenționează da el să ofere interoperabnilitate cu open source software [OpenSCAD](http://www.openscad.org/).
@@ -9,9 +14,6 @@ The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCA
 el conține un importator[importer](OpenSCAD_CSG.md) care permite deschiderea rezultatelor [.csg](OpenSCAD_CSG.md) output din OpenSCAD în FreeCAD.
 
 Acest atelier de lucru conține funcții pentru modificarea arborescenței funcțiilor CSG și a modelelor de reparații.
-
-
-
 
 ![](images/OpenSCADexamaple1.png )
 
@@ -40,11 +42,16 @@ The general installation in all platforms can be done from the Python package in
 pip3 install --user ply
 ```
 
+
+
 ## Limbajul OpenSCAD și formatul fișierului 
 
 Limbajul OpenSCAD permite utilizarea variabilelor și a buclelor. Vă permite să specificați submodulele pentru a reutiliza geometria și codul. Acest grad ridicat de flexibilitate face analiza foarte complexă. În prezent, modulul OpenSCAD din FreeCAD nu poate suporta limbajul OpenSCAD nativ. În schimb, dacă este instalat OpenSCAD, acesta poate fi folosit pentru a converti intrarea într-un format de ieșire numit \"CSG\". Este un subset al limbajului OpenSCAD și poate fi folosit ca intrare în OpenSCAD pentru prelucrare ulterioară. În timpul conversiei, toate comportamentele parametrice sunt pierdute - toate numele variabilelor sunt aruncate, buclele extinse și expresiile matematice evaluate.
 
 ## Tools
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/OpenSCAD_ColorCodeShape.png  style="width:32px;"> [Color Code Shape](OpenSCAD_ColorCodeShape.md): Schimbă culoarea formelor selectate sau a tuturor formelor bazate pe validitatea lor.
 -   <img alt="" src=images/OpenSCAD_ReplaceObject.png  style="width:32px;"> [Replace Object](OpenSCAD_ReplaceObject.md): În locuiește un obiect în arborescența funcțiilor.
@@ -58,6 +65,11 @@ Limbajul OpenSCAD permite utilizarea variabilelor și a buclelor. Vă permite s�
 -   <img alt="" src=images/OpenSCAD_MeshBoolean.png  style="width:32px;"> [Mesh Boolean](OpenSCAD_MeshBoolean.md): Creează o nouă plasă din forme prin operațiuni booleene.
 -   <img alt="" src=images/OpenSCAD_Hull.png  style="width:32px;"> [Hull](OpenSCAD_Hull.md): Aplică o coajă la formele selectate.
 -   <img alt="" src=images/OpenSCAD_Minkowski.png  style="width:32px;"> [Minkowski](OpenSCAD_Minkowski.md): Aplică o sumă Minkowski formelor selectate.
+
+
+</div>
+
+
 
 ## Preferințe
 

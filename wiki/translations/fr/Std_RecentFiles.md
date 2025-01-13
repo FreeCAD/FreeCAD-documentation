@@ -3,7 +3,7 @@
    Name: Std RecentFiles
    Name/fr: Std Fichiers récents
    Empty: 1
-   MenuLocation: Fichier , Fichiers récents
+   MenuLocation: Fichier , Ouvrir un fichier récent
    Workbenches: Tous
    SeeAlso: Std_Open/fr, Std_Import/fr
 ---
@@ -18,25 +18,26 @@ L\'option de menu **Std Fichiers récents** affiche une liste des fichiers réce
 
 ## Utilisation
 
-1.  Sélectionnez l\'option **Fichier → Fichiers récents** dans le menu pour afficher la liste des fichiers récents.
+1.  Sélectionnez l\'option **Fichier → Ouvrir un fichier récent** du menu pour afficher la liste des fichiers récents.
 2.  Sélectionnez un fichier dans la liste pour l\'ouvrir.
 
 ## Options
 
--   Appuyez deux fois sur **Echap** ou cliquez en dehors du menu pour le fermer.
+-   Appuyez deux fois sur **Échap** ou cliquez en dehors du menu pour le fermer.
 
 
 
 ## Préférences
 
--   Le nombre maximal de fichiers dans la liste des fichiers récents est déterminé par le paramètre **Outils → Éditer les paramètres... → BaseApp → Preferences → RecentFiles → RecentFiles**. Ce paramètre peut également être modifié dans [Éditeur de préférences](Preferences_Editor/fr#G.C3.A9n.C3.A9ral.md).
--   Le dernier emplacement de fichier utilisé est stocké : **Outils → Éditer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md).
+
+-   Le nombre maximal de fichiers dans la liste est déterminé par la préférence **Édition → Préférences... → Général → Général → Taille de la liste des fichiers récents**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

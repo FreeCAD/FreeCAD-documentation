@@ -15,17 +15,23 @@ Beachte, dass ein Arbeitsbereich manchmal als *Modul* bezeichnet wird. Allerding
 
 ### Aktuell
 
-Die folgenden Arbeitsbereiche sind mit jeder FreeCAD Installation zusammengepackt:
+Die folgenden Arbeitsbereiche sind in jeder FreeCAD-Installation vorhanden:
 
 -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std Basis](Std_Base/de.md). Dies ist eigentlich kein Arbeitsbereich, sondern eher eine Kategorie von \'Standard\' Befehlen und Werkzeugen, die in allen Arbeitsbereichen verwendet werden können.
 
--   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> Der Arbeitsbereich [Arch](Arch_Workbench/de.md) (Architektur) für die Arbeit mit architektonischen Elementen.
+-   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> Der Arbeitsbereich [Assembly](Assembly_Workbench/de.md) für den Zusammenbau und die Berechnung mechanischer Baugruppen. {{Version/de|1.0}}
+
+-   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> Der Arbeitsbereich [BIM](BIM_Workbench/de.md) für die Arbeit mit Bauwerkselementen und die Erstellung von Modellen entsprechend der [Bauwerksdatenmodellierung](https://de.wikipedia.org/wiki/Building_Information_Modeling), also BIM-Modellen (nach engl. [Building Information Modelling](https://en.wikipedia.org/wiki/Building_information_modeling), kurz BIM). Er kombiniert den Arbeitsbereich Arch und den vormals externen Arbeitsbereich BIM aus der {{VersionMinus/de|0.21}}.
+
+-   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> Der Arbeitsbereich [CAM](CAM_Workbench/de.md) Wird eingesetzt, um G-Code-Befehle zu erstellen. Dieser Arbeitsbereich wurde in {{VersionMinus/de|0.21}} \"Path\" genannt.
 
 -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> Der Arbeitsbereich [Draft](Draft_Workbench/de.md) (Entwurf) enthält 2D-Werkzeuge und grundlegende 2D- und 3D-CAD-Einsatzmöglichkeiten.
 
 -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> Der Arbeitsbereich [FEM](FEM_Workbench/de.md) bietet einen Arbeitsablauf für die Finite Elemente Analyse (FEA).
 
 -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> Der Arbeitsbereich [Inspection](Inspection_Workbench/de.md) wurde geschaffen, um dir spezielle Werkzeuge für die Untersuchung von Formen zu bieten. Er befindet sich noch in einer frühen Phase der Entwicklung.
+
+-   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> Der Arbeitsbereich [Material](Material_Workbench/de.md) kümmert sich um FreeCADs Materialsystem. {{Version/de|1.0}}
 
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> Der Arbeitsbereich [Mesh](Mesh_Workbench/de.md) (Netz) für die Arbeit mit triangulierten Polygonnetzen.
 
@@ -34,8 +40,6 @@ Die folgenden Arbeitsbereiche sind mit jeder FreeCAD Installation zusammengepack
 -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> Der Arbeitsbereich [Part](Part_Workbench/de.md) für die Arbeit mit geometrischen Grundkörpern und booleschen Verknüpfungen.
 
 -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> Der Arbeitsbereich [Part Design](PartDesign_Workbench/de.md) zur Erstelllung von Part-Formen aus Skizzen.
-
--   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> Der Arbeitsbereich [Path](Path_Workbench/de.md) (Pfad) wird zur Erstellung von G-Code Anweisungen verwendet.
 
 -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> Der Arbeitsbereich [Points](Points_Workbench/de.md) (Punkte) für die Arbeit mit Punktwolken.
 
@@ -47,19 +51,21 @@ Die folgenden Arbeitsbereiche sind mit jeder FreeCAD Installation zusammengepack
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> Der Arbeitsbereich [Spreadsheet](Spreadsheet_Workbench/de.md) (Tabellenkalkulation) zur Erstellung und Bearbeitung von Daten in Kalkulations- bzw. Konstruktionstabellen.
 
--   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> Der Arbeitsbereich [Start](Start_Workbench/de.md) ermöglicht es dir, schnell zu einem der gängigsten Arbeitsbereiche zu wechseln.
-
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> Der Arbeitsbereich [Surface](Surface_Workbench/de.md) (Oberfläche) bietet Werkzeuge zum Erstellen und Ändern von Oberflächen. Er ähnelt der Option *Fläche aus Kanten* des [Part FormGenerators](Part_Builder/de.md).
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> Der Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md) zur Erstellung technischer Zeichnungen aus 3D-Modellen. Er ist der Nachfolger des Arbeitsbereichs [Drawing](Drawing_Workbench/de.md) (Zeichnung).
 
 -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> Der Arbeitsbereich [Testing](Testing/de.md) (Test Rahmenwerk) ist für die FreeCAD-Fehlersuche.
 
--   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> Der Arbeitsbereich [Web](Web_Workbench/de.md) öffnet ein Browserfenster in FreeCAD anstelle der [3D-Ansicht](3D_view/de.md) .
-
 
 
 ### Veraltet
+
+Die folgenden Arbeitsbereiche sind nach der Version 0.21 nicht mehr Bestandteil von FreeCAD:
+
+-   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> Der Arbeitsbereich [Start](Start_Workbench/de.md) ermöglicht es dir, schnell zu einem der gängigsten Arbeitsbereiche zu wechseln.
+
+-   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> Der Arbeitsbereich [Web](Web_Workbench/de.md) öffnet ein Browserfenster in FreeCAD anstelle der [3D-Ansicht](3D_view/de.md) .
 
 Die folgenden Arbeitsbereiche sind nach der Version 0.20 nicht mehr Bestandteil von FreeCAD:
 

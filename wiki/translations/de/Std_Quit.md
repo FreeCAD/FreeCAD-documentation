@@ -10,9 +10,13 @@
 
 # Std Quit/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std Beenden** schließt das Programm FreeCAD und speichert bei Bedarf ungespeicherte Dokumente.
+
+
 
 ## Anwendung
 
@@ -23,26 +27,18 @@ Der Befehl **Std Beenden** schließt das Programm FreeCAD und speichert bei Beda
     -   Die Schaltfläche **Speichern** drücken, um das aktive Dokument zu speichern. Wenn nötig, vorher einen Dateinamen eingeben.
     -   Die Schaltfläche **Nicht speichern** drücken, um das aktive Dokument zu schließen und alle Änderungen zu verlieren.
 
+
+
 ## Optionen
 
--   Wenn noch mehrere ungespeicherte Dokumente vorhanden sind: Haken bei der Checkbox
-
-
-{{CheckBox|TRUE|Apply answer to all}}
-
-setzen, um Nachfragen zu jeder einzelnen Datei zu vermeiden.
-
+-   Wenn noch mehrere ungespeicherte Dokumente vorhanden sind: Haken bei der Checkbox **Antwort auf alle anwenden** setzen, um Nachfragen zu jeder einzelnen Datei zu vermeiden.
 -   Wenn noch ungespeicherte Dokumente vorhanden sind: **Esc** oder die Schaltfläche **Abbrechen** drücken, um den Befehl abzubrechen.
 
-## Einstellungen
-
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
 
 
 
 
-
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

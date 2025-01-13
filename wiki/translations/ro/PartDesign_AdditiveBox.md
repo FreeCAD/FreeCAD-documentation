@@ -13,11 +13,15 @@
 
 </div>
 
+
+
 ## Descriere
 
 Include o primitivă tip casetă într-un Corp activ (Body) ca prima sa funcționalitate sau îl îmbină cu funcționalitățile existente.
 
 <img alt="" src=images/PartDesign_AdditiveBox_example.png  style="width:200px;">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -38,6 +42,8 @@ Include o primitivă tip casetă într-un Corp activ (Body) ca prima sa funcțio
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -50,6 +56,8 @@ Caseta poate fi editată după crearea acesteia în două moduri:
 
 
 </div>
+
+
 
 ## Proprietăți
 

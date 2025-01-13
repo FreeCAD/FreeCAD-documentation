@@ -76,39 +76,7 @@ Note that this {{Incode|/NCRC}} flag is **not recommended** since the corruption
 
 ## Chocolatey
 
-
-<div class="mw-translate-fuzzy">
-
-Entretanto, é altamente recomendado que você use um gerenciador de pacotes como o Chocolatey para manter seu software atualizado. Você pode instalar Chocolatey seguindo [estas instruções](https://chocolatey.org/install) e depois abrir um terminal PowerShell como administrador e executar:
-
-
-</div>
-
-
-{{Code|lang=text|code=
-choco install freecad
-}}
-
-
-<div class="mw-translate-fuzzy">
-
-de vez em quando, você pode atualizar seu software com
-
-
-</div>
-
-
-{{Code|lang=text|code=
-choco upgrade freecad
-}}
-
-
-<div class="mw-translate-fuzzy">
-
-para obter a última versão disponível no repositório Chocolatey. Se houver algum problema com o pacote Chocolatey, você pode entrar em contato com os mantenedores em [esta página](https://chocolatey.org/packages/freecad).
-
-
-</div>
+Using the [Chocolatey](https://chocolatey.org/install) package manager is currently not recommended as that repository is no longer kept up-to-date.
 
 
 

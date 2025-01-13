@@ -10,9 +10,21 @@
 
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 Одна из основных применений FreeCAD - создание реальных объектов. Они могут быть спроектированы в нём, а затем созданы в реальности различными способами, передачей другим людям, кто изготовит их, или, всё чаще и чаще, прямой посылкой на [3D-принтер](https://ru.wikipedia.org/wiki/3D-принтер) или [фрезерованием на станке с ЧПУ](https://ru.wikipedia.org/wiki/Фрезерование). Эта статья покажет, как приготовить Ваши модели для отправки на подобные устройства.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Если Вы были внимательны во время моделирования, большинства сложностей, с которыми Вы могли бы встретиться при печати Ваших моделей Вы уже избежали. Они включают следующее:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -24,21 +36,49 @@
 
 </div>
 
-Ниже мы подразумеваем что первые два критерия соблюдаются, и что вы способны создать твердотельный объект с правильными размерами. Теперь мы посмотрим, как достичь третьего пункта.
+-   **Confirming the Accuracy of Dimensions**: Precision is critical---what you design in FreeCAD will translate directly to real-world measurements. A millimeter in FreeCAD is a millimeter in the physical object, so each dimension must be carefully considered and verified to ensure accuracy.
+
+-   **Managing Degradation**: It\'s important to remember that no 3D printer or CNC mill can directly process FreeCAD files. These machines use G-Code, a machine language with various dialects depending on the machine or vendor. The process of converting your model into G-Code can often be done automatically through slicer software, but you also have the option to do it manually for greater control. However, during this conversion, some loss of detail or quality is inevitable, particularly when converting the model to a mesh format for printing. You must ensure that this degradation remains within acceptable limits and doesn't affect the functionality or appearance of your final object.
+
+-   **Export Format Compatibility**: For 3D printing, STL is the most commonly used format, but it inherently converts your model into a mesh of triangles, which can result in some loss of detail. It's essential to choose the right resolution when exporting to STL, balancing between detail retention and file size. Similarly, for CNC machining, formats like STEP or IGES are preferable as they maintain the original geometric integrity of the design better than STL. Choosing the right format ensures that the conversion to G-Code remains accurate.
+
+-   **Mesh Analysis and Calibration**: Before exporting your model to a slicer or CNC toolpath generator, it's advisable to run a mesh analysis using FreeCAD's [Mesh Workbench](Mesh_Workbench.md) to detect irregularities, non-manifold edges, or other mesh issues that might complicate the manufacturing process. Additionally, even with a perfect model, make sure your 3D printer or CNC machine is properly calibrated (e.g., for bed leveling, stepper motor settings, or extruder configuration) to avoid quality problems in the final product.
+
+In the following sections, we\'ll assume that you\'ve already taken care of creating solid models with the correct dimensions. Our focus will now shift to managing the conversion process to G-Code, ensuring that your model maintains the necessary quality for 3D printing or CNC machining. By addressing these considerations, you\'ll be better equipped to produce successful physical objects directly from your FreeCAD models.
 
 
 
 ### Экспорт в слайсеры 
 
+
+<div class="mw-translate-fuzzy">
+
 Это техника, чаще всего используемая для трёхмерной печати. Объёмный объект экспортируется в другую программу (слайсер), который создаёт из объекта G-код, нарезая (to slice) его на тонкие слои (откуда и имя), которые повторяют будущие движения объёмного принтера. Поскольку многие из этих принтеров домашнего изготовления, обычно между ними есть небольшие отличия. Эти программы обычно предлагают продвинутые возможности конфигурации, позволяющие настроить выход в точности под особенности вашего принтера.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Реальная объёмная печать, однако, слишком обширная тема для этого руководства. Но мы посмотрим, как экспортировать и использовать слайсеры для проверки корректности выхода.
+
+
+</div>
+
+Slicers often include additional insights, such as estimating print time, material usage, and cost based on the filament or resin being used. This allows you to make informed decisions about the printing process and tweak settings for efficiency or material conservation. Although the deeper intricacies of 3D printing---such as machine calibration, material selection, and post-processing---are beyond the scope of this guide, we will focus on how to properly export your FreeCAD model and use slicer software to ensure the output is correct and optimized for your specific printer
 
 
 
 ### Преобразование объектов в сетки 
 
+
+<div class="mw-translate-fuzzy">
+
 Ни один из слайсеров не использует твердотельную геометрию, создаваемую FreeCAD, напрямую. Так что сначала нам нужно конвертировать объекты, которые мы хотим печатать, в [сетки](https://ru.wikipedia.org/wiki/Полигональная_сетка), которые может открыть слайсер. По счастью, в то время как конвертация сетки в твердое тело - операция сложная, обратная ей операция преобразования в сетку очень прямолинейная. Всё, о чём мы должны заботиться, это об упомянутой выше деградации. Нам следует убедиться, что деградация остаётся в приемлемых рамках.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -61,7 +101,16 @@
 
 </div>
 
-![](images/Exercise_meshing_01.jpg )
+In FreeCAD, the [Mesh Workbench](Mesh_Workbench.md) handles all mesh-related tasks. This workbench contains tools not only for converting between Part and Mesh objects but also for analyzing and repairing meshes. While mesh manipulation isn't the primary focus of FreeCAD, it becomes essential when preparing models for 3D printing. Mesh objects are widely used in other applications, and the Mesh Workbench allows you to fully manage and adjust these objects, ensuring they are ready for the next step in the printing process.
+
+-   Let\'s convert the Lego piece we created in the last chapter into an STL mesh. The geometry can be downloaded at the end of said chapter.
+-   Open the FreeCAD file containing the Lego piece.
+-   Switch to the [Mesh Workbench](Mesh_Workbench.md)
+-   Select the Lego brick
+-   Select menu **Meshes → Create Mesh from Shape**
+-   A task panel will open with several options. Some additional meshing algorithms (Mefisto or Netgen) might not be available, depending on how your version of FreeCAD was compiled. The Standard meshing algorithm will always be present. It offers fewer possibilities than the two others, but is totally sufficient for small objects that fit into the maximum print size of a 3D printer.
+
+![](images/FreeCAD_MeshLego.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -86,62 +135,69 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Если у Вас нет объёмного принтера, можно найти коммерческий сервис, который напечатает и пришлёт по почте ваш объект. Кроме наиболее известных американской [Shapeways](http://www.shapeways.com/) ([в Россию не присылает](https://www.shapeways.com/support/faq?li=footer#faq-shippingcountries)) и французской [Sculpteo](http://www.sculpteo.com/), Вы можете найти и другие в Вашем городе. В крупных городах, в частности, в Москве, Вы найдёте [Fab lab](https://ru.wikipedia.org/wiki/Fab_lab), мастерские, оборудованные множеством станков, среди которых обязательно найдётся хотя бы один принтер трёхмерной печати. Обычно Fab labы представляют собой сообщества, позволяющие использовать их машины, платно или бесплатно в зависимости от мастерской, но как минимум научат Вас использовать их, и популяризуют другие виды деятельности в области трёхмерного изготовления.
 
 
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ### Использование Slic3r 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 [Slic3r](http://slic3r.org/) это приложение, которое конвертирует объекты STL в G-код, который может быть отправлен прямо в объемный принтер. Подобно FreeCAD, это свободное программное обеспечение с открытыми кодами, и работает под Windows, Mac OS и Linux. Корректная настройка трёхмерной печати это сложный процесс, где Вы должны иметь немало познаний о Вашем принтере, так что это не слишком правильно создавать G-код, если Вы не готовы к печати (Ваш файл G-кода может неправильно работать на другом принтере), но это полезно для нас в любом случае, чтобы убедиться в беспроблемной пригодности нашего файла STL для печати.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Это наш экспортированный файл STL, открытый в Slic3r. Используя вкладку **preview**, и передвигая правую полосу прокрутки, мы можем визуализировать путь, который пройдёт головка принтера для создания нашего объекта.
 
-![](images/Exercise_meshing_03.jpg )
 
+</div>
 
+This is our exported STL file opened in PrusaSlicer. By just pressing on the **slice** button, the software divides your model into layers, generates the toolpaths for the 3D printer, and applies the necessary speed and temperature settings. It calculates the infill, support structures, and perimeters, then creates the G-code, which contains detailed instructions for the printer. You can preview the sliced model layer by layer, check estimated print time and filament usage, and finally save or send the G-code to your printer for the actual printing process.
+
+![](images/FreeCAD_PrusaSlicer.png )
 
 
 <div class="mw-translate-fuzzy">
-
-### Использование плагина Cura 
-
-
-**Предупреждение: аддон Cura в настоящее время не работает в FreeCAD 0.17!**
-
-
-</div>
 
 [Cura](https://ultimaker.com/en/products/cura-software) это другое приложение нарезки для Windows, Mac и Linux, поддерживаемое производителем принтеров [Ultimaker](https://ultimaker.com). Некоторые пользователи FreeCAD создали [верстак Cura](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin), который использует использует его внутри. Верстак Cura доступен из репозитория [расширений FreeCAD](https://github.com/FreeCAD/FreeCAD-addons). Для использования верстака Cura, у Вас так же должна быть установлена Cura, не включённая в верстак.
 
-Когда Вы установили и Cura, и верстак, Вы сможете использовать его для получения G-кода прямо из объектов Part, без необходимости конвертировать его в сетку, и без необходимости открывать внешнее приложение. Создание ещё одного файла G-кода из нашего кирпичика Lego, на сей раз с использованием верстака Cura, делается так:
+
+</div>
+
+### Generating G-code 
 
 
 <div class="mw-translate-fuzzy">
 
--   Загрузите файл, содержащий наш кирпичик Lego (он может быть загружен по ссылке в конце предыдущей главы)
--   Переключитесь на [верстак Cura](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)
--   Установите рабочее пространство принтера выбором в меню **3D printing -\> Create a 3D printer definition**. Поскольку мы не собираемся печатать по-настоящему, мы можем оставить значения как есть. Геометрия печатной подложки и доступное пространство будет показано в трёхмерном окне.
--   Поместите кирпичик Lego в подходящее место, например, в центр печатной подложки. Заметьте, что объект PartDesign не может быть перемещён напрямую, так что Вы должны будете либо переместить первичный эскиз (первый прямоугольник), или переместить (и печатать) копию, которая может быть создана инструментом [Деталь -\> Создать простую копию](Part_SimpleCopy/ru.md). Копия может перемещаться, например, с помощью <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Черчение -\> Перемещение](Draft_Move/ru.md).
--   Выделите объект для печати, и выберите в меню **3D printing -\> Slice with Cura Engine**.
--   В открытой панели задач убедитесь, что путь к приложению Cura установлен правильно. Поскольку мы не обязательно собираемся печатать, мы можем оставить остальные опции как есть. Нажмите **Ok**. В каталоге с Вашим файлом FreeCAD будут сгенерированы два файла: STL и G-код.
+FreeCAD так же предлагает более продвинутый путь для прямой генерации G-кода. Это обычно сложнее чем использование автоматических инструментов, которые мы видели выше, но имеет преимущество в том, что Вы имеете полный контроль за выходом. Это обычно не нужно при использовании объёмных принтеров, но становится очень важным при фрезеровании на станках с ЧПУ, поскольку эти машины сложнее.
 
 
 </div>
 
-![](images/Exercise_meshing_05.jpg )
 
--   Созданный G-код так же может быть импортирован обратно в FreeCAD (с использованием препроцессора slic3r) для проверки.
-
-### Генерация G-кода 
-
-
-**'''Внимание:''' Этот раздел был сделан для FreeCAD 0.16. В создание траекторий инструментов были внесены большие изменения. Смотрите документацию [верстака Path](Path_Workbench/ru.md) в целом или учебник вроде [Тропинки для нетерпеливых](Path_Walkthrough_for_the_Impatient/ru.md)!**
-
-FreeCAD так же предлагает более продвинутый путь для прямой генерации G-кода. Это обычно сложнее чем использование автоматических инструментов, которые мы видели выше, но имеет преимущество в том, что Вы имеете полный контроль за выходом. Это обычно не нужно при использовании объёмных принтеров, но становится очень важным при фрезеровании на станках с ЧПУ, поскольку эти машины сложнее.
-
-В FreeCAD генерация G-кода производится с помощью [верстака Path](Path_Workbench/ru.md). Он содержит инструменты, которые генерируют полные трассы инструментов машины и другие, которые могут быть собраны для формирования полной операции фрезерования.
+<div class="mw-translate-fuzzy">
 
 Генерация трасс фрезерования на станке с ЧПУ это ещё одна тема, которая слишком обширна для этого руководства, так что мы собираемся показать только простой проект Path, не обращая внимания на детали реального производства с помощью ЧПУ.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -154,7 +210,13 @@ FreeCAD так же предлагает более продвинутый пу�
 
 </div>
 
-![](images/Exercise_path_01.jpg )
+Though generating CNC milling paths is a topic too broad to cover in detail here, we'll demonstrate how to create a simple CAM project in FreeCAD. While we won't focus on every detail of real-world CNC machining, this guide will introduce you to the essential steps, emphasizing the level of input required to ensure accurate and efficient results. This added complexity is essential for CNC projects, where precision and customizability are critical to achieving desired machining outcomes.
+
+-   Load the file containing our Lego piece, and switch to the <img alt="" src=images/Workbench_CAM.svg  style="width:16px;"> [CAM Workbench](CAM_Workbench.md).
+-   Press on the <img alt="" src=images/CAM_Job.svg  style="width:16px;"> [Job](CAM_Job.md) button and select our lego piece.
+-   Since this section doesn't aim to provide an in-depth tutorial of the CAM Workbench, we will be using the default values. If you would like a more detailed tutorial, please refer to [CAM walk-through](CAM_Walkthrough_for_the_Impatient.md). Keep in mind that in the CAM Workbench, a stock body is automatically created around your object, representing the raw material that will be machined. Right now, this stock body extends 1 mm in all directions from the object.
+
+![](images/FreeCAD_CAM1.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -165,7 +227,9 @@ FreeCAD так же предлагает более продвинутый пу�
 
 </div>
 
-![](images/Exercise_path_02.jpg )
+-   The following image shows the FreeCAD CAM Workbench setup for machining a Lego block. The model tree includes solid modeling operations like Pad, Pocket, and LinearPattern, which were used to shape the part. A Job is created, containing toolpaths under Operations that define how the material will be removed from the Stock. The Default Tool is selected for machining, and the Model-Body represents the 3D part being worked on. This setup prepares the object for generating G-code to control the CNC machine.
+
+![](images/FreeCAD_CAMtree.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -175,18 +239,6 @@ FreeCAD так же предлагает более продвинутый пу�
 
 
 </div>
-
-![](images/Exercise_path_03.jpg )
-
-
-<div class="mw-translate-fuzzy">
-
--   Ещё раз сделаем массив. Выделим объект FacePocket, и нажмём кнопку <img alt="" src=images/Path_Array.svg  style="width:16px;"> [Array](Path_Array/ru.md). Установим **Copies** в 1 и **offset** в -2 мм в направлении Z. Переместим положение массива на 2 мм в направлении Z. Наши две операции теперь готовы:
-
-
-</div>
-
-![](images/Exercise_path_04.jpg )
 
 
 <div class="mw-translate-fuzzy">
@@ -199,15 +251,47 @@ FreeCAD так же предлагает более продвинутый пу�
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Для симуляции реальной резки доступно много приложений, одно из них [Camotics](http://camotics.org/), такое же мультиплаформенное и разрабатываемое на принципах открытых исходных кодов, как и FreeCAD.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 **Загрузки**
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   Созданный в этом упражнении файл STL: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/lego.stl>
 -   Файл, созданный в этом упражнении: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/path.FCStd>
 -   Файл G-кода, созданный в этом упражнении: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/lego.gcode>
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 **Читать далее**
+
+
+</div>
+
+**Downloads**
+
+-   The STL file generated in this exercise: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/lego.stl>
+-   The file generated during this exercise: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/path.FCStd>
+-   The G-code file generated in this exercise: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/lego.gcode>
+
+**Read more**
 
 
 <div class="mw-translate-fuzzy">
@@ -239,4 +323,4 @@ FreeCAD так же предлагает более продвинутый пу�
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Category_Path.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/ru
+⏵ [documentation index](../README.md) > [CAM](Category_CAM.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/ru

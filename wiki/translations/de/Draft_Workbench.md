@@ -1,64 +1,64 @@
-# <img alt="Draft Arbeitsbereichssymbol" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/de
+# <img alt="Symbol des Arbeitsbereichs Draft" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/de
 
 
 
 
 
 
-## Einführung
+## Einleitung
 
 Der Arbeitsbereich <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> **Draft** ist in erster Linie auf die Erstellung und Änderung von 2D-Objekten in FreeCAD ausgerichtet. Er ist jedoch nicht auf die XY-Ebene des globalen Koordinatensystems begrenzt. Seine Objekte können eine beliebige Ausrichtung und Position im 3D-Raum haben, und einige Draft-Objekte können entweder planar oder nicht-planar sein.
 
-Draft-Objekte können für allgemeines Zeichnen verwendet werden, ähnlich dem was mit Inkscape oder AutoCAD erstellt werden kann. Sie können aber auch die Grundlage für die Erstellung von 3D-Objekten in anderen Arbeitsbereichen bilden. Ein [Draft Draht](Draft_Wire/de.md) kann den Pfad einer [Arch Wand](Arch_Wall/de.md) definieren, ein [Draft Polygon](Draft_Polygon/de.md) kann mit [Part Extrudieren](Part_Extrude/de.md) extrudiert werden, usw. Viele der [Draft Modifizierungswerkzeuge](#Änderung.md) können auch auf 2D- und 3D-Objekte angewendet werden, die mit anderen Arbeitsbereichen erstellt wurden. Man kann z.B. eine [Skizze](Sketcher_Workbench/de.md) [verschieben](Draft_Move/de.md) oder eine [Draft OrthoAnordnung](Draft_OrthoArray/de.md) aus einem [Part](Part_Workbench/de.md)-Objekt erstellen.
+Draft-Objekte können für allgemeines Zeichnen verwendet werden, ähnlich dem, was mit Inkscape oder AutoCAD erstellt werden kann. Sie können aber auch die Grundlage für die Erstellung von 3D-Objekten in anderen Arbeitsbereichen bilden. Ein [Draft-Linienzug](Draft_Wire/de.md) kann den Pfad einer [Arch-Wand](Arch_Wall/de.md) definieren, ein [Draft-Vieleck](Draft_Polygon/de.md) kann mit [Part-Extrudieren](Part_Extrude/de.md) extrudiert werden, usw. Viele der [Draft-Änderungswerkzeuge](#Verändern.md) können auch auf 2D- und 3D-Objekte angewendet werden, die mit anderen Arbeitsbereichen erstellt wurden. Man kann z.B. eine [Skizze](Sketcher_Workbench/de.md) [verschieben](Draft_Move/de.md) oder eine [rechtwinklige Draft-Anordnung](Draft_OrthoArray/de.md) aus einem [Part](Part_Workbench/de.md)-Objekt erstellen.
 
-Der Arbeitsbereich Draft bietet auch Werkzeuge zur Definition einer [Arbeitsebene](Draft_SelectPlane/de.md), eines [Gitters](Draft_Snap_Grid/de.md) und eines [Fangsystems](Draft_Snap/de.md), um die Position der Geometrie präzise zu steuern.
+Der Arbeitsbereich Draft enthält auch Werkzeuge zum Festlegen einer [Arbeitsebene](Draft_SelectPlane/de.md), eines [Rasters](Draft_Snap_Grid/de.md) und eines [Einrastsystems](Draft_Snap/de.md), zum präzisen Positionieren von Geometrie.
 
 Wenn das Hauptziel die Erstellung komplexer 2D-Zeichnungen und [DXF](DXF/de.md)-Dateien ist und keine 3D-Modelle benötigt werden, ist FreeCAD möglicherweise nicht die richtige Wahl. Stattdessen sollte man eine spezielle (Software-)Anwendung für technisches Zeichnen in Betracht ziehen, wie [LibreCAD](https://de.wikipedia.org/wiki/LibreCAD) oder [QCad](https://de.wikipedia.org/wiki/QCad).
 
 ![](images/Draft_Workbench_Example.png ) 
-*Das Bild zeigt das [Gitter](Draft_Snap_Grid/de.md), das an der XY-Ebene ausgerichtet ist.<br>
+*Das Bild zeigt das [Raster](Draft_Snap_Grid/de.md), das an der XY-Ebene ausgerichtet ist.<br>
 Links, in weiß, mehrere planare Objekte.<br>
-Rechts ein nicht-planarer [Draft Draht](Draft_Wire/de.md), der als Pfadobjekt einer [Draft PfadAnordnung](Draft_PathArray/de.md) verwendet wird.*
+Rechts ein nicht-planarer [Draft-Linienzug](Draft_Wire/de.md), der als Pfadobjekt einer [Draft-Pfad-Anordnung](Draft_PathArray/de.md) verwendet wird.*
 
 
 
 ## Zeichnen
 
--   <img alt="" src=images/Draft_Line.svg  style="width:32px;"> [Linie](Draft_Line/de.md): erzeugt eine gerade Linie.
+-   <img alt="" src=images/Draft_Line.svg  style="width:32px;"> [Linie](Draft_Line/de.md): erstellt eine gerade Linie.
 
--   <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [Polylinie](Draft_Wire/de.md): erzeugt eine Polylinie (auch Draht genannt), eine Folge von mehreren miteinander verbundenen Liniensegmenten.
+-   <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [Linienzug](Draft_Wire/de.md): erstellt einen Linienzug (auch Polylinie oder Draht genannt), eine Folge von mehreren miteinander verbundenen Linienabschnitten.
 
--   <img alt="" src=images/Draft_Fillet.svg  style="width:32px;"> [Verrundung](Draft_Fillet/de.md): erzeugt eine Verrundung, eine abgerundete Ecke, oder eine Fase, eine gerade Kante, zwischen zwei [Draft Linien](Draft_Line/de.md).
+-   <img alt="" src=images/Draft_Fillet.svg  style="width:32px;"> [Verrundung](Draft_Fillet/de.md): erstellt eine Verrundung (eine abgerundete Ecke) oder eine Fase (eine gerade Kante) zwischen zwei [Draft-Linien](Draft_Line/de.md).
 
 -   <img alt="" src=images/Draft_Arc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Bogenwerkzeuge:
 
-  - <img alt="" src=images/Draft_Arc.svg  style="width:32px;"> [Bogen](Draft_Arc/de.md): erstellt einen Kreisbogen aus einem Zentrum, einem Radius, einem Startwinkel und einem Öffnungswinkel.
+  - <img alt="" src=images/Draft_Arc.svg  style="width:32px;"> [Bogen](Draft_Arc/de.md): erstellt einen Kreisbogen aus einem Mittelpunkt, einem Radius, einem Startwinkel und einem Öffnungswinkel.
 
-  - <img alt="" src=images/Draft_Arc_3Points.svg  style="width:32px;"> [Bogen durch 3 Punkte](Draft_Arc_3Points/de.md): erzeugt einen Kreisbogen aus drei Punkten, die seinen Umfang festlegen.
+  - <img alt="" src=images/Draft_Arc_3Points.svg  style="width:32px;"> [Bogen durch 3 Punkte](Draft_Arc_3Points/de.md): erstellt einen Kreisbogen aus drei Punkten, die seinen Umfang festlegen.
 
--   <img alt="" src=images/Draft_Circle.svg  style="width:32px;"> [Kreis](Draft_Circle/de.md): erzeugt einen Kreis aus einem Zentrum und einem Radius.
+-   <img alt="" src=images/Draft_Circle.svg  style="width:32px;"> [Kreis](Draft_Circle/de.md): erstellt einen Kreis aus Mittelpunkt und Radius.
 
--   <img alt="" src=images/Draft_Ellipse.svg  style="width:32px;"> [Ellipse](Draft_Ellipse/de.md): erstellt eine Ellipse aus zwei Punkten, die ein Rechteck definieren, in das die Ellipse passen soll.
+-   <img alt="" src=images/Draft_Ellipse.svg  style="width:32px;"> [Ellipse](Draft_Ellipse/de.md): erstellt eine Ellipse aus zwei Punkten, die ein Rechteck definieren, in das die Ellipse hineinpasst.
 
--   <img alt="" src=images/Draft_Rectangle.svg  style="width:32px;"> [Rechteck](Draft_Rectangle/de.md): erzeugt ein Rechteck aus zwei Punkten.
+-   <img alt="" src=images/Draft_Rectangle.svg  style="width:32px;"> [Rechteck](Draft_Rectangle/de.md): erstellt ein Rechteck aus zwei Punkten.
 
--   <img alt="" src=images/Draft_Polygon.svg  style="width:32px;"> [Polygon](Draft_Polygon/de.md): erzeugt ein regelmäßiges Polygon aus einem Zentrum und einem Radius.
+-   <img alt="" src=images/Draft_Polygon.svg  style="width:32px;"> [Vieleck](Draft_Polygon/de.md): erstellt ein regelmäßiges Vieleck aus Mittelpunkt und Radius.
 
--   <img alt="" src=images/Draft_BSpline.svg  style="width:32px;"> [B-spline](Draft_BSpline/de.md): erstellt eine B-Spline Kurve aus mehreren Punkten.
+-   <img alt="" src=images/Draft_BSpline.svg  style="width:32px;"> [B-spline](Draft_BSpline/de.md): erstellt eine B-Spline-Kurve aus mehreren Punkten.
 
 -   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Bézier-Werkzeuge:
 
-  - <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:32px;"> [Kubische Bézierkurve](Draft_CubicBezCurve/de.md): erzeugt eine Bézierkurve dritten Grades.
+  - <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:32px;"> [Kubische Bézierkurve](Draft_CubicBezCurve/de.md): erstellt eine Bézierkurve dritten Grades.
 
   - <img alt="" src=images/Draft_BezCurve.svg  style="width:32px;"> [Bézierkurve](Draft_BezCurve/de.md): erstellt eine Bézierkurve aus mehreren Punkten.
 
--   <img alt="" src=images/Draft_Point.svg  style="width:32px;"> [Punkt](Draft_Point/de.md): erzeugt einen einfachen Punkt.
+-   <img alt="" src=images/Draft_Point.svg  style="width:32px;"> [Punkt](Draft_Point/de.md): erstellt einen einfachen Punkt.
 
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Flächenbinder](Draft_Facebinder/de.md): erstellt ein Oberflächenobjekt aus ausgewählten Flächen.
 
--   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [FormZeichenfolge](Draft_ShapeString/de.md): erstellt eine Verbundform, die eine Textzeichenfolge darstellt.
+-   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [Textform](Draft_ShapeString/de.md): erstellt eine Verbundform, die eine Textzeichenfolge darstellt.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Schraffur](Draft_Hatch/de.md): Erstellt eine Schraffur auf der ebenen Fläche eines ausgewählten Objekts. {{Version/de|0.20}}
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Schraffur](Draft_Hatch/de.md): erstellt eine Schraffur auf den ebenen Flächen eines ausgewählten Objekts.
 
 
 
@@ -66,9 +66,9 @@ Rechts ein nicht-planarer [Draft Draht](Draft_Wire/de.md), der als Pfadobjekt ei
 
 -   <img alt="" src=images/Draft_Text.svg  style="width:32px;"> [Text](Draft_Text/de.md): erstellt einen mehrzeiligen Text an einer bestimmten Stelle.
 
--   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Bemaßung](Draft_Dimension/de.md): erstellt ein Längenmaß, ein Radienmaß oder ein Winkelmaß.
+-   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Maß](Draft_Dimension/de.md): erstellt ein Längenmaß, ein Radienmaß oder ein Winkelmaß.
 
--   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Notiz](Draft_Label/de.md): erstellt einen mehrzeiligen Text an einer zweiteiligen Hinweislinie mit Pfeilspitze.
+-   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Hinweis](Draft_Label/de.md): erstellt einen mehrzeiligen Text an einer zweiteiligen Hinweislinie mit Pfeilspitze.
 
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Beschriftungsstile\...](Draft_AnnotationStyleEditor/de.md): erlaubt Stile zu definieren, die die visuellen Eigenschaften von beschriftungsähnlichen Objekten beeinflussen.
 
@@ -94,41 +94,41 @@ Rechts ein nicht-planarer [Draft Draht](Draft_Wire/de.md), der als Pfadobjekt ei
 
 -   <img alt="" src=images/Draft_OrthoArray.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Anordnungswerkzeuge:
 
-  - <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> [RechtwinkligeAnordnung](Draft_OrthoArray/de.md): erstellt eine rechtwinklige Anordnung aus einem ausgewählten Objekt. Wahlweise kann eine [Link](App_Link/de.md)-Anordnung erstellt werde.
+  - <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> [RechtwinkligeAnordnung](Draft_OrthoArray/de.md): erstellt eine rechtwinklige Anordnung aus einem ausgewählten Objekt. Wahlweise kann eine Verknüpfungsanordnung ([Link](App_Link/de.md)-Array) erstellt werden.
 
-  - <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> [Polare Anordnung](Draft_PolarArray/de.md): erstellt eine Anordnung aus einem ausgewählten Objekt, indem Kopien entlang eines Kreisumfangs positioniert werden. Wahlweise kann eine [Link](App_Link/de.md)-Anordnung erstellt werden.
+  - <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> [Polare Anordnung](Draft_PolarArray/de.md): erstellt eine Anordnung aus einem ausgewählten Objekt, indem Kopien entlang eines Kreisumfangs positioniert werden. Wahlweise kann eine Verknüpfungsanordnung ([Link](App_Link/de.md)-Array) erstellt werden.
 
-  - <img alt="" src=images/Draft_CircularArray.svg  style="width:32px;"> [Kreisanordnung](Draft_CircularArray/de.md): erstellt eine Anordnung aus einem ausgewählten Objekt, indem Kopien an konzentrischen Kreisumfängen entlang positioniert werden. Wahlweise kann eine [Link](App_Link/de.md)-Anordnung erstellt werden.
+  - <img alt="" src=images/Draft_CircularArray.svg  style="width:32px;"> [Kreisanordnung](Draft_CircularArray/de.md): erstellt eine Anordnung aus einem ausgewählten Objekt, indem Kopien an konzentrischen Kreisumfängen entlang positioniert werden. Wahlweise kann eine Verknüpfungsanordnung ([Link](App_Link/de.md)-Array) erstellt werden.
 
   - <img alt="" src=images/Draft_PathArray.svg  style="width:32px;"> [Path array](Draft_PathArray/de.md): erstellt eine Anordnung aus einem ausgewählten Objekt, indem Kopien entlang eines Pfades positioniert werden.
 
-  - <img alt="" src=images/Draft_PathLinkArray.svg  style="width:32px;"> [Path link array](Draft_PathLinkArray.md): idem, but create a [Link](App_Link.md) array instead of a regular array.
+  - <img alt="" src=images/Draft_PathLinkArray.svg  style="width:32px;"> [PfadVerknüpfungsanordnung](Draft_PathLinkArray/de.md): wie vorher, erstellt aber eine Verknüpfungsanordnung ([Link](App_Link/de.md)-Array) anstatt einer normalen Anordnung.
 
-  - <img alt="" src=images/Draft_PointArray.svg  style="width:32px;"> [Point array](Draft_PointArray.md): creates an array from a selected object by placing copies at the points from a point compound.
+  - <img alt="" src=images/Draft_PointArray.svg  style="width:32px;"> [Punkt-Anordnung](Draft_PointArray/de.md): erstellt eine Anordnung aus einem ausgewählten Objekt, indem Kopien an den Punkten eines Punktverbundes positioniert werden.
 
-  - <img alt="" src=images/Draft_PointLinkArray.svg  style="width:32px;"> [Point link array](Draft_PointLinkArray.md): idem, but create a [Link](App_Link.md) array instead of a regular array.
+  - <img alt="" src=images/Draft_PointLinkArray.svg  style="width:32px;"> [PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md): wie vorher, erstellt aber eine Verknüpfungsanordnung ([Link](App_Link/de.md)-Array) anstatt einer normalen Anordnung.
 
--   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> [Edit](Draft_Edit.md): puts selected objects in Draft Edit mode. In this mode the properties of objects can be edited graphically.
+-   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> [Bearbeiten](Draft_Edit/de.md): setzt die ausgewählten Objekte in den Draft-Bearbeitungsmodus. In diesem Modus können die Eigenschaften graphisch bearbeitet werden.
 
--   <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:32px;"> [Subelement highlight](Draft_SubelementHighlight.md): temporarily highlights selected objects, or the base objects of selected objects.
+-   <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:32px;"> [Unterement hervorheben](Draft_SubelementHighlight/de.md): hebt ausgewählte Objekte oder die Basisobjekte der ausgewählten Objekte zeitweilig hervor.
 
--   <img alt="" src=images/Draft_Join.svg  style="width:32px;"> [Join](Draft_Join.md): joins [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md) into a single wire.
+-   <img alt="" src=images/Draft_Join.svg  style="width:32px;"> [Verbinden](Draft_Join/de.md): verbindet [Draft-Linien](Draft_Line/de.md) und [Draft-Linienzüge](Draft_Wire/de.md) zu einem einzigen Linienzug.
 
--   <img alt="" src=images/Draft_Split.svg  style="width:32px;"> [Split](Draft_Split.md): splits a [Draft Line](Draft_Line.md) or [Draft Wire](Draft_Wire.md) at a specified point or edge.
+-   <img alt="" src=images/Draft_Split.svg  style="width:32px;"> [Teilen](Draft_Split/de.md): teilt eine [Draft-Linie](Draft_Line/de.md) oder einen [Draft-Linienzug](Draft_Wire/de.md) an einem bestimmten Punkt oder an einer bestimmten Kante.
 
--   <img alt="" src=images/Draft_Upgrade.svg  style="width:32px;"> [Upgrade](Draft_Upgrade.md): upgrades selected objects.
+-   <img alt="" src=images/Draft_Upgrade.svg  style="width:32px;"> [Hochstufen](Draft_Upgrade/de.md): stuft ausgewählte Objekte hoch.
 
--   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Downgrade](Draft_Downgrade.md): downgrades selected objects.
+-   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Zurückstufen](Draft_Downgrade/de.md): stuft ausgewählte Objekte zurück.
 
--   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Wire to B-spline](Draft_WireToBSpline.md): converts [Draft Wires](Draft_Wire.md) to [Draft BSplines](Draft_BSpline.md) and vice versa.
+-   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Linienzug zu B-spline](Draft_WireToBSpline/de.md): wandelt [Draft-Linienzüge](Draft_Wire/de.md) in [Draft-B-Splines](Draft_BSpline/de.md) und zurück.
 
--   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft to sketch](Draft_Draft2Sketch.md): converts [Draft](Draft_Workbench.md) objects to [Sketcher Sketches](Sketcher_NewSketch.md) and vice versa.
+-   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Zeichnung zu Skizze](Draft_Draft2Sketch/de.md): wandelt Draft-Objekte in [Sketcher-Skizzen](Sketcher_NewSketch/de.md) und zurück.
 
--   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Set slope](Draft_Slope.md): slopes selected [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md) by increasing, or decreasing, the Z coordinate of all points after the first one.
+-   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Neigung festlegen](Draft_Slope/de.md): neigt ausgewählte [Draft-Linien](Draft_Line/de.md) oder [Draft-Linienzüge](Draft_Wire/de.md), indem die Werte der Z-Koordinaten aller Punkte nach dem ersten erhöht oder verringert werden.
 
--   <img alt="" src=images/Draft_FlipDimension.svg  style="width:32px;"> [Flip dimension](Draft_FlipDimension.md): rotates the dimension text of selected [Draft Dimensions](Draft_Dimension.md) 180° around the dimension line.
+-   <img alt="" src=images/Draft_FlipDimension.svg  style="width:32px;"> [Maß umkehren](Draft_FlipDimension/de.md): dreht den Maßtext ausgewählter [Draft-Maße](Draft_Dimension/de.md) um 180° um die Maßlinie herum.
 
--   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Shape 2D view](Draft_Shape2DView.md): creates 2D projections from selected objects.
+-   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Form2DAnsicht](Draft_Shape2DView/de.md): erstellt 2D-Projektionen von ausgewählten Objekten.
 
 
 
@@ -140,11 +140,11 @@ Das [Draft Fach](Draft_Tray.md) ermöglicht die Auswahl einer Arbeitsebene, Stil
 
 -   ![](images/Draft_tray_button_plane.png ) [Ebene auswählen](Draft_SelectPlane/de.md): legt die aktuelle Draft-Arbeitsebene fest. Auch im Menü verfügbar: **Dienstprogramme → <img src="images/Draft_SelectPlane.svg" width=16px> Ebene auswählen**.
 
--   ![](images/Draft_tray_button_style.png ) [Set style](Draft_SetStyle.md): sets the default style for new objects. Also available in the menu: **Draft → Utilities → <img src="images/Draft_SetStyle.svg" width=16px> Set style**.
+-   ![](images/Draft_tray_button_style.png ) [Stil festlegen](Draft_SetStyle/de.md): setzt den Standard Stil für neue Objekte. Auch verfügbar im Menü: **Draft → Dienstprogramme → <img src="images/Draft_SetStyle.svg" width=16px> Stil festlegen**.
 
 -   ![](images/Draft_tray_button_construction.png ) [Toggle construction mode](Draft_ToggleConstructionMode.md): switches Draft construction mode on or off. Also available in the menu: **Draft → Utilities → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Toggle construction mode**.
 
--   ![](images/Draft_tray_button_layer.png ) [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
+-   ![](images/Draft_tray_button_layer.png ) [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [BIM](BIM_Workbench.md) object.
 
 
 
@@ -206,11 +206,11 @@ Die Symbolleiste Draft-Einrasten erlaubt das Auswählen der aktiven Einrast-Opti
 
 -   <img alt="" src=images/Draft_LayerManager.svg  style="width:32px;"> [Layer verwalten\...](Draft_LayerManager/de.md): ermöglicht die Verwaltung der Layer in einem Dokument. {{Version/de|0.21}}
 
--   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [BenannteGruppeHinzufügen](Draft_AddNamedGroup/de.md): erstellt eine benannte [Std Gruppe](Std_Group/de.md) und fügt ausgewählte Objekte dieser Gruppe hinzu. {{Version/de|0.20}}
+-   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [BenannteGruppeHinzufügen](Draft_AddNamedGroup/de.md): erstellt eine benannte [Std Gruppe](Std_Group/de.md) und fügt ausgewählte Objekte dieser Gruppe hinzu.
 
 Der Befehl <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> [ZurGruppeHinzufügen\...](Draft_AddToGroup/de.md): verschiebt Objekte in eine [Std Gruppe](Std_Group/de.md). Er kann auch Objekte aus einer Gruppe entfernen.
 
--   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [GruppeWählen](Draft_SelectGroup/de.md): wählt den Inhalt von [Std Gruppen](Std_Group/de.md) oder gruppenartigen [Arch](Arch_Workbench/de.md)-Objekten aus.
+-   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [GruppeWählen](Draft_SelectGroup/de.md): wählt den Inhalt von [Std Gruppen](Std_Group/de.md) oder gruppenartigen [BIM](BIM_Workbench/de.md)-Objekten aus.
 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Add to construction group](Draft_AddConstruction.md): moves objects to the [Draft construction group](Draft_ToggleConstructionMode.md).
 
@@ -222,11 +222,11 @@ Der Befehl <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> [Zu
 
 ## Zusätzliche Werkzeuge 
 
-Weitere Werkzeuge die, abhängig vom ausgewählten Objekt, über das Menü **Entwurf → Hilfsprogramme** oder über das Rechtsklick Kontextmenü, je nach ausgewähltem Objekt.
+Das Menü **Draft → Dienstprogramme** enthält mehrere Werkzeuge. Die meisten davon können auch über Symbolleisten oder das [Draft-Tray](Draft_Tray/de.md) erreicht werden und wurden schon weiter oben erwähnt. Für die folgenden Werkzeuge it dies nicht der Fall:
 
--   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Apply current style](Draft_ApplyStyle.md): applies the current style settings to selected objects.
+-   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Aktuellen Stil anwenden](Draft_ApplyStyle/de.md): wendet die aktuellen Stileinstellungen auf die ausgewählten Objekte an.
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Layer](Draft_Layer.md): creates a [Draft Layer](Draft_Layer.md). Available in the [Draft utility tools toolbar](Draft_Workbench#Draft_utility_tools_toolbar.md) in {{VersionMinus|0.20}}.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Layer](Draft_Layer.md): creates a [Draft Layer](Draft_Layer.md).
 
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Heal](Draft_Heal.md): heals problematic Draft objects found in very old files.
 
@@ -237,16 +237,16 @@ Weitere Werkzeuge die, abhängig vom ausgewählten Objekt, über das Menü **Ent
 ## Zusätzliche Funktionen 
 
 -   [Arbeitsebene](Draft_SelectPlane/de.md): die Ebene in der [3D-Ansicht](3D_view/de.md), in der neue Draft-Objekte erstellt werden.
--   [Fangen](Draft_Snap/de.md): wählt exakte geometrische Punkte auf vorhandenen Objekten oder auf dem Gitter aus, die durch diese definiert sind.
--   [Beschränken](Draft_Constrain/de.md): für jeden nachfolgenden Punkt kannst du die Bewegung des Mauszeigers auf die X, Y oder Z Richtung beschränken.
--   [Konstruktionsmodus](Draft_ToggleConstructionMode/de.md): platziert neue Entwurfsobjekte in einer eigenen Gruppe, was das Ausblenden oder Löschen erleichtert.
+-   [Einrasten](Draft_Snap/de.md): wählt exakte geometrische Punkte auf vorhandenen Objekten aus bzw. durch sie festgelegte Punkte oder legt sie auf dem Raster fest.
+-   [Beschränken](Draft_Constrain/de.md): für jeden nachfolgenden Punkt kann die Bewegung des Mauszeigers auf die X-, Y- oder Z-Richtung eingeschränkt werden.
+-   [Konstruktionsmodus](Draft_ToggleConstructionMode/de.md): platziert neue Draft-Objekte in einer eigenen Gruppe, was das Ausblenden oder Löschen erleichtert.
 -   [Muster](Draft_Pattern/de.md): Draft-Objekte mit einer {{PropertyData/de|Make Face}} können ein SVG-Muster anstelle einer einfarbigen Fläche anzeigen.
 
 
 
 ## Kontextmenü der Baumansicht 
 
-The following additional options are available in the [Tree view](Tree_view.md) context menu:
+Die folgenden zusätzlichen Optionen stehen nur im Kontextmenü der [Baumansicht](Tree_view/de.md) zur Verfügung:
 
 ### Default options 
 
@@ -278,7 +278,7 @@ For a [Draft Layer](Draft_Layer.md) these additional options are available:
 
 For a [Draft Text](Draft_Text.md) and a [Draft Label](Draft_Label.md) that contains one or more hyperlinks, to a local or remote file or an URL, this additional option is available:
 
--   Open hyperlinks: the hyperlinks are opened in the appropriate application (as defined by the OS). There is a warning in the case of multiple hyperlinks. <small>(v0.22)</small> 
+-   Open hyperlinks: the hyperlinks are opened in the appropriate application (as defined by the OS). There is a warning in the case of multiple hyperlinks. <small>(v1.0)</small> 
 
 ### Wire options 
 
@@ -298,7 +298,7 @@ For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional opt
 
 ## Kontextmenü der 3D-Ansicht 
 
-The following additional options are available in the [3D view](3D_view.md) context menu:
+Die folgenden zusätzlichen Optionen stehen nur im Kontextmenü der [3D-Ansicht](3D_view/de.md) zur Verfügung:
 
 ### Default options 
 
@@ -318,7 +318,7 @@ See [above](#Text_options.md).
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Drawing](Draft_Drawing.md): inserts views of selected objects into a [drawing](Drawing_Workbench.md) page. Not available in <small>(v0.21)</small> .
 
--   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off. Not available in <small>(v0.22)</small> .
+-   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off. Not available in <small>(v1.0)</small> .
 
 
 
@@ -357,7 +357,7 @@ freecad -t TestDraft
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Der Arbeitsbereich enthält ein Modul zur Erstellung von Mustern aller Objekte in einem neuen Dokument.
 

@@ -5,7 +5,7 @@ This category lists pages that relate to using the wiki effectively for document
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Wiki:Example/it](Category_Wiki_Example/it.md) |
+| [WikiPages/it](WikiPages/it.md) | [Category:Wiki:Example/it](Category_Wiki_Example/it.md) |
 
 
 

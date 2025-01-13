@@ -7,13 +7,26 @@
 
 ## Description
 
-Select Sketcher Elements associated with constraints.
+The <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:24px;"> [Sketcher SelectElementsAssociatedWithConstraints](Sketcher_SelectElementsAssociatedWithConstraints.md) tool selects the sketch elements associated with constraints.
 
 ## Usage
 
-1.  Select constraint in the [task panel](Task_panel.md) or in the [3D view](3D_view.md).
-2.  Click on **[<img src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg style="width:16px"> [Select associated geometry](Sketcher_SelectElementsAssociatedWithConstraints.md)** or choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg style="width:16px"> Select associated geometry** from the top menu.
-3.  The associated sketcher elements will be highlighted in the [task panel](Task_panel.md).
+1.  Select one or more constraints.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_SelectElementsAssociatedWithConstraints.svg" width=16px> [Select associated geometry](Sketcher_SelectElementsAssociatedWithConstraints.md)** button.
+
+    -   Select the **Sketch → Sketcher visual → <img src="images/Sketcher_SelectElementsAssociatedWithConstraints.svg" width=16px> Select associated geometry** option from the menu.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_SelectElementsAssociatedWithConstraints.svg" width=16px> Select associated geometry** option from the context menu.
+
+    -   Right-click in the **Constraints** section of the [Sketcher Dialog](Sketcher_Dialog.md) and select the **<img src="images/Sketcher_SelectElementsAssociatedWithConstraints.svg" width=16px> Select Elements** option from the context menu.
+
+    -   Use the keyboard shortcut: **Z** then **E**.
+3.  The associated sketch elements are selected.
+4.  Optionally click in an empty area in the [3D view](3D_view.md) to clear the selection.
 
 
 

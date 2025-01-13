@@ -9,9 +9,13 @@
 
 # Std SaveAs/ko
 
+
+
 ## 설명
 
 **표준 다른 이름으로 저장(Std SaveAs)** 명령은 활성 문서를 새 파일 이름으로 저장합니다.
+
+
 
 ## 용법
 
@@ -22,26 +26,23 @@
 3.  
     **저장**버튼을 클릭합니다.
 
+
+
 ## 선택 사항 
 
 -   명령을 중지하려면 **Esc** 키나 **취소** 버튼을 누릅니다.
 
+
+
 ## 비고
 
--   이 명령어는 의존성 그래프를 저장하려고 사용할 수도 있습니다. [표준 의존성 그래프](Std_DependencyGraph/ko.md)를 참조하십시오.
+-   이 명령어는 의존성 그래프를 저장하려고 사용할 수도 있습니다. [표준 의존성 그래프를](Std_DependencyGraph/ko.md) 참조하십시오.
 
-## 환경 설정 
 
--   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## 스크립트
 
-
-**참조:**
-
-[FreeCAD 스크립트 기초](FreeCAD_Scripting_Basics/ko.md).
-
-문서를 새 이름으로 저장하려면 문서 객체의 `saveAs` 메소드를 사용하십시오. 스크립트 예제는 [표준 새 파일](Std_New/ko.md)을 참조하십시오.
+See [Std New](Std_New#Scripting.md).
 
 
 

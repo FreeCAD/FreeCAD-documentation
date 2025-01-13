@@ -1,10 +1,10 @@
 ---
  GuiCommand:
    Name: Draft Facebinder
-   Name/it: Lega facce
-   MenuLocation: Drafting , Lega facce
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   Shortcut: **F** **F**
+   Name/it: Draft Lega facce
+   MenuLocation: Drafting , Lega facce<br>3D/BIM , Strumenti 3D generici , Lega facce
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
+   Shortcut: Draft: **F** **F**
    Version: 0.14
 ---
 
@@ -28,8 +28,9 @@ Può essere utilizzato per creare un\'estrusione da una raccolta di facce. Quest
 1.  Seleziona una o più facce.
 2.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Facebinder.svg" width=16px> [Lega facce](Draft_Facebinder/it.md)**.
-    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_Facebinder.svg" width=16px> Lega facce** dal menu.
-    -   Usare la scorciatoia da tastiera: **F** poi **F**.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Drafting → <img src="images/Draft_Facebinder.svg" width=16px> Lega facce** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **3D/BIM → Strumenti 3D generici → <img src="images/Draft_Facebinder.svg" width=16px> Facebinder** dal menu.
+    -   Draftː Usare la scorciatoia da tastiera: **F** poi **F**.
 
 
 

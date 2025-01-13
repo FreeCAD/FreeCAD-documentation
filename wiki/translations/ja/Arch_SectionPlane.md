@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-このツールは現在のドキュメントに断面表示のためのギズモ（仕組み）を配置します。これよって断面または表示面が定義されます。ギズモは移動と回転によって位置や方向を変えることができ、取得したい2D表示を表示できます。他のオブジェクトを選択しない状態でこのツールが使用された場合、シーンにある全てのオブジェクトが2D表示に含まれます。何かオブジェクトを選択している場合、2D表示にはそのオブジェクトのみ表示されます。[Arch Add](Arch_Add/jp.md)ツールと[Arch Remove](Arch_Remove/jp.md)ツールを使用することで後からSectionPlaneオブジェクトにオブジェクトを追加したり、削除したりすることができます。
+このツールは現在のドキュメントに断面表示のためのギズモ（仕組み）を配置します。これよって断面または表示面が定義されます。ギズモは移動と回転によって位置や方向を変えることができ、取得したい2D表示を表示できます。他のオブジェクトを選択しない状態でこのツールが使用された場合、シーンにある全てのオブジェクトが2D表示に含まれます。何かオブジェクトを選択している場合、2D表示にはそのオブジェクトのみ表示されます。[Arch Addツールと](Arch_Add/jp.md)[Arch Removeツールを](Arch_Remove/jp.md)使用することで後からSectionPlaneオブジェクトにオブジェクトを追加したり、削除したりすることができます。
 
 
 </div>
@@ -20,7 +20,7 @@
 
 <div class="mw-translate-fuzzy">
 
-現在のところ作成時にSectionPlaneオブジェクトはSectionPlaneの対象とみなされるオブジェクトの2D写像が設定された[Drawing Page](Drawing_Workbench.md)オブジェクトを作成します。上の図の左側はシーン内に置かれたSectionPlaneオブジェクトを表し、右側はSVGの2D出力を表しています。面のソートの実装はまだ不完全です。
+現在のところ作成時にSectionPlaneオブジェクトはSectionPlaneの対象とみなされるオブジェクトの2D写像が設定された[Drawing Pageオブジェクトを](Drawing_Workbench.md)作成します。上の図の左側はシーン内に置かれたSectionPlaneオブジェクトを表し、右側はSVGの2D出力を表しています。面のソートの実装はまだ不完全です。
 
 
 </div>
@@ -168,6 +168,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/ja
+⏵ [documentation index](../README.md) > Arch SectionPlane/ja

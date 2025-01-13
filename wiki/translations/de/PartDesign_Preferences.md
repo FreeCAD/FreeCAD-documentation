@@ -1,163 +1,147 @@
 # PartDesign Preferences/de
 ## Einleitung
 
-Die Arbeitsbereiche <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) und <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md) verwenden dieselben Einstellungen. Sie sind im Abschnitt <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> **Part/Part Design** des [Voreinstellungseditors](Preferences_Editor.md) zu finden. Dieser Abschnitt ist nur nur vorhanden, wenn einer der Arbeitsbereiche in der aktuellen FreeCAD-Sitzung geladen wurde.
+Die Arbeitsbereiche <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) und <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md) verwenden dieselben Einstellungen. Sie sind im [Voreinstellungseditor](Preferences_Editor.md) zu finden. Im Menü **Bearbeiten → Einstellungen...** auswählen und dann **<img src="images/Preferences-part_design.svg" width=16px> Part/Part Design**. Diese Gruppe ist nur nur vorhanden, wenn einer der Arbeitsbereiche in der aktuellen FreeCAD-Sitzung geladen wurde.
+
+Einige fortgeschrittene Einstellungen können nur im [Parameter-Editor](Std_DlgParameter/de.md) geändert werden. Siehe [Feinabstimmung](Fine-tuning/de#Arbeitsbereich_PartDesign.md).
+
+Diese Seite wurde für Version 1.0 aktualisiert.
 
 
 
 ## Verfügbare Einstellungen 
 
-Es gibt vier Reiter: Allgemein, Form-Ansicht, Erscheinungsbild der Form und Messen.
+Es gibt Drei Seiten: [Allgemein](#General/de.md), [Form-Ansicht](#Shape_view/de.md) und [Erscheinungsbild der Form](#Shape_appearance/de.md).
 
 
 
 ### Allgemein
 
-Im Reiter *Allgemein* kann Folgendes eingestellt werden:
+<img alt="" src=images/Preferences_PartDesign_Page_General.png  style="width:400px;">
+
+Auf dieser Seite kann Folgendes festgelegt werden:
 
 +++
-| Name                                                                            | Beschreibung                                                                                                                                                                                                                              |
-+=================================================================================+===========================================================================================================================================================================================================================================+
-|                                                                  | Wenn aktiviert, wird die [Boundary-Representation](https://en.wikipedia.org/wiki/Boundary_representation) (BREP) des Modells nach einer [booleschen Operation](Part_Boolean/de.md) [überprüft](Part_CheckGeometry/de.md). |
-| **Modell automatisch nach Boolescher Operation überprüfen**         |                                                                                                                                                                                                                                           |
-|                                                                              |                                                                                                                                                                                                                                           |
+| Name                                                                                                | Beschreibung                                                                                                                                                                                                                              |
++=====================================================================================================+===========================================================================================================================================================================================================================================+
+|                                                                                      | Wenn aktiviert, wird die [Boundary-Representation](https://en.wikipedia.org/wiki/Boundary_representation) (BREP) des Modells nach einer [booleschen Operation](Part_Boolean/de.md) [überprüft](Part_CheckGeometry/de.md). |
+| **Modell automatisch nach Boolescher Operation überprüfen**                             |                                                                                                                                                                                                                                           |
+|                                                                                                  |                                                                                                                                                                                                                                           |
 +++
-|                                                                  | Wenn aktiviert, wird das Modell nach einer [booleschen Operation](Part_Boolean/de.md) [aufbereitet](Part_RefineShape/de.md).                                                                                              |
-| **Modell nach Boolescher Operation automatisch aufbereiten**        |                                                                                                                                                                                                                                           |
-|                                                                              |                                                                                                                                                                                                                                           |
+|                                                                                      | Wenn aktiviert, wird das Modell nach einer [booleschen Operation](Part_Boolean/de.md) [aufbereitet](Part_RefineShape/de.md).                                                                                              |
+| **Modell nach Boolescher Operation automatisch aufbereiten**                            |                                                                                                                                                                                                                                           |
+|                                                                                                  |                                                                                                                                                                                                                                           |
 +++
-|                                                                  | Wenn aktiviert, wird das Modell nach Änderungen an den Skizzen, auf denen das Objekt basiert, [aufbereitet](Part_RefineShape/de.md).                                                                                              |
-| **Modell nach skizzenbasierter Operation automatisch  aufbereiten** |                                                                                                                                                                                                                                           |
-|                                                                              |                                                                                                                                                                                                                                           |
+|                                                                                      | Wenn aktiviert, wird das Modell nach Änderungen an den Skizzen, auf denen das Objekt basiert, [aufbereitet](Part_RefineShape/de.md).                                                                                              |
+| **Modell nach skizzenbasierter Operation automatisch  aufbereiten**                     |                                                                                                                                                                                                                                           |
+|                                                                                                  |                                                                                                                                                                                                                                           |
 +++
-
-![](images/Preferences_Part_design_Tab_General.png )
+|                                                                                      | Wenn aktiviert, können Körper mehrere Festkörper enthalten. {{Version/de|1.0}}                                                                                                                                              |
+| **Mehrere Festkörper in einem PartDesign-Körper standardmäßig erlauben (experimental)** |                                                                                                                                                                                                                                           |
+|                                                                                                  |                                                                                                                                                                                                                                           |
++++
 
 
 
 ### Form-Ansicht 
 
-Im Reiter *Form-Ansicht* kann Folgendes eingestellt werden:
+<img alt="" src=images/Preferences_PartDesign_Page_Shape_view.png  style="width:400px;">
+
+Auf dieser Seite kann Folgendes festgelegt werden:
 
 +++
-| Name                                                                               | Beschreibung                                                                                                                                                                                                 |
-+====================================================================================+==============================================================================================================================================================================================================+
-|                                                                     | Maximale [lineare Abweichung](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) der tessellierten Objekte von ihrer Oberfläche.               |
-| **Setzt die maximale Abweichung abhängig von der Modell-Bounding-Box** |                                                                                                                                                                                                              |
-|                                                                                 |                                                                                                                                                                                                              |
+| Name                                                                               | Beschreibung                                                                                                                                                                                                                                  |
++====================================================================================+===============================================================================================================================================================================================================================================+
+|                                                                     | Die maximale [lineare Abweichung](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) der [tessellierten](#Tessellierung.md) Objekte von ihrer Oberfläche.               |
+| **Setzt die maximale Abweichung abhängig von der Modell-Bounding-Box** |                                                                                                                                                                                                                                               |
+|                                                                                 |                                                                                                                                                                                                                                               |
 +++
-|                                                                     | Maximale [Winkelabweichung](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) von einem tessellierten Objektabschnitt zum nächsten Abschnitt. |
-| **Maximale Winkelabweichung**                                          |                                                                                                                                                                                                              |
-|                                                                                 |                                                                                                                                                                                                              |
+|                                                                     | Die maximale [Winkelabweichung](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) von einem [tessellierten](#Tessellierung.md) Objektabschnitt zum nächsten Abschnitt. |
+| **Maximale Winkelabweichung**                                          |                                                                                                                                                                                                                                               |
+|                                                                                 |                                                                                                                                                                                                                                               |
 +++
-
-![](images/Preferences_Part_design_Tab_Shape_view.png )
 
 
 
 ### Erscheinungsbild der Form 
 
-Im Reiter *Erscheinungsbild der Form* kann Folgendes eingestellt werden:
+<img alt="" src=images/Preferences_PartDesign_Page_Shape_appearance.png  style="width:400px;">
+
+An explanation of the colors can be found [here](Part_ColorPerFace#Usage.md).
+
+Auf dieser Seite kann Folgendes festgelegt werden:
 
 +++
-| Name                               | Description                                                                                                                                                                                                               |
-+====================================+===========================================================================================================================================================================================================================+
-|                     | Color for new shapes. If the option **Random** is set, a random color is used instead.                                                                                                          |
-| **Shape color**        |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+| Name                                   | Description                                                                                                                                                                                                          |
++========================================+======================================================================================================================================================================================================================+
+|                         | The diffuse color for new shapes. If the option **Random** is set, a random color is used instead.                                                                                         |
+| **Shape color**            |                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                      |
 +++
-|                     | Transparency for new shapes <small>(v0.21)</small> .                                                                                                                                                               |
-| **Shape transparency** |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+|                         | The ambient color for new shapes. <small>(v1.0)</small>                                                                                                                                                       |
+| **Ambient shape color**    |                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                      |
 +++
-|                     | Line color for new shapes.                                                                                                                                                                                                |
-| **Line color**         |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+|                         | The emissive color for new shapes. <small>(v1.0)</small>                                                                                                                                                      |
+| **Emissive shape color**   |                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                      |
 +++
-|                     | Line thickness for new shapes.                                                                                                                                                                                            |
-| **Line width**         |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+|                         | The specular color for new shapes. <small>(v1.0)</small>                                                                                                                                                      |
+| **Specular shape color**   |                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                      |
 +++
-|                     | Color for new [vertices](Glossary#Vertex.md).                                                                                                                                                                     |
-| **Vertex color**       |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+|                         | The transparency for new shapes. <small>(v0.21)</small>                                                                                                                                                       |
+| **Shape transparency**     |                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                      |
 +++
-|                     | Size for new [vertices](Glossary#Vertex.md).                                                                                                                                                                      |
-| **Vertex size**        |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+|                         | The shininess for new shapes. <small>(v1.0)</small>                                                                                                                                                           |
+| **Shape shininess**        |                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                      |
 +++
-|                     | Color of [bounding boxes](Property_editor#View.md) in the 3D view.                                                                                                                                                |
-| **Bounding box color** |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+|                         | The line color for new shapes.                                                                                                                                                                                       |
+| **Line color**             |                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                      |
 +++
-|                     | If checked, the color of the interior side of faces will be the same as the exterior side. If not checked either the [backlight color](Preferences_Editor#3D_View.md), if enabled, or black will be used instead. |
-| **Two-side rendering** |                                                                                                                                                                                                                           |
-|                                 |                                                                                                                                                                                                                           |
+|                         | The line thickness for new shapes.                                                                                                                                                                                   |
+| **Line width**             |                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                      |
 +++
-|                     | Text color for document annotations. There is currently no dialog to add annotations to documents. Annotations can only be added using the Python console with this command:                                              |
-| **Text color**         |                                                                                                                                                                                                                           |
-|                                 | obj = App.ActiveDocument.addObject("App::Annotation", "Label")                                                                                                                                                          |
-|                                    |                                                                                                                                                                                                                           |
-|                                    | This console is shown using the menu **View → Panels → Python console**.                                                                                                                        |
+|                         | The color for new [vertices](Glossary#Vertex.md).                                                                                                                                                            |
+| **Vertex color**           |                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                      |
 +++
-
-![](images/Preferences_Part_design_Tab_Shape_appearance.png )
-
-
-
-### Messen
-
-These preferences control the appearance of measurements created with the [Measure tools](Part_Workbench#Measure.md) available in the [Part Workbench](Part_Workbench.md) and [PartDesign Workbench](PartDesign_Workbench.md).
-
-On the *Measure* tab (<small>(v0.21)</small> ) you can specify the following:
-
+|                         | The size for new [vertices](Glossary#Vertex.md).                                                                                                                                                             |
+| **Vertex size**            |                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                      |
 +++
-| Name                                     | Description                                                          |
-+==========================================+======================================================================+
-|                           | Color for 3D linear dimensions.                                      |
-| **3D color**                 |                                                                      |
-|                                       |                                                                      |
+|                         | The color of [bounding boxes](Property_editor#View.md) in the 3D view.                                                                                                                                       |
+| **Bounding box color**     |                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                      |
 +++
-|                           | Color for delta dimensions (parallel to the global X, Y and Z axes). |
-| **Delta color**              |                                                                      |
-|                                       |                                                                      |
+|                         | The font size of [bounding boxes](Property_editor#View.md) in the 3D view. <small>(v1.0)</small>                                                                                                      |
+| **Bounding box font size** |                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                      |
 +++
-|                           | Color for angular dimensions.                                        |
-| **Angular color**            |                                                                      |
-|                                       |                                                                      |
+|                         | If checked, the color of the interior side of faces will be the same as the exterior side. If not checked either the [backlight color](Preferences_Editor#3D_View.md), if enabled, or black is used instead. |
+| **Two-side rendering**     |                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                      |
 +++
-|                           | Font size in pixels.                                                 |
-| **Font size**                |                                                                      |
-|                                       |                                                                      |
+|                         | The text color for new document annotations.                                                                                                                                                                         |
+| **Text color**             |                                                                                                                                                                                                                      |
+|                                     | Currently these annotations can only be added by using the [Python console](Python_console.md):                                                                                                              |
+|                                        |                                                                                                                                                                                                                      |
+|                                        | obj = App.ActiveDocument.addObject("App::Annotation", "Label")                                                                                                                                                     |
 +++
-|                           | If checked, font style bold is used.                                 |
-| **Bold**                     |                                                                      |
-|                                       |                                                                      |
-+++
-|                           | If checked, font style italic is used.                               |
-| **Italic**                   |                                                                      |
-|                                       |                                                                      |
-+++
-|                           | The font to use.                                                     |
-| **Font name**                |                                                                      |
-|                                       |                                                                      |
-+++
-|                           | Press this button to update existing measurements.                   |
-| **Refresh existing measurements** |                                                                      |
-|                                       |                                                                      |
-+++
-
-![](images/Preferences_Part_design_Tab_Measure.png )
 
 
 
 ## Tesselierung
 
-Um ein Objekt effizient darzustellen, ist seine Oberfläche [tesselliert](https://en.wikipedia.org/wiki/Tessellation_(computer_graphics)), d.h. es wird mit einigen kleinen Abweichungen von seiner realen Oberfläche dargestellt. Dies gilt nicht nur für PartDesign Modelle, sondern auch für andere Objekte in FreeCAD.
+Um ein Objekt effizient darzustellen, wird seine Oberfläche [tesselliert](https://en.wikipedia.org/wiki/Tessellation_(computer_graphics)), d.h. es wird mit einigen kleinen Abweichungen von seiner realen Oberfläche dargestellt. Dies gilt nicht nur für PartDesign Modelle, sondern auch für andere Objekte in FreeCAD.
 
-Es gibt eine untere Grenze für die Tessellierung von 0,01%. Wenn du die zusätzliche Zeit wirklich nutzen willst, kannst du die Untergrenze noch weiter reduzieren, indem du das Menü **Werkzeuge → Parameter bearbeiten...** öffnest. Dies öffnet den Parametereditor, in dem du zu **BaseApp → Einstellungen → Mod → Part** navigierst.
+Es gibt eine untere Grenze für die Tessellierung von 0,01%. Ist es OK mehr Zeit aufzuwenden, kann die Untergrenze noch weiter reduziert werden, indem der [Parametereditor](Std_DlgParameter/de.md) geöffnet wird.
 
-Rechtsklick auf **Netzabweichung** und wähle im Kontextmenü **Wert ändern**. Setze den Wert auf die minimale Tesselation deiner Wahl. Bitte beachte, dass der Wert in % angegeben wird, d.h. für einen Wert von 0,005% musst du \"0,00005\" eingeben. Der kleinstmögliche Wert ist 1e-7. **Hinweis:** Im Menü Einstellungen siehst du auch dann noch 0.01%, wenn du einen niedrigeren Wert einstellst.
+Im Parametereditor wird zu **BaseApp → Preferences → Mod → Part** gewechselt und nach einem Rechtsklick auf **Netzabweichung** im Kontextmenü **Wert ändern** ausgewählt. Den Wert auf die gewünschte minimale Tessellierung festlegen. Nicht vergesen, dass der Wert in % angegeben wird, d.h. für einen Wert von 0,005% wird {{Value|0.00005}} eingeben. Der kleinstmögliche Wert ist {{Value|1e-7}}. Bitte beachten, dass Im [Voreinstellungseditor](Preferences_Editor/de.md) noch immer 0.01% angezeigt wird, auch wenn ein niedrigerer Wert eingestellt wurde.
 
 
 

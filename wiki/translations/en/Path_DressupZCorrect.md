@@ -1,31 +1,7 @@
----
- GuiCommand:
-   Name: Path DressupZCorrect
-   MenuLocation: Path , Path Dressup , Z Depth Correction
-   Workbenches: Path_Workbench
----
-
 # Path DressupZCorrect/en
-
-## Description
-
-## Usage
-
-## Options
-
-## Properties
-
-## Scripting
-
-
-
-
-
-{{Path_Tools_navi
-
-}}
+1.  REDIRECT [CAM_DressupZCorrect/en](CAM_DressupZCorrect/en.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupZCorrect/en
+⏵ [documentation index](../README.md) > Path DressupZCorrect/en

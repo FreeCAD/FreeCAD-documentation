@@ -8,6 +8,8 @@ Oto kilka lektur na temat jednostek:
 -   [jednostki kątowe](http://en.wikipedia.org/wiki/Degree_%28angle%29)
 -   [jednostka wdrożona w OCC](https://github.com/3drepo/occt/blob/master/src/UnitsAPI/Units.dat)
 
+
+
 ## Przykłady
 
 
@@ -26,7 +28,7 @@ pq('3/8 in')
 pq('100 km/h')
 
 # transfer to other units
-pq('100 km/h')/tu('m/s')
+pq('100 km/h') / pq('m/s')
 
 # derived units (Ohm)
 pq('m^2*kg*s^-3*A^-2')
@@ -38,10 +40,10 @@ pq('(m^2*kg)/(A^2*s^3)')
 pq('2*pi rad') # full circle
 
 # as gon
-pq('2*pi rad') / tu('gon')
+pq('2*pi rad') / pq('gon')
 
 # more imperial
-tu('1ft (3+7/16)in')
+pq('1ft (3+7/16)in')
 
 # or 
 pq('1\' (3+7/16)"') # the ' we have to escape because of python
@@ -53,9 +55,13 @@ pq('sin(pi)')
 b = Part.makeBox(pq('2in'), pq('2m')/100, 10)
 ```
 
+
+
 ## Obsługiwane jednostki 
 
 Pełna lista wszystkich obsługiwanych jednostek znajduje się [na tej stronie](Expressions/pl#Units.md).
+
+
 
 ## Zobacz również 
 

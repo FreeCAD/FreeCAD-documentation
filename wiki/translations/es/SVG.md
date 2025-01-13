@@ -7,9 +7,11 @@ Vector-based formats such as SVG are very useful in technical drawing programs, 
 
 The SVG image is described in an XML-type language, which means that it can be opened and edited with a simple text editor to make changes. Due to its text-based nature, the file can also be searched, indexed, and compressed easily. This SVG markup language is an open standard developed by the World Wide Web Consortium (W3C) since 1999. This means that an SVG file should be read and interpreted in the same way by compliant viewers and drawing applications.
 
+
+
 ## Utilización
 
-FreeCAD can read and export SVG graphics using the [**Draft SVG**](Draft_SVG.md) function from the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md) Workbench. SVG files are used for many things, including symbols and icons on the graphical user interface, and for templates.
+FreeCAD can read and export SVG graphics using the [**Draft SVG**](Draft_SVG.md) function from the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md) Workbench. SVG files are used for many things, including [symbols](TechDraw_Symbol.md) and [icons](Artwork_Guidelines.md) on the graphical user interface, and for [templates](TechDraw_Templates.md).
 
 :   For example, the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench.md) workbench [templates](TechDraw_Templates.md) can be created as SVG files with some editable text fields that the user can fill in.
 

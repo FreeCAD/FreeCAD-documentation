@@ -157,13 +157,13 @@ class ViewProviderBox:
             "   #######      "};
             """
 
-    def __getstate__(self):
+    def dumps(self):
         """
         Called during document saving.
         """
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         """
         Called during document restore.
         """
@@ -237,6 +237,8 @@ In addition, there are two callbacks in the ViewProvider class that may occasion
 It is not uncommon to encounter a situation where the Python callbacks are not being triggered as they should. Beginners in this area can rest assured that the FeaturePython callback system is not fragile or broken. Invariably when callbacks fail to run it is because a reference is lost or undefined in the underlying code. If, however, callbacks appear to be breaking with no explanation, providing object/proxy references in the `onDocumentRestored()` callback (as noted in the first table above) may alleviate these problems. Until you are comfortable with the callback system, it may be useful to add print statements in each callback to print messages to the console during development.
 
 [наверх](#top.md)
+
+
 
 ## Завершенный исходный код 
 
@@ -364,13 +366,13 @@ class ViewProviderBox:
             "   #######      "};
             """
 
-    def __getstate__(self):
+    def dumps(self):
         """
         Called during document saving.
         """
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         """
         Called during document restore.
         """

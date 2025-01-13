@@ -7,7 +7,7 @@
 
 ## Introdução
 
-The **Std Tools Menu** is one of the 7 sub-menus in the [standard menu](Standard_Menu.md):
+O **Menu de Ferramentas Padrão** é um dos 7 submenus no [menu padrãomenu](Standard_Menu/pt-br.md) padrão:
 
 
 {{StdMenu
@@ -27,43 +27,63 @@ The **Std Tools Menu** is one of the 7 sub-menus in the [standard menu](Standard
 [Ajuda](Std_Help_Menu/pt-br.md)
 }}
 
-The Tools menu provides tools for debugging models, customizing FreeCAD\'s behavior, as well as auxiliary tools.
+O menu Ferramentas fornece ferramentas para depuração de modelos, personalização do comportamento do FreeCAD, bem como ferramentas auxiliares.
 
 
 
 ## Ferramentas
 
-The following tools are available in this menu:
+As seguintes ferramentas estão disponíveis neste menu:
 
--   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Edit parameters\...](Std_DlgParameter.md): Opens a dialog box giving access to the parameters that control the program.
+-   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Editar parametros\...](Std_DlgParameter/pt-br.md): Abre uma caixa de diálogo que dá acesso aos parâmetros que controlam o programa.
 
--   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> [Save image\...](Std_ViewScreenShot.md): Saves a screenshot of the active [3D view](3D_view.md).
+-   \* <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> [Salvar imagem\...](Std_ViewScreenShot/pt-br.md): Salva uma captura de tela da visualização 3D ativa.
 
--   <img alt="" src=images/Std_ViewLoadImage.svg  style="width:32px;"> [Load image\...](Std_ViewLoadImage.md): Loads an image. <small>(v0.21)</small> 
+-   <img alt="" src=images/Std_ViewLoadImage.svg  style="width:32px;"> [Carregar imagem\...](Std_ViewLoadImage/pt-br.md): Carrega uma imagem. <small>(v0.21)</small> 
 
--   <img alt="" src=images/Std_SceneInspector.svg  style="width:32px;"> [Scene inspector\...](Std_SceneInspector.md): Displays an overview of scenegraph nodes of the active 3D view.
+-   <img alt="" src=images/Std_SceneInspector.svg  style="width:32px;"> [Inspetor de cena\...](Std_SceneInspector/pt-br.md): Exibe uma visão geral dos nós do cenógrafo da visualização 3D ativa.
 
--   <img alt="" src=images/Std_DependencyGraph.svg  style="width:32px;"> [Dependency graph\...](Std_DependencyGraph.md): Shows the dependency graph of objects.
+-   <img alt="" src=images/Std_DependencyGraph.svg  style="width:32px;"> [Gráfico de dependência\...](Std_DependencyGraph/pt-br.md): Mostra o gráfico de dependência de objetos.
 
--   <img alt="" src=images/Std_ProjectUtil.svg  style="width:32px;"> [Project utility\...](Std_ProjectUtil.md): Assists in repairing damaged project files.
+-   [Gráfico de dependência de exportação\...](Std_ExportDependencyGraph/pt-br.md) <small>(v0.21)</small> 
 
--   <img alt="" src=images/Std_MeasureDistance.svg  style="width:32px;"> [Measure distance](Std_MeasureDistance.md): Creates an object to measures and display a distance.
+-   <img alt="" src=images/Std_ProjectUtil.svg  style="width:32px;"> [Utilitário de documento\...](Std_ProjectUtil/pt-br.md): Auxilia na reparação de arquivos de projeto danificados.
 
--   <img alt="" src=images/Std_TextDocument.svg  style="width:32px;"> [Add text document](Std_TextDocument.md): Creates an object capable of holding text.
+-   <img alt="" src=images/Std_TextDocument.svg  style="width:32px;"> [Adicionar documento de texto](Std_TextDocument/pt-br.md): cria um objeto capaz de conter texto.
 
--   <img alt="" src=images/Std_DemoMode.svg  style="width:32px;"> [View turntable\...](Std_DemoMode.md): Continuously rotates the camera in the active 3D view.
-
--   <img alt="" src=images/Std_UnitsCalculator.svg  style="width:32px;"> [Units calculator\...](Std_UnitsCalculator.md): Opens a calculator for the conversion of units.
-
--   <img alt="" src=images/Std_DlgCustomize.svg  style="width:32px;"> [Customize\...](Std_DlgCustomize.md): Opens a dialog box with customization options.
-
--   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Addon manager](Std_AddonMgr.md): Opens the Addon manager with which [external workbenches](External_workbenches.md) and [macros](macros.md) can be installed.
+-   <img alt="" src=images/Std_DemoMode.svg  style="width:32px;"> [Ver toca-discos\...](Std_DemoMode/pt-br.md):: Gira continuamente a câmera na visualização 3D ativa.
 
 
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Std_UnitsCalculator.svg  style="width:32px;"> [Calculadora de unidades\...](Std_UnitsCalculator/pt-br.md): Abre uma calculadora para a conversão de unidades.
+
+
+</div>
+
+-   <img alt="" src=images/Std_DlgCustomize.svg  style="width:32px;"> [Personalizar\...](Std_DlgCustomize/pt-br.md): Abre uma caixa de diálogo com opções de personalização.
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Gerenciador de addons](Std_AddonMgr/pt-br.md): abre o gerenciador de complementos com o qual as [bancadas de trabalho externas](External_workbenches/pt-br.md) e [macros ](macros/pt-br.md) podem ser instaladas.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Std_Measure.svg  style="width:32px;"> [Medida](Std_Measure/pt-br.md):<small>(v1.0)</small> 
+
+
+</div>
 
 
 
-{{Std Base navi
+
+
+{{Std_Base_navi
 
 }}
 

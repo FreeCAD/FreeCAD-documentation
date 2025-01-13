@@ -22,10 +22,10 @@ Polecenie **Makrodefinicje \...** otwiera okno dialogowe Wykonaj makro. W tym ok
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie polecenia:
+1.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Naciśnij przycisk **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Makrodefinicje ...](Std_DlgMacroExecute/pl.md)**.
-    -   Wybierz opcję z menu **Makrodefinicje → <img src="images/Std_DlgMacroExecute.svg" width=16px> Makrodefinicje ...**.
-2.  Zostanie otwarte okno dialogowe Wykonaj makro. Zobacz dostępne [Opcje](#Opcje.md).
+    -   Wybierz opcję **Makrodefinicje → <img src="images/Std_DlgMacroExecute.svg" width=16px> Makrodefinicje ...**z menu.
+2.  Zostanie otwarte okno dialogowe **Wykonaj makro**. Zobacz dostępne [opcje](#Opcje.md).
 
 
 
@@ -36,7 +36,7 @@ Polecenie **Makrodefinicje \...** otwiera okno dialogowe Wykonaj makro. W tym ok
 ### Znajdź plik / Znajdź w plikach 
 
 :   
-    {{Version/pl|0.22}}
+    {{Version/pl|1.0}}
     
 
 
@@ -163,7 +163,7 @@ Polecenie **Makrodefinicje \...** otwiera okno dialogowe Wykonaj makro. W tym ok
 
 
 
-### Pobieranie
+## Do pobrania 
 
 1.  Naciśnij przycisk **Pobierz**, aby uruchomić [Menadżer dodatków](Std_AddonMgr/pl.md).
 
@@ -177,13 +177,15 @@ Polecenie **Makrodefinicje \...** otwiera okno dialogowe Wykonaj makro. W tym ok
 
 ## Ustawienia
 
-Lokalizację plików makroinstrukcji użytkownika można również zmienić w preferencjach: **Edycja → Preferencje ... → Python → Makropolecenia → Ścieżka do plików makrodefinicji**. Więcej informacji na ten temat można znaleźć również w [Edytorze ustawień](Preferences_Editor/pl#Makropolecenia.md).
+Zobacz też: [Edytor preferencji](Preferences_Editor/pl.md).
+
+Lokalizację plików makroinstrukcji użytkownika można również zmienić w preferencjach: **Edycja → Preferencje ... → Python → Makropolecenia → Ścieżka do plików makrodefinicji**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

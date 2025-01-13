@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Wire
-   MenuLocation: Drafting , Polyline
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Drafting , Polyline<br>2D Drafting , Polyline
+   Workbenches: Draft_Workbench, BIM_Workbench
    Shortcut: **P** **L**
    Version: 0.7
    SeeAlso: Draft_Line, Draft_BSpline
@@ -27,7 +27,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Wire.svg" width=16px> [Polyline](Draft_Wire.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **2D Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline** option from the menu.
     -   Use the keyboard shortcut: **P** then **L**.
 2.  The **Polyline** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
@@ -36,11 +37,11 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ### Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system.
 -   Press **F** or click the **Filled** checkbox to toggle filled mode. If filled mode is on, the created wire will have **Make Face** set to `True` and will have a filled face, provided it is closed and does not self-intersect. Note that a self-intersecting wire with a face will not display properly, for such a wire **Make Face** must be set to `False`.
 -   Press **N** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after using **<img src="images/Draft_FinishLine.svg" width=16px> Finish** or **<img src="images/Draft_CloseLine.svg" width=16px> Close**, or after creating a closed wire by snapping to the first point of the wire, allowing you to continue creating wires.
 -   Press **/** or the **<img src="images/Draft_UndoLine.svg" width=16px> Undo** button to undo the last point.

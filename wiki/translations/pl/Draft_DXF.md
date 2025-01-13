@@ -106,7 +106,7 @@ Wbudowane jest wsparcie dla następujących konwerterów DWG:
 
 -   [LibreDWG](https://www.gnu.org/software/libredwg) *(open-source, brak obsługi niektórych elementów DWG)*.
 -   [Konwerter plików ODA](https://www.opendesign.com/guestfiles/oda_file_converter) *(bezpłatny)*.
--   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) *(komercyjny)*. {{Version/pl|0.20}}
+-   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) *(komercyjny)*.
 
 Zobacz strony [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl#DWG.md) i [FreeCAD i import DWG](FreeCAD_and_DWG_Import/pl.md), aby uzyskać więcej informacji.
 

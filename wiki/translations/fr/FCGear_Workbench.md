@@ -37,6 +37,8 @@ Après l\'installation, les outils sont disponibles dans la barre d\'outils Gear
 
 -   <img alt="" src=images/FCGear_WormGear.svg  style="width:32px;"> [Vis sans fin](FCGear_WormGear/fr.md) : crée une vis sans fin.
 
+-   <img alt="" src=images/FCGear_TimingGearT.svg  style="width:32px;"> [Engrenage de distribution en T](FCGear_TimingGearT/fr.md) : crée un engrenage de distribution en T.
+
 -   <img alt="" src=images/FCGear_TimingGear.svg  style="width:32px;"> [Engrenage de distribution](FCGear_TimingGear/fr.md) : crée un engrenage de distribution.
 
 -   <img alt="" src=images/FCGear_LanternGear.svg  style="width:32px;"> [Pignon lanterne](FCGear_LanternGear/fr.md) : crée un pignon lanterne.

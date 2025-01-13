@@ -1,19 +1,31 @@
 # Manual:All workbenches at a glance/ro
 {{Manual:TOC}}
 
+As previously mentioned, FreeCAD offers various workbenches, each dedicated to different applications. Although the multitude of options might seem overwhelming at first, each workbench is designed to cater to specific tasks, making the overall workflow more efficient and tailored to various project requirements. For instance, the Part Design workbench is ideal for creating and modifying solid 3D models, while the Draft workbench is perfect for 2D drafting and drawing. This modular approach allows users to customize their interface and toolset according to their specific needs and preferences.
+
+On this page, you will find information regarding the basic set of workbenches and their functionalities. For additional information, feel free to refer to each [workbench](Workbenches.md) page in the FreeCAD documentation for a more complete list.
+
+An interesting feature of FreeCAD is the ability to obtain additional information by hovering the mouse over a command. This tooltip functionality helps users understand what each command does, providing guidance and making it easier to learn and navigate the software.
+
+![](images/FreeCAD_022_ObjectDesc.png )
+
 
 <div class="mw-translate-fuzzy">
 
-Una dintre cele mai mari dificultăți pentru noii utilizatori de FreeCAD este să știm în ce atelier de lucru să găsim un instrument specific. Tabelul de mai jos vă va oferi o imagine de ansamblu asupra celor mai importante tabele de lucru și a instrumentelor acestora. Consultați fiecare pagină de atelier [workbench](Workbenches.md) în documentația FreeCAD pentru o listă mai completă.
+Patru ateliere de lucru sunt, de asemenea, proiectate pentru a lucra în perechi, iar una dintre ele este pe deplin inclusă în cealaltă: Arch conține toate instrumentele Draft și PartDesign toate instrumentele Sketcher. Cu toate acestea, pentru claritate, acestea sunt separate mai jos.
 
 
 </div>
 
-Patru ateliere de lucru sunt, de asemenea, proiectate pentru a lucra în perechi, iar una dintre ele este pe deplin inclusă în cealaltă: Arch conține toate instrumentele Draft și PartDesign toate instrumentele Sketcher. Cu toate acestea, pentru claritate, acestea sunt separate mai jos.
-
 ### Part
 
+
+<div class="mw-translate-fuzzy">
+
 Atelierul Part oferă instrumente de bază pentru lucrul cu componente solide: primitive, cum ar fi cuburile și sferele, precum și operații geometrice simple și operații booleene. Fiind punctul principal de ancorare cu OpenCasCade [OpenCasCade](https://en.wikipedia.org/wiki/Open_Cascade_Technology), atelierul Part furnizează fundamentul sistemului de geometrie al FreeCAD, iar aproape toate celelalte ateliere de lucru produc o geometrie bazată pe Part.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -39,9 +51,43 @@ Atelierul Part oferă instrumente de bază pentru lucrul cu componente solide: p
 
 
 
+### Proiectarea Pieselor 
+
+
+<div class="mw-translate-fuzzy">
+
+Atelierul Piese(Part Design) conține instrumente avansate pentru a construi părți solide. Acesta conține, de asemenea, toate instrumentele de la sketcher. Deoarece nu poate produce decât forme solide (regula numărul unu al Part Design), este atelierul principal de utilizat la proiectarea pieselor (Parts) care urmează a fi fabricate sau imprimate 3D, deoarece veți obține întotdeauna un obiect imprimabil.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+  Instrument                                                                                                                           Descriere                                                                                Instrument                                                                                                                              Descriere
+     
+  <img alt="" src=images/PartDesign_Pad.png  style="width:32px;"> [Pad](PartDesign_Pad.md)                                            Extrudarea unui obiect solid dintr-o schiță selectată                                    <img alt="" src=images/PartDesign_Pocket.png  style="width:32px;"> [Pocket](PartDesign_Pocket.md)                                   Crearea unui buzunar/cavitate av#nd forma schiței selectate. Schița trebuie să fie mapată la fața obiectului solid existent
+  <img alt="" src=images/PartDesign_Revolution.png  style="width:32px;"> [Revolution](PartDesign_Revolution.md)                Crearea unui solid prin rotirea unei schițe în judrul unei axe                           <img alt="" src=images/PartDesign_Groove.png  style="width:32px;"> [Groove](PartDesign_Groove.md)                                   Crearea unei caneluri prin rotirea unei schițe în jurul unei axe
+  <img alt="" src=images/PartDesign_Fillet.png  style="width:32px;"> [Fillet](PartDesign_Fillet.md)                                Rotunjirea muchiilor unui obiect                                                         <img alt="" src=images/PartDesign_Chamfer.png  style="width:32px;"> [Chamfer](PartDesign_Chamfer.md)                               Șanfrenarea muchiilor unui obiect
+  <img alt="" src=images/PartDesign_Draft.png  style="width:32px;"> [Draft](PartDesign_Draft.md)                                    Crează o pantă pe fețele unui obiect                                                     <img alt="" src=images/PartDesign_Mirrored.png  style="width:32px;"> [Mirrored](PartDesign_Mirrored.md)                           Oglindirea unei caracteristici pe un plan sau o fațetă
+  <img alt="" src=images/PartDesign_LinearPattern.png  style="width:32px;"> [Linear pattern](PartDesign_LinearPattern.md)   Multiplică o caracterisctică după un model liniar matricial                              <img alt="" src=images/PartDesign_PolarPattern.png  style="width:32px;"> [Polar pattern](PartDesign_PolarPattern.md)          Multiplică o caracteristică după un model circular/polar
+  <img alt="" src=images/PartDesign_Scaled.png  style="width:32px;"> [Scaled](PartDesign_Scaled.md)                                Scalează caracteristici la o mărime diferită                                             <img alt="" src=images/PartDesign_MultiTransform.png  style="width:32px;"> [Multitransform](PartDesign_MultiTransform.md)   Permite crearea unui model cu orice combinație a celorlalte transformări
+  <img alt="" src=images/PartDesign_WizardShaft.png  style="width:32px;"> [Shaft wizard](PartDesign_WizardShaft.md)           Generă un arbore dintr-o tabelă de valori și permite analizarea forțelor și momentelor   <img alt="" src=images/PartDesign_InvoluteGear.png  style="width:32px;"> [Involute gear wizard](PartDesign_InvoluteGear.md)   Vă permite să creați mai multe tipuri de angrenaje
+
+
+</div>
+
+
+
 ### Desen 2 D 
 
+
+<div class="mw-translate-fuzzy">
+
 Atelierul Desen 2D (Draft) oferă instrumente pentru a efectua sarcini de bază de desenare 2D CAD: linii, cercuri etc. și o serie de instrumente generice, cum ar fi mișcarea, rotirea sau scalarea. Acesta oferă, de asemenea, mai multe ajutoare de desen, cum ar fi grila și ancorarea. Este în principal destinat să deseneze liniile directoare pentru obiectele Arch, dar servește și ca \"briceag elvețian\" bun la toate în FreeCAD.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -66,9 +112,17 @@ Atelierul Desen 2D (Draft) oferă instrumente pentru a efectua sarcini de bază 
 
 </div>
 
+\|- \| <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Snap extension](Draft_Snap_Extension.md) \| Snaps to an imaginary line that extends beyond the endpoints of straight edges \| <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:32px;"> [Snap parallel](Draft_Snap_Parallel.md) \| Snaps to an imaginary line parallel to straight edges \|- \| <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Snap special](Draft_Snap_Special.md) \| Snaps to special points defined by the object. \| <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Snap near](Draft_Snap_Near.md) \| Snaps to the nearest point on faces and edges \|- \| <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Snap ortho](Draft_Snap_Ortho.md) \| Snaps to imaginary lines that cross the previous point at multiples of 45°. \| <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap grid](Draft_Snap_Grid.md) \| Snaps to the intersections of grid lines. \|- \| <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap working plane](Draft_Snap_WorkingPlane.md) \| Projects snap points onto the current [working plane](Draft_SelectPlane.md) \| <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap dimensions](Draft_Snap_Dimensions.md) \| Shows temporary X and Y dimensions \|}
+
 ### Sketcher
 
+
+<div class="mw-translate-fuzzy">
+
 Sketcher Workbench conține instrumente pentru a construi și edita obiecte complexe 2D, numite schițe. Geometria din interiorul acestor schițe poate fi poziționată precis și relaționată de utilizarea constrângerilor. Acestea sunt în primul rând menite a fi elementele de bază ale geometriei PartDesign, dar sunt utile oriunde în FreeCAD.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -101,31 +155,21 @@ Sketcher Workbench conține instrumente pentru a construi și edita obiecte comp
 
 
 
-### Proiectarea Pieselor 
-
-Atelierul Piese(Part Design) conține instrumente avansate pentru a construi părți solide. Acesta conține, de asemenea, toate instrumentele de la sketcher. Deoarece nu poate produce decât forme solide (regula numărul unu al Part Design), este atelierul principal de utilizat la proiectarea pieselor (Parts) care urmează a fi fabricate sau imprimate 3D, deoarece veți obține întotdeauna un obiect imprimabil.
-
 
 <div class="mw-translate-fuzzy">
 
-  Instrument                                                                                                                           Descriere                                                                                Instrument                                                                                                                              Descriere
-     
-  <img alt="" src=images/PartDesign_Pad.png  style="width:32px;"> [Pad](PartDesign_Pad.md)                                            Extrudarea unui obiect solid dintr-o schiță selectată                                    <img alt="" src=images/PartDesign_Pocket.png  style="width:32px;"> [Pocket](PartDesign_Pocket.md)                                   Crearea unui buzunar/cavitate av#nd forma schiței selectate. Schița trebuie să fie mapată la fața obiectului solid existent
-  <img alt="" src=images/PartDesign_Revolution.png  style="width:32px;"> [Revolution](PartDesign_Revolution.md)                Crearea unui solid prin rotirea unei schițe în judrul unei axe                           <img alt="" src=images/PartDesign_Groove.png  style="width:32px;"> [Groove](PartDesign_Groove.md)                                   Crearea unei caneluri prin rotirea unei schițe în jurul unei axe
-  <img alt="" src=images/PartDesign_Fillet.png  style="width:32px;"> [Fillet](PartDesign_Fillet.md)                                Rotunjirea muchiilor unui obiect                                                         <img alt="" src=images/PartDesign_Chamfer.png  style="width:32px;"> [Chamfer](PartDesign_Chamfer.md)                               Șanfrenarea muchiilor unui obiect
-  <img alt="" src=images/PartDesign_Draft.png  style="width:32px;"> [Draft](PartDesign_Draft.md)                                    Crează o pantă pe fețele unui obiect                                                     <img alt="" src=images/PartDesign_Mirrored.png  style="width:32px;"> [Mirrored](PartDesign_Mirrored.md)                           Oglindirea unei caracteristici pe un plan sau o fațetă
-  <img alt="" src=images/PartDesign_LinearPattern.png  style="width:32px;"> [Linear pattern](PartDesign_LinearPattern.md)   Multiplică o caracterisctică după un model liniar matricial                              <img alt="" src=images/PartDesign_PolarPattern.png  style="width:32px;"> [Polar pattern](PartDesign_PolarPattern.md)          Multiplică o caracteristică după un model circular/polar
-  <img alt="" src=images/PartDesign_Scaled.png  style="width:32px;"> [Scaled](PartDesign_Scaled.md)                                Scalează caracteristici la o mărime diferită                                             <img alt="" src=images/PartDesign_MultiTransform.png  style="width:32px;"> [Multitransform](PartDesign_MultiTransform.md)   Permite crearea unui model cu orice combinație a celorlalte transformări
-  <img alt="" src=images/PartDesign_WizardShaft.png  style="width:32px;"> [Shaft wizard](PartDesign_WizardShaft.md)           Generă un arbore dintr-o tabelă de valori și permite analizarea forțelor și momentelor   <img alt="" src=images/PartDesign_InvoluteGear.png  style="width:32px;"> [Involute gear wizard](PartDesign_InvoluteGear.md)   Vă permite să creați mai multe tipuri de angrenaje
+### Architectură
 
 
 </div>
 
 
-
-### Architectură
+<div class="mw-translate-fuzzy">
 
 Atelierul Architectură (sau pe scurt Arch) furnizează la FreeCAD instrumente pentru lucrul cu proiectele BIM (Construcții civile și arhitectură) [BIM](https://en.wikipedia.org/wiki/Building_information_modeling) projects (civil engineering and architecture). Acesta conține, de asemenea, toate instrumentele de la Atelierul Desen 2 D (Draft). Utilizarea principală a atelierului Arch este de a crea obiecte BIM sau de a da atribute BIM obiectelor construite cu alte ateliere de lucru, pentru a le exporta în format IFC [IFC](https://en.wikipedia.org/wiki/Industry_Foundation_Classes).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -179,7 +223,13 @@ permite crearea și manipularea datelor din foaia de calcul, care pot fi extrase
 
 ### Ateliere externe 
 
+
+<div class="mw-translate-fuzzy">
+
 Există, de asemenea, multe alte ateliere de lucru foarte folositoare produse de membrii comunității FreeCAD. Deși nu sunt incluse într-o instalare standard a FreeCAD, ele sunt ușor de instalat ca plugin-uri. Acestea sunt toate menționate în [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons) repertoriu. Printre cele mai dezvoltate sunt:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

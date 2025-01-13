@@ -59,7 +59,7 @@ De asemenea, puteți selecta unul sau mai multe corpuri înainte de a apăsa but
 
 </div>
 
-Alternatively, objects can be selected prior to pressing the Boolean button. They will be added. automatically. When pre-selecting you are not restricted to Bodies. [PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) and even solids created with other workbenches can then also be selected.
+Alternatively, objects can be selected prior to pressing the Boolean button. They will be added automatically. When pre-selecting you are not restricted to Bodies. [PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) and even solids created with other workbenches can then also be selected.
 
 
 

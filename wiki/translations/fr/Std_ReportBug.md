@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Std ReportBug
    Name/fr: Std Rapport de bogue
-   MenuLocation: Aide , Signaler un bogue
+   MenuLocation: Aide , Signaler un problème
    Workbenches: Tous
    Version: 0.20
 ---
@@ -19,13 +19,13 @@ La commande pointe vers [<https://github.com/FreeCAD/FreeCAD/issues>](https://gi
 
 ## Utilisation
 
-1.  Sélectionnez l\'option **Aide → <img src="images/Std_ReportBug.svg" width=16px> Signaler un bogue** du menu.
+1.  Sélectionnez l\'option **Aide → <img src="images/Std_ReportBug.svg" width=16px> Signaler un problème** du menu.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

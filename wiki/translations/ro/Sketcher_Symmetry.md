@@ -26,6 +26,8 @@ Copiază un simetric la un element al schiței față de o linie aleasă .
 
 ## Usage
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
 
 <div class="mw-translate-fuzzy">
 

@@ -1,16 +1,16 @@
 # Category:Reinforcement/ru
-
+This category is for pages related to the [Reinforcement Workbench/ru](Reinforcement_Workbench/ru.md).
 
 ### Contents
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch Rebar BeamReinforcement/ru](Arch_Rebar_BeamReinforcement/ru.md) | [Arch Rebar BentShape/ru](Arch_Rebar_BentShape/ru.md) | [Arch Rebar BOM/ru](Arch_Rebar_BOM/ru.md) |
-| [Arch Rebar Circular ColumnReinforcement/ru](Arch_Rebar_Circular_ColumnReinforcement/ru.md) | [Arch Rebar ColumnReinforcement TwoTiesSixRebars/ru](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/ru.md) | [Arch Rebar ColumnReinforcement/ru](Arch_Rebar_ColumnReinforcement/ru.md) |
-| [Arch Rebar Drawing Dimensioning/ru](Arch_Rebar_Drawing_Dimensioning/ru.md) | [Arch Rebar Footing Reinforcement/ru](Arch_Rebar_Footing_Reinforcement/ru.md) | [Arch Rebar Helical/ru](Arch_Rebar_Helical/ru.md) |
-| [Arch Rebar LShape/ru](Arch_Rebar_LShape/ru.md) | [Arch Rebar Slab Reinforcement/ru](Arch_Rebar_Slab_Reinforcement/ru.md) | [Arch Rebar Stirrup/ru](Arch_Rebar_Stirrup/ru.md) |
-| [Arch Rebar Straight/ru](Arch_Rebar_Straight/ru.md) | [Arch Rebar UShape/ru](Arch_Rebar_UShape/ru.md) | [Arch Rebar/ru](Arch_Rebar/ru.md) |
-| [Custom Spacing/ru](Custom_Spacing/ru.md) | [Reinforcement Bar Bending Schedule/ru](Reinforcement_Bar_Bending_Schedule/ru.md) | [Reinforcement Bar Shape Cut List/ru](Reinforcement_Bar_Shape_Cut_List/ru.md) |
+| [Arch Rebar/ru](Arch_Rebar/ru.md) | [Reinforcement BarBendingSchedule/ru](Reinforcement_BarBendingSchedule/ru.md) | [Reinforcement BarShapeCutList/ru](Reinforcement_BarShapeCutList/ru.md) |
+| [Reinforcement BeamRebars/ru](Reinforcement_BeamRebars/ru.md) | [Reinforcement BentShapeRebar/ru](Reinforcement_BentShapeRebar/ru.md) | [Reinforcement BillOfMaterial/ru](Reinforcement_BillOfMaterial/ru.md) |
+| [Reinforcement ColumnRebars Circular/ru](Reinforcement_ColumnRebars_Circular/ru.md) | [Reinforcement ColumnRebars TwoTiesSixRebars/ru](Reinforcement_ColumnRebars_TwoTiesSixRebars/ru.md) | [Reinforcement ColumnRebars/ru](Reinforcement_ColumnRebars/ru.md) |
+| [Reinforcement Custom Spacing/ru](Reinforcement_Custom_Spacing/ru.md) | [Reinforcement DrawingDimensioning/ru](Reinforcement_DrawingDimensioning/ru.md) | [Reinforcement FootingRebars/ru](Reinforcement_FootingRebars/ru.md) |
+| [Reinforcement HelicalRebar/ru](Reinforcement_HelicalRebar/ru.md) | [Reinforcement LShapeRebar/ru](Reinforcement_LShapeRebar/ru.md) | [Reinforcement SlabRebars/ru](Reinforcement_SlabRebars/ru.md) |
+| [Reinforcement StirrupRebar/ru](Reinforcement_StirrupRebar/ru.md) | [Reinforcement StraightRebar/ru](Reinforcement_StraightRebar/ru.md) | [Reinforcement UShapeRebar/ru](Reinforcement_UShapeRebar/ru.md) |
 | [Reinforcement Workbench/ru](Reinforcement_Workbench/ru.md) |
 
 

@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Hatch
-   MenuLocation: Drafting , Hatch
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Drafting , Hatch<br>Annotation , Hatch
+   Workbenches: Draft_Workbench, BIM_Workbench
    Shortcut: **H** **A**
    Version: 0.20
    SeeAlso: Draft_Pattern
@@ -19,7 +19,8 @@ The <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> **Draft Hatch**
 1.  Select an object with faces. Only the planar faces of the object will be hatched.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Hatch.svg" width=16px> [Hatch](Draft_Hatch.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_Hatch.svg" width=16px> Hatch** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Drafting → <img src="images/Draft_Hatch.svg" width=16px> Hatch** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Annotation → <img src="images/Draft_Hatch.svg" width=16px> Hatch** option from the menu.
     -   Use the keyboard shortcut: **H** then **A**.
 3.  The **Hatch** task panel opens. See [Options](#Options.md) for more information.
 4.  Press the **OK** button to finish the command.
@@ -34,7 +35,7 @@ The <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> **Draft Hatch**
 
 ## Pattern alignment 
 
-When the hatch pattern for a face is calculated it is temporarily translated to the global XY plane by default. For a face with straight edged the first straight edge determines how this happens. The first point of that edge is put on the origin, and the edge itself is aligned with the X-axis. If you create [Draft Wires](Draft_Wire.md) with that in mind you can control how the hatch pattern is aligned with the outline of the face.
+When the hatch pattern for a face is calculated it is temporarily translated to the global XY plane by default. For a face with straight edges the first straight edge determines how this happens. The first point of that edge is put on the origin, and the edge itself is aligned with the X-axis. If you create [Draft Wires](Draft_Wire.md) with that in mind you can control how the hatch pattern is aligned with the outline of the face.
 
 If all faces of the selected object are on the global XY plane you can switch off this default behavior by setting the **Translate** property of the Draft Hatch to `False`. The hatch pattern is then aligned with the origin and the X axis of the global coordinate system. For faces on the XY plane with straight edges the **Translate** property can be used to switch between absolute (on the left in the image) and relative (on the right in the image) patterns.
 

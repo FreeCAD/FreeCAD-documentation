@@ -2,10 +2,10 @@
  GuiCommand:
    Name: Part TransformedCopy
    Name/de: Part TransformierteKopie
-   MenuLocation: Part , Erzeuge eine Kopie , Erzeuge transformierte Kopie
+   MenuLocation: Part , Kopie erstellen , Transformierte Kopie erstellen
    Workbenches: Part Workbench/de
    Version: 0.19
-   Siehe auch: Part_SimpleCopy, Part_ElementCopy/de, Part_RefineShape/de
+   Siehe auch: Part_SimpleCopy/de
 ---
 
 # Part TransformedCopy/de
@@ -14,32 +14,32 @@
 
 ## Beschreibung
 
-[Part TransformierteKopie](Part_TransformedCopy/de.md) erzeugt eine nichtparametrische Kopie eines Objekts, das aus seiner ursprünglichen Position verschoben wurde.
+Der Befehl <img alt="" src=images/Part_TransformedCopy.svg  style="width:24px;"> [Part TransformierteKopie](Part_TransformedCopy/de.md) erstellt nichtparametrische Kopien von Objekten. Er ist gedacht für Objekte, die in Behältern eingebettet sind.
 
-Mit [Part_EinfacheKopie](Part_SimpleCopy/de.md), [Part_ElementKopie](Part_ElementCopy/de.md) oder [FormVerfeinern](Part_RefineShape/de.md) können weitere nicht-parametrische Kopien erstellt werden.
+The **Placement** of the copies is adjusted, accounting for the placement of the container(s), so that their position and rotation relative to the global coordinate system is the same as that of the original objects. If the selected objects are not nested, or nested in a container with a default placement, this command produces the same results as [Part SimpleCopy](Part_SimpleCopy.md).
 
 
 
 ## Anwendung
 
-1.  Wähle ein Objekt aus, das Du kopieren möchtest.
-2.  Gehe zum Menü **Teil → Erstelle eine Kopie → [<img src=images/Part_TransformedCopy.svg style="width:16px"> [Erzeuge transformierte Kopie](Part_TransformedCopy/de.md)**.
+1.  Ein oder mehrere Objekte auswählen.
+2.  Den Menüeintrag **Part → Kopie erstellen → <img src="images/Part_TransformedCopy.svg" width=16px> [Transformierte Kopie erstellen](Part_TransformedCopy/de.md)** auswählen.
 
 
 
 ## Eigenschaften
 
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
+
+Die erstellten Objekte sind [Part Formelemente](Part_Feature/de.md) ohne weitere Eigenschaften.
 
 
-### Daten
-
-Die Kopie hat eine einfache {{PropertyData/de|Positionierung}} Eigenschaft wie jede andere [Part Funktion](Part_Feature/de.md).
 
 
 
-### Ansicht
+{{Part_Tools_navi
 
-Die Kopie hat einfache Ansichtseigenschaften wie jede andere [Teilfunktion](Part_Feature/de.md).
+}}
 
 
 

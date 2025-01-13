@@ -1,37 +1,41 @@
 # Shape/it
 ## Introduzione
 
-In FreeCAD the word \"[Shape](Shape.md)\" is normally used to refer to a [Part TopoShape](Part_TopoShape.md) (`Part::TopoShape` class), a type of object that gives an element its 3D geometrical and parametric representation (cube, pyramid, sphere, cylinder, fusion, etc.).
+In FreeCAD la parola \"[Shape](Shape/it.md)\" (Forma) viene normalmente utilizzata per riferirsi a una [Part TopoShape](Part_TopoShape/it.md) (classe `Part::TopoShape`), un tipo di oggetto che fornisce ad un elemento la sua rappresentazione geometrica e parametrica 3D (cubo, piramide, sfera, cilindro, fusione, ecc.).
 
-Essentially all objects that are displayed in the [3D view](3D_view.md) have a [TopoShape](Part_TopoShape.md), with the exception of \"[Meshes](Mesh.md)\", which have a [MeshObject](Mesh_MeshObject.md) (`Mesh::MeshObject` class).
+Essenzialmente tutti gli oggetti visualizzati nella [Vista 3D](3D_view/it.md) hanno un [TopoShape](Part_TopoShape/it.md), ad eccezione delle \"[Mesh](Mesh/it.md)\", che hanno un \[\[Mesh_MeshObject/it\|MeshObject\] \] (classe `Mesh::MeshObject`).
 
-See [Part TopoShape](Part_TopoShape.md) for more information about this type of object.
+Vedere [Part TopoShape](Part_TopoShape/it.md) per ulteriori informazioni su questo tipo di oggetto.
 
 ![](images/Shape_and_mesh.svg )
 
 
 
-*Left: parametric [shape](Shape.md) defined by properties. Right: [mesh](Mesh.md), defined by vertices and triangular surfaces.*
+*Sinistra: [forma](Shape/it.md) parametrica definita dalle proprietà. A destra: [mesh](Mesh/it.md), definita da vertici e superfici triangolari.*
 
-## Usage
 
-Shapes are normally created by internal functions of the [Part Workbench](Part_Workbench.md), and are ultimately defined by the [OpenCASCADE Technology](OpenCASCADE.md) kernel (OCCT).
 
-Once a Shape is created, it can be used and modified by all [workbenches](Workbenches.md) by creating [scripted objects](scripted_objects.md) around that Shape.
+## Utilizzo
 
-Essentially, every object derived from a [Part Feature](Part_Feature.md) (`Part::Feature` class) is expected to hold and manipulate a Shape.
+Le Shape (Forme) vengono normalmente create da funzioni interne del [Ambiente Part](Part_Workbench/it.md) e sono infine definite dal kernel [OpenCASCADE Technology](OpenCASCADE/it.md) (OCCT).
 
-Any OpenCascade Shape has a tesselation mainly to view the Shape on screen. More information about this can be found in this German [forum post](https://forum.freecad.org/viewtopic.php?t=77521&start=10#p674947) and in the [OpenCascad Mesh documentation](https://dev.opencascade.org/doc/overview/html/occt_user_guides__mesh.html).
+Una volta creata una Forma, può essere utilizzata e modificata da tutti gli [ambienti di lavoro](Workbenches/it.md) creando [oggetti con script](scripted_objects/it.md) attorno a quella Forma.
 
-## Notes
+In sostanza, ci si aspetta che ogni oggetto derivato da una [Part Feature](Part_Feature/it.md) (classe `Part::Feature`) contenga e manipoli una Forma.
 
-In informal usage, a \"Shape\" may be any geometrical figure that is visible in the [3D view](3D_view.md), and thus its concept may be confused with that of \"[Body](Body.md)\" or \"[Part](Part.md)\".
+Qualsiasi forma OpenCascade ha una tassellatura principalmente per visualizzare la forma sullo schermo. Maggiori informazioni a riguardo possono essere trovate in questo [post del forum](https://forum.freecad.org/viewtopic.php?t=77521&start=10#p674947) e nel [/overview/html/occt_user_guides\_\_mesh.html documentazione OpenCascad Mesh](https://dev.opencascade.org/doc).
 
-However, when more precision is required, the distinction must be made.
 
--   A \"[Body](Body.md)\" is an object derived from a [Part Feature](Part_Feature.md) (`Part::Feature` class), created with the [PartDesign Workbench](PartDesign_Workbench.md).
--   A \"Shape\" is an internal object, embedded within the \"[Body](Body.md)\".
--   A \"[Part](Part.md)\" is used to group several \"[Bodies](Body.md)\" to form an [assembly](assembly.md). A \"Part\" has a collection of \"Shapes\", but doesn\'t have a \"Shape\" of its own.
+
+## Note
+
+Nell\'uso informale, una \"Forma\" può essere qualsiasi figura geometrica visibile nella [vista 3D](3D_view/it.md), e quindi il suo concetto può essere confuso con quello di \"[Corpo](Body/it.md)\" o \"[Parte](Part/it.md)\".
+
+Tuttavia, quando è richiesta maggiore precisione, è necessario fare una distinzione.
+
+-   Un \"[Corpo](Body/it.md)\" (Body) è un oggetto derivato da una [Part Feature](Part_Feature/it.md) (classe `Part::Feature`), creato con l\'[Ambiente PartDesign](PartDesign_Workbench/it.md) .
+-   Una \"Forma\" è un oggetto interno, incorporato nel \"[Corpo](Body/it.md)\".
+-   Una \"[Parte](Part/it.md)\" (Part) viene utilizzata per raggruppare diversi \"[Corpi](Body/it.md)\" per formare un [assieme](assembly/it.md). Una \"Parte\" possiede una raccolta di \"Forme\", ma non ha una propria \"Forma\".
 
 
  {{Document objects navi}}

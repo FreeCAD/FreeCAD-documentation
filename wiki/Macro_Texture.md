@@ -4,10 +4,10 @@
 |Icon=FCTexture.png
 |Description=Creates a 3D image from an 8 bit (256 color) BMP image.<br/>In other words, it allows one to build a 3D project very easily from a bitmap image using grayscale (256 shades of gray).<br/>If one 32 bit BMP image is selected, the image is represented in points.<br/>The '''FCCreaLoft Macro Loft''' macro is used to automate the multi loft operation.
 |Author=Mario52
-|Version=0.14c
-|Date=2021/01/16
+|Version=0.15
+|Date=2025/01/04
 |FCVersion=0.18 and more
-|Download=[https://www.freecadweb.org/wiki/images/9/90/FCTexture.png ToolBar Icon]
+|Download=[https://www.freecad.org/wiki/images/9/90/FCTexture.png ToolBar Icon]
 |SeeAlso=[32px|FCCreaLoft](File:FCCreaLoft.png.md) [Macro Loft](Macro_Loft.md)
 }}
 
@@ -159,8 +159,8 @@ The images were inclined to enhance the 3D effect.
 <center>
 
 <File:Texture> Nano Photo.png\|Here an example of a bmp image converted to points and restoring picture the width of the image is 6.5 nm
-[thanks for the permission of Yorik](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893#p47075) Image:Texture NanoDesign.png\|Here an example of a bmp image converted to object 3D of 6.7 nm width.
-[thanks for the permission of Yorik](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893#p47075)
+[thanks for the permission of Yorik](https://forum.freecad.org/viewtopic.php?f=24&t=5893#p47075) Image:Texture NanoDesign.png\|Here an example of a bmp image converted to object 3D of 6.7 nm width.
+[thanks for the permission of Yorik](https://forum.freecad.org/viewtopic.php?f=24&t=5893#p47075)
 
 
 </center>
@@ -169,7 +169,7 @@ The images were inclined to enhance the 3D effect.
 
 <center>
 
-Image:Texture 001 Logo.png\|The logo of FreeCAD. Image:Texture 002 Fe FC.png\|A portion of the screen FreeCAD. The [file](http://forum.freecadweb.org/viewtopic.php?f=3&t=4708&start=10#p46353).
+Image:Texture 001 Logo.png\|The logo of FreeCAD. Image:Texture 002 Fe FC.png\|A portion of the screen FreeCAD. The [file](https://forum.freecad.org/viewtopic.php?f=3&t=4708&start=10#p46353).
 
 
 </center>
@@ -187,7 +187,7 @@ Image:Texture_003_napperon.png\|A portion of a tablecloth. Image:Texture_005_lar
 
 <center>
 
-<File:FCTexture> 006.png\|Mode Plan: the image on the left the white background has been ignored in the right image the colour black has been ignored (an [example](http://forum.freecadweb.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024) on the forum)
+<File:FCTexture> 006.png\|Mode Plan: the image on the left the white background has been ignored in the right image the colour black has been ignored (an [example](https://forum.freecad.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024) on the forum)
 
 
 </center>
@@ -236,15 +236,17 @@ Image:Texture_003_napperon.png\|A portion of a tablecloth. Image:Texture_005_lar
 
 ## Links
 
-The discussion on [the forum](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893) to give your impressions or contact me.
+The discussion on [the forum](https://forum.freecad.org/viewtopic.php?f=24&t=5893) to give your impressions or contact me.
 
 The macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft.md) for automate the multi loft.
 
-[apply hair cell texture](http://forum.freecadweb.org/viewtopic.php?f=3&t=4708&start=10#p46353)
+[apply hair cell texture](https://forum.freecad.org/viewtopic.php?f=3&t=4708&start=10#p46353)
 
-[How to handle pdf import properly and feasibly?](http://forum.freecadweb.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024)
+[How to handle pdf import properly and feasibly?](https://forum.freecad.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024)
 
 ## Revision
+
+-   ver 0.15 2025/01/04 delette all references to PySide and QtWidgets , chrono by chrisb
 
 -   Ver 0.14c : 15-01-2021 include **Gui.SendMsgToActiveView(\"ViewFit\")**
 

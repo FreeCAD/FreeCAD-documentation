@@ -1,6 +1,6 @@
 ---
  TutorialInfo:r
-   Topic: Atelier Bateau
+   Topic: Atelier Ship
    Level: Débutant
    Time: 
    Author: 

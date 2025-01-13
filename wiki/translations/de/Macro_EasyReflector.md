@@ -1,21 +1,15 @@
 # Macro EasyReflector/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro
 |Name=Makro EasyReflector
 |Icon=EasyReflectorIcon.svg
 |Description=Texturen auf einfache Art verwalten mit diesem Feature-Python-Objekt
 |Author=TheMarkster
-|Version=0.2023.09.20
-|Date=2023-09-20
+|Version=0.2023.12.09
+|Date=2023-12-09
 |FCVersion= Versionen auf Basis von Python 3
-|Download=[https://wiki.freecadweb.org/File:EasyReflectorIcon.svg ToolBar Icon]
+|Download=[https://wiki.freecadweb.org/File:EasyReflectorIcon.svg Werkzeugleistensymbol]
 |Links=[https://github.com/mwganson/EasyReflector Full Documentation on Github]
 }}
-
-
-</div>
 
 
 

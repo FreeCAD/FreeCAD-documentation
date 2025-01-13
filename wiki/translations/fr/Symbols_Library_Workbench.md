@@ -40,19 +40,19 @@ La bibliothèque est un simple conteneur pour les fichiers SVG. Vous pouvez le t
 
 ## Liens avec Symbols Library 
 
--   Atelier Wiki:
--   Wiki FreeCAD:
--   Forum FreeCAD: <http://forum.freecadweb.org/viewtopic.php?f=9&t=10641>
--   Tutoriels:
--   Vidéos:
--   Des dossiers:
--   Signaler les bogues: veuillez signaler les bogues sur [forum FreeCAD](http://forum.freecadweb.org/index.php) ou <https://github.com/FreeCAD/FreeCAD-symbols/issues>
+-   Atelier Wiki :
+-   Wiki FreeCAD :
+-   Forum FreeCAD : <https://forum.freecad.org/viewtopic.php?f=9&t=10641>
+-   Tutoriels :
+-   Vidéos :
+-   Fichiers :
+-   Signaler les bogues: merci de signaler les bogues sur [forum FreeCAD](https://forum.freecad.org/index.php) ou <https://github.com/FreeCAD/FreeCAD-symbols/issues>
 
 
 
 ## Autres liens intéressants 
 
--   [Parts Library](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Parts_Library), [Bolts](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Bolts), [Fasteners](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Fasteners), [FCGear](http://www.freecadweb.org/wiki/index.php?title=Sandbox:FCGear)
+-   [Atelier Parts Library](Parts_Library_Workbench/fr.md), [Atelier Fasteners Workbench](Fasteners_Workbench/fr.md), [Atelier FCGear](FCGear_Workbench/fr.md)
 -   [Ateliers externes](External_workbenches/fr.md)
 -   [Macros](Macros_recipes/fr.md)
 -   [Télécharger FreeCAD](Download/fr.md)

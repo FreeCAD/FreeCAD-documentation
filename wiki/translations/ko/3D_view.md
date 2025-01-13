@@ -1,69 +1,22 @@
 # 3D view/ko
-## Introduction
+## 소개
 
 
 
 
-The [3D view](3D_view.md) of FreeCAD is an instance of a Coin3D [scenegraph](Scenegraph.md) that forms the most important window in the [interface](interface.md). Coin3D is a library that implements the OpenInventor 2.1 scene description standard.
+FreeCAD의 **3D 보기**는 [interface에서](interface.md) 가장 중요한 창을 형성하는 Coin3D [scenegraph의](Scenegraph.md) 인스턴스입니다. Coin3D는 OpenInventor 2.1 장면 설명 표준을 구현하는 라이브러리입니다.
 
-Certain properties of the view, like background color, [mouse navigation](Mouse_navigation.md) style, and zooming steps, can be configured in the [preferences editor](Preferences_Editor.md).
+배경색, [마우스 탐색](Mouse_navigation/ko.md) 스타일 및 확대/축소 단계와 같은 보기의 특정 속성은 [기본 설정 편집기에서](Preferences_Editor/ko.md) 구성할 수 있습니다.
 
 <img alt="" src=images/FreeCAD_3D_view.png  style="width:600px;">
 
 
 
-*The [Draft Workbench](3D_view]]_is_a_component_of_the_FreeCAD_[[interface]]. By default it shows a small widget with coordinate axes, and the navigation cube also with coordinate axes; the grid can be displayed and configured by loading the [[Draft Workbench.md).*
+*3D 보기는 FreeCAD [설계제도 작업대](interface]]의_구성_요소입니다.기본적으로 좌표축이 있는 작은 위젯과 좌표축이 있는 탐색 입방체가 표시됩니다; 그리드는 [[Draft Workbench/ko.md)를 로드하여 표시하고 구성할 수 있습니다.*
 
-## Actions
+## Context menu 
 
-Since the [tree view](tree_view.md) lists most objects that are visible in the 3D view, many of the actions are the same to those that can be executed from the [tree view](tree_view.md).
-
-When the default [Start Workbench](Start_Workbench.md) is active, right clicking on the 3D view shows only one command:
-
--    **[Navigation styles](Mouse_navigation.md)**: different button styles to use with a 3-button mouse or laptop trackpad.
-
-However, once a [Workbench](Workbenches.md) is loaded, there are additional commands:
-
--    **Link actions**: [Make Link](Std_LinkMake.md).
-
-    -   
-        **Make Link group**
-        
-        : [Simple group](Std_LinkMakeGroup.md), [Group with links](Std_LinkMakeGroup.md), [Group with transform links](Std_LinkMakeGroup.md).
-
--    **[Fit all](Std_ViewFitAll.md)**: pans and zooms the view to fit all objects in the document on the screen.
-
--    **[Fit selection](Std_ViewFitSelection.md)**: pans and zooms the view to tightly fit the currently selected object on the screen.
-
--    **[Draw style](Std_DrawStyle.md)**: as is, flat lines, shaded, wireframe, points, hidden line, no shading.
-
--    **[Standard views](Std_View_Menu.md)**: [isometric](Std_ViewIsometric.md), [front](Std_ViewFront.md), [top](Std_ViewTop.md), [right](Std_ViewRight.md), [rear](Std_ViewRear.md), [bottom](Std_ViewBottom.md), [left](Std_ViewLeft.md), [rotate left](Std_ViewRotateLeft.md), [rotate right](Std_ViewRotateRight.md).
-
--    **Measure**: [toggle measurement](View_Measure_Toggle_All.md), [clear measurement](View_Measure_Clear_All.md).
-
--    **Document window**: [docked](Std_ViewDockUndockFullscreen.md), [undocked](Std_ViewDockUndockFullscreen.md), and [fullscreen](Std_ViewDockUndockFullscreen.md).
-
-Additionally, depending on the workbench and object that is active, other contextual commands may become available.
-
-For example, with the [Part Workbench](Part_Workbench.md) and one object selected:
-
--    **[Appearance](Std_SetAppearance.md)**: launches the dialog to change color and sizes of lines and vertices, and color of faces.
-
--    **[Toggle visibility](Std_ToggleVisibility.md)**: makes the object visible or invisible in the 3D view.
-
--    **[Toggle selectability](Std_ToggleSelectability.md)**: makes the object no longer selectable in the 3D view; use again this command to cancel its effect. It sets the object\'s `Selectable` attribute to `True` or `False`. Change the property by toggling **Selectable** in the [property editor](property_editor.md).
-
--    **[Go to selection](Std_TreeSelection.md)**: expand the [tree view](tree_view.md) to show the selected object in the hierarchy.
-
--    **[Random color](Std_RandomColor.md)**: assigns a random color to the object. It sets the object\'s `ShapeColor` attribute to a tuple `(r,g,b)` with tree random floats between 0 and 1. Change the property by modifying **Shape Color** in the [property editor](property_editor.md).
-
--    **[Delete](Std_Delete.md)**: removes the object from the document, and from the 3D view, by calling the document\'s `removeObject()` method.
-
-Another example, with the [Draft Workbench](Draft_Workbench.md) and one object selected, it shows the same commands as with the [Part Workbench](Part_Workbench.md), but also:
-
--    **Draft**: object creation and modification commands from the [Draft Workbench](Draft_Workbench.md).
-
--    **Utilities**: additional contextual commands provided by the [Draft Workbench](Draft_Workbench.md).
+The options in the context menu of the 3D view depend on the selected object(s) and the currently active workbench. To display this menu optionally select one or more objects and then right-click in the 3D view.
 
 ## Details
 

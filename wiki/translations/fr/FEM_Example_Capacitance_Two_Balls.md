@@ -149,7 +149,7 @@ Remarquez que lorsque <img alt="" src=images/FEM_PostApplyChanges.svg  style="wi
     StatElecSolve:   1  2    1.69328E+00
     StatElecSolve:   2  2    5.07201E+00
 
--   Ici, le résultat souhaité est C~12~ = 1.69328. Cette valeur est proche du `1.691` donné dans les [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). Nous pouvons obtenir une valeur encore plus proche en faisant une [FEM Région de maillage](FEM_MeshRegion/fr.md) plus fine mais cette activité est laissée à l\'utilisateur. Il est également conseillé à l\'utilisateur de jouer avec le [FEM Filtre d\'écrêtage selon une région](FEM_PostFilterClipRegion/fr.md) pour obtenir un résultat visuel similaire à la première image de ce tutoriel.
+-   Ici, le résultat souhaité est C~12~ = 1.69328. Cette valeur est proche du `1.691` donné dans les [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). Nous pouvons obtenir une valeur encore plus proche en créant une [FEM Région de maillage](FEM_MeshRegion/fr.md) plus fine mais cette activité est laissée à l\'utilisateur. Il est également conseillé à l\'utilisateur de jouer avec le [FEM Filtre d\'écrêtage selon une région](FEM_PostFilterClipRegion/fr.md) pour obtenir un résultat visuel similaire à la première image de ce tutoriel.
 
 
 {{FEM Tools navi

@@ -25,7 +25,7 @@ Polecenie **Pasek stanu** przełącza wyświetlanie [Paska statusu](Status_bar/p
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

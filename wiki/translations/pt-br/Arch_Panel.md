@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch Panel
-   MenuLocation: Arch , Panel tools , Panel
-   Workbenches: Arch_Workbench
+   MenuLocation: 3D/BIM , Panel<br>Utils , Panel tools , Panel
+   Workbenches: BIM_Workbench
    Shortcut: **P** **A**
    Version: 0.15
    SeeAlso: Arch_Panel_Cut, Arch_Panel_Sheet
@@ -10,9 +10,11 @@
 
 # Arch Panel/pt-br
 
+
+
 ## Descrição
 
-This tool allows you to build all kinds of panel-like elements, typically for panel constructions like the [WikiHouse](http://www.wikihouse.cc/) project, but also for all kinds of objects that are based on a flat profile.
+The **Arch Panel** tool allows you to build all kinds of panel-like elements, typically for panel constructions like the [WikiHouse](https://www.wikihouse.cc/) project, but also for all kinds of objects that are based on a flat profile.
 
 <img alt="" src=images/Arch_Panel_example.jpg  style="width:700px;">
 
@@ -22,15 +24,19 @@ Since version <small>(v0.17)</small>  the Arch Panel can also be used to create 
 
 <img alt="" src=images/Arch_panel_wave.jpg  style="width:700px;">
 
+
+
 ## Utilização
 
 1.  Select a 2D shape (Draft object, face or sketch) - optional.
-2.  Press the **<img src="images/Arch_Panel.svg" width=16px> [Arch Panel](Arch_Panel.md)** button, or press **P** then **A** keys.
+2.  Press the **<img src="images/Arch_Panel.svg" width=16px> [Panel](Arch_Panel.md)** button, or press **P** then **A** keys.
 3.  Adjust the desired properties.
 
 ### Limitations
 
 -   There is currently no automatic system to produce 2D cutting sheets from panel objects, but such feature is in the plans and will be added in the future.
+
+
 
 ## Opções
 
@@ -40,6 +46,8 @@ Since version <small>(v0.17)</small>  the Arch Panel can also be used to create 
 -   Double-clicking on the panel in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions.
 -   It is possible to automatically make panels composed of more than one sheet of a material, by raising its Sheets property.
 -   Panels can make use of <img alt="" src=images/Arch_MultiMaterial.svg  style="width:24px;"> [Multi-Materials](Arch_MultiMaterial.md). When using a multi-material, the panel will become multi-layer, using the thicknesses specified by the multi-material. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Panel\'s own Thickness value, after subtracting the other layers.
+
+
 
 ## Propriedades
 
@@ -70,7 +78,9 @@ Since version <small>(v0.17)</small>  the Arch Panel can also be used to create 
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Panel tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Panel tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, name="Panel")
 ```
@@ -79,13 +89,17 @@ Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, 
     -   If no `baseobj` is given, you can provide the numerical values for the `length`, `width`, and `thickness` to create a block panel.
 -   If a `placement` is given, it is used.
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
 Rect = Draft.makeRectangle(1000, 400)
 Panel = Arch.makePanel(Rect, thickness=36)
 ```
+
+
 
 ## Tutoriais
 
@@ -101,6 +115,11 @@ Panel = Arch.makePanel(Rect, thickness=36)
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/pt-br
+⏵ [documentation index](../README.md) > Arch Panel/pt-br

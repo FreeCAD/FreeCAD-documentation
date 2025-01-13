@@ -142,5 +142,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/es
+⏵ [documentation index](../README.md) > Arch CutPlane/es

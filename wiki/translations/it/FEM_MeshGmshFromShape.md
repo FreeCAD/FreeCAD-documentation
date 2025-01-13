@@ -46,6 +46,8 @@ Depending on your operating system and your installation package, Gmsh might be 
 
 After the mesh has been created, you can change its properties using the [property editor](Property_editor.md). After you change a property, you must reopen the Gmsh dialog again and click the **Apply** button (you can leave the dialog open while changing properties).
 
+The **Gmsh version** button allows you to check the details about the currently linked Gmsh binary.
+
 ## Properties
 
 -    **Algorithm2D**: The algorithm to create 2D meshes. The different algorithms are [explained here](https://gmsh.info/doc/texinfo/gmsh.html#Choosing-the-right-unstructured-algorithm). For Delaunay, see [Delaunay triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation).
@@ -98,6 +100,13 @@ After the mesh has been created, you can change its properties using the [proper
 
     -   true; linear interpolation is used
     -   false (default); curvilinear interpolation is used
+
+-    **Subdivision Algorithm**<small>(v1.0)</small> : allows the creation of quadrilateral and hexahedral elements by subdivision
+
+    -   None; doesn\'t use any subdivision algorithm
+    -   All Quadrangles; creates quadrilateral elements by subdivision
+    -   All Hexahedra; creates hexahedral elements by subdivision
+    -   Barycentric; creates triangular elements by barycentric subdivision
 
 ## Notes
 

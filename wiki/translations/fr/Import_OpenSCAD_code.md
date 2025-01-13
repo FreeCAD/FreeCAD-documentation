@@ -1,8 +1,8 @@
 ---
  TutorialInfo:r
-   Topic:  Importer le code d'OpenSCAD
-   Level:  Débutant
-   Time:  30 minutes
+   Topic: Importer du code d'OpenSCAD
+   Level: Débutant
+   Time: 30 minutes
    Author: r-frank
    FCVersion: 0.16.6704
    Files: 
@@ -18,11 +18,15 @@
 
 OpenSCAD, comme FreeCAD, est un programme de CAO 3D open source. Alors que FreeCAD utilise une approche visuelle, OpenSCAD utilise une interface de programmation pour effectuer des opérations 3D. OpenSCAD Workbench peut être utilisé pour importer du code objet OpenSCAD et pour accéder à certaines des opérations de maillage possibles avec OpenSCAD.
 
+
+
 ## Installation d\'OpenSCAD 
 
 -   Les utilisateurs de Linux peuvent installer à partir des dépôts de la distribution appropriée, comme Debian, openSUSE, Mint, Unbuntu, etc. ou à partir de la [page d\'accueil OpenSCAD](http://www.openscad.org/).
 -   Les utilisateurs de Mac peuvent télécharger les binaires à partir de [page d\'accueil OpenSCAD](http://www.openscad.org/).
 -   Les utilisateurs de Windows peuvent télécharger le programme à partir de [page d\'accueil OpenSCAD](http://www.openscad.org/). Puisque seul l\'exécutable OpenSCAD est nécessaire à FreeCAD, les utilisateurs de Windows peuvent installer la version portable s\'ils le souhaitent.
+
+
 
 ## Configurer l\'atelier OpenSCAD dans FreeCAD 
 
@@ -32,11 +36,15 @@ OpenSCAD, comme FreeCAD, est un programme de CAO 3D open source. Alors que FreeC
     -   Définir le lien vers l\'exécutable OpenSCAD (section: paramètres généraux OpenSCAD).
     -   Toutes les autres valeurs de la page de configuration peuvent être laissées par défaut.
 
+
+
 ## Le modèle d\'échantillon 
 
 Nous utiliserons ici le fichier example005.scad des (anciens) exemples OpenSCAD, mais vous pouvez utiliser n\'importe quel fichier scad de votre choix.
 
 <img alt="" src=images/TutorialOpenSCAD_SampleFile.jpg  style="width:800px;">
+
+
 
 ## Importation du modèle dans FreeCAD 
 
@@ -47,10 +55,12 @@ Nous utiliserons ici le fichier example005.scad des (anciens) exemples OpenSCAD,
 
 <img alt="" src=images/TutorialOpenSCAD_ImportFile.jpg  style="width:800px;">
 
+
+
 ## En relation 
 
--   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export/fr.md)
--   [Préférences d\'Import Export](Import_Export_Preferences/fr.md)
+-   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md) (en)
+-   [Préférences Importer/Exporter](Import_Export_Preferences/fr.md)
 
 
 

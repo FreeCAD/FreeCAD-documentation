@@ -24,7 +24,7 @@ L\'outil **TechDraw Projection de forme** crée des projections de formes. Les p
 1.  Vous pouvez faire pivoter la [vue 3D](3D_view/fr.md). Les objets seront projetés sur un plan parallèle à l\'écran, c\'est-à-dire dans la direction de la caméra de la vue 3D, qui est utilisée comme propriété par défaut **Direction**.
 2.  Sélectionnez un ou plusieurs objets. Une projection distincte sera créée pour chaque objet.
 3.  Il existe plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le **<img src="images/TechDraw_ProjectShape.svg" width=16px> [Projeter la forme...](TechDraw_ProjectShape/fr.md)** bouton.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ProjectShape.svg" width=16px> [Projeter la forme...](TechDraw_ProjectShape/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_ProjectShape.svg" width=16px> Projeter la forme...** du menu.
 4.  Le panneau de tâches **Projeter les formes** s\'ouvre. Voir [Propriétés](#Propri.C3.A9t.C3.A9s.md).
 5.  Définissez les options souhaitées.
@@ -72,15 +72,9 @@ Un objet Projection est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hé
 
 
 
-## Remarques
-
-Cet outil était auparavant disponible dans l\'atelier Drawing.
 
 
-
-
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

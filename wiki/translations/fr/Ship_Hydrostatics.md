@@ -23,6 +23,8 @@ Il s\'agit en effet de données obligatoires pour que le bateau soit certifié p
 
 L\'atelier Ship trace l\'hydrostatique en 3 groupes principaux. Dans tous ces groupes, la courbe Δ(T) (rapport entre le déplacement et le tirant d\'eau) est représentée. Bien que de nombreuses autres hydrostatiques puissent être envisagées, elles peuvent être dérivées de celles déjà fournies, qui sont documentées ci-dessous.
 
+
+
 ### Hydrostatique basée sur le volume 
 
 Il y a 3 hydrostatiques (malgré Δ(T)) inclus dans cette catégorie :
@@ -39,13 +41,15 @@ avec $F_\mathrm d$ la force de traînée, $\rho$ la densité de l\'eau, $u$ la v
 
 Le MCT joue un rôle majeur dans la planification des conditions de charge, car il donne des informations sur l\'effet du déplacement de toute charge le long du bateau. Le MCT réel est calculé en fonction de la distance transversale entre le centre de gravité et le métacentre, GML, ce qui nécessite évidemment la position du centre de gravité. Toutefois, comme il s\'agit d\'une pratique courante en architecture navale, la distance entre ce métacentre et le centre de flottabilité, BML, est considérée comme similaire à cette GML ($GML / BML \simeq 1$). Veuillez noter que cela n\'est valable que pour la direction longitudinale ($GMT / BMT \neq 1$).
 
-Parfois, le BML est préféré au MCT. Si c\'est votre cas, il vous suffit de faire une demande.
+Parfois, le BML est préféré au MCT. Si c\'est votre cas, il vous suffit d\'en faire la demande.
 
 $BML = \dfrac{100 \,\, L \,\, MCT}{\Delta},$
 
 avec $L$ la longueur en mètres et $\Delta$ le déplacement.
 
 Le XCB indique de toute évidence l\'angle d\'inclinaison qui devrait permettre au bateau d\'avancer en fonction de la répartition du poids.
+
+
 
 ### Hydrostatique de la stabilité 
 
@@ -75,6 +79,8 @@ Cb est le rapport entre le volume de la partie immergée du bateau et le volume 
 
 Alors que de grandes valeurs de Cb entraîneront inexorablement des bateaux inefficaces, avec des valeurs de Cb plus modérées, il est nécessaire de combiner les informations avec Cm et Cf. De grandes valeurs de Cf indiquent une grande empreinte à la surface de l\'eau, ce qui indique généralement une grande résistance du bateau due à la génération de vagues. Au contraire, plus Cm est grand, plus le volume du corps du bateau est concentré sur la partie centrale, et donc des formes fines peuvent être attendues à l\'avant et à l\'arrière, ce qui est généralement bon pour l\'hydrodynamique.
 
+
+
 ## Utilisation
 
 Pour calculer la courbe des aires transversales, sélectionnez une **instance de bateau** (voir [Ship CreateShip](Ship_CreateShip/fr.md)), et lancez **Ship design → <img src="images/Ship_Hydrostatics.svg" width=16px> Hydrostatics**.
@@ -82,6 +88,8 @@ Pour calculer la courbe des aires transversales, sélectionnez une **instance de
 Le panneau des tâches s\'affiche. Vous devez sélectionner l\'angle d\'assiette ainsi que la plage de tirants d\'eau à prendre en compte. Vous pouvez également sélectionner le nombre d\'échantillons à prélever entre le tirant d\'eau minimum et maximum. Plus le nombre d\'échantillons est important, plus le calcul sera long.
 
 Appuyez sur le bouton **Accept** lorsque vous êtes prêt, afin que le module bateau commence le calcul. Pendant le calcul, FreeCAD devient presque sans réponse. Il trace cependant les informations en temps réel, ainsi qu\'une barre de progression du processus. Vous pouvez passer à un autre onglet de tracé, ou arrêter le calcul en appuyant sur le bouton **Cancel**. Soyez patient car ces actions seront exécutées juste après la fin du calcul de l\'échantillon suivant.
+
+
 
 ## Tutoriels
 

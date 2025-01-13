@@ -132,7 +132,7 @@ FreeCAD\'in odak noktası, yüksek hassasiyete sahip 3D modeller yapmanız, bu m
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD\'de kullanmaya başlayacağınız çalışma tezgahı, yapacağınız işin türüne bağlıdır: Eğer mekanik modeller veya daha genel olarak küçük ölçekli nesneler üzerinde çalışacaksanız, muhtemelen [Parça Dizaynı(PartDesign)](PartDesign_Workbench.md) çalışma tezgahını kullanmayı tercih edeceksiniz. 2D\'de çalışacaksanız, kısıtlamalara ihtiyacınız varsa , [Ön Taslak Tezgahına](Draft_Workbench.md) veya [Taslak(Eskiz) tezgahına](Sketcher_Workbench.md) geçin. Eğer BIM(Building information modelling -Yapı Bilgi Modelleme) yapacaksanız [Yapı Tezgahını](Arch_Workbench.md) kullanabilirsiniz.Eğer gemi tasarımıyla uğraşıyorsanız,bu işe özel olarak [Gemi tezgahı](Ship_Workbench.md) bulunmaktadır. Eğer OpenSCAD kullanıcı iseniz [OpenSCAD tezgahın](OpenSCAD_Workbench.md)ı kullanabilirsiniz. There are also many community-developed [external workbenches](External_workbenches.md) available.
+FreeCAD\'de kullanmaya başlayacağınız çalışma tezgahı, yapacağınız işin türüne bağlıdır: Eğer mekanik modeller veya daha genel olarak küçük ölçekli nesneler üzerinde çalışacaksanız, muhtemelen [Parça Dizaynı(PartDesign)](PartDesign_Workbench.md) çalışma tezgahını kullanmayı tercih edeceksiniz. 2D\'de çalışacaksanız, kısıtlamalara ihtiyacınız varsa , [Ön Taslak Tezgahına](Draft_Workbench.md) veya [Taslak(Eskiz) tezgahına](Sketcher_Workbench.md) geçin. Eğer BIM(Building information modelling -Yapı Bilgi Modelleme) yapacaksanız [Yapı Tezgahını](Arch_Workbench.md) kullanabilirsiniz.Eğer gemi tasarımıyla uğraşıyorsanız,bu işe özel olarak [Gemi tezgahı](Ship_Workbench.md) bulunmaktadır. Eğer OpenSCAD kullanıcı iseniz [OpenSCAD tezgahını](OpenSCAD_Workbench.md) kullanabilirsiniz. There are also many community-developed [external workbenches](External_workbenches.md) available.
 
 
 </div>
@@ -160,7 +160,7 @@ FreeCAD\'de kullanmaya başlayacağınız çalışma tezgahı, yapacağınız i�
 
 <div class="mw-translate-fuzzy">
 
-Parça Dizayn Tezgahı,diğer bir tezgahı,[Eskiz Tezgahın](Sketcher_Workbench.md)ı çok sık kullanır. Eskiz,2D çizilen şekilleri, ölçülendirilmiş 2D şekile çevirmenizi sağlar. Örneğin,bir dikdörtgen çizebilir ve kenarlardan birine uzunluk ölçüsü vererek diğer tarafın boyutunu ayarlayabilirsiniz. Ayarlanan tarafın ölçüsü (yapılan ayar değiştirilmedikçe) değiştirilemez.
+Parça Dizayn Tezgahı,diğer bir tezgahı,[Eskiz Tezgahını](Sketcher_Workbench.md) çok sık kullanır. Eskiz,2D çizilen şekilleri, ölçülendirilmiş 2D şekile çevirmenizi sağlar. Örneğin,bir dikdörtgen çizebilir ve kenarlardan birine uzunluk ölçüsü vererek diğer tarafın boyutunu ayarlayabilirsiniz. Ayarlanan tarafın ölçüsü (yapılan ayar değiştirilmedikçe) değiştirilemez.
 
 
 </div>
@@ -185,7 +185,13 @@ Yapılan işlemler sonucunda elde edilen nesne şuna benzer:
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ## Taslak ve Yapı tezgahlarıyla çalışma 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -211,7 +217,16 @@ Yapılan işlemler sonucunda elde edilen nesne şuna benzer:
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Tipik bir Yapı ve Taslak tezgahı iş akışı şu şekildedir:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Taslak çizgi aracıyla birkaç çizgi çizin
 2.  Çizgi seçerek ve Duvar aracına tıklayarak, her çizgiyi duvara çevirin
@@ -220,6 +235,9 @@ Tipik bir Yapı ve Taslak tezgahı iş akışı şu şekildedir:
 5.  Bir bina nesnesi oluşturun ve Ağaç görünümünde zemininizi onun içine taşıyın
 6.  Pencere aracını tıklayarak bir pencere oluşturun, panelinde ön ayarları seçin ve duvar yüzüne tıklayın
 7.  Eğer gerekiyorsa ilk önce çalışma düzlemini ayarlayın ve Taslak ölçü aracıyla ölçülendirin
+
+
+</div>
 
 Buna benzer bir şekil elde edeceksiniz:
 
@@ -243,14 +261,13 @@ Daha fazlası için [Kullanım Kılavuzu](Tutorials/tr.md) sayfasına bakınız.
 
 </div>
 
-FreeCAD, as an open source software, offers the possibility to supplement its workbenches with addons.
+Any user can develop their own new features for FreeCAD and make them available to the FreeCAD community as an [addon](Addon.md).
 
-The [Addon](Addon.md) principle is based on the development of a workbench complement. Any user can develop a function that he or she deems to be missing for her/his own needs or, ultimately, for the community. With the forum, the user can request an opinion, help on the forum. It can share, or not, the object of its development according to copyright rules to define. Free to her/him. To develop, the user has available [scripting](scripting.md) functions.
+There are three types of addons:
 
-There are two types of addons:
-
-1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
+-   [Macros](Macros.md): short snippet of [Python](Python.md) code that provides a new tool or functionality in a single file ending with `.FCMacro`.
+-   [Workbenches](External_workbenches.md): collections of Python files that provide related [Gui Commands](Gui_Command.md) (tools) centered around a particular topic.
+-   [Preference Packs](Preference_Packs.md): distributable collections of user preferences.
 
 ## Scripting
 

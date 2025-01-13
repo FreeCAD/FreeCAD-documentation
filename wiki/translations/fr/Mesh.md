@@ -13,15 +13,19 @@ Voir [Mesh MeshObject](Mesh_MeshObject/fr.md) pour plus d\'informations sur ce t
 
 
 
-*A gauche: paramétrique [shape](Shape/fr.md) définie par les propriétés. A droite: [mesh](Mesh/fr.md) défini par des sommets et des surfaces triangulaires.*
+*À gauche : [shape](Shape/fr.md) paramétrique défini par les propriétés. À droite : [mesh](Mesh/fr.md) défini par des sommets et des surfaces triangulaires.*
+
+
 
 ## Utilisation
 
-Les maillages sont normalement créés par des fonctions internes de [Mesh Workbench](Mesh_Workbench/fr.md), ou par l\'importation de fichiers au format de maillage, comme STL et OBJ.
+Les maillages sont normalement créés par des fonctions internes de l\'[atelier Mesh](Mesh_Workbench/fr.md), ou par l\'importation de fichiers au format de maillage, comme STL et OBJ.
 
 Essentiellement, chaque objet dérivé d\'une [Mesh Feature](Mesh_Feature/fr.md) (classe `Mesh::Feature`) devrait contenir et manipuler un maillage.
 
 Puisque FreeCAD est principalement conçu pour être un modeleur solide, il est mieux adapté pour traiter les [Shapes](Shape/fr.md) des solides. Il peut importer et afficher des maillages dans la [vue 3D](3D_view/fr.md), et l\'[atelier Mesh](Mesh_Workbench/fr.md) offre quelques commandes pour les manipuler directement. Mais dans de nombreux cas, le maillage doit d\'abord être converti en une [Shape](Shape/fr.md). (voir [Part Forme à partir d\'un maillage](Part_ShapeFromMesh/fr.md)), ou la géométrie doit être recréée à l\'aide des techniques de modélisation solide de l\'[atelier Part](Part_Workbench/fr.md) ou de l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
+
+
 
 ## Maillage par éléments finis 
 
@@ -30,6 +34,8 @@ Dans FreeCAD, le mot \"[Mesh](Mesh/fr.md)\" peut également faire référence à
 Lorsqu\'un objet avec un solide [Shape](Shape/fr.md) est utilisé dans l\'[atelier FEM](FEM_Workbench/fr.md), il sera discrétisé en un maillage triangulaire. Dans ce cas, l\'objet résultant est un [FEM FemMeshObject](FEM_Mesh/fr.md) (classe `Fem::FemMeshObject`) et n\'est pas dérivé d\'une [Mesh Feature](Mesh_Feature/fr.md) (`Mesh::Feature` classe).
 
 Pour plus d\'informations, voir [Atelier FEM](FEM_Workbench/fr.md) et [FEM Mesh](FEM_Mesh/fr.md).
+
+
 
 ## Plus d\'informations 
 

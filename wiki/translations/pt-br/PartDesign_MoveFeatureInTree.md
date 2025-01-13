@@ -20,7 +20,9 @@
 3.  In the **Select feature** dialog, select the object under which to move the object(s).
 4.  Press **OK**.
 
-## Example
+
+
+## Exemplo
 
 The following three pictures show the same model with a pocket defined on a sketch attached to the datum plane. The features are reordered from one picture to the other. This has the effect that the pocket makes either no hole or make holes in different pads, depending on the order of the features in the model tree.
 

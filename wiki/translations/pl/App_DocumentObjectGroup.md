@@ -1,31 +1,35 @@
 # App DocumentObjectGroup/pl
-## Introduction
+## Wprowadzenie
 
 <img alt="" src=images/Folder.svg  style="width:32px;">
 
-An [App DocumentObjectGroup](App_DocumentObjectGroup.md) object, or formally an `App::DocumentObjectGroup`, is a simple element that allows grouping any type of [App DocumentObject](App_DocumentObject.md) in the [tree view](tree_view.md) no matter its type of data.
+**Obiekt grupy dokumentu** lub formalnie `App::DocumentObjectGroup` to prosty element, który umożliwia grupowanie dowolnego typu [obiektów dokumentu](App_DocumentObject/pl.md) w widoku drzewa, bez względu na ich rodzaj danych.
 
-It was developed to organize the objects in the [tree view](tree_view.md) in a way that is logical for the user.
+Został opracowany, aby zorganizować obiekty w [widoku drzewa](Tree_view/pl.md) w sposób logiczny dla użytkownika.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
-*Simplified diagram of the relationships between the core objects in the program. The `App::DocumentObjectGroup* class has an extension that allows it to group any type of object; the Group itself doesn't have many properties.`
+*Schemat uproszczony relacji między podstawowymi obiektami w programie. Klasa `App::DocumentObjectGroup* ma rozszerzenie, które pozwala grupować dowolny rodzaj obiektu. Samo Grupowanie nie ma wielu właściwości.`
 
-## Usage
 
-1.  Press the **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group.md)** button in the structure toolbar. An empty Group is created.
-2.  To add objects to a Group, select them in the [tree view](tree_view.md), and then drag and drop them over the Group.
-3.  To remove objects from a Group, drag them out of the Group, and onto the document label at the top of the [tree view](tree_view.md).
 
-See the [Std Group](Std_Group.md) page for the complete information, including its use in [Scripting](Std_Group#Scripting.md).
+## Użycie
 
-## Properties
+1.  Kliknij przycisk **[<img src=images/Std_Group.svg style="width:16px"> [Std Grupa](Std_Group/pl.md)** na pasku narzędzi struktury. Utworzona zostanie pusta Grupa.
+2.  Aby dodać obiekty do Grupy, zaznacz je w [widoku drzewa](Tree_view/pl.md) i przeciągnij je na Grupę.
+3.  Aby usunąć obiekty z Grupy, przeciągnij je z Grupy na etykietę dokumentu na górze [widoku drzewa](Tree_view/pl.md).
 
-An [App DocumentObjectGroup](App_DocumentObjectGroup.md) (`App::DocumentObjectGroup` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), therefore it shares all the latter\'s properties.
+Zobacz stronę [Std: Grupa](Std_Group/pl.md) dla uzyskania pełnych informacji, włącznie z sekcją [tworzeniem skryptów](Std_Group/pl#Tworzenie_skrypt.C3.B3w.md).
 
-See the properties in the [Std Group](Std_Group.md) page.
+
+
+## Właściwości
+
+**Obiekt grupy dokumentu** *(klasa `App::DocumentObjectGroup`)* jest pochodną podstawowego [App Obiekt dokumentu](App_DocumentObject/pl.md) *(klasa `App::DocumentObject`)*, dlatego dzieli wszystkie jego właściwości.
+
+Zobacz właściwości na stronie [Std Grupa](Std_Group/pl.md).
 
 
 {{Std Base navi

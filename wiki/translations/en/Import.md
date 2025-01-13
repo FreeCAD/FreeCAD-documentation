@@ -1,6 +1,6 @@
 ---
  TutorialInfo:
-   Topic: Arch Workbench
+   Topic: BIM Workbench
    Level: Advanced
    Time: 120 minutes
    Author: Pablo Gil
@@ -138,4 +138,4 @@ Cheers
 
 
 ---
-⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > [3rd Party](Category_3rd Party.md) > [File_Formats](Category_File_Formats.md) > Import/Export IFC - compiling IfcOpenShell/en
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [3rd_Party](Category_3rd_Party.md) > [File_Formats](Category_File_Formats.md) > Import/Export IFC - compiling IfcOpenShell/en

@@ -36,9 +36,15 @@ Graficul de dependență este pur și simplu un instrument de vizualizare, prin 
 
 ## Installation
 
+
+<div class="mw-translate-fuzzy">
+
 ## Instalarea
 
 Pentru a se utiliza Dependency graph, un software terț numit [Graphviz](http://graphviz.org/) trebuie să fie instalat prima dată. Dacă nu-l aveți preinstalat sau este instalat într-o locație neconvențională, FreeCAD va afișa următorul dialog: ![](images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png )
+
+
+</div>
 
 ![](images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png )
 
@@ -214,12 +220,18 @@ se deschide în zona principală a ferestrei FreeCAD.
 
 ## Save
 
+
+<div class="mw-translate-fuzzy">
+
 ## Save/Export
 
 Puteți salva / exporta graficul de dependență afișat ca fișier imagine. În timp ce tab-ul Dependency graph este în prim plan:
 
 -   Just choose **File** → [Save As](Std_SaveAs.md) to save the graph as a picture (PNG/BMP/GIF/JPG), a vector graphic (SVG) or as a PDF document.
 -   **File** → [Export](Std_Export.md) or **Tools** → [Save picture](Std_ViewScreenShot.md) will **NOT** work.
+
+
+</div>
 
 
 
@@ -241,26 +253,13 @@ Puteți salva / exporta graficul de dependență afișat ca fișier imagine. În
 
 
 
-## Limite
 
 
-<div class="mw-translate-fuzzy">
-
--   Graficul de dependență nu poate ajuta la problemele cauzate de [topological naming](Glossary#Topological_Naming.md). Dacă o schiță comută fețe ale unei caracteristici după o editare, ea este încă legată de caracteristică; chiar dacă unele funcții sunt rupte, graficul de dependență va rămâne neschimbat.
--   Un bug în v0.17 / v0.18 determină ca un corp să dispară din grafic și conținutul acestuia să disemineze dacă o Piesă sau un obiect Drafr este creat din Corp. Acest lucru nu afectează altfel modelul.
-
-
-</div>
-
-
-
-
-
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/ro
+⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > Std DependencyGraph/ro

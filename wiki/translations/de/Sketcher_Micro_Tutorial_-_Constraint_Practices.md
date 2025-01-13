@@ -136,9 +136,9 @@ Dies ist der beste Weg, diese Skizze zu beschränken, da wir nur eine Bezugs- (B
 
 ## Zusätzliche Quellen 
 
--   [Grundlegendes Skizzierer Tutorium](Basic_Sketcher_Tutorial/de.md)
--   [Skizzierer Referenz](Sketcher_reference/de.md)
--   [Skizzierer Tutorium](Sketcher_Tutorial/de.md)
+-   [Grundlegende Sketcher-Anleitung](Basic_Sketcher_Tutorial/de.md)
+-   [Sketcher-Referenz](Sketcher_Lecture/de.md)
+-   [Sketcher-Anleitung](Sketcher_Tutorial/de.md)
 
 
 {{Sketcher Tools navi

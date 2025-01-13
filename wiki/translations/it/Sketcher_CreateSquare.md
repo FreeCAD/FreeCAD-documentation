@@ -1,47 +1,38 @@
-# Sketcher CreateSquare/it
 ---
- GuiCommand:   Name: Sketcher CreateSquare   Name/it: Quadrato   Workbenches: Sketcher Workbench/it   Sketcher|MenuLocation: Sketch , Geometrie , Quadrato   Shortcut:    SeeAlso:    Version: 0.15---
+ GuiCommand:
+   Name: Sketcher CreateSquare
+   Name/it: Sketcher Crea quadrato
+   MenuLocation: Schizzo , Geometrie Sketcher , Crea quadrato
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **G** **P** **4**
+   Version: 0.15
+   SeeAlso: Sketcher_CreateRegularPolygon/it
+---
+
+# Sketcher CreateSquare/it
 
 
-</div>
 
 ## Descrizione
 
-Disegna un quadrato inscritto nella circonferenza che costituisce la sua geometria di costruzione. Quando si avvia lo strumento, il puntatore del mouse si trasforma in una croce bianca con l\'icona di un esagono rosso. Le coordinate del puntatore sono riportate accanto, in blu e in tempo reale.
+Lo strumento <img alt="" src=images/Sketcher_CreateSquare.svg  style="width:24px;"> [Sketcher Crea quadrato](Sketcher_CreateSquare/it.md) crea un quadrato. {{Version/it|1.0}}: questo è lo stesso strumento di [Sketcher Crea poligono regolare](Sketcher_CreateRegularPolygon/it.md) ma con il numero di lati preimpostato su 4.
 
 ![](images/SketcherCreateSquareExample.png‎ )
 
+
+
 ## Utilizzo
 
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
-<div class="mw-translate-fuzzy">
-
--   Premere il pulsante **[<img src=images/Sketcher_CreateSquare.svg style="width:16px"> Crea quadrato**,
--   Cliccare un punto per definire il centro,
--   Muovere il mouse e cliccare per stabilire uno dei vertici.
--   Premere **Esc** o cliccare sul tasto destro del nouse per uscire dalla funzione.
-
-
-</div>
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-Quando si edita lo schizzo il cerchio circoscritto è visibile, quando si chiude lo schizzo è nascosto.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_CreateSquare.svg" width=16px> [Quadrato](Sketcher_CreateSquare/it.md)**.
+    -   Selezionare l\'opzione **Schizzo → Geometrie Sketcher → <img src="images/Sketcher_CreateSquare.svg" width=16px> Crea quadrato** dal menu.
+    -   Usare la scorciatoia da tastiera: **G** quindi **P**, quindi **4**.
+2.  Per ulteriori passaggi vedere [Sketcher Crea poligono regolare](Sketcher_CreateRegularPolygon/it#Usage.md).
 
 
 
-
-
-</div>
 
 
 {{Sketcher Tools navi

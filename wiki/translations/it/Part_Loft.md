@@ -1,127 +1,106 @@
-# Part Loft/it
 ---
- GuiCommand:   Name: Part Loft   Name/it: Loft   MenuLocation: Part , Loft...   ---
+ GuiCommand:
+   Name: Part Loft
+   Name/it: Part Loft
+   MenuLocation: Parte , Loft...
+   
+   Version: 0.13
+   SeeAlso: Part_Sweep/it
+---
+
+# Part Loft/it
 
 
-</div>
 
-## Description
+## Descrizione
 
-The <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Loft](Part_Loft.md) command creates a face, a shell, or a solid shape from two or more profiles (cross-sections).
+Il comando <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Loft](Part_Loft/it.md) crea una faccia, un guscio (shell) o una forma solida da due o più profili (sezioni trasversali).
 
 <img alt="" src=images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg  style="width:400px;"> 
-*Loft from three profiles which are two [Part Circles](Part_Circle.md) and one [Part Ellipse](Part_Ellipse.md). Parameters are Solid "True" and Ruled "True".*
-
-## Usage
-
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Loft.svg" width=16px> [Loft...](Part_Loft.md)** button.
-    -   Select the **Part → <img src="images/Part_Loft.svg" width=16px> Loft...** option from the menu.
-2.  The Loft [task panel](Task_panel.md) opens.
-3.  In the *Available Profiles* list on the left select the first profile and click on the right arrow to place it in the *Selected profiles* list on the right.
-4.  Repeat for the second profile and again if more than two profiles are desired.
-5.  Optionally use the up and down arrows to reorder the selected profiles.
-6.  Define options [Create solid](#Data.md), [Ruled surface](#Data.md), and [Closed](#Data.md).
-7.  Click **OK**.
-
-### Accepted geometry 
+*Loft da tre profili che sono due [Part Cerchi](Part_Circle/it.md) e un [Part Ellisse](Part_Ellipse/it.md). I parametri sono Solido "Vero" Rigato "Vero".*
 
 
-<div class="mw-translate-fuzzy">
 
-## Introduzione
+## Utilizzo
 
-Lo strumento Loft di FreeCAD (dell\'ambiente Parte), viene utilizzato per creare una faccia, un guscio o una forma solida da due o più profili. I profili possono essere un punto (vertice), una linea (bordo), una spezzata o una faccia. I bordi e le polilinee possono essere di tipo aperto o chiuso. Ci sono varie [limitazioni e complicazioni](Part_Loft/it#Limitazioni_e_complicazioni.md), descritte in seguito, tuttavia i profili possono provenire da primitive di Parte, da funzioni di Draft e da Schizzi.
-
-
-</div>
-
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles. <small>(v0.20)</small> 
-
-## Options
-
-#### Create solid 
+1.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Part_Loft.svg" width=16px> [Loft...](Part_Loft/it.md)**.
+    -   Selezionare l\'opzione **Parte → <img src="images/Part_Loft.svg" width=16px> Loft...** dal menu.
+2.  Si apre la [scheda azioni](Task_panel/it.md) Loft .
+3.  Nell\'elenco *Profili disponibili* a sinistra selezionare il primo profilo e fare clic sulla freccia destra per posizionarlo nell\'elenco *Profili selezionati* a destra.
+4.  Ripetere per il secondo profilo e ancora se si desiderano più di due profili.
+5.  Facoltativamente, utilizzare le frecce su e giù per riordinare i profili selezionati.
+6.  Definire le opzioni [Crea solido](#Dati.md), [Superficie rigata](#Dati.md) e [Chiuso](#Dati.md).
+7.  Fare clic su **OK**.
 
 
-<div class="mw-translate-fuzzy">
 
-Se \"Solid\" è \"true\" FreeCAD crea un solido se i profili sono una geometria chiusa, se è \"false\" crea una faccia oppure un guscio se c\'è più di una faccia, sia per profili aperti che chiusi.
+### Geometria accettata 
 
+-   **Profili:** può essere un punto (vertice), una linea (bordo), una polilinea o una faccia. I bordi e le polilinee possono essere aperti o chiusi. Esistono varie [Limitazioni](#Limitazioni.md), vedere di seguito.
 
-</div>
-
-#### Ruled surface 
+-   Come profili possono essere utilizzati anche gli oggetti [App Link](App_Link/it.md) collegati ai tipi di oggetto appropriati e i contenitori [App Part](App_Part/it.md) con gli oggetti visibili appropriati all\'interno. {{Version/it|0.20}}
 
 
-<div class="mw-translate-fuzzy">
 
-Se \"Ruled\" è \"true\" FreeCAD crea una faccia, oppure delle facce o un solido dalle superfici rigate. Vedere la pagina [Ruled surface in Wikipedia.](http://en.wikipedia.org/wiki/Ruled_surface)
-
-
-</div>
-
-#### Closed
+## Opzioni
 
 
-<div class="mw-translate-fuzzy">
 
-Se \"Closed\" è \"true\" FreeCAD tenta di collegare l\'ultimo profilo al primo profilo per creare una figura chiusa.
+#### Crea solido 
 
-
-</div>
+Se \"Solid\" è impostato su \"true\", FreeCAD crea un solido, a condizione che i profili siano chiusi; se impostato su \"false\", FreeCAD crea una faccia o un guscio (shell) per profili aperti o chiusi.
 
 
-<div class="mw-translate-fuzzy">
 
-Per ulteriori informazioni su come sono uniti i profili, fare riferimento alla pagina [Dettagli tecnici di Part Loft](Part_Loft_Technical_Details/it.md).
+#### Superficie rigata 
+
+Se \"Superficie rigata\" è \"true\" FreeCAD crea una faccia, un guscio (shell) o un solido dalle [superfici rigate](http://en.wikipedia.org/wiki/Ruled_surface).
 
 
-</div>
 
-## Properties
+#### Chiuso
 
-See also: [Property editor](Property_editor.md).
+Se \"Closed\" è \"true\" FreeCAD tenta di collegare l\'ultimo profilo al primo profilo per creare un anello chiuso.
 
-A Part Loft object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+Per ulteriori informazioni su come sono uniti i profili, vedere [Dettagli tecnici di Part Loft](Part_Loft_Technical_Details/it.md).
 
-### Data
+
+
+## Proprietà
+
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
+
+Un oggetto Part Loft deriva da un oggetto [Funzione Part](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{TitleProperty|Loft}}
 
--    **Sections|LinkList**: lists the sections used.
+-    **Sections|LinkList**: Elenca le sezioni utilizzate.
 
--    **Solid|Bool**: true or false (default). True creates a solid.
+-    **Solid|Bool**: Falso (predefinito). True crea un solido.
 
--    **Ruled|Bool**: true or false (default). True creates a ruled surface.
+-    **Ruled|Bool**: Falso (predefinito). True crea una superficie rigata.
 
--    **Closed|Bool**: rue or false (default). True creates a closed loft by connecting last to first profile.
+-    **Closed|Bool**: False (predefinito). True crea un loft chiuso collegando l\'ultimo al primo profilo.
 
--    **Max Degree|IntegerConstraint**: Maximum degree.
-
-## Limitations
-
-A Part Loft has the same limitations as a [Part Sweep](Part_Sweep#Limitations.md).
-
-### Closed Lofts 
-
-
-<div class="mw-translate-fuzzy">
-
--   Loft chiusi
-    -   I risultati dei loft chiusi possono essere inaspettati - il loft può produrre torsioni o piegature. L\'operazione Loft è molto sensibile al posizionamento dei profili e per collegare i corrispondenti vertici in tutti i profili servono curve molto complesse.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-    **Max Degree|IntegerConstraint**: Grado massimo.
 
 
 
+## Limitazioni
+
+Un Part Loft ha le stesse limitazioni di un [Part Sweep](Part_Sweep/it#Limitazioni.md).
 
 
-</div>
+
+### Loft chiusi 
+
+-   -   I risultati dei loft chiusi possono essere inaspettati - il loft può produrre torsioni o piegature. L\'operazione Loft è molto sensibile al posizionamento dei profili e per collegare i corrispondenti vertici in tutti i profili servono curve molto complesse.
 
 
 

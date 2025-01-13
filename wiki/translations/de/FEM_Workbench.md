@@ -1,4 +1,4 @@
-# <img alt="FEM Arbeitsbereichssymbol" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/de
+# <img alt="Symbol des Arbeitsbereichs FEM" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/de
 
 
 
@@ -32,7 +32,7 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 
 
-* Arbeitsablauf des Arbeitsbereichs FEM; der Arbeitsbereich ruft zwei externe Programme auf, um die Vernetzung eines festen Objekts und die eigentliche Lösung des Finite-Elemente-Problems durchzuführen.*
+* Arbeitsablauf des Arbeitsbereichs FEM; der Arbeitsbereich ruft zwei externe Programme auf, eins zum Vernetzen eines Festkörper-Objekts zu vernetzen und eins um die eigentliche rechnerische Lösung des Finite-Elemente-Problems durchzuführen.*
 
 
 
@@ -102,11 +102,13 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
   - <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Randbedingung Festsetzen](FEM_ConstraintFixed/de.md): Wird verwendet, um Punkte, Kanten oder Flächen festzusetzen.
 
+  - <img alt="" src=images/FEM_ConstraintRigidBody.svg  style="width:32px;"> [Randbedingung starrer Körper](FEM_ConstraintRigidBody/de.md): Wird verwendet, um CalculiXs Randbedingung starrer Körper anzuwenden, die die Bewegung der Knoten einer ausgewählten geometrischen Einzelheit bezüglich eines durch den Benutzer festgelegten Referenzpunktes festlegt. {{Version/de|1.0}}
+
   - <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Randbedingung Versatz](FEM_ConstraintDisplacement/de.md): Wird verwendet, um einen Versatz für Punkte, Kanten oder Flächen festzulegen.
 
   - <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Randbedingung Kontakt](FEM_ConstraintContact/de.md): Wird verwendet, um eine Randbedingung Kontakt zwischen zwei Flächen festzulegen.
 
-  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Randbedingung Verbinder](FEM_ConstraintTie/de.md): Wird verwendet, um eine Randbedingung Vebinder (wie ein Kleber- oder Schweißpunkt) zwischen zwei Flächen (\"bonded contact\") festzulegen.
+  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Randbedingung Verbinder](FEM_ConstraintTie/de.md): Wird verwendet, um eine Randbedingung Vebinder (wie ein Kleber- oder Schweißpunkt) zwischen zwei Flächen (\"bonded contact\") festzulegen oder, {{Version/de|1.0}}, zyklische Symmetrie.
 
   - <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Feder](FEM_ConstraintSpring/de.md): Wird verwendet, um eine Randbedingung Feder festzulegen. {{Version/de|0.20}}
 
@@ -138,7 +140,7 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 
 
-## Menü: Netz 
+## Menü Netz 
 
 -   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [FEM Netz aus Form durch Netgen](FEM_MeshNetgenFromShape/de.md): Generiert ein Finite-Elemente-Netz für ein Modell mit Netgen.
 
@@ -150,13 +152,13 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_MeshGroup.svg  style="width:32px;"> [FEM Netzgruppe](FEM_MeshGroup/de.md): Gruppiert und beschriftet Elemente eines Netzes (Knoten, Kante, Fläche) zusammen, nützlich für den Export des Netzes zu externen Lösern.
 
--   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Knoten Satz](FEM_CreateNodesSet/de.md): Erstellt/definiert einen Knotensatz aus einem FEM etz.
+-   <img alt="" src=images/FEM_CreateElementsSet.svg  style="width:32px;"> [Elemente löschen](FEM_CreateElementsSet/de.md): Blendet durch ein Polygon ausgewählte Elemente aus dem Netz aus. <small>(v1.0)</small> 
 
--   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [FEM Netz zu Netz](FEM_FemMesh2Mesh/de.md): Wandle die Oberfläche eines FEM Netzes in ein Netz um.
+-   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [FEM-Netz zu Netz](FEM_FemMesh2Mesh/de.md): Wandelt Oberflächen von 3D-Elementen oder ganze 2D-Elemente eines ausgewählten FEM-Netzes in ein Oberflächennetz um.
 
 
 
-## Menü: Lösen 
+## Menü Lösen 
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Löser CalculiX Standard](FEM_SolverCalculixCxxtools/de.md): Erstellt einen neuen Löser für diese Analyse.
 
@@ -198,7 +200,7 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 
 
-## Menü: Ergebnisse 
+## Menü Ergebnisse 
 
 -   <img alt="" src=images/FEM_ResultsPurge.svg  style="width:32px;"> [Ergebnisse bereinigen](FEM_ResultsPurge/de.md): Löscht die Ergebnisse der aktiven Analyse.
 
@@ -210,19 +212,19 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Warp Filter](FEM_PostFilterWarp/de.md): zum Darstellen der skaliert verzerrten Form eines Modells.
 
--   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar/de.md): zum Beschneiden eines Feldes mit einem bestimmten skalaren Wert.
+-   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalarer Ausschnittfilter](FEM_PostFilterClipScalar/de.md): zum Beschneiden eines Feldes mit einem bestimmten skalaren Wert.
 
--   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Function cut filter](FEM_PostFilterCutFunction/de.md): zum Darstellen der Ergebnisse auf einer Kugel oder Ebene, die durch das Modell schneidet.
+-   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Schnittfilter](FEM_PostFilterCutFunction/de.md): zum Darstellen der Ergebnisse auf einer Kugel oder Ebene, die durch das Modell schneidet.
 
--   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Region Clip Filter](FEM_PostFilterClipRegion/de.md): zum Beschneiden eines Feldes mit einer Kugel oder einer Ebene, die durch das Modell schneidet.
+-   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Region Schnittfilter](FEM_PostFilterClipRegion/de.md): zum Beschneiden eines Feldes mit einer Kugel oder einer Ebene, die durch das Modell schneidet.
 
--   <img alt="" src=images/FEM_PostFilterContours.svg  style="width:32px;"> [Konturen-Filter](FEM_PostFilterContours/de.md): zur Darstellung von Iso-(parametrischen-)Linien (für Analysen in 2D) oder Iso-Konturen. {{Version/de|0.21}}
+-   <img alt="" src=images/FEM_PostFilterContours.svg  style="width:32px;"> [Konturenfilter](FEM_PostFilterContours/de.md): zur Darstellung von Iso-(parametrischen-)Linien (für Analysen in 2D) oder Iso-Konturen. {{Version/de|0.21}}
 
--   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Line Clip Filter](FEM_PostFilterDataAlongLine/de.md): zum Plotten der Werte eines Feldes entlang einer bestimmten Linie.
+-   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Linienschnittfilter](FEM_PostFilterDataAlongLine/de.md): zum Plotten der Werte eines Feldes entlang einer bestimmten Linie.
 
--   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Stress linearization plot](FEM_PostFilterLinearizedStresses/de.md): Erstellt einen Spannungslinearisierungs-Plot.
+-   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Spannungsdiagramm](FEM_PostFilterLinearizedStresses/de.md): Erstellt ein Spannungsdiagramm.
 
--   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint/de.md): zur Darstellung des Wertes eines ausgewählten Feldes an einem gegebenen Punkt
+-   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Daten zu Punkt Schnittfilter](FEM_PostFilterDataAtPoint/de.md): zur Darstellung des Wertes eines ausgewählten Feldes an einem gegebenen Punkt
 
 
 
@@ -238,7 +240,7 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 
 
-## Menü: Dienstprogramme 
+## Menü Dienstprogramme 
 
 -   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width:32px;"> [Beschnittebene auf Fläche](FEM_ClippingPlaneAdd/de.md): Fügt eine Beschnittebene für die gesamte Modellansicht hinzu.
 
@@ -258,15 +260,17 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 ## Veraltete Werkzeuge 
 
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid Randbedingungen](FEM_ConstraintFluidBoundary/de.md): Wird zum festlegen einer Fluid-Grenzschicht-Bedingung verwendet. Besaß keinen Löser. Nicht vorhanden in {{VersionPlus/de|0.22}}.
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid Randbedingungen](FEM_ConstraintFluidBoundary/de.md): Wird zum festlegen einer Fluid-Grenzschicht-Bedingung verwendet. Besaß keinen Löser. Nicht vorhanden in {{VersionPlus/de|1.0}}.
 
--   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Lagerbeschränkung](FEM_ConstraintBearing/de.md): Wird verwendet, um eine Lagerbeschränkung festzulegen. Besaß keinen Löser. Nicht vorhanden in {{VersionPlus/de|0.22}}.
+-   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Lagerbeschränkung](FEM_ConstraintBearing/de.md): Wird verwendet, um eine Lagerbeschränkung festzulegen. Besaß keinen Löser. Nicht vorhanden in {{VersionPlus/de|1.0}}.
 
--   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Zahnradbeschränkung](FEM_ConstraintGear/de.md): Wird verwendet, um eine Zahnradbeschränkung festzulegen. Besaß keinen Löser. Nicht vorhanden in {{VersionPlus/de|0.22}}.
+-   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Zahnradbeschränkung](FEM_ConstraintGear/de.md): Wird verwendet, um eine Zahnradbeschränkung festzulegen. Besaß keinen Löser. Nicht vorhanden in {{VersionPlus/de|1.0}}.
 
--   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Scheibenbeschränkung](FEM_ConstraintPulley/de.md): Wird verwendet, um eine Scheibenbeschränkung festzulegen. Besaß keinen Löser. Nicht vorhanden in {{VersionPlus/de|0.22}}.
+-   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Scheibenbeschränkung](FEM_ConstraintPulley/de.md): Wird verwendet, um eine Scheibenbeschränkung festzulegen. Besaß keinen Löser. Nicht vorhanden in {{VersionPlus/de|1.0}}.
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Löser CalculiX (neuer Aufbau)](FEM_SolverCalculiX/de.md): Gleicht dem originalen Aufbau <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Löser CalculiX Standard](FEM_SolverCalculixCxxtools/de.md) mit zusätzlichen Prüfungen. Das Werkzeug war nicht fertiggestellt. Nicht vorhanden in {{VersionPlus/de|0.22}}.
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Löser CalculiX (neuer Framework)](FEM_SolverCalculiX/de.md): Gleicht dem originalen Aufbau <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Löser CalculiX Standard](FEM_SolverCalculixCxxtools/de.md) mit zusätzlichen Prüfungen. Das Werkzeug war nicht fertiggestellt. Nicht vorhanden in {{VersionPlus/de|1.0}}.
+
+-   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Knoten Satz](FEM_CreateNodesSet/de.md): Erstellt/definiert einen Knotensatz aus einem FEM-Netz. Das Werkzeug wurde nie fretiggestellt und konnte nicht verwendet werden. Nicht mehr vorhanden in {{VersionPlus/de|1.0}}.
 
 
 
@@ -306,7 +310,7 @@ Tutorium 5: [Transiente FEM Analyse](Transient_FEM_analysis/de.md)
 
 Tutorium 6: [Nachbearbeitung von FEM-Ergebnissen mit Paraview](Post-Processing_of_FEM_Results_with_Paraview/de.md)
 
-Tutorium 7: [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls.md); Elmer\'s GUI-Tutorium 6 \"Electrostatics Capacitance Two Balls\", verwendet FEM-Beispiele.
+Tutorium 7: [FEM Beispiel Kapazität Zweier Kugeln](FEM_Example_Capacitance_Two_Balls/de.md); Elmer\'s GUI-Tutorium 6 \"Electrostatics Capacitance Two Balls\", verwendet FEM-Beispiele.
 
 Gekoppelte Tutorien zur thermomechanischen Analyse von [openSIM](https://opensimsa.github.io/training.html).
 
@@ -314,7 +318,7 @@ Videotutorium 1: [FEM Video für Anfänger](https://forum.freecadweb.org/viewtop
 
 Videotutorium 2: [FEM Video für Anfänger](https://forum.freecadweb.org/viewtopic.php?f=18&t=20499&start=10#p162321) (einschließlich YouTube-Link)
 
-Viele Videotutorien: [anisim Open Source Engineering Software](https://www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw) (in Deutsch)
+Viele Videotutorials: [anisim Open Source Engineering Software](https://www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw) (in Deutsch)
 
 
 

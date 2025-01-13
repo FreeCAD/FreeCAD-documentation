@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Std UnitsCalculator
-   Name/pl: Std: Kalkulator jednostek
-   MenuLocation: Przybory , Kalkulator jednostek
+   Name/pl: Std: Przelicznik jednostek
+   MenuLocation: Przybory , Przelicznik jednostek
    Workbenches: wszystkie
 ---
 
@@ -12,17 +12,17 @@
 
 ## Opis
 
-Polecenie **Kalkulator jednostek** otwiera okno dialogowe Kalkulatora jednostek. Narzędzie to może być używane do konwersji wartości z jednego systemu miar na inny.
+Polecenie **Przelicznik jednostek** otwiera okno dialogowe Przelicznika jednostek. Narzędzie to może być używane do konwersji wartości z jednego systemu miar na inny.
 
-![](images/Units_Calculator_it.png ) 
-*Okienko dialogowe Kalkulatora jednostek*
+![](images/Std_UnitsCalculator_Dialog.png ) 
+*Okno dialogowe Przelicznika jednostek*
 
 
 
 ## Użycie
 
-1.  Wybierz z menu opcję **Przybory → <img src="images/Std_UnitsCalculator.svg" width=16px> Kalkulator jednostek ...**.
-2.  Otwiera się okno dialogowe Kalkulator jednostek. Więcej informacji znajdziesz w sekcji [Opcje](#Opcje.md).
+1.  Wybierz z menu opcję **Przybory → <img src="images/Std_UnitsCalculator.svg" width=16px> Przelicznik jednostek ...**.
+2.  Otwiera się okno dialogowe Przelicznik jednostek. Więcej informacji znajdziesz w sekcji [Opcje](#Opcje.md).
 3.  Okno dialogowe jest niemodalne, co oznacza, że może pozostać otwarte podczas dalszej pracy z programem FreeCAD.
 4.  Naciśnij przycisk **Zamknij**, aby zamknąć okno dialogowe.
 
@@ -54,26 +54,22 @@ Polecenie **Kalkulator jednostek** otwiera okno dialogowe Kalkulatora jednostek.
 
 ### Ilość
 
-
-**Ta nowa część ({{Version/pl|0.19**) Kalkulatora jednostek wciąż cierpi posiadając pewne nieprawidłowości.}}
-
-1.  Wybierz opcję z listy rozwijanej **System jednostek**. Będzie to docelowy system jednostek. Wybierz **System preferencji** aby użyć systemu jednostek zdefiniowanego w [Preferencje](Preferences_Editor#Jednostki.md).
+1.  Wybierz opcję z listy rozwijanej **System jednostek**. Będzie to docelowy system jednostek. Wybierz **System preferencji** aby użyć systemu jednostek zdefiniowanego w [Preferencje](Preferences_Editor/pl#Jednostki.md).
 2.  Wybierz opcję z listy rozwijanej **Kategoria jednostek**.
 3.  Wpisz wartość z jednostkami w polu **Ilość**. Jednostki muszą być zgodne z kategorią jednostek.
-    -   Jeśli wybrano kategorię jednostek **Obszar**, wprowadzanie niektórych jednostek jest problematyczne. Na przykład, aby wpisać {{Value|m^2}} musisz najpierw wpisać {{Value|^2}}, umieścić kursor przed znakiem {{Value|^}}, a następnie wpisać {{Value|m}}.
 4.  Kliknij w polu wprowadzania **Miejsca dziesiętne** i naciśnij **Enter**, aby przeliczyć wartość w polu wprowadzania **Ilość**.
 
 
 
 ## Uwagi
 
--   Zobacz stronę [Wyrażenia](Expressions/pl#Jednostki.md), aby uzyskać listę wszystkich obsługiwanych jednostek.
+-   Zobacz stronę [Wyrażenia](Expressions/pl#Jednostki.md), aby uzyskać listę wszystkich znanych jednostek.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

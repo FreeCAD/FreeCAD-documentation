@@ -56,6 +56,8 @@ The following tools are available in this menu:
 
 </div>
 
+-   [Export dependency graph\...](Std_ExportDependencyGraph.md) <small>(v0.21)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -63,8 +65,6 @@ The following tools are available in this menu:
 
 
 </div>
-
--   <img alt="" src=images/Std_MeasureDistance.svg  style="width:32px;"> [Measure distance](Std_MeasureDistance.md): Creates an object to measures and display a distance.
 
 -   <img alt="" src=images/Std_TextDocument.svg  style="width:32px;"> [Add text document](Std_TextDocument.md): Creates an object capable of holding text.
 
@@ -92,13 +92,15 @@ The following tools are available in this menu:
 
 </div>
 
--   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Addon manager](Std_AddonMgr.md): Opens the Addon manager with which [external workbenches](External_workbenches.md) and [macros](macros.md) can be installed.
+-   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Addon manager](Std_AddonMgr.md): Opens the Addon manager with which [external workbenches](External_workbenches.md), [preference packs](Preference_Packs.md) and [macros](macros.md) can be installed.
+
+-   <img alt="" src=images/Std_Measure.svg  style="width:32px;"> [Measure](Std_Measure.md): Measures objects. <small>(v1.0)</small> 
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft Layer
    MenuLocation: Utilities , Layer
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Workbenches: Draft_Workbench
    Version: 0.19
    SeeAlso: Draft_AutoGroup, Draft_LayerManager
 ---
@@ -17,7 +17,7 @@ The <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Draft Layer**
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Layer.svg" width=16px> [Layer](Draft_Layer.md)** button.
-    -   Select the **Utilities → <img src="images/Draft_Layer.svg" width=16px> Layer** option from the menu.
+    -   Select the **Utilities → <img src="images/Draft_Layer.svg" width=16px> Layer** option from the menu, or from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
     -   If the layer container already exists: right-click it in the [Tree view](Tree_view.md) and select the **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer** option from context menu.
 2.  If it does not exist the layer container is created first.
 3.  A layer is created and put in the layer container.
@@ -85,11 +85,13 @@ The properties in this section are applied to objects that are put inside the la
 
 -    **Override Line Color Children|Bool**: specifies if changes to the **Line Color** of the layer are propagated to the objects inside the layer.
 
--    **Override Shape Color Children|Bool**: specifies if changes to the **Shape Color** of the layer are propagated to the objects inside the layer.
+-    **Override Shape Appearance Children|Bool**: specifies if changes to the **Shape Appearance** of the layer are propagated to the objects inside the layer. <small>(v1.0)</small> 
 
--    **Shape Color|Color**: specifies the shape color of the layer.
+-    **Shape Appearance|MaterialList**: specifies the shape appearance of the layer. <small>(v1.0)</small> 
 
--    **Transparency|Percent**: specifies the transparency of the layer.
+-    **Shape Color|Color|hidden**: specifies the shape color of the layer. It is kept synchronized with the **Diffuse Color** of the **Shape Appearance**.
+
+-    **Transparency|Percent**: specifies the transparency of the layer. It is kept synchronized with the **Transparency** of the **Shape Appearance**.
 
 
 {{TitleProperty|Print}}

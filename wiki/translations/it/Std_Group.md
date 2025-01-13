@@ -108,7 +108,13 @@ Per esempio, un [Analisi FEM](FEM_Analysis/it.md) è un oggetto `App::DocumentOb
 -   [Esempio di organizzazione del modello](http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std_Base_navi

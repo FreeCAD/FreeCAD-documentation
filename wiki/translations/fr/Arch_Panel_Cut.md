@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch Panel Cut
    Name/fr: Arch Découpe de panneau
-   MenuLocation: Arch , Outils pour les panneaux , Découpe de panneau
-   Workbenches: Arch_Workbench/fr, Path_Workbench/fr
+   MenuLocation: Utilitaires , Outils pour les panneaux , Découpe de panneau
+   Workbenches: BIM_Workbench/fr
    Shortcut: **P** **C**
    Version: 0.17
    SeeAlso: Arch_Panel/fr, Arch_Panel_Sheet/fr, Arch_Nest/fr
@@ -13,7 +13,7 @@
 
 ## Description
 
-Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneau](Arch_Panel/fr.md), à inclure dans un [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md) ou directement exportée vers [DXF](Draft_DXF/fr.md). Les objets Découpe de panneau sont également pris en charge par l\'[atelier Path](Path_Workbench/fr.md).
+L\'outil **Arch Découpe de panneau** crée, dans le document 3D, une vue 2D plane d\'un objet [Panneau](Arch_Panel/fr.md), à inclure dans une [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md) ou directement exportée vers un [DXF](Draft_DXF/fr.md). Les objets Découpe de panneau sont également pris en charge par l\'[atelier CAM](CAM_Workbench/fr.md).
 
 <img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
 
@@ -22,8 +22,7 @@ Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneau](Arc
 ## Utilisation
 
 1.  Sélectionner un ou plusieurs objets [Arch Panneau](Arch_Panel/fr.md)
-2.  Presser la touche **<img src="images/Arch_Panel_Cut.svg" width=16px> [Découpe de panneau](Arch_Panel_Cut/fr.md)
-** ou presser les touches **P** et **C**
+2.  Sélectionner l\'option **Utilitaires → Outils pour les panneaux → <img src="images/Arch_Panel_Cut.svg" width=16px> Découpe de panneau** du menu.
 3.  Ajuster les propriétés désirées
 
 ## Options
@@ -114,5 +113,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/fr
+⏵ [documentation index](../README.md) > Arch Panel Cut/fr

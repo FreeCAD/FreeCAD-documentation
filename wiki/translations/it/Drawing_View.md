@@ -37,10 +37,6 @@ Dispiegare l\'oggetto Page nella struttura del Progetto, quindi selezionare la v
 -   **Show Hidden Lines** : commuta la visibilità delle nascosta linee selezionando *True* (vero) o *False* (falso).
 -   **Show Smooth Lines** : attiva o disattiva la lisciatura delle linee selezionando *True* (vero) o *False* (falso). Le linee morbide sono anche chiamate bordi di tangenza. Si tratta di linee di demarcazione tra due superfici tangenti.
 
-### Disegnare automaticamente una vista 
-
-Per generare automaticamente un foglio di disegno con viste standard, utilizzare la [Macro vista automatica](Macro_Automatic_drawing/it.md). 
-
 ### Altro
 
 Per commutare la vista 3D tra ortogonale e prospettica selezionare [Vista in prospettivo](Std_PerspectiveCamera/it.md) o [Vista ortografica](Std_OrthographicCamera/it.md)

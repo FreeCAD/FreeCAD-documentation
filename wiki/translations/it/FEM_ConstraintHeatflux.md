@@ -26,6 +26,11 @@ Questo vincolo specifica lo scambio termico (film heat transfer) di una superfic
 </div>
 
 
+<small>(v1.0)</small> 
+
+: Can be also used to define a radiation heat flux on a surface. It satisfies: $q=\epsilon \sigma(T^{4}-T_{0}^{4})$ where $\epsilon$ is the surface emissivity and $\sigma$ is the Stefan-Boltzmann constant.
+
+
 
 ## Utilizzo
 
@@ -38,10 +43,6 @@ Questo vincolo specifica lo scambio termico (film heat transfer) di una superfic
 
 
 </div>
-
-### Option
-
-By default, this feature defines a convective heat flux. By using the option **Surface heat flux**, one can specify a heat flux value in Watts per surface area (W/m\^2).
 
 
 

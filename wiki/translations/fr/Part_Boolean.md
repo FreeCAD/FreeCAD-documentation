@@ -22,7 +22,9 @@ Pour des opérations booléennes plus rapides, voir aussi **[<img src=images/Par
 
 
 
-*Boîte de dialogue pour sélectionner des objets et effectuer des opérations booléennes avec eux.*
+*Fenêtre de dialogue pour sélectionner des objets et effectuer des opérations booléennes avec eux*
+
+
 
 ## Utilisation
 
@@ -44,7 +46,7 @@ Voir les commandes individuelles :
 **
     
 
-Voi aussi **Part → Create a copy → [Affiner la forme](Part_RefineShape/fr.md)**.
+
 
 ## Problèmes coplanaires 
 
@@ -67,6 +69,14 @@ En cas de coplanarité, même si la première opération booléenne réussit, le
 
 
 *À gauche : formes qui partagent un visage, une union booléenne peut produire des résultats incorrects. À droite : des formes qui se croisent clairement, l'union booléenne réussira dans la plupart des cas.*
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

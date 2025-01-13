@@ -14,122 +14,165 @@
 
 ## Beschreibung
 
-[CalculiXccxTools](FEM_SolverCalculixCxxtools.md) enables usage of the [CalculiX](https://en.wikipedia.org/wiki/Calculix) solver. It may be used for:
+[CalculiXccxTools](FEM_SolverCalculixCxxtools/de.md) ermöglicht die Verwendung des [CalculiX](https://en.wikipedia.org/wiki/Calculix) Solvers. Es kann verwendet werden für:
 
-1.  Setting analysis parameters
-2.  Selecting working directory
-3.  Running the CalculiX solver
+1.  Einstellung der Analyseparameter
+2.  Auswahl des Arbeitsverzeichnisses
+3.  Ausführen des CalculiX-Solvers
 
 
 
 ## Anwendung
 
-1.  A <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools solver object is created automatically with the creation of an <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> [Analysis container](FEM_Analysis.md).
-    To create it manually, use one of the following alternatives:
-    -   Press the **<img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md)** button.
-    -   Select **Solve → <img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> Solver CalculiX Standard** from the menu.
-    -   Press the **S** then **X** shortcut keys.
-2.  Optionally change the properties of the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools solver object in the [Property editor](Property_editor.md).
-3.  Double click the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools solver object.
-4.  Select the **Analysis type**.
-5.  Click the **Write .inp file** button.
-6.  Click the **Run CalculiX** button.
+1.  Ein <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools Solver-Objekt wird automatisch bei der Erstellung eines <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> [Analysis-Container](FEM_Analysis/de.md) erstellt.
+    Um es manuell zu erstellen, verwenden Sie eine der folgenden Alternativen:
+    -   Drücken Sie den **<img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> [Löser CalculiX Standard](FEM_SolverCalculixCxxtools/de.md)** Schaltfläche.
+    -   Wählen Sie **Löser → <img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> Löser CalculiX Standard** aus dem Menü.
+
+-   Drücken Sie die Tastenkombinationen **S** und dann **X**.
+
+1.  Ändern Sie optional die Eigenschaften der <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools-Löser-Objekts im [Eigenschaftseditor](Property_editor/de.md).
+2.  Doppelklicken Sie auf das <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools-Löser-Objekt.
+3.  Wählen Sie den **Analysetyp**.
+4.  Klicken Sie auf die Schaltfläche **Write .inp file**.
+5.  Klicken Sie auf die Schaltfläche **Run CalculiX**.
 
 
 
 ## Optionen
 
-Click the **Edit .inp file** button to display and edit the CalculiX input file manually before running the analysis. In that case it can be useful to set the **Split Input Writer** property to {{True}}.
+Klicken Sie auf die Schaltfläche **Edit .inp file**, um die CalculiX-Eingabedatei anzuzeigen und manuell zu bearbeiten, bevor Sie die Analyse ausführen. In diesem Fall kann es nützlich sein, die Eigenschaft **Split Input Writer** auf {{True}} zu setzen.
 
 
 
 ## Eigenschaften
 
-Default values can be set in the menu **Edit → Preferences → FEM → CalculiX**
+Standardwerte können im Menü **Bearbeiten → Einstellungen → FEM → CalculiX** eingestellt werden.
 
 -    **Analysis Type**:
 
-    -   static - static stress analysis
-    -   frequency - modal (natural frequency) analysis
-    -   thermomech - thermo-mechanical analysis
-    -   check - no calculation, performs input deck checks
-    -   buckling - linear buckling analysis <small>(v0.20)</small> 
+    -   static - statische Spannungsanalyse
+    -   frequency - Modalanalyse (Eigenfrequenz)
+    -   thermomech - thermo-mechanische Analyse
+    -   check - keine Berechnung, führt Eingangsdeckprüfungen durch
+    -   buckling - lineare Knickanalyse <small>(v0.20)</small> 
 
--    **Beam Shell Result Output 3D**: note that CalculiX internally expands 1D and 2D elements into 3D elements to accomplish FE analysis
+-    **Beam Reduced Integration**\- <small>(v1.0)</small> :
 
-    -   false - results of 1D and 2D elements will be averaged to the nodes of original 1D or 2D mesh (i.e. purely bended beam will show 0 nodal stresses due to averaging)
-    -   true - resulting mesh will contain 1D and 2D elements expanded to 3D elements
+    -   true - verwendet Balkenelemente mit reduzierter Integration (B31R oder B32R), erforderlich bei Verwendung von Rohrträgerprofilen, kann auch [genaue Ergebnisse mit Plastizität](https://forum.freecad.org/viewtopic.php?t=61233) ermöglichen
+    -   false - verwendet reguläre (vollintegrierte) Balkenelemente
 
--    **Eigenmode High Limit**: Eigenvalues above this limit will not be calculated; **Note**: if eigenvalues of the model are above the high limit, CalculiX will finish without output
+-    **Beam Shell Result Output 3D**: beachten Sie, dass CalculiX intern 1D- und 2D-Elemente in 3D-Elemente erweitert, um eine Finite-Elemente-Analyse durchzuführen
 
--    **Eigenmode Low Limit**: Eigenvalues below this limit will not be calculated
+    -   true - das resultierende Netz enthält 1D- und 2D-Elemente, die zu 3D-Elementen erweitert werden
+    -   false - Ergebnisse von 1D- und 2D-Elementen werden auf die Knoten des ursprünglichen 1D- oder 2D-Netzes gemittelt (d.h. ein rein gekrümmter Balken wird aufgrund der Mittelung 0 Knotenspannungen aufweisen)
 
--    **Eigenmodes Count**: number of lowest eigenmodes to be calculated
+-    **Buckling Accuracy**\- <small>(v1.1)</small> : defines the accuracy of buckling eigenvalue evaluation. In most cases it can be left with the default value (0.01) but sometimes it might be necessary to lower it (e.g. to 0.0001) to capture the first eigenvalue.
+
+-    **Eigenmode High Limit**: Eigenwerte oberhalb dieser Grenze werden nicht berechnet; **Hinweis**: wenn die Eigenwerte des Modells oberhalb der oberen Grenze liegen, wird CalculiX ohne Ausgabe beendet
+
+-    **Eigenmode Low Limit**: Eigenwerte unterhalb dieser Grenze werden nicht berechnet
+
+-    **Eigenmodes Count**: Anzahl der niedrigsten zu berechnenden Eigenmoden
 
 -    **Geometric Nonlinearity**:
 
-    -   linear - linear analysis will be performed if the model does not contain nonlinear material
-    -   nonlinear - nonlinear analysis will be performed
+    -   linear - es wird eine lineare Analyse durchgeführt, wenn das Modell kein nichtlineares Material enthält
+    -   nichtlinear - es wird eine nichtlineare Analyse durchgeführt
 
--    **Iterations Control parameter Cutb**: defines the second line of [CalculiX\' advanced iteration parameters](http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24). Used if **Iterations Control Parameter Time Use** is set to *true*.
+-    **Iterations Control parameter Cutb**: definiert die zweite Zeile der [CalculiX\' advanced iteration parameters](http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24). Wird verwendet, wenn **Iterations Control Parameter Time Use** auf *true* gesetzt ist.
 
--    **Iterations Control Parameter Iter**: defines the first line of [CalculiX\' advanced iteration parameters](http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24). Used if **Iterations Control Parameter Time Use** is set to *true*.
+-    **Iterations Control Parameter Iter**: definiert die erste Zeile der [CalculiX\' advanced iteration parameters](http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24). Wird verwendet, wenn **Iterations Control Parameter Time Use** auf *true* gesetzt ist.
 
--    **Iterations Control Parameter Time Use**-   true - activates **Iterations Control parameter Cutb** and **Iterations Control Parameter Iter**
-    -   false
+-    **Iterations Control Parameter Time Use**-   true - aktiviert den **Iterations Control Parameter Cutb** und den **Iterations Control Parameter Iter**
+    -   falsch
 
--    **Iterations Thermo Mech Maximum**: maximum number of increments in thermo-mechanical analysis after which the job will be stopped.
+-    **Iterations Maximum**: maximale Anzahl von Inkrementen, nach denen der Auftrag angehalten wird.
 
 -    **Iterations User Defined Incrementations**:
 
-    -   true - automatic incrementation control will be switched off by DIRECT parameter
-    -   false - incrementation control will be automatic
+    -   true - automatische Inkrementierungssteuerung wird durch den Parameter DIRECT ausgeschaltet
+    -   false - Inkrementierungssteuerung erfolgt automatisch
 
--    **Iterations User Defined Time Step Length**:
+-    **terations User Defined Time Step Length**:
 
-    -   true - activates **Time End** and **Time Initial Step** parameters
-    -   false
+    -   true - aktiviert die Parameter **Time End** und **Time Initial Step**
+    -   falsch
 
 -    **Material Nonlinearity**:
 
-    -   linear - only linear material properties will be included in the analysis
-    -   nonlinear - nonlinear material properties will be used from **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=24px> [Nonlinear mechanical material](FEM_MaterialMechanicalNonlinear.md)** object
+    -   linear - nur lineare Materialeigenschaften werden in die Analyse einbezogen
+    -   nichtlinear - es werden nichtlineare Materialeigenschaften aus **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=24px> verwendet [Nichtlineares mechanisches Material](FEM_MaterialMechanicalNonlinear/de.md)** Objekt
 
--    **Matrix Solver Type**: type of the solver to solve equation system inside FE analysis. It may significantly affect calculation speed and memory demands. Suitability depends on your FE model and available hardware
+-    **Matrix Solver Type**: Typ des Solvers zur Lösung von Gleichungssystemen in der Finite-Elemente-Analyse. Er kann die Berechnungsgeschwindigkeit und den Speicherbedarf erheblich beeinflussen. Die Eignung hängt von Ihrem Finite-Elemente-Modell und der verfügbaren Hardware ab
 
-    -   default - automatically selects matrix solver depending on the available solvers (typically it is Spooles)
-    -   spooles - direct solver with the support of multiple CPUs. The number of CPUs needs to be set in the [preferences](FEM_Preferences#CalculiX.md) at *Solver defaults → Number of CPU\'s to use*.
-    -   iterativescaling - iterative solver with the lowest memory demands, suitable if the model contains mostly 3D elements
-    -   iterativecholesky - iterative solver with preconditioning with and with low memory demands, suitable if the model contains mostly 3D elements
+    -   Standard - wählt automatisch den Matrix-Solver aus, abhängig von den verfügbaren Solvern (typischerweise ist es Spooles)
+
+    -   
+        {{Version/de|1.0}}
+        
+        : pastix - einer der schnellsten Solver (zusammen mit Pardiso), verfügbar (und Standard) in offiziellen Builds seit ccx 2.18, kann dennoch gelegentlich Probleme verursachen
+
+    -   
+        {{Version/de|1.0}}
+        
+        : pardiso - einer der schnellsten Solver (zusammen mit PaStiX), aber nicht quelloffen, erfordert ein anderes Build von CalculiX (ccx_dynamic) und zusätzliche Bibliotheken, die nicht mit FreeCAD geliefert werden, zuverlässiger als PaStiX
+
+    -   spooles - direkter Solver mit der Unterstützung mehrerer CPUs. Die Anzahl der CPUs muss in den [FEM Einstellungen](FEM_Preferences/de#CalculiX.md) unter *Solver-Standardwerte → Anzahl der zu verwendenden CPUs* eingestellt werden.
+
+    -   iterativescaling - iterativer Solver mit dem geringsten Speicherbedarf, geeignet, wenn das Modell überwiegend 3D-Elemente enthält
+
+    -   iterativecholesky - iterativer Löser mit Vorkonditionierung und geringem Speicherbedarf, geeignet, wenn das Modell überwiegend 3D-Elemente enthält
+
+-    **Model Space**\- <small>(v1.0)</small> : schaltet zwischen 3D- und 2D-Analysen um, letztere erfordern eine Oberflächengeometrie in der XY-Ebene (im achsensymmetrischen Fall rechts von der Y-Achse) mit [Dickendefinition](FEM_ElementGeometry2D/de.md) (Wert wird im achsensymmetrischen Fall ignoriert) und geeigneten Randbedingungen ([Verschiebungsrandbedingung](FEM_ConstraintDisplacement/de.md) mit Freiheitsgraden X und Y muss anstelle von [fixed boundary condition](FEM_ConstraintFixed/de.md) verwendet werden) sowie in der Ebene wirkende Lasten auf Kanten
+
+    -   3D - dreidimensionale Volumen-/Schalen-/Stabelemente werden verwendet
+    -   plane stress - 2D-Volumenelemente mit ebener Spannung werden verwendet
+    -   plane strain - plane strain 2D-Volumenelemente werden verwendet
+    -   Achsensymmetrisch - es werden achsensymmetrische 2D-Volumenelemente verwendet
+
+-    **Output Frequency**\- <small>(v1.0)</small> : legt die Häufigkeit des Schreibens von Ergebnissen in Inkrementen fest (die Standardeinstellung 1 bedeutet, dass die Ergebnisse bei jedem Inkrement geschrieben werden, die Einstellung 2 würde die Ergebnisse alle 2 Inkremente speichern usw.), besonders nützlich für nichtlineare und instationäre Simulationen, hilft, das Durcheinander im Baum zu reduzieren, da derzeit ein Paar von Ergebnisobjekten (CCX_Results und Pipeline_CCX_Results) für jeden Ergebnisrahmen erstellt wird
 
 -    **Split Input Writer**:
 
-    -   false - write whole input into one \*.inp file to be used by CalculiX solver
-    -   true - split solver inputs into more \*.inp files, that can clarify hand editing
+    -   false - die gesamte Eingabe in eine \*.inp Datei schreiben, die vom CalculiX Solver verwendet werden kann
+    -   true - Solver-Eingaben in mehrere \*.inp-Dateien aufteilen, was die manuelle Bearbeitung verdeutlichen kann
 
--    **Thermo Mechanical Steady State**:
+-    **Thermo Mech Steady State**:
 
-    -   true - steady state thermo-mechanical analysis
-    -   false - transient thermo-mechanical analysis
+    -   true - thermomechanische Analyse im stationären Zustand
+    -   false - instationäre thermo-mechanische Analyse
 
--    **Time End**: time period of the step, used when parameter **Iterations User Defined Incrementations** or **Iterations User Defined Time Step Length** is *true*
+-    **Thermo Mech Type**\- <small>(v1.0)</small> :
 
--    **Time Initial Step**: initial time increment of the step, used when parameter **Iterations User Defined Incrementations** or **Iterations User Defined Time Step Length** is *true*
+    -   gekoppelt - gekoppelte thermo-mechanische Analyse
+    -   ungekoppelt - ungekoppelte thermo-mechanische Analyse
+    -   reine Wärmeübertragung - rein thermische Analyse (*\*WÄRMETRANSFER*)
 
--    **Working Dir**: path to the working directory which will be used for CalculiX analysis files.
+-    **Time End**: Zeitspanne des Schritts, verwendet, wenn der Parameter **Iterations User Defined Incrementations** oder **Iterations User Defined Time Step Length** *true* ist
 
-## Limitations
+-    **Time Initial Step**: anfängliches Zeitinkrement des Schritts, wenn der Parameter **Iterations User Defined Incrementations** oder **Iterations User Defined Time Step Length** *true* ist
 
-When running a CalculiX, you might end up with **error 4294977295**. This means you don\'t have enough RAM space. You have then 2 options:
+-    **Time Maximum Step**\- <small>(v1.0)</small> : maximales Zeitinkrement des Schrittes, wird verwendet, wenn der Parameter **Iterations User Defined Incrementations** oder **Iterations User Defined Time Step Length** *true* ist
 
-1.  reduce the number of mesh nodes, preferably by omitting geometry that is not absolutely necessary for your analysis
-2.  buy more RAM for your PC
+-    **Time Minimum Step**\- <small>(v1.0)</small> : minimale Zeitschrittweite des Schritts, wird verwendet, wenn der Parameter **Iterations User Defined Incrementations** oder **Iterations User Defined Time Step Length** *true* ist
+
+-    **Working Dir**: Pfad zum Arbeitsverzeichnis, das für CalculiX-Analysedateien verwendet werden soll.
+
+
+
+## Limitierungen
+
+Wenn Sie CalculiX ausführen, kann es sein, dass Sie den **Fehler 4294977295** erhalten. Dies bedeutet, dass Sie nicht genug RAM-Speicherplatz haben. Sie haben dann 2 Möglichkeiten:
+
+1.  Reduzieren Sie die Anzahl der Netzknoten, vorzugsweise durch Weglassen von Geometrie, die für Ihre Analyse nicht unbedingt notwendig ist
+2.  Kaufen Sie mehr RAM für Ihren PC
 
 
 
 ## Hinweise
 
-Original CalculiX documentation can be found at <http://dhondt.de/> in the \"ccx\" paragraph.
+Die Originaldokumentation von CalculiX finden Sie unter <http://dhondt.de/> im Abschnitt \"ccx\".
 
 
 

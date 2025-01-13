@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Std RecentFiles
    Empty: 1
-   MenuLocation: File , Recent files
+   MenuLocation: File , Open Recent
    Workbenches: All
    SeeAlso: Std_Open, Std_Import
 ---
@@ -15,7 +15,7 @@ The **Std RecentFiles** menu option displays a list of recent files which can be
 
 ## Usage
 
-1.  Select the **File → Recent files** option from the menu to display the recent files list.
+1.  Select the **File → Open Recent** option from the menu to display the recent files list.
 2.  Select a file from the list to open it.
 
 ## Options
@@ -24,14 +24,15 @@ The **Std RecentFiles** menu option displays a list of recent files which can be
 
 ## Preferences
 
--   The maximum number of files in the recent files list is determined by the **Tools → Edit parameters... → BaseApp → Preferences → RecentFiles → RecentFiles** setting. This setting can also be changed in the [Preferences Editor](Preferences_Editor#General.md).
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+See also: [Preferences Editor](Preferences_Editor.md).
+
+-   The maximum number of files in the list is determined by the **Edit → Preferences... → General → General → Size of recent file list** preference.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

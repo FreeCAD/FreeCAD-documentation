@@ -10,6 +10,9 @@
 # Std DlgPreferences/ru
 
 
+</div>
+
+
 
 ## Описание
 
@@ -19,7 +22,13 @@
 
 ## Применение
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Выберите пункт меню **Правка → <img src="images/Std_DlgPreferences.svg" width=16px> Настройки...**.
+
+
+</div>
 
 
 
@@ -38,7 +47,7 @@
 </div>
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

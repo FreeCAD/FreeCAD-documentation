@@ -84,5 +84,13 @@ mesh_obj.ViewObject.Visibility = False
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views/es
+⏵ [documentation index](../README.md) > Arch 3Views/es

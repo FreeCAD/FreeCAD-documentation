@@ -5,11 +5,15 @@
 
 </div>
 
+
+
 ## Descriere
 
 Inserts a subtractive box in the active Body. Its shape is subtracted from the existing solid.
 
 ![](images/PartDesign_SubtractiveBox_example.png ) *On the left: active body (A) shown in grey and subtractive box (B) shown in transparent red; result on the right.*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -33,6 +37,8 @@ După lansarea FreeCAD, caseta Subtractive este cea afișată în bara de instru
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -45,6 +51,8 @@ The Box can be edited after its creation in two ways:
 
 
 </div>
+
+
 
 ## Proprietăți
 

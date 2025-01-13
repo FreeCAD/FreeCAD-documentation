@@ -24,65 +24,39 @@ Constrângerea paralelă forțează două linii drepte sau margini selectate pen
 
 </div>
 
-## Operation
+## Usage
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-<div class="mw-translate-fuzzy">
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
 
-## Utilizare
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ConstrainParallel.svg" width=16px> [Constrain parallel](Sketcher_ConstrainParallel.md)** button.
 
-Schița conține două linii orientate aleatoriu.
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainParallel.svg" width=16px> Constrain parallel** option from the menu.
 
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Constrain → <img src="images/Sketcher_ConstrainParallel.svg" width=16px> Constrain parallel** option from the context menu.
 
-</div>
+    -   Use the keyboard shortcut: **P**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Select two lines.
+5.  A constraint is added.
+6.  Optionally keep creating constraints.
+7.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
 
+### Run-once mode 
 
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/ConstrainParallel1.png  style="width:256px;">
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Selectați ambele linii făcând clic succesiv pe fiecare dintre ele.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/ConstrainParallel2.png  style="width:256px;">
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Aplicați constrângerea Paraleleă selectând iconița Constrain Parallel <img alt="" src=images/Constraint_Parallel.png  style="width:16px;"> din bara de instrumente, pe traseul Sketch → Contraintes d\'esquisse → Contrainte Parallèle de la barre d\'outils sau selectând opțiunea din meniul Contrainte Parallèle (sau Part Design, în funcție de instrumentul care este selecționat).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/ConstrainParallel3.png  style="width:256px;">
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Liniile selectate sunt forțate să fie paralele unele cu altele. Schimbarea orientării unei linii va schimba orientarea celeilalte pentru a fi aceeași.
-
-
-</div>
+1.  Select two or more lines. <small>(v1.0)</small> : Points can be included in the selection, but will be ignored.
+2.  Invoke the tool as explained above, or with the following additional option:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ConstrainParallel.svg" width=16px> Constrain parallel** option from the context menu.
+3.  Depending on the selection one or more constraints are added.
 
 ## Scripting
 

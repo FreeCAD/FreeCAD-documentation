@@ -30,7 +30,7 @@ The **Std ViewStatusBar** command toggles the display of the [Status bar](Status
 </div>
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

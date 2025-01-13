@@ -30,7 +30,7 @@ The developer documentation comprises the following sections:
 -   [Compiling on Windows](Compile_on_Windows.md)
 -   [Compiling on Unix](Compile_on_Linux.md)
 -   [Compiling on Mac OS X](Compile_on_MacOS.md)
--   [Licence details](Licence.md) about the FreeCAD licences
+-   [License details](License.md) about the FreeCAD licences
 -   [Third Party Libraries](Third_Party_Libraries.md)
 -   [Third Party Tools](Third_Party_Tools.md)
 -   [Start up and Configuration](Start_up_and_Configuration.md)

@@ -16,7 +16,7 @@
 
 Polecenie **Przejdź do zaznaczenia** przewija widok [widoku drzewa](Tree_view/pl.md) do pierwszego utworzonego obiektu w oknie [widoku 3D](3D_view/pl.md).
 
-Jeżeli tryb [Synchronizacja wyboru](Std_TreeSyncSelection/pl.md) widoku drzewa jest wyłączony, widok drzewa jest przewijany do pierwszego utworzonego obiektu w selekcji, którego rodzic został już rozwinięty w widoku drzewa. Jeżeli żaden z rodziców obiektów nie jest rozwinięty, to polecenie nie będzie miało żadnego efektu w tym trybie.
+Jeżeli tryb [Synchronizacja wyboru](Std_TreeSyncSelection/pl.md) widoku drzewa jest wyłączony, widok drzewa jest przewijany do pierwszego utworzonego obiektu w selekcji, którego element nadrzędny został już rozwinięty w widoku drzewa. Jeżeli żaden z rodziców obiektów nie jest rozwinięty, to polecenie nie będzie miało żadnego efektu w tym trybie.
 
 
 
@@ -33,7 +33,7 @@ Jeżeli tryb [Synchronizacja wyboru](Std_TreeSyncSelection/pl.md) widoku drzewa 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

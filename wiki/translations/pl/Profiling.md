@@ -1,9 +1,9 @@
 # Profiling/pl
-## Description
+## Opis
 
-Profiling the code of FreeCAD helps find bottlenecks in the algorithms used to create or manipulate objects.
+Profilowanie kodu FreeCAD pomaga znaleźć wąskie gardła w algorytmach używanych do tworzenia lub manipulowania obiektami.
 
-To profile [Python](Python.md) code use the standard `cProfile` module to define start and end points to profile in the code. 
+Do profilowania kodu [Python](Python/pl.md) należy użyć standardowego modułu `cProfile`, aby zdefiniować punkty początkowe i końcowe do profilowania w kodzie. 
 ```python
 import cProfile
 pr = cProfile.Profile()
@@ -17,21 +17,23 @@ pr.disable()
 pr.dump_stats("/tmp/profile.cprof")
 ```
 
-Then install and use `pyprof2calltree` to convert the profile output into cachegrind input. 
+Następnie zainstaluj i użyj `pyprof2calltree`, aby przekonwertować dane wyjściowe profilu na dane wejściowe cachegrind. 
 ```python
 pyprof2calltree -i /tmp/profile.cprof -o /tmp/callgrind.out
 ```
 
-Then visualize this information with `kcachegrind` for Linux or `qcachegrind` for Windows. 
+Następnie zwizualizuj te informacje za pomocą `kcachegrind` dla systemu Linux lub `qcachegrind` dla systemu Windows. 
 ```python
 kcachegrind /tmp/callgrind.out
 ```
 
-## Resources
 
--   [The Python profilers](https://docs.python.org/3/library/profile.html), `cProfile` and `python`.
--   [pyprof2calltree](https://pypi.org/project/pyprof2calltree/) at PyPI; [pyprof2calltree](https://github.com/pwaller/pyprof2calltree/) repository.
--   [FreeCAD\'s Python profiling tutorial](https://forum.freecadweb.org/viewtopic.php?f=10&t=44785).
+
+## Zasoby
+
+-   [Profilery Python](https://docs.python.org/3/library/profile.html), `cProfile` i `python`.
+-   [pyprof2calltree](https://pypi.org/project/pyprof2calltree/) w PyPI; [pyprof2calltree](https://github.com/pwaller/pyprof2calltree/) repozytorium.
+-   [Poradnik profilowania FreeCAD w Python](https://forum.freecadweb.org/viewtopic.php?f=10&t=44785).
 
 
 

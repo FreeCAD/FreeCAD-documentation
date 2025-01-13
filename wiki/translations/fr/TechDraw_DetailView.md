@@ -5,7 +5,7 @@
    MenuLocation: TechDraw , Vues de Techdraw , Insérer une vue détaillée
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
-   SeeAlso: TechDraw_View/fr, TechDraw_ProjectionGroup/fr
+   SeeAlso: TechDraw_View/fr
 ---
 
 # TechDraw DetailView/fr
@@ -48,13 +48,24 @@ L\'outil **TechDraw Vue détaillée** crée une vue d\'une petite zone d\'une vu
 
 
 
-## Propriétés Vue détaillée 
+## Propriétés
 
-Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+
+Dans les propriétés de **Base View**, vous pouvez modifier l\'apparence du contour détaillé.
+
+Une vue détaillée, en fait un objet {{Incode|TechDraw::DrawViewDetail}}, est dérivée d\'une [vue de Part](TechDraw_View/fr#Propriétés_Vue_de_Part.md), objet {{Incode|TechDraw::DrawViewPart}}, et hérite de toutes ses propriétés. Elle possède également les propriétés supplémentaires suivantes :
 
 
 
 ### Données
+
+
+{{TitleProperty|Appearance}}
+
+-    **Show Matting|Bool**: affiche ou cache le fond autour de la vue détaillée. {{Version/fr|1.0}}
+
+-    **Show Highlight|Bool**: affiche ou masque la mise en évidence des détails dans la vue source. {{Version/fr|1.0}}
 
 
 {{TitleProperty|Detail}}
@@ -69,28 +80,9 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 
 
-## Propriétés Vue de base 
-
-Une vue détaillée hérite de toutes les propriétés applicables de sa **Base View**. Dans les propriétés de cette vue, vous pouvez modifier l\'apparence du contour détaillé :
 
 
-
-### Vue
-
-
-{{TitleProperty|Highlight}}
-
--    **Highlight Adjust|Float**: voir [TechDraw Vue](TechDraw_View/fr#Vue.md)
-
--    **Highlight Line Color|Color**: Idem.
-
--    **Highlight Line Style|Enumeration**: Idem.
-
-
-
-
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

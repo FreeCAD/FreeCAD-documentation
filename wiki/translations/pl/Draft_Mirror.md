@@ -3,7 +3,7 @@
    Name: Draft Mirror
    Name/pl: Rysunek Roboczy: Odbicie lustrzane
    MenuLocation: Modyfikacja , Mirror
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **M** **I**
    SeeAlso: Draft_Clone/pl
 ---
@@ -16,7 +16,7 @@
 
 Polecenie <img alt="" src=images/Draft_Mirror.svg  style="width:24px;"> **Odbicie lustrzane** tworzy lustrzane kopie obiektów [Odbicie lustrzane](Part_Mirror.md) środowiska pracy Część z wybranych obiektów. Obiekt [Odbicie lustrzane](Part_Mirror.md) środowiska pracy Część jest parametryczny, więc będzie aktualizowany, jeśli zmieni się jego obiekt źródłowy.
 
-Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
+Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [BIM](BIM_Workbench/pl.md).
 
 <img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;"> 
 *Tworzenie kopii lustrzanej obiektu.*
@@ -30,7 +30,8 @@ Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysu
 1.  Opcjonalnie wybierz jeden lub więcej obiektów.
 2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_Mirror.svg" width=16px> [Odbicie lustrzane](Draft_Mirror.md)**.
-    -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Mirror.svg" width=16px> Odbicie lustrzane**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Mirror.svg" width=16px> Odbicie lustrzane**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Modyfikacja → <img src="images/Draft_Mirror.svg" width=16px> Odbicie lustrzane** z menu.
     -   Użyj skrótu klawiaturowego: **M**, a następnie **I**.
 3.  Jeśli nie wybrałeś jeszcze żadnego obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 4.  Otworzy się panel zadań **Odbicie lustrzane**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
@@ -46,7 +47,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź element X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie wskaźnika poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
 -   Wciśnij **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne drugiego punktu są względne do pierwszego punktu, w przeciwnym razie są one względne do początku układu współrzędnych.
--   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij **S**, aby włączyć lub wyłączyć [Przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij **Esc** lub przycisk **Zamknij**, aby przerwać polecenie.
 

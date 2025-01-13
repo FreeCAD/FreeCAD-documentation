@@ -70,7 +70,7 @@ L\'opzione di menu **Sganciata** sgancia la [Vista 3D](3D_view/it.md) attiva dal
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

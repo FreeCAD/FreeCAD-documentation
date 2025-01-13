@@ -39,13 +39,31 @@ Las siguientes herramientas están disponibles en este menú:
 
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Macros\...](Std_DlgMacroExecute/es.md): Abre un cuadro de diálogo para administrar y ejecutar macros.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_RecentMacros.svg  style="width:32px;"> Macros recientes: muestra una lista de macros utilizadas recientemente, que se pueden llamar con una combinación de teclas, por ejemplo, **Ctrl**+**Shift**+**1**. Esto se puede configurar en [Preferences](Preferences_Editor.md).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Ejecutar macro](Std_DlgMacroExecuteDirect/es.md): Ejecuta la macro actualmente en el editor de Python.
 
+
+</div>
+
 -   [Adjuntar al depurador remoto\...](Std_MacroAttachDebugger/es.md): Adjunta FreeCAD a un depurador remoto.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Depurar macro](Std_MacroStartDebug/es.md): Inicia una sesión de depuración para la macro en el editor de Python.
+
+
+</div>
 
 -   <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;"> [Parar depuración](Std_MacroStopDebug/es.md): Detiene una sesión de depuración.
 
@@ -59,13 +77,19 @@ Las siguientes herramientas están disponibles en este menú:
 
 ## Herramientas obsoletas 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Detener la grabación de la macro](Std_MacroStopRecord/es.md): Detiene una sesión de grabación de macros. Integrado en [Std DlgMacroRecord](Std_DlgMacroRecord/es.md). No disponible en <small>(v0.22)</small> .
 
 
+</div>
 
 
 
-{{Std Base navi
+
+
+{{Std_Base_navi
 
 }}
 

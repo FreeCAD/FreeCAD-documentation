@@ -36,21 +36,34 @@ Dodanie szkicu konturu powoduje utworzenie **geometrii zazębienia** w celu zamk
 ### Prosty Wydłużenie 
 
 1.  Wybierz jedną lub więcej krawędzi, które mają zostać wyciągnięte.
-2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **Wydłuż ściankę** używając jednego z poniższych:
-    -   Przycisk **<img src="images/SheetMetal_Extrude.svg" width=16px> '''Wydłuż ściankę'''**.
-    -   Opcja menu **SheetMetal → <img src="images/SheetMetal_Extrude.svg" width=16px> Wydłuż ściankę**.
-    -   Skrót klawiaturowy: **E**.
-3.  Zmień wartość właściwości **Długość**, aby dostosować długość wydłużenia.
+2.  To polecenie można wywołać na kilka sposobów:
+    -   Wciśnij przycisk **<img src="images/SheetMetal_Extrude.svg" width=16px> [Wydłuż ściankę](SheetMetal_Extrude/pl.md)**.
+    -   Wybierz opcję **Sheet Metal → <img src="images/SheetMetal_Extrude.svg" width=16px> Wydłuż ściankę** z menu.
+    -   Kliknij prawym przyciskiem myszy w [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md) i wybierz opcję **Sheet Metal → <img src="images/SheetMetal_Extrude.svg" width=16px> Wydłuż ściankę** z menu kontekstowego.
+    -   Użyj skrótu klawiaturowego: **E**.
+3.  Otwarty zostanie [panel zadań](Task_panel/pl.md) **Extend Parameters** opens (wprowadzony w wersji 0.5.00).
+4.  Opcjonalnie wciśnij przycisk **Wybierz** aby dodać więcej ścianek.
+    -   Wciśnij przycisk **Pogdląd** aby zakończyć wybór i wyświetlić zmiany.
+5.  Opcjonalnie dostosuj parametry w panelu zadań.
+6.  Wciśnij przycisk **OK** aby zakończyć polecenie i zamknąć panel zadań.
+7.  Utworzony zostanie obiekt **Extend** składający się z jednego nowego przedłużenia ściany dla każdej wskazanej ściany.
+8.  Opcjonalnie dostosuj parametry w [Edytorze właściwości](Property_editor/pl.md).
 
 
 
 ### Przedłużenie z blokadą 
 
-1.  Wybierz jedną krawędź do przedłużenia.
-2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **Wydłuż ściankę** *(patrz wyżej)*.
-3.  Dodaj współpłaszczyznowy szkic konturu do właściwości **Szkic**.
-4.  Ustaw wartość właściwości **Użyj odejmowania** na {{TRUE/pl}}, aby utworzyć wycięcia na przedłużenia.
-5.  Ustaw właściwość **Odsunięcie**, aby dostosować prześwit wokół rozszerzenia.
+:   (Przygotuj a <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [szkic](Sketcher_Workbench/pl.md) dla blokujących się zakładek)
+
+1.  Wybierz krawędź ściany do przedłużenia.
+2.  Wywołaj polecenie zgodnie z powyższym opisem.
+3.  Wciśnij przycisk **OK** aby zakończyć polecenie i zamknąć panel zadań.
+4.  W [Edytorze właściwości](Property_editor/pl.md) wciśnij przycisk **...** właściwości **Sketch**.
+5.  Otwarte zostanie okno dialogowe Link.
+    -   Wybierz przygotowany szkic z listy.
+    -   Wciśnij przycisk **OK** aby zamknąć okno dialogowe.
+6.  Ustaw wartość właściwości **Użyj odejmowania** na {{TRUE/pl}}, aby utworzyć wycięcia na przedłużenia.
+7.  Ustaw właściwość **Odsunięcie**, aby dostosować prześwit wokół rozszerzenia.
 
 <img alt="" src=images/SheetMetal_Extrude-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-04.png  style="width:200px;">
 
@@ -88,20 +101,11 @@ Wystarczy jeden kontur dotykający przeciwległej ściany, aby utworzyć geometr
 
 Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt wydłużenia ścianki środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+Obiekt wydłużenia ścianki środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) lub, jeśli jest w obrębie [Zawartości środowiska Projekt Części](PartDesign_Body/pl.md), z obiektu [Cechy tego środowiska](PartDesign_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
 
 ### Dane
-
-
-{{Properties_Title|Podstawowe}}
-
--    **Etykieta|String**: Wartość domyślna: {{value|Extend}} *(+ kolejny numer dla drugiej i następnych pozycji)*. Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg znaków UTF8.
-
--    **Cecha podstawowa|Link|ukryte**: Cecha bazowa. Link do cechy nadrzędnej.
-
--    **_Body|LinkHidden|ukryte**: Link ukryty do zawartości nadrzędnej.
 
 
 {{Properties_Title|Parametry}}

@@ -6,24 +6,30 @@
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **P** **7**
    Version: 0.15
+   SeeAlso: Sketcher_CreateRegularPolygon/de
 ---
 
 # Sketcher CreateHeptagon/de
 
+
+
 ## Beschreibung
 
-Zeichnet ein Siebeneck, das in einem Kreis der Konstruktionsgeometrie eingeschrieben ist. Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Sechsecksymbol. Die Koordinaten des Zeigers werden daneben in Echtzeit blau dargestellt.
+Das Werkzeug <img alt="" src=images/Sketcher_CreateHeptagon.svg  style="width:24px;"> [Sketcher SiebeneckErstellen](Sketcher_CreateHeptagon/de.md) erstellt ein Siebeneck. {{Version/de|1.0}}: Dies ist dasselbe Werkzeug wie [Sketcher RegelmäßigesVieleckErstellen](Sketcher_CreateRegularPolygon/de.md) aber mit der vorgegebenen Anzahl von 7 Seiten.
 
 ![](images/SketcherCreateHeptagonExample.png‎ )
 
+
+
 ## Anwendung
 
--   Nach Drücken der **[<img src=images/Sketcher_CreateHeptagon.svg style="width:16px"> [Siebeneck erstellen](Sketcher_CreateHeptagon/de.md)**, klicke einmal, um das Zentrum zu setzen, bewege dann die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
--   Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
-## Hinweise
-
-Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung der Skizze sichtbar ist.
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_CreateHeptagon.svg" width=16px> [Siebeneck](Sketcher_CreateHeptagon/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Skizzengeometrien → <img src="images/Sketcher_CreateHeptagon.svg" width=16px> Siebeneck erstellen** auswählen.
+    -   Das Tastaturkürzel **G** dann **P** dann **7**.
+2.  Für weitere Schritte siehe [Sketcher RegelmäßigesVieleckErstellen](Sketcher_CreateRegularPolygon/de#Anwendung.md).
 
 
 

@@ -22,30 +22,19 @@ La commande **Std Enregistrer tout** enregistre tous les documents actifs.
 
 ## Options
 
--   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
-
-
-
-## Préférences
-
--   Le dernier emplacement de fichier utilisé est stocké : **Outils → Éditer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Appuyez sur **Échap** ou sur le bouton **Annuler** pour annuler la commande.
 
 
 
 ## Script
 
-
-**Voir aussi :**
-
-[FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
-
-Pour enregistrer un document, utilisez la méthode `save` de l\'objet document. Un nouveau document doit d\'abord être enregistré avec la méthode `saveAs` de l\'objet document. Pour un exemple de script, voir [Std Nouveau](Std_New/fr.md).
+Voir [Std Nouveau](Std_New/fr#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

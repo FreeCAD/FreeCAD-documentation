@@ -1,86 +1,39 @@
 # Macro MacroToolbarManager/pl
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-
-{{Macro
-|Name=Macro MacroToolbarManager
+{{Macro/pl
+|Name=Makrodefinicja: Menadżer pasków narzędzi
 |Icon=MacroToolbarManager_icon.svg
-|Description=Easily manage custom macro toolbars
+|Description=Łatwe zarządzanie niestandardowymi paskami narzędzi makrodefinicji
 |Author=TheMarkster
 |Version=0.2023.10.27
 |Date=2023-10-27
-|FCVersion=Python 3 versions
-|Download=[https://wiki.freecad.org/File:MacroToolbarManager_icon.svg ToolBar Icon]
-|Links=[https://github.com/mwganson/MacroToolbarManager Full Documentation on Github]
+|FCVersion=wersja ze środowiskiem Python 3
+|Download=[https://wiki.freecad.org/File:MacroToolbarManager_icon.svg Ikonka paska narzędzi]
+|Links=[https://github.com/mwganson/MacroToolbarManager Pełna dokumentacja w serwisie Github]
 }}
 
 
-</div>
 
+## Opis
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+Menedżer pasków narzędzi ułatwia edycję niestandardowych pasków narzędzi makrodefinicji.
 
-## Description
+Pełną dokumentację można znaleźć w serwisie GitHub: [MacroToolbarManager](https://github.com/mwganson/MacroToolbarManager).
 
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-MacroToolbarManager makes it easy to edit custom macro toolbars.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-Full documentation can be found on github: [MacroToolbarManager](https://github.com/mwganson/MacroToolbarManager).
-
-
-</div>
-
-<img alt="" src=images/MacroToolbarManager_scr01.png  style="width:600px;">
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
+<img alt="" src=images/MacroToolbarManager_scr01.png  style="width:600px;"> 
+*Zrzut ekranu z Menedżera pasków narzędzi‎*
 
 
 
-*Macro MacroToolbarManager screenshot‎*
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Legend
-
-
-</div>
+## Legenda
 
 
 {{Codeextralink|https://gist.github.com/mwganson/3464e2d54e859ee94ec8d7ce20c75660/raw/5bcd7bff7b451709ff300e3ee1269ff379c9b087/MacroToolbarManager.FCMacro|MacroToolbarManager.FCMacro}}
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-ToolBar Icon
+Ikonka paska narzędzi ![](images/MacroToolbarManager_icon.svg )
 
 
-</div>
 
-![](images/MacroToolbarManager_icon.svg )
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Script
-
-
-</div>
+## Skrypt
 
 **Macro MacroToolbarManager.FCMacro**
 

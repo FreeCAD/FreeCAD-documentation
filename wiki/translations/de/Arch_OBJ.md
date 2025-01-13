@@ -1,15 +1,15 @@
 # Arch OBJ/de
 ## Beschreibung
 
-Zusätzlich zu FreeCADs Standard-[OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file)-Exportfunktion hat derArbeitsbereich [Arch](Arch_Workbench/de.md) eine alternative Exportfunktion, die komplanare Flächen als eine einzige OBJ-Fläche exportiert, anstatt sie als [Form](Shape/de.md)-basierte Objekte zu triangulieren, wie es die Standard-Exportfunktion tut.
+Zusätzlich zu FreeCADs Standard-[OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file)-Exportfunktion hat derArbeitsbereich [BIM](BIM_Workbench/de.md) eine alternative Exportfunktion, die komplanare Flächen als eine einzige OBJ-Fläche exportiert, anstatt sie als [Form](Shape/de.md)-basierte Objekte zu triangulieren, wie es die Standard-Exportfunktion tut.
 
 
 
 ## Exportieren ohne GUI 
 
-Exportieren ohne die grafische Benutzeroberfläche ist auf der Kommandozeile nur mit dem [Mesh-Arbeitsbereich](Mesh_Export/de.md)-Exporter möglich.
+Exportieren ohne die grafische Benutzeroberfläche ist auf der Kommandozeile nur mit dem Exportwerkzeug des Arbeitsbereichs [Mesh](Mesh_Export/de.md) möglich.
 
-In diesem Beispiel wird eine STEP-Datei importiert, die Farben der [Form](Shape/de.md) werden gespeichert, dann ein Polygonnetz daraus erstellt, die Farben des Originalobjekts auf die Flächen des neuen Netzes angewendet, das dann im OBJ-Format exportiert wird. Weil dies mit dem Mesh-Arbeitsbereich passiert, ist das Ergebnis ein trianguliertes Netz.
+In diesem Beispiel wird eine STEP-Datei importiert, die Farben der [Form](Shape/de.md) werden gespeichert, dann ein Netzobjekt daraus erstellt, die Farben des Originalobjekts auf die Flächen des neuen Netzobjekts angewendet, das dann im OBJ-Format exportiert wird. Weil dies mit dem Mesh-Arbeitsbereich passiert, ist das Ergebnis ein trianguliertes Netz.
 
 
 ```python
@@ -49,5 +49,13 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch OBJ/de
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch OBJ/de

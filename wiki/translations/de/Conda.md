@@ -62,9 +62,9 @@ Zum Beispiel mehrere lokale Entwicklerrechner oder ein entfernter Build Server, 
 
 ## Einrichtung von FreeCAD mit Conda 
 
-Zuerst musst du entscheiden, ob du eine **stabile** Version von FreeCAD installierst oder mit dem neuesten **instabilen** Code von FreeCAD master experimentieren willst.
+Zuerst musst du entscheiden, ob du eine **stabile** Version von FreeCAD installierst oder mit dem neuesten **instabilen** Code von FreeCAD main experimentieren willst.
 
-Stabile freigegebene Versionen von FreeCAD werden auf dem conda-forge Kanal angeboten, während die neueste Version von FreeCAD master auf dem Kanal freecad/label/dev angeboten wird.
+Stabile freigegebene Versionen von FreeCAD werden auf dem conda-forge Kanal angeboten, während die neueste Version von FreeCAD main auf dem Kanal freecad/label/dev angeboten wird.
 
   Conda Kanal           Stabil?
    
@@ -83,6 +83,8 @@ conda config --add channels conda-forge
 ```python
 conda create --name fcenv-dev --channel freecad/label/dev freecad
 ```
+
+
 
 ## FreeCAD Forum Diskussion 
 

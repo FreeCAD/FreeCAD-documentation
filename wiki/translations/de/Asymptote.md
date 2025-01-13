@@ -9,7 +9,7 @@ Asymptote-Unterstützung wurde in FreeCAD Version 0.19 hinzugefügt.
 
 ## Exportieren
 
-1.  Wahlweise den Flächen des Objekts, das exportiert werden soll, mit dem Befehl <img alt="" src=images/Part_FaceColors.svg  style="width:24px;"> [Part Flächenfarben](Part_FaceColors/de.md) Farben zuordnen.
+1.  Wahlweise den Flächen des Objekts, das exportiert werden soll, mit dem Befehl <img alt="" src=images/Part_ColorPerFace.svg  style="width:24px;"> [Part FarbeProFläche](Part_ColorPerFace/de.md) Farben zuordnen.
 2.  Zum Arbeitsbereich <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh](Mesh_Workbench/de.md) wechseln.
 3.  Aus dem Objekt mit dem Befehl <img alt="" src=images/Mesh_FromPartShape.svg  style="width:24px;"> [Mesh NetzAusPartForm](Mesh_FromPartShape/de.md) ein Netzobjekt erstellen.
 4.  Das neue Netzobjekt auswählen.

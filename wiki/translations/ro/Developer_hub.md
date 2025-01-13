@@ -30,7 +30,7 @@ Documentația dezvoltatorului a inclus următoarele secțiuni:
 -   [Compiling on Windows](Compile_on_Windows.md)
 -   [Compiling on Unix](Compile_on_Linux.md)
 -   [Compiling on Mac OS X](Compile_on_MacOS.md)
--   [Licence details](Licence.md) despre licența FreeCAD
+-   [License details](License.md) despre licența FreeCAD
 -   [Third Party Libraries](Third_Party_Libraries.md)
 -   [Third Party Tools](Third_Party_Tools.md)
 -   [Start up and Configuration](Start_up_and_Configuration.md)

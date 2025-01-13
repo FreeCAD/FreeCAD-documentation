@@ -42,7 +42,6 @@ Adaugă proprietăți materiale la o piesă.
     -   Cu condiția să aplicați materialul întregului obiect, nu selectați entități geometrice (liste de referință goale). Materialul va fi aplicat modelului întreg. Altfel, atribuiți manual materiale pentru anumite piese ale modelului, selectând unele dintre ele pentru fiecare material introdus, dar nu lăsați nici o parte a modelului fără materiale atribuite.
     -   Puteți ajusta proprietățile materialelor, cum ar fi densitatea, modulul de elasticitate Young, coeficientul Poisson etc., cu toate acestea majoritatea materialelor obișnuite sunt deja disponibile în presetări și nu au nevoie de modificări.
     -   Dacă efectuați modificări, puteți salva materialul personalizat.
-
 -   Click pe **Close** pentru a închide dialogul și a crat un obiect **<img src="images/FEM_MaterialSolid.png" width=32px> SolidMaterial
 **
 

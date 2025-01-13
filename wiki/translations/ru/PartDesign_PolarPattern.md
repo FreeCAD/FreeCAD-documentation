@@ -50,18 +50,30 @@
 
 ## Опции
 
--   To add features:
-    1.  Press the **Add feature** button.
-    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-    3.  Repeat to add more features.
--   To remove features:
-    1.  Press the **Remove feature** button.
-    2.  Do one of the following:
-        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-        -   Select a feature in the list and press the **Del** key.
-        -   Right-click a feature in the list and select **Remove** from the context menu.
-    3.  Repeat to remove more features.
--   If there are several features in the pattern, their order can be important. See [Ordering features](#Ordering_features.md).
+-   Choose the mode:
+    -   
+        **Transform body**
+        
+        : Transforms the whole base feature\'s shape (default). <small>(v1.0)</small> 
+
+    -   
+        **Transform tool shapes**
+        
+        : Transforms the individual tool shapes of selected features.
+
+        -   To add features:
+            1.  Press the **Add feature** button.
+            2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+            3.  Repeat to add more features.
+        -   To remove features:
+            1.  Press the **Remove feature** button.
+            2.  Do one of the following:
+                -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+                -   Select a feature in the list and press the **Del** key.
+                -   Right-click a feature in the list and select **Remove** from the context menu.
+            3.  Repeat to remove more features.
+        -   If there are several features in the pattern, their order can be important. See [Ordering features](#Ordering_features.md).
+
 -   Specify the **Axis** of the pattern:
     -   
         **Normal sketch axis**
@@ -102,9 +114,23 @@
         **Select reference...**
         
         : Select a [Datum Line](PartDesign_Line.md) in the [Tree view](Tree_view.md) or a [Datum Line](PartDesign_Line.md) or edge in the [3D view](3D_view.md).
+
 -   Check the **Reverse direction** checkbox to reverse the pattern.
--   Specify the **Angle** to be covered by the pattern. If the angle is less than 360°, the instances are evenly distributed from 0° (first instance) to the given angle (last instance). If the angle is a full 360° circle, the instances are evenly distributed around the circle. This means that for n instances an angle of 360° is equivalent to an angle of 360°\*(1-1/n).
+
+-    <small>(v1.0)</small> : Specify the angle **Mode**:
+
+    -   
+        **Overall Angle**
+        
+        : Enter the overall **Angle**. If the angle is less than 360°, the occurrences are evenly distributed from 0° (first occurrence) to the given angle (last occurrence). If the angle is 360°, the occurrences are evenly distributed around the circle. For n occurrences an angle of 360° is equivalent to an angle of 360°\*(1-1/n).
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : **Offset Angle**: Enter the **Offset** angle from a given point on the first occurrence to the same point on the next occurrence. For n occurrences: OverallAngle=(n-1)\*Offset.
+
 -   Specify the number of **Occurrences** (including the original feature).
+
 -   If the **Update view** checkbox is checked the view will update in real time.
 
 ## Ordering features 

@@ -1,7 +1,13 @@
 # Manual:The Community/es
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 Ningún manual que trate sobre software libre y de código abierto estaría completo sin un capítulo sobre la comunidad. Como la gran mayoría de los proyectos de software libre y de código abierto, FreeCAD está hecho por una comunidad, y mantenido por esa comunidad. En lugar de la empresa opaca, desconocida, impersonal e inaccesible que se encuentra más que a menudo detrás del software comercial, las comunidades de software libre y de código abierto son espacios abiertos, donde usted como usuario es bienvenido, y donde puede obtener respuestas muy rápidamente, e incluso tener su opinión en el desarrollo del propio software. También eres más que bienvenido a ayudar, hay tareas para todos.
+
+
+</div>
 
 La comunidad es un grupo creciente y ecléctico de todo tipo de personas unidas por su pasión por FreeCAD. Todos trabajan en FreeCAD voluntariamente, durante su tiempo libre (aunque a veces las empresas o los individuos se reúnen para pagar un par de horas de programación a un desarrollador para implementar una función específica). Algunos son programadores profesionales, otros son usuarios de FreeCAD desde hace mucho tiempo (algunos de ellos son verdaderos gurús de FreeCAD, que lo saben casi todo, y muchos de ellos terminan sabiendo mucho sobre la programación de FreeCAD también), y muchos son nuevos usuarios de FreeCAD. No hay nada específico que hacer para formar parte de la comunidad. ¡Simplemente usa FreeCAD!
 

@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft PointArray
    Name/fr: Draft Réseau de points
-   MenuLocation: Modification , Outils pour les réseaux ,  Réseau de points
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Modification , Outils pour les réseaux ,  Réseau de points<br><br>BIM : Modification , Réseau de points
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Version: 0.18
    SeeAlso: Draft_OrthoArray/fr, Draft_PolarArray/fr, Draft_CircularArray/fr, Draft_PathArray/fr, Draft_PathLinkArray/fr, Draft_PointLinkArray/fr
 ---
@@ -14,11 +14,9 @@
 
 La commande <img alt="" src=images/Draft_PointArray.svg  style="width:24px;"> **Draft Réseau de points** crée un réseau régulier à partir d\'un objet de base sélectionné en plaçant des copies aux points d\'un objet ponctuel. Utilisez la commande [Draft Réseau lié selon une courbe](Draft_PointLinkArray/fr.md) pour créer un réseau lié [Link](App_Link/fr.md) plus efficace. À l\'exception du type de réseau créé, réseau de liens ou réseau régulier, la commande [Draft Réseau lié selon une courbe](Draft_PointLinkArray/fr.md) est identique à cette commande.
 
-L\'objet de base peut être un objet 2D créé avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi un objet 3D tel que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
+L\'objet de base peut être un objet 2D créé avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi un objet 3D tel que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier BIM](BIM_Workbench/fr.md).
 
-L\'objet Point peut être n\'importe quel objet ayant une forme et des sommets (y compris un [Std Part](Std_Part/fr.md) contenant un ou plusieurs de ces objets), ainsi qu\'un [maillage](Mesh_Workbench/fr.md) et un [nuage de point](Points_Workbench/fr.md). Les points en double dans l\'objet point sont filtrés. {{Version/fr|0.21}}
-
-Dans {{VersionMinus/fr|0.20}}, seuls trois types d\'objets Point sont pris en charge, voir [Objet Point version 0.20 et inférieure](#Objet_Point_version_0.20_et_inf.C3.A9rieure.md).
+L\'objet Point peut être n\'importe quel objet ayant une forme et des sommets (y compris un [Std Part](Std_Part/fr.md) contenant un ou plusieurs de ces objets), ainsi qu\'un [maillage](Mesh_Workbench/fr.md) et un [nuage de point](Points_Workbench/fr.md). Les points en double dans l\'objet point sont filtrés.
 
 <img alt="" src=images/Draft_PointArray_Example.png  style="width:400px;"> 
 *Un Draft Réseau de points*
@@ -31,19 +29,10 @@ Dans {{VersionMinus/fr|0.20}}, seuls trois types d\'objets Point sont pris en ch
 2.  Ajouter l\'objet point à la sélection.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyer sur le bouton **<img src="images/Draft_PointArray.svg" width=16px> [Réseau de points](Draft_PointArray/fr.md)**.
-    -   Sélectionner l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_PointArray.svg" width=16px> Réseau de points** du menu.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionner l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_PointArray.svg" width=16px> Réseau de points** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionner l\'option **Modification → <img src="images/Draft_PointArray.svg" width=16px> Réseau de points** du menu.
 4.  Le réseau est créé.
 5.  Vous pouvez modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du réseau dans l\'[éditeur de propriétés](Property_editor/fr.md).
-
-
-
-## Objet Point version 0.20 et inférieure 
-
-Voici les objets Point pris en charge dans {{VersionMinus/fr|0.20}} et la manière dont ils peuvent être créés :
-
--   [Part Composé](Part_Compound/fr.md) : crée un ou plusieurs [Draft Points](Draft_Point/fr.md) ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Part Composé](Part_Compound/fr.md).
--   Draft Bloc : crée un ou plusieurs [Draft Points](Draft_Point/fr.md) ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Draft Agréger](Draft_Upgrade/fr.md).
--   [Sketcher Esquisse](Sketcher_NewSketch/fr.md) : crée une [esquisse](Sketcher_NewSketch/fr.md) et ajoute un ou plusieurs [Sketcher Points](Sketcher_CreatePoint/fr.md) à l\'esquisse.
 
 
 
@@ -101,9 +90,11 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 
 -    **Expand Array|Bool**: spécifie s\'il faut développer le réseau dans la [vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type Link.
 
--    **Extra Placement|Placement**: spécifie un [placement](Placement.md), une translation et une rotation supplémentaires pour chaque élément du réseau.
+-    **Extra Placement|Placement**: spécifie un [placement](Placement/fr.md), une translation et une rotation supplémentaires pour chaque élément du réseau.
 
--    **Point Object|Link**: spécifie l\'objet composé dont les points sont utilisés pour positionner les éléments du réseau. L\'objet doit avoir une propriété **Links**, **Components** ou **Geometry** et contenir au moins un élément avec les propriétés **X**, **Y**, et **Z**.
+-    **Fuse|Bool**: spécifie si les éléments qui se chevauchent dans le réseau sont fusionnés ou non. Non utilisé pour les réseaux de liens. <small>(v1.0)</small> 
+
+-    **Point Object|Link**: spécifie l\'objet dont les points sont utilisés pour positionner les éléments dans le réseau.
 
 
 

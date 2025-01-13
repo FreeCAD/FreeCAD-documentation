@@ -12,11 +12,17 @@
 
 </div>
 
+
+
 ## Описание
 
 The <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> **PartDesign Fillet** tool creates fillets (rounds) on the selected edges of an object. It adds a **Fillet** object to the document with its corresponding representation in the [Tree view](Tree_view.md).
 
+
+
 ## Применение
+
+
 
 ### Добавление скругления 
 
@@ -24,7 +30,7 @@ The <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> **PartDes
 2.  There are several ways to select edges to fillet:
     -   Select one or more edges of the Body individually.
     -   Select one or more faces of the Body to select all their edges.
-    -   Select a feature (usually the last feature) of the Body to select all its edges. <small>(v0.20)</small> 
+    -   Select a feature (usually the last feature) of the Body to select all its edges.
 3.  For a chain of tangentially connected edges only a single edge needs to be selected, the fillet will propagate along the chain.
 4.  There are several ways to invoke the tool:
     -   Press the **<img src="images/PartDesign_Fillet.svg" width=16px> [Fillet](PartDesign_Fillet.md)** button.
@@ -32,6 +38,8 @@ The <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> **PartDes
 5.  If there is no active Body, and there are two or more Bodies in the document, the **Active Body Required** dialog will open and prompt you to activate one. If there is a single Body it will be activated automatically.
 6.  The **Fillet parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 7.  Press the **OK** button to finish.
+
+
 
 ### Редактирование скругления 
 
@@ -41,29 +49,37 @@ The <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> **PartDes
 2.  The **Fillet parameters** [task panel](Task_panel.md) opens.See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
 
+
+
 ## Параметры
 
 -   To add edges do one of the following:
     -   Press the **Add** button to start selecting edges and/or faces in the [3D view](3D_view.md).
     -   To select all remaining edges do the following:
         1.  If required press the **Add** button.
-        2.  Use the **Ctrl**+**Shift**+**A** keyboard shortcut, or right-click the list and select **Add all edges** from the context menu. <small>(v0.20)</small> 
+        2.  Use the **Ctrl**+**Shift**+**A** keyboard shortcut, or right-click the list and select **Add all edges** from the context menu.
 -   To remove edges do one of the following:
     -   Press the **Remove** button to start deselecting edges and/or faces in the [3D view](3D_view.md). Selected elements are highlighted in purple.
     -   Select one or more elements in the list and press the **Del** key, or right-click the list and select **Remove** from the context menu.
 -   Set the **Radius** of the fillet.
--   Check the **Use all edges** checkbox to select all edges of the previous feature. This deactivates the selection list and the related buttons. <small>(v0.20)</small> 
+-   Check the **Use all edges** checkbox to select all edges of the previous feature. This deactivates the selection list and the related buttons.
+
+
 
 ## Примечания
 
 -   PartDesign Fillet should not be confused with [Part Fillet](Part_Fillet.md). Unless you know what you are doing, [Part Fillet](Part_Fillet.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
 -   Fillets cannot completely consume the adjacent faces.
 
+
+
 ## Свойства
 
 See also: [Property editor](Property_editor.md).
 
 A PartDesign Fillet object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+
 
 ### Данные
 
@@ -93,6 +109,8 @@ A PartDesign Fillet object is derived from a [Part Feature](Part_Feature.md) obj
 
 -    **Refine|Bool**: If `True` redundant edges are removed from the result of the operation. The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
+
+
 ## Известные проблемы 
 
 Fillets, chamfers, and other features that operate on solid bodies depend on the underlying [OpenCASCADE](OpenCASCADE.md) Technology (OCCT) kernel that FreeCAD uses. The OCCT kernel occasionally has difficulty handling coincident sharp edges, where two faces meet. If this is the case FreeCAD may crash without an explanation.
@@ -121,12 +139,18 @@ See the forum threads for more information:
 
 ### Topological naming 
 
-Edge numbers are not completely stable, therefore it is advisable that you finish the main design work of your solid body before applying features like fillets and chamfers, otherwise edges could change names and filleted edges would likely become invalid. When the **Use All Edges** property (<small>(v0.20)</small> ) is `True` there is some protection from this. Because in such cases all the edges of the base object are used and there is no dependence on individual edge names.
+Edge numbers are not completely stable, therefore it is advisable that you finish the main design work of your solid body before applying features like fillets and chamfers, otherwise edges could change names and filleted edges would likely become invalid. When the **Use All Edges** property is `True` there is some protection from this. Because in such cases all the edges of the base object are used and there is no dependence on individual edge names.
 
 Read more in [topological naming problem](Topological_naming_problem.md).
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

@@ -1,7 +1,7 @@
 # Expressions/fr
 ## Présentation
 
-Il est possible de définir des propriétés à l\'aide d\'expressions mathématiques. Dans l\'interface graphique, les zones de sélection numérique ou les champs de saisie liés aux propriétés contiennent une icône bleue <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Cliquez sur l\'icône ou tapez le signe égal **&#61;** pour ouvrir l\'éditeur d\'expression pour cette propriété particulière.
+Il est possible de définir des propriétés à l\'aide d\'expressions mathématiques. Dans l\'interface graphique, les boîtes de dialogue ou les champs de saisie liés aux propriétés affichent une icône bleue <img alt="" src=images/Bound-expression.svg  style="width:16px;"> lorsqu\'ils sont activés. Cliquer sur l\'icône ou taper le signe égal **&#61;** ouvre l\'éditeur d\'expression pour cette propriété particulière. Si le champ de saisie affiche un bouton **...** au lieu d\'une icône, l\'éditeur d\'expression peut être ouvert en cliquant avec le bouton droit de la souris sur la propriété et en sélectionnant **Expression...** dans le menu contextuel.
 
 Une expression FreeCAD est une expression mathématique utilisant les [opérateurs](#Opérateurs_pris_en_charge.md) mathématiques standard, les [fonctions](#Fonctions_supportées.md) et [constantes prédéfinies](#Constantes_prises_en_charge.md) comme décrit ci-dessous. En outre, une expression peut faire référence à des propriétés d\'objet et utiliser des [conditions](#Expressions_conditionnelles.md). Les nombres d\'une expression peuvent être éventuellement associés à une [unité](#Unités.md).
 
@@ -414,7 +414,7 @@ Les objets suivants peuvent être créés dans des expressions à l\'aide des fo
 
 ### Fonctions vectorielles 
 
-Fonctions : {{Version/fr|0.22}}.
+Fonctions : {{Version/fr|1.0}}.
 
 +++
 | Fonction / Opérateur                | Description                                                                                                                                                                                                  |
@@ -557,7 +557,9 @@ et `Placement` peuvent être représentés par une `Matrix`. Les fonctions suiva
 
 ## Expressions conditionnelles 
 
-Les expressions conditionnelles sont de la forme `condition ? resultTrue : resultFalse`. (*condition ? résultat si VRAI : résultat si FAUX*). La condition est définie comme une expression dont le résultat est `0` (faux) ou différent de zéro (vrai).
+Les expressions conditionnelles sont de la forme `condition ? resultTrue : resultFalse`. La condition est définie comme une expression dont la valeur est soit `0` (faux) ou non nulle (vrai).
+
+Remarquez que pour utiliser une propriété booléenne comme condition, il faut utiliser la syntaxe suivante : `VarSet.MyBool &#61;&#61; 1 ? 10 mm : 15 mm`.
 
 Les [opérateurs relationnels](https://en.wikipedia.org/wiki/Relational_operator#Standard_relational_operators) suivants sont définis:
 
@@ -605,10 +607,10 @@ Les unités suivantes sont reconnues par l'analyseur d'expression:
   deg     [Degré](https://fr.wikipedia.org/wiki/Degree_(angle)); alternative à l\'unité °
   rad     [Radian](https://fr.wikipedia.org/wiki/Radian)
   gon     [Gradian](https://fr.wikipedia.org/wiki/Gon_(unit))
-  S       [Seconde d\'arc](https://fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); alternative à l\'unité ″
-  ″       [Seconde d\'arc](https://fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); alternative à l\'unité S
   M       [Minute d\'arc](https://fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); alternative à l\'unité ′
-  ′       [Minute d\'arc](https://fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); alternative à l\'unité M
+  ′       [Minute d\'arc](https://fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); c\'est le symbole prime (U+2032); alternative à l\'unité M
+  S       [Seconde d\'arc](https://fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); **NE FONCTIONNE PAS**; alternative à l\'unité ″
+  ″       [Seconde d\'arc](https://fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); c\'est le symbole du double prime (U+2033); alternative à l\'unité S
 
 
 
@@ -1029,7 +1031,35 @@ Bien sûr, vous pouvez charger les documents correspondants à tout moment pour 
 ## Problèmes connus / tâches restantes 
 
 -   FreeCAD ne dispose pas encore d\'un gestionnaire d\'expressions intégré où toutes les expressions d\'un document sont listées et peuvent être créées, supprimées, interrogées etc\... Une extension est disponible : [fcxref expression manager](https://github.com/gbroques/fcxref).
--   les bogues et tickets ouverts pour les expressions sont référencés sur [GitHub](https://github.com/FreeCAD/FreeCAD/issues?q=is%3Aissue+is%3Aopen+label%3AExpressions).
+-   les bogues et tickets ouverts pour les expressions sont référencés sur [GitHub](https://github.com/FreeCAD/FreeCAD/labels/Topic%3A%20Expressions).
+
+
+{{Top}}
+
+
+
+## Script
+
+
+```python
+import FreeCAD as App
+
+doc = App.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+cyl = doc.addObject("Part::Cylinder", "Cylinder")
+cyl_name = cyl.Name
+
+box.setExpression("Height", f"{cyl_name}.Height / 2")
+box.setExpression("Length", f"{cyl_name}.Radius * 2")
+box.setExpression("Width", "Length")
+
+doc.recompute()
+
+# Expressions are stored in the ExpressionEngine property:
+for prop, exp in box.ExpressionEngine:
+    val = getattr(box, prop)
+    print(f"Property: '{prop}' -- Expression: '{exp}' -- Current value: {val}")
+```
 
 
 {{Top}}

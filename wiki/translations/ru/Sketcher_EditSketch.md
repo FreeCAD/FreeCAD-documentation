@@ -40,18 +40,6 @@
 
 
 
-## Примечания
-
-
-<div class="mw-translate-fuzzy">
-
--   Выбор [Покинуть эскиз](Sketcher_LeaveSketch/ru.md) завершит режим редактирования.
-
-
-</div>
-
-
-
 
 
 {{Sketcher_Tools_navi

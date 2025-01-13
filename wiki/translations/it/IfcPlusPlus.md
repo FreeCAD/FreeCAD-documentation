@@ -19,6 +19,8 @@ The IFC++ library can be used for general purpose, and it also includes a sample
 
 in common usage, the names \"IfcQuery\", \"IFC++\", and \"IfcPlusPlus\" may be used interchangeably to refer to the same thing, the C++ library, or more specifically the free IFC viewer.
 
+
+
 ## Installazione
 
 The IFC++ distribution is provided as source code, so to use the library and the viewer, the code must be compiled.
@@ -235,9 +237,11 @@ QT5_ADD_RESOURCES(SimpleViewerExample_RESOURCES_RCC ${RESOURCES})
 -   German thread: [IfcQuery / IfcPlusPlus selber kompilieren](https://forum.freecadweb.org/viewtopic.php?f=13&t=48648)
 
 
- {{FEM Tools navi}}
+{{BIM_Tools_navi
+
+}} {{FEM_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > IfcPlusPlus/it
+⏵ [documentation index](../README.md) > IfcPlusPlus/it

@@ -8,6 +8,8 @@
 
 # Part Cylinder/ru
 
+
+
 ## Описание
 
 
@@ -21,6 +23,8 @@
 A Part Cylinder can be turned into a segment of a cylinder by changing its **Angle** property.
 
 <img alt="" src=images/Part_Cylinder_Example.png  style="width:400px;">
+
+
 
 ## Применение
 
@@ -44,6 +48,8 @@ A Part Cylinder object created with the [scripting example](#Scripting.md) below
 ## Notes
 
 -   A Part Cylinder can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+
+
 
 ## Свойства
 

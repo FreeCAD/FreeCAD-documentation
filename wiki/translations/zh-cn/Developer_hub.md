@@ -16,17 +16,23 @@
 
 ### 编译 FreeCAD 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Github 代码库](https://github.com/FreeCAD/FreeCAD). 如果你是git新手, 请阅读[Source code management](Source_code_management.md)
 -   [用Docker编译](Compile_on_Docker.md)
 -   [在Windows上编译](Compile_on_Windows.md)
 -   [在Linux上编译](Compile_on_Linux.md)
 -   [在Mac OS X上编译](Compile_on_MacOS.md)
--   关于FreeCAD的[许可协议细节](Licence/zh-cn.md)
+-   关于FreeCAD的[许可协议细节](License/zh-cn.md)
 -   [第三方程序库](Third_Party_Libraries.md)
 -   [第三方工具库](Third_Party_Tools.md)
 -   [起始和配置](Start_up_and_Configuration.md)
 -   [源文档](Source_documentation/zh-cn.md)
 -   当你有问题或你认为发现了一个bug的时候，请使用 [bug tracker](Tracker.md) 。
+
+
+</div>
 
 
 

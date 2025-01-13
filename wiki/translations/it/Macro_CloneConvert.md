@@ -1,70 +1,39 @@
 # Macro CloneConvert/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro CloneConvert
 |Icon=Macro_CloneConvert.png
-|Description={{ColoredText|#ff0000|#ffffff|New version GUI modifyed for the HD dpi (QGridLayout) run only FC version 0.18 and more (PySide2 Qt5)}}<br/><br/> 
-For the precedent version see [https://gist.githubusercontent.com/mario52a/9f2f2f6144e1307a048f1840ef99300c/raw/0a141260ad8d5f67f0fc18b9b40ef37757c06c65/Macro_CloneConvert.FCMacro Macro_CloneConvert] and install it manually.<br/><br/> Creates a clone or Copy or Compound of the object(s) and the converted in the chosen position and size (inch, mm, m, µm...) or free. The base object is recognized in mm (FreeCAd base).
+|Description=Crea un Clone/Copia/Composto dell'oggetto/degli oggetti e poi converte in una posizione e dimensione scelta (''pollici, mm, m, µm''...) o libera. L'oggetto base è riconosciuto in ''mm'' (base FreeCAD).
 |Author=mario52
-|Version=0.15
-|Date=2020-06-06
-|FCVersion= 0.18 è piu
+|Version=0.16
+|Date=2025-01-06
+|FCVersion= ≥0.18
 |Download=[https://www.freecadweb.org/wiki/images/0/0a/Macro_CloneConvert.png ToolBar Icon]
 }}
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 ## Descrizione
 
-Crea un clone o una copia dell\'oggetto, lo colloca nella posizione indicata e con le dimensioni desiderate (cm, mm, m, um \...) a piacere. L\'originale, cioè l\'oggetto selezionato, è riconosciuto in mm (secondo il sistema base di FreeCAD)
+Crea un clone o una copia dell\'oggetto e poi lo colloca nella posizione scelta e con le dimensioni desiderate (*pollici, mm, m, µm*\...) o a piacere. L\'oggetto base è misurato in *mm* (secondo il sistema base di FreeCAD)
 
 
-</div>
-
-
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/9f2f2f6144e1307a048f1840ef99300c/raw/39bc54e90b80053a5af76b0b17694cb53697aebd/Macro_CloneConvert.FCMacro}}
-
-
-<div class="mw-translate-fuzzy">
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/9f2f2f6144e1307a048f1840ef99300c/raw/fb76b3c728c1c7cd085e87f5d6d223d9f79bb574/Macro_CloneConvert.FCMacro}}
 
 ## Utilizzo
 
-Avviare la macro, definire le impostazioni XYZ se è necessario, scegliere \"Clone\" oppure \"Copia\", scegliere una unità di conversione, selezionare l\'oggetto e poi fare clic su il pulsante **OK** per avviare l\'operazione.
+1.  Avviare la macro
+2.  Definire le impostazioni di XYZ
+3.  Scegliere \"Clone\" o \"Copy\"
+4.  Scegliere un\'unità di misura
+5.  Selezionare l\'oggetto
+6.  Fare click su **Ok**
 
+## Note
 
-</div>
+-   Se non viene inserito alcun valore viene creata una copia o un clone senza modifiche.
+-   Se non è selezionato alcun oggetto il pulsante **Ok** è colorato in rosso.
 
+I valori di **BoundingBox**, **Volume** e **Surface** sono indicati nella [vista Report](Report_view/it.md), nel caso di **Copy** per oggetti multipli, il display visualizza BoundingBox 0.0.
 
-<div class="mw-translate-fuzzy">
-
-Se non viene inserito alcun valore viene creata una copia o un clone senza modifiche. Se non è selezionato alcun oggetto il pulsante **Ok** è colorato in rosso.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Il valore di **BoundingBox**, **Volume** e **Surface** sono indicate nella vista Report, nel caso di oggetti **Copy** multiple, il display visualizza BoundingBox 0.0.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-L\'unità di base e il mm. L\'originale viene quindi considerato come un oggetto in cui l\'unità di misura è il mm.
-
-Esempio di conversione di uno cubo avente il lato di **1 mm** in un cubo avente lato **25,4 mm**:
-
-
-</div>
+L\'unità di base è il mm, esempio con il lato del cubo di **1 mm**:
 
 Selezionare nel comboBox l\'unità **inch**, **1 inch = 25.4 mm** , notare che il valore nei campi **\"Scale free\"** si adeguano automaticamente a 25.4 che corrisponde appunto a 1 pollice (per impostare scalature differenti secondo gli assi, i valori ​​in **\"Scale-free\"** possono essere modificati individualmente). Cliccare sul pulsante **OK**. Il cubo clone creato in questo modo ha le dimensioni di **25,4 mm**
 
@@ -85,15 +54,7 @@ Per un cubo di 5mm, fare **5 / 25,4 = 0,1968503**e inserire il valore **0,196850
 
 **50%** = **0,50** nel campo **\"Scale free\"**
 **4%** = **0,04** nel campo **\"Scale free\"**
-
-
-<div class="mw-translate-fuzzy">
-
 Le unita predefinite sono: km, hm, dam, m, dm, cm, **mm**, µm, nm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
-
-
-</div>
-
 <img alt="CloneConvert" src=images/Macro_CloneConvert_01.png  style="width:350px;">
 
 -   **Mode**
@@ -149,9 +110,9 @@ Scaricare la macro da Gist [Macro_CloneConvert.FCMacro](https://gist.github.com/
 
 
 
-## Revision
+## Revisioni
 
-14/06/2016 ver 0.9 = adding the choice of number of copies and labels optimization
+01/06/2025 ver 00.16 sostituisce PySide2 con PySide aumenta mini e maxi cancella tutti i riferimenti a PySide, PySide2 e QtWidgets e corregge il clone, composto
 
 06/06/2020 ver 0.15 = icon
 

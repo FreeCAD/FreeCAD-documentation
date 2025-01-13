@@ -5,7 +5,7 @@
    MenuLocation: Część , Utwórz kopię , Utwórz kopię kształtu elementu
    Workbenches: Part_Workbench/pl
    Version: 0.19
-   SeeAlso: Part_SimpleCopy/pl, Part_ElementCopy/pl, Part_RefineShape/pl
+   SeeAlso: 
 ---
 
 # Part ElementCopy/pl
@@ -14,33 +14,36 @@
 
 ## Opis
 
-Narzędzie **Utwórz kopię kształtu elementu** tworzy nieparametryczną kopię elementu podrzędnego danego obiektu, czyli wierzchołka, krawędzi lub ściany.
-
-Aby utworzyć inne nieparametryczne kopie, należy użyć narzędzi **<img src="images/Part_SimpleCopy.svg" width=16px> [Utwórz prostą kopię](Part_SimpleCopy/pl.md)
-**, **<img src="images/Part_TransformedCopy.svg" width=16px>[Utwórz przekształconą kopię](Part_TransformedCopy/pl.md)**, lub **<img src="images/Part_RefineShape.svg" width=16px> [Udoskonal kształt](Part_RefineShape/pl.md)**
+Narzędzie <img alt="" src=images/Part_ElementCopy.svg  style="width:24px;"> **Utwórz kopię kształtu elementu** tworzy nieparametryczną kopię elementu podrzędnego danego obiektu, czyli wierzchołka, krawędzi lub ściany.
 
 
 
 ## Użycie
 
-1.  Wybierz wierzchołek, krawędź lub ścianę obiektu, dla którego chcesz utworzyć kopię.
-2.  Przejdź do menu **Część → Utwórz kopię → [<img src=images/Part_ElementCopy.svg style="width:16px"> '''Utwórz kopię kształtu elementu'''**.
+1.  Wybierz jeden lub więcej elementów podrzędnych należących do jednego lub więcej obiektów.
+2.  Wybierz opcję **Część → Utwórz kopię → <img src="images/Part_ElementCopy.svg" width=16px> Utwórz kopię kształtu elementu** z menu.
+
+
+
+## Uwagi
+
+-   Aby utworzyć nieparametryczne kopie całych obiektów, należy skorzystać z narzędzia [Część: Utwórz prostą kopię](Part_SimpleCopy/pl.md) lub [Część: Utwórz przekształconą kopię](Part_TransformedCopy/pl.md).
 
 
 
 ## Właściwości
 
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+
+Tworzone są obiekty [Część: Cecha](Part_Feature/pl.md) bez dodatkowych właściwości.
 
 
-### Dane
-
-Kopia ma zwykłą właściwość **Umiejscowienie** jak każda inna [cecha](Part_Feature/pl.md) środowiska Część.
 
 
 
-### Widok
+{{Part_Tools_navi
 
-Kopia ma proste właściwości widoku, jak każda inna [cecha](Part_Feature/pl.md) środowiska część.
+}}
 
 
 

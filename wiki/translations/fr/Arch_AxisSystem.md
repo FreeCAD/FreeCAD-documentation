@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch AxisSystem
    Name/fr: Arch Système d'axes
-   MenuLocation: Arch , Outils pour les axes , Système d'axes
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: Annotation , Système d'axes
+   Workbenches: BIM_Workbench/fr
    SeeAlso: Arch_Axis/fr, Arch_Grid/fr
 ---
 
@@ -25,7 +25,7 @@ Ceci est utile pour définir les points d\'intersection entre les différents ax
 1.  En option, sélectionnez les objets [Arch Axes](Arch_Axis/fr.md) que vous souhaitez inclure dans ce système.
 2.  Appuyez sur le bouton **<img src="images/Arch_AxisSystem.svg" width=16px> [Système d'axes](Arch_AxisSystem/fr.md)**.
 3.  Cliquez avec le bouton droit sur l\'objet système d\'axes nouvellement créé dans l\'arborescence pour ajouter/modifier les objets [Axes](Arch_Axis/fr.md) inclus dans ce système.
-4.  Sélectionnez un [Arch Axes](Arch_Axis/fr.md) existant et appuyez sur les boutons **<img src="images/Arch_Add.svg" width=16px> [Arch Ajouter](Arch_Add/fr.md)** ou **<img src="images/Arch_Remove.svg" width=16px> [Arch Soustraire](Arch_Remove/fr.md)** pour ajouter ou enlever de ce système.
+4.  Sélectionnez un [Arch Axe](Arch_Axis/fr.md) existant et appuyez sur les boutons **<img src="images/Arch_Add.svg" width=16px> [Arch Ajouter](Arch_Add/fr.md)** ou **<img src="images/Arch_Remove.svg" width=16px> [Arch Supprimer](Arch_Remove/fr.md)** pour ajouter ou enlever de ce système.
 5.  Définir la propriété **Axis** de n\'importe quel objet Arch pour pointer vers ce système, pour que sa forme soit dupliquée aux points d\'intersection de ce système
 
 ## Options
@@ -82,5 +82,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch AxisSystem/fr
+⏵ [documentation index](../README.md) > Arch AxisSystem/fr

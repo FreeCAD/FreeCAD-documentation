@@ -5,7 +5,7 @@
    MenuLocation: Rysunek Techniczny , Widoki , Udostępnij widok
    Workbenches: TechDraw_Workbench/pl
    Version: 0.20
-   SeeAlso: TechDraw_MoveView/pl
+   SeeAlso: 
 ---
 
 # TechDraw ShareView/pl
@@ -52,7 +52,7 @@ TechDrawTools.MoveView(viewName, fromPageName, toPageName, True)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM MaterialReinforced
    Name/pl: MES Materiał zbrojony 
    MenuLocation:  Model , Materiały , Materiał zbrojony 
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_tutorial/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: CalculiX
+}}
 ---
 
 # FEM MaterialReinforced/pl
@@ -34,6 +39,7 @@ Tworzy materiał o zbrojonej matrycy. Łączy materiał matrycy (np. beton) z ma
 
 -   W ustawieniach solvera CalculiX należy ustawić Material Nonlinearity na linear jeśli [Nieliniowy materiał mechaniczny](FEM_MaterialMechanicalNonlinear/pl.md) nie jest zdefiniowany.
 -   Więcej informacji na temat tego narzędzia oraz przykład jego użycia można znaleźć na stronie [MES: Analiza betonu zbrojonego](Analysis_of_reinforced_concrete_with_FEM/pl.md).
+-   Aby zapoznać się z samouczkiem wideo *(opartym na [poradniku FEM](FEM_tutorial/pl.md))*, który wykorzystuje to narzędzie, obejrzyj: [Poradnik FEM Materiał zbrojony](https://www.youtube.com/watch?v=SZTIqhfCSVc).
 
 
 

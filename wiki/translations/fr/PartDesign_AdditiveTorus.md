@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign AdditiveTorus
    Name/fr: PartDesign Tore Additif
-   MenuLocation: Part Design , Créer une primitive additive , Tore additif
+   MenuLocation: PartDesign , Créer une primitive additive , Tore additif
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/fr, PartDesign_SubtractiveTorus/fr
@@ -15,6 +15,8 @@
 Insérer un tore Primitif dans un corps actif (body) comme fonction de base, ou le fusionne aux fonctions existantes.
 
 <img alt="" src=images/PartDesign_AdditiveTorus_example.png  style="width:200px;">
+
+
 
 ## Utilisation
 
@@ -29,6 +31,8 @@ Le Tore peut être éditée après sa création de deux façons :
 
 -   Double-cliquez le dans l\'arborescence ou faire un clic droit dessus et sélectionnez **Éditer la primitive** dans le menu contextuel. Cela fait apparaître les paramètres des Primitives.
 -   Via l\'[Éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ## Propriétés
 

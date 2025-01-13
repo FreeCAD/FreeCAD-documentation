@@ -3,7 +3,7 @@
    Name: Draft Shape2DView
    Name/fr: Draft Vue 2D d'une forme
    MenuLocation: Modification , Vue 2D de la forme
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   Workbenches: Draft_Workbench/fr
    SeeAlso: TechDraw_ProjectShape/fr
 ---
 
@@ -26,7 +26,7 @@ Les projections Vue 2D d\'une forme peuvent être affichées sur une page de l\'
 2.  Vous pouvez sélectionner un ou plusieurs objets.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Shape2DView.svg" width=16px> [Vue 2D de la forme](Draft_Shape2DView/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Shape2DView.svg" width=16px> Vue 2D de la forme ** dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Shape2DView.svg" width=16px> Vue 2D de la forme ** du menu.
 4.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [vue 3D](3D_view/fr.md).
 5.  Les objets projetés sont créés sur le plan XY.
 
@@ -53,13 +53,15 @@ Un objet Draft Vue 2D d\'une forme est dérivé d\'un [Part Part2DObject](Part_P
 
 {{TitleProperty|Draft}}
 
--    **Auto Update|Bool**: spécifie si la projection doit être automatiquement recalculée si l\'objet **Base** change. Sélectionner {{False}} peut être utile s\'il y a de nombreux Draft Shape2DViews dans un document ou si ils sont complexes. Définie à {{False}}, la commande [Std Rafraîchir](Std_Refresh/fr.md) doit être utilisée pour mettre à jour la projection. {{Version/fr|0.20}}
+-    **Auto Update|Bool**: spécifie si la projection doit être automatiquement recalculée si l\'objet **Base** change. Sélectionner {{False}} peut être utile s\'il y a de nombreux Draft Shape2DViews dans un document ou si ils sont complexes. Définie à {{False}}, la commande [Std Recalculer](Std_Refresh/fr.md) doit être utilisée pour mettre à jour la projection.
 
 -    **Base|Link**: spécifie l\'objet à projeter.
 
+-    **Clip|Bool**: si mis à True, le contenu est découpé en fonction des arêtes du plan de coupe, le cas échéant. Cette propriété remplace la propriété Clip de l\'objet de base.
+
 -    **Face Numbers|IntegerList**: spécifie les indices des faces à projeter. Ne fonctionne que si **Projection Mode** est {{Value|Faces individuelles}}.
 
--    **Fuse Arch|Bool**: spécifie si les [Arch objects](Arch_Workbench.md) de même type et matériau sont fusionnés ou non.
+-    **Fuse Arch|Bool**: spécifie si les [BIM objets](BIM_Workbench/fr.md) de même type et matériau sont fusionnés ou non.
 
 -    **Hidden Lines|Bool**: spécifie si les lignes cachées sont affichées ou non.
 
@@ -92,7 +94,7 @@ Un objet Draft Vue 2D d\'une forme est dérivé d\'un [Part Part2DObject](Part_P
     -   
         {{Value|Faces solides}}
         
-        : projette l\'objet sélectionné dans son intégralité en découpant les faces une par une. Peut être utilisé si le mode {{Value|Solid}} donne de mauvais résultats. {{Version/fr|0.20}}
+        : projette l\'objet sélectionné dans son intégralité en découpant les faces une par une. Peut être utilisé si le mode {{Value|Solid}} donne de mauvais résultats.
 
 -    **Segment Length|Float**: spécifie la taille en millimètres des segments linéaires si **Tessellation** est `True`.
 
@@ -100,7 +102,7 @@ Un objet Draft Vue 2D d\'une forme est dérivé d\'un [Part Part2DObject](Part_P
 
 -    **Visible Only|Bool**: spécifie si la projection doit être recalculée uniquement si elle est visible.
 
--    **Exclusion Points|Vector list**: Une liste de points d\'exclusion. Toute arête passant par l\'un de ces points ne sera pas dessinée. {{Version/fr|0.20}}
+-    **Exclusion Points|Vector list**: Une liste de points d\'exclusion. Toute arête passant par l\'un de ces points ne sera pas dessinée.
 
 -    **Exclusion Names|String list**: liste de noms d\'objets. Tout objet enfant vu ou coupé dont le nom figure dans cette liste ne sera pas dessiné. {{Version/fr|0.21}}
 

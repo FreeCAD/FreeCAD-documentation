@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Fillet
-   Name/it: Raccordo
-   MenuLocation: Drafting , Raccordo
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Raccordo
+   MenuLocation: Drafting , Raccordo<br>2D Drafting , Raccordo
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **F** **I**
    Version: 0.19
    SeeAlso: Draft_Line/it, Draft_Wire/it
@@ -15,21 +15,26 @@
 
 ## Descrizione
 
-Il comando <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Raccordo** crea un raccordo, un angolo arrotondato o smusso, tra due [Linee](Draft_Line/it.md).
+Il comando <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Raccordo** crea un raccordo, un angolo arrotondato o smusso, tra due bordi selezionati.
+
+In {{VersionMinus/it|0.21}} il comando funziona correttamente solo se entrambi i bordi selezionati sono rettilinei.
+
+In {{VersionMinus/it|1.0}} se gli oggetti selezionati hanno più bordi, verrà utilizzato il primo bordo. Questo potrebbe non essere il bordo selezionato nella [Vista 3D](3D_view/it.md).
 
 <img alt="" src=images/Draft_Fillet_example.png  style="width:400px;"> 
-*Diversi raccordi e smussi creati tra due linee*
+*Diversi raccordi e smussi creati tra due bordi*
 
 
 
 ### Utilizzo
 
-1.  Selezionare due [Linee](Draft_Line/it.md) che si incontrano in un unico punto.
+1.  Selezionare due bordi che si incontrano in un unico punto.
 2.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Fillet.svg" width=16px> [Raccordo](Draft_Fillet/it.md)**.
-    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_Fillet.svg" width=16px> Raccordo** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Drafting → <img src="images/Draft_Fillet.svg" width=16px> Raccordo** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **2D Drafting → <img src="images/Draft_Fillet.svg" width=16px> Raccordo** dal menu.
     -   Usare la scorciatoia da tastiera: **F** poi **I**.
-3.  Inserire il **Raggio raccordo**. Se l\'opzione **Crea smusso** è selezionata, questa sarà la dimensione dello smusso (la lunghezza del bordo dritto). Si noti che il comando non avrà successo se il raggio o la dimensione dello smusso è troppo grande per le linee selezionate.
+3.  Inserire il **Raggio raccordo**. Tenere presente che il comando non avrà successo se il raggio è troppo grande per gli oggetti bordo selezionati.
 4.  Facoltativamente selezionare l\'opzione **Elimina gli oggetti originali**.
 5.  Facoltativamente selezionare l\'opzione **Crea smusso**.
 6.  Se è stata selezionata una delle due opzioni precedenti: Fare clic nella casella di immissione **Raggio raccordo**.
@@ -45,8 +50,7 @@ Il comando <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Racco
 
 ## Note
 
--   Un raccordo non può essere modificato né è collegato alle linee utilizzate per crearlo.
--   Al momento sono supportate solo linee, cioè [Polilinee](Draft_Wire/it.md) con solo due punti.
+-   Un Draft Raccordo non può essere modificato né è collegato (link) ai bordi utilizzati per crearlo.
 -   Una [Polilinea](Draft_Wire/it.md) che ha almeno tre punti può essere raccordata o smussata modificandone rispettivamente **Fillet Radius** o **Chamfer Size**. Poiché [Linee](Draft_Line/it.md) e [Polilinee](Draft_Wire.md), possono essere unite con il comando [Polilinea](Draft_Wire/it.md), il comando [Unisci](Draft_Join/it.md) o il comando [Promuovi](Draft_Upgrade/it.md) forniscono un metodo alternativo per creare raccordi e smussi.
 
 
@@ -99,12 +103,12 @@ Per creare un Raccordo Draft usare il metodo `make_fillet` del modulo Draft:
 
 
 ```python
-fillet = make_fillet([line1, line2], radius=100, chamfer=False, delete=False)
+fillet = make_fillet([edge1, edge2], radius=100, chamfer=False, delete=False)
 ```
 
--   Crea un oggetto `Fillet` tra le linne `line1` e `line2`, usando `radius` come raggio di curvatura.
--   Se `chamfer` è `True` crea un bordo dritto con la lunghezza di `radius`, invece di un bordo arrotondato.
--   Se `delete` è `True` cancella le `line1` e `line2`, e lascia solo il nuovo oggetto.
+-   Crea un oggetto `Fillet` tra gli oggetti bordo `edge1` e `edge2`, utilizzando `radius` per la curvatura.
+-   Se `chamfer` è `True` creerà un bordo dritto invece di un bordo arrotondato.
+-   Se `delete` è `True` eliminerà i dati `edge1` e `edge2` e lascerà solo il nuovo oggetto.
 
 Esempio:
 
@@ -119,12 +123,12 @@ p1 = App.Vector(0, 0, 0)
 p2 = App.Vector(1000, 1000, 0)
 p3 = App.Vector(2000, 0, 0)
 
-line1 = Draft.make_line(p1, p2)
-line2 = Draft.make_line(p2, p3)
+edge1 = Draft.make_line(p1, p2)
+edge2 = Draft.make_line(p2, p3)
 
 doc.recompute()
 
-fillet = Draft.make_fillet([line1, line2], radius=500)
+fillet = Draft.make_fillet([edge1, edge2], radius=500)
 
 doc.recompute()
 ```

@@ -27,9 +27,9 @@ Der Befehl <img alt="" src=images/Part_Tube.svg  style="width:24px;"> **Part Roh
 ### Erstellung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Part_Tube.svg" width=16px> [Create tube](Part_Tube/de.md)** drücken.
-    -   Den Menüeintrag **Part → Grundkörper → <img src="images/Part_Tube.svg" width=16px> Create tube** auswählen.
-2.  Der Aufgabenbereich **Rohr** wird geöffnet und eine Vorschau auf das Rohr in der [3D-Ansicht](3D_view/de.md) dargestellt.
+    -   Die Schaltfläche **<img src="images/Part_Tube.svg" width=16px> [Hohlzylinder erstellen](Part_Tube/de.md)** drücken.
+    -   Den Menüeintrag **Part → Grundkörper → <img src="images/Part_Tube.svg" width=16px> Hohlzylinder erstellen** auswählen.
+2.  Das Aufgaben-Fenster **Rohr** wird geöffnet und eine Vorschau auf das Rohr in der [3D-Ansicht](3D_view/de.md) dargestellt.
 3.  Die Maße festlegen.
 4.  Die Vorschau wird dynamisch aktualisiert.
 5.  Die Schaltfläche **OK** drücken.
@@ -84,7 +84,7 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/), [Part Skripten](Part_scripting/de.md) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 A Part Tube can be created with the {{Incode|addTube()}} method (<small>(v0.20)</small> ) of the Shapes module:
 

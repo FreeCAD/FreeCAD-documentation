@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Arc
    Name/de: Draft Bogen
-   MenuLocation: Zeichnen , Bogenwerkzeuge , Kreisbogen
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Zeichnen , Bogenwerkzeuge , Kreisbogen<br>2D-Entwurf , Kreisbogen
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Version: 0.7
    Shortcut: **A** **R**
    SeeAlso: Draft_Arc_3Points/de, Draft_Circle/de
@@ -30,8 +30,9 @@ Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Einrasten](Draft_Snap/de.md
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 2.  Die Schaltfläche **<img src="images/Draft_Arc.svg" width=16px> [Kreisbogen](Draft_Arc/de.md)** drücken.
-    -   Den Menüeintrag **Zeichnen → Bogenwerkzeuge → <img src="images/Draft_Arc.svg" width=16px> Kreisbogen** auswählen.
-    -   Das Tastaturkürzel **A** dann **R**. {{Version/de|0.20}}
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Zeichnen → Bogenwerkzeuge → <img src="images/Draft_Arc.svg" width=16px> Kreisbogen** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **2D-Entwurf → <img src="images/Draft_Arc.svg" width=16px> Kreisbogen** auswählen.
+    -   Das Tastaturkürzel **A** dann **R**.
 3.  Der Aufgaben-Bereich **Kreisbogen** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 4.  Den ersten Punkt, den Mittelpunkt des Kreisbogens, in der [3D-Ansicht](3D_view/de.md) auswählen oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt  eingeben** drücken.
 5.  Den zweiten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder den **Radius** eingeben.
@@ -42,11 +43,11 @@ Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Einrasten](Draft_Snap/de.md
 
 ## Optionen
 
-Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 1.0).
 
 -   Zum manuellen Eingeben der Koordinaten des Mittelpunktes werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam den Mauszeiger aus der [3D-Ansicht](3D_view.md) heraus zu bewegen, bevor die Koordinaten eingegeben werden.
 
--    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md).
 
 -    **N**drücken oder die Checkbox **Continue** aktivieren, um den Fortsetzen-Modus umzuschalten. Wenn der Fortsetzen-Modus aktiviert ist, wird der Befehl nach dem Beenden erneut gestartet, und ermöglicht so mit dem Erstellen von Bögen fortzufahren.
 
@@ -78,7 +79,7 @@ Siehe [Draft-Kreis](Draft_Circle/de#Eigenschaften.md).
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Zum Erstellen eines Draft-Bogens wird die Methode `make_circle` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeCircle`.
 

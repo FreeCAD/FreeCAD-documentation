@@ -1,7 +1,4 @@
 # Macro HighlightCommon/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=HightlightCommon
 |Icon=Macro_HighlightCommon.png
@@ -11,23 +8,14 @@
 |Version=2.3.2
 |Date=2021-07-01
 |FCVersion=0.17 e sopra
-|Download=[https://www.freecadweb.org/wiki/images/8/85/Macro_HighlightCommon.png ToolBar Icon]
+|Download=[https://wiki.freecad.org/images/8/85/Macro_HighlightCommon.png Icona della barra degli strumenti]
 }}
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
 Evidenzia e visualizza le parti comuni in rosso e imposta la semi-trasparenza delle parti originali (gli oggetti originali non vengono modificati)
-
-
-</div>
 
 
 {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/HighlightCommon.FCMacro}}
@@ -43,19 +31,13 @@ ToolBar Icon ![](images/Macro_HighlightCommon.png )
 
 Il codice è visibile in Github: [Utility/HighlightCommon.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/HighlightCommon.FCMacro).
 
-## Links
 
-
-<div class="mw-translate-fuzzy">
 
 ## Link
 
 -   Vedere la macro complementare: [Macro_HighlightDifference](Macro_HighlightDifference/it.md)
 -   Il mio blog [Linux for an engineer](http://linuxforanengineer.blogspot.com.es/) per il codice e altre interessanti macro per FreeCAD
 -   La discussione nel forum: [\"collision detection\", overlapping](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
-
-
-</div>
 
 
 

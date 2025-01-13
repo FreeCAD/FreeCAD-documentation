@@ -33,9 +33,11 @@ Der Draht/Fläche muss plan sein. Es kann mehrere Drähte in einem Objekt geben,
 4.  
     **OK**drücken.
 
-## Notes
 
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as source objects. <small>(v0.20)</small> 
+
+## Hinweise
+
+-   [App-Link](App_Link/de.md)-Objekte, die auf geeignete Objektarten verweisen und [App-Part](App_Part/de.md)-Container, die geeignete sichtbare Objekte enthalten, können auch als Quellobjekte verwendet werden. {{Version/de|0.20}}
 
 
 

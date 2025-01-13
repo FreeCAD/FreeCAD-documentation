@@ -11,7 +11,7 @@
 
 </div>
 
-Constraining is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) commands.
+Constraining is available with most [Draft](Draft_Workbench.md) and [BIM](BIM_Workbench.md) commands.
 
 ![](images/Draft_Constrain_taskpanel_example.png ) 
 *While the cursor is constrained the task panel locks the values that are not being modified*
@@ -36,7 +36,7 @@ Constraining is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_
 
 ## Usage X, Y and Z constraints 
 
-1.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.
+1.  Choose a [Draft](Draft_Workbench.md) or [BIM](BIM_Workbench.md) command to create your geometry.
 2.  Pick a first point. A previous point is required.
 3.  Press **X**, **Y** or **Z** to specify the direction.
 4.  The cursor is now constrained.

@@ -33,7 +33,7 @@ The **Std FreeCADDonation** command opens the FreeCAD Donate wiki page in the sy
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

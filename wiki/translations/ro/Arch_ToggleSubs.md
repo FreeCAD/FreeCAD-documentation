@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -18,6 +20,8 @@ Aceste instrumente comută vizibilitatea tuturor subtracțiilor unui obiect [ Ar
 Normally, if an Arch object, like an [Arch Wall](Arch_Wall.md), is selected and you press **Space** only the external wall will be hidden or made visible, but not the internal objects.
 
 With this tool, the internal subtracted objects will all become visible or hidden.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -37,6 +41,8 @@ With this tool, the internal subtracted objects will all become visible or hidde
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -51,5 +57,13 @@ The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in th
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/ro
+⏵ [documentation index](../README.md) > Arch ToggleSubs/ro

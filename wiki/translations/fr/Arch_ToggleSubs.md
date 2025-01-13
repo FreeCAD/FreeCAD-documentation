@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch ToggleSubs
    Name/fr: Arch Bascule des sous composants
-   MenuLocation: Arch , Utilitaires , Activer/désactiver sous composants
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: Utilitaires , Activer/désactiver les sous-composants
+   Workbenches: BIM_Workbench/fr
    Shortcut: ‏‎Ctrl + Espace
    SeeAlso: Arch_Component/fr
 ---
@@ -12,7 +12,7 @@
 
 ## Description
 
-Cet outil permet de faire basculer la visibilité de toutes les soustractions d\'un objet [Arch](Arch_Workbench/fr.md) entre visible et caché.
+L\'outil **Arch Bascule des sous composants** permet de faire basculer la visibilité de toutes les soustractions d\'un objet [BIM](BIM_Workbench/fr.md) entre visible et caché.
 
 Normalement, si un objet Arch, comme un [Arch Mur](Arch_Wall/fr.md), est sélectionné et que vous appuyez sur la touche **Espace**, seul le mur externe sera masqué ou rendu visible, mais pas les objets internes.
 
@@ -22,9 +22,8 @@ Avec cet outil, les objets soustraits internes deviendront tous visibles ou masq
 
 ## Utilisation
 
-1.  Sélectionnez un objet Arch qui contient des soustractions
-2.  Sélectionnez menu **Arch → Utilitaires → <img src="images/Arch_ToggleSubcomponentDisplay‏‎.png" width=16px> [Afficher/Cacher les sous composants](Arch_ToggleSubs‏‎/fr.md)
-**
+1.  Sélectionnez un objet Arch qui contient des soustractions.
+2.  Sélectionnez l\'option **Utilitaires → <img src="images/Arch_ToggleSubs.svg" width=16px> Activer/désactiver les sous-composants** du menu.
 
 ## Options
 
@@ -34,5 +33,13 @@ Le style de [Draft Basculer en mode construction](Draft_ToggleConstructionMode/f
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/fr
+⏵ [documentation index](../README.md) > Arch ToggleSubs/fr

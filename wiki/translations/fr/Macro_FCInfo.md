@@ -4,11 +4,11 @@
 |Name/fr=Macro FCInfo
 |Icon=FCInfo.png
 |Description=Donne des informations sur la forme sélectionnée et peut afficher une conversion de la longueur, de l'inclinaison (degrés, radians, grades, pourcentage), de la surface, du volume et du poids dans différentes unités (métriques et impériales). La macro fonctionne désormais aussi pour les éléments d'une esquisse en mode édition.
-<br />French Version [https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/da448b70d27ee82c496b04ffb68f5224c653bed1/FCInfo_fr_Ver_1-28c-rmu_Docked.FCMacro Version française]
+<br />[https://gist.github.com/mario52a/6afc64081c4eb8be3b93 Version française]
 |Author=Mario52
 |Download=[https://wiki.freecad.org/images/5/53/FCInfo.png Icône de la barre d'outils]
-|Version=1.28c
-|Date=2023/10/30
+|Version=1.30
+|Date=2025/01/02
 |FCVersion=Toutes
 |SeeAlso=[Arch Prendre des cotes](Arch_Survey/fr.md), [Macro SimpleProperties](Macro_SimpleProperties/fr.md), [Macro FCInfoGlass](Macro_FCInfoGlass/fr.md)
 }}
@@ -18,7 +18,7 @@
 Donne des informations sur la forme sélectionnée et peut afficher une conversion de la longueur, de l\'inclinaison (degrés, radians, grades, pourcentage), de la surface, du volume et du poids dans différentes unités (métriques et impériales). La macro fonctionne désormais aussi pour les éléments d\'une esquisse en mode édition.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/c18679d096d168133e6f9e914774b3ba06ff6dc9/FCInfo_en_Ver_1-28c-rmu_Docked.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/c6dd9eabe1ae67d0baf235d672faa75dfd927ad6/FCInfo_en_Ver_1-30-rmu_Docked.FCMacro}}
 
 <img alt="" src=images/Macro_FCInfo_00_en.png  style="width:480px;"> 
 *FCInfo*
@@ -44,7 +44,7 @@ Sélectionnez un objet et lancez l\'application, ou lancez d\'abord l\'applicati
 -   Nom du sous-élément et type de l\'objet
 -   Type de l\'objet
 
-*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_001_Document** pour cacher la boîte)*\'.
+*(vous pouvez mettre à {{false}} la variable **switch_setVisible_GBox_001_Document** pour cacher la boîte)*.
 
 
 
@@ -55,7 +55,7 @@ Sélectionnez un objet et lancez l\'application, ou lancez d\'abord l\'applicati
 -   Coordonnées X,Y et Z, cliquez sur la souris
 -   Le **button** crée un point, un axe, un plan, copie un axe vectoriel à partir de **FreeCAD.Vector(-24.0, 240.0, 7.0)**.
 
-*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_002_Coordinate_Mouse** pour cacher la boîte)*\'.
+*(vous pouvez mettre à {{false}} la variable **switch_setVisible_GBox_002_Coordinate_Mouse** pour cacher la boîte)*.
 
 
 
@@ -82,7 +82,7 @@ Sélectionnez un objet et lancez l\'application, ou lancez d\'abord l\'applicati
 
 -    {{SpinBox|0}}: degré de transparence de la face ou de l\'objet sélectionné en fonction de l\'option choisie **0 = opaque** , **100 = transparent**
 
-*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_003_Color** pour cacher la Box)*\'
+*(vous pouvez mettre à {{false}} la variable **switch_setVisible_GBox_003_Color** pour cacher la Box)*.
 
 
 
@@ -96,7 +96,7 @@ Si la sélection est un objet maillé, une nouvelle fenêtre ***\"Components\"**
 -   Faces : nombre de faces {{LineEdit|6374}}.
 -   Points : nombre de points {{LineEdit|3189}}.
 
-*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_004_Object_Mesh** pour cacher la Boîte)*\'
+*(vous pouvez mettre à {{false}} la variable **switch_setVisible_GBox_004_Object_Mesh** pour cacher la Boîte)*
 
 
 ### Secteur 5 : Unités 
@@ -106,13 +106,13 @@ Si la sélection est un objet maillé, une nouvelle fenêtre ***\"Components\"**
 -    {{ComboBox|mm}} : si l\'objet est un périmètre de face, la longueur de l\'objet est affichée. La taille de l\'unité peut être sélectionnée :
     km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique
 
--   Longueur de l\'objet : Longueur de l\'objet ou périmètre de la face {{LineEdit|10.0 mm}}.
+-   Length of the object : longueur de l\'objet ou périmètre de la face {{LineEdit|10.0 mm}}.
 
 -   Si l\'objet est un cercle, une seconde lineEdit **Rayon :** s\'ouvre et affiche le rayon et le diamètre du cercle {{LineEdit|2.0 mm (dia. 4.0 mm)}}.
 
--   Périmètre de la forme (12). Périmètre de l\'objet et nombre de subObject (Edges) contenus dans l\'objet {{LineEdit|120.0 mm}}.
+-   Perimeter of the shape (12). Périmètre de l\'objet et nombre de subObject (Edges) contenus dans l\'objet {{LineEdit|120.0 mm}}.
 
-*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_005_Value_Unit** pour cacher la boîte)*\'
+*(vous pouvez mettre à {{false}} la variable **switch_setVisible_GBox_005_Value_Unit** pour cacher la boîte)*
 
 
 
@@ -143,7 +143,7 @@ Si la sélection est un objet maillé, une nouvelle fenêtre ***\"Components\"**
         
         ce bouton crée une ligne dans la direction NormalAt de l\'objet.
 
-*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_006_Inclination** pour cacher la boîte)*\'
+*(vous pouvez mettre à {{false}} la variable **switch_setVisible_GBox_006_Inclination** pour cacher la boîte)*
 
 
 
@@ -208,7 +208,7 @@ Si la sélection est un objet maillé, une nouvelle fenêtre ***\"Components\"**
         
         : enregistre la modification ou le nouveau matériau
 
-*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_007_Surface_and_Volume** pour cacher la boîte)*\'
+*(vous pouvez mettre à {{false}} la variable **switch_setVisible_GBox_007_Surface_and_Volume** pour cacher la boîte)*.
 
 
 
@@ -226,7 +226,7 @@ Si la sélection est un objet maillé, une nouvelle fenêtre ***\"Components\"**
 
 {{SpinBox|10,0000 Eu (par Kg)}}
 
-*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_008_Cost_And_Price** pour cacher la boîte)*\'
+*(vous pouvez mettre à {{false}} la variable **switch_setVisible_GBox_008_Cost_And_Price** pour cacher la boîte)*.
 
 
 
@@ -260,7 +260,7 @@ Si la sélection est un objet maillé, une nouvelle fenêtre ***\"Components\"**
 
     -   Si {{CheckBox|TRUE|Text Dim.}} est coché, la dimension de la spinbox du texte {{SpinBox|3,000}} est opérationnelle pour donner votre valeur *(3.0 par défaut)*
 
-*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_009_BoundBox** pour cacher la boîte)*\'
+*(vous pouvez mettre à {{false}} la variable **switch_setVisible_GBox_009_BoundBox** pour cacher la boîte)*.
 
 
 
@@ -272,7 +272,7 @@ Si la sélection est un objet maillé, une nouvelle fenêtre ***\"Components\"**
 -   Centre de masse et ces coordonnées XYZ
 -   Les **Boutons** créent sur un point, un axe, un plan, copie un axe vectoriel sous forme de **FreeCAD.Vector(-24.0, 240.0, 7.0)** *(voir Secteur 13)*
 
-*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_010_Center_Mass** pour cacher la boîte)*\'
+*(vous pouvez mettre à {{false}} la variable **switch_setVisible_GBox_010_Center_Mass** pour cacher la boîte)*.
 
 
 
@@ -292,7 +292,7 @@ idem le poids
 -   Determinant 1 : {{LineEdit|4629629629629.633}} calcule le déterminant de la matrice, en [valeur scientifique](https://fr.wikipedia.org/wiki/Notation_scientifique)
 -   Determinant 2 : {{LineEdit|4629629629629.6328125}} calcule le déterminant de la matrice, en valeur décimale
 
-*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_011_Inertia** pour cacher la boîte)*\'
+*(vous pouvez mettre à {{false}} la variable **switch_setVisible_GBox_011_Inertia** pour cacher la boîte)*.
 
 
 
@@ -302,11 +302,11 @@ idem le poids
 
 -   La case à cocher {{CheckBox|Disabled module}} permet de rechercher ou non tous les détails de l\'objet. Si elle n\'est pas cochée, seule la valeur principale est affichée.
 -   Sommets et détails de la forme (compt_Edge), (compt_Faces), (compt_Vector de la Face)
--   200 lignes maximum dans le tableau, s\'il y a plus de 200 lignes il apparaît *(!+ 200)* et le nombre de lignes
+-   200 lignes maximum dans le tableau, s\'il y a plus de 200 lignes il apparaît **(!+ 200)** et le nombre de lignes
 -   Si l\'objet comporte de nombreux objets, le temps est long et la recherche est répétée à chaque clic de souris. La fonction d\'écriture dans la feuille de calcul incluse, diminue le temps d\'affichage pour cela elle est désactivée par défaut
 -   Les détails complets peuvent être sauvegardés par le bouton **Save** dans un fichier au format CSV et peuvent être visualisés dans le tableur avec le bouton **Read** ou par un tableur externe comme [LibreOffice](https://www.libreoffice.org/) [OpenOffice](http://openoffice.apache.org/downloads.html) ou autre
 
-*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_012_SpreadSheet** pour cacher la boîte)*\'.
+*(vous pouvez mettre à {{false}} la variable **switch_setVisible_GBox_012_SpreadSheet** pour cacher la boîte)*.
 
 
 
@@ -384,7 +384,7 @@ Si l\'option est 1 mode fly *(User parameter:BaseApp/Preferences/Macros/FCMmacro
 
 -    **Exit**: sortir correctement de la macro *(ne pas utiliser la croix rouge de la fenêtre)*
 
-*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_014_Main_Tools** pour cacher la Box)*\'.
+*(vous pouvez mettre à {{false}} la variable **switch_setVisible_GBox_014_Main_Tools** pour cacher la boîte)*.
 
 Une fois la macro lancée, la macro reste active et la fenêtre reste visible. Il faut quitter la macro par la touche **Quitte**. Si vous quittez par la petite croix, la fenêtre disparaît et la macro reste en mémoire, les données continuent de s\'afficher dans la *vue rapport* de FreeCAD. Vous devrez quitter FreeCAD pour vider la mémoire.
 
@@ -467,12 +467,12 @@ lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight)
     -   Cocher la case Créer un plan
 -   **switchDisplayInfoObject** **\#** SetBool {{true}} ou \[{{false}}\]
     -   Cocher la case info
--   **switchClearDisplayReportView\'\'**#\'\'\' SetBool {{true}} ou \[{{false}}\]
+-   **switchClearDisplayReportView** **\#** SetBool {{true}} ou \[{{false}}\]
     -   Si switchClearDisplayReportView est {{true}} le vue rapport est effacée
 -   **seTWidgetPosition** **\#** SetBool {{true}} ou \[{{false}}\]
     -   Cocher la case Position du widget à gauche/droite
     -   Si seTWidgetPosition \[{{false}}\] : si seTPositionFlyRightLeft = 2 = ancré à droite
-    -   if seTWidgetPosition {{true}} : if seTPositionFlyRightLeft = 3 = ancré à gauche
+    -   Si seTWidgetPosition {{true}} : if seTPositionFlyRightLeft = 3 = ancré à gauche
     -   si elle vaut 1, la fenêtre de la macro n\'est pas ancrée
 -   **switchBoundBoxCreateText** **\#** SetBool {{true}} ou \[{{false}}\]
     -   Créer la dimension texte de la case a cocher
@@ -509,7 +509,7 @@ lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight)
     -   Donne la valeur de la densite
 -   **seTDensiteDecimalNumber** **\#** SetInt 4
     -   Indique le nombre de décimales pour la valeur de la densite
--   **seTDensiteSingleStep\'\'**#\'\'\' SetFloat 1.0
+-   **seTDensiteSingleStep** **\#** SetFloat 1.0
     -   Donne le pas pour un clic, par défaut 1.0 (possible 0.01 ou \...)
 -   **seTDensiteSuffixChain** **\#** SetString kg (by dm3)
     -   Choisir votre chaîne de suffixe
@@ -602,6 +602,49 @@ en projet :
 
 ## Version
 
+ver \"1.30\" 2025/01/02 : effacé toutes les références à PySide PySide2 et QtWidgets modifé (Qt) Save file
+
+
+```python
+#
+import PySide2
+from PySide2 import QtGui , QtCore, QtWidgets
+from PySide2.QtWidgets import QComboBox
+from PySide2.QtWidgets import QMessageBox
+from PySide2.QtWidgets import QTableWidget, QApplication
+from PySide2.QtGui import *
+from PySide2.QtCore import *
+from PySide2.QtWidgets import *
+
+            OpenName, Filter = PySide2.QtWidgets.QFileDialog.getOpenFileName(None, u"Read a txt file", setPathLatestDirectory, "*.FCInfo *.csv *.asc *.txt;;FCInfo (*.FCInfo);;Cvs (*.csv);;Ascii (*.asc);;TXT (*.txt);;(*.*);;(*)")#PySide2
+```
+
+remplacé et changé la commande par
+
+
+```python
+#
+import PySide
+try:
+    from PySide import QtWidgets
+    from PySide.QtWidgets import *
+except Exception:
+    None
+from PySide import QtGui , QtCore
+from PySide.QtGui import *
+from PySide.QtCore import *
+
+            OpenName, Filter = QFileDialog.getOpenFileName(None, u"Read a txt file", setPathLatestDirectory, "*.FCInfo *.csv *.asc *.txt;;FCInfo (*.FCInfo);;Cvs (*.csv);;Ascii (*.asc);;TXT (*.txt);;(*.*);;(*)")#PySide
+
+```
+
+ver \"1.29b\" 2024/05/10 **PySide2** modifier l\'inertie \" MatrixX1\*uniteM en (MatrixX1\*uniteM) \" et ajouter l\'inertie à l\'interface
+
+-   [Calcul du moment d\'inertie](https://forum.freecad.org/viewtopic.php?p=713935#p713935)
+-   [Moment d\'inertie - FCInfo macro](https://forum.freecad.org/viewtopic.php?t=64653)
+
+ver 1.29 2024/05/06 **french** version **fr PySide6** par sylvainbx <https://gist.github.com/sylvainbx/af09a30be3e1427de56305825331fb29> merci sylvainbx
+
 ver 1.28b 1.28c 2023/10/30 orthographe
 
 ver 1.28 01/09/2023 modifié le nom des variables, possibilité de masquer chaque secteur, sauvegarder les données directement dans le document, le rayon de la surface, ajouter un bouton webWiki et webForum
@@ -678,14 +721,10 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 -   ver 1.13 , 27/07/2014 remplacement FCInfo_fr_Ver_1-12_Docked.FCMacro avec FCInfo_fr_Ver_1-13_Docked.FCMacro accepte PyQt4 et PySide
 -   ver 1.12 , 10/03/2014 ajout de tooltips sur les boutons.
 -   ver 1.11 , 04/03/2014 ajout de µm, nm, pm, fm, µg, ng, pg, pour-cent, correction de la grandeur carat ~~\"cd\"~~ en **\"ct\"**, affichage du label et du nom interne, correction du calcul des angles XY YZ ZX fonctionnait bien sur un objet simple mais donnait une valeur erronée sur une pièce composée (prenait d\'autres coordonnées ! découvert en comparant le tableau et les coordonnées affichées dans la section Inclinaisons), fenêtre volante ou dockable n\'importe où dans FreeCAD
--   ver 1.10.b, 19/11/2013 boutons à l\'extérieur du scrollbar et blocage des dimensions de la fenêtre
+-   ver 1.10b, 19/11/2013 boutons à l\'extérieur du scrollbar et blocage des dimensions de la fenêtre
 -   ver 1.10 , 18/11/2013 ajout d\'une \"scrollbar\" pour diminuer la dimension de la fenêtre
--   ver 1.08.b 10/11/2013 correction d\'erreur d\'affichage de la surface des faces listées dans le tableau et remplacement des \"**print**\" par \"**App.Console.PrintMessage**\"
-
-~~ver 1.09 , 04/11/2013 fonctionne parfaitement sur Windows et Linux (cause de l\'erreur les caractères : ² ³ ° \" ordinal not in range(128)\")~~
-
-Dans certaines distributions Linux et dans le cas d\'une erreur **\"ordinal not in range (128)\"** une autre version existe sur cette page [Macro_FCInfo_Alternate_Linux](Macro_FCInfo_Alternate_Linux.md)
-
+-   ver 1.08b 10/11/2013 correction d\'erreur d\'affichage de la surface des faces listées dans le tableau et remplacement des \"**print**\" par \"**App.Console.PrintMessage**\"
+-   ~~ver 1.09 , 04/11/2013 fonctionne parfaitement sur Windows et Linux (cause de l\'erreur les caractères : ² ³ ° \"ordinal not in range(128)\")~~
 -   ver 1.08 , 24/10/2013 correction de l\'affichage dans le fichier des \"Faces\" et \"Edges\" haut dessus de 100 objets
 -   ver 1.07 , 11/10/2013 correspondance des \"Faces\" et de leurs coordonnées.
 -   ver 1.06 , 22/09/2013 correspondances des \"Edges\" et de leurs coordonnées, inclinaison sur l\'élément plutôt que sur l\'objet global

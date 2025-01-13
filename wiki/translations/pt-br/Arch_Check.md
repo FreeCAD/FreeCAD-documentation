@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch Check
-   MenuLocation: Arch , Utilities , Check
-   Workbenches: Arch_Workbench
+   MenuLocation: Utils , Check
+   Workbenches: BIM_Workbench
    SeeAlso: Arch_CloseHoles
 ---
 
@@ -12,13 +12,13 @@
 
 ## Descrição
 
-This tool checks the current document or the selected objects for non-solid **<img src="images/_Workbench_Part.svg" width=16px> [Part](Part_Workbench.md)** or **<img src="images/_Workbench_Arch.svg" width=16px> [Arch](Arch_Workbench.md)** objects, that might give problems, since most operations of the Arch Workbench require solid objects.
+This tool checks the current document or the selected objects for non-solid [Part](Part_Workbench.md) or [BIM](BIM_Workbench.md) objects, that might give problems, since most operations of the BIM Workbench require solid objects.
 
 
 
 ## Utilização
 
-1.  Press the **<img src="images/Arch_Check.svg" width=16px> [Check](Arch_Check.md)** button, or **Arch** → **Utilities** → **<img src="images/Arch_Check.svg" width=16px> [Check](Arch_Check.md)** in the top menu.
+1.  Select the **Utils → <img src="images/Arch_Check.svg" width=16px> Check** option from the menu.
 
 ## Scripting
 
@@ -34,7 +34,7 @@ list_bad = check(objectslist, includehidden=False)
 
 -   Checks if the given objects in `objectslist` contain only solids.
 -   If `includehidden` is `True` it will include all hidden objects, otherwise it will omit them from the search.
--   Returns `list_bad`, a list with the objects that are not derived from a `Part::Feature`, or components that are not closed, not valid, don\'t contain solids, or that contain faces that are not part of any solid. This is used to detect [Arch](Arch_Workbench.md) or [Draft](Draft_Workbench.md) wires and profiles that aren\'t solids.
+-   Returns `list_bad`, a list with the objects that are not derived from a `Part::Feature`, or components that are not closed, not valid, don\'t contain solids, or that contain faces that are not part of any solid. This is used to detect [BIM](BIM_Workbench.md) or [Draft](Draft_Workbench.md) wires and profiles that aren\'t solids.
     -   Each element in `list_bad` is another list `[object, message]`, where `object` is the detected non-solid, and `message` indicates the reason why it was included in this list.
 
 Example:
@@ -69,6 +69,11 @@ print(list_bad)
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/pt-br
+⏵ [documentation index](../README.md) > Arch Check/pt-br

@@ -15,7 +15,7 @@
 
 Polecenie **Edycja parametrów** otwiera Edytor parametrów. W Edytorze parametrów można sprawdzać parametry sterujące zachowaniem programu FreeCAD i jego środowisk pracy oraz opcjonalnie je usunąć, dodać lub zmienić. Parametry są przechowywane w pliku o nazwie **user.cfg**, lokalizacja tego pliku zależy od systemu operacyjnego.
 
-Praca z edytorem parametrów wymaga pewnego doświadczenia. Dla najpopularniejszych parametrów można również skorzystać z wygodniejszego [Edytora preferencji](Preferences_Editor/pl.md).
+Praca z edytorem parametrów wymaga pewnego doświadczenia. Dla najpopularniejszych parametrów należy raczej skorzystać z [Edytora preferencji](Preferences_Editor/pl.md).
 
 ![](images/Std_DlgParameter_dialog.png ) 
 *Okno dialogowe Edytor parametrów*
@@ -24,11 +24,10 @@ Praca z edytorem parametrów wymaga pewnego doświadczenia. Dla najpopularniejsz
 
 ## Użycie
 
-Przejdź do menu **Przybory → <img src="images/Std_DlgParameter.svg" width=16px> Edycja parametrów**.
-
-1.  Otwiera się okno dialogowe Edytor parametrów. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
-2.  Opcjonalnie wciśnij przycisk **Zapisz na dysku**, aby natychmiast zaktualizować plik **user.cfg**. Nie jest to wymagane, ponieważ FreeCAD automatycznie zaktualizuje ten plik po zamknięciu aplikacji.
-3.  Naciśnij przycisk **Zamknij**, aby zamknąć Edytor Parametrów.
+1.  Wybierz opcję **Przybory → <img src="images/Std_DlgParameter.svg" width=16px> Edycja parametrów** z menu.
+2.  Otwiera się okno dialogowe Edytor parametrów. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
+3.  Opcjonalnie, wciśnij przycisk **Zapisz na dysku**, aby natychmiast zaktualizować plik **user.cfg**. Nie jest to wymagane, ponieważ FreeCAD automatycznie zaktualizuje ten plik po zamknięciu aplikacji.
+4.  Naciśnij przycisk **Zamknij**, aby zamknąć okno dialogowe i zakończyć działanie polecenia.
 
 
 
@@ -185,7 +184,7 @@ Wpisanie ciągu znaków *(nawet kilku znaków)* w tym polu wprowadzania danych, 
 3.  Wprowadź ciąg znaków w polu wprowadzania **Znajdź to**. W wyszukiwaniu nie uwzględnia się wielkości liter.
 4.  Zaznacz jedno lub więcej pól wyboru {{CheckBox|TRUE|Grupy}}, {{CheckBox|TRUE|Nazwy}} i {{CheckBox|TRUE|Wartości}}. Należy pamiętać, że przeszukiwane będą tylko wartości ciągów znaków.
 5.  Opcjonalnie *(odznacz)*zaznacz pole wyboru {{CheckBox|TRUE|Dopasuj tylko cały ciąg}}.
-6.  Naciśnij przycisk **Znajdź następny**, aby odnaleźć pierwszą grupę z dopasowaniem. Pasujące parametry nie są wyróżniane indywidualnie. Opcjonalnie można tąc zynność powtarzać aż do momentu, gdy nie będzie można znaleźć kolejnych dopasowań.
+6.  Naciśnij przycisk **Znajdź następny**, aby odnaleźć pierwszą grupę z dopasowaniem. Pasujące parametry nie są wyróżniane indywidualnie. Opcjonalnie, można tą czynność powtarzać aż do momentu, gdy nie będzie można znaleźć kolejnych dopasowań.
 7.  Możliwe jest rozpoczęcie nowego wyszukiwania bez zamykania okna dialogowego. Ponowne wybranie grupy, od której należy rozpocząć wyszukiwanie, jest wtedy zazwyczaj wymagane.
 8.  Użyj przycisku **Anuluj**, aby zamknąć okno dialogowe.
 
@@ -199,12 +198,11 @@ Wpisanie ciągu znaków *(nawet kilku znaków)* w tym polu wprowadzania danych, 
 
 ## Tworzenie skryptów 
 
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-**Zobacz również:**
+Dostęp do preferencji można uzyskać ze skryptów środowiska Python, używając odpowiedniej ścieżki w [Edytorze parametrów](Std_DlgParameter/pl.md). Na przykład, preferencja **Edycja → Preferencje → Import-Eksport → DXF → Opcje importu → Łącz geometrie** pojawia się w **Narzędzia → Edycja parametrów → BaseApp → Preferences → Mod → Draft → dxfCreatePart** i ma typ `Boolean`. Można więc uzyskać do niej dostęp w środowisku Python za pomocą następującego kodu:
 
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-Dostęp do preferencji można uzyskać ze skryptów środowiska Python, używając odpowiedniej ścieżki w [Edytorze parametrów](Std_DlgParameter/pl.md). Na przykład, preferencja **Edycja → Preferencje → Import-Eksport → DXF → Opcje importu → Łącz geometrie** pojawia się w **Narzędzia → Edycja parametrów → BaseApp → Preferences → Mod → Draft → dxfCreatePart** i ma typ `Boolean`. Można więc uzyskać do niej dostęp w środowisku Python za pomocą następującego kodu: 
 ```python
 # get:
 App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreatePart')
@@ -212,15 +210,11 @@ App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetBool('dxfCreateP
 App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreatePart', True)
 ```
 
-Znalezienie, który parametr jest używany do przechowywania jakiej opcji z edytora Preferencji może wymagać nieco poszukiwań, ale [Edytor parametrów](Std_DlgParameter/pl.md) oferuje możliwość przeszukiwania, co powinno być pomocne.
-
-Modyfikowanie preferencji innych części programu FreeCAD jest raczej złym pomysłem, chyba że robi się to na życzenie użytkownika. Jednakże ustawianie parametrów może być użyte do określenia parametrów dla własnego środowiska pracy, a pobieranie może być użyte do przestrzegania istniejących parametrów.
 
 
 
 
-
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

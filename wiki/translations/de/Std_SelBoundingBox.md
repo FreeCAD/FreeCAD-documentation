@@ -19,36 +19,25 @@ Der **Std WahlBegrenzungRahmen** Befehl schaltet den Modus der globalen Begrenzu
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Std_SelBoundingBox.svg" width=16px> [Std SelBoundingBox](Std_SelBoundingBox.md)** Schaltfläche.
-    -   Wähle die **Ansicht → <img src="images/Std_SelBoundingBox.svg" width=16px> Begrenzungsrahmen** Option aus dem Menü.
-
-
-
-## Einstellungen
-
-Die zugehörige Einstellung wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Anzeige → ZeigeAuswahlBegrenzungsRahmen**. Es ist ein boolscher Wert, die Vorgabe ist `False`.
+#\* Die Menüoption **Ansicht → <img src="images/Std_SelBoundingBox.svg" width=16px> Begrenzungsrahmen** auswählen.
 
 
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um die AnzeigeAuswahlBegrenzungRahmen Einstellung zu ändern, verwende die `SetBool` Methode des entsprechenden ParameterGrp. Das Code Beispiel funktioniert nicht, wenn sich FreeCAD im Konsolenmodus befindet.
+Um den Parameter ShowSelectionBoundingBox zu ändern, wird die Methode `SetBool` des entsprechenden Parameters grp verwendet.
 
 
 ```python
 import FreeCAD, FreeCADGui
 
-grp = FreeCAD.ParamGet('User parameter:BaseApp/Preferences/View')
-if grp.GetBool('ShowSelectionBoundingBox'):
-  grp.SetBool('ShowSelectionBoundingBox',False)
+grp = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/View")
+if grp.GetBool("ShowSelectionBoundingBox"):
+    grp.SetBool("ShowSelectionBoundingBox", False)
 else:
-  grp.SetBool('ShowSelectionBoundingBox',True)
+    grp.SetBool("ShowSelectionBoundingBox", True)
 
 FreeCADGui.updateCommands()
 ```
@@ -57,7 +46,7 @@ FreeCADGui.updateCommands()
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

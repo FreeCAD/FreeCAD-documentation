@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch Profile
    Name/de: Arch Profil
-   MenuLocation: Arch , Profil
-   Workbenches: Arch_Workbench/de
+   MenuLocation: 3D/BIM , Generic 3D tools , Profil
+   Workbenches: BIM_Workbench/de
    Version: 0.19
 ---
 
@@ -13,9 +13,9 @@
 
 ## Beschreibung
 
-Das Werkzeug Profil erstellt ein parametrisches 2D-Profil-Objekt. Dieses Objekt kann dann als Basis für verschiedene andere Werkzeuge verwendet werden, die Extrusionen durchführen, wie [Arch Rahmen](Arch_Frame/de.md), [Arch Vorhangfassade](Arch_CurtainWall/de.md) oder [Part Extrudieren](Part_Extrude/de.md).
+Das Werkzeug **ArchProfil** erstellt ein parametrisches 2D-Profil-Objekt. Dieses Objekt kann dann als Basis für verschiedene andere Werkzeuge verwendet werden, die Extrusionen durchführen, wie [Arch Rahmen](Arch_Frame/de.md), [Arch_Vorhangfassade](Arch_CurtainWall/de.md) oder [Part Extrudieren](Part_Extrude/de.md).
 
-Siehe die [Liste von verfügbaren Voreinstellungen](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv).
+Siehe die [Liste von verfügbaren Voreinstellungen](https://github.com/FreeCAD/FreeCAD/blob/main/src/Mod/BIM/Presets/profiles.csv).
 
 Das Werḱzeug Profil ist auch im Werkzeug [Arch Struktur](Arch_Structure.md) integriert; alle voreingestellten Profile sind auch dort verfügbar.
 
@@ -51,35 +51,41 @@ Das Werḱzeug Profil ist auch im Werkzeug [Arch Struktur](Arch_Structure.md) in
 
 ## Benutzerdefinierte Profile hinzufügen 
 
-Eine zusätzliche CSV-Datei kann durch den Benutzer erstellt werden, die selbsterstellte Profile (Umrisse) enthält. Sie muss **profiles.csv** heißen und hier gespeichert sein: {{Code|lang=bash|code=
-$FREECAD_USER_DIR/Arch/
+Eine zusätzliche CSV-Datei kann durch den Benutzer erstellt werden, die selbsterstellte Profile (Umrisse) enthält. Sie muss **profiles.csv** heißen und hier gespeichert sein:
+
+
+{{Code|lang=bash|code=
+$FREECAD_USER_DIR/BIM/
 }}
 
-Der Wert für `$FREECAD_USER_DIR` kann über die [Python-Konsole](Python_console/de.md) ermittelt werden: {{Code|lang=bash|code=
+Der Wert für `$FREECAD_USER_DIR` kann über die [Python-Konsole](Python_console/de.md) ermittelt werden:
+
+
+{{Code|lang=bash|code=
 FreeCAD.getUserAppDataDir()
 }}
 
-Der Inhalt deiner **profiles.csv**-Datei muss den gleichen Regeln wie die Datei [profiles.csv](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv) im Quell-Code entsprechen.
+Der Inhalt deiner **profiles.csv**-Datei muss den gleichen Regeln wie die Datei [profiles.csv](https://github.com/FreeCAD/FreeCAD/blob/main/src/Mod/BIM/Presets/profiles.csv) im Quell-Code entsprechen.
 
 Die CSV-Datei muss eine Zeile für jedes verfügbare Profil enthalten, formatiert wie folgt:
 
--   Für C-Profile: Kategorie, Name, Klasse, Durchmesser, Wandstärke
--   Für H-, U- und T-Profile: Kategorie, Name, Klasse, Breite, Höhe, Stegbreite, Flanschstärke
--   Für L-Profile: Kategorie, Name, Klasse, Breite, Höhe, Wandstärke
--   Für R-Profile: Kategorie, Name, Klasse, Breite, Höhe
--   Für RH-Profile: Kategorie, Name, Klasse, Breite, Höhe, Wandstärke
+-   Für C-Profile: Kategorie, Name, Profilklasse, Durchmesser, Wandstärke
+-   Für H-, U- und T-Profile: Kategorie, Name, Profilklasse, Breite, Höhe, Stegbreite, Flanschstärke
+-   Für L-Profile: Kategorie, Name, Profilklasse, Breite, Höhe, Wandstärke
+-   Für R-Profile: Kategorie, Name, Profilklasse, Breite, Höhe
+-   Für RH-Profile: Kategorie, Name, Profilklasse, Breite, Höhe, Wandstärke
 
-Alle Maße müssen in Millimetern angegeben werden. Mögliche Profilklassen sind:
+Alle Abmessungen müssen in Millimetern angegeben werden. Mögliche Profilklassen sind:
 
 -   C: Kreisförmiges Rohr
--   H: H- oder I-Profil
+-   H: [H- oder I-Profil](https://de.wikipedia.org/wiki/Profilstahl)
 -   R: Rechteckig
 -   RH: Rechteckig hohl
 -   U: U-Profil
 -   L: L-Profil
 -   T: T-Profil
 
-Es können zusätzliche Profiltypen erstellt werden, aber zuerst muss in [ArchProfile.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py) eine entsprechende Klasse definiert werden.
+Es können zusätzliche Profiltypen erstellt werden, aber zuerst muss in [ArchProfile.py](https://github.com/FreeCAD/FreeCAD/blob/main/src/Mod/BIM/ArchProfile.py) eine entsprechende Klasse definiert werden.
 
 
 
@@ -106,5 +112,13 @@ wobei das erste Element der Liste eine Bestellnummer (order number) ist, die bis
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Profile/de
+⏵ [documentation index](../README.md) > Arch Profile/de

@@ -1,25 +1,27 @@
 # FreeCAD Scripting Basics/ko
-## Python scripting in FreeCAD 
+## FreeCAD의 파이썬 스크립트 
 
-FreeCAD is built from scratch to be totally controlled by Python scripts. Almost all parts of FreeCAD, such as the interface, the scene contents, and even the representation of this content in the 3D views, are accessible from the built-in Python interpreter or from your own scripts. As a result, FreeCAD is probably one of the most deeply customizable engineering applications available today.
+FreeCAD는 처음부터 파이썬 스크립트로 완전히 제어되도록 만들어졌습니다. 인터페이스, 장면 내용, 심지어 3D 뷰의 이 내용 표현과 같은 FreeCAD의 거의 모든 부분은 내장된 파이썬 번역기나 사용자 고유의 스크립트에서 접근할 수 있습니다. 결과적으로 FreeCAD는 아마도 오늘날 사용할 수 있는 가장 심도 있게 사용자 정의 가능한 엔지니어링 응용 프로그램 중 하나일 것입니다.
 
-If you are not familiar with Python, we recommend you search for tutorials on the internet and have a quick look at its structure. Python is a very easy language to learn, especially because it can be run inside an interpreter, where simple commands, right up to complete programs, can be executed on the fly without the need to compile anything. FreeCAD has a built-in Python interpreter. If you don\'t see the window labeled **Python console** as shown below, you can activate it under the **View → Panels → Python console**.
+만약 파이썬에 익숙하지 않다면, 인터넷에서 자습서를 검색하여 해당 구조를 빠르게 살펴보는 것이 좋습니다. 파이썬은 특히 통역기 내에서 실행될 수 있기 때문에 배우기 매우 쉬운 언어입니다. 통역기에서는 간단한 명령부터 완전한 프로그램까지 아무것도 컴파일할 필요 없이 즉석에서 실행할 수 있습니다.
 
-### The interpreter 
 
-From the interpreter, you can access all your system-installed Python modules, as well as the built-in FreeCAD modules, and all additional FreeCAD modules you installed later. The screenshot below shows the Python interpreter:
 
-![The FreeCAD Python interpreter](images/screenshot_pythoninterpreter.jpg )
+## 통역기
 
-From the interpreter, you can execute Python code and browse through the available classes and functions. FreeCAD provides a very handy class browser for exploration of the FreeCAD world: When you type the name of a known class followed by a period (meaning you want to add something from that class), a class browser window opens, where you can navigate between available subclasses and methods. When you select something, an associated help text (if it exists) is displayed:
+통역기에서 시스템에 설치된 모든 파이썬 모듈, 내장 FreeCAD 모듈, 나중에 설치한 모든 추가 FreeCAD 모듈에 액세스할 수 있습니다. 아래 스크린샷은 파이썬 통역기를 보여줍니다.
 
-![The FreeCAD class browser](images/screenshot_classbrowser.jpg )
+![The FreeCAD 파이썬 통역기](images/screenshot_pythoninterpreter.jpg )
 
-So, start here by typing `App.` or `Gui.` and see what happens. Another more generic Python way of exploring the content of modules and classes is to use the `print(dir())` command. For example, typing `print(dir())` will list all modules currently loaded in FreeCAD. `print(dir(App))` will show you everything inside the App module, etc.
+통역기에서 파이썬 코드를 실행하고 사용 가능한 클래스와 함수를 찾아볼 수 있습니다. FreeCAD는 FreeCAD 세계를 탐색하는 데 매우 편리한 클래스 브라우저를 제공합니다: 알려진 클래스의 이름 뒤에 마침표를 입력하면(해당 클래스에서 항목을 추가하려는 의미) 클래스 브라우저 창이 열리고 여기서 사용 가능한 하위 클래스와 메서드 사이를 탐색할 수 있습니다. 항목을 선택하면 관련 도움말 텍스트(있는 경우)가 표시됩니다.
 
-Another useful feature of the interpreter is the possibility to go back through the command history and retrieve a line of code that you already typed earlier. To navigate through the command history, just use **Up arrow** or **Down arrow**.
+![ FreeCAD 클래스 탐색기](images/screenshot_classbrowser.jpg )
 
-By right-clicking in the interpreter window, you also have several other options, such as copy the entire history (useful when you want to experiment with things before making a full script of them), or insert a filename with complete path. {{Top}}
+따라서 여기에서 `App.` 또는 `Gui.`를 입력하여 시작하고 무슨 일이 일어나는지 확인하세요. 모듈과 클래스의 내용을 탐색하는 또 다른 보다 일반적인 파이썬의 탐색 방법은 `print(dir())` 명령을 사용하는 것입니다. 예를 들어, `print(dir())`를 입력하면 현재 FreeCAD에 로드된 모든 모듈이 나열됩니다. `print(dir(App))`는 앱 모듈 내부의 모든 내용 등을 표시합니다.
+
+파이썬 통역기의 또 다른 유용한 기능은 명령 기록을 다시 살펴보고 이전에 이미 입력한 코드 줄을 검색할 수 있다는 것입니다. 명령 기록을 탐색하려면 **위쪽 화살표** 또는 **아래쪽 화살표**를 사용하세요.
+
+파이썬 통역기 창에서 마우스 오른쪽 버튼을 클릭하면 전체 기록 복사(전체 스크립트를 만들기 전에 실험해 볼 때 유용함) 또는 전체 경로와 함께 파일 이름 삽입과 같은 여러 가지 다른 옵션도 있습니다. {{Top}}
 
 ### Python Help 
 

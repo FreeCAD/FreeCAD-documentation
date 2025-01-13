@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -48,7 +50,7 @@ Pentru mai multe informații despre modul de selectare, puteți consulta și pag
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

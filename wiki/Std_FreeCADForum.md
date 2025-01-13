@@ -21,7 +21,7 @@ Currently the command points to [<https://forum.freecad.org>](https://forum.free
 
 
 
- {{Std Base navi}}
+ {{Std_Base_navi}}
 
 
 

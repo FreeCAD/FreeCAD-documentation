@@ -7,7 +7,7 @@
 
 ## Структура Верстака 
 
-You need a folder, with any name you like, placed in the user Mod directory, with an `Init.py` file, and, optionally an `InitGui.py` file. The Init file is executed when FreeCAD starts, and the `InitGui.py` file is executed immediately after, but only when FreeCAD starts in GUI mode. That\'s all it needs for FreeCAD to find your workbench at startup and add it to its interface.
+You need a folder, with any name you like, placed in the user Mod directory, with an `Init.py` file, and, optionally an `InitGui.py` file. The `Init.py` file is executed when FreeCAD starts, and the `InitGui.py` file is executed immediately after, but only when FreeCAD starts in GUI mode. That\'s all it needs for FreeCAD to find your workbench at startup and add it to its interface.
 
 The user Mod directory is a sub-directory of the user application data directory (you can find the latter by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md)):
 
@@ -31,7 +31,7 @@ Mod папка должна выглядеть так:
 
 -   В файле InitGui.py вы инициализируете Верстак, который содержит имя, значок и ряд команд FreeCAD (см. Ниже). Этот python файл также должен иметь определенные функции: первая выполняется при загрузке FreeCAD (стараетесь сделать ее как можно меньше, чтобы не замедлять запуск FreeCAD), еще одну, которая выполняется при активации верстака (именно там выполняется большая часть работы), и третью, когда верстак деактивирован (чтобы при необходимости можно было освободить ненужные ресурсы).
 
-The structure and file content for a workbench described here is the classic way of creating a new workbench. One can use a slight variation in the structure of files when making a new Python workbench, that alternative way is best described as a \"namespaced workbench\", opening up the possibility to use pip to install the workbench. Both structures work, so it is more a question of preference when creating a new workbench. The style and structure for workbenches presented here are available in the global namespace of FreeCAD, whereas for the alternative style and structure the workbench resides in a dedicated namespace. For further readings on the topic see [Related](Workbench_creation#Related.md).
+The structure and file content for a workbench described here is the classic way of creating a new workbench. One can use a slight variation in the structure of files when making a new Python workbench, that alternative way is best described as a \"namespaced workbench\", opening up the possibility to use pip to install the workbench. Both structures work, so it is more a question of preference when creating a new workbench. The style and structure for workbenches presented here are available in the global namespace of FreeCAD, whereas for the alternative style and structure the workbench resides in a dedicated namespace. For further readings on the topic see [Related](#Related.md).
 
 
 
@@ -85,7 +85,7 @@ extern "C" {
 # *   it under the terms of the GNU Lesser General Public License (LGPL)    *
 # *   as published by the Free Software Foundation; either version 2 of     *
 # *   the License, or (at your option) any later version.                   *
-# *   for detail see the LICENCE text file.                                 *
+# *   for detail see the LICENSE text file.                                 *
 # *                                                                         *
 # *   FreeCAD is distributed in the hope that it will be useful,            *
 # *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
@@ -104,7 +104,13 @@ FreeCAD.addExportType("My own format (*.own)", "exportOwn")
 print("I am executing some stuff here when FreeCAD starts!")
 }}
 
-Вы можете выбрать любую понравившуюся лицензию для вашего верстака, но имейте в виду, что если вы хотите, чтобы ваш верстак в какой-то момент был интегрирован в исходный код FreeCAD и распространялся вместе с ним, он должен быть LGPL2 +, как в примере выше. Смотрите [лицензирование](Licence/ru.md).
+
+<div class="mw-translate-fuzzy">
+
+Вы можете выбрать любую понравившуюся лицензию для вашего верстака, но имейте в виду, что если вы хотите, чтобы ваш верстак в какой-то момент был интегрирован в исходный код FreeCAD и распространялся вместе с ним, он должен быть LGPL2 +, как в примере выше. Смотрите [лицензирование](License/ru.md).
+
+
+</div>
 
 The `FreeCAD.addImportType()` and `addEXportType()` functions allow you to give the name and extension of a file type, and a Python module responsible for its import. In the example above, an `importOwn.py` module will handle `.own` files. See [Code snippets](Code_snippets.md) for more examples.
 
@@ -357,7 +363,7 @@ compileA2pResources.py из верстака A2Plus:
 #*   it under the terms of the GNU Lesser General Public License (LGPL)    *
 #*   as published by the Free Software Foundation; either version 2 of     *
 #*   the License, or (at your option) any later version.                   *
-#*   for detail see the LICENCE text file.                                 *
+#*   for detail see the LICENSE text file.                                 *
 #*                                                                         *
 #*   This program is distributed in the hope that it will be useful,       *
 #*   but WITHOUT ANY WARRANTY; without even the implied warranty of        *

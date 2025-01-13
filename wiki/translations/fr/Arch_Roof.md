@@ -1,18 +1,18 @@
 ---
  GuiCommand:
    Name: Arch Roof
-   Name/fr: Arch Toiture
-   MenuLocation: Arch , Toiture
-   Workbenches: Arch_Workbench/fr
+   Name/fr: Arch Toit
+   MenuLocation: 3D/BIM , Toit
+   Workbenches: BIM_Workbench/fr
    Shortcut: **R** **F**
-   SeeAlso: Arch_Structure/fr, Arch_Wall/fr
+   SeeAlso: 
 ---
 
 # Arch Roof/fr
 
 ## Description
 
-L\'outil **<img src="images/Arch_Roof.svg" width=16px> [Arch Toiture](Arch_Roof/fr.md)** permet de créer un toit en pente à partir d\'une polyligne sélectionnée. L\'objet Toiture créé est paramétrique et garde sa relation avec l\'objet de base. Le principe est que chaque arête se voit attribuer un profil de toiture (pente, largeur, surplomb, épaisseur).
+L\'outil **Arch Toit** permet de créer un toit à pentes à partir d\'une polyligne sélectionnée. L\'objet Toit créé est paramétrique et garde sa relation avec l\'objet de base. Le principe est que chaque arête se voit attribuer un profilé de toit (pente, largeur, débord, épaisseur).
 
 **Remarque :** cet outil est encore en développement et peut échouer avec des formes très complexes.
 
@@ -21,28 +21,28 @@ L\'outil **<img src="images/Arch_Roof.svg" width=16px> [Arch Toiture](Arch_Roof/
 
 
 
-## Utilisation
+## Utilisation (base polyligne) 
 
 1.  Créez une polyligne fermée dans le sens anti-horaire et sélectionnez la.
 
     :   <img alt="" src=images/CounterclockwiseWire.png  style="width:600px;">
 
-2.  Cliquez sur le bouton **<img src="images/Arch_Roof.svg" width=16px> [Toiture](Arch_Roof/fr.md)** ou appuyez sur les touches **R** puis **F**.
+2.  Cliquez sur le bouton **<img src="images/Arch_Roof.svg" width=16px> [Toit](Arch_Roof/fr.md)** ou appuyez sur les touches **R** puis **F**.
 
-3.  L\'objet Toiture par défaut a l\'air étrange car l\'outil manque de certaines informations nécessaires.
+3.  L\'objet Toit par défaut a l\'air étrange car l\'outil manque de certaines informations nécessaires.
 
-4.  Après la création de la par défaut, double cliquez sur l\'objet dans la [vue en arborescence](Tree_view/fr.md) pour accéder à son édition et ses propriétés. Les angles doivent être compris entre 0 et 90 degrés.
+4.  Après la création du toit par défaut, double-cliquez sur l\'objet dans la [vue en arborescence](Tree_view/fr.md) pour accéder à son édition et ses propriétés. Les angles doivent être compris entre 0 et 90 degrés.
 
     :   ![](images/RoofTable.png )
 
-5.  Chaque ligne correspond à un pan de la toiture. Vous pouvez ainsi définir les propriétés que vous dédirez pour chaque pan de la toiture.
+5.  Chaque ligne correspond à un pan du toit. Vous pouvez ainsi définir les propriétés que vous dédirez pour chaque pan du toit.
 
-6.  Pour vous aider, vous pouvez régler `Angle` ou `Run` sur `0` et définir un `Relative Id`, cela effectue un calcul automatique pour trouver les données relatives au `Relative Id`.
+6.  Pour vous aider, vous pouvez régler `Angle` ou `Course` à `0` et définir un `Identifiant rel.`, cela effectue un calcul automatique pour trouver les données relatives au `Identifiant rel.`.
 
 7.  Cela fonctionne ainsi :
-    1.  Si `Angle &#61; 0` et `Run &#61; 0` alors le profil est identique au profil relatif.
-    2.  Si `Angle &#61; 0` alors `Angle` est calculé de manière à ce que la hauteur soit identique au profil relatif.
-    3.  Si `Run &#61; 0` alors `Run` est calculé de manière à ce que la hauteur soit identique à celle du profil relatif.
+    1.  Si `Angle &#61; 0` et `Course &#61; 0` alors le profilé est identique au profilé relatif.
+    2.  Si `Angle &#61; 0` alors `Angle` est calculé de manière à ce que la hauteur soit identique au profilé relatif.
+    3.  Si `Course &#61; 0` alors `Course` est calculé de manière à ce que la hauteur soit identique à celle du profilé relatif.
     4.  Enfin, fixez un angle à 90° pour faire un pignon.
 
     :   <img alt="" src=images/RoofProfil.png  style="width:600px;">
@@ -50,9 +50,32 @@ L\'outil **<img src="images/Arch_Roof.svg" width=16px> [Arch Toiture](Arch_Roof/
 8.  
     **Remarque**: pour une meilleure compréhension, veuillez consulter cette [vidéo youtube](https://www.youtube.com/watch?v=4Urwru71dVk).
 
+
+
+## Utilisation (base solide) 
+
+Si votre toit a une forme complexe (par exemple, s\'il contient des fenêtres en pente ou d\'autres caractéristiques non standard), vous pouvez créer un objet solide personnalisé à l\'aide d\'autres ateliers de FreeCAD ([Part](Part_Workbench/fr.md), [Sketcher](Sketcher_Workbench/fr.md), etc.) Puis utilisez ce solide comme objet de **Base** de votre toit :
+
+1.  Sélectionnez l\'objet de base solide.
+2.  Appuyez sur le bouton **<img src="images/Arch_Roof.svg" width=16px> [Toit](Arch_Roof/fr.md)**, ou appuyez sur les touches **R** puis **F**.
+
+
+
+## Soustraction d\'un toit 
+
+Les toits ont un volume de soustraction généré automatiquement ({{Version/fr|1.0}} pour les toits avec une base solide). Lorsqu\'un toit est [supprimé](Arch_Remove/fr.md) des murs d\'un bâtiment, le toit lui-même ainsi que tout ce qui se trouve au-dessus est soustrait des murs.
+
+
+{{Version/fr|1.0}}
+
+: il est possible de remplacer le volume de soustraction automatique en définissant la propriété **Subvolume** du toit à un objet solide personnalisé.
+
+<img alt="" src=images/Arch_Roof_Subtract_Default.png  style="width:" height="150px;"> <img alt="" src=images/Arch_Roof_Subtract_Subvolume.png  style="width:" height="150px;"> <img alt="" src=images/Arch_Roof_Subvolume_Example.png  style="width:" height="150px;"> 
+*Toit à base de solides avant (1ère image) et après (2ème image) sa [suppression](Arch_Remove/fr.md) des murs.<br>La troisième image montre le volume de soustraction généré.*
+
 ## Options
 
--   L\'objet Toiture partage les propriétés communes et le comportement de tous les [Arch Composants](Arch_Component/fr.md).
+-   Toit partage les propriétés communes et le comportement de tous les [Arch Composants](Arch_Component/fr.md).
 
 
 
@@ -65,25 +88,27 @@ L\'outil **<img src="images/Arch_Roof.svg" width=16px> [Arch Toiture](Arch_Roof/
 
 {{TitleProperty|Roof}}
 
--    **Angles|FloatList**: liste des angles des segments de toit.
+-    **Angles|FloatList**: liste des angles des segments du toit.
 
--    **Border Length|Length**: longueur totale des bordures de la toiture.
+-    **Border Length|Length**: longueur totale des bordures du toit.
 
 -    **Face|Integer**: numéro de la face de l\'objet de base utilisé pour construire le toit (non utilisé).
 
 -    **Flip|Bool**: indique si la direction du toit doit être inversée.
 
--    **Heights|FloatList**: liste des hauteurs calculées des segments de toit.
+-    **Heights|FloatList**: liste des hauteurs calculées des segments du toit.
 
--    **Id Rel|IntegerList**: liste des identifiants des profils correspondants aux segments de toit.
+-    **Id Rel|IntegerList**: liste des identifiants des profilés relatifs aux segments du toit.
 
--    **Overhang|FloatList**: liste des porte-à-faux des segments de toit.
+-    **Overhang|FloatList**: liste des débords des segments du toit.
 
--    **Ridge Length|Length**: longueur totale des crêtes et des arêtiers de la toiture.
+-    **Ridge Length|Length**: longueur totale des faîtages et des arêtiers du toit.
 
--    **Runs|FloatList**: liste des projections horizontales des segments de toit.
+-    **Runs|FloatList**: liste des projections horizontales des segments du toit.
 
--    **Thickness|FloatList**: liste des épaisseurs des segments de toit.
+-    **Subvolume|Link**: volume à soustraire. S\'il est spécifié, il est utilisé à la place du sous-volume généré automatiquement. {{Version/fr|1.0}}
+
+-    **Thickness|FloatList**: liste des épaisseurs des segments du toit.
 
 
 
@@ -94,7 +119,7 @@ L\'outil **<img src="images/Arch_Roof.svg" width=16px> [Arch Toiture](Arch_Roof/
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Toiture peut être utilisé dans les [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante :
+L\'outil Toit peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
 
 ```python
@@ -133,5 +158,13 @@ doc.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/fr
+⏵ [documentation index](../README.md) > Arch Roof/fr

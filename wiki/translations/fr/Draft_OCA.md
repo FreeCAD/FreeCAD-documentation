@@ -1,29 +1,37 @@
 # Draft OCA/fr
 ## Description
 
-Draft OCA est un module logiciel utilisé par <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Ouvrir](Std_Open/fr.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Importer](Std_Import.md) et <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Exporter](Std_Export.md) pour gérer le [format de fichier OCA](http://groups.google.com/group/open_cad_format).
+Draft OCA est un module utilisé par <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Ouvrir](Std_Open/fr.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Importer](Std_Import/fr.md) et <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Exporter](Std_Export/fr.md) pour gérer le [format de fichier OCA](http://groups.google.com/group/open_cad_format).
 
 Le format de fichier OCA est un effort communautaire pour créer un format de fichier CAO gratuit, simple et ouvert. OCA est largement basé sur le format de fichier GCAD généré à partir de [gCAD3D](http://www.gcad3d.org/). Les deux formats peuvent être importés dans FreeCAD et les fichiers OCA exportés par FreeCAD peuvent être ouverts dans gCAD3D.
 
+
+
 ## Importer
 
-Les objets OCA suivants peuvent être importés:
+Les objets OCA suivants peuvent être importés :
 
 -   Lignes
--   Arcs et Cercles
+-   Arcs et cercles
 -   Surfaces fermées
+
+
 
 ## Exporter
 
-Les objets FreeCAD suivants peuvent être exportés:
+Les objets FreeCAD suivants peuvent être exportés :
 
--   Lignes et fils (polylignes)
+-   Lignes et polylignes
 -   Arcs et cercles
 -   Surfaces
 
+
+
 ## Préférences
 
-Voir : [Préférences d\'Import Export](Import_Export_Preferences/fr.md).
+Voir : [Préférences Importer/Exporter](Import_Export_Preferences/fr.md).
+
+
 
 ## Script
 

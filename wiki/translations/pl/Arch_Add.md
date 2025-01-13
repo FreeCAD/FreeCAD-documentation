@@ -1,42 +1,47 @@
 ---
  GuiCommand:
    Name: Arch Add
-   MenuLocation: Arch , Add component
-   Workbenches: Arch_Workbench
-   SeeAlso: Arch_Remove
+   Name/pl: Architektura: Połącz obiekty
+   MenuLocation: Modyfikacja , Połącz obiekty
+   Workbenches: BIM_Workbench/pl
+   SeeAlso: Arch_Remove/pl
 ---
 
 # Arch Add/pl
 
-## Description
 
-The Add tool allows you to do 4 kinds of operations:
 
--   Add [shape](Part_Workbench.md)-based objects to an Arch component, such as a **<img src="images/Arch_Wall.svg" width=16px> [wall](Arch_Wall.md)** or **<img src="images/Arch_Structure.svg" width=16px> [structure](Arch_Structure.md)**. These objects make then part of the Arch component, and allow you to modify its shape but keeping its base properties such as width and height
--   Add Arch components, such as a **<img src="images/Arch_Wall.svg" width=16px> [Arch Walls](Arch_Wall.md)** or **<img src="images/Arch_Structure.svg" width=16px> [Arch Structures](Arch_Structure.md)**, to a group-based arch object such as **<img src="images/Arch_Floor.svg" width=16px> [Arch Floors](Arch_Floor.md)**.
--   Add **<img src="images/Arch_Axis.svg" width=16px> [Axis systems](Arch_Axis.md)
-** to **<img src="images/Arch_Structure.svg" width=16px> [structural objects](Arch_Structure.md)**
--   Add objects to **<img src="images/Arch_SectionPlane.svg" width=16px> [section planes](Arch_SectionPlane.md)
-**
+## Opis
 
-The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
+Narzędzie Add pozwala na wykonywanie 4 rodzajów operacji:
+
+-   Dodawanie obiektów opartych na [kształcie](Part_Workbench/pl.md) do komponentu Architektury, takich jak **<img src="images/Arch_Wall.svg" width=16px> [ściana](Arch_Wall/pl.md)** lub **<img src="images/Arch_Structure.svg" width=16px> [konstrukcja](Arch_Structure/pl.md)**. Obiekty te stają się częścią komponentu Architektonicznego i pozwalają modyfikować jego kształt, zachowując jego podstawowe właściwości, takie jak szerokość i wysokość.
+-   Dodawanie komponentów Architektury, takich jak **<img src="images/Arch_Wall.svg" width=16px> [ściana](Arch_Wall/pl.md)** lub **<img src="images/Arch_Structure.svg" width=16px> [konstrukcja](Arch_Structure/pl.md)**, do obiektu Architektonicznego opartego na grupie, takiego jak **<img src="images/Arch_Floor.svg" width=16px> [Piętra](Arch_Floor/pl.md)**.
+-   Dodawanie **<img src="images/Arch_Axis.svg" width=16px> [Systemu osi](Arch_Axis/pl.md)** do **<img src="images/Arch_Structure.svg" width=16px> [obiektów konstrukcyjnych](Arch_Structure/pl.md)**.
+-   Dodawanie obiektów do **<img src="images/Arch_SectionPlane.svg" width=16px> [płaszczyzny przekroju](Arch_SectionPlane/pl.md)**.
+
+Odpowiednikiem tego narzędzia jest **<img src="images/Arch_Remove.svg" width=16px> [Usuń komponent](Arch_Remove/pl.md)**.
 
 <img alt="" src=images/Arch_Add_example.jpg  style="width:640px;"> 
-*A box added to a wall as a component.*
-
-## Usage
-
-1.  Select the objects to be added together. The last object selected will be the host Arch object.
-2.  Press the **<img src="images/Arch_Add.svg" width=16px>** button, or use **Arch** → **<img src="images/Arch_Add.svg" width=16px> [Add](Arch_Add.md)** from the top menu.
-
-## Scripting
+*Prostopadłościan dodana do ściany jako komponent.*
 
 
-**See also:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Użycie
 
-The Add tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+1.  Wybierz obiekty, które mają zostać dodane. Ostatni wybrany obiekt będzie głównym obiektem Architektury.
+2.  Naciśnij przycisk **<img src="images/Arch_Add.svg" width=16px> '''Połącz obiekty'''** lub użyj narzędzia **Modyfikacja → <img src="images/Arch_Add.svg" width=16px> Połącz obiekty** z menu głównego.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Połącz obiekty** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
 
 :   
     
@@ -50,10 +55,11 @@ The Add tool can be used in [macros](Macros.md) and from the [Python](Python.md)
 
 
 
-:   The above code snippet adds the given objects in `objectsList` to the given `host` object.
-:   **Note:** `objectsList` can be a single object or a list of objects.
+:   Powyższy fragment kodu dodaje podane obiekty w `objectsList` do podanego obiektu `host`.
 
-Example:
+**Uwaga:** `objectsList` może być indywidualnym obiektem lub listą obiektów.
+
+Przykład:
 
 
 ```python
@@ -78,5 +84,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/pl
+⏵ [documentation index](../README.md) > Arch Add/pl

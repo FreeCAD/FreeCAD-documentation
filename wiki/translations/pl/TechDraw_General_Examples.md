@@ -213,7 +213,7 @@ Obiekt <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Wid
 
 ### Widok architektoniczny 
 
-<img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Widok architektoniczny](TechDraw_ArchView/pl.md) wyświetla widok <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [płaszczyzny przekroju](Arch_SectionPlane/pl.md). Jego zawartość jest renderowana przez środowisko pracy <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Architektura](Arch_Workbench/pl.md).
+<img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Widok architektoniczny](TechDraw_ArchView/pl.md) wyświetla widok <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [płaszczyzny przekroju](Arch_SectionPlane/pl.md). Jego zawartość jest renderowana przez środowisko pracy <img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [BIM](BIM_Workbench/pl.md).
 
 
 
@@ -573,7 +573,7 @@ Rysunek Techniczny udostępnia dwa narzędzia do dodawania tekstu do rysunku:
 
 ### Symbole wykończenia powierzchni 
 
-<img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:16px;"> [Dodaj symbol wykończenia powierzchni](TechDraw_SurfaceFinishSymbol/pl.md) dodaje symbol wykończenia powierzchni do strony, co oznacza, że symbole te nie poruszają się wraz z geometrią, do której się odnoszą.
+<img alt="" src=images/TechDraw_SurfaceFinishSymbols.svg  style="width:16px;"> [Dodaj symbol wykończenia powierzchni](TechDraw_SurfaceFinishSymbols/pl.md) dodaje symbol wykończenia powierzchni do strony, co oznacza, że symbole te nie poruszają się wraz z geometrią, do której się odnoszą.
 
 <img alt="" src=images/TechDraw_ExampleDrawing-25.png  style="width:300px;">
 

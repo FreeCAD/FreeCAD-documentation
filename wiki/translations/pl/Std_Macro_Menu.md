@@ -39,13 +39,13 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Makrodefinicje \...](Std_DlgMacroExecute/pl.md): Otwiera okno dialogowe do zarządzania i wykonywania makrodefinicji.
 
--   Opcja <img alt="" src=images/Std_RecentMacros.svg  style="width:32px;"> Ostatnio użyte makrodefinicje: pokazuje listę ostatnio używanych makrodefinicji, które można wywołać np. za pomocą kombinacji klawiszy, **Ctrl** + **Shift** + **1**. Można to skonfigurować w [Preferencjach](Preferences_Editor/pl.md).
+-   Ostatnio użyte makrodefinicje: pokazuje listę ostatnio używanych makrodefinicji, które można wywołać np. za pomocą kombinacji klawiszy, **Ctrl** + **Shift** + **1**. Można to skonfigurować w [Preferencjach](Preferences_Editor/pl.md).
 
--   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Wykonaj makro](Std_DlgMacroExecuteDirect/pl.md): Wykonuje makro znajdujące się obecnie w edytorze środowiska Python.
+-   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Wykonaj makro](Std_DlgMacroExecuteDirect/pl.md): Wykonuje makro znajdujące się obecnie w edytorze makr.
 
 -   [Przełącz na debugger zewnętrzny \...](Std_MacroAttachDebugger/pl.md): Przyłącza FreeCAD do zewnętrznego debuggera.
 
--   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Debugowanie makrodefinicji](Std_MacroStartDebug/pl.md): Rozpoczyna sesję debugowania makra w edytorze środowiska Pyton.
+-   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Debugowanie makrodefinicji](Std_MacroStartDebug/pl.md): Rozpoczyna sesję debugowania makra w edytorze makr.
 
 -   <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;"> [Zatrzymaj debugowanie](Std_MacroStopDebug/pl.md): Kończy sesję debugowania.
 
@@ -59,13 +59,13 @@ W tym menu dostępne są następujące narzędzia:
 
 ## Narzędzia przestarzałe 
 
--   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Zatrzymaj nagrywanie makra](Std_MacroStopRecord/pl.md): Zatrzymuje bieżącą sesję nagrywania makrodefinicji. Zintegrowano z [Rejestratorem makrodefinicji](Std_DlgMacroRecord/pl.md). Niedostępne w {{VersionPlus/pl|0.22}}.
+-   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Zatrzymaj nagrywanie makra](Std_MacroStopRecord/pl.md): Zatrzymuje bieżącą sesję nagrywania makrodefinicji. Zintegrowano z [Rejestratorem makrodefinicji](Std_DlgMacroRecord/pl.md). Niedostępne w {{VersionPlus/pl|1.0}}.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

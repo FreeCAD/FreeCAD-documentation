@@ -12,7 +12,7 @@
 
 ## Description
 
-Crée une répétition à partir d\'éléments de Sketcher.
+La commande <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:16px;"> [Sketcher Répétition linéaire](Sketcher_RectangularArray/fr.md) crée un réseau d\'éléments sélectionnés d\'esquisses.
 
 
 
@@ -22,7 +22,7 @@ Crée une répétition à partir d\'éléments de Sketcher.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **[<img src=images/Sketcher_RectangularArray.svg style="width:16px"> [Créer une répétition linéaire](Sketcher_RectangularArray/fr.md)**.
     -   Sélectionnez l\'option **Esquisse → Outils d'esquisse → [<img src=images/Sketcher_RectangularArray.svg style="width:16px"> Créer une répétition linéaire** du menu.
-3.  Spécifiez les options du réseau dans la boîte de dialogue qui s\'ouvre.
+3.  Spécifiez les options du réseau dans la fenêtre de dialogue qui s\'ouvre.
 4.  Appuyez sur le bouton **OK**.
 5.  Déplacez la souris dans la [vue 3D](3D_view/fr.md) vers le point de référence souhaité.En maintenant **Ctrl** enfoncée, l\'angle par rapport au point de référence peut être fixé par pas de 5°. {{Version/fr|0.20}}
 6.  Cliquez avec le bouton gauche de la souris dans la vue 3D pour créer la répétition.

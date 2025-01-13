@@ -1,23 +1,23 @@
 # Manual:What is FreeCAD/fr
 {{Manual:TOC}}
 
-![](images/Freecad016_screenshot1.jpg )
+<img alt="" src=images/FreeCAD_022_example.png  style="width:600px;">
 
-FreeCAD est une application open-source pour la modélisation 3D paramétrique, ayant pour base la conception d\'objets de la vie réelle. [Conception paramétrique](https://fr.wikipedia.org/wiki/Conception_param%C3%A9trique) décrit un certain type de modélisation, où la forme de l\'objet 3D que vous concevez est contrôlée par des paramètres. Par exemple, la forme d\'une brique serait contrôlée par trois paramètres : la hauteur, la largeur et la longueur. Dans FreeCAD, comme dans d\'autres logiciels de modélisation paramétrique, ces paramètres font partie de l\'objet, et restent modifiables n\'importe quand après la création de l\'objet. Certains objets peuvent avoir d\'autres objets comme paramètres, par exemple, vous pouvez avoir un objet qui prend notre brique en entrée, et créerait une colonne à partir de celle-ci. Vous pouvez voir un objet paramétrique comme un petit programme qui crée les géométries voulues à partir de paramètres.
+Comme indiqué dans la section précédente, FreeCAD est une application de modélisation 3D paramétrique de conception assistée par ordinateur (CAO). La [conception paramétrique](https://fr.wikipedia.org/wiki/Conception_param%C3%A9trique) est une méthode de conception d\'objets basée sur la définition de paramètres et de relations entre eux. Dans cette approche, les changements de paramètres se propagent automatiquement dans les éléments associés de la conception, ce qui permet des itérations et des adaptations rapides.
 
-FreeCAD n\'est pas conçu pour un type de travail particulier ou pour créer un certain type d\'objets. Au lieu de cela, il permet une large gamme d\'utilisations, et permet aux utilisateurs de produire des modèles de toutes les tailles et de tous les objets, depuis les petits composants électroniques en passant par des pièces imprimables en 3D et jusqu\'aux bâtiments. Chacune de ces tâches comporte différents ensembles dédiés d\'outils et de flux de travail disponibles.
+Couramment utilisée dans des domaines tels que l\'architecture, l\'ingénierie et la conception de produits, la conception paramétrique permet de créer des formes complexes de manière efficace, avec la possibilité d\'ajuster et d\'affiner divers aspects de la conception par la modification des valeurs d\'entrée. Cette approche est particulièrement puissante dans des logiciels tels que FreeCAD, où les utilisateurs peuvent définir ces paramètres de manière dynamique afin d\'automatiser et d\'optimiser le processus de conception.
 
-FreeCAD est également multiplateforme: il fonctionne exactement de la même manière sur les plates-formes Windows, Mac OS et Linux. FreeCAD est un [open-source](http://en.wikipedia.org/wiki/Open-source_software). Étant open-source, FreeCAD bénéficie des contributions et des efforts d\'une grande communauté de programmeurs, amateurs et utilisateurs du monde entier. FreeCAD est essentiellement une application créée par les personnes qui l\'utilisent, au lieu d\'être créée par une entreprise qui tente de vous vendre un produit. Et bien sûr, cela signifie également que FreeCAD est gratuit, non seulement pour l\'utilisation, mais aussi pour distribuer, copier, modifier ou même vendre.
+FreeCAD est une application multiplateforme qui fonctionne sous Windows, macOS et Linux et est entièrement [open-source](https://fr.wikipedia.org/wiki/Open_source). Cela signifie que son utilisation, sa modification et sa distribution sont libres. FreeCAD est développé par une communauté enthousiaste plutôt que par une seule entreprise, ce qui permet des améliorations et des mises à jour constantes.
 
-FreeCAD bénéficie également de l\'expérience accumulée par le monde open-source. Dans ses \"entrailles\", plusieurs autres composants du monde open-source sont utilisés. FreeCAD lui-même peut être utilisé comme composant dans d\'autres applications. Il possède également toutes sortes de fonctionnalités qui sont devenues une norme dans le monde open-source, telles que le support d\'une large gamme de formats de fichiers, extrêmement scriptables, personnalisables et modifiables. Tout est possible grâce à une communauté d\'utilisateurs dynamique et enthousiaste.
+Le logiciel comprend de nombreux composants open-source et peut être intégré dans d\'autres applications. Il est connu pour être hautement personnalisable et pour prendre en charge une grande variété de formats de fichiers. Cette flexibilité et le soutien solide de sa communauté font de FreeCAD un outil puissant dans le monde du logiciel libre. Développé collectivement par une communauté mondiale de programmeurs, de passionnés et d\'utilisateurs, FreeCAD illustre l\'esprit de collaboration des projets open-source. Il offre des avantages significatifs tels que la personnalisation et la possibilité de créer des scripts, mettant à la portée de tout utilisateur intéressé par la modélisation et la conception en 3D des fonctionnalités sophistiquées que l\'on trouve généralement dans les logiciels professionnels.
 
 Le site officiel de FreeCAD: [site officiel de FreeCAD](https://www.freecad.org/?lang=fr)
 
-Pour plus d\'informations:
+**Pour en savoir plus** :
 
 -   [À propos de FreeCAD](About_FreeCAD/fr.md)
 -   [Fonctionnalités](Feature_list/fr.md)
--   \[<http://forum.freecadweb.org/viewtopic.php?f=8&t=4751>\| Captures d\'écran et exemples\]
+-   [Captures d\'écran et exemples](https://forum.freecad.org/viewforum.php?f=24)
 
 
 

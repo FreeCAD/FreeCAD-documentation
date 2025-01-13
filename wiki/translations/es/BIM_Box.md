@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 <img alt="" src=images/BIM_box_screenshot.png  style="width:1024px;">
@@ -26,7 +28,7 @@ La herramienta BIM Box le permite crear un estándar [Part Box](Part_Box.md), pe
 
 ## Usage
 
-1.  Press the **<img src="images/BIM_Box.png" width=16px> [BIM Box](BIM_Box.md)** button
+1.  Press the **<img src="images/BIM_Box.svg" width=16px> [Box](BIM_Box.md)** button
 2.  Click a first point to define a first corner of the box. It can be any of the box corners
 3.  Click a second point to define a first edge of the box, starting from the first point
 4.  Click a third point to define a first face of the box, orthogonal to the first edge
@@ -34,5 +36,13 @@ La herramienta BIM Box le permite crear un estándar [Part Box](Part_Box.md), pe
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > BIM Box/es
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Box/es

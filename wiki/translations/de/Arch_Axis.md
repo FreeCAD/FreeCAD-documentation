@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch Axis
    Name/de: Arch Achse
-   MenuLocation: Arch , Achsenwerkzeuge , Achse
-   Workbenches: Arch_Workbench/de
+   MenuLocation: Anmerkung , Achse
+   Workbenches: BIM_Workbench/de
    Shortcut: **A** **X**
    SeeAlso: Arch_AxisSystem/de, Arch_Grid/de
 ---
@@ -23,9 +23,9 @@ Das **<img src="images/Arch_Axis.svg" width=16px> [Arch Achse](Arch_Axis/de.md)*
 
 ## Anwendung
 
-1.  Drücke die **<img src="images/Arch_Axis.svg" width=16px>[Architektur Achsen](Arch_Axis/de.md)** Taste oder drücke **A** dann **X** Tasten.
-2.  [Bewegen](Draft_Move/de.md)/[Drehen](Draft_Rotate/de.md) das Achsensystem in die gewünschte Position.
-3.  Rufe den Bearbeitungsmodus durch doppelklicken des Achsensystems in der Baumansicht auf, um dessen Einstellungen wie Anzahl der Achsen, Abstände und Winkel zwischen den Achsen anzupassen.
+1.  Die Schaltfläche **<img src="images/Arch_Axis.svg" width=16px>[Achse](Arch_Axis/de.md)** drücken oder das Tastaturkürzel **A** dann **X**.
+2.  Das Achsensystem in die gewünschte Position [Verschieben](Draft_Move/de.md)/[Drehen](Draft_Rotate/de.md) .
+3.  Den Bearbeitungsmodus durch Doppelklicken des Achsensystems in der Baumansicht aufrufen, um dessen Einstellungen wie Anzahl der Achsen, Abstände und Winkel zwischen den Achsen anzupassen.
 
 
 
@@ -108,5 +108,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/de
+⏵ [documentation index](../README.md) > Arch Axis/de

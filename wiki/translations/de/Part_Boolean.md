@@ -48,8 +48,6 @@ Siehe die einzelnen Befehle:
 **
     
 
-Siehe auch den Menüeintrag **Formteil → Create a copy [Form aufbereiten](Part_RefineShape/de.md)**.
-
 
 
 ## Koplanare Probleme 
@@ -73,6 +71,14 @@ In Fällen von Koplanarität können, selbst wenn die erste boolesche Operation 
 
 
 *Links: Bei Formen, die eine gemeinsame Fläche haben, kann eine boolesche Vereinigung zu falschen Ergebnissen führen. Rechts: Bei Formen, die sich deutlich überschneiden, wird die boolesche Vereinigung in den meisten Fällen erfolgreich sein.*
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

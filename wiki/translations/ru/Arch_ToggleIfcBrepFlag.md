@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -22,6 +24,8 @@
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -43,5 +47,13 @@
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/ru
+⏵ [documentation index](../README.md) > Arch ToggleIfcBrepFlag/ru

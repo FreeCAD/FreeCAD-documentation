@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part Loft
    Name/fr: Part Lissage
-   MenuLocation: Part , Lissage...
+   MenuLocation: Part , Créer un lissage...
    Workbenches: Part_Workbench/fr
    Version: 0.13
    SeeAlso: Part_Sweep/fr
@@ -22,13 +22,13 @@ La commande <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Lis
 ## Utilisation
 
 1.  Il y a plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Part_Loft.svg" width=16px> [Lissage...](Part_Loft/fr.md)**.
-    -   Sélectionnez l\'option **Part → <img src="images/Part_Loft.svg" width=16px> Lissage...** du menu.
+    -   Appuyez sur le bouton **<img src="images/Part_Loft.svg" width=16px> [Créer un lissage...](Part_Loft/fr.md)**.
+    -   Sélectionnez l\'option **Part → <img src="images/Part_Loft.svg" width=16px> Créer un lissage...** du menu.
 2.  Le [panneau des tâches](Task_panel/fr.md) du lissage s\'ouvre.
 3.  Dans la liste *Profils disponibles* à gauche, sélectionnez le premier profil et cliquez sur la flèche droite pour le placer dans la liste *Profils sélectionnés* à droite.
 4.  Répétez l\'opération pour le deuxième profil et plus si vous souhaitez plus de deux profils.
 5.  Vous pouvez également utiliser les flèches vers le haut et vers le bas pour réorganiser les profils sélectionnés.
-6.  Définissez les options [Créer un solide](#Données.md), [Surface réglée](#Données.md) et [Fermé](#Données.md).
+6.  Définissez les options [Solide](#Données.md), [Surface réglée](#Données.md) et [Fermé](#Données.md).
 7.  Cliquez sur **OK**.
 
 
@@ -43,21 +43,21 @@ La commande <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Lis
 
 
 
-#### Créer un solide 
+#### Solide
 
-Si \"Solid\" est mis à \"true\", FreeCAD crée un solide, à condition que les profils soient fermés. S\'il est mis à \"false\", FreeCAD crée une face ou une coque pour des profils ouverts ou fermés.
-
-
-
-#### Surface lisse 
-
-Si \"Ruled surface\" est mis à \"true\", FreeCAD crée une face, une coque ou un solide à partir de [surfaces réglées](https://fr.wikipedia.org/wiki/Surface_r%C3%A9gl%C3%A9e).
+Si \"Solide\" est sélectionné, FreeCAD crée un solide, à condition que les profils soient fermésn sinon FreeCAD crée une face ou une coque pour des profils ouverts ou fermés.
 
 
 
-### Fermé
+#### Surface réglée 
 
-Si \"Closed\" est mis à \"true\", FreeCAD essaye de lisser le dernier profil vers le premier profil pour créer une boucle fermée.
+Si \"Surface réglée\" est sélectionné, FreeCAD crée une face, une coque ou un solide à partir de [surfaces réglées](https://fr.wikipedia.org/wiki/Surface_r%C3%A9gl%C3%A9e).
+
+
+
+#### Fermé
+
+Si \"Fermé\" est sélectionné, FreeCAD essaye de lisser le dernier profil vers le premier profil pour créer une boucle fermée.
 
 Pour plus d\'informations sur la façon dont les profils sont réunis, voir la page [Part Détails techniques du lissage](Part_Loft_Technical_Details/fr.md).
 
@@ -78,11 +78,11 @@ Un objet Part Lissage est dérivé d\'un [Part Feature](Part_Feature/fr.md) et h
 
 -    **Sections|LinkList**: liste des sections utilisées.
 
--    **Solid|Bool**: true ou false (par défaut). True crée un solide.
+-    **Solid|Bool**: false par défaut. True crée un solide.
 
--    **Ruled|Bool**: true ou false (par défaut). True crée une surface réglée.
+-    **Ruled|Bool**: false par défaut. True crée une surface réglée.
 
--    **Closed|Bool**: true ou false (par défaut). True crée un lissage fermé en reliant le dernier profil au premier profil.
+-    **Closed|Bool**: false par défaut. True crée un lissage fermé en reliant le dernier profil au premier profil.
 
 -    **Max Degree|IntegerConstraint**: degré maximum.
 

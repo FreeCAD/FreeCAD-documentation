@@ -1,128 +1,163 @@
 # Manual:Traditional modeling, the CSG way/pl
 {{Manual:TOC}}
 
-CSG stands for [Constructive Solid Geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry) and describes the most basic way to work with solid 3D geometry, which is creating complex objects by adding and removing pieces to/from solids by using Boolean operations such as union, subtraction or intersection.
+[CSG](https://en.wikipedia.org/wiki/Constructive_solid_geometry) oznacza Constructive Solid Geometry i opisuje podstawowy sposób pracy z geometrią brył 3D. Polega on na tworzeniu złożonych obiektów poprzez dodawanie lub usuwanie elementów do / z brył przy użyciu operacji logicznych, takich jak łączenie, odejmowanie lub przecinanie.
 
-As we saw earlier in this manual, FreeCAD can handle many types of geometry, but the preferred and most useful type for the kind of 3D objects that we want to design with FreeCAD, that is, real-world objects, is, without a doubt, solid, [BREP](https://en.wikipedia.org/wiki/Boundary_representation) geometry, that is mainly handled by the [Part Workbench](Part_Workbench.md). Unlike [polygon meshes](https://en.wikipedia.org/wiki/Polygon_mesh), which are made only of points and triangles, BREP objects have their faces defined by mathematical curves, which permits absolute precision, no matter the scale.
+Jak omówiono wcześniej w tym podręczniku, FreeCAD wspiera wiele typów geometrii. Jednak najbardziej preferowanym i przydatnym typem do projektowania rzeczywistych obiektów 3D we FreeCAD jest geometria bryłowa [BREP](https://en.wikipedia.org/wiki/Boundary_representation), obsługiwana głównie przez środowisko pracy [Część](Part_Workbench.md). Reprezentacja brzegowa BREP to metoda przedstawiania kształtów przy pomocy ich przestrzennych brzegów. Definiuje obiekt 3D określając jego powierzchnie, krawędzie i wierzchołki. Kluczowe aspekty BREP to ściany, które są powierzchniowymi elementami obiektów, krawędzie - linie brzegowe, w których spotykają się dwie ściany i wierzchołki - punkty, w któych spotykają się krawędzie.
+
+BREP ma kilka zalet. Po pierwsze, definiuje powierzchnie przy pomocy równań matematycznych, pozwalając na precyzyjne modelowanie. Ta precyzja jest kluczowa do zastosowań inżynierskich, w których wymagane są dokładne wymiary. Ponadto, BREP zapewnia gładkie i szczegółowe powierzchnie, w przeciwieństwie do [siatek wielokątów](https://en.wikipedia.org/wiki/Polygon_mesh), które przybliżają zakrzywione powierzchnie za pomocą ścianek. Jest to zbliżone do różnicy między obrazami wektorowymi, które skalują się bez utraty jakości i bitmapami, które mogą wyglądać na rozpikselowane przy powiększaniu. BREP zawiera obszerne informacje topologiczne o obiekcie, wliczając zależności między ścianami, krawędziami i wierzchołkami, co jest kluczowe dla zaawansowanych operacji, jak przeliczenia logiczne i zaokrąglanie.
+
+Siatki wielokątów składają się z wierzchołków, krawędzi i ścian, które tworzą trójkąty lub czworokąty. Są prostsze i szybsze w renderowaniu, ale brakuje im precyzji. Przy powiększeniu lub druku w większej skali siatki pokazują powierzchnie zbudowane ze ścianek a nie gładkich krzywych. BREP zaś korzysta z krzywych i powierzchni definiowanych matematycznie, oferując wyższą dokładność i gładkość. Modele BREP są preferowane do zastosowań CAD, gdzie precyzja jest bezwzględnie wymagana.
+
+We FreeCAD geometria oparta na BREP jest zarządzana przez [OpenCasCade](https://en.wikipedia.org/wiki/Open_Cascade_Technology), otwartoźródłową bibliotekę programistyczną. Głównym interfejsem między FreeCAD a jądrem OpenCasCade jest środowisko pracy Część, które stanowi podstawę dla większości innych środowisk pracy, dostarczając niezbędne narzędzia do tworzenia i manipulowania obiektami BREP. Środowisko pracy Część obejmuje narzędzia do tworzenia prymitywów, takich jak podstawowe kształty, np. prostopadłościany, cylindry i sfery, wykonywania operacji logicznych, takich jak łączenie, przecinanie i odejmowanie kształtów, oraz przeprowadzania transformacji, w tym przesuwania, obracania, skalowania i klonowania obiektów.
+
+Podczas gdy inne środowiska pracy w FreeCAD, takie jak środowiska pracy Projekt Części i Powierzchnia, oferują bardziej zaawansowane narzędzia do budowania i manipulowania geometrią, opierają się na podstawowym środowisku pracy Część. Zrozumienie, jak obiekty środowiska pracy Część działają wewnętrznie, oraz biegłość w obsłudze podstawowych narzędzi środowiska pracy Część są korzystne. Często te prostsze narzędzia mogą rozwiązać problemy, z którymi bardziej złożone narzędzia mogą sobie nie poradzić.
 
 ![](images/Mesh_vs_brep.jpg )
 
-The difference between the two can be compared to the difference between bitmap and vector images. As with bitmap images, polygon meshes have their curved surfaces divided into a series of points. If you look at it closely, or print it very large, you will see not a curved but a faceted surface. In both vector images and BREP data, the position of any point on a curve is not stored in the geometry but calculated on the fly, with exact precision.
+Różnicę między nimi można porównać do różnicy między obrazami bitmapowymi i wektorowymi. Podobnie jak w przypadku obrazów bitmapowych, siatki wielokątów mają zakrzywione powierzchnie podzielone na serię punktów. Jeśli przyjrzysz się im bliżej lub wydrukujesz je w bardzo dużym rozmiarze, zobaczysz nie zakrzywioną powierzchnię, ale powierzchnię podzieloną na ścianki. Zarówno w przypadku obrazów wektorowych, jak i danych BREP, położenie dowolnego punktu na krzywej nie jest przechowywane w geometrii, ale obliczane na bieżąco, z dokładną precyzją.
 
-In FreeCAD, all BREP-based geometry is handled by another piece of open source software, [OpenCasCade](https://en.wikipedia.org/wiki/Open_Cascade_Technology). The main interface between FreeCAD and the OpenCasCade kernel is the Part Workbench. Most other workbenches build their functionality on top of the Part Workbench.
-
-Although other workbenches often offer more advanced tools to build and manipulate geometry, since they all actually manipulate Part objects, it is very useful to know how these objects work internally, and be able to use the Part tools since, being more simple, they can very often help you to work around problems that the more intelligent tools fail to solve properly.
-
-To illustrate the working of the Part Workbench, we will model this table, using only CSG operations (except the screws, for which we will use one of the addons, and the dimensions, which will see in the next chapter):
+Aby zilustrować działanie środowiska Część, zamodelujemy ten stół, używając tylko operacji CSG *(z wyjątkiem śrub, dla których użyjemy jednego z dodatków, oraz wymiarów, które zobaczymy w następnym rozdziale)*:
 
 ![](images/Exercise_table_complete.jpg )
 
-Let\'s create a new document (**Ctrl+N** or menu File → New Document) to hold our table design. The document is initially called \"unnamed\" in the Model tab in the Combo View panel, but if you save the document (**Ctrl+Shift+S** or menu File → Save As) as a new FreeCAD document called \"table.FCStd\" the document will be renamed \"table\", which more clearly identifies the project.
+Utwórzmy nowy dokument *(**Ctrl+N** lub menu **Plik → Nowy**)*, aby przechowywać nasz projekt tabeli. Dokument jest początkowo nazywany \"nienazwanym\" w zakładce Model w panelu Widoku złożonego, ale jeśli zapiszesz dokument *(**Ctrl+Shift+S** lub menu **Plik → Zapisz jako**)* jako nowy dokument FreeCAD o nazwie \"table.FCStd\", nazwa dokumentu zostanie zmieniona na \"table\", co wyraźniej identyfikuje projekt. Będziemy pracować używając mm jako jednostki długości. Możesz to jednak dostosować do swoich preferencji przy pomocy menu w prawym dolnym rogu ekranu.
 
-Now we can switch to the Part Workbench and start to create our first table leg.
+Teraz możemy przełączyć się do środowiska pracy Część i rozpocząć tworzenie naszej pierwszej nogi stołu.
 
--   Press the <img alt="" src=images/Part_Box.svg  style="width:16px;"> **Cube** button
--   Select the Cube, then set the following properties (in the **Data** tab):
-    -   Length: 80mm (or 8cm, or 0.8m, FreeCAD works in any unit)
-    -   Width: 80mm
-    -   Height: 75cm
--   Duplicate the Cube by pressing **Ctrl+C** then **Ctrl+V** (or menu Edit → Copy and Paste) (No change will be evident, as the second object is overlaying the first.)
--   Select the new object named Cube001 that has been created (Click on Cube001 in the left side Model tab)
--   Change its position by editing its Placement property:
-    -   Position x: 8mm
-    -   Position y: 8mm
+-   Naciśnij przycisk <img alt="" src=images/Part_Box.svg  style="width:16px;"> **Sześcian**.
+-   Wybierz sześcian, a następnie ustaw następujące właściwości *(w zakładce **Dane**)*:
+    -   Długość: 80 mm
+    -   Szerokość: 80 mm
+    -   Wysokość: 750 mm
+-   Zduplikuj sześcian, naciskając **Ctrl** + **C**, a następnie **Ctrl** + **V** *(lub menu **Edycja → Kopiuj i Wklej**)* *(żadna zmiana nie będzie widoczna, ponieważ drugi obiekt nakłada się na pierwszy)*.
+-   Wybierz nowy obiekt o nazwie Cube001, który został utworzony *(kliknij na Cube001 w lewej zakładce Model)*.
+-   Zmień jego położenie, edytując jego właściwość Placement:
+    -   Pozycja x: 8 mm
+    -   Pozycja y: 8 mm
 
-You should obtain two high cubes, one 8mm apart from the other:
+Powinieneś otrzymać dwa wysokie sześciany, oddalone od siebie o 8mm:
 
 ![](images/Exercise_table_01.jpg )
 
--   Now we can subtract one from the other: Select the **first** one, that is, the one that will **stay**, then, with the CTRL key pressed, select the **other** one, that will be **subtracted** (the order is important) and press the <img alt="" src=images/Part_Cut.svg  style="width:16px;"> **Cut** button:
+-   Teraz możemy odjąć jeden od drugiego: Zaznaczamy **pierwszy**, czyli ten, który **zostanie**, następnie z wciśniętym klawiszem **CTRL** zaznaczamy **drugi**, który zostanie **odjęty** *(kolejność jest ważna)* i wciskamy przycisk <img alt="" src=images/Part_Cut.svg  style="width:16px;"> **Wytnij**:
 
 ![](images/Exercise_table_02.jpg )
 
-Observe that the newly created object, called \"Cut\", still contains the two cubes we used as operands. In fact, the two cubes are still there in the document, they have merely been hidden and grouped under the Cut object in the tree view. You can still select them by expanding the arrow next to the Cut object, and, if you wish, turn them visible again by right-clicking them or change any of their properties.
+Zauważ, że nowo utworzony obiekt o nazwie \"Cut\" nadal zawiera dwie kostki, których użyliśmy jako operandów. W rzeczywistości obie kostki nadal znajdują się w dokumencie, zostały jedynie ukryte i zgrupowane pod obiektem Cut w widoku drzewa. Nadal można je wybrać, rozwijając strzałkę obok obiektu Cut i, jeśli chcesz, ponownie je wyświetlić, klikając je prawym przyciskiem myszy lub zmieniając dowolną z ich właściwości.
 
-You can use Cut -tool and other Boolean tools also through \"Combo view\" with <img alt="" src=images/Part_Boolean.svg  style="width:16px;"> [Boolean](Part_Boolean.md). It gives more explicit but longer way to do it.
+Możesz użyć narzędzia Cut i innych narzędzi logicznych również poprzez \"Widok złożony\" z funkcji <img alt="" src=images/Part_Boolean.svg  style="width:16px;"> [logicznych](Part_Boolean/pl.md). Daje to bardziej przejrzysty, ale dłuższy sposób wykonania.
 
--   Now let\'s create the three other feet by duplicating our base cube 6 other times. Since it is still copied, you can simply paste (Ctrl+V) 6 times. Change their position as follows:
-    -   Cube002: x: 0, y: 80cm
-    -   Cube003: x: 8mm, y: 79.2cm
-    -   Cube004: x: 120cm, y: 0
-    -   Cube005: x: 119.2cm, y: 8mm
-    -   Cube006: x: 120cm, y: 80cm
-    -   Cube007: x: 119.2cm, y: 79.2cm
+-   Teraz utwórzmy trzy pozostałe stopy, powielając nasz sześcian bazowy 6 razy. Ponieważ pozostaje on nadal skopiowany, można go po prostu wkleić *(**Ctrl** + **V**)* 6 razy. Zmień ich położenie w następujący sposób:
+    -   Cube002: x: 0, y: 800mm
+    -   Cube003: x: 8mm, y: 792mm
+    -   Kostka004: x: 1200mm, y: 0
+    -   Cube005: x: 1192mm, y: 8mm
+    -   Cube006: x: 120mm, y: 800mm
+    -   Cube007: x: 1192mm, y: 792mm
 
--   Now let\'s do the three other cuts, selecting first the \"host\" cube then the cube to be cut off. We now have four Cut objects:
+-   Teraz wykonajmy trzy pozostałe cięcia, wybierając najpierw sześcian \"główny\", a następnie sześcian, który ma zostać odcięty. Mamy teraz cztery obiekty Cut:
 
 ![](images/Exercise_table_03.jpg )
 
-You might have been thinking that, instead of duplicating the base cube six times, we could have duplicated the complete foot three times. This is totally true, as always in FreeCAD, there are many ways to achieve a same result. This is a precious thing to remember, because, as we will advance into more complex objects, some operations might not give the correct result and we often need to try other ways.
+Być może myślisz, że zamiast powielać sześciokąt podstawy sześć razy, moglibyśmy powielić całą stopę trzy razy. To całkowita prawda, jak zawsze w FreeCAD, istnieje wiele sposobów na osiągnięcie tego samego rezultatu. Jest to cenna rzecz do zapamiętania, ponieważ w miarę jak będziemy przechodzić do bardziej złożonych obiektów, niektóre operacje mogą nie dać prawidłowego wyniku i często musimy wypróbować inne sposoby.
 
--   We will now make holes for the screws, using the same Cut method. Since we need 8 holes, two in each foot, we could make 8 objects to be subtracted. Instead, let\'s explore other ways and make 4 tubes, that will be reused by two of the feet. So let\'s create four tubes by using the <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> **Cylinder** tool. You can again, make only one and duplicate it afterwards. Give all cylinders a radius of 6mm. This time, we will need to rotate them, which is also done via the **Placement** property under the Data tab *(**Note:** change the Axis property*before*setting the Angle, or the rotation will not be applied)*:
-    -   Cylinder: height: 130cm, angle: 90°, axis: x:0,y:1,z:0, position: x:-10mm, y:40mm, z:72cm
-    -   Cylinder001: height: 130cm, angle: 90°, axis: x:0,y:1,z:0, position: x:-10mm, y:84cm, z:72cm
-    -   Cylinder002: height: 90cm, angle: 90°, axis: x:-1,y:0,z:0, position: x:40mm, y:-10mm, z:70cm
-    -   Cylinder003: height: 90cm, angle: 90°, axis: x:-1,y:0,z:0, position: x:124cm, y:-10mm, z:70cm
+-   Teraz wykonamy otwory na śruby, używając tej samej metody cięcia. Ponieważ potrzebujemy 8 otworów, po dwa w każdej stopie, moglibyśmy wykonać 8 obiektów do odjęcia. Zamiast tego zbadajmy inne sposoby i stwórzmy 4 rurki, które zostaną ponownie wykorzystane przez dwie stopy. Utwórzmy więc cztery rurki za pomocą narzędzia <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> **Walec**. Możesz ponownie utworzyć tylko jeden i powielić go później. Nadaj wszystkim cylindrom promień 6 mm. Tym razem będziemy musieli je obrócić, co również odbywa się za pomocą właściwości **Umieszczenie** w zakładce Dane *(*Uwaga:*\' zmień właściwość Oś*przed*ustawieniem Kąta, w przeciwnym razie obrót nie zostanie zastosowany)*:
+    -   Cylinder: wysokość: 1300 mm, kąt: 90°, oś: x:0,y:1,z:0, pozycja: x:-10 mm, y:40 mm, z:720 mm
+    -   Cylinder001: wysokość: 1300 mm, kąt: 90°, oś: x:0,y:1,z:0, pozycja: x:-10 mm, y:840 mm, z:720 mm
+    -   Cylinder002: wysokość: 900 mm, kąt: 90°, oś: x:-1,y:0,z:0, pozycja: x:40 mm, y:-10 mm, z:700 mm
+    -   Cylinder003: wysokość: 900 mm, kąt: 90°, oś: x:-1,y:0,z:0, pozycja: x:1240 mm, y:-10 mm, z:700 mm
 
 ![](images/Exercise_table_04.jpg )
 
-You will notice that the cylinders are a bit longer than needed. This is because, as in all solid-based 3D applications, boolean operations in FreeCAD are sometimes oversensitive to face-on-face situations and might fail. By doing this, we put ourselves on the safe side.
+Zauważysz, że cylindry są nieco dłuższe niż to konieczne. Dzieje się tak dlatego, że podobnie jak we wszystkich aplikacjach 3D opartych na bryłach, operacje logiczne we FreeCAD są czasami nadwrażliwe na sytuacje powierzchnia-na-powierzchni i mogą zawieść. Robiąc to, stawiamy się po bezpiecznej stronie.
 
--   Now let\'s do the subtractions. Select the first foot, then, with CTRL pressed, select one of the tubes that crosses it, press the **Cut** button. The hole will be done, and the tube hidden. Find it in the tree view by expanding the pierced foot.
--   Select another foot pierced by this hidden tube, then repeat the operation, this time Ctrl+ selecting the tube in the tree view, as it is hidden in the 3D view (you can also make it visible again and select it in the 3D view). Repeat this for the other feet until each of them has its two holes:
+-   Teraz wykonajmy odejmowanie. Wybierz pierwszą stopę, a następnie, z wciśniętym klawiszem **CTRL**, wybierz jedną z rur, które ją przecinają i naciśnij przycisk **Wytnij**. Otwór zostanie wykonany, a rura ukryta. Znajdź ją w widoku drzewa, rozwijając przebitą stopę.
+-   Wybierz inną stopę przebitą przez tę ukrytą rurkę, a następnie powtórz operację, tym razem **CTRL** + wybierając rurkę w widoku drzewa, ponieważ jest ona ukryta w widoku 3D *(możesz również uczynić ją ponownie widoczną i wybrać ją w widoku 3D)*. Powtórz tę czynność dla pozostałych stóp, aż każda z nich będzie miała dwa otwory:
 
 ![](images/Exercise_table_05.jpg )
 
-As you can see, each foot has become a quite long series of operations. All this stays parametric, and you can go change any parameter of any of the older operations anytime. In FreeCAD, we often refer to this pile as \"modeling history\", since it in fact carries all the history of the operations you did.
+Jak widać, każda stopa stała się dość długą serią operacji. Wszystko to pozostaje parametryczne i w każdej chwili można zmienić dowolny parametr dowolnej ze starszych operacji. We FreeCAD często nazywamy ten stos \"historią modelowania\", ponieważ w rzeczywistości zawiera on całą historię wykonanych operacji.
 
-Another particularity of FreeCAD is that the concept of 3D object and the concept of 3D operation tend to blend into one same thing. The Cut is at the same time an operation, and the 3D object resulting from this operation. In FreeCAD this is called a \"feature\", rather than object or operation.
+Inną szczególną cechą FreeCAD jest to, że pojęcie obiektu 3D i pojęcie operacji 3D mają tendencję do łączenia się w jedną rzecz. Cięcie jest jednocześnie operacją i obiektem 3D wynikającym z tej operacji. We FreeCAD nazywa się to \"cechą\", a nie obiektem lub operacją.
 
--   Now let\'s do the tabletop, it will be a simple block of wood, let\'s do it with another **Box** with length: 126cm, width: 86cm, height: 8cm, position: x: 10mm, y: 10mm, z, 67cm. In the **View** tab, you can give it a nice brownish, wood-like color by changing its **Shape Color** property:
+-   Teraz zróbmy blat, będzie to prosty blok drewna, zróbmy to z innym **Sześcianem**:
+-   Prostopadłościan: długość: 1260 mm, szerokość: 860 mm, wysokość: 80 mm, pozycja: x: 10 mm, y: 10 mm, z: 670 mm.
 
-![](images/Exercise_table_06.jpg )
+W zakładce **Widok** możesz nadać mu ładny brązowawy, drewnopodobny kolor, zmieniając jego właściwość **Kolor kształtu**:
 
-Notice that, although the legs are 8mm thick, we placed it 10mm away, leaving 2mm between them. This is not necessary, of course, it won\'t happen with the real table, but it is a common thing to do in that kind of \"assembled\" models, it helps people who look at the model to understand that these are independent parts, that will need to be attached together manually later.
+Teraz, gdy nasze pięć elementów jest kompletnych, nadszedł dobry czas, aby nadać im bardziej odpowiednie nazwy niż \"Cut015\". Klikając obiekty prawym przyciskiem myszy w widoku drzewa *(lub naciskając **F2**)*, możesz zmienić ich nazwę na coś bardziej znaczącego dla siebie lub innej osoby, która otworzy plik później. Często mówi się, że samo nadanie odpowiednich nazw obiektom jest znacznie ważniejsze niż sposób ich modelowania.
 
-Now that our five pieces are complete, it is a good time to give them more proper names than \"Cut015\". By right-clicking the objects in the tree view (or pressing **F2**), you can rename them to something more meaningful to yourself or to another person who would open your file later. It is often said that simply giving proper names to your objects is much more important than the way you model them.
+-   Umieścimy teraz kilka śrub. Obecnie istnieje niezwykle przydatny dodatek opracowany przez członka społeczności FreeCAD, który można znaleźć w repozytorium [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons), o nazwie [Elementy złączne](https://github.com/shaise/FreeCAD_FastenersWB), który bardzo ułatwia wstawianie śrub. Instalacja dodatkowych stołów roboczych jest łatwa i opisana na stronie [dodatków](Std_AddonMgr/pl.md).
+-   Po zainstalowaniu środowiska [Elementy złączne](Fasteners_Workbench/pl.md) i ponownym uruchomieniu FreeCAD, pojawi się ono na liście środowisk pracy i możemy się do niego przełączyć. Dodanie śruby do jednego z naszych otworów odbywa się poprzez wybranie okrągłej krawędzi naszego otworu:
 
--   We will now place some screws. There is nowadays an extremely useful addon developed by a member of the FreeCAD community, that you can find on the [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons) repository, called [Fasteners](https://github.com/shaise/FreeCAD_FastenersWB), that makes the insertion of screws very easy. Installing additional workbenches is easy and described on the [addons pages](Std_AddonMgr.md).
--   Once you have installed the Fasteners Workbench and restarted FreeCAD, it will appear in the workbenches list, and we can switch to it. Adding a screw to one of our holes is done by first selecting the circular edge of our hole:
+![](images/FastenerWorkbench.png )
 
-![](images/Exercise_table_07.jpg )
+-   Następnie możemy nacisnąć jeden z przycisków śrub w Fasteners Workbench, na przykład **EN 1665 Śruba sześciokątna z kołnierzami, seria wzmacniana**. Śruba zostanie umieszczona i wyrównana z naszym otworem, a średnica zostanie automatycznie dobrana do rozmiaru naszego otworu. Czasami śruba zostanie umieszczona odwrotnie, co możemy skorygować, odwracając jej właściwość \"\'odwróć\'\". Możemy również ustawić jej przesunięcie na 2 mm, aby postępować zgodnie z tą samą zasadą, której użyliśmy między blatem a nóżkami:
 
--   Then we can press one of the screw buttons of the Fasteners Workbench, for example the **EN 1665 Hexagon bolt with flanges, heavy series**. The screw will be placed and aligned with our hole, and the diameter will automatically be selected to match the size of our hole. Sometimes the screw will be placed inverted, which we can correct by flipping its **invert** property. We can also set its offset to 2mm, to follow the same rule we used between the tabletop and the feet:
+![](images/FastenerWorkbench_sel.png )
 
-![](images/Exercise_table_08.jpg )
+-   Powtórz tę czynność dla wszystkich otworów i nasz stół jest gotowy!
 
--   Repeat this for all the holes, and our table is complete!
+Jak wspomniano wcześniej, we FreeCAD można osiągnąć ten sam rezultat, wykonując różne kroki. Aby to zademonstrować, stwórzmy tę samą tabelę, korzystając z innej metodyki. Pamiętaj, że nie ma jednego właściwego lub niewłaściwego sposobu - liczy się indywidualna kreatywność.
 
-**The internal structure of Part objects**
+Zaczniemy podobnie: tworząc sześcian o następujących wymiarach: długość 80 mm, szerokość 8 mm, wysokość 750 mm.
 
-As we saw above, it is possible in FreeCAD to select not only whole objects, but parts of them, such as the circular border of our screw hole. This is a good time to have a quick look at how Part objects are constructed internally. Every workbench that produces Part geometry will be based on these:
+-   Utwórz sześcian, wybierając przycisk <img alt="" src=images/Part_Box.svg  style="width:16px;"> **Cube** i ustaw następujące właściwości (w zakładce **Data**):
+    -   długość: 80 mm
+    -   szerokość: 8 mm
+    -   wysokość: 750 mm
+-   Następnie utworzymy <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> **Cylinder** z następującymi właściwościami:
+    -   promień: 6 mm, wysokość: 100 mm, kąt: 90°, oś: x: 1, y: 0, z: 0, pozycja: x: 40 mm, y: 40 mm, z: 720 mm
+-   Następnie zastosujemy narzędzie do przycinania. Wybierz sześcian, a następnie, trzymając wciśnięty klawisz CTRL, wybierz cylinder. Pamiętaj, że kolejność wyboru jest istotna, aby określić, który element pozostaje. Następnie naciśnij przycisk <img alt="" src=images/Part_Cut.svg  style="width:16px;"> **Wytnij**.
+-   Skopiujemy i wkleimy obiekt po przycięciu, naciskając **Ctrl+C**, a następnie **Ctrl+V** (lub menu **Edycja → Kopiuj** i **Wklej**):
+    -   kąt: 90°, oś: x: 0, y: 0, z: 1, pozycja: x: 8 mm
+-   Wybierz oba obiekty i zastosuj narzędzie <img alt="" src=images/Part_Fuse.svg  style="width:16px;"> **Połączenie**. Teraz oba obiekty są połączone, tworząc jedną nogę.
+-   Skopiuj i wklej połączoną nogę, ustawiając ją w pozycji:
+    -   kąt: 90°, oś: x: 0, y: 0, z: 1, pozycja: y: 800 mm
+-   Wybierz obie nogi i utwórz <img alt="" src=images/Part_Compound.svg  style="width:16px;"> **Kształt złożony**.
+-   Skopiuj i wklej utworzony kształt złożony, ustawiając go w pozycji:
+    -   kąt: 180°, oś: x: 0, y: 0, z: 1, pozycja: x: 1200 mm, y: 800 mm. W ten sposób uzyskaliśmy nogi stołu.
 
--   **Vertices**: These are points (usually endpoints) on which all the rest is built. For example, a line has two vertices.
--   **Edges**: the edges are linear geometry like lines, arcs, ellipses or [NURBS](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline) curves. They usually have two vertices, but some special cases have only one (a closed circle for example).
--   **Wires**: A wire is a sequence of edges connected by their endpoints. It can contain edges of any type, and it can be closed or not.
--   **Faces**: Faces can be planar or curved, and can be formed by one closed wire, which forms the border of the face, or more than one, in case the face has holes.
--   **Shells**: Shells are simply a group of faces connected by their edges. It can be open or closed.
--   **Solids**: When a shell is tightly closed, that is, it has no \"leak\", it becomes a solid. Solids carry the notion of inside and outside. Many workbenches rely on this to make sure the objects they produce can be built in the real world.
--   **Compounds**: Compounds are simply aggregates of other shapes, no matter their type, into a single shape.
+Teraz stworzymy blat stołu.
 
-In the 3D view, you can select individual **vertices**, **edges** or **faces**. Selecting one of these also selects the whole object.
+-   Utwórz sześcian o wymiarach:
+    -   długość: 752 mm
+    -   szerokość: 1184 mm
+    -   wysokość: 784 mm
+    -   pozycja: x: 8 mm, y: 8 mm, z: 670 mm
 
-**A note about shared design**
+Postępujemy w podobny sposób, jeśli chcemy dodać śruby (a miejmy nadzieję, że chcemy!).
 
-You might look at the table above, and think its design is not good. The tightening of the feet with the tabletop is probably too weak. You might want to add reinforcing pieces, or simply you have other ideas to make it better. This is where sharing becomes interesting. You can download the file made during this exercise from the link below, and modify it to make it better. Then, if you share that improved file, others might be able to make it even better, or use your well-designed table in their projects. Your design might then give other ideas to other people, and maybe you will have helped a tiny bit to make a better world\...
+![](images/Tabble_alternative_complete.png )
 
-**Downloads**
+**Wewnętrzna struktura obiektów Część**
 
--   The file produced in this exercise: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/table.FCStd>
+Jak widzieliśmy powyżej, w FreeCAD możliwe jest zaznaczanie nie tylko całych obiektów, ale także ich części, takich jak okrągła krawędź naszego otworu na śrubę. To dobry moment, aby przyjrzeć się, jak wewnętrznie zbudowane są obiekty środowiska pracy Część. Każde środowisko pracy, które tworzy geometrię środowiska pracy Część, będzie się na nich opierać:
 
-**Read more**
+-   **Wierzchołki**: To punkty (zwykle końcowe), na których opiera się reszta konstrukcji. Na przykład linia ma dwa wierzchołki.
+-   **Krawędzie**: Krawędzie to geometria liniowa, taka jak linie, łuki, elipsy lub [NURBS](https://pl.wikipedia.org/wiki/NURBS). Zwykle mają dwa wierzchołki, ale w niektórych szczególnych przypadkach mogą mieć tylko jeden (na przykład zamknięte koło).
+-   **Linie**: Linia to sekwencja krawędzi połączonych swoimi końcami. Może zawierać krawędzie dowolnego typu i być zamknięta lub nie.
+-   **Ściany**: Ściany mogą być płaskie lub zakrzywione i mogą być tworzone przez jeden zamknięty drut, który tworzy granicę ściany, lub więcej niż jeden, jeśli ściana ma otwory.
+-   **Powłoki**: Powłoki to po prostu grupa ścian połączonych swoimi krawędziami. Mogą być otwarte lub zamknięte.
+-   **Bryły**: Gdy powłoka jest szczelnie zamknięta, to znaczy, że nie ma żadnych \"wycieków\", staje się bryłą. Bryły mają pojęcie wnętrza i zewnętrza. Wiele środowisk pracy opiera się na tym, aby upewnić się, że obiekty, które tworzą, mogą być zbudowane w rzeczywistości.
+-   **Kształty złożone**: Kształty złożone to po prostu agregaty innych kształtów, niezależnie od ich typu, połączone w jeden kształt.
 
--   [The Part Workbench](Part_Workbench.md)
--   [The FreeCAD addons repository](https://github.com/FreeCAD/FreeCAD-addons)
--   [The Fasteners Workbench](https://github.com/shaise/FreeCAD_FastenersWB)
+W widoku 3D można wybrać poszczególne **wierzchołki**, **krawędzie** lub **ściany**. Wybranie jednego z nich powoduje również zaznaczenie całego obiektu.
+
+**Uwaga na temat udostępnionego projektu**
+
+Możesz spojrzeć na powyższy stół i pomyśleć, że jego konstrukcja nie jest dobra. Mocowanie nóżek do blatu jest prawdopodobnie zbyt słabe. Być może chciałbyś dodać elementy wzmacniające lub po prostu masz inne pomysły, aby go ulepszyć. W tym miejscu udostępnianie staje się interesujące. Możesz pobrać plik utworzony podczas tego ćwiczenia z linku poniżej i zmodyfikować go, aby był lepszy. Następnie, jeśli udostępnisz ten ulepszony plik, inni mogą być w stanie uczynić go jeszcze lepszym lub wykorzystać dobrze zaprojektowany stół w swoich projektach. Twój projekt może podsunąć inne pomysły innym ludziom, a ty być może przyczynisz się choć trochę do stworzenia lepszego świata\...
+
+**Do pobrania**
+
+-   Plik utworzony w tym ćwiczeniu: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/table.FCStd>
+
+**Więcej informacji:**
+
+-   [Środowisko pracy Część](Part_Workbench/pl.md)
+-   [Repozytorium dodatków FreeCAD](https://github.com/FreeCAD/FreeCAD-addons)
+-   [Środowisko pracy Elementy złączne](Fasteners_Workbench/pl.md)
 
 
 

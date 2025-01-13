@@ -32,7 +32,13 @@ El lector practicará:
 -   Aplicación de restricciones de datos
 -   Obtención de un perfil cerrado
 
+
+<div class="mw-translate-fuzzy">
+
 Para una descripción más profunda del croquizador, lee la [Referencia del croquizador](Sketcher_reference/es.md).
+
+
+</div>
 
 ![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
 *Resultado final del croquis, con toda la geometría totalmente restringida, incluida la geometría de construcción para el soporte.*
@@ -326,7 +332,13 @@ We should end up with a fully constrained sketch. It can be confirmed by noticin
 
 ## Información adicional 
 
+
+<div class="mw-translate-fuzzy">
+
 Para una descripción más profunda del croquizador, visita la documentación de [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md) y lee también la [Referencia Croquizador](Sketcher_reference/es.md).
+
+
+</div>
 
 La restricción de un croquis puede hacerse de muchas maneras diferentes. En general, se recomienda utilizar primero las restricciones geométricas y minimizar el número de restricciones de datos, ya que esto simplifica la tarea del solucionador de restricciones internas. Para investigar esto, repita este ejemplo, ahora añadiendo las restricciones en diferente orden.
 

@@ -1,31 +1,25 @@
-# Sketcher CreateFillet/it
 ---
- GuiCommand:   Name: Sketcher CreateFillet   Name/it: Raccordo   Workbenches: Sketcher Workbench/it   Sketcher|MenuLocation: Sketch , Geometrie , Raccordo   Shortcut: F   SeeAlso: ---
+ GuiCommand:
+   Name: Sketcher CreateFillet
+   Name/it: Sketcher Crea raccordo
+   MenuLocation: Schizzo , Strumenti Sketcher , Crea raccordo
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **G** **F** **F**
+   SeeAlso: 
+---
 
-
-</div>
+# Sketcher CreateFillet/it
 
 
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo strumento crea un raccordo tra due linee unite in un punto. Attivare lo strumento, quindi selezionare entrambe le linee o fare clic sul punto d\'angolo.
+Lo strumento <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:24px;"> [Sketcher Crea raccordo](Sketcher_CreateFillet/it.md) crea un raccordo tra due bordi non paralleli. {{Version/it|1.0}}: Lo strumento può anche creare uno smusso.
 
 
-</div>
+{{Version/it|1.0}}
 
-
-<div class="mw-translate-fuzzy">
-
-Quando si avvia lo strumento, il puntatore del mouse assume la forma di croce bianca accompagnata dall\'icona rossa di un raccordo.
-
-Dopo l\'esecuzione di un raccordo, lo strumento rimane attivo e permette di eseguire ulteriori raccordi.
-
-
-</div>
+: Se due bordi dritti collegati da un [vincolo coincidente](Sketcher_ConstrainCoincident/it.md) vengono raccordati o smussati, il punto d\'angolo può essere opzionalmente conservato. Lo strumento aggiunge quindi un [oggetto Punto](Sketcher_CreatePoint/it.md) che ha un [vincolo Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md) con entrambi i bordi. I vincoli collegati al punto d\'angolo vengono trasferiti al nuovo oggetto punto.
 
 ![](images/SketcherCreateFilletExample.png‎ )
 
@@ -33,26 +27,39 @@ Dopo l\'esecuzione di un raccordo, lo strumento rimane attivo e permette di eseg
 
 ## Utilizzo
 
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
-<div class="mw-translate-fuzzy">
+1.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_CreateFillet.svg" width=16px> [Crea raccordo](Sketcher_CreateFillet/it.md)**.
+    -   Selezionare l\'opzione **Sketcher → Strumenti Sketcher → <img src="images/Sketcher_CreateFillet.svg" width=16px> Crea raccordo** dal menu.
+    -   Fare clic con il pulsante destro del mouse nella [Vista 3D](3D_view/it.md) e selezionare l\'opzione **<img src="images/Sketcher_CreateFillet.svg" width=16px> Crea raccordo** dal menu contestuale.
+    -   Usare la scorciatoia da tastiera: **G** quindi **F**, quindi **F**.
+2.  Se è presente una selezione precedente, questa viene cancellata. Lo strumento non accetta una preselezione.
+3.  Il cursore si trasforma in una croce con l\'icona della modalità strumento corrente.
+4.  La sezione **Parametri raccordo/smusso** ({{Version/it|1.0}}) è aggiunta nella parte superiore della finestra [Dialogo Sketcher](Sketcher_Dialog/it.md).
+5.  Facoltativamente, premere il tasto **U** o deselezionare la casella di controllo **Mantieni angolo** per disabilitare tale opzione. {{Version/it|1.0}}
+6.  Facoltativamente, premere il tasto **M** o selezionare dall\'elenco a discesa nella sezione parametri per modificare la modalità strumento:
+    -   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:16px;"> 
+**Raccordo**
+    -   <img alt="" src=images/Sketcher_CreateChamfer.svg  style="width:16px;"> 
+**Smusso**
+7.  Eseguire una delle seguenti operazioni:
+    -   Selezionare un punto con un [vincolo coincidente](Sketcher_ConstrainCoincident/it.md) che collega due bordi dritti non paralleli.
+    -   Selezionare due bordi non paralleli. Entrambi i bordi possono essere una [linea](Sketcher_CreateLine/it.md), un [arco](Sketcher_CreateArc/it.md), un [arco di ellisse](Sketcher_CreateArcOfEllipse/it.md), un [arco di iperbole](Sketcher_CreateArcOfHyperbola/it.md) o un [arco di parabola](Sketcher_CreateArcOfParabola/it.md). Le [B-spline](Sketcher_Workbench/it#Sketcher_CompCreateBSpline.md) non sono attualmente supportate.
+8.  Viene creato il raccordo o lo smusso, incluso un oggetto punto in caso di angolo conservato. Per uno smusso viene creato anche un arco di geometria di costruzione.
+9.  Questo strumento funziona sempre in modalità continua: facoltativamente, continuare a selezionare punti e/o bordi.
+10. Per terminare, fare clic con il pulsante destro del mouse o premere **Esc**, oppure avviare un altro strumento di creazione di geometrie o vincoli.
 
-1.  Avviare lo strumento
-2.  Selezionare le linee collegate da raccordare, oppure selezionare un vertice. La distanza dal vertice a cui si fa clic imposta il raggio del raccordo.
-
--   Per modificare il raggio selezionare il centro del raccordo e spostarlo.
--   Premere il tasto **Esc** o fare clic con il tasto destro per terminare l\'operazione e uscire dalla funzione.
 
 
-</div>
+## Note
 
-
-<div class="mw-translate-fuzzy">
+-   L\'arco della geometria di costruzione di uno smusso non è visibile all\'esterno dello schizzo. Non può essere eliminato senza interrompere la geometria dello smusso.
+-   Alcune curve ([coniche](Sketcher_Workbench/it#Sketcher_CompCreateConic.md)) potrebbero dover essere [rifilate](Sketcher_Trimming/it.md) prima di poter essere raccordate.
+-   Il raggio del raccordo dipende dal metodo di selezione. Se viene selezionato un [vincolo coincidente](Sketcher_ConstrainCoincident/it.md) che collega due bordi dritti, il raggio del raccordo viene derivato dalla lunghezza del bordo più corto. Se vengono selezionati due bordi, il raggio è la distanza dal primo punto cliccato all\'intersezione (estesa) dei bordi.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

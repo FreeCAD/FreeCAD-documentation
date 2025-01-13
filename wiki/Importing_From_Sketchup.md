@@ -13,7 +13,7 @@ Providing the pyCollada module has been installed, you can open or import Collad
 
 ## Alternatives
 
-Using a Sketchup STL export plugin, you may also chose to use that format that FreeCAD supports natively. There are a number of these plugins available for Sketchup and some work better than others. Some research my be requires of the user to determine which one will best serve their needs.
+Using a Sketchup STL export plugin, you may also choose to use a format that FreeCAD supports natively. There are a number of these plugins available for Sketchup and some work better than others. Some research may be required of the user to determine which one will best serve their needs.
 
 ## Notes
 

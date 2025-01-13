@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Hatch
-   Name/it: Tratteggio
-   MenuLocation: Drafting , Tratteggio
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Tratteggio
+   MenuLocation: Drafting , Tratteggio<br>Annotazione , Tratteggio
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **H** **A**
    Version: 0.20
    SeeAlso: Draft_Pattern/it
@@ -24,7 +24,8 @@ Il comando <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> **Tratte
 1.  Selezionare un oggetto con facce. Verranno tratteggiate solo le facce piane dell\'oggetto.
 2.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Hatch.svg" width=16px> [Tratteggio](Draft_Hatch/it.md)**.
-    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_Hatch.svg" width=16px> Tratteggio** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Drafting → <img src="images/Draft_Hatch.svg" width=16px> Tratteggio** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Annotazione → <img src="images/Draft_Hatch.svg" width=16px> Tratteggio** dal menu.
     -   Usare la scorciatoia da tastiera: **H** poi **A**.
 3.  Si apre il pannello attività **Tratteggio**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
 4.  Premere il pulsante **OK** per terminare il comando.
@@ -43,7 +44,7 @@ Il comando <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> **Tratte
 
 ## Allineamento motivo 
 
-Quando viene calcolato il motivo del tratteggio per una faccia, viene temporaneamente tradotto nel piano XY globale per impostazione predefinita. Per una faccia con bordo dritto, il primo bordo dritto determina come ciò avvenga. Il primo punto di quel bordo viene posizionato sull\'origine e il bordo stesso viene allineato con l\'asse X. Se vengono create [Polilinee](Draft_Wire/it.md) con questo presupposto, si può controllare come il motivo del tratteggio verrà allineato con il contorno della faccia.
+Quando per una faccia viene calcolato il motivo del tratteggio, questo viene temporaneamente tradotto nel piano XY globale per impostazione predefinita. Per una faccia con bordi dritti, il primo bordo dritto determina come questo avviene. Il primo punto di quel bordo viene posizionato sull\'origine e il bordo stesso viene allineato con l\'asse X. Se vengono create [Polilinee](Draft_Wire/it.md) con questo presupposto, si può controllare come il motivo del tratteggio verrà allineato con il contorno della faccia.
 
 Se tutte le facce dell\'oggetto selezionate si trovano sul piano XY globale, si può disattivare questo comportamento predefinito impostando la proprietà **Translate** del Tratteggio su `False`. Il motivo di tratteggio verrà quindi allineato con l\'origine e l\'asse X del sistema di coordinate globale. Per le facce sul piano XY con spigoli dritti, la proprietà **Translate** può essere utilizzata per alternare tra motivi assoluti (a sinistra nell\'immagine) e relativi (a destra nell\'immagine).
 

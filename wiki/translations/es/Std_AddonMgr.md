@@ -54,6 +54,15 @@ La página de detalles muestra botones que permiten instalar, desinstalar, actua
 
 Las preferencias para el administrador de complementos pueden ser encontradas en el [Editor de preferencias](Preferences_Editor#Addon_Manager.md). <small>(v0.20)</small> 
 
+## Sorting by score 
+
+
+<small>(v1.0)</small> 
+
+The Addon Manager supports sorting by a number of different criteria. Most of these are downloaded directly from FreeCAD\'s servers (which caches them from GitHub and the FreeCAD Wiki) but one, \"Score,\" is not provided by FreeCAD at all, and only appears as an option if the Score Source URL setting is provided in the Preferences.
+
+The Score Source URL is a path to a remote JSON-formatted document listing addons and a \"score\" of some kind. Score can be calculated in any way the data provider likes, but should be an integer value, with higher scores being \"better\" in some sense. Any addon not listed is assigned a score of zero internally. The format of the file is a single JSON dictionary where the key is the addon URL (for workbenches and preference packs) or the name of the macro (for macros). See [this data source](https://gist.githubusercontent.com/chennes/e8f60e80f16e6ffbd057dd47ca36ad2a/raw/7b118cca8e84444c3379919bbd744b99e6ef6711/addon_score_for_testing.json) for an example (note the score there is simply the length of the addon\'s description, and is intended only for testing and demonstration purposes).
+
 
 
 ## Notas
@@ -139,10 +148,16 @@ worker_thread.start() # Returns immediately
 Then define the functions {{Incode|installation_succeeded}} and {{Incode|installation_failed}} to be run in each case. For uninstallation you can use the same technique, though it is usually much faster and will not block the GUI for very long, so in general it\'s safe to use the uninstaller directly, as shown above.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Std Base navi
+
+
+</div>
+
+
+{{Std_Base_navi
 
 }}
 

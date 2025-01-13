@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch Add
-   MenuLocation: Arch , Add component
-   Workbenches: Arch_Workbench
+   MenuLocation: Modify , Add component
+   Workbenches: BIM_Workbench
    SeeAlso: Arch_Remove
 ---
 
@@ -27,7 +27,7 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 ## Usage
 
 1.  Select the objects to be added together. The last object selected will be the host Arch object.
-2.  Press the **<img src="images/Arch_Add.svg" width=16px>** button, or use **Arch** → **<img src="images/Arch_Add.svg" width=16px> [Add](Arch_Add.md)** from the top menu.
+2.  Press the **<img src="images/Arch_Add.svg" width=16px> [Add component](Arch_Add.md)** button, or use **Modify → <img src="images/Arch_Add.svg" width=16px> Add component** from the top menu.
 
 ## Scripting
 
@@ -76,5 +76,10 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+ {{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add
+⏵ [documentation index](../README.md) > Arch Add

@@ -45,25 +45,27 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_DependencyGraph.svg  style="width:32px;"> [Graf zależności \...](Std_ExportGraphviz/pl.md): Pokazuje wykres zależności obiektów.
 
--   <img alt="" src=images/Std_ProjectUtil.svg  style="width:32px;"> [Narzędzia projektu \...](Std_ProjectUtil/pl.md): Pomaga w naprawie uszkodzonych plików projektu.
+-   [Eksport grafu zależności\...](Std_ExportDependencyGraph/pl.md) {{Version/pl|0.21}}
 
--   <img alt="" src=images/Std_MeasureDistance.svg  style="width:32px;"> [Wymiarowanie odległości](Std_MeasureDistance/pl.md): Tworzy obiekt do wykonania pomiarów i wyświetlenia odległości.
+-   <img alt="" src=images/Std_ProjectUtil.svg  style="width:32px;"> [Narzędzie dokumentu\...](Std_ProjectUtil/pl.md): Pomaga w naprawie uszkodzonych plików projektu.
 
 <img alt="Std_TextDocument.svg" src=images/Std_TextDocument.svg  style="width:32px;"> [Dodaj dokument tekstowy](Std_TextDocument/pl.md): Tworzy obiekt, który jest w stanie przechowywać dowolny tekst.
 
 -   <img alt="" src=images/Std_DemoMode.svg  style="width:32px;"> [Widok obrotowy \...](Std_DemoMode/pl.md): Płynnie obraca ujęcie widoku w aktywnym oknie widoku 3D.
 
--   <img alt="" src=images/Std_UnitsCalculator.svg  style="width:32px;"> [Kalkulator jednostek \...](Std_UnitsCalculator/pl.md): Otwiera kalkulator do przeliczania jednostek.
+-   <img alt="" src=images/Std_UnitsCalculator.svg  style="width:32px;"> [Przelicznik jednostek \...](Std_UnitsCalculator/pl.md): Otwiera kalkulator do przeliczania jednostek.
 
 -   <img alt="" src=images/Std_DlgCustomize.svg  style="width:32px;"> [Dostosuj \...](Std_DlgCustomize/pl.md): Otwiera okno dialogowe z opcjami dostosowywania.
 
--   <img alt="" src=images/_Std_AddonMgr.svg  style="width:32px;"> [Menadżer dodatków](Std_AddonMgr/pl.md): Otwiera menedżer dodatków, za pomocą którego można zainstalować [zewnętrzne Środowiska pracy](External_workbenches/pl.md) i [makrodefinicje](macros/pl.md).
+-   <img alt="" src=images/_Std_AddonMgr.svg  style="width:32px;"> [Menadżer dodatków](Std_AddonMgr/pl.md): Otwiera menadżer dodatków, za pomocą którego można zainstalować [zewnętrzne Środowiska pracy](External_workbenches/pl.md) i [makrodefinicje](macros/pl.md).
+
+-   <img alt="" src=images/Std_Measure.svg  style="width:32px;"> [Pomiary](Std_Measure/pl.md): Mierzy obiekty. {{Version/pl|1.0}}
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

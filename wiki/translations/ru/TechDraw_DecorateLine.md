@@ -32,7 +32,13 @@ The **TechDraw DecorateLine** tool changes the appearance of edges, including co
 1.  Select a View or one or more edges in a View.
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_DecorateLine.svg" width=16px> [Change Appearance of Lines](TechDraw_DecorateLine.md)** button.
+
     -   Select the **TechDraw → Add Lines → <img src="images/TechDraw_DecorateLine.svg" width=16px> Change Appearance of Lines** option from the menu.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Double-click on a line within a View.
 3.  A task panel opens.
 4.  If you have selected edges: optionally change their **color**, **style**, **weight** and/or **visibility** in the **Line Decoration** section.
 5.  To make invisible edges in the View permanently visible again: optionally press one or more of the buttons in the **Restore Invisible Lines** section:
@@ -54,7 +60,13 @@ The **TechDraw DecorateLine** tool changes the appearance of edges, including co
 6.  Press the **OK** button.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

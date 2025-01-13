@@ -11,6 +11,9 @@
 # Draft Offset/ru
 
 
+</div>
+
+
 
 ## Описание
 
@@ -28,7 +31,8 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 1.  Optionally select one object. The object must lie on the current [Draft working plane](Draft_SelectPlane.md).
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Offset.svg" width=16px> [Offset](Draft_Offset.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Offset.svg" width=16px> Offset** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Modification → <img src="images/Draft_Offset.svg" width=16px> Offset** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Modify → <img src="images/Draft_Offset.svg" width=16px> Offset** option from the menu.
     -   Use the keyboard shortcut: **O** then **S**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
 4.  The **Offset** task panel opens. See [Options](#Options.md) for more information.
@@ -42,7 +46,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 ## Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 -   If the **OCC-style offset** checkbox is checked a special offset style is used: open [Draft Wires](Draft_Wire.md) are offset on both sides, and new edges are connected with rounded corners. This only works for planar objects with at least two edges. Note that with this style a new non-parametric object is created, and if copy mode is off the original object is deleted.
 -   Press **C** or click the **Copy** checkbox to toggle copy mode. If copy mode is on, the command will create an offset copy instead of offsetting the original object.

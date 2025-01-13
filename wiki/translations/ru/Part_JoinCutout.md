@@ -13,21 +13,25 @@
 
 </div>
 
+
+
 ## Описание
 
-The <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part JoinCutout](Part_JoinCutout.md) tool creates a cutout in a walled object (e.g., a pipe) to fit another walled object.
+The <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> **Part JoinCutout** tool creates a cutout in a walled object (e.g. a pipe) to fit another walled object.
 
 ![600px](images/JoinFeatures_Cutout.png)
 
+
+
 ## Применение
 
-1.  Select the base object first, then the object to define the cutout.
-    The order of selection is important. It is enough to select one sub-shape of each object (e.g., faces).
-2.  Invoke the Part JoinCutout command several ways:
-    -   Pressing on the <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part JoinCutout](Part_JoinCutout.md) button in the Part toolbar
-    -   Using the **Part → Join → Cutout for Object** entry in the Part menu
+1.  Select the base object first, then the object to define the cutout. The order of selection is important. It is enough to select one sub-shape of each object (e.g. faces).
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Part_JoinCutout.svg" width=16px> [Cutout for object](Part_JoinCutout.md)** button.
+    -   Select the **Part → Join → <img src="images/Part_JoinCutout.svg" width=16px> Cutout for object** option from the menu.
+3.  A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original objects are hidden, and the result of cutting is shown in the [3D view](3D_view.md).
 
-A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original objects are hidden, and the result of cutting is shown in [3D view](3D_view.md).
+
 
 ## Свойства
 
@@ -42,6 +46,8 @@ A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original obje
 
 -    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences. When Mode property is \'bypass\', Refine is ignored (never applied).
 
+
+
 ## Пример
 
 1.  Create a pipe by applying [thickness](Part_Thickness.md) to a [cylinder](Part_Cylinder.md):
@@ -50,6 +56,8 @@ A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original obje
     ![320px](images/JoinFeatures_Example_step2.png)
 3.  Select the first pipe, then the second pipe (order of selection is important), and click the \'Cutout for object\' option from the Join tools dropdown toolbar button.
     ![320px](images/JoinFeatures_Example_step3_Cutout.png)
+
+
 
 ## Алгоритм
 
@@ -62,11 +70,15 @@ The algorithms behind Join tools are quite simple, and understanding them is imp
 3\. If Refine property is true, the resulting shape is [refined](Part_RefineShape.md).
 ![800px](images/JoinFeatures-Algo-Cutout.png)
 
+
+
 ### Примечания
 
 -   If after step 1, the object remains in one piece, the result of Cutout will be equivalent to [boolean cut](Part_Cut.md) of Base with Tool.
 -   Now, the tool will produce unexpected result, if a compound is supplied as Base. This may be changed in the future.
 -   Because the largest piece is determined by comparing volumes of pieces, the tool can only work with solids. This may be changed in the future.
+
+
 
 ## Программирование
 
@@ -86,6 +98,20 @@ j.Tool = FreeCADGui.Selection.getSelection()[1]
 }}
 
 The tool itself is implemented in Python, see **/Mod/Part/JoinFeatures.py** ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) under where FreeCAD is installed.
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

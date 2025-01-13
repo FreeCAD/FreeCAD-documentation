@@ -1,10 +1,5 @@
 # Python console/fr
-**(Janvier 2020) FreeCAD a été initialement conçu pour fonctionner avec Python 2. Étant donné que Python 2 est en fin de vie, son développement futur se fera exclusivement avec Python 3, et la compatibilité avec les versions antérieures ne sera pas prise en charge.**
-
 ## Introduction
-
-
-
 
 La [console Python](Python_console/fr.md) est une console qui fait partie de l\'[interface utilisateur](interface/fr.md) de FreeCAD. Elle exécute une instance de l\'interpréteur [Python](Python/fr.md) qui peut être utilisé pour contrôler les processus FreeCAD, créer et modifier des objets et leurs propriétés.
 
@@ -17,6 +12,8 @@ La console Python de FreeCAD a une coloration syntaxique de base, capable de dif
 
 
 *La console Python affichant des messages lorsque FreeCAD vient de démarrer.*
+
+
 
 ## Création de scripts 
 
@@ -77,15 +74,17 @@ Un clic droit sur la console Python affiche certaines commandes:
 
 -    **Clear console**: efface toutes les commandes entrées dans la console Python. Ceci est utile si la console Python est pleine de messages et de commandes entrées précédemment qui pourraient gêner lors du test d'une nouvelle fonction. Ceci est simplement esthétique, car cette commande ne supprime pas les variables existantes ni les modules importés dans la session.
 
--    **Insert file name**: ouvre une boîte de dialogue pour rechercher un fichier dans le système, puis insère le chemin complet du fichier. Ceci est utile pour tester les fonctions qui traitent un fichier d\'entrée sans avoir à écrire le nom complet dans la console, ce qui est sujet aux erreurs. Cette commande n\'exécute pas le fichier et ne l\'importe pas en tant que module Python. Elle renvoie simplement le chemin complet de ce fichier.
+-    **Insert file name**: ouvre une fenêtre de dialogue pour rechercher un fichier dans le système, puis insère le chemin complet du fichier. Ceci est utile pour tester les fonctions qui traitent un fichier d\'entrée sans avoir à écrire le nom complet dans la console, ce qui est sujet aux erreurs. Cette commande n\'exécute pas le fichier et ne l\'importe pas en tant que module Python. Elle renvoie simplement le chemin complet de ce fichier.
 
 -    **Word wrap**: enveloppe les très longues lignes qui dépassent la dimension horizontale de la console Python.
+
+
 
 ## Remarques
 
 -   On a la possibilité de faire défiler l\'API dans la console Python. Exemple :
     1.  Dans la console, tapez : `FreeCAD.`
-    2.  Une boîte de dialogue s\'affiche avec des classes/fonctions optionnelles à choisir.
+    2.  Une fenêtre de dialogue s\'affiche avec des classes/fonctions optionnelles à choisir.
     3.  Faites défiler la liste pour lire la description de chaque classe/fonction.
     4.  En choisissant une fonction et en la faisant suivre d\'un `.`, on peut répéter les étapes 2 et 3 pour aller plus loin dans l\'API.
 -   La complétion par tabulation/mot est prise en charge par le raccourci **Ctrl**+**Espace**.

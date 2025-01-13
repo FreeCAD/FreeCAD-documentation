@@ -5,7 +5,8 @@ This category collects pages about all the different file formats that FreeCAD i
 
 |     |     |     |
 | --- | --- | --- |
-| [FreeCAD and DXF Import/hr](FreeCAD_and_DXF_Import/hr.md) | [Import Export/hr](Import_Export/hr.md) |
+| [FreeCAD and DXF Import/hr](FreeCAD_and_DXF_Import/hr.md) | [Import Export Preferences/hr](Import_Export_Preferences/hr.md) | [Import Export/hr](Import_Export/hr.md) |
+|
 
 
 

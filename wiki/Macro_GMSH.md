@@ -11,6 +11,10 @@
 |SeeAlso = [FEM Mesh from shape by Gmsh](FEM_MeshGmshFromShape.md)
 }}
 
+## Important information 
+
+This macro is outdated. It is Python 2.x code. All the code has been directly integrated in the FEM Workbench before FreeCAD Version 0.20. See [FEM MeshGmshFromShape](FEM_MeshGmshFromShape.md).
+
 ## Description
 
 Simple macro to create FEM Meshes by the Mesh Generator GMSH. It is possible to create linear or bilinear (quadratic) Beam-, Shell- and Volumeelements in 

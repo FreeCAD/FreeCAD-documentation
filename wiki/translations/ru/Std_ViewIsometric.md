@@ -24,7 +24,7 @@
 ## Применение
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_ViewIsometric.svg" width=16px> [Std ViewIsometric](Std_ViewIsometric.md)** button.
+    -   Press the **<img src="images/Std_ViewIsometric.svg" width=16px> [Isometric](Std_ViewIsometric.md)** button.
     -   Select the **View → Standard views → Axonometric → <img src="images/Std_ViewIsometric.svg" width=16px> Isometric** option from the menu.
     -   Select the **Standard views → <img src="images/Std_ViewIsometric.svg" width=16px> Isometric** option from the [3D view](3D_view.md) context menu.
     -   Select the **<img src="images/Std_ViewIsometric.svg" width=16px> Isometric** option from the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
@@ -35,25 +35,37 @@
 ## Программирование
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-To change to isometric view use the `viewIsometric` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+
+</div>
+
+Use the `viewIsometric` method of the View object to change to isometric view. The `viewDimetric` and `viewTrimetric` methods are also available.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.viewIsometric()
-FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.viewIsometric()
 ```
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Std Base navi
+
+
+</div>
+
+
+{{Std_Base_navi
 
 }}
 

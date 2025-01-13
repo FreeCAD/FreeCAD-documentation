@@ -3,7 +3,7 @@
 |Name=Macro Align Face Object to View
 |Icon=Macro_Align_Face_Object_to_View.png
 |Translate=Allinea la faccia dell'oggetto alla vista
-|Description=Questa macro dirige la faccia dell'oggetto verso la vista attiva.
+|Description=Questa macro allinea la faccia dell'oggetto verso la Vista Attiva.
 |Author=Mario52
 |Version=0.1
 |Date=2015-01-16

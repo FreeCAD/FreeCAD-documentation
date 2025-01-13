@@ -169,7 +169,7 @@ Prismatic and rotated shapes can be created with the sweep tools as well if line
 
 What does a CAD application in the background? As stated above, we supply the profile and some kind of spine and the extrusion tools do the uncomfortable work:
 
--   Creating working planes normal to the spline in each start/end point of spine segments.
+-   Creating working planes normal to the spine in each start/end point of spine segments.
 -   Copying profiles, i.e. redrawing the profile on a working plane
 -   Connecting the related points of profile and cross-section(s) with curves that run parallel to the spine.
 -   Filling the faces between a profile segment, a cross-section segment, and two connection lines/curves.
@@ -200,7 +200,7 @@ FreeCAD\'s sweep tools allow to use profiles that do not lie on planes that are 
 
 *This example uses a straight spine (yellow) and a guide curve (orange) that is a quarter turn of a helix around the spine to demonstrate the principle how a guide curve twists a profile around the spine*
 
-### Why could extrusions fail? 
+### Why could a sweep operation fail? 
 
 A too small radius: If the radius of the spine is too small the cross-sections will intersect resulting in non-manifold geometry, but to a certain degree the sweep tools are able to render a shape anyway:
 
@@ -208,7 +208,7 @@ A too small radius: If the radius of the spine is too small the cross-sections w
 
 
 
-*Profile and interesting cross-sections resulting in an impossible shape*
+*Profile and intersecting cross-sections resulting in an impossible shape*
 
  <img alt="" src=images/ProfileBased_Example14.png  style="width:300px;"> <img alt="" src=images/ProfileBased_Example15.png  style="width:300px;"> 
 

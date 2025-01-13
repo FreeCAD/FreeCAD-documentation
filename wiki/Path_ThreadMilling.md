@@ -1,28 +1,7 @@
----
- GuiCommand:
-   Name: Path ThreadMilling
-   MenuLocation: Path , Specialty Operations , Thread Milling
-   Workbenches: Path_Workbench
----
-
 # Path ThreadMilling
-
-## Description
-
-## Usage
-
-## Options
-
-## Properties
-
-## Scripting
-
-
-
-
- {{Path_Tools_navi}}
+1.  REDIRECT [CAM_ThreadMilling](CAM_ThreadMilling.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ThreadMilling
+⏵ [documentation index](../README.md) > Path ThreadMilling

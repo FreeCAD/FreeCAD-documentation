@@ -11,17 +11,26 @@
 # Arch Equipment/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Arredo offre un modo semplice e comodo per inserire nei progetti degli elementi autonomi non strutturali come ad esempio i mobili, le attrezzature idrosanitarie o gli apparecchi elettrici. Gli Arredi sono basati su [forme Part](Part_Workbench/it.md), che permettono loro di beneficiare della solidità e delle possibilità delle geometrie BRep, e che generano una bella vista durante il rendering dei piani e viste in sezione.
 
-![](images/Arch_equipment_example.jpg ) 
+
+</div>
+
+<img alt="" src=images/Arch_equipment_example.jpg  style="width:600px;"> 
 *Oggetti di arredamento racchiusi in un oggetto [Arredo](Arch_Equipment/it.md). Le proiezioni piatte possono essere ottenute dallo strumento [Vista 2D di Draft](Draft_Shape2DView/it.md)*
 
 A partire dalla versione 0.17, gli oggetti arredo hanno anche una proprietà **HiRes** in cui può essere collegato un oggetto [Mesh](Mesh_Workbench/it.md). Gli oggetti arredo possono essere creati in modo che nella vista 3D sia visualizzata tale mesh invece che la loro forma, e questo permette di utilizzare qualsiasi oggetto mesh ad alta risoluzione, ad esempio i mobili dettagliati che si trovano comunemente sui siti web.
 
-![](images/Arch_equipment_mesh.jpg ) 
+<img alt="" src=images/Arch_equipment_mesh.jpg  style="width:600px;"> 
 *Oggetti di arredamento racchiusi in un oggetto [Arredo](Arch_Equipment/it.md), con allegata una mesh ad alta risoluzione*
 
 Quando si utilizza l\'esportatore OBJ di Arch, tutti gli oggetti arredo che si trovano in modalità di visualizzazione Mesh vengono esportati come loro mesh, invece della loro forma.
@@ -30,8 +39,14 @@ Quando si utilizza l\'esportatore OBJ di Arch, tutti gli oggetti arredo che si t
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare una forma [Part](Part_Workbench/it.md) e, opzionalmente, un oggetto [Mesh](Mesh_Workbench/it.md).
 2.  Premere il pulsante **<img src="images/Arch_Equipment.svg" width=16px> [Arredo](Arch_Equipment/it.md)**, o premere i tasti **E** poi **Q**.
+
+
+</div>
 
 
 
@@ -81,6 +96,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/it
+⏵ [documentation index](../README.md) > Arch Equipment/it

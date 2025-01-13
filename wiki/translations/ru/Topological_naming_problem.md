@@ -9,11 +9,13 @@ The [topological naming problem](topological_naming_problem.md) in FreeCAD refer
 -   In <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md), if a feature is supported on a face (or edge or vertex), the feature may break if the underlying solid changes size or orientation, as the original face (or edge or vertex) may be internally renamed.
 -   In <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench.md), if a dimension is measuring the length of a projected edge, the dimension may break if the 3D model is changed, as the vertices may be renamed thus changing the measured edge.
 
-The topological naming issue is a complex problem in CAD modelling that stems from the way the internal FreeCAD routines handle updates of the geometrical shapes created with the [OCCT kernel](OpenCASCADE.md). As of FreeCAD 0.19 there are ongoing efforts to improve the core handling of shapes in order to reduce or eliminate such issues.
+The topological naming issue is a complex problem in CAD modelling that stems from the way the internal FreeCAD routines handle updates of the geometrical shapes created with the [OCCT kernel](OpenCASCADE.md). This problem is not unique to FreeCAD. It is generally present in CAD software, but most other CAD software has heuristics to reduce the impact of the problem on users.
 
--   Forum thread: [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278)
+Starting with FreeCAD 0.19 there are ongoing development efforts to improve the core handling of shapes by adding heuristics that reduce the impact of these issues. The [naming algorithm](#Topological_naming_algorithm.md) is designed to reduce manual effort, sometimes by automatically fixing up problems, and other times presenting a likely solution, and otherwise at least clearly showing what caused the problem. The first stable release of FreeCAD to feature this new naming algorithm is 1.0. Over time, this algorithm will be applied to more parts of FreeCAD, and more automatic and assisted repair will be added in later versions.
 
 The topological naming problem most often affects and confuses new users of FreeCAD. In PartDesign, the user is advised to follow the best practices discussed in the [feature editing](feature_editing.md) page. Use of supporting datum objects like [planes](PartDesign_Plane.md) and [local coordinate systems](PartDesign_CoordinateSystem.md) is strongly recommended to produce models that aren\'t easily subject to such topological errors. In TechDraw, the user is advised to add dimensions only when the 3D model is complete and won\'t be modified further.
+
+
 
 ## Пример
 
@@ -65,13 +67,15 @@ The problem appears to be that when the second sketch was modified, the top face
 
 Remapping a sketch in this way can be done every time there is a topological naming error, however, this may be tedious if the model is complicated and there are many such sketches that need to be adjusted.
 
+
+
 ## Решение
 
 ![](images/FreeCAD_topological_problem_16_dependency_graph.png )
 
 The [dependency graph](Std_DependencyGraph.md) is a tool that is helpful to observe the relationships between the different bodies in the document. Using the original modelling workflow reveals the direct relationship that exists between the sketches and the pads. Like a chain, it is easy to see that this direct dependence will be subject to topological naming problems if any of the links in the sequence changes.
 
-As explained on the [feature editing](Feature_editing.md) page, a solution to this problem is to support sketches not on faces but on datum planes which are attached to, and offset from, the main planes of the [PartDesign Body\'s](PartDesign_Body.md) Origin.
+As explained on the [feature editing](Feature_editing.md) page, a solution to this problem is to support sketches not on faces, but on the main planes of the [PartDesign Body\'s](PartDesign_Body.md) Origin, or on datum planes attached to those main planes. Using datum planes to support a single sketch, as is described below, is actually not necessary as the sketch itself can be directly attached to a main plane and has the same offset options as a datum plane. But using datum planes can make sense when positioning multiple sketches.
 
 1\. Select the origin of the [PartDesign Body](PartDesign_Body.md) and make sure that it is visible. Then select the XY plane, and click on [PartDesign Plane](PartDesign_Plane.md). In the attachment offset dialog, give it an offset in the Z direction so that the datum plane is coplanar with the top face of the first pad.
 
@@ -100,7 +104,7 @@ As explained on the [feature editing](Feature_editing.md) page, a solution to th
 
 <img alt="" src=images/FreeCAD_topological_problem_21_independent_solids_all.png  style="width:" height="400px;">
 
-## Заключение
+## Tradeoffs
 
 Adding datum objects is more work for the user but ultimately produces more stable models that are less subject to the topological naming problem.
 
@@ -110,6 +114,18 @@ Datum planes can also be based on other datum planes. This creates a chain of de
 
 Datum objects, [points](PartDesign_Point.md), [lines](PartDesign_Line.md), [planes](PartDesign_Plane.md), and [coordinate systems](PartDesign_CoordinateSystem.md), may also be useful as reference geometry, that is, as visual aids to show the important features in the model, even if no sketch is directly attached to them.
 
+## Topological naming algorithm 
+
+Realthunder\'s topological naming algorithm, described in forum thread [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278), which was selected to reduce the impact of this problem, has been widely described as \"fixing the topological naming problem.\" This has unintentionally misled many users into thinking that it will no longer be helpful to use techniques like datums, explicit sketch placement, and [Feature editing](Feature_editing#Advice_for_creating_stable_models.md) to make models more stable. The algorithm is not intended to fix every failure introduced by topological naming ambiguity. Rather, it has three purposes.
+
+1.  The first and most important purpose is, whenever possible, to **identify** broken references from topological changes and display an error to the user. Instead of having to work through a series of operations to find the first operation that diverges from the design intent, the operation that changes the names will normally be flagged with an error, making it much easier to manually fix model problems introduced by changes to operations or parameters.
+2.  Sometimes, FreeCAD will be able to identify a **likely** fix for a broken reference, so that when the user is manually fixing up the flagged broken reference, a candidate will be presented for them to accept or change. A common example of this is dress-up operations like fillets and chamfers, where user might have to to edit the operation and either accept the proposed replacement feature selection or change it to correct it.
+3.  In some cases, FreeCAD will be able to **automatically** resolve the broken reference, because enough information about the reference is stored to have high confidence that the replacement is correct. For example, when sketching directly on a face, the algorithm will frequently (but not always) correctly repair the reference to the face when the underlying geometry is changed parametrically. (When changing the structure, such as by adding or deleting operations in the middle of a Part Design Body, this kind of automatic repair will be less likely.) However, FreeCAD will do this only with high confidence in the correctness of the repair, because an incorrect automatic repair may re-introduce the problem of having to hunt for where a problem was introduced in order to repair a model after a modification. *First, do no harm.*
+
+In FreeCAD 1.0, the implementation of this algorithm in the official FreeCAD release reached feature parity with Realthunder\'s \"Linkstage 3\" fork, where he originally developed the algorithm, as of the time the integration work started. There are new FreeCAD features that could use the algorithm but do not yet, and there will always be more opportunities to add candidate fixes and automatic repair. The initial work has provided a *framework* to use for these additional improvements over time, both in core FreeCAD and in Addons.
+
+
+
 ## Ссылки
 
 -   [PartDesign Fillet - Topological naming](PartDesign_Fillet#Topological_naming.md)
@@ -117,6 +133,9 @@ Datum objects, [points](PartDesign_Point.md), [lines](PartDesign_Line.md), [plan
 -   [Topological Naming Project](Topological_Naming_Project.md): idea to solve the problem, by ickby.
 -   [Topological data scripting](Topological_data_scripting.md)
 -   [Feature editing](Feature_editing.md): contains alternate advice for stable modelling techniques.
+-   [Clarifying and expanding \"Topological Naming Problem\" documentation](https://forum.freecad.org/viewtopic.php?p=770360): Clarifying expectations for Realthunder\'s topological naming algorithm selected for FreeCAD 1.0.
+
+
 
 ## Видео
 

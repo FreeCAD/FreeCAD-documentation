@@ -34,7 +34,7 @@ Le nouvel atelier **TechDraw** (mise en plan) vise à remplacer l\'atelier Drawi
 
 ![](images/FC017_Navigation_Indicator_01.png ) ![](images/FC017_Navigation_Indicator_02.png )
 
--   Le [graphique de dépendance](Std_DependencyGraph/fr.md) a bénéficié d\'améliorations graphiques.
+-   Le [graphe des dépendances](Std_DependencyGraph/fr.md) a bénéficié d\'améliorations graphiques.
 -   L\'importation STEP utilise le nouveau [conteneur Part](Std_Part/fr.md) et l\'utilise pour organiser un assemblage STEP importé en sous-assemblages, en suivant de plus près la structure du document original. stpZ (un format STEP compressé) est maintenant supporté.
 -   La plupart des icônes de FreeCAD ont été retravaillées pour mieux se conformer aux [directives de Tango](http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines).
 

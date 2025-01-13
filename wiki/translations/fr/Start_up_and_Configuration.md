@@ -32,7 +32,7 @@ Les options en ligne de commande sont l\'objet de fréquents changements. Il est
 
 FreeCAD --help
 
-La réponse vous permet de connaître les paramètres disponibles :
+La réponse vous permet de connaître les paramètres disponibles. Pour FreeCAD version 1.0, ce sont les suivants :
 
  Usage: FreeCAD [options] File1 File2 ...
  
@@ -40,23 +40,35 @@ La réponse vous permet de connaître les paramètres disponibles :
  
  Generic options:
    -v [ --version ]          Prints version string
+   --verbose                 Prints verbose version string
    -h [ --help ]             Prints help message
    -c [ --console ]          Starts in console mode
    --response-file arg       Can be specified with '@name', too
    --dump-config             Dumps configuration
    --get-config arg          Prints the value of the requested configuration key
+   --set-config arg          Sets the value of a configuration key
+   --keep-deprecated-paths   If set then config files are kept on the old 
+                             location
  
  Configuration:
-   -l [ --write-log ]        Writes a log file to:
-                             /home/username/.FreeCAD/FreeCAD.log
+   -l [ --write-log ]        Writes FreeCAD.log to the user directory.
    --log-file arg            Unlike --write-log this allows logging to an 
                              arbitrary file
    -u [ --user-cfg ] arg     User config file to load/save user settings
    -s [ --system-cfg ] arg   System config file to load/save system settings
-   -t [ --run-test ] arg     Test case - or 0 for all
+   -t [ --run-test ] arg     Run a given test case (use 0 (zero) to run all 
+                             tests). If no argument is provided then return list
+                             of all available tests.
+   -r [ --run-open ] arg     Run a given test case (use 0 (zero) to run all 
+                             tests). If no argument is provided then return list
+                             of all available tests.  Keeps UI open after 
+                             test(s) complete.
    -M [ --module-path ] arg  Additional module paths
    -P [ --python-path ] arg  Additional python paths
    --single-instance         Allow to run a single instance of the application
+   --safe-mode               Force enable safe mode
+   --pass arg                Ignores the following arguments and pass them 
+                             through to be used by a script
 
 Dans le tableau suivant, les options sélectionnées sont décrites plus en détail :
 
@@ -71,7 +83,7 @@ Dans le tableau suivant, les options sélectionnées sont décrites plus en dét
 | `--module-path <dir>`            |                                                                                 |                                                                                                                                                                                                                                                                                                                             |
 |                                        |                                                                                 |                                                                                                                                                                                                                                                                                                                             |
 ++++
-|                            | La plus part                                                                    | Affiche la valeur demandée dans une boîte de dialogue contextuelle. Quitte après confirmation avec **OK**. Ne peut pas être utilisé à plusieurs reprises. Si un nom de variable inconnu / illégal est utilisé, la réponse est vide. L\'indicateur `--console` n\'est pas respecté. |
+|                            | La plus part                                                                    | Affiche la valeur demandée dans une fenêtre de dialogue contextuelle. Quitte après confirmation avec **OK**. Ne peut pas être utilisé à plusieurs reprises. Si un nom de variable inconnu/illégal est utilisé, la réponse est vide. L\'indicateur `--console` n\'est pas respecté. |
 | `--get-config <config-var-name>` |                                                                                 |                                                                                                                                                                                                                                                                                                                             |
 |                                        |                                                                                 |                                                                                                                                                                                                                                                                                                                             |
 ++++
@@ -361,11 +373,11 @@ Ces entrées de configuration sont liées au dispositif d\'identification à la 
 ++++
 | SplashPicture                       | Nom de l\'icône utilisée pour l\'écran de démarrage                                                                                              | \"FreeCADSplasher\"      |
 ++++
-| SplashAlignment                     | Alignement du texte dans la boîte de dialogue Splash                                                                                             | \"Bottom\" ou \"Left\"   |
+| SplashAlignment                     | Alignement du texte dans la fenêtre de dialogue Splash                                                                                           | \"Bottom\" ou \"Left\"   |
 ++++
 | SplashTextColor                     | Couleur du texte splashé                                                                                                                         | \"#000000\"              |
 ++++
-| StartWorkbench                      | Nom de l\'atelier lancé automatiquement après le démarrage                                                                                       | \"Part design\"          |
+| StartWorkbench                      | Nom de l\'atelier lancé automatiquement après le démarrage                                                                                       | \"PartDesign\"           |
 ++++
 | HiddenDockWindow                    | Liste des dockwindows (séparés par un point-virgule) qui seront désactivés                                                                       | \"Property editor\"      |
 ++++

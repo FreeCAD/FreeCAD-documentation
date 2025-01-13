@@ -10,7 +10,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Fasteners Inverser la fixation** inverse l\'orientation des [fixations attachées](Fasteners_Workbench/fr#Utilisation.md) en modifiant leur propriété **invert**.
+La commande <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Fasteners Inverser la fixation** inverse l\'orientation des [fixations attachées](Fasteners_Workbench/fr#Utilisation.md) en modifiant leur propriété **Invert**.
 
 
 
@@ -26,17 +26,14 @@ La commande <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Fa
 
 ## Remarques
 
--   La propriété **invert** est ignorée pour les fixations non attachées et elles ne peuvent pas être retournées avec cette commande. Pour les retourner, il faut modifier leur **Placement**, par exemple avec la commande <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformer](Std_TransformManip/fr.md).
+-   La propriété **Invert** est ignorée pour les fixations non attachées et elles ne peuvent pas être retournées avec cette commande. Pour les retourner, il faut modifier leur **Placement**, par exemple avec la commande <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformer](Std_TransformManip/fr.md).
 
 
 
 
-
-{{Fasteners Tools navi
-
-}}
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Flip/fr
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners Flip/fr

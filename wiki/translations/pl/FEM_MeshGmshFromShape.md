@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM MeshGmshFromShape
    Name/pl: Siatka MES z kształtu przy pomocy generatora Gmsh
    MenuLocation: Siatka , Siatka MES z kształtu przy pomocy generatora Gmsh
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_tutorial/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: Wszystkie
+}}
 ---
 
 # FEM MeshGmshFromShape/pl
@@ -22,19 +27,22 @@ W zależności od Twojego systemu operacyjnego i pakietu instalacyjnego, Gmsh mo
 ## Użycie
 
 1.  Wybierz kształt, który chcesz analizować. Dla objętości musi to być bryła pojedyncza lub złożona. Bryła złożona jest konieczna jeśli część jest wykonana z wielu materiałów *(bryłę złożoną można utworzyć przy pomocy narzędzia [Fragmentacja funkcją logiczną](Part_BooleanFragments/pl.md))*.
+2.  Aktywuj narzędzie na jeden z następujących sposobów:
     -   Press the **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> '''FEM mesh from shape by Gmsh'''** button.
     -   Wybierz opcję **Siatka → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> Siatka MES z kształtu przy pomocy generatora Gmsh** z menu.
-2.  Opcjonalnie, edytuj minimalny i maksymalny rozmiar elementu *(autodetekcja często tworzy zbyt rzadkie siatki)*.
-3.  Wciśnij przycisk **Zastosuj** i poczekaj aż zakończy się generowanie siatki.
-4.  Zamknij okno dialogowe. Powinieneś widzieć nowy obiekt FEMMeshGMSH dodany do aktywnego kontenera analizy.
+3.  Opcjonalnie, edytuj minimalny i maksymalny rozmiar elementu *(domyślne ustawienie często tworzy zbyt rzadkie siatki)*. Możesz też zmienić przestrzeń elementów (ale domyślne ustawienie *From shape* zwykle wystarczy) i ich rząd.
+4.  Wciśnij przycisk **Zastosuj** i poczekaj aż zakończy się generowanie siatki. {{Version/pl|1.0}}: Opcjonalnie, wciśnij przycisk **Anuluj** aby zatrzymać generowanie siatki.
+5.  Wciśnij przycisk **OK** aby zamknąć okno dialogowe. Powinieneś widzieć nowy obiekt FEMMeshGmsh dodany do aktywnego kontenera analizy. Możesz też kliknąć **Anuluj** aby anulować zmiany bądź tworzenie obiektu siatki.
 
 Po utworzeniu siatki można zmienić jej właściwości używając [edytora właściwości](Property_editor/pl.md). Po zmianie właściwości należy ponownie otworzyć okno dialogowe narzędzia i wcisnąć przycisk **Zastosuj** *(można zostawić okno dialogowe otwarte podczas zmieniania właściwości)*.
+
+Przycisk **Wersja Gmsh** pozwala sprawdzić szczegóły dotyczące aktualnie używanego pliku wykonywalnego Gmsh.
 
 
 
 ## Właściwości
 
--    **Algorithm2D**: Algorytm do tworzenia siatek 2D. Dostępne algorytmy są opisane [na stronie projektu GMSH](https://gmsh.info/doc/texinfo/gmsh.html#Choosing-the-right-unstructured-algorithm). Dla Delaunay zobacz stronę[triangulacja Delone](https://pl.wikipedia.org/wiki/Triangulacja_Delone).
+-    **Algorithm2D**: Algorytm do tworzenia siatek 2D. Dostępne algorytmy są opisane [na stronie projektu GMSH](https://gmsh.info/doc/texinfo/gmsh.html#Choosing-the-right-unstructured-algorithm). Dla Delaunay zobacz stronę [triangulacja Delone](https://pl.wikipedia.org/wiki/Triangulacja_Delone).
 
 -    **Algorithm3D**: Algorytm do tworzenia siatek 3D. Dostępne algorytmy są opisane [na stronie projektu GMSH](https://gmsh.info/doc/texinfo/gmsh.html#Choosing-the-right-unstructured-algorithm).
 
@@ -98,6 +106,13 @@ Po utworzeniu siatki można zmienić jej właściwości używając [edytora wła
         {{false/pl}}
         
         *(domyślne)* używana jest interpolacja krzywoliniowa.
+
+-    **Algorytm podziału**. {{Version/pl|1.0}}: umożliwia tworzenie elementów czworościennych i sześciościennych przez podział.
+
+    -   Brak: nie używa żadnego algorytmu podziału.
+    -   Wszystkie czworokąty: tworzy elementy czworokątne poprzez podział.
+    -   Wszystkie heksaedry: tworzy elementy heksaedralne poprzez podział.
+    -   Barocentryczny: tworzy elementy trójkątne poprzez podział barycentryczny.
 
 
 

@@ -145,12 +145,13 @@ In the following notes, `"context"` should be your addon\'s or workbench\'s name
 ```
     
 
--   Add the path to your `translations/` folder in the Initialized function:
+-   Add the path to your `translations/` folder and update the locale in the Initialized function:
 
 :   
     
 ```python
     FreeCADGui.addLanguagePath("/path/to/translations")
+    FreeCADGui.updateLocale()
     
 ```
     
@@ -169,6 +170,7 @@ In the following notes, `"context"` should be your addon\'s or workbench\'s name
     
 ```python
     FreeCADGui.addLanguagePath(os.path.join(os.path.dirname(__file__), "translations"))
+    FreeCADGui.updateLocale()
     
 ```
     

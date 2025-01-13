@@ -4,6 +4,8 @@
 
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Introducere
@@ -55,6 +57,8 @@ To run a test from within FreeCAD, switch to the Test Workbench, then **Test com
 This is the list of test apps as of 0.15 git 4207:
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### TestAPP.All
@@ -65,6 +69,8 @@ Adăugați funcția de testare
 </div>
 
 Add test function
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -79,6 +85,8 @@ Adăugați funcția de testare
 Add test function
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### UnitTests
@@ -89,6 +97,8 @@ Adăugați funcția de testare
 </div>
 
 Add test function
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -103,6 +113,8 @@ Adăugați funcția de testare
 Add test function
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### UnicodeTests
@@ -113,6 +125,8 @@ Adăugați funcția de testare
 </div>
 
 Add test function
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -131,6 +145,8 @@ Add test function
 Add test function
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### TestSketcherApp
@@ -141,6 +157,8 @@ Adăugați funcția de testare
 </div>
 
 Add test function
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -155,6 +173,8 @@ Adăugați funcția de testare
 Add test function
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### TestPartDesignApp
@@ -166,7 +186,7 @@ Adăugați funcția de testare
 
 Add test function
 
-### TestPathApp
+### TestCAMApp
 
 Path workbench test cases:
 
@@ -195,6 +215,8 @@ Path workbench test cases:
 -   TestPathVoronoi:
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Workbench
@@ -205,6 +227,8 @@ Adăugați funcția de testare
 </div>
 
 Add test function
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -219,6 +243,8 @@ Adăugați funcția de testare
 Add test function
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Menu.MenuDeleteCases
@@ -229,6 +255,8 @@ Adăugați funcția de testare
 </div>
 
 Add test function
+
+
 
 
 <div class="mw-translate-fuzzy">

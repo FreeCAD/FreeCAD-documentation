@@ -1,25 +1,42 @@
 # TechDraw Templates/pl
 ## Opis
 
-Każda strona środowiska Rysunek Techniczny jest oparta na obiekcie Szablonu. **Szablon** określa rozmiar arkusza papieru i zawiera stałą grafikę i tekst, na przykład ramkę lub obramowanie strony.
+Każda strona środowiska Rysunek Techniczny jest oparta na obiekcie Szablonu. **Szablon** zapewnia obszar na tle strony do wstawiania widoków, symboli i innych obiektów adnotacji oraz definiuje rozmiar arkusza strony. Tylko elementy w obszarze rysunku będą renderowane do eksportu lub drukowania.
 
-Szablon może również zawierać edytowalne pola tekstowe dla atrybutów takich jak *Tytuł*, *Podtytuł*, *Autor*, *Data*, *Skala*, *Waga*, *Numer rysunku* i *Arkusz*.
+Szablon może też zawierać grafiki, takie jak ramka definiująca obszar rysunku włączając pola indeksowe, znaczniki zwijania i opcjonalnie blok tytułowy, który z kolei zawiera stałe i [edytowalne teksty](Svg_Namespace/pl#freecad_editable.md). Blok tytułowy można również wstawić osobno jako [symbol](TechDraw_Symbol/pl.md).
 
-Szablony to pliki [SVG](SVG.md), które można tworzyć i modyfikować poza środowiskiem programu FreeCAD, za pomocą aplikacji takiej jak np. [Inkscape](https://en.wikipedia.org/wiki/Inkscape).
+Szablony, tak jak symbole, to pliki [SVG](SVG.md), które można tworzyć i modyfikować poza programem FreeCAD, za pomocą aplikacji takiej jak np. [Inkscape](https://en.wikipedia.org/wiki/Inkscape) lub prostego edytora tekstu. Podobnie jak symbole, mogą zawierać edytowalne pola tekstowe, ale używają innych narzędzi do edycji.
+
+Nowe narzędzie autouzupełniania ({{Version/pl|1.0}}) może automatycznie wypełnić edytowalne pola tekstowe szablonu gdy jest on wstawiany. To wymaga szablonów, które korzystają z nowego atrybutu [freecad:autofill](Svg_Namespace/pl#freecad_autofill.md). Następujące nazwy atrybutów są prawidłowe dla autouzupełniania: \"author\", \"date\", \"organization\", \"scale\", \"sheet\", \"title\", \"page_number\" i \"page_count\".
 
 
 
 ## Właściwości
 
--    **Orientacja**: Portret lub Krajobraz.
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
--    **Szerokość**: Szerokość papieru w mm.
+Obiekt Szablon ma następujące właściwości:
 
--    **Wysokość**: Wysokość papieru w mm.
 
--    **Strona Wynikowa**: Kopia oryginalnego pliku Szablonu zawierająca wszystkie zmiany w edytowalnych tekstach. Pozwala to użytkownikom, którzy mogą nie mieć kopii pliku Szablonu, zobaczyć stronę zgodnie ze swoim przeznaczeniem. Nie jest to typowo przydatne dla użytkowników końcowych.
+{{TitleProperty|Base}}
 
--    **Szablon**: a) wskaźnik do kopii oryginalnego pliku Szablonu, który jest włączony do tego pliku \*.FCStd, lub b) ścieżka do pliku szablonu dostępnego na bieżącym komputerze. Użyj wielokropka przy wyborze pliku *(\...)*, aby zmienić szablon na inny.
+-    **Orientation|Enumeration**: {{Value|Portrait}} lub {{Value|Landscape}}.
+
+
+{{TitleProperty|Page Properties}}
+
+-    **Width|Length**: Szerokość arkusza w mm.
+
+-    **Height|Length**: Wysokość arkusza w mm.
+
+-    **Editable Texts|Map|Hidden**: Lista Key:Value edytowalnych tekstów w szablonie.
+
+
+{{TitleProperty|Template}}
+
+-    **Page Result|FileIncluded**: Kopia oryginalnego pliku szablonu uwzględniająca wszelkie zmiany w edytowalnych tekstach. Pozwala użytkownikom, którzy mogą nie mieć kopii pliku szablonu na zobaczenie strony tak jak ma wyglądać. Nie jest to przydatne dla większości użytkowników końcowych.
+
+-    **Template|File**: Wskazuje kopię oryginalnego pliku szablonu, która jest włączona w ten plik ***.FCStd** lub ścieżkę do szablonu dostępnego na bieżącym komputerze. Zobacz [następny akapit](#Wybór_innego_pliku_szablonu.md) aby uzyskać informacje o tym jak zmienić szablon.
 
 
 
@@ -65,9 +82,9 @@ Zobacz również stronę [Jak stworzyć własny szablon Rysunku Technicznego](Te
 
 ## Uwagi
 
--   Szablony środowiska pracy Rysunek Techniczny nie są całkowicie zamienne z szablonami [Rysunku Roboczego](Drawing_templates/pl.md). Ogólnie rzecz biorąc, szablony środowiska Rysunku Roboczego będą działać w środowisku Rysunek Techniczny, ale mogą wystąpić problemy z edytowalnym tekstem.
+-   Biblioteka używana przez FreeCAD do przetwarzania SVG *obsługuje tylko specyfikację svg-tiny*. W szczególności: \"SVG Tiny nie obsługuje gradientów, przezroczystości, przycinania, masek, symboli, wzorów, podkreślania tekstu, przekreślania tekstu, tekstu pionowego ani efektów filtrów SVG\" *(z pomocy programu Adobe Illustrator)*. Użycie tych funkcji w szablonie niestandardowym spowoduje problemy z renderowaniem.
 
--   Klauzule transform Svg **spowodują problemy** w niestandardowych szablonach. Zobacz dyskusję Stackoverflow na temat [usuwanie klauzul transform w plikach SVG](https://stackoverflow.com/questions/13329125/removing-transforms-in-svg-files).
+-   Klauzule transform Svg **mogą powodować problemy** w niestandardowych szablonach. Zobacz dyskusję Stackoverflow na temat [usuwanie klauzul transform w plikach SVG](https://stackoverflow.com/questions/13329125/removing-transforms-in-svg-files), szczególnie jeśli Inkscape użył ich zbyt wielu. Ale nie można ich uniknąć jeśli potrzebny jest obrócony tekst w szablonie.
 
 -   Klauzula **xml:space=\"preserve\"** czasami powoduje problemy z rozmiarem i pozycjonowaniem tekstu. Najlepiej jest unikać / usunąć tę klauzulę z kodu SVG twojego niestandardowego szablonu.
 

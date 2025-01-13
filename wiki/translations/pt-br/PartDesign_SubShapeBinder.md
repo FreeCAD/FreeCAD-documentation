@@ -4,7 +4,7 @@
    Workbenches: PartDesign_Workbench
    MenuLocation: Part Design , Create a sub-object shape binder
    Version: 0.19
-   SeeAlso: PartDesign_ShapeBinder, PartDesign_Clone
+   SeeAlso: PartDesign_Clone
 ---
 
 # PartDesign SubShapeBinder/pt-br
@@ -55,24 +55,14 @@ On the right two SubShapeBinders referencing geometry from the first Body, neste
 
 ## Notes
 
--   2D offsetting is supported for some shape types, included planar faces, edges and wires. Because offsetting is a difficult operation for the software it does not always succeed. <small>(v0.20)</small> 
+-   2D offsetting is supported for some shape types, included planar faces, edges and wires. Because offsetting is a difficult operation for the software it does not always succeed.
 -   A SubShapeBinder that is not nested in a Body can be used as the [Base Feature](PartDesign_Body#Base_Feature.md) for a new Body.
 -   The **Support** property contains the links to the referenced geometry. The property is read only by default, but can be changed by following the instructions described under [Start with empty SubShapeBinder](#Start_with_empty_SubShapeBinder.md).
 -   A SubShapeBinder created from a sketch can have an opposite \"tool direction\". For example a [Pad](PartDesign_Pad.md) created from the sketch may extend in the +Y direction, while a [Pad](PartDesign_Pad.md), with the same properties, created from the SubShapeBinder extends in the -Y direction. Toggling the **Reversed** property (or checkbox) will solve this.
 
 ## PartDesign SubShapeBinder vs. PartDesign ShapeBinder 
 
-The PartDesign SubShapeBinder tool and the [PartDesign ShapeBinder](PartDesign_ShapeBinder.md) tool are quite similar. Their names are somewhat confusing as both can reference whole objects and subelements.
-
-The main differences are:
-
--   Editing a PartDesign ShapeBinder is easier. Double-clicking the object in the [Tree view](Tree_view.md) will open a task panel.
--   A PartDesign ShapeBinder can either reference a single whole object, or subelements belong to a single parent object. A PartDesign SubShapeBinder does not have these restrictions.
--   Only PartDesign SubShapeBinders can reference geometry from an external file.
--   A PartDesign SubShapeBinder always tracks the relative placement of the referenced geometry. For a PartDesign ShapeBinder this behavior is optional through its **Trace Support** property.
--   Only PartDesign SubShapeBinders support 2D offsetting.
-
-While keeping in mind that each of these tools has its pros and cons and the choice may depend on the use case, one can conclude that using a SubShapeBinder is currently recommended for most applications due to its versatility and range of options. More about these tools can be found in MangoJelly\'s video \[<https://www.youtube.com/watch?v=ylAMGQ8HV0w>\| FreeCAD For Beginners 34: Part Design Shape Binder vs Sub Shape Binder\].
+See [PartDesign ShapeBinder](PartDesign_ShapeBinder#PartDesign_SubShapeBinder_vs._PartDesign_ShapeBinder.md).
 
 ## Properties
 
@@ -102,7 +92,7 @@ A PartDesign SubShapeBinder object is derived from a [Part Feature](Part_Feature
 -    **Bind Copy On Change|Enumeration**
     
 
--    **Refine|Bool**: if `True` redundant edges will be removed (for example after a boolean operation). <small>(v0.20)</small> 
+-    **Refine|Bool**: if `True` redundant edges will be removed (for example after a boolean operation).
 
 -    **_ Version|Integer|hidden**: version of this type of object.
 
@@ -112,20 +102,27 @@ A PartDesign SubShapeBinder object is derived from a [Part Feature](Part_Feature
 
 {{TitleProperty|Cache}}
 
--    **Body|Matrix|hidden**: unity matrix of this object.
+-    **Cache_*|Matrix|hidden**: unity matrix (separate property for each object in **Support**).
 
 
 {{TitleProperty|Offsetting}}
 
--    **Offset**: 2D offset to apply. If Offset = 0, then no offset is applied. If Offset \< 0, then the offset is applied inward. <small>(v0.20)</small> 
+-    **Offset**: 2D offset to apply. If Offset = 0, then no offset is applied. If Offset \< 0, then the offset is applied inward.
 
--    **Offset Join Type**: Join method of offsetting non-tangent joints. The method can be {{Value|Arcs}}, {{Value|Tangent}} or {{Value|Intersection}}. <small>(v0.20)</small> 
+-    **Offset Join Type**: Join method of offsetting non-tangent joints. The method can be {{Value|Arcs}}, {{Value|Tangent}} or {{Value|Intersection}}.
 
--    **Offset Fill|Bool**: If `True`, a face is made between the new wire and the original wire. See also the **Make Face** property. <small>(v0.20)</small> 
+-    **Offset Fill|Bool**: If `True`, a face is made between the new wire and the original wire. See also the **Make Face** property.
 
--    **Offset Open Result|Bool**: Affects the way open wires are processed. If `False`, an open wire is made. If `True`, a closed wire is made from a double-sided offset, with rounds around open vertices. <small>(v0.20)</small> 
+-    **Offset Open Result|Bool**: Affects the way open wires are processed. If `False`, an open wire is made. If `True`, a closed wire is made from a double-sided offset, with rounds around open vertices.
 
--    **Offset Intersection|Bool**: Affects the way compounds are processed. If `False`, all children are processed independently. If `True`, and children are edges and wires, the children are offset in a collective manner. <small>(v0.20)</small> 
+-    **Offset Intersection|Bool**: Affects the way compounds are processed. If `False`, all children are processed independently. If `True`, and children are edges and wires, the children are offset in a collective manner.
+
+### View
+
+
+{{TitleProperty|Base}}
+
+-    **Use Binder Style|Bool**: If `True` the colors of the binder object depend on the [fine-tuning](Fine-tuning#PartDesign_Workbench.md) parameter **DefaultDatumColor**. If `False`, normal shape colors are applied.
 
 ## Links
 

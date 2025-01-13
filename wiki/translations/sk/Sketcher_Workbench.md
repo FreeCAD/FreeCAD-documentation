@@ -15,6 +15,8 @@
 
 </div>
 
+Together with boolean operations defined in the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md), the Sketcher Workbench, or \"The Sketcher\" for short, forms the basis of the [constructive solid geometry](Constructive_solid_geometry.md) (CSG) method of building solids. Together with <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign Workbench](PartDesign_Workbench.md) operations, it also forms the basis of the [feature editing](Feature_editing.md) methodology of creating solids. But many other workbenches use sketches as well.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -23,71 +25,33 @@ Pracovný stôl Náčrtník obsahuje \"väzby\", vďaka ktorým dokážete pomoc
 
 </div>
 
-<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
-*Plne zaväzbený náčrt*
 
-
-
-## Základy používania väzieb náčrtu 
-
-Pre lepšie pochopenie fungovania Náčrtníka môže pomôcť porovnanie s \"tradičným\" spôsobom rysovania.
-
-
-
-#### Tradičné rysovanie 
-
-Tradičné rysovanie v CAD programoch používa podobné techniky, ako [technické výkresy](https://sk.wikipedia.org/wiki/Technick%C3%BD_v%C3%BDkres). Jednotlivé pohľady sú kreslené manuálne a sú určené na tvorbu technických výkresov (modrotlač). Objekty sú kreslené presne pre zvolenú veľkosť alebo rozmer. Ak chcete nakresliť vodorovnú čiaru s dĺžkou 100 mm začínajúcu na (0,0), aktivujete nástroj čiara. Kliknete na obrazovku alebo zadáte súradnice (0,0) pre prvý bod, potom kliknete znovu alebo zadáte súradnice druhého bodu na (100,0). Alebo čiaru nakreslíte bez ohľadu na umiestnenie a presuniete ju neskôr. Po dokončení kreslenia geometrie jej priradíte rozmery.
-
-
-
-#### Používanie väzieb náčrtu 
-
-\"Náčrtník\" sa od tohto postupu odlišuje. Objekty nemusia byť nakreslené úplne presne, pretože ich neskôr definujete priradenými väzbami. Môžete ich nakresliť voľne a pokiaľ sú bez väzieb, môžu byť upravované. V podstate \"plávajú\" na kresliacej ploche a môžete ich presúvať, naťahovať, otáčať, škálovať apod. To vám v procese návrhu poskytuje veľkú voľnosť.
-
-
-
-#### Čo sú väzby? 
-
-Namiesto rozmerov sú väzby používané na obmedzenie stupňov voľnosti objektu. Napríklad čiara bez väzieb má 4 stupne voľnosti (skrátene SV, angl. DOF): môže byť posúvaná vodorovne alebo zvislo, môže byť natiahnutá a môže byť otočená.
-
-Použitie vodorovnej alebo zvislej väzby alebo väzby uhla čiary (vzhľadom na inú čiaru alebo jednu z osí) obmedzí jej schopnosť otáčania, takže jej zostanú 3 stupne voľnosti. Zamknutie jedného z jej dvoch bodov vzhľadom na začiatok súradníc odstráni ďalšie 2 stupne voľnosti. A nakoniec použitie väzby rozmeru odstráni posledný stupeň voľnosti. Po týchto úkonoch je čiara považovaná za \"plne zaväzbenú\".
-
-Objekty môžu byť takisto zaväzbené medzi sebou. Dve čiary môžete spojiť pomocou jedného z ich bodov vďaka väzbe splynutia bodov. Môže takisto medzi nimi byť nastavený úhol, alebo môžu nastavené ako kolmé. Čiara môže byť dotyčnicou oblúka alebo kruhu apod. Komplexný náčrt s viacerými objektami bude mať viac možných riešení a jeho \"plné zaväzbenie\" znamená, že bolo dosiahnuté práve jedno z týchto možných riešení v závislosti od použitých väzieb.
-
-Existujú dva typy väzieb: geometrické a rozmerové. Sú opísané nižšie v časti [\'Nástroje\'](#Nástroje.md).
-
-
-
-#### Na čo Náčrtník slúžiť nemá 
+<div class="mw-translate-fuzzy">
 
 Náčrtník neslúži na tvorbu 2D výkresov. Akonáhle boli náčrty použité na vytvorenie prvku telesa, sú automaticky skryté. Väzby sú viditeľné iba v upravovacom režime náčrtu.
 
 
+</div>
+
+<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
+*Plne zaväzbený náčrt*
+
+## Constraints
+
+
 <div class="mw-translate-fuzzy">
 
-Ak chcete vytvárať iba 2D pohľady pre tlač a nie 3D modely, skúste použiť radšej [pracovný stôl Návrh](Draft_Workbench.md). Na rozdiel od prvkov v Náčrtníku nepoužívajú objekty v Návrhu väzby; sú to jednoduché tvary definované v okamihu ich tvorby. Návrh aj Náčrtník je možné použiť na kreslenie 2D geometrie a vytváranie 3D telies, hoci zmysel ich použitia je iný; Náčrtník sa bežne používa spolu s pracovnými stolmi [Diel](Part_Workbench.md) a [Tvorba dielu](PartDesign_Workbench.md) na vytváranie telies; Návrh sa bežne používa pre jednoduché rovinné výkresy s mriežkou, ako pri kreslení architektonického pôdorysu; v týchto situáciách sa Návrh väčšinou používa spolu s [pracovným stolom Arch](Arch_Workbench.md). Nástroj pracovného stola Návrh - [Návrh do náčrtu](Draft_Draft2Sketch.md) prevedie objekt Návrhu na objekt Náčrtu a späť; mnoho nástrojov, ktoré ako vstup vyžadujú 2D tvar, dokážu pracovať s oboma typmi objektov, keďže sa pri tom vykoná automatická interná konverzia.
+Namiesto rozmerov sú väzby používané na obmedzenie stupňov voľnosti objektu. Napríklad čiara bez väzieb má 4 stupne voľnosti (skrátene SV, angl. DOF): môže byť posúvaná vodorovne alebo zvislo, môže byť natiahnutá a môže byť otočená.
 
 
 </div>
 
-The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sketch object, and vice versa. Many tools that require a 2D element as input work with either type of object as an internal conversion is done automatically.
-
-
-
-## Pracovný postup pri náčrte 
+Použitie vodorovnej alebo zvislej väzby alebo väzby uhla čiary (vzhľadom na inú čiaru alebo jednu z osí) obmedzí jej schopnosť otáčania, takže jej zostanú 3 stupne voľnosti. Zamknutie jedného z jej dvoch bodov vzhľadom na začiatok súradníc odstráni ďalšie 2 stupne voľnosti. A nakoniec použitie väzby rozmeru odstráni posledný stupeň voľnosti. Po týchto úkonoch je čiara považovaná za \"plne zaväzbenú\".
 
 
 <div class="mw-translate-fuzzy">
 
-Náčrt je vždy dvojrozmerný (2D). Na vytvorenie telesa treba najprv vytvoriť 2D náčrt jednej uzavretej oblasti a ten potom vytiahnuť alebo obtočiť a tým pridať 3. rozmer, teda z 2D náčrtu vytvoriť 3D teleso.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Ak náčrt obsahuje segmenty, ktoré sa križujú, miesta, na ktorých sa bod nenachádza priamo na nejakom segmente, alebo miesta, na ktorých sú medzery medzi koncovými bodmi priľahlých segmentov, teleso sa vytiahnutím alebo obtočením nevytvorí. Niekedy bude s jednoduchými operáciami typu vytiahnutie fungovať aj náčrt, ktorý obsahuje križujúce sa čiary, ale neskoršie operácie, napr. lineárny vzor, zlyhajú. Preto odporúčame vyhnúť sa križovaniu čiar. Výnimkou z tohto pravidla je použitie konštrukčnej (modrej) geometrie.
+Objekty môžu byť takisto zaväzbené medzi sebou. Dve čiary môžete spojiť pomocou jedného z ich bodov vďaka väzbe splynutia bodov. Môže takisto medzi nimi byť nastavený úhol, alebo môžu nastavené ako kolmé. Čiara môže byť dotyčnicou oblúka alebo kruhu apod. Komplexný náčrt s viacerými objektami bude mať viac možných riešení a jeho \"plné zaväzbenie\" znamená, že bolo dosiahnuté práve jedno z týchto možných riešení v závislosti od použitých väzieb.
 
 
 </div>
@@ -95,18 +59,131 @@ Ak náčrt obsahuje segmenty, ktoré sa križujú, miesta, na ktorých sa bod ne
 
 <div class="mw-translate-fuzzy">
 
-Vo vnútri uzavretej oblasti sa môžu nachádzať aj menšie neprekrývajúce sa oblasti. Tieto sa pri tvorbe 3D telesa stanú prázdnym priestorom.
+Existujú dva typy väzieb: geometrické a rozmerové. Sú opísané nižšie v časti [\'Nástroje\'](#Nástroje.md).
 
 
 </div>
 
+### Edit constraints 
 
-<div class="mw-translate-fuzzy">
+When a [driving dimensional constraint](Sketcher_ToggleDrivingConstraint.md) is created, and if the **Ask for value after creating a dimensional constraint** [preference](Sketcher_Preferences#Display.md) is selected (default), a dialog opens to edit its value.
 
-Akonáhle je náčrt plne zaväzbený, prvky náčrtu sa prefarbia na zeleno; konštrukčná geometria zostane modrá. V tomto okamihu je náčrt spravidla \"dokončený\" a pripravený na tvorbu 3D telesa. Po zavretí dialógového okna náčrtu ale môže byť užitočné prejsť na <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [pracovný stôl Diel](Part_Workbench.md) a spustiť príkaz **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Skontrolovať geometriu](Part_CheckGeometry.md)** a odhaliť potenciálne prvky náčrtu, ktoré by mohli neskôr spôsobiť problémy.
+![](images/Sketcher_Edit_Constraint.png )
+
+You can enter a numerical value or an [expression](Expressions.md), and it is possible to name the constraint to facilitate its use in other expressions. You can also check the **Reference** checkbox to switch the constrain to [reference mode](Sketcher_ToggleDrivingConstraint.md).
+
+To edit the value of an existing dimensional constraint do one of the following:
+
+-   Double-click the constraint value in the [3D view](3D_view.md).
+-   Double-click the constraint in the [Sketcher Dialog](Sketcher_Dialog.md).
+-   Right-click the constraint in the Sketcher Dialog and select the **Change value** option from the context menu.
+
+### Reposition constraints 
+
+Dimensional constraints can be repositioned in the 3D view by dragging. Hold down the left mouse button over the constraint value and move the mouse. The symbols of geometric constraints are positioned automatically and cannot be moved.
+
+## Profile sketches 
+
+To create a sketch that can be used as a profile for generating solids certain rules must be followed:
+
+-   The sketch must contain only closed contours. Gaps between endpoints, however small, are not allowed.
+-   Contours can be nested, to create voids, but should not self-intersect or intersect other contours.
+-   Contours cannot share edges with other contours. Duplicate edges must be avoided.
+-   T-connections, that is more than two edges sharing a common point, or a point touching an edge, are not allowed.
+
+These rules do not apply to construction geometry (default color blue), which is not shown outside edit mode, or if the sketch is used for a different purpose. Depending on the workbench and the tool that will use the profile sketch, additional restrictions may apply.
+
+## Drawing aids 
+
+The Sketcher Workbench has several drawing aids and other features that can help when creating geometry and applying constraints.
+
+### Continue modes 
+
+There are two continue modes: **Geometry creation \"Continue Mode\"** and **Constraint creation \"Continue Mode\"**. If these are checked (default) in the [preferences](Sketcher_Preferences#Display.md), related tools will restart after finishing. To exit a continuous tool press **Esc** or the right mouse button. This must be repeated if a continuous geometry tool has already received input. You can also exit a continuous tool by starting another geometry or constraint creation tool. Note that pressing **Esc** if no tool is active will exit sketch edit mode. Uncheck the **Esc can leave sketch edit mode** [preference](Sketcher_Preferences#General.md) if you often inadvertently press **Esc** too many times.
+
+### Auto constraints 
+
+In sketches that have **Auto constraints** checked (default) several constraints are applied automatically. The icon of a proposed automatic constraint is shown next to the cursor when it is placed correctly. Left-Clicking will then apply that constraint. This is a per-sketch setting that can be changed in the [Sketcher Dialog](Sketcher_Dialog#Constraints.md) or by changing the **Autoconstraints** [property](Property_editor.md) of the sketch.
+
+The following constraints are applied automatically:
+
+-   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:16px;"> [Coincident](Sketcher_ConstrainCoincident.md)
+
+-   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:16px;"> [Point on object](Sketcher_ConstrainPointOnObject.md)
+
+-   <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [Horizontal](Sketcher_ConstrainHorizontal.md)
+
+-   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [Vertical](Sketcher_ConstrainVertical.md)
+
+-   <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:16px;"> [Tangent](Sketcher_ConstrainTangent.md)
+
+-    <small>(v1.0)</small> : <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:16px;"> [Symmetric](Sketcher_ConstrainSymmetric.md) (line midpoint)
+
+### Snapping
 
 
-</div>
+<small>(v0.21)</small> 
+
+It is possible to [snap](Sketcher_Snap.md) to grid lines and grid intersection, to edges of geometry and midpoints of lines and arcs, and to certain angles. Please note that snapping does not produce constraints in and of itself. For example, only if [Auto constraints](#Auto_constraints.md) is switched on will snapping to an edge produce a [Point on object constraint](Sketcher_ConstrainPointOnObject.md). But just picking a point on the edge would then have the same result.
+
+### On-View-Parameters 
+
+
+<small>(v1.0)</small> 
+
+Depending on the selected option in the [preferences](Sketcher_Preferences#General.md) only the dimensional On-View-Parameters or both the dimensional and the positional On-View-Parameters can be enabled. Positional parameters allow the input of exact coordinates, for example the center of a circle, or the start point of a line. Dimensional parameters allow the input of exact dimensions, for example the radius of a circle, or the length and angle of a line. On-View-Parameters are not available for all tools.
+
+![](images/Sketcher_On_view_parameters_positional.png ) 
+*Determining the center point of a circle with the positional parameters enabled*
+
+![](images/Sketcher_On_view_parameters_dimensional.png ) 
+*Determining the radius of a circle with the dimensional parameters enabled*
+
+If values are entered and confirmed by pressing **Enter** or **Tab**, related constraints are added automatically. If two parameters are displayed at the same time, for example the X and Y coordinate of a point, it is possible to enter one value and pick a point to define the other. Depending on the object additional constraints may be required to fully constrain it. Constraints resulting from On-View-Parameters take precedence over those that may result from [Auto constraints](Sketcher_Dialog#Constraints.md).
+
+<img alt="" src=images/Sketcher_ArcExample3.png  style="width:300px;"> 
+*Arc created by entering all On-View-Parameters with resulting automatically created constraints*
+
+### Coordinate display 
+
+If the **Show coordinates beside cursor while editing** [preference](Sketcher_Preferences#Display.md) is checked (default), the parameters of the current geometry tool (coordinates, radius, or length and angle) are displayed next to the cursor. This is deactivated while On-View-Parameters are shown.
+
+## Selection methods 
+
+While a sketch is in edit mode the following selection methods can be used:
+
+### 3D view element selection 
+
+As elsewhere in FreeCAD, an element can be selected in the [3D view](3D_view.md) with a single left mouse click. But there is no need to hold down the **Ctrl** key when selecting multiple elements. Holding down that key is possible though and has the advantage that you can miss-click without losing the selection. Edges, points and constraints can be selected in this manner.
+
+### 3D view box selection 
+
+Box selection in the 3D view works without using [Std BoxSelection](Std_BoxSelection.md) or [Std BoxElementSelection](Std_BoxElementSelection.md):
+
+1.  Make sure that no tool is active.
+2.  Do one of the following:
+    -   Click in an empty area and drag a rectangle from left to right to select elements that lie completely inside the rectangle.
+    -   Click in an empty area and drag a rectangle from right to left to also select elements that touch or cross the rectangle.
+
+You can box-select edges and points, constraints cannot be box-selected.
+
+### 3D view connected geometry selection 
+
+
+<small>(v1.0)</small> 
+
+Double-clicking an edge in the 3D view will select all edges directly and indirectly connected with that edge via endpoints. There is no need for the edges to be connected with [Coincident constraints](Sketcher_ConstrainCoincident.md), endpoints need only have the same coordinates.
+
+### Sketcher Dialog selection 
+
+Edges and points can also be selected from the Elements section of the [Sketcher Dialog](Sketcher_Dialog.md), and constraints from the Constraints section of that dialog.
+
+## Copy, cut and paste 
+
+
+<small>(v1.0)</small> 
+
+The standard keyboard shortcuts, **Ctrl**+**C**, **Ctrl**+**X** and **Ctrl**+**V**, can be used to copy, cut and paste selected Sketcher geometry including related constraints. But these tools are also available from the **Sketch → Sketcher tools** menu. They can be used within the same sketch but also between different sketches or separate instances of FreeCAD. Since the data is copied to the clipboard in the form of Python code, it can be used in other ways too (e.g. shared on the forum).
 
 
 
@@ -119,6 +196,8 @@ Nástroje pracovného stola Náčrtník sa nachádzajú v menu Náčrt, ktoré s
 
 
 </div>
+
+Some tools are also available from the [3D view](3D_view.md) context menu while a sketch is in edit mode, or from the context menus of the [Sketcher Dialog](Sketcher_Dialog.md).
 
 
 <small>(v0.21)</small> 
@@ -147,9 +226,21 @@ Nástroje pracovného stola Náčrtník sa nachádzajú v menu Náčrt, ktoré s
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Namapovať náčrt na plochu](Sketcher_MapSketch.md): Namapuje náčrt na predtým vybranú plochu alebo teleso.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [Preorientovať náčrt](Sketcher_ReorientSketch.md): Umožní vám naviazať náčrt na jednu z hlavných rovín.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -159,17 +250,47 @@ Nástroje pracovného stola Náčrtník sa nachádzajú v menu Náčrt, ktoré s
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_MergeSketches.svg  style="width:32px;"> [Zlúčiť náčrty](Sketcher_MergeSketches.md): Zlúči dva alebo viac náčrtov.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Zrkadliť náčrt](Sketcher_MirrorSketch.md): Zrkadlí náčrt podľa osy x, y alebo podľa začiatku súradníc.
 
+
+</div>
+
 #### Sketcher Edit Mode toolbar 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [Opustiť náčrt](Sketcher_LeaveSketch.md): Ukončí režim úprav náčrtu.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ViewSketch.svg  style="width:32px;"> [Zobraziť náčrt](Sketcher_ViewSketch.md): Nastaví zobrazenie modelu kolmo na rovinu náčrtu.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ViewSection.svg  style="width:32px;"> [Zobraziť rez](Sketcher_ViewSection.md): Vytvorí reznú rovinu a dočasne skryje akýkoľvek materiál nachádzajúci sa pred reznou rovinou.
+
+
+</div>
 
 #### Sketcher edit tools toolbar 
 
@@ -181,7 +302,13 @@ Nástroje pracovného stola Náčrtník sa nachádzajú v menu Náčrt, ktoré s
 
 #### Other
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Zastaviť operáciu](Sketcher_StopOperation.md): V režime úprav zastaví aktuálnu operáciu, napr. kreslenie, nastavovanie väzieb apod.
+
+
+</div>
 
 
 
@@ -189,49 +316,85 @@ Nástroje pracovného stola Náčrtník sa nachádzajú v menu Náčrt, ktoré s
 
 Tu sú uvedené nástroje pre tvorbu objektov.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:32px;"> [Bod](Sketcher_CreatePoint.md): Nakreslí bod.
 
--   <img alt="" src=images/Sketcher_CreateLine.svg  style="width:32px;"> [Čiara](Sketcher_CreateLine.md): Nakreslí čiarový segment medzi 2 bodmi. Pre potreby niektorých väzieb sa čiary považujú za nekonečne dlhé.
 
--   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create arc:
+</div>
 
-  - <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Oblúk](Sketcher_CreateArc.md): Nakreslí segment oblúka pomocou stredového bodu, polomeru a začiatočného a koncového uhla.
 
-  - <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Oblúk podľa 3 bodov](Sketcher_Create3PointArc.md): Nakreslí segment oblúka pomocou dvoch koncových bodov a ďalšieho bodu na obvode.
-
--   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create circle:
-
-  - <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Kruh](Sketcher_CreateCircle.md): Nakreslí kruh pomocou stredového bodu a polomeru.
-
-  - <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Kruh podľa 3 bodov](Sketcher_Create3PointCircle.md): Nakreslí kruh pomocou troch bodov na jeho obvode.
-
--   <img alt="" src=images/Sketcher_Conics.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create conic:
-
-  - <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md): Draws an ellipse by center point, major radius point and minor radius point.
-
-  - <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md): Draws an ellipse by major diameter (2 points) and minor radius point.
-
-  - <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> [Arc of ellipse](Sketcher_CreateArcOfEllipse.md): Draws an arc of ellipse by center point, major radius point, starting point and ending point.
-
-  - <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width:32px;"> [Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md): Draws an arc of hyperbola.
-
-  - <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md): Draws an arc of parabola.
-
--   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> B-spline:
-
-  - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline by control points](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
-
-  - <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Periodic B-spline by control points](Sketcher_CreatePeriodicBSpline.md): Draws a periodic (closed) B-spline curve by its control points.
-
-  - <img alt="" src=images/Sketcher_CreateBSplineByInterpolation.svg  style="width:32px;"> [B-spline by knots](Sketcher_CreateBSplineByInterpolation.md): Draws a B-spline curve by its knots. <small>(v0.21)</small> 
-
-  - <img alt="" src=images/Sketcher_CreatePeriodicBSplineByInterpolation.svg  style="width:32px;"> [Periodic B-spline by knots](Sketcher_CreatePeriodicBSplineByInterpolation.md): Draws a periodic (closed) B-spline curve by its knots. <small>(v0.21)</small> 
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Lomená čiara (čiara s viacerými bodmi)](Sketcher_CreatePolyline.md): Nakreslí čiaru zloženú z viacerých segmentov. Pri kreslení lomenej čiary a stláčaní klávesy **M** preskakujete medzi jednotlivými štýlmi lomených čiar.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_CreateLine.svg  style="width:32px;"> [Čiara](Sketcher_CreateLine.md): Nakreslí čiarový segment medzi 2 bodmi. Pre potreby niektorých väzieb sa čiary považujú za nekonečne dlhé.
+
+
+</div>
+
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create arc:
+
+
+<div class="mw-translate-fuzzy">
+
+  - <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Oblúk](Sketcher_CreateArc.md): Nakreslí segment oblúka pomocou stredového bodu, polomeru a začiatočného a koncového uhla.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+  - <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Oblúk podľa 3 bodov](Sketcher_Create3PointArc.md): Nakreslí segment oblúka pomocou dvoch koncových bodov a ďalšieho bodu na obvode.
+
+
+</div>
+
+  - <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> [Arc of ellipse](Sketcher_CreateArcOfEllipse.md): Creates an arc of ellipse.
+
+  - <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width:32px;"> [Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md): Creates an arc of hyperbola.
+
+  - <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md): Creates an arc of parabola.
+
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create circle/ellipse:
+
+
+<div class="mw-translate-fuzzy">
+
+  - <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Kruh](Sketcher_CreateCircle.md): Nakreslí kruh pomocou stredového bodu a polomeru.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+  - <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Kruh podľa 3 bodov](Sketcher_Create3PointCircle.md): Nakreslí kruh pomocou troch bodov na jeho obvode.
+
+
+</div>
+
+  - <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md): Creates an ellipse by its center, an endpoint of one of its axes, and a point along the ellipse. <small>(v1.0)</small> : Or by both endpoints of one of its axes and a point along the ellipse.
+
+  - <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md): Creates an ellipse by the endpoints of one of its axes and a point along the ellipse. <small>(v1.0)</small> : This is the same tool as [Ellipse by center](Sketcher_CreateEllipseByCenter.md) but with a different initial mode.
+
 -   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create rectangle:
 
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Obdĺžnik](Sketcher_CreateRectangle.md): Nakreslí obdĺžnik pomocou 2 protiľahlých bodov.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -251,17 +414,53 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 -   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create regular polygon:
 
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Trojuholník](Sketcher_CreateTriangle.md): Nakreslí pravidelný trojuholník vpísaný do kružnice v konštrukčnej geometrii.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/Sketcher_CreateSquare.svg  style="width:32px;"> [Štvorec](Sketcher_CreateSquare.md): Nakreslí pravidelný štvorec vpísaný do kružnice v konštrukčnej geometrii.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Sketcher_CreatePentagon.svg  style="width:32px;"> [Päťuholník](Sketcher_CreatePentagon.md): Nakreslí pravidelný päťuholník vpísaný do kružnice v konštrukčnej geometrii.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:32px;"> [Šesťuholník](Sketcher_CreateHexagon.md): Nakreslí pravidelný šesťuholník vpísaný do kružnice v konštrukčnej geometrii.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Sketcher_CreateHeptagon.svg  style="width:32px;"> [Sedemuholník](Sketcher_CreateHeptagon.md): Nakreslí pravidelný sedemuholník vpísaný do kružnice v konštrukčnej geometrii.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Sketcher_CreateOctagon.svg  style="width:32px;"> [Osemuholník](Sketcher_CreateOctagon.md): Nakreslí pravidelný osemuholník vpísaný do kružnice v konštrukčnej geometrii.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -281,9 +480,208 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 </div>
 
-  - <img alt="" src=images/Sketcher_CreateArcSlot.svg  style="width:32px;"> [Arc slot](Sketcher_CreateArcSlot.md): TBD. <small>(v0.22)</small> 
+  - <img alt="" src=images/Sketcher_CreateArcSlot.svg  style="width:32px;"> [Arc slot](Sketcher_CreateArcSlot.md): Creates an arc slot. <small>(v1.0)</small> 
 
--   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create fillet:
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create B-spline:
+
+  - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline by control points](Sketcher_CreateBSpline.md): Creates a B-spline curve by control points. <small>(v1.0)</small> : Or by knot points.
+
+  - <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Periodic B-spline by control points](Sketcher_CreatePeriodicBSpline.md): Creates a periodic (closed) B-spline curve by control points. <small>(v1.0)</small> : This is the same tool as [B-spline by control points](Sketcher_CreateBSpline.md) but with a different initial mode.
+
+  - <img alt="" src=images/Sketcher_CreateBSplineByInterpolation.svg  style="width:32px;"> [B-spline by knots](Sketcher_CreateBSplineByInterpolation.md): Creates a B-spline curve by knot points. Idem.
+
+  - <img alt="" src=images/Sketcher_CreatePeriodicBSplineByInterpolation.svg  style="width:32px;"> [Periodic B-spline by knots](Sketcher_CreatePeriodicBSplineByInterpolation.md): Creates a periodic (closed) B-spline curve by knot points. Idem.
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Konštrukčný režim](Sketcher_ToggleConstruction.md): Prepne geometriu náčrtu z/do konštrukčného režimu. Konštrukčná geometria je sfarbená na modro a mimo režim úprav náčrtu je neviditeľná.
+
+
+</div>
+
+
+
+### Väzby v Náčrtníku 
+
+
+<div class="mw-translate-fuzzy">
+
+Väzby sa používajú na definovanie dĺžok, nastavenie pravidiel medzi súčasťami náčrtu a na ukotvenie náčrtu vzhľadom na vodorovnú a zvislú os. Niektoré väzby vyžadujú [Pomocné väzby](Sketcher_helper_constraint.md).
+
+
+</div>
+
+-   <img alt="" src=images/Sketcher_Dimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Dimensional constraints:
+
+  - <img alt="" src=images/Sketcher_Dimension.svg  style="width:32px;"> [Dimension](Sketcher_Dimension.md): Is the context-sensitive constraint tool of the Sketcher Workbench. Based on the current selection, it offers appropriate dimensional constraints, but also geometric constraints. <small>(v1.0)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Vodorovná vzdialenosť](Sketcher_ConstrainDistanceX.md): Nastaví vodorovnú vzdialenosť medzi dvomi bodmi alebo koncovými bodmi čiary. Ak je vybraný len jeden objekt, je vzdialenosť nastavená voči začiatku súradníc.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;"> [Zvislá vzdialenosť](Sketcher_ConstrainDistanceY.md): Nastaví zvislú vzdialenosť medzi dvomi bodmi alebo koncovými bodmi čiary. Ak je vybraný len jeden objekt, je vzdialenosť nastavená voči začiatku súradníc.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:32px;"> [Vzdialenosť](Sketcher_ConstrainDistance.md): Definuje vzdialenosť vybranej čiary zaväzbením jej dĺžky, alebo definuje vzdialenosť medzi dvomi bodmi zaväzbením ich vzájomnej vzdialenosti.
+
+
+</div>
+
+  - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Auto radius/diameter](Sketcher_ConstrainRadiam.md): Fixes the radius of arcs and B-spline weight circles, and the diameter of circles.
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Polomer](Sketcher_ConstrainRadius.md): Zaväzbí polomer vybraného oblúka alebo kruhu určením jeho konkrétnej hodnoty.
+-   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Priemer](Sketcher_ConstrainDiameter.md): Zaväzbí priemer vybraného oblúka alebo kruhu určením jeho konkrétnej hodnoty.
+-   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [ Automatické zaväzbenie polomeru/priemeru](Sketcher_ConstrainRadiam.md): Automaticky definuje polomer/priemer vybraného oblúka alebo kruhu (váhu riadiaceho bodu B-spline krivky, priemer kompletného kruhu, polomer oblúka) <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Uhol](Sketcher_ConstrainAngle.md): Definuje interný uhol medzi dvomi vybranými čiarami.
+
+
+</div>
+
+  - <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Diameter](Sketcher_ConstrainDiameter.md): Fixes the diameter of circles and arcs.
+
+  - <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Fixes the angle between two edges, the angle of a line with the horizontal axis of the sketch, or the aperture angle of a circular arc.
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Zámok](Sketcher_ConstrainLock.md): Zaväzbí vybraný objekt nastavením jeho zvislej a vodorovnej vzdialenosti od začiatku súradníc, čím v podstate uzamkne umiestnenie objektu. Tieto väzobné vzdialenosti je možné následne upraviť.
+
+
+</div>
+
+-   <img alt="" src=images/Sketcher_ConstrainCoincidentUnified.svg  style="width:32px;"> [Coincident (unified)](Sketcher_ConstrainCoincidentUnified.md): Creates a coincident constraint between points, fixes points on edges or axes, or creates a concentric constraint. It combines the [Coincident](Sketcher_ConstrainCoincident.md) and [Point on object](Sketcher_ConstrainPointOnObject.md) tools. <small>(v1.0)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Splynutie](Sketcher_ConstrainCoincident.md): Pripojí bod na jeden alebo viacero iných bodov.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Bod na objekt](Sketcher_ConstrainPointOnObject.md): Pripojí bod na iný objekt typu čiara, oblúk alebo os.
+
+
+</div>
+
+-   <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;">Horizontal/vertical constraints:
+
+  - <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:32px;"> [Horizontal/vertical](Sketcher_ConstrainHorVer.md): Constrains lines or pairs of points to be horizontal or vertical, whichever is closest to the current alignment. It combines the [Horizontal](Sketcher_ConstrainHorizontal.md) and [Vertical](Sketcher_ConstrainVertical.md) tools. <small>(v1.0)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:32px;"> [Vodorovná väzba](Sketcher_ConstrainHorizontal.md): Zaväzbí vybrané čiary alebo elementy lomených čiar do presne vodorovnej polohy. Pred aplikovaním tejto väzby môžete vybrať jeden alebo viac objektov.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Zvislá väzba](Sketcher_ConstrainVertical.md): Zaväzbí vybrané čiary alebo elementy lomených čiar do presne zvislej polohy. Pred aplikovaním tejto väzby môžete vybrať jeden alebo viac objektov.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:32px;"> [Rovnobežná väzba](Sketcher_ConstrainParallel.md): Zaväzbí dve alebo viac číar tak, aby boli rovnobežné.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:32px;"> [Kolmá väzba](Sketcher_ConstrainPerpendicular.md): Zaväzbí dve čiary tak, aby boli na seba kolmé, alebo zaväzbí čiaru kolmo na koncový bod oblúka.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:32px;"> [Väzba dotyčnice](Sketcher_ConstrainTangent.md): Medzi dvomi vybranými objektami vytvorí väzbu dotyčnice, alebo kolineárnu väzbu medzi dvomi čiarovými segmentami. Čiarový segment nemusí nutne ležať priamo na oblúku alebo kruhu, aby mohol s týmto oblúkom alebo kruhom vytvárať väzbu dotyčnice.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:32px;"> [Väzba zhodnosti](Sketcher_ConstrainEqual.md): Zaväzbí dva vybrané objekty tak, aby boli zhodné. Ak ju použijete na kruhy alebo oblúky, ich polomery sa budú zhodovať.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:32px;"> [Väzba symetrie](Sketcher_ConstrainSymmetric.md): Zaväzbí dva body symetricky k čiare, alebo zaväzbí prvé dva vybrané body symetricky k tretiemu vybranému bodu.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Blokovacia väzba](Sketcher_ConstrainBlock.md): Zablokuje hranu a znemožní jej posun, to znamená, že neumožní jej vrcholom zmeniť umiestnenie. Hodí sa napríklad na ukotvenie pozície B-Spline kriviek. Viď [príspevok na fóre o blokovacej väzbe](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Snellov zákon](Sketcher_ConstrainSnellsLaw.md): Zaväzbí dve čiary tak, aby dodržiavali zákon lomu a simulovali prechod svetla cez optické rozhranie.
+
+
+</div>
+
+-   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Toggle constraints:
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Prepnúť riadiacu/referenčnú väzbu](Sketcher_ToggleDrivingConstraint.md): Prepne lištu nástrojov alebo zvolenú väzbu do/z referenčného stavu.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Aktivovať/dekativovať väzbu](Sketcher_ToggleActiveConstraint.md): Zapne alebo vypne už umiestnenú väzbu. <small>(v0.19)</small> 
+
+
+</div>
+
+
+
+### Nástroje Náčrtníka 
+
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create fillet/chamfer:
 
 
 <div class="mw-translate-fuzzy">
@@ -293,7 +691,7 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 </div>
 
-  - <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md): Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
+  - <img alt="" src=images/Sketcher_CreateChamfer.svg  style="width:32px;"> [Chamfer](Sketcher_CreateChamfer.md): creates a chamfer between two non-parallel edges. This is the same tool as [Fillet](Sketcher_CreateFillet.md) but with a different initial mode. <small>(v1.0)</small> 
 
 -   <img alt="" src=images/Sketcher_Trimming.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Edit edge:
 
@@ -329,207 +727,16 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 </div>
 
+-   <img alt="" src=images/Sketcher_Projection.svg  style="width:32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> External geometry:
+
+  - <img alt="" src=images/Sketcher_Projection.svg  style="width:32px;"> [Create external projection geometry](Sketcher_Projection.md): Creates the projection edges of external geometry. <small>(v1.1)</small> 
+
+  - <img alt="" src=images/Sketcher_Intersection.svg  style="width:32px;"> [Create external intersection geometry](Sketcher_Intersection.md): Creates the intersection edges of external geometry with the sketch plane. <small>(v1.1)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:32px;"> [Presná kópia](Sketcher_CarbonCopy.md): Skopíruje geometriu iného náčrtu.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Konštrukčný režim](Sketcher_ToggleConstruction.md): Prepne geometriu náčrtu z/do konštrukčného režimu. Konštrukčná geometria je sfarbená na modro a mimo režim úprav náčrtu je neviditeľná.
-
-
-</div>
-
-
-
-### Väzby v Náčrtníku 
-
-Väzby sa používajú na definovanie dĺžok, nastavenie pravidiel medzi súčasťami náčrtu a na ukotvenie náčrtu vzhľadom na vodorovnú a zvislú os. Niektoré väzby vyžadujú [Pomocné väzby](Sketcher_helper_constraint.md).
-
--   <img alt="" src=images/Sketcher_ConstrainCoincidentUnified.svg  style="width:32px;"> [Coincident (unified)](Sketcher_ConstrainCoincidentUnified.md): TBD. <small>(v0.22)</small> 
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Splynutie](Sketcher_ConstrainCoincident.md): Pripojí bod na jeden alebo viacero iných bodov.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Bod na objekt](Sketcher_ConstrainPointOnObject.md): Pripojí bod na iný objekt typu čiara, oblúk alebo os.
-
-
-</div>
-
--   <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Constrain horizontally or vertically:
-
-  - <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:32px;"> [Horizontal/Vertical](Sketcher_ConstrainHorVer.md): TBD. <small>(v0.22)</small> 
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:32px;"> [Vodorovná väzba](Sketcher_ConstrainHorizontal.md): Zaväzbí vybrané čiary alebo elementy lomených čiar do presne vodorovnej polohy. Pred aplikovaním tejto väzby môžete vybrať jeden alebo viac objektov.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Zvislá väzba](Sketcher_ConstrainVertical.md): Zaväzbí vybrané čiary alebo elementy lomených čiar do presne zvislej polohy. Pred aplikovaním tejto väzby môžete vybrať jeden alebo viac objektov.
-
-
-</div>
-
--   <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:32px;"> [Rovnobežná väzba](Sketcher_ConstrainParallel.md): Zaväzbí dve alebo viac číar tak, aby boli rovnobežné.
-
--   <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:32px;"> [Kolmá väzba](Sketcher_ConstrainPerpendicular.md): Zaväzbí dve čiary tak, aby boli na seba kolmé, alebo zaväzbí čiaru kolmo na koncový bod oblúka.
-
--   <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:32px;"> [Väzba dotyčnice](Sketcher_ConstrainTangent.md): Medzi dvomi vybranými objektami vytvorí väzbu dotyčnice, alebo kolineárnu väzbu medzi dvomi čiarovými segmentami. Čiarový segment nemusí nutne ležať priamo na oblúku alebo kruhu, aby mohol s týmto oblúkom alebo kruhom vytvárať väzbu dotyčnice.
-
--   <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:32px;"> [Väzba zhodnosti](Sketcher_ConstrainEqual.md): Zaväzbí dva vybrané objekty tak, aby boli zhodné. Ak ju použijete na kruhy alebo oblúky, ich polomery sa budú zhodovať.
-
--   <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:32px;"> [Väzba symetrie](Sketcher_ConstrainSymmetric.md): Zaväzbí dva body symetricky k čiare, alebo zaväzbí prvé dva vybrané body symetricky k tretiemu vybranému bodu.
-
--   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Blokovacia väzba](Sketcher_ConstrainBlock.md): Zablokuje hranu a znemožní jej posun, to znamená, že neumožní jej vrcholom zmeniť umiestnenie. Hodí sa napríklad na ukotvenie pozície B-Spline kriviek. Viď [príspevok na fóre o blokovacej väzbe](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
-
--   <img alt="" src=images/Sketcher_Dimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Dimensional constraints:
-
-  - <img alt="" src=images/Sketcher_Dimension.svg  style="width:32px;"> [Dimension](Sketcher_Dimension.md): TBD. <small>(v0.22)</small> 
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Zámok](Sketcher_ConstrainLock.md): Zaväzbí vybraný objekt nastavením jeho zvislej a vodorovnej vzdialenosti od začiatku súradníc, čím v podstate uzamkne umiestnenie objektu. Tieto väzobné vzdialenosti je možné následne upraviť.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Vodorovná vzdialenosť](Sketcher_ConstrainDistanceX.md): Nastaví vodorovnú vzdialenosť medzi dvomi bodmi alebo koncovými bodmi čiary. Ak je vybraný len jeden objekt, je vzdialenosť nastavená voči začiatku súradníc.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;"> [Zvislá vzdialenosť](Sketcher_ConstrainDistanceY.md): Nastaví zvislú vzdialenosť medzi dvomi bodmi alebo koncovými bodmi čiary. Ak je vybraný len jeden objekt, je vzdialenosť nastavená voči začiatku súradníc.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:32px;"> [Vzdialenosť](Sketcher_ConstrainDistance.md): Definuje vzdialenosť vybranej čiary zaväzbením jej dĺžky, alebo definuje vzdialenosť medzi dvomi bodmi zaväzbením ich vzájomnej vzdialenosti.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Polomer](Sketcher_ConstrainRadius.md): Zaväzbí polomer vybraného oblúka alebo kruhu určením jeho konkrétnej hodnoty.
--   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Priemer](Sketcher_ConstrainDiameter.md): Zaväzbí priemer vybraného oblúka alebo kruhu určením jeho konkrétnej hodnoty.
--   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [ Automatické zaväzbenie polomeru/priemeru](Sketcher_ConstrainRadiam.md): Automaticky definuje polomer/priemer vybraného oblúka alebo kruhu (váhu riadiaceho bodu B-spline krivky, priemer kompletného kruhu, polomer oblúka) <small>(v0.20)</small> 
--   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Uhol](Sketcher_ConstrainAngle.md): Definuje interný uhol medzi dvomi vybranými čiarami.
-
-
-</div>
-
-  - <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Diameter](Sketcher_ConstrainDiameter.md): Defines the diameter of an arc or circle.
-
-  - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Auto radius/diameter](Sketcher_ConstrainRadiam.md): Defines the radius of an arc, the diameter of a circle or the weight of a B-spline pole. <small>(v0.20)</small> 
-
-  - <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
-
-
-
-#### Špeciálne väzby 
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Snellov zákon](Sketcher_ConstrainSnellsLaw.md): Zaväzbí dve čiary tak, aby dodržiavali zákon lomu a simulovali prechod svetla cez optické rozhranie.
-
-
-</div>
-
-
-
-#### Nástroje väzieb 
-
-Efekty väzieb je možné meniť nasledovnými nástrojmi:
-
--   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Prepnúť riadiacu/referenčnú väzbu](Sketcher_ToggleDrivingConstraint.md): Prepne lištu nástrojov alebo zvolenú väzbu do/z referenčného stavu.
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Aktivovať/dekativovať väzbu](Sketcher_ToggleActiveConstraint.md): Zapne alebo vypne už umiestnenú väzbu. <small>(v0.19)</small> 
-
-
-</div>
-
-
-
-### Nástroje Náčrtníka 
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Select solver DOFs](Sketcher_SelectElementsWithDoFs.md): Zelenou farbou označí geometrické elementy, pri ktorých riešiteľ stále ukazuje nezaväzbené stupne voľnosti.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:32px;"> [Vybrať väzby](Sketcher_SelectConstraints.md): Vyberie väzby elementu náčrtu.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:32px;"> [Vybrať elementy spojené s väzbami](Sketcher_SelectElementsAssociatedWithConstraints.md): Vyberie elementy náčrtu spojené s väzbami.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg  style="width:32px;"> [Vybrať nadbytočné väzby](Sketcher_SelectRedundantConstraints.md): Vyberie nadbytočné väzby náčrtu.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg  style="width:32px;"> [Vybrať konfliktné väzby](Sketcher_SelectConflictingConstraints.md): Vyberie konfliktné väzby náčrtu.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Zobraziť/skryť vnútornú geometriu](Sketcher_RestoreInternalAlignmentGeometry.md): Znovu vytvorí chýbajúcu/zmaže nepotrebnú vnútornú geometriu vybraného kruhu, oblúka elipsy/hyperboly/paraboly alebo B-spline krivky.
 
 
 </div>
@@ -558,22 +765,18 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 </div>
 
--   <img alt="" src=images/Sketcher_Offset.svg  style="width:32px;"> [Offset geometry](Sketcher_Offset.md): Adds an equidistant outline around selected edges. <small>(v0.22)</small> 
+-   <img alt="" src=images/Sketcher_Translate.svg  style="width:32px;"> [Array transform](Sketcher_Translate.md): Moves or optionally creates copies of selected elements. <small>(v1.0)</small> 
 
--   <img alt="" src=images/Sketcher_Rotate.svg  style="width:32px;"> [Polar transform](Sketcher_Rotate.md): TBD. <small>(v0.22)</small> 
+-   <img alt="" src=images/Sketcher_Rotate.svg  style="width:32px;"> [Polar transform](Sketcher_Rotate.md): Rotates or optionally creates rotated copies of selected elements. <small>(v1.0)</small> 
 
--   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symetria](Sketcher_Symmetry.md): Skopíruje element náčrtu symetricky ku zvolenej čiare.
+-   <img alt="" src=images/Sketcher_Scale.svg  style="width:32px;"> [Scale transform](Sketcher_Scale.md): Scales or optionally creates scaled copies of selected elements. <small>(v1.0)</small> 
 
--   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Klon](Sketcher_Clone.md): Vytvorí klon elementu náčrtu s prepojením na originál.
-
--   <img alt="" src=images/Sketcher_Copy.svg  style="width:32px;"> [Kópia](Sketcher_Copy.md): Vytvorí kópiu elementu náčrtu bez prepojenia na originál.
-
--   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Presun](Sketcher_Move.md): Presunie vybranú geometriu podľa posledného vybraného bodu.
+-   <img alt="" src=images/Sketcher_Offset.svg  style="width:32px;"> [Offset geometry](Sketcher_Offset.md): Creates equidistant edges around selected edges. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Obdĺžnikové pole](Sketcher_RectangularArray.md): Vytvorí pole z vybraných elementov náčrtu.
+-   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symetria](Sketcher_Symmetry.md): Skopíruje element náčrtu symetricky ku zvolenej čiare.
 
 
 </div>
@@ -601,6 +804,12 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 
 </div>
+
+-   <img alt="" src=images/Edit-copy.svg  style="width:32px;"> Copy in Sketcher: See [Copy, cut and paste](#Copy,_cut_and_paste.md).
+
+-   <img alt="" src=images/Edit-cut.svg  style="width:32px;"> Cut in Sketcher: See [Copy, cut and paste](#Copy,_cut_and_paste.md).
+
+-   <img alt="" src=images/Edit-paste.svg  style="width:32px;"> Paste in Sketcher: See [Copy, cut and paste](#Copy,_cut_and_paste.md).
 
 
 
@@ -646,19 +855,55 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 </div>
 
--   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insert knot](Sketcher_BSplineInsertKnot.md): Inserts a knot into an existing B-spline. <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insert knot](Sketcher_BSplineInsertKnot.md): Inserts a knot into a B-spline or increases the multiplicity of an existing knot.
 
--   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md): Joins two curves at selected end points. <small>(v0.21)</small> 
+-   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md): Creates a B-spline by joining two existing B-splines or other edges. <small>(v0.21)</small> 
 
 ### Sketcher visual 
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Prepnúť virtuálny priestor](Sketcher_SwitchVirtualSpace.md): Umožní vám skryť všetky väzby náčrtu a potom ich znovu zobraziť.
+-   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Select solver DOFs](Sketcher_SelectElementsWithDoFs.md): Zelenou farbou označí geometrické elementy, pri ktorých riešiteľ stále ukazuje nezaväzbené stupne voľnosti.
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:32px;"> [Vybrať väzby](Sketcher_SelectConstraints.md): Vyberie väzby elementu náčrtu.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:32px;"> [Vybrať elementy spojené s väzbami](Sketcher_SelectElementsAssociatedWithConstraints.md): Vyberie elementy náčrtu spojené s väzbami.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg  style="width:32px;"> [Vybrať nadbytočné väzby](Sketcher_SelectRedundantConstraints.md): Vyberie nadbytočné väzby náčrtu.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg  style="width:32px;"> [Vybrať konfliktné väzby](Sketcher_SelectConflictingConstraints.md): Vyberie konfliktné väzby náčrtu.
+
+
+</div>
+
+-   <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:32px;"> [Show/hide circular helper for arcs](Sketcher_ArcOverlay.md): Shows or hides the circular helpers (underlying virtual circles) for arcs in all sketches. <small>(v1.0)</small> 
+
+-   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Show/hide B-spline information layer:
 
 
 <div class="mw-translate-fuzzy">
@@ -700,9 +945,31 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 </div>
 
--   <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:32px;"> [Show/hide circular helper for arcs](Sketcher_ArcOverlay.md): TBD. <small>(v0.22)</small> 
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Zobraziť/skryť vnútornú geometriu](Sketcher_RestoreInternalAlignmentGeometry.md): Znovu vytvorí chýbajúcu/zmaže nepotrebnú vnútornú geometriu vybraného kruhu, oblúka elipsy/hyperboly/paraboly alebo B-spline krivky.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Prepnúť virtuálny priestor](Sketcher_SwitchVirtualSpace.md): Umožní vám skryť všetky väzby náčrtu a potom ich znovu zobraziť.
+
+
+</div>
 
 ### Obsolete tools 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Klon](Sketcher_Clone.md): Vytvorí klon elementu náčrtu s prepojením na originál.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -712,10 +979,36 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 </div>
 
+-   <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md): Creates a fillet between two non-parallel lines while preserving their corner point. Not available in <small>(v1.0)</small> .
+
 
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Spojiť hrany](Sketcher_ConnectLines.md): Spojí elementy náčrtu aplikovaním väzieb splynutia na koncové body.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_Copy.svg  style="width:32px;"> [Kópia](Sketcher_Copy.md): Vytvorí kópiu elementu náčrtu bez prepojenia na originál.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Presun](Sketcher_Move.md): Presunie vybranú geometriu podľa posledného vybraného bodu.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Obdĺžnikové pole](Sketcher_RectangularArray.md): Vytvorí pole z vybraných elementov náčrtu.
 
 
 </div>
@@ -734,9 +1027,21 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ## Osvedčené postupy 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Každý CAD používateľ si priebežne vytvára vlastný pracovný postup, ale existujú určité osvedčené postupy, ktoré je dobré zachovávať.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

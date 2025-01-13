@@ -1,10 +1,11 @@
 ---
  GuiCommand:
    Name: FEM ResultsPurge
-   MenuLocation: Results , Purge results
-   Workbenches: FEM_Workbench
+   Name/de: FEM ErgebnisseLöschen
+   MenuLocation: Ergebnisse , Ergebnisse löschen
+   Workbenches: FEM_Workbench/de
    Shortcut: **R** **P**
-   SeeAlso: FEM_tutorial
+   SeeAlso: FEM_tutorial/de
 ---
 
 # FEM ResultsPurge/de
@@ -13,15 +14,24 @@
 
 ## Beschreibung
 
-**FEM ResultsPurge** deletes all [result objects](FEM_ResultShow.md) and all result meshes from the active analysis container in the [Tree view](Tree_view.md).
+**Ergebnisse löschen** löscht alle [Ergebnisobjekte](FEM_ResultShow/de.md) und alle Ergebnisnetze aus dem aktiven Analysecontainer in der [Baumansicht](Tree_view/de.md).
 
-If you only want to delete a result object and keep the result mesh, create a copy of the result mesh, then select the Result object in the tree view and delete it by pressing **Del**. This way the created copy of the mesh will remain. (Using FEM ResultsPurge would also delete the copy.)
+
+{{VersionPlus/de|1.1}}
+
+: Löscht alle Ausgabeobjekte aller Gleichungslöser (CalculiX-Ergebnisse, Objekte, Pipelines, Filter und Textmeldungen).
+
+Wenn nur das Ergebnisobjekt gelöscht werden soll, das Ergebnisnetz aber beibehalten werden soll, ist eine Kopie des Ergebnisnetzes zu erstellen, dann das Ergebnisobjekt in der Baumansicht auswählen und durch Drücken von **Del** löschen. Auf diese Weise bleibt die erstellte Kopie des Netzes erhalten. (Die Verwendung von FEM ResultsPurge würde die Kopie ebenfalls löschen).
 
 
 
 ## Anwendung
 
-Either press the **<img src="images/FEM_ResultsPurge.svg" width=16px> '''Purge results'''** button or use the menu **Results → <img src="images/FEM_ResultsPurge.svg" width=16px> Purge results** (shortcut **R** then **P**).
+Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+
+-   Die Schaltfläche **<img src="images/FEM_ResultsPurge.svg" width=16px> [Ergebnisse bereinigen](FEM_ResultsPurge/de.md)** drücken.
+-   Den Menüeintrag **Ergebnisse → <img src="images/FEM_ResultsPurge.svg" width=16px> Ergebnisse bereinigen** auswählen.
+-   Das Tastaturkürzel **R** dann **P**.
 
 
 

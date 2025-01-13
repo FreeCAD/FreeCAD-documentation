@@ -9,11 +9,11 @@ KicadStepUp Workbench is aimed at helping both KiCad and FreeCAD users in collab
 
 ## Background
 
-KiCad ([website](https://kicad.org/)) is an Open Source Electronics Design Automation Suite. It allows the user to design an electronic schematic diagram and then a single or multilayer printed circuit board (PCB) using an extensive library of parts. The great thing is that using FreeCAD with the KicadStepUp Workbench is the official KiCad way to create 3D parts for electronic components for KiCad. The libraries are hosted [here](https://kicad.github.io/), so everyone can create and check in parts.
+KiCad ([website](https://kicad.org/)) is an Open Source Electronics Design Automation Suite. It allows the user to design an electronic schematic diagram and then a single or multilayer printed circuit board (PCB) using an extensive library of parts. The great thing is that using FreeCAD with the KicadStepUp Workbench is the official KiCad way to create 3D parts for electronic components for KiCad. The libraries are hosted [here](https://gitlab.com/kicad/libraries), so everyone can create and check in parts.
 
 KiCad\'s GUI philosophy is a bit different compared to FreeCAD, especially when it comes down to creating elements and moving them around. However, since KiCad has been used in production for years, there is excellent documentation, e.g., a very good \"Getting Started\" document. Additionally, each tool has its own manual.
 
-If one does not know [KiCad](https://kicad.org/) yet, it\'s recommended to complete a stand-alone PCB according to the [Getting Started Guide](https://docs.kicad.org/5.1/en/getting_started_in_kicad/getting_started_in_kicad.pdf) to understand the concepts involved. Although some topics like adding new schematics and footprints to a local library seem to be of little interest for the beginner, in practice they are often encountered quickly after starting a serious project.
+If one does not know [KiCad](https://kicad.org/) yet, it\'s recommended to complete a stand-alone PCB according to the [Getting Started Guide](https://docs.kicad.org/8.0/en/getting_started_in_kicad/getting_started_in_kicad.html) to understand the concepts involved. Although some topics like adding new schematics and footprints to a local library seem to be of little interest for the beginner, in practice they are often encountered quickly after starting a serious project.
 
 For all these [KiCad](https://kicad.org/) concepts one can find a feature of some sort in the KicadStepUp workbench. So knowing those makes it a lot easier to understand how to use this workbench.
 
@@ -76,7 +76,7 @@ A collaboration can be started with a new or an existing project. We consider he
 9.  Go over the circle with the mouse and press *m* on the keyboard to move the circle. Click to place it in another position. Press the \"Save\" toolbar button on the top left.
 10. Switch to FreeCAD and select in the KicadStepUp Workbech the tool button \"Pull Sketch from PCB\" or the menu *ksu PushPull/ksu Pull Sketch from PCB*
     -   first dialog with default layer \"Edge.Cuts\" and three choices will open. Select choice \"replace PCB and Sketch in current document\" \*\*\*
-    -   next a file dialog should show again the file \"KsuTest.kucad_pcb\". Select it and press *Open*
+    -   next a file dialog should show again the file \"KsuTest.kicad_pcb\". Select it and press *Open*
 
         :   You should see your PCB as a 3D model. Note that the hole has moved compared to your \"pcb design\" sketch.
         :   In the tree appears a new structure with a yellow *Part Container* with the KiCad Filename and within another *Part Container* with \"Board_Geoms_e63b\" (the part with the number probably different). In the second container there are the following three files. Do not change any names in that structure, because KicadStepUp uses them to find the parts to update.
@@ -109,7 +109,7 @@ This only shows the very basic way KicadStepUp works. You are still missing a lo
 
     :   The second choice has the advantage that changes in KiCad can be traced to the original sketch, and the FreeCAD sketch is protected against an accidentally wrong import choice. The described workflow uses this approach to make sure the issue is well understood. From there it\'s easy to switch to modifying the KicadStepUp supplied sketch with none of the more advanced FreeCAD features.
 
-    -   To use KicadStepUp with a FreeCAD assembly (\> V0.19) you could add a new file for the PCB. After the workflow above has been run once add the 3D object for the PCB to your assembly like any other mechanical part. Make sure you save the file when it was updated by KicadStepUp (Important: KicadStepUp writes to FreeCAD memory, not to FreeCAD files).
+    -   To use KicadStepUp with a FreeCAD Assembly (\> V0.19) you could add a new file for the PCB. After the workflow above has been run once add the 3D object for the PCB to your assembly like any other mechanical part. Make sure you save the file when it was updated by KicadStepUp (Important: KicadStepUp writes to FreeCAD memory, not to FreeCAD files).
 
 \'\'
 

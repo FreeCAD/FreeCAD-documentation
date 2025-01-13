@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -20,6 +22,8 @@ Acest instrument încearcă să înlăture forma cubică interioară a unui [Arc
 
 
 </div>
+
+
 
 ## Cum se folosește 
 
@@ -90,6 +94,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/ro
+⏵ [documentation index](../README.md) > Arch RemoveShape/ro

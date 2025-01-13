@@ -2,62 +2,80 @@
  GuiCommand:
    Name: Arch Fence
    Name/de: Arch Zaun
-   MenuLocation: Arch , Zaun
-   Workbenches: Arch_Workbench/de
+   MenuLocation: 3D/BIM , Zaun
+   Workbenches: BIM_Workbench/de
    Version: 0.19
 ---
 
 # Arch Fence/de
 
+
+
 ## Beschreibung
 
-Der [Arch Zaun](Arch_Fence/de.md) ist ein Objekt, das einen Zaun durch die Wiederholung eines einzelnen Zaunpfostens und eines Abschnitts entlang eines bestimmten Pfades bildet.
+Der [Arch Zaun](Arch_Fence/de.md) ist ein Objekt, das einen Zaun aufbaut durch die Wiederholung eines einzelnen Zaunpfostens und eines Zaunabschnitts entlang eines gegebenen Pfades.
 
 <img alt="" src=images/Arch_Fence_description_example.png  style="width:600px;">
 
+
+
 ## Anwendung
+
+
 
 ### Erzeugung von Grundauf 
 
-1.  Verwende einen Arbeitsbereich deiner Wahl, um einen einzelnen Zaunpfosten und einen einzelnen Abschnitt zu erstellen.
-2.  Erstelle den Pfad, dem der Zaun folgen soll, mit Hilfe des [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) oder [Entwurf Arbeitsbereich](Draft_Workbench/de.md).
-3.  Wechsle zurück zum [Architektur Arbeitsbereich](Arch_Workbench/de.md).
-4.  Wähle den Abschnitt, den Beitrag und den Pfad in genau dieser Reihenfolge aus.
-5.  Drücke die **<img src="images/Arch_Fence.svg" width=16px> [Architektur Zaun](Arch_Fence/de.md)** Schaltfläche
+1.  Einen Arbeitsbereich nach Wahl verwenden, um einen einzelnen Zaunpfosten und einen einzelnen Zaunabschnitt zu erstellen.
+2.  Den Pfad, dem der Zaun folgen soll, mit Hilfe des Arbeitsbereichs [Sketcher](Sketcher_Workbench/de.md) oder [Draft](Draft_Workbench/de.md).
+3.  Zum Arbeitsbereich [BIM](BIM_Workbench/de.md) zurück wechseln.
+4.  Den Zaunabschnitt, den Pfosten und den Pfad in genau dieser Reihenfolge auswählen.
+5.  Die Schaltfläche **<img src="images/Arch_Fence.svg" width=16px> [Zaun](Arch_Fence/de.md)** drücken.
+
+
 
 ## Optionen
 
-Vorerst geht das Werkzeug von folgenden Voraussetzungen aus
+Vorerst geht das Werkzeug von folgenden Voraussetzungen aus:
 
-1.  Der Pfad wird auf der XY Ebene gezeichnet
-2.  Abschnitt und Pfosten sind am Ursprung so gezeichnet, dass sie in der Vorderansicht aufrecht stehen
+1.  Der Pfad wird auf der XY-Ebene gezeichnet
+2.  Zaunabschnitt und Pfosten sind am Ursprung so modelliert, dass sie in der Vorderansicht aufrecht stehen
+
+
 
 ## Eigenschaften
 
+
+
 ### Daten
 
--    {{PropertyData/de|Pfad}}: Der Pfad, dem der Zaun folgen sollte
+-    {{PropertyData/de|Path}}: Der Pfad, dem der Zaun folgen soll.
 
--    {{PropertyData/de|Pfahl}}: Ein einziger Zaunpfahl zur Wiederholung
+-    {{PropertyData/de|Post}}: Ein einzelner Zaunpfosten, der wiederholt werden soll.
 
--    {{PropertyData/de|Abschnitt}}: Ein einziger Abschnitt zum Wiederholen
+-    {{PropertyData/de|Section}}: Ein einzelner Zaunabschnitt, der wiederholt werden soll.
 
--    {{PropertyData/de|Anzahl der Pfähle}}: Die Gesamtzahl der Pfähle, die für den Bau des Zauns verwendet wurden. Diese wird automatisch berechnet.
+-    {{PropertyData/de|Number Of Posts}}: Die Gesamtanzahl der Pfosten, die für den Aufbau des Zauns verwendet werden. Diese wird automatisch berechnet.
 
--    {{PropertyData/de|Anzahl der Abschnitte}}: Die Gesamtzahl der Abschnitte, die zum Bau des Zauns verwendet wurden. Diese wird automatisch berechnet.
+-    {{PropertyData/de|Number Of Sections}}: Die Gesamtanzahl der Zaunabschnitte, die zum Aufbau des Zauns verwendet werden. Diese wird automatisch berechnet.
+
+
 
 ### Ansicht
 
--    {{PropertyView/de|Ursprungsfarben verwenden}}}: Wenn auf {`True` gesetzt, verwendet der Zaun die Farben aus dem Originalabschnitt und -pfahl. Andernfalls wird die FormFarbe des Zauns verwendet, um den Zaun einzufärben.
+-    {{PropertyView/de|Use Original Colors}}: Wenn auf `True` gesetzt, verwendet der Zaun die Farben des originalen Zaunabschnitts und des originalen Pfostens. Andernfalls wird die Formfarbe (ShapeColor) des Zauns verwendet, um den Zaun einzufärben.
+
+
 
 ## Hinweise
 
--   Arch Zaun würde eingeführt mit FC v0.19 durch den Anwender furti.
--   [Forumsbeitrag](https://forum.freecadweb.org/viewtopic.php?t=36149) der die Arch Zaun Funktionalität diskutiert
+-   Arch Zaun wurde mit FC v0.19 durch den Anwender furti eingeführt.
+-   [Forumsbeitrag](https://forum.freecadweb.org/viewtopic.php?t=36149) der die Funktionalität von Arch Zaun diskutiert.
+
+
 
 ## Skripten
 
-Das Zaunwerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch Verwendung der folgenden Funktion verwendet werden:
+Das Werkzeug Zaun kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch Verwendung der folgenden Funktion verwendet werden:
 
 
 ```python
@@ -99,5 +117,13 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/de
+⏵ [documentation index](../README.md) > Arch Fence/de

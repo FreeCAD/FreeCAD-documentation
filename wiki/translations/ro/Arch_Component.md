@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -21,6 +23,8 @@ Creează o componentă non-parametrică [ Arch](Arch_Workbench.md) din orice obi
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -40,7 +44,7 @@ Creează o componentă non-parametrică [ Arch](Arch_Workbench.md) din orice obi
 
 </div>
 
-## Proprietățile obișnuite ale componentei Arch 
+## Properties
 
 
 <div class="mw-translate-fuzzy">
@@ -49,6 +53,21 @@ Obiectul componentă Arch este, de asemenea, o bază partajată de toate celelal
 
 
 </div>
+
+### Data
+
+
+{{TitleProperty|Component}}
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Additions**: Componentele Arch au o proprietate aditionala, care poate tine referinta la orice alt obiect [ Shape](Part_Workbench.md). Forma acestor adăugiri va fi unită cu forma de bază a componentei, pentru a produce forma finală.
+
+
+</div>
+
+-    **Axis|Link**: An optional axis or axis system on which this object should be duplicated.
 
 
 <div class="mw-translate-fuzzy">
@@ -61,10 +80,42 @@ Obiectul componentă Arch este, de asemenea, o bază partajată de toate celelal
 
 <div class="mw-translate-fuzzy">
 
--   **Additions**: Componentele Arch au o proprietate aditionala, care poate tine referinta la orice alt obiect [ Shape](Part_Workbench.md). Forma acestor adăugiri va fi unită cu forma de bază a componentei, pentru a produce forma finală.
+-   **Clone Of**: Any Arch Component can be a clone of another Arch Component of the same type (A Wall can only be a clone of another Wall, etc.). The only exception is the generic Arch Component (as produced by this command), that can be clone of any other type (Wall, structure, window, etc). This allows to use a generic Arch Component to override the type of another one.
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Hi Res**: Componentele Arch pot folosi forma unui alt obiect ca o versiune de înaltă rezoluție a acestora. Pentru aceasta, trebuie să fie setată atât proprietatea Hi Res, cât și modul de afișare Hi Res. Acest lucru permite, de exemplu, crearea unui perete simplu și apoi modelarea fiecărei cărămizi care compune zidul, de exemplu cu [ Part Box](Part_Box.md). Apoi, utilizați o combinație a acestor cărămizi ca o versiune de înaltă rezoluție a peretelui. Forma peretelui nu este modificată prin adăugarea unui obiect Hi-Res. Numai reprezentarea sa în vizualizarea 3D se va schimba prin adoptarea reprezentării versiunii de înaltă rezoluție în locul propriei sale vizualizări low resolution.
+
+
+</div>
+
+-    **Horizontal Area|Area**: The area of the projection of this object onto the XY plane (read-only).
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Material**: toate componentele arcului au un slot material, care poate conține fie [Material](Arch_SetMaterial.md) sau un [MultiMaterial](Arch_MultiMaterial.md) (nu toate tipurile de obiecte Arch suportă utilizarea de MutiMaterials). Proprietățile DiffuseColor și Transparența materialului atașat vor defini culoarea Shape și transparența componentei Arch. Materialul va fi importat și exportat în [IFC](Arch_IFC.md), [OBJ](Arch_OBJ.md) and [DAE](Arch_DAE.md)..
+
+
+</div>
+
+-    **Move Base|Bool**: Specifies if moving this object moves its base instead.
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Move with Host**: Atunci când o componentă este încorporată în interiorul alteia (de exemplu, o fereastră în interiorul unui perete), setarea acestei proprietăți la True va face ca obiectul să se miște și să se rotească împreună cu obiectul gazdă, atunci când obiectul gazdă este mutat sau rotit folosind comenzile [Draft Move](Draft_Move.md) sau [Draft Rotate](Draft_Rotate.md).
+
+
+</div>
+
+-    **Perimeter Length|Length**: The perimeter length of the horizontal area (read-only).
+
+-    **Standard Code|String**: An optional standard (OmniClass, etc\...) code for this component.
 
 
 <div class="mw-translate-fuzzy">
@@ -73,6 +124,50 @@ Obiectul componentă Arch este, de asemenea, o bază partajată de toate celelal
 
 
 </div>
+
+-    **Vertical Area|Area**: The area of all vertical faces of this object (read-only).
+
+
+{{TitleProperty|IFC}}
+
+-    **Ifc Data|Map|Hidden**:
+
+-    **Ifc Properties|Map|Hidden**:
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Role**: Each Arch Component, besides the function defined by its type (wall, window, etc), also has a Role property, that can define further which kind of function it performs. For example, an [Structure](Arch_Structure.md) can have a beam o column role. Generic Arch Components (as produced by this command) can have any role available in the whole Arch workbench. The role is what is used to define the type of IFC object to export to when [exporting to IFC](Arch_IFC.md).
+
+
+</div>
+
+
+{{TitleProperty|IFC Attributes}}
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Description**: All Arch Components have a Description field, that can contain any text. This is used when [exporting to IFC](Arch_IFC.md).
+
+
+</div>
+
+-    **Global Id|String**:
+
+-    **Object Type|String**:
+
+-    **Predefined Type|Enumeration**:
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Tag**: The Tag property is another text field, which can be used to give an additional custom identity to objects.
+
+
+</div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">
@@ -93,63 +188,18 @@ Obiectul componentă Arch este, de asemenea, o bază partajată de toate celelal
 
 <div class="mw-translate-fuzzy">
 
--   **Role**: Each Arch Component, besides the function defined by its type (wall, window, etc), also has a Role property, that can define further which kind of function it performs. For example, an [Structure](Arch_Structure.md) can have a beam o column role. Generic Arch Components (as produced by this command) can have any role available in the whole Arch workbench. The role is what is used to define the type of IFC object to export to when [exporting to IFC](Arch_IFC.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Clone Of**: Any Arch Component can be a clone of another Arch Component of the same type (A Wall can only be a clone of another Wall, etc.). The only exception is the generic Arch Component (as produced by this command), that can be clone of any other type (Wall, structure, window, etc). This allows to use a generic Arch Component to override the type of another one.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Description**: All Arch Components have a Description field, that can contain any text. This is used when [exporting to IFC](Arch_IFC.md).
-
-
-</div>
-
--   **Tag**: The Tag property is another text field, which can be used to give an additional custom identity to objects.
-
-
-<div class="mw-translate-fuzzy">
-
--   **Material**: toate componentele arcului au un slot material, care poate conține fie [Material](Arch_SetMaterial.md) sau un [MultiMaterial](Arch_MultiMaterial.md) (nu toate tipurile de obiecte Arch suportă utilizarea de MutiMaterials). Proprietățile DiffuseColor și Transparența materialului atașat vor defini culoarea Shape și transparența componentei Arch. Materialul va fi importat și exportat în [IFC](Arch_IFC.md), [OBJ](Arch_OBJ.md) and [DAE](Arch_DAE.md)..
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Move with Host**: Atunci când o componentă este încorporată în interiorul alteia (de exemplu, o fereastră în interiorul unui perete), setarea acestei proprietăți la True va face ca obiectul să se miște și să se rotească împreună cu obiectul gazdă, atunci când obiectul gazdă este mutat sau rotit folosind comenzile [Draft Move](Draft_Move.md) sau [Draft Rotate](Draft_Rotate.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Hi Res**: Componentele Arch pot folosi forma unui alt obiect ca o versiune de înaltă rezoluție a acestora. Pentru aceasta, trebuie să fie setată atât proprietatea Hi Res, cât și modul de afișare Hi Res. Acest lucru permite, de exemplu, crearea unui perete simplu și apoi modelarea fiecărei cărămizi care compune zidul, de exemplu cu [ Part Box](Part_Box.md). Apoi, utilizați o combinație a acestor cărămizi ca o versiune de înaltă rezoluție a peretelui. Forma peretelui nu este modificată prin adăugarea unui obiect Hi-Res. Numai reprezentarea sa în vizualizarea 3D se va schimba prin adoptarea reprezentării versiunii de înaltă rezoluție în locul propriei sale vizualizări low resolution.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 
 
 
 
 </div>
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/ro
+⏵ [documentation index](../README.md) > Arch Component/ro

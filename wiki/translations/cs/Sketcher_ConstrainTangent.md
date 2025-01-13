@@ -15,85 +15,84 @@
 
 ## Description
 
-Tangent Constraint makes two curves to touch each other (be tangent). Lines are treated infinite, and arcs are treated as full circles/ellipses. The constraint is also capable of connecting two curves, forcing them tangent at the joint, thus making the joint smooth.
-
-Tangent Constraint can also be used with two lines to make them colinear.
+The <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> [Sketcher ConstrainTangent](Sketcher_ConstrainTangent.md) tool constrains two edges, or an edge and an axis, to be tangent. Lines are treated as infinite, and open curves are virtually extended as well. The constraint can also connect two edges, forcing them to be tangent at the joint. If two lines are selected, or a line and the endpoint of another line, the lines are made collinear.
 
 ## Usage
 
-There are five different ways the constraint can be applied:
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-1.  between two curves (available not for all curves)
-2.  between two endpoints of a curve, making a smooth joint
-3.  between a curve and an endpoint of another curve
-4.  between two curves at user-defined point
-5.  between two lines to create a collinear condition
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
 
-To apply tangent constraint, one should the follow the steps:
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ConstrainTangent.svg" width=16px> [Constrain tangent or collinear](Sketcher_ConstrainTangent.md)** button.
 
--   Select two or three entities in the sketch.
--   Invoke the constraint by clicking its icon on the toolbar, or selecting the menu item, or using keyboard shortcut.
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainTangent.svg" width=16px> Constrain tangent or collinear** option from the menu.
 
-### Between two curves (direct tangency) 
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Constrain → <img src="images/Sketcher_ConstrainTangent.svg" width=16px> Constrain tangent or collinear** option from the context menu.
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:600px;">
+    -   Use the keyboard shortcut: **T**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Do one of the following:
+    -   Select two edges. The edges can be any edge except a B-spline.
+    -   Select a point and two edges (in that order).
+    -   Select an edge, a point and another edge (idem).
+5.  A Tangent constraint is added. If a point and two edges have been selected, up to two [Point on object constraints](Sketcher_ConstrainPointOnObject.md) can also be added. See [Examples](#Between_two_edges_at_point.md).
+6.  Optionally keep creating constraints.
+7.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
 
-Two curves will be made tangent, and the point of tangency will be implicit. This mode is applied if two curves were selected.
+### Run-once mode 
 
-**Accepted selection:**
+1.  Do one of the following:
+    -   Select two edges (see above).
+    -   Select two endpoints belonging to different edges.
+    -   Select an edge and the endpoint of another edge (in any order).
+    -   Select a point and two edges (idem).
+2.  Invoke the tool as explained above, or with the following additional option:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ConstrainTangent.svg" width=16px> Constrain tangent or collinear** option from the context menu.
+3.  A Tangent constraint is added. If a point and two edges have been selected, up to two [Point on object constraints](Sketcher_ConstrainPointOnObject.md) can also be added. See [Examples](#Between_two_edges_at_point.md).
 
--   line + line, circle, arc, ellipse, arc-of-ellipse
--   circle, arc + circle, arc
+## Examples
 
-If direct tangency between selected curves is not supported (e.g. between a circle and an ellipse), a helper point will be added to sketch automatically, and tangency-via-point will be applied.
+### Between two edges 
 
-It is not recommended to reconstruct the point of tangency by creating a point and constraining it to lie on both curves. It will work, but the convergence will be seriously slower, jumpier, and will require about twice as many iterations to converge than normal. Use other modes of this constraint if the point of tangency is needed.
+<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:400px;">
 
-### Between two endpoints (point-to-point tangency) 
+The two edges are made tangent. If one of the edges is a [conic](Sketcher_Workbench#Sketcher_CompCreateConic.md), a [Point object](Sketcher_CreatePoint.md) that has a [Point on object constraint](Sketcher_ConstrainPointOnObject.md) with both (extended) edges is added.
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
+It is not recommended to reconstruct the point of tangency by manually creating a point and constraining it to lie on both curves. It will work, but the convergence will be seriously slower, jumpier, and will require about twice as many iterations to converge than normal. If the point of tangency is needed, select two edges and an existing point instead.
 
-In this mode, the endpoints are made coincident, and the joint is made tangent (C1-smooth, or \"sharp\", depending on the placement of curves before the constraint is applied). This mode is applied when two endpoints of two curves were selected. If you want this kind of tangency you must not use concidence plus the tangency between the curves/lines. The solver cannot create stable solutions for this combination and replaces the constraints appropriately.
+### Between two endpoints 
 
-**Accepted selection:**
+<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:400px;">
 
--   endpoint of line/arc/arc-of-ellipse + endpoint of line/arc/arc-of-ellipse (i.e., two endpoints of any two curves)
+The endpoints are made coincident, and the angle between the edges at that point is set to 180° (smooth joint) or 0° (sharp joint), depending on the placement of the edges before the constraint is applied.
 
-### Between curve and endpoint (point-to-curve tangency) 
+### Between edge and endpoint 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:400px;">
 
-In this mode, an endpoint of one curve is constrained to lie on the other curve, and the curves are forced tangent at the point. This mode is applied when a curve and an endpoint of another curve were selected.
+The endpoint of one edge is constrained to lie on the other edge, and the edges are made tangent at that point.
 
-**Accepted selection:**
+### Between two edges at point 
 
--   line, circle, arc, ellipse, arc-of-ellipse + endpoint of line/arc/arc-of-ellipse (i.e., any curve + endpoint of any curve)
+<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:400px;">
 
-### Between two curves at point (tangent-via-point) (v0.15) 
+The two edges are made tangent at a given point. The point can be any point, e.g. the center of a circle, the endpoint of an edge, or the origin, it can belong to one of the edges, and it can also be a [Point object](Sketcher_CreatePoint.md). If required [Point on object constraint(s)](Sketcher_ConstrainPointOnObject.md) are added to ensure the point lies on both (extended) edges. These additional constraints are called [helper constraints](Sketcher_helper_constraint.md).
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:600px;">
+Compared to direct tangency, this constraint is slower, because there are more degrees of freedom involved, but if the point of tangency is needed, it is recommended because it offers better convergence.
 
-In this mode, two curves are made tangent, and the point of tangency is tracked. This mode is applied when two curves and a point were selected.
+### Between two lines 
 
-**Accepted selection:**
+<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:400px;">
 
--   any line/curve + any line/curve + any point
-
-\"Any point\" can be a lone point, or a point of something, e.g. a center of a circle, an endpoint of an arc, or the origin.
-
-For the constraint to work correctly, the point must be on both curves. So, as the constraint is invoked, the point will be automatically constrained onto both curves ([helper constraints](Sketcher_helper_constraint.md) will be added, if necessary), and the curves will be forced tangent at the point. These [helper constraints](Sketcher_helper_constraint.md) are plain regular constraints. They can be added manually, or deleted.
-
-Compared to direct tangency, this constraint is slower, because there are more degrees of freedom involved, but if the point of tangency is needed, it is the recommended mode because it offers better convergence compared to direct tangency + point on two curves.
-
-The placement of the point before the constraint is applied is a hint for the solver for where the tangency should be. With this constraint, one can constrain two ellipses to touch each other in two places.
-
-### Between two lines (collinear) 
-
-<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
-
-**Accepted selection:**
-
--   any line/vertex + any line/vertex
+The two lines are made collinear.
 
 ## Scripting
 
@@ -114,11 +113,11 @@ Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoid
 
   - `Sketch` is a sketch object
 
-  - `icurve1`, `icurve2` are two integers identifying the curves to be made tangent. The integers are indexes in the sketch (the value, returned by `Sketch.addGeometry`).
+  - `icurve1`, `icurve2` are two integers identifying the curves to be made tangent. The integers are indices in the sketch (the values, returned by `Sketch.addGeometry`).
 
-  - `pointpos1`, `pointpos2` should be 1 for start point and 2 for end point.
+  - `pointpos1`, `pointpos2` should be `1` for start point and `2` for end point.
 
-  - `geoidpoint` and `pointpos` in `TangentViaPoint` are the indexes specifying the point of tangency.
+  - `geoidpoint` and `pointpos` in `TangentViaPoint` are the indices specifying the point of tangency.
 
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` and `pointpos` and contains further examples on how to create constraints from Python scripts.
 

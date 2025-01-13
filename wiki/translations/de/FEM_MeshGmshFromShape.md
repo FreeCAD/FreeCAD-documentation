@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/de
    Name: FEM MeshGmshFromShape
    Name/de: FEM NetzGmshAusForm
    MenuLocation: Netz , FEM-Netz aus Form - Gmsh
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
+}}
+{{GuiCommandFemInfo/de
+   Solvers: Alle
+}}
 ---
 
 # FEM MeshGmshFromShape/de
@@ -22,13 +27,16 @@ Abhängig vom Betriebssystem und dem Installationspaket kann Gmsh in FreeCAD ent
 ## Anwendung
 
 1.  Die Form auswählen, die analysiert werden soll. Bei der Volumen-FEM muss es sich um einen Festkörper oder Compsolid (zusammengesetzten Festkörper) handeln. Ein Compsolid ist erforderlich, wenn dein Teil aus mehreren Materialien besteht. (Ein Compsolid kann mit dem Befehl [BoolescheFragmente](Part_BooleanFragments/de.md) erstellt werden).
+2.  Das Werkzeug durch eine der folgenden Möglichkeiten aktivieren:
     -   Die Schaltfläche **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [FEM-Netz aus Form - Gmsh](FEM_MeshGmshFromShape/de.md)** drücken.
     -   Den Menüeintrag **Netz → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> FEM-Netz aus Form - Gmsh** auswählen.
-2.  Bei Bedarf minimale und maximale Elementgröße anpassen. (Automatische Erkennung erstellt oft Netze, die zu grob sind).
-3.  Die Schaltfläche **Anwenden** anklicken und warten, bis die Erstellung des Netzes abgeschlossen ist.
-4.  Die Aufgabe abschließen. Jetzt sollte sich ein neues FEMMeshGMSH-Objekt im aktiven Analysebehälter befinden.
+3.  Wahlweise minimale und maximale Elementgröße anpassen (Die vorgegebene Einstellung erstellt oft zu grobe Netze). Es kann auch die dimensionale Art (1D, 2D, 3D) eingestellt (wobei die Voreinstellung *From shape* meistens passt) sowie die Ordnung des Elements geändert werden.
+4.  Die Schaltfläche **Anwenden** anklicken und warten, bis die Erstellung des Netzes abgeschlossen ist. {{Version/de|1.0}}: Wahlweise die Schaltfläche **Abbrechen** drücken, um das Vernetzen abzubrechen.
+5.  Die Schaltfläche **OK** drücken, um die Aufgabe abschließen. Jetzt sollte sich ein neues FEMMeshGmsh-Objekt im aktiven Analysebehälter befinden. Oder die Schaltfläche **Abbrechen** drücken, um die Änderung oder die Erstellung des Netzobjekts abzubrechen.
 
-After the mesh has been created, you can change its properties using the [property editor](Property_editor.md). After you change a property, you must reopen the Gmsh dialog again and click the **Apply** button (you can leave the dialog open while changing properties).
+Nachdem das Netz erstellt wurde, können seine Eigenschaften im [Eigenschafteneditor](Property_editor/de.md) angepasst werden. Nach dem Ändern einer Eigenschaft, muss der Gmsh-Dialog erneut geöffnet und die Schaltfläche **Anwenden** gedrückt werden (der Dialog kann geöffnet bleiben, während weitere Eigenschaften geändert werden).
+
+The **Gmsh version** button allows you to check the details about the currently linked Gmsh binary.
 
 
 
@@ -84,6 +92,13 @@ After the mesh has been created, you can change its properties using the [proper
 
     -   true; linear interpolation is used
     -   false (default); curvilinear interpolation is used
+
+-    **Subdivision Algorithm**<small>(v1.0)</small> : allows the creation of quadrilateral and hexahedral elements by subdivision
+
+    -   None; doesn\'t use any subdivision algorithm
+    -   All Quadrangles; creates quadrilateral elements by subdivision
+    -   All Hexahedra; creates hexahedral elements by subdivision
+    -   Barycentric; creates triangular elements by barycentric subdivision
 
 
 

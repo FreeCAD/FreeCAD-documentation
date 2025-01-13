@@ -12,7 +12,7 @@
 
 ## Opis
 
-Polecenie <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Przesuń** przenosi i dołącza element złączny do okrągłej krawędzi. Może być również użyte do odłączenia elementu złącznego. Dołączony element złączny ma właściwość **baza Obiektu**, a jego właściwość **Umiejscowienie** jest dynamicznie powiązana z tym obiektem.
+Polecenie <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Przesuń** przenosi i dołącza element złączny do okrągłej krawędzi. Może być również użyte do odłączenia elementu złącznego. Dołączony element złączny ma właściwość **Obiekt bazowy**, a jego właściwość **Umiejscowienie** jest dynamicznie powiązana z tym obiektem.
 
 
 
@@ -44,12 +44,9 @@ Polecenie <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Prze
 
 
 
-
-{{Fasteners Tools navi
-
-}}
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Move/pl
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners Move/pl

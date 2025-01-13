@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Arc 3Points
    Name/pl: Rysunek Roboczy: Łuk przez trzy punkty
-   MenuLocation: Kreślenie , Narzędzia łuku , Łuk przez trzy punkty
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Kreślenie , Narzędzia łuku , Łuk przez trzy punkty<br>Kreślenie 2D , Łuk przez trzy punkty
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **A** **R**
    Version: 0.7
    SeeAlso: Draft_Arc/pl, Draft_Circle/pl
@@ -30,8 +30,9 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 1.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_Arc_3Points.svg" width=16px> '''Łuk przez trzy punkty'''**.
-    -   Wybierz z menu opcję **Kreślenie → Narzędzia łuku → <img src="images/Draft_Arc_3Points.svg" width=16px> Łuk przez trzy punkty**.
-    -   Użyj skrótu klawiaturowego: **A**, a następnie **T**. {{Version/pl|0.20}}.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Kreślenie → Narzędzia łuku → <img src="images/Draft_Arc_3Points.svg" width=16px> Łuk przez trzy punkty**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Kreślenie 2D → <img src="images/Draft_Arc_3Points.svg" width=16px> Łuk przez trzy punkty** z menu.
+    -   Użyj skrótu klawiaturowego: **A**, a następnie **T**.
 2.  Zostanie otwarty panel zadań **Łuk przez trzy punkty**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
 3.  W oknie [widoku 3D](3D_view/pl.md) wybierz pierwszy punkt lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
 4.  Wybierz drugi punkt w okine [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
@@ -41,12 +42,12 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 1.0)*.
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź element X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie wskaźnika poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
 -   Wciśnij **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne są odniesione do ostatniego punktu, jeśli jest dostępny, w przeciwnym razie są one względne do początku układu współrzędnych.
--   Naciśnij **G** lub kliknij pole wyboru **Globalne**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
--   Naciśnij **N** lub kliknij pole wyboru **Kontynuuj**, aby włączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, umożliwiając dalsze tworzenie łuków. {{Version/pl|0.20}}
+-   Naciśnij **G** lub kliknij pole wyboru **Globalne**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
+-   Naciśnij **N** lub kliknij pole wyboru **Kontynuuj**, aby włączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, umożliwiając dalsze tworzenie łuków.
 -   Naciśnij **S**, aby włączyć lub wyłączyć [Przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij **Esc** lub przycisk **Zamknij**, aby przerwać wykonywanie polecenia.
 

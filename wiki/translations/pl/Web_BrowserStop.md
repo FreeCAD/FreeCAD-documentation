@@ -1,20 +1,25 @@
 ---
  GuiCommand:
    Name: Web BrowserStop
+   Name/pl: Web: Zatrzymaj ładowanie
    MenuLocation: 
-   Workbenches: Web_Workbench, Start_Workbench
+   Workbenches: Web_Workbench/pl, Start_Workbench/pl
    SeeAlso: 
 ---
 
 # Web BrowserStop/pl
 
-## Description
 
-Use the <img alt="" src=images/Web_BrowserStop.svg  style="width:24px;"> **Web BrowserStop** command to stop loading the current web page.
 
-## Usage
+## Opis
 
-1.  Press the **<img src="images/Web_BrowserStop.svg" width=16px> [Stop loading](Web_BrowserStop.md)** button.
+Użyj polecenia <img alt="" src=images/Web_BrowserStop.svg  style="width:24px;"> **Zatrzymaj ładowanie**, aby zatrzymać wczytywanie bieżącej strony internetowej.
+
+
+
+## Użycie
+
+1.  Naciśnij przycisk **<img src="images/Web_BrowserStop.svg" width=16px> '''Zatrzymaj ładowanie'''**.
 
 
 

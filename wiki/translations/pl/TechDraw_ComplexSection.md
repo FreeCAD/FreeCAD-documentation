@@ -5,7 +5,7 @@
    MenuLocation: Rysunek Techniczny , Widoki , Wstaw przekrój złożony
    Workbenches: TechDraw_Workbench/pl
    Version: 0.21
-   SeeAlso: TechDraw_SectionView/pl, TechDraw_View/pl, TechDraw_ProjectionGroup/pl
+   SeeAlso: TechDraw_SectionView/pl, TechDraw_View/pl
 ---
 
 # TechDraw ComplexSection/pl
@@ -39,9 +39,9 @@ Narzędzie **Wstaw przekrój złożony** wstawia widok przekroju na podstawie is
 
 
 
-## Właściwości Przekroju złożonego 
+## Właściwości
 
-Zapoznaj się również informacjami na stronie [właściwości widoku przekroju](TechDraw_SectionView/pl#Właściwości_widoku_przekroju.md) środowiska Rysunek Techniczny.
+Przekrój złożony, formalnie obiekt {{Incode|TechDraw::DrawComplexSection}}, wywodzi się z [Widoku przekroju](TechDraw_SectionView/pl#Właściwości.md), formalnie obiektu {{Incode|TechDraw::DrawViewSection}} i dziedziczy wszystkie jego właściwości. Ma również następujące dodatkowe właściwości:
 
 
 

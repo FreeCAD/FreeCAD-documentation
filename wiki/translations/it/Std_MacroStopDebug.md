@@ -10,6 +10,8 @@
 
 # Std MacroStopDebug/it
 
+
+
 ## Descrizione
 
 In questo momento questo comando non funziona.
@@ -18,7 +20,7 @@ In questo momento questo comando non funziona.
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

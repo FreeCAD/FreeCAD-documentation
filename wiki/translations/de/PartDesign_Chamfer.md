@@ -24,12 +24,12 @@ Das Werkzeug <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;">
 ### Eine Fase hinzufügen 
 
 1.  Falls nötig, wird der anzufasende Körper [aktiviert](PartDesign_Body/de#Activer_Status.md).
-2.  Es gibt mehrere Möglichkeiten die Kanten zum Anfasen auszuwählen:
+2.  Es gibt mehrere Möglichkeiten, die Kanten zum Anfasen auszuwählen:
     -   Eine oder mehrere einzelne Kanten des Körpers auswählen.
     -   Eine oder mehrere Flächen des Körpers auswählen, um alle ihrer Kanten auszuwählen.
-    -   Ein Formelement (normalerweise das letzte) des Körpers auswählen, um alle seiner Kanten auszuwählen. {{Version/de|0.20}}
+    -   Ein Formelement (normalerweise das letzte) des Körpers auswählen, um alle seiner Kanten auszuwählen.
 3.  Um eine Reihe tangential verbundener Kanten auszuwählen, muss nur eine einzige Kante ausgewählt werden, die Fase folgt dann dem kompletten Kantenzug.
-4.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
+4.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/PartDesign_Chamfer.svg" width=16px> [Fase](PartDesign_Chamfer/de.md)** drücken.
     -   Den Menüeintrag **Part Design → Modifikationen → <img src="images/PartDesign_Chamfer.svg" width=16px> Fase** auswählen.
 5.  Wenn kein Körper aktiv ist und sich zwei oder mehr Körper im Dokument befinden, offnet sich der Dialog **Active Body Required** und fordert zur Aktivierung eines Körpers auf. Ist nur ein einziger Körper vorhanden, wird er automatisch ausgewählt.
@@ -54,7 +54,7 @@ Das Werkzeug <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;">
     -   Die Schaltfläche **Hinzufügen** drücken, um die Auswahl weiterer Kanten und/oder Flächen in der [3D-Ansicht](3D_view/de.md) zu starten.
     -   Zur Auswahl aller übrigen Kanten hat man folgende Möglichkeiten:
         1.  Wenn nötig, Schaltfläche **Hinzufügen** drücken.
-        2.  Tastaturkürzel **Ctrl**+**Shift**+**A** anwenden, oder mit der rechten Maustaste in die Liste klicken und **Alle Kanten verwenden** aus dem Kontextmenü auswählen. {{Version/de|0.20}}
+        2.  Tastaturkürzel **Ctrl**+**Shift**+**A** anwenden, oder mit der rechten Maustaste in die Liste klicken und **Alle Kanten verwenden** aus dem Kontextmenü auswählen.
 -   Zum Entfernen von Kanten hat man folgende Möglichkeiten:
     -   Die Schaltfläche **Entfernen** drücken, um das Entfernen der Kanten und/oder Flächen in der [3D-Ansicht](3D_view/de.md) zu starten. Ausgewählte Elemente werden in violett hervorgehoben.
     -   Ein oder mehrere Elemente in der Liste auswählen und die **Del**-Taste drücken, oder mit der rechten Maustaste in die Liste klicken und **Entfernen** aus dem Kontextmenü auswählen.
@@ -77,7 +77,7 @@ Das Werkzeug <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;">
 -   Die **Größe** der Fase angeben.
 -   Die **Größe 2** der Fase angeben (ist nur verfügbar, wenn **Zwei Distanzen** ausgewählt ist).
 -   Den **Winkel** der Fase angeben (ist nur verfügbar, wenn **Distanz und Winkel** ausgewählt ist).
--   Die Checkbox **Alle Kanten verwenden** aktivieren, um alle Kanten des vorherigen Formelements auszuwählen. Dies deaktiviert die Auswahlliste und die dazugehörigen Schaltflächen. {{Version/de|0.20}}
+-   Die Checkbox **Alle Kanten verwenden** aktivieren, um alle Kanten des vorherigen Formelements auszuwählen. Dies deaktiviert die Auswahlliste und die dazugehörigen Schaltflächen.
 
 
 

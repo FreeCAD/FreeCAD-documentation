@@ -14,7 +14,7 @@
 
 ## Opis
 
-Narzędzie Połącz łączy wnętrza obiektów posiadających dwie ścianki *(np. rur)*. Może również łączyć powłoki i linie.
+Narzędzie <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> **Połącz obiekty** łączy wnętrza obiektów posiadających dwie ścianki *(np. rur)*. Może również łączyć powłoki i linie.
 
 ![600px](images/JoinFeatures_Connect.png)
 
@@ -22,15 +22,11 @@ Narzędzie Połącz łączy wnętrza obiektów posiadających dwie ścianki *(np
 
 ## Użycie
 
-1.  Wybierz obiekty do połączenia.
-
-Kolejność wyboru nie ma znaczenia, ponieważ działanie narzędzia jest symetryczne. Wystarczy wybrać jeden z kształtów podrzędnych każdego obiektu *(np. ściany)*. Można również wybrać złożenie zawierające wszystkie kształty do połączenia, np. [Szyk ortogonalny](Draft_OrthoArray/pl.md).
-
-1.  Polecenie **Połącz obiekty** można wywołać na kilka sposobów:
-    -   Naciśnij przycisk <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> **Połącz obiekty** na pasku narzędzi.
-    -   Użyj polecenia **Część → Połącz → Połącz obiekty** w menu głównym.
-
-Tworzony jest obiekt parametryczny Połączenie. Oryginalne obiekty są ukrywane, a wynik połączenia jest wyświetlany w oknie [widoku 3D](3D_view/pl.md).
+1.  Wybierz obiekty do połączenia. Kolejność wyboru nie ma znaczenia, ponieważ działanie narzędzia jest symetryczne. Wystarczy wybrać jeden z kształtów podrzędnych każdego obiektu *(np. ściany)*. Można również wybrać złożenie zawierające wszystkie kształty do połączenia, np. [Szyk ortogonalny](Draft_OrthoArray/pl.md).
+2.  Istnieje kilka sposobów na wywołanie tego narzędzia:
+    -   Naciśnij przycisk **<img src="images/Part_JoinConnect.svg" width=16px> [Połącz obiekty](Part_JoinConnect/pl.md)** na pasku narzędzi.
+    -   Wybierz opcję **Część → Połącz → <img src="images/Part_JoinConnect.svg" width=16px> Połącz obiekty** z menu głównego.
+3.  Zostanie utworzony parametryczny obiekt Connect. Oryginalne obiekty zostaną ukryte a wynik połączenia będzie pokazany w [widoku 3D](3D_view/pl.md).
 
 
 
@@ -113,6 +109,14 @@ j.Objects = FreeCADGui.Selection.getSelection()
 }}
 
 Samo narzędzie jest zaimplementowane w środowisku Python, patrz **/Mod/Part/BOPTools/JoinFeatures.py** ([Link do Github](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) w miejscu, w którym zainstalowany jest FreeCAD.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

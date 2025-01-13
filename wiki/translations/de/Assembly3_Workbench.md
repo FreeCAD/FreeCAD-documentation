@@ -42,71 +42,71 @@ Seit 2020 enthält der Arbeitsbereich Assembly3 die folgenden Symbolleisten.
 
 <div class="mw-collapsible-content toccolours">
 
-  - <img alt="" src=images/Assembly_Add_Existing_Part.svg‎‎  style="width:32px;"> [Baugruppe anlegen](Assembly3_CreateAssembly/de.md): Einen Baugruppenordner hinzufügen
+  - <img alt="" src=images/Assembly_Add_Existing_Part.svg‎‎  style="width:32px;"> [Baugruppe erstellen](Assembly3_CreateAssembly/de.md): Fügt einen Baugruppenordner hinzu.
 
-  - <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width:32px;"> [Objekte gruppieren](Assembly3_GroupObjects/de.md): Eine Objektgruppe erstellen
+  - <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width:32px;"> [Objekte gruppieren](Assembly3_GroupObjects/de.md): Erstellt eine Objektgruppe.
 
-  - <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:32px;"> [Element anlegen](Assembly3_CreateElement/de.md): Ein Element hinzufügen. Dies ist auch im Kontextmenü verfügbar
+  - <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:32px;"> [Element erstellen](Assembly3_CreateElement/de.md): Fügt ein Element hinzu. Dies steht auch im Kontextmenü zur Verfügung.
 
-  - STEP-Dateien importieren. Hier gibt es zwei Einstellungen
+  - STEP-Dateien importieren. Hier gibt es zwei Einstellungen:
 
-  -\* <img alt="" src=images/Assembly_Import.svg‎‎  style="width:32px;"> [STEP-Dateien importieren](Assembly3_ImportFromSTEP/de.md): STEP-Dateien importieren
+  -\* <img alt="" src=images/Assembly_Import.svg‎‎  style="width:32px;"> [STEP-Dateien importieren](Assembly3_ImportFromSTEP/de.md): Importiert STEP-Dateien.
 
-  -\* <img alt="" src=images/Assembly_ImportMulti.svg‎‎  style="width:32px;"> [Als Mehrfachdokument einfügen](Assembly3_ImportMultiDocument/de.md): STEP-Baugruppen in separate Dokumente importieren
+  -\* <img alt="" src=images/Assembly_ImportMulti.svg‎‎  style="width:32px;"> [Als Mehrfachdokument importieren](Assembly3_ImportMultiDocument/de.md): Importiert STEP-Baugruppen in separate Dokumente.
 
-  - <img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:32px;"> [Beziehungen anwenden](Assembly3_ResolveConstraints/de.md): Festgelegte Beziehungen berechnen (auflösen)
+  - <img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:32px;"> [Bedingungen berechnen](Assembly3_ResolveConstraints/de.md): Berechnet festgelegte Bedingungen.
 
-  - <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:32px;"> [Schnelle Berechnung](Assembly3_QuickSolve/de.md): Beziehungen schnell berechnen (auflösen)
+  - <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:32px;"> [Schnelle Berechnung](Assembly3_QuickSolve/de.md): Bedingungen schnell berechnen.
 
-  - <img alt="" src=images/Assembly_Move.svg‎‎  style="width:32px;"> [Teil bewegen](Assembly3_MovePart/de.md): Teil in 3D bewegen, dies ist ein spezielles Assembly3-Werkzeug
+  - <img alt="" src=images/Assembly_Move.svg‎‎  style="width:32px;"> [Bauteil bewegen](Assembly3_MovePart/de.md): Bewegt das Bauteil in 3D; dies ist ein spezielles Assembly3-Werkzeug.
 
-  - <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width:32px;"> [Axial bewegen](Assembly3_AxialMove/de.md): Teil axial in 3D bewegen, dies ist das übliche Werkzeug, das auch anderen Bereichen von FreeCAD zur Verfügung steht
+  - <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width:32px;"> [Axial bewegen](Assembly3_AxialMove/de.md): Bewegt das Bauteil axial in 3D; dies ist das übliche Werkzeug, das auch anderen Bereichen von FreeCAD zur Verfügung steht.
 
-  - <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width:32px;"> [Schnelles Bewegen](Assembly3_QuickMove/de.md): Schnelles Bewegen. Dies hängt das im Baum ausgewählte Teil an den Mauszeiger. Es verändert die Position des Teils, mit einem Mausklick.
+  - <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width:32px;"> [Schnelles Bewegen](Assembly3_QuickMove/de.md): Dies hängt das im Baum ausgewählte Bauteil an den Mauszeiger. Es verändert die Position des Bauteils, mit einem Mausklick.
 
-  -: Oft befinden sich hinzugefügte Teile übereinander gestapelt im Ursprung. Diese Funktion kann benutzt werden, um nicht sichtbare Teile zu erreichen.
+  -: Oft befinden sich hinzugefügte Bauteile übereinander gestapelt im Ursprung. Diese Funktion kann benutzt werden, um nicht sichtbare Teile zu erreichen.
 
-  - <img alt="" src=images/Assembly_LockMover.svg‎‎  style="width:32px;"> [Bewegung verhindern](Assembly3_LockMover/de.md): Bewegung ausschließen für fixierte Teile. Umschaltknopf. Wenn dieser abgewählt ist, können auch Teile bewegt werden, die durch die Fixiereinschränkung festgelegt sind.
+  - <img alt="" src=images/Assembly_LockMover.svg‎‎  style="width:32px;"> [Bewegung verhindern](Assembly3_LockMover/de.md): Schließt die Bewegung für fixierte Bauteile aus. Umschaltknopf. Wenn dieser abgewählt ist, können auch Teile bewegt werden, die durch die Bedingung Festsetzen verankert sind.
 
-  - <img alt="" src=images/Assembly_TogglePartVisibility.svg‎‎  style="width:32px;"> [Sichtbarkeit umschalten](Assembly3_TogglePartVisibility/de.md): Dies schaltet die Sichtbarkeit des ausgewählten Teils ein oder aus.
+  - <img alt="" src=images/Assembly_TogglePartVisibility.svg‎‎  style="width:32px;"> [Sichtbarkeit umschalten](Assembly3_TogglePartVisibility/de.md): Dies schaltet die Sichtbarkeit des ausgewählten Teils ein bzw. aus.
 
   -: Achtung, dies unterscheidet sich von der Benutzung der Leertaste. Die Benutzung der Leertaste mit ausgewählten Elementen einer Unterbaugruppe in der 3D-Ansicht liefert oft nicht das erwartete Verhalten. In solchen Fällen sollte diese Funktion benutzt werden (oder das Tastenkürzel A, Leertaste)
 
-  - <img alt="" src=images/Assembly_Trace.svg‎‎  style="width:32px;"> [Bewegung aufzeichnen](Assembly3_TracePartMove/de.md):Bewegungsbahn aufzeichnen (TBD)
+  - <img alt="" src=images/Assembly_Trace.svg‎‎  style="width:32px;"> [Bauteilbewegung aufzeichnen](Assembly3_TracePartMove/de.md): Zeichnet eine Bewegungsbahn auf. (TBD)
 
-  - <img alt="" src=images/Assembly_AutoRecompute.svg‎‎  style="width:32px;"> [Automatische Berechnung](Assembly3_AutoRecompute/de.md):Automatische Berechnung. Standardmäßig aktiviert.
+  - <img alt="" src=images/Assembly_AutoRecompute.svg‎‎  style="width:32px;"> [Automatisch berechnen](Assembly3_AutoRecompute/de.md):Automatische Berechnung. Standardmäßig aktiviert.
 
-  -: Kann deaktiviert werden für die Reparatur von Einschränkungen oder die Fixierung von Teilen, für die der Löser Die Nachricht *\"do not converge\"* ausgibt (z.B. wenn das Teil um 180° gedreht wird)
+  -: Kann deaktiviert werden für die Reparatur von Bedingungen oder das Festsetzen von Bauteilen, für die der Löser Die Nachricht *\"do not converge\"* ausgibt (z.B. wenn das Bauteil um 180° gedreht wird)
 
-  - <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width:32px;"> [Smarte Berechnung](Assembly3_SmartRecompute/de.md): Smarte Berechnung. Standardmäßig aktiviert.
+  - <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width:32px;"> [Smart berechnen](Assembly3_SmartRecompute/de.md): Smarte Berechnung. Standardmäßig aktiviert.
 
-  - <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width:32px;"> [Element automatisch fixieren](Assembly3_AutoFixElement/de.md): Automatische Elementfixierung. Experimentelle Funktion in 0.19_pre
+  - <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width:32px;"> [Element automatisch festsetzen](Assembly3_AutoFixElement/de.md): Automatische Elementfixierung. Experimentelle Funktion in 0.19_pre
 
-  - Element Darstellung. Dies hat zwei Einstellmöglichkeiten:
+  - Elementdarstellung. Hier gibt es zwei Einstellungen:
 
-  -\* <img alt="" src=images/Assembly_AutoElementVis.svg‎‎  style="width:32px;"> [Element automatisch anzeigen](Assembly3_AutoElementVisibility/de.md): Element automatisch anzeigen
+  -\* <img alt="" src=images/Assembly_AutoElementVis.svg‎‎  style="width:32px;"> [Element automatisch anzeigen](Assembly3_AutoElementVisibility/de.md): Element automatisch anzeigen.
 
-  -\* <img alt="" src=images/Assembly_ShowElementCS.svg‎‎  style="width:32px;"> [Element-Koordinatensystem anzeigen](Assembly3_ShowElementCS/de.md): Koordinatensystem des Elements anzeigen
+  -\* <img alt="" src=images/Assembly_ShowElementCS.svg‎‎  style="width:32px;"> [Element-Koordinatensystem anzeigen](Assembly3_ShowElementCS/de.md): Koordinatensystem des Elements anzeigen.
 
-  - Arbeitsebene und Ursprung. Fügt eine Arbeitsebene, eine Platzierung oder einen Ursprung hinzu. Es muss ein Teil ausgewählt sein. Hier gibt es fünf Einstellungen.
+  - Arbeitsebene und Ursprung. Fügt eine Arbeitsebene, ein Bezugssystem oder einen Ursprung hinzu. Es muss ein Bauteil ausgewählt sein. Hier gibt es fünf Einstellungen.
 
-  -\* <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:32px;"> [Arbeitsebene hinzufügen](Assembly3_AddWorkplane/de.md): Arbeitsebene hinzufügen
+  -\* <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:32px;"> [Arbeitsebene hinzufügen](Assembly3_AddWorkplane/de.md): Arbeitsebene hinzufügen.
 
-  -\* <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg‎‎  style="width:32px;"> [XZ-Arbeitsebene hinzufügen](Assembly3_AddXZWorkplane/de.md): XZ-Arbeitsebene hinzufügen
+  -\* <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg‎‎  style="width:32px;"> [XZ-Arbeitsebene hinzufügen](Assembly3_AddXZWorkplane/de.md): XZ-Arbeitsebene hinzufügen.
 
-  -\* <img alt="" src=images/Assembly_Add_WorkplaneZY.svg‎‎  style="width:32px;"> [ZY-Arbeitsebene hinzufügen](Assembly3_AddZYWorkplane/de.md):YZ-Arbeitsebene hinzufügen
+  -\* <img alt="" src=images/Assembly_Add_WorkplaneZY.svg‎‎  style="width:32px;"> [ZY-Arbeitsebene hinzufügen](Assembly3_AddZYWorkplane/de.md): YZ-Arbeitsebene hinzufügen.
 
-  -\* <img alt="" src=images/Assembly_Add_Placement.svg‎‎  style="width:32px;"> [Bezugssystem hinzufügen](Assembly3_AddPlacement/de.md): Bezugssystem hinzufügen
+  -\* <img alt="" src=images/Assembly_Add_Placement.svg‎‎  style="width:32px;"> [Bezugssystem hinzufügen](Assembly3_AddPlacement/de.md): Bezugssystem hinzufügen.
 
-  -\* <img alt="" src=images/Assembly_Add_Origin.svg‎‎  style="width:32px;"> [Ursprung hinzufügen](Assembly3_AddOrigin/de.md): Ursprung hinzufügen
+  -\* <img alt="" src=images/Assembly_Add_Origin.svg‎‎  style="width:32px;"> [Ursprung hinzufügen](Assembly3_AddOrigin/de.md): Ursprung hinzufügen.
 
-  - <img alt="" src=images/Assembly_TreeItemUp.svg‎‎  style="width:32px;"> [Objekt aufwärts bewegen](Assembly3_MoveItemUp/de.md): Ausgewähltes Baumobjekt aufwärts bewegen
+  - <img alt="" src=images/Assembly_TreeItemUp.svg‎‎  style="width:32px;"> [Objekt nach oben bewegen](Assembly3_MoveItemUp/de.md): Ausgewähltes Baumobjekt aufwärts bewegen.
 
-  - <img alt="" src=images/Assembly_TreeItemDown.svg‎‎  style="width:32px;"> [Objekt abwärts bewegen](Assembly3_MoveItemDown/de.md): Ausgewähltes Baumobjekt abwärts bewegen
+  - <img alt="" src=images/Assembly_TreeItemDown.svg‎‎  style="width:32px;"> [Objekt nach unten bewegen](Assembly3_MoveItemDown/de.md): Ausgewähltes Baumobjekt abwärts bewegen.
 
-  -: Erlaubt es Teile, Elemente oder Einschränkungen im Baum umzusortieren. Mit \"Element roll over\" (von der ersten zur letzten Position und umgekehrt). Funktioniert nur mit einer einzelnen Auswahl.
+  -: Erlaubt es Bauteile, Elemente oder Bedingungen im Baum umzusortieren. Mit \"Element roll over\" (von der ersten zur letzten Position und umgekehrt). Funktioniert nur mit einer einzelnen Auswahl.
 
-  - <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎  style="width:32px;"> [Beziehung vervielfältigen](Assembly3_MultiplyConstraint/de.md): Beziehung vervielfachen. Dies kann ausgewählt werden, wenn Teile und geeignete Elemente mehrfach vorhanden sind. Es kann z.B. benutzt werden um mehrfach vorhandene Befestigungselemente mehrfach vorhandenen Löchern mit nur einer Beziehung zuzuordnen.
+  - <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎  style="width:32px;"> [Bedingung vervielfältigen](Assembly3_MultiplyConstraint/de.md): Bedingung vervielfältigen. Dies kann ausgewählt werden, wenn Bauteile und geeignete Elemente mehrfach vorhanden sind. Es kann z.B. eingesetzt werden, um mehrfach vorhandene Befestigungselemente mehrfach vorhandenen Löchern mit nur einer Bedingung zuzuordnen.
 
 
 </div>
@@ -129,11 +129,11 @@ Seit 2020 enthält der Arbeitsbereich Assembly3 die folgenden Symbolleisten.
 
 <div class="mw-collapsible-content toccolours">
 
-  - <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:32px;"> [Festsetzen](Assembly3_ConstraintLock/de.md): Zum Fixieren eines oder mehrerer Teile.
+  - <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:32px;"> [Festsetzen](Assembly3_ConstraintLock/de.md): Zum Fixieren eines oder mehrerer Bauteile.
 
   -: Es muss ein (Geometrie-) Element eines Teiles ausgewählt werden.
 
-  -: Wird ein Knotenpunkt oder eine Kante festgesetzt, lässt sich das Teil immer noch frei um den Knotenpunk oder die Kante drehen.
+  -: Wird ein Knotenpunkt oder eine Kante festgesetzt, lässt sich das Teil immer noch frei um den Knotenpunkt oder die Kante drehen.
 
   -: Das Festsetzen einer Fläche fixiert das Teil vollständig.
 
@@ -147,15 +147,15 @@ Seit 2020 enthält der Arbeitsbereich Assembly3 die folgenden Symbolleisten.
 
   - Befestigung. Dies hat zwei Varianten
 
-  -\* <img alt="" src=images/Part_Attachment.svg‎‎  style="width:32px;"> [Befestigung](Assembly3_ConstraintAttachment/de.md): Zum Befestigen eines Teils an ein zweites mittels der ausgewählten (Geometrie-) Elemente.
+  -\* <img alt="" src=images/Part_Attachment.svg‎‎  style="width:32px;"> [Befestigen](Assembly3_ConstraintAttachment/de.md): Zum Befestigen eines Teils an ein zweites mittels der ausgewählten (Geometrie-) Elemente.
 
   -\*: Diese Bedingung verbindet beide Teile starr miteinander.
 
-  -\* <img alt="" src=images/Assembly_ConstraintAttachmentOffset.svg‎‎  style="width:32px;"> [BefestigungVersatz](Assembly3_ConstraintAttachmentOffset/de.md): Wie die Bedingung \"Befestigung\", aber unter Beibehaltung der relativen Ausrichtung der beteiligten Teile durch Anpassung der Offset-Werte eines Elements.
+  -\* <img alt="" src=images/Assembly_ConstraintAttachmentOffset.svg‎‎  style="width:32px;"> [Versetzt befestigen](Assembly3_ConstraintAttachmentOffset/de.md): Wie die Bedingung \"Befestigen\", aber unter Beibehaltung der relativen Ausrichtung der beteiligten Teile durch Anpassung der Offset-Werte eines Elements.
 
   -\*: Diese Bedingung verbindet beide Teile starr miteinander.
 
-  - <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:32px;"> [Axiale Ausrichtung](Assembly3_ConstraintAxial/de.md): Zum axialen Ausrichten (Fluchten) von Kanten und Flächen zweier oder mehrerer Teile.
+  - <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:32px;"> [Axial ausrichten](Assembly3_ConstraintAxial/de.md): Zum axialen Ausrichten (Fluchten) von Kanten und Flächen zweier oder mehrerer Teile.
 
   -: Die Bedingung akzeptiert:
 
@@ -252,11 +252,11 @@ Seit 2020 enthält der Arbeitsbereich Assembly3 die folgenden Symbolleisten.
 
   - <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:32px;"> [Bogen-Linie-Tangente](Assembly3_ConstraintArcLineTangent/de.md): Zum Festlegen eines tangentiellen Übergangs zwischen einer Linie und dem Start- oder Endpunkt eines Bogens.
 
-  - <img alt="" src=images/Assembly_ConstraintSketchPlane.svg‎‎  style="width:32px;"> [Skizzierebene](Assembly3_ConstraintSketchPlane/de.md): Zum Festlegen einer Arbeitsebene für alle Draft-WB-Elemente innerhalb dieser Beziehung oder dieser Beziehung folgend.
+  - <img alt="" src=images/Assembly_ConstraintSketchPlane.svg‎‎  style="width:32px;"> [Skizzierebene](Assembly3_ConstraintSketchPlane/de.md): Zum Festlegen einer Arbeitsebene für alle zugehörigen Elemente des Arbeitsbereichs Draft.
 
-  -: Eine weitere hinzufügte leere Skizzenebene löst die vorherige als Arbeitsebene ab.
+  -: Eine weitere hinzufügte leere Skizzierebene löst die vorherige als Arbeitsebene ab.
 
-  - <img alt="" src=images/Assembly_ConstraintLineLength.svg‎‎  style="width:32px;"> [Linienlänge](Assembly3_ConstraintLineLength/de.md): Zum Festlegen der Länge eines nicht unterteilten Draft-Drahtes.
+  - <img alt="" src=images/Assembly_ConstraintLineLength.svg‎‎  style="width:32px;"> [Linienlänge](Assembly3_ConstraintLineLength/de.md): Zum Festlegen der Länge eines nicht unterteilten Draft-Linienzuges.
 
   - <img alt="" src=images/Assembly_ConstraintEqualLength.svg‎‎  style="width:32px;"> [Gleiche Länge](Assembly3_ConstraintEqualLength/de.md): Zum Festlegen, dass zwei Linien gleich lang sind.
 
@@ -278,7 +278,7 @@ Seit 2020 enthält der Arbeitsbereich Assembly3 die folgenden Symbolleisten.
 
   - <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg‎‎  style="width:32px;"> [Gleicher Punkt-Linien-Abstand](Assembly3_ConstraintEqualPointLineDistance/de.md): Zum Festlegen, dass der Abstand eines Punktes zu einer Linie gleich dem Abstand eines weiteren Punktes zu einer anderen Linie ist.
 
-  - <img alt="" src=images/Assembly_ConstraintColinear.svg‎‎  style="width:32px;"> [Kollinear](Assembly3_ConstraintColinear/de.md): Hinzufügen einer \"kollinearen\" Beschränkung um zwei Linien kollinear zu machen.
+  - <img alt="" src=images/Assembly_ConstraintColinear.svg‎‎  style="width:32px;"> [Kollinear](Assembly3_ConstraintColinear/de.md): Zum Festlegen, dass zwei Linien kollinear verlaufen (fluchten).
 
 
 </div>
@@ -288,7 +288,7 @@ Seit 2020 enthält der Arbeitsbereich Assembly3 die folgenden Symbolleisten.
 
 
 :   Die **Werkzeugleisten der Bedingungen** sind die Hauptschnittstelle für den Zusammenzubau von Einzelteilen.
-:   Sie sind standardmäßig ausgegraut, werden aber aktiviert, sobald mindestens eine Fläche, eine Linie oder ein Punkt eines Teiles ausgewählt wird.
+:   Sie sind standardmäßig ausgegraut, werden aber aktiviert, sobald mindestens eine Fläche, eine Linie oder ein Punkt eines Bauteiles ausgewählt wird.
 :   Normalerweise werden erst die zu verbindenden Elemente ausgewählt und danach die Art der Bedingung.
 :   Die unterschiedlich gefärbten Rahmen kennzeichnen unterschiedliche Eigenschaften der Bedingungen:
 
@@ -337,17 +337,17 @@ Seit 2020 enthält der Arbeitsbereich Assembly3 die folgenden Symbolleisten.
 
 <div class="mw-collapsible-content toccolours">
 
-  - <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:32px;"> [Punkte messen](Assembly3_MeasurePoints/de.md): Füge ein \"Punkte messen\" hinzu, um den Abstand zwischen zwei Punkten in 2D oder 3D zu messen.
+  - <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:32px;"> [Punkte messen](Assembly3_MeasurePoints/de.md): Zum Messen des Abstands zweier Punkte in 2D oder 3D.
 
-  - <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width:32px;"> [Punkt zu Linie messen](Assembly3_MeasurePointLine/de.md): Füge ein \"Punkt zu Linie messen\" hinzu, um den Abstand zwischen einem Punkt und einer linearen Kante in 2D oder 3D zu messen.
+  - <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width:32px;"> [Punkt zu Linie messen](Assembly3_MeasurePointLine/de.md): Zum Messen des Abstands eines Punktes zu einer linearen Kante in 2D oder 3D.
 
-  - <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:32px;"> [Punkt zu Ebene messen](Assembly3_MeasurePointPlane/de.md): Füge ein \"Punkt zu Ebene messen\" hinzu, um den Abstand zwischen einem Punkt und einer Ebene zu messen.
+  - <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:32px;"> [Punkt zu Ebene messen](Assembly3_MeasurePointPlane/de.md): Zum Messen des Abstands eines Punktes zu einer Ebene.
 
-  - <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width:32px;"> [Winkel messen](Assembly3_MeasureAngle/de.md): Füge ein \"Winkel messen\" hinzu, um den Winkel von ebenen Flächen oder linearen Kanten zweier Teile zu messen.
+  - <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width:32px;"> [Winkel messen](Assembly3_MeasureAngle/de.md): Zum Messen des Winkels zwischen ebenen Flächen oder linearen Kanten zweier Bauteile zu messen.
 
-:   Es gibt keine Funktion um einen Radius oder Durchmesser zu messen.
-:   Die Messwerkzeuge überdauern Teiländerungen, z.B. den Abstand zwischen Kanten eines Würfels, wenn die die Größe des Würfels geändert wird.
-:   Wie die Beschränkungen werden diese Berechnungen in Echtzeit ausgeführt und bei jeder Änderung aktualisiert. Hinter den Kulissen ist die Funktion den [Beschränkungen](#Constraints.md) sehr ähnlich. Der Abstand oder Winkel zwischen [Elemente](#Elemente.md) wird auf die gleiche Weise berechnet wie bei [Beschränkungen](#Beschränkungen.md). Die Anzeige im Baum funktioniert auf die gleiche Weise.
+:   Es gibt keine Funktion, um einen Radius oder Durchmesser zu messen.
+:   Die Messwerkzeuge überdauern Bauteiländerungen, z.B. den Abstand zwischen Kanten eines Würfels, wenn die die Größe des Würfels geändert wird.
+:   Wie die Bedingungen werden diese Berechnungen in Echtzeit ausgeführt und bei jeder Änderung aktualisiert. Hinter den Kulissen ist die Funktion den [Bedingungen](#Bedingungen.md) sehr ähnlich. Der Abstand oder Winkel zwischen [Elementen](#Elemente.md) wird auf die gleiche Weise berechnet wie bei [Bedingungen](#Bedingungen.md). Die Anzeige im Baum funktioniert auf die gleiche Weise.
 
 
 </div>
@@ -369,30 +369,29 @@ Hinweis: Wenn der Gleichungslöser auf eine Kombination trifft, die nicht gelös
 
 Assembly3-Bedingungen definieren, wie die Möglichkeiten der Positionierung oder Orientierung zwischen zwei [Elementen](#Elemente.md) reduziert werden. Einige Bedingungen arbeiten sogar mit mehr als zwei Elementen. Ein Element kann eine Fläche, eine Linie oder Kante oder ein Punkt eines Teils sein. Im Allgemeinen werden Bedingungen definiert, indem man erst die gewünschten Elemente und dann die Bedingung aus einer der [Werkzeugleisten](#Werkzeugleisten.md) für Bedingungen auswählt.
 
--   Fixiert 6 Freiheitsgrade, 0 bleiben unbestimmt:
-    -   **Fixierung (Schloss)**: Die Fixiereinschränkung legt alle Freiheitsgrade einer Fläche. Sie sollte in jedem Zusammenbau zur Festlegung eines Basisteils genutzt werden. Es ist sinnvoll auch gleich die \"Bewegung ausschließen für fixierte Teile\"-Funktion (in der Werkzeugleiste) zu aktivieren, um damit ein unbeabsichtigtes Verschieben zu verhindern. In der Regel ist es egal welche Fläche, Linie oder Punkt benutzt wird um ein Teil zu fixieren. Man beachte, dass die Fixierung nur auf den aktuellen Zusammenbau wirkt, d.h. im Falle einer Unterbaugruppe braucht der übergeordnete Zusammenbau noch ein eigenes fixiertes Teil.
-    -   **Anhang**: Legt die Koordinatensysteme der ausgewählten Elemente (zweier oder mehrerer Teile) deckungsgleich aufeinander. Dies ist die für die Berechnung günstigste Funktion und sollte, wo immer möglich, benutzt werden. Man beachte, dass man die Eigenschaften der Elemente nutzen kann, um Abstände und Winkel einzustellen, wenn die [Elemente](#Elements.md) nicht optimal zueinander ausgerichtet sind.
--   Fixiert 5 Freiheitsgrade, 1 bleibt unbestimmt:
-    -   **Lagegleiche Ebenen**: fixes Tx,Ty,Tz, Rx,Ry. Only Rz is free. There remains the rotation around the normal passing through the ''center of the plane''.
--   Fixiert 4 Freiheitsgrade, 2 bleiben unbestimmt:
-    -   **Axial Alignment**: fixes Tx,Ty, Rx,Ry. Only Tz, Rz are free. There remains the rotation around the axis of the shape and the translation along this same axis. Two *PointOnLine* constraints (if the two points are different) give the same result. The \''Colinear\'' constraint too.
-    -   **PointOnLine**: This eliminates the translation and rotation along the normals to the reference line. Only the translation and rotation along the line axis is allowed.
--   Fixiert 3 Freiheitsgrade, 3 bleiben unbestimmt:
-    -   **Same Orientation**: fixes Rx,Rz,Rz. All T\'s remain free.
-    -   **Points Coincident**: fixes Tx,Ty,Tz. All R\'s remain free.
-    -   **PointOnPoint** constraint eliminates the 3 translations.
-    -   **Plane Alignment**: fixes Tz, Rx,Ry (plane motion) and Rz. This eliminates the translation along the normal to the reference plane and the two rotations around the axes of this plane.
--   Fixiert 2 Freiheitsgrade, 4 bleiben unbestimmt:
-    -   **Multi Parallel**: fixes Rx,Ry. all T\'s and Rz remain. This eliminates the two rotations around the axes of the reference plane.
--   Fixiert 1 Freiheitsgrad, 5 bleiben unbestimmt:
-    -   **Points in Plane**: Fixes Tz. This eliminates the translation along the normal to the reference plane.
-    -   **Points Distance**: fixes the distance between the Element origins.
+-   Legt 6 Freiheitsgrade fest, 0 bleiben unbestimmt:
+    -   **Festsetzen (Schloss)**: Die Bedingung Festsetzen legt alle Freiheitsgrade einer Fläche fest. Sie sollte in jedem Zusammenbau zum Verankern eines Basisteils genutzt werden. Es ist sinnvoll auch gleich die Funktion \"Bewegung verhindern\" (in der Werkzeugleiste) zu aktivieren, um damit ein unbeabsichtigtes Verschieben zu verhindern. In der Regel ist es egal welche Fläche, Linie oder welcher Punkt benutzt wird, um ein Teil zu verankern. Man beachte, dass das Festsetzen nur auf den aktuellen Zusammenbau wirkt, d.h. im Falle einer Unterbaugruppe braucht der übergeordnete Zusammenbau noch ein eigenes festgesetztes Teil.
+    -   **Befestigung**: Legt die Koordinatensysteme der ausgewählten Elemente (zweier oder mehrerer Bauteile) deckungsgleich aufeinander. Dies ist die für die Berechnung günstigste Funktion und sollte, wo immer möglich, eingesetzt werden. Man beachte, dass man die Eigenschaften der Elemente nutzen kann, um Abstände und Winkel einzustellen, wenn die [Elemente](#Elements.md) nicht optimal zueinander ausgerichtet sind.
+-   Fixiert 5 Freiheitsgrade fest, 1 bleibt unbestimmt:
+    -   **Deckungsgleiche Ebenen**: Legt Tx,Ty,Tz, Rx,Ry fest, nur Rz bleibt unbestimmt. Es bleibt die Drehung um die Normale durch den \"Mittelpunkt der Fläche\" übrig.
+-   Legt 4 Freiheitsgrade fest, 2 bleiben unbestimmt:
+    -   **Axial ausrichten**: Legt Tx,Ty, Rx,Ry fest, nur Tz, Rz bleiben unbestimmt. Es bleibt die Drehung um die Achse der Form unbestimmt sowie die Verschiebung entlang dieser Achse. Zwei Bedingungen \"Punkt auf Linie\" führen zum gleichen Ergebnis (wenn die Punkte unterschiedlich sind),die Bedingung \"Kollinear\" ebenfalls.
+    -   **Punkt auf Linie**: Dies verhindert die Verschiebung entlang der Normalen auf der Referenzlinie. Nur die Verschiebung entlang der Linie und die Drehung um sie herum sind möglich.
+-   Legt 3 Freiheitsgrade fest, 3 bleiben unbestimmt:
+    -   **Richtungen angleichen**: Legt Rx,Rz,Rz fest, alle Ts bleiben unbestimmt.
+    -   **Punkt auf Punkt**: Legt Tx,Ty,Tz fest, alle Rs bleiben unbestimmt.
+    -   **Ebenen ausrichten**: Legt Tz, Rx,Ry fest (Verschiebung auf der Ebene). Dies verhindert die Verschiebung entlang der Normalen der Referenzebene sowie die Drehung um die Achsen dieser Ebene.
+-   Legt 2 Freiheitsgrade fest, 4 bleiben unbestimmt:
+    -   **Mehrfach Parallel**: Legt Rx,Ry fest, alle Ts und Rz bleiben unbestimmt. Dies verhindert die Drehung um die Achsen der Referenzebene.
+-   Legt 1 Freiheitsgrad fest, 5 bleiben unbestimmt:
+    -   **Punkt auf Ebene**: Legt Tz fest. Dies verhindert die Verschiebung entlang der Normalen der Referenzebene.
+    -   **Punkt zu Punkt Abstand**: Legt den Abstand zwischen den Ursprüngen der Elemente fest.
 
-        :   This gives you more freedom than *Points in Plane*
+        :   Dies gibt einem mehr Freiheiten als *Punkt auf Ebene*.
 
-Other
+Weitere
 
--   **Points on Circle**: fixes Tz and partially Tx,Ty. Freezes the point translation (or several points) on a circle or disk area. You must pick the circle second. This leaves all rotations free and gives limited translation in the circle reference plane.
+-   **Punkt auf Kreis**: Legt Tz und teilweise Tx,Ty fest. Begrenzt die Verschiebung eines Punktes (oder mehrerer Punkte) auf einen Kreis oder einen Scheibenbereich (? disk area). Der Kreis muss als zweites ausgewählt werden. Dies lässt alle Drehungen unbestimmt und ermöglicht begrenzte Verschiebung innerhalb der kreisförmigen Referenzfläche.
 
 \'\': Hinweis: In der folgenden Liste werden Tx,Ty,Tz und Rx,Ry,Rz benutzt, um Translations- (Verschiebe-) und Rotations- (Dreh-) Bewegungen bezogen auf die Koordinatenachsen des betreffenden Elements zu beschreiben. Dies ist nicht immer exakt oder vollständig beschrieben, wie z.B. wenn es eine Linie betrifft, ist es nicht definiert, ob sie in X-Richtung, Y-Richtung oder einem beliebigen Winkel dazwischen verläuft. Das System sorgt eher für Kürze und einfache Vergleichbarkeit, als für eine korrekte aber komplexere Definition. So ist Z normalerweise die Richtung der Flächennormalen der betroffenen Flächen.
 
@@ -404,7 +403,7 @@ Other
 
 Elemente wird in der Arbeitsumgebung Assembly3 als besonderer Begriff benutzt, und Elemente zu verstehen ist wichtig für das Verständnis, wie Assembly3 benutzt werden sollte.
 
-Es ist hilfreich ein Element als einen generellen Begriff für \'auswählbarer Bestandteil\' eines Teiles zu sehen wie z.B. eine Fläche , eine Kante, ein Kreis, eine Ecke oder ein Punkt. Dies sind die Elemente, die ausgewählt werden, um Teile zueinander in Beziehung zu setzen. Im Baum hat ein \'Assembly\'-Ordner drei Unterordner. Neben \'Parts\' und \'Constraints\' gibt es einen Ordner namens \'Elements\', der leer bleibt, solange keine Einschränkungen hinzugefügt werden. Wenn eine Einschränkungen hinzugefügt wird, erhält sie selbst zwei (oder mehr) Blätter, dies sind die ausgewählten Elemente. Auch werden diese Elemente dem \'Elements\'-Ordner hinzugefügt, der eine Liste aller im Zusammenbau benutzten Elemente darstellt. Es ist eine gute Idee, ihre Namen zu ändern (mit der F2-Taste), besonders in größeren Zusammenbauten.
+Es ist hilfreich ein Element als einen generellen Begriff für \'auswählbarer Bestandteil\' eines Bauteils zu sehen wie z.B. eine Fläche, eine Kante, ein Kreis, eine Ecke oder ein Punkt. Dies sind die Elemente, die ausgewählt werden, um Teile zueinander in Beziehung zu setzen. Im Baum hat ein \'Assembly\'-Ordner drei Unterordner. Neben \'Parts\' und \'Constraints\' gibt es einen Ordner namens \'Elements\', der leer bleibt, solange keine Bedingungen hinzugefügt werden. Wenn eine Bedingungen hinzugefügt wird, erhält sie selbst zwei (oder mehr) Blätter, dies sind die ausgewählten Elemente. Auch werden diese Elemente dem Ordner \'Elements\' hinzugefügt, der eine Liste aller im Zusammenbau benutzten Elemente darstellt. Es ist eine gute Idee, ihre Namen zu ändern (mit der F2-Taste), besonders in größeren Baugruppen.
 
 Sehen wir uns ein Beispiel an
 

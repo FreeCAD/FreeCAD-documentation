@@ -21,12 +21,12 @@ L\'outil **TechDraw Vue active** insère une image bitmap de la fenêtre 3D acti
 
 ## utilisation
 
-1.  Aller à la bonne [Vue 3D](3D_view/fr.md).
-2.  S\'il y a plusieurs pages de dessin dans le document : sélectionnez éventuellement la page souhaitée dans la [Vue en arborescence](Tree_view/fr.md). Ceci n\'est pas optionnel pour {{VersionMinus/fr|0.19}}.
+1.  Aller à la bonne [vue 3D](3D_view/fr.md).
+2.  S\'il y a plusieurs pages de dessin dans le document : vous pouvez sélectionner la page souhaitée dans la [vue en arborescence](Tree_view/fr.md).
 3.  Il existe plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ActiveView.svg" width=16px> [Insérer la vue active (dans la vue 3D)](TechDraw_ActiveView/fr.md)**.
-    -   Sélectionnez le bouton **TechDraw → Vues des autres ateliers → <img src="images/TechDraw_ActiveView.svg" width=16px> Insérer la vue active (dans la vue 3D)** dans le menu.
-4.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ActiveView.svg" width=16px> [Insérer la vue active (vue 3D)](TechDraw_ActiveView/fr.md)**.
+    -   Sélectionnez le bouton **TechDraw → Vues des autres ateliers → <img src="images/TechDraw_ActiveView.svg" width=16px> Insérer la vue active (vue 3D)** du menu.
+4.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la fenêtre de dialogue **Sélecteur de pages** s\'ouvre :
     1.  Sélectionnez la page souhaitée.
     2.  Appuyez sur le bouton **OK**.
 5.  Le panneau de tâches **De la vue active à la vue TechDraw** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
@@ -52,9 +52,9 @@ Les éléments suivants peuvent être spécifiés :
 
 ## Remarques
 
--   Les Vues actives sont statiques une fois générées, elles ne sont jamais mises à jour avec les modifications apportées au modèle 3D.
--   Une Vue active est en réalité une [Image](TechDraw_Image/fr.md). Sa **Scale Type** est donc toujours initialisée comme {{Value|Custom}}.
--   Dans {{VersionMinus/fr|0.20}}, une Vue active était un [Symbole](TechDraw_Symbol/fr.md).
+-   Les vues actives sont statiques une fois générées, elles ne sont jamais mises à jour avec les modifications apportées au modèle 3D.
+-   Une vue active est en réalité une [image](TechDraw_Image/fr.md). Sa **Scale Type** est donc toujours initialisée comme {{Value|Custom}}.
+-   Dans {{VersionMinus/fr|0.20}}, une vue active était un [symbole](TechDraw_Symbol/fr.md).
 
 
 
@@ -66,7 +66,7 @@ Voir [TechDraw Image](TechDraw_Image/fr#Propri.C3.A9t.C3.A9s.md).
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

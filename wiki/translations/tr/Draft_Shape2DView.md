@@ -47,13 +47,15 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
 
 {{TitleProperty|Draft}}
 
--    **Auto Update|Bool**: specifies if the projection should be automatically recomputed if the **Base** object changes. Selecting {{False}} can be useful if there are many Draft Shape2DViews in a document or if they are complex. If set to {{False}} the [Std Refresh](Std_Refresh.md) command must be used to update the projection. <small>(v0.20)</small> 
+-    **Auto Update|Bool**: specifies if the projection should be automatically recomputed if the **Base** object changes. Selecting {{False}} can be useful if there are many Draft Shape2DViews in a document or if they are complex. If set to {{False}} the [Std Refresh](Std_Refresh.md) command must be used to update the projection.
 
 -    **Base|Link**: specifies the object to be projected.
 
+-    **Clip|Bool**: if this is True, the contents are clipped to the borders of the section plane, if applicable. This overrides the base object\'s Clip property.
+
 -    **Face Numbers|IntegerList**: specifies the indices of the faces to be projected. Only works if **Projection Mode** is {{Value|Individual Faces}}.
 
--    **Fuse Arch|Bool**: specifies if [Arch objects](Arch_Workbench.md) of the same type and material are fused or not.
+-    **Fuse Arch|Bool**: specifies if [BIM objects](BIM_Workbench.md) of the same type and material are fused or not.
 
 -    **Hidden Lines|Bool**: specifies if hidden lines are shown or not.
 
@@ -86,7 +88,7 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
     -   
         {{Value|Solid faces}}
         
-        : projects the entire selected object by cutting faces one by one. Can be used if the {{Value|Solid}} mode gives wrong results. <small>(v0.20)</small> 
+        : projects the entire selected object by cutting faces one by one. Can be used if the {{Value|Solid}} mode gives wrong results.
 
 -    **Segment Length|Float**: specifies the size in millimeters of linear segments if **Tessellation** is `True`.
 
@@ -94,7 +96,7 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
 
 -    **Visible Only|Bool**: specifies if the projection should only be recomputed if it is visible.
 
--    **Exclusion Points|Vector list**: A list of exclusion points. Any edge passing through any of those points will not be drawn. <small>(v0.20)</small> 
+-    **Exclusion Points|Vector list**: A list of exclusion points. Any edge passing through any of those points will not be drawn.
 
 -    **Exclusion Names|String list**: A list of object names. Any viewed or cut child object with a name in that list will not be drawn. <small>(v0.21)</small> 
 

@@ -1,10 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM ConstraintSpring
    Name/fr: FEM Ressort
    MenuLocation: Modèle , Conditions limites et charges mécaniques , Ressort
    Workbenches: FEM_Workbench/fr
    Version: 0.20
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintSpring/fr
@@ -22,9 +28,10 @@ Définit une condition limite de ressort à utiliser pour les analyses mécaniqu
 
 ## Utilisation
 
-1.  Utiliser soit le bouton de la barre d\'outils **<img src="images/FEM_ConstraintSpring.svg" width=16px> [Ressort](FEM_ConstraintSpring/fr.md)** soit **Modèle → Conditions limites et charges mécaniques → <img src="images/FEM_ConstraintSpring.svg" width=16px> Ressort** du menu.
-2.  Dans la [vue 3D](3D_view/fr.md), sélectionner les faces auxquelles le ressort doit être appliqué.
-3.  Spécifier la rigidité normale ou tangentielle (en N/m) et sélectionnez celle qu\'Elmer doit utiliser.
+1.  Utilisez soit le bouton de la barre d\'outils **<img src="images/FEM_ConstraintSpring.svg" width=16px> [Ressort](FEM_ConstraintSpring/fr.md)** soit **Modèle → Conditions limites et charges mécaniques → <img src="images/FEM_ConstraintSpring.svg" width=16px> Ressort** du menu.
+2.  Appuyez sur le bouton **Ajouter**.
+3.  Dans la [vue 3D](3D_view/fr.md), sélectionnez les faces auxquelles le ressort doit être appliqué. Pour supprimer des faces de la sélection, appuyez sur le bouton **Supprimer** et cliquez dessus.
+4.  Spécifiez la rigidité normale ou tangentielle (en N/m) et sélectionnez celle qu\'Elmer doit utiliser.
 
 
 

@@ -186,7 +186,7 @@ Pour créer des B-splines périodiques (B-splines qui forment une courbe fermée
 
 ![](images/Sketcher_Periodic-B-spline-creation.gif )
 
-Les B-splines peuvent également être générées à partir de segments d\'esquisse existants. Pour ce faire, sélectionnez les éléments et appuyez sur le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Sketcher Convertir en B-spline](Sketcher_BSplineApproximate/fr.md)**.
+Les B-splines peuvent également être générées à partir de segments d\'esquisse existants. Pour ce faire, sélectionnez les éléments et appuyez sur le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplineConvertToNURBS.svg style="width:24px"> [Sketcher Convertir en B-splines](Sketcher_BSplineConvertToNURBS/fr.md)**.
 
 Lors de la création d\'une courbe B-spline, son degré peut être spécifié en appuyant sur la touche **D**. Ceci permet d\'annuler l\'option par défaut qui consiste à créer une courbe B-spline cubique si possible. {{Version/fr|0.20}}
 

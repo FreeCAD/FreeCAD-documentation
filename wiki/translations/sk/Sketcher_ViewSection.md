@@ -16,19 +16,33 @@
 
 ## Opis
 
+
+<div class="mw-translate-fuzzy">
+
 Nástroj \"Zobrazenie rezu\" vytvorí reznú rovinu, ktorá dočasne skryje akýkoľvek materiál nachádzajúci sa pred reznou rovinou.
 
-<img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:320px;"> 
+
+</div>
+
+<img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:300px;"> 
 *Čiastočne skrytý náčrt a plne viditeľný náčrt*
 
 
 
 ## Použitie
 
+See also: [Sketcher Preferences](Sketcher_Preferences#Display.md).
+
+
+<div class="mw-translate-fuzzy">
+
 Tento príkaz môžete spustiť viacerými spôsobmi:
 
 -   Stlačte tlačidlo **[<img src=images/Sketcher_ViewSection.svg style="width:16px"> [Zobraziť rez](Sketcher_ViewSection.md)** na zmenu medzi zobrazením rezu a plným zobrazením.
 -   Použite príkaz **Náčrt → Zobraziť rez** z rozbaľovacieho menu.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

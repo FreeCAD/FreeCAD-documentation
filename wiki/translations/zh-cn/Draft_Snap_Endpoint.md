@@ -1,7 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Snap Endpoint
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Snapping , Snap endpoint
+   Workbenches: Draft_Workbench, BIM_Workbench
    SeeAlso: Draft_Snap, Draft_Snap_Lock
 ---
 
@@ -30,6 +31,8 @@
 
 
 </div>
+
+
 
 ## 如何使用
 

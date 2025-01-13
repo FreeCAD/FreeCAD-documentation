@@ -42,10 +42,6 @@ Crea un vincolo FEM per una condizione limite di temperatura.
 
 </div>
 
-### Option
-
-By default, this feature defines a temperature boundary condition. By using the option **Concentrated heat flux**, one can specify a heat flux value (in mW) in each node belonging to the selected geometrical entity.
-
 
 
 ## Note

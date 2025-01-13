@@ -18,6 +18,8 @@ Lors de l\'exportation d\'un modèle FreeCAD au format de fichier IFC, si votre 
 
 Remarquez que, bien que tout autre objet BIM puisse être ajouté à un projet, ce que la norme IFC n\'interdit pas, la façon courante de procéder consiste toujours à n\'avoir que des [Sites](Arch_Site/fr.md) ou des [Bâtiments](Arch_Building/fr.md) comme enfants directs d\'un projet. Tous les autres objets BIM doivent être à l\'intérieur de ces sites ou bâtiments. Le projet lui-même doit toujours figurer en haut de la structure de votre modèle, c\'est-à-dire qu\'il ne doit pas être inclus dans un autre objet.
 
+
+
 ## Utilisation
 
 1.  Appuyez sur le bouton **<img src="images/_Arch_Project.svg" width=16px> [Projet](Arch_Project/fr.md)** ou appuyez sur les touches **P** puis **O**.
@@ -25,5 +27,13 @@ Remarquez que, bien que tout autre objet BIM puisse être ajouté à un projet, 
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/fr
+⏵ [documentation index](../README.md) > Arch Project/fr

@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name/it: Sposta
-   MenuLocation: Sketch , Strumenti , Sposta
+   MenuLocation: Schizzo , Strumenti , Sposta
    Workbenches: Sketcher_Workbench/it
    Shortcut: **Z** **M**
    Version: 0.18
@@ -14,9 +14,12 @@
 
 ## Descrizione
 
-Sposta da un punto a un altro gli elementi dello schizzo selezionati, utilizzando l\'ultimo punto selezionato come riferimento.
+Il comando <img alt="" src=images/Sketcher_Move.svg  style="width:16px;"> [Sposta](Sketcher_Move/it.md) muove da un punto ad un altro gli elementi dello schizzo selezionati, utilizzando l\'ultimo punto selezionato come riferimento.
 
-![](images/sketcher_move.png‎ ) 
+![](images/sketcher_move.png‎ )
+
+
+
 *La sequenza dei clic è indicata dalle frecce gialle con i numeri. Selezionare l'elemento '''A'''; appare una linea vettoriale indicata da due linee rosse dal punto di cardine '''A''' che punta alla posizione numero '''2''' del mouse. Spostare il puntatore del mouse sulla posizione di destinazione '''3''' e vedere che ora l'elemento '''B''' è auto vincolato sul punto '''3'''.*
 
 

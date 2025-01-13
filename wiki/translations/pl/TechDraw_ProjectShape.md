@@ -74,15 +74,9 @@ Obiekt **Rzutowanie kształtów** wywodzi się z obiektu [Część: Cecha](Part_
 
 
 
-## Uwagi
-
-Narzędzie to było wcześniej dostępne w środowisku pracy Kreślenie.
 
 
-
-
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

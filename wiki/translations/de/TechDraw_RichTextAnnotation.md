@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: TechDraw RichTextAnnotation
-   Name/de: TechDraw FormatierteTextAnmerkung
-   MenuLocation: TechDraw , Anmerkungen , Rich-Text-Anmerkungen einfügen
+   Name/de: TechDraw FormatierterBeschriftungstext
+   MenuLocation: TechDraw , Beschriftungen , Formatierten Beschriftungstext einfügen
    Workbenches: TechDraw_Workbench/de
    Version: 0.19
    SeeAlso: TechDraw_Templates/de
@@ -14,21 +14,21 @@
 
 ## Beschreibung
 
-Das Werkzeug **TechDraw FormatierteTextAnmerkung** fügt einer [Hinweislinie](TechDraw_LeaderLine/de.md) oder einer Ansicht einen formatierten Beschriftungsblock hinzu .
+Das Werkzeug **TechDraw FormatierterBeschriftungstext** fügt einer [Hinweislinie](TechDraw_LeaderLine/de.md) oder einer Ansicht einen formatierten Beschriftungsblock hinzu .
 
 <img alt="" src=images/TechDraw_RichTextBlock_sample.png  style="width:220px;"> 
-*Eigenständige FormatierteTextAnmerkung*
+*Eigenständiger formatierter Beschriftungstext*
 
 
 
 ## Anwendung
 
 1.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](Tree_view/de.md) aktivieren.
-2.  Um eine Rich-Text-Beschriftung an eine [Hinweislinie](TechDraw_LeaderLine/de.md) anzuhängen, wird die Linie in der [Baumansicht](Tree_view/de.md) oder auf dem Zeichnungsblatt ausgewählt.
+2.  Um eine formatierte (Rich-Text-) Beschriftung an eine [Hinweislinie](TechDraw_LeaderLine/de.md) anzuhängen, wird die Linie in der [Baumansicht](Tree_view/de.md) oder auf dem Zeichnungsblatt ausgewählt.
 3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-    -   Die Schaltfläche **<img src="images/TechDraw_RichTextAnnotation.svg" width=16px> [Rich-Text-Anmerkung einfügen](TechDraw_RichTextAnnotation/de.md)** drücken.
-    -   Den Menüeintrag **TechDraw → Anmerkungen → <img src="images/TechDraw_RichTextAnnotation.svg" width=16px> Rich-Text-Anmerkung einfügen** auswählen.
-4.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+    -   Die Schaltfläche **<img src="images/TechDraw_RichTextAnnotation.svg" width=16px> [Formatierten Beschriftungstext einfügen](TechDraw_RichTextAnnotation/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Beschriftungen → <img src="images/TechDraw_RichTextAnnotation.svg" width=16px> Formatierten Beschriftungstext einfügen** auswählen.
+4.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
     1.  Das gewünschte Blatt auswählen.
     2.  Die Schaltfläche **OK** drücken.
 5.  Der Aufgaben-Bereich wird geöffnet und ermöglicht eine schnelle Eingabe von Text.
@@ -40,7 +40,7 @@ Das Werkzeug **TechDraw FormatierteTextAnmerkung** fügt einer [Hinweislinie](Te
 
 ## Hinweise
 
--   Nach der Erstellung kann ein RichTextAnnotation-Objekt mit einem Doppelklick auf dem Zeichnungsblatt zum Bearbeiten ausgewählt werden.
+-   Nach der Erstellung kann das RichTextAnnotation-Objekt des formatierten Beschriftungstextes mit einem Doppelklick auf dem Zeichnungsblatt zum Bearbeiten ausgewählt werden.
 
 
 
@@ -58,9 +58,9 @@ Das Werkzeug **TechDraw FormatierteTextAnmerkung** fügt einer [Hinweislinie](Te
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug **FormatierteTextAnmerkung** kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus verwendet werden.
+Das Werkzeug **FormatierterBeschriftungstext** kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus verwendet werden.
 
 
 ```python

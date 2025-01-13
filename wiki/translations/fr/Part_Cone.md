@@ -23,7 +23,7 @@ Le Part Cône par défaut est tronqué. On peut le transformer en un cône compl
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Part_Cone.svg" width=16px> [Cône](Part_Cone/fr.md)**.
-    -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Cone.svg" width=16px> Cône** dans le menu.
+    -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Cone.svg" width=16px> Cône** du menu.
 2.  Le cône est créé.
 3.  Vous pouvez modifier les dimensions et le **Placement** du cône en effectuant l\'une des opérations suivantes :
     -   Double-cliquez sur l\'objet dans la [vue en arborescence](Tree_view/fr.md) :

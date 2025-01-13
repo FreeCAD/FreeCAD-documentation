@@ -12,25 +12,24 @@
 
 </div>
 
+
+
 ## Descriere
 
-The **Validate sketch** utility can be used to analyze and repair a sketch that is no longer editable or has invalid constraints, or to add missing [coincident constraints](Sketcher_ConstrainCoincident.md) to a sketch created from imported geometry such as DXF files. It can also be useful to locate a missing coincidence in a native sketch that generates a \"can\'t validate broken face\" error when trying to apply a PartDesign feature.
+The <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:24px;"> [Sketcher ValidateSketch](Sketcher_ValidateSketch.md) tool can analyze and repair a sketch that is no longer editable or has invalid constraints, or add missing [coincident constraints](Sketcher_ConstrainCoincident.md) to a sketch created from imported geometry such as DXF files. It can also be useful to locate a missing coincidence in a native sketch that generates an error when trying to apply a PartDesign feature.
 
-![](images/Sketcher_ValidateSketch_taskpanel.png ) 
+<img alt="" src=images/Sketcher_ValidateSketch_taskpanel.png  style="width:" height="500px;"> 
 *The Sketcher validation task panel*
 
 ## Usage
 
-1.  This tool cannot be used on a sketch that is in edit mode. If required exit edit mode by doing one of the following:
-    -   Press the **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button.
-    -   Press the **Close** button at the top of the [Task panel](Task_panel.md).
-    -   Use the keyboard shortcut: **Esc** (if enabled in the [Sketcher Preferences](Sketcher_Preferences#General.md)).
-2.  Select the sketch to be validated from the [Tree view](Tree_view.md) or by clicking on one of its edges in the [3D view](3D_view.md).
-3.  To open the validate sketch utility do one of the following:
-    -   Select the **Sketch → Validate sketch...** option from the menu.
-    -   Press the **[<img src=images/Sketcher_ValidateSketch.svg style="width:16px"> [Validate sketch](Sketcher_ValidateSketch.md)** button (not available in the [PartDesign Workbench](PartDesign_Workbench.md)).
-4.  See [Options](#Options.md) below for the available operations.
-5.  Press the **Close** button when done.
+1.  This tool cannot be used while a sketch is in edit mode. To finish edit mode see [Sketcher LeaveSketch](Sketcher_LeaveSketch.md).
+2.  Select a sketch.
+3.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ValidateSketch.svg" width=16px> [Validate sketch...](Sketcher_ValidateSketch.md)** button.
+    -   Select the **Sketch → <img src="images/Sketcher_ValidateSketch.svg" width=16px> Validate sketch...** option from the menu.
+4.  The **Sketcher validation** task panel opens. See [Options](#Options.md) for more information.
+5.  Press the **Close** button to finish.
 
 ## Options
 

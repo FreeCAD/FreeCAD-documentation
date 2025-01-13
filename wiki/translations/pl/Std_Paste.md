@@ -21,7 +21,7 @@ Polecenie **Wklej** powoduje wklejenie obiektów ze Schowka do aktywnego dokumen
 ## Użycie
 
 1.  Istnieje kilka sposobów na wywołanie tego polecenia:
-    -   Naciśnij przycisk **<img src="images/Std_Paste.svg" width=16px> '''Wklej'''**.
+    -   Naciśnij przycisk **<img src="images/Std_Paste.svg" width=16px> [Wklej](Std_Paste/pl.md)**.
     -   Wybierz z menu opcję **Edycja → <img src="images/Std_Paste.svg" width=16px> Wklej**.
     -   Wybierz opcję **<img src="images/Std_Paste.svg" width=16px> Wklej** z menu kontekstowego [Widoku drzewa](Tree_view/pl.md). Zauważ, że ta opcja jest dostępna tylko wtedy, gdy zaznaczony jest istniejący obiekt.
     -   Użyj skrótu klawiaturowego: **Ctrl** + **V**.
@@ -39,13 +39,15 @@ Polecenie **Wklej** powoduje wklejenie obiektów ze Schowka do aktywnego dokumen
 
 ## Ustawienia
 
--   Duplikaty etykiet są dozwolone, gdy opcja **Przybory→ Edycja parametrów ... → BaseApp → Preferencje → Dokument → DuplicateLabels** jest ustawione na wartość {{TRUE/pl}}. To ustawienie można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
+Zobacz też: [Edytor preferencji](Preferences_Editor/pl.md).
+
+-   Aby pozwolić na zduplikowane etykiety, zaznacz opcję **Edycja → Preferencje... → Ogólne → Dokument → Pozwalaj na zduplikowane etykiety obiektów w jednym dokumencie**. Nie jest to jednak zalecane.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

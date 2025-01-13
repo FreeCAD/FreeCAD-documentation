@@ -32,32 +32,33 @@ Der Befehl **Std OrthogonaleKamera** schaltet die Kamera in der aktiven [3D Ansi
 
 ## Einstellungen
 
--   Der Kameratyp kann in den Einstellungen geändert werden: **Bearbeiten → Voreinstellungen... → Anzeige → 3D Ansicht → Kameratyp**. Der gewählte Typ wird für alle 3D Ansichten aller geöffneten Dokumente und auch für neue Dokumente verwendet. Siehe [Einstellungseditor](Preferences_Editor/de#3D_Ansicht.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Der Kameratyp kann geändert werden: **Bearbeiten → Voreinstellungen... → Anzeige → 3D-Ansicht → Kameratyp**. Der gewählte Typ wird für alle 3D Ansichten aller geöffneten Dokumente und auch für neue Dokumente verwendet.
 
 
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um die Ansicht auf orthogonal zu ändern, verwende die Methode `setCameraType` des AktiveAnsicht Objekts. Diese Methode ist nicht verfügbar, wenn sich FreeCAD im Konsolenmodus befindet.
+Die Methode `setCameraType` des View-Objekts wird verwendet, um die Ansicht auf orthogonal oder perspektivisch zu ändern.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.setCameraType('Orthographic')
-FreeCADGui.ActiveDocument.ActiveView.getCameraType()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.setCameraType("Perspective")
+view.setCameraType("Orthographic")
+view.getCameraType()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

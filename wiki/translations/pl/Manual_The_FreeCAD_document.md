@@ -1,24 +1,20 @@
 # Manual:The FreeCAD document/pl
 {{Manual:TOC}}
 
-A FreeCAD document contains all the objects of your scene. It can contain groups and objects made with any workbench. You can therefore switch between workbenches, and still work on the same document and/or objects within that document. The document is what gets saved to disk when you save your work. You can also open several documents at the same time in FreeCAD, and open several views of the same document.
+Dokument FreeCAD stanowi rdzeń twojego środowiska projektowego, obejmując wszystkie obiekty i elementy tworzące twoją scenę. Może zawierać różnorodne obiekty utworzone w różnych środowiskach pracy, co umożliwia płynną integrację i elastyczność podczas przełączania się między środowiskami pracy w obrębie tego samego dokumentu. Dokument to zasadniczo plik, który zapisujesz na dysku, zawierający całą twoją pracę, a FreeCAD pozwala na jednoczesne otwieranie wielu dokumentów oraz wielu widoków tego samego dokumentu.
 
-![](images/Freecad-document-01.jpg )
+W obrębie dokumentu możesz organizować obiekty w grupy, z których każda ma unikalną nazwę, co ułatwia identyfikację i zarządzanie. Zarządzanie grupami, obiektami i ich nazwami odbywa się głównie w [widoku drzewa](tree_view/pl.md). Użytkownicy mogą tworzyć nowe grupy, przypisywać obiekty do tych grup oraz je usuwać. Bardziej szczegółowe dostosowania, takie jak zmiana nazw obiektów, ich właściwości wizualnych (np. koloru) czy widoczności, można wykonać, klikając prawym przyciskiem myszy obiekt lub grupę w widoku drzewa. Dodatkowe funkcje mogą być również dostępne w zależności od aktywnego środowiska pracy.
 
-Inside the document, the objects can be moved into groups, and have a unique name. Managing groups, objects and object names is done mainly from the Tree view. There, you can create groups, move objects to groups, delete objects or groups. By right-clicking in the tree view or on an object, you can rename objects, change their color, hide or show them, or possibly other operations, depending on the current workbench.
+Obiekty w dokumencie FreeCAD różnią się znacznie pod względem typu, ponieważ każde środowisko pracy wprowadza swój unikalny rodzaj obiektów. Na przykład, [środowisko pracy Siatka](Mesh_Workbench/pl.md) jest znane z dodawania obiektów siatkowych, podczas gdy [środowisko pracy Część](Part_Workbench/pl.md) zapewnia obiekty typu Część. W każdej sesji FreeCAD, jeśli przynajmniej jeden dokument jest otwarty, ten dokument jest uznawany za aktywny i wyświetlany w bieżącym widoku 3D. Jest to dokument, który aktywnie edytujesz. Przełączając zakładki na inny dokument, nowo wybrana zakładka staje się aktywnym dokumentem, a większość operacji będzie stosowana do niego.
 
-![](images/Freecad-document-02.jpg )
+Dokumenty FreeCAD są zapisywane w formacie pliku .FCStd, który wykorzystuje strukturę opartą na zipie, podobną do formatów używanych przez oprogramowanie takie jak LibreOffice. Jeśli pojawią się problemy techniczne, dokument często można rozpakować, co umożliwia bezpośredni dostęp do jego zawartości w celu rozwiązywania problemów lub odzyskiwania danych. Ta funkcjonalność stanowi dodatkową ochronę, zapewniając, że twoja praca projektowa może być zachowana i odzyskana nawet w przypadku niespodziewanych okoliczności.
 
-The objects inside a FreeCAD document can be of different types. Each workbench can add its own types of objects, for example the [Mesh Workbench](Mesh_Workbench.md) adds mesh objects, the [Part Workbench](Part_Workbench.md) adds Part objects, etc.
+![](images/FreeCAD_022_Document.png )
 
-If there is at least one document open in FreeCAD, there is always one and only one active document. That\'s the document that appears in the current 3D view, the document you are currently working on. If you switch tabs to another document, that one becomes the active document. Most operations always work on the active document.
+**Więcej informacji:**
 
-FreeCAD documents are saved with the .FcStd extension, which is a zip-based compound format, similar to [LibreOffice](https://www.libreoffice.org). If something goes very wrong, it is often possible to unzip it and fix the problem or rescue the data.
-
-**Read more**
-
--   [The FreeCAD document](Document_structure.md)
--   [File Format FCStd](File_Format_FCStd.md)
+-   [Struktura dokumentu](Document_structure/pl.md)
+-   [Format pliku FCStd](File_Format_FCStd/pl.md)
 
 
 

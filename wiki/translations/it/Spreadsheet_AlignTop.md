@@ -1,9 +1,9 @@
 ---
  GuiCommand:
-   Name: Spreadsheet_AlignTop
-   Name/it: Allinea in alto
+   Name: Spreadsheet AlignTop
+   Name/it: Spreadsheet Allinea in alto
+   MenuLocation: Foglio di calcolo , Allineamento , Allinea in alto
    Workbenches: Spreadsheet_Workbench/it
-   MenuLocation: Spreadsheet , Allineamento , In alto
    Version: 0.17
 ---
 
@@ -13,15 +13,17 @@
 
 ## Descrizione
 
-Lo strumento <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:16px;"> **Allinea in alto** rende il testo all\'interno della cella allineato alla parte superiore della cella.
+Lo strumento <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> **Spreadsheet Allinea in alto** allinea in alto il contenuto delle celle selezionate.
 
 
 
 ## Utilizzo
 
-1.  Accertarsi che sia attivo un <img alt="" src=images/_Spreadsheet_CreateSheet.svg  style="width:16px;"> [Foglio di calcolo](Spreadsheet_CreateSheet/it.md) in modo che il pulsante sia abilitato.
-2.  Selezionare una cella.
-3.  Premere il pulsante **[<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> In alto** .
+1.  Assicurarsi che ci sia un [foglio di calcolo](Spreadsheet_CreateSheet/it.md) attivo.
+2.  Selezionare una o più celle.
+3.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **[<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Allinea in alto](Spreadsheet_AlignTop/it.md)**.
+    -   Seleziona l\'opzione **Foglio di calcolo → Allineamento → [<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> Allinea in alto** dal menu.
 
 
 

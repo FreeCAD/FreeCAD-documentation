@@ -11,6 +11,11 @@
 
 # Arch PipeConnector/ru
 
+
+</div>
+
+
+
 ## Описание
 
 
@@ -23,6 +28,8 @@
 
 
 </div>
+
+
 
 ## Применение
 
@@ -37,9 +44,13 @@
 
 </div>
 
+
+
 ## Свойства
 
 -    **Radius**: Радиус кривизны этого соединителя
+
+
 
 ## Типичный рабочий процесс 
 
@@ -50,6 +61,8 @@
 
 
 </div>
+
+
 
 ## Программирование
 
@@ -74,7 +87,9 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 -   Creates a `Connector` object from the given `pipes`, which is a list of [Arch Pipes](Arch_Pipe.md), and optionally a `radius` of curvature.
     -   The base objects ([Draft Wires](Draft_Wire.md)) of the [Arch Pipes](Arch_Pipe.md) should share an endpoint so they create a proper, smooth connector.
 
-Пример: 
+Пример:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -108,6 +123,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/ru
+⏵ [documentation index](../README.md) > Arch PipeConnector/ru

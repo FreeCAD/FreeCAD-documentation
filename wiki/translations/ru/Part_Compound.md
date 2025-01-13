@@ -29,6 +29,20 @@ A compound containing pieces that intersect or touch is **invalid** for Boolean 
 To turn this check on go to **Tools → Edit Parameters → Preferences... → Mod → Part → CheckGeometry → RunBOPCheck** and set the parameter to `true`.
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Part_Tools_navi
+
+}}
+
+
 
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/ru

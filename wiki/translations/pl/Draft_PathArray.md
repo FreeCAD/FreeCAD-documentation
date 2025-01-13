@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft PathArray
    Name/pl: Rysunek Roboczy: Szyk po ścieżce
-   MenuLocation: Modyfikacja , Narzędzia szyku , Szyk po ścieżce
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Modyfikacja , Narzędzia szyku , Szyk po ścieżce<br>Modyfikacja , Szyk po ścieżce
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Version: 0.14
    SeeAlso: Draft_OrthoArray/pl, Draft_PolarArray/pl, Draft_CircularArray/pl, Draft_PathLinkArray/pl, Draft_PointArray/pl, Draft_PointLinkArray/pl
 ---
@@ -16,7 +16,7 @@
 
 Polecenie <img alt="" src=images/Draft_PathArray.svg  style="width:24px;"> **Szyk po ścieżce** tworzy zwykły szyk z wybranego obiektu przez umieszczenie kopii wzdłuż ścieżki. Zamiast tego użyj polecenia [Szyk powiązań po ścieżce](Draft_PathLinkArray/pl.md), aby utworzyć bardziej wydajny szyk [powiązań](App_Link.md). Z wyjątkiem typu utworzonych szyków *(szyk powiązań lub zwykły szyk)*, polecenie [Szyk powiązań po ścieżce](Draft_PathLinkArray/pl.md) jest identyczne z tym poleceniem.
 
-Oba polecenia mogą być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale można ich również użyć dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
+Oba polecenia mogą być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale można ich również użyć dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [BIM](BIM_Workbench/pl.md).
 
 <img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;"> 
 *Szyk po ścieżce*
@@ -29,7 +29,8 @@ Oba polecenia mogą być używane na obiektach 2D utworzonych za pomocą środow
 2.  Dodaj obiekt ścieżki do zaznaczenia. Zamiast tego można również wybrać krawędzie. Krawędzie muszą należeć do tego samego obiektu i muszą być połączone.
 3.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_PathArray.svg" width=16px> '''Szyk po ścieżce'''**.
-    -   Wybierz opcję z menu **Modyfikacja → Narzędzia szyku → <img src="images/Draft_PathArray.svg" width=16px> Szyk po ścieżce**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz opcję z menu **Modyfikacja → Narzędzia szyku → <img src="images/Draft_PathArray.svg" width=16px> Szyk po ścieżce**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Modyfikacja → <img src="images/Draft_PathArray.svg" width=16px> Szyk po ścieżce** z menu.
 4.  Szyk zostanie utworzony.
 5.  Opcjonalnie można zmienić [właściwości](#Właściwości.md) szyku w [edytorze właściwości](Property_editor/pl.md).
 
@@ -143,6 +144,8 @@ Właściwości w tej grupie są dostępne tylko dla szyków łączy. Więcej inf
 -    **Ilość|Integer**: określa liczbę elementów w szyku.
 
 -    **Rozwiń szyk|Bool**: określa, czy tablica ma zostać rozwinięta w [widoku drzewa](Tree_view/pl.md), aby umożliwić wybór jej poszczególnych elementów. Dostępne tylko dla szyków łączy.
+
+-    **Scal|Bool**: określa, czy nakładające się elementy w tablicy są łączone, czy nie. Nie używane dla tablic Łączy. {{Version/pl|1.0}}
 
 -    **Obiekt ścieżki|LinkGlobal**: określa obiekt, który ma być użyty dla ścieżki. Musi zawierać {{Value|Krawędzie}} w swoim [kształcie topologicznym](Part_TopoShape/pl.md).
 

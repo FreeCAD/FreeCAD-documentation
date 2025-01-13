@@ -19,7 +19,7 @@ The **Std Refresh** command recomputes the active document. The command is disab
 ## Uso
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** button.
+    -   Press the **<img src="images/Std_Refresh.svg" width=16px> [Refresh](Std_Refresh.md)** button.
     -   Select the **Edit → <img src="images/Std_Refresh.svg" width=16px> Refresh** option from the menu.
     -   Use the keyboard shortcut: **F5**.
 
@@ -39,9 +39,15 @@ The **Std Refresh** command recomputes the active document. The command is disab
 ## Scripting
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Veja também:**
 
 [FreeCAD Noções básicas de programação](FreeCAD_Scripting_Basics/pt-br.md).
+
+
+</div>
 
 To recompute a document use the `recompute` method of the document object.
 
@@ -57,7 +63,7 @@ doc.recompute()
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

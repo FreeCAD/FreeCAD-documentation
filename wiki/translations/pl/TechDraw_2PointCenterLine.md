@@ -44,7 +44,7 @@ Zapoznaj się z informacjami na stronie [Dodaj oś ściany](TechDraw_FaceCenterL
 
 ## Uwagi
 
-Aby usunąć linię środka należy użyć narzędzia **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Usuń obiekt kosmetyczny](TechDraw_CosmeticEraser/pl.md)**.
+Aby usunąć linię środka należy zaznaczyć ją i nacisnąć **Delete**. {{Version/pl|1.0}}
 
 
 

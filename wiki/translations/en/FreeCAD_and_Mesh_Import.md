@@ -11,7 +11,7 @@ To do this:
 4.  Select the newly created shape
 5.  Go to **Part → [Convert to solid](Part_MakeSolid.md)**
 6.  Select the newly created solid
-7.  Go to **Part → [Refine shape](Part_RefineShape.md)** or press the <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part RefineShape](Part_RefineShape.md) button
+7.  Go to **Part → Create a copy → [Refine shape](Part_RefineShape.md)** or press the <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part RefineShape](Part_RefineShape.md) button
 
 **Note:** The last step is not necessary, but it will clean the solid of most of its residual edges on planar and cylindrical surfaces.
 
@@ -19,16 +19,16 @@ To do this:
 
 ### \"cannot convert because shape is not a shell\" 
 
-Well, your shell seems to have errors, maybe it is not closed (has holes). Since the capabilities of the mesh workbench in FreeCAD are a little limited at the moment, you might want to try examining and repairing of your model with third-party software. After doing that, you may try importing and converting of your model again.
+Well, your shell seems to have errors, maybe it is not closed (has holes). Since the capabilities of the Mesh workbench in FreeCAD are a little limited at the moment, you might want to try examining and repairing your model with third-party software. After doing that, you may try importing and converting your model again.
 
 ## Third Party Programs 
 
--   [Meshlab](http://meshlab.sourceforge.net/)
+-   [MeshLab](https://www.meshlab.net/)
     -   License: Open Source (GPL V2)
     -   Runs on Windows 32/64 bit, Linux and macOS
--   [netFabb basic](http://www.netfabb.com/downloadcenter.php?basic=1)
+-   [Meshmixer](https://meshmixer.com/)
     -   License: Freeware
-    -   Runs on Windows XP/7/8, Linux and macOS
+    -   Runs on Windows 64-bit
 
 ## Tutorials
 

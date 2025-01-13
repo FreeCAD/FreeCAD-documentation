@@ -1,22 +1,32 @@
 ---
- GuiCommand:Addon
+ GuiCommand:
    Name: BIM Windows
-   Workbenches: Image:IFC.svg BIM Workbench
-   Addon: BIM
-   MenuLocation: Manage , Windows
+   MenuLocation: Manage , Manage doors and windows...
+   Workbenches: BIM_Workbench
 ---
 
 # BIM Windows/hr
 
+
+
 ## Opis
 
-The BIM windows manager dialog allows you to browse and modify all the [windows and doors](Arch_Window.md) of your project together. This is often more convenient than editing them one by one, and allows you to make sure that they all have the parameters you require correctly set, such as tag, dimensions, description or material.
+The **BIM Windows Manager** dialog allows you to browse and modify all the [windows and doors](Arch_Window.md) of your project together. This is often more convenient than editing them one by one, and allows you to make sure that they all have the parameters you require correctly set, such as tag, dimensions, description or material.
 
-<img alt="" src=images/BIM_windows_screenshot.png  style="width:800px;">
+<img alt="" src=images/BIM_windows_screenshot.png  style="width:600px;"> 
+*BIM Windows Manager*
 
 ## Usage
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/hr
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Windows/hr

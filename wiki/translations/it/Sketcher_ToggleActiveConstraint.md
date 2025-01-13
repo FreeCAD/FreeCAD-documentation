@@ -1,56 +1,74 @@
 ---
  GuiCommand:
    Name: Sketcher ToggleActiveConstraint
-   Workbenches: Sketcher_Workbench
-   MenuLocation: Sketch , Sketcher constraints , Activate/deactivate constraint
+   Name: Sketcher Attiva/disattiva vincolo
+   Workbenches: Sketcher_Workbench/it
+   MenuLocation: Schizzo , Vincoli Sketcher , Attiva/disattiva vincolo
    Shortcut: **K** **Z**
    Version: 0.19
-   SeeAlso: Sketcher_ToggleDrivingConstraint
+   SeeAlso: Sketcher_ToggleDrivingConstraint/it
 ---
 
 # Sketcher ToggleActiveConstraint/it
 
-## Description
 
 
-**[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)**
+## Descrizione
 
-allows you to activate and deactivate an already placed constraint. This allows you to keep the constraint in the background but temporarily test another arrangement of the existing geometry.
+Lo strumento <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:24px;"> [Sketcher Attiva/disattiva vincolo](Sketcher_ToggleActiveConstraint/it.md) attiva o disattiva i vincoli selezionati. La disattivazione dei vincoli consente di testare altre disposizioni geometriche senza eliminare i vincoli.
 
-The **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Toggle driving constraint](Sketcher_ToggleDrivingConstraint.md)** tool is similar in that it disables the effect of the constraint; however, with this tool, the constraint does not keep its old value. On the other hand, with **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)** you can re-activate the old constraint immediately.
-
-## Usage
-
-1.  Select an already placed constraint, then press **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)**.
-2.  Alternatively, got to the [task panel](task_panel.md), to the **Constraints** section, select the constraint, then open the context menu (right-click), and select **Deactivate**.
-3.  To activate the constraint again, select it, and press **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)** again.
-
-## Examples
-
-<img alt="" src=images/Sketcher_ToggleActiveConstraint_example_active.png  style="width:" height="350px;"> 
-*Fully constrained sketch.*
-
-<img alt="" src=images/Sketcher_ToggleActiveConstraint_example_disabled_1.png  style="width:" height="350px;"> <img alt="" src=images/Sketcher_ToggleActiveConstraint_example_disabled_2.png  style="width:" height="350px;"> 
-*Left: deactivated constraint; the sketch is no longer fully constrained. Right: the unconstrained geometry can be moved around; the older constraint is still available, and can be re-activated to return to the fully constrained sketch.*
-
-<img alt="" src=images/Sketcher_ToggleActiveConstraint_task_panel.png  style="width:" height="350px;"> 
-*Task panel with the deactivated constraint.*
-
-## Scripting
+Questo strumento è simile a [Sketcher Attiva/disattiva vincolo di guida/riferimento](Sketcher_ToggleDrivingConstraint/it.md), ma contrariamente a quello strumento funziona anche per i vincoli geometrici ed i valori dei vincoli dimensionali disattivati ​​vengono conservati.
 
 
-**See also:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Utilizzo
 
-The active status of a constraint can be controlled in [macros](macros.md) and from the [Python console](Python_console.md). 
+1.  Selezionare uno o più vincoli.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_ToggleActiveConstraint.svg" width=16px> [Attiva/disattiva vincolo](Sketcher_ToggleActiveConstraint/it.md)**.
+
+    -   Selezionare l\'opzione **Schizzo → Vincoli Sketcher → <img src="images/Sketcher_ToggleActiveConstraint.svg" width=16px> Attiva/disattiva vincolo** dal menu.
+
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [Vista 3D](3D_view/it.md) e selezionare l\'opzione **<img src="images/Sketcher_ToggleActiveConstraint.svg" width=16px> Attiva/disattiva vincolo** dalla menu contestuale.
+
+    -   Nella sezione **Vincolo** della [Finestra di dialogo Sketchcher](Sketcher_Dialog/it.md) selezionare l\'opzione **Attiva** o **Disattiva** dal menu contestuale. L\'opzione offerta dipende dallo stato del vincolo sotto il cursore.
+
+    -   Usare la scorciatoia da tastiera: **K** quindi **Z**.
+3.  I vincoli selezionati attivi vengono disattivati ​​e diventano grigi (predefinito [color](Sketcher_Preferences/it#Appearance.md)), mentre i vincoli selezionati disattivati ​​vengono attivati ​​e tornano al rosso (colore predefinito).
+
+
+
+## Esempio
+
+<img alt="" src=images/Sketcher_ToggleActiveConstraint_example_active.png  style="width:400px;"> 
+*Uno schizzo completamente vincolato‎.*
+
+<img alt="" src=images/Sketcher_ToggleActiveConstraint_example_disabled_1.png  style="width:400px;"> 
+*Uno dei vincoli angolari è stato disattivato, lo schizzo non è più completamente vincolato.*
+
+<img alt="" src=images/Sketcher_ToggleActiveConstraint_example_disabled_2.png  style="width:400px;"> 
+*La geometria non vincolata può essere spostata. Il vincolo disattivato è ancora disponibile e può essere riattivato per ritornare allo schizzo completamente vincolato.*
+
+
+
+## Script
+
+
+**Vedere anche:**
+
+[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
+
+Lo stato attivo di un vincolo può essere controllato in [macro](macros/it.md) e dalla [Console Python](Python_console/it.md). 
 ```python
 SketchObject.toggleActive(index)
 ```
 
-Use the `toggleActive` method of an existing [Sketcher SketchObject](Sketcher_SketchObject.md), and the `index` of the constraint to activate it or deactivate it. The index starts from `0` all the way to `N-1`, where `N` is the total number of constraints.
+Utilizzare il metodo `toggleActive` di un [Oggetto schizzo](Sketcher_SketchObject/it.md) esistente e l\'`index` del vincolo per attivarlo o disattivarlo. L\'indice inizia da `0` fino a `N-1`, dove `N` è il numero totale di vincoli.
 
-Example: 
+Esempio: 
 ```python
 import FreeCAD as App
 

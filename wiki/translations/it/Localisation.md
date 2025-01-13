@@ -70,15 +70,15 @@ Quando il Wiki è stato spostato da SourceForge, [Yorik](User_Yorik.md) ha insta
 
 Lo strumento è documentato in [Help:Extension:Translate](http://www.mediawiki.org/wiki/Help:Extension:Translate), ed è parte di [MediaWiki Language Extension Bundle](http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle).
 
-Per sapere come preparare rapidamente una pagina per la traduzione e attivare il plugin, si prega di leggere [Page translation example](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example). In sostanza, una coppia di tag
+Per sapere come preparare rapidamente una pagina per la traduzione e attivare il plugin, si prega di leggere [Page translation example](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example). Una coppia di tag deve contenere l\'intera pagina per attivare il sistema di traduzione:
 
     &lt;translate&gt; ... &lt;/translate&gt;
 
-deve circondare l\'intera pagina per attivare il sistema di traduzione e la pagina deve essere contrassegnata per la traduzione.
+La pagina deve anche essere contrassegnata per la traduzione.
 
 Per vedere un esempio di come funziona lo strumento di traduzione, visitare la [Pagina principale](Main_Page/it.md). Si vedrà una barra della lingua generata automaticamente in alto. Cliccare su [Deutsch](Main_Page/de.md) (tedesco), si andrà a [Main_Page/de](Main_Page/de.md). Proprio sotto il titolo, \"Hauptseite\" (in inglese \"Main Page\"), si può leggere , XX è la percentuale corrente di traduzione. Fare clic su \"Traduci\" nella parte superiore della pagina per avviare l\'utilità di traduzione per aggiornare, correggere e rivedere la traduzione esistente.
 
-Ora se si va nella pagina [Main Page](Main_Page.md), si nota che quando la pagina viene contrassegnata per la traduzione non è possibile modificarla direttamente, ma che si deve passare attraverso l\'utility di traduzione.
+Ora se si va nella [Pagina Principale](Main_Page/it.md), si nota che quando la pagina viene contrassegnata per la traduzione non è possibile modificarla direttamente, ma si deve passare attraverso l\'utility di traduzione.
 
 Quando si aggiungono nuovi contenuti, prima deve essere creata la pagina inglese, e poi la pagina inglese può essere tradotta in un\'altra lingua. Se qualcuno vuole cambiare o aggiungere dei contenuti in una pagina esistente, deve farlo nella pagina inglese, marcarla per la traduzione e poi tradurre i contenuti editati.
 
@@ -179,12 +179,6 @@ Tutto quello che segue va in automatico per quanto riguarda lo sviluppatore. L\'
 I moduli o le macro di terze parti vengono tradotti più o meno allo stesso modo, tranne per il fatto che si deve eseguire parte del lavoro da solo. Questa [discussione del forum](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) descrive i dettagli.
 
 Aggiornamento: vedere [Traduzione di un ambiente di lavoro esterno](Translating_an_external_workbench/it.md)
-
-
-
-### Precedenti tecniche di traduzione dei moduli 
-
-[Vecchi metodi di localizzazione](Localization_Older_Methods/it.md) descrive in dettaglio l\'uso di strumenti di traduzione come Qt Linguist, lupdate, lrelease, pylupdate4, ecc. La maggior parte di questi strumenti non sono più richiesti per i moduli FreeCAD/master, ma può essere utile conoscerli per la preparazione e l\'aggiornamento di moduli di terze parti.
 
 
 

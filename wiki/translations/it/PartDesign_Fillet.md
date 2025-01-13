@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -21,6 +23,8 @@ Questo strumento crea dei raccordi (arrotondamenti) sui bordi selezionati di un 
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -56,12 +60,12 @@ Questo strumento crea dei raccordi (arrotondamenti) sui bordi selezionati di un 
     -   Press the **Add** button to start selecting edges and/or faces in the [3D view](3D_view.md).
     -   To select all remaining edges do the following:
         1.  If required press the **Add** button.
-        2.  Use the **Ctrl**+**Shift**+**A** keyboard shortcut, or right-click the list and select **Add all edges** from the context menu. <small>(v0.20)</small> 
+        2.  Use the **Ctrl**+**Shift**+**A** keyboard shortcut, or right-click the list and select **Add all edges** from the context menu.
 -   To remove edges do one of the following:
     -   Press the **Remove** button to start deselecting edges and/or faces in the [3D view](3D_view.md). Selected elements are highlighted in purple.
     -   Select one or more elements in the list and press the **Del** key, or right-click the list and select **Remove** from the context menu.
 -   Set the **Radius** of the fillet.
--   Check the **Use all edges** checkbox to select all edges of the previous feature. This deactivates the selection list and the related buttons. <small>(v0.20)</small> 
+-   Check the **Use all edges** checkbox to select all edges of the previous feature. This deactivates the selection list and the related buttons.
 
 ## Notes
 
@@ -101,6 +105,8 @@ A PartDesign Fillet object is derived from a [Part Feature](Part_Feature.md) obj
 {{Properties_Title|Part Design}}
 
 -    **Refine|Bool**: If `True` redundant edges are removed from the result of the operation. The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+
+
 
 
 <div class="mw-translate-fuzzy">

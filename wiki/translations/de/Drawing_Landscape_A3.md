@@ -22,9 +22,11 @@ Wenn die Seite nicht angezeigt wird, klicke auf das <img alt="" src=images/view-
 
 <img alt="" src=images/Drawing_Page.png  style="width:500px;">
 
+
+
 ### Optionen
 
--   Die von einer Seite verwendete Vorlage kann durch Anpassung der Template-Eigenschaft in der Daten-Ansicht geändert werden. Klicke auf das Wertefeld, dann auf den \"\...\"-Button und navigiere zu einer [passenden Vorlage](Drawing_templates/de.md). Dann aktualisiere die Ansicht.
+-   Die von einer Seite verwendete Vorlage kann durch Anpassung der Eigenschaft Template in der Daten-Ansicht geändert werden. Klicke auf das Wertefeld, dann auf die Schaltfläche \"\...\" und navigiere zu einer passenden Vorlage. Dann die Ansicht aktualisieren.
 
 
 {{docnav/de

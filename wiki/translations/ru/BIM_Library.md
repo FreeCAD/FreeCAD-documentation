@@ -10,6 +10,11 @@
 
 # BIM Library/ru
 
+
+</div>
+
+
+
 ## Описание
 
 
@@ -20,10 +25,24 @@
 
 </div>
 
-<img alt="" src=images/BIM_Library_screenshot.png  style="width:800px;"> 
+<img alt="" src=images/BIM_Library_screenshot.png  style="width:600px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Выше: Смотрите диалог '''Library browser''' [панели задач](Task_panel/ru.md) слева*
 
+
+</div>
+
+
+
 ## Применение
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Нажмите кнопку **<img src="images/BIM_Library.png" width=16px> [BIM Library](BIM_Library/ru.md)
 **
@@ -33,7 +52,15 @@
 3.  Дважды щелкните его или нажмите кнопку **Insert**
 4.  Щелкните точку в [трехмерном виде](3D_view/ru.md) или введите координату вручную, чтобы поместить объект
 
+
+</div>
+
+
+
 ## Опции
+
+
+<div class="mw-translate-fuzzy">
 
 -   Поддерживаются файлы [FCStd](FCStd/ru.md), [STEP](STEP/ru.md) и [BREP](BREP/ru.md). Доступны для размещения только файлы STEP и BREP. Файлы FCStd не позволят вам выбрать место размещения, так как они могут состоять из сложной серии объектов со значительными позициями. При выборе файла FCStd его содержимое будет вставлено в позицию, определенную в файле.
 -   Объекты STEP и BREP вставляются как <img alt="Arch Equipment" src=images/Arch_Equipment.svg  style="width:24px;"> [Equipment](Arch_Equipment/ru.md), без отдельной формы основания. Добавление базовой формы к этим объектам впоследствии уничтожит их текущую форму.
@@ -41,6 +68,17 @@
 -   Библиотека может работать в автономном режиме, в этом случае она зависит от устанавливаемой надстройки библиотеки компонентов (и обновляется пользователем), или в сети, и в этом случае она просматривается непосредственно с [репозитория Git библиотеки Parts](https://github.com/FreeCAD/FreeCAD-library) и позволяет скачивать прямо оттуда.
 
 
+</div>
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/ru
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Library/ru

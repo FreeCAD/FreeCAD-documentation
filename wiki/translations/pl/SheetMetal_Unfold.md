@@ -21,15 +21,30 @@ Polecenie <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> **R
 ## Użycie
 
 1.  Wybierz płaską powierzchnię części z blachy.
-2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Rozwiń](SheetMetal_Unfold.md) używając jednego z poniższych sposobów:
-    -   Przycisk **<img src="images/_SheetMetal_Unfold.svg_" width=16px> '''Rozwiń'''**.
-    -   Polecenie menu **SheetMetal → <img src="images/SheetMetal_Unfold.svg" width=16px> Rozwiń**.
-    -   Skrót klawiaturowy: **U**.
-3.  Dostosuj opcje rozkładania w [Panelu zadań](Task_panel/pl.md) poprzez:
-    -   Wybranie opcji rzutowania szkicu rozwinięcia.
-    -   Wybranie metody obliczania zgięcia ze współczynnikiem K:
-        - Użyj [Material Arkusza definicji](https://github.com/shaise/FreeCAD_SheetMetal#material-definition-sheet).
-        - Wybierz samodzielnie [Współczynnik K](https://github.com/shaise/FreeCAD_SheetMetal#terminology), a następnie normę [ANSI lub DIN](https://de.wikipedia.org/wiki/Biegeverkürzung#Korrektur_durch_den_sog._k-Faktor) do zastosowania.
+2.  To polecenie można wywołać na kilka sposobów:
+    -   Wciśnij przycisk **<img src="images/_SheetMetal_Unfold.svg_" width=16px> '''Rozwiń'''**.
+    -   Wybierz opcję **SheetMetal → <img src="images/SheetMetal_Unfold.svg" width=16px> Rozwiń** z menu.
+    -   Kliknij prawym przyciskiem myszy w [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md) i wybierz opcję **Sheet Metal → <img src="images/SheetMetal_Unfold.svg" width=16px> [Rozwiń](SheetMetal_Unfold.md)** z menu kontekstowego.
+    -   Użyj skrótu klawiaturowego: **U**.
+3.  Otwarty zostanie [panel zadań](Task_panel/pl.md) **Unfold sheet metal object**.
+4.  Dostosuj opcje rozwijania w [panelu zadań](Task_panel/pl.md):
+    -   Opcjonalnie aktywuj opcje rzutowania szkicu rozwinięcia i ustaw kolory.
+    -   Opcjonalnie aktywuj opcję eksportu.
+    -   Jeśli nie używasz **Material Definition Sheet** (zobacz [Uwagi](#Uwagi.md)):
+        1.  Ustaw opcję **Material Definition Sheet** na {{Value|Manual K-Factor}}.
+        2.  Opcjonalnie przełącz przyciski ANSI i DIN (zobacz [Uwagi](#Uwagi.md)).
+        3.  Dostosuj wartość Manual K-Factor (zobacz [Uwagi](#Uwagi.md)).
+    -   Opcjonalnie dostosuj przezroczystość obiektu Unfold.
+5.  Wciśnij przycisk **OK** aby zakończyć polecenie i zamknąć panel zadań.
+6.  Utworzony zostanie obiekt **Unfold**.
+7.  Opcjonalnie dostosuj parametry w [Edytorze właściwości](Property_editor/pl.md).
+
+
+
+## Uwagi
+
+-   Zobacz sekcje [Material Definition Sheet](https://github.com/shaise/FreeCAD_SheetMetal#material-definition-sheet) i [K-factor](https://github.com/shaise/FreeCAD_SheetMetal#physical-material-definitions) strony projektu aby uzyskać więcej informacji.
+-   Wyjaśnienie różnych zakresów wartości ISO i ANSI współczynników K można znaleźć w tabeli na [tej](https://de.wikipedia.org/wiki/Biegeverkürzung#Korrektur_durch_den_sog._k-Faktor) stronie (po niemiecku).
 
 
 
@@ -37,17 +52,7 @@ Polecenie <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> **R
 
 Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt **Rozwiń bezobsługowo** środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
-
-
-
-### Dane
-
-
-{{Properties_Title|Podstawowe}}
-
--    **Etykieta|String**: Wartość domyślna: {{value|Rozwiń}} *(+ kolejny numer dla drugiego i kolejnych elementów)*.
-    Nazwa edytowalna przez użytkownika, może to być dowolny ciąg znaków UTF8.
+Obiekt **Rozwiń** środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Nie ma on dodatkowych właściwości.
 
 
 
@@ -57,7 +62,7 @@ Obiekt **Rozwiń bezobsługowo** środowiska Arkusz Blachy wywodzi się z obiekt
 -   Płaskie powierzchnie nie powinny zawierać linii podziału.
 -   Płaskie powierzchnie muszą być prawdziwie płaskie i nie mogą być aproksymacjami krzywych złożonych.
 -   Powierzchnie kątów gięcia muszą być prawdziwie cylindryczne i nie mogą być aproksymacjami krzywych złożonych.
--   Funkcja Rozwiń nie jest parametryczna. Jeśli model zostanie zmodyfikowany, należy go ponownie rozłożyć.
+-   Wersje przed 0.5.00: Funkcja Rozwiń nie jest parametryczna. Jeśli model zostanie zmodyfikowany, należy go ponownie rozłożyć.
 
 
 

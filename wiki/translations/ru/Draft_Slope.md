@@ -23,8 +23,9 @@ The <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Draft Slope**
 
 1.  Select one or more [Draft Lines](Draft_Line.md) and/or [Draft Wires](Draft_Wire.md).
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Slope.svg" width=16px> [Set slope](Draft_Slope.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Slope.svg" width=16px> Set slope** option from the menu.
+    -   [Draft](Draft_Workbench.md): Press the **<img src="images/Draft_Slope.svg" width=16px> [Set slope](Draft_Slope.md)** button.
+    -   Draft: Select the **Modification → <img src="images/Draft_Slope.svg" width=16px> Set slope** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Utils → <img src="images/Draft_Slope.svg" width=16px> Set slope** option from the menu.
 3.  Enter a **Slope** value. {{Value|0}} means each segment is horizontal, {{Value|0.5}} means the delta height for each segment is {{Value|0.5}} times its length, etc. The value can also be negative.
 4.  Press **Enter** or the **OK** button to finish the command.
 

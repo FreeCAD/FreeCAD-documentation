@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/de
    Name: FEM ConstraintInitialTemperature
    Name/de: FEM StartbedingungTemperatur
    MenuLocation: Modell , Thermische Randbedingungen und Belastungen , Startbedingung Temperatur
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
+}}
+{{GuiCommandFemInfo/de
+   Solvers: CalculiX, Elmer
+}}
 ---
 
 # FEM ConstraintInitialTemperature/de
@@ -34,8 +39,8 @@ Dieses Werkzeug ordnet die Starttemperatur allen Knoten im FEA-Modell zu - es is
 
 ## Hinweise
 
--   This tool uses the \*INITIAL CONDITIONS card in CalculiX. It is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node215.html>
--   Initial temperature has to be defined for all thermomechanical analyses performed with CalculiX, even the steady-state ones.
+-   Dieses Werkzeug verwendet die Karte \*INITIAL CONDITIONS in CalculiX. Sie wird unter <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node215.html> erklärt.
+-   Die Anfangstemperatur muss für alle thermomechanischen Analysen, die mit CalculiX durchgeführt werden, definiert werden, auch für die stationären Analysen.
 
 
 

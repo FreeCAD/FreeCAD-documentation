@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -14,6 +16,8 @@ Seleziona gli elementi dello schizzo che sono associati a determinati vincoli
 
 
 </div>
+
+
 
 ## Utilizzo
 

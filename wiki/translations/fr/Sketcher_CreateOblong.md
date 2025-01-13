@@ -13,7 +13,7 @@
 
 ## Description
 
-Cet outil dessine un rectangle arrondi en choisissant deux points opposés. Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône rouge de rectangle arrondi. Les coordonnées du pointeur sont affichées à côté en bleu en temps réel.
+L\'outil <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:24px;"> [Sketcher Rectangle arrondi](Sketcher_CreateOblong.md) crée un rectangle arrondi. {{Version/fr|1.0}} : il s\'agit du même outil que [Sketcher Rectangle](Sketcher_CreateRectangle/fr.md) mais avec un mode initial différent.
 
 ![](images/SketcherCreateRoundedRectangleExample.png‎ )
 
@@ -21,14 +21,13 @@ Cet outil dessine un rectangle arrondi en choisissant deux points opposés. Au d
 
 ## Utilisation
 
--   Après avoir appuyé sur le bouton de la barre d\'outils <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:24px;"> **Rectangle arrondi**, cliquez une fois pour définir le premier coin puis déplacez la souris et cliquez une seconde fois pour définir le coin opposé.
--   Appuyer sur **Echap** ou cliquer sur le bouton droit de la souris annule la fonction.
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
 
-
-
-## Remarques
-
-Voir [Sketcher Rectangle](Sketcher_CreateRectangle/fr#Remarques.md).
+1.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_CreateOblong.svg" width=16px> [Rectangle arrondi](Sketcher_CreateOblong/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Géométries d'esquisse → <img src="images/Sketcher_CreateOblong.svg" width=16px> Créer un rectangle arrondi** du menu.
+    -   Utilisez le raccourci clavier : **G** puis **0**.
+2.  Pour d\'autres étapes, voir [Sketcher Rectangle](Sketcher_CreateRectangle/fr#Utilisation.md).
 
 
 

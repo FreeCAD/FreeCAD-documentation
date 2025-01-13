@@ -21,7 +21,7 @@ La documentation pour les développeurs comprend les sections suivantes :
 -   [Compiler sous Windows](Compile_on_Windows/fr.md)
 -   [Compiler sous Linux](Compile_on_Linux/fr.md)
 -   [Compiler sous Mac OS](Compile_on_MacOS/fr.md)
--   [Détails de licence](Licence/fr.md) à propos des licences de FreeCAD
+-   [Détails de licence](License/fr.md) à propos des licences de FreeCAD
 -   [Bibliothèques tierces](Third_Party_Libraries/fr.md)
 -   [Outils tierces](Third_Party_Tools/fr.md)
 -   [Configuration de démarrage](Start_up_and_Configuration/fr.md)

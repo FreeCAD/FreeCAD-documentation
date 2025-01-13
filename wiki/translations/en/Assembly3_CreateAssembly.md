@@ -11,7 +11,7 @@
 
 ## Description
 
-The **Assembly3 CreateAssembly** command adds a new **Assembly** branch object to the design tree.
+The <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width:24px;"> **Assembly3 CreateAssembly** command adds a new **Assembly** branch object to the model tree.
 
 Each branch object is an <img alt="" src=images/Assembly_Assembly_Tree.svg  style="width:24px;"> **Assembly** container and holds four group containers:
 
@@ -28,9 +28,11 @@ Each branch object is an <img alt="" src=images/Assembly_Assembly_Tree.svg  styl
 
 ## Usage
 
-1.  Create an empty assembly container by pressing **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Create assembly](Assembly3_CreateAssembly.md)
-**
-    or use the keyboard shortcut: **A** then **N**
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Create assembly](Assembly3_CreateAssembly.md)** button.
+    -   Select the **Assembly3 → <img src="images/Assembly_New_Assembly.svg‎‎" width=16px> Create assembly** option from the menu.
+    -   Use the keyboard shortcut **A** then **N**
+2.  An Assembly container is created.
 
 
 

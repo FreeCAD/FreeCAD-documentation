@@ -35,9 +35,9 @@ Si vous utilisez un [système d\'unités](Preferences_Editor/fr#Unit.C3.A9s.md) 
 
 
 
-### Boîte de dialogue 
+### Fenêtre de dialogue 
 
-Cette boîte de dialogue du pipeline a les paramètres suivants :
+Cette fenêtre de dialogue du pipeline a les paramètres suivants :
 
 -   **Mode** : comment dessiner les résultats. Les modes possibles sont:
     -   **Contour** : le contour du maillage du résultat. En fait, n\'affiche aucun résultat mais seulement les bords du maillage.
@@ -66,7 +66,7 @@ et vous pouvez modifier ces propriétés :
 
 ### Éditeur de propriétés 
 
-Dans l\'[éditeur de propriétés](Property_editor/fr.md), vous pouvez définir dans l\'onglet *Vue* les paramètres de la boîte de dialogue. Dans l\'onglet *Données*, vous pouvez également définir ces paramètres :
+Dans l\'[éditeur de propriétés](Property_editor/fr.md), vous pouvez définir dans l\'onglet *Vue* les paramètres de la fenêtre de dialogue. Dans l\'onglet *Données*, vous pouvez également définir ces paramètres :
 
 -    **Mode**: comment les filtres utilisés dans le pipeline seront traités. Les modes possibles sont :
 

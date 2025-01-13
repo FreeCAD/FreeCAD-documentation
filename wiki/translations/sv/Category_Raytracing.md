@@ -1,5 +1,5 @@
 # Category:Raytracing/sv
-This category lists pages related to the [Raytracing Workbench/sv](Raytracing_Workbench/sv.md).
+This category is for pages related to the [Raytracing Workbench/sv](Raytracing_Workbench/sv.md).
 
 ### Contents
 

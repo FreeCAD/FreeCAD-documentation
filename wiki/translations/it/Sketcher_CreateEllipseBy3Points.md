@@ -1,82 +1,43 @@
 ---
  GuiCommand:
    Name: Sketcher CreateEllipseBy3Points
-   Name/it: Ellisse da tre punti
-   Icon: Sketcher_CreateEllipse_3points.png
-   Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch , Geometrie , Ellisse da 3 punti
+   Name/it: Crea ellisse per 3 punti
+
+   MenuLocation: Schizzo , Geometrie Sketcher , Crea ellisse per 3 punti
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **G** **3** **E**
    Version: 0.15
-   SeeAlso: Sketcher_CreateEllipseByCenter/it, Sketcher CreateCircle/it, Sketcher_CreateArcOfEllipse/it
+   SeeAlso: Sketcher_CreateEllipseByCenter/it
 ---
 
 # Sketcher CreateEllipseBy3Points/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo strumento disegna un\'ellisse selezionando tre punti: (1) Periasse (Primo incrocio del diametro maggiore con l\'ellisse), (2) apoasse (Secondo incrocio del diametro maggiore con l\'ellisse), (3) un punto su un lato del diametro più lungo (a) che definisce il raggio minore (b). (c) è il centro risultante e (f) sono i punti focali.
-
-
-</div>
-
-Quando si avvia lo strumento, il puntatore del mouse si trasforma in una croce bianca con un\'icona a forma di ellisse rossa.
-
-![](images/Ellipse_3Point.png‎ )
-
-
-<div class="mw-translate-fuzzy">
-
-*La sequenza di clic è indicata da frecce gialle con numeri. 1 è il periasse, 2 è l\'apoasse, 3 è il punto di definizione per il diametro minore, le linee verdi sono i diametri maggiori e minori. Le linee blu sono linee di costruzione casuali fatte solo a scopo illustrativo.*
-
-
-</div>
+Lo strumento <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:24px;"> [Sketcher Crea ellisse per 3 punti](Sketcher_CreateEllipseBy3Points/it.md) crea un\'ellisse in base ai punti finali di uno dei suoi assi e un punto lungo l\'ellisse. {{Version/it|1.0}}: questo è lo stesso strumento di [Sketcher Crea ellisse dal centro](Sketcher_CreateEllipseByCenter/it.md) ma con una modalità iniziale diversa.
 
 
 
 ## Utilizzo
 
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
-<div class="mw-translate-fuzzy">
-
-Premere il pulsante **[<img src=images/Sketcher_CreateEllipse_3points.png style="width:24px"> '''Ellisse da 3 punti'''**.
-
--   Il pr\* imo clic nella vista 3D imposta un punto che definisce l\'incrocio del diametro maggiore con l\'ellisse (periasse). Il secondo clic nella vista 3D imposta un punto che definisce l\'incrocio del diametro maggiore con l\'ellisse opposta al punto centrale (apoasse). Il terzo clic imposta un punto sull\'ellisse che definisce il raggio minore.
-
-
-</div>
-
--   Dopo il terzo clic, viene creata l\'ellisse, insieme ad un gruppo di geometrie costruttive allineate ad esso (diametro maggiore, diametro minore, due fuochi). La geometria della costruzione può essere cancellata manualmente se non è necessaria e ricreata in seguito. Vedere [Mostrare o nascondere la geometria interna](Sketcher_RestoreInternalAlignmentGeometry/it.md).
--   Premere **Esc** o fare clic con il tasto destro del mouse per annullare la funzione.
-
-## Peculiarities
-
-
-<div class="mw-translate-fuzzy">
-
-## Peculiarità
-
--   Gli assi maggiore e minore dell\'ellisse sono tassativi e non possono essere scambiati ridimensionando l\'ellisse. Questo a causa della solutozione parametrica utilizzata (centro (x,y), fuoco1 (x,y), lunghezza del raggio minore (b)) e lo stesso comportamento fiscale di OpenCascade. Per scambiare gli assi l\'ellisse deve essere ruotata.
--   Ellisse può funzionare come un cerchio quando le sue linee diametro maggiore e minore vengono eliminate e uno dei fuochi è vincolato a coincidere con il centro. Ma su tale cerchio il vincolo raggio non funziona.
--   Spostare l\'ellisse dal bordo equivale a spostare il suo centro.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_CreateEllipseBy3Points.svg" width=16px> [Crea ellisse per 3 punti](Sketcher_CreateEllipseBy3Points/it.md)**.
+    -   Selezionare l\'opzione **Schizzo → Geometrie Sketcher → <img src="images/Sketcher_CreateEllipseBy3Points.svg" width=16px> Crea ellisse per 3 punti** dal menu.
+    -   Usare la scorciatoia da tastiera: **G** quindi **3**, quindi **E**.
+2.  Per ulteriori passaggi vedere [Sketcher Crea ellisse per 3 punti](Sketcher_CreateEllipseByCenter/it#Usage.md).
 
 
 
+## Note
+
+Vedere [Sketcher Crea ellisse dal centro](Sketcher_CreateEllipseByCenter/it#Notes.md).
 
 
-</div>
+
 
 
 {{Sketcher_Tools_navi

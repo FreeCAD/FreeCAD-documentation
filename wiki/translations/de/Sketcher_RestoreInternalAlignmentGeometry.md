@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher RestoreInternalAlignmentGeometry
    Name/de: Sketcher InterneAusrichtungsgeometrieWiederherstellen
-   MenuLocation: Sketch , Skizzen-Werkzeuge , Interne Geometrie anzeigen / ausblenden
+   MenuLocation: Skizze , Sketcher visuell , Interne Geometrie anzeigen / ausblenden
    Workbenches: Sketcher_Workbench/de
    Shortcut: **Z** **I**
    SeeAlso: 
@@ -14,27 +14,18 @@
 
 ## Beschreibung
 
-Der Befehl löscht unbenutzte Elemente, die an der Innengeometrie ausgerichtet sind, oder erstellt die fehlenden Elemente neu.
+Das Werkzeug <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:24px;"> [Sketcher InterneAusrichtungsgeometrieWiederherstellen](Sketcher_RestoreInternalAlignmentGeometry/de.md) löscht die internen Geometrien von Elementen oder erstellt fehlende interne Geometrien neu. Das Werkzeug löscht keine internen Geometrien, denen Randbedingungen zugeordnet sind.
 
 
 
 ## Anwendung
 
--   Ein Skizzenelement auswählen, das die interne Ausrichtung unterstützt ([Ellipse](Sketcher_CreateEllipseByCenter/de.md), [Ellipsenbogen](Sketcher_CreateArcOfEllipse/de.md), [Hyperbelbogen](Sketcher_CreateArcOfHyperbola/de.md), [Parabelbogen](Sketcher_CreateArcOfParabola/de.md) oder [B-Spline](Sketcher_CreateBSpline/de.md)).
--   Den Befehl aufrufen, durch anklicken von **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Interne Geometrie anzeigen / ausblenden](Sketcher_RestoreInternalAlignmentGeometry/de.md)** oder Auswahl des Menüeintrags **Sketch → Skizzen-Werkzeuge → [<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> Interne Geometrie anzeigen / ausblenden** oder Drücken der Tastenkombination.
-
-Sind für das ausgewählte Element mögliche Ausrichtungen ungenutzt, wird neue Konstruktionsgeometrie erstellt und an den verfügbaren Stellen ausgerichtet. Sind (schon) alle Stellen ausgerichtet, wird unbenutzte interne Geometrie gelöscht (das Element wird als unbenutzt behandelt, wenn es an nichts anderes gebunden ist).
-
-
-
-## Beispiel
-
-1.  Eine neue Ellipse erstellen. Neue Ellipsen sind immer vollständig bestückt. Man erkennt eine Ellipse und etwas Konstruktionsgeometrie: Hauptachse, Nebenachse, Brennpunkte.
-2.  Nebenachse auswählen und **Del**-Tast drücken. Die Achse ist entfernt, aber die Ellipse ist noch da. Wie bekommt man die Achse zurück?
-3.  Ellipse auswählen und den Befehl **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Interne Geometrie anzeigen / ausblenden](Sketcher_RestoreInternalAlignmentGeometry/de.md)** aufrufen. Die Achse ist wiederhergestellt.
-4.  Jetzt wird der Hauptachse eine Länge zugeordnet. Ellipse auswählen und den Befehl **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Interne Geometrie anzeigen / ausblenden](Sketcher_RestoreInternalAlignmentGeometry/de.md)** aufrufen.
-
-**Ergebnis:** Die Nebenachse und die Brennpunkte sind entfernt, aber die Hauptachse wurde behalten, da sie mit anderen Randbedingungen zusammenhängt. Der Mittelpunkt der Ellipse bleibt ebenso, da er fest vorgegeben ist, wie auch der Mittelpunkt eines Kreises.
+1.  Ein oder mehrere Skizzenelemente auswählen, die interne Geometrie verwenden ([Ellipse](Sketcher_CreateEllipseByCenter/de.md), [Ellipsenbogen](Sketcher_CreateArcOfEllipse/de.md), [Hyperbelbogen](Sketcher_CreateArcOfHyperbola/de.md), [Parabelbogen](Sketcher_CreateArcOfParabola/de.md) oder [B-Spline](Sketcher_CreateBSpline/de.md)).
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Interne Geometrie anzeigen / ausblenden](Sketcher_RestoreInternalAlignmentGeometry/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Sketcher visuell → [<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> Interne Geometrie anzeigen / ausblenden** auswählen.
+    -   Das Tastaturkürzel **Z** dann **I**.
+3.  Im Falle von Elementen mit vollständiger interner Geometrie, wird die interne Geometrie gelöscht, andernfalls wird nicht vorhandene Geometrie wiederhergestellt.
 
 
 

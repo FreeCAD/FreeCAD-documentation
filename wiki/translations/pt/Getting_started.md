@@ -186,7 +186,13 @@ A qualquer altura, pode selecionar o sketch (esboço) original e modificá-lo, o
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ## Trabalhando com as bancadas de trabalho \"Draft\" (traço) e \"Arch\"(Arquitetura) 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -212,7 +218,16 @@ A [bancada de trabalho \"Arch\" (Arquitetura)](Arch_Workbench/pt.md) acrescenta 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 O fluxo de trabalho típico com a as bancadas de trabalho \"Arch\" (Arquitetura) e \"Draft\" (traço) será:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Desenhar algumas linhas com a ferramenta de **Linha** \"Draft\"
 2.  Selecionar cada linha e clicar na ferramenta **Parede** para construir uma parede em cada uma delas
@@ -221,6 +236,9 @@ O fluxo de trabalho típico com a as bancadas de trabalho \"Arch\" (Arquitetura)
 5.  Criar um objeto edifício, e mover o piso para dentro dele na vista de árvore
 6.  criar uma janela clicando na ferramenta **Janela**, selecionar uma predefinição no painel, e depois clicar na face de uma parede
 7.  Adicionar cotas dimensionais selecionando primeiro o plano de trabalho se necessário, e depois usando a ferramenta **Dimensão** do \"Draft\"
+
+
+</div>
 
 Obtendo isto:
 
@@ -236,11 +254,24 @@ Mais em[ Tuturials](Tutorials.md).
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ## Addons, Macros e bancadas de trabalho externas 
 
-O Freecad, sendo um software open source, dá a possibilidade de complementar as suas bancadas de trabalho com addons.
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 O princípio [Extensões](Addon/pt.md) é baseado no desenvolvimento de um complemento da bancada de trabalho. Qualquer utilizador pode desenvolver uma função que considere faltar para as suas próprias necessidades ou, em última instância, para a comunidade. Com o fórum, o utilizador pode solicitar uma opinião ou ajuda. Ele pode partilhar, ou não, o objeto de seu desenvolvimento de acordo com as regras de direitos autorais a definir. Gratuito para ela/ele. Para desenvolver, o utilizador tem disponíveis funções de [scripting](Power_users_hub/pt.md).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Existem dois tipos de addons:
 
@@ -248,10 +279,19 @@ Existem dois tipos de addons:
 2.  [Bancadas de trabalho externas](External_workbenches/pt.md): colecções de ferramentas programadas em Python ou C++ que ampliam de forma importante o Freecad . Se uma bancada de trabalho está suficientemente desenvolvida e bem documentada, pode até ser incluída como uma das bancadas de trabalho base dentro do Freecad. Em [Bancadas de trabalho externas](External_workbenches/pt.md), irá encontrar o fundamento de cada uma e uma lista das várias bancadas externas.
 
 
+</div>
+
+
 
 ## Programação (Scripting) 
 
+
+<div class="mw-translate-fuzzy">
+
 E finalmente, um dos recursos mais poderosos do FreeCAD é o ambiente de [ programação (scripting)](scripting.md). Desde da consola python integrada (ou a partir de qualquer outro script Python externo), pode obter acesso a praticamente qualquer parte do FreeCAD, criar ou modificar geometria, modificar a apresentação desses objetos na cena 3D ou aceder e modificar a interface do FreeCAD. A programação Python pode também ser usada em [ macros](macros/pt.md), que proporcionam um método fácil de criar comandos personalizados.
+
+
+</div>
 
 
 

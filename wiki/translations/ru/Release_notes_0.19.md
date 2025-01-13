@@ -39,6 +39,8 @@ Older FreeCAD release notes can be found in [Feature list](Feature_list#Release_
 
 With more than 8128 commits in the master branch since the 0.18 release, this is one of the most extensive releases ever, with several new components like the new \"[App::Link](App_Link.md)\" object, as well as many new tools in the [TechDraw Workbench](TechDraw_Workbench.md) that make FreeCAD even more powerful for 3D solid modelling and assembly. Beside that, the FreeCAD ecosystem has continued to grow with more specialized [external workbenches](external_workbenches.md).
 
+
+
 ### Python 3 и Qt5 
 
 The effort to migrate from Python 2 and Qt4 to Python 3 and Qt5 is essentially complete and most developers have moved to the Python3/Qt5 toolchains.
@@ -68,6 +70,8 @@ Other development news:
 -   There is a new Docker container to build FreeCAD, see [Compile on Docker](Compile_on_Docker.md); [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=4&t=42954).
 -   The infrastructure of the bug tracker as well as wiki was moved to a dedicated server, so that it is easier to manage by the project administrators; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=42795).
 
+
+
 ### Документация
 
 -   The [Compile on Linux](Compile_on_Linux.md) page was reviewed to better explain the requisites to compile on different Linux distributions. As many developers use Debian based systems, this section received the most attention. Users of other Linux distributions are encouraged to maintain the documentation for their particular distribution.
@@ -79,11 +83,15 @@ Other development news:
 -   The [External workbenches](External_workbenches.md) page was re-organized, so that all feature-rich, publicly available workbenches are listed. If you\'d like to add a workbench to this page, showcase it in the forum, and provide supporting information like user manual, wiki pages, and a link to its repository. Then push for it to be included in the [Addon Manager](Std_AddonMgr.md).
 -   There have been improvements to the [Tutorials](Tutorials.md) and [Video tutorials](Video_tutorials.md) pages. In particular, it has been stressed to readers that they should consider only video tutorials that are made with versions 0.17 and above.
 
+
+
 ### Известные Ограничения 
 
 -   Black screen due to video card drivers, while running FreeCAD inside a virtual machine; [issue #3939](https://freecadweb.org/tracker/view.php?id=3939).
 -   Logitech Wingman USB joystick can cause erratic behavior when spinning and zooming in the view; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=36712&start=10).
 -   Gesture navigation is fully supported for Windows but yet to be maintained in Linux and MacOS. Problem: the developer, DeepSOIC, doesn\'t have a MacOS machine with its special trackpad, and hasn\'t tested it on Linux either; [forum discussion](https://forum.freecadweb.org/viewtopic.php?p=308403#p308402).
+
+
 
 ## Пользовательский Интерфейс 
 
@@ -195,7 +203,7 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |                                                                                               | [Arch Fence in action](https://forum.freecadweb.org/viewtopic.php?f=24&t=37121).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +++
-| <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width:384px;"> | Improvements in the [Reinforcement Addon](Reinforcement_Addon.md), which extends the [Arch Rebar](Arch_Rebar.md) tool.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width:384px;"> | Improvements in the [Reinforcement Workbench](Reinforcement_Workbench.md), which extends the [Arch Rebar](Arch_Rebar.md) tool.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |                                                                                               | Automated reinforcement graphical user interface: the intention is to facilitate the automatic creation of simple and complex rebars. This development was carried out as a [Google Summer of Code 2019](Google_Summer_of_Code_2019.md) project: [Suraj_Dadral/gsoc_proposal](User:Suraj_Dadral/gsoc_proposal.md).                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -543,11 +551,15 @@ The previous commits changed the way the autocompletion works with [expressions]
 
 Data entered into a cell is not tested anymore as an expression by default. Now an expression needs to start with an equal sign `{{:=`}} instead. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=39665), [pull request #4215](https://github.com/FreeCAD/FreeCAD/pull/4215).
 
+
+
 ## Верстак Start 
 
 +++
 | <img alt="" src=images/FreeCAD_Start_WB_thumbs.png  style="width:384px;"> | Re-added example files to the Start page with saved thumbnails in their icons. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=34586&start=110), [pull request #2316](https://github.com/FreeCAD/FreeCAD/pull/2316). |
 +++
+
+
 
 ## Верстак Surface 
 
@@ -560,6 +572,8 @@ Data entered into a cell is not tested anymore as an expression by default. Now 
 |                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |                                                                                   | Likewise, the icons have been updated to be more visually attractive.                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +++
+
+
 
 ## Верстак TechDraw 
 

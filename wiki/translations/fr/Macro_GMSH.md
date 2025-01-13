@@ -11,6 +11,12 @@
 |SeeAlso = [FEM Maillage MEF à partir d'une forme avec Gmsh](FEM_MeshGmshFromShape/fr.md)
 }}
 
+
+
+## Informations importantes 
+
+Cette macro est obsolète. Le code est en Python 2.x. Tout le code a été directement intégré dans l\'atelier FEM avant la version 0.20 de FreeCAD. Voir [FEM Mailler avec Gmsh](FEM_MeshGmshFromShape/fr.md).
+
 ## Description
 
 Macro qui crée un maillage FEM avec le mailleur GMSH. Il est possible de créer une coquille et un volume linéaire ou bilinéaire (quadratique).

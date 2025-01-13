@@ -4,16 +4,19 @@
    Name/fr: TechDraw Groupe de projections
    MenuLocation: TechDraw , Vues de Techdraw , Insérer un groupe de projections
    Workbenches: TechDraw_Workbench/fr
-   SeeAlso: TechDraw_View/fr, TechDraw_SectionView/fr
+   SeeAlso: TechDraw_View/fr
 ---
 
 # TechDraw ProjectionGroup/fr
 
 ## Description
 
-L\'outil **TechDraw Groupe de projections** crée une [projection multi-vue](https://en.wikipedia.org/wiki/Multiview_projection) d\'un ou plusieurs objets 3D. Les vues isométriques des 4 coins de devant peuvent également être incluses.
+L\'outil **TechDraw Groupe de projections** crée une [projection multi-vue](https://en.wikipedia.org/wiki/Multiview_projection) d\'un ou plusieurs objets 3D, en utilisant la projection traditionnelle [projection premier angle](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) ou [projection troisième angle](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection). Les vues isométriques des 4 coins de devant peuvent également être incluses.
 
-Si vous ne voulez produire qu\'une seule vue, l\'utilisation de Groupe de projections ne présente aucun avantage. Vous devez alors utiliser [Insérer une vue dans la page](TechDraw_View/fr.md) à la place. Si vous ne souhaitez pas utiliser les traditionnelles [projection premier-angle](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) / [projection troisième-angle](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection), vous devez utiliser plusieurs *Vues* ([Insérer une vue dans la page](TechDraw_View/fr.md)) au lieu de *Groupe de projections*.
+
+{{Version/fr|1.0}}
+
+: l\'outil [TechDraw Vue](TechDraw_View/fr.md) peut également créer un groupe de projection. Il est conseillé d\'utiliser cet outil à la place.
 
 <img alt="" src=images/TechDraw_ProjGroup_example.png  style="width:400px;"> 
 *Trois vues orthogonales et une vue isométrique d'un objet solide*
@@ -22,27 +25,15 @@ Si vous ne voulez produire qu\'une seule vue, l\'utilisation de Groupe de projec
 
 ## Utilisation
 
-1.  Vous pouvez faire pivoter la [vue 3D](3D_view/fr.md). La direction de la caméra dans la [vue 3D](3D_view/fr.md) détermine la valeur initiale de la **Direction primaire** du groupe de projection (la propriété **Direction** de la vue centrale).
-2.  Sélectionnez un ou plusieurs objets dans la [vue 3D](3D_view/fr.md) ou de la [vue en arborescence](Tree_view/fr.md).
-3.  S\'il y a plusieurs pages de dessin dans le document : ajoutez éventuellement la page souhaitée à la sélection en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
-4.  Il existe plusieurs façons d\'invoquer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Insérer un groupe de projections ](TechDraw_ProjectionGroup/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Insérer un groupe de projections ** du menu.
-5.  Si le document comporte plusieurs pages de dessin et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
-    1.  Sélectionnez la page souhaitée.
-    2.  Appuyez sur le bouton **OK**.
-6.  Le panneau de tâches **Groupe de projection** s\'ouvre.
-7.  Sélectionnez les vues qui doivent apparaître dans le groupe de projection, ainsi que l\'échelle et les autres paramètres du groupe de projection.
-8.  Appuyez sur le bouton **OK**.
-9.  Vous pouvez déplacer le Groupe de Projection en faisant glisser sa vue centrale.
-10. Vous pouvez également déplacer les autres vues du groupe de projection par rapport à la vue centrale en les faisant glisser individuellement.
-
-![](images/TaskProjGroup.png ) 
-*Le [panneau des tâches](Task_Panel/fr.md) Groupe de projections. Le champ Direction primaire indique la direction en cours de la vue.*
+Voir [TechDraw Vue](TechDraw_View/fr#Utilisation_Groupe_de_projection_d'élément_et_Groupe_de_projection.md), mais pour lancer l\'outil, sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Insérer un groupe de projections** du menu.
 
 
 
 ## Propriétés
+
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+
+Un groupe de projections, en fait un objet {{Incode|TechDraw::DrawProjGroup}}, possède les [propriétés](TechDraw_View/fr#Propriétés_Vue_de_Part.md) communes à tous les types de vues. Elle possède également les propriétés supplémentaires suivantes :
 
 
 
@@ -58,8 +49,6 @@ Si vous ne voulez produire qu\'une seule vue, l\'utilisation de Groupe de projec
 -    **Anchor|Link**: vue centrale du groupe. Normalement, il s\'agit de la vue de face.
 
 -    **ProjectionType|Enumeration**: {{Value|First Angle}} ou {{Value|Third Angle}}.
-
-Pour les autres propriétés de ce groupe, voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md).
 
 
 {{TitleProperty|Collection}}
@@ -77,20 +66,11 @@ Pour les autres propriétés de ce groupe, voir [TechDraw Vue](TechDraw_View/fr#
 
 
 
-### Vue
-
-
-{{TitleProperty|Base}}
-
-Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
-
-
-
 ## Remarques
 
-Groupe de projections dans son ensemble hérite de X, Y, ScaleType, Scale (Échelle) et Rotation à partir de la vue de base.
+Le groupe de projections dans son ensemble hérite de X, Y, ScaleType, Scale et Rotation à partir de la vue de base.
 
-Les vues individuelles au sein du groupe héritent de toutes les propriétés de vue de la pièce, mais l\'objet ProjectionGroup contrôle l\'échelle de toutes ses vues membres.
+Chaque vue au sein du groupe hérite de toutes les propriétés de la vue de la pièce, mais l\'objet ProjectionGroup contrôle l\'échelle de toutes ses vues membres.
 
 La propriété RotationVector des différentes vues du groupe est obsolète à partir de v0.19. Utilisez XDirection à la place.
 
@@ -139,13 +119,13 @@ group.Y = page.PageHeight / 2
 doc.recompute()
 ```
 
-Remarque : le groupe de projection doit toujours être ajouté à la page {{Incode|page.addView(group)}} avant d\'ajouter des projections au groupe. Cela permet au groupe de projections d\'utiliser les valeurs de paramètre par défaut dérivées de la page parente.
+Remarque : le groupe de projection doit toujours être ajouté à la page, {{Incode|page.addView(group)}}, avant d\'ajouter des projections au groupe. Cela permet au groupe de projections d\'utiliser les valeurs de paramètre par défaut dérivées de la page parente.
 
 
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

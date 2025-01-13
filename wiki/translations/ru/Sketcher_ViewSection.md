@@ -16,14 +16,22 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Инструмент **Обзор сечения** создает плоскость сечения, которая временно скрывает любые материалы перед плоскостью эскиза.
 
-<img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:320px;"> 
+
+</div>
+
+<img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:300px;"> 
 *Частично скрытый эскиз и полностью видимый эскиз*
 
 
 
 ## Применение
+
+See also: [Sketcher Preferences](Sketcher_Preferences#Display.md).
 
 
 <div class="mw-translate-fuzzy">

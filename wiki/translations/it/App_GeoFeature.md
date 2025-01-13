@@ -11,6 +11,8 @@ Un oggetto [App GeoFeature](App_GeoFeature/it.md), o formalmente un `App::GeoFea
 
 *Diagramma semplificato delle relazioni tra gli oggetti principali in FreeCAD*
 
+
+
 ## Utilizzo
 
 [App GeoFeature](App_GeoFeature/it.md) è un oggetto interno, quindi non può essere creato dall\'interfaccia grafica. In genere non è pensato per essere utilizzato direttamente, ma può essere suddiviso in sottoclassi per ottenere un oggetto vuoto che ha solo la proprietà di base **Placement** per definire la sua posizione nella [vista 3D](3D_view/it.md) .
@@ -20,10 +22,12 @@ Alcuni degli oggetti derivati più importanti sono i seguenti:
 -   La classe [Part Feature](Part_Feature/it.md), il genitore della maggior parte degli oggetti con [forme topologiche](Part_TopoShape/it.md) 2D e 3D.
 -   La classe [Mesh Feature](Mesh_Feature/it.md), il genitore della maggior parte degli oggetti realizzati da [mesh](Mesh_MeshObject/it.md), non solidi.
 -   La classe [Fem FemMeshObject](FEM_Mesh/it.md), il genitore delle mesh di elementi finiti create con l\'ambiente [FEM](FEM_Workbench/it.md).
--   La classe [Path Feature](Path_Feature/it.md), il genitore dei percorsi creati con l\'ambiente [Path](Path_Workbench/it.md) per l\'uso nella lavorazione CNC.
+-   La classe [CAM Feature](CAM_Feature/it.md), il genitore dei percorsi creati con l\'ambiente [CAM](CAM_Workbench/it.md) per l\'uso nella lavorazione CNC.
 -   La classe [App Part](App_Part/it.md), che definisce [Std Parts](Std_Part/it.md) che può essere utilizzato come contenitore di corpi per eseguire assiemi.
 
 Quando si crea questo oggetto in [Python](Python/it.md), invece di sottoclassare `App::GeoFeature`, è necessario sottoclassare `App::GeometryPython` perché quest\'ultimo include di default un provider di visualizzazione e gli attributi `Proxy` per l\'oggetto stesso e il relativo provider di visualizzazione. Vedere [Script](App_GeoFeature/it#Script.md).
+
+
 
 ## Proprietà App GeoFeature 
 
@@ -31,98 +35,100 @@ Vedere [Proprietà](Property/it.md) per tutti i tipi di proprietà che possono a
 
 L\'oggetto [App GeoFeature](App_GeoFeature/it.md) (classe `App::GeoFeature`) è derivato dall\'oggetto base [App DocumentObject](App_DocumentObject/it.md) (classe `App::DocumentObject`) ed eredita tutte le sue proprietà. Inoltre ha una proprietà **Placement**, che controlla la sua posizione nella [3D view](3D_view.md).
 
+
+
 ## Proprietà App GeometryPython 
 
 Vedere [Proprietà](Property/it.md) per tutti i tipi di proprietà che possono avere gli oggetti con script.
 
 La classe [App GeometryPython](App_GeoFeature.md) (`App::GeometryPython`) è derivata dalla classe di base [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature`) ed eredita tutte le sue proprietà. Ha anche diverse proprietà aggiuntive.
 
-
-<div class="mw-translate-fuzzy">
-
-Queste sono le proprietà disponibili nell\'[editor delle proprietà](property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando **Mostra tutto** nel menu contestuale dell\'[editor delle proprietà](property_editor/it.md).
+Queste sono le proprietà disponibili nell\'[editor delle proprietà](Property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando **Mostra tutto** nel menu contestuale dell\'[editor delle proprietà](Property_editor/it.md).
 
 
-</div>
 
 ### Dati
 
 
 {{TitleProperty|Base}}
 
--    **Proxy|PythonObject|Hidden**: a custom class associated with this object.
+-    **Proxy|PythonObject|Hidden**: una classe personalizzata associata a questo oggetto.
 
--    **Placement|Placement**: the position of the object in the [3D view](3D_view.md). The placement is defined by a `Base` point (vector), and a `Rotation` (axis and angle). See [Placement](Placement.md).
+-    **Placement|Placement**: la posizione dell\'oggetto nella [vista 3D](3D_view/it.md). Il posizionamento è definito da un punto `Base` (vettore) e da una `Rotazione` (asse e angolo). Vedi [Posizionamento](Placement/it.md).
 
     -   
         **Angle**
         
-        : the angle of rotation around the **Axis**. By default, it is {{value|0°}} (zero degrees).
+        : l\'angolo di rotazione attorno a **Axis**. Per impostazione predefinita, è {{value|0°}} (zero gradi).
 
     -   
         **Axis**
         
-        : the unit vector that defines the axis of rotation for the placement. Each component is a floating point value between {{value|0}} and {{value|1}}. If any value is above {{value|1}}, the vector is normalized so that the magnitude of the vector is {{value|1}}. By default, it is the positive Z axis, {{value|(0, 0, 1)}}.
+        : il vettore unitario che definisce l\'asse di rotazione per il posizionamento. Ogni componente è un valore in virgola mobile compreso tra {{value|0}} e {{value|1}}. Se qualsiasi valore è superiore a {{value|1}}, il vettore viene normalizzato in modo che la grandezza del vettore sia {{value|1}}. Per impostazione predefinita, è l\'asse Z positivo, {{value|(0, 0, 1)}}.
 
     -   
         **Position**
         
-        : a vector with the 3D coordinates of the base point. By default, it is the origin {{value|(0, 0, 0)}}.
+        : un vettore con le coordinate 3D del punto base. Per impostazione predefinita, è l\'origine {{value|(0, 0, 0)}}.
 
--    **Label|String**: the user editable name of this object, it is an arbitrary UTF8 string.
+-    **Label|String**: il nome modificabile dall\'utente di questo oggetto, è una stringa UTF8 arbitraria.
 
--    **Label2|String|Hidden**: a longer, user editable description of this object, it is an arbitrary UTF8 string that may include newlines. By default, it is an empty string {{value|""}}.
+-    **Label2|String|Hidden**: una descrizione di questo oggetto più lunga e modificabile dall\'utente, è una stringa UTF8 arbitraria che può includere ritorni a capo. Per impostazione predefinita, è una stringa vuota {{value|""}}.
 
--    **Expression Engine|ExpressionEngine|Hidden**: a list of expressions. By default, it is empty {{value|[]}}.
+-    **Expression Engine|ExpressionEngine|Hidden**: un elenco di espressioni. Per impostazione predefinita, è vuoto {{value|[]}}.
 
--    **Visibility|Bool|Hidden**: whether to display the object or not.
+-    **Visibility|Bool|Hidden**: se visualizzare o meno l\'oggetto.
+
+
 
 ### Vista
 
 
 {{TitleProperty|Base}}
 
--    **Proxy|PythonObject|Hidden**: a custom [viewprovider](Viewprovider.md) class associated with this object.
+-    **Proxy|PythonObject|Hidden**: una classe [viewprovider](Viewprovider/it.md) personalizzata associata a questo oggetto.
 
 
 {{TitleProperty|Display Options}}
 
--    **Bounding Box|Bool**: if it is `True`, the object will show the bounding box in the [3D view](3D_view.md).
+-    **Bounding Box|Bool**: se è `True`, l\'oggetto mostrerà il riquadro di delimitazione nella [vista 3D](3D_view/it.md).
 
--    **Display Mode|Enumeration**: see the information in [App FeaturePython](App_FeaturePython.md).
+-    **Display Mode|Enumeration|Enumeration**: vedere le informazioni in [App FeaturePython](App_FeaturePython/it.md).
 
--    **Show In Tree|Bool**: see the information in [App FeaturePython](App_FeaturePython.md).
+-    **Show In Tree|Bool**: vedere le informazioni in [App FeaturePython](App_FeaturePython/it.md).
 
--    **Visibility|Bool**: see the information in [App FeaturePython](App_FeaturePython.md).
+-    **Visibility|Bool**: vedere le informazioni in [App FeaturePython](App_FeaturePython/it.md).
 
 
 {{TitleProperty|Object Style}}
 
--    **Shape Color|Color**: a tuple of three floating point RGB values  light gray .
+-    **Shape Color|Color**: una tupla di tre valori RGB in virgola mobile  grigio chiaro .
 
--    **Shape Material|Material|Hidden**: an [App Material](App_Material.md) associated with this object. By default it is empty.
+-    **Shape Material|Material|Hidden**: un [App Material](App_Material/it.md) associato a questo oggetto. Per impostazione predefinita è vuoto.
 
--    **Transparency|Percent**: an integer from {{value|0}} to {{value|100}} that determines the level of transparency of the faces in the [3D view](3D_view.md). A value of {{value|100}} indicates completely invisible faces; the faces are invisible but they can still be picked as long as **Selectable** is `True`.
+-    **Transparency|Percent**: un numero intero da {{value|0}} a {{value|100}} che determina il livello di trasparenza delle facce nella [vista 3D](3D_view/it.md). Un valore di {{value|100}} indica facce completamente invisibili; le facce sono invisibili ma possono comunque essere selezionate purché **Selectable** sia `True`.
 
 
 {{TitleProperty|Selection}}
 
--    **On Top When Selected|Enumeration**: see the information in [App FeaturePython](App_FeaturePython.md).
+-    **On Top When Selected|Enumeration**: vedere le informazioni in [App FeaturePython](App_FeaturePython/it.md).
 
--    **Selectable|Bool**: if it is `True`, the object can be picked with the pointer in the [3D view](3D_view.md). Otherwise, the object cannot be selected until this option is set to `True`.
+-    **Selectable|Bool**: se è `True`, l\'oggetto può essere selezionato con il puntatore nella [vista 3D](3D_view/it.md). Altrimenti, l\'oggetto non potrà essere selezionato finché questa opzione non sarà impostata su `True`.
 
--    **Selection Style|Enumeration**: see the information in [App FeaturePython](App_FeaturePython.md).
+-    **Selection Style|Enumeration**: vedere le informazioni in [App FeaturePython](App_FeaturePython/it.md).
+
+
 
 ## Script
 
 
-**See also:**
+**Vedere anche:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) and [scripted objects](Scripted_objects.md).
+[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), e [script di oggetti](Scripted_objects/it.md).
 
-See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
+Vedere [Part Feature](Part_Feature/it.md) per le informazioni generali sull\'aggiunta di oggetti al documento.
 
-A GeoFeature is created with the `addObject()` method of the document. If you would like to create an object with a 2D or 3D [topological shape](Part_TopoShape.md), it may be better to create one of the sub-classes specialized for handling shapes, for example [Part Feature](Part_Feature.md) or [Part Part2DObject](Part_Part2DObject.md).
+Una GeoFeature viene creata con il metodo `addObject()` del documento. Se si desidera creare un oggetto con una [forma topologica](Part_TopoShape/it.md) 2D o 3D, potrebbe essere meglio creare una delle sottoclassi specializzate per la gestione delle forme, ad esempio [Part Feature](Part_Feature/it.md) o [Part Part2DObject](Part_Part2DObject/it.md).
 
 
 ```python
@@ -133,7 +139,7 @@ obj = App.ActiveDocument.addObject("App::GeoFeature", "Name")
 obj.Label = "Custom label"
 ```
 
-For [Python](Python.md) subclassing you should create the `App::GeometryPython` object.
+Per la sottoclasse [Python](Python/it.md) si dovrebbe creare l\'oggetto `App::GeometryPython`.
 
 
 ```python

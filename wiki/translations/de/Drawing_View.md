@@ -38,10 +38,6 @@ Klappe das Seite-Objekt im Projektbaum auf und wähle die Ansicht. Deren Paramet
 -   **Show Hidden Lines**\': Schaltet die Sichtbarkeit der versteckten Linien ein oder aus, indem man *True* oder *False* wählt.
 -   **Show Smooth Lines**\': Schaltet die Sichtbarkeit der glatten Linien ein oder aus, indem Sie *True* oder *False* wählen. Glatte Linien werden auch als Tangentialkanten bezeichnet. Diese Kanten zeigen Oberflächenveränderungen zwischen tangentialen Oberflächen an.
 
-### Zeichenansichtsassistent
-
-Um ein Zeichnungsblatt mit Standardansichten automatisch zu erstellen, verwenden Sie das [Automatic drawing Macro](Macro_Automatic_drawing.md). 
-
 ### Anderes
 
 Falls Du nach der Umschaltung in perspektivisch-orthogonal in der 3D-Ansicht suchst, probiere [Std PerspektivKamera](Std_PerspectiveCamera/de.md) und [Std OrthogonaleKamera](Std_OrthographicCamera/de.md)

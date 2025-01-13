@@ -1,20 +1,19 @@
 ---
- GuiCommand:Addon
+ GuiCommand:
    Name: BIM Preflight
-   Workbenches: Image:IFC.svg BIM Workbench
-   Addon: BIM
-   MenuLocation: Manage , Preflight check
+   MenuLocation: Manage , Preflight checks...
+   Workbenches: BIM_Workbench
 ---
 
 # BIM Preflight
 
 ## Description
 
-<img alt="" src=images/BIM_preflight_screenshot.png  style="width:1024px;">
+The **BIM Preflight** tool allows you to perform several tests on your model to verify its compatibility with IFC standards and best practices, and help you to detect possible issues you might want to fix.
+
+<img alt="" src=images/BIM_preflight_screenshot.png  style="width:600px;">
 
 As FreeCAD is a very loose and free-style modelling platform, the requirements are very low. You can basically model and organize your BIM model the way you like, using all the tools that FreeCAD offers, both from the BIM workbench and other workbenches. The IFC format, however, has some strict requirements, and other BIM applications that can read IFC files often bring additional limitations as they more than often have difficulties with certain entities or the way certain objects are modeled.
-
-The BIM Preflight tool allows you to perform several tests on your model to verify its compatibility with IFC standards and best practices, and help you to detect possible issues you might want to fix.
 
 The results of most of the tests provided by this tool are optional, which means you can choose to export your model even if they fail. You are the one to assess if you need the test to pass or not. We tried our best to give sound information to help you decide.
 
@@ -67,7 +66,9 @@ FreeCAD.getUserAppDataDir()
 
 Inside each Python file, tests are simple functions that take no argument, and return either True if the test passed, or a string of text that will be shown to the user if the test failed.
 
-A typical test file would be like this, that should be named something like \"myCustomTest.py\" and placed inside \$USERAPPDATA/BIM/Preflight: 
+A typical test file would be like this, that should be named something like \"myCustomTest.py\" and placed inside \$USERAPPDATA/BIM/Preflight:
+
+
 
 import FreeCAD
 # The name of your test. You can give the functions any name
@@ -90,5 +91,12 @@ def myCustomTest():
 
 
 
+
+
+
+ {{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > BIM Preflight
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Preflight

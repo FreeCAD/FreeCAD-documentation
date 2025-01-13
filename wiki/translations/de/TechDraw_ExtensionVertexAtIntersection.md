@@ -22,7 +22,7 @@ Das Werkzeug **TechDraw ErgänzungKnotenAnSchittstelle** fügt an den Schnittste
 
 
 
-## Verwendung
+## Anwendung
 
 1.  Zwei Kanten auswählen. Geraden werden als unendlich lange Linien, Kreisbögen als Kreise angesehen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:

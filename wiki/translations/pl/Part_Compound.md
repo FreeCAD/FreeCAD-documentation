@@ -33,5 +33,13 @@ Aby uaktywnić tę kontrolę, przejdź do **Narzędzia → Edycja Parametrów �
 
 
 
+
+
+{{Part_Tools_navi
+
+}}
+
+
+
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/pl

@@ -3,7 +3,9 @@
 
 Les [Objets créés par script](Scripted_objects/fr.md) sont reconstruits à chaque fois qu\'un [document au format FCStd](File_Format_FCStd/fr.md) est ouvert. Pour ce faire, le document conserve une référence au module et à la classe Python qui ont été utilisés pour créer l\'objet, ainsi que ses propriétés.
 
-Les attributs de la classe utilisée pour créer l\'objet peuvent également être enregistrés, c\'est-à-dire \"sérialisés\". Ceci peut être contrôlé par les méthodes `__getstate__` et `__setstate__` de la classe.
+Les attributs de la classe utilisée pour créer l\'objet peuvent également être enregistrés, c\'est-à-dire \"sérialisés\". Ceci peut être contrôlé par les méthodes `dumps` et `loads` de la classe.
+
+
 
 ## Sauvegarde de tous les attributs 
 
@@ -62,6 +64,8 @@ Lorsque nous rouvrons le fichier, nous pouvons inspecter le dictionnaire de la c
 
 Nous voyons que tous les attributs qui commencent par `self` dans la classe ont été sauvegardés. Ceux-ci peuvent être de différents types, notamment chaîne de caractères, liste, flottant et dictionnaire. Le tuple original pour `self.color` a été converti en liste, mais sinon tous les attributs ont été chargés de la même manière.
 
+
+
 ## Sauvegarde d\'attributs spécifiques 
 
 Nous pouvons définir une classe similaire à la première, qui implémente des attributs spécifiques à sauvegarder. 
@@ -86,15 +90,15 @@ class CustomStates:
     def execute(self, obj):
         pass
 
-    def __getstate__(self):
+    def dumps(self):
         return self.color, self.width
 
-    def __setstate__(self, state):
+    def loads(self, state):
         self.color = state[0]
         self.width = state[1]
 ```
 
-La valeur de retour de `__getstate__` est l\'objet qui sera sérialisé. Il peut s\'agir d\'une valeur unique ou d\'un tuple de valeurs. Lorsque l\'objet est restauré, la classe appelle la méthode `__setstate__`, en passant la variable `state` avec le contenu sérialisé. Dans ce cas, `state` est un tuple qui est décomposé dans les variables respectives pour reconstruire l\'\"état\" qui existait à l\'origine. 
+La valeur de retour de `dumps` est l\'objet qui sera sérialisé. Il peut s\'agir d\'une valeur unique ou d\'un tuple de valeurs. Lorsque l\'objet est restauré, la classe appelle la méthode `loads`, en passant la variable `state` avec le contenu sérialisé. Dans ce cas, `state` est un tuple qui est décomposé dans les variables respectives pour reconstruire l\'\"état\" qui existait à l\'origine. 
 ```python
 state = (self.color, self.width)
 state = ((0, 0, 1), 2.5)
@@ -109,9 +113,13 @@ Nous pouvons créer un objet avec cette classe et enregistrer le document, comme
 {'color': [0, 0, 1], 'width': 2.5}
 ```
 
-Le tuple original de `self.color` a été converti en liste, mais les autres informations ont été récupérées sans problème. Au lieu de restaurer tous les attributs comme dans le cas précédent, seuls les attributs que nous avons spécifiés dans `__getstate__` et `__setstate__` ont été restaurés.
+Le tuple original de `self.color` a été converti en liste, mais les autres informations ont été récupérées sans problème. Au lieu de restaurer tous les attributs comme dans le cas précédent, seuls les attributs que nous avons spécifiés dans `dumps` et `loads` ont été restaurés.
+
+
 
 ## Utilisation
+
+
 
 ### Identifier le type 
 
@@ -127,15 +135,17 @@ class DraftObject:
     def __init__(self, obj, _type):
         self.Type = _type
 
-    def __getstate__(self):
+    def dumps(self):
         return self.Type
 
-    def __setstate__(self, state):
+    def loads(self, state):
         if state:
             self.Type = state
 ```
 
 Tous les objets ont une propriété `TypeId`, mais pour les [objets créés par script](scripted_objects/fr.md), cette propriété n\'est pas utile car elle fait toujours référence à la classe C++ parente, par exemple, [`Part::Part2DObjectPython`](Part_Part2DObject/fr.md) ou [`Part::FeaturePython`](Part_Feature/fr.md). Par conséquent, le fait d\'avoir cet attribut supplémentaire `Proxy.Type` dans la classe est utile pour traiter chaque objet d\'une manière particulière.
+
+
 
 ### Migration de l\'objet 
 
@@ -148,10 +158,10 @@ class CustomObject:
         self.Type = _type
         self.version = "0.18"
 
-    def __getstate__(self):
+    def dumps(self):
         return self.Type, self.version
 
-    def __setstate__(self, state):
+    def loads(self, state):
         if state:
             self.Type = state[0]
             self.version = state[1]
@@ -171,13 +181,15 @@ class CustomObject:
         ...
 ```
 
+
+
 ## Liens
 
 -   [Objets créés par script](Scripted_objects/fr.md)
 -   [Migration d\'objets créés par script](Scripted_objects_migration/fr.md)
 -   [Discussion sur le forum FreeCAD : Sérialisation des objets scripts : json ou pickle ?](https://forum.freecadweb.org/viewtopic.php?f=10&t=49120)
 
--   [obj.Proxy.Type est un dict, pas une chaîne de caractères](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009), explication de `__getstate__` et `__setstate__` dans le forum.
+-   [obj.Proxy.Type est un dict, pas une chaîne de caractères](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009), explication de `dumps` et `loads` dans le forum.
 -   [Le module Pickle](https://docs.python.org/3/library/pickle.html#object.__getstate__) dans la documentation Python.
 
 

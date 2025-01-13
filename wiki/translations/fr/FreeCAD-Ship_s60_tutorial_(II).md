@@ -1,7 +1,7 @@
 ---
  TutorialInfo:r
-   Topic: Ship Workbench
-   Level:  Beginner
+   Topic: Atelier Ship
+   Level: Débutant
    Time: 
    Author: 
    FCVersion: 
@@ -9,6 +9,8 @@
 ---
 
 # FreeCAD-Ship s60 tutorial (II)/fr
+
+
 
 
 
@@ -180,6 +182,8 @@ Cet outil utilise également [pyxplot](http://www.pyxplot.org.uk/) et [ghostscri
 -   **gz.png**: Version d\'image PNG.
 
 Ces fichiers seront écrasés si vous exécutez l\'outil une autre fois.
+
+
 
 ### Résultats
 

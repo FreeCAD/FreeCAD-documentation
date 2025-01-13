@@ -13,9 +13,11 @@
 
 
 
+
+
 ## Introduzione
 
-This page provide a collection of hints and little guides on using the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md). Adding new findings and best practices is encouraged.
+Questa pagina fornisce una raccolta di suggerimenti e piccole guide sull\'utilizzo di <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw.md). Si consiglia di aggiungere nuove scoperte e migliori pratiche.
 
 ### Enable/Disable Centermarks 
 

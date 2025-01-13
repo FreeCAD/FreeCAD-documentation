@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Introducere
 
 
@@ -20,6 +22,8 @@ Acest instrument vă permite să a dăugați un fișier [\*.IGES](http://en.wiki
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -37,6 +41,18 @@ Acest instrument vă permite să a dăugați un fișier [\*.IGES](http://en.wiki
 
 
 </div>
+
+## Notes
+
+-   The [Std Import](Std_Import.md) command supports many more file formats.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

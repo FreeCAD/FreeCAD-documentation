@@ -1,10 +1,9 @@
 ---
- GuiCommand:Addon/pl
+ GuiCommand:
    Name: BIM Box
    Name/pl: BIM: Prostopadłościan
-   Workbenches: Image:IFC.svg BIM_Workbench/pl
-   Addon: BIM
    MenuLocation: 3D / BIM , Prostopadłościan
+   Workbenches: BIM_Workbench/pl
    SeeAlso: Part_Box/pl
 ---
 
@@ -16,7 +15,7 @@
 
 <img alt="" src=images/BIM_box_screenshot.png  style="width:1024px;">
 
-Narzędzie Prostopadłościan umożliwia utworzenie standardowej [Części](Part_Box/pl.md) środowiska Część, ale zamiast tworzyć obiekt i pozwalać na późniejsze określenie jego wymiarów i położenia, tak jak robi to oryginalne narzędzie [środowiska Część](Part_Workbench/pl.md), narzędzie to pozwala na graficzne umieszczenie i zdefiniowanie wymiarów prostopadłościanu podczas tworzenia obiektu. Prostopadłościan to bryła [prostopadłościenna](https://en.wikipedia.org/wiki/Cuboid), która może być później użyta jako podstawa dowolnego innego rodzaju obiektu BIM.
+Narzędzie **Prostopadłościan** umożliwia utworzenie standardowej [Części](Part_Box/pl.md) środowiska Część, ale zamiast tworzyć obiekt i pozwalać na późniejsze określenie jego wymiarów i położenia, tak jak robi to oryginalne narzędzie [środowiska Część](Part_Workbench/pl.md), narzędzie to pozwala na graficzne umieszczenie i zdefiniowanie wymiarów prostopadłościanu podczas tworzenia obiektu. Prostopadłościan to bryła [prostopadłościenna](https://en.wikipedia.org/wiki/Cuboid), która może być później użyta jako podstawa dowolnego innego rodzaju obiektu BIM.
 
 
 
@@ -30,5 +29,13 @@ Narzędzie Prostopadłościan umożliwia utworzenie standardowej [Części](Part
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > BIM Box/pl
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Box/pl

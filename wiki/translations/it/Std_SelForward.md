@@ -38,7 +38,7 @@ Il comando **Selezione successiva** ripristina la successiva selezione [Vista ad
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

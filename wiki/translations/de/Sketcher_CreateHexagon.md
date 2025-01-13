@@ -6,24 +6,31 @@
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **P** **6**
    Version: 0.15
+   SeeAlso: Sketcher_CreateRegularPolygon/de
 ---
 
 # Sketcher CreateHexagon/de
 
+
+
 ## Beschreibung
 
-Zeichnet ein Sechseck, das in einem Kreis der Konstruktionsgeometrie eingeschrieben ist. Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Sechsecksymbol. Die Koordinaten des Zeigers werden daneben in Echtzeit blau dargestellt.
+Das Werkzeug <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:24px;"> [Sketcher SechseckErstellen](Sketcher_CreateHexagon/de.md) erstellt ein Sechseck. {{Version/de|1.0}}: Dies ist dasselbe Werkzeug wie [Sketcher RegelmäßigesVieleckErstellen](Sketcher_CreateRegularPolygon/de.md) aber mit der vorgegebenen Anzahl von 6 Seiten.
 
 ![](images/SketcherCreateHexagonExample.png‎ )
 
+
+
 ## Anwendung
 
--   Nach Drücken der **[<img src=images/Sketcher_CreateHexagon.svg style="width:16px"> [Sechseck erstellen](Sketcher_CreateHexagon/de.md)**, klicke einmal, um das Zentrum zu setzen, bewege dann die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
--   Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
-## Hinweise
-
-Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung der Skizze sichtbar ist.
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_CreateHexagon.svg" width=16px> [Sechseck](Sketcher_CreateHexagon/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Skizzengeometrien → <img src="images/Sketcher_CreateHexagon.svg" width=16px> Sechseck erstellen** auswählen.
+    -   Ein Rechtsklick in die [3D-Ansicht](3D_view/de.md) und die Menüoption **<img src="images/Sketcher_CreateHexagon.svg" width=16px> Sechseck erstellen** im Kontextmenü auswählen.
+    -   Das Tastaturkürzel **G** dann **P** dann **6**.
+2.  Für weitere Schritte siehe [Sketcher RegelmäßigesVieleckErstellen](Sketcher_CreateRegularPolygon/de#Anwendung.md).
 
 
 

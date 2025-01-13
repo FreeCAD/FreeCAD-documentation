@@ -29,7 +29,13 @@ The **TechDraw 3PtAngleDimension** tool adds an angular dimension to a View. The
 1.  Select three points. The second point will be the apex of the angle. The geometry may be selected in the [3D view](3D_view.md) or in the drawing.
 2.  If you have selected geometry in the 3D view: add the correct TechDraw View to the selection by selecting it in the [Tree view](Tree_view.md).
 3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> [Insert 3-Point Angle Dimension](TechDraw_3PtAngleDimension.md)** button.
+    -   
+        <small>(v1.0)</small> 
+        
+        : If the **Dimensioning tools** [preference](TechDraw_Preferences#Dimensions.md) is set to {{Value|Single tool}} (default): press the down arrow to the right of the **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button and select the **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> Insert 3-Point Angle Dimension** option from the dropdown.
+
+    -   If this preference has a different value (and in {{VersionMinus|0.21}}): press the **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> [Insert 3-Point Angle Dimension](TechDraw_3PtAngleDimension.md)** button.
+
     -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_3PtAngleDimension.svg" width=16px> Insert 3-Point Angle Dimension** option from the menu.
 4.  A dimension is added to the View.
 5.  The dimension may be dragged to the desired position.
@@ -60,10 +66,16 @@ See [TechDraw LengthDimension](TechDraw_LengthDimension#Notes.md).
 See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{TechDraw Tools navi
+
+
+</div>
+
+
+{{TechDraw_Tools_navi
 
 }}
 

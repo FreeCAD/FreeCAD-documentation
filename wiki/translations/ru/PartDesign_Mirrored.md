@@ -9,12 +9,16 @@
 
 # PartDesign Mirrored/ru
 
+
+
 ## Описание
 
 The <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> **PartDesign Mirrored** tool mirrors one or more features.
 
 ![](images/PartDesign_Mirrored_example.svg ) 
 *Объект для создания отверстия, созданный на основе эскиза, содержащего окружность (A), используется для создания зеркально отраженного объекта. Вертикальная ось эскиза (B) используется для определения оси симметрии. Результат (C) показан справа.*
+
+
 
 ## Применение
 
@@ -38,20 +42,33 @@ The <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> **PartD
 2.  The **Mirrored parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
 
+
+
 ## Опции
 
--   To add features:
-    1.  Press the **Add feature** button.
-    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-    3.  Repeat to add more features.
--   To remove features:
-    1.  Press the **Remove feature** button.
-    2.  Do one of the following:
-        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-        -   Select a feature in the list and press the **Del** key.
-        -   Right-click a feature in the list and select **Remove** from the context menu.
-    3.  Repeat to remove more features.
--   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Choose the mode:
+    -   
+        **Transform body**
+        
+        : Transforms the whole base feature\'s shape (default). <small>(v1.0)</small> 
+
+    -   
+        **Transform tool shapes**
+        
+        : Transforms the individual tool shapes of selected features.
+
+        -   To add features:
+            1.  Press the **Add feature** button.
+            2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+            3.  Repeat to add more features.
+        -   To remove features:
+            1.  Press the **Remove feature** button.
+            2.  Do one of the following:
+                -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+                -   Select a feature in the list and press the **Del** key.
+                -   Right-click a feature in the list and select **Remove** from the context menu.
+            3.  Repeat to remove more features.
+        -   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
 -   Specify the mirror **Plane**:
     -   
         **Vertical sketch axis**
@@ -89,12 +106,20 @@ The <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> **PartD
         : Select a planar face in the [3D view](3D_view.md).
 -   If the **Update view** checkbox is checked the view will update in real time.
 
+
+
 ## Ограничения
 
 Смотрите [PartDesign Круговой массив](PartDesign_PolarPattern/ru#Ограничения.md).
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

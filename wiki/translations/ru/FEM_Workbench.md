@@ -229,6 +229,8 @@
 
 </div>
 
+  - <img alt="" src=images/FEM_ConstraintRigidBody.svg  style="width:32px;"> [Rigid body constraint](FEM_ConstraintRigidBody.md): Used to apply the CalculiX\'s rigid body constraint that constrains the motion of the nodes of a selected geometrical entity to the motion of a reference point positioned by the user. <small>(v1.0)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -361,9 +363,15 @@ Translations:FEM Module/141/ru
 
 -   <img alt="" src=images/FEM_MeshGroup.svg  style="width:32px;"> [Группа сетки МКЭ](FEM_MeshGroup/ru.md): Создает группу сетки МКЭ.
 
--   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Nodes set](FEM_CreateNodesSet/ru.md): Creates a FEM mesh nodes set.
+-   <img alt="" src=images/FEM_CreateElementsSet.svg  style="width:32px;"> [Erase Elements](FEM_CreateElementsSet.md): Hides elements selected by a polygon from the mesh. <small>(v1.0)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh/ru.md): Преобразуйте поверхность сетки МКЭ в сетку.
+
+
+</div>
 
 
 
@@ -583,16 +591,42 @@ Translations:FEM Module/141/ru
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Constraint bearing](FEM_ConstraintBearing/ru.md): Используется для определения подшипниковых ограничений.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Constraint gear](FEM_ConstraintGear/ru.md): Используется для определения редукторных ограничений.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley/ru.md): Используется для определения ограничений шкива.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Решатель CalculiX (экспериментальный)](FEM_SolverCalculiX/ru.md): Создает решатель МКЭ CalculiX (экспериментальный).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Nodes set](FEM_CreateNodesSet/ru.md): Creates a FEM mesh nodes set.
 
 
 </div>

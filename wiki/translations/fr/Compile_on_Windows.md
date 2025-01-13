@@ -43,7 +43,7 @@ Lorsque vous utilisez le [Git frontend](https://en.wikipedia.org/wiki/Comparison
 
 1.  Créez un nouveau dossier dans lequel le code source sera téléchargé.
 2.  Cliquez avec le bouton droit de la souris sur ce dossier dans l\'explorateur de fichiers Windows et sélectionnez **Git Clone** dans le menu contextuel.
-3.  Une boîte de dialogue apparaîtra. Dans celui-ci, entrez l\'URL du dépôt FreeCAD Git
+3.  Une fenêtre de dialogue apparaîtra. Dans celui-ci, entrez l\'URL du dépôt FreeCAD Git
 
 *<https://github.com/FreeCAD/FreeCAD.git>*
 
@@ -59,7 +59,7 @@ Pour créer une branche locale et télécharger le code source, vous devez ouvri
 
 
 ```python
-git clone https://github.com/FreeCAD/FreeCAD.git
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git
 ```
 
 
@@ -94,11 +94,11 @@ Vous pouvez éventuellement inclure les chemins d\'accès à certains dossiers d
 Pour ajouter à votre chemin au système :
 
 1.  Dans le menu Démarrer de Windows, cliquez avec le bouton droit de la souris sur *Ordinateur* et choisissez *Propriétés*.
-2.  Dans la boîte de dialogue qui apparaît, cliquez sur *Paramètres système avancés*.
-3.  Une autre boîte de dialogue s\'ouvrira. Cliquez sur l\'onglet *Avancé* sur **Variables d\'environnement**.
-4.  Encore une autre boîte de dialogue s\'ouvrira. Sélectionnez ensuite la variable *Path* et cliquez sur **Editer**.
-5.  Une autre boîte de dialogue s\'ouvrira. Cliquez ici sur **Nouveau** et ajoutez le chemin d\'accès au dossier de Git ou du LibPack.
-6.  Enfin, appuyez sur **OK** et fermez toutes les boîtes de dialogue en appuyant sur **OK**.
+2.  Dans la fenêtre de dialogue qui apparaît, cliquez sur *Paramètres système avancés*.
+3.  Une autre fenêtre de dialogue s\'ouvrira. Cliquez sur l\'onglet *Avancé* sur **Variables d\'environnement**.
+4.  Encore une autre fenêtre de dialogue s\'ouvrira. Sélectionnez ensuite la variable *Path* et cliquez sur **Editer**.
+5.  Une autre fenêtre de dialogue s\'ouvrira. Cliquez ici sur **Nouveau** et ajoutez le chemin d\'accès au dossier de Git ou du LibPack.
+6.  Enfin, appuyez sur **OK** et fermez toutes les fenêtres de dialogue en appuyant sur **OK**.
 
 ## Configuration
 
@@ -183,6 +183,19 @@ Voici la description de certaines de ces variables :
 En fonction de votre compilateur, le processus de compilation de FreeCAD sera légèrement différent. Dans les sections suivantes, les processus connus sont décrits. Si vous compilez avec Qt Creator, passez à [Compilation avec Qt Creator (obsolète)](#Compilation_avec_Qt_Creator_.28obsol.C3.A8te.29.md), sinon procédez directement :
 
 
+
+### Compiler à partir de la ligne de commande cmd.exe 
+
+Si vous souhaitez compiler à partir de la ligne de commande, l\'affichage de CMake vous indiquera la commande à exécuter (qui dépend du répertoire de la release configurée). Mais cette commande produira une compilation *Debug* qui ne fonctionne pas sous Windows et entraîne une erreur d\'importation de Numpy dans FreeCAD (problème connu mais difficile à résoudre). Vous devez spécifier l\'option *\--config Release* pour forcer une compilation *Release* :
+
+
+```python
+cmake --build E:/release --config Release
+```
+
+Notez que la définition de variables CMake comme *CMAKE_BUILD_TYPE* n\'a aucun effet, seule la spécification de l\'option *\--config* comme indiqué ci-dessus fonctionne.
+
+
 <div class="mw-collapsible mw-collapsed toccolours">
 
 
@@ -206,7 +219,7 @@ Pour compiler un FreeCAD prêt à l'emploi, compilez la cible *INSTALL*, voir la
 
 Si vous n\'obtenez aucune erreur, vous avez terminé. **Félicitations !** Vous pouvez quitter MSVC ou le garder ouvert.
 
-**Important :** à partir de Visual Studio 17.4, vous ne pouvez pas utiliser l\'optimisation de code activée par défaut pour la cible **SketcherGui**. Si vous le faites, les contraintes d\'angle seront mal placées dans les esquisses. Pour résoudre ce problème, cliquez avec le bouton droit de la souris sur cette cible dans l\'explorateur de solutions MSVC et sélectionnez la dernière entrée **Properties** dans le menu contextuel. Dans la boîte de dialogue qui apparaît, allez dans C/C++ → Optimisation et désactivez le paramètre **Optimization**. Enfin, recompilez la cible **ALL_BUILD**.
+**Important :** à partir de Visual Studio 17.4, vous ne pouvez pas utiliser l\'optimisation de code activée par défaut pour la cible **SketcherGui**. Si vous le faites, les contraintes d\'angle seront mal placées dans les esquisses. Pour résoudre ce problème, cliquez avec le bouton droit de la souris sur cette cible dans l\'explorateur de solutions MSVC et sélectionnez la dernière entrée **Properties** dans le menu contextuel. Dans la fenêtre de dialogue qui apparaît, allez dans C/C++ → Optimisation et désactivez le paramètre **Optimization**. Enfin, recompilez la cible **ALL_BUILD**.
 
 
 
@@ -401,7 +414,7 @@ FreeCAD est très activement développé. Par conséquent, son code source chang
 Lorsque vous utilisez le [Git frontend](https://en.wikipedia.org/wiki/Comparison_of_Git_GUIs) TortoiseGit :
 
 1.  Dans l\'explorateur de fichiers Windows faites clic droit sur le dossier de code source FreeCAD et sélectionnez dans le menu contextuel **Pull**.
-2.  Une boîte de dialogue apparaîtra. Sélectionnez la branche de développement que vous souhaitez obtenir. **master** est la branche principale. Par conséquent, utilisez la sauf si vous voulez compiler une nouvelle fonctionnalité spéciale à partir d\'une branche qui n\'a pas encore été fusionnée avec **maître**. (Pour plus d\'informations sur les branches Git, consultez [Processus de développement Git](Source_code_management/fr#Processus_de_développement_Git.md)).
+2.  Une fenêtre de dialogue apparaîtra. Sélectionnez la branche de développement que vous souhaitez obtenir. **master** est la branche principale. Par conséquent, utilisez la sauf si vous voulez compiler une nouvelle fonctionnalité spéciale à partir d\'une branche qui n\'a pas encore été fusionnée avec **maître**. (Pour plus d\'informations sur les branches Git, consultez [Processus de développement Git](Source_code_management/fr#Processus_de_développement_Git.md)).
 
 Cliquez enfin sur **OK**.
 
@@ -501,7 +514,7 @@ Pour compiler le FCStdThumbnail.dll
 3.  Spécifiez là comme dossier source celui dans lequel vous vous trouvez actuellement.
 4.  Utilisez le même dossier que le dossier de construction.
 5.  Cliquez sur **Configure**
-6.  Dans la boîte de dialogue qui apparaît, spécifiez le générateur en fonction de celui que vous souhaitez utiliser. Pour le MS Visual Studio standard, utilisez *Visual Studio xx 2yyy* où xx est la version du compilateur et 2yyy l\'année de sa sortie. Il est recommandé d\'utiliser l\'option par défaut *Use default native compilers*.**Remarque:** Il est important de spécifier la variante de bit correcte. Si vous avez la variante 64 bits de LibPack, vous devez également utiliser le compilateur x64.
+6.  Dans la fenêtre de dialogue qui apparaît, spécifiez le générateur en fonction de celui que vous souhaitez utiliser. Pour le MS Visual Studio standard, utilisez *Visual Studio xx 2yyy* où xx est la version du compilateur et 2yyy l\'année de sa sortie. Il est recommandé d\'utiliser l\'option par défaut *Use default native compilers*.**Remarque :** Il est important de spécifier la variante de bit correcte. Si vous avez la variante 64 bits de LibPack, vous devez également utiliser le compilateur x64.
 7.  Cliquez sur **Generate**.
 8.  Vous devriez maintenant avoir le fichier **ALL_BUILD.vcxproj** dans le dossier *\~\\src\\Tools\\thumbs\\ThumbnailProvider*. Double-cliquez dessus et l\'IDE MSVC s\'ouvrira.
 9.  Dans la barre d\'outils de l\'EDI MSVC, assurez-vous que vous utilisez la cible de compilation *Release*.

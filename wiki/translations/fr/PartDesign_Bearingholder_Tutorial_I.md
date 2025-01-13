@@ -32,6 +32,7 @@ Ceci est la première partie du tutoriel. Elle utilisera ce qu\'on pourrait appe
 
 ~~Vous pouvez trouver ma version de la pièce créée dans ce tutoriel [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 ici](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_ici.md).~~ *Ce fichier n\'est plus disponible, un nouveau fichier sera fourni à une date ultérieure.*
 
+
 ## Les Données de Conception 
 
 Le support doit être en mesure de tenir un Roulement d\'un diamètre de 90mm avec une largeur allant jusqu\'à 33mm (par exemple DIN 630 Type 2308, qui a un diamètre intérieur de 40 mm). Le roulement nécessite une hauteur d\'épaulement d\'au moins 4,5 mm dans le support (et sur l\'arbre). La partie supérieure du support sera boulonné sur l\'autre partie avec deux boulons de 12mm. Pour la tête d\'un tel boulon, il faudra au moins 20 mm de diamètre d\'espace libre. Il devrait y avoir une rainure sur les deux côtés du roulement capables de tenir un arbre standard bague d\'étanchéité DIN 3760: 38x55x7 40x55x7 ou sur un côté, 50x68x8 de l\'autre côté.
@@ -54,6 +55,7 @@ Pour plus de commodité, deux autres plans de référence peuvent être créés 
 
 Il est conseillé de donner des noms clairs à la géométrie du de l\'ossature. La plupart du temps, vous voudrez désactiver la visibilité des plans de référence, car ils encombrent l\'écran, et si les plans ont des noms explicites vous pouvez simplement choisir leur nom au lieu de les choisir depuis l\'écran.
 
+
 ## Le solide géométrique 
 
 ![ thumb \| 400px \| right \| text-top \| Croquis du première protusion](images/_HolderTop1-4.jpg ) Maintenant il est temps de commencer à créer une géométrie réelle. L\'esquisse pour la première protusion est affichée sur la droite. Elle est placée sur le plan XY. Il y a juste trois dimensions: le rayon intérieur (de 22,5 mm), l\'allocation d\'usinage (3mm) à la base comme un décalage au pla-XZ et la distance entre le plan de référence représentant l\'axe du boulon (7mm). Cela signifie que si vous vous déplacez plus tard, le plan de référence, la protusion ajustera automatiquement son rayon extérieur. N\'oubliez pas qu\'avant de pouvoir utiliser le plan de référence pour le dimensionnement, vous devez introduire la géométrie externe au sketcher
@@ -74,12 +76,14 @@ Après avoir créé les esquisses, les creuser: Symétriquement 28mm pour la dé
 Là encore, les plans de l\'ossature deviennent utile. Vous aurez besoin du plan de l\'axe du boulon et du plan de la tête du boulon comme géométrie externe. Ensuite, créez une ligne droite pour l\'axe de rotation et assurez-vous qu\'il est contraint à l\'axe du boulon du plan de référence. Le basculer pour devenir une géométrie de construction. Puis, esquisser le reste du contour. Les dimensions importantes sont la surépaisseur d\'usinage en haut et en bas et le rayon de 12 mm : 7 mm pour le rayon du trou + épaisseur de paroi de 5 mm.
 <img alt="géométrie finie de la partie supérieure du support (sans projet et congés)" src=images/_HolderTop1-9.jpg  style="width:400px;"> Créer une fonction de révolution de l\'esquisse, puis la symétriser sur le plan YZ . C\'est toute la géométrie solide nous devons modéliser. Le reste est brouillon et congés.
 
+
 ## Application de dépouille sur les faces latérales 
 
 [thumb\|400px\|right\|text-top \| Le plan neutre pour la création de dépouille](Image:_HolderTop1-10.jpg.md) L\'étape suivante consiste à appliquer des dépouilles sur toutes les faces . Il est important de bien choisir l\'emplacement du plan neutre, c\'est le plan autour duquel on tourne. Si nous choisissons comme plan neutre, le bas du support, alors nous aurons un problème avec l\'épaisseur de paroi dans la partie supérieure du support. Par conséquent, nous créons un plan de référence avec un décalage de 40 mm par rapport au plan XZ comme un compromis entre le haut de la porte devant mince et le bas de devenant large .
 <img alt=" ext-top\|Application de dépouille sur les faces latérales du support" src=images/_HolderTop1-11.jpg  style="width:400px;"> Pour mettre une dépouille sur une face , sélectionner cette face et créer la caractéristique de la dépouille . Vous pouvez ensuite sélectionner plusieurs faces et appliquer la dépouille dessus . Si vous avez une grande pièce, il est conseillé de dépouiller une seule face à la fois. Cela signifie que si vous modifiez la géométrie et qu\'une dépouille échoue, seul cette caractéristique va échouer, alors que si vous mettez sur tous les faces une fonction de dépouille, alors l\'ensemble des fonction ensemble pourrait échouer à cause d\'une faute d\'une face. Pour une petite pièce comme le support de roulement, c\'est suffisant de créer deux fonctions de dépouille : Une pour les quatre faces extérieures, et une pour les faces internes.
 
 La boîte de dialogue va vous forcer à choisir un plan neutre avant de remplir. Vous pouvez laisser la direction d\'étirement vide, dans ce cas, il sera perpendiculaire au plan neutre. Ne oubliez pas de régler l\'angle de dépouille à 2 degrés.
+
 
 ## Congés sur le support 
 
@@ -90,6 +94,7 @@ Comme avec les dépouilles, dans un cadre complexe, vous devez arrondir un seul 
 <img alt="Congé à l\'intérieur du support - bord problématique" src=images/_HolderTop1-14.jpg  style="width:400px;"> Faire des congés l\'intérieur de la pièce nous présente une difficulté qui ne peut être résolue avec les outils actuels dans l\'atelier PartDesign. Le bord du congé ne peut pas du tout être mis en évidence , encore une fois parce que les congés se chevaucheraient. Cela pourrait être contourné par la création d\'une courbe à la place d\'un congé, sauf que les courbes ne sont pas encore mises en œuvre dans PartDesign. Pour le moment, nous sommes forcés de quitter le bord comme il est.
 <img alt="La pièce en congé (sauf pour le bord impossible)" src=images/_HolderTop1-15.jpg  style="width:400px;"> L\'image de droite montre la pièce finie dans l\'état où elle sera avant l\'usinage (à l\'exception de l\'un des bords où il est impossible de créer un congé). Vous remarquerez qu\'un bord qui tourne autour de toute la pièce a été laissé sans congé dans ce but. Il s\'agit du bord où la partie inférieure et la partie supérieure du moule se rencontrent. Ici, pas de congé possible (et aucun n\' est requis de toute façon).
 
+
 ## Usinage
 
 <img alt="Usinage haut et bas du support" src=images/_HolderTop1-16.jpg  style="width:400px;"> <img alt="Usinage intérieur du support de Roulement" src=images/_HolderTop1-17.jpg  style="width:400px;"> maintenant, nous pouvons couper le matériel qui sera usiné à partir de la pièce brute en fonte. C\'est très facile avec la géométrie du squelette défini. L\'idée est de créer toutes les caractéristiques d\'usinage (Cavités et rainures) en utilisant uniquement donnée caractéristiques. Cela signifie qu\'ils vont être totalement indépendant de la géométrie solide du support de roulement, ce qui nous donne quelques grands avantages: \* Peu importe comment vous modifiez la géométrie solide, les caractéristiques pour l\'usinage ne pourront pas échouer. \* Vous pouvez créer la géométrie d\'usinage avant de finaliser le solide, ce qui vous donne une rétroaction visuelle utile. \* Si vous déplacez les plans squelettes de repère, alors la géométrie du solide et l\'usinage s\'adapteront automatiquement en même temps . \* Si vous faites une erreur dans votre géométrie solide, l\'usinage sera toujours dans la position correcte, et très probablement l\'erreur deviendra flagrante (par exemple, une épaisseur de paroi de 2 mm au lieu 5mm). Alors que si vous faites référence à l\'usinage de la géométrie solide, il va s\'adapter à l\'erreur dans le solide et, par exemple maintenir l\'épaisseur de paroi de 5 mm, juste au mauvais endroit où se trouve le solide.
@@ -98,6 +103,8 @@ Avant de commencer la géométrie d\'usinage, j\'aime placer un point de référ
 
 Pour usiner la partie inférieure du support, il suffit de tracer un grand rectangle dans le plan XZ et le creuser. Pour le haut, esquisser un cercle sur le plan de référence définissant l\'emplacement de la tête de vis, puis symétriser la cavité sur le plan YZ. De la même manière, créer une cavité pour le trou où passe le boulon et le symétriser. Pour usiner l\'intérieur du support, créer une esquisse sur le plan YZ et le rainurer.
 ![ thumb \| 400px \| right \| text-top \| Pièce finie](images/_HolderTop1-1.jpg ) Une fois que vous avez réaliser l\'usinage, vous pouvez avoir un bon effet visuel en colorant toutes les surfaces usinées de sorte que vous pouvez voir d\'un coup d\'œil les parties qui sont brut de fonderie et celles qui sont usinées après la coulée.
+
+
 
 ## Notes Finales 
 

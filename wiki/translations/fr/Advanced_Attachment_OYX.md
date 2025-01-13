@@ -56,7 +56,7 @@ Ainsi, si nous sélectionnons le sommet supérieur/gauche de l\'arête jaune (co
 
 :; Remarques :
 
-:   L\'option Aligner O-Y-X est sélectionnée dans la boîte de dialogue Ancrage.
+:   L\'option Aligner O-Y-X est sélectionnée dans la fenêtre de dialogue Ancrage.
 :   L\'origine de l\'esquisse se trouve maintenant au sommet supérieur gauche/supérieur de la ligne jaune.
 :   L\'axe Y de l\'esquisse est maintenant aligné avec la ligne jaune.
 :   L\'axe Z de l\'esquisse est perpendiculaire à la ligne jaune.

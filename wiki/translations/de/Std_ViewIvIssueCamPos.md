@@ -33,31 +33,29 @@ Der Befehl **Std AnsichtKamerapositionAusgeben** gibt die Kameraeinstellungen de
 
 ## Hinweise
 
--   Die Kameraeinstellungen können verwendet werden, um eingefrorene Ansichten zu einer \*.cam-Datei hinzuzufügen. Siehe [Std AnsichtenEinfrieren](Std_FreezeViews/de.md).
+-   Die Kameraeinstellungen können verwendet werden, um eingefrorene Ansichten zu einer ***.cam**-Datei hinzuzufügen. Siehe [Std AnsichtenEinfrieren](Std_FreezeViews/de.md).
 
 
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Die Methode `getCamera` des ActiveView-Objekts gibt dieselben Kameraeinstellungen in einer einzelnen Zeichenkette zurück. Diese Methode steht nicht zur Verfügung, wenn sich FreeCAD im Konsolenmodus befindet.
+Die Methode `getCamera` des View-Objekts gibt dieselben Kameraeinstellungen in einer einzelnen Zeichenkette zurück.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.getCamera()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.getCamera()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -40,7 +40,7 @@ L\'outil Trou FH insère un objet de type trou de plan qui représente un trou d
 L\'objet Trou FH peut être basé sur la position d\'un objet [Draft Point](Draft_Point/fr.md) ou vous pouvez sélectionner l\'emplacement 3D du Trou de plan FH.
 
 1.  Appuyez sur la touche **<img src="images/EM_FHPlaneHole.svg" width=16px> [EM FHPlaneHole](EM_FHPlaneHole/fr.md)** ou appuyez sur la touche **E** puis **H**.
-2.  Cliquez sur un point de la [vue 3D](3D_view/fr.md) ou rentrez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+2.  Cliquez sur un point de la [vue 3D](3D_view/fr.md) ou rentrez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
 
 Vous pouvez également le faire :
 
@@ -61,8 +61,8 @@ Vous pouvez également le faire :
 
 ## Options
 
--   Pour entrer les coordonnées manuellement, il suffit d\'entrer les nombres, et frapper sur la touche **Entrée** entre chaque affectation de la composante X, Y et Z. Vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées pour insérer le point.
--   Appuyez sur **Echap** ou le **Fermer** pour annuler et quitter l\'opération.
+-   Pour entrer les coordonnées manuellement, il suffit d\'entrer les nombres, et frapper sur la touche **Entrée** entre chaque affectation de la composante X, Y et Z. Vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées pour insérer le point.
+-   Appuyez sur **Échap** ou le **Fermer** pour annuler et quitter l\'opération.
 
 
 

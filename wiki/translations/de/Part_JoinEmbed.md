@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part JoinEmbed
    Name/de: Part Einbetten
-   MenuLocation: Formteil , Verbinden , Objekt einbinden
+   MenuLocation: Part , Verbinden , Objekt einbetten
    Workbenches: Part_Workbench/de
    Version: 0.16
    SeeAlso: Part_JoinConnect/de, Part_JoinCutout/de, Part_Boolean/de, Part_Thickness/de
@@ -10,23 +10,30 @@
 
 # Part JoinEmbed/de
 
+
+
 ## Beschreibung
 
-Das Werkzeug Einbetten Bettet einen Hohlkörper (z.B. ein Rohr) in einen anderen Hohlkörper ein.
+Das Werkzeug <img alt="" src=images/Part_JoinEmbed.svg  style="width:24px;"> **Part Einbetten** Bettet einen Hohlkörper (z.B. ein Rohr) in einen anderen Hohlkörper ein.
 
 ![600px](images/JoinFeatures_Embed.png)
+
+
 
 ## Anwendung
 
 1.  Zuerst das Basisobjekt auswählen, dann das Objekt zum Einbetten. Die Reihenfolge der Auswahl ist wichtig. Es reicht aus, nur eine Teilform jedes Objekts (z.B. Flächen) auszuwählen.
-2.  Den Befehl **Part Einbetten** ausführen.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltflächen **<img src="images/Part_JoinEmbed.svg" width=16px> [Objekt einbetten](Part_JoinEmbed/de.md)** drücken.
+    -   Den Menüeintrag **Part → Verbinden → <img src="images/Part_JoinEmbed.svg" width=16px> Objekt einbetten** auswählen.
+3.  Ein JoinFeature-Objekt wird erstellt, dessen Modus auf \'Embed\' eingestellt ist. Die originalen Objekte werden ausgeblendet und das Ergebnis des Einbettens wird in der [3D-Ansicht](3D_view/de.md) angezeigt.
 
-A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objects are hidden, and the result of embedding is shown in 3D view.
+
 
 ## Eigenschaften
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Basis}}
 
 -    **Base**: Reference to base object (the one the other object is to be embedded into). The object should be a single solid.
 
@@ -35,6 +42,8 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
 -    **Mode**: The mode of operation, equals \'Embed\' (Changing that will transform the tool into another Part_JoinXXX). The value of \'bypass\' can be used to temporarily disable the long computations (a compound of Base and Tool will be created, which is a fast operation).
 
 -    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences. When Mode property is \'bypass\', Refine is ignored (never applied).
+
+
 
 ## Beispiel
 
@@ -46,6 +55,8 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
     ![320px](images/JoinFeatures_Example_step3_Embed.png)
 4.  Benutze ein Querschnitt-Werkzeug ([Std Schnittebene](Std_ToggleClipPlane/de.md), [Arch Schnittebene](Arch_SectionPlane/de.md), [Arch SchneideEbene](Arch_CutPlane/de.md)), um Schnitte darzustellen. Auf dem folgenden Bild wurde Arch Schnittebene benutzt.
     ![320px](images/JoinFeatures_Example_step4_Embed.png)
+
+
 
 ## Algorithmus
 
@@ -60,6 +71,8 @@ Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es is
 3\. Falls **Refine** den Wert `True` hat, ist die entstandene Form [verfeinert](Part_RefineShape/de.md).
 ![800px](images/JoinFeatures-Algo-Embed.png)
 
+
+
 ### Hinweise
 
 -   Falls das Objekt nach Schritt 1 ein Stück bliebt, ist das Ergebnis des Ausschnitts äquivalent zu [booleschem Schneiden](Part_Cut/de.md) der Basis mit dem Werkzeug.
@@ -67,6 +80,8 @@ Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es is
 -   Weil das größte Objekt durch Volumenvergleich der Teile festgelegt wird, kann das Werkzeug nur mit Volumenkörpern arbeiten. Da
 
 Because the largest piece is determined by comparing volumes of pieces, the tool can only work with solids. Dies könnte sich in der Zukunft ändern.
+
+
 
 ## Skripten
 

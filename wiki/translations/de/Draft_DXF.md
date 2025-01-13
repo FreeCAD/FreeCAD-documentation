@@ -99,7 +99,7 @@ There is built-in support for the following DWG converters:
 
 -   [LibreDWG](https://www.gnu.org/software/libredwg) (open-source, lacks support for some DWG entities).
 -   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (free).
--   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). <small>(v0.20)</small> 
+-   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial).
 
 See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
 
@@ -107,7 +107,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um Objekte in eine DXF-Datei zu exportieren, wird die Methode `export` des Moduls importDXF verwendet.
 

@@ -57,6 +57,7 @@ Această comandă aplică o forță de valoare dată \[N\] la geometria țintei 
 ## Notes
 
 -   The defined force is applied uniformly to the selected objects. For example, if you define one force load with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.
+-   This feature uses the [\*CLOAD card in CalculiX](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node172.html).
 
 
 

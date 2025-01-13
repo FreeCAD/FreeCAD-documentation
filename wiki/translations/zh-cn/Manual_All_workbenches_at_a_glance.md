@@ -1,13 +1,34 @@
 # Manual:All workbenches at a glance/zh-cn
 {{Manual:TOC}}
 
-对于 FreeCAD 的新用户来说，最大的困难之一是要知道在哪个工作台中找到特定的工具。下表将为您提供最重要的工作台及其工具的概述。请参考 FreeCAD 文档中每个工作台页面以获取更完整的列表。
+As previously mentioned, FreeCAD offers various workbenches, each dedicated to different applications. Although the multitude of options might seem overwhelming at first, each workbench is designed to cater to specific tasks, making the overall workflow more efficient and tailored to various project requirements. For instance, the Part Design workbench is ideal for creating and modifying solid 3D models, while the Draft workbench is perfect for 2D drafting and drawing. This modular approach allows users to customize their interface and toolset according to their specific needs and preferences.
+
+On this page, you will find information regarding the basic set of workbenches and their functionalities. For additional information, feel free to refer to each [workbench](Workbenches.md) page in the FreeCAD documentation for a more complete list.
+
+An interesting feature of FreeCAD is the ability to obtain additional information by hovering the mouse over a command. This tooltip functionality helps users understand what each command does, providing guidance and making it easier to learn and navigate the software.
+
+![](images/FreeCAD_022_ObjectDesc.png )
+
+
+<div class="mw-translate-fuzzy">
 
 其中四个工作台也是成对设计的，其中一个完全包含在另一个工作台中：Arch 包含所有 Draft 工具，而PartDesign 包含所有 Sketcher 工具。然而，为了清晰起见，它们在下面是分开列出的。
 
+
+</div>
+
 ### Part
 
+
+<div class="mw-translate-fuzzy">
+
 Part 工作台提供了处理实体零件的基本工具：原始几何体，例如立方体和球体，以及简单的几何操作和布尔操作。作为与 OpenCasCade（开放级联技术）的主要锚点，Part 工作台为 FreeCAD 的几何系统提供了基础，并且几乎所有其他工作台都会生成基于 Part 的几何体。
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   工具                                                                                                      描述                                                 工具                                                                                                       描述
      
@@ -25,9 +46,47 @@ Part 工作台提供了处理实体零件的基本工具：原始几何体，例
   <img alt="" src=images/Part_Loft.svg  style="width:32px;"> [放样](Part_Loft.md)                               从一个剖面放样到另一个剖面                           <img alt="" src=images/Part_Offset.svg  style="width:32px;"> [偏移](Part_Offset.md)                          创建原始对象的缩放副本
   <img alt="" src=images/Part_Thickness.svg  style="width:32px;"> [厚度](Part_Thickness.md)                为形状的面片赋予厚度                                                                                                                                            
 
+
+</div>
+
+### Part Design 
+
+
+<div class="mw-translate-fuzzy">
+
+Part Design 工作台包含用于构建实体零件的高级工具，还包含 Sketcher 中的所有工具。由于Part Design 工作台只能生成实体形状（Part Design的第一规则），因此在设计用于制造的部品或用于 3D 打印的零件时，Part Design 是主工作台，您将始终获得可打印的对象。
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+  工具                                                                                                                           描述                               工具                                                                                                                              描述
+     
+  <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [拉伸](PartDesign_Pad.md)                                     从选定的草图拉伸出一个固体对象     <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [凸台](PartDesign_Pocket.md)                               从选定的草图创建一个凸台，该草图必须映射到现有固体对象的面
+  <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [旋转体](PartDesign_Revolution.md)              围绕轴创建一个实体对象             <img alt="" src=images/PartDesign_Groove.svg  style="width:32px;"> [凹槽](PartDesign_Groove.md)                               围绕轴创建一个凹槽
+  <img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [圆角](PartDesign_Fillet.md)                            圆角化对象的边缘                   <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [倒角](PartDesign_Chamfer.md)                            对象的边缘倒角
+  <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [斜面](PartDesign_Draft.md)                               对对象的面施加角度斜面             <img alt="" src=images/PartDesign_Mirrored.svg  style="width:32px;"> [镜像](PartDesign_Mirrored.md)                         在平面或面上镜像特征
+  <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [线性阵列](PartDesign_LinearPattern.md)   创建特征的线性阵列                 <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:32px;"> [极坐标阵列](PartDesign_PolarPattern.md)       创建特征的极坐标阵列
+  <img alt="" src=images/PartDesign_Scaled.svg  style="width:32px;"> [比例缩放](PartDesign_Scaled.md)                        将特征缩放到不同的大小             <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [多重变换](PartDesign_MultiTransform.md)   允许创建任何其他变换的组合，并应用于模型的特征
+  <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [轴向向导](PartDesign_WizardShaft.md)         从值表生成轴，并允许分析力和力矩   <img alt="" src=images/PartDesign_InvoluteGear.svg  style="width:32px;"> [渐开线齿轮向导](PartDesign_InvoluteGear.md)   允许您创建几种类型的齿轮
+
+
+</div>
+
 ### Draft
 
+
+<div class="mw-translate-fuzzy">
+
 Draft 工作台提供基本的 2D CAD 绘图工具，如直线、圆等，以及一系列通用的便捷工具，如移动、旋转或缩放。它还提供了几种绘图辅助功能，如网格和捕捉。它主要用于绘制 Arch 对象的指引线，但也可以作为FreeCAD 的\"瑞士军刀\"使用。
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   工具                                                                                                         描述                                     工具                                                                                                          描述
      
@@ -45,9 +104,20 @@ Draft 工作台提供基本的 2D CAD 绘图工具，如直线、圆等，以及
   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [草图转换](Draft_Draft2Sketch.md)   将草图对象转换为草图或反之               <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> [矩形阵列](Draft_OrthoArray.md)          从一个对象创建一个矩形阵列
   <img alt="" src=images/Draft_Clone.svg  style="width:32px;"> [复制](Draft_Clone.md)                            创建对象的链接副本                       <img alt="" src=images/Draft_Mirror.svg  style="width:32px;"> [镜像](Draft_Mirror.md)                          沿一条线镜像对象
 
+
+</div>
+
+\|- \| <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Snap extension](Draft_Snap_Extension.md) \| Snaps to an imaginary line that extends beyond the endpoints of straight edges \| <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:32px;"> [Snap parallel](Draft_Snap_Parallel.md) \| Snaps to an imaginary line parallel to straight edges \|- \| <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Snap special](Draft_Snap_Special.md) \| Snaps to special points defined by the object. \| <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Snap near](Draft_Snap_Near.md) \| Snaps to the nearest point on faces and edges \|- \| <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Snap ortho](Draft_Snap_Ortho.md) \| Snaps to imaginary lines that cross the previous point at multiples of 45°. \| <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap grid](Draft_Snap_Grid.md) \| Snaps to the intersections of grid lines. \|- \| <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap working plane](Draft_Snap_WorkingPlane.md) \| Projects snap points onto the current [working plane](Draft_SelectPlane.md) \| <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap dimensions](Draft_Snap_Dimensions.md) \| Shows temporary X and Y dimensions \|}
+
 ### Sketcher
 
+
+<div class="mw-translate-fuzzy">
+
 Sketcher 工作台包含用于构建和编辑复杂 2D 对象的工具，称为草图(sketch)。这些草图内的几何形状可以通过使用约束来精确地定位和关联。这些草图(sketch)对象主要是 PartDesign 几何体的构建模块，但在 FreeCAD 各处都有用。
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -78,23 +148,26 @@ Sketcher 工作台包含用于构建和编辑复杂 2D 对象的工具，称为�
 
 </div>
 
-### Part Design 
 
-Part Design 工作台包含用于构建实体零件的高级工具，还包含 Sketcher 中的所有工具。由于Part Design 工作台只能生成实体形状（Part Design的第一规则），因此在设计用于制造的部品或用于 3D 打印的零件时，Part Design 是主工作台，您将始终获得可打印的对象。
 
-  工具                                                                                                                           描述                               工具                                                                                                                              描述
-     
-  <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [拉伸](PartDesign_Pad.md)                                     从选定的草图拉伸出一个固体对象     <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [凸台](PartDesign_Pocket.md)                               从选定的草图创建一个凸台，该草图必须映射到现有固体对象的面
-  <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [旋转体](PartDesign_Revolution.md)              围绕轴创建一个实体对象             <img alt="" src=images/PartDesign_Groove.svg  style="width:32px;"> [凹槽](PartDesign_Groove.md)                               围绕轴创建一个凹槽
-  <img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [圆角](PartDesign_Fillet.md)                            圆角化对象的边缘                   <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [倒角](PartDesign_Chamfer.md)                            对象的边缘倒角
-  <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [斜面](PartDesign_Draft.md)                               对对象的面施加角度斜面             <img alt="" src=images/PartDesign_Mirrored.svg  style="width:32px;"> [镜像](PartDesign_Mirrored.md)                         在平面或面上镜像特征
-  <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [线性阵列](PartDesign_LinearPattern.md)   创建特征的线性阵列                 <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:32px;"> [极坐标阵列](PartDesign_PolarPattern.md)       创建特征的极坐标阵列
-  <img alt="" src=images/PartDesign_Scaled.svg  style="width:32px;"> [比例缩放](PartDesign_Scaled.md)                        将特征缩放到不同的大小             <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [多重变换](PartDesign_MultiTransform.md)   允许创建任何其他变换的组合，并应用于模型的特征
-  <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [轴向向导](PartDesign_WizardShaft.md)         从值表生成轴，并允许分析力和力矩   <img alt="" src=images/PartDesign_InvoluteGear.svg  style="width:32px;"> [渐开线齿轮向导](PartDesign_InvoluteGear.md)   允许您创建几种类型的齿轮
+
+<div class="mw-translate-fuzzy">
 
 ### Arch
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Arch 工作台包含用于处理 [BIM](https://en.wikipedia.org/wiki/Building_information_modeling) 项目（土木工程和建筑）的工具，还包含 Draft 工作台中的所有工具。Arch 工作台的主要用途是创建 BIM 对象或为使用其他工作台构建的对象提供 BIM 属性，以便导出到[IFC](https://en.wikipedia.org/wiki/Industry_Foundation_Classes) 里。
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   工具                                                                                         描述                                       工具                                                                                                      描述
      
@@ -111,10 +184,16 @@ Arch 工作台包含用于处理 [BIM](https://en.wikipedia.org/wiki/Building_in
   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [测量](Arch_Survey.md)            进入或离开测量模式                                                                                                                                   
 
 
+</div>
+
+
 
 ### 其他内置工作台
 
 上面概括介绍了 FreeCAD 最重要的几个工具，但还有更多工作台可用，包括：
+
+
+<div class="mw-translate-fuzzy">
 
 -   [TechDraw 工作台](TechDraw_Workbench.md) 用于从 3D 模型生成技术图纸。
 -   [Mesh 工作台](Mesh_Workbench.md) 可以处理 [多边形网格](https://en.wikipedia.org/wiki/Polygon_mesh)。虽然网格不是 FreeCAD 中首选的几何类型，因为它们缺乏精度和对曲线的支持，但网格仍然具有许多用途，并且在 FreeCAD 中得到了完全支持。网格工作台还提供了许多将零件转换为网格和将网格转换为零件的工具。
@@ -123,16 +202,28 @@ Arch 工作台包含用于处理 [BIM](https://en.wikipedia.org/wiki/Building_in
 -   [FEM 工作台](FEM_Workbench.md) 处理 [有限元分析](https://en.wikipedia.org/wiki/Finite_element_method)，允许进行 FEM 计算的预处理和后处理，并以图形方式显示结果。
 
 
+</div>
+
+
 
 ### 外部工作台
 
+
+<div class="mw-translate-fuzzy">
+
 还有许多其他由 FreeCAD 社区成员制作的非常有用的工作台。虽然它们未包含在标准的 FreeCAD 安装中，但它们可以很容易地作为插件安装。它们都在 [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons) 存储库中引用。其中最发达的包括：
+
+
+</div>
 
 -   [图纸标注工作台](https://github.com/hamish2014/FreeCAD_drawing_dimensioning) 提供许多新工具，可直接在图纸上工作，并允许您添加尺寸、注释和其他技术符号，并对它们的外观进行精确控制。**图纸标注工作台已不再维护。**
 -   [紧固件工作台](https://github.com/shaise/FreeCAD_FastenersWB) 提供了各种现成的紧固件对象，如螺钉、螺栓、杆、垫圈和螺帽。有许多选项和设置可供选择。
 -   [A2plus](https://github.com/kbwbe/A2plus) 工作台提供了一系列用于安装和处理 [装配体](https://en.wikipedia.org/wiki/Assembly_modelling) 的工具。
 
 **延伸阅读**
+
+
+<div class="mw-translate-fuzzy">
 
 -   [完整的工作台列表](Workbenches.md)
 -   [Part 工作台](Part_Workbench.md)
@@ -142,6 +233,9 @@ Arch 工作台包含用于处理 [BIM](https://en.wikipedia.org/wiki/Building_in
 -   [TechDraw 工作台](TechDraw_Workbench.md)
 -   [FEM 工作台](FEM_Workbench.md)
 -   [FreeCAD-addons 存储库](https://github.com/FreeCAD/FreeCAD-addons)
+
+
+</div>
 
 
 

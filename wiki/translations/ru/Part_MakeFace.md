@@ -10,6 +10,8 @@
 
 # Part MakeFace/ru
 
+
+
 ## Описание
 
 
@@ -20,13 +22,19 @@
 
 </div>
 
-Можно вложить замкнутые контуры, например, чтобы внутри многоугольника были круги. В этом случае плоскость будет создана между контурами, как в этом примере:
+<img alt="" src=images/Part_MakeFace-example.png  style="width:500px;">
 
-<img alt="" src=images/Part_MakeFace-example.png  style="width:300px;">
+
+<div class="mw-translate-fuzzy">
 
 
 
 *Пример грани(плоскости), созданной из вложенного набора контуров.*
+
+
+</div>
+
+
 
 ## Применение
 

@@ -32,6 +32,8 @@ FreeCAD有一個最棒的特色就是你可以藉由腳本來擴充功能並且�
 
 </div>
 
+
+
 ## 客製化 FreeCAD 
 
 
@@ -48,7 +50,7 @@ FreeCAD有一個最棒的特色就是你可以藉由腳本來擴充功能並且�
 
 </div>
 
-在FreeCAD撰寫腳本
+ 在FreeCAD撰寫腳本
 
 ### General
 
@@ -65,6 +67,8 @@ FreeCAD有一個最棒的特色就是你可以藉由腳本來擴充功能並且�
 
 
 </div>
+
+
 
 ### 模組
 
@@ -117,6 +121,8 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Working with parametric objects 
@@ -129,7 +135,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 -   [Scripted objects](Scripted_objects.md): how to make 100% Python-scripted objects.
     -   [Scripted objects with attachment](Scripted_objects_with_attachment.md): how to make scripted objects attachable to other objects.
-    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md): how to save and restore attributes of the proxy class with `__getstate__` and `__setstate__`.
+    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md): how to save and restore attributes of the proxy class with `dumps` and `loads`.
     -   [Scripted objects migration](Scripted_objects_migration.md): how to migrate old scripted objects to a new class.
 
 ### Examples
@@ -196,8 +202,6 @@ The following two references are PyQt specific (not PySide) but may offer some i
 ## Community projects 
 
 On the [Community portal](FreeCAD_Community_Portal.md), you can find other FreeCAD-based projects run by the FreeCAD users community. If you are starting a new FreeCAD project, be sure to list it there! We also have a page with things you can do if you would like to [Help FreeCAD](Help_FreeCAD.md).
-
--   [Scientific literature](Scientific_literature.md): articles that reference or use the FreeCAD system in different ways.
 
 
 

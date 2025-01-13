@@ -11,10 +11,19 @@
 # Sketcher CreatePolyline/ru
 
 
+</div>
+
+
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Этот инструмент работает как инструмент [Линия](Sketcher_CreateLine/ru.md), но создаёт непрерывные отрезки линий и дуг, соединённых вершинами. При запуске инструмента указатель мыши меняется на белый крест с красным значком полилинии. Координаты указателя отображаются рядом с ним синим цветом в режиме реального времени.
+
+
+</div>
 
 ![](images/Sketcher_PolylineExample1.png )
 
@@ -26,22 +35,34 @@
 
 ## Применение
 
-Полилиния всегда начинается с отрезка прямой линии: нажмите - переместите мышь - нажмите. Переместите мышь снова. После размещения первого сегмента линии инструмент Sketcher-а полилиния имеет несколько режимов, которые можно переключать с помощью клавиши **M**. Например, вы можете нарисовать касательные или перпендикулярные дуги, следующие за линией или сегментом дуги. Повторное нажатие клавиши **M** переключает следующие режимы:
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-1.  Нажмите клавишу **M**: новый сегмент это линия, которая перпендикулярна предыдущему сегменту.
-2.  Нажмите клавишу **M** еще раз: новый сегмент это линия, касательная к предыдущему сегменту.
-3.  Нажмите клавишу **M** еще раз: новый сегмент - это дуга, касательная к предыдущему сегменту.
-4.  Нажмите клавишу **M** еще раз: новый сегмент - это дуга, которая перпендикулярна (слева) к предыдущему сегменту.
-5.  Нажмите клавишу **M** еще раз: новый сегмент - это дуга, которая перпендикулярна (справа) к предыдущему сегменту.
-6.  Нажмите клавишу **M** еще раз: вы снова в состоянии, с которого начали; линия связана только ограничением совпадения с предыдущим сегментом.
-
--    <small>(v0.18)</small> Находясь в любом из режимов дуги, удерживая нажатой клавишу **Ctrl** (MacOS: клавиша **CMD**) и перемещая курсор, дуга привязывается к ранее созданному сегменту полилинии с шагом 45 градусов.
-
--   Укажите точки на пустой области 3D вида или на существующем объекте (в Панели задач должны быть активны автоограничения).
-
--   Нажатие **Esc** или щелчок правой кнопки мыши *перед* замыканием полилинии на контур завершает текущую полилинию и можно продолжить с новой. Нажатие **Esc** или повторный щелчок правой кнопки мыши закрывает функцию создания полилинии.
-
--   Нажатие **Esc** или щелчок правой кнопки мыши *после* замыкания полилинии на контур завершает функцию полилинии.
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_CreatePolyline.svg" width=16px> [Create polyline](Sketcher_CreatePolyline.md)** button.
+    -   Select the **Sketcher → Sketcher geometries → <img src="images/Sketcher_CreatePolyline.svg" width=16px> Create polyline** option from the menu.
+    -   Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_CreatePolyline.svg" width=16px> Create polyline** option from the context menu.
+    -   Use the keyboard shortcut: **G** then **M**.
+2.  The cursor changes to a cross with the tool icon.
+3.  The modes of the tool require a previous segment. Do one of the following:
+    -   Pick two points to define a line segment.
+    -   Pick the endpoint of an existing line or arc segment ([Auto constraints](Sketcher_Workbench#Auto_constraints.md) must be enabled).
+4.  Optionally press the **M** key one or more times to cycle through the modes for the next segment. The available modes are:
+    -   Line perpendicular to the previous segment.
+    -   Line tangential to the previous segment (this is the initial mode if the previous segment is an arc).
+    -   Arc tangential to the previous segment.
+    -   Arc perpendicular (left) to the previous segment.
+    -   Arc perpendicular (right) to the previous segment.
+    -   Line only connected to the previous segment.
+5.  While in any of the arc modes, optionally hold down the **Ctrl** key to snap the arc to increments of 45° relative to the previous segment.
+6.  Pick the endpoint of the segment.
+7.  Optionally repeat this to create more segments.
+8.  To finish the input do one of the following:
+    -   Snap to the start point to create a closed polyline.
+    -   Right-click or press **Esc** to create an open polyline.
+9.  The polyline segments have been created and applicable constraints have been added.
+10. If the tool runs in [continue mode](Sketcher_Workbench#Continue_modes.md):
+    1.  Optionally keep creating polylines.
+    2.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
 
 
 <div class="mw-translate-fuzzy">

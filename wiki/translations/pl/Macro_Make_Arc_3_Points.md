@@ -1,28 +1,29 @@
 # Macro Make Arc 3 Points/pl
-{{Macro
+{{Macro/pl
 |Name=Macro Make Arc 3 Points
+|Translate/pl=Makrodefinicja: Make Arc 3 Points
 |Icon=Macro_Make_Arc_3_Points.png
-|Description=Creates a arc from 3 selected points.
+|Description=Tworzy łuk na podstawie trzech wybranych punktów.
 |Author=Mario52
 |Version=02.00
 |Date=2019-07-29
-|FCVersion=All
+|FCVersion=wszystkie
 |Download=[https://www.freecadweb.org/wiki/images/9/92/Macro_Make_Arc_3_Points.png ToolBar Icon]
 }}
 
-## Description
+## Opis
 
-This macro creates a arc on 3 selected points.
+Tworzy łuk na podstawie trzech wybranych punktów.
 
-## Usage
+## Użycie
 
-Launch the macro, select 3 points, the arc is created and the coordinates and the length of the arc are displayed in the report view.
+Uruchom makrodefinicję, wybierz trzy punkty, łuk zostanie utworzony, a współrzędne i długość łuku zostaną wyświetlone w oknie widoku raportu.
 
-(PS: It is not required to hold down the Ctrl key)
+*(Nie jest wymagane przytrzymanie klawisza **Ctrl**)*
 
-## Script
+## Skrypt
 
-The icon for the toolBar <img alt="" src=images/Macro_Make_Arc_3_Points.png  style="width:36px;">
+Ikonka paska narzędzi <img alt="" src=images/Macro_Make_Arc_3_Points.png  style="width:36px;">
 
 **Macro_Make_Arc_3_Points.FCMacro**
 

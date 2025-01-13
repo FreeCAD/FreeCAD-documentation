@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft ToggleContinueMode
-   Name/it: Modalità Continua
+   Name/it: Draft Modalità Continua
    MenuLocation: Utilità , Modalità Continua
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Workbenches: Draft_Workbench/it
 ---
 
 # Draft ToggleContinueMode/it

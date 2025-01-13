@@ -4,7 +4,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Релиз FreeCAD версии 0.20.2 (29603) был опубликован 07.12.2022. Чтобы узнать о нововведениях, ознакомьтесь с [примечаниями к выпуску](Release_notes_0.20/ru.md).
+Релиз FreeCAD версии 0.21.2 был опубликован 14.11.2023. Чтобы узнать о нововведениях, ознакомьтесь с [примечаниями к выпуску](Release_notes_0.21/ru.md).
 
 
 </div>
@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Контрольные суммы SHA256 для проверки целостности вашей загрузки вы можете найти на [странице релиза 0.20.2](https://github.com/FreeCAD/FreeCAD/releases/tag/0.20.2).
+Контрольные суммы SHA256 для проверки целостности вашей загрузки вы можете найти на [странице релиза 0.21.2](https://github.com/FreeCAD/FreeCAD/releases/tag/0.21.2).
 
 
 </div>
@@ -20,37 +20,37 @@
 Предыдущие версии можно загрузить со страницы [релизов](https://github.com/FreeCAD/FreeCAD/releases).
 
 +::+::+::+
-| ![](images/Windows.png )                                                                                                | ![](images/Mac.png )                                                                                                | ![](images/Linux_with_text.png )                                                                        |
-|                                                                                                                               |                                                                                                                       |                                                                                                                       |
-| [Install instructions](Installing_on_Windows.md)                                                                      | [Install instructions](Installing_on_Mac.md)                                                                  | [Install instructions](Installing_on_Linux.md)                                                                |
-|                                                                                                                               |                                                                                                                       |                                                                                                                       |
-| [64-bit installer](https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-WIN-x64-installer-1.exe)        | [ARM (M1/M2) disk image](https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-macOS-arm64.dmg)  | [x86_64 AppImage](https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-Linux-x86_64.AppImage)   |
-|                                                                                                                               |                                                                                                                       |                                                                                                                       |
-| [64-bit portable version (.7z)](https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-Windows-x86_64.7z) | [Intel disk image](https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-macOS-intel-x86_64.dmg) | [aarch64 AppImage](https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-Linux-aarch64.AppImage) |
+| ![](images/Windows.png )                                                                                                          | ![](images/Mac.png )                                                                                                            | ![](images/Linux_with_text.png )                                                                                  |
+|                                                                                                                                         |                                                                                                                                   |                                                                                                                                 |
+| [Install instructions](Installing_on_Windows.md)                                                                                | [Install instructions](Installing_on_Mac.md)                                                                              | [Install instructions](Installing_on_Linux.md)                                                                          |
+|                                                                                                                                         |                                                                                                                                   |                                                                                                                                 |
+| [64-bit installer](https://github.com/FreeCAD/FreeCAD/releases/download/1.0.0/FreeCAD_1.0.0-conda-Windows-x86_64-installer-1.exe)       | [ARM (M-series) disk image](https://github.com/FreeCAD/FreeCAD/releases/download/1.0.0/FreeCAD_1.0.0-conda-macOS-arm64-py311.dmg) | [x86_64 AppImage](https://github.com/FreeCAD/FreeCAD/releases/download/1.0.0/FreeCAD_1.0.0-conda-Linux-x86_64-py311.AppImage)   |
+|                                                                                                                                         |                                                                                                                                   |                                                                                                                                 |
+| [64-bit portable version (.7z)](https://github.com/FreeCAD/FreeCAD/releases/download/1.0.0/FreeCAD_1.0.0-conda-Windows-x86_64-py311.7z) | [Intel disk image](https://github.com/FreeCAD/FreeCAD/releases/download/1.0.0/FreeCAD_1.0.0-conda-macOS-x86_64-py311.dmg)         | [aarch64 AppImage](https://github.com/FreeCAD/FreeCAD/releases/download/1.0.0/FreeCAD_1.0.0-conda-Linux-aarch64-py311.AppImage) |
 ++++
 
-### Notes for Windows users 
+
+
+### Примечания для пользователей Windows 
 
 
 <div class="mw-translate-fuzzy">
 
-### Примечания для пользователей Windows 
-
 -   Поддерживаются следующие версии Windows: 64-разрядные версии 7/8/10/11. 32-разрядная версия Windows не поддерживается.
--   Портативная версия, не требующая установки доступна на странице [релиза](https://github.com/FreeCAD/FreeCAD/releases/).
--   Пакет также можно установить из менеджера пакетов [Chocolatey](https://chocolatey.org/packages/freecad).
+-   Пакет также можно установить из менеджера пакетов [Chocolatey](https://chocolatey.org/packages/freecad). Пакет из Chocolatey пока не в новейшей версии.
 
 
 </div>
 
-### Notes for macOS users 
+
+
+### Примечания для пользователей macOS 
 
 
 <div class="mw-translate-fuzzy">
 
-### Примечания для пользователей macOS 
-
-macOS 10.12 Sierra --- минимальная поддерживаемая версия.
+-   macOS 10.12 Sierra --- минимальная поддерживаемая версия.
+-   Для macOS 12 и более ранних версий следует использовать «Неподписанный образ диска Intel», подписанная версия в этих системах не работает.
 
 
 </div>
@@ -74,12 +74,12 @@ HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./name_of_AppImage_file.A
 
 Дополнительную информацию о переменных среды FreeCAD можно найти на [странице конфигурирования](Start_up_and_Configuration/ru#Переменные_Среды_Окружения.md).
 
-## Development versions 
+
+
+## Разрабатываемые версии 
 
 
 <div class="mw-translate-fuzzy">
-
-## Разрабатываемые версии 
 
 FreeCAD активно развивается.
 
@@ -93,7 +93,13 @@ FreeCAD активно развивается.
 
 ## Дополнительные модули и макросы 
 
+
+<div class="mw-translate-fuzzy">
+
 Сообщество FreeCAD предлагает множество различных модулей и макросов. Начиная с версии 0.17 они могут быть легко установлены напрямую из FreeCAD через <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Менеджер дополнений](Std_AddonMgr/ru.md).
+
+
+</div>
 
 
 

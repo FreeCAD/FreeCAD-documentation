@@ -30,10 +30,18 @@ To polecenie jest drugim z trzech kroków konwersji obiektu powłoki wykonanego 
 ## Użycie
 
 1.  Wybierz jedną lub więcej krawędzi.
-2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> **Wykonaj połączenie** używając jednej z poniższych opcji:
-    -   Przycisk **<img src="images/SheetMetal_AddJunction.svg" width=16px> Wykonaj połączenie**.
-    -   Opcja menu **SheetMetal → <img src="images/SheetMetal_AddJunction.svg" width=16px> Wykonaj połączenie**.
-    -   Skrót klawiaturowy: **S** + **J**.
+2.  Istnieje kilka sposobów na wywołanie tego polecenia:
+    -   Wciśnij przycisk **<img src="images/SheetMetal_AddJunction.svg" width=16px> [Wykonaj połączenie](SheetMetal_AddJunction/pl.md)**.
+    -   Wybierz opcję **SheetMetal → <img src="images/SheetMetal_AddJunction.svg" width=16px> Wykonaj połączenie** z menu.
+    -   Kliknij prawym przyciskiem myszy w [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md) i wybierz opcję **SheetMetal → <img src="images/SheetMetal_AddJunction.svg" width=16px> Wykonaj połączenie** z menu kontekstowego.
+    -   Użyj skrótu klawiaturowego: **S** a następnie **J**.
+3.  Otwarty zostanie [panel zadań](Task_panel/pl.md) **Add Junction Parameter** (wprowadzony w wersji 0.5.00).
+4.  Opcjonalnie wciśnij przycisk **Wybierz** aby dodać więcej ścian.
+    -   Wciśnij przycisk **Podgląd** aby zakończyć wybór i wyświetlić zmiany.
+5.  Opcjonalnie dostosuj parametry w panelu zadań.
+6.  Wciśnij przycisk **OK** aby zakończyć polecenie i zamknąć panel zadań.
+7.  Utworzony zostanie obiekt **Junction** składający się z jednego otwarcia dla każdej wskazanej krawędzi.
+8.  Opcjonalnie dostosuj parametry w [Edytorze właściwości](Property_editor/pl.md).
 
 <img alt="" src=images/SheetMetal_ConvertShellObject-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-07.png  style="width:200px;">
 
@@ -41,9 +49,10 @@ To polecenie jest drugim z trzech kroków konwersji obiektu powłoki wykonanego 
 
 ## Uwagi
 
-Polecenia <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **[Wykonaj podcięcie](SheetMetal_AddRelief/pl.md)**, <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> **[Wykonaj połączenie](SheetMetal_AddJunction/pl.md)** i <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[Wykonaj zagięcie](SheetMetal_AddBend/pl.md)** działają najlepiej z obiektami typu \"wydrążony\" prostopadłościan o stałej grubości i kątach 90° między ścianami.
+-   Polecenia <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **[Wykonaj podcięcie](SheetMetal_AddRelief/pl.md)**, <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> **[Wykonaj połączenie](SheetMetal_AddJunction/pl.md)** i <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[Wykonaj zagięcie](SheetMetal_AddBend/pl.md)** działają najlepiej z obiektami typu \"wydrążony\" prostopadłościan o stałej grubości i kątach 90° między ścianami.
+-   Zobacz stronę [Wykonaj podcięcie](SheetMetal_AddRelief/pl#Uwagi.md) aby znaleźć wskazówki dotyczące tworzenia obiektów powłokowych prostopadłościanów.
 
-Zobacz stronę z opisem narzędzia [Wykonaj podcięcie](SheetMetal_AddRelief/pl#Uwagi.md), aby uzyskać wskazówki dotyczące tworzenia obiektów powłoki na bazie prostopadłościanów.
+-   **Junction** w tym przypadku nie jest wynikiem działania tego narzędzia, który jest przerwą między przylegającymi płaskimi ścianami, tylko opisuje położenie, w którym dwie płaskie ściany ukończonego rzeczywistego obiektu się spotykają, np. w celu ich zespawania.
 
 
 
@@ -51,20 +60,11 @@ Zobacz stronę z opisem narzędzia [Wykonaj podcięcie](SheetMetal_AddRelief/pl#
 
 Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt Połaczenie środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+Obiekt Połaczenie środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) lub, jeśli jest w obrębie [Zawartości środowiska Projekt Części](PartDesign_Body/pl.md), z obiektu [Cechy tego środowiska](PartDesign_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
 
 ### Dane
-
-
-{{Properties_Title|Podstawowe}}
-
--    **Etykieta|String**: Wartość domyślna: {{value|Junction}} *(+ kolejny numer dla drugiej i następnych pozycji)*. Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg znaków UTF8.
-
--    **Cecha podstawowa|Link|ukryte**: Cecha bazowa. Łącze do cechy nadrzędnej.
-
--    **_Body|LinkHidden|ukryte**: Łącze ukryte do zawartości nadrzędnej.
 
 
 {{Properties_Title|Parametry}}

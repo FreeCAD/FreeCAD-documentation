@@ -7,7 +7,7 @@
 
 ## Wprowadzenie
 
-Środowisko pracy <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh](Mesh_Workbench.md) obsługuje [sieci trójkątnych oczek](http://en.wikipedia.org/wiki/Triangle_mesh). Siatki są specjalnym rodzajem obiektu 3D, złożonym z trójkątnych ścian połączonych ich wierzchołkami i krawędziami.
+Środowisko pracy <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Siatka](Mesh_Workbench/pl.md) obsługuje [sieci trójkątnych oczek](http://en.wikipedia.org/wiki/Triangle_mesh). Siatki są specjalnym rodzajem obiektu 3D, złożonym z trójkątnych ścian połączonych ich wierzchołkami i krawędziami.
 
 Wiele aplikacji 3D, takich jak [Sketchup](http://en.wikipedia.org/wiki/Sketchup), [Blender](http://en.wikipedia.org/wiki/Blender_(software)), [Maya](http://en.wikipedia.org/wiki/Maya_(software)) i [3D Studio Max](http://en.wikipedia.org/wiki/3d_max), używa siatki jako podstawowego typu obiektu 3D. Ponieważ siatki są bardzo prostymi obiektami, zawierającymi tylko wierzchołki *(punkty)*, krawędzie i trójkątne powierzchnie, są one bardzo łatwe do tworzenia, modyfikowania, dzielenia, rozciągania i mogą być łatwo przekazywane z jednej aplikacji do drugiej bez utraty szczegółów. Ponadto, ponieważ siatki zawierają bardzo nieskomplikowane dane, aplikacje 3D mogą zazwyczaj zarządzać bardzo dużymi ich ilościami bez konieczności używania wielkich zasobów. Z tych powodów, siatki są często wybierane jako obiekt 3D dla aplikacji obsługujących filmy, animacje i tworzenie obrazów.
 
@@ -92,10 +92,10 @@ Utwórz siatkę z kształtu \...\]\]: Tworzy obiekty siatkowe z obiektów kszta�
 
 Istnieje kilka [preferencji eksportu związanych z formatami siatki](Import_Export_Preferences/pl#Formaty_Mesh.md), ale nie są one używane przez polecenia należące do tego stanowiska pracy. Są one używane przez polecenie [Std: Eksport](Std_Export/pl.md).
 
-Preferencje środowiska pracy Mesh można znaleźć w następujących kategoriach [Edytora Preferencji](Preferences_Editor/pl.md):
+Preferencje środowiska pracy Siatka można znaleźć w następujących kategoriach [Edytora Preferencji](Preferences_Editor/pl.md):
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Wyświetlanie](Preferences_Editor/pl#Ustawienia_wy.C5.9Bwietlania.md): Na karcie [widoku siatki](Preferences_Editor/pl#Widok_siatki.md) można ustawić kilka parametrów.
--   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences/pl.md): Polecenia [Siatka: Połączenie](Mesh_Union/pl.md), [Siatka: Przecięcie](Mesh_Intersection/pl.md) oraz [Siatka: Różnica](Mesh_Difference/pl.md) wymagają [OpenSCAD](http://www.openscad.org/) i użyj preferencji **OpenSCAD executable**, aby znaleźć plik wykonywalny.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Wyświetlanie](Preferences_Editor/pl#Ustawienia_wyświetlania.md): Na stronie [widoku siatki](Preferences_Editor/pl#Widok_siatki.md) można ustawić kilka parametrów.
+-   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences/pl.md): Polecenia [Siatka: Połączenie](Mesh_Union/pl.md), [Siatka: Przecięcie](Mesh_Intersection/pl.md) oraz [Siatka: Różnica](Mesh_Difference/pl.md) wymagają [OpenSCAD](http://www.openscad.org/) i użyj preferencji **OpenSCAD executable**, aby znaleźć jego plik wykonywalny.
 
 
 

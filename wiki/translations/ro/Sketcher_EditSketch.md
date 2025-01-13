@@ -41,10 +41,6 @@ Această comandă permite editarea unei schițe deja existente.
 
 </div>
 
-## Notes
-
--   Choosing [Sketcher LeaveSketch](Sketcher_LeaveSketch.md) will terminate the edit mode.
-
 
 <div class="mw-translate-fuzzy">
 

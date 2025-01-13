@@ -183,6 +183,8 @@ Spero che questo sia di aiuto.
 Cheers
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Link
@@ -198,4 +200,4 @@ La discussione nel Forum [qui](http://forum.freecadweb.org/viewtopic.php?f=23&t=
 
 
 ---
-⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > [3rd Party](Category_3rd Party.md) > [File_Formats](Category_File_Formats.md) > Import/Export IFC - compiling IfcOpenShell/it
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [3rd_Party](Category_3rd_Party.md) > [File_Formats](Category_File_Formats.md) > Import/Export IFC - compiling IfcOpenShell/it

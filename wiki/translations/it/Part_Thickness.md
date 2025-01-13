@@ -1,26 +1,21 @@
-# Part Thickness/it
 ---
- GuiCommand:   Name: Part_Thickness   Name/it: Spessore   MenuLocation: Parte , Spessore...   ---
+ GuiCommand:
+   Name: Part Thickness
+   Name/it: Part Spessore
+   MenuLocation: Parte , Spessore...
+   Workbenches: Part_Workbench/it
+   SeeAlso: Part_Offset/it
+---
+
+# Part Thickness/it
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-Lo strumento <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **Spessore** funziona su una forma solida, la trasforma in un oggetto cavo, dando a ciascuna delle sue facce un dato spessore. In alcuni solidi permette di velocizzare notevolmente il lavoro ed evita noiose estrusioni e tasche.
+Lo strumento <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Spessore](Part_Thickness/it.md) lavora su una forma solida e la trasforma in un oggetto cavo, conferendo a ciascuna delle sue facce uno spessore definito e costante. Su alcuni solidi permette di velocizzare notevolmente il lavoro, ed evita di realizzare estrusioni e tasche.
 
 
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
@@ -28,97 +23,95 @@ Lo strumento <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **S
 2.  Selezionare una o più facce
 3.  Cliccare sullo strumento **<img src="images/Part_Thickness.svg" width=16px> '''Spessore...'''
 **
-4.  Impostare i parametri
+4.  Impostare i parametri (vedere [Opzioni](#Opzioni.md))
 5.  Cliccare su **OK** per confermare, creare l\'operazione e uscire dal comando
-6.  Se è necessario, adattare i parametri nella tabella delle proprietà.
+6.  Se è necessario, regolare i parametri nella tabella delle Proprietà.
 
 
-</div>
 
-## Options
+## Opzioni
+
+-    **Spessore**: Spessore della parete dell\'oggetto risultante, impostare il valore desiderato.
+
+    -   Un valore positivo sfalserà le facce verso l\'esterno
+    -   Un valore negativo sfalserà le facce verso l\'interno
+
+-    **Modalità**-   
+        **Skin**
+        
+        : seleziona questa opzione se si vuole ottenere un oggetto come un vaso, senza testa ma con il fondo.
+
+    -   
+        **Tubo**
+        
+        : seleziona questa opzione se si vuole ottenere un oggetto come un tubo, senza testa e senza fondo. In questo caso può essere conveniente selezionare le facce da eliminare prima di avviare lo strumento. Aiutarsi con i pulsanti delle visualizzazioni predefinite o utilizzare i tasti numerici.
+
+    -   
+        **Fronte Retro**
+        
+        :
+
+-    **Tipo di giuntura**-   
+        **Arco**
+        
+        : rimuove i bordi esterni e crea un raccordo con un raggio pari allo spessore definito.
+
+    -   
+        **Tangente**
+        
+        :
+
+    -   
+        **Intersezione**
+        
+        :
+
+-    **Intersezione**:
+
+-    **Autointersezione**: abilita l\'autointersezione.
+
+-    **Facce**: selezionare le facce da rimuovere, quindi fare clic su **Fine**.
+
+-    **Aggiorna la vista**: aggiorna automaticamente la vista in tempo reale.
 
 
-<div class="mw-translate-fuzzy">
 
-### Opzioni
+## Note
 
--   Thickness: Spessore della parete nell\'oggetto risultante, impostare il valore desiderato
-    -   Un valore positivo aggiunge lo spessore verso l\'esterno
-    -   Un valore negativo aggiunge lo spessore verso l\'interno
--   Mode
-    -   Skin: Selezionare questa opzione se si desidera ottenere un oggetto simile a un vaso, senza testa, ma con il fondo
-    -   Pipe: Selezionare questa opzione se si desidera ottenere un oggetto simile a un tubo, senza testa e senza fondo. In questo caso può essere conveniente selezionare le facce da eliminare prima di avviare lo strumento. Aiutarsi con i pulsanti delle viste predefinite o utilizzare i tasti numerici.
-    -   RectoVerso:
--   Join Type
-    -   Arc: rimuove i bordi esterni e crea dei raccordi con raggio pari allo spessore definito
-    -   Tangent:
-    -   Intersection:
--   Intersection:
--   Self-intersection: abilita self-intersection
--   Facce / Fatto: Selezionare le facce da rimuovere, quindi fare clic su Fatto
--   Update view: Aggiorna automaticamente la visualizzazione in tempo reale
+-   Gli oggetti [App Link](App_Link/it.md) collegati ai tipi di oggetto appropriati possono essere utilizzati anche come oggetti di origine. {{Version/it|0.20}}
+-   Le forme complesse possono produrre risultati bizzarri e difficili da prevedere. Ispezionare attentamente la forma risultante e salvare il proprio lavoro prima di applicare l\'operazione.
 
 
-</div>
 
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-## Limitazioni
-
-A volte, su qualche forma, produce risultati bizzarri. Salvare il lavoro prima di applicare Spessore su oggetti complessi
-
-
-</div>
-
-## Links
-
-
-<div class="mw-translate-fuzzy">
-
-### Links 
+## Link
 
 Un buon esempio su come utilizzare questo strumento nel forum: [Re: Help designing a simple enclosure](http://forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
-
-
-</div>
 
 
 
 ## Esempi
 
-**Hollow cylinder**
+**Cilindro cavo**
 
-1.  Create **<img src="images/Part_Cylinder.svg" width=16px> [Cylinder](Part_Cylinder.md)** with radius 10mm and height 20mm
-2.  Select the top and bottom surface of the cylinder
-3.  Click on the **<img src="images/Part_Thickness.svg" width=16px> Thickness
-** button (no need to change default settings) and press **OK**
+1.  Creare un **<img src="images/Part_Cylinder.svg" width=16px> [Cilindro](Part_Cylinder/it.md)** con raggio 10mm e altezza 20mm
+2.  Selezionare la superficie superiore e inferiore del cilindro
+3.  Fare clic sul pulsante **<img src="images/Part_Thickness.svg" width=16px> Spessore
+** (non è necessario modificare le impostazioni predefinite) e premere **OK**
 
-Notes:
+Nota:
 
--   For this shape, consider using **<img src="images/Part_Tube.svg" width=16px> [Tube](Part_Tube.md)** instead.
--   Select the cylinder\'s top surface only to create a receptacle.
+-   Per questa forma, considerare l\'utilizzo di **<img src="images/Part_Tube.svg" width=16px> [Tubo](Part_Tube/it.md)**.
+-   Selezionare solo la superficie superiore del cilindro per creare un recipiente.
 
 ![](images/ThicknessEsempio1.png )
 
 ![](images/ThicknessEsempio2.png )
 
-**Box-Enclosure**
+**Scatola-Involucro**
 
 ![](images/ThicknessEsempio3.png )
 
 ![](images/ThicknessEsempio4.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -1,8 +1,9 @@
 ---
  GuiCommand:
-   Name/de: Raytracing Export‏‎
-   MenuLocation: Raytracing  , Export‏‎|
-   Workbenches: Raytracing_Workbench‏‎/de
+   Name: Raytracing WriteView
+   Name/de: Raytracing AnsichtAusgeben
+   MenuLocation: Raytracing  , Utilities , Export zu POV-Ray...
+   Workbenches: Raytracing_Workbench/de
    Shortcut: 
    SeeAlso: 
 ---
@@ -10,49 +11,28 @@
 # Raytracing WriteView/de
 
 
-</div>
-
-
-{{Raytracing_Tools_navi/de}}
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Exportiert die aktuellen Ansicht Eigenschaften in eine pov-Datei für die Verwendung in einem Raytracingprojekt.
-
-
-</div>
-
-
-{{Userdocnavi/de}}
-
-
-<div class="mw-translate-fuzzy">
-
-## Verwendung
-
-==
-
-1.  Stelle sicher, dass die Ansicht auf [Perspektive](Std_PerspectiveCamera.md) eingestellt ist.
-2.  Wähle ** Raytracing** → ** Utilities** →**<img src="images/Raytracing_Export.png" width=32px>  Ansicht nach POV-Ray exportieren...** aus dem oberen Menü.
-
-
-</div>
-
-## Beschränkungen
-
-## Anmerkungen
-
-
-<div class="mw-translate-fuzzy">
+Exportiert die aktuellen Ansicht-Eigenschaften in eine pov-Datei für die Verwendung in einem POV-Ray-Projekt.
 
 
 
+## Anwendung
+
+1.  Stelle sicher, dass die Ansicht auf <img alt="" src=images/Std_PerspectiveCamera.svg  style="width:32px;"> [perspectivische Ansicht](Std_PerspectiveCamera/de.md) eingestellt ist.
+2.  Wähle ** Raytracing** → ** Utilities** →**<img src="images/Raytracing_WriteView.svg" width=32px>  Ansicht nach POV-Ray exportieren...** aus dem oberen Menü.
 
 
-</div>
+
+## Einschränkungen
+
+
+
+## Hinweise
+
+
+
 
 
 {{Raytracing_Tools_navi

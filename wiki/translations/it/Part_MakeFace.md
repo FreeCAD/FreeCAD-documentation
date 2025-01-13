@@ -1,30 +1,35 @@
 ---
  GuiCommand:
    Name: Part MakeFace‏‎
-   MenuLocation: Part , Make face from wires
-   Workbenches: Part_Workbench
+   Name/it: Part Crea faccia
+   MenuLocation: Parte , Crea faccia da polilinee
+   Workbenches: Part_Workbench/it
    Version: 0.19
-   SeeAlso: Part_RuledSurface
+   SeeAlso: Part_RuledSurface/it
 ---
 
 # Part MakeFace/it
 
-## Description
-
-**Part MakeFace**‏‎ creates a [plane](Part_Plane.md) in a custom shape. The shape is defined by a closed sketch contour.
-
-It is possible to nest closed contours, for example to have circles inside a polygon. In this case the face will be created between the contours like in this example:
-
-<img alt="" src=images/Part_MakeFace-example.png  style="width:300px;">
 
 
+## Descrizione
 
-*Example of a face created from a nested set of contours.*
+Il comando <img alt="" src=images/Part_MakeFace.svg  style="width:24px;"> **Part Crea faccia** crea una faccia planare da uno o più polilinee chiuse complanari (contorni). Possono essere qualsiasi polilinea valida, ad esempio creata con l\'[Ambiente Part](Part_Workbench/it.md), l\'[Ambiente Draft](Draft_Workbench/it.md) o l\'[Ambiente Sketcher](Sketcher_Workbench/it.md). I contorni non dovrebbero autointersecarsi o intersecarsi tra loro. Possono essere annidati per creare vuoti.
 
-## Usage
+<img alt="" src=images/Part_MakeFace-example.png  style="width:500px;">
 
-1.  Select a sketch defining at least one closed contour
-2.  Press the **<img src="images/Part_MakeFace.svg" width=16px> [Make face from wires](Part_MakeFace.md)** button
+
+
+*Facce create da diversi set di polilinee*
+
+
+
+## Utilizzo
+
+1.  Selezionare uno o più oggetti contenenti uno o più polilinee chiuse.
+2.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Part_MakeFace.svg" width=16px> [Crea faccia da polilinea](Part_MakeFace/it.md)**.
+    -   Selezionare l\'opzione **Part → <img src="images/Part_MakeFace.svg" width=16px> Crea faccia da polilinea** dal menu.
 
 
 

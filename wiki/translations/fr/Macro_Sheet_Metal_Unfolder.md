@@ -25,9 +25,11 @@ Sélectionner une face plane de la pièce dans la vue 3D. Lancer la macro.
 
 ## Remarques
 
-La macro génère beaucoup de texte dans la vue rapport. Il s\'agit de restes du processus de débogage de cette macro. Les arêtes de la pièce de métal en feuille peuvent être rondes ou obliques. Mais en parcourant la pièce de la face supérieure à la face inférieure, vous ne devriez pas croiser plus d\'une face. Dans le meilleur des cas, la macro génère un nouveau solide plat à partir de la pièce originale. Si la macro rencontre des problèmes, vous pourriez n\'obtenir qu\'une coque plate, une quantité de faces aplaties ou simplement un message d\'erreur.
+La macro génère beaucoup de texte dans la vue rapport. Il s\'agit de restes du processus de débogage de cette macro. Les arêtes de la pièce de métal en feuille peuvent être rondes ou inclinées. Mais en parcourant la pièce de la face supérieure à la face inférieure, vous ne devriez pas croiser plus d\'une face. Dans le meilleur des cas, la macro génère un nouveau solide plat à partir de la pièce originale. Si la macro rencontre des problèmes, vous pourriez n\'obtenir qu\'une coque plate, une quantité de faces aplaties ou simplement un message d\'erreur.
 
 Cette macro peut être considérée comme une compagne de l\'outil AddWall de JMG publié ici : [FreeCAD: Sheet metal tool \"Add Wall\"](http://linuxforanengineer.blogspot.com.es/2014/12/freecad-sheet-metal-tool-add-wall.html)
+
+
 
 ## Lien
 

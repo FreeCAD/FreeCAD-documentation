@@ -14,20 +14,38 @@
 
 ## Description
 
-Fixes the vertical distance between 2 points or line ends. If only one point is selected, the distance is set to the sketch origin.
+The <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Sketcher ConstrainDistanceY](Sketcher_ConstrainDistanceY.md) tool fixes the vertical distance between two points or the endpoints of a line. If a single point is pre-selected, the distance is relative to the origin of the sketch.
 
 ![](images/Sketcher_ConstraintDistanceY_example.png )
 
 ## Usage
 
-1.  Pick one or two points or one line.
-2.  Invoke the command several ways:
-    -   Press the **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Constrain vertical distance](Sketcher_ConstrainDistanceY.md)** button.
-    -   Use the **I** keyboard shortcut.
-    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> Constrain vertical distance** entry from the top menu.
-3.  A pop up dialog opens to edit or confirm the value. Press **OK** to validate.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-**Note:** the constraint tool can also be started with no prior selection, but will require selection of two points or one line. To set the distance to the origin, the sketch origin point needs to be selected as well. By default the command will be in continue mode to create new constraints; press the right mouse button or **Esc** once to quit the command.
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
+
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   
+        <small>(v1.0)</small> 
+        
+        : If the **Dimensioning constraints** [preference](Sketcher_Preferences#General.md) is set to {{Value|Single tool}} (default): press the down arrow to the right of the **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button and select the **<img src="images/Sketcher_ConstrainDistanceY.svg" width=16px> Constrain vertical distance** option from the dropdown.
+
+    -   If this preference has a different value (and in {{VersionMinus|0.21}}): press the **<img src="images/Sketcher_ConstrainDistanceY.svg" width=16px> [Constrain vertical distance](Sketcher_ConstrainDistanceY.md)** button.
+
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainDistanceY.svg" width=16px> Constrain vertical distance** option from the menu.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Dimension → <img src="images/Sketcher_ConstrainDistanceY.svg" width=16px> Constrain vertical distance** option from the context menu.
+
+    -   Use the keyboard shortcut: **I**.
+3.  For further steps see [Sketcher ConstrainDistanceX](Sketcher_ConstrainDistanceX#Continue_mode.md)
+
+### Run-once mode 
+
+See [Sketcher ConstrainDistanceX](Sketcher_ConstrainDistanceX#Run-once_mode.md).
 
 ## Scripting
 

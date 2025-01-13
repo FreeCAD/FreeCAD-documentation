@@ -18,7 +18,7 @@ The **Std SceneInspector** command opens a dialog box displaying an overview of 
 ## Применение
 
 1.  Select the **Tools → <img src="images/Std_SceneInspector.svg" width=16px> Scene inspector...** option from the menu.
-2.  The Scene inspector dialog box opens.
+2.  The **Scene Inspector** dialog box opens.
 3.  The dialog box is modeless, meaning it can stay open while you continue working in FreeCAD.
 4.  Optionally press the **Refresh** to update the overview.
 5.  Press the **Close** button to close the dialog box.
@@ -33,7 +33,7 @@ The **Std SceneInspector** command opens a dialog box displaying an overview of 
 </div>
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -13,24 +13,34 @@
 
 ## Opis
 
-Tworzy powierzchnię prostokreślną.
+Narzędzie <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> **Utwórz powierzchnię prostokreślną** tworzy [powierzchnię prostokreślną](https://pl.wikipedia.org/wiki/Powierzchnia_prostokre%C5%9Blna) rozciągniętą między dwiema wybranymi krawędziami/(poli)liniami.
 
-![](images/PartRuledSurface_it.png ) 
+![](images/PartRuledSurface_it.png )
 
 
 
 ## Użycie
 
-1.  Polecenie można wywołać na kilka sposobów:
+1.  Wybierz dwie krawędzie lub (poli)linie (otwarte lub zamknięte kontury).
+2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> 
 **Utwórz powierzchnię prostokreślną**
-    -   Użyj pozycji z menu **Część → Utwórz powierzchnię prostokreślną**.
+    -   Wybierz opcję **Część → Utwórz powierzchnię prostokreślną** z menu.
+3.  Powierzchnia prostokreślna zostanie utworzona między wskazanymi krawędziami/(poli)liniami.
 
 
 
 ## Uwagi
 
--   Obiekty [odnośników](App_Link/pl.md) powiązane z odpowiednimi typami obiektów mogą być również używane jako obiekty źródłowe. {{Version/pl|0.20}}
+-   Obiekty [odnośników](App_Link/pl.md) powiązane z odpowiednimi typami obiektów mogą być również używane jako obiekty źródłowe.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

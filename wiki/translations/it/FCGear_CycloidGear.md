@@ -1,115 +1,128 @@
 ---
  GuiCommand:
-   Name: FCGear CycloideGear
+   Name: FCGear CycloidGear
    Name/it: Ingranaggio cicloidale
-   MenuLocation: FCGear , Create a Cycloide gear
-   Workbenches: FCGear Workbench/it
+   MenuLocation: Gear , Cycloid Gear
+   Workbenches: FCGear_Workbench/it
    Shortcut: None
    Version: v0.16
-   SeeAlso: FCGear InvoluteGear/it
+   SeeAlso: FCGear_InvoluteGear/it
 ---
 
 # FCGear CycloidGear/it
 
 
-</div>
 
 ## Descrizione
 
-Cycloidal gears are very sensitive to an inaccurate adjustment of the centre distance, which then leads to a change in the transmission ratio. For these reasons, cycloidal gears are hardly found in mechanical engineering but are only used in special cases such as in the watch industry, for roots type blowers or for the drive of gear racks.
+Gli ingranaggi cicloidali sono molto sensibili agli errori nell\'interasse, che portano ad una variazione del rapporto di trasmissione. Per questi motivi gli ingranaggi cicloidali non si trovano quasi mai nell\'ingegneria meccanica, ma vengono utilizzati solo in casi speciali come nell\'industria orologiera, per le pompe a lobi o per l\'azionamento di cremagliere.
 
 ![](images/Cycloid-Gear_example_1.png ) 
-*From left to right: Spur gearing, helical gearing, double helical gearing*
+*Da sinistra a destra: ingranaggio cilindrico, ingranaggio elicoidale, ingranaggio elicoidale doppio*
 
-## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_CycloidGear.svg style="width:16px"> [Cycloid Gear](FCGear_CycloidGear.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_CycloidGear.svg style="width:16px"> Cycloid Gear** option from the menu.
-3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
 
-## Properties
+## Utilizzo
 
-### Data
+1.  Passare a <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/it.md).
+2.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **[<img src=images/FCGear_CycloidGear.svg style="width:16px"> [Cycloid Gear](FCGear_CycloidGear/it.md)** nella barra degli strumenti.
+    -   Selezionare l\'opzione **Gear → [<img src=images/FCGear_CycloidGear.svg style="width:16px"> Cycloid Gear** dal menu.
+3.  Modificare il parametro dell\'ingranaggio alle condizioni richieste (vedere [Proprietà](#Proprietà.md)).
 
-An FCGear CycloidGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+
+## Proprietà
+
+
+
+### Dati
+
+Un oggetto FCGear CycloidGear deriva da un oggetto [Part Feature](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha inoltre le seguenti proprietà aggiuntive:
 
 
 {{Properties_Title|accuracy}}
 
--    **numpoints|Integer**: Default is {{Value|15}}. Change of the involute profile. Changing the value can lead to unexpected results.
+-    **numpoints|Integer**: L\'impostazione predefinita è {{Value|15}}. Diverso rispetto al profilo dell\'evolvente. La modifica del valore può portare a risultati imprevisti.
 
 
 {{Properties_Title|base}}
 
--    **height|Length**: Default is {{Value|5 mm}}. Value of the gear width.
+-    **height|Length**: Il valore predefinito è {{Value|5 mm}}. Valore della larghezza dell\'ingranaggio.
 
--    **module|Length**: Default is {{Value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
+-    **module|Length**: L\'impostazione predefinita è {{Value|1 mm}}. Il modulo è il rapporto tra il diametro di riferimento dell\'ingranaggio diviso per il numero di denti (vedere [Note](#Note.md)).
 
--    **teeth|Integer**: Default is {{Value|15}}. Number of teeth.
+-    **teeth|Integer**: il valore predefinito è {{Value|15}}. Numero dei denti.
 
 
 {{Properties_Title|computed}}
 
--    **angular_backlash|Angle**: (read-only)
+-    **angular_backlash|Angle**: (sola lettura)
 
--    **dw|Length**: (read-only) Working pitch diameter.
+-    **dw|Length**: (sola lettura) Diametro primitivo di lavoro.
 
 
 {{Properties_Title|cycloid}}
 
--    **inner_diameter|Float**: (read-only) Diameter of the rolling circle of hypocycloid, normalized by the **module** (see [Notes](#Notes.md)).
+-    **inner_diameter|Float**: (sola lettura) Diametro del cerchio di rotolamento dell\'ipocicloide, normalizzato da **module** (vedere [Note](#Note.md)).
 
--    **outer_diameter|Float**: Default is {{Value|7.5}}. Diameter of the rolling circle of epicycloid, normalized by the **module** (see [Notes](#Notes.md)).
+-    **outer_diameter|Float**: L\'impostazione predefinita è {{Value|7.5}}. Diametro del cerchio di rotolamento dell\'epicicloide, normalizzato da **module** (vedere [Note](#Note.md)).
 
 
 {{Properties_Title|fillets}}
 
--    **head_fillet|Float**: Default is {{Value|0 mm}}.
+-    **head_fillet|Float**: L\'impostazione predefinita è {{Value|0 mm}}.
 
--    **root_fillet|Float**: Default is {{Value|0 mm}}.
+-    **root_fillet|Float**: L\'impostazione predefinita è {{Value|0 mm}}.
 
 
 {{Properties_Title|helical}}
 
--    **beta|Angle**: Default is {{Value|0 °}}. With the helix angle β a helical gear is created -- positive value → rotation direction right, negative value → rotation direction left.
+-    **beta|Angle**: L\'impostazione predefinita è {{Value|0 °}}. Con l\'angolo dell\'elica β viene creato un ingranaggio elicoidale -- valore positivo → senso di rotazione destra, valore negativo → senso di rotazione sinistra.
 
--    **double_helix|Bool**: Default is {{False}}, {{True}} creates a double helix gear (see [Notes](#Notes.md)).
+-    **double_helix|Bool**: Il valore predefinito è {{False}}, {{True}} crea un ingranaggio a doppia elica (vedere [Notes](#Notes.md)).
 
 
 {{Properties_Title|tolerance}}
 
--    **backlash|Length**: Default is {{Value|0}}. Backlash, also called lash or play, is the distance between the teeth at a gear pair.
+-    **backlash|Length**: L\'impostazione predefinita è {{Value|0}}. Il gioco, chiamato anche aria o margine, è la distanza tra i denti di una coppia di ingranaggi.
 
--    **clearance|Float**: Default is {{Value|0.25}} (see [Notes](#Notes.md)).
+-    **clearance|Float**: Il valore predefinito è {{Value|0,25}} (vedere [Note](#Note.md)).
 
--    **head|Float**: Default is {{Value|0}}. Additional length of the tip of the teeth, normalized by the **module**.
+-    **head|Float**: L\'impostazione predefinita è {{Value|0}}. Lunghezza aggiuntiva della testa dei denti, normalizzata da **module**.
 
 
 {{Properties_Title|version}}
 
 -    **version|String**:
 
-## Notes
 
--   Cycloidal gears must always be specially matched to each other and can generally not be exchanged at will: In a gear pair, the value of **inner_diameter** on one gear must equal the **outer_diameter** on the other, and vice versa. See also the information in **Properties cycloid parameter view** below.
 
--    **clearance**: At a gear pair, clearance is the distance between the tooth tip of the first gear and the tooth root of the second gear.
+## Note
 
--    **double_helix**: To use the double helical gearing the helix angle β (**beta**) for the helical gearing must first be entered.
+-   Gli ingranaggi cicloidali devono sempre essere abbinati in modo speciale tra loro e generalmente non possono essere scambiati a piacimento: in una coppia di ingranaggi, il valore di **inner_diameter** su un ingranaggio deve essere uguale a **outer_diameter** sull\'altro , e viceversa. Vedere anche le informazioni nella **rappresentazione dei parametri della cicloide** qui di seguito.
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
+-    **clearance**: In una coppia di ingranaggi, il gioco è la distanza tra la punta del dente del primo ingranaggio e il piede del dente del secondo ingranaggio.
 
-## Special cases 
+-    **double_helix**: Per utilizzare la doppia dentatura elicoidale è necessario prima inserire l\'angolo dell\'elica β (**beta**) per la dentatura elicoidale.
 
-### Straight line as hypocycloid 
+-    **module**: Secondo le linee guida ISO (Organizzazione internazionale per la standardizzazione), la dimensione del modulo è designata come l\'unità che rappresenta le dimensioni dei denti degli ingranaggi. Modulo (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). Se si moltiplica il Modulo per Pi, si ottiene l\'Altezza (p). Il passo è la distanza tra i punti corrispondenti sui denti adiacenti.
 
-To obtain a straight line, directly towards the center, as hypocycloid, use the following [expression](Expressions.md) for the **inner_diameter**: `teeth / 2`. Such a tooth form is often found in historical clockworks and thus called \"clock toothing\". A larger **clearance** makes the effect even more visible.
 
-### Full hypocycloid/epicycloid as tooth 
 
-To obtain a gear made of complete hypocycloid and epicycloid curves use the following [expressions](Expressions.md):
+## Casi particolari 
+
+
+
+### La linea retta come ipocicloide 
+
+Per ottenere una linea retta, diretta verso il centro, come ipocicloide, utilizzare la seguente [espressione](Expressions/ot.md) per **inner_diameter**: `teeth / 2`. Una tale forma del dente si trova spesso negli orologi storici e quindi viene chiamata \"dentatura dell\'orologio\". Un **clearance** maggiore rende l\'effetto ancora più visibile.
+
+
+
+### Ipocicloide/epicicloide completo come dente 
+
+Per ottenere un ingranaggio composto da curve ipocicloide ed epicicloide complete utilizzare le seguenti [espressioni](Expressions/it.md):
 
 -    **inner_diameter**: `0.5 + 1e-6`
 
@@ -119,32 +132,29 @@ To obtain a gear made of complete hypocycloid and epicycloid curves use the foll
 
 -    **head**: `(-1 + outer_diameter/1mm) * 2`
 
-The reference diameter is *d = m \* z*, with *m* being the **module** and *z* being the **teeth**. For a complete hypocycloid, the rolling diameter has to be *d_i = d / (z\*2) = m\*z / (z\*2)*. And if we now normalize this by the module, we get *d_in = m\*z / (z\*2) / m = 1 / 2*. The additional explicit tolerance value (`1e-6` in the expression above) is required to overcome coincidence issues.
+Il diametro di riferimento è *d = m \* z*, dove *m* è **module** e *z* è **teeth**. Per un ipocicloide completo, il diametro di rotolamento deve essere *d_i = d / (z\*2) = m\*z / (z\*2)*. E se ora lo normalizziamo con il modulo, otteniamo *d_in = m\*z / (z\*2) / m = 1 / 2*. Il valore di tolleranza esplicito aggiuntivo (`1e-6` nell\'espressione sopra) è necessario per superare i problemi di coincidenza.
 
-Now the cycloids\' rolling circle diameters have to match the gear\'s addedum/dedendum. The addendum, i.e. the tooth length above the reference circle, is 1 + **head**. The dedendum, i.e. the tooth length below the reference circle, is 1 + **clearance**. Both are normalized by the module, thus we need a head/clearance value of *1 - d_in*. The additional ` / 1mm` and ` * 2` are required to overcome shortcomings already fixed in the development version of the FCGear Workbench, but porting those fixes back to the stable version may break existing models.
+Ora i diametri dei cerchi di rotolamento delle cicloidi devono corrispondere all\'addendum/dedendum dell\'ingranaggio. L\'addendum, cioè la lunghezza del dente sopra il cerchio di riferimento, è 1 + **head**. Il dedendum, cioè la lunghezza del dente sotto il cerchio di riferimento, è 1 + **clearance**. Entrambi sono normalizzati dal modulo, quindi abbiamo bisogno di un valore di prevalenza/gioco di *1 - d_in*. L\'ulteriore ` / 1mm` e ` *2` sono necessari per superare i difetti già risolti nella versione di sviluppo di FCGear Workbench, ma riportare tali correzioni alla versione stabile potrebbe danneggiare i modelli esistenti.
 
-Such \"gears\" allow the the number of teeth to be as low as *two* and are used as rotary vanes in pumps or compressors (cf. [Roots-type Supercharger](https://en.wikipedia.org/wiki/Roots-type_supercharger)).
+Tali \"ingranaggi\" consentono il numero di denti fino a \"due\" e vengono utilizzati come palette rotanti nelle pompe o nei compressori (cfr. [Roots -tipo Supercharger](https://en.wikipedia.org/wiki/Roots-type_supercharger)).
 
-### Infinitely large epicycloid 
 
-If the radius of the epicycloid\'s rolling circle becomes infinitely large, it becomes a rolling straight line. Such a degenerated epicycloid is called involute. Gears with such a tooth form are handled by the [involute gear](FCGear_InvoluteGear.md) command. It is by far the most common tooth form Today.
 
-## Useful formulas 
+### Epicicloide infinitamente grande 
 
-See [FCGear InvoluteGear](FCGear_InvoluteGear#Useful_formulas.md).
+Se il raggio del cerchio di rotolamento dell\'epicicloide diventa infinitamente grande, diventa una linea retta rotante. Un epicicloide così degenerato si chiama evolvente. Gli ingranaggi con questa forma del dente vengono gestiti dal comando [involute gear](FCGear_InvoluteGear/it.md). È di gran lunga la forma di dentatura più comune ad oggi.
 
-## Properties cycloid parameter view 
+
+
+## Formule utili 
+
+Vedere [Formule_utili](FCGear_InvoluteGear/it#Formule_utili.md).
+
+
+
+## Rappresentazione dei parametri della cicloide 
 
 <img alt="" src=images/CycloidGear_inner-outer-diameter_2.svg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

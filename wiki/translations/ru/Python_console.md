@@ -1,10 +1,5 @@
 # Python console/ru
-**(January 2020) FreeCAD изначально разрабатывался для работы с Python 2. Поскольку Python 2 закончил существование в 2020, последующая разработка FreeCAD будет вестись исключительно на Python 3, и обратная совместимость поддерживаться не будет.**
-
 ## Введение
-
-
-
 
 The [Python console](Python_console.md) is a panel that\'s part of the FreeCAD [user interface](interface.md). It runs an instance of the [Python](Python.md) interpreter which can be used to control FreeCAD processes, and create and modify objects and their properties.
 
@@ -17,6 +12,8 @@ The Python console in FreeCAD has basic syntax highlighting, able to differentia
 
 
 *The Python console showing messages when FreeCAD has just started.*
+
+
 
 ## Программирование
 
@@ -58,6 +55,8 @@ FreeCAD.newDocument()
 **Note:**
 
 these pre-loaded modules and aliases are only available from the Python console embedded inside the FreeCAD program. If you use FreeCAD as a library in an external program, you must remember to load the `FreeCAD` and `FreeCADGui` modules and define the necessary aliases if you wish.
+
+
 
 ## Действия
 

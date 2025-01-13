@@ -9,6 +9,8 @@
 
 # Surface GeomFillSurface/it
 
+
+
 ## Descrizione
 
 
@@ -29,6 +31,8 @@ Lo strumento <img alt="" src=images/Surface_GeomFillSurface.svg  style="width:16
 
 *Left: edges that are used to generate a surface with the [GeomFillSurface](Surface_GeomFillSurface.md) tool, 4 connected edges, 3 connected edges, and 2 disconnected edges. Right: resulting surface from using the 4, 3, and 2 edges, respectively.*
 
+
+
 ## Utilizzo
 
 
@@ -46,6 +50,8 @@ Lo strumento <img alt="" src=images/Surface_GeomFillSurface.svg  style="width:16
 
 once created, it is not possible to apply additional constraints to the created surface.
 
+
+
 ## Opzioni
 
 
@@ -55,6 +61,8 @@ Sono disponibili tre diversi stili di riempimento: Curved, [Coons](https://en.wi
 
 
 </div>
+
+
 
 ## Proprietà
 
@@ -127,7 +135,7 @@ When the surface\'s **Lighting** property is {{Value|One side}}, a face will be 
 
 The Surface GeomFillSurface tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::GeomFillSurface` object.
 
--   The edges to be used to define the surface must be assigned as a [LinkSubList](LinkSubList.md) to the `BoundaryList` property of the object.
+-   The edges to be used to define the surface must be assigned as a [LinkSubList](FeaturePython_Custom_Properties#App:_PropertyLinkSubList.md) to the `BoundaryList` property of the object.
 -   The type of algorithm must be assigned like a string to the `FillType` property.
 -   All objects with edges need to be computed before they can be used as input for the properties of the GeomFillSurface object.
 

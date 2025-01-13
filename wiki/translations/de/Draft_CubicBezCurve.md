@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft CubicBezCurve
    Name/de: Draft KubischeBézierkurve
-   MenuLocation: Zeichnen , Bézierwerkzeuge , Kubische Bézierkurve
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Zeichnen , Bézierwerkzeuge , Kubische Bézierkurve<br>2D-Entwurf , Kubische Bézierkurve
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Version: 0.19
    SeeAlso: Draft_BezCurve/de, Draft_BSpline/de, 
 ---
@@ -31,7 +31,8 @@ Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Einrasten](Draft_Snap/de.md
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Kubische Bézierkurve](Draft_CubicBezCurve/de.md)** drücken.
-    -   Den Menüeintrag **Zeichnen → Bézierwerkzeuge → <img src="images/Draft_CubicBezCurve.svg" width=16px> Kubische Bézierkurve** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Zeichnen → Bézierwerkzeuge → <img src="images/Draft_CubicBezCurve.svg" width=16px> Kubische Bézierkurve** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **2D-Entwurf → <img src="images/Draft_CubicBezCurve.svg" width=16px> Kubische Bézierkurve** auswählen.
 
 2.  Der Aufgaben-Bereich **Kubische Bézierkurve** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 
@@ -80,7 +81,7 @@ Siehe [Draft Bézierkurve](Draft_BezCurve/de#Eigenschaften.md).
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Siehe [Draft Bézierkurve](Draft_BezCurve/de.md) für allgemeine Informationen. Eine kubische Bézierkurve wird durch Übergabe der Option Grad=3 an `makeBezCurve()` erzeugt.
 

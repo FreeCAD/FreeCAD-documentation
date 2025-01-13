@@ -23,18 +23,7 @@ Această constrângere obligă valoarea razei unui cerc sau a unui arc de cerc s
 
 </div>
 
-This constraint constrains the value of the radius of a circle or arc to have a specific value. If more than one circle or arc is selected before launching the command :
-
--   If the constrain is applied in \'Reference\' mode, a new reference constrain is added to each object separately according above rules
--   If the constrain is applied in \'Normal\' (driving) mode, following rules are applied
-    -   A reference constrain is applied separately on each object which is an external geometry
-
-    -   
-        **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Equal constrains](Sketcher_ConstrainEqual.md)**
-        
-        are applied sequentially between all real/construction geometry objects and a dimensional constrain is applied to the first selected object according above rules
-
-NB : B-spline poles can\'t be mixed with other object type in the selection
+The <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:24px;"> [Sketcher ConstrainRadius](Sketcher_ConstrainRadius.md) tool fixes the radius of circles, arcs and [B-spline weight circles](Sketcher_CreateBSpline#Notes.md).
 
 ![](images/Sketcher_ConstrainRadius_example.png )
 
@@ -48,6 +37,10 @@ NB : B-spline poles can\'t be mixed with other object type in the selection
 
 </div>
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -59,13 +52,9 @@ NB : B-spline poles can\'t be mixed with other object type in the selection
 
 </div>
 
+### Run-once mode 
 
-<div class="mw-translate-fuzzy">
-
-**Notă:** instrumentul de constrângere poate fi pornit și fără o selecție prealabilă. Implicit, comanda va fi în modul continuu pentru a crea noi constrângeri; apăsați o dată butonul drept al mouse-ului sau**ESC** pentrru a părăsi comanda.
-
-
-</div>
+See [Sketcher ConstrainRadiam](Sketcher_ConstrainRadiam#Run-once_mode.md).
 
 ## Scripting
 

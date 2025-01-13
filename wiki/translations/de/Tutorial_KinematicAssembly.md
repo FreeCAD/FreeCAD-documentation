@@ -13,6 +13,8 @@
 
 
 
+
+
 ## Einleitung
 
 In dieser Anleitung geht es darum einen einfachen Mechanismus aufzubauen, hauptsächlich mit den Werkzeugen des externen Arbeitsbereichs <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3](Assembly3_Workbench/de.md).
@@ -22,7 +24,11 @@ Der kinematische Zusammenbau (die Kinematik), die erstellt wird, besteht aus vie
 <img alt="" src=images/Assembly3_KinematicExample-01.png  style="width:400px;"> 
 *Die zusammengebauten Bauteile: Basis (bernsteinfarben), Schieber (hellblau), Kurbel (rot), Pleuel (grün)*
 
+
+
 ## Zusammenbau
+
+
 
 ### Bauteile
 
@@ -42,7 +48,11 @@ Das **Pleuel** besitzt zwei zylindrische Löcher.
 
 <img alt="" src=images/Assembly3_KinematicExample-05.png  style="width:300px;">
 
+
+
 ### Verbindungen
+
+
 
 #### Festgesetzte Basis 
 
@@ -58,6 +68,8 @@ Damit der Zusammenbau an der gewünschten Position bleibt, sollte die Basis fest
 
 Dann werden alle vier Bauteile mit vier Gelenken verbunden. Die kinematische Kette beginnt an der Basis.
 
+
+
 #### Basis-Schieber-Gelenk 
 
 Das Basis-Schieber-Gelenk ist ein **zylindrisches Gelenk**. Es ermöglicht dem Schieber sich entlang der Z-Achse des Loches in der Basis und um sie herum zu bewegen, während die Z-Achsen beider Elemente fluchtend (kollinear) ausgerichtet sind.
@@ -71,9 +83,11 @@ Die passende Randbedingung findet man unter \"AxialAlignment\". Sie funktioniert
 <img alt="" src=images/Assembly3_KinematicExample-10.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_KinematicExample-11.png  style="width:300px;"> 
 *Ausgewählte Flächen → Ausgerichtete Objekte*
 
+
+
 #### Basis-Kurbel-Gelenk 
 
-Das Basis-Kurbel-Gelenk ist ein **Scharnier**. Es ermöglicht der Kurbel sich um die Z-Achse des Zapfens der Basis zu drehen, während die Z-Achsen beider Elemente fluchtend (kollinear) ausgerichtet und der Abstand zwischen ihren XY-Ebenen konstant bleiben.
+Das Basis-Kurbel-Gelenk ist ein **Scharnier**. Es ermöglicht der Kurbel sich um die Z-Achse des Zapfens der Basis zu drehen, während die Z-Achsen beider Elemente fluchtend (kollinear) ausgerichtet und der Abstand zwischen ihren XY-Ebenen konstant bleiben.
 
 Die passende Randbedingung findet man unter \"PlaneCoincident\". Sie funktioniert mit Elementen, die ebene Geometrien repräsentieren, wie kreisförmige Flächen oder ringförmige Kanten (wie in diesem Falle).
 
@@ -84,9 +98,11 @@ Die passende Randbedingung findet man unter \"PlaneCoincident\". Sie funktionier
 <img alt="" src=images/Assembly3_KinematicExample-12.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_KinematicExample-13.png  style="width:300px;"> 
 *Ausgewählte Fläche und Kante → Ausgerichtete Objekte*
 
+
+
 #### Schieber-Pleuel-Gelenk 
 
-Das Schieber-Pleuel-Gelenk ist ein **Scharnier**. Es ermöglicht dem Pleuel sich um die Z-Achse des Schieberzapfens zu drehen, während die Z-Achsen beider Elemente fluchtend (kollinear) ausgerichtet und der Abstand zwischen ihren XY-Ebenen konstant bleiben.
+Das Schieber-Pleuel-Gelenk ist ein **Scharnier**. Es ermöglicht dem Pleuel sich um die Z-Achse des Schieberzapfens zu drehen, während die Z-Achsen beider Elemente fluchtend (kollinear) ausgerichtet und der Abstand zwischen ihren XY-Ebenen konstant bleiben.
 
 Die passende Randbedingung findet man wieder unter \"PlaneCoincident\". (siehe oben).
 
@@ -96,6 +112,8 @@ Die passende Randbedingung findet man wieder unter \"PlaneCoincident\". (siehe o
 
 <img alt="" src=images/Assembly3_KinematicExample-14.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_KinematicExample-15.png  style="width:300px;"> 
 *Ausgewählte Fläche und Kante → Ausgerichtete Objekte*
+
+
 
 #### Kurbel-Pleuel-Gelenk 
 
@@ -109,6 +127,8 @@ Die passende Randbedingung findet man wieder unter \"AxialAlignment\" (siehe obe
 
 <img alt="" src=images/Assembly3_KinematicExample-16.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_KinematicExample-01.png  style="width:300px;"> 
 *Ausgewählte Flächen → Ausgerichtete Objekte*
+
+
 
 #### Überzählige Randbedingungen 
 
@@ -128,6 +148,8 @@ Auf der anderen Seite wird die Drehung um die X-Achse (rot) schon duch das Basis
 :   Um diese Redundanz zu vermeiden, könnte man ein HIlfsobjekt einfügen mit entsprechenden Randbedingungen, aber das gehört in eine andere Anleitung.
 :   Um die doppelte Festlegung des Abstandes zwischen Basis und Pleuel zu vermeiden, wurden unterschiedliche Randbedingungen verwendet und nur eine verhindert die Bewegung entlang der Z-Achse.
 
+
+
 ### Antrieb
 
 Noch ist es ein statischer Zusammenbau. Um daraus einen kinematischen Zusammenbau zu machen, muss eine der Randbedingungen als Antrieb verwendet werden. Damit die Bedingung \"PlaneCoincident\" des Basis-Kurbel-Gelenks als Antrieb genutzt werden kann, muss man den Winkel zwischen dem Zapfen der Basis und der Kurbel steuern können. Dazu muss die {{PropertyData/de|Lock Angle}} auf `True` gesetzt werden. Und für spätere Verwendung wird das Label der Randbedingung mit dem Suffix **.Driver** markiert.
@@ -135,6 +157,8 @@ Noch ist es ein statischer Zusammenbau. Um daraus einen kinematischen Zusammenba
 Die {{PropertyData/de|Angle}} kann jetzt verwendet werden, um die Kurbel zu drehen.
 
 <img alt="" src=images/Assembly3_KinematicExample-07.gif  style="width:350px;">
+
+
 
 ## Steuerung
 

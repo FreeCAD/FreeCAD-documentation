@@ -19,8 +19,8 @@ The **Std TextDocument** command creates an object capable of holding arbitrary 
 
 ## Uso
 
-1.  Select the **Tools → Add text document** option from the menu.
-2.  Double-click the newly created object in the [tree view](tree_view.md) to open a tab in which to write text.
+1.  Select the **Tools → <img src="images/Std_TextDocument.svg" width=16px> Add text document** option from the menu.
+2.  Double-click the newly created object in the [Tree view](Tree_view.md) to open a tab in which to write text.
 3.  Add text.
 4.  Close the tab and save the file when asked.
 
@@ -48,9 +48,15 @@ The **Std TextDocument** command creates an object capable of holding arbitrary 
 ## Programación
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Ver también:**
 
 [Conceptos básicos de scripting en FreeCAD](FreeCAD_Scripting_Basics/es.md), y [Objetos con scripting](scripted_objects/es.md).
+
+
+</div>
 
 See [Part Feature](Part_Feature.md) for the general information on adding objects to a document.
 
@@ -62,19 +68,19 @@ import FreeCAD as App
 import Draft
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::TextDocument", "Text_document")
+obj = doc.addObject("App::TextDocument", "Text_document")
 obj.Text = "textual information"
-App.ActiveDocument.recompute()
+doc.recompute()
 
 obj2 = Draft.makeShapeString(obj.Text, "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 10)
-App.ActiveDocument.recompute()
+doc.recompute()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

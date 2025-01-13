@@ -10,6 +10,8 @@
 
 # Std SendToPythonConsole/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std AnPythonKonsoleSenden** erstellt Variablen in der [Python-Konsole](Python_console/de.md), die auf ein ausgewähltes Objekt und auf seine ausgewählten Teilformen verweisen, zusammen mit ein paar nützlichen anderen Referenzen. Die Variablen und der dazugehörige Kode können zur Entwicklung von Python-Skripten verwendet werden.
@@ -63,7 +65,9 @@ Abhängig von dem ausgewählten Objekt und seiner ausgewählten Teilformen, fall
 
 *Beispielausgabe: eine Kante, eine Fläche und ein Eckpunkt eines [Part Würfels](Part_Box/de.md) wurden ausgewählt*
 
-## Verwendung
+
+
+## Anwendung
 
 1.  Ein einzelnes Objekt oder eine bzw. mehrere Teilformen, die zu einem einzelnen Objekt gehören, auswählen.
 2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
@@ -72,6 +76,8 @@ Abhängig von dem ausgewählten Objekt und seiner ausgewählten Teilformen, fall
     -   Das Tastaturkürzel **Strg**+**Shift**+**P**.
 3.  Falls erforderlich öffnet sich die [Python-Konsole](Python_console/de.md).
 4.  Die [Python-Konsole](Python_console/de.md) erhält den Fokus der Tastatur.
+
+
 
 ## Hinweise
 
@@ -88,7 +94,7 @@ Abhängig von dem ausgewählten Objekt und seiner ausgewählten Teilformen, fall
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

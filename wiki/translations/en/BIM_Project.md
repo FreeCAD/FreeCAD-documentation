@@ -1,35 +1,59 @@
 ---
- GuiCommand:Addon
+ GuiCommand:
    Name: BIM Project
-   Workbenches: BIM Workbench
-   Addon: BIM
-   MenuLocation: Manage , Manage project...
+   MenuLocation: 3D/BIM , Project
+   Workbenches: BIM_Workbench
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # BIM Project/en
 
 ## Description
 
-<img alt="" src=images/BIM_project_screenshot.png  style="width:1024px;">
+The **BIM Project** tool creates a [native IFC](NativeIFC.md) project in the current document. In IFC, a project (IfcProject) is the root object of all the contents of the model. It is mandatory to have one in each IFC file.
 
-The project setup dialog is a wizard dialog that allows you to create a basic set of guide objects in the current document or in a new document, that will help you to start modeling a BIM project.
+It is not necessary to create a project to export a FreeCAD model to IFC, as a default one will be added each time you export an IFC file. However, when working with [NativeIFC](NativeIFC.md), an IFC file is attached to the model, and all the geometry and properties of that model and its components come from the attached IFC file. The project is where the IFC file is attached to the document.
 
-The project setup dialog can create:
+Typically, you create a BIM project to attach an IFC file. When creating the project, the attached IFC file is blank, and not saved. The next time you will save the FreeCAD file, you will also be asked to save the IFC file.
 
--   A new [document](Document_structure.md). Alternatively, the other objects will be created in the currently opened document.
--   A [site](Arch_Site.md). The Site object represents a piece of terrain, where your project will be located. You can give it a number of useful properties, such as street address and earth coordinates. Upon creation, the site is just an empty container for other BIM objects, but a 3D object representing the actual terrain can be attached to it later on.
--   A [building](Arch_Building.md). The Building object is a container for all the BIM objects that will belong to a same building. You can define a building type, and give it gross rectangular dimensions, that will be represented as a rectangle drawn on the ground (X,Y) plane.
--   A set of [axes](Arch_Axis.md), by defining their number and spacing. Axes are used as guidelines to align 2D and 3D objects. These axes can be modified or new axes introduced later on.
--   A set of [BuildingParts](Arch_BuildingPart.md) to represent levels. BuildingParts are generic BIM container objects that can be used to group other BIM objects in a number of meaningful ways, such as repeatable components or building levels.
--   A set of default [groups](Std_Group.md) inside each level. Groups can be used to organize your BIM objects in clearer categories, such as \"Walls\" or \"Columns\". They have no impact on the model itself, but often help to make your model structure clearer when it contains a lot of objects.
+If you distribute the FreeCAD file, all attached IFC files must be distributed together, otherwise FreeCAD won\'t be able to extract the geometry. However, if the **shape mode** property of all objects contained in a project is set to **Shape**, then the FreeCAD file can be distributed without the accompanying IFC file, and will still open correctly on other computers. The IFC objects, however, won\'t be editable anymore.
 
-### Templates
+When inserting an IFC file, a project object is created, that contains all the contents of the file. Like all NativeIFC objects, the project can be expanded by double-clicking it in the tree.
 
-The Project tool supports two kinds of templates: Once you have filled the different options, the contents of the BIM project setup wizard can be **saved** as a template. These templates can be **restored** and adapted at a later time. Project templates are stored as plain text files in your FreeCAD user folder.
+## Usage
 
-Alternatively, you can also save the contents of the current document as a template. This will save the currently opened document as a standard **.FCStd** file, but also include additional BIM settings like the current working plane, or current units. By using the **restore** option anytime, the contents of that template file will be merged into the active document and all settings found in it applied.
+1.  Make sure you have a FreeCAD document open.
+2.  Press the **<img src="images/BIM_Project.svg" width=16px> [Project](BIM_Project.md)** button.
+3.  Optionally, lock the document by pressing the **<img src="images/IFC.svg" width=16px> [IFC Lock](NativeIFC#Locked_and_unlocked_modes.md)** button.
+
+## Locked and unlocked mode 
+
+In the [BIM Workbench](BIM_Workbench.md), the status bar features an **<img src="images/IFC.svg" width=16px> [IFC Lock](NativeIFC#Locked_and_unlocked_modes.md)** button that allows to toggle between **locked** and **unlocked** modes. When unlocked, you can have several [projects](BIM_Project.md) inside your FreeCAD document, and also have both IFC and non-IFC elements.
+
+In locked mode, the data attached to your project object becomes attached directly to the FreeCAD document. The FreeCAD document acts as a faithful replica, or rendering, of the IFC document. The project object is therefore removed. You can have only one project in your FreeCAD document, and you cannot have non-IFC objects anymore (every new object is instantly converted to IFC).
+
+## Adding objects to a project 
+
+Objects are added to a project simply by dragging and dropping them onto the project in the tree view. These objects will be converted to IFC and might loose some of their former parametric behaviours when those are not supported by IFC.
+
+## Diff
+
+When the project contains unsaved changes, a red dot will appear on its tree icon. Right-clicking the project and choosing **IFC → Diff** will open a dialog to see a [diff](https://en.wikipedia.org/wiki/Diff) of what has changed in the attached IFC file. This is a good way to make sure what you changed is really what you intended.
+
+## Saving
+
+IFC files attached to a project are automatically saved each time you save the FreeCAD file. They can also be saved manually anytime by right-clicking the project and choosing **IFC → Save**.
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > BIM Project/en
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Project/en

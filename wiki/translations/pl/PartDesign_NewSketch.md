@@ -69,9 +69,6 @@ Aby odwołać się do dowolnych elementów w w obrębie środowiska pracy [Szkic
 
 
 
-
-
-
 {{PartDesign Tools navi
 
 }}

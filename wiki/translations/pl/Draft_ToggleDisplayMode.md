@@ -3,7 +3,7 @@
    Name: Draft ToggleDisplayMode
    Name/pl: Rysunek Roboczy: Przełącz wyświetlanie — cieniowany z krawędziami / szkieletowe
    MenuLocation: Narzędzia , Przełącz wyświetlanie — cieniowany z krawędziami / szkieletowe
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
    Shortcut: **Shift**+**Space**
    SeeAlso: Std_ToggleVisibility/pl
 ---
@@ -26,8 +26,7 @@ Polecenie <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;
 1.  Wybierz jeden lub więcej obiektów.
 2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_ToggleDisplayMode.svg" width=16px> '''Przełącz wyświetlanie — cieniowany z krawędziami / szkieletowe'''**.
-    -   Wybierz opcję z menu **Narzędzia → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Przełącz wyświetlanie — cieniowany z krawędziami / szkieletowe**.
-    -   Wybierz opcję **Narzędzia → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Przełącz wyświetlanie — cieniowany z krawędziami / szkieletowe** z menu kontekstowego okna [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md).
+    -   Wybierz opcję **Narzędzia → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Przełącz wyświetlanie — cieniowany z krawędziami / szkieletowe** z menu lub menu kontekstowego [widoku drzewa](Tree_view/pl.md) bądź [widoku 3D](3D_view/pl.md).
     -   Użyj skrótu klawiaturowego: **Shift**+**Spacja**.
 
 

@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign CoordinateSystem
    Name/fr: PartDesign Système de coordonnées local
-   MenuLocation: Part Design , Créer un système de coordonnées local
+   MenuLocation: PartDesign , Créer un système de coordonnées local
    Workbenches: PartDesign_Workbench/fr
    Version: 0.18
    SeeAlso: PartDesign_Point/fr, PartDesign_Line/fr, PartDesign_Plane/fr
@@ -30,6 +30,12 @@ Crée un **système de coordonnées local** qui peut être utilisé comme réfé
 ## Options
 
 Double-cliquez sur l\'étiquette **Local_CS** dans la vue en arborescence du modèle ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier la référence** dans le menu contextuel pour modifier ses paramètres. Pour plus de détails sur le mode d\'ancrage et le décalage de l\'ancrage, voir [Part Ancrage](Part_EditAttachment/fr.md).
+
+
+
+## Préférences
+
+Voir [PartDesign Plan de référence](PartDesign_Plane/fr#Préférences.md).
 
 
 

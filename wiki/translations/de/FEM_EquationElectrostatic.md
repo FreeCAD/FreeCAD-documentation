@@ -10,6 +10,8 @@
 
 # FEM EquationElectrostatic/de
 
+## Description
+
 This equation performs electrostatic analyses using [Gauss\' law](https://en.wikipedia.org/wiki/Gauss%27s_law).
 
 For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Electrostatics*.

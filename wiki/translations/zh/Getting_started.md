@@ -16,7 +16,13 @@
 
 FreeCAD是一种3D[参数化建模程序](About_FreeCAD/zh.md)。它主要用于机械设计，对所有需要精确建模3D物体并能够控制建模过程的情况都适用。
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD自2002年起开始开发，它可以提供很多的[功能](Feature_list/zh.md)。 它仍有一些功能缺失，但对于多数业余爱好者和许多小型工厂来说它足够强大。在[FreeCAD论坛](http://forum.freecadweb.org/index.php)有一个由热情的用户组成的快速增长的社区，在那你可以发现许多用FreeCAD开发的项目[示例](https://forum.freecadweb.org/viewforum.php?f=24)。也可以看看[FreeCAD 产品应用](FreeCAD_used_in_production/zh.md)。
+
+
+</div>
 
 像所有开源项目，FreeCAD依靠它的社区的成长、收集功能以及修复缺陷。所以在使用FreeCAD的时候不要忘记这一点，如果你愿意，你可以 [捐献](Donate.md)并以各种方式[帮助FreeCAD](help_FreeCAD/zh.md)，例如编写文档以及进行翻译工作。
 
@@ -183,7 +189,13 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ## 使用绘图和建筑工作台
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -209,7 +221,16 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 使用建筑和制图工作台的典型工作流可能是：
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 1.  用制图工作台"画线"工具画几条线
 2.  选择每一条线并按下"墙体"工具按钮在每一条线上构建墙体
@@ -219,6 +240,9 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 6.  通过单击"窗户"工具创建窗户，在其面板中选择预设值，然后单击墙的某个面。
 7.  如有必要，首先设置工作平面，然后使用制图工作台中的"尺寸标注"工具添加尺寸。
 
+
+</div>
+
 你将得到如下结果：
 
 <img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
@@ -227,17 +251,21 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 
 
 
-## 插件，宏文件和外部工作台
-
 
 <div class="mw-translate-fuzzy">
 
-Freecad作为一种开放源代码软件，提供了使用插件补充其工作台的可能性。
+## 插件，宏文件和外部工作台
 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 [插件](Addon.md)原理基于工作台补充的开发。 任何用户都可以开发出他或她认为自己或自己的社区或最终社区所需的功能。 使用论坛，用户可以在论坛上提出意见和帮助。 它可以根据版权规则定义是否共享其开发对象。 对她或他免费。 为了进行开发，用户具有可用的[脚本](scripting.md)功能。
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -251,7 +279,13 @@ Freecad作为一种开放源代码软件，提供了使用插件补充其工作�
 
 ## 脚本编写
 
+
+<div class="mw-translate-fuzzy">
+
 最后，FreeCad最强大的功能之一是[脚本编写](scripting.md)环境。从集成的python控制台（或任何其他外部python脚本），您可以控制FreeCAD的几乎任何部分。创建或修改几何图形、修改3D场景中这些对象的表现形式、或控制和修改FreeCAD界面。python脚本也可以用于[宏脚本](Macros.md)，它提供了一种创建自定义命令的简单方法。
+
+
+</div>
 
 
 

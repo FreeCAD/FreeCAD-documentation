@@ -1,56 +1,34 @@
 # TechDraw Hatching/it
 ## Descrizione
 
+TechDraw include due strumenti per il tratteggio:
 
-<div class="mw-translate-fuzzy">
-
-TechDraw ha due strumenti per il tratteggio:
-
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Tratteggio da modello](TechDraw_Hatch/it.md) (basato su tasselli)
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md) (basato su linee).
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [TechDraw Tratteggio da modello](TechDraw_Hatch/it.md) (basato su tasselli SVG o immagini bitmap)
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [TechDraw Tratteggio geometrico](TechDraw_GeometricHatch/it.md) (basato su linee).
 
 
-</div>
 
-## Image based hatch 
+## Tratteggio basato su immagine 
 
-
-<div class="mw-translate-fuzzy">
-
-### Tratteggio da modello 
-
-Il <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [Tratteggio da modello](TechDraw_Hatch/it.md) utilizza delle tessere di base [SVG](SVG/it.md) o [bitmap](bitmap/it.md) per coprire la faccia selezionata.
-
-
-</div>
+<img alt="" src=images/TechDraw_Hatch.svg  style="width:16px;"> [TechDraw Tratteggio](TechDraw_Hatch/it.md) utilizza immagini affiancate [SVG](SVG/it.md) o bitmap ({{Version/it|0.21}}) per coprire la faccia selezionata. L\'origine della griglia di piastrellatura corrisponderà al centro geometrico della faccia.
 
 Di solito le tessere SVG sono delle immagini di **64x64** pixel. Tutti i file di pattern forniti con FreeCAD sono disponibili su [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
-Bitmap based patterns are displayed with a fixed resolution of 10 px/mm relative to the page.
+I modelli basati su bitmap vengono visualizzati con una risoluzione fissa di 10 px/mm rispetto alla pagina.
+
+I modelli di tratteggio predefiniti possono essere specificati nelle [Preferenze](TechDraw_Preferences/it.md).
 
 
-<div class="mw-translate-fuzzy">
 
-I riempimenti di tratteggio predefiniti possono essere specificati nelle [Preferenze](TechDraw_Preferences/it.md).
-
-
-</div>
-
-### Available SVG patterns 
+### Modelli SVG disponibili 
 
 Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|concrete Image:Cross.svg\|cross Image:Cuprous.svg\|cuprous Image:Diagonal1.svg\|diagonal1 Image:Diagonal2.svg\|diagonal2 Image:Earth.svg\|earth Image:General_steel.svg\|general_steel Image:Glass.svg\|glass Image:Hatch45L.svg\|hatch45L Image:Hatch45R.svg\|hatch45R Image:Hbone.svg\|hbone Image:Line.svg\|line Image:Plastic.svg\|plastic Image:Plus.svg\|plus Image:Simple.svg\|simple Image:Solid.svg\|solid Image:Square.svg\|square Image:Steel.svg\|steel Image:Titanium.svg\|titanium Image:Wood.svg\|wood Image:Woodgrain.svg\|woodgrain Image:Zinc.svg\|zinc
 
-## Geometric hatch 
 
 
-<div class="mw-translate-fuzzy">
+## Tratteggio geometrico 
 
-### Tratteggio geometrico 
-
-Il <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md) genera un modello di linee basato su una specifica letta da un file. Questo file è generalmente **compatibile con il formato PAT di AutoDesk® ampiamente utilizzato**. Una piccola selezione di modelli è inclusa nel file FCPAT.pat:
-
-
-</div>
+Il <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:16px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md) genera un modello di linee basato su una specifica letta da un file. Questo file è generalmente compatibile con il formato PAT di AutoDesk® ampiamente utilizzato. Una piccola selezione di modelli è inclusa nel file FCPAT.pat:
 
 
 ```python
@@ -78,13 +56,7 @@ Il <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Tra
 90,0,0,0,5.0
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 Se si dispone dell\'autorizzazione alla scrittura è possibile aggiungere i propri schemi in FCPAT.pat, oppure è possibile creare il proprio file \*.pat e indicarlo nelle [Preferenze](TechDraw_Preferences/it.md).
-
-
-</div>
 
 
 

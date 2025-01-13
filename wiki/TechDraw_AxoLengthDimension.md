@@ -22,7 +22,7 @@ The **TechDraw AxoLengthDimension** tool adds a length dimension to an axonometr
     -   Select two edges (e3 and e4 in the image) and two points (v1 and v2 in the image). The first edge defines the direction of the dimension line. The second edge defines the direction of the extension lines. The points determine the measured distance.
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_AxoLengthDimension.svg" width=16px> [Axonometric length dimension](TechDraw_AxoLengthDimension.md)** button.
-    -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_AxoLengthDimension.svg" width=16px> Axonometric length dimension** option from the menu.
+    -   Select the **TechDraw → Annotations → <img src="images/TechDraw_AxoLengthDimension.svg" width=16px> Axonometric length dimension** option from the menu.
 3.  An axonometric dimension is added to the View.
 4.  The dimension may be dragged to the desired position.
 5.  If needed, add tolerances as described on [this page](TechDraw_Geometric_dimensioning_and_tolerancing#Tolerances.md).

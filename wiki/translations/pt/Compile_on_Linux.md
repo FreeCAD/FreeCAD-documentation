@@ -6,7 +6,7 @@
 
 ## Overview
 
-On recent linux distributions, FreeCAD is generally easy to build, since all dependencies are usually provided by the package manager. It basically involves 3 steps:
+On recent Linux distributions, FreeCAD is generally easy to build, since all dependencies are usually provided by the package manager. It basically involves three steps:
 
 1.  Getting the FreeCAD source code
 2.  Getting the dependencies or packages that FreeCAD depends on
@@ -42,10 +42,6 @@ git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git freecad-so
 
 For more information on using Git and contributing code to the project, see [Source code management](Source_code_management.md).
 
-### Source archive 
-
-Alternatively you can download the source as an [archive](https://github.com/FreeCAD/FreeCAD/releases/latest), a `.zip` or `.tar.gz` file, and unpack it in the desired directory.
-
 ## Getting the dependencies 
 
 To compile FreeCAD you have to install the requisite dependencies mentioned in [Third Party Libraries](Third_Party_Libraries.md); the packages that contain these dependencies are listed below for different Linux distributions. Please note that the names and availability of the libraries will depend on your particular distribution; if your distribution is old, some packages may be unavailable of have a different name. In this case, look in the [older and non-conventional distributions](#Older_and_non-conventional_distributions.md) section below.
@@ -70,6 +66,8 @@ If you already installed FreeCAD from the official repositories, you can install
 ```python
 sudo apt build-dep freecad
 ```
+
+Alternatively, replace `freecad` with `freecad-daily` to install the build dependencies for the main development branch. You\'ll need to have the [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Development_PPA_(Daily).md) added to your software sources.
 
 However, if the version of FreeCAD in the repositories is old, the dependencies may be the wrong ones to compile a recent version of FreeCAD. Therefore, please verify that you have installed the following packages.
 
@@ -128,7 +126,7 @@ The Coin libraries need to be installed:
 
 -    `libcoin80-dev`, for Debian Jessie, Stretch, Ubuntu 16.04 to 18.10, or
 
--    `libcoin-dev`, for Debian Buster, Ubuntu 19.04 and newer, as well as for Ubuntu 18.04/18.10 with the [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Official_Ubuntu_repository.md) added to your software sources.
+-    `libcoin-dev`, for Debian Buster, Ubuntu 19.04 and newer, as well as for Ubuntu 18.04/18.10 with the [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Development_PPA_(Daily).md) added to your software sources.
 
 Several libraries that deal with mathematics, triangulated surfaces, sorting, meshes, computer vision, cartographic projections, 3D visualization, the X11 Window system, XML parsing, and Zip file reading:
 
@@ -152,7 +150,7 @@ Several libraries that deal with mathematics, triangulated surfaces, sorting, me
 -    `libproj-dev`
     
 
--    `libvtk7-dev`or `libvtk6-dev`
+-    `libvtk9-dev`, `libvtk8-dev`, `libvtk7-dev` or `libvtk6-dev`
 
 -    `libx11-dev`
     
@@ -222,7 +220,7 @@ To compile FreeCAD for Debian Jessie, Stretch, Ubuntu 16.04, using Python 2 and 
 
 #### Python 3 and Qt5 
 
-To compile FreeCAD for Debian Buster, Ubuntu 19.04 and newer, as well as Ubuntu 18.04/18.10 with the [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Official_Ubuntu_repository.md) added to your software sources, install the following dependencies.
+To compile FreeCAD for Debian Buster, Ubuntu 19.04 and newer, as well as Ubuntu 18.04/18.10 with the [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Development_PPA_(Daily).md) added to your software sources, install the following dependencies.
 
 -    `qtbase5-dev`
     
@@ -301,14 +299,13 @@ To compile FreeCAD for Debian Buster, Ubuntu 19.04 and newer, as well as Ubuntu 
 -    `python3-pyside2.qtwebchannel`
     
 
--    `python3-pyside2uic`
-    
+-    `python3-pyside2uic`(not required on Ubuntu 20.04 and later)
 
 #### OpenCascade kernel 
 
 The OpenCascade kernel is the core graphics library to create 3D shapes. It exists in an official version OCCT, and a community version OCE. The community version is no longer recommended, as it\'s outdated.
 
-For Debian Buster and Ubuntu 18.10 and newer, as well as Ubuntu 18.04 with the [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Official_Ubuntu_repository.md) added to your software sources, install the official packages.
+For Debian Buster and Ubuntu 18.10 and newer, as well as Ubuntu 18.04 with the [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Development_PPA_(Daily).md) added to your software sources, install the official packages.
 
 -    `libocct*-dev`-   
         `libocct-data-exchange-dev`
@@ -452,8 +449,8 @@ ln -s pyuic5 pyside2-uic
 }}
 
 Now compilation may proceed. {{Code|lang=bash|code=
-cd freecad-build/
-cmake ../freecad-source -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DUSE_PYBIND11=ON
+cd build/
+cmake ../ -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DUSE_PYBIND11=ON
 make -j2
 }}
 
@@ -494,6 +491,10 @@ file (REAL_PATH ${OpenCASCADE_INSTALL_PREFIX} OpenCASCADE_INSTALL_PREFIX)
 }}
 
 This trivial change needs to be made inside the build directory once cmake has been run and failed. Re-running cmake will then correctly detect the OCCT libraries in the normal way.
+
+#### Fedora38/39
+
+Now install Python 3.11. This includes a notable change in how Python initializes when running a program. As a result FreeCAD fails to find OpenCamLib, meaning [3D Surface](CAM_Surface.md) and [Waterline](CAM_Waterline.md) are not available in the [CAM Workbench](CAM_Workbench.md). This was fixed in the master branch on 20th Mar 2024 ([Pull request #13059](https://github.com/FreeCAD/FreeCAD/pull/13059)).
 
 You need the following packages:
 
@@ -802,6 +803,9 @@ You will need the following libraries from the official repositories:
 -    `utf8cpp`
     
 
+-    `verdict`
+    
+
 -    `xerces-c`
     
 
@@ -810,7 +814,14 @@ You will need the following libraries from the official repositories:
 
 
 ```python
-sudo pacman -S --needed boost cmake coin curl desktop-file-utils eigen gcc-fortran git glew hicolor-icon-theme jsoncpp libspnav med nlohmann-json opencascade pyside2-tools pyside2 python-matplotlib python-netcdf4 python-packaging python-pivy qt5-svg qt5-tools qt5-webengine shared-mime-info shiboken2 swig utf8cpp xerces-c yaml-cpp 
+sudo pacman -S --needed --asdeps boost cmake coin curl desktop-file-utils eigen gcc-fortran git glew hicolor-icon-theme jsoncpp libspnav med nlohmann-json opencascade python-matplotlib python-netcdf4 python-packaging python-pivy qt5-svg qt5-tools qt5-webengine shared-mime-info swig utf8cpp xerces-c yaml-cpp 
+```
+
+FreeCAD currently uses QT5. This requires packages which have been moved from the official repositories to the AUR. These packages will be compiled by source and may take a long time depending on the available hardware.
+
+
+```python
+yay -S --needed --asdeps pyside2 pyside2-tools shiboken2
 ```
 
 
@@ -841,7 +852,7 @@ FreeCAD requires the GNU g++ compiler version equal or above 3.0.0, as FreeCAD i
 
 ### Pivy
 
-[Pivy](Pivy.md) (Python wrappers to Coin3d) is not needed to build FreeCAD or to start it, but it is needed as a runtime dependency by the [Draft Workbench](Draft_Workbench.md). If you are not going to use this workbench, you won\'t need Pivy. However, do notice that the Draft Workbench is used internally by other workbenches, like [Arch](Arch_Workbench.md) and [BIM](BIM_Workbench.md), so Pivy needs to be installed to use these workbenches as well.
+[Pivy](Pivy.md) (Python wrappers to Coin3d) is not needed to build FreeCAD or to start it, but it is needed as a runtime dependency by the [Draft Workbench](Draft_Workbench.md). If you are not going to use this workbench, you won\'t need Pivy. However, do notice that the Draft Workbench is used internally by other workbenches, like the [BIM](BIM_Workbench.md), so Pivy needs to be installed to use these workbenches as well.
 
 By November 2015 the obsolete version of Pivy included with the FreeCAD source code will no longer compile on many systems. This isn\'t a big problem as normally you should get Pivy from your distribution\'s package manager; if you cannot find Pivy, you may have to compile it yourself, see [Pivy compilation instructions](Extra_python_modules#Pivy.md).
 
@@ -869,7 +880,7 @@ To build simply create a build directory, `build`. Then from this build director
 
 
 {{Code|lang=bash|code=
-# from the base of your freecad source folder:
+# from your freecad-source folder:
 mkdir build
 cd build
 cmake ../
@@ -934,8 +945,8 @@ For example, to avoid building the [FEM Workbench](FEM_Workbench.md):
 
 
 {{Code|lang=bash|code=
-cmake -D BUILD_FEM:BOOL=OFF ../freecad-source
-cmake -DBUILD_FEM=OFF ../freecad-source
+cmake -D BUILD_FEM:BOOL=OFF ../
+cmake -DBUILD_FEM=OFF ../
 }}
 
 All possible variables are listed in the `InitializeFreeCADBuildOptions.cmake` file, located in the `cMake/FreeCAD_Helpers` directory. In this file, search for the word `option` to get to the variables that can be set, and see their default values.
@@ -958,7 +969,7 @@ Create a `Debug` build to troubleshoot crashes in FreeCAD. Beware that with this
 
 
 {{Code|lang=bash|code=
-cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Debug ../freecad-source
+cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Debug ../
 }}
 
 #### For a Release build 
@@ -967,7 +978,7 @@ Create a `Release` build to test code that doesn\'t crash. A `Release` build wil
 
 
 {{Code|lang=bash|code=
-cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../freecad-source
+cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../
 }}
 
 #### Building against Python 3 and Qt5 
@@ -975,7 +986,7 @@ cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../freecad
 Support for Python 2 and Qt4 has been removed in FreeCAD 0.20 and it is not necessary to explicitly enable Qt5 and Python 3 if compiling the latest versions. Qt6 support is currently in development and does not work yet. Unless you plan on assisting with the Qt6 migration effort, FREECAD_QT_VERSION should be left at \"Auto\" (the default) or explicitly set to \"5\".
 
 For 0.20 and 0.21_dev: {{Code|lang=bash|code=
-cmake ../freecad-source
+cmake ../
 }}
 
 Note that when switching between 0.20 and the 0.21_dev builds, it may be necessary to delete CMakeCache.txt prior to running cmake.
@@ -986,7 +997,7 @@ If the default `python` executable in your system is a symbolic link to Python 2
 
 
 {{Code|lang=bash|code=
-cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 ../freecad-source
+cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 ../
 }}
 
 If that doesn\'t work, you may have to define additional variables pointing to the desired Python libraries and include directories:
@@ -997,7 +1008,7 @@ cmake -DPYTHON_EXECUTABLE=/usr/bin/python3.6 \
     -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m \
     -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so \
     -DPYTHON_PACKAGES_PATH=/usr/lib/python3.6/site-packages/ \
-    ../freecad-source
+    ../
 }}
 
 It is possible to have several independent versions of Python in the same system, so the locations and version numbers of your Python files will depend on your particular Linux distribution. Use `python3 -V` to display the version of Python that you are using currently; only the first two numbers are necessary; for example, if the result is `Python 3.6.8`, you need to specify the directories that relate to the 3.6 version. If you don\'t know the right directories, try searching for them with the `locate` command.
@@ -1057,7 +1068,7 @@ The `cmake` program should run automatically again, and it should fill the entir
 
 If you want to develop Qt code for FreeCAD, you\'ll need the Qt Designer plugin that provides all custom widgets of FreeCAD.
 
-Go into an auxiliary directory of the source code, the run `qmake` with the indicated project file to create a `Makefile`; then run `make` to compile the plugin.
+Go into an auxiliary directory of the source code, then run `qmake` with the indicated project file to create a `Makefile`; then run `make` to compile the plugin.
 
 
 {{Code|lang=bash|code=
@@ -1169,8 +1180,8 @@ Then move into the build directory where the code was compiled initially, and ru
 
 
 {{Code|lang=bash|code=
-cd ../freecad-build
-cmake .
+cd build
+cmake ../
 make -j$(nproc --ignore=2)
 }}
 
@@ -1180,7 +1191,7 @@ In case the compiled source code was installed with `sudo make install` (for Deb
 
 
 {{Code|lang=bash|code=
-cd freecad-source/freecad-build
+cd freecad-source/build
 xargs sudo rm < install_manifest.txt
 }}
 
@@ -1223,9 +1234,9 @@ sudo apt-get build-dep freecad-daily
 sudo apt-get install freecad-daily
 
 git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git freecad-source
-mkdir freecad-build
-cd freecad-build
-cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DFREECAD_USE_PYBIND11=ON ../freecad-source
+mkdir freecad-source/build
+cd freecad-source/build
+cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DFREECAD_USE_PYBIND11=ON ../
 make -j$(nproc --ignore=2)
 }}
 
@@ -1258,7 +1269,7 @@ Once you install the `freecad` package from the `freecad-stable` repository, it 
 
 <div class="mw-collapsible-content">
 
-No external Repositories are needed to compile FreeCAD. However, there is an imcompatability with python3-devel which needs to be removed. FreeCAD can be compiled from GIT
+No external repositories are needed to compile FreeCAD. However, there is an incompatability with python3-devel which needs to be removed. FreeCAD can be compiled from GIT
 
 
 {{Code|lang=bash|code=

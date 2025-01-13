@@ -15,9 +15,7 @@
 
 ## Opis
 
-Narzędzie to rysuje prostokąt, wybierając najpierw punkt, który będzie punktem środkowym, a następnie punkt na krawędzi. Rezultatem jest prostokąt jak w przypadku narzędzia [Utwórz protokąt](Sketcher_CreateRectangle/pl.md), tylko punkty definicyjne są inaczej zdefiniowane.
-
-Podczas uruchamiania narzędzia kursor myszki zmienia wygląd na biały krzyżyk z czerwoną ikoną prostokąta. Współrzędne kursora są wyświetlane obok niego, w czasie rzeczywistym w kolorze niebieskim.
+Narzędzie <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> **Prostokąt wyśrodkowany** tworzy wyśrodkowany prostokąt. {{Version/pl|1.0}}: Jest to to samo narzędzie co [Utwórz prostokąt](Sketcher_CreateRectangle/pl.md), ale z innym trybem początkowym.
 
 ![](images/SketcherCreateCenteredRectangleExample.png‎ )
 
@@ -25,14 +23,13 @@ Podczas uruchamiania narzędzia kursor myszki zmienia wygląd na biały krzyżyk
 
 ## Użycie
 
--   Po naciśnięciu przycisku na pasku narzędzi **[<img src=images/Sketcher_CreateRectangle_Center.svg style="width:24px"> '''Utwórz zaokrąglony prostokąt'''**, kliknij raz, aby ustawić pierwszy narożnik, a następnie przesuń kursor myszki i kliknij drugi raz, aby ustawić przeciwległy narożnik.
--   Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszy anuluje tę funkcję.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
-
-
-## Uwagi
-
-Zobacz stronę [Utwórz prostokąt](Sketcher_CreateRectangle/pl#Uwagi.md).
+1.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_CreateRectangle_Center.svg" width=16px> '''Prostokąt wyśrodkowany'''**.
+    -   Wybierz z menu opcję **Szkic → Elementy geometryczne szkicownika → <img src="images/Sketcher_CreateRectangle_Center.svg" width=16px> Utwórz wyśrodkowany prostokąt**.
+    -   Użyj skrótu klawiaturowego: **G**, a następnie **V**.
+2.  Dalsze kroki można znaleźć w [Utwórz prostokąt](Sketcher_CreateRectangle/pl#Użycie.md).
 
 
 

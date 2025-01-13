@@ -39,7 +39,7 @@ The **Std Print** command is primarily intended to print [TechDraw Workbench](Te
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

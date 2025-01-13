@@ -17,11 +17,19 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 Esta herramienta dibuja un arco eligiendo tres puntos: el punto inicial, el punto final y un punto del arco.
+
+
+</div>
 
 
 
 ## Utilización
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
 
 <div class="mw-translate-fuzzy">

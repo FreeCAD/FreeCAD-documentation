@@ -3,7 +3,7 @@
    Name: Draft Join
    Name/pl: Rysunek Roboczy: Połącz
    MenuLocation: Modyfikacja , Połącz
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **J** **O**
    Version: 0.18
    SeeAlso: Draft_Split/pl
@@ -25,7 +25,8 @@ Polecenie <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Połącz
 2.  Wybierz dwie lub więcej [linii](Draft_Line/pl.md) i / lub [polilinii](Draft_Wire/pl.md).
 3.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Join.svg" width=16px> '''Połącz'''**.
-    -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Join.svg" width=16px> Połącz**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Join.svg" width=16px> Połącz**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Modyfikacja → <img src="images/Draft_Join.svg" width=16px> Połącz** z menu.
     -   Użyj skrótu klawiaturowego: **J**, a następnie **O**.
 
 

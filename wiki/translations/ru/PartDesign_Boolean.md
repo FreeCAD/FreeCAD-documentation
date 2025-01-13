@@ -31,7 +31,7 @@
 5.  Select the type of Boolean operation in the drop down menu (Fuse, Cut or Common)
 6.  Click **OK**.
 
-Alternatively, objects can be selected prior to pressing the Boolean button. They will be added. automatically. When pre-selecting you are not restricted to Bodies. [PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) and even solids created with other workbenches can then also be selected.
+Alternatively, objects can be selected prior to pressing the Boolean button. They will be added automatically. When pre-selecting you are not restricted to Bodies. [PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) and even solids created with other workbenches can then also be selected.
 
 
 
@@ -69,7 +69,13 @@ Alternatively, objects can be selected prior to pressing the Boolean button. The
 -   Tool bodies adopt the local origin of the active Body. If the active Body is not located at (0,0,0) in the global coordinate system, the tool bodies\' placement need to be relative to the active Body. It may be easier to leave the active Body\'s placement at the origin before applying the Boolean feature, than to change its placement.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

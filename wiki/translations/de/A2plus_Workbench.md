@@ -1,5 +1,7 @@
 # <img alt="A2plus Arbeitsbereichssymbol" src=images/A2p_workbench.svg  style="width:64px;"> A2plus Workbench/de
 
+
+
 ## Einführung
 
 
@@ -9,9 +11,13 @@ Der A2plus Arbeitsbereich ist ein [externer Arbeitsbereich](External_workbenches
 
 Diese Dokumentation beschreibt die A2plus-Version **0.4.56 oder neuer**.
 
+
+
 ## Einrichtung
 
 Der A2plus Arbeitsbereich ist eine Erweiterung zu FreeCAD. Er kann einfach mit Hilfe des FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Erweiterungsverwalters](Std_AddonMgr/de.md) aus dem **Werkzeuge → Erweiterungsverwalter** Menü installiert werden. A2plus wird aktiv weiterentwickelt und erhält häufig neue Funktionen. Deshalb solltest Du ihn regelmäßig aktualisieren, ebenfalls mittels des Menüs **Werkzeuge → [Erweiterungsverwalter](Std_AddonMgr/de.md)**. Der A2plus Code wird bereitgestellt und weiterentwickelt [auf GitHub](https://github.com/kbwbe/A2plus) und kann auch manuell durch kopieren in das FreeCAD **Mod** Verzeichnis installiert werden.
+
+
 
 ## Einstieg
 
@@ -31,7 +37,9 @@ Importierte Teile behalten ihre externen Abhängigkeiten und können bearbeitet 
 
 Um das Assembly zu speichern und danach zu schließen kann die Schaltfläche <img alt="" src=images/A2p_Save_and_exit.svg  style="width:24px;"> verwendet werden.
 
-Toggling the toolbar button <img alt="" src=images/A2p_CD_OneButton.svg  style="width:24px;"> sets the way you can select several several edges, faces etc.: Either with a single click or by **Ctrl**+click.
+Durch Umschalten der Symbolleisten-Schaltfläche <img alt="" src=images/A2p_CD_OneButton.svg  style="width:24px;"> wird die Art festgelegt, wie mehrere Kanten, Flächen usw. ausgewählt werden können: Entweder mit einem einzelnen Klick oder durch **Ctrl** + Klick.
+
+
 
 ## Der Zusammenbau 
 
@@ -40,6 +48,8 @@ Der Zusammenbau von Teilen erfolgt durch Hinzufügen von Beschränkungen zwische
 Um eine Beschränkung zwischen Teilen zu erstellen, halte die **Strg** Taste gedrückt und wähle jeweils eine Kante oder Fläche von zwei Teilen aus. Klicke dann auf die Werkzeugleisten Schaltfläche der gewünschten Beschränkung. Ein Dialogfeld wird aufgeklappt, das in Abschnitt [Beschränkungen](#Beschränkungen.md) beschrieben wird. Die Beschränkung wird in den Modellbaum eingefügt, der an die betroffenen Teile angehängt ist.
 
 Bei komplexen Beschränkungen zwischen Teilen kann A2plus die Beschränkungen möglicherweise nicht lösen. Schau dir daher auch Abschnitt [Fehlerbehebung](#Troubleshooting.md) für Strategien zur Lösung solcher Fälle an.
+
+
 
 ### Den Überblick behalten 
 
@@ -50,6 +60,8 @@ Je mehr Teile du hinzufügst, desto wichtiger ist es, den Überblick zu behalten
 -   Um nur bestimmte Teile in der Baugruppe anzuzeigen, wähle diese Teile im Modellbaum aus und verwende die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_Isolate_Element.svg  style="width:24px;">. Alternativ kannst du ein bestimmtes Teil ausblenden, indem du es im Modellbaum markierst und **Space** drückst, um seine Sichtbarkeit umzuschalten.
 -   Um die Transparenzansicht der gesamten Baugruppe umzuschalten, kannst du die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_ToggleTransparency.svg  style="width:24px;"> verwenden.
 -   Jedes Teil kann mit der normalen FreeCAD Bearbeitung transparent gemacht werden. Manchmal geht jedoch die Transparenzeinstellung für Teile beim erneuten Öffnen der Baugruppe aufgrund eines Fehlers in FreeCAD verloren. Als Ausweichlösung kannst du den Werkzeugleistenknopf <img alt="" src=images/A2p_Restore_Transparency.svg  style="width:24px;"> verwenden, um die Transparenzeinstellungen wiederherzustellen.
+
+
 
 ### Beschränkungen
 
@@ -64,65 +76,97 @@ Beschränkungen können durch Ändern der [Sichtbarkeit](Std_ToggleVisibility/de
 
 A2plus bietet die folgenden Beschränkungen:
 
+
+
 #### Punkt auf Punkt 
 
 Wähle entweder einen [Knoten](Glossary/de#Vertex.md) (Punkt), Kreis oder Kugel auf jedem Teil. Wenn ein Kreis oder eine Kugel ausgewählt wurde, wird dessen Mittelpunkt für die Beschränkung verwendet. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_PointIdentity.svg  style="width:24px;"> fügt die Beschränkung {{Variable|pointIdentity}} hinzu, die die Knoten deckungsgleich werden lässt.
+
+
 
 #### Punkt auf Linie 
 
 Wähle einen [Knoten](Glossary/de#Vertex.md) (Punkt), oder kreisförmig [Kante](Glossary/de#Edge.md) (wählt seinen Mittelpunkt aus), oder eine sphärische [Fläche](Glossary/de#Face.md) (wählt auch seinen Mittelpunkt) auf der einen Seite und ein [Kante](Glossary/de#Edge.md) auf dem anderen Teil. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_PointOnLineConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|pointOnLine}} hinzu. Dadurch wird der Knoten auf die Kante gesetzt.
 
+
+
 #### Punkt auf Ebene 
 
 Wähle einen [Knoten](Glossary/de#Vertex.md) (Punkt), oder kreisförmige [Kante](Glossary/de#Edge.md) (wählt seinen Mittelpunkt aus), oder eine sphärische [Fläche](Glossary/de#Face.md) (wählt auch seinen Mittelpunkt) auf einem Teil und eine Ebene auf dem anderen Teil. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_PointOnPlaneConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|pointOnPlane}} hinzu. Im Dialogfeld Beschränkung kannst du einen Versatz zwischen dem Punkt und der Ebene angeben. Dieser Versatz kann auch zwischen beiden Seiten der Ebene umgedreht werden. Wenn der Versatz gleich Null ist, setzt die Beschränkung den Knoten auf die Ebene.
+
+
 
 #### Kugel auf Kugel 
 
 Wähle entweder eine kugelförmige [Fläche](Glossary/de#Face.md) oder einen [Knoten](Glossary/de#Vertex.md) (Punkt) auf beiden Teilen. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_SphericalSurfaceConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|KugelMitteIdent}} hinzu. Sie bewirkt, dass entweder das Zentrum der Kugeln, das Zentrum der Kugel und der Knoten oder die Knoten deckungsgleich werden.
 
+
+
 #### Kreiskante auf Kreiskante 
 
 Wähle eine kreisförmige [Kante](Glossary/de#Edge.md) bei beiden Teilen aus. Die Schaltfläche <img alt="" src=images/A2p_CircularEdgeConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|circularEdge}} hinzu. Der Beschränkungs-Dialog erlaubt Dir einen Versatz zwischen beiden Kanten anzugeben. Der Versatz kann auch umgedreht werden. Du kannst außerdem die Richtung der Beschränkung bestimmen und die Verdrehung der Teile sperren. Wenn der Versatz gleich Null ist, wird die Beschränkung die Kanten konzentrisch in derselben Ebene anordnen.
+
+
 
 #### Achsdeckungsgleich
 
 Wähle entweder eine zylindrische [Fläche](Glossary/de#Face.md) oder eine lineare [Kante](Glossary/de#Edge.md) auf beiden Teilen. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AxialConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|AchseDeckungsgleich}} hinzu. Der Dialog Beschränkung erlaubt dir die Achsenrichtung anzugeben. Der Dialog ermöglicht es dir außerdem, die Drehung der Teile zu sperren. Durch die Beschränkung werden die Achsen oder Linien deckungsgleich.
 
+
+
 #### Achsparallel
 
 Wähle bei beiden Teilen jeweils entweder eine zylindrische [Fläche](Glossary/de#Face.md) oder eine lineare [Kante](Glossary/de#Edge.md) aus. Die Schaltfläche <img alt="" src=images/A2p_AxisParallelConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|Achsparallel}} hinzu. Der Dialog dieser Beschränkung erlaubt Dir die Achsrichtung anzugeben. Die Beschränkung setzt die Achsen oder Linien zueinander parallel.
+
+
 
 #### Achse auf Ebene parallel 
 
 Wähle entweder ein zylindrisches [Fläche](Glossary/de#Face.md) oder eine lineare [Kante](Glossary/de#edge.md) auf einem Teil und eine Ebene auf dem anderen Teil. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AxisPlaneParallelConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|AchseEbeneParallel}} hinzu. Die Beschränkung macht die Achse oder Linie parallel zur Ebene.
 
+
+
 #### Achse normal auf Ebene 
 
 Wähle entweder ein zylindrisches [Fläche](Glossary/de#Face.md) oder eine lineare [Kante](Glossary/de#edge.md) auf einem Teil und eine Ebene auf dem anderen Teil. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AxisPlaneNormalConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|AchseEbeneNormal}} hinzu. Durch die Beschränkung wird die Achse oder Linie normal zur Ebene gemacht.
+
+
 
 #### Achse im Winkel zu Ebene 
 
 Wähle entweder eine zylindrische [Fläche](Glossary/de#Face.md) oder eine lineare [Kante](Glossary/de#edge.md) auf einem Teil und eine Ebene auf dem anderen Teil.Mit der Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AxisPlaneAngleConstraint.svg  style="width:24px;"> wird die Beschränkung {{Variable|AchseEbeneWinkel}} hinzugefügt. Die Beschränkung macht die Achse zunächst parallel zur Ebene. Dann kannst du den Winkel für die Achse im erscheinenden Dialogfeld für die Beschränkungseinstellungen anpassen.
 
+
+
 #### Ebene parallel 
 
 Wähle eine Ebene auf beiden Teilen aus. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_PlanesParallelConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|EbenenParallel}} hinzu. Im Dialogfeld Beschränkung kannst du die Richtung der Beschränkung angeben. Durch die Beschränkung werden die Ebenen parallel gemacht.
+
+
 
 #### Ebene auf Ebene 
 
 Wähle eine Ebene auf beiden Teilen aus. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_PlaneCoincidentConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|EbeneDeckungsgleich}} hinzu. Im Dialogfeld Beschränkung kannst du eine Beschränkungsrichtung und einen Versatz zwischen den Ebenen angeben. Dieser Versatz kann auch umgedreht werden. Wenn der Versatz gleich Null ist, bewirkt die Beschränkung, dass die Ebenen zusammenfallen.
 
+
+
 #### Ebene Winklig 
 
 Wähle eine Ebene auf beiden Teilen aus. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AngleConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|winkligeEbenen}} hinzu. Im Dialogfeld Beschränkung kannst du einen Winkel zwischen den Ebenen angeben. Durch die Beschränkung werden die Ebenen zunächst parallel, und der angegebene Winkel wird festgelegt.
+
+
 
 #### Deckungsgleichheit im Massenschwerpunkt 
 
 Wähle entweder eine geschlossene [Kante](Glossary/de#Edge.md) oder eine Ebene auf beiden Teilen. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_CenterOfMassConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|Massenschwerpunkt}} hinzu. Im Dialogfeld Beschränkung kannst du einen Versatz zwischen den Kanten oder Ebenen angeben. Dieser Versatz kann auch umgedreht werden. Außerdem kannst du die Beschränkungsrichtung festlegen und die Drehung der Teile sperren. Wenn der Versatz gleich Null ist, setzt die Beschränkung die Kanten oder Ebenen auf dieselbe Ebene.
 
+
+
 ### Unterbaugruppen
 
 Eine Baugruppe kann andere Baugruppen enthalten. Sie werden wie Teile hinzugefügt, durch drücken der Werkzeugleistenschaltfläche <img alt="" src=images/A2p_ImportPart.svg  style="width:24px;"> und Wahl einer ***.FCStd** Datei, die eine Baugruppe enthält. Solche Unterbaugruppen können auch wie Teile bearbeitet werden, indem die Werkzeugleisteschaltfläche <img alt="" src=images/A2p_EditPart.svg  style="width:24px;"> verwendet wird. Bitte stelle bei höheren Baugruppenstufen sicher, dass du die Baugruppe rekursiv über die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_RecursiveUpdate.svg  style="width:24px;"> aktualisierst, wenn es Änderungen gab.
+
+
 
 ## Handhabung von Beschränkungen 
 
@@ -139,6 +183,8 @@ Alle Beschränkungen können jederzeit mit der Werkzeugleistenschaltfläche <img
 Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_FlipConstraint.svg  style="width:24px;"> wirkt sich auf die zuletzt hinzugefügte Beschränkung aus. Sie kehrt die Richtung der Beschränkung um.
 
 With the <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width:24px;"> tool, it is possible the show and inspect existing constraints. After clicking it a dialog pops up. Then either select a part in the tree and click the button **Import from part** to get all constraints of this part, or select one or more constraints in the tree and click the button **Import from Tree**. As result you get all info about the constraints. By clicking in the column *Suppress* a single constraint can be suppressed. For more features, follow the tooltips of the other dialog buttons.
+
+
 
 ## Stücklisten
 
@@ -162,7 +208,11 @@ If you have updated a part info you can refresh the parts list by pressing the t
 
 For subassemblies you can also create an info spreadsheet using the toolbar button <img alt="" src=images/A2p_PartsInfo.svg  style="width:24px;">. When you create or update the parts list of the main assembly this info will be used if you click on *No* for the question if you want to iterate recursively over all subassemblies. Then the different parts are not in the parts list but only the subassemblies.
 
+
+
 ## Sonderfunktionen
+
+
 
 ### Zusammenbaustruktur
 
@@ -170,27 +220,39 @@ The toolbar button <img alt="" src=images/A2p_Treeview.svg  style="width:24px;">
 
 :   ![](images/A2p_Dependency-Tree.jpg )
 
+
+
 ### Freiheitsgrade
 
 The button <img alt="" src=images/A2p_DOFs.svg  style="width:24px;"> labels every part of the assembly with its degrees of freedom. Furthermore it outputs a list with all parts and their dependencies. The list is output into FreeCAD\'s widget *Report view*. If this widget is currently not visible, it can either be shown by right-clicking into an empty part of the FreeCAD toolbar area and then choosing it in the appearing context menu or with the menu **View → Panels → [Report view](Report_view.md)**.
 
 The degrees of freedom labels can be removed by clicking the button <img alt="" src=images/A2p_DOFs.svg  style="width:24px;"> again.
 
+
+
 ### Teilkennzeichnungen
 
 The button <img alt="" src=images/A2p_PartLabel.svg  style="width:24px;"> labels every part of the assembly in the 3D view with its name. The part labels can be removed by clicking the button <img alt="" src=images/A2p_PartLabel.svg  style="width:24px;"> again
+
+
 
 ### Form der gesamten Baugruppe 
 
 Sometimes it is necessary to have the whole assembly combined as one shape. This shape can then for example be used for 3D printing in the [Mesh workbench](Mesh_Workbench.md) or for drawings in the [TechDraw workbench](TechDraw_Workbench.md). It is created using the toolbar button <img alt="" src=images/A2p_SimpleAssemblyShape.svg  style="width:24px;">. The shape is by default not made visible. Use the same toolbar button to update the shape in case of changes in the assembly.
 
+
+
 ### Absolute Pfade in relative Pfade umwandeln 
 
 With the menu **A2plus → Misc → [<img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones** you can convert absolute paths of imported parts to relative ones.
 
+
+
 ## Einstellungen
 
 The a2plus preferences can be accessed via FreeCAD\'s menu **Edit → [Preferences](Preferences_Editor.md)** and there in the section *A2plus*. You can set the following options:
+
+
 
 ### Standardlösungsmethode
 
@@ -198,9 +260,13 @@ Use solving of partial systems : The solver begins with a part that has the prop
 Use \"magnetic\" solver, solving all parts at once : The solver tries to move all parts at once in direction to a part that has the property **fixed Position** set to *true*. Note that this will in most cases take more time for the calculation of a solution.
 Force fixed position : This sets the property **fixed Position** to *true* for all parts in the assembly. Then no calculation is actually performed since all parts will always be fixed to the positions where they were created.
 
+
+
 ### Standardlöserverhalten
 
 Solve automatically if a constraint property is changed : The solver will automatically be started. The same as turning on the toolbar button <img alt="" src=images/A2p_ToggleAutoSolve.svg  style="width:24px;">.
+
+
 
 ### Verhalten beim Aktualisieren importierter Teile 
 
@@ -240,10 +306,14 @@ Do not import invisible shapes : This will hide invisible datum/construction sha
 Use solid union for importing parts and subassemblies : All imported parts will directly be put together as union.
 This feature is useful for [FEM](FEM_Workbench.md) simulations or [3D-printing](Manual_Preparing_models_for_3D_printing.md) if only one solid is allowed. The alternative is to create a [shape of the whole assembly](#Shape_of_whole_Assembly.md) later on.
 
+
+
 ### Benutzeroberflächeneinstellungen
 
 Show constraints in toolbar : If this option is not used, the toolbar buttons for the different constraints are not visible to save space in the toolbar. New constraints can still be set using the *Constraint Tools* dialog (toolbar button <img alt="" src=images/A2p_DefineConstraints.svg  style="width:24px;">).
 Use native file manager of your OS : If this option is used, you get the file dialog of your OS when selecting files for assemblies.
+
+
 
 ### Speicherung von Dateien 
 
@@ -252,19 +322,27 @@ Use absolute paths for imported parts : Uses absolute file paths to the part fil
 All files are in this project folder : All project files have to be in the specified folder. It doesn\'t matter if they are in subfolders of this folder. **Note:** No file is allowed to exist several times in the folder (e.g. in different subfolders).
 This option is helpful to work on different machines because then one only has to copy the project folder.
 
+
+
 ## Problembehebung
 
 Sooner or later you will get the problem that A2plus cannot solve the constraints you set. To overcome this, there are different strategies:
 
+
+
 ### Verwendung des Konfliktfinderwerkzeugs 
 
 This is the safest method when you have several constraints because this tool attempts to solve one constraint after another until it finds the conflicting constraint. Then you can go on with the other strategies to resolve the identified constraint. The tool is called using the toolbar button <img alt="" src=images/A2p_SearchConstraintConflicts.svg  style="width:24px;">.
+
+
 
 ### Überprüfung der Beschränkungsrichtung 
 
 Sometimes constraints seem to be consistently defined but they can nevertheless not be solved. An example: Assume you have a {{Variable|[planesParallel](#Plane_Parallel.md)}} constraint set for two planes. Now you want to set for the same planes the {{Variable|[planeCoincident](#Plane_on_Plane.md)}} constraint and A2plus cannot solve this. Then the constraint directions of {{Variable|planesParallel}} and {{Variable|planeCoincident}} are different. Use the same direction for both constraints to fix this.
 
 A2plus offers to automatically check the right direction for **all** constraints of the assembly using the toolbar button <img alt="" src=images/A2p_ReAdjustConstraints.svg  style="width:24px;">.
+
+
 
 ### Löschen von Beschränkungen 
 
@@ -274,11 +352,15 @@ Sometimes the deletion strategy is the only one, for example when you edited a p
 
 When you got an assembly that can be solved, add step by step the constraints you need.
 
+
+
 ### Bewegliche Teile 
 
 In some cases the solver only needs better start values to solve the constraints. Take for example the case that you have an axle part and a wheel part. You add a {{Variable|axisCoincident }} constraint and get no info that the solver failed but the parts are not moved accordingly and in the *Report view* widget of FreeCAD you see \"*REACHED POS-ACCURACY :0.0*\". A solution for this is to move the parts closer to that position you like to get by the constraint.
 
 **Note:** Assure that at least one part of the constraint has the property **fixed Position** set to *false*.
+
+
 
 ### Festlegen der Eigenschaft Spitze 
 
@@ -286,19 +368,27 @@ If you miss some features of your part after the import to an A2plus assembly, c
 
 A2plus imports bodies of parts with all their features up to the tip feature. This is sensible because setting the tip to a certain feature means that all features behind the tip should not appear in the final part. So if you miss a part feature in A2plus, open the part via the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">, then select a body and look at its property **Tip**. If the tip is not at the feature where you want it, right-click on the feature where the tip should be and choose **[<img src=images/PartDesign_MoveTip.svg style="width:24px"> Set tip**. Finally save the part and reload the assembly using the toolbar button <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
 
+
+
 ### Baugruppenbaum reparieren 
 
 If you cannot see a clear reason why some constraints cannot be resolved, you can try to use the toolbar button <img alt="" src=images/A2p_RepairTree.svg  style="width:24px;">. This will resolve all constraints and re-group then again under the different parts.
 
+
+
 ### Migration alter A2plus Baugruppen 
 
 Assemblies created with A2plus older than March 2019 do not show the correct icons for imported parts and have obsolete properties. These assemblies can be migrated to A2plus version 0.4.35 and newer using the menu **A2plus → Misc → [<img src=images/A2p_Upgrade.svg style="width:24px"> Migrate proxies of imported parts**. After doing this, you must save and reopen your assembly file.
+
+
 
 ### Vermeidung von Sonderzeichen 
 
 **Diese Strategie ist für Windows nicht erforderlich.**
 
 On some operating systems you can get problems if the file names or the file paths of parts or the assembly contain accented characters. Therefore avoid such characters and also special characters in general.
+
+
 
 ### Festlegen der Position 
 
@@ -309,6 +399,8 @@ When you set a constraint between two parts and no part has the property **fixed
 Then A2plus outputs the info about the failed solution, but sometimes you only see that the parts are not moved accordingly and in the *Report view* widget of FreeCAD you see \"*REACHED POS-ACCURACY :0.0*\". This means the solver finished without errors but it could actually not solve the constraints.
 
 Therefore check that at least one of your parts in the assembly has **fixed Position** set to *true*. Then assure that you only set constraints to a part which is somehow connected to the fixed part. To visualise these dependencies, see section [Assembly Structure](#Assembly_Structure.md).
+
+
 
 ### Drehende Teile 
 
@@ -321,6 +413,8 @@ The solver often fails for the constraint {{Variable|angledPlanes}} if the two s
 ## Animation
 
 A2plus offers animations via dragging and via Python scripts.
+
+
 
 ### Ziehen
 
@@ -340,6 +434,8 @@ Here is an example assembly to try out the dragging animation: [A2p_example-for-
 
 *Above: The dragging animation using the example assembly*
 
+
+
 ### Skripten
 
 Despite the dragging mode offers nice interactive animations, they are sometimes not precise enough for screencasts or videos. Scripted animations have the advantage that they animate movements and rotations in a defined way. You can for example rotate a part by exactly 10° back and forth. The following examples use an assembly where a part should be rotated. If you try to animate this using the dragging mode, you will see how hard it is to get a back and forth rotation that you can e.g. show your boss in a presentation. With the interactive example script, however, this is an easy task.
@@ -352,6 +448,8 @@ A scripted animation works usually this way:
 4.  Step 2. and 3. are repeated to get the animation
 
 It is also possible to change instead of a placement parameter a constraint, for example the distance between 2 planes.
+
+
 
 #### Einfaches Skriptbeispiel 
 
@@ -424,6 +522,8 @@ To practice, just change something in the script and execute it afterwards. For 
 This is the result of the example animation:
 
 ![](images/A2p_animated-example-result.gif )
+
+
 
 #### Interaktives Skriptbeispiel 
 
@@ -598,6 +698,8 @@ while AnimationDialog.isVisible():
 The dialog defined in the script looks like this:
 
 ![](images/A2p_AnimationDialog.png )
+
+
 
 ### Skriptbefehle
 

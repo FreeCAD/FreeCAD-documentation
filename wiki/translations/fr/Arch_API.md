@@ -1,7 +1,7 @@
 # Arch API/fr
-**(November 2018) L'API Arch est répertoriée dans la [https://www.freecadweb.org/api documentation API générée automatiquement].**
+**(November 2018) L'API de l'atelier Arch est répertoriée dans la [https://www.freecadweb.org/api documentation API générée automatiquement].**
 
-Les fonctions de l\'API font partie de l\'[atelier Arch](Arch_Workbench/fr.md) et peuvent être utilisées dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) une fois que le module `Arch` a été importé. L\'[extension Reinforcement](Reinforcement_Addon/fr.md) a ses propres [Reinforcement API](Reinforcement_API/fr.md).
+Les fonctions de l\'API font partie de l\'[atelier Arch](Arch_Workbench/fr.md) et peuvent être utilisées dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) une fois que le module `Arch` a été importé. L\'[atelier Reinforcement](Reinforcement_Workbench/fr.md) a ses propres [API](Reinforcement_API/fr.md).
 
 Exemple : 
 ```python
@@ -15,6 +15,11 @@ Arch.makeWall(baseline, length=None, width=200, height=2000)
 ```
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Arch](Arch_Workbench.md) > Arch API/fr
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > Arch API/fr

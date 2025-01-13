@@ -25,7 +25,7 @@ La commande pointe vers [<https://wiki.freecad.org/Power_users_hub>](https://wik
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

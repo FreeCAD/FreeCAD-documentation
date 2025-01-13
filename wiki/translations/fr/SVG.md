@@ -7,13 +7,17 @@ Les formats vectoriels tels que SVG sont très utiles dans les programmes de des
 
 L\'image SVG est décrite dans un langage de type XML, ce qui signifie que le fichier peut être ouvert et modifié avec un simple éditeur de texte pour y apporter des modifications. En raison de sa nature textuelle, le fichier peut également être recherché, indexé et facilement compressé. Ce langage de balisage SVG est un standard ouvert développé par le World Wide Web Consortium (W3C) depuis 1999. Cela signifie qu\'un fichier SVG doit être lu et interprété de la même manière par les visualiseurs conformes et les applications de dessin.
 
+
+
 ## Utilisation
 
-FreeCAD peut lire et exporter des graphiques SVG en utilisant la fonction [**Draft SVG**](Draft_SVG/fr.md) de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md). Les fichiers SVG sont utilisés pour beaucoup de choses, y compris les symboles et icônes sur l\'interface utilisateur graphique ainsi que pour les modèles.
+FreeCAD peut lire et exporter des graphiques SVG en utilisant la fonction [**Draft SVG**](Draft_SVG/fr.md) de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md). Les fichiers SVG sont utilisés pour beaucoup de choses, y compris les [symboles](TechDraw_Symbol/fr.md) et les [icônes](Artwork_Guidelines/fr.md) sur l\'interface utilisateur graphique ainsi que pour les modèles.
 
 :   Par exemple, l\'<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;">[atelier TechDraw](TechDraw_Workbench/fr.md) peut créer des [modèles](TechDraw_Templates/fr.md) au format SVG comportant des champs de texte modifiables que l\'utilisateur peut remplir.
 
 FreeCAD est principalement une application de modélisation 3D et ne dispose donc pas de nombreux outils de création de dessin 2D, qui sont pour la plupart inclus dans les ateliers <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md) et <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/fr.md). Pour créer des formes exclusivement en 2D et produire des fichiers SVG, il existe des programmes alternatifs tels que [Inkscape](https://fr.wikipedia.org/wiki/Inkscape).
+
+
 
 ## En relation 
 

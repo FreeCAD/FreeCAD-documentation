@@ -1,20 +1,25 @@
 ---
  GuiCommand:
    Name: Web OpenWebsite
+   Name/pl: Web: Otwórz witrynę
    MenuLocation: 
-   Workbenches: Web_Workbench, Start_Workbench
-   SeeAlso: Web_BrowserSetURL
+   Workbenches: Web_Workbench/pl, Start_Workbench/pl
+   SeeAlso: Web_BrowserSetURL/pl
 ---
 
 # Web OpenWebsite/pl
 
-## Description
 
-The <img alt="" src=images/Web_OpenWebsite.svg  style="width:24px;"> **Web OpenWebsite** command opens the [FreeCAD website](https://freecadweb.org) in the current Web tab, or in a new tab if the current one is not a Web tab.
 
-## Usage
+## Opis
 
-1.  Press the **<img src="images/Web_OpenWebsite.svg" width=16px> [Open website...](Web_OpenWebsite.md)** button.
+Polecenie <img alt="" src=images/Web_OpenWebsite.svg  style="width:24px;"> **Otwórz witrynę** otwiera stronę [FreeCAD](https://freecadweb.org) w bieżącej karcie Web lub w nowej karcie, jeśli bieżąca karta nie jest kartą Web.
+
+
+
+## Użycie
+
+1.  Naciśnij przycisk **<img src="images/Web_OpenWebsite.svg" width=16px> '''Otwórz witrynę'''**.
 
 
 

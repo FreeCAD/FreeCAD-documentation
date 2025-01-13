@@ -1,22 +1,20 @@
 ---
  GuiCommand:
    Name: Sketcher ConstrainDistanceX
-   Name/it: Distanza orizzontale   Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch , Vincolo , Distanza orizzontale
-   Shortcut: **Maiusc** + **H**
-   SeeAlso: Sketcher_ConstrainDistance/it, Sketcher ConstrainDistanceY/it
+   Name/it: Sketcher Vincolo distanza orizzontale
+   MenuLocation: Schizzo , Vincoli Sketcher , Vincolo distanza orizzontale
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **L**
+   SeeAlso: Sketcher_ConstrainDistanceY/it, Sketcher_ConstrainDistance/it
 ---
 
 # Sketcher ConstrainDistanceX/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-Fissa una distanza orizzontale tra due punti. È applicabile tra tutti i punti dello schizzo. Quando viene selezionato un solo punto la distanza è riferita all\'origine.
+Lo strumento <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Sketcher Vincolo distanza orizzontale](Sketcher_ConstrainDistanceX/it.md) fissa la distanza orizzontale tra due punti o gli estremi di una linea. Se viene preselezionato un punto singolo, la distanza è relativa all\'origine dello schizzo.
 
 ![](images/Constraint_H_Distance.png )
 
@@ -24,54 +22,72 @@ Fissa una distanza orizzontale tra due punti. È applicabile tra tutti i punti d
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare due punti o una linea
-2.  Richiamare il comando in uno di questi modi:
-    -   Cliccare sull\'icona **[<img src=images/Sketcher_ConstrainDistanceX.png style="width:24px"> '''Distanza orizzontale'''** della barra degli strumenti.
-    -   Usare la scorciatoia da tastiera **Maiusc** + **H**.
-    -   Usare la voce **Sketch → Vincoli → Distanza orizzontale** dal menu principale.
-3.  Si apre una finestra di dialogo per modificare o confermare il valore. Premere **OK** per confermare.
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
 
-</div>
+
+### [Modalità continua](Sketcher_Workbench/it#Continue_modes.md) 
+
+1.  Assicurarsi che non ci sia alcuna selezione.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   
+        {{Version/it|1.0}}
+        
+        : Se la [preferenza](Sketcher_Preferences/it#General.md) **Vincoli dimensionali** è impostata su {{Value|Strumento singolo}} (predefinito): premere la freccia giù a destra del Pulsante **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** e selezionare il pulsante **<img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> Vincolo distanza orizzontale** dal menu a discesa.
+
+    -   Se questa preferenza ha un valore diverso (e in {{VersionMinus/it|0.21}}): premere il pulsante **<img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> [Vincolo distanza orizzontale](Sketcher_ConstrainDistanceX/it.md)**.
+
+    -   Selezionare l\'opzione **Schizzo → Vincoli Sketcher → <img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> Vincolo distanza orizzontale** dal menu.
+
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [Vista 3D](3D_view/it.md) e selezionare l\'opzione **Dimensione → <img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> Vincolo distanza orizzontale** dal menu contestuale.
+
+    -   Usare la scorciatoia da tastiera: **L**.
+3.  Il cursore si trasforma in una croce con l\'icona dello strumento.
+4.  Effettuare una delle seguenti operazioni:
+    -   Selezionare due punti (uno dei quali può essere l\'origine).
+    -   Selezionare una singola linea.
+5.  Se viene creato un [vincolo dimensionale guida](Sketcher_ToggleDrivingConstraint/it.md), a seconda delle [preferenze](Sketcher_Preferences/it#Display.md), si apre una finestra di dialogo per [modificarne il valore](Sketcher_Workbench/it#Edit_constraints.md).
+6.  Viene aggiunto un vincolo.
+7.  Facoltativamente, continuare a creare vincoli.
+8.  Per terminare, fare clic con il pulsante destro del mouse o premere **Esc** oppure avviare un altro strumento di creazione di geometrie o vincoli.
 
 
-<div class="mw-translate-fuzzy">
 
-**Nota:** lo strumento di vincolo può essere avviato anche senza selezione precedente, ma richiede la selezione di due punti o una linea. Per impostare la distanza dall\'origine, è necessario selezionare anche il punto di origine dello schizzo. Di default il comando è in modalità continua per creare nuovi vincoli; per uscire dal comando premere il tasto destro del mouse o una volta il tasto **ESC**.
+### Modalità di esecuzione una sola volta 
+
+1.  Effettuare una delle seguenti operazioni:
+    -   Selezionare uno o due punti.
+    -   Selezionare una singola linea.
+2.  Richiamare lo strumento come spiegato sopra.
+3.  Facoltativamente [modificare il valore del vincolo](Sketcher_Workbench/it#Edit_constraints.md).
+4.  Viene aggiunto un vincolo.
 
 
-</div>
 
-## Scripting
+## Script
 
-Distance from origin:
+Distanza dall\'origine:
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge, PointOfEdge, -1, 1, App.Units.Quantity('123.0 mm')))```
 
-Distance between two vertices:
+Distanza tra due vertici:
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```
 
-Horizontal span of line (the GUI allows selecting the edge itself, but it is just a shorthand for using the two extremities of the same line):
+Tratto orizzontale della linea (la GUI consente di selezionare il bordo stesso, ma è solo una scorciatoia per utilizzare le due estremità della stessa linea):
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('DistanceX', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))```
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Edge`, `Edge1`, `Edge2`, `PointOfEdge`, ` PointOfEdge1`, ` PointOfEdge2` and `Line`, and contains further examples on how to create constraints from Python scripts.
-
-
-<div class="mw-translate-fuzzy">
+La pagina [Sketcher scripting](Sketcher_scripting/it.md) spiega i valori che possono essere utilizzati per `Edge`, `Edge1`, `Edge2`, `PointOfEdge`, ` PuntoOfEdge1`, ` PointOfEdge2` e `Line` e contiene ulteriori esempi su come creare vincoli da script Python.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

@@ -72,7 +72,7 @@ sudo zypper install spacenavd
 
 Ceci est recommandé si votre distribution est une version obsolète.
 
--   Télécharger les fichiers suivants :
+-   Téléchargez les fichiers suivants :
     -   [spacenavd](https://sourceforge.net/projects/spacenav/files/latest/download) (dernière version)
     -   [libspnav](https://sourceforge.net/projects/spacenav/files/spacenav%20library%20%28SDK%29/) (pour la dernière version libspnav)
     -   [spnavcfg](https://sourceforge.net/projects/spacenav/files/spacenavd%20config%20gui/) (pour la dernière version libspnav)
@@ -173,7 +173,7 @@ Ceci est recommandé si votre distribution est une version obsolète.
 
 
 
-#### Démarrage de spacenavd en tant que service systemd au démarrage 
+#### Démarrer spacenavd en tant que service systemd au démarrage 
 
 Si vous souhaitez démarrer spacenavd au démarrage en utilisant systemd, procédez comme suit :
 
@@ -186,7 +186,7 @@ Ceci n\'est nécessaire que pour l\'installation à partir de la source.
 
 
 
-#### Redémarrez spacenavd 
+#### Redémarrer spacenavd 
 
 Si parfois SpaceNavigator ne fonctionne plus, il est bon de redémarrer le pilote. Pour le redémarrer, allez dans le terminal et exécutez :
 
@@ -200,12 +200,11 @@ Après ceci, redémarrez FreeCAD. Sur certaines distributions, cela est nécessa
 
 
 
-### Problèmes connus 
+#### Problèmes connus 
 
 Un utilisateur a signalé ce qui suit sur le [forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) :
 
-  Spacenav daemon 0.6
-  n'a pas pu ouvrir le fichier de configuration/etc/spnavrc: Aucun fichier ou répertoire de ce type. en utilisant les valeurs par défaut.
+  Le démon 0.6 Spacenav n'a pas pu ouvrir le fichier de configuration/etc/spnavrc : aucun fichier ou répertoire de ce type. En utilisant les valeurs par défaut.
   ajout d'un appareil.
   nom du périphérique: 3Dconnexion SpacePilot
   using device: /dev/input/event5
@@ -221,37 +220,43 @@ sudo spnavd_ctl x11 start
 sudo systemctl restart spacenavd 
 ```
 
-### macOS
+### MacOS
 
 Les périphériques d\'entrée 3Dconnexion sont pris en charge sous macOS, à condition que FreeCAD soit compilé et utilisé avec un système sur lequel les pilotes 3Dconnexion sont installés. Vous pouvez avoir besoin de 3DxWare 10.7.2 ou plus pour macOS 12 Monterey.
 
 ### Windows
 
-Depuis la version 0.13, la souris 3D est prise en charge sous windows. Vous devez avoir les pilotes 3Dconnexion installés.
+A partir de la version 0.13, la souris 3D est supportée sous Windows. Les pilotes 3Dconnexion doivent être installés. Dans la version 1.0 de FreeCAD, une [nouvelle intégration avec les périphériques 3Dconnexion](https://github.com/FreeCAD/FreeCAD/pull/12929) a été introduite. S\'il est compilé avec cette intégration, seul le matériel récent est pris en charge : pour prendre en charge des périphériques plus anciens, les utilisateurs devront s\'auto-compiler avec la variable cMake FREECAD_3DCONNEXION_SUPPORT réglée sur \"Raw Input\". Les utilisateurs de Windows doivent savoir que le pilote de 3Dconnexion (et non le code de FreeCAD) contient un paquet de télémétrie qui communique à 3Dconnexion des informations sur le logiciel installé.
 
 
 
-#### Problème connu 
+#### Problèmes connus 
 
-Il existe un problème en raison duquel 3Dconnexion envoie les événements de défilement en double à FreeCAD, ce qui provoque le saut de la vue. Pour réparer :
-
-1.  Ouvrez les propriétés de 3Dconnexion. Vous pouvez double-cliquer sur son icône dans la barre des tâches, à côté de l\'horloge Windows.
-2.  Cliquez sur le bouton Paramètres avancés.
-3.  Ouvrez FreeCAD ou basculez vers une fenêtre FreeCAD déjà ouverte.
-4.  Revenez aux paramètres avancés de 3Dconnexion. Confirmez qu\'il est indiqué \"FreeCAD\" dans l\'en-tête.
-5.  Décochez toutes les cases de la page.
-
-ref: <https://freecadweb.org/tracker/view.php?id=1893>
+-   Dans la version 1.0 et ultérieure, la modification des paramètres dans la fenêtre de configuration de 3DX peut ne pas avoir les résultats escomptés ([issue](https://github.com/FreeCAD/FreeCAD/issues/14044)). Pour résoudre ce problème :
+    1.  Arrêtez le pilote (en exécutant Stop 3DxWare).
+    2.  Allez dans **..<user>\AppData\Roaming\3Dconnexion\3DxWare\Cfg** et supprimez le fichier **FreeCAD.xml**.
+    3.  Démarrez le pilote (en exécutant Start 3DxWare).
+    4.  Lancez FreeCAD et vérifiez si vous pouvez modifier les paramètres de [mouvement de la souris Spaceball](#Mouvement_de_la_souris_Spaceball.md).
 
 
 
-## Configuration au niveau de FreeCAD 
+## Configurer FreeCAD 
 
-La prise en charge de la souris 3D a été réalisée avec le *projet spnav* sous Linux, et à un niveau très bas sous Windows. Cela signifie qu\'il n\'y avait pas de prise en charge pour les paramètres d\'un périphérique, puisque sous Linux il n\'y a pas de bonne prise en charge pour cela, et que sous Windows, les paramètres sont ignorés. C\'est pourquoi deux pages supplémentaires ont été ajoutées à la boîte de dialogue \"Personnaliser\".
+
+{{VersionPlus/fr|1.0}}
+
+: le manipulateur 3Dconnexion peut être configuré par son pilote (logiciel 3DxWare).
+
+
+{{VersionMinus/fr|0.21}}
+
+: si une Spaceball est détectée, les onglets suivants de la [fenêtre de dialogue de personnalisation](Interface_Customization/fr.md) peuvent être utilisés pour modifier les paramètres :
 
 <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
 
-### Spaceball Motion 
+
+
+### Mouvement de la souris Spaceball 
 
 Dans cet onglet vous avez la possibilité de mettre en place certains paramètres de la souris dans l\'espace général. Ils comprennent :
 
@@ -269,7 +274,9 @@ Pour chaque axes, vous avez d\'autres possibilités de définition :
 -   Reverse : inverser le mouvement sur les axes
 -   Sensitivity : possibilité de définir la sensibilité du curseur
 
-### Spaceball Buttons 
+
+
+### Boutons de la souris Spaceball 
 
 Lorsque vous ouvrez cet onglet pour la première fois, il sera vide, et, non disponible. Pour l\'activer, vous devez appuyer sur un des boutons de votre space mouse. Une fois que vous l\'avez fait, la liste des boutons s\'affiche sur le côté gauche, et, la liste des commandes sera disponible sur le côté droit.
 

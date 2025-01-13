@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -14,6 +16,8 @@ Esta herramienta activa / desactiva el indicador IfcBrep de un objeto [ Arch](Ar
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -34,5 +38,13 @@ Esta herramienta activa / desactiva el indicador IfcBrep de un objeto [ Arch](Ar
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/es
+⏵ [documentation index](../README.md) > Arch ToggleIfcBrepFlag/es

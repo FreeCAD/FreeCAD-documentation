@@ -19,9 +19,9 @@ For other types of installation see [Download](Download.md).
 
 
 
-  Stable                                                                                                                Development
+  Stable                                                                                                              Development
    
-  ![](images/AppImage-logo.png ) [v0.21.2](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.21.2)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
+  ![](images/AppImage-logo.png ) [v1.0.0](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/1.0.0)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
 
   : style=\"text-align: center; font-size: 150%; \| Available FreeCAD AppImages \|+
 

@@ -35,7 +35,7 @@ FreeCAD supporta molti pacchetti software di terze parti pronti all\'uso. In mol
 
 ### OpenCAMLib
 
-[OpenCAMLib](http://www.anderswallin.net/CAM) è una libreria open source di algoritmi di produzione assistita da computer (CAM). È utilizzata nell\'ambiente [Path](Path_Workbench/it.md). Vedere la pagina [OpenCamLib](OpenCamLib/it.md) per le istruzioni d\'installazione.
+[OpenCAMLib](http://www.anderswallin.net/CAM) è una libreria open source di algoritmi di produzione assistita da computer (CAM). È utilizzata nell\'ambiente [CAM](CAM_Workbench/it.md). Vedere la pagina [OpenCamLib](OpenCamLib/it.md) per le istruzioni d\'installazione.
 
 ### OpenSCAD
 

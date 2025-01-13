@@ -101,6 +101,21 @@ Raspravu na forumu [Macro to compute center of mass](https://forum.freecadweb.or
 
 Version / Date of merge
 
+0.8.0 / 2025-01-06: Thanks to farahats9 for the contribution
+
+-   New: Show Volume and Surface area
+-   New: Calculate Moments of Inertia
+-   Fix: Macro now works with the Assembly example in FreeCAD 1.0
+-   Fix: Automatically select material for solids if it is already assigned by the new material system
+-   Minor UI changes
+
+0.7.6 / 2024-08-01: Prepare for major FreeCAD release
+
+-   Fix: Make 0.22.0dev AssemblyExample work
+-   Fix: BOM Import containing custom material
+-   Fix: Support the new material cards
+-   Fix: Changed or missing icons, version checks
+
 0.7.3 / 2023-09-11:
 
 -   New: Added buttons for Copy to clipboard

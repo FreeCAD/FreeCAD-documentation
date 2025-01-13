@@ -4,16 +4,20 @@
    MenuLocation: Arch , Material tools , Material
    Workbenches: Arch_Workbench, BIM_Workbench
    Shortcut: **M** **T**
-   SeeAlso: Arch_CompSetMaterial, Arch_MultiMaterial
+   SeeAlso: Arch_MultiMaterial
 ---
 
 # Arch SetMaterial/pt-br
+
+
 
 ## Descrição
 
 This tool allows to add [materials](Material.md) to the active document and attribute a material to an [Arch](Arch_Workbench.md) object. A Material contains all the properties of a certain material and controls the color of the object it is attached to. Materials are stored in a **Materials** folder in the active document.
 
 ![](images/Arch_materials_01.jpg )
+
+
 
 ## Utilização
 
@@ -24,6 +28,8 @@ This tool allows to add [materials](Material.md) to the active document and attr
     -   Use the **Arch → Material Tools → Material** entry from the top menu.
 3.  Load a preset material, or create a new one by filling the fields.
 4.  Press **OK**.
+
+
 
 ## Opções
 
@@ -56,6 +62,11 @@ This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IF
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/pt-br
+⏵ [documentation index](../README.md) > Arch SetMaterial/pt-br

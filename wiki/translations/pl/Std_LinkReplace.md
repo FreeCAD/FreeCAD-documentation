@@ -25,10 +25,10 @@ Operacja ta może być wykonana w celu zastąpienia zagnieżdżonych obiektów, 
 ## Użycie
 
 1.  Upewnij się, że jeden obiekt znajduje się wewnątrz innego. Na przykład, rozważmy, że obiekt **[<img src=images/Part_Fuse.svg style="width:16px"> [scalenia](Part_Fuse/pl.md)** został użyty z dwoma wcześniej utworzonymi obiektami, **[<img src=images/Part_Sphere.svg style="width:16px"> [sfera](Part_Sphere/pl.md)** i **[<img src=images/Part_Cylinder.svg style="width:16px"> [walec](Part_Cylinder/pl.md)**.
-2.  Wybierz <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [sferę](Part_Sphere.md) w oknie [Widoku drzewa](Tree_view/pl.md).
+2.  Wybierz <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [sferę](Part_Sphere.md) w oknie [Widoku drzewa](Tree_view/pl.md).
 3.  Naciśnij **[<img src=images/Std_LinkReplace.svg style="width:16px"> [Zastąp przez łącze](Std_LinkReplace/pl.md)**.
 
-Oryginalna <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [sfera](Part_Sphere/pl.md) musi teraz znajdować się poza obiektem **[<img src=images/Part_Fuse.svg style="width:16px"> [scalenia](Part_Fuse/pl.md)**, a wewnątrz musi znajdować się Łącze *(na ikonie wyświetlana jest mała strzałka)*.
+Oryginalna <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [sfera](Part_Sphere/pl.md) musi teraz znajdować się poza obiektem **[<img src=images/Part_Fuse.svg style="width:16px"> [scalenia](Part_Fuse/pl.md)**, a wewnątrz musi znajdować się Łącze *(na ikonie wyświetlana jest mała strzałka)*.
 
 ![](images/Std_Link_tree_replace_fuse_1_example.png ) ![](images/Std_Link_tree_replace_fuse_2_example.png )
 

@@ -9,10 +9,19 @@
 # Sketcher MirrorSketch/zh-cn
 
 
+</div>
+
+
 
 ## 描述
 
+
+<div class="mw-translate-fuzzy">
+
 沿x轴、y轴或原点镜像草图。
+
+
+</div>
 
 
 
@@ -33,10 +42,6 @@
 
 
 </div>
-
-## Notes
-
--   Multiple sketches can be selected before applying the operation.
 
 
 <div class="mw-translate-fuzzy">

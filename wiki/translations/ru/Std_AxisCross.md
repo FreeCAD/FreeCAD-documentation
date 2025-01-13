@@ -43,30 +43,45 @@ The axis cross consists of three arrows representing the positive X, Y and Z axi
 
 ## Настройки
 
--   The default for the axis cross can be changed in the preferences: **Edit → Preferences... → Display → 3D view → Show axis cross by default**. See [Preferences Editor](Preferences_Editor#3D_View.md).
+See also: [Preferences Editor](Preferences_Editor.md).
+
+-   The default for the axis cross can be changed: **Edit → Preferences... → Display → 3D view → Show axis cross by default**.
 
 ## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Чтобы показать или скрыть оси координат, используйте метод `setAxisCross`объекта ActiveView. Этот метод не доступен, когда FreeCAD в режиме консоли.
+
+
+</div>
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.setAxisCross(True)
-FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.setAxisCross(True)
+view.hasAxisCross()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

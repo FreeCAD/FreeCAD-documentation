@@ -180,9 +180,9 @@ Um festzulegen, welcher Bestandteile einer Linie von einer Randbedingung betroff
 
 -    `2`, um anzugeben, dass die Randbedingung den Endpunkt der Kante betrifft.
 
--    `3`, um anzugeben, dass die Randbedingung den Mittelpunkt der Kante betrifft. Für <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:" height="24px;"> [Kreise](Sketcher_CompCreateCircle/de.md) und <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:" height="24px;"> [Kegelschnitte](Sketcher_CompCreateConic/de.md) (Ellipsen) ist dies der Mittelpunkt des Kreises bzw. das Zentrum (Schnittpunkt von Haupt- und Nebenachse) der Ellipse. Bei geraden <img alt="" src=images/Sketcher_CreateLine.svg  style="width:" height="24px;"> [Linien](Sketcher_CreateLine/de.md) kann `3` nicht zur Angabe des Mittelpunktes verwendet werden.
+-    `3`, um anzugeben, dass die Randbedingung den Mittelpunkt der Kante betrifft. Kann nur für Kreise, Kreisbögen, Ellipsen und Ellipsenbögen verwendet werden.
 
--    `n`, um anzugeben, dass die Randbedingung den n-ten Kontrollpunkt eines <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:" height="24px;"> [B-Splines](Sketcher_CompCreateBSpline/de.md) betrifft.
+-    `n`, um anzugeben, dass die Randbedingung den n-ten Kontrollpunkt eines B-Splines betrifft.
 
 Die mit 1 und 2 gekennzeichneten Knoten sind in der Reihenfolge ihrer Erstellung nummeriert. Um die Reihenfolge ihrer Erstellung herauszufinden (sind viele Linien vorhanden, kann es schwierig werden sich zu erinnern, welcher Knoten zuerst erstellt wurde), musst nur der Mauszeiger über die beiden Knoten einer Linie bewegt werden, siehe folgende Abbildung.
 

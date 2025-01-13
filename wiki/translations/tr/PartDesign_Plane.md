@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Tanım
 
 Eskizler veya diğer referans geometri için referans olarak kullanılabilecek bir **referans düzlemi** oluşturur. Eskizler referans düzlemlerine eklenebilir. ![](images/Datum_plane.png ) \"Referans Düzlemi, XY Düzlemi olarak referans düzlemi kullanılarak çizilen bir Silindir ile Küpün 3 köşesini geçiyor.\"
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -26,6 +30,8 @@ Eskizler veya diğer referans geometri için referans olarak kullanılabilecek b
 </div>
 
 A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Body](PartDesign_Body.md). Every body has an origin, which is hidden by default. To be able to refer to the origin base planes, make the the origin visible. You can do this before creating a datum plane.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -58,6 +64,8 @@ A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" s
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 Model ağacındaki Referans düzlemi etiketine çift tıklayın veya sağ tıklayın ve parametrelerini düzenlemek için bağlam menüsünde **Referans Düzenle** seçeneğini seçin . Ek mod ve Ek ofset hakkında daha fazla bilgi için[Ek](Part_EditAttachment.md) bkz.
@@ -72,6 +80,12 @@ Model ağacındaki Referans düzlemi etiketine çift tıklayın veya sağ tıkla
 
 
 </div>
+
+## Preferences
+
+The default diffuse color and transparency of [PartDesign datums](PartDesign_CompDatums.md) is controlled by the **DefaultDatumColor** [fine-tuning parameter](Fine-tuning#PartDesign_Workbench.md).
+
+
 
 
 <div class="mw-translate-fuzzy">

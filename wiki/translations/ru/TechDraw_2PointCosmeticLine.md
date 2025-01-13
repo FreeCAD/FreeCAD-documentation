@@ -59,7 +59,7 @@ To change the endpoints of a cosmetic line:
 
 ## Notes
 
--   To delete a cosmetic line use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+-   To delete a cosmetic line select it and press **Delete**. <small>(v1.0)</small> 
 -   To change the appearance of a cosmetic line use <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [TechDraw DecorateLine](TechDraw_DecorateLine.md).
 
 

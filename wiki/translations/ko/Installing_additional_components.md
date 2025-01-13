@@ -11,17 +11,23 @@
 
 
 
-# 외부 앱 형식의 작업환경 
+## 외부 작업대 
 
-Apart from the default [workbenches](workbenches.md) bundled with FreeCAD, there is a large collection of useful [external workbenches](External_workbenches.md) made by community members.
+FreeCAD와 함께 번들로 제공되는 기본 [작업대](workbenches/ko.md) 외에도 커뮤니티 구성원이 만든 유용한 [외부 작업대](External_workbenches/ko.md) 들이 많이 있습니다.
 
-# Third party software 
 
-FreeCAD supports several third party software packages out of the box. In many cases all you need to do is install the software, and when FreeCAD is restarted it will automatically find and be able to use it. This section aims to provide a list of such software packages, together with some information about where they are used in FreeCAD and where they can be downloaded.
 
-## Support
+# 타사 소프트웨어 
 
-### GitPython
+FreeCAD는 기본적으로 여러 타사 소프트웨어 패키지를 지원합니다. 대부분의 경우 소프트웨어를 설치하기만 하면 FreeCAD가 다시 시작되면 자동으로 해당 소프트웨어를 찾아서 사용할 수 있습니다. 이 섹션에서는 이러한 소프트웨어 패키지 목록을 FreeCAD에서 사용되는 위치와 다운로드할 수 있는 위치에 대한 정보와 함께 제공하는 것을 목표로 합니다.
+
+
+
+## 지원
+
+
+
+### 깃파이썬
 
 [GitPython](https://github.com/gitpython-developers/GitPython) is a library to interact with Git repositories. The [Addon Manager](Std_AddonMgr.md) can use this library. GitPython is included in the FreeCAD installers for Windows and Mac.
 
@@ -31,15 +37,17 @@ FreeCAD supports several third party software packages out of the box. In many c
 
 ### OpenCAMLib
 
-[OpenCAMLib](http://www.anderswallin.net/CAM) is an open source library of computer aided manufacturing (CAM) algorithms. It is used in the [Path Workbench](Path_Workbench.md). See the [OpenCamLib](OpenCamLib.md) page for installation instructions.
+[OpenCAMLib](https://www.anderswallin.net/CAM) is an open source library of computer aided manufacturing (CAM) algorithms. It is used in the [CAM Workbench](CAM_Workbench.md). See the [OpenCamLib](OpenCamLib.md) page for installation instructions.
 
 ### OpenSCAD
 
 [OpenSCAD](https://www.openscad.org) is a solid 3D modeller. The [OpenSCAD Workbench](OpenSCAD_Workbench.md) depends on this software and the [Mesh Workbench](Mesh_Workbench.md) uses it for its Boolean tools. It is also required for the import of SCAD files with the [Std Import](Std_Import.md) tool.
 
-## File formats 
 
-All software in this section will be used by the [Std Import](Std_Import.md) or [Std Export](Std_Export.md) tools.
+
+## 파일 형식 
+
+이 섹션의 모든 소프트웨어는 [표준 가져오기](Std_Import/ko.md) 또는 [표준 내보내기](Std_Export/ko.md) 도구에서 사용됩니다.
 
 ### CADExchanger
 
@@ -49,7 +57,9 @@ All software in this section will be used by the [Std Import](Std_Import.md) or 
 
 FreeCAD has a native importer and exporter for DXF files, programmed in C++. Currently they do not implement all features of the DXF format. For those features the legacy Python importer and exporter are still available. These require the [Draft-dxf-importer](https://github.com/yorikvanhavre/Draft-dxf-importer) Python library. See the [FreeCAD and DXF Import](FreeCAD_and_DXF_Import.md) page for more information.
 
-### DWG converters 
+
+
+### DWG 변환기 
 
 FreeCAD cannot directly read and write DWG files. To convert DXF files to DWG files, and vice-versa, FreeCAD relies on external converters. There is built-in support for the following DWG converters:
 
@@ -61,7 +71,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ### IfcOpenShell
 
-[IfcOpenShell](http://ifcopenshell.org) is a library for working with the Industry Foundation Classes (IFC) file format used in architectural design. The library is also used by the [Arch IfcExplorer](Arch_IfcExplorer.md) ({{VersionMinus|0.18}}) and [BIM IfcExplorer](BIM_IfcExplorer.md) tools. IfcOpenShell is included in the FreeCAD installers for Windows and Mac.
+[IfcOpenShell](https://ifcopenshell.org) is a library for working with the Industry Foundation Classes (IFC) file format used in architectural design. The library is also used by the [Arch IfcExplorer](Arch_IfcExplorer.md) ({{VersionMinus|0.18}}) and [BIM IfcExplorer](BIM_IfcExplorer.md) tools. IfcOpenShell is included in the FreeCAD installers for Windows and Mac.
 
 ### IfcJson
 
@@ -89,11 +99,11 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ### CalculiX
 
-[CalculiX](http://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) tool.
+[CalculiX](https://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) tool.
 
 ### Gmsh
 
-[Gmsh](http://gmsh.info) is an automatic finite element mesh generator. it is used by the [FEM MeshGmshFromShape](FEM_MeshGmshFromShape.md) and [Mesh FromPartShape](Mesh_FromPartShape.md) tools.
+[Gmsh](https://gmsh.info) is an automatic finite element mesh generator. it is used by the [FEM MeshGmshFromShape](FEM_MeshGmshFromShape.md) and [Mesh FromPartShape](Mesh_FromPartShape.md) tools.
 
 ### Elmer
 
@@ -109,9 +119,11 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ### OpenFOAM
 
-[OpenFOAM](https://openfoam.org) is a large collection of libraries for computational fluid dynamics (CFD) simulations. OpenFOAM is used by the [Cfd](Cfd_Workbench.md) and [CfdOF](https://github.com/jaheyns/CfdOF) [external workbenches](external_workbenches.md).
+[OpenFOAM](https://openfoam.org) is a large collection of libraries for computational fluid dynamics (CFD) simulations. OpenFOAM is used by the [Cfd](Cfd_Workbench.md) and [CfdOF](https://github.com/jaheyns/CfdOF) [external workbenches](External_workbenches.md).
 
-# Related pages 
+
+
+# 관련 페이지 
 
 -   [Import Export](Import_Export.md)
 -   [Import Export Preferences](Import_Export_Preferences.md)

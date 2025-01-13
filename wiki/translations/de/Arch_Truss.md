@@ -1,38 +1,51 @@
 ---
  GuiCommand:
    Name: Arch Truss
-   Name/de: Arch Traverse
-   MenuLocation: Arch , Traverse
-   Workbenches: Arch_Workbench/de
+   Name/de: Arch Fachwerkträger
+   MenuLocation: 3D/BIM , Träger
+   Workbenches: BIM_Workbench/de
    Version: 0.19
 ---
 
 # Arch Truss/de
 
+
+
 ## Beschreibung
 
-Das [Architektur Fachwerkswerkzeug](Arch_Truss/de.md) baut ein [Fachwerk](https://de.wikipedia.org/wiki/Fachwerk)sobjekt auf, entweder aus einem ausgewählten linearen Objekt (z.B. [Entwurf Linie](Draft_Line/de.md) oder [Skizze](Sketcher_NewSketch/de.md)), oder von Grund auf neu, wenn beim Aufruf des Befehls kein Objekt ausgewählt ist.
+Das Werkzeug **Arch Fachwerkträger** baut einen [Fachwerkträger](https://de.wikipedia.org/wiki/Fachwerk) (Truss-Objekt) auf, entweder aus einem ausgewählten linearen Objekt (d.h.einer [Draft-Linie](Draft_Line/de.md) oder einer [Skizze](Sketcher_NewSketch/de.md)) oder von Grund auf neu, wenn beim Aufruf des Befehls kein Objekt ausgewählt ist.
 
 <img alt="" src=images/Arch_Truss_example.png  style="width:600px;">
 
+
+
 ## Anwendung
 
-### Erzeugen aus einem ausgewählten Objekt 
 
-1.  Benutze einen Arbeitsbereich deiner Wahl zum Erstellen einer einzelnen Linie
-2.  Wähle diese Linie
-3.  Drücke die **<img src="images/Arch_Truss.svg" width=16px> [Arch Traverse](Arch_Truss/de.md)**-Schaltfläche
-4.  Passe die Traverseneinstellungen an deine Bedürfnisse an
 
-### Erzeugen von Grund auf 
+### Aus einem ausgewählten Objekt erstellen 
 
-1.  Stelle sicher, dass nichts ausgewählt ist
-2.  Drücke die **<img src="images/Arch_Truss.svg" width=16px> [Arch Traverse](Arch_Truss/de.md)**-Schaltfläche
-3.  Klicke in die 3D-Ansicht, um einen ersten Punkt zu definieren oder gib die X-, Y- und Z-Koordinaten ein
-4.  Klicke in die 3D-Ansicht, um einen zweiten Punkt zu definieren oder gib die X-, Y- und Z-Koordinaten ein
-5.  Passe die Traverseneigenschaften an deine Bedürfnisse an
+1.  Eine einzelne Linie in einem Arbeitsbereich nach Wahl erstellen.
+2.  Diese Linie auswählen.
+3.  Die Schaltfläche **<img src="images/Arch_Truss.svg" width=16px> [Arch Träger](Arch_Truss/de.md)
+**
+4.  Die Einstellungendes Trägers wie gewünscht anpassen.
+
+
+
+### Von Grund auf neu erstellen 
+
+1.  Sicherstellen, dass nichts ausgewählt ist.
+2.  Die Schaltfläche **<img src="images/Arch_Truss.svg" width=16px> [Arch Träger](Arch_Truss/de.md)** drücken.
+3.  In die 3D-Ansicht klicken, um einen ersten Punkt festzulegen oder die X-, Y- und Z-Koordinaten eingeben.
+4.  In die 3D-Ansicht klicken, um einen zweiten Punkt festzulegen oder die X-, Y- und Z-Koordinaten eingeben.
+5.  Die Eigenschaften des Trägers wie gewünscht anpassen.
+
+
 
 ## Eigenschaften
+
+
 
 ### Daten
 
@@ -66,9 +79,11 @@ Das [Architektur Fachwerkswerkzeug](Arch_Truss/de.md) baut ein [Fachwerk](https:
 
 -    **RodMode**: Wie die Stäbe zu zeichnen sind
 
+
+
 ## Skripten
 
-Das Traversen-Werkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch Verwendung der folgenden Funktion verwendet werden:
+Das Werkzeug Fachwerkträger kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch Verwendung der folgenden Funktion verwendet werden:
 
 
 ```python
@@ -94,5 +109,13 @@ truss.HeightEnd = 400
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/de
+⏵ [documentation index](../README.md) > Arch Truss/de

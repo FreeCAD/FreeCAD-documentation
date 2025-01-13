@@ -1,7 +1,7 @@
 # FEM Mesh/de
 ## Ein Finite-Elemente-Netz erstellen 
 
-Die Finite-Elemente-Analyse (FEA) wird auf einem Polygonnetz durchgeführt, das aus mehreren drei- und vierseitigen finiten Elementen besteht, die einen Originalkörper unterteilen. Je feiner das Netz ist, desto genauer sind die numerischen Ergebnisse, aber desto größer ist auch die Berechnungszeit. Ein Gleichgewicht zwischen der Größe des Netzes, der Berechnungszeit und der Genauigkeit der Ergebnisse ist ein wichtiges Merkmal einer gut definierten Finite-Elemente-Analyse.
+[Finite-Elemente-Analyse (FEA)](https://de.wikipedia.org/wiki/Finite-Elemente-Methode) wird auf ein Netzobjekt angewendet, das aus mehreren dreiseitigen/tetraederartigen, vierseitigen/hexaederartigen oder anderen finiten Elementen besteht, die einen originalen Körper unterteilen. Je feiner das Netz ist, desto genauer sind die numerischen Ergebnisse, aber desto größer ist auch die Berechnungszeit. Ein Gleichgewicht zwischen der Größe des Netzes, der Berechnungszeit und der Genauigkeit der Ergebnisse ist ein wichtiges Merkmal einer gut definierten Finite-Elemente-Analyse.
 
 Es gibt verschiedene Möglichkeiten, ein Polygonnetz im Arbeitsbereich [FEM](FEM_Workbench/de.md) einzurichten:
 
@@ -10,7 +10,7 @@ Es gibt verschiedene Möglichkeiten, ein Polygonnetz im Arbeitsbereich [FEM](FEM
 -   Importieren eines Polygonnetzes aus einem anderen Programm. Insbesondere können Gmsh und Netgen außerhalb von FreeCAD allein verwendet werden, um Volumenkörper wie Step Dateien zu vernetzen.
 -   Manuelle Erstellung des Netzes durch [Python](Python/de.md)-Skripte.
 
-Die Gmsh und Netgen Werkzeuge unterstützen die Vernetzung von Körpern, die mit den Arbeitsbereichen [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md) erstellt wurden, sowie einfache Kopien dieser Körper. Im Allgemeinen kann jeder Arbeitsbereich, der Volumenkörper erzeugt, wie z.B. der Arbeitsbereich [Arch](Arch_Workbench/de.md), als Grundlage für die Erstellung von Polygonnetzen verwendet werden. Beachte, dass sich ein für die FEA verwendetes Netz von einem Netz unterscheidet, das mit dem Arbeitsbereich [Mesh](Mesh_Workbench/de.md) erstellt oder importiert wurde.
+Die Gmsh- und Netgen-Werkzeuge unterstützen die Vernetzung von Körpern, die mit den Arbeitsbereichen [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md) erstellt wurden, sowie einfache Kopien dieser Körper. Im Allgemeinen kann jeder Arbeitsbereich, der Festkörper erzeugt, wie z.B. der Arbeitsbereich [Arch](Arch_Workbench/de.md), als Grundlage für die Erstellung von Netzobjekten verwendet werden. Beachte, dass sich ein für die FEA verwendetes Netz von einem Netz unterscheidet, das mit dem Arbeitsbereich [Mesh](Mesh_Workbench/de.md) erstellt oder importiert wurde.
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 *Der Arbeitsbereich FEM ruft das externe Werkzeug Gmsh auf, um ein Netz aus einem Volumenkörper zu erhalten, der mit einem beliebigen Arbeitsbereich in FreeCAD erstellt wurde; es kann auch ein extern erstelltes Netz importieren*
@@ -22,16 +22,22 @@ Die [Gmsh-](FEM_MeshGmshFromShape/de.md) und [Netgen-Werkzeuge](FEM_MeshNetgenFr
 
 Zuvor war Netgen in FreeCAD enthalten und konnte sofort verwendet werden. Nun sollten sowohl Netgen als auch Gmsh installiert werden, bevor sie vom Arbeitsbereich [FEM](FEM_Workbench/de.md) verwendet werden können. Siehe [FEM Installation](FEM_Install/de.md) für Anleitungen.
 
+
+
 ## Netzerstellungssoftware
 
 Netzerstellungssoftware arbeitet mit Festkörpern, die in verschiedenen Formaten vorliegen können, wie Step und Brep. Diese Programme können unabhängig von FreeCAD verwendet werden und verfügen typischerweise Über viele Optionen zur Steuerung der Vernetzungsalgorithmen, der Elementgröße und der Randbedingungen.
 
 Der Arbeitsbereich [FEM](FEM_Workbench/de.md) hat einfache Kommunikationsoberflächen entwickelt, um Gmsh und Netgen direkt in FreeCAD zu verwenden. Andere Programme haben keine Oberfläche, aber das könnte sich in Zukunft ändern, wenn Interesse in der Gemeinschaft besteht und wenn diese Anwendungen leicht zu integrieren sind. Die Netzerstellungssoftware darf nur dann zusammen mit FreeCAD kompiliert und verteilt werden, wenn ihre Lizenz mit der LGPL2-Lizenz kompatibel ist; andernfalls muss das Programm als externe Binärdatei verwendet werden, wie z.B. Gmsh (GPL2).
 
+
+
 ### Oberfläche in FreeCAD implementiert 
 
 -   Gmsh: [Hauptwebseite](http://gmsh.info/), [Code Repositorium](https://gitlab.onelab.info/gmsh/gmsh)
 -   Netgen: [Hauptwebseite](https://ngsolve.org/), [Code Repositorium](https://github.com/NGSolve/netgen)
+
+
 
 ### Keine Oberfläche in FreeCAD 
 
@@ -40,6 +46,8 @@ Der Arbeitsbereich [FEM](FEM_Workbench/de.md) hat einfache Kommunikationsoberfl�
 -   PythonOCC, [Haupt-Webseite](http://www.pythonocc.org/)
 -   SnappyHexMesh, [Hauptwebseite](https://openfoamwiki.net/index.php/SnappyHexMesh)
 -   Tetgen, [Hauptwebseite](http://wias-berlin.de/software/tetgen/)
+
+
 
 ## Netzelemente in FreeCAD 
 
@@ -594,39 +602,59 @@ but it's not readable or writable by FEniCS</p></td>
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:20px;"> bedeutet, dass die Formatspezifikation diesen Elementtyp nicht unterstützt, so dass FreeCAD ihn nicht unterstützen kann.
 -   \"?\" bedeutet, dass es nicht bekannt ist, ob das Format diesen Elementtyp unterstützt.
 
+
+
 ## FEM Elementtypen 
 
 Mehr Informationen über die Elemente und ihre Datenstruktur in FreeCAD kann in [FEM Elementtypen](FEM_Element_Types/de.md) gefunden werden.
+
+
 
 ### Segmentelement
 
 <img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width:600px;">
 
+
+
 ### Dreieckelement
 
 <img alt="" src=images/FEM_mesh_elements_2_triangle.svg  style="width:600px;">
+
+
 
 ### Viereckelement
 
 <img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width:600px;">
 
+
+
 ### Tetraederelement
 
 <img alt="" src=images/FEM_mesh_elements_4_tetrahedron.svg  style="width:600px;">
+
+
 
 ### Hexaederelement
 
 <img alt="" src=images/FEM_mesh_elements_5_hexahedron.svg  style="width:600px;">
 
+
+
 ### Pentaederelement (Prisma) 
 
 <img alt="" src=images/FEM_mesh_elements_6_pentahedron.svg  style="width:600px;">
+
+
 
 ### Pyramidenelement
 
 <img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width:600px;">
 
+
+
 ## Skripten
+
+
 
 ### Ein FEM-Netz komplett in Python erstellen 
 
@@ -646,6 +674,8 @@ App.ActiveDocument.Mesh_object.TypeId = Fem::FemMeshObject
                               .
                               .FemMesh.TypeId = Fem::FemMesh
 ```
+
+
 
 #### Erstellen eines Netzes mit einem Tet-10 Element 
 
@@ -698,6 +728,8 @@ obj_2.Placement.Base = FreeCAD.Vector(2, 0, 0)
 obj_2.FemMesh = a
 ```
 
+
+
 #### Visuelle Eigenschaften 
 
 Sobald ein FemMesh Objekt mit `Fem.show()` erstellt wurde, können einige seiner visuellen Eigenschaften durch Ändern der verschiedenen Attribute seines `ViewObject` geändert werden. Dies kann nützlich sein, um das Netz nach einer Finite Elemente Lösung nachzubearbeiten.
@@ -740,7 +772,11 @@ Double the factor of the displacement shown. (**Note to editors: removed in newe
 obj.ViewObject.animate(2.0)
 ```
 
+
+
 ## Skripten Beispiele für jeden unterstützten Elementtyp 
+
+
 
 ### Träger, 2 Knoten Linie, seg2 (linear) 
 
@@ -759,6 +795,8 @@ obj.FemMesh = seg2
 obj.Placement.Base = FreeCAD.Vector(0, 110, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
+
+
 
 ### Träger, 3 Knoten Linie, seg3 (quadratisch) 
 

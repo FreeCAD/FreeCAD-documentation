@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch MergeWalls
    Name/fr: Arch Fusionner des murs
-   MenuLocation: Arch , Utilitaires , Fusionner des murs
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: Utilitaires , Fusionner des murs
+   Workbenches: BIM_Workbench/fr
    SeeAlso: Arch_Wall/fr
 ---
 
@@ -11,20 +11,23 @@
 
 ## Description
 
-L\'outil [Fusionner des Murs](Arch_MergeWalls/fr.md) fusionne deux ou plusieurs **<img src="images/Arch_Wall.svg" width=16px>[Arch Murs](Arch_Wall/fr.md)** sélectionnés.
+L\'outil **Arch Fusionner des murs** fusionne plusieurs [Arch Murs](Arch_Wall/fr.md).
 
 
 
 ## Utilisation
 
-1.  Sélectionnez deux ou plusieurs murs.
-2.  Appuyez sur le bouton **<img src="images/Arch_MergeWalls.svg" width=16px>** ou utilisez le **Arch** → **Utilitaires** → **<img src="images/Arch_MergeWalls.svg" width=16px> [Fusionner des murs](Arch_MergeWalls/fr.md)** dans le menu supérieur.
+1.  Faites l\'une des choses suivantes :
+    -   Sélectionnez un seul mur avec un ou plusieurs [ajouts](Arch_Add/fr.md) qui sont également des murs.
+    -   Sélectionnez deux murs ou plus.
+2.  Dans les deux cas, les murs doivent avoir les mêmes propriétés **Height**, **Width** et **Align**.
+3.  Sélectionnez l\'option **Utilitaires → <img src="images/Arch_MergeWalls.svg" width=16px> Fusionner des murs** du menu.
 
 
 
-## Propriétés
+## Remarques
 
-## Limitations
+-   [Arch Ajouter](Arch_Add/fr.md) peut fusionner des murs même s\'ils ont des hauteurs, des largeurs et des alignements différents.
 
 
 
@@ -35,12 +38,16 @@ L\'outil [Fusionner des Murs](Arch_MergeWalls/fr.md) fusionne deux ou plusieurs 
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Cet outil peut être utilisé dans une [macro](Macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction : 
+Cet outil peut être utilisé dans une [macro](Macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction :
+
+
 ```python
 base = joinWalls(walls, delete=False)
 ```
 
-Exemple : 
+Exemple :
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -58,5 +65,13 @@ base = Arch.joinWalls([Wall1, Wall2])
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/fr
+⏵ [documentation index](../README.md) > Arch MergeWalls/fr

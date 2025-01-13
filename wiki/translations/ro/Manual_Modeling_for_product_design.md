@@ -10,15 +10,45 @@
 
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 [Product design](https://en.wikipedia.org/wiki/Product_design) este inițial un termen comercial, dar în lumea 3D, adesea înseamnă a modela ceva cu ideea de a o avea [3D-printed](https://en.wikipedia.org/wiki/3D_printing) sau, în general, fabricate de o mașină unealtă, de exemplu o imprimantă 3D sau o [CNC machine](https://en.wikipedia.org/wiki/Numerical_control).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Când tipăriți obiecte în 3D, este foarte important ca obiectele dvs. să fie**solid**. As they will become real, obiecte solide, asta este evident. Nimic nu le împiedică să fie goale în interior, bineînțeles. Dar trebuie să aveți întotdeauna o idee clară despre care punct este în interiorul materialului și care este punctul afară, deoarece imprimanta 3D sau mașina CNC trebuie să știe exact ce este material de umplutură și ce nu. Pentru acest motiv, in FreeCAD, Atelierul [PartDesign Workbench](PartDesign_Workbench.md) are instrumentul perfect pentru a construi astfel de piese, deoarece se va avea grijă ca obiectele să fie solide și construibile.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Pentru a ilustra cum Atelierul PartDesign funcționează, aideți să modelăm această bine cunoscută piesă [Lego](https://en.wikipedia.org/wiki/Lego):
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ![](images/Exercise_lego_01.jpg )
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Partea cool la ​​piesele Lego este că dimensiunile sunt ușor de obținut pe Internet, cel puțin pentru piesele standard. Acestea sunt destul de ușor de modelat și tipărite pe o imprimantă 3D și, cu puțină răbdare (tipărirea 3D necesită adesea multe ajustări și reglaj fin), puteți face piese care sunt complet compatibile și se îmbină cu un click caracteristic perfect în blocurile originale Lego. În exemplul de mai jos, vom face o piesă care este de 1,5 ori mai mare decât originalul.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -28,7 +58,15 @@ Vom folosi acum exclusiv instrumentele: [Sketcher](Sketcher_Workbench.md) și [P
 
 </div>
 
+A sketch is considered fully constrained when every point is locked into position by the appropriate number of constraints, meaning no part of the sketch can be moved freely. Achieving a fully constrained sketch is ideal because it ensures the design is well-defined and stable, allowing for predictable changes later in the design process. On the other hand, if more constraints are added than necessary---referred to as an over-constrained sketch---this can cause conflicts in the geometry. FreeCAD will alert you to any redundant or conflicting constraints, as over-constraining can cause issues in further operations like extrusions or cuts.
+
+
+<div class="mw-translate-fuzzy">
+
 Obiectele Part Design sunt bazate în întregime pe **Sketches**. O schiță(Sketch) este un obiect 2D, format din elemente lineare (linii, sau segmente de dreaptă, arce de cerc sau elipse) și constrângeri. Aceste constrângeri pot fi aplicate fie pe segmente de dreaptă, fie pe punctele lor finale sau puncte centrale, și vor forța geometria să adopte anumite reguli. De exemplu, puteți plasa o constrângere verticală pe un segment de linie pentru ao forța să rămână verticală sau o constrângere de poziție (blocare) pentru un punct extrem pentru a interzice mutarea acestuia. Atunci când o schiță are o cantitate exactă de constrângeri care interzic mișcarea oricărui punct al schiței, vorbim despre o schiță complet constrânsă. Când există constrângeri redundante, care ar putea fi eliminate fără a permite mutarea geometriei, se numește supra-constrânsă. Acest lucru ar trebui evitat, iar FreeCAD vă va notifica dacă apare un astfel de caz.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -50,7 +88,13 @@ Schițele dispun de un mod de editare, unde geometria lor și constrângerile lo
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_lego_02.jpg )
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -63,9 +107,13 @@ Schițele dispun de un mod de editare, unde geometria lor și constrângerile lo
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_lego_03.jpg )
 
-Notați că ultima constrângere punct-la-punct nu a fost absolut necesară. Nu sunteți niciodată forțați să lucrați cu schițe complet constrânse. Cu toate acestea, dacă vom imprima acest bloc în 3D, va fi necesar să ne menținem piesa aproape de punctul de origine (care va fi centrul spațiului în care capul imprimantei se poate deplasa). Prin adăugarea acestei constrângeri, ne asigurăm că piesa noastră va rămâne întotdeauna \"ancorată\" la acel punct de origine.
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -76,9 +124,21 @@ Notați că ultima constrângere punct-la-punct nu a fost absolut necesară. Nu 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_lego_04.jpg )
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 The **Pad** behaves very much like the [Extrude](Part_Extrude.md) tool that we used in the previous chapter. There are a couple of differences, though, the main one being that a pad cannot be moved. It is attached forever to its sketch. If you want to change the position of the pad, you must move the base sketch. In the current context, where we want to be sure nothing will move out of position, this is an additional security.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -90,7 +150,13 @@ The **Pad** behaves very much like the [Extrude](Part_Extrude.md) tool that we u
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_lego_05.jpg )
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -100,7 +166,13 @@ The **Pad** behaves very much like the [Extrude](Part_Extrude.md) tool that we u
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_lego_06.jpg )
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -122,7 +194,13 @@ You will notice that only edges from the base face can be added by this tool. Wh
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_lego_07.jpg )
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -132,7 +210,13 @@ You will notice that only edges from the base face can be added by this tool. Wh
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_lego_08.jpg )
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -148,7 +232,13 @@ You will notice that only edges from the base face can be added by this tool. Wh
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_lego_09.jpg )
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -159,54 +249,35 @@ You will notice that only edges from the base face can be added by this tool. Wh
 
 </div>
 
+-   By choosing the completed sketch use the <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [Pocket](PartDesign_Pocket.md) tool setting the length to 12 mm.
+
+![](images/FreeCAD_Exercise1_BottomPad.png )
+
+-   This is it. Our brick is ready. If you wish to change its color, you can do so by going to the **View tab**.
+
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_lego_10.jpg )
 
 
-<div class="mw-translate-fuzzy">
-
--   Notice that, as earlier with the pocket, since we used the top face of our base block as a base for this latest sketch, any PartDesign operation we do with this sketch will correctly be built on top of the base shape: The two dots are not independent objects, they have been extruded directly from our brick. This is the great advantage of working with the Part Design Workbench, as long as you take care of always building one step on top of the previous one, you are actually building one final solid object.
--   We can now duplicate our two dots four times, so we get eight. Select the latest Pad we just created.
--   Press the <img alt="" src=images/PartDesign_LinearPattern.png  style="width:16px;"> [Linear pattern](PartDesign_LinearPattern.md) button.
--   Give it a length of 36mm (which is the total \"span\" we want our copies to fit in), in the \"horizontal sketch axis\" direction, and make it 4 occurrences:
-
-
 </div>
-
-![](images/Exercise_lego_11.jpg )
-
--   Once again, see that this is not just a duplication of an object, it is a \*feature\* of our shape that has been duplicated, the final object is still only one solid object.
--   Now let\'s work on the three \"tubes\" that fill the void we created on the bottom face. We have several possibilities: create a sketch with three circles, pad it then pocket it three times, or create a base sketch with one circle inside the other and pad it to form the complete tube already, or even other combinations. Like always in FreeCAD, there are many ways to achieve the same result. Sometimes one way will not work the way we want, and we must try other ways. Here, we will take the safest approach, and do things one step at a time.
--   Select the face that is at the bottom of the hollow space we carved earlier inside the block.
--   Create a new sketch, add a circle with a radius of 4.8825mm, import the left border of the face, and constrain it vertically and horizontally at 10.2mm from the upper corner of the face:
-
-![](images/Exercise_lego_12.jpg )
-
-If you have trouble to select features hiding part of the model can help. To hide a feature select it from tree view and press Space-key to toggle visibility.
-
--   Leave edit mode, and pad this sketch with a distance of 12.6mm
--   Create a linear pattern from this last pad, give it a length of 24mm and 3 occurrences. We now have three filled tubes filling the hollow space:
-
-![](images/Exercise_lego_13.jpg )
 
 
 <div class="mw-translate-fuzzy">
-
--   Now let\'s make the final holes. Select the circular face of the first of our three \"pins\"
--   Create a new sketch, import the circular border of our face, create a circle with a radius constraint of 3.6mm, and add a <img alt="" src=images/Constraint_PointOnPoint.png  style="width:16px;"> [Coincident Constraint](Sketcher_ConstrainCoincident.md) between the center of the imported circle and our new circle. We now have a perfectly centered circle,and once again fully constrained:
-
-
-</div>
-
-![](images/Exercise_lego_14.jpg )
-
--   Leave edit mode, and create a pocket from this sketch, with a length of 12.6mm
--   Create a linear pattern from this pocket, with a length of 24mm and 3 occurrences. That\'s the last step, our piece of lego is now complete, so we can give it a nice color to mark our victory!
-
-![](images/Exercise_lego_15.jpg )
 
 You will notice that our modeling history (what appears in the tree view) has become quite long. This is precious because every single step of what we did can be changed later on. Adapting this model for another kind of brick, for example one with 2x2 dots, instead of 2x4, would be a piece of cake, we would just need to change a couple of dimensions and the number of occurrences in linear patterns. We could as easily create bigger pieces that don\'t exist in the original Lego game.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 But we could also want to get rid of the history, for example if we are going to model a castle with this brick, and we don\'t want to have this whole history repeated 500 times in our file.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -215,27 +286,6 @@ There are two simple ways to get rid of the history, one is using the [Create si
 
 
 </div>
-
-**Assembling**
-
-
-<div class="mw-translate-fuzzy">
-
-Dar cea mai bună lume dintre cele două există, și este un addon [Assembly2 Workbench](https://github.com/hamish2014/FreeCAD_assembly2), care pote fi instalat de la depozitul [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons). Acest Atelier/Workbench este numit \"2\" deoarece există, de asemenea, un Atelier Assembly integrat în construcție, care nu este încă pregătit. Workbench Assembly2, cu toate acestea, funcționează deja foarte bine pentru a construi ansambluri și, de asemenea, prezintă o serie de constrângeri obiect-obiect pe care le puteți folosi pentru a restrânge poziția unui obiect în raport cu altul. În exemplul de mai jos, cu toate acestea, va fi mai rapid și mai ușor să poziționați piesele folosind <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Draft Move](Draft_Move.md) și <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Draft Rotate](Draft_Rotate.md) decât utlizând constrângerile Assembly2.
-
-
-</div>
-
--   Salvați fișierul așa cum este acum
--   Instalați [Assembly2 Workbench](https://github.com/hamish2014/FreeCAD_assembly2) și restartați FreeCAD
--   Creați un nou document vid
--   Comutați pe Atelierul Assembly2 workbench
--   Apăsați butonul **Import a part from another FreeCAD document**
--   Selectați fișierul salvat de mai sus
--   Piesa finală va fi importată în documentul curent. Atelierul Assembly2 workbench va determina în mod automat care este piesa finală din fișierul nostru care trebuie utilizată și obiectul nou rămâne legat de fișier. Dacă ne întoarcem și modificăm conținutul primului fișier, putem apăsa butonul **Update parts imported into the assembly** pentru a actualiza piesele aici.
--   Utilizând butonul **Import a part from another FreeCAD document** de câteva ori, mutând și rotind piesa (cu instrumentele atelierului Draft sau prin manipularea proprietății de Placement), putem crea rapid o ansamblu mic:
-
-![](images/Exercise_lego_16.jpg )
 
 **Downloads**
 

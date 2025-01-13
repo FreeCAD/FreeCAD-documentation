@@ -25,7 +25,7 @@ Der **Std DlgMacroRecord** Befehl startet eine [Makro](Macros/de.md) Aufnahmesit
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Std_DlgMacroRecord.svg" width=16px> [Makro aufzeichnen...](Std_DlgMacroRecord/de.md)** drücken.
     -   Den Menüeintrag **Makro → <img src="images/Std_DlgMacroRecord.svg" width=16px> Makro aufzeichnen...** auswählen.
-2.  Das Dialogfeld Makroaufzeichnung wird geöffnet.
+2.  Das Dialogfeld **Makroaufzeichnung** wird geöffnet.
 3.  Im Eingabefeld **Makroname** einen Namen für das Makro eingeben.
 4.  Wahlweise den **Makro-Zielpfad** durch drücken der Schaltfläche **...** anpassen.
 5.  Die **Stop**-Taste funktioniert zu diesem Zeitpunkt nicht.
@@ -33,8 +33,8 @@ Der **Std DlgMacroRecord** Befehl startet eine [Makro](Macros/de.md) Aufnahmesit
 7.  Das Schaltflächensymbol des Befehls ändert sich zu **<img src="images/Std_MacroStopRecord.svg" width=16px>** und der Menütext ändert sich zu **Stop macro recording**.
 8.  Die Aktionen ausführen, die aufgezeichnet werden sollen.
 9.  Um die Aufnahmesitzung zu beenden, gibt es folgenden Möglichkeiten:
-    -   Die Schaltfläche **<img src="images/Std_MacroStopRecord.svg" width=16px> [Stop macro recording](Std_DlgMacroRecord/de.md)** drücken.
-    -   Den Menüeintrag **Makro → <img src="images/Std_MacroStopRecord.svg" width=16px> Makroaufzeichnung stoppen** auswählen.
+    -   Die Schaltfläche **<img src="images/Std_MacroStopRecord.svg" width=16px> [Makroaufzeichnung beenden](Std_DlgMacroRecord/de.md)** drücken.
+    -   Den Menüeintrag **Makro → <img src="images/Std_MacroStopRecord.svg" width=16px> Makroaufzeichnung beenden** auswählen.
 
 
 
@@ -46,23 +46,25 @@ Der **Std DlgMacroRecord** Befehl startet eine [Makro](Macros/de.md) Aufnahmesit
 
 ## Hinweise
 
--   Um das aufgezeichnete Makro auszuführen, verwende den Befehl [Std DlgMakroAusführen](Std_DlgMacroExecute/de.md).
--   Weitere Informationen über Makros findest du auf der [Makros](Macros/de.md) Seite.
+-   Um das aufgezeichnete Makro auszuführen, wird der Befehl [Std DlgMakroAusführen](Std_DlgMacroExecute/de.md) verwendet.
+-   Weitere Informationen über Makros findet man auf der Seite [Makros](Macros/de.md).
 
 
 
 ## Einstellungen
 
--   Der Makropfad kann auch in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Python → Makro → Makropfad**. Siehe [Einstellungseditor](Preferences_Editor/de#Makro.md).
--   In den meisten Fällen ist es unerwünscht, Aktionen aufzuzeichnen, die das Modell nicht ändern: unter **Bearbeiten → Einstellungen... → Allgemein → Makro → GUI Befehle** eine der folgenden Möglichkeiten ausführen:
-    -   Um diese Aktionen auszuschließen, das Kontrollkästchen {{CheckBox|FALSE|GUI Befehle aufzeichnen}} deaktivieren.
-    -   Um sie nur als Kommentar einzufügen, die beiden Kontrollkästchen {{CheckBox|TRUE|GUI Befehle aufzeichnen}} und {{CheckBox|TRUE|Aufzeichnen als Kommentar}} markieren.
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Der Makropfad kann auch in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Python → Makro → Makro-Zielpfad**.
+-   In den meisten Fällen ist es unerwünscht, Aktionen aufzuzeichnen, die das Modell nicht ändern: unter **Bearbeiten → Einstellungen... → Python → Makro → GUI-Befehle** eine der folgenden Möglichkeiten ausführen:
+    -   Um diese Aktionen auszuschließen, das Kontrollkästchen **GUI-Befehle aufzeichnen** deaktivieren.
+    -   Um sie nur als Kommentar einzufügen, die beiden Kontrollkästchen **GUI-Befehle aufzeichnen** und **Aufzeichnung als Kommentar** markieren.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

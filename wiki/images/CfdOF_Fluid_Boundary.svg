@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   id="svg2869"
+   version="1.1"
+   viewBox="0 0 64 64"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2871">
+    <linearGradient
+       id="linearGradient5">
+      <stop
+         style="stop-color:#ef2929;stop-opacity:1;"
+         offset="0"
+         id="stop19" />
+      <stop
+         style="stop-color:#ef2929;stop-opacity:0;"
+         offset="1"
+         id="stop20" />
+    </linearGradient>
+    <linearGradient
+       id="swatch18">
+      <stop
+         style="stop-color:#ef2929;stop-opacity:1;"
+         offset="0"
+         id="stop18" />
+    </linearGradient>
+    <linearGradient
+       id="swatch15">
+      <stop
+         style="stop-color:#3d0000;stop-opacity:1;"
+         offset="0"
+         id="stop15" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5-1">
+      <stop
+         style="stop-color:#ef2929;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+      <stop
+         style="stop-color:#ef2929;stop-opacity:0;"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3836-9">
+      <stop
+         style="stop-color:#a40000;stop-opacity:1"
+         offset="0"
+         id="stop3838-8" />
+      <stop
+         style="stop-color:#ef2929;stop-opacity:1"
+         offset="1"
+         id="stop3840-1" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata2874">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>[maxwxyz]</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:relation>https://www.freecad.org/wiki/index.php?title=Artwork</dc:relation>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>FreeCAD</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>FreeCAD/src/</dc:identifier>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>FreeCAD LGPL2+</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date>2024</dc:date>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer3"
+     style="display:inline">
+    <path
+       id="path8085"
+       d="m 26.761016,58.130421 0.0027,-4.578702 c 0.0027,-4.893364 0.13346,-7.584017 0.422591,-8.698689 0.544377,-2.098692 1.574516,-4.049176 3.726546,-4.069514 h 30.08683 V 58.130421 Z M 3.0386043,45.092907 C 2.2586116,40.065294 6.4918157,28.008831 19.578205,28.754745 l 0.133552,-5.060711 10.445233,8.391004 -10.717834,7.162502 0.0655,-5.091924 C 10.714591,32.579328 6.2760861,38.127561 3.0386043,45.092907 Z M 32.09749,23.209019 c -2.796381,-0.319166 -4.273171,-1.601597 -4.911382,-4.062038 -0.288859,-1.113604 -0.419849,-3.804183 -0.422595,-8.680153 l -0.0027,-4.5972481 h 34.23887 V 23.209019 H 32.097276 Z"
+       style="display:inline;fill:#393939;stroke:#eeeeec;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none" />
+    <path
+       id="path100"
+       d="m 26.761016,58.130421 0.0027,-4.578702 c 0.0027,-4.893364 0.13346,-7.584017 0.422591,-8.698689 0.544377,-2.098692 1.574516,-4.049176 3.726546,-4.069514 h 30.08683 V 58.130421 Z M 3.0386043,45.092907 C 1.9379318,40.709154 6.4918159,28.008831 19.578205,28.754745 l 0.133552,-5.060711 10.445233,8.391004 -10.717834,7.162502 0.0655,-5.091924 C 10.709773,32.575854 6.272291,38.108582 3.0386591,45.092897 Z M 32.09749,23.209019 c -2.796381,-0.319166 -4.273171,-1.601597 -4.911382,-4.062038 -0.288859,-1.113604 -0.419849,-3.804183 -0.422595,-8.680153 l -0.0027,-4.5972481 h 34.23887 V 23.209019 l -28.902407,0 z"
+       style="display:inline;fill:#393939;stroke-width:0.267659;stroke-linecap:round;stroke-linejoin:round" />
+  </g>
+</svg>

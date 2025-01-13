@@ -24,6 +24,9 @@
     -   [使用工作台](Workbenches/zh-cn.md)
     -   [导入和导出到其它文件类型](Import_Export/zh-cn.md)
 
+
+<div class="mw-translate-fuzzy">
+
 -   [工作区](Workbenches/zh-cn.md)
 
 -   -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [标准工具和命令](Std_Base/zh-cn.md)
@@ -47,6 +50,9 @@
     -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [The Test Framework Workbench](Testing.md)
     -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [网页工作台](Web_Workbench/zh-cn.md)
     -   [外部扩展工作台](External_workbenches/zh-cn.md)
+
+
+</div>
 
 -   [FreeCAD 命令清单](List_of_Commands/zh-cn.md)
 
@@ -83,7 +89,7 @@
 <div class="mw-translate-fuzzy">
 
 -   开发
-    -   [许可证](Licence.md)
+    -   [许可证](License.md)
     -   Compiling FreeCAD (编译 FreeCAD)
         -   [在 Windows 上编译](Compile_on_Windows.md)
         -   [在 Linux 上编译](Compile_on_Linux.md)

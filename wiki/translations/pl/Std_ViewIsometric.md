@@ -34,26 +34,23 @@ Polecenie **Widok izometryczny** zmienia ustawienie ujęcia widoku w aktywnym ok
 
 ## Tworzenie skryptów 
 
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby zmienić widok na widok *izometryczny*, należy użyć metody `viewIsometric` obiektu ActiveView. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
+Aby zmienić widok na widok *izometryczny*, należy użyć metody `viewIsometric` obiektu View. Dostępne są też metody `viewDimetric` i `viewTrimetric`.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.viewIsometric()
-FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.viewIsometric()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

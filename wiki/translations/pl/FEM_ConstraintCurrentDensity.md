@@ -1,11 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ConstraintCurrentDensity
    Name/pl: MES: Warunek brzegowy gęstości prądu
    MenuLocation: Model , Warunki brzegowe elektromagnetyczne , Warunek brzegowy gęstości prądu
    Workbenches: FEM_Workbench/pl
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic/pl, FEM_EquationMagnetodynamic2D/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintCurrentDensity/pl
@@ -21,8 +26,8 @@ Tworzy warunek brzegowy MES gęstości prądu. Używane z równaniami [magnetody
 ## Użycie
 
 1.  Wciśnij przycisk **<img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> [Warunek brzegowy gęstości prądu](FEM_ConstraintCurrentDensity/pl.md)** lub wybierz opcję **Model → Warunki brzegowe elektromagnetyczne → <img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> Warunek brzegowy gęstości prądu** z menu.
-2.  W [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego chcesz przypisać warunek brzegowy.
-3.  Wciśnij przycisk **Dodaj**.
+2.  Wciśnij przycisk **Dodaj**.
+3.  W [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego chcesz przypisać warunek brzegowy.
 
 
 

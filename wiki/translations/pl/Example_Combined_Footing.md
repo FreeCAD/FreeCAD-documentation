@@ -1,11 +1,11 @@
 ---
- TutorialInfo:
-   Topic: Example Combined Footing
-   Level: Intermediate
-   Time: 
+ TutorialInfo:l
+   Topic: Przykład połączonej stopy
+   Level: Średnio zaawansowany
+   Time: dowolny
    Author: Shiv Charan
    FCVersion: 0.20
-   Files: 
+   Files: nie dołączono
 ---
 
 # Example Combined Footing/pl
@@ -14,58 +14,70 @@
 
 
 
-## Description
 
-The [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md) tool allows the user to create reinforcing bars inside a Footing [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+## Opis
 
-In this example we will create Combined Footing Reinforcement as shown in below figure.
+Narzędzie <img alt="" src=images/Reinforcement_FootingRebars.svg  style="width:24px;"> [Zbrojenie stóp fundamentowych](Reinforcement_FootingRebars/pl.md) pozwala użytkownikowi na tworzenie prętów zbrojeniowych wewnątrz obiektu [konstrukcji](Arch_Structure/pl.md) stopy.
+
+To narzędzie jest częścią [zewnętrznego środowiska pracy](External_workbenches/pl.md) [Zbrojenie](Reinforcement_Workbench/pl.md), które można zainstalować za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md).
+
+W tym przykładzie utworzymy połączone zbrojenie stopy fundamentowej, jak pokazano na poniższym rysunku.
 
 ![](images/Combined_Footing_reinforcement.png ) 
-*A Example of Combined Footing reinforcement in Footing [Arch Structure](Arch_Structure.md)*
+*Przykład połączonego zbrojenia stopy fundamentowej w przekroju [konstrukcji](Arch_Structure/pl.md).*
 
 ![](images/Side_view_of_combined_footing_of_footing_reinforcement.png ) 
-*Right view of given Footing Reinforcement example*
+*Prawy widok przykładu zbrojenia stopy fundamentowej.*
 
 ![](images/Combined_footing_front_view_.png ) 
-*Front view of given Footing Reinforcement example*
+*Widok z przodu przykładu zbrojenia stopy.*
 
-## Usage
 
-1\. Select vertical face of a previously created Footing **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object. as shown in below image.
 
-![](images/FootingSelectedFace.png ) 
-*Selected face for Footing Arch Structure*
+## Użycie
 
-2\. Then select **[Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md)** from the rebar tools.
+1\. Wybierz pionową ścianę uprzednio utworzonej **<img src="images/Arch_Structure.svg" width=16px> [konstrukcji](Arch_Structure.md)** obiektu jak pokazano na poniższym obrazku.
 
-3\. A footing reinforcement dialog box will pop-out on screen as shown below.
+:   ![](images/FootingSelectedFace.png )
 
-![](images/Footing_Reinforcement_GUI_.png ) 
-*Dialog Box for the Footing Reinforcement*
+:   
+    
+*Wybrana ściana dla konstrukcji stopy.*
+    
 
-4\. Select the desired rebar type and other input data for rebars in parallel direction of selected face in footing reinforcement mesh as show in below image.
+2\. Następnie wybierz **<img src="images/Reinforcement_FootingRebars.svg" width=16px> [Zbrojenie stopy](Reinforcement_FootingRebars/pl.md)** z narzędzi prętów zbrojeniowych.
 
-5\. Now click on Next button or select Cross Rebars in list view and desired data for input data for rebars in cross direction of selected face in footing reinforcement mesh as show in below image.
+3\. Na ekranie pojawi się okno dialogowe Zbrojenie ławy fundamentowej, jak pokazano poniżej.
 
-6\. click next or click on Columns in list view and fill desired input for columns in footing reinforcement. Here you can select to add secondary rebars in columns or not.
+:   ![](images/Footing_Reinforcement_GUI_.png )
 
-7\. click next or click on Ties in list view and fill desired input for Ties in columns of footing reinforcement.
+:   
+    
+*Okno dialogowe dla zbrojenia ławy fundamentowej.*
+    
 
-8\. click next or click on Main rebars in list view and fill desired input for main rebars in columns of footing reinforcement.
+4\. Wybierz żądany typ prętów oraz inne dane wejściowe dla prętów w kierunku równoległym do wybranej ściany w siatce zbrojenia ławy fundamentowej, jak pokazano na poniższym rysunku.
 
-Only if secondary rebars check is enable then:
+5\. Teraz kliknij na przycisk Dalej lub wybierz Poprzeczne pręty zbrojeniowe z listy i wypełnij żądane dane wejściowe dla prętów zbrojeniowych w kierunku poprzecznym wybranej ściany w siatce zbrojenia stopy, jak pokazano na poniższym rysunku.
 
-9\. click next or click on XDir Secondary rebar in list view and fill desired input for secondary rebars in X direction in a column in footing reinforcement.
+6\. Kliknij przycisk Dalej lub kliknij opcję Słupy w widoku listy i wprowadź żądane dane wejściowe dla słupów w zbrojeniu stopy fundamentowej. Tutaj możesz wybrać, czy chcesz dodać dodatkowe pręty zbrojeniowe w słupach, czy nie.
 
-10\. click next or click on YDir Secondary rebar in list view and fill desired input for secondary rebars in Y direction in a column in footing reinforcement.
+7\. Kliknij Dalej lub kliknij na Ściągi w widoku listy i wpisz żądane dane dla Ściągów w słupach zbrojenia stopy fundamentowej.
 
-11\. Click **OK** or **Apply** or **Finish** to generate Footing reinforcement.
+8\. Kliknij Dalej lub kliknij na Pręty zbrojeniowe główne w widoku listy i wpisz żądane dane dla prętów zbrojeniowych głównych w słupach zbrojenia stopy fundamentowej.
 
-12\. Click **Cancel** to exit the dialog box.
+Tylko jeśli kontrola drugorzędnych prętów zbrojeniowych jest włączona:
+
+9\. Kliknij Dalej lub kliknij na XDir Pręty zbrojeniowe pomocnicze w widoku listy i wpisz żądane dane dla prętów zbrojeniowych pomocniczych w kierunku X w kolumnie w zbrojeniu stopy fundamentowej.
+
+10\. Kliknij przycisk Dalej lub kliknij na YDir Pręty zbrojeniowe pomocnicze w widoku listy i wpisz żądane dane dla prętów zbrojeniowych pomocniczych w kierunku Y w kolumnie w zbrojeniu stopy fundamentowej.
+
+11\. Kliknij **OK** lub **Zastosuj** lub **Zakończ**, aby wygenerować wzmocnienie stopy.
+
+12\. Kliknij **Anuluj**, aby zamknąć okno dialogowe.
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Example Combined Footing/pl
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Reinforcement](Category_Reinforcement.md) > Example Combined Footing/pl

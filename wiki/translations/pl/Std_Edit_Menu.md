@@ -45,7 +45,7 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_Paste.svg  style="width:32px;"> [Wklej](Std_Paste/pl.md): Wkleja zawartość schowka do bieżącego dokumentu.
 
--   <img alt="" src=images/Std_DuplicateSelection.svg  style="width:32px;"> [Powiel zaznaczone](Std_DuplicateSelection/pl.md): Powiela obiekty w dokumencie.
+-   <img alt="" src=images/Std_DuplicateSelection.svg  style="width:32px;"> [Powiel zaznaczone](Std_DuplicateSelection/pl.md): Powiela obiekty w dokumencie. **-- Jeśli środowisko pracy [Projekt Części](PartDesign_Workbench/pl.md) jest aktywne, zamiast niego pojawi się narzędzie [Powiel zaznaczenie](PartDesign_DuplicateSelection/pl.md) ''({{Version/pl|1.0**)''.}}
 
 -   <img alt="" src=images/Std_Refresh.svg  style="width:32px;"> [Odświerz](Std_Refresh/pl.md): Przelicza dokument.
 
@@ -67,6 +67,8 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [Przełącz tryb edycji](Std_Edit/pl.md): Włącza lub wyłącza tryb edycji dla wybranych obiektów.
 
+-   <img alt="" src=images/Std_Properties.svg  style="width:32px;"> [Właściwości](Std_Properties/pl.md): Wyświetla [Panel widoku właściwości](Property_editor/pl.md). {{Version/pl|1.0}}
+
 -   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> [Tryb edycji](Std_UserEditMode/pl.md): Określa tryb edycji, który będzie używany, gdy obiekt zostanie dwukrotnie kliknięty w [Widoku drzewa](Tree_view/pl.md). {{Version/pl|0.20}}
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferencje](Std_DlgPreferences/pl.md): Otwiera okno [Edytor Preferencji](Preferences_Editor/pl.md). 
@@ -76,7 +78,7 @@ W tym menu dostępne są następujące narzędzia:
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

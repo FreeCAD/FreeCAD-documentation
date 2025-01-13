@@ -1,5 +1,5 @@
 # Part scripting/de
-## Einführung
+## Einleitung
 
 Die im Modul Part verwendete Hauptdatenstruktur ist der Datentyp [BRep](http://en.wikipedia.org/wiki/Boundary_representation) von [OpenCASCADE](OpenCASCADE/de.md). Fast alle Inhalte und Objekttypen des Part Moduls stehen dem [Python](Python/de.md)-Skripten zur Verfügung. Dazu gehören geometrische Primitive wie Linien, Kreise, Bögen und die gesamte Palette der TopoFormen, wie Knoten, Kanten, Drähte, Flächen, Volumenkörper und Verbünde. Für jedes dieser Objekte gibt es mehrere Erstellungsmethoden, und für einige von ihnen, insbesondere die TopoFormen, sind auch fortgeschrittene Operationen wie Boolesche Vereinigung/Differenz/Überschneidung verfügbar. Entdecke den Inhalt des Moduls Part, wie auf der Seite [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) beschrieben, um mehr zu erfahren.
 

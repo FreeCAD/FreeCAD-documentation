@@ -29,12 +29,12 @@ Pour en savoir plus sur les graphiques de linéarisation des critères, vous pou
     -   Principal majeur,
     -   Principal intermédiaire,
     -   Principal mineur,
-    -   Composante XX du critère, {{Version/fr|0.22}}
-    -   Composante XY du critère, {{Version/fr|0.22}}
-    -   Composante XZ du critère, {{Version/fr|0.22}}
-    -   Composante YY du critère, {{Version/fr|0.22}}
-    -   Composante YZ du critère, {{Version/fr|0.22}}
-    -   Composante ZZ du critère, {{Version/fr|0.22}}
+    -   Composante XX du critère, {{Version/fr|1.0}}
+    -   Composante XY du critère, {{Version/fr|1.0}}
+    -   Composante XZ du critère, {{Version/fr|1.0}}
+    -   Composante YY du critère, {{Version/fr|1.0}}
+    -   Composante YZ du critère, {{Version/fr|1.0}}
+    -   Composante ZZ du critère, {{Version/fr|1.0}}
 2.  Lancer la commande soit :
     -   En appuyant sur le bouton **<img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> '''Graphique de linéarisation des critères'''**.
     -   En utilisant le menu **Résultats → <img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> Graphique de linéarisation des critères**.

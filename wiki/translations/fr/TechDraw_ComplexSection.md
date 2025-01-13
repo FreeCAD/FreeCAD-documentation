@@ -5,7 +5,7 @@
    MenuLocation: TechDraw , Vues de Techdraw , Insérer une vue en coupe complexe
    Workbenches: TechDraw_Workbench/fr
    Version: 0.21
-   SeeAlso: TechDraw_SectionView/fr, TechDraw_View/fr, TechDraw_ProjectionGroup/fr
+   SeeAlso: TechDraw_SectionView/fr, TechDraw_View/fr
 ---
 
 # TechDraw ComplexSection/fr
@@ -37,9 +37,9 @@ L\'outil **TechDraw Vue en coupe complexe** insère une vue en coupe transversal
 
 
 
-## Propriétés Vue en coupe complexe 
+## Propriétés
 
-Voir [TechDraw Vue en coupe](TechDraw_SectionView/fr#Propriétés_Vue_en_coupe.md)
+Une vue en coupe complexe, en fait un objet {{Incode|TechDraw::DrawComplexSection}}, est dérivée d\'une [vue en coupe](TechDraw_SectionView/fr#Propriétés.md), objet {{Incode|TechDraw::DrawViewSection}}, et hérite de toutes ses propriétés. Elle possède également les propriétés supplémentaires suivantes :
 
 
 

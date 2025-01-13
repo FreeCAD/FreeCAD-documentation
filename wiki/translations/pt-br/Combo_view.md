@@ -1,60 +1,37 @@
 # Combo view/pt-br
 ## Introdução
 
-The [Combo view](combo_view.md) is one of the main panels in the FreeCAD [interface](interface.md). It is located on the left side of the screen by default. It is **composed of two sections**, the:
+A [Visão combinada](Combo_view/pt-br.md) aparece em um painel chamado **Modelo**. Ele combina a [Visão em árvore](Tree_view/pt-br.md) (seção superior) e o [Editor de propriedades](Property_editor/pt-br.md) (seção inferior).
 
--   [Upper section](#Upper_section.md) which contains two tabs: the **Model** tab and **Tasks** tab
--   [Lower section](#Lower_section.md) shows the [Property editor](property_editor.md). It contains two tabs: the **View** and **Data** properties. The [Property editor](property_editor.md) is only shown when the **Model** tab is **active**, that is, when the [tree view](tree_view.md) is visible.
+O [Painel de tarefas](Task_panel/pt-br.md), que antes fazia parte da visão combinada, é um painel separado chamado **Tarefas** no <small>(v1.0)</small> . Ele pode ser [anexado](#Dock_Task_panel_on_top_of_Combo_view.md) na parte superior da visão combinada para obter o layout compacto das versões anteriores.
 
-
-**Note:**
-
-originally the upper part ([tree view](tree_view.md)) was separate from the lower part ([property editor](property_editor.md)) but then they were combined, and thus the \"combo\" view was created.
-
-## Upper section 
-
-The **Model** tab shows the [tree view](tree_view.md), which is a representation of the document\'s content, including 2D and 3D geometry with their parametric history, but also supporting objects that contain data saved in the document.
-
-The **Tasks** tab shows the [task panel](task_panel.md), which will show different actions depending on the active workbench, and the active tool.
-
-<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="600px;">
+![](images/Combo_View_Example.png ) 
+*A visão combinada (aba Modelo) com o painel de tarefas anexado (aba Tarefas)*
 
 
 
-*The combo view has two tabs: the Model tab that controls displaying the [tree view](tree_view.md) and the [property editor](property_editor.md), and the Tasks tab that controls showing the [task panel](task_panel.md).*
+## Anexar o painel de tarefas acima da visão combinada 
 
-## Lower section 
-
-The lower part of the combo view shows the [property editor](property_editor.md), which displays two tabs for **View** and **Data** properties. The property editor is only shown when the **Model** tab is active, that is, when the [tree view](tree_view.md) is visible.
-
--   The **View** tab shows visualization properties of the objects, which only affect their appearance in the [3D view](3D_view.md).
-
--   The **Data** tab shows the parametric properties of the objects, which determine how the geometrical shapes are really defined.
-
-<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width:" height="600px;">
+1.  Certifique-se de que a visão combinada esteja ancorada em uma borda da janela do FreeCAD.
+2.  Mova o cursor para a parte superior do painel de tarefas.
+3.  O ícone do cursor se transformará em uma mão.
+4.  Mantenha pressionado o botão esquerdo do mouse e arraste o painel de tarefas para cima da visão combinada.
+5.  Mova verticalmente até que ambas as seções superior e inferior da visão combinada estejam destacadas.
+    <img alt="" src=images/Tasks_Dockable.png  style="width:200px;">
+6.  Solte o botão do mouse.
 
 
 
-*The lower part of the combo view is the property editor, which shows View and Data properties.*
+## Preferências
 
-## Disabling Combo view 
+Veja também: [Editor de Preferências](Preferences_Editor/pt-br.md).
 
-To use these views by themselves use the [parameter editor](Std_DlgParameter.md). Create the following subgroups if they don\'t exist
-
--    `BaseApp/Preferences/DockWindows/TreeView`
-    
-
--    `BaseApp/Preferences/DockWindows/PropertyView`
-    
-
-then add the parameter `Enabled` of type `Boolean`, and set it to `True`.
-
-Then activate the view using the menu, **View → Panels → Tree view** or **→ Property view**.
+A visão combinada está disponível se **Editar → Preferências... → Geral → Geral → Modo de visão em árvore** estiver configurado como {{Value|Combinada}}. Se estiver configurado como {{Value|Independente}}, a Visão em árvore e o Editor de propriedades aparecerão como painéis separados.
 
 
-{{Std Base navi
+{{Interface_navi
 
-}} {{Interface navi}}
+}} {{Std_Base_navi}}
 
 
 

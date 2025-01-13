@@ -11,7 +11,7 @@
 
 ## Description
 
-Cet outil crée des congés (arrondis) sur les arêtes sélectionnées d\'une forme. Une boîte de dialogue permet de choisir la forme et les arêtes sur lesquelles travailler.
+**Part Congé** crée des congés (arrondis) sur les arêtes sélectionnées d\'une forme. Une boîte de dialogue permet de choisir la forme et les arêtes sur lesquelles travailler.
 
 
 
@@ -26,9 +26,13 @@ Cet outil crée des congés (arrondis) sur les arêtes sélectionnées d\'une fo
 
 ![](images/Dialog-fillet.png )
 
+
+
 ## Comparaison PartDesign Congé et Part Congé 
 
 Il existe un autre outil de congé dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md). Veuillez noter que leur fonctionnement est assez différent. Consultez la page de référence <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Congé](PartDesign_Fillet/fr.md) pour plus de détails sur leurs différences.
+
+
 
 ## Remarques pour l\'application de Part Congé 
 
@@ -42,6 +46,14 @@ L\'outil Congé échoue parfois lorsqu\'il tente de faire des congés sur des fo
 -   Envisagez d\'utiliser **Édition → Préférences → PartDesign** pour activer la vérification et l\'affinage automatiques du modèle après les opérations booléennes et basées sur des esquisses (les performances peuvent être affectées si ces options restent activées).
 
 L\'outil Congé est sensible au [Problème de dénomination topologique](Topological_naming_problem/fr.md) lors d\'une modification d\'une étape de modélisation antérieure dans la chaîne qui affecte le nombre de faces ou de sommets. Cela pourrait entraîner des résultats imprévisibles. Jusqu\'à ce que ce problème soit résolu, il est conseillé d\'appliquer les opérations de chanfrein et de congé comme dernières étapes de la chaîne de modélisation.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

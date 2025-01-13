@@ -44,13 +44,13 @@ Příkaz Duplikovat výběr je zkratka pro příkazy Kopírovat+Vložit. Vytvá�
 
 ## Preferences
 
--   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+See [Std Paste](Std_Paste#Preferences.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -45,7 +45,7 @@ Downloading and unzip the appropriate [pre-compiled Windows binary](https://gith
 
 
 {{Code|lang=shell|code=
-git clone --recurse-submodules https://git.savannah.gnu.org/git/libredwg.git
+git clone --recurse-submodules https://github.com/LibreDWG/libredwg.git
 cd libredwg
 mkdir build
 cd build

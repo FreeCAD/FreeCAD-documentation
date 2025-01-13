@@ -1,114 +1,121 @@
 ---
  GuiCommand:
    Name: Sketcher ConstrainTangent
-   Name/it: Sketcher VincoloTangente
-   MenuLocation: Sketch , Sketcher Vincoli , Vincolo Tangente
-   Workbenches: Sketcher Workbench/it
+   Name/it: Sketcher Vincolo tangente
+   MenuLocation: Schizzo , Vincoli Sketcher , Vincolo tangente o collineare
+   Workbenches: Sketcher_Workbench/it
    Shortcut: **T**
-   SeeAlso: Sketcher_ConstrainPointOnObject/it
+   SeeAlso: 
 ---
 
 # Sketcher ConstrainTangent/it
 
+
+
 ## Descrizione
 
-Il vincolo Tangente costringe due curve ad essere tangenti. Le linee sono trattate come infinite, e gli archi sono trattati come cerchi o ellissi completi. Il vincolo è anche in grado di collegare due curve costringendole ad essere tangenti nella giunzione, e quindi rende levigata la loro congiunzione.
+Lo strumento <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> [Sketcher Vincolo tangente](Sketcher_ConstrainTangent/it.md) vincola due bordi, o un bordo e un asse, ad essere tangenti. Le linee vengono trattate come infinite e anche le curve aperte vengono virtualmente estese. Il vincolo può anche connettere due bordi, costringendoli ad essere tangenti in corrispondenza del giunto. Se vengono selezionate due linee oppure una linea e il punto finale di un\'altra linea, le linee vengono rese collineari.
 
-Tangent Constraint can also be used with two lines to make them colinear.
+
 
 ## Utilizzo
 
-Ci sono cinque modi diversi in cui il vincolo può essere applicato:
-
-1.  tra due curve (disponibile non per tutte le curve)
-2.  tra due punti finali di una curva, facendo un giunto liscio
-3.  tra una curva e un punto finale di un\'altra curva
-4.  tra due curve in un punto definito dall\'utente
-5.  tra due linee per creare una condizione di collinearità
-
-Per applicare il vincolo di tangenza, si dovrebbe usare la seguente procedura:
-
--   Selezionare due o tre entità nello schizzo.
--   Invocare il vincolo facendo clic sull\'icona nella barra degli strumenti, oppure selezionando la voce del menu, oppure usando la scorciatoia da tastiera.
-
-### Tra due curve (tangenza diretta) 
-
-<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:600px;">
-
-Rende tangenti due curve, e il punto di tangenza è implicito. Questa modalità si applica se sono state selezionate due curve.
-
-**Selezioni accettate:**
-
--   linea + linea, cerchio, arco, ellisse, arco-di-ellisse
--   cerchio, arco + cerchio, arco
-
-Se tra le curve selezionate la \"tangenza diretta\" non è supportata (ad esempio, tra un cerchio e un\'ellisse), nello schizzo viene automaticamente aggiunto un punto di supporto e viene applicata la \"tangenza nel punto\".
-
-Non è consigliabile ricostruire il punto di tangenza creando un punto e vincolandolo ad appartenere ad entrambe le curve. Questo metodo funziona, ma la convergenza è molto lenta, e richiede circa il doppio delle iterazioni di una convergenza normale. Se il punto di tangenza è proprio necessario conviene utilizzare gli altri modi di applicazione di questo vincolo.
-
-### Tra due punti finali (tangenza punto con punto) 
-
-<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
 
-<div class="mw-translate-fuzzy">
 
-In questa modalità, i punti finali sono resi coincidenti, e la giunzione è creata tangente; C1-liscio, o \"brusco\", a seconda del posizionamento delle curve prima dell\'applicazione del vincolo. Questa modalità viene applicata quando sono stati selezionati due punti finali di due curve.
+### [Modalità continua](Sketcher_Workbench/it#Continue_modes.md) 
+
+1.  Assicurarsi che non ci sia alcuna selezione.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_ConstrainTangent.svg" width=16px> [Vincolo tangente o collineare](Sketcher_ConstrainTangent/it.md)**.
+
+    -   Selezionare l\'opzione **Schizzo → Vincoli Sketcher → <img src="images/Sketcher_ConstrainTangent.svg" width=16px> Vincolo tangente o collineare** dal menu.
+
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [Vista 3D](3D_view/it.md) e selezionare l\'opzione **Vincolo → <img src="images/Sketcher_ConstrainTangent.svg" width=16px> Vincolo tangente o collineare** dal menu contestuale.
+
+    -   Usare la scorciatoia da tastiera: **T**.
+3.  Il cursore si trasforma in una croce con l\'icona dello strumento.
+4.  Effettuare una delle seguenti operazioni:
+    -   Selezionare due bordi. I bordi possono essere qualsiasi bordo tranne una B-spline.
+    -   Selezionare un punto e due bordi (in quest\'ordine).
+    -   Selezionare un bordo, un punto e un altro bordo (idem).
+5.  Viene aggiunto un vincolo Tangente. Se sono stati selezionati un punto e due bordi, è possibile aggiungere anche fino a due [Vincoli punto su oggetto](Sketcher_ConstrainPointOnObject.md). Vedere [Esempi](#Tra_due_bordi_in_un_punto.md).
+6.  Facoltativamente, continuare a creare vincoli.
+7.  Per terminare, fare clic con il pulsante destro del mouse o premere **Esc** oppure avviare un altro strumento di creazione di geometrie o vincoli.
 
 
-</div>
 
-**Selezioni accettate:**
+### Modalità di esecuzione una sola volta 
 
--   punto finale di linea/arco/arco-di-ellisse + punto finale di linea/arco/arco-di-ellisse, cioè due punti finali di qualsiasi due curve
+1.  Effettuare una delle seguenti operazioni:
+    -   Selezionare due bordi (vedere sopra).
+    -   Selezionare due punti finali appartenenti a bordi diversi.
+    -   Selezionare un bordo e il punto finale di un altro bordo (in qualsiasi ordine).
+    -   Selezionare un punto e due bordi (idem).
+2.  Richiamare lo strumento come spiegato sopra o con la seguente opzione aggiuntiva:
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [3D view](3D_view/it.md) e selezionare l\'opzione **<img src="images/Sketcher_ConstrainTangent.svg" width=16px> Vincolo tangente o collineare** dall\'elenco menu contestuale.
+3.  Viene aggiunto un vincolo Tangente. Se sono stati selezionati un punto e due bordi, è possibile aggiungere anche fino a due [Vincoli punto su oggetto](Sketcher_ConstrainPointOnObject/it.md). Vedere [Esempi](#Tra_due_bordi_in_un_punto.md).
 
-### Tra una curva e un punto finale (tangenza punto con curva) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:600px;">
 
-In questo modo, il punto finale di una curva è vincolato a giacere sull\'altra curva, e le curve sono forzate ad essere tangenti nel punto. Questa modalità viene applicata quando sono stati selezionati una curva e un punto finale di un\'altra curva.
+## Esempi
 
-**Selezioni accettate:**
 
--   linea, cerchio, arco, ellisse, arco-di-ellisse + punto finale di linea/arco/arco-di-ellisse (qualsiasi curva + punto finale di qualsiasi curva)
 
-### Tra due curve nel punto (tangenza nel punto) (v0.15) 
+### Tra due bordi 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:400px;">
 
-In questo modo, sono rese tangenti due curve, e il punto di tangenza è monitorato. Questa modalità viene applicata quando sono state selezionate due curve e un punto.
+I due bordi sono resi tangenti. Se uno dei bordi è una [conica](Sketcher_Workbench/it#Sketcher_CompCreateConic.md), viene aggiunto un [Oggetto punto](Sketcher_CreatePoint/it.md) che ha un [Vincolo punto su oggetto](Sketcher_ConstrainPointOnObject/it.md) con entrambi i bordi (estesi).
 
-**Selezioni accettate:**
+Non è consigliabile ricostruire il punto di tangenza creando manualmente un punto e vincolandolo a giacere su entrambe le curve. Funzionerà, ma la convergenza sarà decisamente più lenta, più discontinua e richiederà circa il doppio delle iterazioni per convergere rispetto al normale. Se è necessario il punto di tangenza, selezionare invece due bordi e un punto esistente.
 
--   qualsiasi linea/curva + qualsiasi linea/curva + qualsiasi punto
 
-\"Qualsiasi punto\" può essere un punto generico, o un punto di qualcosa, ad esempio il centro di un cerchio, il punto finale di un arco, o l\'origine.
 
-Affinchè il vincolo funzioni correttamente, il punto deve appartenere a entrambe le curve. Così, quando il vincolo viene invocato, il punto viene vincolato automaticamente su entrambe le curve, e le curve sono forzate tangenti nel punto. Se è necessario sono anche aggiunti dei [vincoli di supporto](Sketcher_helper_constraint/it.md). I vincoli di supporto sono dei normali vincoli e possono essere aggiunti o eliminati manualmente.
+### Tra due punti finali 
 
-Rispetto alla tangenza diretta, questo vincolo è più lento, perché sono coinvolti i gradi di libertà, ma se il punto di tangenza è necessario, è la modalità consigliata perché offre una migliore convergenza rispetto alla tangenza diretta + punto su due curve.
+<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:400px;">
 
-La posizione del punto selezionato prima di applicare il vincolo serve al solutore per sapere dove deve applicare la tangenza. Con questo vincolo, si può costringere due ellissi a toccarsi in due posti.
+I punti finali vengono resi coincidenti e l\'angolo tra i bordi in quel punto viene impostato su 180° (giunto liscio) o 0° (giunto stretto), a seconda del posizionamento dei bordi prima dell\'applicazione del vincolo.
 
-### Tra due linee (collineari) 
 
-<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
 
-**Accepted selection:**
+### Tra bordo e punto finale 
 
--   any line/vertex + any line/vertex
+<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:400px;">
+
+Il punto finale di un bordo è vincolato a giacere sull\'altro bordo e i bordi vengono resi tangenti in quel punto
+
+
+
+### Tra due bordi in un punto 
+
+<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:400px;">
+
+I due bordi vengono resi tangenti in un dato punto. Il punto può essere qualsiasi punto, ad es. il centro di un cerchio, il punto finale di un bordo o l\'origine, può appartenere a uno dei bordi e può anche essere un [Oggetto punto](Sketcher_CreatePoint/it.md). Se necessario, vengono aggiunti [Vincoli punto su oggetto](Sketcher_ConstrainPointOnObject/it.md) per garantire che il punto si trovi su entrambi i bordi (estesi). Questi vincoli aggiuntivi sono chiamati [vincoli di supporto](Sketcher_helper_constraint/it.md).
+
+Rispetto alla tangenza diretta, questo vincolo è più lento, perché sono coinvolti più gradi di libertà, ma se è necessario il punto di tangenza, è consigliato perché offre una migliore convergenza.
+
+
+
+### Tra due linee 
+
+<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:400px;">
+
+Le due linee sono rese collineari.
+
+
 
 ## Script
 
-
-<div class="mw-translate-fuzzy">
-
-I vincoli di tangenza possono essere creati con le [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) utilizzando la seguente funzione:
-
-
-</div>
-
-
+Il Vincolo tangente può essere creato da [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando quanto segue: 
 ```python
 # direct tangency
 Sketch.addConstraint(Sketcher.Constraint('Tangent',icurve1,icurve2))
@@ -121,28 +128,20 @@ Sketch.addConstraint(Sketcher.Constraint('Tangent',icurve1,pointpos1,icurve2))
 
 # tangent-via-point (plain constraint, helpers are not added automatically)
 Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoidpoint,pointpos)) 
-```
+``` dove:
 
-Dove:
+  - `Sketch` è un oggetto schizzo
 
-  - `Sketch` è un oggetto sketch
+  - `icurve1`, `icurve2` sono due numeri interi che identificano le curve da rendere tangenti. Gli interi sono indici nello schizzo (i valori, restituiti da `Sketch.addGeometry`).
 
-  - `icurve1`, `icurve2` sono due numeri interi che identificano le curve da rendere tangenti. I numeri interi sono gli indici nello schizzo (il valore, reso da `Sketch.addGeometry`).
-
-  - `pointpos1`, `pointpos2` dovrebbe essere 1 per il punto iniziale e 2 per il punto finale.
+  - `pointpos1`, `pointpos2` dovrebbe essere `1` per il punto iniziale e `2` per il punto finale.
 
   - `geoidpoint` e `pointpos` in `TangentViaPoint` sono gli indici che specificano il punto di tangenza.
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` and `pointpos` and contains further examples on how to create constraints from Python scripts.
-
-
-<div class="mw-translate-fuzzy">
+La pagina [Sketcher scripting](Sketcher_scripting/it.md) spiega i valori che possono essere utilizzati per `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` e `pointpos` e contiene ulteriori esempi su come creare vincoli da script Python.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

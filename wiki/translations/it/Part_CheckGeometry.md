@@ -1,101 +1,92 @@
-# Part CheckGeometry/it
 ---
- GuiCommand:   Name: Part CheckGeometry   Name/it: Controlla geometria‏‎   MenuLocation: Part , Controlla geometria   Workbenches: Part Workbench/it   Part|SeeAlso: ---
+ GuiCommand:
+   Name: Part CheckGeometry
+   Name/it: Part Controlla geometria‏‎
+   MenuLocation: Parte , Controlla la geometria
+   Workbenches: Part Workbench/it
+---
+
+# Part CheckGeometry/it
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-Lo strumento di controllo della geometria consente di verificare se si dispone di un solido valido
-
-
-</div>
+Lo strumento **<img src="images/Part_CheckGeometry.svg" width=16px> [Controlla la geometria](Part_CheckGeometry/it.md)** esegue una verifica e segnala se la geometria è un solido valido. Lo strumento controlla se la [Rappresentazione della delimitazione](https://en.wikipedia.org/wiki/Boundary_representation) (BRep o [B-rep](Glossary/it#B.md)) del modello è valida.
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Selezionare una parte (attenzione a selezionare l\'intera parte e non solo una faccia per verificare la validità del solido)
-2.  Invocare il comando in uno dei seguenti modi:
-    -   Con il pulsante **<img src="images/Part_CheckGeometry.svg" width=16px>** della barra delle booleane di Part.
-    -   Usando **Part → <img src="images/Part_CheckGeometry.svg" width=16px> Controlla la gometria** dal menu principale.
+2.  Richiamare lo strumento in uno dei seguenti modi:
+    -   Facendo clic sul pulsante **<img src="images/Part_CheckGeometry.svg" width=16px> [Controlla la geometria](Part_CheckGeometry/it.md)** disponibile nella barra degli strumenti dell\'ambiente Part.
+    -   Utilizzando la voce **Parte → <img src="images/Part_CheckGeometry.svg" width=16px> Controlla la geometria** dal menu in alto.
+3.  Si apre il pannello delle attività **Impostazioni**, a meno che non sia abilitato **Salta pagina impostazioni**. Vedi [Opzioni](#Opzioni.md) per ulteriori informazioni. Fai clic su **Esegui controllo**.
+
+I risultati verranno riportati nel [Pannello delle azioni](Task_panel/it.md). Se il controllo ha prodotto errori: fare clic nel report su uno specifico messaggio di errore e l\'oggetto geometrico corrispondente (bordo, faccia, ecc.) verrà evidenziato nella [Vista 3D](3D_view/it.md).
 
 
-</div>
+
+## Opzioni
 
 
-<div class="mw-translate-fuzzy">
 
-I risultati sono riportati nella [scheda Azioni](Task_panel/it.md).
+### Salta la pagina delle impostazioni 
 
-
-</div>
-
-## Options
-
-### Skip settings page 
-
-If ticked, subsequent invocations of the tool skip showing the **Settings** task panel.
-
-### Run BOP check 
+Se selezionato, le successive invocazioni dello strumento salteranno la visualizzazione del pannello delle attività **Impostazioni**.
 
 
-<div class="mw-translate-fuzzy">
 
-La funzione Controlla geometria verifica se il [Boundary representation](https://en.wikipedia.org/wiki/Boundary_representation) (BRep o [B-rep](Glossary#B.md)) del modello è valido. Oltre a questo controllo BRep, è possibile avere un controllo BOP aggiuntivo BOP (BOP= Boolean OPerations).
+### Esegui controllo BOP 
+
+Se selezionato, viene eseguito inoltre un controllo delle operazioni booleane (BOP).
 
 
-</div>
 
-### Log errors 
+### Registro degli errori 
 
-If ticked, any errors found are also logged in the [report view](Report_view.md).
+Se selezionato, eventuali errori rilevati verranno registrati anche nella [finestra dei report](Report_view/it.md)
 
-## Shape Content 
 
-In addition to detecting potential geometry errors, this tool shows a range of properties regarding the selected object:
 
--   Checked object
--   Shape type
--   Number of geometric entities: vertices, edges, wires, faces, shells, solids, compsolids, compounds, total shapes
--   Geometric and mass properties:
+## Contenuto della forma 
+
+Oltre a rilevare potenziali errori geometrici, questo strumento mostra una serie di proprietà relative all\'oggetto selezionato:
+
+-   Oggetto controllato
+-   Tipo di forma
+-   Numero di entità geometriche: vertici, bordi, fili, facce, gusci, solidi, compsolidi, composti, forme totali
+-   Proprietà geometriche e di massa:
     -   Area
     -   Volume
-    -   Mass
-    -   Length
-    -   Center of mass
-    -   Orientation
-    -   Symmetry axis
-    -   Symmetry point
-    -   Moments
-    -   First axis of inertia
-    -   Second axis of inertia
-    -   Third axis of inertia
-    -   Radius of gyration
-    -   Global placement
-
-## Notes
-
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be checked using this tool. For [App Links](App_Link.md) the shape of the linked object is checked. For [App Part](App_Part.md) containers the visible objects within are checked as compounds. <small>(v0.20)</small> 
--   FreeCAD has no methods to automatically repair geometry. If faults are detected the steps involved to create the model need to be examined and fixed manually.
+    -   Massa
+    -   Lunghezza
+    -   Centro di Massa
+    -   Orientamento
+    -   Asse di simmetria
+    -   Punto di simmetria
+    -   Momenti
+    -   Primo asse d\'inerzia
+    -   Secondo asse d\'inerzia
+    -   Terzo asse d\'inerzia
+    -   Raggio d\'inerzia
+    -   Posizionamento globale
 
 
-<div class="mw-translate-fuzzy">
 
+## Note
+
+-   Utilizzando questo strumento è possibile controllare anche gli oggetti [App Link](App_Link/it.md) collegati ai tipi di oggetto appropriati e i contenitori [App Part](App_Part/it.md) con gli oggetti visibili appropriati all\'interno. Per [Link app](App_Link/it.md) viene controllata la forma dell\'oggetto collegato. Per i contenitori [App Part](App_Part/it.md) gli oggetti visibili all\'interno vengono controllati come composti. {{Version/it|0.20}}
+-   FreeCAD non dispone di metodi per riparare automaticamente la geometria. Se vengono rilevati errori, i passaggi necessari per creare il modello devono essere esaminati e corretti manualmente.
 
 
 
 
-</div>
+
+{{Part_Tools_navi
+
+}}
 
 
 

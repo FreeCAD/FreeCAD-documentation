@@ -110,7 +110,7 @@ Interpretorul Python dispune de asemenea de un sistem integrat de help. Încerca
 
 
 ```python
-help("print")
+help(print)
 ```
 
 

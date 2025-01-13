@@ -22,7 +22,7 @@ Currently the command points to [<https://wiki.freecad.org/Power_users_hub>](htt
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

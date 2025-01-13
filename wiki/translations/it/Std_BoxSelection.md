@@ -32,17 +32,13 @@
 ## Note
 
 -   Utilizzare il comando [Box di selezione elementi](Std_BoxElementSelection/it.md) per selezionare le facce invece degli oggetti.
--   Questo comando non può essere utilizzato per selezionare elementi in uno [schizzo](sketch/it.md). Per selezionare la casella quando la [ finestra Dialogo](Sketcher_Dialog/it.md) è aperta:
-    1.  Assicurarsi che nessun comando sia attivo.
-    2.  Effettuare una delle seguenti operazioni:
-        -   Fare clic in un\'area vuota e trascinare un rettangolo da sinistra a destra per selezionare gli oggetti che si trovano completamente all\'interno del rettangolo.
-        -   Fare clic in un\'area vuota e trascinare un rettangolo da destra a sinistra per selezionare anche gli oggetti che toccano o attraversano il rettangolo.
+-   Questo comando non può essere utilizzato per selezionare elementi in uno schizzo. Vedere [Sketcher](Sketcher_Workbench/it#Metodi_di_selezione.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

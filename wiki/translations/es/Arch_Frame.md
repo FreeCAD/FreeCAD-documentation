@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -34,6 +36,8 @@ La herramienta armazón se usa para construir todo tipo de objetos de armazón b
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utilización
@@ -52,6 +56,8 @@ La herramienta armazón se usa para construir todo tipo de objetos de armazón b
 
 </div>
 
+
+
 ## Opciones
 
 
@@ -64,7 +70,24 @@ La herramienta armazón se usa para construir todo tipo de objetos de armazón b
 
 </div>
 
+
+
 ## Propiedades
+
+### Data
+
+
+{{TitleProperty|Component}}
+
+-    **Base|Link**: The layout this frame is based on.
+
+For the other properties in the group see [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|Frame}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/es|Base}}: el layout en el que se basa este armazón.
 
@@ -75,6 +98,9 @@ La herramienta armazón se usa para construir todo tipo de objetos de armazón b
 -    {{PropertyData/es|Offset}}: una distancia opcional entre el objeto de layout y el objeto de armazón.
 
 -    {{PropertyData/es|Rotation}}: la rotación del perfil alrededor de su eje de extrusión.
+
+
+</div>
 
 ## Scripting
 
@@ -108,7 +134,9 @@ Frame = makeFrame(baseobj, profile)
 
 </div>
 
-Ejemplo: 
+Ejemplo:
+
+
 ```python
 import Draft, Arch
 
@@ -130,6 +158,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Frame/es
+⏵ [documentation index](../README.md) > Arch Frame/es

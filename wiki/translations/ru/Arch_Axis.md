@@ -32,10 +32,16 @@
 
 ## Применение
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Нажмите кнопку **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis/ru.md)
 **, или сочетание клавиш **A**, затем **X**
 2.  [Передвиньте](Draft_Move/ru.md)/[Поверните](Draft_Rotate/ru.md) систему осей в нужное положение.
 3.  Войдите в режим редактирования, дважды кликнув по системе осей в дереве объектов, что бы настроить их параметры, такие как количество осей, расстояние и углы между осями.
+
+
+</div>
 
 
 
@@ -140,6 +146,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/ru
+⏵ [documentation index](../README.md) > Arch Axis/ru

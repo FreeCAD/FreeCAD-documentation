@@ -1,23 +1,31 @@
 ---
  GuiCommand:
    Name: Spreadsheet StyleBold
-   Name/de: Kalkulationstabelle StilFett
+   Name/de: Spreadsheet StilFett
    Workbenches: Spreadsheet_Workbench/de
-   MenuLocation: Kalkulationstabelle , Stile , Fetter Text
+   MenuLocation: Kalkulationstabelle , Stile , Text in Fettschrift
+   Shortcut: **Strg** + **B**
    Version: 0.17
 ---
 
 # Spreadsheet StyleBold/de
 
+
+
 ## Beschreibung
 
-Das **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Kalkulationstabelle StilFett](Spreadsheet_StyleBold/de.md)** Werkzeug bewirkt, dass der Text innerhalb der Zelle den Stil **fett** erhält.
+Das Werkzeug <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> **Spreadsheet StilFett** aktiviert bzw. deaktiviert die Darstellung des Inhalts der ausgewählten Zellen in fetter Schrift.
+
+
 
 ## Anwendung
 
-1.  Stelle sicher, dass eine aktive **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md)** geöffnet ist, so dass die Schaltfläche aktiviert ist.
-2.  Wähle eine Zelle.
-3.  Drücke die **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Kalkulationstabelle StilFett](Spreadsheet_StyleBold/de.md)** Schaltfläche.
+1.  Sicherstellen, dass eine [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md) aktiviert ist.
+2.  Eine oder mehrere Zellen auswählen.
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Text in Fettschrift](Spreadsheet_StyleBold/de.md)** drücken.
+    -   Den Menüeintrag **Kalkulationstabelle → Stile → [<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> Text in Fettschrift** auswählen.
+    -   Das Tastaturkürzel **Strg** + **B**. {{Version/de|1.1}}
 
 
 

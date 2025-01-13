@@ -23,7 +23,7 @@ Polecenie **Okna** otwiera okno dialogowe z listą okien [Głównego obszaru wid
 ## Użycie
 
 1.  Wybierz z menu opcję **Okna → <img src="images/Std_Windows.svg" width=16px> Okna ...**.
-2.  Zostanie otwarte okno dialogowe Wybierz okno.
+2.  Zostanie otwarte okno dialogowe **Wybierz okno**.
 3.  Wykonaj jedną z następujących czynności:
     -   Zaznacz okno na liście i naciśnij przycisk **Aktywuj**.
     -   Kliknij dwukrotnie okno na liście.
@@ -40,13 +40,13 @@ Polecenie **Okna** otwiera okno dialogowe z listą okien [Głównego obszaru wid
 
 ## Uwagi
 
--   Okna [głównego obszaru widoku](Main_view_area/pl.md) są również wymienione w menu **Okna** i mogą być z niego aktywowane.
+-   Pierwsze 10 okien głównego widoku jest również wymienione w menu **Okna** i mogą być stamtąd aktywowane.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

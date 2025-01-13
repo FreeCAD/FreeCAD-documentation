@@ -1,4 +1,13 @@
-# <img alt="El icono del Ambiente de trabajo Mesh" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/es
+# Mesh Workbench/es
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="El icono del Ambiente de trabajo Mesh" src=images/Workbench_Mesh.svg  style="width:128px;">
 
 
 
@@ -96,9 +105,9 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 
 Hay algunas [preferencias de exportación relacionadas con los formatos de malla](Import_Export_Preferences/es#Formatos_de_malla.md) pero no son utilizadas por los comandos pertenecientes a este ambiente de trabajo. Son utilizadas por el comando [Std Exportar](Std_Export/es.md).
 
-Mesh Workbench preferences can be found in the following categories of the [Preferences Editor](Preferences_Editor.md):
+Mesh Workbench preferences can be found in the following groups in the [Preferences Editor](Preferences_Editor.md):
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor#Display.md): On the [Mesh view](Preferences_Editor#Mesh_view.md) tab several preferences can be set.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor#Display.md): On the [Mesh view](Preferences_Editor#Mesh_view.md) page several preferences can be set.
 -   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences.md): The [Mesh Union](Mesh_Union.md), [Mesh Intersection](Mesh_Intersection.md) and [Mesh Difference](Mesh_Difference.md) commands require [OpenSCAD](http://www.openscad.org/) and use the **OpenSCAD executable** preference to find its executable.
 
 
@@ -111,7 +120,13 @@ Mesh Workbench preferences can be found in the following categories of the [Pref
 -   Ver [Asymptote](Asymptote/es.md) para exportar mallas al formato Asymptote.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Mesh Tools navi

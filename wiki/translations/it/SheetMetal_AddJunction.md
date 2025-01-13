@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -46,6 +48,8 @@ This command is the second of three steps to convert a shell object made with th
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -106,24 +110,17 @@ Per aggiungere la giunzione nel vertice di un angolo:
 
 </div>
 
+
+
 ## Proprietà
 
 See also: [Property editor](Property_editor.md).
 
-A SheetMetal Junction object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+A SheetMetal Junction object is derived from a [Part Feature](Part_Feature.md) object or, if it is inside a [PartDesign Body](PartDesign_Body.md), from a [PartDesign Feature](PartDesign_Feature.md) object, and inherits all its properties. It also has the following additional properties:
+
+
 
 ### Dati
-
-
-{{Properties_Title|Base}}
-
-
-<div class="mw-translate-fuzzy">
-
--    **Label**: Nome assegnato dall\'utente all\'oggetto nella [vista ad albero](Tree_view/it.md).
-
-
-</div>
 
 
 {{Properties_Title|Parameters}}

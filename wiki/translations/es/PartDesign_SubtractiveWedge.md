@@ -13,11 +13,15 @@
 
 </div>
 
+
+
 ## Descripción
 
 Inserta una Cuña sustractiva en el Body (cuerpo) activo. Su forma es sustraída del sólido existente.
 
 ![](images/PartDesign_SubtractiveWedge_example.svg ) *A la izquierda: Body activo (A) mostrado en color gris y la Cuña sustractiva (B) mostrada en color rojo transparente. El resultado se puede apreciar a la derecha.*
+
+
 
 ## Uso
 
@@ -32,12 +36,16 @@ Inserta una Cuña sustractiva en el Body (cuerpo) activo. Su forma es sustraída
 
 </div>
 
+
+
 ## Opciones
 
 Tras su creación, la Cuña puede ser editada de dos maneras:
 
 -   Haciendo doble clic con el ratón sobre el árbol del Modelo, o pinchando con el botón derecho y seleccionando **Editar primitiva** en el menú contextual. Con ello se abre la ventana de selección de parámetros de la Primitiva.
 -   Por medio del [Editor de propiedades](Property_editor/es.md).
+
+
 
 ## Propiedades
 
@@ -54,6 +62,8 @@ Usando el emplazamiento por defecto, las entradas siguientes son:
 -    **Z2 min/max**: Posición de los puntos iniciales y finales que forman la cara posterior en el eje Z
 
 Teniendo en cuenta que X y Z se refieren a la cara frontal (base inferior) y X2 y Z2 a la cara posterior (base superior) de la cuña en la posición en que aparece por defecto.
+
+
 
 ## Pirámides
 

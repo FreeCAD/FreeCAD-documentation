@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft AddConstruction
    Name/fr: Draft Ajouter au groupe de construction
-   MenuLocation: Utilitaires , Ajouter au groupe de construction
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft/BIM : Utilitaires , Ajouter au groupe de construction
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Version: 0.17
    SeeAlso: Draft_ToggleConstructionMode/fr, Draft_AddToGroup/fr
 ---
@@ -20,8 +20,9 @@ La commande <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;
 
 1.  Sélectionner un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le **<img src="images/Draft_AddConstruction.svg" width=16px> [Ajouter au groupe de construction](Draft_AddConstruction/fr.md)**.
-    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_AddConstruction.svg" width=16px> Ajouter au groupe de construction ** du menu.
+    -   [Draft](Draft_Workbench/fr.md): appuyez sur le **<img src="images/Draft_AddConstruction.svg" width=16px> [Ajouter au groupe de construction](Draft_AddConstruction/fr.md)**.
+    -   Draft : sélectionnez l\'option **Utilitaires → <img src="images/Draft_AddConstruction.svg" width=16px> Ajouter au groupe de construction** du menu, ou dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou de la [vue 3D](3D_view/fr.md).
+    -   [BIM](BIM_Workbench/fr.md) : sélectionnez l\'option **Utilitaires → <img src="images/Draft_AddConstruction.svg" width=16px> Ajouter au groupe de construction** du menu.
 3.  S\'il n\'existe pas, le groupe de construction doit être créé en premier.
 4.  Les objets sont déplacés vers le groupe de construction et leurs propriétés de couleur sont modifiées.
 

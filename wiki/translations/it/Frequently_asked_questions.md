@@ -23,12 +23,6 @@ Il kernel di modellazione geometrica sottostante a FreeCAD, la libreria di terze
 
 
 
-#### Per gli utenti Mac 
-
-È supportata solo l\'architettura MacIntel. Non sono disponibili build per l\'architettura PowerPC.
-
-
-
 ### E se voglio compilare FreeCAD? 
 
 Il codice sorgente di FreeCAD è sempre disponibile nel repository del codice sorgente del progetto. La compilazione di FreeCAD in proprio consente di utilizzare le funzionalità più recenti in fase di sviluppo, ma richiede un po\' di conoscenza del computer, sebbene la procedura sia abbastanza semplice. L\'accesso al codice sorgente è spiegato [qui](Compile_on_Linux/it#Ottenere_il_codice_sorgente.md) e abbiamo istruzioni dettagliate per la compilazione su [Windows](Compile_on_Windows/it.md), [Linux](Compile_on_Linux/it.md) e [macOS](Compile_on_MacOS/it.md).
@@ -132,12 +126,6 @@ Si verifica un errore di segmentazione in {{SystemOutput|vbo_save_playback_verte
 
 
 
-### Ho problemi nell\'eseguire FreeCAD su macOS 
-
-La piattaforma Mac è meno facile da supportare rispetto a Windows o Linux, poiché nessuno degli sviluppatori principali ne possiede una. I pacchetti macOS sono compilati da utenti FreeCAD volontari e a volte potrebbero non funzionare correttamente sulla tua macchina, a seconda del tuo sistema. La tua migliore possibilità è probabilmente quella di andare sui forum, cercare discussioni relative a macOS e discutere il tuo problema lì o vedere se qualcun altro ha trovato una soluzione.
-
-
-
 ### Non posso cambiare i valori numerici nei pannelli delle proprietà di FreeCAD 
 
 <img alt="language options/it" src=images/Jj62l.png  style="width:480px;">
@@ -166,7 +154,7 @@ FreeCAD dovrebbe riavviarsi normalmente con tutte le impostazioni ripristinate.
 
 ### FreeCAD è veramente gratuito? Anche per uso commerciale? 
 
-FreeCAD è [software open-source](http://en.wikipedia.org/wiki/Open-source_software) ed è gratuito non solo per l\'uso, per te stesso o per fare lavori commerciali, ma anche per distribuire, modificare o persino utilizzare in un\'applicazione closed-source. Per riassumere, sei libero di fare (quasi) tutto ciò che vuoi con esso. Vedere la pagina [Licenza](Licence/it.md) per maggiori dettagli.
+FreeCAD è [software open-source](http://en.wikipedia.org/wiki/Open-source_software) ed è gratuito non solo per l\'uso, per te stesso o per fare lavori commerciali, ma anche per distribuire, modificare o persino utilizzare in un\'applicazione closed-source. Per riassumere, sei libero di fare (quasi) tutto ciò che vuoi con esso. Vedere la pagina della [Licenza](License/it.md) per maggiori dettagli.
 
 
 
@@ -240,7 +228,12 @@ Il codice precedente recupera la forma da un oggetto, mostra le facce e le linee
 
 ### Le operazioni booleane non riescono, o danno strani risultati 
 
-Il kernel di modellazione geometrica [Open CASCADE](https://it.wikipedia.org/wiki/Open_CASCADE_Technology) utilizzato in FreeCAD per la geometria delle parti, sebbene probabilmente il miglior kernel di geometria open source disponibile, ha i suoi difetti e limiti. Infatti le operazioni booleane (fusione, sottrazione, intersezione) non sono le sue caratteristiche migliori e spesso danno risultati strani. Questa è una limitazione attuale che non abbiamo modo di risolvere in breve, quindi il tuo percorso migliore è provare a ottenere il risultato desiderato modellando in un altro modo. Ad esempio, i problemi con le primitive come il cilindro possono essere spesso risolti utilizzando invece un cerchio estruso. Le superfici complanari tra le parti possono causare problemi, così come la tangenza della superficie. Come regola generale, se una forma non funziona, prova a rimodellarla in un modo diverso. Nel 99% dei casi alla fine riuscirai ad ottenere il risultato che desideri.
+Come tutti i kernel di modellazione solida, il kernel di modellazione geometrica [Open CASCADE](https://it.wikipedia.org/wiki/Open_CASCADE_Technology) utilizzato in FreeCAD per la geometria delle parti, sebbene probabilmente il miglior kernel di geometria open source disponibile, ha i suoi difetti e limiti. Le operazioni booleane (fusione, sottrazione, intersezione) sono operazioni complicate e spesso danno risultati strani. Questa è una limitazione attuale che non abbiamo modo di risolvere in breve, quindi il tuo percorso migliore è provare a ottenere il risultato desiderato modellando in un altro modo. Ad esempio, i problemi con le primitive come il cilindro possono essere spesso risolti utilizzando invece un cerchio estruso. Le superfici complanari tra le parti possono causare problemi, così come la tangenza della superficie. Come regola generale, se una forma non funziona, prova a rimodellarla in un modo diverso. Nel 99% dei casi alla fine riuscirai ad ottenere il risultato che desideri.
+
+Per meglio comprendere le operazioni booleane, vedere questi articoli:
+
+-   <https://wiki.mcneel.com/rhino/booleanfaq>
+-   <https://dev.opencascade.org/doc/overview/html/specification__boolean_operations.html#autotoc_md293>
 
 
 
@@ -331,7 +324,7 @@ Sicuro. Tutti gli artwork (icone, banner, ecc.) di FreeCAD sono concessi in lice
 
 ### Si può riutilizzare parti di FreeCAD in un\'altra applicazione? 
 
-Sì, puoi utilizzare le parti principali di FreeCAD in altre applicazioni purché rispetti i termini della LGPL. Le librerie di terze parti, gli [ambienti complementari](External_workbenches/it.md) e le [macro](Macros/it.md) possono essere soggette alle proprie condizioni di licenza, quindi consulta i loro autori. Maggiori dettagli nella pagina [Licenza](Licence/it.md).
+Sì, puoi utilizzare le parti principali di FreeCAD in altre applicazioni purché rispetti i termini della LGPL. Le librerie di terze parti, gli [ambienti complementari](External_workbenches/it.md) e le [macro](Macros/it.md) possono essere soggette alle proprie condizioni di licenza, quindi consulta i loro autori. Maggiori dettagli nella pagina della [Licenza](License/it.md).
 
 
 

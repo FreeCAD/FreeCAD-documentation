@@ -1,7 +1,7 @@
 # Path EditToolsTable/fr
-1.  REDIRECT [Path_ToolLibraryEdit/fr](Path_ToolLibraryEdit/fr.md)
+1.  REDIRECT [CAM_ToolBitLibraryOpen/fr](CAM_ToolBitLibraryOpen/fr.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path EditToolsTable/fr
+⏵ [documentation index](../README.md) > Path EditToolsTable/fr

@@ -21,7 +21,7 @@ Si la page ne s\'affiche pas, cliquer sur l\'icône Rafraîchir <img alt="" src=
 
 ### Options
 
--   Le gabarit utilisé par une page peut être changé via la propriété *Template* de l\'onglet Données. Cliquer sur le champ Valeur, puis sur le bouton \"\...\" afin de naviguer vers un [gabarit adapté](Drawing_templates/fr.md). Ensuite rafraîchissez la vue.
+-   Le modèle utilisé par une page peut être modifié par le biais de sa propriété Template dans l\'onglet Données. Cliquez sur le champ de valeur, puis sur le bouton \"\...\" et allez jusqu\'à un modèle approprié. Rafraîchissez ensuite la vue.
 
 
 

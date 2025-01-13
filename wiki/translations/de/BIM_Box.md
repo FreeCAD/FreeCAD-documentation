@@ -1,30 +1,41 @@
 ---
- GuiCommand:Addon/de
+ GuiCommand:
    Name: BIM Box
-   Name/de: BIM Kasten
-   Workbenches: Image:IFC.svg BIM Workbench/de
-   Addon: BIM
-   MenuLocation: 3D Modellierung , Kasten
-   SeeAlso: Part Box/de
+   Name/de: BIM Quader
+   MenuLocation: 3D/BIM , Generic 3D tools , Box
+   Workbenches: BIM_Workbench/de
+   SeeAlso: Part_Box/de
 ---
 
 # BIM Box/de
+
+
 
 ## Beschreibung
 
 <img alt="" src=images/BIM_box_screenshot.png  style="width:1024px;">
 
-Mit dem BIM Kasten Werkzeug kannst du eine Standard [Bauteilbox](Part_Box/de.md) erstellen, aber anstatt das Objekt zu erstellen und dich anschließend seine Abmessungen und Position angeben zu lassen, wie es das ursprüngliche [Part Arbeitsbereichswerkzeug](Part_Workbench/de.md) tut, kannst du mit diesem Werkzeug die Kasten Abmessungen beim Erstellen des Objekts grafisch platzieren und definieren. Kästen sind grundlegende [quaderförmige](https://en.wikipedia.org/wiki/Cuboid) Formen, die später als Basis für jede andere Art von BIM Objekt verwendet werden können.
+Das Werkzeug **BIM Quader** ermöglicht einen normalen [Part-Quader](Part_Box/de.md) zu erstellen, aber anstatt das Objekt zu erstellen und anschließend seine Abmessungen und Position einzugeben, wie es beim ursprüngliche Werkzeug des Arbeitsbereichs [Part](Part_Workbench/de.md) erfolgt, können mit diesem Werkzeug die Abmessungen des Quaders beim Erstellen des Objekts grafisch ausgerichtet und festgelegt werden. Quader ([cuboids](https://en.wikipedia.org/wiki/Cuboid)) sind Grundformen, die später als Basis für jede andere Art von BIM-Objekt verwendet werden können.
+
+
 
 ## Anwendung
 
-1.  Drücke die **<img src="images/BIM_Box.png" width=16px> [BIM Kasten](BIM_Box/de.md)** Taste
-2.  Klicke auf einen ersten Punkt, um eine erste Ecke des Kastens zu definieren. Dies kann eine beliebige Ecke des Kastens sein
-3.  Klicke auf einen zweiten Punkt, um eine erste Kante des Kastens zu definieren, ausgehend vom ersten Punkt
-4.  Klicke auf einen dritten Punkt, um eine erste Fläche des Kastens zu definieren, die orthogonal zur ersten Kante liegt.
-5.  Klicke auf einen vierten Punkt, um den Extrusionsabstand der ersten Fläche zu definieren, die den endgültigen Kasten bildet.
+1.  Die Schaltfläche **<img src="images/BIM_Box.svg" width=16px> [Quader](BIM_Box/de.md)** drücken
+2.  Einen ersten Punkt anklicken, um eine erste Ecke des Quaders festzulegen. Dies kann eine beliebige Ecke des Quaders sein.
+3.  Einen zweiten Punkt anklicken, um ausgehend vom ersten Punkt eine erste Kante des Quaders festzulegen.
+4.  Einen dritten Punkt anklicken, um eine erste Fläche des Quaders festzulegen, die rechtwinklig zur ersten Kante liegt.
+5.  Einen vierten Punkt anklicken, um den Extrusionsabstand zur ersten Fläche festzulegen und so den endgültigen Quader fertigzustellen.
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > BIM Box/de
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Box/de

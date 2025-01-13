@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft CubicBezCurve
    Name/fr: Draft Courbe de Bézier cubique
-   MenuLocation: Draft , Outils de Bézier , Courbe de Bézier cubique
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Formes , Outils de Bézier , Courbe de Bézier cubique<br><br>BIM : Formes 2D , Courbe de Bézier cubique
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Version: 0.19
    SeeAlso: Draft_BezCurve/fr, Draft_BSpline/fr
 ---
@@ -29,7 +29,8 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md)**.
-    -   Sélectionnez la **Draft → Outils de Bézier → <img src="images/Draft_CubicBezCurve.svg" width=16px> Courbe de Bézier cubique** du menu.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionnez l\'option **Formes → Outils de Bézier → <img src="images/Draft_CubicBezCurve.svg" width=16px> Courbe de Bézier cubique** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionnez l\'option **Formes 2D → <img src="images/Draft_CubicBezCurve.svg" width=16px> Courbe de Bézier cubique** du menu.
 2.  Le panneau de tâches **Courbe cubique de Bézier** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Il n\'est pas possible de saisir des points via le panneau de tâches.
 4.  Pour les [modes de navigation par la souris](Mouse_navigation/fr.md) suivants, une touche du clavier doit être maintenue enfoncée :

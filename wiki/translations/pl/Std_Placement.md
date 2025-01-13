@@ -22,7 +22,7 @@ Polecenie **Std: Umiejscowienie** wyświetla [panel zadań](Task_panel/pl.md) Um
 
 ## Użycie
 
-1.  Zaznacz pojedynczy obiekt, który ma właściwość **Umiejscowienie** w [edytorze właściwości](Property_editor/pl.md).
+1.  Zaznacz pojedynczy obiekt, który ma właściwość **Umiejscowienie**.
 2.  Wybierz z menu opcję **Edycja → Umiejscowienie ...**.
 3.  Zmień jeden lub więcej parametrów przesunięcia i obrotu.
 4.  Wykonaj jedną z następujących czynności:
@@ -30,7 +30,7 @@ Polecenie **Std: Umiejscowienie** wyświetla [panel zadań](Task_panel/pl.md) Um
     -   Naciśnij przycisk **Zastosuj**, aby zastosować zmiany, ale zachować panel zadań otwarty dla dalszych zmian.
 5.  Naciśnij klawisz **Esc** lub przycisk **Anuluj**, aby przerwać operację. Spowoduje to cofnięcie wszystkich zmian, które nie zostały zastosowane.
 
-Okno dialogowe można również uruchomić, klikając przycisk z wielokropkiem **...**, który pojawia się w [edytorze właściwości](Property_editor/pl.md) po kliknięciu właściwości **Umiejscowienie**.
+Okno dialogowe można również uruchomić, klikając przycisk z elipsą **...**, który pojawia się w [edytorze właściwości](Property_editor/pl.md) po kliknięciu właściwości **Umiejscowienie**.
 
 
 
@@ -43,10 +43,7 @@ Okno dialogowe można również uruchomić, klikając przycisk z wielokropkiem *
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Zobacz również stronę [Tworzenie skryptów Python](Python_scripting_tutorial/pl#Wektory_i_umiejscowienia.md).
 
@@ -98,7 +95,7 @@ print(obj.Placement.Matrix)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

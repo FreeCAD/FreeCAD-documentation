@@ -1,128 +1,59 @@
 ---
  GuiCommand:
-   Name: Sketcher_External
-   Name/it: Geometria esterna   Workbenches: Sketcher Workbench/it
-   Shortcut: X
-   MenuLocation: Sketch , Geometrie , Geometria Esterna
+   Name: Sketcher External
+   Name/it: Sketcher Geometria esterna
+   MenuLocation: Schizzo , Strumenti Sketcher , Crea geometria esterna
+   Workbenches: Sketcher Workbench/it
+   Shortcut: **G** **X**
    SeeAlso: Sketcher_ToggleConstruction/it
 ---
 
 # Sketcher External/it
 
 
-</div>
-
-
 
 ## Descrizione
 
 
-<div class="mw-translate-fuzzy">
+{{VersionMinus/it|1.0}}
 
-Lo strumento Geometria esterna di Sketcher serve quando è necessario applicare un vincolo tra la geometria dello schizzo e qualcosa di esterno allo schizzo. Funziona inserendo un collegamento di tipo vincolo di costruzione geometrico nello schizzo. Il colore predefinito dei bordi esterni collegati, è magenta. Come la geometria di costruzione standard, non collegata (blu), anche la geometria esterna collegata è visibile solo quando il disegno è in modalità di modifica e non viene utilizzata nel risultato successivo, nè usata in un altro strumento. Entrambi i tipi di geometria di costruzione nello schizzo possono essere utilizzati come riferimenti per i vincoli.
+: lo strumento <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [Sketcher Geometria esterna](Sketcher_External/it.md) proietta bordi e/o vertici appartenenti a oggetti esterni allo schizzo sul piano dello schizzo. La geometria proiettata è chiamata \"geometria esterna\". Rimane parametricamente collegato ai suoi oggetti sorgente. I bordi della geometria esterna sono contrassegnati con un [colore](Sketcher_Preferences/it#Appearance.md) (magenta predefinito) e un tipo di linea ({{Version/it|1.0}}) dedicati. Similmente alla geometria di costruzione, la geometria esterna non è visibile all\'esterno dello schizzo, ma ha lo scopo di aiutare a definire i vincoli e altre geometrie all\'interno dello schizzo stesso.
 
 
-</div>
+{{VersionPlus/it|1.1}}
 
-A note of caution, using this tool to link to generated (solid) geometry can lead to unexpected results due to [Topological Naming Problem](Topological_naming_problem.md). Also see [Advice for stable models](Feature_editing#Advice_for_creating_stable_models.md).
+: Vedere <img alt="" src=images/Sketcher_Projection.svg  style="width:24px;"> [Sketcher Proiezione](Sketcher_Projection/it.md)
 
-<FILE:Sketcher_ExternalEsempio1.png>
+![](images/Sketcher_ExternalEsempio1.png ) 
+*Le due linee magenta sono una geometria esterna collegata ai bordi di un [Pad](PartDesign_Pad/it.md) preesistente. Sono usate per vincolare i cerchi.*
 
 
 
 ## Utilizzo
 
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
-<div class="mw-translate-fuzzy">
-
-1.  Creare un nuovo schizzo o aprire uno schizzo esistente.
-2.  Attivare lo strumento Geometria esterna.
-3.  Selezionare il bordo o il punto che si vuole collegare.
-4.  Premere Esc o selezionare un altro strumento per interrompere l\'importazione della geometria nello schizzo.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### Regole di selezione 
-
-Le regole per selezione gli oggetti che possono essere importati differiscono drasticamente tra FC v0.16 e FC v0.17.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Cioè, lo schizzo e l\'oggetto devono essere nello stesso corpo, o nella stessa parte, o entrambi al di fuori di qualsiasi parte e corpo.
-
-
-</div>
-
-Ad esempio, se lo schizzo aperto si trova in Body, è possibile utilizzare un altro schizzo dal Body come geometria esterna, ma non è possibile utilizzare uno schizzo da Body001 o un bordo di un cubo di Part che si trovi nella radice del progetto. Usare la funzione Forma legata per portare una copia dell\'oggetto nel sistema di coordinate dello schizzo aperto. Dopo è possibile usare i bordi o i vertici dell\'oggetto Shapebinder.
-
--   Non sono permesse dipendenze circolari.
-
-Ciò significa che non è possibile collegarsi ad un Pocket creato con questo schizzo. Non è possibile collegarsi ad alcun oggetto che dipenda dallo schizzo.
-
-
-<div class="mw-translate-fuzzy">
-
-A differenza della v0.16, per poter utilizzare questo strumento lo schizzo non deve essere su nessuna faccia. I collegamenti diretti tra gli schizzi sono possibili e incoraggiati, poiché sono più affidabili.
-
-
-</div>
-
-### Come capire se la linea è stata tratta 
-
-Se la linea è tratta con successo diventa di colore magenta. Se non viene tratta, rimane verde.
-
-### Analogia con le Linee di costruzione 
-
-Le linee magenta di geometria esterna possono essere usate come [Linee di costruzione](Sketcher_ToggleConstruction/it.md). Le linee di costruzione sono linee che sono interne al disegno e sono utilizzate per la costruzione della geometria, ma non per le successive operazioni di modellazione di solidi, quali ad es. le estrusioni.
+1.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_External.svg" width=16px> [Crea geometria esterna](Sketcher_External/it.md)**.
+    -   Selezionare l\'opzione **Schizzo → Strumenti Sketcher → <img src="images/Sketcher_External.svg" width=16px> Crea geometria esterna** dal menu.
+    -   Fare clic con il pulsante destro del mouse nella [Vista 3D](3D_view/it.md) e selezionare l\'opzione **<img src="images/Sketcher_External.svg" width=16px> Crea geometria esterna** dal menu contestuale.
+    -   Usare la scorciatoia da tastiera: **G** quindi **X**.
+2.  Il cursore si trasforma in una croce con l\'icona dello strumento.
+3.  Selezionare un bordo esterno o un vertice. Vedere [Note](#Note.md).
+4.  Viene creata la geometria esterna.
+5.  Questo strumento viene sempre eseguito in modalità continua: opzionalmente continuare a selezionare i bordi esterni e/o i vertici.
+6.  Per terminare, fare clic con il pulsante destro del mouse o premere **Esc** oppure avviare un altro strumento di creazione di geometrie o vincoli.
 
 
 
-### I due principali utilizzi delle linee geometria esterna 
+## Note
 
-Nel flusso di lavoro dell\'ambiente PartDesign, lo strumento geometria esterna viene utilizzato per supportare il posizionamento di un aspetto del solido che si sta costruendo, relativo alla fase precedente nella sua costruzione. L\'ambiente PartDesign è destinato a produrre un unico solido, quindi questi schizzi con geometria esterna vengono utilizzati per creare una nuova funzionalità di un singolo solido.
-
-Lo strumento Geometria esterna può, per esempio, essere utilizzato come riferimento per un vincolo utilizzato per posizionare un foro in un oggetto, in una data posizione con riferimento a un bordo o ad un vertice.
-
-
-
-### Uso della geometria esterna in un flusso di lavoro di Part 
-
-È possibile utilizzare qualsiasi geometria della parte che si trova nel sistema di coordinate dello schizzo. Si consiglia di collegarsi alla prima caratteristica possibile, in quanto forma un collegamento più stabile.
+-   È possibile selezionare solo bordi e vertici di oggetti all\'interno dello stesso sistema di coordinate. Lo schizzo e l\'oggetto devono trovarsi nello stesso [Corpo](PartDesign_Body/it.md), o nella stessa [Parte](Std_Part/it.md), o entrambi nel sistema di coordinate globali. Se necessario, utilizzare un [Binder](PartDesign_SubShapeBinder/it.md) per portare una copia dell\'oggetto nel sistema di coordinate corrente.
+-   Le dipendenze circolari non sono consentite. Non è possibile collegarsi a un oggetto che dipende dallo schizzo stesso.
+-   I collegamenti agli elementi di altri schizzi sono possibili e incoraggiati, poiché sono più affidabili dei collegamenti alla geometria (solida) generata. Quest\'ultimo può soffrire del [Problema di denominazione topologica](Topological_naming_problem/it.md). Vedere [Consigli per modelli stabili](Feature_editing/it#Advice_for_creating_stable_models.md).
 
 
 
-## Esempio
-
-Quello sottostante è uno schizzo mappato sulla faccia superiore di un solido creato da una estrusione di uno schizzo precedente. Le linee magenta sono la Geometria esterna collegata a due bordi di questo Pad preesistente.
-
-In questo caso sono utilizzati come riferimento per i vincoli di tangenza con la circonferenza di un cerchio. Essi sono utilizzati anche come riferimento per un vincolo orizzontale e un vincolo verticale per individuare il centro del secondo cerchio rispetto all\'estremità e al lato superiore del pad.
-
-<FILE:Sketcher_ExternalEsempio2.png>
-
-Questo è lo stesso schizzo in modalità di modifica, ma il Pad su cui è mappato è nascosto.
-
-<FILE:Sketcher_ExternalEsempio4.png>
-
-Quando lo schizzo viene chiuso le linee Geometria esterna non sono più visibili.
-
-<FILE:Sketcher_ExternalEsempio3.png>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

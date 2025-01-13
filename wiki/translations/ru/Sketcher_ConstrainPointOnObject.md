@@ -17,11 +17,26 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Прикрепляет точку к таким объектам как: линия, дуга или ось эскиза.
+
+
+</div>
+
+
+<small>(v1.0)</small> 
+
+: This tool is replaced by the [Sketcher ConstrainCoincidentUnified](Sketcher_ConstrainCoincidentUnified.md) tool if the **Unify Coincident and PointOnObject** option is selected in the [preferences](Sketcher_Preferences#General.md).
 
 
 
 ## Применение
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
 
 
 <div class="mw-translate-fuzzy">
@@ -35,6 +50,15 @@
 
 </div>
 
+### Run-once mode 
+
+1.  Do one of the following:
+    -   Select a single point and a single edge (in any order).
+    -   Select several points and a single edge (idem).
+    -   Select a single point and several edges (idem).
+2.  Invoke the tool as explained above.
+3.  Depending on the selection one or more constraints are added.
+
 
 
 ## Программирование
@@ -44,6 +68,9 @@
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`
 
+
+<div class="mw-translate-fuzzy">
+
 -    `Sketch`это объект эскиза.
 
 -    `LineMoving`это номер, обозначающий линию, содержащую точку, которая будет передвинута на `LineFixed` (линию, которая останется на месте).
@@ -51,6 +78,9 @@
 -    `PointOfLineMoving`это номер вершины линии `LineMoving`, которая будет передвинута на `LineFixed`.
 
 -    `LinedFixed`это номер линии, к которой будет прикреплена точка `PointOfLineMoving`.
+
+
+</div>
 
 Страница [Sketcher scripting](Sketcher_scripting/ru.md) показывает, как узнать номер, определяющий линии и точки?
 

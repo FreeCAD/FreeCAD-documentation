@@ -1,13 +1,15 @@
 # Robot tutorial/fr
 ---
  TutorialInfo:r
-   Topic:  Robot Workbench
-   Level:  Débutant
+   Topic: Atelier Robot
+   Level: Débutant
    Time: 
    Author: r-frank
    FCVersion: 0.16.6703 et plus
    Files: 
 }}
+
+## Introduction
 
 Ce tutoriel a pour but de vous apprendre à utiliser l\'atelier de simulation de Robot pour simuler une cellule de configuration de robot.
 

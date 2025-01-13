@@ -11,7 +11,7 @@ L\'immagine SVG è descritta in un linguaggio di tipo XML, il che significa che 
 
 ## Utilizzo
 
-FreeCAD può leggere ed esportare la grafica SVG usando la funzione [**SVG**](Draft_SVG/it.md) di <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md). I file SVG vengono utilizzati per molte cose, inclusi simboli e icone nell\'interfaccia utente grafica e per i modelli.
+FreeCAD può leggere ed esportare la grafica SVG usando la funzione [**SVG**](Draft_SVG/it.md) di <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md). I file SVG vengono utilizzati per molte cose, inclusi [simboli](TechDraw_Symbol/it.md) e [icone](Artwork_Guidelines/it.md) nell\'interfaccia utente grafica e per i [modelli](TechDraw_Templates/it.md).
 
 :   Ad esempio, l\'ambiente <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/it.md) [templates](TechDraw_Templates/it.md) può essere creato come file SVG con alcuni campi di testo modificabili che l\'utente può compilare.
 

@@ -32,27 +32,43 @@ Z zamkniętego konturu tworzy bazową *(pustą)* *płytę*:
 ### Profil
 
 1.  Wybierz <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [szkic](Sketcher_Workbench/pl.md) *otwartego konturu*.
-2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Dodaj element bazowy](SheetMetal_AddBase/pl.md) za pomocą jednej z następujących możliwości:
-    -   Przycisk **<img src="images/SheetMetal_AddBase.svg" width=16px> [Dodaj element bazowy](SheetMetal_AddBase/pl.md)** na pasku narzędzi.
-    -   Opcja w menu **Arkusz Blachy → <img src="images/SheetMetal_AddBase.svg" width=16px> Dodaj element bazowy**.
-    -   Skrót klawiaturowy: **C** następnie **B**.
-3.  Dostosuj parametry profilu, edytując odpowiednie wartości w [Edytorze właściwości](Property_editor/pl.md):
-    -   Właściwość **Długość** dla długości profilu,
-    -   Właściwość **Grubość** dla grubości profilu,
-    -   Właściwość **Promień** dla promienia wewnętrznego łuków.
+2.  Istnieje kilka sposobów na wywołanie tego polecenia:
+    -   Wciśnij przycisk **<img src="images/SheetMetal_AddBase.svg" width=16px> [Dodaj element bazowy](SheetMetal_AddBase/pl.md)** na pasku narzędzi.
+    -   Wybierz opcję **Arkusz Blachy → <img src="images/SheetMetal_AddBase.svg" width=16px> Dodaj element bazowy** z menu.
+    -   Kliknij prawym przyciskiem myszy w [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md) i wybierz opcję **Arkusz Blachy → <img src="images/SheetMetal_AddBase.svg" width=16px> Dodaj element bazowy** z menu kontekstowego.
+    -   Użyj skrótu klawiszowego: **C** a następnie **B**.
+3.  Utworzony zostanie obiekt **BaseBend**, narożniki wzdłuż konturu będą automatycznie przekształcone w zagięcia cylindryczne.
+4.  Dostosuj parametry profilu w [Edytorze właściwości](Property_editor/pl.md):
+    -   
+        **Długość**
+        
+        do długości wyciągnięcia profilu,
+
+    -   
+        **Grubość**
+        
+        do grubości ściany profilu,
+
+    -   
+        **Promień**
+        
+        do wewnętrznego promienia automatycznie dodanych zagięć.
 
 
 
 ### Płyta
 
 1.  Wybierz <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [szkic](Sketcher_Workbench/pl.md) *zamkniętego konturu*.<img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md).
-2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Dodaj element bazowy](SheetMetal_AddBase/pl.md) *(patrz powyżej)*.
-3.  Dostosuj parametry profilu, edytując odpowiednie wartości w [Edytorze właściwości](Property_editor/pl.md):
-    -   Właściwość **Grubość** dla grubości płyty.
+2.  Aktywuj polecenie jak opisano wyżej.
+3.  Dostosuj parametry płyty w [Edytorze właściwości](Property_editor/pl.md):
+    -   
+        **Grubość**
+        
+        dla grubości płyty.
 
 :   
 
-    :   *(Właściwość **Długość** oraz **Promień** są nieużywane dla płyty.)*
+    :   (**Długość** oraz **Promień** są nieużywane dla płyt.)
 
 
 
@@ -60,39 +76,28 @@ Z zamkniętego konturu tworzy bazową *(pustą)* *płytę*:
 
 Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt bazowy wygięcia środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+Obiekt bazowy wygięcia środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) lub, jeśli jest w obrębie [Zawartości środowiska Projekt Części](PartDesign_Body/pl.md), z obiektu [Cechy tego środowiska](PartDesign_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
 
 ### Dane
 
 
-{{Properties_Title|Podstawowe}}
-
--    **Etykieta|String**: Wartość domyślna: {{value|WallForming}} *(+ kolejny numer dla drugiej i następnych pozycji)*.
-
-Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg znaków UTF8.
-
--    **Cecha podstawowa|Link|ukryte**: Cecha bazowa. Link do cechy nadrzędnej.
-
--    **_Body|LinkHidden|ukryte**: Link ukryty do zawartości nadrzędnej.
-
-
 {{Properties_Title|Parametry}}
 
--    **Strona wygięcia|Enumeration**: \"Typ wpustu\". {{value|Na zewnątrz}} *(domyślnie)*, {{value|Do wewnątrz}}, {{value|Pośrodku}}.
+-    **Strona wygięcia|Enumeration**: \"Typ wpustu\", definiuje do której strony krzywej profilu ma zastosowanie grubość. {{value|Na zewnątrz}} *(domyślnie)*, {{value|Do wewnątrz}}, {{value|Pośrodku}}. (nieużywane dla płyt)
 
 -    **Szkic wygięcia|Link**: \"Obiekt szkicu ściany\". Link do profilu / szkicu konturu.
 
--    **Płaszczyzna środkowa|Bool**: \"Wyciągnięcie symetrycznie do płaszczyzny\".   {{TRUE/pl}}, profil rozciąga się symetrycznie na obie strony płaszczyzny szkicu.
+-    **Płaszczyzna środkowa|Bool**: \"Wyciągnięcie symetrycznie do płaszczyzny\". Długość profilu lub grubość płyty dochodzi do jednej strony płaszczyzny szkicu jeśli {{FALSE/pl}} (domyślne) lub symetrycznie do obu stron jeśli {{TRUE/pl}}.
 
--    **Odwrócony|Bool**: \"Odwrotny kierunek wyciągnięcia\". Domyślnie: {{FALSE/pl}}.
+-    **Odwrócony|Bool**: Odwraca kierunek wyciągnięcia profilu lub grubości płyty. Domyślnie: {{FALSE/pl}}.
 
--    **Długość|Length**: \"Długość ściany\". Domyślnie: {{value|100,00 mm}}.
+-    **Długość|Length**: Długość wyciągnięcia profilu. Domyślnie: {{value|100,00 mm}}. (nieużywane dla płyt)
 
--    **Promień|Length**: \"Promień wygięcia\". Domyślnie: {{value|1,00 mm}}.
+-    **Promień|Length**: Wewnętrzny promień automatycznie dodawanych zagięć. Domyślnie: {{value|1,00 mm}}. (nieużywane dla płyt)
 
--    **Grubość|Length**: \"Grubość arkusza blachy\". Domyślnie: {{value|1,00 mm}}.
+-    **Grubość|Length**: Grubość ściany profilu lub płyty. Domyślnie: {{value|1,00 mm}}.
 
 
 

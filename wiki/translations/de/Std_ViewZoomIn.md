@@ -9,9 +9,13 @@
 
 # Std ViewZoomIn/de
 
+
+
 ## Beschreibung
 
 Der **Std Vergrößern**-Befehl vergrößert die Objekte in der aktiven [3D-Ansicht](3D_view.md).
+
+
 
 ## Anwendung
 
@@ -19,35 +23,41 @@ Der **Std Vergrößern**-Befehl vergrößert die Objekte in der aktiven [3D-Ansi
     -   Wähle die Option **Ansicht → Zoom‏‎ → <img src="images/Std_ViewZoomIn.svg" width=16px> Vergrößern** aus dem Menü
     -   Benutze den Tastaturkurzbefehl **Strg** + **+**.
 
+
+
 ## Hinweise
 
--   Die Ansicht kann auch mit dem Mausrad vergrößert werden.
+-   In fast allen Stilen der [Mausnavigation](Mouse_navigation/de.md) ist es auch möglich, durch Drehen am Mausrad die Ansicht zu skalieren (zoom).
+
+
 
 ## Einstellungen
 
--   Der Zoomfaktor kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeigen → Navigation → Zoom-Schritt**. Diese Einstellung beeinflusst auch den Mausrad-Zoom. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Der Zoomfaktor kann geändert werden: **Bearbeiten → Einstellungen... → Anzeigen → Navigation → Zoom-Schritt**. Diese Einstellung beeinflusst auch den Mausrad-Zoom.
+
+
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Zum Vergrößern benutze die `zoomIn`-Methode des ActiveView-Objekts. Diese Methode gibt es im FreeCAD-Konsolenmodus nicht.
+Die Methode `zoomIn` des View-Objekts wird zum Vergrößern verwendet. Die Methode `zoomOut` steht auch zur Verfügung.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.zoomIn()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.zoomIn()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

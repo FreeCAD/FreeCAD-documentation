@@ -1,25 +1,29 @@
 # App Part/pl
-## Introduction
+## Wprowadzenie
 
 <img alt="" src=images/Geofeaturegroup.svg  style="width:32px;">
 
-An [App Part](App_Part.md) object, or formally an `App::Part`, is an element that allows grouping objects in 3D space.
+Obiekt **App: Część**, lub formalnie `App::Part`, jest elementem umożliwiającym grupowanie obiektów w przestrzeni 3D.
 
-It was developed to be used in assemblies, as it has an **Origin** which serves as the positional reference for the grouped objects.
+Został on opracowany do użytku w złożeniach, ponieważ posiada **OdniesieniePołożenia**, które służy jako odniesienie pozycyjne dla zgrupowanych obiektów.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
-*Simplified diagram of the relationships between the core objects in FreeCAD*
+*Uproszczony diagram zależności pomiędzy podstawowymi obiektami w programie FreeCAD.*
 
-## Usage
 
-See [Std Part](Std_Part#Usage.md).
 
-## Properties
+## Użycie
 
-See [Std Part](Std_Part#Properties.md).
+Zapoznaj się z informacjami na stronie [Std: Część](Std_Part/pl#Użycie.md).
+
+
+
+## Właściwości
+
+Zapoznaj się z informacjami na stronie [Std: Część](Std_Part/pl#Właściwości.md).
 
 
 {{Std_Base_navi

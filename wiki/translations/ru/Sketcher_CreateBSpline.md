@@ -25,7 +25,7 @@
 
 </div>
 
-![](images/Sketcher_B-spline_example01.png )
+![](images/Sketcher_CreateBSpline_Example.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -38,6 +38,8 @@
 
 
 ## Применение
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -56,9 +58,10 @@
 
 ## Notes
 
--   After a B-spline is created, it is possible to define the weight of the control points by changing the radii of the weight circles. The equality constraints on the circles need to be deleted first. The radius constraint is arbitrary, the weight of the control points will be defined by the relative radii of the circles. It works similar to gravity: the bigger a circle is in relation to the others, the more the curve will be attracted to the control point.
--   The visibility of the control polygon, the curvature comb, the degree and the knot multiplicity can be toggled on/off from the [B-spline tools](Sketcher_Workbench#Sketcher_B-spline_tools.md) toolbar.
--   Check out the other tools in the [B-spline tools](Sketcher_Workbench#Sketcher_B-spline_tools.md) toolbar for more B-spline editing tools.
+-   Elements of the internal geometry can be deleted. They can be recreated at any time with [Sketcher RestoreInternalAlignmentGeometry](Sketcher_RestoreInternalAlignmentGeometry.md).
+-   After a B-spline is created, it is possible to define the weight of the control points by changing the radii of the weight circles. The equality constraints on the circles need to be deleted first. The radius constraint is arbitrary, the weight of the control points will be defined by the relative radii of the circles. It works similar to gravity: the bigger a circle is in relation to the others, the more the curve will be attracted to that control point.
+-   The degree of a created B-spline can be [increased](Sketcher_BSplineIncreaseDegree.md) or [decreased](Sketcher_BSplineDecreaseDegree.md), and the multiplicity of its knots can be [increased](Sketcher_BSplineIncreaseKnotMultiplicity.md) or [decreased](Sketcher_BSplineIncreaseKnotMultiplicity.md) as well.
+-   The visibility of the [degree](Sketcher_BSplineDegree.md), the [control polygon](Sketcher_BSplinePolygon.md), the [curvature comb](Sketcher_BSplineComb.md), the [knot multiplicity](Sketcher_BSplineKnotMultiplicity.md) and the [control point weight](Sketcher_BSplinePoleWeight.md) can be toggled on/off from the [Sketcher visual](Sketcher_Workbench#Sketcher_visual.md) toolbar.
 
 
 

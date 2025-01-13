@@ -1,35 +1,45 @@
 ---
  GuiCommand:
    Name: Part TransformedCopy
-   Name/it: Crea una copia modificata
-   MenuLocation: Part , Crea una copia , Crea una copia modificata
+   Name/it: Part Copia trasformata
+   MenuLocation: Parte , Crea una copia , Crea copia trasformata
    Workbenches: Part_Workbench/it
    Version: 0.19
-   SeeAlso: Part_SimpleCopy/it, Part_ElementCopy/it, Part_RefineShape/it
+   SeeAlso: Part_SimpleCopy/it
 ---
 
 # Part TransformedCopy/it
 
+
+
 ## Descrizione
 
-[Copia modificata](Part_TransformedCopy/it.md) produce una copia non parametrica di un oggetto che è stato spostato dalla sua posizione originale.
+Il comando <img alt="" src=images/Part_TransformedCopy.svg  style="width:24px;"> **Part Copia trasformata** crea copie non parametriche di oggetti. È destinato agli oggetti nidificati in contenitori.
 
-Per produrre altre copie non parametriche utilizzare **<img src="images/Part_SimpleCopy.svg" width=16px> [Copia semplice](Part_SimpleCopy/it.md)**, **<img src="images/Part_ElementCopy.svg" width=16px>[Copia elemento](Part_ElementCopy/it.md)**, o **<img src="images/Part_RefineShape.svg" width=16px> [Affina forma](Part_RefineShape/it.md)**.
+Il **Placement** delle copie viene regolato, tenendo conto del posizionamento dei contenitori, in modo che la loro posizione e rotazione rispetto al sistema di coordinate globale sia la stessa di quella degli oggetti originali. Se gli oggetti selezionati non sono nidificati o nidificati in un contenitore con un posizionamento predefinito, questo comando produce gli stessi risultati di [Part Copia semplice](Part_SimpleCopy/it.md).
+
+
 
 ## Utilizzo
 
-1.  Selezionare un oggetto del quale si desidera effettuare una copia.
-2.  Andare nel menu **Part → Crea una copia → [<img src=images/Part_TransformedCopy.svg style="width:16px"> [Copia modificata](Part_TransformedCopy/it.md)**.
+1.  Selezionare uno o più oggetti.
+2.  Selezionare l\'opzione **Part → Crea una copia → <img src="images/Part_TransformedCopy.svg" width=16px> Crea copia trasformata** dal menu.
+
+
 
 ## Proprietà
 
-### Dati
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-La copia ha una semplice proprietà **Placement** come qualsiasi altra [Part Feature](Part_Feature/it.md).
+Gli oggetti creati sono oggetti [Part Feature](Part_Feature/it.md) senza proprietà aggiuntive.
 
-### Vista
 
-La copia ha una semplice proprietà vista come qualsiasi altra [Part Feature](Part_Feature/it.md).
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

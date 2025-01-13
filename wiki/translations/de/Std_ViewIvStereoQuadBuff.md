@@ -25,32 +25,19 @@ Der **Std AnsichtIvStereoVierfachPuffer** Befehl ändert den aktiven [3D Ansicht
 
 ## Einstellungen
 
--   Der Auge zu Auge Abstand kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeige → 3D Ansicht → Auge zu Auge Abstand für Stereomodi**. Siehe [Einstellungseditor](Preferences_Editor#3D_View/de.md).
+See [Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen#Preferences.md).
 
 
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um die Ansicht auf Vierfach Puffer Stereo zu ändern, verwende die Methode `setStereoType` des AktivAnsicht Objekts. Diese Methode ist nicht verfügbar, wenn sich FreeCAD im Konsolenmodus befindet.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.setStereoType('QuadBuffer')
-FreeCADGui.ActiveDocument.ActiveView.getStereoType()
-```
+See [Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

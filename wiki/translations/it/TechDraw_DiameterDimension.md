@@ -1,45 +1,27 @@
 ---
  GuiCommand:
-   Name: TechDraw  Dimension Diameter
-   Name/it: Diametro
+   Name: TechDraw DiameterDimension
+   Name/it: TechDraw Quota diametro
+   MenuLocation: TechDraw , Quotatura , Inserisci Quota diametro
    Workbenches: TechDraw_Workbench/it
-   MenuLocation: TechDraw , Diametro
-   Shortcut: 
    SeeAlso: TechDraw_RadiusDimension/it
 ---
 
 # TechDraw DiameterDimension/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Lo strumento **TechDraw Quota diametro** aggiunge una quota di diametro ad una Vista. La quota può essere applicata a qualsiasi bordo che sia un cerchio o un arco circolare.
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento Diametro aggiunge una dimensione di diametro a una vista.
-
-La dimensione può essere applicata a qualsiasi parte circolare del disegno. Inizialmente viene indicato il valore della distanza proiettata (vale a dire, come mostrato nel disegno), ma questo valore può essere sostituito con quello dell\'effettiva distanza 3D utilizzando lo strumento **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Link alla dimensione](TechDraw_LinkDimension/it.md)**.
-
-
-</div>
-
-For more information see [TechDraw RadiusDimension](TechDraw_RadiusDimension.md).
+Per ulteriori informazioni vedere [Quota raggio](TechDraw_RadiusDimension/it.md).
 
 <img alt="" src=images/TechDraw_Dimension_Diameter_example.png  style="width:130px;"> 
-*Misurazione di un cerchio, indicando il diametro*
-
-
-<div class="mw-translate-fuzzy">
+*Quotatura di un cerchio, indicando il diametro*
 
 
 
-
-
-</div>
 
 
 {{TechDraw Tools navi

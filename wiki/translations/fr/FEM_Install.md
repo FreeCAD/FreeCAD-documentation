@@ -1,10 +1,10 @@
 # FEM Install/fr
 ## Introduction
 
-Pour pouvoir effectuer une analyse par éléments finis (FEA) dans l\'**<img src="images/Workbench_FEM.svg" width=24px> [atelier FEM](FEM_Workbench/fr.md)**, FreeCAD utilise deux programmes externes : l'un est utilisé pour générer le [FEM Mesh](FEM_Mesh/fr.md), l'autre pour la résolution numérique du analyse réelle. Vous pouvez tester si votre installation FreeCAD est prête pour une FEA en exécutant l'exemple [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) fourni avec l\'installation de FreeCAD depuis la v0.17.
+Pour pouvoir effectuer une analyse par éléments finis dans l\'**<img src="images/Workbench_FEM.svg" width=24px> [atelier FEM](FEM_Workbench/fr.md)**, FreeCAD utilise deux programmes externes : l'un est utilisé pour générer le [FEM maillage](FEM_Mesh/fr.md) et l\'autre pour la résolution numérique de l\'analyse proprement dite. Vous pouvez tester si votre installation FreeCAD est prête pour une analyse par éléments finis en exécutant l'exemple [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) fourni avec l\'installation de FreeCAD depuis la v0.17.
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
-*Workflow de l'atelier FEM ; le plan de travail appelle deux programmes externes pour effectuer le maillage d'un objet solide et pour résoudre le problème des éléments finis*
+*Flux de travail de l'atelier FEM. L'atelier fait appel à deux programmes externes pour effectuer le maillage d'un objet solide et pour résoudre le problème des éléments finis*
 
 
 
@@ -57,28 +57,32 @@ Si le mailleur est installé, assurez-vous que l\'atelier FEM est capable de tro
 
 Pour créer un maillage FEM, vous pouvez utiliser *Netgen* comme alternative à *Gmsh*. Selon votre système d\'exploitation et votre installation de FreeCAD, Netgen peut être fourni avec les binaires d\'installation de FreeCAD.
 
-Si le programme est correctement installé, vous pouvez lancer la commande `netgen` dans le terminal sous Linux pour lancer l\'interface graphique du programme.
+Si le programme est correctement installé, vous pouvez lancer la commande `netgen` dans le terminal sous Linux pour lancer l\'interface graphique du programme :
 
 
 {{SystemInput|User@PC:~$ netgen -V}}
 
 
+{{VersionPlus/fr|1.0}}
+
+: une nouvelle implémentation améliorée de Netgen est disponible. Grâce à elle, Netgen peut enfin être utilisé avec FreeCAD sur Linux. Les extensions Python de Netgen doivent être installées pour utiliser la nouvelle implémentation :
+
+
 ```python
-NETGEN-6.2-dev
-Developed by Joachim Schoeberl at
-2010-xxxx Vienna University of Technology
-2006-2010 RWTH Aachen University
-1996-2006 Johannes Kepler University Linz
-Including OpenCascade geometry kernel
-Run parallel Netgen with 'mpirun -np xy netgen'
-NETGENDIR = .
-Tcl header version = 8.6.8
-Tcl runtime version = 8.6.8 
-using internal Tcl-script
-optfile ./ng.opt does not exist - using default values
-togl-version : 2
-OCC module loaded
+pip install --upgrade ngsolve
 ```
+
+Si la commande ci-dessus n\'est pas suffisante, on peut essayer ce qui suit à partir de la [console Python](Python_console/fr.md) dans FreeCAD :
+
+
+```python
+import os, subprocess
+temp_dir = os.path.dirname(os.sys.executable)
+py_path = os.path.join(temp_dir, "python")
+subprocess.run([py_path, "-m", "pip", "install", "--user", "netgen-mesher"])
+```
+
+ou compiler Netgen à partir des sources. Cela peut s\'avérer nécessaire pour les utilisateurs de Windows et les ordinateurs dotés de vieux processeurs. Une explication peut être trouvée dans [ce fil](https://forum.ngsolve.org/t/problems-with-netgen-pip-package/3078/2) sur le forum Netgen.
 
 
 
@@ -113,7 +117,7 @@ sudo apt-get install gmsh
 sudo apt-get install calculix-ccx
 ```
 
-Le PPA [freecad-community](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) fournit également les `netgen`, `gmsh` et `calculix-ccx` paquets à tester. S\'ils sont suffisamment stables, ils peuvent être ajoutés aux référentiels quotidiens ou stables. Les binaires pour ccx 2.14 fonctionnent sur Debian Stretch mais pas sur Debian Buster en raison de problèmes de dépendance.
+Le PPA [freecad-community](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) fournit également les paquets `netgen`, `gmsh` et `calculix-ccx` à tester. S\'ils sont suffisamment stables, ils peuvent être ajoutés aux dépôts quotidiens ou stables. Les binaires pour ccx 2.14 fonctionnent sur Debian Stretch mais pas sur Debian Buster en raison de problèmes de dépendance.
 
 
 **Note :**
@@ -157,7 +161,7 @@ Les auteurs CalculiX fournissent un binaire Linux précompilé du solveur. Il pe
 
 Pour utiliser le binaire avec Fedora 21, voir le fil [Making FEM run on linux fedora 21](http://forum.freecadweb.org/viewtopic.php?f=18&t=10140). Pour les versions plus récentes de Fedora, vous devez compiler CalculiX vous-même.
 
-Si vous utilisez ce binaire, vérifiez que le binaire est exécutable, qu\'il se trouve dans l\'exécutable `$PATH` de votre système et que vous disposez de la version nécessaire des bibliothèques (`libgfortran`, `liblapack`, `libblas`, etc.) pour lequel il a été compilé. Ceci est mentionné dans le message du forum [atelier FEM](http://forum.freecadweb.org/viewtopic.php?f=3&t=11830&start=20#p95741).
+Si vous utilisez ce binaire, vérifiez que le binaire est exécutable, qu\'il se trouve dans le `$PATH` exécutable de votre système et que vous disposez de la version nécessaire des bibliothèques (`libgfortran`, `liblapack`, `libblas`, etc.) pour lequel il a été compilé. Ceci est mentionné dans le message du forum [atelier FEM](http://forum.freecadweb.org/viewtopic.php?f=3&t=11830&start=20#p95741).
 
 Utilisez la commande `ldd` pour voir les bibliothèques liées par le binaire. Installez les dépendances manquantes.
 
@@ -188,6 +192,21 @@ linux-vdso.so.1 (0x00007fffbabdc000)
  libutil.so.1 => /lib/x86_64-linux-gnu/libutil.so.1 (0x00007fe9b7e14000)
  libnuma.so.1 => /usr/lib/x86_64-linux-gnu/libnuma.so.1 (0x00007fe9b7c09000)
  libltdl.so.7 => /usr/lib/x86_64-linux-gnu/libltdl.so.7 (0x00007fe9b79ff000)
+```
+
+Une des dépendances mentionnées ci-dessus (`libgfortran.so.4`) nécessaire à CalculiX peut causer des problèmes avec les nouvelles versions d\'Ubuntu où seul `libgfortran5` est disponible. En plus d\'utiliser l\'ancienne version de CalculiX (2.17) disponible via `sudo apt-get install calculix-ccx`, il est possible de compiler une nouvelle version de CalculiX. Il n\'est pas nécessaire de le faire manuellement puisqu\'il existe un script hébergé sur [ce site](https://www.feacluster.com/install/install) qui peut être obtenu et utilisé avec les commandes suivantes :
+
+
+```python
+wget https://feacluster.com/install/install
+perl install
+```
+
+Le script est interactif et demande quelques informations comme le type de solveur de matrice (Spooles ou Pardiso). Pour construire une version différente de CalculiX, il suffit de changer la ligne suivante dans le script :
+
+
+```python
+$version = '2.2x';
 ```
 
 

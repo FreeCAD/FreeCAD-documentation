@@ -22,13 +22,29 @@ Le preferenze per l\'ambiente [TechDraw](TechDraw_Workbench/it.md) si trovano ne
 
 </div>
 
+There are seven pages: [General](#General.md), [Scale](#Scale.md), [Dimensions](#Dimensions.md), [Annotation](#Annotation.md), [Colors](#Colors.md), [HLR](#HLR.md) and [Advanced](#Advanced.md).
+
+
+<div class="mw-translate-fuzzy">
+
 Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori predefiniti per i nuovi oggetti inseriti nel disegno. Non hanno alcun effetto sugli oggetti esistenti.
+
+
+</div>
+
+This page has been updated for version 1.0.
 
 
 
 ## Generale
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="Preferenze generali" src=images/TechDraw_PreferencesGeneral.png  style="width:350px;">
+
+
+</div>
 
 
 
@@ -99,7 +115,17 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 ### Selection
 
--   **Enable Multiselection Mode**: If enabled, clicking without **Ctrl** does not clear the existing selection. <small>(v0.22)</small> 
+-   **Enable Multiselection Mode**: If enabled, clicking without **Ctrl** does not clear the existing selection. <small>(v1.0)</small> 
+
+### View Defaults 
+
+-   **Use 3d Camera Direction**: If checked, the 3d camera direction (or normal of a selected face) will be used as the view direction. If not checked, Views will be created as Front Views. <small>(v1.0)</small> 
+-   **Always Show Label**: If checked, view labels will be displayed even when frames are suppressed. <small>(v1.0)</small> 
+
+### Snapping
+
+-   **Snap View Alignment**: If checked, Views will be snapped into alignment when dragged. <small>(v1.0)</small> 
+-   **View Snapping Factor**: Tolerance for snapping of Views - if a View is within this fraction of View size of perfect alignment, it will snap into alignment. <small>(v1.0)</small> 
 
 
 
@@ -111,7 +137,13 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="Preferenze di Scala" src=images/TechDraw_PreferencesScale.png  style="width:350px;">
+
+
+</div>
 
 
 
@@ -139,9 +171,13 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 
 
-## Dimensioni
+## Quotatura
 
-<img alt="Preferenze per le dimensioni" src=images/TechDraw_PreferencesDimensions.png  style="width:350px;">
+<img alt="Preferenze quoattura" src=images/Preferences_TechDraw_Page_Dimensions.png  style="width:350px;">
+
+
+
+### Quotatura 
 
 
 <div class="mw-translate-fuzzy">
@@ -159,11 +195,28 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 </div>
 
+### Tools
+
+-   **Dimensioning tools**: Select the type of dimensioning tools for the toolbar. Whichever you choose, all tools are always available in the menu and through shortcuts. The options are: <small>(v1.0)</small> 
+    -   *Single tool*: A [single tool](TechDraw_Dimension.md) for all dimensioning in the toolbar: Distance, Distance X / Y, Angle, Radius. Others in dropdown.
+    -   *Separated tools*: Individual tools for each dimensioning tool.
+    -   *Both*: You will have both the \'Single tool\' and the separated tools.
+-   **Dimension tool diameter/radius mode**: While using the [Dimension](TechDraw_Dimension.md) tool you may choose how to handle circles and arcs: <small>(v1.0)</small> 
+    -   *Auto*: The tool will apply radius to arcs and diameter to circles.
+    -   *Diameter*: The tool will apply diameter to all.
+    -   *Radius*: The tool will apply radius to all.
+
 
 
 ## Annotazioni
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="Preferenze per le annotazioni" src=images/TechDraw_PreferencesAnnotation.png  style="width:350px;">
+
+
+</div>
 
 ### Annotation
 
@@ -196,10 +249,11 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 -   **Line Standard**: Standard to be used to draw section lines in [section views](TechDraw_SectionView.md).
 -   **Line Width Group**: A [LineGroup](TechDraw_LineGroup.md) to set the default line widths.
--   **Hidden Line Style**: Style of hidden lines. <small>(v0.22)</small> 
+-   **Hidden Line Style**: Style of hidden lines. <small>(v1.0)</small> 
 -   **Section Line Style**: Style for section lines.
 -   **Detail Highlight Style**: Line style of the outline shape for [detail views](TechDraw_DetailView.md).
 -   **Center Line Style**: Default style for [centerlines](TechDraw_FaceCenterLine.md).
+-   **Break Line Style**: Default style for lines used to indicate [BrokenViews](TechDraw_BrokenView.md). <small>(v1.0)</small> 
 -   **Line End Cap Shape**: The default (round) should almost always be the right choice. Flat or square caps are useful if you are planning to use a drawing as a 1:1 cutting guide.
 
 
@@ -242,7 +296,13 @@ Impostazione dei colori predefiniti per le nuove pagine.
 
 ## HLR
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="Preferenze per HLR" src=images/TechDraw_PreferencesHLR.png  style="width:350px;">
+
+
+</div>
 
 HLR sta per *hidden line removal* (rimozione della linea nascosta).
 
@@ -263,7 +323,13 @@ HLR sta per *hidden line removal* (rimozione della linea nascosta).
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="Preferenze avanzate" src=images/TechDraw_PreferencesAdvanced.png  style="width:350px;">
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

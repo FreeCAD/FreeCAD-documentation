@@ -2,7 +2,7 @@
  GuiCommand:
    Name: SheetMetal UnattendedUnfold
    Name/de: SheetMetal AbwickelnOhneEingabe
-   MenuLocation: SheetMetal , Unattended Unfold
+   MenuLocation: Sheet Metal , Abwickeln ohne Eingaben
    Workbenches: SheetMetal_Workbench/de
    Shortcut: **U**
 
@@ -27,12 +27,13 @@ Mit der ersten Benutzung des Befehls <img alt="" src=images/SheetMetal_Unfold.sv
 ## Anwendung
 
 1.  Eine ebene Fläche eines SheetMetal-Objekts auswählen.
-2.  Den Befehl <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold/de.md) aktivieren durch:
-    -   Die Schaltfläche **<img src="images/_SheetMetal_UnattendedUnfold.svg_" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)
-**
-    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)
-**
-    -   Das Tastenkürzel: **U**
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/SheetMetal_UnattendedUnfold.svg_" width=16px> [Abwickeln ohne Eingaben](SheetMetal_UnattendedUnfold/de.md)** drücken.
+    -   Den Menüeintrag **Sheet Metal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> Abwickeln ohne Eingaben** auswählen.
+    -   Ein Rechtsklick in die [Baumansicht](Tree_view/de.md) oder die [3D-Ansicht](3D_view/de.md) und die Menüoption **Sheet Metal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> Abwickeln ohne Eingaben** im Kontextmenü auswählen.
+    -   Das Tastaturkürzel: **U**.
+3.  Ein **Unfold**-Objekt wird erstellt.
+4.  Wahlweise die Parameter im [Eigenschafteneditor](Property_editor/de.md) anpassen.
 
 
 
@@ -46,16 +47,7 @@ Damit dieser Befehl zur Verfügung steht, muss zuerst der Engineering Mode in de
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Das SheetMetal-**Unfold**-Objekt, wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Es hat keine zusätzlichen Eigenschaften, aber sein Label hat einen Standardwert:
-
-
-
-### Daten
-
-
-{{Properties_Title/de|Basis}}
-
--    **Label|String**: Standardwert: Der vom Benutzer änderbare Name dieses Objekts, der aus einer beliebigen UTF8-Zeichenkette bestehen kann.
+Das SheetMetal-**Unfold**-Objekt, wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Es hat keine zusätzlichen Eigenschaften.
 
 
 

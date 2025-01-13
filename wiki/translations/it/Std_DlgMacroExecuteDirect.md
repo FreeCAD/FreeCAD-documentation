@@ -20,7 +20,7 @@ Il comando **Esegui la macro nell\'editor** esegue la macro nella finestra dell\
 
 ## Utilizzo
 
-1.  Se necessario, aprire la macro corretta nell\'editor delle macro. Vedere il comando [Esegui la macro](Std_DlgMacroExecute/it.md).
+1.  Se necessario, aprire la macro corretta nell\'editor delle macro. Vedere [Esegui la macro](Std_DlgMacroExecute/it.md).
 2.  Assicurarsi che la finestra dell\'editor macro abbia il focus di input.
 3.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Esegui la macro](Std_DlgMacroExecuteDirect/it.md)**.
@@ -38,7 +38,7 @@ Il comando **Esegui la macro nell\'editor** esegue la macro nella finestra dell\
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

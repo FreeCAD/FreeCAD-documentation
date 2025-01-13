@@ -43,12 +43,24 @@ Es ist darauf zu achten, dass das Body-Objekt, welches das zu prägende Objekt e
 4.  
     **Strg**-Taste (bzw. **Command**-Taste) loslassen.
 
-5.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren durch:
-    -   Die Schaltfläche **<img src="images/SheetMetal_Forming.svg" width=16px> [Prägen](SheetMetal_Forming/de.md)
-**
-    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Prägen
-**
-    -   Das Tastenkürzel: **M** dann **F**
+5.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/SheetMetal_Forming.svg" width=16px> [Prägen](SheetMetal_Forming/de.md)** drücken.
+    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Prägen** auswählen.
+    -   Ein Rechtsklick in die [Baumansicht](Tree_view/de.md) oder die [3D-Ansicht](3D_view/de.md) und die Menüoption **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Prägen** im Kontextmenü auswählen.
+    -   Das Tastaturkürzel **M** dann **F**.
+
+6.  Das [Aufgaben-Fenster](Task_panel/de.md) **Binded faces/edges list** wird geöffnet (eingeführt in Version 0.5.00).
+
+7.  Wahlweise die Schaltfläche **Auswahl** drücken, um weitere Eckpunkte auszuwählen.
+    -   Die Schaltfläche **Vorschau** drücken, um die Auswahl abzuschließen und die Änderungen anzuzeigen.
+
+8.  Wahlweise die Parameter im Aufgaben-Fenster anpassen.
+
+9.  Die Schaltfläche **OK** rücken, um den Befehl abzuschließen und das Aufgaben-Fenster zu schließen.
+
+10. Ein **WallForming**-Objekt wird im Mittelpunkt der ausgewählten zu prägenden Fläche erstellt.
+
+11. Wahlweise die Parameter im [Eigenschafteneditor](Property_editor/de.md) anpassen.
 
 
 
@@ -65,7 +77,7 @@ Es ist darauf zu achten, dass das Body-Objekt, welches das zu prägende Objekt e
 5.  
     **Strg**-Taste (bzw. **Command**-Taste) loslassen.
 
-6.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren (siehe oben).
+6.  Den Befehl aufrufen und den weiteren Schritten folgen, wie oben beschrieben.
 
 
 
@@ -84,7 +96,7 @@ Es ist darauf zu achten, dass das Body-Objekt, welches das zu prägende Objekt e
 6.  
     **Strg**-Taste (bzw. **Command**-Taste) loslassen.
 
-7.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren (siehe oben).
+7.  Den Befehl aufrufen und den weiteren Schritten folgen, wie oben beschrieben.
 
 
 
@@ -101,7 +113,7 @@ Es ist darauf zu achten, dass das Body-Objekt, welches das zu prägende Objekt e
 5.  
     **Strg**-Taste (bzw. **Command**-Taste) loslassen.
 
-6.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren (siehe oben):
+6.  Den Befehl aufrufen und den weiteren Schritten folgen, wie oben beschrieben.
 
 
 
@@ -144,20 +156,11 @@ Prägen und Verrunden sollten die letzten Schritte der Erstellung eines SheetMet
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Ein SheetMetal-WallForming-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+Ein SheetMetal-WallForming-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet oder, wenn es sich in einem [PartDesign-Körper](PartDesign_Body/de.md) befindet, von einem [PartDesign Formelement](PartDesign_Feature/de.md) und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
 
 
 ### Daten
-
-
-{{Properties_Title/de|Basis}}
-
--    {{PropertyData/de|Label|String}}: Standardwert: Der vom Benutzer änderbare Name dieses Objekts, der aus einer beliebigen UTF8-Zeichenkette bestehen kann.
-
--    {{PropertyData/de|Base Feature|Link|hidden}}: Base Feature. Verweis zum Eltern-Objekt.
-
--    {{PropertyData/de|_Body|LinkHidden|hidden}}: Unsichtbarer Verweis zum Eltern-Body.
 
 
 {{Properties_Title/de|Parameters}}
@@ -170,7 +173,7 @@ Ein SheetMetal-WallForming-Objekt wird von einem [Part-Formelement](Part_Feature
 
 -    {{PropertyData/de|offset|VectorDistance}}: \"Offset from Center of Face\". Abstand vom Flächenzentrum. Standard: {{value|[0,00 mm, 0,00 mm, 0,00 mm]}}.
 
--    {{PropertyData/de|thickness|Distance}}: \"Thickness of Sheetmetal\". Dicke des {{PropertyData/de|Base Feature||hidden}}.
+-    {{PropertyData/de|thickness|Distance}}: \"Thickness of Sheetmetal\". Dicke des Basiselements in der {{PropertyData/de|Base Feature||hidden}}.
 
 -    {{PropertyData/de|tool Object|LinkSub}}: \"Forming Tool Object\". Verknüpfung zu der ebenen Fläche, die verwendet wird, um das formgebende Werkzeug zu positionieren.
 
@@ -203,7 +206,7 @@ Es ist hier nicht nötig mit komplanaren Skizzen zu arbeiten.
 
 
 
-## Arbeitsablauf
+### Arbeitsablauf
 
 1.  Die Fläche des SheetMetal-Objekts auswählen, die eingeprägt werden soll.
 2.  Die **Rückseite** des formgebenden Objekts auswählen  (Nicht vergessen, dass der zu prägende **und** der formgebende Festkörper ausgewählt sein müssen. Die dem Betriebssystem entsprechende Mehrfachauswahl aktivieren: <img alt="" src=images/SheetMetal_Forming-04.png  style="width:240px;">

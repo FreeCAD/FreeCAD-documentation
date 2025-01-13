@@ -12,7 +12,7 @@
 
 ## Descrizione
 
-**Part Specchia** crea un nuovo oggetto (immagine) che è un riflesso dell\'oggetto originale (sorgente). L\'oggetto immagine viene creato dietro un piano speculare. Il piano dello specchio può essere un piano standard (**XY**, **YZ** o **XZ**), qualsiasi piano parallelo a un piano standard o ({{Version/it|0.22}}) qualsiasi piano arbitrario utilizzando un oggetto di riferimento.
+**Part Specchia** crea un nuovo oggetto (immagine) che è un riflesso dell\'oggetto originale (sorgente). L\'oggetto immagine viene creato dietro un piano speculare. Il piano dello specchio può essere un piano standard (**XY**, **YZ** o **XZ**), qualsiasi piano parallelo a un piano standard o ({{Version/it|1.0}}) qualsiasi piano arbitrario utilizzando un oggetto di riferimento.
 
 Esempio:
 
@@ -41,7 +41,11 @@ Esempio:
 3.  Se non si ha ancora selezionato oggetti o si desidera modificare la selezione: scegliere uno o più oggetti dall\'elenco **Forme**.
 4.  Effettuare una delle seguenti operazioni:
     -   Selezionare un **Piano di specchiatura** standard dall\'elenco a discesa.
-    -   Selezionare un oggetto di riferimento nella [Vista ad albero](Tree_view/it.md) o nella [Vista 3D](3D_view/it.md). L\'oggetto di riferimento può essere qualsiasi faccia planare o bordo circolare.
+
+    -   
+        {{Version/it|1.0}}
+        
+        :Selezionare un oggetto di riferimento nella [Vista ad albero](Tree_view/it.md) o nella [Vista 3D](3D_view/it.md). L\'oggetto di riferimento può essere qualsiasi faccia planare o bordo circolare.
 5.  Premere il pulsante **OK**.
 6.  Per ciascun oggetto sorgente viene creato un oggetto Part Specchio separato.
 

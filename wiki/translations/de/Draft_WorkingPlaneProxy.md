@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft WorkingPlaneProxy
    Name/de: Draft ArbeitsebenenProxy
-   MenuLocation:  Dienstprogramme , Arbeitsebenen-Proxy erstellen
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation:  Dienstprogramme , Arbeitsebenen-Proxy erstellen<br>Werkzeuge , Arbeitsebenen-Proxy erstellen
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    SeeAlso: Draft_SelectPlane/de
 ---
 
@@ -26,8 +26,9 @@ Der Befehl <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px
 2.  Wahlweise die [3D-Ansicht](3D_view/de.md) wechseln.
 3.  Wahlweise die Sichtbarkeit von Objekten im Dokument ändern.
 4.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Arbeitsebenen-Proxy erstellen](Draft_WorkingPlaneProxy/de.md)** drücken.
-    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Arbeitsebenen-Proxy erstellen** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Die Schaltfläche **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Arbeitsebenen-Proxy erstellen](Draft_WorkingPlaneProxy/de.md)** drücken.
+    -   Draft: Den Menüeintrag **Dienstprogramme → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Arbeitsebenen-Proxy erstellen** auswählen oder die Menüoption im Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Werkzeuge → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Arbeitsebenen-Proxy erstellen** auswählen.
 5.  Ein Arbeitsebenen-Proxy wird erstellt.
 6.  Zum Ausrichten einer [Arbeitsebene](Draft_SelectPlane/de.md) an einem Arbeitsebenen-Proxy klickt man doppelt auf den Arbeitsebenen-Proxy in der [Baumansicht](Tree_view/de.md) oder verwendet ihn mit dem Befehl [Draft EbeneAuswählen](Draft_SelectPlane/de.md).
 
@@ -98,7 +99,7 @@ Ein Draft ArbeitsebenenProxy wird von einem [App FeaturePython](App_FeaturePytho
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Zum Erstellen eines Draft Arbeitsebenen-Proxys verwendet man die Methode `make_workingplaneproxy` des Draft-Moduls.
 

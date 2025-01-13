@@ -1,37 +1,41 @@
 # WikiRobots/de
 **Roboter sind von Natur aus gefährlich, da sie automatisch viel Schaden anrichten können. Verwende sie mit äußerster Vorsicht!**
 
+
+
 ## Übersicht
 
-Wiederkehrende Aufgaben können mit Hilfe von Robotern oder Bots automatisiert werden, d.h. mit Softwareprogrammen, die selbstständig auf dem Wiki arbeiten.
+Wiederkehrende Aufgaben können mit Hilfe von Robotern bzw. Bots automatisiert werden, d.h. mit Softwareprogrammen, die das Wiki eigenständig arbeiten.
 
-Die natürlichen und am häufigsten verwendeten Roboter für Wiki Seiten werden von MediaWiki unter dem Paketnamen Pywikibot zur Verfügung gestellt. Siehe [Handbuch:Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) für die vollständigen Informationen.
+Die natürlichen und am häufigsten verwendeten Roboter für Wiki-Seiten werden von MediaWiki unter dem Paketnamen Pywikibot zur Verfügung gestellt. Siehe [Handbuch:Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot/de) für die vollständigen Informationen.
 
-Kurz gesagt, Pywikibot ist eine Sammlung von Python Skripten, die die native Wiki API verwenden können, um auf Wiki Seiten zu agieren. Um die API Liste für das FreeCAD Wiki zu sehen, besuche <http://www.freecadweb.org/wiki/api.php>
+Kurz gesagt, Pywikibot ist eine Sammlung von Python-Skripten, die die native Wiki-API verwenden können, um auf Wiki-Seiten zu agieren. Um die API-Liste für das FreeCAD-Wiki zu sehen, besuche <http://www.freecadweb.org/wiki/api.php>
 
 Um Pywikibot verwenden zu können, musst du dies tun:
 
-1.  installiere das Pywikibot Paket
-2.  konfiguriere Pywikibot so, dass es im FreeCAD Wiki funktioniert
-3.  starte die Skripte, die du für die anstehende Aufgabe benötigst
+1.  Das Pywikibot-Paket installieren
+2.  Pywikibot so konfigurieren, dass er im FreeCAD-Wiki funktioniert
+3.  Die Skripte starten, die für die anstehende Aufgabe benötigt werden.
 
-Es gibt eine Fülle von Informationen über die Installation, Konfiguration und Benutzung von Pywikibot. Bitte beachte jedoch, dass diese Informationen zwar nützlich, aber auch irreführend sein können, da sie Anweisungen vermischen, die sich auf zwei verschiedene Pywikibot Codebasen und verschiedene Versionen der Pywikibot Skriptsammlung beziehen.
+Es gibt eine Fülle von Informationen über die Installation, Konfiguration und Benutzung von Pywikibot. Bitte beachte jedoch, dass diese Informationen zwar nützlich, aber auch irreführend sein können, da sie Anweisungen vermischen, die sich auf zwei verschiedene Pywikibot-Codebasen und verschiedene Versionen der Pywikibot-Skriptsammlung beziehen.
 
-Im Folgenden findest du die grundlegenden Anweisungen zum Einrichten und Verwenden von Pywikibot im FreeCAD Wiki. Damit kannst du die gängigsten Aufgaben durchführen. Für fortgeschrittene Nutzung findest du das [Handbuch:Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) und den Python Quellcode.
+Im Folgenden findest du die grundlegenden Anweisungen zum Einrichten und Verwenden von Pywikibot im FreeCAD-Wiki. Damit kannst du die gängigsten Aufgaben durchführen. Für fortgeschrittene Nutzung siehe [Handbuch:Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) und den Python-Quellcode.
 
-## Einrichtung
+## Installation
 
 Gehe zu <http://tools.wmflabs.org/pywikibot/> und lade **package/pywikipedia/core.zip** herunter (das Projekt steht auch unter github, gerrit, usw., aber dies ist ein einfacher Weg, um ein vollständig in sich geschlossenes Paket zu erhalten).
 
 Entpacke den Inhalt in deinem bevorzugten Verzeichnis.
 
-Wenn du die Bibliotheken nicht in deine Python Bibliotheken installieren willst, bist du fertig (wenn du sie immer noch installieren willst, überprüfe die Datei **INSTALL** im Basisverzeichnis).
+Wenn du die Bibliotheken nicht in deine Python-Bibliotheken installieren willst, bist du fertig (wenn du sie immer noch installieren willst, überprüfe die Datei **INSTALL** im Basisverzeichnis).
 
-Pywikibot funktioniert mit Python 2.6 und 2.7 ohne Probleme. Python 3 wurde bisher nicht mit FreeCAD wiki getestet und funktioniert ebenfalls.
+Pywikibot funktioniert mit Python 2.6 und 2.7 ohne Probleme. Python 3 wurde bisher nicht mit FreeCAD-wiki getestet funktioniert ebenfalls.
+
+
 
 ## Konfiguration
 
-Du musst den folgenden Python Code als Datei mit dem Namen **user-config.py** in dem Basisverzeichnis speichern, in das du entpackt hast **package/pywikipedia/core.zip** (zur Verdeutlichung: im gleichen Verzeichnis, in dem sich bereits eine Datei namens **user-config.py.sample** befindet).
+Du musst den folgenden Python-Code als Datei mit dem Namen **user-config.py** in dem Basisverzeichnis speichern, in das du entpackt hast **package/pywikipedia/core.zip** (zur Verdeutlichung: im gleichen Verzeichnis, in dem sich bereits eine Datei namens **user-config.py.sample** befindet).
 
 
 ```python
@@ -45,8 +49,8 @@ console_encoding = 'cp437'
 
 Im obigen Code:
 
--   ersetze *\<\>* durch deinen Wiki-Benutzernamen
--   ersetze *cp437* durch dein *console_encoding*. Um dein \"console encoding\" unter Windows bzw. Linux herauszufinden, starte den Python-Interpreter und gib {{SystemInput|import sys}} gefolgt von {{SystemInput|print sys.stdout.encoding}} ein. Python wird dein {{SystemOutput|console_encoding}} auf dem Bildschirm anzeigen.
+-   *\<\>* durch deinen Wiki-Benutzernamen ersetzen.
+-   *cp437* durch dein *console_encoding* ersetzen. Um dein \"console encoding\" unter Windows bzw. Linux herauszufinden, starte den Python-Interpreter und gib {{SystemInput|import sys}} gefolgt von {{SystemInput|print sys.stdout.encoding}} ein. Python wird dein {{SystemOutput|console_encoding}} auf dem Bildschirm anzeigen.
 
 Dann musst du den folgenden Python-Code in einer Datei unter dem Namen **freecadwiki_family.py** im Unterverzeichnis **/pywikibot/families** (zusammen mit den anderen **family_xxx.py** Dateien) speichern.
 
@@ -91,6 +95,8 @@ class Family(family.WikimediaFamily):
         #return 'https' # My server uses https
 ```
 
+
+
 ## Anwendung
 
 Du kannst nun die Pywikibot-Skripte ausführen. Die Skripte selbst sind im **/scripts**-Unterverzeichnis enthalten.
@@ -107,7 +113,9 @@ Für eine Beschreibung von Anwendung und Parametern für ein beliebiges Skript b
 
 {{SystemInput|python pwb.py replace.py -help}}
 
-Es gibt einen weiteren sehr hilfreichen Parameter, der für alle diese Skripte gültig ist, genannt \"-simulate\", der es dir erlaubt, Befehle auszuprobieren, ohne das Wiki zu verändern. Benutze ihn, bevor du \'live\' gehst.
+Es gibt einen weiteren sehr hilfreichen Parameter, der für alle diese Skripte gültig ist, genannt \"-simulate\", der es ermöglicht, Befehle auszuprobieren, ohne das Wiki zu verändern. Benutze ihn, bevor du \'live\' gehst.
+
+
 
 ## Beispiele
 
@@ -121,34 +129,34 @@ Dieser Befehl druckt eine Liste aller Seiten, die einen Verweis auf SourceForge 
 
 {{SystemInput|pwb.py listpages.py -weblink:sourceforge.net}}
 
-Dieser Befehl ersetzt alle Verweise auf das alte SourceForge Forum durch einen Verweis auf das neue freecadweb.org bereitgestellte Forum
+Dieser Befehl ersetzt alle Verweise auf das alte SourceForge-Forum durch einen Verweis auf das neue, auf freecad.org bereitgestellte Forum
 
 
-{{SystemInput|pwb.py replace.py -weblink:sourceforge.net/apps/phpbb/free-cad "sourceforge.net/apps/phpbb/free-cad" "forum.freecadweb.org"}}
+{{SystemInput|pwb.py replace.py -weblink:sourceforge.net/apps/phpbb/free-cad "sourceforge.net/apps/phpbb/free-cad" "forum.freecad.org"}}
 
 Dieser Befehl druckt eine Liste aller Seiten, die das Wort \"PartDesign\" enthalten, beginnend mit der Seite \"2d Drafting Module\" und weiter alphabetisch geordnet
 
 
 {{SystemInput|pwb.py listpages.py -start:"2d Drafting Module" -grep:PartDesign}}
 
-Dieser Befehl ersetzt alle sicheren Verweise auf das alte SourceForge Forum durch einen Verweis auf das neue freecadweb.org bereitgestellte Forum auf den übersetzten Seiten.
+Dieser Befehl ersetzt alle sicheren Verweise auf das alte SourceForge-Forum durch einen Verweis auf das neue, auf freecadweb.org bereitgestellte Forum auf den übersetzten Seiten.
 
 
-{{SystemInput|pwb.py replace.py -start:Translations:! "https://sourceforge.net/apps/phpbb/free-cad" "http://forum.freecadweb.org"}}
+{{SystemInput|pwb.py replace.py -start:Translations:! "https://sourceforge.net/apps/phpbb/free-cad" "http://forum.freecad.org"}}
 
-## FreeCAD Wiki Verwandte Befehle 
+## Befehle mit Bezug zum FreeCAD-Wiki 
 
-Zählt alle Seiten, in denen eine bestimmte Wiki Vorlage verwendet wird
+Zählt alle Seiten, in denen eine bestimmte Wiki-Vorlage verwendet wird
 
 
 {{SystemInput|python3 pwb.py templatecount -count GuiCommand}}
 
-Alle Seiten auflisten, in denen eine bestimmte Wiki Vorlage verwendet wird
+Listet alle Seiten auf, in denen eine bestimmte Wiki-Vorlage verwendet wird
 
 
 {{SystemInput|python3 pwb.py templatecount -list GuiCommand}}
 
-Ersetze eine Zeichenfolge in allen Seiten, die in der Kategorie Arch aufgeführt sind (a/k/a )
+Ersetzt eine Zeichenfolge auf allen Seiten, die in der Kategorie Arch aufgeführt sind
 
 
 {{SystemInput|python3 pwb.py replace.py -cat:Arch}}

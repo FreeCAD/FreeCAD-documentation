@@ -60,7 +60,14 @@ Stiskněte tlačítko **<img src="images/Arch_Stairs.png" width=32px> Schody
 
 </div>
 
-<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;"> 
+<img alt="" src=images/Stairs_and_Landing_02.png  style="width:600px;">
+
+<img alt="" src=images/Stairs_and_Landing_01.png  style="width:600px;">
+
+<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;">
+
+
+
 *Complex stairs based on a selection of lines and wired as shown on the left.<br>
 In red the wires used for the landings at Z&equals;1500mm, Z&equals;3000mm and Z&equals;4500mm.<br>
 In black the lines connecting them used for the flights.
@@ -79,13 +86,13 @@ In black the lines connecting them used for the flights.
 
 -    **Last Segment|Link**: Last segment (flight or landing) of an Arch Stairs connecting to this segment. The start level of the stairs will be the end level of this last segment.
 
--    **Outline Left|VectorList**: The left outline of the stairs.
+-    **Outline Left|VectorList**: The left outline of the stairs (read-only).
 
--    **Outline Left All|VectorList**: The left outline of all segments of the stairs.
+-    **Outline Left All|VectorList**: The left outline of all segments of the stairs (read-only).
 
--    **Outline Right|VectorList**: The right outline of the stairs.
+-    **Outline Right|VectorList**: The right outline of the stairs (read-only).
 
--    **Outline Right All|VectorList**: The right outline of all segments of the stairs.
+-    **Outline Right All|VectorList**: The right outline of all segments of the stairs (read-only).
 
 -    **Railing Height Left|Length**: Height of the left railing of the stairs or landing.
 
@@ -209,6 +216,11 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/cs
+⏵ [documentation index](../README.md) > Arch Stairs/cs

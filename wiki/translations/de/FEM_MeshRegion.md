@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/de
    Name: FEM MeshRegion
    Name/de: FEM Netzbereich
    MenuLocation: Netz , FEM mesh refinement
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
+}}
+{{GuiCommandFemInfo/de
+   Solvers: Alle
+}}
 ---
 
 # FEM MeshRegion/de
@@ -21,18 +26,17 @@ Refining the mesh has the advantage of enabling accurate simulation where needed
 
 ## Anwendung
 
-1.  To enable the function a mesh must be first provided <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md).
-    -   Select the Mesh object in the Model Tree and press the **<img src="images/FEM_MeshRegion.svg" width=32px> [FEM mesh refinement](FEM_MeshRegion.md)** button.
-    -   Select the Mesh object in the Model Tree and select the **Mesh → <img src="images/FEM_MeshRegion.svg" width=32px> FEM mesh refinement** option from the menu.
-2.  Edit the maximum element size for the region.
-3.  Click the **OK** button.
-4.  Close the task.
+1.  To enable the function a <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:16px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md) or (<small>(v1.1)</small> ) <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:16px;"> [FEM mesh from shape by Netgen](FEM_MeshNetgenFromShape.md) must be first provided. Select the Mesh object in the Model Tree and either press the **<img src="images/FEM_MeshRegion.svg" width=16px> [FEM mesh refinement](FEM_MeshRegion.md)** button or use the **Mesh → <img src="images/FEM_MeshRegion.svg" width=16px> FEM mesh refinement** menu option.
+2.  Press the **Add** button and select one or more of either *faces*, *edges* or *vertices* in the [3D view](3D_view.md) to apply the mesh refinement to. The selected items will appear in the list of geometrical objects. The selection mode can be also set to *Solid*.
+3.  Enter the maximum element size for the region.
+4.  Click the **OK** button.
+5.  Close the task.
 
-    :   Result: You now should see a new `FEMMeshRegion` object under the `FEMMeshGMSH` object (see example #3 below) in your active analysis container.
-5.  Double-click on the `FEMMeshGMSH` parent object in your Model Tree and press **Apply** to force a mesh recalculation.
-6.  Close the task.
+    :   Result: You now should see a new `FEMMeshRegion` object under the `FEMMeshGmsh` or (<small>(v1.1)</small> ) `FEMMeshNetgen` object (see example #3 below) in your active analysis container.
+6.  Double-click on the `FEMMeshGmsh` or (<small>(v1.1)</small> ) `FEMMeshNetgen` parent object in your Model Tree and press **Apply** to force a mesh recalculation.
+7.  Close the task.
 
-Nachdem das Netz generiert wurde, kann der [Eigenschafteneditor](Property_editor/de.md) verwendet werden, um seine Eigenschaften anzupassen. Nach Änderung einer Eigenschaft, muss der Aufgabenbereich FEM-Netz durch Gmsh erneut geöffnet und die Schaltfläche **Anwenden** gedrückt werden (der Aufgabenbereich kann geöffnet bleiben, solange weitere Eigenschaften geändert werden).
+Nachdem das Netz erstellt wurde, können seine Eigenschaften im [Eigenschafteneditor](Property_editor/de.md) angepasst werden. Nach dem Ändern einer Eigenschaft, muss der Dialog zum Vernetzen erneut geöffnet und die Schaltfläche **Anwenden** gedrückt werden (der Dialog kann geöffnet bleiben, während weitere Eigenschaften geändert werden).
 
 Es können so viele unterschiedliche Netzbereiche wie nötig erstellt werden.
 

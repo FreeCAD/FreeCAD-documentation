@@ -3,7 +3,7 @@
 
 <img alt="" src=images/Sketcher_Sketch.svg  style="width:32px;">
 
-Un [Sketcher SketchObject](Sketcher_SketchObject/fr.md), ou formellement un `Sketcher::SketchObject`, est l\'élément de base pour créer des objets 2D avec l\'[Atelier Sketcher](Sketcher_Workbench/fr.md).
+Un [Sketcher SketchObject](Sketcher_SketchObject/fr.md), ou formellement un `Sketcher::SketchObject`, est l\'élément de base pour créer des objets 2D avec l\'[atelier Sketcher](Sketcher_Workbench/fr.md).
 
 
 `Sketcher::SketchObject`
@@ -20,23 +20,7 @@ est dérivé de [Part Part2DObject](Part_Part2DObject/fr.md). Cela signifie qu\'
 
 ## Utilisation
 
-1.  Basculez vers l\'[Atelier Sketcher](Sketcher_Workbench/fr.md).
-2.  Appuyez sur **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)**.
-3.  Sélectionnez une **Orientation de l'esquisse**: plan XY, plan XZ ou plan YZ. Vous pouvez également choisir d\'**Inverser la direction** et donner une valeur de **Décalage**.
-4.  Appuyez sur **OK**.
-
-Bien que SketchObject puisse être utilisé seul pour dessiner sur un plan, il est le plus souvent utilisé conjointement avec l\'[Atelier PartDesign](PartDesign_Workbench/fr.md) pour créer des solides extrudés.
-
-1.  Basculer vers l\'[Atelier PartDesign](PartDesign_Workbench/fr.md).
-
-2.  Appuyez sur **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**.
-
-3.  Appuyez sur **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md)**.
-
-4.  
-    **Fonction sélectionnée**: XY_Plane (Plan de base), XZ_Plane (Plan de base) ou YZ_Plane (Plan de base).
-
-5.  Appuyez sur **OK**.
+Voir [Sketcher Créer une esquisse](Sketcher_NewSketch/fr.md).
 
 
 
@@ -77,21 +61,11 @@ Le SketchObject possède également les propriétés supplémentaires suivantes 
 
 {{TitleProperty|Grid}}
 
--    **Grid Auto Size|Bool|Hidden**: si `True`, la grille est redimensionnée en fonction de la boîte de délimitation de la géométrie de l\'esquisse.
+-    **Grid Auto|Bool**: si `True`, la grille est redimensionnée en fonction de la boîte de délimitation de la géométrie de l\'esquisse.
 
--    **Grid Size|Length**: la taille de l\'espacement des lignes de la grille locale dans la [Vue 3D](3D_view/fr.md) ; la valeur par défaut est {{value|10 mm}}.
+-    **Grid Size|Length**: la taille de l\'espacement des lignes de la grille locale dans la [vue 3D](3D_view/fr.md) ; la valeur par défaut est {{value|10 mm}}.
 
--    **Grid Snap|Bool**: si `True`, la grille peut être utilisée pour fixer des points.
-
--    **Grid Style|Enumeration**: le style des lignes de la grille ; {{value|Dashed}} (par défaut) ou {{value|Light}}.
-
--    **Show Grid|Bool**: si `True`, une grille locale à l\'objet sera affichée dans la [Vue 3D](3D_view/fr.md). Cette grille est indépendante de la [Draft Grille](Draft_ToggleGrid/fr.md).
-
--    **Show Only In Edit Mode|Bool**: si `True`, la grille n\'est affichée que lorsque l\'esquisse est en cours d\'édition.
-
--    **Tight Grid|Bool**: si `True` la grille locale sera localisée autour de l\'origine de la forme, sinon elle s\'étendra davantage.
-
--    **max Number Of Lines|Integer**: le nombre maximum de lignes dans la grille.
+-    **Show Grid|Bool**: si `True`, une grille locale à l\'objet sera affichée dans la [vue 3D](3D_view/fr.md). Cette grille est indépendante de la [Draft Grille](Draft_ToggleGrid/fr.md).
 
 
 {{TitleProperty|Visibility automation}}

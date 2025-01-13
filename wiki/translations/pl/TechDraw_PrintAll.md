@@ -36,7 +36,7 @@ Narzędzie <img alt="" src=images/TechDraw_PrintAll.svg  style="width:24px;"> **
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

@@ -6,7 +6,7 @@
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20
-   SeeAlso: TechDraw_ExtensionArcLengthAnnotation/fr
+   SeeAlso: TechDraw_AreaDimension/fr
 ---
 
 # TechDraw ExtensionAreaAnnotation/fr
@@ -34,6 +34,9 @@ L\'outil **TechDraw Surface** calcule la surface des faces sélectionnées et in
 {{VersionMinus/fr|0.21}}
 
 : l\'outil ne peut pas gérer les faces avec des bords incurvés.
+
+-   Les trous (îlots) dans la face sélectionnée sont ignorés. Ce [fil du forum](https://forum.freecad.org/viewtopic.php?p=783325#p783325) montre une solution de contournement. Vous pouvez également utiliser [TechDraw Cote de surface](TechDraw_AreaDimension/fr.md) mais vous devez alors définir correctement la propriété **References 3D** de la cote créée.
+-   La surface calculée n\'est pas liée dynamiquement à la face. Si la surface de la face change, le texte n\'est pas mis à jour.
 
 
 

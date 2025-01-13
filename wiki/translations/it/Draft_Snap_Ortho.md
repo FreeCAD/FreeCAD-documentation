@@ -1,8 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Snap Ortho
-   Name/it: Aggancia Ortogonale
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Aggancia Ortogonale
+   MenuLocation: Aggancio , Aggancia ortogonale
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
 ---
 
@@ -25,9 +26,10 @@ Per informazioni generali riguardo gli agganci vedere [Draft Aggancio](Draft_Sna
 
 1.  Assicurarsi che l\'aggancio sia abilitato. Vedere <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Blocca aggancio](Draft_Snap_Lock/it.md).
 2.  Se **Draft Aggancia Ortogonale** non è attivo, eseguire una delle seguenti operazioni:
-    -   Premere il pulsante **<img src="images/Draft_Snap_Ortho.svg" width=16px>** nella barra degli strumenti di aggancio di Draft.
-    -   Premere il pulsante **<img src="images/Draft_Snap_Ortho.svg" width=16px>** nel [Draft snap widget](Draft_snap_widget/it.md).
-3.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+    -   Premere il pulsante **<img src="images/Draft_Snap_Ortho.svg" width=16px> [Aggancia ortogonale](Draft_Snap_Ortho/it.md)** nella barra degli strumenti di aggancio di Draft.
+    -   [Draft](Draft_Workbench/it.md): Premere il pulsante **<img src="images/Draft_Snap_Ortho.svg" width=16px> [Aggancia ortogonale](Draft_Snap_Ortho/it.md)** nel [Draft snap widget](Draft_snap_widget/it.md).
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Aggancio → <img src="images/Draft_Snap_Ortho.svg" width=16px> Aggancia ortogonale** dal menu o dal menu contestuale della [Vista 3D](3D_view/it.md).
+3.  Scegliere un comando Draft o BIM per creare la propria geometria.
 4.  Tenere presente che si può anche modificare le opzioni di aggancio mentre un comando è attivo.
 5.  Scegliere un primo punto. Questa opzione di aggancio richiede un punto precedente.
 6.  Se si muove il cursore attorno al punto precedente si nota un effetto \"magnetico\" quando il cursore si trova su una linea infinita immaginaria che attraversa quel punto con un angolo di 0°, 45°, 90° o 135°.

@@ -1,9 +1,14 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand
    Name: FEM ConstraintTemperature
    MenuLocation: Model , Thermal boundary conditions and loads , Temperature boundary condition
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
+}}
+{{GuiCommandFemInfo
+   Solvers: CalculiX, Elmer
+}}
 ---
 
 # FEM ConstraintTemperature/en
@@ -17,12 +22,11 @@ Defines a temperature boundary condition or, optionally, a concentrated heat flu
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/FEM_ConstraintTemperature.svg" width=16px> [Temperature boundary condition](FEM_ConstraintTemperature.md)** button.
     -   Select the **Model → Thermal boundary conditions and loads → <img src="images/FEM_ConstraintTemperature.svg" width=16px> Temperature boundary condition** option from the menu.
-2.  In the [3D view](3D_view.md) select the objects the boundary condition should be applied to, which can be a vertices (corners), edges, or faces.
-3.  Enter a temperature to apply to the objects.
-
-### Option
-
-By default, this feature defines a temperature boundary condition. By using the option **Concentrated heat flux**, one can specify a heat flux value (in mW) in each node belonging to the selected geometrical entity.
+2.  Press the **Add** button.
+3.  In the [3D view](3D_view.md) select the objects the boundary condition should be applied to, which can be vertices, edges, or faces. Optionally, press the **Remove** button and click on the objects that you want to remove from the selection.
+4.  Choose the constraint type and specify its parameter:
+    -   *Temperature* (default) - temperature boundary condition, enter the *Temperature* (K)
+    -   *CFlux* - concentrated heat flux load, enter the *Concentrated heat flux* (mW) - this value will be divided by the number of nodes on the underlying geometrical entity to achieve a total flux of a given magnitude on that entity
 
 ## Notes
 

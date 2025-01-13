@@ -24,14 +24,6 @@ Instrumentul Schedule vă permite să creați automat și să populați automat 
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-**Note**: This tool has been rewritten in FreeCAD 0.17 and differs in previous versions.
-
-
-</div>
-
 For a more general solution, see the [Reporting Workbench](https://github.com/furti/FreeCAD-Reporting/tree/master) in the list of [external workbenches](External_workbenches.md). This workbench uses SQL syntax to extract information from the document.
 
 
@@ -77,7 +69,7 @@ Then you press the Arch Schedule button. You get a task panel like this. It is p
 
 </div>
 
-![](images/Arch_schedule_example02.jpg )
+![](images/ArchSchedule.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -99,6 +91,36 @@ Then you can fill line by line. Each line is a \"query\" and will render one lin
 
 </div>
 
++++
+| Query                                  | Description                                                                                                                                                                                                                                                                                                                  |
++========================================+==============================================================================================================================================================================================================================================================================================================================+
+|                         | Will retain only objects that have \"floor1\" in their **Label** and \"window\" in their **IFC Type**. A window with the **Label** \"Floor1-AA\" and the **IFC Type** \"Window Standard Case\" will be included. |
+| `label:floor1;ifctype:window` |                                                                                                                                                                                                                                                                                                                              |
+|                                     |                                                                                                                                                                                                                                                                                                                              |
++++
+|                         | Will retain only objects that have \"door\" in their **Label**                                                                                                                                                                                                                                    |
+| `label:door`                  |                                                                                                                                                                                                                                                                                                                              |
+|                                     |                                                                                                                                                                                                                                                                                                                              |
++++
+|                         | Will retain only objects that do not have \"door\" in their **Label**                                                                                                                                                                                                                             |
+| `!label:door`                 |                                                                                                                                                                                                                                                                                                                              |
+|                                     |                                                                                                                                                                                                                                                                                                                              |
++++
+|                         | Will retain only objects that have \"structural\" in their **IFC Type**                                                                                                                                                                                                                           |
+| `ifctype:structural`          |                                                                                                                                                                                                                                                                                                                              |
+|                                     |                                                                                                                                                                                                                                                                                                                              |
++++
+|                         | Will retain only objects that do not have \"structural\" in their **IFC Type** or that do not have the **IFC Type** property                                                                                                                                           |
+| `!ifctype:something`          |                                                                                                                                                                                                                                                                                                                              |
+|                                     |                                                                                                                                                                                                                                                                                                                              |
++++
+|                         | Will retain only objects that do not have the **IFC Type** property                                                                                                                                                                                                                               |
+| `!ifctype:`                   |                                                                                                                                                                                                                                                                                                                              |
+|                                     |                                                                                                                                                                                                                                                                                                                              |
++++
+
+: Example filter queries
+
 
 <div class="mw-translate-fuzzy">
 
@@ -107,9 +129,15 @@ Butonul **Import** vă permite să construiți această listă în altă aplica�
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Astfel putem construi o listă de queries ca de exemplu:
 
-![](images/Arch_schedule_example03.jpg )
+
+</div>
+
+![](images/ArchScheduleExample.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -121,11 +149,23 @@ After that, press OK and a new Schedule object is added to the document, which c
 
 ![](images/Arch_schedule_example04.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 By double-clicking the Schedule object, you get back to the task panel and change the values. By double-clicking the spreadsheet itself, you get the results in 3 columns: description, value, unit (if applicable):
+
+
+</div>
 
 ![](images/Arch_schedule_example05.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 The spreadsheet can then be exported to csv normally, from the Spreadsheet workbench.
+
+
+</div>
 
 ## Dynamic properties 
 
@@ -133,5 +173,13 @@ It is possible to add your own properties to objects. These are called [Dynamic 
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/ro
+⏵ [documentation index](../README.md) > Arch Schedule/ro

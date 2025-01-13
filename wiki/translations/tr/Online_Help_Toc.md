@@ -136,7 +136,7 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 <div class="mw-translate-fuzzy">
 
 -   FreeCAD için Uygulama Geliştirme
-    -   [Lisans](Licence/tr.md)
+    -   [Lisans](License/tr.md)
     -   FreeCAD Derleme
         -   [Yardım Bulmak](Tracker/tr.md)
         -   [Windows\'ta Derleme](Compile_on_Windows/tr.md)

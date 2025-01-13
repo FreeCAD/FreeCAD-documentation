@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Split
-   Name/it: Dividi
-   MenuLocation: Modifiche , Dividi
-   Workbenches: Draft_Workbench/it,  Arch_Workbench/it
+   Name/it: Draft Dividi
+   MenuLocation: Modifiche , Dividi<br>Modifica , Dividi
+   Workbenches: Draft_Workbench/it,  BIM_Workbench/it
    Shortcut: **S** **P**
    Version: 0.18
    SeeAlso: Draft_Join/it
@@ -23,7 +23,8 @@ Il comando <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Draft 
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Split.svg" width=16px> [Dividi](Draft_Split/it.md)**.
-    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Split.svg" width=16px> Dividi** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Modifiche → <img src="images/Draft_Split.svg" width=16px> Dividi** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_Split.svg" width=16px> Dividi** dal menu.
     -   Usare la scorciatoia da tastiera: **S** poi **P**.
 2.  Spostare il puntatore sul bordo corretto di una [Draft Linea](Draft_Line/it.md) o [Draft Polilinea](Draft_Wire/it.md).
 3.  Il bordo viene evidenziato.

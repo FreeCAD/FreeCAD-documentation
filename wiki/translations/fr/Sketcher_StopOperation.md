@@ -10,21 +10,17 @@
 
 ## Description
 
-
-**[<img src=images/Sketcher_StopOperation.svg style="width:16px"> [Arrêter l'opération](Sketcher_StopOperation/fr.md)**
-
-arrête une commande active en cours pendant qu\'une esquisse est en cours d\'édition. Cela peut signifier une opération de dessin, une opération de contrainte, une opération sur une B-spline, etc\...
-
-Cela revient à appuyer sur la touche **Echap**.
+L\'outil <img alt="" src=images/Sketcher_StopOperation.svg  style="width:16px;"> [Arrêter l\'opération](Sketcher_StopOperation/fr.md) arrête tout outil de Sketcher en cours d\'exécution.
 
 
 
 ## Utilisation
 
-1.  Assurez-vous qu\'une [esquisse](Sketch/fr.md) est en **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Mode édition](Sketcher_EditSketch/fr.md)**.
-2.  Assurez-vous qu\'un outil est actif tel que **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)**, **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Sketcher Contrainte distance en Y](Sketcher_ConstrainDistanceY/fr.md)** ou **[<img src=images/Sketcher_Move.svg style="width:16px"> [Sketcher Déplacer](Sketcher_Move/fr.md)**.
-3.  Cliquez sur **[<img src=images/Sketcher_StopOperation.svg style="width:16px"> [Arrêter l'opération](Sketcher_StopOperation/fr.md)**.
-4.  L\'outil est désactivé et le pointeur redevient un simple pointeur.
+Voir aussi : [Modes continus](Sketcher_Workbench/fr#Modes_continus.md).
+
+1.  Assurez-vous qu\'un outil de création de géométrie ou de contrainte est actif.
+2.  Sélectionnez l\'option **Esquisse → <img src="images/Sketcher_StopOperation.svg" width=16px> Arrêter l'opération** du menu.
+3.  L\'outil en cours d\'utilisation est désactivé et le curseur se transforme en simple flèche.
 
 
 

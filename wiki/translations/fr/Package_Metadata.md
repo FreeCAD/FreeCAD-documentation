@@ -105,7 +105,7 @@ Un paquet orphelin est un paquet qui n\'a pas de mainteneur attitré. Les paquet
 
 AU MOINS UN OBLIGATOIRE (plusieurs autorisés)
 
-Identifiant court SPDX de la (des) licence(s) pour ce paquet, par exemple BSD-2-Clause, GPL-3, LGPL-2.1. Afin de faciliter la lecture par les machines, n\'incluez que l\'identifiant court SPDX de la licence (voir [le site SPDX](https://spdx.org/licenses/)). Pour les licences multiples, plusieurs balises distinctes doivent être utilisées. Un paquet aura plusieurs licences si les différents fichiers sources ont des licences différentes. Chaque licence présente dans les fichiers source doit avoir une balise  correspondante. Pour tout texte explicatif sur les mises en garde concernant les licences, veuillez utiliser la balise .
+Identifiant court SPDX de la (des) licence(s) pour ce paquetage, par exemple BSD-2-Clause, GPL-3.0-or-later, LGPL-2.1-or-later. Pour faciliter la lecture par les machines, n\'incluez que l\'identifiant court SPDX de la licence (voir [le site SPDX](https://spdx.org/licenses/)). Pour les licences multiples, plusieurs balises distinctes doivent être utilisées. Un paquet aura plusieurs licences si les différents fichiers sources ont des licences différentes. Chaque licence présente dans les fichiers source doit avoir une balise  correspondante. Pour tout texte explicatif concernant les avertissements relatifs à la licence, veuillez utiliser la balise . Pour spécifier qu\'aucune licence ne s\'applique (par exemple, \"Tous droits réservés\"), définissez cette valeur à \"UNLICENSED\". Pour spécifier une licence personnalisée sans identifiant SPDX, définissez cette valeur à \"SEE LICENSE IN \".
 
 Les licences les plus utilisées :
 
@@ -140,6 +140,8 @@ Les licences les plus utilisées :
     
 
 -    `"CC0-1.0"`(Déclaration du domaine public)
+
+**Note de rétrocompatibilité** : le gestionnaire des extensions tentera de normaliser les identifiants de licence qui ne correspondent pas exactement à une chaîne de licence SPDX. Il en résultera parfois un identifiant de licence qui produira une licence non-FSF-Libre ou non approuvée par l\'OSI : par exemple, \"LGPL2\" sera normalisé en \"LGPL-2.0\", qui est une licence non-FSF-Libre : ce qui était probablement prévu était \"LGPL-2.1-or-later\".
 
 
 

@@ -13,6 +13,8 @@ FreeCAD est extensible par du code [Python](Python/fr.md) qui est exécuté dire
 
 Si vous souhaitez contribuer au contenu de ces pages, demandez un compte wiki avec les droits d\'éditeur [dans le forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) et lisez les [Pages Wiki](WikiPages/fr.md) pour les directives générales que vous devez suivre. Pour d\'autres façons de contribuer au projet, consultez la page [Contribuer à FreeCAD](Help_FreeCAD/fr.md).
 
+
+
 ## Personnaliser FreeCAD 
 
 -   [Personnaliser l\'interface](Interface_Customization/fr.md) : Les fondamentaux : les barres d\'outils et les raccourcis claviers.
@@ -21,7 +23,11 @@ Si vous souhaitez contribuer au contenu de ces pages, demandez un compte wiki av
 -   [Personnaliser la barre d\'outils](Customize_Toolbars/fr.md)
 -   [Installer plus d\'ateliers](Installing_more_workbenches/fr.md)
 
+
+
 ## Scripts dans FreeCAD 
+
+
 
 ### Général
 
@@ -43,9 +49,13 @@ Le fonctionnement de FreeCAD est séparé en modules qui traitent de types de do
 -   Les [modules intégrés](Builtin_modules/fr.md) sont les principaux modules de FreeCAD. Ils contiennent les outils pour manipuler les configurations générales de FreeCAD, les documents et leur contenu.
 -   [Création d\'Ateliers](Workbench_creation/fr.md) vous montre comment créer votre propre atelier.
 
+
+
 #### Travailler avec les maillages 
 
 -   [Mesh Scripts](Mesh_Scripting/fr.md): comment interagir avec l\'[atelier Mesh](Mesh_Workbench/fr.md)
+
+
 
 #### Travailler avec les objets Parts 
 
@@ -54,22 +64,30 @@ Le fonctionnement de FreeCAD est séparé en modules qui traitent de types de do
 -   [PythonOCC](PythonOCC/fr.md) :comment utiliser toute la puissance du moteur Open CASCADE.
 -   [Conversion objet Mesh en Part](Mesh_to_Part/fr.md) : conversion entre les types d\'objets.
 
+
+
 #### Accéder aux graphes de scène de Coin 
 
 -   [Graphe de scène](Scenegraph/fr.md) : Comment fonctionne la représentation de la scène FreeCAD.
 -   [Pivy](Pivy/fr.md) : Comment accéder et modifier le graphe de scène
+
+
 
 ### Contrôler l\'interface avec Qt 
 
 -   [PySide](PySide/fr.md) : comment accéder à l\'interface et modifier son contenu.
 -   [Utilisez les modules graphiques FreeCAD](Embedding_FreeCADGui/fr.md) : dans d\'autres applications Qt avec l\'aide de PyQt.
 
+
+
 ### Travailler avec des objets paramétriques 
 
 -   [Objets créés par script](Scripted_objects/fr.md) : comment créer des objets créés par script à 100% en Python.
     -   [Objets créés par script avec pièce jointe](Scripted_objects_with_attachment/fr.md) : comment rendre les objets créés par script attachables à d\'autres objets.
-    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md) : comment sauvegarder et restaurer les attributs de la classe proxy avec `__getstate__` et `__setstate__`.
-    -   [Scripted objects migration](Scripted_objects_migration.md) : comment migrer d\'anciens objets créés par script vers une nouvelle classe.
+    -   [Sauvegarde des attributs des objets scripts](Scripted_objects_saving_attributes/fr.md) : comment sauvegarder et restaurer les attributs de la classe proxy avec `dumps` et `loads`.
+    -   [Migration d\'objets créés par script](Scripted_objects_migration/fr.md) : comment migrer d\'anciens objets créés par script vers une nouvelle classe.
+
+
 
 ### Exemples
 
@@ -80,11 +98,15 @@ Le fonctionnement de FreeCAD est séparé en modules qui traitent de types de do
 -   L\'[atelier Draft](Draft_Workbench/fr.md) ajoute des fonctions de dessin 2D de base à FreeCAD. Il est entièrement écrit en Python, donc il peut être un bon exemple si vous voulez écrire vos propres modules.
 -   [Bibliothèque mathématique vectorielle de FreeCAD](FreeCAD_vector_math_library/fr.md) : Quelques fonctions pratiques pour manipuler les vecteurs FreeCAD. Cette bibliothèque est également incluse dans le module Draft.
 
+
+
 ## Fonctions API 
 
 La documentation complète de l\'API de FreeCAD se trouve à l\'adresse <http://www.freecadweb.org/api/>. Elle contient à la fois les APIs C++ et Python, et n\'est pas encore parfaitement formatée, ce qui peut être déroutant si vous recherchez du code uniquement Python. Une version plus facile à parcourir peut être trouvée [ici](:Category:API/fr.md). Notez qu\'elle peut être incomplète, car elle est mise à jour manuellement. Pour des informations plus précises, parcourez les modules directement depuis la console Python de FreeCAD.
 
 En rapport : [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
+
+
 
 ## Modifications avancées 
 
@@ -93,6 +115,8 @@ En rapport : [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 -   [Compilation de FreeCAD sous Windows](Compile_on_Windows/fr.md) et [Compiler sous Linux/Unix](Compile_on_Linux/fr.md)
 -   [Identification à la marque FreeCAD](Branding/fr.md): les modifications simples à effectuer sur le code source de FreeCAD pour construire votre propre application
 -   [Extension des modules Python](Extra_python_modules/fr.md): l'interpréteur Python de FreeCAD est facilement extensible par l\'ajout de nombreux modules !
+
+
 
 ## Tutoriels pour Python 
 
@@ -124,11 +148,11 @@ Les deux références suivantes sont spécifique à PyQt (pas PySide) mais peuve
 -   [Programmation graphique 3D de haut niveau en Python](http://ftp.ntua.gr/mirror/python/pycon/dc2004/papers/47/): exemple Pivy de Pycon 2004
 -   [Introducing Pivy into studierstube](https://www.semanticscholar.org/paper/Integrating-Pivy-into-Studierstube-4.2-Gruber/08c9a89c8326c87f81c2d83428029fbfb6c2ae64) [(Mirror)](https://www.researchgate.net/publication/228737136_Integrating_Pivy_into_Studierstube_42) : Un article qui n\'est pas vraiment un tutoriel mais qui illustre bien le fonctionnement de Pivy (nécessite un compte académique)
 
+
+
 ## Projets communautaires 
 
 Sur le [Portail communautaire FreeCAD](FreeCAD_Community_Portal/fr.md), vous pouvez rechercher d\'autres projets basés sur FreeCAD et gérés par la communauté. Si vous avez commencé un nouveau projet FreeCAD, assurez vous de le signaler sur le [Community portal (page en anglais)](FreeCAD_Community_Portal.md) ! Si vous souhaitez participer au développement de FreeCAD vous pouvez visiter la page [Aider FreeCAD](Help_FreeCAD/fr.md) et voir ce que vous pouvez faire.
-
--   [Scientific literature](Scientific_literature.md): articles qui référencent ou utilisent le système FreeCAD de différentes manières.
 
 
 

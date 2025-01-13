@@ -6,26 +6,43 @@
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **J**
    Version: 0.17
-   SeeAlso: Sketcher_CreateArcOfEllipse/fr, Sketcher_CreateArcOfHyperbola/fr
+   SeeAlso: Sketcher_CreateArcOfHyperbola/fr
 ---
 
 # Sketcher CreateArcOfParabola/fr
 
 ## Description
 
-Cet outil créé un arc de parabole par un foyer, un sommet et des points d\'extrémités.
+L\'outil <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:24px;"> [Sketcher Arc de parabole](Sketcher_CreateArcOfParabola/fr.md) crée un arc de parabole.
 
-![](images/Sketcher_Arc_of_Parabola_01.png )
+![](images/Sketcher_CreateArcOfParabola_Example.png ) 
+*Arc de parabole (en blanc) avec géométrie interne (en jaune foncé)*
 
 
 
 ## Utilisation
 
-1.  Appuyer sur le bouton **[<img src=images/Sketcher_CreateArcOfParabola.svg style="width:16px"> [Créer un arc de parabole](Sketcher_CreateArcOfParabola/fr.md)**.
-2.  Cliquez dans la vue 3D pour définir le point focal (numéroté 1 dans l\'image ci-dessus).
-3.  Cliquez dans la vue 3D pour définir la crête de l\'arc d\'hyperbole (numéroté 2 dans l\'image ci-dessus).
-4.  Cliquez dans la vue 3D pour définir le premier sommet (numéroté 3 dans l\'image ci-dessus).
-5.  Cliquez une quatrième fois dans la vue 3D pour définir l\'autre sommet (numéroté 4 dans l\'image ci-dessus).
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
+
+1.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_CreateArcOfParabola.svg" width=16px> [Arc de parabole par son foyer, son sommet, ses extrémités](Sketcher_CreateArcOfParabola/fr.md)**.
+    -   Sélectionnez l\'option **Sketcher → Sketcher geometries → <img src="images/Sketcher_CreateArcOfParabola.svg" width=16px> Créer un arc de parabole** du menu.
+    -   Utilisez le raccourci clavier : **G** puis **J**.
+2.  Le curseur se transforme en croix avec l\'icône de l\'outil.
+3.  Choisissez le foyer de l\'arc (étiqueté 1 dans l\'image ci-dessus).
+4.  Choisissez le sommet de l\'arc (étiqueté 2 dans l\'image ci-dessus).
+5.  Choisissez le point de départ de l\'arc (étiqueté 3 ou 4 dans l\'image ci-dessus).
+6.  Choisissez le point d\'arrivée de l\'arc (étiqueté 3 ou 4 dans l\'image ci-dessus).
+7.  L\'arc de parabole est créé, y compris un ensemble de géométrie interne.
+8.  Si l\'outil fonctionne en [mode continu](Sketcher_Workbench/fr#Modes_continus.md) :
+    1.  Vous pouvez continuer à créer des arcs de parabole.
+    2.  Pour terminer, cliquez avec le bouton droit de la souris ou appuyez sur **Échap**, ou démarrez un autre outil de création de géométrie ou de contrainte.
+
+
+
+## Remarques
+
+-   Les éléments de la géométrie interne peuvent être supprimés. Ils peuvent être recréés à tout moment avec [Sketcher Géométrie interne d\'alignement](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
 
 
 

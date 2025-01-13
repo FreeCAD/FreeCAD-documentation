@@ -6,7 +6,7 @@
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20
-   SeeAlso: 
+   SeeAlso: TechDraw_ExtensionArcLengthAnnotation/fr
 ---
 
 # TechDraw ExtensionCreateLengthArc/fr
@@ -24,7 +24,13 @@ L\'outil **TechDraw Longueur d\'arc** crée une cote de longueur d\'arc.
 
 1.  Sélectionner un seul arc de cercle.
 2.  Il existe plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCreateLengthArc.svg" width=16px> [Longueur d'arc](TechDraw_ExtensionCreateLengthArc/fr.md)**.
+    -   
+        {{Version/fr|1.0}}
+        
+        : si la [préférence](TechDraw_Preferences/fr#Cotes.md) **Outils de cotation** est réglée sur {{Value|Outil unique}} (par défaut) : appuyez sur la flèche vers le bas à droite du bouton **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** et sélectionnez l\'option **<img src="images/TechDraw_ExtensionCreateHorizChainDimension.svg" width=16px> Cotes horizontales** du menu déroulant.
+
+    -   Si cette préférence a une valeur différente (et dans {{VersionMinus/fr|0.21}}) : appuyez sur le bouton **<img src="images/TechDraw_ExtensionCreateLengthArc.svg" width=16px> [Longueur d'arc](TechDraw_ExtensionCreateLengthArc/fr.md)**.
+
     -   Sélectionnez l\'option **TechDraw → Extensions : cotes → <img src="images/TechDraw_ExtensionCreateLengthArc.svg" width=16px> Longueur d'arc** à partir du menu.
 3.  Une cote de longueur d\'arc est créée.
 

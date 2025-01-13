@@ -10,6 +10,9 @@
 # Std ReportBug/it
 
 
+</div>
+
+
 
 ## Descrizione
 
@@ -21,13 +24,19 @@ Attualmente il comando punta a [<https://github.com/FreeCAD/FreeCAD/issues>](htt
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare l\'opzione **Aiuto → <img src="images/Std_ReportBug.svg" width=16px> Segnala un bug** dal menu.
 
 
+</div>
 
 
 
-{{Std Base navi
+
+
+{{Std_Base_navi
 
 }}
 

@@ -52,14 +52,10 @@ Poniższe polecenie umieści kopię najnowszej wersji kodu źródłowego program
 
 
 {{Code|lang=bash|code=
-git clone https://github.com/FreeCAD/FreeCAD.git ~/my_code/freecad_source
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git ~/my_code/freecad_source
 }}
 
 Więcej informacji na temat używania środowiska Git i wnoszenia kodu do projektu można znaleźć na stronie [Zarządzanie kodem źródłowym](Source_code_management/pl.md).
-
-#### Archiwum źródła 
-
-Alternatively you can download the source as an [archive](https://github.com/FreeCAD/FreeCAD/releases/latest), a `.zip` or `.tar.gz` file, and unpack it in the desired directory.
 
 
 

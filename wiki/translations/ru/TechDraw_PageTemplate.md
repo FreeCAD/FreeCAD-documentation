@@ -94,7 +94,13 @@ page.Template.EditableTexts = texts
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

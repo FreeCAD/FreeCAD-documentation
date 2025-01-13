@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign Sprocket
    Name/fr: PartDesign Pignon
-   MenuLocation: Part Design , Pignon...
+   MenuLocation: PartDesign , Créer un pignon...
    Workbenches: PartDesign_Workbench/fr
    Version: 0.19
 ---
@@ -18,7 +18,7 @@ Cet outil vous permet de créer un profil 2D d\'un pignon (ou roue à chaîne). 
 ## Utilisation
 
 1.  En règle générale, activer le bon corps.
-2.  Aller dans le menu **Part Design → [<img src=images/PartDesign_Sprocket.svg style="width:16px"> Pignon...**.
+2.  Aller dans le menu **PartDesign → [<img src=images/PartDesign_Sprocket.svg style="width:16px"> Créer un pignon...**.
 3.  Définir **Number Of Teeth** et **Sprocket Reference**.
 4.  Cliquer sur **OK**.
 5.  S\'il n\'y avait pas de corps actif : glisser et déposer le pignon dans un corps pour appliquer d\'autres fonctions comme l\'extrusion.

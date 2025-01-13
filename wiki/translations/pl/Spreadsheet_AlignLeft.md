@@ -9,15 +9,21 @@
 
 # Spreadsheet AlignLeft/pl
 
+
+
 ## Opis
 
-Narzędzie **[<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Wyrównaj do lewej](Spreadsheet_AlignLeft/pl.md)** sprawia, że tekst wewnątrz komórki jest automatycznie wyrównywany do lewej strony.
+Narzędzie <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> **Wyrównaj do lewej** wyrównuje zawartości wybranych komórek do lewej.
+
+
 
 ## Użycie
 
-1.  Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md)**, aby przycisk był dostępny.
-2.  Wybierz komórkę.
-3.  Naciśnij przycisk **[<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Wyrównaj do lewej](Spreadsheet_AlignLeft/pl.md)**.
+1.  Upewnij się, że jest aktywny [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md).
+2.  Wybierz jedną lub więcej komórek.
+3.  Istnieje kilka sposobów wywołania tego narzędzia:
+    -   Naciśnij przycisk **[<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Wyrównaj do lewej](Spreadsheet_AlignLeft/pl.md)**.
+    -   Wybierz opcję **Arkusz Kalkulacyjny → Wyrównanie → [<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> Wyrównaj do lewej** z menu.
 
 
 

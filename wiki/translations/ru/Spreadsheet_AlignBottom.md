@@ -9,15 +9,21 @@
 
 # Spreadsheet AlignBottom/ru
 
+
+
 ## Описание
 
-The **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Spreadsheet AlignBottom](Spreadsheet_AlignBottom.md)** tool makes the text inside the cell align to the bottom of the cell.
+The <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> **Spreadsheet AlignBottom** tool aligns the contents of selected cells to the bottom.
+
+
 
 ## Применение
 
-1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Select a cell.
-3.  Press the **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Spreadsheet AlignBottom](Spreadsheet_AlignBottom.md)** button.
+1.  Make sure there is an active [spreadsheet](Spreadsheet_CreateSheet.md).
+2.  Select one or more cells.
+3.  There are several ways to invoke the tool:
+    -   Press the **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Align bottom](Spreadsheet_AlignBottom.md)** button.
+    -   Select the **Spreadsheet → Alignment → [<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> Align bottom** option from the menu.
 
 
 

@@ -34,11 +34,11 @@ The <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Spre
 
 -   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Align bottom](Spreadsheet_AlignBottom.md): top align the contents of selected cells to the bottom.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Style bold](Spreadsheet_StyleBold.md): set the contents of selected cells to bold.
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Style bold](Spreadsheet_StyleBold.md): toggle the contents of selected cells to/from bold.
 
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Style italic](Spreadsheet_StyleItalic.md): set the contents of selected cells to italic.
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Style italic](Spreadsheet_StyleItalic.md): toggle the contents of selected cells to/from italic.
 
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Style underline](Spreadsheet_StyleUnderline.md): set the contents of selected cells to underlined.
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Style underline](Spreadsheet_StyleUnderline.md): toggle the contents of selected cells to/from underlined.
 
 -   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Set alias](Spreadsheet_SetAlias.md): set the alias for a selected cell.
 
@@ -283,61 +283,29 @@ To bind, for example, the cell range A3-C4 to the cell range B1-D2:
 
 <small>(v0.20)</small> 
 
-You can use Spreadsheets to create configuration tables with sets of predefined parameters for your model, and then dynamically change which configuration to use. See [this Forum post](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183) if you want to know more about the inner workings of this feature.
+You can use Spreadsheets to create configuration tables with sets of predefined parameters for your model, and then dynamically change which configuration to use. See the [Configuration Tables](Configuration_Tables.md) tutorial. Read [this Forum post](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183) if you want to know more about the inner workings of this feature.
 
-
-<div class="mw-collapsible mw-collapsed toccolours">
-
-Expand this section for a brief tutorial on creating a configuration table.
-
-
-<div class="mw-collapsible-content">
-
-1.  In a new document, first create a [Std Part](Std_Part.md), then create a [Part Box](Part_Box.md), a [Part Cylinder](Part_Cylinder.md) and a Spreadsheet.
-2.  The Box and the Cylinder are automatically placed in the [Std Part](Std_Part.md) container. Manually put the Spreadsheet in the container as well.
-3.  In the Spreadsheet enter the content as shown below. Set the alias for B2 as {{Value|width}}, C2 as {{Value|length}} and D2 as {{Value|radius}}:
-    ![](images/Spreadsheet_configuration_table_screenshot_4.png )
-4.  Bind the [expressions](Expressions.md) {{Value|Spreadsheet.width}} and {{Value|Spreadsheet.length}} to the Box\'s properties **Width** and **Length**, respectively:
-    ![](images/Spreadsheet_configuration_table_screenshot_2.png )
-5.  Bind the expression {{Value|Spreadsheet.radius}} to the Cylinder\'s property **Radius**. Also change the **Height** of the Cylinder to {{Value|5 mm}} so that it is lower than the Box.
-6.  Right-click the cell A2 in the Spreadsheet and select **Configuration table...** from the context menu.
-7.  The **Setup Configuration Table** dialog opens.
-8.  Enter the following:
-    ![](images/Spreadsheet_configuration_table_screenshot_5.png )
-9.  Press **OK**.
-10. A new property called **Configuration** is be added to the [Std Part](Std_Part.md) container to choose the configuration as shown below:
-    ![](images/Spreadsheet_configuration_table_screenshot_6.png )
-
-You can use either a [Std Link](Std_LinkMake.md) or a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) to instantiate a [Variant Instance](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) of a configurable object with the following steps:
-
-1.  Create a [Std Link](Std_LinkMake.md) to the [Std Part](Std_Part.md) container and set its **Link Copy On Change** property to {{Value|Enabled}}.
-2.  Move the Link to a new place by changing its **Placement** so that it is easier to distinguish from the original object.
-3.  Select a different **Configuration** for the Link to create a variant instance.
-
-Similar steps apply to a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md), except that its property for activating a variant instance is called **Bind Copy On Change**.
-
-
-</div>
-
-
-</div>
-
-## Scripting basics 
+## Scripting
 
 
 ```python
 import Spreadsheet
-sheet = App.ActiveDocument.addObject("Spreadsheet::Sheet","MySpreadsheet")
+sheet = App.ActiveDocument.addObject("Spreadsheet::Sheet", "MySpreadsheet")
 sheet.Label = "Dimensions"
 
-sheet.set('A1','10mm')
+sheet.set("A1", "10mm")
 sheet.recompute()
-sheet.get('A1')
+sheet.get("A1")
 
-sheet.setAlias('B1','Diameter')
-sheet.set('Diameter','20mm')
+sheet.setAlias("B1", "Diameter")
+sheet.set("Diameter", "20mm")
 sheet.recompute()
-sheet.get('Diameter')
+sheet.get("Diameter")
+
+# sheet.get() results in an error if the cell is empty.
+# sheet.getContents() can be used to check the cell first.
+if sheet.getContents("C1"):
+    print(sheet.get("C1"))
 ```
 
 

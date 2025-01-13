@@ -5,17 +5,31 @@
 
 ### 话说 3D 空间 
 
+
+<div class="mw-translate-fuzzy">
+
 如果这是您第一次接触 3D 应用程序，您首先需要了解一些概念。如果不是，您可以安全地跳过本节。
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 FreeCAD 的 3D 空间是一个 [欧几里德空间](https://en.wikipedia.org/wiki/Euclidean_space)。它具有一个原点和三个轴：X、Y 和 Z。如果您从上方观察场景，按照惯例，X 轴指向右侧，Y 轴指向后方，Z 轴指向上方。在 FreeCAD 视图的右下角，您始终可以看到您观察场景的位置：
 
-![](images/Axes_orientation.png )
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 三个轴相交的点是原点。它是所有坐标值为零的点。对于任意给定的轴，向一个方向移动将增加坐标值，向相反方向移动将减小坐标值。在 3D 空间中存在的每个对象的每个点都可以通过其 (x, y, z) 坐标来确定位置。例如，具有坐标 (2, 3, 1) 的点将位于 X 轴上 +2 个单位，Y 轴上 +3 个单位，Z 轴上 +1 个单位：
 
-![](images/3dspace_coordinates.jpg )
 
-你可以从任何角度观察场景，就像你拿着一个摄像机一样。这个摄像机可以左右移动、上下移动（平移），围绕着它所指向的物体旋转（旋转），并可以使摄像机靠近或离开场景（缩放）。
+</div>
+
+![](images/3dspace_coordinates.jpg )
 
 
 
@@ -23,13 +37,34 @@ FreeCAD 的 3D 空间是一个 [欧几里德空间](https://en.wikipedia.org/wik
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 #### 鼠标导航
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 在 FreeCAD 的 3D 视图中进行导航可以使用鼠标、Space Navigator 设备、键盘、触摸板或它们的组合。FreeCAD 实现了几种导航模式，决定了如何执行三种基本的视图操作（平移、旋转和缩放），以及如何在屏幕上进行对象选择。导航模式可以从首选项界面访问，或直接通过在 3D 视图的任意位置右键单击来访问：
 
-![](images/FreeCAD-v0-18-NavigationModePopup.png )
+
+</div>
+
+![](images/FreeCAD_022_NavigationMethod.png )
+
+
+<div class="mw-translate-fuzzy">
 
 每个模式将不同的鼠标按钮、鼠标+键盘组合或鼠标手势分配给这四种操作。下表显示了主要可用的模式：
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ++++++
 | 模式           | 平移                                                                                                                                                                       | 旋转                                                                                                                                                               | 缩放                                                                                                                                                      | 选择                                                                                    |
@@ -51,10 +86,32 @@ FreeCAD 的 3D 空间是一个 [欧几里德空间](https://en.wikipedia.org/wik
 ++++++
 
 
+</div>
+
+It\'s worth noting that when a user hovers over the navigation styles menu located at the bottom right of the screen, a tooltip will appear. This tooltip provides a brief description of the highlighted navigation style, offering immediate guidance on its use.
+
+![](images/FreeCAD_022_NavigationHover.png )
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 #### 键盘导航
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 另外，一些键盘控制在任何导航模式下始终可用：
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Ctrl**\+ {{ASCII|43}} 和 **Ctrl** + {{ASCII|22}} 分别用于放大和缩小视图。
 
@@ -71,29 +128,52 @@ FreeCAD 的 3D 空间是一个 [欧几里德空间](https://en.wikipedia.org/wik
 
 -    **Ctrl**允许你选择多个对象或元素。
 
+
+</div>
+
 这些控制项也可以通过[视图菜单](Std_View_Menu.md)和一些通过视图工具栏访问。
+
+#### Using the Navigation Cube 
+
+
+<div class="mw-translate-fuzzy">
 
 #### 使用导航聚焦区
 
 在默认设置中，3D 视图的右上角有一个[导航聚焦区](Navigation_Cube.md)。 可以使用它以固定的角度旋转显示的对象， 将显示重置为几种标准视图之一， 以及更改显示模式。
 
-![](images/FreeCAD-v0-18-NavCube_SelectCorner.png )
 
-当使用导航聚焦区时，当指针悬停在敏感区域上方时，控制点将变为浅蓝色。如果指针下方的区域颜色没有变化，则单击它不会产生任何影响。 截至目前为止（v0.18），存在一些注册问题，导致某些控制点的部分区域无法正常工作。
+</div>
+
+![](images/FreeCAD_022_Cube.png )
+
+
+<div class="mw-translate-fuzzy">
 
 单击一个面将切换到该面的视图； 单击一个角将切换到以该角朝向您的视图。
 
-点击四个三角形之一将使视图沿指示方向旋转 45 度。 点击顶部的两个弯箭头之一将使视图沿指示方向绕一条指向您的线旋转45度。
 
-导航集群可以通过拖动到 3D 显示的任何位置进行移动。 必须在立方体内按下拖动（左键）鼠标按钮才能开始拖动。 直到将指针拖出立方体后，结构才会开始移动。
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 导航集群的右下方有一个较小的迷你立方体，点击它会弹出一个下拉菜单，允许您切换视图模式。
+
+
+</div>
 
 
 
 ### 选择对象
 
+
+<div class="mw-translate-fuzzy">
+
 在 3D 视图中，可以通过使用相应的鼠标按钮（根据上面描述的导航模式）来选择对象。单击将选择对象及其子组件（边、面、顶点）之一。双击将选择对象及其所有子组件。您可以通过按住 CTRL 键来选择多个子组件，甚至可以从不同对象中选择不同的子组件。在 3D 视图的空白部分上点击选择按钮将取消选择所有内容。
+
+
+</div>
 
 一个名为"选择视图"的面板，可以在"视图"菜单中找到，也可以打开，它会显示当前选择的内容：
 
@@ -103,8 +183,14 @@ FreeCAD 的 3D 空间是一个 [欧几里德空间](https://en.wikipedia.org/wik
 
 **延伸阅读**
 
+
+<div class="mw-translate-fuzzy">
+
 -   [FreeCAD导航模式](Mouse_navigation.md)
 -   [导航立方体](Navigation_Cube.md)
+
+
+</div>
 
 
 

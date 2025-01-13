@@ -10,9 +10,13 @@
 
 # Std CloseActiveWindow/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std Schließen** schließt das aktive Fenster. Um ein Dokument zu schließen, müssen alle seine Fenster geschlossen werden.
+
+
 
 ## Anwendung
 
@@ -24,33 +28,28 @@ Der Befehl **Std Schließen** schließt das aktive Fenster. Um ein Dokument zu s
     -   Drücke die **Speichern**-Schaltfläche. Falls erforderlich, gib zuerst den Dateinamen ein.
     -   Drücke die **Schließen ohne zu Speichern**-Schaltfläche, um das Dokument zu verlassen und alle Änderungen zu verlieren.
 
+
+
 ## Optionen
 
 -   Wenn die Dialog-Box angezeigt wird, drücke **Esc** oder die **Abbrechen**-Schaltfläche, um den Befehl abzubrechen.
+
+
 
 ## Hinweise
 
 -   Der Befehl kann nur [docked](Std_ViewDockUndockFullscreen.md)-Fenster schließen.
 -   \* Ein Dokument kann auch geschlossen werden, indem es in der [Baumansicht](Tree_view/de.md) mit einem Rechtsklick ausgewählt und **Dokument schließen** aus dem Kontextmenü benutzt wird.
 
-## Einstellungen
-
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → FileOpenSavePath**.
-
 ## Scripting
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um ein Dokument zu schließen, benutze die `closeDocument`-Methode der FreeCAD-Anwendung. Für ein Skripting-Beispiel siehe [Std Neu](Std_New/de.md).
+Siehe [Std Neu](Std_New/de#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -1,53 +1,35 @@
 ---
  GuiCommand:
    Name: Sketcher Create3PointCircle
-   Name/it: Crea cerchio da 3 punti
-   Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch , Geometrie , Cerchio da tre punti
-   Shortcut: 
-   SeeAlso: 
+   Name/it: Sketcher Crea cerchio per 3 punti
+   MenuLocation: Schizzo , Geometrie Sketcher , Crea cerchio per 3 punti
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **G** **3** **C**
+   SeeAlso: Sketcher_CreateCircle/it
 ---
 
 # Sketcher Create3PointCircle/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo strumento <img alt="" src=images/Sketcher_CreateCircle3Point.png  style="width:32px;"> disegna un cerchio passante per tre punti selezionati dall\'utente nella vista 3D. Quando lo strumento è attivo, il puntatore del mouse assume la forma di croce bianca con l\'icona arco rosso.
-
-Accanto al puntatore sono visualizzate, in blu, le coordinate della sua posizione, aggiornate in tempo reale.
-
-
-</div>
+Lo strumento <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:24px;"> [Sketcher Crea cerchio per 3 punti](Sketcher_Create3PointCircle/it.md) crea un cerchio in base a tre punti lungo la circonferenza. {{Version/it|1.0}}: questo è lo stesso strumento di [Sketcher Crea cerchio dal centro](Sketcher_CreateCircle/it.md) ma con una modalità iniziale diversa.
 
 
 
 ## Utilizzo
 
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
-<div class="mw-translate-fuzzy">
-
--   Selezionare i punti su un\'area vuota della vista 3D, o su un oggetto esistente. I vincoli automatici (auto constraints) si attivano nella scheda **Azioni → Modifica controlli → Autovincoli** del pannello **Vista combinata**.
--   Premere il tasto **Esc**, o cliccare sul tasto destro del mouse, per annullare l\'operazione.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_Create3PointCircle.svg" width=16px> [Crea cerchio per 3 punti](Sketcher_Create3PointCircle/it.md)**.
+    -   Selezionare l\'opzione **Schizzo → Geometrie Sketcher → <img src="images/Sketcher_Create3PointCircle.svg" width=16px> Crea cerchio per 3 punti** dal menu.
+    -   Usare la scorciatoia da tastiera: **G** quindi **3**, quindi **C**.
+2.  Per ulteriori passaggi vedere [Sketcher Crea cerchio dal centro](Sketcher_CreateCircle/it#Usage.md).
 
 
 
-
-
-</div>
 
 
 {{Sketcher Tools navi

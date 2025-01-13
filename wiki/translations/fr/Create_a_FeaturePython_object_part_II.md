@@ -3,6 +3,8 @@
 
 Sur la page [Créer un objet FeaturePython partie I](Create_a_FeaturePython_object_part_I/fr.md), nous nous sommes concentrés sur les aspects internes d\'une classe Python construite autour d\'un objet FeaturePython, en particulier un objet `App::FeaturePython`. Nous avons créé l\'objet, défini certaines propriétés et ajouté un rappel d\'événement au niveau du document qui permet à notre objet de répondre à un recalcul de document avec la méthode `execute()`. Mais notre objet n\'a toujours pas de présence dans la [Vue 3D](3D_view/fr.md). Remédions à cela en ajoutant une boîte.
 
+
+
 ## Ajout d\'une boîte 
 
 Tout d\'abord, en haut du fichier **box.py**, sous l\'importation existante, ajoutez:
@@ -31,6 +33,8 @@ Supprimez tous les objets existants, rechargez le module boîte et créez un nou
 À première vue, le résultat peut sembler correct mais il y a quelques problèmes. Le plus évident est que la boîte est représentée par un objet entièrement différent de notre objet FeaturePython. `Part.show()` crée simplement un objet boîte séparé et l\'ajoute au document. Pire encore, si vous modifiez les dimensions de l\'objet FeaturePython, une autre forme de boîte est créée et l\'ancienne est laissée en place. Et si vous avez ouvert la [Vue rapport](Report_view/fr.md), vous avez peut-être remarqué une erreur indiquant \"Appel récursif de recalcul pour le document Sans nom\". Cela a à voir avec l\'utilisation de la méthode `Part.show()` dans un objet FeaturePython. 
 
 [En haut](#top.md)
+
+
 
 ## Correction du code 
 
@@ -67,6 +71,8 @@ obj.Shape = Part.makeBox(obj.Length, obj.Width, obj.Height)
 Enregistrez vos modifications, revenez à FreeCAD, supprimez tous les objets existants, rechargez le module de boîte et créez un nouvel objet boîte. Le nouveau résultat est quelque peu décevant. Il n\'y a plus d\'objet supplémentaire dans l\'arborescence, et l\'icône dans l\'arborescence a changé, mais notre boîte dans la vue 3D a également disparu (c\'est pourquoi l\'icône est grise). Qu\'est ce qui c\'est passé? Bien que nous ayons correctement créé notre forme de boîte et l\'avons assignée à un objet `Part::FeaturePython`, pour le faire apparaître réellement dans la vue 3D, nous devons attribuer un [ViewProvider](Viewprovider/fr.md). 
 
 [En haut](#top.md)
+
+
 
 ## Écrire un ViewProvider 
 
@@ -157,13 +163,13 @@ class ViewProviderBox:
             "   #######      "};
             """
 
-    def __getstate__(self):
+    def dumps(self):
         """
         Called during document saving.
         """
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         """
         Called during document restore.
         """
@@ -187,6 +193,8 @@ Maintenant, enregistrez les modifications et revenez à FreeCAD. Importez ou rec
 -   Et, plus important encore, il y a une boîte dans la vue 3D. Si vous ne le voyez pas, appuyez sur le bouton **<img src="images/Std_ViewFitAll.svg" width=16px> [Std Tout afficher](Std_ViewFitAll/fr.md)**. Vous pouvez même modifier les dimensions de la boîte en modifiant les valeurs dans l\'[Éditeur de propriétés](Property_editor/fr.md). Essayez!
 
 [En haut](#top.md)
+
+
 
 ## Piégeage d\'événements 
 
@@ -237,6 +245,8 @@ En outre, il existe deux rappels dans la classe ViewProvider qui peuvent parfois
 Il n\'est pas rare de rencontrer une situation où les rappels Python ne sont pas déclenchés comme ils le devraient. Les débutants dans ce domaine peuvent être assurés que le système de rappel FeaturePython n\'est pas fragile ou cassé. Invariablement, lorsque les rappels ne s\'exécutent pas, c\'est parce qu\'une référence est perdue ou indéfinie dans le code sous-jacent. Si, cependant, les rappels semblent interrompre sans explication, fournir des références d\'objet/proxy dans le rappel `onDocumentRestored()` (comme indiqué dans le premier tableau ci-dessus) peut atténuer ces problèmes. Tant que vous n\'êtes pas à l\'aise avec le système de rappel, il peut être utile d\'ajouter des instructions d\'impression dans chaque rappel pour imprimer des messages sur la console pendant le développement.
 
 [En haut](#top.md)
+
+
 
 ## Le code terminé 
 
@@ -364,13 +374,13 @@ class ViewProviderBox:
             "   #######      "};
             """
 
-    def __getstate__(self):
+    def dumps(self):
         """
         Called during document saving.
         """
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         """
         Called during document restore.
         """

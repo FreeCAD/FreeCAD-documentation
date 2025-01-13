@@ -11,19 +11,31 @@
 # Arch Window/es
 
 
+</div>
+
+
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 Un [Arquitectura Ventana](Arch_Window/es.md) es un objeto base para todo tipo de objetos \"incrustables\", como ventanas y puertas. Está diseñado para ser independiente, o \"alojado\" dentro de otro componente como un [Arquitectura Muro](Arch_Wall/es.md), [Arquitectura Estructura](Arch_Structure/es.md), o [Arquitectura Techo](Arch_Roof/es.md). Tiene su propia geometría, que puede estar formada por varios componentes sólidos (comúnmente un marco y paneles interiores), y también define un volumen que se sustrae de los objetos anfitriones, para crear una abertura.
+
+
+</div>
 
 Los objetos ventana se basan en objetos 2D cerrados, como [Borrador Rectángulos](Draft_Rectangle/es.md) o [Croquis](Sketcher_Workbench.md), que se utilizan para definir sus componentes internos. Por lo tanto, el objeto 2D base debe contener varios hilos cerrados, que pueden combinarse para formar paneles rellenos (un hilo) o marcos (varios hilos).
 
+
+<div class="mw-translate-fuzzy">
+
 La herramienta Ventana presenta varios **preajustes**\'; esto permite al usuario crear tipos comunes de ventanas y puertas con ciertos parámetros editables, sin necesidad de que el usuario cree manualmente los objetos y componentes 2D base.
 
-All information applicable to an [Arch Window](Arch_Window.md) also applies to an [Arch Door](Arch_Door.md), as it\'s the same underlying object. The main difference between a Window and a Door is that the Door has an internal panel that is shown opaque (the door itself), while the Window has a panel that is partially transparent (the glass).
 
-<img alt="" src=images/Arch_Window_example.jpg  style="width:600px;"> 
-*Ventana construida sobre un [Borrador Rectángulo](Draft_Rectangle/es.md), luego insertada en un [Arquitectura Muro](Arch_Wall/es.md). Usando la operación [Arquitectura Añadir](Arch_Add/es.md) se corta automáticamente una abertura correcta en el muro anfitrión.*
+</div>
+
+All information applicable to an Arch Window also applies to an [Arch Door](Arch_Door.md), as it\'s the same underlying object.
 
 <img alt="" src=images/Arch_Window_example2.jpg  style="width:600px;"> 
 *Complex window being constructed on top of a [Sketch](Sketcher_Workbench.md). When entering the window's edit mode you can create different components, set their thickness, and select and assign wires from the sketch to them.*
@@ -65,7 +77,13 @@ If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon M
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ### Creando desde cero 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -88,7 +106,7 @@ If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon M
 
 Los siguientes predefinidos están disponibles:
 
-Image:ParametersWindowFixed.svg\|Fixed Image:ParametersWindowSimple.svg\|Open 1-pane Image:ParametersWindowDouble.svg\|Open 2-pane Image:ParametersWindowStash.svg\|Sash 2-pane Image:ParametersWindowDouble.svg\|Sliding 2-pane Image:ParametersDoorSimple.svg\|Simple door Image:ParametersDoorGlass.svg\|Glass door Image:ParametersWindowDouble.svg\|Sliding 4-pane Image:ParametersWindowSimple.svg\|Awning
+Image:ParametersWindowFixed.svg\|Fixed Image:ParametersWindowSimple.svg\|Open 1-pane Image:ParametersWindowDouble.svg\|Open 2-pane Image:ParametersWindowStash.svg\|Sash 2-pane Image:ParametersWindowDouble.svg\|Sliding 2-pane Image:ParametersDoorSimple.svg\|Simple door Image:ParametersDoorGlass.svg\|Glass door Image:ParametersWindowDouble.svg\|Sliding 4-pane Image:ParametersWindowSimple.svg\|Awning Image:ParametersOpening.svg\|Opening only <small>(v1.0)</small> 
 
 
 
@@ -163,11 +181,11 @@ Windows can also take advantage of other tools, specifically [PartDesign](PartDe
 
 <img alt="" src=images/Arch_window_type_example.png  style="width:800px;">
 
-[Download the example file shown above](https://github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
+[Download the example file shown above](https://github.com/FreeCAD/Examples/raw/master/Arch_Example_Files/Window_Type.FCStd)
 
 ### Example workflow 
 
--   Create a window frame object, a glass panel, and any other window component you need, using [Part Workbench](Part.md) or [PartDesign](PartDesign_Workbench.md) tools.
+-   Create a window frame object, a glass panel, and any other window component you need, using [Part Workbench](Part_Workbench.md) or [PartDesign](PartDesign_Workbench.md) tools.
 -   For example, create a base rectangular sketch for your window, then a profile sketch for the frame, and create a [Part Sweep](Part_Sweep.md) to sweep the profile around the base sketch. Create a [Part Offset2D](Part_Offset2D.md) from the base sketch, then a [Part Extrude](Part_Extrude.md) to create the glass panel
 -   Make sure all these pieces have a unique, meaningful name (for example, \"Frame\" or \"Glass Panel\")
 -   Create an [App Part](App_Part.md), and place all your subcomponents in it
@@ -178,9 +196,9 @@ Windows can also take advantage of other tools, specifically [PartDesign](PartDe
     -   **Subvolume** as a PropertyLink and link it to the volume to be subtracted that we created above
     -   **Tag** as a PropertyString
 
-### Materials
-
 Our window type is now ready. We can create window objects from it, simply by selecting the App Part and pressing the window button. The \"Height\", \"Width\", \"Subvolume\" and \"Tag\" properties of the window will be linked to the corresponding property of the App Part, if existing.
+
+### Materials
 
 To build a material for type-based windows:
 
@@ -197,6 +215,14 @@ You can use any other kind of workflow than the one described above, the importa
 
 
 ## Propiedades
+
+### Data
+
+
+{{TitleProperty|Window}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/es | Height}}: El alto de esta ventana
 
@@ -217,6 +243,9 @@ You can use any other kind of workflow than the one described above, the importa
 -    {{PropertyData/es | Symbol Plan}}: muestra el símbolo de apertura 2D en el plan
 
 -    {{PropertyData/es | Elevación de símbolo}}: muestra el símbolo de apertura 2D en alzado
+
+
+</div>
 
 ## Scripting
 
@@ -250,7 +279,9 @@ Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Win
 
 </div>
 
-Ejemplo: 
+Ejemplo:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -259,7 +290,9 @@ Window = Arch.makeWindow(Rect1)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-You can also create a Window from a preset. 
+You can also create a Window from a preset.
+
+
 ```python
 Window = makeWindowPreset(windowtype, width, height, h1, h2, h3, w1, w2, o1, o2, placement=None)
 ```
@@ -272,7 +305,9 @@ Window = makeWindowPreset(windowtype, width, height, h1, h2, h3, w1, w2, o1, o2,
 
 </div>
 
-Ejemplo: 
+Ejemplo:
+
+
 ```python
 import FreeCAD, Arch
 
@@ -296,6 +331,11 @@ Door = Arch.makeWindowPreset("Simple door",
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/es
+⏵ [documentation index](../README.md) > Arch Window/es

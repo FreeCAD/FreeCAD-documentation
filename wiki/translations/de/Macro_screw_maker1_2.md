@@ -1,7 +1,4 @@
 # Macro screw maker1 2/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
 |Name=Macro_screw_maker1_2
 |Translate=Macro_screw_maker1_2
@@ -11,23 +8,14 @@
 |Version=2.3.1
 |Date=2018-10-22
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/0/00/Macro_screw_maker1_2.png ToolBar icon]
+|Download=[https://wiki.freecad.org/images/0/00/Macro_screw_maker1_2.png ToolBar icon]
 }}
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Dieses Makro erstellt eine Schraube mit oder ohne Gewinde gemäß ISO-Standards.
-
-
-</div>
+Dieses Makro erstellt eine Schraube mit oder ohne Gewinde gemäß ISO-Normen.
 
 
 {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ObjectCreation/ScrewMaker.FCMacro}}
@@ -35,15 +23,13 @@ Dieses Makro erstellt eine Schraube mit oder ohne Gewinde gemäß ISO-Standards.
 <img alt="" src=images/Macro_screw_maker_01.png  style="width:400px;"> 
 *Screw maker*
 
-## Usage
 
 
-<div class="mw-translate-fuzzy">
+## Anwendung
 
-## Nutzung
-
-Wählen Sie die Eigenschaften der Schraube aus und klicken Sie auf die Schaltfläche zum Erstellen.
-Wenn Sie einen Kreis in einem Loch auswählen, oder alternativ gleichzeitig die Innenfläche eines kreisförmigen Lochs und den Kreis über diesem Loch, wird die Schraube mit der Schaltfläche Erstellen in das Loch eingefügt. Es gibt einen Nachrichtentext, der Sie informiert, wenn die ausgewählte Kombination von Eigenschaften nicht verfügbar ist.
+1.  Die Eigenschaften der Schraube auswählen und Sie auf die Schaltfläche zum Erstellen klicken.
+2.  Wird ein Kreis an einem Loch ausgewählt oder alternativ die Innenfläche eines kreisförmigen Lochs und gleichzeitig der Rand des Lochs, wird die Schraube mit der Schaltfläche Erstellen in das Loch eingefügt.
+3.  Es gibt einen Nachrichtentext, der anzeigt, wenn die ausgewählte Kombination von Eigenschaften nicht zur Verfügung steht.
 
 
 <center>
@@ -53,30 +39,15 @@ Wenn Sie einen Kreis in einem Loch auswählen, oder alternativ gleichzeitig die 
 
 </center>
 
-Die Erstellung des Threads dauert einige Zeit. Seien Sie geduldig und sehen Sie sich die CPU-Auslastung an.
+Die Erstellung des Gewindes dauert einige Zeit. Seien Sie geduldig und sehen Sie sich die CPU-Auslastung an.
 
 
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
 
 ## Skript
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Die neueste Version des Makros finden Sie unter [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro), aber der einfachste Weg, dieses Makro zu installieren, ist mit dem [Addon-Manager](Std_AddonMgr/de.md).
 
-
-</div>
-
-ToolBar Icon ![](images/Macro_screw_maker1_2.png )
+Werkzeugleistensymbol ![](images/Macro_screw_maker1_2.png )
 
 **Macro_screw_maker_2.FCMacro**
 

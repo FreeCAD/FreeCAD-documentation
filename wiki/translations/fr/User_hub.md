@@ -4,9 +4,9 @@
 
 Il s\'agit de la principale rubrique d\'aide pour les nouveaux venus dans FreeCAD.
 
-FreeCAD est en développement continu, il peut donc y avoir des informations manquantes ou périmées. Si vous ne trouvez pas l\'information dont vous avez besoin, n\'hésitez pas à la demander sur le [forum FreeCAD](https://forum.freecadweb.org).
+FreeCAD est en développement continu, il peut donc y avoir des informations manquantes ou périmées. Si vous ne trouvez pas l\'information dont vous avez besoin, n\'hésitez pas à la demander sur le [forum FreeCAD](https://forum.freecad.org).
 
-Si vous voulez apporter votre contribution à FreeCAD, vous pouvez [faire un don](donate.md) ou rendez-vous sur la page [Aider FreeCAD](Help_FreeCAD/fr.md) pour d\'autres moyens de contribuer. Si vous souhaitez modifier ce wiki, [demandez un compte wiki avec des autorisations d\'édition sur le forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) et lisez les [pages Wiki](WikiPages/fr.md) pour les règles générales à suivre.
+Si vous voulez apporter votre contribution à FreeCAD, vous pouvez [faire un don](donate.md) ou rendez-vous sur la page [Aider FreeCAD](Help_FreeCAD/fr.md) pour d\'autres moyens de contribuer. Si vous souhaitez modifier ce wiki, [demandez un compte wiki avec des autorisations d\'édition sur le forum](https://forum.freecad.org/viewtopic.php?f=21&t=6830) et lisez les [pages Wiki](WikiPages/fr.md) pour les règles générales à suivre.
 
 Si vous souhaitez découvrir comment le développement de FreeCAD a débuté il y a quelques années, rendez vous à la page [Histoire](History/fr.md).
 
@@ -55,7 +55,11 @@ Les [ateliers](Workbenches/fr.md) sont des ensembles d'outils utilisés pour des
 
 -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Outils communs](Std_Base/fr.md). Ces commandes et outils sont présents dans tous les ateliers.
 
--   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> L\'[atelier Arch](Arch_Workbench/fr.md) pour travailler avec des éléments architecturaux.
+-   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> L\'[atelier Assembly](Assembly_Workbench/fr.md) pour la construction et la résolution d\'assemblages mécaniques. {{Version/fr|1.0}}
+
+-   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> L\'[atelier BIM](BIM_Workbench/fr.md) pour travailler avec des éléments architecturaux et créer des modèles [BIM](https://fr.wikipedia.org/wiki/Building_information_modeling). Il combine l\'atelier Arch et l\'ancien atelier BIM externe disponible dans la {{VersionMinus/fr|0.21}}.
+
+-   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> L\'[atelier CAM](CAM_Workbench/fr.md) est utilisé pour produire des instructions en G-Code. Cet atelier était appelé \"atelier Path\" {{VersionMinus/fr|0.21}}.
 
 -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> L\'[atelier Draft](Draft_Workbench/fr.md) contient des outils 2D et des opérations de CAO 2D et 3D de base.
 
@@ -63,15 +67,15 @@ Les [ateliers](Workbenches/fr.md) sont des ensembles d'outils utilisés pour des
 
 -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> L\'[atelier Inspection](Inspection_Workbench/fr.md) est fait pour vous donner des outils spécifiques pour l\'examen des formes. Il en est encore aux premiers stades de développement.
 
+-   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> L\'[atelier Material](Material_Workbench/fr.md) gère le système des matériaux de FreeCAD. {{Version/fr|1.0}}
+
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> L\'[atelier Mesh](Mesh_Workbench/fr.md) pour travailler avec des maillages triangulés.
 
 -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> L\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md) pour l\'interopérabilité avec OpenSCAD et la réparation de [Géométrie Solide Constructive](Constructive_solid_geometry/fr.md) (CSG).
 
 -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> L\' [atelier Part](Part_Workbench/fr.md) pour travailler avec des primitives géométriques et des opérations booléennes.
 
--   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> L\'[atelier Part Design](PartDesign_Workbench/fr.md) pour créer des formes de pièces à partir de dessins.
-
--   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> L\'[atelier Path](Path_Workbench/fr.md) est utilisé pour produire des instructions en G-code.
+-   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> L\'[atelier PartDesign](PartDesign_Workbench/fr.md) pour créer des formes de pièces à partir d\'esquisses.
 
 -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> L\'[atelier Points](Points_Workbench/fr.md) pour travailler avec des nuages de points.
 
@@ -83,15 +87,11 @@ Les [ateliers](Workbenches/fr.md) sont des ensembles d'outils utilisés pour des
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> L\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md) pour créer et manipuler des données de feuilles de calcul.
 
--   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> L\'[atelier Start](Start_Workbench/fr.md) vous permet de passer rapidement à l\'un des ateliers les plus courants.
-
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> L\'[atelier Surface](Surface_Workbench/fr.md) fournit des outils pour créer et modifier des surfaces. Il est similaire à l\'outil [Part Générateur de formes](Part_Builder/fr.md) à partir des bords.
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> L\'[atelier TechDraw](TechDraw_Workbench/fr.md) pour produire des dessins techniques à partir de modèles 3D.
 
 -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> L\'[atelier Test](Testing/fr.md) est destiné au débogage de FreeCAD.
-
--   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> L\'[atelier Web](Web_Workbench/fr.md) vous fournit une fenêtre de navigateur au lieu de la [3D view](3D_view/fr.md) dans FreeCAD.
 
 ### Macros
 
@@ -103,7 +103,7 @@ Depuis FreeCAD 0.17, de nombreuses macros peuvent être installées à l\'aide d
 
 
 
-### Ateliers Externes 
+### Ateliers externes 
 
 Lorsque de nombreuses macros ou fonctions sont développées ensemble et organisées dans des barres d'outils et des menus, elles peuvent devenir un nouvel atelier.
 

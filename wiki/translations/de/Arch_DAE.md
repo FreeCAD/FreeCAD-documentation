@@ -1,11 +1,11 @@
 # Arch DAE/de
-## Description
+## Beschreibung
 
-Das [Collada (DAE)](https://en.wikipedia.org/wiki/COLLADA)-Format ist ein Standarddateiformat für den Austausch von Netz-Daten. Der [Arch-Arbeitsbereich](Arch_Workbench/de.md) kann Netze aus .dae-Dateien importieren und Arch- und andere [Shape](Part_Workbench/de.md)-basierte Objekte ins .dae-Format exportieren.
+Das [Collada](https://en.wikipedia.org/wiki/COLLADA)-Format (DAE) ist ein Standard-Dateiformat für den Austausch von Netz-Daten. Der Arbeitsbereich [BIM](BIM_Workbench.md) kann Netze aus .dae-Dateien importieren und BIM-Objekte sowie andere [Shape](Part_Workbench/de.md)-basierte Objekte ins .dae-Format exportieren.
 
-Beachte, dass importierte Objekte [Netz](Mesh_Workbench/de.md)-Objekte sein werden und für optimale Nutzung in [Formteile](Shape/de.md) oder Arch-Objekte umgewandelt werden müssen. Der [Arch-Arbeitsbereich](Arch_Workbench/de.md) hat verschiedene Werkzeuge, die Dir dabei helfen.
+Man beachte, dass importierte Objekte [Netz](Mesh_Workbench/de.md)-Objekte sind und für optimale Nutzung in [Formen](Shape/de.md) oder BIM-Objekte umgewandelt werden müssen. Der Arbeitsbereich [BIM](BIM_Workbench/de.md) enthält verschiedene Werkzeuge, die dabei helfen.
 
-Die Collada-Importfunktionalität im Arch-Arbeitsbereich hängt von [pycollada](http://pycollada.github.io/) ab. Wenn es nicht auf Deinem System installiert ist, wird der Collada-Import/Export deaktiviert.
+Die Collada-Importfunktionalität im Arbeitsbereich BIM hängt von [pycollada](http://pycollada.github.io/) ab. Wenn es nicht auf dem System installiert ist, wird der Collada-Import/Export deaktiviert.
 
 ## Links
 
@@ -13,5 +13,13 @@ Die Collada-Importfunktionalität im Arch-Arbeitsbereich hängt von [pycollada](
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch DAE/de
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch DAE/de

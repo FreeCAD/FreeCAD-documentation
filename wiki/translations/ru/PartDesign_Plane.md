@@ -10,13 +10,19 @@
 
 # PartDesign Plane/ru
 
+
+
 ## Описание
 
 Создает **опорную плоскость**, которую можно использовать для размещения эскизов или другой опорной геометрии. Эскизы можно размещать на опорных плоскостях. ![](images/Datum_plane.png ) *Datum Plane crossing 3 corners of the Cube with a Cylinder sketched on it using the Datum Plane as its X-Y Plane.*
 
+
+
 ## Требования
 
 A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Body](PartDesign_Body.md). Every body has an origin, which is hidden by default. To be able to refer to the origin base planes, make the the origin visible. You can do this before creating a datum plane.
+
+
 
 ## Применение
 
@@ -29,9 +35,17 @@ A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" s
 7.  **Rotation:** Changing \"Around x-axis\" makes the plane rotate around its local X-axis. Changing \"Around y-axis\" makes the plane rotate around its local Y-axis. Changing \"Around z-axis\" makes the plane rotate around its local Z-axis.
 8.  Press **OK**.
 
+
+
 ## Опции
 
 Double-click the DatumPlane label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Part EditAttachment](Part_EditAttachment.md).
+
+## Preferences
+
+The default diffuse color and transparency of [PartDesign datums](PartDesign_CompDatums.md) is controlled by the **DefaultDatumColor** [fine-tuning parameter](Fine-tuning#PartDesign_Workbench.md).
+
+
 
 ## Свойства
 
@@ -42,7 +56,13 @@ Double-click the DatumPlane label in the Model tree or right-click and select **
 -    **Label**: name given to the object, this name can be changed at convenience.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

@@ -16,11 +16,11 @@
 
 ## Introduction
 
-*Il s\'agit d\'une version mise à jour du [Tutoriel d\'introduction Part Design](Basic_Part_Design_Tutorial/fr.md)*.
+*Il s\'agit d\'une version mise à jour du [Tutoriel d\'introduction PartDesign](Basic_Part_Design_Tutorial/fr.md)*.
 
 ![](images/Pd_tut_final_solid.png )
 
-Ce tutoriel présente aux utilisateurs l\'[atelier Part Design](PartDesign_Workbench.md). Dans ce tutoriel, nous allons créer un modèle solide 3D de la pièce représentée dans l\'image ci-dessus. Dans le [dessin](TechDraw_Workbench/fr.md) à la fin de ce paragraphe, toutes les dimensions nécessaires pour accomplir la tâche sont données.
+Ce tutoriel présente aux utilisateurs l\'[atelier PartDesign](PartDesign_Workbench.md). Dans ce tutoriel, nous allons créer un modèle solide 3D de la pièce représentée dans l\'image ci-dessus. Dans le [dessin](TechDraw_Workbench/fr.md) à la fin de ce paragraphe, toutes les dimensions nécessaires pour accomplir la tâche sont données.
 
 Nous commencerons par créer une forme solide de base à partir d\'une esquisse de base, puis nous développerons cette forme en ajoutant ce que l\'on appelle des caractéristiques. Ces caractéristiques ajouteront ou retireront de la matière au solide en utilisant des esquisses supplémentaires et des opérations de caractéristiques correspondantes.
 
@@ -31,7 +31,7 @@ Nous suivrons certaines des techniques décrites dans [Conseils pour la créatio
     Par exemple, pour changer la largeur du modèle de 53 mm, comme dans le dessin technique, à 55 mm, il suffit de modifier la valeur **Longueur** de la **contrainte nommée** appropriée dans l**\'esquisse maîtresse** et le modèle entier sera modifié en conséquence. C\'est la conception *paramétrique* en action.
 -   Les **géométries externes** sont potentiellement sujettes au [Problème de dénomination topologique](Topological_naming_problem/fr.md). Nous ne les utiliserons qu\'en cas de stricte nécessité et tenterons de faire référence aux éléments les plus **stables** disponibles. La référence aux arêtes et aux sommets des esquisses est normalement plus stable que la référence aux arêtes et aux sommets de la géométrie solide générée.
 
-Ce tutoriel n\'utilisera pas toutes les fonctionnalités et tous les outils disponibles dans l\'atelier Part Design, mais fournira une base sur laquelle les utilisateurs pourront développer leurs connaissances et leurs compétences.
+Ce tutoriel n\'utilisera pas toutes les fonctionnalités et tous les outils disponibles dans l\'atelier PartDesign, mais fournira une base sur laquelle les utilisateurs pourront développer leurs connaissances et leurs compétences.
 
 N\'hésitez pas à signaler toute erreur ou tout problème dans ce fil de discussion du forum : [New Part Design Tutorial for FC 019 and 020](https://forum.freecad.org/viewtopic.php?f=36&t=73235).
 
@@ -46,20 +46,20 @@ N\'hésitez pas à signaler toute erreur ou tout problème dans ce fil de discus
 -   Ce tutoriel suppose que la case {{CheckBox|TRUE|Contraintes automatiques}} de la fenêtre **Général** de Sketcher est cochée. Cela garantit que certaines contraintes sont appliquées automatiquement. Sinon, vous devrez les appliquer vous-même.
 -   Si le solveur de Sketcher détecte une contrainte redondante, il donne à l\'esquisse une couleur orange. Avant d\'ajouter d\'autres contraintes, les contraintes redondantes doivent être supprimées. Les contraintes redondantes sont affichées dans le panneau des tâches, cliquez sur la référence bleue et appuyez sur **Effacer**.
 -   La couleur mentionnée ci-dessus est une couleur par défaut, elle peut être modifiée dans les préférences. Il en va de même pour les autres couleurs mentionnées dans ce tutoriel.
--   Vous quittez un outil de dessin de Sketcher en appuyant sur la touche **Echap** ou en cliquant avec le bouton droit de la souris sur une zone vide de la [Vue 3D](3D_view/fr.md). Le curseur de la souris devient le curseur fléché standard. Si vous appuyez une nouvelle fois sur **Echap**, vous quitterez le mode d\'édition d\'esquisses. Pour revenir à l\'éditeur, cliquez sur l\'onglet Modèle, puis double-cliquez sur l\'élément Sketch dans la [Vue en arborescence](Tree_view/fr.md), ou cliquez dessus avec le bouton droit de la souris et sélectionnez **Éditer l\'esquisse** dans le menu contextuel. Pour éviter de quitter le mode d\'édition en appuyant trop souvent sur **Echap**, modifiez la préférence **Echap permet de quitter l\'esquisse en édition**, voir [Sketcher Préférences](Sketcher_Preferences/fr#G.C3.A9n.C3.A9ral.md).
+-   Vous quittez un outil de dessin de Sketcher en appuyant sur la touche **Echap** ou en cliquant avec le bouton droit de la souris sur une zone vide de la [vue 3D](3D_view/fr.md). Le curseur de la souris devient le curseur fléché standard. Si vous appuyez une nouvelle fois sur **Echap**, vous quitterez le mode d\'édition d\'esquisses. Pour revenir à l\'éditeur, cliquez sur l\'onglet Modèle, puis double-cliquez sur l\'élément Sketch dans la [vue en arborescence](Tree_view/fr.md), ou cliquez dessus avec le bouton droit de la souris et sélectionnez **Éditer l\'esquisse** dans le menu contextuel. Pour éviter de quitter le mode d\'édition en appuyant trop souvent sur **Echap**, modifiez la préférence **Echap permet de quitter l\'esquisse en édition**, voir [Sketcher Préférences](Sketcher_Preferences/fr#G.C3.A9n.C3.A9ral.md).
 -   Il est possible que certains éléments d\'un panneau de tâches, par exemple le bouton **OK**, ne soient pas visibles si le panneau n\'est pas assez large. Vous pouvez le rendre plus large en faisant glisser sa bordure droite. Placez le pointeur de votre souris sur la bordure, lorsque le pointeur se transforme en flèche à double sens, maintenez le bouton gauche de la souris enfoncé et faites glisser.
 -   Un bouton **&gt;&gt;** dans une barre d\'outils indique que la barre d\'outils est tronquée. Vous pouvez soit utiliser le bouton mentionné pour l\'agrandir, soit déplacer la barre d\'outils vers une position où il y a plus de place. Pour déplacer une barre d\'outils, placez le pointeur de votre souris sur la poignée précédant la première icône de la barre d\'outils, maintenez le bouton gauche de la souris enfoncé et faites glisser.
 -   Pendant le cycle de développement v0.21, une nouvelle icône a été introduite pour l\'outil [Sketcher Polyligne](Sketcher_CreatePolyline/fr.md) : <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;">. L\'ancienne icône ressemble à ceci : <img alt="" src=images/Sketcher_CreatePolyline_rel_0.20.svg  style="width:24px;">. Dans ce tutoriel, nous utiliserons la nouvelle icône.
--   Voir [Concepts de l\'atelier Part Design](Part_and_PartDesign/fr#Concepts_de_l.27atelier_PartDesign.md) pour un aperçu du contexte conceptuel.
+-   Voir [Concepts de l\'atelier PartDesign](Part_and_PartDesign/fr#Concepts_de_l.27atelier_PartDesign.md) pour un aperçu du contexte conceptuel.
 -   Voir l\'[atelier Sketcher](Sketcher_Workbench/fr.md) pour une explication plus détaillée de la terminologie utilisée ici.
 
 
 
 ## Démarrer
 
-Assurez-vous d\'abord que vous êtes dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier Part Design](PartDesign_Workbench/fr.md). Si nécessaire, sélectionnez-le dans la [liste déroulante des ateliers](Std_Workbench/fr.md). Une fois là, vous devrez créer un nouveau document si vous ne l\'avez pas déjà fait. C\'est une bonne habitude de sauvegarder souvent votre travail, alors enregistrez d\'abord le nouveau document, en lui donnant le nom de votre choix.
+Assurez-vous d\'abord que vous êtes dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md). Si nécessaire, sélectionnez-le dans la [liste déroulante des ateliers](Std_Workbench/fr.md). Une fois là, vous devrez créer un nouveau document si vous ne l\'avez pas déjà fait. C\'est une bonne habitude de sauvegarder souvent votre travail, alors enregistrez d\'abord le nouveau document, en lui donnant le nom de votre choix.
 
-Tout travail dans Part Design commence par un [corps](Glossary/fr#Body.md). Cliquez sur <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Créer un nouveau corps](PartDesign_Body/fr.md) pour en créer et en activer un. Notez qu\'il est également possible de sauter cette étape : lors de la création d\'une esquisse à l\'aide de la fonction Part Design <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Créer une esquisse](PartDesign_NewSketch/fr.md), si aucun corps existant n\'est trouvé, un nouveau corps est automatiquement créé et activé.
+Tout travail dans PartDesign commence par un [corps](Glossary/fr#Body.md). Cliquez sur <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Créer un nouveau corps](PartDesign_Body/fr.md) pour en créer et en activer un. Notez qu\'il est également possible de sauter cette étape : lors de la création d\'une esquisse à l\'aide de la fonction PartDesign <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Créer une esquisse](PartDesign_NewSketch/fr.md), si aucun corps existant n\'est trouvé, un nouveau corps est automatiquement créé et activé.
 
 
 
@@ -92,7 +92,7 @@ L\'esquisse maîtresse contient la forme de base rectangulaire du modèle et deu
 
 **Étape C : attribuer une contrainte de longueur horizontale**
 
-1.  Sélectionnez la ligne définie par **P2** et **P3** dans **Fig : MS3**.
+1.  Sélectionnez la ligne définie par **P2** et **P3** dans **Fig : MS3**. Les étiquettes telles que P1, P2 etc. n\'apparaîtront pas dans les esquisses, elles ont été ajoutées à titre de référence dans les images de ce tutoriel.
 2.  Cliquez sur <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Contrainte de distance horizontale](Sketcher_ConstrainDistanceX/fr.md) :
     1.  Une dimension apparaît entre les extrémités de la ligne sélectionnée. Cette dimension est la distance en cours.
     2.  De plus, un dialogue apparaîtra :
@@ -149,9 +149,8 @@ Le profil principal est créé en [protrusant](PartDesign_Pad/fr.md) une nouvell
 **Etape B : ajouter la géométrie**
 
 1.  Cliquez sur <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [Polyligne](Sketcher_CreatePolyline/fr.md) et créez une forme comme dans **Fig : MP1**.
-2.  Les étiquettes P1, P2, etc. n\'apparaîtront pas dans l\'esquisse. Elles ont été ajoutées à titre de référence.
-3.  Pour le dernier point du segment final, assurez-vous de choisir le premier point de la forme. Le point changera de couleur et vous verrez le symbole d\'une <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md) apparaitre près du curseur. Les contraintes de coïncidence doivent être explicites. Il ne suffit pas que deux points coïncident visuellement.
-4.  Appuyez sur **Echap** ou cliquez avec le bouton droit de la souris pour quitter l\'outil.
+2.  Pour le dernier point du segment final, assurez-vous de choisir le premier point de la forme. Le point changera de couleur et vous verrez le symbole d\'une <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md) apparaitre près du curseur. Les contraintes de coïncidence doivent être explicites. Il ne suffit pas que deux points coïncident visuellement.
+3.  Appuyez sur **Echap** ou cliquez avec le bouton droit de la souris pour quitter l\'outil.
 
 **Étape C : assigner les contraintes**
 
@@ -268,10 +267,10 @@ Pour créer les découpes, nous allons utiliser l\'outil <img alt="" src=images/
 
 Au lieu de créer une autre esquisse et d\'y faire une cavité, nous profitons de la symétrie du modèle par rapport au plan YZ et utilisons une <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [symétrisation](PartDesign_Mirrored/fr.md) pour créer la deuxième découpe.
 
-1.  Sélectionnez **Pocket**.
+1.  Sélectionnez **Pocket** dans la [vue en arborescence](Tree_view/fr.md).
 2.  Cliquez <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [Symétrie](PartDesign_Mirrored/fr.md) :
     1.  Le panneau de tâches **Paramètres de symétrie** s\'ouvre.
-    2.  Sélectionnez **Plan** {{ComboBox|Axe d'esquisse vertical}} dans le menu déroulant. Le plan sera défini par cet axe (l\'axe Y) et également par l\'axe Z de l\'esquisse. Notez que si vous sélectionnez **Plan de base YZ**, vous obtiendrez le même résultat.
+    2.  Sélectionnez {{ComboBox|Axe d'esquisse vertical}} du **Plan** dans le menu déroulant. Le plan sera défini par cet axe (l\'axe Y) et également par l\'axe Z de l\'esquisse. Notez que si vous sélectionnez **Plan de base YZ**, vous obtiendrez le même résultat.
     3.  Cliquez sur **OK**.
 3.  Vous devriez maintenant avoir une pièce qui ressemble à la **Fig : CC5**.
 
@@ -294,7 +293,7 @@ Les côtés sont créés de manière similaire, mais au lieu d\'enlever du maté
 3.  Cliquez sur <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [Créer un rectangle](Sketcher_CreateRectangle/fr.md) et créez un rectangle similaire au plus petit rectangle de la **Fig : SD1**. Comme le rectangle est décalé par rapport à l\'axe X, cela ne devrait pas déclencher une <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Contrainte de point sur objet](Sketcher_ConstrainPointOnObject/fr.md) automatique.
 4.  Quittez l\'outil.
 5.  Cliquez sur <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [Géométrie externe](Sketcher_External/fr.md).
-6.  Sélectionnez le point **P1** comme indiqué sur la **Fig : CC2**.
+6.  Sélectionnez le point **P1** comme indiqué sur la **Fig : CC2** de **Sketch**.
 7.  Quittez l\'outil.
 8.  Appliquez ces contraintes :
     1.  Sélectionnez une des lignes horizontales, appliquez une <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Contrainte de distance horizontale](Sketcher_ConstrainDistanceX/fr.md), et attribuez une valeur de **7 mm**.
@@ -375,7 +374,7 @@ C\'est maintenant l\'heure de la partie la plus difficile de notre modélisation
 **Remarques**
 
 1.  Pour **Pocket001**, nous aurions pu alternativement utiliser **Type** {{ComboBox|Dimension}}, cocher **Symétrique au plan**, et entrer **17 mm** pour la valeur **Longueur**.
-2.  **Refine** va essayer d\'enlever les joints laissés par les opérations précédentes. Il est conseillé de ne raffiner que le solide final, car certaines opérations peuvent échouer si une fonction précédente a été raffinée. Cependant, il y a aussi des cas où refine peut faire réussir une opération. Donc, en cas de problème, vérifiez cette propriété et testez-la. Malheureusement, il n\'y a pas encore de règle générale à suivre.
+2.  **Refine** va essayer d\'enlever les coutures laissées par les opérations précédentes. Il est conseillé de n\'affiner que le solide final, car certaines opérations peuvent échouer si une fonction précédente a été affinée. Cependant, il y a aussi des cas où refine peut faire réussir une opération. Donc, en cas de problème, vérifiez cette propriété et testez-la. Malheureusement, il n\'y a pas encore de règle générale à suivre.
 
 
 

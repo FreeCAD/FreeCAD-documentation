@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Draft2Sketch
    Name/de: Draft ZeichnungZuSkizze
-   MenuLocation: Änderung , Zeichnung zu Skizze
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Änderung , Zeichnung zu Skizze<br>Bearbeiten , Zeichnung zu Skizze
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
 ---
 
 # Draft Draft2Sketch/de
@@ -24,7 +24,8 @@ Der Befehl <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> *
 1.  Wahlweise ein oder mehrere Draft-Objekte oder [Sketcher Skizzen](Sketcher_NewSketch/de.md) auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_Draft2Sketch.svg" width=16px> [Zeichnung zu Skizze](Draft_Draft2Sketch/de.md)** drücken.
-    -   Den Menüeintrag **Änderung → <img src="images/Draft_Draft2Sketch.svg" width=16px> Zeichnung zu Skizze** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Änderung → <img src="images/Draft_Draft2Sketch.svg" width=16px> Zeichnung zu Skizze** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Bearbeiten → <img src="images/Draft_Draft2Sketch.svg" width=16px> Zeichnung zu Skizze** auswählen.
 3.  Wenn noch kein Objekt ausgewählt wurde: Ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
 4.  Ein neues Objekt wird erstellt.
 
@@ -42,7 +43,7 @@ Der Befehl <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> *
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um Objekte in eine Skizze zu konvertieren, wird die Methode `make_sketch` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeSketch`.
 

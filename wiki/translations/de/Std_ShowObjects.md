@@ -25,25 +25,19 @@ Der Befehl **Std ObjekteEinblenden** zeigt alle Objekte, die zum aktiven Dokumen
 
 ## Hinweise
 
--   Die Ausführung dieses Befehls kann nicht mit [Std Rückgängig](Std_Undo/de.md) rückgängig gemacht werden.
--   Die Sichtbarkeit eines Objekts kann auch mit der zugehörigen {{PropertyData/de|Visibility}} im [Eigenschafteneditor](Property_editor/de.md) oder in der [Combo-Ansicht](Combo_view/de.md) geändert werden.
+See [Std ToggleVisibility](Std_ToggleVisibility#Notes.md).
 
 
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Für ein Beispiel-Skript siehe [Std SichbarkeitUmschalten](Std_ToggleVisibility/de.md).
+See [Std ToggleVisibility](Std_ToggleVisibility#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

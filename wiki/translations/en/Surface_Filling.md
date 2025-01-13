@@ -133,8 +133,8 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 The Surface Filling tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::Filling` object.
 
--   The edges to be used to define the surface must be assigned as a [LinkSubList](LinkSubList.md) to the `BoundaryEdges` property of the object.
--   Auxiliary edges and vertices must be assigned as a [LinkSubLists](LinkSubList.md) to the `UnboundEdges` and `Points` properties of the object.
+-   The edges to be used to define the surface must be assigned as a [LinkSubList](FeaturePython_Custom_Properties#App:_PropertyLinkSubList.md) to the `BoundaryEdges` property of the object.
+-   Auxiliary edges and vertices must be assigned as a [LinkSubLists](FeaturePython_Custom_Properties#App:_PropertyLinkSubList.md) to the `UnboundEdges` and `Points` properties of the object.
 -   All objects with edges need to be computed before they can be used as input for the properties of the Filling object.
 
 

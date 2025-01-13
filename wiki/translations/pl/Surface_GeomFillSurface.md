@@ -1,19 +1,19 @@
 ---
  GuiCommand:
    Name: Surface GeomFillSurface
+   Name/pl: Powierzchnia 3D: Wypełnianie krzywych granicznych
    MenuLocation: Surface , Fill boundary curves
-   Workbenches: Surface_Workbench
+   Workbenches: Surface_Workbench/pl
    Version: 0.17
 ---
 
 # Surface GeomFillSurface/pl
 
-## Description
 
 
-**[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Surface GeomFillSurface](Surface_GeomFillSurface.md)**
+## Opis
 
-creates a parametric surface from two, three, or four boundary edges, trying to create a smooth transition between them.
+Polecenie **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> '''Wypełnianie krzywych granicznych'''** tworzy parametryczną powierzchnię z dwóch, trzech lub czterech krawędzi granicznych, próbując utworzyć płynne przejście między nimi.
 
 <img alt="" src=images/Surface_GeomFillSurface_4_edges.png  style="width:330px;"> <img alt="" src=images/Surface_GeomFillSurface_4_edges_example.png  style="width:330px;">
 
@@ -23,91 +23,105 @@ creates a parametric surface from two, three, or four boundary edges, trying to 
 
 
 
-*Left: edges that are used to generate a surface with the [GeomFillSurface](Surface_GeomFillSurface.md) tool, 4 connected edges, 3 connected edges, and 2 disconnected edges. Right: resulting surface from using the 4, 3, and 2 edges, respectively.*
-
-## Usage
-
-1.  Press the **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Fill boundary curves](Surface_GeomFillSurface.md)** button.
-2.  Select edges in the [3D view](3D_view.md). The edges must connect together so that they formed a closed profile.
-3.  Press **OK**.
+*Po lewej: krawędzie używane do generowania powierzchni za pomocą narzędzia '''Wypełnianie krzywych granicznych''', cztery połączone krawędzie, trzy połączone krawędzie i dwie odłączone krawędzie. Po prawej: powierzchnia wynikowa z użycia odpowiednio czterech, trzech i dwóch krawędzi.*
 
 
-**Note:**
 
-once created, it is not possible to apply additional constraints to the created surface.
+## Użycie
 
-## Options
-
-
-**Fill type**
-
-: {{RadioButton|TRUE|Stretch}}, {{RadioButton|TRUE|Coons}}, or {{RadioButton|TRUE|Curved}}.
-
-## Properties
-
-A [Surface GeomFillSurface](Surface_GeomFillSurface.md) (`Surface::GeomFillSurface` class) is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
-
-In addition to the properties described in [Part Feature](Part_Feature.md), the Surface Filling has the following properties in the [property editor](Property_editor.md).
-
-### Data
+1.  Naciśnij przycisk **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> '''Wypełnianie krzywych granicznych'''**.
+2.  Wybierz krawędzie w oknie [widoku 3D](3D_view/pl.md). Krawędzie muszą łączyć się ze sobą tak, aby tworzyły profil zamknięty.
+3.  Naciśnij **OK**.
 
 
-{{TitleProperty|Base}}
+**Uwaga:**
 
--    **Fill Type|Enumeration**: the applied filling algorithm; Stretch, the style with the flattest patches; [{{Value|Coons}}](https://en.wikipedia.org/wiki/Coons_patch), a rounded style with less depth than Curved; Curved, the style with the most rounded patches.
-
--    **Boundary List|LinkSubList**: a list of edges that will be used to build the surface.
-
--    **Reversed List|BoolList|(hidden)**:
-
-### View
+Po utworzeniu nie jest możliwe zastosowanie dodatkowych wiązań do utworzonej powierzchni.
 
 
-{{TitleProperty|Base}}
 
--    **Control Points|Bool**: it defaults to `False`; if set to `True`, it will show an overlay with the control points of the surface.
+## Opcje
 
-## Twisting of the surface 
 
-The shape of the surface depends on the direction of the chosen edges; if edges are selected and the result is a surface that \"twists\" on itself, one of the edges may need its list of vertices in the reverse order. A surface that twists on itself will probably have self-intersections, and thus will be an invalid [Shape](Part_TopoShape.md); this can be verified with **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part CheckGeometry](Part_CheckGeometry.md)**.
+**Typ wypełnienia**
 
-For example, if two curves have the points 
+: {{RadioButton|TRUE|Rozciągnięcie}}, {{RadioButton|TRUE|Coons}}, lub {{RadioButton|TRUE|Zakrzywienie}}.
+
+
+
+## Właściwości
+
+Obiekt **Wypełnianie krzywych granicznych** *(klasa `Surface::GeomFillSurface`)* jest pochodną podstawowej klasy [Część: Cecha](Part_Feature/pl.md) *(klasa `Part::Feature`, wraz z klasą podrzędną `Part::Spline`)*, dlatego też współdzieli wszystkie właściwości tej ostatniej.
+
+Oprócz właściwości opisanych na stronie [Cecha części](Part_Feature/pl.md), obiekt Rozszerz powierzchnię, posiada następujące właściwości w [edytorze właściwości](Property_editor/pl.md).
+
+
+
+### Dane
+
+
+{{TitleProperty|Podstawa}}
+
+-    **Typ wypełnienia|Enumeration**: zastosowany algorytm wypełniania; Rozciągnięcie, styl z najbardziej płaskimi łatami. [{{Value|Coons}}](https://en.wikipedia.org/wiki/Coons_patch), zaokrąglony styl o mniejszej głębokości niż Zakrzywienie. Zakrzywiony, styl z najbardziej zaokrąglonymi łatami.
+
+-    **Lista granic|LinkSubList**: lista krawędzi, które zostaną użyte do zbudowania powierzchni.
+
+-    **Lista odwrócona|BoolList|(ukryte)**:
+
+
+
+### Widok
+
+
+{{TitleProperty|Podstawa}}
+
+-    **Punkty kontrolne|Bool**: wartość domyślna to {{FALSE/pl}}, Jeśli ustawiono {{TRUE/pl}}, wyświetlona zostanie nakładka z punktami kontrolnymi krzywej.
+
+
+
+## Skręcenie powierzchni 
+
+Kształt powierzchni zależy od kierunku wybranych krawędzi; jeśli wybrano krawędzie, a wynikiem jest powierzchnia, która \"zakręca\" na siebie, jedna z krawędzi może wymagać listy wierzchołków w odwrotnej kolejności. Powierzchnia, która skręca się sama na sobie, prawdopodobnie będzie miała samoprzecięcia, a zatem będzie nieprawidłowym [kształtem](Part_TopoShape/pl.md). Można to zweryfikować za pomocą narzędzia **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Sprawdź geometrię](Part_CheckGeometry/pl.md)** środowiska pacy Część.
+
+Na przykład, jeśli dwie krzywe mają punkty: 
 ```python
 curve1 = [a, b, c, d]
 curve2 = [e, f, g]
-``` and the resulting surface after using **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [GeomFillSurface](Surface_GeomFillSurface.md)** or **[<img src=images/Surface_Sections.svg style="width:16px"> [Sections](Surface_Sections.md)** is a twisted surface, you may create a third curve that is equal to one of the two original curves but with a reversed list of points.
+``` oraz wynikową powierzchnię po użyciu **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Wypełnianie krzywych granicznych](Surface_GeomFillSurface/pl.md)** lub **[<img src=images/Surface_Sections.svg style="width:16px"> [Przekrój powierzchni](Surface_Sections/pl.md)** jest powierzchnią skręconą, możesz utworzyć trzecią krzywą, która jest równa jednej z dwóch oryginalnych krzywych, ale z odwróconą listą punktów.
 
-Either 
+Albo 
 ```python
 curve1 = [a, b, c, d]
 curve3 = [g, f, e]
 ```
 
-or 
+lub 
 ```python
 curve3 = [d, c, b, a]
 curve2 = [e, f, g]
-``` should work to generate a surface that doesn\'t twist.
+``` powinno działać, aby wygenerować powierzchnię, która się nie skręca.
 
-In practical terms this means that all edges used to generate a surface should be created preferably in the same clockwise or anti-clockwise direction. Following this simple rule usually guarantees that the surface will follow the smoothest direction and won\'t twist.
+W praktyce oznacza to, że wszystkie krawędzie używane do generowania powierzchni powinny być tworzone najlepiej w tym samym kierunku zgodnym lub przeciwnym do ruchu wskazówek zegara. Przestrzeganie tej prostej zasady zwykle gwarantuje, że powierzchnia będzie podążać w najbardziej płynnym kierunku i nie będzie się skręcać.
 
-When the surface\'s **Lighting** property is {{Value|One side}}, a face will be painted completely black if its normal direction points into the [3D view](3D_view.md) (away from the current viewer), indicating a flipped face with respect to the other colored faces.
+Gdy właściwość **Oświetlenie** powierzchni ma wartość {{Value|Jedna strona}}, powierzchnia zostanie pomalowana na czarno, jeśli jej normalny kierunek wskazuje na [widok 3D](3D_view/pl.md) *(z dala od bieżącej widza)*, wskazując odwróconą powierzchnię w stosunku do innych kolorowych powierzchni.
 
 <img alt="" src=images/Surface_twisting_example_smooth.png  style="width:330px;"> <img alt="" src=images/Surface_twisting_example_twisted.png  style="width:330px;"> 
-*Left: the boundary edges are oriented in the same direction, and thus the generated surface is smooth. Right: the boundary edges have opposite directions, and thus the generated surface twists on itself, resulting in self-intersections.*
-
-## Scripting
+*Po lewej: krawędzie graniczne są zorientowane w tym samym kierunku, a zatem wygenerowana powierzchnia jest gładka. Po prawej: krawędzie graniczne mają przeciwne kierunki, a zatem wygenerowana powierzchnia skręca się na sobie, powodując samoprzecinanie.*
 
 
-**See also:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Tworzenie skryptów 
 
-The Surface GeomFillSurface tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::GeomFillSurface` object.
 
--   The edges to be used to define the surface must be assigned as a [LinkSubList](LinkSubList.md) to the `BoundaryList` property of the object.
--   The type of algorithm must be assigned like a string to the `FillType` property.
--   All objects with edges need to be computed before they can be used as input for the properties of the GeomFillSurface object.
+**Zobacz również:**
+
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie Wypełnianie krzywych granicznych powierzchni może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) poprzez dodanie obiektu {{Incode|Surface::GeomFillSurface}}.
+
+-   Krawędzie, które mają być użyte do zdefiniowania powierzchni, muszą być przypisane jako [LinkSubList](FeaturePython_Custom_Properties/pl#App:_PropertyLinkSubList.md) do właściwości `BoundaryList` obiektu.
+-   Typ algorytmu musi być przypisany jako ciąg znaków do właściwości `FillType`.
+-   Wszystkie obiekty z krawędziami muszą zostać przeliczone, zanim będą mogły zostać użyte jako dane wejściowe dla właściwości obiektu GeomFillSurface.
 
 
 ```python

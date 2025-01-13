@@ -13,10 +13,14 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Crea un **sistema di coordinate locali** che può essere usato come riferimento per altre geometrie di riferimento. Aiuta anche a identificare l\'orientamento della geometria di riferimento referenziata nello spazio 3D. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) 
 *Sistema di coordinate locale originato dall'origine di un piano di riferimento.*
+
+
 
 ## Utilizzo
 
@@ -34,6 +38,8 @@ Crea un **sistema di coordinate locali** che può essere usato come riferimento 
 
 </div>
 
+
+
 ## Opzioni
 
 
@@ -44,7 +50,15 @@ Fare doppio clic sull\'etichetta **Local_CS** nell\'albero del modello o fare cl
 
 </div>
 
+## Preferences
+
+See [PartDesign Plane](PartDesign_Plane#Preferences.md).
+
+
+
 ## Proprietà
+
+
 
 ### Dati
 
@@ -57,6 +71,8 @@ Fare doppio clic sull\'etichetta **Local_CS** nell\'albero del modello o fare cl
 -    **Placement**: indica le coordinate e l\'allineamento dell\'origine del sistema di coordinate.
 
 -    **Label**: nome dato all\'oggetto, questo nome può essere cambiato a piacere.
+
+
 
 ## Script
 

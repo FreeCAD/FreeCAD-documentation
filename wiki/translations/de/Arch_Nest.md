@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch Nest
    Name/de: Arch Verschachteln
-   MenuLocation: Arch , Plattenwerkzeuge , Verschachteln
-   Workbenches: Arch_Workbench/de
+   MenuLocation:  Utils , Plattenwerkzeuge , Verschachteln
+   Workbenches: BIM_Workbench/de
    SeeAlso: Arch_Panel/de, Arch_Panel_Sheet/de
 ---
 
@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Das Werkzeug **<img src="images/Arch_Nest.svg" width=16px> [Arch Verschachteln](Arch_Nest/de.md)** ermöglicht die Auswahl einer ebenen Form (Flächenobjekt) als Behälter und einer Reihe anderer ebener Formen, die innerhalb der Fläche angeordnet werden sollen, die die Behälterform vorgibt. Dies ist in der Regel für CNC-Bearbeitungen erforderlich, bei denen eine Reihe von Teilen aus einer Grundplatte (Tafel) ausgeschnitten werden, um diese Teile so kompakt wie möglich anzuordnen, damit sie weniger Platz auf der Grundplatte einnehmen.
+Das Werkzeug **Arch Verschachteln** ermöglicht die Auswahl einer ebenen Form (Flächenobjekt) als Behälter und einer Reihe anderer ebener Formen, die innerhalb der Fläche angeordnet werden sollen, die die Behälterform vorgibt. Dies ist in der Regel für CNC-Bearbeitungen erforderlich, bei denen eine Reihe von Teilen aus einer Grundplatte (Tafel) ausgeschnitten werden, um diese Teile so kompakt wie möglich anzuordnen, damit sie weniger Platz auf der Grundplatte einnehmen.
 
 Der Algorithmus hinter dem Verschachtelungswerkzeug befindet sich in ständiger Entwicklung und ist derzeit noch nicht vollständig optimiert. In der Zukunft sollte die Leistung dieses Werkzeugs viel besser werden.
 
@@ -25,9 +25,9 @@ Der Algorithmus hinter dem Verschachtelungswerkzeug befindet sich in ständiger 
 
 ## Anwendung
 
-1.  Die Schaltfläche **<img src="images/Arch_Nest.svg" width=16px> [Arch Verschachteln](Arch_Nest/de.md)** drücken.
+1.  Den Menüeintrag **Utils → Plattenwerkzeuge → <img src="images/Arch_Nest.svg" width=16px> Verschachteln** auswählen.
 2.  Ein ebenes Flächenobjekt als Behälter (Container) auswählen. Dieses Objekt muss aktuell noch rechteckig sein.
-3.  Auf die Schaltfläche **Ausgewählte wählen** klicken, um dieses Objekt als Container zu verwenden.
+3.  Auf die Schaltfläche **Auswahl hinzufügen** klicken, um dieses Objekt als Container zu verwenden.
 4.  Eine Reihe anderer ebener Flächenobjekte auswählen, die im Behälter platziert werden sollen. Diese Objekte müssen sich alle in derselben Ebene wie der Behälter befinden.
 5.  Die gewünschten Optionen unten einstellen.
 6.  Den Berechnungsvorgang starten.
@@ -49,5 +49,13 @@ Der Algorithmus hinter dem Verschachtelungswerkzeug befindet sich in ständiger 
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/de
+⏵ [documentation index](../README.md) > Arch Nest/de

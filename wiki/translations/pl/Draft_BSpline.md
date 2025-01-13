@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft BSpline
    Name/pl: Draft: Krzywa złożona
-   MenuLocation: Kreślenie , Krzywa złożona
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Kreślenie , Krzywa złożona<br>Kreślenie 2D , Krzywa złożona
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **B** **S**
    SeeAlso: Draft_Wire/pl, Draft_CubicBezCurve/pl, Draft_BezCurve/pl
    Version: 0.7
@@ -30,7 +30,8 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 1.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_BSpline.svg" width=16px> '''Krzywa złożona'''**.
-    -   Wybierz opcję **Kreślenie → <img src="images/Draft_BSpline.svg" width=16px> Krzywa złożona** z menu.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz opcję **Kreślenie → <img src="images/Draft_BSpline.svg" width=16px> Krzywa złożona** z menu.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Kreślenie 2D → <img src="images/Draft_BSpline.svg" width=16px> Krzywa złożona** z menu.
     -   Użyj skrótu klawiaturowego: **B**, a następnie **S**.
 2.  Otworzy się panel zadań **Krzywa złożona**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
 3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt
@@ -42,11 +43,11 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 1.0)*.
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź element X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie wskaźnika poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
 -   Wciśnij **R** lub kliknij pole wyboru **Relatywnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne są względne do ostatniego punktu, jeśli jest dostępny, w przeciwnym razie są one względne do początku układu współrzędnych.
--   Naciśnij **G** lub kliknij pole wyboru **Globalne**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). <small>(v0.20)</small> 
+-   Naciśnij **G** lub kliknij pole wyboru **Globalne**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij **F** lub kliknij pole wyboru **Wypełnij**, aby przełączyć tryb wypełnienia. Jeśli tryb wypełnienia jest włączony, utworzony splajn będzie miał właściwość **Utwórz ścianę** ustawione na wartość {{TRUE/pl}} i będzie miał wypełnioną ścianę, pod warunkiem, że jest zamknięty i nie następuje samo-przecinanie. Należy pamiętać, że przecinający się splajn ze ścianą nie będzie wyświetlany poprawnie, dla takiego splajnu właściwość **Make Face** musi być ustawione na wartość {{FALSE/pl}}.
 -   Naciśnij **N** lub kliknij pole wyboru **Kontynuuj**, aby włączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po użyciu przycisku **<img src="images/Draft_FinishLine.svg" width=16px> Zakończ** lub **<img src="images/Draft_CloseLine.svg" width=16px> Zamknij**, lub po utworzeniu zamkniętego splajnu poprzez przyciągnięcie do pierwszego punktu splajnu, umożliwiając dalsze tworzenie splajnów.
 -   Naciśnij **/** lub przycisk **<img src="images/Draft_UndoLine.svg" width=16px> Cofnij**, aby cofnąć ostatni punkt.

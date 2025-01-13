@@ -7,13 +7,7 @@
 
 ## Introducere
 
-
-<div class="mw-translate-fuzzy">
-
-[FEM Workbench](FEM_Workbench.md)  oferă un flux modern de analiză prin metoda elementelor finite (MEF) pentru FreeCAD. În principal, acest lucru înseamnă că toate instrumentele pentru a face o analiză prin Metoda Elementului Finit sunt combinate într-o singură interfață grafică(GUI).
-
-
-</div>
+[FEM Workbench](FEM_Workbench.md) oferă un flux modern de analiză prin metoda elementelor finite (MEF) pentru FreeCAD. În principal, acest lucru înseamnă că toate instrumentele pentru a face o analiză prin Metoda Elementului Finit sunt combinate într-o singură interfață grafică(GUI).
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
 
@@ -204,6 +198,8 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
+  - <img alt="" src=images/FEM_ConstraintRigidBody.svg  style="width:32px;"> [Rigid body constraint](FEM_ConstraintRigidBody.md): Used to apply the CalculiX\'s rigid body constraint that constrains the motion of the nodes of a selected geometrical entity to the motion of a reference point positioned by the user. <small>(v1.0)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -220,7 +216,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
-  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Tie constraint](FEM_ConstraintTie.md): Used to define a tie constraint (\"bonded contact\") between two faces.
+  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Tie constraint](FEM_ConstraintTie.md): Used to define a tie constraint (\"bonded contact\") between two faces, or, <small>(v1.0)</small> , cyclic symmetry.
 
   - <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
 
@@ -322,9 +318,15 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-femmesh-from-shape.svg  style="width:32px;"> [FEM mesh group](FEM_MeshGroup.md):
 
--   <img alt="" src=images/Fem-femmesh-create-node-by-poly.svg  style="width:32px;"> [Nodes set](FEM_CreateNodesSet.md): Creates/defines a node set from FEM mesh.
+-   <img alt="" src=images/FEM_CreateElementsSet.svg  style="width:32px;"> [Erase Elements](FEM_CreateElementsSet.md): Hides elements selected by a polygon from the mesh. <small>(v1.0)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Fem-femmesh-to-mesh.svg  style="width:32px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md): Convert the surface of a FEM mesh to a mesh.
+
+
+</div>
 
 
 
@@ -550,16 +552,42 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-constraint-bearing.svg  style="width:32px;"> [Constraint bearing](FEM_ConstraintBearing/ro.md): Utilizat pentru a defini o constrângere de rulment.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Fem-constraint-gear.svg  style="width:32px;"> [Constraint gear](FEM_ConstraintGear/ro.md): Utilizat pentru a defini o constrângere de angrenaj de roți dințate.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-constraint-pulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley/ro.md): Utilizat pentru a defini o constrângere de tip fulie.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Fem-solver.svg  style="width:32px;"> [Solver CalculiX](FEM_SolverCalculiX.md):
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-femmesh-create-node-by-poly.svg  style="width:32px;"> [Nodes set](FEM_CreateNodesSet.md): Creates/defines a node set from FEM mesh.
 
 
 </div>

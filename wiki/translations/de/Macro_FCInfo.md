@@ -2,24 +2,24 @@
 {{Macro
 |Name=Macro FCInfo
 |Icon=FCInfo.png
-|Description=Gives information about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, percent), area, volume and weight in different units (metric and imperial). The macro now also works for the elements of a sketch in edit mode.
-<br />French Version [https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/da448b70d27ee82c496b04ffb68f5224c653bed1/FCInfo_fr_Ver_1-28c-rmu_Docked.FCMacro Version française]
+|Description=Gibt Informationen über die ausgewählte Form aus und kann umgewandelte Werte von Länge, Neigung (Grad, Bogenmaß, Steigung, Prozent), Flächeninhalt, Volumen und Gewicht in verschieden Einheiten (metrisch und imperial (US/GB)) anzeigen. Das Makro funktioniert jetzt auch mit Elementen einer Skizze im Bearbeitungsmodus.
+<br />French Version [https://gist.github.com/mario52a/6afc64081c4eb8be3b93 französische Version]
 |Author=Mario52
 |Download=[https://wiki.freecad.org/images/5/53/FCInfo.png ToolBar Icon]
-|Version=1.28c
-|Date=2023/10/30
-|FCVersion=All
-|SeeAlso=[Arch Survey](Arch_Survey.md), [Macro SimpleProperties](Macro_SimpleProperties.md), [Macro FCInfoGlass](Macro_FCInfoGlass.md)
+|Version=1.30
+|Date=2025/01/02
+|FCVersion=Alle
+|SeeAlso=[Arch Übersicht](Arch_Survey/de.md), [Makro EinfacheEigenschaften](Macro_SimpleProperties/de.md), [Macro FCInfoGlass](Macro_FCInfoGlass.md)
 }}
 
 
 
 ## Beschreibung
 
-Gibt Informationen über die ausgewählte Form und kann eine Umwandlung von Länge, Neigung (Grad, Bogenmaß, Neigung, Prozent), Flächeninhalt, Volumen und Gewicht in unterschiedliche Einheiten (metrisch oder imperial) anzeigen. Das Makro arbeitet jetzt auch mit den Elementen einer Skizze im Bearbeitungsmodus.
+Gibt Informationen über die ausgewählte Form aus und kann eine Umwandlung von Länge, Neigung (Grad, Bogenmaß, Neigung, Prozent), Flächeninhalt, Volumen und Gewicht in unterschiedliche Einheiten (metrisch oder imperial) anzeigen. Das Makro arbeitet jetzt auch mit den Elementen einer Skizze im Bearbeitungsmodus.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/c18679d096d168133e6f9e914774b3ba06ff6dc9/FCInfo_en_Ver_1-28c-rmu_Docked.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/c6dd9eabe1ae67d0baf235d672faa75dfd927ad6/FCInfo_en_Ver_1-30-rmu_Docked.FCMacro}}
 
 <img alt="" src=images/Macro_FCInfo_00_en.png  style="width:480px;"> 
 *FCInfo*
@@ -39,40 +39,51 @@ Ein Objekt auswählen und die Anwendung starten oder zuerst die Anwendung starte
 
 ![FCInfo Dokument](images/Macro_FCInfo_Document_00.png )
 
--   Document name
--   Label and internal name of the object
--   Internal Name of the object
--   Sub element name and type of the object
--   Type of the object
+-   Dokumentname
+-   Benenung und interner Name des Objekts
+-   Interner Name des Objekts
+-   Unterelementname und Art des Objekts
+-   Art des Objekts
 
-*(you can checked to {{false}} the variable **switch_setVisible_GBox_001_Document** for hidden the Box)*
+*(Die Variable **switch_setVisible_GBox_001_Document** kann auf {{false}} gesetzt werden, um die Tafel auszublenden)*
 
 
 
-### Abschnitt 2: Coordinates click mouse 
+### Abschnitt 2: Mausklick-Koordinaten 
 
 ![FCInfo Koordinate](images/Macro_FCInfo_Coordinate_click_mouse_00.png )
 
--   Coordinates X,Y and Z click to mouse
--   The **button** creates point, axis, plane, copy vector axis from **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+-   Die X-,Y- und Z-Koordinaten des Mausklicks
+-   Die **Schaltfläche** erstellt Punkt, Achse, Ebene, Kopie des Achsenvektors von **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
-*(you can checked to {{false}} the variable **switch_setVisible_GBox_002_Coordinate_Mouse** for hidden the Box)*
+*(Die Variable **switch_setVisible_GBox_002_Coordinate_Mouse** kann auf {{false}} gesetzt werden, um die Tafel auszublenden)*
 
-### Sector 3: Color on point 
+
+
+### Abschnitt 3: Color on point 
 
 ![FCInfo Color_on_point](images/Macro_FCInfo_Color_on_point_00.png )
 
+-   Farbe am ausgewählten Punkt.
+    -   Wertebereich jeweils 0.0 bis 1.0
 
-<div class="mw-translate-fuzzy">
+-   Die nächste Zeile zeigt die Werte der Farbe in unterschiedlichen Formaten an: {{LineEdit|"3435973887" , "#cccccc" , "0xcccccc" , "204,204,204" , "(0.8,0.8,0.8)"}}
+    -   **3435973887** : Format RGBA Int unsigned (Format in FreeCADs Voreinstellungen) Alpha = 255
+    -   **#cccccc** : Format RGB hexadezimal (Qt: `setStyleSheet("color : #cccccc")`)
+    -   **0xcccccc** : Format RGB hexadezimal (Python: `hex(0xcccccc`)
+    -   \"**204,204,204** \" : RGB dezimal: Format RGB (Qt: `setStyleSheet(u"QLineEdit {"background-color: rgb(204, 204, 204)};")`)
+    -   **(0.8,0.8,0.8)** : RGB float: Format RGB Gleitkommawert von 0.0 bis 1.0
+    -   (Die Anzahl der Nachkommastellen hängt von der Option *\"x (Decimals)\"*ab)
 
-**Sector 3: Value**
+-    {{CheckBox|Sub.Objet}}: Ändert die Farbe des ausgewählten Objekts oder Teilobjekts. Wenn aktiviert {{CheckBox|TRUE|Sub.Objet}}, wird die ausgewählte Fläche bzw. das ausgewählte Teilobjekt geändert oder dupliziert. Wenn deaktiviert (standard), wird das Objekt geändert (Farbe) oder dupliziert.
 
--   Länge des Objekts, wenn das Objekt ein Gesichtsumfang ist, Einheitsgröße kann ausgewählt werden:
-    km, hm, dam, m, dm, cm, *\'mm\'*, µm, nm, pm, fm, zoll, link, fuß, hof, barsch, kette, furlong, meile, liga, nautique. Wenn das Objekt ein Kreis ist, ist eine Sekunde lineEdit offen und zeigt den Radius des Kreises an.
--   Umfang der Form
+-    **Coul. Obj**: Ändert die Farbe der Form bzw. der Fläche, abhängig von der Auswahl. Im Falle von Netz- oder Punktobjekten wird das ganze Objekt eingefärbt.
 
+-    **Dupl. Obj**: Dupliziert die Fläche bzw. das Objekt, abhängig von der ausgewählten Option. Im Falle von Netz- oder Punktobjekten wird das ganze Objekt eingefärbt. Beim Duplizieren eines Netzobjekts bleibt das Original erhalten und es wird eine Festkörperform erstellt. Duplizieren eines Punktobjekts erhält das original und erstellt eine Kopie.
 
-</div>
+-    {{SpinBox|0}}: Transparenzgrad der ausgewählten Fläche bzw. des ausgewählten Objekts, abhängig von der ausgewählten Option **0 = opak** , **100 = transparent**
+
+*(Die Variable **switch_setVisible_GBox_003_Color** kann auf {{false}} gesetzt werden, um die Tafel auszublenden)*
 
 ### Sector 4: Components Mesh 
 
@@ -309,18 +320,13 @@ same for length and weigth
 
 -    {{RadioButton|Space}}: the separator is Space
 
-
-<div class="mw-translate-fuzzy">
-
-Option zum Speichern oder Lesen des spreadSheets mit unterschiedlichen Trennzeichen, Tabulation, Komma, Semikolon, Leerzeichen
-Die Tabellierung ist das Trennzeichen für das FreeCAD spreadSheet-Modul
+Optionen zum Speichern (**Save**) oder Öffnen (**Read**) von Tabellen mit unterschiedlichen Trennzeichen wie Tab, Komma, Semikolon, Leerzeichen
+Tab(ulation) ist das Trennzeichen für FreeCADs Arbeitsbereich \[Spreadsheet_Workbench/de\|Spreadsheet\]
 Die Nummer dieser vier Trennzeichen wird für Hilfe berechnet, falls unbekannt
-Die COMMA sind das alte (01.16 und davor) Trennzeichen des FCInfo-Makros
-Aus Kompatibilitätsgründen mit dem FreeCAD-SpreadSheet und seit Version 01.17 ist TABULATION standardmäßig das Trennzeichen
-Wenn Sie Ihre alte FCInfo-Kalkulationstabelle konvertieren möchten: Öffnen Sie sie in FCInfo und speichern Sie sie mit aktivierter Option Tabulation
-
-
-</div>
+Das KOMMA ist das alte Trennzeichen (01.16 und davor) des FCInfo-Makros
+Aus Kompatibilitätsgründen mit FreeCAD-Spreadsheet und seit Version 01.17 ist TAB (Tabulation) standardmäßig das Trennzeichen.
+Wenn eine alte Kalkulationstabelle umgewandelt werden soll: Diese in FCInfo öffnen und mit aktivierter Option Tabulation speichern.
+\'\'(Die Variable **switch_setVisible_GBox_013_SpreadSheet_Creation** kann auf {{false}} gesetzt werden, um die Tafel auszublenden).
 
 ### Sector 14: Main tools 
 
@@ -359,21 +365,12 @@ Wenn Sie Ihre alte FCInfo-Kalkulationstabelle konvertieren möchten: Öffnen Sie
 
 *(you can checked to {{false}} the variable **switch_setVisible_GBox_014_Main_Tools** for hidden the Box)*
 
-
-<div class="mw-translate-fuzzy">
-
-Nach dem Starten des Makros bleibt das Makro aktiv und das Fenster bleibt sichtbar. Um das Makro durch Drücken von **Exit** zu verlassen. Wenn Sie das Kreuz verlassen, bleibt das Makro im Speicher und die Daten werden in der \"Berichtansicht\" von FreeCAD angezeigt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Nach dem Starten des Makros bleibt das Makro aktiv und das Fenster bleibt sichtbar. Zum Verlassen des Makros **Exit** drücken. Wird das Makro über die Kreuz-Schaltfläche verlassen, bleibt das Makro im Speicher und die Daten werden im \"Ausgabefenster\" von FreeCAD angezeigt; jetzt muss FreeCAD neu gestartet werden, um es zu verlassen.
 
 
 <center>
 
-Image:Macro_FCInfo_04.png\|Docked to rigth, Image:Macro FCInfo 05.png\|or left with Combo view and reachable by a tab, or not docked to the choice.
+Image:Macro_FCInfo_04.png\|Rechts angedockt, Image:Macro FCInfo 05.png\|oder links mit Combo-Ansicht und über Tab erreichbar oder wahlweise nicht angedockt.
 
 
 </center>
@@ -382,65 +379,30 @@ Image:Macro_FCInfo_04.png\|Docked to rigth, Image:Macro FCInfo 05.png\|or left w
 
 
 
-</div>
-
-## Options
-
-
-
-
-<div class="mw-translate-fuzzy">
 
 ## Optionen
 
+
+
 ### Die verwendete Einheit 
+
+
 
 #### Längeneinheit:
 
 km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
 
-</div>
 
-#### Length unit: 
+#### Winkelgrade :
 
-km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
+1.  **Grad, dezimal**, z.B.: 174.831872611°
+2.  Grad, Minute, sekunde, z.B.: 174° 49\' 54.741401\'\'
+3.  Radiant, z.B.: 3.05139181449 rad
+4.  geodätischer Winkel, z.B.: 194.257636235 gon
+5.  Prozent, z.B.: 30° = 57.74%
 
-#### Angle degrees : 
-
-
-<div class="mw-translate-fuzzy">
-
-#### Angle degrees : 
-
-1.  **decimal degree**, ex: 174.831872611°
-2.  degree minute seconde, ex: 174° 49\' 54.741401\'\'
-3.  radian, ex: 3.05139181449 rad
-4.  grade, ex: 194.257636235 gon
-5.  pourcent ex: 30° = 57.74%
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Kenntnis der Winkel in der FCInfo-Anzeige.
-
-
-<center>
-
-Image:Macro FCInfo 02.png\|Understanding of angles in FCInfo display Image:Macro FCInfo 03.gif\|Understanding of angles in poucent in FCInfo display
-click twice to see the animation (the image must be in full screen)
-
-
-</center>
-
-
-
-
-
-</div>
+Winkel in der FCInfo-Anzeige.
 
 
 <center>
@@ -454,19 +416,12 @@ click twice to see the animation (the image must be in full screen)
 
 
 
-#### Weight unit : 
 
 
-<div class="mw-translate-fuzzy">
-
-#### Weight unit : 
+#### Gewichtseinheit :
 
 ton, quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),
 lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight), tonneau fr, ct
-the \"spinBox\" is set to **7,5** kg, average density of steel. Wenn Sie einen anderen Standardwert wünschen, ändern Sie den Wert der Dichte in Zeile 208
-
-
-</div>
 
 #### FCInfo Configuration 
 
@@ -587,22 +542,7 @@ All calculations are done without taking account of this option
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Skrip
-
-Kopieren Sie den Inhalt des Makros in eine Datei mit dem Namen \"FCInfo.FCMacro\".
-
--   Windows: Das Formular lautet normalerweise **drive:\\Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\**
--   Ubuntu: Das Formular lautet normalerweise **/home/your_user_name/.FreeCAD**.
-
-Oder direkt in der Oberfläche von FreeCAD
-Das Symbol muss sich im selben Verzeichnis wie das Makro befinden.
-Laden Sie die Bildpositionierung auf das Symbol herunter <img alt=" 64px" src=images/_FCInfo.png ) ![](images/_FCInfoSpreadsheet.png  style="width:64px;"> und ziehen Sie die Maustaste mit der rechten Maustaste auf \"Speichern unter\" (ändern Sie den Namen nicht).
-
-
-</div>
+## Skript
 
 Copy the contents of the macro in a file named \"FCInfo.FCMacro\"
 
@@ -612,81 +552,79 @@ Copy the contents of the macro in a file named \"FCInfo.FCMacro\"
 Or, directly in the interface of FreeCAD
 The icon must be in the same directory as the macro.
 Download image positioning on the icon <img alt="" src=images/FCInfo.png  style="width:64px;"> <img alt="" src=images/FCInfoSpreadsheet.png  style="width:64px;"> and then drag the mouse right click \"save as\" (do not change the name)
-
-
-<div class="mw-translate-fuzzy">
-
-**PS: zu lang, um in der Wiki-Seite enthalten zu sein (zur Zeit akzeptieren die Wiki-Seiten nur 64 KB), wurde der Makrocode in das Forum**
+**PS: Der Code ist zu lang, um in der Wiki-Seite enthalten zu sein (zur Zeit akzeptieren die Wiki-Seiten nur 64 KB), daher wurde der Makrocode in das Forum**
 gestellt
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Laden Sie die Makrodatei in gist herunter **docked to right**
+Die Makrodatei **docked to right** herunterladen
 
 
-</div>
+{{CodeDownload|https://gist.github.com/mario52a/8d40ab6c018c2bde678f|last version Macro_FCInfo}}
 
-
-<div class="mw-translate-fuzzy">
-
-
-{{CodeDownload|https://gist.github.com/mario52a/8d40ab6c018c2bde678f|last version Macro_FCInfo and the icons at the end of the page}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-(Or **[On the forum.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=47748#p47748)** )
-**PS:** Dieses Makro verwendet **getSelection ()** und die Objektliste beginnt mit 1 Ex: für eine Box **Edge1 bis Edge12** und der Code in der Konsole beginnt bei 0 ex: für eine Box **Edge \[0\] to Edge \[11\]**
-Normalerweise beginnt die Zählung von Arrays/Listen in OpenCascade immer bei **1 und nicht bei 0**
-
-
-</div>
+(Oder **[On the forum.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=47748#p47748)** )
+**PS:** Dieses Makro verwendet **getSelection ()** und die Objektliste beginnt mit 1 z.B. für eine Box **Edge1 bis Edge12** und der Code in der Konsole beginnt bei 0 z.B. für eine Box **Edge \[0\] to Edge \[11\]**
+Dies ist normal; die Zählung von Arrays bzw. Listen in OpenCascade beginnt immer bei **1 und nicht bei 0**
 
 ### Limitations
 
-
-<div class="mw-translate-fuzzy">
-
-### Einschränkungen
-
-Lassen Sie immer die Taste **Exit**. Wenn man das Programm verlässt, ohne die Taste **Exit** zu durchlaufen, bleibt das Programm im Speicher und läuft weiter, und die Anzeige bleibt im \"Bericht anzeigen\". Sie müssen FreeCAD verlassen, um es aus dem Speicher zu löschen.
-In der Tabelle sind nur die ersten 200 Elemente des Objekts sichtbar, wenn das Objekt mehr als 200 Elemente enthält, wird ein Signal durch **(! +200)** angezeigt. Die vollständige Datenliste ist in der Datei sichtbar, die mit der Schaltfläche **Save** gespeichert wird.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Wenn das Fenstermakro nach dem Lauf nicht sichtbar ist, siehe das untere Fenster:
-
-
-</div>
+Immer mit der Schaltfläche **Exit** verlassen. Wird das Programm verlassen, ohne die Schaltfläche **Exit** zu verwenden, bleibt das Programm im Speicher und läuft weiter, und die Anzeige bleibt im \"Ausgabefenster\". FreeCAD muss beendet werden, um es aus dem Speicher zu löschen.
+In der Tabelle sind nur die ersten 200 Elemente des Objekts sichtbar. Enthält das Objekt mehr als 200 Elemente, wird ein Signal durch **(! +200)** angezeigt. Die vollständige Datenliste ist in der Datei sichtbar, die mit der Schaltfläche **Save** gespeichert wird.
+Wenn das Fenstermakro nach der Ausführung nicht sichtbar ist, siehe das untere Fenster:
 
 ![](images/Macro_FCInfo_08.png )
 
 ![](images/FCInfo_begin_00.gif ) 
 
-
-<div class="mw-translate-fuzzy">
-
 Projekt:
 ~~lies die Datei direkt in einer Tabelle.~~ done
 ~~stimmt mit den \"Kanten\" und ihren Koordinaten überein~~ done
-Zuordnung eines Stoffes zu seiner Dichte ~~Neigung auf das Element und nicht auf das globale Objekt~~ erledigt
+~~Zuordnung eines Stoffes zu seiner Dichte~~
+~~Neigung auf das Element und nicht auf das globale Objekt~~ erledigt
 ~~Inlay direkt in der Oberfläche von FreeCAD~~ fertig
 
-
-</div>
-
 ## Version
+
+ver \"1.30\" 2025/01/02 : delette all reference to PySide PySide2 and QtWidgets modify the (Qt) Save file
+
+
+```python
+#
+import PySide2
+from PySide2 import QtGui , QtCore, QtWidgets
+from PySide2.QtWidgets import QComboBox
+from PySide2.QtWidgets import QMessageBox
+from PySide2.QtWidgets import QTableWidget, QApplication
+from PySide2.QtGui import *
+from PySide2.QtCore import *
+from PySide2.QtWidgets import *
+
+            OpenName, Filter = PySide2.QtWidgets.QFileDialog.getOpenFileName(None, u"Read a txt file", setPathLatestDirectory, "*.FCInfo *.csv *.asc *.txt;;FCInfo (*.FCInfo);;Cvs (*.csv);;Ascii (*.asc);;TXT (*.txt);;(*.*);;(*)")#PySide2
+```
+
+replaced and change command by
+
+
+```python
+#
+import PySide
+try:
+    from PySide import QtWidgets
+    from PySide.QtWidgets import *
+except Exception:
+    None
+from PySide import QtGui , QtCore
+from PySide.QtGui import *
+from PySide.QtCore import *
+
+            OpenName, Filter = QFileDialog.getOpenFileName(None, u"Read a txt file", setPathLatestDirectory, "*.FCInfo *.csv *.asc *.txt;;FCInfo (*.FCInfo);;Cvs (*.csv);;Ascii (*.asc);;TXT (*.txt);;(*.*);;(*)")#PySide
+
+```
+
+ver \"1.29b\" 2024/05/10 **PySide2** modify Inertia \" MatrixX1\*uniteM to (MatrixX1\*uniteM) \" and adding spinBox inertia
+
+-   [Moment of inertias calculation](https://forum.freecad.org/viewtopic.php?p=713935#p713935)
+-   [Momentof Interia - FCInfo macro](https://forum.freecad.org/viewtopic.php?t=64653)
+
+ver 1.29 2024/05/06 **french** version **fr PySide6** by sylvainbx <https://gist.github.com/sylvainbx/af09a30be3e1427de56305825331fb29> merci sylvainbx
 
 ver 1.28b 1.28c 2023/10/30 orthographe
 
@@ -700,13 +638,7 @@ ver 1.27 2023/06/30 optimize the styleSheet, correct the left/right position and
             self.PB_00_Decrement.setStyleSheet("QPushButton {background-color: white; border:2px solid rgb(215, 10, 22)};")      # bord white and red
 ```
 
-
-<div class="mw-translate-fuzzy">
-
--   ver 1.22 , 12/11/2020 : now the macro is totally uninstalled i use :
-
-
-</div>
+-   ver 1.26c 2022/04/19 BSpline-Upgrade-Fehler mit Gear Bspline=Line
 
 -   ver 1.26b 20/02/2022 upgrade for detect BSpline in SubObject
 
@@ -753,54 +685,38 @@ self.window.hide()
 FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/FCInfo > switchWarning
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-currently:
-\*ver 1.21-3.01 , 07/11/2019 \# 07/11/2019 ver \"01.21-3-rmu\" replace character micro = \"U\", square = \"2\", cube = \"3\", degrees = \" deg\" see \"<https://forum.freecadweb.org/viewtopic.php?f=3&t=6005&start=70#p345819>\"
-
--   ver 1.21.01 (1.21-rmu) 30/05/2019 rmu change fixed positions to qt layouts grid.addWidget() by rmu75 see the rmu75 fork \"<https://gist.github.com/rmu75/b165147bd1c2f2659c014103793ae1d8>\"
--   ver 1.20 , 29/01/2018 optimization
--   ver 1.19 , 20/01/2018 create checkBox for use detection all elements of the object if wanted or not , the macro is faster. Optimisation
--   ver 1.18 , 19/12/2017 \...
--   ver 1.17c , 14/12/2017 create plane with coordinate give in one project in other project and replace \"FCInfo\" by \"\_\_title\_\_\"
--   ver 1.17b , 13/12/2017 little correction replace FCTreeView to FCInfo
--   ver 1.17 , 12/12/2017 add upgrade Moment of inertia mm and kg by pinq [FCMacro and moment of inertia of assembly](https://forum.freecadweb.org/viewtopic.php?t=23888), and create plane, axis, point, and add options separator for spreadsheet
--   ver 1.16 , 21/06/2017 add control height police (here PointSize 8) and checkbox for position the window to right or left
--   ver 1.15 , 19/12/2015 suppression PyQt4 option [see](http://forum.freecadweb.org/viewtopic.php?f=12&t=13541) , add checkBox for editing infos in report view
--   ver 1.14 , 04/08/2014 replace PyQt4 and PySide and correct tooltip not displayed cause on PySide and add fg
--   ver 1.13 , 27/07/2014 replace FCInfo_en_Ver_1-12_Docked.FCMacro to FCInfo_en_Ver_1-13_Docked.FCMacro accept PyQt4 and PySide
--   ver 1.12 , 10/03/2014 adding tooltip
--   ver 1.11 , 04/03/2014 adding µm, nm, pm, fm, µg, ng, pg, pourcent, fixed of grandeur carat ~~\"cd\"~~ in **\"ct\"**, display of the label and internal name, fixed calculation of angles XY YZ ZX could give an error on a compound shape, window dockable in FreeCAD
--   ver 1.10.b , 19/11/2013 buttons outside the scrollbar and the dimensions of the window blocking
-
-(ver 1.10 , 18/11/2013 create scrollbar)
-\*ver 1.08.b , 10/11/2013 translation units in English, error correction to display the area of the faces listed in the table and replacement of the\"**print**\" by \"**App.Console.PrintMessage**\"
-~~ver 1.09 , 04/11/2013 works perfectly on Windows and Linux (cause of errors on Linux the characters : ² ³ ° \"ordinal not in range(128)\")~~
-In a Linux distribution and in the case of an error of **\"ordinal not in range (128)\"** an alternative version exists on this page [Macro_FCInfo_Alternate_Linux](Macro_FCInfo_Alternate_Linux.md)
-\*ver 1.08 , 24/10/2013 correction of high top \"Faces\" and \"Edges\" displaying 100 objects (in the saved file)
-\*ver 1.07 , 11/10/2013 matches the \"Faces\" and their coordinates.
-\*ver 1.06 , 22/09/2013 matches the \"Edges\" and their coordinates, inclination on the element rather than the global object
-\*ver 1.05 , 17/09/2013 added an icon for the spreadsheet, conversion barrel fr, affichage des dimensions overall instead of coordinates.
-\*ver 1.04 , 11/09/2013: read the file directly in a table.
-\*ver 1.03 , 09/09/2013: clearer display in view report and replacement by \"typeObject = sel\[0\].Shape.ShapeType\"
-\*ver 1.02 , 7/09/2013 : small updates
-\*ver 1.00 , 6/09/2013
-
-
-</div>
+-   ver 1.21-3.01 , 07/11/2019 \# 07/11/2019 ver \"01.21-3-rmu\" replace character micro = \"U\", square = \"2\", cube = \"3\", degrees = \" deg\" see \"<https://forum.freecadweb.org/viewtopic.php?f=3&t=6005&start=70#p345819>\"
+-   ver 1.21-2.01 (1.21-rmu) 11/06/2019: rmu replace all characters over 127 in ex: \"°\" in chr(176)) #degree
+-   ver 1.21.01 (1.21-rmu) 30/05/2019: rmu change fixed positions to qt layouts grid.addWidget() by rmu75 see the rmu75 fork \"<https://gist.github.com/rmu75/b165147bd1c2f2659c014103793ae1d8>\"
+-   ver 1.21 , 16/04/2019: Optimierung für Py 3\... Qt 5\... FreeCAD-Ausgaben 0.15 bis 0.19
+-   ver 1.20 , 29/01/2018: Optimierung
+-   ver 1.19 , 20/01/2018: create checkBox for use detection all elements of the object if wanted or not , das Makro ist schneller. Optimierung
+-   ver 1.18 , 19/12/2017: \...
+-   ver 1.17c , 14/12/2017: create plane with coordinate give in one project in other project and replace \"FCInfo\" by \"\_\_title\_\_\"
+-   ver 1.17b , 13/12/2017: Kleinere Korrekturen, FCTreeView durch FCInfo ersetzt
+-   ver 1.17 , 12/12/2017: add upgrade Moment of inertia mm and kg by pinq [FCMacro and moment of inertia of assembly](https://forum.freecadweb.org/viewtopic.php?t=23888), and create plane, axis, point, and add options separator for spreadsheet
+-   ver 1.16 , 21/06/2017: add control height police (here PointSize 8) and checkbox for position the window to right or left
+-   ver 1.15 , 19/12/2015: suppression PyQt4 option [see](http://forum.freecadweb.org/viewtopic.php?f=12&t=13541) , add checkBox for editing infos in report view
+-   ver 1.14 , 04/08/2014: Ersetzt PyQt4 sowie PySide und correct tooltip not displayed cause on PySide and add fg
+-   ver 1.13 , 27/07/2014: FCInfo_en_Ver_1-12_Docked.FCMacro durch FCInfo_en_Ver_1-13_Docked.FCMacro accept PyQt4 and PySide ersetzt
+-   ver 1.12 , 10/03/2014: Tooltipps hinzugefügt
+-   ver 1.11 , 04/03/2014: µm, nm, pm, fm, µg, ng, pg, percent hinzugefügt, grandeur carat ~~\"cd\"~~ zu **\"ct\"** geändert, Anzeige von Benennung und internem Namen, Berechnung von Winkeln korrigiert XY YZ ZX could give an error on a compound shape, Fenster andockbar in FreeCAD
+-   ver 1.10b , 19/11/2013: Schaltflächen außerhalb der Scroll-Leiste und die blockierten Fenstermaße
+-   ver 1.10 , 18/11/2013: Scroll-Leiste erstellen
+-   ver 1.08b , 10/11/2013: Übersetzungseinheiten in Englisch, Fehlerkorrektur für den Flächenihhalt der aufgelisteten Fehler in der Tabelle und Ersatz von\"**print**\" durch \"**App.Console.PrintMessage**\"
+-   ~~ver 1.09 , 04/11/2013: Arbeitet optimal mit Windows und Linux (Grund für Fehler unter Linux: die Zeichen ² ³ ° \"ordinal not in range(128)\")~~
+-   ver 1.08 , 24/10/2013: correction of high top \"Faces\" and \"Edges\" displaying 100 objects (in der gespeicherten Datei)
+-   ver 1.07 , 11/10/2013: Stimmt die \"Flächen\" und ihre Koordinaten ab.
+-   ver 1.06 , 22/09/2013: Stimmt die \"Kanten\" und ihre Koordinaten ab, inclination on the element rather than the global object
+-   ver 1.05 , 17/09/2013: Ein Symbol für das Tabellenblatt hinzugefügt, Umwandlung zu Maßen anstatt Koordinaten.
+-   ver 1.04 , 11/09/2013: Liest die Datei direkt in eine Tabelle.
+-   ver 1.03 , 09/09/2013: Deutlichere Darstellung im Ausgabefenster und Ersatz durch \"typeObject = sel\[0\].Shape.ShapeType\"
+-   ver 1.02 , 7/09/2013 : Kleinere Aktualisierungen
+-   ver 1.00 , 6/09/2013
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Verknüpfungen
-
-Siehe auch [Arch Überblick](Arch_Survey/de.md) <img alt="Arch Überblick" src=images/Arch_Survey.svg  style="width:36px;">
-
-
-</div>
+## Verweise
 
 See Also: <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width:36px;"> [Arch Survey](Arch_Survey.md)
 

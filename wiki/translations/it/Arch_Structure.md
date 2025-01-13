@@ -10,21 +10,36 @@
 
 # Arch Structure/it
 
+
+</div>
+
+
+
 ## Descrizione
 
 Lo strumento [Struttura](Arch_Structure/it.md) permette di costruire elementi strutturali quali colonne o travi, specificando la loro larghezza, lunghezza e altezza, o derivandoli da un profilo 2D di base (faccia, contorno o schizzo).
 
 Se non viene fornito alcun profilo, è disponibile una serie di modelli predefiniti per creare rapidamente un elemento strutturale da un profilo standard predefinito.
 
-![](images/Arch_Structure_example.jpg ) 
+<img alt="" src=images/Arch_Structure_example.jpg  style="width:400px;"> 
 *Colonna basata su un profilo di base 2D; una colonna e un raggio definiti dalla loro altezza, lunghezza e larghezza, senza un profilo di base; una struttura metallica basata su una faccia 2D*
 
+
+
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 -   Selezionare una forma 2D (oggetto di Draft, area o schizzo) (opzionale)
 -   Premere il pulsante **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)
 **, oppure premere i tasti **S** e poi **T**
 -   Regolare le proprietà come desiderate
+
+
+</div>
+
+
 
 ## Opzioni
 
@@ -37,9 +52,16 @@ Se non viene fornito alcun profilo, è disponibile una serie di modelli predefin
 -   Facendo doppio clic sulla struttura nella vista ad albero dopo la sua creazione permette di accedere alla modalità di modifica e di accedere e modificare le sue addizioni e sottrazioni
 -   In modalità di modifica, è anche possibile aggiungere un [sistema di assi](Arch_Axis/it.md) per l\'elemento strutturale. Quando si aggiunge un sistema di assi, l\'elemento strutturale viene copiato una volta su ciascun asse del sistema. Quando si aggiungono due sistemi assi, l\'elemento strutturale viene copiato una volta su ciascuna intersezione dei due sistemi.
 
+
+
 ## Proprietà
 
+
+
 ### Dati
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Tool**: un percorso di estrusione opzionale, che può essere qualsiasi tipo di linea. Se questa proprietà è vuota, l\'estrusione è diritta e viene creata nella direzione indicata dalla proprietà Normal
 
@@ -55,11 +77,18 @@ Se non viene fornito alcun profilo, è disponibile una serie di modelli predefin
 
 -    **Nodes Offset**: un offset opzionale tra la linea centrale e la linea dei nodi
 
+
+</div>
+
+
+
 ### Vista
 
 -    **Nodes Type**: il tipo di nodi strutturali di questo oggetto, lineare o area.
 
 -    **Show Nodes**: mostra o nasconde i nodi strutturali.
+
+
 
 ## Preset
 
@@ -75,12 +104,17 @@ Il pulsante **Switch L/H** può essere utilizzato per scambiare i valori lunghez
 <img alt="" src=images/Arch_precast_example.jpg  style="width:960px;"> 
 *Alcuni preset per strutture prefabbricate in calcestruzzo*
 
+
+
 ## Nodi strutturali 
 
 Gli oggetti struttura hanno anche la possibilità di visualizzare i nodi strutturali. I nodi strutturali sono una sequenza di punti 3D memorizzati nella proprietà \"Nodes\". Commutando on/off la proprietà vista \"Show Nodes\", si possono vedere i nodi strutturali di un elemento struttura:
 
 <img alt="" src=images/Arch_structural_nodes.jpg  style="width:960px;"> 
 *Nodi strutturali resi visibili in un insieme di strutture*
+
+
+<div class="mw-translate-fuzzy">
 
 -   I nodi vengono calcolati e aggiornati automaticamente, a meno che non siano modificati manualmente. Se invece sono stati modificati manualmente, essi non sono più aggiornati automaticamente quando la forma dell\'oggetto strutturale cambia, a meno che in seguito non si utilizzi lo strumento \"Reset nodi\".
 -   Oltre ai nodi lineari, le strutture Arch possono anche avere dei nodi planari. Per questo, 1- Ci devono essere almeno 3 vettori nella proprietà \"Nodi\" dell\'oggetto, 2- La proprietà \"NodesType\" del loro ViewObject deve essere impostata su \"Area\".
@@ -91,6 +125,9 @@ Gli oggetti struttura hanno anche la possibilità di visualizzare i nodi struttu
     -   Prolungare i nodi dell\'oggetto modificato fino a toccare il nodo di un altro oggetto
     -   Rendere il nodo di un oggetto coincidente con quello di un altro oggetto
     -   Commutare on/off la visualizzazione di tutti i nodi di tutti gli oggetti strutturali del documento
+
+
+</div>
 
 ## Scripting
 
@@ -103,26 +140,37 @@ Lo strumento Struttura può può essere utilizzato nelle [macro](Macros/it.md) e
 
 
 ```python
-Structure = makeStructure(baseobj=None, height=None)
-Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
+structure = makeStructure(baseobj=None, height=None)
+structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 -   Crea un oggetto `Struttura` dal `baseobj` dato, che è un profilo chiuso, e dalla `altezza` di estrusione data.
     -   Se non viene fornito un `baseobj`, si possono fornire i valori numerici per `length`, `width`, e `height` per creare una struttura a blocchi.
     -   Il `baseobj` può anche essere qualsiasi oggetto solido esistente.
 
-Esempio: 
+
+</div>
+
+Esempio:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
-Rect = Draft.makeRectangle(200, 300)
-Structure1 = Arch.makeStructure(Rect, height=2000)
+rect = Draft.make_rectangle(200, 300)
+structure1 = Arch.makeStructure(rect, height=2000)
 FreeCAD.ActiveDocument.recompute()
 
-Structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
-Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
+structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
+Draft.move(structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{docnav/it
@@ -135,6 +183,14 @@ FreeCAD.ActiveDocument.recompute()
 }}
 
 
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/it
+⏵ [documentation index](../README.md) > Arch Structure/it

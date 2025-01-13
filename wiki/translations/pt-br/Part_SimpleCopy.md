@@ -3,34 +3,37 @@
    Name: Part SimpleCopy‎
    MenuLocation: Part , Create a copy , Create simple copy
    Workbenches: Part_Workbench
-   SeeAlso: Std_Copy, Std_DuplicateSelection, Part_TransformedCopy, Part_ElementCopy, Part_RefineShape
+   SeeAlso: Part_TransformedCopy, Std_Copy, Std_DuplicateSelection
 ---
 
 # Part SimpleCopy/pt-br
 
 ## Description
 
-
-**![](images/)_[Part_SimpleCopy‎](Part_SimpleCopy‎.md)**
-
-produces a copy that has no parametric history; the steps and operations needed to create it aren\'t accessible any more.
-
-**Alternatively**, to produce other non-parametric copies use <img alt="" src=images/Part_TransformedCopy.svg  style="width:16px;">[Transformed Copy](Part_TransformedCopy.md), <img alt="" src=images/Part_ElementCopy.svg  style="width:16px;"> [Element Copy](Part_ElementCopy.md), and <img alt="" src=images/Part_RefineShape.svg  style="width:16px;"> [RefineShape](Part_RefineShape.md)
+The <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> **Part SimpleCopy** command creates non-parametric copies of objects.
 
 ## Usage
 
-1.  Select an object for which you wish to make a copy.
-2.  Go to the menu **Part → Create a copy → ![](images/)_[Create_simple_copy](Part_SimpleCopy.md)**.
+1.  Select one or more objects.
+2.  Select the **Part → Create a copy → <img src="images/Part_SimpleCopy.svg" width=16px> Create simple copy** option from the menu.
+
+## Notes
+
+-   For objects nested in containers [Part TransformedCopy](Part_TransformedCopy.md) should be used instead.
 
 ## Properties
 
-### Data
+See also: [Property editor](Property_editor.md).
 
-The copy has a simple **Placement** property like any other [Part Feature](Part_Feature.md).
+The created objects are [Part Feature](Part_Feature.md) objects with no additional properties.
 
-### View
 
-The copy has simple view properties like any other [Part Feature](Part_Feature.md).
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

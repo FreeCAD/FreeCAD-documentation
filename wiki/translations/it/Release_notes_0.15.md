@@ -121,7 +121,7 @@ Per i nostalgici del vecchio software CAD, ora con lo strumento [Forma da testo]
 
 ### Esportare le pagine di Disegno in DXF 
 
-Il sistema utilizzato fino ad ora per esportare le pagine di Disegno in DXF era un trucco molto complicato per convertire prima il codice SVG dell\'oggetto FreeCAD e poi convertirlo in DXF con l\'esportatore di Draft. Ora, l\'esportazione avviene all\'interno del modulo Drawing, più velocemente e con risultati più affidabili. L\'eportazione DXF ora utilizza un [modello di sistema](Drawing_templates/it.md) simile a quello dei fogli SVG. Se la pagina di Disegno utilizza un dato modello SVG, e nella stessa posizione è disponibile un modello DXF con lo stesso nome, esso viene utilizzato per generare il file DXF.
+Il sistema utilizzato fino ad ora per esportare le pagine di Disegno in DXF era un trucco molto complicato per convertire prima il codice SVG dell\'oggetto FreeCAD e poi convertirlo in DXF con l\'esportatore di Draft. Ora, l\'esportazione avviene all\'interno del modulo Drawing, più velocemente e con risultati più affidabili. L\'eportazione DXF ora utilizza un modello di sistema simile a quello dei fogli SVG. Se la pagina di Disegno utilizza un dato modello SVG, e nella stessa posizione è disponibile un modello DXF con lo stesso nome, esso viene utilizzato per generare il file DXF.
 
 ![](images/Drawing-dxf-export.jpg )
 

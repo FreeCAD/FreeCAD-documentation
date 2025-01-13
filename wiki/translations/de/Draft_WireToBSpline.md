@@ -3,7 +3,7 @@
    Name: Draft WireToBSpline
    Name/de: Draft DrahtZuBSpline
    MenuLocation: Änderung , Kantenzug zu BSpline
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de
    SeeAlso: Draft_Wire/de, Draft_BSpline/de
 ---
 
@@ -38,7 +38,7 @@ Der Befehl <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um einen Draht in einen B-Spline umzuwandeln oder umgekehrt, wird die Eigenschaft `Points` des Quellobjekts an die Methode `[make_bspline](Draft_BSpline/de#Skripten.md)` bzw. die Methode `[make_wire](Draft_Wire/de#Skripten.md)` des Draft-Moduls übergeben.
 

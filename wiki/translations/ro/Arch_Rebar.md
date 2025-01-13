@@ -13,9 +13,6 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
 ---
  GuiCommand:
    Name: Arch Rebar
@@ -43,8 +40,6 @@ Instrumentul Rebar vă permite să plasați barele de armătură [1](http://en.w
 
 </div>
 
-The [Arch Rebar](Arch_Rebar.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
-
 Rebar objects are based on 2D profiles such as [Draft objects](Draft_Workbench.md) and [Sketches](Sketcher_Workbench.md), that must be drawn on a face of the structural object. After creation you can adjust the properties of the rebar, including the number and diameter of the bars, and the offset distance between them and the faces of the structural element.
 
 <img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;">
@@ -53,18 +48,6 @@ Rebar objects are based on 2D profiles such as [Draft objects](Draft_Workbench.m
 <div class="mw-translate-fuzzy">
 
 Imaginea de mai sus prezintă un obiect structural, în care sunt desenate două schițe, care definesc două diagrame de bare. Aceste două schițe sunt apoi transformate în obiecte de armătură.
-
-
-</div>
-
-
-
-## Extensii disponibile 
-
-
-<div class="mw-translate-fuzzy">
-
-Instrumentul Rebar a fost mult îmbunătățit în timpul ediției din 2017 a [Google Summer of Code](Google_Summer_of_Code.md) . Rezultatul acestei lucrări este o serie de noi presetări și vrăjitori/asistenți pentru cele mai comune tipuri de bare. Acestea sunt ambalate sub un modul independent numit **Reinforcement**, pe care îl puteți instala prin meniul Tools -\> Addons Manager. Odată ce aplicația Addon Reinforcement este instalată, la următoarea rulare, FreeCAD o va detecta și va adăuga o serie de instrumente noi sub butonul Rebar din bara de instrumente Arch și meniul:
 
 
 </div>
@@ -189,12 +172,17 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+
+
+
 <div class="mw-translate-fuzzy">
 
 
 </div>
 
+{{BIM_Tools_navi}}
+
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar/ro
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Arch Rebar/ro

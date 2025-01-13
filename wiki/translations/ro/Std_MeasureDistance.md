@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Introducere
@@ -16,6 +18,8 @@ Acest instrument măsoară și afișează distanța absolută dintre două punct
 </div>
 
 The **Std MeasureDistance** command creates a distance object that measures and displays the distance between two points.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -38,6 +42,8 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 3.  Select the second dimension point anywhere on an object in the 3D view.
 4.  The selection order of the points can have an impact on the position of the dimension line.
 5.  Optionally flip the position of the dimension line by changing the **Mirror** property of the distance object.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -90,7 +96,7 @@ Pentru mai multe posibilități de măsurare / dimensionare puteți utiliza
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

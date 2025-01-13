@@ -1,10 +1,10 @@
 # Assembly2 Workbench/de
-**The Assembly2 workbench is obsolete. Its author no longer maintains it, so it may not work with FreeCAD versions 0.17 and above. The information in this page is not maintained; it is just kept for historical purposes.**
+**der Arbeitsbereich Assembly2 ist veraltet. Sein Autor hat die Wartung eingestellt; er wird mit FreeCAD-Versions 0.17 und neuer wahrscheinlich nicht mehr funktionieren. Die Informationen dieser Seite werden nicht aktualisiert (und übersetzt); sie werden nur aus historischen Gründen behalten.**
 
 
-{{Message|For an alternative, see [A2plus](A2plus_Workbench.md). This workbench is a fork of Assembly2, but it is not compatible with it. If you have older models that you need to open, you should stay with FreeCAD 0.16 and Assembly2. Newer models should be created entirely and opened with A2plus.<br/>
+{{Message|Als Alternative siehe [A2plus](A2plus_Workbench/de.md). Dieser Arbeitsbereich ist ein Ableger (fork) von Assembly2, ist aber mit jenem nicht kompatibel. Sind noch alte Modelle vorhanden, die geöffnet werden sollen, bleibt man liber bei FreeCAD 0.16 und Assembly2. Neuere Modelle sollten komplett in A2plus erstellt und geöffnet werden.<br/>
 
-For other options see [Assembly3](Assembly3_Workbench.md) or [Assembly4](Assembly4_Workbench.md). These workbenches are also inspired by Assembly2, but are not compatible with it either.}}
+Weiter Möglichkeiten bieten [Assembly3](Assembly3_Workbench/de.md) oder [Assembly4](Assembly4_Workbench/de.md). Diese Arbeitsbereiche wurden auch durch Assembly2 inspiriert, sind aber auch beide nicht mit ihm kompatibel.}}
 
 ## Introduction
 

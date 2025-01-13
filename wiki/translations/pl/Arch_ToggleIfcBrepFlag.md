@@ -1,23 +1,36 @@
 ---
  GuiCommand:
    Name: Arch ToggleIfcBrepFlag
-   MenuLocation: Arch , Utilities , Toggle Ifc Brep flag
-   Workbenches: Arch_Workbench
-   SeeAlso: Arch_IfcExplorer, Arch_IFC
+   Name/pl: BIM: Przełącz flagę Brep IFC
+   MenuLocation: Narzędzia , Przełącz flagę Brep IFC
+   Workbenches: BIM_Workbench/pl
+   SeeAlso: Arch_IfcExplorer/pl, Arch_IFC/pl
 ---
 
 # Arch ToggleIfcBrepFlag/pl
 
-## Description
 
-This tool turns the IfcBrep flag of a selected [Arch](Arch_Workbench.md) object on/off (the default is always off). If the flag in on, when exported to IFC, the object will be exported as an [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm) object, even if a higher-level kind of export such as IfcExtrudedAreaSolid or IfcBooleanResult is possible. Although IfcFacetedBrep objects are heavier and less editable (they loose some geometry information such as the modeling history), they are often less error-prone. Setting this flag allows to solve some cases of objects that are not exported correctly when the flag is not set.
 
-## Usage
+## Opis
 
-1.  Select an Arch object.
-2.  Select the **<img src="images/Arch_ToggleIfcBrepFlag.svg" width=16px>** button, or **Arch** → **Utilities** → **<img src="images/Arch_ToggleIfcBrepFlag.svg" width=16px> [Toggle IfcBrepFlag](Arch_ToggleIfcBrepFlag.md)** from the top menu.
+Narzędzie **Przełącz flagę Brep IFC** włącza / wyłącza flagę IfcBrep wybranego obiektu [BIM](BIM_Workbench/pl.md) *(domyślnie jest ona zawsze wyłączona)*. Jeśli flaga jest włączona, podczas eksportu do IFC obiekt zostanie wyeksportowany jako obiekt [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm), nawet jeśli możliwy jest eksport wyższego poziomu, taki jak IfcExtrudedAreaSolid lub IfcBooleanResult. Chociaż obiekty IfcFacetedBrep są cięższe i mniej edytowalne (tracą niektóre informacje o geometrii, takie jak historia modelowania), często są mniej podatne na błędy. Ustawienie tej flagi pozwala rozwiązać niektóre przypadki obiektów, które nie są eksportowane poprawnie, gdy flaga nie jest ustawiona.
+
+
+
+## Użycie
+
+1.  Wybierz obiekt Architektury.
+2.  Wybierz przycisk z menu **Narzędzia → <img src="images/Arch_ToggleIfcBrepFlag.svg" width=16px> Przełącz flagę Brep IFC**.
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/pl
+⏵ [documentation index](../README.md) > Arch ToggleIfcBrepFlag/pl

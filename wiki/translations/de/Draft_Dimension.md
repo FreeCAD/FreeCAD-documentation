@@ -3,7 +3,7 @@
    Name: Draft Dimension
    Name/de: Draft Maß
    MenuLocation: Anmerkung , Abmessung
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de
    Shortcut: **D** **I**
    Version: 0.8
    SeeAlso: Draft_FlipDimension/de
@@ -15,7 +15,7 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> **Draft Maß** [erstellt](#Erstellen.md) ein [lineares Maß](#Anwendung_lineares_Maß.md), ein [radiales Maß](#Anwendung_radiales_Maß.md) oder ein [Winkelmaß](#Anwendung_Winkelmaß.md). Der Befehl kann auch verwendet werden, um mit [Std AbstandMessen](Std_MeasureDistance/de.md) erstellte Objekte [umzuwandeln](#Umwandeln.md).
+Der Befehl <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> **Draft Maß** erstellt ein [lineares Maß](#Lineares_Maß.md), ein[Radiales Maß](#Radiales_Maß.md) oder ein [Winkelmaß](#Winkelmaß.md).
 
 Lineare Maße auf Basis von Kanten und radiale Maße sind parametrisch. Das heißt, dass sie aktualisiert werden, wenn die bemaßte Kante verändert wird. Die bemaßten Kanten können zu Draft-Objekten gehören oder zu Volumenkörpern. Winkelmaße sind nicht parametrisch.
 
@@ -26,13 +26,13 @@ Draft-Maße können auf einem [TechDraw](TechDraw_Workbench/de.md)-Zeichnungsbla
 
 
 
-## Erstellen
+## Anwendung
 
 Siehe auch: [Draft Fach](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
 
 
-### Anwendung lineares Maß 
+### Lineares Maß 
 
 1.  Wahlweise eine gerade Kante in der [3D-Ansicht](3D_view/de.md) auswählen.
 2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
@@ -63,13 +63,10 @@ Siehe auch: [Draft Fach](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) und
 
 
 
-### Anwendung radiales Maß 
+### Radiales Maß 
 
 1.  Wahlweise eine kreisförmige Kante in der [3D-Ansicht](3D_view/de.md) auswählen.
-2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension/de.md)** drücken.
-    -   Den Menüeintrag **Anmerkung → <img src="images/Draft_Dimension.svg" width=16px> Abmessung** auswählen.
-    -   Das Tastaturkürzel **D** dann **I**.
+2.  Den Befehl aufrufen, wie oben beschrieben.
 3.  Der Aufgabenbereich **Dimension** wird geöffnet. Siehe [Optionen](#Optionen.md) für mehr Informationen.
 4.  Wenn bisher noch keine Kante ausgewählt wurde, wählt man eine der folgenden Möglichkeiten:
     -   
@@ -86,13 +83,10 @@ Siehe auch: [Draft Fach](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) und
 
 
 
-### Anwendung Winkelmaß 
+### Winkelmaß
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** drücken.
-    -   Den Menüeintrag **Anmerkung → <img src="images/Draft_Dimension.svg" width=16px> Abmessung** auswählen.
-    -   Das Tastaturkürzel **D** dann **I**.
-2.  Der Aufgabenbereich **Dimension** wird geöffnet. Siehe [Optionen](#Optionen.md) für mehr Informationen.
+1.  Den Befehl aufrufen, wie oben beschrieben:
+2.  Das Aufgaben-Fenster **Dimension** wird geöffnet. Siehe [Optionen](#Optionen.md) für mehr Informationen.
 3.  Eine der folgenden Möglichkeiten auswählen:
     -   
         **E**
@@ -105,15 +99,15 @@ Siehe auch: [Draft Fach](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) und
 
 
 
-### Optionen
+## Optionen
 
-Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 1.0).
 
 -   Zum manuellen Eingeben von Koordinaten, werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam, den Mauszeiger aus der [3D-Ansicht](3D_view/de.md) heraus zu bewegen, bevor Koordinaten eingegeben werden.
 
 -    **R**drücken oder die Checkbox **Relativ** aktivieren, um den Relativ-Modus umzuschalten. Ist der Relativ-Modus aktiviert, beziehen sich Koordinaten auf den letzten Punkt, falls vorhanden, andernfalls beziehen sie sich auf den Ursprung des Koordinatensystems.
 
--    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md).
 
 -    **N**drücken oder die Checkbox **Fortsetzen** aktivieren, um den Fortsetzen-Modus umzuschalten. Ist der Fortsetzen-Modus aktiviert, wird der Befehl nach dem Beenden erneut gestartet und ermöglicht so mit dem Erstellen von Maßen fortzufahren. Alle folgenden Maße starten am Endpunkt des vorhergehenden Maßes und verwenden dieselbe Grundlinie wie das erste Maß. Man beachte, dass die Auswahl von Kanten bei aufeinanderfolgenden Maßen nicht möglicht ist.
 
@@ -123,25 +117,10 @@ Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geänd
 
 
 
-## Umwandeln
-
-
-
-### Anwendung
-
-1.  Select one or more [Std MeasureDistance](Std_MeasureDistance.md) objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut: **D** then **I**.
-3.  Each selected object is replaced by a non-parametric linear Draft Dimension.
-
-
-
 ## Hinweise
 
 -   Lineare und radiale Draft-Maße können mit dem Befehl [Draft Bearbeiten](Draft_Edit/de.md) editiert werden.
--   Draft-Maße, die mit [FreeCAD Version 0.21](Release_notes_0.21/de.md) sind nicht rückwärtskompatibel.
+-   Draft-Maße, die mit [FreeCAD Version 0.21](Release_notes_0.21/de.md) erstellt oder gespeichert wurden, sind nicht rückwärtskompatibel.
 
 
 
@@ -151,127 +130,131 @@ Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein Draft Dimension-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)-Objekt abgeleitet und erbt alle seine Eigenschaften. Die folgenden sind, wenn nicht anders angegeben, zusätzliche Eigenschaften:
 
-### Data linear and radial dimension 
 
 
-{{TitleProperty|Dimension}}
-
--    **Dimline|VectorDistance**: specifies the point through which the dimension line passes.
-
--    **Linked Geometry|LinkSubList**: specifies the object and its subelement(s) the dimension is linked to.
-
--    **Normal|Vector**: specifies the normal of the plane of the text.
-
--    **Support|Link|hidden**: specifies the measured object.
+### Daten für lineare und radiale Maße 
 
 
-{{TitleProperty|Linear/radial dimension}}
+{{TitleProperty|Maß}}
 
--    **Direction|Vector**: specifies the direction of the measurement.
+-    {{PropertyData/de|Dimline|VectorDistance}}: legt den Punkt fest, durch den die Maßlinie geht.
 
--    **Distance|Length**: (read-only) specifies the value of the measurement.
+-    {{PropertyData/de|Linked Geometry|LinkSubList}}: legt das Objekt und die Unterelemente fest mit denen das Maß verbunden ist.
 
--    **End|VectorDistance**: specifies the end point of the measurement.
+-    {{PropertyData/de|Normal|Vector}}: legt die Normale der Textebene fest.
 
--    **Start|VectorDistance**: specifies the start point of the measurement.
-
-
-{{TitleProperty|Radial dimension}}
-
--    **Diameter|Bool**: specifies if a radial dimension is displayed as a diameter dimension. Not used for linear dimensions.
-
-### Data angular dimension 
+-    {{PropertyData/de|Support|Link|hidden}}: legt das bemaßte Objekt fest.
 
 
-{{TitleProperty|Angular dimension}}
+{{TitleProperty|Lineares/radiales Maß}}
 
--    **Angle|Angle**: (read-only) specifies the value of the measurement.
+-    **Direction|Vector**: legt die Richtung des Maßes fest.
 
--    **Center|VectorDistance**: specifies the center of the measurement.
+-    **Distance|Length**: (nur lesen) legt den Wert des Maßes fest.
 
--    **First Angle|Angle**: specifies the start angle of the measurement.
+-    **End|VectorDistance**: legt den Endpunkt des Maßes fest.
 
--    **Last Angle|Angle**: specifies the end angle of the measurement.
+-    **Start|VectorDistance**: legt den Startpunkt des Maßes fest.
 
 
-{{TitleProperty|Dimension}}
+{{TitleProperty|Radiales Maß}}
 
--    **Dimline|VectorDistance**: specifies the point through which the dimension arc passes.
+-    **Diameter|Bool**: legt fest, ob ein radiales Maß als Durchmesser Maß ausgegeben wird. Wird bei linearen Maßen nicht verwendet.
 
--    **Linked Geometry|LinkSubList|hidden**: not used.
 
--    **Normal|Vector|hidden**: specifies the normal of the plane of the dimension.
 
--    **Support|Link|hidden**: not used.
+### Winkelmaße
+
+
+{{TitleProperty|Winkelmaß}}
+
+-    **Angle|Angle**: (nur lesen) legt den Wert des Maßes fest.
+
+-    **Center|VectorDistance**: legt die Mitte des Maßes fest.
+
+-    **First Angle|Angle**: legt den Startwinkel des Maßes fest.
+
+-    **Last Angle|Angle**: legt den Endwinkel des Maßes fest.
+
+
+{{TitleProperty|Maß}}
+
+-    {{PropertyData/de|Dimline|VectorDistance}}: legt den Punkt fest, durch den der Bogen des Maßes geht.
+
+-    {{PropertyData/de|Linked Geometry|LinkSubList|hidden}}: nicht verwendet.
+
+-    {{PropertyData/de|Normal|Vector|hidden}}: legt die Normale der Ebene des Maßes fest.
+
+-    {{PropertyData/de|Support|Link|hidden}}: nicht verwendet.
 
 
 
 ### Ansicht
 
 
-{{TitleProperty|Annotation}}
+{{TitleProperty|Anmerkung}}
 
--    **Annotation Style|Enumeration**: specifies the annotation style applied to the dimension. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Annotation Style|Enumeration**: legt den Stil der Anmerkung die am Maß angebracht ist fest. Siehe [Draft Beschriftungsstil Editor](Draft_AnnotationStyleEditor/de.md).
 
--    **Scale Multiplier|Float**: specifies the general scaling factor applied to the dimension.
+-    **Scale Multiplier|Float**: legt den allgemeinen Maßstab Faktor der für das Maß gilt fest.
 
 
-{{TitleProperty|Display Options}}
+{{TitleProperty|Annzeige  Optionen}}
 
 -    {{PropertyView/de|Display Mode|Enumeration}}: Gibt an, wie der Text angezeigt wird. Ist es {{value|World}}, wird der Text auf einer Ebene angezeigt, die durch die {{PropertyData/de|Normal}} des Maßes festgelegt wird. Ist es {{value|Screen}}, wird der Text immer in Richtung Bildschirm angezeigt. Dies ist eine übernommene Eigenschaft. Die genannten Optionen sind die umbenannten Optionen ({{Version/de|0.21}}).
 
 
-{{TitleProperty|Graphics}}
+{{TitleProperty|Graphik}}
 
--    **Arrow Size|Length**: specifies the size of the symbols displayed at the ends of the dimension line or arc.
+-    **Arrow Size|Length**: legt die Größe des Symbols das am Ende der Maßlinie oder des Bogens angezeigt wird fest.
 
--    **Arrow Type|Enumeration**: specifies the type of symbol displayed at the ends of the dimension line or arc, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**: legt den Typ des Symbols, dass am Ende einer Maßlinie oder eines Bogens angezeigt wird fest, dieses kann {{value|Punkt}}, {{value|Kreis}}, {{value|Pfeil}}, {{value|Tick}} oder {{value|Tick-2}} sein.
 
--    **Dim Overshoot|Distance**: specifies the additional length added to the dimension line. Not used for angular dimensions.
+-    **Dim Overshoot|Distance**: legt die zusätzliche Länge die an die Maßlinie addiert wird fest. Wird bei Winkelmaßen nicht verwendet.
 
--    **Ext Lines|Distance**: specifies the length of the extension lines that go from the dimension line to the measured points. Use {{Value|0}} for full extension lines. A negative value defines the gap between the ends of the extension lines and the measured points. A positive value defines the maximum length of the extension lines. Only used for linear dimensions.
+-    **Ext Lines|Distance**: legt die Länge der Maßhilfslinien, welche vom der Maßlinie zu den gemessenen Punkten gehen, fest. Verwende {{Value|0}} für volle Maßhilfslinien. Ein negativer Wert legt die Lücke zwischen den Enden der Maßhilfslinien und den gemessenen Punkten fest. Ein positiver Wert legt die maximale Länge der Maßhilfslinien fest. Wird nur bei linearen Maßen verwendet.
 
--    **Ext Overshoot|Distance**: specifies the additional length of the extension lines beyond the dimension line. Not used for angular dimensions.
+-    **Ext Overshoot|Distance**: legt die zusätzliche Länge der Maßhilfslinien über die Maßlinie hinausragend fest. Wird bei Winkelmaßen nicht verwendet.
 
--    **Flip Arrows|Bool**: specifies whether to flip the orientation of the symbols at the ends of the dimension line or arc. Only works if the symbols are arrows.
+-    **Flip Arrows|Bool**: legt fest, ob die Richtung der Symbole am Ende der Maßlinie oder des Bogens umgedreht werden soll. Funktioniert nur wenn die Symbole Pfeile sind.
 
--    **Line Color|Color**: specifies the color of the dimension line or arc, and the arrows.
+-    **Line Color|Color**: legt die Farbe von Linie oder Bogen und der Pfeile fest.
 
--    **Line Width|Float**: specifies the width of the lines or arc belonging to the dimension.
+-    **Line Width|Float**: legt die Breite der Linien oder des Bogens der zum Maß gehört fest.
 
--    **Show Line|Bool**: specifies whether to display the dimension line. Does not affect the display of extension lines and overshoots. Not used for angular dimensions.
+-    **Show Line|Bool**: legt fest, ob die Maßlinie angezeigt wird. Hat keinen Einfluss auf die Anzeige der Maßhilfslinien und der Überstände. Wird bei Winkelmaßen nicht verwendet.
 
 
 {{TitleProperty|Text}}
 
--    **Flip Text|Bool**: specifies whether to flip the orientation of the text.
+-    **Flip Text|Bool**: legt fest, ob die Richtung des Textes umgedreht werden soll.
 
--    **Font Name|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead.
+-    **Font Name|Font**: Legt die Schrift in der der Text geschrieben wird fest. es kann ein Schriftname, wie {{value|Arial}} sein, ein Standard Stil wie {{value|sans}}, {{value|serif}} oder {{value|mono}}, eine Familie wie {{value|Arial,Helvetica,sans}}, oder ein Name mit einem Stil wie {{value|Arial:Bold}}. Wenn die vorgegebene Schift im System nicht gefunden werden kann, dann wird statt dessen die Standardschrift verwendet.
 
--    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
+-    **Font Size|Length**: legt die Größe der Buchstaben fest. der Text kann in der [3D Ansicht](3D_view/de.md) nicht zu sehen sein, wenn der Wert zu klein ist.
 
--    **Override|String**: specifies a custom text to display instead of the actual measurement. Use the string {{value|$dim}} inside the text to include the measurement.
+-    **Override|String**: legt fest, ob statt des aktuellen Maßwertes ein benutzerdefinierter Text angezeigt wird. Verwende die Zeichenfolge {{value|$dim}} innerhalb des Textes um den aktuellen Maßwert einzufügen.
 
--    **Text Color|Color**: specifies the color of the text. <small>(v0.21)</small> 
+-    **Text Color|Color**: legt die Farbe des Textes fest. <small>(v0.21)</small> 
 
--    **Text Position|VectorDistance**: specifies the position of the text in absolute coordinates. {{Value|[0, 0, 0]}} will display the text in its default position near the dimension line or arc.
+-    **Text Position|VectorDistance**: legt die Position des Textes in absoluten Koordinaten fest. {{Value|[0, 0, 0]}} zeigt den Text an seiner Standard Position nahe der Maßlinie oder des Bogens.
 
--    **Text Spacing|Length**: specifies the space between the text and the dimension line or arc.
+-    **Text Spacing|Length**: legt den Abstand zwischen Text und Maßlinie oder Bogen fest.
 
 
-{{TitleProperty|Units}}
+{{TitleProperty|Einheiten}}
 
--    **Decimals|Integer**: specifies the number of decimal places to display for the measurement.
+-    **Decimals|Integer**: legt die Anzahl der Nachkommastellen mit der der Maßwert angezeigt wird fest.
 
--    **Show Unit|Bool**: specifies whether to display the unit next to the numerical value of the measurement. Not used for angular dimensions.
+-    **Show Unit|Bool**: legt fest ob die Maßeinheit nahe beim Wert der Maßzahl ausgegeben wird. Wird bei Winkelmaßen nicht verwendet.
 
--    **Unit Override|String**: specifies the unit in which to express the measurement, for example, {{value|km}}, {{value|m}}, {{value|cm}}, {{value|mm}}, {{value|mi}}, {{value|ft}}, {{value|in}} or {{value|arch}} for arch units. Leave this blank to use the default unit. Not used for angular dimensions.
+-    **Unit Override|String**: gibt an, in welcher Maßeinheit der Maßwert angezeigt werden soll, zum Beispiel, {{value|km}}, {{value|m}}, {{value|cm}}, {{value|mm}}, {{value|mi}}, {{value|ft}}, {{value|in}} oder {{value|arch}} für Architekten Einheiten. Lasse dies leer um die Standard Einheit zu verwenden. Wird für Winkelmaße nicht verwendet.
 
 
 
 ## Skripten
 
-Siehe auch: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Zum Erstellen eines Draft-Maßes wird die Methode `make_dimension` des Draft-Moduls verwendet (<small>(v0.19)</small> ). Diese Methode ersetzt die veraltete Methode `makeDimension`.
 
@@ -310,7 +293,7 @@ dimension = make_angular_dimension(center, [angle1, angle2], p3, normal=None)
     -   Wenn `angle1 > angle2` ist, wird der angezeigte Winkel aus der Differenz `angle1 - angle2` ermittelt; anderenfalls wird der entgegengesetzte Winkel `360 - (angle2 - angle1)` angezeigt.
     -   Die Winkel sollten in Grad eingegeben werden.
 
-The view properties of `dimension` can be changed by overwriting its attributes; for example, overwrite `ViewObject.FontSize` with the new size in millimeters.
+Die Ansicht-Eigenschaften von `dimension` können durch Überschreiben der Attribute geändert werden; z.B. kann `ViewObject.FontSize` (Schrifthöhe) mit einem neuen Wert in Millimetern überschrieben werden.
 
 Beispiel:
 

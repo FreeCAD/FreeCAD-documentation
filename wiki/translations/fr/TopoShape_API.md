@@ -1,5 +1,5 @@
 # TopoShape API/fr
-{{VeryImportantMessage | (novembre 2018) Ces informations peuvent être incomplètes et obsolètes. Pour la dernière API, consultez la [https://www.freecadweb.org/api documentation de l'API générée automatiquement].}}
+{{VeryImportantMessage |(novembre 2018) Ces informations peuvent être incomplètes et obsolètes. Pour la dernière API, consultez la [https://www.freecadweb.org/api documentation de l'API générée automatiquement].}}
 
 L\'objet TopoShape est l\'objet principal du Module Part. Tous les types de formes (fil, face, solide, etc\...) du module part sont des TopoShapes, et, partagent les attributs, et, méthodes suivantes. 
 ```python

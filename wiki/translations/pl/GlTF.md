@@ -1,39 +1,49 @@
 # GlTF/pl
 ## Opis
 
-The [GL Transmission Format](https://www.khronos.org/gltf/) (glTF™) is a royalty-free specification for the efficient transmission and loading of 3D scenes and models by applications. It minimizes both the size of 3D assets, and the runtime processing needed to unpack and use those assets.
+[GL Transmission Format](https://www.khronos.org/gltf/) *(glTF™)* to nieodpłatna specyfikacja wydajnego przesyłania i ładowania scen i modeli 3D przez aplikacje. Minimalizuje zarówno rozmiar zasobów 3D, jak i przetwarzanie w czasie wykonywania potrzebne do rozpakowania i wykorzystania tych zasobów.
 
-## Installation
 
-According to this [forum thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=31680&p=450917&#p450658), OCC must be compiled with RapidJSON support in order to utilize glTF features. Therefore set the option `USE_RAPIDJSON` in the CMake configuration step. This requires the package rapidjson-dev.
 
-## Importing
+## Instalacja
 
-Currently not supported in FreeCAD.
+Zgodnie z tym [wątkiem na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=31680&p=450917&#p450658), OCC musi zostać skompilowane z obsługą RapidJSON, aby móc korzystać z funkcji glTF. Dlatego należy ustawić opcję `USE_RAPIDJSON` w kroku konfiguracji CMake. Wymaga to pakietu rapidjson-dev.
 
-## Exporting
 
-Since FreeCAD version 0.19.23074 the [Std Export](Std_Export.md) command can export to the gITF format.
 
-### Alternative export solutions 
+## Importowanie
 
-For earlier versions these workarounds can be used:
+Obecnie nie jest obsługiwany przez FreeCAD.
 
-1\. Export as STEP → Import into CAD Assistant from Opencascade -\> Export to glTF
 
-OR
 
-2\. Use the `cqparts` Python library ([website](https://github.com/cqparts/cqparts)): {{code|
+## Eksportowanie
+
+Od wersji FreeCAD 0.19.23074 polecenie [Std Eksport](Std_Export/pl.md) może eksportować również do formatu gITF.
+
+
+
+### Alternatywne rozwiązania eksportu 
+
+W przypadku wcześniejszych wersji można zastosować te obejścia:
+
+1\. Eksportuj jako STEP → Importuj do CAD Assistant z Opencascade -\> Eksportuj do glTF.
+
+lub
+
+2\. Użyj biblioteki Python `cqparts` *([strona domowa](https://github.com/cqparts/cqparts))*: {{code|
 import cqparts
 cqparts.Assembly.importer('step')('myfile.stp').exporter('gltf')('myfile.gltf')
 }}
 
-Source: [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=31680&p=449977#p449977)
+Żródło: [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=31680&p=449977#p449977).
 
-## Related
 
--   [Import Export](Import_Export.md)
--   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
+
+## Powiązane
+
+-   [Import Eksport](Import_Export/pl.md)
+-   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export/pl.md)
 
 
 

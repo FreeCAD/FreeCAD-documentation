@@ -8,9 +8,13 @@
 
 # Fasteners MatchTypeOuter/ru
 
+
+
 ## Описание
 
 The <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:24px;"> **Fasteners MatchTypeOuter** command behaves as a toggle with the [Fasteners MatchTypeInner](Fasteners_MatchTypeInner.md) command. When **Fasteners MatchTypeOuter** is selected, circular edges are considered to be pass holes when new fasteners are attached to them. This determines the default dimensions of those fasteners. This setting is not used for countersunk screws.
+
+
 
 ## Применение
 
@@ -22,12 +26,9 @@ The <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:24px;"> **
 
 
 
-
-{{Fasteners Tools navi
-
-}}
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners MatchTypeOuter/ru
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners MatchTypeOuter/ru

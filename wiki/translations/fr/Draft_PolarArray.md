@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft PolarArray
    Name/fr: Draft Réseau polaire
-   MenuLocation: Modification , Outils pour les réseaux , Réseau polaire
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Modification , Outils pour les réseaux , Réseau polaire<br><br>BIM : Modification , Réseau polaire
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Version: 0.19
    SeeAlso: Draft_OrthoArray/fr, Draft_CircularArray/fr, Draft_PathArray/fr, Draft_PathLinkArray/fr, Draft_PointArray/fr, Draft_PointLinkArray/fr
 ---
@@ -14,7 +14,7 @@
 
 La commande <img alt="" src=images/Draft_PolarArray.svg  style="width:24px;"> **Draft Réseau polaire** crée un réseau à partir d\'un objet sélectionné en plaçant des copies le long d\'une circonférence. La commande peut éventuellement créer un réseau lié [Link](App_Link/fr.md), qui est plus efficace qu\'un réseau régulier.
 
-Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
+Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier BIM](BIM_Workbench/fr.md).
 
 <img alt="" src=images/Draft_PolarArray_example.png  style="width:400px;"> 
 *Un Draft réseau polaire*
@@ -26,9 +26,10 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 Voir aussi : [Draft Aimantation](Draft_Snap/fr.md).
 
 1.  Sélectionner un objet au choix.
-2.  Il existe plusieurs façons d\'invoquer la commande :
+2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyer sur le bouton **<img src="images/Draft_PolarArray.svg" width=16px> [Réseau polaire](Draft_PolarArray/fr.md)**.
-    -   Sélectionner l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_PolarArray.svg" width=16px> Réseau polaire** du menu.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionner l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_PolarArray.svg" width=16px> Réseau polaire** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionner l\'option **Modification → <img src="images/Draft_PolarArray.svg" width=16px> Réseau polaire** du menu.
 3.  Le panneau de tâches **Réseau polaire** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionner un objet.
 5.  Saisir les paramètres requis dans le panneau des tâches.

@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Circle
-   MenuLocation: Drafting , Circle
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Drafting , Circle<br>2D Drafting , Circle
+   Workbenches: Draft_Workbench, BIM_Workbench
    Shortcut: **C** **I**
    Version: 0.7
    SeeAlso: Draft_Arc, Draft_Arc_3Points
@@ -60,7 +60,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ## Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 
 <div class="mw-translate-fuzzy">

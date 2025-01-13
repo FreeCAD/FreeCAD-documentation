@@ -17,9 +17,16 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument creează un arc de hiperbola definit prin centru, rază majoră și puncte finale.
 
-![](images/Sketcher_Arc_of_Hyperbola_01.png )
+
+</div>
+
+![](images/Sketcher_CreateArcOfHyperbola_Example.png ) 
+*Arc of hyperbola (white) with internal geometry (dark yellow)*
 
 
 
@@ -31,6 +38,8 @@ Acest instrument creează un arc de hiperbola definit prin centru, rază majoră
 
 </div>
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
 
 <div class="mw-translate-fuzzy">
 
@@ -39,6 +48,10 @@ Acest instrument creează un arc de hiperbola definit prin centru, rază majoră
 
 
 </div>
+
+## Notes
+
+-   Elements of the internal geometry can be deleted. They can be recreated at any time with [Sketcher RestoreInternalAlignmentGeometry](Sketcher_RestoreInternalAlignmentGeometry.md).
 
 
 

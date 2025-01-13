@@ -1,10 +1,10 @@
 ---
  GuiCommand:
    Name: Arch Schedule
-   Name/de: Arch Ablaufplan
-   MenuLocation: Arch , Ablaufplan
-   Workbenches: Arch_Workbench/de
-   SeeAlso: Arch_Equipment/de
+   Name: Arch Ablaufplan
+   MenuLocation: Verwalten , Planung
+   Workbenches: BIM_Workbench/de
+   SeeAlso: 
 ---
 
 # Arch Schedule/de
@@ -13,101 +13,106 @@
 
 ## Beschreibung
 
-Das Ablaufplan Werkzeug erlaubt dir ein [Tabellenblatt](Spreadsheet_Workbench/de.md) zu erstellen und automatisch mit Inhalten aus dem Modell zu befüllen.
+Das Werkzeug **ArchAblaufplan** ermöglicht ein [Tabellenblatt](Spreadsheet_Workbench/de.md) zu erstellen und automatisch mit Inhalten aus dem Modell zu befüllen.
 
-
-**Hinweis**
-
-: Dieses Werkzeug wurde in FreeCAD 0.17 neu geschrieben und unterscheidet sich von früheren Versionen.
-
-Für eine allgemeinere Lösung siehe den [Auswertung Arbeitsbereich](https://github.com/furti/FreeCAD-Reporting/tree/master) in der Liste der [Externe Arbeitsbereiche](External_workbenches/de.md). Dieser Arbeitsbereich verwendet die SQL-Syntax, um Informationen aus dem Dokument zu extrahieren.
+Für eine allgemeinere Lösung siehe Arbeitsbereich [Reporting](https://github.com/furti/FreeCAD-Reporting/tree/master) in der Liste der [externen Arbeitsbereiche](External_workbenches/de.md). Dieser Arbeitsbereich verwendet die SQL-Syntax, um Informationen aus dem Dokument zu extrahieren.
 
 
 
 ## Anwendung
 
-1.  Öffne oder erstelle ein FreeCAD Dokument, das einige Objekte enthält.
-2.  Drücke die **<img src="images/Arch_Schedule.svg" width=16px> [Ablaufplan](Arch_Schedule/de.md)** Schaltfläche.
-3.  Stelle die gewünschten Optionen ein.
-4.  Drücken **OK**.
+1.  Ein FreeCAD-Dokument öffnen oder erstellen, das einige Objekte enthält.
+
+2.  Die Schaltfläche **<img src="images/Arch_Schedule.svg" width=16px> [Planung](Arch_Schedule/de.md)** drücken.
+
+3.  Die gewünschten Optionen einstellen. Die Option **Tabelle verknüpfen** aktivieren, wenn der Ablaufplan eine FreeCAD-[Kalkulationstabelle](Spreadsheet_Workbench/de.md) erstellen soll. Oder alternativ den Ablaufplan nach der Erstellung in der [Baumansicht](Tree_view/de.md) mit der rechten Maustaste anklicken und **Kalkulationstabelle anhängen** im Kontextmenü auswählen.
+
+4.  
+    **OK**drücken.
 
 
 
 ## Arbeitsablauf
 
-Zuerst musst du ein Modell haben. Hier ist zum Beispiel ein Dokument mit einigen Arch-Objekten, aber andere Objekte werden auch unterstützt.
+Zuerst muss ein Modell vorhanden sein. Hier ist zum Beispiel ein Dokument mit einigen Arch-Objekten, aber andere Objekte werden auch unterstützt.
 
 ![](images/Arch_schedule_example01.jpg )
 
-Dann drücke die **<img src="images/Arch_Schedule.svg" width=16px> [Arch Ablaufplan](Arch_Schedule/de.md)**-Schaltfläche. Du bekommst ein Aufgaben-Paneel wie dieses. Es ist ziemlich breit, so dass du das Aufgabenfenster verbreitern musst, um komfortabler zu sein.
+Wird die Schaltfläche **<img src="images/Arch_Schedule.svg" width=16px> [Planung](Arch_Schedule/de.md)** gedrückt, öffnet sich dieser Dialog:
 
-![](images/Arch_schedule_example02.jpg )
+![](images/ArchSchedule.png )
 
-Dann kannst du Zeile für Zeile füllen. Jede Zeile ist eine \"Abfrage\" und wird eine Zeile im Kalkulationsblatt rendern. Drücke die **Zeile hinzufügen**-Schaltfläche, um eine Zeile hinzuzufügen und doppelklicke jede Zelle dieser Zeile, um die Werte einzutragen. Die **Zeile löschen**-Schaltfläche wird die Zeile löschen, die eine gerade ausgewählte Zelle enthält und **Löschen** wird alle Zeilen löschen. Mögliche einzutragende Werte sind:
+Nun kann der Plan Zeile für Zeile gefüllt werden. Jede Zeile ist eine \"Abfrage\" und ergibt eine Zeile auf dem Tabellenblatt. Die Schaltfläche **<img src="images/List-add.svg" width=16px> Zeile hinzufügen** drücken, um eine Zeile hinzuzufügen; danach jede Zelle der Zeile doppelt anklicken, um die Werte einzugeben. Die Schaltfläche **<img src="images/List-remove.svg" width=16px> Zeile löschen** löscht die Zeile, die eine aktuell ausgewählte Zelle enthält und **<img src="images/Delete.svg" width=16px> Löschen** entfernt alle Zeilen. Mögliche Werte zum füllen der Spalten sind:
 
 -   **Beschreibung**: Eine Beschreibung dieser Abfrage. Die Spalte Beschreibung wird die erste Spalte des resultierenden Tabellenblatts sein. Die Beschreibung ist verpflichtend für die Ausführung einer Abfrage. Wenn die Zelle Beschreibung leer ist, wird die komplette Zeile übersprungen und im Kalkulationsblatt nicht ausgefüllt. Dies erlaubt es, Trennzeilen hinzuzufügen.
 -   **Eigenschaft**: Dies ist die echte Abfrage, die auf alle von der Abfrage ausgewählten Objekte ausgeführt werden soll. Es kann zwei Dinge enthalten: entweder das Wort `count` oder eine Objekteigenschaft:
     -   Wird `count` (oder `Count` oder `COUNT`, Groß-/Kleinschreibung wird ignoriert) eingegeben, werden die ausgewählten Objekte einfach nur gezählt.
-    -   Wird eine Objekteigenschaft eingegeben, dann werden die Werte dieser Eigenschaft ermittelt und addiert. Objekte ohne diese Eigenschaft werden übersprungen. Verwende die Punktnotation, um Eigenschaften von Eigenschaften zu ermitteln: `PropertyOfObject.PropertyOfProperty1.PropertyOfProperty2`. Falls die Eigenschaft vor dem ersten Punkt mit einem Kleinbuchstaben beginnt, wird sie als Referenz auf das Objekt selbst angesehen und ignoriert. Bspw. ist `object.Shape.Volume` das Gleiche wie `Shape.Volume`.
--   **Einheit**: Eine optionale Einheit für das Ergebnis. Es liegt an dir, eine Einheit anzugeben, die zum Ergebnis passt. Wenn du z.B. Volumen ermittelst, solltest du eine Volumeneinheit angeben, wie `m^3`. Wenn du eine falsche Einheit wie z.B. cm, wirst du falsche Ergebnisse bekommen.
--   **Objekte**: Du kannst diese Spalte leer lassen, dann werden alle Objekte des Dokuments berücksichtigt oder eine `;`-separierte Liste von Objektnamen (nicht Label). Wenn eines der Objekte in dieser Liste eine Gruppe ist, werden auch die Kinder ausgewählt. Daher ist der einfachste Weg, diese Möglichkeit zu nutzen, die Objekte sinnvoll zu gruppieren und hier einen Gruppennamen anzugeben. Du kannst auch die Schaltfläche **Auswahl hinzufügen** benutzen, um gerade im Dokument ausgewählte Objekte hinzuzufügen.
--   **Filter**: Hier kannst du eine `;`-separierte Liste von Filtern angeben. Jeder Filter hat die Form `property:value`. Du kannst nur Eigenschaften verwenden, die als Wert eine Zeichenfolge enthalten. Sowohl bei `property` (Eigenschaft) als auch bei `value` (Wert) wird Groß-/Kleinschreibung ignoriert. `value` kann entfallen, nicht aber `:`. Um mit älteren Versionen von Arch Zeitplan erstellte Pläne korrekt zu behandeln, wird die `type`-Eigenschaft in die `ifctype`-Eigenschaft konvertiert. Es ist ratsam, nicht mehr `type` in neuen Zeitplänen zu benutzen.
+    -   Wird eine Objekteigenschaft eingegeben, dann wird der Wert dieser Eigenschaft für jedes der ausgewählten Objekte ermittelt und aufsummiert. Objekte ohne diese Eigenschaft werden übersprungen. Im Allgemeinen ist es der Name der Eigenschaft, der im [Eigenschafteneditor](Property_editor/de.md) angezeigt wird, ohne Leerzeichen (z.B. tippt man `PerimeterLength` in der Spalte Eigenschaft ein, wenn der Eigenschafteneditor die Eigenschaft `Perimeter Length` für das Objekt anzeigt). Mit Punktnotation wird auf Eigenschaften von Eigenschaften zugegriffen: `EigenschaftDesObjekts.EigenschaftDerEigenschaft1.EigenschaftDerEigenschaft2`. Falls die Eigenschaft vor dem ersten Punkt mit einem Kleinbuchstaben beginnt, wird sie als Referenz auf das Objekt selbst angesehen und ignoriert. Bspw. ist `object.Shape.Volume` das Gleiche wie `Shape.Volume`.
+-   **Einheit**: Eine optionale Einheit für das Ergebnis. Es liegt an dir, eine Einheit anzugeben, die zum Ergebnis passt. Wenn du z.B. Volumen ermittelst, solltest du eine Volumeneinheit angeben, wie `m^3` oder `m³`. Wird eine unpassende Einheit für die Eigenschaft verwendet, z.B. `cm` für ein Volumen, erhält man ein falsche Ergebnisse.
+-   **Objekte**: Du kannst diese Spalte leer lassen, dann werden alle Objekte des Dokuments berücksichtigt oder eine durch `;` getrennte Liste von Objektnamen angeben. Wenn eines der Objekte in dieser Liste eine Gruppe ist, werden auch die Kinder ausgewählt. Daher ist der einfachste Weg, diese Möglichkeit zu nutzen, die Objekte sinnvoll zu gruppieren und hier einen Gruppennamen anzugeben. Du kannst auch die Schaltfläche **<img src="images/Edit-select-all.svg" width=16px> Auswahl hinzufügen** benutzen, um gerade im Dokument ausgewählte Objekte hinzuzufügen. Hier müssen die internen Namen verwendet werden. Um Objekte über ihre Benennungen (Labels) auszuwählen, wird diese Spalte leer gelassen und stattdessen die Spalte Filter verwendet.
+-   **Filter**: Hier kannst du eine durch `;` getrennte Liste von Filtern angeben. Jeder Filter hat die Form `property:value`. Du kannst nur Eigenschaften verwenden, die als Wert eine Zeichenfolge enthalten. Sowohl bei `property` (Eigenschaft) als auch bei `value` (Wert) wird Groß-/Kleinschreibung ignoriert. `value` kann entfallen, nicht aber `:`. Um mit älteren Versionen von Arch Zeitplan erstellte Pläne korrekt zu behandeln, wird die `type`-Eigenschaft in die `ifctype`-Eigenschaft konvertiert. Es ist ratsam, nicht mehr `type` in neuen Zeitplänen zu benutzen.
 
-:   Beispiele:
++++
+| Abfrage                                | Beschreibung                                                                                                                                                                                                                                                                                                                         |
++========================================+======================================================================================================================================================================================================================================================================================================================================+
+|                         | Behält nur Objekte, die \"floor1\" in ihrer {{PropertyData/de|Label}} und \"window\" in ihrer {{PropertyData/de|IFC Type}} enthalten. Ein Fenster mit der {{PropertyData/de|Label}} \"Floor1-AA\" und der {{PropertyData/de|IFC Type}} \"Window Standard Case\" gehört dazu. |
+| `label:floor1;ifctype:window` |                                                                                                                                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                                                                                                                                      |
++++
+|                         | Behält nur Objekte, die \"door\" in ihrer {{PropertyData/de|Label}} enthalten                                                                                                                                                                                                                                          |
+| `label:door`                  |                                                                                                                                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                                                                                                                                      |
++++
+|                         | Behält nur Objekte, die \"door\" nicht in ihrer {{PropertyData/de|Label}} enthalten                                                                                                                                                                                                                                    |
+| `!label:door`                 |                                                                                                                                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                                                                                                                                      |
++++
+|                         | Behält nur Objekte, die \"structural\" in ihrer {{PropertyData/de|IFC Type}} enthalten                                                                                                                                                                                                                                 |
+| `ifctype:structural`          |                                                                                                                                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                                                                                                                                      |
++++
+|                         | Behält nur Objekte, die \"structural\" in ihrer {{PropertyData/de|IFC Type}} enthalten oder die die {{PropertyData/de|IFC Type}} nicht besitzen                                                                                                                                                          |
+| `!ifctype:something`          |                                                                                                                                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                                                                                                                                      |
++++
+|                         | Behält nur Objekte, die keine {{PropertyData/de|IFC Type}} besitzen                                                                                                                                                                                                                                                    |
+| `!ifctype:`                   |                                                                                                                                                                                                                                                                                                                                      |
+|                                     |                                                                                                                                                                                                                                                                                                                                      |
++++
 
-    :   
-        `label:floor1;ifctype:window`
-        
-        wird nur Objekte beibehalten, die \"floor1\" in ihrer {{PropertyData/de|Label}}- und \"window\" in {{PropertyData/de|IFC Type}}-Eigenschaft haben. Ein Fenster mit der {{PropertyData/de|Label}}-Eigenschaft \"Floor1-AA\" und dem {{PropertyData/de|IFC Type}} \"Window Standard Case\" werden eingeschlossen.
+: Beispiele für Filter-Abfragen
 
-    :   
-        `label:door`
-        
-        Wird nur Objekte mit \"door\" in ihrer {{PropertyData/de|Label}}-Eigenschaft beibehalten.
+Die Schaltfläche **<img src="images/Document-open.svg" width=16px> Importieren** ermöglicht, diese Liste in einer anderen Tabellenkalkulation zu erstellen und hier als csv-Datei zu importieren.
 
-    :   
-        `!label:door`
-        
-        Wird nur Objekte beibehalten, die nicht \"door\" in ihrer {{PropertyData/de|Label}}-Eigenschaft haben.
+Der fertiggestellte Plan könnte so aussehen:
 
-    :   
-        `ifctype:structural`
-        
-        Wird nur Objekte beibehalten, die \"structural\" in ihrer {{PropertyData/de|IFC Type}}-Eigenschaft haben.
+![](images/ArchScheduleExample.png )
 
-    :   
-        `!ifctype:something`
-        
-        Wird nur Objekte beibehalten, die nicht \"structural\" in ihrer {{PropertyData/de|IFC Type}}-Eigenschaft oder nicht die {{PropertyData/de|IFC Type}}-Eigenschaft haben.
-
-    :   
-        `!ifctype:`
-        
-        Wird nur Objekte beibehalten, die nicht die {{PropertyData/de|IFC Type}}-Eigenschaft haben.
-
-Der **Import** erlaubt es dir, die in einer anderen Tabellenkalkulation erstellte Liste als csv-Datei zu importieren.
-
-So können wir eine Liste mit Abfragen erstellen:
-
-![](images/Arch_schedule_example03.jpg )
-
-Danach drücke **OK** und ein neues Schedule-Objekt wird zum Dokument hinzugefügt, das ein Ergebnis-Kalkulationsblatt enthält.
+Schließlich die Schaltfläche **OK** drücken und ein neuer Plan wird zum Dokument hinzugefügt. Wurde die zugehörige Option ausgewählt, enthält der Plan ein verknüpftes Tabellenblatt.
 
 ![](images/Arch_schedule_example04.jpg )
 
-Durch doppelklicken des Zeitplan-Objekt kommst du zurück zum Aufgaben-Panell und kannst die Werte ändern. Durch doppelklicken des Kalkulationsblatts selbst erhälst du die Werte in drei Spalten: Beschreibung, Wert, Einheit (falls zutreffend):
+Um einen vorhandenen Plan zu bearbeiten, wird dieser in der Baumansicht doppelt angeklickt. Mit einem Doppelklick auf das Tabellenblatt erhält man die Ergebnisse in 3 Spalten: Beschreibung (Description), Wert (Value), Einheit (Unit)(falls zutreffend):
 
 ![](images/Arch_schedule_example05.jpg )
 
-Die Kalkulationstabelle kann dann ganz normal von der Arbeitsbereich Tabellenkalkulations aus nach csv exportiert werden.
+Das Tabellenblatt kann dann ganz normal vom Arbeitsbereich [Spreadsheet](Spreadsheet_Workbench/de.md) aus in eine csv-Datei exportiert werden.
 
 
 
 ## Dynamische Eigenschaften 
 
-Es ist möglich, eigene Eigenschaften zu Objekten hinzuzufügen. Diese werden [Dynamische Eigenschaften](Property_editor/de#Maßnahmen.md) genannt. Falls sie mit der **Prefix group name**-Option ausgewählt wurden, beginnen ihre Namen tatsächlich mit dem Gruppennamen, aber dieser Präfix wird nicht im [Eigenschafteneditor](Property_editor/de.md) angezeigt. Ihre Namen haben die Form: `NameOfGroup_NameOfProperty`. Um sie in einem Zeitplan zu referenzieren muss dieser vollständige Name verwendet werden.
+Es ist möglich, eigene Eigenschaften zu Objekten hinzuzufügen. Diese werden [Dynamische Eigenschaften](Property_editor/de#Maßnahmen.md) genannt. Falls sie mit der Option **Prefix group name** ausgewählt wurden, beginnen ihre Namen tatsächlich mit dem Gruppennamen, aber dieser Präfix wird nicht im [Eigenschafteneditor](Property_editor/de.md) angezeigt. Ihre Namen haben die Form: `NameOfGroup_NameOfProperty`. Um sie in einem Plan zu referenzieren muss dieser vollständige Name verwendet werden.
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/de
+⏵ [documentation index](../README.md) > Arch Schedule/de

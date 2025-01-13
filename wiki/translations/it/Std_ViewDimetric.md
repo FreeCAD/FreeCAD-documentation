@@ -29,26 +29,13 @@ Il comando **Vista dimetrica** orienta la camera della [vista 3D](3D_view/it.md)
 
 ## Script
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
-
-Per passare alla vista dimetrica, utilizzare il metodo `viewDimetric` dell\'oggetto ActiveView. Questo metodo non è disponibile se FreeCAD è in modalità console.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.viewDimetric()
-FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
-```
+Vedere [Assonometria isometrica](Std_ViewIsometric/it#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

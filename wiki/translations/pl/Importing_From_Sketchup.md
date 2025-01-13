@@ -18,7 +18,7 @@ Po zainstalowaniu modułu pyCollada można otwierać lub importować pliki Colla
 
 ## Alternatywy
 
-Korzystając z wtyczki eksportu Sketchup STL, można również wybrać ten format, który FreeCAD obsługuje natywnie. Istnieje wiele takich wtyczek dostępnych dla Sketchup, a niektóre z nich działają lepiej niż inne. Użytkownik może być zmuszony do sprawdzenia, która z nich najlepiej zaspokoi jego potrzeby.
+Korzystając z wtyczki eksportu Sketchup STL, można również wybrać format, który FreeCAD obsługuje natywnie. Istnieje wiele takich wtyczek dostępnych dla Sketchup, a niektóre z nich działają lepiej niż inne. Użytkownik może być zmuszony do sprawdzenia, która z nich najlepiej zaspokoi jego potrzeby.
 
 
 

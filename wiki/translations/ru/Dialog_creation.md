@@ -1,4 +1,17 @@
 # Dialog creation/ru
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+
+
+
+
 ## Введение
 
 На этой странице мы покажем как создать простой графический интерфейс с помощью [Qt Designer](http://qt-project.org/doc/qt-4.8/designer-manual.html), официальный инструмент Qt для создания интерфейсов, диалог будет сковертирован в код [Python](Python/ru.md), затем использован внутри FreeCAD. Мы будем полагать что пользователь знает в общих чертах как редактировать и запускать [Python](Python/ru.md).
@@ -7,6 +20,8 @@ In this example, the entire interface is defined in [Python](Python.md). Althoug
 
 <img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
 *Two general methods to create interfaces, by including the interface in the Python file, or by using `.ui* files.`
+
+
 
 ## Проектирование диалога 
 
@@ -43,6 +58,8 @@ Qt Designer очень прост в использовании. На левой
 Вот и все, что мы должны сделать в Qt Designer. Последнее, давайте переименуем все наши элементы дав им более простые имена, так что будет легче определять их в нашем сценарии:
 
 ![](images/Qtpropeditor.jpg )
+
+
 
 ## Конвертация нашего диалога в python 
 
@@ -253,6 +270,15 @@ class plane():
 ## Relevant links 
 
 -   [Manual:Creating interface tools](Manual_Creating_interface_tools.md)
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

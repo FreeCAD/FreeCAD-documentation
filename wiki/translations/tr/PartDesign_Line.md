@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Tanım
 
 Eskizler, diğer referans geometrisi veya özellikleri için referans olarak kullanılabilecek bir **referans çizgisi** oluşturur . Örneğin, Döndürme ve Oluk özellikleri için devir ekseni olarak kullanılabilir.
@@ -26,6 +28,8 @@ Eskizler, diğer referans geometrisi veya özellikleri için referans olarak kul
 
 
 </div>
+
+
 
 ## Nasıl kullanılır 
 
@@ -51,6 +55,8 @@ Eskizler, diğer referans geometrisi veya özellikleri için referans olarak kul
 
 </div>
 
+
+
 ## Seçenekler
 
 
@@ -60,6 +66,12 @@ Model ağacındaki Referans çizgisi etiketine çift tıklayın veya sağ tıkla
 
 
 </div>
+
+## Preferences
+
+See [PartDesign Plane](PartDesign_Plane#Preferences.md).
+
+
 
 ## Özellikler
 

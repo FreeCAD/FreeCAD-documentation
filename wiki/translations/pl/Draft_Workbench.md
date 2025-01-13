@@ -48,17 +48,17 @@ Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ś
 
 -   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Narzędzia Béziera:
 
-  - Polecenie <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:32px;"> [Sześcienna krzywa Beziera](Draft_CubicBezCurve/pl.md): tworzy krzywą Béziera trzeciego stopnia.
+  - Polecenie <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:32px;"> [Sześcienna krzywa Béziera](Draft_CubicBezCurve/pl.md): tworzy krzywą Béziera trzeciego stopnia.
 
-  - Polecenie <img alt="" src=images/Draft_BezCurve.svg  style="width:32px;"> [Krzywa Bezier\'a](Draft_BezCurve/pl.md): tworzy krzywą Béziera z kilku punktów.
+  - Polecenie <img alt="" src=images/Draft_BezCurve.svg  style="width:32px;"> [Krzywa Béziera](Draft_BezCurve/pl.md): tworzy krzywą Béziera z kilku punktów.
 
 -   Polecenie <img alt="" src=images/Draft_Point.svg  style="width:32px;"> [Punkt](Draft_Point/pl.md): tworzy zwykły punkt.
 
--   Polecenie <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Łącznik kształtów](Draft_Facebinder/pl.md): tworzy obiekt powierzchni z wybranych ścian.
+-   Polecenie <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Łącznik kształtu](Draft_Facebinder/pl.md): tworzy obiekt powierzchni z wybranych ścian.
 
 -   Polecenie <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [Kształt z tekstu](Draft_ShapeString/pl.md): tworzy kształt złożony, który reprezentuje ciąg tekstowy.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Kreskowanie](Draft_Hatch/pl.md): tworzy kreskowanie na planarnych powierzchniach wybranego obiektu. {{Version/pl|0.20}}
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Kreskowanie](Draft_Hatch/pl.md): tworzy kreskowanie na planarnych powierzchniach wybranego obiektu.
 
 
 
@@ -144,7 +144,7 @@ Tacka narzędziowa środowiska [Rysunek Roboczy](Draft_Tray/pl.md) pojawia się 
 
 -   ![](images/Draft_tray_button_construction.png ) [Przełącz tryb konstrukcyjny](Draft_ToggleConstructionMode/pl.md): włącza lub wyłącza tryb konstrukcji szkicu. Dostępne również w menu: **Rysunek Roboczy → Narzędzia → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Przełącz tryb konstrukcyjny**.
 
--   ![](images/Draft_tray_button_layer.png ) [Grupowanie automatyczne](Draft_AutoGroup/pl.md): zmienia aktywną [warstwę](Draft_Layer/pl.md) lub, opcjonalnie, aktywną [grupę](Std_Group/pl.md) lub grupę obiektów [architektury](Arch_Workbench/pl.md).
+-   ![](images/Draft_tray_button_layer.png ) [Grupowanie automatyczne](Draft_AutoGroup/pl.md): zmienia aktywną [warstwę](Draft_Layer/pl.md) lub, opcjonalnie, aktywną [grupę](Std_Group/pl.md) lub grupę obiektów [BIM](BIM_Workbench/pl.md).
 
 
 
@@ -206,11 +206,11 @@ Pasek narzędzi Rysunek Roboczy: Przyciągnij, umożliwia wybór aktywnych opcji
 
 -   <img alt="" src=images/Draft_LayerManager.svg  style="width:32px;"> [Zarządzaj warstwami \...](Draft_LayerManager/pl.md): Umożliwia zarządzanie warstwami w dokumencie. {{Version/pl|0.21}}
 
--   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [Dodaj grupe o nazwie](Draft_AddNamedGroup/pl.md): tworzy nazwaną [Grupę Std](Std_Group/pl.md) i przenosi wybrane obiekty do tej grupy. {{Version/pl|0.20}}
+-   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [Dodaj grupe o nazwie](Draft_AddNamedGroup/pl.md): tworzy nazwaną [Grupę Std](Std_Group/pl.md) i przenosi wybrane obiekty do tej grupy.
 
 -   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> [Dodaj do grupy](Draft_AddToGroup/pl.md): przenosi obiekt do określonej [Grupy](Std_Group/pl.md). Może również usuwać grupy obiektów.
 
--   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Wybierz grupę](Draft_SelectGroup/pl.md): wybiera zawartość [warstwy](Draft_Layer/pl.md), [Grupy](Std_Group/pl.md) lub obiektów zbliżone do grupy [Architektury](Arch_Workbench/pl.md).
+-   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Wybierz grupę](Draft_SelectGroup/pl.md): wybiera zawartość [warstwy](Draft_Layer/pl.md), [Grupy](Std_Group/pl.md) lub obiektów zbliżone do grupy [BIM](BIM_Workbench/pl.md).
 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Dodaj do grupy konstrukcyjnej](Draft_AddConstruction/pl.md): przenosi obiekty do [trybu konstrukcji](Draft_ToggleConstructionMode/pl.md).
 
@@ -227,8 +227,6 @@ Menu środowiska Rysunek Roboczy **Narzędzia** zawiera kilka narzędzi. Większ
 -   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Zastosuj bieżący styl](Draft_ApplyStyle/pl.md): stosuje bieżące ustawienia stylu do wybranych obiektów.
 
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Warstwa](Draft_Layer/pl.md): tworzy [warstwę](Draft_Layer/pl.md) środowiska Rysunek Roboczy.
-
-Dostępne w [Pasku narzędzi użytkowych Rysunku Roboczego](Draft_Workbench/pl#Dodatkowe_narzędzia.md) {{VersionMinus/pl|0.20}}.
 
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Uleczenie](Draft_Heal/pl.md): leczy problematyczne obiekty Rysunku Roboczego znajdujące się w bardzo starych plikach.
 
@@ -288,7 +286,7 @@ Dla narzędzi [Warstw](Draft_Layer/pl.md) dostępne są te dodatkowe opcje:
 
 Dla [tekstów](Draft_Text/pl.md) i [etykiet](Draft_Label/pl.md), które zawierają jeden lub więcej hiperłączy do lokalnego lub zdalnego pliku lub adresu URL, dostępna jest ta dodatkowa opcja:
 
--   Otwórz hiperłącza: hiperłącza są otwierane w odpowiedniej aplikacji *(zdefiniowanej przez system operacyjny)*. W przypadku wielu hiperłączy pojawia się ostrzeżenie. {{Version/pl|0.22}}
+-   Otwórz hiperłącza: hiperłącza są otwierane w odpowiedniej aplikacji *(zdefiniowanej przez system operacyjny)*. W przypadku wielu hiperłączy pojawia się ostrzeżenie. {{Version/pl|1.0}}
 
 
 
@@ -336,7 +334,7 @@ Zobacz akapit [Opcje tekstu](#Opcje_tekstu.md).
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Projekt rysunku](Draft_Drawing/pl.md): wstawia widoki obiektów na stronie środowiska [Rysunek Roboczy](Drawing_Workbench/pl.md). Niedostępne {{VersionPlus/pl|0.21}}.
 
--   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Przełącz tryb kontynuacji](Draft_ToggleContinueMode/pl.md): włącza lub wyłącza tryb kontynuacji. Nie dostępne w {{VersionPlus/pl|0.22}}.
+-   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Przełącz tryb kontynuacji](Draft_ToggleContinueMode/pl.md): włącza lub wyłącza tryb kontynuacji. Nie dostępne w {{VersionPlus/pl|1.0}}.
 
 
 

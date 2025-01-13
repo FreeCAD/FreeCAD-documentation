@@ -17,15 +17,27 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 El Arquitectura Ubicación es un objeto especial que combina propiedades de un objeto de grupo estándar de FreeCAD y objetos de Arch. Es particularmente adecuado para representar un sitio de proyecto completo o terreno. En trabajos arquitectónicos basados en IFC, se usa principalmente para organizar su modelo, al contener objetos [Edificio](Arch_Building/es.md). El sitio también se usa para administrar y mostrar un terreno físico, y puede calcular volúmenes de tierra para agregar o eliminar.
+
+
+</div>
 
 
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Opcionalmente, seleccionar uno o más objetos a ser incluidos en tu nueva ubicación
 2.  Pulse el botón **<img src="images/Arch_Site.svg" width=16px> [Arquitectura Ubicación](Arch_Site/es.md)
 **, o pulsar las teclas **S** y **I**
+
+
+</div>
 
 
 
@@ -135,7 +147,7 @@ Si [Ladybug](https://www.ladybug.tools/ladybug.html) está instalado en su siste
 
 </div>
 
-**Note**: If you don\'t have Ladybug, [pysolar](http://pysolar.org/) is still supported to generate solar diagrams, but not wind roses. Pysolar 0.7 or above is required; this version only works with Python 3. If you require this feature with Python 2, you should have Pysolar 0.6 as this is the last version that works with Python 2. However, Ladybug is a much more powerful tool that will probably be used more in the future, so we recommend using it instead of pysolar. Ladybug can be installed simply via [pip](https://github.com/ladybug-tools/ladybug).
+**Note**: If you don\'t have Ladybug, [pysolar](http://pysolar.org/) is still supported to generate solar diagrams, but not wind roses. Pysolar 0.7 or above is required. However, Ladybug is a much more powerful tool that will probably be used more in the future, so we recommend using it instead of pysolar. Ladybug can be installed simply via [pip](https://github.com/ladybug-tools/ladybug).
 
 ![](images/Freecad-solar-diagram.jpg )
 
@@ -236,6 +248,11 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/es
+⏵ [documentation index](../README.md) > Arch Site/es

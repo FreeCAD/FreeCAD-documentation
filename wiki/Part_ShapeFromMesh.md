@@ -10,24 +10,30 @@
 
 ## Introduction
 
-The **<img src="images/Part_ShapeFromMesh.svg" width=16px> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** command creates a shape from a [mesh object](Mesh.md). Mesh objects have limited editing capabilities in FreeCAD, converting them to [shapes](Shape.md) will allow their use with many more boolean and modification tools.
+The <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:24px;"> **Part ShapeFromMesh** command creates shapes from [mesh objects](Mesh.md). Mesh objects have limited editing capabilities in FreeCAD, converting them to [shapes](Shape.md) will allow their use with many more boolean and modification commands.
 
-The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)** from the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
+The inverse operation is [Mesh FromPartShape](Mesh_FromPartShape.md) from the <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Mesh Workbench](Mesh_Workbench.md).
 
 ## Usage
 
-1.  Select the mesh object in the [tree view](tree_view.md).
-2.  Go to the menu, **Part → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Create shape from mesh**.
-3.  A pop-up menu will ask for the tolerance for sewing shape; the default value is {{Value|0.1}}.
-4.  A [shape](Shape.md) from the mesh object is created as a separate new object.
+1.  Analyzing and repairing the mesh object, if needed, should be done before launching this command. Appropriate tools for this task are available in the <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Mesh Workbench](Mesh_Workbench.md).
+2.  Select one or more mesh objects.
+3.  Select the **Part → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Create shape from mesh** option from the menu.
+4.  The **Shape from mesh** dialog opens.
+5.  Optionally check the **Sew shape** checkbox and specify a tolerance:
+    -   This option is usually not needed. It is meant for mesh objects that are not watertight and have small gaps between edges.
+    -   If the option is selected a compound of shells, instead of a compound of faces, is created.
+    -   The sewing operation may be computationally demanding.
+6.  Press the **OK** button.
+7.  For each selected mesh object a [shape](Shape.md) is created as a separate new object.
+8.  Optionally use <img alt="" src=images/Part_RefineShape.svg  style="width:16px;"> [Part RefineShape](Part_RefineShape.md) on these objects.
+9.  Optionally turn the final objects into solids with <img alt="" src=images/Part_MakeSolid.svg  style="width:16px;"> [Part MakeSolid](Part_MakeSolid.md).
 
-Analyzing and repairing of the mesh, if needed, should be done manually before launching **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [ShapeFromMesh](Part_ShapeFromMesh.md)**. Appropriate tools for this task are available in the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
+## Properties
 
-After creation of a [Shape](Shape.md), it may be useful to use **[<img src=images/Part_MakeSolid.svg style="width:16px"> [Convert to solid](Part_MakeSolid.md)** (necessary for [boolean operations](Part_Boolean.md)) and **[<img src=images/Part_RefineShape.svg style="width:16px"> [Refine shape](Part_RefineShape.md)**.
+See also: [Property editor](Property_editor.md).
 
-## Links
-
--   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) video by AllVisuals4U.
+The Part ShapeFromMesh command creates [Part Feature](Part_Feature.md) objects with no additional properties.
 
 ## Scripting
 
@@ -40,19 +46,27 @@ Notice that the mesh must be recalculated before it is converted to a Shape, oth
 import FreeCAD as App
 import Part
 
-doc = App.newDocument()
+doc = App.ActiveDocument
 mesh = doc.addObject("Mesh::Cube", "Mesh")
 mesh.recompute()
 
-solid = doc.addObject("Part::Feature", "Shape")
 shape = Part.Shape()
 shape.makeShapeFromMesh(mesh.Mesh.Topology, 0.1)
 
-solid.Shape = shape
+solid = doc.addObject("Part::Feature", "Solid")
+solid.Shape = Part.Solid(shape.removeSplitter())
 solid.Placement.Base = App.Vector(15, 0, 0)
-solid.purgeTouched()
 doc.recompute()
 ```
+
+## Links
+
+-   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) video by AllVisuals4U.
+
+
+
+
+ {{Part_Tools_navi}}
 
 
 

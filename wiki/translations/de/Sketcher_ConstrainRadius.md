@@ -5,7 +5,7 @@
    MenuLocation: Skizze , Sketcher-Randbedingungen , Radius festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **K** **R**
-   SeeAlso: Sketcher_ConstrainDistance/de, Sketcher_ConstrainDistanceX/de, Sketcher_ConstrainDistanceY/de
+   SeeAlso: Sketcher_ConstrainRadiam/de, Sketcher_ConstrainDiameter/de
 ---
 
 # Sketcher ConstrainRadius/de
@@ -14,18 +14,7 @@
 
 ## Beschreibung
 
-Diese Randbedingung Legt den Radius eines Kreises oder Bogens auf einen bestimmten Wert fest. Wenn vor dem Start des Befehls mehr als ein Kreis oder Bogen ausgewählt wurde:
-
--   Wenn die Randbedingung im \'Referenz\'-Modus angewendet wird, wird eine neue Referenzbedingung zu jedem Objekt separat gemäß den oben genannten Regeln hinzugefügt.
--   Wird die Randbedingung im \'Normal\'-Modus (festlegend) angewendet, werden folgende Regeln angewendet:
-    -   Eine Referenzbedingung wird separat auf jedes Objekt angewendet, das eine externe Geometrie ist.
-
-    -   
-        **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [GleichheitFestlegen](Sketcher_ConstrainEqual.md)**
-        
-        wird nacheinander zwischen allen Objekte der realen Geometrie oder Konstruktionsgeometrie angewendet, und eine maßliche Randbedingung wird dem ersten ausgewählten Objekt gemäß den obigen Regeln hinzugefügt.
-
-NB: B-Spline-Pole können nicht mit anderen Objekttypen in der Auswahl gemischt werden.
+Das Werkzeug <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:24px;"> [Sketcher RadiusFestlegen](Sketcher_ConstrainRadius/de.md) legt den Radius von Kreisen, Bögen und [B-Spline-Gewichtskreisen](Sketcher_CreateBSpline/de#Hinweise.md) fest.
 
 ![](images/Sketcher_ConstrainRadius_example.png )
 
@@ -33,12 +22,37 @@ NB: B-Spline-Pole können nicht mit anderen Objekttypen in der Auswahl gemischt 
 
 ## Anwendung
 
-1.  Einen oder mehrere Kreise oder Bögen auswählen.
-2.  Die Schaltfläche **[<img src=images/Sketcher_ConstrainRadius.svg style="width:16px"> [RadiusFestlegen](Sketcher_ConstrainRadius/de.md)** drücken.
-3.  Ein Aufklappdialog öffnet sich, um den Wert zu bearbeiten oder zu bestätigen. Zum Bestätigen **OK** drücken. Falls mehrere Kreise/Bögen ausgewählt wurden, übernehmen alle Randbedingungen diesen Wert. Die einzelnen Werte werden bearbeitet, indem man in der 3D-Ansicht auf die Maßzahl doppelklickt; oder indem man in der Liste der Randbedingungen auf die Bedingung doppelklickt oder rechtsklickt und **Wert ändern** auswählt.
-4.  Optional können Maßzahl und Maßlinie in der 3D-Ansicht durch Klicken auf die Maßzahl und Ziehen bei gedrückter linker Maustaste verschoben und gedreht werden.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
-**Hinweis:** Dieses Werkzeug kann auch ohne vorherige Auswahl gestartet werden. Standardmäßig befindet sich der Befehl im Fortsetzungsmodus, um neue Randbedingungen zu erstellen; ein Druck auf die rechte Maustaste oder auf **Esc** beendet den Befehl.
+
+
+### [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md) 
+
+1.  Sicherstellen, dass die Auswahl leer ist.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   
+        {{Version/de|1.0}}
+        
+        : Ist die [Voreinstellung](Sketcher_Preferences/de#Allgemein.md) **Werkzeuge für Maßeinträge** auf {{Value|Einzelnes Werkzeug}} gesetzt (Standardeinstellung): Den Abwärtspfeil rechts neben der Schaltfläche **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** drücken und die Menüoption **<img src="images/Sketcher_ConstrainRadius.svg" width=16px> Radius festlegen** im Ausklappmenü auswählen.
+
+    -   Besitzt die Voreinstellung einen anderen Wert (und in {{VersionMinus/de|0.21}}): Die Schaltfläche **<img src="images/Sketcher_ConstrainRadius.svg" width=16px> [Radius festlegen](Sketcher_ConstrainRadius/de.md)** drücken.
+
+    -   Den Menüeintrag **Skizze → Sketcher-Randbedingungen → <img src="images/Sketcher_ConstrainRadius.svg" width=16px> Radius festlegen** auswählen.
+
+    -   
+        {{Version/de|1.0}}
+        
+        : Ein Rechtsklick in die [3D-Ansicht](3D_view/de.md) und die Menüoption **Abmessung → <img src="images/Sketcher_ConstrainRadius.svg" width=16px> Radius festlegen** im Kontextmenü auswählen.
+
+    -   Das Tastaturkürzel **K** dann **R**.
+3.  Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
+4.  Für weitere Schritte siehe [Sketcher Radiam festlegen](Sketcher_ConstrainRadiam/de#Continue_mode.md).
+
+
+
+### Einmal-Ausführen-Modus 
+
+Siehe [Sketcher RadiamFestlegen](Sketcher_ConstrainRadiam/de#Einmal-Ausführen-Modus.md).
 
 
 

@@ -5,7 +5,7 @@
 
 
 
-## Einführung
+## Einleitung
 
 Das **Std Menü Fenster** ist eines der sieben Untermenüs im [Standardmenü](Standard_Menu/de.md):
 
@@ -35,13 +35,15 @@ Das Menü Fenster ermöglicht das Umschalten und Neuanordnen von Fenstern des [H
 
 Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
--   <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:32px;"> [Weiter](Std_ActivateNextWindow/de.md): Aktiviert das nächste Fenster.
+-   <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:32px;"> [Nächstes Fenster](Std_ActivateNextWindow/de.md): Aktiviert das folgende Fenster.
 
--   <img alt="" src=images/Std_ActivatePrevWindow.svg  style="width:32px;"> [Zurück](Std_ActivatePrevWindow/de.md): Aktiviert das vorherige Fenster.
+-   <img alt="" src=images/Std_ActivatePrevWindow.svg  style="width:32px;"> [Vorheriges Fenster](Std_ActivatePrevWindow/de.md): Aktiviert das vorherige Fenster.
 
--   <img alt="" src=images/Std_TileWindows.svg  style="width:32px;"> [Kachel](Std_TileWindows/de.md): Ordnet die Fenster an.
+-   <img alt="" src=images/Std_TileWindows.svg  style="width:32px;"> [Anordnen](Std_TileWindows/de.md): Ordnet die Fenster an.
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Überlappend](Std_CascadeWindows/de.md): Ordnet die Fenster überlappend an.
+
+-   \... Die ersten 10 Fenster werden hier aufgelistet. Ein Fenster auswählen, um es zu aktivieren.
 
 -   <img alt="" src=images/Std_Windows.svg  style="width:32px;"> [Fenster\...](Std_Windows/de.md): Öffnet ein Dialogfenster, in dem ein Fenster aktiviert werden kann.
 
@@ -49,7 +51,7 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

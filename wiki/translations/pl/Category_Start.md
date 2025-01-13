@@ -1,14 +1,14 @@
 # Category:Start/pl
-Ta kategoria zawiera strony związane ze środowiskiem pracy [start](Start_Workbench/pl.md).
+This category is for pages related to the [Start Workbench](Start_Workbench.md).
 
 ### Contents
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Start/pl](Artwork_Start/pl.md) | [Start Preferences/pl](Start_Preferences/pl.md) | [Template:Start Tools navi/pl](Template_Start_Tools_navi/pl.md) |
-| [Start Workbench/pl](Start_Workbench/pl.md) |
+| [Start Preferences/pl](Start_Preferences/pl.md) | [Template:Start Tools navi/pl](Template_Start_Tools_navi/pl.md) | [Start Workbench/pl](Start_Workbench/pl.md) |
+|
 
 
 
 ---
-⏵ [documentation index](../README.md) > Category:Start/pl
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Category:Start/pl

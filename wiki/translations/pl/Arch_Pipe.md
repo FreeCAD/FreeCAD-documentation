@@ -1,97 +1,142 @@
 ---
  GuiCommand:
    Name: Arch Pipe
-   MenuLocation: Arch , Pipe Tools , Pipe
-   Workbenches: Arch_Workbench
+   Name/pl: BIM: Rura
+   MenuLocation: 3D / BIM , Rura
+   Workbenches: BIM_Workbench/pl
    Shortcut: **P** **I**
    Version: 0.17
-   SeeAlso: Arch_PipeConnector, Arch_Equipment
+   SeeAlso: 
 ---
 
 # Arch Pipe/pl
 
-## Description
 
-This tool allows to create pipes from scratch, or from selected objects. The selected objects must be Part-based (Draft, Sketch, etc..) and contain one and only one open Wire.
 
-## Usage
+## Opis
 
-1.  Optionally, select a linear [Part](Part_Workbench.md) shape such as a [Draft Line](Draft_Line.md), a [Draft Wire](Draft_Wire.md) or an open [Sketch](Sketcher_NewSketch.md).
-2.  Invoke this command using several methods:
-    -   Pressing the **<img src="images/Arch_Pipe.svg" width=16px> [Arch Pipe](Arch_Pipe.md)** button on the toolbar.
-    -   Pressing the **P** then **I** keyboard shortcut.
-    -   Pressing the **Arch → Pipe Tools → Pipe** entry from the top menu.
+Narzędzie **Rura** umożliwia tworzenie rur od podstaw lub z wybranych obiektów. Wybrane obiekty muszą być oparte na obiektach środowiska Część *(szkic, szkic itp.)* i zawierać jedną i tylko jedną otwartą polilinię.
 
-## Options
 
--   Pipes share the common properties and behaviours of all [Arch Components](Arch_Component.md)
 
-## Properties
+## Użycie
 
--    **Length**: Sets the length of this pipe, when it is not based on a wire
+Opcjonalnie wybierz liniowy kształt [Części](Part_Workbench/pl.md), taki jak [linia](Draft_Line/pl.md), [polilinia](Draft_Wire/pl.md) środowiska Rysunek Roboczy lub otwarty [szkic](Sketcher_NewSketch/pl.md).
 
--    **Diameter**: The diameter of this pipe, when it is not based on a profile
+1.  Polecenie to można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Arch_Pipe.svg" width=16px> [Rura](Arch_Pipe/pl.md)** na pasku narzędzi.
 
--    **Base**: The base wire of this pipe, if any
+    -   Naciśnij **P**, a następnie **I** skrót klawiaturowy.
 
--    **Profile**: The base profile of this pipe. If not given, the pipe is cylindrical.
+    -   
+        **3D / BIM → Rura**
+        
+        z menu głównego.
 
-## Typical workflow 
 
--   Start by placing sanitary/hydraulic appliance items (below is an imported step file). You turn these objects into Arch Equipments by selecting them, and pressing the [Arch Equipment](Arch_Equipment.md) button.
+
+## Opcje
+
+-   Obiekty Rur dzielą wspólne właściwości i zachowania wszystkich [komponentów](Arch_Component/pl.md) środowiska Architektura.
+
+
+
+## Właściwości
+
+
+
+### Dane
+
+
+{{TitleProperty|Komponent}}
+
+-    **Base|Link**: Polilinia bazowa tej rury, jeśli istnieje.
+
+Informacje o innych właściwościach w tej grupie można znaleźć na stronie [Komponent](Arch_Component/pl#Właściwości.md).
+
+
+{{TitleProperty|Rura}}
+
+-    **Średnica|Length**: Średnica tej rury, jeśli jej **Typ profilu** to {{Value|Okrąg}}.
+
+-    **Wysokość|Length**: Wysokość tej rury, jeśli jej **Typ profilu** to {{Value|Prostokąt}}.
+
+-    **Długość|Length**: Długość tej rury, jeśli nie jest oparta na polilinii.
+
+-    **Offset End|Length**: Przesunięcie od punktu końcowego rury. Automatycznie ustawiane, jeśli w tym punkcie zostanie dodana [Kształtka](Arch_PipeConnector/pl.md), aby dopasować rurę do łącznika. Zobacz [Typowy przepływ pracy](#Typowy_przepływ_pracy.md) poniżej.
+
+-    **Początek odsunięcia|Length**: Przesunięcie od punktu początkowego rury. Jak wyżej.
+
+-    **Profil|Link**: Bazowy profil tej rury. Jeśli nie jest ustawiony, profil rury jest określany przez **Typ profilu**.
+
+-    **Typ profilu|Enumeration**: Profil tej rury. Używany tylko, jeśli **Profil** nie jest ustawiony. Opcje to: {{Value|Okrąg}}, {{Value|Kwadrat}} lub {{Value|Prostokąt}}.
+
+-    **Grubość ściany|Length**: Grubość ściany tej rury.
+
+-    **Szerokość|Length**: Szerokość tej rury, jeśli jej **Typ profilu** to {{Value|Kwadrat}} lub {{Value|Prostokąt}}.
+
+
+
+## Typowy przepływ pracy 
+
+-   Zacznij od umieszczenia urządzeń sanitarnych / hydraulicznych *(poniżej znajduje się zaimportowany plik step)*. Obiekty te można przekształcić w wyposażenie Architektury, wybierając je i naciskając przycisk [Wyposażenie](Arch_Equipment/pl.md).
 
 ![](images/Arch_pipe_example_01.jpg )
 
--   Arch Equipments now have a new **SnapPoints** property, which is a list of 3D vectors. This allows you to add custom snap points, to which you can snap when the new [Draft Special](Draft_Snap_Special.md) snap button is turned on. Currently that property is only available to Python, though. In the case above I added a new snap point at the exit of the WC appliance. The vectors inside SnapPoints appear on the model as white dots:
+-   Wyposażenie Architektury ma teraz nową właściwość **Punkty przyciągania**, która jest listą wektorów 3D. Pozwala to na dodanie niestandardowych punktów przyciągania, do których można przyciągać, gdy nowy przycisk przyciągania [specjalnego](Draft_Snap_Special/pl.md) jest włączony. Obecnie ta właściwość jest dostępna tylko w środowisku Python. W powyższym przypadku dodałem nowy punkt przyciągania przy wyjściu z urządzenia WC. Wektory wewnątrz Punktów Przyciągania pojawiają się na modelu jako białe kropki:
 
 FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_02.jpg )
 
--   With the new [\"Snap Special\"](Draft_Snap_Special.md) Draft Snap, you can now snap to these custom points:
+-   Dzięki nowemu [specjalnemu](Draft_Snap_Special/pl.md) przyciąganiu, możesz teraz przyciągać do tych punktów niestandardowych:
 
 ![](images/Arch_pipe_example_03.jpg )
 
--   Now we can draw our piping using Draft Lines, Draft Wires, or Sketches. The best way, though, is using only Draft Lines:
+-   Teraz możemy narysować orurowanie przy użyciu linii, polilinii środowiska Rysunek Roboczy lub szkiców. Najlepszym sposobem jest jednak użycie tylko linii rysunku roboczego:
 
 ![](images/Arch_pipe_example_04.jpg )
 
--   There is now a new [Draft Slope](Draft_Slope.md) tool that allows to change the slope of Draft lines, to, for example, 5% (0.05). So we can quickly give our waste lines a correct slope. Only z coordinates are change by this tool, so we only need to snap them back to each other, the top projection will stay unchanged.
+-   Pojawiło się nowe narzędzie [Ustaw nachylenie](Draft_Slope/pl.md), które pozwala na zmianę nachylenia linii Draft, na przykład do 5% (0.05). Dzięki temu możemy szybko nadać naszym liniom odpadów prawidłowe nachylenie. Narzędzie to zmienia tylko współrzędne z, więc musimy tylko przyciągnąć je do siebie, rzut z góry pozostanie niezmieniony.
 
 ![](images/Arch_pipe_example_05.jpg )
 
--   We now only have to select all our lines, and press the [Arch Pipe](Arch_Pipe.md) button. Arch Pipe works with any Part-based object that contains one and only one open wire.
+-   Teraz wystarczy zaznaczyć wszystkie linie i nacisnąć przycisk [Rura](Arch_Pipe/pl.md). Narzędzie Rura działa z każdym obiektem opartym na Części, który zawiera jedną i tylko jedną otwartą polilinię.
 
 ![](images/Arch_pipe_example_06.jpg )
 
--   We can now create connections by selecting 2 or 3 coincident tubes, and press the [Arch PipeConnector](Arch_PipeConnector.md) button. If 3 pipes are selected, two of them must be aligned in order to create a tee element:
+-   Możemy teraz tworzyć połączenia, wybierając 2 lub 3 zbiegające się rury i naciskając przycisk [Kształtka](Arch_PipeConnector/pl.md). Jeśli wybrano 3 rury, dwie z nich muszą być wyrównane, aby utworzyć trójnik:
 
 ![](images/Arch_pipe_example_07.jpg )
 
--   Changing the connectors radius doesn\'t change the length of the underlying base line, only the resulting tube (by changing their OffsetStart or OffsetEnd property). So you can still draw your line layout with only straight lines, without the need to care about curves and radius.
+-   Zmiana promienia łączników nie zmienia długości linii bazowej, a jedynie wynikową rurę *(poprzez zmianę ich właściwości StartOdsunięcia lub ZakończenieOdsunięcia)*. W ten sposób można nadal rysować układ linii tylko z liniami prostymi, bez konieczności dbania o krzywe i promienie.
 
-It is also possible to create Arch Pipes without a base line, in this case use its \"Length\" property to define the length.
-
-## Scripting
+Możliwe jest również tworzenie rur bez linii bazowej, w tym przypadku należy użyć właściwości \"Długość\" do zdefiniowania długości.
 
 
-**See also:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Tworzenie skryptów 
 
-The Pipe tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Rura** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
+
+
 ```python
-Pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
+pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
 ```
 
--   Creates a `Pipe` object from the given `baseobj` and `diameter`.
+-   Tworzy obiekt `pipe` z danego `baseobj` i `diameter`.
     -   
         `baseobj`
         
-        is a [Draft Line](Draft_Line.md) or [Draft Wire](Draft_Wire.md).
+        to [Rysunek Roboczy: Linia](Draft_Line/pl.md) lub [Rysunek Roboczy: Polilinia](Draft_Wire/pl.md).
 
-    -   If `baseobj` is omitted, a straight pipe can be created with just the `diameter` and the `length` in the Z direction.
--   If a `placement` is given, it is used.
+    -   Jeśli `baseobj` jest pominięty, można utworzyć prostą rurę podając tylko `diameter` (średnicę) i `length` (długość w kierunku Z).
+-   Jeśli `placement` jest podane, będzie użyte.
 
 
 ```python
@@ -101,16 +146,24 @@ p1 = FreeCAD.Vector(1000, 0, 0)
 p2 = FreeCAD.Vector(2500, 200, 0)
 p3 = FreeCAD.Vector(3100, 1000, 0)
 p4 = FreeCAD.Vector(3500, 500, 0)
-Line = Draft.makeWire([p1, p2, p3, p4])
+line = Draft.make_wire([p1, p2, p3, p4])
 
-Pipe = Arch.makePipe(Line, 200)
+pipe = Arch.makePipe(line, 200)
 FreeCAD.ActiveDocument.recompute()
 
-Pipe2 = Arch.makePipe(diameter=120, length=3000)
+pipe2 = Arch.makePipe(diameter=120, length=3000)
 FreeCAD.ActiveDocument.recompute()
 ```
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/pl
+⏵ [documentation index](../README.md) > Arch Pipe/pl

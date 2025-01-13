@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Arc
-   Name/it: Arco
-   MenuLocation: Drafting , Strumenti Arco , Arco
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Arco
+   MenuLocation: Drafting , Strumenti Arco , Arco<br>2D Drafting , Arco
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **A** **R**
    Version: 0.7
    SeeAlso:  Draft_Arc_3Points/it,
@@ -31,8 +31,9 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Arc.svg" width=16px> [Arco](Draft_Arc/it.md)**.
-    -   Selezionare l\'opzione **Drafting → Strumenti arco → <img src="images/Draft_Arc.svg" width=16px> Arco** dal menu.
-    -   Usa la scorciatoia da tastiera: **A** poi **R**. <small>(v0.20)</small> 
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Drafting → Strumenti arco → <img src="images/Draft_Arc.svg" width=16px> Arco** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **2D Drafting → <img src="images/Draft_Arc.svg" width=16px> Arco** dal menu.
+    -   Usare la scorciatoia da tastiera: **A** poi **R**.
 2.  Si apre il pannello attività **Arco**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
 3.  Scegliere il primo punto, il centro dell\'arco, nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
 4.  Scegliere il secondo punto nella [Vista 3D](3D_view/it.md), o inserire un **Raggio**.
@@ -43,10 +44,10 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 ## Opzioni
 
-È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 0.22).
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 1.0).
 
 -   Per inserire manualmente le coordinate del centro, inserire le componenti X, Y e Z, e premere **Enter** dopo ciascuna. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
--   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate del [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate del [piano di lavoro](Draft_SelectPlane/it.md).
 -   Premere **N** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando si riavvierà al termine, consentendo di continuare a creare archi.
 -   Premere **S** per attivare o disattivare lo [Snap](Draft_Snap/it.md).
 -   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.

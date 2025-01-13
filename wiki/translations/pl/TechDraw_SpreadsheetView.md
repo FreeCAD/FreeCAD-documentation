@@ -14,6 +14,11 @@
 
 Narzędzie **Wstaw widok Arkusza kalkulacyjnego** pozwala na umieszczenie widoku wybranego [arkusza kalkulacyjnego](Spreadsheet_Workbench/pl.md) na [stronie](TechDraw_Workbench/pl.md) rysunku.
 
+
+{{Version/pl|1.0}}
+
+: Narzędzie [Wstaw widok](TechDraw_View/pl.md) również może utworzyć widok Arkusza kalkulacyjnego .
+
 ![](images/TechDraw_Spreadsheetview.png ) 
 *Element arkusza kalkulacyjnego wstawiony do strony Rysunku Technicznego*
 
@@ -21,31 +26,35 @@ Narzędzie **Wstaw widok Arkusza kalkulacyjnego** pozwala na umieszczenie widoku
 
 ## Użycie
 
-1.  Wybierz pojedynczy arkusz w [Widoku drzewa](Tree_view.md).
+1.  Wybierz arkusz w [Widoku drzewa](Tree_view.md).
 2.  Jeśli w dokumencie znajduje się wiele stron rysunku: opcjonalnie dodaj żądaną stronę do zaznaczenia, wybierając ją w oknie [Widok drzewa](Tree_view.md).
-3.  Istnieje kilka sposobów wywołania narzędzia:
-    -   Naciśnij przycisk **<img src="images/TechDraw_SpreadsheetView.svg" width=16px> '''Wstaw widok Arkusza kalkulacyjnego'''**.
-    -   Wybierz opcję z menu **Rysunek Techniczny → Widoki → <img src="images/TechDraw_SpreadsheetView.svg" width=16px>. Wstaw widok arkusza kalkulacyjnego**.
-4.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze wybrana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+3.  Wybierz opcję **Rysunek Techniczny → Widoki z innych środowisk roboczych → <img src="images/TechDraw_SpreadsheetView.svg" width=16px> Wstaw widok Arkusza kalkulacyjnego** z menu.
+4.  Jeśli w dokumencie znajduje się wiele stron rysunku i jeśli nie ma strony wyświetlonej w [obszarze widoku głównego](Main_view_area/pl.md), a strona nie została jeszcze wybrana, otworzy się okno dialogowe **Wybór strony**:
     1.  Wybierz żądaną stronę.
     2.  Naciśnij przycisk **OK**.
-5.  Dostosuj zakres komórek widoku, zmieniając jego właściwości **Komórka początkowa** i **Komórka końcowa**.
-
-
-
-## Uwagi
-
--   W {{VersionMinus/pl|0.19}} niektóre znaki w komórkach arkusza kalkulacyjnego będą powodować błędy podczas wyświetlania w widoku arkusza kalkulacyjnego. Znaki te muszą być zakodowane w XML. Obecnie znane znaki to: {{Incode|&}} (zamień na {{Incode|&amp;amp;}}) i {{Incode|&lt;}}. (zamień na {{Incode|&amp;lt;}}). Zobacz także tę [dyskusję](https://forum.freecadweb.org/viewtopic.php?p=629853#p629885) na forum.
+5.  Wstawiony zostanie widok Arkusza kalkulacyjnego.
+6.  Dostosuj zakres komórek widoku, zmieniając jego właściwości **Komórka początkowa** i **Komórka końcowa**.
 
 
 
 ## Właściwości
 
-Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw_View/pl#Widok.md) środowiska Rysunek Techniczny.
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Widok Arkusza kalkulacyjnego, formalnie obiekt {{Incode|TechDraw::DrawViewSpreadsheet}} ma [właściwości](TechDraw_View/pl#Właściwości_-_Widok_części.md) wspólne dla wszystkich typów Widoków. Ma też następujące dodatkowe właściwości:
 
 
 
 ### Dane
+
+
+{{TitleProperty|Widok rysunku}}
+
+-    **Symbol|String|Hidden**: Kod SVG definiujący ten symbol.
+
+-    **Editable Texts|StringList**: Wartości podstawienia dla edytowalnych ciągów w tym symbolu.
+
+-    **Owner|Link**: Cecha, do której ten symbol jest dołączony. {{Version/pl|1.0}}
 
 
 {{TitleProperty|Arkusz kalkulacyjny}}
@@ -68,7 +77,7 @@ Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

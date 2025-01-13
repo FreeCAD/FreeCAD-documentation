@@ -22,12 +22,12 @@ The **Std ActivatePrevWindow** command activates the previous window in the [Mai
 
 ## Notes
 
--   Main view area windows are also listed in the **Windows** menu and can be activated from there.
+-   The first 10 Main view area windows are also listed in the **Windows** menu and can be activated from there.
 
 
 
 
- {{Std Base navi}}
+ {{Std_Base_navi}}
 
 
 

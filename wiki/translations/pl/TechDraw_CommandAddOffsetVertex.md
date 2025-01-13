@@ -5,7 +5,7 @@
    MenuLocation: Rysunek Techniczny , Rozszerzenia: Linie środka / Gwinty , Dodaj odsunięcie wierzchołka
    Workbenches: TechDraw_Workbench/pl
    Shortcut: 
-   Version: 0.22
+   Version: 1.0
    SeeAlso: 
 ---
 

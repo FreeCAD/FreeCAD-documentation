@@ -4,7 +4,15 @@
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 Macro per esportare il proprio modello nel programma di raytracing [Kerkythea](http://www.kerkythea.net/cms/).
+
+
+</div>
+
+
 
 ## Riferimenti
 

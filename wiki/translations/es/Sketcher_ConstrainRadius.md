@@ -30,6 +30,13 @@ Esta restricción restringe el valor del radio de una circunferencia o un arco a
 
 ## Utilización
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
+
+
+<div class="mw-translate-fuzzy">
+
 Selecciona un arco o una circunferencia en el croquis pulsando encima (se volverá de color verde oscuro).
 
 <img alt="" src=images/ConstrainRadius2.png  style="width:256px;">
@@ -50,7 +57,12 @@ Introduce el valor deseado para el radio y pulsa OK para establecer el valor a l
 
 El valor de la restricción se establecerá al valor indicado en la ventana. 
 
-**Note:** the constraint tool can also be started with no prior selection. By default the command will be in continue mode to create new constraints; press the right mouse button or **Esc** once to quit the command.
+
+</div>
+
+### Run-once mode 
+
+See [Sketcher ConstrainRadiam](Sketcher_ConstrainRadiam#Run-once_mode.md).
 
 ## Scripting
 

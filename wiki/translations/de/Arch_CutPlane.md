@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch CutPlane
    Name/de: Arch Schnittebene
-   MenuLocation: Arch , Mit einer Ebene bechneiden
-   Workbenches: Arch_Workbench/de
+   MenuLocation: Modify , Mit einer Ebene beschneiden
+   Workbenches: BIM_Workbench/de
 ---
 
 # Arch CutPlane/de
@@ -21,21 +21,21 @@ Das Werkzeug **Arch Schnittebene** beschneidet einen Arch-Festkörper (Arch-Obje
 
 ## Anwendung
 
-1.  Soll die Schnittebene von einer geraden Kante abgeleitet werden ({{Version/de|0.22}}), kann wahlweise die [Arbeitsebene](Draft_SelectPlane/de.md) ausgerichtet werden:
+1.  Soll die Schnittebene von einer geraden Kante abgeleitet werden ({{Version/de|1.0}}), kann wahlweise die [Arbeitsebene](Draft_SelectPlane/de.md) ausgerichtet werden:
     -   Die ausgewählte Kante kann (darf) nicht parallel zur Normale der Arbeitsebene sein.
     -   Die erstellte Schnittebene steht senkrecht auf der Arbeitsebene.
 
 2.  Das zu schneidende Objekt auswählen.
 
 3.  Eine der folgende Möglichkeiten auswählen:
-    -   Ein Objekt mit einer einzelnen ebenen Fläche auswählen. {{Version/de|0.22}}
+    -   Ein Objekt mit einer einzelnen ebenen Fläche auswählen. {{Version/de|1.0}}
     -   Eine ebene Fläche in der [3D-Ansicht](3D_view/de.md) auswählen.
-    -   Ein Objekt mit einer einzelnen geraden Kante auswählen. {{Version/de|0.22}}
-    -   Eine gerade Kante in der [3D-Ansicht](3D_view/de.md) auswählen. {{Version/de|0.22}}
+    -   Ein Objekt mit einer einzelnen geraden Kante auswählen. {{Version/de|1.0}}
+    -   Eine gerade Kante in der [3D-Ansicht](3D_view/de.md) auswählen. {{Version/de|1.0}}
 
 4.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Arch_CutPlane.svg" width=16px> [Mit einer Ebene beschneiden](Arch_CutPlane.md)** drücken.
-    -   Den Menüeintrag **Arch → <img src="images/Arch_CutPlane.svg" width=16px> Mit einer Ebene beschneiden** auswählen.
+    -   Den Menüeintrag **Modify → <img src="images/Arch_CutPlane.svg" width=16px> Mit einer Ebene beschneiden** auswählen.
 
 5.  
     **Hinter**oder **Vorne** auswählen, um die Seite der Schnittfläche zu bestimmen, auf der Material entfernt werden soll.
@@ -117,5 +117,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/de
+⏵ [documentation index](../README.md) > Arch CutPlane/de

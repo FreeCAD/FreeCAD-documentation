@@ -32,7 +32,7 @@ Il comando **Seleziona tutti i collegamenti** seleziona tutti gli oggetti [App L
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

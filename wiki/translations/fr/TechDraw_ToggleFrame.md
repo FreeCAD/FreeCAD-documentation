@@ -4,7 +4,7 @@
    Name/fr: TechDraw Bascule des cadres
    MenuLocation: TechDraw , Vues de Techdraw , Activer ou désactiver les cadres de vues
    Workbenches: TechDraw_Workbench/fr
-   SeeAlso: TechDraw_View/fr, TechDraw_ProjectionGroup/fr
+   SeeAlso: TechDraw_View/fr
 ---
 
 # TechDraw ToggleFrame/fr
@@ -25,10 +25,10 @@ L\'outil **TechDraw Basculer des cadres** active ou désactive l\'affichage des 
     -   Appuyez sur le bouton **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Activer ou désactiver les cadres de vues](TechDraw_ToggleFrame/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_ToggleFrame.svg" width=16px> Activer ou désactiver les cadres de vues** du menu.
     -   Si une page est affichée dans la [zone de vue principale](Main_view_area/fr.md) : cliquez avec le bouton droit de la souris sur la fenêtre de la page et sélectionnez l\'option **Activer/désactiver les cadres** dans le menu contextuel.
-3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
+3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la fenêtre de dialogue **Sélecteur de pages** s\'ouvre :
     1.  Sélectionnez la page désirée.
     2.  Appuyez sur le bouton **OK**.
-4.  Les cadres d\'affichage actuellement visibles disparaissent. Les cadres de vue actuellement invisibles apparaissent.
+4.  Les cadres d\'affichage visibles disparaissent. Les cadres de vue invisibles apparaissent.
 5.  Il est possible que des vues différentes soient dans des états d\'affichage différents. Si cela se produit, lancez cet outil une ou deux fois pour resynchroniser les vues.
 
 
@@ -53,7 +53,7 @@ L\'outil Basculer l\'affichage des cadres n\'a actuellement pas d\'interface de 
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

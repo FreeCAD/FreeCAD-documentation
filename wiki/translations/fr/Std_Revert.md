@@ -12,6 +12,8 @@
 
 La commande **Std Rétablir** ferme le document actif et rouvre la dernière version enregistrée du document.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'option **Fichier → <img src="images/Std_Revert.svg" width=16px> Rétablir** dans le menu.
@@ -25,7 +27,7 @@ La commande **Std Rétablir** ferme le document actif et rouvre la dernière ver
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

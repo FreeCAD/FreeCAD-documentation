@@ -43,6 +43,18 @@
 
 ## Свойства
 
+See also: [Property editor](Property_editor.md).
+
+A Clip Group, formally a {{Incode|TechDraw::DrawViewClip}} object, has the [properties](TechDraw_View#Properties_Part_View.md) that are common to all View types. It also has the following additional properties.
+
+### Data
+
+
+{{TitleProperty|Clip Group}}
+
+
+<div class="mw-translate-fuzzy">
+
 -    **Width**: Ширина окна отсечения в единицах измерения
 
 -    **Height**: Высота окна отсечения в единицах измерения
@@ -54,6 +66,9 @@
 -    **Views**: Список Видов, содержащихся в группе
 
 
+</div>
+
+
 <div class="mw-translate-fuzzy">
 
 
@@ -63,7 +78,7 @@
 </div>
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

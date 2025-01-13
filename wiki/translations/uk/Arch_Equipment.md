@@ -15,14 +15,14 @@
 
 ## Description
 
-The Equipment tool offers you a simple and convenient way to insert non-structural, standalone elements such as pieces of furniture, hidro-sanitary equipments or electrical appliances to your projects. Equipments are based on [Part shapes](Part_Workbench.md), which allow them to benefit from the solidity and possibilities of BRep geometry, and generate nice views when rendered to plan and section views.
+The **Arch Equipment** tool offers you a simple and convenient way to insert non-structural, standalone elements such as pieces of furniture, hydro-sanitary equipments or electrical appliances to your projects. Equipments are based on [Part shapes](Part_Workbench.md), which allow them to benefit from the solidity and possibilities of BRep geometry, and generate nice views when rendered to plan and section views.
 
-![](images/Arch_equipment_example.jpg ) 
+<img alt="" src=images/Arch_equipment_example.jpg  style="width:600px;"> 
 *Furniture objects enclosed in an [Arch Equipment](Arch_Equipment.md) object. The flat projections can be obtained by the [Draft Shape2DView](Draft_Shape2DView.md) tool*
 
 As of version 0.17, equipment objects also have a **HiRes** property where a [Mesh](Mesh_Workbench.md) object can be attached. Equipment objects can then be made to display that mesh in the 3D view instead of their shape, which allows to use any high-resolution mesh objects such as detailed pieces of furniture commonly found on websites.
 
-![](images/Arch_equipment_mesh.jpg ) 
+<img alt="" src=images/Arch_equipment_mesh.jpg  style="width:600px;"> 
 *Furniture objects enclosed in an [Arch Equipment](Arch_Equipment.md) object, with a high resolution mesh attached*
 
 When using the Arch OBJ exporter, all equipment objects that are in mesh display mode will be exported as their mesh instead of their shape.
@@ -30,7 +30,7 @@ When using the Arch OBJ exporter, all equipment objects that are in mesh display
 ## Usage
 
 1.  Select a [Part](Part_Workbench.md) shape, and optionally a [Mesh](Mesh_Workbench.md) object.
-2.  Press the **<img src="images/Arch_Equipment.svg" width=16px> [Arch Equipment](Arch_Equipment.md)** button, or press **E** then **Q** keys.
+2.  Press the **<img src="images/Arch_Equipment.svg" width=16px> [Equipment](Arch_Equipment.md)** button, or press **E** then **Q** keys.
 
 ## Options
 
@@ -83,6 +83,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/uk
+⏵ [documentation index](../README.md) > Arch Equipment/uk

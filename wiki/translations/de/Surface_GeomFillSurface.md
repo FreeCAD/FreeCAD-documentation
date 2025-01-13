@@ -9,6 +9,8 @@
 
 # Surface GeomFillSurface/de
 
+
+
 ## Beschreibung
 
 
@@ -26,6 +28,8 @@ erstellt eine parametrische Oberfläche aus zwei, drei, oder vier Randkurven mit
 
 *Left: edges that are used to generate a surface with the [GeomFillSurface](Surface_GeomFillSurface.md) tool, 4 connected edges, 3 connected edges, and 2 disconnected edges. Right: resulting surface from using the 4, 3, and 2 edges, respectively.*
 
+
+
 ## Anwendung
 
 1.  Press the **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Fill boundary curves](Surface_GeomFillSurface.md)** button.
@@ -37,6 +41,8 @@ erstellt eine parametrische Oberfläche aus zwei, drei, oder vier Randkurven mit
 
 once created, it is not possible to apply additional constraints to the created surface.
 
+
+
 ## Optionen
 
 
@@ -44,11 +50,15 @@ once created, it is not possible to apply additional constraints to the created 
 
 : {{RadioButton|TRUE|Stretch}}, {{RadioButton|TRUE|Coons}}, or {{RadioButton|TRUE|Curved}}.
 
+
+
 ## Eigenschaften
 
 A [Surface GeomFillSurface](Surface_GeomFillSurface.md) (`Surface::GeomFillSurface` class) is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the Surface Filling has the following properties in the [property editor](Property_editor.md).
+
+
 
 ### Daten
 
@@ -60,6 +70,8 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 -    **Boundary List|LinkSubList**: a list of edges that will be used to build the surface.
 
 -    **Reversed List|BoolList|(hidden)**:
+
+
 
 ### Ansicht
 
@@ -97,6 +109,8 @@ When the surface\'s **Lighting** property is {{Value|One side}}, a face will be 
 <img alt="" src=images/Surface_twisting_example_smooth.png  style="width:330px;"> <img alt="" src=images/Surface_twisting_example_twisted.png  style="width:330px;"> 
 *Left: the boundary edges are oriented in the same direction, and thus the generated surface is smooth. Right: the boundary edges have opposite directions, and thus the generated surface twists on itself, resulting in self-intersections.*
 
+
+
 ## Skripten
 
 
@@ -106,7 +120,7 @@ When the surface\'s **Lighting** property is {{Value|One side}}, a face will be 
 
 The Surface GeomFillSurface tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::GeomFillSurface` object.
 
--   The edges to be used to define the surface must be assigned as a [LinkSubList](LinkSubList.md) to the `BoundaryList` property of the object.
+-   The edges to be used to define the surface must be assigned as a [LinkSubList](FeaturePython_Custom_Properties#App:_PropertyLinkSubList.md) to the `BoundaryList` property of the object.
 -   The type of algorithm must be assigned like a string to the `FillType` property.
 -   All objects with edges need to be computed before they can be used as input for the properties of the GeomFillSurface object.
 

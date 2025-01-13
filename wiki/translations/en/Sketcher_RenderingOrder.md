@@ -9,7 +9,7 @@
 
 ## Description
 
-The **Sketcher RenderingOrder** command itself currently does not do anything. But in the related menu the rendering order of all sketches can be changed.
+The <img alt="" src=images/Sketcher_RenderingOrder.svg  style="width:16px;"> [Sketcher RenderingOrder](Sketcher_RenderingOrder.md) tool itself currently does not do anything. But in the related menu the rendering order of all sketches can be changed.
 
 In case of coincident objects, the rendering order determines which elements appear on top, and are therefore selected first, in the [3D view](3D_view.md).
 

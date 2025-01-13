@@ -4,10 +4,10 @@
 |Icon=FCTexture.png
 |Description=Créer une image 3D à partir d'une image BMP 8 bits (256 couleurs).<br/>En d'autres termes, elle permet de construire très facilement un projet 3D à partir d'une image bitmap utilisant les niveaux de gris (256 nuances de gris).<br/>Si une image BMP 32 bits est sélectionnée, l'image est représentée en points.<br/>La macro '''FCCreaLoft Macro Loft''' est utilisée pour automatiser l'opération de multi lissage.
 |Author=Mario52
-|Version=0.14c
-|Date=2021/01/16
+|Version=0.15
+|Date=2025/01/04
 |FCVersion=0.18 et ultérieur
-|Download=[https://www.freecadweb.org/wiki/images/9/90/FCTexture.png Icône de la barre d'outils]
+|Download=[https://www.freecad.org/wiki/images/9/90/FCTexture.png Icône de la barre d'outils]
 |SeeAlso=[32px|FCCreaLoft](File:FCCreaLoft.png.md) [Macro Loft](Macro_Loft/fr.md)
 }}
 
@@ -22,7 +22,7 @@ Tout devient possible quelle que soit la complexité de l\'image!
 La <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/fr.md) est utilisé pour automatiser les opérations de multi lissage.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/3ec2ab127d8ad01a6b657aa5df9a6127ff07c7c0/Macro%2520FCTexture.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/f18613c8bfd142e644ba79fc8dd34a5f72282f18/Macro%2520FCTexture.FCMacro}}
 
 <img alt="" src=images/Texture_004_Honda.png  style="width:480px;"> 
 *Texture 004 Honda*
@@ -180,7 +180,7 @@ Les images ont été inclinées pour accentuer l\'effet 3D.
 
 <File:Texture> Nano Photo.png\|Ici un exemple d\'une image .bmp convertie en points et restaure l\'image dans FreeCAD. La largeur de l\'image est de 6.5 nm
 [Merci à Yorik pour avoir donné son autorisation pour l\'utilisation de son logo](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893#p47075) Image:Texture NanoDesign.png\|Ici un exemple d\'une image bmp convertie en objet 3D de 6.7 nm de large.
-[Merci à Yorik pour avoir donné son autorisation pour l\'utilisation de son logo](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893#p47075)
+[Merci à Yorik pour avoir donné son autorisation pour l\'utilisation de son logo](https://forum.freecad.org/viewtopic.php?f=24&t=5893#p47075)
 
 
 </center>
@@ -189,7 +189,7 @@ Les images ont été inclinées pour accentuer l\'effet 3D.
 
 <center>
 
-Image:Texture 001 Logo.png\|Le logo de FreCAD. Image:Texture 002 Fe FC.png\|Une partie du fond décran de FreeCAD (Le [fichier](http://forum.freecadweb.org/viewtopic.php?f=3&t=4708&start=10#p46353) sur le forum).
+Image:Texture 001 Logo.png\|Le logo de FreCAD. Image:Texture 002 Fe FC.png\|Une partie du fond décran de FreeCAD (Le [fichier](https://forum.freecad.org/viewtopic.php?f=3&t=4708&start=10#p46353) sur le forum).
 
 
 </center>
@@ -207,7 +207,7 @@ Image:Texture_003_napperon.png\|Une portion d\'une nappe de table. Image:Texture
 
 <center>
 
-<File:FCTexture> 006.png\|Mode Plan: Dans l\'image de gauche le fond blanc a été ignoré et toutes les autres couleurs sont affichées, dans l\'image de droite la couleur noire a été ignorée et toutes les autres couleurs sont affichées (le niveau peut être modifié avec l\'option \"Capping\")(un [exemple](http://forum.freecadweb.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024) sur le forum).
+<File:FCTexture> 006.png\|Mode Plan: Dans l\'image de gauche le fond blanc a été ignoré et toutes les autres couleurs sont affichées, dans l\'image de droite la couleur noire a été ignorée et toutes les autres couleurs sont affichées (le niveau peut être modifié avec l\'option \"Capping\")(un [exemple](https://forum.freecad.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024) sur le forum).
 
 
 </center>
@@ -238,7 +238,7 @@ Image:Texture_003_napperon.png\|Une portion d\'une nappe de table. Image:Texture
 **1:** Créer les lofts avec l\'outil <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;">ou avec la <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/fr.md)
 **2:** Sélectionnez l\'ensemble et faites une opération d\'extrusion avec l\'outil <img alt="" src=images/Part_Extrude.svg  style="width:24px;">
 **3A:** Pour Linux téléchargez [GMSHMesh](https://github.com/psicofil/Macros_FreeCAD) (auteur psicofil) [Macro GMSH Wiki page](Macro_GMSH.md)
-**3B:** Pour Windows téléchargez [GmshMesh2.zip](http://forum.freecadweb.org/download/file.php?id=15220) dézippez le fichier et installez le dans votre répertoire Mod (author ulrich1a)
+**3B:** Pour Windows téléchargez [GmshMesh2.zip](https://forum.freecad.org/download/file.php?id=15220) dézippez le fichier et installez le dans votre répertoire Mod (author ulrich1a)
 **4:** Créez votre objet Mesh et utilisez le.
 
 
@@ -257,15 +257,17 @@ Image:Texture_003_napperon.png\|Une portion d\'une nappe de table. Image:Texture
 
 ## Liens
 
-La discussion sur [le forum](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893) pour donner vos impressions.
+La discussion sur [le forum](https://forum.freecad.org/viewtopic.php?f=24&t=5893) pour donner vos impressions.
 
 La macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/fr.md) pour automatiser le multi loft.
 
-[apply hair cell texture](http://forum.freecadweb.org/viewtopic.php?f=3&t=4708&start=10#p46353)
+[apply hair cell texture](https://forum.freecad.org/viewtopic.php?f=3&t=4708&start=10#p46353)
 
-[How to handle pdf import properly and feasibly?](http://forum.freecadweb.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024)
+[How to handle pdf import properly and feasibly?](https://forum.freecad.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024)
 
 ## Revision
+
+-   ver 0.15 2025/01/04 suppression de toutes les références à PySide et QtWidgets , chrono par chrisb
 
 -   Ver 0.14c : 15-01-2021 inclusion de **Gui.SendMsgToActiveView(\"ViewFit\")**
 

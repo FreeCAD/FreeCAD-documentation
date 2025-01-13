@@ -39,32 +39,32 @@ Krzyż osi składa się z trzech strzałek reprezentujących osie X, Y i Z globa
 
 ## Ustawienia
 
-Domyślne ustawienie krzyża osi można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Pokaż w narożniku symbol układu współrzędnych**. Przeczytaj również informacje o [Edytorze preferencji](Preferences_Editor/pl#Widok_3D.md).
+Zobacz też: [Edytor preferencji](Preferences_Editor/pl.md).
+
+Domyślne ustawienie krzyża osi można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Pokaż w narożniku symbol układu współrzędnych**.
 
 
 
 ## Tworzenie skryptów 
 
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby przełączyć widoczność **symbolu osi**, należy użyć metody `setAxisCross` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
+Aby przełączyć widoczność **symbolu osi**, należy użyć metody `setAxisCross` obiektu View.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.setAxisCross(True)
-FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.setAxisCross(True)
+view.hasAxisCross()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

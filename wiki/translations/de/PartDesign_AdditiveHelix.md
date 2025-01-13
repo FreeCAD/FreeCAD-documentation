@@ -10,6 +10,8 @@
 
 # PartDesign AdditiveHelix/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug **WendelHinzufügen** erstellt einen Volumenkörper durch Führen einer Skizze entlang eines Wendel-Pfades.
@@ -17,6 +19,8 @@ Das Werkzeug **WendelHinzufügen** erstellt einen Volumenkörper durch Führen e
 <img alt="" src=images/PartDesign_AdditiveHelix_example_overview.png  style="width:650px;">
 
 \"Das Profil (B) wird um eine Achse (A) geführt und erzeugt einen Wendel-Volumenkörper (C)\"
+
+
 
 ## Anwendung
 
@@ -31,11 +35,15 @@ Das Werkzeug **WendelHinzufügen** erstellt einen Volumenkörper durch Führen e
 5.  
     **OK**klicken.
 
+
+
 ## Optionen
 
 Beim Erstellen einer Wendel beinhaltet der Dialog **Wendel-Parameter** verschiedene Parameter die festlegen, wie die Skizze ausgetragen werden soll.
 
 ![](images/PartDesign_AdditiveHelix_taskpanel.png )
+
+
 
 ### Achse
 
@@ -48,6 +56,8 @@ Diese Option bestimmt die Achse, um die sich die Skizze winden soll.
 -   **Basis (X/Y/Z)-Achse**: Wählt die X-, Y- oder Z-Achse des Ursprungs des Körpers aus.
 -   **Referenz auswählen\...**: Erlaubt in der 3D-Ansicht eine Kante des Körpers oder eine [Bezugslinie](PartDesign_Line.md) auszuwählen.
 
+
+
 ### Modus
 
 Dies steuert, welche Parameter zum Festlegen der Wendel verwendet werden. Zur Wahl stehen:
@@ -57,37 +67,55 @@ Dies steuert, welche Parameter zum Festlegen der Wendel verwendet werden. Zur Wa
 -   **Höhe-Windungen-Winkel**: Festlegung über die Gesamthöhe und die Anzahl der Windungen.
 -   **Höhe-Windungen-Aufweitung** {{Version/de|0.20}}: Festlegung über die Gesamthöhe, die Anzahl der Windungen und die Aufweitungsrate des Wendelradius (Radiales Wachstum). Eine Höhe von Null ergibt einen spiralförmigen Pfad. Sind Höhe und Aufweitungsrate Null, ergibt sich ein kreisförmiger Pfad.
 
+
+
 ### Steigung
 
 Der Abstand zwischen den Windungen der Wendel.
+
+
 
 ### Höhe
 
 Die Höhe der Wendel (Zentrum-Zentrum).
 
+
+
 ### Windungen
 
 Die Anzahl der Windungen der Wendel. Ergibt sich aus Höhe/Steigung.
+
+
 
 ### Kegelwinkel
 
 Winkel des Kegels, der die Wendel umhüllt. Zulässiger Wertebereich: \[-89°, +89°\].
 
+
+
 ### Linksgängig
 
 Wenn aktiviert, ändert sich die Drehrichtung der Wendel von der Voreinstellung \"im Uhrzeigersinn\" in \"gegen den Uhrzeigersinn\".
+
+
 
 ### Umgekehrt
 
 Wenn aktiviert, wird die voreingestellte Ausrichtung der Wendel umgedreht.
 
+
+
 ### Ansicht aktualisieren 
 
 Wenn aktiviert, ändert sich die Ansicht bei jeder Parameteränderung automatisch.
 
+
+
 ## Einstellungen
 
 Eine Wendel, die sich nicht selbst durchdringt, ist sichtbar, wenn **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Mod → PartDesign → AdditiveHelixPreview** auf `True` gesetzt ist. Die Voreinstellung ist `False`. {{Version/de|0.20}}
+
+
 
 ## Eigenschaften
 
@@ -120,6 +148,16 @@ Eine Wendel, die sich nicht selbst durchdringt, ist sichtbar, wenn **Werkzeuge �
 -    {{PropertyData/de|Up to face}}: Nicht genutzt.
 
 -    {{PropertyData/de|Allow multiple face}}: Nicht genutzt.
+
+
+
+## Hinweise
+
+-   Ein <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [ShapeBinder](PartDesign_ShapeBinder/de.md) kann nicht als Profil verwendet werden.
+-   Wird ein <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [Teilformbinder](PartDesign_SubShapeBinder/de.md) (SubShapeBinder) als Profil verwendet, funktioniert die Auswahl in der [Baumansicht](Tree_view/de.md) nicht, stattdessen muss die Fläche des Teilformbinders in der [3D-Ansicht](3D_view/de.md) ausgewählt werden.
+-   Wendeln korrekt zu berechnen, ist für die im Hintergrund arbeitenden Prozesse sehr aufwendiger, da die beteiligten Kurven die Fließkommagenauigkeit an ihre Grenzen bringt. Das heißt, dass die Ausführung weiterer Vorgänge mit einer Wendel, wie der Versuch eine boolesche Verknüpfungen mit einem anderen Objekt durchzuführen, sehr sensibel auf kleinste Veränderungen reagieren kann. Schlagen sie fehl, zerstören sie das Modell oft auf ungewöhnliche Weise. Um dies zu vermeiden, sollte man versuchen, Bearbeitungen an einer Wendel so auszuführen, dass sie entweder deutlich überlappen (durchdringen) oder deutlich nicht überlappen. Exaktes anpassen, bei dem die die Oberfläche der Wendel exakt zu der Oberfläche eines anderen Objekts ausgerichtet wird, ist sehr fehleranfällig. Ein Gewinde, das um den zylindrischen Teil eines Bolzens verläuft, ist ein Beispiel dafür. Es mag anfangs funktionieren, kann aber später fehlschlagen, wenn Objekte etwas bewegt werden.
+
+
 
 ## Beispiele
 

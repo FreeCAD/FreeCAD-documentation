@@ -28,6 +28,14 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 
 With all navigation styles, unless selecting objects from a sketch in edit mode, you must hold **Ctrl** to select multiple objects.
 
+The following keyboard options are available for all styles:
+
+-    **Ctrl**\+ {{ASCII|43}} and **Ctrl** + {{ASCII|22}} or **PgUp** and **PgDn** to zoom in and out, respectively.
+
+-   The arrow keys, {{ASCII|17}}{{ASCII|16}}{{ASCII|30}}{{ASCII|31}}, to pan the view left/right and up/down.
+
+-    **Shift**\+ {{ASCII|17}} and **Shift** + {{ASCII|16}} to rotate the view by 90 degrees.
+
 
 
 
@@ -48,7 +56,17 @@ Blender Gezinme [Blender](http://www.blender.org)\'dan sonra eklendi. Daha önce
 
 </div>
 
-Alternatively, hold both left and right mouse buttons, and then move the pointer. \|Zoom_text=Use the mouse wheel to zoom in and out. \|Rotate_view_text=Hold the middle mouse button, then move the pointer. }}
+\|Shift=**Shift**
+
+\|Select_text=Press the left mouse button over an object you want to select.
+
+\|Zoom_text=Use the mouse wheel to zoom in and out.
+
+\|Rotate_view_text=Hold the middle mouse button, then move the pointer.
+
+\|Pan_text=Hold **Shift** and the middle mouse button, then move the pointer.
+
+Alternatively, hold both left and right mouse buttons, and then move the pointer. }}
 
 ### CAD navigation 
 
@@ -65,30 +83,39 @@ Bu, varsayılan gezinme stilidir. Kullanıcıya görünümün basit bir kontrol�
 
 {{CAD Navigation
 |Select_name=Select
-|Pan_name=Pan
 |Zoom_name=Zoom
 |Rotate_view_name=Rotate view<br>First method
 |Rotate_view_alt_name=Rotate view<br>Alternate method
+|Pan_name=Pan
+
 |Ctrl=**Ctrl**
 |Shift=**Shift**
+
 |Select_text=Press the left mouse button over an object you want to select.
-|Pan_text=Hold the middle mouse button, then move the pointer.
-|Pan_mode_text=Pan mode: hold the **Ctrl** key, press the right mouse button once, then move the pointer.
+
 |Zoom_text=Use the mouse wheel to zoom in and out.
 
 Clicking the middle mouse button re-centers the view on the location of the cursor.
-|Zoom_mode_text=Zoom mode: hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer.
+
 |Rotate_view_text=Hold the middle mouse button, then press and hold the left mouse button, then move the pointer.
 
 If the buttons are released before you stop the mouse motion, the view continues spinning, if this is enabled.
 
 A double click with the middle mouse button sets a new center of rotation.
-|Rotate_view_mode_text=Rotate mode: hold the **Shift** key, press the right mouse button once, then move the pointer.
+
 |Rotate_view_alt_text=Hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
 
 With this method the middle mouse button may be released after the right mouse button is held pressed.
 
 Users who use the mouse with their right hand may find this method easier than the first method.
+
+|Pan_text=Hold the middle mouse button, then move the pointer.
+
+|Zoom_mode_text=Zoom mode: hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer.
+
+|Rotate_view_mode_text=Rotate mode: hold the **Shift** key, press the right mouse button once, then move the pointer.
+
+|Pan_mode_text=Pan mode: hold the **Ctrl** key, press the right mouse button once, then move the pointer.
 }}
 
 
@@ -111,11 +138,31 @@ Bu gezinme stili dokunmatik ekran ve kalemle kullanım için uyarlandı, ancak d
 
 </div>
 
-Alternatively, tap and hold, then drag. This simulates the pan with the right mouse button. \|Zoom_text=Use the mouse wheel to zoom in and out. \|Zoom_gesture_text=Drag two fingers (pinch) closer or farther apart. \|Rotate_view_text=Hold the left mouse button, then move the pointer. In [Sketcher](Sketcher_Workbench.md) and other edit modes, this behavior is disabled. Hold **Alt** when pressing the mouse button to enter rotation mode.
+\|Select_text=Press the left mouse button over an object you want to select.
 
-To set the camera\'s focus point for rotation, click a point with the middle mouse button. Alternatively, aim the cursor at a point and press **H** on the keyboard. \|Rotate_view_gesture_text=Drag with one finger to rotate.
+\|Zoom_text=Use the mouse wheel to zoom in and out.
 
-Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md). \|Tilt_view_text=Hold both left and right mouse buttons, then move the pointer sideways. \|Tilt_view_gesture_text=Rotate the imaginary line formed by two touch points.
+\|Rotate_view_text=Hold the left mouse button, then move the pointer. In [Sketcher](Sketcher_Workbench.md) and other edit modes, this behavior is disabled. Hold **Alt** when pressing the mouse button to enter rotation mode.
+
+To set the camera\'s focus point for rotation, click a point with the middle mouse button. Alternatively, aim the cursor at a point and press **H** on the keyboard.
+
+\|Pan_text=Hold the right mouse button, then move the pointer.
+
+\|Tilt_view_text=Hold both left and right mouse buttons, then move the pointer sideways.
+
+\|Select_gesture_text=Tap to select.
+
+\|Zoom_gesture_text=Drag two fingers (pinch) closer or farther apart.
+
+\|Rotate_view_gesture_text=Drag with one finger to rotate.
+
+Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md).
+
+\|Pan_gesture_text=Drag with two fingers.
+
+Alternatively, tap and hold, then drag. This simulates the pan with the right mouse button.
+
+\|Tilt_view_gesture_text=Rotate the imaginary line formed by two touch points.
 
 This method is disabled by default. To enable, go to **Edit → Preferences → Display → Navigation**, and uncheck the \"Disable touchscreen tilt gesture\" checkbox. }}
 
@@ -139,7 +186,19 @@ Maya-Gesture Gezinme,**ALT** tuşu ve bir fare düğmesine basarak tüm görün�
 
 </div>
 
-Alternatively, use the mouse wheel to zoom in and out. \|Rotate_view_text=Hold **Alt** and the left mouse button, then move the pointer. }}
+\|Alt=**Alt**
+
+\|Select_text=Press the left mouse button over an object you want to select.
+
+\|Zoom_text=Use the mouse wheel to zoom in and out.
+
+Alternatively, hold **Alt** and the right mouse button, then move the pointer.
+
+\|Rotate_view_text=Hold **Alt** and the left mouse button, then move the pointer.
+
+\|Pan_text=Hold **Alt** and the middle mouse button, then move the pointer.
+
+\|Tilt_view_text=Hold **Alt** and both left and right mouse buttons, and then move the pointer sideways. }}
 
 ### OpenCascade navigation 
 
@@ -148,16 +207,23 @@ The OpenCascade navigation style was modeled after [OpenCascade](https://www.ope
 
 {{OpenCascade Navigation
 |Select_name=Select
-|Pan_name=Pan
 |Zoom_name=Zoom
 |Rotate_view_name=Rotate view
+|Pan_name=Pan
+
 |Ctrl=**Ctrl**
+
 |Select_text=Press the left mouse button over an object you want to select.
-|Pan_text=Hold the middle mouse button, then move the pointer.
+
 |Zoom_text=Use the mouse wheel to zoom in and out.
 
 Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
-|Rotate_view_text=Hold **Ctrl** and the right mouse button, then move the pointer.
+
+|Rotate_view_text=Hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
+
+Alternatively, hold **Ctrl** and the right mouse button, then move the pointer.
+
+|Pan_text=Hold the middle mouse button, then move the pointer. It is possible to hold **Ctrl**.
 }}
 
 ### OpenInventor navigation 
@@ -178,18 +244,23 @@ This style is not based on Autodesk Inventor.
 
 {{OpenInventor Navigation
 |Select_name=Select
-|Pan_name=Pan
 |Zoom_name=Zoom
 |Rotate_view_name=Rotate view
+|Pan_name=Pan
+
 |Shift=**Shift**
+
 |Select_text=Hold **Shift**, then press the left mouse button over an object you want to select.
 
 Hold **Ctrl** instead to select multiple objects.
-|Pan_text=Hold the middle mouse button, then move the pointer.
+
 |Zoom_text=Use the mouse wheel to zoom in and out.
 
-Alternatively, hold the middle mouse button, then press and hold the left mouse button, then move the pointer. 
+Alternatively, hold the middle mouse button, then press and hold the left mouse button, then move the pointer.
+
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
+
+|Pan_text=Hold the middle mouse button, then move the pointer.
 }}
 
 ### OpenSCAD navigation 
@@ -197,22 +268,29 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 The OpenSCAD navigation style was modeled after [OpenSCAD](https://openscad.org/).
 
 
-<small>(v0.20)</small> 
-
-
 {{OpenSCAD_Navigation
 |Select_name=Select
-|Pan_name=Pan
 |Zoom_name=Zoom
 |Rotate_view_name=Rotate view
+|Pan_name=Pan
+
 |Shift=**Shift**
+
 |Select_text=Press the left mouse button over an object you want to select.
 
-Hold **Ctrl** and **Shift** when pressing the mouse button to drag an object in a sketch in edit mode.
-|Pan_text=Hold the right mouse button, then move the pointer.
-|Zoom_text=Hold the middle mouse button, then move the pointer.
-Alternatively, hold **Shift** and the right mouse button, then move the pointer.
+{{VersionMinus|0.21}} Hold **Ctrl** and **Shift** when pressing the mouse button to drag an object in a sketch in edit mode.
+
+|Zoom_text=Use the mouse wheel to zoom in and out.
+
+Alternatively, hold the middle mouse button, then move the pointer.
+
+Or hold **Shift** and the right mouse button, then move the pointer.
+
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
+
+Alternatively, and when a sketch is in edit mode, hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
+
+|Pan_text=Hold the right mouse button, then move the pointer.
 }}
 
 ### Revit navigation 
@@ -222,19 +300,23 @@ The Revit navigation style was modeled after [Revit](https://en.wikipedia.org/wi
 
 {{Revit Navigation
 |Select_name=Select
-|Pan_name=Pan
 |Zoom_name=Zoom
 |Rotate_view_name=Rotate view
-|Shift=**Shift**
-|Select_text=Press the left mouse button over an object you want to select.
-|Pan_text=Hold the middle mouse button, then move the pointer.
+|Pan_name=Pan
 
-Alternatively, hold both left and right mouse buttons, then move the pointer.
+|Shift=**Shift**
+
+|Select_text=Press the left mouse button over an object you want to select.
 
 |Zoom_text=Use the mouse wheel to zoom in and out.
+
 |Rotate_view_text=Hold **Shift** and the middle mouse button, then move the pointer.
 
 Alternatively, hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
+
+|Pan_text=Hold the middle mouse button, then move the pointer.
+
+Alternatively, hold both left and right mouse buttons, then move the pointer.
 }}
 
 ### TinkerCAD navigation 
@@ -242,18 +324,19 @@ Alternatively, hold the middle mouse button, then press and hold the right mouse
 The TinkerCAD navigation style was modeled after [TinkerCAD](https://en.wikipedia.org/wiki/Tinkercad).
 
 
-<small>(v0.20)</small> 
-
-
 {{TinkerCAD Navigation
 |Select_name=Select
-|Pan_name=Pan
 |Zoom_name=Zoom
 |Rotate_view_name=Rotate view
+|Pan_name=Pan
+
 |Select_text=Press the left mouse button over an object you want to select.
-|Pan_text=Hold the middle mouse button, then move the pointer.
+
 |Zoom_text=Use the mouse wheel to zoom in and out.
+
 |Rotate_view_text=Press the right mouse button, then move the pointer.
+
+|Pan_text=Hold the middle mouse button, then move the pointer.
 }}
 
 
@@ -275,6 +358,18 @@ Dokunmatik fare gezinti de, Taşıma , zumlama ve döndürme işlemleri, yalnız
 
 
 </div>
+
+\|Ctrl=**Ctrl** \|Shift=**Shift** \|Alt=**Alt**
+
+\|Select_text=Press the left mouse button over an object you want to select.
+
+\|Zoom_text=Hold **Ctrl** and **Shift**, then move the pointer.
+
+\|Rotate_view_text=Hold **Alt**, then move the pointer.
+
+Alternatively, hold **Shift** and the left button, then move the pointer.
+
+\|Pan_text=Hold **Shift**, then move the pointer. }}
 
 
 
@@ -305,10 +400,6 @@ Son zamanlarda Mac kullanıcılarından [forum\'da](http://forum.freecadweb.org/
 
 
 </div>
-
-## Developing a custom navigation 
-
-The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) orients developers who want to develop a custom mouse navigation option. Familiarity with the C++ syntax is required.
 
 
 {{docnav/tr|[Başlangıç](Getting_started/tr.md)|[Belge yapısı](Document_structure/tr.md)}}

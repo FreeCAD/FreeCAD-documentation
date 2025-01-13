@@ -35,7 +35,7 @@ Siehe [Import-Export-Einstellungen](Import_Export_Preferences/de.md).
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um Objekte in eine OCA-Datei zu exportieren, wird die Methode `export` des Moduls importSVG verwendet.
 

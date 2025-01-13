@@ -1,10 +1,17 @@
-# <img alt="L\'icona di Web" src=images/Workbench_Web.svg  style="width:64px;"> Web Workbench/it
+# Web Workbench/it
+**L''''Ambiente Web''' non è più incluso dalla versione 0.21.**
+
+<img alt="L\'icona di Web" src=images/Workbench_Web.svg  style="width:128px;">
+
+
 
 ## Introduzione
 
 L\' [Ambiente Web](Web_Workbench/it.md) non è un vero ambiente di lavoro, ma fornisce una finestra del browser all\'interno di FreeCAD.
 
 Da questo browser è possibile navigare sul Web, fare clic sui collegamenti, leggere la documentazione online e accedere ai siti Web (sono supportati i cookie). L\'Ambiente Web è anche una base per lo sviluppo di strumenti relativi al Web in FreeCAD. La finestra del browser è basata su [QtWebEngine](https://wiki.qt.io/QtWebEngine) e fornisce pulsanti di navigazione standard come stop, ricarica, pagina precedente e successiva e zoom avanti e indietro.
+
+
 
 ## Strumenti
 
@@ -37,4 +44,4 @@ L\'Ambiente Web offre i seguenti strumenti:
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/it
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/it

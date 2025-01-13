@@ -12,9 +12,8 @@ Questa categoria contiene gli articoli che sono importanti per gli sviluppatori.
 | [Compiling (Speeding up)/it](Compiling_(Speeding_up)/it.md) | [Compiling/it](Compiling/it.md) | [Conda/it](Conda/it.md) |
 | [Contributors/it](Contributors/it.md) | [Developing FreeCAD with GitKraken/it](Developing_FreeCAD_with_GitKraken/it.md) | [Doxygen/it](Doxygen/it.md) |
 | [FEM CalculiX/it](FEM_CalculiX/it.md) | [FEM Element Types/it](FEM_Element_Types/it.md) | [FEM Mesh CalculiX/it](FEM_Mesh_CalculiX/it.md) |
-| [File Format FCStd/it](File_Format_FCStd/it.md) | [ImageConv/it](ImageConv/it.md) | [InputField/it](InputField/it.md) |
-| [LGTM/it](LGTM/it.md) | [Organization chart/it](Organization_chart/it.md) | [Svg Namespace/it](Svg_Namespace/it.md) |
-| [WikiRobots/it](WikiRobots/it.md) |
+| [File Format FCStd/it](File_Format_FCStd/it.md) | [LGTM/it](LGTM/it.md) | [Organization chart/it](Organization_chart/it.md) |
+| [Svg Namespace/it](Svg_Namespace/it.md) | [WikiRobots/it](WikiRobots/it.md) |
 
 
 

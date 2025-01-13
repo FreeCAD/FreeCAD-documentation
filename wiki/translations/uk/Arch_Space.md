@@ -15,7 +15,7 @@
 
 ## Description
 
-The Space tool allows you to define an empty volume, either by basing it on a solid shape, or by defining its boundaries, or a mix of both. If it is based solely on boundaries, the volume is calculated by starting from the bounding box of all the given boundaries, and subtracting the spaces behind each boundary. The Space object always defines a solid volume. The floor area of a space object, calculated by intersecting a horizontal plane at the center of mass of the space volume, can also be displayed.
+The **Arch Space** tool allows you to define an empty volume, either by basing it on a solid shape, or by defining its boundaries, or a mix of both. If it is based solely on boundaries, the volume is calculated by starting from the bounding box of all the given boundaries, and subtracting the spaces behind each boundary. The Space object always defines a solid volume. The floor area of a space object, calculated by intersecting a horizontal plane at the center of mass of the space volume, can also be displayed.
 
 <img alt="" src=images/Arch_Space_example.jpg  style="width:640px;">
 
@@ -26,10 +26,10 @@ The Space tool allows you to define an empty volume, either by basing it on a so
 ## Usage
 
 1.  Select an existing solid object, or faces on boundary objects.
-2.  Invoke the Arch Space command using several methods:
-    -   Pressing the **<img src="images/Arch_Space.svg" width=16px> [Arch Space](Arch_Space.md)** button in the toolbar.
+2.  Invoke the command using several methods:
+    -   Pressing the **<img src="images/Arch_Space.svg" width=16px> [Space](Arch_Space.md)** button in the toolbar.
     -   Using the **S** then **P** keyboard keys
-    -   Using the **Arch → Space** entry from the top menu
+    -   Using the **3D/BIM → Space** entry from the top menu
 
 ### Limitations
 
@@ -162,6 +162,11 @@ Arch.removeSpaceBoundaries(Space, selection)
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Space/uk
+⏵ [documentation index](../README.md) > Arch Space/uk

@@ -3,6 +3,8 @@
 
 Le geometrie che appaiono nelle [viste 3D](3D_view.md) di FreeCAD sono visualizzate (renderizzate) dalla libreria [Coin3d](https://en.wikipedia.org/wiki/Coin3D). Coin3D è un\'implementazione delle funzionalità standard di [OpenInventor](https://en.wikipedia.org/wiki/Open_Inventor). Anche il software [openCascade](https://en.wikipedia.org/wiki/Open_CASCADE) fornisce queste funzionalità, ma fin dagli inizi dello sviluppo di FreeCAD, è stato deciso di non utilizzare il visualizzatore di OpenCascade e di sostituirlo con il software Coin3D in quanto più performante. Un buon modo per conoscere questa libreria è quello di consultare il manuale [Open Inventor Mentor](http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/).
 
+
+
 ## Descrizione
 
 [OpenInventor](https://en.wikipedia.org/wiki/Open_Inventor) è in realtà un linguaggio di descrizione della scena 3D. La scena descritta in Open Inventor viene renderizzata (visualizzata) sul vostro schermo con OpenGL. Coin3D si occupa di questo processo, quindi non è necessario che il programmatore tratti complesse chiamate a OpenGL, ma deve solo fornire un codice Open Inventor valido. Il principale vantaggio è che Open Inventor è uno standard molto conosciuto e ben documentato.
@@ -63,6 +65,8 @@ print viewprovider.toString()
 ```
 
 Inoltre, c\'è anche un modulo Python che consente l\'accesso completo a tutto quello che è gestito da Coin3D, come il grafo della scena di FreeCAD. Continuate quindi la lettura in [Pivy](Pivy/it.md).
+
+
 
 ## Esempi di codifica 
 

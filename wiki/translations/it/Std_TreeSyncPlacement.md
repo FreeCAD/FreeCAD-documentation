@@ -22,20 +22,14 @@ Il comando **Sincronizza la posizione** attiva la modalità SyncPlacement della 
 
 1.  Esistono diversi modi per invocare il comando:
     -   Fare clic sulla freccia nera in basso a destra del pulsante **<img src="images/Std_TreeSyncView.svg" width=16px>** e selezionare l\'opzione **Sincronizza posizionamento** dal riquadro a comparsa. Nota: l\'immagine del pulsante cambierà a seconda dell\'opzione selezionata.
-    -   Selezionare l\'opzione **Visualizza → Azioni della vista ad albero → <img src="images/Std_TreeSyncPlacement.svg" width=16px> Sincronizza posizionamento** dal menu.
+    -   Selezionare l\'opzione **Visualizza → Azioni della vista ad albero → Sincronizza posizionamento** dal menu.
     -   Usare la scorciatoia da tastiera: **T** poi **3**.
 
 
 
-## Preferenze
-
-La modalità Sincronizza la posizione è memorizzata: **Strumenti → Modifica parametri... → BaseApp → Preferences → TreeView → SyncPlacement**. È un valore booleano, il valore predefinito è `False`.
 
 
-
-
-
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

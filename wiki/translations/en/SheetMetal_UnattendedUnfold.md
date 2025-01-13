@@ -22,10 +22,13 @@ With the first use of the <img alt="" src=images/SheetMetal_Unfold.svg  style="w
 ## Usage
 
 1.  Select one planar face of a sheet metal part.
-2.  Activate the <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [UnattendedUnfold](SheetMetal_UnattendedUnfold.md) command using one of the following:
-    -   The **<img src="images/_SheetMetal_UnattendedUnfold.svg_" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)** menu option.
-    -   The keyboard shortcut: **U**
+2.  There are several ways to invoke the command:
+    -   Press the **<img src="images/SheetMetal_UnattendedUnfold.svg_" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)** button.
+    -   Select the **Sheet Metal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)** option from the menu.
+    -   Right-click in the [Tree view](Tree_view.md) or the [3D view](3D_view.md) and select the **Sheet Metal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)** option from the context menu.
+    -   Use the keyboard shortcut: **U**.
+3.  An **Unfold** object will be created.
+4.  Optionally adjust the parameters in the [Property editor](Property_editor.md).
 
 ## Notes
 
@@ -35,14 +38,7 @@ To make this command available, first enable Engineering Mode in the preferences
 
 See also: [Property editor](Property_editor.md).
 
-A SheetMetal Unfold object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It has no additional properties, but its label has a default value:
-
-### Data
-
-
-{{Properties_Title|Base}}
-
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+A SheetMetal Unfold object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It has no additional properties.
 
 ## Limitations
 

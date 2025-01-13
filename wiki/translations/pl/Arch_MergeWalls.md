@@ -1,39 +1,58 @@
 ---
  GuiCommand:
    Name: Arch MergeWalls
-   MenuLocation: Arch , Utilities , Merge Walls
-   Workbenches: Arch_Workbench
-   SeeAlso: Arch_Wall
+   Name/pl: Architektura: Połącz ściany
+   MenuLocation: Narzędzia , Połącz ściany
+   Workbenches: BIM_Workbench/pl
+   SeeAlso: Arch_Wall/pl
 ---
 
 # Arch MergeWalls/pl
 
-## Description
-
-The [MergeWalls](Arch_MergeWalls.md) tool fuses two or more selected **<img src="images/_Arch_Wall.svg" width=16px> [Arch Walls](Arch_Wall.md)**.
-
-## Usage
-
-1.  Select two or more walls.
-2.  Press the **<img src="images/Arch_MergeWalls.svg" width=16px>** button, or use the **Arch** → **Utilities** → **<img src="images/Arch_MergeWalls.svg" width=16px> [Merge Walls](Arch_MergeWalls.md)** from the top menu.
-
-## Properties
-
-## Limitations
-
-## Scripting
 
 
-**See also:**
+## Opis
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Narzędzie **Połącz ściany** łączy [ściany](Arch_Wall/pl.md).
 
-This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+
+
+## Użycie
+
+Wykonaj jedną z poniższych czynności:
+
+#\* Wybierz pojedynczą ścianę z jednym lub wieloma [połączonymi obiektami](Arch_Add/pl.md), które również są ścianami.
+
+#\* Wybierz dwie lub więcej ścian.
+
+1.  W obu przypadkach ściany muszą mieć te same właściwości **Wysokość**, **Szerokość** i **Wyrównanie**.
+2.  Wybierz polecenie **Narzędzia → <img src="images/Arch_MergeWalls.svg" width=16px> Połącz ściany** z menu.
+
+
+
+## Uwagi
+
+-   Narzędzie [Połącz obiekty](Arch_Add/pl.md) może łączyć ściany, nawet jeśli mają one różne wysokości, szerokości i wyrównania.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Kształt z siatki** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
+
+
 ```python
 base = joinWalls(walls, delete=False)
 ```
 
-Example: 
+Przykład:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -51,5 +70,13 @@ base = Arch.joinWalls([Wall1, Wall2])
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/pl
+⏵ [documentation index](../README.md) > Arch MergeWalls/pl

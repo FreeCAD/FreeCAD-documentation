@@ -9,6 +9,8 @@
 
 # SheetMetal AddCornerRelief/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:24px;"> [Eckentlastung hinzufügen](SheetMetal_AddCornerRelief/de.md) fügt einen Ausschnitt zur Eckentlastung hinzu. Ein Entlastungsausschnitt wird normalerweise an Ecken erstellt, an denen sich zwei Kanten (Abstellungen, Bördel) treffen, aber der Befehl kann auch an offenen ecken Entlastungsausschnitte erstellen.
@@ -21,13 +23,25 @@ Der Befehl erstellt einen Entlastungsausschnitt zur Zeit.
 <img alt="" src=images/SheetMetal_AddCornerRelief-03.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddCornerRelief-04.png  style="width:300px;"> 
 *Offene Standardecke → Offene Ecke mit hinzugefügter Eckentlastung*
 
+
+
 ## Anwendung
 
 1.  Zwei Kanten einer Ecke auswählen.
-2.  Den Befehl <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:16px;"> **SheetMetal AddCornerRelief** aktivieren durch:
-    -   Die Schaltfläche **<img src="images/SheetMetal_AddCornerRelief.svg" width=16px> [Add Corner Relief](SheetMetal_AddCornerRelief.md)**.
-    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Add Corner Relief**.
-    -   Das Tastenkürzel **C** dann **R**.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/SheetMetal_AddCornerRelief.svg" width=16px> [Eckentlastung hinzufügen](SheetMetal_AddCornerRelief/de.md)** drücken.
+    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Eckentlastung hinzufügen** auswählen.
+    -   Ein Rechtsklick in die [Baumansicht](Tree_view/de.md) oder die [3D-Ansicht](3D_view/de.md) und die Menüoption **SheetMetal → <img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Eckentlastung hinzufügen** im Kontextmenü auswählen.
+    -   Das Tastaturkürzel **C** dann **R**.
+3.  Das [Aufgaben-Fenster](Task_panel/de.md) **Blech-Grundform erstellen** wird geöffnet (eingeführt in Version 0.5.00).
+4.  Wahlweise die Schaltfläche **Auswahl** drücken, um die Auswahl der Kanten anzupassen.
+    -   Die Schaltfläche **Vorschau** drücken, um die Auswahl abzuschließen und die Änderungen anzuzeigen.
+5.  Wahlweise die Parameter im Aufgaben-Fenster anpassen.
+6.  Die Schaltfläche **OK** rücken, um den Befehl abzuschließen und das Aufgaben-Fenster zu schließen.
+7.  Ein **CornerRelief**-Objekt wird erstellt und enthält eine neue Eckentlastung an der ausgewählten Ecke.
+8.  Wahlweise die Parameter im [Eigenschafteneditor](Property_editor/de.md) anpassen.
+
+
 
 ## Formen der Entlastungsausschnitte 
 
@@ -43,6 +57,8 @@ Der Wert der {{PropertyData/de|ReliefSketch}} kann aus einer Liste ausgewählt w
 
 <img alt="" src=images/SheetMetal_AddCornerRelief-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddCornerRelief-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddCornerRelief-07.png  style="width:200px;"> 
 *Kreisförmige Entlastung (mit Standardeinstellungen) → Quadratische Entlastung (mit Standardeinstellungen) → Skizzenbasierte Entlastung*
+
+
 
 ## Eine nähere Betrachtung der Größe von Entlastungsausschnitten 
 
@@ -68,26 +84,24 @@ Der Versuch die {{PropertyData/de|Size}} auf einen Wert unter 1,67 mm zu setzen,
 
 Die Auswahl von Circle-Scaled und das Erstellen eines weiteren Abwicklungskörpers zeigt, dass 1,67 mm auch die Basis der **Size Ratio** ist.
 
+
+
 ## Hinweise
 
--   der K-Faktor legt fest, wo sich innerhalb der Wandstärke eines Bleches die neutrale Faser befindet.
+-   Der K-Faktor legt der ANSI-Norm folgend fest, wo sich innerhalb der Wandstärke eines Bleches die neutrale Faser befindet.
+-   Die Auswahl akzeptiert mehr als zwei Kanten, aber nur die ersten zwei werden berücksichtigt.
 
-:   (Es wäre schön zu wissen, ob dieser Faktor auf ISO- oder ANSI-Norm basiert\...)
+
 
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Ein SheetMetal-CornerRelief-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+Ein SheetMetal-CornerRelief-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet oder, wenn es sich in einem [PartDesign-Körper](PartDesign_Body/de.md) befindet, von einem [PartDesign Formelement](PartDesign_Feature/de.md) und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
-
-
-{{Properties_Title/de|Basis}}
-
--    {{PropertyData/de|Base Feature|Link|hidden}}: Base Feature. Verweis zum Eltern-Objekt.
-
--    {{PropertyData/de|_Body|LinkHidden|hidden}}: Unsichtbarer Verweis zum Eltern-Body.
 
 
 {{Properties_Title/de|Parameters}}

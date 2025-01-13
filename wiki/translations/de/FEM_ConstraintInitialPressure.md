@@ -1,11 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/de
    Name: FEM ConstraintInitialPressure
    Name/de: FEM StartbedingungDruck
    MenuLocation: Modell , Fluid-Randbedingungen , Startbedingung Druck
    Workbenches: FEM_Workbench/de
    Version: 0.21
    SeeAlso: FEM_ConstraintInitialFlowVelocity/de
+}}
+{{GuiCommandFemInfo/de
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintInitialPressure/de

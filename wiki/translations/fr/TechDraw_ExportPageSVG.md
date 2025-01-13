@@ -18,15 +18,15 @@ L\'outil **TechDraw Exporter au format SVG** enregistre la page de dessin en cou
 
 ## Utilisation
 
-1.  S\'il y a plusieurs pages de dessin dans le document : activez éventuellement la page souhaitée en la sélectionnant dans la [Vue arborescente](Tree_view/fr.md).
+1.  S\'il y a plusieurs pages de dessin dans le document : vous pouvez activer la page souhaitée en la sélectionnant dans la [vue arborescente](Tree_view/fr.md).
 2.  Il y a plusieurs façons de lancer l\'outil :
     -   Appuyez sur le **<img src="images/TechDraw_ExportPageSVG.svg" width=16px> [Exporter une page au format SVG](TechDraw_ExportPageSVG/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Page → <img src="images/TechDraw_ExportPageSVG.svg" width=16px> Exporter une page au format SVG** dans le menu.
+    -   Sélectionnez l\'option **TechDraw → Page → <img src="images/TechDraw_ExportPageSVG.svg" width=16px> Exporter une page au format SVG** du menu.
     -   Si une page est affichée dans la [zone de vue principale](Main_view_area/fr.md) : cliquez avec le bouton droit de la souris sur la fenêtre de la page et sélectionnez l\'option **Exporter en SVG** dans le menu contextuel.
-3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
+3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la fenêtre de dialogue **Sélecteur de pages** s\'ouvre :
     1.  Sélectionnez la page désirée.
     2.  Appuyez sur le bouton **OK**.
-4.  La boîte de dialogue **Exporter la page en SVG** s\'ouvre.
+4.  La fenêtre de dialogue **Exporter la page en SVG** s\'ouvre.
     1.  Sélectionnez un emplacement et un nom de fichier.
 
 
@@ -55,7 +55,7 @@ Notez que le module FreeCADGui doit être actif pour utiliser cette fonction.
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

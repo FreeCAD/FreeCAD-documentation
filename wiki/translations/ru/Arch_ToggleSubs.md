@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -26,6 +28,8 @@
 Normally, if an Arch object, like an [Arch Wall](Arch_Wall.md), is selected and you press **Space** only the external wall will be hidden or made visible, but not the internal objects.
 
 With this tool, the internal subtracted objects will all become visible or hidden.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -45,6 +49,8 @@ With this tool, the internal subtracted objects will all become visible or hidde
 
 </div>
 
+
+
 ## Опции
 
 The color of a subtraction element can follow the style of [Draft construction](Draft_ToggleConstructionMode.md) elements, by activating the appropriate option in the [Arch Preferences](Arch_Preferences.md), in the menu **Edit → Preferences → Arch → General settings → Apply Draft construction style to subcomponents**.
@@ -53,5 +59,13 @@ The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in th
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/ru
+⏵ [documentation index](../README.md) > Arch ToggleSubs/ru

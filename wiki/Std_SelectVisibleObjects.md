@@ -18,7 +18,7 @@ The **Std SelectVisibleObjects** command selects all visible objects. Note that 
 
 
 
- {{Std Base navi}}
+ {{Std_Base_navi}}
 
 
 

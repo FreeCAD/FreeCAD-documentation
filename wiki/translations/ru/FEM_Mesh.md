@@ -1,7 +1,13 @@
 # FEM Mesh/ru
 ## Создание сетки конечных элементов 
 
+
+<div class="mw-translate-fuzzy">
+
 Анализ методом конечных элементов выполняется над сеткой состоящей из множества соединенных между собой треугольных и четырехугольных конечных элементов, которые формируются в результате разделения исходного тела. Чем точнее сформирована эта сетка, тем точнее будут результаты вычислений, но и время потраченное на вычисления тоже будет больше. Баланс между размером сетки, временем вычислений и точностью результатов является важной характеристикой качественного анализа методом конечных элементов.
+
+
+</div>
 
 В [верстаке FEM](FEM_Workbench/ru.md) существует несколько способов получения сетки для расчета МКЭ:
 
@@ -10,7 +16,13 @@
 -   Импорт сетки из другой программы. В частности, Gmsh и Netgen могут использоваться сами по себе вне FreeCAD для генерации сеток из твердых тел таких как Step-файлы.
 -   Создание сетки \"вручную\" с помощью [Python](Python/ru.md) скриптов.
 
+
+<div class="mw-translate-fuzzy">
+
 Инструменты Gmsh и Netgen поддерживают создание сеток из тел, созданных в верстаках [Part](Part_Workbench/ru.md) и [PartDesign](PartDesign_Workbench/ru.md), а также из простых копии этих тел. В общем, любой верстак, который генерирует твердые объекты, например [верстак Arch](Arch_Workbench/ru.md), также можно использовать для создания сеток. Обратите внимание, что сетка, используемая для АКЭ, не то же самое что сетка, созданная или импортированная из [верстака Mesh](Mesh_Workbench/ru.md).
+
+
+</div>
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 *Вестак FEM вызывает внешний инструмент Gmsh для получения сетки сгенерированной из твердого тела, которое может быть создано в нескольких верстаках FreeCAD; также можно импортировать сетку, созданную внешним приложением*
@@ -22,16 +34,22 @@ The [Gmsh](FEM_MeshGmshFromShape.md) and [Netgen tools](FEM_MeshNetgenFromShape.
 
 Previously, Netgen was included with FreeCAD and could be used immediately. Now, both Netgen and Gmsh should be installed before they can be used by the [FEM Workbench](FEM_Workbench.md). Refer to [FEM Install](FEM_Install.md) for instructions.
 
+
+
 ## Программное обеспечение для разделения тел на сетки конечных элементов 
 
 Meshing software operates on solid bodies that can be in different formats, like Step and Brep. These programs can be used independently of FreeCAD, and typically have many options to control the meshing algorithms, element size, and boundary conditions.
 
 The [FEM Workbench](FEM_Workbench.md) has developed simple communication interfaces to use Gmsh and Netgen directly inside FreeCAD. Other programs don\'t have an interface, but this could change in the future if there is interest from the community, and if those applications are easy to integrate. The meshing software can be compiled and distributed together with FreeCAD only if its license is compatible with the LGPL2 license; otherwise, the program has to be used as an external binary, like Gmsh (GPL2) is used.
 
+
+
 ### Встроенные в интерфейс FreeCAD 
 
 -   Gmsh: [основной вебсайт](http://gmsh.info/), [исходный код](https://gitlab.onelab.info/gmsh/gmsh)
 -   Netgen: [основной вебсайт](https://ngsolve.org/), [исходный код](https://github.com/NGSolve/netgen)
+
+
 
 ### Не встроенные в интерфейс FreeCAD 
 
@@ -40,6 +58,8 @@ The [FEM Workbench](FEM_Workbench.md) has developed simple communication interfa
 -   PythonOCC, [основной вебсайт](http://www.pythonocc.org/)
 -   SnappyHexMesh, [основной вебсайт](https://openfoamwiki.net/index.php/SnappyHexMesh)
 -   Tetgen, [основной вебсайт](http://wias-berlin.de/software/tetgen/)
+
+
 
 ## Поддерживаемые в FreeCAD элементы сетки 
 
@@ -595,37 +615,55 @@ FreeCAD supports various element types. The following article explains the diffe
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:20px;"> означает, что спецификация формата не поддерживает этот тип элемента, поэтому FreeCAD не поддерживает его.
 -   \"?\" означает, что неизвестно, поддерживает ли формат этот тип элементов.
 
+
+
 ## Типы элементов МКЭ 
 
 More information on the elements, and their data structure inside FreeCAD can be found in [FEM Element Types](FEM_Element_Types.md).
+
+
 
 ### Сегмент (сегментный элемент) 
 
 <img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width:600px;">
 
+
+
 ### Треугольный элемент 
 
 <img alt="" src=images/FEM_mesh_elements_2_triangle.svg  style="width:600px;">
+
+
 
 ### Четырехугольный элемент 
 
 <img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width:600px;">
 
+
+
 ### Тетраэдральный элемент 
 
 <img alt="" src=images/FEM_mesh_elements_4_tetrahedron.svg  style="width:600px;">
+
+
 
 ### Шестигранный элемент 
 
 <img alt="" src=images/FEM_mesh_elements_5_hexahedron.svg  style="width:600px;">
 
+
+
 ### Пентаэдральный (призматический) элемент 
 
 <img alt="" src=images/FEM_mesh_elements_6_pentahedron.svg  style="width:600px;">
 
+
+
 ### Пирамидальный элемент 
 
 <img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width:600px;">
+
+
 
 ## Программирование
 

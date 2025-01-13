@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher SelectConstraints
    Name/fr: Sketcher Contraintes associées
-   MenuLocation: Esquisse , Outils d'esquisse , Sélectionner les contraintes associées
+   MenuLocation: Esquisse , Affichage , Sélectionner les contraintes associées
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **Z** **K**
    Version: 0.15
@@ -12,18 +12,19 @@
 
 ## Description
 
-Sélectionne les contraintes d\'un élément d\'esquisse.
+L\'outil <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:24px;"> [Sketcher Contraintes associées](Sketcher_SelectConstraints/fr.md) sélectionne les contraintes associées aux éléments de l\'esquisse.
 
 
 
 ## Utilisation
 
-1.  Sélectionnez un ou plusieurs objets dans l\'esquisse active.
-2.  Il existe plusieurs façons de lancer la commande :
-    -   Cliquez sur le bouton **[<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> [Sélectionner les contraintes associées](Sketcher_SelectConstraints/fr.md)**.
-    -   Choisissez la commande **Esquisse → Outils d'esquisse → [<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> Sélectionner les contraintes associées** du menu.
-    -   Utilisez le raccourci clavier **Z** puis **K**.
-3.  Les contraintes associées seront mises en évidence dans le [panneau des tâches](Task_panel/fr.md) et la [vue 3D](3D_view/fr.md).
+1.  Sélectionnez un ou plusieurs éléments de l\'esquisse.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> [Sélectionner les contraintes associées](Sketcher_SelectConstraints/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Affichage → [<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> Sélectionner les contraintes associées** du menu.
+    -   Utilisez le raccourci clavier : **Z** puis **K**.
+3.  Les contraintes associées sont sélectionnées.
+4.  Vous pouvez cliquer dans une zone vide de la [vue 3D](3D_view/fr.md) pour effacer la sélection.
 
 
 

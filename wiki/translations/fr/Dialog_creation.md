@@ -8,7 +8,9 @@ Dans cet exemple, l\'interface entière est définie en [Python](Python/fr.md). 
 <img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
 *Deux méthodes générales pour créer des interfaces, en incluant l'interface dans le fichier Python, ou en utilisant des fichiers `.ui*.`
 
-## Construire une boîte de dialogue 
+
+
+## Construire une fenêtre de dialogue 
 
 Dans les applications de CAO, bien concevoir une **UI** (interface utilisateur) est très important. Tout ce que l\'utilisateur fera, se fera à travers un outil de l\'interface: la lecture des boîtes de dialogue, appuyer sur les boutons, le choix entre les icônes, etc . Il est donc très important de réfléchir attentivement à la conception de votre boîte de dialogue, comment vous voulez que l\'utilisateur se comporter avec la boîte, et comment sera le flux de travail de votre action.
 
@@ -29,7 +31,7 @@ Dans certains cas, le premier est préférable, dans d\'autres cas non.
 La boîte à outils de l\'interface **Qt** que nous utilisons, est une boîte à outils **state-of-the-art** (interface graphique avancée), et nous n\'aurons pas beaucoup d\'inquiétudes pour rendre les choses claires, car elles sont déjà très claires par elles-mêmes.
 
 Donc, maintenant que nous avons bien défini ce que nous ferons, il est temps d\'ouvrir **Qt Designer**.
-Nous allons concevoir très facilement une simple boîte de dialogue, comme ceci:
+Nous allons concevoir très facilement une simple fenêtre de dialogue, comme ceci :
 
 ![](images/Qttestdialog.jpg )
 
@@ -57,6 +59,8 @@ C\'est à peu près tout ce que nous devons faire dans Qt Designer.
 Une dernière chose, nous allons renommer tous nos éléments avec des noms faciles, de sorte qu\'il sera plus facile de les identifier dans nos scripts:
 
 ![](images/Qtpropeditor.jpg )
+
+
 
 ## Conversion de notre boîte de dialogue en code Python avec \"pyuic\" 
 
@@ -132,7 +136,7 @@ d = QtGui.QWidget()
 d.ui = mywidget.Ui_Dialog()
 d.ui.setupUi(d)
 d.show()
-``` Et notre boîte de dialogue apparaîtra! Notez que notre interpréteur Python fonctionne toujours, nous avons une boîte de dialogue non modale.
+``` Et notre boîte de dialogue apparaîtra! Notez que notre interpréteur Python fonctionne toujours, nous avons une fenêtre de dialogue non modale.
 Donc, pour la fermer, nous pouvons (à part cliquer sur son icône, bien sûr) faire: 
 ```python
 d.hide()
@@ -268,6 +272,8 @@ class plane():
 
 ```
 
+
+
 ## Plus d\'exemples 
 
 -   [Création d\'une boîte de dialogues avec différents widgets](Dialog_creation_with_various_widgets.md) avec `QPushButton`, `QLineEdit`, `QCheckBox`, `QRadioButton` et bien d\'autres.
@@ -276,6 +282,8 @@ class plane():
 -   [Création d\'une boîte de dialogue pour image et GIF animé](Dialog_creation_image_and_animated_GIF/fr.md) avec `QLabel` et `QMovie`.
 -   [Extraits d\'utilisation de PySide](PySide_usage_snippets/fr.md).
 -   [Macro Qt Example](Qt_Example/fr.md)
+
+
 
 ## Liens pertinents 
 

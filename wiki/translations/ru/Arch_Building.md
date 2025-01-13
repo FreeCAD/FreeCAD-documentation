@@ -10,14 +10,23 @@
 
 # Arch Building/ru
 
+
+</div>
+
+
+
 ## Описание
 
 Arch Building - это особый тип объекта группы FreeCAD, который особенно подходит для представления целого здания. Они в основном используются для организации вашей модели с помощью объектов [ floor](Arch_Floor.md).
 
+
+
 ## Применение
 
 1.  Optionally, select one or more objects to be included in your new building.
-2.  Press the **<img src="images/Arch_Building.svg" width=16px> [Arch Building](Arch_Building.md)** button, or press the **B** then **U** keys.
+2.  Press the **<img src="images/Arch_Building.svg" width=16px> [Building](Arch_Building.md)** button, or press the **B** then **U** keys.
+
+
 
 ## Опции
 
@@ -25,9 +34,16 @@ Arch Building - это особый тип объекта группы FreeCAD, 
 -   After creating a building, you can add more objects to it by drag and dropping them in the Tree View or by using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
 -   You can remove objects from a building by drag and dropping them out of it the Tree View or by using the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
 
+
+
 ## Свойства
 
 -    **Building Type**: The type of this building, to choose from a list
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Программирование
 
@@ -35,6 +51,9 @@ Arch Building - это особый тип объекта группы FreeCAD, 
 **См. так же:**
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
+
+
+</div>
 
 The Building tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
@@ -65,6 +84,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/ru
+⏵ [documentation index](../README.md) > Arch Building/ru

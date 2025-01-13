@@ -9,15 +9,21 @@
 
 # View Measure Toggle All/pl
 
+
+
 ## Opis
 
 Polecenie **Przełącz widoczność wymiarów** przełącza wyświetlanie pomiarów z aktywnego okna [widoku 3D](3D_view/pl.md) w środowisku pracy [Część](Part_Workbench/pl.md).
+
+
 
 ## Użycie
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Wybierz opcję z menu **Widok → Widoczność → <img src="images/View_Measure_Toggle_All.svg" width=16px> Przełącz widoczność wymiarów**.
     -   Wybierz opcję **Wymiarowanie → <img src="images/View_Measure_Toggle_All.svg" width=16px> Przełącz widoczność wymiarów** z menu podręcznego widoku 3D.
+
+
 
 ## Uwagi
 

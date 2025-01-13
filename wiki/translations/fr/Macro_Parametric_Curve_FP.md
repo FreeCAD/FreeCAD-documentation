@@ -14,7 +14,7 @@
 
 ## Description
 
-Cette macro est une mise à jour de la [Macro_3D_Parametric_Curve](Macro_3D_Parametric_Curve/fr.md) de Gomez Lucio, puis modifiée par Laurent Despeyroux le 9 février 2015. La macro a été mise à jour en un objet paramétrique Feature Python. Elle supporte les mêmes paramètres a, b, c, mais peut aussi avoir autant de paramètres d sous forme de d1, d2, d3, d4, etc. que vous le souhaitez.
+Cette macro est une mise à jour de la [macro 3D Parametric Curve](Macro_3D_Parametric_Curve/fr.md) de Gomez Lucio, puis modifiée par Laurent Despeyroux le 9 février 2015. La macro a été mise à jour en un objet paramétrique Feature Python. Elle supporte les mêmes paramètres a, b, c, mais peut aussi avoir autant de paramètres d sous forme de d1, d2, d3, d4, etc. que vous le souhaitez. Si vous souhaitez référencer un [jeu de variables](Std_VarSet/fr.md) ou un [objet DynamicData dd](DynamicData_Workbench/fr.md) dans une formule, vous pouvez utiliser la commande {{Incode|fc(expr)}} pour le faire. Par exemple, s\'il existe une valeur flottante dans un objet dd nommé my_float et que vous souhaitez la référencer dans la formule pour le paramètre b, entrez pour b : {{Incode|fc(dd.my_float)}} ou si vous souhaitez l\'utiliser de manière plus complexe : b : {{Incode|fc(dd.my_float) * a + pi}} comme autre exemple.
 
 Il prend également en charge l\'enregistrement des formules dans un fichier texte au format JSON et l\'intégration de la formule en cours dans une feuille de calcul. La documentation complète est disponible sur github [Parametric_Curve_FP](https://github.com/mwganson/Parametric_Curve_FP).
 
@@ -26,7 +26,7 @@ Il prend également en charge l\'enregistrement des formules dans un fichier tex
 ### Légende
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mwganson/473920ad317fb2dc3e37638112874e2a/raw/19619545bf53c3c678f5b6df27760aec23635ebc/Parametric_Curve_FP.FCMacro|Parametric_Curve_FP.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/473920ad317fb2dc3e37638112874e2a/raw/afbd008f86b7084a879665f6570629b7d321f286/Parametric_Curve_FP.FCMacro|Parametric_Curve_FP.FCMacro}}
 
 Icône de la barre d\'outils ![](images/Parametric_Curve_FP.svg )
 

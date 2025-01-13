@@ -14,15 +14,17 @@
 
 ## Beschreibung
 
-Das Werkzeug **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Spreadsheet AliasFestlegen](Spreadsheet_SetAlias/de.md)** öffnet ein Dialogfeld zum Festlegen eines Alias für eine Zelle. So kann anstelle des exakten Zellnamens wie A2, B3 oder C4 ein benutzerdefinierter Name verwendet werden.
+Das Werkzeug <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> **Spreadsheet AliasFestlegen** öffnet ein Dialogfenster zum Festlegen eines Alias für eine Zelle. So kann anstelle des exakten Zellnamens wie A2, B3 oder C4 ein benutzerdefinierter Name verwendet werden.
 
 
 
 ## Anwendung
 
-1.  Es sollte eine aktive **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md)** geöffnet sein, damit die Schaltfläche aktiviert ist.
+1.  Sicherstellen, dass eine [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md) aktiviert ist.
 2.  Eine Zelle auswählen.
-3.  Die Schaltfläche **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Alias-Namen festlegen](Spreadsheet_SetAlias/de.md)** drücken.
+3.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Alias-Namen festlegen](Spreadsheet_SetAlias/de.md)** drücken.
+    -   Das Tastaturkürzel **Ctrl** + **Shift** + **A**.
 4.  Einen Alias eingeben:
     -   Nur alphanumerische Zeichen und Unterstriche (`A` bis `Z`, `a` bis `z`, `0` bis `9` und `_`) sind erlaubt.
     -   Das erste Zeichen muss ein Buchstabe sein.

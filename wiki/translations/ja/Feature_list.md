@@ -1,7 +1,7 @@
 # Feature list/ja
 <div class="mw-translate-fuzzy">
 
-以下はFreeCADに実装されている多くの機能のリストです。ただし機能が多いため全てが記載されているわけではありません。もし将来的な計画について知りたいのであれば[開発ロードマップ](Development_roadmap.md)を見てください。機能を概観したいのであれば[スクリーンショット](Screenshots.md)を見るとよいでしょう。
+以下はFreeCADに実装されている多くの機能のリストです。ただし機能が多いため全てが記載されているわけではありません。もし将来的な計画について知りたいのであれば[開発ロードマップを](Development_roadmap.md)見てください。機能を概観したいのであれば[スクリーンショットを](Screenshots.md)見るとよいでしょう。
 
 
 </div>
@@ -49,7 +49,7 @@
 -   ![](images/Feature-raytracing.jpg ) A [Rendering](Raytracing_Workbench.md) workbench that can export 3D objects for rendering with external renderers. Currently only supports [povray](http://en.wikipedia.org/wiki/POV-Ray) and [LuxRender](http://en.wikipedia.org/wiki/LuxRender), but is expected to be extended to other renderers in the future.
 -   ![](images/Feature-arch.jpg ) An [Architecture](Arch_Workbench.md) workbench that allows [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling)-like workflow, with [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) compatibility.
 -   ![](images/Feature-CAM.jpg ) [Path Workbench](Path_Workbench.md) dedicated to mechanical machining like milling (CAM), and is able to output, display and adjust [G code](http://en.wikipedia.org/wiki/G-code).
--   数式ベースのモデルを駆動したり、モデルからデータを取得するには、 ![](images/Feature_spreadsheet.png ) [Integrated Spreadsheet](Spreadsheet_Workbench.md)と[expression parser](Expressions.md) を使用します。
+-   数式ベースのモデルを駆動したり、モデルからデータを取得するには、 ![](images/Feature_spreadsheet.png ) [Integrated Spreadsheetと](Spreadsheet_Workbench.md)[expression parser](Expressions.md) を使用します。
 
 
 </div>
@@ -91,7 +91,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   **FreeCADは[Pythonモジュール](Embedding_FreeCAD/jp.md)としてインポートすることができます**。pythonスクリプトを実行できる他のアプリケーション内部、あるいはpythonコンソールへインポート可能です。コンソールモードの場合と同様、FreeCADのインターフェイス部分を使用することはできませんが、全てのジオメトリツールを使用することができます。
+-   **FreeCADは[Pythonモジュールとしてインポートすることができます](Embedding_FreeCAD/jp.md)**。pythonスクリプトを実行できる他のアプリケーション内部、あるいはpythonコンソールへインポート可能です。コンソールモードの場合と同様、FreeCADのインターフェイス部分を使用することはできませんが、全てのジオメトリツールを使用することができます。
 
 
 </div>
@@ -99,7 +99,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   **ワークベンチというコンセプト**: FreeCADのインターフェイスではツールは[ワークベンチ](workbenches.md)によってグループ分けされます。これによってある作業を行うために必要なツールだけを表示し、作業スペースを整頓された使いやすい状態に保ち、アプリケーションの読み込みを高速にすることができます。
+-   **ワークベンチというコンセプト**: FreeCADのインターフェイスではツールは[ワークベンチによってグループ](workbenches.md)分けされます。これによってある作業を行うために必要なツールだけを表示し、作業スペースを整頓された使いやすい状態に保ち、アプリケーションの読み込みを高速にすることができます。
 
 
 </div>
@@ -107,7 +107,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   **組み込みの[スクリプト](Scripting/ja.md)フレームワーク**: FreeCADには[Python](http://www.python.org/)インタープリターが組み込まれています。またアプリケーション、インターフェイス、ジオメトリー、3Dビューワー上のジオメトリー表現のほとんど全てを網羅したAPIを兼ね備えています。インタープリターは1つのコマンドから複雑なスクリプトまで実行でき、実質的には全モジュールを完全にPythonでプログラムすることさえ可能です。
+-   **組み込みの[スクリプトフレームワーク](Scripting/ja.md)**: FreeCADには[Python](http://www.python.org/)インタープリターが組み込まれています。またアプリケーション、インターフェイス、ジオメトリー、3Dビューワー上のジオメトリー表現のほとんど全てを網羅したAPIを兼ね備えています。インタープリターは1つのコマンドから複雑なスクリプトまで実行でき、実質的には全モジュールを完全にPythonでプログラムすることさえ可能です。
 
 
 </div>

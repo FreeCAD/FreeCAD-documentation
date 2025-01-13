@@ -27,7 +27,7 @@ Aktuell verweist der Befehl auf die Seite [<https://www.freecad.org>](https://ww
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

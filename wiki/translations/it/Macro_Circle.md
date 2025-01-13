@@ -1,7 +1,4 @@
 # Macro Circle/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro Circle
 |Translate=Cerchio
@@ -11,39 +8,24 @@
 |Version=0.4
 |Date=2019-06-19
 |FCVersion=Tutte
-|Download=[https://www.freecadweb.org/wiki/images/9/9d/Macro_Circle.png Icon]
-|SeeAlso=[Macro CirclePlus](Macro_CirclePlus.md) <img src="images/Macro_CirclePlus.png" width=24px>
+|Download=[https://www.freecadweb.org/wiki/images/9/9d/Macro_Circle.png Icona della barra degli strumenti]
+|SeeAlso=[Macro CirclePlus](Macro_CirclePlus/it.md) <img src="images/Macro_CirclePlus.png" width=24px>
 }}
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-Questa piccola macro crea un cerchio o un arco fornendo a scelta raggio, diametro, circonferenza, area, angolo iniziale, angolo finale, lunghezza dell\'arco, angolo al centro, corda, freccia, centro, placemObject. Il nuovo cerchio viene creato nella coordinata reale dell\'oggetto, non nelle coordinate del corpo.
+Questa piccola macro crea un cerchio o un arco fornendo a scelta raggio, diametro, circonferenza, area, angolo iniziale, angolo finale, arco, centro dell\'angolo, corda, freccia, centro (punto), placemObject. Il nuovo cerchio viene creato nelle coordinate reali dell\'oggetto, non nelle coordinate del corpo.
 {{ColoredText|(Riga di comando, incolla questa macro completa nella console Python)}}.
-
-
-</div>
 
 Il cerchio viene posto frontale allo schermo, con getCameraOrientation, oppure secondo il posizionamento dato
 
-## Usage
 
-
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
-Copiare il codice e incollarlo nella console Python di FreeCAD, la funzione sarà disponibile per tutta la sessione (è anche possibile utilizzare questo codice in una macro). Assegnare a scelta i parametri:
-
-
-</div>
+Copiare il codice e incollarlo nella console Python di FreeCAD il comando arà disponibile per tutta la sessione di FreeCAD. Assegnare a scelta i parametri:
 
 -   **x y z** : coordinate del cerchio, se non sono attribuite, il cerchio viene creato alle coordinate 0,0,0
 -   **radius** : raggio del cerchio
@@ -70,7 +52,7 @@ Se non vengono forniti dei parametri, ad esempio \"**circle()**\", nella vista R
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Circle.png )
+Icona della barra degli strumenti ![](images/Macro_Circle.png )
 
 **Macro_circle.FCMacro**
 
@@ -156,17 +138,11 @@ def circle(x=0.0,y=0.0,z=0.0,radius=0.0,diameter=0.0,circumference=0.0,area=0.0,
 
 }}
 
-## Memo of circle 
 
-
-<div class="mw-translate-fuzzy">
 
 ## Promemoria sulle circonferenze 
 
 **Esempi di codice**
-
-
-</div>
 
 
 ```python

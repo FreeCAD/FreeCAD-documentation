@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Upgrade
    Name/de: Draft Hochstufen
-   MenuLocation: Änderung , Hochstufen
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Änderung , Hochstufen<br>Bearbeiten , Hochstufen
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **U** **P**
    SeeAlso: Draft_Downgrade/de
 ---
@@ -26,7 +26,8 @@ Der <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> Der Befehl **
 1.  Wahlweise ein oder mehrere Objekte auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_Upgrade.svg" width=16px> [Hochstufen](Draft_Upgrade/de.md)** drücken.
-    -   Den Menüeintrag **Änderung → <img src="images/Draft_Upgrade.svg" width=16px> Hochstufen** auswählen.
+    -   [Draft](Draft_Workbench.md): Den Menüeintrag **Änderung → <img src="images/Draft_Upgrade.svg" width=16px> Hochstufen** auswählen.
+    -   [BIM](BIM_Workbench.md): Den Menüeintrag **Bearbeiten → <img src="images/Draft_Upgrade.svg" width=16px> Hochstufen** auswählen.
     -   Das Tastaturkürzel **U** dann **P**.
 3.  Wurde noch kein Objekt ausgewählt: Ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
 
@@ -40,7 +41,7 @@ Der <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> Der Befehl **
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um Objekte hochzustufen, verwende die `upgrade` Methode des Entwurf Moduls.
 

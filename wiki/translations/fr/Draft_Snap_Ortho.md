@@ -2,7 +2,8 @@
  GuiCommand:
    Name: Draft Snap Ortho
    Name/fr: Draft Aimantation Orthogonal
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Aimantation , Aimanter orthogonalement 
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    SeeAlso: Draft_Snap/fr, Draft_Snap_Lock/fr
 ---
 
@@ -21,11 +22,12 @@ L\'option <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:24px;"> **Dr
 
 Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Draft_Snap/fr.md).
 
-1.  Assurez-vous que l\'aimantation est activé. Voir <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;">. [Draft Verrouillage de l\'aimantation](Draft_Snap_Lock/fr.md).
+1.  Assurez-vous que l\'aimantation est activé. Voir <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;">. [Draft Verrouiller l\'aimantation](Draft_Snap_Lock/fr.md).
 2.  Si **Draft Aimantation Orthogonal** n\'est pas actif, faites l\'une des choses suivantes :
-    -   Appuyez sur le bouton **<img src="images/Draft_Snap_Ortho.svg" width=16px>** de la barre d\'outils Draft Aimantation.
-    -   Appuyez sur le bouton **<img src="images/Draft_Snap_Ortho.svg" width=16px>** du [Draft Widget aimantation](Draft_snap_widget/fr.md).
-3.  Choisissez une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
+    -   Appuyez sur le bouton **<img src="images/Draft_Snap_Ortho.svg" width=16px> [Aimanter orthogonalement](Draft_Snap_Ortho/fr.md)** de la barre d\'outils Draft Aimantation.
+    -   [Draft](Draft_Workbench/fr.md) : appuyez sur le bouton **<img src="images/Draft_Snap_Ortho.svg" width=16px>** du [Draft Widget d\'aimantation](Draft_snap_widget/fr.md).
+    -   [BIM](BIM_Workbench/fr.md) : sélectionnez l\'option **Aimantation → <img src="images/Draft_Snap_Ortho.svg" width=16px> Aimanter orthogonalement** du menu ou dans le menu contextuel de la [vue 3D](3D_view/fr.md).
+3.  Choisissez une commande de Draft et de BIM pour créer votre géométrie.
 4.  Notez que vous pouvez également modifier les options d\'aimantation lorsqu\'une commande est active.
 5.  Choisissez un premier point. Cette option d\'aimantation nécessite un point précédent.
 6.  Si vous déplacez le curseur autour du point précédent, vous remarquerez un effet \"magnétique\" lorsque le curseur se trouve sur une ligne imaginaire infinie traversant ce point à un angle de 0°, 45°, 90° ou 135°.

@@ -67,7 +67,7 @@ Das Werkzeug <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;
     -   
         **Oberfläche**
         
-        : Nur diese Möglichkeit wird verwendet.
+        : Diese Option für ein vasenartiges Objekt mit Boden aber ohne Deckel auswählen. Nur diese Möglichkeit wird verwendet.
 
     -   
         **Rohr**
@@ -77,7 +77,7 @@ Das Werkzeug <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;
     -   
         **Recto Verso**
         
-        : Nicht implementiert. Siehe [derselbe](https://forum.freecadweb.org/viewtopic.php?p=484495#p484495).
+        : Nicht implementiert. Siehe [Forumsbeitrag (engl.)](https://forum.freecadweb.org/viewtopic.php?p=484495#p484495diesen).
 
 -    **Verbindungstyp**:
 

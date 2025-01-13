@@ -1,13 +1,10 @@
 # Macro PropertyMemo/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
 |Name=Macro_PropertyMemo
 |Icon=PropertyMemo.png
 |Description={{ColoredText|#ff0000|#ffffff|Neue Version der Benutzerschnittstelle, an HD dpi (QGridLayout) angepasst, läuft nur auf FC-Version 0.19 und neuer (PySide2 Qt5)}} <br/> <br/> 
 Die Vorgängerversion befindet sich unter [https://gist.githubusercontent.com/mario52a/eafcf79703fab64b8da5/raw/51702c17fb4b205da52488bf2a239011bbbc9da5/Macro_FCPropertyMemo.FCMacro Macro_FCPropertyMemo.FCMacro] und muss manuell installiert werden.<br/><br/>
-Dieses kleine Makro erstellt eine zusätzliche Eigenschaft (Memo oder anderer Text) für dein Objekt (funktioniert nur mit Draft-Objekten).<br/>Dieses Makro starten, ein Draft-Objekt auswählen, die Eingabefelder ausfüllen und anwenden (Apply) drücken. Eine neue Eigenschaft wird unter '''Combo view → Property → Data tab''' erstellt.
+Dieses Makro erstellt eine zusätzliche Eigenschaft (Memo oder anderer Text) für dein Objekt (funktioniert nur mit Draft-Objekten).
 |Author=Mario52
 |Version=2020-05-17
 |FCVersion=0.19
@@ -15,82 +12,45 @@ Dieses kleine Makro erstellt eine zusätzliche Eigenschaft (Memo oder anderer Te
 }}
 
 
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Dieses kleine Makro erstellt eine zusätzliche Eigenschaft (Memo oder anderer Text) für dein Objekt (nur für Draft-Objekte).
+Dieses Makro erstellt eine zusätzliche Eigenschaft (Memo oder anderer Text) für dein Objekt (funktioniert nur mit Draft-Objekten).
 
-
-</div>
-
-This macro creates an additional Property (memo or other text) for your object (works only with Draft objects).
-
-![](images/Macro_FCPropertyMemo_00.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+![](images/Macro_FCPropertyMemo_00.png ) 
 *Eine Eigenschaft Memo hinzufügen → Name*
 
 
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
 Das Makro starten, ein Draft-Objekt auswählen, die Eingabefelder ausfüllen und anwenden (Validate drücken). Eine neue Eigenschaft wird unter **Combo-Ansicht → Modell → Daten** erstellt.
 
+-   **Property title** : Benennung der Eigenschaft (Gruppenname - group name) für die neue Eigenschaft (Standardwert: Memo).
 
-</div>
+-   **Property name** : Name der neuen Eigenschaft
 
-Launch the macro, select one Draft object, complete the fields and apply. A new property is created in **Combo view → Property → Data tab**.
+-    {{CheckBox|TRUE|UnCheck for String}}: Checkbox that determines the memo type. Check the checkbox to change the type to string instead of list.
 
+-   **Property title** : Titel der neuen Eigenschaft (Standard: Memo)
 
-<div class="mw-translate-fuzzy">
+-   **Property name** : Name der neuen Eigenschaft
 
--   **Property title** = Titel der neuen Eigenschaft (Standard: Memo)
+-    {{CheckBox|TRUE|UnCheck for String}}: CheckBox, die die Art des Memos bestimmt. CheckBox aktivieren, um die Art auf Zeichenkette (String) anstelle von Liste umzustellen.
 
--   **Property name** = Name der Feldeigenschaft
-
--    {{CheckBox|TRUE|UnCheck for String}}: CheckBox zur Auswahl von Zeichenkette (String) oder Liste (Voreinstellung)
-
-
-</div>
-
-![Example of a memo property](images/Macro_FCPropertyMemo_01.png )
+![Beispiel einer Eigenschaft memo](images/Macro_FCPropertyMemo_01.png )
 
 
 
 
-
-<div class="mw-translate-fuzzy">
-
--   *\'Memo\'*: Titel der Eigenschaft, hier Memo
--   *\'Name\'*: Name der Eigenschaft, hier Name
--   Das Feld kann manuell ausgefüllt werden
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   *\'Memo\'*: Titel der Eigenschaft: {{Value|Memo}}.
+-   *\'Name\'*: Name der Eigenschaft: {{Value|Name}}.
+-   Das Feld ist leer
 
 
 <center>
 
-Image:Macro_FCPropertyMemo_02.png\|Eine Liste der Eigenschaft Memo. Image:Macro_FCPropertyMemo_03.png\|Das Eingabefenster der Memo-Liste.
+Image:Macro_FCPropertyMemo_02.png\|Beispiel einer Eigenschaft Memo, das eine Liste verwendet. Image:Macro_FCPropertyMemo_03.png\|Bearbeiten der Liste.
 
 
 </center>
@@ -99,21 +59,10 @@ Image:Macro_FCPropertyMemo_02.png\|Eine Liste der Eigenschaft Memo. Image:Macro_
 
 
 
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
 
 ## Skript
 
 Das Symbol für die Symbolleiste ![](images/PropertyMemo.png )
-
-
-</div>
-
-The icon for the ToolBar ![](images/PropertyMemo.png )
 
 **Macro_FCPropertyMemo.FCMacro**
 
@@ -460,24 +409,12 @@ MainWindow.show()
 
 Die Diskussion im Forum [Object description field](http://forum.freecadweb.org/viewtopic.php?f=3&t=12282)
 
-
-<div class="mw-translate-fuzzy">
-
-Meine Makros auf gist [mario52a](https://gist.github.com/mario52a)
-
-
-</div>
+Meine Makros auf Github von [mario52a](https://gist.github.com/mario52a).
 
 ## Version
 
-
-<div class="mw-translate-fuzzy">
-
--   ver 00.03 2020/05/17 : grid layout for 0.19
--   ver 00.02 19/10/2015 : CheckBox zur Auswahl von Memo-String oder Memo-Liste
-
-
-</div>
+-   ver 00.03 2020/05/17 : Grid layout for 0.19
+-   ver 00.02 19/10/2015 : CheckBox hinzugefügt, zur Auswahl von Memo-String oder Memo-Liste
 
 
 

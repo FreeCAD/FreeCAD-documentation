@@ -1,7 +1,4 @@
 # Macro SimpleProperties/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=SimpleProperties
 |Icon=Macro_SimpleProperties.png
@@ -9,19 +6,22 @@
 |Author=OpenBrain
 |Date=2019-06-10
 |Version=0.7
-|FCVersion= 0.17+
-|Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_SimpleProperties.png ToolBar Icon]
-|SeeAlso=[Arch_Survey](Arch_Survey/it.md) <img src="images/Arch_Survey.svg" width=24px><br />[Macro_FCInfo](Macro_FCInfo/it.md) <img src="images/FCInfo.png" width=24px>
+|FCVersion=0.17+
+|Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_SimpleProperties.png Icona della barra degli strumenti]
+|SeeAlso=[Arch Survey](Arch_Survey/it.md), [Macro FCInfo](Macro_FCInfo/it.md)
 }}
 
 
-</div>
 
 ## Descrizione
 
-### Conteste
+
+
+### Contesto
 
 Questa macro è stata scritta principalmente in modo che l\'utente possa accedere a informazioni rapide e concise sulle proprietà fisiche di un oggetto. Ciò mira in particolare a preparare l\'imballaggio e la spedizione degli oggetti.
+
+
 
 ### Utilizzo
 
@@ -32,41 +32,27 @@ Seleziona un oggetto ed esegui la macro. Verrà visualizzato in una finestra di 
 -   Se l\'oggetto è stato selezionato facendo clic su un bordo, la sua lunghezza viene visualizzata in millimetri
 -   Se l\'oggetto è stato selezionato facendo clic su una faccia, la sua area viene visualizzata in quadratini
 
+
+
 ### Installazione
 
-
-<div class="mw-translate-fuzzy">
-
-Al momento, la macro non è disponibile dal gestore addon =\> PR inviata: <https://github.com/FreeCAD/FreeCAD-macros/pull/52> Quindi devi copiare il codice seguente e incollarlo nell\'editor di macro di FreeCAD.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+La macro è disponibile tramite [Addon Manager](Std_AddonMgr/it.md). Il codice viene fornito in questa pagina per comodità nel caso in cui il sistema dell\'utente non disponga di git-python. Anche se dovrebbe essere aggiornata, l\'ultima versione è sempre disponibile su [FreeCAD-macro repository](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Information/SimpleProperties.FCMacro)
 
 Per spiegazioni più dettagliate, consultare la pagina [Come installare le macro](How_to_install_macros/it.md).
-
-
-</div>
 
 ## Script
 
 
-<div class="mw-translate-fuzzy">
 
-### Limitazione
+### Limitazioni
 
 -   Un solo oggetto alla volta
 
 
-</div>
-
--   Only one object at a time
 
 ### Codice
 
-ToolBar Icon ![](images/Macro_SimpleProperties.png )
+Icona della barra degli strumenti ![](images/Macro_SimpleProperties.png )
 
 **Macro_SimpleProperties.FCMacro**
 

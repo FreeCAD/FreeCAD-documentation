@@ -18,9 +18,9 @@
 **<img src="images/Std_LinkMake.svg" width=16px> [Crea link](Std_LinkMake/it.md)
 **
 
-crea un [App Link](App_Link/it.md) (classe `App::Link`), che è un tipo di oggetto che fa riferimento o collega ad un altro oggetto, nello stesso documento o in un altro documento. È appositamente progettato per duplicare in modo efficiente un singolo oggetto più volte, il che aiuta nella creazione di [assemblaggi](assembly/it.md) complessi da sottoassiemi più piccoli e da più componenti riutilizzabili come viti, dadi e dispositivi di fissaggio simili.
+crea un [App Link](App_Link/it.md) (classe `App::Link`), che è un tipo di oggetto che fa riferimento o collega ad un altro oggetto nello stesso documento o in un altro documento. È appositamente progettato per duplicare in modo efficiente un singolo oggetto più volte, il che aiuta nella creazione di [assemblaggi](assembly/it.md) complessi da sottoassiemi più piccoli e da più componenti riutilizzabili come viti, dadi e dispositivi di fissaggio simili.
 
-L\'oggetto [App Link](App_Link/it.md) è stato introdotto di recente nella versione 0.19; in passato, si poteva ottenere una semplice duplicazione di oggetti con **[<img src=images/Draft_Clone.svg style="width:16px"> [Clona](Draft_Clone/it.md)** di Draft, ma questa è una soluzione meno efficiente a causa della sua implementazione che essenzialmente crea una copia della [Forma (Shape)](Part_TopoShape/it.md) interna dell\'oggetto sorgente. Invece, un link fa riferimento direttamente alla forma originale, quindi è più efficiente in termini di memoria.
+L\'oggetto [App Link](App_Link/it.md) è stato introdotto di recente nella versione 0.19; in passato, si poteva ottenere una semplice duplicazione di oggetti con **[<img src=images/Draft_Clone.svg style="width:16px"> [Clona](Draft_Clone/it.md)** di Draft, ma questa è una soluzione meno efficiente a causa della sua implementazione, che essenzialmente crea una copia della [Forma (Shape)](Part_TopoShape/it.md) interna dell\'oggetto sorgente. Invece, un link fa riferimento direttamente alla forma originale, quindi è più efficiente in termini di memoria.
 
 Di per sé l\'oggetto [Link](App_Link/it.md) può comportarsi come una serie (array), duplicando più volte il suo oggetto base; questo può essere fatto impostando la sua proprietà **Element Count** su {{Value|1}} o più grande. Questo oggetto \"[Link_Array](Std_LinkMake/it#Link_Array.md)\" può essere creato anche con i diversi strumenti dell\'array <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente Draft](Draft_Workbench/it.md), per esempio, **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft Serie ortogonale](Draft_OrthoArray/it.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft Serie polare](Draft_PolarArray/it.md)**, and **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft Serie circolare](Draft_CircularArray/it.md)**.
 
@@ -211,215 +211,194 @@ Di seguito sono riportate le proprietà specifiche disponibili nell\'[editor del
 
 {{TitleProperty| Link}}
 
--    {{PropertyData/it|Linked Object|XLink}}: indica l\'oggetto sorgente dell\'[App Link](App_Link/it.md); questo può essere un oggetto intero o un sottoelemento dello stesso (vertice, bordo o faccia).
+-    **ColoredElements|LinkSubHidden|LockDynamic, Hidden**: elenco di elementi Link a cui è stato sostituito il colore.
 
--    {{PropertyData/it|Link Transform|Bool}}: è impostato su `False`, in questo caso il Link sovrascriverà il posizionamento del {{PropertyData/it|Linked Object}}. Se è impostato su `True`, il Link sarà posizionato nella stessa posizione del {{PropertyData/it|Linked Object}}, e il suo posizionamento sarà relativo al posizionamento del {{PropertyData/it|Linked Object}}. Questo può essere ottenuto anche con **[<img src=images/Std_LinkMakeRelative.svg style="width:16px">. [Crea un link relativo](Std_LinkMakeRelative/it.md)**.
+-    **Element Count|IntegerConstraint|LockDynamic**: conteggio degli elementi del collegamento. Il valore predefinito è {{Value|0}}. Se è {{Value|1}} o maggiore, [App Link](App_Link/it.md) si comporterà come una serie e duplicherà lo stesso **Linked Object** più volte. Se **Show Elements** è `True`, ogni elemento nell\'array verrà visualizzato nella [Vista ad albero](Tree_view/it.md) e ciascuno potrà avere il proprio **Placement** modificato. Ogni copia del collegamento avrà un nome basato sul [Nome](Object_name/it.md) del collegamento, aumentato da `_iN`, dove `N` è un numero che inizia da `0`. Ad esempio, con un singolo `Link`, le copie verranno chiamate `Link_i0`, `Link_i1`, `Link_i2`, ecc.
 
--    {{PropertyData/it|Placement|Placement}}: il posizionamento del Link in coordinate assolute.
+-    **ElementList|LinkList|Immutable, Hidden, LockDynamic**: l\'elenco degli elementi Link.
 
--    {{PropertyData/it|Link Placement|Placement|Hidden}}: è un offset applicato in aggiunta al {{PropertyData/it|Placement}} dell\'{{PropertyData/it|Linked Object}}. Questa proprietà è normalmente nascosta, ma appare se {{PropertyData/it|Link Transform}} è impostato su `True`; in questo caso, {{PropertyData/it|Placement}} diventa ora nascosto.
+-    **LinkClaimChild|Bool|LockDynamic**: rivendica l\'oggetto collegato come figlio
 
--    {{PropertyData/it|Show Element|Bool}}: è impostato di default su `True`, nel qual caso la [vista ad albero](tree_view/it.md) mostrerà le singole copie del Link, a condizione che {{PropertyData/it|Element Count}} sia {{Value|1}} o più grande.
-
--    {{PropertyData/it|Element Count|IntegerConstraint}}: è impostato su {{Value|0}}. Se è {{Value|1}} o più grande, il [App Link](App_Link/it.md) si comporterà come un array, e duplicherà lo stesso **Linked Object** molte volte. Se **Show Elements** è `True`, ogni elemento dell\'array sarà visualizzato nella [vista ad albero](tree_view/it.md), e ognuno può avere il proprio {{PropertyData/it|Placement}} modificato. Ogni copia del Link avrà un nome basato sul Link [Nome](Object_name/it.md), incrementato da `_iN`, dove `N` è un numero che inizia con `0`. Per esempio, con un singolo `Link`, le copie saranno denominate `Link_i0`, `Link_i1`, `Link_i2`, ecc.
-
--    {{PropertyData/it|Link Execute|String}}:nome della funzione di esecuzione che verrà eseguita per questo particolare oggetto Link. Il suo valore predefinito è {{Value|'appLinkExecute'}}. Impostarlo su {{Value|'None'}} per disabilitarlo.
-
--    {{PropertyData/it|Colored Elements|LinkSubHidden|Hidden}}: elenco di link che hanno subito la sovrascrittura del loro colore.
-
--    {{PropertyData/it|Scale|Float}}: è impostato su {{Value|1.0}}. È un fattore per una scalabilità uniforme in ogni direzione `X`, `Y`, e `Z`. Per esempio, un cubo di {{Value|2 mm}} x {{Value|2 mm}} x {{Value|2 mm}}, che viene scalato da {{Value|2.0}}, risulterà in una forma con dimensioni {{Value|4 mm}} x {{Value|4 mm}} x {{Value|4 mm}}.
-
--    {{PropertyData/it|Scale Vector|Vector|Hidden}}: il fattore di scala per ogni componente `(X, Y, Z)` per tutti gli elementi Link quando {{PropertyData/it|Element Count}} è {{Value|1}} o più grande. Se **Scale** è diverso da {{Value|1.0}}, lo stesso valore sarà utilizzato nei tre componenti.
-
--    {{PropertyData/it|Scale List|VectorList}}: il fattore di scala per ogni elemento Link.
-
--    {{PropertyData/it|Visibility List|BoolList|Hidden}}: {{emphasis|(read-only)}} lo stato di visibilità di ogni elemento Link, o `True` o `False`.
-
--    {{PropertyData/it|Placement List|PlacementList|Hidden}}: {{emphasis|(read-only)}} il posizionamento per ogni elemento Link.
-
--    {{PropertyData/it|Element List|LinkList|Hidden}}: l\'elenco degli elementi Link.
-
--    {{PropertyData/it|_LinkTouched|Bool|Hidden}}:
-
--    {{PropertyData/it|_ChildCache|LinkList|Hidden}}:
-
-
-{{TitleProperty|Base}}
-
--    {{PropertyData/it|Proxy|PythonObject|Hidden}}: una classe personalizzata associata a questo oggetto. Questa esiste solo per la versione [Python](Python/it.md). Vedi [Scripting](Std_LinkMake/it#Scripting.md).
-
-L\'oggetto [App Link](App_Link/it.md) mostra inoltre le proprietà del **Linked Object** originale, quindi l\'[editor delle proprietà](property_editor/it.md) può avere gruppi di proprietà come {{TitleProperty|Attachment}} , {{TitleProperty|Box}}, {{TitleProperty|Draft}} e così via.
-
-
-
-### Vista
-
-
-{{TitleProperty| Link}}
-
--    **Draw Style|Enumeration**: è predefinito a {{Value|None}}; può essere {{value|Solid}}, {{value|Dashed}}, {{value|Dotted}}, {{value|Dashdot}}; definisce lo stile dei bordi nella [vista 3D](3D_view/it.md).
-
--    **Line Width|FloatConstraint**: un float che determina la larghezza in pixel dei bordi nella [vista 3d](3D_view/it.md). E\' predefinito a {{value|2.0}}.
-
--    **Override Material|Bool**: è predefinito a `False`; se impostato su `True` sovrascriverà il materiale dell\'**Linked Object**, e visualizzerà i colori definiti in **Shape Material**.
-
--    **Point Size|FloatConstraint**: simile a **Line Width**, definisce la dimensione dei vertici.
-
--    **Selectable|Bool**: se è `True`, l\'oggetto può essere scelto con il puntatore nella [vista 3D](3D_view/it.md). Altrimenti, l\'oggetto non può essere selezionato finché questa opzione non è impostata su `True`.
-
--    **Shape Material|Material**: questa proprietà include sottoproprietà che descrivono l\'aspetto dell\'oggetto.
+-    **LinkCopyOnChange|Enumeration|LockDynamic**:
 
     -   
-        **Diffuse Color**
+        {{value|Disabled}}
         
-        , è predefinito a  light blue .
+        : disabilita la creazione di una copia dell\'oggetto collegato, attivata da una modifica di una qualsiasi delle sue proprietà impostate come {{value|CopyOnChange}}.
 
     -   
-        **Ambient Color**
+        {{value|Enabled}}
         
-        , è predefinito a  dark gray .
+        : abilita una copia profonda dell\'oggetto collegato se una qualsiasi delle sue proprietà contrassegnate come {{value|CopyOnChange}} viene modificata. Una volta eseguita la copia profonda, non ci sarà alcun collegamento tra l\'oggetto originale e quello copiato. Pertanto, le modifiche apportate all\'oggetto originale non si rifletteranno nelle copie.
 
     -   
-        **Specular Color**
+        {{value|Owned}}
         
-        , è predefinito a  black .
+        : indica che l\'oggetto collegato è stato copiato ed è di proprietà del Link. Questo stato viene impostato automaticamente dal collegamento stesso, un utente normalmente non lo farebbe. Il collegamento tenterà di sincronizzare qualsiasi modifica dell\'oggetto collegato originale con la copia (Nota dell\'editore: quest\'ultima sembra non essere implementata nel main di FreeCAD).
 
     -   
-        **Emissive Color**
+        {{value|Tracking}}
         
-        , è predefinito a  black .
+        : uguale a {{value|Enabled}}, ma in più la copia verrà aggiornata automaticamente se l\'oggetto di origine originale cambia.
 
-    -   
-        **Shininess**
-        
-        , è predefinito a {{Value|0.2}}
+-    **LinkCopyOnChangeGroup|Link|Hidden, LockDynamic**: collegato a un oggetto di gruppo interno per conservare le copie delle modifiche
 
-    -   
-        **Transparency**
-        
-        , è predefinito a {{Value|0.0}}.
+-    **LinkCopyOnChangeSource|XLink|Hidden, LockDynamic**: la copia sull\'oggetto di origine della modifica
 
+-    **LinkCopyOnChangeTouched|Bool|Hidden, LockDynamic**: indica che la copia sull\'oggetto di origine della modifica è stata modificata
 
-{{TitleProperty|Base}}
+-    **LinkExecute|String|LockDynamic**: nome della funzione di esecuzione che verrà eseguita per questo particolare oggetto Link. Il valore predefinito è {{Value|'appLinkExecute'}}. Impostarlo su {{Value|'None'}} per disabilitarlo.
 
--    **Child View Provider|PersistentObject|Hidden**:
+-    **Link Placement|Placement|Hidden, LockDynamic**: è un offset applicato sopra il **Placement** del **Linked Object**. Questa proprietà è normalmente nascosta ma appare se **Link Transform** è impostato su `True`; in questo caso, **Placement** ora diventa nascosto.
 
--    **Material List|MaterialList|Hidden**: **(read-only)** se sono stati aggiunti materiali individuali, saranno elencati qui.
+-    **Link Transform|Bool**: il valore predefinito è `False`, nel qual caso il collegamento sovrascriverà il posizionamento di **Linked Object**. Se è impostato su `True`, il collegamento verrà posizionato nella stessa posizione di **Linked Object** e il suo posizionamento sarà relativo al posizionamento di **Linked Object** . Ciò può essere ottenuto anche con **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std LinkMakeRelative](Std_LinkMakeRelative/it.md)**.
 
--    **Override Color List|ColorList|Hidden**: **(read-only)** se le singole facce o i bordi del collegamento sono stati sovrascritti saranno elencati qui.
+-    **Linked Object|XLink**: indica l\'oggetto sorgente dell\'[App Link](App_Link/it.md); questo può essere un oggetto intero o un suo sottoelemento (vertice, bordo o faccia).
 
--    **Override Material List|BoolList|Hidden**: **(read-only)** se i singoli materiali del link sono stati sovrascritti saranno elencati qui.
+-    **Placement|Placement**: il posizionamento del Link in coordinate assolute.
 
+-    **PlacementList|PlacementList|LockDynamic**: il posizionamento per ciascun elemento Link
 
-{{TitleProperty|Opzioni di visualizzazione}}
+-    **Scale|Float**: il valore predefinito è {{Value|1.0}}. È un fattore per il ridimensionamento uniforme in ciascuna direzione `X`, `Y` e `Z`. Ad esempio, un cubo di {{Value|2 mm}} x {{Value|2 mm}} x {{Value|2 mm}}, ridimensionato di {{Value|2.0}}, risulterà in una forma con dimensioni {{Value|4 mm}} x {{Value|4 mm}} x {{Value|4 mm}}.
 
--    **Display Mode|Enumeration**: {{Value|'Link'}} or {{Value|'ChildView'}}.
+-    **Scale List|VectorList**: il fattore di scala per ciascun elemento Link.
 
--    **Show In Tree|Bool**: vedere le informazioni in [App FeaturePython](App_FeaturePython/it.md).
+-    **Scale Vector|Vector|Hidden**: il fattore di scala per ciascun componente `(X, Y, Z)` per tutti gli elementi Link quando **Element Count** è {{Value |1}} o più grande. Se **Scale** è diverso da {{Value|1.0}}, questo stesso valore verrà utilizzato nei tre componenti.
 
--    **Visibility|Bool**: vedere le informazioni in [App FeaturePython](App_FeaturePython/it.md).
+-    **Show Element|Bool**: il valore predefinito è `True`, nel qual caso la [VIsta ad albero](Tree_view/it.md) mostrerà le singole copie del collegamento, purché **Element Count} } è {{Value|1** o maggiore.
+    * **_ChildCache|LinkList|NoPersist, ReadOnly, Hidden**: da definire
+    * **_LinkOwner|Integer|Nascosto, output**: da definire
+    * **_LinkTouched|Bool|NoPersist, Hidden**: da definire
 
+    {{TitleProperty|Base}}
 
-{{TitleProperty|Selezione}}
+    * {{PropertyData/it|Proxy|PythonObject|Hidden}}: una classe personalizzata associata a questo oggetto. Questa esiste solo per la versione [Python](Python/it.md). Vedi [Scripting](Std_LinkMake/it#Scripting.md).
 
--    **On Top When Selected|Enumeration**: vedere le informazioni in [App FeaturePython](App_FeaturePython/it.md).
+    L'oggetto [App Link](App_Link/it.md) mostra inoltre le proprietà del **Linked Object** originale, quindi l'[editor  delle proprietà](property_editor/it.md) può avere gruppi di proprietà come {{TitleProperty|Attachment}} , {{TitleProperty|Box}}, {{TitleProperty|Draft}} e così via.
 
--    **Selection Style|Enumeration**: vedere le informazioni in [App FeaturePython](App_FeaturePython/it.md).
+    <span id="View"></span>
+    ===Vista===
 
-Mostra inoltre le proprietà Vista dell\'originale **Linked Object**.
+    {{TitleProperty| Link}}
 
+    * **Draw Style|Enumeration**: è predefinito a {{Value|None}}; può essere {{value|Solid}}, {{value|Dashed}}, {{value|Dotted}}, {{value|Dashdot}}; definisce lo stile dei bordi nella [vista 3D](3D_view/it.md).
+    * **Line Width|FloatConstraint**: un float che determina la larghezza in pixel dei bordi nella [vista 3d](3D_view/it.md). E' predefinito a  {{value|2.0}}.
+    * **Override Material|Bool**: è predefinito a  `False`; se impostato su `True` sovrascriverà il materiale dell'**Linked Object**, e visualizzerà i colori definiti in **Shape Material**.
+    * **Point Size|FloatConstraint**: simile a **Line Width**, definisce la dimensione dei vertici.
+    * **Selectable|Bool**: se è `True`, l'oggetto può essere scelto con il puntatore nella [vista 3D](3D_view/it.md). Altrimenti, l'oggetto non può essere selezionato finché questa opzione non è impostata su `True`.
 
+    * **Shape Material|Material**: questa proprietà include sottoproprietà che descrivono l'aspetto dell'oggetto.
+    ** **Diffuse Color**, è predefinito a {{value|(0.4, 1.0, 1.0)}}, viene visualizzato come {{value|[102, 255, 255]}} su base 255, <span style="background-color:#6ff; color:#222; width:3em; height:12pt; padding: 2px 1em 2px;"> light blue </span>.
+    ** **Ambient Color**, è predefinito a  {{value|(0.2, 0.2, 0.2)}}, viene visualizzato come {{value|[51, 51, 51]}} su base 255, <span style="background-color:#333; color:#eee; width:3em; height:12pt; padding: 2px 1em 2px;"> dark gray </span>.
+    ** **Specular Color**, è predefinito a {{value|(0.0, 0.0, 0.0)}}, viene visualizzato come {{value|[0, 0, 0]}} su base 255, <span style="background-color:#000; color:#eee; width:3em; height:12pt; padding: 2px 1em 2px;"> black </span>.
+    ** **Emissive Color**, è predefinito a {{value|(0.0, 0.0, 0.0)}}, viene visualizzato come {{value|[0, 0, 0]}} su base 255, <span style="background-color:#000; color:#eee; width:3em; height:12pt; padding: 2px 1em 2px;"> black </span>.
+    ** **Shininess**, è predefinito a {{Value|0.2}}
+    ** **Transparency**, è predefinito a {{Value|0.0}}.
 
-## Eredità
+    {{TitleProperty|Base}}
 
-Un [App Link](App_Link/it.md) è formalmente un\'istanza della classe `App::Link`, il cui genitore è il genitore di base [App DocumentObject](App_DocumentObject/it.md). (`App::DocumentObject` class). È un oggetto di livello molto basso, che può essere usato con la maggior parte degli altri oggetti documento.
+    * **Child View Provider|PersistentObject|Hidden**:
+    * **Material List|MaterialList|Hidden**: **(read-only)** se sono stati aggiunti materiali individuali, saranno elencati qui.
+    * **Override Color List|ColorList|Hidden**: **(read-only)** se le singole facce o i bordi del collegamento sono stati sovrascritti saranno elencati qui.
+    * **Override Material List|BoolList|Hidden**: **(read-only)** se i singoli materiali del link sono stati sovrascritti saranno elencati qui.
 
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+    {{TitleProperty|Opzioni di visualizzazione}}
 
+    * **Display Mode|Enumeration**: {{Value|'Link'}} or {{Value|'ChildView'}}.
+    * **Show In Tree|Bool**: vedere le informazioni in [App FeaturePython](App_FeaturePython/it.md).
+    * **Visibility|Bool**: vedere le informazioni in [App FeaturePython](App_FeaturePython/it.md).
 
+    {{TitleProperty|Selezione}}
 
+    * **On Top When Selected|Enumeration**: vedere le informazioni in [App FeaturePython](App_FeaturePython/it.md).
+    * **Selection Style|Enumeration**: vedere le informazioni in [App FeaturePython](App_FeaturePython/it.md).
+
+    Mostra inoltre le proprietà Vista dell'originale **Linked Object**.
+
+    <span id="Inheritance"></span>
+    ==Eredità==
+
+    Un [App Link](App_Link/it.md) è formalmente un'istanza della classe `App::Link`, il cui genitore è il genitore di base [App DocumentObject](App_DocumentObject/it.md). (`App::DocumentObject` class). È un oggetto di livello molto basso, che può essere usato con la maggior parte degli altri oggetti documento.
+
+    [<img src=images/FreeCAD_core_objects.svg style="width:800px">
+
+    
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. L'oggetto `App::Link* è un componente principale del sistema, non dipende da alcun ambiente, ma può essere utilizzato con la maggior parte degli oggetti creati in tutti gli ambienti.`
 
+    <span id="Scripting"></span>
+    ==Script==
 
+    **See also:** [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), e [script di oggetti](scripted_objects/it.md).
 
-## Script
+    Vedere [Funzione Part](Part_Feature/it.md) per le informazioni generali.
 
-
-**See also:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), e [script di oggetti](scripted_objects/it.md).
-
-Vedere [Funzione Part](Part_Feature/it.md) per le informazioni generali.
-
-Un App Link viene creato con il metodo `addObject()` del documento. Questo può definire il suo **Linked Object** sovrascrivendo il suo attributo `LinkedObject`, o usando il suo metodo `setLink`. 
+    Un App Link viene creato con il metodo `addObject()` del documento. Questo può definire il suo **Linked Object** sovrascrivendo il suo attributo `LinkedObject`, o usando il suo metodo `setLink`.
+    
 ```python
-import FreeCAD as App
+    import FreeCAD as App
 
-doc = App.newDocument()
-bod1 = App.ActiveDocument.addObject("Part::Box", "Box")
-bod2 = App.ActiveDocument.addObject("Part::Cylinder", "Cylinder")
-bod1.Placement.Base = App.Vector(10, 0, 0)
-bod2.Placement.Base = App.Vector(0, 10, 0)
+    doc = App.newDocument()
+    bod1 = App.ActiveDocument.addObject("Part::Box", "Box")
+    bod2 = App.ActiveDocument.addObject("Part::Cylinder", "Cylinder")
+    bod1.Placement.Base = App.Vector(10, 0, 0)
+    bod2.Placement.Base = App.Vector(0, 10, 0)
 
-obj1 = App.ActiveDocument.addObject("App::Link", "Link")
-obj2 = App.ActiveDocument.addObject("App::Link", "Link")
+    obj1 = App.ActiveDocument.addObject("App::Link", "Link")
+    obj2 = App.ActiveDocument.addObject("App::Link", "Link")
 
-obj1.LinkedObject = bod1
-obj2.setLink(bod2)
-obj1.Placement.Base = App.Vector(-10, -10, 0)
-obj2.Placement.Base = App.Vector(10, -10, 0)
-obj1.ViewObject.OverrideMaterial = True
-App.ActiveDocument.recompute()
+    obj1.LinkedObject = bod1
+    obj2.setLink(bod2)
+    obj1.Placement.Base = App.Vector(-10, -10, 0)
+    obj2.Placement.Base = App.Vector(10, -10, 0)
+    obj1.ViewObject.OverrideMaterial = True
+    App.ActiveDocument.recompute()
+    
 ```
 
-Questo `App::Link` non ha un oggetto Proxy, quindi non può essere pienamente utilizzato per la sotto-classe.
+    Questo `App::Link` non ha un oggetto Proxy, quindi non può essere pienamente utilizzato per la sotto-classe.
 
-Pertanto, per la sottoclasse [Python](Python/it.md), è necessario creare l\'oggetto `App::LinkPython`.
+    Pertanto, per la sottoclasse [Python](Python/it.md), è necessario creare l'oggetto `App::LinkPython`. 
 
-
+    
 ```python
-import FreeCAD as App
+    import FreeCAD as App
 
-doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::LinkPython", "Link")
-obj.Label = "Custom label"
+    doc = App.newDocument()
+    obj = App.ActiveDocument.addObject("App::LinkPython", "Link")
+    obj.Label = "Custom label"
+    
 ```
 
+    <span id="Further_reading"></span>
+    == Ulteriori letture ==
+
+    Se si vuole saltare i dettagli storici, andare all'[https://github.com/realthunder/FreeCAD_assembly3/wiki/Link introduzione orientata all'utente ai collegamenti].
+
+    L'oggetto [App Link](App_Link/it.md) è stato introdotto dopo 2 anni di sviluppo e prototipazione. Questo componente è stato pensato e sviluppato quasi da solo dall'utente **realthunder**. Le motivazioni e le implementazioni progettuali alla base di questo progetto sono descritte nella sua pagina GitHub, [https://github.com/realthunder/FreeCAD_assembly3/wiki/Link Link]. Per realizzare questa funzione, sono state apportate diverse modifiche fondamentali a FreeCAD; anche queste sono state ampiamente documentati in [https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes Core-Changes].
+
+    Il progetto App Link è iniziato dopo la riprogettazione del [Ambiente PartDesign](PartDesign_Workbench/it.md) è stato completato nella v0.17. La storia di App Link può essere rintracciata in alcuni thread essenziali del forum:
+    * [https://forum.freecadweb.org/viewtopic.php?f=19&t=21505 Why an object can only be inside one App::Part?] (Marzo 2017)
+    * [https://forum.freecadweb.org/viewtopic.php?f=10&t=21586 Introducing App::Link/XLink] (Marzo 2017)
+    * [https://forum.freecadweb.org/viewtopic.php?f=20&t=22216 Links] (Maggio 2017)
+    * [https://forum.freecadweb.org/viewtopic.php?f=20&t=23015 Realthunder Link implementation: Architecture discussion] (Giugno 2017)
+    * [https://forum.freecadweb.org/viewtopic.php?f=17&t=23419 PR #876: Link, stage one, context aware selection] (Luglio 2017)
+    * [https://forum.freecadweb.org/viewtopic.php?f=17&t=23626 Preview: Link, stage two, API groundwork] (Luglio 2017)
+    * [https://forum.freecadweb.org/viewtopic.php?f=20&t=25712 Assembly3 preview] (Deicembre 2017)
+    * [https://forum.freecadweb.org/viewtopic.php?f=10&t=29542 Merging of my Link branch] (Giugno 2018)
+
+    Infine, la richiesta di pull e il merge sono avvenuti:
+    * [https://forum.freecadweb.org/viewtopic.php?f=27&t=38621 App::Link: the big merge], vecchio thread (Luglio 2019), [https://github.com/FreeCAD/FreeCAD/pull/2350 pull request #2350] (la GRANDE fusione), [https://github.com/realthunder/FreeCAD/tree/LinkMerge LinkMerge branch].
+    * [https://forum.freecadweb.org/viewtopic.php?f=8&t=37757 App::Link: the big merge], thread principale (Luglio 2019)
+    * [https://forum.freecadweb.org/viewtopic.php?p=329054#p329054 A simple path description of Link, 019, Link stage, Asm3, merge?] (Agosto 2019)
+    * [https://forum.freecadweb.org/viewtopic.php?f=17&t=39672 PR#2559: expose link and navigation actions], un'introduzione alla funzione Link in 0.19 (Settembre 2019).
+
+    Altri "link" vari su Link includono:
+    * [[Dynamic linked object]] - Un pattern con Link e assembly che mira a ridurre la duplicazione della logica correlata all'assembly come l'orientamento, il posizionamento o il numero di istanze.
 
 
-## Ulteriori letture 
+    
 
-L\'oggetto [App Link](App_Link/it.md) è stato introdotto dopo 2 anni di sviluppo e prototipazione. Questo componente è stato pensato e sviluppato quasi da solo dall\'utente **realthunder**. Le motivazioni e le implementazioni progettuali alla base di questo progetto sono descritte nella sua pagina GitHub, [Link](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link). Per realizzare questa funzione, sono state apportate diverse modifiche fondamentali a FreeCAD; anche queste sono state ampiamente documentati in [Core-Changes](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes).
-
-Il progetto App Link è iniziato dopo la riprogettazione del [Ambiente PartDesign](PartDesign_Workbench/it.md) è stato completato nella v0.17. La storia di App Link può essere rintracciata in alcuni thread essenziali del forum:
-
--   [Why an object can only be inside one App::Part?](https://forum.freecadweb.org/viewtopic.php?f=19&t=21505) (Marzo 2017)
--   [Introducing App::Link/XLink](https://forum.freecadweb.org/viewtopic.php?f=10&t=21586) (Marzo 2017)
--   [Links](https://forum.freecadweb.org/viewtopic.php?f=20&t=22216) (Maggio 2017)
--   [Realthunder Link implementation: Architecture discussion](https://forum.freecadweb.org/viewtopic.php?f=20&t=23015) (Giugno 2017)
--   [PR #876: Link, stage one, context aware selection](https://forum.freecadweb.org/viewtopic.php?f=17&t=23419) (Luglio 2017)
--   [Preview: Link, stage two, API groundwork](https://forum.freecadweb.org/viewtopic.php?f=17&t=23626) (Luglio 2017)
--   [Assembly3 preview](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712) (Deicembre 2017)
--   [Merging of my Link branch](https://forum.freecadweb.org/viewtopic.php?f=10&t=29542) (Giugno 2018)
-
-Infine, la richiesta di pull e il merge sono avvenuti:
-
--   [App::Link: the big merge](https://forum.freecadweb.org/viewtopic.php?f=27&t=38621), vecchio thread (Luglio 2019), [pull request #2350](https://github.com/FreeCAD/FreeCAD/pull/2350) (la GRANDE fusione), [LinkMerge branch](https://github.com/realthunder/FreeCAD/tree/LinkMerge).
--   [App::Link: the big merge](https://forum.freecadweb.org/viewtopic.php?f=8&t=37757), thread principale (Luglio 2019)
--   [A simple path description of Link, 019, Link stage, Asm3, merge?](https://forum.freecadweb.org/viewtopic.php?p=329054#p329054) (Agosto 2019)
--   [PR#2559: expose link and navigation actions](https://forum.freecadweb.org/viewtopic.php?f=17&t=39672), un\'introduzione alla funzione Link in 0.19 (Settembre 2019).
-
-Altri \"link\" vari su Link includono:
-
--   [Dynamic linked object](Dynamic_linked_object.md) - Un pattern con Link e assembly che mira a ridurre la duplicazione della logica correlata all\'assembly come l\'orientamento, il posizionamento o il numero di istanze.
-
-
-
-
-
-{{Std Base navi
-
-}}
+    {{Std Base navi}}
 
 
 

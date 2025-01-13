@@ -11,12 +11,15 @@
 # Draft PolarArray/ru
 
 
+</div>
+
+
 
 ## Описание
 
 The <img alt="" src=images/Draft_PolarArray.svg  style="width:24px;"> **Draft PolarArray** command creates an array from a selected object by placing copies along a circumference. The command can optionally create a [Link](App_Link.md) array, which is more efficient than a regular array.
 
-The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
+The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [BIM Workbench](BIM_Workbench.md).
 
 <img alt="" src=images/Draft_PolarArray_example.png  style="width:400px;"> 
 *Draft Массив вращения*
@@ -30,7 +33,8 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 1.  Optionally select one object.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_PolarArray.svg" width=16px> [Polar array](Draft_PolarArray.md)** button.
-    -   Select the **Modification → Array tools → <img src="images/Draft_PolarArray.svg" width=16px> Polar array** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Modification → Array tools → <img src="images/Draft_PolarArray.svg" width=16px> Polar array** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Modify → <img src="images/Draft_PolarArray.svg" width=16px> Polar array** option from the menu.
 3.  The **Polar array** task panel opens. See [Options](#Options.md) for more information.
 4.  If you have not yet selected an object: select one object.
 5.  Enter the required parameters in the task panel.

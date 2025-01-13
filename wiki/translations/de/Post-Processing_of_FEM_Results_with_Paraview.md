@@ -24,10 +24,11 @@ Einige Forenbeiträge und Tutorien verwenden Paraview (PV) zur Überprüfung und
 
 ## Voraussetzungen
 
--   FreeCAD verwendet eine Version, die mit der vorgesehenen Version dieses Tutoriums kompatibel ist.
--   [Paraview](https://www.paraview.org) direkt heruntergeladen von seiner [Webseite](https://www.paraview.org/download/) oder du bevorzugst den Paketverwalter.
-    -   Dieses Tutorium basiert auf der Version Paraview 5.8.0 für Windows, die zum Zeitpunkt der Erstellung des Tutoriums die aktuellste Version war.
-    -   Die für dieses Tutorial verwendeten FreeCAD Dateien sind in [this](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734) und [diesem](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&p=368315#p368315) FC Forumsbeitrag verfügbar.
+-   FreeCAD verwendet eine Version, die mit der vorgesehenen Version dieses Tutorial kompatibel ist.
+-   Paraview kann direkt von [paraview.org](https://www.paraview.org/download/)geladen oder über den Paketverwalter installiert werden.
+-   Dieses Tutorial basiert auf der zum Zeitpunkt der Erstellung aktuellsten Version ParaView 5.8.0 für Windows.
+-   Die für dieses Tutorial verwendeten FreeCAD Dateien sind in [diesem](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734) und [diesem](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&p=368315#p368315) FC Forumsbeitrag verfügbar.
+-   Das original in Englisch verfasste Tutorial wurde im September 2024 in das Deutsche übersetzt. Es wurde das zu dem Zeitraum aktuelle ParaView, Version 5.13.0, getestet und bekannt gewordene Veränderungen eingearbeitet.
 
 
 
@@ -39,213 +40,223 @@ Im Arbeitsbereich FEM wird das Objekt CCX_Results hervorgehoben. Danach wird die
 
 ## Datenimport in Paraview 
 
-The start-up screen shows an empty Pipeline Browser. This is where the imported VTK data objects and applied filter objects (for geometry or data) will be visible.
+Der Startbildschirm zeigt einen leeren Pipeline-Browser. Hier werden die importierten VTK-Datenobjekte und die angewendeten Filterobjekte (für Geometrie oder Daten) aufgelistet.
 
 <img alt="" src=images/PVPic1.png  style="width:500px;">
 
-Use menu option **File > Open > *.vtk** to open the VTK file that was generated with FEM Workbench.
+Verwende den Menüpunkt **File > Open > *.vtk**, um die VTK-Datei zu öffnen, die mit dem FEM Arbeitsbereich erzeugt wurde.
 
 <img alt="" src=images/PVPic2.png  style="width:500px;">
 
-Press **Apply** on the properties tab. By default, this will show a top view (looking down along z-axis) of the geometry.
+Auf das Augensymbol neben dem Objekt im Piplinebrowser klicken um die Sichtbarkeit des Objekts an- bzw. auszuschalten.
+
+Drücke **Apply** auf der Registerkarte Eigenschaften. Standardmäßig wird eine Draufsicht (Blick nach unten entlang der z-Achse) der Geometrie angezeigt.
 
 <img alt="" src=images/PVPic3.png  style="width:400px;"> \... <img alt="" src=images/PVPic0.png  style="width:550px;">
 
-The gray geometry can be inspected by rotating the view. The left mouse button makes the geometry swivel, but unfortunately in a difficult-to-control way (compared to FreeCAD). To get a predictable rotation hold the **X**, **Y** or **Z** key while dragging the mouse with left mouse button pressed to rotate the model around the X, Y or Z axis, respectively
+Interaktion mit der 3D-Ansicht: Mit der linken Maustaste klicken und ziehen um zu drehen, mit der mittleren Maustaste, um zu verschieben, und mit dem Scrollrad oder der rechten Maustaste zum Zoomen. Bei Mäusen mit einer oder zwei Tasten halte man beim Klicken und Ziehen die Umschalt- oder Steuerungstasten gedrückt, um zu kippen, zu verschieben und zu zoomen. Hält man beim Drehen die **X**, **Y** oder **Z** Taste gedrückt dreht man um die jeweilige Achse.
+
+Mit der Version 5.13 kann es zur Beeintächtigung der Mausnavigation kommen, wenn z.B. das Werkzeug \"Hover Points On\" aktiv ist, dieses evtl. ausschalten
 
 <img alt="" src=images/PVPic5.png  style="width:500px;"> 
 
 ## Speicher/Ladezustand
 
-Rather than saving data, Paraview stores the status (state) of the actions performed on the imported VTK object. Therefore, to save your work use menu option **File > Save State**. **NOTE**: there will be no warning when leaving Paraview to save the state and all work may be lost when exiting the program.
+Paraview speichert nicht die Daten, sondern den Status (Zustand) der Aktionen, die an dem importierten VTK-Objekt durchgeführt wurden. Um die Arbeit zu speichern, verwendet man daher den Menüpunkt **File > Save State**.
 
-To continue where you left off in the previous session use **File > Load State**. This prompts the user to specify a VTK file, which means that the actions performed in the last session can also be applied to a new VTK file. In this way, data from different FEM Workbench analyses can be displayed in exactly the same way, without any additional effort.
+**HINWEIS**: es gibt keine Warnung, wenn man Paraview beendet, um den Status zu speichern, und alle Arbeit kann beim Verlassen des Programms verloren gehen.
+
+Um dort fortzufahren, wo in der vorherigen Sitzung aufgehört wurde, verwendet man **File > Load State**. Dies fordert den Benutzer auf, eine VTK-Datei anzugeben, was bedeutet, dass die in der letzten Sitzung durchgeführten Aktionen auch auf eine neue VTK-Datei angewendet werden können. Auf diese Weise können Daten aus verschiedenen FEM-Workbench-Analysen ohne zusätzlichen Aufwand auf die gleiche Weise dargestellt werden.
+
+Über **Help > Paraview Guide** gelangt man hier hin, <https://docs.paraview.org/en/v5.13.0/UsersGuide/savingResults.html>, und kann sich über die vielfältigen Möglichkeiten informieren.
 
 
 
 ## Ergebnisse des Arbeitsbereichs FEM visualisieren 
 
-Paraview has many options and settings for displaying results. We will first have a look at displaying base import data on the original geometry and thereafter see how to apply filters to modify the geometry. Finally, we will use the calculator and integration filters to derive new results by combining base import data.
+Paraview verfügt über zahlreiche Optionen und Einstellungen für die Anzeige von Ergebnissen. Wir werden uns zunächst die Anzeige von Basisimportdaten auf der ursprünglichen Geometrie ansehen und danach sehen, wie man Filter anwendet, um die Geometrie zu verändern. Schließlich werden wir den Rechner und die Integrationsfilter verwenden, um neue Ergebnisse durch die Kombination von Basisimportdaten zu erhalten.
 
 
 
 ## Auf Originalgeometrie angezeigte Basisdaten 
 
-As the pipeline browser can contain several VTK objects and filter objects, first confirm that the right VTK object is highlighted in the pipeline browser. The selections and settings for displaying this VTK object can now be found on the Properties Tab. To make sure all settings are visible and aligned with this tutorial press the Advanced Settings button (the gear wheel icon on the below picture).
+Da der Pipeline-Browser mehrere VTK-Objekte und Filterobjekte enthalten kann, vergewissere man sich zunächst, dass das richtige VTK-Objekt im Pipeline-Browser hervorgehoben ist. Die Auswahl und die Einstellungen für die Anzeige dieses VTK-Objekts findet man nun auf der Registerkarte Properties. Mit dem Zahnradsymbol kann man alle Einstellungen sichtbar machen.
 
 <img alt="" src=images/PVPic6.png  style="width:400px;">
 
-The first setting that we can change is the way data is presented on the geometry. This is done on the Representation drop down menu. For now we will only use the Surface or Wireframe option.
+Die erste Einstellung, die wir ändern können, ist die Art und Weise, wie die Daten in der Geometrie dargestellt werden. Dies geschieht über das Dropdown-Menü \"Representation\". Im Moment werden wir nur die Option Surface oder Wirefram verwenden.
 
 <img alt="" src=images/PVPic7.png  style="width:400px;">
 
-So far no results are displayed. For this we need to change the Coloring option. The default is Solid Color, but the drop down menu shows all the scalar data that is available in the imported VTK file.
+Bislang werden keine Ergebnisse angezeigt. Hierfür müssen wir die Option Coloring ändern. Die Standardeinstellung ist \"Solid Color\", aber das Dropdown-Menü zeigt alle Skalardaten an, die in der importierten VTK-Datei verfügbar sind.
 
 <img alt="" src=images/PVPic8.png  style="width:400px;">
 
 <img alt="" src=images/PVPic9.png  style="width:400px;">
 
-For the purpose of this tutorial we choose ReinforcementRatio_x, but it is easy to change to any data type.
+Für die Zwecke dieses Tutorials wählen wir \"ReinforcementRatio_x\", aber es ist einfach, jeden Datentyp zu verwenden.
 
-The RenderView window will now show an iso-plot of the selected data type and a Color Legend of the data range.
+Das RenderView-Fenster zeigt nun einen Iso-Plot des ausgewählten Datentyps und eine Farblegende des Datenbereichs.
 
 <img alt="" src=images/PVPic10.png  style="width:700px;">
 
-The Color Legend can be dragged around the screen to a more convenient location and will change orientation when nearing any of the windows edges.
+Die Farblegende kann auf dem Bildschirm an eine günstigere Position gezogen werden und ändert ihre Ausrichtung, wenn sie sich einem der Fensterränder nähert. Man kann auch die Enden greifen und sie skalieren.
 
 <img alt="" src=images/PVPic11.png  style="width:700px;">
 
-Alternatively, the settings of the color legend can be controlled in great detail by opening the Edit Color Legend Properties dialogue from the Properties Tab (press last Icon to the right)
+Über die acht abgebildete Buttons gelangt man zu sehr detailierten Einstellmöglichkeiten.
 
 <img alt="" src=images/PVPic12.png  style="width:400px;">
 
-This opens the following window for the color legend settings
+Es öffnet sich z.B. das folgende Fenster für die Einstellungen der Farblegende.
 
 <img alt="" src=images/PVPic13.png  style="width:400px;">
 
-The coloring of the iso map can be controlled through the Color Map Editor, which is activated by pressing the Edit button on the Properties Tab:
+Die Farbgebung der Isokarte kann über den Farbkarten-Editor gesteuert werden, der durch Drücken der Edit-Schaltfläche auf der Registerkarte Eigenschaften aktiviert wird:
 
 <img alt="" src=images/PVPic12.png  style="width:300px;"> . <img alt="" src=images/PVPic15.png  style="width:300px;">
 
-The setting for Color Discretization is useful to limit the number of iso values, thus creating more practical ranges for design. The default number of ranges is 256, but here the number is set at 10.
+Die Einstellung für die Farbdiskretisierung ist nützlich, um die Anzahl der Iso-Werte zu begrenzen und so praktischere Bereiche für die Gestaltung zu schaffen. Die Standardanzahl der Bereiche ist 256, aber hier ist die Anzahl auf 10 festgelegt.
 
 <img alt="" src=images/PVPic16.png  style="width:700px;"> 
 
 ## Filter auf Ergebnisse des Arbeitsbereichs FEM anwenden 
 
-To modify the base data or geometry imported from FEM Workbench, filters can be applied.
+Um die Basisdaten oder die aus dem Arbeitsbereich FEM importierte Geometrie zu verändern, können Filter angewendet werden.
 
-Here only the Slice and Warp filters will be discussed. Filters for creating compound results from base data will be discussed in the next section.
+Hier werden nur die Filter \"Slice\" und \"Warp\" behandelt. Filter zur Erstellung zusammengesetzter Ergebnisse aus Basisdaten werden im nächsten Abschnitt behandelt.
 
-To apply the Slice filter, highlight the VTK object that needs to be sliced and press the Slice Icon. Alternatively, find the Slice filter in the menu Filters \> Alphabetical. This adds the Slice filter object to the Pipeline Browser and the location in the tree shows that it is applied to the VTK object. The position in the tree matters, because filters can be applied to different VTK objects or even to other filter objects. The filter object cannot be dragged around in the tree to change the object it is applies to. The target object can only be changed through the menu (or by right-clicking) option Edit \> Change Input.
+Um den Slice-Filter anzuwenden muss das VTK-Objekt ausgewält sein, das zerlegt werden soll, dann das Slice-Symbol klicken. Alternativ ist der Slice-Filter auch im Menü Filters \> Alphabetical zu finden. Dadurch wird das Slice-Filterobjekt dem Pipeline-Browser hinzugefügt und die Position im Baum zeigt, dass es auf das VTK-Objekt angewendet wird. Durch Klick auf das Augensymbol wird es dann auch sichtbar. Die Position in der Baumstruktur ist wichtig, weil Filter auf verschiedene VTK-Objekte angewendet werden können. Das Filterobjekt kann nicht in der Baumstruktur verschoben werden.
 
 <img alt="" src=images/PVPic17.png  style="width:700px;">
 
-The location and orientation of the slice can be modified by dragging the slice and its normal vector with the mouse or through the Properties tab. In the below figure the origin of the slice has been placed at the center of the beam (over the central support) and the normal to the plane points in the x-direction.
+Die Lage und Ausrichtung der Schicht kann durch Ziehen der Schicht und ihres Normalenvektors mit der Maus oder über die Registerkarte Eigenschaften geändert werden. In der folgenden Abbildung wurde der Ursprung der Scheibe in der Mitte des Balkens (über der zentralen Stütze) platziert und die Normale zur Ebene zeigt in die x-Richtung.
 
 <img alt="" src=images/PVPic18.png  style="width:400px;">
 
-To get rid of the bounding boxes deselect the Show Plane box at the top of the Plane Parameters dialogue.
+Um die Begrenzungsrahmen loszuwerden ist das Kontrollkästchen \"Show Plane\" oben im Dialogfeld \"Plane Parameter\" zu deaktivieren.
 
 <img alt="" src=images/PVPic19.png  style="width:700px;">
 
-The Warp by Vector filter can be used to display the deformed geometry. Highlight the VTK object and press the Warp by Vector Icon. This adds the filter to the Pipeline Browser. Alternatively look for the filter in the menu Filters \> Alphabetical. Next select Displacement in the Vectors drop-down menu of the Properties tab and set an appropriate scale factor. Don't forget to press the Apply button after changing the settings.
+Der Filter \"Warp by Vector\" (Verformen nach Vektor) kann verwendet werden, um die deformierte Geometrie anzuzeigen. Das VTK-Objekt markieren und auf das Symbol \"Warp by Vektor\" klicken. Dadurch wird der Filter zum Pipeline-Browser hinzugefügt. Alternativ ist der Filter auch im Menü Filter \> Alphabetisch zu wählen. Im Dropdown-Menü Vektoren der Registerkarte \"Properties\" die Option \"Displacement\" wählen und einen geeigneten Skalierungsfaktor einstellen. Dann die Schaltfläche **Apply** klicken.
 
 <img alt="" src=images/PVPic20.png  style="width:400px;"> . <img alt="" src=images/PVPic21.png  style="width:700px;">
 
-The maximum displacement value is 0.98 mm.
+Der Höchstwert der Verschiebung beträgt 0,98 mm.
 
-To show the deformed geometry superimposed on the undeformed geometry, simply make both the VTK object and Warp filter object visible by clicking the eye icon next to it. In the following picture the Representation setting for the VTK object was changed to Wireframe and the Opacity reduced to 0.5 to prevent it from obscuring the Deformed geometry.
+Um die verformte Geometrie über die unverformte Geometrie zu legen, sind sowohl das VTK-Objekt als auch das Verformungsfilterobjekt sichtbar zu machen \-- mit dem Augensymbol. Im folgenden Bild wurde die Darstellung für das VTK-Objekt auf Drahtgitter geändert und die Deckkraft auf 0,5 reduziert, um zu verhindern, dass es die verformte Geometrie verdeckt.
 
 <img alt="" src=images/PVPic22.png  style="width:700px;">
 
-**NOTE**: As more objects are added to the Pipeline Browser and more display windows are open, it becomes increasingly important to ensure that the right object is selected in the Pipeline Browser and the right Window has focus when making changes to the Properties Tab. Otherwise much time can be spent on finding the right property or changes to properties may not seem to take effect.
+**HINWEIS**: Je mehr Objekte dem Pipeline-Browser hinzugefügt werden und je mehr Anzeigefenster geöffnet sind, desto wichtiger wird es, sicherzustellen, dass das richtige Objekt im Pipeline-Browser ausgewählt ist und das richtige Fenster den Fokus hat, wenn Änderungen vorgenommen werden. Andernfalls kann viel Zeit damit verbracht werden, die daraus resultierenden Fehler zu beheben.
 
 
 
 ## Anwenden von Filtern zur Ableitung von Verbund Ergebnissen aus Basis Importdaten 
 
-If we want to know the amount of reinforcement steel in the beam as a whole or the amount passing though a particular cross section we need to perform integration (summation over the geometry) of the base data.
+Wenn wir die Menge an Bewehrungsstahl im Balken als Ganzes oder die Menge, die durch einen bestimmten Querschnitt geht, wissen wollen, müssen wir eine Integration (Summierung über die Geometrie) der Basisdaten durchführen.
 
-For example, the total volume of reinforcement bars in the beam running in x-direction is obtained from the integral `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)` over the full geometry and the total area of reinforcement steel running though a particular beam cross section is obtained from `INTEGRATE(ReinforcementRatio_x * dy * dz)` over a slice.
+So ergibt sich beispielsweise das Gesamtvolumen über die gesamte Geometrie der in x-Richtung verlaufenden Bewehrungsstäbe im Träger aus dem Integral `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)`. Die Gesamtfläche des durch eine bestimmte Geometrie verlaufenden Bewehrungsstahls ergibt sich aus `INTEGRATE(ReinforcementRatio_x * dy * dz)` über einen Schnitt (Slice).
 
-In Paraview, integration can be done with an Integration Filter. This filter can be applied to the entire VTK object (the beam) or to a Slice (the cross section).
+In Paraview kann die Integration mit einem Integrationsfilter durchgeführt werden. Dieser Filter kann auf das gesamte VTK-Objekt (den Balken) oder auf einen Schnitt angewendet werden.
 
-NOTE: due to a mismatch of node ordering between FCFEM and PV, integration over a volume renders negative results, i.e. `INTEGRATE( 1.0 * dx * dy *dz)` = - Volume instead of + Volume.
+HINWEIS: Aufgrund einer Nichtübereinstimmung der Knotenreihenfolge zwischen FCFEM und PV führt die Integration über ein Volumen zu negativen Ergebnissen, d. h. `INTEGRATE( 1.0 * dx * dy *dz)` = - Volumen anstelle von + Volumen. Mit FC 0.22 (38261) und PV 5.13 konnte dies aber nicht mehr beobachtet werden.
 
-To calculate integrals we need to apply an Integration Filter, which can be found in the menu item Filters \> Alphabetical. Highlight the VTK object and apply the filter.
+Um Integrale zu berechnen, müssen wir einen Integrationsfilter anwenden, der unter dem Menüpunkt Filters \> Alphabetical zu finden ist. Markiere das VTK-Objekt und wende den Filter \"Integrate Variables\" an.
 
 <img alt="" src=images/PVPic23.png  style="width:700px;">
 
-Press the **Apply** button in the Properties tab and the results will open in a separate window to the right of the Renderview.
+Drücke die Schaltfläche **Apply** auf der Registerkarte Eigenschaften und die Ergebnisse werden in einem separaten Fenster rechts neben der Renderansicht geöffnet.
 
 <img alt="" src=images/PVPic24.png  style="width:700px;">
 
-Before we tidy this up to find the desired result, i.e. `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)`, lets first see how we can control where the window is placed and what it contains.
+Bevor wir aufräumen, um das gewünschte Ergebnis zu erhalten, d.h. `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)`, sehen wir uns zunächst an, wie die Anordnung von Fenstern erfolt.
 
-First close the SpreadSheetView window that has opened to the right. Then press the horizontal split icon on the Renderview window and a new window will open with a menu of display options. Before selecting an option, make sure the Integration filter object is highlighted in the Pipeline Browser.
+Schließe zunächst das SpreadSheetView-Fenster, das sich auf der rechten Seite geöffnet hat. Drücke dann auf das horizontale Trennsymbol im Renderview-Fenster, woraufhin sich ein neues Fenster mit einem Menü von Anzeigeoptionen öffnet. Nun das Richtige auswählen - das Objekt Integrationsfilter im Pipeline-Browser muss markiert sein.
 
 <img alt="" src=images/PVPic25.png  style="width:700px;">
 
-To display numerical results we need to select SpreadSheet View at the bottom of the Create View list. This generates a spreadsheet of all available results in the VTK object integrated over the volume.
+Um numerische Ergebnisse anzuzeigen, müssen wir \"SpreadSheet View\" auswählen. Dies erzeugt eine Tabelle mit allen verfügbaren Ergebnissen im VTK-Objekt, das über das Volumen integriert ist.
 
 <img alt="" src=images/PVPic26.png  style="width:400px;">
 
-To inspect `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)` we could scroll to the right through the table, but we can also remove all unwanted results by deselecting them, i.e. deselect All Columns and select **ReinforcementRatio_x**.
+Um `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)` zu prüfen, könnten wir nach rechts durch die Tabelle blättern, aber wir können auch alle unerwünschten Ergebnisse entfernen, indem wir sie abwählen, d. h. alle Spalten abwählen und **ReinforcementRatio_x** auswählen.
 
 <img alt="" src=images/PVPic27.png  style="width:300px;"> . <img alt="" src=images/PVPic28.png  style="width:500px;">
 
-Now we are left with just one value in the table of integration results
+Jetzt bleibt nur noch ein Wert in der Tabelle der Integrationsergebnisse übrig.
 
 <img alt="" src=images/PVPic29.png  style="width:300px;">
 
-As explained before this is the negative value of the integral we are looking for. So the indicative total volume of steel required in x direction is 2.27e+06 mm3 (= 2272 cm3) or 2272 cm3 \* 7.6 g/cm3 = 17267 g (= 17.3 kg). In practice the number will be higher due to practical considerations (e.g. anchoring requirements, minimum reinforcement requirements, etc.). Nevertheless, this result can be used to compare conceptual designs
+Das indikative Gesamtvolumen des in x-Richtung erforderlichen Stahls beträgt also 2,27e+06 mm3 (= 2270 cm3) oder 2270 cm3 \* 7,6 g/cm3 = 17262 g (= 17,3 kg). In der Praxis wird die Zahl aufgrund praktischer Überlegungen (z. B. Verankerungsanforderungen, Mindestbewehrungsanforderungen usw.) höher sein. Dennoch kann dieses Ergebnis zum Vergleich von Entwürfen herangezogen werden.
 
-The above was an example of the integration of a variable directly exported by FEM Workbench. In some cases we may want to combine VTK variables to obtain new results. This can be done in several ways, but here I will only discuss the simplest, i.e. with the Calculator Filter.
+Dies war ein Beispiel für die Integration einer Variable, die direkt vom FEM Arbeitsbereich exportiert wurde. In einigen Fällen möchten wir vielleicht VTK-Variablen kombinieren, um neue Ergebnisse zu erhalten. Dies kann auf verschiedene Arten geschehen, aber hier werde ich nur die einfachste besprechen, d.h. mit dem Calculator Filter.
 
-For example, if we want to know the total reinforcement requirement in all three coordinate directions we would have to sum ReinforcementRatio_x, ReinforcementRatio_y and ReinforcementRatio_z.
+Wenn wir zum Beispiel den gesamten Bewehrungsbedarf in allen drei Koordinatenrichtungen wissen wollen, müssen wir die Summe aus ReinforcementRatio_x, ReinforcementRatio_y und ReinforcementRatio_z bilden.
 
-The Calculator filter can be found as an icon on the left of the filter bar or via the menu Filters \> Alphabetical. The name for the resulting variable can be entered in field Result Array Name. Here we name the result Total_Reinforcement_Ratio. The formula can be composed in the box below the Result Array Name field. Input values can be selected from the Scalars drop down menu and they can be combined into a formula for the result using the operators given. After pressing the Apply button, the result will be available as a new variable in any subsequent operations (e.g. an Integration Filter) or views (e.g. RenderView or SpreadSheetView, see below).
+Der Rechnerfilter ist als Symbol links in der Filterleiste oder über das Menü Filters \> Alphabetical zu finden. Der Name für die resultierende Variable kann im Feld \"Result Array Name\" eingegeben werden. Hier nennen wir das Ergebnis \"Total_Reinforcement_Ratio\". Die Formel kann in der Box unter dem Feld Ergebnisfeldname zusammengestellt werden. Die Eingabewerte können aus dem Dropdown-Menü Skalare ausgewählt und mit den angegebenen Operatoren zu einer Formel für das Ergebnis zusammengesetzt werden. Nach Drücken der Schaltfläche Anwenden steht das Ergebnis als neue Variable in allen nachfolgenden Operationen (z. B. einem Integrationsfilter) oder Ansichten (z. B. RenderView oder SpreadSheetView, siehe unten) zur Verfügung.
 
 <img alt="" src=images/PVPic30.png  style="width:700px;">
 
-For example, we can now apply the integration filter to the new variable Total Reinforcement Ratio
+Zum Beispiel können wir nun den Integrationsfilter auf die neue Variable Total Reinforcement Ratio anwenden
 
 <img alt="" src=images/PVPic31.png  style="width:700px;">
 
-This shows how the total reinforcement requirement compares to those in the individual coordinate directions.
+Dies zeigt, wie sich der Gesamtbewehrungsbedarf im Vergleich zu den einzelnen Koordinatenrichtungen darstellt.
 
 
 
-## Integration über eine Scheibe 
+## Integration über einen Schnitt 
 
-In the previous section we discussed the Integration filter and its application to the entire VTK object. To demonstrate integration over a slice we will in this section determine the total reinforcement requirement and its center of gravity for the central cross section of the beam. The end result is shown in the picture below. The interaction of various objects can be inspected in the Pipeline Browser. The slice filter is applied to the beam VTK object and two Calculator filters are applied to the slice filter to derive the new variables "Reinforcement_ratio_x \* z" and "Reinforcement_ratio_x \* y" from the base data. These variables need to be integrated to determine the center of gravity of the reinforcement. Finally, Integration filters are applied to each Calculator to integrate results over the Slice. Please refer to the previous section for a general introduction of the Integration filter and its settings.
+Im vorigen Abschnitt haben wir den Integrationsfilter und seine Anwendung auf das gesamte VTK-Objekt besprochen. Um die Integration über einen Schnitt (Slice) zu demonstrieren, werden wir in diesem Abschnitt den Gesamtbewehrungsbedarf und seinen Schwerpunkt für den mittleren Querschnitt des Trägers bestimmen. Das Ergebnis ist in der Abbildung unten dargestellt. Die Interaktion der verschiedenen Objekte kann im Pipeline Browser überprüft werden. Der Slice-Filter wird auf das Balken-VTK-Objekt angewendet und zwei Calculator-Filter werden auf den Slice-Filter angewendet, um die neuen Variablen \"Reinforcement_ratio_x \* y\" und \"Reinforcement_ratio_x \* z\" aus den Basisdaten zu errechnen. Um den Schwerpunkt der Bewehrung bestimmen zu können müssen diese Variablen erst noch integriert werden, dazu werden Integrationsfilter auf jeden Calculator angewendet. Eine allgemeine Einführung in den Integrationsfilter und seine Einstellungen ist im vorherigen Abschnitt zu finden.
 
 <img alt="" src=images/PVPicSlice1.png  style="width:700px;">
 
-Apply the following Settings in the Properties tab for the VTK object:
+Folgende Einstellungen sind auf der Registerkarte Eigenschaften für das VTK-Objekt anzuwenden:
 
   Properties Tab Settings          Comment
    
-  Representation: Wireframe        So the Slice is visible
-  Coloring: ReinforcementRatio_x   Or any other color
-  Styling \> Line Width: 2         Or any other setting that gives a pleasing result
+  Representation: Wireframe        Der Schnitt ist also sichtbar
+  Coloring: ReinforcementRatio_x   Oder jede andere Farbe
+  Styling \> Line Width: 2         Oder jede andere Einstellung, die ein ansprechendes Ergebnis liefert
 
 <img alt="" src=images/PVPicSlice2.png  style="width:400px;">
 
-Next highlight the VTK object and apply a Slice filter with the following settings on the Properties tab:
+Das VTK-Objekt ist zu markieren und ein Slice-Filter mit den folgenden Eigenschaften anzuwenden:
 
   Properties Tab Settings                        Comment
    
-  Plane Parameters \> Show Plane: deselect       Remove the bounding boxes
-  Plane Parameters \> Origin: 4000 / 100 / 200   Position of central section
-  Plane Parameters \> Normal: 1 /0 /0            Normal of Slice points in x -direction
+  Plane Parameters \> Show Plane: deselect       Die Begrenzungsrahmen entfernen
+  Plane Parameters \> Origin: 4000 / 100 / 200   Lage des Mittelteils
+  Plane Parameters \> Normal: 1 /0 /0            Normale der Slice-Punkte in x -Richtung
   Coloring: ReinforcementRatio_x                 Optional
-  Styling \> Line Width: 2                       Or any other setting that gives a pleasing result
+  Styling \> Line Width: 2                       Oder jede andere Einstellung, die ein ansprechendes Ergebnis liefert
 
 <img alt="" src=images/PVPicSlice3.png  style="width:400px;">
 
-\'\'\'Settings Calculator 1
+\'\'\'Einstellungen Calculator 1
 
-Calculator 1 computes the new variable ReinforcementRatio_x \* y which needs to be integrated to obtain the y-coordinate of the reinforcement's center of gravity.
+Calculator 1 berechnet die neu in \"Result Array Name\" anzulegende Variable \"ReinforcementRatio_x \* y\". Im Feld für die Formel wird \"ReinforcementRatio_x \* coordsY\" eingegeben.
 
 <img alt="" src=images/PVPicSlice4.png  style="width:400px;">
 
-After pressing Apply, a new variable named "ReinforcementRatio_x \* y" is available for display or further processing.
+Nach dem Drücken von **Apply** steht eine neue Variable mit dem Namen \"ReinforcementRatio_x \* y\" zur Anzeige und Weiterverarbeitung zur Verfügung.
 
-\'\'\'Settings Calculator 2
+\'\'\'Einstellungen Calculator 2
 
-Calculator 2 computes the new variable ReinforcementRatio_x \* z which needs to be integrated to obtain the z-coordinate of the reinforcement's center of gravity.
+Calculator 2 berechnet die neu in \"Result Array Name\" anzulegende Variable \"ReinforcementRatio_x \* z\". Im Feld für die Formel wird \"ReinforcementRatio_x \* coordsZ\" eingegeben.
 
 <img alt="" src=images/PVPicSlice5.png  style="width:400px;">
 
-After pressing Apply, a new variable named "ReinforcementRatio_x \* z" is available for display or further processing.
+Nach dem Drücken von **Apply** steht eine neue Variable mit dem Namen \"ReinforcementRatio_x \* z\" zur Anzeige und Weiterverarbeitung zur Verfügung.
 
-Finally, two Integration filters are applied, one on Calculator1 to integrate variable ReinforcementRatio_x \* y and on Calculator2 to integrate ReinforcementRatio_x \* z. Each are displayed in their own window with SpreadSheetView selected. The way to deselect all other results is explained earlier.
+Die soeben berechneten Werte \"ReinforcementRatio_x \* y\" und \"ReinforcementRatio_x \* z\" müssen integriert werden, um so die y- und z-Koordinate des Schwerpunkts der Bewehrung zu erhalten.
+
+Dafür werden jeweil ein Integrationsfilter auf Calculator1 und einer auf Calculator2 angewendet. Beide werden in einem eigenen Fenster angezeigt, wobei SpreadSheetView ausgewählt ist. Wie man alle anderen Ergebnisse abwählt, wurde bereits erklärt.
 
 <img alt="" src=images/PVPicSlice6.png  style="width:700px;">
 
-Finally the Center of Gravity can be calculated from the above results as:
+Schließlich kann der Schwerpunkt aus den obigen Ergebnissen wie folgt berechnet werden:
 
 CoG_y = 55744.2 / 556.277 = 100.2 mm (exact value: 100 mm)
 
@@ -255,133 +266,134 @@ CoG_z = 187144 / 556.277 = 336.4 mm (exact value: 5/6 \* 400 mm)
 
 ## Integration über eine Linie 
 
-To demonstrate visualisation and integration of results over a line we use the 2D example of a heavy wall as introduced in [this FC forum thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=33049). The FreeCAD file for this example can be downloaded in [this FC forum thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734). The challenge is to visualise reinforcement ratio across various vertical cross sections and to determine the required area of steel from integration of those results.
+Zur Veranschaulichung der Visualisierung und Integration der Ergebnisse über eine Linie verwenden wir das 2D-Beispiel einer schweren Wand, wie es in [diesem FC Forum Beitrag](https://forum.freecadweb.org/viewtopic.php?f=18&t=33049) vorgestellt wurde. Die FreeCAD-Datei für dieses Beispiel kann unter [diesem FC Forum Beitrag](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734) heruntergeladen werden. Die Herausforderung besteht darin, das Bewehrungsverhältnis über verschiedene vertikale Querschnitte zu visualisieren und die erforderliche Stahlfläche aus der Integration dieser Ergebnisse zu bestimmen.
 
-Techniques introduced in previous sections of this tutorial will not be repeated here. It is also important to note again that as more objects are added to the Pipeline Browser and more display windows are open, it becomes increasingly important to ensure that the right object is selected in the Pipeline Browser and the right Window has focus when making changes to the Properties Tab. Otherwise much time can be spent on finding the right property or changes to properties may not seem to take effect.
+Techniken, die in früheren Abschnitten dieses Tutorial eingeführt wurden, werden hier nicht wiederholt. Es ist auch wichtig, noch einmal darauf hinzuweisen, dass es, je mehr Objekte dem Pipeline-Browser hinzugefügt werden und je mehr Anzeigefenster geöffnet sind, immer wichtiger wird, sicherzustellen, dass das richtige Objekt im Pipeline-Browser ausgewählt ist und das richtige Fenster den Fokus hat, wenn Änderungen auf der Registerkarte Eigenschaften vorgenommen werden. Andernfalls kann viel Zeit damit verbracht werden, die Fehler zu beheben.
 
-Starting with the VTK object imported from FEM Workbench, we note that the PV controls operate slightly differently on a 2 dimensional object. The left mouse button drags the geometry and the middle mouse button rotates it. To position the geometry in the plane of analysis (i.e. x-y), press the icon that puts the view along the negative z axis:
+Beginnen wir mit dem aus FEM Workbench importierten VTK-Objekt und stellen fest, dass die PV-Steuerung bei einem zweidimensionalen Objekt etwas anders funktioniert. Mit der linken Maustaste wird die Geometrie bewegt und mit der mittleren Maustaste gedreht. Um die Geometrie in der Analyseebene (d.h. x-y) zu positionieren, ist das Symbol, das die Ansicht entlang der negativen z-Achse verschiebt zu klicken
 
 <img alt="" src=images/PVPicLine1.png  style="width:75px;">
 
-For the picture below the Coloring property on the Properties tab for the VTK object was set to ReinforcementRatio_x.
+Für das folgende Bild wurde die Eigenschaft Coloring auf der Registerkarte Properties für das VTK-Objekt auf ReinforcementRatio_x gesetzt.
 
-The only additional object required to visualise a variable along a straight line is a Plot Over Line filter. This can be activated from the icon bar or the menu option Filters \> Alphabetical.
+Das einzige zusätzliche Objekt, das benötigt wird, um eine Variable entlang einer geraden Linie zu visualisieren, ist ein Filter \"Plot Over Line\". Dieser kann über die Symbolleiste oder den Menüpunkt Filters \> Alphabetical aktiviert werden.
 
-We next want to display the horizontal reinforcement requirements in the vertical cross section under the column. To achieve this in the way shown below, the following settings need to be changed in the Properties tab of the Plot Over Line filter (make sure the LineChartView window and the Plot Over Line object both have the focus)
+Als nächstes wollen wir die horizontalen Bewehrungsanforderungen im vertikalen Querschnitt unter der Stütze anzeigen. Um dies auf die unten gezeigte Weise zu erreichen, müssen die folgenden Einstellungen auf der Registerkarte Eigenschaften des Filters \"Plot Over Line\" geändert werden (sowohl das Fenster LineChartView als auch das Objekt Plot Over Line muss den Fokus haben)
 
   Properties Tab Settings                                                Comment
    
-  Line Parameters \> Point 1: 4000 / 0 / 0                               Point at bottom of wall under the column
-  Line Parameters \> Point 2: 4000 / 4000 / 0                            Point at top of wall under the column
-  x Axis Parameters \> x Array Name: ReinforcementRatio_x                Displays ReinforcementRatio_x on the horizontal axis
-  Series Parameters: tick "arc length" only                              This is the length parameter along the line
+  Line Parameters \> Point 1: 4000 / 0 / 0                               Punkt an der Unterseite der Wand unter der Säule
+  Line Parameters \> Point 2: 4000 / 4000 / 0                            Punkt an der Oberseite der Wand unter der Säule
+  x Axis Parameters \> x Array Name: ReinforcementRatio_x                Zeigt ReinforcementRatio_x auf der horizontalen Achse an
+  Series Parameters: tick "arc length" only                              Dies ist der Längenparameter entlang der Linie
   Title \> Chart Title: Mid Section                                      
-  Annotation \> Show Legend: deselect                                    Meaningless for the current choice of vertical axis
+  Annotation \> Show Legend: deselect                                    Für die derzeitige Wahl der vertikalen Achse bedeutungslos
   Left Axis \> Left Axis Title: Height Across Beam                       
-  Left Axis Range \> Use Custom Range: deselect                          Deselect to maximise the data range along the axis
+  Left Axis Range \> Use Custom Range: deselect                          Aufheben der Auswahl, um den Datenbereich entlang der Achse zu maximieren
   Bottom Axis \> Bottom Axis Title: Reinforcement Ratio in x-Direction   
-  Bottom Axis Range \> Use Custom Range: deselect                        Deselect to maximise the data range along the axis
+  Bottom Axis Range \> Use Custom Range: deselect                        Aufheben der Auswahl, um den Datenbereich entlang der Achse zu maximieren
 
 <img alt="" src=images/PVPicLine2.png  style="width:700px;">
 
-Note that the distance along the line (arc length) is usually on the horizontal axis and the variable that we want to display (here ReinforcementRatio_x) on the vertical axis. However, as the wall section in this example is vertical and we want to see the reinforcement requirement over the height of the wall, it is more natural to inverse the axes. This, however, comes at the expense of a lot more changes to the settings in the Properties tab for the Plot Over Line filter.
+Beachte, dass der Abstand entlang der Linie (Bogenlänge) normalerweise auf der horizontalen Achse liegt und die Variable, die wir anzeigen wollen (hier ReinforcementRatio_x) auf der vertikalen Achse. Da der Wandquerschnitt in diesem Beispiel jedoch vertikal ist und wir den Bewehrungsbedarf über die Höhe der Wand sehen wollen, ist es natürlicher, die Achsen zu vertauschen. Dies geht jedoch auf Kosten einer Vielzahl von Änderungen an den Einstellungen auf der Registerkarte Eigenschaften für den Filter \"Plot Over Line\".
 
-In the next two picture only the location of the line was changed. Note however that this relocation will automatically change the Left Axis Range \> Use Custom Range setting to "select". This may mean that the graph does not properly fit in the LineChartView window. It is therefore necessary to deselect this option every time the position of the line is changed. Other settings are as per the above table.
+In den nächsten beiden Abbildungen wurde nur die Position der Linie geändert. Diese Verschiebung ändert automatisch die Einstellung \"Left Axis Range \> Use Custom Range\" auf \"select\". Dies kann dazu führen, dass das Diagramm nicht mehr richtig in das LineChartView-Fenster passt. Es ist daher notwendig, diese Option jedes Mal zu deaktivieren, wenn die Position der Linie geändert wird. Die anderen Einstellungen entsprechen der obigen Tabelle.
 
   Properties Tab Settings                           Comment
    
-  Line Parameters \> Point 1: 6700 / 0 / 0          Point at bottom of wall under left side of cut-out
-  Line Parameters \> Point 2: 6700 / 4000 / 0       Point at top of wall above left side of cut-out
+  Line Parameters \> Point 1: 6700 / 0 / 0          Punkt an der Unterseite der Wand unter der linken Seite des Ausschnitts
+  Line Parameters \> Point 2: 6700 / 4000 / 0       Punkt an der Oberkante der Wand über der linken Seite des Ausschnitts
   Title \> Chart Title: Section left of Cut-out     
-  Left Axis Range \> Use Custom Range: deselect     Deselect to maximise the data range along the axis
-  Bottom Axis Range \> Use Custom Range: deselect   Deselect to maximise the data range along the axis
+  Left Axis Range \> Use Custom Range: deselect     Aufheben der Auswahl, um den Datenbereich entlang der Achse zu maximieren
+  Bottom Axis Range \> Use Custom Range: deselect   Aufheben der Auswahl, um den Datenbereich entlang der Achse zu maximieren
 
 <img alt="" src=images/PVPicLine3.png  style="width:700px;">
 
   Properties Tab Settings                           Comment
    
-  Line Parameters \> Point 1: 10950 / 0 / 0         Point at bottom of wall at right-hand support
-  Line Parameters \> Point 2: 10950 / 4000 / 0      Point at top of wall at right-hand support
+  Line Parameters \> Point 1: 10950 / 0 / 0         Punkt an der Unterseite der Wand an der rechten Stütze
+  Line Parameters \> Point 2: 10950 / 4000 / 0      Punkt an der Oberkante der Wand an der rechten Stütze
   Title \> Chart Title: Section at Support          
-  Left Axis Range \> Use Custom Range: deselect     Deselect to maximise the data range along the axis
-  Bottom Axis Range \> Use Custom Range: deselect   Deselect to maximise the data range along the axis
+  Left Axis Range \> Use Custom Range: deselect     Aufheben der Auswahl, um den Datenbereich entlang der Achse zu maximieren
+  Bottom Axis Range \> Use Custom Range: deselect   Aufheben der Auswahl, um den Datenbereich entlang der Achse zu maximieren
 
 <img alt="" src=images/PVPicLine4.png  style="width:700px;">
 
-The total horizontal reinforcement requirement in the last cross section can now simply be obtained by applying an Integration filter to the Plot Over Line object, i.e. highlight the Plot Over Line object in the Pipeline Browser and add an Integration filter from the menu option Filters \> Alphabetical.
+Der gesamte horizontale Bewehrungsbedarf im letzten Querschnitt kann nun einfach durch Anwendung eines Integrationsfilters auf das Objekt \"Plot Over Line\" ermittelt werden. Das Objekt \"Plot Over Line\" im Pipeline Browser ist dafür zu markieren und einen Integrationsfilter über die Menüoption Filters \> Alphabetical hinzufügen.
 
 <img alt="" src=images/PVPicLine5.png  style="width:700px;">
 
-In the usual way deselect all but the ReinforcementRatio_x result in the SpreadSheetView and read off the result as 23.11 mm2 / mm. To obtain the total cross sectional area of steel, we still need to multiply with the thickness of the wall, which in this example is (an impressive) 600 mm. So the total cross sectional area of steel running through the cross section near the right hand support is 23.11 \* 600 = 13866 mm2 = 139 cm2
+Hebe wie üblich in der SpreadSheetView alle Markierungen außer dem Ergebnis ReinforcementRatio_x auf und lies das Ergebnis als 23,11 mm2 / mm ab. Um die Gesamtquerschnittsfläche des Stahls zu erhalten, müssen wir noch mit der Dicke der Wand multiplizieren, die in diesem Beispiel (beeindruckende) 600 mm beträgt. Die Gesamtquerschnittsfläche des Stahls, die durch den Querschnitt in der Nähe der rechten Stütze verläuft, beträgt also 23,11 \* 600 = 13866 mm2 = 139 cm2
 
-To achieve a more practical distribution of reinforcement we could integrate the above graph in parts. For example, if we want to know the required cross sectional area of steel in the top 400mm of the wall then we should adjust the properties of the Plot Over Line object as follows
+Um eine praktikablere Verteilung der Bewehrung zu erreichen, könnten wir das obige Diagramm in Teilen integrieren. Wenn wir zum Beispiel die erforderliche Querschnittsfläche des Stahls in den oberen 400 mm der Wand wissen wollen, sollten wir die Eigenschaften des Objekts Plot Over Line wie folgt anpassen
 
   Properties Tab Settings                           Comment
    
-  Line Parameters \> Point 1: 10950 / 3600 / 0      Point near top of wall at right-hand support
-  Line Parameters \> Point 2: 10950 / 4000 / 0      Point at top of wall at right-hand support
-  Left Axis Range \> Use Custom Range: deselect     Deselect to maximise the data range along the axis
-  Bottom Axis Range \> Use Custom Range: deselect   Deselect to maximise the data range along the axis
+  Line Parameters \> Point 1: 10950 / 0 / 0         Punkt an der Unterseite der Wand an der rechten Stütze
+  Line Parameters \> Point 2: 10950 / 4000 / 0      Punkt an der Oberkante der Wand an der rechten Stütze
+  Title \> Chart Title: Section at Support          
+  Left Axis Range \> Use Custom Range: deselect     Aufheben der Auswahl, um den Datenbereich entlang der Achse zu maximieren
+  Bottom Axis Range \> Use Custom Range: deselect   Aufheben der Auswahl, um den Datenbereich entlang der Achse zu maximieren
 
-This yields the following result
+Dies führt zu folgendem Ergebnis:
 
 <img alt="" src=images/PVPicLine6.png  style="width:700px;">
 
-The result for the top 400 mm of the wall is thus 8.436 mm2 / mm. So the top 10% of the wall requires 8.44 / 23.11 \* 100% = 37% of the reinforcement steel.
+Das Ergebnis für die oberen 400 mm der Wand ist somit 8,436 mm2 / mm. Für die oberen 10% der Wand werden also 8,44 / 23,11 \* 100% = 37% des Bewehrungsstahls benötigt.
 
-This procedure could be repeated to divide the wall in zones of constant reinforcement.
+Dieses Verfahren kann wiederholt werden, um die Wand in Zonen mit konstanter Bewehrung zu unterteilen.
 
 
 
 ## Darstellung der Vektorergebnisse mit dem Glyphen 3D Filter 
 
-So far we have only dealt with Scalar values, like reinforcement ratio and displacement magnitude. Visualization of vector results, like Principal Stress vectors, is done with Glyphs.
+Bisher haben wir uns nur mit skalaren Werten, wie Bewehrungsgrad und Verschiebungsgröße, beschäftigt. Die Visualisierung von Vektorergebnissen, wie Hauptspannungsvektoren, erfolgt mit Glyphen.
 
-Let's return to the VTK data object for the beam with central support and visualize maximum and minimum principal stress vectors.
+Kehren wir zum VTK-Datenobjekt für den Träger mit zentralem Auflager zurück und visualisieren wir die Vektoren der maximalen und minimalen Hauptspannung.
 
-Highlight the VTK data object in the Pipeline Browser and select the Glyph Filter from the Filter Icon bar or from the menu option Filter \> Alphabetical. Then apply the following settings in the Properties tab of the Glyph Filter object (see table and picture):
+Markiere das VTK-Datenobjekt im Pipeline-Browser und wähle den Glyphenfilter aus der Filter-Symbolleiste oder aus der Menüoption Filter \> Alphabetical. Wende dann die folgenden Einstellungen auf der Registerkarte Eigenschaften des Glyphenfilterobjekts an (siehe Tabelle und Abbildung):
 
   Properties Tab Settings                              Comment
    
-  Glyph Source \> Glyph Type: Line                     Unfortunately there is no option for a double sided arrow
-  Orientation \> Orientation: Major Principal Stress   The Glyph takes the principal stress direction
-  Scale \> Scale Array: Major Principal Stress         The length of the line will represent the magnitude of the principal stress
+  Glyph Source \> Glyph Type: Line                     Leider gibt es keine Option für einen doppelseitigen Pfeil
+  Orientation \> Orientation: Major Principal Stress   Die Glyphe nimmt die Hauptspannungsrichtung
+  Scale \> Scale Array: Major Principal Stress         Die Länge der Linie gibt die Größe der Hauptspannung an
   Scale \> Vector Scale Mode: Scale by Magnitude       
-  Scale \> Scale Factor: 100                           Or any other setting that gives a pleasing result
-  Masking \> Glyph Mode: All Points                    To make sure the stress in every node is displayed
-  Coloring \> Solid Color                              A single color gives greatest clarity of "stress flow"
-  Coloring \> Edit \> Green                            Or any other setting that gives a pleasing result
-  Styling \> Line Width \> 2                           Or any other setting that gives a pleasing result
+  Scale \> Scale Factor: 100                           Oder jede andere Einstellung, die ein ansprechendes Ergebnis liefert
+  Masking \> Glyph Mode: All Points                    So stelle sicher, dass die Spannung in jedem Knoten angezeigt wird
+  Coloring \> Solid Color                              Eine einzige Farbe gibt größte Klarheit über den \"Stressfluss\"
+  Coloring \> Edit \> Green                            Oder jede andere Einstellung, die ein ansprechendes Ergebnis liefert
+  Styling \> Line Width \> 2                           Oder jede andere Einstellung, die ein ansprechendes Ergebnis liefert
 
 <img alt="" src=images/PVPic32.png  style="width:400px;">; <img alt="" src=images/PVPic33.png  style="width:400px;">
 
-If all goes well you should see the following result for the example file.
+Wenn alles gut geht ist das folgende Ergebnis sehen.
 
 <img alt="" src=images/PVPic34.png  style="width:700px;">
 
-Next add another Glyph Filter with the following settings for the Minor Principal Stress (don't forget to first highlight the VTK data object in the Pipeline Browser):
+Markiere das VTK-Datenobjekt im Pipeline-Browser und füge dann einen weiteren Glyphenfilter mit den folgenden Einstellungen für \"Minor Principal Stress\" hinzu.
 
   Properties Tab Settings                              Comment
    
-  Glyph Source \> Glyph Type: Line                     Unfortunately there is no option for a double sided arrow
-  Orientation \> Orientation: Minor Principal Stress   The Glyph takes the principal stress direction
-  Scale \> Scale Array: Minor Principal Stress         The length of the line will represent the magnitude of the principal stress
+  Glyph Source \> Glyph Type: Line                     Leider gibt es keine Option für einen doppelseitigen Pfeil
+  Orientation \> Orientation: Minor Principal Stress   Die Glyphe zeigt die Hauptspannungsrichtung
+  Scale \> Scale Array: Minor Principal Stress         Die Länge der Linie gibt die Größe der Hauptspannung an
   Scale \> Vector Scale Mode: Scale by Magnitude       
-  Scale \> Scale Factor: 100                           Or any other setting that gives a pleasing result
-  Masking \> Glyph Mode: All Points                    To make sure the stress in every node is displayed
-  Coloring \> Solid Color                              A single color gives greatest clarity of "stress flow"
-  Coloring \> Edit \> Red                              Or any other setting that gives a pleasing result
-  Styling \> Line Width \> 2                           Or any other setting that gives a pleasing result
+  Scale \> Scale Factor: 100                           Oder jede andere Einstellung, die ein ansprechendes Ergebnis liefert
+  Masking \> Glyph Mode: All Points                    So stelle sicher, dass die Spannung in jedem Knoten angezeigt wird
+  Coloring \> Solid Color                              Eine einzige Farbe gibt größte Klarheit über den \"Stressfluss"
+  Coloring \> Edit \> Red                              Oder jede andere Einstellung, die ein ansprechendes Ergebnis liefert
+  Styling \> Line Width \> 2                           Oder jede andere Einstellung, die ein ansprechendes Ergebnis liefert
 
 <img alt="" src=images/PVPic35.png  style="width:700px;">
 
-The final result shows the major and minor principal stress vectors superimposed on the beam with ReinforcementRatio_x.
+Das Endergebnis zeigt die Haupt- und Nebenspannungsvektoren, die dem Balken mit ReinforcementRatio_x überlagert sind.
 
 
 
 ## Export grafischer Ergebnisse 
 
-To export a RenderView window highlight the window and use menu option **File > Save Screenshot**
+Um ein RenderView-Fenster zu exportieren, markiere das Fenster und verwende die Menüoption **File > Save Screenshot**
 
 
 {{FEM Tools navi

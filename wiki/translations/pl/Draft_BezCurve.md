@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft BezCurve
    Name/pl: Rysunek Roboczy: Krzywa Béziera
-   MenuLocation: Kreślenie , Narzędzia krzywych Béziera , Krzywa Béziera
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Kreślenie , Narzędzia krzywych Béziera , Krzywa Béziera<br>Kreślenie 2D , Krzywa Béziera
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **B** **Z**
    Version: 0.14
    SeeAlso: Draft_CubicBezCurve/pl, Draft_BSpline/pl
@@ -15,14 +15,14 @@
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Krzywa Bézier\'a** tworzy krzywą [Bézier\'a](http://en.wikipedia.org/wiki/Bezier_curve) na podstawie kilku punktów.
+Polecenie <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Krzywa Béziera** tworzy krzywą [Béziera](http://en.wikipedia.org/wiki/Bezier_curve) na podstawie kilku punktów.
 
 Polecenie tworzy pojedynczą krzywą Béziera o **Stopniu** równym `number_of_points - 1`. Można ją przekształcić w fragmentaryczną krzywą Béziera, zmniejszając tę właściwość.
 
-Polecenia [Sześcienna krzywa Bézier\'a](Draft_CubicBezCurve/pl.md) i Sześcienna krzywa Bézier\'a używają **punktów kontrolnych** do zdefiniowania położenia i krzywizny odcinka krzywej. Z kolei polecenie [Krzywa złożona](Draft_BSpline/pl.md) określa **dokładne punkty**, przez które będzie przechodzić krzywa.
+Polecenia Krzywa Béziera i [Sześcienna krzywa Béziera](Draft_CubicBezCurve/pl.md) używają **punktów kontrolnych** do zdefiniowania położenia i krzywizny odcinka krzywej. Z kolei polecenie [Krzywa złożona](Draft_BSpline/pl.md) określa **dokładne punkty**, przez które będzie przechodzić krzywa.
 
 <img alt="" src=images/Draft_BezCurve_Example.png  style="width:400px;"> 
-*Krzywa Bezier'a zdefiniowana przez wiele punktów*
+*Krzywa Beziera zdefiniowana przez wiele punktów*
 
 
 
@@ -31,10 +31,11 @@ Polecenia [Sześcienna krzywa Bézier\'a](Draft_CubicBezCurve/pl.md) i Sześcien
 Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
 1.  Istnieje kilka sposobów wywołania polecenia:
-    -   Naciśnij przycisk **<img src="images/Draft_BezCurve.svg" width=16px> '''Krzywa Bezier'a'''**.
-    -   Wybierz z menu opcję **Kreślenie → Narzędzia krzywych Béziera → <img src="images/Draft_BezCurve.svg" width=16px> Krzywa Bézier'a**.
-    -   Użyj skrótu klawiaturowego: **B**, a następnie **Z**. {{Version/pl|0.20}}
-2.  Zostanie otwarty panel zadań **Krzywa Bézier'a**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
+    -   Naciśnij przycisk **<img src="images/Draft_BezCurve.svg" width=16px> '''Krzywa Beziera'''**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Kreślenie → Narzędzia krzywych Béziera → <img src="images/Draft_BezCurve.svg" width=16px> Krzywa Béziera**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Kreślenie 2D → <img src="images/Draft_BezCurve.svg" width=16px> Krzywa Béziera** z menu.
+    -   Użyj skrótu klawiaturowego: **B**, a następnie **Z**.
+2.  Zostanie otwarty panel zadań **Krzywa Béziera**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
 3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
 4.  Wybierz dodatkowe punkty w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
 5.  Naciśnij **Esc** lub przycisk **Zamknij**, aby zakończyć polecenie.
@@ -43,11 +44,11 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 1.0)*.
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź składowe X, Y i Z, a następnie naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już żądane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor poza obszar okna [widoku 3D](3D_view/pl.md).
 -   Wciśnij **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne są względne do ostatniego punktu, jeśli jest dostępny, w przeciwnym razie są one względne do początku układu współrzędnych.
--   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij **F** lub kliknij pole wyboru **Wypełniony**, aby przełączyć tryb wypełnienia. Jeśli tryb wypełnienia jest włączony, utworzona krzywa będzie miała właściwość **Utwórz ścianę** ustawione na {{TRUE/pl}} i będzie miała wypełnioną ścianę, pod warunkiem, że jest zamknięta i nie przecina się samoczynnie. Należy pamiętać, że krzywa przecinająca się z powierzchnią nie będzie wyświetlana poprawnie, dla takiej krzywej **Utwórz ścianę** musi być ustawiona na {{FALSE/pl}}.
 -   Naciśnij **N** lub kliknij pole wyboru **Kontynuuj**, aby włączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po użyciu **<img src="images/Draft_FinishLine.svg" width=16px> Zakończ** lub **<img src="images/Draft_CloseLine.svg" width=16px> Zamknij**, lub po utworzeniu zamkniętej krzywej poprzez przyciągnięcie do pierwszego punktu krzywej, umożliwiając dalsze tworzenie krzywych.
 -   Naciśnij **/** lub przycisk **<img src="images/Draft_UndoLine.svg" width=16px> Cofnij**, aby anulować ostatni punkt.
@@ -62,8 +63,8 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 ## Uwagi
 
--   Krzywa Bezier\'a środowiska Rysunek Roboczy może być edytowana za pomocą polecenia [Edytuj](Draft_Edit/pl.md).
--   OpenCascade, a tym samym FreeCAD, nie obsługuje krzywych Bézier\'a o stopniach większych niż 25. W praktyce nie powinno to stanowić problemu, ponieważ większość użytkowników zazwyczaj używa krzywych Bézier\'a o stopniach od 3 do 5.
+-   Krzywa Beziera środowiska Rysunek Roboczy może być edytowana za pomocą polecenia [Edytuj](Draft_Edit/pl.md).
+-   OpenCascade, a tym samym FreeCAD, nie obsługuje krzywych Béziera o stopniach większych niż 25. W praktyce nie powinno to stanowić problemu, ponieważ większość użytkowników zazwyczaj używa krzywych Béziera o stopniach od 3 do 5.
 
 
 
@@ -71,7 +72,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt Krzywa Bezier\'a środowiska Rysunek Roboczy wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+Obiekt Krzywa Beziera środowiska Rysunek Roboczy wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
 
@@ -117,7 +118,7 @@ Obiekt Krzywa Bezier\'a środowiska Rysunek Roboczy wywodzi się z obiektu [Czę
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-Aby utworzyć Krzywa Bezier\'a środowiska Rysunek Roboczy użyj metody `make_bezcurve` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeBezCurve`.
+Aby utworzyć Krzywa Beziera środowiska Rysunek Roboczy użyj metody `make_bezcurve` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeBezCurve`.
 
 
 ```python

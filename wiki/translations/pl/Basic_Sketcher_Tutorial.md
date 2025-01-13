@@ -30,7 +30,7 @@ Przećwiczymy:
 -   Stosowanie wiązań wymiarów.
 -   Uzyskanie profilu zamkniętego.
 
-Aby uzyskać bardziej szczegółowy opis szkicownika, przeczytaj stronę [Szkicownik: odniesienie](Sketcher_reference/pl.md).
+Aby uzyskać bardziej szczegółowy opis szkicownika, przeczytaj stronę [Poradnik do szkicownika](Sketcher_Lecture/pl.md).
 
 ![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
 *Wynik końcowy szkicu, z geometrią w pełni ograniczoną w całości, łącznie z geometrią konstrukcji pomocniczej.*
@@ -326,7 +326,7 @@ Powinieneś zakończyć swoją pracę szkicem całkowicie związanym. Można to 
 
 ## Informacje dodatkowe 
 
-Aby uzyskać bardziej szczegółowy opis szkicownika, przejdź do dokumentacji [Środowiska pracy Szkicownik](Sketcher_Workbench/pl.md), a także przeczytaj dokumentację [Informator do szkicownika](Sketcher_reference/pl.md).
+Aby uzyskać bardziej szczegółowy opis szkicownika, przejdź do dokumentacji [środowiska pracy Szkicownik](Sketcher_Workbench/pl.md), a także przeczytaj [Poradnik do szkicownika](Sketcher_Lecture/pl.md).
 
 Ograniczenie szkicu może być wykonane na wiele różnych sposobów. Ogólnie rzecz biorąc, zaleca się użycie najpierw ograniczeń geometrycznych i zminimalizowanie liczby ograniczeń w układzie odniesienia, ponieważ upraszcza to pracę wewnętrznego solwera wiązań. Aby to zbadać, powtórz ten przykład, dodając teraz ograniczenia w innej kolejności.
 

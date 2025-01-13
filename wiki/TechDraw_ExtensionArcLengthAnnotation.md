@@ -4,8 +4,8 @@
    MenuLocation: TechDraw , Extensions: Attributes/Modifications , Calculate the arc length of selected edges
    Workbenches: TechDraw_Workbench
    Shortcut: 
-   Version: 0.22
-   SeeAlso: TechDraw_ExtensionAreaAnnotation
+   Version: 1.0
+   SeeAlso: TechDraw_ExtensionCreateLengthArc
 ---
 
 # TechDraw ExtensionArcLengthAnnotation

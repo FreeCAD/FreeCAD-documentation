@@ -44,7 +44,7 @@ Siehe [TechDraw FlächenMittellinie](TechDraw_FaceCenterLine/de#Anwendung,_Bearb
 
 ## Hinweise
 
-Zum Löschen einer Mittellinie wird <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [Hilfsobjekt entfernen](TechDraw_CosmeticEraser/de.md) verwendet.
+-   Um eine Mittellinie zu löschen, wird sie ausgewählt und die **Entf**-Taste gedrückt. {{Version/de|1.0}}
 
 
 

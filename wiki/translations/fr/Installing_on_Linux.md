@@ -3,8 +3,8 @@
 
 L\'installation de FreeCAD sur la plupart des systèmes Linux connus est validée par la communauté. FreeCAD est disponible via le gestionnaire de paquets sur ces systèmes. L\'équipe de FreeCAD fournit également des :
 
--   Paquets \"officiels\" lorsque les nouvelles versions sont disponibles via les [paquets Snap](Ubuntu_Snap/fr.md), [AppImages](AppImage/fr.md), [Flatpaks](Flatpak/fr.md) et le [PPA](#Version_stable_du_PPA/fr.md).
--   Des versions expérimentales sont disponibles via les dépôts quotidiens [PPA](#La_version_PPA_en_cours_de_développement/fr.md), [AppImages](AppImage/fr.md) et [Ubuntu Snaps](Ubuntu_Snap/fr.md).
+-   Paquets \"officiels\" lorsque les nouvelles versions sont disponibles via les [paquets Snap](Ubuntu_Snap/fr.md), [AppImages](AppImage/fr.md), [Flatpaks](Flatpak/fr.md) et le [PPA](#Le_PPA_de_la_version_stable.md).
+-   Des versions expérimentales sont disponibles via les dépôts quotidiens [PPA](#Le_PPA_de_la_version_en_cours_de_développement.md), [AppImages](AppImage/fr.md) et [Ubuntu Snaps](Ubuntu_Snap/fr.md).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -36,9 +36,9 @@ le dépôt d\'Ubuntu peut être obsolète. L\'empaquetage peut prendre du retard
 
 
 
-### Version stable du PPA 
+### Le PPA de la version stable 
 
-**Attention :** le PPA FreeCAD n\'est actuellement pas maintenu et [recherche des volontaires](https://forum.freecadweb.org/viewtopic.php?f=42&t=69055&start=20). Veuillez utiliser une alternative (snap, appimage) jusqu\'à ce que le problème soit résolu !
+**Attention :** le PPA de FreeCAD n\'est actuellement pas maintenu et [recherche des volontaires](https://forum.freecadweb.org/viewtopic.php?f=42&t=69055&start=20). Veuillez utiliser une alternative (snap, appimage) jusqu\'à ce que le problème soit résolu !
 
 Les archives de packages personnels (PPA) pour la version stable de FreeCAD sont gérées par la communauté FreeCAD sur Launchpad. Le dépôt Launchpad est appelé [FreeCAD Stable Releases](https://launchpad.net/~freecad-maintainers/+archive/freecad-stable).
 
@@ -63,7 +63,7 @@ Pour installer le PPA stable depuis l\'interface graphique utilisateur (GUI) :
 
 
 
-:   3\. Ajoutez la source, fermez la boîte de dialogue et rechargez vos sources de logiciels, si nécessaire.
+:   3\. Ajoutez la source, fermez la fenêtre de dialogue et rechargez vos sources de logiciels, si nécessaire.
 
 Vous pouvez maintenant trouver et installer la dernière version stable de FreeCAD à partir du **Ubuntu Software Center**.
 
@@ -160,7 +160,7 @@ ubuntu@ubuntu:~$ apt-cache policy freecad-doc
 
 
 
-### La version PPA en cours de développement 
+### Le PPA de la version en cours de développement 
 
 Comme FreeCAD est en constant développement, vous souhaiterez peut-être installer la version **daily** pour suivre les dernières améliorations et corrections de bogues. Le dépôt est également hébergé sur Launchpad et s\'appelle [freecad-daily](https://launchpad.net/~freecad-maintainers/+archive/freecad-daily).
 

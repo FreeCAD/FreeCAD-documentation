@@ -36,7 +36,7 @@ Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les 
 
 [Part Feature](Part_Feature/fr.md) (classe `Part::Feature`) est dérivée de [App GeoFeature](App_GeoFeature/fr.md) (classe `App::GeoFeature`) et hérite de toutes ses propriétés. Elle possède également plusieurs propriétés supplémentaires. Notamment une propriété **Shape**, qui stocke la [Part TopoShape](Part_TopoShape/fr.md) de l\'objet. Il s\'agit de la géométrie qui est affichée dans la [vue 3D](3D_view/fr.md). Les autres propriétés de cet objet sont celles liées à l\'apparence de sa [TopoShape](Part_TopoShape/fr.md).
 
-Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](Property_editor/fr.md).
+Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Tout afficher** dans le menu contextuel de l\'[éditeur de propriétés](Property_editor/fr.md).
 
 
 

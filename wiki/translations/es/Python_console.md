@@ -1,12 +1,5 @@
 # Python console/es
-**(Enero 2020) FreeCAD fue diseñado originalmente para trabajar con Python 2. Desde que Python 2 llegó al final de su vida útil en 2020, el desarrollo futuro de FreeCAD se hará exclusivamente con Python 3, y no se soportará la compatibilidad hacia atrás.**
-
-
-
 ## Introducción
-
-
-
 
 La [consola de Python](Python_console/es.md) es un panel que es parte de la [interfaz de usuario](interface/es.md) de FreeCAD. Ejecuta una instancia del intérprete de [Python](Python/es.md) que puede ser utilizado para controlar los procesos de FreeCAD, y crear y modificar objetos y sus propiedades.
 

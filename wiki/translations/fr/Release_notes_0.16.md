@@ -37,22 +37,26 @@ FreeCAD supporte maintenant de nouveaux styles de navigation dont un tactile. Ce
 
 ## Atelier Part 
 
--   Nouvel outils pour fusionner des objets creux (ex: des tuyaux) : [Connect](Part_JoinConnect/fr.md), [Embed](Part_JoinEmbed/fr.md) and [Cutout](Part_JoinCutout/fr.md)
+-   Nouvel outils pour fusionner des objets creux (ex: des tuyaux) : [Connecter](Part_JoinConnect/fr.md), [Intégrer](Part_JoinEmbed/fr.md) and [Découper](Part_JoinCutout/fr.md)
 -   Nouvelle fonction: Créer une face à partir d\'une esquisse (paramétrique)
 
-## Ateliers Part Design & Sketcher 
+## Ateliers PartDesign & Sketcher 
 
--   Nouvelle fonction : Bascule entre les [ contraintes Référence et Pilote](Sketcher_ToggleDrivingConstraint/fr.md)
--   Nouvelle fonction : Mode création continue (l\'outil reste actif)
+-   Nouvelle fonction : bascule entre les [contraintes Référence et Pilote](Sketcher_ToggleDrivingConstraint/fr.md)
+-   Nouvelle fonction : mode création continue (l\'outil reste actif)
 -   Nouvelle fonction : contraintes Non-pilote (ou contrainte pilotée)
 -   Accélération majeure
 -   Contrôle avancé du solveur
 -   Nouvelles fonctions : outils pour copier, faire un miroir et un réseau rectangulaire.
 -   Support des [expressions/formules](Expressions/fr.md) dans les contraintes et les propriétés.
 
+
+
 ## Atelier Tableur 
 
 -   Ajout des fonctions : round, trunc, ceil, et floor.
+
+
 
 ## Atelier Draft 
 
@@ -101,6 +105,8 @@ FreeCAD supporte maintenant de nouveaux styles de navigation dont un tactile. Ce
 -   **Macro GMSH** La [Macro_GMSH](Macro_GMSH.md) est un développement externe interessant qui rend possible le maillage avec GMSH. C\'est très pratique pour ceux qui ne peuvent pas installé ou compiler Netgen ou pour le maillage de coques et d\'arêtes.
 -   **Améliorations générales** En raison de la forte augmentation du développement, il y a eu des tonnes d\'améliorations sur la base du code du module FEM.
 
+
+
 ## Atelier Path 
 
 ![](images/Exercise_path_02.jpg )
@@ -108,6 +114,8 @@ FreeCAD supporte maintenant de nouveaux styles de navigation dont un tactile. Ce
 Un nouvel [Atelier Path](Path_Workbench/fr.md) a été ajouté à FreeCAD. Cet atelier bien qu\'encore en développement implémente déjà quelques opérations CNC et permet d\'exporter le fichier [G-code](https://en.wikipedia.org/wiki/G-code) vers diverse variété de machines CNC.
 
 Dans son état actuel, l\'atelier permet de créer des profiles et des poches autour d\'objets basés sur [Part](Part_Workbench/fr.md), de créer des chemin complexe en joignant plusieurs partie de chemin, inspecter et éditer le G-code de chaque chemin, gérer la banque d\'outils et choisir entre différents scripts pre-post-processing lors de l\'import et l\'export de G-code. Il propose aussi une [API Python](Path_scripting/fr.md) complète.
+
+
 
 ## Modules Additionnels 
 

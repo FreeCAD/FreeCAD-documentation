@@ -17,11 +17,19 @@ A noter que toute la question des unités géoréférencées, avec des centaines
 
 -   Annonce du fil de discussion FreeCAD [Importateur de fichiers de formes](https://forum.freecadweb.org/viewtopic.php?f=9&t=46150)
 -   Fil de discussion du forum sur la discussion [OSArch](https://community.osarch.org/discussion/comment/578#Comment_578)
--   [Importer/Exporter](Import_Export/fr.md)
--   [Comment importer/exporter sous FreeCAD](FreeCAD_Howto_Import_Export/fr.md)
--   [Préférences d\'Import Export](Import_Export_Preferences/fr.md)
+-   [Import Export](Import_Export/fr.md)
+-   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md) (en)
+-   [Préférences Importer/Exporter](Import_Export_Preferences/fr.md)
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch SHP/fr
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch SHP/fr

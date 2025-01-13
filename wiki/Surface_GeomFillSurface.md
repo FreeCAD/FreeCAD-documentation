@@ -105,7 +105,7 @@ When the surface\'s **Lighting** property is {{Value|One side}}, a face will be 
 
 The Surface GeomFillSurface tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::GeomFillSurface` object.
 
--   The edges to be used to define the surface must be assigned as a [LinkSubList](LinkSubList.md) to the `BoundaryList` property of the object.
+-   The edges to be used to define the surface must be assigned as a [LinkSubList](FeaturePython_Custom_Properties#App:_PropertyLinkSubList.md) to the `BoundaryList` property of the object.
 -   The type of algorithm must be assigned like a string to the `FillType` property.
 -   All objects with edges need to be computed before they can be used as input for the properties of the GeomFillSurface object.
 

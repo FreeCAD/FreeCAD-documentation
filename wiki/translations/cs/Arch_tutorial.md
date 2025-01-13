@@ -491,7 +491,7 @@ Je jedna věc, kterou už můžeme udělat: zduplikovat komplikované okno na sc
 
 <img alt="" src=images/Arch_tutorial_33.jpg  style="width:1024px;">
 
-Tady připomínám, že já dávám přednost duplikování pomocí nástroje [Posunp](Draft_Move/cs.md)řed použitím [klonování](Draft_Clone/cs.md), protože klon zatím nepodporuje různé barvy uvnitř objektu. Rozdíl je v tom, že klon je kopie konečného tvaru původního objektu, zatímco když objekt zkopírujete, vytvoříte nový objekt, který má stejné vlastnosti jako původní objekt (proto i základní náčrt a jeho definiční komponenty okna, které jsou uloženy jako vlastnosti).
+Tady připomínám, že já dávám přednost duplikování pomocí nástroje [Posunpřed](Draft_Move/cs.md) použitím [klonování](Draft_Clone/cs.md), protože klon zatím nepodporuje různé barvy uvnitř objektu. Rozdíl je v tom, že klon je kopie konečného tvaru původního objektu, zatímco když objekt zkopírujete, vytvoříte nový objekt, který má stejné vlastnosti jako původní objekt (proto i základní náčrt a jeho definiční komponenty okna, které jsou uloženy jako vlastnosti).
 
 A teď musíme zaútočit na části, které nejsou nakreslené nikde. Začněme se skleněnou zdí mezi obývacím pokojem a atriem. Snadnější bude kreslení z bočního pohledu, protože ten mám dá správnou výšku střechy. Když jste v půdorysu, můžete pohledem otáčet z menu Pohled -\> Standardní pohled -\> Otočit doleva nebo doprava až dostanete komfortní pohled na práci, jako třeba:
 
@@ -704,6 +704,11 @@ Soubor vytvořený tímto výukovým programem najdete [zde](http://yorik.uncrea
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/cs
+⏵ [documentation index](../README.md) > Arch tutorial/cs

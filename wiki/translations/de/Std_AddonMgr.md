@@ -58,6 +58,17 @@ Die Einstellungen für den Addon-Manager findet man im [Voreinstellungseditor](P
 
 
 
+## Sortieren nach Punktzahl 
+
+
+{{Version/de|1.0}}
+
+Der Addon-Manager unterstützt das Sortieren nach einer Reihe verschiedener Kriterien. Die meisten davon werden direkt von den Servern von FreeCAD heruntergeladen (die sie von GitHub und FreeCAD-Wiki zwischenspeichern), aber ein „Score" wird von FreeCAD überhaupt nicht bereitgestellt und erscheint nur als Option, wenn die Einstellung „Score-Quell-URL" in den Einstellungen angegeben ist.
+
+Die Score-Quell-URL ist ein Pfad zu einem Remote-Dokument im JSON-Format, das Add-Ons und eine Art „Score" auflistet. Der Score kann vom Datenanbieter beliebig berechnet werden, sollte aber ein ganzzahliger Wert sein, wobei höhere Scores in gewisser Weise „besser" sind. Jedem nicht aufgeführten Add-On wird intern ein Score von 0 zugewiesen. Das Format der Datei ist ein einzelnes JSON-Wörterbuch, wobei der Schlüssel die Add-On-URL (für Workbenches und Preference Packs) oder der Name des Makros (für Makros) ist. Ein Beispiel findest du unter [diese Datenquelle](https://gist.githubusercontent.com/chennes/e8f60e80f16e6ffbd057dd47ca36ad2a/raw/7b118cca8e84444c3379919bbd744b99e6ef6711/addon_score_for_testing.json) (beachte, dass die Punktzahl dort lediglich der Länge der Add-on-Beschreibung entspricht und nur für Test- und Demonstrationszwecke vorgesehen ist).
+
+
+
 ## Hinweise
 
 -   Die Verwendung von Erweiterungen ist nicht auf die FreeCAD-Version beschränkt, mit der sie installiert wurden. Sie können auch in jeder anderen FreeCAD-Version verwenden, die von der Erweiterung unterstützt wird, die möglicherweise auf dem eigenen System vorhanden ist.
@@ -93,9 +104,11 @@ my_addon = MyAddonClass()
 
 Das Objekt {{Incode|my_addon}} ist jetzt Bereit für den Einsatz mit der Addon-Manager-API.
 
-### Commandline (non-GUI) use 
 
-If your code needs to install or update an addon synchronously (e.g. without a GUI) the code can be very simple:
+
+### Verwendung der Befehlszeile (ohne GUI) 
+
+Wenn dein Code ein Add-on synchron installieren oder aktualisieren muss (z. B. ohne GUI), kann der Code sehr einfach sein:
 
 
 ```python
@@ -104,9 +117,9 @@ installer = AddonInstaller(my_addon)
 installer.run()
 ```
 
-Note that this code blocks until complete, so you shouldn\'t run it on the main GUI thread. To the Addon manager, \"install\" and \"update\" are the same call: if this addon is already installed, and git is available, it will be updated via \"git pull\". If it is not installed, or was installed via a non-git installation method, it is downloaded from scratch (using git if available).
+Beachte, dass dieser Code blockiert, bis er abgeschlossen ist. Du solltest ihn daher nicht im Haupt-GUI-Thread ausführen. Für den Addon-Manager sind „Installieren" und „Aktualisieren" derselbe Aufruf: Wenn dieses Addon bereits installiert ist und Git verfügbar ist, wird es über „Git Pull" aktualisiert. Wenn es nicht installiert ist oder über eine andere Installationsmethode als Git installiert wurde, wird es von Grund auf neu heruntergeladen (mit Git, falls verfügbar).
 
-To uninstall, use:
+Zum Deinstallieren verwende:
 
 
 ```python
@@ -115,9 +128,11 @@ uninstaller = AddonUninstaller(my_addon)
 uninstaller.run()
 ```
 
-### GUI use 
 
-If you plan on your code running in a GUI, or supporting running in the full version of FreeCAD, it\'s best to run your installation in a separate non-GUI thread, so the GUI remains responsive. To do this, first check to see if the GUI is running, and if it is, spawn a {{Incode|QThread}} (don\'t try to spawn a {{Incode|QThread}} if the GUI is not up: they require an active event loop to function).
+
+### GUI-Verwendung 
+
+Wenn du planst, deinen Code in einer GUI auszuführen oder die Ausführung in der Vollversion von FreeCAD zu unterstützen, ist es am besten, deine Installation in einem separaten Nicht-GUI-Thread auszuführen, damit die GUI reaktionsfähig bleibt. Überprüfe dazu zunächst, ob die GUI ausgeführt wird, und starte in diesem Fall einen {{Incode|QThread}} (versuche nicht, einen {{Incode|QThread}} zu starten, wenn die GUI nicht aktiv ist: sie benötigt eine aktive Ereignisschleife, um zu funktionieren).
 
 
 ```python
@@ -134,13 +149,13 @@ worker_thread.started.connect(installer.run)
 worker_thread.start() # Returns immediately
 ```
 
-Then define the functions {{Incode|installation_succeeded}} and {{Incode|installation_failed}} to be run in each case. For uninstallation you can use the same technique, though it is usually much faster and will not block the GUI for very long, so in general it\'s safe to use the uninstaller directly, as shown above.
+Definiere dann die Funktionen {{Incode|installation_succeeded}} und {{Incode|installation_failed}}, die in jedem Fall ausgeführt werden sollen. Für die Deinstallation kannst du dieselbe Technik verwenden, obwohl sie normalerweise viel schneller ist und die GUI nicht sehr lange blockiert. Daher ist es im Allgemeinen sicher, das Deinstallationsprogramm direkt zu verwenden, wie oben gezeigt.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

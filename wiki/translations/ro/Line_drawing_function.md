@@ -10,6 +10,8 @@ Această pagină arată modul în care se poate construi cu ușurință o funcț
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Scriptul Principal 
@@ -50,6 +52,8 @@ class line:
 
 
 {{Top}}
+
+
 
 ## Explicații detaliate 
 
@@ -278,6 +282,8 @@ Deoarece am terminat cu linia noastră, să eliminăm mecanismul de apel invers,
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Testing & Using the script 
@@ -345,6 +351,8 @@ Apoi, faceți dublu clic în vizualizarea 3D, și bingo, aici este linia noastr�
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -438,6 +446,8 @@ Asta este, vrem să reporniți FreeCAD și vom avea un nou atelier de lucru cu n
 
 
 {{Top}}
+
+
 
 ## Deci vrei mai mult? 
 

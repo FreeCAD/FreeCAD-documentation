@@ -406,6 +406,9 @@ Se agregaron nuevas opciones para soportar la ejecución de FreeCAD, OpenSCAD o 
 
 ### Otras mejoras de PartDesign 
 
+
+<div class="mw-translate-fuzzy">
+
 -   En la característica [Hélice](PartDesign_AdditiveHelix.md) ahora también se puede utilizar la normal del croquis como eje. [Pull request #5199](https://github.com/FreeCAD/FreeCAD/pull/5199)
 -   La característica [Rueda dentada](PartDesign_Sprocket.md) ahora puede crear ruedas dentadas con la norma ISO. [Hilo del foro](https://forum.freecadweb.org/viewtopic.php?f=22&t=44525#p478369) [Pull request #4478](https://github.com/FreeCAD/FreeCAD/pull/4478)
 -   las características [Proyección](PartDesign_AdditiveLoft.md) y [Barrido](PartDesign_AdditivePipe.md) ahora permiten usar las caras de los cuerpos para las secciones. [Pull request #5155](https://github.com/FreeCAD/FreeCAD/pull/5155)
@@ -418,6 +421,9 @@ Se agregaron nuevas opciones para soportar la ejecución de FreeCAD, OpenSCAD o 
 -   Ahora se puede lograr la selección de planos cuando se agrega [un nuevo croquis](PartDesign_NewSketch.md) con un solo clic en la vista 3D. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/5408) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=19&t=65020)
 -   Cuando una herrramienta de PartDesign se ejecuta sin un cuerpo activo, ahora FreeCAD ofrece activar un cuerpo o crear uno nuevo. [Pull request #4949](https://github.com/FreeCAD/FreeCAD/pull/4949)
 -   La herramienta [Colores de cara](Part_FaceColors.md) está ahora disponible en el entorno de trabajo PartDesign.
+
+
+</div>
 
 
 

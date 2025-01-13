@@ -1,44 +1,51 @@
 ---
  GuiCommand:
-   Name: Arch 3Views
-   MenuLocation: Arch , Utilities , 3 Views from mesh
-   Workbenches: Arch_Workbench
-   SeeAlso: Arch_SplitMesh, Arch_MeshToShape
+   Name: Arch 3Views,
+   Name/pl: Architektura: Trzy widoki
+   MenuLocation: Architektura , Narzędzia , Trzy widoki
+   Workbenches: Arch_Workbench/pl
+   SeeAlso: Arch_SplitMesh/pl, Arch_MeshToShape/pl
 ---
 
 # Arch 3Views/pl
 
-## Description
 
 
-**This command is currently not in use.**
-
-It will serve to generate flat, shape-based views from a [Mesh](Mesh_Workbench.md) based object, to be used by the **<img src="images/Arch_Equipment.svg" width=24px> [Arch Equipment](Arch_Equipment.md)** tool.
-
-## Usage
-
-1.  Select a Mesh object.
-2.  Select the **<img src="images/Arch_3Views.svg" width=16px>** button, or **Arch** → **Utilities** → **<img src="images/Arch_3Views.svg" width=16px> [3Views](Arch_3Views.md)** from the top menu.
-
-## Scripting
+## Opis
 
 
-**See also:**
+**Polecenie to nie jest obecnie używane**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+. Służy do generowania płaskich, opartych na kształtach widoków z obiektu opartego na [siatce](Mesh_Workbench/pl.md), do wykorzystania przez narzędzie **<img src="images/Arch_Equipment.svg" width=24px> [Wyposażenie](Arch_Equipment/pl.md)**.
 
-This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+
+
+## Użycie
+
+1.  Wybierz obiekt siatki.
+2.  Wybierz przycisk **<img src="images/Arch_3Views.svg" width=16px>** lub **Architektura → Narzędzia → <img src="images/Arch_3Views.svg" width=16px> Trzy widoki** z menu głównego.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Kształt z siatki** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji: 
 ```python
 shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False, largestonly=False)
 ```
 
--   Creates a flat `shape` that is the projection of the given mesh object (`obj`) in the given `direction`.
--   If `outeronly` is `True` only the outer contour is taken into consideration, discarding the inner holes.
--   If `largestonly` is `True` only the largest segment of the given mesh will be used.
+-   Tworzy płaski `shape`, który jest rzutem danego obiektu siatki (`obj`) w danym `direction`.
+-   Jeśli `outeronly` ma wartość `True`, tylko zewnętrzny kontur jest brany pod uwagę, odrzucając wewnętrzne otwory.
+-   Jeśli `largestonly` ma wartość `True`, użyty zostanie tylko największy segment danej siatki.
 
-Use `Part.show()` to display the resulting flat shape.
+Użyj `Part.show()`, aby wyświetlić wynikowy płaski kształt.
 
-Example: 
+Przykład: 
 ```python
 import FreeCAD, Draft, Arch, Mesh, MeshPart
 
@@ -72,5 +79,13 @@ mesh_obj.ViewObject.Visibility = False
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views/pl
+⏵ [documentation index](../README.md) > Arch 3Views/pl

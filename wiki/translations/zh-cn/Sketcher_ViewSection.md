@@ -10,17 +10,28 @@
 # Sketcher ViewSection/zh-cn
 
 
+</div>
+
+
 
 ## 描述
 
+
+<div class="mw-translate-fuzzy">
+
 **视图截面（View section）**工具会创建一个截面，并暂时隐藏此草图平面前侧的所有内容。
 
-<img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:320px;"> 
+
+</div>
+
+<img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:300px;"> 
 *部分隐藏草图与完全可视草图*
 
 
 
 ## 用法
+
+See also: [Sketcher Preferences](Sketcher_Preferences#Display.md).
 
 
 <div class="mw-translate-fuzzy">

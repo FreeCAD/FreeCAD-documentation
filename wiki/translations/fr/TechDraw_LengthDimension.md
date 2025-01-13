@@ -27,7 +27,13 @@ L\'outil **TechDraw Cote de longueur** ajoute une cote linéaire à une vue. La 
     -   Sélectionnez un point et une arête. Cela produira une dimension perpendiculaire. Dans {{VersionMinus/fr|0.21}}, la cote ne sera perpendiculaire que si le point a une projection perpendiculaire sur l\'arête réelle. Dans le cas contraire, la cote sera la distance entre le point et l\'extrémité la plus proche de l\'arête.
 2.  Si vous avez sélectionné une géométrie dans la vue 3D, ajoutez la bonne vue TechDraw à la sélection en la sélectionnant dans la vue en arborescense.
 3.  Il y a plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Insérer une cote de longueur](TechDraw_LengthDimension.md)**.
+    -   
+        {{Version/fr|1.0}}
+        
+        : si la [préférence](TechDraw_Preferences/fr#Cotes.md) **Outils de cotation** est réglée sur {{Value|Outil unique}} (par défaut) : appuyez sur la flèche vers le bas à droite du bouton **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** et sélectionnez l\'option **<img src="images/TechDraw_ExtensionCreateHorizChainDimension.svg" width=16px> Cotes horizontales** du menu déroulant.
+
+    -   Si cette préférence a une valeur différente (et dans {{VersionMinus/fr|0.21}}) : appuyez sur le bouton **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Insérer une cote de longueur](TechDraw_LengthDimension/fr.md)**.
+
     -   Sélectionnez l\'option **TechDraw → Dimensions → <img src="images/TechDraw_LengthDimension.svg" width=16px> Insérer une cote de longueur** du menu.
 4.  Une cote est ajoutée à la vue.
 5.  La cote peut être déplacée jusqu\'à la position souhaitée.
@@ -43,15 +49,15 @@ La cote affichera initialement la mesure projetée (c\'est-à-dire telle qu\'ell
 
 ### Changer les propriétés 
 
-Pour modifier les propriétés d\'un objet Cote, double-cliquez dessus dans le dessin ou dans la [vue en arborescence](Tree_view/fr.md). Cela ouvrira la [boîte de dialogue Dimension](#Boîte_de_dialogue_Cote.md).
+Pour modifier les propriétés d\'un objet Cote, double-cliquez dessus dans le dessin ou dans la [vue en arborescence](Tree_view/fr.md). Cela ouvrira la [fenêtre de dialogue Cote](#Fenêtre_de_dialogue_Cote.md).
 
 
 
-## Boîte de dialogue Cote 
+## Fenêtre de dialogue Cote 
 
 ![](images/TechDraw_DimensionDialog.png )
 
-La boîte de dialogue Cote propose les paramètres suivants :
+La fenêtre de dialogue Cote propose les paramètres suivants :
 
 
 

@@ -1,7 +1,7 @@
 # Installing Helpfile/ko
 ## 도움말 모듈 
 
-**유의사항:** 아래에 설명되고 있는, 프리캐드의 시스템에 있던 오프라인 도움말은 은퇴 된 상태 입니다. 이제는 프리캐드에 관한 도움말을 [Addon manager](Std_AddonMgr.md)를 통해서 설치하고 [Help Addon](https://github.com/yorikvanhavre/FreeCAD-Help) 에 의해 유지 할 수 있습니다. 추가 기능 도움말 도구를 통해 \'내려받기가 필요하지 않는 온라인 도움말\'에 접속 하거나, 내려받기 할 수 있는 도움말 문서의 복사본인 오프라인 도움말을 추가 기능 매니저를 통해서 설치하고, 접속 할 수 있습니다.
+**유의사항:** 아래에 설명되고 있는, 프리캐드의 시스템에 있던 오프라인 도움말은 은퇴 된 상태 입니다. 이제는 프리캐드에 관한 도움말을 [Addon manager를](Std_AddonMgr.md) 통해서 설치하고 [Help Addon](https://github.com/yorikvanhavre/FreeCAD-Help) 에 의해 유지 할 수 있습니다. 추가 기능 도움말 도구를 통해 \'내려받기가 필요하지 않는 온라인 도움말\'에 접속 하거나, 내려받기 할 수 있는 도움말 문서의 복사본인 오프라인 도움말을 추가 기능 매니저를 통해서 설치하고, 접속 할 수 있습니다.
 
 ## FreeCAD Helpfiles 
 

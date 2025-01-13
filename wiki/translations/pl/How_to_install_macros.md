@@ -35,21 +35,21 @@ Tutaj jest filmik o [instalowaniu makrodefinicji FreeCAD w Ubuntu](https://wiki.
 
 ### Pasek narzędzi 
 
--   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:32px;"> [Macro recording\...](Std_DlgMacroRecord.md)
--   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Stop macro recording](Std_MacroStopRecord.md)
--   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Macros\...](Std_DlgMacroExecute.md)
--   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Execute macro](Std_DlgMacroExecuteDirect.md)
+-   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:32px;"> [Rejestrowanie makr\...](Std_DlgMacroRecord/pl.md)
+-   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Zatrzymaj nagrywanie makra](Std_MacroStopRecord/pl.md)
+-   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Wykonaj makro\...](Std_DlgMacroExecute/pl.md)
+-   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Wykonaj makro bezpośrednio](Std_DlgMacroExecuteDirect/pl.md)
 
 ### Menu
 
-Besides the tools in the toolbar, the following functions are also available in the **Macro** menu.
+Oprócz narzędzi na pasku dostępne są następujące funkcje w menu **Makrodefinicje**.
 
--   [Attach to remote debugger](Std_MacroAttachDebugger.md)
--   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Debug macro](Std_MacroStartDebug.md)
--   <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;"> [Stop debugging](Std_MacroStopDebug.md)
--   [Step over](Std_MacroStepOver.md)
--   [Step into](Std_MacroStepInto.md)
--   [Toggle breakpoint](Std_ToggleBreakpoint.md)
+-   [Przełącz na debugger zewnętrzny\...](Std_MacroAttachDebugger.md)
+-   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Debudowanie makrodefinicji](Std_MacroStartDebug/pl.md)
+-   <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;"> [Zatrzymaj debugowanie](Std_MacroStopDebug/pl.md)
+-   [Krok dalej](Std_MacroStepOver/pl.md)
+-   [Wejdź do](Std_MacroStepInto/pl.md)
+-   [Przełącz punkt przerwania](Std_ToggleBreakpoint/pl.md)
 
 
 
@@ -58,9 +58,9 @@ Besides the tools in the toolbar, the following functions are also available in 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Macros are created in a specific folder under the user\'s FreeCAD directory. This directory can be configured in the [Execute macro dialog](Std_DlgMacroExecute.md), or in the [Preferences Editor](Preferences_Editor.md), through the menu **Edit → Preferences → Python → Macro → Macro recording settings**.
+Makra są tworzone w określonym folderze w katalogu FreeCAD użytkownika. Katalog ten można skonfigurować w oknie dialogowym [Wykonaj makrodefinicję](Std_DlgMacroExecute/pl.md) lub w [Edytorze preferencji](Preferences_Editor/pl.md), poprzez menu **Edycja → Preferencje → Python → Makropolecenia → Ustawienia ogólne dla makrodefinicji**.
 
-Downloaded macros should also be placed in this directory.
+Pobrane makra również powinny zostać umieszczone w tym katalogu.
 
 
 <div class="mw-collapsible-content">
@@ -69,62 +69,62 @@ Downloaded macros should also be placed in this directory.
 
 ### Katalog domyślny 
 
-Macros can be simply copied into
+Makra można po prostu skopiować do
 
 
 ```python
 $ROOT_DIR/
 ```
 
-where `$ROOT_DIR` is a top level directory searched by FreeCAD on startup.
+gdzie `$ROOT_DIR` to ścieżka najwyższego poziomu sprawdzana przez FreeCAD przy uruchamianiu.
 
-The `$ROOT_DIR` could be a system wide directory, in which case the macro is installed for all users.
+Katalog `$ROOT_DIR` może być katalogiem dostępnym systemowo, w takim przypadku makro będzie zainstalowane dla wszystkich użytkowników.
 
--   On Linux it is usually `/usr/share/freecad/`
--   On Windows it is usually `C:\Program Files\FreeCAD\`
--   On Mac OSX it is usually `/Applications/FreeCAD/`
+-   W systemie Linux zazwyczaj jest to `/usr/share/freecad/`
+-   W systemie Windows zazwyczaj jest to `C:\Program Files\FreeCAD\`
+-   W systemie macOS zazwyczaj jest to `/Applications/FreeCAD/`
 
-The `$ROOT_DIR` could be a particular user\'s directory.
+Katalog `$ROOT_DIR` może być katalogiem przypisanym do konkretnego użytkownika.
 
--   On Linux it is usually `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/` ({{VersionMinus|0.19}}).
--   On Windows it is usually `C:\Users\username\AppData\FreeCAD\`
--   On Mac OSX it is usually `/Users/username/Library/Preferences/FreeCAD/`
+-   W systemie Linux zazwyczaj jest to `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) lub `/home/username/.FreeCAD/` ({{VersionMinus|0.19}}).
+-   W systemie Windows zazwyczaj jest to `C:\Users\username\AppData\FreeCAD\`
+-   W systemie macOS zazwyczaj jest to `/Users/username/Library/Preferences/FreeCAD/`
 
 
 
 ### Konfiguracja katalogu użytkownika 
 
-1\. Open the menu **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)** to open the [Execute macro dialog](Std_DlgMacroExecute.md).
+1\. Otwórz menu **Makrodefinicje → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makra...](Std_DlgMacroExecute/pl.md)**, aby otworzyć [okno wykonania makra](Std_DlgMacroExecute/pl.md).
 
 ![](images/Dxf_Importer_Install_01.png ) 
-*align=center|Opening the Execute macro dialog*
+*align=center|Otwieranie okna uruchamiania makra*
 
-2\. Set the appropriate `User macros location`.
+2\. Ustaw odpowiednią `Lokalizację makr użytkownika`.
 
--   Linux: usually `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/` ({{VersionMinus|0.19}})
--   Windows: usually `C:\Users\username\AppData\Roaming\FreeCAD\`
--   MacOS: usually `/Users/username/Library/Preferences/FreeCAD/`
+-   Linux: zazwyczaj `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) lub `/home/username/.FreeCAD/` ({{VersionMinus|0.19}})
+-   Windows: zazwyczaj `C:\Users\username\AppData\Roaming\FreeCAD\`
+-   MacOS: zazwyczaj `/Users/username/Library/Preferences/FreeCAD/`
 
 ![](images/Dxf_Importer_Install_02.png ) 
-*align=center|Setting of the macros directory*
+*align=center|Ustawianie lokalizacji makr*
 
-3\. Navigate to that directory in your computer.
+3\. Przejdź do tego katalogu na swoim komputerze.
 
--   Linux: paste the address into your file manager, \"Nautilus\" or other. You may have to press **Ctrl**+**H** to make the hidden directory `.FreeCAD/` visible.
--   Windows: paste the address into your \"File explorer\" and confirm.
--   MacOS: locate the folder in the \"Finder\" or paste the address into a \"File explorer\"; remember the `file:///` prefix in the \"File explorer\" for a file on disk.
+-   Linux: wklej adres do menedżera plików, takiego jak \"Nautilus\" lub inny. Możesz potrzebować nacisnąć **Ctrl**+**H**, aby wyświetlić ukryty katalog `.FreeCAD/`.
+-   Windows: wklej adres do \"Eksploratora plików\" i potwierdź.
+-   MacOS: zlokalizuj folder w \"Finderze\" lub wklej adres do \"Eksploratora plików\"; pamiętaj o prefiksie `file:///` dla pliku na dysku.
 
 ![](images/Dxf_Importer_Install_03.png ) 
-*align=center|Accessing the macros directory in the operating system*
+*align=center|Otwieraie ścieżki makr w systemie operacyjnym*
 
-4\. Add macro files to this directory.
+4\. Dodaj pliki makr do tego katalogu.
 
--   Linux: leave the file manager open, and bookmark the location for faster access.
--   Windows: leave open the file explorer.
--   MacOS: either leave a \"Finder\" window open, or bookmark the location in your \"File explorer\", or set up an \"Alias\" to point to it, or drag the folder into the \"SideBar\" of the \"Finder\" so it is there to use from other programs such as text editors.
+-   Linux: pozostaw menedżera plików otwartego i dodaj lokalizację do zakładek dla szybszego dostępu.
+-   Windows: pozostaw otwarty \"Eksplorator plików\".
+-   MacOS: możesz pozostawić otwarte okno \"Findera\", dodać lokalizację do zakładek w \"Eksploratorze plików\", utworzyć \"Alias\", który będzie wskazywał na ten katalog, lub przeciągnąć folder do \"Pasek boczny\" w \"Finderze\", aby mieć do niego dostęp z innych programów, takich jak edytory tekstu.
 
 ![](images/Dxf_Importer_Install_04.png ) 
-*align=center|Macros directory*
+*align=center|Ścieżka makr*
 
 
 
@@ -151,12 +151,12 @@ Poczynając od FreeCAD 0.17, użyj [Menadżera dodatków](Std_AddonMgr/pl.md) w 
 
 <div class="mw-collapsible-content">
 
-In past versions of FreeCAD you could use two automated ways to install macros and other addons:
+W poprzednich wersjach FreeCAD można było korzystać z dwóch automatycznych sposobów instalacji makr i innych dodatków:
 
--   [addons_installer.FCMacro](https://github.com/FreeCAD/FreeCAD-addons): itself a macro, this was the precursor to the Addon Manager, and is hosted in the [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons) repository. You don\'t need to use this tool in new installations of FreeCAD.
--   [freecad-pluginloader](https://github.com/microelly2/freecad-pluginloader): also a macro, it could be used to install new components to FreeCAD. It is no longer developed.
+-   [addons_installer.FCMacro](https://github.com/FreeCAD/FreeCAD-addons): to makro, które było poprzednikiem Menedżera dodatków i jest hostowane w repozytorium [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons). W nowych instalacjach FreeCAD nie trzeba już korzystać z tego narzędzia.
+-   [freecad-pluginloader](https://github.com/microelly2/freecad-pluginloader): także makro, które można było używać do instalowania nowych komponentów w FreeCAD. Obecnie nie jest już rozwijane.
 
-The recommended way to install addons, that is, [external workbenches](external_workbenches.md) and macros, is the [Addon Manager](Std_AddonMgr.md). However, you can still add macros to your system with the manual methods described in the following sections; this is useful if you are developing and testing your own code.
+Zalecaną metodą instalacji dodatków, czyli [zewnętrznych środowisk pracy](External_workbenches/pl.md) i makr, jest [Menedżer dodatków](Std_AddonMgr/pl.md). Można jednak nadal dodawać makra do systemu za pomocą metod ręcznych opisanych w poniższych sekcjach; jest to przydatne, jeśli rozwijasz i testujesz własny kod.
 
 
 </div>
@@ -171,85 +171,85 @@ The recommended way to install addons, that is, [external workbenches](external_
 
 ### Metoda manualna 1. Skopiuj kod do edytora makrodefinicji 
 
-For macros that are relatively small, 300 lines or less, the code can be copied and pasted directly into the FreeCAD macro editor.
+W przypadku makr, które są stosunkowo małe, 300 linii lub mniej, kod można skopiować i wkleić bezpośrednio do edytora makr FreeCAD.
 
 
 <div class="mw-collapsible-content">
 
-We will use <img alt="" src=images/Part_Prism_Apothem.svg  style="width:24px;"> [Macro Apothem Based Prism GUI](Macro_Apothem_Based_Prism_GUI.md) as an example.
+Użyjemy <img alt="" src=images/Part_Prism_Apothem.svg  style="width:24px;"> [Macro Apothem Based Prism GUI](Macro_Apothem_Based_Prism_GUI/pl.md) jako przykładu.
 
-1\. Go to the macro wiki page, which should be listed in [Macros recipes](Macros_recipes.md).
+1\. Przejdź do strony wiki makra, która powinna być wymieniona w [Przepisy na makra](Macro_recipes/pl.md).
 
-If there is a custom icon download it; click on it with the right mouse button and select `Save image as...`; place the icon in the macros directory. This icon can be used as a shortcut for the macro in a [custom toolbar](Customize_Toolbars.md). The default icon is <img alt="" src=images/Text-x-python.png  style="width:24px;">.
+Jeśli masz niestandardową ikonę, pobierz ją; kliknij na nią prawym przyciskiem myszy i wybierz `Zapisz obraz jako...`; umieść ikonę w katalogu makr. Ta ikona może być używana jako skrót do makra w [niestandardowym pasku narzędzi](Customize_Toolbars.md). Domyślną ikoną jest <img alt="" src=images/Text-x-python.png  style="width:24px;">.
 
 ![](images/Macro_Install_HowTo_28.png ) 
-*align=center|Downloading the icon from the macro page*
+*align=center|Pobieranie ikony ze strony makra*
 
-2\. In the macro page, select the code inside the **Script** or **Macro** sections, and copy it.
+2\. Na stronie makra wybierz kod znajdujący się w sekcjach **Skrypt** lub **Makro**, a następnie skopiuj go.
 
-3\. In FreeCAD, open the menu **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)** to open the [Execute macro dialog](Std_DlgMacroExecute.md).
+3\. We FreeCAD otwórz menu **Makrodefinicje → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makrodefinicje...](Std_DlgMacroExecute/pl.md)**, aby otworzyć [okno wykonania makra](Std_DlgMacroExecute/pl.md).
 
 ![](images/Dxf_Importer_Install_01.png ) 
-*align=center|Opening the Execute macro dialog*
+*align=center|Otwieranie okna uruchamiania makra*
 
-4\. Click **Create**.
+4\. Kliknij **Utwórz**.
 
 ![](images/Macro_Install_HowTo_17.png ) 
-*align=center|Creating a new macro*
+*align=center|Tworzenie nowego makra*
 
-5\. Enter the macro name, here `Macro_Apothem_Based_Prism_GUI`, and press **OK**.
+5\. Wprowadź nazwę makra, tutaj `Macro_Apothem_Based_Prism_GUI` i kliknij **OK**.
 
 ![](images/Macro_Install_HowTo_18.png ) 
-*align=center|Entering the macro name*
+*align=center|Wprowadzanie nazwy makra*
 
-6\. The macro editor opens, showing the full path of the new macro.
+6\. Zostanie otwarty edytor makra, pokazując pełną ścieżkę nowego makra.
 
 ![](images/Macro_Install_HowTo_19.png ) 
-*align=center|The macro editor*
+*align=center|Edytor makra*
 
-7\. Paste the code in the editor window, and then click the cross on the tab to close the window.
+7\. Wklej kod w oknie edytora, a następnie kliknij krzyżyk na karcie, aby zamknąć okno.
 
 ![](images/Macro_Install_HowTo_20.png ) 
-*align=center|Closing the macro editor*
+*align=center|Zamykanie edytora makr*
 
-8\. A window appears asking for confirmation to save the code; click on **Yes**. You can also use **Ctrl**+**S** to save the file.
+8\. Pojawi się okno z prośbą o potwierdzenie zapisania kodu; kliknij **Tak**. Możesz również użyć **Ctrl**+**S**, aby zapisać plik.
 
-Restart FreeCAD to correctly register the new macro.
+Zrestartuj program FreeCAD aby poprawnie zarejestrować nowe makro.
 
 ![](images/Macro_Install_HowTo_27.png ) 
-*align=center|Asking for confirmation to save the code*
+*align=center|Pytanie o potwierdzenie zapisania kodu*
 
-9\. Open the menu again, **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)**, select the new macro and press **Execute**.
+9\. Otwórz ponownie menu **Makrodefinicje → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makrodefinicje...](Std_DlgMacroExecute.md)**, wybierz nowo dodane makro i naciśnij **Wykonaj**.
 
 ![](images/Macro_Install_HowTo_21.png ) 
-*align=center|Selecting the macro to run it*
+*align=center|Wybieranie makra aby je uruchomić*
 
-10\. The macro now runs. Fill in the fields with your values and click the **OK** button.
+10\. Makro zostanie teraz uruchomione. Wypełnij pola swoimi wartościami i kliknij przycisk **OK**.
 
 ![](images/Macro_Install_HowTo_22.png ) 
-*align=center|The macro in action; fill in the information and press OK when ready*
+*align=center|Makro w działaniu; wypełnij informacje i naciśnij OK, gdy będziesz gotowy*
 
-11\. This macro should return an error if no document is active; other macros open a new document if none exists.
+11\. To makro powinno zwrócić błąd, jeśli żaden dokument nie jest aktywny; inne makra otwierają nowy dokument, jeśli żaden nie istnieje.
 
-Create a new document with **File → <img src="images/Std_New.svg" width=16px> [New](Std_New.md)**, and then repeat the previous steps to execute the macro.
+Utwórz nowy dokument za pomocą **Plik → <img src="images/Std_New.svg" width=16px> [Nowy](Std_New/pl.md)**, a następnie powtórz poprzednie kroki, aby uruchomić makro.
 
 ![](images/Macro_Install_HowTo_23.png) 
-*align=center|The macro returning an error if no document is active*
+*align=center|Makro zwracające błąd gdy żaden dokument nie jest aktywny*
 
-12\. Once an active document is available, the macro runs and creates an object.
+12\. Gdy aktywny dokument jest dostępny, makro uruchomi się i utworzy obiekt.
 
 ![](images/Macro_Install_HowTo_24.png ) 
-*align=center|Object created by the macro*
+*align=center|Obiekt utworzony przez makro*
 
-13\. You can open the macro in the editor again to run it or modify it. Go to **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)**, select the macro and press **Edit**.
+13\. Możesz ponownie otworzyć makro w edytorze, aby je uruchomić lub zmodyfikować. Przejdź do **Makrodefinicje → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makrodefinicje...](Std_DlgMacroExecute/pl.md)**, wybierz makro i naciśnij **Edycja**.
 
 ![](images/Macro_Install_HowTo_25.png ) 
-*align=center|Opening the macro in the editor*
+*align=center|Otwieranie makra w edytorze*
 
-14\. The macro can now be run with **Macro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Execute macro](Std_DlgMacroExecuteDirect.md)**, or by clicking on the **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Std DlgMacroExecuteDirect](Std_DlgMacroExecuteDirect.md)** button in the toolbar.
+14\. Makro można teraz uruchomić za pomocą **Makrodefinicje → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Wykonaj makrodefinicję](Std_DlgMacroExecuteDirect/pl.md)**, lub klikając przycisk **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Wykonaj makrodefinicję](Std_DlgMacroExecuteDirect/pl.md)** na pasku narzędzi.
 
 ![](images/Macro_Install_HowTo_26.png ) 
-*align=center|Running the macro that is loaded in the editor*
+*align=center|Uruchamianie makra załadowanego w edytorze*
 
 
 </div>
@@ -264,67 +264,67 @@ Create a new document with **File → <img src="images/Std_New.svg" width=16px> 
 
 ### Metoda manualna 2. Dodanie pliku zawierającego makroinstrukcje ze skompresowanego pliku .zip 
 
-Some macros are too big that it\'s inconvenient to copy and paste them into the macro editor, or they cannot be hosted in the wiki. In this case, the code may be hosted somewhere else, in a Github repository, or in the [FreeCAD forum](https://forum.freecadweb.org/). The code may also be compressed into a `.zip` file, tarball `.tar.xz`, or other type of archive if it contains several files. If the code is distributed in this way, the archive should be extracted and the files placed in the macros directory.
+Niektóre makra są zbyt duże, aby wygodnie kopiować je i wklejać do edytora makr, lub nie mogą być hostowane na wiki. W takim przypadku kod może być hostowany gdzie indziej, na przykład w repozytorium Github lub na [forum FreeCAD](https://forum.freecadweb.org/). Kod może być również skompresowany w pliku `.zip`, archiwum tarball `.tar.xz` lub innym typie archiwum, jeśli zawiera kilka plików. Jeśli kod jest dystrybuowany w ten sposób, archiwum należy wyodrębnić, a pliki umieścić w katalogu makr.
 
 
 <div class="mw-collapsible-content">
 
-We will use <img alt="" src=images/Text-x-python.png  style="width:24px;"> [Macro screw maker](Macro_screw_maker1_2.md) as an example.
+Skorzystamy z <img alt="" src=images/Text-x-python.png  style="width:24px;"> [Macro screw maker](Macro_screw_maker1_2/pl.md) jako przykładu.
 
-1\. Download the compressed code from the forum, [Screw Maker](http://forum.freecadweb.org/viewtopic.php?f=22&t=6558#p52887).
+1\. Pobierz skompresowany kod z forum, [Screw Maker](http://forum.freecadweb.org/viewtopic.php?f=22&t=6558#p52887).
 
-You need to use a decompressor to get the internal files.
+Aby uzyskać pliki wewnętrzne, musisz użyć narzędzia do dekompresji.
 
--   For Windows you can use an application like [7-zip](http://www.7-zip.org/) or [L-Zarc](http://www.kanmandet.dk/?p=37) or [quickzip](http://www.quickzip.org/quickzip51.html).
--   For Linux you can use a command from the terminal
+-   Dla Windows możesz użyć aplikacji takich jak [7-zip](http://www.7-zip.org/), [L-Zarc](http://www.kanmandet.dk/?p=37) lub [quickzip](http://www.quickzip.org/quickzip51.html).
+-   Dla Linux możesz użyć polecenia z terminala:
 
 
 ```python
 unzip your_file.zip -d your_directory
 ```
 
-2\. Download the compressed archive with the macro code to a local folder.
+2\. Pobierz skompresowane archiwum z kodem makra do lokalnego folderu.
 
 ![](images/Macro_Install_HowTo_01.png ) 
-*align=center|Downloading the compressed archive to a local directory*
+*align=center|Pobieranie skompresowanego archiwum do ścieżki lokalnej*
 
-3\. Decompress the file in the folder.
+3\. Zdekompresuj plik w folderze.
 
 ![](images/Macro_Install_HowTo_02.png ) 
-*align=center|Decompressing the file in the folder*
+*align=center|Dekompresowanie pliku w folderze*
 
-4\. The decompressor creates a new directory with the unpacked files.
+4\. Dekompresor tworzy nową ścieżkę z rozpakowanymi plikami.
 
 ![](images/Macro_Install_HowTo_03.png ) 
-*align=center|New directory created after unpacking the archive*
+*align=center|Nowa ścieżka utworzona po rozpakowaniu archiwum*
 
-5\. Go inside the new directory, and copy or cut the macro file.
+5\. Przejdź do nowej ścieżki i skopiuj lub wytnij plik makra.
 
 ![](images/Macro_Install_HowTo_04.png ) 
-*align=center|Entering the newly created directory with the decompressed macro file*
+*align=center|Wprowadzanie nowo utworzonej ścieżki ze zdekompresowanym plikiem makra*
 
-6\. Go to the macro directory and paste the file there.
+6\. Przejdź do ścieżki makr i wklej tam plik.
 
 ![](images/Macro_Install_HowTo_05.png ) 
-*align=center|Placing the macro file in the macro directory*
+*align=center|Umieszczanie pliku makra w ścieżce makr*
 
-7\. In FreeCAD, open the menu **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)** to open the [Execute macro dialog](Std_DlgMacroExecute.md).
+7\. We FreeCAD, otwórz menu **Makrodefinicje → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makrodefinicje...](Std_DlgMacroExecute/pl.md)** aby otworzyć [okno uruchamiania makra](Std_DlgMacroExecute/pl.md).
 
 ![](images/Macro_Install_HowTo_06.png ) 
-*align=center|Opening the Execute macro dialog*
+*align=center|Otwieranie okna uruchamiania makra*
 
-8\. Select the new macro and press **Execute**.
+8\. Wybierz nowe makro i wciśnij **Wykonaj**.
 
 ![](images/Macro_Install_HowTo_07.png ) 
-*align=center|Selecting the macro to run it*
+*align=center|Wybieranie makra do uruchomienia go*
 
-9\. The macro now runs. Select the desired options, and click the **Create** button.
+9\. Makro jest teraz uruchomione. Wybierz odpowiednie opcje i wciśnij przycisk **Utwórz**.
 
 <img alt="" src=images/Macro_Install_HowTo_08.png  style="width:640px;"> 
-*align=center|The macro in action; select the desired options, and press Create when ready*
+*align=center|Makro w działaniu: wybierz odpowiednie opcje i wciśnij Utwórz gdy gotowe*
 
 ![](images/Macro_Install_HowTo_30.png ) 
-*align=center|Object created by the macro*
+*align=center|Obiekt utworzony przez makro*
 
 
 </div>
@@ -339,19 +339,19 @@ unzip your_file.zip -d your_directory
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Command line execute a macro (.FCMacro or .py)
+Uruchamianie makra z linii poleceń (.FCMacro lub .py)
 
 
 <div class="mw-collapsible-content">
 
-on Windows
+na Windows
 
 
 ```python
 "C:\Program Files\FreeCAD\bin\FreeCAD.exe" "C:\Users\userName\AppData\Roaming\FreeCAD\Mod\WorkFeature\start_WF.FCMacro"
 ```
 
-on Linux
+na Linux
 
 
 ```python
@@ -375,14 +375,14 @@ todo
 
 ### Błędy wcięć 
 
-The white space at the beginning of the lines (indentation) in the [Python](Python.md) programming language is very important, and an integral part of the code. An inappropriate space may cause the code to not run or present errors.
+W języku programowania [Python](Python/pl.md) biała spacja na początku linii (wcięcie) jest bardzo ważna i stanowi integralną część kodu. Nieodpowiednie wcięcia mogą spowodować, że kod nie będzie działał lub wywoła błędy.
 
-This section describes some errors that may be encountered when copying and pasting, and writing macro code.
+Ta sekcja opisuje niektóre błędy, które mogą wystąpić podczas kopiowania i wklejania oraz pisania kodu makr.
 
 
 <div class="mw-collapsible-content">
 
-A typical indentation error looks like this:
+Typowy błąd wcięcia wygląda następująco:
 
 
 ```python
@@ -393,68 +393,68 @@ A typical indentation error looks like this:
 
 #### Przykład 1 
 
-If the code lacks any indentation, the code won\'t work. Class (`class`) and function definitions (`def()`), as well as control structures (`if`, `while`, `for`) should be followed by a block of indented code.
+Jeśli kod nie zawiera wcięć, nie będzie działał. Definicje klas (`class`) i funkcji (`def()`), a także struktury kontrolne (`if`, `while`, `for`) powinny być następnie śledzone przez blok kodu z wcięciem.
 
-This error is possible if the user doesn\'t copy the code correctly, and all spaces are accidentally removed.
+Ten błąd może wystąpić, jeśli użytkownik nie skopiuje kodu poprawnie i wszystkie spacje zostaną przypadkowo usunięte.
 
 ![](images/Macro_Install_HowTo_09.png ) 
-*align=center|Python code that lacks any indentation; it will cause an error when it's run*
+*align=center|Kod Pythona, któremu brakuje wcięcia; wywoła to błąd przy uruchamianiu kodu*
 
-Indentation problem fixed.
+Problem wcięcia rozwiązany.
 
 ![](images/Macro_Install_HowTo_10.png ) 
-*align=center|Python code with the correct indentation*
+*align=center|Kod Pythona z odpowiednim wcięciem*
 
-If the code is selected, all lines should be highlighted all the way to the left edge, indicating that the lines are aligned.
+Jeśli kod jest zaznaczony, wszystkie linie powinny być wyróżnione aż do lewej krawędzi, co wskazuje, że linie są wyrównane.
 
 ![](images/Macro_Install_HowTo_11.png ) 
-*align=center|Python code highlighted, showing that all lines start at the left edge*
+*align=center|Podświetlenie kodu Pythona pokazujące, że wszystkie linie zaczynają się od lewej krawędzi*
 
 
 
 #### Przykład 2 
 
-If an additional space is introduced at the beginning of all lines, the Python interpreter will fail and complain about unnecessary indentation. In this case, all lines need the initial space removed.
+Jeśli na początku wszystkich linii zostanie dodana dodatkowa spacja, interpreter Pythona zgłosi błąd i narzeka na niepotrzebne wcięcia. W takim przypadku należy usunąć początkową spację ze wszystkich linii.
 
 ![](images/Macro_Install_HowTo_12.png ) 
-*align=center|Python code with additional space on each line*
+*align=center|Kod Pythona z dodatkową spacją w każdej linii*
 
 
 
 #### Przykład 3 
 
-Here the code has been copied from a forum thread by using the **Select all** button. Apparently the selection is good.
+Oto kod skopiowany z wątku na forum przy użyciu przycisku **Wybierz wszystko**. Wygląda na to, że zaznaczenie jest poprawne.
 
 ![](images/Macro_Install_HowTo_14.png ) 
-*align=center|Python code copied from a forum*
+*align=center|Kod Pythona skopiowany z forum*
 
-However, when the selection is pasted into the macro editor, undesirable indentation seems to appear.
+Jednakże, po wklejeniu zaznaczenia do edytora makr, wydaje się, że pojawia się niepożądane wcięcie.
 
 ![](images/Macro_Install_HowTo_15.png ) 
-*align=center|Python code copied from a forum into the macro editor; unnecessary indentation is added*
+*align=center|Kod Pythona skopiowany z forum do edytora makr; zbędne wcięcie jest dodane*
 
-In this case, the initial spaces need to be removed. This can be done with a specialized text editor to quickly decrease the indentation of the lines.
+W takim przypadku należy usunąć początkowe wcięcia. Można to zrobić za pomocą specjalistycznego edytora tekstu, aby szybko zmniejszyć wcięcia w liniach.
 
-In Windows, [Notepad++](http://notepad-plus-plus.org/) can perform selection with **Alt** + Mouse dragging, and then use **Edit → Indent → Decrease the indentation**.
+W systemie Windows, [Notepad++](http://notepad-plus-plus.org/) umożliwia zaznaczenie tekstu przy użyciu **Alt** + przeciąganie myszą, a następnie użycie opcji **Edycja → Wcięcie → Zmniejsz wcięcie**.
 
 ![](images/Macro_Install_HowTo_16.png ) 
-*align=center|Python code with the correct indentation*
+*align=center|Kod Pythona z odpowiednim wcięciem*
 
 
 
 #### Przykład 4 
 
-Here the selection also selects the line numbers in the code example. If this selection is pasted into the macro editor, it won\'t work. All line numbers need to be removed, and the spaces adjusted so that the Python code has the proper indentation.
+Tutaj zaznaczenie obejmuje także numery linii w przykładzie kodu. Jeśli to zaznaczenie zostanie wklejone do edytora makr, kod nie będzie działał. Wszystkie numery linii muszą zostać usunięte, a spacje dostosowane, aby kod Pythona miał odpowiednie wcięcia.
 
 ![](images/Macro_Install_HowTo_29.png ) 
-*align=center|Selection that also selects the line numbers; if this code is pasted into the macro editor, it won't work*
+*align=center|Zaznaczenie, które obejmuje także numery linii; jeśli ten kod zostanie wklejony do edytora makr, nie będzie działał*
 
 
 
 #### Dobry kod 
 
 ![](images/Macro_Install_HowTo_13.png ) 
-*align=center|Python code with the correct indentation*
+*align=center|Kod Pythona z odpowiednim wcięciem*
 
 
 </div>
@@ -469,9 +469,9 @@ Here the selection also selects the line numbers in the code example. If this se
 
 ### Brak wyjścia tekstu z makrodefinicji 
 
-Macros may output information to the report view to detail what the code is doing when it is running.
+Makra mogą wyświetlać informacje w widoku raportu, aby szczegółowo opisać, co kod robi podczas jego wykonywania.
 
-If no information is displayed, make sure the report view and [Python](Python.md) console are visible, and that the output is directed tot he report view.
+Jeśli żadna informacja nie jest wyświetlana, upewnij się, że widok raportu i konsola [Pythona](Python/pl.md) są widoczne, a wyjście jest kierowane do widoku raportu.
 
 
 <div class="mw-collapsible-content">
@@ -480,9 +480,9 @@ If no information is displayed, make sure the report view and [Python](Python.md
 
 #### Informacje dotyczące drukowania 
 
-FreeCAD macros have two methods to print information to the report view.
+Makra FreeCAD mają dwa sposoby drukowania informacji w widoku raportu:
 
-The FreeCAD functions
+Funkcje FreeCAD
 
 
 ```python
@@ -491,7 +491,7 @@ FreeCAD.Console.PrintError("Hello World! \n")
 FreeCAD.Console.PrintWarning("Hello World! \n")
 ```
 
-The simple Python function
+Prosta funkcja Pythona
 
 
 ```python
@@ -502,54 +502,54 @@ print("Hello World!")
 
 #### Uaktywnienie widoku raportu 
 
-To see the information displayed in the console you should:
+Aby zobaczyć informacje wyświetlane w konsoli powinieneś:
 
-1\. Go to the menu **View → Panels**.
+1\. Przejść do menu **Widok → Panele**.
 
 ![](images/Macro_Install_HowTo_31.png )
 
 ![](images/Macro_Install_HowTo_32.png ) 
-*align=center|Making the panels visible in the menu View → Panels*
+*align=center|Uwidacznianie paneli w menu Widok → Panel*
 
-2\. Enable the `Report view` and the `Python console`.
+2\. Włącz `Widok raportu` i `konsolę Pythona`.
 
 ![](images/Macro_Install_HowTo_33.png ) 
-*align=center|Enabling the report view and the Python console*
+*align=center|Włączanie widoku raportu i konsoli Pythona*
 
-3\. The panels are now visible, and commands like `FreeCAD.Console.PrintMessage()` now print information that appears in the `Report view`.
+3\. Panele są teraz widoczne i polecenia takie jak `FreeCAD.Console.PrintMessage()` pokazują informacje, które pojawiają się w `widoku raportu`.
 
 ![](images/Macro_Install_HowTo_34.png ) 
-*align=center|FreeCAD main window with the Report view and the Python console*
+*align=center|Główne okno programu FreeCAD z widokiem raportu i konsolą Pythona*
 
 
 
 #### Włączenie polecenia print() 
 
-FreeCAD may need to be configured so the `print()` function of [Python](Python.md) redirects its output correctly to the report view.
+FreeCAD może wymagać konfiguracji, aby funkcja `print()` w [Pythonie](Python/pl.md) poprawnie przekierowywała swoje wyjście do widoku raportu.
 
-1\. Go into the [Preferences Editor](Preferences_Editor.md) with the menu **Edit → Preferences**.
+1\. Przejdź do [Edytora preferencji](Preferences_Editor/pl.md) z menu **Edycja → Preferencje**.
 
 ![](images/Macro_Install_HowTo_35.png ) 
-*align=center|Going into the preferences editor*
+*align=center|Przechodzenie do edytora preferencji*
 
-2\. Go to **Python** section, and then **Output window → Python interpreter**.
+2\. Przejdź do sekcji **Python** a następnie **Okno wyników → Interpreter Pythona**.
 
 ![](images/Macro_Install_HowTo_36.png ) 
-*align=center|Output window preferences*
+*align=center|Preferencje okna wyników*
 
-3\. Check both boxes:
+3\. Zaznacz oba pola:
 
--   <img alt="" src=images/Case_a_cocher_O.png  style="width:16px;"> Redirect internal Python output to report view
+-   <img alt="" src=images/Case_a_cocher_O.png  style="width:16px;"> Przekieruj wewnętrzne wyniki Pythona do widoku raportu
 
--   <img alt="" src=images/Case_a_cocher_O.png  style="width:16px;"> Redirect internal Python errors to report view
+-   <img alt="" src=images/Case_a_cocher_O.png  style="width:16px;"> Przekieruj wewnętrzne błędy Pythona do widoku raportu
 
-and then press the **OK** button.
+a następnie wciśnij przycisk **OK**.
 
 ![](images/Macro_Install_HowTo_37.png ) 
-*align=center|Redirecting the Python output to the report view*
+*align=center|Przekierowywanie wyników Pythona do widoku raportu*
 
 ![](images/Macro_Install_HowTo_38.png ) 
-*align=center|Python commands printing information to the report view*
+*align=center|Polecenia Pythona wyświetlające informacje do widoku raportu*
 
 
 </div>

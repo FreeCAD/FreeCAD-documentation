@@ -37,6 +37,8 @@ To preserve resources, FreeCAD does not automatically load all available workben
 
 Некоторые дополнительные настройки можно изменить только в [Редакторе параметров](Std_DlgParameter/ru.md). На странице [Точных настроек](Fine-tuning/ru.md) перечислены некоторые из них.
 
+This page has been updated for version 1.0.
+
 
 
 ## Основные
@@ -49,13 +51,21 @@ To preserve resources, FreeCAD does not automatically load all available workben
 
 </div>
 
-In {{VersionMinus|0.21}} the seventh tab, Help, is only available if the [Help Addon](https://github.com/FreeCAD/FreeCAD-Help) has been [installed](Std_AddonMgr.md).
+In {{VersionMinus|0.21}} the seventh page, Help, is only available if the [Help Addon](https://github.com/FreeCAD/FreeCAD-Help) has been [installed](Std_AddonMgr.md).
 
 
 
 ### Основные 
 
+<img alt="" src=images/Preferences_General_Page_General.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
 Вкладка *Основные* позволяет настроить следующие параметры:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -154,18 +164,18 @@ In {{VersionMinus|0.21}} the seventh tab, Help, is only available if the [Help A
 </div>
 
 
-<div class="mw-translate-fuzzy">
-
-![](images/Preferences_General_Tab_General_ru.png )
-
-
-</div>
-
-
 
 ### Документ
 
+<img alt="" src=images/Preferences_General_Page_Document.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
 Вкладка *Документ* позволяет настроить следующие параметры:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -245,11 +255,11 @@ In {{VersionMinus|0.21}} the seventh tab, Help, is only available if the [Help A
 
 </div>
 
-![](images/Preferences_General_Tab_Document_ru.png )
-
 
 
 ### Выделение
+
+<img alt="" src=images/Preferences_General_Page_Selection.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -289,21 +299,23 @@ In {{VersionMinus|0.21}} the seventh tab, Help, is only available if the [Help A
 
 </div>
 
-![](images/Preferences_General_Tab_Selection_ru.png )
+Note that objects created while this option is not checked will have their **Selectable** property set to `False`. With that value they are not selectable in the 3D view, even if this option is checked again. \|- \| **Pick radius (px)** \| Sets the area for picking elements in the [3D view](3D_view.md). Larger value makes it easier to pick things, but can make some small features impossible to select. \|- \| **Auto switch to the 3D view containing the selected item** \| Enables the [Tree view SyncView mode](Std_TreeSyncView.md). \|- \| **Auto expand tree item when the corresponding object is selected in 3D view** \| Enables the [Tree view SyncSelection mode](Std_TreeSyncSelection.md). \|- \| **Preselect the object in 3D view when mouse over the tree item** \| Enables the [Tree view PreSelection mode](Std_TreePreSelection.md). \|- \| **Record selection in tree view in order to go back/forward using navigation button** \| Enables the [Tree view RecordSelection mode](Std_TreeRecordSelection.md). \|- \| **Add checkboxes for selection in document tree** \| Each [Tree view](Tree_view.md) item will get a checkbox. This is for example useful for selecting multiple items on a touchscreen. \|}
 
 
 
 ### Кэш
 
+<img alt="" src=images/Preferences_General_Page_Cache.png  style="width:400px;">
+
 These preferences are related to the cache directory where FreeCAD stores temporary files.
 
-On the *Cache* tab (<small>(v0.20)</small> ) you can specify the following:
+On this page you can specify the following:
 
 +++
 | Name                                                | Description                                                                                                                                 |
 +=====================================================+=============================================================================================================================================+
-|                                      | Specifies the path of the cache directory.                                                                                                  |
-| **Location**                            |                                                                                                                                             |
+|                                      | Shows the path of the cache directory. Use the **![16px](images/Document-open.svg)** button to browse the directory.    |
+| **Location (read-only)**                |                                                                                                                                             |
 |                                                  |                                                                                                                                             |
 +++
 |                                      | Controls the frequency with which the directory size is checked. The options are:                                                           |
@@ -329,13 +341,13 @@ On the *Cache* tab (<small>(v0.20)</small> ) you can specify the following:
 |                                                  |                                                                                                                                             |
 +++
 
-![](images/Preferences_General_Tab_Cache.png )
-
 ### Notification Area 
+
+<img alt="" src=images/Preferences_General_Page_Notification_Area.png  style="width:400px;">
 
 These preferences control the Notification Area and its notifications.
 
-On the *Notification Area* tab (<small>(v0.21)</small> ) you can specify the following:
+On this page (<small>(v0.21)</small> ) you can specify the following:
 
 +++
 | Name                                                | Description                                                                                                |
@@ -348,12 +360,12 @@ On the *Notification Area* tab (<small>(v0.21)</small> ) you can specify the fol
 | **Enable non-intrusive notifications**  |                                                                                                            |
 |                                                  |                                                                                                            |
 +++
-|                                      | If checked, errors will appear in the Notification Area.                                                   |
-| **Errors**                              |                                                                                                            |
+|                                      | If checked, errors intended for developers will appear in the Notification Area.                           |
+| **Debug errors**                        |                                                                                                            |
 |                                                  |                                                                                                            |
 +++
-|                                      | If checked, warnings will appear in the Notification Area.                                                 |
-| **Warnings**                            |                                                                                                            |
+|                                      | If checked, warnings intended for developers will appear in the Notification Area.                         |
+| **Debug warnings**                      |                                                                                                            |
 |                                                  |                                                                                                            |
 +++
 |                                      | Maximum duration during which notifications are shown (unless mouse buttons are clicked).                  |
@@ -389,9 +401,9 @@ On the *Notification Area* tab (<small>(v0.21)</small> ) you can specify the fol
 |                                                  |                                                                                                            |
 +++
 
-![](images/Preferences_General_Tab_Notification_Area.png )
-
 ### Report view 
+
+<img alt="" src=images/Preferences_General_Page_Report_view.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -400,6 +412,8 @@ On the *Notification Area* tab (<small>(v0.21)</small> ) you can specify the fol
 
 
 </div>
+
+The Report view uses the same font settings as the [Macro editor](#Editor.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -485,74 +499,90 @@ On the *Notification Area* tab (<small>(v0.21)</small> ) you can specify the fol
 </div>
 
 
+
+### Справка
+
+<img alt="" src=images/Preferences_General_Page_Help.png  style="width:400px;">
+
+On this page you can specify the following:
+
++++
+| Name                              | Description                                                                                                                                                                                                                     |
++===================================+=================================================================================================================================================================================================================================+
+|                    | Specifies the source of the Help files. The options are:                                                                                                                                                                        |
+| **Source**            |                                                                                                                                                                                                                                 |
+|                                | -                                                                                                                                                                                                                |
+|                                   |     **FreeCAD Wiki (online)**                                                                                                                                                                                       |
+|                                   |                                                                                                                                                                                                                              |
+|                                   |     :                                                                                                                                                                                                                           |
+|                                   |                                                                                                                                                                                                                                 |
+|                                   | -                                                                                                                                                                                                                |
+|                                   |     **Markdown version (online)**                                                                                                                                                                                   |
+|                                   |                                                                                                                                                                                                                              |
+|                                   |     :                                                                                                                                                                                                                           |
+|                                   |                                                                                                                                                                                                                                 |
+|                                   | -                                                                                                                                                                                                                |
+|                                   |     **GitHub (online)**                                                                                                                                                                                             |
+|                                   |                                                                                                                                                                                                                              |
+|                                   |     : Cannot be selected.                                                                                                                                                                                                       |
+|                                   |                                                                                                                                                                                                                                 |
+|                                   | -                                                                                                                                                                                                                |
+|                                   |     **Custom location**                                                                                                                                                                                             |
+|                                   |                                                                                                                                                                                                                              |
+|                                   |     : Enter the path where the downloaded FreeCAD documentation can be found. To download the documentation select the *offline-documentation* addon from the Workbenches list in the [Addon Manager](Std_AddonMgr.md). |
+|                                   |                                                                                                                                                                                                                                 |
+|                                   |                                                                                                                                                                                                                  |
+|                                   | **Translation suffix**                                                                                                                                                                                              |
+|                                   |                                                                                                                                                                                                                              |
+|                                   | : For the Wiki option and the Markdown option a [language suffix](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) can be specified. Use for example {{Value|fr}} for the French translation.               |
++++
+|                    | Specifies where the documentation should be displayed. The options are:                                                                                                                                                         |
+| **Display**           |                                                                                                                                                                                                                                 |
+|                                | -                                                                                                                                                                                                                |
+|                                   |     **In your default web browser**                                                                                                                                                                                 |
+|                                   |                                                                                                                                                                                                                              |
+|                                   |     : The documentation is displayed in the default web browser.                                                                                                                                                                |
+|                                   |                                                                                                                                                                                                                                 |
+|                                   | -                                                                                                                                                                                                                |
+|                                   |     **In a FreeCAD tab**                                                                                                                                                                                            |
+|                                   |                                                                                                                                                                                                                              |
+|                                   |     : The documentation is displayed on a new tab in the [Main view area](Main_view_area.md). <small>(v1.0)</small> : Can no longer be used.                                                                     |
+|                                   |                                                                                                                                                                                                                                 |
+|                                   | -                                                                                                                                                                                                                |
+|                                   |     **In a separate, embeddable, dialog**                                                                                                                                                                           |
+|                                   |                                                                                                                                                                                                                              |
+|                                   |     : The documentation is displayed in a separate dialog. This dialog can be docked on top of the [Combo view](Combo_view.md) for example. <small>(v1.0)</small> : Can no longer be used.                       |
++++
+|                    | Specifies an optional custom stylesheet. Not used for the Wiki.                                                                                                                                                                 |
+| **Custom stylesheet** |                                                                                                                                                                                                                                 |
+|                                |                                                                                                                                                                                                                                 |
++++
+
+
+
+## Отображение
+
+
 <div class="mw-translate-fuzzy">
 
-![](images/Preferences_General_Tab_Output_window_ru.png )
+Этот раздел настроек имеет три стандартные вкладки: 3D Вид, Навигация и Цвета. Четвертая вкладка, Отображение Mesh, добавляется, если [верстак Mesh](Mesh_Workbench/ru.md) был загружен.
 
 
 </div>
 
 
 
-### Справка
-
-On the *Help* tab you can specify the following:
-
-+++
-| Name                              | Description                                                                                                                                                                                                                                                               |
-+===================================+===========================================================================================================================================================================================================================================================================+
-|                    | Specifies the location of the Help files. The options are:                                                                                                                                                                                                                |
-| **Help location**     |                                                                                                                                                                                                                                                                           |
-|                                | -                                                                                                                                                                                                                                                          |
-|                                   |     **Online**                                                                                                                                                                                                                                                |
-|                                   |                                                                                                                                                                                                                                                                        |
-|                                   |     : Enter the URL or leave blank to use the automatic [GitHub URL](https://github.com/FreeCAD/FreeCAD-documentation/tree/main/wiki).                                                                                                                                    |
-|                                   |                                                                                                                                                                                                                                                                           |
-|                                   | :                                                                                                                                                                                                                                                          |
-|                                   |     **Translation suffix**                                                                                                                                                                                                                                    |
-|                                   |                                                                                                                                                                                                                                                                        |
-|                                   |     : If {{Value|https://wiki.freecad.org/}} is used, a [language suffix](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) can be specified. Use for example {{Value|fr}} for the French translation. Must be blank for the GitHub URL. |
-|                                   |                                                                                                                                                                                                                                                                           |
-|                                   | -                                                                                                                                                                                                                                                          |
-|                                   |     **From disk location**                                                                                                                                                                                                                                    |
-|                                   |                                                                                                                                                                                                                                                                        |
-|                                   |     : Enter the path where the downloaded FreeCAD documentation can be found. To download the documentation select the *offline-documentation* addon from the Workbenches list in the [Addon Manager](Std_AddonMgr.md).                                           |
-+++
-|                    | Specifies where the documentation should be displayed. The options are:                                                                                                                                                                                                   |
-| **Display**           |                                                                                                                                                                                                                                                                           |
-|                                | -                                                                                                                                                                                                                                                          |
-|                                   |     **In a new FreeCAD tab**                                                                                                                                                                                                                                  |
-|                                   |                                                                                                                                                                                                                                                                        |
-|                                   |     : The documentation is displayed on a new tab in the [Main view area](Main_view_area.md).                                                                                                                                                                     |
-|                                   |                                                                                                                                                                                                                                                                           |
-|                                   | -                                                                                                                                                                                                                                                          |
-|                                   |     **In your default web browser**                                                                                                                                                                                                                           |
-|                                   |                                                                                                                                                                                                                                                                        |
-|                                   |     : The documentation is displayed in the default web browser.                                                                                                                                                                                                          |
-|                                   |                                                                                                                                                                                                                                                                           |
-|                                   | -                                                                                                                                                                                                                                                          |
-|                                   |     **In a separate, embeddable, dialog**                                                                                                                                                                                                                     |
-|                                   |                                                                                                                                                                                                                                                                        |
-|                                   |     : The documentation is displayed in a separate dialog. This dialog can be docked on top of the [Combo view](Combo_view.md) for example.                                                                                                                       |
-+++
-|                    | Specifies an optional custom stylesheet. Not used for the Wiki URL.                                                                                                                                                                                                       |
-| **Custom stylesheet** |                                                                                                                                                                                                                                                                           |
-|                                |                                                                                                                                                                                                                                                                           |
-+++
-
-![](images/Preferences_General_Tab_Help.png )
-
-
-
-## Отображение
-
-Этот раздел настроек имеет три стандартные вкладки: 3D Вид, Навигация и Цвета. Четвертая вкладка, Отображение Mesh, добавляется, если [верстак Mesh](Mesh_Workbench/ru.md) был загружен.
-
-
-
 ### 3D Вид 
 
+<img alt="" src=images/Preferences_Display_Page_3D_View.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
 Вкладка *3D Вид* позволяет настроить следующие параметры:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -622,13 +652,51 @@ On the *Help* tab you can specify the following:
 
 </div>
 
-![](images/Preferences_Display_Tab_3D_View_ru.png )
+### Light Sources 
+
+
+<small>(v1.0)</small> 
+
+<img alt="" src=images/Preferences_Display_Page_Light_Sources.png  style="width:400px;">
+
+On this page you can specify the following:
+
++++
+| Name                         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
++==============================+=================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
+|               | If checked, the objects in the [3D view](3D_view.md) are lit by a directional light source and the specified color will be used for it. Without this all objects appear as solid black.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Light source** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
++++
+|               | Move the slider to change the intensity of the light.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Intensity**    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
++++
+|               | The preview shows the XY plane and a sphere, indicating the light source, connected by a line to a cone, indicating the direction. All elements in the preview, the sphere, the small cone directly attached to it, the line and the large cone, can be dragged to change the direction of the light. For more precision the direction vector can be set by specifying the **x**, **y** and **z** values or the **q0** - **q3** [quaternion](https://en.wikipedia.org/wiki/Quaternion) values. You can zoom the preview in and out with the buttons in the lower left corner. |
+| **Direction**    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
++++
+
+### UI
+
+
+<small>(v1.0)</small> 
+
+<img alt="" src=images/Preferences_Display_Page_UI.png  style="width:400px;">
 
 
 
 ### Навигация
 
+<img alt="" src=images/Preferences_Display_Page_Navigation.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
 Вкладка *Навигация* позволяет настроить следующие параметры:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -724,9 +792,11 @@ sets the base color for all elements. <small>(v0.21)</small>
 specifies the font used for the cube\'s texts. <small>(v0.21)</small> 
 
 
-**Font size**
+**Opacity when inactive**
 
-sets the size of the font used for the cube\'s texts. <small>(v0.21)</small> 
+Opacity of the Navigation cube when not hovered by the mouse. <small>(v1.0)</small> 
+
+\|- \| **Rotation center indicator** <small>(v1.0)</small>  \| If checked, the rotation center of the view is shown when dragging. The **Sphere size** and the **Color and transparency** of the indicator can be specified.
 
 \|- \| **3D Navigation** \| Specifies a [mouse navigation style](Mouse_navigation.md). To see the details of each style, select it and then press the **Mouse...** button. \|- \| **Orbit style** \| Specifies the rotation orbit style used when in rotation mode. The options are:
 
@@ -740,15 +810,28 @@ sets the size of the font used for the cube\'s texts. <small>(v0.21)</small>
 -   **Drag at cursor**
 -   **Object center**
 
-\|- \| **Default camera orientation** \| Specifies the camera orientation for new documents. This setting is also used by the [Std ViewHome](Std_ViewHome.md) command. \|- \| **Camera zoom** \| Affects the initial camera zoom level for new documents. The value you set is the diameter of a sphere that fits in [3D view](3D_view.md). The default is 100 mm. It also sets the initial size of origin features (base planes in new [PartDesign Bodies](PartDesign_Body.md) and [Std Parts](Std_Part.md)). \|- \| **Enable animation** \| If checked, and **3D Navigation** is set to **CAD**, rotations can be animated. If the mouse is moved while the scroll wheel and the right mouse button are pressed, the view is rotated. If one keeps the mouse moving while releasing the right mouse button, the rotation will continue. To end this animation left-click with the mouse. \|- \| **Zoom at cursor** \| If checked, zoom operations will be performed at the position of the mouse pointer. Otherwise zoom operations will be performed at the center of the current view. The **Zoom step** defines how much will be zoomed. A zoom step of **1** means a factor of 7.5 for every zoom step. \|- \| **Invert zoom** \| If checked, the direction of zoom operations will be inverted. \|- \| **Disable touchscreen tilt gesture** \| If checked, and **3D Navigation** is set to **Gesture**, the tilting gesture will be disabled for pinch-zooming (two-finger zooming). \|- \| **Enable rotation center indication** \| If checked, the rotation center of the view is shown when dragging. <small>(v0.22)</small>  \|}
+\|- \| **Default camera orientation** \| Specifies the camera orientation for new documents. This setting is also used by the [Std ViewHome](Std_ViewHome.md) command. \|- \| **Camera zoom** \| Affects the initial camera zoom level for new documents. The value you set is the diameter of a sphere that fits in the [3D view](3D_view.md). The default is 100 mm. It also sets the initial size of origin features (base planes in new [PartDesign Bodies](PartDesign_Body.md) and [Std Parts](Std_Part.md)). \|- \| **Zoom at cursor** \| If checked, zoom operations will be performed at the position of the mouse pointer. Otherwise zoom operations will be performed at the center of the current view. The **Zoom step** defines how much will be zoomed. A zoom step of **1** means a factor of 7.5 for every zoom step. \|- \| **Invert zoom** \| If checked, the direction of zoom operations will be inverted. \|- \| **Disable touchscreen tilt gesture** \| If checked, and **3D Navigation** is set to **Gesture**, the tilting gesture will be disabled for pinch-zooming (two-finger zooming).
 
-![](images/Preferences_Display_Tab_Navigation_ru.png )
+\|- \| **Animations** \| If checked, view rotations and zooms, except those invoked by mouse actions, are animated. The **Animation duration** can be specified.
+
+
+**Enable spinning animations**
+
+if checked, and if **3D Navigation** is set to **CAD**, rotations invoked by the mouse can be animated as well. If the mouse is moved while the scroll wheel and the right mouse button are pressed, the view is rotated. If one keeps the mouse moving while releasing the right mouse button, the rotation will continue. To end this animation left-click with the mouse. \|}
 
 
 
 ### Цвета
 
+<img alt="" src=images/Preferences_Display_Page_Colors.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
 Вкладка *Цвета* позволяет настроить следующие параметры:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -788,15 +871,34 @@ sets the size of the font used for the cube\'s texts. <small>(v0.21)</small>
 
 </div>
 
-![](images/Preferences_Display_Tab_Colors_ru.png )
+### Advanced
+
+
+<small>(v1.0)</small> 
+
+<img alt="" src=images/Preferences_Display_Page_Advanced.png  style="width:400px;">
 
 
 
 ### Просмотр в виде полигональной сетки 
 
+<img alt="" src=images/Preferences_Display_Page_Mesh_view.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
 Данная вкладка становится доступной, только после загрузки [Верстака Mesh](Mesh_Workbench/ru.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Вкладка *Просмотр в виде полигональной сетки* позволяет настроить следующие параметры:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -841,68 +943,85 @@ sets the size of the font used for the cube\'s texts. <small>(v0.21)</small>
 
 </div>
 
-![](images/Preferences_Display_Tab_Mesh_view_ru.png )
-
 
 
 ## Рабочее окружение 
 
+
+<div class="mw-translate-fuzzy">
+
 В этом разделе настроек есть одна вкладка: Доступные верстаки.
+
+
+</div>
 
 
 
 ### Доступные Верстаки 
 
+<img alt="" src=images/Preferences_Workbenches_Page_Available_Workbenches.png  style="width:400px;">
+
 These preferences control workbench loading.
 
-On the *Available Workbenches* tab you can specify the following:
+On this page you can specify the following:
 
 +++
-| Name                                             | Description                                                                                                                                                                                                                                                                                                                                                             |
-+==================================================+=========================================================================================================================================================================================================================================================================================================================================================================+
-|                                   | The list displays all installed workbenches. The list can be reordered by drag and drop (<small>(v0.21)</small> ) and sorted by right-clicking the list and selecting **Sort alphabetically** (<small>(v0.22)</small> ). The order of the list also determines the order of the [Workbench selector](Std_Workbench.md). |
-| **Workbench list**                   |                                                                                                                                                                                                                                                                                                                                                                         |
-|                                               | -                                                                                                                                                                                                                                                                                                                                                        |
-|                                                  |     <small>(v0.21)</small>                                                                                                                                                                                                                                                                                                                                                     |
-|                                                  |                                                                                                                                                                                                                                                                                                                                                                      |
-|                                                  |     : **First checkbox in each row**: If checked, the workbench will be available in the Workbench selector in the next FreeCAD session. The start up workbench cannot be unchecked. Unchecked workbenches are moved to the bottom of the list.                                                                                               |
-|                                                  |                                                                                                                                                                                                                                                                                                                                                                         |
-|                                                  | -                                                                                                                                                                                                                                                                                                                                                        |
-|                                                  |     **Auto-load**                                                                                                                                                                                                                                                                                                                                           |
-|                                                  |                                                                                                                                                                                                                                                                                                                                                                      |
-|                                                  |     : If checked, the workbench will auto-load when FreeCAD starts. Loading more workbenches will make the start up slower, but switching between workbenches that have already been loaded is faster.                                                                                                                                                                  |
-|                                                  |                                                                                                                                                                                                                                                                                                                                                                         |
-|                                                  | -                                                                                                                                                                                                                                                                                                                                                        |
-|                                                  |     **Load**                                                                                                                                                                                                                                                                                                                                                     |
-|                                                  |                                                                                                                                                                                                                                                                                                                                                                      |
-|                                                  |     : Press this button to load the workbench in the current FreeCAD session.                                                                                                                                                                                                                                                                                           |
+| Name                                             | Description                                                                                                                                                                                                                                                                                                                                                            |
++==================================================+========================================================================================================================================================================================================================================================================================================================================================================+
+|                                   | The list displays all installed workbenches. The list can be reordered by drag and drop (<small>(v0.21)</small> ) and sorted by right-clicking the list and selecting **Sort alphabetically** (<small>(v1.0)</small> ). The order of the list also determines the order of the [Workbench selector](Std_Workbench.md). |
+| **Workbench list**                   |                                                                                                                                                                                                                                                                                                                                                                        |
+|                                               | -                                                                                                                                                                                                                                                                                                                                                       |
+|                                                  |     <small>(v0.21)</small>                                                                                                                                                                                                                                                                                                                                                    |
+|                                                  |                                                                                                                                                                                                                                                                                                                                                                     |
+|                                                  |     : **First checkbox in each row**: If checked, the workbench will be available in the Workbench selector in the next FreeCAD session. The start up workbench cannot be unchecked. Unchecked workbenches are moved to the bottom of the list.                                                                                              |
+|                                                  |                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                  | -                                                                                                                                                                                                                                                                                                                                                       |
+|                                                  |     **Auto-load**                                                                                                                                                                                                                                                                                                                                          |
+|                                                  |                                                                                                                                                                                                                                                                                                                                                                     |
+|                                                  |     : If checked, the workbench will auto-load when FreeCAD starts. Loading more workbenches will make the start up slower, but switching between workbenches that have already been loaded is faster.                                                                                                                                                                 |
+|                                                  |                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                  | -                                                                                                                                                                                                                                                                                                                                                       |
+|                                                  |     **Load**                                                                                                                                                                                                                                                                                                                                                    |
+|                                                  |                                                                                                                                                                                                                                                                                                                                                                     |
+|                                                  |     : Press this button to load the workbench in the current FreeCAD session.                                                                                                                                                                                                                                                                                          |
 +++
-|                                   | The workbench that is activated when FreeCAD starts.                                                                                                                                                                                                                                                                                                                    |
-| **Start up workbench**               |                                                                                                                                                                                                                                                                                                                                                                         |
-|                                               |                                                                                                                                                                                                                                                                                                                                                                         |
+|                                   | The workbench that is activated when FreeCAD starts.                                                                                                                                                                                                                                                                                                                   |
+| **Start up workbench**               |                                                                                                                                                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                                                                                                                                                        |
 +++
-|                                   | Defines where the [Workbench selector](Std_Workbench.md) appears. The options are:                                                                                                                                                                                                                                                                              |
-| **Workbench selector position**      |                                                                                                                                                                                                                                                                                                                                                                         |
-|                                               | -   **Toolbar**: In a dedicated toolbar.                                                                                                                                                                                                                                                                                                                                |
-| <small>(v0.21)</small>                    | -   **Left corner**: In the left corner of the menubar.                                                                                                                                                                                                                                                                                                                 |
-|                                                  | -   **Right corner**: In the right corner of the menubar.                                                                                                                                                                                                                                                                                                               |
+|                                   | The options are:                                                                                                                                                                                                                                                                                                                                                       |
+| **Workbench selector type**          |                                                                                                                                                                                                                                                                                                                                                                        |
+|                                               | -   **ComboBox**: Workbenches can be selected from a dropdown list.                                                                                                                                                                                                                                                                                                    |
+| <small>(v1.0)</small>                     | -   **TabBar**: Workbenches can be selected from a tab bar. This takes fewer clicks than the previous option, but takes up more screen space.                                                                                                                                                                                                                          |
 +++
-|                                   | If checked, FreeCAD will remember and restore the workbench that was active for each tab in the [Main view area](Main_view_area.md).                                                                                                                                                                                                                            |
-| **Remember active workbench by tab** |                                                                                                                                                                                                                                                                                                                                                                         |
-|                                               |                                                                                                                                                                                                                                                                                                                                                                         |
+|                                   | The options are:                                                                                                                                                                                                                                                                                                                                                       |
+| **Workbench selector items style**   |                                                                                                                                                                                                                                                                                                                                                                        |
+|                                               | -   **Icon & Text**                                                                                                                                                                                                                                                                                                                                                    |
+| <small>(v1.0)</small>                     | -   **Icon**                                                                                                                                                                                                                                                                                                                                                           |
+|                                                  | -   **Text**                                                                                                                                                                                                                                                                                                                                                           |
 +++
-
-![](images/Preferences_Workbenches_Tab_Available_Workbenches.png )
+|                                   | If checked, FreeCAD will remember and restore the workbench that was active for each tab in the [Main view area](Main_view_area.md).                                                                                                                                                                                                                           |
+| **Remember active workbench by tab** |                                                                                                                                                                                                                                                                                                                                                                        |
+|                                               |                                                                                                                                                                                                                                                                                                                                                                        |
++++
 
 ## Python
 
-This preferences section (<small>(v0.21)</small> ) has three tabs: Macro, Python console and Editor.
+This preferences group (<small>(v0.21)</small> ) has three pages: Macro, General and Editor.
 
 
 
 ### Макрос
 
+<img alt="" src=images/Preferences_Python_Page_Macro.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
 Вкладка *Макрос* позволяет настроить следующие параметры:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -946,39 +1065,54 @@ This preferences section (<small>(v0.21)</small> ) has three tabs: Macro, Python
 
 </div>
 
-![](images/Preferences_Python_Tab_Macro.png )
 
 
+
+<div class="mw-translate-fuzzy">
 
 ### Консоль Python 
 
+
+</div>
+
+<img alt="" src=images/Preferences_Python_Page_General.png  style="width:400px;">
+
 These preferences control the behavior of the [Python console](Python_console.md). This console can be opened using the **View → Panels → Python console** menu option.
 
-Note that the color and font settings for the console are defined on the [Editor](#Editor.md) tab.
+Note that the color and font settings for the console are defined on the [Editor](#Editor.md) page.
 
-On the *Python console* tab (<small>(v0.20)</small> ) you can specify the following:
+On this page you can specify the following:
 
 +++
-| Name                                | Description                                                                                     |
-+=====================================+=================================================================================================+
-|                      | If checked, words will be wrapped if they exceed the available horizontal space in the console. |
-| **Enable word wrap**    |                                                                                                 |
-|                                  |                                                                                                 |
+| Name                                                          | Description                                                                                                                  |
++===============================================================+==============================================================================================================================+
+|                                                | If checked, words will be wrapped if they exceed the available horizontal space in the console.                              |
+| **Enable word wrap**                              |                                                                                                                              |
+|                                                            |                                                                                                                              |
 +++
-|                      | If checked, the cursor will have a block shape.                                                 |
-| **Enable block cursor** |                                                                                                 |
-|                                  |                                                                                                 |
+|                                                | If checked, the cursor will have a block shape.                                                                              |
+| **Enable block cursor**                           |                                                                                                                              |
+|                                                            |                                                                                                                              |
 +++
-|                      | If checked, Python history is saved across sessions.                                            |
-| **Save history**        |                                                                                                 |
-|                                  |                                                                                                 |
+|                                                | If checked, Python history is saved across sessions.                                                                         |
+| **Save history**                                  |                                                                                                                              |
+|                                                            |                                                                                                                              |
 +++
-
-![](images/Preferences_Python_Tab_Python_console.png )
+|                                                | The interval at which the profiler runs when there is Python code running (to keep the GUI responding). Set to 0 to disable. |
+| **Python profiler interval (milliseconds)**       |                                                                                                                              |
+|                                                            |                                                                                                                              |
+| <small>(v1.0)</small>                                  |                                                                                                                              |
++++
+|                                                | Used for package installation with pip and debugging with debugpy. Autodetected if needed and not specified.                 |
+| **Path to external Python executable (optional)** |                                                                                                                              |
+|                                                            |                                                                                                                              |
++++
 
 
 
 ### Редактор кода 
+
+<img alt="" src=images/Preferences_Python_Page_Editor.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -996,7 +1130,13 @@ On the *Python console* tab (<small>(v0.20)</small> ) you can specify the follow
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Вкладка *Редактор кода* позволяет настроить следующие параметры:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -1044,21 +1184,21 @@ On the *Python console* tab (<small>(v0.20)</small> ) you can specify the follow
 
 </div>
 
-![](images/Preferences_Python_Tab_Editor.png )
-
 
 
 ## Менеджер Дополнений 
 
-This preferences section has a single tab: Addon manager options.
+This preferences group has a single page: Addon manager options.
 
 
 
 ### Настройки менеджера дополнений 
 
+<img alt="" src=images/Preferences_Addon_Manager_Page_Addon_manager_options.png  style="width:400px;">
+
 These preferences control the behavior of the [Addon manager](Std_AddonMgr.md).
 
-On the *Addon manager options* tab (<small>(v0.20)</small> ) you can specify the following:
+On this page you can specify the following:
 
 +++
 | Name                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                 |
@@ -1076,6 +1216,21 @@ On the *Addon manager options* tab (<small>(v0.20)</small> ) you can specify the
 |                                                                      | -   **Manual (no automatic updates)**                                                                                                                                                                                                                                                                                                                                       |
 |                                                                         | -   **Daily**                                                                                                                                                                                                                                                                                                                                                               |
 |                                                                         | -   **Weekly**                                                                                                                                                                                                                                                                                                                                                              |
++++
+|                                                          | If checked, addons without a license are not included in the listing.                                                                                                                                                                                                                                                                                                       |
+| **Hide Addons without license**                             |                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
+| <small>(v1.0)</small>                                            |                                                                                                                                                                                                                                                                                                                                                                             |
++++
+|                                                          | If checked, addons with a Free/Libre license not published by the [Free Software Foundation](https://www.fsf.org/licensing) are not included in the listing.                                                                                                                                                                                                                |
+| **Hide Addons with non-FSF Free/Libre license**             |                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
+| <small>(v1.0)</small>                                            |                                                                                                                                                                                                                                                                                                                                                                             |
++++
+|                                                          | If checked, addons with a license not approved by the [Open Source Initiative](https://opensource.org/licenses) are not included in the listing.                                                                                                                                                                                                                            |
+| **Hide Addons with non-OSI-approved license**               |                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
+| <small>(v1.0)</small>                                            |                                                                                                                                                                                                                                                                                                                                                                             |
 +++
 |                                                          | If checked, addons marked as \"Python 2 Only\" are not included in the listing. These addons are unlikely to work in the current FreeCAD version.                                                                                                                                                                                                                           |
 | **Hide Addons marked Python 2 Only**                        |                                                                                                                                                                                                                                                                                                                                                                             |
@@ -1099,34 +1254,69 @@ On the *Addon manager options* tab (<small>(v0.20)</small> ) you can specify the
 | **Proxy**                                                   |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
 +++
-|                                                          | The Addon manager attempts to determine the Python executable that should be used for the automatic pip-based installation of Python dependencies. To override this selection, the path to the executable can be set here.                                                                                                                                                  |
-| **Python executable (optional)**                            |                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                          | The URL for the Addon Score data. See [Std AddonMgr](Std_AddonMgr#Sorting_by_score.md) for formatting and hosting details.                                                                                                                                                                                                                                          |
+| **Score source URL**                                        |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
+| <small>(v1.0)</small>                                            |                                                                                                                                                                                                                                                                                                                                                                             |
 +++
-|                                                          | The Addon manager attempts to determine the git executable. To override this selection, the path to the executable can be set here. <small>(v0.21)</small>                                                                                                                                                                                                           |
-| **git executable (optional)**                               |                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                          | The Addon manager attempts to determine the git executable. To override this selection, the path to the executable can be set here.                                                                                                                                                                                                                                         |
+| **Path to git executable (optional)**                       |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
+| <small>(v0.21)</small>                                           |                                                                                                                                                                                                                                                                                                                                                                             |
 +++
 |                                                          | If checked, the Addon manager provides an interface on the addon\'s details screen that allows switching which git branch is currently checked out. This is intended for advanced users only, as it is possible that a non-primary-branch version of an addon may result in instability and compatibility issues. Git must be installed for this to work. Use with caution. |
 | **Show option to change branches (requires git)**           |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
 +++
-|                                                          | If checked, git downloads are disabled. <small>(v0.21)</small>                                                                                                                                                                                                                                                                                                       |
+|                                                          | If checked, git downloads are disabled.                                                                                                                                                                                                                                                                                                                                     |
 | **Disable git (fall back to ZIP downloads only)**           |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
+| <small>(v0.21)</small>                                           |                                                                                                                                                                                                                                                                                                                                                                             |
 +++
-|                                                          | If checked, Addon manager options intended for developers of addons are activated. <small>(v0.21)</small>                                                                                                                                                                                                                                                            |
+|                                                          | If checked, Addon manager options intended for developers of addons are activated.                                                                                                                                                                                                                                                                                          |
 | **Addon developer mode**                                    |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                             |
+| <small>(v0.21)</small>                                           |                                                                                                                                                                                                                                                                                                                                                                             |
 +++
-
-![](images/Preferences_Addon_Manager_Tab_Addon_manager_options.png )
 
 
 
 ## Импорт/Экспорт
 
 The Import-Export preferences affect how files are imported and exported. They are described on the [Import Export Preferences](Import_Export_Preferences.md) page.
+
+## Measure
+
+
+<small>(v1.0)</small> 
+
+This preferences group has a single page: Appearance.
+
+### Appearance
+
+<img alt="" src=images/Preferences_Measure_Page_Appearance.png  style="width:400px;">
+
+On this page you can specify the following:
+
++++
+| Name                             | Description                                                                             |
++==================================+=========================================================================================+
+|                   | Specifies the size of the text in pixels.                                               |
+| **Text size**        |                                                                                         |
+|                               |                                                                                         |
++++
+|                   | Specifies the color of the text.                                                        |
+| **Text color**       |                                                                                         |
+|                               |                                                                                         |
++++
+|                   | Specifies the color of the line connecting the text label with the measured element(s). |
+| **Line color**       |                                                                                         |
+|                               |                                                                                         |
++++
+|                   | Specifies the background color of the text label.                                       |
+| **Background color** |                                                                                         |
+|                               |                                                                                         |
++++
 
 
 
@@ -1181,12 +1371,7 @@ The Import-Export preferences affect how files are imported and exported. They a
 
 ## Программирование
 
-
-**См. так же:**
-
-[Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
-
-For a scripting example see [Std DlgParameter](Std_DlgParameter.md).
+See [Std DlgParameter](Std_DlgParameter#Scripting.md).
 
 
 

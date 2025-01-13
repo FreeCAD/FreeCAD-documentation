@@ -23,7 +23,7 @@ is used to create a surface from edges that represent transversal sections of a 
 
 ## Usage
 
-1.  Make sure you have at lease two edges or curves in space. For example, these can be created with tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) or the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md).
+1.  Make sure you have at least two edges or curves in space. For example, these can be created with tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) or the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md).
 2.  Press the **[<img src=images/Surface_Sections.svg style="width:16px"> [Surface sections](Surface_Sections.md)** button.
 3.  Press **Add edge**.
 4.  Use the pointer to pick the desired edges in the [3D view](3D_view.md); a preview of the final shape will be shown after selecting two valid edges.
@@ -74,9 +74,9 @@ The shape of the surface depends on the direction of the chosen edges; if edges 
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Surface Sections tool can be used in [macros](macros.md) and from the [Python](Python.md) console by adding the `Surface::Sections` object.
+The Surface Sections tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::Sections` object.
 
--   The edges to be used to define the surface must be assigned as a [LinkSubList](LinkSubList.md) to the `NSections` property of the object.
+-   The edges to be used to define the surface must be assigned as a [LinkSubList](FeaturePython_Custom_Properties#App:_PropertyLinkSubList.md) to the `NSections` property of the object.
 -   All objects with edges need to be computed before they can be used as input for the properties of the Sections object.
 
 

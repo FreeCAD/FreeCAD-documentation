@@ -18,13 +18,13 @@ Un objet Résultat contient le maillage résultant et permet de visualiser les r
 
 Les unités utilisées pour l\'objet Result sont celles du [système d\'unités](Preferences_Editor/fr#Unit.C3.A9s.md) alors que pour un pipeline de résultats les unités sont [SI](https://fr.wikipedia.org/wiki/Syst%C3%A8me_international_d%27unit%C3%A9s).
 
-La visualisation des résultats n\'est active que lorsque la boîte de dialogue est ouverte. Cependant, les paramètres de la boîte de dialogue sont stockés dans le fichier du modèle FreeCAD.
+La visualisation des résultats n\'est active que lorsque la fenêtre de dialogue est ouverte. Cependant, les paramètres de la fenêtre de dialogue sont stockés dans le fichier du modèle FreeCAD.
 
 
 
 ## Utilisation
 
-Pour afficher la boîte de dialogue des résultats :
+Pour afficher la fenêtre de dialogue des résultats :
 
 -   sélectionnez l\'objet résultat dans la [vue en arborescence](Tree_view/fr.md),
 -   puis appuyez sur le bouton de la barre d\'outils **<img src="images/FEM_ResultShow.svg" width=16px> '''Afficher les résultats'''
@@ -32,13 +32,13 @@ Pour afficher la boîte de dialogue des résultats :
 -   ou utilisez le menu **Résultats → <img src="images/FEM_ResultShow.svg" width=16px> Afficher le résultat** (raccourci **R** puis **S**).
 -   vous pouvez également double-cliquer sur l\'objet résultat dans l\'arborescence.
 
-Lorsque la boîte de dialogue est ouverte, le maillage résultant s\'affiche automatiquement.
+Lorsque la fenêtre de dialogue est ouverte, le maillage résultant s\'affiche automatiquement.
 
 [left\|framed](File:FEM_Result-Object-Dialog.png.md)
 
-La boîte de dialogue à gauche offre les fonctions suivantes :
+La fenêtre de dialogue à gauche offre les fonctions suivantes :
 
--   Sélection d\'un type de résultat, le minimum et le maximum seront affichés dans la boîte de dialogue. Le maillage résultant sera coloré en fonction.
+-   Sélection d\'un type de résultat, le minimum et le maximum seront affichés dans la fenêtre de dialogue. Le maillage résultant sera coloré en fonction.
 
 -   Le bouton **'''Histogramme'''** permet d\'obtenir un histogramme indiquant la quantité de nœuds du maillage ayant un certain résultat. Le tracé de l\'histogramme peut être modifié par les boutons de sa barre d\'outils. Il est également possible de sauvegarder l\'histogramme en tant qu\'image en utilisant le bouton de sauvegarde de sa barre d\'outils.
 

@@ -83,7 +83,7 @@ Większość obiektów we FreeCAD ma coś, co nazywa się „[dostawca widoku](V
 
 {{TitleProperty|Podstawowe}}
 
--    **Pośrdnik|PythonObject|Ukryte**: klasa własna [dostawca widoku](Viewprovider/pl.md) związana z tym obiektem. Istnieje wyłącznie dla wersji środowiska [Python](Python/pl.md). Zobacz sekcję [tworzenie skryptów](Part_Feature/pl#Tworzenie_skrypt.C3.B3w.md).
+-    **Pośrednik|PythonObject|Ukryte**: klasa własna [dostawca widoku](Viewprovider/pl.md) związana z tym obiektem. Istnieje wyłącznie dla wersji środowiska [Python](Python/pl.md). Zobacz sekcję [tworzenie skryptów](Part_Feature/pl#Tworzenie_skrypt.C3.B3w.md).
 
 
 {{TitleProperty|Opcje wyświetlania}}

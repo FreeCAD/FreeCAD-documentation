@@ -11,7 +11,7 @@ The reason this workbench is still in the master source code is because this wor
 
 <div class="mw-translate-fuzzy">
 
-ロボットワークベンチは[Kuka](http://kuka.com/)のような産業用[6軸ロボット](Robot_6-Axis/jp.md)のシミュレートのためのツールです。 以下の作業を行うことができます：
+ロボットワークベンチは[Kuka](http://kuka.com/)のような産業用[6軸ロボットのシミュレートのためのツールです](Robot_6-Axis/jp.md)。 以下の作業を行うことができます：
 
 -   ロボット、加工物とシミュレーション環境のセットアップ
 -   軌道の作成と書き込み

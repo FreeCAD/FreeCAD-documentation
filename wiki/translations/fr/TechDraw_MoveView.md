@@ -22,7 +22,7 @@ L\'outil **TechDraw Déplacer une vue** déplace une vue et toutes ses dépendan
 2.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_MoveView.svg" width=16px> [Déplacer une vue](TechDraw_MoveView/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_MoveView.svg" width=16px> Déplacer la vue** à partir du menu.
-3.  Une boîte de dialogue s\'ouvre pour vous permettre de sélectionner une Vue, de la Page de départ et à la Page d\'arrivée.
+3.  Une fenêtre de dialogue s\'ouvre pour vous permettre de sélectionner une Vue, de la Page de départ et à la Page d\'arrivée.
 4.  Appuyez sur le bouton **OK**.
 
 

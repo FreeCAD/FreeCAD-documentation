@@ -1,57 +1,38 @@
-# Sketcher CreateTriangle/it
 ---
- GuiCommand:   Name: Sketcher CreateTriangle   Name/it: Triangolo   Workbenches: Sketcher Workbench/it   Sketcher|MenuLocation: Sketch , Geometrie , Triangolo equilatero   Shortcut:    SeeAlso:    Version: 0.15---
+ GuiCommand:
+   Name: Sketcher CreateTriangle
+   Name/it: Sketcher Crea triangolo equilatero
+   MenuLocation: Schizzo , Geometrie Sketcher , Crea triangolo equilatero
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **G** **P** **3**
+   Version: 0.15
+   SeeAlso: Sketcher_CreateRegularPolygon/it
+---
 
-
-</div>
+# Sketcher CreateTriangle/it
 
 
 
 ## Descrizione
 
-Disegna un triangolo equilatero inscritto nella circonferenza che costituisce la sua geometria di costruzione. Quando si avvia lo strumento, il puntatore del mouse si trasforma in una croce bianca con l\'icona di un esagono rosso. Le coordinate del puntatore sono riportate accanto, in blu e in tempo reale.
+Lo strumento <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:24px;"> [Sketcher Crea triangolo](Sketcher_CreateTriangle/it.md) crea un triangolo equilatero. {{Version/it|1.0}}: questo è lo stesso strumento di [Sketcher Crea poligono regolare](Sketcher_CreateRegularPolygon/it.md) ma con il numero di lati preimpostato su 3.
 
 ![](images/SketcherCreateTriangleExample.png‎ )
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ## Utilizzo
 
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Premere il pulsante **[<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> Triangolo equilatero**,
--   Cliccare un punto per definire il centro,
--   Muovere il mouse e cliccare per stabilire uno dei vertici.
--   Premere **Esc** o cliccare sul tasto destro del nouse per uscire dalla funzione.
-
-
-</div>
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-Quando si edita lo schizzo il cerchio circoscritto è visibile, quando si chiude lo schizzo è nascosto.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_CreateTriangle.svg" width=16px> [Triangolo](Sketcher_CreateTriangle/it.md)**.
+    -   Selezionare l\'opzione **Schizzo → Geometrie Sketcher → <img src="images/Sketcher_CreateTriangle.svg" width=16px> Crea triangolo equilatero** dal menu.
+    -   Usare la scorciatoia da tastiera: **G** quindi **P**, quindi **3**.
+2.  Per ulteriori passaggi vedere [Sketcher Crea poligono regolare](Sketcher_CreateRegularPolygon/it#Usage.md).
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

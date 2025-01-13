@@ -1,11 +1,11 @@
 # Category:BIM/hu
-This category is for pages related to building information management (BIM).
+This category is for pages related to the [BIM Workbench/hu](BIM_Workbench/hu.md).
 
 ### Contents
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Arch/hu](Category_Arch/hu.md) |
+| [Category:Arch/hu](Category_Arch/hu.md) | [Category:Reinforcement/hu](Category_Reinforcement/hu.md) |
 
 
 

@@ -9,13 +9,19 @@
 
 # Std SelectAll/pl
 
+
+
 ## Opis
 
 Polecenie **Std: Zaznacz wszystko** wybiera wszystkie obiekty w oknie [Widoku drzewa](Tree_view/pl.md).
 
+
+
 ## Użycie
 
 1.  Wybierz opcję z menu **Edycja → <img src="images/Std_SelectAll.svg" width=16px> Zaznacz wszystko**.
+
+
 
 ## Uwagi
 
@@ -25,7 +31,7 @@ Polecenie **Std: Zaznacz wszystko** wybiera wszystkie obiekty w oknie [Widoku dr
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -1,75 +1,39 @@
 ---
  GuiCommand:
-   Name: TechDraw_PageDefault
-   Name/it: Nuovo disegno standard
-   MenuLocation: TechDraw , Nuovo disegno standard
+   Name: TechDraw PageDefault
+   Name/it: TechDraw Pagina predefinita
+   MenuLocation: TechDraw , Inserisci Pagina predefinita
    Workbenches: TechDraw_Workbench/it
-   SeeAlso: TechDraw_PageTemplate/it, TechDraw Templates/it
+   SeeAlso: TechDraw_PageTemplate/it, TechDraw_Templates/it
 ---
 
 # TechDraw PageDefault/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Lo strumento **TechDraw Pagina predefinita** crea una nuova Pagina utilizzando il file modello specificato nelle [Preferenze](TechDraw_Preferences/it.md).
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento Nuovo disegno standard crea una nuova pagina utilizzando il file modello specificato nelle [Preferenze](TechDraw_Preferences/it.md).
-
-
-</div>
-
-<img alt="" src=images/A4_LandscapeTD.svg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Modello predefinito fornito con TechDraw: pagina A4 con orientamento orizzontale, con i campi di testo modificabili*
-
-
-</div>
+<img alt="" src=images/A4_LandscapeTD.svg  style="width:400px;"> 
+*Modello predefinito fornito con TechDraw: A4_LandscapeTD.svg*
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
--   Premere il pulsante **<img src="images/TechDraw_PageDefault.svg" width=16px> [Nuovo disegno standard](TechDraw_PageDefault.md)**. (Deve esistere un documento attivo.)
-
-
-</div>
+1.  Deve esistere un documento attivo.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/TechDraw_PageDefault.svg" width=16px> [Inserisci Pagina predefinita](TechDraw_PageDefault/it.md)**.
+    -   Seleziona l\'opzione **TechDraw → Pagina → <img src="images/TechDraw_PageDefault.svg" width=16px> Inserisci Pagina predefinita** dal menu.
 
 
 
 ## Note
 
+-   Se una Pagina è contrassegnata come \"non mantenere aggiornata\" tramite la sua proprietà **Keep Updated**, tramite l\'opzione **Toggle Keep Updated** dal menu contestuale della finestra o dall\'impostazione nella Preferenze, ignorerà le modifiche nel modello 3D. Si potrebbero notare anomalie (geometria mancante, valori di dimensione mancanti, ecc.) nell\'aspetto della Pagina. Queste verranno corrette automaticamente una volta aggiornata la pagina con lo strumento [Ridisegna pagina](TechDraw_RedrawPage/it.md). La Pagina avrà questa icona <img alt="" src=images/TechDraw_Tree_Page_Unsync.svg  style="width:24px;"> nella [Vista ad albero](Tree_view/it.md) mentre l\'aggiornamento è sospeso. Questa impostazione influisce anche sul processo di avvio. Se una Pagina è contrassegnata come \"non mantenere aggiornata\" non verrà disegnata all\'avvio del programma.
 
-<div class="mw-translate-fuzzy">
-
--   Se una pagina è contrassegnata come \"non tenere aggiornata\" tramite la Proprietà KeepUpdated o dalle impostazione nelle Preferenze, le modifiche apportate nel modello 3D vengono ignorate. Si potrebbero notare delle anomalie nell\'aspetto della Pagina (geometria mancante, valori di Dimensione mancanti, ecc.). Questi errori possono essere corretti aggiornando la Pagina.
-
-La pagina ha questa icona <img alt="" src=images/TechDraw_Tree_Page_Unsync.png  style="width:32px;"> nell\'albero mentre l\'aggiornamento è sospeso. Questa impostazione influisce anche sul processo di avvio. Se la pagina è contrassegnata come \"non tenere aggiornata\", all\'avvio del programma essa non viene disegnata.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Se il modello predefinito non è specificato nel file di configurazione utente `user.cfg`, lo strumento prova
-
-
-</div>
-
+-   Se il modello predefinito non è specificato nel file di configurazione utente `user.cfg`, lo strumento provaː
 
 :   
     
@@ -79,14 +43,7 @@ Se il modello predefinito non è specificato nel file di configurazione utente `
 ```
     
 
-
-<div class="mw-translate-fuzzy">
-
-Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esempio
-
-
-</div>
-
+ː Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esempioː
 
 :   
     
@@ -100,55 +57,47 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 ## Proprietà
 
-### Data
+
+
+### Dati
 
 
 {{TitleProperty|Base}}
 
--    **Projection Type**: Default projection type (First or Third Angle) for this Page.
+-    **Projection Type**: tipo di proiezione predefinito (Primo o Terzo angolo) per questa Pagina.
 
 
 {{TitleProperty|Page}}
 
+-    **Keep Updated**: se false, la Pagina non viene aggiornata con le modifiche al modello 3D. Utile per disegni complicati/lenti. Vedere [Note](#Note.md).
 
-<div class="mw-translate-fuzzy">
+-    **Template**: un collegamento all\'oggetto [Template](TechDraw_Templates/it.md) di questa pagina.
 
--    **Projection Type**: tipo predefinito di proiezione da usare (primo o terzo angolo) per questa pagina.
+-    **Views**: un elenco di collegamenti alle visualizzazioni in questa Pagina.
 
--    **KeepUpdated**: se false, la pagina non viene aggiornata con le modifiche al modello 3D. Utile per i disegni complicati o lenti. Vedere le note.
+-    **Scale**: scala predefinita per le visualizzazioni in questa Pagina.
 
--    **Template**: un link alla pagina dei [Modelli di squadrature](TechDraw_Templates/it.md).
-
--    **Views**: un elenco di collegamenti alle viste su questa pagina.
-
--    **Scale**: scala predefinita da usare per le viste in questa pagina.
+-    **Next Balloon Index**: numerazione automatica per le Pallinature.
 
 
-</div>
 
-### View
+### Vista
 
 
 {{TitleProperty|Grid}}
 
--    **Show Grid**: Show a grid over this Page. <small>(v0.20)</small> 
+-    **Show Grid**: Mostra una griglia su questa Pagina.
 
--    **Grid Spacing**: Distance between grid lines. <small>(v0.20)</small> 
+-    **Grid Spacing**: distanza tra le linee della griglia.
 
 
 
 ## Script
 
-See [TechDraw PageTemplate](TechDraw_PageTemplate#Scripting.md).
-
-
-<div class="mw-translate-fuzzy">
+Vedere [TechDraw PageTemplate](TechDraw_PageTemplate/it#Scripting.md).
 
 
 
-
-
-</div>
 
 
 {{TechDraw Tools navi

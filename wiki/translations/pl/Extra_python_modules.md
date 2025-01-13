@@ -5,13 +5,13 @@ Ta strona zawiera listę kilku dodatkowych modułów środowiska Python lub inny
 
 
 
-## PySide *(poprzednio PyQt)* 
+## PySide
 
 -   strona główna *(PySide)*: [<http://qt-project.org/wiki/PySide>](http://qt-project.org/wiki/PySide)
 -   licencja: LGPL
--   opcjonalny, ale wymagany przez kilka modułów: Rysunek Roboczy, Architektura, Statek, Wykres, OpenSCAD, Arkusz Kalkulacyjny
+-   opcjonalny, ale wymagany przez kilka modułów: Rysunek Roboczy, BIM, Statek, Wykres, OpenSCAD, Arkusz Kalkulacyjny
 
-PySide *(wcześniej PyQt)* jest wymagany przez kilka modułów FreeCAD, aby uzyskać dostęp do interfejsu Qt FreeCAD. Jest on już dołączony do wersji FreeCAD dla systemu Windows i jest zwykle instalowany automatycznie przez FreeCAD w systemie Linux podczas instalacji z oficjalnych repozytoriów. Jeśli te moduły *(Rysunek Roboczy, Architektura itp.)* są włączone po zainstalowaniu FreeCAD, oznacza to, że PySide *(wcześniej PyQt)* już tam jest i nie trzeba nic więcej robić.
+PySide jest wymagany przez kilka modułów FreeCAD, aby uzyskać dostęp do interfejsu Qt FreeCAD. Jest on już dołączony do wersji FreeCAD dla systemu Windows i jest zwykle instalowany automatycznie przez FreeCAD w systemie Linux podczas instalacji z oficjalnych repozytoriów. Jeśli te moduły *(Rysunek Roboczy, BIM itp.)* są włączone po zainstalowaniu FreeCAD, oznacza to, że PySide już tam jest i nie trzeba nic więcej robić.
 
 **Uwaga:** FreeCAD stopniowo odchodził od PyQt po wersji 0.13, na rzecz [PySide](http://qt-project.org/wiki/PySide), który wykonuje dokładnie to samo zadanie, ale ma licencję *(LGPL)* bardziej kompatybilną z FreeCAD.
 
@@ -90,129 +90,6 @@ SaveName, Filter = PySide.QtGui.QFileDialog.getSaveFileName(None, "Save a file t
 
 
 
-### Przykład przejścia z PyQt4 i PySide 
-
-PS: te przykłady błędów zostały znalezione podczas przejścia z PyQt4 na PySide i te poprawki zostały wprowadzone, inne rozwiązania są z pewnością dostępne w powyższych przykładach
-
-
-```python
-try:
-    import PyQt4                                        # PyQt4
-    from PyQt4 import QtGui ,QtCore                     # PyQt4
-    from PyQt4.QtGui import QComboBox                   # PyQt4
-    from PyQt4.QtGui import QMessageBox                 # PyQt4
-    from PyQt4.QtGui import QTableWidget, QApplication  # PyQt4
-    from PyQt4.QtGui import *                           # PyQt4
-    from PyQt4.QtCore import *                          # PyQt4
-except Exception:
-    import PySide                                       # PySide
-    from PySide import QtGui ,QtCore                    # PySide
-    from PySide.QtGui import QComboBox                  # PySide
-    from PySide.QtGui import QMessageBox                # PySide
-    from PySide.QtGui import QTableWidget, QApplication # PySide
-    from PySide.QtGui import *                          # PySide
-    from PySide.QtCore import *                         # PySide
-```
-
-Aby uzyskać dostęp do interfejsu FreeCAD, wpisz: Możesz dodawać nowe elementy, takie jak niestandardowy widżet, za pomocą poleceń takich jak:
-
-
-```python
-myNewFreeCADWidget = QtGui.QDockWidget()          # create a new dockwidget
-myNewFreeCADWidget.ui = Ui_MainWindow()           # myWidget_Ui()             # load the Ui script
-myNewFreeCADWidget.ui.setupUi(myNewFreeCADWidget) # setup the ui
-try:
-    app = QtGui.qApp                              # PyQt4 # the active qt window, = the freecad window since we are inside it
-    FCmw = app.activeWindow()                     # PyQt4 # the active qt window, = the freecad window since we are inside it
-    FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the widget to the main window
-except Exception:
-    FCmw = FreeCADGui.getMainWindow()             # PySide # the active qt window, = the freecad window since we are inside it
-    FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the widget to the main window
-```
-
-Praca z Unicode:
-
-
-```python
-try:
-    text = unicode(text, 'ISO-8859-1').encode('UTF-8')  # PyQt4
-except Exception:
-    text = text.encode('utf-8')                         # PySide
-```
-
-Praca z QFileDialog i OpenFileName:
-
-
-```python
-OpenName = ""
-try:
-    OpenName = QFileDialog.getOpenFileName(None,QString.fromLocal8Bit("Lire un fichier FCInfo ou txt"),path,"*.FCInfo *.txt") # PyQt4
-except Exception:
-    OpenName, Filter = PySide.QtGui.QFileDialog.getOpenFileName(None, "Lire un fichier FCInfo ou txt", path, "*.FCInfo *.txt")#PySide
-```
-
-Praca z QFileDialog i SaveFileName:
-
-
-```python
-SaveName = ""
-try:
-    SaveName = QFileDialog.getSaveFileName(None,QString.fromLocal8Bit("Sauver un fichier FCInfo"),path,"*.FCInfo") # PyQt4
-except Exception:
-    SaveName, Filter = PySide.QtGui.QFileDialog.getSaveFileName(None, "Sauver un fichier FCInfo", path, "*.FCInfo")# PySide
-```
-
-Okno dialogowe:
-
-
-```python
-def errorDialog(msg):
-    diag = QtGui.QMessageBox(QtGui.QMessageBox.Critical,u"Error Message",msg )
-    try:
-        diag.setWindowFlags(PyQt4.QtCore.Qt.WindowStaysOnTopHint) # PyQt4 # this function sets the window before
-    except Exception:
-        diag.setWindowFlags(PySide.QtCore.Qt.WindowStaysOnTopHint)# PySide # this function sets the window before
-#    diag.setWindowModality(QtCore.Qt.ApplicationModal)       # function has been disabled to promote "WindowStaysOnTopHint"
-    diag.exec_()
-```
-
-Praca z setProperty *(PyQt4)* i setValue *(PySide)*
-
-
-```python
-self.doubleSpinBox.setProperty("value", 10.0) # PyQt4
-```
-
-zastąp:
-
-
-```python
-self.doubleSpinBox.setValue(10.0) # PySide
-```
-
-Praca z setToolTip
-
-
-```python
-self.doubleSpinBox.setToolTip(_translate("MainWindow", "Coordinate placement Axis Y", None)) # PyQt4
-```
-
-zastąp:
-
-
-```python
-self.doubleSpinBox.setToolTip(_fromUtf8("Coordinate placement Axis Y")) # PySide
-```
-
-lub:
-
-
-```python
-self.doubleSpinBox.setToolTip(u"Coordinate placement Axis Y.")# PySide
-```
-
-
-
 ### Dokumentacja dodatkowa 
 
 -   [Oficjalna strona dokumentacji Qt](https://doc.qt.io/qt.html#qtforpython)
@@ -223,7 +100,7 @@ self.doubleSpinBox.setToolTip(u"Coordinate placement Axis Y.")# PySide
 
 -   strona główna: [<https://bitbucket.org/Coin3D/coin/wiki/Home>](https://bitbucket.org/Coin3D/coin/wiki/Home)
 -   licencja: BSD.
--   opcjonalny, ale wymagany przez kilka modułów FreeCAD: Rysunek Roboczy, Architektura.
+-   opcjonalny, ale wymagany przez kilka modułów FreeCAD: Rysunek Roboczy, BIM.
 
 Pivy jest wymagany przez kilka modułów, aby uzyskać dostęp do widoku 3D FreeCAD. W systemie Windows Pivy jest już dołączony do instalatora FreeCAD, a w systemie Linux jest zwykle instalowany automatycznie po zainstalowaniu FreeCAD z oficjalnego repozytorium. Na macOS niestety będziesz musiał samodzielnie skompilować pivy.
 
@@ -269,12 +146,9 @@ aby pivy zostało poprawnie wbudowane w oficjalny pakiet instalacyjny. Następni
 
 #### Inne dystrybucje linuksa 
 
-Najpierw pobierz najnowsze źródła z [repozytorium projektu](http://pivy.coin3d.org/mercurial/):
+Najpierw pobierz najnowsze źródła z [repozytorium projektu](https://github.com/coin3d/pivy):
 
-
-```python
-hg clone http://hg.sim.no/Pivy/default Pivy
-```
+Informacje do uzupełnienia.
 
 Od marca 2012 r. najnowszą wersją jest Pivy-0.5.
 
@@ -363,15 +237,12 @@ Zakładając, że używasz Visual Studio 2005 lub nowszego, powinieneś otworzy�
 
 
 ```python
-set PATH=path_to_python_2.5;%PATH%
+set PATH=path_to_python_3.x;%PATH%
 ```
 
 Aby uruchomić pivy, należy pobrać najnowsze źródła z repozytorium projektu:
 
-
-```python
-svn co https://svn.coin3d.org/repos/Pivy/trunk Pivy
-```
+Informacje do uzupełnienia.
 
 Następnie potrzebne jest narzędzie o nazwie SWIG do generowania kodu C++ dla wiązań Pythona. Zaleca się użycie wersji 1.3.25 SWIG, nie najnowszej, ponieważ w tej chwili pivy będzie działać poprawnie tylko z wersją 1.3.25. Pobierz pliki binarne dla wersji 1.3.25 ze strony [<http://www.swig.org>](http://www.swig.org). Następnie rozpakuj je i z wiersza poleceń dodaj do ścieżki systemowej
 
@@ -414,7 +285,7 @@ i wreszcie nagłówki Qt
 
 
 ```python
-set INCLUDE=%INCLUDE%;path_to_qt4\include\Qt
+set INCLUDE=%INCLUDE%;path_to_pyside\include\Qt
 ```
 
 Jeśli korzystasz z Express Edition Visual Studio, możesz otrzymać wyjątek błędu klucza Python. W takim przypadku należy zmodyfikować kilka rzeczy w pliku msvccompiler.py znajdującym się w instalacji Python.
@@ -509,7 +380,7 @@ Możesz teraz eksplorować FCSceneGraph za pomocą polecenia dir().
 
 Niestety dokumentacja na temat pivy jest wciąż prawie nieobecna w sieci. Ale dokumentacja Coin może okazać się przydatna, ponieważ pivy po prostu tłumaczy funkcje, węzły i metody Coin w Python, wszystko zachowuje tę samą nazwę i właściwości, pamiętając o różnicach w składni między C i Pythonem:
 
--   <https://bitbucket.org/Coin3D/coin/wiki/Documentation> - Coin3D API Reference
+-   <https://github.com/coin3d/coin/wiki/Documentation> - Coin3D API Reference
 -   <http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/index.html> - The Inventor Mentor - \"biblia\" języka opisu sceny programu Inventor.
 
 Możesz również spojrzeć na plik Draft.py w folderze FreeCAD Mod/Draft, ponieważ w dużym stopniu wykorzystuje on pivy.
@@ -518,7 +389,7 @@ Możesz również spojrzeć na plik Draft.py w folderze FreeCAD Mod/Draft, ponie
 
 ## pyCollada
 
--   strona główna: <http://pycollada.github.com>
+-   strona główna: <https://pycollada.github.io>
 -   licencja: BSD.
 -   opcjonalne, potrzebne do umożliwienia importu i eksportu plików Collada *(.DAE)*.
 
@@ -545,6 +416,48 @@ import collada
 ```
 
 Jeśli nic nie zwróci *(brak komunikatu o błędzie)*, wszystko jest w porządku
+
+
+
+#### Linux AppImages i Snaps 
+
+Wklej ten kod do [konsoli Python](Python_console/pl.md):
+
+
+```python
+import addonmanager_utilities as utils
+import subprocess
+import os
+
+if hasattr(utils, "get_python_exe"):
+    # For v0.21:
+    python_exe = utils.get_python_exe()
+else:
+    # For v0.22/v1.0:
+    from freecad.utils import get_python_exe
+
+python_exe = get_python_exe()
+vendor_path = utils.get_pip_target_directory()
+if not os.path.exists(vendor_path):
+    os.makedirs(vendor_path)
+
+subprocess.run(
+    [
+        python_exe,
+        "-m",
+        "pip",
+        "install",
+        "--disable-pip-version-check",
+        "--target",
+        vendor_path,
+        "pycollada",
+    ],
+    stdout=subprocess.PIPE,
+    stderr=subprocess.PIPE,
+    timeout=120,
+    check=True,
+)
+```
 
 
 
@@ -576,15 +489,15 @@ Jeśli używasz binarnej wersji FreeCAD, możesz polecić programowi, aby zainst
 
 
 ```python
-$ pip install --target="/Applications/FreeCAD.app/Contents/lib/python2.7/site-packages" pycollada
+$ pip install --target="/Applications/FreeCAD.app/Contents/lib/python3.x/site-packages" pycollada
 ```
 
 lub po pobraniu kodu pycollada
 
 
 ```python
-$ export PYTHONPATH=/Applications/FreeCAD\ 0.16.6706.app/Contents/lib/python2.7/site-packages:$PYTHONPATH
-$ python setup.py install --prefix=/Applications/FreeCAD\ 0.16.6706.app/Contents
+$ export PYTHONPATH=/Applications/FreeCAD\ 0.16.6706.app/Contents/lib/python3.x/site-packages:$PYTHONPATH
+$ python setup.py install --prefix=/Applications/FreeCAD\ 0.2x.yyyy.app/Contents
 ```
 
 
@@ -595,66 +508,17 @@ $ python setup.py install --prefix=/Applications/FreeCAD\ 0.16.6706.app/Contents
 -   licencja: LGPL.
 -   opcjonalne, potrzebne do rozszerzenia możliwości importu plików IFC.
 
-IFCOpenShell jest obecnie rozwijaną biblioteką, która umożliwia importowanie (a wkrótce eksportowanie) plików [Industry Foundation Classes *(\*.IFC)*](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). IFC jest rozszerzeniem formatu STEP i staje się standardem w przepływach pracy [BIM](http://en.wikipedia.org/wiki/Building_information_modeling). Gdy ifcopenshell jest poprawnie zainstalowany w systemie, Środowisko pracy FreeCAD [Architektura](Arch_Workbench/pl.md) wykryje go i użyje do importowania plików IFC, zamiast wbudowanego podstawowego importera. Ponieważ ifcopenshell jest oparty na OpenCasCade, podobnie jak FreeCAD, jakość importu jest bardzo wysoka, tworząc wysokiej jakości geometrię brył.
+IFCOpenShell jest obecnie rozwijaną biblioteką, która umożliwia importowanie (a wkrótce również eksportowanie) plików [Industry Foundation Classes *(\*.IFC)*](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). IFC jest rozszerzeniem formatu STEP i staje się standardem w przepływach pracy [BIM](http://en.wikipedia.org/wiki/Building_information_modeling). Gdy ifcopenshell jest poprawnie zainstalowany w systemie, Środowisko pracy FreeCAD [BIM](BIM_Workbench/pl.md) wykryje go i użyje do importowania plików IFC, zamiast wbudowanego podstawowego importera. Ponieważ ifcopenshell jest oparty na OpenCasCade, podobnie jak FreeCAD, jakość importu jest bardzo wysoka, tworząc wysokiej jakości geometrię brył.
 
 
 
 ### Instalacja 
 
-Ponieważ ifcopenshell jest całkiem nowy, prawdopodobnie będziesz musiał skompilować go samodzielnie.
-
 
 
 #### Linux 
 
-Do skompilowania ifcopenshell będziesz potrzebował kilku pakietów deweloperskich zainstalowanych w systemie:
-
-
-```python
-liboce-*-dev
-python-dev
-swig
-```
-
-ale ponieważ FreeCAD również wymaga ich wszystkich, jeśli możesz skompilować FreeCAD, nie będziesz potrzebował żadnych dodatkowych zależności do kompilacji IfcOpenShell.
-
-Pobierz najnowszy kod źródłowy stąd:
-
-
-```python
-git clone https://github.com/IfcOpenShell/IfcOpenShell.git
-```
-
-Proces kompilacji jest bardzo prosty:
-
-
-```python
-mkdir ifcopenshell-build
-cd ifcopenshell-build
-cmake ../IfcOpenShell/cmake
-```
-
-lub, jeśli używasz Oce zamiast Opencascade:
-
-
-```python
-cmake -DOCC_INCLUDE_DIR=/usr/include/oce ../ifcopenshell/cmake
-```
-
-Ponieważ ifcopenshell został stworzony głównie dla Blendera, domyślnie używa Pythona3. Aby użyć go wewnątrz FreeCAD, należy skompilować go z tą samą wersją Python, która jest używana przez FreeCAD. Może więc być konieczne wymuszenie wersji Python za pomocą dodatkowych parametrów cmake *(dostosuj wersję Python do swojej)*:
-
-
-```python
-cmake -DOCC_INCLUDE_DIR=/usr/include/oce -DPYTHON_INCLUDE_DIR=/usr/include/python2.7 -DPYTHON_LIBRARY=/usr/lib/python2.7.so ../ifcopenshell/cmake
-```
-
-wtedy:
-
-
-```python
-make
-sudo make install
-```
+Instrukcje instalacji można znaleźć [tutaj](https://docs.ifcopenshell.org/ifcopenshell-python/installation.html).
 
 Możesz sprawdzić, czy ifcopenshell został poprawnie zainstalowany, wydając polecenie w konsoli Python:
 
@@ -667,15 +531,9 @@ Jeśli nic nie zwróci *(brak komunikatu o błędzie)*, wszystko jest w porządk
 
 
 
-#### Windows 
+#### Windows i macOS 
 
-**Uwaga**: Oficjalne instalatory FreeCAD uzyskane ze strony FreeCAD / Github zawierają już ifcopenshell.
-
-*Skopiowane z pliku README IfcOpenShell*
-
-Użytkownikom zaleca się korzystanie z pliku Visual Studio .sln w folderze win/. Dla użytkowników systemu Windows wstępnie skompilowana wersja Open CASCADE jest dostępna na stronie [opencascade](http://opencascade.org). Pobierz i zainstaluj tę wersję i podaj ścieżki do plików nagłówkowych i bibliotecznych Open CASCADE do MS Visual Studio C++.
-
-Aby zbudować wrapper IfcPython, należy zainstalować SWIG. Pobierz najnowszą wersję swigwin ze strony [swig](https://www.swig.org/download.html). Po rozpakowaniu pliku .zip należy dodać rozpakowany folder do zmiennej środowiskowej PATH. Python musi być zainstalowany, należy podać ścieżki dołączania i biblioteki do Visual Studio.
+IfcOpenShell jest zawarty zarówno w wydaniu FreeCAD, jak i w kompilacjach deweloperskich, więc nie są wymagane żadne dodatkowe kroki.
 
 
 

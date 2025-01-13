@@ -10,6 +10,8 @@
 
 # Std Part/es
 
+
+
 ## Descripción
 
 
@@ -44,6 +46,8 @@ The **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)*
 *Left: elements inside a Std Part in the [Tree view](Tree_view.md). Right: objects positioned in space, referred to the Origin of the Std Part.*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Como utilizar 
@@ -66,6 +70,8 @@ The **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)*
 
 -   An object can only belong to a single Part.
 -   3D operations like [Part Boolean](Part_Boolean.md) cannot be applied to Parts. For example, you cannot select two Parts, and perform a [Part Fuse](Part_Fuse.md) or [Part Cut](Part_Cut.md).
+
+
 
 ## Propiedades
 
@@ -117,6 +123,8 @@ These are the properties available in the [property editor](Property_editor.md).
 ## Detailed explanation 
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Estado activo 
@@ -131,13 +139,15 @@ An open document can contain multiple Parts. But only one Part can be active. Th
 To activate or de-activate a Part:
 
 -   Double click on it on the [Tree view](Tree_view.md), or
--   Open the context menu (right click) and select **Toggle active part**.
+-   Open the context menu (right click) and select **Active object**.
 
 ![](images/Std_Part_active.png )
 
 
 
 *Document with two Std Parts, of which the second one is active.*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -166,6 +176,8 @@ the Origin is an [App Origin](App_OriginGroupExtension.md) object (`App::Origin`
 **Note 2:**
 
 all elements inside the Part are referenced to the Part\'s Origin which means that the Part can be moved and rotated in reference to the global coordinate system without affecting the placement of the elements inside.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -217,10 +229,10 @@ class MyGroup(object):
         if obj:
             self.attach(obj)
 
-    def __getstate__(self):
+    def dumps(self):
         return
 
-    def __setstate__(self, _state):
+    def loads(self, _state):
         return
 
     def attach(self, obj):
@@ -242,16 +254,16 @@ class ViewProviderMyGroup(object):
         vobj.addExtension("Gui::ViewProviderOriginGroupExtensionPython")
         self.ViewObject = vobj
 
-    def __getstate__(self):
+    def dumps(self):
         return None
 
-    def __setstate__(self, _state):
+    def loads(self, _state):
         return None
 
 App.ActiveDocument.addObject("Part::FeaturePython",
                              "Group",
-                             group.MyGroup(),
-                             group.ViewProviderMyGroup(),
+                             MyGroup(),
+                             ViewProviderMyGroup(),
                              True)
 ```
 

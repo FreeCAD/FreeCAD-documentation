@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: SheetMetal AddCornerRelief
-   Name/fr: SheetMetal Grugeage rond
-   MenuLocation: SheetMetal , Add Corner Relief
+   Name/fr: SheetMetal Grugeage
+   MenuLocation: SheetMetal , Créer un grugeage à un coin
    Workbenches: SheetMetal_Workbench/fr
    Shortcut: **C** **R**
 ---
@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:24px;"> **SheetMetal AddCornerRelief** ajoute un grugeage circulaire pour gruger un coin. Un grugeage est généralement créé dans les coins où deux pliures se rencontrent, mais la commande peut également créer un grugeage dans un coin ouvert.
+La commande <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:24px;"> **SheetMetal Grugeage** ajoute un grugeage à un coin. Un grugeage est généralement créé dans les coins où deux pliures se rencontrent, mais la commande peut également créer un grugeage dans un coin ouvert.
 
 La commande ne peut créer qu\'un seul grugeage à la fois.
 
@@ -21,17 +21,29 @@ La commande ne peut créer qu\'un seul grugeage à la fois.
 <img alt="" src=images/SheetMetal_AddCornerRelief-03.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddCornerRelief-04.png  style="width:300px;"> 
 *Coin par défaut de deux pliures → Coin ouvert avec un grugeage*
 
+
+
 ## Utilisation
 
-1.  Sélectionnez deux bords d\'un coin.
-2.  Lancez la commande <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:16px;"> **SheetMetal AddCornerRelief** en utilisant l\'une des méthodes suivantes :
-    -   Le bouton **<img src="images/SheetMetal_AddCornerRelief.svg" width=16px> [Add Corner Relief](SheetMetal_AddCornerRelief/fr.md)**.
-    -   L\'option de menu **SheetMetal → <img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Add Corner Relief**.
-    -   Le raccourci clavier : **C** puis **R**.
+1.  Sélectionnez deux arêtes d\'un coin.
+2.  Il y a plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/SheetMetal_AddCornerRelief.svg" width=16px> [Créer un grugeage à un coin](SheetMetal_AddCornerRelief/fr.md)**.
+    -   Sélectionnez l\'option **SheetMetal → <img src="images/SheetMetal_AddCornerRelief.svg" width=16px> [Créer un grugeage à un coin](SheetMetal_AddCornerRelief/fr.md)** du menu.
+    -   Cliquez avec le bouton droit de la souris dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **SheetMetal → <img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Créer un grugeage à un coin** dans le menu contextuel.
+    -   Utilisez le raccourci clavier : **C** puis **R**.
+3.  Le [panneau des tâches](Task_panel/fr.md) *Générer une forme de base de la tôle* s\'ouvre (introduit dans la version 0.5.00).
+4.  Vous pouvez appuyer sur le bouton **Sélectionner** pour ajouter d\'autres faces.
+    -   Appuyez sur le bouton **Aperçu** pour terminer la sélection et afficher les changements.
+5.  Vous pouvez ajuster les paramètres dans le panneau des tâches.
+6.  Appuyez sur le bouton **OK** pour terminer la commande et fermer le panneau des tâches.
+7.  Un objet **CornerRelief** sera créé et consistera en un grugeage au niveau du coin sélectionné.
+8.  Vous pouvez ajuster les paramètres dans l\'[éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ## Formes de grugeage 
 
-La forme d\'un coin de grugeage peut être modifiée en changeant les valeurs de ses propriétés :
+La forme d\'un grugeage de coin peut être modifiée en changeant les valeurs de ses propriétés :
 
 La valeur de la propriété **ReliefSketch** peut être choisie parmi une liste : {{value|Circle}} (par défaut), {{value|Circle-Scaled}}, {{value|Square}}, {{value|Square-Scaled}}, {{value|Sketch}}.
 
@@ -42,7 +54,9 @@ La valeur de la propriété **ReliefSketch** peut être choisie parmi une liste 
 -    {{value|Sketch}}active l\'utilisation de l\'esquisse listée dans la propriété **Sketch** pour définir la forme du grugeage.
 
 <img alt="" src=images/SheetMetal_AddCornerRelief-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddCornerRelief-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddCornerRelief-07.png  style="width:200px;"> 
-*Grugeage circulaire (paramètres par défaut) → Grugeage carré (paramètres par défaut) → Grugeage basé sur des esquisses.*
+*Grugeage circulaire (paramètres par défaut) → Grugeage carré (paramètres par défaut) → Grugeage basé sur une esquisse*
+
+
 
 ## Un regard plus attentif sur les tailles de grugeage 
 
@@ -52,7 +66,7 @@ Pour avoir une idée de comment et où le grugeage est placé, nous déplions un
 
 
 
-*Coin par défaut de deux pliures → Coin du solide déplié → Coin en vue de dessus.*
+*Coin par défaut de deux pliures → Coin du solide déplié → Coin vu de dessus.*
 
 L\'étape suivante consiste à ouvrir l\'esquisse de dépliage, à créer un cercle à travers 3 points et à ajouter une dimension de rayon.
 Maintenant, nous ajoutons un grugeage d\'angle, créons le solide de dépliage correspondant et ouvrons à nouveau la première esquisse de dépliage.
@@ -68,48 +82,46 @@ Si vous essayez de définir la propriété **Size** à une valeur inférieure à
 
 En passant à Circle-Scaled et en créant un autre solide non plié, on constate que 1,67 mm est également la base de la propriété **Size Ratio**.
 
+
+
 ## Remarques
 
--   Le facteur k définit l\'emplacement de l\'axe neutre dans l\'épaisseur d\'une tôle.
+-   Le facteur k définit l\'emplacement de l\'axe neutre dans l\'épaisseur d\'une tôle, conformément à la norme ANSI.
+-   La sélection accepte plus de deux arêtes, mais seules les deux premières sont prises en compte.
 
-:   (Il serait bon de savoir si ce facteur est conforme à la norme ISO ou ANSI\...)
+
 
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet SheetMetal Grugeage est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+Un objet SheetMetal CornerRelief est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) ou, s\'il se trouve à l\'intérieur d\'un [PartDesign Corps](PartDesign_Body/fr.md), à partir d\'un objet [PartDesign Feature](PartDesign_Feature/fr.md), dont il hérite de toutes les propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
 
-{{Properties_Title|Base}}
-
--    **Base Feature|Link|hidden**: Fonctionnalité de base. Lien vers la caractéristique parent.
-
--    **_Body|LinkHidden|hidden**: Lien caché vers le corps du parent.
-
-
 {{Properties_Title|Parameters}}
 
--    {{PropertyData/fr|ReliefSketch|Enumeration}}: \"Type de relief d\'angle\". {{value|Circle}} (par défaut), {{value|Circle-Scaled}}, {{value|Square}}, {{value|Square-Scaled}}, {{value|Sketch}}.
+-    **ReliefSketch|Enumeration**: type de grugeage d\'angle. {{value|Circle}} (par défaut), {{value|Circle-Scaled}}, {{value|Square}}, {{value|Square-Scaled}}, {{value|Sketch}}.
 
--    {{PropertyData/fr|Size|Length}}: \"Taille de la forme\". Valeur par défaut : {{value|3,00 mm}}.
+-    **Size|Length**: taille de la forme. Valeur par défaut : {{value|3,00 mm}}.
 
--    {{PropertyData/fr|Size Ratio|Float}}: \"Rapport de taille de la forme\". Valeur par défaut : {{value|1,50}}.
+-    **Size Ratio|Float**: rapport de taille de la forme. Valeur par défaut : {{value|1,50}}.
 
--    {{PropertyData/fr|base Object|LinkSub}}: \"Objet de base\". Liens vers la paire d\'arêtes définissant la position du Corner Relief.
+-    **base Object|LinkSub**: objet de base. Liens vers la paire d\'arêtes définissant la position de la contre-dépouille d\'angle.
 
--    {{PropertyData/fr|kfactor|FloatConstraint}}: \"Position de l\'axe neutre\". Valeur par défaut : {{value|0,50}}.
+-    **kfactor|FloatConstraint**: position de l\'axe neutre. Valeur par défaut : {{value|0,50}}.
 
 
 {{Properties_Title|Parameters1}}
 
--    {{PropertyData/fr|Sketch|Link}}: \"Esquisse du relief de l\'angle\".
+-    **Sketch|Link**: esquisse du grugeage.
 
--    {{PropertyData/fr|XOffset|Distance}}: \"Ecart par rapport au premier côté\". Valeur par défaut : {{value|0,00 mm}}.
+-    **XOffset|Distance**: espace par rapport au premier côté. Valeur par défaut : {{value|0,00 mm}}.
 
--    {{PropertyData/fr|YOffset|Distance}}: \"Ecart du côté deux\". Valeur par défaut : {{value|0,00 mm}}.
+-    **YOffset|Distance**: espace par rapport au deuxième côté. Valeur par défaut : {{value|0,00 mm}}.
 
 
 

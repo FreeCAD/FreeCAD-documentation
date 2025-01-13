@@ -3,7 +3,7 @@
    Name: Draft WireToBSpline
    Name/pl: Rysunek Roboczy: Polilinia na krzywą złożoną
    MenuLocation: Modyfikacja , Polilinia na krzywą złożoną
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
    SeeAlso: Draft_Wire/pl, Draft_BSpline/pl
 ---
 

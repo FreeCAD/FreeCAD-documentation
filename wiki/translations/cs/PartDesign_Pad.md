@@ -29,12 +29,10 @@
 
 ## Usage
 
-1.  Select one sketch or face to be padded. <small>(v0.20)</small> : Alternatively you can select several sketches or faces.
+1.  Select a single sketch or one or more faces from the Body.
 2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> [Pad](PartDesign_Pad.md)** button.
-3.  Set the Pad parameters, see the [Options](#Options.md) below.
-4.  Click **OK**.
-
-When selecting a single sketch, it can have multiple enclosed profiles inside a larger one, for example a rectangle with two circles inside it. But the profiles may not intersect each other. <small>(v0.20)</small> 
+3.  Set the Pad parameters, see [Options](#Options.md) below.
+4.  Press the **OK** button.
 
 
 
@@ -48,7 +46,13 @@ Při vytváření desky nabízí dialogové okno \'parametrů desky\' pět různ
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Pad_parameters_cropped_cs.png )
+
+
+</div>
 
 ### Type
 
@@ -76,13 +80,25 @@ Zadání číselné hodnoty pro výšku desky. Defaultní směr vysunutí je ven
 
 ### K poslední 
 
+
+<div class="mw-translate-fuzzy">
+
 Deska se vysune až k poslední ploše tělesa ve směru vysunutí. Není-li v daném směru žádná plocha, zobrazí se chybové hlášení.
+
+
+</div>
 
 
 
 ### K první 
 
+
+<div class="mw-translate-fuzzy">
+
 Deska se vysune k první ploše tělesa ve směru vysunutí. Není-li v daném směru žádná plocha, zobrazí se chybové hlášení.
+
+
+</div>
 
 
 
@@ -108,13 +124,32 @@ Umožňuje zadat druhý rozměr. Pak se deska o tuto vzdálenost vysune na opač
 
 </div>
 
-### Length
+#### Up to shape 
 
-Defines the length of the pad. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available when **Type** is either **Dimension** or **Two dimensions**.
+
+<small>(v1.0)</small> 
+
+: The pad will extend up to the selected shape. Optionally press the **Select shape** button and select a shape. Leave the **Select all faces** checkbox enabled or disable it, press the **Select faces** button and select the faces up to which the pad should be created.
 
 ### Offset to face 
 
-Offset from face at which the pad will end. This option is only available when **Type** is either **To last**, **To first** or **Up to face**.
+Offset from face at which the pad will end. This option is only available if **Type** is **To last**, **To first** or **Up to face**.
+
+### Length
+
+Defines the length of the pad. This option is only available if **Type** is **Dimension** or **Two dimensions**. The length is measured along the direction vector, or along the normal of the sketch or face. Negative values are not possible. Use the **Reversed** option instead.
+
+### 2nd length 
+
+Defines the length of the pad in the opposite direction. This option is only available if **Type** is **Two dimensions**.
+
+### Symmetric to plane 
+
+Check this option to extrude half the given length to either side of the sketch or face. This option is only available if **Type** is **Dimension**.
+
+### Reversed
+
+Reverses the direction of the pad.
 
 ### Direction
 
@@ -122,68 +157,77 @@ Offset from face at which the pad will end. This option is only available when *
 
 You can select the direction of the extrusion:
 
--   **Sketch normal:** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
--   **Select reference\...:** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
--   **Custom direction:** The sketch is extruded along a direction that can be specified via vector values.
+-   **Sketch normal** or **Face normal:** The sketch or face is extruded in the direction of its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used.
+-   **Select reference\...:** The sketch or face is extruded in the direction of a straight edge or a [datum line](PartDesign_Line.md) selected from the Body.
+-   **Custom direction:** The sketch or face is extruded in the direction of the specified vector.
 
 #### Show direction 
 
-If checked, the pad direction will be shown. In case the pad uses a **Custom direction**, it can be changed. <small>(v0.20)</small> 
+If checked, the pad direction will be shown. In case the pad uses a **Custom direction**, it can be changed.
 
 #### Length along sketch normal 
 
-If checked, the pad length is measured along the sketch normal, otherwise along the custom direction. <small>(v0.20)</small> 
-
-### Symmetric to plane 
-
-Tick the checkbox to extrude half of the given length to either side of the sketch or plane.
-
-### Reversed
-
-Reverses the direction of the pad.
+If checked, the pad length is measured along the sketch or face normal, otherwise along the custom direction.
 
 ### Taper angle 
 
-
-<small>(v0.20)</small> 
-
-Tapers the pad in the extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is either **Dimension** or **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
-
-Limitations:
-
--   Sketches containing [B-Splines](B-Splines.md) often cannot be properly tapered. This is a limitation of the [OpenCASCADE](OpenCASCADE.md) kernel that FreeCAD uses.
--   For larger angles tapering will fail if the end face of the pad would have fewer edges than the start face/sketch.
-
-### 2nd length 
-
-Defines the length of the pad in the opposite extrusion direction. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available if **Type** is **Two dimensions**.
+Tapers the pad in the extrusion direction by the given angle. A positive angle means the outer pad border gets wider. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts. This option is only available if **Type** is **Dimension** or **Two dimensions**.
 
 ### 2nd taper angle 
 
-
-<small>(v0.20)</small> 
-
-Tapers the pad in the opposite extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
+Tapers the pad in the opposite extrusion direction by the given angle. See **Taper angle**. This option is only available if **Type** is **Two dimensions**.
 
 ## Properties
 
--    **Type**: Type of ways how the pad will be extruded, see [Options](#Options.md).
+### Data
 
--    **Length**: Defines the length of the pad, see [Options](#Options.md).
 
--    **Length2**: Second pad length in case the **Type** is **TwoLengths**, see [Options](#Options.md).
+{{TitleProperty|Pad}}
 
--    **Use Custom Vector**: If checked, the pad direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
+-    **Type|Enumeration**: Defines how the pad will be extruded, see [Options](#Options.md).
 
--    **Direction**: Vector of the pad direction if **Use Custom Vector** is used.
+-    **Length|Length**: Defines the length of the pad, see [Options](#Options.md).
 
--    **Along Sketch Normal**: If *true*, the pad length is measured along the sketch normal. Otherwise and if **Use Custom Vector** is used, it is measured along the custom direction. <small>(v0.20)</small> 
+-    **Length2|Length**: Second pad length in case the **Type** is **TwoLengths**, see [Options](#Options.md).
 
--    **Up To Face**: A face the pad will extrude up to, see [Options](#Options.md).
+-    **Use Custom Vector|Bool**: If checked, the pad direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
 
--    **Offset**: Offset from face in which the pad will end. This is only taken into account if the **Type** option **UpToLast**, **UpToFirst** or **UpToFace** is used.
+-    **Direction|Vector**: Vector of the pad direction if **Use Custom Vector** is used.
 
--    **Refine**: True or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in **Preferences → Part design → General → Model settings**). It can be manually changed afterwards. This property will be saved with the FreeCAD document.
+-    **Reference Axis|LinkSub**
+    
+
+-    **Along Sketch Normal|Bool**: If *true*, the pad length is measured along the sketch normal. Otherwise and if **Use Custom Vector** is used, it is measured along the custom direction.
+
+-    **Up To Face|LinkSub**: A face the pad will extrude up to, see [Options](#Options.md).
+
+-    **Offset|Length**: Offset from face in which the pad will end. This is only taken into account if the **Type** option **UpToLast**, **UpToFirst** or **UpToFace** is used.
+
+-    **Taper Angle|Angle**
+    
+
+-    **Taper Angle2|Angle**
+    
+
+
+{{TitleProperty|Part Design}}
+
+-    **Refine|Bool**: True or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in **Preferences → Part Design → General → Model settings**).
+
+
+{{TitleProperty|Sketch Based}}
+
+-    **Profile|LinkSub**
+    
+
+-    **Midplane|Bool**
+    
+
+-    **Reversed|Bool**
+    
+
+-    **Allow Multi Face|Bool**
+    
 
 
 

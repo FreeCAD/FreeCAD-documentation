@@ -5,18 +5,29 @@
    MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte verticale
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **V**
-   SeeAlso: Sketcher_ConstrainHorizontal/fr
+   SeeAlso: Sketcher_ConstrainHorVer/fr, Sketcher_ConstrainHorizontal/fr
 ---
 
 # Sketcher ConstrainVertical/fr
 
 ## Description
 
-Permet de créér une contrainte de verticalité sur les lignes ou segments de polylignes sélectionnés. Depuis {{VersionPlus/fr|0.17}}, on peut aussi contraindre des sommets verticalement. Plus d\'un élément peut être sélectionné.
+L\'outil <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> [Sketcher Contrainte verticale](Sketcher_ConstrainVertical/fr.md) contraint les lignes ou les paires de points à être verticales (parallèles à l\'axe vertical de l\'esquisse).
+
+
+{{Version/fr|1.0}}
+
+: dans la plupart des cas, il est conseillé d\'utiliser l\'outil combiné [Sketcher Contrainte horizontale/verticale](Sketcher_ConstrainHorVer/fr.md) à la place.
 
 
 
 ## Utilisation
+
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
+
+
+
+### [Mode continu](Sketcher_Workbench/fr#Modes_continus.md) 
 
 1.  Sélectionnez les lignes ou les sommets à contraindre verticalement
 2.  Pour lancer la commande de contrainte verticale :
@@ -28,12 +39,15 @@ Permet de créér une contrainte de verticalité sur les lignes ou segments de p
 
 
 
+### Mode unique 
+
+Voir [Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr#Mode_unique.md)
+
+
+
 ## Script
 
-
-```pythonSketch.addConstraint(Sketcher.Constraint('Vertical', Line))```
-
-La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `Line` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
+Voir [Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr#Script.md).
 
 
 

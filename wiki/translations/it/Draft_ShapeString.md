@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft_ShapeString
-   Name/it: Forma da testo
-   MenuLocation: Drafting , Forma da testo
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Forma da testo
+   MenuLocation: Drafting , Forma da testo<br>Annotazione , Forma da testo
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: 
    Version: 0.14
    SeeAlso: Draft_Text/it, Draft_Label/it Part_Extrude/it
@@ -30,7 +30,8 @@ Per gli utenti Windows: leggere prima il paragrafo [Selezione file font su Windo
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_ShapeString.svg" width=16px> [Forma da testo](Draft_ShapeString/it.md)**.
-    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Forma da testo** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Forma da testo** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Annotazione → <img src="images/Draft_ShapeString.svg" width=16px> Forma da testo** dal menu.
 2.  Si apre il pannello attività **Forma da testo**.
 3.  Fare clic su un punto nella [Vista 3D](3D_view/it.md) o digitare le coordinate.
 4.  Facoltativamente, premere il pulsante **Reimposta punto** per reimpostare il punto all\'origine.
@@ -50,15 +51,20 @@ Per gli utenti Windows: leggere prima il paragrafo [Selezione file font su Windo
 
 
 
-## Note
+## Percorso relativo del font 
 
--   Una Forma da testo può essere modificata facendo doppio clic su di essa nella [Vista ad albero](Tree_view/it.md). {{Version/it|0.20}}
--   I font supportati includono TrueType (**.ttf**), OpenType (**.otf**) e Type 1 (**.pfb**).
--   Il comando è limitato al testo da sinistra a destra. Il testo da destra a sinistra e dall\'alto in basso non è supportato.
--   Altezze del testo molto piccole possono causare forme dei caratteri deformate a causa della perdita di dettagli nel ridimensionamento.
--   I font possono genererare geometrie problematiche. Questo perché i contorni dei caratteri possono sovrapporsi e avere piccoli spazi. Queste condizioni sono considerate errori nelle poliline utilizzate per definire le facce.
--   Forma da testo può anche essere creato con [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/it.md).
--   Per creare Forme da testo disposte in modo circolare utilizzare il [Macro FCCircularText](Macro_FCCircularText/it.md).
+
+{{version/it|1.1}}
+
+È possibile specificare un percorso relativo per il file dei caratteri. Per questo il documento di FreeCAD deve essere stato salvato almeno una volta.
+
+Alcuni esempi:
+
+-    **./SomeFont.ttf**: il file del carattere si trova nella stessa directory del documento.
+
+-    **./MyDirectory/SomeFont.ttf**: il file del carattere si trova nella sottodirectory **MyDirectory** della directory dei documenti.
+
+-    **../SomeFont.ttf**: il file del carattere si trova nella directory principale della directory dei documenti.
 
 
 
@@ -74,6 +80,18 @@ Non è possibile premere il pulsante **...** e quindi selezionare un file dalla 
 -   Creare una cartella personalizzata contenente i file dei font.
 
 Vedere il paragrafo [Preferenze](#Preferenze.md) di seguito per la posizione delle preferenze citate.
+
+
+
+## Note
+
+-   Una Forma da testo può essere modificata facendo doppio clic su di essa nella [Vista ad albero](Tree_view/it.md).
+-   I font supportati includono TrueType (**.ttf**), OpenType (**.otf**) e Type 1 (**.pfb**).
+-   Il comando è limitato al testo da sinistra a destra. Il testo da destra a sinistra e dall\'alto in basso non è supportato.
+-   Altezze del testo molto piccole possono causare forme dei caratteri deformate a causa della perdita di dettagli nel ridimensionamento.
+-   I font possono genererare geometrie problematiche. Questo perché i contorni dei caratteri possono sovrapporsi e avere piccoli spazi. Queste condizioni sono considerate errori nelle poliline utilizzate per definire le facce.
+-   Forma da testo può anche essere creato con [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/it.md).
+-   Per creare Forme da testo disposte in modo circolare utilizzare il [Macro FCCircularText](Macro_FCCircularText/it.md).
 
 
 
@@ -110,25 +128,25 @@ Un oggetto Forma da testo è derivato da un [Part Part2DObject](Part_Part2DObjec
 
 -    **Font File|File**: nome del file di carattere.
 
--    **Fuse|Bool**: fonde le facce se si sovrappongono, solitamente non richiesto (può essere molto lento). Ignorato se **Make Face** è `False`. {{Version/it|0.22}}
+-    **Fuse|Bool**: fonde le facce se si sovrappongono, solitamente non richiesto (può essere molto lento). Ignorato se **Make Face** è `False`. {{Version/it|1.0}}
 
--    **Justification|Enumeration**: allineamento orizzontale e verticale. Opzioni: {{value|Top-Left}}, {{value|Top-Center}}, {{value|Top-Right}}, {{value|Middle-Left}}, {{value|Middle-Center}}, {{value|Middle-Right}}, {{value|Bottom-Left}}, {{value|Bottom-Center}}, {{value|Bottom-Right}}. {{Version/it|0.22}}
+-    **Justification|Enumeration**: allineamento orizzontale e verticale. Opzioni: {{value|Top-Left}}, {{value|Top-Center}}, {{value|Top-Right}}, {{value|Middle-Left}}, {{value|Middle-Center}}, {{value|Middle-Right}}, {{value|Bottom-Left}}, {{value|Bottom-Center}}, {{value|Bottom-Right}}. {{Version/it|1.0}}
 
--    **Justification Reference|Enumeration**: riferimento di altezza utilizzato per la giustificazione. Opzioni: {{value|Cap Height}}, {{value|Shape Height}}. L\'altezza della forma dipende dai caratteri in **String**. {{Version/it|0.22}}
+-    **Justification Reference|Enumeration**: riferimento di altezza utilizzato per la giustificazione. Opzioni: {{value|Cap Height}}, {{value|Shape Height}}. L\'altezza della forma dipende dai caratteri in **String**. {{Version/it|1.0}}
 
--    **Keep Left Margin|Bool**: mantiene il margine sinistro e lo spazio bianco iniziale quando viene lasciata la giustificazione. {{Version/it|0.22}}
+-    **Keep Left Margin|Bool**: mantiene il margine sinistro e lo spazio bianco iniziale quando viene lasciata la giustificazione. {{Version/it|1.0}}
 
 -    **Make Face|Bool**: riempie le lettere con facce.
 
--    **Oblique Angle|Angolo**: angolo obliquo (inclinato). Deve essere compreso tra -80° e +80°. {{Version/it|0.22}}
+-    **Oblique Angle|Angolo**: angolo obliquo (inclinato). Deve essere compreso tra -80° e +80°. {{Version/it|1.0}}
 
--    **Scale To Size|Bool**: scala per garantire che l\'altezza del limite sia uguale alla dimensione. Se impostato su `False`, a seconda del carattere, l\'altezza del limite non corrisponderà esattamente a **Size**. {{Version/it|0.22}}
+-    **Scale To Size|Bool**: scala per garantire che l\'altezza della maiuscola sia uguale alla dimensione. Se impostato su `False`, a seconda del carattere, l\'altezza della maiuscola non corrisponderà esattamente a **Size**. {{Version/it|1.0}}
 
 -    **Size|Length**: altezza del testo.
 
 -    **String|String**: stringa di testo. Un ShapeString può visualizzare solo una singola riga di testo.
 
--    **Tracking|Distance**: spaziatura tra caratteri. Il tipo di proprietà è stato aggiornato ({{Version/it|0.22}}).
+-    **Tracking|Distance**: spaziatura tra caratteri. ({{Version/it|1.0}}): Il tipo di proprietà è stato aggiornato.
 
 <img alt="" src=images/Draft_ShapeString_Justification.png  style="width:200px;"> 
 *L'altezza del rettangolo rosso (linea continua) è uguale all'altezza del carattere maiuscolo.<br>

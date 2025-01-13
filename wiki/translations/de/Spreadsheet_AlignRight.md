@@ -1,23 +1,29 @@
 ---
  GuiCommand:
    Name: Spreadsheet AlignRight
-   Name/de: Kalkulationstabelle RechtsAusrichten
-   MenuLocation: Kalkulationstabelle , Ausrichtung , Rechts Ausrichten
+   Name/de: Spreadsheet AusrichtenRechts
+   MenuLocation: Kalkulationstabelle , Ausrichtung , Rechtsbündig
    Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
 ---
 
 # Spreadsheet AlignRight/de
 
+
+
 ## Beschreibung
 
-Das **[<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Kalkulationstabelle RechtsAusrichten](Spreadsheet_AlignRight/de.md)** bewirkt, dass der Text innerhalb der Zelle nach rechts ausgerichtet wird.
+Das Werkzeug <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> **Spreadsheet AusrichtenRechts** richtet den Inhalt ausgewählter Zellen rechtsbündig aus.
+
+
 
 ## Anwendung
 
-1.  Stelle sicher, dass eine aktive **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md)** geöffnet ist, so dass die Schaltfläche aktiviert ist.
-2.  Wähle eine Zelle.
-3.  Drücke die **[<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Kalkulationstabelle RechtsAusrichten](Spreadsheet_AlignRight/de.md)** Schaltfläche.
+1.  Sicherstellen, dass eine [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md) aktiviert ist.
+2.  Eine oder mehrere Zellen auswählen.
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Rechtsbündig](Spreadsheet_AlignRight/de.md)** drücken.
+    -   Den Menüeintrag **Kalkulationstabelle → Ausrichtung → [<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> Rechtsbündig** auswählen.
 
 
 

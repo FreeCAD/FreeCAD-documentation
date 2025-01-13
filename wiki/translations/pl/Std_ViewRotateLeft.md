@@ -10,9 +10,13 @@
 
 # Std ViewRotateLeft/pl
 
+
+
 ## Opis
 
 Polecenie **Odwróć widok w lewo** obraca widok w aktywnym oknie [widoku 3D](3D_view/pl.md) wokół osi normalnej *(prostopadłej do widoku)*, w 90-stopniowych przyrostach w lewo *(przeciwnie do ruchu wskazówek zegara)*.
+
+
 
 ## Użycie
 
@@ -21,28 +25,27 @@ Polecenie **Odwróć widok w lewo** obraca widok w aktywnym oknie [widoku 3D](3D
     -   Wybierz opcję **Widoki standardowe → <img src="images/Std_ViewRotateLeft.svg" width=16px> Odwróć w lewo** z menu podręcznego w oknie [widoku 3D](3D_view/pl.md).
     -   Użyj skrótu klawiaturowego: **Shift** + **Lewo**.
 
+
+
 ## Tworzenie skryptów 
 
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby obrócić widok w lewo, użyj metody `viewRotateLeft` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
+Aby obrócić widok w lewo, użyj metody `viewRotateLeft` obiektu *ActiveView*. Dostępna jest też metoda `viewRotateRight`.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.viewRotateLeft()
-FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.viewRotateLeft()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

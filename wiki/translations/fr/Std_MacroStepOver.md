@@ -2,7 +2,6 @@
  GuiCommand:
    Name: Std DebugOver
    Name/fr: Std Passer outre
-   Empty: 1
    MenuLocation: Macro , Passer outre 
    Workbenches: Tous
    Shortcut: **F10**
@@ -19,7 +18,7 @@ Cette commande ne fonctionne pas pour le moment.
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

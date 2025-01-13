@@ -1,7 +1,7 @@
 # Tree view/de
 ## Einleitung
 
-Die [Baumansicht](Tree_view/de.md) befindet sich auf der Registerkarte **Modell** in der [Combo-Ansicht](Combo_view/de.md), einem der wichtigsten Bereiche der [Oberfläche](Interface/de.md); sie zeigt alle benutzerdefinierten Objekte, die Teil eines FreeCAD-Dokuments sind. Die Baumansicht ist eine Darstellung der [Dokumentstruktur](document_structure/de.md) und zeigt an, welche Informationen auf die Festplatte gespeichert werden.
+Die [Baumansicht](Tree_view/de.md) wird im oberen Bereich des Fensters **Modell** angezeigt (wenn die [Combo-Ansicht](Combo_view/de.md) aktiviert ist) oder als ein eigenständiges Fenster. Sie zeigt alle benutzerdefinierten Objekte, die Teil eines FreeCAD-Dokuments sind. Die Baumansicht ist eine Darstellung der [Dokumentstruktur](Document_structure/de.md) und zeigt an, welche Informationen auf die Festplatte gespeichert werden.
 
 Diese Objekte müssen nicht unbedingt geometrische Formen sein, die in der [3D-Ansicht](3D_view/de.md) sichtbar sind, sondern können auch unterstützende Datenobjekte sein, die mit irgendeinem der [Arbeitsbereiche](workbenches/de.md) erstellt wurden.
 
@@ -15,7 +15,7 @@ Diese Objekte müssen nicht unbedingt geometrische Formen sein, die in der [3D-A
 
 ## Arbeiten mit der Baumansicht 
 
-Immer wenn ein neues Objekt erstellt wird, wird es standardmäßig am Ende der Liste in der Baumansicht hinzugefügt. Die Baumansicht erlaubt die Verwaltung der Objekte, um sie übersichtlich zu halten; sie erlaubt das Erstellen von [Gruppen](Std_Group/de.md), das Verschieben von Objekten in Gruppen, das Verschieben von Gruppen in andere Gruppen, das Umbenennen von Objekten, das Kopieren von Objekten, das Löschen von Objekten und andere Operationen im Kontextmenü (Rechtsklick), die vom aktuell ausgewählten Objekt und vom aktuell aktiven Arbeitsbereich abhängen.
+Immer wenn ein neues Objekt erstellt wird, wird es standardmäßig am Ende der Liste in der Baumansicht hinzugefügt. Die Baumansicht erlaubt die Verwaltung der Objekte, um sie übersichtlich zu halten; sie ermöglicht das Erstellen von [Gruppen](Std_Group/de.md), das Verschieben von Objekten in Gruppen, das Verschieben von Gruppen in andere Gruppen, das Umbenennen von Objekten, das Kopieren von Objekten, das Löschen von Objekten und die Verwendung von Optionen ihres [Kontextmenüs](#Kontextmenü.md).
 
 Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhängig sind. In diesem Fall zeigt die Baumansicht diese Beziehung, indem sie das ältere Objekt innerhalb des neuen Objekts aufnimmt. Das Aus- und Einklappen der Objekte in der Baumansicht zeigt die parametrische Historie dieses Objekts. Objekte, die sich (eingerückt) unter anderen befinden, sind älter, während Objekte, die sich nicht eingerückt darunter (außerhalb) befinden, neuer sind und von den älteren Objekten abgeleitet werden. Modifikationen an den älteren Objekten setzen sich über die parametrischen Operationen bis zu den neuesten fort und erzeugen ein neues Ergebnis.
 
@@ -30,15 +30,13 @@ Wird der Baum vollständig erweitert, erhält man die ursprünglichen Elemente, 
 
 ### Spalten der Baumansicht 
 
-Standardmäßig zeigt die Baumansicht nur eine einzige Spalte mit den Benennungen (Labels) der Objekte an. Wahlweise kann eine zweite Spalte mit Beschreibungen angezeigt werden; dann werden auch die Spaltenüberschriften hinzugefügt.
-
-Zum Aktivieren der Beschreibungen wird das Kontextmenü durch einen Rectsklick auf die Baumansicht geöffnet und darin die Menüoption **Baumeinstellungen → Spalte Beschreibung anzeigen** ausgewählt. {{Version/de|0.21}}
+Die Baumansicht zeigt immer eine Spalte mit den Symbolen und Benennungen (Labels) der Objekte an. Wahlweise können noch zwei zusätzliche Spalten angezeigt werden. Zum Aktivieren dieser Spalten wird mit Rechtsklick in der Baumansicht das Kontextmenü geöffnet und die Menüoption **Baumeinstellungen** ausgewählt und dann **Spalte Beschreibung anzeigen** ({{Version/de|0.21}}) und/oder **Show internal name** ({{Version/de|1.0}}). Spaltenüberschriften werden hinzugefügt, wenn mehr als eine Spalte angezeigt wird. Es ist zu beachten, dass der interne Name von Objekten nicht geändert werden kann.
 
 
 
 ### Objektbenennung bearbeiten 
 
-Ein Objekt in der ersten Spalte auswählen und **F2** (unter Windows und Linux) oder **Enter** (unter macOS) drücken, um seine Eigenschaft {{PropertyData/de|Label}} zu bearbeiten. Diese Eigenschaft kann auch über die Aktionen des Kontextmenüs (siehe unten) oder im [Eigenschafteneditor](Property_editor.md) bearbeitet werden.
+Ein Objekt in der ersten Spalte auswählen und **F2** (unter Windows und Linux) oder **Enter** (unter macOS) drücken, um seine Eigenschaft {{PropertyData/de|Label}} zu bearbeiten. Diese Eigenschaft kann auch über die Option **Umbenennen** des Kontextmenüs oder im [Eigenschafteneditor](Property_editor.md) bearbeitet werden.
 
 
 
@@ -48,130 +46,27 @@ Ein Objekt kann wahlweise eine Beschreibung besitzen. Diese Informationen sind i
 
 
 
-## Maßnahmen
+### Kontextmenü
 
-Da die Baumansicht Objekte auflistet, die in der [3D-Ansicht](3D_view/de.md) sichtbar sein können, sind viele der Aktionen identisch mit denen, die in der [3D-Ansicht](3D_view/de.md) ausgeführt werden können. Die Aktionen können aus einem **Kontextmenü** heraus gestartet werden, das über einen Rechtsklick auf entweder auf den Hintergrund oder auf das Objekt erreicht werden kann.
-
-
-
-### Start der Anwendung 
-
-Wenn die Anwendung startet, der Standardarbeitsbereich [Start](Start_Workbench/de.md) aktiv ist, und kein Dokument erstellt wurde, besitzt das Kontextmenü der [Baumansicht](Tree_view/de.md) nur einem Eintrag:
-
--    **Expression Aktionen**. Wird der Mauszeiger darauf gezogen, öffnet sich ein Untermenü mit den vier Befehlen:
-
--   [Ausgewähltes kopieren](Std_Expressions/de.md),
-
--   [Aktives Dokument kopieren](Std_Expressions/de.md),
-
--   [Alle Dokumente kopieren](Std_Expressions/de.md),
-
--   [Einfügen](Std_Paste/de.md).
-
-Diese ermöglichen das Arbeiten mit verschiedenen Dokumenten, sind aber deaktiviert, wenn kein Dokument vorhanden ist.
+Die Optionen im Kntextmenü der Baumansicht hängen von den ausgewählten Objekten und des gerade aktiven Arbeitsbereiches ab. Um dieses Menü anzuzeigen, klickt man mit der rechten Maustaste auf den Hintergrund der Liste oder es werden mehrere Objekte der Liste ausgewählt und dann eins von ihnen mit der rechten Maustaste angeklickt.
 
 
 
-### Ein neues Dokument 
+### Umschalttasten
 
-Sobald ein neues Dokument erstellt wurde, wird durch einen Rechtsklick auf den Hintergrund das Kontextmenü mit jetzt zwei Einträgen geöffnet:
+Die üblichen können in der Baumansicht verwendet werden. Die Umschalttasten können auch kombiniert werden.
 
--    **Expression Aktionen**, wie oben, aber mit diesen beiden aktivierten Einträgen:
+-    **Ctrl**: diese Taste gedrückt halten, um mehrere Objekte auszuwählen.
 
-    -   [Aktives Dokument kopieren](Std_Expressions/de.md),
-    -   [Alle Dokumente kopieren](Std_Expressions/de.md).
-
--    **Link actions**\- ein Untermenü mit zwei Einträgen:
-
-    -   
-        **Make Link group**
-        
-        \- ein weiteres Untermenü, das drei Befehle enthält:
-
-        -   [Simple group](Std_LinkMakeGroup/de.md)
-        -   [Group with links](Std_LinkMakeGroup/de.md)
-        -   [Group with transform links](Std_LinkMakeGroup/de.md)
-
-    -   [VerknüpfungErstellen](Std_LinkMake/de.md)
+-    **Shift**: diese Taste gedrückt halten, um alle Objekte zwischen einem zuvor ausgewählten Objekt und dem nächsten ausgewählten Objekt auszuwählen.
 
 
 
-### Auswählen des Dokuments 
+### Tastaturkürzel
 
-Wenn man das Dokument auswählt und mit der rechten Maustaste klickt, enthält das Kontextmenü zusätzlich zu **Ausdruck-Aktionen** und **Verknüpfungen...** die folgenden Befehle:
+Folgende Tastaturkürzel stehen zur Verfügung, wenn der Fokus auf der Baumansicht liegt:
 
--    **In der Baumansicht ausgeblendete Elemente anzeigen**: wenn aktiv, zeigt die Baumansicht versteckte Elemente an.
-
--    **Suche**: zeigt ein Eingabefeld für die Suche nach Objekten innerhalb des ausgewählten Dokuments.
-
--    **Dokument schließen**: schließt das ausgewählte Dokument.
-
--    **Neuberechnungen überspringen**: wenn aktiv, werden die Objekte des Dokuments nicht automatisch [neuberechnet](Std_Refresh/de.md).
-
-    -   
-        **Teilweise Neuberechnungen erlauben**
-        
-        : wenn aktiv, erlaubt das Dokument das [Neuberechnen](Std_Refresh/de.md) für nur wenige Objekte. Steht nur zur Verfügung, wenn **Neuberechnungen überspringen** aktiviert ist.
-
--    **Markieren zum Neuberechnen**: markiert alle Objekte des Dokuments als berührt und bereit für ein [Neuberechnen](Std_Refresh/de.md).
-
--    **[Gruppe erstellen](Std_Group/de.md)**: Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument.
-
-
-
-### Objekte auswählen 
-
-Sobald Objekte zum Dokument hinzugefügt wurden, zeigt ein Rechtsklick auf sie zusätzliche Befehle an. Diese sind abhängig von der Anzahl der ausgewählten Objekte, der Art der Objekte und auch von dem aktiven Arbeitsbereich. In den meisten Fällen und mit den meisten Arbeitsbereichen (außer dem Arbeitsbereich [Start](Start_Workbench/de.md)) stehen folgende Befehle zur Verfügung:
-
--    **[Darstellung...](Std_SetAppearance/de.md)**: Öffnet einen Dialogfenster, um die visuellen Eigenschaften des gesamten Objekts zu ändern.
-
--    **[Zufällige Farbe](Std_RandomColor/de.md)**: Weist dem Objekt eine zufällige Farbe zu.
-
--    **[Ausschneiden](Std_Cut/de.md)**: Deaktiviert.
-
--    **[Kopieren](Std_Copy/de.md)**: Kopiert ein Objekt in den Zwischenspeicher.
-
--    **[Einfügen](Std_Paste/de.md)**: Setzt das kopierte Objekt in das Dokument ein; die Kopie wird am Ende der Baumansicht hinzugefügt.
-
--    **[Löschen](Std_Delete/de.md)**: Entfernt das Objekt aus dem Dokument.
-
--    **[Sichtbarkeit in der Baumansicht umschalten](#Auge-Symbol.md)**: Schaltet die Sichtbarkeit eines Objekt in der Baumansicht um.
-
--    **Markieren, um neu zu berechnen**: Kennzeichnet die ausgewählten Objekte als markiert und fertig zum [Neuberechnen](Std_Refresh/de.md).
-
--    **Objekt neu berechnen**: Berechnet die ausgewählten Objekte neu.
-
--    **Umbenennen**: Startet die Bearbeitung der Benennung (Label) eines Objekts, nicht des Namens, der schreibgeschützt ist. Diese Auswahl steht nur dann zur Verfügung, wenn nur ein einziges Objekt ausgewählt wurde.
-
-Ein Beispiel für eine Erweiterung des Kontextmenüs zeigt ein Rechtsklick auf ein [Part Würfel](Part_Box/de.md)-Objekt; bei aktiviertem Arbeitsbereich [Part](Part_Workbench/de.md) stehen folgende zusätzliche Befehle zur Verfügung:
-
--    **[Würfel bearbeiten](Std_Edit/de.md)**: Aktiviert den Bearbeitungsmodus des Würfels.
-
--    **[Transformieren](Std_TransformManip/de.md)**: Startet das Transformations-Widget, um das Objekt zu verschieben oder zu drehen.
-
--    **[Anhang-Editor](Part_EditAttachment/de.md)**: Öffnet ein Dialogfenster, um das Objekt einem oder mehreren anderen Objekten als Anhang zuzuordnen.
-
--    **[Farbe festlegen](Part_FaceColors/de.md)**: Legt die Farbe der ausgewählten Flächen eines Objekts fest.
-
--    **[Ein/Ausblenden](Std_ToggleVisibility/de.md)**: Schaltet die Sichtbarkeit eines Objekts in der [3D-Ansicht](3D_view/de.md) ein/aus.
-
--    **[Auswahl einblenden](Std_ShowSelection/de.md)**: Macht die ausgewählten Objekte sichtbar.
-
--    **[Auswahl ausblenden](Std_HideSelection/de.md)**: Macht die ausgewählten Objekte unsichtbar.
-
--    **[Selektierbarkeit an/aus](Std_ToggleSelectability/de.md)**: Schaltet die Auswählbarkeit de Objekts in der [3D-Ansicht](3D_view/de.md) ein/aus.
-
--    **[Alle Instanzen auswählen](Std_TreeSelectAllInstances/de.md)**: Wählt alle Instanzen dieses Objekts in der Baumansicht aus.
-
--    **[An Python-Konsole senden](Std_SendToPythonConsole/de.md)**: Erstellt eine Variable in der [Python-Konsole](Python_console/de.md), die auf dieses Objekt verweist.
-
-
-
-### Tastaturbefehle
-
-Folgende Tastaturbefehle stehen zur Verfügung, wenn der Fokus auf der Baumansicht liegt:
-
--    **Ctrl**\+**F**: Öffnet ein Suchfeld am unteren Rand der Baumansicht, das ermöglicht Objekte durch Angabe ihres Namens oder ihres Labels zu suchen und zu erreichen.
+-    **Ctrl**\+**F**: Öffnet ein Suchfeld am unteren Rand der Baumansicht, das ermöglicht Objekte durch Angabe ihres internen Namens oder ihres Labels zu suchen und zu erreichen.
 
 -   Aktionen zum Aus- und Einklappen mit Kombinationen aus **Alt**+**Pfeil**-Tasten: {{Version/de|0.20}}
     -   
@@ -198,7 +93,7 @@ Folgende Tastaturbefehle stehen zur Verfügung, wenn der Fokus auf der Baumansic
 
 ## Überlagerungssymbole
 
-Ein oder mehrere kleinere Überlagerungssymbole können über dem Standardsymbol eines Objekts in der Strukturansicht angezeigt werden. Die verfügbaren Überlagerungssymbole und ihre Bedeutung sind nachfolgend aufgeführt.
+Ein oder mehrere Überlagerungssymbole können über dem Standardsymbol eines Objekts in der Strukturansicht angezeigt werden. Die verfügbaren Überlagerungssymbole und ihre Bedeutung sind nachfolgend aufgeführt.
 
 
 
@@ -208,15 +103,15 @@ Dies zeigt an, dass das Objekt [neuberechnet](Std_Refresh/de.md) werden muss, au
 
 
 
-### ![](images/FreeCAD_Tree_view_tip.png ) Weißer Pfeil auf grünem Hintergrund 
+### ![](images/FreeCAD_Tree_view_error.png ) Weißes Ausrufezeichen auf rotem Hintergrund 
 
-Dies bezeichnet die sogenannte [Spitze](PartDesign_Body/de#Spitze.md) eines Körpers. Er ist in der Regel das letzte Merkmal in einem [PartDesign Körper](PartDesign_Body/de.md) und repräsentiert den gesamten Körper nach außen, z. B. wenn der Körper exportiert oder in [Part booleschen](Part_Boolean/de.md) Operationen verwendet wird. Die Spitze kann vom Benutzer geändert werden.
+Dies zeigt an, dass das Objekt einen Fehler hat, der behoben werden muss. Nach der Neuberechnung des gesamten Dokuments wird eine QuickInfo angezeigt, die den Fehler beschreibt, wenn Sie mit der Maus über das Objekt in der Baumansicht fahren. Hinweis: Alle anderen Objekte, die von einem Objekt in einem solchen Fehlerzustand abhängen, werden nicht korrekt neu berechnet, so dass sie möglicherweise noch einen alten Zustand aufweisen.
 
 
 
-### ![](images/FreeCAD_Tree_view_unattached.png ) Lila Kettenglied auf weißem Hintergrund 
+### ![](images/FreeCAD_Tree_view_unattached.png ) Lila Kettenglieder 
 
-Dies wird typischerweise für [Skizzen](Sketch/de.md), geometrische Primitive, wie Kasten, Zylinder usw. und [Bezugsgeometrie](Datum/de.md) angezeigt. Es zeigt an, dass das Objekt an nichts angehängt ist. Es hat keinen Anfügeversatz und bezieht seine Position und Ausrichtung ausschließlich von seiner Eigenschaft [Platzierung](Placement/de.md).
+Dies wird typischerweise für [Skizzen](Sketch/de.md), [PartDesign](PartDesign_Workbench/de.md)-Grundkörper, wie Quader, Zylinder usw. sowie [Bezugselemente](Datum/de.md) angezeigt. Es zeigt an, dass das Objekt nirgends befestigt ist. Es hat keinen Befestigungsversatz und bezieht seine Position und Ausrichtung ausschließlich von seiner Eigenschaft [Positionierung](Placement/de.md) (Placement).
 
 Es gibt ein [Grundlegendes Anfügungs Tutorium](Basic_Attachment_Tutorial/de.md), das erklärt, wie man mit solchen Objekten umgeht.
 
@@ -224,13 +119,34 @@ Es gibt ein [Grundlegendes Anfügungs Tutorium](Basic_Attachment_Tutorial/de.md)
 
 ### ![](images/FreeCAD_Tree_view_notfullyconstrained.png ) Gelbes X 
 
-Dies wird nur für [Skizzen](Sketch/de.md) verwendet und zeigt an, dass die Skizze nicht vollständig bestimmt ist. Innerhalb des [Sketchers](Sketcher_Workbench/de.md) wird die Anzahl der verbleibenden Freiheitsgrade in den Meldungen des Lösers angezeigt.
+Dies wird nur für [Skizzen](Sketch/de.md) verwendet und zeigt an, dass die Skizze nicht vollständig bestimmt ist. Ist die Skizze im [Bearbeitungsmodus](Sketcher_EditSketch/de.md), wird die Anzahl der verbleibenden (nicht bestimmten) Freiheitsgrade in den [Meldungen des Gleichungslösers](Sketcher_Dialog/de#Meldungen_des_Gleichungslösers.md) angezeigt.
 
 
 
-### ![](images/FreeCAD_Tree_view_error.png ) Weißes Ausrufezeichen auf rotem Hintergrund 
+### ![](images/FreeCAD_Tree_view_tip.png ) Weißer Pfeil auf grünem Hintergrund 
 
-Dies zeigt an, dass das Objekt einen Fehler hat, der behoben werden muss. Nach der Neuberechnung des gesamten Dokuments wird eine QuickInfo angezeigt, die den Fehler beschreibt, wenn Sie mit der Maus über das Objekt in der Baumansicht fahren. Hinweis: Alle anderen Objekte, die von einem Objekt in einem solchen Fehlerzustand abhängen, werden nicht korrekt neu berechnet, so dass sie möglicherweise noch einen alten Zustand aufweisen.
+Dies bezeichnet die sogenannte [Spitze](PartDesign_Body/de#Spitze.md) eines Körpers. Er ist in der Regel das letzte Merkmal in einem [PartDesign Körper](PartDesign_Body/de.md) und repräsentiert den gesamten Körper nach außen, z. B. wenn der Körper exportiert oder in [Part booleschen](Part_Boolean/de.md) Operationen verwendet wird. Die Spitze kann vom Benutzer geändert werden.
+
+
+
+### ![](images/FreeCAD_Tree_view_suppressed.png ) Roter umgekehrter Schrägstrich 
+
+
+{{Version/de|1.0}}
+
+Dieser zeigt ein unterdrücktes [PartDesign](PartDesign_Workbench/de.md)-Formelement an.
+
+
+
+### ![](images/FreeCAD_Tree_view_link.png ) Weißer nach oben geschwungener Pfeil 
+
+Dies zeigt ein [verknüpftes](Std_LinkMake/de.md) Objekt an.
+
+
+
+### ![](images/FreeCAD_Tree_view_link_external.png ) Zwei weiße nach oben geschwungene Pfeile 
+
+Dies zeigt ein [verknüpftes](Std_LinkMake/de.md) Objekt an, das aus einem externen Dokument geladen wurde.
 
 
 
@@ -239,9 +155,24 @@ Dies zeigt an, dass das Objekt einen Fehler hat, der behoben werden muss. Nach d
 Dies zeigt an, dass das Objekt in der Baumansicht ausgeblendet ist, wenn die Kontextmenü-Option **In der Baumansicht ausgeblendete Elemente anzeigen** deaktiviert ist.
 
 
-{{Interface navi
 
-}} {{Std Base navi}}
+### ![](images/FreeCAD_Tree_view_frozen.png ) Zyanfarbener Eiskristall 
+
+
+{{Version/de|1.0}}
+
+Dieser zeigt ein [eingefrorenes](Std_ToggleFreeze/de.md) Objekt an, das nicht neu berechnet wird, wenn sich seine übergeordneten Objekte ändern.
+
+
+
+## Einstellungen
+
+Siehe [Combo-Ansicht](Combo_view/de#Einstellungen.md).
+
+
+{{Interface_navi
+
+}} {{Std_Base_navi}}
 
 
 

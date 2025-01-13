@@ -24,7 +24,7 @@ L\'outil **TechDraw Axes de centrage** ajoute des lignes de centre aux cercles e
 
 ## Utilisation
 
-1.  Spécifiez à votre convenance les attributs de ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
+1.  Spécifiez à votre convenance les attributs de ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw Choix des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
 2.  Sélectionnez un ou plusieurs cercles ou arcs.
 3.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCircleCenterLines.svg" width=16px> [Axes de centrage](TechDraw_ExtensionCircleCenterLines/fr.md)**.

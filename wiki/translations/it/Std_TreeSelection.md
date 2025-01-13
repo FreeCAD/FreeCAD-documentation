@@ -16,7 +16,7 @@
 
 Il comando **Vai alla selezione** fa scorrere la [vista ad albero](Tree_view/it.md) fino al primo oggetto selezionato nella [vista 3D](3D_view/it.md).
 
-Se [Sincronizza la selezione](Std_TreeSyncSelection/it.md) della vista ad albero è disattivata, la vista ad albero viene fatta scorrere fino al primo oggetto selezionato il cui genitore è già stato espanso nella vista ad albero. Se nessuno dei genitori degli oggetti è espanso, il comando non ha alcun effetto in questa modalità.
+Se [Sincronizza la selezione](Std_TreeSyncSelection/it.md) della vista ad albero è disattivata, la vista ad albero viene fatta scorrere fino al primo oggetto selezionato il cui genitore è già espanso nella vista ad albero. Se nessuno dei genitori degli oggetti sono espansi, il comando non ha alcun effetto in questa modalità.
 
 
 
@@ -33,7 +33,7 @@ Se [Sincronizza la selezione](Std_TreeSyncSelection/it.md) della vista ad albero
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

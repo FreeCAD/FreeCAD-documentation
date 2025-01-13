@@ -11,31 +11,44 @@
 
 ## Description
 
-Cela créera une nouvelle [esquisse](Sketcher_Workbench/fr.md).
+L\'outil <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketcher Créer une esquisse](Sketcher_NewSketch/fr.md) crée une nouvelle esquisse et ouvre la [boîte de dialogue de Sketcher](Sketcher_Dialog/fr.md) pour l\'éditer.
 
-Notez que l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) a son propre outil [Esquisse](PartDesign_NewSketch/fr.md). Lorsque vous travaillez sur un [PartDesign Corps](PartDesign_Body/fr.md), il est préférable d\'utiliser cet outil.
+Remarquez que l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) possède son propre outil [Esquisse](PartDesign_NewSketch/fr.md). Lorsque vous travaillez sur un [PartDesign Corps](PartDesign_Body/fr.md), cet outil doit être utilisé à la place.
 
 
 
 ## Utilisation
 
-En cliquant sur l\'icône sans face (pré)sélectionnée, une boîte de dialogue s\'ouvre pour demander si l\'esquisse doit être dessinée sur
+1.  Si l\'esquisse doit être [ancrée](Part_EditAttachment/fr.md) à une géométrie existante : sélectionnez un objet avec une forme, ou un ou plusieurs sommets, arêtes et/ou faces, et/ou un plan.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_NewSketch.svg" width=16px> [Créer une esquisse](Sketcher_NewSketch.md)**.
+    -   Sélectionnez l\'option **Esquisse → <img src="images/Sketcher_NewSketch.svg" width=16px> Créer une esquisse** du menu.
+3.  Si la géométrie a été sélectionnée :
+    1.  La fenêtre de dialogue **Ancrage de l\'esquisse** s\'ouvre.
+    2.  Sélectionnez un [mode d\'ancrage](Part_EditAttachment/fr#Modes_d'ancrage.md) dans la liste déroulante ou sélectionnez **Ne pas ancrer** pour ignorer la sélection.
+    3.  Appuyez sur le bouton **OK**.
+4.  S\'il n\'y a pas de sélection ou si **Ne pas ancrer** a été sélectionné à l\'étape précédente :
+    1.  La fenêtre de dialogue **Sélection du plan** s\'ouvre.
+    2.  Spécifiez le plan pour l\'orientation. Le plan est relatif au système de coordonnées local dans lequel se trouve l\'esquisse :
+        -   Si la case **Inverser la direction** n\'est pas cochée :
+            -   Haut : **Plan XY**
+            -   Avant : **Plan XZ**
+            -   Droit : **Plan YZ**
+        -   Si la case **Sens inverse** est cochée :
+            -   Bas : **Plan XY**
+            -   Arrière : **Plan XZ**
+            -   Gauche : **Plan YZ**
+    3.  Vous pouvez changer le **Décalage**. Le décalage est mesuré par rapport à l\'axe Z, Y ou X du système de coordonnées local.
+    4.  Appuyez sur le bouton **OK**.
+    5.  Une esquisse est créée.
+5.  L\'esquisse est mise en mode édition et la [fenêtre de dialogue de Sketcher](Sketcher_Dialog/fr.md) s\'ouvre.
+6.  Pour terminer le mode édition, voir <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:16px;"> [Sketcher Quitter l\'esquisse](Sketcher_LeaveSketch/fr.md).
 
--   Plan XY
--   Plan XZ
--   Plan YZ
-
-Vous pouvez modifier un décalage sur l'un des trois plans et le côté du décalage.
-
-En cliquant sur l\'icône avec une face présélectionnée, l\'esquisse sera dessinée sur cette face sélectionnée.
 
 
+## Remarques
 
-## Remarque
-
-L\'esquisse peut être réaffectée à une autre face déjà existante à l\'aide de la commande [Sketcher Esquisse sur une face](Sketcher_MapSketch/fr.md).
-
-L\'esquisse peut être déplacée dans la [vue 3D](3D_view/fr.md) en utilisant [Placement](Placement/fr.md).
+-   Les esquisses existantes peuvent être attachées à des objets (différents) avec [Sketcher Ancrer une esquisse](Sketcher_MapSketch/fr.md) ou détachées et réorientées avec [Sketcher Réorienter une esquisse](Sketcher_ReorientSketch/fr.md).
 
 
 

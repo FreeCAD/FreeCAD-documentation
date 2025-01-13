@@ -3,23 +3,13 @@
 
 
 
+
+
 ## Introduzione
 
+**FCGear** è un [ambiente complementare](external_workbenches/it.md) per la produzione di diversi tipi di ingranaggi e viti senza fine in FreeCAD. La modellazione parametrica consente di modificare in qualsiasi momento le geometrie richieste. Ad esempio, modificando alcuni parametri, l\'ingranaggio evolvente diventa un ingranaggio cilindrico, un ingranaggio elicoidale o un ingranaggio a doppia elica.
 
-<div class="mw-translate-fuzzy">
-
-**FCGear** è un [ambiente esterno](external_workbenches/it.md) per la produzione di diversi tipi di ingranaggi e viti senza fine in FreeCAD. La modellazione parametrica consente di modificare in qualsiasi momento le geometrie richieste. Ad esempio, modificando alcuni parametri, l\'ingranaggio evolvente diventa un ingranaggio cilindrico, un ingranaggio elicoidale o un ingranaggio a doppia elica.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Affinché i risultati di FC Gear siano utilizzabili, è necessaria una certa conoscenza di base sui diversi tipi di ingranaggi. Modulo, diametro primitivo e diametro di piede sono termini comuni e dovrebbero quindi essere noti.
-
-
-</div>
+Affinché i risultati di FCGear siano utilizzabili, è necessaria una certa conoscenza di base sui diversi tipi di ingranaggi. Modulo, diametro primitivo e diametro di piede sono termini comuni e dovrebbero quindi essere noti.
 
 In associazione con la stampa 3D, gli utenti domestici hanno ora la possibilità di progettare e produrre ingranaggi e viti senza fine secondo le proprie idee personali e, se necessario, adattarli alle condizioni costruttive.
 
@@ -27,124 +17,118 @@ L\'Ambiente FCGear Workbench può essere installato tramite <img alt="" src=imag
 
 Dopo l\'installazione, gli strumenti sono disponibili nella barra degli strumenti Gear e nel menu Gear.
 
+
+
 ## Strumenti
 
--   <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:32px;"> [Involute Gear](FCGear_InvoluteGear.md): Creates an external involute gear.
+-   <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:32px;"> [Ingranaggio ad evolvente](FCGear_InvoluteGear/it.md): crea un ingranaggio ad evolvente esterno.
 
--   <img alt="" src=images/FCGear_InternalInvoluteGear.svg  style="width:32px;"> [Internal Involute Gear](FCGear_InternalInvoluteGear.md): Creates an internal involute gear.
+-   <img alt="" src=images/FCGear_InternalInvoluteGear.svg  style="width:32px;"> [Ingranaggio ad evolvente interno](FCGear_InternalInvoluteGear/it.md): crea un ingranaggio ad evolvente interno.
 
--   <img alt="" src=images/FCGear_InvoluteRack.svg  style="width:32px;"> [Involute Rack](FCGear_InvoluteRack.md): Creates an involute rack.
+-   <img alt="" src=images/FCGear_InvoluteRack.svg  style="width:32px;"> [Cremagliera](FCGear_InvoluteRack/it.md): crea una cremagliera ad evolvente.
 
--   <img alt="" src=images/FCGear_CycloidGear.svg  style="width:32px;"> [Cycloid Gear](FCGear_CycloidGear.md): Creates a cycloid gear.
+-   <img alt="" src=images/FCGear_CycloidGear.svg  style="width:32px;"> [Ingranaggio cicloidale](FCGear_CycloidGear/it.md): crea un ingranaggio cicloidale.
 
--   <img alt="" src=images/FCGear_CycloidRack.svg  style="width:32px;"> [Cycloid Rack](FCGear_CycloidRack.md): Creates a cycloid rack.
+-   <img alt="" src=images/FCGear_CycloidRack.svg  style="width:32px;"> [Cremagliera cicloidale](FCGear_CycloidRack/it.md): crea una cremagliera cicloidale.
 
--   <img alt="" src=images/FCGear_BevelGear.svg  style="width:32px;"> [Bevel Gear](FCGear_BevelGear.md): Creates a bevel gear.
+-   <img alt="" src=images/FCGear_BevelGear.svg  style="width:32px;"> [Ingranaggio conico](FCGear_BevelGear/it.md): crea un ingranaggio conico.
 
--   <img alt="" src=images/FCGear_CrownGear.svg  style="width:32px;"> [Crown Gear](FCGear_CrownGear.md): Creates a crown gear.
+-   <img alt="" src=images/FCGear_CrownGear.svg  style="width:32px;"> [Corona dentata](FCGear_CrownGear/it.md): crea una corona dentata.
 
--   <img alt="" src=images/FCGear_WormGear.svg  style="width:32px;"> [Worm Gear](FCGear_WormGear.md): Creates a worm gear.
+-   <img alt="" src=images/FCGear_WormGear.svg  style="width:32px;"> [Vite senza fine](FCGear_WormGear/it.md): crea un ingranaggio a vite senza fine.
 
--   <img alt="" src=images/FCGear_TimingGear.svg  style="width:32px;"> [Timing Gear](FCGear_TimingGear.md): Creates a timing gear.
+-   <img alt="" src=images/FCGear_TimingGearT.svg  style="width:32px;"> [Ingranaggio di distribuzione](FCGear_TimingGearT/it.md): crea un ingranaggio di distribuzione a T.
 
--   <img alt="" src=images/FCGear_LanternGear.svg  style="width:32px;"> [Lantern Gear](FCGear_LanternGear.md): Creates a lantern gear.
+-   <img alt="" src=images/FCGear_TimingGear.svg  style="width:32px;"> [Puleggia per cinghia dentata](FCGear_TimingGear/it.md): Puleggia per cinghia dentata.
 
--   <img alt="" src=images/FCGear_HypoCycloidGear.svg  style="width:32px;"> [HypoCycloid Gear](FCGear_HypoCycloidGear.md): Creates a hypocycloid gear with its pins.
+-   <img alt="" src=images/FCGear_LanternGear.svg  style="width:32px;"> [Ingranaggio a lanterna](FCGear_LanternGear/it.md): crea un ingranaggio della lanterna.
 
--   <img alt="" src=images/FCGear_GearConnector.svg  style="width:32px;"> [Combine two gears](FCGear_GearConnector.md): Combines two gears.
+-   <img alt="" src=images/FCGear_HypoCycloidGear.svg  style="width:32px;"> [Ingranaggio ipocicloidale](FCGear_HypoCycloidGear/it.md): Crea un ingranaggio ipocicloidale con i suoi perni.
+
+-   <img alt="" src=images/FCGear_GearConnector.svg  style="width:32px;"> [Combina due ingranaggi](FCGear_GearConnector/it.md): combina due ingranaggi.
+
+
 
 ## Tipi di ingranaggi 
 
 
-<div class="mw-translate-fuzzy">
 
-### Ingranaggio a spirale 
-
-
-</div>
+### Ingranaggio ad evolvente 
 
 <img alt="" src=images/Involute-Gear_example.png  style="width:200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](FCGear_InvoluteGear.md))*
+*Da sinistra a destra: ingranaggio cilindrico, ingranaggio elicoidale, ingranaggio a doppia elica (vedere [Ingranaggio ad evolvente](FCGear_InvoluteGear/it.md))*
 
-### Internal involute gear 
+
+
+### Ingranaggio ad evolvente interno 
 
 <img alt="" src=images/FCGear_InternalInvoluteGear-01.png  style="width:200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear InternalInvoluteGear](FCGear_InternalInvoluteGear.md))*
+*Da sinistra a destra: ingranaggio cilindrico, ingranaggi elicoidale, ingranaggio a doppia elica (vedere [Ingranaggio ad evolvente interno](FCGear_InternalInvoluteGear/it.md))*
 
 
-<div class="mw-translate-fuzzy">
 
-### Cremagliera
-
-
-</div>
+### Cremagliera ad evolvente 
 
 <img alt="" src=images/Involute-Rack_example.png  style="width:" height="200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
+*Da sinistra a destra: ingranaggio cilindrico, ingranaggio elicoidale, ingranaggio a doppia elica (vedere [Cremagliera ad evolvente](FCGear_InvoluteRack/it.md))*
 
 
-<div class="mw-translate-fuzzy">
 
 ### Ingranaggio cicloidale 
 
-
-</div>
-
 <img alt="" src=images/Cycloid-Gear_example_1.png  style="width:200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear CycloidGear](FCGear_CycloidGear.md))*
+*Da sinistra a destra: ingranaggio cilindrico, ingranaggi elicoidale, ingranaggio a doppia elica (vedere [Ingranaggio cicloidale](FCGear_CycloidGear/it.md))*
 
-### Cycloid rack 
+
+
+### Cremagliera cicloidale 
 
 <img alt="" src=images/FCGear_CycloidRack-01.png  style="width:" height="200px;"> 
-*From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear CycloidRack](FCGear_CycloidRack.md))*
+*Da sinistra a destra: cremagliera dritta, cremagliera elicoidale, cremagliera a doppia elica (vedere [Cremagliera cicloidale](FCGear_CycloidRack/it.md))*
 
 
-<div class="mw-translate-fuzzy">
 
 ### Ingranaggio conico 
 
-
-</div>
-
 <img alt="" src=images/Bevel-Gear_example.png  style="width:150px;"> 
-*From left to right: Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
+*Da sinistra a destra: ingranaggio cilindrici, ingranaggio a spirale (vedi [Ingranaggio conico](FCGear_BevelGear/it.md))*
 
 
-<div class="mw-translate-fuzzy">
 
 ### Corona dentata 
 
-
-</div>
-
 <img alt="" src=images/Crown-Gear_example.png  style="width:150px;"> 
-*Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
+*Corona dentata (vedere [Corona dentata](FCGear_CrownGear/it.md))*
 
 
-<div class="mw-translate-fuzzy">
 
 ### Vite senza fine 
 
-
-</div>
-
 <img alt="" src=images/Worm-Gear_example.png  style="width:150px;"> 
-*Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
+*Ingranaggio a vite senza fine (vedere [Vite senza fine](FCGear_WormGear/it.md))*
 
-### Timing gear 
+
+
+### Puleggia per cinghia dentata 
 
 <img alt="" src=images/Timing-Gear_example.png  style="width:150px;"> 
-*Timing gearing (see [FCGear TimingGear](FCGear_TimingGear.md))*
+*Puleggia per cinghia dentata (vedere [Puleggia per cinghia dentata](FCGear_TimingGear/it.md))*
 
-### Lantern gear 
+
+
+### Ingranaggio a lanterna 
 
 <img alt="" src=images/Lantern-Gear_example.png  style="width:150px;"> 
-*Lantern gearing (see [FCGear LanternGear](FCGear_LanternGear.md))*
+*Ingranaggio a lanterna (vedere [Ingranaggio a lanterna](FCGear_LanternGear/it.md))*
 
-### Hypocycloid gear 
+
+
+### Ingranaggio ipocicloidale 
 
 <img alt="" src=images/FCGear_FCGear_HypoCycloidGear-05.png  style="width:120px;"> 
-*Hypocycloid gearing (see [FCGear HypoCycloidGear](FCGear_HypoCycloidGear.md))*
+*Ingranaggio ipocicloidale (vedere [Ingranaggio ipocicloidale](FCGear_HypoCycloidGear/it.md))*
+
+
 
 ## Riferimenti
 
@@ -152,35 +136,26 @@ Dopo l\'installazione, gli strumenti sono disponibili nella barra degli strument
 -   Home page: <https://github.com/looooo/FCGear>
 -   Codice sorgente su github: <https://github.com/looooo/FCGear>
 
-## Links to FCGear Workbench 
 
 
-<div class="mw-translate-fuzzy">
+## Collegamenti all\'ambiente FCGear 
 
-## Link all\'ambiente Gear 
-
--   Workbench Wiki: <https://github.com/looooo/FCGear/wiki>
--   FreeCAD Wiki: [Macro_FCGear](http://www.freecadweb.org/wiki/index.php?title=Macro_FCGear) and [Bevel gear](http://forum.freecadweb.org/viewtopic.php?f=3&t=12878)
--   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?f=21&t=12968>
--   Tutorials:
--   Videos:
--   Files:
--   Report bugs: Please report bugs at <https://github.com/looooo/FCGear/issues>
+-   Wiki di FreeCAD: [Macro_FCGear](Macro_FCGear/it.md)
+-   Forum di FreeCAD: [Bevel gear](http://forum.freecadweb.org/viewtopic.php?f=3&t=12878) e [FCGear](http://forum.freecadweb.org/viewtopic.php?f=21&t=12968)
+-   Tutorial:
+-   Video:
+-   File:
+-   Segnalare un bug: segnalare un bug su <https://github.com/looooo/FCGear/issues>
 
 
-</div>
 
 ## Altri link utili 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="PartDesign_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> [PartDesign InvoluteGear](PartDesign_InvoluteGear/it.md): questo strumento consente di creare un profilo 2D di un ingranaggio a spirale. Questo profilo 2D è completamente parametrico e può essere estruso con la funzione [PartDesign Pad](PartDesign_Pad/it.md).
--   [Ambienti esterni](External_workbenches/it.md): Un elenco di tutti gli ambienti di lavoro esterni correnti di FreeCAD
+-   <img alt="PartDesign_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> [PartDesign: Profilo ad evolvente](PartDesign_InvoluteGear/it.md): questo strumento consente di creare un profilo 2D di un ingranaggio ad evolvente. Questo profilo 2D è completamente parametrico e può essere estruso con la funzione [PartDesign Pad](PartDesign_Pad/it.md).
+-   [Ambienti complementari](External_workbenches/it.md): Un elenco di tutti gli ambienti di lavoro esterni correnti di FreeCAD
 -   [Raccolta di macro](Macros_recipes/it.md)
-
-
-</div>
+-   [Ingranaggi cicloidali (tedesco)](https://vivat-geo.de/zykloidenverzahnung.html)
+-   [Ingranaggi ad evolvente (tedesco)](https://vivat-geo.de/evolventenverzahnung.html)
 
 
 

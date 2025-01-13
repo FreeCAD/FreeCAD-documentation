@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft SubelementHighlight
-   Name/it: Evidenzia sottoelemento
+   Name/it: Draft Evidenzia sottoelemento
    MenuLocation: Draft , Evidenzia sottoelemento
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Workbenches: Draft_Workbench/it
    Shortcut: **H** **S**
    Version: 0.19
    SeeAlso: Draft_Move/it, Draft_Rotate/it, Draft_Scale/it

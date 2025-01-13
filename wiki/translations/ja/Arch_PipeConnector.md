@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## 説明
 
 
@@ -21,24 +23,30 @@
 
 <small>(v0.17)</small> 
 
-このツールを使用すると、[ Arch Pipes](Arch_Pipe.md)で選択された2つまたは3つのパイプの間にコーナー接続または \"T\"接続を作成できます。
+このツールを使用すると、[ Arch Pipesで](Arch_Pipe.md)選択された2つまたは3つのパイプの間にコーナー接続または \"T\"接続を作成できます。
 
 
 </div>
+
+
 
 ## 使用方法
 
 
 <div class="mw-translate-fuzzy">
 
-＃2本または3本のパイプ[アーチパイプ](Arch_Pipe.md)を選択します。 3本のパイプを選択する場合は、2本を正確に位置合わせする必要があります。 ＃**<img src="images/Arch_PipeConnector.png" width=16px> [[Arch PipeConnector]]**ボタンを押すか、{{KEY | P}}キーを押してから{{KEY | C}}キーを押します。
+＃2本または3本のパイプ[アーチパイプを](Arch_Pipe.md)選択します。 3本のパイプを選択する場合は、2本を正確に位置合わせする必要があります。 ＃**<img src="images/Arch_PipeConnector.png" width=16px> [[Arch PipeConnector]]**ボタンを押すか、{{KEY | P}}キーを押してから{{KEY | C}}キーを押します。
 
 
 </div>
 
+
+
 ## プロパティ
 
 -    **Radius**: このコネクタの曲率半径
+
+
 
 ## 典型的なワークフロー
 
@@ -63,7 +71,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Pipe Connectorツールは、[マクロ](macros.md)やPythonコンソールから次の関数を使って使うことができます：
+Pipe Connectorツールは、[マクロやPythonコンソールから](macros.md)次の関数を使って使うことができます：
 
 
 </div>
@@ -76,7 +84,9 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 -   Creates a `Connector` object from the given `pipes`, which is a list of [Arch Pipes](Arch_Pipe.md), and optionally a `radius` of curvature.
     -   The base objects ([Draft Wires](Draft_Wire.md)) of the [Arch Pipes](Arch_Pipe.md) should share an endpoint so they create a proper, smooth connector.
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -119,6 +129,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/ja
+⏵ [documentation index](../README.md) > Arch PipeConnector/ja

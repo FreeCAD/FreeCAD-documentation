@@ -25,9 +25,9 @@ from pivy import coin
 class Box:
     def __init__(self, obj):
         '''Add some custom properties to our box feature'''
-        obj.addProperty("App::PropertyLength","Length","Box","Length of the box").Length=1.0
-        obj.addProperty("App::PropertyLength","Width","Box","Width of the box").Width=1.0
-        obj.addProperty("App::PropertyLength","Height","Box", "Height of the box").Height=1.0
+        obj.addProperty("App::PropertyLength", "Length", "Box", "Length of the box").Length = 1.0
+        obj.addProperty("App::PropertyLength", "Width", "Box", "Width of the box").Width = 1.0
+        obj.addProperty("App::PropertyLength", "Height", "Box", "Height of the box").Height = 1.0
         obj.Proxy = self
 
     def onChanged(self, fp, prop):
@@ -41,7 +41,7 @@ class Box:
 class ViewProviderBox:
     def __init__(self, obj):
         '''Set this object to the proxy object of the actual view provider'''
-        obj.addProperty("App::PropertyColor","Color","Box","Color of the box").Color=(1.0,0.0,0.0)
+        obj.addProperty("App::PropertyColor","Color", "Box", "Color of the box").Color = (1.0, 0.0, 0.0)
         obj.Proxy = self
 
     def attach(self, obj):
@@ -55,14 +55,14 @@ class ViewProviderBox:
         self.shaded.addChild(self.scale)
         self.shaded.addChild(self.color)
         self.shaded.addChild(data)
-        obj.addDisplayMode(self.shaded,"Shaded");
+        obj.addDisplayMode(self.shaded, "Shaded");
         style=coin.SoDrawStyle()
         style.style = coin.SoDrawStyle.LINES
         self.wireframe.addChild(style)
         self.wireframe.addChild(self.scale)
         self.wireframe.addChild(self.color)
         self.wireframe.addChild(data)
-        obj.addDisplayMode(self.wireframe,"Wireframe");
+        obj.addDisplayMode(self.wireframe, "Wireframe");
         self.onChanged(obj,"Color")
 
     def updateData(self, fp, prop):
@@ -71,7 +71,7 @@ class ViewProviderBox:
         l = fp.getPropertyByName("Length")
         w = fp.getPropertyByName("Width")
         h = fp.getPropertyByName("Height")
-        self.scale.scaleFactor.setValue(float(l),float(w),float(h))
+        self.scale.scaleFactor.setValue(float(l), float(w), float(h))
         pass
 
     def getDisplayModes(self,obj):
@@ -95,7 +95,7 @@ class ViewProviderBox:
         FreeCAD.Console.PrintMessage("Change property: " + str(prop) + "\n")
         if prop == "Color":
             c = vp.getPropertyByName("Color")
-            self.color.rgb.setValue(c[0],c[1],c[2])
+            self.color.rgb.setValue(c[0], c[1], c[2])
 
     def getIcon(self):
         '''Return the icon in XPM format which will appear in the tree view. This method is\
@@ -128,20 +128,20 @@ class ViewProviderBox:
             "   #######      "};
             """
 
-    def __getstate__(self):
+    def dumps(self):
         '''When saving the document this object gets stored using Python's json module.\
                 Since we have some un-serializable parts here -- the Coin stuff -- we must define this method\
                 to return a tuple of all serializable objects or None.'''
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         '''When restoring the serialized object from document we have the chance to set some internals here.\
                 Since no data were serialized nothing needs to be done here.'''
         return None
 
 def makeBox():
     FreeCAD.newDocument()
-    a=FreeCAD.ActiveDocument.addObject("App::FeaturePython","Box")
+    a=FreeCAD.ActiveDocument.addObject("App::FeaturePython", "Box")
     Box(a)
     ViewProviderBox(a.ViewObject)
 
@@ -156,168 +156,25 @@ Si votre objet doit être recalculé dès sa création, vous devez le faire manu
 
 Cet exemple produit un certain nombre de traces de la pile d\'exception dans la fenêtre de visualisation du rapport. En effet, la méthode `onChanged` de la classe `Box` est appelée chaque fois qu\'une propriété est ajoutée dans `__init__`. Lorsque la première est ajoutée, les propriétés Width et Height n\'existent pas encore et la tentative d\'y accéder échoue donc.
 
-Une explication de `__getstate__` et `__setstate__` se trouve dans le fil de discussion du forum [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
+Une explication de `__getstate__` et `__setstate__` qui ont été remplacés par `dumps` et `loads` se trouve dans le fil de discussion du forum [obj.Proxy.Type is a dict, not a string](https://forum.freecad.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
 
+`obj.addProperty(...)`
 
-## Méthodes disponibles 
-
-Voir [Méthodes FeaturePython](FeaturePython_methods/fr.md) pour la référence complète.
-
-
-
-## Propriétés disponibles 
-
-Les propriétés sont les bases des FeaturePython objets. Grâce à elles, vous pouvez interagir et modifier votre objet. Après avoir créé une nouvelle FeaturePython dans votre document ( obj=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\") ), vous pouvez obtenir une liste des propriétés disponibles en faisant :
+renvoie `obj`, de sorte que la valeur de la propriété peut être définie sur la même ligne :
 
 
 ```python
-obj.supportedProperties()
+obj.addProperty("App::PropertyLength", "Length", "Box", "Length of the box").Length = 1.0
 ```
 
-Vous obtiendrez une liste des propriétés disponibles, décrites plus en détail sur la page [Propriétés personnalisées de FeaturePython](FeaturePython_Custom_Properties/fr.md) :
-
--   [App::PropertyAcceleration](FeaturePython_Custom_Properties#App:_PropertyAcceleration.md)
--   [App::PropertyAngle](FeaturePython_Custom_Properties#App:_PropertyAngle.md)
--   [App::PropertyArea](FeaturePython_Custom_Properties#App:_PropertyArea.md)
--   [App::PropertyBool](FeaturePython_Custom_Properties#App:_PropertyBool.md)
--   [App::PropertyBoolList](FeaturePython_Custom_Properties#App:_PropertyBoolList.md)
--   [App::PropertyColor](FeaturePython_Custom_Properties#App:_PropertyColor.md)
--   [App::PropertyColorList](FeaturePython_Custom_Properties#App:_PropertyColorList.md)
--   [App::PropertyDirection](FeaturePython_Custom_Properties#App:_PropertyDirection.md)
--   [App::PropertyDistance](FeaturePython_Custom_Properties#App:_PropertyDistance.md)
--   [App::PropertyEnumeration](FeaturePython_Custom_Properties#App:_PropertyEnumeration.md)
--   [App::PropertyExpressionEngine](FeaturePython_Custom_Properties#App:_PropertyExpressionEngine.md)
--   [App::PropertyFile](FeaturePython_Custom_Properties#App:_PropertyFile.md)
--   [App::PropertyFileIncluded](FeaturePython_Custom_Properties#App:_PropertyFileIncluded.md)
--   [App::PropertyFloat](FeaturePython_Custom_Properties#App:_PropertyFloat.md)
--   [App::PropertyFloatConstraint](FeaturePython_Custom_Properties#App:_PropertyFloatConstraint.md)
--   [App::PropertyFloatList](FeaturePython_Custom_Properties#App:_PropertyFloatList.md)
--   [App::PropertyFont](FeaturePython_Custom_Properties#App:_PropertyFont.md)
--   [App::PropertyForce](FeaturePython_Custom_Properties#App:_PropertyForce.md)
--   [App::PropertyFrequency](FeaturePython_Custom_Properties#App:_PropertyFrequency.md)
--   [App::PropertyInteger](FeaturePython_Custom_Properties#App:_PropertyInteger.md)
--   [App::PropertyIntegerConstraint](FeaturePython_Custom_Properties#App:_PropertyIntegerConstraint.md)
--   [App::PropertyIntegerList](FeaturePython_Custom_Properties#App:_PropertyIntegerList.md)
--   [App::PropertyIntegerSet](FeaturePython_Custom_Properties#App:_PropertyIntegerSet.md)
--   [App::PropertyLength](FeaturePython_Custom_Properties#App:_PropertyLength.md)
--   [App::PropertyLink](FeaturePython_Custom_Properties#App:_PropertyLink.md)
--   [App::PropertyLinkChild](FeaturePython_Custom_Properties#App:_PropertyLinkChild.md)
--   [App::PropertyLinkGlobal](FeaturePython_Custom_Properties#App:_PropertyLinkGlobal.md)
--   [App::PropertyLinkHidden](FeaturePython_Custom_Properties#App:_PropertyLinkHidden.md)
--   [App::PropertyLinkList](FeaturePython_Custom_Properties#App:_PropertyLinkList.md)
--   [App::PropertyLinkListChild](FeaturePython_Custom_Properties#App:_PropertyLinkListChild.md)
--   [App::PropertyLinkListGlobal](FeaturePython_Custom_Properties#App:_PropertyLinkListGlobal.md)
--   [App::PropertyLinkListHidden](FeaturePython_Custom_Properties#App:_PropertyLinkListHidden.md)
--   [App::PropertyLinkSub](FeaturePython_Custom_Properties#App:_PropertyLinkSub.md)
--   [App::PropertyLinkSubChild](FeaturePython_Custom_Properties#App:_PropertyLinkSubChild.md)
--   [App::PropertyLinkSubGlobal](FeaturePython_Custom_Properties#App:_PropertyLinkSubGlobal.md)
--   [App::PropertyLinkSubHidden](FeaturePython_Custom_Properties#App:_PropertyLinkSubHidden.md)
--   [App::PropertyLinkSubList](FeaturePython_Custom_Properties#App:_PropertyLinkSubList.md)
--   [App::PropertyLinkSubListChild](FeaturePython_Custom_Properties#App:_PropertyLinkSubListChild.md)
--   [App::PropertyLinkSubListGlobal](FeaturePython_Custom_Properties#App:_PropertyLinkSubListGlobal.md)
--   [App::PropertyLinkSubListHidden](FeaturePython_Custom_Properties#App:_PropertyLinkSubListHidden.md)
--   [App::PropertyMap](FeaturePython_Custom_Properties#App:_PropertyMap.md)
--   [App::PropertyMaterial](FeaturePython_Custom_Properties#App:_PropertyMaterial.md)
--   [App::PropertyMaterialList](FeaturePython_Custom_Properties#App:_PropertyMaterialList.md)
--   [App::PropertyMatrix](FeaturePython_Custom_Properties#App:_PropertyMatrix.md)
--   [App::PropertyPath](FeaturePython_Custom_Properties#App:_PropertyPath.md)
--   [App::PropertyPercent](FeaturePython_Custom_Properties#App:_PropertyPercent.md)
--   [App::PropertyPersistentObject](FeaturePython_Custom_Properties#App:_PropertyPersistentObject.md)
--   [App::PropertyPlacement](FeaturePython_Custom_Properties#App:_PropertyPlacement.md)
--   [App::PropertyPlacementLink](FeaturePython_Custom_Properties#App:_PropertyPlacementLink.md)
--   [App::PropertyPlacementList](FeaturePython_Custom_Properties#App:_PropertyPlacementList.md)
--   [App::PropertyPosition](FeaturePython_Custom_Properties#App:_PropertyPosition.md)
--   [App::PropertyPrecision](FeaturePython_Custom_Properties#App:_PropertyPrecision.md)
--   [App::PropertyPressure](FeaturePython_Custom_Properties#App:_PropertyPressure.md)
--   [App::PropertyPythonObject](FeaturePython_Custom_Properties#App:_PropertyPythonObject.md)
--   [App::PropertyQuantity](FeaturePython_Custom_Properties#App:_PropertyQuantity.md)
--   [App::PropertyQuantityConstraint](FeaturePython_Custom_Properties#App:_PropertyQuantityConstraint.md)
--   [App::PropertySpeed](FeaturePython_Custom_Properties#App:_PropertySpeed.md)
--   [App::PropertyString](FeaturePython_Custom_Properties#App:_PropertyString.md)
--   [App::PropertyStringList](FeaturePython_Custom_Properties#App:_PropertyStringList.md)
--   [App::PropertyUUID](FeaturePython_Custom_Properties#App:_PropertyUUID.md)
--   [App::PropertyVacuumPermittivity](FeaturePython_Custom_Properties#App:_PropertyVacuumPermittivity.md)
--   [App::PropertyVector](FeaturePython_Custom_Properties#App:_PropertyVector.md)
--   [App::PropertyVectorDistance](FeaturePython_Custom_Properties#App:_PropertyVectorDistance.md)
--   [App::PropertyVectorList](FeaturePython_Custom_Properties#App:_PropertyVectorList.md)
--   [App::PropertyVolume](FeaturePython_Custom_Properties#App:_PropertyVolume.md)
--   [App::PropertyXLink](FeaturePython_Custom_Properties#App:_PropertyXLink.md)
--   [App::PropertyXLinkList](FeaturePython_Custom_Properties#App:_PropertyXLinkList.md)
--   [App::PropertyXLinkSub](FeaturePython_Custom_Properties#App:_PropertyXLinkSub.md)
--   [App::PropertyXLinkSubList](FeaturePython_Custom_Properties#App:_PropertyXLinkSubList.md)
--   [Mesh::PropertyCurvatureList](FeaturePython_Custom_Properties#Mesh:_PropertyCurvatureList.md)
--   [Mesh::PropertyMeshKernel](FeaturePython_Custom_Properties#Mesh:_PropertyMeshKernel.md)
--   [Mesh::PropertyNormalList](FeaturePython_Custom_Properties#Mesh:_PropertyNormalList.md)
--   [Part::PropertyFilletEdges](FeaturePython_Custom_Properties#Part:_PropertyFilletEdges.md)
--   [Part::PropertyGeometryList](FeaturePython_Custom_Properties#Part:_PropertyGeometryList.md)
--   [Part::PropertyPartShape](FeaturePython_Custom_Properties#Part:_PropertyPartShape.md)
--   [Part::PropertyShapeHistory](FeaturePython_Custom_Properties#Part:_PropertyShapeHistory.md)
--   [Path::PropertyPath](FeaturePython_Custom_Properties#Path:_PropertyPath.md)
--   [Path::PropertyTool](FeaturePython_Custom_Properties#Path:_PropertyTool.md)
--   [Path::PropertyTooltable](FeaturePython_Custom_Properties#Path:_PropertyTooltable.md)
--   [Sketcher::PropertyConstraintList](FeaturePython_Custom_Properties#Sketcher:_PropertyConstraintList.md)
--   [Spreadsheet::PropertyColumnWidths](FeaturePython_Custom_Properties#Spreadsheet:_PropertyColumnWidths.md)
--   [Spreadsheet::PropertyRowHeights](FeaturePython_Custom_Properties#Spreadsheet:_PropertyRowHeights.md)
--   [Spreadsheet::PropertySheet](FeaturePython_Custom_Properties#Spreadsheet:_PropertySheet.md)
--   [Spreadsheet::PropertySpreadsheetQuantity](FeaturePython_Custom_Properties#Spreadsheet:_PropertySpreadsheetQuantity.md)
--   [TechDraw::PropertyCenterLineList](FeaturePython_Custom_Properties#TechDraw:_PropertyCenterLineList.md)
--   [TechDraw::PropertyCosmeticEdgeList](FeaturePython_Custom_Properties#TechDraw:_PropertyCosmeticEdgeList.md)
--   [TechDraw::PropertyCosmeticVertexList](FeaturePython_Custom_Properties#TechDraw:_PropertyCosmeticVertexList.md)
--   [TechDraw::PropertyGeomFormatList](FeaturePython_Custom_Properties#TechDraw:_PropertyGeomFormatList.md)
-
-Lors de l\'ajout de propriétés à vos objets, prenez soin de ceci :
-
--   Ne pas utiliser de caractères **\"\<\"** ou **\"\>\"** dans les descriptions des propriétés (qui coupent des portions de code dans le fichier xml.Fcstd)
--   Les propriétés sont stockées dans un fichier texte .Fcstd.
--   Toutes les **propriétés** dont le nom vient après \"Shape\" sont triés dans l\'ordre alphabétique, donc, si vous avez une forme dans vos propriétés, et comme les propriétés sont chargées après la forme, il peut y avoir des comportements inattendus!
-
-Une liste complète des attributs de propriété est disponible dans le [fichier d'en-tête PropertyStandard C++](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyStandard.h). Par exemple, si vous souhaitez autoriser l\'utilisateur à saisir uniquement une plage de valeurs limitée (par exemple, à l\'aide de PropertyIntegerConstraint), vous affecterez à Python un tuple contenant non seulement la valeur de la propriété, mais également les limites inférieure et supérieure, ainsi que l\'incrément, comme ci-dessous :
+Ce qui est équivalent à :
 
 
 ```python
-prop = (value, lower, upper, stepsize)
+obj.addProperty("App::PropertyLength", "Length", "Box", "Length of the box")
+obj.Length = 1.0
 ```
-
-
-
-## Type de propriété 
-
-Par défaut, les propriétés peuvent être actualisées. Il est possible de rendre les propriétés en lecture seule, par exemple dans le cas ou l\'on veut montrer le résultat d\'une méthode. Il est également possible de cacher la propriété. Le type de propriété peut être définie à l\'aide :
-
-
-```python
-obj.setEditorMode("MyPropertyName", mode)
-```
-
-Mode est un **integer court** qui peut avoir la valeur:
-
- 0 -- mode par défaut, lecture et écriture
- 1 -- lecture seule
- 2 -- caché
-
-Les EditorModes ne sont pas fixés dans le fichier reload de FreeCAD. Cela pourrait être fait par la fonction \_\_setstate\_\_. Voir <http://forum.freecadweb.org/viewtopic.php?f=18&t=13460&start=10#p108072> En utilisant les propriétés de setEditorMode vous ne savez que lire dans PropertyEditor. Les propriétés pourraient encore être modifiées à partir d\'une commande Python. Pour faire une lecture seul le réglage doit être transmis directement à la fonction d\'ajout de propriété. Voir le topic <http://forum.freecadweb.org/viewtopic.php?f=18&t=13460&start=20#p109709> pour voir un exemple.
-
-En utilisant le paramètre direct dans la fonction addProperty, vous avez également plus de possibilités. En particulier, un point intéressant est de marquer une propriété en tant que propriété en sortie. De cette façon, FreeCAD ne marquera pas la fonctionnalité comme étant touchée lors de la modification (inutile donc de recalculer).
-
-Exemple de sortie de property (see also <https://forum.freecadweb.org/viewtopic.php?t=24928>) :
-
-
-```python
-obj.addProperty("App::PropertyString","MyCustomProperty","","",8)
-```
-
-Les types de propriétés pouvant être définis au dernier paramètre de la fonction addProperty sont les suivants :
-
-  0 -- Prop_None, pas de type de propriété spécial
-  1 -- Prop_ReadOnly, la propriété est en lecture seule dans l'éditeur
-  2 -- Prop_Transient, la propriété ne sera pas sauvegardée dans un fichier
-  4 -- Prop_Hidden, la propriété n'apparaîtra pas dans l'éditeur
-  8 -- Prop_Output, modifier la propriété  ne touche pas son conteneur parent
-  16 - Prop_NoRecompute, modifier la propriété ne touche pas son conteneur pour le recalcul
-  32 -- Prop_NoPersist, la propriété ne sera pas du tout sauvegardée dans le fichier
-
-Vous pouvez trouver ces différents types de propriétés définis dans [source code C++ header for PropertyContainer](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h).
 
 
 
@@ -507,10 +364,10 @@ class ViewProviderOctahedron:
         "   #######      "};
         """
 
-  def __getstate__(self):
+  def dumps(self):
      return None
 
-  def __setstate__(self,state):
+  def loads(self,state):
      return None
 ```
 
@@ -616,10 +473,10 @@ class ViewProviderMolecule:
             p = fp.getPropertyByName("p2")
             self.trl2.translation=(p.x,p.y,p.z)
 
-    def __getstate__(self):
+    def dumps(self):
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         return None
 
 def makeMolecule():
@@ -865,10 +722,10 @@ class ViewProviderMolecule:
     def setDisplayMode(self, mode):
         return mode
 
-    def __getstate__(self):
+    def dumps(self):
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         return None
 
 def makeMolecule():
@@ -885,13 +742,13 @@ a,b = makeMolecule()
 
 
 
-## Objets scriptés dans Part Design 
+## Objets scriptés dans PartDesign 
 
-Lors de la création d\'objets scriptés dans Part Design, le processus est similaire à celui des objets scriptés abordés ci-dessus, mais avec quelques considérations supplémentaires. Nous devons gérer deux propriétés de forme, l\'une pour la forme que nous voyons dans la vue 3D et l\'autre pour la forme utilisée par les outils de patronage, comme les caractéristiques du motif polaire. Les formes de l\'objet doivent également être fusionnées à tout matériau existant déjà dans le corps (ou découpées dans le cas de caractéristiques soustractives). Et nous devons tenir compte de l\'emplacement et de la fixation de nos objets de manière un peu différente.
+Lors de la création d\'objets scriptés dans PartDesign, le processus est similaire à celui des objets scriptés abordés ci-dessus, mais avec quelques considérations supplémentaires. Nous devons gérer deux propriétés de forme, l\'une pour la forme que nous voyons dans la vue 3D et l\'autre pour la forme utilisée par les outils de patronage, comme les caractéristiques du motif polaire. Les formes de l\'objet doivent également être fusionnées à tout matériau existant déjà dans le corps (ou découpées dans le cas de caractéristiques soustractives). Et nous devons tenir compte de l\'emplacement et de la fixation de nos objets de manière un peu différente.
 
 Les caractéristiques d\'objet solide écrites dans Part Design doivent être basées sur PartDesign::FeaturePython, PartDesign::FeatureAdditivePython ou PartDesign::FeatureSubtractivePython plutôt que sur Part::FeaturePython. Seules les variantes additives et soustractives peuvent être utilisées dans les caractéristiques de motifs, et si elles sont basées sur Part::FeaturePython, lorsque l\'utilisateur dépose l\'objet dans un corps Part Design, il devient une BaseFeature au lieu d\'être traité par le corps comme un objet Part Design natif. Remarque : toutes ces caractéristiques sont censées être des solides, donc si vous créez une caractéristique non solide, elle doit être basée sur Part::FeaturePython, sinon la caractéristique suivante dans l\'arbre tentera de fusionner avec un solide et échouera.
 
-Voici un exemple simple de création d\'une primitive Tube, similaire à la primitive Tube dans l\'atelier Part sauf que celle-ci sera un objet solide Part Design. Pour cela, nous utiliserons deux fichiers distincts : pdtube.FCMacro et pdtube.py. Le fichier .FCMacro sera exécuté par l\'utilisateur pour créer l\'objet. Le fichier .py contiendra les définitions des classes, importées par le fichier .FCMacro. La raison pour laquelle nous procédons de cette manière est de maintenir la nature paramétrique de l\'objet après avoir redémarré FreeCAD et ouvert un document contenant l\'un de nos Tubes.
+Voici un exemple simple de création d\'une primitive Tube, similaire à la primitive Tube dans l\'atelier Part sauf que celle-ci sera un objet solide PartDesign. Pour cela, nous utiliserons deux fichiers distincts : pdtube.FCMacro et pdtube.py. Le fichier .FCMacro sera exécuté par l\'utilisateur pour créer l\'objet. Le fichier .py contiendra les définitions des classes, importées par le fichier .FCMacro. La raison pour laquelle nous procédons de cette manière est de maintenir la nature paramétrique de l\'objet après avoir redémarré FreeCAD et ouvert un document contenant l\'un de nos Tubes.
 
 Tout d\'abord, le fichier de définition de la classe :
 
@@ -1019,13 +876,13 @@ class PDTubeVP:
             "   #######      "};
             """
 
-    def __getstate__(self):
+    def dumps(self):
         '''When saving the document this object gets stored using Python's json module.\
                 Since we have some un-serializable parts here -- the Coin stuff -- we must define this method\
                 to return a tuple of all serializable objects or None.'''
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         '''When restoring the serialized object from document we have the chance to set some internals here.\
                 Since no data were serialized nothing needs to be done here.'''
         return None
@@ -1067,6 +924,323 @@ else:
 
 
 
+## Types d\'objets disponibles 
+
+Les types d\'objets que vous pouvez créer avec `FreeCAD.ActiveDocument.addObject()` dépendent des modules chargés. Après avoir chargé tous les ateliers internes, une liste complète peut être obtenue avec `FreeCAD.ActiveDocument.supportedTypes()`. Seuls les types d\'objets dont le nom se termine par `Python` peuvent être utilisés pour les objets scriptés. Ils sont listés ici (pour FreeCAD V1.0) :
+
+-    `App::DocumentObjectGroupPython`
+    
+
+-    `App::FeaturePython`
+    
+
+-    `App::GeometryPython`
+    
+
+-    `App::LinkElementPython`
+    
+
+-    `App::LinkGroupPython`
+    
+
+-    `App::LinkPython`
+    
+
+-    `App::MaterialObjectPython`
+    
+
+-    `App::PlacementPython`
+    
+
+-    `Fem::ConstraintPython`
+    
+
+-    `Fem::FeaturePython`
+    
+
+-    `Fem::FemAnalysisPython`
+    
+
+-    `Fem::FemMeshObjectPython`
+    
+
+-    `Fem::FemResultObjectPython`
+    
+
+-    `Fem::FemSolverObjectPython`
+    
+
+-    `Measure::MeasurePython`
+    
+
+-    `Mesh::FeaturePython`
+    
+
+-    `Part::CustomFeaturePython`
+    
+
+-    `Part::FeaturePython`
+    
+
+-    `Part::Part2DObjectPython`
+    
+
+-    `PartDesign::FeatureAdditivePython`
+    
+
+-    `PartDesign::FeatureAddSubPython`
+    
+
+-    `PartDesign::FeaturePython`
+    
+
+-    `PartDesign::FeatureSubtractivePython`
+    
+
+-    `PartDesign::SubShapeBinderPython`
+    
+
+-    `Path::FeatureAreaPython`
+    
+
+-    `Path::FeatureAreaViewPython`
+    
+
+-    `Path::FeatureCompoundPython`
+    
+
+-    `Path::FeaturePython`
+    
+
+-    `Path::FeatureShapePython`
+    
+
+-    `Points::FeaturePython`
+    
+
+-    `Sketcher::SketchObjectPython`
+    
+
+-    `Spreadsheet::SheetPython`
+    
+
+-    `TechDraw::DrawBrokenViewPython`
+    
+
+-    `TechDraw::DrawComplexSectionPython`
+    
+
+-    `TechDraw::DrawLeaderLinePython`
+    
+
+-    `TechDraw::DrawPagePython`
+    
+
+-    `TechDraw::DrawRichAnnoPython`
+    
+
+-    `TechDraw::DrawTemplatePython`
+    
+
+-    `TechDraw::DrawTilePython`
+    
+
+-    `TechDraw::DrawTileWeldPython`
+    
+
+-    `TechDraw::DrawViewPartPython`
+    
+
+-    `TechDraw::DrawViewPython`
+    
+
+-    `TechDraw::DrawViewSectionPython`
+    
+
+-    `TechDraw::DrawViewSymbolPython`
+    
+
+-    `TechDraw::DrawWeldSymbolPython`
+    
+
+
+
+## Méthodes disponibles 
+
+Voir [Méthodes FeaturePython](FeaturePython_methods/fr.md) pour la référence complète.
+
+
+
+## Propriétés disponibles 
+
+Les propriétés sont les véritables éléments constitutifs des objets FeaturePython. C\'est grâce à elles que vous pourrez interagir et modifier votre objet. Après avoir créé un nouvel objet FeaturePython dans votre document, vous pouvez obtenir une liste des propriétés disponibles :
+
+
+```python
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "Box")
+obj.supportedProperties()
+```
+
+Voir [Propriétés personnalisées de FeaturePython](FeaturePython_Custom_Properties/fr.md) pour une vue d\'ensemble.
+
+Lorsque vous ajoutez des propriétés à vos objets personnalisés, veillez à ce qui suit :
+
+-   N\'utilisez pas les caractères {{Incode|<}} ou {{Incode|>}} dans les descriptions des propriétés (cela casserait les morceaux de xml dans le fichier .FCStd).
+-   Les propriétés sont stockées par ordre alphabétique dans un fichier .FCStd. Si vous avez une forme dans vos propriétés, toute propriété dont le nom vient après \"Shape\" dans l\'ordre alphabétique sera chargée APRES la forme, ce qui peut provoquer des comportements étranges.
+
+Les propriétés sont définies dans le [fichier d\'en-tête PropertyStandard en C++](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyStandard.h).
+
+
+
+### Attributs des propriétés 
+
+Par défaut, les propriétés peuvent être modifiées par l\'utilisateur, mais il est possible de les rendre en lecture seule, par exemple si l\'on souhaite afficher le résultat d\'une méthode. Il est également possible de cacher une propriété. Ces attributs peuvent être définis à l\'aide de la commande :
+
+
+```python
+obj.setEditorMode("MyPropertyName", mode)
+```
+
+Où le mode peut avoir ces valeurs :
+
+ 0 -- mode par défaut, lecture et écriture
+ 1 -- lecture seule
+ 2 -- caché
+ 3 -- lecture seule et caché
+
+Les attributs peuvent également être définis à l\'aide d\'une liste de chaînes de caractères, par exemple `obj.setEditorMode("Placement", ["ReadOnly", "Hidden"])`.
+
+Les attributs définis à l\'aide de {{Incode|setEditorMode}} peuvent être supprimés par l\'utilisateur. Voir l\'[éditeur de propriétés](Property_editor/fr#Menu_contextuel.md). Notez que les propriétés en lecture seule peuvent toujours être modifiées à partir de Python.
+
+Vous pouvez également définir ces attributs, et d\'autres encore, directement avec la fonction {{Incode|addProperty}}. Les attributs définis avec cette fonction ne peuvent pas être modifiés par l\'utilisateur. Une possibilité intéressante est de marquer une propriété comme une propriété de sortie. De cette façon, FreeCAD ne marquera pas l\'objet comme touché lorsqu\'il le modifie (il n\'est donc pas nécessaire de recalculer).
+
+Exemple de propriété de sortie (voir également <https://forum.freecad.org/viewtopic.php?t=24928>) :
+
+
+```python
+obj.addProperty("App::PropertyString", "MyCustomProperty", "", "", 8)
+```
+
+Les attributs qui peuvent être définis avec {{Incode|addProperty}} sont énumérés ci-dessous. Plusieurs attributs peuvent être définis en ajoutant des valeurs.
+
+  0 -- Prop_None, pas d'attribut spécial de propriété
+  1 -- Prop_ReadOnly, la propriété est en lecture seule dans l'éditeur
+  2 -- Prop_Transient, la propriété ne sera pas sauvegardée dans un fichier
+  4 -- Prop_Hidden, la propriété n'apparaîtra pas dans l'éditeur
+  8 -- Prop_Output, la propriété modifiée ne touche pas son conteneur parent
+ 16 -- Prop_NoRecompute, la propriété modifiée ne touche pas son conteneur pour le recomputer
+ 32 -- Prop_NoPersist, la propriété ne sera pas du tout sauvegardée dans un fichier
+
+Les attributs de la propriété sont définis dans le [fichier d\'en-tête PropertyStandard en C++](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h).
+
+Pour {{Incode|Prop_ReadOnly}} et {{Incode|Prop_Hidden}}, la fonction {{Incode|addProperty}} a également des arguments booléens :
+
+
+```python
+obj.addProperty("App::PropertyString", "MyCustomProperty", "", "", 0, True, True)
+```
+
+Ce qui est équivalent à :
+
+
+```python
+obj.addProperty("App::PropertyString", "MyCustomProperty", "", "", 1+4)
+```
+
+
+{{Version/fr|1.0}}
+
+: la signature complète de la fonction est :
+
+
+```python
+obj.addProperty(type: string, name: string, group="", doc="", attr=0, read_only=False, hidden=False, enum_vals=[])
+```
+
+-    {{Incode|type}}: type de propriété.
+
+-    {{Incode|name}}: nom de la propriété.
+
+-    {{Incode|group}}: sous-section de la propriété (utilisée dans l\'[éditeur de propriétés](Property_editor/fr.md)).
+
+-    {{Incode|doc}}: infobulle (idem).
+
+-    {{Incode|attr}}: attribut, voir ci-dessus.
+
+-    {{Incode|read_only}}: voir ci-dessus.
+
+-    {{Incode|hidden}}: voir ci-dessus.
+
+-    {{Incode|enum_vals}}: valeurs d\'énumération (liste de chaînes), uniquement pertinentes si le type est {{Incode|"App::PropertyEnumeration"}}.
+
+
+
+## Extensions disponibles 
+
+La liste des extensions disponibles peut être obtenue avec `grep -RI EXTENSION_PROPERTY_SOURCE_TEMPLATE` dans le dépôt du code source et est donnée ici (pour FreeCAD v0.21).
+
+Pour des objets :
+
+-    `App::GeoFeatureGroupExtensionPython`
+    
+
+-    `App::GroupExtensionPython`
+    
+
+-    `App::LinkBaseExtensionPython`
+    
+
+-    `App::LinkExtensionPython`
+    
+
+-    `App::OriginGroupExtensionPython`
+    
+
+-    `Part::AttachExtensionPython`
+    
+
+-    `TechDraw::CosmeticExtensionPython`
+    
+
+Pour des objets d\'affichage :
+
+-    `Gui::ViewProviderExtensionPython`
+    
+
+-    `Gui::ViewProviderGeoFeatureGroupExtensionPython`
+    
+
+-    `Gui::ViewProviderGroupExtensionPython`
+    
+
+-    `Gui::ViewProviderOriginGroupExtensionPython`
+    
+
+-    `PartGui::ViewProviderAttachExtensionPython`
+    
+
+-    `PartGui::ViewProviderSplineExtensionPython`
+    
+
+Il existe d\'autres extensions mais elles ne fonctionnent pas en l\'état :
+
+-    `App::ExtensionPython`
+    
+
+-    `TechDrawGui::ViewProviderCosmeticExtensionPython`
+    
+
+-    `TechDrawGui::ViewProviderDrawingViewExtensionPython`
+    
+
+-    `TechDrawGui::ViewProviderPageExtensionPython`
+    
+
+-    `TechDrawGui::ViewProviderTemplateExtensionPython`
+    
+
+
+
 ## Plus d\'informations 
 
 Pages supplémentaires :
@@ -1080,7 +1254,7 @@ Fils de discussion intéressants sur les objets scriptés :
 
 -   [Python object attributes lost at load](http://forum.freecadweb.org/viewtopic.php?f=22&t=13740)
 -   [New FeaturePython is grey](http://forum.freecadweb.org/viewtopic.php?t=12139)
--   [Explanation on \_\_getstate\_\_ and \_\_setstate\_\_](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009), [official documentation](https://docs.python.org/3/library/pickle.html#object.__getstate__)
+-   [Explanation on dumps and loads](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009), [official documentation](https://docs.python.org/3/library/pickle.html#object.__getstate__)
 -   [Eigenmode frequency always 0?](https://forum.freecadweb.org/viewtopic.php?f=18&t=13460&start=20#p109709)
 -   [how to implement python feature\'s setEdit properly?](https://forum.freecadweb.org/viewtopic.php?f=22&t=21330)
 

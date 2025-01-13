@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -35,6 +37,8 @@ No todos los objetos Arch actualmente pueden hacer uso de múltiples materiales,
 
 </div>
 
+
+
 ## Como utilizar 
 
 
@@ -47,6 +51,8 @@ No todos los objetos Arch actualmente pueden hacer uso de múltiples materiales,
 
 
 </div>
+
+
 
 ## Opciones
 
@@ -87,6 +93,11 @@ This roughly corresponds to a combination of [IfcMaterialLayerSet](https://stand
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/es
+⏵ [documentation index](../README.md) > Arch MultiMaterial/es

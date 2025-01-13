@@ -1,33 +1,37 @@
 # Source documentation/pt-br
-## Overview
+## Visão geral 
 
-The FreeCAD source code is commented to allow automatic programming documentation generation using [Doxygen](Doxygen.md), a popular source code documentation system. Doxygen can document both the C++ and Python parts of FreeCAD, resulting in HTML pages with hyperlinks to each documented function and class.
+O código-fonte do FreeCAD é comentado para permitir a geração automática de documentação de programação usando o [Doxygen](Doxygen/pt-br.md), um popular sistema de documentação de código-fonte. O Doxygen pode documentar as partes C++ e Python do FreeCAD, resultando em páginas HTML com hiperlinks para cada função e classe documentada.
 
-The documentation is hosted online at the [FreeCAD API website](https://freecad.github.io/SourceDoc/). Please note that this documentation may not always be up to date; if you need more details, download FreeCAD\'s latest source code and compile the documentation yourself. If you have pressing questions about the code please ask in the developer section of the [FreeCAD forum](https://forum.freecadweb.org/index.php).
+A documentação está hospedada on-line no [site da API FreeCAD](https://freecad.github.io/SourceDoc/). Por favor, note que esta documentação pode nem sempre estar atualizada; se você precisar de mais detalhes, baixe o código fonte mais recente do FreeCAD e compile a documentação você mesmo. Se você tiver perguntas urgentes sobre o código, por favor, pergunte na seção de desenvolvedores do [fórum FreeCAD](https://forum.freecadweb.org/index.php).
 
-Compiling the API documentation follows the same general steps as compiling the FreeCAD executable, as indicated in the [Compile on Linux](Compile_on_Linux.md) page.
+A compilação da documentação da API segue os mesmos passos gerais que a compilação do executável FreeCAD, conforme indicado na página [Compilar no Linux](Compile_on_Linux/pt-br.md).
 
 <img alt="" src=images/FreeCAD_documentation_compilation_workflow.svg  style="width:800px;">
 
 
 
-*General workflow to compile FreeCAD's programming documentation. The Doxygen and Graphviz packages must be in the system, as well as the FreeCAD source code itself. CMake configures the system so that with a single make instruction the documentation for the the entire project is compiled into many HTML files with diagrams.*
+*Fluxo de trabalho geral para compilar a documentação de programação do FreeCAD. Os pacotes Doxygen e Graphviz devem estar no sistema, assim como o próprio código-fonte do FreeCAD. O CMake configura o sistema para que, com uma única instrução make, a documentação de todo o projeto seja compilada em muitos arquivos HTML com diagramas.*
 
-## Build source documentation 
 
-### Complete documentation 
 
-If you have Doxygen installed, it is very easy to build the documentation. Also install [Graphviz](https://www.graphviz.org/) to be able to produce diagrams showing the relationships between different classes and libraries in the FreeCAD code. Graphviz is also used by FreeCAD\'s [dependency graph](Std_DependencyGraph.md) to show the relationships between different objects. 
+## Compilar documentação de origem 
+
+
+
+### Documentação completa 
+
+Se você tiver o Doxygen instalado, é muito fácil construir a documentação. Também instale o [Graphviz](https://www.graphviz.org/) para ser capaz de produzir diagramas mostrando as relações entre diferentes classes e bibliotecas no código FreeCAD. O Graphviz também é usado pelo [gráfico de dependência](Std_DependencyGraph/pt-br.md) do FreeCAD para mostrar as relações entre diferentes objetos. 
 ```python
 sudo apt install doxygen graphviz
 ```
 
-Then follow the same steps you would do to compile FreeCAD, as described on the [compile on Linux](Compile_on_Linux.md) page, and summarized here for convenience.
+Em seguida, siga os mesmos passos que você faria para compilar o FreeCAD, conforme descrito na página de [compilação no Linux](Compile_on_Linux/pt-br.md), e resumido aqui por conveniência.
 
--   Get the source code of FreeCAD and place it in its own directory `freecad-source`.
--   Create another directory `freecad-build` in which you will compile FreeCAD and its documentation.
--   Configure the sources with `cmake`, making sure you indicate the source directory, and specify the required options for your build.
--   Trigger the creation of the documentation using `make`.
+-   Obtenha o código fonte do FreeCAD e coloque-o em seu próprio diretório `freecad-source`.
+-   Crie outro diretório `freecad-build` no qual você compilará o FreeCAD e sua documentação.
+-   Configure os códigos-fonte com o `cmake`, certificando-se de indicar o diretório de origem e especifique as opções necessárias para sua compilação.
+-   Acione a criação da documentação usando o `make`.
 
 
 ```python
@@ -37,32 +41,34 @@ cd freecad-build
 cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 ../freecad-source
 ```
 
-While you are inside the build directory issue the following instruction to create only the documentation. 
+Enquanto você estiver dentro do diretório de compilação, emita a instrução a seguir para criar somente a documentação. 
 ```python
 make -j$(nproc --ignore=2) DevDoc
-``` As mentioned in [compiling (speeding up)](Compiling_(Speeding_up).md), the `-j` option sets the number of CPU cores used for compilation. The resulting documentation files will appear in the directory 
+``` Como mencionado na [compilação (Acelerada)](Compiling_(Speeding_up)/pt-br.md), a opção `-j` define o número de núcleos de CPU usados para compilação. Os arquivos de documentação resultantes aparecerão no diretório 
 ```python
 freecad-build/doc/SourceDocu/html/
 ```
 
-The point of entrance to the documentation is the `index.html` file, which you can open with a web browser: 
+O ponto de entrada para a documentação é o arquivo `index.html`, que você pode abrir com um navegador da web: 
 ```python
 xdg-open freecad-build/doc/SourceDocu/html/index.html
 ```
 
-The `DevDoc` target will generate a significant amount of data, around 5 GB of new files, particularly due to the diagrams created by Graphviz.
+O alvo `DevDoc` irá gerar uma quantidade significativa de dados, cerca de 5 GB de novos arquivos, particularmente devido aos diagramas criados pelo Graphviz.
 
-### Reduced documentation 
 
-The complete documentation uses around 3Gb of disk space. An alternative, smaller version of the documentation which takes only around 600 MB can be generated with a different target. This is the version displayed on the [FreeCAD API website](https://freecad.github.io/SourceDoc/). 
+
+### Documentação reduzida 
+
+A documentação completa usa cerca de 3Gb de espaço em disco. Uma versão alternativa e menor da documentação, que leva apenas cerca de 600 MB, pode ser gerada com um destino diferente. Esta é a versão exibida no [site da API FreeCAD](https://freecad.github.io/SourceDoc/). 
 ```python
 make -j$(nproc --ignore=2) WebDoc
 ```
 
-The documentation on the [FreeCAD API website](https://freecad.github.io/SourceDoc/) is produced automatically from <https://github.com/FreeCAD/SourceDoc> . Anyone can rebuild it and submit a pull request:
+A documentação no [site da API FreeCAD](https://freecad.github.io/SourceDoc/) é produzida automaticamente a partir do <https://github.com/FreeCAD/SourceDoc> . Qualquer pessoa pode reconstruí-lo e enviar uma solicitação pull:
 
--   Fork the repo at <https://github.com/FreeCAD/SourceDoc>
--   on your machine: clone the FreeCAD code (if you haven\'t yet), create a build dir for the doc, and clone the above SourceDoc repo inside. That SourceDoc will be updated when you rebuild the doc, and you\'ll be able to commit & push the results afterwards:
+-   Ramificação do repositório em <https://github.com/FreeCAD/SourceDoc>
+-   em sua máquina: clone o código FreeCAD (se você ainda não o fez), crie um diretório de compilação para o doc e clone o repositório SourceDoc acima. Esse SourceDoc será atualizado quando você recriar o documento, e você poderá confirmar & push os resultados depois:
 
 
 ```python
@@ -81,27 +87,31 @@ git commit
 git push
 ```
 
--   Go to your fork online, and create a pull request.
+-   Acesse a sua cópia do repositório online e crie uma solicitação de pull.
 
-## Other versions 
+## Outras versões 
 
-[FreeCAD 0.19 development](https://iesensor.com/FreeCADDoc/0.19/) documentation built by [qingfeng.xia](http://forum.freecadweb.org/viewtopic.php?t=12613).
+[Documentação de desenvolvimento do FreeCAD 0.19](https://iesensor.com/FreeCADDoc/0.19/) construída por [qingfeng.xia](http://forum.freecadweb.org/viewtopic.php?t=12613).
 
-## Integrate Coin3D documentation 
 
-On Unix systems it is possible to link Coin3D source documentation with FreeCAD\'s. This allows for easier navigation and complete inheritance diagrams for Coin derived classes.
 
--   Install the `libcoin-doc`, `libcoin80-doc`, or similarly named package.
--   Unpack the archive `coin.tar.gz` located in `/usr/share/doc/libcoin-doc/html`; the files may be already unpacked in your system.
--   Generate again the source documentation.
+## Integrar documentação Coin3D 
 
-If you don\'t install the documentation package for Coin, the links will be generated to access the online documentation at [BitBucket](https://coin3d.bitbucket.io/Coin/). This will happen if a Doxygen tag file can be downloaded at configure time with `wget`.
+Em sistemas Unix é possível vincular a documentação de origem Coin3D com FreeCAD\'s. Isso permite uma navegação mais fácil e diagramas de herança completos para classes derivadas de Coin.
 
-## Using Doxygen 
+-   Instale o `libcoin-doc`, `libcoin80-doc`, ou pacote com nome semelhante.
+-   Descompacte o arquivo `coin.tar.gz` localizado em `/usr/share/doc/libcoin-doc/html`; Os arquivos podem já estar descompactados em seu sistema.
+-   Gere novamente a documentação de origem.
 
-See the [Doxygen](Doxygen.md) page for an extensive explanation on how to comment C++ and Python source code so that it can be processed by Doxygen to automatically create the documentation.
+Se você não instalar o pacote de documentação para Coin, os links serão gerados para acessar a documentação on-line no [BitBucket](https://coin3d.bitbucket.io/Coin/). Isso acontecerá se um arquivo de marca Doxygen puder ser baixado no momento da configuração com o `wget`.
 
-Essentially, a comment block, starting with `/**` or `///` for C++, or `##` for Python, needs to appear before every class or function definition, so that it is picked up by Doxygen. Many [special commands](Doxygen#Doxygen_markup.md), which start with `\` or `@`, can be used to define parts of the code and format the output. [Markdown syntax](Doxygen#Markdown_support.md) is also understood within the comment block, which makes it convenient to emphasize certain parts of the documentation. 
+
+
+## Usando Doxygen 
+
+Consulte a página [Doxygen](Doxygen/pt-br.md) para obter uma explicação extensa sobre como comentar o código-fonte C++ e Python para que ele possa ser processado pelo Doxygen para criar automaticamente a documentação.
+
+Essencialmente, um bloco de comentários, começando com `/**` ou `///` para C++, ou `##` para Python, precisa aparecer antes de cada definição de classe ou função, para que seja captado pelo Doxygen. Muitos [comandos especiais](Doxygen/pt-br#Doxygen_markup.md), que começam com `\` ou `@`, podem ser usados para definir partes do código e formatar a saída. A [sintaxe de Markdown](Doxygen/pt-br#Markdown_support.md) também é entendida dentro do bloco de comentários, o que torna conveniente enfatizar certas partes da documentação. 
 ```python
 /**
  * Returns the name of the workbench object.

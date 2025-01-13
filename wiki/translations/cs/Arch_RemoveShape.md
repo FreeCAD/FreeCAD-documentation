@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -20,6 +22,8 @@ Tento nástroj se pokouší odebrat trojrozměrný tvar ze [zdi](Arch_Wall.md) n
 
 
 </div>
+
+
 
 ## Použití
 
@@ -90,6 +94,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/cs
+⏵ [documentation index](../README.md) > Arch RemoveShape/cs

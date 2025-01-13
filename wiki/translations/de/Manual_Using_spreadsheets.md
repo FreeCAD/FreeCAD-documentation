@@ -1,83 +1,91 @@
 # Manual:Using spreadsheets/de
 {{Manual:TOC}}
 
-FreeCAD enthält einen weiteren interessanten Arbeitsbereich zum Erforschen: Der Arbeitsbereich [Spreadsheet](Spreadsheet_Workbench/de.md). Dieser Arbeitsbereich erlaubt, [Kalkulationstabellen](https://de.wikipedia.org/wiki/Tabellenkalkulation), wie sie mit [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) oder [Calc von LibreOffice](https://en.wikipedia.org/wiki/LibreOffice_Calc) erstellt werden, direkt in FreeCAD zu erstellen. Diese Kalkulationstabellen können dann mit aus dem Modell extrahierten Daten befüllt werden und eine Reihe von Berechnungen zwischen den Werten ausführen. Kalkulationstabellen können als CSV-Dateien exportiert und dann in jeder anderen Tabellenkalkulationsanwendung importiert werden.
+Der Arbeitsbereich <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:16px;"> [Spreadsheet](Spreadsheet_Workbench/de.md) in FreeCAD ermöglicht Anwendern, [Kalkulationstabellen](https://de.wikipedia.org/wiki/Tabellenkalkulation) zu erstellen und zu verwalten, wie solche die mit [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) oder [Calc von LibreOffice](https://en.wikipedia.org/wiki/LibreOffice_Calc) erstellt werden, direkt in ihren Konstruktionsprojekten. Er ermöglicht die Eigabe, das Sortieren und den Umgang mit Daten in einem Tabellenformat, das dann mit verschiedenen Parametern und Modellen im Projekt verlinkt werden kann.
 
-In FreeCAD, however, spreadsheets have an additional utility: Their cells can receive a name, and can then be referenced by any field supported by the [expressions engine](Expressions.md). This turns spreadsheets into powerful control structures, where the values inserted in specific cells can drive dimensions of the model. There is only one thing to keep in mind, as FreeCAD prohibits circular dependencies between objects, the same spreadsheet cannot be used to set a property of an object and at the same time retrieve a property value from the same object. That would mean the spreadsheet and the object depend on one other.
+Einer der Hauptvorteile ist die Verwendung bei der parametrischen Modellierung. Kalkulationstabellen können mit den Abmessungen und Eigenschaften von 3D-Modellen verknüpft werden, was sie zu einem unverzichtbaren Werkzeug für dynamische Designänderungen macht. Wenn du beispielsweise einen Wert in der Tabellenkalkulation anpasst, wird die entsprechende Abmessung im Modell automatisch aktualisiert.
 
-In the following example, we will create a couple of objects, retrieve some of their properties in a spreadsheet, then use the spreadsheet to directly drive properties of other objects.
+Neben der Verwaltung von Werten eignet sich der Arbeitsbereich hervorragend für die Datenverwaltung, da hier wichtige Informationen wie Materialeigenschaften, Abmessungen und projektweite Parameter gespeichert werden. Dies ist besonders bei komplexen Projekten nützlich, bei denen mehrere Werte referenziert oder angepasst werden müssen.
+
+Kalkulationstabellen ermöglichen Benutzern auch die Eingabe von Formeln für Berechnungen und die Datenverwaltung. Diese Formeln können auf andere Tabellenzellen oder Parameter innerhalb des 3D-Modells verweisen, wodurch der gesamte Designprozess anpassbar und reaktionsfähig gegenüber Änderungen wird.
+
+Er lässt sich nahtlos in andere FreeCAD-Arbeitsbereiche integrieren und ermöglicht die Interaktion zwischen Daten und Modellkomponenten. Diese Integration zentralisiert die Kontrolle über verschiedene Aspekte des Projekts und erleichtert so die Verwaltung. Die Benutzeroberfläche ist unkompliziert und ähnelt herkömmlicher Tabellenkalkulationssoftware, was sie für diejenigen, die bereits an Programme wie Excel oder LibreOffice Calc gewöhnt sind, vertraut und einfach zu verwenden macht.
+
+In der Praxis ist der Arbeitsbereich Spreadsheet vielseitig für verschiedene Anwendungsfälle einsetzbar, darunter das Definieren projektweiter Parameter, das Verwalten von Stücklisten (BOM) und das Durchführen benutzerdefinierter Berechnungen, die Designentscheidungen beeinflussen. Er vereinfacht komplexe Projekte, indem er die Kontrolle der Parameter an einem Ort zusammenfasst.
+
+Im folgenden Beispiel werden wir ein paar Objekte erstellen, einige ihrer Eigenschaften in eine Tabelle auslesen und die Tabelle zur direkten Steuerung der Parameter anderer Objekte einsetzen.
 
 
 
-### Leseeigenschaften
+### Eigenschaften auslesen 
 
--   Start by switching to the [Part Workbench](Part_Workbench.md), and create a couple of objects: a <img alt="" src=images/Part_Box.svg  style="width:16px;"> [box](Part_Box.md), a <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [cylinder](Part_Cylinder.md) and a <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [sphere](Part_Sphere.md).
--   Edit their **Placement** property (or use the <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Draft Move](Draft_Move.md) tool) to place them a little apart, so we can better see the effects of what we\'ll do:
+-   Wechsle zunächst zum Arbeitsbereich <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/de.md) und erstelle einige Objekte: eine <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Quader](Part_Box/de.md), einen <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [Zylinder](Part_Cylinder/de.md) und eine <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [Kugel](Part_Sphere/de.md).
+-   Bearbeite ihre Eigenschaft **Placement** (oder verwende das Werkzeug <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Draft Verschiieben](Draft_Move/de.md)), um sie etwas getrennt voneinander zu platzieren, damit wir die Auswirkungen unserer Vorgehensweise besser sehen können:
 
 ![](images/Exercise_spreadsheet_01.jpg )
 
--   Now, let\'s extract some information about these objects. Switch to the [Spreadsheet Workbench](Spreadsheet_Workbench.md)
--   Press the <img alt="" src=images/Spreadsheet_Create.png  style="width:16px;"> **New Spreadsheet** button
--   Double-click the new Spreadsheet object in the tree view. The spreadsheet editor opens:
+-   Lassen uns nun einige Informationen zu diesen Objekten extrahieren. Wechsle zum Arbeitsbereich <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:16px;"> [Spreadsheet](Spreadsheet_Workbench/de.md)
+-   Drücke die <img alt="" src=images/Spreadsheet_Create.svg  style="width:16px;"> Schaltfläche 
+**Neues Arbeitsblatt**
+-   Doppelklicke in der Baumansicht auf das neue Arbeitsblattobjekt. Der Arbeitsblatteditor wird geöffnet:
 
-![](images/Exercise_spreadsheet_02.jpg )
+![](images/FreeCAD_Spreedsheet.png )
 
-The spreadsheet editor of FreeCAD, although it is not as complete and powerful as the more complete spreadsheet applications we listed above, has nevertheless most of the basic tools and functions that are commonly used, such as the possibility to change the aspect of the cells (size, color, alignment), join and split cells, use formulas such as **=2+2**, or reference other cells with **=B1**.
+Obwohl der Tabellenkalkulationseditor von FreeCAD nicht so viele Funktionen bietet wie dedizierte Anwendungen wie Excel oder LibreOffice Calc, bietet er wichtige Werkzeuge für die meisten Designaufgaben. Benutzer können Zelleigenschaften wie Größe, Farbe und Ausrichtung anpassen und Zellen zur besseren Organisation zusammenführen oder teilen. Einfache Formeln oder Verweise auf andere Zellen werden unterstützt, was eine einfache Datenmanipulation ermöglicht. Was ihn auszeichnet, ist seine tiefe Integration in die Modellierungsumgebung von FreeCAD, wo Änderungen in der Tabelle die Modellabmessungen automatisch in Echtzeit aktualisieren können. Zwar fehlen ihm möglicherweise erweiterte Funktionen wie Pivot-Tabellen oder Diagramme, aber sein Fokus auf parametrisch gesteuertes Design macht ihn zu einem leistungsstarken Werkzeug für die Verwaltung von Designdaten direkt in FreeCAD.
 
-In FreeCAD, on top of these common features, there is a new interesting one: The possibility to reference not only other cells, but other objects from the document, and retrieve values from their properties. For example, let\'s retrieve a couple of properties from the 3 objects we created above. Properties are what we can see in the properties editor window, under the **Data** tab, when an object is selected.
+In FreeCAD gibt es neben den Standardfunktionen einer Tabellenkalkulation eine besonders nützliche Funktion: die Möglichkeit, nicht nur auf andere Zellen, sondern auch auf Objekte innerhalb des Dokuments zu verweisen und Werte aus ihren Eigenschaften zu extrahieren. Du kannst beispielsweise Eigenschaften von 3D-Objekten abrufen, die auf der Registerkarte **Daten** des **Eigenschaften-Editors** sichtbar sind, wenn ein Objekt ausgewählt ist. Dies ermöglicht eine nahtlose Integration zwischen der Tabellenkalkulation und dem 3D-Modell, wodurch es einfach wird, Änderungen basierend auf den Parametern von Objekten innerhalb des Entwurfs zu verknüpfen und zu automatisieren, was einen dynamischeren und vernetzten Arbeitsablauf ermöglicht.
 
--   Let\'s start by entering a couple of texts in the cells A1, A2 and A3, so we remember what is what later on, for example **Cube Length**, **Cylinder Radius** and **Sphere Radius**. To enter text, just write in the \"Contents\" field above the spreadsheet, or double-click a cell.
--   Now let\'s retrieve the actual length of our cube. In cell B1, type **=Cube.Length**. You will notice that the spreadsheet has an autocompletion mechanism, which is actually the same as the expression editor we used in the previous chapter.
--   Do the same for cell B2 (**=Cylinder.Radius**) and B3 (**=Sphere.Radius**).
+-   Beginnen wir damit, ein paar Texte in die Zellen A1, A2 und A3 einzugeben, damit wir uns später merken, was was ist, zum Beispiel **Würfellänge**, **Zylinderradius** und **Kugelradius**. Um Text einzugeben, schreibe einfach in das Feld „Inhalt" über der Tabelle oder doppelklicke auf eine Zelle.
+-   Lass uns nun die tatsächliche Länge unseres Würfels abrufen. Gib in Zelle B1 **=Würfel.Länge** ein. Du wirst feststellen, dass die Tabelle über einen automatischen Vervollständigungsmechanismus verfügt, der eigentlich derselbe ist wie der Ausdruckseditor, den wir im vorherigen Kapitel verwendet haben.
+-   Mache dasselbe für Zelle B2 (**=Zylinder.Radius**) und B3 (**=Kugel.Radius**).
 
-![](images/Exercise_spreadsheet_03.jpg )
+![](images/FreeCAD_Spreedsheet_Autocomplete.png )
 
--   Although these results are expressed with their units, the values can be manipulated as any number, try for example entering in cell C1: **=B1\*2**.
--   We can now change one of these values in the properties editor, and the change will be immediately reflected in the spreadsheet. For example, let\'s change the length of our cube to **20mm**:
+-   Obwohl diese Ergebnisse mit ihren Einheiten ausgedrückt werden, können die Werte als beliebige Zahlen bearbeitet werden. Gib beispielsweise in Zelle C1 Folgendes ein: **=B1\*2**.
+-   Wir können jetzt einen dieser Werte im Eigenschafteneditor ändern und die Änderung wird sofort in der Tabelle angezeigt. Ändern wir beispielsweise die Länge unseres Würfels auf **20 mm**:
 
-![](images/Exercise_spreadsheet_04.jpg )
+![](images/FreeCAD_Spreedsheet_Multipl.png )
 
-The [Spreadsheet Workbench](Spreadsheet_Workbench.md) page will describe in more detail all the possible operations and functions available in spreadsheets.
+Die Seite des Arbeitsbereichs <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:16px;"> [Spreadsheet](Spreadsheet_Workbench/de.md) beschreibt detailreich alle möglichen Arbeitsabläufe und Funktionen, die in Tabellen zur Verfügung stehen.
 
 
 
-### Schreibeigenschaften
+### Eigenschaften ausgeben 
 
-Another very interesting use of the Spreadsheet Workbench in FreeCAD is to do the contrary of what we have been doing until now: Instead of reading the values of properties of 3D objects, we can also assign values to these objects. Remember, however, one of the fundamental rules of FreeCAD: Circular dependencies are forbidden. We can therefore not use the same spreadsheet to read **and** write values to a 3D object. That would make the object depend on the spreadsheet, which would also depend on the object. Instead, we will create another spreadsheet.
+Ein weiteres leistungsstarkes Feature des Arbeitsbereichs Spreadsheet in FreeCAD ist die Möglichkeit, Werte aus den Eigenschaften von 3D-Objekten nicht nur zu lesen, sondern ihnen auch Werte zuzuweisen. Dadurch können die Abmessungen und Attribute von Objekten direkt aus der Tabelle gesteuert werden. Eine der Grundregeln von FreeCAD ist jedoch, dass zirkuläre Abhängigkeiten verboten sind -- das heißt, eine Tabelle kann nicht gleichzeitig vom selben Objekt lesen und in dasselbe schreiben. Dies würde zu einer Situation führen, in der das Objekt von der Tabelle abhängt, während die Tabelle auch vom Objekt abhängt, was zu einer ungültigen Konfiguration führen würde. Um dies zu vermeiden, wird normalerweise eine zweite Tabelle erstellt, um das Schreiben von Werten zu handhaben und so eine klare Trennung zwischen den Lese- und Schreibvorgängen sicherzustellen.
 
--   We can now close the spreadsheet tab (under the 3D view). This is not mandatory, there is no problem in keeping several spreadsheet windows open.
--   Press the <img alt="" src=images/Spreadsheet_Create.png  style="width:16px;"> **New Spreadsheet** button again
--   Change the name of the new spreadsheet to something more meaningful, such as **Input** (do this by right-clicking the new spreadsheet object, and choosing **Rename**).
--   Double-click the Input spreadsheet to open the spreadsheet editor.
--   In cell A1, let\'s put a descriptive text, for example: \"Cube dimensions\"
--   In cell B1, write **=5mm** (using the = sign makes sure the value is interpreted as a unit value, not a text).
--   Now to be able to use this value outside the spreadsheet, we need to give a name, or alias, to the B1 cell. Right-click the cell, click **Properties** and select the **Alias** tab. Give it a name, such as **cubedims**:
+-   Wir können jetzt die Registerkarte der Tabelle (unter der 3D-Ansicht) schließen. Dies ist nicht zwingend erforderlich, es ist kein Problem, mehrere Tabellenfenster geöffnet zu lassen.
+-   Drücke erneut die Schaltfläche <img alt="" src=images/Spreadsheet_Create.svg  style="width:16px;"> 
+**Neue Tabelle**
+-   Ändere den Namen der neuen Tabelle in einen aussagekräftigeren Namen, z. B. **Eingabe** (klicke dazu mit der rechten Maustaste auf das neue Tabellenobjekt und wähle **Umbenennen**).
+-   Doppelklicke auf die Eingabetabelle, um den Tabelleneditor zu öffnen.
+-   Gib in Zelle A1 einen beschreibenden Text ein, z. B.: „Würfelabmessungen"
+-   Schreibe in Zelle B1 **=5mm** (mit dem =-Zeichen wird sichergestellt, dass der Wert als Einheitswert und nicht als Text interpretiert wird).
+-   Um diesen Wert nun außerhalb der Tabelle verwenden zu können, müssen wir der Zelle B1 einen Namen oder Alias ​​geben. Klicke mit der rechten Maustaste auf die Zelle, klicke auf **Eigenschaften** und wähle die Registerkarte **Alias**. Gib ihr einen Namen, z. B. **cubedims**:
 
-![](images/Exercise_spreadsheet_05.jpg )
+![](images/FreeCAD_Spreedsheet_Alias.png )
 
--   Press **OK**, then close the spreadsheet tab
--   Select the cube object
--   In the properties editor, click the little <img alt="" src=images/Bound-expression-unset.png  style="width:16px;"> **expression** icon at the right side of the **Length** field. This will open the [expressions editor](Expressions.md), where you can write **Spreadsheet001.cubedims**. Repeat this for Height and Width:
+-   Drücke **OK** und schließe dann die Registerkarte der Tabelle.
+-   Wähle das Würfelobjekt aus.
+-   Klicke im Eigenschafteneditor auf das kleine <img alt="" src=images/Bound-expression-unset.svg  style="width:16px;"> **Ausdrucks**-Symbol rechts neben dem Feld **Länge**. Dadurch wird der [Ausdruckseditor](Expressions/de.md) geöffnet, in den du **Spreadsheet001.cubedims** schreiben kannst. Wiederhole dies für **Höhe** und **Breite**:
 
-![](images/Exercise_spreadsheet_06.jpg )
+![](images/FreeCAD_SpreedSheet_Dim.png )
 
-You might wonder why we had to use \"Spreadsheet001\" instead of \"Input\" in the expression above. This is because each object, in a FreeCAD document, has an **internal name**, which is unique in the document, and a **label**, which is what appears in the tree view. If you uncheck the relevant option in the preferences window, FreeCAD will allow you to give the same label to more than one object. This is why all operations that must identify an object uniquely, will use the internal name instead of the label, which could designate more than one object. The easiest way to know the internal name of an object is by keeping the **selection panel** (menu bar View → Panels) open, it will always indicate the internal name of a selected object:
+Der Grund, warum wir im Ausdruck „Spreadsheet001" statt „Input" verwenden, ist, dass jedes Objekt in einem FreeCAD-Dokument einen eindeutigen internen Namen und eine benutzerfreundlichere Bezeichnung hat. Während die Bezeichnung in der Baumansicht angezeigt wird, wird der interne Name verwendet, um Objekte innerhalb des Dokuments eindeutig zu identifizieren. FreeCAD ermöglicht es dir, mehreren Objekten dieselbe Bezeichnung zuzuweisen, wenn du ihre Einstellungen anpasst, aber der interne Name bleibt eindeutig. Für alle Vorgänge, bei denen ein Objekt eindeutig identifiziert werden muss, verwendet FreeCAD den internen Namen statt der Bezeichnung, da sich die Bezeichnung auf mehr als ein Objekt beziehen könnte. Um den internen Namen eines Objekts zu finden, ist es sinnvoll, das Auswahlfenster (zugänglich über Ansicht → Fenster) geöffnet zu lassen. Dieses Fenster zeigt immer den internen Namen des ausgewählten Objekts an und stellt sicher, dass du in deinen Ausdrücken die richtige Referenz verwendest.
 
-![](images/Exercise_spreadsheet_07.jpg )
+![](images/FreeCAD_SpreedSheet_SelectionView.png )
 
-By using cell aliases in spreadsheets, we are able to use a spreadsheet to store \"master values\" in a FreeCAD document. This can be used, for example, to have a model of a piece of certain dimensions, and to store these dimensions in a spreadsheet. It then becomes very easy to produce another model with different dimensions, it is just a matter of opening the file and changing a couple of dimensions in the spreadsheet.
+Durch die Verwendung von Zellaliasen im Arbeitsbereich Spreadsheet von FreeCAD ist es möglich, „Masterwerte" im Dokument zu speichern, wodurch die Verwaltung und Änderung wichtiger Parameter vereinfacht wird. Beispielsweise kann eine Kalkulationstabelle die Abmessungen eines Modells enthalten, sodass diese Werte im gesamten Entwurf referenziert werden können. Dieser Ansatz vereinfacht den Aktualisierungsprozess des Modells. Wenn neue Abmessungen erforderlich sind, kannst du einfach die Kalkulationstabelle öffnen, die Werte anpassen und das Modell wird automatisch aktualisiert, um diese Änderungen widerzuspiegeln. Diese Methode rationalisiert die Versionierung und verbessert die Effizienz, insbesondere bei der parametrischen Modellierung, bei der sich die Abmessungen häufig je nach Projektanforderungen ändern.
 
-Finally, note that the constraints inside a sketch can also receive the value of a spreadsheet cell:
+Beachte abschließend, dass die Randbedingungen innerhalb einer Skizze auch den Wert einer Tabellenzelle erhalten können:
 
-![](images/Exercise_spreadsheet_08.jpg )
+Du kannst den maßlichen Randbedingungen (Horizontalen Abstand, Vertikalen Abstand oder Abstand festlegen) in einer Skizze auch Aliase zuweisen (Du kannst diese Werte dann auch außerhalb der Skizze verwenden):
 
-You can also give aliases to dimensional constraints (horizontal, vertical or distance) in a sketch (you can then use that value from outside the sketch as well):
+![](images/FreeCAD_SpreedSheet_Rectangle.png )
 
-![](images/Exercise_spreadsheet_09.jpg )
+**Herunterladen**
 
-**Download**
-
--   The file produced in this exercise: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/spreadsheet.FCStd>
+-   Die in dieser Übung erstellte Datei: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/spreadsheet.FCStd>
 
 **Mehr lesen**
 

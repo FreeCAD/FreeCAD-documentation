@@ -1,11 +1,11 @@
 ---
  GuiCommand:
    Name: Arch SetMaterial
-   Name/it: Materiale
+   Name/it: Arch Materiale
    MenuLocation: Arch , Strumenti di materiali , Materiale
    Workbenches: Arch_Workbench/it, BIM_Workbench/it
    Shortcut: **M** **T**
-   SeeAlso: Arch_CompSetMaterial/it, Arch_MultiMaterial/it
+   SeeAlso: Arch_MultiMaterial/it
 ---
 
 # Arch SetMaterial/it
@@ -57,5 +57,13 @@ Questo corrisponde approssimativamente a [IfcMaterial](https://standards.buildin
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/it
+⏵ [documentation index](../README.md) > Arch SetMaterial/it

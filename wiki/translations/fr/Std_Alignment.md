@@ -15,7 +15,7 @@
 
 La commande **Std Aligner** aligne un objet par rapport à un objet de référence fixe en utilisant une ou plusieurs paires de points.
 
-![](images/Std_Alignment_example.png ) 
+<img alt="" src=images/Std_Alignment_example.png  style="width:400px;"> 
 *L'interface de commande après la définition de deux paires de points*
 
 
@@ -24,7 +24,7 @@ La commande **Std Aligner** aligne un objet par rapport à un objet de référen
 
 1.  Sélectionnez l\'objet de référence. Ce sera l\'objet fixe et ne sera pas modifié.
 2.  Maintenez la touche **Ctrl** enfoncée pendant que vous sélectionnez l\'objet dont vous souhaitez modifier l\'emplacement.
-3.  Sélectionnez l\'option **Édition → Aligner...** du menu.
+3.  Sélectionnez l\'option **Édition → <img src="images/Std_Alignment.svg" width=16px> Aligner...** du menu.
 4.  Une nouvelle fenêtre apparaîtra dans la [zone de vue principale](Main_view_area/fr.md). Cette fenêtre se compose de deux vues : à gauche l\'objet mobile est affiché et à droite l\'objet fixe.
 5.  Définissez la première paire de points en cliquant sur un point dans chaque vue. Cette paire de points est utilisée pour déplacer l\'objet mobile.
 6.  Définissez une ou deux paires de points supplémentaires si vous souhaitez également faire pivoter l\'objet mobile.
@@ -42,7 +42,7 @@ Les options supplémentaires suivantes sont disponibles dans le menu contextuel 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

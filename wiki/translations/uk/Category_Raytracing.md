@@ -1,5 +1,5 @@
 # Category:Raytracing/uk
-This category lists pages related to the [Raytracing Workbench/uk](Raytracing_Workbench/uk.md).
+This category is for pages related to the [Raytracing Workbench/uk](Raytracing_Workbench/uk.md).
 
 ### Contents
 

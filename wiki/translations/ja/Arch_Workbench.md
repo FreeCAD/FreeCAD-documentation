@@ -1,5 +1,5 @@
 # Arch Workbench/ja
-{{docnav/ja|[Workbenches/ja](Workbenches/ja.md)|[Draft Module/ja](Draft_Workbench/ja.md)|IconL=|IconR=Workbench_Draft.svg}}
+**In v1.0 the BIM, Native-IFC and Arch Workbenches have been merged into the integrated [BIM Workbench](BIM_Workbench.md).**
 
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
 
@@ -10,11 +10,11 @@
 
 ## はじめに
 
-<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Archワークベンチ](Arch_Workbench/ja.md)により、壁・梁・屋根・窓・階段・配管・家具等の建築的存在物をパラメトリックに操作可能な機能等を用いて、FreeCADにて現代的な[building information modelling](http://ja.wikipedia.org/wiki/BIM) (BIM)の作業工程が可能です。本ワークベンチは、industry foundation classes ([IFC](Arch_IFC.md))のファイルに対応しており、<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw ワークベンチ](TechDraw_Workbench/ja.md)と組み合わせて2次元の平面図の作成も可能です。
+The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md) provides a modern [**B**uilding **I**nformation **M**odelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) workflow to FreeCAD, with support for features like fully parametric architectural entities such as walls, beams, roofs, windows, stairs, pipes, and furniture. It supports [**I**ndustry **F**oundation **C**lasses](Arch_IFC.md) (IFC) files, and production of 2D floor plans in combination with the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
 
-Archワークベンチは<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draftワークベンチ](Draft_Workbench/ja.md)のすべてのツールを受け継いでおり、2次元のオブジェクトから3次元のパラメトリックな建築用オブジェクトを作成することが可能です。しかしそれだけではなく<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/ja.md)や<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/ja.md)といった他のワークベンチにより作成されたソリッドの図形を使うことも可能です。
+Archワークベンチは<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draftワークベンチのすべてのツールを](Draft_Workbench/ja.md)受け継いでおり、2次元のオブジェクトから3次元のパラメトリックな建築用オブジェクトを作成することが可能です。しかしそれだけではなく<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Partや](Part_Workbench/ja.md)<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesignといった](PartDesign_Workbench/ja.md)他のワークベンチにより作成されたソリッドの図形を使うことも可能です。
 
-FreeCADのBIM関連機能は徐々にこのArchワークベンチと<img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIMワークベンチ](BIM_Workbench/ja.md)（<img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md)から導入可能）に分担されるように実装していっています。前者が基本的な建築ツールを担い、後者はより直接的なBIMの作業工程を担っており、直感的かつ使いやすいようArchのツール群の上に新たなインターフェースを追加して成り立っているものです。詳しくは[FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)をご覧ください。
+FreeCADのBIM関連機能は徐々にこのArchワークベンチと<img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIMワークベンチ](BIM_Workbench/ja.md)（<img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Managerから](Std_AddonMgr.md)導入可能）に分担されるように実装していっています。前者が基本的な建築ツールを担い、後者はより直接的なBIMの作業工程を担っており、直感的かつ使いやすいようArchのツール群の上に新たなインターフェースを追加して成り立っているものです。詳しくは[FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)をご覧ください。
 
 Draft、Arch及びBIMの各ワークベンチの開発者達はより大きな[OSArchコミュニティー](https://osarch.org)とも連携しており、共に建築土木の設計をフリーソフトのみを用いて改良するという究極の目標に向かって努力しています。
 
@@ -30,27 +30,27 @@ Draft、Arch及びBIMの各ワークベンチの開発者達はより大きな[O
 
 -   <img alt="" src=images/Arch_Structure.svg  style="width:32px;"> [Structure](Arch_Structure.md): Creates a structural element from scratch or using a selected object as a base.
 
--   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Rebar tools](Arch_CompRebarStraight.md): These tools are only available if the [Reinforcement Workbench](Reinforcement_Workbench.md) has been installed.
+-   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Rebar tools](Arch_CompRebarStraight.md): These tools, except the last, are only available if the [Reinforcement Workbench](Reinforcement_Workbench.md) has been installed.
 
-  - <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Straight Rebar](Arch_Rebar_Straight.md): Creates a straight reinforcement bar in a selected structural element.
+  - <img alt="" src=images/Reinforcement_StraightRebar.svg  style="width:32px;"> [Straight Rebar](Reinforcement_StraightRebar.md): Creates a straight reinforcement bar in a selected structural element.
 
-  - <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [U-Shape Rebar](Arch_Rebar_UShape.md): Creates a U-shape reinforcement bar in a selected structural element.
+  - <img alt="" src=images/Reinforcement_UShapeRebar.svg  style="width:32px;"> [U-Shape Rebar](Reinforcement_UShapeRebar.md): Creates a U-shape reinforcement bar in a selected structural element.
 
-  - <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [L-Shape Rebar](Arch_Rebar_LShape.md): Creates an L-shape reinforcement bar in a selected structural element.
+  - <img alt="" src=images/Reinforcement_LShapeRebar.svg  style="width:32px;"> [L-Shape Rebar](Reinforcement_LShapeRebar.md): Creates an L-shape reinforcement bar in a selected structural element.
 
-  - <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Stirrup](Arch_Rebar_Stirrup.md): Creates a stirrup reinforcement bar in a selected structural element.
+  - <img alt="" src=images/Reinforcement_StirrupRebar.svg  style="width:32px;"> [Stirrup](Reinforcement_StirrupRebar.md): Creates a stirrup reinforcement bar in a selected structural element.
 
-  - <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Bent-Shape Rebar](Arch_Rebar_BentShape.md): Creates a bent-shape reinforcement bar in a selected structural element.
+  - <img alt="" src=images/Reinforcement_BentShapeRebar.svg  style="width:32px;"> [Bent-Shape Rebar](Reinforcement_BentShapeRebar.md): Creates a bent-shape reinforcement bar in a selected structural element.
 
-  - <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Helical Rebar](Arch_Rebar_Helical.md): Creates a helical reinforcement bar in a selected structural element.
+  - <img alt="" src=images/Reinforcement_HelicalRebar.svg  style="width:32px;"> [Helical Rebar](Reinforcement_HelicalRebar.md): Creates a helical reinforcement bar in a selected structural element.
 
-  - <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md): Creates reinforcement bars in a selected rectangular column.
+  - <img alt="" src=images/Reinforcement_ColumnRebars.svg  style="width:32px;"> [Column Reinforcement](Reinforcement_ColumnRebars.md): Creates reinforcement bars in a selected column.
 
-  - <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Beam Reinforcement](Arch_Rebar_BeamReinforcement.md): Creates reinforcement bars in a selected beam.
+  - <img alt="" src=images/Reinforcement_BeamRebars.svg  style="width:32px;"> [Beam Reinforcement](Reinforcement_BeamRebars.md): Creates reinforcement bars in a selected beam.
 
-  - <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md): Creates reinforcement bars in a selected slab.
+  - <img alt="" src=images/Reinforcement_SlabRebars.svg  style="width:32px;"> [Slab Reinforcement](Reinforcement_SlabRebars.md): Creates reinforcement bars in a selected slab.
 
-  - <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md): Creates reinforcement bars inside a selected footing.
+  - <img alt="" src=images/Reinforcement_FootingRebars.svg  style="width:32px;"> [Footing Reinforcement](Reinforcement_FootingRebars.md): Creates reinforcement bars in a selected footing.
 
   - <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Custom Rebar](Arch_Rebar.md): Creates a custom reinforcement bar in a selected structural element using a sketch.
 
@@ -128,6 +128,8 @@ These are tools for modifying architectural objects.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): Cuts an object according to a plane.
 
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line.
+
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component.
@@ -166,10 +168,6 @@ These are tools for modifying architectural objects.
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
 
-## Obsolete tools 
-
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. Not available in <small>(v0.22)</small> .
-
 ### Preferences
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferences](Arch_Preferences.md): preferences for the default appearance of walls, structures, rebars, windows, stairs, panels, pipes, grids and axes.
@@ -205,9 +203,6 @@ The Arch module can be used in [Python](Python.md) scripts and [macros](Macros.m
 -   [Export to STL or OBJ](Export_to_STL_or_OBJ.md)
 
 
-{{docnav/ja|[Workbenches/ja](Workbenches/ja.md)|[Draft Module/ja](Draft_Workbench/ja.md)|IconL=|IconR=Workbench_Draft.svg}}
-
-
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/ja
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Arch Workbench/ja

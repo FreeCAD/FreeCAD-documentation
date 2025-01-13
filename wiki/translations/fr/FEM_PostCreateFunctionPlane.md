@@ -38,7 +38,7 @@ Si l\'objet Plan dans la [vue 3D](3D_view/fr.md) est caché, sélectionnez l\'ob
 
 #### Déplacer le plan 
 
--   Cliquez et faites glisser le gros cube blanc pour déplacer le plan le long de son vecteur normal.
+-   Cliquez et faites glisser le gros cuboïde blanc pour déplacer le plan le long de son vecteur normal. Passez le curseur sur le manipulateur (sans cliquer) et appuyez sur **Ctrl** pour changer l\'orientation de ce translateur d\'axe.
 -   Cliquez et faites glisser la grille blanche.
 
 

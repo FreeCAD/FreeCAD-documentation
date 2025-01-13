@@ -13,12 +13,16 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Crea un **punto di riferimento** che può essere utilizzato come riferimento per schizzi o altre geometrie di riferimento.
 
 ![](images/DatumPoint.png ) 
 *Un punto di riferimento associato a una sfera con un offset di {{Value|2* nella direzione Z}}
+
+
 
 ## Utilizzo
 
@@ -36,6 +40,8 @@ Crea un **punto di riferimento** che può essere utilizzato come riferimento per
 
 </div>
 
+
+
 ## Opzioni
 
 
@@ -46,6 +52,12 @@ Fare doppio clic sull\'etichetta DatumPoint nell\'albero del modello o fare clic
 
 </div>
 
+## Preferences
+
+See [PartDesign Plane](PartDesign_Plane#Preferences.md).
+
+
+
 ## Proprietà
 
 -    {{PropertyData/it|MapMode}}: elenca la modalità di associazione utilizzata.
@@ -53,6 +65,8 @@ Fare doppio clic sull\'etichetta DatumPoint nell\'albero del modello o fare clic
 -    {{PropertyData/it|Attachment Offset}}: applica una trasformazione (traslazione e rotazione) in riferimento alla posizione di associazione.
 
 -    {{PropertyData/it|Label}}: nome dato all\'oggetto, questo nome può essere cambiato a piacere.
+
+
 
 ## Limitazioni
 

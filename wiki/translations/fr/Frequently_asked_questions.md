@@ -23,12 +23,6 @@ Le noyau de modélisation géométrique sous-jacent de FreeCAD, la bibliothèque
 
 
 
-#### Pour les utilisateurs Mac 
-
-Seulement l\'architecture MacIntel est prise en charge. Il n\'y a aucune version disponible pour l\'architecture PowerPC.
-
-
-
 ### Que faire si je veux compiler FreeCAD moi-même ? 
 
 Le code source de FreeCAD est toujours disponible dans le répertoire du code source du projet. Compiler vous-même avec FreeCAD vous permet d'utiliser les dernières fonctionnalités en cours de développement mais nécessite quelques connaissances informatiques, bien que la procédure soit relativement simple. L\'accès au code source est expliqué [ici](Compile_on_Linux/fr#Obtenir_le_code_source.md) et ici des instructions détaillées pour la compilation sur [Windows](Compile_on_Windows/fr.md), [Linux](Compile_on_Linux/fr.md) et [macOS](Compile_on_MacOS/fr.md).
@@ -133,12 +127,6 @@ Une erreur de segmentation se produit à {{SystemOutput|vbo_save_playback_vertex
 
 
 
-### J\'ai des problèmes en cours d\'exécution de FreeCAD sur macOS 
-
-La plate-forme Mac est moins facile à prendre en charge que Windows ou Linux, car aucun des principaux développeurs n\'en possède une. Les packages macOS sont compilés par des utilisateurs FreeCAD volontaires, et ils peuvent parfois ne pas fonctionner correctement sur votre machine, en fonction de votre système. Votre meilleure chance est probablement de vous rendre sur les forums, de rechercher des fils liés à macOS et de discuter de votre problème là-bas ou de voir si quelqu\'un d\'autre a trouvé une solution.
-
-
-
 ### Je ne peux pas modifier les valeurs numériques dans les panneaux de propriétés de FreeCAD 
 
 <img alt="language options" src=images/Jj62l.png  style="width:480px;">
@@ -167,7 +155,7 @@ La[Macro findConfigFiles](Macro_findConfigFiles/fr.md) peut vous aider à locali
 
 ### FreeCAD est-il vraiment gratuit? Même pour un usage commercial? 
 
-FreeCAD est un [logiciel open-source](https://fr.wikipedia.org/wiki/Open_source), gratuit non seulement pour votre utilisation personnelle ou pour tout travail commercial, mais aussi pour le distribuer, le modifier, ou même l\'utiliser dans une application à code source propriétaire. Pour résumer, vous êtes libre de faire (presque) tout ce que vous voulez avec lui. Lisez la page de la [licence](Licence/fr.md) pour plus de renseignements.
+FreeCAD est un [logiciel open-source](https://fr.wikipedia.org/wiki/Open_source), gratuit non seulement pour votre utilisation personnelle ou pour tout travail commercial, mais aussi pour le distribuer, le modifier, ou même l\'utiliser dans une application à code source propriétaire. Pour résumer, vous êtes libre de faire (presque) tout ce que vous voulez avec lui. Lisez la page de la [licence](License/fr.md) pour plus de renseignements.
 
 
 
@@ -241,7 +229,12 @@ Le code ci-dessus récupère la forme d\'un objet, montre les faces et les fils 
 
 ### Mes opérations booléennes échouent, ou donnent des résultats bizarres 
 
-Le noyau de modélisation géométrique [Open CASCADE](https://fr.wikipedia.org/wiki/Open_CASCADE_Technology) utilisé dans FreeCAD pour la géométrie Part, bien que probablement le meilleur noyau de géométrie open-source disponible, a ses défauts et ses limites. En effet les opérations booléennes (fusion, soustraction, intersection) ne sont pas ses meilleures caractéristiques et donnent souvent des résultats étranges. Il s\'agit d\'une limitation actuelle que nous n\'avons aucun moyen de résoudre à la fois, donc votre meilleur moyen est d\'essayer d\'obtenir le résultat souhaité en modélisant d\'une autre manière. Par exemple, les problèmes avec les primitives telles que le cylindre peuvent souvent être résolus en utilisant un cercle extrudé à la place. Les surfaces coplanaires entre les pièces peuvent causer des problèmes, ainsi que la tangence de surface. En règle générale, si une forme ne fonctionne pas, essayez de la remodeler d\'une manière différente. Dans 99% des cas, vous réussirez à obtenir le résultat souhaité.
+Comme tous les noyaux de modélisation solide, le noyau de modélisation géométrique d\'[Open CASCADE](https://fr.wikipedia.org/wiki/Open_CASCADE_Technology) utilisé dans FreeCAD pour la géométrie Part, bien qu\'il soit probablement le meilleur noyau de géométrie open-source disponible, a des défauts et des limitations. Les opérations booléennes (fusion, soustraction, intersection) sont des opérations compliquées qui donnent souvent des résultats étranges. Il s\'agit d\'une limitation actuelle que nous n\'avons aucun moyen de résoudre à la fois, donc votre meilleur moyen est d\'essayer d\'obtenir le résultat souhaité en modélisant d\'une autre manière. Par exemple, les problèmes avec les primitives telles que le cylindre peuvent souvent être résolus en utilisant un cercle extrudé à la place. Les surfaces coplanaires entre les pièces peuvent causer des problèmes, ainsi que la tangence de surface. En règle générale, si une forme ne fonctionne pas, essayez de la remodeler d\'une manière différente. Dans 99% des cas, vous réussirez à obtenir le résultat souhaité.
+
+Pour mieux comprendre les opérations booléennes, voir ces articles :
+
+-   <https://wiki.mcneel.com/rhino/booleanfaq>
+-   <https://dev.opencascade.org/doc/overview/html/specification__boolean_operations.html#autotoc_md293>
 
 
 
@@ -249,7 +242,7 @@ Le noyau de modélisation géométrique [Open CASCADE](https://fr.wikipedia.org/
 
 Ne pas utiliser **Ctrl** + **A** (tout sélectionner) pour exporter toute l\'arborescence. Si le modèle n\'est qu\'un seul élément, essayez de ne sélectionner que l\'élément le plus récent (généralement le dernier) dans l\'arborescence.
 
-Lors de la création d\'un modèle dans l\'[atelier Part Design](PartDesign_Workbench/fr.md), chaque fonction prend la forme de la dernière et ajoute ou supprime quelque chose, en créant des dépendances linéaires de la fonction à l\'élément créé. Ainsi, une fonction \"Soustraction\" est non seulement le trou découpé, mais toute la partie avec la coupe. C\'est pourquoi l\'utilisateur ne voit que l\'élément le plus récent (de la fonction utilisée) dans l\'arborescence du modèle, les autres sont cachées, sinon toutes les phases du modèle se superposent l\'une sur l\'autre, et les trous sont remplis par les caractéristiques du composant précédent.
+Lors de la création d\'un modèle dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md), chaque fonction prend la forme de la dernière et ajoute ou supprime quelque chose, en créant des dépendances linéaires de la fonction à l\'élément créé. Ainsi, une fonction \"Soustraction\" est non seulement le trou découpé, mais toute la partie avec la coupe. C\'est pourquoi l\'utilisateur ne voit que l\'élément le plus récent (de la fonction utilisée) dans l\'arborescence du modèle, les autres sont cachées, sinon toutes les phases du modèle se superposent l\'une sur l\'autre, et les trous sont remplis par les caractéristiques du composant précédent.
 
 Pour activer ou désactiver la visibilité d\'un objet, sélectionnez-le dans l\'arborescence et appuyez sur la barre **Espace**. Habituellement tout les objets sauf le dernier élément de l\'arborescence seront grisés et donc non visibles dans la [vue 3D](3D_view/fr.md).
 
@@ -332,7 +325,7 @@ Bien sûr. Toutes les œuvres (icônes, bannières, etc ..) de FreeCAD sont sous
 
 ### Puis-je réutiliser des morceaux de FreeCAD dans une autre application ? 
 
-Oui, vous pouvez utiliser les composants essentiels de FreeCAD dans d'autres applications, dans la mesure où vous vous conformez aux conditions de la LGPL. Les bibliothèques tierces, [ateliers externe](External_workbenches/fr.md) et [macros](Macros/fr.md) peuvent être soumises à leurs propres conditions de licence, merci de consulter leurs auteurs. Plus de détails sur la page [licence](Licence/fr.md).
+Oui, vous pouvez utiliser les composants essentiels de FreeCAD dans d'autres applications, dans la mesure où vous vous conformez aux conditions de la LGPL. Les bibliothèques tierces, [ateliers externe](External_workbenches/fr.md) et [macros](Macros/fr.md) peuvent être soumises à leurs propres conditions de licence, merci de consulter leurs auteurs. Plus de détails sur la page [licence](License/fr.md).
 
 
 

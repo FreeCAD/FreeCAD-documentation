@@ -15,7 +15,7 @@
 
 ## Descrizione
 
-Il comando **Vista Home** cambia la telecamera nella [Vista 3D](3D_view/it.md) attiva nell\'orientamento predefinito della telecamera. Quindi esegue lo zoom e la panoramica della telecamera in modo che tutti gli oggetti visibili si adattino alla vista.
+Il comando **Vista Home** cambia la telecamera della [Vista 3D](3D_view/it.md) attiva nell\'orientamento predefinito della telecamera. Quindi esegue lo zoom e la panoramica in modo che tutti gli oggetti visibili si adattino alla vista.
 
 
 
@@ -30,13 +30,15 @@ Il comando **Vista Home** cambia la telecamera nella [Vista 3D](3D_view/it.md) a
 
 ## Preferenze
 
--   L\'orientamento predefinito della fotocamera può essere personalizzato nelle preferenze: **Modifica → Preferenze... → Visualizzazione → Navigazione → Orientamento predefinito della camera**. Vedi [Editor delle preferenze](Preferences_Editor/it#Navigazione.md).
+Vedere anche: [Editor delle Preferenze](Preferences_Editor/it.md).
+
+-   L\'orientamento predefinito della fotocamera può essere personalizzato: **Modifica → Preferenze... → Visualizzazione → Navigazione → Orientamento predefinito della camera**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -11,43 +11,39 @@
 # Arch Rebar/ru
 
 
+</div>
+
+
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Инструмент «Арматура» позволяет размещать [арматурные полосы](http://en.wikipedia.org/wiki/Rebar) внутри объектов [Arch Structure](Arch_Structure.md). Объекты арматуры основаны на 2D-профилях, таких как [sketches](Sketcher_Workbench.md) или [draft objects](Draft_Workbench.md), которые должны быть нарисованы на грани объекта структуры. Затем вы можете настроить конфигурацию арматуры, такую как количество и диаметр стержней, или расстояние смещения между двумя концами структурного элемента.
 
-The [Arch Rebar](Arch_Rebar.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
+
+</div>
 
 Rebar objects are based on 2D profiles such as [Draft objects](Draft_Workbench.md) and [Sketches](Sketcher_Workbench.md), that must be drawn on a face of the structural object. After creation you can adjust the properties of the rebar, including the number and diameter of the bars, and the offset distance between them and the faces of the structural element.
 
 <img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;"> 
 *Structural object with two sketches drawn on its faces, which are then turned into two sets of rebar objects*
 
-## Extension available 
-
-The Rebar tool is enhanced by the [Reinforcement Workbench](Reinforcement_Workbench.md), which is installed by the [Addon Manager](Std_AddonMgr.md). The additional rebar types available with the addon are:
-
--   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Straight Rebar](Arch_Rebar_Straight.md)
--   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [UShape Rebar](Arch_Rebar_UShape.md)
--   <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [LShape Rebar](Arch_Rebar_LShape.md)
--   <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Bent Shape Rebar](Arch_Rebar_BentShape.md)
--   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Stirrup Rebar](Arch_Rebar_Stirrup.md)
--   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Helical Rebar](Arch_Rebar_Helical.md)
-
 
 
 ## Применение
 
-1.  Switch to the <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Arch Workbench](Arch_Workbench.md)
+1.  Switch to the <img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [BIM Workbench](BIM_Workbench.md)
 2.  Create an **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** element.
 3.  Switch to the <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher Workbench](Sketcher_Workbench.md).
 4.  Select one face of the structural element.
 5.  Press the **<img src="images/Sketcher_NewSketch.svg" width=16px> [New Sketch](Sketcher_NewSketch.md)** button to start a new sketch on the selected face.
 6.  Draw the diagram of your bar.
 7.  Press the **<img src="images/Sketcher_LeaveSketch.svg" width=16px> [Leave Sketch](Sketcher_LeaveSketch.md)** button to finish.
-8.  Switch back to the <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Arch Workbench](Arch_Workbench.md).
+8.  Switch back to the <img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [BIM Workbench](BIM_Workbench.md).
 9.  Select the sketch you just drew.
-10. Press the **<img src="images/Arch_Rebar.svg" width=16px> [Arch Rebar](Arch_Rebar.md)** button, or press **R** then **B** keys.
+10. Press the **<img src="images/Arch_Rebar.svg" width=16px> [Rebar](Arch_Rebar.md)** button, or press **R** then **B** keys.
 11. Adjust the desired properties (your rebar might not appear immediately, if some of the properties create an impossible situation, such as the bar diameter being 0, or the offset distances being bigger than the length of the structural element).
 
 Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 the rebar can be created outside of any host object. To host a rebar inside an object, you just need to set its **Host**.
@@ -87,7 +83,9 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Rebar tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The Rebar tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Rebar = makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=None, name="Rebar")
 ```
@@ -126,5 +124,19 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+{{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar/ru
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Arch Rebar/ru

@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher CreatePoint
    Name/de: Sketcher PunktErstellen
-   MenuLocation: Sketch , Skizzengeometrien , Punkt erstellen
+   MenuLocation: Skizze , Skizzengeometrien , Punkt erstellen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **Y**
 ---
@@ -13,22 +13,35 @@
 
 ## Beschreibung
 
-Das Punktwerkzeug erzeugt einen Punkt in der aktuellen Skizze, der für die Konstruktion von geometrischen Elementen genutzt werden kann.
+Das Werkzeug <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:24px;"> [Sketcher PunktErstellen](Sketcher_CreatePoint/de.md) erstellt einen Punkt.
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
+
 
 ## Anwendung
 
--   Auf die Schaltfläche **<img src="images/Sketcher_Point.svg" width=24px> Punkt erstellen** klicken, um die Funktion zu aktivieren.
--   Ein Klick in die Skizze erzeugt einen Punkt.
--   Durch Drücken von **Esc** oder Klicken mit der rechten Maustaste wird die Funktion abgebrochen.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences/de#Allgemein.md) (In-Ansicht-Parameter zur Lagebestimmung). {{Version/de|1.0}}
+
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_CreatePoint.svg" width=16px> [Punkt erstellen](Sketcher_CreatePoint/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Skizzengeometrien → <img src="images/Sketcher_CreatePoint.svg" width=16px> Punkt erstellen** auswählen.
+    -   Ein Rechtsklick in die [3D-Ansicht](3D_view/de.md) und die Menüoption **<img src="images/Sketcher_CreatePoint.svg" width=16px> Punkt erstellen** im Kontextmenü auswählen.
+    -   Das Tastaturkürzel **G** then **Y**.
+
+Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
+
+1.  Einen Punkt auswählen. Oder mit Pos-OVP: seine X- und/oder Y-Koordinate eingeben.
+2.  Der Punkt wird erstellt und passende Pos-OVP-basierte Randbedingungen werden hinzugefügt.
+3.  Wenn das Werkzeug im [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetze-Modi.md) läuft:
+    1.  Wahlweise weitere Punkte erstellen.
+    2.  Zum Beenden die rechte Maustaste oder **Esc** drücken; oder ein anderes Werkzeug zum Erstellen von Geometrien oder Randbedingungen aufrufen.
 
 
 
-## Optionen
+## Hinweise
 
--   Standardmäßig werden Punkte als Konstruktionsgeometrie erstellt und sind daher außerhalb des Bearbeitungsmodus der Skizze nicht sichtbar. Mit dem Werkzeug <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:16px;"> [UmschalterKonstruktion](Sketcher_ToggleConstruction/de.md) lassen sie sich in normale Geometrie umwandeln.
--   Der Modus **Am Raster fangen** kann in den [Sketcher Einstellungen](Sketcher_Preferences/de.md) aktiviert werden. Ein Punkt wird dann am Raster gefangen, wenn sein Abstand zu einer Rasterlinie weniger als 25 % des Abstandes zwischen zwei Rasterlinien beträgt. Der Fangmodus fixiert den Punkt nicht am Raster. Er hat weiterhin zwei nicht bestimmte Freiheitsgrade und kann noch mit der Maus bewegt werden oder mit Randbedingungen anderen Positionen zugeordnet werden.
+-    {{VersionMinus/de|0.21}}: Punkte werden immer als Hilfsgeometrie erstellt. Wahlweise können sie mit [Sketcher HilfsgeometrieUmschalten](Sketcher_ToggleConstruction/de.md) in normale Geometrie umgewandelt werden, um sie außerhalb des Sketcher-Bearbeitungsmodus sichtbar zu machen.
 
 
 

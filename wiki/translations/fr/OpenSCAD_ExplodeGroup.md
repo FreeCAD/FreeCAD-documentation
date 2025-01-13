@@ -12,6 +12,8 @@
 
 Cette outil fait décompose une fusion ou un composé et le convertit en objets uniques en appliquant des couleurs aléatoires à ces objets.
 
+
+
 ## Utilisation
 
 1.  Sélectionner le fusion/composé à exploser
@@ -25,10 +27,12 @@ La fonction ne fonctionne que sur les fusions/composés composés de :
 -   Pièces extrudées de l\'atelier Part
 -   Pièces issues de révolution de l\'atelier Part
 
-La fonctionnalité ne fonctionnera **PAS** sur :
+La fonction ne marchera **PAS** sur :
 
--   Des protrusions/révolutions de l\'atelier de Part Design
+-   Des protrusions/révolutions de l\'atelier de PartDesign
 -   Des réseaux de l\'atelier Draft
+
+
 
 ## Remarques
 

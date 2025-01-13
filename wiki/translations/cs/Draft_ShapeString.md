@@ -43,7 +43,8 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_ShapeString.svg" width=16px> [Shape from text](Draft_ShapeString.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Annotation → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
 2.  The **ShapeString** task panel opens.
 3.  Click a point in the [3D view](3D_view.md), or type coordinates.
 4.  Optionally press the **Reset Point** button to reset the point to the origin.
@@ -69,6 +70,34 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 
 </div>
 
+## Relative font path 
+
+
+<small>(v1.1)</small> 
+
+It is possible to specify a relative path for the font file. For this the FreeCAD document must have been saved at least once.
+
+Some examples:
+
+-    **./SomeFont.ttf**: The font file is in the same directory as the document.
+
+-    **./MyDirectory/SomeFont.ttf**: The font file is in the **MyDirectory** sub-directory of the document directory.
+
+-    **../SomeFont.ttf**: The font file is in the parent directory of the document directory.
+
+## Font file selection on Windows 
+
+On Windows access to the default font folder is restricted. This affects the font file selection for ShapeStrings. There are three cases in FreeCAD where a font file for ShapeStrings can be specified: in the ShapeString task panel, when changing the **Font File** property of a ShapeString, and when specifying the default font file in the [Draft Preferences](Draft_Preferences#Texts_and_dimensions.md).
+
+Pressing the **...** button and then selecting a file from the default Windows font folder is not possible when using the native file dialog. There are a number of workarounds:
+
+-   Make sure **DontUseNativeFontDialog** is set to {{True}}, which is the default value for this preference. This will only call a different, non-native, file dialog when pressing the **...** button in the ShapeString task panel. With this file dialog the default Windows font folder can be accessed.
+-   Change **DontUseNativeDialog** to {{True}}. This instructs FreeCAD to always use the non-native file dialog.
+-   Specify the font file in the input box. You can of course type the full path or copy-paste the path from the Windows File Explorer. But there is also another way to enter the path. If you enter {{Value|C:\}} a dropdown list will appear. Select {{Value|Windows}} from that list and add {{Value|\F}}. Select {{Value|Fonts}} from the new dropdown list. Finally add {{Value|\}} and the first letter(s) of the font file, and then select it from the dropdown list.
+-   Create a custom folder for your font files.
+
+See the [Preferences](#Preferences.md) paragraph below for the location of the mentioned preferences.
+
 ## Notes
 
 
@@ -83,19 +112,6 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 
 
 </div>
-
-## Font file selection on Windows 
-
-On Windows access to the default font folder is restricted. This affects the font file selection for ShapeStrings. There are three cases in FreeCAD where a font file for ShapeStrings can be specified: in the ShapeString task panel, when changing the **Font File** property of a ShapeString, and when specifying the default font file in the [Draft Preferences](Draft_Preferences#Texts_and_dimensions.md).
-
-Pressing the **...** button and then selecting a file from the default Windows font folder is not possible when using the native file dialog. There are a number of workarounds:
-
--   Make sure **DontUseNativeFontDialog** is set to {{True}}, which is the default value for this preference. This will only call a different, non-native, file dialog when pressing the **...** button in the ShapeString task panel. With this file dialog the default Windows font folder can be accessed.
--   Change **DontUseNativeDialog** to {{True}}. This instructs FreeCAD to always use the non-native file dialog.
--   Specify the font file in the input box. You can of course type the full path or copy-paste the path from the Windows File Explorer. But there is also another way to enter the path. If you enter {{Value|C:\}} a dropdown list will appear. Select {{Value|Windows}} from that list and add {{Value|\F}}. Select {{Value|Fonts}} from the new dropdown list. Finally add {{Value|\}} and the first letter(s) of the font file, and then select it from the dropdown list.
--   Create a custom folder for your font files.
-
-See the [Preferences](#Preferences.md) paragraph below for the location of the mentioned preferences.
 
 ## Tutorials
 

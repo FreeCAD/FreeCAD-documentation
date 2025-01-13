@@ -12,21 +12,17 @@
 
 ## Beschreibung
 
-
-**[<img src=images/Sketcher_StopOperation.svg style="width:16px"> [VorgangBeenden](Sketcher_StopOperation/de.md)**
-
-hält einen gerade aktiven Befehl an, während eine Skizze bearbeitet wird; dies könnte ein Zeichnungsvorgang, ein Beschränkungsvorgang, ein B-Spline-Vorgang usw. sein.
-
-Dies ist ähnlich wie das Drücken der **Esc** Taste.
+Das Werkzeug **<img src="images/Sketcher_StopOperation.svg" width=16px> [Sketcher VorgangBeenden](Sketcher_StopOperation/de.md)** hält jedes gerade ablaufende Sketcher-Werkzeug an.
 
 
 
 ## Anwendung
 
-1.  Man sollte sich vergewissern, dass sich eine **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Skizze](Sketcher_EditSketch/de.md)** im Bearbeitungsmodus befindet.
-2.  Es sollte auch ein Werkzeug aktiv sein, wie z.B. **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Linienzug erstellen](Sketcher_CreatePolyline/de.md)**, **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Vertikalen Abstand festlegen](Sketcher_ConstrainDistanceY/de.md)**, oder **[<img src=images/Sketcher_Move.svg style="width:16px"> [Verschieben](Sketcher_Move/de.md)**.
-3.  Den Menüeintrag **Skizze → [<img src=images/Sketcher_StopOperation.svg style="width:16px"> [Vorgang beenden](Sketcher_StopOperation/de.md)** auswählen.
-4.  Das Werkzeug wird deaktiviert und der Zeiger wird wieder zu einem einfachen Zeiger.
+See also: [Continue modes](Sketcher_Workbench#Continue_modes.md).
+
+1.  Man sollte sich vergewissern, dass ein Werkzeug zur Erstellung von Geometrien oder von Randbedingungen aktiv ist.
+2.  Den Menüeintrag **Skizze → <img src="images/Sketcher_StopOperation.svg" width=16px> Vorgang anhalten** auswählen.
+3.  Das laufende Werkzeug wird deaktiviert und der Mauszeiger wird wieder zu einem einfachen Pfeil.
 
 
 

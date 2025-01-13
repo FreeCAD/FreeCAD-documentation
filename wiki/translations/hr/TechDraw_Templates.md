@@ -12,23 +12,40 @@
 
 ## Description
 
-Every TechDraw page is based on a Template object. The Template controls paper size and contains fixed text graphics and text, for example, a page frame or border.
+Every TechDraw page is based on a Template object. The Template provides an area in the page background to insert views, symbols, and other annotation objects, and defines its paper size. Only elements within the drawing area will be rendered for export or printing.
 
-The Template can also contain editable text fields for attributes like *Title*, *Subtitle*, *Author*, *Date*, *Scale*, *Weight*, *Drawing number* and *Sheet*.
+The Template can also hold graphics like a frame defining the drawing area including index fields, folding marks, and optionally a title block that in turn contains fixed and [editable texts](Svg_Namespace#freecad_editable.md). The title block can also be inserted separately as a [symbol](TechDraw_Symbol.md).
 
-Templates are [SVG](SVG.md) files which can be created and modified outside of FreeCAD, with an application such as [Inkscape](https://en.wikipedia.org/wiki/Inkscape).
+Templates, like symbols, are [SVG](SVG.md) files which can be created and modified outside of FreeCAD, either with an application such as [Inkscape](https://en.wikipedia.org/wiki/Inkscape), or with a simple text editor. Both can contain editable text fields but they use different edit tools.
+
+A new autofill  tool (<small>(v1.0)</small> ) can automatically fill editable text fields in a template when it is inserted. This requires templates that use the new [freecad:autofill](Svg_Namespace#freecad_autofill.md) attribute. The following attribute names are valid for autofill: \"author\", \"date\", \"organization\", \"scale\", \"sheet\", \"title\", \"page_number\", and \"page_count\".
 
 ## Properties
 
--    **Orientation**: Portrait or Landscape.
+See also: [Property editor](Property_editor.md).
 
--    **Width**: Paper width in mm.
+A Template object has the following properties:
 
--    **Height**: Paper height in mm.
 
--    **Page Result**: A copy of the original Template file including all changes to editable texts. This allows users who may not have a copy of the Template file to see the Page as intended. Not typically useful for end users.
+{{TitleProperty|Base}}
 
--    **Template**: a) A pointer to the copy of the original Template file which is incorporated into this \*.FCStd file, or b) a filepath to a template accessible on the current machine. Use the file selection ellipsis (\...) to change to a different template.
+-    **Orientation|Enumeration**: {{Value|Portrait}} or {{Value|Landscape}}.
+
+
+{{TitleProperty|Page Properties}}
+
+-    **Width|Length**: Paper width in mm.
+
+-    **Height|Length**: Paper height in mm.
+
+-    **Editable Texts|Map|Hidden**: Key:Value list of editable texts in the template.
+
+
+{{TitleProperty|Template}}
+
+-    **Page Result|FileIncluded**: A copy of the original Template file including all changes to editable texts. This allows users who may not have a copy of the Template file to see the Page as intended. Not typically useful for end users.
+
+-    **Template|File**: A pointer to the copy of the original Template file which is incorporated into this ***.FCStd** file, or a filepath to a template accessible on the current machine. See the [next paragraph](#Select_a_different_template_file.md) for information on how to change the Template.
 
 ## Select a different template file 
 
@@ -68,9 +85,9 @@ See also [How to make a custom TechDraw template](TechDraw_TemplateHowTo.md), or
 
 ## Notes
 
--   TechDraw Templates are not entirely interchangeable with [Drawing Templates](Drawing_templates.md). In general, Drawing templates will work in TechDraw, but there may be problems with editable text.
+-   The library FreeCAD uses to process SVG **only supports the svg-tiny specification**. In particular: \"SVG Tiny does not support gradients, transparency, clipping, masks, symbols, patterns, underline text, strike through text, vertical text, or SVG filter effects.\" (from Adobe Illustrator Help). Using these features in your custom template will cause problems in rendering.
 
--   Svg transform clauses **will cause problems** in custom templates. See a Stackoverflow discussion on [removing transform clauses in SVG files](https://stackoverflow.com/questions/13329125/removing-transforms-in-svg-files).
+-   Svg transform clauses **may cause problems** in custom templates. See a Stackoverflow discussion on [removing transform clauses in SVG files](https://stackoverflow.com/questions/13329125/removing-transforms-in-svg-files), especially if Inkscape used too many of them. But they can\'t be avoided if you need rotated text in your template.
 
 -   The **xml:space=\"preserve\"** clause sometimes causes problems with text size and positioning. It is best to avoid/remove this clause from your custom template\'s SVG code.
 

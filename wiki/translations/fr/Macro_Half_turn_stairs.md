@@ -17,6 +17,8 @@ Cette macro crée un escalier tournant à gauche ou à droite avec le fichier st
 <img alt="stairs" src=images/Half_turn_stairs.png  style="width:480px;"> 
 *Stairs*
 
+
+
 ## Utilisation
 
 -   Copiez et enregistrez les données en tant que fichier stairs.dat dans votre répertoire de macros, voir ci-dessous le code de (stairs.dat).
@@ -120,7 +122,7 @@ else:
 line = file.readline()
 while(line != ''):
     num_words = len(line.split())
-    num_tupel = num_words / 3
+    num_tupel = num_words // 3
     if debug == "y": App.Console.PrintMessage(str(num_words) + "\n")
     if debug == "y": App.Console.PrintMessage(str(num_tupel) + "\n")
     if line[0:1] == "#" or num_words != (num_tupel * 3):
@@ -197,7 +199,7 @@ else:
  step = -1
 for x in range(l1, l2, step):
  w=str(names.split(" ")[x])
- if w[0:5] == "DWire":
+ if w[0:4] == "Wire":
   if debug == 'y':  App.Console.PrintMessage("w="+str(w) +"\n")
   data = 'f = FreeCAD.getDocument(docname).addObject("Part::Extrusion","Extrude' + str(extr)+ '")'
   if debug == "y": App.Console.PrintMessage(data + "\n")

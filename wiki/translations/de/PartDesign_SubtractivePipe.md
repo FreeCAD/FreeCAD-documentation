@@ -35,32 +35,33 @@
 
 ## Optionen
 
-**Section Transformation**:
+\'\'\'Querschnittsänderung\"\':
 
--   Select **Constant** to use a single profile
--   Select **Multisection** to use multiple profiles
+-   **Konstant** auswählen, um ein einzelnes Profil zu verwenden
+-   **Über mehrere Querschnitte** auswählen, um mehrere Profile zu verwenden
 
-**Section Orientation**:
+**Ausrichtung des Querschnitts**:
 
 -   Standard
-    -   This keeps the cross section shape perpendicular to the path. This is the default setting.
--   Fixed
-    -   Orientation set by first profile and constant throughout. This deactivates the alignment to the path normal vector. That means that the cross-section shape will not rotate with the path. Sweep along a circle to see the effect.
+
+    :   Dadurch bleibt die Querschnittsform senkrecht zum Pfad erhalten. Dies ist die Standardeinstellung.
+-   Fixiert
+    -   Die Ausrichtung wird durch das erste Profil festgelegt und bleibt durchgehend konstant. Dadurch wird die Ausrichtung der Normale auf den Tangentenvektor des Pfades deaktiviert. Das bedeutet, dass sich die Querschnittsform nicht mit dem Pfad dreht. MIt einem Kreis als Pfad wird dieses Prinzip erkennbar.
 -   Frenet
-    -   Create minimum possible twisting of profile. For more info, see [Frenet-Serret Formulas](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)
--   Auxiliary
-    -   Specify secondary path to guide pipe.
-    -   For each point **P** along the sweep path, there will be a corresponding point **Q** on the auxiliary path.
-    -   As the profile is swept, it will be transformed such that the **PQ** line is the normal of the sweep path.
-    -   If **Curvelinear equivalence** is set, then the **Q** points are scaled proportionally along the sweep path, regardless of is length.
--   Binormal
-    -   Specify binormal vector in X, Y and Z
+    -   Erstellt ein Objekt mit der geringest möglichen Verdrehung des Profils. Für weitere Informationen siehe [Frenet-Serret Formeln](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
+-   Steuerkurve
+    -   Einen sekundären Pfad zur Ausrichtung des Querschnitts angeben.
+    -   Jedem Punkt **P** entlang des Austragungspfades entspricht ein Punkt **Q** auf der Steuerkurve.
+    -   Wird das Profil ausgetragen, wird die Linie **PQ** jeweils senkrecht zum Austragungspfad ausgerichtet.
+    -   Wenn **Gekrümmte Äquivalenz** aktiviert ist, werden die **Q**-Punkte proportional entlang des Austragungspfades skaliert, unabhängig von dessen Länge.
+-   Binormale
+    -   Binormalvektor in X, Y und Z angeben
 
-**Corner Transition**
+**Eckübergang**
 
--   Transformed
--   Right
--   Rounded
+-   Transformiert.
+-   Rechte Ecke
+-   Runde Ecke
 
 
 
@@ -92,12 +93,13 @@
 
 -   Um die Form des Rohres besser steuern zu können, wird empfohlen, dass alle Querschnitte mit derselben Anzahl von Abschnitten erstellt werden. Beispielsweise sollte für ein Rohr zwischen einem Rechteck und einem Kreis der Kreis in vier verbundene Bögen aufgebrochen werden.
 -   Das Rohr kann in einem einzelnen Knotenpunkt ([Vertex](Glossary/de#Vertex.md)) einer Skizze oder eines Körpers beginnen oder enden. {{Version/de|0.20}}
--   Wird ein [Knotenpunkt](Glossary#Vertex.md) verwendet, muss er in den meisten Fällen als letzter Querschnitt des Rohres verwendet werden. Die Reihenfolge der Querschnitte kann geändert werden, indem sie in der Liste verschoben werden.
--   Der Pfad kann nur aus einer einzelnen Skizze, einem Formelement oder einem Formbinder erstellt werden. Falls er entlang mehrerer Kanten verschiedener Skizzen ausgetragen werden soll, kann ein **[<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [Teilformbinder](PartDesign_SubShapeBinder.md)** verwendet werden.
+-   Wird ein [Knotenpunkt](Glossary/de#Vertex.md) verwendet, muss er in den meisten Fällen als letzter Querschnitt des Rohres verwendet werden. Die Reihenfolge der Querschnitte kann geändert werden, indem sie in der Liste verschoben werden.
+-   Der Pfad kann nur aus einer einzelnen Skizze, einem Formelement oder einem Formbinder erstellt werden. Falls er entlang mehrerer Kanten verschiedener Skizzen ausgetragen werden soll, kann ein [Teilformbinder](PartDesign_SubShapeBinder/de.md) verwendet werden.
 -   Der Pfad darf keine Verzweigungen oder T-Verbindungen usw. enthalten; (nur) geschlossene Konturen sind erlaubt.
 -   Es kann zu Problemen führen, wenn ein Querschnitt in 3D nicht senkrecht auf dem Pfad steht.
 -   Ein Querschnitt kann nicht mit dem unmittelbar vorhergehenden Querschnitt auf derselben Ebene liegen.
 -   Ein Querschnitt darf keine aufgetrennten oder sich kreuzende Schlaufen enthalten.
+-   Enthält die Skizze innere Geometrien, sollte die Reihenfolge, in der die Skizzengeometrie erstellt wird, für alle Querschnitte identisch sein. Entweder werden alle Querschnitte mit der inneren Geometrie begonnen oder alle mit der äußeren Geometrie. Andernfalls wird ein ungültiges Rohrobjekt erstellt, bei dem sich innere und äußere Wände durchdringen.
 
 
 

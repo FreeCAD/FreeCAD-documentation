@@ -1,9 +1,9 @@
 # Draft Snap/it
 ## Descrizione
 
-In <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md) e <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/it.md) è possibile creare la geometria selezionando i punti nella [Vista 3D](3D_view/it.md) o inserendo le coordinate nel [pannello delle attività](Task_panel/it.md) dei comandi. Un altro modo per selezionare i punti è mediante l\'aggancio (snap). L\'aggancio consente di selezionare punti geometrici precisi o definiti da oggetti esistenti o dalla griglia. Si può ad esempio eseguire l\'aggancio al punto finale di una linea, al centro di un cerchio o all\'intersezione di due bordi.
+Negli ambienti <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md) e <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/it.md) è possibile creare la geometria selezionando i punti nella [Vista 3D](3D_view/it.md) o inserendo le coordinate nel [pannello delle attività](Task_panel/it.md) dei comandi. Un altro modo per selezionare i punti è mediante l\'aggancio (snap). L\'aggancio consente di selezionare punti geometrici precisi o definiti da oggetti esistenti o dalla griglia. Si può ad esempio eseguire l\'aggancio al punto finale di una linea, al centro di un cerchio o all\'intersezione di due bordi.
 
-L\'aggancio è disponibile con la maggior parte dei comandi [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md).
+L\'aggancio è disponibile con la maggior parte dei comandi [Draft](Draft_Workbench/it.md) e [BIM](BIM_Workbench/it.md).
 
 ![](images/Draft_Snap_Endpoint_example.png ) 
 *Aggancio al punto finale di un bordo*
@@ -76,14 +76,14 @@ Tenere presente che i bordi circolari non devono essere cerchi completi.
 
 Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
--   Quando un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) che richiede l\'immissione di punti è attivo, la distanza massima alla quale [Draft Aggancia Griglia](Draft_Snap_Grid/it.md) rileva le intersezioni delle linee della griglia può essere modificata al volo premendo **P** (tasto aumenta) o **M** (tasto diminuisci). Questa impostazione viene memorizzata: **Strumenti → Modifica parametri... → BaseApp → Preferenze → Mod → Draft → snapRange**. Può anche essere modificato nel pannello delle attività del comando [Draft Seleziona Piano](Draft_SelectPlane/it.md).
+-   Quando un comando [Draft](Draft_Workbench/it.md) o [BIM](BIM_Workbench/it.md) che richiede l\'immissione di punti è attivo, la distanza massima alla quale [Draft Aggancia Griglia](Draft_Snap_Grid/it.md) rileva le intersezioni delle linee della griglia può essere modificata al volo premendo **P** (tasto aumenta) o **M** (tasto diminuisci). Questa impostazione viene memorizzata: **Strumenti → Modifica parametri... → BaseApp → Preferenze → Mod → Draft → snapRange**. Può anche essere modificato nel pannello delle attività del comando [Draft Seleziona Piano](Draft_SelectPlane/it.md).
 -   Per eseguire l\'aggancio solo quando si tiene premuto il tasto **Modificatore aggancio**:
     -   Deseleziona: **Modifica → Preferenze... → Draft → Griglia e aggancio  → Aggancia sempre**.
     -   Il tasto predefinito **Modificatore aggancio**, **Ctrl**, può essere modificato: **Modifica → Preferenze... → Draft → Griglia e aggancio → Modificatore aggancio**.
--   Per mostrare la barra degli strumenti di aggancio Draft solo quando un comando è attivo, selezionare: **Modifica → Preferenze... → Draft → Interfaccia → Mostra solo la barra degli strumenti di aggancio Draft durante i comandi**. {{Version/it|0.22}}
+-   Per mostrare la barra degli strumenti di aggancio Draft solo quando un comando è attivo, selezionare: **Modifica → Preferenze... → Draft → Interfaccia → Mostra solo la barra degli strumenti di aggancio Draft durante i comandi**. {{Version/it|1.0}}
 -   I simboli di aggancio possono essere modificati: **Modifica → Preferenze... → Draft → Griglia e aggancio → Stile simbolo di aggancio**.
 -   Il colore dei simboli di aggancio e le dimensioni di [Draft Aggancia Quote](Draft_Snap_Dimensions/it.md) possono essere modificati: **Modifica → Preferenze... → Draft → Griglia e aggancio → Colore simbolo di aggancio**.
--   La dimensione dei simboli di snap dipende da: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Dimensione marcatore**. {{Version/it|0.22}}
+-   La dimensione dei simboli di snap dipende da: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Dimensione marcatore**. {{Version/it|1.0}}
 -   Le scorciatoie da tastiera a carattere singolo menzionate possono essere modificate: **Modifica → Preferenze... → Draft → Interfaccia → Scorciatoie comando**.
 
 

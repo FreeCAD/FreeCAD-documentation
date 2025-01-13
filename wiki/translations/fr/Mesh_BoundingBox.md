@@ -21,7 +21,7 @@ La commande **Limites englobantes** affiche les coordonnées de la boîte englob
     -   Appuyez sur le bouton **<img src="images/Mesh_BoundingBox.svg" width=16px> [Limites englobantes...](Mesh_BoundingBox/fr.md)
 **
     -   Sélectionnez l\'option **Maillages → Analyser → <img src="images/Mesh_BoundingBox.svg" width=16px> Limites englobantes...** du menu.
-3.  La boîte de dialogue **Limites englobantes** s\'ouvre et affiche les coordonnées de la boîte englobante de l\'objet.
+3.  La fenêtre de dialogue **Limites englobantes** s\'ouvre et affiche les coordonnées de la boîte englobante de l\'objet.
 4.  Les mêmes informations sont également affichées dans la [vue rapport](Report_view/fr.md).
 5.  Appuyez sur le bouton **OK** pour fermer la boîte de dialogue et terminer la commande.
 

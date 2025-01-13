@@ -1,14 +1,14 @@
 # SheetMetal Workbench/hr
 }
 
-<img alt="Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
+<img alt="SheetMetal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
 
 
 
 
 ## Introduction
 
-<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> [Sheet Metal](SheetMetal_Workbench.md) is an [external workbench](External_workbenches.md) and does not belong to the standard FreeCAD installation. It has been developed to supply tools to create and unfold sheet metal objects.
+<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> [SheetMetal](SheetMetal_Workbench.md) is an [external workbench](External_workbenches.md) and does not belong to the standard FreeCAD installation. It has been developed to supply tools to create and unfold sheet metal objects.
 
 Characteristics of sheet metal objects are:
 
@@ -18,7 +18,7 @@ Characteristics of sheet metal objects are:
 The unfolding tool in both of its versions is not restricted to parts made with tools from this workbench, but can handle [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) objects as well, as long as they meet above characteristics.
 
 <img alt="" src=images/SheetMetal_Example.png  style="width:600px;"> 
-*The sheet metal model built with the Sheet Metal add-on (rear); in front of it, the unfolded solid; at the forefront, the unfold sketch with bending lines for export to DXF.*
+*Rear: the sheet metal model built with the SheetMetal add-on<br/>In front of it: the unfolded solid<br/>At the forefront: the unfold sketch with bending lines for export to DXF.*
 
 If the export in DXF is used to control machines (Lasercut for example), you have to modify the DXF to remove the lines showing the folds, as these lines may be used for cutting by the machine.
 
@@ -27,8 +27,6 @@ If the export in DXF is used to control machines (Lasercut for example), you hav
 This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
 
 ## Tools
-
-A detailed description of the tools can be found [on the author\'s blog](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/). It\'s a bit outdated now, since some new tools have been added.
 
 -   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Make Base Wall](SheetMetal_AddBase.md): Creates a sheet metal base object from a sketch, either a profile or a plate.
 
@@ -42,6 +40,8 @@ A detailed description of the tools can be found [on the author\'s blog](http://
 
 -   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md): Flattens a folded sheet metal object and generates an unfold solid and an outline sketch with bend lines (if parameters have already been set).
 
+-   <img alt="" src=images/SheetMetal_UnfoldUpdate.svg  style="width:32px;"> [Unfold Update](SheetMetal_UnfoldUpdate.md): Updates all unfold objects.
+
 -   <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:32px;"> [Add Corner Relief](SheetMetal_AddCornerRelief.md): Adds a corner relief to a corner.
 
 -   <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:32px;"> [Make Relief](SheetMetal_AddRelief.md): 1st step to convert a shell object into an unfoldable sheet metal object, adds a relief (cutout) to a corner.
@@ -52,9 +52,11 @@ A detailed description of the tools can be found [on the author\'s blog](http://
 
 -   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md): Cuts a sketch based hole pattern along the folded walls of a sheet metal object.
 
+-   <img alt="" src=images/SheetMetal_AddCutout.svg  style="width:32px;"> [Extruded Cutout](SheetMetal_AddCutout.md): Creates an extruded cutout from a sketch extrusion.
+
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Make Forming in Wall](SheetMetal_Forming.md): Embosses shapes with or without holes into a sheet metal plate.
 
--   <img alt="" src=images/SheetMetal_BaseShape.svg  style="width:32px;"> [Add base shape](SheetMetal_BaseShape.md): Adds a basic sheet metal object from parameters.
+-   <img alt="" src=images/SheetMetal_BaseShape.svg  style="width:32px;"> [Add base shape](SheetMetal_BaseShape.md): Adds a basic sheet metal object from parameters (introduced in version 0.3.10).
 
 ## Brief description 
 
@@ -69,13 +71,17 @@ This section is meant to give a rough idea of how to use the supplied tools. Mor
 
 #### Start with a profile 
 
-1.  Create an open polyline (preferably with the sketcher)
+1.  Create an open polyline (preferably with the [Sketcher Workbench](Sketcher_Workbench.md))
 2.  Use the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase.md) command to create a sheet metal profile.
 
 #### Start with a blank 
 
 1.  Create a closed polyline (preferably with the sketcher)
 2.  Use the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase.md) command to create a sheet metal blank.
+
+#### Start with a base shape 
+
+1.  Use the <img alt="" src=images/SheetMetal_BaseShape.svg  style="width:16px;"> [Add base shape](SheetMetal_BaseShape.md) comand to add a basic sheet metal object from parameters (introduced in version 0.3.10).
 
 #### Start with a PartDesign Pad 
 
@@ -133,7 +139,7 @@ It contains some hints about [properties](SheetMetal_Examples#SheetMetal_propert
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:800px">
 
-### Sheet Metal Tutorial by meme2704 
+### SheetMetal Tutorial by meme2704 
 
 The following tutorial is reproduced from the PDF tutorial mentioned in [Links](#Links.md).
 
@@ -153,7 +159,7 @@ After downloading the extension and install, open it. ![](images/sm1.png )
 
 #### 2nd operation 
 
--   Open the Sheet_metal workbench.
+-   Open the SheetMetal workbench.
 -   Select 1 thickness of the edge (edge) of the base plate and click on the \"bend\" tool 90° default bend angle can be changed from 0 to 90°.
 -   Edge height is 10mm by default, editable from 0.1 to xxxmm.
 -   Bending radius is by default equal to thickness, editable from 0.1 to xxmm (never put 0).
@@ -172,7 +178,6 @@ Now we must separate the 2 edges otherwise they will merge and unfolding will be
 \* 1st method: make 1 withdrawal of 1 edge.
 
 -   -   Give 1 value slightly greater than gap1 (or gap2), at zero there is still fusion.
-
 -   2nd method make 1 cut at 45 ° see further, use this tool.
 
 ![](images/sm5a.png )

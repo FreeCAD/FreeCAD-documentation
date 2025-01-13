@@ -92,6 +92,9 @@
 
 ### Установка ограничений и приложение силы 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Скройте сетку внутри древа проекта.
 2.  Откройте оригинальную модель
 3.  Выберите <img alt="" src=images/FEM_FixedConstraint.png  style="width:16px;"> [Создать МКЭ с фиксированными ограничениями](FEM_ConstraintFixed/ru.md)
@@ -100,6 +103,9 @@
 6.  Выберите фронтальную поверхность Куба (грань, параллельная задней поверхности) и установите значение **Area load** в 9000000,00
 7.  Установите **Direction** в **-Z** выбором одной из граней параллельно этому направлеию.
 8.  Кликните OK
+
+
+</div>
 
 Теперь мы установили ограничения и силы для нашего статического анализа.
 
@@ -204,6 +210,10 @@
 
 
 </div>
+
+## Notes
+
+-   For a video tutorial based on this written tutorial watch: [FEM MaterialReinforced tutorial](https://www.youtube.com/watch?v=SZTIqhfCSVc).
 
 
 {{FEM Tools navi

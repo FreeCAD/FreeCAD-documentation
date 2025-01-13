@@ -1,19 +1,23 @@
 ---
- GuiCommand:Addon
+ GuiCommand:
    Name: BIM Clone
-   Workbenches: Image:IFC.svg BIM Workbench
-   Addon: BIM
-   MenuLocation: Modify , Copy
-   SeeAlso: Draft Clone
+   MenuLocation: Modify , Clone
+   Workbenches: BIM_Workbench
+   SeeAlso: Draft_Clone
 ---
 
 # BIM Clone
 
 ## Description
 
-The BIM Clone tool is a shortcut to the standard [Draft Clone](Draft_Clone.md) tool, but launches a [Draft Move](Draft_Move.md) command just after cloning, thus allowing you to clone and place the cloned object somewhere else in the model in one go.
+The **BIM Clone** tool is a shortcut to the standard [Draft Clone](Draft_Clone.md) tool, but launches a [Draft Move](Draft_Move.md) command just after cloning, thus allowing you to clone and place the cloned object somewhere else in the model in one go.
+
+
+
+
+ {{BIM_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > BIM Clone
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Clone

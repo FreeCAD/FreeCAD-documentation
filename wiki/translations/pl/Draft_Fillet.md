@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Fillet
    Name/pl: Rysunek Roboczy: Zaokrąglenie
-   MenuLocation: Kreślenie , Zaokrąglenie
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Kreślenie , Zaokrąglenie<br>Kreślenie 2D , Zaokrąglenie
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **F** **I**
    Version: 0.19
    SeeAlso: Draft_Line/pl, Draft_Wire/pl
@@ -15,22 +15,27 @@
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Zaokrąglenie** tworzy zaokrąglenie, zaokrąglony narożnik lub sfazowanie, prostą krawędź między dwiema [Liniami](Draft_Line/pl.md).
+Polecenie <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Zaokrąglenie** tworzy zaokrąglenie, zaokrąglony narożnik lub sfazowanie, prostą krawędź między dwiema wskazanymi krawędziami.
+
+W {{VersionMinus/pl|0.21}} to polecenie działa poprawnie tylko jeśli obie wskazane krawędzie są proste.
+
+W {{VersionMinus/pl|1.0}} jeśli wskazane obiekty mają wiele krawędzi, użyta zostanie ich pierwsza krawędź. Może to nie być krawędź, która została wskazana w [widoku 3D](3D_view/po.md).
 
 <img alt="" src=images/Draft_Fillet_example.png  style="width:400px;"> 
-*Kilka zaokrągleń i fazowań utworzonych między dwiema liniami.*
+*Kilka zaokrągleń i sfazowań utworzonych między dwiema liniami*
 
 
 
 ## Użycie
 
-1.  Wybierz dwie [Linie](Draft_Line/pl.md), które spotykają się w jednym punkcie.
+1.  Wybierz dwie krawędzie, które spotykają się w jednym punkcie.
 2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_Fillet.svg" width=16px> '''Zaokrąglenie'''**.
-    -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Fillet.svg" width=16px> Zaokrąglenie**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Fillet.svg" width=16px> Zaokrąglenie**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Kreślenie 2D → <img src="images/Draft_Fillet.svg" width=16px> Zaokrąglenie** z menu.
     -   Użyj skrótu klawiaturowego: **F**, a następnie **I**.
-3.  Wpisz **Promień zaokrąglenia**. Jeśli wybrano opcję **Utwórz sfazowanie**, będzie to rozmiar fazy *(długość prostej krawędzi)*. Należy pamiętać, że polecenie nie powiedzie się, jeśli promień lub rozmiar fazy jest zbyt duży dla wybranych linii.
-4.  Opcjonalnie zaznacz opcję **Usuń oryginalne obiekty:**.
+3.  Wpisz **Promień zaokrąglenia**. Należy pamiętać, że polecenie nie powiedzie się, jeśli promień jest zbyt duży dla wybranych krawędzi.
+4.  Opcjonalnie zaznacz opcję **Usuń oryginalne obiekty**.
 5.  Opcjonalnie zaznacz opcję **Utwórz sfazowanie**.
 6.  Jeśli wybrano jedną z dwóch poprzednich opcji: Kliknij w polu wprowadzania **Promień zaokrąglenia**.
 7.  Naciśnij **Enter**.
@@ -45,9 +50,8 @@ Polecenie <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Zaokr�
 
 ## Uwagi
 
--   Zaokrąglenie nie może być edytowane, ani nie jest powiązane z liniami, które zostały użyte do jego utworzenia.
--   W tej chwili obsługiwane są tylko linie, czyli [polilinie](Draft_Wire/pl.md) z tylko dwoma punktami.
--   [Polilinia](Draft_Wire/pl.md), która ma co najmniej trzy punkty, może zostać zaokrąglona lub sfazowana poprzez zmianę odpowiednio właściwości **Promień** lub **Rozmiar sfazowania**. Ponieważ [linia](Draft_Line/pl.md) i [polilinia](Draft_Wire/pl.md) mogą być łączone za pomocą komendy [polilinia](Draft_Wire/pl.md), komendy [Połącz](Draft_Join/pl.md) lub komendy [Ulepsz kształt](Draft_Upgrade/pl.md), zapewnia to alternatywną metodę tworzenia zaokrągleń i fazowań.
+-   Zaokrąglenie nie może być edytowane, ani nie jest powiązane z krawędziami, które zostały użyte do jego utworzenia.
+-   [Polilinia](Draft_Wire/pl.md), która ma co najmniej trzy punkty, może zostać zaokrąglona lub sfazowana poprzez zmianę odpowiednio właściwości **Promień** lub **Rozmiar sfazowania**. Ponieważ [linia](Draft_Line/pl.md) i [polilinia](Draft_Wire/pl.md) mogą być łączone za pomocą komendy [polilinia](Draft_Wire/pl.md), komendy [Połącz](Draft_Join/pl.md) lub komendy [Ulepsz kształt](Draft_Upgrade/pl.md), zapewnia to alternatywną metodę tworzenia zaokrągleń i sfazowań.
 
 
 
@@ -99,12 +103,12 @@ Aby utworzyć zaokrąglenie, użyj metody `make_fillet` modułu Rysunek Roboczy.
 
 
 ```python
-fillet = make_fillet([line1, line2], radius=100, chamfer=False, delete=False)
+fillet = make_fillet([edge1, edge2], radius=100, chamfer=False, delete=False)
 ```
 
--   Tworzy obiekt `Fillet` pomiędzy liniami `line1` i `line2`, używając `radius` dla krzywizny.
--   Jeśli `chamfer` ma wartość `True`, utworzy prostą krawędź o długości `radius`, zamiast zaokrąglonej krawędzi.
--   Jeśli `delete` jest `True`, usunie podane `line1` i `line2` i pozostawi tylko nowy obiekt.
+-   Tworzy obiekt `Fillet` pomiędzy krawędziami `edge1` i `edge2`, używając `radius` dla krzywizny.
+-   Jeśli `chamfer` ma wartość `True`, utworzy prostą krawędź zamiast zaokrąglonej.
+-   Jeśli `delete` jest `True`, usunie podane `edge1` i `edge2` i pozostawi tylko nowy obiekt.
 
 Przykład:
 
@@ -119,12 +123,12 @@ p1 = App.Vector(0, 0, 0)
 p2 = App.Vector(1000, 1000, 0)
 p3 = App.Vector(2000, 0, 0)
 
-line1 = Draft.make_line(p1, p2)
-line2 = Draft.make_line(p2, p3)
+edge1 = Draft.make_line(p1, p2)
+edge2 = Draft.make_line(p2, p3)
 
 doc.recompute()
 
-fillet = Draft.make_fillet([line1, line2], radius=500)
+fillet = Draft.make_fillet([edge1, edge2], radius=500)
 
 doc.recompute()
 ```

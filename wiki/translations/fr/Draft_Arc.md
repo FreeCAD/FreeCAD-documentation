@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft_Arc
    Name/fr: Draft Arc
-   MenuLocation: Draft , Outils arcs , Arc
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Formes , Outils pour les arcs , Arc<br><br>BIM : Formes 2D , Arc
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **A** **R**
    Version: 0.7
    SeeAlso: Draft_Arc_3Points/fr, Draft_Circle/fr
@@ -28,23 +28,24 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyer sur le **<img src="images/Draft_Arc.svg" width=16px> [Arc](Draft_Arc/fr.md)**.
-    -   Sélectionner l\'option **Draft → Outils arc → <img src="images/Draft_Arc.svg" width=16px> Arc** du menu.
-    -   Utiliser le raccourci clavier : **A** puis **R**. {{Version/fr|0.20}}
+    -   [Draft](Draft_Workbench/fr.md) : sélectionner l\'option **Formes → Outils pour les arcs → <img src="images/Draft_Arc.svg" width=16px> Arc** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionner l\'option **Formes 2D → <img src="images/Draft_Arc.svg" width=16px> Arc** du menu.
+    -   Utiliser le raccourci clavier : **A** puis **R**.
 2.  Le panneau de tâches **Arc** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisir le premier point, le centre de l\'arc, dans la [vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+3.  Choisir le premier point, le centre de l\'arc, dans la [vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
 4.  Choisir le deuxième point dans la [vue 3D](3D_view/fr.md) ou entrer un **Rayon**.
 5.  Choisir le troisième point dans la [vue 3D](3D_view/fr.md) ou entrer un **Angle de départ**.
 6.  Choisir le quatrième point dans la [vue 3D](3D_view/fr.md) ou entrer un **Angle d'ouverture**.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut (pour la version 1.0).
 
--   Pour saisir manuellement les coordonnées du centre, entrez les valuers X, Y et Z et appuyez sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   Pour saisir manuellement les coordonnées du centre, entrez les valuers X, Y et Z et appuyez sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md).
 -   Appuyez sur **N** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des arcs.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour interrompre la commande.
+-   Appuyez sur **Échap** ou sur le bouton **Fermer** pour interrompre la commande.
 
 
 

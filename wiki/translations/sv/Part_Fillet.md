@@ -9,7 +9,7 @@ Rundar av de valda kanterna på ett objekt. En dialogruta tillåter dig att väl
 
 ## Description
 
-This tool creates fillets (rounds) on the selected edges of a shape. A dialog allows choosing which shape and which edges to work on.
+**Part Fillet** creates fillets (rounds) on the selected edges of a shape. A dialog allows choosing which shape and which edges to work on.
 
 ## Usage
 
@@ -38,6 +38,14 @@ The fillet tool sometimes fails when trying to fillet complex shapes. A common c
 -   Consider using **Edit → Preferences → PartDesign** to enable automatic checking and refining of the model after Boolean and sketch based operations (performance may be affected if these options are left switched on).
 
 The fillet tool is affected by the [topological naming problem](Topological_naming_problem.md) when making a change to a modeling step earlier in the chain that affects the number of faces or vertices. This could cause unpredictable results. Until this problem is resolved it is advised to apply chamfer and fillet operations as the last steps in the modelling chain.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

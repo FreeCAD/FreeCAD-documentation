@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign AdditiveCylinder
    Name/fr: PartDesign Cylindre additif
-   MenuLocation: Part Design , Créer une primitive additive , Cylindre additif
+   MenuLocation: PartDesign , Créer une primitive additive , Cylindre additif
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/fr, PartDesign_SubtractiveCylinder/fr
@@ -15,6 +15,8 @@
 Insère un Cylindre primitif dans un corps actif comme première fonction, ou le fusionne aux autres fonctions existantes.
 
 <img alt="" src=images/PartDesign_AdditiveCylinder_example.png  style="width:200px;">
+
+
 
 ## Utilisation
 
@@ -31,6 +33,8 @@ Le Cylindre peut être édité après sa création de deux façons :
 
 -   Double-cliquez le dans l\'arborescence ou faire un clic droit dessus et sélectionnez **Éditer la primitive** dans le menu contextuel. Cela fait apparaître les paramètres des Primitives.
 -   Via l\'[Éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ## Propriétés
 

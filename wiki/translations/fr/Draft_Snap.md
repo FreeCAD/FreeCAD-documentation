@@ -1,9 +1,9 @@
 # Draft Snap/fr
 ## Description
 
-Dans l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et l\'<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [atelier Arch](Arch_Workbench/fr.md), vous pouvez créer une géométrie en sélectionnant des points dans la [Vue 3D](3D_view/fr.md) ou en saisissant des coordonnées dans le [Panneau des tâches](Task_panel/fr.md) des commandes. Une autre façon de sélectionner des points est l\'aimantation. L\'aimantation permet de sélectionner des points géométriques exacts sur des objets existants ou définis par ces objets ou la grille. Vous pouvez par exemple vous aimanter à l\'extrémité d\'une ligne, au centre d\'un cercle ou à l\'intersection de deux bords.
+Dans l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et l\'<img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [atelier BIM](BIM_Workbench/fr.md), vous pouvez créer une géométrie en sélectionnant des points dans la [vue 3D](3D_view/fr.md) ou en saisissant des coordonnées dans le [panneau des tâches](Task_panel/fr.md) des commandes. Une autre façon de sélectionner des points est l\'aimantation. L\'aimantation permet de sélectionner des points géométriques exacts sur des objets existants ou définis par ces objets ou la grille. Vous pouvez par exemple vous aimanter à l\'extrémité d\'une ligne, au centre d\'un cercle ou à l\'intersection de deux bords.
 
-L\'aimantation est disponible avec la plupart des commandes de [Draft](Draft_Workbench/fr.md) et [Arch](Arch_Workbench/fr.md).
+L\'aimantation est disponible avec la plupart des commandes de [Draft](Draft_Workbench/fr.md) et [BIM](BIM_Workbench/fr.md).
 
 ![](images/Draft_Snap_Endpoint_example.png ) 
 *Aimantation au point d'extrémité d'une arête*
@@ -16,9 +16,9 @@ Ces outils sont disponibles dans la barre d\'outils Draft Aimantation et dans le
 
 Remarquez que les bords circulaires ne doivent pas nécessairement être des cercles complets.
 
--   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Verrouillage de l\'aimantation](Draft_Snap_Lock/fr.md) : active ou désactive l\'aimantation de manière globale.
+-   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Verrouiller l\'aimantation](Draft_Snap_Lock/fr.md) : active ou désactive l\'aimantation de manière globale.
 
--   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Aimantation terminaison](Draft_Snap_Endpoint/fr.md): aimante aux extrémités des segments.
+-   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Aimantation Extrémité](Draft_Snap_Endpoint/fr.md) : aimante aux extrémités des segments.
 
 -   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Aimantation milieu](Draft_Snap_Midpoint/fr.md) : aimante au point milieu des segments.
 
@@ -76,14 +76,14 @@ Remarquez que les bords circulaires ne doivent pas nécessairement être des cer
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Lorsqu\'une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) nécessitant la saisie de points est active, la distance maximale à laquelle [Draft Aimantation Grille](Draft_Snap_Grid/fr.md) détecte les intersections des lignes de la grille peut être modifiée à la volée en appuyant sur **P** (touche d\'augmentation) ou **M** (touche de diminution). Ce réglage est enregistré : **Outils → Modifier les paramètres... → BaseApp → Preferences → Mod → Draft → snapRange**. Elle peut également être modifiée dans le panneau des tâches de la commande [Draft Plan de travail](Draft_SelectPlane/fr.md).
+-   Lorsqu\'une commande de [Draft](Draft_Workbench/fr.md) ou de [BIM](BIM_Workbench/fr.md) nécessitant la saisie de points est active, la distance maximale à laquelle [Draft Aimantation Grille](Draft_Snap_Grid/fr.md) détecte les intersections des lignes de la grille peut être modifiée à la volée en appuyant sur **P** (touche d\'augmentation) ou **M** (touche de diminution). Ce réglage est enregistré : **Outils → Modifier les paramètres... → BaseApp → Preferences → Mod → Draft → snapRange**. Elle peut également être modifiée dans le panneau des tâches de la commande [Draft Plan de travail](Draft_SelectPlane/fr.md).
 -   Pour n\'aimanter que lorsque la **Touche pour l'aimantation** est maintenue enfoncée :
     -   Désélectionner : **Édition → Préférences... → Draft → Grille et aimantation → Toujours aimanter**.
     -   La **Touche pour l'aimantation** par défaut, **Ctrl**, peut être modifiée : **Édition → Préférences... → Draft → Grille et accrochage → Touche pour l'aimantation**.
--   Pour n\'afficher la barre d\'outils d\'aimantation de Draft que lorsqu\'une commande est active, sélectionnez : **Édition → Préférences... → Draft → Interface → Afficher la barre d'outils d'aimantation de Draft uniquement pendant les commandes**. {{Version/fr|0.22}}
+-   Pour n\'afficher la barre d\'outils d\'aimantation de Draft que lorsqu\'une commande est active, sélectionnez : **Édition → Préférences... → Draft → Interface → Afficher la barre d'outils d'aimantation de Draft uniquement pendant les commandes**. {{Version/fr|1.0}}
 -   Les symboles d\'aimantation peuvent être modifiés : **Édition → Préférences... → Draft → Grille et aimantation → Style des symboles d'aimantation**.
 -   La couleur des symboles d\'aimantation et les [Draft Aimantation Dimensions](Draft_Snap_Dimensions/fr.md) peuvent être modifiées : **Édition → Préférences... → Draft → Grille et aimantation → Couleur des symboles d'aimantation**.
--   La taille des symboles d\'aimantation dépend de : **Édition → Préférences... → Affichage → Vue 3D → Taille des marqueurs**. {{Version/fr|0.22}}
+-   La taille des symboles d\'aimantation dépend de : **Édition → Préférences... → Affichage → Vue 3D → Taille des marqueurs**. {{Version/fr|1.0}}
 -   Les raccourcis clavier mentionnés pour un seul caractère peuvent être modifiés : **Édition → Préférences... → Draft → Interface → Raccourcis des commandes**.
 
 

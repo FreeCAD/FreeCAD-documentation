@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Arch Panel
-   Name/de: Arch Platte
-   MenuLocation: Arch , Plattenwerkzeuge , Platte
-   Workbenches: Arch_Workbench/de
+   Name/de: Arch Panel
+   MenuLocation: 3D/BIM , Panel<br>Utils , Plattenwerkzeuge , Platte
+   Workbenches: BIM_Workbench/de
    Shortcut: **P** **A**
    Version: 0.15
    SeeAlso: Arch_Panel_Cut/de, Arch_Panel_Sheet/de
@@ -15,7 +15,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug ermöglicht alle Arten von platten-artigen Elementen zu erstellen, typischerweise für Plattenkonstruktionen wie das [WikiHouse](http://www.wikihouse.cc/)-Projekt, aber auch für alle Arten von Objekten, die auf einem ebenen Profil basieren.
+Das Werkzeug **Arch Platte** ermöglicht alle Arten von plattenartigen Elementen zu erstellen, typischerweise für Plattenkonstruktionen wie das [WikiHouse](http://www.wikihouse.cc/)-Projekt, aber auch für alle Arten von Objekten, die auf einem ebenen Profil basieren.
 
 <img alt="" src=images/Arch_Panel_example.jpg  style="width:700px;">
 
@@ -30,7 +30,7 @@ Seit {{VersionPlus/de|0.17}} kann Arch Platte auch zur Erstellung von gewellten 
 ## Anwendung
 
 1.  Eine 2D-Form auswählen (Draft-Objekt, Fläche oder Skizze) - optional
-2.  Die Schaltfläche **<img src="images/Arch_Panel.svg" width=16px>[Arch Platte](Arch_Panel/de.md)** drücken oder das Tastaturkürzel **P** dann **A**.
+2.  Die Schaltfläche **<img src="images/Arch_Panel.svg" width=16px>[Platte](Arch_Panel/de.md)** drücken oder das Tastaturkürzel **P** dann **A**.
 3.  Die gewünschten Eigenschaften anpassen.
 
 
@@ -88,7 +88,9 @@ Seit {{VersionPlus/de|0.17}} kann Arch Platte auch zur Erstellung von gewellten 
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Plattenwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden: 
+Das Werkzeug Platte kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden:
+
+
 ```python
 Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, name="Panel")
 ```
@@ -97,7 +99,9 @@ Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, 
     -   Wenn kein `baseobj` gegeben ist, kannst du die numerischen Werte für `length`, `width`, und `thickness` angeben, um ein Blocktafel zu erstellen.
 -   Wenn ein `placement` gegeben wird, wird es verwendet.
 
-Beispiel: 
+Beispiel:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -113,5 +117,13 @@ Panel = Arch.makePanel(Rect, thickness=36)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/de
+⏵ [documentation index](../README.md) > Arch Panel/de

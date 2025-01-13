@@ -44,6 +44,10 @@ Since there are many videos that deal with this topic, please visit [Video tutor
     -   [Using FreeCAD version 0.17 Path Workbench](https://www.youtube.com/playlist?list=PLEuOia-QxyFJZSpqb0xOHc9t7MLdCO3io): a series of 9 videos that explain how to use the Path Workbench including the tools and controllers, job setup, visualization, operations, dressups, units, and preferences.
 -   [Coder Musashi videos](https://www.youtube.com/channel/UCtNnYMVWGkG-aemOrCtGjCA/videos): various videos on using the [Path Workbench](Path_Workbench.md).
     -   [PathWorkbench creating paths with FeatureArea and other freecad tools](https://www.youtube.com/watch?v=MsDIRIkeNJ4)
+-   [Mango Jelly YouTube Videos](https://www.youtube.com/@MangoJellySolutions): MangoJelly\'s tutorials on many parts of FreeCAD including CAM. These are not \"official\" but have been recommended by quite a few people.
+-   [Toronto Tool Library YouTube Videos](https://www.youtube.com/@TorontotoollibraryIRBE): Some interesting videos on using FreeCAD and CNC.
+-   [Open Source CNC](https://www.youtube.com/@opensourcecnc): Some interesting videos on using FreeCAD and CNC, also some FreeCAD CAM tutorial videos.
+-   [Adventures in creation](https://www.youtube.com/@Adventuresincreation): Some interesting videos/tutorials on using FreeCAD to make things.
 
 
 
@@ -56,7 +60,7 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 ## Diseño arquitectónico 
 
-Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench.md), and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
+Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md) and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
 
 Since there are many videos that deal with this topic, please visit [Video tutorials for architectural design](Video_tutorials_for_architectural_design.md).
 
@@ -81,6 +85,8 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 -   [flowwie\'s corner](https://www.youtube.com/c/flowwiescorner/videos) by flowwie in German: a nice series of 62 short videos concerning FreeCAD 0.18 and 0.19, from basic to intermediate level.
 
 -   [Evgeniy Ivanov](https://www.youtube.com/c/CFDIntech/videos) by Evgeniy Ivanov in English: a nice series of videos concerning FreeCAD 0.19, from basic to intermediate level.
+
+-   [FreeCAD tutorials at Spoken tutorials](https://spoken-tutorial.org/tutorial-search/?search_foss=FreeCAD&search_language=English) a series of beginners and intermediate video tutorials.
 
 
 

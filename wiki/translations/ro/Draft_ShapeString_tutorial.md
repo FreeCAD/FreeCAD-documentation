@@ -147,7 +147,7 @@ Se recomandă să fi terminat mai întâi tutorialul sketcher.
 :   5.4. Change **Z** to `0 mm`.
 :   5.5. Or press **Reset point**.
 :   5.6. Change **String** to `FreeCAD`; change **Height** to `5 mm`; change **Tracking** to `0 mm`.
-:   5.7. Make sure **Font file** points to a valid font, for example, `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf`. Press the ellipsis **...** to open the operating system\'s dialog to find a font.
+:   5.7. Make sure **Font file** points to a valid font, (e.g, `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf` or `C:/Windows/Fonts/arial.ttf`). Press the ellipsis **...** to open the operating system\'s dialog to find a font.
 
     :   
         **Note:**

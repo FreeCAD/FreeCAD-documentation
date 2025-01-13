@@ -1,19 +1,40 @@
 # Manual:Parametric objects/zh-cn
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD 被设计用于参数化建模。这意味着你创建的几何形状不是自由地塑造的，而是通过规则和参数生成的。例如，一个圆柱体可以由半径和高度构建而成。通过这两个参数，程序可以获得足够的信息来构建圆柱体。
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 在 FreeCAD 中，参数化对象实际上是一个小程序的组成部分，当其中一个参数发生变化时，它们会运行。对象可以具有各种不同类型的参数：数字（整数，如 1、2、3 或浮点数，如 3.1416）、现实世界的尺寸（1 mm、2.4 m、4.5 ft）、（x、y、z）坐标、文本字符串（\"hello!\"）甚至是另一个对象。
 
-这种最后一种类型的参数允许快速构建复杂的操作链，每个新对象都基于前一个对象，并为其添加新的功能。
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 在下面的示例中，一个实体的立方体对象（Pad）基于一个矩形的二维形状（Sketch），并具有一个挤出距离。通过这两个属性，它通过将基础形状按照给定的距离进行挤出，产生一个实体形状。然后，您可以将此对象用作进一步操作的基础，例如在其一个面上绘制一个新的二维形状（Sketch001），然后进行减去操作（Pocket），直到得到最终的对象。
 
-所有的中间操作（2D 形状、挤出、减去等）仍然存在，并且您随时可以更改它们的任何参数。整个链条将在需要时重新构建（重新计算）。
 
-![](images/Parametric_objects.jpg )
+</div>
 
-有两个重要的事情需要知道：
+![](images/FreeCAD_022_PArametricDesignPlate.png )
+
+On the top face of the plate you sketch a circle of a given diameter d. You then use this circle to create a pocket (remove material) from the original plate.
+
+![](images/FreeCAD_022_ParametricDesignPocket.png )
+
+If you decide to change either of the dimensions of the plate, or of the circle, the final object would be also modified. Thanks to the use of a parametric design approach, there is no need to redo the object from the beginning.
+
+
+<div class="mw-translate-fuzzy">
 
 1.  重新计算并非总是自动进行的。对于那些可能修改文档中大部分内容并且需要一些时间的重型操作，不会自动执行。相反，对象（以及所有依赖于它的对象）将被标记为需要重新计算（在树视图中它们上面会显示一个小蓝色图标）。然后，您需要点击重新计算按钮（或选择**Edit->Refresh**）来重新计算所有标记的对象。
 
@@ -22,11 +43,34 @@ FreeCAD 被设计用于参数化建模。这意味着你创建的几何形状不
 
 1.  依赖关系树必须始终以相同的方向流动，禁止循环依赖。（参见[有向无环图](Glossary#Directed_Acyclic_Graph.md)和 [DAG 视图](DAG_view.md)）您可以有一个依赖于B对象的A对象，以及一个依赖于 C 对象的 B 对象，但不能有一个依赖于 B 对象的 A 对象，同时 B 对象又依赖于 A 对象。这将构成一个循环依赖。然而，您可以有许多对象依赖于同一个对象，例如对象 B 和对象 C 都依赖于对象 A。菜单**Tools -> Dependency graph**显示了类似上述图像的依赖关系图。它可以帮助您检测问题。
 
+
+</div>
+
+In FreeCAD\'s parametric modeling process, examining the dependency tree of an object provides a clear insight into the sequential build and relationships within a model. At the foundation of the structure in the above example is the \'Plate Sketch,\' which serves as the base for the initial form of the model. A \'Pad\' operation is then applied, which adds material to this foundational sketch, effectively creating a three-dimensional structure from the two-dimensional base.
+
+Following this, a \'Circle Sketch\' is drafted on the newly formed surface. This circle forms the basis for the subsequent \'Pocket\' operation. The pocket operation strategically removes material from the structure, essentially carving out a portion based on the circle sketch. This process of adding and then subtracting material allows for complex geometries and features to be integrated into the basic model seamlessly.
+
+Through this sequence of operations---starting from the base sketch, adding volume with a pad, and creating detailed features with additional sketches and pockets---the final object takes shape. Each step in this chain depends on its predecessor, illustrating the interconnected nature of parametric design in FreeCAD.
+
+![](images/FreeCAD_022_ParametricDesignDependGraph.png )
+
+
+<div class="mw-translate-fuzzy">
+
 并非所有的对象在 FreeCAD 中都是参数化的。通常，从其他文件导入的几何图形不会包含任何参数，并且是简单的非参数化对象。然而，这些对象通常可以作为新创建的参数化对象的基础或起点，当然这取决于参数化对象的需求和导入几何图形的质量。
+
+
+</div>
 
 无论是参数化的还是非参数化的对象，都会具有一些基本参数，例如名称（Name），在文档中是唯一的且无法编辑；标签（Label），是用户定义的名称，可以进行编辑；以及放置（placement），用于记录对象在三维空间中的位置。
 
+
+<div class="mw-translate-fuzzy">
+
 最后，值得注意的是，自定义的参数化对象在 Python 中编程是非常容易的。
+
+
+</div>
 
 **延伸阅读**
 

@@ -48,11 +48,23 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Выполнить макрос](Std_DlgMacroExecuteDirect/ru.md): Запускает макрос, находящийся в Python редакторе.
+
+
+</div>
 
 -   [Прикрепить к удалённому отладдчику\...](Std_MacroAttachDebugger/ru.md): Прикрепляет FreeCAD к удалённому отладчику.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Отладка макросов](Std_MacroStartDebug/ru.md): Начинает сессию отладки макроса, находящегося в Python редакторе.
+
+
+</div>
 
 -   <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;"> [Остановить отладку](Std_MacroStopDebug/ru.md): Завершает сессию отладки.
 
@@ -76,7 +88,7 @@
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

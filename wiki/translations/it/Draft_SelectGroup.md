@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft SelectGroup
-   Name/it: Seleziona gruppo
-   MenuLocation: Utilità , Seleziona gruppo
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Seleziona gruppo
+   MenuLocation: Utilità , Seleziona gruppo<br>Utilità , Seleziona gruppo
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    SeeAlso: Std_Group/it, Draft_AddToGroup/it, Draft_AddConstruction/it, Draft_AutoGroup/it
 ---
 
@@ -13,9 +13,7 @@
 
 ## Descrizione
 
-Il comando <img alt="" src=images/Draft_SelectGroup.svg  style="width:24px;"> **Draft Seleziona gruppo** seleziona il contenuto di oggetti [Gruppo](Std_Group/it.md) o gruppi simili ad oggetti [Arch](Arch_Workbench.md) selezionati. Per gli oggetti selezionati non appartenenti al gruppo, viene selezionato il contenuto del gruppo in cui si trovano.
-
-Il comando è stato rivisto nella versione 0.20 di FreeCAD e questa pagina descrive quella versione.
+Il comando <img alt="" src=images/Draft_SelectGroup.svg  style="width:24px;"> **Draft Seleziona gruppo** seleziona il contenuto di oggetti [Gruppo](Std_Group/it.md) o gruppi simili ad oggetti [BIM](BIM_Workbench/it.md) selezionati. Per gli oggetti selezionati non appartenenti al gruppo, viene selezionato il contenuto del gruppo in cui si trovano.
 
 
 
@@ -23,9 +21,9 @@ Il comando è stato rivisto nella versione 0.20 di FreeCAD e questa pagina descr
 
 1.  Selezionare uno o più oggetti che si trovano all\'interno dei gruppi e/o selezionare uno o più gruppi.
 2.  Esistono diversi modi per richiamare il comando:
-    -   Premere il pulsante **<img src="images/Draft_SelectGroup.svg" width=16px> [Seleziona gruppo](Draft_SelectGroup/it.md)**.
-    -   Selezionare l\'opzione **Utilità → <img src="images/Draft_SelectGroup.svg" width=16px> Seleziona gruppo** dal menu.
-    -   Selezionare l\'opzione **Utilità → <img src="images/Draft_SelectGroup.svg" width=16px> Seleziona gruppo** dal menu contestuale [Vista ad albero](Tree_view/it.md) o [Vista 3D](3D_view/it.md).
+    -   [Draft](Draft_Workbench/it.md): Premere il pulsante **<img src="images/Draft_SelectGroup.svg" width=16px> [Seleziona gruppo](Draft_SelectGroup/it.md)**.
+    -   Draft: Selezionare l\'opzione **Utilità → <img src="images/Draft_SelectGroup.svg" width=16px> Seleziona gruppo** dal menu, o dalla [Vista ad albero](Tree_view/it.md) o dal menu contestuale della [Vista 3D](3D_view/it.md).
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Utilità → <img src="images/Draft_SelectGroup.svg" width=16px> Seleziona gruppo** dal menu.
 3.  Il contenuto dei gruppi è selezionato.
 
 

@@ -10,6 +10,8 @@ FreeCAD tiene la asombrosa capacidad de poder importarse como un módulo de Pyth
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Usando FreeCAD sin interfaz gráfica de usuario GUI 
@@ -130,6 +132,8 @@ Por supuesto, como este archivo de guión es muy simple (de hecho hice uno más 
 checkout [Headless FreeCAD](Headless_FreeCAD.md) for running FreeCAD without the GUI.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Uso de FreeCAD con interfaz gráfica de usuario GUI 
@@ -159,7 +163,9 @@ Ten en cuenta, por supuesto, que para cualquier aplicación de consola, esta sol
 
 Although it is possible to import FreeCAD to an external Python interpreter, this is not a common usage scenario and requires some care. Generally, it is better to use the Python included with FreeCAD, run FreeCAD via command line, or as a subprocess. See [Start up and Configuration](Start_up_and_Configuration.md) for more on the last two options.
 
-Since the FreeCAD Python module is compiled from C++ (rather than being a pure Python module), it can only be imported from a compatible Python interpreter. Generally this means that the Python interpreter must be compiled with the same C compiler as was used to build FreeCAD. Information about the compiler used to build a Python interpreter (including the one built with FreeCAD) can be found as follows: 
+Since the FreeCAD Python module is compiled from C++ (rather than being a pure Python module), it can only be imported from a compatible Python interpreter. Generally this means that the Python interpreter must be compiled with the same C compiler as was used to build FreeCAD. Information about the compiler used to build a Python interpreter (including the one built with FreeCAD) can be found as follows:
+
+
 ```python
 >>> import sys
 >>> sys.version

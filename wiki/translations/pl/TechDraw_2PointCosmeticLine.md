@@ -54,8 +54,7 @@ Aby zmienić punkty końcowe linii kosmetycznej:
 
 ## Uwagi
 
-Aby usunąć linię kosmetyczną użyj narzędzia <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [Usuń geometrie pomocnicze](TechDraw_CosmeticEraser/pl.md).
-
+-   Aby usunąć okrąg kosmetyczny, zaznacz go i naciśnij **Delete**. {{Version/pl|1.0}}
 -   Aby zmienić wygląd linii kosmetycznej użyj narzędzia <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [Zmień wygląd linii](TechDraw_DecorateLine/pl.md).
 
 

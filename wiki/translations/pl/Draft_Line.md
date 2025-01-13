@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Line
    Name/pl: Rysunek Roboczy: Linia
-   MenuLocation: Kreślenie , Linia
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Kreślenie , Linia<br>Kreślenie 2D , Linia
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **L** **I**
    Version: 0.7
    SeeAlso: Draft_Wire/pl
@@ -30,7 +30,8 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Line.svg" width=16px> '''Linia'''**.
-    -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Line.svg" width=16px> Linia** opcję z menu.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Line.svg" width=16px> Linia** opcję z menu.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Kreślenie 2D → <img src="images/Draft_Line.svg" width=16px> Linia** z menu.
     -   Użyj skrótu klawiaturowego: **L**, a następnie **I**.
 2.  Otworzy się panel zadań **Linia**. Aby uzyskać więcej informacji, zobacz [Opcje](#Opcje.md).
 3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
@@ -40,14 +41,14 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 1.0)*.
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź składowe X, Y i Z, i naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już żądane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor poza okno [widoku 3D](3D_view/pl.md).
 -   Aby użyć współrzędnych biegunowych, wprowadź wartość dla **Długości** i wartość dla **Kąta**, a następnie naciśnij klawisz **Enter** po każdej z nich.
 -   Zaznacz pole wyboru **kąt**, aby związać kursor do określonego kąta. Aby funkcja działała, pole wejściowe **Długość** musi przyjmować wartość niezerową.
 -   Naciśnij klawisz **L**, aby zmienić aktywność z pola wprowadzania **X** na pole wprowadzania **Długość** i z powrotem. W zależności od pola wejściowego, które otrzymuje aktywność, pole wyboru **Kąt** jest zaznaczane lub odznaczane.
 -   Naciśnij klawisz **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne drugiego punktu odnoszą się do pierwszego punktu, w przeciwnym razie odnoszą się do początku układu współrzędnych.
--   Naciśnij klawisz **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do głównego układu współrzędnych, w przeciwnym razie do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij klawisz **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do głównego układu współrzędnych, w przeciwnym razie do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij klawisz **N** lub kliknij pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, pozwalając Ci kontynuować tworzenie linii.
 -   Naciśnij klawisz **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby przerwać polecenie.

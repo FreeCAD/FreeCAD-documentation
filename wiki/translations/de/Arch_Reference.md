@@ -2,10 +2,10 @@
  GuiCommand:
    Name: Arch Reference
    Name/de: Arch Referenz
-   MenuLocation: Arch , Referenz
-   Workbenches: Arch_Workbench/de
+   MenuLocation: 3D/BIM , Generic 3D tools , Externe Referenz
+   Workbenches: BIM_Workbench/de
    Shortcut: 
-   SeeAlso: Arch_BuildingPart/de
+   SeeAlso: 
 ---
 
 # Arch Reference/de
@@ -14,19 +14,22 @@
 
 ## Beschreibung
 
-<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
+Das Werkzeug **Arch Referenz** ermöglicht im aktuellen Dokument ein Objekt zu platzieren, das die Form und Farben eines in einer anderen Datei gespeicherten [Part](Part_Workbench/de.md)-basierten Objekts (einschließlich [Arch Gebäudeteil](Arch_BuildingPart/de.md)) kopiert. Wenn sich die FreeCAD-Datei ändert, wird das Objekt für eine Aktualisierung vorgemerkt.
 
-Das Referenz Werkzeug erlaubt es, im aktuellen Dokument ein Objekt zu platzieren, das die Form und Farben eines in einer anderen Datei gespeicherten [Part](Part_Workbench/de.md) basierten Objekts (einschließlich [Arch Gebäudeteil](Arch_BuildingPart/de.md)) kopiert. Wenn sich die FreeCAD Datei ändert, wird das Objekt für eine Aktualisierung vorgemerkt.
+<img alt="" src=images/Arch_reference_screenshot.png  style="width:600px;">
 
 
 
 ## Anwendung
 
-1.  Drücke die Schaltfläche **<img src="images/Arch_Reference.svg" width=16px> Arch Referenz
-**
-2.  Drücke die Schaltfläche **Wähle Datei...** und wähle eine vorhandene FreeCAD-Datei
-3.  Wähle eins der enthaltenen Part-basierten Objekte aus der Aufklappliste
-4.  Drücke **OK**
+1.  Die Schaltfläche **<img src="images/Arch_Reference.svg" width=16px> [ExterneReferenz](Arch_Reference/de.md)** drücken.
+
+2.  Die Schaltfläche **Datei auswählen...** drücken und eine vorhandene FreeCAD-Datei auswählen.
+
+3.  Eins der enthaltenen auf Part basierenden Objekte in der Aufklappliste auswählen.
+
+4.  
+    **OK**drücken.
 
 
 
@@ -52,20 +55,32 @@ Das Referenz Werkzeug erlaubt es, im aktuellen Dokument ein Objekt zu platzieren
 
 ## Skripten
 
-Das Referenz-Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus mit folgender Funktion angesprochen werden: 
+Das Werkzeug Referenz kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch Verwendung der folgenden Funktion verwendet werden:
+
+
 ```python
-makeReference ([file_path,object_name])
+reference = makeReference([filepath], [partname], [name])
 ```
 
-erstellt ein Referenz-Objekt aus dem angegebenen Objekt der angegebenen Datei.
+erstellt ein Objekt `reference` mit dem Namen `name` vom Objekt `partname` in der Datei `filepath`. Alle Argumente sind optional.
 
-Beispiel: 
+Beispiel:
+
+
 ```python
 import Arch
-Arch.makeReference("/path/to/some/file.FSCtd","myPart")
+Arch.makeReference("/path/to/some/file.FSCtd", "myPart")
 ```
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/de
+⏵ [documentation index](../README.md) > Arch Reference/de

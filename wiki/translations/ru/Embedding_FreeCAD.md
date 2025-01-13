@@ -3,6 +3,8 @@
 
 FreeCAD может импортироваться как модуль [Python](Python/ru.md) в другие программы или в автономную консоль python, вместе со всеми модулями и компонентами. Можно даже импортировать пользовательский интерфейс FreeCAD как модуль python, но с [некоторыми ограничениями](Embedding_FreeCAD/ru#Caveats.md).
 
+
+
 ## Использование FreeCAD без GUI 
 
 
@@ -117,6 +119,8 @@ sys.path.append(FREECADPATH)
 
 checkout [Headless FreeCAD](Headless_FreeCAD.md) for running FreeCAD without the GUI.
 
+
+
 ## Использование FreeCAD с GUI 
 
 Начиная с версии 4.2, Qt обладает интегрирующей способностью встраивать Qt-GUI-зависящие плагины в не-Qt главные приложения и распространять как привязки к главному приложению.
@@ -141,7 +145,9 @@ FreeCADGui.showMainWindow()
 
 Although it is possible to import FreeCAD to an external Python interpreter, this is not a common usage scenario and requires some care. Generally, it is better to use the Python included with FreeCAD, run FreeCAD via command line, or as a subprocess. See [Start up and Configuration](Start_up_and_Configuration.md) for more on the last two options.
 
-Since the FreeCAD Python module is compiled from C++ (rather than being a pure Python module), it can only be imported from a compatible Python interpreter. Generally this means that the Python interpreter must be compiled with the same C compiler as was used to build FreeCAD. Information about the compiler used to build a Python interpreter (including the one built with FreeCAD) can be found as follows: 
+Since the FreeCAD Python module is compiled from C++ (rather than being a pure Python module), it can only be imported from a compatible Python interpreter. Generally this means that the Python interpreter must be compiled with the same C compiler as was used to build FreeCAD. Information about the compiler used to build a Python interpreter (including the one built with FreeCAD) can be found as follows:
+
+
 ```python
 >>> import sys
 >>> sys.version

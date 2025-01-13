@@ -16,9 +16,15 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Instrumentul **View section** creează un plan de secțiune care ascunde temporar materialul din fața planului planului de secțiune.
 
-<img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:320px;"> 
+
+</div>
+
+<img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:300px;"> 
 *Partially hidden sketch and fully visible sketch*
 
 
@@ -30,6 +36,8 @@ Instrumentul **View section** creează un plan de secțiune care ascunde tempora
 
 
 </div>
+
+See also: [Sketcher Preferences](Sketcher_Preferences#Display.md).
 
 
 <div class="mw-translate-fuzzy">

@@ -35,7 +35,7 @@ So **to have the complete solid**, on the one hand the Tip feature must be the l
 
 This will make it possible, in the event of a modification, **to always have the last version of the solid represented.**
 
-**Note and additions :** At each time of the construction, the last function used is the \"Tip\", which can be defined too as \"active stage in the construction of the object\" or \"stage preceding the next action in the construction of the object\". When the object\'s drawing is complete, Tip is naturally the last stage or feature of the construction. But if desired, in case of forgetting, any feature of the construction can be provisionally declared as Tip: it then becomes the step preceding the next action in the construction of the object, which means that new feature(s) can be inserted anywhere in the construction, **on condition not to create any incompatible with the suite**.
+**Note and additions :** At each time of the construction, the last function used is the \"Tip\", which can be defined too as \"active stage in the construction of the object\" or \"stage preceding the next action in the construction of the object\". When the object\'s drawing is complete, Tip is naturally the last stage or feature of the construction. But if desired, in case of forgetting, any feature of the construction can be provisionally declared as Tip: it then becomes the step preceding the next action in the construction of the object, which means that new feature(s) can be inserted anywhere in the construction, **on the condition that no incompatibilities are created with the suite**.
 
 When everything is finished, you have to redeclare the last feature as Tip, which corresponds to the finished object.
 

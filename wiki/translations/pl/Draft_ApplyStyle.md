@@ -3,7 +3,7 @@
    Name: Draft Apply
    Name/pl: Rysunek Roboczy: Zastosuj bieżący styl
    MenuLocation: Narzędzia , Zastosuj bieżący styl
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
    SeeAlso: Draft_SetStyle/pl
 ---
 
@@ -35,7 +35,7 @@ Polecenie środowiska Rysunek Roboczy <img alt="" src=images/Draft_ApplyStyle.sv
 
 1.  Opcjonalnie zmień ustawienia stylu za pomocą polecenia [Ustaw styl](Draft_SetStyle/pl.md).
 2.  Wybierz jeden lub więcej obiektów.
-3.  Wybierz z menu opcję **Przybory → <img src="images/Draft_ApplyStyle.svg" width=16px> Zastosuj bieżący styl**.
+3.  Wybierz opcję **Narzędzia → <img src="images/Draft_ApplyStyle.svg" width=16px> Zastosuj bieżący styl** z menu lub menu kontekstowego [widoku drzewa](Tree_view/pl.md) bądź [widoku 3D](3D_view/pl.md).
 
 
 

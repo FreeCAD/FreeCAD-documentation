@@ -98,6 +98,7 @@ Funkcja **Odejmowanie wyciągnięciem wzdłuż ścieżki** tworzy bryłę odejmu
 -   Może to prowadzić do problemów, jeśli przekrój nie jest prostopadły do ścieżki w przestrzeni 3D.
 -   Przekrój nie może leżeć na tej samej płaszczyźnie, co przekrój bezpośrednio go poprzedzający.
 -   Przekroje nie mogą zawierać rozłącznych lub przecinających się pętli.
+-   Jeśli szkic ma geometrię wewnętrzną, kolejność tworzenia geometrii szkicu powinna być taka sama dla wszystkich sekcji. Należy rozpocząć wszystkie sekcje od geometrii wewnętrznej lub od zewnętrznej. W przeciwnym razie zostanie utworzona nieprawidłowa rura w miejscu przecięcia ścian wewnętrznych i zewnętrznych.
 
 
 

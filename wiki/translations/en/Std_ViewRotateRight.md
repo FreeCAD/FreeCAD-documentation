@@ -22,26 +22,13 @@ The **Std ViewRotateRight** command rotates the camera in the active [3D view](3
 
 ## Scripting
 
-
-**See also:**
-
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-To rotate the view to the right use the `viewRotateRight` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.viewRotateRight()
-FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
-```
+See [Std ViewRotateLeft](Std_ViewRotateLeft#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -1,30 +1,35 @@
 ---
  GuiCommand:
    Name: Arch Panel Sheet
-   MenuLocation: Arch , Panel tools , Panel Sheet
-   Workbenches: Arch_Workbench
-   Shortcut: **P** **S**
+   MenuLocation: Utils , Panel tools , Panel Sheet
+   Workbenches: BIM_Workbench
    Version: 0.17
    SeeAlso: Arch_Panel, Arch_Panel_Cut, Arch_Nest
 ---
 
 # Arch Panel Sheet/pt-br
 
+
+
 ## Descrição
 
 This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](Arch_Panel_Cut.md) objects, or any other 2D object such as those made by the [Draft Workbench](Draft_Workbench.md) and [Sketcher Workbench](Sketcher_Workbench.md). The Panel Sheet is typically made to layout cuts to be made by a CNC machine. These sheets can then be exported to a [DXF](Draft_DXF.md) file.
 
-<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:600px;">
 
-<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:600px;">
 
 *The above image shows how Panel Sheets appear when exported to DXF.*
+
+
 
 ## Utilização
 
 1.  Optionally, select one or more [Arch Panel Cut](Arch_Panel_Cut.md) objects or any other 2D object that lies on the XY plane.
-2.  Press the **<img src="images/Arch_Panel_Sheet.svg" width=16px> [Arch Panel Sheet](Arch_Panel_Sheet.md)** button, or press **P** then **S** keys.
+2.  Select the **Utils → Panel tools → <img src="images/Arch_Panel_Sheet.svg" width=16px> Panel Sheet** option from the menu.
 3.  Adjust the desired properties.
+
+
 
 ## Opções
 
@@ -33,6 +38,8 @@ This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](A
 -   It is possible to automatically make panels composed of more than one sheet of a material, by raising its Sheets property
 -   Panel Sheets can display a margin, that is useful to make sure a certain space is always present between inner objects and the border of the sheet
 -   When Panel sheets are exported to DXF, the outlines, inner holes, tags of their inner children are placed on different layers, as shown on the above image
+
+
 
 ## Propriedades
 
@@ -112,6 +119,8 @@ FreeCAD.ActiveDocument.recompute()
 Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 ```
 
+
+
 ## Tutoriais
 
 -   [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)
@@ -126,6 +135,11 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/pt-br
+⏵ [documentation index](../README.md) > Arch Panel Sheet/pt-br

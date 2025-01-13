@@ -16,7 +16,7 @@ The **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis.md)** to
 
 ## Usage
 
-1.  Press the **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis.md)** button, or press **A** then **X** keys.
+1.  Press the **<img src="images/Arch_Axis.svg" width=16px> [Axis](Arch_Axis.md)** button, or press **A** then **X** keys.
 2.  [Move](Draft_Move.md)/[rotate](Draft_Rotate.md) the axes system to the desired position.
 3.  Enter edit mode by double-clicking the axes system in the tree view to adjust its settings like number of axes, distances and angles between axes.
 
@@ -101,6 +101,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/sv
+⏵ [documentation index](../README.md) > Arch Axis/sv

@@ -1,11 +1,10 @@
 ---
- GuiCommand:Addon
+ GuiCommand:
    Name: BIM IfcElements
    Name/pl: BIM: Edytuj właściwości IFC
-   Workbenches: Image:IFC.svg BIM Workbench/pl
-   Addon: BIM
-   MenuLocation: Zarządzaj , Menadżer elementów IFC
-   SeeAlso: BIM_IfcProperties/pl, BIM_IfcQuantities/pl
+   MenuLocation: Zarządzanie , Menadżer elementów IFC
+   Workbenches: BIM_Workbench/pl
+   SeeAlso: 
 ---
 
 # BIM IfcElements/pl
@@ -14,9 +13,10 @@
 
 ## Opis
 
-<img alt="" src=images/BIM_ifcelements_screenshot.png  style="width:1024px;">
+Okno dialogowe **Menedżera elementów IFC** umożliwia zarządzanie \"nazwami\", \"typami IFC\" i \"materiałami\" elementów modelu BIM. Jego celem jest zapewnienie łatwego ogólnego widoku modelu i umożliwienie upewnienia się, że wszystko jest zgodne z oczekiwaniami przed wyeksportowaniem modelu do [IFC](Arch_IFC/pl.md).
 
-Okno dialogowe menedżera elementów IFC umożliwia zarządzanie \"nazwami\", \"typami IFC\" i \"materiałami\" elementów modelu BIM. Jego celem jest zapewnienie łatwego ogólnego widoku modelu i umożliwienie upewnienia się, że wszystko jest zgodne z oczekiwaniami przed wyeksportowaniem modelu do [IFC](Arch_IFC/pl.md).
+<img alt="" src=images/BIM_ifcelements_screenshot.png  style="width:600px;"> 
+*Menadżer elementów IFC.*
 
 Dzięki niemu masz możliwość:
 
@@ -27,5 +27,13 @@ Dzięki niemu masz możliwość:
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > BIM IfcElements/pl
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcElements/pl

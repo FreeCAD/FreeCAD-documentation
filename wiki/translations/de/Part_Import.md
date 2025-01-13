@@ -2,22 +2,42 @@
  GuiCommand:
    Name: Part Import‏‎
    Name/de: Part Import
-   MenuLocation: Part , Import CAD
+   MenuLocation: Part , Aus CAD-Datei importieren...
    Workbenches: Part_Workbench/de
-   SeeAlso: Part_Export/de, Std_Import/de, Import_Export/de
+   SeeAlso: Std_Import/de, Import_Export/de
 ---
 
 # Part Import/de
 
+
+
 ## Beschreibung
 
-Das **<img src="images/Part_Import.svg" width=16px> [Part Import](Part_Import/de.md)** Werkzeug öffnet einen Dialog, mit dem du die folgenden CAD Dateiformate: [IGES](http://en.wikipedia.org/wiki/IGES), [STEP](http://en.wikipedia.org/wiki/Step_file) und [BREP](http://en.wikipedia.org/wiki/BREP) in das aktuelle Dokument importieren kannst.
+Der Befehl **<img src="images/Part_Import.svg" width=24px> [Part Import](Part_Import/de.md)** importiert Geometrie aus einem andern Dateiformat in das aktive Dokument. Die unterstützten Dateiformate sind: [STEP](http://en.wikipedia.org/wiki/Step_file) (mit oder ohne Farben), [IGES](http://en.wikipedia.org/wiki/IGES) (mit oder ohne Farben) und [BREP](http://en.wikipedia.org/wiki/BREP).
+
+
 
 ## Anwendung
 
-1.  Richte die [Import Export Einstellungen](Import_Export_Preferences/de.md) im [Einstellungseditor](Preferences_Editor/de.md) ein.
-2.  Gehe in das Menü **Part → [<img src=images/Part_Import.svg style="width:16px"> CAD importieren**.
-3.  Wähle die zu importierende Datei
+1.  Die [Import-Export-Einstellungen](Import_Export_Preferences/de.md) im [Einstellungseditor](Preferences_Editor/de.md) einrichten.
+2.  Den Menüeintrag **Part → [<img src=images/Part_Import.svg style="width:16px"> Aus CAD-Datei importieren...** auswählen.
+3.  Wahlweise das korrekte Dateiformat im Dialogfenster auswählen.
+4.  Eine Datei auswählen.
+5.  Die Schaltfläche **Öffnen** drücken.
+
+
+
+## Hinweise
+
+-   Der Befehl [Std Import](Std_Import/de.md) unterstützt noch viele weitere Dateiformate.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

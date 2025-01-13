@@ -22,7 +22,7 @@ The **Std MainFullscreen** command toggles FreeCAD\'s main window fullscreen mod
 
 
 
- {{Std Base navi}}
+ {{Std_Base_navi}}
 
 
 

@@ -1,51 +1,40 @@
-# Part Common/it
 ---
- GuiCommand:   Name: Part_Common   Name/it: Intersezione   MenuLocation: Part , Intersezione   Workbenches: Part_Workbench/it   Parte, Part Cut/it---
+ GuiCommand:
+   Name: Part Common
+   Name/it: Part Intersezione
+   MenuLocation: Parte , Operazioni booleane , Intersezione
+   Workbenches: Part_Workbench/it
+   SeeAlso: Part_Boolean/it, Part_Cut/it, Part_Fuse/it
+---
+
+# Part Common/it
 
 
-</div>
 
 ## Descrizione
 
-La funzione estrae la parte comune (intersezione) tra gli oggetti Parte selezionati. Questa operazione è completamente parametrica, le componenti possono essere modificate e il risultato ricalcolato.
-
-## Usage
+La funzione estrae la parte comune (intersezione) tra gli oggetti Part selezionati. Questa operazione è completamente parametrica, le componenti possono essere modificate e il risultato ricalcolato.
 
 
-<div class="mw-translate-fuzzy">
 
-### Utilizzo
+## Utilizzo
 
 1.  Selezionare due forme
-2.  Premere il pulsante **<img src="images/Part_Common.svg" width=16px> '''Intersezione'''**.
+2.  Premere il pulsante **![](images/)_[Intersezione](Part_Common/it.md)**.
 
 
-</div>
 
+## Input supportati 
 
-<div class="mw-translate-fuzzy">
-
-### Input supportati 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Gli oggetti in ingresso devono essere delle forme [OpenCascade](OpenCascade/it.md). Ad esempio: cose fatte con gli ambienti Parte, PartDesign o Sketcher. Non mesh (a meno che essi non siano stati convertiti in Forme). Per gli oggetti mesh ci sono strumenti booleani specifici nell\'ambiente Mesh.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Gli oggetti di input devono essere forme [OpenCASCADE](OpenCASCADE/it.md). Esempi: materiale realizzato con gli ambienti Part, PartDesign e Sketcher. Non mesh (a meno che non siano state convertite in forme): per le mesh, ci sono strumenti booleani specifici nell\'ambiente MeshDesign.
 
 
 
 
 
-</div>
+{{Part_Tools_navi
+
+}}
 
 
 

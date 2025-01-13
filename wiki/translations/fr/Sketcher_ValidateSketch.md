@@ -4,32 +4,29 @@
    Name/fr: Sketcher Valider une esquisse
    MenuLocation: Esquisse , Valider une esquisse...
    Workbenches: Sketcher_Workbench/fr, PartDesign_Workbench/fr
-   SeeAlso: Sketcher_ConstrainCoincident/fr, Topological_naming_problem/fr
+   SeeAlso: Sketcher_ConstrainCoincident/fr
 ---
 
 # Sketcher ValidateSketch/fr
 
 ## Description
 
-L\'utilitaire **Valider une esquisse** permet d\'analyser et de réparer une esquisse qui n\'est plus modifiable ou d\'ajouter des [contraintes de coïncidence](Sketcher_ConstrainCoincident/fr.md) manquantes à une esquisse créée à partir de géométrie importée, par exemple de fichiers DXF. Il peut aussi être utile pour localiser une coïncidence manquante à une esquisse native qui génère une erreur \"can\'t validate broken face\" (ne peut pas valider une face cassée) en tentant d\'appliquer une fonction PartDesign à celle-ci.
+L\'outil <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:24px;"> [Sketcher Valider une esquisse](Sketcher_ValidateSketch/fr.md) permet d\'analyser et de réparer une esquisse qui n\'est plus modifiable ou d\'ajouter des [contraintes de coïncidence](Sketcher_ConstrainCoincident/fr.md) manquantes à une esquisse créée à partir de géométrie importée, par exemple de fichiers DXF. Il peut aussi être utile pour localiser une coïncidence manquante à une esquisse native qui génère une erreur en tentant d\'appliquer une fonction PartDesign à celle-ci.
 
-![](images/Sketcher_ValidateSketch_taskpanel.png ) 
+<img alt="" src=images/Sketcher_ValidateSketch_taskpanel.png  style="width:" height="500px;"> 
 *Le panneau des tâches Validation de l'esquisse*
 
 
 
 ## Utilisation
 
-1.  Cet outil ne peut pas être utilisé sur une esquisse en mode édition. Si nécessaire, quittez le mode d\'édition en effectuant l\'une des opérations suivantes :
-    -   Appuyez sur le bouton **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Quitter l'esquisse](Sketcher_LeaveSketch/fr.md)**.
-    -   Appuyez sur le bouton **Fermer** en haut du [panneau des tâches](Task_panel/fr.md).
-    -   Utilisez le raccourci clavier : **Echap** (si activé dans les [Sketcher Préférences](Sketcher_Preferences/fr#G.C3.A9n.C3.A9ral.md)).
-2.  Sélectionnez l\'esquisse à valider dans la [vue en arborescence](Tree_view/fr.md) ou en cliquant sur l\'une de ses arêtes dans la [vue 3D](3D_view/fr.md).
-3.  Pour ouvrir l\'utilitaire de validation d\'i,e esquisse, effectuez l\'une des opérations suivantes :
-    -   Sélectionnez l\'option **Esquisse → Valider une esquisse...** dans le menu.
-    -   Appuyez sur le bouton **[<img src=images/Sketcher_ValidateSketch.svg style="width:16px"> [Valider une esquisse...](Sketcher_ValidateSketch/fr.md)** (non disponible dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md)).
-4.  Voir [Options](#Options.md) ci-dessous pour les opérations disponibles.
-5.  Appuyez sur le bouton **Fermer** lorsque vous avez terminé.
+1.  Cet outil ne peut pas être utilisé lorsqu\'une esquisse est en mode édition. Pour quitter le mode édition, voir [Sketcher Quitter l\'esquisse](Sketcher_LeaveSketch/fr.md).
+2.  Sélectionnez une esquisse.
+3.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le **<img src="images/Sketcher_ValidateSketch.svg" width=16px> [Valider l'esquisse...](Sketcher_ValidateSketch/fr.md)**.
+    -   Sélectionnez le bouton **Esquisse → <img src="images/Sketcher_ValidateSketch.svg" width=16px> Valider l'esquisse...** du menu.
+4.  Le panneau de tâches **Validation de l\'esquisse** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+5.  Appuyez sur le bouton **Fermer** pour terminer.
 
 ## Options
 
@@ -37,7 +34,7 @@ L\'utilitaire **Valider une esquisse** permet d\'analyser et de réparer une esq
 
 ### Coincidences manquantes 
 
-Trouve les coïncidences manquantes pour les sommets qui se chevauchent et les ajoute. Appuyez sur le bouton **Rechercher**. une boîte de dialogue apparaîtra pour indiquer combien de coïncidences manquantes ont été trouvées ; elles seront affichées dans la vue 3D sous forme de croix jaunes. Appuyez sur **OK** pour fermer la boîte de dialogue, puis appuyez sur le bouton **Réparer** pour ajouter les coïncidences manquantes.
+Trouve les coïncidences manquantes pour les sommets qui se chevauchent et les ajoute. Appuyez sur le bouton **Rechercher**. Une fenêtre de dialogue apparaîtra pour indiquer combien de coïncidences manquantes ont été trouvées. Elles seront affichées dans la vue 3D sous forme de croix jaunes. Appuyez sur **OK** pour fermer la fenêtre de dialogue, puis appuyez sur le bouton **Réparer** pour ajouter les coïncidences manquantes.
 
 Si nécessaire, définissez une valeur de tolérance supérieure dans le champ déroulant.
 
@@ -45,7 +42,7 @@ Appuyez sur **Surligner les sommets posant problème** pour mettre en évidence 
 
 Cette tolérance est utilisée par le processus **Rechercher**/**Réparer**.
 
-Laissez la case à cocher \"Ignorer les géométries de construction\" cochée pour ignorer la géométrie de construction dans l\'analyse.
+Laissez la case \"Ignorer les géométries de construction\" cochée pour ignorer la géométrie de construction dans l\'analyse.
 
 
 

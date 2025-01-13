@@ -1,39 +1,47 @@
 # Asymptote/it
 ## Descrizione
 
-[Asymptote](https://asymptote.sourceforge.io/) is a vector language for 2D and 3D computer graphics. Asymptote code can be included in [LaTeX](https://www.latex-project.org/) documents or used to generate [PostScript](https://en.wikipedia.org/wiki/PostScript), [PDF](PDF.md), [SVG](SVG.md), [WebGL](https://www.khronos.org/webgl/), and [PRC](https://en.wikipedia.org/wiki/PRC_(file_format)) files. Interactive 3D PDF files created from Asymptote code require Acrobat Reader version 9 or higher.
+[Asymptote](https://asymptote.sourceforge.io/) è un linguaggio vettoriale per la computer grafica 2D e 3D. Il codice Asymptote può essere incluso nei documenti [LaTeX](https://www.latex-project.org/) o utilizzato per generare [PostScript](https://en.wikipedia.org/wiki/PostScript), [PDF](PDF/it.md) , [SVG](SVG/it.md), [WebGL](https://www.khronos.org/webgl/) e [PRC](https://en.wikipedia.org/wiki/PRC_(file_format)). I file PDF 3D interattivi creati dal codice Asymptote richiedono Acrobat Reader versione 9 o successiva.
 
-Asymptote support was added in FreeCAD version 0.19.
+Il supporto per Asymptote è stato aggiunto nella versione 0.19 di FreeCAD.
 
-## Exporting
 
-1.  Optionally assign colors to the faces of the object you want to export with the <img alt="" src=images/Part_FaceColors.svg  style="width:24px;"> [Part FaceColors](Part_FaceColors.md) command.
-2.  Change to the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
-3.  Create a mesh from the object with the <img alt="" src=images/Mesh_FromPartShape.svg  style="width:24px;"> [Mesh FromPartShape](Mesh_FromPartShape.md) command.
-4.  Select the new mesh object.
-5.  Invoke the <img alt="" src=images/Mesh_Export.svg  style="width:24px;"> [Mesh Export](Mesh_Export.md) command.
-6.  Select the ***.asy** file format in the dialog box.
-7.  Enter a filename.
-8.  Press the **Save** button.
 
-## Converting
+## Esportazione
 
-You need the [Asymptote compiler](https://sourceforge.net/projects/asymptote/) to convert ***.asy** files. To convert to PDF a [LaTeX](https://www.latex-project.org/get/) system is also required.
+1.  Facoltativamente, assegnare i colori alle facce dell\'oggetto che si desidera esportare con il comando <img alt="" src=images/Part_ColorPerFace.svg  style="width:24px;"> [Part: Colore per faccia](Part_ColorPerFace/it.md).
+2.  Passare a <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh](Mesh_Workbench/it.md).
+3.  Creare una mesh dall\'oggetto con il comando <img alt="" src=images/Mesh_FromPartShape.svg  style="width:24px;"> [Mesh: Crea mesh da una forma](Mesh_FromPartShape/it.md).
+4.  Selezionare il nuovo oggetto mesh.
+5.  Richiamare il comando <img alt="" src=images/Mesh_Export.svg  style="width:24px;"> [Mesh: Esporta mesh](Mesh_Export/it.md).
+6.  Selezionare il formato file ***.asy** nella finestra di dialogo.
+7.  Inserire un nome di file.
+8.  Premere il pulsante **Salva**.
 
-The compiler is a command line tool. To covert to PDF you can use this syntax: 
+
+
+## Conversione
+
+È necessario il [compilatore Asymptote](https://sourceforge.net/projects/asymptote/) per convertire i file ***.asy**. Per convertire in PDF è necessario anche un sistema [1](https://www.latex-project.org/get/LaTeX).
+
+Il compilatore è uno strumento da riga di comando. Per convertire in PDF puoi usare questa sintassi: 
 ```pythonPathToAsyExecutable/asy -f pdf AsymptoteFileName.asy```
 
-## Related
 
--   [Import Export](Import_Export.md)
 
-## Video tutorials 
+## Correlati
 
-The following videos are in Spanish:
+-   [Importa Esporta](Import_Export/it.md)
 
--   [A way of generating interactive pdf-3D files. (1/3) (From FreeCAD, MeshLab and LaTeX)](https://www.youtube.com/watch?v=U0m3643Vb1Q)
--   [A way of generating interactive pdf-3D files. (2/3) (From Asymptote and LaTex)](https://www.youtube.com/watch?v=PhVNvDZIerM)
--   [A way of generating interactive pdf-3D files. (3/3) (From FreeCAD, Asymptote and LaTeX)](https://www.youtube.com/watch?v=Q_ufaCN2hb4)
+
+
+## Tutorial video 
+
+I seguenti video sono in spagnolo:
+
+-   [Un modo per generare file pdf-3D interattivi. (1/3) (Da FreeCAD, MeshLab e LaTeX)](https://www.youtube.com/watch?v=U0m3643Vb1Q)
+-   [Un modo per generare file pdf-3D interattivi. (2/3) (Da Asymptote e LaTex)](https://www.youtube.com/watch?v=PhVNvDZIerM)
+-   [Un modo per generare file pdf-3D interattivi. (3/3) (Da FreeCAD, Asymptote e LaTeX)](https://www.youtube.com/watch?v=Q_ufaCN2hb4)
 
 
 {{Mesh Tools navi

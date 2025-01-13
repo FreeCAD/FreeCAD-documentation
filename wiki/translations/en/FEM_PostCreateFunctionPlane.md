@@ -29,8 +29,8 @@ If the Plane object in the [3D view](3D_view.md) is hidden, select the <img alt=
 
 #### Move the plane 
 
--   Click and drag the big white cuboid to move the plane along its normal vector.
--   Click and drag the white grid .
+-   Click and drag the big white cuboid to move the plane along its normal vector. Hover the cursor over the manipulator (without clicking) and press **Ctrl** to change the orientation of this axis translator.
+-   Click and drag the white grid.
 
 #### Rotate and tilt the plane 
 

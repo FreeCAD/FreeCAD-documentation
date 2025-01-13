@@ -4,7 +4,7 @@
    Name/pl: Szkicownik: 
    MenuLocation: Szkic , Wygląd w szkicowniku , Pokaż / ukryj okrąg pomocniczy dla łuków
    Workbenches: Sketcher_Workbench/pl
-   Version: 0.22
+   Version: 1.0
 ---
 
 # Sketcher ArcOverlay/pl
@@ -25,7 +25,7 @@ Narzędzie <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:24px;"> 
 
 ## Użycie
 
-1.  Polecenie można wywołać na kilka sposobów:
+1.  Narzędzie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Sketcher_ArcOverlay.svg" width=16px> '''Pokaż / ukryj okrąg pomocniczy dla łuków'''**.
     -   Wybierz z menu opcję **Szkic → Wygląd w szkicowniku → <img src="images/Sketcher_ArcOverlay.svg" width=16px> Pokaż / ukryj okrąg pomocniczy dla łuków**.
 

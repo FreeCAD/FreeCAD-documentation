@@ -1,12 +1,4 @@
 # Scripting and macros/pt-br
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
 ## Overview of Python scripting pages 
 
 -   Python related pages in the Manual:

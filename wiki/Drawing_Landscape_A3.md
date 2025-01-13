@@ -14,7 +14,7 @@ If the page does not display, click on the <img alt="" src=images/view-refresh.p
 
 ### Options
 
--   The template used by a Page can be changed through its Template property in Data view. Click on the value field, then on the \"\...\" button and navigate to a [suitable template](Drawing_templates.md). Then refresh the view.
+-   The template used by a Page can be changed through its Template property in Data view. Click on the value field, then on the \"\...\" button and navigate to a suitable template. Then refresh the view.
 
 
 {{docnav|[Open scalable vector graphic](Drawing_Open_SVG.md)|[Insert a view](Drawing_View.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Drawing_Open_SVG.png|IconC=Workbench_Drawing.svg|IconR=Drawing_View.png}}

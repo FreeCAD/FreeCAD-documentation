@@ -11,35 +11,53 @@
 # Sketcher ConstrainHorizontal/ru
 
 
+</div>
+
+
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Горизонтальное ограничение заставляет выбранную линию или линии в эскизе быть параллельными горизонтальной оси эскиза.
+
+
+</div>
+
+
+<small>(v1.0)</small> 
+
+: In most cases it is advisable to use the combined [Sketcher ConstrainHorVer](Sketcher_ConstrainHorVer.md) tool instead.
 
 
 
 ## Применение
 
-<img alt="" src=images/HorizontalConstraint1.png  style="width:500px;"> 
-*Выберите отрезок на эскизе, кликнув по нему.*
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-<img alt="" src=images/HorizontalConstraint2.png  style="width:500px;"> 
-*Линия становится тёмно-зелёной.*
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/HorizontalConstraint3.png  style="width:500px;"> 
-*Примените Horizontal Constraint, кликнув иконку Horizontal Constraint [<img src=images/Constraint_Horizontal.svg style="width:16px"> на панели инструментов Sketcher Constraints или выбрав  пункт меню Constrain horizontally в подменю Sketcher constraints меню Sketcher верстака Sketcher (или меню Part Design верстака Part Design). Выделенная линия ограничится быть параллельной горизонтальной линии эскиза.*
+<img alt="" src=images/HorizontalConstraint1.png  style="width:500px;"> 
+*Выберите отрезок на эскизе, кликнув по нему.*
 
 
 </div>
 
-<img alt="" src=images/HorizontalConstraint4.png  style="width:500px;"> 
-*Можно выбрать несколько линий*
+### Run-once mode 
 
-<img alt="" src=images/HorizontalConstraint5.png  style="width:500px;"> 
-*и затем, применив к ним ограничение, как описано выше, они будут всегда оставаться параллельными горизонтальной оси эскиза.*
+1.  Do one of the following:
+    -   Select two or more points.
+    -   Select one or more lines. Points can be included in the selection, but will be ignored.
+2.  Invoke the tool as explained above, or with the following additional option:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ConstrainHorizontal.svg" width=16px> Constrain horizontal** option from the context menu.
+3.  Depending on the selection one or more constraints are added.
 
 
 

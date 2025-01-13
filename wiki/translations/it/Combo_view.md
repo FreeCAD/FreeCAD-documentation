@@ -1,60 +1,37 @@
 # Combo view/it
 ## Introduzione
 
-La [vista combinata](combo_view/it.md) è uno dei pannelli principali nell\'interfaccia di FreeCAD. Di default si trova sul lato sinistro dello schermo. È composta da due parti:
+La [Vista combinata](Combo_view/it.md) appare in un pannello chiamato **Modello**. Combina la [Vista ad albero](Tree_view/it.md) (sezione superiore) e l\'[Editor proprietà](Property_editor/it.md) (sezione inferiore).
 
--   la [parte superiore](Combo_view/it#Sezione_superiore.md) che contiene due schede: **Modello** e **Azioni**
--   la [parte inferiore](Combo_view/it#Sezione_inferiore.md) che mostra l\'[editor delle proprietà](property_editor/it.md). Essa contiene due schede: le proprietà **Vista** e **Dati**. L\'[editor delle proprietà](property_editor/it.md) viene visualizzato solo quando è attiva la scheda **Modello**, ovvero quando è visibile la [vista ad albero](tree_view/it.md).
+Il [Pannello Azioni](Task_panel/it.md), che faceva parte della Vista Combinata, è un pannello separato chiamato **Azioni** in {{VersionPlus/it|1.0}}. Può essere [ancorato](#Ancorare_il_Pannello_delle_azioni_nella_parte_superiore_della_Vista_combinata.md) sopra la Vista Combinata per ottenere il layout compatto delle versioni precedenti.
 
-
-**Nota.**
-
-Inizialmente la parte superiore (la [vista ad albero](tree_view/it.md)) era separata dalla parte inferiore (l\'[editor delle proprietà](property_editor/it.md)) ma poi sono state combinate e quindi è stata creata la vista \"combinata\".
-
-## Sezione superiore 
-
-La scheda **Modello** mostra la [vista ad albero](tree_view/it.md), che è una rappresentazione del contenuto del documento, inclusa la geometria 2D e 3D con la loro cronologia parametrica, ma supporta anche oggetti che contengono i dati salvati nel documento.
-
-La scheda **Azioni** contiene il [pannello delle azioni](task_panel/it.md), che mostra diverse azioni a seconda dell\'ambiente di lavoro attivo e dello strumento attivo.
-
-<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="600px;">
+![](images/Combo_View_Example.png ) 
+*La Vista combinata (scheda Modello) con il Pannello Azioni ancorato (scheda Azioni)*
 
 
 
-*La vista combinata ha due schede: la scheda Modello che mostra e controlla la [vista ad albero](tree_view/it.md) e l'[editor delle proprietà](property_editor/it.md), e la scheda Azioni che mostra e controlla il [pannello delle azioni](task_panel/it.md).*
+## Ancorare il Pannello delle azioni nella parte superiore della Vista combinata 
 
-## Sezione inferiore 
-
-La parte inferiore della vista combinata mostra l\'[editor delle proprietà](property_editor/it.md), che contien due schede per le proprietà **Vista** e **Dati**. L\'editor delle proprietà viene visualizzato solo quando la scheda **Modello** è attiva, ovvero quando la [vista ad albero](tree_view/it.md) è visibile.
-
--   La scheda **Vista** mostra le proprietà di visualizzazione degli oggetti, che influiscono solo sul loro aspetto nella [vista 3D](3D_view/it.md).
-
--   La scheda **Dati** mostra le proprietà parametriche degli oggetti, quelle che definiscono le forme geometriche.
-
-<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width:" height="600px;">
+1.  Assicurarsi che la Vista combinata sia ancorata lungo un bordo della finestra di FreeCAD.
+2.  Spostare il cursore nella parte superiore del pannello Azioni.
+3.  La freccia diventa una mano.
+4.  Tenere premuto il pulsante sinistro del mouse e trascinare il pannello Azioni nella parte superiore della Vista combinata.
+5.  Spostarsi verticalmente finché non vengono evidenziate sia la sezione superiore che quella inferiore della Vista combinata.
+    <img alt="" src=images/Tasks_Dockable.png  style="width:200px;">
+6.  Rilasciare il pulsante del mouse.
 
 
 
-*La parte inferiore della vista combinata è l'editor delle proprietà, che mostra le proprietà Vista e Dati.*
+## Preferenze
 
-## Disabilitazione della vista combinata 
+Vedere anche: [Editor delle Preferenze](Preferences_Editor/it.md).
 
-Per utilizzare questi pannelli in modo indipendente, utilizzare l\'[editor dei parametri](Std_DlgParameter/it.md). Creare i seguenti sottogruppi se non esistono
-
--    `BaseApp/Preferences/DockWindows/TreeView`
-    
-
--    `BaseApp/Preferences/DockWindows/PropertyView`
-    
-
-quindi aggiungere il parametro `Enabled` di tipo `Boolean`, e impostarlo su `True`.
-
-Quindi attivare la vista utilizzando il menu **Visualizza → Pannelli → Struttura** o **→ Proprietà**.
+La Vista combinata è disponibile se **Modifica → Preferenze... → Generale → Generale → Modalità di visualizzazione ad albero** è impostato su {{Value|Combinata}}. Se è impostato su {{Value|Indipendente}} la Vista ad albero e l\'Editor delle proprietà vengono visualizzati come pannelli separati.
 
 
-{{Std Base navi
+{{Interface_navi
 
-}} {{Interface navi}}
+}} {{Std_Base_navi}}
 
 
 

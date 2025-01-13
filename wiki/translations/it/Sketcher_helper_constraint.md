@@ -1,5 +1,5 @@
 # Sketcher helper constraint/it
-## Introduzione
+## Panoramica
 
 <img alt="Esempio di vincolo di supporto (il Constraint5 - punto su cerchio) per un vincolo di tangenza (il Constraint6 nel modo \"tangenza in un punto\"). In questo caso viene usato un solo vincolo di supporto, poiché il punto di tangenza è il punto finale del diametro maggiore dell\'ellisse, che si trova intrinsecamente sull\'ellisse." src=images/Sketcher_helper_constraint_example1.png ). In questo caso viene usato un solo vincolo di supporto, poiché il punto di tangenza è il punto finale del diametro maggiore dell'ellisse, che si trova intrinsecamente sull'ellisse." style="width:500px;">
 
@@ -11,33 +11,39 @@ Se manca un vincolo di supporto, e le condizioni richieste non sono soddisfatte 
 
 Attualmente, i vincoli di supporto sono necessari per i seguenti vincoli:
 
--   [Tangente](Sketcher_ConstrainTangent/it.md) nel modo \"tangenza in un punto\" sono necessari due vincoli \"punto su oggetto\"
--   [Perpendicolare](Sketcher_ConstrainPerpendicular/it.md) nel modo \"perpendicolare in un punto\" sono necessari due vincoli \"punto su oggetto\"
--   [Angolo](Sketcher_ConstrainAngle/it.md) nel modo \"angolo in un punto\" sono necessari due vincoli \"punto su oggetto\"
--   [Rifrazione](Sketcher_ConstrainSnellsLaw/it.md) sono necessari un vincolo \"coincidenza\" e un vincolo \"punto su oggetto\"
+-   [Vincolo tangente o collineare](Sketcher_ConstrainTangent/it.md) nel modo \"tangenza in un punto\" sono necessari due vincoli \"Punto su oggetto\"
+-   [Vincolo perpendicolare](Sketcher_ConstrainPerpendicular/it.md) nel modo \"perpendicolare in un punto\" sono necessari due vincoli \"Punto su oggetto\"
+-   [Vincolo angolare](Sketcher_ConstrainAngle/it.md) nel modo \"angolo in un punto\" sono necessari due vincoli \"Punto su oggetto\"
+-   [Vincolo rifrazione (Legge di Snell)](Sketcher_ConstrainSnellsLaw/it.md) sono necessari un vincolo \"Coincidenza\" e un vincolo \"Punto su oggetto\"
+
+
 
 ## Script
 
-Quando i vincoli che richiedono dei supporti sono aggiunti tramite gli script Python, i vincoli di supporto non vengono aggiunti automaticamente. In uno script si può replicare la decisione presa automaticamente dai comandi della UI testando le seguenti funzioni, che sono state aggiunte specificamente per questo scopo e che sono usate nelle routine dell\'interfaccia: 
+Quando i vincoli che richiedono dei supporti sono aggiunti tramite gli script Python, i vincoli di supporto non vengono aggiunti automaticamente. In uno script si può replicare la decisione presa automaticamente dai comandi della UI testando le seguenti funzioni, che sono state aggiunte specificamente per questo scopo e che sono usate nelle routine dell\'interfaccia:
+
+
 ```python
 Sketch.isPointOnCurve(icurve,x,y)
-``` isPointOnCurve verifica se un punto virtuale, dato dalle coordinate x,y (virgola mobile) dello schizzo, è idoneo per soddisfare un virtuale vincolo di punto su oggetto - cioè si trova sulla curva specificata dalla curva di indice icurve. Restituisce True se il punto è sulla curva, e False se non lo è.
+```
+
+
+{{Incode|isPointOnCurve}}
+
+verifica se un punto virtuale, dato dalle coordinate {{Incode|x,y}} (virgola mobile) dello schizzo, è idoneo per soddisfare un virtuale vincolo di punto su oggetto - cioè si trova sulla curva specificata dalla curva di indice {{Incode|icurve}}. Restituisce True se il punto è sulla curva, e False se non lo è.
 
 
 ```python
 Sketch.calculateConstraintError(iconstr)
 ```
 
-calculateConstraintError valuta una funzione di errore di un vincolo specificato dal suo indice iconstr nello schizzo. Se nel vincolo vi è una sola funzione di errore, il valore restituito è il valore restituito firmato della funzione di errore. Se al vincolo è associata più di una funzione di errore (cioè il vincolo rimuove più di un grado di libertà), il valore restituito è la radice della media del quadrato (RMS) di tutte le funzioni di errore (sempre positivo).
+
+{{Incode|calculateConstraintError}}
+
+valuta una funzione di errore di un vincolo specificato dal suo indice {{Incode|iconstr}} nello schizzo. Se nel vincolo vi è una sola funzione di errore, il valore restituito è il valore restituito firmato della funzione di errore. Se al vincolo è associata più di una funzione di errore (cioè il vincolo rimuove più di un grado di libertà), il valore restituito è la radice della media del quadrato (RMS) di tutte le funzioni di errore (sempre positivo).
 
 
-
-## Versione
-
-I vincoli di supporto sono stati introdotti nella versione 0.15.4387
-
-
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

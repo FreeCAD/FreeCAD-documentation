@@ -3,10 +3,10 @@
 |Name= Macro Connect And Sweep
 |Translate=Collega con Sweep
 |Icon=Macro_Connect_And_Sweep.png
-|Description={{ColoredText|#ff0000|#ffffff|La nuova GUI della nuova versione modificata per lo HD dpi (QGridLayout) esegue solo FC versione 0.18 e successive.}} <br/> <br/>  Questa macro crea facilmente una connessione tra due oggetti, un oggetto e un punto o tra due punti (il centro degli oggetti sono i punti iniziale e finale dello sweep) possono essere selezionati da un cerchio poligonale di ellisse configurabile. E disponibile una funzione di discretizzazione per creare punto di riferimento configurabili per tagliare linee in sezione o tagliare con una dimensione.<br/>È disponibile una funzione di discretizzazione per creare punti marker configurabili per il taglio di linee in sezione o il taglio con una quota sul punto viene creato per tutte le coordinate. <br/> Una funzione di faccia o filo duplicata da utilizzare con l'operazione Sweep e Loft.<br/>Operazione Sweep e Loft direttamente con la macro.<br/>Centraggio su la faccia
+|Description={{ColoredText|#ff0000|#ffffff|La nuova GUI della nuova versione modificata per lo HD dpi (QGridLayout) esegue solo FC versione 0.18 e successive.}} <br/> <br/>  Questa macro crea facilmente una connessione tra due oggetti, un oggetto e un punto o tra due punti (il centro degli oggetti sono i punti iniziale e finale dello sweep) possono essere selezionati da un cerchio poligonale di ellisse configurabile.<br/>È disponibile una funzione di discretizzazione per creare punti marker configurabili per il taglio di linee in sezione o il taglio con una quota sul punto viene creato per tutte le coordinate. <br/> Una funzione di faccia o filo duplicata da utilizzare con l'operazione Sweep e Loft.<br/>Operazione Sweep e Loft direttamente con la macro.<br/>Centraggio sulla faccia
 |Author=Mario52
-|Version=0.12
-|Date=2020-07-05
+|Version=0.13
+|Date=2024-07-21
 |FCVersion=0.18 e più
 |Download=[https://www.freecadweb.org/wiki/images/c/c9/Macro_Connect_And_Sweep.png ToolBar Icon]
 }}
@@ -19,7 +19,7 @@ Una funzione di faccia o filo duplicata da utilizzare con l\'operazione Sweep e 
 Operazione Sweep e Loft direttamente con la macro.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/5717e333a7df104d461a495e8e1f5de75ead41b9/Macro_Connect_And_Sweep.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/984cd58c1d64dd391062025cfa82a698c7268e66/Macro_Connect_And_Sweep.FCMacro}}
 
 <img alt="" src=images/Macro_Connect_And_Sweep_00.png  style="width:640px;"> 
 *Macro_Connect_And_Sweep*
@@ -114,7 +114,9 @@ Creare un percorso e una tubazione con la Macro Connect And Sweep e la [Macro Re
 
 </center>
 
-==Esempio animato==
+
+
+## Esempio animato 
 
 
 
@@ -168,9 +170,13 @@ Rileva errore nella selezione del modo scelto, se viene creato un errore di sele
 
 
 
+
+
 ## Versione
 
-ver 0.12 2020/07/05 : include gli icona dentro la macro
+ver 0.13 2024/07/24 : eliminato webGui e sostituito con webbrowser
+
+ver 0.12 2020/07/05 : include le icone dentro il codice sorgente
 
 ver 00.11b 2020-02-22 : aggiunto di uno test \"try: except\" al testo FreeCAD version
 

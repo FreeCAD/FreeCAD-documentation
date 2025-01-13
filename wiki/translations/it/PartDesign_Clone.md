@@ -13,12 +13,16 @@
 
 </div>
 
+
+
 ## Descrizione
 
 **PartDesign Clone** crea una copia collegata di un oggetto selezionato che seguirà eventuali modifiche future all\'oggetto originale (tranne il posizionamento). Ad esempio, un caso d\'uso è quando si desidera eseguire una [operazione booleana](PartDesign_Boolean/it.md) su un oggetto creato in un altro ambiente. Sono accettati la maggior parte di tipi di oggetti, purché siano solidi singoli. Se si devono clonare più oggetti (ad es. dei Corpi) o un [Contenitore di Part](Std_Part/it.md), si può usare il [Clone di Draft](Draft_Clone/it.md). Notare che Part Design imposta il posizionamento del clone su zero (sia la traslazione cartesiana che gli orientamenti spaziali), mentre Draft calcola e imposta i valori numerici del posizionamento e dell\'orientamento correnti degli oggetti clonati rispetto al contenitore degli oggetti clonati.
 
 ![*Clone of the inner gear while being translated in 3D space as an independent object*](images/clone.png ) 
 *Clone dell'ingranaggio interno mentre viene traslato nello spazio 3D come oggetto indipendente*
+
+
 
 ## Utilizzo
 
@@ -30,6 +34,8 @@
 
 
 </div>
+
+
 
 ## Proprietà
 
@@ -44,6 +50,8 @@
 
 
 </div>
+
+
 
 ## Limitazioni
 

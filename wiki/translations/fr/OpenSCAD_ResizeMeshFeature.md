@@ -12,17 +12,21 @@
 
 Crée un nouvel objet maillé redimensionné avec un dimensionnement indépendant pour chaque axe.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'objet maillé à mettre en miroir.
 2.  Cliquez sur le menu **OpenSCAD** → **<img src="images/OpenSCAD_ResizeMeshFeature.svg" width=24px> Redimensionner le maillage**.
-3.  Sélectionnez l\'axe souhaité dans la boîte de dialogue ou entrez votre propre axe personnalisé à utiliser et cliquez sur OK.
+3.  Sélectionnez l\'axe souhaité dans la fenêtre de dialogue ou entrez votre propre axe personnalisé à utiliser et cliquez sur OK.
 
 -   Un nouvel objet est créé et redimensionné, l\'objet d\'origine est masqué.
 
 ## Limitations
 
 -   Le nouvel objet maillé n\'est pas paramétrique par rapport à l\'objet maillé d\'origine, ce qui signifie que les modifications apportées à l\'objet d\'origine ne sont pas reflétées dans le nouvel objet en miroir.
+
+
 
 ## Remarques
 

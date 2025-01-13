@@ -10,12 +10,16 @@
 
 # Std ViewRight/it
 
+
+
 ## Descrizione
 
 Il comando **Vista da destra** orienta la fotocamera della [Vista 3D](3D_view/it.md) che guarda da destra verso sinistra, nella direzione dell\'asse X negativo.
 
 ![](images/FreeCAD_views_front.svg ) 
 *La freccia 3 punta nella direzione della vista destra.*
+
+
 
 ## Utilizzo
 
@@ -25,28 +29,17 @@ Il comando **Vista da destra** orienta la fotocamera della [Vista 3D](3D_view/it
     -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewRight.svg" width=16px> Da destra** dal menu contestuale della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **3**.
 
+
+
 ## Script
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
-
-Per passare alla vista da destra usare il metodo `viewRight` dell\'oggetto ActiveView. Questo metodo non è disponibile se FreeCAD è in modalità console.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.viewRight()
-FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
-```
+Vedere [Vista frontale](Std_ViewFront/it#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

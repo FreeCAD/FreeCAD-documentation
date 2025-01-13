@@ -1,20 +1,19 @@
 ---
- GuiCommand:Addon/fr
+ GuiCommand:
    Name: BIM IfcQuantities
-   Name/fr: BIM Quantité IFC
-   Workbenches: Image:IFC.svg BIM Workbench/fr
-   Addon: BIM
-   MenuLocation: Manage , IFC Quantities
-   SeeAlso: BIM IfcElements/fr,BIM IfcProperties/fr
+   Name/fr: BIM Quantités IFC
+   Workbenches: BIM Workbench/fr
+   MenuLocation: Gestion , Gérer les quantités IFC...
 ---
 
 # BIM IfcQuantities/fr
 
 ## Description
 
-<img alt="" src=images/BIM_ifcquantities_screenshot.png  style="width:1024px;">
+L\'outil **Quantités IFC** vous permet de vérifier les **quantités explicites** attachées aux objets à exporter au format IFC.
 
-Le gestionnaire de quantités IFC vous permet de vérifier les **quantités explicites** attachées aux objets à exporter au format IFC.
+<img alt="" src=images/BIM_ifcquantities_screenshot.png  style="width:600px;"> 
+*Gestionnaire de quantités IFC*
 
 Le format IFC permet d\'inclure, pour tout objet, des quantités explicites, qui peuvent être des choses comme \"Width\" ou \"Height\" ou \"Area\" (\"Largeur\" ou \"Hauteur\" ou \"Surface\"). Il n\'y a pas de norme qui définit quel type d\'objet doit inclure quel type de quantité et il n\'y a également aucune garantie que ces quantités explicites reflètent réellement la géométrie de l\'objet. En d\'autres termes, ces quantités peuvent avoir des valeurs erronées ou même mentir. Un mur pourrait avoir sa géométrie comme un cube d\'une longueur de 10 mètres mais avoir une quantité \"Length\" attachée de 8 mètres.
 
@@ -26,5 +25,13 @@ Vous pouvez également utiliser le gestionnaire de quantités pour modifier ou f
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > BIM IfcQuantities/fr
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcQuantities/fr

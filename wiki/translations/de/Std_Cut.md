@@ -12,9 +12,9 @@
 
 ## Beschreibung
 
-Der **Ausschneiden**-Befehl ist eingeschränkt: Er kann nur für [Tabellenkalkulation](Spreadsheet_Workbench/de.md)-Zellen benutzt werden. Der Befehl kopiert Inhalt und Eigenschaften von Zellen in die Zwischenablage und löscht sie dann.
+Der Befehl **Std Ausschneiden** ist eingeschränkt: Er kann nur für Zellen in [Kalkulationstabellen](Spreadsheet_Workbench/de.md) verwendet werden. Der Befehl kopiert Inhalt und Eigenschaften von Zellen in die Zwischenablage und löscht sie dann.
 
-Um andere Objekte auszuschneiden, kannst du den [Std Kopieren](Std_Copy/de.md)-Befehl benutzen, gefolgt von einer Lösch-Operation.
+Um andere Objekte auszuschneiden, kannst der Befehl [Std Kopieren](Std_Copy/de.md) eingesetzt werden, gefolgt von einer Lösch-Operation.
 
 
 
@@ -29,13 +29,13 @@ Um andere Objekte auszuschneiden, kannst du den [Std Kopieren](Std_Copy/de.md)-B
 
 ## Hinweise
 
--   Das Standard-Tastaturkürzel **Strg**+**X** ruft nicht den **Std Ausschneiden**-Befehl auf, sondern benutzt stattdessen die Ausschneiden-Funktion des Betriebssystems. Du kannst dieses Tastaturkürzel in den meisten FreeCAD-Textfenstern und Eingabefelders verwenden, es funktioniert auch für Tabellenkalkulationszellen.
+-   Das Standard-Tastaturkürzel **Strg**+**X** ruft nicht diesen Befehl auf, sondern benutzt stattdessen die Ausschneiden-Funktion des Betriebssystems. Dieses Tastaturkürzel kann in den meisten FreeCAD-Textfenstern und Eingabefeldern verwendet werden; es funktioniert auch für Zellen in Kalkulationstabellen.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

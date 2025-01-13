@@ -13,11 +13,11 @@ L\'atelier <img alt="" src=images/FrontISTR.svg  style="width:24px;"> FEM FrontI
 
 ### Déroulement des tâches 
 
-1.  Configurer un modèle d\'analyse par l\'atelier FEM (de la même manière que calculiX).
+1.  Configurer un modèle d\'analyse avec l\'atelier FEM (de la même manière que CalculiX).
 2.  Passer à l\'atelier **FrontISTR** et créer un objet solveur FrontISTR en cliquant sur le bouton de la barre d\'outils <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;">.
-3.  Double-cliquez sur l\'objet solveur dans l\'arbre du document et définissez le répertoire de travail.
-4.  Cliquez sur le bouton **Write input file**.
-5.  Cliquez sur le bouton **Exécuter FrontISTR**.
+3.  Double-cliquer sur l\'objet solveur dans l\'arborescence du document et définir le répertoire de travail.
+4.  Cliquer sur le bouton **Write input file**.
+5.  Cliquer sur le bouton **Run FrontISTR**.
 6.  Vérifier les résultats FISTR_Results pour le post-traitement.
 
 
@@ -28,21 +28,21 @@ L\'atelier <img alt="" src=images/FrontISTR.svg  style="width:24px;"> FEM FrontI
 -   Analyse géométrique linéaire et non linéaire
 -   Eléments : tétraèdre du 1er/2ème ordre
 -   Charges : mécaniques concentrées et réparties, gravité
--   Frontières : points fixes ou déplacement
+-   Limites : points fixes ou déplacement
 -   Contrôle des étapes : incrémentation et réduction automatiques du temps.
 -   Solveur d\'équations linéaires
     -   itératif
         -   préconditionneur : AMG, SSOR, Diagonal, ILU(k)(k=0,1,2)
         -   méthode : CG, BiCGSTAB, GMRES, GPBiCG
     -   direct : MUMPS
--   Format du fichier de sortie : AVS, VTK (paraview requis)
+-   Format du fichier de sortie : AVS, VTK (ParaView est requis)
 
 
 
 ### Fonctions prévues à l\'avenir 
 
--   Analyse : transfert thermique, dynamique, propre, fréquence
--   Matériaux (mécanique) : élastoplastique, hyper élastique, fluage, visco élastique.
+-   Analyse : transfert thermique, dynamique, fréquence propre
+-   Matériaux (mécanique) : élastoplastique, hyperélastique, fluage, viscoélastique
 -   Contact
 -   MPC(TIE)
 -   Eléments : prisme, hexa, poutre, coque, treillis, etc.
@@ -51,9 +51,9 @@ L\'atelier <img alt="" src=images/FrontISTR.svg  style="width:24px;"> FEM FrontI
 
 ### Limitations
 
--   FISTR_Results ne contient que les résultats pour les surfaces. Si vous avez besoin des résultats intérieurs, changez le format du fichier de sortie en VTK et visualisez les résultats avec paraview.
--   Le banc d\'essai FEM FrontISTR ne supporte pas encore les analyses thermiques. FISTR lui-même peut effectuer des analyses thermiques et le support pour ceci est prévu dans un futur proche.
--   Les analyses mécaniques pour différents matériaux dans un modèle ne sont pas encore possibles.
+-   FISTR_Results ne contient que les résultats pour les surfaces. Si vous avez besoin des résultats pour l\'intérieur, changez le format de fichier de sortie en VTK et visualisez les résultats avec ParaView.
+-   L\'atelier FEM FrontISTR ne supporte pas encore les analyses thermiques. FISTR lui-même peut effectuer des analyses thermiques et ce support est prévu dans un futur proche.
+-   Les analyses mécaniques avec différents matériaux dans le modèle ne sont pas encore possibles.
 
 
 
@@ -67,20 +67,20 @@ Voir <https://github.com/FrontISTR/FEM_FrontISTR/tree/master/sample/benchmarks>.
 
 ### Gestionnaire des extensions 
 
-FEM_FrontISTR peut facilement être installé via le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) à partir du menu **Outils → Gestionnaire des extensions**. FEM_FrontISTR est en cours de développement actif et reçoit de nouvelles fonctionnalités fréquemment. Vous devez donc le mettre à jour régulièrement en utilisant également le menu **Outils → Gestionnaire des extensions**. Le code de FEM_FrontISTR est hébergé et développé [sur GitHub](https://github.com/FrontISTR/FEM_FrontISTR).
+FEM_FrontISTR peut facilement être installé via le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md) à partir du menu **Outils → Gestionnaire des extensions**. FEM_FrontISTR est en cours de développement actif et reçoit de nouvelles fonctionnalités fréquemment. Vous devez donc le mettre à jour régulièrement en utilisant le menu **Outils → Gestionnaire des extensions**. Le code de FEM_FrontISTR est hébergé et développé sur [GitHub](https://github.com/FrontISTR/FEM_FrontISTR).
 
 
 
 ### Manuellement
 
-Voir [Comment installer des ateliers supplémentaires](How_to_install_additional_workbenches/fr.md)
+Voir [Comment installer des ateliers supplémentaires](How_to_install_additional_workbenches/fr.md).
 
 
 
 ### Prérequis
 
 -   FreeCAD v0.19 ou plus récent
--   [Paraview](https://www.paraview.org/) (optionnel)
+-   [ParaView](https://www.paraview.org/) (optionnel)
 
 
 

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -17,7 +19,7 @@ Tento nástroj Vám umožní stavět strukturované prvky jako jsou sloupy nebo 
 
 If no profile is given, a set of presets are available to quickly build a structural element from a predefined standard profile.
 
-![](images/Arch_Structure_example.jpg )
+<img alt="" src=images/Arch_Structure_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -26,6 +28,8 @@ Obrázek nahoře zobrazuje sloup založený na 2D profilu, sloup a příčník z
 
 
 </div>
+
+
 
 ## Použití
 
@@ -40,6 +44,8 @@ Obrázek nahoře zobrazuje sloup založený na 2D profilu, sloup a příčník z
 
 </div>
 
+
+
 ## Volby
 
 
@@ -53,6 +59,8 @@ Obrázek nahoře zobrazuje sloup založený na 2D profilu, sloup a příčník z
 
 
 </div>
+
+
 
 ## Vlastnosti
 
@@ -99,7 +107,7 @@ Structural objects also have the ability to display structural nodes. Structural
 
 -   Nodes are calculated and updated automatically, as long as you don\'t modify them manually. If you did, they won\'t be updated if the shape of the structural object changes, unless you use the \"Reset nodes\" tool below.
 -   Arch structures can have not only linear nodes, but also planar nodes. For this, 1- There must be at least 3 vectors in the \"Nodes\" property of the object, 2- the \"NodesType\" property of their ViewObject must be set to \"Area\".
--   When the nodes calculation is automatic (that is, if you never touched them manually), when setting the Role property of a structure to \"Slab\", it will automatically become a planar node (there will be more than 3 vectors and the NodesType will be set to \"Area\").
+-   When the nodes calculation is automatic (that is, if you never touched them manually), when setting the \"Role\" property of a structure to \"Slab\", it will automatically become a planar node (there will be more than 3 vectors and the NodesType will be set to \"Area\").
 -   When editing a structure object (double-click), a couple of node tools are available in the task view:
     -   Reset the nodes to automatic calculation, in case you modified them manually
     -   Edit the nodes graphically, works the same way as [Draft Edit](Draft_Edit.md)
@@ -127,8 +135,8 @@ Nástroj Struktura může být využit v [makrech](macros.md) a z konzoly Python
 
 
 ```python
-Structure = makeStructure(baseobj=None, height=None)
-Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
+structure = makeStructure(baseobj=None, height=None)
+structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
 ```
 
 
@@ -140,16 +148,18 @@ Structure = makeStructure(baseobj=None, length=None, width=None, height=None, na
 
 </div>
 
-Příklad: 
+Příklad:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
-Rect = Draft.makeRectangle(200, 300)
-Structure1 = Arch.makeStructure(Rect, height=2000)
+rect = Draft.make_rectangle(200, 300)
+structure1 = Arch.makeStructure(rect, height=2000)
 FreeCAD.ActiveDocument.recompute()
 
-Structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
-Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
+structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
+Draft.move(structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
 
@@ -163,6 +173,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/cs
+⏵ [documentation index](../README.md) > Arch Structure/cs

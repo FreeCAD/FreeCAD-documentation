@@ -1,5 +1,5 @@
 # Category:Image/tr
-Bu kategori **Görüntülerin** üst kategorisidir. Herhangi bir dosya içermemeli sadece alt kategoriler bulunmalıdır.
+This category is for pages related to the [Image Workbench/tr](Image_Workbench/tr.md).
 
 ### Contents
 

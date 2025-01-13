@@ -29,7 +29,7 @@ Ta operacja jest używana do usunięcia linku z kontenera, takiego jak **[<img s
 2.  Wybierz wewnętrzne Łącze w [widoku drzewa](Tree_view/pl.md).
 3.  Naciśnij **[<img src=images/Std_LinkUnlink.svg style="width:16px"> [Usuń powiązanie](Std_LinkUnlink/pl.md)**.
 
-Oryginalna <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [sfera](Part_Sphere/pl.md) musi teraz znajdować się wewnątrz **[<img src=images/Std_Part.svg style="width:16px"> [Części](Std_Part/pl.md)**, a Łącze musi znajdować się na zewnątrz. Teraz to łącze można usunąć, jeśli nie jest już potrzebne, i nie spowoduje to uszkodzenia kontenera.
+Oryginalna <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [sfera](Part_Sphere/pl.md) musi teraz znajdować się wewnątrz **[<img src=images/Std_Part.svg style="width:16px"> [Części](Std_Part/pl.md)**, a Łącze musi znajdować się na zewnątrz. Teraz to łącze można usunąć, jeśli nie jest już potrzebne, i nie spowoduje to uszkodzenia kontenera.
 
 ![](images/Std_Link_tree_replace_1_example.png ) ![](images/Std_Link_tree_unlink_1_example.png )
 

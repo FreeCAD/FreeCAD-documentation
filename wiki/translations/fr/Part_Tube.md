@@ -26,7 +26,7 @@ La commande <img alt="" src=images/Part_Tube.svg  style="width:24px;"> **Part Tu
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Part_Tube.svg" width=16px> [Tube](Part_Tube/fr.md)**.
-    -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Tube.svg" width=16px> Tube** dans le menu.
+    -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Tube.svg" width=16px> Tube** du menu.
 2.  Le panneau de tâches **Tube** s\'ouvre et un aperçu du tube s\'affiche dans la [vue 3D](3D_view/fr.md).
 3.  Spécifiez les dimensions.
 4.  L\'aperçu est mis à jour dynamiquement.

@@ -9,9 +9,13 @@
 
 # Std SaveAs/ru
 
+
+
 ## Описание
 
 Команда **Сохранить как\...** позволяет сохранить текущий активный документ под другим названием.
+
+
 
 ## Применение
 
@@ -19,26 +23,23 @@
 2.  Введите имя файла в появившемся окне.
 3.  Нажмите кнопку **Сохранить**.
 
+
+
 ## Опции
 
 -   Нажмите **Esc** или кнопку **Отмена**, чтобы прервать выполнение команды.
+
+
 
 ## Примечания
 
 -   This command can also be used to save dependency graphs. See [Std DependencyGraph](Std_DependencyGraph.md).
 
-## Настройки
 
--   Путь к последнему файлу к которому была применена данная команда сохраняется в параметр: **Инструменты → Редактор параметров... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Программирование
 
-
-**Смотрите так же:**
-
-[Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
-
-To save a document under a new name use the `saveAs` method of the document object. For a scripting example see [Std New](Std_New.md).
+See [Std New](Std_New#Scripting.md).
 
 
 

@@ -108,7 +108,7 @@ Jeden pakiet nie jest zgodny z tym wzorcem: `femsolver`. Ma on swoje miejsce na 
 
 W FreeCAD solwer można podzielić na dwie części:
 
--   Jedna to obiekt dokumentu używany przez użytkownika do interakcji z solwerem. Chociaż można ustawić parametr solwera i jest on również używany do kontrolowania procesu rozwiązywania.
+-   Jedna to obiekt dokumentu używany przez użytkownika do interakcji z solwerem. Można poprzez niego ustawić parametry solwera i jest on również używany do kontrolowania procesu rozwiązywania.
 -   Druga część to tak zwane zadania solwera. Proces rozwiązywania jest podzielony na te zadania, a mianowicie: *sprawdź, przygotuj, rozwiąż i wyniki*. Zadania te wykonują rzeczywistą pracę polegającą na wyeksportowaniu analizy do formatu rozumianego przez plik wykonywalny solwera, uruchomieniu pliku wykonywalnego i załadowaniu wyników z powrotem do FreeCAD.
 
 Większość plików związanych z solwerem znajduje się w pakiecie podrzędnym pakietu `femsolver` *(np. dla Elmera w `femsolver/elmer`)*. Poniższa lista wylicza wszystkie pliki związane z implementacją solwera. Są to pliki, które należy skopiować i zmodyfikować, aby dodać obsługę nowego solwera do FreeCAD. Podany przykład pochodzi z implementacji solwera Elmer.

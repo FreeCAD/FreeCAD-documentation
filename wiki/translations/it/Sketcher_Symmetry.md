@@ -28,6 +28,8 @@ Specchia la geometria dello schizzo rispetto a una linea scelta o all\'asse dell
 
 ## Utilizzo
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
 
 <div class="mw-translate-fuzzy">
 

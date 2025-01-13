@@ -4,8 +4,8 @@
 |Icon=Intersection_Icon.svg
 |Description=Finds the intersection between 2 or 3 selected edges / faces. 
 |Author=TheMarkster
-|Version=2023.09.09
-|Date=2022-09-09
+|Version=2024.10.17
+|Date=2024-10-17
 |FCVersion=0.19 or later
 |Download=[https://wiki.freecadweb.org/images/e/e7/Intersection_Icon.svg ToolBar Icon]
 |Links=[https://github.com/mwganson/intersection Full Documentation on Github]
@@ -25,7 +25,7 @@ Select two or three edges, faces, Datum Planes or Datum Lines in the [3D view](3
 ### Legend
 
 
-{{Codeextralink|https://gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d758/raw/bca57dcdaeffff6de6a86a12fb1c45eeda4b506b/Intersection.FCMacro|Intersection.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d758/raw/dff80f8b50d83312e936104f6b062b88279add64/Intersection.py|Intersection.py}}
 
 ToolBar Icon  ![](images/Intersection_Icon.svg )
 
@@ -34,7 +34,7 @@ ToolBar Icon  ![](images/Intersection_Icon.svg )
 **Macro Intersection.FCMacro**
 
 
-{{CodeDownload|https://gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d758|Intersection.FCMacro}}
+{{CodeDownload|https://gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d758|Intersection.py}}
 
 
 

@@ -1,55 +1,58 @@
 # FEM Preferences/pl
-Ekran preferencji środowiska pracy [MES](EM_Workbench/pl.md) znajduje się w [Edytorze ustawień](Preferences_Editor/pl.md), **Edycja → Preferencje ... → MES**.
+## Wprowadzenie
 
-W preferencjach środowiska pracy MES znajduje się kilka zakładek, poczynając od **Ogólnej** konfiguracji środowiska. Pozostałe zakładki określają sposób współpracy MES z obsługiwanymi zewnętrznymi solverami.
+Ekran preferencji środowiska pracy <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [MES](FEM_Workbench/pl.md) znajduje się w [Edytorze ustawień](Preferences_Editor/pl.md). W menu wybierz **Edycja → Preferencje ...** a następnie **<img src="images/Workbench_FEM.svg" width=16px> MES**. Ta grupa jest dostępna tylko gdy środowisko pracy MES zostało wczytane w bieżącej sesji programu FreeCAD.
+
+Dostępnych jest siedem stron: [Ogólne](#General/pl.md), [Gmsh](#Gmsh/pl.md), [CalculiX](#CalculiX/pl.md), [Elmer](#Elmer/pl.md), [Mystran](#Mystran/pl.md), [Z88](#Z88/pl.md) i [Netgen](#Netgen/pl.md). Wszystkie strony poza pierwszą dotyczą interakcji środowiska pracy MES z zewnętrznymi generatorami siatki i solverami.
 
 Obecnie obsługiwane są następujące solvery zewnętrzne:
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [CalculiX](FEM_SolverCalculixCxxtools/pl.md)
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer/pl.md)
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran/pl.md) 
-*({{Version/pl|0.20}})*
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran/pl.md)
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Z88](FEM_SolverZ88/pl.md)
 
 
 
 ## Ogólne
 
-W zakładce *Ogólne* można wybrać następujące opcje:
+<img alt="" src=images/Preferences_FEM_Page_General.png  style="width:350px;">
+
+Na tej stronie można określić następujące parametry:
 
 +++
-| Nazwa                                                                  | Opis                                                                                                                                                  |
-+========================================================================+=======================================================================================================================================================+
-|                                                         | Miejsce w systemie plików gdzie powinny być przechowywane pliki siatki i solvera.                                                                     |
-| **Katalog roboczy**                                        |                                                                                                                                                       |
-|                                                                     |                                                                                                                                                       |
+| Nazwa                                                                                             | Opis                                                                                                                                                  |
++===================================================================================================+=======================================================================================================================================================+
+|                                                                                    | Miejsce w systemie plików gdzie powinny być przechowywane pliki siatki i solvera.                                                                     |
+| **Katalog roboczy**                                                                   |                                                                                                                                                       |
+|                                                                                                |                                                                                                                                                       |
 +++
-|                                                         | Jeśli istnieje kilka siatek, zostaną one pogrupowane.                                                                                                 |
-| **Utwórz grupy siatek**                                    |                                                                                                                                                       |
-|                                                                     |                                                                                                                                                       |
+|                                                                                    | Jeśli istnieje kilka siatek, zostaną one pogrupowane.                                                                                                 |
+| **Utwórz grupy siatki dla kształtów referencyjnych analizy (wysoce eksperymentalne)** |                                                                                                                                                       |
+|                                                                                                |                                                                                                                                                       |
 +++
-|                                                         | Istniejące obiekty [wyników](FEM_ResultShow/pl.md) zostaną zachowane, w przeciwnym razie zostaną nadpisane przez nowy przebieg solvera.       |
-| **Zachowanie wyników przy ponownym uruchomieniu obliczeń** |                                                                                                                                                       |
-|                                                                     |                                                                                                                                                       |
+|                                                                                    | Istniejące obiekty [wyników](FEM_ResultShow/pl.md) zostaną zachowane, w przeciwnym razie zostaną nadpisane przez nowy przebieg solvera.       |
+| **Zachowanie wyników przy ponownym uruchomieniu obliczeń**                            |                                                                                                                                                       |
+|                                                                                                |                                                                                                                                                       |
 +++
-|                                                         | Jeżeli opcja jest zaznaczona, to okno dialogowe [Pokaż wyniki](FEM_ResultShow/pl.md) zostanie otwarte z ostatnio używanymi ustawieniami okna. |
-| **Przywróć ustawienia okna dialogowego wyników**           |                                                                                                                                                       |
-|                                                                     |                                                                                                                                                       |
+|                                                                                    | Jeżeli opcja jest zaznaczona, to okno dialogowe [Pokaż wyniki](FEM_ResultShow/pl.md) zostanie otwarte z ostatnio używanymi ustawieniami okna. |
+| **Przywróć ustawienia okna dialogowego wyników**                                      |                                                                                                                                                       |
+|                                                                                                |                                                                                                                                                       |
 +++
-|                                                         | Wiązania zostaną ukryte w widoku modelu, gdy otwarte zostanie okno dialogowe [Pokaż wyniki](FEM_ResultShow/pl.md).                            |
-| **Ukryj wiązania przy otwartym oknie dialogowym wyników**  |                                                                                                                                                       |
-|                                                                     |                                                                                                                                                       |
+|                                                                                    | Cechy analizy zostaną ukryte w widoku modelu, gdy otwarte zostanie okno dialogowe [Pokaż wyniki](FEM_ResultShow/pl.md).                       |
+| **Ukryj cechy analizy przy otwartym oknie dialogowym wyników**                        |                                                                                                                                                       |
+|                                                                                                |                                                                                                                                                       |
 +++
-|                                                         | Domyślne użyty solver podczas dodawania nowej [Analizy](FEM_Analysis/pl.md). ({{Version/pl|0.21}})                              |
-| **Ustawienia domyślne solvera**                            |                                                                                                                                                       |
-|                                                                     |                                                                                                                                                       |
+|                                                                                    | Domyślne użyty solver podczas dodawania nowej [Analizy](FEM_Analysis/pl.md). ({{Version/pl|0.21}})                              |
+| **Ustawienia domyślne solvera**                                                       |                                                                                                                                                       |
+|                                                                                                |                                                                                                                                                       |
 +++
-
-![](images/Preference_Fem_Tab_01.png )
 
 ## Gmsh
 
-W zakładce *Gmsh* można wybrać następujące opcje:
+<img alt="" src=images/Preferences_FEM_Page_Gmsh.png  style="width:350px;">
+
+Na tej stronie można określić następujące parametry:
 
 +++
 | Nazwa                                                 | Opis                                                                                                                                        |
@@ -62,18 +65,106 @@ W zakładce *Gmsh* można wybrać następujące opcje:
 | **Ścieżka do pliku binarnego Gmsh**       |                                                                                                                                             |
 |                                                    |                                                                                                                                             |
 +++
-
-![](images/Preference_Fem_Tab_03.png )
+|                                        | Poziom szczegółowości logów: Ciche, Błędy, Ostrzeżenia, Bezpośrednie, Informacje, Status lub Debugowanie. {{Version/pl|1.1}}  |
+| **Szczegółowość logów**                   |                                                                                                                                             |
+|                                                    |                                                                                                                                             |
++++
 
 ## CalculiX
 
-W zakładce *CalculiX* można wybrać następujące opcje:
+<img alt="" src=images/Preferences_FEM_Page_CalculiX.png  style="width:350px;">
 
-![](images/Preference_Fem_Tab_02.png )
+Na tej stronie można określić następujące parametry:
+
++++
+| Nazwa                                                       | Opis                                                                                                                                                                                                                              |
++=============================================================+===================================================================================================================================================================================================================================+
+|                                              | Jeśli zaznaczone, FreeCAD będzie szukał pliku wykonywalnego solvera [CalculiX](FEM_SolverCalculixCxxtools/pl.md) w znanych (standardowych) lokalizacjach                                                                  |
+| **Szukaj w znanych katalogach bin**             |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Ścieżka do pliku wykonywalnego solvera [CalculiX](FEM_SolverCalculixCxxtools/pl.md)                                                                                                                                       |
+| **Ścieżka do pliku binarnego Calculix**         |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Jeśli zaznaczone, wbudowany edytor plików \*.inp z kolorowaniem składni będzie używany podczas edycji plików wejściowych solvera CalculiX.                                                                                        |
+| **Użyj wewnętrznego edytora plików *.inp**      |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Ścieżka do zewnętrznego edytora plików \*.inp.                                                                                                                                                                                    |
+| **Zewnętrzny edytor**                           |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Jeśli zaznaczone, zapisanych będzie kilka plików \*.inp a główny plik wejściowych będzie korzystał ze słów kluczowych \*INCLUDE jako odniesień do pozostałych plików. Jeśli odznaczone, zapisywany będzie jeden duży plik \*.inp. |
+| **Podziel zapis pliku *.inp**                   |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Domyślny typ analizy: Statyczna, Częstotliwość, Termo mechanika, Sprawdź siatkę lub Wyboczenie.                                                                                                                                   |
+| **Typ**                                         |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Liczba fizycznych rdzeni procesora do użycia do obliczeń równoległych.                                                                                                                                                            |
+| **Liczba rdzeni CPU do użycia**                 |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Domyślny solver macierzowy: Domyślne, PaStiX, Pardiso, Solver Spooles, Solver iteracyjny typu scaling lub Solver iteracyjny Cholesky.                                                                                             |
+| **Solver macierzy**                             |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Jeśli zaznaczone, domyślnie uwzględniania jest nieliniowość geometryczna.                                                                                                                                                         |
+| **Geometria nieliniowa**                        |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Jeśli zaznaczone, używa niestandardowych ustawień solvera (niezalecane w większości przypadków).                                                                                                                                  |
+| **Parametr kontroli przyrostów czasu**          |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Maksymalna liczba przyrostów w kroku analizy.                                                                                                                                                                                     |
+| **Maksymalna liczba iteracji**                  |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Początkowy rozmiar przyrostu czasu (może być zmieniony przez solver jeśli używana jest automatyczna inkrementacja).                                                                                                               |
+| **Początkowy krok czasu**                       |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Całkowity symulowany czas.                                                                                                                                                                                                        |
+| **Koniec czasu**                                |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Minimalny dozwolony rozmiar przyrostu czasu.                                                                                                                                                                                      |
+| **Minimalny krok czasu**                        |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Maksymalny dozwolony rozmiar przyrostu czasu.                                                                                                                                                                                     |
+| **Maksymalny krok czasu**                       |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Jeśli zaznaczone, wyniki dla elementów 1D i 2D są domyślnie wyświetlane przy pomocy reprezentacji 3D.                                                                                                                             |
+| **Format 3D wyników dla belek i powłok**        |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Jeśli zaznaczone, analizy termomechaniczne są domyślnie przeprowadzane dla stanu ustalonego.                                                                                                                                      |
+| **Typ analizy (stan nieustalony lub ustalony)** |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Domyślna liczba żądanych postaci drgań własnych w analizach częstotliwościowych.                                                                                                                                                  |
+| **Numer postaci własnej**                       |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Domyślna górna granica wyznaczanych częstotliwości drgań własnych w analizach częstotliwościowych.                                                                                                                                |
+| **Górna granica częstotliwości**                |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
+|                                              | Domyślna dolna granica wyznaczanych częstotliwości drgań własnych w analizach częstotliwościowych.                                                                                                                                |
+| **Dolna granica częstotliwości**                |                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                   |
++++
 
 ## Elmer
 
-W zakładce *Elmer* można wybrać następujące opcje:
+<img alt="" src=images/Preferences_FEM_Page_Elmer.png  style="width:350px;">
+
+Na tej stronie można określić następujące parametry:
 
 +++
 | Nazwa                                                              | Opis                                                                                                                                                                                                                                                                                          |
@@ -107,30 +198,42 @@ W zakładce *Elmer* można wybrać następujące opcje:
 | **Wyniki filtrowania**                                 |                                                                                                                                                                                                                                                                                               |
 |                                                                 |                                                                                                                                                                                                                                                                                               |
 +++
-
-![](images/Preference_Fem_Tab_05.png )
+|                                                     | Jeśli zaznaczone, używany jest binarny format wyników. W przeciwnym wypadku, używany jest format ASCII. Format binarny może powodować brak wyników przez występujący błąd. {{Version/pl|1.1}}                                                                                   |
+| **Używaj formatu binarnego**                           |                                                                                                                                                                                                                                                                                               |
+|                                                                 |                                                                                                                                                                                                                                                                                               |
++++
+|                                                     | Jeśli zaznaczone, identyfikatory obiektów geometrii są zapisywane w wynikach. {{Version/pl|1.1}}                                                                                                                                                                                |
+| **Zapisuj identyfikatory geometrii**                   |                                                                                                                                                                                                                                                                                               |
+|                                                                 |                                                                                                                                                                                                                                                                                               |
++++
 
 ## Mystran
 
-W zakładce *Mystran* można wybrać następujące opcje:
+<img alt="" src=images/Preferences_FEM_Page_Mystran.png  style="width:350px;">
+
+Na tej stronie można określić następujące parametry:
 
 +++
-| Nazwa                                                 | Opis                                                                                                                                       |
-+=======================================================+============================================================================================================================================+
-|                                        | Jeśli jest zaznaczone, FreeCAD będzie szukał pliku binarnego [Mystran](FEM_SolverMystran/pl.md) w znanych *(zwykłych)* katalogach. |
-| **Szukaj w znanych katalogach binarnych** |                                                                                                                                            |
-|                                                    |                                                                                                                                            |
+| Nazwa                                                  | Opis                                                                                                                                       |
++========================================================+============================================================================================================================================+
+|                                         | Jeśli jest zaznaczone, FreeCAD będzie szukał pliku binarnego [Mystran](FEM_SolverMystran/pl.md) w znanych *(zwykłych)* katalogach. |
+| **Szukaj w znanych katalogach binarnych**  |                                                                                                                                            |
+|                                                     |                                                                                                                                            |
 +++
-|                                        | Ścieżka do pliku binarnego [Mystran](FEM_SolverMystran/pl.md).                                                                     |
-| **Ścieżka do pliku binarnego Gmsh**       |                                                                                                                                            |
-|                                                    |                                                                                                                                            |
+|                                         | Ścieżka do pliku binarnego [Mystran](FEM_SolverMystran/pl.md).                                                                     |
+| **Ścieżka do pliku binarnego Gmsh**        |                                                                                                                                            |
+|                                                     |                                                                                                                                            |
 +++
-
-![](images/Preference_Fem_Tab_Mystran.png )
+|                                         |                                                                                                                                            |
+| **Zapisz komentarze do pliku wejściowego** |                                                                                                                                            |
+|                                                     |                                                                                                                                            |
++++
 
 ## Z88
 
-W zakładce *Z88* można wybrać następujące opcje:
+<img alt="" src=images/Preferences_FEM_Page_Z88.png  style="width:350px;">
+
+Na tej stronie można określić następujące parametry:
 
 +++
 | Nazwa                                                         | Opis                                                                                                                                                                                                                                                                 |
@@ -156,39 +259,22 @@ W zakładce *Z88* można wybrać następujące opcje:
 |                                                            |                                                                                                                                                                                                                                                                      |
 +++
 
-![](images/Preference_Fem_Tab_04.png )
+## Netgen
 
+<img alt="" src=images/Preferences_FEM_Page_Netgen.png  style="width:350px;">
 
-
-## Materiał
-
-W zakładce *Materiał* można wybrać następujące opcje:
+Na tej stronie można określić następujące parametry:
 
 +++
-| Nazwa                                                                                                            | Opis                                                                                                                                                                                                                    |
-+==================================================================================================================+=========================================================================================================================================================================================================================+
-|                                                                                                   | Karty wbudowane w program FreeCAD zostaną wyświetlone jako dostępne.                                                                                                                                                    |
-| **Użyj materiałów dołączonych**                                                                      |                                                                                                                                                                                                                         |
-|                                                                                                               |                                                                                                                                                                                                                         |
-+++
-| \\AppData\\Roaming\\FreeCAD\\Material* |
-| **Użyj materiałów z katalogu programu FreeCAD - "Materials" w preferowanej lokalizacji użytkownika** |                                                                                                                                                                                                                         |
-|                                                                                                               |                                                                                                                                                                                                                         |
-+++
-|                                                                                                   | Karty materiałowe z określonego katalogu również będą wyświetlane jako dostępne.                                                                                                                                        |
-| **Użyj materiałów z katalogu zdefiniowanego przez użytkownika**                                      |                                                                                                                                                                                                                         |
-|                                                                                                               |                                                                                                                                                                                                                         |
-+++
-|                                                                                                   | Duplikaty kart zostaną usunięte z wyświetlanej listy kart materiałowych.                                                                                                                                                |
-| **Usuń duplikaty kart**                                                                              |                                                                                                                                                                                                                         |
-|                                                                                                               |                                                                                                                                                                                                                         |
-+++
-|                                                                                                   | Karty materiałów będą wyświetlane posortowane według ich źródeł *(lokalizacji)*. Jeśli opcja ta nie zostanie zaznaczona, będą one sortowane według nazwy.                                                               |
-| **Sortuj według katalogów**                                                                          |                                                                                                                                                                                                                         |
-|                                                                                                               |                                                                                                                                                                                                                         |
+| Nazwa                                        | Opis                                                                                                                                                                                                                                                                                                                                            |
++==============================================+=================================================================================================================================================================================================================================================================================================================================================+
+|                               | Jeśli zaznaczone, środowisko pracy MES używa starszej implementacji [Netgen](FEM_MeshNetgenFromShape/pl.md). To może być konieczne dla użytkowników (głównie ze starszymi komputerami i systemem Windows), którzy nie mogą zainstalować bibliotek Pythona potrzebnych do nowej implementacji Netgen. ({{Version/pl|1.0}}) |
+| **Starsza implementacja Netgen** |                                                                                                                                                                                                                                                                                                                                                 |
+|                                           |                                                                                                                                                                                                                                                                                                                                                 |
 +++
 
-![](images/Preference_Fem_Tab_Material.png )
+
+
 
 
 {{FEM Tools navi

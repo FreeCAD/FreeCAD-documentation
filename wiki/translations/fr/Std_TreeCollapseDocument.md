@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Std TreeCollapseDocument
    Name/fr: Std Arborescence Réduire/développer
-   MenuLocation: Affichage , Vue en arborescence , Réduire/développer
+   MenuLocation: Affichage , Actions dans l'arborescence , Réduire/développer
    Workbenches: Tous
    Version: 0.19
    SeeAlso: Std_TreeSingleDocument/fr, Std_TreeMultiDocument/fr
@@ -20,19 +20,13 @@ La commande **Std Réduire/développer** bascule du mode document de la [vue en 
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **Réduire/développer** dans le menu déroulant. Remarque : l\'image du bouton changera en fonction de l\'option sélectionnée.
-    -   Sélectionnez l\'option **Affichage → Vue en arborescence → <img src="images/Std_TreeCollapseDocument.svg" width=16px> Réduire/développer** du menu.
-
-
-
-## Préférences
-
-Le mode Document de l\'arborescence est enregistré dans : **Outils → Éditer les paramètres... → BaseApp → Preferences → TreeView → DocumentMode**. Il s\'agit d\'une valeur entière. Les valeurs possibles sont `0` (SingleDocument- un seul document), `1` (MultiDocument - plusieurs documents) ou `2` (CollapseDocument - Réduire les documents). La valeur par défaut est `2`.
+    -   Sélectionnez l\'option **Affichage → Actions dans l'arborescence → Réduire/développer** du menu.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

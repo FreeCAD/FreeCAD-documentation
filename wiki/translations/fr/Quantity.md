@@ -1,11 +1,15 @@
 # Quantity/fr
 Quantity est une combinaison d\'un nombre à virgule flottante et d\'une unité. Quantity est utilisé dans l\'ensemble de FreeCAD pour gérer les paramètres et toutes sortes d\'autres entrées/sorties.
 
+
+
 ## Généralité
 
 Dans un système CAO ou CAE il est très important de garder une trace de l\'unité d\'une valeur. Beaucoup de problèmes peuvent survenir lors du mélange des unités ou des résultats de calculs dans des systèmes d\'unités différentes. Une catastrophe célèbre est [la perte de la sonde Mars Climate Orbiter](http://fr.wikipedia.org/wiki/Mars_Climate_Orbiter#Perte_de_la_sonde) à cause d\'une confusion d\'interprétation d\'unité. Même dans le même système d\'unité, les unités sont de type différents, et toujours adaptés à son domaine d\'utilisation. Un petit exemple, la vitesse interprétée en km/h (voitures), en m/s pour la (robotique) ou calcul de l\'avance de l\'outil en mm/minute (fraisage). Un système de CAO dois rester fiable avec toutes les unités. Donc, il faut compter sur elle et utiliser la bonne unité pour les paramètres spéciaux.
 
 C\'est pour cela que la FreeCAD Quantity framework a été créé. Il comprend le code et les objets à traiter avec les unités, calculs d\'unités, entrées utilisateurs, conversion dans d\'autres systèmes d\'unités et affichage des unités et des valeurs. À long terme, aucun paramètre ne devrait être dans FreeCAD, juste un nombre.
+
+
 
 ### Unités supportées 
 
@@ -13,8 +17,8 @@ L\'analyseur de FreeCAD prend en charge un tas d\'unités et d\'unités-systme. 
 
 Vous pouvez trouver plus de détails dans le code :
 
--   [Quantity lexer](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/QuantityLexer.c)
--   [Quantity definitions](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/Quantity.cpp#l167)
+-   [Quantity lexer](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/QuantityLexer.c)
+-   [Quantity definitions](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/Quantity.cpp#l167)
 
 ## Représentation interne 
 
@@ -62,12 +66,10 @@ InputField est un QLineEdit dérivé Qt widget pour gérer tous les types d\'int
 
 UnitsCalculator utilise déjà InputField.
 
-Main documentation: [InputField](InputField/fr.md)
+Code :
 
-Code:
-
--   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.h)
--   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.cpp)
+-   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/main/src/Gui/InputField.h)
+-   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/main/src/Gui/InputField.cpp)
 
 ## Script Python 
 
@@ -193,7 +195,7 @@ from FreeCAD import Units
 Units.Quantity('1m').UserString           # '1000 mm' in 1; '1 m' in 2; and '1.09361 yr' in 3
 ```
 
-Procédure à suivre, si vous n\'avez besoin que d\'une chaîne. Mais si vous avez besoin d\'un plus grand contrôle, par exemple si vous voulez avoir une boîte de dialogue avec boutons up et down. Alors vous avez besoin de plus d\'informations de la conversion affichée. Alors la méthode **getUserPreferred()** de Quantity est utilisée :
+Procédure à suivre, si vous n\'avez besoin que d\'une chaîne. Mais si vous avez besoin d\'un plus grand contrôle, par exemple si vous voulez avoir une fenêtre de dialogue avec boutons up et down. Alors vous avez besoin de plus d\'informations de la conversion affichée. Alors la méthode **getUserPreferred()** de Quantity est utilisée :
 
 
 ```python
@@ -205,9 +207,11 @@ Ici, vous obtenez deux informations comme un tuple de taille 3. Vous obtenez la 
 
 Vous pouvez voir ici le code pour la conversion du schéma :
 
--   [Interne](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaInternal.cpp)
--   [MKS](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaMKS.cpp)
--   [Impérial](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaImperial1.cpp)
+-   [Internal](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/UnitsSchemaInternal.cpp)
+-   [MKS](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/UnitsSchemaMKS.cpp)
+-   [Imperial](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/UnitsSchemaImperial1.cpp)
+
+
 
 ### Précision
 
@@ -218,6 +222,8 @@ import FreeCAD
 params = App.ParamGet("User parameter:BaseApp/Preferences/Units")
 params.GetInt('Decimals') # returns an int
 ```
+
+
 
 ## Appendice
 

@@ -60,7 +60,7 @@
 -   You can loft from or toward a single [vertex](Glossary#V.md) from a sketch or the body. <small>(v0.20)</small> 
 -   [Vertices](Glossary#V.md) can in most cases only be the start or end of a loft.
 -   A cross-section cannot lie on the same plane as the one immediately preceding it.
--   If the sketch has inner geometry, i.e. the loft is supposed to have holes, then the order in which the sketch geometry is created, should be the same for all sections: Either start all sections with the inner geometry or start them all with the outer. Otherwise an invalid loft can be created where inner and outer walls cross.
+-   If the sketch has inner geometry, then the order in which the sketch geometry is created should be the same for all sections. Either start all sections with the inner geometry, or start them all with the outer. Otherwise an invalid loft will be created where inner and outer walls cross.
 -   It is not possible to loft disjoint or crossing loops.
 
 ## Links

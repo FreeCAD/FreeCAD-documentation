@@ -32,7 +32,7 @@ Polecenie **Wybierz powiązane łącza** wybiera **Powiązany obiekt**, będący
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

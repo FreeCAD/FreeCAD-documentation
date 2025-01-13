@@ -183,6 +183,10 @@ Valoarea implicită este de 20 de grade. ([More info](http://en.wikipedia
 
 -   In order for two gears to mesh they need to share the same module and pressure angle. [Expressions](Expressions.md) may help to ensure consistency. Their center distance needs to be `(NumberOfTeeth + OtherGear.NumberOfTeeth) * Modules / 2` (that is in case of the sum profile shift being zero). Subtract the number of teeth in case of an internal gear.
 
+-   When using a [Sketch](Sketch.md) to position some gears, they can be represented using their pitch circles and using a [tangent constraint](Sketcher_ConstrainTangent.md) between those circles. Their diameters can be set by the following [Expression](Expressions.md): `SomeGear.NumberOfTeeth * SomeGear.Modules` (assuming no profile shift and \"SomeGear\" being the **Name** of the respective gear profile object).
+
+-   When using [Sketches](Sketch.md) to create additional features (cutouts, spokes, \...) on a gear, reference circles at the tip or the root of the teeth can help positioning those features. The diameter of the tip circle can be set by the following [Expression](Expressions.md): `(SomeGear.NumberOfTeeth + 2 * (SomeGear.AddendumCoefficient + SomeGear.ProfileShiftCoefficient)) * SomeGear.Modules` and the root circle respectively by `(SomeGear.NumberOfTeeth - 2 * (SomeGear.DedendumCoefficient - SomeGear.ProfileShiftCoefficient)) * SomeGear.Modules`.
+
 -   Profile shifting can be used to prevent undercut on gears with a small number of teeth. Another application is to adjust the center distance of two gears with a given number of teeth and module.
 
 -   When visually checking for proper meshing or interferences a much lower value for **Deviation** is helpful, e.g. 0.05 instead of the default 0.5. Otherwise the representation in the [3D view](3D_view.md) may be too coarse.
@@ -201,8 +205,9 @@ Valoarea implicită este de 20 de grade. ([More info](http://en.wikipedia
 
 ## Limitations
 
--   It is currently not possible to adjust the tooth thickness. Tooth and tooth space are distributed equally on the pitch circle. Thus the only way to control backlash is to adjust the center distance in a gear paring.
--   There is currently no [undercut](https://www.tec-science.com/mechanical-power-transmission/involute-gear/undercut/) in the generated gear profile. That means gears with a low number of teeth can interfere with the teeth of the mating gear. The lower limit depends on the **Pressure Angle** and is around 17 teeth for 20° and 32 for 14.5°. Most practical applications tolerate a missing undercut for gears a little smaller than this theoretical limit though.
+-   It is currently not possible to adjust the tooth thickness. Tooth and tooth space are distributed equally on the reference circle. One way to still control backlash is to adjust the center distance in a gear paring. Another is to apply a tiny amount of negative profile shift. Example: For a typical circumferential backlash coefficient of 0.04 increase either the center distance by `(0.04 * Modules / 2) / tan(PressureAngle)` or shift the profile of one gear (preferably the larger one) by a coefficient of `-(0.04 / 2) / tan(PressureAngle))`.
+
+-   There is currently no [undercut](https://www.tec-science.com/mechanical-power-transmission/involute-gear/undercut/) in the generated gear profile. That means gears with a low number of teeth can interfere with the teeth of the mating gear. The lower limit depends on the **Pressure Angle** and is around 17 teeth for 20° and 32 for 14.5°. Most practical applications tolerate a missing undercut for gears a little smaller than this theoretical limit though, which assumes mating with a rack and standard tooth length.
 
 ## Tutorials
 

@@ -1,5 +1,5 @@
 # Category:Web/cs
-This category lists pages that relate to the [Web Workbench/cs](Web_Workbench/cs.md).
+This category is for pages related to the [Web Workbench](Web_Workbench.md).
 
 ### Contents
 
@@ -10,4 +10,4 @@ This category lists pages that relate to the [Web Workbench/cs](Web_Workbench/cs
 
 
 ---
-⏵ [documentation index](../README.md) > Category:Web/cs
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Category:Web/cs

@@ -38,7 +38,7 @@ Polecenie **Załaduj obraz** otwiera obraz w nowej karcie w [głównego obszaru 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

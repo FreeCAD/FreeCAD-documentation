@@ -14,9 +14,13 @@
 
 </div>
 
+
+
 ## Описание
 
 <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:24px;"> [Переместить объект за другой объект](PartDesign_MoveFeatureInTree/ru.md), при выделении этой команды в контекстном меню, позволяет переупорядочивать объекты в Теле. Перемещать можно эскизы, геометрию построения и конструктивные элементы.
+
+
 
 ## Применение
 
@@ -25,14 +29,28 @@
 3.  In the **Select feature** dialog, select the object under which to move the object(s).
 4.  Press **OK**.
 
+## Example
+
+
+<div class="mw-translate-fuzzy">
+
 ## Пример
 
 На следующих трех рисунках показана та же модель с вырезом, определенным на эскизе, прикрепленном к базовой плоскости. Функции переупорядочиваются от одного изображения к другому. Это приводит к тому, что вырез либо не создает отверстия, либо создает отверстия в разных контактных площадках, в зависимости от порядка элементов в дереве модели.
 
+
+</div>
+
 ![](images/PD_move_feature0.png ) ![](images/Hole_Pad002.png ) ![](images/PD_move_feature2.png )
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

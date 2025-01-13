@@ -22,7 +22,7 @@ L\'outil **TechDraw Prolonger** prolonge une ligne cosmétique ou une ligne cent
 
 ## Utilisation
 
-1.  Spécifiez à votre convenance la distance delta avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;">. [TechDraw Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
+1.  Spécifiez à votre convenance la distance delta avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;">. [TechDraw Choix des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
 2.  Sélectionnez une seule ligne cosmétique ou une ligne centrale.
 3.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionExtendLine.svg" width=16px> [Prolonger la ligne](TechDraw_ExtensionExtendLine/fr.md)**.

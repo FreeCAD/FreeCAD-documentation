@@ -39,7 +39,7 @@ By unchecking all **Cutting** options, the button **Refresh view** becomes activ
 
 If the option **Auto** in the cut face section is checked, the color and transparency of the cut objects will be taken for the cut face. This only works if all cut objects have the same color or transparency.
 
-The option **Cut intersecting objects** allows to cut also objects that intersects each other. I assemblies intersections happen sometimes for object that are designed to only touch each other due to numerical precision issues. The drawback of the option is that all visible objects will get the same color. This color can be specified like in the cut face section of the dialog. If you need the cut for e.g. a nice picture with several face colors, you can change the face colors using the tool <img alt="" src=images/Part_FaceColors.svg  style="width:24px;"> [Set face colors](Part_FaceColors.md).
+The option **Cut intersecting objects** allows to cut also objects that intersects each other. I assemblies intersections happen sometimes for object that are designed to only touch each other due to numerical precision issues. The drawback of the option is that all visible objects will get the same color. This color can be specified like in the cut face section of the dialog. If you need the cut for e.g. a nice picture with several face colors, you can change the face colors using the tool <img alt="" src=images/Part_ColorPerFace.svg  style="width:24px;"> [Color per face](Part_ColorPerFace.md).
 
 **Note:** For assemblies the sliders in the dialog are disabled (except the one for the transparency). The reason is that a slider movement results in many cut operations is a short time. For assemblies this quickly consumes all CPU power and a sticky slider movement is not helpful.
 
@@ -47,9 +47,9 @@ When you select a cut object in the tree view and then open the Section Cut dial
 
 ## Applications
 
--   An important use case is that Section Cut creates real cuts, not hollow ones like the <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:24px;"> [Clip Plane](Std_ToggleClipPlane.md) feature.
--   Section Cut is useful for assemblies to visualize for example the working principle of a device. You thereby might want to color certain cut faces using the <img alt="" src=images/Part_FaceColors.svg  style="width:24px;"> [Set face colors](Part_FaceColors.md) tool. To use the tool, switch to the Part or PartDesign workbench, right-click on the cut object in the tree view and select in the context menu **Set colors**.
--   Without the option **Cut intersecting objects** only parts that don\'t intersect others will be cut. This can be used as collision test.
+-   An important use case is that Section Cut creates filled cuts, not hollow ones like the <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:24px;"> [Clip Plane](Std_ToggleClipPlane.md) feature.
+-   Section Cut is useful for assemblies to visualize for example the working principle of a device. You thereby might want to color certain cut faces using the <img alt="" src=images/Part_ColorPerFace.svg  style="width:24px;"> [Color per face](Part_ColorPerFace.md) tool. To use the tool, switch to the Part or PartDesign workbench, right-click on the cut object in the tree view and select in the context menu **Set colors**.
+-   Without the option **Cut intersecting objects** only parts that don\'t intersect others will be cut. This can be used as a collision test.
 -   The Section Cut feature can be used for technical drawings to highlight certain areas or to be able to draw in dimensions. The image below shows an example where the [TechDraw](TechDraw_Workbench.md) features <img alt="" src=images/TechDraw_ActiveView.svg  style="width:24px;"> [ActiveView](TechDraw_ActiveView.md) and <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [View](TechDraw_View.md) are used.
 
 <img alt="" src=images/Part_SectionCut_TD-example.png  style="width:400px;"> 

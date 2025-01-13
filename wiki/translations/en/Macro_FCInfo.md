@@ -3,11 +3,11 @@
 |Name=Macro FCInfo
 |Icon=FCInfo.png
 |Description=Gives information about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, percent), area, volume and weight in different units (metric and imperial). The macro now also works for the elements of a sketch in edit mode.
-<br />French Version [https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/da448b70d27ee82c496b04ffb68f5224c653bed1/FCInfo_fr_Ver_1-28c-rmu_Docked.FCMacro Version française]
+<br />French Version [https://gist.github.com/mario52a/6afc64081c4eb8be3b93 Version française]
 |Author=Mario52
 |Download=[https://wiki.freecad.org/images/5/53/FCInfo.png ToolBar Icon]
-|Version=1.28c
-|Date=2023/10/30
+|Version=1.30
+|Date=2025/01/02
 |FCVersion=All
 |SeeAlso=[Arch Survey](Arch_Survey.md), [Macro SimpleProperties](Macro_SimpleProperties.md), [Macro FCInfoGlass](Macro_FCInfoGlass.md)
 }}
@@ -17,7 +17,7 @@
 Gives information about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, percent), area, volume and weight in different units (metric and imperial). The macro now also works for the elements of a sketch in edit mode.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/c18679d096d168133e6f9e914774b3ba06ff6dc9/FCInfo_en_Ver_1-28c-rmu_Docked.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/c6dd9eabe1ae67d0baf235d672faa75dfd927ad6/FCInfo_en_Ver_1-30-rmu_Docked.FCMacro}}
 
 <img alt="" src=images/Macro_FCInfo_00_en.png  style="width:480px;"> 
 *FCInfo*
@@ -560,6 +560,49 @@ project:
 
 ## Version
 
+ver \"1.30\" 2025/01/02 : delette all reference to PySide PySide2 and QtWidgets modify the (Qt) Save file
+
+
+```python
+#
+import PySide2
+from PySide2 import QtGui , QtCore, QtWidgets
+from PySide2.QtWidgets import QComboBox
+from PySide2.QtWidgets import QMessageBox
+from PySide2.QtWidgets import QTableWidget, QApplication
+from PySide2.QtGui import *
+from PySide2.QtCore import *
+from PySide2.QtWidgets import *
+
+            OpenName, Filter = PySide2.QtWidgets.QFileDialog.getOpenFileName(None, u"Read a txt file", setPathLatestDirectory, "*.FCInfo *.csv *.asc *.txt;;FCInfo (*.FCInfo);;Cvs (*.csv);;Ascii (*.asc);;TXT (*.txt);;(*.*);;(*)")#PySide2
+```
+
+replaced and change command by
+
+
+```python
+#
+import PySide
+try:
+    from PySide import QtWidgets
+    from PySide.QtWidgets import *
+except Exception:
+    None
+from PySide import QtGui , QtCore
+from PySide.QtGui import *
+from PySide.QtCore import *
+
+            OpenName, Filter = QFileDialog.getOpenFileName(None, u"Read a txt file", setPathLatestDirectory, "*.FCInfo *.csv *.asc *.txt;;FCInfo (*.FCInfo);;Cvs (*.csv);;Ascii (*.asc);;TXT (*.txt);;(*.*);;(*)")#PySide
+
+```
+
+ver \"1.29b\" 2024/05/10 **PySide2** modify Inertia \" MatrixX1\*uniteM to (MatrixX1\*uniteM) \" and adding spinBox inertia
+
+-   [Moment of inertias calculation](https://forum.freecad.org/viewtopic.php?p=713935#p713935)
+-   [Momentof Interia - FCInfo macro](https://forum.freecad.org/viewtopic.php?t=64653)
+
+ver 1.29 2024/05/06 **french** version **fr PySide6** by sylvainbx <https://gist.github.com/sylvainbx/af09a30be3e1427de56305825331fb29> merci sylvainbx
+
 ver 1.28b 1.28c 2023/10/30 orthographe
 
 ver 1.28 01/09/2023 modify variable name, possibility hidden each sector, save data spreadSheet in document, surface radius, add button webWiki and webForum
@@ -635,20 +678,18 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 -   ver 1.13 , 27/07/2014 replace FCInfo_en_Ver_1-12_Docked.FCMacro to FCInfo_en_Ver_1-13_Docked.FCMacro accept PyQt4 and PySide
 -   ver 1.12 , 10/03/2014 adding tooltip
 -   ver 1.11 , 04/03/2014 adding µm, nm, pm, fm, µg, ng, pg, percent, fixed of grandeur carat ~~\"cd\"~~ in **\"ct\"**, display of the label and internal name, fixed calculation of angles XY YZ ZX could give an error on a compound shape, window dockable in FreeCAD
--   ver 1.10.b , 19/11/2013 buttons outside the scrollbar and the dimensions of the window blocking
-
-(ver 1.10 , 18/11/2013 create scrollbar)
-\*ver 1.08.b , 10/11/2013 translation units in English, error correction to display the area of the faces listed in the table and replacement of the\"**print**\" by \"**App.Console.PrintMessage**\"
-~~ver 1.09 , 04/11/2013 works perfectly on Windows and Linux (cause of errors on Linux the characters : ² ³ ° \"ordinal not in range(128)\")~~
-In a Linux distribution and in the case of an error of **\"ordinal not in range (128)\"** an alternative version exists on this page [Macro_FCInfo_Alternate_Linux](Macro_FCInfo_Alternate_Linux.md)
-\*ver 1.08 , 24/10/2013 correction of high top \"Faces\" and \"Edges\" displaying 100 objects (in the saved file)
-\*ver 1.07 , 11/10/2013 matches the \"Faces\" and their coordinates.
-\*ver 1.06 , 22/09/2013 matches the \"Edges\" and their coordinates, inclination on the element rather than the global object
-\*ver 1.05 , 17/09/2013 added an icon for the spreadsheet, conversion barrel fr, affichage des dimensions overall instead of coordinates.
-\*ver 1.04 , 11/09/2013: read the file directly in a table.
-\*ver 1.03 , 09/09/2013: clearer display in view report and replacement by \"typeObject = sel\[0\].Shape.ShapeType\"
-\*ver 1.02 , 7/09/2013 : small updates
-\*ver 1.00 , 6/09/2013
+-   ver 1.10b , 19/11/2013 buttons outside the scrollbar and the dimensions of the window blocking
+-   ver 1.10 , 18/11/2013 create scrollbar
+-   ver 1.08b , 10/11/2013 translation units in English, error correction to display the area of the faces listed in the table and replacement of the\"**print**\" by \"**App.Console.PrintMessage**\"
+-   ~~ver 1.09 , 04/11/2013 works perfectly on Windows and Linux (cause of errors on Linux the characters : ² ³ ° \"ordinal not in range(128)\")~~
+-   ver 1.08 , 24/10/2013 correction of high top \"Faces\" and \"Edges\" displaying 100 objects (in the saved file)
+-   ver 1.07 , 11/10/2013 matches the \"Faces\" and their coordinates.
+-   ver 1.06 , 22/09/2013 matches the \"Edges\" and their coordinates, inclination on the element rather than the global object
+-   ver 1.05 , 17/09/2013 added an icon for the spreadsheet, conversion barrel fr, affichage des dimensions overall instead of coordinates.
+-   ver 1.04 , 11/09/2013: read the file directly in a table.
+-   ver 1.03 , 09/09/2013: clearer display in view report and replacement by \"typeObject = sel\[0\].Shape.ShapeType\"
+-   ver 1.02 , 7/09/2013 : small updates
+-   ver 1.00 , 6/09/2013
 
 ## Links
 

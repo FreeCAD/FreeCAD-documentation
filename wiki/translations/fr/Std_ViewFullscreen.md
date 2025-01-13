@@ -18,11 +18,11 @@ La commande **Std Plein écran** bascule la [vue 3D](3D_view/fr.md) vers et depu
 
 ## Utilisation
 
-1.  Activez la vue 3D correcte.
-2.  Il existe plusieurs façons d\'appeler la commande :
-    -   Sélectionnez l\'option **Affichage → Fenêtre de document → <img src="images/Std_ViewFullscreen.svg" width=16px> Plein écran** dans le menu. Cette option ne fonctionne pas si vous souhaitez désactiver le mode plein écran et qu\'il existe d\'autres vues 3D ancrées.
+1.  Activez la bonne vue 3D.
+2.  Il existe plusieurs façons de lancer la commande :
+    -   Sélectionnez l\'option **Affichage → Fenêtre de document → <img src="images/Std_ViewFullscreen.svg" width=16px> Plein écran** du menu. Cette option ne fonctionne pas si vous souhaitez désactiver le mode plein écran et qu\'il existe d\'autres vues 3D ancrées.
     -   Sélectionnez l\'option **Fenêtre de document → <img src="images/Std_ViewFullscreen.svg" width=16px> Plein écran** dans le menu contextuel de la vue 3D.
-    -   Utilisez le raccourci clavier: **F11**.
+    -   Utilisez le raccourci clavier : **F11**.
 
 
 
@@ -35,7 +35,7 @@ La commande **Std Plein écran** bascule la [vue 3D](3D_view/fr.md) vers et depu
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

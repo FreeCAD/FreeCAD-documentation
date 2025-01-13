@@ -8,7 +8,13 @@
 
 IfcOpenShell utiliza [OpenCASCADE](OpenCASCADE/es.md) internamente para convertir la geometría implícita de los archivos IFC en geometría explícita que otros paquetes CAD pueden entender, por ejemplo, STEP, [OBJ](Arch_OBJ/es.md), y [DAE](Arch_DAE/es.md).
 
+
+<div class="mw-translate-fuzzy">
+
 A partir de la v0.19, FreeCAD es capaz de importar archivos IFC siempre que el módulo `ifcopenshell` [Python](Python/es.md) esté disponible en el sistema. Asimismo, los [Arquitectura](Arch_Workbench/es.md) y [BIM ambientes de trabajo](BIM_Workbench/es.md) pueden exportar un modelo de edificio al formato IFC para que pueda ser utilizado en otras aplicaciones.
+
+
+</div>
 
 Para verificar que IfcOpenShell está instalado en su sistema, intente importarlo desde la [Consola de Python](Python_console/es.md); la biblioteca está correctamente instalada si no se devuelve ningún mensaje de error.
 
@@ -503,9 +509,11 @@ The IfcOpenShell project has also developed \"IFC Pipeline\", a self-hosted IFC 
 -   Qué páginas enlazan con [esta página](Special:WhatLinksHere/IfcOpenShell/es.md).
 
 
- {{FEM Tools navi}}
+{{BIM_Tools_navi
+
+}} {{FEM_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [3rd Party](Category_3rd Party.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > IfcOpenShell/es
+⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > IfcOpenShell/es

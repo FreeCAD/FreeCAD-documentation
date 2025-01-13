@@ -13,6 +13,8 @@ FreeCAD es extensible mediante código [Python](Python/es.md) que se ejecuta dir
 
 Si quieres contribuir con contenido a estas páginas, solicita una cuenta wiki con permisos de editor [en el foro](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), y lee las [WikiPáginas](WikiPages/es.md) para conocer las directrices generales que debes seguir. Para otras formas de contribuir con el proyecto, vea la página [Ayuda a FreeCAD](Help_FreeCAD/es.md).
 
+
+
 ## Personalizando FreeCAD 
 
 -   [Personalización de la interfaz](Interface_Customization/es.md): Empezando por el principio: Barras de herramientas y atajos de teclado
@@ -20,6 +22,8 @@ Si quieres contribuir con contenido a estas páginas, solicita una cuenta wiki c
 -   [Recetas de macros](Macros_recipes/es.md)
 -   [Personalizar barras de herramientas](Customize_Toolbars/es.md)
 -   [Instalar más ambientes de trabajo](Installing_more_workbenches/es.md)
+
+
 
 ## Guionización en FreeCAD 
 
@@ -38,6 +42,8 @@ Si quieres contribuir con contenido a estas páginas, solicita una cuenta wiki c
 
 </div>
 
+
+
 ### Modulos
 
 La funcionalidad de FreeCAD está separada en Módulos que tratan con tipos de datos y aplicaciones especiales. FreeCAD tiene módulos incorporados y módulos de extensión (plug-ins). Una vez que los módulos de extensión son instalados, están disponibles para ti tan fácilmente como los módulos incorporados. Los módulos descritos a continuación son los módulos por defecto, incluidos en cada instalación de FreeCAD.
@@ -45,9 +51,13 @@ La funcionalidad de FreeCAD está separada en Módulos que tratan con tipos de d
 -   Los [Módulos incorporados](Builtin_modules/es.md) son los principales módulos de FreeCAD. Contienen herramientas para manipular configuraciones generales de FreeCAD, documentos y sus contenidos.
 -   [Creación de ambientes de trabajo](Workbench_creation/es.md) te muestra cómo crear tu propio ambientes de trabajo
 
+
+
 #### Trabajando con Mallas 
 
 -   [Guionización Mallas](Mesh_Scripting/es.md): Cómo interactuar con el [Ambiente de trabajo Mallas](Mesh_Workbench/es.md)
+
+
 
 #### Trabar con Piezas 
 
@@ -56,22 +66,34 @@ La funcionalidad de FreeCAD está separada en Módulos que tratan con tipos de d
 -   [PythonOCC](pythonOCC/es.md): Cómo dar rienda suelta a todo el poder de OpenCasCade
 -   [Malla a Pieza](Mesh_to_Part/es.md): Conversión entre tipos de objetos
 
-====Accediendo los gráficos de escena Coin===
+ ====Accediendo los gráficos de escena Coin===
 
 -   [Los gráficos de escena de Coin/Inventor](Scenegraph/es.md): Cómo funciona la escenografía FreeCAD
 -   [Pivy](Pivy/es.md): Cómo acceder y modificar las escenografías
+
+
 
 ### Controlando el interfaz Qt 
 
 -   [PySide](PySide/es.md): Cómo acceder la interfaz, y modificar su contenido
 -   [Utilizando la interfaz gráfica de usuario de FreeCAD](Embedding_FreeCADGui/es.md) en otra aplicación Qt con PyQt
 
+
+
 ### Trabajando con objetos paramétricos 
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Objetos de guiónes](Scripted_objects/es.md): cómo hacer objetos 100% desde guiónes en Python
     -   [Objetos guiónes con adjunto](Scripted_objects_with_attachment/es.md): cómo hacer que los objetos de guión se puedan adjuntar a otros objetos.
     -   [Scripted objects saving attributes](Scripted_objects_saving_attributes/es.md): cómo guardar y restaurar atributos de la clase proxy con `__getstate__` y `__setstate__`.
     -   [Migración de objetos guiónes](Scripted_objects_migration/es.md): cómo migrar objetos con guiónes antiguos a una nueva clase.
+
+
+</div>
+
+
 
 ### Ejemplos
 
@@ -82,11 +104,15 @@ La funcionalidad de FreeCAD está separada en Módulos que tratan con tipos de d
 -   El [módulo de croquizado](Draft_Workbench/es.md) añade funciones básicas de dibujo 2D a FreeCAD. Está escrito enteramente en Python, así que puede ser un buen ejemplo si quieres escribir tus propios módulos.
 -   [Biblioteca de matemática vectorial de FreeCAD](FreeCAD_vector_math_library/es.md) : Un par de funciones practicas para manipular vectores en FreeCAD. Esta biblioteca está incluida en el módulo de croquizado.
 
+
+
 ## Funciones del API 
 
 La documentación completa de la API de FreeCAD se encuentra en <http://www.freecadweb.org/api/> . Contiene tanto las APIs de C++ como las de Python, y aún no está totalmente bien formateada, lo que puede ser confuso cuando se busca código sólo en python. Una versión más fácil de navegar se puede encontrar [aquí](:Category_API.md). Tenga en cuenta que puede estar incompleta, ya que se actualiza manualmente. Para una información más precisa, navega por los módulos directamente desde la consola de Python de FreeCAD.
 
 Relacionado: [Exponer C++ a Python](Exposing_C%2B%2B_to_Python/es.md)
+
+
 
 ## Modificación avanzada 
 
@@ -95,6 +121,8 @@ Relacionado: [Exponer C++ a Python](Exposing_C%2B%2B_to_Python/es.md)
 -   [Compilando FreeCAD en Windows](Compile_on_Windows/es.md) y [Compilando FreeCAD en Linux](Compile_on_Linux/es.md)
 -   [Construcción de marca](Branding/es.md): Simples modificaciones que puedes hacer al código fuente para cambiar algunos aspectos de FreeCAD
 -   [Módulos extra en Python](Extra_python_modules/es.md) : Extiende el interprete de Python de FreeCAD con estos potentes módulos!
+
+
 
 ## Tutoriales de Python 
 
@@ -126,11 +154,11 @@ Las siguientes dos referencias son específicas de PyQt (no de PySide) pero pued
 -   [Programación de gráficos 3D de alto nivel en Python](http://ftp.ntua.gr/mirror/python/pycon/dc2004/papers/47/) : Ejemplo de Pivy de Pycon 2004
 -   [Introducción de Pivy en studierstube](https://www.semanticscholar.org/paper/Integrating-Pivy-into-Studierstube-4.2-Gruber/08c9a89c8326c87f81c2d83428029fbfb6c2ae64) [(Mirror)](https://www.researchgate.net/publication/228737136_Integrating_Pivy_into_Studierstube_42) : Un artículo que no es realmente un tutorial, pero que ilustra bien cómo funciona Pivy (requiere una cuenta académica)
 
+
+
 ## Proyectos de la comunidad 
 
 En el [Portal de la Comunidad](FreeCAD_Community_Portal/es.md), puedes encontrar otros proyectos basados en FreeCAD dirigidos por la comunidad de usuarios de FreeCAD. Si estás empezando un nuevo proyecto de FreeCAD, ¡asegúrate de listarlo allí! También tenemos una página con cosas que puedes hacer si quieres [Ayudar a FreeCAD](Help_FreeCAD/es.md).
-
--   [Literatura científica](Scientific_literature/es.md): artículos que hacen referencia o utilizan el sistema FreeCAD de diferentes maneras.
 
 
 

@@ -100,7 +100,7 @@ Le style **Filaire ombré** remplace **Display Mode** des objets. Ce style corre
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -11,9 +11,13 @@
 
 </div>
 
+
+
 ## Описание
 
 This command toggles the visibility of delta measurements in the [3D view](3D_view.md).
+
+
 
 ## Применение
 

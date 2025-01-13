@@ -115,10 +115,16 @@ Part.show(hatch)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{TechDraw Tools navi
+
+
+</div>
+
+
+{{TechDraw_Tools_navi
 
 }}
 

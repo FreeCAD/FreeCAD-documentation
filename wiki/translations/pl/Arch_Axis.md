@@ -1,73 +1,86 @@
 ---
  GuiCommand:
    Name: Arch Axis
-   MenuLocation: Arch , Axis tools , Axis
-   Workbenches: Arch_Workbench
+   Name/pl: Architektura: Osie
+   MenuLocation: Opisy , Osie
+   Workbenches: BIM_Workbench/pl
    Shortcut: **A** **X**
-   SeeAlso: Arch_AxisSystem, Arch_Grid
+   SeeAlso: Arch_AxisSystem/pl, Arch_Grid/pl
 ---
 
 # Arch Axis/pl
 
-## Description
 
-The **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis.md)** tool allows you to place a series of axes in the current document. The distance and the angle between axes is customizable, as well as the numbering style. The axes serve mainly as references to snap objects onto, but can also be used together with **<img src="images/Arch_AxisSystem.svg" width=16px> [Arch AxisSystems](Arch_AxisSystem.md)**. They can also be referenced by other Arch objects to create parametric arrays, for example of beams or columns. **<img src="images/Arch_Grid.svg" width=16px> [Arch Grids](Arch_Grid.md)** can also be used in places of axes.
+
+## Opis
+
+Narzędzie **<img src="images/Arch_Axis.svg" width=16px> '''Osie'''** pozwala na umieszczenie serii osi w bieżącym dokumencie. Odległość i kąt między osiami można dostosować, podobnie jak styl numeracji. Osie służą głównie jako odniesienia do przyciągania obiektów, ale mogą być również używane razem z **<img src="images/Arch_AxisSystem.svg" width=16px> [Układem osi](Arch_AxisSystem/pl.md)**. Mogą być one również przywoływane przez inne obiekty architektury w celu utworzenia parametrycznych szyków, na przykład belek lub słupów. Zamiast osi mozna również użyć **<img src="images/Arch_Grid.svg" width=16px> [Siatki](Arch_Grid/pl.md)**.
 
 <img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
-*Two axes objects positioned perpendicularly to each other to create a grid*
-
-## Usage
-
-1.  Press the **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis.md)** button, or press **A** then **X** keys.
-2.  [Move](Draft_Move.md)/[rotate](Draft_Rotate.md) the axes system to the desired position.
-3.  Enter edit mode by double-clicking the axes system in the tree view to adjust its settings like number of axes, distances and angles between axes.
-
-## Options
-
--   Each axis in the series has its own distance and angle in relation to the previous axis. This allows to do very complex systems such as non-orthogonal systems, polar systems or any kind of non-uniform system.
--   Double-clicking the axis in the tree view allows to edit the distances, angles and labels of each axis.
--   Axes length, size of the bubbles and numbering styles are customizable directly via the axes system\'s properties.
--   Each axis can also display a label, which is editable via the task panel dialog.
-
-## Properties
-
--    **Length**: The length of the axes
-
--    **Limit**: If greater than zero, each axis will be represented as two lines of the given length instead of one continuous line <small>(v0.20)</small> 
-
--    **Bubble Size**: The size of the axis bubbles
-
--    **Numeration style**: How the axes are numbered: 1,2,3, A,B,C, etc\...
-
--    **Bubble Position**: Where the bubble is placed on the axis: At start point, endpoint, both or none.
-
--    **Font Name**: A font to draw the bubble number and/or labels
-
--    **Font Size**: The size of the label text only (bubble text is controlled by the bubble size)
-
--    **Show Labels**: Turns the display of the label texts on/off
-
-## Use as section mark 
-
-By setting the **Bubble Position** property to **Arrow left/right** or **Bar left/right**, the axis will display a filled arrow or bar instead of the bubble, so it can be used as a section mark. <small>(v0.20)</small> 
-
-## Scripting
+*Dwie osie obiektów ustawione prostopadle do siebie w celu utworzenia siatki.*
 
 
-**See also:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Użycie
 
-The Axis tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+1.  Naciśnij przycisk **<img src="images/Arch_Axis.svg" width=16px> '''Osie'''** lub naciśnij **A**, a następnie **X** przyciski.
+2.  [Przesuń](Draft_Move/pl.md) / [Obróć](Draft_Rotate/pl.md) system osi do żądanej pozycji.
+3.  Przejdź do trybu edycji, klikając dwukrotnie układ osi w widoku drzewa, aby dostosować jego ustawienia, takie jak liczba osi, odległości i kąty między osiami.
+
+
+
+## Opcje
+
+-   Każda oś w serii ma swoją własną odległość i kąt w stosunku do poprzedniej osi. Pozwala to na tworzenie bardzo złożonych układów, takich jak układy nieortogonalne, układy biegunowe lub wszelkiego rodzaju układy niejednolite.
+-   Dwukrotne kliknięcie osi w widoku drzewa umożliwia edycję odległości, kątów i etykiet każdej osi.
+-   Długość osi, rozmiar bąbelków i style numeracji można dostosowywać bezpośrednio we właściwościach systemu osi.
+-   Każda oś może również wyświetlać etykietę, którą można edytować za pomocą okna dialogowego panelu zadań.
+
+
+
+## Właściwości
+
+-    **Długość**: Długość osi.
+
+-    **Limit**: Jeśli wartość jest większa niż zero, każda oś będzie przedstawiona jako dwie linie o danej długości zamiast jednej ciągłej linii {{Version/pl|0.20}}.
+
+-    **Rozmiar dymka**: Rozmiar dymka osi.
+
+-    **Style numerowania**: Sposób numerowania osi: 1,2,3, A,B,C, itd\...
+
+-    **Pozycja dymka**: Definiuje gdzie znajduje się dymek na osi: Na punkcie początkowym, końcowym, oba lub żaden.
+
+-    **Nazwa czcionki**: Czcionka do rysowania numeru dymka i / lub etykiet.
+
+-    **Rozmiar czcionki**: Rozmiar tekstu etykiety *(tekst dymka jest kontrolowany przez rozmiar pęcherzyka)*.
+
+-    **Wyświetl etykietę**: Włącza lub wyłącza wyświetlanie tekstów etykiet.
+
+
+
+## Użycie jako oznaczenie przekroju 
+
+Ustawiając właściwość **Pozycja dymka** na **Strzałka lewo/prawo** lub **Pasek lewo/prawo**, oś wyświetli wypełnioną strzałkę lub pasek zamiast dymka, dzięki czemu może być użyta jako oznaczenie przekroju. {{Version/pl|0.20}}
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Osi** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
 
 
 ```python
 Axes = makeAxis(num=5, size=1000, name="Axes")
 ```
 
--   Creates an `Axes` object from the given number (`num`) of axes, and `size`, the interval between each axis.
+-   Tworzy obiekt `Axes` z podanej liczby (`num`) osi i `size`, odstępu między każdą osią.
 
-Example:
+Przykład:
 
 
 ```python
@@ -95,5 +108,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/pl
+⏵ [documentation index](../README.md) > Arch Axis/pl

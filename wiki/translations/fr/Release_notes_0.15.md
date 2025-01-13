@@ -47,7 +47,7 @@ Le nouveau système [d\'unités](Quantity/fr.md) de FreeCAD, introduit dans la v
 
 
 
-## Ateliers Part Design & Sketcher 
+## Ateliers PartDesign & Sketcher 
 
 ### Ellipses
 
@@ -119,7 +119,7 @@ Pour les nostalgique des vieux logiciel CAD, les police filaire (dans lesquels c
 
 ### Export de la page en DXF 
 
-Le système utilisé pour exporter les pages de dessin au format DXF jusqu\'à présent utilisait un hack très compliqué pour convertir le code SVG en objet FreeCAD puis retour à DXF avec les projets exportateurs. Maintenant, l\'exportation est fait en interne dans le module Dessin, qui donne beaucoup plus rapidement des résultats fiables. Exportation DXF utilise maintenant un système de modèle et similaire aux feuilles SVG. Si votre page de dessin utilise un certain modèle SVG, et un modèle DXF avec le même nom est trouvé au même endroit, il est utilisé pour générer le fichier DXF.
+Le système utilisé pour exporter les pages Drawing au format DXF jusqu\'à présent utilisait un hack très compliqué pour convertir le code SVG en objet FreeCAD puis retour à DXF avec les projets exportateurs. Maintenant, l\'exportation est fait en interne dans le module Drawing, qui donne beaucoup plus rapidement des résultats fiables. L\'exportation DXF utilise maintenant un système de modèle et similaire aux feuilles SVG. Si votre page Drawing utilise un certain modèle SVG, et un modèle DXF avec le même nom est trouvé au même endroit, il est utilisé pour générer le fichier DXF.
 
 ![](images/Drawing-dxf-export.jpg )
 
@@ -153,7 +153,7 @@ Cette nouvelle fonctionnalité, [ Arc Plan de Coupe](Arch_CutPlane.md), permet d
 
 ### Nouvel outil de toit 
 
-L\'outil [Toit](Arch_Roof.md) a été complètement refait et il est désormais possible de définir des pentes différentes pour chaque côtés du toit, en outre, il est possible de définir une épaisseur de toit, la longueur du débordement.
+L\'outil [Toit](Arch_Roof/fr.md) a été complètement refait et il est désormais possible de définir des pentes différentes pour chaque côtés du toit, en outre, il est possible de définir une épaisseur de toit, la longueur du débordement.
 
 ![](images/RoofExample.png )
 

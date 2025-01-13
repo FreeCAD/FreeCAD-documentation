@@ -30,10 +30,7 @@ Der Befehl **Std ArbeitsansichtWiederherstellen** stellt die gespeicherte Arbeit
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Wiederherstellen der gespeicherten Arbeitsansicht der aktiven 3D-Ansicht:
 
@@ -48,7 +45,7 @@ FreeCADGui.runCommand("Std_RecallWorkingView", 0)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

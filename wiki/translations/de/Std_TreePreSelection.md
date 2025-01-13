@@ -22,20 +22,22 @@ Der Befehl **Std BaumVorauswahl** schaltet den Vorauswahl-Modus der [Baumansicht
 
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Den nach unten weisenden Pfeil rechts neben der Schaltfläche **<img src="images/Std_TreeSyncView.svg" width=16px>** anklicken und den Eintrag **Vorauswahl** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
-    -   Den Menüeintrag **Ansicht → Baumansicht-Aktionen → <img src="images/Std_TreePreSelection.svg" width=16px> Vorauswahl** auswählen.
+    -   Den Menüeintrag **Ansicht → Baumansicht-Aktionen → Vorauswahl** auswählen.
     -   Das Tastaturkürzel **T** dann **4**.
 
 
 
 ## Einstellungen
 
--   Der Modus Vorauswahl der Baumansicht kann auch im [Voreinstellungseditor](Preferences_Editor/de#Auswahl.md) ausgewählt werden: **Bearbeiten→ Einstellungen... → Allgemein → Auswahl**.
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Der Modus Vorauswahl der Baumansicht kann auch in den Einstellungen festgelegt werden: **Bearbeiten→ Einstellungen... → Allgemein → Auswahl → Vorauswählen des Objekts in der 3D-Ansicht, wenn die Maus über das Baumelement fährt**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

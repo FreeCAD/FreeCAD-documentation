@@ -153,12 +153,13 @@ In den folgenden Beschreibungen steht `"context"` für den Namen deines Addons o
 ```
     
 
--   Den Pfad zum eigenen Ordner `translations/` in der Initialisierten Funktion hinzufügen:
+-   In der Initialisierten Funktion den Pfad zum eigenen Ordner `translations/` hinzufügen und locale aktualisieren:
 
 :   
     
 ```python
     FreeCADGui.addLanguagePath("/path/to/translations")
+    FreeCADGui.updateLocale()
     
 ```
     
@@ -169,6 +170,7 @@ Die Datei {`InitGui.py`} hat kein Attribut **file**, so dass es nicht einfach is
     
 ```python
     FreeCADGui.addLanguagePath(os.path.join(os.path.dirname(__file__), "translations"))
+    FreeCADGui.updateLocale()
     
 ```
     

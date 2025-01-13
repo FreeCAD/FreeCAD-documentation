@@ -18,7 +18,7 @@ Ce dépôt contient une bibliothèque de pièces à utiliser dans FreeCAD. Il es
 
 ## Outils
 
-Description détaillée [ici](http://www.bolts-library.org/en/docs/0.3/freecad/usage.html)
+Description détaillée [ici](https://github.com/FreeCAD/FreeCAD-library?tab=readme-ov-file#usage)
 
 Sélecteur de Parts Library
 

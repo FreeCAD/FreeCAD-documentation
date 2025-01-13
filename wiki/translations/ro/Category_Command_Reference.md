@@ -8,67 +8,73 @@ This category contains the help pages of each of FreeCAD command.
 | [Arch 3Views/ro](Arch_3Views/ro.md) | [Arch Add/ro](Arch_Add/ro.md) | [Arch Axis/ro](Arch_Axis/ro.md) |
 | [Arch AxisSystem/ro](Arch_AxisSystem/ro.md) | [Arch Building/ro](Arch_Building/ro.md) | [Arch BuildingPart/ro](Arch_BuildingPart/ro.md) |
 | [Arch Check/ro](Arch_Check/ro.md) | [Arch CloneComponent/ro](Arch_CloneComponent/ro.md) | [Arch CloseHoles/ro](Arch_CloseHoles/ro.md) |
-| [Arch Component/ro](Arch_Component/ro.md) | [Arch Frame/ro](Arch_Frame/ro.md) | [Arch IfcExplorer/ro](Arch_IfcExplorer/ro.md) |
-| [Arch IfcSpreadsheet/ro](Arch_IfcSpreadsheet/ro.md) | [Arch MergeWalls/ro](Arch_MergeWalls/ro.md) | [Arch MeshToShape/ro](Arch_MeshToShape/ro.md) |
-| [Arch MultiMaterial/ro](Arch_MultiMaterial/ro.md) | [Arch Nest/ro](Arch_Nest/ro.md) | [Arch Panel Cut/ro](Arch_Panel_Cut/ro.md) |
-| [Arch Panel/ro](Arch_Panel/ro.md) | [Arch Pipe/ro](Arch_Pipe/ro.md) | [Arch PipeConnector/ro](Arch_PipeConnector/ro.md) |
-| [Arch Rebar BentShape/ro](Arch_Rebar_BentShape/ro.md) | [Arch Rebar Helical/ro](Arch_Rebar_Helical/ro.md) | [Arch Rebar LShape/ro](Arch_Rebar_LShape/ro.md) |
-| [Arch Rebar Stirrup/ro](Arch_Rebar_Stirrup/ro.md) | [Arch Rebar Straight/ro](Arch_Rebar_Straight/ro.md) | [Arch Rebar UShape/ro](Arch_Rebar_UShape/ro.md) |
-| [Arch Rebar/ro](Arch_Rebar/ro.md) | [Arch Reference/ro](Arch_Reference/ro.md) | [Arch Remove/ro](Arch_Remove/ro.md) |
-| [Arch RemoveShape/ro](Arch_RemoveShape/ro.md) | [Arch Roof/ro](Arch_Roof/ro.md) | [Arch Schedule/ro](Arch_Schedule/ro.md) |
-| [Arch SectionPlane/ro](Arch_SectionPlane/ro.md) | [Arch SelectNonSolidMeshes/ro](Arch_SelectNonSolidMeshes/ro.md) | [Arch SetMaterial/ro](Arch_SetMaterial/ro.md) |
-| [Arch Site/ro](Arch_Site/ro.md) | [Arch Space/ro](Arch_Space/ro.md) | [Arch SplitMesh/ro](Arch_SplitMesh/ro.md) |
-| [Arch Stairs/ro](Arch_Stairs/ro.md) | [Arch Structure/ro](Arch_Structure/ro.md) | [Arch Survey/ro](Arch_Survey/ro.md) |
-| [Arch ToggleIfcBrepFlag/ro](Arch_ToggleIfcBrepFlag/ro.md) | [Arch ToggleSubs/ro](Arch_ToggleSubs/ro.md) | [Arch Wall/ro](Arch_Wall/ro.md) |
-| [Arch Window/ro](Arch_Window/ro.md) | [BIM Box/ro](BIM_Box/ro.md) | [BIM Copy/ro](BIM_Copy/ro.md) |
-| [BIM Library/ro](BIM_Library/ro.md) | [BIM Project/ro](BIM_Project/ro.md) | [BIM Setup/ro](BIM_Setup/ro.md) |
-| [Draft AddConstruction/ro](Draft_AddConstruction/ro.md) | [Draft AddToGroup/ro](Draft_AddToGroup/ro.md) | [Draft ApplyStyle/ro](Draft_ApplyStyle/ro.md) |
-| [Draft Arc/ro](Draft_Arc/ro.md) | [Draft Array/ro](Draft_Array/ro.md) | [Draft AutoGroup/ro](Draft_AutoGroup/ro.md) |
-| [Draft BezCurve/ro](Draft_BezCurve/ro.md) | [Draft BSpline/ro](Draft_BSpline/ro.md) | [Draft Circle/ro](Draft_Circle/ro.md) |
-| [Draft Clone/ro](Draft_Clone/ro.md) | [Draft Dimension/ro](Draft_Dimension/ro.md) | [Draft Downgrade/ro](Draft_Downgrade/ro.md) |
-| [Draft Draft2Sketch/ro](Draft_Draft2Sketch/ro.md) | [Draft Drawing/ro](Draft_Drawing/ro.md) | [Draft Edit/ro](Draft_Edit/ro.md) |
-| [Draft Ellipse/ro](Draft_Ellipse/ro.md) | [Draft Facebinder/ro](Draft_Facebinder/ro.md) | [Draft FlipDimension/ro](Draft_FlipDimension/ro.md) |
-| [Draft Heal/ro](Draft_Heal/ro.md) | [Draft Label/ro](Draft_Label/ro.md) | [Draft Line/ro](Draft_Line/ro.md) |
-| [Draft Mirror/ro](Draft_Mirror/ro.md) | [Draft Move/ro](Draft_Move/ro.md) | [Draft Offset/ro](Draft_Offset/ro.md) |
-| [Draft PathArray/ro](Draft_PathArray/ro.md) | [Draft Point/ro](Draft_Point/ro.md) | [Draft PointArray/ro](Draft_PointArray/ro.md) |
-| [Draft Polygon/ro](Draft_Polygon/ro.md) | [Draft Rectangle/ro](Draft_Rectangle/ro.md) | [Draft Rotate/ro](Draft_Rotate/ro.md) |
-| [Draft Scale/ro](Draft_Scale/ro.md) | [Draft SelectGroup/ro](Draft_SelectGroup/ro.md) | [Draft SelectPlane/ro](Draft_SelectPlane/ro.md) |
-| [Draft Shape2DView/ro](Draft_Shape2DView/ro.md) | [Draft ShapeString/ro](Draft_ShapeString/ro.md) | [Draft ShowSnapBar/ro](Draft_ShowSnapBar/ro.md) |
-| [Draft Slope/ro](Draft_Slope/ro.md) | [Draft Snap Angle/ro](Draft_Snap_Angle/ro.md) | [Draft Snap Center/ro](Draft_Snap_Center/ro.md) |
-| [Draft Snap Endpoint/ro](Draft_Snap_Endpoint/ro.md) | [Draft Snap Extension/ro](Draft_Snap_Extension/ro.md) | [Draft Snap Grid/ro](Draft_Snap_Grid/ro.md) |
-| [Draft Snap Intersection/ro](Draft_Snap_Intersection/ro.md) | [Draft Snap Lock/ro](Draft_Snap_Lock/ro.md) | [Draft Snap Midpoint/ro](Draft_Snap_Midpoint/ro.md) |
-| [Draft Snap Near/ro](Draft_Snap_Near/ro.md) | [Draft Snap Parallel/ro](Draft_Snap_Parallel/ro.md) | [Draft Snap Special/ro](Draft_Snap_Special/ro.md) |
-| [Draft Snap WorkingPlane/ro](Draft_Snap_WorkingPlane/ro.md) | [Draft Stretch/ro](Draft_Stretch/ro.md) | [Draft Text/ro](Draft_Text/ro.md) |
-| [Draft ToggleConstructionMode/ro](Draft_ToggleConstructionMode/ro.md) | [Draft ToggleContinueMode/ro](Draft_ToggleContinueMode/ro.md) | [Draft ToggleDisplayMode/ro](Draft_ToggleDisplayMode/ro.md) |
-| [Draft ToggleGrid/ro](Draft_ToggleGrid/ro.md) | [Draft Trimex/ro](Draft_Trimex/ro.md) | [Draft Upgrade/ro](Draft_Upgrade/ro.md) |
-| [Draft Wire/ro](Draft_Wire/ro.md) | [Draft WireToBSpline/ro](Draft_WireToBSpline/ro.md) | [Draft WorkingPlaneProxy/ro](Draft_WorkingPlaneProxy/ro.md) |
-| [Drawing Annotation/ro](Drawing_Annotation/ro.md) | [Drawing Clip/ro](Drawing_Clip/ro.md) | [Drawing Landscape A3/ro](Drawing_Landscape_A3/ro.md) |
-| [Drawing Open SVG/ro](Drawing_Open_SVG/ro.md) | [Drawing Openbrowser/ro](Drawing_Openbrowser/ro.md) | [Drawing Orthoviews/ro](Drawing_Orthoviews/ro.md) |
-| [Drawing ProjectShape/ro](Drawing_ProjectShape/ro.md) | [Drawing Save/ro](Drawing_Save/ro.md) | [Drawing SpreadsheetView/ro](Drawing_SpreadsheetView/ro.md) |
-| [Drawing Symbol/ro](Drawing_Symbol/ro.md) | [Drawing View/ro](Drawing_View/ro.md) | [FEM Analysis/ro](FEM_Analysis/ro.md) |
-| [FEM ConstraintBearing/ro](FEM_ConstraintBearing/ro.md) | [FEM ConstraintContact/ro](FEM_ConstraintContact/ro.md) | [FEM ConstraintDisplacement/ro](FEM_ConstraintDisplacement/ro.md) |
-| [FEM ConstraintFixed/ro](FEM_ConstraintFixed/ro.md) | [FEM ConstraintForce/ro](FEM_ConstraintForce/ro.md) | [FEM ConstraintHeatflux/ro](FEM_ConstraintHeatflux/ro.md) |
-| [FEM ConstraintInitialTemperature/ro](FEM_ConstraintInitialTemperature/ro.md) | [FEM ConstraintPlaneRotation/ro](FEM_ConstraintPlaneRotation/ro.md) | [FEM ConstraintPressure/ro](FEM_ConstraintPressure/ro.md) |
-| [FEM ConstraintPulley/ro](FEM_ConstraintPulley/ro.md) | [FEM ConstraintSelfWeight/ro](FEM_ConstraintSelfWeight/ro.md) | [FEM ConstraintTemperature/ro](FEM_ConstraintTemperature/ro.md) |
-| [FEM ConstraintTransform/ro](FEM_ConstraintTransform/ro.md) | [FEM CreateNodesSet/ro](FEM_CreateNodesSet/ro.md) | [FEM ElementFluid1D/ro](FEM_ElementFluid1D/ro.md) |
-| [FEM ElementGeometry1D/ro](FEM_ElementGeometry1D/ro.md) | [FEM ElementGeometry2D/ro](FEM_ElementGeometry2D/ro.md) | [FEM ElementRotation1D/ro](FEM_ElementRotation1D/ro.md) |
-| [FEM EquationElasticity/ro](FEM_EquationElasticity/ro.md) | [FEM EquationFlow/ro](FEM_EquationFlow/ro.md) | [FEM EquationFlux/ro](FEM_EquationFlux/ro.md) |
-| [FEM EquationHeat/ro](FEM_EquationHeat/ro.md) | [FEM FemMesh2Mesh/ro](FEM_FemMesh2Mesh/ro.md) | [FEM MaterialEditor/ro](FEM_MaterialEditor/ro.md) |
-| [FEM MaterialFluid/ro](FEM_MaterialFluid/ro.md) | [FEM MaterialMechanicalNonlinear/ro](FEM_MaterialMechanicalNonlinear/ro.md) | [FEM MaterialSolid/ro](FEM_MaterialSolid/ro.md) |
-| [FEM PostPipelineFromResult/ro](FEM_PostPipelineFromResult/ro.md) | [FEM SolverCalculixCxxtools/ro](FEM_SolverCalculixCxxtools/ro.md) | [FEM SolverZ88/ro](FEM_SolverZ88/ro.md) |
-| [GuiCommand model/ro](GuiCommand_model/ro.md) | [Template:GuiCommand/ro](Template_GuiCommand/ro.md) | [Template:GuiCommandAddon/ro](Template_GuiCommandAddon/ro.md) |
-| [Mesh BoundingBox/ro](Mesh_BoundingBox/ro.md) | [Mesh BuildRegularSolid/ro](Mesh_BuildRegularSolid/ro.md) | [Mesh Difference/ro](Mesh_Difference/ro.md) |
-| [Mesh EvaluateFacet/ro](Mesh_EvaluateFacet/ro.md) | [Mesh Export/ro](Mesh_Export/ro.md) | [Mesh FillInteractiveHole/ro](Mesh_FillInteractiveHole/ro.md) |
-| [Mesh FlipNormals/ro](Mesh_FlipNormals/ro.md) | [Mesh FromPartShape/ro](Mesh_FromPartShape/ro.md) | [Mesh HarmonizeNormals/ro](Mesh_HarmonizeNormals/ro.md) |
-| [Mesh Import/ro](Mesh_Import/ro.md) | [Mesh Intersection/ro](Mesh_Intersection/ro.md) | [Mesh Merge/ro](Mesh_Merge/ro.md) |
-| [Mesh RemoveComponents/ro](Mesh_RemoveComponents/ro.md) | [Mesh Union/ro](Mesh_Union/ro.md) | [OpenSCAD AddOpenSCADElement/ro](OpenSCAD_AddOpenSCADElement/ro.md) |
-| [OpenSCAD ColorCodeShape/ro](OpenSCAD_ColorCodeShape/ro.md) | [OpenSCAD Edgestofaces/ro](OpenSCAD_Edgestofaces/ro.md) | [OpenSCAD ExplodeGroup/ro](OpenSCAD_ExplodeGroup/ro.md) |
-| [OpenSCAD Hull/ro](OpenSCAD_Hull/ro.md) | [OpenSCAD IncreaseToleranceFeature/ro](OpenSCAD_IncreaseToleranceFeature/ro.md) | [OpenSCAD MeshBoolean/ro](OpenSCAD_MeshBoolean/ro.md) |
-| [OpenSCAD Minkowski/ro](OpenSCAD_Minkowski/ro.md) | [OpenSCAD RefineShapeFeature/ro](OpenSCAD_RefineShapeFeature/ro.md) | [OpenSCAD RemoveSubtree/ro](OpenSCAD_RemoveSubtree/ro.md) |
-| [OpenSCAD ReplaceObject/ro](OpenSCAD_ReplaceObject/ro.md) | [Part Boolean/ro](Part_Boolean/ro.md) | [Part BooleanFragments/ro](Part_BooleanFragments/ro.md) |
-| [Part Box/ro](Part_Box/ro.md) | [Part Builder/ro](Part_Builder/ro.md) | [Part Chamfer/ro](Part_Chamfer/ro.md) |
-| [Part CheckGeometry/ro](Part_CheckGeometry/ro.md) | [Part Circle/ro](Part_Circle/ro.md) | [Part Common/ro](Part_Common/ro.md) |
-| [Part CompJoinFeatures/ro](Part_CompJoinFeatures/ro.md) | [Part Compound/ro](Part_Compound/ro.md) | [Part CompoundFilter/ro](Part_CompoundFilter/ro.md) |
+| [Arch Component/ro](Arch_Component/ro.md) | [Arch Frame/ro](Arch_Frame/ro.md) | [Arch IfcSpreadsheet/ro](Arch_IfcSpreadsheet/ro.md) |
+| [Arch MergeWalls/ro](Arch_MergeWalls/ro.md) | [Arch MeshToShape/ro](Arch_MeshToShape/ro.md) | [Arch MultiMaterial/ro](Arch_MultiMaterial/ro.md) |
+| [Arch Nest/ro](Arch_Nest/ro.md) | [Arch Panel Cut/ro](Arch_Panel_Cut/ro.md) | [Arch Panel/ro](Arch_Panel/ro.md) |
+| [Arch Pipe/ro](Arch_Pipe/ro.md) | [Arch PipeConnector/ro](Arch_PipeConnector/ro.md) | [Arch Rebar/ro](Arch_Rebar/ro.md) |
+| [Arch Reference/ro](Arch_Reference/ro.md) | [Arch Remove/ro](Arch_Remove/ro.md) | [Arch RemoveShape/ro](Arch_RemoveShape/ro.md) |
+| [Arch Roof/ro](Arch_Roof/ro.md) | [Arch Schedule/ro](Arch_Schedule/ro.md) | [Arch SectionPlane/ro](Arch_SectionPlane/ro.md) |
+| [Arch SelectNonSolidMeshes/ro](Arch_SelectNonSolidMeshes/ro.md) | [Arch SetMaterial/ro](Arch_SetMaterial/ro.md) | [Arch Site/ro](Arch_Site/ro.md) |
+| [Arch Space/ro](Arch_Space/ro.md) | [Arch SplitMesh/ro](Arch_SplitMesh/ro.md) | [Arch Stairs/ro](Arch_Stairs/ro.md) |
+| [Arch Structure/ro](Arch_Structure/ro.md) | [Arch Survey/ro](Arch_Survey/ro.md) | [Arch ToggleIfcBrepFlag/ro](Arch_ToggleIfcBrepFlag/ro.md) |
+| [Arch ToggleSubs/ro](Arch_ToggleSubs/ro.md) | [Arch Wall/ro](Arch_Wall/ro.md) | [Arch Window/ro](Arch_Window/ro.md) |
+| [BIM Box/ro](BIM_Box/ro.md) | [BIM Copy/ro](BIM_Copy/ro.md) | [BIM IfcExplorer/ro](BIM_IfcExplorer/ro.md) |
+| [BIM Library/ro](BIM_Library/ro.md) | [BIM ProjectManager/ro](BIM_ProjectManager/ro.md) | [BIM Setup/ro](BIM_Setup/ro.md) |
+| [CAM Array/ro](CAM_Array/ro.md) | [CAM Comment/ro](CAM_Comment/ro.md) | [CAM Copy/ro](CAM_Copy/ro.md) |
+| [CAM Custom/ro](CAM_Custom/ro.md) | [CAM DressupDogbone/ro](CAM_DressupDogbone/ro.md) | [CAM DressupDragKnife/ro](CAM_DressupDragKnife/ro.md) |
+| [CAM DressupRampEntry/ro](CAM_DressupRampEntry/ro.md) | [CAM DressupTag/ro](CAM_DressupTag/ro.md) | [CAM Drilling/ro](CAM_Drilling/ro.md) |
+| [CAM Engrave/ro](CAM_Engrave/ro.md) | [CAM ExportTemplate/ro](CAM_ExportTemplate/ro.md) | [CAM Fixture/ro](CAM_Fixture/ro.md) |
+| [CAM Helix/ro](CAM_Helix/ro.md) | [CAM Inspect/ro](CAM_Inspect/ro.md) | [CAM Job/ro](CAM_Job/ro.md) |
+| [CAM MillFace/ro](CAM_MillFace/ro.md) | [CAM Pocket 3D/ro](CAM_Pocket_3D/ro.md) | [CAM Post/ro](CAM_Post/ro.md) |
+| [CAM Profile/ro](CAM_Profile/ro.md) | [CAM SelectLoop/ro](CAM_SelectLoop/ro.md) | [CAM Shape/ro](CAM_Shape/ro.md) |
+| [CAM SimpleCopy/ro](CAM_SimpleCopy/ro.md) | [CAM Simulator/ro](CAM_Simulator/ro.md) | [CAM Stop/ro](CAM_Stop/ro.md) |
+| [CAM Surface/ro](CAM_Surface/ro.md) | [Draft AddConstruction/ro](Draft_AddConstruction/ro.md) | [Draft AddToGroup/ro](Draft_AddToGroup/ro.md) |
+| [Draft ApplyStyle/ro](Draft_ApplyStyle/ro.md) | [Draft Arc/ro](Draft_Arc/ro.md) | [Draft Array/ro](Draft_Array/ro.md) |
+| [Draft AutoGroup/ro](Draft_AutoGroup/ro.md) | [Draft BezCurve/ro](Draft_BezCurve/ro.md) | [Draft BSpline/ro](Draft_BSpline/ro.md) |
+| [Draft Circle/ro](Draft_Circle/ro.md) | [Draft Clone/ro](Draft_Clone/ro.md) | [Draft Dimension/ro](Draft_Dimension/ro.md) |
+| [Draft Downgrade/ro](Draft_Downgrade/ro.md) | [Draft Draft2Sketch/ro](Draft_Draft2Sketch/ro.md) | [Draft Drawing/ro](Draft_Drawing/ro.md) |
+| [Draft Edit/ro](Draft_Edit/ro.md) | [Draft Ellipse/ro](Draft_Ellipse/ro.md) | [Draft Facebinder/ro](Draft_Facebinder/ro.md) |
+| [Draft FlipDimension/ro](Draft_FlipDimension/ro.md) | [Draft Heal/ro](Draft_Heal/ro.md) | [Draft Label/ro](Draft_Label/ro.md) |
+| [Draft Line/ro](Draft_Line/ro.md) | [Draft Mirror/ro](Draft_Mirror/ro.md) | [Draft Move/ro](Draft_Move/ro.md) |
+| [Draft Offset/ro](Draft_Offset/ro.md) | [Draft PathArray/ro](Draft_PathArray/ro.md) | [Draft Point/ro](Draft_Point/ro.md) |
+| [Draft PointArray/ro](Draft_PointArray/ro.md) | [Draft Polygon/ro](Draft_Polygon/ro.md) | [Draft Rectangle/ro](Draft_Rectangle/ro.md) |
+| [Draft Rotate/ro](Draft_Rotate/ro.md) | [Draft Scale/ro](Draft_Scale/ro.md) | [Draft SelectGroup/ro](Draft_SelectGroup/ro.md) |
+| [Draft SelectPlane/ro](Draft_SelectPlane/ro.md) | [Draft Shape2DView/ro](Draft_Shape2DView/ro.md) | [Draft ShapeString/ro](Draft_ShapeString/ro.md) |
+| [Draft ShowSnapBar/ro](Draft_ShowSnapBar/ro.md) | [Draft Slope/ro](Draft_Slope/ro.md) | [Draft Snap Angle/ro](Draft_Snap_Angle/ro.md) |
+| [Draft Snap Center/ro](Draft_Snap_Center/ro.md) | [Draft Snap Endpoint/ro](Draft_Snap_Endpoint/ro.md) | [Draft Snap Extension/ro](Draft_Snap_Extension/ro.md) |
+| [Draft Snap Grid/ro](Draft_Snap_Grid/ro.md) | [Draft Snap Intersection/ro](Draft_Snap_Intersection/ro.md) | [Draft Snap Lock/ro](Draft_Snap_Lock/ro.md) |
+| [Draft Snap Midpoint/ro](Draft_Snap_Midpoint/ro.md) | [Draft Snap Near/ro](Draft_Snap_Near/ro.md) | [Draft Snap Parallel/ro](Draft_Snap_Parallel/ro.md) |
+| [Draft Snap Special/ro](Draft_Snap_Special/ro.md) | [Draft Snap WorkingPlane/ro](Draft_Snap_WorkingPlane/ro.md) | [Draft Stretch/ro](Draft_Stretch/ro.md) |
+| [Draft Text/ro](Draft_Text/ro.md) | [Draft ToggleConstructionMode/ro](Draft_ToggleConstructionMode/ro.md) | [Draft ToggleContinueMode/ro](Draft_ToggleContinueMode/ro.md) |
+| [Draft ToggleDisplayMode/ro](Draft_ToggleDisplayMode/ro.md) | [Draft ToggleGrid/ro](Draft_ToggleGrid/ro.md) | [Draft Trimex/ro](Draft_Trimex/ro.md) |
+| [Draft Upgrade/ro](Draft_Upgrade/ro.md) | [Draft Wire/ro](Draft_Wire/ro.md) | [Draft WireToBSpline/ro](Draft_WireToBSpline/ro.md) |
+| [Draft WorkingPlaneProxy/ro](Draft_WorkingPlaneProxy/ro.md) | [Drawing Annotation/ro](Drawing_Annotation/ro.md) | [Drawing Clip/ro](Drawing_Clip/ro.md) |
+| [Drawing Landscape A3/ro](Drawing_Landscape_A3/ro.md) | [Drawing Open SVG/ro](Drawing_Open_SVG/ro.md) | [Drawing Openbrowser/ro](Drawing_Openbrowser/ro.md) |
+| [Drawing Orthoviews/ro](Drawing_Orthoviews/ro.md) | [Drawing ProjectShape/ro](Drawing_ProjectShape/ro.md) | [Drawing Save/ro](Drawing_Save/ro.md) |
+| [Drawing SpreadsheetView/ro](Drawing_SpreadsheetView/ro.md) | [Drawing Symbol/ro](Drawing_Symbol/ro.md) | [Drawing View/ro](Drawing_View/ro.md) |
+| [FEM Analysis/ro](FEM_Analysis/ro.md) | [FEM ConstraintBearing/ro](FEM_ConstraintBearing/ro.md) | [FEM ConstraintContact/ro](FEM_ConstraintContact/ro.md) |
+| [FEM ConstraintDisplacement/ro](FEM_ConstraintDisplacement/ro.md) | [FEM ConstraintFixed/ro](FEM_ConstraintFixed/ro.md) | [FEM ConstraintForce/ro](FEM_ConstraintForce/ro.md) |
+| [FEM ConstraintHeatflux/ro](FEM_ConstraintHeatflux/ro.md) | [FEM ConstraintInitialTemperature/ro](FEM_ConstraintInitialTemperature/ro.md) | [FEM ConstraintPlaneRotation/ro](FEM_ConstraintPlaneRotation/ro.md) |
+| [FEM ConstraintPressure/ro](FEM_ConstraintPressure/ro.md) | [FEM ConstraintPulley/ro](FEM_ConstraintPulley/ro.md) | [FEM ConstraintSelfWeight/ro](FEM_ConstraintSelfWeight/ro.md) |
+| [FEM ConstraintTemperature/ro](FEM_ConstraintTemperature/ro.md) | [FEM ConstraintTransform/ro](FEM_ConstraintTransform/ro.md) | [FEM CreateNodesSet/ro](FEM_CreateNodesSet/ro.md) |
+| [FEM ElementFluid1D/ro](FEM_ElementFluid1D/ro.md) | [FEM ElementGeometry1D/ro](FEM_ElementGeometry1D/ro.md) | [FEM ElementGeometry2D/ro](FEM_ElementGeometry2D/ro.md) |
+| [FEM ElementRotation1D/ro](FEM_ElementRotation1D/ro.md) | [FEM EquationElasticity/ro](FEM_EquationElasticity/ro.md) | [FEM EquationFlow/ro](FEM_EquationFlow/ro.md) |
+| [FEM EquationFlux/ro](FEM_EquationFlux/ro.md) | [FEM EquationHeat/ro](FEM_EquationHeat/ro.md) | [FEM FemMesh2Mesh/ro](FEM_FemMesh2Mesh/ro.md) |
+| [FEM MaterialEditor/ro](FEM_MaterialEditor/ro.md) | [FEM MaterialFluid/ro](FEM_MaterialFluid/ro.md) | [FEM MaterialMechanicalNonlinear/ro](FEM_MaterialMechanicalNonlinear/ro.md) |
+| [FEM MaterialSolid/ro](FEM_MaterialSolid/ro.md) | [FEM PostPipelineFromResult/ro](FEM_PostPipelineFromResult/ro.md) | [FEM SolverCalculixCxxtools/ro](FEM_SolverCalculixCxxtools/ro.md) |
+| [FEM SolverZ88/ro](FEM_SolverZ88/ro.md) | [GuiCommand model/ro](GuiCommand_model/ro.md) | [Template:GuiCommand/ro](Template_GuiCommand/ro.md) |
+| [Template:GuiCommandAddon/ro](Template_GuiCommandAddon/ro.md) | [Mesh BoundingBox/ro](Mesh_BoundingBox/ro.md) | [Mesh BuildRegularSolid/ro](Mesh_BuildRegularSolid/ro.md) |
+| [Mesh Difference/ro](Mesh_Difference/ro.md) | [Mesh EvaluateFacet/ro](Mesh_EvaluateFacet/ro.md) | [Mesh Export/ro](Mesh_Export/ro.md) |
+| [Mesh FillInteractiveHole/ro](Mesh_FillInteractiveHole/ro.md) | [Mesh FlipNormals/ro](Mesh_FlipNormals/ro.md) | [Mesh FromPartShape/ro](Mesh_FromPartShape/ro.md) |
+| [Mesh HarmonizeNormals/ro](Mesh_HarmonizeNormals/ro.md) | [Mesh Import/ro](Mesh_Import/ro.md) | [Mesh Intersection/ro](Mesh_Intersection/ro.md) |
+| [Mesh Merge/ro](Mesh_Merge/ro.md) | [Mesh RemoveComponents/ro](Mesh_RemoveComponents/ro.md) | [Mesh Union/ro](Mesh_Union/ro.md) |
+| [OpenSCAD AddOpenSCADElement/ro](OpenSCAD_AddOpenSCADElement/ro.md) | [OpenSCAD ColorCodeShape/ro](OpenSCAD_ColorCodeShape/ro.md) | [OpenSCAD Edgestofaces/ro](OpenSCAD_Edgestofaces/ro.md) |
+| [OpenSCAD ExplodeGroup/ro](OpenSCAD_ExplodeGroup/ro.md) | [OpenSCAD Hull/ro](OpenSCAD_Hull/ro.md) | [OpenSCAD IncreaseToleranceFeature/ro](OpenSCAD_IncreaseToleranceFeature/ro.md) |
+| [OpenSCAD MeshBoolean/ro](OpenSCAD_MeshBoolean/ro.md) | [OpenSCAD Minkowski/ro](OpenSCAD_Minkowski/ro.md) | [OpenSCAD RefineShapeFeature/ro](OpenSCAD_RefineShapeFeature/ro.md) |
+| [OpenSCAD RemoveSubtree/ro](OpenSCAD_RemoveSubtree/ro.md) | [OpenSCAD ReplaceObject/ro](OpenSCAD_ReplaceObject/ro.md) | [Part Boolean/ro](Part_Boolean/ro.md) |
+| [Part BooleanFragments/ro](Part_BooleanFragments/ro.md) | [Part Box/ro](Part_Box/ro.md) | [Part Builder/ro](Part_Builder/ro.md) |
+| [Part Chamfer/ro](Part_Chamfer/ro.md) | [Part CheckGeometry/ro](Part_CheckGeometry/ro.md) | [Part Circle/ro](Part_Circle/ro.md) |
+| [Part Common/ro](Part_Common/ro.md) | [Part Compound/ro](Part_Compound/ro.md) | [Part CompoundFilter/ro](Part_CompoundFilter/ro.md) |
 | [Part Cone/ro](Part_Cone/ro.md) | [Part CrossSections/ro](Part_CrossSections/ro.md) | [Part Cut/ro](Part_Cut/ro.md) |
 | [Part Cylinder/ro](Part_Cylinder/ro.md) | [Part EditAttachment/ro](Part_EditAttachment/ro.md) | [Part Ellipse/ro](Part_Ellipse/ro.md) |
 | [Part Ellipsoid/ro](Part_Ellipsoid/ro.md) | [Part Extrude/ro](Part_Extrude/ro.md) | [Part Fillet/ro](Part_Fillet/ro.md) |
@@ -88,32 +94,25 @@ This category contains the help pages of each of FreeCAD command.
 | [PartDesign AdditiveLoft/ro](PartDesign_AdditiveLoft/ro.md) | [PartDesign AdditivePipe/ro](PartDesign_AdditivePipe/ro.md) | [PartDesign AdditivePrism/ro](PartDesign_AdditivePrism/ro.md) |
 | [PartDesign AdditiveSphere/ro](PartDesign_AdditiveSphere/ro.md) | [PartDesign AdditiveTorus/ro](PartDesign_AdditiveTorus/ro.md) | [PartDesign AdditiveWedge/ro](PartDesign_AdditiveWedge/ro.md) |
 | [PartDesign Body/ro](PartDesign_Body/ro.md) | [PartDesign Boolean/ro](PartDesign_Boolean/ro.md) | [PartDesign Chamfer/ro](PartDesign_Chamfer/ro.md) |
-| [PartDesign Clone/ro](PartDesign_Clone/ro.md) | [PartDesign CompPrimitiveAdditive/ro](PartDesign_CompPrimitiveAdditive/ro.md) | [PartDesign CompPrimitiveSubtractive/ro](PartDesign_CompPrimitiveSubtractive/ro.md) |
-| [PartDesign Draft/ro](PartDesign_Draft/ro.md) | [PartDesign Fillet/ro](PartDesign_Fillet/ro.md) | [PartDesign Groove/ro](PartDesign_Groove/ro.md) |
-| [PartDesign Hole/ro](PartDesign_Hole/ro.md) | [PartDesign InvoluteGear/ro](PartDesign_InvoluteGear/ro.md) | [PartDesign Line/ro](PartDesign_Line/ro.md) |
-| [PartDesign LinearPattern/ro](PartDesign_LinearPattern/ro.md) | [PartDesign Migrate/ro](PartDesign_Migrate/ro.md) | [PartDesign Mirrored/ro](PartDesign_Mirrored/ro.md) |
-| [PartDesign MoveFeature/ro](PartDesign_MoveFeature/ro.md) | [PartDesign MoveFeatureInTree/ro](PartDesign_MoveFeatureInTree/ro.md) | [PartDesign MoveTip/ro](PartDesign_MoveTip/ro.md) |
-| [PartDesign MultiTransform/ro](PartDesign_MultiTransform/ro.md) | [PartDesign NewSketch/ro](PartDesign_NewSketch/ro.md) | [PartDesign Pad/ro](PartDesign_Pad/ro.md) |
-| [PartDesign Plane/ro](PartDesign_Plane/ro.md) | [PartDesign Pocket/ro](PartDesign_Pocket/ro.md) | [PartDesign Point/ro](PartDesign_Point/ro.md) |
-| [PartDesign PolarPattern/ro](PartDesign_PolarPattern/ro.md) | [PartDesign Revolution/ro](PartDesign_Revolution/ro.md) | [PartDesign Scaled/ro](PartDesign_Scaled/ro.md) |
-| [PartDesign ShapeBinder/ro](PartDesign_ShapeBinder/ro.md) | [PartDesign SubtractiveBox/ro](PartDesign_SubtractiveBox/ro.md) | [PartDesign SubtractiveCone/ro](PartDesign_SubtractiveCone/ro.md) |
-| [PartDesign SubtractiveCylinder/ro](PartDesign_SubtractiveCylinder/ro.md) | [PartDesign SubtractiveEllipsoid/ro](PartDesign_SubtractiveEllipsoid/ro.md) | [PartDesign SubtractiveLoft/ro](PartDesign_SubtractiveLoft/ro.md) |
-| [PartDesign SubtractivePipe/ro](PartDesign_SubtractivePipe/ro.md) | [PartDesign SubtractivePrism/ro](PartDesign_SubtractivePrism/ro.md) | [PartDesign SubtractiveSphere/ro](PartDesign_SubtractiveSphere/ro.md) |
-| [PartDesign SubtractiveTorus/ro](PartDesign_SubtractiveTorus/ro.md) | [PartDesign SubtractiveWedge/ro](PartDesign_SubtractiveWedge/ro.md) | [PartDesign Thickness/ro](PartDesign_Thickness/ro.md) |
-| [PartDesign WizardShaft/ro](PartDesign_WizardShaft/ro.md) | [Path Array/ro](Path_Array/ro.md) | [Path Comment/ro](Path_Comment/ro.md) |
-| [Path Copy/ro](Path_Copy/ro.md) | [Path Custom/ro](Path_Custom/ro.md) | [Path DressupDogbone/ro](Path_DressupDogbone/ro.md) |
-| [Path DressupDragKnife/ro](Path_DressupDragKnife/ro.md) | [Path DressupRampEntry/ro](Path_DressupRampEntry/ro.md) | [Path DressupTag/ro](Path_DressupTag/ro.md) |
-| [Path Drilling/ro](Path_Drilling/ro.md) | [Path Engrave/ro](Path_Engrave/ro.md) | [Path ExportTemplate/ro](Path_ExportTemplate/ro.md) |
-| [Path Fixture/ro](Path_Fixture/ro.md) | [Path Helix/ro](Path_Helix/ro.md) | [Path Inspect/ro](Path_Inspect/ro.md) |
-| [Path Job/ro](Path_Job/ro.md) | [Path MillFace/ro](Path_MillFace/ro.md) | [Path Pocket 3D/ro](Path_Pocket_3D/ro.md) |
-| [Path Post/ro](Path_Post/ro.md) | [Path Profile/ro](Path_Profile/ro.md) | [Path SelectLoop/ro](Path_SelectLoop/ro.md) |
-| [Path Shape/ro](Path_Shape/ro.md) | [Path SimpleCopy/ro](Path_SimpleCopy/ro.md) | [Path Simulator/ro](Path_Simulator/ro.md) |
-| [Path Stop/ro](Path_Stop/ro.md) | [Path Surface/ro](Path_Surface/ro.md) | [Plot Axes/ro](Plot_Axes/ro.md) |
+| [PartDesign Clone/ro](PartDesign_Clone/ro.md) | [PartDesign Draft/ro](PartDesign_Draft/ro.md) | [PartDesign Fillet/ro](PartDesign_Fillet/ro.md) |
+| [PartDesign Groove/ro](PartDesign_Groove/ro.md) | [PartDesign Hole/ro](PartDesign_Hole/ro.md) | [PartDesign InvoluteGear/ro](PartDesign_InvoluteGear/ro.md) |
+| [PartDesign Line/ro](PartDesign_Line/ro.md) | [PartDesign LinearPattern/ro](PartDesign_LinearPattern/ro.md) | [PartDesign Migrate/ro](PartDesign_Migrate/ro.md) |
+| [PartDesign Mirrored/ro](PartDesign_Mirrored/ro.md) | [PartDesign MoveFeature/ro](PartDesign_MoveFeature/ro.md) | [PartDesign MoveFeatureInTree/ro](PartDesign_MoveFeatureInTree/ro.md) |
+| [PartDesign MoveTip/ro](PartDesign_MoveTip/ro.md) | [PartDesign MultiTransform/ro](PartDesign_MultiTransform/ro.md) | [PartDesign NewSketch/ro](PartDesign_NewSketch/ro.md) |
+| [PartDesign Pad/ro](PartDesign_Pad/ro.md) | [PartDesign Plane/ro](PartDesign_Plane/ro.md) | [PartDesign Pocket/ro](PartDesign_Pocket/ro.md) |
+| [PartDesign Point/ro](PartDesign_Point/ro.md) | [PartDesign PolarPattern/ro](PartDesign_PolarPattern/ro.md) | [PartDesign Revolution/ro](PartDesign_Revolution/ro.md) |
+| [PartDesign Scaled/ro](PartDesign_Scaled/ro.md) | [PartDesign ShapeBinder/ro](PartDesign_ShapeBinder/ro.md) | [PartDesign SubtractiveBox/ro](PartDesign_SubtractiveBox/ro.md) |
+| [PartDesign SubtractiveCone/ro](PartDesign_SubtractiveCone/ro.md) | [PartDesign SubtractiveCylinder/ro](PartDesign_SubtractiveCylinder/ro.md) | [PartDesign SubtractiveEllipsoid/ro](PartDesign_SubtractiveEllipsoid/ro.md) |
+| [PartDesign SubtractiveLoft/ro](PartDesign_SubtractiveLoft/ro.md) | [PartDesign SubtractivePipe/ro](PartDesign_SubtractivePipe/ro.md) | [PartDesign SubtractivePrism/ro](PartDesign_SubtractivePrism/ro.md) |
+| [PartDesign SubtractiveSphere/ro](PartDesign_SubtractiveSphere/ro.md) | [PartDesign SubtractiveTorus/ro](PartDesign_SubtractiveTorus/ro.md) | [PartDesign SubtractiveWedge/ro](PartDesign_SubtractiveWedge/ro.md) |
+| [PartDesign Thickness/ro](PartDesign_Thickness/ro.md) | [PartDesign WizardShaft/ro](PartDesign_WizardShaft/ro.md) | [Plot Axes/ro](Plot_Axes/ro.md) |
 | [Plot Grid/ro](Plot_Grid/ro.md) | [Plot Labels/ro](Plot_Labels/ro.md) | [Plot Legend/ro](Plot_Legend/ro.md) |
 | [Plot Positions/ro](Plot_Positions/ro.md) | [Plot Save/ro](Plot_Save/ro.md) | [Plot Series/ro](Plot_Series/ro.md) |
 | [Raytracing ExportProject/ro](Raytracing_ExportProject/ro.md) | [Raytracing InsertPart/ro](Raytracing_InsertPart/ro.md) | [Raytracing Lux/ro](Raytracing_Lux/ro.md) |
 | [Raytracing New/ro](Raytracing_New/ro.md) | [Raytracing Render/ro](Raytracing_Render/ro.md) | [Raytracing ResetCamera/ro](Raytracing_ResetCamera/ro.md) |
 | [Raytracing WriteCamera/ro](Raytracing_WriteCamera/ro.md) | [Raytracing WritePart/ro](Raytracing_WritePart/ro.md) | [Raytracing WriteView/ro](Raytracing_WriteView/ro.md) |
+| [Reinforcement BentShapeRebar/ro](Reinforcement_BentShapeRebar/ro.md) | [Reinforcement HelicalRebar/ro](Reinforcement_HelicalRebar/ro.md) | [Reinforcement LShapeRebar/ro](Reinforcement_LShapeRebar/ro.md) |
+| [Reinforcement StirrupRebar/ro](Reinforcement_StirrupRebar/ro.md) | [Reinforcement StraightRebar/ro](Reinforcement_StraightRebar/ro.md) | [Reinforcement UShapeRebar/ro](Reinforcement_UShapeRebar/ro.md) |
 | [Robot CreateRobot/ro](Robot_CreateRobot/ro.md) | [Robot CreateTrajectory/ro](Robot_CreateTrajectory/ro.md) | [Robot Edge2Trac/ro](Robot_Edge2Trac/ro.md) |
 | [Robot Export/ro](Robot_Export/ro.md) | [Robot InsertWaypoint/ro](Robot_InsertWaypoint/ro.md) | [Robot InsertWaypointPre/ro](Robot_InsertWaypointPre/ro.md) |
 | [Robot RestoreHomePos/ro](Robot_RestoreHomePos/ro.md) | [Robot SetDefaultOrientation/ro](Robot_SetDefaultOrientation/ro.md) | [Robot SetDefaultValues/ro](Robot_SetDefaultValues/ro.md) |
@@ -171,7 +170,8 @@ This category contains the help pages of each of FreeCAD command.
 | [TechDraw DiameterDimension/ro](TechDraw_DiameterDimension/ro.md) | [TechDraw Hatch/ro](TechDraw_Hatch/ro.md) | [TechDraw HorizontalDimension/ro](TechDraw_HorizontalDimension/ro.md) |
 | [TechDraw Image/ro](TechDraw_Image/ro.md) | [TechDraw LengthDimension/ro](TechDraw_LengthDimension/ro.md) | [TechDraw LinkDimension/ro](TechDraw_LinkDimension/ro.md) |
 | [TechDraw RadiusDimension/ro](TechDraw_RadiusDimension/ro.md) | [TechDraw Symbol/ro](TechDraw_Symbol/ro.md) | [TechDraw VerticalDimension/ro](TechDraw_VerticalDimension/ro.md) |
-| [TechDraw View/ro](TechDraw_View/ro.md) | [WebTools BimServer/ro](WebTools_BimServer/ro.md) |
+| [TechDraw View/ro](TechDraw_View/ro.md) | [WebTools BimServer/ro](WebTools_BimServer/ro.md) | [WebTools Git/ro](WebTools_Git/ro.md) |
+| [WebTools Sketchfab/ro](WebTools_Sketchfab/ro.md) |
 
 
 

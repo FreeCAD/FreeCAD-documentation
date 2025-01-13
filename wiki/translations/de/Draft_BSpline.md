@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft BSpline
    Name/de: Draft BSpline
-   MenuLocation: Zeichnen , B-Spline
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Zeichnen , B-Spline<br>2D-Entwurf , B-Spline
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **B** **S**
    Version: 0.7
    SeeAlso: Draft_Wire/de, Draft_BezCurve/de
@@ -30,11 +30,12 @@ Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Einrasten](Draft_Snap/de.md
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 
-2.  Die Schaltfläche **<img src="images/Draft_BSpline.svg" width=16px> [BSpline](Draft_BSpline/de.md)** drücken.
-    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_BSpline.svg" width=16px> B-Spline** auswählen.
+2.  Die Schaltfläche **<img src="images/Draft_BSpline.svg" width=16px> [B-Spline](Draft_BSpline/de.md)** drücken.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Zeichnen → <img src="images/Draft_BSpline.svg" width=16px> B-Spline** auswählen.
+    -   [BIM](BIM_Workbench.md): Den Menüeintrag **2D-Entwurf → <img src="images/Draft_BSpline.svg" width=16px> B-Spline** auswählen.
     -   Das Tastaturkürzel: **B** dann **S**.
 
-3.  Der Aufgaben-Bereich **B-spline** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+3.  Der Aufgaben-Bereich **B-Spline** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 
 4.  Den ersten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
 
@@ -47,13 +48,13 @@ Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Einrasten](Draft_Snap/de.md
 
 ## Optionen
 
-Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 1.0).
 
 -   Um die Koordinaten manuell einzugeben, werden die X-, Y- und Z-Komponente eingegeben und nach jeder Eingabe **Eingabe** (Enter) gedrückt. Man kann auch die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken, wenn die gewünschten Werte vorhanden sind.Es ist ratsam, vor der Eingabe der Koordinaten, den Mauszeiger aus der [3D-Ansicht](3D_view/de.md) heraus zu bewegen.
 
 -    **R**drücken oder das Kontrollkästchen **Relativ** anklicken, um den Relativ-Modus umzuschalten. Wenn der Relativ-Modus eingeschaltet ist, sind die Koordinaten relativ zum letzten Punkt, falls vorhanden, ansonsten beziehen sie sich auf den Ursprung des Koordinatensystems.
 
--    **G**drücken oder das Kontrollkästchen **Global** anklicken, um den Global-Modus umzuschalten. Wenn der Global-Modus eingeschaltet ist, beziehen sich die Koordinaten auf das globale Koordinatensystem, ansonsten auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+-    **G**drücken oder das Kontrollkästchen **Global** anklicken, um den Global-Modus umzuschalten. Wenn der Global-Modus eingeschaltet ist, beziehen sich die Koordinaten auf das globale Koordinatensystem, ansonsten auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md).
 
 -    **F**drücken oder das Kontrollkästchen **Füllen** anklicken, um den Füllmodus umzuschalten. Wenn der Füllmodus eingeschaltet ist, wird die {{PropertyData/de|Make Face}} der erstellten Kurve auf `True` gesetzt und die Kurve erhält eine gefüllte Fläche, vorausgesetzt, dass sie geschlossen ist und sich nicht selbst schneidet. Beachte, dass eine sich selbst schneidende Kurve mit einer Fläche nicht richtig angezeigt wird, für eine solche Kurve muss die {{PropertyData/de|Make Face}} auf `False` gesetzt werden.
 
@@ -126,7 +127,7 @@ Ein Draft-B-Spline (BSpline-Objekt) wird von einem [Part Part2DObject](Part_Part
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Zum Erstellen eines Draft-B-Splines (BSpline-Objekt) wird die Methode `make_bspline` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeBSpline`.
 

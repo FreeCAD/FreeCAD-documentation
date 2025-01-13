@@ -9,30 +9,45 @@
 
 # Arch Truss/ru
 
+
+</div>
+
+
+
 ## Описание
 
-The [Arch Truss](Arch_Truss.md) tool builds a [truss](https://en.wikipedia.org/wiki/Truss) object, either from a selected linear object (lie a [Draft Line](Draft_Line.md) or [Sketch](Sketcher_NewSketch.md)), or from scratch, if no object is selected when launching the command.
+The **Arch Truss** tool builds a [truss](https://en.wikipedia.org/wiki/Truss) object, either from a selected linear object (lie a [Draft Line](Draft_Line.md) or [Sketch](Sketcher_NewSketch.md)), or from scratch, if no object is selected when launching the command.
 
 <img alt="" src=images/Arch_Truss_example.png  style="width:600px;">
 
+
+
 ## Применение
+
+
 
 ### Создание из выбранного объекта 
 
 1.  Use a workbench of your choice to create a single line
 2.  Select that line
-3.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Arch Truss](Arch_Truss.md)** button
+3.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Truss](Arch_Truss.md)** button
 4.  Adjust the truss properties to your liking
+
+
 
 ### Создание с нуля 
 
 1.  Make sure nothing is selected
-2.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Arch Truss](Arch_Truss.md)** button
+2.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Truss](Arch_Truss.md)** button
 3.  Click in the 3D view to define a first point, or manually enter X, Y and Z coordinates
 4.  Click in the 3D view to define a second point, or manually enter X, Y and Z coordinates
 5.  Adjust the truss properties to your liking
 
+
+
 ## Свойства
+
+
 
 ### Данные
 
@@ -66,6 +81,8 @@ The [Arch Truss](Arch_Truss.md) tool builds a [truss](https://en.wikipedia.org/w
 
 -    **RodMode**: How to draw the rods
 
+
+
 ## Программирование
 
 The Truss tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
@@ -93,6 +110,20 @@ truss.HeightEnd = 400
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/ru
+⏵ [documentation index](../README.md) > Arch Truss/ru

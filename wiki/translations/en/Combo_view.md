@@ -1,60 +1,33 @@
 # Combo view/en
 ## Introduction
 
-The [Combo view](combo_view.md) is one of the main panels in the FreeCAD [interface](interface.md). It is located on the left side of the screen by default. It is **composed of two sections**, the:
+The [Combo view](Combo_view.md) appears in a panel called **Model**. It combines the [Tree view](Tree_view.md) (upper section) and the [Property editor](Property_editor.md) (lower section).
 
--   [Upper section](#Upper_section.md) which contains two tabs: the **Model** tab and **Tasks** tab
--   [Lower section](#Lower_section.md) shows the [Property editor](property_editor.md). It contains two tabs: the **View** and **Data** properties. The [Property editor](property_editor.md) is only shown when the **Model** tab is **active**, that is, when the [tree view](tree_view.md) is visible.
+The [Task panel](Task_panel.md), which used to be part of the Combo view, is a separate panel called **Tasks** in <small>(v1.0)</small> . It can be [docked](#Dock_Task_panel_on_top_of_Combo_view.md) on top of the Combo view to achieve the compact layout of earlier versions.
 
+![](images/Combo_View_Example.png ) 
+*The Combo view (Model tab) with docked Task panel (Tasks tab)*
 
-**Note:**
+## Dock Task panel on top of Combo view 
 
-originally the upper part ([tree view](tree_view.md)) was separate from the lower part ([property editor](property_editor.md)) but then they were combined, and thus the \"combo\" view was created.
+1.  Make sure the Combo view is docked along an edge of the FreeCAD window.
+2.  Move the cursor to the very top of the Task panel.
+3.  The arrow becomes a hand.
+4.  Hold down the left mouse button and drag the Task panel on top of the Combo view.
+5.  Move vertically until both the upper and lower sections of the Combo view are highlighted.
+    <img alt="" src=images/Tasks_Dockable.png  style="width:200px;">
+6.  Release the mouse button.
 
-## Upper section 
+## Preferences
 
-The **Model** tab shows the [tree view](tree_view.md), which is a representation of the document\'s content, including 2D and 3D geometry with their parametric history, but also supporting objects that contain data saved in the document.
+See also: [Preferences Editor](Preferences_Editor.md).
 
-The **Tasks** tab shows the [task panel](task_panel.md), which will show different actions depending on the active workbench, and the active tool.
-
-<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="600px;">
-
-
-
-*The combo view has two tabs: the Model tab that controls displaying the [tree view](tree_view.md) and the [property editor](property_editor.md), and the Tasks tab that controls showing the [task panel](task_panel.md).*
-
-## Lower section 
-
-The lower part of the combo view shows the [property editor](property_editor.md), which displays two tabs for **View** and **Data** properties. The property editor is only shown when the **Model** tab is active, that is, when the [tree view](tree_view.md) is visible.
-
--   The **View** tab shows visualization properties of the objects, which only affect their appearance in the [3D view](3D_view.md).
-
--   The **Data** tab shows the parametric properties of the objects, which determine how the geometrical shapes are really defined.
-
-<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width:" height="600px;">
+The Combo view is available if **Edit → Preferences... → General → General → Tree view mode** is set to {{Value|Combined}}. If it is set to {{Value|Independent}} the Tree view and the Property editor appear as separate panels.
 
 
+{{Interface_navi
 
-*The lower part of the combo view is the property editor, which shows View and Data properties.*
-
-## Disabling Combo view 
-
-To use these views by themselves use the [parameter editor](Std_DlgParameter.md). Create the following subgroups if they don\'t exist
-
--    `BaseApp/Preferences/DockWindows/TreeView`
-    
-
--    `BaseApp/Preferences/DockWindows/PropertyView`
-    
-
-then add the parameter `Enabled` of type `Boolean`, and set it to `True`.
-
-Then activate the view using the menu, **View → Panels → Tree view** or **→ Property view**.
-
-
-{{Std Base navi
-
-}} {{Interface navi}}
+}} {{Std_Base_navi}}
 
 
 

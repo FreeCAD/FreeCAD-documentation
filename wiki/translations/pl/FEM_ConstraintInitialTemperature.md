@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ConstraintInitialTemperature
    Name/pl: MES Warunek początkowy temperatury
    MenuLocation: Model , Warunki brzegowe i obciążenia termiczne , Temperatura początkowa
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_tutorial/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: CalculiX, Elmer
+}}
 ---
 
 # FEM ConstraintInitialTemperature/pl

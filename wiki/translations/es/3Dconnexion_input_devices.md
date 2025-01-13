@@ -211,7 +211,13 @@ Después reinicia FreeCAD. En algunas distribuciones esto es necesario en cada r
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ### Problemas conocidos 
+
+
+</div>
 
 Un usuario informó en el [foro](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) que vio lo siguiente:
 
@@ -252,27 +258,43 @@ Los dispositivos de entrada de 3Dconnexion son compatibles con OS X, siempre que
 
 ### Windows
 
+
+<div class="mw-translate-fuzzy">
+
 A partir de la versión 0.13, el ratón 3D es compatible con Windows. Es necesario tener instalados los controladores de 3Dconnexion.
 
 
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 #### Problemas conocidos 
 
-Hay un problema en el que 3Dconnexion envía eventos de desplazamiento duplicados a FreeCAD, lo que hace que la vista salte. Para solucionarlo:
 
-1.  Abra las propiedades de 3Dconnexion. Puede hacer doble clic en su icono en la barra de tareas, junto al reloj de Windows.
-2.  Haga clic en el botón Configuración avanzada.
-3.  Abra FreeCAD o cambie a una ventana de FreeCAD ya abierta.
-4.  Vuelva a la configuración avanzada de 3Dconnexion. Confirme que dice \"FreeCAD\" en el encabezado.
-5.  Desmarque todas las casillas de la página.
+</div>
 
-ref: <https://freecadweb.org/tracker/view.php?id=1893>
+-   In FreeCAD version 1.0 and later changing settings in the 3DX config window may not have the expected results ([issue](https://github.com/FreeCAD/FreeCAD/issues/14044)). To fix this:
+    1.  Stop the driver (by running Stop 3DxWare).
+    2.  Go to **..<user>\AppData\Roaming\3Dconnexion\3DxWare\Cfg** and delete the **FreeCAD.xml** file.
+    3.  Start the driver (by running Start 3DxWare).
+    4.  Run FreeCAD and check if you can change the [Spaceball Motion](#Spaceball_Motion.md) settings.
 
 
 
 ## Configuración en FreeCAD 
 
-El soporte del ratón 3D se hizo con el proyecto spnav en Linux, y a bajo nivel en Windows. Esto significa que no existe soporte para cualquier configuración para un dispositivo, ya que en Linux no existe un buen soporte, y en Windows se sobreescribe. Este es el motivo de añadir dos páginas adicionales al letrero de diálogo \"Personalización\".
+
+<small>(v1.0)</small> 
+
+: The 3Dconnexion manipulator can be set up in its driver app (3DxWare software).
+
+
+{{VersionMinus|0.21}}
+
+: If a Spaceball is detected the following tabs in the [Customize dialog](Interface_Customization.md) can be used to change settings:
 
 <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
 

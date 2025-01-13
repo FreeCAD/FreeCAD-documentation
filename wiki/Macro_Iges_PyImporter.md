@@ -10,7 +10,7 @@
 
 ## Description
 
-Standalone import for ascii iges-files with bspline surfaces, entity 128, for example created with FreeShip, which appears to always be incorrectly handled by [OCC](OpenCASCADE.md).
+Standalone import for ascii iges-files with B-spline surfaces, entity 128, for example created with FreeShip, which appears to always be incorrectly handled by [OCC](OpenCASCADE.md).
 
 Further info can be found in the {{Incode|docstring}} of the macro.
 

@@ -1,28 +1,31 @@
 # Spreadsheet Preferences/de
-Die Einstellungen für den <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Arbeitsbereich Tabellenkalkulation](Spreadsheet_Workbench/de.md) ({{Version/de|0.20}}) kann im [Einstellungseditor](Preferences_Editor/de.md) gefunden werden. Wähle im Menü **Bearbeiten → Einstellungen...** und dann **Tabellenkalkulation**. Dieser Abschnitt ist nur verfügbar, nachdem ein Dokument geöffnet wurde, das ein Tabellenkalkulationsobjekt enthält, nachdem der Arbeitsbereich besucht wurde oder nachdem laden des Arbeitsbereichs über den Reiter *Verfügbare Arbeitsbereiche* im Abschnitt **Arbeitsbereiche**.
+Die Einstellungen für den Arbeitsbereich <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Spreadsheet](Spreadsheet_Workbench/de.md) befinden sich im [Voreinstellungseditor](Preferences_Editor/de.md). Den Menüeintrag **Bearbeiten → Einstellungen...** auswählen und dann **<img src="images/Workbench_Spreadsheet.svg" width=16px> Spreadsheet**. Diese Gruppe steht nur dann zur Verfügung, wenn der Arbeitsbereich Spreadsheet in der aktuellen FreeCAD-Sitzung geladen wurde.
 
-Es gibt nur einen Reiter: *Tabellenkalkulation* im Abschnitt **Tabellenkalkulation**. Auf diesem Reiter kannst du Folgendes angeben:
+Es gibt nur eine Seite: Spreadsheet.
+
+![](images/Preferences_Spreadsheet_Page_Spreadsheet.png )
+
+Auf dieser Seite kann Folgendes festgelegt werden:
 
 +++
-| Name                               | Beschreibung                                                                      |
-+====================================+===================================================================================+
-|                     | Das als Feldbegrenzer verwendete Zeichen.                                         |
-| **Begrenzungszeichen** |                                                                                   |
-|                                 |                                                                                   |
+| Name                                                  | Beschreibung                                                                                                                                                                                                                                                                                   |
++=======================================================+================================================================================================================================================================================================================================================================================================+
+|                                        | Das Zeichen, das als Feldtrenner verwendet wird.                                                                                                                                                                                                                                               |
+| **Trennzeichen**                          |                                                                                                                                                                                                                                                                                                |
+|                                                    |                                                                                                                                                                                                                                                                                                |
 +++
-|                     | Das zur Begrenzung von Zeichenketten verwendete Zeichen.                          |
-| **Anführungszeichen**  |                                                                                   |
-|                                 |                                                                                   |
+|                                        | Das Zeichen, das zum Kennzeichnen von Zeichenketten verwendet wird.                                                                                                                                                                                                                            |
+| **Anführungszeichen**                     |                                                                                                                                                                                                                                                                                                |
+|                                                    |                                                                                                                                                                                                                                                                                                |
 +++
-|                     | Das zur Verhinderung der Syntaxanalyse des folgenden Zeichens verwendete Zeichen. |
-| **Maskierungszeichen** |                                                                                   |
-|                                 |                                                                                   |
+|                                        | Das Zeichen, das den Steuerzeichenstatus des folgenden Zeichens ein- bzw. ausschaltet.                                                                                                                                                                                                         |
+| **Escape-Zeichen**                        |                                                                                                                                                                                                                                                                                                |
+|                                                    |                                                                                                                                                                                                                                                                                                |
 +++
-|                                    |                                                                                   |
+|                                        | Wenn aktiviert und die Zelle einen Wert sowie einen Alias enthält, werden Wert und Alias in dem gegebenen Format angezeigt. {{Value|%V}} ist der Platzhalter für den Wert (value) und {{Value|%A}} der Platzhalter für den alias. {{Version/de|1.0}} |
+| **Alias in formatierten Zellen anzeigen** |                                                                                                                                                                                                                                                                                                |
+|                                                    |                                                                                                                                                                                                                                                                                                |
 +++
-
-![](images/Spreadsheet-Preferences-Spreadsheet.png ) 
-*Der Reiter Tabellenkalkulation*
 
 
 

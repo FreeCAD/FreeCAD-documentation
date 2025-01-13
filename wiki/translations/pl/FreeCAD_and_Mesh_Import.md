@@ -1,5 +1,5 @@
 # FreeCAD and Mesh Import/pl
-## Post-Import 
+## Po imporcie 
 
 Po zaimportowaniu model jest *(dla FreeCAD)* tylko zbiorem ścian. Możesz chcieć przekonwertować model na kształt, który FreeCAD może rozpoznać i który można później edytować w programie FreeCAD.
 
@@ -11,7 +11,7 @@ Aby to zrobić:
 4.  Wybierz nowo utworzony kształt
 5.  Przejdź do **Część → [Przekształć na bryłę](Part_MakeSolid/pl.md)**.
 6.  Wybierz nowo utworzoną bryłę
-7.  Przejdź do **Część → [Udoskonal kształt](Part_RefineShape/pl.md)** lub naciśnij przycisk <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Udoskonal kształt](Part_RefineShape/pl.md).
+7.  Przejdź do **Część → Utwórz kopię → [Udoskonal kształt](Part_RefineShape/pl.md)** lub naciśnij przycisk <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Udoskonal kształt](Part_RefineShape/pl.md).
 
 **Uwaga:** Ostatni krok nie jest konieczny, ale oczyści bryłę z większości krawędzi na powierzchniach płaskich i cylindrycznych.
 
@@ -23,18 +23,18 @@ Aby to zrobić:
 
 ### \"nie można przekonwertować, ponieważ kształt nie jest powłoką\" 
 
-Cóż, twoja powłoka wydaje się mieć błędy, być może nie jest zamknięta *(ma dziury)*. Ponieważ możliwości środowiska pracy siatki w FreeCAD są obecnie nieco ograniczone, możesz spróbować sprawdzić i naprawić swój model za pomocą oprogramowania zewnętrznego. Następnie możesz spróbować ponownie zaimportować i przekonwertować model.
+Cóż, twoja powłoka wydaje się mieć błędy, być może nie jest zamknięta *(ma dziury)*. Ponieważ możliwości środowiska pracy Siatka w FreeCAD są obecnie nieco ograniczone, możesz spróbować sprawdzić i naprawić swój model za pomocą oprogramowania zewnętrznego. Następnie możesz spróbować ponownie zaimportować i przekonwertować model.
 
 
 
 ## Programy zewnętrzne 
 
--   [Meshlab](http://meshlab.sourceforge.net/),
+-   [MeshLab](https://www.meshlab.net/),
     -   Licencja: Open Source *(GPL V2)*,
     -   Działa w systemach Windows 32/64 bit, Linux i macOS.
--   [netFabb basic](http://www.netfabb.com/downloadcenter.php?basic=1),
+-   [Meshmixer](https://meshmixer.com/),
     -   Licencja: Freeware,
-    -   Działa na Windows XP/7/8, Linux i macOS.
+    -   Działa na Windows 64-bit.
 
 
 

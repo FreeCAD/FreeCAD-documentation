@@ -1,10 +1,10 @@
 ---
- TutorialInfo:
-   Topic: Custom Repositories
-   Level: Intermediate/Advanced
+ TutorialInfo:l
+   Topic: Repozytoria własne
+   Level: średnio zaawansowany / zaawansowany
    Author: drmacro
-   FCVersion: 1.0 or above
-   Files: TBD
+   FCVersion: 0.22 lub noszy
+   Files:  nie dołączono
 ---
 
 # Private Preference Packs/pl
@@ -13,45 +13,57 @@
 
 
 
-## Overview
 
-Private [preference packs](Preference_Packs.md) can be added by adding custom github repositories to the [Addon manager](Std_AddonMgr.md). This allows testing or simply private usage.
 
-See also [Preference Packs](Preference_Packs.md).
+## Informacje ogólne 
 
-## Add custom repository 
+Prywatne [pakiety preferencji](Preference_Packs/pl.md) mogą być dodawane poprzez dodanie niestandardowych repozytoriów GitHub do [menedżera dodatków](Std_AddonMgr/pl.md). Pozwala to na testowanie lub po prostu na ich używanie.
 
-Begin by adding a custom repository. Go to **Edit → Preferences → Addon manager options** and click the **+** button to open the **Custom repository** dialog.
+Zobacz także stronę [Pakiety preferencji](Preference_Packs/pl.md).
+
+
+
+## Dodanie niestandardowego repozytorium 
+
+Zacznij od dodania niestandardowego repozytorium. Przejdź do **Edycja → Preferencje ... → Menadżer dodatków → Opcje menedżera dodatków** i kliknij przycisk **+**, aby otworzyć okno dialogowe **Repozytoria użytkownika**.
 
 <img alt="" src=images/Preferences_AM_addrepo.png  style="width:400px;">
 
-### Custom repository dialog 
 
-Enter the URL of the github repository and the branch.
+
+### Okno dialogowe repozytorium użytkownika 
+
+Wprowadź adres URL repozytorium GitHub i gałąź.
 
 ![](images/Preferences_AM_customrepo.png )
 
-In this example I have added:
+W tym przykładzie dodałem:
 
 <https://github.com/macdroid53/ZolkoBase>
 
-Click **OK** when complete.
+Po zakończeniu kliknij **OK**.
 
-### Preferences with custom repository added 
+
+
+### Preferencje z dodanym repozytorium 
 
 <img alt="" src=images/Preferences_AM_after.png  style="width:400px;">
 
-Click **OK** when complete.
+Po zakończeniu kliknij **OK**.
 
-## Custom preference pack in Addon manager 
 
-The custom pack can now be installed using **Tools → Addon manager**.
+
+## Pakiet niestandardowych preferencji w menedżerze dodatków 
+
+Pakiet niestandardowy można teraz zainstalować przez **Przybory  → Menadżer dodatków**.
 
 <img alt="" src=images/PreferencePack_in_AM.png  style="width:400px;">
 
-## Apply the preference pack 
 
-Once installed go to **Edit → Preferences → General**, find the preference pack, and click **Apply**. Follow any instructions offered.
+
+## Zastosuj pakiet preferencji 
+
+Po zainstalowaniu przejdź do menu **Edycja → Preferencje ... → Ogólne**, znajdź pakiet preferencji i kliknij **Zastosuj**. Postępuj zgodnie z instrukcjami.
 
 <img alt="" src=images/PeferencesPP_apply.png  style="width:400px;">
 

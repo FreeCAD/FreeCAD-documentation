@@ -10,9 +10,13 @@
 
 # Std Quit/pl
 
+
+
 ## Opis
 
 Polecenie **Zakończ** zamyka aplikację FreeCAD i opcjonalnie umożliwia zapisanie niezapisanych dokumentów.
+
+
 
 ## Użycie
 
@@ -23,20 +27,18 @@ Polecenie **Zakończ** zamyka aplikację FreeCAD i opcjonalnie umożliwia zapisa
     -   Naciśnij przycisk **Zapisz**, aby zapisać aktywny dokument. W razie potrzeby wprowadź najpierw nazwę pliku.
     -   Naciśnij przycisk **Porzuć**, aby odrzucić aktywny dokument i utracić wszystkie zmiany.
 
+
+
 ## Opcje
 
--   Jeśli istnieje wiele niezapisanych dokumentów: zaznacz pole wyboru {{CheckBox|TRUE|Zastosuj dla wszystkich}}, aby uniknąć wyświetlania monitów dla każdego niezapisanego dokumentu osobno.
+-   Jeśli istnieje wiele niezapisanych dokumentów: zaznacz pole wyboru **Zastosuj dla wszystkich**, aby uniknąć wyświetlania monitów dla każdego niezapisanego dokumentu osobno.
 -   Jeśli istnieją niezapisane dokumenty: naciśnij przycisk **Esc** lub **Anuluj**, aby przerwać wykonywanie polecenia.
 
-## Ustawienia
-
--   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 
 
-
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

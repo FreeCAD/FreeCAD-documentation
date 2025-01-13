@@ -168,13 +168,13 @@ When qualifying which part of a line is affected by a constraint, the following 
 
 -    `0`to indicate that the constraint affects the entire edge.
 
--    `1`to indicate that the constraint affects the starting point of the edge (a full circle has no starting point).
+-    `1`to indicate that the constraint affects the start point of the edge (a full circle has no starting point).
 
--    `2`to indicate that the constraint affects the end point of the edge.
+-    `2`to indicate that the constraint affects the endpoint of the edge.
 
--    `3`to indicate that the constraint affects the center point of the edge. For <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:" height="24px;">[Circles](Sketcher_CompCreateCircle.md) and <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:" height="24px;">[Conics](Sketcher_CompCreateConic.md) (ellipses), this is the center of the circle or center (intersection of major and minor axes) of the ellipse. For straight <img alt="" src=images/Sketcher_CreateLine.svg  style="width:24px;">[Lines](Sketcher_CreateLine.md), `3` cannot be used to indicate the center point.
+-    `3`to indicate that the constraint affects the center point of the edge. Can only be used for circles, circular arcs, ellipses and elliptical arcs.
 
--    `n`to indicate that the constraint affects the n-th pole of a <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:" height="24px;">[B-Spline](Sketcher_CompCreateBSpline.md).
+-    `n`to indicate that the constraint affects the n-th pole of a B-spline.
 
 The vertices indicated by 1 and 2 are numbered according to their order of creation. To find out the order of their creation (If you have a lot of lines, you cannot remember which vertex you have created first), you just have to move the cursor of your mouse above the two vertices of one line, see following figure.
 

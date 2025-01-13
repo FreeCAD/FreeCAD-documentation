@@ -84,7 +84,7 @@ Cette charnière film est destinée à maintenir les parties connectées en cont
 <img alt="" src=images/Sketcher_ExampleHinge-06.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Sketcher_ExampleHinge-07.png  style="width:300px;"> 
 *Demi-charnière avec plan de symétrie sélectionné → charnière film [symétrisée](PartDesign_Mirrored/fr.md)*
 
-Conseil : <img alt="" src=images/Part_Mirror.svg  style="width:16px;"> [Part Miroir](Part_Mirror/fr.md) n\'accepte que les trois plans de base et ne peut donc pas être utilisé dans ce cas.
+Conseil : <img alt="" src=images/Part_Mirror.svg  style="width:16px;"> [Part Objet en miroir](Part_Mirror/fr.md) n\'accepte que les trois plans de base et ne peut donc pas être utilisé dans ce cas.
 
 :   (Rétrospectivement, il était judicieux de commencer cet exemple avec la combinaison de PartDesign et de Sketcher).
 

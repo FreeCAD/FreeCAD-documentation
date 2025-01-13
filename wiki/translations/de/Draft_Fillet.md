@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Fillet
    Name/de: Draft Verrundung
-   MenuLocation: Zeichnen , Verrundung
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Zeichnen , Verrundung<br>2D-Entwurf , Verrundung
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **F** **I**
    Version: 0.19
    SeeAlso: Draft_Line/de, Draft_Wire/de
@@ -15,23 +15,28 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draft Verrundung** erstellt eine Verrundung (eine abgerundete Ecke) oder eine Fase (eine gerade Kante zwischen zwei [Draft Linien](Draft_Line/de.md)).
+Der Befehl <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draft Verrundung** erstellt eine Verrundung (eine abgerundete Ecke) oder eine Fase (eine gerade Kante) zwischen zwei ausgewählten Kanten.
+
+In {{VersionMinus/de|0.21}} funktioniert der Befehl nur dann richtig, wenn beide ausgewählte Kanten gerade sind.
+
+In {{VersionMinus/de|1.0}}, wenn die ausgewählten Objekte mehrere Kanten besitzen, wird ihre erste Kante verwendet. Dies muss nicht die Kante sein, die in der [3D-Ansicht](3D_view/de.md) ausgewählt wurde.
 
 <img alt="" src=images/Draft_Fillet_example.png  style="width:400px;"> 
-*Mehrere Verrundungen und Fasen, die zwischen zwei Linien erstellt wurden*
+*Mehrere Verrundungen und Fasen, die zwischen zwei Kanten erstellt wurden*
 
 
 
 ## Anwendung
 
-1.  Zwei [Draft Linien](Draft_Line/de.md) auswählen, die sich in einem einzelnen Punkt treffen.
+1.  Zwei Kanten auswählen, die sich in einem einzelnen Punkt treffen. Siehe [Hinweise](#Hinweise.md).
 
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_Fillet.svg" width=16px> [Verrundung](Draft_Fillet/de.md)** drücken.
-    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_Fillet.svg" width=16px> Verrundung** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Zeichnen → <img src="images/Draft_Fillet.svg" width=16px> Verrundung** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **2D-Entwurf → <img src="images/Draft_Fillet.svg" width=16px> Verrundung** auswählen.
     -   Das Tastaturkürzel **F** dann **I**.
 
-3.  Den **Abrundungsradius** eingeben. Ist die Option **Fase erstellen** ausgewählt, wird er als Größe der Fase verwendet (die Länge der geraden Kante). Achtung, der Befehl kann nicht erfolgreich abgeschlossen werden, wenn der Radius bzw. die Fase zu groß für die ausgewählten Linien ist.
+3.  Den **Fillet radius** (Abrundungsradius) eingeben. Achtung, der Befehl kann nicht erfolgreich abgeschlossen werden, wenn der Radius bzw. die Fase zu groß für die ausgewählten Kantenobjekte ist.
 
 4.  Wahlweise die Option **Originalobjekte löschen** aktivieren.
 
@@ -52,9 +57,8 @@ Der Befehl <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draft
 
 ## Hinweise
 
--   Eine Draft Verrundung kann nicht bearbeitet werden und ist auch nicht mit den Linien verknüpft, die zu ihrer Erstellung verwendet wurden.
--   Nur Draft-Linien, also [Draft Polylinien](Draft_Wire/de.md) mit nur zwei Punkten werden zurzeit unterstützt.
--   Eine [Draft Polylinie](Draft_Wire/de.md), die mindestens drei Punkte hat, kann verrundet oder angefast werden, indem ihre {{PropertyData/de|Fillet Radius}} bzw. {{PropertyData/de|Chamfer Size}} geändert wird. Da [Draft Linien](Draft_Line/de.md) und [Draft Polylinien](Draft_Wire/de.md) mit den Befehlen [Draft Polylinie](Draft_Wire/de.md), [Draft Verbinden](Draft_Join/de.md) oder [Draft Hochstufen](Draft_Upgrade/de.md) verbunden werden können, stellt dies eine alternative Methode zur Erstellung von Verrundungen und Fasen dar.
+-   Eine Draft-Verrundung kann nicht bearbeitet werden und ist auch nicht mit den Kanten verknüpft, die zu ihrer Erstellung verwendet wurden.
+-   Ein [Draft-Linienzug](Draft_Wire/de.md), der mindestens drei Punkte besitzt, kann verrundet oder angefast werden, indem seine {{PropertyData/de|Fillet Radius}} bzw. {{PropertyData/de|Chamfer Size}} geändert wird. Da [Draft-Linien](Draft_Line/de.md) und [Draft-Linienzüge](Draft_Wire/de.md) mit den Befehlen [Draft Linienzug](Draft_Wire/de.md), [Draft Verbinden](Draft_Join/de.md) oder [Draft Hochstufen](Draft_Upgrade/de.md) verbunden werden können, stellt dies eine alternative Methode zur Erstellung von Verrundungen und Fasen dar.
 
 
 
@@ -100,18 +104,18 @@ Ein Draft-Verrundungs-Objekt wird von einem [Part Part2DObject](Part_Part2DObjec
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Zum Erstellen einer Draft-Verrundung wird die Methode `make_fillet` des Draft-Moduls verwendet:
 
 
 ```python
-fillet = make_fillet([line1, line2], radius=100, chamfer=False, delete=False)
+fillet = make_fillet([edge1, edge2], radius=100, chamfer=False, delete=False)
 ```
 
--   Erzeugt ein `Fillet` Objekt zwischen den Linien `line1` und `line2`, wobei die Krümmung mit `radius` erfolgt.
--   Wenn `chamfer` `True` ist, erzeugt es eine gerade Kante mit der Länge von `radius`, anstatt einer abgerundeten Kante.
--   Wenn `delete` `True` ist, löscht es die angegebenen `line1` und `line2`, und lässt nur das neue Objekt übrig.
+-   Erzeugt ein `Fillet` Objekt zwischen den Kantenobjekten `edge1` und `edge2`, wobei `radius` die Krümmung festlegt.
+-   Ist `chamfer` `True`, wird eine gerade Kante mit der Länge von `radius` erstellt, anstatt einer abgerundeten Kante.
+-   Ist `delete` `True`, werden die angegebenen `edge1` und `edge2` gelöscht, und nur das neue Objekt bleibt übrig.
 
 Beispiel:
 
@@ -126,12 +130,12 @@ p1 = App.Vector(0, 0, 0)
 p2 = App.Vector(1000, 1000, 0)
 p3 = App.Vector(2000, 0, 0)
 
-line1 = Draft.make_line(p1, p2)
-line2 = Draft.make_line(p2, p3)
+edge1 = Draft.make_line(p1, p2)
+edge2 = Draft.make_line(p2, p3)
 
 doc.recompute()
 
-fillet = Draft.make_fillet([line1, line2], radius=500)
+fillet = Draft.make_fillet([edge1, edge2], radius=500)
 
 doc.recompute()
 ```

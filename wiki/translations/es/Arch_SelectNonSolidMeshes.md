@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -21,6 +23,8 @@ Esta herramienta identifica y selecciona las mallas no sólidas (no [manifold](h
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -41,5 +45,13 @@ Esta herramienta identifica y selecciona las mallas no sólidas (no [manifold](h
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/es
+⏵ [documentation index](../README.md) > Arch SelectNonSolidMeshes/es

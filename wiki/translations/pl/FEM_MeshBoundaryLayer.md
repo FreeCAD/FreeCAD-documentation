@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM MeshBoundaryLayer
-   Name/pl: Warstwa graniczna siatki MES
-   MenuLocation: Siatka , Warstwa graniczna siatki MES
+   Name/pl: Warstwa przyścienna siatki MES
+   MenuLocation: Siatka , Warstwa przyścienna siatki MES
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_tutorial/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: Wszystkie
+}}
 ---
 
 # FEM MeshBoundaryLayer/pl
@@ -13,7 +18,9 @@
 
 ## Opis
 
-Umożliwia ustawienie zlokalizowanego zestawu parametrów tworzenia siatki poprzez wskazanie zestawu obiektów *(wierzchołek, krawędź, ściana)* i przypisanie do nich parametrów. Jest to szczególnie przydatne do zagęszczenia siatek w pobliżu krawędzi lub powierzchni w przypadku symulacji przepływów. Przykładowo, można skorzystać z tego narzędzia do zagęszczenia siatki w pobliżu profilu skrzydła samolotu lub przeszkody w przepływie.
+Umożliwia ustawienie zlokalizowanego zestawu parametrów tworzenia siatki poprzez wskazanie zestawu obiektów *(wierzchołek, krawędź, ściana)* i przypisanie do nich parametrów.
+
+Jest to szczególnie przydatne do zagęszczenia siatek w pobliżu krawędzi lub powierzchni w przypadku symulacji przepływów. Przykładowo, można skorzystać z tego narzędzia do zagęszczenia siatki w pobliżu profilu skrzydła samolotu lub przeszkody w przepływie.
 
 Warstwa przyścienna ma tę zaletę, że tworzy silnie zdefiniowane, anizotropowe siatki. Jak nazwa wskazuje, umożliwia dokładne obliczenia w pobliżu brzegów, np. ściany gdzie występuje tarcie, generując gradient prędkości.
 

@@ -1,54 +1,58 @@
 # FEM Preferences/de
-The preferences screen of the [FEM Workbench](FEM_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → FEM**.
+## Einleitung
 
-There are several tabs in the FEM workbench preferences, starting with the **General** configuration of the workbench. The rest of the tabs control how FEM interacts with supported external solvers.
+Die Einstellungen für den Arbeitsbereich <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/de.md) befinden sich im [Voreinstellungseditor](Preferences_Editor/de.md). Im Menü wählt man **Bearbeiten → Einstellungen...** und dann ** <img src="images/Workbench_FEM.svg" width=16px> FEM**. Diese Gruppe steht nur dann zur Verfügung, wenn der Arbeitsbereich FEM in der aktuellen FreeCAD-Sitzung geladen wurde.
 
-The current supported external solvers are:
+Es gibt sieben Seiten: [Allgemein](#Allgemein.md), [Gmsh](#Gmsh.md), [CalculiX](#CalculiX.md), [Elmer](#Elmer.md), [Mystran](#Mystran.md), [Z88](#Z88.md) und [Netgen](#Netgen.md). Alle Seiten außer der ersten bestimmen, wie FEM mit externen Vernetzungsprogrammen und Gleichungslösern zusammenarbeitet.
 
--   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [CalculiX](FEM_SolverCalculixCxxtools.md)
--   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer.md)
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran.md) (<small>(v0.20)</small> )
--   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Z88](FEM_SolverZ88.md)
+Die derzeit unterstützten externen Gleichungslöser sind:
+
+-   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [CalculiX](FEM_SolverCalculixCxxtools/de.md)
+-   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer/de.md)
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran/de.md)
+-   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Z88](FEM_SolverZ88/de.md)
 
 
 
 ## Allgemein
 
-Auf der Registerkarte \"Allgemein\" kann Folgendes festgelegt werden:
+<img alt="" src=images/Preferences_FEM_Page_General.png  style="width:350px;">
+
+Auf dieser Seite kann Folgendes festgelegt werden:
 
 +++
-| Name                                                     | Description                                                                                                               |
-+==========================================================+===========================================================================================================================+
-|                                           | In what directory the mesh and solver files should be stored                                                              |
-| **Working directory**                        |                                                                                                                           |
-|                                                       |                                                                                                                           |
+| Name                                                                                   | Description                                                                                                               |
++========================================================================================+===========================================================================================================================+
+|                                                                         | In what directory the mesh and solver files should be stored                                                              |
+| **Working directory**                                                      |                                                                                                                           |
+|                                                                                     |                                                                                                                           |
 +++
-|                                           | If there are several meshes they will be grouped                                                                          |
-| **Create mesh groups**                       |                                                                                                                           |
-|                                                       |                                                                                                                           |
+|                                                                         | If there are several meshes they will be grouped                                                                          |
+| **Create mesh groups for analysis reference shapes (highly experimental)** |                                                                                                                           |
+|                                                                                     |                                                                                                                           |
 +++
-|                                           | Existing [Result objects](FEM_ResultShow.md) will be kept, otherwise overwritten by a new solver run              |
-| **Keep results on calculation re-run**       |                                                                                                                           |
-|                                                       |                                                                                                                           |
+|                                                                         | Existing [Result objects](FEM_ResultShow.md) will be kept, otherwise overwritten by a new solver run              |
+| **Keep results on calculation re-run**                                     |                                                                                                                           |
+|                                                                                     |                                                                                                                           |
 +++
-|                                           | If checked, the [Show result](FEM_ResultShow.md) dialog is opened with the last used dialog settings              |
-| **Restore result dialog settings**           |                                                                                                                           |
-|                                                       |                                                                                                                           |
+|                                                                         | If checked, the [Show result](FEM_ResultShow.md) dialog is opened with the last used dialog settings              |
+| **Restore result dialog settings**                                         |                                                                                                                           |
+|                                                                                     |                                                                                                                           |
 +++
-|                                           | The constraints will be hidden in the model view when the [Show result](FEM_ResultShow.md) dialog is opened       |
-| **Hide constraints when open result dialog** |                                                                                                                           |
-|                                                       |                                                                                                                           |
+|                                                                         | The constraints will be hidden in the model view when the [Show result](FEM_ResultShow.md) dialog is opened       |
+| **Hide analysis features when opening result dialog**                      |                                                                                                                           |
+|                                                                                     |                                                                                                                           |
 +++
-|                                           | Default solver to be added when adding an [Analysis container](FEM_Analysis.md). (<small>(v0.21)</small> ) |
-| **Default solver**                           |                                                                                                                           |
-|                                                       |                                                                                                                           |
+|                                                                         | Default solver to be added when adding an [Analysis container](FEM_Analysis.md). (<small>(v0.21)</small> ) |
+| **Default solver**                                                         |                                                                                                                           |
+|                                                                                     |                                                                                                                           |
 +++
-
-![](images/Preference_Fem_Tab_01.png )
 
 ## Gmsh
 
-Auf der Registerkarte *Gmsh* kann folgendes festgelegt werden:
+<img alt="" src=images/Preferences_FEM_Page_Gmsh.png  style="width:350px;">
+
+Auf dieser Seite kann Folgendes festgelegt werden:
 
 +++
 | Name                                               | Description                                                                                                           |
@@ -57,22 +61,110 @@ Auf der Registerkarte *Gmsh* kann folgendes festgelegt werden:
 | **Search in known binary directories** |                                                                                                                       |
 |                                                 |                                                                                                                       |
 +++
-|                                     | The path to the the binary of [Gmsh](FEM_MeshGmshFromShape.md)                                                |
+|                                     | The path to the binary of [Gmsh](FEM_MeshGmshFromShape.md)                                                    |
 | **Gmsh binary path**                   |                                                                                                                       |
 |                                                 |                                                                                                                       |
 +++
-
-![](images/Preference_Fem_Tab_03.png )
+|                                     | Log verbosity level: Silent, Errors, Warnings, Direct, Information, Status or Debug. <small>(v1.1)</small>     |
+| **Log verbosity**                      |                                                                                                                       |
+|                                                 |                                                                                                                       |
++++
 
 ## CalculiX
 
-Auf der Registerkarte *CalculiX* kann folgendes festgelegt werden:
+<img alt="" src=images/Preferences_FEM_Page_CalculiX.png  style="width:350px;">
 
-![](images/Preference_Fem_Tab_02.png )
+Auf dieser Seite kann Folgendes festgelegt werden:
+
++++
+| Name                                                      | Description                                                                                                                                                                         |
++===========================================================+=====================================================================================================================================================================================+
+|                                            | If checked, FreeCAD will look for the binary of [CalculiX](FEM_SolverCalculixCxxtools.md) in known (usual) directories                                                      |
+| **Search in known binary directories**        |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | The path to the binary of [CalculiX](FEM_SolverCalculixCxxtools.md)                                                                                                         |
+| **ccx binary path**                           |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | If checked, a built-in \*.inp file editor with syntax highlighting is used when editing CalculiX input decks.                                                                       |
+| **Use internal editor for *.inp files**       |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | The path to the external \*.inp file editor.                                                                                                                                        |
+| **External editor**                           |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | If checked, multiple \*.inp files are written and the main input deck uses the \*INCLUDE keywords to reference the other ones. If unchecked, a single large \*.inp file is written. |
+| **Split writing of *.inp**                    |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | Default analysis type: Static, Frequency, Thermomech, Check Mesh or Buckling.                                                                                                       |
+| **Type**                                      |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | Number of physical processor cores to use for parallel computing.                                                                                                                   |
+| **Number of CPU's to use**                    |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | Default matrix solver: Default, PaStiX, Pardiso, Spooles equation solver, Iterative Scaling or Cholesky iterative solver.                                                           |
+| **Matrix solver**                             |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | If checked, geometric nonlinearity is included by default.                                                                                                                          |
+| **Non-linear geometry**                       |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | If checked, uses non-default solver controls (not recommended in most cases).                                                                                                       |
+| **Time incrementation control parameter**     |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | Maximum number of increments within an analysis step.                                                                                                                               |
+| **Maximum number of iterations**              |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | Initial time increment size (can be changed by the solver if automatic incrementation is used).                                                                                     |
+| **Time Initial Step**                         |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | Total simulated time.                                                                                                                                                               |
+| **Time End**                                  |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | Minimum allowable time increment size.                                                                                                                                              |
+| **Time Minimum Step**                         |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | Maximum allowable time increment size.                                                                                                                                              |
+| **Time Maximum Step**                         |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | If checked, results for 1D and 2D elements are displayed using 3D representation by default.                                                                                        |
+| **Beam, shell element 3D output format**      |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | If checked, thermomechanical analyses are of steady-state type by default.                                                                                                          |
+| **Analysis type (transient or steady state)** |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | Default number of requested eigenmodes in frequency analyses.                                                                                                                       |
+| **Eigenmode number**                          |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | Default upper limit of evaluated eigenfrequencies in frequency analyses.                                                                                                            |
+| **High frequency limit**                      |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
+|                                            | Default lower limit of evaluated eigenfrequencies in frequency analyses.                                                                                                            |
+| **Low frequency limit**                       |                                                                                                                                                                                     |
+|                                                        |                                                                                                                                                                                     |
++++
 
 ## Elmer
 
-Auf der Registerkarte *Elmer* kann folgendes festgelegt werden:
+<img alt="" src=images/Preferences_FEM_Page_Elmer.png  style="width:350px;">
+
+Auf dieser Seite kann Folgendes festgelegt werden:
 
 +++
 | Name                                                            | Description                                                                                                                                                                                                                                   |
@@ -81,7 +173,7 @@ Auf der Registerkarte *Elmer* kann folgendes festgelegt werden:
 | **ElmerGrid: Search in known binary directories**   |                                                                                                                                                                                                                                               |
 |                                                              |                                                                                                                                                                                                                                               |
 +++
-|                                                  | The path to the the binary of the grid writer utility of the [Elmer](FEM_SolverElmer.md)                                                                                                                                              |
+|                                                  | The path to the binary of the grid writer utility of the [Elmer](FEM_SolverElmer.md)                                                                                                                                                  |
 | **ElmerGrid binary path**                           |                                                                                                                                                                                                                                               |
 |                                                              |                                                                                                                                                                                                                                               |
 +++
@@ -89,7 +181,7 @@ Auf der Registerkarte *Elmer* kann folgendes festgelegt werden:
 | **ElmerSolver: Search in known binary directories** |                                                                                                                                                                                                                                               |
 |                                                              |                                                                                                                                                                                                                                               |
 +++
-|                                                  | The path to the the solver binary of [Elmer](FEM_SolverElmer.md)                                                                                                                                                                      |
+|                                                  | The path to the solver binary of [Elmer](FEM_SolverElmer.md)                                                                                                                                                                          |
 | **ElmerSolver binary path**                         |                                                                                                                                                                                                                                               |
 |                                                              |                                                                                                                                                                                                                                               |
 +++
@@ -106,12 +198,20 @@ Auf der Registerkarte *Elmer* kann folgendes festgelegt werden:
 | **Filter results**                                  |                                                                                                                                                                                                                                               |
 |                                                              |                                                                                                                                                                                                                                               |
 +++
-
-![](images/Preference_Fem_Tab_05.png )
+|                                                  | If checked, binary results format is used. Otherwise, ASCII format is used. Binary format may cause lack of results due to a bug. <small>(v1.1)</small>                                                                                |
+| **Use binary format**                               |                                                                                                                                                                                                                                               |
+|                                                              |                                                                                                                                                                                                                                               |
++++
+|                                                  | If checked, the index of geometric entities is saved in the results. <small>(v1.1)</small>                                                                                                                                             |
+| **Save geometry IDs**                               |                                                                                                                                                                                                                                               |
+|                                                              |                                                                                                                                                                                                                                               |
++++
 
 ## Mystran
 
-Auf der Registerkarte *Mystran* kann folgendes festgelegt werden:
+<img alt="" src=images/Preferences_FEM_Page_Mystran.png  style="width:350px;">
+
+Auf dieser Seite kann Folgendes festgelegt werden:
 
 +++
 | Name                                               | Description                                                                                                              |
@@ -120,16 +220,20 @@ Auf der Registerkarte *Mystran* kann folgendes festgelegt werden:
 | **Search in known binary directories** |                                                                                                                          |
 |                                                 |                                                                                                                          |
 +++
-|                                     | The path to the the binary of the [Mystran](FEM_SolverMystran.md)                                                |
+|                                     | The path to the binary of the [Mystran](FEM_SolverMystran.md)                                                    |
 | **Mystran binary path**                |                                                                                                                          |
 |                                                 |                                                                                                                          |
 +++
-
-![](images/Preference_Fem_Tab_Mystran.png )
+|                                     |                                                                                                                          |
+| **Write comments to input file**       |                                                                                                                          |
+|                                                 |                                                                                                                          |
++++
 
 ## Z88
 
-Auf der Registerkarte *Z88* kann folgendes festgelegt werden:
+<img alt="" src=images/Preferences_FEM_Page_Z88.png  style="width:350px;">
+
+Auf dieser Seite kann Folgendes festgelegt werden:
 
 +++
 | Name                                               | Description                                                                                                                                                                                                               |
@@ -138,7 +242,7 @@ Auf der Registerkarte *Z88* kann folgendes festgelegt werden:
 | **Search in known binary directories** |                                                                                                                                                                                                                           |
 |                                                 |                                                                                                                                                                                                                           |
 +++
-|                                     | The path to the the binary named *z88r* of the [Z88 solver](FEM_SolverZ88.md)                                                                                                                                     |
+|                                     | The path to the binary named *z88r* of the [Z88 solver](FEM_SolverZ88.md)                                                                                                                                         |
 | **z88r binary path**                   |                                                                                                                                                                                                                           |
 |                                                 |                                                                                                                                                                                                                           |
 +++
@@ -155,39 +259,22 @@ Auf der Registerkarte *Z88* kann folgendes festgelegt werden:
 |                                                 |                                                                                                                                                                                                                           |
 +++
 
-![](images/Preference_Fem_Tab_04.png )
+## Netgen
 
+<img alt="" src=images/Preferences_FEM_Page_Netgen.png  style="width:350px;">
 
-
-### Werkstoff
-
-Auf der Registerkarte *Material* kann folgendes festgelegt werden:
+Auf dieser Seite kann Folgendes festgelegt werden:
 
 +++
-| Name                                                                                          | Description                                                                                                                                                                                           |
-+===============================================================================================+=======================================================================================================================================================================================================+
-|                                                                                | The cards built-in to FreeCAD will be listed as available.                                                                                                                                            |
-| **Use built-in materials**                                                        |                                                                                                                                                                                                       |
-|                                                                                            |                                                                                                                                                                                                       |
-+++
-| \\AppData\\Roaming\\FreeCAD\\Material* |
-| **Use materials from Materials directory in user's FreeCAD preference directory** |                                                                                                                                                                                                       |
-|                                                                                            |                                                                                                                                                                                                       |
-+++
-|                                                                                | Also material cards also from the specified directory will be listed as available.                                                                                                                    |
-| **Use materials from user defined directory**                                     |                                                                                                                                                                                                       |
-|                                                                                            |                                                                                                                                                                                                       |
-+++
-|                                                                                | Duplicate cards will be deleted from the displayed material card list.                                                                                                                                |
-| **Delete card duplicates**                                                        |                                                                                                                                                                                                       |
-|                                                                                            |                                                                                                                                                                                                       |
-+++
-|                                                                                | Material cards will appear sorted by their resources (locations). If unchecked, they will be sorted by their name.                                                                                    |
-| **Sort by resources**                                                             |                                                                                                                                                                                                       |
-|                                                                                            |                                                                                                                                                                                                       |
+| Name                          | Description                                                                                                                                                                                                                                                                                             |
++===============================+=========================================================================================================================================================================================================================================================================================================+
+|                | If checked, the legacy [Netgen](FEM_MeshNetgenFromShape.md) implementation is used by FreeCAD FEM. This might be needed for users (mostly with older and Windows computers) who can\'t install the Netgen Python bindings necessary for the new implementation. (<small>(v1.0)</small> ) |
+| **Legacy Netgen** |                                                                                                                                                                                                                                                                                                         |
+|                            |                                                                                                                                                                                                                                                                                                         |
 +++
 
-![](images/Preference_Fem_Tab_Material.png )
+
+
 
 
 {{FEM Tools navi

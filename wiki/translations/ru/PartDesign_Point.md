@@ -10,12 +10,16 @@
 
 # PartDesign Point/ru
 
+
+
 ## Описание
 
 Создает **опорную точку**, которую можно использовать для размещения эскизов или другой опорной геометрии.
 
 ![](images/DatumPoint.png ) 
 *A datum point attached to a sphere with an attachment offset of {{Value|2* in the Z direction.}}
+
+
 
 ## Применение
 
@@ -27,9 +31,17 @@
 6.  Define Attachment Offset values.
 7.  Press **OK**.
 
+
+
 ## Опции
 
 Double-click the DatumPoint label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Part EditAttachment](Part_EditAttachment.md).
+
+## Preferences
+
+See [PartDesign Plane](PartDesign_Plane#Preferences.md).
+
+
 
 ## Свойства
 
@@ -39,12 +51,20 @@ Double-click the DatumPoint label in the Model tree or right-click and select **
 
 -    **Label**: name given to the object, this name can be changed at convenience.
 
+
+
 ## Ограничения
 
 -   The datum point cannot be used as section for Pipe and Loft features.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

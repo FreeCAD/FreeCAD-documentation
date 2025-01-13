@@ -1,4 +1,13 @@
-# <img alt="ícone da bancada de trabalho Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/pt-br
+# Spreadsheet Workbench/pt-br
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="ícone da bancada de trabalho Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
 
 
 
@@ -38,11 +47,29 @@ A <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [bancad
 
 -   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Alinha abaixo](Spreadsheet_AlignBottom.md): alinha o conteúdo das células selecionadas abaixo.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Negrito](Spreadsheet_StyleBold.md): coloca o conteúdo das células selecionadas em negrito.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Itálico](Spreadsheet_StyleItalic.md): coloca o conteúdo das células selecionadas em itálico.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Sublinhado](Spreadsheet_StyleUnderline.md): coloca o conteúdo das células selecionadas sublinhado.
+
+
+</div>
 
 -   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Configurar nome alternativo](Spreadsheet_SetAlias/pt-br.md): define um outro nome para uma célula selecionada.
 
@@ -347,67 +374,45 @@ Para vincular, por exemplo, o conjunto de células A3-C4 ao conjunto B1-D2:
 
 {{Version/pt-br|0.20}}
 
+
+<div class="mw-translate-fuzzy">
+
 Você pode usar Planilhas para criar tabelas de configuração com conjuntos de parâmetros predefinidos para o seu modelo e, em seguida, alterar dinamicamente qual configuração usar. Consulte [esta postagem no Fórum](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183) se você deseja saber mais sobre o funcionamento interno desse recurso.
 
 
-<div class="mw-collapsible mw-collapsed toccolours">
-
-Expanda esta seção para um breve tutorial sobre como criar uma tabela de configuração.
-
-
-<div class="mw-collapsible-content">
-
-1.  Em um novo documento, primeiro crie uma [Parte](Std_Part/pt-br.md), em seguida, crie um [Cubo](Part_Box/pt-br.md), um [Cilindro](Part_Cylinder/pt-br.md) e uma Planilha.
-2.  O Cubo e o Cilindro são automaticamente colocados no contêiner [Parte](Std_Part.md). Coloque manualmente a Planilha no contêiner também.
-3.  Na Planilha, insira o conteúdo conforme mostrado abaixo. Defina o apelido para B2 como {{Value|largura}}, C2 como {{Value|comprimento}} e D2 como {{Value|raio}}:
-    ![](images/Spreadsheet_configuration_table_screenshot_4.png )
-4.  Vincule as [expressões](Expressions/pt-br.md) {{Value|Spreadsheet.largura}} e {{Value|Spreadsheet.comprimento}} às propriedades **Largura** e **Comprimento** da Caixa, respectivamente:
-    ![](images/Spreadsheet_configuration_table_screenshot_2.png )
-5.  Vincule a expressão {{Value|Spreadsheet.raio}} à propriedade **Raio** do Cilindro. Além disso, altere a **Altura** do Cilindro para {{Value|5 mm}} para que fique abaixo da Caixa.
-6.  Clique com o botão direito na célula A2 na planilha e selecione **Tabela de configuração...** no menu de contexto.
-7.  A janela de diálogo **Configurar Tabela de Configuração** se abre.
-8.  Entre o seguinte:
-    ![](images/Spreadsheet_configuration_table_screenshot_5.png )
-9.  Aperte **OK**.
-10. Uma nova propriedade chamada **Part.Configuration** será adicionada ao contêiner [Parte](Std_Part/pt-br.md) para escolher a configuração, conforme mostrado abaixo:
-    ![](images/Spreadsheet_configuration_table_screenshot_6.png )
-
-Você pode usar tanto um [Link](Std_LinkMake/pt-br.md) quanto um [Aglutinante em forma de subobjetos](PartDesign_SubShapeBinder/pt-br.md) para criar uma [Instância de Variante](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) de um objeto configurável com os seguintes passos:
-
-1.  Crie um [Link](Std_LinkMake/pt-br.md) para o contêiner [Parte](Std_Part/pt-br.md) e defina sua propriedade **Criar link para cópia na alteração** como {{Value|Habilitado}}.
-2.  Mova o Link para um novo local alterando sua propriedade **Posicionamento** para que seja mais fácil distinguir do objeto original.
-3.  Selecione uma **Configuração** diferente para o Link para criar uma instância de variante.
-
-Passos semelhantes se aplicam a um [Aglutinante em forma de subobjetos](PartDesign_SubShapeBinder/pt-br.md), exceto que sua propriedade para ativar uma instância de variante é chamada **Vincular cópia na alteração**.
-
-
 </div>
 
-
-</div>
-
-
-
-## Noções básicas de script 
+## Scripting
 
 
 ```python
 import Spreadsheet
-sheet = App.ActiveDocument.addObject("Spreadsheet::Sheet","MySpreadsheet")
+sheet = App.ActiveDocument.addObject("Spreadsheet::Sheet", "MySpreadsheet")
 sheet.Label = "Dimensions"
 
-sheet.set('A1','10mm')
+sheet.set("A1", "10mm")
 sheet.recompute()
-sheet.get('A1')
+sheet.get("A1")
 
-sheet.setAlias('B1','Diameter')
-sheet.set('Diameter','20mm')
+sheet.setAlias("B1", "Diameter")
+sheet.set("Diameter", "20mm")
 sheet.recompute()
-sheet.get('Diameter')
+sheet.get("Diameter")
+
+# sheet.get() results in an error if the cell is empty.
+# sheet.getContents() can be used to check the cell first.
+if sheet.getContents("C1"):
+    print(sheet.get("C1"))
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Spreadsheet_Tools_navi

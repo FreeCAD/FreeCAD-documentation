@@ -3,7 +3,7 @@
    Name: Draft Text
    Name/fr: Draft Texte
    MenuLocation: Annotation , Texte
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **T** **E**
    Version: 0.7
    SeeAlso: Draft_Label/fr, Draft_ShapeString/fr
@@ -28,19 +28,19 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md) et [Draft Aimantation](Draft_Sna
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Text.svg" width=16px> [Texte](Draft_Text/fr.md)**.
-    -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Text.svg" width=16px> Texte** dans le menu.
+    -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Text.svg" width=16px> Texte** du menu.
     -   Utilisez le raccourci clavier : **T** puis **E**.
 2.  Le panneau de tâches **Text** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisissez un point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+3.  Choisissez un point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
 4.  Saisissez le texte souhaité, appuyez sur **Entrée** pour commencer une nouvelle ligne.
 5.  Appuyez deux fois sur **Entrée** ou sur le bouton **<img src="images/Button_valid.svg" width=16px> Insérer du texte** pour terminer la commande.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut (pour la version 1.0).
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs de X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   Pour saisir manuellement des coordonnées, entrez les valeurs de X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md).
 -   Appuyez sur **N** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des textes. Le raccourci ne fonctionne pas dans le deuxième panneau de tâches. Cette option n\'est pas disponible dans le premier panneau de tâches dans FreeCAD version 0.19 et antérieure.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Échap** ou sur le bouton **Fermer** pour interrompre la commande.
@@ -49,7 +49,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 ## Remarques
 
--   Un Draft Texte peut être édité en double-cliquant dessus dans l\'arborescence. {{Version/fr|0.20}}
+-   Un Draft Texte peut être édité en double-cliquant dessus dans l\'arborescence.
 -   Les Draft Textes créés ou sauvegardés avec la [version 0.21 de FreeCAD](Release_notes_0.21/fr.md) ne sont pas rétrocompatibles.
 
 
@@ -78,7 +78,7 @@ Un objet Draft Texte est dérivé d\'un objet [App FeaturePython](App_FeaturePyt
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**: spécifie le style d\'annotation appliqué au texte. Voir [Draft Éditeur styles d\'annotations](Draft_AnnotationStyleEditor/fr.md).
+-    **Annotation Style|Enumeration**: spécifie le style d\'annotation appliqué au texte. Voir [Draft Éditer le style des annotations](Draft_AnnotationStyleEditor/fr.md).
 
 -    **Scale Multiplier|Float**: spécifie le facteur d\'échelle général appliqué au texte.
 

@@ -37,9 +37,9 @@ Depending on which selection is made, some fields will activate or stay disabled
 
 ### Threading and size 
 
--   **Profile**: if set to *None*, no threading info is defined. [ISO](https://en.wikipedia.org/wiki/ISO_metric_screw_thread) and [UTS](https://en.wikipedia.org/wiki/Unified_Thread_Standard) thread profiles enable the *Size* fields.
+-   **Profile**: if set to *None*, no threading info is defined. [ISO](https://en.wikipedia.org/wiki/ISO_metric_screw_thread) and [UTS](https://en.wikipedia.org/wiki/Unified_Thread_Standard) thread profiles enable the fields *Size*, *Clearance*, *Threaded*.
 -   **Threaded**: if checked threading data will be added to the Hole feature and the hole minor diameter is used. If left unchecked, the hole is considered non-threaded, and the nominal major diameter with defined *Clearance* is chosen.
--   **Model Thread**: if checked a real thread is modeled. This consumes much computing power and is usually not used for models, except for display purposes or sometimes for 3D prints. If it is used, it is advised to check it as one of the last actions done to the model, because it will increase recomputation time significantly. (<small>(v0.20)</small> )
+-   **Model Thread**: if checked a real thread is modeled. This consumes much computing power and is usually not used for models, except for display purposes or sometimes for 3D prints. If it is used, it is advised to check it as one of the last actions done to the model, because it will increase recomputation time significantly.
 -   **Direction**: sets the thread direction (Right Hand or Left hand) if *Threaded* is checked.
 -   **Size**: sets the thread size. Requires *Profile* to be set to one of the [ISO](https://en.wikipedia.org/wiki/ISO_metric_screw_thread) or [UTS](https://en.wikipedia.org/wiki/Unified_Thread_Standard) profiles.
 -   **Clearance**: sets either standard, close or wide clearance hole diameter. For ISO threads the diameters are according to the ISO 273 standard, for UTS they are calculated using a rule of thumb because there is no norm defining them. Only available for non-threaded holes.
@@ -49,17 +49,17 @@ Depending on which selection is made, some fields will activate or stay disabled
 
 ### Hole cut 
 
--   **Type**: sets type of hole cut: *None* means no cut, other types are the various norms for screws and the generic types *Counterbore*, *Countersink* and (<small>(v0.21)</small> ) *Counterdrill*.
+-   **Hole Cut Type**: *None* means no cut, other types are the various norms for screws and the generic types *Counterbore*, *Countersink* and (<small>(v0.21)</small> ) *Counterdrill*. ISO and DIN 7984 models appear if *Profile* receives an ISO or DIN selection.
 -   **Diameter**: sets the upper diameter (at the sketch plane) for the hole cut.
--   **Depth**: The depth is defined differently depending on the *Type*:
-    -   For a *Counterbore* it is the depth of the hole cut, measured from the sketch plane.
-    -   For a *Countersink* it is the depth of the screw head top below the sketch plane.
-    -   For a *Counterdrill* it is the depth of the cylindrical part of the hole cut.
--   **Countersink angle**: angle of the conical hole cut. Only applicable for countersinks.
+-   **Depth**: The depth is defined differently depending on the *Hole Cut Type*:
+    -   For a *Counterbore*, it is the depth of the hole cut, measured from the sketch plane.
+    -   For a *Countersink*, it is the depth of the screw head top below the sketch plane.
+    -   For a *Counterdrill*, it is the depth of the cylindrical part of the hole cut.
+-   **Countersink angle**: angle of the conical hole cut. Only applicable for countersinks, counterdrills, ISO 2009, ISO 7046, ISO 10642 profiles.
 
 ### Drill point 
 
--   **Type**: defines the ending of the hole if *Depth* is set to *Dimension*.
+-   **Drill point**: defines the ending of the hole if *Depth* is set to *Dimension*.
     -   **Flat** produces a flat bottom
     -   **Angled** sets a conical point. Its option **Take into account for depth** will subtract the conical height from the *Dimension*. So if for example *Dimension* is 7.00 and the option is not used, the cylindrical part of the hole will be 7.00 and the depth necessary for the conical part is added to the hole depth. If the option is used, the overall hole depth including the conical point will be 7.00.
 
@@ -79,7 +79,7 @@ Much of the Data properties are the same as those shown in [Options](#Options.md
 ## Limitations
 
 -   By default, the hole feature extrudes below the sketch plane. If the solid lies on the XY_Plane, and the hole sketch is attached to the XY_Plane, it will try to extrude away from the solid and seemingly produce no result. In such a case, the option *Reversed* needs to be set; alternatively the sketch can be mapped to the bottom face of the solid.
--   Model Thread works only if Reversed is not set.
+-   Model Thread works only if *Reversed* is not set.
 
 ## Cut Type Definitions 
 

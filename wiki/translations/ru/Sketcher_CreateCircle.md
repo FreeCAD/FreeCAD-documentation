@@ -11,6 +11,9 @@
 # Sketcher CreateCircle/ru
 
 
+</div>
+
+
 
 ## Описание
 
@@ -22,12 +25,25 @@
 
 </div>
 
-![](images/Sketcher_CircleExample1.png‎ ) 
+![](images/Sketcher_CircleExample1.png‎ )
+
+
 
 ## Применение
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
+Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
 -   Укажите точки в свободной области трехмерного вида, или на существующем объекте (авто ограничения в [Панели задач](Task_panel/ru.md) должны быть включены).
 -   Для отмены действия нажмите **Esc** или правую кнопку мыши.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

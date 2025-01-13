@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft ShowSnapBar
-   Name/it: Mostra barra degli agganci
+   Name/it: Draft Mostra barra degli agganci
    MenuLocation: Draft , Utilità , Mostra barra degli agganci
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Workbenches: Draft_Workbench/it
    SeeAlso: Draft Snap/it
 ---
 

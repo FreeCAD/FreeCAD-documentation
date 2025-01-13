@@ -2,7 +2,7 @@
  GuiCommand:
    Name: SheetMetal AddWall
    Name/de: SheetMetal KanteAnsetzen
-   MenuLocation: SheetMetal , Make Wall
+   MenuLocation: Sheet Metal , Kante ansetzen
    Workbenches: SheetMetal Workbench/de
    Shortcut: **W**
 ---
@@ -30,10 +30,18 @@ Trägt man in einem zweiten Schritt die für die {{PropertyData/de|angle}} ungef
 ## Anwendung
 
 1.  Eine oder mehrere Randflächen einer Grundplatte auswählen.
-2.  Den Befehl <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> [Kante ansetzen](SheetMetal_AddWall/de.md) aktivieren durch:
-    -   Die Schaltfläche **<img src="images/SheetMetal_AddWall.svg" width=16px> [Kante ansetzen](SheetMetal_AddWall/de.md)**.
-    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_AddWall.svg" width=16px> Kante ansetzen**.
-    -   Das Tastenkürzel: **W**.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/SheetMetal_AddWall.svg" width=16px> [Kante ansetzen](SheetMetal_AddWall/de.md)** drücken.
+    -   Den Menüeintrag **Sheet Metal → <img src="images/SheetMetal_AddWall.svg" width=16px> Kante ansetzen** auswählen.
+    -   Ein Rechtsklick in die [Baumansicht](Tree_view/de.md) oder die [3D-Ansicht](3D_view/de.md) und die Menüoption **Sheet Metal → <img src="images/SheetMetal_AddWall.svg" width=16px> Kante ansetzen** im Kontextmenü auswählen.
+    -   Das Tastaturkürzel: **W**.
+3.  Das [Aufgaben-Fenster](Task_panel/de.md) **Kantenparameter** wird geöffnet (eingeführt in Version 0.5.00).
+4.  Wahlweise die Schaltfläche **Auswählen** drücken, um weitere Kanten hinzuzufügen.
+    -   Die Schaltfläche **Vorschau** drücken, um die Auswahl abzuschließen und die Äderungen anzuzeigen.
+5.  Wahlweise die Parameter im Aufgaben-Fenster anpassen.
+6.  Die Schaltfläche **OK** drücken, um den Befehl abzuschließen und das Aufgaben-Fenster zu schließen.
+7.  Ein **Bend**-Objekt wird erstellt, mit einer neuen Kante (Streifen) an jeder ausgewählten Kante (Flächenrand).
+8.  Wahlweise die Parameter im [Eigenschafteneditor](Property_editor/de.md) anpassen.
 
 
 
@@ -68,20 +76,11 @@ Wenn mit <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Körp
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Ein SheetMetal-Bend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften und sein Label hat eine Standardwert:
+Ein SheetMetal-Bend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet oder, wenn es sich in einem [PartDesign-Körper](PartDesign_Body/de.md) befindet, von einem [PartDesign Formelement](PartDesign_Feature/de.md) und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
 
 
 ### Daten
-
-
-{{Properties_Title/de|Basis}}
-
--    {{PropertyData/de|Label|String}}: Standardwert: Der vom Benutzer änderbare Name dieses Objekts, der aus einer beliebigen UTF8-Zeichenkette bestehen kann.
-
--    {{PropertyData/de|Base Feature|Link|hidden}}: Base Feature. Verweis zum Eltern-Objekt.
-
--    {{PropertyData/de|_Body|LinkHidden|hidden}}: Unsichtbarer Verweis zum Eltern-Body.
 
 
 {{Properties_Title/de|Parameters}}
@@ -94,6 +93,10 @@ Ein SheetMetal-Bend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md)
 
 -    {{PropertyData/de|base Object|LinkSub}}: \"Base Object\". Verknüpfung zur ebenen Fläche, an die eine Kante angesetzt werden soll.
 
+-    {{PropertyData/de|extend1|Distance}}: \"Extend from Left Side\". Verlängern der linken Seite. Standardwert: {{value|0,00 mm}}.
+
+-    {{PropertyData/de|extend2|Distance}}: \"Extend from Right Side\". Verlängern der rechten Seite. Standardwert: {{value|0,00 mm}}.
+
 -    {{PropertyData/de|gap1|Distance}}: \"Gap from Left side\". Lücke von links. Standardwert: {{value|0,00 mm}}.
 
 -    {{PropertyData/de|gap2|Distance}}: \"Gap from Right side\". Lücke von rechts. Standardwert: {{value|0,00 mm}}.
@@ -102,30 +105,28 @@ Ein SheetMetal-Bend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md)
 
 -    {{PropertyData/de|length|Length}}: \"Length of Wall\". Schenkellänge (ab Bogen). Standardwert: {{value|10,00 mm}}.
 
--    {{PropertyData/de|radius|Length}}: \"Bend Radius\". Biegeradius (Innenradius). Standardwert: {{value|1,00 mm}}.
+-    **radius|Length**: \"Bend Radius\". Biegeradius (Innenradius). Der Standardwert hängt von der Eigenschaft radius des Übergeordneten Formelements ab:
+
+    -   Jene Eigenschaft ist nicht vorhanden: Diese Eigenschaft wird auf {{value|1,00 mm}} gesetzt.
+    -   Jene Eigenschaft enthält einen numerischen Wert: Ein Ausdruck, der auf jene Eigenschaft verweist, wird in dieser Eigenschaft eingefügt.
+    -   Jene Eigenschaft enthält einen Ausdruck: Der Ausdruck wird in diese Eigenschaft kopiert.
 
 
 {{Properties_Title/de|Parameters Ext.}}
 
 -    {{PropertyData/de|Auto Miter|Bool}}: \"Enable Auto Miter\". Automatische Gehrung aktivieren. Standardwert: `True`.
 
--    {{PropertyData/de|extend1|Distance}}: \"Extend from Left Side\". Erweiterung von links. Standardwert: {{value|0,00 mm}}.
-
--    {{PropertyData/de|extend2|Distance}}: \"Extend from Right Side\". Erweiterung von rechts. Standardwert: {{value|0,00 mm}}.
-
 -    {{PropertyData/de|kfactor|FloatConstraint}}: \"Location of Neutral Line. Caution: Using ANSI standards, not DIN.\". Lage der neutralen Faser nach ANSI-Norm, nicht nach DIN.  Standardwert: {{value|0,50}}. K factor (also known as neutral factor) for the bend. Used to calculate bend allowance when unfolding.
 
 -    {{PropertyData/de|max Extend Dist|Length}}: \"Auto Miter maximum Extend Distance\". Automatische Gehrung, maximale Länge der Erweiterung. Standardwert: {{value|5,00 mm}}.
 
--    {{PropertyData/de|min Gap|Length}}: \"Auto Miter Minimum Gap\". Automatische Gehrung, minimale Lücke. Standardwert: {{value|0,10 mm}}.
+-    {{PropertyData/de|min Gap|Length}}: \"Auto Miter Minimum Gap\". Automatische Gehrung, minimale Lücke. Standardwert: {{value|0,20 mm}}.
 
--    {{PropertyData/de|miterangle1|Angle}}: \"Bend Miter Angle from Left Side\". Gehrungswinkel von links. Standardwinkel: {{value|0,00°}}.
-
--    {{PropertyData/de|miterangle2|Angle}}: \"Bend Miter Angle from Right Side\". Gehrungswinkel von rechts. Standardwinkel: {{value|0,00°}}.
+-    {{PropertyData/de|min Relief Gap|Length}}: \"Minimum Gap to Relief Cut\". Standardwert: {{value|1,00 mm}}.
 
 -    {{PropertyData/de|offset|Distance}}: \"Offset Bend\". Versatz der Biegung. Standardwert: {{value|0,00 mm}}.
 
--    {{PropertyData/de|unfold|Bool}}: \"Shows Unfold View of Current Bend\". Abwicklung der aktuellen Kante anzeigen. Standardwert:  `True` erzeugt die Abwicklung der Kante.
+-    {{PropertyData/de|unfold|Bool}}: \"Shows Unfold View of Current Bend\". Abwicklung des aktuellen Bend-Objekts anzeigen. Standardwert:  `True` erstellt die Abwicklung des Bend-Objekts.
 
 
 {{Properties_Title/de|Parameters Ex2}}
@@ -139,9 +140,29 @@ Ein SheetMetal-Bend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md)
 
 {{Properties_Title/de|Parameters Ex3}}
 
--    {{PropertyData/de|Length List|FloatList}}: \"Length of Wall List\". Standardwert: {{value|[10,00]}}.
+-    {{PropertyData/de|Length List|FloatList}}: \"Length of Wall List\". Standardwert: {{value|[10.00]}}.
 
--    {{PropertyData/de|bend AList|FloatList}}: \"Bend Angle List\". Standardwert: {{value|[90,00]}}.
+-    {{PropertyData/de|bend AList|FloatList}}: \"Bend Angle List\". Standardwert: {{value|[90.00]}}.
+
+
+{{Properties_Title|Parameters Miterangle}}
+
+-    {{PropertyData/de|miterangle1|Angle}}: \"Bend Miter Angle from Left Side\". Gehrungswinkel der linken Seite. Standardwinkel: {{value|0,00°}}.
+
+-    {{PropertyData/de|miterangle2|Angle}}: \"Bend Miter Angle from Right Side\". Gehrungswinkel der rechten Seite. Standardwinkel: {{value|0,00°}}.
+
+
+{{Properties_Title|Parameters Perforation}}
+
+-    {{PropertyData/de|Nonperforation Max Length|Length}}: \"Non-Perforation Max Length\" (Maximale Länge ohne Perforation). Standardwert {{value|5 mm}}.
+
+-    {{PropertyData/de|Perforate|Bool}}: \"Enable perforation\" (Perforation aktivieren). Standardwert `False`.
+
+-    {{PropertyData/de|Perforation Angle|Angle}}: \"Perforation Angle\" (Perforationswinkel). Standardwert {{value|0 °}}.
+
+-    {{PropertyData/de|Perforation initial Length|Length}}: \"Initial Perforation Length\" (Anfängliche Länge der Perforation). Standardwert {{value|5 mm}}.
+
+-    {{PropertyData/de|Perforation Max Length|Length}}: \"Perforation Max Length\" (Maximale Länge der Perforation). Standardwert {{value|5 mm}}.
 
 
 {{Properties_Title/de|Parameters Relief}}
@@ -149,8 +170,6 @@ Ein SheetMetal-Bend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md)
 -    {{PropertyData/de|Relief Factor|Float}}: \"Relief Factor\". Standardwert: {{value|0,70}}.
 
 -    {{PropertyData/de|Use Relief Factor|Bool}}: \"Use Relief Factor\". Standardwert: `False`.
-
--    {{PropertyData/de|min Relief Gap|Length}}: \"Minimum Gap to Relief Cut\". Standardwert: {{value|1,00 mm}}.
 
 -    {{PropertyData/de|relief Type|Enumeration}}: \"Relief Type\". {{value|Rectangle}} (standard), {{value|Round}}. Enabled only when a gap value is set.
 

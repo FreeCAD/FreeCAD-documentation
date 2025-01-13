@@ -4,8 +4,8 @@
 |Icon=Macro_MatrixTransform.png
 |Description=Applies linear transformation to a shape, defined by a 3x3 matrix. It is possible to: apply non-linear scaling to a shape, shear a shape, rotate a shape.<br/>{{ColoredText|#ff0000|#ffff00|This macro is composed of 2 macro: '''MatrixTransform.FCMacro''' (launcher) and '''MatrixTransform.py''' (executor).}}<br/>The '''.FCMacro''' is installed with AddonManager you must install the '''.py''' macro manually.<br/>Link of th two macros:<br/>[https://github.com/DeepSOIC/FreeCAD-Macros/raw/master/MatrixTransform/MatrixTransform.FCMacro MatrixTransform.FCMacro] (launcher)<br/>[https://github.com/DeepSOIC/FreeCAD-Macros/raw/master/MatrixTransform/MatrixTransform.py MatrixTransform.py] (executor)
 |Author=DeepSOIC
-|Version=1.0
-|Date=2016-05-25
+|Version=1.1
+|Date=2024-12-09
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/d/db/Macro_MatrixTransform.png ToolBar Icon]
 }}
@@ -82,7 +82,7 @@ ToolBar Icon ![](images/Macro_MatrixTransform.png )
 
 #***************************************************************************
 #*                                                                         *
-#*   Copyright (c) 2015 - Victor Titov (DeepSOIC)                          *
+#*   Copyright (c) 2015 2024 - Victor Titov (DeepSOIC)                     *
 #*                                               <vv.titov@gmail.com>      *  
 #*                                                                         *
 #*   This program is free software; you can redistribute it and/or modify  *
@@ -203,7 +203,7 @@ class ViewProviderMatrixTransform:def __init__(self,vobj):
         try:
             self.Object.Base.ViewObject.show()
         except Exception as err:
-            App.Console.PrintError("Error in onDelete: " + err.message)
+            App.Console.PrintError("Error in onDelete: " + str(err)) #err.message
         return True
 
 def run():
@@ -218,9 +218,13 @@ def run():
         from PySide import QtGui
         mb = QtGui.QMessageBox()
         mb.setIcon(mb.Icon.Warning)
-        mb.setText(err.message)
+        mb.setText(str(err)) #err.message
         mb.setWindowTitle("Macro MatrixTransform")
         mb.exec_()
+        App.Console.PrintError("Error in onDelete: " + str(err)) #err.message
+
+##import MatrixTransform
+##MatrixTransform.run()
 }}
 
 **Macro MatrixTransform.FCMacro**

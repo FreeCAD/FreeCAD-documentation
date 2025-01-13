@@ -27,6 +27,8 @@ The appearance of the measurements can be changed in the [preferences](PartDesig
 <img alt="" src=images/MeasureAngular1.PNG  style="width:400px;">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Cum se folosește 

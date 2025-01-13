@@ -2,11 +2,10 @@
 {{Macro
 |Name=Macro CloneConvert
 |Icon=Macro_CloneConvert.png
-|Description={{ColoredText|#ff0000|#ffffff| Latest update: GUI modified for HiDPI support (QGridLayout). Runs ≥v0.18 (PySide2 Qt5)}}<br/><br/> 
-For previous versions see [https://gist.githubusercontent.com/mario52a/9f2f2f6144e1307a048f1840ef99300c/raw/0a141260ad8d5f67f0fc18b9b40ef37757c06c65/Macro_CloneConvert.FCMacro Macro_CloneConvert] and install manually.<br/><br/>Creates a Clone/Copy/Compound of the object(s) and then converted into a chosen position and size (''inch, mm, m, µm''...) or free. The base object is recognized in ''mm'' (FreeCAD base).
+|Description=Creates a Clone/Copy/Compound of the object(s) and then converted into a chosen position and size (''inch, mm, m, µm''...) or free. The base object is recognized in ''mm'' (FreeCAD base).
 |Author=mario52
-|Version=0.15
-|Date=2020-06-06
+|Version=00.16
+|Date=2025-01-06
 |FCVersion= ≥0.18
 |Download=[https://www.freecadweb.org/wiki/images/0/0a/Macro_CloneConvert.png ToolBar Icon]
 }}
@@ -16,7 +15,7 @@ For previous versions see [https://gist.githubusercontent.com/mario52a/9f2f2f614
 Creates a clone or copy of the object and then converts it into a chosen position and size (*inch, mm, m, µm*\...) or free. The base object is recognized in *mm* (FreeCAD base)
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/9f2f2f6144e1307a048f1840ef99300c/raw/39bc54e90b80053a5af76b0b17694cb53697aebd/Macro_CloneConvert.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/9f2f2f6144e1307a048f1840ef99300c/raw/fb76b3c728c1c7cd085e87f5d6d223d9f79bb574/Macro_CloneConvert.FCMacro}}
 
 ## Usage
 
@@ -105,7 +104,11 @@ The icon ![](images/Macro_CloneConvert.png )
 
 Download the macro to Gist [Macro_CloneConvert.FCMacro](https://gist.github.com/mario52a/9f2f2f6144e1307a048f1840ef99300c)
 
+
+
 ## Wersja
+
+06/01/2025 ver 00.16 remplace PySide2 to PySide augmente mini et maxi efface toutes les reference a PySide, PySide2 et QtWidgets et correction clone, compound
 
 06/06/2020 ver 0.15 = icon
 

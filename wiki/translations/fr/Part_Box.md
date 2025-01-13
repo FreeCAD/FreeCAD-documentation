@@ -21,7 +21,7 @@ La commande <img alt="" src=images/Part_Box.svg  style="width:24px;"> **Part Cub
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Part_Box.svg" width=16px> [Cube](Part_Box/fr.md)**.
-    -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Box.svg" width=16px> Cube** dans le menu.
+    -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Box.svg" width=16px> Cube** du menu.
 2.  La boîte est créée.
 3.  Vous pouvez modifier les dimensions et le **Placement** de la boîte en effectuant l\'une des opérations suivantes :
     -   Double-cliquez sur l\'objet dans la [vue en arborescence](Tree_view/fr.md) :

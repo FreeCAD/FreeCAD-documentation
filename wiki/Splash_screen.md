@@ -1,7 +1,12 @@
 # Splash screen
 ## Description
 
-The splash screen is an image that appears during the startup of FreeCAD. For each new release, it is selected in an open voting from user contributions. You can disable the splash screen in the [Preferences Editor](Preferences_Editor.md) by unchecking the option **Enable splash screen at startup**.
+The splash screen is an image that appears during the startup of FreeCAD. You can disable the splash screen in the [Preferences Editor](Preferences_Editor#General_2.md) by unchecking the option **Enable splash screen at startup**.
+
+
+<small>(v1.0)</small> 
+
+: The splash screen image is picked randomly from multiple images including user models and selected add-on workbenches.
 
 ## Custom splash screen 
 

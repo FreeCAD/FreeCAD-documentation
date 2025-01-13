@@ -4,12 +4,12 @@
 
 <div class="mw-translate-fuzzy">
 
-[Pivy](http://pivy.coin3d.org/)はFreeCADで使われている3Dレンダリングライブラリである[Coin3d](http://www.coin3d.org)用のPythonのバインディングライブラリです。実行中のPythonインタプリタにインポートするとFreeCADの3DビューアーなどのCoin3d[シーングラフ](Scenegraph/jp.md)と直に対話処理を行ったり、新しい3Dビューアーを作成することさえできます。Pivyは標準のFreeCADインストールに同梱されています。
+[Pivy](http://pivy.coin3d.org/)はFreeCADで使われている3Dレンダリングライブラリである[Coin3d](http://www.coin3d.org)用のPythonのバインディングライブラリです。実行中のPythonインタプリタにインポートするとFreeCADの3DビューアーなどのCoin3d[シーングラフと](Scenegraph/jp.md)直に対話処理を行ったり、新しい3Dビューアーを作成することさえできます。Pivyは標準のFreeCADインストールに同梱されています。
 
 
 </div>
 
-When imported in a running Python interpreter, Pivy allows us to communicate directly with any running Coin [scenegraph](Scenegraph.md), such as the [3D view](3D_view.md), or even to create new ones. Pivy is not required to compile FreeCAD, but it is required at runtime when running Python-based workbenches that create shapes on screen, like [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md). Because of this, Pivy is normally installed when installing a distribution of FreeCAD.
+When imported in a running Python interpreter, Pivy allows us to communicate directly with any running Coin [scenegraph](Scenegraph.md), such as the [3D view](3D_view.md), or even to create new ones. Pivy is not required to compile FreeCAD, but it is required at runtime when running Python-based workbenches that create shapes on screen, like [Draft](Draft_Workbench.md) and [BIM](BIM_Workbench.md). Because of this, Pivy is normally installed when installing a distribution of FreeCAD.
 
 
 <div class="mw-translate-fuzzy">
@@ -25,6 +25,8 @@ from pivy import coin
 ```
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## シーングラフへのアクセスと変更
@@ -35,7 +37,7 @@ from pivy import coin
 
 <div class="mw-translate-fuzzy">
 
-典型的なCoinシーンがどの様に構成されているかは[シーングラフ](Scenegraph/jp.md)ページで見ました。FreeCADの3Dビューに表示されているものは全てCoinシーングラフであり、同じやり方で構成されています。ルートのノードが一つあり、画面上のオブジェクトは全てその子ノードです。
+典型的なCoinシーンがどの様に構成されているかは[シーングラフページで](Scenegraph/jp.md)見ました。FreeCADの3Dビューに表示されているものは全てCoinシーングラフであり、同じやり方で構成されています。ルートのノードが一つあり、画面上のオブジェクトは全てその子ノードです。
 
 
 </div>
@@ -157,6 +159,8 @@ sg.removeChild(myCustomNode)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## コールバック機能の使用
@@ -195,13 +199,15 @@ ButtonTest()
 
 <div class="mw-translate-fuzzy">
 
-コールバックが起きた時にもオブジェクトは実行され続けなければならないのでコールバックはオブジェクトで初期化されなけれればなりません。 利用可能なイベントとパラメータの[全リスト](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)または[Coin公式ドキュメント](http://doc.coin3d.org/Coin/classes.html)を参照してください。
+コールバックが起きた時にもオブジェクトは実行され続けなければならないのでコールバックはオブジェクトで初期化されなけれればなりません。 利用可能なイベントとパラメータの[全リストまたは](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)[Coin公式ドキュメント](http://doc.coin3d.org/Coin/classes.html)を参照してください。
 
 
 </div>
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">

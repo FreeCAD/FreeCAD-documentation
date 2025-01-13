@@ -4,7 +4,7 @@
    Name/de: Sketcher Ergänzungsbogen
    MenuLocation: Skizze , Sketcher visuell , Kreishelfer für Bögen ein-/ausblenden
    Workbenches: Sketcher_Workbench/de
-   Version: 0.22
+   Version: 1.0
 ---
 
 # Sketcher ArcOverlay/de
@@ -25,7 +25,7 @@ Das Werkzeug <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:24px;"
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/Sketcher_ArcOverlay.svg" width=16px> [Kreishelfer für Bögen ein-/ausblenden](Sketcher_ArcOverlay.md)** drücken.
     -   Den Menüeintrag **Skizze → Sketcher visuell → <img src="images/Sketcher_ArcOverlay.svg" width=16px> Kreishelfer für Bögen ein-/ausblenden** auswählen.
 

@@ -22,24 +22,24 @@ Polecenie **Kopiuj** kopiuje zaznaczone obiekty do schowka.
 
 1.  Wybierz jeden lub więcej obiektów.
 2.  Istnieje kilka sposobów na wywołanie tego polecenia:
-    -   Naciśnij przycisk **<img src="images/Std_Copy.svg" width=16px> '''Kopiuj'''**.
+    -   Naciśnij przycisk **<img src="images/Std_Copy.svg" width=16px> [Kopiuj](Std_Copy/pl.md)**.
     -   Wybierz z menu opcję **Edycja → <img src="images/Std_Copy.svg" width=16px> Kopiuj**.
-    -   Wybierz opcję **<img src="images/Std_Copy.svg" width=16px> Kopiuj** z menu podręcznego [Widoku drzewa](Tree_view/pl.md).
-    -   Użyj skrótu klawiaturowego: **Ctrl** + **C**.
+    -   Wybierz opcję **<img src="images/Std_Copy.svg" width=16px> Kopiuj** z menu podręcznego [widoku drzewa](Tree_view/pl.md).
+    -   Użyj skrótu klawiszowego: **Ctrl** + **C**.
 3.  Jeśli obiekty mają zależności, które nie zostały wybrane, zostanie wyświetlone okno dialogowe z prośbą o określenie, które z nich powinny zostać uwzględnione.
 
 
 
 ## Uwagi
 
--   Podczas pracy w oknie tekstowym programu FreeCAD, w polu wprowadzania danych lub arkuszu kalkulacyjnym standardowy skrót klawiaturowy **Ctrl** + **C** w prawie wszystkich przypadkach nie wywołuje polecenia **Std Kopiuj**, ale zamiast tego używa funkcji Kopiuj z systemu operacyjnego.
+-   Podczas pracy w oknie tekstowym programu FreeCAD, w polu wprowadzania danych lub arkuszu kalkulacyjnym standardowy skrót klawiszowy **Ctrl** + **C** w prawie wszystkich przypadkach nie wywołuje polecenia **Std Kopiuj**, ale zamiast tego używa funkcji Kopiuj z systemu operacyjnego.
 -   Nie jest możliwe kopiowanie i wklejanie natywnych obiektów między programem FreeCAD a innymi aplikacjami.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

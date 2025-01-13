@@ -25,7 +25,7 @@ Il comando **Macro\...** apre la finestra di dialogo Esegui macro. Da questa fin
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Macro...](Std_DlgMacroExecute/it.md)**.
     -   Selezionare l\'opzione **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macro...** dal menu.
-2.  Si apre la finestra di dialogo Esegui macro. Vedere [Opzioni](#Opzioni.md).
+2.  Si apre la finestra di dialogo **Esegui macro**. Vedere [Opzioni](#Opzioni.md).
 
 
 
@@ -36,7 +36,7 @@ Il comando **Macro\...** apre la finestra di dialogo Esegui macro. Da questa fin
 ### Trova file / Trova nei file 
 
 :   
-    {{Version/it|0.22}}
+    {{Version/it|1.0}}
     
 
 
@@ -183,13 +183,15 @@ Il comando **Macro\...** apre la finestra di dialogo Esegui macro. Da questa fin
 
 ## Preferenze
 
--   La posizione delle macro utente può anche essere modificata nelle preferenze: **Modifica → Preferenze... → Python → Macro → Percorso macro**. Vedere [Editor delle preferenze](Preferences_Editor/it#Macro.md).
+Vedere anche: [Editor delle Preferenze](Preferences_Editor/it.md).
+
+-   La posizione delle macro utente può anche essere modificata nelle preferenze: **Modifica → Preferenze... → Python → Macro → Percorso macro**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

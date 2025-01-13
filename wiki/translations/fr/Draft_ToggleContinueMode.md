@@ -3,7 +3,7 @@
    Name: Draft ToggleContinueMode
    Name/fr: Draft Basculer en mode continu
    MenuLocation: Utilitaires , Basculer le mode continuer
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   Workbenches: Draft_Workbench/fr
 ---
 
 # Draft ToggleContinueMode/fr

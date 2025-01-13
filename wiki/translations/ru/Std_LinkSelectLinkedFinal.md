@@ -41,7 +41,7 @@ The **Std LinkSelectLinkedFinal** command selects the **Linked Object**, the sou
 </div>
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

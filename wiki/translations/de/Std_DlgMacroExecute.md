@@ -25,7 +25,7 @@ Der Befehl **Std DlgMakroAusführen** öffnet das Dialogfenster Makro ausführen
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Makros...](Std_DlgMacroExecute/de.md)** drücken.
     -   Den Menüeintrag **Makro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Makros...** auswählen.
-2.  Das Dialogfenster Makro ausführen wird geöffnet. Siehe [Optionen](#Optionen.md).
+2.  Das Dialogfenster **Makro ausführen wird** geöffnet. Siehe [Optionen](#Optionen.md).
 
 
 
@@ -36,7 +36,7 @@ Der Befehl **Std DlgMakroAusführen** öffnet das Dialogfenster Makro ausführen
 ### Datei suchen / In Datei suchen 
 
 :   
-    {{Version/de|0.22}}
+    {{Version/de|1.0}}
     
 
 
@@ -198,13 +198,15 @@ Der Befehl **Std DlgMakroAusführen** öffnet das Dialogfenster Makro ausführen
 
 ## Einstellungen
 
--   Der Ablageort der Benutzermakros kann auch in den Voreinstellungen angepasst werden: **Bearbeiten → Einstellungen... → Python → Makro → Makro-Zielpfad**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Makro.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Der Ablageort der Benutzermakros kann auch in den Voreinstellungen angepasst werden: **Bearbeiten → Einstellungen... → Python → Makro → Makro-Zielpfad**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -3,6 +3,8 @@
 
 Le **format de fichier** (**.FCStd**) est le format de fichier principal de FreeCAD. Il s'agit d'un format conteneur prenant en charge la compression et l'incorporation de différents types de données.
 
+
+
 ## Contenu d\'un fichier .FCStd 
 
 FCStd est un [fichier zip standard contenant un ou plusieurs fichiers](#Structure_typique.md) dans une [structure spécifique](#Structure.md). En tant que tel, il est possible de décompresser un fichier **.FCStd** à l\'aide d\'un outil de décompression zip, mais des précautions doivent être prises lors de la reconstruction du fichier **.FCStd**. FreeCAD possède un \"Utilitaire de projet\" pour reconstruire les fichiers **.FCStd**, dont l\'utilisation est décrite dans [Modifier le code source du fichier .FCStd](#Modifier_le_code_source_du_fichier_.FCStd.md) ci-dessous.
@@ -10,6 +12,8 @@ FCStd est un [fichier zip standard contenant un ou plusieurs fichiers](#Structur
 ### Document.xml
 
 C\'est le fichier **.xml** principal, décrivant tous les objets à l\'intérieur d\'un document FreeCAD, c\'est-à-dire la définition géométrique et les paramètres des objets, mais pas leur représentation visuelle. Si FreeCAD est exécuté en mode console (sans l\'interface graphique), c\'est ce **Document.xml** qui sera utilisé.
+
+
 
 #### Exemple de Document.xml 
 
@@ -106,13 +110,19 @@ C\'est le fichier **.xml** principal, décrivant tous les objets à l\'intérieu
  </Document>
 }}
 
+
+
 ### GuiDocument.xml
 
 Il s\'agit de l\'équivalent **GUI** (Graphique User Interface) du fichier **Document.xml**. Pour chaque objet décrit dans le **Document.xml**, il y a un objet correspondant dans **GuiDocument.xml**, qui décrit la représentation visuelle de l\'objet (couleur, largeur, etc.).
 
+
+
 ### Thumbnails/thumbnail.png
 
 Il s\'agit d\'une image miniature (thumbnail) du document de 128 x 128 pixels, qui représente une capture d\'écran de la vue 3D pour gagner du temps. Les vignettes sont uniquement générées, si l\'option correspondante est activée dans les préférences de FreeCAD.
+
+
 
 ### \*.brep
 
@@ -121,6 +131,8 @@ Ce sont les formes [B-Rep](wikipedia:fr:B-Rep.md) de tous les objets, qui ont un
 ### \*.svg
 
 Ce sont les fichiers svg modèles utilisés dans les pages de [TechDraw](TechDraw_Workbench/fr.md).
+
+
 
 ### Structure typique 
 
@@ -139,6 +151,8 @@ Structure typique d\'un fichier **.FCStd**. L\'extension peut être modifiée en
       :--MyPage.svg
       :--etc.
 
+
+
 ## Incorporation d\'autres fichiers 
 
 Pour incorporer d\'autres types de fichiers dans un fichier FCStd, vous devez d\'abord créer un [objet scripté](Scripted_objects/fr.md) à partir de la [console Python](Python_console/fr.md) et lui donner une propriété `App::PropertyFileIncluded`.
@@ -153,13 +167,11 @@ custom_obj.addProperty("App::PropertyFileIncluded", "AttachedFile")
 
 Voir le fil du forum [PDF inside the project](https://forum.freecadweb.org/viewtopic.php?t=38201).
 
+
+
 ## Modifier le code source du fichier .FCStd 
 
 -   Voir [Std Utilitaire de projet](Std_ProjectUtil/fr.md).
-
-## Autres
-
--   Utilitaire pour convertir des fichiers [ImageConv](ImageConv/fr.md).
 
 
 

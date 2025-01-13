@@ -3,7 +3,7 @@
    Name: Draft CircularArray
    Name/pl: Rysunek Roboczy: kołowy
    MenuLocation: Modyfikacja , Narzędzia szyku , Szyk kołowy
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
    Version: 0.19
    SeeAlso: Draft_OrthoArray/pl, Draft_PolarArray/pl, Draft_PathArray/pl, Draft_PathLinkArray/pl, Draft_PointArray/pl, Draft_PointLinkArray/pl
 ---
@@ -16,7 +16,7 @@
 
 Polecenie <img alt="" src=images/Draft_CircularArray.svg  style="width:24px;"> **Szyk kołowy** tworzy tablicę z wybranego obiektu poprzez umieszczenie kopii wzdłuż współśrodkowych okręgów. Polecenie może opcjonalnie utworzyć szyk [łączy](App_Link.md), który jest bardziej wydajny niż zwykły szyk.
 
-Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
+Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [BIM](BIM_Workbench/pl.md).
 
 <img alt="" src=images/Draft_CircularArray_example.png  style="width:400px;"> 
 *Szyk kołowy*

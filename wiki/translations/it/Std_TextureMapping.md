@@ -22,7 +22,7 @@ Il comando **Mappa una trama** mappa temporaneamente una trama su tutti gli ogge
 ## Utilizzo
 
 1.  Selezionare l\'opzione **Visualizza → <img src="images/Std_TextureMapping.svg" width=16px> Mappa una trama...** dal menu.
-2.  Nel pannello delle attività Texture selezionare facoltativamente la casella di controllo {{CheckBox|TRUE|Ambiente}}.
+2.  Si apre il pannello delle attività **Texture**.
 3.  Premere il pulsante **...**.
 4.  Selezionare un file immagine nella finestra di dialogo.
 5.  Premere il pulsante **Chiudi** per chiudere il pannello delle attività e terminare il comando.

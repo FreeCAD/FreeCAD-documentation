@@ -146,7 +146,7 @@ Il seguente comando clonerà il repository git di FreeCAD in una directory chiam
 
 
 ```python
-git clone https://github.com/FreeCAD/FreeCAD FreeCAD-git
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD FreeCAD-git
 ```
 
 Creare la cartella di compilazione.

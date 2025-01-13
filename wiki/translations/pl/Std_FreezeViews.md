@@ -23,7 +23,7 @@ FreeCAD może przechowywać ujęcia widoku maksymalnie w 50 \"zamrożonych widok
 
 ### Opis
 
-Opcja menu **Zapisz widoki\...** zapisuje wszystkie istniejące zamrożone widoki w pliku z rozszerzeniem \*.cam.
+Opcja menu **Zapisz widoki\...** zapisuje wszystkie istniejące zamrożone widoki w pliku z rozszerzeniem ***.cam**.
 
 
 
@@ -48,7 +48,7 @@ Opcja menu **Zapisz widoki\...** zapisuje wszystkie istniejące zamrożone widok
 
 ### Opis 
 
-Opcja menu **Załaduj widoki\...** wczytuje zamrożone widoki z pliku z rozszerzeniem \*.cam. Wszystkie istniejące zamrożone widoki zostaną usunięte.
+Opcja menu **Załaduj widoki\...** wczytuje zamrożone widoki z pliku z rozszerzeniem ***.cam**. Wszystkie istniejące zamrożone widoki zostaną usunięte.
 
 
 
@@ -123,7 +123,7 @@ Dla każdego zamrożonego widoku dodana jest opcja **Przywróć widok**, za pomo
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

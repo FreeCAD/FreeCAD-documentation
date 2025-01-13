@@ -23,7 +23,7 @@ Une Part Sphère peut être tronquée en haut et/ou en bas en modifiant ses prop
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Part_Sphere.svg" width=16px> [Sphère](Part_Sphere/fr.md)**.
-    -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Sphere.svg" width=16px> Sphère** dans le menu.
+    -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Sphere.svg" width=16px> Sphère** du menu.
 2.  La sphère est créée.
 3.  Vous pouvez modifier les dimensions et le **Placement** de la sphère en effectuant l\'une des opérations suivantes :
     -   Double-cliquez sur l\'objet dans la [vue en arborescence](Tree_view/fr.md) :

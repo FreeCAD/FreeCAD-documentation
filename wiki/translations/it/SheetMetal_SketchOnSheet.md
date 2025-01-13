@@ -17,22 +17,14 @@ In contrast to the <img alt="" src=images/PartDesign_Pocket.svg  style="width:16
 ## Usage
 
 1.  Select a **planar face**
-2.  Select a coplanar <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md) (i.e. lying on the same plane) for the **hole layout** (preferably from the [tree view](Tree_view.md)).
-    -   **Note:** Don\'t forget the **Control**/**Command** key!
-3.  Activate the <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> Sketch On Sheet metal command using the:
-    -   
-        **<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md)
-**
-        
-        button
-
-    -   
-        **SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Sketch On Sheet metal
-**
-        
-        drop down menu
-
-    -   keyboard shortcut: **M** then **S**
+2.  Add a coplanar <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md) (i.e. lying on the same plane) for the **hole layout** to the selection (preferably from the [tree view](Tree_view.md)).
+3.  There are several ways to invoke the command:
+    -   Press the **<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md)** button.
+    -   Select the **SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Sketch On Sheet metal** option from the menu.
+    -   Right-click in the [Tree view](Tree_view.md) or the [3D view](3D_view.md) and select the **SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Sketch On Sheet metal** option from the context menu.
+    -   Use the keyboard shortcut: **M** then **S**.
+4.  A **SketchOnSheet** object will be created consisting of holes starting on the selected plane and following along the bends and walls.
+5.  Optionally adjust the parameters in the [Property editor](Property_editor.md).
 
 ## Notes
 
@@ -43,18 +35,9 @@ In contrast to the <img alt="" src=images/PartDesign_Pocket.svg  style="width:16
 
 See also: [Property editor](Property_editor.md).
 
-A SheetMetal SketchOnSheet object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+A SheetMetal SketchOnSheet object is derived from a [Part Feature](Part_Feature.md) object or, if it is inside a [PartDesign Body](PartDesign_Body.md), from a [PartDesign Feature](PartDesign_Feature.md) object, and inherits all its properties. It also has the following additional properties:
 
 ### Data
-
-
-{{Properties_Title|Base}}
-
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
-
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
-
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
 
 
 {{Properties_Title|Parameters}}

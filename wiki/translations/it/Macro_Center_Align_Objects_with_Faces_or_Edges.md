@@ -2,62 +2,42 @@
 **Ora questi strumenti sono inclusi nell'ambiente [Manipulator](Manipulator_Workbench/it.md). Installare questo workbench per gli ultimi aggiornamenti su questi strumenti.**
 
 
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Center Faces of Parts
 |Translate=Centra e allinea facce e bordi
-|Icon=Macro_Center_Align_Objects_with_Faces_or_Edges.png
+|Icon=Macro_Center_Align_Objects_with_Faces_or_Edges.svg
 |Description=Allinea gli oggetti vincolando le facce o i bordi. Ora questi strumenti sono inclusi nell'ambiente [Manipulator](Manipulator_Workbench/it.md). Installare questo workbench per gli ultimi aggiornamenti su questi strumenti
 |Author=easyw-fc
 |Version=1.5.3
 |Date=2017-10-01
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/e/ee/Macro_Center_Align_Objects_with_Faces_or_Edges.svg ToolBar Icon]<br/>[https://www.freecadweb.org/wiki/images/8/8b/Mover-ico.png Mover-ico]<br/>[https://www.freecadweb.org/wiki/images/e/ee/Caliper-ico.png Caliper-ico]
+|Download=[https://www.freecadweb.org/wiki/images/e/ee/Macro_Center_Align_Objects_with_Faces_or_Edges.svg ToolBar Icon]<br/>[https://www.freecadweb.org/wiki/images/3/3d/Manipulator_Mover.svg Mover-icon]<br/>[https://www.freecadweb.org/wiki/images/1/10/Manipulator_Caliper.svg Caliper-icon]
 }}
-
-
-</div>
 
 ## Descrizione
 
-Questo macro si allinea oggetti con i volti o i bordi vincoli
+Questa macro allinea gli oggetti tramite i vincoli di facce o bordi
 
 
 {{Codeextralink|https://raw.githubusercontent.com/easyw/FreeCAD_Macros/master/Align%20Objects/CenterAlignObjectswFacesEdges.py}}
 
+
+
 ## Strumenti
 
+**Aligner** <img alt="" src=images/Macro_Center_Align_Objects_with_Faces_or_Edges.svg  style="width:32px;">: un set di strumenti per spostare e allineare le parti 3D
 
-<div class="mw-translate-fuzzy">
+**Mover** <img alt="" src=images/Manipulator_Mover.svg  style="width:32px;">: una serie di strumenti per spostare e ruotare parti 3D su diversi assi
 
-**Aligner** ![](images/Aligner-ico.png ): un set di strumenti per spostare e allineare le parti 3D
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-**Mover** ![](images/Mover-ico.png ): una serie di strumenti per spostare e ruotare parti 3D su diversi assi
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-**Measure** ![](images/Caliper-ico.png ): una serie di strumenti per misurare le parti 3D, con alcune funzioni di Snap e di misurazione di Raggio, Lunghezza, Angolo.
-
-
-</div>
+**Measure** <img alt="" src=images/Manipulator_Caliper.svg  style="width:32px;">: una serie di strumenti per misurare le parti 3D, con alcune funzioni di Snap e di misurazione di Raggio, Lunghezza, Angolo.
 
 Questi supporti lavorano con **Part, App::Part e Body objects**. Ogni strumento può essere **Floating** o **Docked Left o Right**.
 
 
 
-## Vecchie referenze 
+
+
+## Vecchie riferimenti 
 
 Questa macro applica i seguenti vincoli:
 
@@ -79,15 +59,9 @@ Questa macro applica i seguenti vincoli:
 
 [Aligning STEP models video tutorial](https://youtu.be/aQcPqhlgHBU)
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 Per vincolare facce o bordi tra parti non cilindriche, basta aprire un documento FC, lanciare la Macro, selezionare due o più facce o bordi da allineare, fare clic sul pulsante Allinea e il gioco è fatto!
-
-
-</div>
 
 ## Script
 

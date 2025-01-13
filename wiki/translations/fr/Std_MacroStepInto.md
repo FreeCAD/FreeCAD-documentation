@@ -1,9 +1,8 @@
 ---
  GuiCommand:
    Name: Std DebugInto
-   Name/fr: Std Pénétrer dans
-   MenuLocation: Macro  , Pénétrer dans
-   Empty: 1
+   Name/fr: Std Rentrer dedans
+   MenuLocation: Macro , Rentrer dedans
    Workbenches: Tous
    Shortcut: **F11**
    SeeAlso: Std_MacroStepOver/fr, Std_ToggleBreakpoint/fr
@@ -19,7 +18,7 @@ Cette commande ne fonctionne pas pour le moment.
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

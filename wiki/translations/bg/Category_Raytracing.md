@@ -1,5 +1,5 @@
 # Category:Raytracing/bg
-This category lists pages related to the [Raytracing Workbench/bg](Raytracing_Workbench/bg.md).
+This category is for pages related to the [Raytracing Workbench/bg](Raytracing_Workbench/bg.md).
 
 ### Contents
 

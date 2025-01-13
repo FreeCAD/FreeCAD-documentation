@@ -10,11 +10,15 @@
 
 # PartDesign AdditiveBox/de
 
+
+
 ## Beschreibung
 
 Fügt einen Quader-Grundkörper in den aktiven Körper (Body-Objekt) als Basisformelement ein oder vereinigt ihn mit den bereits vorhandenen Formelementen.
 
 <img alt="" src=images/PartDesign_AdditiveBox_example.png  style="width:200px;">
+
+
 
 ## Anwendung
 
@@ -27,12 +31,16 @@ Fügt einen Quader-Grundkörper in den aktiven Körper (Body-Objekt) als Basisfo
 
 4.  Ein Box-Objekt (Formelement) erscheint unter dem aktiven Körper (in der Baumansicht).
 
+
+
 ## Optionen
 
 Der Quader kann nach der Erstellung auf zwei Arten bearbeitet werden:
 
 -   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** im Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" im Aufgabenbereich.
 -   Mit Hilfe des [Eigenschafteneditors](Property_editor/de.md).
+
+
 
 ## Eigenschaften
 

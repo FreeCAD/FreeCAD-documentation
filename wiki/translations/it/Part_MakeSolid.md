@@ -1,51 +1,52 @@
-# Part MakeSolid/it
 ---
- GuiCommand:   Name: Part ConvertToSolid   Name/it: Converti in solido   Empty: 1‏‎   MenuLocation: Parte , Converti in solido   Workbenches: Part Workbench/it   Parte|SeeAlso: ---
+ GuiCommand:
+   Name: Part MakeSolid
+   Name/it: Part Converti in solido
+‎   MenuLocation: Parte , Converti in solido
+   Workbenches: Part_Workbench/it
+   SeeAlso: Part_ShapeFromMesh/it
+---
 
-
-</div>
+# Part MakeSolid/it
 
 
 
 ## Descrizione
 
-Questo comando crea un solido da una forma
+Il comando <img alt="" src=images/Part_MakeSolid.svg  style="width:24px;"> **Part Converti in solido** crea solidi da oggetti forma (shape).
+
+Questo comando viene generalmente utilizzato come uno dei passaggi per creare un solido da una mesh. Per ulteriori informazioni, vedere [Part Crea forma da mesh](Part_ShapeFromMesh/it#Usage.md).
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare l\'oggetto forma.
-2.  Scegliere ** Part** → **Converti in solido** dal menu in alto.
-3.  Dall\'oggetto forma viene creato un nuovo oggetto solido indipendente.
-
-
-</div>
+1.  Selezionare uno o più oggetti forma.
+2.  Selezionare l\'opzione **Part → <img src="images/Part_MakeSolid.svg" width=16px> Converti in solido** dal menu.
+3.  Per ognuno degli oggetti selezionati un solido viene creato come un nuovo oggetto separato
 
 
 
-## Limitazioni
+## Note
+
+-   Gli oggetti forma selezionati o non analizzati o convalidati.
+-   Si consiglia di utilizzare [Part Affina una forma](Part_RefineShape/it.md) prima della conversione in solido.
 
 
-<div class="mw-translate-fuzzy">
 
-Non è disponibile l\'analisi e la convalida dell\'oggetto forma.
-Si raccomanda di usare ** Part** → ** Affina forma** prima di convertirla in un solido.
+## Proprietà
 
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Gli oggetti creati sono oggetti [Part Feature](Part_Feature/it.md) senza proprietà aggiuntive.
 
 
 
 
 
-</div>
+{{Part_Tools_navi
+
+}}
 
 
 

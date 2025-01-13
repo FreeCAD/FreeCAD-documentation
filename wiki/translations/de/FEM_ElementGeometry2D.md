@@ -1,11 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/de
    Name: FEM ElementGeometry2D
    Name/de: FEM ElementGeometrie2D
    MenuLocation: Modell , Element-Geometrie , Schalendicke
    Workbenches: FEM_Workbench/de
    Shortcut: **C** **S**
    SeeAlso: FEM_tutorial/de
+}}
+{{GuiCommandFemInfo/de
+   Solvers: Alle
+}}
 ---
 
 # FEM ElementGeometry2D/de
@@ -14,13 +19,13 @@
 
 ## Beschreibung
 
-Ein **ElementGeometry2D**-Objekt wird zum Festlegen der Wandstärke von FEM-Schalenelementen verwendet; für alle oder nur diejenigen, die auf der ausgewählten Oberfläche liegen.
+Ein **ElementGeometry2D**-Objekt wird zum Festlegen der Wandstärke von 2D-FEM-Elementen (Schalenelemente und {{Version/de|1.0}}: ebene Spannungs-/Belastungselemente) verwendet; für alle oder nur diejenigen, die auf der ausgewählten Oberfläche liegen.
 
 
 
 ## Anwendung
 
-1.  Es gibt mehrereMöglichkeiten den Befehl aufzurufen:
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [Schalendicke](FEM_ElementGeometry2D/de.md)** drücken.
     -   Den Menüeintrag **Modell → Element-Geometrie → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Schalendicke** auswählen.
 2.  Die Schalendicke festlegen.
@@ -39,17 +44,14 @@ Ein **ElementGeometry2D**-Objekt wird zum Festlegen der Wandstärke von FEM-Scha
 
 **Thickness**
 
-: Legt die Wandstärke der Schale (Hülle) fest.
-
-
-
-## Skripten
+: Legt die Wandstärke der 2D-Elemente fest.
 
 
 
 ## Hinweise
 
--   Um die Ergebnisse sehen zu können, die der CalculiX-Löser aus dem Netz ableitet, das auf der vorgegebenen Wandstärke basiert, muss die Eigenschaft `Beam Shell Result Output 3D` des [SolverCcxTools](FEM_SolverCalculixCxxtools/de.md)-Objekts auf `True` gesetzt werden.
+-   Zum Betrachten der Ergebnisse des Lösers CalculiX aus dem auf die vorgegebene Wandstärke erweiterten Netz muss die Eigenschaft `Beam Shell Result Output 3D` des [FEM LöserCalculixCxxtools](FEM_SolverCalculixCxxtools/de.md)-Objekts auf `True` gesetzt werden.
+-   Diese Funktion verwendet die [\*SHELL SECTION-Karte in CalculiX](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node238.html) für Schalenelemente und die [\*SOLID SECTION-Karte](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node239.html) für ebene Spannungs-/Belastungselemente.
 
 
 

@@ -1,5 +1,5 @@
 # Which workbench should I choose/pl
-Jeśli jesteś nowy w FreeCAD, są duże szanse, że zastanawiasz się, od którego [środowiska pracy](Workbenches/pl.md) powinieneś zacząć. Ta strona pomoże Ci wybrać, od czego zacząć.
+Jeśli FreeCAD jest dla Ciebie nowy, są duże szanse, że zastanawiasz się, od którego [środowiska pracy](Workbenches/pl.md) powinieneś zacząć. Ta strona pomoże Ci wybrać, od czego zacząć.
 
 Środowiska pracy to zestawy narzędzi, przycisków, paneli i innych elementów interfejsu, które są zgrupowane razem. Pomyśl o tym jak o aplikacji wewnątrz aplikacji. W programie FreeCAD, obszary robocze zazwyczaj gromadzą zestaw narzędzi dostosowanych do konkretnego celu, takich jak rysowanie 2D, projektowanie obiektów 3D, projektowanie łodzi, projektowanie trajektorii robotów, projektowanie budynków i wiele innych.
 
@@ -50,7 +50,7 @@ Kiedy masz już swoje różne części, musisz je złożyć razem. FreeCAD nie p
 
 -   Środowisko pracy [A2plus](A2plus_Workbench/pl.md) dostarcza narzędzi do tworzenia złożeń wieloelementowych. Jest to najstarsze środowisko złożeń, jakie mamy w FreeCAD. Powstało zanim zaawansowane funkcje takie jak obiekty App Link były dostępne w FreeCAD, dlatego jest bardziej podstawowe i prostsze, co może być problemem lub zaletą.
 -   [Złożenie 3](Assembly3_Workbench/pl.md) służy do wykonywania montażu różnych brył zawartych w jednym pliku lub w wielu dokumentach. Był to testowy obiekt App Link, który ostatecznie został włączony do kodu głównego. Jest to najbardziej złożone rozwiązanie i obsługuje takie rzeczy jak interaktywna kinematyka.
--   [Założenie 4](Assembly4_Workbench/pl.md) to rozwiązanie oparte na ulepszonym silniku wyrażeń i obiekcie App Link opracowanym w gałęzi Assembly3. Assembly4 nie działa z właściwym solverem wiązań, zamiast tego wykorzystuje silnik wyrażeń do pozycjonowania ciał względem Lokalnych Układów Współrzędnych *(LCS)*.
+-   [Złożenie 4](Assembly4_Workbench/pl.md) to rozwiązanie oparte na ulepszonym silniku wyrażeń i obiekcie App Link opracowanym w gałęzi Assembly3. Assembly4 nie działa z właściwym solverem wiązań, zamiast tego wykorzystuje silnik wyrażeń do pozycjonowania ciał względem Lokalnych Układów Współrzędnych *(LCS)*.
 
 Wybór najlepszego zależy od Twoich wymagań i nie jest łatwo stwierdzić z góry. Sugerujemy najpierw wypróbowanie Złożenie 4, a następnie wypróbowanie Złożenie 3, jeśli potrzebujesz czegoś bardziej złożonego, lub A2Plus jest zbyt złożony dla Twoich potrzeb.
 
@@ -101,9 +101,7 @@ Tutaj znajduje się więcej materiałów o środowisku pracy Rysunek Techniczny 
 
 ## Mam jakieś doświadczenie z Revitem lub ArchiCADem lub inną aplikacją BIM. Chcę się zająć modelowaniem BIM 
 
-Twoje środowisko pracy to [BIM](BIM_Workbench/pl.md). Nie jest on częścią wbudowanych narzędzi FreeCAD, musisz go zainstalować poprzez [Menadżer dodatków](Std_AddonMgr/pl.md). Środowisko pracy [Architektura](Arch_Workbench/pl.md), dołączone do programu FreeCAD, jest minimalnym podzbiorem narzędzi środowiska pracy BIM, który pozwoli na poprawne otwieranie modeli BIM na każdej instalacji FreeCAD, nawet bez środowiska pracy BIM.
-
-Środowisko pracy BIM zawiera również większość narzędzi [Rysunku Roboczego](Draft_Workbench/pl.md), i używa tej samej koncepcji [płaszczyzny roboczej](Draft_SelectPlane/pl.md), gdzie twoje kolejne obiekty będą leżeć na bieżącej płaszczyźnie roboczej.
+Środowiskiem pracy dla Ciebie jest [BIM](BIM_Workbench.md). Zawiera praktycznie wszystkie narzędzia spotykane w oprogramowaniu BIM do modelowania komponentów budynków, takich jak ściany, okna, drzwi itd. Zawiera też większość narzędzi [Rysunku Roboczego](Draft_Workbench/pl.md) i używa tej samej koncepcji [płaszczyzny roboczej](Draft_SelectPlane/pl.md), gdzie twoje kolejne obiekty będą leżeć na bieżącej płaszczyźnie roboczej.
 
 W programie FreeCAD nie ma obowiązkowej organizacji konstrukcji budynku *(np. piętra)*. Możesz wybrać grupowanie swoich obiektów BIM w [grupy](Std_Group/pl.md) lub [warstwy](Draft_Layer/pl.md), podobnie jak w Rysunku Roboczym, ale możesz również wykorzystać obiekt [Część budowli - piętro](Arch_BuildingPart/pl.md) do reprezentowania poziomów lub budynków i osiągnąć podobną organizację, jaką zwykle można znaleźć w innych aplikacjach BIM.
 

@@ -59,28 +59,32 @@ Jeśli zainstalowany jest generator siatek, upewnij się, że środowisko pracy 
 
 Do utworzenia siatki MES możesz również skorzystać z generatora *Netgen*, jako alternatywy dla *Gmsh*. W zależności od Twojego systemu operacyjnego i instalacji FreeCAD, Netgen może być dołączony do plików instalacyjnych FreeCAD.
 
-Jeśli program jest poprawnie zainstalowany, możesz uruchomić komendę `netgen` w wierszu poleceń Linux aby otworzyć jego środowisko graficzne.
+Jeśli program jest poprawnie zainstalowany, możesz uruchomić komendę `netgen` w wierszu poleceń Linux aby otworzyć jego środowisko graficzne:
 
 
 {{SystemInput|User@PC:~$ netgen -V}}
 
 
+{{VersionPlus/pl|1.0}}
+
+: Dostępna jest nowa ulepszona implementacja Netgen. Dzięki niej, Netgen może być w końcu używany z programem FreeCAD na Linux. Biblioteki Pythona dla Netgen muszą być zainstalowane aby korzystać z tej nowej implementacji:
+
+
 ```python
-NETGEN-6.2-dev
-Developed by Joachim Schoeberl at
-2010-xxxx Vienna University of Technology
-2006-2010 RWTH Aachen University
-1996-2006 Johannes Kepler University Linz
-Including OpenCascade geometry kernel
-Run parallel Netgen with 'mpirun -np xy netgen'
-NETGENDIR = .
-Tcl header version = 8.6.8
-Tcl runtime version = 8.6.8 
-using internal Tcl-script
-optfile ./ng.opt does not exist - using default values
-togl-version : 2
-OCC module loaded
+pip install --upgrade ngsolve
 ```
+
+Jeśli powyższe polecenie nie wystarczy, można spróbować następujących komend z [konsoli Pythona](Python_console/pl.md) we FreeCAD:
+
+
+```python
+import os, subprocess
+temp_dir = os.path.dirname(os.sys.executable)
+py_path = os.path.join(temp_dir, "python")
+subprocess.run([py_path, "-m", "pip", "install", "--user", "netgen-mesher"])
+```
+
+lub skompilować Netgen z kodu źródłowego. Może to być konieczne w przypadku użytkowników Windowsa i komputerów ze starymi procesorami - wyjaśnienie można znaleźć w [tym](https://forum.ngsolve.org/t/problems-with-netgen-pip-package/3078/2) wątku na forum Netgen.
 
 
 
@@ -196,6 +200,21 @@ linux-vdso.so.1 (0x00007fffbabdc000)
  libutil.so.1 => /lib/x86_64-linux-gnu/libutil.so.1 (0x00007fe9b7e14000)
  libnuma.so.1 => /usr/lib/x86_64-linux-gnu/libnuma.so.1 (0x00007fe9b7c09000)
  libltdl.so.7 => /usr/lib/x86_64-linux-gnu/libltdl.so.7 (0x00007fe9b79ff000)
+```
+
+Jedna z wyżej wymienionych zależności (`libgfortran.so.4`) wymaganych przez CalculiX może powodować problemy z nowszymi wersjami Ubuntu, dla których dostępne jest tylko `libgfortran5`. Oprócz korzystania ze starej wersji solvera CalculiX (2.17) dostępnej poprzez `sudo apt-get install calculix-ccx`, można skompilować nową wersję tego solvera. Nie trzeba tego robić ręcznie, ponieważ istnieje skrypt przechowywany na [tej stronie](https://www.feacluster.com/install/install), który można pozyskać i uruchomić następującymi poleceniami:
+
+
+```python
+wget https://feacluster.com/install/install
+perl install
+```
+
+Ten skrypt jest interaktywny i pyta o pewne dane wejściowe, takie jak typ solvera macierzowego (Spooles lub Pardiso). Aby skompilować inną wersję solvera CalculiX, należy po prostu zmienić następującą linię w skrypcie:
+
+
+```python
+$version = '2.2x';
 ```
 
 

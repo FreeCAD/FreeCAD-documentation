@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Sketcher MergeSketches
-   Name/it: Unisci schizzi
+   Name/it: Sketcher Unisci schizzi
    MenuLocation: Schizzo , Unisci schizzi
-   Workbenches: Sketcher_Workbench/it
+   Workbenches: Sketcher_Workbench/it, PartDesign_Workbench/it
    Version: 0.15
 ---
 
@@ -13,15 +13,17 @@
 
 ## Descrizione
 
-Unisce due o più schizzi in uno solo.
+Lo strumento <img alt="" src=images/Sketcher_MergeSketches.svg  style="width:24px;"> [Unisci schizzi](Sketcher_MergeSketches/it.md) unisce due o più schizzi.
 
 
 
 ## Utilizzo
 
 1.  Selezionare due o più schizzi.
-2.  Fare clic su **<img src="images/Sketcher_MergeSketches.svg" width=16px> [Unisci schizzi](Sketcher_MergeSketches/it.md)** o scegliere **Schizzo → <img src="images/Sketcher_MergeSketches.svg" width=16px> [Unisci schizzi](Sketcher_MergeSketches/it.md)** dal menu in alto.
-3.  Lo schizzo risultante verrà creato come un nuovo oggetto separato.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_MergeSketches.svg" width=16px> [Unisci schizzi](Sketcher_MergeSketches/it.md)** (non disponibile in [PartDesign](PartDesign_Workbench/it.md)).
+    -   Selezionare l\'opzione **Schizzo → <img src="images/Sketcher_MergeSketches.svg" width=16px> Unisci schizzi** dal menu.
+3.  Viene creato un nuovo schizzo.
 
 
 

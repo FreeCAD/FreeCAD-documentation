@@ -34,7 +34,7 @@ Il comando **Trasforma** consente di applicare incrementi di rotazione e increme
     -   Tenere premuto il pulsante sinistro del mouse su una sfera e trascinarla per ruotare l\'oggetto attorno a quell\'asse.
 6.  Effettuare una delle seguenti operazioni:
     -   Premere il pulsante **OK** per confermare e terminare il comando.
-    -   Premere il pulsante **Annulla** per annullare le trasformazioni applicate e terminare il comando. {{Version/it|0.22}}
+    -   Premere il pulsante **Annulla** per annullare le trasformazioni applicate e terminare il comando. {{Version/it|1.0}}
 
 
 
@@ -42,13 +42,13 @@ Il comando **Trasforma** consente di applicare incrementi di rotazione e increme
 
 -   Non appena si ruota/sposta l\'oggetto nella [Vista 3D](3D_view/it.md), le modifiche vengono applicate.
 -   Alcuni oggetti con una proprietà **Placement**, come gli schizzi, non possono essere manipolati, né lo possono essere gli oggetti collegati ad altri oggetti.
--   Non c\'è il pulsante **Annulla** in {{VersionMinus/it|0.21}}, in quelle versioni si può premere il pulsante **OK** e utilizzare il comando <img alt="link =Std_Undo" src=images/Std_Undo.svg  style="width:20px;"> [Annulla](Std_Undo/it.md) per annullare le modifiche successivamente.
+-   Non c\'è il pulsante **Annulla** in {{VersionMinus/it|0.21}}, in quelle versioni si può premere il pulsante **OK** e utilizzare il comando <img alt="" src=images/Std_Undo.svg  style="width:16px;"> [Annulla](Std_Undo/it.md) per annullare le modifiche successivamente.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

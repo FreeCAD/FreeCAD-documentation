@@ -1,41 +1,47 @@
 ---
  GuiCommand:
    Name: Arch IfcSpreadsheet
-   MenuLocation: Arch , Utilities , Create IFC spreadsheet
-   Workbenches: Arch_Workbench
+   Name/pl: Architektura: Utwórz arkusz IFC
+   MenuLocation: Architektura , Narzędzia , Utwórz arkusz IFC
+   Workbenches: BIM_Workbench/pl
    Shortcut: **I** **P**
-   SeeAlso: Arch_IFC, Arch_IfcExplorer
+   SeeAlso: Arch_IFC/pl
 ---
 
 # Arch IfcSpreadsheet/pl
+
+
 
 ## Opis
 
 To narzędzie tworzy arkusz kalkulacyjny do przechowywania właściwości [IFC](Arch_IFC/pl.md) obiektu.
 
+
+
 ## Użycie
 
-1.  Select an object.
-2.  Invoke the command using several methods:
-    -   Pressing the **<img src="images/Arch_IfcSpreadsheet.svg" width=16px> Create IFC spreadsheet** button on the toolbar.
-    -   Using the **I** then **P** keyboard shortcut.
-    -   Using the **Arch → Utilities → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Create IFC spreadsheet** entry from the top menu.
-
-## Scripting
+1.  Wybierz obiekt.
+2.  Wywołaj polecenie przy użyciu jednej z kilku metod:
+    -   Wybierz opcję **Narzędzia → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Utwórz arkusz IFC...** z menu.
+    -   Użyj skrótu klawiszowego: **I** a następnie **P**.
 
 
-**See also:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Tworzenie skryptów 
 
-This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Kształt z siatki** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji: 
 ```python
 spreadsheet = makeIfcSpreadsheet(archobj=None)
 ```
 
--   Creates a `spreadsheet` object. Optionally an `archobj` can be given.
+-   Tworzy obiekt `spreadsheet`. Opcjonalnie można podać `archobj`.
 
-Example: 
+Przykład: 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -48,5 +54,13 @@ spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/pl
+⏵ [documentation index](../README.md) > Arch IfcSpreadsheet/pl

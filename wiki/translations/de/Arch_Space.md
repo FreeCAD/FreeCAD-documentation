@@ -1,11 +1,12 @@
 ---
  GuiCommand:
-   Name: Arch Space   Name/de: Arch Raum
-   MenuLocation: Arch , Raum
-   Workbenches: Arch_Workbench/de
+   Name: Arch Space
+   Name/de: Arch Raum
+   MenuLocation: 3D/BIM , Raum
+   Workbenches: BIM_Workbench/de
    Shortcut: **S** **P**
    Version: 0.14
-   SeeAlso: Arch_Wall/de, Arch_Structure/de
+   SeeAlso: 
 ---
 
 # Arch Space/de
@@ -14,7 +15,7 @@
 
 ## Beschreibung
 
-Mit dem Werkzeug Raum kann ein leeres Volumen festgelegt werden, entweder auf einer Festkörperform basierend oder indem seine Grenzen festgelegt werden oder eine Mischung aus beidem. Wenn es ausschließlich auf Begrenzungen basiert, wird das Volumen berechnet, indem von der Begrenzungsbox aller gegebenen Begrenzungen ausgegangen und die Räume hinter jeder Begrenzung subtrahiert werden. Ein Raum (Space-Objekt) definiert immer ein Festkörper-Volumen. Die Bodenfläche eines Raumobjekts, die berechnet wird, indem es in seinem Massenschwerpunkt mit einer horizontale Ebene geschnitten wird, kann ebenfalls angezeigt werden.
+Das Werkzeug **Arch Raum** ermöglicht ein leeres Volumen festzugelegen, entweder auf einer Festkörperform basierend oder indem seine Grenzen festgelegt werden oder eine Mischung aus beidem. Wenn es ausschließlich auf Begrenzungen basiert, wird das Volumen berechnet, indem von der Begrenzungsbox aller gegebenen Begrenzungen ausgegangen und die Räume hinter jeder Begrenzung subtrahiert werden. Ein Raum (Space-Objekt) definiert immer ein Festkörper-Volumen. Die Bodenfläche eines Raumobjekts, die berechnet wird, indem es in seinem Massenschwerpunkt mit einer horizontale Ebene geschnitten wird, kann ebenfalls angezeigt werden.
 
 <img alt="" src=images/Arch_Space_example.jpg  style="width:640px;">
 
@@ -29,8 +30,8 @@ Mit dem Werkzeug Raum kann ein leeres Volumen festgelegt werden, entweder auf ei
 1.  Ein vorhandenes Festkörperobjekt oder Flächen auf Begrenzungsobjekten auswählen.
 2.  Den Befehl mit einer der folgenden Methoden aufrufen:
     -   Die Schaltfläche **<img src="images/Arch_Space.svg" width=16px> [Raum](Arch_Space/de.md)** drücken.
-    -   Das Tastaturkürzel **S** dann **P**
-    -   Den Menüeintrag **Arch → Raum** auswählen.
+    -   Das Tastaturkürzel **S** dann **P**.
+    -   Den Menüeintrag **3D/BIM → Raum** auswählen.
 
 
 
@@ -163,5 +164,13 @@ Arch.removeSpaceBoundaries(Space, selection)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Space/de
+⏵ [documentation index](../README.md) > Arch Space/de

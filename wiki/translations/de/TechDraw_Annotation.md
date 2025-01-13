@@ -26,7 +26,7 @@ Das Werkzeug **TechDraw Beschriftung** fügt einem Zeichnungsblatt einen Textblo
 2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/TechDraw_Annotation.svg" width=16px> [Anmerkung einfügen](TechDraw_Annotation.md)** drücken.
     -   Den Menüeintrag **TechDraw → Anmerkungen → <img src="images/TechDraw_Annotation.svg" width=16px> Anmerkung einfügen** auswählen.
-3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
     1.  Das gewünschte Blatt auswählen.
     2.  Die Schaltfläche **OK** drücken.
 4.  Ein Textblock mit *Default Text* erscheint auf der Zeichnung.
@@ -66,7 +66,7 @@ Die Beschriftung übernimmt alle anwendbaren grundlegenden Eigenschaften der Ans
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Das neue Werkzeug Beschriftung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
@@ -82,7 +82,7 @@ rc = page.addView(anno)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

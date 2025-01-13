@@ -8,6 +8,8 @@
 
 # Assembly3 ConstraintAxial/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug verbindet zwei oder mehr Objekte eines Zusammenbaus und gleicht ihre Ausrichtungen an. Die gewählten Elemente der einzelnen Objekte oder präziser ihre lokalen Koordinatensysteme (LKS) werden genutzt, um ein oder mehrere Objekte im Verhältnis zu einem anderen Objekt zu positionieren.
@@ -24,12 +26,16 @@ Diese Beziehung akzeptiert
 
 Die unterschiedliche Geometriearten können gemischt werden.
 
+
+
 ## Anwendung
 
 1.  Zwei oder mehr Objekte in einen Zusammenbau einfügen.
 2.  Je ein Element pro Objekt auswählen.
 3.  Den Befehl <img alt="" src=images/Assembly_ConstraintAxial.svg  style="width:16px;"> [Assembly3 AxialeAusrichtung](Assembly3_ConstraintAxial/de.md) aktivieren durch
     -   Die Schaltfläche **<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Create "AxialAlignment" constraint](Assembly3_ConstraintAxial/de.md)**.
+
+
 
 ## Kinematische Entsprechung 
 

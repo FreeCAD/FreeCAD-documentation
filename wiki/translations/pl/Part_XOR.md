@@ -38,7 +38,15 @@ Polecenie <img alt="" src=images/Part_XOR.svg  style="width:24px;"> **XOR** usuw
 
 
 
-## Tworzenie skryptów
+## Tworzenie skryptów 
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

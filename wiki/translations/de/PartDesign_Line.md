@@ -10,12 +10,16 @@
 
 # PartDesign Line/de
 
+
+
 ## Beschreibung
 
 Erstellt eine **Bezugslinie** (DatumLine), die als Referenz für Skizzen, weitere Referenzobjekte oder Formelemente (Features) genutzt werden kann. Zum Beispiel kann die Bezugslinie als Drehachse für Dreh- oder Nut-Werkzeug genutzt werden.
 
 <img alt="" src=images/datum_line.png  style="width:600px;"> 
 *Zwei Bezugslinien durch gegenüberliegende Ecken von einem Quader treffen sich im Schwerpunkt des Quaders.*
+
+
 
 ## Anwendung
 
@@ -27,9 +31,17 @@ Erstellt eine **Bezugslinie** (DatumLine), die als Referenz für Skizzen, weiter
 6.  Zusätzlich können Befestigungsversätze eingetragen werden.
 7.  Klicke **OK**.
 
+
+
 ## Optionen
 
 Mittels Doppelklick auf den Eintrag DatumLine in der Baumstruktur oder einen Rechtsklick mit der Auswahl **Bezug ändern** können die Eigenschaften der Bezugslinie editiert werden. Mehr Details zum Befestigungsmodus und dem Befestigungsversatz gibt es in [AnhangBearbeiten](Part_EditAttachment/de.md).
+
+## Preferences
+
+See [PartDesign Plane](PartDesign_Plane#Preferences.md).
+
+
 
 ## Eigenschaften
 

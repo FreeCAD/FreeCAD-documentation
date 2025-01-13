@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand
    Name: FEM ConstraintDisplacement
    MenuLocation: Model , Mechanical boundary conditions and loads , Displacement boundary condition
    Workbenches: FEM_Workbench
    Shortcut: 
    SeeAlso: FEM_tutorial
+}}
+{{GuiCommandFemInfo
+   Solvers: CalculiX, Elmer
+}}
 ---
 
 # FEM ConstraintDisplacement/en
@@ -16,10 +21,9 @@ Creates a FEM boundary condition for a prescribed displacement of a selected obj
 ## Usage
 
 1.  Press the **<img src="images/FEM_ConstraintDisplacement.svg" width=16px> [Displacement boundary condition](FEM_ConstraintDisplacement.md)** button or select the menu **Model → Mechanical boundary conditions and loads → <img src="images/FEM_ConstraintDisplacement.svg" width=16px> Displacement boundary condition**.
-2.  In the [3D view](3D_view.md) select the object the boundary condition should be applied to, which can be a vertex (corner), edge, or face.
-3.  Press the **Add** button.
-4.  Uncheck *Unspecified* to activate the necessary fields for editing.
-5.  Set the values or (<small>(v0.21)</small> ) specify a formula for the displacements.
+2.  Press the **Add** button.
+3.  In the [3D view](3D_view.md) select the object the boundary condition should be applied to, which can be a vertex, edge, or face (but all the selected objects have to be of the same type). To remove objects from the list, press the **Remove** button and click on them.
+4.  Check the boxes next to the degrees of freedom that you want to use. By default, they are set to zero (fixed) but any value (<small>(v0.21)</small> : or a formula for Elmer) can be specified.
 
 ## Formulas
 

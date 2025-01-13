@@ -10,10 +10,19 @@
 # Arch Fence/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 [Recinzione](Arch_Fence/it.md) è un oggetto che costruisce una recinzione ripetendo un piantone e una campata della recinzione lungo un determinato percorso.
+
+
+</div>
 
 <img alt="" src=images/Arch_Fence_description_example.png  style="width:600px;">
 
@@ -25,11 +34,17 @@
 
 ### Creare dall\'inizio 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Usare un ambiente a scelta per creare un piantone e una campata.
 2.  Creare il percorso della recinzione usando [Sketcher](Sketcher_Workbench/it.md) o [Draft](Draft_Workbench/it.md).
 3.  Passare nell\'ambiente [Arch](Arch_Workbench/it.md).
 4.  Selezionare la campata, il piantone e il percorso esattamente nell\'ordine indicato.
 5.  Premere il pulsante **<img src="images/Arch_Fence.svg" width=16px> [Recinzione](Arch_Fence/it.md)**.
+
+
+</div>
 
 
 
@@ -116,6 +131,20 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/it
+⏵ [documentation index](../README.md) > Arch Fence/it

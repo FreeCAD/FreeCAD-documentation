@@ -1,10 +1,10 @@
 ---
  GuiCommand:
-   Name: Sketcher_ValidateSketch
-   Name/it: Convalida lo schizzo
+   Name: Sketcher ValidateSketch
+   Name/it: Sketcher Convalida lo schizzo
    MenuLocation: Schizzo , Convalida lo schizzo...
    Workbenches: Sketcher_Workbench/it, PartDesign_Workbench/it
-   SeeAlso: Sketcher_ConstrainCoincident/it, Topological_naming_problem/it
+   SeeAlso: Sketcher_ConstrainCoincident/it
 ---
 
 # Sketcher ValidateSketch/it
@@ -13,25 +13,22 @@
 
 ## Descrizione
 
-L\'utilità **Convalida lo schizzo** può essere usata per analizzare e riparare uno schizzo che non è più modificabile o ha vincoli non validi, o per aggiungere [vincoli di coincidenza](Sketcher_ConstrainCoincident/it.md) a uno schizzo creato da una geometria importata come file DXF. Può anche essere utile individuare una coincidenza mancante in uno schizzo nativo che genera un errore \"can\'t validate broken face\" quando si tenta di applicare una funzione di PartDesign.
+Lo strumento <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:24px;"> [Convalida lo schizzo](Sketcher_ValidateSketch.md) può essere usato per analizzare e riparare uno schizzo che non è più modificabile o ha vincoli non validi, o per aggiungere [vincoli di coincidenza](Sketcher_ConstrainCoincident/it.md) a uno schizzo creato da una geometria importata come file DXF. Può anche essere utile per individuare una coincidenza mancante in uno schizzo nativo che genera un errore \"can\'t validate broken face\" quando si tenta di applicare una funzione di PartDesign.
 
-![](images/Sketcher_ValidateSketch_taskpanel.png ) 
+<img alt="" src=images/Sketcher_ValidateSketch_taskpanel.png  style="width:" height="500px;"> 
 *Il pannello delle attività di convalida dello Sketcher*
 
 
 
 ## Utilizzo
 
-1.  Questo strumento non può essere utilizzato su uno schizzo in modalità modifica. Se necessario, uscire dalla modalità di modifica effettuando una delle seguenti operazioni:
-    -   Premere il pulsante **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Esci](Sketcher_LeaveSketch/it.md)**.
-    -   Premere il pulsante **Chiudi** nella parte superiore del [Scheda Azioni](Task_panel/it.md).
-    -   Utilizzare la scorciatoia da tastiera: **Esc** (se abilitato in [Sketcher Preferenze](Sketcher_Preferences/it#Generale.md)).
-2.  Selezionare lo schizzo da convalidare dalla [Vista ad albero](Tree_view/it.md) o facendo clic su uno dei suoi bordi nella [Vista 3D](3D_view/it.md).
-3.  Per aprire l\'utilità di convalida dello schizzo, effettuare una delle seguenti operazioni:
-    -   Selezionare l\'opzione **Schizzo → Convalida schizzo...** dal menu.
-    -   Premere il pulsante **[<img src=images/Sketcher_ValidateSketch.svg style="width:16px"> [Convalida schizzo...](Sketcher_ValidateSketch/it.md)** (non disponibile in [PartDesign](PartDesign_Workbench/it.md)).
-4.  Vedere le [Opzioni](#Opzioni.md) di seguito per le operazioni disponibili.
-5.  Al termine, premere il pulsante **Chiudi**.
+1.  Questo strumento non può essere utilizzato mentre uno schizzo è in modalità di modifica. Per terminare la modalità di modifica vedere [Esci dallo schizzo](Sketcher_LeaveSketch/it.md).
+2.  Selezionare uno schizzo.
+3.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_ValidateSketch.svg" width=16px> [Convalida lo schizzo...](Sketcher_ValidateSketch/it.md)**.
+    -   Selezionare l\'opzione **Schizzo → <img src="images/Sketcher_ValidateSketch.svg" width=16px> Convalida lo schizzo...** dal menu.
+4.  Si apre il pannello delle attività **Convalida lo schizzo**. Vedere [Opzioni](#Opzioni.md) per ulteriori informazioni.
+5.  Premere il pulsante **Chiudi** per terminare.
 
 
 

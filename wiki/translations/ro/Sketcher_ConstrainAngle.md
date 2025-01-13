@@ -41,104 +41,91 @@ Sunt patru căi diferite pentru ca această constrângere să fie aplicată:
 
 </div>
 
-There are four different ways the constraint can be applied:
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
--   to individual lines
--   between lines
--   to intersections of curves
--   to arcs of circles
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
+
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   
+        <small>(v1.0)</small> 
+        
+        : If the **Dimensioning constraints** [preference](Sketcher_Preferences#General.md) is set to {{Value|Single tool}} (default): press the down arrow to the right of the **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button and select the **<img src="images/Sketcher_ConstrainAngle.svg" width=16px> Constrain angle** option from the dropdown.
+
+    -   If this preference has a different value (and in {{VersionMinus|0.21}}): press the **<img src="images/Sketcher_ConstrainAngle.svg" width=16px> [Constrain angle](Sketcher_ConstrainAngle.md)** button.
+
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainAngle.svg" width=16px> Constrain angle** option from the menu.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Dimension → <img src="images/Sketcher_ConstrainAngle.svg" width=16px> Constrain angle** option from the context menu.
+
+    -   Use the keyboard shortcut: **K** then **A**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Do one of the following:
+    -   Select two lines.
+    -   Select a point and two edges (in that order).
+    -   Select an edge, a point and an edge (idem).
+5.  If a [driving dimensional constraint](Sketcher_ToggleDrivingConstraint.md) is created, depending on the [preferences](Sketcher_Preferences#Display.md), a dialog opens to [edit its value](Sketcher_Workbench#Edit_constraints.md). A negative value will reverse the angle direction.
+6.  An Angle constraint is added. If a point and two edges have been selected, up to two [Point to object constraints](Sketcher_ConstrainPointOnObject.md) can also be added. See [Examples](#Between_two_edges_at_point.md).
+7.  Optionally keep creating constraints.
+8.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
+
+### Run-once mode 
+
+1.  Do one of the following:
+    -   Select a single line.
+    -   Select a single circular arc.
+    -   Select two lines.
+    -   Select a point and two edges (in any order).
+2.  Invoke the tool as explained above.
+3.  Optionally [edit the constraint value](Sketcher_Workbench#Edit_constraints.md).
+4.  An Angle constraint is added. If a point and two edges have been selected, up to two [Point on object constraints](Sketcher_ConstrainPointOnObject.md) can also be added. See [Examples](#Between_two_edges_at_point.md).
+
+## Examples
+
+### Single line 
+
+<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
-
-Pentru a aplica constrângerea de unghi, trebuie urmați următorii pași:
-
--   Selectați una, două sau trei entități în schiță. Modul va fi ales în funcție de selecție.
--   Invocați constrângerea făcând clic pe pictograma de pe bara de instrumente sau selectând elementul din meniu sau utilizând comanda rapidă de la tastatură. Se afișează o fereastră de dialog contextual pentru editarea referinței.
--   Modificați unghiul, dacă este necesar. Unghiul poate fi introdus ca o expresie care va fi evaluată și rezultatul va fi stocat. Faceți clic pe OK.
-
-
-</div>
-
-Ca și în cazul oricărei constrângeri de referință, este posibil să modificați unghiul prin lista constrângerilor. Introducerea unei valori negative va determina unghiul să se răstoarne.
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-## Moduri de Constrângere 
-
-### linie pantă unghi 
-
-**Accepted selection:** linie
-
-
-</div>
-
-### Line slope angle 
-
-**Accepted selection:** line
-
-<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:600px;">
 
 Constrângerea stabilește unghiul polar al direcției liniei. Este unghiul dintre linie și axa X a schiței.
 
-### Span of a circular arc 
-
-
-<div class="mw-translate-fuzzy">
-
-### arc span (v0.15) 
-
-**Accepted selection:** arc de cerc
-
 
 </div>
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:600px;">
+### Single circular arc 
+
+<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
 
 In acest mod, constrângerea fixată unghiulară a unui arc circular.
 
-### Between lines 
-
-
-<div class="mw-translate-fuzzy">
-
-### between lines 
-
-**Accepted selection:** line + line
-
 
 </div>
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:600px;">
+### Between two lines 
+
+<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
 
 În acest mod, constrângerea stabilește unghiul dintre două linii. Nu este necesar ca liniile să se intersecteze.
 
-### Between curves at intersection (angle-via-point) 
-
-
-<div class="mw-translate-fuzzy">
-
-### între curve la interseția (angle-via-point) (v0.15) 
-
-**Accepted selection:** any line/curve + any line/curve + any point
-
 
 </div>
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:600px;">
+### Between two edges at point 
 
-În acest mod, unghiul dintre două curbe este limitat la punctul de intersecție. Punctul de intersecție poate fi pe extensiile curbelor. Punctul trebuie specificat explicit, deoarece curbele se intersectează de obicei în mai multe puncte.
+<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:400px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Pentru ca constrângerea să funcționeze corect, punctul trebuie să fie pe ambele curbe. Deci, constrângerea este invocată, punctul va fi automat constrâns([helper constraints](Sketcher_helper_constraint.md) va fi adăugat dacă este necesar), și unghiul dintre curbe va fi constrâns la acest punct. Aceste [helper constraints](Sketcher_helper_constraint.md) sunt constrângeri pur și simplu. Ele pot fi adăugate manual sau șterse. Nu există constrângeri de ajutor pe imaginea de mai sus, deoarece punctul selectat este deja intersecția curbelor.
-
-
-</div>
+The angle between the two edges at a given point is fixed. The point can be any point, e.g. the center of a circle, the endpoint of an edge, or the origin, it can belong to either or both edges, and it can also be a [Point object](Sketcher_CreatePoint.md). If required [Point on object constraint(s)](Sketcher_ConstrainPointOnObject.md) are added to ensure the point lies on both (extended) edges. These additional constraints are called [helper constraints](Sketcher_helper_constraint.md).
 
 
 

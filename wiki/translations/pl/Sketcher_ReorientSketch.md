@@ -13,25 +13,37 @@
 
 ## Opis
 
-Pozwala na oderwanie szkicu od powierzchni i przymocowanie go do jednej z głównych płaszczyzn *(z przesunięciem)*.
+Narzędzie <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:24px;"> **Zmień orientację szkicu** umieszcza szkic na jednej z głównych płaszczyzn z opcjonalnym przesunięciem. Może być również użyte do odłączenia szkicu.
 
 
 
 ## Użycie
 
-1.  W widoku drzewa wybierz szkic, który ma zostać zmieniony.
-2.  Wybierz z menu głównego **Szkic → [<img src=images/Sketcher_ReorientSketch.svg style="width:16px"> Zmień orientację szkicu ...**.
-3.  Pojawi się menu z pytaniem, czy chcesz odłączyć szkic od jego powierzchni.
-4.  Wybierz **Tak** uzyskasz identyczne menu co w **Szkic** → **Nowy szkic**.
-5.  Możesz podłączyć szkic do jednej z głównych płaszczyzn.
-6.  Masz również możliwość dodania przesunięcia w kierunku dodatnim lub ujemnym.
+Wybierz szkic. Istnieje kilka sposobów na uruchomienie narzędzia:
 
+-   Naciśnij przycisk **<img src="images/Sketcher_ReorientSketch.svg" width=16px> '''Zmień orientację szkicu''** *(niedostępny w środowisku [Projekt Części](PartDesign_Workbench/pl.md))*.
+-   Wybierz opcję **Szkic → <img src="images/Sketcher_ReorientSketch.svg" width=16px> Zmień orientację szkicu** z menu.
 
+Jeśli szkic jest dołączony:
 
-## Uwagi
+-   Otwiera się okno dialogowe **Podparcie szkicu**.
+-   Naciśnij przycisk **Tak**, aby odłączyć szkic.
 
--   Po wybraniu **Anuluj** w drugim menu szkic jest po prostu oderwany od powierzchni.
--   Dopóki nie zostanie wybrany szkic, komenda jest nieaktywna.
+Otwiera się okno dialogowe **Wybierz orientację**. Opcjonalnie naciśnij przycisk **Anuluj**, aby jedynie odłączyć szkic i zakończyć narzędzie. Określ płaszczyznę orientacji. Płaszczyzna jest względna do lokalnego układu współrzędnych, w którym znajduje się szkic:
+
+-   Jeśli pole wyboru **Odwróć kierunek** nie jest zaznaczone:
+
+ * Góra: **Płaszczyzna XY**
+ * Przód: **Płaszczyzna XZ**
+ * Prawo: **Płaszczyzna YZ**
+
+-   Jeśli pole wyboru **Odwróć kierunek** jest zaznaczone:
+
+ * Dół: **Płaszczyzna XY**
+ * Tył: **Płaszczyzna XZ**
+ * Lewo: **Płaszczyzna YZ**
+
+Opcjonalnie zmień **Przesunięcie**. Przesunięcie jest mierzone wzdłuż osi Z, Y lub X lokalnego układu współrzędnych. Naciśnij przycisk **OK**.
 
 
 

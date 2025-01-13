@@ -1,209 +1,159 @@
-# Part Sweep/it
 ---
- GuiCommand:   Name: Part Sweep   Name/it: Sweep   MenuLocation: Parte , Sweep...   ---
+ GuiCommand:
+   Name: Part Sweep
+   Name/it: Part Sweep
+   MenuLocation: Parte , Sweep...
+   Workbenches: Part_Workbench/it
+   SeeAlso: Part_Loft/it
+---
 
-
-</div>
+# Part Sweep/it
 
 
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [Part Sweep](Part_Sweep/it.md) crea una faccia, un guscio (shell) o una forma solida da uno o più profili (sezioni trasversali) distribuiti lungo un percorso.
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> **Part Sweep** di FreeCAD serve per creare una faccia, un guscio o una forma solida da uno o più profili (la sezione trasversale), proiettati lungo un percorso.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Parte Sweep è simile a <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Loft](Part_Loft/it.md), ma con l\'aggiunta di un percorso per definire la proiezione tra i profili.
-
-
-</div>
+Il comando Part Sweep è simile a <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Loft](Part_Loft/it.md), ma con l\'aggiunta di un percorso.
 
 <img alt="" src=images/Part_Sweep_simple.png  style="width:400px;"> 
-*A solid sweep generated from a single profile (A) distributed along a spine (B)*
+*Un'estrusione solida generata da un singolo profilo (A) distribuito lungo un percorso (B)*
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Premere il pulsante **<img src="images/Part_Sweep.svg" width=16px> '''Sweep'''**. Questo apre la finestra per impostare i parametri di Sweep nel pannello [Azioni](Task_panel/it.md).
-2.  Nella colonna di sinistra *Profili disponibili* (precedentemente nella Versione 0.16 *Vertex/Edge/Wire/Face*), fare clic sull\'elemento da utilizzare come profilo di sweep, quindi fare clic sulla freccia destra per posizionarlo nella colonna di destra *Profili selezionati* (precedentemente nella Versione 0.16 *Sweep*). Ripetere se si desidera usare più di un profilo. Utilizzare le frecce su e giù per riordinare i profili selezionati.
-3.  Cliccare sul pulsante **Percorso Sweep**, quindi scegliere una delle due modalità di selezione:
-    -   *Seleziona singoli segmenti*: si può selezionare uno o più bordi contigui nella vista 3D (premere **CTRL** per selezioni multiple) e poi cliccare su **Done**. Lo sweep viene generato solo lungo i bordi selezionati.
-    -   *Seleziona un percorso completo*: si deve passare alla scheda Modello, selezionare nell\'albero l\'oggetto 2D da utilizzare come percorso, tornare al pannello Attività e fare clic su **Done**. Lo sweep viene generato lungo tutti i bordi contigui trovati nell\'oggetto 2D.
-4.  Definire le opzioni [Solido](#Solido.md) e [Frenet](#Frenet.md).
-5.  Cliccare **OK**.
-
-
-</div>
-
-### Accepted geometry 
+1.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Part_Sweep.svg" width=16px> [Sweep...](Part_Sweep/it.md)**.
+    -   Seleziona l\'opzione **Parte → <img src="images/Part_Sweep.svg" width=16px> Sweep...** dal menu.
+2.  Si apre il [pannello azioni](Task_panel/it.md) di Sweep.
+3.  Nell\'elenco *Profili disponibili* a sinistra selezionare un profilo e fare clic sulla freccia destra per inserirlo nell\'elenco *Profili selezionati* a destra.
+4.  Ripetere se si desidera più di un profilo.
+5.  Le frecce su e giù riordineranno l\'elenco a destra. Ma questo non ha alcun impatto sul risultato. La posizione dei profili lungo il percorso determina l\'ordine in cui vengono utilizzati.
+6.  Fare clic sul pulsante **Percorso Sweep**, quindi scegliere una delle modalità di selezione:
+    -   *Selezione segmento*: seleziona uno o più bordi contigui nella [vista 3D](3D_view/it.md) (premere **CTRL** per la selezione multipla) e fare clic su **Fatto**. Lo sweep verrà generato solo lungo i bordi selezionati.
+    -   *Completa la selezione del percorso*: passa alla [Vista ad albero](Tree_view/it.md), selezionare l\'oggetto da utilizzare come percorso, ritornare al pannello delle azioni e fare clic su **Fine**. Lo sweep verrà generato lungo tutti i bordi contigui presenti nell\'oggetto.
+7.  Definire le opzioni [Solid](#Solid.md) e [Frenet](#Frenet.md).
+8.  Fare clic su **OK**.
 
 
-<div class="mw-translate-fuzzy">
 
-### Geometrie accettate 
+### Geometria accettata 
 
-I profili possono essere un punto (vertice), una linea (bordo), un wire o una faccia. Bordi e wire possono essere di tipo aperto o chiuso. Ci sono varie [limitazioni e complicazioni dei profili](Part_Sweep/it#Limitazioni_e_complicazioni_dei_profili.md), descritte in seguito, tuttavia i profili possono provenire da primitive di Parte, da funzioni di Draft e da Schizzi.
+-   **Profili:** può essere un punto (vertice), una linea (bordo), una polilinea o una faccia. I bordi e le polilinee possono essere aperti o chiusi. Esistono varie [Limitazioni](#Limitazioni.md), vedere di seguito. A volte non è sufficiente allineare correttamente il profilo con il percorso. Per far funzionare correttamente lo strumento, potrebbe anche essere necessario [associare](Part_EditAttachment/it.md) il profilo al percorso. Se lo schizzo del profilo è associato all\'estremità sbagliata del bordo del percorso, modificare **Map Path Parameter** da 0 a 1.
 
+-   **Percorso**: può essere una linea (bordo) o una serie di linee collegate, una polilinea o vari oggetti dell\'ambiente Part, oggetti dell\'ambiente Draft o uno schizzo. Il percorso può essere aperto o chiuso.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Il percorso può essere costituito da una linea (bordo) o una serie di linee collegate, un wire o da alcune primitive di Parte, da funzioni di Draft e da Schizzi. Il percorso viene spesso selezionato direttamente nella finestra del modello principale, ma può anche essere selezionato dalla Vista ad albero, nella scheda Modello della Vista Combinata. Il percorso può essere una forma unica appropriata oppure un sotto-componente appropriato di una forma più complessa (ad esempio, come percorso può essere selezionato un bordo di un cubo di Parte). Il percorso può essere aperto o chiuso e quindi si può creare un Sweep aperto o chiuso. Un percorso chiuso come un cerchio Parte produce un Sweep chiuso. Ad esempio, lo Sweep di un cerchio piccolo lungo il percorso di un cerchio più grande crea un toro.
+-   Gli oggetti [App Link](App_Link/it.md) collegati ai tipi di oggetto appropriati e i contenitori [App Part](App_Part/it.md) con gli oggetti visibili appropriati all\'interno possono essere utilizzati anche come profili e percorsi. {{Version/it|0.20}}
 
 
-</div>
 
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and paths. <small>(v0.20)</small> 
-
-## Options
-
-#### Solid
+## Opzioni
 
 
-<div class="mw-translate-fuzzy">
 
-## Proprietà
+#### Solido
 
-### Solido
-
-Se \"Solid\" è impostato \"true\" FreeCAD crea un solido se i profili sono delle geometrie chiuse, se è impostato \"false\" crea una faccia o, un guscio se ci sono più facce, sia per profili aperti che chiusi.
-
-
-</div>
+Se \"Solido\" è impostato su \"true\", FreeCAD crea un solido, a condizione che i profili siano chiusi; se impostato su \"false\", FreeCAD crea una faccia o un guscio (shell) per profili aperti o chiusi.
 
 #### Frenet
 
 <img alt="" src=images/Sweep-frenet-comp.png  style="width:500px;">
 
+La proprietà \"Frenet\" controlla come cambia l\'orientamento del profilo mentre questo segue il percorso. Se \"Frenet\" è \"false\", l\'orientamento del profilo viene mantenuto coerente da punto a punto. La forma risultante ha la minima torsione possibile. In modo non intuitivo, quando un profilo viene spostato lungo un\'elica, ciò si traduce in un orientamento del profilo che si sposta lentamente (ruota) mentre segue l\'elica. L\'impostazione di \"Frenet\" su \"true\" impedisce ciò.
 
-<div class="mw-translate-fuzzy">
-
-### Frenet 
-
-<img alt="" src=images/Sweep-frenet-comp.png  style="width:500px;"> La proprietà \"Frenet\" controlla come cambia l\'orientamento del profilo lungo il percorso di sweep. Se \"Frenet\" è \"false\", l\'orientamento del profilo rimane sempre lo stesso per tutti i punti. La forma risultante è quella con la minima torsione possibile. Quando un profilo viene trascinato lungo un\'elica, questo causa una lenta rotazione del profilo mentre segue dell\'elica. Impostando \"Frenet\" su true si previene questa rotazione. Se \"Frenet\" è \"true\", lungo un percorso elicoidale l\'orientamento del profilo sarà coerente all\'orientamento locale del percorso.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Se \"Frenet\" è \"true\" l\'orientamento del profilo è calcolato basandosi sulla curvatura e tangenza dei vettori locali del percorso. Ciò mantiene l\'orientamento del profilo coerente quando si muove lungo un\'elica (in quanto il vettore di curvatura di un\'elica punta sempre al suo asse). Tuttavia, quando percorso non è un\'elica, la forma risultante può a volte avere strane torsioni. Per maggiori informazioni vedere [Frenet Serret formulas](http://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
-
-
-</div>
+Se \"Frenet\" è \"true\" l\'orientamento del profilo è basato sulla curvatura e tangenza dei vettori locali del percorso. Ciò mantiene l\'orientamento del profilo coerente quando si muove lungo un\'elica (in quanto il vettore di curvatura di un\'elica punta sempre al suo asse). Tuttavia, quando percorso non è un\'elica, la forma risultante può a volte avere strane torsioni. Per maggiori informazioni vedere [Frenet Serret formulas](http://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
 
 #### Transition
 
-
-<div class="mw-translate-fuzzy">
-
-### Transition 
-
-\"Transition\" imposta lo stile di transizione (raccordo) del Sweep in un giunto nel percorso, se il percorso non definisce l\'angolo di transizione (per esempio se il percorso è una spezzata). La proprietà non è mostrata nella finestra Azioni e può essere trovata nella proprietà dopo che lo sweep è stato creato.
+\"Transition\" imposta lo stile di transizione dello Sweep nei giunti non tangenziali del percorso. La proprietà non è esposta nel pannello delle attività e può essere trovata in [proprietà](Property_editor/it.md) dopo la creazione dello Sweep.
 
 
-</div>
 
-## Properties
+## Proprietà
 
-See also: [Property editor](Property_editor.md).
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-A Part Sweep object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+Un oggetto Part Sweep deriva da un oggetto [Funzione Part](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha inoltre le seguenti proprietà aggiuntive:
 
-### Data
+
+
+### Dati
 
 
 {{TitleProperty|Sweep}}
 
--    **Sections|LinkList**: lists the sections used.
+-    **Sections|LinkList**: elenca le sezioni utilizzate.
 
--    **Spine|LinkSub**: spine (path) to sweep along.
+-    **Spine|LinkSub**: percorso da seguire.
 
--    **Solid|Bool**: true or false (default). True creates a Solid.
+-    **Solid|Bool**: vero o falso (predefinito). True crea un solido.
 
--    **Frenet|Bool**: true or false (default). True uses Frenet algorithm.
+-    **Frenet|Bool**: vero o falso (predefinito). True utilizza l\'algoritmo Frenet.
 
--    **Transition|Enumeration**: transition mode. Options are *Transformed*, *Right corner* or *Round corner*.
+-    **Transition|Enumeration**: modalità di transizione. Le opzioni sono *Trasformato*, *Angolo destro* o *Angolo arrotondato*.
 
-## Limitations
 
-### Vertex or point 
 
-A vertex or point may only be used as the first and/or last profile.
-For example:
+## Limitazioni
 
--   You cannot Sweep from a circle to a point, to an ellipse.
--   You can however Sweep from a point to a circle to an ellipse to another point.
 
-### Profiles
 
-In one Sweep, all profiles (lines wires etc.) must be either open or closed.
-For example:
+### Vertici o punti 
 
--   FreeCAD cannot Sweep between a Part Circle and a Part Line.
+Un vertice o un punto possono essere utilizzati solo come primo e/o ultimo profilo.
+Per esempio:
 
-### Sketches
+-   Non è possibile eseguire lo Sweep da un cerchio a un punto o a un\'ellisse.
+-   E\' possibile comunque eseguire lo Sweep da un punto a un cerchio, da un\'ellisse a un altro punto.
 
--   The profile may be created with a sketch. However only valid sketches will be available for selection in the task panel.
--   The sketch must contain only one open or closed wire or line (can be multiple lines, if those lines are all connected as they are then a single wire).
 
-### Draft Workbench objects 
 
-A profile can be a [Draft Workbench](Draft_Workbench.md) object.
-The following objects can be valid profiles:
+### Profili
 
--   Point
--   Line, Wire
--   B-spline, Bézier Curve
--   Circle, Ellipse
--   Rectangle, Polygon
+In uno Sweep, tutti i profili (linee, polilinee, ecc.) devono essere aperti o chiusi.
+Per esempio:
 
-### Part Workbench objects 
+-   FreeCAD non può eseguire lo Sweep tra un Part Cerchio e una Part Linea.
 
-A profile can be a Part object created with the [Part Primitives](Part_Primitives.md) command.
-The following objects can be valid profiles:
 
--   Point (Vertex)
--   Line (Edge)
--   Helix, Spiral
--   Circle, Ellipse
--   Regular Polygon
--   Plane (Face)
+
+### Schizzi
+
+-   Il profilo può essere creato con uno schizzo. Tuttavia, solo gli schizzi validi saranno disponibili per la selezione nel pannello delle azioni.
+-   Lo schizzo deve contenere solamente una polilinea o linea aperte o chiuse (possono essere più linee, se tali linee sono tutte collegate come se fossero un unica polilinea).
+
+
+
+### Oggetti dell\'Ambiente Draft 
+
+Un profilo può essere un oggetto [Draft](Draft_Workbench/it.md).
+I seguenti oggetti possono essere profili validi:
+
+-   Punto
+-   Linea, polilinea
+-   B-spline, curva di Bézier
+-   Cerchio, Ellisse
+-   Rettangolo, Poligono
+
+
+
+### Oggetti Ambiente Part 
+
+Un profilo può essere un oggetto Part creato con il comando [Part Primitive](Part_Primitives/it.md).
+I seguenti oggetti possono essere profili validi:
+
+-   Punto (vertice)
+-   Linea (Bordo)
+-   Elica, Spirale
+-   Cerchio, Ellisse
+-   Poligono regolare
+-   Piano (faccia)
 
 ## Links
 
-
-<div class="mw-translate-fuzzy">
-
-## Link
-
--   Poiché Sweep viene spesso utilizzato per creare i filetti per viti e bulloni può essere utile consultare il [Tutorial per le filettature](Thread_for_Screw_Tutorial/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   Uno Sweep viene spesso utilizzato per creare filettature per viti e bulloni, vedere il [Tutorial per le filettature](Thread_for_Screw_Tutorial/it.md) per maggiori informazioni.
 
 
 

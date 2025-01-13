@@ -180,7 +180,7 @@ Podczas określania, na którą część linii ma wpływ wiązanie, można uży�
 
 -    `2`, aby wskazać, że wiązanie wpływa na punkt końcowy krawędzi.
 
--    `3`, aby wskazać, że wiązanie wpływa na punkt środkowy krawędzi. Dla <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:" height="24px;">[Okręgu](Sketcher_CompCreateCircle/pl.md) i <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:" height="24px;">[Stożka](Sketcher_CompCreateConic/pl.md) *(elipsy)*, jest to środek okręgu lub środek *(przecięcie osi głównej i pomocniczej)* elipsy. Dla prostych <img alt="" src=images/Sketcher_CreateLine.svg  style="width:24px;"> [Linii](Sketcher_CreateLine/pl.md), `3` nie może być użyty do wskazania punktu środkowego.
+-    `3`, aby wskazać, że wiązanie wpływa na punkt środkowy krawędzi. Może być używane tylko dla okręgów, łuków okręgów, elips i łuków eliptycznych.
 
 -    `n`do wskazania, że wiązanie wpływa na n-ty biegun <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:" height="24px;"> [krzywej złożonej](Sketcher_CompCreateBSpline/pl.md).
 

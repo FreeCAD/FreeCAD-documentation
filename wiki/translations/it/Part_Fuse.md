@@ -1,40 +1,36 @@
 ---
  GuiCommand:
-   Name: Part Union
-   Name/it: Unione
-   Icon: Part Fuse.svg
+   Name: Part Fuse
+   Name: Part Unione
    MenuLocation: Parte , Operazione booleana , Unione
    Workbenches: Part_Workbench/it
-   SeeAlso: Part Cut/it, Part Common/it, Part Boolean
+   SeeAlso: Part_Boolean/it, Part_Cut/it, Part_Common/it
 ---
 
 # Part Fuse/it
 
 
-</div>
 
 ## Descrizione
 
 Il comando <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> [Unione](Part_Union/it.md) fonde gli oggetti Parte selezionati in uno solo. Questa operazione è completamente parametrica e le componenti possono essere modificate e il risultato ricalcolato.
 
-**Nota:** Questo comando è una forma automatizzata di <img alt="" src=images/Part_Booleans.svg  style="width:24px;"> [operazione booleana](Part_Boolean/it.md).
+**Nota:** Questo comando è una forma automatizzata di <img alt="" src=images/Part_Booleans.svg  style="width:24px;"> [Operazione booleana](Part_Boolean/it.md).
+
+
 
 ## Utilizzo
 
 1.  Selezionare una o due forme.
 2.  Invocare il comando Unione in uno di questi modi:
-    -   Premere il pulsante **<img src="images/Part_Fuse.svg" width=16px> Unione** della barra degli strumenti di Parte
-    -   Usare **Part → Booleana → Unione** nel menu principale
+    -   Premere il pulsante **<img src="images/Part_Fuse.svg" width=16px> Unione** della barra degli strumenti di Part
+    -   Usare **Parte → Operazioni booleane → Unisci** nel menu principale
+
+
 
 ## Input supportati 
 
-
-<div class="mw-translate-fuzzy">
-
-Gli oggetti in ingresso devono essere delle forme [OpenCascade](OpenCascade/it.md). Ad esempio: cose fatte con gli ambienti Parte, PartDesign o Sketcher. Non mesh (a meno che essi non siano stati convertiti in Forme). Per gli oggetti mesh ci sono strumenti booleani specifici nell\'ambiente Mesh.
-
-
-</div>
+Gli oggetti di input devono essere forme [OpenCASCADE](OpenCASCADE/it.md). Esempi: materiale realizzato con gli ambienti Part, PartDesign e Sketcher. Non mesh (a meno che non siano state convertite in forme): per le mesh, ci sono strumenti booleani specifici nell\'ambiente MeshDesign.
 
 -   Solido + Solido: il risultato è un solido che occupa tutto il volume coperto dagli oggetti in ingresso
 
@@ -44,35 +40,19 @@ Gli oggetti in ingresso devono essere delle forme [OpenCascade](OpenCascade/it.m
 
 I composti sono supportati a condizione che le forme confezionate in un composto non si tocchino o si intersechino. Se lo fanno, la Fusione probabilmente fallisce, o produce un risultato errato.
 
-## Options
 
-
-<div class="mw-translate-fuzzy">
 
 ## Opzioni
 
-Gli elementi possono essere aggiunti e rimossi dalla fusione, trascinandoli dentro o fuori dalla funzione fusione nella vista ad albero, con il mouse. È necessario un ricalcolo manuale (premere il tasto **F5** o fare clic sull\'icona <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Aggiorna/Ricalcola](Std_Refresh/it.md)) per vedere i risultati.
-
-
-</div>
-
-### Pulire la forma 
-
-Il risultato della fusione di più oggetti può contenere linee superflue che derivano dalle forme originali, per ripulirlo, si può:
-
--   utilizzare il comando Parte → [Affinare una forma](Part_RefineShape/it.md)
--   utilizzare il comando <img alt="" src=images/OpenSCAD_RefineShapeFeature.png  style="width:32px;"> [Affina Forma](OpenSCAD_RefineShapeFeature/it.md) di [OpenScad](OpenSCAD_Workbench/it.md),
-
-oppure per ottenere subito una forma pulita e non dover ricorrere a questo comando, attivare la voce **Affina automaticamente il modello\...** nelle [preferenze](Preferences_Editor/it.md)
-
-
-<div class="mw-translate-fuzzy">
+Gli elementi possono essere aggiunti e rimossi da una fusione, trascinandoli dentro o fuori dalla funzione di fusione nella vista ad albero con il mouse. Per trascinare gli elementi fuori da una fusione bisogna rilasciarli sul nodo del documento (il nome del file) del proprio modello. Per visualizzare i risultati è necessario un ricalcolo manuale (premere il tasto **F5** o fare clic sull\'icona <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Aggiorna](Std_Refresh/it.md)).
 
 
 
 
 
-</div>
+{{Part_Tools_navi
+
+}}
 
 
 

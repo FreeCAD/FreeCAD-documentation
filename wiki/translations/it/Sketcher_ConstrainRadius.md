@@ -1,21 +1,20 @@
-# Sketcher ConstrainRadius/it
 ---
- GuiCommand:   Name: Sketcher_ConstrainRadius   Name/it: Raggio   Workbenches: Sketcher Workbench/it   Schizzo, Sketcher ConstrainDistanceY/it---
+ GuiCommand:
+   Name: Sketcher ConstrainRadius
+   Name/it: Sketcher Vincolo raggio
+   MenuLocation: Schizzo , Vincoli Sketcher , Vincolo raggio
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **K** **R**
+   SeeAlso: Sketcher_ConstrainRadiam/it, Sketcher_ConstrainDiameter/it
+---
 
-
-</div>
+# Sketcher ConstrainRadius/it
 
 
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo vincolo forza il valore del raggio di un cerchio o di un arco a un valore specifico. Se viene selezionato più di un cerchio o arco prima di avviare il comando, un prompt chiede se tutti gli elementi selezionati devono condividere lo stesso raggio. Nel caso di una risposta affermativa, viene aggiunto un vincolo di raggio e un vincolo di [uguale lunghezza](Sketcher_ConstrainEqual/it.md) a tutti gli elementi. Se la risposta è negativa, vengono creati vincoli di raggio separati per ogni cerchio o arco ma con valori uguali che è possibile modificare singolarmente dopo la creazione.
-
-
-</div>
+Lo strumento <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:24px;"> [Sketcher Vincolo raggio](Sketcher_ConstrainRadius/it.md) fissa il raggio di cerchi, archi e [Cerchi di peso B-spline](Sketcher_CreateBSpline/it#Notes.md).
 
 ![](images/Sketcher_ConstrainRadius_example.png )
 
@@ -23,28 +22,48 @@ Questo vincolo forza il valore del raggio di un cerchio o di un arco a un valore
 
 ## Utilizzo
 
-1.  Selezionare uno o più cerchi o archi.
-2.  Premere il pulsante **[<img src=images/Sketcher_ConstrainRadius.svg style="width:16px"> Raggio**.
-3.  Si apre una finestra di dialogo per modificare o confermare il valore. Premere **OK** per confermare. Se sono stati selezionati più cerchi o archi, tutti i vincoli adottano questo valore. Modificare i loro valori separatamente facendo doppio clic sull\'etichetta della dimensione nella vista 3D; oppure nell\'elenco dei Vincoli, fare doppio clic sul vincolo o fare clic con il tasto destro e selezionare **Cambia valore**.
-4.  L\'etichetta e la linea della quota possono essere spostate e ruotate a piacere nella vista 3D facendo clic sul valore e trascinando il mouse tenendo premuto il tasto sinistro.
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
-**Nota:** lo strumento vincolo può anche essere avviato senza selezione preliminare. Di default il comando èà in modalità continua per creare nuovi vincoli; premere una volta il tasto destro del mouse o **Esc** per uscire dal comando.
 
-## Scripting
+
+### [Modalità continua](Sketcher_Workbench/it#Continue_modes.md) 
+
+1.  Assicurarsi che non ci sia alcuna selezione.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   
+        {{Version/it|1.0}}
+        
+        : Se la [preferenza](Sketcher_Preferences/it#General.md) **Vincoli dimensionali** è impostata su {{Value|Strumento singolo}} (predefinito): premere la freccia giù a destra del pulsante **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** e selezionare il pulsante **[[Image:Sketcher_ConstrainRadius.svg|16px] ] Vincolo raggio** dal menu a discesa.
+
+    -   Se questa preferenza ha un valore diverso (e in {{VersionMinus/it|0.21}}): premere il pulsante **<img src="images/Sketcher_ConstrainRadius.svg" width=16px> [Vincolo raggio](Sketcher_ConstrainRadius/it.md)**.
+
+    -   Selezionare l\'opzione **Schizzo → Vincoli Sketcher → <img src="images/Sketcher_ConstrainRadius.svg" width=16px> Vincolo raggio** dal menu.
+
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [3D view](3D_view/it.md) e selezionare l\'opzione **Dimensione → <img src="images/Sketcher_ConstrainRadius.svg" width=16px> Vincolo raggio** dall\'elenco menu contestuale.
+
+    -   Usare la scorciatoia da tastiera: **K** quindi **R**.
+3.  Per ulteriori passaggi vedere [Sketcher Vincolo raggio/diametro](Sketcher_ConstrainRadiam/it#Continue_mode.md).
+
+
+
+### Modalità di esecuzione una sola volta 
+
+Vedere [Sketcher Vincolo raggio/diametro](Sketcher_ConstrainRadiam/it#Run-once_mode.md).
+
+
+
+## Script
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Radius', ArcOrCircle, App.Units.Quantity('123.0 mm')))```
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `ArcOrCircle`, and contains further examples on how to create constraints from Python scripts.
-
-
-<div class="mw-translate-fuzzy">
+La pagina [Sketcher scripting](Sketcher_scripting/it.md) spiega i valori che possono essere utilizzati per `ArcOrCircle` e contiene ulteriori esempi su come creare vincoli da script Python.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

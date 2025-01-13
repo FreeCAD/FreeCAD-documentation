@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign Plane
    Name/fr: PartDesign Plan de référence
-   MenuLocation: Part Design , Créer une référence , Créer un plan de référence
+   MenuLocation: PartDesign , Créer une référence , Plan de référence
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_Point/fr, PartDesign_Line/fr
@@ -24,7 +24,7 @@ Un plan de référence, à partir de FreeCAD 0.18, ne peut être créé qu'à l'
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/PartDesign_Plane.svg" width=16px> [Créer un plan de référence](PartDesign_Plane/fr.md)**.
+1.  Appuyez sur le bouton **<img src="images/PartDesign_Plane.svg" width=16px> [Plan de référence](PartDesign_Plane/fr.md)**.
 2.  Définissez les paramètres du plan. Sélectionnez une première référence dans la vue 3D pour filtrer les modes [Part Ancrage](Part_EditAttachment/fr.md) disponibles.
 3.  En fonction de la référence sélectionnée, un ou plusieurs modes d\'ancrage de pièces peuvent être disponibles dans la liste. Le plus probable sera automatiquement sélectionné et affiché en gras dans la liste. Le texte *Ancré avec le mode* ainsi que le nom du mode d\'ancrage de la pièce apparaissent en vert en haut du panneau Paramètres.
 4.  Pour ajouter une référence supplémentaire, appuyez sur le bouton **Référence** suivant. Une fois appuyé, son étiquette devient *Sélection en cours\...* jusqu\'à ce qu\'une sélection soit faite.
@@ -39,9 +39,15 @@ Double-cliquez sur l\'étiquette DatumPlane dans l\'arborescence du modèle ou c
 
 
 
+## Préférences
+
+La couleur diffuse et la transparence par défaut des [PartDesign références](PartDesign_CompDatums/fr.md) sont contrôlées par le [paramètre de réglage fin](Fine-tuning/fr#Atelier_PartDesign.md) **DefaultDatumColor**
+
+
+
 ## Propriétés
 
--    **MapMode**: répertorie le mode d\'ancrage utilisé.
+-    **MapMode**: donne le mode d\'ancrage utilisé.
 
 -    **Attachment Offset**: applique une transformation (translation et rotation) en référence au placement de l\'ancrage.
 

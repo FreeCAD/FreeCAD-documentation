@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher SwitchVirtualSpace
    Name/fr: Sketcher Basculer l'espace virtuel
-   MenuLocation: Esquisse , Espace virtuel de l'esquisse , Basculer vers/de l'espace virtuel
+   MenuLocation: Esquisse , Affichage , Basculer vers/de l'espace virtuel
    Workbenches: Sketcher_Workbench/fr
    Version: 0.17
 ---
@@ -11,32 +11,44 @@
 
 ## Description
 
-Sketcher de FreeCAD comporte deux espaces virtuels sur lesquels des contraintes peuvent être définies. Habituellement, toutes les contraintes sont définies sur l'espace virtuel un. Vous pouvez déplacer certaines contraintes vers l\'espace virtuel deux. Cela peut aider à ne contrôler que quelques contraintes à la fois.
+L\'outil <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:24px;"> [Sketcher Basculer l\'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md) permet d\'afficher/masquer les contraintes ou d\'afficher/masquer l\'espace virtuel visible.
+
+Une esquisse possède deux espaces virtuels qui peuvent contenir des contraintes. Toutes les contraintes sont créées dans l\'espace virtuel principal, mais elles peuvent être masquées, ce qui les déplace dans l\'autre espace virtuel.
 
 
 
 ## Utilisation
 
-Pour déplacer des contraintes vers l\'autre espace virtuel :
-
-1.  Sélectionnez les contraintes que vous souhaitez déplacer.
-2.  Appuyez sur le bouton **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> [Basculer vers/de l'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md)**.
-
-Pour changer d\'espace virtuel :
-
-1.  Vérifiez qu\'aucune contrainte n\'est sélectionnée.
-2.  Appuyez sur le bouton **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> [Basculer vers/de l'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md)**.
 
 
-**Remarque :**
+### Afficher/masquer les contraintes 
 
-si vous décidez de définir des contraintes sur le deuxième espace virtuel, ne les oubliez pas plus tard si vous ne les voyez pas dans la [Vue 3D](3D_view/fr.md).
+1.  Sélectionnez une ou plusieurs contraintes. Les contraintes qui ne sont pas visibles dans l\'espace virtuel en cours peuvent être sélectionnées dans la section des [contraintes de la fenêtre de dialogue de l\'esquisse](Sketcher_Dialog/fr#Contraintes.md).
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> [Basculer vers/de l'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Affichage → <img src="images/Sketcher_SwitchVirtualSpace.svg" width=16px> Basculer vers/de l'espace virtuel** du menu.
+    -   Utiliser le raccourci clavier : **Z** puis **Z**.
 
 
 
+### Afficher/masquer l\'espace virtuel 
+
+1.  Assurez-vous qu\'aucune contrainte n\'a été sélectionnée.
+2.  Lancez l\'outil comme décrit ci-dessus.
+3.  Les contraintes cachées sont rendues visibles et les contraintes non cachées invisibles, ou vice versa.
 
 
-{{Sketcher Tools navi
+
+## Remarques
+
+-   Les contraintes peuvent également être affichées/masquées à partir de la [boîte de dialogue de l\'esquisse](Sketcher_Dialog/fr#Contraintes.md).
+-   La configuration de l\'espace virtuel d\'une esquisse n\'est utilisée que dans la session en cours, elle n\'est pas stockée dans le fichier FreeCAD.
+
+
+
+
+
+{{Sketcher_Tools_navi
 
 }}
 

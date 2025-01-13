@@ -24,14 +24,6 @@
 ![](images/Sketcher_LineExample1.png‎ )
 
 
-<div class="mw-translate-fuzzy">
-
-此工具创建的线条对象的首尾都位于用户指定的对应点处，但是对于[切线（Tangent）](Sketcher_ConstrainTangent.md), [对象上的点（Point On Object）](Sketcher_ConstrainPointOnObject.md)与[内角（Internal Angle）](Sketcher_ConstrainAngle.md)约束而言，此线条却是无限长的。 这就意味着，例如，有着[对象上的点（Point On Object）](Sketcher_ConstrainPointOnObject.md)约束的点可能并不位于用户指定的两点之间，但是却可能位于两点所绘线段的延长线上。
-
-
-</div>
-
-
 
 
 <div class="mw-translate-fuzzy">
@@ -40,6 +32,11 @@
 
 
 </div>
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
+Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">

@@ -1,9 +1,8 @@
 ---
  GuiCommand:
-   Name: Ship Area
-   Name/de: Schiffsbereich
-   Icon: Ship_AreaCurve.svg
-   MenuLocation: Schiffskonstruktion , Bereichskurve
+   Name: Ship AreasCurve
+   Name/de: Ship AreasCurve
+   MenuLocation: Ship design , Areas curve
    
    Shortcut: 
    SeeAlso: 
@@ -12,7 +11,6 @@
 # Ship AreasCurve/de
 
 
-</div>
 
 ## Beschreibung
 
@@ -24,6 +22,8 @@ Plotten der transversalen Bereichskurve
 The transversal areas curve offers really valuable information in the first stages of a ship\'s design, as it gives an idea of the shape and volume distribution of the ship.
 
 Special attention should be paid to the eventual shoulders of the curve, which would indicate a large ship resistance (less efficiency in other words).
+
+
 
 ## Anwendung
 
@@ -37,19 +37,12 @@ You can also select the number of transversal sections to be considered. The lar
 
 When you press the **Accept** button, the computation starts. It may hang FreeCAD for a while, be patient. When the computation finishes a plot of the transversal areas curve is created, as well as a spreadsheet with that information.
 
+
+
 ## Tutorien
 
 -   [FreeCAD Schiffs s60 Tutorium](FreeCAD-Ship_s60_tutorial/de.md)
 -   [FreeCAD Schiffs s60 Tutorium (II)](FreeCAD-Ship_s60_tutorial_(II)/de.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

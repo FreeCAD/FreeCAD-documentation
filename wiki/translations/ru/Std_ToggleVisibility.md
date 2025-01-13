@@ -10,11 +10,18 @@
 
 # Std ToggleVisibility/ru
 
+
+
 ## Описание
 
 Команда **Видимость** переключает видимость выделенных объектов в окне [трёхмерного вида](3D_view/ru.md).
 
+
+
 ## Применение
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Выберите один или более чем один объект.
     -   Невидимые объекты могут быть выбраны в [древе проекта](Tree_view/ru.md).
@@ -26,6 +33,11 @@
     -   Выбрать **<img src="images/Std_ToggleVisibility.svg" width=16px> Видимость** из контекстного меню в древе проекта. Эта опция не доступна в [верстаке PartDesign](PartDesign_Workbench/ru.md).
     -   Выбрать **<img src="images/Std_ToggleVisibility.svg" width=16px> Видимость** из контекстного меню окна трёхмерного вида.
     -   Используя **пробел** на клавиатуре.
+
+
+</div>
+
+
 
 ## Примечания
 
@@ -41,14 +53,28 @@
 
 </div>
 
+
+
 ## Программирование
+
+
+<div class="mw-translate-fuzzy">
 
 
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Используйте методы `show` и `hide` объектов для изменения их видимости.
+
+
+</div>
 
 
 ```python
@@ -57,16 +83,19 @@ import FreeCADGui
 obj = FreeCADGui.ActiveDocument.myObjectName
 
 if obj.Visibility == True:
-  obj.hide()
+    obj.hide()
 else:
-  obj.show()
+    obj.show()
+
+# Alternatively:
+obj.Visibility = not obj.Visibility
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

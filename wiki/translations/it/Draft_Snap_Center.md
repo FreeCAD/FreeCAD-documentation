@@ -1,8 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Snap Center
-   Name/it: Aggancia Centro
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Aggancia Centro
+   MenuLocation: Aggancio , Aggancia centro
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
 ---
 
@@ -12,7 +13,7 @@
 
 ## Descrizione
 
-L\'opzione <img alt="" src=images/Draft_Snap_Center.svg  style="width:24px;"> **Draft Aggancia Centro** esegue l\'aggancio al punto centrale delle facce e dei bordi circolari e al punto **Placement** di [Draft Piani di Lavoro Proxy](Draft_WorkingPlaneProxy/it.md) e [Arch Parti di Edificio](Arch_BuildingPart/it.md). Le facce e gli spigoli possono appartenere ad oggetti [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) ma anche ad oggetti creati con altri [ambienti di lavoro](Workbenches/it.md).
+L\'opzione <img alt="" src=images/Draft_Snap_Center.svg  style="width:24px;"> **Draft Aggancia Centro** esegue l\'aggancio al punto centrale delle facce e dei bordi circolari e al punto **Placement** di [Draft Piani di Lavoro Proxy](Draft_WorkingPlaneProxy/it.md) e [Arch Parti di Edificio](Arch_BuildingPart/it.md). Le facce e gli spigoli possono appartenere ad oggetti [Draft](Draft_Workbench/it.md) o [BIM](BIM_Workbench/it.md) ma anche ad oggetti creati con altri [ambienti di lavoro](Workbenches/it.md).
 
 ![](images/Draft_Snap_Center_example_arc.png ) 
 *Aggancio del secondo punto di una linea al centro di un bordo circolare*
@@ -28,9 +29,10 @@ Per informazioni generali riguardo gli agganci vedere [Draft Aggancio](Draft_Sna
 
 1.  Assicurarsi che l\'aggancio sia abilitato. Vedere <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Blocca aggancio](Draft_Snap_Lock.md).
 2.  Se **Draft Aggancia Centro** non è attivo, eseguire una delle seguenti operazioni:
-    -   Premere il pulsante **<img src="images/Draft_Snap_Center.svg" width=16px>** nella barra degli strumenti di aggancio Draft.
-    -   Tenere premuto il pulsante **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** nel [Draft snap widget](Draft_snap_widget/it.md) e nel menu che si apre selezionare l\'opzione **<img src="images/Draft_Snap_Center.svg" width=16px> Aggancia Centro**.
-3.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+    -   Premere il pulsante **<img src="images/Draft_Snap_Center.svg" width=16px> [Aggancia centero](Draft_Snap_Center/it.md)** nella barra degli strumenti di aggancio Draft.
+    -   [Draft](Draft_Workbench/it.md): Tenere premuto il pulsante **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** nel [Draft snap widget](Draft_snap_widget/it.md) e nel menu che si apre selezionare l\'opzione **<img src="images/Draft_Snap_Center.svg" width=16px> Aggancia centro**.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Aggancio → <img src="images/Draft_Snap_Center.svg" width=16px> Aggancia centro** dal menu o dal menu contestuale della [Vista 3D](3D_view/it.md).
+3.  Scegliere un comando Draft o BIM per creare la propria geometria.
 4.  Tenere presente che si può anche modificare le opzioni di aggancio mentre un comando è attivo.
 5.  Effettuare una delle seguenti operazioni:
     -   Per selezionare il punto centrale di una faccia o di un bordo circolare:

@@ -1,11 +1,15 @@
 # Quantity/it
 Quantity è la combinazione di un numero in virgola mobile e di una unità di misura.
 
+
+
 ## Aspetti generali 
 
 In un sistema CAD o CAE ​​è molto importante mantenere la traccia dell\'unità di misura di un valore. Quando si mescolano le unità o si calcolano i risultati in diverse unità di misura possono sorgere un sacco di problemi. Un famoso disastro, causato da un disguido sulle unità di misura, è il [crash of the Mars Climate Orbiter](http://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure). Anche all\'interno di uno stesso Sistema di misura le unità possono essere disponibili in diversi formati, secondo il settore di utilizzo. Ad esempio, la velocità in km/h per le automobili, in m/s in robotica o in mm/min per la fresatura. Un sistema CAD deve conservare una traccia affidabile delle unità. Inoltre deve utilizzarle per eseguire i calcoli e deve verificare che per i parametri speciali sia adottata la giusta unità.
 
 Per questo motivo è stata creata la sezione Quantity di FreeCAD. Essa include tutto il codice e gli oggetti che servono per trattare le unità, i calcoli delle unità, i dati inseriti dall\'utente, la conversione tra i Sistemi e per fornire un corretto output delle unità e dei valori. In futuro, in FreeCAD, nessun parametro dovrebbe essere solo più un numero.
+
+
 
 ### Unità supportate 
 
@@ -13,8 +17,8 @@ Il parser dei dati in ingresso di FreeCAD supporta una serie di unità e di Sist
 
 Le specifiche dettagliate si trovano nel codice:
 
--   [Quantity lexer](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/QuantityLexer.c)
--   [Quantity definitions](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/Quantity.cpp#l167)
+-   [Quantity lexer](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/QuantityLexer.c)
+-   [Quantity definitions](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/Quantity.cpp#l167)
 
 ## Rappresentazione interna 
 
@@ -60,12 +64,10 @@ Inputfield è un oggetto QLineEdit derivato da un widget Qt e serve per gestire 
 
 Lo strumento UnitsCalculator usa già InputField.
 
-Documentazione di riferimento: [InputField](InputField/it.md)
-
 Codice:
 
--   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.h)
--   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.cpp) <http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Gui/InputField.cpp>
+-   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/main/src/Gui/InputField.h)
+-   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/main/src/Gui/InputField.cpp) <http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Gui/InputField.cpp>
 
 ## Script Python 
 
@@ -203,9 +205,11 @@ Qui si ottengono due informazioni in più sotto forma di una tupla di 3 elementi
 
 Il codice di definizione del sistema di conversione è visibile in:
 
--   [Internal](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaInternal.cpp)
--   [MKS](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaMKS.cpp)
--   [Imperial](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaImperial1.cpp)
+-   [Internal](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/UnitsSchemaInternal.cpp)
+-   [MKS](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/UnitsSchemaMKS.cpp)
+-   [Imperial](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/UnitsSchemaImperial1.cpp)
+
+
 
 ### Precisione
 
@@ -216,6 +220,8 @@ import FreeCAD
 params = App.ParamGet("User parameter:BaseApp/Preferences/Units")
 params.GetInt('Decimals') # returns an int
 ```
+
+
 
 ## Appendice
 

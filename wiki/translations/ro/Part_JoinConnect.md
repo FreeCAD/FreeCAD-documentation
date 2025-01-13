@@ -40,14 +40,6 @@ Instrument de conectare pentru îmbinarea inerioarelor a două obiecte goale-tip
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-Se creează un obiect parametric Connect. Obiectele originale sunt ascunse, iar rezultatul intersecției este afișat în vizualizarea 3D.
-
-
-</div>
-
 ## Properties
 
 
@@ -128,6 +120,8 @@ Algoritmii din spatele instrumentelor de conectare sunt relativ de simple, iar �
 
 </div>
 
+
+
 ## Script
 
 
@@ -165,6 +159,14 @@ The tool itself is implemented in Python, see /Mod/Part/BOPTools/JoinFeatures.py
 
 
 </div>
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

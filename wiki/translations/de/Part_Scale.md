@@ -4,7 +4,7 @@
    Name/de: Part Scale
    MenuLocation: Part , Skalieren...
    Workbenches: Part_Workbench/de
-   Version: 0.22
+   Version: 1.0
    SeeAlso: Draft_Clone/de, Draft_Scale/de
 ---
 

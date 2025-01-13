@@ -2,7 +2,8 @@
  GuiCommand:
    Name: Draft Snap Special
    Name/de: Draft EinrastenSpezial
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Einrasten , Einrasten spezial
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Version: 0.17
    SeeAlso: Draft_Snap/de, Draft_Snap_Lock/de
 ---
@@ -26,9 +27,10 @@ Für allgemeine Informationen zum Einrasten (Fangen) siehe [Draft Einrasten](Dra
 
 1.  Einrasten sollte aktiviert sein. Siehe <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft EinrastenSperren](Draft_Snap_Lock/de.md).
 2.  Ist **Draft EinrastenSpezial** nicht aktiv, gibt es folgende Möglichkeiten:
-    -   Die Schaltfläche **<img src="images/Draft_Snap_Special.svg" width=16px>** in der Symbolleiste Draft-Einrasten drücken.
-    -   Die Schaltfläche **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** im [Draft-Widget Einrasten](Draft_snap_widget/de.md) gedrückt halten und im Ausklappmenü die Option **<img src="images/Draft_Snap_Special.svg" width=16px> Spezielles Einrasten** auswählen.
-3.  Einen [Draft](Draft_Workbench/de.md)- oder [Arch](Arch_Workbench/de.md)-Befehl auswählen, um die gewünschte Geometrie zu erstellen.
+    -   Die Schaltfläche **<img src="images/Draft_Snap_Special.svg" width=16px> [Einrasten spezial](Draft_Snap_Special.md)** in der Symbolleiste Draft-Einrasten drücken.
+    -   [Draft](Draft_Workbench/de.md): Die Schaltfläche **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** im [Draft-Widget Einrasten](Draft_snap_widget/de.md) gedrückt halten und im Ausklappmenü die Option **<img src="images/Draft_Snap_Special.svg" width=16px> Einrasten spezial** auswählen.
+    -   [BIM](BIM_Workbench.md): Den Menüeintrag **Einrasten → <img src="images/Draft_Snap_Special.svg" width=16px> Einrasten spezial** auswählen oder die Menüoption im Kontextmenü der [3D-Ansichr](3D_view/de.md) auswählen.
+3.  Einen Draft- oder BIM-Befehl auswählen, um die Geometrie zu erstellen.
 4.  Man beachte, dass die Einrast-Optionen auch dann geändert werden können, wenn ein Befehl aktiv ist.
 5.  Den Mauszeiger über ein unterstütztes Objekt bewegen.
 6.  Das Objekt wird hervorgehoben.

@@ -9,31 +9,29 @@
 
 # Mesh CurvatureInfo/it
 
-## Description
-
-The **Mesh CurvatureInfo** command shows the absolute curvature of [curvature objects](Mesh_VertexCurvature.md) at selected points.
-
-## Usage
-
-1.  During the command the [3D view](3D_view.md) cannot be changed.
-2.  Make sure the mesh objects whose curvature objects you want to analyze are invisible.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_CurvatureInfo.svg" width=16px> [Curvature info](Mesh_CurvatureInfo.md)** button.
-    -   Select the **Meshes → Analyze → <img src="images/Mesh_CurvatureInfo.svg" width=16px> Curvature info** option from the menu.
-4.  The cursor changes to a pipette icon: <img alt="" src=images/Mesh_EvaluateFacet.svg  style="width:20px;">
-5.  Select a point on a curvature object.
-6.  Optionally toggle the **Annotation** option from the 3D view context menu to switch from temporary to permanent labels.
-7.  Optionally pick more points on curvature objects.
-8.  Select the **Leave info mode** option from the 3D view context menu to finish the command.
 
 
-<div class="mw-translate-fuzzy">
+## Descrizione
+
+Il comando **Mesh Dettagli della curvatura** mostra la curvatura assoluta degli [oggetti Grafico della curvatura](Mesh_VertexCurvature/it.md) nei punti selezionati.
 
 
 
+## Utilizzo
+
+1.  Durante il comando la [Vista 3D](3D_view/it.md) non può essere modificata.
+2.  Assicurarsi che gli oggetti mesh di cui si vuol analizzare gli oggetti di curvatura siano invisibili.
+3.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Mesh_CurvatureInfo.svg" width=16px> [Dettagli curvatura](Mesh_CurvatureInfo/it.md)**.
+    -   Selezionare l\'opzione **Meshes → Analizza → <img src="images/Mesh_CurvatureInfo.svg" width=16px> Dettagli curvatura** dal menu.
+4.  Il cursore si trasforma nell\'icona di una pipetta: <img alt="" src=images/Mesh_EvaluateFacet.svg  style="width:20px;">
+5.  Selezionare un punto su un oggetto di curvatura.
+6.  Facoltativamente, attivare l\'opzione **Annotazione** dal menu contestuale della vista 3D per passare dalle etichette temporanee a quelle permanenti.
+7.  Opzionalmente scegliere più punti sugli oggetti di curvatura.
+8.  Selezionare l\'opzione **Esci dalla modalità info** dal menu contestuale della vista 3D per terminare il comando.
 
 
-</div>
+
 
 
 {{Mesh Tools navi

@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/de
    Name: FEM ElementRotation1D
    Name/de: FEM Elementdrehung1D
    MenuLocation: Model , Element-Geometrie , Beam rotation
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
+}}
+{{GuiCommandFemInfo
+   Solvers: CalculiX
+}}
 ---
 
 # FEM ElementRotation1D/de
@@ -26,11 +31,12 @@ Ein **ElementRotation1D**-Objekt wird zum drehen des Balkenprofils um die Achse 
 
 
 
-## Optionen
-
-
-
 ## Eigenschaften
+
+
+{{PropertyData/de|Rotation}}
+
+: Legt den Winkel der Drehung fest.
 
 
 
@@ -42,7 +48,8 @@ Ein **ElementRotation1D**-Objekt wird zum drehen des Balkenprofils um die Achse 
 
 ## Hinweise
 
--   Um den gedrehten Querschnitt sehen zu könnent, muss die Eigenschaft `Beam Shell Result Output 3D` des [SolverCcxTools](FEM_SolverCalculixCxxtools.md)-Objekts auf `True` gesetzt und die Analyse gestartet werden.
+-   Um den gedrehten Querschnitt sehen zu können, muss die Eigenschaft `Beam Shell Result Output 3D` des [SolverCcxTools](FEM_SolverCalculixCxxtools.md)-Objekts auf `True` gesetzt und die Analyse gestartet werden.
+-   Diese Funktion verwendet die [\*BEAM SECTION-Karte in CalculiX](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node162.html).
 
 
 

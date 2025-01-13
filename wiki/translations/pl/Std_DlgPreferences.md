@@ -3,7 +3,8 @@
    Name: Std DlgPreferences
    Name/pl: Std: Okno dialogowe preferencji
    MenuLocation: Edycja , Preferencje
-   Workbenches: All
+   Workbenches: Wszystkie
+   Shortcut: **Ctrl**+**,**
    SeeAlso: Preferences_Editor/pl
 ---
 
@@ -19,8 +20,9 @@ Polecenie **Std: Okno dialogowe preferencji** otwiera edytor [Edytor ustawień](
 
 ## Użycie
 
-1.  Wybierz opcję z menu **Edycja → <img src="images/Std_DlgPreferences.svg" width=24px> Preferencje
-**
+1.  Istnieje kilka sposobów wywołania tego polecenia:
+    -   Wybierz opcję z menu **Edycja → <img src="images/Std_DlgPreferences.svg" width=24px> Preferencje**.
+    -   Użyj skrótu klawiaturowego: **Ctrl**+**,**. {{Version/pl|1.1}}
 
 
 
@@ -33,7 +35,7 @@ Polecenie **Std: Okno dialogowe preferencji** otwiera edytor [Edytor ustawień](
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

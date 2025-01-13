@@ -1,7 +1,7 @@
 # Online Help Toc/it
-Se avete delle domande o bisogno di aiuto con FreeCAD, consultate come prima cosa la [pagina di aiuto](Help/it.md).
+Se ci sono delle domande o c\'è bisogno di aiuto con FreeCAD, consultare per prima la [pagina di aiuto](Help/it.md).
 
-C\'è un altro sommario per il [Manuale di FreeCAD](Manual:Introduction/it.md).
+Esiste anche un altro sommario per il [Manuale di FreeCAD](Manual:Introduction/it.md).
 
 <img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
@@ -25,25 +25,36 @@ C\'è un altro sommario per il [Manuale di FreeCAD](Manual:Introduction/it.md).
 -   Gli [Ambienti di lavoro](Workbenches/it.md)
 
 -   -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Menu di base](Std_Base/it.md)
-    -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Arch](Arch_Workbench/it.md) Architettura
+
+    -   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> [Assembly](Assembly_Workbench/it.md) ({{Version/it|1.0}})
+
+    -   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> [BIM](BIM_Workbench/it.md) (combina l\'ambiente Arch e l\'ambiente complementare BIM disponibile nella {{VersionMinus/it|0.21}})
+
+    -   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> [CAM](CAM_Workbench/it.md) (detto \"Path Workbench\" nella {{VersionMinus/it|0.21}})
+
     -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Draft](Draft_Workbench/it.md) Disegno
+
     -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM](FEM_Workbench/it.md)
+
     -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [Inspection](Inspection_Workbench/it.md)
-    -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Mesh](Mesh_Workbench/it.md)
-    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Workbench/it.md)
+
+    -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;">
+
+    -   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> [Materiali](Material_Workbench/it.md) ({{Version/it|1.0}})
+
+[Mesh](Mesh_Workbench/it.md)
+
+-   -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Workbench/it.md)
     -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part](Part_Workbench/it.md) Parte
     -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [PartDesign](PartDesign_Workbench/it.md)
-    -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path](Path_Workbench/it.md)
     -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [Points](Points_Workbench/it.md)
     -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [Reverse Engineering](Reverse_Engineering_Workbench/it.md)
     -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [Robot](Robot_Workbench/it.md)
     -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Sketcher](Sketcher_Workbench/it.md) Schizzo
     -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [Spreadsheet](Spreadsheet_Workbench/it.md) Foglio di calcolo
-    -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [Start](Start_Workbench/it.md)
     -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Surface](Surface_Workbench/it.md) Superficie
     -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [TechDraw](TechDraw_Workbench/it.md) Disegno tecnico in uso
     -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Test Framework](Testing/it.md)
-    -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Web](Web_Workbench/it.md)
     -   [Ambienti aggiuntivi esterni](External_workbenches/it.md)
 
 -   [Elenco di tutti i comandi di FreeCAD](List_of_Commands/it.md)
@@ -78,7 +89,7 @@ C\'è un altro sommario per il [Manuale di FreeCAD](Manual:Introduction/it.md).
     -   [Creare delle finestre di dialogo](Dialog_creation/it.md)
 
 -   Sviluppo
-    -   [Licenza](Licence/it.md) en
+    -   [Licenza](License/it.md)
     -   Compilare FreeCAD
         -   [Compilazione in ambiente Windows](Compile_on_Windows/it.md)
         -   [Compilazione in ambiente Linux](Compile_on_Linux/it.md)

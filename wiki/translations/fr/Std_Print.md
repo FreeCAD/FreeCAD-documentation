@@ -26,7 +26,7 @@ La commande **Std Imprimer** est principalement destinée à imprimer des pages 
 
 ## Options
 
--   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
+-   Appuyez sur **Échap** ou sur le bouton **Annuler** pour annuler la commande.
 
 
 
@@ -38,7 +38,7 @@ La commande **Std Imprimer** est principalement destinée à imprimer des pages 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

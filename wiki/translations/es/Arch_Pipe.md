@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -26,6 +28,8 @@ Esta herramienta permite crear tuberías desde cero, o desde objetos seleccionad
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -44,19 +48,43 @@ Esta herramienta permite crear tuberías desde cero, o desde objetos seleccionad
 
 </div>
 
+
+
 ## Opciones
 
 -   Pipes share the common properties and behaviours of all [Arch Components](Arch_Component.md)
 
 ## Properties
 
--    **Length**: Sets the length of this pipe, when it is not based on a wire
+### Data
 
--    **Diameter**: The diameter of this pipe, when it is not based on a profile
 
--    **Base**: The base wire of this pipe, if any
+{{TitleProperty|Component}}
 
--    **Profile**: The base profile of this pipe. If not given, the pipe is cylindrical.
+-    **Base|Link**: The base wire of this pipe, if any.
+
+For the other properties in the group see [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|Pipe}}
+
+-    **Diameter|Length**: The diameter of this pipe, if its **Profile Type** is {{Value|Circle}}.
+
+-    **Height|Length**: The height of this pipe, if its **Profile Type** is {{Value|Rectangle}}.
+
+-    **Length|Length**: The length of this pipe, if not based on a wire.
+
+-    **Offset End|Length**: The offset from the end point of the pipe. Automatically set if an [Arch PipeConnector](Arch_PipeConnector.md) is added at this point to make the pipe fit the connector. See [Typical workflow](#Typical_workflow.md) below.
+
+-    **Offset Start|Length**: The offset from the start point of the pipe. Idem.
+
+-    **Profile|Link**: The base profile of this pipe. If not set, the pipe profile is determined by **Profile Type**.
+
+-    **Profile Type|Enumeration**: The profile of this pipe. Only used if **Profile** is not set. The options are: {{Value|Circle}}, {{Value|Square}} or {{Value|Rectangle}}.
+
+-    **Wall Thickness|Length**: The wall thickness of this pipe.
+
+-    **Width|Length**: The width of this pipe, if its **Profile Type** is {{Value|Square}} or {{Value|Rectangle}}.
 
 ## Typical workflow 
 
@@ -114,10 +142,10 @@ La herramienta de Tubería/Pipe se puede utilizar en [macros](macros/es.md) y de
 
 
 ```python
-Pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
+pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
 ```
 
--   Creates a `Pipe` object from the given `baseobj` and `diameter`.
+-   Creates a `pipe` object from the given `baseobj` and `diameter`.
     -   
         `baseobj`
         
@@ -134,12 +162,12 @@ p1 = FreeCAD.Vector(1000, 0, 0)
 p2 = FreeCAD.Vector(2500, 200, 0)
 p3 = FreeCAD.Vector(3100, 1000, 0)
 p4 = FreeCAD.Vector(3500, 500, 0)
-Line = Draft.makeWire([p1, p2, p3, p4])
+line = Draft.make_wire([p1, p2, p3, p4])
 
-Pipe = Arch.makePipe(Line, 200)
+pipe = Arch.makePipe(line, 200)
 FreeCAD.ActiveDocument.recompute()
 
-Pipe2 = Arch.makePipe(diameter=120, length=3000)
+pipe2 = Arch.makePipe(diameter=120, length=3000)
 FreeCAD.ActiveDocument.recompute()
 ```
 
@@ -160,6 +188,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/es
+⏵ [documentation index](../README.md) > Arch Pipe/es

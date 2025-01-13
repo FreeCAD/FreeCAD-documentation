@@ -79,7 +79,7 @@ Python解释器中还设有一个内建的帮助系统。尝试输入：
 
 
 ```python
-help("print")
+help(print)
 ```
 
 

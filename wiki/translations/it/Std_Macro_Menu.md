@@ -39,19 +39,19 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Macro\...](Std_DlgMacroExecute/it.md): Apre una finestra di dialogo per gestire ed eseguire le macro.
 
--   <img alt="" src=images/Std_RecentMacros.svg  style="width:32px;"> Macro recenti: Mostra un elenco di macro usate di recente, che possono essere chiamate con una combinazione di tasti, ad esempio, **Ctrl** + **Maiusc** + **1**. Questo può essere configurato nelle [Preferenze](Preferences_Editor/it.md).
+-   Macro recenti: Mostra un elenco di macro usate di recente, che possono essere chiamate con una combinazione di tasti, ad esempio, **Ctrl** + **Maiusc** + **1**. Questo può essere configurato nelle [Preferenze](Preferences_Editor/it.md).
 
--   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Esegui macro](Std_DlgMacroExecuteDirect/it.md): Esegue la macro selezionata o attiva nell\'editor Python.
+-   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:32px;"> [Esegui macro](Std_DlgMacroExecuteDirect/it.md): Esegue la macro selezionata o attiva nell\'editor delle Macro.
 
 -   [Collega a un debugger remoto\...](Std_MacroAttachDebugger/it.md): Collega FreeCAD a un debugger remoto.
 
--   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Avvia il debug](Std_MacroStartDebug/it.md): Avvia una sessione di debug per la macro nell\'editor Python.
+-   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Avvia il debug](Std_MacroStartDebug/it.md): Avvia una sessione di debug per la macro nell\'editor delle Macro.
 
 -   <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;"> [Interrompi il debug](Std_MacroStopDebug/it.md): Interrompe una sessione di debug.
 
 -   [Passo successivo](Std_MacroStepOver/it.md): Passo successivo nel codice.
 
--   [Un passo](Std_MacroStepInto/it.md)ː Un passo
+-   [Un passoː](Std_MacroStepInto/it.md) Un passo
 
 -   [Attiva/disattiva punto di interruzione](Std_ToggleBreakpoint/it.md): Attiva o disattiva un punto di interruzione.
 
@@ -59,13 +59,13 @@ In questo menu sono disponibili i seguenti strumenti:
 
 ## Strumenti obsoleti 
 
--   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Interrompi la registrazione](Std_MacroStopRecord/it.md): Arresta la registrazione di una macro. Integrato in [Registra una macro](Std_DlgMacroRecord/it.md). Non disponibile in {{VersionPlus/it|0.22}}.
+-   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Interrompi la registrazione](Std_MacroStopRecord/it.md): Arresta la registrazione di una macro. Integrato in [Registra una macro](Std_DlgMacroRecord/it.md). Non disponibile in {{VersionPlus/it|1.0}}.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

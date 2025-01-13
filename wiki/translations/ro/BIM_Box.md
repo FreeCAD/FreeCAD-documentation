@@ -9,11 +9,24 @@
 
 # BIM Box/ro
 
+
+</div>
+
+
+
 ## Descriere
 
 <img alt="" src=images/BIM_box_screenshot.png  style="width:1024px;">
 
+
+<div class="mw-translate-fuzzy">
+
 Instrumentul BIM Box vă permite să creați un [Part Box](Part_Box.md) standard, dar în loc să creați obiectul și să vă permiteți să specificați dimensiunile și poziția acestuia ulterior, ca și instrumentul [Part_Workbench](Part_Workbench.md) original, acest instrument vă permite să plasați și definiți grafic dimensiunile casetei atunci când creați obiectul. Cutiile sunt forme de bază [cuboid](https://en.wikipedia.org/wiki/Cuboid), care pot fi folosite ulterior ca bază a oricărui alt tip de obiect BIM.
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -23,6 +36,9 @@ Instrumentul BIM Box vă permite să creați un [Part Box](Part_Box.md) standard
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Apăsați Butonul **<img src="images/BIM_Box.png" width=16px> [BIM Box](BIM_Box.md)
 **
 2.  Faceți clic pe un prim punct pentru a defini un prim colț al casetei. Poate fi oricare dintre colțurile cutiei
@@ -31,6 +47,17 @@ Instrumentul BIM Box vă permite să creați un [Part Box](Part_Box.md) standard
 5.  Click pe al patrulea punct pentru a defini distanța de extruziune a primei fațete, formând caseta finală
 
 
+</div>
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > BIM Box/ro
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Box/ro

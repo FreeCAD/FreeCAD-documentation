@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -14,6 +16,8 @@ Tento nástroj identifikuje a vybírá netělesové (neuzavřené) (non-[manifol
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -34,5 +38,13 @@ Tento nástroj identifikuje a vybírá netělesové (neuzavřené) (non-[manifol
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/cs
+⏵ [documentation index](../README.md) > Arch SelectNonSolidMeshes/cs

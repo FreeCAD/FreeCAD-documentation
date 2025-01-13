@@ -3,7 +3,7 @@
    Name: TechDraw ToggleFrame
    MenuLocation: TechDraw , TechDraw Views , Turn View Frames On/Off
    Workbenches: TechDraw_Workbench
-   SeeAlso: TechDraw_View, TechDraw_ProjectionGroup
+   SeeAlso: TechDraw_View
 ---
 
 # TechDraw ToggleFrame
@@ -22,7 +22,7 @@ The **TechDraw ToggleFrame** tool turns the display of View frames, labels and v
     -   Press the **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Turn View Frames On/Off](TechDraw_ToggleFrame.md)** button.
     -   Select the **TechDraw → TechDraw Views → <img src="images/TechDraw_ToggleFrame.svg" width=16px> Turn View Frames On/Off** option from the menu.
     -   If a page is displayed in the [Main view area](Main_view_area.md): right-click the page\'s window and select the **Toggle Frames** option from the context menu.
-3.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+3.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens:
     1.  Select the desired page.
     2.  Press the **OK** button.
 4.  Currently visible View frames will disappear. Currently invisible View frames will appear.
@@ -45,7 +45,7 @@ The Toggle tool currently doesn\'t have a programming interface.
 
 
 
- {{TechDraw Tools navi}}
+ {{TechDraw_Tools_navi}}
 
 
 

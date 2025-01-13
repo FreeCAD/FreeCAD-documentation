@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft PolarArray
    Name/pl: Rysunek Roboczy: Szyk biegunowy
-   MenuLocation: Modyfikacja , Narzędzia szyku , Szyk biegunowy
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Modyfikacja , Narzędzia szyku , Szyk biegunowy<br>Modyfikacja , Szyk biegunowy
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Version: 0.19
    SeeAlso: Draft_OrthoArray/pl, Draft_CircularArray/pl, Draft_PathArray/pl, Draft_PathLinkArray/pl, Draft_PointArray/pl, Draft_PointLinkArray/pl
 ---
@@ -16,7 +16,7 @@
 
 Polecenie <img alt="" src=images/Draft_PolarArray.svg  style="width:24px;"> **Szyk biegunowy** tworzy szyk z wybranego obiektu poprzez umieszczenie kopii wzdłuż obwodu. Polecenie może opcjonalnie utworzyć szyk [łączy](App_Link/pl.md), który jest bardziej wydajny niż zwykły szyk.
 
-Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
+Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [BIM](BIM_Workbench/pl.md).
 
 <img alt="" src=images/Draft_PolarArray_example.png  style="width:400px;"> 
 *Szyk biegunowy.*
@@ -30,7 +30,8 @@ Zapoznaj się również z informacjami na stronie [Przyciąganie](Draft_Snap/pl.
 1.  Opcjonalnie wybierz jeden obiekt.
 2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_PolarArray.svg" width=16px> '''Szyk biegunowy'''**.
-    -   Wybierz z menu opcję **Modyfikacja → Narzędzia szyku → <img src="images/Draft_PolarArray.svg" width=16px> Szyk biegunowy**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Modyfikacja → Narzędzia szyku → <img src="images/Draft_PolarArray.svg" width=16px> Szyk biegunowy**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Modyfikacja → <img src="images/Draft_PolarArray.svg" width=16px> Szyk biegunowy** z menu.
 3.  Otworzy się panel zadań **Szyk biegunowy**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
 4.  Jeśli nie wybrano jeszcze żadnego obiektu: wybierz jeden obiekt.
 5.  Wprowadź wymagane parametry w panelu zadań.

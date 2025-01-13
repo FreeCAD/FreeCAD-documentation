@@ -8,7 +8,9 @@ Obecnie w programie FreeCAD reprezentowane są tylko dwa elementy inżynierii l�
 1.  [Pręt zbrojeniowy](Arch_Rebar/pl.md)
 2.  [Środowisko pracy Transport](Transportation_Workbench/pl.md)
 
-Narzędzia Zbrojeniowe są obecnie częścią środowiska pracy [Architektura](Arch_Workbench/pl.md).
+Narzędzia do zbrojenia są obecnie częścią środowiska pracy [BIM](BIM_Workbench/pl.md).
+
+
 
 ## Powiązane wątki na forum 
 
@@ -21,6 +23,8 @@ Narzędzia Zbrojeniowe są obecnie częścią środowiska pracy [Architektura](A
 -   Zrzuty ekranu
 -   Mapa drogowa *(gra słów niezamierzona)*
 -   Poprawić tę stronę wiki
+
+
 
 ## Powiązane strony 
 

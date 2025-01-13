@@ -1,19 +1,18 @@
 ---
- GuiCommand:Addon
+ GuiCommand:
    Name: BIM IfcQuantities
-   Workbenches: Image:IFC.svg BIM Workbench
-   Addon: BIM
-   MenuLocation: Manage , IFC Quantities
-   SeeAlso: BIM IfcElements,BIM IfcProperties
+   MenuLocation: Manage , Manage IFC quantities...
+   Workbenches: BIM_Workbench
 ---
 
 # BIM IfcQuantities/en
 
 ## Description
 
-<img alt="" src=images/BIM_ifcquantities_screenshot.png  style="width:1024px;">
+The **IFC Quantities Manager** allows you to check the explicit quantities attached to objects, to be exported to IFC.
 
-The IFC quantities manager allows you to check the **explicit quantities** attached to objects, to be exported to IFC.
+<img alt="" src=images/BIM_ifcquantities_screenshot.png  style="width:600px;"> 
+*IFC Quantities Manager*
 
 The IFC format allows to include, for any object, explicit quantities, that can be things like \"Width\" or \"Height\" or \"Area\". There is no standard that defines which object type must include which kind of quantity, and there is also no guarantee that such explicit quantities actually reflect the geometry of the object. In other words, these quantities could have wrong values or even lie. A wall could have its geometry as a cube with a length of 10 meters, but have an attached \"Length\" quantity of 8 meters.
 
@@ -25,5 +24,13 @@ You can also use the quantities manager to change or fix the actual **Height**, 
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > BIM IfcQuantities/en
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcQuantities/en

@@ -1,10 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM ConstraintElectrostaticPotential
    Name/fr: FEM Potentiel électrostatique
    MenuLocation: Modèle , Conditions limites électromagnétiques , Condition limite de potentiel électrostatique
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_Example_Capacitance_Two_Balls/fr, FEM_tutorial/fr
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintElectrostaticPotential/fr
@@ -13,19 +19,19 @@
 
 ## Description
 
-Crée une condition limite FEM pour le potentiel électrostatique. À utiliser avec les équations [électrostatiques](FEM_EquationElectrostatic/fr.md) ou de [force électrique](FEM_EquationElectricforce/fr.md).
+Crée une condition limite FEM pour le potentiel électrostatique. À utiliser avec les équations [électrostatiques](FEM_EquationElectrostatic/fr.md), de [force électrique](FEM_EquationElectricforce/fr.md), [magnétodynamiques](FEM_EquationMagnetodynamic/fr.md) ou [magnétodynamiques 2D](FEM_EquationMagnetodynamic2D/fr.md)
 
 
 
 ## Utilisation
 
 1.  Appuyez soit sur le bouton **<img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> [Condition limite de potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md)** ou utilisez le menu **Modèle → Conditions limites électromagnétiques → <img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> Condition limite de potentiel électrostatique**.
-2.  Dans la [vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la condition limite doit être appliquée.
-3.  Appuyez sur le bouton **Ajouter**.
+2.  Appuyez sur le bouton **Ajouter**.
+3.  Dans la [vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la condition limite doit être appliquée.
 
 ## Options
 
-La boîte de dialogue propose les paramètres suivants :
+La fenêtre de dialogue propose les paramètres suivants :
 
 ![](images/FEM_ElectrostaticPotential_dialog.png )
 

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -14,6 +16,8 @@ Tento nástroj rozdělí vybrané [Síťové](Mesh_Workbench.md) objekty do jeji
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -85,5 +89,13 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/cs
+⏵ [documentation index](../README.md) > Arch SplitMesh/cs

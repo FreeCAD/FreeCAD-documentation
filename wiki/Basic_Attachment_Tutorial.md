@@ -82,7 +82,7 @@ Do the same for the Position sub heading. Change the X offset to 80mm, and the Y
 
 Attachment offset is commonly used in conjunction with expressions to offer a parametric parallel to plane position, eg. positioning a sketch on the top face of a Pad, using a (Pad.Length) expression for Z offset.
 
-The Sketch can now be padded <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;">, let\'s assume that the pad\'s height should be the same as the sketch\'s width. In the **Pad parameters** dialogue select the **Length** box, press **<nowiki>=</nowiki>** or select the function icon <img alt="" src=images/Bound-expression.svg  style="width:24px;"> and type \"**Sketch.Constraints.width**\", this expression should resolve to \"40 mm\", then tick **Symmetric to plane** and press **OK**.
+The Sketch can now be padded <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;">, let\'s assume that the pad\'s height should be the same as the sketch\'s width. In the **Pad parameters** dialogue select the **Length** box, press \>.Constraints.width**\", this expression should resolve to \"40 mm\", then tick **Symmetric to plane** and press **OK**.
 
 ![centre\|The Base Pad](images/BasePad2.png )
 
@@ -90,7 +90,7 @@ Let\'s make the next sketch, it\'s not really important which one we choose, but
 
 Make a new sketch, choose whichever plane you like (we\'re going to change its attachment anyway.)
 
-Draw the triangle, make two sides equal and constrain its length the same way as you did the Pad Length, only this time make the formula \"**Sketch.Constraints.width/2**\".
+Draw the triangle, make two sides equal and constrain its length the same way as you did the Pad Length, only this time make the formula \"**Sketch.Constraints.width/2**\" or \"**\<\>.Constraints.width/2**\".
 
 There should be two degrees of freedom remaining, they are the position with regards to the origin. Fix one of the corners to the origin so that the sketch looks thus:-
 
@@ -156,7 +156,7 @@ You can now [pocket](PartDesign_Pocket.md) the sketch.
 
 ### A Step Further 
 
-Create the next sketch, the dimensions should be expressions (\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\") and it should be constrained to the origin at the vertex adjacent the hypotenuse and its shortest side. (In the empty sketch, if you are familiar with **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** you can use it to make a copy of the \'IsoscelesSketch\' sketch, and edit its parameters to suit.)
+Create the next sketch, the dimensions should be expressions (\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\" or \"**\<\>.Constraints.width**\",\"**\<\>.Constraints.width/2**\") and it should be constrained to the origin at the vertex adjacent the hypotenuse and its shortest side. (In the empty sketch, if you are familiar with **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** you can use it to make a copy of the \'IsoscelesSketch\' sketch, and edit its parameters to suit.)
 
 Rename the sketch RightAngleTriangleSketch.
 
@@ -202,7 +202,7 @@ FreeCAD provides a number of ways to do this.
 
 For our final sketch, we will Attach it arbitrarily, and correct its position using the modifiers listed above.
 
-Create the final sketch, the dimensions should be expressions(\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\") and it should be constrained to the origin at the vertex adjacent the hypotenuse and its shortest side.
+Create the final sketch, the dimensions should be expressions(\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\" or \"**\<\>.Constraints.width**\" , \"**\<\>.Constraints.width/2**\") and it should be constrained to the origin at the vertex adjacent the hypotenuse and its shortest side.
 
 Rename the sketch FinalSketch.
 

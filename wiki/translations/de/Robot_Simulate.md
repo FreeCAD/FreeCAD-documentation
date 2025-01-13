@@ -1,38 +1,27 @@
-# Robot Simulate/de
 ---
- GuiCommand:   Name: Robot Simulate   Workbenches: Robot_Workbench/de   Robot|MenuLocation: Roboter , Simulieren einer Bewegungsbahn---
+ GuiCommand:
+   Name: Robot Simulate
+   Name/de: Robot Simulieren
+   MenuLocation: Robot , Bewegungsbahn simulieren
+   Workbenches: Robot_Workbench/de
+---
+
+# Robot Simulate/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-#### Beschreibung
-
-Öffnet den Simulationsdialog und lässt Sie die Roboterbewegungen entlang einer Bewegungsbahn simulieren.
+Öffnet den Simulationsdialog und ermöglicht die Roboterbewegungen entlang einer Bewegungsbahn zu simulieren.
 
 
-</div>
 
-## Usage
+## Anwendung
 
+1.  Einen Roboter und eine Bewegungsbahn in der [Baumansicht](Tree_view/de.md).
+2.  <img alt="" src=images/Robot_Simulate.svg  style="width:32px;"> anklicken oder den Menüeintrag **Robot** → **<img src="images/Robot_Simulate.svg" width=32px> Bewegungsbahn simulieren** auswählen.
 
-<div class="mw-translate-fuzzy">
-
-#### Anwendung
-
-1.  Selektieren Sie einen Roboter und eine Bewegungsbahn in der Baumansicht
-2.  Klicken Sie <img alt="" src=images/Robot_Simulate.png  style="width:32px;"> oder wählen Sie ** Roboter** → **<img src="images/Robot_Simulate.png" width=32px> Simulieren einer Bewegungsbahn** aus dem Top-Menü.
-
-Dies wird ein Abspielmenü in der Baumansicht öffnen.
-
-
-</div>
-
-Result: This will open up a player dialog menu in the [Tree view](Tree_view.md).
+Ergebnis: Dies öffner einen Abspieldialog-Menü in der [Baumansicht](Tree_view/de.md).
 
 ![](images/Robot_Simulation_Player.jpg )
 
@@ -46,12 +35,8 @@ Die Knöpfe von links nach rechts:
 -   Zum letzten Wegpunkt auf der ausgewählten Bewegungsbahn bewegen
 
 
-<div class="mw-translate-fuzzy">
 
-#### Anmerkungen
-
-
-</div>
+## Hinweise
 
 
 

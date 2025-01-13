@@ -20,7 +20,7 @@ The <img alt="" src=images/Part_XOR.svg  style="width:24px;"> **Part XOR** comma
 
 1.  Select two or more objects. It is also possible to select a [Part Compound](Part_Compound.md) containing two or more objects.
 2.  There are several ways to invoke the command:
-    -   Select the **Part → Boolean → <img src="images/Part_XOR.svg" width=16px> Boolean XOR** option from the menu.
+    -   Select the **Part → Split → <img src="images/Part_XOR.svg" width=16px> Boolean XOR** option from the menu.
     -   Press the **<img src="images/Part_XOR.svg" width=16px> [Boolean XOR](Part_XOR.md)** button.
 
 ## Notes
@@ -30,6 +30,14 @@ The <img alt="" src=images/Part_XOR.svg  style="width:24px;"> **Part XOR** comma
 ## Properties
 
 ## Scripting
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

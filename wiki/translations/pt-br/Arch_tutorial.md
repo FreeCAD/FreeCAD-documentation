@@ -2,10 +2,8 @@
  TutorialInfo:t-br
    Topic: Modeling
    Level: Intermediate
-   Time: 
    Author: User:Yorik
    FCVersion: 0.14
-   Files: 
 ---
 
 # Arch tutorial/pt-br
@@ -13,12 +11,6 @@
 
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-</div>
 
 ![](images/Arch_tutorial_00.jpg )
 
@@ -26,73 +18,25 @@
 
 ## Introdução
 
-
-<div class="mw-translate-fuzzy">
-
 O objetivo deste tutorial é oferecer a você o básico para trabalhar com a [Bancada de arquitetura](Arch_Workbench/pt-br.md) Vou tentar fazer simples o suficiente para que você não precise ter nenhuma experiência anterior com o FreeCAD, mas caso tenha alguma experiência com 3D ou aplicações [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) será útil. Em qualquer caso, você deve estar preparado para procurar por si mesmo e obter mais informações sobre como FreeCAD trabalha na [ documentação FreeCAD wiki](Main_Page/pt-br.md). A página [Introdução](Getting_started/pt-br.md) é uma leitura obrigatória se você não tem nenhuma experiência anterior com FreeCAD. Verifique também a nossa seção de [tutoriais](tutorials/pt-br.md) e em [youtube](http://www.youtube.com/results?search_query=freecad) você também vai encontrar muito mais tutoriais de FreeCAD.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 O objetivo da [Bancada de arquitetura](Arch_Workbench/pt-br.md) é oferecer um fluxo de trabalho [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) completo dentro do FreeCAD. Como ele ainda está em desenvolvimento, não espere encontrar aqui as mesmas ferramentas e nível de acabamento das alternativas comerciais, como [Revit](http://en.wikipedia.org/wiki/Revit) ou [/ en.wikipedia.org / wiki / Archicad ArchiCAD](http:/),_mas_por_outro_lado,_o_FreeCAD_vem_sendo_usado_em_um_escopo_muito_maior_do_que_nesses_aplicativos,_e_a_[Bancada_de_arquitetura](Arch_Workbench/pt-br.md) se beneficia muito das outras disciplinas que o FreeCAD atende e oferece algumas características raramente vistas em aplicações BIM tradicionais.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Aqui estão, por exemplo, algumas características interessantes da [Bancada de arquitetura](Arch_Workbench/pt-br.md) do FreeCAD que dificilmente você vai encontrar em outros aplicativos BIM:
-
-
-</div>
 
 -   Objetos arquitetônicos são sempre sólidos. Da sólida formação mecânica de FreeCAD, aprendemos a importância de sempre trabalhar com objetos sólidos. Isso garante um fluxo de trabalho muito mais livre de erros, e operações booleanas muito confiáveis. Sendo que o corte através de objetos 3D com um plano 2D, a fim de extrair secções, é também uma operação booleana, você pode ver imediatamente a importância deste ponto.
 
 -   Objetos arquitetônicos sempre podem ter qualquer forma. Sem restrições. Paredes não precisam ser verticais, lajes não precisam parecer com lajes. Qualquer objeto sólido sempre pode se transformar em qualquer objeto arquitetônico. Coisas muito complexas, normalmente difíceis de serem definidas em outras aplicações BIM, como uma laje curvando-se e tornando-se uma parede (sim Zaha Hadid, é de você que estamos falando), não apresentam nenhum problema particular no FreeCAD.
 
-
-<div class="mw-translate-fuzzy">
-
--   Todo o poder do FreeCAD está ao seu alcance. Você pode criar objetos arquitetônicos com qualquer outra ferramenta do FreeCAD, como a [Bancada de design de peças](PartDesign_Workbench/pt-br.md), e quando estiverem prontos, convertê-los em objetos arquitetônicos. Eles ainda mantêm a sua história de modelagem completa e continuam totalmente editáveis. A [Bancada de arquitetura](Arch_Workbench/pt-br.md) também herda muitas das funcionalidades do [Bancada de traço](Draft_Workbench/pt-br.md), como [Snapping](Draft_Snap/pt-br.md) e [Selecionar planos de trabalho.](Draft_SelectPlane/pt-br.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   Todo o poder do FreeCAD está ao seu alcance. Você pode criar objetos arquitetônicos com qualquer outra ferramenta do FreeCAD, como a [Bancada de design de peças](PartDesign_Workbench/pt-br.md), e quando estiverem prontos, convertê-los em objetos arquitetônicos. Eles ainda mantêm a sua história de modelagem completa sendo totalmente editáveis. A [Bancada de arquitetura](Arch_Workbench/pt-br.md) também herda muitas das funcionalidades da [Bancada de traço](Draft_Workbench/pt-br.md), como [Snapping](Draft_Snap/pt-br.md) e [planos de trabalho.](Draft_SelectPlane/pt-br.md)
 
 -   A [Bancada de arquitetura](Arch_Workbench/pt-br.md) é muito \"[mesh](Mesh_Workbench.md)-friendly\". Você pode facilmente criar um modelo de arquitetura em um aplicativo baseado em malha (mesh) como [Blender](http://en.wikipedia.org/wiki/Blender_%28software%29) ou [SketchUp](http://en.wikipedia.org/wiki/Sketchup) e importá-lo no FreeCAD. Se você cuidou da qualidade do seu modelo e seus objetos são formas sólidas não-múltiplas, transformá-los em objetos arquitetônicos requer apenas pressionar um botão.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 No momento em que eu estou escrevendo isso, a [Bancada de arquitetura](Arch_Workbench/pt-br.md), como o resto do FreeCAD, sofre algumas limitações. Porém, a maioria está sendo trabalhada e vai desaparecer no futuro.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   O FreeCAD não é um aplicativo 2D. Ele é feito para 3D. Há um conjunto razoável de ferramentas para desenho e edição de objetos 2D como a [Bancada de traço](Draft_Workbench/pt-br.md) e a [Bancada de esboço](Sketcher_Workbench/pt-br.md), mas elas não são feitas para o tratamento de grandes (e às vezes mal desenhados) arquivos de CAD 2D. Normalmente, é possível importar arquivos 2D com sucesso, mas não espere um desempenho muito alto se você quiser continuar a trabalhar com eles em 2D. Você foi avisado.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Sem suporte de materiais. O FreeCAD terá um sistema completo de [material](material.md), capaz de definir materiais muito complexos, com todos os extras que você pode esperar (propriedades personalizadas, famílias de materiais, propriedades de aspecto visuale de renderização, etc) e a [Bancada de arquitetura](Arch_Workbench/pt-br.md) vai, naturalmente, usá-lo quando estiver pronto.
-
-
-</div>
+-   Sem suporte de materiais. O FreeCAD terá um sistema completo de [Material](Material.md), capaz de definir materiais muito complexos, com todos os extras que você pode esperar (propriedades personalizadas, famílias de materiais, propriedades de aspecto visuale de renderização, etc) e a [Bancada de arquitetura](Arch_Workbench/pt-br.md) vai, naturalmente, usá-lo quando estiver pronto.
 
 -   Um muito preliminar suporte [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). Você já pode [importar arquivos IFC](Arch_IFC/pt-br.md) de forma bastante confiável, desde que o [IfcOpenShell](http://ifcopenshell.org) esteja instalado em seu sistema, mas exportar ainda não é oficialmente suportado. Isso está sendo trabalhado tanto pelos desenvolvedores FreeCAD quanto do IfcOpenShell, e no futuro podemos esperar um suporte IFC total.
 
@@ -101,25 +45,13 @@ No momento em que eu estou escrevendo isso, a [Bancada de arquitetura](Arch_Work
 -   As [Unidades](Units/pt-br.md) estão sendo implementadas no FreeCAD, o que permitirá que você trabalhe com qualquer unidade que deseje (até mesmo unidades imperiais, vocês dos EUA podem ser eternamente gratos ao Jürgen, padrinho e ditador do FreeCAD, por isso). Mas neste momento a implementação não está completa e a bancada de arquitetura ainda não os suporta. Você deve considerá-lo \"sem unidades\".
 
 
-<div class="mw-translate-fuzzy">
-
-
 {{Note|FreeCAD versão 0.14 obrigatório|Este tutorial foi escrito usando [FreeCAD version 0.14](Release_notes_0.14.md).  Você vai precisar ao menos dessa versão, a fim de segui-lo. As versões anteriores podem não conter todas as ferramentas necessárias, ou poderiam faltar opções apresentadas aqui.}}
-
-
-</div>
 
 
 
 ## Fluxos de trabalho típicos 
 
-
-<div class="mw-translate-fuzzy">
-
 A [Bancada de arquitetura](Arch_Workbench/pt-br.md) é feita principalmente para dois tipos de fluxos de trabalho:
-
-
-</div>
 
 -   Construir o seu modelo com uma aplicação mais rápida e baseada em malhas como [Blender](http://en.wikipedia.org/wiki/Blender_%28software%29) ou [SketchUp](http://en.wikipedia.org/wiki/Sketchup),e importar no FreeCAD a fim de extrair as plantas e vistas de corte. O FreeCAD é feito para modelagem de precisão, em um nível muito mais elevado do que o que normalmente é necessário para modelagem arquitetônica, assim construir seus modelos diretamente no FreeCAD pode ser pesado e lento. Por este motivo este fluxo de trabalho tem grandes vantagens. Eu o descrevi em [this article](http://yorik.uncreated.net/guestblog.php?2012=180), no meu blog. Se você se importa em modelar corretamente e com precisão (malhas limpas, sólidas, não-múltiplas), este fluxo de trabalho lhe dá tanto desempenho e nível de precisão quanto o outro.
 
@@ -560,6 +492,11 @@ I hope this gives you a good overview of the available tools, be sure to refer t
 The file created during this tutorial can be found [here](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd)
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/pt-br
+⏵ [documentation index](../README.md) > Arch tutorial/pt-br

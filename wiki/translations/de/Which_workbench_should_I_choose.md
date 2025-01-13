@@ -288,15 +288,7 @@ Here is more material about Draft and 2D drawing in FreeCAD:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 
-Your workbench of choice is the [BIM Workbench](BIM_Workbench.md). It is not part of the built-in workbenches of FreeCAD, you need to install it via the [Std_AddonMgr](Std_AddonMgr.md). The [Arch Workbench](Arch_Workbench.md), bundled with FreeCAD, is a minimal subset of the BIM workbench tools, that will allow your BIM models to be correctly opened on any installation of FreeCAD, even without the BIM workbench.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-The BIM workbench contains all the tools usually found in BIM applications to model building components, such as wall, window, door, etc. It also contains most of the [Draft tools](Draft_Workbench.md), an uses the same [working plane](Draft_SelectPlane.md) concept, where your next objects will lie on the current working plane.
+Your workbench of choice is the [BIM Workbench](BIM_Workbench.md). The BIM workbench contains all the tools usually found in BIM applications to model building components, such as wall, window, door, etc. It also contains most of the [Draft tools](Draft_Workbench.md), and uses the same [working plane](Draft_SelectPlane.md) concept, where your next objects will lie on the current working plane.
 
 
 </div>

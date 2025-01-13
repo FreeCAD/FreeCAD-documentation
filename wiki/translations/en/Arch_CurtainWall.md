@@ -1,18 +1,18 @@
 ---
  GuiCommand:
    Name: Arch CurtainWall
-   MenuLocation: Arch , Curtain Wall
-   Workbenches: Arch_Workbench
+   MenuLocation: 3D/BIM , Curtain Wall
+   Workbenches: BIM_Workbench
    Shortcut: **C** **W**
    Version: 0.19
-   SeeAlso: Arch_Wall, Arch_Grid
+   SeeAlso: 
 ---
 
 # Arch CurtainWall/en
 
 ## Description
 
-This tool creates a [curtain wall](https://en.wikipedia.org/wiki/Curtain_wall_(architecture)) by subdividing a base face into quadrangular faces, then creating vertical mullion on the vertical edges, horizontal mullions on the horizontal edges, and filling the spaces between mullions with panels.
+The **Arch CurtainWall** tool creates a [curtain wall](https://en.wikipedia.org/wiki/Curtain_wall_(architecture)) by subdividing a base face into quadrangular faces, then creating vertical mullion on the vertical edges, horizontal mullions on the horizontal edges, and filling the spaces between mullions with panels.
 
 <img alt="" src=images/Arch_CurtainWall_example.png  style="width:780px;">
 
@@ -33,7 +33,10 @@ You can also use the curtain wall tool without any selected object, in which cas
 ### Drawing a curtain wall from scratch 
 
 1.  Make sure nothing is selected
-2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall.md)** button, or press **C** then **W** keys.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [Curtain Wall](Arch_CurtainWall.md)** button.
+    -   Select the **3D/BIM → <img src="images/Arch_CurtainWall.svg" width=16px> Curtain Wall** option from the menu.
+    -   Use the keyboard shortcut: **C** then **W**.
 3.  Click a first point on the 3D view, or type coordinates.
 4.  Click a second point on the 3D view, or type coordinates.
 5.  Adjust needed properties.
@@ -41,7 +44,7 @@ You can also use the curtain wall tool without any selected object, in which cas
 ### Creating a curtain wall from a selected object 
 
 1.  Select one or more base geometry objects (Draft object, sketch, etc).
-2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall.md)** button, or press the **C** then **W** keys.
+2.  Invoke the tool as described above.
 3.  Adjust needed properties.
 
 ## Options
@@ -85,6 +88,8 @@ Curtain wall objects inherit the properties of [Arch Components](Arch_Component.
 
 -    **Diagonal Mullion Profile**: A profile for diagonal mullions, if any (disables horizontal mullion size)
 
+-    **Override Edges**: (<small>(v1.0)</small> ) Input are index numbers of edges of Base ArchSketch/Sketch geometries (in Edit mode). Selected edges are used to create the shape of this Arch Curtain Wall (instead of using all edges by default). Ignored if Base ArchSketch provided the selected edges. ENHANCEMENT by ArchSketch: GUI \'Edit Curtain Wall\' Tool is provided in the external <img alt="" src=images/SketchArch_Workbench.svg  style="width:16px;"> [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) to let users to select the edges interactively. \'Toponaming-Tolerant\' if ArchSketch is used in Base (and SketchArch Add-on is installed). Warning: Not \'Toponaming-Tolerant\' if just Sketch is used. (See forum thread - <https://forum.freecad.org/viewtopic.php?t=73018&start=40#p756554>)
+
 -    **Panel Number**: The number of panels
 
 -    **Panel Thickness**: The thickness of the panels
@@ -127,7 +132,9 @@ The procedure described below creates a wall and a curtain wall based on a same 
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Curtain wall tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The Curtain wall tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 MyCurtainWall = makeCurtainWall(baseobj)
 ```
@@ -152,5 +159,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/en
+⏵ [documentation index](../README.md) > Arch CurtainWall/en

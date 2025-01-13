@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/de
    Name: FEM ConstraintElectrostaticPotential
    Name/de: FEM RandbedingungElektrostatischesPotential
    MenuLocation:  Modell , Elektromagnetische Randbedingungen , Randbedingung elektrostatisches Potential
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_Example_Capacitance_Two_Balls/de, FEM_tutorial/de
+}}
+{{GuiCommandFemInfo/de
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintElectrostaticPotential/de
@@ -13,15 +18,15 @@
 
 ## Beschreibung
 
-Erstellt eine FEM-Randbedingung für das elektrostatische Potential, zur Verwendung mit der [Elektrostatik-Gleichung](FEM_EquationElectrostatic/de.md) oder der [Gleichung für die elektrische Kraft](FEM_EquationElectricforce/de.md).
+Erstellt eine FEM-Randbedingung für das elektrostatische Potential, zur Verwendung mit der [Elektrostatik-Gleichung](FEM_EquationElectrostatic/de.md), der [Gleichung für die elektrische Kraft](FEM_EquationElectricforce/de.md), der [Elektrodynamik-Gleichung](FEM_EquationMagnetodynamic/de.md) oder der [2D-Elektrodynamik-Gleichung](FEM_EquationMagnetodynamic2D/de.md)
 
 
 
 ## Anwendung
 
 1.  Die Schaltfläche **<img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> [Randbedingung elektrostatisches Potential](FEM_ConstraintElectrostaticPotential/de.md)** drücken oder den Menüeintrag **Modell → Elektromagnetische Randbedingungen → <img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> Randbedingung elektrostatisches Potential** auswählen.
-2.  In der [3D-Ansicht](3D_view/de.md) das Objekt auswählen, dem die Randbedingung zugeordnet werden soll.
-3.  Die Schaltfläche **Hinzufügen** Drücken.
+2.  Die Schaltfläche **Hinzufügen** Drücken.
+3.  In der [3D-Ansicht](3D_view/de.md) das Objekt auswählen, dem die Randbedingung zugeordnet werden soll.
 
 
 

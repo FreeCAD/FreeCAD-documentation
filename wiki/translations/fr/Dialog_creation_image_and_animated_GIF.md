@@ -5,7 +5,9 @@ Exemple de [création de boîte de dialogue](Dialog_creation/fr.md) avec [PySide
 
 Dans cet exemple, l\'interface entière est définie en [Python](Python/fr.md). Bien que cela soit possible pour les petites interfaces, pour les interfaces plus importantes, il est recommandé de créer des fichiers **.ui** via Qt Designer et de les charger dans le programme.
 
-## Boîte de dialogue avec image (QLabel) et GIF animé (QMovie) 
+
+
+## Fenêtre de dialogue avec image (QLabel) et GIF animé (QMovie) 
 
 
 ```python

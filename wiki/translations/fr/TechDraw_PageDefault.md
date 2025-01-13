@@ -75,13 +75,13 @@ L\'outil **TechDraw Page par défaut** crée un nouvel objet Page à l\'aide du 
 
 {{TitleProperty|Page}}
 
--    **KeepUpdated**: si la valeur est false, la page n\'est pas mise à jour avec les modifications apportées au modèle 3D. Utile pour les dessins compliqués/lents. Voir les Remarques.
+-    **KeepUpdated**: si la valeur est false, la page n\'est pas mise à jour avec les modifications apportées au modèle 3D. Utile pour les dessins compliqués/lents. Voir [Remarques](#Remarques.md).
 
 -    **Template**: lien vers l\'objet [Modèle](TechDraw_Templates/fr.md) de cette page.
 
 -    **Views**: liste de liens vers les vues sur cette page.
 
--    **Scale**: échelle par défaut pour les Vues dans cette page.
+-    **Scale**: échelle par défaut pour les vues dans cette page.
 
 -    **Next Balloon Index**: numérotation automatique des infobulles.
 
@@ -92,9 +92,9 @@ L\'outil **TechDraw Page par défaut** crée un nouvel objet Page à l\'aide du 
 
 {{TitleProperty|Grid}}
 
--    **Show Grid**: affiche une grille sur cette page. {{Version/fr|0.20}}
+-    **Show Grid**: affiche une grille sur cette page.
 
--    **Grid Spacing**: distance entre les lignes de la grille en mm. {{Version/fr|0.20}}
+-    **Grid Spacing**: distance entre les lignes de la grille en mm.
 
 
 

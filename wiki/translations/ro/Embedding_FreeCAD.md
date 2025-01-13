@@ -10,6 +10,8 @@ FreeCAD are capacitatea uimitoare de a fi importabil ca modul python în alte pr
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Utilizarea FreeCAD fără interfață grafică/GUI 
@@ -130,6 +132,8 @@ Bineînțeles, ați văzut că acest script este foarte simplu (de fapt am făcu
 checkout [Headless FreeCAD](Headless_FreeCAD.md) for running FreeCAD without the GUI.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Utilizarea FreeCAD cu interfață grafică(GUI) 
@@ -156,6 +160,8 @@ Cu toate acestea, pentru aplicațiile non-Qt există câteva limitări pe care t
 Notă, pentru orice aplicație consolă această soluție, această soluție, nu va funcționa deoarece nu este o funcționare în buclă de evenimente (event loop running) în acest sistem.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Avertismente
@@ -165,7 +171,9 @@ Notă, pentru orice aplicație consolă această soluție, această soluție, nu
 
 Deși este posibil să importați FreeCAD la un interpretor extern Python, acesta este un scenariu de utilizare obișnuit și necesită o atenție deosebită. În general, este mai bine să folosiți Python inclus în FreeCAD, via o linia de comandă sau ca pe un subproces. Vedeți [Start up and Configuration](Start_up_and_Configuration.md) pentru mai multe informații asupra ultimelor două opțiuni.
 
-Deoarece modulul FreeCAD Python este compilat din C ++ (mai degrabă decât de a fi un modul Python pur), acesta poate fi importat numai de la un interpretorul Python compatibil. În general, acest lucru înseamnă că interpretorul Python trebuie să fie compilat cu același compilator C, cum a fost cel folosit pentru a construi FreeCAD. Informații despre compilatorul folosit pentru a construi un interpretor Python (inclusiv cel construit cu FreeCAD), pot fi găsite la: 
+Deoarece modulul FreeCAD Python este compilat din C ++ (mai degrabă decât de a fi un modul Python pur), acesta poate fi importat numai de la un interpretorul Python compatibil. În general, acest lucru înseamnă că interpretorul Python trebuie să fie compilat cu același compilator C, cum a fost cel folosit pentru a construi FreeCAD. Informații despre compilatorul folosit pentru a construi un interpretor Python (inclusiv cel construit cu FreeCAD), pot fi găsite la:
+
+
 ```python
 >>> import sys
 >>> sys.version

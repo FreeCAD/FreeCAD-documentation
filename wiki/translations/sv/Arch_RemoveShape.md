@@ -12,15 +12,18 @@
 
 </div>
 
+
+
 ## Beskrivning
 
-This tool attempts at removing the inner cubic shape of an **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)** or **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)**, and adjusting its properties, making it totally parametric. This tool will only work if the underlying shape is cubic (exactly 6 faces, all corners have only right angles).
+The **Arch RemoveShape** tool attempts at removing the inner cubic shape of an [Arch Wall](Arch_Wall.md) or [Arch Structure](Arch_Structure.md), and adjusting its properties, making it totally parametric. This tool will only work if the underlying shape is cubic (exactly 6 faces, all corners have only right angles).
+
+
 
 ## Bruk
 
-1.  Select an **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)
-** or **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)**
-2.  Press the **<img src="images/Arch_RemoveShape.svg" width=16px>** button or use **Arch** → **Utilities** → **<img src="images/Arch_RemoveShape.svg" width=16px> [Remove Shape](Arch_RemoveShape.md)** from the top menu.
+1.  Select an [Arch Wall](Arch_Wall.md) or [Arch Structure](Arch_Structure.md).
+2.  Select the **Utils → <img src="images/Arch_RemoveShape.svg" width=16px> Remove Shape from Arch** option from the menu.
 
 ## Scripting
 
@@ -32,7 +35,9 @@ This tool attempts at removing the inner cubic shape of an **<img src="images/Ar
 
 </div>
 
-This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 removeShape(objs, mark=True)
 ```
@@ -71,6 +76,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/sv
+⏵ [documentation index](../README.md) > Arch RemoveShape/sv

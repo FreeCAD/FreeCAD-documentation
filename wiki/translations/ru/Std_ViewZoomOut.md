@@ -10,9 +10,13 @@
 
 # Std ViewZoomOut/ru
 
+
+
 ## Описание
 
 The **Std ViewZoomOut** command zooms out in the active [3D view](3D_view.md).
+
+
 
 ## Применение
 
@@ -20,35 +24,27 @@ The **Std ViewZoomOut** command zooms out in the active [3D view](3D_view.md).
     -   Select the **View → Zoom → <img src="images/Std_ViewZoomOut.svg" width=16px> Zoom Out** option from the menu.
     -   Use the keyboard shortcut: **Ctrl**+**-**.
 
+
+
 ## Примечания
 
--   It is also possible to zoom with the mouse scroll wheel.
+See [Std ViewZoomIn](Std_ViewZoomIn#Notes.md).
+
+
 
 ## Настройки
 
--   The zoom factor can be changed in the preferences: **Edit → Preferences... → Display → Navigation → Zoom step**. This setting also affects scroll wheel zoom. See [Preferences Editor](Preferences_Editor#Navigation.md).
+See [Std ViewZoomIn](Std_ViewZoomIn#Preferences.md).
 
 ## Scripting
 
-
-**Смотрите так же:**
-
-[Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
-
-To zoom out use the `zoomOut` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.zoomOut()
-```
+See [Std ViewZoomIn](Std_ViewZoomIn#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

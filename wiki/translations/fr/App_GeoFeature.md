@@ -11,19 +11,23 @@ Un objet [App GeoFeature](App_GeoFeature/fr.md), ou officiellement `App::GeoFeat
 
 *Diagramme simplifié des relations entre les objets centraux dans Freecad*
 
+
+
 ## Utilisation
 
 [App GeoFeature](App_GeoFeature/fr.md) est un objet interne, il ne peut donc pas être créé à partir de l\'interface graphique. Il n\'est généralement pas destiné à être utilisé directement, mais il peut plutôt être sous-classé pour obtenir un objet nu qui n\'a qu\'une propriété **Placement** de base pour définir sa position dans la [vue 3D](3D_view/fr.md).
 
-Certains des objets dérivés les plus importants sont les suivants:
+Certains des objets dérivés les plus importants sont les suivants :
 
 -   La classe [Part Feature](Part_Feature/fr.md), le parent de la plupart des objets 2D et 3D [formes topologiques](Part_TopoShape/fr.md).
 -   La classe [Mesh Feature](Mesh_Feature/fr.md), le parent de la plupart des objets fabriqués à partir de [maillages](Mesh_MeshObject/fr.md), pas des solides.
 -   La classe [Fem FemMeshObject](FEM_Mesh/fr.md), le parent des maillages d\'éléments finis créés avec l\'[atelier FEM](FEM_Workbench/fr.md).
--   La classe [Path Feature](Path_Feature/fr.md), le parent des chemins créés avec l\'[atelier Path](Path_Workbench/fr.md) pour une utilisation dans l\'usinage CNC.
--   La classe [App Part](App_Part/fr.md), qui définit [Std Parts](Std_Part/fr.md) qui peut être utilisée comme conteneurs de corps pour effectuer des assemblages.
+-   La classe [CAM Feature](CAM_Feature/fr.md), le parent des chemins créés avec l\'[atelier CAM](CAM_Workbench/fr.md) pour une utilisation dans l\'usinage CNC.
+-   La classe [App Part](App_Part/fr.md), qui définit les [Std Parts](Std_Part/fr.md) qui peuventt être utilisés comme conteneurs de corps pour effectuer des assemblages.
 
 Lorsque vous créez cet objet dans [Python](Python/fr.md), au lieu de sous-classer `App::GeoFeature`, vous devez sous-classer `App::GeometryPython` car ce dernier inclut une valeur par défaut fournisseur de vues et attributs `Proxy` pour l\'objet lui-même et son fournisseur de vues. Voir [Script](App_GeoFeature/fr#Script.md).
+
+
 
 ## Propriétés App GeoFeature 
 
@@ -31,13 +35,17 @@ Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les 
 
 [App GeoFeature](App_GeoFeature/fr.md) (classe `App::GeoFeature`) est dérivée de la classe de base [App DocumentObject](App_DocumentObject/fr.md). (classe `App::DocumentObject`) et hérite de toutes ses propriétés. En outre, il possède une propriété **Placement**, qui contrôle sa position dans la [vue 3D](3D_view.md).
 
+
+
 ## Propriétés App GeometryPython 
 
 Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les objets scriptés peuvent avoir.
 
 La classe [App GeometryPython](App_GeoFeature/fr.md) (classe `App::GeometryPython`) est dérivée de la classe de base [App GeoFeature](App_GeoFeature/fr.md) (classe `App::GeoFeature`) et hérite de toutes ses propriétés. Elle possède également plusieurs propriétés supplémentaires.
 
-Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](Property_editor/fr.md).
+Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Tout afficher** dans le menu contextuel de l\'[éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ### Données
 
@@ -70,6 +78,8 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property
 -    **Expression Engine|ExpressionEngine|Hidden**: une liste d\'expressions. Par défaut, elle est vide {{value|[]}}.
 
 -    **Visibility|Bool|Hidden**: affichage ou non de l\'objet.
+
+
 
 ### Vue
 
@@ -106,6 +116,8 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property
 -    **Selectable|Bool**: s\'il est `True`, l\'objet peut être sélectionné avec le pointeur dans la [Vue 3D](3D_view/fr.md). Sinon, l\'objet ne peut pas être sélectionné tant que cette option n\'est pas définie sur `True`.
 
 -    **Selection Style|Enumeration**: voir les informations dans [App FeaturePython](App_FeaturePython/fr.md).
+
+
 
 ## Script
 

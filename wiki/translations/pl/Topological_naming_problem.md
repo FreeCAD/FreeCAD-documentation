@@ -9,11 +9,13 @@ Problem z **nazewnictwem topologicznym** w programie FreeCAD odnosi się do kwes
 -   W środowisku pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), jeśli element jest obsługiwany na powierzchni *(lub krawędzi lub wierzchołku)*, element może zostać uszkodzony, jeśli bazowa bryła zmieni rozmiar lub orientację, ponieważ oryginalna powierzchnia *(lub krawędź lub wierzchołek)* może zostać wewnętrznie przemianowana.
 -   W przypadku środowiska <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md), jeżeli wymiar mierzy długość rzutowanej krawędzi, wymiar może zostać uszkodzony, jeżeli model 3D zostanie zmodyfikowany, ponieważ wierzchołki mogą zostać przemianowane, zmieniając w ten sposób mierzoną krawędź.
 
-Kwestia nazewnictwa topologicznego jest złożonym problemem w modelowaniu CAD, który wynika ze sposobu, w jaki wewnętrzne procedury programu FreeCAD obsługują aktualizacje kształtów geometrycznych utworzonych za pomocą [jądra OCCT](OpenCASCADE/pl.md). Od wersji FreeCAD 0.19 trwają prace nad poprawą obsługi kształtów w celu zmniejszenia lub wyeliminowania tego typu problemów.
+Kwestia nazewnictwa topologicznego jest złożonym problemem w modelowaniu CAD, który wynika ze sposobu, w jaki wewnętrzne procedury programu FreeCAD obsługują aktualizacje kształtów geometrycznych utworzonych za pomocą [jądra OCCT](OpenCASCADE/pl.md). Ten problem nie występuje tylko we FreeCAD. Jest on ogólnie obecny w oprogramowaniu CAD, ale większość innych środowisk tego typu używa heurystyk do redukcji wpływu tego problemu na użytkowników.
 
--   Wątek na forum: [Nazewnictwo topologiczne, Moje spojrzenie](https://forum.freecadweb.org/viewtopic.php?t=27278)
+Od wersji FreeCAD 0.19 trwają prace nad poprawą obsługi kształtów poprzez dodawanie heurystyk, które zmniejszają wpływ tego typu problemów. [Algorytm nazewnictwa](#Topological_naming_algorithm/pl.md) został zaprojektowany aby zredukować potrzebę ręcznych działań, czasem poprzez automatyczne naprawienie problemów, innym razem prezentując prawdopodobne rozwiązanie a w innych przypadkach chociaż jasno pokazując co spowodowało problem. Pierwsza stabilna wersja programu FreeCAD zawierająca ten nowy algorytm nazewnictwa to 1.0. Z czasem ten algorytm zostanie zastosowany do innych części programu i pojawi się więcej automatycznych i wspieranych napraw w kolejnych wersjach.
 
 Problem nazewnictwa topologicznego najczęściej dotyka i dezorientuje nowych użytkowników programu FreeCAD. W środowisku Projekt Części użytkownik powinien stosować się do najlepszych praktyk omówionych na stronie [Edycja cech](Feature_editing/pl.md). Użycie obiektów [płaszczyzny](PartDesign_Plane/pl.md) oraz [lokalne układy współrzędnych](PartDesign_CoordinateSystem/pl.md) jest zalecane do tworzenia modeli, które nie są podatne na tego typu błędy topologiczne. W środowisku Rysunek Techniczny, użytkownik powinien dodawać wymiary tylko wtedy, gdy model 3D jest kompletny i nie będzie dalej modyfikowany.
+
+
 
 ## Przykład
 
@@ -65,13 +67,15 @@ Wydaje się, że problem polega na tym, że gdy zmodyfikowano drugi szkic, nazwa
 
 Przemapowanie szkicu w ten sposób może być wykonywane za każdym razem, gdy wystąpi błąd nazewnictwa topologicznego, jednak może to być uciążliwe, jeśli model jest skomplikowany i jest wiele takich szkiców, które wymagają korekty.
 
+
+
 ## Rozwiązanie
 
 ![](images/FreeCAD_topological_problem_16_dependency_graph.png )
 
 [Graf zależności](Std_DependencyGraph/pl.md) jest narzędziem, które jest pomocne w obserwowaniu zależności pomiędzy różnymi zawartościami w dokumencie. Użycie oryginalnego przepływu pracy modelowania ujawnia bezpośrednią zależność, jaka istnieje między szkicami a wyciągnięciami. Podobnie jak w przypadku łańcucha, łatwo zauważyć, że ta bezpośrednia zależność będzie podlegała problemom z nazewnictwem topologicznym, jeśli któreś z ogniw sekwencji ulegnie zmianie.
 
-Jak wyjaśniono na stronie [Edycja cech](Feature_editing/pl.md), rozwiązaniem tego problemu jest obsługa szkiców nie na powierzchniach, lecz na płaszczyznach odniesienia, które są dołączone i odsunięte od głównych płaszczyzn położenia odniesienia [zawartości](PartDesign_Body/pl.md).
+Jak wyjaśniono na stronie [Edycja cech](Feature_editing/pl.md), rozwiązaniem tego problemu jest bazowanie szkiców nie na powierzchniach, lecz na płaszczyznach globalnego układu współrzędnych [Zawartości](PartDesign_Body/pl.md) lub płaszczyznach konstrukcyjnych dołączonych do tych globalnych płaszczyzn. Używanie płaszczyzn konstrukcyjnych do bazowania pojedynczego szkicu, jak to opisano poniżej, nie jest właściwie konieczne, ponieważ sam szkic może być bezpośrednio dołączony do płaszczyzny globalnej i ma takie same opcje odsunięcia jak płaszczyzna konstrukcyjna. Ale korzystanie z płaszczyzn konstrukcyjnych może mieć sens w przypadku pozycjonowania wielu szkiców.
 
 1\. Zaznacz punkt położenie odniesienia [Zawartości](PartDesign_Body/pl.md) i upewnij się, że jest on widoczny. Następnie wybierz płaszczyznę XY i kliknij w narzędzie [Płaszczyzna](PartDesign_Plane/pl.md). W oknie dialogowym Odsunięcie dołączenia nadaj jej odsunięcie w kierunku Z, tak aby płaszczyzna odniesienia była współpłaszczyznowa z górną powierzchnią pierwszego wyciągnięcia.
 
@@ -100,7 +104,9 @@ Jak wyjaśniono na stronie [Edycja cech](Feature_editing/pl.md), rozwiązaniem t
 
 <img alt="" src=images/FreeCAD_topological_problem_21_independent_solids_all.png  style="width:" height="400px;">
 
-## Uwagi końcowe 
+
+
+## Kompromisy
 
 Dodawanie obiektów punktów odniesienia wymaga więcej pracy od użytkownika, ale w efekcie końcowym daje bardziej stabilne modele, które w mniejszym stopniu podlegają problemowi nazewnictwa topologicznego.
 
@@ -110,13 +116,30 @@ Płaszczyzny odniesienia mogą być także oparte na innych płaszczyznach odnie
 
 Obiekty układu odniesienia, [punkty](PartDesign_Point/pl.md), [linie](PartDesign_Line/pl.md), [płaszczyzny](PartDesign_Plane/pl.md) oraz [układy współrzędnych](PartDesign_CoordinateSystem/pl.md), mogą być również przydatne jako geometria odniesienia, czyli jako pomoce wizualne pokazujące ważne cechy modelu, nawet jeśli nie jest do nich bezpośrednio dołączony żaden szkic.
 
+
+
+## Algorytm TNP 
+
+Algorytm TNP autorstwa Realthundera opisany w wątku [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278) na forum, który został wybrany do redukcji wpływu problemu gubienia odniesień, został szeroko przedstawiony jako \"naprawiający problem gubienia odniesień\". To niezamierzenie wprowadziło w błąd wielu użytkowników, sugerując, że korzystanie z technik takich jak geometrie konstrukcyjne, jawne pozycjonowanie szkiców i [edycja cech](Feature_editing/pl#Porady_dotyczące_tworzenia_stabilnych_modeli.md) nie będą już przydatne do tworzenia bardziej stabilnych modeli. Ten algorytm nie ma naprawiać każdego błędu wprowadzonego przez niejasność nazewnictwa topologicznego. Ma za to trzy cele.
+
+1.  Pierwszy i najważniejszy cel to, gdy tylko możliwe, **identyfikacja** zepsutych odniesień ze zmian topologicznych i wyświetlanie błędu użytkowników. Zamiast konieczności przechodzenia przez szereg operacji aby znaleźć pierwszą operację, która odbiega od celu projektu, operacja, która zmienia nazwy będzie automatycznie oznaczona błędem, ułatwiając znacznie ręczną naprawę problemów modelu wprowadzonych przez zmiany w operacjach lub parametrach.
+2.  Niekiedy FreeCAD będzie w stanie zidentyfikować **prawdopodobną** poprawkę dla zepsutego odniesienia, tak że gdy użytkownik ręcznie naprawia oznaczone zepsute odniesienie, zaprezentowany będzie kandydat do zaakceptowania lub odrzucenia. Częstym przykładem są operacje kosmetyczne, takie jak zaokrąglenia i sfazowania, gdzie użytkownik może musieć edytować operację i albo zaakceptować proponowany wybór zastąpienia cechy albo zmienić go aby dokonać naprawy.
+3.  W niektórych przypadkach, FreeCAD będzie w stanie **automatycznie** naprawić zepsute odniesienia, ponieważ wystarczające informacje o odniesieniu są przechowywane aby mieć dużą pewność, że zastąpienie jest prawidłowe. Przykładowo, podczas szkicowania bezpośrednio na ścianie, algorytm często (ale nie zawsze) prawidłowo naprawi odniesienie do ściany gdy geometria pod spodem jest zmieniana parametrycznie (przy zmienianiu struktury, jak dodawanie lub usuwanie operacji ze środka Zawartości środowiska Projekt Części taka automatyczna naprawa będzie mniej prawdopodobna). Ale FreeCAD zrobi to tylko z dużą pewnością poprawności naprawy, ponieważ błędna automatyczna naprawa może ponownie wprowadzić problem konieczności poszukiwania gdzie problem został wprowadzony aby naprawić modelu po modyfikacji. *Po pierwsze, nie szkodzić.*
+
+We FreeCAD 1.0 implementacja tego algorytmu w oficjalnym wydaniu programu osiągnęła poziom funkcjonalności wersji Linkstage 3 użytkownika Realthunder (w której pierwotnie stworzył algorytm) na moment rozpoczęcia prac nad integracją. Istnieją nowe funkcje programu FreeCAD, które mogłyby korzystać z algorytmu, ale jeszcze tego nie robią i zawsze będzie więcej okazji do dodania poprawek kandydatów i automatycznych napraw. Początkowa praca zaowocowała *fundamentem* do wprowadzenia tych dodatkowych usprawnień z czasem, zarówno w samym programie FreeCAD, jak i w dodatkach do niego.
+
+
+
 ## Odnośniki internetowe 
 
 -   [Projekt części: Zaokrąglenie - Nazewnictwo topologiczne](PartDesign_Fillet/pl#Nazewnictwo_topologiczne.md).
--   [Nazewnictwo topologiczne, moje zdanie](https://forum.freecadweb.org/viewtopic.php?t=27278): możliwe rozwiązanie, autor: realthunder.
+-   [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278): możliwe rozwiązanie, autor: realthunder.
 -   [Projekt nazewnictwa topologicznego](Topological_Naming_Project/pl.md): pomysł na rozwiązanie problemu, autorstwa ickby.
 -   [Skrypty danych topologicznych](Topological_data_scripting/pl.md).
 -   [Edycja cech](Feature_editing/pl.md): zawiera alternatywne porady dotyczące stabilnych technik modelowania.
+-   [Clarifying and expanding \"Topological Naming Problem\" documentation](https://forum.freecad.org/viewtopic.php?p=770360): Wyjaśnianie oczekiwań dla algorytmu TNP Realthundera wybranego do FreeCAD 1.0.
+
+
 
 ## Filmy
 

@@ -3,7 +3,7 @@
    Name: Std ReportBug
    Name/pl: Std: Zgłoś błąd
    MenuLocation: Pomoc , Zgłoś błąd
-   Workbenches: wszytkie
+   Workbenches: Wszystkie
    Version: 0.20
 ---
 
@@ -21,13 +21,13 @@ Obecnie polecenie wskazuje na stronę [<https://github.com/FreeCAD/FreeCAD/issue
 
 ## Użycie
 
-1.  Wybierz opcję z menu **Pomoc → <img src="images/Std_ReportBug.svg" width=16px> Zgłoś błąd**.
+1.  Wybierz opcję **Pomoc → <img src="images/Std_ReportBug.svg" width=16px> Zgłoś błąd** z menu.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

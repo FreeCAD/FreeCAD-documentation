@@ -24,8 +24,8 @@ Non confondere questo comando con il comando [Modalità modifica](Std_Edit/it.md
 *Un esempio per dimostrare il comando:*
 
 1.  Passare all\'ambiente <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Mesh](Mesh_Workbench/it.md).
-2.  Selezionare l\'opzione **Mesh → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Solido regolare...** dal menu.
-3.  Si apre la finestra di dialogo Solido regolare.
+2.  Premere il pulsante **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Solido regolare...](Mesh_BuildRegularSolid/it.md)**.
+3.  Si apre la finestra di dialogo **Solido regolare**.
 4.  Scegliere **Ellissoide** dall\'elenco a discesa.
 5.  Premere il pulsante **Crea**.
 6.  Premere il pulsante **Chiudi** per chiudere la finestra di dialogo.
@@ -35,7 +35,7 @@ Non confondere questo comando con il comando [Modalità modifica](Std_Edit/it.md
 10. Fare clic con il tasto destro e scegli **Interno** dal menu contestuale.
 11. Il risultato è una mesh aperta con un contorno.
 12. Assicurarsi che la mesh sia ancora selezionata.
-13. Selezionare l\'opzione **Meshes → <img src="images/Mesh_AddFacet.svg" width=16px> Aggiungi triangolo** dal menu per invocare il comando [Aggiungi triangolo](Mesh_AddFacet/it.md).
+13. Premere il pulsante **<img src="images/Mesh_AddFacet.svg" width=16px> [Aggiungi triangolo](Mesh_AddFacet/it.md)** per avviare il comando [Aggiungi triangolo](Mesh_AddFacet/it.md).
 14. Se si passa con il mouse su un punto di confine, apparirà un indicatore giallo e un clic sinistro lo selezionerà.
 15. Facoltativamente, selezionare altri due punti e aggiungere un triangolo alla mesh.
 16. Ora ci si trova in modalità di modifica ed è impossibile ruotare o eseguire una panoramica della vista 3D, sebbene lo zoom funzioni ancora.
@@ -53,7 +53,7 @@ Non confondere questo comando con il comando [Modalità modifica](Std_Edit/it.md
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

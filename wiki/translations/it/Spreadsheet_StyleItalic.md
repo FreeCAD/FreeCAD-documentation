@@ -1,9 +1,10 @@
 ---
  GuiCommand:
-   Name: Spreadsheet_StyleItalic
-   Name/it: Corsivo
+   Name: Spreadsheet StyleItalic
+   Name/it: Spreadsheet Stile corsivo
+   MenuLocation: Foglio di calcolo , Stili , Corsivo
    Workbenches: Spreadsheet_Workbench/it
-   MenuLocation: Spreadsheet , Stile , Corsivo
+   Shortcut: **Ctrl**+**I**
    Version: 0.17
 ---
 
@@ -13,15 +14,18 @@
 
 ## Descrizione
 
-Lo strumento <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:16px;"> **Corsivo** fa in modo che il testo all\'interno della cella adotti lo stile *corsivo*.
+Lo strumento <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> **Spreadsheet Stile corsivo** commuta il contenuto delle celle selezionate in/da corsivo.
 
 
 
 ## Utilizzo
 
-1.  Accertarsi che sia attivo un <img alt="" src=images/_Spreadsheet_CreateSheet.svg  style="width:16px;"> [Foglio di calcolo](Spreadsheet_CreateSheet/it.md) in modo che il pulsante sia abilitato.
-2.  Selezionare una cella.
-3.  Premere il pulsante **[<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> Corsivo**.
+1.  Assicurarsi che ci sia un [foglio di calcolo](Spreadsheet_CreateSheet/it.md) attivo.
+2.  Selezionare una o più celle.
+3.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **[<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [Corsivo](Spreadsheet_StyleItalic/it.md)**.
+    -   Selezionare l\'opzione **Foglio di calcolo → Stili → [<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> Corsivo** dal menu.
+    -   Usare la scorciatoia da tastiera: **Ctrl**+**I**. {{Version/it|1.1}}
 
 
 

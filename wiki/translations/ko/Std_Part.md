@@ -9,12 +9,14 @@
 
 # Std Part/ko
 
-## Description
 
 
-**[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)**
+## 설명
 
-(internally called [App Part](App_Part.md)) is a general purpose container that keeps together a group of objects so that they can be moved together as a unit in the [3D view](3D_view.md).
+
+**[<img src=images/Std_Part.svg style="width:16px"> 부품그릇**
+
+(내부적으로 [App Part라고](App_Part.md) 함)은 여러 개체를 한 곳에 담아 [3D 보기에서](3D_view/ko.md) 한번에 이동할 수 있게 하는 다목적 그릇입니다.
 
 The Std Part element was developed to be the basic building block to create mechanical [assemblies](assembly.md). In particular, it is meant to arrange objects that have a [Part TopoShape](Part_TopoShape.md), like [Part Primitives](Part_Primitives.md), [PartDesign Bodies](PartDesign_Body.md), and other [Part Features](Part_Feature.md). The Std Part provides an [Origin object](#Origin.md) with local X, Y, and Z axes, and standard planes, that can be used as reference to position the contained objects. In addition, Std Parts may be nested inside other Std Parts to create a big assembly from smaller sub-assemblies.
 
@@ -128,7 +130,7 @@ An open document can contain multiple Parts. But only one Part can be active. Th
 To activate or de-activate a Part:
 
 -   Double click on it on the [Tree view](Tree_view.md), or
--   Open the context menu (right click) and select **Toggle active part**.
+-   Open the context menu (right click) and select **Active object**.
 
 ![](images/Std_Part_active.png )
 
@@ -198,10 +200,10 @@ class MyGroup(object):
         if obj:
             self.attach(obj)
 
-    def __getstate__(self):
+    def dumps(self):
         return
 
-    def __setstate__(self, _state):
+    def loads(self, _state):
         return
 
     def attach(self, obj):
@@ -223,16 +225,16 @@ class ViewProviderMyGroup(object):
         vobj.addExtension("Gui::ViewProviderOriginGroupExtensionPython")
         self.ViewObject = vobj
 
-    def __getstate__(self):
+    def dumps(self):
         return None
 
-    def __setstate__(self, _state):
+    def loads(self, _state):
         return None
 
 App.ActiveDocument.addObject("Part::FeaturePython",
                              "Group",
-                             group.MyGroup(),
-                             group.ViewProviderMyGroup(),
+                             MyGroup(),
+                             ViewProviderMyGroup(),
                              True)
 ```
 

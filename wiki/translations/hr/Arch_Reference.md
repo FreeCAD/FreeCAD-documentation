@@ -7,13 +7,13 @@
 
 ## Description
 
-<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
+The **Arch Reference tool** allows you to place an object in the current document that copies its shape and colors from a [Part](Part_Workbench.md)-based object (including [Arch BuildingPart](Arch_BuildingPart.md)) stored in another FreeCAD file. If that FreeCAD file changes, the reference object is marked to be reloaded.
 
-The Reference tool allows you to place an object in the current document that copies its shape and colors from a [Part](Part_Workbench.md)-based object (including [Arch BuildingPart](Arch_BuildingPart.md)) stored in another FreeCAD file. If that FreeCAD file changes, the reference object is marked to be reloaded.
+<img alt="" src=images/Arch_reference_screenshot.png  style="width:600px;">
 
 ## Usage
 
-1.  Press the **<img src="images/Arch_Reference.svg" width=16px> '''Arch Reference'''** button,
+1.  Press the **<img src="images/Arch_Reference.svg" width=16px> [External reference](Arch_Reference.md)** button,
 2.  Press the \"Choose file\...\" button and select an existing FreeCAD file,
 3.  Select one of the included Part-based objects from the drop-down list,
 4.  Press **OK**.
@@ -36,20 +36,32 @@ The Reference tool allows you to place an object in the current document that co
 
 ## Scripting
 
-The Reference tool can by used in [macros](macros.md) and from the python console by using the following function: 
+The Reference tool can by used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
-makeReference ([file_path,object_name])
+reference = makeReference([filepath], [partname], [name])
 ```
 
-creates a Reference object from the given object in the given file.
+Creates a `reference` object named `name` from the object `partname` in the file `filepath`. All arguments are optional.
 
-Primjer: 
+Primjer:
+
+
 ```python
 import Arch
-Arch.makeReference("/path/to/some/file.FSCtd","myPart")
+Arch.makeReference("/path/to/some/file.FSCtd", "myPart")
 ```
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/hr
+⏵ [documentation index](../README.md) > Arch Reference/hr

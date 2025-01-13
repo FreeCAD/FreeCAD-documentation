@@ -17,25 +17,25 @@ Se avete scritto una macro e volete includerla in una delle categorie su questa 
 
 <div class="mw-collapsible-content">
 
--    <img style="width:16px;" src="images/Macro_Align_Face_Object_to_View.png"> [Macro Allinea la faccia dell'oggetto alla vista](Macro_Align_Face_Object_to_View/it.md): questa macro allinea la vista corrente a una faccia selezionata.
+-    <img style="width:16px;" src="images/Macro_Align_Face_Object_to_View.png"> [Macro Align Face Object to View](Macro_Align_Face_Object_to_View/it.md): Questa macro allinea la vista corrente a una faccia selezionata.
 
--    <img style="width:16px;" src="images/Macro_Align_View_to_Face.png"> [Macro Align View to Face](Macro_Align_View_to_Face.md): This macro aligns the current view to a selected face.
+-    <img style="width:16px;" src="images/Macro_Align_View_to_Face.png"> [Macro Align View to Face](Macro_Align_View_to_Face/it.md): Questa macro allinea la vista corrente a una faccia selezionata.
 
--    <img style="width:16px;" src="images/Macro_Copy3DViewToClipboard.png"> [Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md): Copy contents of 3DView resized 640, 480 px to clipboard.
+-    <img style="width:16px;" src="images/Macro_Copy3DViewToClipboard.png"> [Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard/it.md): Copia negli appunti il ​​contenuto di 3DView ridimensionato a 640, 480 px.
 
--    <img style="width:16px;" src="images/FCCamera_00.png"> [Macro FCCamera](Macro_FCCamera.md): This macro can rotate the screen in a defined angle and the defined axis and creates a plan to face the screen to create a form in the specified plan positions the selected face facing the screen, to detect the position of the camera.
+-    <img style="width:16px;" src="images/FCCamera_00.png"> [Macro FCCamera](Macro_FCCamera/it.md): Questa macro può ruotare lo schermo di un angolo definito e rispetto ad un asse definito in modo da creare un piano su cui affacciare lo schermo e creare una forma nel piano specificato posizionando la faccia selezionata di fronte allo schermo, e rilevare la posizione della telecamera.
 
--    <img style="width:16px;" src="images/Macro_Mouse_Cross.png"> [Macro Mouse Cross](Macro_Mouse_Cross.md): This small macro turns the arrow of the mouse in a precision cross.
+-    <img style="width:16px;" src="images/Macro_Mouse_Cross.png"> [Macro Mouse Cross](Macro_Mouse_Cross/it.md): Questa piccola macro trasforma la freccia del mouse in una croce di precisione.
 
--    <img style="width:16px;" src="images/Macro_Rotate_View_view_90_Degrees.png"> [Macro Rotate View](Macro_Rotate_View.md): This macro rotates the current view by 90° to the left. Only works if you are in ![Std_ViewTop\|16px\|link=Std_ViewTop](images/View-top.svg ) [XY (top)](Std_ViewTop.md) view.
+-    <img style="width:16px;" src="images/Macro_Rotate_View_view_90_Degrees.png"> [Macro Rotate View](Macro_Rotate_View/it.md): Questa macro ruota la vista corrente di 90° a sinistra. Funziona solo se si è nella visualizzazione ![Std_ViewTop\|16px\|link=Std_ViewTop](images/View-top.svg ) [XY (in alto)](Std_ViewTop/it.md).
 
--    <img style="width:16px;" src="images/Text_console_python.png"> [Macro Rotate View Free](Macro_Rotate_View_Free.md): This macro is used in the Python console and rotates the current view in the angle and plane given.
+-    <img style="width:16px;" src="images/Text_console_python.png"> [Macro Rotate View Free](Macro_Rotate_View_Free/it.md): Questa macro viene utilizzata nella console Python e ruota la vista corrente nell\'angolo e nel piano indicati.
 
--    <img style="width:16px;" src="images/Macro_Rotate_View_with_Y_pointing_upwards_.png"> [Macro Rotate ViewAxonometric](Macro_Rotate_ViewAxonometric.md): This macro rotates the current view in View Axonometric.
+-    <img style="width:16px;" src="images/Macro_Rotate_View_with_Y_pointing_upwards_.png"> [Macro Rotate ViewAxonometric](Macro_Rotate_ViewAxonometric/it.md): Questa macro ruota la vista corrente in Vista Assonometrica.
 
--    <img style="width:16px;" src="images/Macro_Screen_Wiki.png"> [Macro Screen Wiki](Macro_Screen_Wiki.md): This macro allows to save the 3D view in the desired format. The 3D view or the full 3D window of FreeCAD takes the desired dimensions.
+-    <img style="width:16px;" src="images/Macro_Screen_Wiki.png"> [Macro Screen Wiki](Macro_Screen_Wiki/it.md): Questa macro consente di salvare la Vista 3D nel formato desiderato. La Vista 3D o la finestra 3D completa di FreeCAD assume le dimensioni desiderate.
 
--    <img style="width:16px;" src="images/Snip.png"> [Macro Snip](Macro_Snip.md): Easily post screenshots to the FreeCAD forum.
+-    <img style="width:16px;" src="images/Snip.png"> [Macro Snip](Macro_Snip/it.md): Pubblica facilmente screenshot sul forum di FreeCAD.
 
 -    <img style="width:16px;" src="images/Macro_View_Rotation.png"> [Macro View Rotation](Macro_View_Rotation.md): Provides a GUI to permit rotation of view by precise amounts in all three directions.
 
@@ -52,13 +52,7 @@ Se avete scritto una macro e volete includerla in una delle categorie su questa 
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### ![](images/Draft_FlipDimension.svg ) Animazioni 
-
-
-</div>
+### <img alt="" src=images/Draft_FlipDimension.svg  style="width:32px;"> Animazioni 
 
 
 <div class="mw-collapsible-content">
@@ -100,6 +94,8 @@ Se avete scritto una macro e volete includerla in una delle categorie su questa 
 
 
 <div class="mw-collapsible-content">
+
+-    <img style="width:16px;" src="images/Text-x-python.png"> [FreeCAD Manual Converter](FreeCAD_Manual_Converter.md): Python script that automatically generates PDF and EPUB versions of the [FreeCAD Manual](Manual_Introduction.md).
 
 -    <img style="width:16px;" src="images/Macro_Build_Utility.png"> [Macro Build Utility](Macro_Build_Utility.md): This macro provides a utility to assemble a project from sub-project files using the Merge Project facility.
 
@@ -146,6 +142,8 @@ Se avete scritto una macro e volete includerla in una delle categorie su questa 
 <div class="mw-collapsible-content">
 
 -    <img style="width:16px;" src="images/Applications-python.svg"> [Macro 3DXML import](Macro_3DXML_import.md): Imports a 3DXML-ascii file into FreeCAD, limited functionality.
+
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Macro Batch export to mesh](Macro_Batch_Export_To_Mesh.md): Helps batch exporting STL and OBJ files. It adds a GUI for speeding up the conversion and file saving of selected objects.
 
 -    <img style="width:16px;" src="images/Macro_Compound_Plus.png"> [Macro Compound Plus](Macro_Compound_Plus.md): Draft command set in a small macro for the 2D sketch example: work with the DXF files.
 
@@ -241,8 +239,6 @@ Se avete scritto una macro e volete includerla in una delle categorie su questa 
 
 -    <img style="width:16px;" src="images/Text-x-python.png"> [Macro export transient FEM results](Macro_export_transient_FEM_results.md): This macro exports multiple FEM result objects from a transient analysis to the VTK format and generates a PVU file which can be used to load the results directly into ParaView for post-processing.
 
--    <img style="width:16px;" src="images/Macro_GMSH.png"> [Macro GMSH](Macro_GMSH.md): Create FEM Meshes by GMSH Mesh Generator.
-
 
 </div>
 
@@ -304,8 +300,6 @@ Se avete scritto una macro e volete includerla in una delle categorie su questa 
 -    <img style="width:16px;" src="images/Macro_FC_element_selector.png"> [Macro FC element selector](Macro_FC_element_selector.md): This macro display all elements below cursor same \"Macro Mouse over cb\" with GUI (elements covered by other elements will also be displayed).
 
 -    <img style="width:16px;" src="images/FCInfo.png"> [Macro FCInfo](Macro_FCInfo.md): Gives a series of information about the selected shape and can display a conversion of length, inclination (degrees, radian, grade) shape, surface, volume and the weight of the form in the density selected in various international and Anglo-Saxon units.
-
--    <img style="width:16px;" src="images/FCInfo.png"> [Macro FCInfo Alternate Linux](Macro_FCInfo_Alternate_Linux.md): Same as above, but for Linux (obsolete).
 
 -    <img style="width:16px;" src="images/FCInfoToolBar.png"> [Macro FCInfo ToolBar](Macro_FCInfo_ToolBar.md): Gives a series of information about the selected shape as FCInfo in a mini ToolBar.
 
@@ -461,9 +455,9 @@ Se avete scritto una macro e volete includerla in una delle categorie su questa 
 
 -    <img style="width:16px;" src="images/FCCreaLoft.png"> [Macro Loft](Macro_Loft.md): Create a loft with a list of wire (specially created for [Macro Texture](Macro_Texture.md)).
 
--    <img style="width:16px;" src="images/Macro_makeCube.png"> [Macro Make Cube](Macro_Make_Cube.md): Creates a [rectangular cuboid](http://en.wikipedia.org/wiki/Cuboid) from 4 points.
-
 -    <img style="width:16px;" src="images/Applications-python.svg"> [Macro Place Image](Macro_Place_Image.md): Creates an [ImagePlane](Image_CreateImagePlane.md) and aligns it to an existing [Draft Rectangle](Draft_Rectangle.md).
+
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Macro Points to Splines](Macro_Points_to_Splines.md): Creates splines from Points object sections.
 
 -    <img style="width:16px;" src="images/Dodecahedron.svg"> [Macro Polyhedrons](Macro_Polyhedrons.md): This macro creates parametric polyhedrons (dodecahedron, icosahedron, tetrahedron, \...). Customizable via radius or side.
 
@@ -503,6 +497,8 @@ Se avete scritto una macro e volete includerla in una delle categorie su questa 
 
 <div class="mw-collapsible-content">
 
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Macro Align Object BoundBox Center](Macro_Align_Object_BoundBox_Center.md): Aligns 2 (or more) objects by the center of their bounding boxes.
+
 -    <img style="width:16px;" src="images/Macro_Align_Object_to_View.png"> [Macro Align Object to View](Macro_Align_Object_to_View.md): This macro align the selected object to the current View and set the coordinates Placement of the camera.
 
 -    <img style="width:16px;" src="images/Macro_ArrayCopy.png"> [Macro ArrayCopy](Macro_ArrayCopy.md): Copies the selected object several times, on an array grid.
@@ -522,8 +518,6 @@ Se avete scritto una macro e volete includerla in una delle categorie su questa 
 -    <img style="width:16px;" src="images/Macro_FlattenWire3Points.png"> [Macro FlattenWire3Points](Macro_FlattenWire3Points.md): Flattens draft wires that are not planar to a plane defined by 3 points.
 
 -    <img style="width:16px;" src="images/Macro_HealArcs.png"> [Macro HealArcs](Macro_HealArcs.md): Sometimes arcs are transformed into BSplines, for example when scale operations have been applied to them. This macro recreates valid arcs from them. Useful before exporting to dxf.
-
--    <img style="width:16px;" src="images/Image_Scaling.svg"> [Macro Image Scaling](Macro_Image_Scaling.md): Macro for easy scaling drawings, graphics, diagram, blueprint and similar 2D images in Image workbench.
 
 -    <img style="width:16px;" src="images/Macro_JointWire.png"> [Macro JointWire](Macro_JointWire.md): Allows to find and joint all non connected edge to the closest non connected one using a line.
 
@@ -695,13 +689,15 @@ Se avete scritto una macro e volete includerla in una delle categorie su questa 
 
 <div class="mw-collapsible-content">
 
--    <img style="width:16px;" src="images/aliasmanager_icon.png"> [Macro Alias Manager](Macro_Alias_Manager.md): Helps managing aliases inside FreeCAD Spreadsheet workbench. It is able to create, delete, move aliases and create a \'part family\' group of files.
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Macro Alias For Table For Object](Macro_Alias_For_Table_For_Object.md): Automatically creates aliases in a two-dimensional table using the names of the rows and columns.
 
 -    <img style="width:16px;" src="images/ConstraintToAlias.svg"> [Macro ConstraintToAlias](Macro_ConstraintToAlias.md): Allows to create a spreadsheet or add an alias to an existing spreadsheet from within the open sketch editor.
 
 -    <img style="width:16px;" src="images/easy-alias-icon.png"> [Macro EasyAlias](Macro_EasyAlias.md): Quickly create aliases in FreeCAD Spreadsheet workbench. It uses the labels from one column to create aliases for adjacent cells in the next column to the right, e.g. labels from Column A become aliases for the cells in Column B.
 
 -    <img style="width:16px;" src="images/Macro_FCSpreadsheet_Extract.png"> [Macro FCSpreadSheet Extract](Macro_FCSpreadSheet_Extract.md): This macro save the data in a csv file with the formula or in a xml file.
+
+-    <img style="width:16px;" src="images/FindAliasReferences.png"> [Macro FindAliasReferences](Macro_FindAliasReferences.md): Find all the expressions in open documents that contain the alias, or if the alias is not defined, then the value in the spreadsheet\'s selected cell(s).
 
 -    <img style="width:16px;" src="images/Macro_Sketch_Constraint_From_Spreadsheet.svg"> [Macro Sketch Constraint From Spreadsheet](Macro_Sketch_Constraint_From_Spreadsheet.md): Quickly add a length constraint to a line or between 2 points using a spreadsheet cell alias or address.
 
@@ -735,6 +731,10 @@ Se avete scritto una macro e volete includerla in una delle categorie su questa 
 
 -    <img style="width:16px;" src="images/Macro_Arch_Axis_System_Repartition.png"> [Macro Arch Axis System Repartition](Macro_Arch_Axis_System_Repartition.md): This macro help you to create an Arch Axis System along a line with a set of parameters.
 
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Macro Convert 021](Macro_Convert_021.md): Converts a FreeCAD file saved with a post-0.21 version back to 0.21 format.
+
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Macro Download Classifications](Macro_Download_Classifications.md): Downloads a package of BIM classification systems (Masterformat, Uniformat, \...) to be used in BIM projects in FreeCAD.
+
 -    <img style="width:16px;" src="images/Macro_Duplicate_Selection.png"> [Macro Duplicate Selection](Macro_Duplicate_Selection.md): This macro testing if one selection are duplicate, select the object IN THE 3D VIEW the \"ForbiddenCursor\" stay if the or one selection is duplicate, the macro stay resident.
 
 -    <img style="width:16px;" src="images/Macro_Easy_Cutouts_for_Enclosures.png"> [Macro Easy cutouts for Enclosure Design](Macro_Easy_cutouts_for_Enclosure_Design.md): This macro makes Cutouts for Enclosures in a very handy way.
@@ -756,6 +756,10 @@ Se avete scritto una macro e volete includerla in una delle categorie su questa 
 -    <img style="width:16px;" src="images/Pinger_Icon.svg"> [Macro Pinger](Macro_Pinger.md): Ping users on the forum with ease.
 
 -    <img style="width:16px;" src="images/Macro_Recompute_Profiler.png"> [Macro Recompute Profiler](Macro_Recompute_Profiler.md): Measures time it takes to recompute each object in a project.
+
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Macro Wiki Object Properties List Generator](Macro_Wiki_Object_Properties_List_Generator.md): Generates lists of object properties for use in the FreeCAD Wiki documentation.
+
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Macro Wiki Object Properties List Generator Basic Version](Macro_Wiki_Object_Properties_List_Generator_Basic_Version.md): Generates lists of object properties for use in the FreeCAD Wiki documentation.
 
 -    <img style="width:16px;" src="images/Replace_Part.png"> [Macro Replace Part in Assembly](Macro_Replace_Part_in_Assembly.md): Replaces a part (simple copy) in an \"Assembly\" with another Part (simple copy).
 
@@ -840,42 +844,6 @@ Se avete scritto una macro e volete includerla in una delle categorie su questa 
 -    <img style="width:16px;" src="images/Macro_Joint_Icon.svg"> [Macro Joint](Macro_Joint.md): Creates a variety of joints, such as mortise/tenon, box joints, dovetail joints, and snap joints.
 
 -   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [makeTransparent](https://github.com/dprojects/Woodworking/blob/master/Tools/makeTransparent.py): Switches all parts from non-transparent to transparent, and back, allowing you to preview pilot holes, countersinks and other joints.
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-### <img alt="" src=images/Std_FreeCADWebsite.png  style="width:32px;"> Altre macro interessanti create dagli utenti di FreeCAD e mantenute al di fuori del wiki. 
-
-
-</div>
-
-
-<div class="mw-collapsible-content">
-
--   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [By hamish2014](https://github.com/hamish2014?tab=repositories): FreeCAD_assembly2, FreeCAD_drawing_dimensioning, and more.
-
--   <img alt="" src=images/2364.png  style="width:24px;"> [By microelly2](https://github.com/microelly2?tab=repositories) : FreeCAD_macro, geodata, Animation, freecad-nurbs, PieMenu, and more.
-
--   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [By oddtopus](https://github.com/oddtopus?tab=repositories): Flamingo (workbench for metal structures).
-
--   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [By realthunder](https://github.com/realthunder/FreeCAD_assembly3#installation): Assembly3 Workbench, and more.
-
--   <img alt="" src=images/681.jpg  style="width:24px;"> [By rockn](https://github.com/j-wiedemann?tab=repositories): FreeCAD-Timber, FreeCAD-addons, FreeCAD-library, FreeCAD-StructuresBois, and more.
-
--   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [By Siardeni](https://github.com/Siardeni/FreeCADTools): Workbench for create metal profiles, square tubing, z profile, palette, rotation, drawing, and more.
-
--   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [By triplus](https://github.com/triplus?tab=repositories): IconThemes, ShortCuts, NavigationIndicator, TabBar, Launcher, PersistentToolbars, PieMenu, and more.
 
 
 </div>

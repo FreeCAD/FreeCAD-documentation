@@ -4,7 +4,7 @@
    MenuLocation: TechDraw , TechDraw Views , Share View
    Workbenches: TechDraw_Workbench
    Version: 0.20
-   SeeAlso: TechDraw_MoveView
+   SeeAlso: 
 ---
 
 # TechDraw ShareView
@@ -42,7 +42,7 @@ TechDrawTools.MoveView(viewName, fromPageName, toPageName, True)
 
 
 
- {{TechDraw Tools navi}}
+ {{TechDraw_Tools_navi}}
 
 
 

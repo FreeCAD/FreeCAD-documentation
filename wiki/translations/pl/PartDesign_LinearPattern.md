@@ -13,10 +13,10 @@
 
 ## Opis
 
-Narzędzie <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:24px;"> **Szyk liniowy** tworzy liniowy wzór jednej lub kilku cech.
+Narzędzie <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:24px;"> **Szyk liniowy** tworzy szyk liniowy jednej lub kilku cech.
 
 ![](images/PartDesign_LinearPattern_example.svg ) 
-*Powyżej: wyciągnięcie w kształcie litery L ''(B)'' wykonane na bazie bryły ''(A, zwanej również podstawą)'' jest używane do tworzenia liniowego wzoru. Wynik ''(C)'' jest pokazany po prawej stronie*.
+*Powyżej: wyciągnięcie w kształcie litery L ''(B)'' wykonane na bazie bryły ''(A, zwanej również podstawą)'' jest używane do tworzenia szyku liniowego. Wynik ''(C)'' jest pokazany po prawej stronie*.
 
 
 
@@ -50,19 +50,31 @@ Narzędzie <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:24p
 
 ## Opcje
 
--   Aby dodać cechy:
-    1.  Naciśnij przycisk **Dodaj cechę**.
-    2.  Wybierz cechę w oknie [Widoku drzewa](Tree_view/pl.md) lub w oknie [Widoku 3D](3D_view/pl.md).
-    3.  Powtórz, aby dodać więcej cech.
--   Aby usunąć cechy:
-    1.  Naciśnij przycisk **Usuń cechę**.
-    2.  Wykonaj jedną z następujących czynności:
-        -   Wybierz cechę w oknie [Widoku drzewa](Tree_view/pl.md) lub w oknie [Widoku 3D](3D_view/pl.md).
-        -   Zaznacz cechę na liście i naciśnij klawisz **Del**.
-        -   Kliknij prawym przyciskiem myszy cechę na liście i wybierz z menu podrzędnego opcję **Usuń**.
-    3.  Powtórz czynność, aby usunąć więcej cech.
--   Jeśli we wzorcu znajduje się kilka cech, ich kolejność może być ważna. Zobacz stronę [Projekt Części: Szyk kołowy](PartDesign_PolarPattern/pl#Oczekiwane_funkcje.md).
--   Określenie **Kierunku** wzorca:
+-   Wybierz tryb:
+    -   
+        **Przekształć Zawartość**
+        
+        : Przekształca cały kształt cechy bazowej (domyślne). {{Version/pl|1.0}}
+
+    -   
+        **Narzędzie przekształcania kształtów**
+        
+        : Przekształca pojedyncze kształty narzędzi wybranych cech.
+
+        -   Aby dodać cechy:
+            1.  Naciśnij przycisk **Dodaj cechę**.
+            2.  Wybierz cechę w oknie [Widoku drzewa](Tree_view/pl.md) lub w oknie [Widoku 3D](3D_view/pl.md).
+            3.  Powtórz, aby dodać więcej cech.
+        -   Aby usunąć cechy:
+            1.  Naciśnij przycisk **Usuń cechę**.
+            2.  Wykonaj jedną z następujących czynności:
+                -   Wybierz cechę w oknie [Widoku drzewa](Tree_view/pl.md) lub w oknie [Widoku 3D](3D_view/pl.md).
+                -   Zaznacz cechę na liście i naciśnij klawisz **Del**.
+                -   Kliknij prawym przyciskiem myszy cechę na liście i wybierz z menu podrzędnego opcję **Usuń**.
+            3.  Powtórz czynność, aby usunąć więcej cech.
+        -   Jeśli w szyku znajduje się kilka cech, ich kolejność może być ważna. Zobacz stronę [Projekt Części: Szyk kołowy](PartDesign_PolarPattern/pl#Kolejność_cech.md).
+
+-   Określenie **Kierunku** szyku:
     -   
         **Normalna oś szkicu**
         
@@ -102,9 +114,23 @@ Narzędzie <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:24p
         **Wybór odniesienia...**
         
         : Wybierz [Linię odniesienia](PartDesign_Line/pl.md) w oknie [Widok drzewa](Tree_view/pl.md) lub [Linię odniesienia](PartDesign_Line/pl.md) lub krawędź w oknie [Widok 3D](3D_view/pl.md).
--   Zaznacz pole wyboru **Odwróć kierunek**, aby odwrócić wzór.
--   Określ **Długość**, która ma zostać objęta wzorcem.
+
+-   Zaznacz pole wyboru **Odwróć kierunek**, aby odwrócić szyk.
+
+-    {{Version/pl|1.0}}: Określ kąt **Trybu**:
+
+    -   
+        **Długość całkowita**
+        
+        : Wprowadź **Długość** od danego punktu przy pierwszym wystąpieniu do tego samego punktu przy ostatnim wystąpieniu.
+
+    -   
+        {{Version/pl|1.0}}
+        
+        : **Odsunięcie**: Wprowadź **Odsunięcie** od danego punktu na pierwszym wystąpieniu do tego samego punktu na następnym wystąpieniu. Dla n wystąpień: OverallLength=(n-1)\*Offset.
+
 -   Określ liczbę **Wystąpień** *(łącznie z cechą oryginalną)*.
+
 -   Jeśli zaznaczone jest pole wyboru **Aktualizuj widok**, widok będzie aktualizowany w czasie rzeczywistym.
 
 

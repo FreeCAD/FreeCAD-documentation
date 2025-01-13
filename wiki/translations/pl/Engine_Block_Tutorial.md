@@ -1,20 +1,20 @@
 ---
- TutorialInfo:
-   Topic:      Part Workbench
-   Level:      Beginner
-   Time:       1 hour
+ TutorialInfo:l
+   Topic:      środowisko pracy Część
+   Level:      początkujący
+   Time:       1 godzina
    Author:     Andrewbuck40
    FCVersion:  0.14.3700
-   Files: 
+   Files: nie dołączono
 }}
 
 !{width="600"}
 
-This is an introductory tutorial to modeling in FreeCAD. The purposes of the tutorial are to introduce you to the primitive data types for parametric objects, boolean operations, 2D drafting, and the process of converting 2D drafts into 3D models. As a working example we will be modeling the simple engine block and crankcase, seen at the top.
+Jest to samouczek wprowadzający do modelowania w FreeCAD. Celem tego samouczka jest zapoznanie użytkownika z pierwotnymi typami danych dla obiektów parametrycznych, operacjami logicznymi, szkicowaniem 2D i procesem konwersji szkiców 2D na modele 3D. Jako przykład roboczy będziemy modelować prosty blok silnika i skrzynię korbową, widoczne na górze.
 
-## Getting Started 
+## Pierwsze kroki 
 
-To begin with, open FreeCAD, go to **File , New** to create a new document, and then **File , Save** to save it somewhere on your computer, I named my project **\"Engine\"**. You will notice that after you save the project, the *tree view* on the left side of the screen will show the name of the project you are working on. You can have more than one project open at a time and each project will be shown as the root of a tree in the tree view.
+Aby rozpocząć, uruchom FreeCAD, przejdź do **Plik , Nowy**, aby utworzyć nowy dokument, a następnie **Plik , Zapisz**, aby zapisać go gdzieś na komputerze, ja nazwałem swój projekt **\"Silnik\"**\'. Zauważysz, że po zapisaniu projektu, \"widok drzewa\" po lewej stronie ekranu pokaże nazwę projektu, nad którym pracujesz. W tym samym czasie można otworzyć więcej niż jeden projekt, a każdy z nich będzie wyświetlany jako korzeń drzewa w widoku drzewa.
 
 ## Roughing Out the Block 
 

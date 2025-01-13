@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft_Line
-   Name/it: Linea
-   MenuLocation: Drafting , Linea
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Linea
+   MenuLocation: Drafting , Linea<br>2D Drafting , Linea
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **L** **I**
    Version: 0.7
    SeeAlso: Draft_Wire/it
@@ -30,7 +30,8 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Line.svg" width=16px> [Linea](Draft_Line/it.md)**.
-    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_Line.svg" width=16px> Linea** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Drafting → <img src="images/Draft_Line.svg" width=16px> Linea** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **2D Drafting → <img src="images/Draft_Line.svg" width=16px> Linea** dal menu.
     -   Usare la scorciatoia da tastiera: **L** poi **I**.
 2.  Si apre il pannello attività **Linea**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
 3.  Scegliere il primo punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
@@ -40,14 +41,14 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 ## Opzioni
 
-È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 0.22).
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 1.0).
 
 -   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure è possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
 -   Per usare le coordinate polari inserire un valore per **Lunghezza** e un valore per **Anglo**, e premere **Enter** dopo ciascuno.
 -   Selezionare la casella **Anglo** per vincolare il puntatore all\'angolo specificato.
 -   Premere **L** per cambiare il focus dalla casella di input **X** alla casella di input **Lunghezza** e viceversa. A seconda della casella di input che riceve il focus, la casella di controllo **Anglo** è selezionata o deselezionata.
 -   Premere **R** o fare clic sulla casella di controllo **Relativo** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate del secondo punto sono relative al primo punto, altrimenti sono relative all\'origine del sistema di coordinate.
--   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate del [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate del [piano di lavoro](Draft_SelectPlane/it.md).
 -   Premere **N** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando verrà riavviato al termine, consentendo di continuare a creare linee.
 -   Premere **S** per attivare o disattivare l\'[Aggancio](Draft_Snap/it.md).
 -   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.

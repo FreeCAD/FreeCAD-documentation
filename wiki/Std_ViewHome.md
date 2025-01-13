@@ -12,7 +12,7 @@
 
 ## Description
 
-The **Std ViewHome** command changes the camera in the active [3D view](3D_view.md) to the default camera orientation. And then zooms and pans the camera so that all visible objects fit inside the view.
+The **Std ViewHome** command changes the camera in the active [3D view](3D_view.md) to the default camera orientation. And zooms and pans the camera so that all visible objects fit inside the view.
 
 ## Usage
 
@@ -23,12 +23,14 @@ The **Std ViewHome** command changes the camera in the active [3D view](3D_view.
 
 ## Preferences
 
--   The default camera orientation can be customized in the preferences: **Edit → Preferences... → Display → Navigation → Default camera orientation**. See [Preferences Editor](Preferences_Editor#Navigation.md).
+See also: [Preferences Editor](Preferences_Editor.md).
+
+-   The default camera orientation can be customized: **Edit → Preferences... → Display → Navigation → Default camera orientation**.
 
 
 
 
- {{Std Base navi}}
+ {{Std_Base_navi}}
 
 
 

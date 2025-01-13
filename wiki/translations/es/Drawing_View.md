@@ -38,13 +38,6 @@ Despliega el objeto Página en el árbol del Proyecto, y selecciona la vista. Su
 -   **Mostrar líneas ocultas**: Alterna la visibilidad de las líneas ocultas seleccionando *Verdadero* o *Falso*.
 -   **Mostrar líneas de suavizado**: Alterna la visibilidad de las línea de suavizado seleccionando *Verdadero* o *Falso*. Las línea de suavizado también se denominan aristas de tangencia. Dichas aristas indican cambios entre superficies tangentes.
 
-### Asistente de vista de dibujo 
-
-Para generar una hoja de dibujo con vistas estándar de forma automática, utiliza la [Macro de dibujo automático](Macro_Automatic_drawing/es.md).
-
-
-
-
 ### Other
 
 If you are looking for persective-orthographic toggling in 3D view check [Std PerspectiveCamera](Std_PerspectiveCamera.md) and [Std OrthographicCamera](Std_OrthographicCamera.md)

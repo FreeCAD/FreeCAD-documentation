@@ -21,13 +21,13 @@ Der **Std Fenster**-Befehl öffnet eine Dialog-Box mit einer Liste der Fenster d
 
 ## Anwendung
 
-1.  Wähle die **Fenster → <img src="images/Std_Windows.svg" width=16px> Fenster...**-Option aus dem Menü.
-2.  Die Fenster auswählen-Dialog-Box öffnet sich.
-3.  Tue eines der folgenden Dinge:
-    -   Wähle ein Fenster in der Liste und drücke die **Aktivieren**-Schaltfläche.
-    -   Doppelklicke ein Fenster in der List.
-4.  Die Dialog-Box schließt sich.
-5.  Das gewählte Fenster ist aktiviert.
+1.  Den Menüeintrag **Fenster → <img src="images/Std_Windows.svg" width=16px> Fenster...** auswählen.
+2.  Das Dialogfenster **Fenster auswählen** wird geöffnet.
+3.  Eine der folgenden Möglichkeiten auswählen:
+    -   Ein Fenster in der Liste auswählen und die Schaltfläche **Aktivieren** drücken.
+    -   Ein Fenster in der Liste doppelt anklicken.
+4.  Das Dialogfenster wird geschlossen.
+5.  Das ausgewählte Fenster ist aktiviert.
 
 
 
@@ -39,13 +39,13 @@ Der **Std Fenster**-Befehl öffnet eine Dialog-Box mit einer Liste der Fenster d
 
 ## Hinweise
 
-Fenster im Hauptansichtsbereich sind auch im **Fenster**-Menü aufgeführt und können von dort aktiviert werden.
+Die ersten 10 Fenster im Hauptansichtsbereich sind auch im Menü **Fenster** aufgeführt und können von dort aktiviert werden.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

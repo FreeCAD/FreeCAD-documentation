@@ -40,10 +40,14 @@ Da es viele Videos gibt, die sich mit diesem Thema befassen, besuche bitte [Vide
 
 ## Computergestützte Fertigung (CAM) 
 
--   [sliptonic playlists](https://www.youtube.com/user/sliptonic/playlists): verschiedene Videos über die Verwendung von FreeCAD, die Arbeit mit TechDraw und insbesondere die [Path Workbench](Path_Workbench.md), von sliptonic, einem der Hauptentwickler der letzteren.
-    -   [Using FreeCAD version 0.17 Path Workbench](https://www.youtube.com/playlist?list=PLEuOia-QxyFJZSpqb0xOHc9t7MLdCO3io): eine Reihe von 9 Videos, die die Verwendung der Path Workbench erklären, einschließlich der Werkzeuge und Steuerungen, der Auftragseinrichtung, der Visualisierung, der Operationen, der Verbände, der Einheiten und der Voreinstellungen.
--   <https://www.youtube.com/channel/UCtNnYMVWGkG-aemOrCtGjCA/videos> Coder Musashi Videos\]: verschiedene Videos zur Verwendung der [Path Workbench](Path_Workbench.md).
-    -   [PathWorkbench: Erstellung von Pfaden mit FeatureArea und anderen Freecad Werkzeugen](https://www.youtube.com/watch?v=MsDIRIkeNJ4).\[
+-   [sliptonic playlists](https://www.youtube.com/user/sliptonic/playlists): verschiedene Videos über die Verwendung von FreeCAD, die Arbeit mit TechDraw und insbesondere den Arbeitsbereich [Path](Path_Workbench/de.md) (jetzt CAM), von sliptonic, einem der Hauptentwickler des letzteren.
+    -   [Using FreeCAD version 0.17 Path Workbench](https://www.youtube.com/playlist?list=PLEuOia-QxyFJZSpqb0xOHc9t7MLdCO3io): eine Reihe von 9 Videos, die die Verwendung des Arbeitsbereichs Path (jetzt CAM) erklären, einschließlich der Werkzeuge und Steuerungen, der Auftragseinrichtung, der Visualisierung, der Operationen, der Verbände, der Einheiten und der Voreinstellungen.
+-   [Coder Musashi Videos](https://www.youtube.com/channel/UCtNnYMVWGkG-aemOrCtGjCA/videos): verschiedene Videos zur Verwendung des Arbeitsbereichs [Path](Path_Workbench/de.md) (CAM).
+    -   [PathWorkbench: Erstellung von Pfaden mit FeatureArea und anderen Freecad Werkzeugen](https://www.youtube.com/watch?v=MsDIRIkeNJ4).
+-   [Mango Jelly YouTube Videos](https://www.youtube.com/@MangoJellySolutions): MangoJelly\'s Anleitungen zu vielen Bestandteilen von FreeCAD einschließlich CAM. Diese sind nicht \"offiziell\", werden aber von ziemlich vielen Leuten empfohlen.
+-   [Toronto Tool Library YouTube Videos](https://www.youtube.com/@TorontotoollibraryIRBE): Einige interessante Videos zur Verwendung von FreeCAD und CNC.
+-   [Open Source CNC](https://www.youtube.com/@opensourcecnc): Einige interessante Videos zur Verwendung von FreeCAD und CNC und auch einige Videoanleitungen zu FreeCAD-CAM.
+-   [Adventures in creation](https://www.youtube.com/@Adventuresincreation): Einige interessante Anleitungen und Videos zur Verwendung von FreeCAD zum erstellen von Dingen.
 
 
 
@@ -57,7 +61,7 @@ Da es viele Videos gibt, die sich mit diesem Thema befassen, besuche bitte [Vide
 
 ## Architektonische Gestaltung 
 
-Videos, die die Modellierung von Räumen, Häusern, Bürogebäuden und ähnlichen Strukturen sowie das Zeichnen von Grundrissen mit Hilfe von Werkbänken wie <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> durchlaufen [Entwurf](Draft_Workbench/de.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md), und <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
+Videos, die die Modellierung von Räumen, Häusern, Bürogebäuden und ähnlichen Strukturen sowie das Zeichnen von Grundrissen mit Hilfe von Arbeitsbereichen wie <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) und <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/de.md).
 
 Da es viele Videos gibt, die sich mit diesem Thema befassen, besuche bitte [Video Tutorien für Architekturentwurf](Video_tutorials_for_architectural_design/de.md).
 
@@ -82,6 +86,8 @@ Da es viele Videos gibt, die sich mit diesem Thema befassen, besuche bitte [Vide
 -   [flowwie\'s corner](https://www.youtube.com/c/flowwiescorner/videos) von flowwie in Deutsch: eine nette Serie von 62 kurzen Videos zu FreeCAD 0.18 und 0.19, vom Basisniveau bis zum mittleren Schwierigkeitsgrad.
 
 -   [Evgeniy Ivanov](https://www.youtube.com/c/CFDIntech/videos) von Evgeniy Ivanov in Englisch: Eine nette Serie von Videos FreeCAD 0.19 betreffend, vom Einsteigerlevel bis zum Level für Fortgeschrittene.
+
+-   [FreeCAD tutorials at Spoken tutorials](https://spoken-tutorial.org/tutorial-search/?search_foss=FreeCAD&search_language=English) eine Reihe von englischsprachigen Video-Tutorials für Anfänger und Fortgeschrittene.
 
 
 

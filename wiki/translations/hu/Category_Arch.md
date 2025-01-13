@@ -1,5 +1,5 @@
 # Category:Arch/hu
-Pages relating to Architectural and Building Information Management
+This category is for pages related to the [Arch_Workbench/hu](Arch_Workbench/hu.md).
 
 ### Contents
 

@@ -126,13 +126,13 @@ class ViewProviderBox:
             "   #######      "};
             """
 
-    def __getstate__(self):
+    def dumps(self):
         '''When saving the document this object gets stored using Python's json module.\
                 Since we have some un-serializable parts here -- the Coin stuff -- we must define this method\
                 to return a tuple of all serializable objects or None.'''
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         '''When restoring the serialized object from document we have the chance to set some internals here.\
                 Since no data were serialized nothing needs to be done here.'''
         return None
@@ -152,7 +152,7 @@ If your object relies on being recomputed as soon as it is created, you must do 
 
 This example produces a number of exception stack traces in the report view window. This is because the `onChanged` method of the `Box` class is called each time a property is added in `__init__`. When the first one is added, the Width and Height properties don\'t exist yet and so the attempt to access them fails.
 
-An explanation of `__getstate__` and `__setstate__` is in the forum thread [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009&start=10#p377892).
+An explanation of `__getstate__` and `__setstate__` which have been replaced by `dumps` and `loads` is in the forum thread [obj.Proxy.Type is a dict, not a string](https://forum.freecad.org/viewtopic.php?f=18&t=44009&start=10#p377892).
 
 
 `obj.addProperty(...)`
@@ -358,10 +358,10 @@ class ViewProviderOctahedron:
         "   #######      "};
         """
 
-  def __getstate__(self):
+  def dumps(self):
      return None
 
-  def __setstate__(self,state):
+  def loads(self,state):
      return None
 ```
 
@@ -465,10 +465,10 @@ class ViewProviderMolecule:
             p = fp.getPropertyByName("p2")
             self.trl2.translation=(p.x,p.y,p.z)
 
-    def __getstate__(self):
+    def dumps(self):
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         return None
 
 def makeMolecule():
@@ -707,10 +707,10 @@ class ViewProviderMolecule:
     def setDisplayMode(self, mode):
         return mode
 
-    def __getstate__(self):
+    def dumps(self):
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         return None
 
 def makeMolecule():
@@ -859,13 +859,13 @@ class PDTubeVP:
             "   #######      "};
             """
 
-    def __getstate__(self):
+    def dumps(self):
         '''When saving the document this object gets stored using Python's json module.\
                 Since we have some un-serializable parts here -- the Coin stuff -- we must define this method\
                 to return a tuple of all serializable objects or None.'''
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         '''When restoring the serialized object from document we have the chance to set some internals here.\
                 Since no data were serialized nothing needs to be done here.'''
         return None
@@ -907,7 +907,7 @@ else:
 
 ## Available object types 
 
-The list of all object types you can create with 
+The object types you can create with 
 
 -    `App::DocumentObjectGroupPython`
     
@@ -933,6 +933,30 @@ The list of all object types you can create with
 -    `App::PlacementPython`
     
 
+-    `Fem::ConstraintPython`
+    
+
+-    `Fem::FeaturePython`
+    
+
+-    `Fem::FemAnalysisPython`
+    
+
+-    `Fem::FemMeshObjectPython`
+    
+
+-    `Fem::FemResultObjectPython`
+    
+
+-    `Fem::FemSolverObjectPython`
+    
+
+-    `Measure::MeasurePython`
+    
+
+-    `Mesh::FeaturePython`
+    
+
 -    `Part::CustomFeaturePython`
     
 
@@ -940,6 +964,21 @@ The list of all object types you can create with
     
 
 -    `Part::Part2DObjectPython`
+    
+
+-    `PartDesign::FeatureAdditivePython`
+    
+
+-    `PartDesign::FeatureAddSubPython`
+    
+
+-    `PartDesign::FeaturePython`
+    
+
+-    `PartDesign::FeatureSubtractivePython`
+    
+
+-    `PartDesign::SubShapeBinderPython`
     
 
 -    `Path::FeatureAreaPython`
@@ -957,7 +996,16 @@ The list of all object types you can create with
 -    `Path::FeatureShapePython`
     
 
+-    `Points::FeaturePython`
+    
+
 -    `Sketcher::SketchObjectPython`
+    
+
+-    `Spreadsheet::SheetPython`
+    
+
+-    `TechDraw::DrawBrokenViewPython`
     
 
 -    `TechDraw::DrawComplexSectionPython`
@@ -1021,37 +1069,38 @@ When adding properties to your custom objects, take care of this:
 
 The properties are defined in the [PropertyStandard C++ header file](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyStandard.h).
 
-### Property types 
+### Property attributes 
 
-By default properties can be updated, but it is possible to make properties read-only, for instance if one wants to show the result of a method. It is also possible to hide a property. The property type can be set using:
+By default properties can be changed by the user, but it is possible to make properties read-only, for instance if one wants to show the result of a method. It is also possible to hide a property. These attributes can be set using:
 
  
 ```python
 obj.setEditorMode("MyPropertyName", mode)
 ```
 
-where mode is a short int that can be set to:
+Where mode can have these values:
 
  0 -- default mode, read and write
  1 -- read-only
  2 -- hidden
+ 3 -- read-only and hidden
 
-The mode can also be set using a list of strings, e.g. `obj.setEditorMode("Placement", ["ReadOnly", "Hidden"])`.
+The attributes can also be set using a list of strings, e.g. `obj.setEditorMode("Placement", ["ReadOnly", "Hidden"])`.
 
-The EditorModes are not set at FreeCAD file reload. This could to be done by the {{Incode|__setstate__}} function. See <http://forum.freecadweb.org/viewtopic.php?f=18&t=13460&start=10#p108072>. By using the {{Incode|setEditorMode}} the properties are only read-only in the [Property editor](Property_editor.md). They can still be changed from Python. To really make them read-only the setting has to be passed directly inside the {{Incode|addProperty}} function. See <http://forum.freecadweb.org/viewtopic.php?f=18&t=13460&start=20#p109709> for an example.
+Attributes set using {{Incode|setEditorMode}} can be removed by the user. See [Property editor](Property_editor#Context_menu.md). Note that read-only properties can still be changed from Python.
 
-Using the direct setting in the {{Incode|addProperty}} function, you also have more possibilities. In particular, an interesting one is mark a property as an output property. This way FreeCAD won\'t mark the feature as touched when changing it (so no need to recompute).
+You can also set these, and more, attributes directly with the {{Incode|addProperty}} function. Attributes set with that function cannot be changed by the user. An interesting possibility is to mark a property as an output property. This way FreeCAD won\'t mark the object as touched when changing it (so no need to recompute).
 
-Example of output property (see also <https://forum.freecadweb.org/viewtopic.php?t=24928>):
+Example of output property (see also <https://forum.freecad.org/viewtopic.php?t=24928>):
 
  
 ```python
 obj.addProperty("App::PropertyString", "MyCustomProperty", "", "", 8)
 ```
 
-The property types that can be set at last parameter of the addProperty function are:
+The attributes that can be set with {{Incode|addProperty}} are listed below. Multiple attributes can be set by adding values.
 
-  0 -- Prop_None, No special property type
+  0 -- Prop_None, No special property attribute
   1 -- Prop_ReadOnly, Property is read-only in the editor
   2 -- Prop_Transient, Property won't be saved to file
   4 -- Prop_Hidden, Property won't appear in the editor
@@ -1059,7 +1108,47 @@ The property types that can be set at last parameter of the addProperty function
  16 -- Prop_NoRecompute, Modified property doesn't touch its container for recompute
  32 -- Prop_NoPersist, Property won't be saved to file at all
 
-The property types are defined in the [PropertyContainer C++ header file](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h).
+The property attributes are defined in the [PropertyContainer C++ header file](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h).
+
+For {{Incode|Prop_ReadOnly}} and {{Incode|Prop_Hidden}} the {{Incode|addProperty}} function has boolean arguments as well:
+
+ 
+```python
+obj.addProperty("App::PropertyString", "MyCustomProperty", "", "", 0, True, True)
+```
+
+Which is equivalent to:
+
+ 
+```python
+obj.addProperty("App::PropertyString", "MyCustomProperty", "", "", 1+4)
+```
+
+
+<small>(v1.0)</small> 
+
+: The full signature of the function is:
+
+ 
+```python
+obj.addProperty(type: string, name: string, group="", doc="", attr=0, read_only=False, hidden=False, enum_vals=[])
+```
+
+-    {{Incode|type}}: Property type.
+
+-    {{Incode|name}}: Property name.
+
+-    {{Incode|group}}: Property subsection (used in the [Property editor](Property_editor.md)).
+
+-    {{Incode|doc}}: Tooltip (idem).
+
+-    {{Incode|attr}}: Attribute, see above.
+
+-    {{Incode|read_only}}: See above.
+
+-    {{Incode|hidden}}: See above.
+
+-    {{Incode|enum_vals}}: Enumeration values (list of string), only relevant if type is {{Incode|"App::PropertyEnumeration"}}.
 
 ## Available extensions 
 
@@ -1143,7 +1232,7 @@ Additional pages:
 Interesting forum threads about scripted objects:
 -   [Python object attributes lost at load](http://forum.freecadweb.org/viewtopic.php?f=22&t=13740)
 -   [New FeaturePython is grey](http://forum.freecadweb.org/viewtopic.php?t=12139)
--   [Explanation on \_\_getstate\_\_ and \_\_setstate\_\_](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009), [official documentation](https://docs.python.org/3/library/pickle.html#object.__getstate__)
+-   [Explanation on dumps and loads](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009), [official documentation](https://docs.python.org/3/library/pickle.html#object.__getstate__)
 -   [Eigenmode frequency always 0?](https://forum.freecadweb.org/viewtopic.php?f=18&t=13460&start=20#p109709)
 -   [how to implement python feature\'s setEdit properly?](https://forum.freecadweb.org/viewtopic.php?f=22&t=21330)
 

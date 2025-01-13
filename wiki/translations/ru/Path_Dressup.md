@@ -1,7 +1,7 @@
 # Path Dressup/ru
-1.  REDIRECT [Path_Workbench/ru](Path_Workbench/ru.md)
+1.  REDIRECT [CAM_Workbench/ru](CAM_Workbench/ru.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Dressup/ru
+⏵ [documentation index](../README.md) > Path Dressup/ru

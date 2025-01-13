@@ -40,7 +40,7 @@ Jeśli obiekt Plane w [widoku 3D](3D_view/pl.md) jest ukryty, zaznacz <img alt="
 
 #### Przesuń płaszczyznę 
 
--   Kliknij i przeciągnij duży biały prostopadłościan aby przesunąć płaszczyznę wzdłuż jej wektora normalnego.
+-   Kliknij i przeciągnij duży biały prostopadłościan aby przesunąć płaszczyznę wzdłuż jej wektora normalnego. Ustaw kursor myszki na manipulator *(bez klikania)* i naciśnij **Ctrl**, aby zmienić orientację tego manipulatora osi.
 -   Kliknij i przeciągnij białą siatkę .
 
 

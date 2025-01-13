@@ -68,8 +68,8 @@ N\'importe quel outil de ligne centrale (<img alt="" src=images/TechDraw_FaceCen
 
 ## Remarques
 
--   Pour effacer une ligne centrale, utilisez <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md).
--   Ligne centrale à une face remplacera éventuellement deux propriétés d\'affichage :
+-   Pour supprimer une ligne centrale, sélectionnez-la et appuyez sur **Supprimer**. {{Version/fr|1.0}}
+-   Une ligne centrale à une face remplacera éventuellement deux propriétés d\'affichage :
     -   
         **HorizCenterLine**
         

@@ -24,7 +24,7 @@ Narzędzie **Wyeksportuj stronę do formatu SVG** zapisuje bieżącą stronę ry
     -   Naciśnij przycisk **<img src="images/TechDraw_ExportPageSVG.svg" width=16px> [Export Page as SVG](TechDraw_ExportPageSVG/pl.md)**.
     -   Wybierz opcję z menu **TechDraw → Strona → <img src="images/TechDraw_ExportPageSVG.svg" width=16px> Eksportuj stronę jako SVG**.
     -   Jeśli strona jest wyświetlana w [głównym obszarze widoku](Main_view_area/pl.md): kliknij prawym przyciskiem myszki okno strony i wybierz opcję **Eksportuj do formatu SVG** z menu podręcznego.
-3.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**: <small>(v0.20)</small> .
+3.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**:
     1.  Wybierz żądaną stronę.
     2.  Naciśnij przycisk **OK**.
 4.  Otworzy się okno dialogowe **Eksportuj stronę do formatu SVG**.
@@ -56,7 +56,7 @@ Należy pamiętać, że moduł FreeCADGui musi być aktywny, aby korzystać z te
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

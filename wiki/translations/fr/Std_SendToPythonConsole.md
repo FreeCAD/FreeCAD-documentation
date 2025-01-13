@@ -61,19 +61,19 @@ Les variables suivantes sont créées en fonction de l\'objet sélectionné et d
 
 
 
-*Exemple de sortie : un bord, une face et un sommet d'un [Lien](Std_LinkMake/fr.md) vers un [Part Cube](Part_Box/fr.md) ont été sélectionnés*
+*Exemple de sortie : une arête, une face et un sommet d'un [Lien](Std_LinkMake/fr.md) vers un [Part Cube](Part_Box/fr.md) ont été sélectionnés*
 
 
 
 ## Utilisation
 
 1.  Sélectionnez un seul objet ou une ou plusieurs sous-formes appartenant à un seul objet.
-2.  Il existe plusieurs façons d\'appeler la commande :
-    -   Sélectionnez l\'option **Édition → <img src="images/Std_SendToPythonConsole.svg" width=16px> Envoyer vers la console Python** dans le menu.
-    -   Sélectionnez l\'option **<img src="images/Std_SendToPythonConsole.svg" width=16px> Envoyer vers la console Python** dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou le menu contextuel de la [vue 3D](3D_view/fr.md).
+2.  Il existe plusieurs façons de lancer la commande :
+    -   Sélectionnez l\'option **Édition → <img src="images/Std_SendToPythonConsole.svg" width=16px> Envoyer vers la console Python** du menu.
+    -   Sélectionnez l\'option **<img src="images/Std_SendToPythonConsole.svg" width=16px> Envoyer vers la console Python** du menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou du menu contextuel de la [vue 3D](3D_view/fr.md).
     -   Utilisez le raccourci clavier : **Ctrl**+**Shift**+**P**.
 3.  Si nécessaire, la [console Python](Python_console/fr.md) s\'ouvre.
-4.  La [console Python](Python_console/fr.md) reçoit le focus du clavier.
+4.  La [console Python](Python_console/fr.md) est redirigée vers le clavier.
 
 
 
@@ -92,7 +92,7 @@ Les variables suivantes sont créées en fonction de l\'objet sélectionné et d
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

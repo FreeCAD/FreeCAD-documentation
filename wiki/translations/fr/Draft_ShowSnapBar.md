@@ -3,7 +3,7 @@
    Name: Draft ShowSnapBar
    Name/fr: Draft Barre d'aimantation
    MenuLocation: Utilitaires , Afficher la barre d'outils d'aimantation
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   Workbenches: Draft_Workbench/fr
    SeeAlso: Draft_Snap/fr
 ---
 

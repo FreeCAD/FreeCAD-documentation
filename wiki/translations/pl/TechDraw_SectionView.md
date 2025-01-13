@@ -4,7 +4,7 @@
    Name/pl: Rysunek Techniczny: Wstaw widok przekroju
    MenuLocation: Rysunek Techniczny , Widoki , Wstaw widok przekroju
    Workbenches: TechDraw_Workbench/pl
-   SeeAlso: TechDraw_ComplexSection/pl, TechDraw_View/pl, TechDraw_ProjectionGroup/pl
+   SeeAlso: TechDraw_ComplexSection/pl, TechDraw_View/pl
 ---
 
 # TechDraw SectionView/pl
@@ -37,20 +37,31 @@ Dolny obraz pokazuje format strzałki ISO.
 
 
 
-## Właściwości widoku przekroju 
+## Właściwości
 
-Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw_View/pl#Widok.md) środowiska Rysunek Techniczny.
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+We właściwościach **Widok podstawowy** możesz zmienić wygląd linii przekroju.
+
+Widok przekroju, formalnie obiekt {{Incode|TechDraw::DrawViewSection}}, wywodzi się z [Widoku części](TechDraw_View/pl#Właściwości_-_Widok_części.md), formalnie obiektu {{Incode|TechDraw::DrawViewPart}} i dziedziczy wszystkie jego właściwości. Ma również następujące dodatkowe właściwości:
 
 
 
 ### Dane
 
 
+{{TitleProperty|Wygląd}}
+
+-    **Rozciągnięcie linii przekroju|FloatConstraint**: Dostosowuje długość linii przekroju. {{Value|1.0}} to normalna długość, {{Value|1.1}} to 10% dłuższa linia, {{Value|0.9}} to 10% krótsza linia. {{Version/pl|1.0}}
+
+
 {{TitleProperty|Operacja cięcia}}
 
 -    **Połącz przed przecięciem|Bool**: Łączenie kształtów źródłowych przed wykonaniem cięcia przekroju.
 
--    **Przytnij po przecięciu|Bool**: Dodatkowo przycina wynikowy kształt po wycięciu przekroju w celu usunięcia niechcianych fragmentów.
+-    **Przytnij po przecięciu|Bool**: Dodatkowo przycina wynikowy kształt po wycięciu przekroju w celu usunięcia niechcianych fragmentów. {{Version/pl|0.21}}
+
+-    **Użyj poprzedniego cięcia|Bool**Użyj kształtu z widoku podstawowego zamiast oryginalnego obiektu. {{Version/pl|1.0}}
 
 
 {{TitleProperty|Format powierzchni cięcia}}
@@ -94,6 +105,10 @@ Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw
 
 -    **Skala kreskowania|Float**: Dostosowanie rozmiaru wzorca kreskowania.
 
+-    **Obrót kreskowania|Float**: Obrót wzoru kreskowania w stopniach w kierunku przeciwnym do ruchu wskazówek zegara. {{Version/pl|0.21}}
+
+-    **Odsunięcie kreskowania|Vector|Hidden**: Odsunięcie wzoru kreskowania. {{Version/pl|0.21}}
+
 
 {{TitleProperty|Przekrój}}
 
@@ -128,18 +143,6 @@ Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw
 -    **Kreskowanie powierzchni przekroju|Bool|Hidden**: Kreskowanie powierzchni cięcia.
 
 -    **Waga kreskowania|Float**: Waga linii geometrycznego wzoru kreskowania.
-
-
-
-## Właściwości widoku bazowego 
-
-Obiekt **Widok przekroju** dziedziczy wszystkie odpowiednie właściwości widoku określonego jako **Widok bazowy**. We właściwościach tego widoku można zmienić wygląd linii przekroju:
-
--    **Kolor linii przekroju**: Kolor linii w przekroju.
-
--    **Styl linii przekroju**: Styl linii w przekroju.
-
-Domyślne ustawienia tych parametrów są konfigurowane za pomocą ustawień **Linia przekroju** i **Styl linii przekroju** w [ustawieniach](TechDraw_Preferences/pl.md).
 
 
 
@@ -191,7 +194,7 @@ Więcej informacji na temat widoków przekrojów i niektórych przypadków użyc
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

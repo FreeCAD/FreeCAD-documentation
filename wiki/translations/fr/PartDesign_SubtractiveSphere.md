@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign SubtractiveSphere
    Name/fr: PartDesign Sphère soustractive
-   MenuLocation: Part Design , Créer une primitive soustractive , Sphère soustractive
+   MenuLocation: PartDesign , Créer une primitive soustractive , Sphère soustractive
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/fr, PartDesign_AdditiveSphere/fr
@@ -15,6 +15,8 @@
 Insère une sphère primitive soustractive dans le corps actif. Sa forme est soustraite du solide existant.
 
 ![](images/PartDesign_SubtractiveSphere_example.svg ) *À gauche, le corps actif (A) en gris et le prisme soustractif (B) en rouge transparent ; le résultat final est à droite.*
+
+
 
 ## Utilisation
 
@@ -29,6 +31,8 @@ La Sphère peut être éditée après sa création de deux façons :
 
 -   Double-cliquez la dans l\'arborescence ou faire un clic droit dessus et sélectionnez **Éditer la primitive** dans le menu contextuel. Cela fait apparaître les paramètres des Primitives.
 -   Via l\'[Éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ## Propriétés
 

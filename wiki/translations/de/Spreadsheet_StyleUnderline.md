@@ -1,23 +1,31 @@
 ---
  GuiCommand:
    Name: Spreadsheet StyleUnderline
-   Name/de: Kalkulationstabelle StilUnterstrichen
+   Name/de:  Spreadsheet StilUnterstreichen
    Workbenches: Spreadsheet_Workbench/de
-   MenuLocation: Kalkulationstabelle , Stile , Unterstrichener Text
+   Shortcut: **Strg** + **U**
+   MenuLocation: Kalkulationstabelle , Stile , Text unterstreichen
    Version: 0.17
 ---
 
 # Spreadsheet StyleUnderline/de
 
+
+
 ## Beschreibung
 
-Das unterstrichen erhält.
+Das Werkzeug <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> **Spreadsheet StilUnterstreichen** aktiviert bzw. deaktiviert die Darstellung des Inhalts der ausgewählten Zellen mit unterstrichener Schrift.
+
+
 
 ## Anwendung
 
-1.  Stelle sicher, dass eine aktive **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md)** geöffnet ist, so dass die Schaltfläche aktiviert ist.
-2.  Wähle eine Zelle.
-3.  Drücke die **[<img src=images/Spreadsheet_StyleUnderline.svg style="width:16px"> [Kalkulationstabelle StilUnterstrichen](Spreadsheet_StyleUnderline/de.md)** Schaltfläche.
+1.  Sicherstellen, dass eine [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md) aktiviert ist.
+2.  Eine oder mehrere Zellen auswählen.
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Spreadsheet_StyleUnderline.svg style="width:16px"> [Text unterstreichen](Spreadsheet_StyleUnderline/de.md)** drücken.
+    -   Den Menüeintrag **Kalkulationstabelle → Stile → [<img src=images/Spreadsheet_StyleUnderline.svg style="width:16px"> Text unterstreichen** auswählen.
+    -   Das Tastaturkürzel **Strg** + **U**. {{Version/de|1.1}}
 
 
 

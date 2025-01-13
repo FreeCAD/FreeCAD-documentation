@@ -4,9 +4,9 @@
 
 
 
-Ein [Befehl](Command/de.md) ist das, was ausgeführt wird, wenn Du eine Werkzeugleisten Schaltfläche oder einen Tastenkürzel eingibst. Es kann eine sehr einfache Handlung sein, wie den Zoomfaktor in der [3D Ansicht](3D_view/de.md) ändern oder das Drehen des Blickwinkels, oder ein komplexes System, das Dialogfenster öffnet und darauf wartet, dass der Benutzer bestimmte Aufgaben ausführt.
+Ein [Befehl](Command/de.md) ist das, was ausgeführt wird, wenn eine Schaltfläche einer Symbolleiste gedrückt oder einen Tastenkürzel eingegeben wird. Es kann eine sehr einfache Handlung sein, wie das Ändern des Zoomfaktors der [3D-Ansicht](3D_view/de.md) oder das Drehen des Blickwinkels oder ein komplexes System, das Dialogfenster öffnet und darauf wartet, dass der Benutzer bestimmte Aufgaben ausführt.
 
-Jeder FreeCAD-Befehl hat einen eindeutigen Namen, der in der [Liste aller Befehle](:Category:Command_Reference/de.md)-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem [Python](Python/de.md)-Skript oder der [Python Konsole](Python_console/de.md), ausgeführt werden:
+Jeder FreeCAD-Befehl hat einen eindeutigen Namen, der auf der Seite [:Category:Command Reference](:Category_Command_Reference.md) gelistet wird (bzw. die Übersetzungen auf [:Category:Command Reference/de](:Category:Command_Reference/de.md)). Befehle können über eine Schaltfläche in einer Symbollleiste, einen Menüeintrag oder ein [Python](Python/de.md)-Skript ausgeführt werden bzw. von der [Python-Konsole](Python_console/de.md) aus mit:
 
 
 ```python
@@ -17,17 +17,17 @@ FreeCADGui.runCommand("my_Command_Name")
 
 ## Hintergrund
 
-FreeCAD Befehle sind pro Arbeitsbereich definiert. Arbeitsbereiche werden ihre Befehlsdefinitionen normalerweise zum FreeCAD Programmstartzeitpunkt hinzufügen, so dass der Befehl existiert und verfügbar ist, sobald FreeCAD startet, unabhängig davon, ob der jeweilige Arbeitsbereich aktiviert ist oder nicht. Allerdings könnte der Arbeitsbereichsautor in einigen Fällen entschieden haben, den FreeCAD Startprozess nicht zu überlasten/belasten und deshalb die Befehlsdefinitionen erst bei der Initialisierung des Arbeitsbereichs zu laden. In diesen Fällen ist der Befehl erst nach der Aktivierung des Arbeitsbereichs verfügbar (Du hast wenigstens einmal dorthin mit dem Arbeitsbereichswähler gewechselt).
+FreeCAD-Befehle werden durch einen Arbeitsbereich festgelegt. Arbeitsbereiche fügen ihre Befehlsdefinitionen normalerweise zum FreeCAD-Startzeitpunkt hinzu, so dass ein Befehl existiert und zur Verfügung steht, sobald FreeCAD gestartet wird, unabhängig davon, ob der zugehörige Arbeitsbereich schon aktiviert wurde oder nicht. Allerdings könnte der Author eines Arbeitsbereichs in einigen Fällen entschieden haben, den FreeCAD-Startprozess nicht zu überlasten/belasten und deshalb die Befehlsdefinitionen erst bei der Initialisierung des Arbeitsbereichs zu laden. In diesen Fällen steht der Befehl erst nach der Aktivierung des Arbeitsbereichs zur Verfügung (wenn er wenigstens einmal mit dem Arbeitsbereichswähler dorthin gewechselt wurde).
 
-Da die meisten von ihnen Benutzeraktionen erfordern, sind FreeCAD Befehle nur im GUI-Modus und nicht im Konsolen Modus verfügbar. Der Einfachheit halber haben die meisten FreeCAD Befehle eine entsprechende Python Funktion (wie `Part.makeBox` oder `Draft.makeLine`) oder führen Code aus, der sehr einfach in einem Python Skript und/oder [Makronachgebildet](macros/de.md) werden kann.
+Da die meisten von ihnen das Einwirken des Benutzers erfordern, stehen FreeCAD-Befehle nur im GUI-Modus zur Verfügung und nicht im Konsolen-Modus. Der Einfachheit halber gibt es für die meisten FreeCAD-Befehle eine entsprechende Python-Funktion (wie `Part.makeBox` oder `Draft.makeLine`) oder sie führen Code aus, der sehr einfach in einem Python-Skript und/oder [-Makro](macros/de.md) nachgebildet werden kann.
 
-Befehle können entweder in C++ oder Python festgelegt werden.
+Befehle können entweder in C++ oder in Python festgelegt werden.
 
 
 
 ## In C++ definierte Befehle 
 
-Beispiel einer C++ Befehlsdefinition, in der Regel definiert nach der Struktur **Mod/ModuleName/Gui/Command.cpp**.
+Beispiel einer Befehlsdefinition in C++, üblicherweise der Struktur **Mod/ModuleName/Gui/Command.cpp** folgend festgelegt.
 
 
 {{Code|lang=cpp|code=
@@ -64,7 +64,7 @@ rcCmdMgr.addCommand(new StdCmdMyCommand());
 
 ## In Python definierte Befehle 
 
-Beispiel für eine Python Befehlsdefinition, sie kann in einem Verzeichnis wie **Mod/ModuleName/tools/commands.py** abgelegt werden. 
+Beispiel für eine Befehlsdefinition in Python; sie kann in einem Verzeichnis wie **Mod/ModuleName/tools/commands.py** abgelegt werden. 
 ```python
 from PySide.QtCore import QT_TRANSLATE_NOOP
 
@@ -99,9 +99,9 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 
 ## Beispiele
 
-Siehe [Linienzeichungsfunktion](Line_drawing_function/de.md).
+Siehe [Linienzeichnungsfunktion](Line_drawing_function/de.md).
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem ](Category_Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/de
+⏵ [documentation index](../README.md) > [Command Reference|:Category:Command Reference]] gelistet wird (bzw. die Übersetzungen auf ](Category_Command Reference|:Category:Command Reference]] gelistet wird (bzw. die Übersetzungen auf .md) > [Command Reference/de|:Category:Command Reference/de]]). Befehle können über eine Schaltfläche in einer Symbollleiste, einen Menüeintrag oder ein ](Category_Command Reference/de|:Category:Command Reference/de]]). Befehle können über eine Schaltfläche in einer Symbollleiste, einen Menüeintrag oder ein .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/de

@@ -1,8 +1,8 @@
 ---
  TutorialInfo:l
-   Topic:  Analiza metodą elementów skończonych
-   Level:  Początkujący/średnio zaawansowany
-   Time:  30 minut
+   Topic: Analiza metodą elementów skończonych
+   Level: Początkujący/średnio zaawansowany
+   Time: 30 minut
    Author: http://www.freecadweb.org/wiki/index.php?title=User: HarryvL
    FCVersion: 0.17.12960 lub nowszy
 ---
@@ -17,13 +17,13 @@
 
 ## Wprowadzenie
 
-W tym przykładzie przeanalizujemy deformację postaciową kompozytowego bloku składającego się ze sztywnego rdzenia osadzonego w miękkiej matrycy. Zademonstrowane będzie użycie narzędzi BooleanFragments i CompoundFilter do utworzenia brył dla bloku i matrycy z dwóch współśrodkowych sześcianów. To podejście zapewnia możliwość przypisania obszarów siatki, materiałów i warunków brzegowych osobno dla bloku i otaczającej go matrycy. Do wybrania wewnętrznych obszarów wykorzystamy makrodefinicję autorstwa Markusa Hovorki *(https://github.com/drhooves/SelectionTools)* lub alternatywne podejście. Wyniki z solvera CalculiX wyraźnie pokazują wpływ sztywnego rdzenia na odpowiedź bloku kompozytowego.
+W tym przykładzie przeanalizujemy deformację postaciową kompozytowego bloku składającego się ze sztywnego rdzenia osadzonego w miękkiej matrycy. Zademonstrowane będzie użycie narzędzi BooleanFragments i CompoundFilter do utworzenia brył dla bloku i matrycy z dwóch współśrodkowych sześcianów. To podejście zapewnia możliwość przypisania obszarów siatki, materiałów i warunków brzegowych osobno dla bloku i otaczającej go matrycy. Do wybrania wewnętrznych obszarów wykorzystamy [makro autorstwa Markusa Hovorki](https://github.com/drhooves/SelectionTools) lub alternatywne podejście. Wyniki z solvera CalculiX wyraźnie pokazują wpływ sztywnego rdzenia na odpowiedź bloku kompozytowego.
 
 
 
 ## Geometria
 
-Najpierw utworzymy dwie współśrodkowe kostki, jedną o rozmiarze 10mm a drugą o rozmiarze 5mm. Robimy to w środowisku pracy [Część](Part_Module/pl.md). Domyślnie sześcian jest umieszczony w środku układu współrzędnych \[0,0,0\]. więc mniejszy sześcian należy przeskalować i przesunąć poprzez zmianę ustawień w zakładce Dane panelu właściwości. Aby uczynić rdzeń widocznym, przezroczystość zewnętrznego bloku jest ustawiana na 50 w zakładce Widok panelu właściwości. Wynik jest pokazany poniżej.
+Najpierw utworzymy dwie współśrodkowe kostki, jedną o rozmiarze 10mm a drugą o rozmiarze 5mm. Robimy to w środowisku pracy [Część](Part_Workbench/pl.md). Domyślnie sześcian jest umieszczony w środku układu współrzędnych \[0,0,0\]. więc mniejszy sześcian należy przeskalować i przesunąć poprzez zmianę ustawień w zakładce Dane panelu właściwości. Aby uczynić rdzeń widocznym, przezroczystość zewnętrznego bloku jest ustawiana na 50 w zakładce Widok [Edytora właściwości](Property_editor.md). Wynik jest pokazany poniżej.
 
 <img alt="" src=images/Pic1.png  style="width:700px;">
 

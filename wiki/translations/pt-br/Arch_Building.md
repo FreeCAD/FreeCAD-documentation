@@ -1,28 +1,36 @@
 ---
  GuiCommand:
    Name: Arch Building
-   MenuLocation: Arch , Building
-   Workbenches: Arch_Workbench
+   MenuLocation: 3D/BIM , Building
+   Workbenches: BIM_Workbench
    Shortcut: **B** **U**
-   SeeAlso: Arch_BuildingPart, Arch_Site
+   SeeAlso: 
 ---
 
 # Arch Building/pt-br
+
+
 
 ## Descrição
 
 The Arch Building is a special type of FreeCAD group object particularly suited for representing a whole building unit. They are mostly used to organize your model, by containing [floor](Arch_Floor.md) objects.
 
+
+
 ## Utilização
 
 1.  Optionally, select one or more objects to be included in your new building.
-2.  Press the **<img src="images/Arch_Building.svg" width=16px> [Arch Building](Arch_Building.md)** button, or press the **B** then **U** keys.
+2.  Press the **<img src="images/Arch_Building.svg" width=16px> [Building](Arch_Building.md)** button, or press the **B** then **U** keys.
+
+
 
 ## Opções
 
 -   Starting from FreeCAD version 0.18, the Building object is actually a [BuildingPart](Arch_BuildingPart.md) with its **IFC Type** property set to \"Building\". You can convert any BuildingPart to a Building simply by changing its IFC Type.
 -   After creating a building, you can add more objects to it by drag and dropping them in the Tree View or by using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
 -   You can remove objects from a building by drag and dropping them out of it the Tree View or by using the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
+
+
 
 ## Propriedades
 
@@ -73,6 +81,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/pt-br
+⏵ [documentation index](../README.md) > Arch Building/pt-br

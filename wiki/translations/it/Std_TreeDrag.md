@@ -32,7 +32,7 @@ Il comando **Avvia il trascinamento** avvia un\'operazione di trascinamento per 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

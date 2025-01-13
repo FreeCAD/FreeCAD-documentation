@@ -30,11 +30,15 @@ Si un test ne nécessite pas l\'interface graphique, il peut également être ex
 freecad -c -t TestPartDesignApp
 ```
 
+
+
 ## Menu Test 
 
 Chaque répertoire de niveau supérieur de FreeCAD doit contenir un fichier avec les tests pouvant être exécutés pour cet atelier ou ce module particulier. Le fichier commence généralement par le mot `Test`.
 
 Pour exécuter un test depuis FreeCAD, passez à l\'atelier Test puis **Commandes de test → TestToolsGui → Autotest → Sélectionnez le nom du test**, puis entrez le nom du fichier Python avec les tests. Par exemple, pour l\'[atelier Draft](Draft_Workbench/fr.md), il s\'agirait de **TestDraft** puis appuyez sur **Start**.
+
+
 
 ## Fonctions de test 
 
@@ -80,7 +84,7 @@ Ajoute la fonction de test
 
 Ajoute la fonction de test
 
-### TestPathApp
+### TestCAMApp
 
 Exemples de tests pour l\'atelier Path :
 
@@ -124,12 +128,16 @@ Ajoute la fonction de test
 
 Ajoute la fonction de test
 
+
+
 ## Script
 
 
 **Voir aussi:**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
+
+
 
 ### Recevoir une liste de tous les modules de test de premier niveau 
 
@@ -139,6 +147,8 @@ FreeCAD.__unit_test__
 ```
 
 Notez que les modules de test retournés ici dépendent de la présence ou non d\'une interface graphique. C\'est-à-dire que lorsqu\'ils sont exécutés en mode console, les différents tests se terminant par \"Gui\" sont absents.
+
+
 
 ### Lancer des tests spécifiques 
 
@@ -155,6 +165,8 @@ Exécute tous les tests définis dans une classe de Python :
 import Test, femtest.app.test_solver_calculix
 Test.runTestsFromClass(femtest.app.test_solver_calculix.TestSolverCalculix)
 ```
+
+
 
 ### Exemple 1 
 
@@ -175,7 +187,11 @@ r = unittest.TextTestRunner()
 r.run(suite)
 ```
 
+
+
 ## Ressources additionnelles 
+
+
 
 ### Sujets du forum 
 

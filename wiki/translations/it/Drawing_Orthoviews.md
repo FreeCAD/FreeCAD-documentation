@@ -59,13 +59,6 @@ Viste ortogonali di Drawing non è richiamabile negli script. Negli script, con 
 Da fare
 
 
-
-## Tutorial
-
--   [Tutorial di Drawing](Drawing_tutorial/it.md), Introduzione alla creazione di disegni tecnici con l\'ambiente Drawing
--   [Manuale: Generare disegni 2D](Manual:Generating_2D_drawings/it.md) con l\'ambiente Drawing e l\'addon Drawing Dimensioning.
-
-
 {{docnav/it
 |[Apri Browser](Drawing_Openbrowser/it.md)
 |[Simbolo](Drawing_Symbol/it.md)

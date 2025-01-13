@@ -178,7 +178,7 @@ Um periodische B-Splines (B-Splines, die eine geschlossene Kurve bilden) zu erst
 
 ![](images/Sketcher_Periodic-B-spline-creation.gif )
 
-B-Splines können auch aus bestehenden Skizzen Segmenten erzeugt werden. Markiere dazu die Elemente und drücke den Werkzeugleistenknopfltfläche **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Geometrie in B-Spline umwandeln](Sketcher_BSplineApproximate/de.md)**.
+B-Splines können auch aus bestehenden Skizzen-Segmenten erzeugt werden. Dazu die Elemente auswählen und drücke die Schaltfläche **[<img src=images/Sketcher_BSplineConvertToNURBS.svg style="width:24px"> [Geometrie in B-Spline wandeln](Sketcher_BSplineConvertToNURBS/de.md)** drücken.
 
 Während der Erstellung eines B-Splines kann sein Grad angegeben werden, indem die Taste **D** gedrückt wird. Hiermit kann die Voreinstellung, die Erstellung eines kubischen B-Splines, überschrieben werden. {{Version/de|0.20}}
 

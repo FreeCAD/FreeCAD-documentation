@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch CloseHoles
-   MenuLocation: Arch , Utilities , Close holes
-   Workbenches: Arch_Workbench
+   MenuLocation: Utils , Close holes
+   Workbenches: BIM_Workbench
    SeeAlso: Arch_Check
 ---
 
@@ -15,7 +15,7 @@ This tool identifies holes (circular sequence of open edges) in a [Shape](Part_W
 ## Usage
 
 1.  Select a [Shape](Part_Workbench.md) object.
-2.  Press the **<img src="images/Arch_CloseHoles.svg" width=16px> [Close Holes](Arch_CloseHoles.md)** entry in **Arch → Utilities → Close Holes**.
+2.  Select the **Utils → <img src="images/Arch_CloseHoles.svg" width=16px> Close holes** option from the menu.
 
 ## Scripting
 
@@ -55,5 +55,10 @@ solid = Arch.closeHole(Wall.Shape)
 
 
 
+
+ {{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles
+⏵ [documentation index](../README.md) > Arch CloseHoles

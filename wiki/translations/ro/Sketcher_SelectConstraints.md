@@ -9,7 +9,13 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Selectați constrângerile unui element al schiței.
+
+
+</div>
 
 
 

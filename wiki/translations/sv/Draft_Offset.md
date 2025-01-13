@@ -54,7 +54,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 ## Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 -   If the **OCC-style offset** checkbox is checked a special offset style is used: open [Draft Wires](Draft_Wire.md) are offset on both sides, and new edges are connected with rounded corners. This only works for planar objects with at least two edges. Note that with this style a new non-parametric object is created, and if copy mode is off the original object is deleted.
 -   Press **C** or click the **Copy** checkbox to toggle copy mode. If copy mode is on, the command will create an offset copy instead of offsetting the original object.

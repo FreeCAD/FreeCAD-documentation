@@ -5,8 +5,8 @@
    MenuLocation: Rysunek Techniczny , Rozszerzenie: Atrybuty / Modyfikatory , Oblicz długość łuku dla zaznaczonych krawędzi
    Workbenches: TechDraw_Workbench/pl
    Shortcut: 
-   Version: 0.22
-   SeeAlso: TechDraw_ExtensionAreaAnnotation/pl
+   Version: 1.0
+   SeeAlso: TechDraw_ExtensionCreateLengthArc/pl
 ---
 
 # TechDraw ExtensionArcLengthAnnotation/pl

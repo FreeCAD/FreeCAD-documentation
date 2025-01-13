@@ -4,6 +4,8 @@
 
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Introduction
@@ -55,6 +57,8 @@ To run a test from within FreeCAD, switch to the Test Workbench, then **Test com
 This is the list of test apps as of 0.15 git 4207:
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### TestAPP.All
@@ -102,7 +106,7 @@ Add test function
 
 Add test function
 
-### TestPathApp
+### TestCAMApp
 
 Path workbench test cases:
 

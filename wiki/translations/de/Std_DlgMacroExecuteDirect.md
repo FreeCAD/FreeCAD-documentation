@@ -10,19 +10,25 @@
 
 # Std DlgMacroExecuteDirect/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std MakroDirektAusführen** Führt das Makroaus, das sich im aktiven Makroeditorfenster befindet.
 
+
+
 ## Anwendung
 
-1.  Wenn erforderlich, das richtige Makro im Makroeditor öffnen. Siehe Befehl [Std DlgMakroAusführen](Std_DlgMacroExecute/de.md).
+1.  Wenn erforderlich, das richtige Makro im Makroeditor öffnen. Siehe [Std DlgMakroAusführen](Std_DlgMacroExecute/de.md).
 2.  Sicherstellen, dass der Eingabefokus auf dem Makroeditorfenster liegt.
-3.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Makro ausführen](Std_DlgMacroExecuteDirect/de.md)** drücken.
     -   Den Menüeintrag **Makro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> Makro ausführen** auswählen.
     -   Das Tastaturkürzel **Ctrl**+**F6**.
 4.  Das Makro wird ausgeführt.
+
+
 
 ## Hinweise
 
@@ -32,7 +38,7 @@ Der Befehl **Std MakroDirektAusführen** Führt das Makroaus, das sich im aktive
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

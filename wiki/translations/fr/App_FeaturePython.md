@@ -3,13 +3,15 @@
 
 Un objet <img alt="" src=images/Feature.svg  style="width:32px;"> [App FeaturePython](App_FeaturePython/fr.md), ou officiellement `App::FeaturePython`, est une simple instance de [App DocumentObject](App_DocumentObject/fr.md) dans [Python](Python/fr.md).
 
-Il s\'agit d\'un objet simple qui, par défaut, n\'a pas beaucoup de propriétés, par exemple il n\'a pas de [Positionnement](Placement/fr.md) ou de [forme topologique](Part_TopoShape/fr.md). En fonction des propriétés qui lui sont attribuées, il peut être utilisé pour gérer différents types de données.
+Il s\'agit d\'un objet simple qui, par défaut, n\'a pas beaucoup de propriétés, par exemple il n\'a pas de [positionnement](Placement/fr.md) ou de [forme topologique](Part_TopoShape/fr.md). En fonction des propriétés qui lui sont attribuées, il peut être utilisé pour gérer différents types de données.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
 *Diagramme simplifié des relations entre les objets centraux dans Freecad*
+
+
 
 ## Utilisation
 
@@ -19,13 +21,17 @@ Par exemple, les éléments [Draft Text](Draft_Text/fr.md), [Draft Dimension](Dr
 
 Si l\'objet désiré doit avoir un placement, une forme, un attachement ou d\'autres propriétés complexes, il est préférable de créer une des classes plus complexes, par exemple, [App GeoFeature](App_GeoFeature/fr.md), [Part Feature ](Part_Feature/fr.md) ou [Part Part2DObject](Part_Part2DObject/fr.md).
 
+
+
 ## Propriétés
 
 Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les objets scriptés peuvent avoir.
 
 La classe [App FeaturePython](App_FeaturePython/fr.md) (classe `App::FeaturePython`) est dérivée de la classe de base [App DocumentObject](App_DocumentObject/fr.md). (classe `App::DocumentObject`) et hérite de toutes ses propriétés. Il possède également plusieurs propriétés supplémentaires.
 
-Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](Property_editor/fr.md).
+Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Tout afficher** dans le menu contextuel de l\'[éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ### Données
 
@@ -41,6 +47,8 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property
 -    {{PropertyData/fr|Expression Engine|ExpressionEngine|Hidden}}: une liste d\'expressions. Par défaut vide {{value|[]}}.
 
 -    {{PropertyData/fr|Visibility|Bool|Hidden}}: affiche ou non l\'objet.
+
+
 
 ### Vue
 
@@ -64,6 +72,8 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property
 -    **On Top When Selected|Enumeration**: il contrôle la manière dont la sélection s\'effectue dans la [Vue 3D](3D_view/fr.md) si l\'objet a une [Shapeet](Part_TopoShape/fr.md) s\'il y a de nombreux objets partiellement couverts par d\'autres. La valeur par défaut est {{value|Disabled}}, ce qui signifie qu\'aucune mise en évidence spéciale ne se produira; {{value|Enabled}} signifie que l\'objet apparaîtra au-dessus de tout autre objet lorsqu\'il est sélectionné; {{value|Object}} signifie que l\'objet n\'apparaîtra en haut que si l\'objet entier est sélectionné dans la [Vue en arborescence](Tree_view/fr.md); {{value|Element}} signifie que l\'objet n\'apparaîtra en haut que si un sous-élément (sommet, arête, face) est sélectionné dans la [Vue 3D](3D_view/fr.md).
 
 -    **Selection Style|Enumeration**: il contrôle la façon dont l\'objet est mis en évidence s\'il a une [Shape](Part_TopoShape/fr.md). Si c\'est {{value|Shape}}, la forme entière (sommets, arêtes et faces) sera mise en surbrillance dans la [Vue 3D](3D_view/fr.md); s\'il s\'agit de {{value|BoundBox}}, un cadre de délimitation apparaîtra autour de l\'objet et sera mis en surbrillance.
+
+
 
 ## Script
 

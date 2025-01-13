@@ -1,42 +1,23 @@
 # Macro PartToVRML/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro Macro PartToVRML
 |Icon=PartToVRML.png
-|Translate=Da Part a VRML
-|Description=Converte le parti selezionate in mesh VRML.|Author=Easyw-fc
+|Description=Questa macro converte le parti selezionate in mesh VRML.
+|Author=Easyw-fc
+|Download=[https://wiki.freecad.org/images/f/f8/PartToVRML.png Icona della barra degli strumenti]
 |Version=1.9.2
 |Date=2016-02-22
 }}
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
 Questa macro converte le parti selezionate in mesh VRML per caricare velocemente oggetti di piccole dimensioni (è compatibile con modelli VRML Kicad e Blender)
 
-
-</div>
-
 ## Script
 
-
-<div class="mw-translate-fuzzy">
-
-## Script 
-
 L\'icona ![](images/PartToVRML.png )
-
-
-</div>
 
 **Macro_PartToVRML.FCMacro**
 

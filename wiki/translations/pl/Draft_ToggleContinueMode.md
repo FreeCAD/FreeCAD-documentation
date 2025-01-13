@@ -3,7 +3,7 @@
    Name: Draft ToggleContinueMode
    Name/pl: Rysunek Roboczy: Przełącz tryb kontynuacji
    MenuLocation: Narzędzia , Przełącz tryb kontynuacji
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
 ---
 
 # Draft ToggleContinueMode/pl

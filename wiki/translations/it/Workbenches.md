@@ -19,13 +19,19 @@ I seguenti ambienti di lavoro sono inclusi in ogni installazione di FreeCAD:
 
 -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Menu di Base](Std_Base/it.md). Questo non è realmente un ambiente di lavoro, ma piuttosto una categoria di comandi e strumenti \"standard\" che possono essere utilizzati in tutti gli ambienti di lavoro.
 
--   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Ambiente Architettura](Arch_Workbench/it.md) per lavorare con elementi architettonici.
+-   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> [Ambiente Assembly](Assembly_Workbench/it.md) per costruire e risolvere assiemi meccanici. {{Version/it|1.0}}
+
+-   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> [Ambiente BIM](BIM_Workbench/it.md) per lavorare con elementi architettonici e creare modelli [BIM](https://en.wikipedia.org/wiki/Building_information_modeling). Combina l\'ambiente Arch e l\'ambiente BIM precedentemente disponibile come ambiente complementare nella {{VersionMinus/it|0.21}}.
+
+-   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> [Ambiente CAM](CAM_Workbench/it.md) viene utilizzato per produrre istruzioni G-Code. Questo ambiente di lavoro era chiamato \"Path Workbench\" nella {{VersionMinus/it|0.21}}.
 
 -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Ambiente Draft](Draft_Workbench/it.md) contiene strumenti 2D e operazioni CAD 2D e 3D di base.
 
 -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [Ambiente FEM](FEM_Workbench/it.md) fornisce un flusso di lavoro di analisi agli elementi finiti (FEA).
 
 -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [Ambiente Inspection](Inspection_Workbench/it.md) è realizzato per fornirti strumenti specifici per l\'esame delle forme. È ancora nelle prime fasi di sviluppo.
+
+-   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> [Ambiente Material](Material_Workbench/it.md) gestisce il sistema dei materiali di FreeCAD. {{Version/it|1.0}}
 
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Ambiente Mesh](Mesh_Workbench/it.md) per lavorare con maglie triangolari.
 
@@ -34,8 +40,6 @@ I seguenti ambienti di lavoro sono inclusi in ogni installazione di FreeCAD:
 -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Ambiente Part](Part_Workbench/it.md) per lavorare con primitive geometriche ed operazioni booleane.
 
 -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Ambiente Part Design](PartDesign_Workbench/it.md) per la costruzione di forme di parti da schizzi.
-
--   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Ambiente Path](Path_Workbench/it.md) viene utilizzato per produrre istruzioni G-Code.
 
 -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [Ambiente Punti](Points_Workbench/it.md) per lavorare con nuvole di punti.
 
@@ -47,19 +51,21 @@ I seguenti ambienti di lavoro sono inclusi in ogni installazione di FreeCAD:
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [Ambiente Foglio di calcolo](Spreadsheet_Workbench/it.md) per la creazione e la manipolazione di dati in un foglio di calcolo.
 
--   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [Ambiente Start](Start_Workbench/it.md) consente di passare rapidamente agli ambienti di lavoro più comuni.
-
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Ambiente Superficie](Surface_Workbench/it.md) fornisce strumenti per creare e modificare le superfici. È simile al [Part Builder](Part_Builder/it.md) con l\'opzione faccia dai bordi.
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [Ambiente TechDraw](TechDraw_Workbench/it.md) per la produzione di disegni tecnici da modelli 3D. È il successore dell\'[Ambiente Disegno Tecnico](Drawing_Workbench/it.md).
 
 -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Ambiente di Test](Testing/it.md) serve per il debug di FreeCAD.
 
--   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Ambiente Web](Web_Workbench/it.md) fornisce una finestra del browser invece della [vista 3D](3D_view/it.md) all\'interno di FreeCAD.
-
 
 
 ### Obsoleto
+
+I seguenti ambienti di lavoro non sono più inclusi dalla versione 0.21:
+
+-   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [Ambiente Start](Start_Workbench/it.md) consente di passare rapidamente agli ambienti di lavoro più comuni.
+
+-   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Ambiente Web](Web_Workbench/it.md) fornisce una finestra del browser invece della [vista 3D](3D_view/it.md) all\'interno di FreeCAD.
 
 I seguenti ambienti di lavoro non sono più inclusi dopo la versione 0.20:
 

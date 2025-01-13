@@ -9,9 +9,9 @@ Visit [tutorials](tutorials.md) for high quality written tutorials. A complete, 
 
 ## Architectural design 
 
-Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench.md), and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
+Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md) and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
 
--   [Yorik van Havre playlists](https://www.youtube.com/user/yorikvanhavre/playlists): the [Arch Workbench](Arch_Workbench.md) main developer has various lists on FreeCAD for building modeling as well as general architecture.
+-   [Yorik van Havre playlists](https://www.youtube.com/user/yorikvanhavre/playlists): the [BIM Workbench](BIM_Workbench.md) main developer has various lists on FreeCAD for building modeling as well as general architecture.
     -   [Presentation of FreeCAD\'s Arch Workbench](https://www.youtube.com/watch?v=lTDOeHapv_E): FreeCAD 0.16, presentation for #ODC2016PN.
     -   [BIM with FreeCAD - Introduction](https://www.youtube.com/watch?v=rkWOFQ2fGZQ): general introduction to FreeCAD 0.17.
     -   [BIM with FreeCAD](https://www.youtube.com/watch?v=QhDMhYvxPO4&list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU): FreeCAD 0.17 to 0.19, general videos on BIM and and Arch Workbench, including setup, building walls, windows, using 2D objects, and expressions.

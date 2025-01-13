@@ -9,9 +9,12 @@
 
 # Arch Reference/ru
 
-## Описание
 
-<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
+</div>
+
+
+
+## Описание
 
 
 <div class="mw-translate-fuzzy">
@@ -20,6 +23,16 @@
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
+
+<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
+
+
+</div>
+
+
 
 ## Применение
 
@@ -35,6 +48,8 @@
 
 </div>
 
+
+
 ## Опции
 
 -   The reference object can be moved and rotated, the current position will be retained after reloading the object.
@@ -42,6 +57,8 @@
 -   By right-clicking a Reference object in the tree view, you have the options to reload the original object, or open the containing file.
 -   To reference several objects at once, place them inside an [Arch BuildingPart](Arch_BuildingPart.md).
 -   When turning off the **Update Colors** view property of the Reference, it won\'t reload the original colors anymore, so you can safely change them.
+
+
 
 ## Свойства
 
@@ -51,22 +68,42 @@
 
 -    **Update Colors**: If true, the colors from the linked file will be kept updated
 
+
+
 ## Программирование
 
-The Reference tool can by used in [macros](macros.md) and from the python console by using the following function: 
+The Reference tool can by used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
-makeReference ([file_path,object_name])
+reference = makeReference([filepath], [partname], [name])
 ```
 
-creates a Reference object from the given object in the given file.
+Creates a `reference` object named `name` from the object `partname` in the file `filepath`. All arguments are optional.
 
-Пример: 
+Пример:
+
+
 ```python
 import Arch
-Arch.makeReference("/path/to/some/file.FSCtd","myPart")
+Arch.makeReference("/path/to/some/file.FSCtd", "myPart")
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/ru
+⏵ [documentation index](../README.md) > Arch Reference/ru

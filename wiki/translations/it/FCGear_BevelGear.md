@@ -2,100 +2,125 @@
  GuiCommand:
    Name: FCGear BevelGear
    Name/it: Ingranaggio conico
-   MenuLocation: FCGear , Create a Bevel gear
-   Workbenches: FCGear Workbench/it
-   Version: 0.16
+   MenuLocation: Gear , Bevel Gear
+   Workbenches: FCGear_Workbench/it
+   Version: v0.16
 ---
 
 # FCGear BevelGear/it
 
 
-</div>
 
 ## Descrizione
 
-Partly because of the noise they generate, bevel gears are not used as often as other types of gear. But they are still used in certain sectors, such as food packaging and canned food, lawn and garden equipment, machines such as drills and mills, compression systems for the gas and oil market and flow control valves.
+Lo strumento <img alt="" src=images/FCGear_BevelGear.svg  style="width:24px;"> [FCGear BevelGear](FCGear_BevelGear/it.md) crea un ingranaggio conico di base, un oggetto solido che deve essere modificato per ottenere la forma finale corretta nei passaggi seguenti.
 
-Spiral bevel gears have curved teeth to provide softer engagement and greater tooth to tooth contact compared to a straight bevel gear. This reduces the vibration and noise. They can be used at high speeds and are typically used in motorcycle and bicycle transmissions.
+In parte a causa del rumore che generano, gli ingranaggi conici non vengono utilizzati così spesso come altri tipi di ingranaggi. Ma vengono ancora utilizzati in alcuni settori, come gli imballaggi alimentari e le conserve, le attrezzature per prati e giardini, macchine come trapani e frese, sistemi di compressione per il settore del gas e del petrolio e valvole di controllo del flusso.
+
+Gli ingranaggi conici a spirale hanno denti curvi per fornire un innesto più morbido e un maggiore contatto dente a dente rispetto a un ingranaggio conico dritto. Ciò riduce le vibrazioni e il rumore. Possono essere utilizzati a velocità elevate e sono generalmente utilizzati nelle trasmissioni di motociclette e biciclette.
 
 ![](images/Bevel-Gear_example.png ) 
-*From left to right: Spur gearing, spiral gearing*
+*Da sinistra a destra: ingranaggio cilindrico, ingranaggio a spirale*
 
-## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_BevelGear.svg style="width:16px"> [Bevel Gear](FCGear_BevelGear.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_BevelGear.svg style="width:16px"> Bevel Gear** option from the menu.
-3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
 
-## Properties
+## Utilizzo
 
-An FCGear BevelGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+1.  Passare a <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/it.md).
+2.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **[<img src=images/FCGear_BevelGear.svg style="width:16px"> [Bevel Gear](FCGear_BevelGear/it.md)** nella barra degli strumenti.
+    -   Selezionare l\'opzione **Gear → [<img src=images/FCGear_BevelGear.svg style="width:16px"> Bevel Gear** dal menu.
+3.  Viene creato un oggetto BevelGear in base alle impostazioni predefinite.
+4.  Modificare il parametro dell\'ingranaggio alle condizioni richieste (vedere [Proprietà](#Proprietà.md)).
 
-### Data
+
+
+## Proprietà
+
+Vedere anche: l\'[Editor delle proprietà](Property_editor/it.md).
+
+Un oggetto FCGear BevelGear deriva da un oggetto [Part Feature](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{Properties_Title|base}}
 
--    **height|Length**: Default is {{Value|5}}. Value for the bevel gear width.
+-    **height|Length**: L\'impostazione predefinita è {{Value|5}}. Valore della larghezza dell\'ingranaggio conico, misurato dal cerchio primitivo.
 
--    **module|Length**: Default is {{Value|1}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
+-    **module|Length**: L\'impostazione predefinita è {{Value|1}}. Il modulo è il rapporto tra il diametro primitivo dell\'ingranaggio diviso per il numero di denti (vedere [Note](#Note.md)).
 
--    **reset_origin|Bool**: If {{True}} (default) the center of the axis is at the center of the bottom of the gear (see [Notes](#Notes.md)).
+-    **reset_origin|Bool**: Se {{True}} (predefinito) l\'origine dell\'ingranaggio è al centro del cerchio primitivo (parte inferiore dell\'ingranaggio) (vedere [Note](#Note.md)).
 
--    **teeth|Integer**: Default is {{Value|15}}. Number of teeth.
+    :   Se {{False}} l\'origine dell\'ingranaggio è all\'estremità del cono primitivo.
+
+-    **teeth|Integer**: L\'impostazione predefinita è {{Value|15}}. Numero di denti.
 
 
 {{Properties_Title|computed}}
 
--    **angular_backlash|Angle**: (read-only)
+-    **angular_backlash|Angle**: (sola lettura)
 
--    **dw|Length**: (read-only) Working pitch diameter.
+-    **dw|Length**: (sola lettura) Diametro primitivo di lavoro.
 
 
 {{Properties_Title|helical}}
 
--    **beta|Angle**: Default is {{Value|0 °}}. With the helix angle β a helical bevel gear is created -- positive value → rotation direction right, negative value → rotation direction left.
+-    **beta|Angle**: il valore predefinito è {{Value|0 °}}. Con l\'angolo dell\'elica β viene creato un ingranaggio conico elicoidale -- valore positivo → senso di rotazione destra, valore negativo → senso di rotazione sinistra.
 
 
 {{Properties_Title|involute}}
 
--    **pitch_angle|Angle**: Default is {{Value|45 °}}. Angle of taper.
+-    **pitch_angle|Angle**: L\'impostazione predefinita è {{Value|45 °}}. Angolo di apertura del cono primitivo..
 
 
 {{Properties_Title|involute_parameter}}
 
--    **pressure_angle|Angle**: Default is {{Value|20 °}} (see [Notes](#Notes.md)).
+-    **pressure_angle|Angle**: Il valore predefinito è {{Value|20 °}} (vedere [Note](#Note.md)).
 
 
 {{Properties_Title|precision}}
 
--    **numpoints|Integer**: Default is {{Value|6}}. Change of the involute profile. Changing the value can lead to unexpected results.
+-    **numpoints|Integer**: L\'impostazione predefinita è {{Value|6}}. Modifica del profilo dell\'evolvente. La variazione del valore può portare a risultati imprevisti.
 
 
 {{Properties_Title|tolerance}}
 
--    **backlash|Length**: Default is {{Value|0}}. Backlash, also called lash or play, is the distance between the teeth at a gear pair.
+-    **backlash|Length**: L\'impostazione predefinita è {{Value|0}}. Il gioco, chiamato anche spazio o aria, è la distanza tra i denti di una coppia di ingranaggi.
 
--    **clearance|Float**: Default is {{Value|0.1}} (see [Notes](#Notes.md)).
+-    **clearance|Float**: Il valore predefinito è {{Value|0.1}} (vedere [Note](#Note.md)).
 
 
 {{Properties_Title|version}}
 
 -    **version|String**:
 
-## Notes
 
--    **clearance**: At a gear pair, clearance is the distance between the tooth tip of the first gear and the tooth root of the second gear.
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
+## Note
 
--    **reset_origin**: It can be advantageous for mounting purposes if the parameter is set to **false**. The origin of the body is then at the tip of the pitch cone.
 
--    **pressure_parameter**: Only change the parameter, if sufficient knowledge of the gear geometry is available.
+<div class="mw-translate-fuzzy">
 
-## Useful formulas 
+-    **clearance**: In una coppia di ingranaggi, il gioco è la distanza tra la testa del dente del primo ingranaggio e il piede del dente del secondo ingranaggio.
+
+-    **module**: Utilizzando le linee guida ISO (Organizzazione internazionale per la standardizzazione), la dimensione del modulo è designata come l\'unità che rappresenta le dimensioni dei denti degli ingranaggi. Modulo (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). Se si moltiplica il Modulo per Pi, si può ottenere la Lunghezza (p). Il passo è la distanza tra i punti corrispondenti sui denti adiacenti.
+
+-    **reset_origin**: Può essere vantaggioso per scopi di montaggio che il parametro sia impostato su **false**. L\'origine del corpo è quindi all\'estremità del passo del cono.
+
+-    **pressure_parameter**: Modificare il parametro solo se si dispone di una conoscenza sufficiente della geometria dell\'ingranaggio.
+
+
+</div>
+
+
+
+## Formule utili 
+
+
+<div class="mw-translate-fuzzy">
 
 -    **pitch diameter**= **module** \* **teeth**
 
@@ -111,7 +136,10 @@ An FCGear BevelGear object is derived from a [Part Feature](Part_Feature.md) obj
 
 -    **axis angle total**= **reference cone angle 1** + **reference cone angle 2**
 
-Substantive reference cone angle \[TECH.\]
+
+</div>
+
+Angolo del cono di riferimento \[TECH.\]
 
 
 <div class="mw-translate-fuzzy">

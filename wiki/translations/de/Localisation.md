@@ -70,15 +70,15 @@ Als das Wiki von SourceForge wegging, installierte [Yorik](User_Yorik.md) [Media
 
 Das Werkzeug ist in [Help:Extension:Translate](http://www.mediawiki.org/wiki/Help:Extension:Translate) dokumentiert und ist ein Teil eines [Mediawiki Spracherweiterungsbündels](http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle).
 
-Um schnell mit der Vorbereitung einer Seite für die Übersetzung zu beginnen, bitte das Beispiel [Seitenübersetzungsbeispiel](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example) lesen. Im Wesentlichen ein Paar von
+Um schnell mit der Vorbereitung einer Seite für die Übersetzung zu beginnen, bitte das Beispiel [Seitenübersetzungsbeispiel](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example) lesen. Ein Tag-Paar muss die gesamte Seite umklammern, um das Übersetzungssystem zu aktivieren.
 
     &lt;translate&gt; ... &lt;/translate&gt;
 
-Kennzeichen müssen die gesamte Seite umgeben, um das Übersetzungssystem zu aktivieren, und die Seite muss zur Übersetzung markiert werden.
+Die Seite muss außerdem für die Übersetzung markiert werden.
 
 Um ein Beispiel für die Funktionsweise des Übersetzungswerkzeugs zu sehen, besuche die [Hauptseite](Main_Page/de.md). Du wirst oben eine automatisch generierte Sprachleiste sehen. Klicke auf [Deutsch](Main_Page/de.md) (deutsch), es bringt dich zu [Main Page/de](Main_Page/de.md). Direkt unter dem Titel \"Hauptseite\" (engl. \"Main Page\") kannst du lesen , wobei XX der aktuelle Prozentsatz der Übersetzung ist. Klicke oben auf der Seite auf \"Übersetzen\", um das Übersetzungsprogramm zu starten, mit dem Du die bestehende Übersetzung aktualisieren, korrigieren und überprüfen kannst.
 
-Wenn du zur [Hauptseite](Main_Page/de.md) gehst, wirst du feststellen, dass du die Seite nicht mehr direkt bearbeiten kannst, indem du auf die \[Bearbeiten\] klickst, und der obere Link \"Bearbeiten\" wurde durch den Link \"Übersetzen\" ersetzt, der das Übersetzungsprogramm öffnet.
+Wechselt man zur [Hauptseite](Main_Page/de.md), wird man feststellen, dass die Seite nicht mehr direkt bearbeitet werden kann, indem man auf die Verknüpfungen \[Bearbeiten\] klickt, und die obere Verknüpfung \"Bearbeiten\" wurde durch die Verknüpfung \"Übersetzen\" ersetzt, die das Übersetzungsprogramm öffnet.
 
 Wenn ein neuer Inhalt hinzugefügt wird, sollte die englische Seite zuerst erstellt und dann in eine andere Sprache übersetzt werden. Wenn ein Inhalt geändert oder ergänzt werden soll, sollte das zuerst in der englischen Seite gemacht werden.
 
@@ -178,12 +178,6 @@ Alles danach, soweit es einen Entwickler betrifft, wird automatisch durchgeführ
 Drittanbietermodule oder Makros von werden in ähnlicher Weise übersetzt, nur daß du einen Teil der Arbeit selbst erledigen musst. Diese [Forumsdiskussion](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) beschreibt die Details.
 
 -   \* Aktualisierung: Siehe [Übersetzen eines externen Arbeitsbereichs](Translating_an_external_workbench/de.md)
-
-
-
-### Ältere Modulübersetzungstechniken 
-
-[Lokalisierung älterer Methoden](Localization_Older_Methods/de.md) beschreibt den Einsatz von Übersetzungswerkzeugen wie Qt Linguist, lupdate, lrelease, pylupdate4, usw. im Detail. Das meiste davon ist für FreeCAD/master Module nicht mehr erforderlich, kann aber bei der Vorbereitung und Aktualisierung von Modulen von Drittanbietern hilfreich sein.
 
 
 

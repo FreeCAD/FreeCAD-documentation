@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Split
    Name/de: Draft Teilen
-   MenuLocation: Änderung , Teilen
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Änderung , Teilen<br>Bearbeiten , Teilen
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **S** **P**
    Version: 0.18
    SeeAlso: Draft_Join/de
@@ -25,7 +25,9 @@ Der Befehl <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Draft 
 
 #\* Die Schaltfläche **<img src="images/Draft_Split.svg" width=16px> [Teilen](Draft_Split/de.md)** drücken.
 
-#\* Den Menüeintrag **Änderung → <img src="images/Draft_Split.svg" width=16px> Teilen** auswählen.
+#\* [Draft](Draft_Workbench/de.md): Den Menüeintrag **Änderung → <img src="images/Draft_Split.svg" width=16px> Teilen** auswählen.
+
+#\* [BIM](BIM_Workbench/de.md): Den Menüeintrag **Bearbeiten → <img src="images/Draft_Split.svg" width=16px> Split** auswählen.
 
 #\* Das Tastaturkürzel **S** dann **P**.
 
@@ -50,7 +52,7 @@ Der Befehl <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Draft 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um einen Polylinie zu teilen, wird die Methode `split` des Moduls Draft verwendet. Diese Methode gibt `None` zurück.
 

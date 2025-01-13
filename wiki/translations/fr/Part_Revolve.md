@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part_Revolve
    Name/fr: Part Révolution
-   MenuLocation: Part , Révolution...
+   MenuLocation: Part , Créer une révolution...
    Workbenches: Part_Workbench/fr
 ---
 

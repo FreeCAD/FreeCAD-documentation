@@ -62,7 +62,7 @@ Klonla aracı, [Taslak tezgahı](Draft_Workbench/tr.md) ile oluşturulan 2D şek
 
 ## Properties
 
-See also: [Property editor](property_editor.md).
+See also: [Property editor](Property_editor.md).
 
 An object created with the Draft Clone command is derived from a [Part Part2DObject](Part_Part2DObject.md), a [Part Feature](Part_Feature.md) object or, if an Arch Clone is created, from the object type of the source object. It inherits all properties from that object. A clone derived from one of the first two objects also has the following additional properties:
 

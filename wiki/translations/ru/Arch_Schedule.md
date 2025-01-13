@@ -16,12 +16,7 @@
 
 ## Описание
 
-The Schedule tool allows you to create and automatically populate a [spreadsheet](Spreadsheet_Workbench.md) with contents gathered from the model.
-
-
-**Примечание**
-
-: Данный инструмент был значительно переработан в FreeCAD 0.17 и отличается от предыдущих версий.
+The **Arch Schedule** tool allows you to create and automatically populate a [spreadsheet](Spreadsheet_Workbench.md) with contents gathered from the model.
 
 For a more general solution, see the [Reporting Workbench](https://github.com/furti/FreeCAD-Reporting/tree/master) in the list of [external workbenches](External_workbenches.md). This workbench uses SQL syntax to extract information from the document.
 
@@ -31,7 +26,7 @@ For a more general solution, see the [Reporting Workbench](https://github.com/fu
 
 1.  Open or create a FreeCAD document which contains some objects.
 2.  Press the **<img src="images/Arch_Schedule.svg" width=16px> [Schedule](Arch_Schedule.md)** button.
-3.  Adjust the desired options.
+3.  Adjust the desired options. Enable the **Associate spreadsheet** option if you want the schedule to generate a FreeCAD [spreadsheet](Spreadsheet_Workbench.md). Or, alternatively, right-click the schedule in the [Tree view](Tree_view.md) after creation, and select **Attach spreadsheet** from the context menu.
 4.  Press **OK**.
 
 
@@ -42,11 +37,23 @@ For a more general solution, see the [Reporting Workbench](https://github.com/fu
 
 ![](images/Arch_schedule_example01.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 Далее нажмите на кнопку **<img src="images/Arch_Schedule.svg" width=16px> [Планирование](Arch_Schedule/ru.md)**. В результате чего откроется панель задач, как на изображении ниже. Она довольно широкая, поэтому для удобной работы, вам нужно будет расширить комбо панель по горизонтали.
 
-![](images/Arch_schedule_example02.jpg )
+
+</div>
+
+![](images/ArchSchedule.png )
+
+
+<div class="mw-translate-fuzzy">
 
 Затем вы можете заполнять строки таблицы друг за другом. Каждая строка представляет собой \"запрос\" и будет отображать одну строку в электронной таблице. Нажмите кнопку **Add**, чтобы добавить новую строку, и дважды щелкните каждую ячейку из этой строки, чтобы заполнить значения. Кнопка **Del** удаляет строку, содержащую выбранную в данный момент ячейку, а кнопка **Clear** удаляет абсолютно все строки. Доступными полями для заполнения в столбцах являются:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -94,21 +101,63 @@ For a more general solution, see the [Reporting Workbench](https://github.com/fu
 
 </div>
 
-The **Import** button allows you to build this list in another spreadsheet application, and import that as a csv file here.
++++
+| Query                                  | Description                                                                                                                                                                                                                                                                                                                  |
++========================================+==============================================================================================================================================================================================================================================================================================================================+
+|                         | Will retain only objects that have \"floor1\" in their **Label** and \"window\" in their **IFC Type**. A window with the **Label** \"Floor1-AA\" and the **IFC Type** \"Window Standard Case\" will be included. |
+| `label:floor1;ifctype:window` |                                                                                                                                                                                                                                                                                                                              |
+|                                     |                                                                                                                                                                                                                                                                                                                              |
++++
+|                         | Will retain only objects that have \"door\" in their **Label**                                                                                                                                                                                                                                    |
+| `label:door`                  |                                                                                                                                                                                                                                                                                                                              |
+|                                     |                                                                                                                                                                                                                                                                                                                              |
++++
+|                         | Will retain only objects that do not have \"door\" in their **Label**                                                                                                                                                                                                                             |
+| `!label:door`                 |                                                                                                                                                                                                                                                                                                                              |
+|                                     |                                                                                                                                                                                                                                                                                                                              |
++++
+|                         | Will retain only objects that have \"structural\" in their **IFC Type**                                                                                                                                                                                                                           |
+| `ifctype:structural`          |                                                                                                                                                                                                                                                                                                                              |
+|                                     |                                                                                                                                                                                                                                                                                                                              |
++++
+|                         | Will retain only objects that do not have \"structural\" in their **IFC Type** or that do not have the **IFC Type** property                                                                                                                                           |
+| `!ifctype:something`          |                                                                                                                                                                                                                                                                                                                              |
+|                                     |                                                                                                                                                                                                                                                                                                                              |
++++
+|                         | Will retain only objects that do not have the **IFC Type** property                                                                                                                                                                                                                               |
+| `!ifctype:`                   |                                                                                                                                                                                                                                                                                                                              |
+|                                     |                                                                                                                                                                                                                                                                                                                              |
++++
+
+: Example filter queries
+
+The **<img src="images/Document-open.svg" width=16px> Import** button allows you to build this list in another spreadsheet application, and import that as a csv file here.
+
+
+<div class="mw-translate-fuzzy">
 
 Таким образом, мы можем составить список запросов, подобный этому:
 
-![](images/Arch_schedule_example03.jpg )
+
+</div>
+
+![](images/ArchScheduleExample.png )
+
+
+<div class="mw-translate-fuzzy">
 
 После этого нажмите **OK**, и в документ будет добавлен новый объект \"Планирование\", содержащий результат в виде электронной таблицы:
 
+
+</div>
+
 ![](images/Arch_schedule_example04.jpg )
 
-By double-clicking the Schedule object, you get back to the task panel and change the values. By double-clicking the spreadsheet itself, you get the results in 3 columns: description, value, unit (if applicable):
+To edit an existing schedule double-click it in the Tree view. By double-clicking the spreadsheet, you get the results in 3 columns: Description, Value, Unit (if applicable):
 
 ![](images/Arch_schedule_example05.jpg )
 
-The spreadsheet can then be exported to csv normally, from the Spreadsheet workbench.
+The spreadsheet can then be exported to csv normally, from the [Spreadsheet Workbench](Spreadsheet_Workbench.md).
 
 
 
@@ -118,5 +167,13 @@ It is possible to add your own properties to objects. These are called [Dynamic 
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/ru
+⏵ [documentation index](../README.md) > Arch Schedule/ru

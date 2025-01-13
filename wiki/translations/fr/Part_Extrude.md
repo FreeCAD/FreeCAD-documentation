@@ -87,31 +87,31 @@ La forme extrudée est définie par les paramètres suivants qui peuvent être �
 
 
 
-## Boîte de dialogue 
+## Fenêtre de dialogue 
 
 ![](images/Part_Extrude_dialog.png )
 
--   Le bouton **OK** crée l\'extrusion et ferme la boîte de dialogue.
+-   Le bouton **OK** crée l\'extrusion et ferme la fenêtre de dialogue.
 
 -   Le bouton **Fermer** ferme le dialogue sans rien faire.
 
 -   Le bouton **Appliquer** crée l\'extrusion, mais ne ferme pas la boîte de dialogue. Vous pouvez ensuite sélectionner une autre forme dans la liste du bas et créer davantage d\'extrusions. Un clic sur **Appliquer** plusieurs fois crée de nombreuses extrusions.
 
--   Boutons radio \"Direction\" : définissent la manière dont la direction d\'extrusion est calculée.
+-   Les boutons radio \"Direction\" définissent la manière dont la direction de l\'extrusion est calculée.
 
--   Le bouton **Sélectionner** : cliquez dessus, puis choisissez une arête dans la [vue 3D](3D_view/fr.md). Cette arête apparaîtra dans le champ de texte à côté du bouton, au format \"ObjectName:EdgeN\". Vous pouvez également taper le lien manuellement. Les valeurs X, Y, Z seront remplies en fonction de la direction de l\'arête.
+-   Le bouton **Sélectionner** : cliquez dessus, puis choisissez une arête dans la [vue 3D](3D_view/fr.md). Cette arête apparaîtra dans le champ de texte à côté du bouton, au format \"ObjectName:EdgeN\". Vous pouvez également rentrer le lien manuellement. Les valeurs X, Y, Z seront remplies en fonction de la direction de l\'arête.
 
 -   Les boutons **X**, **Y**, **Z** : cliquez sur le bouton *x* pour définir la direction d\'extrusion sur l\'axe +*x*. Cliquez à nouveau pour définir l\'axe -*x*.
 
 -   Champs de saisie **X**, **Y**, **Z** : définissez ou affichez le vecteur de direction de l\'extrusion. Si les deux longueurs sont égales à zéro, la longueur de ce vecteur définit la longueur de l\'extrusion et les valeurs sont toujours exprimées en mm, quelles que soient les préférences de l\'unité.
 
--   Champs de la longueur : définissez la longueur d\'extrusion. Ces champs d\'entrée ont un support d\'unité.
+-   Champs de la longueur : définissez la longueur de l\'extrusion. Ces champs de saisie sont compatibles avec les unités.
 
 -   Symétrique : étend l\'extrusion dans les deux sens, de sorte que le profil reste au centre.
 
--   Angle de dépouille extérieur : angle positif signifie que le profil est élargi à l\'autre extrémité de l\'extrusion.
+-   Angle de dépouille extérieur : un angle positif signifie que le profil est élargi à l\'autre extrémité de l\'extrusion.
 
--   Créer le solide : si coché, l\'extrusion d\'une polyligne ou d\'une arête fermée donnera un solide. Il est coché par défaut si une polyligne fermée a été présélectionné avant de lancer Part Extrusion.
+-   Créer le solide : si la case est cochée, l\'extrusion d\'une polyligne ou d\'une arête fermée donnera un solide. Elle est cochée par défaut si une polyligne fermée a été présélectionné avant de lancer Part Extrusion.
 
 -   Forme : ici, vous sélectionnez les formes à extruder. Si plusieurs objets sont sélectionnés, plusieurs objets d\'extrusion seront créés.
 
@@ -121,7 +121,7 @@ La forme extrudée est définie par les paramètres suivants qui peuvent être �
 
 -   Les objets [App Link](App_Link/fr.md) liés aux types d\'objets appropriés et les conteneurs [App Part](App_Part/fr.md) avec les objets visibles appropriés à l\'intérieur peuvent également être utilisés comme profils et pour spécifier la direction. {{Version/fr|0.20}}
 
--   La boîte de dialogue des tâches n\'offre pas d\'aperçu. **Appliquer** crée un objet d\'extrusion chaque fois que vous cliquez dessus, ce qui peut être utile comme aperçu. Cependant, ils resteront et un autre sera créé lorsque vous cliquerez sur **OK**. [Annuler](Std_Undo/fr.md) peut être utile pour les nettoyer avant de cliquer sur **OK**.
+-   La fenêtre de dialogue des tâches n\'offre pas d\'aperçu. **Appliquer** crée un objet d\'extrusion chaque fois que vous cliquez dessus, ce qui peut être utile comme aperçu. Cependant, ils resteront et un autre sera créé lorsque vous cliquerez sur **OK**. [Annuler](Std_Undo/fr.md) peut être utile pour les nettoyer avant de cliquer sur **OK**.
 
 
 

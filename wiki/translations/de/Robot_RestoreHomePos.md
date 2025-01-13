@@ -1,48 +1,33 @@
-# Robot RestoreHomePos/de
 ---
- GuiCommand:   Name: Robot RestoreHomePos   Workbenches: Robot_Workbench   Robot|MenuLocation: Roboter , zur Ausgangsposition bewegen---
+ GuiCommand:
+   Name: Robot RestoreHomePos
+   Name/de: Robot RestoreHomePos
+   MenuLocation: Robot , Zur Ausgangsposition bewegen
+   Workbenches: Robot_Workbench/de
+---
+
+# Robot RestoreHomePos/de
 
 
-</div>
 
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
-#### Beschreibung
+## Beschreibung
 
 Lässt den selektierten Roboter zu seiner Ausgangsposition zurückkehren.
 
 
-</div>
 
-## Usage
+## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-#### Anwendung
-
-1.  Selektieren Sie den Roboter in der Baumansicht oder der 3D-Ansicht
-2.  Klicken Sie <img alt="" src=images/Robot_RestoreHomePos.png  style="width:32px;"> oder wählen Sie ** Roboter** → **<img src="images/Robot_RestoreHomePos.png" width=32px> zur Ausgangsposition bewegen** aus dem Top-Menü.
+1.  Den Roboter in der [Baumansicht](Tree_view/de.md) oder in der [3D-Ansicht](3D_view/de.md) auswählen.
+2.  <img alt="" src=images/Robot_RestoreHomePos.svg  style="width:32px;"> anklicken oder den Menüeintrag **Roboter** → **<img src="images/Robot_RestoreHomePos.svg" width=32px> Zur Ausgangsposition bewegen** auswählen.
 
 
-</div>
 
-## Notes
+## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-#### Anmerkungen
-
-Der Befehl erlaubt nur für einen Roboter die Home-Position zu definieren.
-Wenn keiner oder mehr als ein Roboter ausgewählt wurde, werden Sie aufgefordert, nur einen einzigen Roboter auszuwählen.
-Wenn über [Robot_SetHomePos](Robot_SetHomePos.md) keine Ausgangsposition festgelegt wurde, wird die Position des Roboters zum Einfügezeitpunkt als Ausgangsposition benutzt.
-
-
-</div>
+-   Der Befehl erlaubt nur für einen Roboter die Home-Position zu definieren.
+-   Wenn keiner oder mehr als ein Roboter ausgewählt wurde, erscheint eine Aufforderung, nur einen einzigen Roboter auszuwählen.
+-   Wenn über <img alt="" src=images/Robot_SetHomePos.svg  style="width:32px;"> [Robot SetHomePos](Robot_SetHomePos/de.md) keine Ausgangsposition festgelegt wurde, wird die Position des Roboters zum Einfügezeitpunkt als Ausgangsposition benutzt.
 
 
 

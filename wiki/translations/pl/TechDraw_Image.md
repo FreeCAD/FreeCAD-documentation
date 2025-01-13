@@ -15,6 +15,11 @@
 
 Narzędzie **Wstaw obraz bitmapy** wstawia z pliku do strony widok obrazu [bitmapy](Bitmap/pl.md) *(PNG, TIFF, JPEG itp.)*.
 
+
+{{Version/pl|1.0}}
+
+: Narzędzie [Wstaw widok](TechDraw_View/pl.md) również może wstawić obraz bitmapy.
+
 ![](images/TechDraw_Image_example.png ) 
 *Obraz wstawiony do strony rysunku.*
 
@@ -23,22 +28,22 @@ Narzędzie **Wstaw obraz bitmapy** wstawia z pliku do strony widok obrazu [bitma
 ## Użycie
 
 1.  Jeśli w dokumencie znajduje się wiele stron rysunku: opcjonalnie aktywuj żądaną stronę, wybierając ją w [Widoku drzewa](Tree_view/pl.md).
-2.  Istnieje kilka sposobów wywołania narzędzia:
-    -   Naciśnij przycisk **<img src="images/TechDraw_Image.svg" width=16px> '''Wstaw obraz bitmapy'''**.
-    -   Wybierz opcję z menu **Rysunek Techniczny → Widoki → <img src="images/TechDraw_Image.svg" width=16px> Wstaw obraz bitmapowy**.
-3.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+2.  Wybierz opcję **Rysunek Techniczny → Widoki → <img src="images/TechDraw_Image.svg" width=16px> Wstaw obraz bitmapy** z menu.
+3.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**:
     1.  Wybierz żądaną stronę.
     2.  Naciśnij przycisk **OK**.
-4.  Zostanie otwarte okno dialogowe pliku.
-5.  Wybierz lokalizację i nazwę pliku.
-6.  Obraz zostanie wstawiony.
+4.  Zostanie otwarta przeglądarka plików.
+5.  Wybierz plik obrazu.
+6.  Widok obrazu zostanie wstawiony.
 7.  Opcjonalnie można zmienić jego właściwość **Skala**, aby dostosować jego rozmiar.
 
 
 
 ## Właściwości
 
-Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw_View/pl#Widok.md) środowiska Rysunek Techniczny.
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Widok obrazu, formalnie obiekt {{Incode|TechDraw::DrawViewImage}} ma [właściwości](TechDraw_View/pl#Właściwości_-_Widok_części.md) wspólne dla wszystkich typów Widoków. Ma też następujące dodatkowe właściwości:
 
 
 
@@ -85,7 +90,7 @@ dvi.Width  = 200
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

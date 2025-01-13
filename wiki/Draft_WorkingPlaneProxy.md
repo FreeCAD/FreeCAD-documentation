@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft WorkingPlaneProxy
-   MenuLocation: Utilities , Create working plane proxy
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Utilities , Create working plane proxy<br>Utils , Create working plane proxy
+   Workbenches: Draft_Workbench, BIM_Workbench
    SeeAlso: Draft_SelectPlane
 ---
 
@@ -21,8 +21,9 @@ The <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **D
 2.  Optionally change the [3D view](3D_view.md).
 3.  Optionally change the visibility state of objects in the document.
 4.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Create working plane proxy](Draft_WorkingPlaneProxy.md)** button.
-    -   Select the **Utilities → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Create working plane proxy** option from the menu.
+    -   [Draft](Draft_Workbench.md): Press the **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Create working plane proxy](Draft_WorkingPlaneProxy.md)** button.
+    -   Draft: Select the **Utilities → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Create working plane proxy** option from the menu, or from the [Tree view](Tree_view.md) or 3D view context menu.
+    -   [BIM](BIM_Workbench.md): Select the **Utils → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Create working plane proxy** option from the menu.
 5.  A working plane proxy is created.
 6.  To align the [working plane](Draft_SelectPlane.md) with a working plane proxy, double-click the working plane proxy in the [Tree view](Tree_view.md) or use it with the [Draft SelectPlane](Draft_SelectPlane.md) command.
 

@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch Grid
-   MenuLocation: Arch , Axis tools , Grid
-   Workbenches: Arch_Workbench
+   MenuLocation: Annotation , Grid
+   Workbenches: BIM_Workbench
    SeeAlso: Arch_Axis, Arch_AxisSystem
 ---
 
@@ -10,7 +10,7 @@
 
 ## Description
 
-The **<img src="images/Arch_Grid.svg" width=16px> [Arch Grid](Arch_Grid.md)** tool allows you to place a grid-like object in the document. This object is meant to serve as a base to build Arch objects that need a regular but complex frame, such as windows, curtain walls, column grids, railings, etc. The Grid object is editable like a spreadsheet, where you can add or remove columns and rows, define their size, and merge cells.
+The **Arch Grid** tool allows you to place a grid-like object in the document. This object is meant to serve as a base to build Arch objects that need a regular but complex frame, such as windows, curtain walls, column grids, railings, etc. The Grid object is editable like a spreadsheet, where you can add or remove columns and rows, define their size, and merge cells.
 
 The Grid is a 2D object, and can therefore be used anywhere a 2D shape such as a [Draft](Draft_Workbench.md) or [Sketch](Sketcher_Workbench.md) is needed, but it can also behave as a [Arch AxisSystem](Arch_AxisSystem.md), and be used to propagate the placement of other Arch objects.
 
@@ -19,7 +19,7 @@ The Grid is a 2D object, and can therefore be used anywhere a 2D shape such as a
 
 ## Usage
 
-1.  Press the **<img src="images/Arch_Grid.svg" width=16px> [Arch Grid](Arch_Grid.md)** button.
+1.  Press the **<img src="images/Arch_Grid.svg" width=16px> [Grid](Arch_Grid.md)** button.
 2.  Set the **Width** and **Height** of the grid in the properties.
 3.  Enter edit mode by double-clicking the grid object in the tree view.
 4.  Add rows and columns.
@@ -93,5 +93,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Grid/en
+⏵ [documentation index](../README.md) > Arch Grid/en

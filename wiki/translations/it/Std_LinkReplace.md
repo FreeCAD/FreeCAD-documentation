@@ -10,6 +10,8 @@
 
 # Std LinkReplace/it
 
+
+
 ## Descrizione
 
 
@@ -21,13 +23,15 @@ Questa operazione agisce sui \"figli\" di un oggetto \"genitore\" come si vede n
 
 Questa operazione può essere eseguita per sostituire con un link gli oggetti nidificati che si trovano in un [assemblaggio](assembly/it.md) complesso, il che può essere più efficiente se l\'oggetto nidificato viene utilizzato molte volte in diversi sottoassiemi. L\'operazione inversa è **[<img src=images/Std_LinkUnlink.svg style="width:16px"> [Annulla il link](Std_LinkUnlink/it.md)**. Per creare un link generico vedere **[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea un link](Std_LinkMake/it.md)**.
 
+
+
 ## Utilizzo
 
 1.  Assicurarsi di avere un oggetto all\'interno di un altro. Ad esempio, si consideri che è stata realizzata una **[<img src=images/Part_Fuse.svg style="width:16px"> [Unione](Part_Fuse/it.md)** con due oggetti creati in precedenza, una **[<img src=images/Part_Sphere.svg style="width:16px"> [sfera](Part_Sphere/it.md)** e un **[<img src=images/Part_Cylinder.svg style="width:16px"> [cilindro](Part_Cylinder/it.md)**.
-2.  Selezionare la <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [sfera](Part_Sphere/it.md) nella [vista ad albero](tree_view/it.md).
+2.  Selezionare la <img alt="" src=images/Sphere.svg  style="width:16px;"> [sfera](Part_Sphere/it.md) nella [vista ad albero](tree_view/it.md).
 3.  Premere **[<img src=images/Std_LinkReplace.svg style="width:16px"> [Sostituisci con il link](Std_LinkReplace/it.md)**.
 
-L\'originale <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Sfera](Part_Sphere/it.md) deve ora essere al di fuori del **[<img src=images/Part_Fuse.svg style="width:16px"> [Unione](Part_Fuse/it.md)**, e all\'interno ci deve essere invece un Link (una piccola freccia in sovraimpressione viene visualizzata nell\'icona).
+L\'originale <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [Sfera](Part_Sphere/it.md) deve ora essere al di fuori del **[<img src=images/Part_Fuse.svg style="width:16px"> [Unione](Part_Fuse/it.md)**, e all\'interno ci deve essere invece un Link (una piccola freccia in sovraimpressione viene visualizzata nell\'icona).
 
 ![](images/Std_Link_tree_replace_fuse_1_example.png ) ![](images/Std_Link_tree_replace_fuse_2_example.png )
 
@@ -42,6 +46,8 @@ Questo può essere fatto anche con oggetti contenuti all\'interno di {{button|[<
 
 
 *Un oggetto all'interno di un contenitore viene sostituito da un link; ora il link è all'interno e l'oggetto reale è posizionato all'esterno.*
+
+
 
 ## Proprietà
 

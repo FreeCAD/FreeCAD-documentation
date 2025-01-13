@@ -1,15 +1,28 @@
+---
+ TutorialInfo:l
+   Topic: Dostosuj paski narzędzi
+   Level: początkujący
+   Time: 5 minut
+   Author: User:Mario52
+   FCVersion: Wszystkie
+   SeeAlso: Interface_Customization/pl.
+---
+
 # Customize Toolbars/pl
-{{TutorialInfo/pl
-|Topic=Przykład
-|Level=początkujący
-|Time=5 minut
-|Author=[Mario52](User_Mario52.md)
-|FCVersion=Wszystkie
-}}
+
+
+
+
+
+
 
 ## Streszczenie
 
-Ten poradnik pokazuje, jak dostosować paski narzędzi do własnych potrzeb. Narzędzia *(włącznie z Makro-narzędziami)* mogą być używane w różnych Środowiskach pracy. Na przykład Makropolecenie staje się Makro-Narzędziem poprzez utworzenie **Tekstu menu**, **Porady dla narzędzia** i **Ikonki**. Następnie to Makro-narzędzie staje się częścią dodatkowego paska narzędzi w środowisku pracy.
+Ten poradnik pokazuje jak dodać przycisk dla [makra](Macro/pl.md) do własnego paska narzędzi.
+
+Więcej ogólnych informacji można znaleźć na stronie [Dostosowywanie interfejsu użytkownika do własnych potrzeb](Interface_Customization/pl.md).
+
+
 
 ## Użycie
 
@@ -113,11 +126,7 @@ Ten poradnik pokazuje, jak dostosować paski narzędzi do własnych potrzeb. Nar
 
 -   Twój nowy pasek narzędzi znajduje się teraz w menu prawego przycisku myszy pasków narzędzi. Jego Ikonka *(w naszym przykładzie kamera)* jest widoczna, jeśli pasek narzędzi jest aktywny *(niebieski znacznik)*.
 
-<img alt="Nowy pasek narzędzi" src=images/CustomizeToolBar_18.png  style="width:640px;"> 
-
-## Uwagi
-
-Zobacz również [Dostosowywanie interfejsu użytkownika do własnych potrzeb](Interface_Customization/pl.md).
+<img alt="Nowy pasek narzędzi" src=images/CustomizeToolBar_18.png  style="width:640px;">
 
 
 

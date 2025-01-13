@@ -13,6 +13,8 @@
 
 
 
+
+
 ## Einleitung
 
 Diese Anleitung beschreibt, wie man eine einfache Kinematiksteuerung aus ein paar Zeilen Python-Kode erstellt, die mit Baugruppen des Arbeitsbereiches [Assembly3](Assembly3_Workbench.md) verwendet werden kann.
@@ -21,7 +23,11 @@ Jeder Texteditor kann zum Erstellen von Kode genutzt werden. Mein Favorit ist At
 
 Die folgenden Kode-Beispiele können kopiert, in eine leere Textdatei eingefügt und dann unter einem selbstgewählten Namen als ***.py** oder \****.FCMacro** abgespeichert werden.
 
+
+
 ## Makroabschnitte
+
+
 
 ### Grundstruktur
 
@@ -41,6 +47,8 @@ if __name__ == "__main__":
 ```
 
 Die Grundstruktur besteht aus einer Hauptfunktion {{Incode|main()}} und einer Weiche, an der überprüft wird, ob das Makro als Behälter für Klassen, Methoden usw. verwendet wird oder ob es eigenständig läuft. Nur die zweite Möglichkeit startet die Hauptfunktion {{Incode|main()}}. Noch ist diese Funktion leer.
+
+
 
 ### Randbedingungen zum Antreiben finden 
 
@@ -121,11 +129,15 @@ if __name__ == "__main__":
 
 {{Top}}
 
+
+
 ### Steuerungsfenster
 
 Das Steuerungsfenster ist aus Qt-Widgets (**wi**ndow ga**dgets** \~ Fenstergelöt) aufgebaut, einem Hauptfenster und einigen Ein- und Ausgabe-Widgets.
 
 Alle Widgets müssen importiert werden, bevor sie verwendet werden können, aber sie können als ein kompletter Satz importiert werden.
+
+
 
 #### Hauptfenster
 
@@ -252,6 +264,8 @@ if __name__ == "__main__":
 
 {{Top}}
 
+
+
 #### Parameter setzen 
 
 Nun ist es Zeit die Methode {{Incode|initUI()}} zu befüllen:
@@ -274,6 +288,8 @@ Nun ist es Zeit die Methode {{Incode|initUI()}} zu befüllen:
 
 repräsentiert den Antrieb und {{Incode|self.driver_type}} Speichert ein Schlüsselwort für die Art des Antriebs. Letztere sorgt dafür, dass jeder Randbedingung die richtige Eigenschaft zugeordnet wird.
 
+
+
 ##### Methode getDriverType() 
 
 Für spätere Verwendung muss die Art des Antriebs ermittelt werden, Winkel, Abstand oder Länge (Angle, Distance, Length), daher muss eine Methode namens {{Incode|getDriverType()}} (Finde den Antriebstyp) definiert werden.
@@ -283,17 +299,21 @@ Für spätere Verwendung muss die Art des Antriebs ermittelt werden, Winkel, Abs
 ...
     def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
-            "Angle",
             "PlaneCoincident",
             "AxialAlignment",
             "PlaneAlignment"
-            ]
+            ] # Angel constraints that use negative values, too
+        ANGLE_DEG_CONSTRAINTS = [
+            "Angle",
+            ] # Angel constraints that use positive values only
         DISTANCE_CONSTRAINTS = [
             "PointDistance",
             "PointsDistance"
-            ]
+            ] # Lenght constraints that use positive values only
         if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
+        elif constraint.ConstraintType in ANGLE_DEG_CONSTRAINTS:
+            return "AnglePos"
         elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
         else:
@@ -304,6 +324,8 @@ Für spätere Verwendung muss die Art des Antriebs ermittelt werden, Winkel, Abs
 Diese Methode überprüft, ob die Art der gegebenen Randbedingung in einer der Listen zu finden ist, und gibt zurück, welche Art Maß zu steuern ist
 
 Es wird angenommen, dass der Antrieb im Kinematikdokument korrekt markiert wurde und funktioniert, wenn er von Hand geändert wird. In diesem Falle ist es nicht nötig geometrische Randbedingungen wie Colinear oder PointsCoincidence herauszufiltern (aber hier wäre die Stelle es zu tun\...)
+
+
 
 ##### Fenstereigenschaften
 
@@ -329,6 +351,8 @@ Im Titel findet sich der Name des Antriebs und ob es sich um einen Winkel, einen
 
 {{Top}}
 
+
+
 #### Weitere Parameter setzen 
 
 Im nächsten Schritt wird der Wert des Antriebs ausgelesen und die Start- und Endwerte abhängig von der Antriebsart gesetzt.
@@ -351,6 +375,11 @@ Um die Parameter zu vervollständigen, wird ein Wert für die Anzahl von Schritt
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
             self.unit_suffix = (" °")
+        elif self.driver_type == "AnglePos":
+            self.current_value = float(str(self.actuator.Angle)[:-4])
+            self.start_value = 0.001 # Angle must not be <= 0 and >=180
+            self.end_value = 179.999
+            self.unit_suffix = (" °")
         elif self.driver_type == "Distance":
             self.current_value = float(str(self.actuator.Distance)[:-3])
             self.start_value = 0.001 # Distance must not be <= 0
@@ -366,6 +395,8 @@ Um die Parameter zu vervollständigen, wird ein Wert für die Anzahl von Schritt
 
 
 {{Top}}
+
+
 
 #### Label
 
@@ -451,6 +482,11 @@ class ControlPanel(QDialog):
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
             self.unit_suffix = (" °")
+        elif self.driver_type == "AnglePos":
+            self.current_value = float(str(self.actuator.Angle)[:-4])
+            self.start_value = 0.001 # Angle must not be <= 0 and >=180
+            self.end_value = 179.999
+            self.unit_suffix = (" °")
         elif self.driver_type == "Distance":
             self.current_value = float(str(self.actuator.Distance)[:-3])
             self.start_value = 0.001 # Distance must not be <= 0
@@ -492,17 +528,21 @@ class ControlPanel(QDialog):
 
     def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
-            "Angle",
             "PlaneCoincident",
             "AxialAlignment",
             "PlaneAlignment"
-            ]
+            ] # Angel constraints that use negative values, too
+        ANGLE_DEG_CONSTRAINTS = [
+            "Angle",
+            ] # Angel constraints that use positive values only
         DISTANCE_CONSTRAINTS = [
             "PointDistance",
             "PointsDistance"
             ]
         if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
+        elif constraint.ConstraintType in ANGLE_DEG_CONSTRAINTS:
+            return "AnglePos"
         elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
         else:
@@ -546,6 +586,8 @@ if __name__ == "__main__":
 
 
 {{Top}}
+
+
 
 #### Schieberegler
 
@@ -601,6 +643,8 @@ Wird der Befehl {{Incode|"asm3CmdQuickSolve"}} gestartet, beginnt der Gleichnung
         self.current_value = slider_value * self.stepRatio() + self.start_value
         if self.driver_type == "Angle":
             self.actuator.Angle = self.current_value
+        elif self.driver_type == "AnglePos":
+            self.actuator.Angle = self.current_value
         elif self.driver_type == "Distance":
             self.actuator.Distance = self.current_value
         else:
@@ -615,7 +659,7 @@ Das Dialogfenster mit dem Schieberegler sollte so aussehen und ist jetzt bereit 
 <img alt="Zwei Dialogfenster mit Schieberegler" src=images/Tutorial_KinCon-03.png  style="width:300px;"> 
 *Dialogfenster mit dem hinzugefügten Schieberegler, eins für einen Winkelantrieb (Drehantrieb) und eins für einen (Abstands-/) Linearantrieb*
 
-Es kann ein Dialogfenster für jedes geöffnete Dokument gestartet werden; sie beeinflussen sich nicht gegenseitig. {{Top}}
+Es kann ein Dialogfenster für jedes geöffnete Dokument gestartet werden; sie beeinflussen sich nicht gegenseitig. 
 
 #### Texteingabefelder
 
@@ -711,6 +755,11 @@ class ControlPanel(QDialog):
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
             self.unit_suffix = (" °")
+        elif self.driver_type == "AnglePos":
+            self.current_value = float(str(self.actuator.Angle)[:-4])
+            self.start_value = 0.001 # Angle must not be <= 0 and >=180
+            self.end_value = 179.999
+            self.unit_suffix = (" °")
         elif self.driver_type == "Distance":
             self.current_value = float(str(self.actuator.Distance)[:-3])
             self.start_value = 0.001 # Distance must not be <= 0
@@ -776,17 +825,21 @@ class ControlPanel(QDialog):
 
     def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
-            "Angle",
             "PlaneCoincident",
             "AxialAlignment",
             "PlaneAlignment"
-            ]
+            ] # Angel constraints that use negative values, too
+        ANGLE_DEG_CONSTRAINTS = [
+            "Angle",
+            ] # Angel constraints that use positive values only
         DISTANCE_CONSTRAINTS = [
             "PointDistance",
             "PointsDistance"
-            ]
+            ] # Lenght constraints that use positive values only
         if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
+        elif constraint.ConstraintType in ANGLE_DEG_CONSTRAINTS:
+            return "AnglePos"
         elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
         else:
@@ -813,6 +866,8 @@ class ControlPanel(QDialog):
     def onActuatorSlider(self, slider_value):
         self.current_value = slider_value * self.stepRatio() + self.start_value
         if self.driver_type == "Angle":
+            self.actuator.Angle = self.current_value
+        elif self.driver_type == "AnglePos":
             self.actuator.Angle = self.current_value
         elif self.driver_type == "Distance":
             self.actuator.Distance = self.current_value
@@ -861,6 +916,8 @@ if __name__ == "__main__":
 
 {{Top}}
 
+
+
 ### Bewegung
 
 um einen Zusammenbau in Bewegung zu setzen benötigt man:
@@ -868,6 +925,8 @@ um einen Zusammenbau in Bewegung zu setzen benötigt man:
 -   Schaltflächen, die eine Bewegung in die gewünschte Richtung auslösen.
 -   Ein Eingabefeld, um die Anzahl der schritte zu verändern, für schnellere oder fließendere Bewegungen.
 -   Ein Optionsfeld (Checkbox), um das Erstellen einer Bildfolge zu aktivieren.
+
+
 
 #### Vorwärts- und Rückwärts-Schaltflächen 
 
@@ -990,6 +1049,11 @@ class ControlPanel(QDialog):
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
             self.unit_suffix = (" °")
+        elif self.driver_type == "AnglePos":
+            self.current_value = float(str(self.actuator.Angle)[:-4])
+            self.start_value = 0.001 # Angle must not be <= 0 and >=180
+            self.end_value = 179.999
+            self.unit_suffix = (" °")
         elif self.driver_type == "Distance":
             self.current_value = float(str(self.actuator.Distance)[:-3])
             self.start_value = 0.001 # Distance must not be <= 0
@@ -1071,17 +1135,21 @@ class ControlPanel(QDialog):
 
     def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
-            "Angle",
             "PlaneCoincident",
             "AxialAlignment",
             "PlaneAlignment"
-            ]
+            ] # Angel constraints that use negative values, too
+        ANGLE_DEG_CONSTRAINTS = [
+            "Angle",
+            ] # Angel constraints that use positive values only
         DISTANCE_CONSTRAINTS = [
             "PointDistance",
             "PointsDistance"
-            ]
+            ] # Lenght constraints that use positive values only
         if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
+        elif constraint.ConstraintType in ANGLE_DEG_CONSTRAINTS:
+            return "AnglePos"
         elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
         else:
@@ -1108,6 +1176,8 @@ class ControlPanel(QDialog):
     def onActuatorSlider(self, slider_value):
         self.current_value = slider_value * self.stepRatio() + self.start_value
         if self.driver_type == "Angle":
+            self.actuator.Angle = self.current_value
+        elif self.driver_type == "AnglePos":
             self.actuator.Angle = self.current_value
         elif self.driver_type == "Distance":
             self.actuator.Distance = self.current_value
@@ -1183,6 +1253,8 @@ if __name__ == "__main__":
 
 {{Top}}
 
+
+
 #### Anzahl der Schritte 
 
 Die Voreinstellung ist so gewählt, dass man einen schnellen Eindruck erhält, ob sich der Zusammenbau wie erwartet bewegt, ohne zu viel Rechenzeit zu verbrauchen.
@@ -1215,7 +1287,6 @@ Die zugehörige Methode {{Incode|self.onEntrySteps()}} füllt nur den Parameter 
 Das Dialogfenster, das in der Lage ist, die Anzahl der Schritte zu ändern sollte so aussehen:
 
 <img alt="Dialogfenster mit einem weiteren Texteingabefeld" src=images/Tutorial_KinCon-06.png  style="width:300px;"> 
-*Dialogfenster mit einem weiteren Texteingabefeld* {{Top}}
 
 #### Bildfolge
 
@@ -1350,6 +1421,11 @@ class ControlPanel(QDialog):
             self.start_value = (self.current_value - 15)
             self.end_value = (self.current_value + 15)
             self.unit_suffix = (" °")
+        elif self.driver_type == "AnglePos":
+            self.current_value = float(str(self.actuator.Angle)[:-4])
+            self.start_value = 0.001 # Angle must not be <= 0 and >=180
+            self.end_value = 179.999
+            self.unit_suffix = (" °")
         elif self.driver_type == "Distance":
             self.current_value = float(str(self.actuator.Distance)[:-3])
             self.start_value = 0.001 # Distance must not be <= 0
@@ -1445,17 +1521,21 @@ class ControlPanel(QDialog):
 
     def getDriverType(self, constraint):
         ANGLE_CONSTRAINTS = [
-            "Angle",
             "PlaneCoincident",
             "AxialAlignment",
             "PlaneAlignment"
-            ]
+            ] # Angel constraints that use negative values, too
+        ANGLE_DEG_CONSTRAINTS = [
+            "Angle",
+            ] # Angel constraints that use positive values only
         DISTANCE_CONSTRAINTS = [
             "PointDistance",
             "PointsDistance"
-            ]
+            ] # Lenght constraints that use positive values only
         if constraint.ConstraintType in ANGLE_CONSTRAINTS:
             return "Angle"
+        elif constraint.ConstraintType in ANGLE_DEG_CONSTRAINTS:
+            return "AnglePos"
         elif constraint.ConstraintType in DISTANCE_CONSTRAINTS:
             return "Distance"
         else:
@@ -1485,6 +1565,8 @@ class ControlPanel(QDialog):
     def onActuatorSlider(self, slider_value):
         self.current_value = slider_value * self.stepRatio() + self.start_value
         if self.driver_type == "Angle":
+            self.actuator.Angle = self.current_value
+        elif self.driver_type == "AnglePos":
             self.actuator.Angle = self.current_value
         elif self.driver_type == "Distance":
             self.actuator.Distance = self.current_value
@@ -1588,6 +1670,8 @@ if __name__ == "__main__":
 
 
 {{Top}}
+
+
 
 ## Ein paar Schwachstellen 
 

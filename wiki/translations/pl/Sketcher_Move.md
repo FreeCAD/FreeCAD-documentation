@@ -15,9 +15,12 @@
 
 ## Opis
 
-Przesuwa wybrane elementy szkicu z jednego punktu do drugiego, używając ostatnio wybranego punktu jako odniesienia.
+Polecenie <img alt="" src=images/Sketcher_Move.svg  style="width:16px;"> **Przesuń** przenosi wybrane elementy szkicu z jednego punktu do drugiego, używając ostatnio wybranego punktu jako odniesienia.
 
-![](images/sketcher_move.png‎ ) 
+![](images/sketcher_move.png‎ )
+
+
+
 *Kolejność kliknięć wskazują żółte strzałki z numerami. Wybierz element '''A'''; zobacz linię wektorową oznaczoną dwoma czerwonymi liniami z punktu obrotu '''A''' wskazującą na pozycję myszy numer '''2'''. Przesuń kursor myszki do miejsca docelowego '''3''' i zobacz element teraz jako '''B''' automatycznie związany w punkcie '''3'''.*
 
 

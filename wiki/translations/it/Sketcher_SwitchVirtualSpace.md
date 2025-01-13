@@ -17,11 +17,21 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Sketcher ha due spazi virtuali su cui è possibile impostare i vincoli. Di solito tutti i vincoli vengono impostati su un solo spazio virtuale. È possibile spostare alcuni vincoli nello spazio virtuale due. Questo può aiutare a ispezionare solo su alcuni vincoli alla volta.
+
+
+</div>
+
+A sketch has two virtual spaces that can contain constraints. All constraints are created in the main virtual space, but they can be hidden which moves them to the other virtual space.
 
 
 
 ## Utilizzo
+
+### (Un)hide constraints 
 
 
 <div class="mw-translate-fuzzy">
@@ -39,25 +49,28 @@ Per cambiare lo spazio virtuale:
 
 </div>
 
+### Switch virtual space 
+
+1.  Make sure no constraints have been selected.
+2.  Invoke the tool as described above.
+3.  Hidden constraints are made visible and unhidden constraints invisible, or vice versa.
+
+## Notes
+
+-   Constraints can also be (un)hidden from the [Sketcher Dialog](Sketcher_Dialog#Constraints.md).
+-   The virtual space setting of a sketch is only used in the current session, it is not stored in the FreeCAD file.
+
 
 <div class="mw-translate-fuzzy">
 
-**Nota:** Se si decide di impostare i vincoli su due spazi virtuali, non dimenticare in seguito i vincoli sullo spazio virtuale nascosto. Questo può essere fonte di confusione.
+
+
 
 
 </div>
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

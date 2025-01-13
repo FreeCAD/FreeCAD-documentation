@@ -23,15 +23,7 @@ Iconița **Toggle Constraint** comută constrângerile dimensionale (bloc, dista
 
 </div>
 
-![](images/Sketcher_Constraint_Toolbar_ReferenceMode.png )
-
-
-<div class="mw-translate-fuzzy">
-
-*Bara de instrumente Sketcher Constraint având constrângerile în modul de referință dimensională (albastru).*
-
-
-</div>
+Contrary to driving constraints, reference constraints do not constrain the sketch, their value depends on other constraints, they are driven. They can be useful to verify measurements. They can be used in [expressions](Expressions.md), but not in the sketch itself.
 
 ![](images/Sketcher_ToggleConstraint_example.png )
 
@@ -53,6 +45,8 @@ Iconița **Toggle Constraint** comută constrângerile dimensionale (bloc, dista
 
 </div>
 
+### Toggle tools 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -63,6 +57,19 @@ Iconița **Toggle Constraint** comută constrângerile dimensionale (bloc, dista
 
 
 </div>
+
+### Toggle constraints 
+
+1.  Select one or more dimensional constraints.
+2.  Invoke the tool as described above, or with one of the following additional options:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ToggleDrivingConstraint.svg" width=16px> Toggle driving/reference constraint** option from the context menu.
+
+    -   Right-click in the **Constraints** section of the [Sketcher Dialog](Sketcher_Dialog.md) and select the **Toggle to/from reference** option from the context menu.
+3.  The selected constraints are changed from driving to reference mode or vice versa. Their appearance changes accordingly.
+4.  The mode of the dimensional constraint creation tools is not changed.
 
 
 

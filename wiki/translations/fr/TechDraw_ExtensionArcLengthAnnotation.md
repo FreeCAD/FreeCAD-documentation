@@ -5,8 +5,8 @@
    MenuLocation: TechDraw , Extensions : attributs/modifications , Calculer la longueur de l'arc des arêtes sélectionnées
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
-   Version: 0.22
-   SeeAlso: TechDraw_ExtensionAreaAnnotation/fr
+   Version: 1.0
+   SeeAlso: TechDraw_ExtensionCreateLengthArc/fr
 ---
 
 # TechDraw ExtensionArcLengthAnnotation/fr

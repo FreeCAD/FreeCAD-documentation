@@ -1,7 +1,7 @@
 # Navigation Cube/de
 ## Einleitung
 
-Der **Navigationswürfel** stellt visuelle Informationen zur Kameraposition in der aktiven [3D-Ansicht](3D_view/de.md) zur Verfügung und kann zu ihrer Einstellung verwendet werden. Standardmäßig ist es sichtbar und befindet sich in der oberen rechten Ecke der Ansicht.
+Der **Navigationswürfel** stellt visuelle Informationen zur Kameraausrichtung in der aktiven [3D-Ansicht](3D_view/de.md) zur Verfügung und kann zu ihrer Einstellung verwendet werden. Standardmäßig ist er sichtbar und befindet sich in der oberen rechten Ecke der Ansicht.
 
 ![](images/Navigation_Cube_Example.png )
 
@@ -47,53 +47,54 @@ Ein Klick auf den kleinen Würfel in der rechten unteren Ecke des Navigationswü
 
 -    **<img src="images/Std_PerspectiveCamera.svg" width=16px> [Perspektivische Ansicht](Std_PerspectiveCamera/de.md)**: schaltet auf die Perspektivansicht um.
 
--    **<img src="images/Std_ViewIsometric.svg" width=16px> [Isometrisch](Std_ViewIsometric/de.md)**: schaltet auf die isometrisch Ansicht um.
+-    **<img src="images/Std_ViewIsometric.svg" width=16px> [Isometrisch](Std_ViewIsometric/de.md)**: schaltet auf die isometrische Ansicht um.
 
 -    **<img src="images/Std_ViewFitAll.svg" width=16px>[Einpassen](Std_ViewFitAll/de.md)**: skaliert und schwenkt die Kamera so, dass alle sichtbaren Objekte die Ansicht ausfüllen.
 
--    **Beweglicher Navigationswürfel**: Wenn diese Checkbox (<small>(v0.21)</small> ) aktiviert ist, kann der komplette Navigationswürfel bewegt werden, indem der Hauptwürfel an beliebiger Stelle mit der linken Maustaste angeklickt und mit gedrückt gehaltener Taste gezogen wird. Dies ist dazu gedacht, den Würfel temporär aus dem Weg zu ziehen. Die [erweiterten Parameter](#Erweiterte_Parameter.md) OffsetX und OffsetY können verwendet werden, um den Würfel dauerhaft zu versetzen, siehe unten.
+-    **<img src="images/Std_ViewFitSelection.svg" width=16px> [Auswahl einpassen](Std_ViewFitSelection/de.md)**: skaliert und schwenkt die Kamera so, dass alle ausgewählten Objekte die Ansicht ausfüllen. {{Version/de|1.0}}
+
+-    **<img src="images/Std_AlignToSelection.svg" width=16px> [Auf die Auswahl ausrichten](Std_AlignToSelection/de.md)**: richtet die Kamera der Ansicht entgegen der Normale einer ebenen Fläche aus oder entgegen dem Verlauf einer geraden Kante. {{Version/de|1.0}}
+
+-    **Beweglicher Navigationswürfel**: Wenn diese Checkbox ({{Version/de|0.21}}) aktiviert ist, kann der komplette Navigationswürfel bewegt werden, indem der Hauptwürfel an beliebiger Stelle mit der linken Maustaste angeklickt und mit gedrückt gehaltener Taste gezogen wird. Dies ist dazu gedacht, den Würfel temporär aus dem Weg zu ziehen. Die [erweiterten Parameter](#Erweiterte_Parameter.md) OffsetX und OffsetY können verwendet werden, um den Würfel dauerhaft zu versetzen, siehe unten.
 
 
 
-### Anpassung
+## Anpassung
 
 
 
 ### Einstellungen
 
-Der Navigationswürfel wird durch einige Einstellungen gesteuert: **Bearbeiten → Einstellungen... → Anzeige → Navigation → Navigationswürfel** {{Version/de|0.19}}. Siehe [Voreinstellungseditor](Preferences_Editor#Navigation.md).
+Der Navigationswürfel wird durch einige Einstellungen gesteuert: **Bearbeiten → Einstellungen... → Anzeige → Navigation → Navigationswürfel** {{Version/de|0.19}}. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
 
 
 
 ### Erweiterte Parameter 
 
-Einige erweiterte Parameter des Navigationswürfels können nicht im [Voreinstellungseditor](Preferences_Editor#Navigation.md) angepasst werden. Diese Parameter können von Hand im [Parametereditor](Std_DlgParameter.md) angepasst werden.
+Einige erweiterte Parameter des Navigationswürfels können nicht im [Voreinstellungseditor](Preferences_Editor/de#Navigation.md) angepasst werden. Diese Parameter können von Hand im [Parametereditor](Std_DlgParameter/de.md) angepasst werden.
 
 Farben von Hand festlegen:
 
-1.  Start the <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [Parameter editor](Std_DlgParameter.md).
-2.  In the panel on the left browse to **BaseApp → Preferences → NaviCube**.
-3.  Right-click the panel on the right and select **New unsigned item** from the context menu.
-4.  Enter the name of one of these colors:
+1.  <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> [Parametereditor](Std_DlgParameter/de.md) öffnen.
+2.  Im Panel auf der linken Seite zu **BaseApp → Preferences → NaviCube**.
+3.  Rechtsklick im Panel auf der rechten Seite und **Neue positive Ganzzahl** im Kontextmenü wählen.
+4.  Den Namen einer dieser Farben eingeben:
     -   
         **BaseColor**
         
-        : the base color of all elements, the default is {{Value|3806916544}} (hex: {{Value|e2e8efc0}}). This color can be also set in the [Preferences Editor](Preferences_Editor#Navigation.md). <small>(v0.21)</small> 
+        : die Grundfarbe aller Elemente, der Standardwert ist {{Value|3806916544}} (hex: {{Value|e2e8efc0}}). Diese Farbe kann auch im \[\[Preferences_Editor/de#Navigation\|Voreinstellungseditor
 
-    -   
-        **EmphaseColor**
-        
-        : the color of the texts and lines, the default depends on the **BaseColor**. It is either black: {{Value|255}} (hex: {{Value|000000ff}}), or white: {{Value|4294967295}} (hex: {{Value|ffffffff}}). <small>(v0.21)</small> 
+\]\] festgelegt werden. {{Version/de|0.21}}
 
-    -   
-        **HiliteColor**
-        
-        : the color used to highlight the faces and buttons, the default is {{Value|2867003391}} (hex: {{Value|aae2ffff}}).
-5.  The color value must be entered as a 32-bit unsigned integer. Translated to the hexadecimal format this integer has the form {{Value|RRGGBBAA}}. Where {{Value|AA}} stands for the alpha channel (a measure for the transparency), and the other three digit pairs stand for red, green and blue. To convert a hexadecimal value to an unsigned integer you can use the [Python console](Python_console.md), enter for example {{Incode|int("323232ff", 16)}}.
-6.  Optionally set more parameters.
-7.  Press the **Close** button.
+#\* **EmphaseColor**: die Farbe der Texte und Linien, die Voreinstellung hängt von der **BaseColor** ab. Sie ist entweder schwarz: {{Value|255}} (hex: {{Value|000000ff}}), oder weiß: {{Value|4294967295}} (hex: {{Value|ffffffff}}). {{Version/de|0.21}}
 
-The table below lists the other advanced Navigation Cube parameters that can be set in a similar manner. Use the information from the **Type** column to create a correct new item in step 3.
+#\* **HiliteColor**: die Farbe, mit der die Flächen und Schaltflächen hervorgehoben werden; die Standardeinstellung ist {{Value|2867003391}} (hex: {{Value|aae2ffff}}).
+
+1.  Der Farbwert muss als 32-Bit-Ganzzahl ohne Vorzeichen eingegeben werden. Umgerechnet in das Hexadezimalformat hat diese Ganzzahl die Form {{Value|RRGGBBAA}}. Dabei steht {{Value|AA}} für den Alphakanal (ein Maß für die Transparenz), und die anderen drei Buchstabenpaare stehen für Rot, Grün und Blau. Um einen hexadezimalen Wert in eine Ganzzahl ohne Vorzeichen umzuwandeln, kann die [Python-Konsole](Python_console/de.md) verwendet werden. Zum Beispiel durch eingeben von {{Incode|int("323232ff", 16)}}.
+2.  Optional können weitere Parameter eingestellt werden.
+3.  Press the **Close** button.
+
+In der folgenden Tabelle sind die anderen erweiterten Parameter des Navigationswürfels aufgeführt, die auf ähnliche Weise eingestellt werden können. Die Informationen aus der Spalte **Art** verwenden, um in Schritt 3 ein korrektes neues Element zu erstellen.
 
 +++++
 | Name        | Description                                                                                                                   | Type    | Default |

@@ -14,12 +14,9 @@
 
 ## Opis
 
-Powoduje związanie dwóch linii do przestrzegania prawa załamania światła, które przenika przez powierzchnię, gdzie spotykają się dwa materiały o różnych współczynnikach załamania. Zobacz [Prawo Snell\'a](http://en.wikipedia.org/wiki/Snell%27s_law) na Wikipedii, aby uzyskać więcej informacji.
+Narzędzie <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> **Wiązanie prawo Snell\'a** wiąże dwie linie tak, aby były zgodne z prawem załamania światła, gdy przenika ono przez interfejs, w którym spotykają się dwa materiały o różnych współczynnikach załamania. Zobacz [Prawo Snella](http://en.wikipedia.org/wiki/Snell%27s_law).
 
-<img alt="" src=images/Snells_law2_witheq.svg  style="width:" height="400px;">
-
-
-
+<img alt="" src=images/Snells_law2_witheq.svg  style="width:" height="400px;"> 
 *Prawo Snell'a*
 
 
@@ -27,27 +24,27 @@ Powoduje związanie dwóch linii do przestrzegania prawa załamania światła, k
 ## Użycie
 
 <img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;"> 
-*Sekwencja kliknięć jest oznaczona żółtymi strzałkami z numerami. n1, n2 to tylko etykiety, wskazujące gdzie znajdują się wskaźniki załamania.*
+*Sekwencja kliknięć jest oznaczona żółtymi strzałkami z liczbami, n1 i n2 pokazują, gdzie znajdują się współczynniki załamania.*
 
--   Będziesz potrzebował dwóch linii, które mają podążać za promieniem światła, oraz krzywej, która będzie działać jako powierzchnia kontaktowa. Linie te powinny znajdować się po różnych stronach tej powierzchni.
--   Wybierz punkt końcowy jednej linii, punkt końcowy drugiej linii i krawędź powierzchni kontaktowej. Powierzchnia kontaktu może być [linią](Sketcher_CreateLine.md), [łukiem](Sketcher_CompCreateArc.md), [okręgiem](Sketcher_CompCreateCircle.md) lub [stożkiem](Sketcher_CompCreateConic.md). Zwróć uwagę na kolejność, w jakiej wybrałeś punkty końcowe.
--   Wywołaj wiązanie. Pojawi się okno dialogowe z zapytaniem o stosunek indeksów załamania n2/n1. n2 odpowiada środkowi, w którym znajduje się druga wybrana linia punktu końcowego, n1 jest dla pierwszej linii.
--   Punkty końcowe będą zbieżne *(jeśli trzeba)*, zostaną związane z powierzchnią kontaktu *(jeśli trzeba)*, a prawo Snell\'a zostanie związane.
-
-Zauważ, że kilka [wiązań pomocniczych](Sketcher_helper_constraint.md) zostanie dodanych automatycznie *(punkt na obiekcie, zbieżność)*. Mogą one zostać usunięte, jeśli powodują nadmiarowość lub dodane ręcznie, jeśli nie zostały dodane automatycznie. Dla faktycznego wiązania prawa Snell\'a punkty końcowe linii muszą być zbieżne i leżeć na powierzchni kontaktu, w przeciwnym razie zachowanie jest niezdefiniowane.
-
-Za pomocą przyboru **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Linia łamana](Sketcher_CreatePolyline.md)**, możliwe jest przyspieszenie rysowania promieni świetlnych. W tym przypadku można wybrać dwa przypadkowe punkty końcowe przez użycie pola wyboru.
+1.  Przygotuj dwie linie reprezentujące wiązkę światła oraz krawędź pełniącą rolę interfejsu. Linie powinny znajdować się po różnych stronach interfejsu. Interfejsem może być [linia](Sketcher_CreateLine/pl.md), [łuk](Sketcher_CreateArc/pl.md), [okrąg](Sketcher_CreateCircle/pl.md), [stożek](Sketcher_CompCreateConic/pl.md).
+2.  Wybierz punkt końcowy pierwszej linii, punkt końcowy drugiej linii i krawędź interfejsu. Zwróć uwagę na kolejność wyboru punktów końcowych.
+3.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Wybierz z menu **Szkic → Wiązania szkicownika → <img src="images/Sketcher_ConstrainSnellsLaw.svg" width=16px> Wiązanie prawo Snell'a**.
+    -   Użyj skrótu klawiaturowego: **K**, a następnie **W**.
+4.  Zostanie otwarte okno dialogowe **Współczynnik załamania światła**.
+5.  Wprowadź **Stosunek n2/n1:**. Gdzie **n2** jest dla ośrodka, w którym znajduje się druga wybrana linia, a **n1** jest dla ośrodka pierwszej linii.
+6.  Dodawane jest wiązanie zgodne z prawem Snella. Jeśli jest to wymagane, punkty końcowe są [zbieżne](Sketcher_ConstrainCoincident/pl.md) i związane [na interfejsie](Sketcher_ConstrainPointOnObject/pl.md). Te dodatkowe więzy są nazywane [wiązaniami pomocniczymi](Sketcher_helper_constraint/pl.md).
 
 
 
 ## Uwagi
 
--   Rzeczywiste wiązanie prawna Snell\'a narzuca równanie prawa jawnego n1\*sin(theta1) = n2\*sin(theta2). Wymaga, aby końce linii były zbieżne i umieszczone bezpośrednio na powierzchni styku różnych wiązań. Niezbędne wiązania pomocnicze są dodawane automatycznie w oparciu o bieżące współrzędne elementów.
--   Procedura Pythona nie dodaje wiązań pomocniczych. Muszą one być dodane ręcznie przez skrypt *(zobacz przykład w sekcji Tworzenie skryptów)*.
+-   Rzeczywiste wiązanie prawna Snell\'a narzuca równanie prawa jawnego n1\*sin(theta1) = n2\*sin(theta2). Wymaga, aby końce linii były zbieżne i umieszczone bezpośrednio na powierzchni styku różnych wiązań, w przeciwnym razie zachowanie jest nieokreślone. Niezbędne wiązania pomocnicze są dodawane automatycznie w oparciu o bieżące współrzędne elementów.
+-   Procedura Pythona nie dodaje wiązań pomocniczych. Muszą one być dodane ręcznie przez skrypt *(zobacz przykład w sekcji [Tworzenie skryptów](#Tworzenie_skryptów.md))*.
 -   Te wiązania pomocnicze mogą być tymczasowo usunięte, a punkty końcowe przeciągnięte, co może być użyteczne w przypadku, gdy chcemy skonstruować odbity promień lub promienie dwójłomne.
 -   W przeciwieństwie do rzeczywistości, współczynniki załamania są powiązane z promieniami światła, ale nie zgodnie z krawędzią granicy. Jest to użyteczne w celu emulowania dwupłaszczyzn, konstruowania ścieżek o różnych długościach fal spowodowanych załamaniem i łatwego konstruowania kąta początku całkowitego wewnętrznego odbicia.
 -   Oba promienie mogą znajdować się po tej samej stronie powierzchni styku, spełniając równanie wiązania. Jest to fizyczny nonsens, chyba że stosunek n2/n1 wynosi 1,0, w którym to przypadku ograniczenie emuluje odbicie.
--   Łuki okręgu i elipsy są również akceptowane jako promienie *(fizyczny nonsens)*.
+-   Łuki okręgu i elipsy są również akceptowane jako promienie. Ale to również jest fizyczny nonsens.
 
 
 
@@ -82,7 +79,6 @@ import FreeCAD
 
 StartPoint = 1
 EndPoint = 2
-MiddlePoint = 3
 
 f = App.activeDocument().addObject("Sketcher::SketchObject","Sketch")
 

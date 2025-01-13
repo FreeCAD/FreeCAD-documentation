@@ -3,11 +3,6 @@
 
 Die FreeCAD-Oberfläche basiert auf dem modernen [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit))-Werkzeugsatz und ist dem Stand der Technik entsprechend aufgebaut. Einige Bestandteile der Oberfläche können angepasst werden. Es können z.B. benutzerdefinierte Symbolleisten mit Werkzeugen aus verschiedenen Arbeitsbereichen oder mit auf Makros basierenden Werkzeuge hinzugefügt werden, und es können eigene Tastaturkürzel erstellt werden. Die Menüs und Standardsymbolleisten, die von FreeCAD und seinen Arbeitsbereichen mitgeliefert werden, können jedoch nicht geändert werden.
 
-
-{{Version/de|0.21}}
-
-: Der Reiter Arbeitsbereiche ist nicht länger vorhanden. Seine Funktionalität wurde in den Reiter [Verfügbare Arbeitsbereiche](Preferences_Editor/de#Verfügbare_Arbeitsbereiche.md) im Abschnitt Arbeitsbereiche des [Voreinstellungseditors](Preferences_Editor/de.md) verschoben.
-
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *Das Dialogfeld Benutzerdefiniert*
 
@@ -19,8 +14,8 @@ Die FreeCAD-Oberfläche basiert auf dem modernen [Qt](http://en.wikipedia.org/wi
 2.  Es gibt mehrere Wege, das Dialogfeld [Benutzerdefiniert](Std_DlgCustomize/de.md) aufzurufen:
     -   Den Menüeintrag **Werkzeuge → <img src="images/Std_DlgCustomize.svg" width=16px> Benutzerdefiniert...** auswählen.
     -   Einen Werkzeugleistenbereich mit der rechten Maustaste anklicken und im Kontextmenü **<img src="images/Std_DlgCustomize.svg" width=16px> Benutzerdefiniert...** auswählen.
-3.  Das Dialogfeld Benutzerdefiniert öffnet sich. Für weitere Informationen siehe [Optionen](#Optionen.md).
-4.  Die Schaltfläche **Hilfe** startet den Befehl <img alt="" src=images/Std_WhatsThis.svg  style="width:16px;"> [Std Direkthilfe](Std_WhatsThis/de.md).
+3.  Das Dialogfeld **Anpassen** öffnet sich. Für weitere Informationen siehe [Optionen](#Optionen.md).
+4.  Die Schaltfläche **Hilfe** funktioniert zurzeit nicht.
 5.  Die Schaltfläche **Schließen** drücken, um das Dialogfeld zu schließen.
 
 
@@ -264,20 +259,7 @@ Es kann auch ein eigenes Thema erstellt werden, wenn man mit den Themen, die Fre
 
 ## Erweiterungen
 
-Mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon-Manager](Std_AddonMgr/de.md) installierte Addons (Erweiterungen) bieten eine weitere Möglichkeit, die Benutzeroberfläche anzupassen. Es gibt einige [Voreinstellungspakete](Preference_Packs/de.md) zum Ändern des [Themas](#Themen.md).
-
-In der Kategorie Arbeitsbereiche desAddon-Managers findet man einige Erweiterungen des Benutzers triplus:
-
--   <https://github.com/triplus/CubeMenu> (for {{VersionMinus/de|0.20}})
--   <https://github.com/triplus/Glass>.
--   <https://github.com/triplus/IconThemes>
--   <https://github.com/triplus/Launcher>
--   <https://github.com/triplus/PieMenu>
--   <https://github.com/triplus/RemBench>
--   <https://github.com/triplus/ShortCuts>
-
-
-{{Top}}
+Mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon-Manager](Std_AddonMgr/de.md) installierte Addons (Erweiterungen) bieten eine weitere Möglichkeit, die Benutzeroberfläche anzupassen. Es stehen einige spezielle [externe Arbeitsbereiche](External_workbenches/de.md) und [Voreinstellungspakete](Preference_Packs/de.md) zur Verfügung. {{Top}}
 
 
 

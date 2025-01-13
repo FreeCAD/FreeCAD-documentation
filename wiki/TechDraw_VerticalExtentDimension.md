@@ -21,7 +21,7 @@ For more information see [TechDraw HorizontalExtentDimension](TechDraw_Horizonta
 
 
 
- {{TechDraw Tools navi}}
+ {{TechDraw_Tools_navi}}
 
 
 

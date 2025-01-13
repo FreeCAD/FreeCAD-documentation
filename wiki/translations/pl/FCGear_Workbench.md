@@ -3,6 +3,8 @@
 
 
 
+
+
 ## Wprowadzenie
 
 Środowisko pracy **FCGear** jest [zewnętrznym środowiskiem pracy](External_workbenches/pl.md) programu FreeCAD do wytwarzania różnych typów kół zębatych i ślimakowych. Modelowanie parametryczne pozwala na zmianę wymaganej geometrii w dowolnym momencie. Na przykład, poprzez zmianę kilku parametrów, koło zębate ewolwentowe staje się kołem zębatym walcowym, kołem zębatym śrubowym lub podwójnym kołem śrubowym.
@@ -14,6 +16,8 @@ W połączeniu z drukiem 3D użytkownicy domowi mają teraz możliwość zaproje
 Środowisko pracy FCGear może być zainstalowane z <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md). Aby zainstalować je ręcznie zobacz stronę [Instalacja zewnętrznych środowisk pracy](Installing_more_workbenches/pl.md).
 
 Po zakończeniu instalacji narzędzia są dostępne na pasku narzędziowym Gear oraz w menu Gear.
+
+
 
 ## Przybory
 
@@ -33,6 +37,8 @@ Po zakończeniu instalacji narzędzia są dostępne na pasku narzędziowym Gear 
 
 -   <img alt="" src=images/FCGear_WormGear.svg  style="width:32px;"> [Zębatka ślimakowa](FCGear_WormGear/pl.md): Tworzy zębatkę ślimakową.
 
+-   <img alt="" src=images/FCGear_TimingGearT.svg  style="width:32px;"> [Koło pasa zębatego](FCGear_TimingGearT/pl.md): Tworzy koło pasa zębatego T.
+
 -   <img alt="" src=images/FCGear_TimingGear.svg  style="width:32px;"> [Koło pasa zębatego](FCGear_TimingGear/pl.md): Tworzy koło pasa zębatego
 
 -   <img alt="" src=images/FCGear_LanternGear.svg  style="width:32px;"> [Koło drabinkowe](FCGear_LanternGear/pl.md): Tworzy przekładnię latarniową.
@@ -41,68 +47,96 @@ Po zakończeniu instalacji narzędzia są dostępne na pasku narzędziowym Gear 
 
 -   <img alt="" src=images/FCGear_GearConnector.svg  style="width:32px;"> [Połączenie dwóch zębatek](FCGear_GearConnector/pl.md): Połączenie dwóch kół zębatych.
 
+
+
 ## Typy kół zębatych 
+
+
 
 ### Koło zębate ewolwentowe 
 
 <img alt="" src=images/Involute-Gear_example.png  style="width:200px;"> 
 *Od lewej do prawej: Przekładnia czołowa, przekładnia skośna, podwójna przekładnia skośna ''(patrz [Koło zębate ewolwentowe](FCGear_InvoluteGear/pl.md))''*
 
+
+
 ### Wewnętrzna zębatka ewolwentowa 
 
 <img alt="" src=images/FCGear_InternalInvoluteGear-01.png  style="width:200px;"> 
 *Od lewej do prawej: Przekładnia czołowa, przekładnia walcowa, podwójna przekładnia walcowa ''(patrz [Wewnętrzna zębatka ewolwentowa](FCGear_InternalInvoluteGear/pl.md))''*
+
+
 
 ### Listwa zębata ewolwentowa 
 
 <img alt="" src=images/Involute-Rack_example.png  style="width:" height="200px;"> 
 *Od lewej do prawej: Przekładnia czołowa, przekładnia skośna, podwójna przekładnia skośna ''(Patrz [Listwa zębata ewolwentowa](FCGear_InvoluteRack/pl.md))''*
 
+
+
 ### Koło zębate cykloidalne 
 
 <img alt="" src=images/Cycloid-Gear_example_1.png  style="width:200px;"> 
 *Od lewej do prawej: Przekładnia czołowa, przekładnia skośna, podwójna przekładnia skośna ''(patrz [Koło zębate cykloidalne](FCGear_CycloidGear/pl.md))''*
+
+
 
 ### Listwa zębata cykloidalna 
 
 <img alt="" src=images/FCGear_CycloidRack-01.png  style="width:" height="200px;"> 
 *Od lewej do prawej: Przekładnia czołowa, przekładnia skośna, podwójna przekładnia skośna ''(patrz [Listwa zębata cykloidalna](FCGear_CycloidRack/pl.md))''*
 
+
+
 ### Koło zębate stożkowe 
 
 <img alt="" src=images/Bevel-Gear_example.png  style="width:150px;"> 
 *Od lewej do prawej: Przekładnia czołowa, przekładnia spiralna ''(patrz [Koło zębate stożkowe](FCGear_BevelGear/pl.md))''*
+
+
 
 ### Koło zębate koronowe 
 
 <img alt="" src=images/Crown-Gear_example.png  style="width:150px;"> 
 *Przekładnia koronowa ''(patrz [Koło zębate koronowe](FCGear_CrownGear/pl.md))''*
 
+
+
 ### Ślimak
 
 <img alt="" src=images/Worm-Gear_example.png  style="width:150px;"> 
 *Przekładnia ślimakowa ''(patrz [Przekładnia ślimakowa](FCGear_WormGear/pl.md))''*
+
+
 
 ### Przekładnia pasowa 
 
 <img alt="" src=images/Timing-Gear_example.png  style="width:150px;"> 
 *Koło pasa zębatego (see [Koło pasa zębatego](FCGear_TimingGear/pl.md))*
 
+
+
 ### Przekładnia drabinkowa 
 
 <img alt="" src=images/Lantern-Gear_example.png  style="width:150px;"> 
 *Koło drabinkowe ''(patrz [Koło drabinkowe](FCGear_LanternGear/pl.md))''*
+
+
 
 ### Przekładnia hipocykloidalna 
 
 <img alt="" src=images/FCGear_FCGear_HypoCycloidGear-05.png  style="width:120px;"> 
 *Zębatka hipocykloidalna ''(patrz [Zębatka hipocykloidalna](FCGear_HypoCycloidGear/pl.md))''*
 
+
+
 ## Bibliografia
 
 -   Autor: looooo
 -   Strona domowa: <https://github.com/looooo/FCGear>
 -   Kod źródłowy na githubie: <https://github.com/looooo/FCGear>
+
+
 
 ## Linki do środowiska pracy FCGear 
 
@@ -112,6 +146,8 @@ Po zakończeniu instalacji narzędzia są dostępne na pasku narzędziowym Gear 
 -   Filmiki:
 -   Pliki:
 -   Zgłaszanie błędów: Proszę zgłaszać błędy na <https://github.com/looooo/FCGear/issues>
+
+
 
 ## Inne użyteczne odnośniki 
 

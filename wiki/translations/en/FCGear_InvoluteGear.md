@@ -34,7 +34,7 @@ An FCGear InvoluteGear object is derived from a [Part Feature](Part_Feature.md) 
 
 {{Properties_Title|accuracy}}
 
--    **numpoints|Integer**: Default is {{Value|6}}. Change of the involute profile. Changing the value can lead to unexpected results.
+-    **numpoints|Integer**: Default is {{Value|20}}. Change of the involute profile. Changing the value can lead to unexpected results.
 
 -    **simple|Bool**: Default is {{False}}, {{True}} generates a simplified display (without teeth and only a cylinder in pitch diameter).
 
@@ -45,38 +45,53 @@ An FCGear InvoluteGear object is derived from a [Part Feature](Part_Feature.md) 
 
 -    **module|Length**: Default is {{Value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
 
--    **teeth|Integer**: Default is {{Value|15}}. Number of teeth (see [Notes](#Notes.md)).
+-    **num_teeth|Integer**: Default is {{Value|15}}. Number of teeth (see [Notes](#Notes.md)).
 
 
 {{Properties_Title|computed}}
 
--    **angular_backlash|Angle**: (read-only)
+-    **addendum_diameter|Length**: Default is {{Value|17 mm}}. Outside diameter, measured at the addendum (the tip of the teeth).
 
--    **da|Length**: (read-only) Outside diameter, measured at the addendum (the tip of the teeth).
+-    **angular_backlash|Angle**: (read-only) The angle by which this gear can turn without moving the mating gear.
 
--    **df|Length**: (read-only) Root diameter, measured at the foot of the teeth.
+-    **pitch_diameter|Length**: Default is {{Value|15 mm}}. The pitch diameter.
 
--    **dw|Length**: (read-only) Working pitch diameter.
+-    **root_diameter|Length**: (read-only) The root diameter, measured at the foot of the teeth.
 
--    **transverse_pitch|Length**: (read-only) Pitch in the plane of rotation.
+-    **transverse_pitch|Length**: Default is {{Value|3.14 mm}}. The transverse pitch.
+
+-    **traverse_module|Length**: Default is {{Value|1 mm}}. The traverse module of the generated gear.
 
 
 {{Properties_Title|fillets}}
 
--    **head_fillet|Float**: Default is {{Value|0 mm}}.
+-    **head_fillet|Float**: Default is {{Value|0 mm}}. A fillet for the tooth-head.
 
--    **root_fillet|Float**: Default is {{Value|0 mm}}.
+-    **root_fillet|Float**: Default is {{Value|0 mm}}. A fillet for the tooth-root.
 
 -    **undercut|Bool**: Default is {{False}}, {{True}} changes the profile of the tooth root (see [Notes](#Notes.md)).
 
 
 {{Properties_Title|helical}}
 
--    **beta|Angle**: Default is {{Value|0 °}}. With the helix angle β a helical gear is created -- positive value → rotation direction right, negative value → rotation direction left (see [Notes](#Notes.md)).
-
 -    **double_helix|Bool**: Default is {{False}}, {{True}} creates a double helix gear (see [Notes](#Notes.md)).
 
--    **properties_from_tool|Bool**: Default is {{False}}. If {{True}} and **beta** is not zero, gear parameters are recomputed internally for the rotated gear.
+-    **helix_angle|Angle**: Default is {{Value|0 °}}. With the helix angle β a helical gear is created -- positive value → rotation direction right, negative value → rotation direction left (see [Notes](#Notes.md)).
+
+-    **properties_from_tool|Bool**: Default is {{False}}. If {{True}} and **helix_angle** is not zero, gear parameters are recomputed internally for the rotated gear.
+
+
+{{Properties_Title|hole}}
+
+-    **Axle_hole|Bool**: Default is {{False}}. {{True}} enables a central hole for an axle.
+
+-    **Axle_holesize|Length**: Default is {{Value|10 mm}}. Diameter of the hole for an axle.
+
+-    **offset_hole|Bool**: Default is {{False}}, {{True}} enables an offset hole.
+
+-    **offset_holeoffset|Length**: Default is {{Value|10 mm}}. The offset of the offset hole.
+
+-    **offset_holesize|Length**: Default is {{Value|10 mm}}. The diameter of the offset hole.
 
 
 {{Properties_Title|involute}}
@@ -132,32 +147,28 @@ A 2D tooth profile, obtained by setting the **height** to zero, cannot be used w
 Here "standard" refers to those spur gears with no profile shift coefficient ($x$).
 
 +++++
-| Symbol   | Term                                     | Formula                        | FCGear Parameter                            |
-+==========+==========================================+================================+=============================================+
-| $m$      | *Module*                                 | \-                             | $\texttt{module}$                           |
+| Symbol   | Term                                     | Formula                        | FCGear Parameter                        |
++==========+==========================================+================================+=========================================+
+| $m$      | *Module*                                 | \-                             | $\texttt{module}$                       |
 +++++
-| $z$      | *Number of Teeth*                        | \-                             | $\texttt{teeth}$                            |
+| $z$      | *Number of Teeth*                        | \-                             | $\texttt{teeth}$                        |
 +++++
-| $\alpha$ | *Pressure Angle*                         | \-                             | $\texttt{pressure} {\_} \texttt{parameter}$ |
-|          |                                          | Typically, $\alpha = 20^\circ$ |                                             |
+| $\alpha$ | *Pressure Angle*                         | Typically, $\alpha = 20^\circ$ | $\texttt{pressure} {\_} \texttt{angle}$ |
 +++++
-| d        | *Reference Diameter* or *Pitch Diameter* | $z \cdot m$                    | \-                                          |
+| $d$      | *Reference Diameter* or *Pitch Diameter* | $z \cdot m$                    | $\texttt{dw}$                           |
 +++++
-| $h^*_a$  | *Addendum Coefficient*                   | \-                             | $h^*_a = 1 + \texttt{ head}$                |
-|          |                                          | Typically, $h^*_a = 1$         |                                             |
+| $h^*_a$  | *Addendum Coefficient*                   | Typically, $h^*_a = 1$         | $h^*_a = 1 + \texttt{ head}$            |
 +++++
-| $h^*_f$  | *Dedendum Coefficient*                   | \-                             | $h^*_f = 1 + \texttt{ clearance}$           |
-|          |                                          | Typically, $h^*_f = 1.25$      |                                             |
+| $h^*_f$  | *Dedendum Coefficient*                   | Typically, $h^*_f = 1.25$      | $h^*_f = 1 + \texttt{ clearance}$       |
 +++++
-| $h_a$    | *Addendum*                               | $h_a = h^*_a \cdot m$          | \-                                          |
+| $h_a$    | *Addendum*                               | $h_a = h^*_a \cdot m$          | \-                                      |
 +++++
-| $h_f$    | *Dedendum*                               | $h_f = h^*_f \cdot m$          | \-                                          |
+| $h_f$    | *Dedendum*                               | $h_f = h^*_f \cdot m$          | \-                                      |
 +++++
-| $h$      | *Tooth Height* or *Tooth Depth*          | $h = h_a + h_f$                | \-                                          |
-|          |                                          | Typically, $h = 2.25 \cdot m$  |                                             |
+| $h$      | *Tooth Height* or *Tooth Depth*          | $h = h_a + h_f$                | \-                                      |
+|          |                                          | Typically, $h = 2.25 \cdot m$  |                                         |
 +++++
-| $x$      | *Profile Shift Coefficient*              | \-                             | $\texttt{shift}$                            |
-|          |                                          | For standard gears, $x = 0$    |                                             |
+| $x$      | *Profile Shift Coefficient*              | For standard gears, $x = 0$    | $\texttt{shift}$                        |
 +++++
 
 : style=\"text-align: left;\" \| Basic formulas common to internal and external standard spur gears
@@ -189,7 +200,7 @@ Here "standard" refers to those spur gears with no profile shift coefficient ($x
 ++++
 | Symbol | Term                     | Formula                       |
 +========+==========================+===============================+
-| $a$    | *Center Distance*        | $d = \frac{d_1 + d_2}{2}$     |
+| $a$    | *Center Distance*        | $a = \frac{d_1 + d_2}{2}$     |
 ++++
 | $c$    | *Tip and Root Clearance* | $c_1 = h_{f2} - h_{a1}$       |
 |        |                          | $c_2 = h_{f1} - h_{a2}$       |
@@ -207,7 +218,7 @@ Here "standard" refers to those spur gears with no profile shift coefficient ($x
     -   
         **axle base**
         
-        = **(pitch diameter (dw) 1 + 2)** : 2
+        = **(pitch diameter (dw) 1 + pitch diameter (dw) 2)** : 2
 
     -   
         **addendum diameter**
@@ -221,7 +232,7 @@ Here "standard" refers to those spur gears with no profile shift coefficient ($x
 
 ## Scripting
 
-Use the power of python to automate your gear modeling: 
+Use the power of Python to automate your gear modeling: 
 ```python
 import FreeCAD as App
 import freecad.gears.commands

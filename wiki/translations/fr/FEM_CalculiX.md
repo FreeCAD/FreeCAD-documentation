@@ -3,7 +3,7 @@
 
 Cette page rassemble des informations sur le solveur d\'éléments finis [CalculiX](http://www.calculix.de/), le solveur par défaut de l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md) pour l\'analyse structurelle et thermo-mécanique. Selon le système d\'exploitation que vous utilisez, vous devrez installer CalculiX avant de lancer votre première simulation. Veuillez voir [Installation des composants requis pour l'atelier FEM](FEM_Install/fr.md).
 
-Le solveur est capable de faire des calculs linéaires et non linéaires pour des problèmes statiques, dynamiques et thermiques. Le solveur opère sur un fichier Abaqus (`.inp`), ce qui signifie qu\'il peut être utilisé avec différents pré-processeurs prenant en charge ce format. Le programme inclut son propre préprocesseur graphique qui, toutefois, n'est pas utilisé par FreeCAD, mais uniquement par le solveur lui-même.
+Le solveur est capable de faire des calculs linéaires et non linéaires pour des problèmes statiques, dynamiques et thermiques. Le solveur opère sur un fichier d\'entrée de type Abaqus (`.inp`), ce qui signifie qu\'il peut être utilisé avec différents pré-processeurs prenant en charge ce format. Le programme inclut son propre pré-processeur graphique qui, toutefois, n'est pas utilisé par FreeCAD, mais uniquement par le solveur lui-même.
 
 CalculiX est conçu pour fonctionner sur les plates-formes Unix telles que les ordinateurs Linux et Irix mais également sur MS-Windows. CalculiX a été développé par des ingénieurs de MTU Aero Engines, Munich, Allemagne, pour les aider à concevoir des machines telles que des turbines à jet. Le logiciel est actuellement disponible au public selon les termes de la GPL version 2.
 
@@ -22,18 +22,18 @@ L\'outil [FEM Réglage du solveur](FEM_SolverControl/fr.md) gère l\'ensemble du
 
 
 
-## L\'interface de post-traitement 
+## Interface de prétraitement 
 
-Le fichier d\'entrée utilisé par CalculiX peut être préparé et édité avant le démarrage du solveur. Les unités utilisées dans le fichier d\'entrée sont indépendantes des unités définies dans FreeCAD ; ils seront toujours en millimètres (mm) et en Newton (N).
+Le fichier d\'entrée utilisé par CalculiX peut être préparé et édité avant le démarrage du solveur. Les unités utilisées dans le fichier d\'entrée sont indépendantes des unités définies dans FreeCAD. Elles seront toujours en millimètres (mm) et en Newton (N).
 
 
-**(À faire : vérifiez ceci. Que se passe-t-il avec le maillage est si l'unité inch est utilisée dans FreeCAD ? Parce que la densité a été introduite, avec cela nous avons kg et s et non plus N ?! comment ça ?!)**
+**(À faire : vérifiez ceci. Que se passe-t-il quand un maillage est en inch et utilisé dans FreeCAD ? Comme la densité a été introduite, nous avons des kg et des s et non plus des N ?!)**
 
 L\'interface CalculiX prend en charge les objets suivants :
 
 
 
-### Eléments MEF 
+### Éléments finis 
 
 -   Tet4 et Tet10
 -   S3 et S6
@@ -65,12 +65,12 @@ L\'atelier FEM charge les résultats de CalculiX dans l\'[objet résultat](FEM_R
 -   Déplacements
 -   Contraintes
 -   Déformations
--   Déformation plastique équivalente (PEEQ) - si un matériau non linéaire a été utilisé.
--   Température - pour l\'analyse thermomécanique.
+-   Déformation plastique équivalente (PEEQ), si un matériau non linéaire a été utilisé.
+-   Température, pour l\'analyse thermomécanique.
 
-FreeCAD lit les résultats du fichier \*.frd qui a été créé par CalculiX. Si ces résultats contiennent plusieurs pas de temps, chaque pas de temps est importé dans FreeCAD comme un nouvel objet résultat. Le même comportement s\'applique à l\'analyse fréquentielle ou de flambage avec de multiples valeurs propres.
+FreeCAD lit les résultats du fichier ***.frd** que CalculiX a crée. Si ces résultats contiennent plusieurs pas de temps, chaque pas de temps est importé dans FreeCAD comme un nouvel objet résultat. Le même comportement s\'applique à l\'analyse fréquentielle ou de flambage avec de multiples valeurs propres.
 
-Les forces de réaction se trouvent dans ccx_dat_file, qui contient les composantes de force de réaction (fx, fy, fz) pour chaque condition limite fixe et pour chaque condition limite de déplacement, ce qui limite les degrés de liberté de translation.
+Les forces de réaction se trouvent dans *ccx_dat_file*, qui contient les composantes de force de réaction (fx, fy, fz) pour chaque condition limite fixe et pour chaque condition limite de déplacement, ce qui limite les degrés de liberté de translation.
 
 
 

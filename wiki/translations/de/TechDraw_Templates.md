@@ -1,25 +1,42 @@
 # TechDraw Templates/de
 ## Beschreibung
 
-Jedes TechDraw-Zeichnungsblatt (Page-Objekt) basiert auf einer Vorlage (Template-Objekt). Die Vorlage steuert die Blattgröße und enthält unveränderliche grafische Elemente und Text, z.B. einen Zeichnugsrahmen oder eine Beschnittkante.
+Jedes TechDraw-Zeichnungsblatt (Page-Objekt) basiert auf einer Vorlage (Template-Objekt). Die Vorlage stellt die Hintergrundfläche eines Zeichnungsblattes zur Verfügung, in die Ansichten, Symbole und andere Beschriftungsobjekte eingefügt werden können und legt das Papierformat fest. Nur Elemente innerhalb dieser Zeichenfläche werden beim Exportieren oder Drucken ausgegeben.
 
-Die Vorlage kann auch editierbare Textfelder für Attribute wie *Titel*, *Untertitel*, *Autor*, *Datum*, *Maßstab*, *Gewicht\",*Zeichnungsnummer*und*Blatt\'\'.
+Die Vorlage kann auch graphische Elemente enthalten, wie einen Rahmen, der die Zeichenfläche festlegt, inklusive Indexfeldern, Faltmarken und wahlweise einem Schriftfeld, das wiederum unveränderbare und [editierbare Texte](Svg_Namespace/de#freecad_editable.md) enthält. Das Schriftfeld kann auch als eigenständiges [Symbol](TechDraw_Symbol/de.md) eingefügt werden.
 
-Die Vorlagen sind [SVG](SVG.md)-Dateien, die außerhalb von FreeCAD mit einer Anwendung wie [Inkscape](https://de.wikipedia.org/wiki/Inkscape) erstellt und geändert werden können.
+Die Vorlagen sind wie Symbole [SVG](SVG.md)-Dateien, die außerhalb von FreeCAD erstellt und geändert werden können, entweder mit einer Anwendung wie [Inkscape](https://de.wikipedia.org/wiki/Inkscape) oder mit einem einfachen Texteditor. Beide können editierbare Textfelder enthalten, verwenden aber unterschiedliche Werkzeuge zum Bearbeiten.
+
+Ein neues Autofill-Werkzeug ({{Version/de|1.0}}) kann automatisch editierbare Textfelder in einer Vorlage ausfüllen, wenn sie eingefügt wird. Dies erfordert Vorlagen, die das neue Attribut [freecad:autofill](Svg_Namespace/de#freecad_autofill.md) verwenden. Die folgenden Attributnamen werden vom Autofill-Werkzeug berücksichtigt: \"author\", \"date\", \"organization\", \"scale\", \"sheet\", \"title\", \"page_number\", and \"page_count\".
 
 
 
 ## Eigenschaften
 
--    **Orientation**: Hoch- oder Querformat
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
--    **Width**: Blattbreite in mm
+Ein Template-Objekt besitzt die folgenden Eigenschaften:
 
--    **Height**: Blatthöhe in mm
 
--    **Page Result**: Eine Kopie der originalen Vorlagendatei einschließlich aller Änderungen an editierbaren Texten. Dies erlaubt Anwendern, die möglicherweise keine Kopie der Vorlagendatei haben, die Seite wie vorgesehen anzuzeigen. Für Endanwender in der Regel nicht nützlich.
+{{TitleProperty|Basis}}
 
--    **Template**: a) Ein Verweis auf die Kopie der ursprünglichen Vorlagendatei, die in dieser \*.FCStd Datei eingebunden ist. b) Ein Dateipfad zu einer auf dem aktuellen Rechner vorhandenen Vorlage. Auf das Dateiauswahl-Zeichen (\...) klicken, um zu einer anderen Vorlage zu wechseln.
+-    **Orientation|Enumeration**: {{Value|Portrait}} or {{Value|Landscape}}.
+
+
+{{TitleProperty|Page Properties}}
+
+-    **Width|Length**: Paper width in mm.
+
+-    **Height|Length**: Paper height in mm.
+
+-    **Editable Texts|Map|Hidden**: Key:Value list of editable texts in the template.
+
+
+{{TitleProperty|Template}}
+
+-    **Page Result|FileIncluded**: A copy of the original Template file including all changes to editable texts. This allows users who may not have a copy of the Template file to see the Page as intended. Not typically useful for end users.
+
+-    **Template|File**: A pointer to the copy of the original Template file which is incorporated into this ***.FCStd** file, or a filepath to a template accessible on the current machine. See the [next paragraph](#Select_a_different_template_file.md) for information on how to change the Template.
 
 
 
@@ -65,10 +82,9 @@ Siehe auch [So wird eine benutzerdefinierte TechDraw Vorlage erstellt](TechDraw_
 
 ## Hinweise
 
--   TechDraw-Vorlagen sind nicht vollständig austauschbar mit [Drawing-Vorlagen](Drawing_templates/de.md).
--   Im allgemeinen funktionieren die Drawing-Vorlagen in TechDraw, es können jedoch Probleme mit editierbaren Texten auftreten.
+-   Die von FreeCAD verwendete Bibliothek zum Verarbeiten von SVG-Daten **unterstützt nur die SVG-Tiny Spezifikation**. Im Besonderen: \"SVG Tiny does not support gradients, transparency, clipping, masks, symbols, patterns, underline text, strike through text, vertical text, or SVG filter effects.\" (from Adobe Illustrator Help), also Farbverläufe, Transparenz, Ausschnitte, Masken, Symbole, Schraffurmuster, unterstrichenen Text, durchgestrichenen Text, vertikalen Text oder SVG-Filtereffekte. Werden diese Elemente in selbsterstellten Vorlagen verwendet, führen sie zu Darstellungsproblemen.
 
--   Svg-Transformationsanweisungen **werden Probleme verursachen** in benutzerdefinierten Vorlagen. Siehe eine Stackoverflow-Diskussion unter [removing transform clauses in SVG files](https://stackoverflow.com/questions/13329125/removing-transforms-in-svg-files) (engl.).
+-   Svg-Transformationsanweisungen in benutzerdefinierten Vorlagen **können Probleme verursachen**, siehe eine Stackoverflow-Diskussion unter [removing transform clauses in SVG files](https://stackoverflow.com/questions/13329125/removing-transforms-in-svg-files) (engl.), hauptsächlich wenn Inkscape zu viele von ihnen einsetzt. Aber sie lassen sich nicht verhindern, wenn gedrehter Text in der Vorlage erforderlich ist.
 
 -   Die Anweisung **xml:space=\"preserve\"** verursacht manchmal Probleme mit der Textgröße und -positionierung. Es ist am besten, diese Anweisung zu vermeiden bzw. aus dem SVG-Code der benutzerdefinierten Vorlage entfernen.
 

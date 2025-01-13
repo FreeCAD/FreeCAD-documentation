@@ -1,13 +1,13 @@
 # Manual:What is FreeCAD
-![](images/Freecad016_screenshot1.jpg ) 
+![](images/FreeCAD_022_example.png )
 
-FreeCAD is a general purpose parametric 3D computer-aided design (CAD) modeling application, made primarily to design real-life objects. [Parametric modeling](http://en.wikipedia.org/wiki/Parametric_feature_based_modeler) is a type of modeling where the shapes of the 3D objects you design are controlled by parameters. For example, the shape of a brick might be controlled by three parameters: height, width and length. These parameters are part of the object and may be modified at any time, even after the object has been created. As well as simple values, an object can have other objects as parameters. For example, you could have an object that takes your brick as input and creates a column from it. You could think of a parametric object as a small program that creates geometry from parameters.
+As mentioned in the previous section, FreeCAD is a parametric 3D computer-aided design (CAD) modeling application. [Parametric design](https://en.wikipedia.org/wiki/Parametric_design) is a method of designing objects based on defining parameters and relationships between them. In this approach, changes to parameters automatically propagate throughout the associated elements of the design, allowing for rapid iterations and adaptations.
 
-FreeCAD is not designed for a particular kind of work, or for making a particular kind of object. Instead, it permits users to produce models of objects of widely differing sizes for many purposes, from small electronic components to 3D-printable pieces all the way up to buildings. Each of these tasks has different dedicated sets of tools and workflows available.
+Commonly used in fields such as architecture, engineering, and product design, parametric design helps create complex shapes and forms efficiently, with the ability to adjust and fine-tune various design aspects through the modification of input values. This approach is especially powerful in software like FreeCAD, where users can set these parameters dynamically to automate and optimize the design process.
 
-FreeCAD is also multiplatform (it runs exactly the same way on Windows, Mac OS and Linux platforms), and it is [open source](http://en.wikipedia.org/wiki/Open-source_software). Being open source, FreeCAD benefits from the contributions and efforts of a large community of programmers, enthusiasts and users worldwide. FreeCAD is essentially an application built by the people who use it, instead of being made by a company trying to sell you a product. It also means that FreeCAD is free, not only to use, but also to distribute, copy, modify, or even sell.
+FreeCAD is a multiplatform application that runs on Windows, macOS, and Linux, and is completely [open-source](https://en.wikipedia.org/wiki/Open_source). This means it is free to use, modify, and distribute. FreeCAD is developed by an enthusiastic community rather than a single company, which allows for constant improvements and updates.
 
-FreeCAD benefits from the huge, accumulated experience of the open source world. Internally, it includes several other open source components, and FreeCAD itself can be used as a component in other applications. It possesses many features that have become standard in the open source world, such as supporting a wide range of file formats, and being scriptable, customizable and modifiable. All made possible through a dynamic and enthusiastic community of users.
+The software includes many open-source components and can be integrated into other applications. It is known for being highly customizable and supports a variety of file formats. This flexibility and the robust support from its community make FreeCAD a powerful tool in the open-source world. Developed collectively by a global community of programmers, enthusiasts, and users, FreeCAD exemplifies the collaborative spirit of open-source projects. It offers significant advantages such as customization and scriptability, bringing sophisticated features typically found in professional software within the reach of any user interested in 3D modeling and design.
 
 The official website of FreeCAD is at <http://www.freecad.org>
 
@@ -15,7 +15,7 @@ The official website of FreeCAD is at <http://www.freecad.org>
 
 -   [About FreeCAD](About_FreeCAD.md)
 -   [List of features](Feature_list.md)
--   [Screenshots and user cases](http://forum.freecadweb.org/viewforum.php?f=24)
+-   [Screenshots and user cases](https://forum.freecad.org/viewforum.php?f=24)
 
 
 

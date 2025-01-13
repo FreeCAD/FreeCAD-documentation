@@ -5,92 +5,113 @@
    MenuLocation: Sketch , Wiązania szkicownika , Wiązanie styczności
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **T**
-   SeeAlso: Sketcher_ConstrainPointOnObject/pl
+   SeeAlso: 
 ---
 
 # Sketcher ConstrainTangent/pl
 
+
+
 ## Opis
 
-Wiązanie styczności tworzy dwie krzywe, które dotykają się wzajemnie *(są styczne)*. Linie są traktowane jako nieskończone, a łuki są traktowane jako pełne koła/elipsy. Wiązanie jest również w stanie połączyć dwie krzywe, zmuszając je do zetknięcia się ze sobą po stycznej, co sprawia, że połączenie jest gładkie.
+Narzędzie <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> **Wiązanie styczności** umożliwia ustawienie dwóch krawędzi lub osi jako stycznych. Linie są traktowane jako nieskończone, a otwarte krzywe są również praktycznie rozszerzone. Wiązanie może również łączyć dwie krawędzie, wymuszając ich styczność w miejscu połączenia. Jeśli wybrane zostaną dwie linie lub linia i punkt końcowy innej linii, linie te staną się współliniowe.
 
-Wiązanie styczności może być również użyte z dwiema liniami, aby uczynić je współliniowymi.
+
 
 ## Użycie
 
-Istnieje pięć różnych sposobów zastosowania tego wiązania:
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
-1.  pomiędzy dwoma krzywymi *(dostępne nie dla wszystkich krzywych)*,
-2.  pomiędzy dwoma punktami końcowymi krzywej, tworząc gładkie połączenie
-3.  pomiędzy krzywą a punktem końcowym innej krzywej,
-4.  pomiędzy dwoma krzywymi w punkcie zdefiniowanym przez użytkownika.
-5.  pomiędzy dwiema liniami, aby stworzyć warunki współliniowe.
 
-Aby zastosować wiązanie styczności, należy wykonać następujące czynności:
 
--   Wybierz dwie lub trzy pozycje na szkicu.
--   Wywołaj wiązanie, klikając jego ikonę na pasku narzędzi, wybierając element menu lub używając skrótu klawiaturowego.
+### [Tryb kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md) 
 
-### Pomiędzy dwoma krzywymi *(bezpośrednia styczność)* 
+1.  Upewnij się, że nie ma zaznaczenia.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_ConstrainTangent.svg" width=16px> '''Wiązanie styczności lub współliniowe'''**.
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:600px;">
+    -   Wybierz z menu **Szkic → Wiązania szkicownika → <img src="images/Sketcher_ConstrainTangent.svg" width=16px> Wiązanie styczności lub współliniowe**.
 
-Dwie krzywe staną się styczne, a punkt styczności będzie ukryty. Tryb ten jest stosowany w przypadku wybrania dwóch krzywych.
+    -   
+        <small>(v1.0)</small> 
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view.md) i wybierz **Wiązanie → <img src="images/Sketcher_ConstrainTangent.svg" width=16px> Wiązanie styczności lub współliniowe** z menu podręcznego.
 
-**Zaakceptowany wybór**:
+    -   Użyj skrótu klawiaturowego: **T**.
+3.  Kursor zmieni się w krzyżyk z ikoną narzędzia.
+4.  Wykonaj jedną z następujących czynności:
+    -   Wybierz dwie krawędzie. Krawędzie mogą być dowolne z wyjątkiem krawędzi krzywej złożonej.
+    -   Wybierz punkt i dwie krawędzie *(w tej kolejności)*.
+    -   Wybierz krawędź, punkt i inną krawędź *(w tej samej kolejności)*.
+5.  Dodawane jest wiązanie styczne. Jeśli wybrano punkt i dwie krawędzie, można również dodać maksymalnie dwa wiązania [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md). Zobacz akapit [z przykładem](#Między_dwiema_krawędziami.md).
+6.  Opcjonalnie kontynuuj tworzenie wiązań.
+7.  Aby zakończyć, kliknij prawym przyciskiem myszy lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
 
--   linia + linia, okrąg, łuk, elipsa, łuk elipsy
--   okrąg, łuk + okrąg, łuk
 
-Jeżeli bezpośrednia styczność pomiędzy wybranymi krzywymi nie jest obsługiwana *(np. pomiędzy okręgiem a elipsą)*, do szkicu zostanie automatycznie dodany punkt pomocniczy i zastosowany zostanie punkt styczności.
 
-Nie zaleca się rekonstrukcji punktu styczności poprzez tworzenie punktu i wiązanie go z ułożeniem na obu krzywych. Będzie to działać, ale zbieżność będzie znacznie wolniejsza, bardziej skokowa i będzie wymagała około dwa razy więcej iteracji do zbieżności niż normalnie. Użyj innych trybów tego wiązania, jeśli punkt styczności jest potrzebny.
+### Tryb jednorazowy 
 
-### Między dwoma punktami końcowymi (styczność punkt-punkt) 
+1.  Wykonaj jedną z następujących czynności:
+    -   Wybierz dwie krawędzie *(patrz wyżej)*.
+    -   Wybierz dwa punkty końcowe należące do różnych krawędzi.
+    -   Wybierz krawędź i punkt końcowy innej krawędzi *(w dowolnej kolejności)*.
+    -   Wybierz punkt i dwie krawędzie *(analogicznie)*.
+2.  Wywołaj narzędzie jak wyjaśniono powyżej lub z następującą dodatkową opcją:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz **<img src="images/Sketcher_ConstrainTangent.svg" width=16px> Wiązanie styczności lub współliniowe** z menu podręcznego.
+3.  Zostanie dodane wiązanie styczności. Jeśli wybrano punkt i dwie krawędzie, można również dodać maksymalnie dwa wiązania [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md). Zobacz akapit [z przykładem](#Między_dwiema_krawędziami.md).
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
 
-W tym trybie punkty końcowe są zbieżne, a połączenie jest styczne *(C1 - gładkie lub \"ostre\", w zależności od położenia krzywych przed nałożeniem wiązania)*. Tryb ten jest stosowany w przypadku wybrania dwóch punktów końcowych dla dwóch krzywych. Jeśli chcesz uzyskać ten rodzaj styczności, nie możesz używać zbieżności plus styczności między krzywymi / liniami. Solver nie może utworzyć stabilnych rozwiązań dla tej kombinacji i odpowiednio zastępuje ograniczenia.
 
-\"Zaakceptowany wybór:
+## Przykłady
 
--   punkt końcowy linii / łuku / łuku-ellipsy + punkt końcowy linii / łuku/ łuku-ellipsy *(tj. dwa punkty końcowe dowolnych dwóch krzywych)*
 
-### Pomiędzy krzywą a punktem końcowym (styczność punkt - krzywa) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:600px;">
+### Między dwiema krawędziami 
 
-W tym trybie, punkt końcowy jednej krzywej jest związany z położeniem na drugiej krzywej, a krzywe stają się w tym punkcie stycznymi. Tryb ten jest stosowany, gdy krzywa i punkt końcowy innej krzywej zostały wybrane.
+<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:400px;">
 
-**Zaakceptowany wybór:**
+Dwie krawędzie stają się styczne. Jeśli jedna z krawędzi jest [stożkiem](Sketcher_Workbench/pl#Sketcher_CompCreateConic.md), dodawany jest [obiekt punktu](Sketcher_CreatePoint/pl.md), który ma [wiązanie punk na obiekcie](Sketcher_ConstrainPointOnObject/pl.md) z obiema *(przedłużonymi)* krawędziami.
 
--   linia, okrąg, łuk, elipsa, łuk elipsy + punkt końcowy linii / łuku / łuku elipsy *(tzn. każda krzywa + punkt końcowy każdej krzywej)*.
+Nie zaleca się rekonstrukcji punktu styczności poprzez ręczne utworzenie punktu i związanie go tak, aby leżał na obu krzywych. Będzie to działać, ale zbieżność będzie znacznie wolniejsza, bardziej skokowa i będzie wymagać około dwa razy więcej iteracji niż normalnie. Jeśli potrzebny jest punkt styczny, wybierz dwie krawędzie i istniejący punkt.
 
-### Między dwiema krzywymi w punkcie *(styczna do punktu) (v0.15)* 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:600px;">
 
-W tym trybie dwie krzywe są styczne, a punkt styczności jest śledzony. Ten tryb jest stosowany, gdy wybrano dwie krzywe i punkt.
+### Między dwoma punktami końca 
 
-**Zaakceptowany wybór:**
+<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:400px;">
 
--   każda linia / krzywizna + każda linia / krzywizna + każdy punkt
+Punkty końcowe są zbieżne, a kąt między krawędziami w tym punkcie jest ustawiony na 180° *(gładkie połączenie)* lub 0° *(ostre połączenie)*, w zależności od położenia krawędzi przed zastosowaniem wiązania.
 
-\"Każdy punkt\" może być samotnym punktem, albo punktem jakiegoś obiektu, np. środkiem okręgu, punktem końcowym łuku, albo początkiem.
 
-Aby wiązanie działało prawidłowo, punkt musi znajdować się na obu krzywych. Tak więc, w miarę wywoływania wiązania, punkt będzie automatycznie związany z obiema krzywymi *([wiązanie pomocnicze](Sketcher_helper_constraint/pl.md) zostanie dodane, jeśli jest to konieczne)*, a krzywe zostaną związane w punkcie styczności. Te [wiązania pomocnicze](Sketcher_helper_constraint/pl.md) są zwykłymi regularnymi wiązaniami. Mogą być dodane ręcznie lub usunięte.
 
-W porównaniu z bezpośrednią stycznością, wiązanie to jest wolniejsze, ponieważ istnieje więcej stopni swobody, ale jeśli punkt styczności jest potrzebny, jest to tryb zalecany, ponieważ oferuje lepszą zbieżność w porównaniu z bezpośrednią stycznością + punkt na dwóch krzywych.
+### Między krawędzią a punktem końcowym 
 
-Umiejscowienie punktu przed zastosowaniem wiązania jest wskazówką dla solwera, gdzie powinna znajdować się styczność. Z tym wiązaniem można związać dwie elipsy w dwóch miejscach, aby stykały się ze sobą.
+<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:400px;">
 
-### Pomiędzy dwoma liniami *(współliniowe)* 
+Punkt końcowy jednej krawędzi jest związany tak, aby leżał na drugiej krawędzi, a krawędzie są styczne w tym punkcie.
 
-<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
 
-**Akceptowany wybór:**
 
--   dowolna linia / wierzchołek + dowolna linia / wierzchołek
+### Między dwiema krawędziami w punkcie 
+
+<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:400px;">
+
+Dwie krawędzie są styczne w danym punkcie. Punktem może być dowolny punkt, np. środek okręgu, punkt końcowy krawędzi lub początek, może on należeć do jednej z krawędzi, a także może być [obiektem punktu](Sketcher_CreatePoint/pl.md). W razie potrzeby dodawane są wiązania [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md), aby zapewnić, że punkt leży na obu *(przedłużonych)* krawędziach. Te dodatkowe wiązania nazywane są [wiązaniami pomocniczymi](Sketcher_helper_constraint/pl.md).
+
+W porównaniu z bezpośrednią stycznością, to wiązanie jest wolniejsze, ponieważ wiąże się z nim więcej stopni swobody, ale jeśli punkt styczności jest potrzebny, jest to zalecane, ponieważ zapewnia lepszą zbieżność.
+
+
+
+### Pomiędzy dwiema liniami 
+
+<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:400px;">
+
+Obie linie są współliniowe.
+
+
 
 ## Tworzenie skryptów 
 
@@ -111,11 +132,11 @@ Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoid
 
   - `Sketch` jest obiektem typu szkic
 
-  - `icurve1`, `icurve2` są dwiema liczbami całkowitymi określającymi krzywe, które mają być styczne. Liczby całkowite to indeksy w szkicu *(wartość zwracana przez`Sketch.addGeometry`)*.
+  - `icurve1`, `icurve2` są dwiema liczbami całkowitymi określającymi krzywe, które mają być styczne. Liczby całkowite to wskaźniki w szkicu *(wartość zwracana przez`Sketch.addGeometry`)*.
 
-  - `pointpos1`, `pointpos2` powinny wynosić 1 dla punktu początkowego i 2 dla punktu końcowego.
+  - `pointpos1`, `pointpos2` powinny wynosić `1` dla punktu początkowego i `2` dla punktu końcowego.
 
-  - `geoidpoint` oraz `pointpos` w `TangentViaPoint` są indeksami określającymi punkt styczności.
+  - `geoidpoint` oraz `pointpos` w `TangentViaPoint` są wskaźnikami określającymi punkt styczności.
 
 Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, które mogą być używane dla `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` i `pointpos`, a także zawiera kolejne przykłady tworzenia wiązań za pomocą skryptów języka Python.
 

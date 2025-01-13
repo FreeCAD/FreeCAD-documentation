@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Point
-   Name/it: Punto
-   MenuLocation: Drafting ,  Punto
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Punto
+   MenuLocation: Drafting , Punto<br>2D Drafting , Punto
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Version: 0.7
 ---
 
@@ -25,7 +25,8 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Point.svg" width=16px> [Punto](Draft_Point/it.md)**.
-    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_Point.svg" width=16px> Punto** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Drafting → <img src="images/Draft_Point.svg" width=16px> Punto** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **2D Drafting → <img src="images/Draft_Point.svg" width=16px> Punto** dal menu.
 2.  Si apre il pannello attività **Punto**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
 3.  Scegliere un punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
 
@@ -33,10 +34,10 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 ## Opzioni
 
-È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 0.22).
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 1.0).
 
 -   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
--   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md).
 -   Premere **N** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando si riavvierà al termine, consentendo di continuare a creare punti.
 -   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap.md).
 -   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
@@ -45,7 +46,7 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 ## Note
 
--   Usa <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft_Snap_Near/it\|Snap Vicino](Draft_Snap_Near.md) ({{VersionMinus/it|0.20}}) o <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Snap Punto Finale](Draft_Snap_Endpoint/it.md) ({{VersionPlus/it|0.21}}) per eseguire lo snap ai Punti Draft.
+-   Usare <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Aggancia Punto Finale](Draft_Snap_Endpoint/it.md) per eseguire l\'aggancio ai Punti Draft.
 
 
 

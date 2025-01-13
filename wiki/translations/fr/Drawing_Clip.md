@@ -13,20 +13,22 @@ Shortcut=
 
 Cette commande vous permet de placer un découpage rectangle sur une [ Feuille A3 paysage ](Drawing_Landscape_A3/fr.md). [ vue de Dessin](Drawing_View/fr.md) les objets peuvent alors être ajoutés au découpage rectangle , et leur affichage sera tronqué par les bords du rectangle.
 
+
+
 ## Utilisation
 
-1.  Créez une [Feuille A3 paysage](Drawing_Landscape_A3/fr.md)
-2.  \[\[Std_Refresh/fr \|
-
-Actualiser\]\] la vue si une vue de dessin n\'a pas été ouverte
-
-1.  Appuyez sur le bouton{{KEY | <img src="images/_Drawing__Clip.png_" width= 16px> [Masque ](Drawing_Clip/fr.md)}}
-2.  Ajuster les propriétés souhaitées, comme la taille et la position.
-3.  [Vue du Dessin ](Drawing_View/fr.md) Glisser-déposer des objets sur la séquence objets dans l\'Arborescence
+1.  Créez une [Drawing page](Drawing_Landscape_A3/fr.md)
+2.  [Recalculez](Std_Refresh/fr.md) la vue si une vue de Drawing n\'a pas été ouverte
+3.  Appuyez sur le bouton **<img src="images/Drawing_Clip.png" width=16px> [Rognage](Drawing_Clip/fr.md)
+**
+4.  Ajustez les propriétés souhaitées, comme la taille et la position.
+5.  Glissez/déposez des objets [Drawing Vue](Drawing_View/fr.md) sur l\'objet Rognage dans l\'arborescence
 
 ## Options
 
 -   Une propriété vous permet d\'afficher ou de masquer la découpe rectangulaire elle-même.
+
+
 
 ## Limitations
 

@@ -13,17 +13,21 @@
 
 Crée un nouvel objet maillé mis à l\'échelle avec une mise à l\'échelle indépendante pour chaque axe.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'objet maillé à mettre à l\'échelle.
 2.  Cliquez sur le menu **OpenSCAD → Mettre à l'échelle le maillage**.
-3.  Sélectionnez l\'axe souhaité dans la boîte de dialogue, ou entrez votre propre axe personnalisé à utiliser et cliquez sur OK.
+3.  Sélectionnez l\'axe souhaité dans la fenêtre de dialogue, ou entrez votre propre axe personnalisé à utiliser et cliquez sur OK.
 
 -   Un nouvel objet est créé et mis à l\'échelle, l\'objet d\'origine est masqué.
 
 ## Limitations
 
 -   Le nouvel objet maillé n\'est pas paramétrique par rapport à l\'objet maillé d\'origine, ce qui signifie que les modifications apportées à l\'objet d\'origine ne sont pas reflétées dans le nouvel objet mis à l\'échelle.
+
+
 
 ## Remarques
 

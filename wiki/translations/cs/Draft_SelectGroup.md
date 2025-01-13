@@ -24,8 +24,6 @@ Tento nástroj umožňuje vybrat obsah jedné nebo více vybraných skupin.
 
 </div>
 
-The command was revised in FreeCAD version 0.20 and this page describes that version.
-
 ## Usage
 
 

@@ -34,7 +34,7 @@ Il comando **Anteprima di stampa** mostra un\'anteprima del risultato del comand
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

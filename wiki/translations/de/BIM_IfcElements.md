@@ -1,29 +1,38 @@
 ---
- GuiCommand:Addon/de
+ GuiCommand:
    Name: BIM IfcElements
    Name/de: BIM IfcElemente
-   Workbenches: Image:IFC.svg BIM Workbench/de
-   Addon: BIM
-   MenuLocation: Verwalten , IFC Elemente
-   SeeAlso: BIM IfcProperties/de,BIM IfcQuantities/de
+   MenuLocation: Manage , Manage IFC elements...
+   Workbenches: BIM_Workbench/de
 ---
 
 # BIM IfcElements/de
 
+
+
 ## Beschreibung
 
-<img alt="" src=images/BIM_ifcelements_screenshot.png  style="width:1024px;">
+Im Dialog **IFC Elements Manager** können die Namen, IFC-Typen und Materialien der BIM-Elemente des Modells verwaltet werden. Sein Zweck ist es, einen einfachen Überblick über das Modells zu bieten und zu ermöglichen, sicherzustellen, dass alles so ist, wie gewünscht, bevor das Modell nach [IFC](Arch_IFC/de.md) exportiert wird.
 
-Im IFC Elementeverwalter Dialog kannst du die **Namen**, **IFC Typen** und **Materialien** der BIM Elemente deines Modells verwalten. Sein Zweck ist es, eine einfache Gesamtansicht deines Modells zu bieten und dir zu ermöglichen, sicherzustellen, dass alles so ist, wie du es wünschst, bevor du das Modell nach [IFC](Arch_IFC/de.md) exportierst.
+<img alt="" src=images/BIM_ifcelements_screenshot.png  style="width:600px;"> 
+*IFC Elements Manager*
 
-Damit kannst du:
+Damit kann man:
 
--   Sortiere Objekte alphabetisch, nach Material, nach IFC Typ oder nach der Modellstruktur. Du kannst auch alle oder nur die aktuell sichtbaren Objekte anzeigen lassen.
--   Umbenennen von Objekten durch Doppelklick auf ihren Namen
--   Ändern des IFC Typs durch Anklicken eines einzelnen Typs oder, wenn mehr als einer ausgewählt ist, über das Auswahlmenü \"Typ ändern in:\".
--   Ändern des Materials durch Anklicken eines einzelnen Materials oder, falls mehr als eines ausgewählt ist, über das Auswahlmenü \"Material ändern in:\".
+-   Objekte alphabetisch, nach Material, nach IFC-Typ oder nach der Modellstruktur sortieren. Es können auch alle oder nur die aktuell sichtbaren Objekte angezeigt werden.
+-   Objekte durch Doppelklick auf ihren Namen umbenennen.
+-   Den IFC-Typs durch Anklicken eines einzelnen Typs ändern oder, wenn mehr als einer ausgewählt ist, über das Auswahlmenü \"change type to:\".
+-   Das Material durch Anklicken eines einzelnen Materials ändern oder, falls mehr als eines ausgewählt ist, über das Auswahlmenü \"change material to:\".
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > BIM IfcElements/de
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcElements/de

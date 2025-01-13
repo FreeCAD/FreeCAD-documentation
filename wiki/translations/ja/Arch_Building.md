@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## 概要
 
 このコマンドを使うと選択されているオブジェクトの編集モードの有効/無効を切り替えることができます。 このコマンドが動作するにはオブジェクトが選択されているか（編集モードを有効にする場合）、編集モードになっているか（編集モードを無効にする場合）どちらかである必要があります。
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -34,15 +38,21 @@
 
 </div>
 
+
+
 ## オプション
 
 -   Starting from FreeCAD version 0.18, the Building object is actually a [BuildingPart](Arch_BuildingPart.md) with its **IFC Type** property set to \"Building\". You can convert any BuildingPart to a Building simply by changing its IFC Type.
 -   After creating a building, you can add more objects to it by drag and dropping them in the Tree View or by using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
 -   You can remove objects from a building by drag and dropping them out of it the Tree View or by using the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
 
+
+
 ## プロパティ
 
 -    **Building Type**: The type of this building, to choose from a list
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
@@ -96,5 +106,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/ja
+⏵ [documentation index](../README.md) > Arch Building/ja

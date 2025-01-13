@@ -82,5 +82,13 @@ Oprócz wykrywania potencjalnych błędów geometrii, narzędzie to wyświetla s
 
 
 
+
+
+{{Part_Tools_navi
+
+}}
+
+
+
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/pl

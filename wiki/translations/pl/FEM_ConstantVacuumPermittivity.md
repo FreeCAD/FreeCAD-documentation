@@ -1,11 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ConstantVacuumPermittivity
    Name/pl: MES: Zdefiniuj przenikalność elektryczną próżni
    MenuLocation: Model , Nadpisz stałe , Zdefiniuj przenikalność elektryczną próżni
    Workbenches: FEM_Workbench/pl
    Version: 0.19
    SeeAlso: 
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstantVacuumPermittivity/pl

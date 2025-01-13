@@ -41,13 +41,11 @@ Możesz określić swoje ulubione ustawienia domyślne w [ustawieniach](TechDraw
 
 ## Ścieżka pliku LineGroup 
 
--   -   ***freecad-daily PPA***: `/usr/share/freecad-daily/Mod/TechDraw/LineGroup/`
-
--   **Linux**: `/usr/share/freecad/Mod/TechDraw/LineGroup/`
-
--   **Mac**: `/Applications/FreeCAD.app/Contents/Mod/TechDraw/LineGroup/`
-
 -   **Windows**: `C:\Program Files\FreeCAD\data\Mod\TechDraw\LineGroup\`
+-   **Mac**: `/Applications/FreeCAD.app/Contents/Mod/TechDraw/LineGroup/`
+-   **Linux**: `/usr/share/freecad/Mod/TechDraw/LineGroup/`
+    -   **freecad-daily PPA**: `/usr/share/freecad-daily/Mod/TechDraw/LineGroup/`
+    -   **snap package**: `/snap/freecad/current/usr/share/Mod/TechDraw/LineGroup`
 
 Uwaga: Dodano nową preferencję, aby umożliwić korzystanie z własnego pliku LineGroup.
 
@@ -80,7 +78,7 @@ Uwaga: Dodano nową preferencję, aby umożliwić korzystanie z własnego pliku 
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

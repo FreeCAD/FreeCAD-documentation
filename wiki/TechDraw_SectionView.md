@@ -3,7 +3,7 @@
    Name: TechDraw SectionView
    MenuLocation: TechDraw , TechDraw Views , Insert Section View
    Workbenches: TechDraw_Workbench
-   SeeAlso: TechDraw_ComplexSection, TechDraw_View, TechDraw_ProjectionGroup
+   SeeAlso: TechDraw_ComplexSection, TechDraw_View
 ---
 
 # TechDraw SectionView
@@ -30,18 +30,29 @@ The bottom image shows the ISO arrow format.
 ![](images/TechDraw_Section_Taskview.png ) 
 *Taskview to define the sectional cut of a view*
 
-## Properties Section View 
+## Properties
 
-See also [TechDraw View](TechDraw_View#Properties.md).
+See also: [Property editor](Property_editor.md).
+
+In the properties of the **Base View** you can change the appearance of the section line.
+
+A Section View, formally a {{Incode|TechDraw::DrawViewSection}} object, is derived from a [Part View](TechDraw_View#Properties_Part_View.md), formally a {{Incode|TechDraw::DrawViewPart}} object, and inherits all its properties. It also has the following additional properties:
 
 ### Data
+
+
+{{TitleProperty|Appearance}}
+
+-    **Section Line Stretch|FloatConstraint**: Adjusts the length of the section line. {{Value|1.0}} is normal length, {{Value|1.1}} would be 10% longer, {{Value|0.9}} would be 10% shorter. <small>(v1.0)</small> 
 
 
 {{TitleProperty|Cut Operation}}
 
 -    **Fuse Before Cut|Bool**: Fuse the source shapes before performing the section cut.
 
--    **Trim After Cut|Bool**: Additionally trim the resulting shape after the section cut to remove any unwanted pieces.
+-    **Trim After Cut|Bool**: Additionally trim the resulting shape after the section cut to remove any unwanted pieces. <small>(v0.21)</small> 
+
+-    **Use Previous Cut|Bool**Use the cut shape from the base view instead of the original object. <small>(v1.0)</small> 
 
 
 {{TitleProperty|Cut Surface Format}}
@@ -80,6 +91,10 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 -    **Hatch Scale|Float**: Hatch pattern size adjustment.
 
+-    **Hatch Rotation|Float**: Rotation of hatch pattern in degrees counter-clockwise. <small>(v0.21)</small> 
+
+-    **Hatch Offset|Vector|Hidden**: Hatch pattern offset. <small>(v0.21)</small> 
+
 
 {{TitleProperty|Section}}
 
@@ -112,16 +127,6 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 -    **Hatch Cut Surface|Bool|Hidden**: Hatch the cut surface.
 
 -    **Weight Pattern|Float**: Line weight of the Geometric hatch pattern.
-
-## Properties Base View 
-
-A Section view inherits all applicable properties of the view specified as **Base View**. In the properties of this view you can change the appearance of the section line:
-
--    **Section Line Color**: The section line color.
-
--    **Section Line Style**: The section line style.
-
-The default settings for these parameters are set via the settings **Section Line** and **Section Line Style** in the [TechDraw preferences](TechDraw_Preferences.md).
 
 ## Notes
 
@@ -166,7 +171,7 @@ For some more information about section views and some use cases, have a look at
 
 
 
- {{TechDraw Tools navi}}
+ {{TechDraw_Tools_navi}}
 
 
 

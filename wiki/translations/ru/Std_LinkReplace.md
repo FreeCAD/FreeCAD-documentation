@@ -28,10 +28,10 @@ This operation can be done to replace nested objects that are in a complex [asse
 ## Применение
 
 1.  Make sure you have one object that is inside another one. For example, consider that a **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Fuse](Part_Fuse.md)** was used with two previously created objects, a **[<img src=images/Part_Sphere.svg style="width:16px"> [Part Sphere](Part_Sphere.md)** and a **[<img src=images/Part_Cylinder.svg style="width:16px"> [Part Cylinder](Part_Cylinder.md)**.
-2.  Select the <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Sphere](Part_Sphere.md) in the [tree view](tree_view.md).
+2.  Select the <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [Sphere](Part_Sphere.md) in the [tree view](tree_view.md).
 3.  Press **[<img src=images/Std_LinkReplace.svg style="width:16px"> [Replace with link](Std_LinkReplace.md)**.
 
-The original <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Sphere](Part_Sphere.md) must now be outside the **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Fuse](Part_Fuse.md)**, and inside there must be a Link instead (a small overlay arrow is shown in the icon).
+The original <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [Sphere](Part_Sphere.md) must now be outside the **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Fuse](Part_Fuse.md)**, and inside there must be a Link instead (a small overlay arrow is shown in the icon).
 
 ![](images/Std_Link_tree_replace_fuse_1_example.png ) ![](images/Std_Link_tree_replace_fuse_2_example.png )
 

@@ -18,7 +18,7 @@ Das Werkzeug **TechDraw AllesAnzeigen** ist dazu gedacht, unsichtbare Linien ein
 
 
 
-## Verwendung
+## Anwendung
 
 1.  Eine Ansicht mit unsichtbaren Linien auf einem Zeichnungsblatt oder in der [Baumansicht](Tree_view/de.md). auswählen.
 2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
@@ -36,7 +36,7 @@ Das Werkzeug **TechDraw AllesAnzeigen** ist dazu gedacht, unsichtbare Linien ein
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Die Wirkung des AllesAnzeigen Werkzeugs kann in [Makros](Macros/de.md) oder der [Python](Python/de.md)-Konsole dupliziert werden. 
 ```python

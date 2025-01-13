@@ -14,11 +14,15 @@
 
 Effectue un zoom pour que les objets apparaissent à leur taille réelle sur votre écran. Par exemple, vous devriez être en mesure de mesurer un cube de 100 mm à l\'aide d\'une règle tenue devant votre écran.
 
+
+
 ## Utilisation
 
-Exécutez la macro pour zoomer à la taille réelle de vos objets. Parfois, en raison des limitations de Qt, les informations matérielles fournies à la macro peuvent être incorrectes, par exemple la largeur de l\'écran, en millimètres, peut être incorrecte. Dans ce cas, il existe une boîte de dialogue de calibrage. Pour faire apparaître cette boîte de dialogue, appuyez sur la touche Ctrl pendant l\'exécution de la macro. Un cube temporaire de 100 mm est créé. Mesurez le cube qui apparaît à l\'écran avec une règle ou un pied à coulisse et saisissez vos mesures (en MM) dans la boîte de dialogue. Celle-ci calculera le paramètre d\'ajustement approprié à utiliser pour votre matériel.
+Exécutez la macro pour zoomer à la taille réelle de vos objets. Parfois, en raison des limitations de Qt, les informations matérielles fournies à la macro peuvent être incorrectes, par exemple la largeur de l\'écran, en millimètres, peut être incorrecte. Dans ce cas, il existe une boîte de dialogue de calibrage. Pour faire apparaître cette fenêtre de dialogue, appuyez sur la touche Ctrl pendant l\'exécution de la macro. Un cube temporaire de 100 mm est créé. Mesurez le cube qui apparaît à l\'écran avec une règle ou un pied à coulisse et saisissez vos mesures (en MM) dans la fenêtre de dialogue. Celle-ci calculera le paramètre d\'ajustement approprié à utiliser pour votre matériel.
 
 Ce paramètre d\'ajustement est stocké dans les paramètres utilisateur à Plugins/Zoom1_1_Macro/Tweak.
+
+
 
 ## Fonctionnement
 
@@ -29,6 +33,8 @@ La taille de l\'écran (de la vue MDI, c\'est-à-dire la vue 3D) est récupéré
 1.  Parfois, pour diverses raisons, les informations fournies à la macro par Qt concernant les dimensions du matériel peuvent être incorrectes, auquel cas le paramètre Tweak est nécessaire via la boîte de dialogue de calibrage intégrée.
 2.  Ne fonctionne qu\'avec les modes de caméra orthographique.
 3.  Évidemment, il y a une gamme limitée de tailles où cela peut être utilisé.
+
+
 
 ## Précautions
 

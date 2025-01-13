@@ -1,14 +1,16 @@
 ---
  GuiCommand:
-   Name: Std UmschaltenHaltepunkt
-   Empty: 1
-   MenuLocation: Makro , Umschalten Haltepunkt
+   Name: Std ToggleBreakpoint
+   Name/de: Std UmschaltenHaltepunkt
+   MenuLocation: Makro , Haltepunkt an/aus
    Workbenches: Alle
    Shortcut: **F9**
    SeeAlso: Std_MacroStepOver/de, Std_MacroStepInto/de
 ---
 
 # Std ToggleBreakpoint/de
+
+
 
 ## Beschreibung
 
@@ -18,7 +20,7 @@ Dieser Befehl funktioniert zur Zeit nicht.
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

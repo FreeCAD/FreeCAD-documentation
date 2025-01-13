@@ -1,7 +1,13 @@
 # Manual:Import and export to other filetypes/ro
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD poate importa și exporta multe tipuri de fișiere. Iată o listă cu cele mai importante, cu o scurtă descriere a caracteristicilor disponibile:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -34,7 +40,13 @@ Unele dintre aceste formate de fișiere au opțiuni. Acestea pot fi configurate 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Import_preferences.jpg )
+
+
+</div>
 
 **De citit în plus**
 

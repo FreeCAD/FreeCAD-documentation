@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -16,6 +18,8 @@ Salvați documentul activ sub un nou nume de fișier.
 </div>
 
 The **Std SaveAs** command saves the active document under a new file name.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -50,18 +54,9 @@ Mai multe opțiuni pot fi găsite în meniu **Modifica → Preferenze → Genera
 
 -   This command can also be used to save dependency graphs. See [Std DependencyGraph](Std_DependencyGraph.md).
 
-## Preferences
-
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
-
 ## Scripting
 
-
-**See also:**
-
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-To save a document under a new name use the `saveAs` method of the document object. For a scripting example see [Std New](Std_New.md).
+See [Std New](Std_New#Scripting.md).
 
 
 

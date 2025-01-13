@@ -18,15 +18,15 @@
 
 ## Описание
 
-Creates a FEM boundary condition for the electrostatic potential. To be used together with the [Electrostatic](FEM_EquationElectrostatic.md) or [Electricforce](FEM_EquationElectricforce.md) equation.
+Creates a FEM boundary condition for the electrostatic potential. To be used together with the [Electrostatic](FEM_EquationElectrostatic.md), [Electricforce](FEM_EquationElectricforce.md), [Magnetodynamic](FEM_EquationMagnetodynamic.md) or [Magnetodynamic2D](FEM_EquationMagnetodynamic2D.md) equation.
 
 
 
 ## Применение
 
 1.  Press the **<img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> [Electrostatic potential boundary condition](FEM_ConstraintElectrostaticPotential.md)** button or use the menu **Model → Electromagnetic boundary conditions → <img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> Electrostatic potential boundary condition**.
-2.  In the [3D view](3D_view.md) select the object the boundary condition should be applied to.
-3.  Press the **Add** button.
+2.  Press the **Add** button.
+3.  In the [3D view](3D_view.md) select the object the boundary condition should be applied to.
 
 
 

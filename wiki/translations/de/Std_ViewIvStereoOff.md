@@ -25,26 +25,13 @@ Der Befehl **Std AnsichtStereoAus** schaltet den Stereo-Modus in der aktiven [3D
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um den Stereo-Modus der Ansicht zu beenden, wird die Methode `setStereoType` des ActiveView-Objekts verwendet. Diese Methode steht nicht zur Verfügung, wenn sich FreeCAD im Konsolenmodus befindet.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.setStereoType('None')
-FreeCADGui.ActiveDocument.ActiveView.getStereoType()
-```
+Siehe [Std AnsichtStereoRotGrün](Std_ViewIvStereoRedGreen/de#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

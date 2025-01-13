@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft SubelementHighlight
    MenuLocation: Modification , Subelement highlight
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Workbenches: Draft_Workbench
    Shortcut: **H** **S**
    Version: 0.19
    SeeAlso: Draft_Move, Draft_Rotate, Draft_Scale

@@ -1,122 +1,124 @@
 # Manual:Preparing models for 3D printing/fr
 {{Manual:TOC}}
 
-L\'une des principales utilisations de FreeCAD est de produire des objets du monde réel. Ceux-ci peuvent être conçus dans FreeCAD puis fabriqués de différentes façons, par exemple transmis aux personnes qui les fabriqueront ou de plus en plus souvent envoyés directement à une imprimante 3D ([3D printer](https://en.wikipedia.org/wiki/3D_printing)) ou à une CNC ([CNC mill](https://en.wikipedia.org/wiki/Milling_%28machining%29)). Ce chapitre vous montrera comment préparer vos modèles à envoyer à ces machines.
+L\'un des principaux objectifs de FreeCAD est de concevoir des objets qui peuvent être transformés en produits physiques réels. Ces conceptions peuvent être partagées avec d\'autres pour la fabrication ou, de plus en plus, exportées directement vers des [imprimantes 3D](https://fr.wikipedia.org/wiki/Impression_3D) ou des [fraiseuses à commande numérique et machines à commande numérique](https://fr.wikipedia.org/wiki/Fraisage) pour une fabrication automatisée. Avec FreeCAD, vous pouvez créer des modèles précis et détaillés qui sont prêts pour diverses méthodes de production. Ce chapitre vous guidera dans le processus de préparation de vos modèles pour ces machines, en vous assurant qu\'ils répondent aux spécifications nécessaires pour une fabrication réussie, que vous travailliez avec une équipe ou que vous gériez l\'ensemble du processus vous-même.
 
-Si vous avez été précautionneux lors de la modélisation, la plupart des difficultés que vous pourriez rencontrer lors de l\'impression de votre modèle en 3D a déjà été évitée. Cela implique essentiellement :
+Si vous avez été soigneux lors de la modélisation, la plupart des défis associés à l\'impression 3D de votre modèle devraient déjà être minimisés. Les principaux aspects sur lesquels il faut se concentrer sont les suivants :
 
--   de vérifier que vos objets 3D sont des **solides**. Les objets du monde réel sont des solides, le modèle 3D doit aussi être un solide. Nous avons vu dans des chapitres précédents que FreeCAD vous aide beaucoup dans ce sens et que l'atelier Part Design ([PartDesign Workbench](PartDesign_Workbench.md)) vous informera si vous faites une opération qui empêche votre modèle de rester un solide. L'atelier Part ([Part Workbench](Part_Workbench/fr.md)) contient également un outil de vérification de la géométrie (<img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Check Geometry](Part_CheckGeometry/fr.md)) pour vérifier les défauts éventuels.
--   de vérifier les **dimensions** de vos objets. Un millimètre sur le modèle sera un millimètre dans la vie réelle. Toute dimension a son importance.
--   de contrôler la **dégradation**. Aucune imprimante 3D ou système de fraisage CNC ne peut utiliser directement les fichiers FreeCAD. La plupart d\'entre eux ne comprennent qu\'un langage machine appelé [G-Code](https://en.wikipedia.org/wiki/G-code). G-code a des dizaines de variantes différentes. Chaque machine ou fournisseur utilise généralement son propre G-code. La conversion de vos modèles en G-code peut être simple et automatique mais vous pouvez le faire également manuellement avec un contrôle total sur la sortie. En tout cas, une certaine perte de qualité de votre modèle se produira inévitablement pendant le processus. Lors de l\'impression en 3D, vous devez toujours vous assurer que cette perte de qualité reste inférieure à vos exigences minimales.
+-   **S\'assurer que vos objets sont solides** : tout comme les objets du monde réel, vos modèles 3D doivent être solides. FreeCAD, en particulier avec l\'atelier PartDesign, vous aide à vous assurer que vos modèles restent solides tout au long du processus de conception. Le logiciel vous avertit si une opération compromet la solidité de l\'objet. En outre, l\'atelier Part propose l\'outil <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Vérifier la géométrie](Part_CheckGeometry/fr.md), qui vous permet d\'identifier les défauts potentiels ou les problèmes susceptibles d\'interférer avec le processus d\'impression 3D.
 
-Ci-dessous, nous supposerons que les deux premiers critères sont respectés, et que maintenant, vous êtes en mesure de produire des objets solides avec des dimensions correctes. Nous allons maintenant voir comment traiter le troisième point.
+-   **Confirmation de l\'exactitude des dimensions** : la précision est essentielle. Ce que vous concevez dans FreeCAD se traduira directement par des mesures dans le monde réel. Un millimètre dans FreeCAD est un millimètre dans l\'objet physique, c\'est pourquoi chaque dimension doit être soigneusement étudiée et vérifiée pour en garantir l\'exactitude.
 
+-   **Gestion de la dégradation** : il est important de se rappeler qu\'aucune imprimante 3D ou machines à commande numérique ne peut traiter directement les fichiers FreeCAD. Ces machines utilisent le G-Code, un langage machine avec différents dialectes en fonction de la machine ou du fournisseur. Le processus de conversion de votre modèle en G-Code peut souvent être effectué automatiquement par un logiciel de slicer, mais vous avez également la possibilité de le faire manuellement pour un meilleur contrôle. Cependant, au cours de cette conversion, une certaine perte de détails ou de qualité est inévitable, en particulier lors de la conversion du modèle en un format de maillage pour l\'impression. Vous devez vous assurer que cette dégradation reste dans des limites acceptables et n\'affecte pas la fonctionnalité ou l\'apparence de votre objet final.
 
+-   **Compatibilité des formats d\'exportation** : pour l\'impression 3D, le format STL est le plus couramment utilisé, mais il convertit intrinsèquement votre modèle en un maillage de triangles, ce qui peut entraîner une perte de détails. Il est essentiel de choisir la bonne résolution lors de l\'exportation vers STL, en trouvant un équilibre entre la conservation des détails et la taille du fichier. De même, pour l\'usinage CNC, des formats comme STEP ou IGES sont préférables car ils conservent mieux que STL l\'intégrité géométrique originale de la conception. Le choix du bon format garantit la précision de la conversion en G-Code.
 
-### Exportation vers des trancheuses 
+-   **Analyse et étalonnage du maillage** : avant d\'exporter votre modèle vers un slicer ou un générateur de parcours d\'une CNC, il est conseillé d\'effectuer une analyse de maillage à l\'aide de l\'[atelier Mesh](Mesh_Workbench/fr.md) de FreeCAD afin de détecter les irrégularités, les arêtes non pliables ou d\'autres problèmes de maillage qui pourraient compliquer le processus de fabrication. En outre, même avec un modèle parfait, assurez-vous que votre imprimante 3D ou votre machine CNC est correctement calibrée (par exemple, pour le nivellement du lit, les réglages du moteur pas à pas ou la configuration de l\'extrudeuse) afin d\'éviter les problèmes de qualité dans le produit final.
 
-C\'est la technique la plus utilisée pour l\'impression en 3D. L\'objet 3D est exporté vers un autre programme (la trancheuse) qui générera le G-code à partir de l\'objet en le découpant en couches minces (d\'où le nom)et qui définira les mouvements que l\'imprimante 3D fera. Pas mal de ces imprimantes sont des faites maison et par conséquent il y a souvent de petites différences de l\'une à l\'autre. Les programmes offrent généralement des possibilités de configuration avancée qui permettent d'adapter exactement la sortie aux particularités de votre imprimante 3D.
-
-L\'impression 3D réelle, cependant, est un sujet trop vaste pour ce manuel. Mais nous verrons comment exporter et utiliser ces trancheuses pour vérifier que la sortie est correcte.
+Dans les sections suivantes, nous supposerons que vous avez déjà pris soin de créer des modèles solides aux dimensions correctes. Nous allons maintenant nous concentrer sur la gestion du processus de conversion en G-Code, en veillant à ce que votre modèle conserve la qualité nécessaire pour l\'impression 3D ou l\'usinage CNC. En tenant compte de ces considérations, vous serez mieux équipé pour produire des objets physiques réussis directement à partir de vos modèles FreeCAD.
 
 
 
-### Conversion d\'objets en mailles 
+### Exporter vers les slicers 
 
-Aucune des trancheuses, à cette date, ne prend directement la géométrie solide que nous produisons dans FreeCAD. Nous devons donc convertir l\'objet que nous souhaitons imprimer en 3D en un premier [maillage](https://en.wikipedia.org/wiki/Polygon_mesh) que le trancheur peut ouvrir. Heureusement, autant convertir un maillage en un solide est une opération compliquée, autant la conversion d\'un solide en maillage est très simple. Le point important, c\'est à ce moment que la dégradation mentionnée au-dessus se produira. Nous devons vérifier que la dégradation reste dans des limites acceptables.
+La technique la plus courante pour préparer un modèle 3D à l\'impression consiste à exporter l\'objet 3D de FreeCAD vers un logiciel spécialisé appelé « slicer ». Le slicer génère du G-code en découpant le modèle en fines couches, que l\'imprimante 3D suivra pour construire l\'objet couche par couche. Étant donné que de nombreuses imprimantes 3D, en particulier les modèles fabriqués à la maison ou par des amateurs, ont des configurations uniques, les programmes de slicer offrent un large éventail de paramètres avancés. Ces réglages vous permettent de personnaliser des paramètres clés, tels que la hauteur des couches, la vitesse d\'impression, la densité de remplissage et les structures de support, afin que le G-code soit adapté aux caractéristiques et aux capacités spécifiques de votre imprimante.
 
-Toute la gestion du maillage dans FreeCAD est effectuée par un atelier spécifique: l'([atelier Mesh](Mesh_Workbench/fr.md)). Cet atelier contient, outre les outils importants pour convertir les objets Part et Mesh, plusieurs utilitaires destinés à analyser et à réparer les maillages. Bien que travailler avec des maillages ne soit pas le point fort de FreeCAD, la modélisation 3D nécessite souvent de traiter des objets maillés car leur utilisation est très répandue parmi les autres applications. Cet atelier vous permet de les gérer entièrement dans FreeCAD.
+De nombreux slicers offrent également des fonctions de simulation et de validation de l\'impression qui sont très utiles pour prévisualiser le processus d\'impression. Vous pouvez visualiser le parcours de l\'outil pour chaque couche, ce qui permet de détecter les problèmes potentiels tels que les surplombs qui peuvent nécessiter des supports ou les zones où le refroidissement peut être insuffisant. Cette validation avant impression garantit que votre modèle est correctement préparé avant le début de l\'impression, ce qui permet d\'éviter les échecs d\'impression ou le gaspillage de matériau.
 
-Convertissons un des objets que nous avons modelés dans les chapitres précédents, comme la pièce de lego (qui peut être téléchargée à partir de la fin du chapitre précédent):
+Les slicers incluent souvent des informations supplémentaires, telles que l\'estimation du temps d\'impression, de l\'utilisation des matériaux et du coût en fonction du filament ou de la résine utilisés. Cela vous permet de prendre des décisions éclairées sur le processus d\'impression et d\'ajuster les paramètres dans un souci d\'efficacité ou de conservation des matériaux. Bien que les subtilités de l\'impression 3D, telles que l\'étalonnage de la machine, la sélection des matériaux et le post-traitement, dépassent le cadre de ce guide, nous nous concentrerons sur la manière d\'exporter correctement votre modèle FreeCAD et d\'utiliser le logiciel de slicer pour s\'assurer que le résultat est correct et optimisé pour votre imprimante spécifique.
 
+
+
+### Convertir des objets en maillage 
+
+Aucun des slicers actuellement disponibles ne peut accepter directement la géométrie solide produite dans FreeCAD. Les slicers comme Cura et PrusaSlicer travaillent avec des formats basés sur des [maillages](https://fr.wikipedia.org/wiki/Maillage_polygonal) tels que STL, OBJ ou 3MF, qui représentent la géométrie de la surface de l\'objet à l\'aide d\'un réseau de triangles. Par conséquent, pour utiliser un modèle créé dans FreeCAD, il faut d\'abord le convertir dans un format de maillage que ces slicers peuvent interpréter.
+
+Le format le plus couramment utilisé pour l\'impression 3D est le STL. L\'une des raisons pour lesquelles le STL est privilégié est sa simplicité : il représente la géométrie 3D sous la forme d\'un maillage de triangles sans inclure de détails complexes tels que les couleurs, les matériaux ou les textures. Cette approche minimaliste garantit la légèreté des fichiers STL et leur compatibilité avec la quasi-totalité des slicers et des imprimantes 3D, ce qui en fait le standard de l\'industrie. Les fichiers OBJ et 3MF sont également pris en charge, mais ils peuvent contenir des informations supplémentaires telles que des textures et des matériaux, qui sont inutiles pour la plupart des tâches d\'impression 3D et peuvent compliquer le processus de découpage.
+
+Heureusement, la conversion d\'un objet solide en maillage dans FreeCAD est simple, même si la reconversion d\'un maillage en solide est une opération plus compliquée. Au cours du processus de conversion, il est essentiel de garder à l\'esprit qu\'une certaine dégradation de la qualité du modèle peut se produire, en particulier lors de la réduction d\'une géométrie complexe en un simple maillage triangulaire. Vous devez vous assurer que cette dégradation reste dans des limites acceptables pour maintenir la précision de votre objet imprimé.
+
+Dans FreeCAD, l\'[atelier Mesh](Mesh_Workbench/fr.md) gère toutes les tâches liées au maillage. Cet atelier contient des outils non seulement pour la conversion entre les objets Part et Mesh, mais aussi pour l\'analyse et la réparation des maillages. Bien que la manipulation des maillages ne soit pas l\'objectif principal de FreeCAD, elle devient essentielle lors de la préparation des modèles pour l\'impression 3D. Les objets Mesh sont largement utilisés dans d\'autres applications, et l\'atelier Mesh vous permet de gérer et d\'ajuster entièrement ces objets, en veillant à ce qu\'ils soient prêts pour l\'étape suivante du processus d\'impression.
+
+-   Convertissons la pièce Lego que nous avons créée dans le dernier chapitre en un maillage STL. La géométrie peut être téléchargée à la fin de ce chapitre.
 -   Ouvrez le fichier FreeCAD contenant la pièce Lego.
--   Passez à l'([atelier Mesh](Mesh_Workbench/fr.md)).
--   Sélectionnez la brique lego.
--   Sélectionnez le menu **Maillages → Créer un maillage à partir de la forme**.
--   Un panneau de tâches s\'ouvre avec plusieurs options. Quelques algorithmes de maillage supplémentaires (Mefisto ou Netgen) pourraient ne pas être disponibles, selon la manière dont votre version de FreeCAD a été compilée. L\'algorithme de maillage standard sera toujours présent. Il offre moins de possibilités que les deux autres, mais est totalement suffisant pour les objets plus petits que la taille d\'impression maximale d\'une imprimante 3D.
+-   Passez à l\'[atelier Mesh](Mesh_Workbench/fr.md)
+-   Sélectionnez la brique Lego
+-   Sélectionnez le menu **Maillages → Créer un maillage à partir d\'une forme**.
+-   Un panneau de tâches s\'ouvre avec plusieurs options. Certains algorithmes de maillage supplémentaires (Mefisto ou Netgen) peuvent ne pas être disponibles, en fonction de la façon dont votre version de FreeCAD a été compilée. L\'algorithme de maillage Standard sera toujours présent. Il offre moins de possibilités que les deux autres, mais est tout à fait suffisant pour les petits objets qui entrent dans la taille d\'impression maximale d\'une imprimante 3D.
 
-![](images/Exercise_meshing_01.jpg )
+<img alt="" src=images/FreeCAD_MeshLego.png  style="width:600px;">
 
--   Sélectionnez le maillage **standard** et laissez la valeur d\'écart à la valeur par défaut de **0,10**. Appuyez sur **OK**.
--   Un objet maillage sera créé, exactement par dessus notre objet solide. Pour comparer les deux vous pouvez soit cacher le solide, soit déplacer l\'un des objets par rapport à l'autre.
--   Modifiez la propriété **Vue → Display option** du nouvel objet maillage en **Flat Lines** afin de voir comment s\'est déroulée la triangulation.
--   Si vous n\'êtes pas satisfait et pensez que le résultat est trop grossier, vous pouvez répéter l'opération, en abaissant la valeur d\'écart. Dans l\'exemple ci-dessous, le maillage gauche a utilisé la valeur par défaut de **0,10**, tandis que celui de droite utilise **0,01** :
+-   Sélectionnez le maillage **standard** et laissez la valeur de déviation à la valeur par défaut de **0.10**. Appuyez sur **OK**.
+-   Un objet mesh sera créé, exactement par dessus notre objet solide. Pour comparer les deux vous pouvez soit cacher le solide, soit déplacer l\'un des objets par rapport à l'autre.
+-   Modifiez la propriété **Affichage → Style de représentation** du nouvel objet maillage en **Filaire ombré** afin de voir comment s\'est déroulée la triangulation.
+-   Si vous n\'êtes pas satisfait et pensez que le résultat est trop grossier, vous pouvez répéter l'opération, en abaissant la valeur de déviation. Dans l\'exemple ci-dessous, le maillage gauche a utilisé la valeur par défaut de **0.10**, tandis que celui de droite utilise **0.01** :
 
-![](images/Exercise_meshing_02.jpg )
+<img alt="" src=images/Exercise_meshing_02.jpg  style="width:600px;">
 
 Dans la plupart des cas, les valeurs par défaut donneront un résultat satisfaisant.
 
 -   Nous pouvons maintenant exporter notre maillage à un format de maillage, par exemple [STL](https://fr.wikipedia.org/wiki/Fichier_de_st%C3%A9r%C3%A9olithographie), actuellement le format le plus utilisé dans l\'impression 3D, en utilisant le menu **Fichier → Exporter** et choisir le format de fichier STL.
 
-Si vous ne possédez pas d\'imprimante 3D, il est généralement très facile de trouver des services commerciaux qui vont imprimer et vous envoyer les objets imprimés par courrier. Parmi les plus célèbres, on trouve [Shapeways](http://www.shapeways.com/) et [Sculpteo](http://www.sculpteo.com/), mais vous en trouverez généralement beaucoup d\'autres dans votre propre ville. Dans toutes les grandes villes, vous trouverez également aujourd\'hui des [Fab labs](https://en.wikipedia.org/wiki/Fab_lab), qui sont des laboratoires ou ateliers équipés d\'une gamme de machines de fabrication 3D, incluant presque toujours au moins une imprimante 3D. Les FabLabs sont habituellement des espaces communautaires, qui vous permettront d\'utiliser leurs machines, moyennant des frais ou gratuitement selon le FabLab, mais aussi vous apprendre à les utiliser et à promouvoir d\'autres activités autour de la fabrication 3D.
+Dans FreeCAD, l\'atelier Mesh propose plusieurs algorithmes pour convertir un modèle solide en maillage, notamment Standard, Mefisto, Netgen et Gmsh. L\'algorithme Standard est couramment utilisé pour les objets de petite et moyenne taille, car il offre un équilibre entre la vitesse et la qualité du maillage. Lors de la création d\'un maillage, deux paramètres essentiels sont l\'écart de surface et l\'écart angulaire. L\'écart de surface détermine dans quelle mesure le maillage suit la géométrie d\'origine. Des valeurs plus faibles permettent d\'obtenir un maillage plus fin et plus précis, mais peuvent entraîner une augmentation de la taille des fichiers. La déviation angulaire définit l\'ampleur de la déviation autorisée en fonction des changements d\'angle du modèle, en particulier pour les courbes et les arêtes vives. D\'autres options, telles que la déviation de surface relative, vous permettent d\'ajuster la précision de manière dynamique en fonction de l\'échelle du modèle, et des fonctions telles que l\'application de couleurs de face ou la définition de segments de maillage par couleur sont utiles pour le rendu avancé ou le regroupement de différentes régions du modèle. Une fois le maillage généré, il peut être exporté dans des formats tels que STL, OBJ ou 3MF, qui sont essentiels pour préparer les modèles à l\'impression 3D. La qualité du maillage est essentielle pour que les imprimantes 3D interprètent correctement le modèle. Le choix du bon algorithme de maillage et des paramètres de déviation peut donc avoir une incidence considérable sur le résultat final de l\'impression.
 
 
 
-### Utilisation de Slic3r 
+### Utiliser PrusaSlicer 
 
-[Slic3r](http://slic3r.org/) est une application qui convertit des objets STL en G-code pouvant être envoyé directement vers les imprimantes 3D. Comme FreeCAD, il est gratuit, open-source et s\'exécute sous Windows, Mac OS et Linux. La configuration correcte des paramètres pour l\'impression 3D est un processus compliqué, où vous devez avoir une bonne connaissance de votre imprimante 3D ; il n\'est donc pas très utile de générer du G-code avant de pouvoir effectivement imprimer (votre fichier de G-code peut ne pas fonctionner correctement sur une autre imprimante), mais c\'est utile pour nous de toute façon, pour vérifier que notre fichier STL sera imprimable sans problème.
+[PrusaSlicer](https://github.com/prusa3d/prusaslicer/releases) est une application qui convertit les objets STL, OBJ et 3MF en G-code qui peut être envoyé directement aux imprimantes 3D. Comme FreeCAD, il est gratuit, open-source et disponible sur Windows, Mac OS et Linux. Bien qu\'il soit développé par Prusa Research et optimisé pour les imprimantes 3D Prusa, PrusaSlicer peut être utilisé avec presque toutes les imprimantes 3D, ce qui le rend polyvalent pour une large gamme de machines. PrusaSlicer est basé sur Slic3r, le logiciel slicer original, mais avec des améliorations significatives et des mises à jour plus fréquentes. Slic3r n\'est plus activement mis à jour, tandis que PrusaSlicer continue d\'évoluer, ajoutant de nouvelles fonctionnalités telles que des hauteurs de couche adaptatives, des supports d\'arbre et des stratégies d\'impression améliorées.
 
-Ceci est notre fichier STL exporté ouvert dans Slic3r. En utilisant l\'onglet **Aperçu**, et en déplaçant le curseur droit, nous pouvons visualiser le chemin que la tête d\'imprimante 3D suivra pour construire notre objet.
+Configurer correctement un slicer pour l\'impression 3D est un processus complexe qui nécessite une bonne compréhension des capacités de votre imprimante 3D. Bien que la génération de G-code sans cette connaissance puisse résulter en un fichier qui ne fonctionne pas bien sur d\'autres imprimantes, PrusaSlicer fournit toujours un excellent moyen de vérifier que votre fichier STL est correctement formaté et imprimable. Les fonctions de simulation du slicer vous permettent de prévisualiser les chemins du G-code et de vérifier tout problème d\'impression potentiel avant de commencer l\'impression réelle.
 
-![](images/Exercise_meshing_03.jpg )
+Voici notre fichier STL exporté, ouvert dans PrusaSlicer. En appuyant simplement sur le bouton **slice**, le logiciel divise votre modèle en couches, génère les parcours d\'outils pour l\'imprimante 3D et applique les paramètres de vitesse et de température nécessaires. Il calcule le remplissage, les structures de soutien et les périmètres, puis crée le G-code, qui contient des instructions détaillées pour l\'imprimante. Vous pouvez prévisualiser le modèle découpé couche par couche, vérifier le temps d\'impression estimé et l\'utilisation du filament, et enfin enregistrer ou envoyer le G-code à votre imprimante pour le processus d\'impression proprement dit.
 
+<img alt="" src=images/FreeCAD_PrusaSlicer.png  style="width:600px;">
 
-
-### Utilisation de l\'extension Cura 
-
-[Cura](https://ultimaker.com/en/products/cura-software) est une autre application Slicer gratuite et open-source pour Windows, Mac et Linux, maintenue par le fabricant d\'imprimantes 3D [Ultimaker](https://ultimaker.com). Certains utilisateurs de FreeCAD ont créé un atelier Cura ([Cura Workbench](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)) qui utilise Cura en interne. L'atelier Cura est disponible dans le dépôt [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons). Pour l\'utiliser, vous devez également installer le logiciel Cura qui n'est pas inclus dans l\'atelier.
-
-Une fois que vous avez installé Cura et l\'atelier Cura, vous pourrez l\'utiliser pour produire le fichier G-code directement à partir des objets Part, sans avoir besoin de les convertir en maillages et sans avoir besoin d\'ouvrir une application externe. Produire un autre G-code à partir du fichier de notre brique Lego, en utilisant l'atelier Cura cette fois, se déroule comme suit :
-
--   Chargez le fichier contenant notre brique Lego (il peut être téléchargé à la fin du chapitre précédent)
--   Allez dans l'[atelier Cura](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin).
--   Configurez l\'espace de l\'imprimante en choisissant le menu **Impression 3D → Définir une imprimante 3D**. Comme nous n\'allons pas imprimer de façon réelle, nous pouvons laisser les paramètres tels qu\'ils sont. La géométrie du lit d\'impression et l\'espace disponible seront affichés dans la vue 3D.
--   Déplacez la brique Lego à un endroit approprié, comme le centre du lit d\'impression. N\'oubliez pas que les objets PartDesign ne peuvent pas être déplacés directement, donc vous devez soit déplacer sa toute première esquisse (le premier rectangle), ou déplacer (et créer) une copie, qui peut être faite avec l\'outil [Part -\> Créer copie simple](Part_SimpleCopy.md). La copie peut être déplacée, par exemple avec l'outil <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Déplacer](Draft_Move/fr.md).
--   Sélectionnez l\'objet à imprimer et sélectionnez dans le menu **Impression 3D → Trancher avec le moteur Cura**.
--   Dans le panneau de tâches qui s\'ouvre, assurez-vous que le chemin d\'accès à l\'exécutable Cura est correctement défini. Comme nous n\'allons pas vraiment imprimer, nous pouvons laisser toutes les autres options telles qu\'elles sont. Appuyez sur **OK**. Deux fichiers seront générés dans le même répertoire que votre fichier FreeCAD, un fichier STL et un fichier G-code.
-
-![](images/Exercise_meshing_05.jpg )
-
--   Le G-code généré peut également être réimporté dans FreeCAD (en utilisant le préprocesseur slic3r) pour vérification.
-
-### Génération du G-code 
+Outre PrusaSlicer, il existe plusieurs autres logiciels de découpe disponibles pour l\'impression 3D. [Cura](https://ultimaker.com/fr/software/ultimaker-cura/), développé par Ultimaker, est l\'un des slicers open-source les plus populaires et prend en charge une large gamme d\'imprimantes avec une personnalisation poussée. [Simplify3D](https://www.simplify3d.com/) est un slicer payant connu pour ses fonctionnalités avancées et sa génération efficace de parcours d\'outils. [MatterControl](https://www.matterhackers.com/store/l/mattercontrol/sk/MKZGTDW6) est un slicer open-source qui inclut également des outils de CAO de base, tandis que [IdeaMaker](https://www.raise3d.com/fr/ideamaker/) offre une interface conviviale avec des hauteurs de couche adaptatives, développée par Raise3D. Enfin, [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer), une option open-source plus récente basée sur PrusaSlicer et Bambu Studio, offre des fonctionnalités supplémentaires pour diverses imprimantes. Chaque slicer possède des atouts uniques, ce qui fait que le meilleur choix dépend des modèles d\'imprimantes spécifiques et des exigences d\'impression.
 
 
-**'''Attention:''' cette section est destinée à FreeCAD 0.16. Des modifications importantes ont été apportées au chemin de création. Reportez-vous à la documentation du [ Path workbench](Path_Workbench_.md) en général ou au tutoriel [L'atelier Path pas à pas pour l'impatient](Path_Walkthrough_for_the_Impatient/fr.md)!**
 
-FreeCAD offre également des moyens plus avancés pour générer directement le G-code. C\'est souvent beaucoup plus compliqué que l\'utilisation d\'outils automatiques comme nous l\'avons vu ci-dessus, mais a l\'avantage de vous laisser contrôler pleinement la sortie. Ceci n\'est généralement pas nécessaire lors de l\'utilisation d\'imprimantes 3D, mais devient très important lors de la gestion du fraisage CNC, car les machines sont beaucoup plus complexes.
+### Générer du G-code 
 
-La génération des parcours d'outils en G-code dans FreeCAD se fait avec l'atelier Path ([Path Workbench](Path_Workbench.md)). Il comporte des outils qui génèrent des chemins d\'outils complets et d\'autres qui ne génèrent que des parties d\'un projet G-code qui peuvent ensuite être assemblés pour former une opération de fraisage complète.
+L\'<img alt="" src=images/Workbench_CAM.svg  style="width:16px;"> [atelier CAM](CAM_Workbench/fr.md) de FreeCAD fournit des options avancées pour générer du G-code directement pour les machines CNC, offrant une plus grande flexibilité et un meilleur contrôle par rapport aux outils de découpage automatique tels que ceux utilisés pour l\'impression 3D. Alors que les slicers d\'impression 3D peuvent convertir automatiquement un modèle en G-code avec un minimum de données, le fraisage CNC nécessite une implication beaucoup plus importante de l\'utilisateur pour assurer un contrôle précis des parcours d\'outils, des vitesses, des profondeurs et d\'autres paramètres d\'usinage. L\'atelier CAM est donc essentiel pour les tâches qui exigent un G-code précis, en particulier pour le fraisage CNC, où la complexité de la machine et la variété des opérations (comme la coupe, le perçage et le contournage) exigent une planification minutieuse.
 
-La génération de parcours de fraisage CNC est un autre sujet qui est trop vaste pour être adapté à ce manuel, nous allons donc montrer comment construire un projet de cheminement simple, sans se soucier de la plupart des détails de l\'usinage CNC réel.
+Dans l\'atelier CAM, la génération de parcours en G-code est hautement personnalisable. Elle comprend des outils permettant de générer des parcours machine complets pour diverses opérations ou, au contraire, de construire des segments partiels de G-code et de les assembler pour obtenir une opération de fraisage complète. Cette approche modulaire vous permet de personnaliser chaque étape du processus d\'usinage, en optimisant les parcours d\'outils en fonction de l\'efficacité, du type de matériau et des capacités spécifiques de la machine.
 
--   Chargez le fichier contenant notre pièce de lego, et passez à l'[atelier Path](Path_Workbench/fr.md).
--   Puisque la pièce finale ne contient plus une face supérieure rectangulaire, cachez la dernière étape de la pièce de lego et montrez le premier bloc parallélipipédique que nous avons fait, qui a une face supérieure rectangulaire.
--   Sélectionnez la face supérieure et appuyez sur le bouton <img alt="" src=images/Path_Profile.svg  style="width:16px;"> [Contournage](Path_Profile/fr.md).
--   Définissez sa propriété **Offset** (décalage) à 1mm.
+Le processus de CAM est en effet beaucoup plus complexe que l\'impression 3D, car les machines à commande numérique utilisent des outils différents et doivent tenir compte de l\'enlèvement de matière, de la géométrie de l\'outil et des marges de sécurité, qui sont tous configurés manuellement. Dans FreeCAD, la construction d\'un projet CAM simple nécessite de définir des parcours d\'outils, d\'ajuster les profondeurs de coupe, de sélectionner les outils appropriés et de configurer les décalages, les avances et les vitesses de travail. Contrairement aux logiciels de slicer, qui gèrent la plupart de ces opérations automatiquement, l\'atelier CAM vous laisse le contrôle, ce qui le rend hautement personnalisable, mais aussi plus complexe.
 
-![](images/Exercise_path_01.jpg )
+Bien que la génération de parcours de fraisage CNC soit un sujet trop vaste pour être traité en détail ici, nous allons montrer comment créer un projet CAM simple dans FreeCAD. Bien que nous ne nous attarderons pas sur tous les détails de l\'usinage CNC dans le monde réel, ce guide vous présentera les étapes essentielles, en mettant l\'accent sur le niveau d\'entrée requis pour garantir des résultats précis et efficaces. Cette complexité supplémentaire est essentielle pour les projets CNC, où la précision et la personnalisation sont essentielles pour obtenir les résultats d\'usinage souhaités.
 
--   Ensuite, dupliquons cette première boucle à plusieurs reprises, de sorte que l\'outil découpera le bloc tout entier. Sélectionnez le contour Profilage et appuyez sur le bouton <img alt="" src=images/Path_Array.svg  style="width:16px;"> [Réseau](Path_Array/fr.md).
--   Réglez la propriété **Copies** du réseau linéaire sur 8, et son **Décalage** (Offset) à -2 mm dans la direction Z (profondeur de passe), et déplacez la position du réseau linéaire de 2 mm dans la direction Z, de sorte que la coupe commencera un peu au dessus du bloc, et inclura aussi la hauteur des bossages.
+-   Chargez le fichier contenant notre pièce de Lego, et passez à l\'<img alt="" src=images/Workbench_CAM.svg  style="width:16px;"> [atelier CAM](CAM_Workbench/fr.md).
+-   Appuyez sur le bouton <img alt="" src=images/CAM_Job.svg  style="width:16px;"> [Créer une tâche](CAM_Job/fr.md) et sélectionnez notre pièce de lego.
+-   Comme cette section n\'a pas pour but de fournir un tutoriel approfondi de l\'atelier CAM, nous utiliserons les valeurs par défaut. Si vous souhaitez un tutoriel plus détaillé, veuillez vous référer à [CAM Tutoriel pas à pas pour l\'impatient](CAM_Walkthrough_for_the_Impatient/fr.md). Gardez à l\'esprit que dans l\'atelier de CAM, un corps pour le stock est automatiquement créé autour de votre objet, représentant la matière première qui sera usinée. Pour l\'instant, ce corps de stock s\'étend sur 1 mm dans toutes les directions à partir de l\'objet.
 
-![](images/Exercise_path_02.jpg )
+<img alt="" src=images/FreeCAD_CAM1.png  style="width:600px;">
 
--   Maintenant, nous avons défini un parcours d'usinage qui, après exécution par la fraiseuse, va contourner un volume rectangulaire sur un bloc de matériau. Nous devons maintenant réaliser l\'espace entre les bossages, afin de les révéler. Cachez le bloc, et montrez à nouveau la pièce finale, afin que nous puissions choisir la face qui se trouve entre les bossages.
--   Sélectionnez la face supérieure et appuyez sur le bouton <img alt="" src=images/Path_Pocket_Shape.svg  style="width:16px;"> [Poche](Path_Pocket_Shape/fr.md). Définissez la propriété **Décalage** (Offset) à 1mm (toujours le rayon de la fraise), et la **hauteur de dégagement d'outil** (retraction height) à 20mm. C\'est la hauteur de l\'endroit où l'outil se déplace lorsque vous passez d\'une boucle du parcours à l\'autre. Sinon, la fraise pourrait couper tout droit à travers un de nos bossages :
+-   La première étape consiste à supprimer les matériaux inutiles autour de notre objet. À ce stade, nous partons d\'un bloc solide de matériau brut et nous devons découper la brique de Lego à partir de ce bloc. Ce processus consiste à définir les parcours d\'outils qui découperont progressivement l\'excès de matière, en laissant derrière eux la forme souhaitée de la brique Lego.
 
-![](images/Exercise_path_03.jpg )
+-   L\'image suivante montre la configuration de l\'atelier CAM de FreeCAD pour l\'usinage d\'un bloc Lego. L\'arborescence du modèle comprend des opérations de modélisation solide telles que Protrusion, Cavité et Répétition linéaire, qui ont été utilisées pour façonner la pièce. Une tâche est créée, contenant des parcours d\'outils sous les opérations qui définissent la manière dont la matière sera enlevée du stock. L\'outil par défaut est sélectionné pour l\'usinage et le corps-modèle représente la pièce 3D sur laquelle on travaille. Cette configuration prépare l\'objet à la génération du G-code pour contrôler la CNC.
 
--   Encore une fois, créez un tableau de copie. Sélectionnez l\'objet Poche et appuyez sur le bouton Copie réseau (<img alt="" src=images/Path_Array.svg  style="width:16px;"> [Réseau](Path_Array/fr.md)). Réglez le **nombre de copies** sur 1 et le **décalage** à -2 mm dans la direction Z. Déplacez la position du réseau (pas de la copie) à 2 mm dans la direction Z. Nos deux opérations sont maintenant terminées :
+<img alt="" src=images/FreeCAD_CAMtree.png  style="width:600px;">
 
-![](images/Exercise_path_04.jpg )
+-   Avant de commencer à découper le matériau excédentaire, nous allons procéder à quelques ajustements de l\'outil de fraisage qui sera utilisé. Bien que l\'atelier CAM vous permette de définir des outils personnalisés, nous allons, pour des raisons de simplicité, modifier l\'outil par défaut. Ainsi, les paramètres seront optimisés pour notre projet sans qu\'il soit nécessaire de créer un nouvel outil à partir de zéro.
 
--   Il ne reste plus qu\'à réunir ces deux opérations en une seule. Cela peut être fait avec une [Path Tâche](Path_Job/fr.md). Appuyez sur le bouton <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Tâche](Path_Job/fr.md).
--   Définir la propriété **Use Placements** du projet à True car nous avons changé le placement des réseaux et nous voulons que cela soit pris en compte dans le projet.
--   Dans l\'arborescence, faites glisser et déposez les deux réseaux dans le projet. Vous pouvez réorganiser des réseaux à l\'intérieur du projet si nécessaire, en double-cliquant dessus.
--   Le projet peut maintenant être exporté en G-code, en le sélectionnant, en choisissant le menu **Fichier → Exporter**, en sélectionnant le format G-code et dans la boîte de dialogue contextuelle qui s\'ouvrira en sélectionnant un post processeur adapté à votre machine.
+-   Cliquez sur le texte **TC:Outil par défaut**. Cela ouvrira l**\'éditeur du contrôleur d\'outil**. Modifiez les vitesses d\'avance et les vitesses de broche comme indiqué sur l\'image. Les vitesses d\'avance pour la coupe horizontale et verticale sont réglées sur 2000 mm/min, tandis que la vitesse de la broche est réglée sur 2000 RPM avec une rotation vers l\'avant. Ces paramètres contrôlent le mouvement et la vitesse de coupe de l\'outil pendant le processus d\'usinage.
 
-Il existe de nombreuses applications disponibles pour simuler l'usinage réel, l\'une d\'entre elles étant également multi-plate-forme et open-source, comme FreeCAD, est [Camotics](http://camotics.org/).
+<img alt="" src=images/FreeCAD_toolController.png  style="width:600px;">
+
+-   Double-cliquez sur l\'outil lui-même et modifiez son diamètre à 1 mm.
+-   Nous sommes maintenant prêts à retirer l\'excédent de matériau du bloc et à découper progressivement la géométrie Lego. Ce processus impliquera les parcours d\'outils que nous avons définis, afin de s\'assurer que la forme finale correspond à la conception prévue.
+-   Cliquez sur l\'option <img alt="" src=images/CAM_Profile.svg  style="width:16px;"> [Profilage](CAM_Profile/fr.md). Cette option est utilisée pour découper le matériau inutile autour du périmètre de la pièce, en façonnant efficacement les limites extérieures pour obtenir les dimensions générales de la pièce Lego.
+-   Normalement, vous n\'aurez pas à modifier les valeurs par défaut, à l\'exception du **Décalage supplémentaire** situé dans l\'onglet Opération. Réglez cette option à 1 mm pour vous assurer que l\'objet restant correspond correctement aux limites du Lego.
+-   Une fois que vous avez appuyé sur **appliquer**, vous devriez être en mesure de voir ces lignes vertes autour de l\'objet. Ces lignes visualisent le parcours que notre objet de découpe suivra lors de la découpe du bloc initial.
+
+<img alt="" src=images/FreeCAD_CAMProfile.png  style="width:600px;">
+
+-   L\'étape suivante consiste à créer les 6 cylindres extrudés sur la face supérieure du bloc Lego.
+-   Choisissez la face supérieure et cliquez sur le bouton <img alt="" src=images/CAM_Pocket_Shape.svg  style="width:16px;"> [Créer une poche](CAM_Pocket_Shape/fr.md). Dans l\'onglet **Extensions**, activez les Extensions et cliquez sur le bord de la face supérieure (il devrait normalement être automatiquement ajouté dans la boîte de longueur par défaut.
+-   Enfin, dans l\'onglet **Opération**, entrez -1.5 mm dans la case **Extension de passage** et changez l\'option de motif en Décalage du zigzag.
+-   Appuyez sur **appliquer** et fermez l\'onglet.
+-   De la même manière, nous pouvons créer les trois cylindres au bas de la pièce Lego.
+-   Nous pouvons facilement visualiser les étapes suivies pendant le fraisage de l\'objet en utilisant l\'option <img alt="" src=images/CAM_SimulatorGL.svg  style="width:16px;"> [Simulateur GL](CAM_SimulatorGL/fr.md).
 
 **Téléchargements**
 
@@ -131,7 +133,7 @@ Il existe de nombreuses applications disponibles pour simuler l'usinage réel, l
 -   [Slic3r](http://slic3r.org/)
 -   [Cura](https://ultimaker.com/en/products/cura-software)
 -   [L'atelier Cura](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)
--   [L'atelier Path](Path_Workbench/fr.md)
+-   [L'atelier CAM](CAM_Workbench/fr.md)
 -   [Camotics](http://camotics.org/)
 
 
@@ -143,4 +145,4 @@ Il existe de nombreuses applications disponibles pour simuler l'usinage réel, l
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Category_Path.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/fr
+⏵ [documentation index](../README.md) > [CAM](Category_CAM.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/fr

@@ -1,58 +1,58 @@
 ---
- TutorialInfo:
-   Topic:  Part Scripting - Ball Bearing #1
-   Level:  Beginner
+ TutorialInfo:l
+   Topic:  Skrypty części: Łożysko kulkowe - część 1
+   Level:  Początkujący
    Time:  30 min
    Author: r-frank
    FCVersion: 0.16.6706
-   Files: 
+   Files:  nie dołączono
 }}
 
-### Introduction
+### Wprowadzenie
 
-This tutorial is meant as a beginner\'s introduction to creating parts with python scripts within FreeCAD.
-This tutorial will cover how to build a ball bearing with a CSG-workflow.
-The code will produce a new FreeCAD document with 12 shapes .
-It will look like this:
+Ten poradnik ma na celu wprowadzenie początkujących użytkowników w tworzenie części za pomocą skryptów Python w programie FreeCAD.
+Ten samouczek będzie omawiał, jak zbudować łożysko kulkowe przy użyciu metody CSG.
+Kod wygeneruje nowy dokument FreeCAD zawierający 12 kształtów **.
+Będzie to wyglądać tak:
 !{width="400"}
 
-### Workflow
+### Przebieg pracy 
 
-The workflow is more or less identical how you would create the part in part workbench.
-Just some small differences.
-\*Create a new empty document and make it the active document
+Przebieg pracy jest mniej więcej identyczny z tym, jak tworzyłbyś część w środowisku pracy Część.
+Tylko kilka małych różnic.
+\* Utwórz nowy pusty dokument i ustaw go jako aktywny dokument.
 
--   Insert Cylinder
--   Insert Cylinder
--   Do boolean cut to get basic shape of inner ring
--   Select all edges and apply a fillet
--   Insert torus
--   Move torus into position and do a boolean cut to create the groove for the balls
--   Repeat all steps for getting the shape for the outer ring
--   Insert first ball
--   Insert other balls using math to calculate the position of the balls
--   Set view to axometric
--   Zoom to fit all
+-   Wstaw Walec.
+-   Wstaw Walec.
+-   Wykonaj operację logiczną - wycięcia, aby uzyskać podstawowy kształt wewnętrznej obręczy.
+-   Wybierz wszystkie krawędzie i zastosuj filet.
+-   Wstaw torus.
+-   Przesuń torus w odpowiednie miejsce i wykonaj operację logiczną wycięcia, aby utworzyć rowek na kule.
+-   Powtórz wszystkie kroki, aby uzyskać kształt zewnętrznej obręczy.
+-   Wstaw pierwszą kulę.
+-   Wstaw inne kule, używając matematyki do obliczenia pozycji kul.
+-   Ustaw widok na izometryczny.
+-   Przybliż, aby zmieścić wszystko.
 
-### Filleting edges 
+### Zaokrąglanie krawędzi 
 
-In part workbench using the GUI, you would select chamfers in the 3D view or in the menu for fillets and then apply the fillets.
-Here we select all edges of a shape and apply fillets.
-Therefore we need to select the edges BEFORE creating the groove.
+W warsztacie częściowym, korzystając z interfejsu graficznego, wybierasz skosy w widoku 3D lub w menu dla zaokrągleń, a następnie stosujesz zaokrąglenia.
+Tutaj wybieramy wszystkie krawędzie kształtu i stosujemy zaokrąglenia.
+Dlatego musimy wybrać krawędzie PRZED utworzeniem rowka.
 
-### Notes
+### Uwagi
 
-This tutorial is using part primitives and boolean operations, which can be performance consuming.
-For doing a scripted part with revolved sketches have a look at the tutorial Scripted Parts: Ball Bearing - Part 2.
+Ten poradnik wykorzystuje elementy pierwotne części i operacje logiczne, co może być wymagające dla wydajności.
+Aby wykonać zeszkolony fragment z przekręconymi szkicami, przejrzyj samouczek Skrypty części: Łożysko kulkowe - część 2.
 
-### Links
+### Odnośniki internetowe 
 
-Scripted objects: The wiki page explaing the basics of scripting
-Topological data scripting: A tutorial for covering basics of scripting
-Scripted Parts: Ball Bearing - Part 2: Doing it with sketches
-Bearing Script 1: Base for this tutorial, thanks to JMG \...
+Obiekty tworzone skryptami: Strona Wiki wyjaśniająca podstawy tworzenia skryptów
+Skrypty danych topologicznych: Samouczek odsłaniający podstawy tworzenia skryptów
+Skrypty części: Łożysko kulkowe - część 2: Wykonanie za pomocą szkiców
+Bearing Script 1: Baza dla tego poradnika, podziękowania dla JMG \...
 
-### Code
+### Kod
 
 
 {{Code   code: 

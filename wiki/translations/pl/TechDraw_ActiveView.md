@@ -29,7 +29,7 @@ Narzędzie **Wstaw aktywny widok** wstawia obraz w postaci bitmapy aktywnego wid
     -   Naciśnij przycisk**<img src="images/TechDraw_ActiveView.svg" width=16px> [Wstaw aktywny widok (widok 3D)](TechDraw_ActiveView/pl.md)
 **
     -   Wybierz opcję **Rysunek Techniczny → Widoki innych środowisk → <img src="images/TechDraw_ActiveView.svg" width=16px> Wstaw widok aktywny (widok 3D)** z menu.
-4.  Jeśli w dokumencie jest wiele stron z rysunkami i nie została jeszcze wybrana żadna strona, zostanie otwarte okno dialogowe **Wybór strony**: {{Version/pl|0.20}}
+4.  Jeśli w dokumencie jest wiele stron z rysunkami i nie została jeszcze wybrana żadna strona, zostanie otwarte okno dialogowe **Wybór strony**:
     1.  Wybierz żądaną stronę.
     2.  Naciśnij przycisk **OK**.
 5.  Zostanie otwarty panel zadań **Aktywny widok na stronę Rysunku Technicznego**. Aby uzyskać więcej informacji, zobacz [Opcje](#Opcje.md).
@@ -71,7 +71,7 @@ Zobacz również stronę [Obraz](TechDraw_Image/pl#W.C5.82a.C5.9Bciwo.C5.9Bci.md
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

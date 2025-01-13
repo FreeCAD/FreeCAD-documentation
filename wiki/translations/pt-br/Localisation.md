@@ -1,17 +1,4 @@
 # Localisation/pt-br
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
-
-
-
-
 ## Visão geral 
 
 **Localização** é, em geral, o processo de fornecer um Software com uma interface de usuário em vários idiomas. No FreeCAD, você pode definir o idioma da interface do usuário em **Editar → Preferências → Geral**. O FreeCAD usa o [Qt](wikipedia:Qt_(toolkit).md) para permitir o suporte a vários idiomas. Em sistemas Unix/Linux, o FreeCAD usa as configurações de localidade atuais do seu sistema por padrão.
@@ -30,13 +17,7 @@ O FreeCAD utiliza um sistema de tradução on-line colaborativo de terceiros cha
 
 <img alt="" src=images/Logo-crowdin.png  style="width:320px;">
 
-
-<div class="mw-translate-fuzzy">
-
 É um software proprietário, mas gratuito para projetos [FOSS](https://pt.wikipedia.org/wiki/Software_livre_e_de_c%C3%B3digo_aberto). Abaixo estão as instruções sobre como usá-lo:
-
-
-</div>
 
 -   Vá para a [página do projeto de tradução FreeCAD no Crowdin](http://crowdin.net/project/freecad)
 -   Faça login criando um novo perfil ou usando uma conta de terceiros (GitHub, GitLab, GMail etc\...)
@@ -89,180 +70,203 @@ Quando o wiki saiu do SourceForge, [Yorik](User_Yorik.md) instalou [MediaWiki\'s
 
 A ferramenta está documentada em [Help:Extension:Translate](http://www.mediawiki.org/wiki/Help:Extension:Translate) e faz parte do [Pacote de extensão de idiomas do MediaWiki](http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle).
 
+
+<div class="mw-translate-fuzzy">
+
 Para começar a preparar uma página para tradução de forma rápida, leia o [Exemplo de tradução de página](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example). Basicamente um par de tags
+
+
+</div>
 
     &lt;translate&gt; ... &lt;/translate&gt;
 
+
+<div class="mw-translate-fuzzy">
+
 precisam envolver toda a página para ativar o sistema de tradução, e a página precisa ser marcada para tradução.
+
+
+</div>
 
 Para ver um exemplo de como a ferramenta de tradução funciona, visite a [Página principal](Main_Page/pt-br.md). Você verá uma barra de idiomas gerada automaticamente na parte superior. Clique em [Deutsch](Main_Page/de.md) (Alemão), ele irá levá-lo para [Main Page/de](Main_Page/de.md). Logo abaixo do título, \"Hauptseite\" (em inglês \"Página principal\"), você pode ler , XX sendo a porcentagem atual de tradução. Clique em \"Traduzir\" no topo da página para iniciar o utilitário de tradução para atualizar, corrigir e revisar a tradução existente.
 
+
+<div class="mw-translate-fuzzy">
+
 Se você for para [Main Page/pt-br](Main_Page/pt-br.md), notará que não pode mais editar a página diretamente clicando nas tags \[Edit\], e o link superior \"Editar\" foi substituído pelo link \"Traduzir\" que abre o utilitário de tradução.
+
+
+</div>
 
 Ao adicionar novo conteúdo, a página em inglês deve ser criada primeiro e depois traduzida para outro idioma. Se alguém quiser alterar ou adicionar conteúdo em uma página, a página em inglês deve ser modificada primeiro.
 
 Se você não tiver certeza de como proceder com as traduções, não hesite em pedir ajuda no [Development → Wiki subforum](https://forum.freecadweb.org/viewforum.php?f=21) ou no \[https ://forum.freecadweb.org/viewforum.php?f=11 subfórum de idioma específico\] no [fórum FreeCAD](http://forum.freecadweb.org).
 
-### Important notes 
 
-Every wiki user that has \"Editor\" permissions is able to launch the translate utility to write, save and review translations.
 
-However, only users with \"Administrator\" permissions are able to mark pages for translation. A page that is not marked for translation won\'t make use of the translation extension and won\'t be correctly synchronized to the English information.
+### Notas importantes 
 
-The left sidebar is also translatable, but only Administrators can modify this element of the site. Please follow the dedicated instructions on [Localisation Sidebar](Localisation_Sidebar.md).
+Todos os usuários do wiki que têm permissões de \"Editor\" podem iniciar o utilitário de tradução para escrever, salvar e revisar traduções.
 
-The first time you switch a page to the new translation system, it loses all its old \"manual\" translations. To recover a translation, you should save an offline copy of the old text before the switch. Then you can use this old translated text to fill in the translation units in the new system. You can also open an earlier version from the history, and get the old text in this way. This has to be done for every language that had a translated page.
+No entanto, somente usuários com permissões de \"Administrador\" podem marcar páginas para tradução. Uma página que não esteja marcada para tradução não usará a extensão de tradução e não será sincronizada corretamente com as informações em inglês.
 
-### Translate the FreeCAD documentation 
+A barra lateral esquerda também pode ser traduzida, mas somente os administradores podem modificar esse elemento do site. Siga as instruções específicas em [Localização da barra lateral](Localisation_Sidebar/pt-br.md).
 
-As per general consensus, the reference page in the wiki is the English page, which should be created first. If you want to change or add content to a page, you should do it to the English page first, and only once the update is completed, port the modification to the translated page.
+Na primeira vez que você mudar uma página para o novo sistema de tradução, ela perderá todas as suas traduções \"manuais\" antigas. Para recuperar uma tradução, você deve salvar uma cópia off-line do texto antigo antes da mudança. Em seguida, você pode usar esse texto traduzido antigo para preencher as unidades de tradução no novo sistema. Você também pode abrir uma versão anterior do histórico e obter o texto antigo dessa forma. Isso deve ser feito para cada idioma que tinha uma página traduzida.
 
-### Old translation instructions 
+
+
+### Traduzir a documentação do FreeCAD 
+
+De acordo com o consenso geral, a página de referência no wiki é a página em inglês, que deve ser criada primeiro. Se você quiser alterar ou adicionar conteúdo a uma página, deve fazê-lo primeiro na página em inglês e, somente depois que a atualização for concluída, portar a modificação para a página traduzida.
+
+
+
+### Instruções de tradução antigas 
 
 ++
-| These instructions are for historical background only. Translations should use the new system with the [#Mediawiki Translation Extension](#Mediawiki_Translation_Extension.md) described above.                                                                                                                                                                                                                                                                                                                                                                  |
+| Estas instruções são apenas para fins históricos. As traduções devem usar o novo sistema com a [#Mediawiki Translation Extension](#Mediawiki_Translation_Extension.md) descrita acima.                                                                                                                                                                                                                                                                                                                                                                                              |
 ++
-| So the first step is to **check if the manual translation has already been started for your language** (look in the left sidebar, under \"manual\").                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| If not, head to the [forum](http://forum.freecadweb.org/) and say that you want to start a new translation, we\'ll create the basic setup for the language you want to work on.                                                                                                                                                                                                                                                                                                                                                                                          |
-| You must then [gain wiki edit permission](Frequently_asked_questions#How_can_I_get_edit_permission_on_the_wiki.3F.md).                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| If your language is already listed, see what pages are still missing a translation (they will be listed in red). The technique is simple: **go into a red page, and copy/paste the contents of the corresponding English page, and start translating**.                                                                                                                                                                                                                                                                                                                  |
-| Do not forget to include all the tags and templates from the original English page. Some of those templates will have an equivalent in your language (for example, there is a French Docnav template called Docnav/fr). You should use **a slash and your language code** in almost all the links. Look at other already translated pages to see how they did it.                                                                                                                                                                                                        |
-| Add a slash and your language code in the categories, like \[\[Category:Developer Documentation/fr\]\]                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| And if you are unsure, head to the forums and ask people to check what you did and tell you if it\'s right or not.                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Four templates are commonly used in manual pages. These 4 templates have localized versions (Template:Docnav/fr, Template:fr, etc\...)                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| -   [Template:GuiCommand](Template_GuiCommand.md) : is the Gui Command information block in upper-right of command documentation.                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| -   [Template:Docnav](Template_Docnav.md) : it is the navigation bar at the bottom of the pages, showing previous and next pages.                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| -   [Template:Userdocnavi](Template_Userdocnavi.md) : gives direct links to the main base pages                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Page Naming Convention**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Please take note that, due to limitations in the Sourceforge implementation of the MediaWiki engine, we require that your pages all keep their original English counterpart\'s name, appending a slash and your language code. For example, the translated page for About FreeCAD should be About Freecad/es for Spanish, About FreeCAD/pl for polish, etc. The reason is simple: so that if translators go away, the wiki\'s administrators, who do not speak all languages, will know what these pages are for. This will facilitate maintenance and avoid lost pages. |
-| If you want the Docnav template to show linked pages in your language, you can use **redirect pages**. They are basically shortcut links to the actual page. Here is an example with the French page for About FreeCAD.                                                                                                                                                                                                                                                                                                                                                  |
-| \* The page About FreeCAD/fr is the page with content                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| -   The page À propos de FreeCAD contains this code:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| #REDIRECT [[About_FreeCAD/fr]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| -   In the About FreeCAD/fr page, the Docnav code will look like this:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| {{docnav/fr|[Bienvenue dans l'aide en ligne de FreeCAD](Online_Help_Startpage/fr.md)|[Fonctionnalités](Feature_list/fr.md)}}                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| The page \"Bienvenue dans l\'aide en ligne de FreeCAD\" redirects to Online_Help_Startpage/fr, and the page \"Fonctionnalités\" redirects to Feature_list/fr.                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Então o primeiro passo é **verificar se a tradução manual já foi iniciada para o seu idioma** (procure na barra lateral esquerda, em \"manual\").                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Caso contrário, acesse o [forum](http://forum.freecadweb.org/) e diga que deseja iniciar uma nova tradução, criaremos a configuração básica para o idioma que você deseja trabalhar.                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Você deve então [obter permissão de edição do wiki](Frequently_asked_questions#How_can_I_get_edit_permission_on_the_wiki.3F.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Se o seu idioma já estiver listado, veja quais páginas ainda não têm tradução (elas serão listadas em vermelho). A técnica é simples: **vá para uma página vermelha, copie/cole o conteúdo da página em inglês correspondente e comece a traduzir**.                                                                                                                                                                                                                                                                                                                                        |
+| Não se esqueça de incluir todas as tags e modelos da página original em inglês. Alguns desses modelos terão um equivalente em seu idioma (por exemplo, existe um modelo Docnav em francês chamado Docnav/fr). Você deve usar **uma barra e seu código de idioma** em quase todos os links. Veja outras páginas já traduzidas para ver como eles fizeram isso.                                                                                                                                                                                                                               |
+| Adicione uma barra e o código do seu idioma nas categorias, como \[\[Category:Developer Documentation/fr\]\]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| E se não tiver certeza, vá aos fóruns e peça às pessoas que verifiquem o que você fez e digam se está certo ou não.                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Quatro modelos são comumente usados ​​em páginas de manual. Esses 4 modelos possuem versões localizadas (Template:Docnav/fr, Template:fr, etc\...)                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| -   [Template:GuiCommand](Template_GuiCommand.md) : é o bloco de informações do Comando Gui no canto superior direito da documentação do comando.                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| -   [Template:Docnav](Template_Docnav.md) : é a barra de navegação no final das páginas, mostrando as páginas anteriores e seguintes.                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| -   [Template:Userdocnavi](Template_Userdocnavi.md) : fornece links diretos para as páginas base principais                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Convenção de nomenclatura de páginas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Por favor, observe que, devido às limitações na implementação do motor MediaWiki no Sourceforge, exigimos que todas as suas páginas mantenham o nome original em inglês, acrescentando uma barra e o código do seu idioma. Por exemplo, a página traduzida para Sobre o FreeCAD deveria ser Sobre o Freecad/es para espanhol, Sobre o FreeCAD/pl para polonês, etc. A razão é simples: para que se os tradutores forem embora, os administradores do wiki, que não falam todos os idiomas, saberá para que servem essas páginas. Isso facilitará a manutenção e evitará a perda de páginas. |
+| Se você quiser que o modelo Docnav mostre páginas vinculadas em seu idioma, você pode usar **redirecionar páginas**. Eles são basicamente links de atalho para a página real. Aqui está um exemplo com a página francesa de Sobre o FreeCAD.                                                                                                                                                                                                                                                                                                                                                |
+| \* A página Sobre o FreeCAD/fr é a página com conteúdo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| -   A página À propos de FreeCAD contém este código:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| #REDIRECT [[About_FreeCAD/fr]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| -   Na página Sobre o FreeCAD/fr, o código Docnav ficará assim:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| {{docnav/fr|[Bienvenue dans l'aide en ligne de FreeCAD](Online_Help_Startpage/fr.md)|[Fonctionnalités](Feature_list/fr.md)}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| A página \"Bienvenue dans l\'aide en ligne de FreeCAD\" redireciona para Online_Help_Startpage/fr, e a página \"Fonctionnalités\" redireciona para Feature_list/fr.                                                                                                                                                                                                                                                                                                                                                                                                                         |
 ++
 
-## Translate the FreeCAD website 
 
-Translation of the FreeCAD website is now done through [Crowdin](https://crowdin.com/translate/freecad/561/en-en). The file is named **homepage.po**.
 
-## Development - How to Add Localisation 
+## Tradução do site do FreeCAD 
 
-This section is for developers who want to add localisation to their code.
+A tradução do site do FreeCAD agora é feita por meio de [Crowdin](https://crowdin.com/translate/freecad/561/en-en). O arquivo é denominado **homepage.po**.
 
-### Preparing your FreeCAD/master modules for translation 
 
-These are the parts to the FreeCAD translation process:
 
--   extract text strings from source code into \*.ts files
--   load \*.ts files into [FreeCAD Crowdin](http://crowdin.net/project/freecad).
--   translation of strings within Crowdin
--   extract modified/new \*.ts files from Crowdin
--   convert \*.ts files into \*.qm files and update each module\'s \*.qrc file
--   update FreeCAD master
+## Desenvolvimento - Como adicionar localização 
 
-All of the above steps are performed by the \"translation scripts\" which are run by an administrator periodically.
+Esta seção é para desenvolvedores que desejam adicionar localização ao seu código.
 
-Preparing your module for translation is quite easy. First, you need to ensure that you have a \"translations\" directory in **myModule/Gui/Resources**. Then open a terminal window (or Windows/OSX equivalent) in your \"translations\" directory and enter the following command: 
+
+
+### Preparando seus módulos FreeCAD/master para tradução 
+
+Estas são as partes do processo de tradução do FreeCAD:
+
+-   extrair cadeias de texto do código-fonte em arquivos \*.ts
+-   Carregar arquivos \*.ts no [FreeCAD Crowdin](http://crowdin.net/project/freecad).
+-   Tradução de strings no Crowdin
+-   Extração de arquivos \*.ts modificados/novos do Crowdin
+-   Converter arquivos \*.ts em arquivos \*.qm e atualizar o arquivo \*.qrc de cada módulo
+-   Atualizar o FreeCAD master
+
+Todas as etapas acima são executadas pelos \"scripts de tradução\", que são executados periodicamente por um administrador.
+
+Preparar seu módulo para tradução é muito fácil. Primeiro, é necessário garantir que você tenha um diretório \"translations\" em **myModule/Gui/Resources**. Em seguida, abra uma janela de terminal (ou equivalente no Windows/OSX) em seu diretório \"translations\" e digite o seguinte comando: 
 ```pythonlupdate -ts myModule.ts```
 
-This creates an empty translation file. Once this is done, you need to ensure that the translation scripts are updated as in this [pull request](https://github.com/FreeCAD/FreeCAD/pull/810).
+Isso cria um arquivo de tradução vazio. Uma vez feito isso, você precisa garantir que os scripts de tradução sejam atualizados como nesta [pull request](https://github.com/FreeCAD/FreeCAD/pull/810).
 
-Everything after this is automatic as far as a developer is concerned. The administrator will extract the text strings, the translators will translate them, then the administrator will extract the translations and update FreeCAD/master.
+Tudo depois disso é automático no que diz respeito a um desenvolvedor. O administrador extrairá as sequências de texto, os tradutores as traduzirão e, em seguida, o administrador extrairá as traduções e atualizará o FreeCAD/master.
 
-### Preparing your 3rd party module or macro for translation 
 
-3rd party modules or macros are translated in much the same fashion, except that you must do some of the work yourself. This [forum discussion](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) describes the details.
 
-Update: see [Translating an external workbench](Translating_an_external_workbench.md)
+### Preparando seu módulo ou macro de terceiros para tradução 
 
-### Older module translation techniques 
+Os módulos ou macros de terceiros são traduzidos da mesma forma, exceto pelo fato de que você mesmo deve fazer parte do trabalho. Esta [discussão no fórum](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) descreve os detalhes.
 
-[Localization Older Methods](Localization_Older_Methods.md) describes the use of translation tools such as Qt Linguist, lupdate, lrelease, pylupdate4, etc in detail. Most of this is no longer required for FreeCAD/master modules, but may be helpful preparing and updating 3rd party modules.
+Atualização: consulte [Traduzindo um workbench externo](Translating_an_external_workbench/pt-br.md)
 
-## Automating Crowdin Translation Updates 
 
-Currently FreeCAD maintainers use the Crowdin API via [Crowdin Scripts](Crowdin_Scripts.md) to pull and push translations in to Crowdin and back in to the Github repo. The Crowdin API gives FreeCAD maintainers the ability to automate aspects of the project\'s translation workflow, for more info refer to the [Crowdin API documentation](https://support.crowdin.com/api/api-integration-setup/).
 
-## Related Pages 
+## Automatizando as atualizações de tradução do Crowdin 
 
--   [Crowdin Administration](Crowdin_Administration.md)
--   [Crowdin Scripts](Crowdin_Scripts.md)
+Atualmente, os mantenedores do FreeCAD usam a API do Crowdin por meio de [Crowdin Scripts](Crowdin_Scripts/pt-br.md) para puxar e enviar traduções para o Crowdin e de volta para o repositório do Github. A API do Crowdin oferece aos mantenedores do FreeCAD a capacidade de automatizar aspectos do fluxo de trabalho de tradução do projeto. Para obter mais informações, consulte a [Documentação da API do Crowdin](https://support.crowdin.com/api/api-integration-setup/).
+
+
+
+## Páginas relacionadas 
+
+-   [Administração do Crowdin](Crowdin_Administration/pt-br.md)
+-   [Scripts Crowdin](Crowdin_Scripts/pt-br.md)
 
 ## Scripting
 
 
-**See also:**
+**Veja também:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD Noções básicas de programação](FreeCAD_Scripting_Basics/pt-br.md).
 
-To get a dictionary with the languages the FreeCAD interface supports, use the `supportedLocales` method of the `FreeCADGui` module.
+Para obter um dicionário com os idiomas suportados pela interface do FreeCAD, use o método `supportedLocales` do módulo `FreeCADGui`.
 
 
 ```python
 locales = FreeCADGui.supportedLocales()
 ```
 
-After execution `locales` will contain:
+Após a execução, `locales` conterá:
 
 
 ```python
 {'English': 'en', 'Afrikaans': 'af', 'Arabic': 'ar', 'Basque': 'eu', 'Catalan': 'ca', 'Chinese Simplified': 'zh-CN', 'Chinese Traditional': 'zh-TW', 'Croatian': 'hr', 'Czech': 'cs', 'Dutch': 'nl', 'Filipino': 'fil', 'Finnish': 'fi', 'French': 'fr', 'Galician': 'gl', 'German': 'de', 'Hungarian': 'hu', 'Indonesian': 'id', 'Italian': 'it', 'Japanese': 'ja', 'Kabyle': 'kab', 'Korean': 'ko', 'Lithuanian': 'lt', 'Norwegian': 'no', 'Polish': 'pl', 'Portuguese': 'pt-PT', 'Portuguese, Brazilian': 'pt-BR', 'Romanian': 'ro', 'Russian': 'ru', 'Slovak': 'sk', 'Slovenian': 'sl', 'Spanish': 'es-ES', 'Swedish': 'sv-SE', 'Turkish': 'tr', 'Ukrainian': 'uk', 'Valencian': 'val-ES', 'Vietnamese': 'vi'}
 ```
 
-To get the current interface language use the `getLocale` method of the same module:
+Para obter o idioma da interface atual, use o método `getLocale` do mesmo módulo:
 
 
 ```python
 locale = FreeCADGui.getLocale()
 ```
 
-If the current language is English `locale` will contain:
+Se o idioma atual for o inglês, `locale` conterá:
 
 
 ```python
 'English'
 ```
 
-To get the corresponding [language code](https://support.crowdin.com/api/language-codes/) you can use use:
+Para obter o [código de idioma](https://support.crowdin.com/api/language-codes/) correspondente, você pode usar:
 
 
 ```python
 locale = FreeCADGui.supportedLocales()[Gui.getLocale()]
 ```
 
-If the current language is English the result will be:
+Se o idioma atual for o inglês, o resultado será:
 
 
 ```python
 'en'
 ```
 
-To set the current interface language use the `setLocale` method of the same module. You can specify the language or the language code:
+Para definir o idioma da interface atual, use o método `setLocale` do mesmo módulo. Você pode especificar o idioma ou o código do idioma:
 
 
 ```python
 FreeCADGui.setLocale('Russian')
 FreeCADGui.setLocale('ru')
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

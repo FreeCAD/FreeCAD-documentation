@@ -26,7 +26,7 @@ Après une opération de copier-coller, l\'emplacement des nouveaux objets dans 
 Comme la plupart des choses dans FreeCAD, il y a plusieurs façons de faire une copie. Pour plus d\'idées, consultez :
 
 -   PartDesign : [Symétrie](PartDesign_Mirrored/fr.md), [Répétition linéaire](PartDesign_LinearPattern/fr.md), [Répétition circulaire](PartDesign_PolarPattern/fr.md), [Transformations multiples](PartDesign_MultiTransform/fr.md)
--   Part : [Miroir](Part_Mirror/fr.md), [Copie simple](Part_SimpleCopy.md)
+-   Part : [Objet en miroir](Part_Mirror/fr.md), [Copie simple](Part_SimpleCopy.md)
 -   Draft : [Décaler](Draft_Offset/fr.md), [Échelle](Draft_Scale/fr.md), [Réseau orthogonal](Draft_OrthoArray/fr.md), [Réseau selon une courbe](Draft_PathArray/fr.md), [Cloner](Draft_Clone/fr.md), [Miroir](Draft_Mirror/fr.md)
 
 

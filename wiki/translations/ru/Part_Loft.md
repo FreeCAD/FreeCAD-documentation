@@ -64,13 +64,13 @@ A Part Loft object is derived from a [Part Feature](Part_Feature.md) object and 
 
 {{TitleProperty|Loft}}
 
--    **Sections|LinkList**: lists the sections used.
+-    **Sections|LinkList**: Lists the sections used.
 
--    **Solid|Bool**: true or false (default). True creates a solid.
+-    **Solid|Bool**: False (default). True creates a solid.
 
--    **Ruled|Bool**: true or false (default). True creates a ruled surface.
+-    **Ruled|Bool**: False (default). True creates a ruled surface.
 
--    **Closed|Bool**: rue or false (default). True creates a closed loft by connecting last to first profile.
+-    **Closed|Bool**: False (default). True creates a closed loft by connecting last to first profile.
 
 -    **Max Degree|IntegerConstraint**: Maximum degree.
 

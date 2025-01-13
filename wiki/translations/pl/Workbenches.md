@@ -19,13 +19,19 @@ Poniższe środowiska pracy są dostępne w każdej instalacji FreeCAD:
 
 -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std: Base](Std_Base/pl.md). To nie jest tak naprawdę środowisko pracy, ale raczej kategoria \"standardowych\" poleceń i narzędzi, które mogą być używane we wszystkich środowiskach pracy.
 
--   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Architektura](Arch_Workbench/pl.md) do pracy z elementami architektonicznymi.
+-   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;">[Złożenie](Assembly_Workbench/pl.md) do budowania i rozwiązywania zespołów mechanicznych. {{Version/pl|1.0}}
+
+-   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> [BIM](BIM_Workbench/pl.md) do pracy z elementami architektonicznymi i tworzenia modeli [BIM](https://en.wikipedia.org/wiki/Building_information_modeling). Łączy w sobie środowisko pracy Architektura i wcześniejsze zewnętrzne środowisko pracy BIM dostępne w {{VersionMinus|0.21}}.
+
+-   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> [CAM](CAM_Workbench/pl.md) służy do tworzenia instrukcji G-Code. To środowisko pracy zostało nazwane \"Path\" w {{VersionMinus/pl|0.21}}.
 
 -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Rysunek Roboczy](Draft_Workbench/pl.md) zawiera narzędzia 2D oraz podstawowe operacje CAD 2D i 3D.
 
 -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [MES](FEM_Workbench/pl.md) zapewnia przepływ pracy w zakresie analizy elementów skończonych *(Finite Element Analysis FEA)*.
 
 -   <img alt="" src=images/_Workbench_Inspection.svg  style="width:32px;"> [Inspekcja](Inspection_Workbench/pl.md) ma na celu udostępnienie narzędzi do badania kształtów. Nadal jest w fazie rozwoju.
+
+-   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> [Materiał](Material_Workbench.md) obsługuje system materiałów we FreeCAD. {{Version/pl|1.0}}
 
 -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Siatka](Mesh_Workbench/pl.md) do pracy z siatkami o trójkątnych oczkach.
 
@@ -34,8 +40,6 @@ Poniższe środowiska pracy są dostępne w każdej instalacji FreeCAD:
 -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Część](Part_Workbench/pl.md) do pracy z pierwotnymi obiektami geometrycznymi i operacjami logicznymi.
 
 -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Projekt Części](PartDesign_Workbench/pl.md) do budowy kształtów części ze szkiców.
-
--   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path](Path_Workbench/pl.md) jest używany do tworzenia operacji G-Code.
 
 -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [Punkty](Points_Workbench/pl.md) do pracy z chmurami punktów.
 
@@ -47,19 +51,21 @@ Poniższe środowiska pracy są dostępne w każdej instalacji FreeCAD:
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md) do tworzenia i manipulowania danymi w arkuszu kalkulacyjnym.
 
--   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [Start](Start_Workbench/pl.md) pozwala na szybkie przejście do jednego z najczęściej stosowanych stołów warsztatowych.
-
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Powierzchnia](Surface_Workbench/pl.md) dostarcza narzędzi do tworzenia i modyfikowania powierzchni. Jest on podobny do narzędzia [konstruktora kształtu części](Part_Builder/pl.md) środowiska Część, z krawędzi.
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md) do tworzenia rysunków technicznych dla modeli przestrzennych. Jest to następca środowiska [Kreślenie](Drawing_Workbench/pl.md).
 
 -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Test Framework](Testing/pl.md) służy do debugowania programu FreeCAD.
 
--   <img alt="" src=images/Workbench_Web.svg  style="width:32px;">[Web](Web_Workbench/pl.md) udostępnia okno przeglądarki w oknie [widoku 3D](3D_view/pl.md) dla programiu FreeCAD.
-
 
 
 ### Przestarzałe
+
+Następujące środowiska pracy nie są już zawarte w instalacji podstawowej po wersji 0.21:
+
+-   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [Start](Start_Workbench/pl.md) pozwala na szybkie przejście do jednego z najczęściej stosowanych stołów warsztatowych.
+
+-   <img alt="" src=images/Workbench_Web.svg  style="width:32px;">[Web](Web_Workbench/pl.md) udostępnia okno przeglądarki w oknie [widoku 3D](3D_view/pl.md) dla programiu FreeCAD.
 
 Następujące środowiska pracy nie są już zawarte w instalacji podstawowej po wersji 0.20:
 

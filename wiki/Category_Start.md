@@ -1,12 +1,14 @@
 # Category:Start
-This category lists pages related to the [Start Workbench](Start_Workbench.md).
+This category is for pages related to the [Start Workbench](Start_Workbench.md).
+
+\[\[Category:Obsolete_Workbenches\]
 
 ### Contents
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Start](Artwork_Start.md) | [Start Preferences](Start_Preferences.md) | [Template:Start Tools navi](Template_Start_Tools_navi.md) |
-| [Start Workbench](Start_Workbench.md) |
+| [Start Preferences](Start_Preferences.md) | [Template:Start Tools navi](Template_Start_Tools_navi.md) | [Start Workbench](Start_Workbench.md) |
+|
 
 
 

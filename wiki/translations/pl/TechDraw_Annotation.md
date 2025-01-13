@@ -26,7 +26,7 @@ Narzędzie *Wstaw adnotację* dodaje blok tekstu do strony rysunku.
 2.  Istnieje kilka sposobów wywołania narzędzia:
 3.  Naciśnij przycisk **<img src="images/TechDraw_Annotation.svg" width=24px> '''Wstaw adnotację'''**.
     -   Wybierz opcję z menu **Rysunek Techniczny → Adnotacje → <img src="images/TechDraw_Annotation.svg" width=16px> Wstaw adnotację**.
-4.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+4.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**:
     1.  Wybierz żądaną stronę.
     2.  Naciśnij przycisk **OK**.
 5.  Na stronie pojawi się blok tekstowy zawierający *Tekst domyślny*.
@@ -82,7 +82,7 @@ rc = page.addView(anno)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

@@ -29,7 +29,13 @@ Das Werkzeug **TechDraw Längenmaß** fügt einer Ansicht ein lineares Maß hinz
     -   Einen Punkt und eine Kante auswählen. Dies erstellt ein senkrechtes Maß. In {{VersionMinus/de|0.21}} ergibt sich nur dann senkrechte Maß, wenn der Punkt senkrecht auf die Kante projiziert werden kann. Andernfalls zeigt das Maß den Abstand des Punktes zum nächstgelegenen Endpunkt der Kante an.
 2.  Wurde Geometrie in der 3D-Ansicht ausgewählt, muss die korrekte TechDraw-Ansicht durch Auswählen in der [Baumansicht](Tree_view/de.md) zur Auswahl hinzugefügt werden.
 3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-    -   Die Schaltfläche **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Längenmaß einfügen](TechDraw_LengthDimension/de.md)** drücken.
+    -   
+        {{Version/de|1.0}}
+        
+        : Ist die [Einstellung](TechDraw_Preferences/de#Maßeinträge.md) **Maß-Werkzeuge** auf {{Value|Einzelnes Werkzeug}} (Standardeinstellung) gesetzt: Den Nach-unten-Pfeil rechts neben der Schaltfläche **<img src="images/TechDraw_Dimension.svg" width=|x16px> <img src="images/Toolbar_flyout_arrow.svg" width=x16px>** drücken und die Menüoption **<img src="images/TechDraw_LengthDimension.svg" width=16px> Längenmaß einfügen** in der Ausklappliste auswählen.
+
+    -   Hat die Einstellung einen anderen Wert (und in {{VersionMinus/de|0.21}}): Die Schaltfläche **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Längenmaß einfügen](TechDraw_LengthDimension/de.md)** drücken.
+
     -   Den Menüeintrag **TechDraw → Maßeinträge → <img src="images/TechDraw_LengthDimension.svg" width=16px> Längenmaß einfügen** auswählen.
 4.  Ein Maß wird zur Ansicht hinzugefügt.
 5.  Das Maß kann an die gewünschte Position gezogen werden.
@@ -352,7 +358,7 @@ Siehe [Leitbemaßungen](TechDraw_LandmarkDimension/de.md) für einen weiteren An
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug Längenmaß kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 

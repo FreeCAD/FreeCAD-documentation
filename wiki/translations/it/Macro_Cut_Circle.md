@@ -1,51 +1,38 @@
 # Macro Cut Circle/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro Cut Circle
-|Icon=Macro_Cut_Circle.png
 |Translate=Taglia Cerchio
-|Description=Suddivide un cerchio o un arco nel numero richiesto di archi. Il nuovo cerchio viene creato nella coordinata reale dell'oggetto, non nelle coordinate del corpo. <br/>{{ColoredText|(Riga di comando, incolla questa macro completa nella console Python)}}.
+|Description=Taglia cerchi o archi in più archi. Gli archi creati possono essere colorati alternativamente per distinguerli.<br/>{{ColoredText|(Riga di comando, incolla la macro completa nella console Python)}}.
 |Author=mario52
 |Version=00.03
 |Date=2019-07-02
-|Download=[https://www.freecadweb.org/wiki/images/9/93/Macro_Cut_Circle.png Icon]
+|Download=[https://wiki.freecad.org/images/9/93/Macro_Cut_Circle.png ToolBar Icon]
 }}
-
-
-</div>
 
 
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questa macro suddivide un cerchio(i) o arco(i) in archi, gli archi possono essere di colori alternati per distinguerli.
-
-
-</div>
+Questa macro taglia cerchi o archi in più archi. Gli archi creati possono essere colorati alternativamente per distinguerli.
 
 <img alt="" src=images/Macro_CutCircle_00.png  style="width:400px;"> 
 *CutCircle*
 
-## Usage
 
-
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
-Copiare la macro **cutCirle** completa nella console Python di FreeCAD, selezionare il cerchio(i) e/o l\'arco(i) poi digitare nella console:
-
-
-</div>
+1.  Incollare la macro **cutCircle** nella [Console Python](Python_console/it.md).
+2.  Premere **Enter** (il codice è ora in memoria).
+3.  Selezionare uno o più cerchi o archi.
+4.  Invocare la funzione {{Incode|cutCircle()}} con 1 o 2 argomenti dalla console Python:
+    -   Esempio con 1 argomento: {{Incode|cutCircle(4)}}. Questo creerà 4 nuovi archi per ogni cerchio o arco selezionato e si fermerà lì (nessuna colorazione).
+    -   Esempio con 2 argomenti: {{Incode|cutCircle(6, 1)}}. Questo creerà 6 nuovi archi per ciascun cerchio o arco selezionato, colorati alternativamente in rosso e bianco come mostrato nell\'immagine.
+5.  L\'oggetto originale non viene eliminato.
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Cut_Circle.png )
+Icona della barra degli strumenti ![](images/Macro_Cut_Circle.png )
 
 **Macro_Cut_Circle.FCMacro**
 
@@ -126,17 +113,11 @@ cutCircle(5, 1)  # here with 5 arcs and colored
 cutCircle(4)     #
 ```
 
-## Project
 
-
-<div class="mw-translate-fuzzy">
 
 ## In progetto 
 
-Applicare la suddivisione a un cilindro
-
-
-</div>
+Tagliare il cerchio in cilindro
 
 
 
@@ -144,13 +125,7 @@ Applicare la suddivisione a un cilindro
 
 ver 00.03 02/07/2019 : aggiunto \"App.ActiveDocument.recompute()\"
 
-
-<div class="mw-translate-fuzzy">
-
-ver 00.02 09/03/2015 : adding create arcs coloured altenat alternately Red White Red White \.... or not
-
-
-</div>
+ver 00.02 03/09/2015 : aggiunta la creazione di archi colorati alternativamente Rosso Bianco Rosso Bianco \.... oppure no
 
 ver 00.01 24/02/2015 :
 

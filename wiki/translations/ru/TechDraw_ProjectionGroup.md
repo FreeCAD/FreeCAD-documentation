@@ -16,9 +16,12 @@
 
 ## Описание
 
-The **TechDraw ProjectionGroup** tool creates a [multiview projection](https://en.wikipedia.org/wiki/Multiview_projection) of one or more 3D objects. The isometric views of the 4 front corners can also be included.
+The **TechDraw ProjectionGroup** tool creates a [multiview projection](https://en.wikipedia.org/wiki/Multiview_projection) of one or more 3D objects, using the traditional [first-](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) or [third-angle projection](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection). The isometric views of the 4 front corners can also be included.
 
-If you only want to produce a single view, there is no advantage in using ProjectionGroup; you should then use [Insert View](TechDraw_View.md) instead. If you do not wish to use the traditional [first-](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) / [third-angle projection](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection), you should use multiple *Views* ([Insert View](TechDraw_View.md)) instead of *ProjectionGroup*.
+
+<small>(v1.0)</small> 
+
+: The [TechDraw View](TechDraw_View.md) tool can also create a Projection Group. It is advisable to use that tool instead.
 
 <img alt="" src=images/TechDraw_ProjGroup_example.png  style="width:400px;"> 
 *Three orthogonal views and one isometric view of a solid object*
@@ -27,27 +30,15 @@ If you only want to produce a single view, there is no advantage in using Projec
 
 ## Применение
 
-1.  Optionally rotate the [3D view](3D_view.md). The camera direction in the [3D view](3D_view.md) determines the initial value of the **Primary Direction** of the Projection Group (the **Direction** property of the central view).
-2.  Select one or more objects in the [3D view](3D_view.md) or [Tree view](Tree_view.md).
-3.  If there are multiple drawing pages in the document: optionally add the desired page to the selection by selecting it in the [Tree view](Tree_view.md).
-4.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Insert Projection Group](TechDraw_ProjectionGroup.md)** button.
-    -   Select the **TechDraw → TechDraw Views → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Insert Projection Group** option from the menu.
-5.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
-    1.  Select the desired page.
-    2.  Press the **OK** button.
-6.  The **Projection Group** task panel opens.
-7.  Select which views should appear in the Projection Group, and the Projection Group\'s scale and other parameters.
-8.  Press the **OK** button.
-9.  Optionally move the Projection Group by dragging its central view.
-10. Optionally move the Projection Group\'s other views relative to the central view by dragging them individually.
-
-![](images/TaskProjGroup.png ) 
-*Projection Group [task panel](Task_panel.md). The Primary Direction field indicates the current view direction.*
+See [TechDraw View](TechDraw_View#Usage_Projection_Group_Item_and_Projection_Group.md), but to invoke the tool select the **TechDraw → TechDraw Views → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Insert Projection Group** option from the menu.
 
 
 
 ## Свойства
+
+See also: [Property editor](Property_editor.md).
+
+A Projection Group, formally a {{Incode|TechDraw::DrawProjGroup}} object, has the [properties](TechDraw_View#Properties_Part_View.md) that are common to all View types. It also has the following additional properties:
 
 ### Data
 
@@ -62,8 +53,6 @@ If you only want to produce a single view, there is no advantage in using Projec
 
 -    **ProjectionType|Enumeration**: {{Value|First Angle}} or {{Value|Third Angle}}.
 
-For the other properties in this group see [TechDraw View](TechDraw_View#Properties.md).
-
 
 {{TitleProperty|Collection}}
 
@@ -77,13 +66,6 @@ For the other properties in this group see [TechDraw View](TechDraw_View#Propert
 -    **spacing X|Length**: Horizontal space between views when automatically positioned. Note that Scale and the size of other views in the group also influence the spacing.
 
 -    **spacing Y|Length**: Vertical space between views when automatically positioned.
-
-### View
-
-
-{{TitleProperty|Base}}
-
-See [TechDraw View](TechDraw_View#Properties.md).
 
 ## Notes
 
@@ -144,10 +126,16 @@ doc.recompute()
 Note: The Projection Group should always be added to the Page, {{Incode|page.addView(group)}}, before adding projections to the Group. This allows the Projection Group to use default parameter values derived from the parent page.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{TechDraw Tools navi
+
+
+</div>
+
+
+{{TechDraw_Tools_navi
 
 }}
 

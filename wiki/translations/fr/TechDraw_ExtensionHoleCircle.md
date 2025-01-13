@@ -22,7 +22,7 @@ L\'outil **TechDraw Axes de centrage de trous/vis** ajoute des axes de centrage 
 
 ## Utilisation
 
-1.  Spécifiez à votre convenance les attributs de ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
+1.  Spécifiez à votre convenance les attributs de ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw Choix des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
 2.  Sélectionnez trois cercles ou plus formant un motif circulaire.
 3.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionHoleCircle.svg" width=16px> [Axes de centrage des trous/vis](TechDraw_ExtensionHoleCircle/fr.md)**.

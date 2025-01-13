@@ -32,9 +32,15 @@ Each 3D view has its own working view. Storing a new working view will overwrite
 ## Программирование
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
+
+
+</div>
 
 To store the current camera settings of the active 3D view in a working view:
 
@@ -49,7 +55,7 @@ FreeCADGui.runCommand("Std_StoreWorkingView", 0)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

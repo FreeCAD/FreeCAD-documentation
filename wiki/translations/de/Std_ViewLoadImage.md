@@ -38,7 +38,7 @@ Der Befehl **Std AnsichtBildLaden** öffnet ein Bild in einem neuen Reiter im [H
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

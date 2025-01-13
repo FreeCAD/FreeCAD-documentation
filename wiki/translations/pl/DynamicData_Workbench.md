@@ -1,36 +1,44 @@
-# <img alt="DynamicData External Workbench Icon" src=images/DynamicData_workbench_icon.svg  style="width:64px;"> DynamicData Workbench/pl
+# <img alt="Ikonka FreeCAD dla zewnętrznego środowiska pracy DynamicData" src=images/DynamicData_workbench_icon.svg  style="width:64px;"> DynamicData Workbench/pl
 
 
 
 
-## Overview
 
-DynamicData is an [external workbench](External_workbenches.md) with which one can create a container object for holding custom properties.
 
-With this workbench it\'s possible to create a new custom [property](property.md) of just about any type that FreeCAD supports. For example a Length property or a [Placement](Placement.md) property. These custom properties can then be used in [Expressions](Expressions.md) just like any other property. For example, you could create a Length property called \"Width\" and refer to it when constraining a sketch element. Then when the \"Width\" property is changed, the sketch constraint will automatically update. This is similar to the way one can use a spreadsheet, but is more interactive in that the properties can be changed while still being able to see the [3D view](3D_view.md) and also allows for a wider variety of property types.
+## Informacje ogólne 
 
-Some features include:
+DynamicData to [zewnętrzne środowisko pracy](External_workbenches/pl.md), za pomocą którego można utworzyć obiekt kontenera do przechowywania niestandardowych właściwości.
 
--   ability to import named constraints from a sketch
--   ability to copy properties or set property values from one object to another
--   container objects remain compatible with FreeCAD installations that do not have the workbench installed
+Za pomocą tego środowiska pracy można utworzyć nową niestandardową [właściwość](Property/pl.md) dowolnego typu obsługiwanego przez FreeCAD. Na przykład właściwość Length lub [umiejscowienie](Placement/pl.md). Te niestandardowe właściwości mogą być następnie używane w [Wyrażeniach](Expressions/pl.md) tak jak każda inna właściwość. Na przykład można utworzyć właściwość Length o nazwie \"Szerokość\" i odwoływać się do niej podczas związania elementu szkicu. Następnie, gdy właściwość \"Szerokość\" zostanie zmieniona, wiązanie szkicu zostanie automatycznie zaktualizowane. Jest to podobne do sposobu, w jaki można korzystać z arkusza kalkulacyjnego, ale jest bardziej interaktywne, ponieważ właściwości mogą być zmieniane przy jednoczesnym zachowaniu [widoku 3D](3D_view/pl.md), a także pozwala na szerszą gamę typów właściwości.
 
-## Installation
+Niektóre funkcje obejmują:
 
-This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
+-   Możliwość importowania nazwanych więzów ze szkicu.
+-   Możliwość kopiowania właściwości lub ustawiania wartości właściwości z jednego obiektu do drugiego.
+-   Obiekty kontenerowe pozostają kompatybilne z instalacjami FreeCAD, które nie mają zainstalowanego środowiska roboczego.
 
-## Links
 
--   Source code hosted on GitHub: [github.com](https://github.com/mwganson/DynamicData)
--   Official complete [documentation](https://github.com/mwganson/DynamicData/blob/master/README.md)
 
-## External workbenches 
+## Instalacja
 
-FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
+To środowisko robocze można zainstalować z [Menedżera dodatków](Std_AddonMgr/pl.md). W celu ręcznej instalacji zobacz poradnik [Instalacja większej ilości środowisk pracy](Installing_more_workbenches/pl.md).
 
-The [external workbenches](external_workbenches.md) page has some information and tutorials on some of them, and the [FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons) project aims at gathering them and making them easily installable from within FreeCAD.
 
-New workbenches are in development, stay tuned!
+
+## Odnośniki internetowe 
+
+-   Kod źródłowy hostowany w GitHub: [github.com](https://github.com/mwganson/DynamicData)
+-   Oficjalna pełna dokumentacja [1](https://github.com/mwganson/DynamicData/blob/master/README.md)
+
+
+
+## Zewnętrzne środowiska pracy 
+
+Środowiska pracy FreeCAD są łatwe do zaprogramowania w środowisku [Python](Python/pl.md). Dlatego też, wiele osób opracowuje dodatkowe środowiska pracy wykraczające poza główny obszar rozwoju programu FreeCAD.
+
+Strona [Zewnętrzne środowiska pracy](External_workbenches/pl.md) zawiera informacje i poradniki na temat niektórych z nich, a projekt [Dodatki FreeCAD](https://github.com/FreeCAD/FreeCAD-addons) ma na celu zebranie ich i uczynienie łatwymi do zainstalowania z poziomu programu FreeCAD.
+
+Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
 
 
 

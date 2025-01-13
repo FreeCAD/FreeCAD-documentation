@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Trimex
    Name/pl: Rysunek Roboczy: Przytnij
-   MenuLocation: Modyfkacja , Przytnij
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Modyfikacja , Przytnij
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **T** **R**
    SeeAlso: Part_Extrude
 ---
@@ -30,7 +30,8 @@ Polecenie <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Przytn
 1.  Opcjonalnie wybierz jeden obiekt. Musi to być obiekt środowiska Rysunek Roboczy [Linia](Draft_Line/pl.md), [Linia łamana](Draft_Wire/pl.md), [Łuk](Draft_Arc/pl.md) lub [Okrąg](Draft_Circle/pl.md) *(tylko te mogą być tylko przycinane)*. Jeśli wybrany obiekt jest zamknięty, musi mieć ustawioną właściwość **Make Face** na wartość `False`.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Trimex.svg" width=16px> '''Przytnij / Wydłuż'''**.
-    -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Trimex.svg" width=16px> Przytnij / Wydłuż**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Trimex.svg" width=16px> Przytnij / Wydłuż**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Modyfikacja → <img src="images/Draft_Trimex.svg" width=16px> Przytnij / Wydłuż** z menu.
     -   Użyj skrótu klawiaturowego: **T**, a następnie **R**.
 3.  Jeśli nie wybrałeś jeszcze obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 4.  Otworzy się panel zadań **Przytnij / wydłuż**. Zobacz akapit [Opcje](#Opcje.md), aby uzyskać więcej informacji.

@@ -1,13 +1,15 @@
 # Scripted objects saving attributes/pl
-## Introduction
+## Wprowadzenie
 
-[Scripted objects](Scripted_objects.md) are rebuilt every time a [FCStd document](File_Format_FCStd.md) is opened. To do this the document keeps a reference to the module and Python class that were used to create the object, along with its properties.
+[Obiekty tworzone skryptami](Scripted_objects/pl.md) są odbudowywane przy każdym otwarciu dokumentu [FCStd](File_Format_FCStd/pl.md). W tym celu dokument przechowuje referencję do modułu i klasy Python, które zostały użyte do stworzenia obiektu, wraz z jego właściwościami.
 
-Attributes of the class used to create the object can also be saved, that is, \"serialized\". This can be further controlled by the `__getstate__` and `__setstate__` methods of the class.
+Atrybuty klasy użytej do utworzenia obiektu mogą być również zapisywane, czyli \"serializowane\". Może to być dalej kontrolowane przez metody klasy `dumps` i `loads`.
 
-## Saving all attributes 
 
-By default, attributes saved in an object class are those from the `__dict__` dictionary of the class.
+
+## Zapisywanie wszystkich atrybutów 
+
+Domyślnie, atrybuty zapisane w klasie obiektu są atrybutami ze słownika `__dict__` klasy.
 
 
 ```python
@@ -33,7 +35,7 @@ class VariousStates:
         pass
 ```
 
-An object can be created using this class, and it can be saved to **my_document.FCstd**. If no particular [viewprovider](viewprovider.md) is assigned to the new object, its proxy class is simply set to a value different from `None`, in this case, to `1`. 
+Obiekt może zostać utworzony przy użyciu tej klasy i zapisany do pliku **my_document.FCstd**. Jeśli żaden konkretny [dostawca widoku](Viewprovider/pl.md) nie jest przypisany do nowego obiektu, jego klasa proxy jest po prostu ustawiana na wartość inną niż `None`, w tym przypadku na `1`. 
 ```python
 import FreeCAD as App
 import various_states
@@ -51,7 +53,7 @@ doc.recompute()
 doc.save()
 ```
 
-When we re-open the file we can inspect the dictionary of the object\'s class. 
+Po ponownym otwarciu pliku możemy sprawdzić słownik klasy obiektu. 
 ```python
 >>> obj = App.ActiveDocument.Custom
 >>> print(obj.Proxy)
@@ -60,11 +62,13 @@ When we re-open the file we can inspect the dictionary of the object\'s class.
 {'Type': {'Version': 'Custom', 'Release': 'production'}, 'ver': '0.18', 'color': [0, 0, 1], 'width': 2.5}
 ```
 
-We see that all attributes that start with `self` in the class were saved. These can be of different types, including string, list, float, and dictionary. The original tuple for `self.color` was converted to a list, but otherwise all attributes were loaded the same.
+Widzimy, że wszystkie atrybuty zaczynające się od `self` w klasie zostały zapisane. Mogą one być różnych typów, w tym string, list, float i dictionary. Oryginalna krotka dla `self.color` została przekonwertowana na listę, ale poza tym wszystkie atrybuty zostały załadowane tak samo.
 
-## Saving specific attributes 
 
-We can define a class similar to the first one, that implements specific attributes to save. 
+
+## Zapisywanie określonych atrybutów 
+
+Możemy zdefiniować klasę podobną do pierwszej, która implementuje określone atrybuty do zapisania. 
 ```python
 # various_states.py
 class CustomStates:
@@ -86,21 +90,21 @@ class CustomStates:
     def execute(self, obj):
         pass
 
-    def __getstate__(self):
+    def dumps(self):
         return self.color, self.width
 
-    def __setstate__(self, state):
+    def loads(self, state):
         self.color = state[0]
         self.width = state[1]
 ```
 
-The return value of `__getstate__` is the object that will be serialized. This can be a single value, or a tuple of values. When the object is restored, the class calls the `__setstate__` method, passing the `state` variable with the serialized content. In this case `state` is a tuple that is unpacked into the respective variables to reconstruct the \"state\" that original existed. 
+Wartością zwrotną `dumps` jest obiekt, który zostanie zserializowany. Może to być pojedyncza wartość lub krotka wartości. Po przywróceniu obiektu klasa wywołuje metodę `loads`, przekazując zmienną `state` z serializowaną zawartością. W tym przypadku `state` jest krotką, która jest rozpakowywana do odpowiednich zmiennych, aby zrekonstruować \"stan\", który istniał pierwotnie. 
 ```python
 state = (self.color, self.width)
 state = ((0, 0, 1), 2.5)
 ```
 
-We can create an object with this class, and save the document, just like in the previous example. When we re-open the file we can inspect the dictionary of the object\'s class. 
+Możemy utworzyć obiekt z tą klasą i zapisać dokument, tak jak w poprzednim przykładzie. Po ponownym otwarciu pliku możemy sprawdzić słownik klasy obiektu. 
 ```python
 >>> obj2 = App.ActiveDocument.Custom2
 >>> print(obj2.Proxy)
@@ -109,17 +113,21 @@ We can create an object with this class, and save the document, just like in the
 {'color': [0, 0, 1], 'width': 2.5}
 ```
 
-The original tuple for `self.color` was converted to a list, but otherwise the information was recovered fine. Instead of restoring all attributes like in the previous case, only the attributes that we specified in `__getstate__` and `__setstate__` were restored.
+Oryginalna krotka dla `self.color` została przekonwertowana na listę, ale poza tym informacje zostały odzyskane prawidłowo. Zamiast przywracania wszystkich atrybutów, jak w poprzednim przypadku, przywrócone zostały tylko atrybuty określone w `dumps` i `loads`.
 
-## Usage
 
-### Identifying the type 
 
-Normally, [scripted objects](scripted_objects.md) should use [properties](property.md) to store information, as these are automatically restored when the document is opened.
+## Użycie
 
-However, sometimes the class restore internal information which is not intended to be modified, but which is helpful to inspect.
 
-For example, most objects of the [Draft Workbench](Draft_Workbench.md) set up a `Type` attribute that can be used to determine the type of object that is under use.
+
+### Identyfikacja typu 
+
+Zwykle [obiekty tworzone skryptami](Scripted_objects/pl.md) powinny używać [właściwości](Property/pl.md) do przechowywania informacji, ponieważ są one automatycznie przywracane po otwarciu dokumentu.
+
+Czasami jednak klasa przechowuje wewnętrzne informacje, które nie są przeznaczone do modyfikacji, ale które są pomocne w inspekcji.
+
+Na przykład, większość obiektów środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) ustawia atrybut `Type`, który może być użyty do określenia typu używanego obiektu.
 
 
 ```python
@@ -127,19 +135,21 @@ class DraftObject:
     def __init__(self, obj, _type):
         self.Type = _type
 
-    def __getstate__(self):
+    def dumps(self):
         return self.Type
 
-    def __setstate__(self, state):
+    def loads(self, state):
         if state:
             self.Type = state
 ```
 
-All objects have a `TypeId` property, but for [scripted objects](scripted_objects.md) this property is not useful, as it always refers to the parent C++ class, for example, [`Part::Part2DObjectPython`](Part_Part2DObject.md) or [`Part::FeaturePython`](Part_Feature.md). Therefore, having this additional `Proxy.Type` attribute in the class is useful to treat each object in a particular way.
+Wszystkie obiekty mają właściwość `TypeId`, ale dla [obiektów tworzonych skryptami](scripted_objects.md) ta właściwość nie jest użyteczna, ponieważ zawsze odnosi się do nadrzędnej klasy C++, na przykład [`Part::Part2DObjectPython`](Part_Part2DObject/pl.md) lub [`Part::FeaturePython`](Part_Feature/pl.md). Dlatego posiadanie tego dodatkowego atrybutu `Proxy.Type` w klasie jest przydatne do traktowania każdego obiektu w określony sposób.
 
-### Migrating the object 
 
-Version information can be stored inside the class in order to verify the origin of an object.
+
+### Migracja obiektu 
+
+Informacje o wersji mogą być przechowywane wewnątrz klasy w celu weryfikacji pochodzenia obiektu.
 
 
 ```python
@@ -148,16 +158,16 @@ class CustomObject:
         self.Type = _type
         self.version = "0.18"
 
-    def __getstate__(self):
+    def dumps(self):
         return self.Type, self.version
 
-    def __setstate__(self, state):
+    def loads(self, state):
         if state:
             self.Type = state[0]
             self.version = state[1]
 ```
 
-If the structure of the class changes, that is, if its properties or methods change, are renamed, or are removed, we could test the version attribute in order to migrate the older object to a new set of properties or to a new class. This can be done by implementing the `onDocumentRestored` method, as explained in [Scripted objects migration](Scripted_objects_migration.md).
+Jeśli struktura klasy ulegnie zmianie, tzn. zmienią się jej właściwości lub metody, zostanie zmieniona ich nazwa lub zostaną usunięte, możemy przetestować atrybut version w celu migracji starszego obiektu do nowego zestawu właściwości lub do nowej klasy. Można to zrobić implementując metodę `onDocumentRestored`, jak wyjaśniono na stronie [Obiekty tworzone skryptami, migracja](Scripted_objects_migration/pl.md).
 
 
 ```python
@@ -171,14 +181,16 @@ class CustomObject:
         ...
 ```
 
-## Links
 
--   [Scripted objects](Scripted_objects.md)
--   [Scripted objects migration](Scripted_objects_migration.md)
--   [FreeCAD Forum Discussion: Scripted Object Serialization: json or pickle?](https://forum.freecadweb.org/viewtopic.php?f=10&t=49120)
 
--   [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009), explanation of `__getstate__` and `__setstate__` in the forum.
--   [The Pickle module](https://docs.python.org/3/library/pickle.html#object.__getstate__) in the Python documentation.
+## Odnośniki internetowe 
+
+-   [Obiekty tworzone skryptami](Scripted_objects.md)
+-   [Migracja obiektów tworzonych skryptami](Scripted_objects_migration.md)
+-   [Dyskusja na forum FreeCAD: Serializacja obiektów tworzonych skryptami: json czy pickle?](https://forum.freecadweb.org/viewtopic.php?f=10&t=49120)
+
+-   [obj.Proxy.Type jest typu dict, a nie string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009), wyjaśnienie `dumps` i `loads` na forum.
+-   [Moduł Pickle](https://docs.python.org/3/library/pickle.html#object.__getstate__) w dokumentacji Python.
 
 
 

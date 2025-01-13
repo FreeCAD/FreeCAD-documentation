@@ -31,7 +31,7 @@ The Part Sweep command is similar to <img alt="" src=images/Part_Loft.svg  style
 
 ### Accepted geometry 
 
--   **Profiles:** can be a point (vertex), line (edge), wire or face. Edges and wires may be either open or closed. There are various [Limitations](#Limitations.md), see below.
+-   **Profiles:** can be a point (vertex), line (edge), wire or face. Edges and wires may be either open or closed. There are various [Limitations](#Limitations.md), see below. Sometimes, it\'s not sufficient to properly align the profile with the path. To make the tool work correctly, it might also be necessary to [attach](Part_EditAttachment.md) the profile to the path. If the profile\'s sketch is attached to the wrong end of the path\'s edge, change **Map Path Parameter** from 0 to 1.
 
 -   **Path**: can be a line (edge) or a series of connected lines, a wire or various Part Workbench objects, Draft Workbench objects or a Sketch. The path may be either open or closed.
 

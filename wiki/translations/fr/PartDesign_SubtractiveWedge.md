@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign SubtractiveWedge
    Name/fr: PartDesign Pyramide tronquée soustractive
-   MenuLocation: Part Design , Créer une primitive soustractive , Pyramide tronquée soustractive
+   MenuLocation: PartDesign , Créer une primitive soustractive , Pyramide tronquée soustractive
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/fr, PartDesign_AdditiveWedge/fr
@@ -16,9 +16,11 @@ Insère une Pyramide tronquée soustractive dans le Corps actif. Sa forme est so
 
 ![](images/PartDesign_SubtractiveWedge_example.svg ) *À gauche, le Corps actif (A) en gris et le cône soustractif (B) en rouge transparent ; le résultat final est à droite.*
 
+
+
 ## Utilisation
 
-1.  Pressez le bouton **<img src="images/PartDesign_SubtractiveWedge.svg" width=24px> '''Pyramide tronquée soustractive'''**. **Remarque**: la pyramide tronquée soustractive fait partie du menu d\'icônes appelé *Créer une primitive soustractive*. Après le lancement de FreeCAD, le Cube soustractif est affiché par défaut dans la barre d\'outils. Pour obtenir la pyramide tronquée soustractive, cliquez sur la flèche vers le bas et choisissez pyramide tronquée soustractive dans le menu.
+1.  Pressez le bouton **<img src="images/PartDesign_SubtractiveWedge.svg" width=24px> '''Pyramide tronquée soustractive'''**. **Remarque** : la pyramide tronquée soustractive fait partie du menu d\'icônes appelé *Créer une primitive soustractive*. Après le lancement de FreeCAD, le Cube soustractif est affiché par défaut dans la barre d\'outils. Pour obtenir la pyramide tronquée soustractive, cliquez sur la flèche vers le bas et choisissez pyramide tronquée soustractive dans le menu.
 2.  Définissez les paramètres de la Primitive et de l\'[ancrage](Part_EditAttachment/fr.md).
 3.  Cliquez sur **OK**.
 4.  Une Pyramide tronquée apparaît dans le Corps actif.
@@ -28,7 +30,9 @@ Insère une Pyramide tronquée soustractive dans le Corps actif. Sa forme est so
 La pyramide tronquée peut être éditée après sa création de deux façons :
 
 -   Double-cliquez la dans l\'arborescence ou faire un clic droit dessus et sélectionnez **Éditer la primitive** dans le menu contextuel. Cela fait apparaître les paramètres des Primitives.
--   Via l\'[Éditeur de propriétés](Property_editor/fr.md).
+-   Via l\'[éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ## Propriétés
 
@@ -43,6 +47,8 @@ En utilisant le placement par défaut, les entrées ci-dessous sont :
 -    **X2 min/max**: Dimension de la face du dessus selon l\'axe X
 
 -    **Z2 min/max**: Dimension de la face du dessus selon l\'axe Z
+
+
 
 ## Pyramides
 

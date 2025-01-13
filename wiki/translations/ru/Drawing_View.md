@@ -40,10 +40,6 @@ Unfold the Page object in the Project tree, and select the View. Its parameters 
 -   **Show Hidden Lines**: toggles the hidden lines visibility on or off by selecting *True* or *False*.
 -   **Show Smooth Lines**: toggles the smooth lines visibility on or off by selecting *True* or *False*. Smooth lines are also called tangency edges. These edges indicate surface changes between tangent surfaces.
 
-### Drawing View Wizard 
-
-To generate a drawing sheet with standard views automatically, use the [Automatic drawing Macro](Macro_Automatic_drawing.md). 
-
 ### Other
 
 If you are looking for persective-orthographic toggling in 3D view check [Std PerspectiveCamera](Std_PerspectiveCamera.md) and [Std OrthographicCamera](Std_OrthographicCamera.md)

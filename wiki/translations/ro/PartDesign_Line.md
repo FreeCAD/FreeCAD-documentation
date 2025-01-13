@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 Creează o linie de referință **datum line** care poate fi folosită ca referință pentru schițe, alte forme geometrice sau funcții(onalități). De exemplu, poate fi folosit ca axă de Rotație sau creare Caneluri.
@@ -26,6 +28,8 @@ Creează o linie de referință **datum line** care poate fi folosită ca referi
 
 
 </div>
+
+
 
 ## Cum se folosește 
 
@@ -43,6 +47,8 @@ Creează o linie de referință **datum line** care poate fi folosită ca referi
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -52,6 +58,12 @@ Faceți dublu clic pe eticheta DatumLine din arborescența Model sau faceți cli
 
 
 </div>
+
+## Preferences
+
+See [PartDesign Plane](PartDesign_Plane#Preferences.md).
+
+
 
 ## Proprietăți
 

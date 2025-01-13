@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -40,6 +42,8 @@ Când se colectează o astfel de informație, se întâmplă mai multe lucruri:
 *Imaginea de mai sus arată ce se întâmplă atunci când rulați modul survey.*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Cum se folosește 
@@ -59,12 +63,16 @@ Când se colectează o astfel de informație, se întâmplă mai multe lucruri:
 
 </div>
 
+
+
 ## Opţiuni
 
 -   Puteți adăuga o etichetă personalizată la orice linie din caseta de dialog Activare făcând clic pe acea linie, apoi adăugând un text în câmpul de descriere, apoi apăsați pe butonul**set description**.
 -   Once you are done, before closing, you can export the contents of the Task dialog by pressing the \"export CSV\" button. The resulting CSV file can then be opened in any spreadsheet application such as Excel or LibreOffice Calc. The values and units will be separated in the resulting CSV file, and the totals are written as SUM() functions.
 
 <img alt="" src=images/Arch_Survey_spreadsheet.jpg  style="width:640px;">
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
@@ -77,7 +85,7 @@ Când se colectează o astfel de informație, se întâmplă mai multe lucruri:
 
 <div class="mw-translate-fuzzy">
 
-Modul Survey nu poate fi folosit direct de la scripturile Python, dar culegerea acelorași informații din oricare dintre obiectele Part selectate [Part](Part_Workbench.md)și este ușor reproductibil cu următorul script:
+Modul Survey nu poate fi folosit direct de la scripturile Python, dar culegerea acelorași informații din oricare dintre obiectele Part selectate [Partși](Part_Workbench.md) este ușor reproductibil cu următorul script:
 
 
 </div>
@@ -98,5 +106,13 @@ for obj in selection:
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/ro
+⏵ [documentation index](../README.md) > Arch Survey/ro

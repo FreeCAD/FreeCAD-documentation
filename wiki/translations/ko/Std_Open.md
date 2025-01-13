@@ -10,11 +10,18 @@
 
 # Std Open/ko
 
+
+
 ## 설명
 
-**표준 열기(Std Open)** 명령은 파일을 엽니다. 만약 열려는 파일이 FreeCAD 고유 파일(\*.FCStd)이 아니라면 파일의 지오메트리를 새 문서로 가져옵니다. 자세한 내용은 [표준 가져오기](Std_Import/ko.md)를 참조하십시오.
+**표준 열기(Std Open)** 명령은 파일을 엽니다. 만약 열려는 파일이 FreeCAD 고유 파일(\*.FCStd)이 아니라면 파일의 지오메트리를 새 문서로 가져옵니다. 자세한 내용은 [표준 가져오기를](Std_Import/ko.md) 참조하십시오.
+
+
 
 ## 용법
+
+
+<div class="mw-translate-fuzzy">
 
 1.  이 명령을 실행하는 방법은 여러 가지입니다.
     -   
@@ -34,15 +41,21 @@
 4.  
     **열기**버튼을 누릅니다.
 
+
+</div>
+
+
+
 ## 선택 사항 
 
 -   명령을 중지하려면 **Esc** 키나 **취소** 버튼을 누릅니다.
 
-## 환경 설정 
 
--   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## 스크립트
+
+
+<div class="mw-translate-fuzzy">
 
 
 **참조:**
@@ -50,9 +63,12 @@
 [FreeCAD 스크립트 기초](FreeCAD_Scripting_Basics/ko.md).
 
 
+</div>
+
+
 <div class="mw-translate-fuzzy">
 
-문서를 열려면 FreeCAD 애플리케이션의 `open` 메소드를 사용하십시오. 스크립트 예제는 [표준 새 파일](Std_New/ko.md)을 참조하십시오.
+문서를 열려면 FreeCAD 애플리케이션의 `open` 메소드를 사용하십시오. 스크립트 예제는 [표준 새 파일을](Std_New/ko.md) 참조하십시오.
 
 
 </div>
@@ -62,10 +78,16 @@ These methods create and return a document and load a project file into it. The 
 For a scripting example see [Std New](Std_New#Scripting.md).
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Std Base navi
+
+
+</div>
+
+
+{{Std_Base_navi
 
 }}
 

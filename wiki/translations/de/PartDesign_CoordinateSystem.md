@@ -10,9 +10,13 @@
 
 # PartDesign CoordinateSystem/de
 
+
+
 ## Beschreibung
 
 Erzeugt ein **lokales Koordinatensystem**, welches als Referenz für andere Bezugsgeometrie verwendet werden kann. Es hilft auch, die Orientierung der referenzierten Bezugsgeometrie im 3D Raum zu ermitteln. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) {{Caption | Lokales Koordinatensystem, das aus dem Ursprung einer Bezugsebene entspring.}}
+
+
 
 ## Anwendung
 
@@ -31,11 +35,21 @@ Erzeugt ein **lokales Koordinatensystem**, welches als Referenz für andere Bezu
 7.  
     **OK**drücken.
 
+
+
 ## Optionen
 
 Mit einem Doppelklick auf (Lokales KS) **Local_CS** in der Baumstruktur oder durch einen Rechtsklick und Auswählen von **Bezug ändern** im Kontextmenü können die Werte geändert werden. Mehr Details zum Befestigungsmodus und dem Befestigungsversatz gibt es in [Part AnhangBearbeiten](Part_EditAttachment/de.md).
 
+## Preferences
+
+See [PartDesign Plane](PartDesign_Plane#Preferences.md).
+
+
+
 ## Eigenschaften
+
+
 
 ### Daten
 
@@ -48,6 +62,8 @@ Mit einem Doppelklick auf (Lokales KS) **Local_CS** in der Baumstruktur oder dur
 -    **Placement**: Gibt die Koordinaten und Ausrichtung des Ursprungs des Koordinatensystems an .
 
 -    **Label**: Name des Objekts. Dieser Name kann beliebig geändert werden.
+
+
 
 ## Skripten
 

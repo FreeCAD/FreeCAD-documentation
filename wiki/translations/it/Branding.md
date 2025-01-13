@@ -3,13 +3,17 @@
 
 Questo articolo descrive la **Marchiatura** di FreeCAD. Marchiare (Branding) significa creare una propria applicazione basata su FreeCAD. La personalizzazione può riguardare solo il proprio eseguibile oppure andare dalla [schermata iniziale](Splash_screen/it.md) fino alla rielaborazione completa del programma. Sulla base dell\'architettura flessibile di FreeCAD è facile utilizzarlo come base per il proprio programma per scopi speciali.
 
+
+
 ## Avvertimento
 
 Sebbene FreeCAD sia offerto gratuitamente e la comunità di FreeCAD sia felice di vedere emergere altre applicazioni basate su FreeCAD, abbiamo d\'altronde visto un uso ingiusto delle informazioni contenute in questa pagina da parte di persone che semplicemente hanno rimarchiato FreeCAD in un\'applicazione closed-source per trarne profitto.
 
-Sebbene la [Licenza LGPL](Licence/it.md) consenta di utilizzare il codice sorgente di FreeCAD in applicazioni closed-source, fornisce anche regole rigide per farlo e non consente semplicemente di prendere FreeCAD, rinominarlo e togliergli la licenza.
+Sebbene la [Licenza LGPL](License/it.md) consenta di utilizzare il codice sorgente di FreeCAD in applicazioni closed-source, fornisce anche regole rigide per farlo e non consente semplicemente di prendere FreeCAD, rinominarlo e togliergli la licenza.
 
 Se sei interessato a utilizzare FreeCAD in un\'applicazione closed-source, assicurati di controllare accuratamente le implicazioni della licenza LGPL e, ancora meglio, contatta qualsiasi sviluppatore, amministratore o moderatore di FreeCAD prima di farlo.
+
+
 
 ## Generale
 
@@ -51,6 +55,8 @@ La prima voce Config definisce il nome del programma. Questo nome non è il nome
 
 Le righe successive definiscono le voci di configurazione della vostra applicazione FooApp. Una descrizione di Config e delle sue voci si trova in [Avvio e Configurazione](Start_up_and_Configuration/it.md).
 
+
+
 ## Immagini
 
 In FreeCAD tutte le risorse immagine vengono compilate utilizzando [Qt\'s resource system](http://qt-project.org/doc/qt-4.8/resources.html). Pertanto è necessario scrivere un file **.qrc**, un file basato sul formato XML, che elenca i file di immagine sul disco, ma anche qualsiasi altro tipo di file di risorse. Per caricare all\'interno dell\'applicazione le risorse compilate è necessario aggiungere una riga
@@ -66,6 +72,8 @@ nella funzione main(). In alternativa, se si dispone di un\'immagine in formato 
 ```python
 Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
+
+
 
 ## Marchiatura XML 
 

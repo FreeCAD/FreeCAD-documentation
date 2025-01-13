@@ -1,9 +1,9 @@
 ---
  GuiCommand:
-   Name: Spreadsheet_SplitCell
-   Name/it: Dividi la cella
+   Name: Spreadsheet SplitCell
+   Name/it: Spreadsheet Dividi cella
+   MenuLocation: Spreadsheet , Dividi cella
    Workbenches: Spreadsheet_Workbench/it
-   MenuLocation: Spreadsheet , Dividi la cella
    Version: 0.17
 ---
 
@@ -13,15 +13,17 @@
 
 ## Descrizione
 
-Lo strumento <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:16px;"> **Dividi la cella** divide una cella che è stata precedentemente unita in una in un foglio di calcolo esistente nel documento attivo.
+Lo strumento <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> **Spreadsheet Dividi cella** divide una cella precedentemente unita.
 
 
 
 ## Utilizzo
 
-1.  Accertarsi che sia attivo un <img alt="" src=images/_Spreadsheet_CreateSheet.svg  style="width:16px;"> [Foglio di calcolo](Spreadsheet_CreateSheet/it.md) in modo che il pulsante sia abilitato.
-2.  Selezionare una cella che è tata in precedenza **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Unita](Spreadsheet_MergeCells/it.md)**.
-3.  Premere il pulsante **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> Dividi la cella**.
+1.  Assicurarsi che ci sia un [foglio di calcolo](Spreadsheet_CreateSheet/it.md) attivo.
+2.  Selezionare una cella [unita](Spreadsheet_MergeCells/it.md).
+3.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Dividi cella](Spreadsheet_SplitCell/it.md)**.
+    -   Selezionare l\'opzione **Foglio di calcolo → [<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> Dividi cella** dal menu.
 
 
 

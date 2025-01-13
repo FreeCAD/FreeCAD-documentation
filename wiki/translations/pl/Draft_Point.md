@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Point
    Name/pl: Rysunek Roboczy: Punkt
-   MenuLocation: Kreślenie , Punkt
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Kreślenie , Punkt<br>Kreślenie 2D , Punkt
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Version: 0.7
 ---
 
@@ -13,7 +13,7 @@
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Puntk** środowiska Rysunek Roboczy tworzy zwykły punkt. Punkty mogą być przydatne jako odniesienie do umieszczania linii, polilinii lub innych obiektów.
+Polecenie <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Punkt** środowiska Rysunek Roboczy tworzy zwykły punkt. Punkty mogą być przydatne jako odniesienie do umieszczania linii, polilinii lub innych obiektów.
 
 <img alt="" src=images/Draft_point_example.jpg  style="width:400px;">
 
@@ -25,7 +25,8 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 1.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_Point.svg" width=16px> '''Punkt'''**.
-    -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Point.svg" width=16px> Punkt**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Point.svg" width=16px> Punkt**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Kreślenie 2D → <img src="images/Draft_Point.svg" width=16px> Punkt** z menu.
 2.  Otworzy się panel zadań **Punkt**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
 3.  Wybierz punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
 
@@ -33,10 +34,10 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 1.0)*.
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź element X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie kursora poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
--   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby włączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). <small>(v0.20)</small> 
+-   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby włączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij **N** lub kliknij pole wyboru **Kontynuuj**, aby włączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, umożliwiając dalsze tworzenie punktów.
 -   Wciśnij **S** by włączyć lub wyłączyć [Przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij **Esc** lub przycisk **Zamknij**, aby przerwać wykonywanie polecenia.
@@ -45,7 +46,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 ## Uwagi
 
--   Użyj narzędzi <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Przyciągnij do najbliższego](Draft_Snap_Near/pl.md) *({{VersionMinus/pl|0.20}})* lub <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Przyciągnij do punktu końcowego](Draft_Snap_Endpoint/pl.md) *({{VersionPlus/pl|0.21}})*, aby przyciągać do punktów szkicu.
+-   Użyj narzędzia <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Przyciągnij do punktu końcowego](Draft_Snap_Endpoint/pl.md), aby przyciągać do punktów szkicu.
 
 
 

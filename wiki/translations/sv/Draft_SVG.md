@@ -7,6 +7,8 @@ Draft SVG is a software module used by the <img alt="" src=images/Std_Open.svg  
 *Inkscape drawing exported to SVG, which is subsequently opened in FreeCAD*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Öppna
@@ -34,6 +36,8 @@ The following SVG objects can be imported:
 FreeCAD will not import path objects that have only one point ([forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Exportera
@@ -58,6 +62,8 @@ The following FreeCAD objects can be exported:
 -   Dimensions
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 Tänk på att SVG är ett 2D format, så all Z information kommer att ignoreras (alla objekt kommer att plattas ut).
@@ -74,6 +80,8 @@ When exporting, a User Unit (px) equals one millimeter.
 When importing, the width, height and viewBox attributes are respected. All elements are scaled to their size in millimeters, which is FreeCAD\'s internal unit. If the SVG does not contain information on its physical size, it is assumed to have a 90 DPI resolution. Using absolute units in attributes inside the SVG should be avoided. Relative units like em, ex and % are currently not supported.
 
 The [Inkscape](https://inkscape.org/) SVG Editor currently works only with 90 DPI documents. No matter which unit is selected in Inkscape. All the output has to be considered converted to 90 DPI and rounded to 6 decimal places. As FreeCAD (and the SVG standard) is agnostic to the precision of rounding done in Inkscape these values will not be rounded on input. And odd values in millimeter will remain. If you need the SVG import not to be rounded, work on User Units (px) in Inkscape. Scaling can be done after the import in FreeCAD or by changing the width, height and viewbox attributes.
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -41,7 +41,7 @@ The **Std LinkSelectAllLinks** command selects all [App Link](App_Link.md) objec
 </div>
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

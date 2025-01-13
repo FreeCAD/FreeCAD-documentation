@@ -2,18 +2,18 @@
  GuiCommand:
    Name: Arch Space
    Name/fr: Arch Espace
-   MenuLocation: Arch , Espace
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: 3D/BIM , Espace
+   Workbenches: BIM_Workbench/fr
    Shortcut: **S** **P**
    Version: 0.14
-   SeeAlso: Arch_Wall/fr, Arch_Structure/fr
+   SeeAlso: 
 ---
 
 # Arch Space/fr
 
 ## Description
 
-L\'outil Espace vous permet de définir un volume vide, soit en le basant sur une forme solide, soit en définissant ses limites, soit en combinant les deux. S\'il est basé uniquement sur des limites, le volume est calculé en partant du cadre de sélection de toutes les limites données et en soustrayant les espaces situés derrière chaque limite. L\'objet Espace définit toujours un volume solide. La surface de plancher d\'un objet d\'espace, calculée en coupant un plan horizontal au centre de gravité du volume d\'espace, peut également être affichée.
+L\'outil **Arch Espace** vous permet de définir un volume vide, soit en le basant sur une forme solide, soit en définissant ses limites, soit en combinant les deux. S\'il est basé uniquement sur des limites, le volume est calculé en partant du cadre de sélection de toutes les limites données et en soustrayant les espaces situés derrière chaque limite. L\'objet Espace définit toujours un volume solide. La surface de plancher d\'un objet d\'espace, calculée en coupant un plan horizontal au centre de gravité du volume d\'espace, peut également être affichée.
 
 <img alt="" src=images/Arch_Space_example.jpg  style="width:640px;">
 
@@ -26,10 +26,10 @@ L\'outil Espace vous permet de définir un volume vide, soit en le basant sur un
 ## Utilisation
 
 1.  Sélectionnez un objet solide existant ou des faces sur des objets de contour.
-2.  Lancez la commande Arch Espace en utilisant plusieurs méthodes:
-    -   En appuyant sur le bouton **<img src="images/Arch_Space.svg" width=16px> [Espace](Arch_Space/fr.md)** dans la barre d\'outils.
+2.  Lancez la commande en utilisant plusieurs méthodes :
+    -   En appuyant sur le bouton **<img src="images/Arch_Space.svg" width=16px> [Espace](Arch_Space/fr.md)** de la barre d\'outils.
     -   En utilisant les touches **S** puis **P**
-    -   En utilisant l\'entrée **Arch → Espace** du menu supérieur
+    -   En utilisant l\'entrée **3D/BIM → Espace** du menu supérieur
 
 
 
@@ -95,7 +95,7 @@ L\'outil Espace vous permet de définir un volume vide, soit en le basant sur un
 ## Options
 
 -   Pour créer des zones regroupant plusieurs espaces, utilisez [Arch Partie de bâtiment](Arch_BuildingPart/fr.md) et définir son type IFC sur \"Spatial Zone\".
--   L\'objet Espace a les mêmes modes d\'affichage que les autres objets d\'Arch et Part, avec un mode en plus appelé **Footprint** qui n\'affiche que la face inférieure de l\'espace.
+-   L\'objet Space a les mêmes modes d\'affichage que les autres objets d\'Arch et Part, avec un mode en plus appelé **Footprint** qui n\'affiche que la face inférieure de l\'espace.
 
 
 
@@ -134,7 +134,7 @@ Space.ViewObject.LineWidth = 2
 FreeCAD.ActiveDocument.recompute()
 ```
 
-Après avoir créé un objet Espace, les faces sélectionnées peuvent être ajoutées avec le code suivant :
+Après avoir créé un objet Space, les faces sélectionnées peuvent être ajoutées avec le code suivant :
 
 
 ```python
@@ -160,5 +160,13 @@ Arch.removeSpaceBoundaries(Space, selection)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Space/fr
+⏵ [documentation index](../README.md) > Arch Space/fr

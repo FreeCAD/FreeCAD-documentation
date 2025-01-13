@@ -5,136 +5,138 @@ Questa pagina documenta la comprensione del modulo Drawing di jcc242. Il modulo 
 
 ### gdtsvg.py
 
-Python script that generates svg snippets for things such as gd&t symbols, dimension symbols, and basic svg elements such as lines, circles, and paths.
+Script Python che genera snippet SVG per elementi come simboli gd&t, simboli di quotatura ed elementi SVG di base come linee, cerchi e percorsi.
 
-It has several support files that don\'t really do much. Run DrawingTest.py to create a bunch of svg icons in the icon directory that previews various icons in the gdtsvg.py file. settingslist.py and dimesettings, and convert.py are all deprecated from older settings methods and should probably be removed as the Drawing branch approaches merging into master.
+Ha diversi file di supporto che non fanno molto. Eseguire DrawingTest.py per creare un gruppo di icone SVG nella directory delle icone che visualizza in anteprima varie icone nel file gdtsvg.py. settingslist.py, dimesettings e convert.py sono tutti deprecati dai metodi di impostazione precedenti e dovrebbero probabilmente essere rimossi man mano che il ramo Drawing si avvicina alla fusione in master.
 
 ### DrawingAlgos.py
 
-Creates svg lines from a list of vertices, supports both hidden and visible edges. Should probably be merged with gdtsvg.py as that file matures.
+Crea linee SVG da un elenco di vertici, supporta sia i bordi nascosti che quelli visibili. Probabilmente dovrebbe essere unito a gdtsvg.py man mano che il file matura.
 
 #### createSVG
 
-Accepts part as an argument, projects the part into lines from the Drawing.project object and then draws creates the svg for each line.
+Accetta part come argomento, proietta la parte in linee dall\'oggetto Drawing.project e poi disegna crea l\'svg per ogni linea.
 
 ## App
 
-Contains the backend side of the drawing module.
+Contiene il lato backend del modulo di disegno.
 
 ### AppDrawing.cpp
 
-Initializes the various namespaces and modules and stuff used in the drawing module. Will throw an error if it cannot load the Part module.
+Inizializza i vari namespaces, moduli e materiale utilizzato nel modulo di disegno. Genera un errore se non riesce a caricare il modulo Part.
 
 ### DrawingExport.cpp
 
-Two classes: SVGOutput and DXFOutput. They both contain methods to put out the code in their respective language. Typically require an object of the appropriate typedef, and sometimes some additional identifier information.
+Due classi: SVGOutput e DXFOutput. Entrambi contengono metodi per pubblicare il codice nella rispettiva lingua. In genere richiedono un oggetto con il typedef appropriato e talvolta alcune informazioni identificative aggiuntive.
 
 ### FeatureClip.cpp
 
-Callback (?) methods for the feature clipping gui, so it would seem. Called alone it will create the clip path, if ShowFrame.getValue is TRUE set it will show the frame border as well.
+Metodi di callback (?) per il clipping delle feature della la GUI, così sembrerebbe. Chiamato da solo creerà il percorso della clip, se ShowFrame.getValue è impostato su TRUE mostrerà anche il bordo della cornice.
 
 ### FeaturePage.cpp
 
-Manages the views.
+Gestisce le visualizzazioni.
 
-onChanged() for doing stuff when properties get changed.
+onChanged() per fare delle cose quando le proprietà vengono modificate.
 
-execute() for recalculating a feature view, or so it claims. It seems to have stuff for checking for editable texts and saving drawings. Need to investigate further.
+execute() per ricalcolare una feature view, o almeno così afferma. Sembra che contenga elementi per verificare la presenza di testi modificabili e salvare disegni. È necessario indagare ulteriormente.
 
-getEditableTextsFromTemplate() for retrieving text that can be edited by FreeCAD from an SVG file.
+getEditableTextsFromTemplate() per recuperare testo che può essere modificato da FreeCAD da un file SVG.
 
 ### FeatureProjection.cpp
 
-Flattens object to a 2D image?
+Appiattisce l\'oggetto su un\'immagine 2D?
 
 ### FeatureView.cpp
 
-Defines the properties for views.
+Definisce le proprietà per le visualizzazioni.
 
 ### FeatureViewAnnotation.cpp
 
-Defines properties for annotations (right now just text), has an execute method to update the text if changed/moved.
+Definisce le proprietà per le annotazioni (per ora solo testo), ha un metodo di esecuzione per aggiornare il testo se modificato/spostato.
 
 ### FeatureViewPart.cpp
 
-Constructor to add properties. Gets appearance stuff for projected parts.
+Costruttore per aggiungere proprietà. Ottiene elementi di aspetto per le parti proiettate.
 
 ### PageGroup.cpp
 
-Just adds a property for a list of pages, does not much else.
+Aggiunge solo una proprietà per un elenco di pagine, non fa molto altro.
 
 ### Precompiled.cppp
 
-Just #include \"PreCompiled.h\"
+Solamente #include \"PreCompiled.h\"
 
 ### ProjectionAlgos.cpp
 
-The constructor just runs the execute() method to update it\'s stuff
+Il costruttore esegue semplicemente il metodoexecute() per aggiornare le sue cose
 
-invertY: since SVG does its y-axis backwards to every other coordinate system in the world, we must invert it when converting from a FreeCAD part to an SVG projection for the Drawing view.
+invertY: poiché SVG utilizza il suo asse y al contrario rispetto a ogni altro sistema di coordinate nel mondo, è necessario invertirlo quando si converte da una parte di FreeCAD a una proiezione SVG per la vista del disegno.
 
-getSVG: fetches the SVG code from the DrawingExport stuff. Formats depending on type of line (hidden or not and some other stuff I need to figure out).
+getSVG: recupera il codice SVG da DrawingExport. Formati a seconda del tipo di linea (nascosta o meno e alcune altre cose che devo capire).
 
-getDXF: same as getSVG except for DXF format.
+getDXF: uguale a getSVG tranne che per il formato DXF.
 
 ## Gui
 
 ### AppDrawingGui.cpp
 
-Initializes the drawing gui.
+Inizializza la GUI di disegno.
 
 ### AppDrawingGuiPy.cpp
 
-Provides opening, importing, and exporting interfaces? Looks like it is python accessible.
+Fornisce interfacce di apertura, importazione ed esportazione? Sembra che sia accessibile da Python.
 
 ### Command.cpp
 
-Handles commands (from the toolbar?) such as creating new drawings and stuff. It looks like this handles QT calls from clicking the button to whatever command it needs to go to e.g. clicking the CmdDrawingOrthoViews button will show the Ortho views gui in the task dialog spot.
+Gestisce i comandi (dalla barra degli strumenti?) come la creazione di nuovi disegni e altro. Sembra che questo gestisca le chiamate QT dal clic sul pulsante a qualsiasi comando a cui deve andare, ad es. facendo clic sul pulsante CmdDrawingOrthoViews verrà visualizzata la GUI delle viste ortografiche nella finestra di dialogo delle attività.
 
 ### DrawingView.cpp
 
-Does a bunch of qt gui stuff, need to read more on it.
+Fa un sacco di cose sulla GUI QT, ho bisogno di leggere di più al riguardo.
 
 ### TaskDialog.cpp
 
-Creates the task dialog thing on the side and probably switches to it from the tree view, as appropriate.
+Crea la finestra di dialogo delle attività sul lato e probabilmente passa ad essa dalla visualizzazione ad albero, a seconda dei casi.
 
 ### TaskOrthoViews.cpp
 
-Creates the task dialog for placing the orthographic views!
+Crea la finestra di dialogo delle attività per posizionare le viste ortografiche!!
 
-Does a lot of the calculations for where to position stuff (automatic calculations as well, it seems).
+Fa molti calcoli su dove posizionare le cose (anche calcoli automatici, a quanto pare).
 
-Takes the input from the TaskOrthoViews gui and does stuff with it. Uses the single inheritance method talked about [on the qt website](http://doc.qt.digia.com/qt/designer-using-a-ui-file.html).
+Prende l\'input dalla GUI TaskOrthoViews e fa alcune cose con esso. Utilizza il metodo di ereditarietà singola di cui si parla [sul sito Web qt](http://doc.qt.digia.com/qt/designer-using-a-ui-file.html).
 
 ### ViewProviderPage.cpp
 
-Constructor adds some properties for the view stuff. Destructor does nothing. Attaches something (attaches what? attaches the view to the page?) sets and gets display modes (what are display modes? what do they do and what are possible options?) Does something about updating some kind of data has a context menu that says \"Show drawing\", figure out what this means Has a thing for double clicking to select the view (I think?)
+Il costruttore aggiunge alcune proprietà per gli elementi di visualizzazione. Il distruttore non fa nulla. Associa qualcosa (associa cosa? associa la vista alla pagina?) imposta e ottiene le modalità di visualizzazione (cosa sono le modalità di visualizzazione? cosa fanno e quali sono le opzioni possibili?) Fa qualcosa sull\'aggiornamento di alcuni tipi di dati ha un menu contestuale che dice \"Mostra disegno\", scoprire cosa significa Ha una funzione per fare doppio clic per selezionare la vista (credo?)
 
-showDrawingView seems to do some work on settings things up: gets the current document, sets the window icon and title, adds it to the main window (of FreeCAD?)
+showDrawingView sembra fare un po\' di lavoro sulle impostazioni: ottiene il documento corrente, imposta l\'icona e il titolo della finestra, lo aggiunge alla finestra principale (di FreeCAD?)
 
 ### ViewProviderView.cpp
 
-Doesn\'t seem to do much, though I am sure it is important.
+Non sembra fare molto, anche se sono sicuro che sia importante.
 
 ### Workbench.cpp
 
-Adds the icons to the toolbars and stuff.
+Aggiunge le icone alle barre degli strumenti e cose del genere.
 
-# Workflow
 
-## Program Flow 
 
-CanvasView is the actual QGraphicsScene object and DrawingView processes a list of FeatureView that are linked by reference in /App/FeatureViewPage. DrawingView then chooses the appropriate QGraphicsItem class (QGraphicsItemViewPart or QGraphicsItemViewDimension) and then calls a function in CanvasView to create this and add it to the scene.
+## Flusso di lavoro 
 
-## Adding commands to the Drawing Workbench 
+## Flusso del programma 
 
-4 simple steps:
+CanvasView è l\'oggetto QGraphicsScene effettivo e DrawingView elabora un elenco di FeatureView collegati per riferimento in /App/FeatureViewPage. DrawingView sceglie quindi la classe QGraphicsItem appropriata (QGraphicsItemViewPart o QGraphicsItemViewDimension) e quindi chiama una funzione in CanvasView per crearla e aggiungerla alla scena.
 
-1.  Add a class to Command.cpp. Follow the others for an example of the formatting.
-2.  Add a title, icon, tooltip, etc., again, follow the existing classes in command.cpp
-3.  Add your class to the bottom of Command.cpp
-4.  Add your information to Workbench.cpp, this will tell FreeCAD/Drawing module where to place the icons defined in command.cpp in the actual freecad interface (the toolbars, dropdowns, etc.)
+## Aggiunta di comandi all\'ambiente Disegno 
+
+4 semplici passaggi:
+
+1.  Aggiungere una classe a Command.cpp. Seguire gli altri per un esempio della formattazione.
+2.  Aggiungere un titolo, un\'icona, un tooltip, ecc., ancora una volta, seguire le classi esistenti in command.cpp
+3.  Aggiungere la propria classe alla fine di Command.cpp
+4.  Aggiungere le proprie informazioni a Workbench.cpp, questo dirà al modulo FreeCAD/Drawing dove posizionare le icone definite in command.cpp nell\'effettiva interfaccia di Freecad (le barre degli strumenti, i menu a discesa, ecc.)
 
 {{Drawing Tools navi}}
 

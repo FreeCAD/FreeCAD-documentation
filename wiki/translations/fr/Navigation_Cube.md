@@ -43,15 +43,19 @@ En cliquant sur le bouton rond dans le coin supérieur droit du cube de navigati
 
 En cliquant sur le petit cube dans le coin inférieur droit du cube de navigation, un menu s\'affiche avec les options suivantes :
 
--    **<img src="images/Std_OrthographicCamera.svg" width=16px> [Orthographique](Std_OrthographicCamera/fr.md)**: passe à une vue orthographique.
+-    **<img src="images/Std_OrthographicCamera.svg" width=16px> [Vue orthographique](Std_OrthographicCamera/fr.md)**: passe à une vue orthographique.
 
--    **<img src="images/Std_PerspectiveCamera.svg" width=16px> [Perspective](Std_PerspectiveCamera/fr.md)**: permet d\'obtenir une vue en perspective.
+-    **<img src="images/Std_PerspectiveCamera.svg" width=16px> [Vue en perspective](Std_PerspectiveCamera/fr.md)**: permet d\'obtenir une vue en perspective.
 
--    **<img src="images/Std_ViewIsometric.svg" width=16px> [Isométrique](Std_ViewIsometric/fr.md)**: permet de passer à une vue isométrique.
+-    **<img src="images/Std_ViewIsometric.svg" width=16px> [Vue isométrique](Std_ViewIsometric/fr.md)**: permet de passer à une vue isométrique.
 
--    **<img src="images/Std_ViewFitAll.svg" width=16px> [Ajuster le zoom](Std_ViewFitAll/fr.md)**: effectue un zoom et un panoramique de la caméra de façon à ce que tous les objets visibles tiennent dans la vue.
+-    **<img src="images/Std_ViewFitAll.svg" width=16px> [Tout afficher](Std_ViewFitAll/fr.md)**: effectue un zoom et un panoramique de la caméra de façon à ce que tous les objets visibles tiennent dans la vue.
 
--    **Cube de navigation mobile**: si cette case ({{Version/fr|0.21}}) est cochée, l\'ensemble du cube de navigation peut être déplacé en maintenant le bouton gauche de la souris enfoncé n\'importe où sur le cube principal et en le faisant glisser. Cela permet de déplacer temporairement le cube. Les [paramètres avancés](#Paramètres_avancés.md) OffsetX et OffsetY peuvent être utilisés pour repositionner le cube de façon permanente, voir ci-dessous.
+-    **<img src="images/Std_ViewFitSelection.svg" width=16px> [Afficher la sélection](Std_ViewFitSelection/fr.md)**: zoome et fait pivoter la caméra de manière à ce que tous les objets sélectionnés tiennent dans la vue. {{Version/fr|1.0}}
+
+-    **<img src="images/Std_AlignToSelection.svg" width=16px> [Aligner sur la sélection](Std_AlignToSelection/fr.md)**: pointe la caméra dans la vue dans la direction opposée à la normale d\'une face plane, ou dans la direction opposée à une arête droite. {{Version/fr|1.0}}
+
+-    **Cube de navigation déplaçable**: si cette case ({{Version/fr|0.21}}) est cochée, l\'ensemble du cube de navigation peut être déplacé en maintenant le bouton gauche de la souris enfoncé n\'importe où sur le cube principal et en le faisant glisser. Cela permet de déplacer temporairement le cube. Les [paramètres avancés](#Paramètres_avancés.md) OffsetX et OffsetY peuvent être utilisés pour repositionner le cube de façon permanente, voir ci-dessous.
 
 
 

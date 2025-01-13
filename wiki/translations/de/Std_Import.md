@@ -2,9 +2,9 @@
  GuiCommand:
    Name: Std Import
    Name/de: Std Import
-   MenuLocation: Datei , Import
+   MenuLocation: Datei , Importieren...
    Workbenches: Alle
-   Shortcut: **Strg**+**I**
+   Shortcut: **Strg** + **Shift** + **I**
    SeeAlso: Std_Open/de, Import_Export/de, Import_Export_Preferences/de
 ---
 
@@ -26,11 +26,12 @@ Der Befehl **Std Import** importiert Geometrie aus einem anderen Dateiformat in 
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Wähle die **Datei → <img src="images/Std_Import.svg" width=16px> Importieren...** Option aus dem Menü.
-    -   Verwende das Tastaturkürzel: **Ctrl**+**I**.
-2.  Wähle optional das richtige Dateiformat im Dialogfeld.
-3.  Wähle eine Datei.
-4.  Drücke die **Öffnen** Schaltfläche.
+    -   Den Menüeintrag **Datei → <img src="images/Std_Import.svg" width=16px> Importieren...** auswählen.
+    -   Das Tastaturkürzel: **Ctrl**+**I**. {{VersionMinus/de|1.0}}
+    -   Das Tastaturkürzel: **Ctrl** + **Shift** + **I**. {{Version/de|1.1}}
+2.  Wahlweise das richtige Dateiformat im Dialogfeld auswählen.
+3.  Eine Datei auswählen.
+4.  Die Schaltfläche **Öffnen** drücken.
 
 
 
@@ -50,9 +51,7 @@ Der Befehl **Std Import** importiert Geometrie aus einem anderen Dateiformat in 
 
 ## Einstellungen
 
--   Siehe: [Import Export Einstellungen](Import_Export_Preferences/de.md).
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Voreinstellungen → Allgemein → DateiÖffnenSpeichernPfad**.
--   Der zuletzt verwendete Importfilter wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Voreinstellungen → Allgemein → DateiImportFilter**.
+Siehe [Import-Export-Einstellungen](Import_Export_Preferences/de.md).
 
 
 
@@ -140,7 +139,7 @@ Eine Bildebene (Image-Plane-Objekt) wird von einem [App GeoFeature](App_GeoFeatu
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -9,11 +9,15 @@
 
 # Std FreeCADPowerUserHub/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std DokumentationSkripterstellungMitPython** öffnet die (engl.) Seite \"Power users hub\" im voreingestellten Internet-Browser. Der Befehl erfordert eine funktionierende Internetverbindung.
 
 Aktuell verweist dieser Befehl auf die Seite [<https://wiki.freecad.org/Power_users_hub>](https://wiki.freecad.org/Power_users_hub).
+
+
 
 ## Anwendung
 
@@ -23,7 +27,7 @@ Aktuell verweist dieser Befehl auf die Seite [<https://wiki.freecad.org/Power_us
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -14,23 +14,22 @@
 
 ## Opis
 
-Analiza MES może być postrzegana jako kontener, który przechowuje wszystkie obiekty analizy elementów skończonych. Konieczne jest posiadanie kontenera analizy, który przechowuje wszystkie potrzebne obiekty. Przynajmniej jeden z poniższych obiektów jest potrzebny do analizy mechanicznej:
+Analiza MES może być postrzegana jako kontener, który przechowuje wszystkie obiekty analizy metodą elementów skończonych. Wymagane jest posiadanie kontenera analizy, który przechowuje wszystkie potrzebne obiekty. Przynajmniej jeden z poniższych obiektów (oprócz siatki) jest potrzebny do analizy mechanicznej:
 
--   \[\[FEM_MaterialSolid/pl\|Materiał dla bryły
+-   \[\[FEM_MaterialSolid/pl\|materiał dla bryły
 
-\]\].
+\]\],
 
--   [Warunek brzegowy utwierdzenia](FEM_ConstraintFixed/pl.md).
--   [Ograniczenie siły](FEM_ConstraintForce/pl.md) lub [Warunek brzegowy przemieszczenia](FEM_ConstraintPressure/pl.md).
+-   [warunek brzegowy utwierdzenia](FEM_ConstraintFixed/pl.md) lub [warunek brzegowy przemieszczenia](FEM_ConstraintPressure/pl.md) lub [wiązanie ciała sztywnego](FEM_ConstraintRigidBody/pl.md).
 
 
 
 ## Użycie
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/FEM_Analysis.svg" width=16px> '''Analiza'''**.
-    -   Wybierz z menu **Model → <img src="images/FEM_Analysis.svg" width=16px> Analiza**.
-    -   Użyj skrótu klawiaturowego: **S** następnie **A**.
+    -   Wciśnij przycisk **<img src="images/FEM_Analysis.svg" width=16px> '''Analiza'''**.
+    -   Wybierz opcję **Model → <img src="images/FEM_Analysis.svg" width=16px> Analiza** z menu.
+    -   Użyj skrótu klawiszowego: **S** a następnie **A**.
 2.  Zostanie utworzona nowa Analiza i ustawiona jako aktywna.
 3.  Inne obiekty mogą być dodawane lub usuwane do kontenera analizy metodą \"przeciągnij i upuść\".
 4.  Aby dodać nowe obiekty MES do dokumentu, analiza musi być aktywna. Podwójne kliknięcie na analizie powoduje jej aktywację.

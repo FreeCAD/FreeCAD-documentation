@@ -24,7 +24,7 @@ L\'outil **TechDraw Annotation** ajoute un bloc de texte à une page de dessin.
 2.  Il y a plusieurs façons de lancer l\'outil :
     -   Appuyez sur le **<img src="images/TechDraw_Annotation.svg" width=16px> [Insérer une annotation](TechDraw_Annotation/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Annotations → <img src="images/TechDraw_Annotation.svg" width=16px> Insérer une annotation** du menu.
-3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
+3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la fenêtre de dialogue **Sélecteur de pages** s\'ouvre :
     1.  Sélectionnez la page désirée.
     2.  Appuyez sur le bouton **OK**.
     3.  Un bloc de texte contenant le *Texte par défaut* apparaît sur la page.
@@ -80,7 +80,7 @@ rc = page.addView(anno)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

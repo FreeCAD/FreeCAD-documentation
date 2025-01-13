@@ -9,6 +9,11 @@ La **pantalla de bienvenida** es una imagen que aparece durante el inicio de Fre
 
 </div>
 
+
+<small>(v1.0)</small> 
+
+: The splash screen image is picked randomly from multiple images including user models and selected add-on workbenches.
+
 ## Custom splash screen 
 
 To use a custom splash screen, you have to place an image named **splash_image.png** in one of the following directories depending on the operating system:

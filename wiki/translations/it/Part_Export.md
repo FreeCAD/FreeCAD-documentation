@@ -2,21 +2,41 @@
 ---
  GuiCommand:
    Name: Part_Export
-   Name/it: Esporta CAD
-   MenuLocation: Part , Esporta CAD
+   Name/it: Part Esporta
+   MenuLocation: Parte , Esporta file CAD...
    Workbenches: Part Workbench/it
-   SeeAlso: Part_Import/it, Std_Export/it, Import_Export/it---
+   SeeAlso: Std_Export/it, Import_Export/it---
+
+
 
 ## Descrizione
 
-Lo strumento **<img src="images/Part_Export.svg" width=16px> [Esporta CAD](Part_Export/it.md)** apre una finestra di dialogo che consente di esportare gli oggetti del documento in vari formati di file CAD, [\*.IGES](http://en.wikipedia.org/wiki/IGES), [\*.STEP](http://en.wikipedia.org/wiki/Step_file), o [\*.BREP](http://en.wikipedia.org/wiki/BREP)
+Il comando <img alt="" src=images/Part_Export.svg  style="width:24px;"> **Part Esporta** esporta gli oggetti selezionati in un formato file diverso. I formati di file supportati sono: [STEP](http://en.wikipedia.org/wiki/Step_file) (con o senza colori), [IGES](http://en.wikipedia.org/wiki/IGES) (con o senza colori ) e [BREP](http://en.wikipedia.org/wiki/BREP).
+
+
 
 ## Utilizzo
 
 1.  Impostare le [Preferenze di importazione esportazione](Import_Export_Preferences/it.md) nell\'[Editor delle preferenze](Preferences_Editor/it.md).
-2.  Selezionare le forme nella [vista ad albero](tree_view/it.md) o nella the [vista 3D](3D_view/it.md).
-3.  Andare nel menu **Parte →  [<img src=images/Part_Export.svg style="width:16px"> Esporta CAD**.
-4.  Selezionare il formato del file e il percorso
+2.  Selezionare uno o più oggetti. Vedere [Esporta](Std_Export/it#Utilizzo.md).
+3.  Selezionare l\'opzione **Part → <img src="images/Part_Export.svg" width=16px> Esporta file CAD...** dal menu.
+4.  Selezionare il formato file corretto nella finestra di dialogo.
+5.  Inserire un nome file.
+6.  Premere il pulsante **Salva**.
+
+
+
+## Note
+
+-   Il comando [Esporta](Std_Export/it.md) supporta molti più formati di file.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

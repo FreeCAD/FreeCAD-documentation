@@ -18,30 +18,17 @@ The **Std ViewIvStereoInterleavedColumns** command changes the active [3D view](
 
 ## Preferences
 
--   The eye to eye distance can be changed in the preferences: **Edit → Preferences... → Display → 3D View → Eye to eye distance for stereo modes**. See [Preferences Editor](Preferences_Editor#3D_View.md).
+See [Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen#Preferences.md).
 
 ## Scripting
 
-
-**See also:**
-
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-To change the view to interleaved columns stereo use the `setStereoType` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.setStereoType('InterleavedColumns')
-FreeCADGui.ActiveDocument.ActiveView.getStereoType()
-```
+See [Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

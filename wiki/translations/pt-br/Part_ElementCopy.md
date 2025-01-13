@@ -4,32 +4,37 @@
    MenuLocation: Part , Create a copy , Create shape element copy
    Workbenches: Part_Workbench
    Version: 0.19
-   SeeAlso: Part_SimpleCopy, Part_TransformedCopy, Part_RefineShape
+   SeeAlso: 
 ---
 
 # Part ElementCopy/pt-br
 
 ## Description
 
-[Part ElementCopy](Part_ElementCopy.md) produces a non-parametric copy of a sub-element of a particular object, that is, of a vertex, edge, or face.
-
-To produce complete non-parametric copies of the objects use **<img src="images/Part_SimpleCopy.svg" width=16px> [Simple Copy](Part_SimpleCopy.md)
-**, **<img src="images/Part_TransformedCopy.svg" width=16px>[Transformed Copy](Part_TransformedCopy.md)**, or **<img src="images/Part_RefineShape.svg" width=16px> [RefineShape](Part_RefineShape.md)**
+The <img alt="" src=images/Part_ElementCopy.svg  style="width:24px;"> **Part ElementCopy** command creates non-parametric copies of subelements: vertices, edges and faces.
 
 ## Usage
 
-1.  Select a vertex, edge, or face of an object for which you wish to make a copy.
-2.  Go to the menu **Part → Create a copy → [<img src=images/Part_ElementCopy.svg style="width:16px"> [Create shape element copy](Part_ElementCopy.md)**.
+1.  Select one or more subelements belonging to one or more objects.
+2.  Select the **Part → Create a copy → <img src="images/Part_ElementCopy.svg" width=16px> Create shape element copy** option from the menu.
+
+## Notes
+
+-   To create non-parametric copies of whole objects [Part SimpleCopy](Part_SimpleCopy.md) or [Part TransformedCopy](Part_TransformedCopy.md) should be used instead.
 
 ## Properties
 
-### Data
+See also: [Property editor](Property_editor.md).
 
-The copy has a simple **Placement** property like any other [Part Feature](Part_Feature.md).
+The created objects are [Part Feature](Part_Feature.md) objects with no additional properties.
 
-### View
 
-The copy has simple view properties like any other [Part Feature](Part_Feature.md).
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

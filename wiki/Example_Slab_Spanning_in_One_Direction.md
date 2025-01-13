@@ -16,9 +16,9 @@
 
 ## Description
 
-The [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) tool allows the user to create reinforcing bars inside a Slab [Arch Structure](Arch_Structure.md) object.
+The <img alt="" src=images/Reinforcement_SlabRebars.svg  style="width:24px;"> [Reinforcement SlabRebars](Reinforcement_SlabRebars.md) tool allows the user to create reinforcing bars inside a Slab [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This tool is part of the <img alt="" src=images/Reinforcement_Workbench.svg  style="width:24px;"> [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
 
 In this example we will create Slab Reinforcement for Slab spanning in one direction as shown in below figure.
 
@@ -35,29 +35,61 @@ In this example we will create Slab Reinforcement for Slab spanning in one direc
 
 1\. Select any face of a previously created Slab **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object. as shown in below image.
 
- <img alt="" src=images/Selected_face_for_Slab_Arch_Structure.png  style="width:400px;">  
-*Selected face for Slab Arch Structure*
 
-2\. Then select **<img src="images/Arch_Rebar_Slab_Reinforcement.svg" width=16px> [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md)** from the rebar tools.
+
+:   <img alt="" src=images/Selected_face_for_Slab_Arch_Structure.png  style="width:400px;">
+
+
+
+:   
+    
+*Selected face for Slab Arch Structure*
+    
+
+2\. Then select **<img src="images/Reinforcement_SlabRebars.svg" width=16px> [Slab Reinforcement](Reinforcement_SlabRebars.md)** from the rebar tools.
 
 3\. A dialog box will pop-out on screen as shown below.
 
- ![](images/Slab_Reinforcement_input_dialog_box.png )  
+
+
+:   ![](images/Slab_Reinforcement_input_dialog_box.png )
+
+
+
+:   
+    
 *Dialog Box for the Slab Reinforcement*
+    
 
 4\. Select the desired type of cover of reinforcement mesh (Top or Bottom) In example Bottom is selected.
 
 5\. Select the StraightRebar rebar type and other input data for rebars in parallel direction of selected face as show in below image.
 
- ![](images/Straight_Rebars_in_parallel_for_Slab_Spanning_in_One_Direction.png )  
+
+
+:   ![](images/Straight_Rebars_in_parallel_for_Slab_Spanning_in_One_Direction.png )
+
+
+
+:   
+    
 *Dialog Box for Slab Reinforcement of the Rebars in parallel direction of selected face*
+    
 
 6\. Now click on **Next** button or select Cross Rebars in list view.
 
 7\. Now select BentShapeRebar rebar type and other desired data for input data for rebars in cross direction of selected face as show in below image.
 
- ![](images/Bent_Shape_rebars_in_cross_direction_with_distribution_rebars.png )  
+
+
+:   ![](images/Bent_Shape_rebars_in_cross_direction_with_distribution_rebars.png )
+
+
+
+:   
+    
 *Dialog Box for Slab Reinforcement of the Rebars in cross direction of selected face*
+    
 
 8\. Click **OK** or **Apply** or **Finish** to generate Slab reinforcement.
 
@@ -246,7 +278,7 @@ SlabReinforcementGroup = makeSlabReinforcement(
 
 ### Edition of Slab Reinforcement of Slab Spanning in one direction 
 
-You can change the properties of the Slab Reinforcement for slab spanning in one direction by using editSlabReinforcement function as follows
+You can change the properties of the Slab Reinforcement for slab spanning in one direction by using editSlabReinforcement function as follows:
 
  
 ```python
@@ -295,4 +327,4 @@ you can change any property to edit Slab Reinforcement.
 
 
 ---
-⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Example Slab Spanning in One Direction
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Reinforcement](Category_Reinforcement.md) > Example Slab Spanning in One Direction

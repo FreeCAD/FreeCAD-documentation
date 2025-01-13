@@ -25,7 +25,7 @@ La commande pointe vers [<https://forum.freecad.org>](https://forum.freecad.org)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

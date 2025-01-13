@@ -11,6 +11,9 @@
 # Arch Axis/it
 
 
+</div>
+
+
 
 ## Descrizione
 
@@ -24,10 +27,16 @@ Lo strumento <img alt="" src=images/Arch_Axis.svg  style="width:16px;"> Assi per
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Premere il pulsante **<img src="images/Arch_Axis.svg" width=16px> Assi
 **, oppure premere i tasti **A** e **X**
 2.  [Spostare](Draft_Move/it.md) o [ruotare](Draft_Rotate/it.md) il sistema di assi nella posizione desiderata
 3.  Attivare la modalità di modifica facendo doppio clic sul sistema di assi nella vista ad albero per regolare le impostazioni quali il numero di assi, le distanze e gli angoli tra gli assi.
+
+
+</div>
 
 
 
@@ -109,6 +118,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/it
+⏵ [documentation index](../README.md) > Arch Axis/it

@@ -5,7 +5,6 @@
    Time:  20 minuti
    Author: r-frank
    FCVersion: 0.16.6703
-   Files: 
 ---
 
 # Export to STL or OBJ/it
@@ -13,103 +12,68 @@
 
 
 
-<div class="mw-translate-fuzzy">
 
 
-
-
-</div>
-
-## Introduction
-
-
-<div class="mw-translate-fuzzy">
 
 ## Introduzione
 
-In questo tutorial ci occuperemo di come esportare file STL / OBJ da FreeCAD. Dato che il formato mesh STL / OBJ è adimensionale, nelle esportazioni FreeCAD assume che l\'unità utilizzata nel modello è il mm. Se non è così bisogna scalare il modello. Un modo per farlo è usare <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> [Scala](Draft_Scale/it.md) di Draft.
+In questo tutorial tratteremo come esportare file STL/OBJ da FreeCAD. Il formato mesh STL/OBJ è adimensionale; FreeCAD assumerà durante l\'esportazione che le unità utilizzate nel modello siano in mm. Se questo non è il caso si deve ridimensionare il proprio modello. Un modo per farlo è utilizzare <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> [Draft Scala](Draft_Scale/it.md).
 
 
-</div>
-
-## Sample part 
-
-
-<div class="mw-translate-fuzzy">
 
 ## La parte modello 
 
-È possibile utilizzare un file di FreeCAD, ma si può anche creare velocemente un file di test con queste azioni:
+E\' possibile utilizzare il proprio file FreeCAD, ma è possibile anche creare un file di test rapido:
 
--   Avviare FreeCAD
--   Creare un nuovo documento
--   Passare nell\'ambiente Part
--   Inserire un cubo cliccando su <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cubo](Part_Box/it.md)
--   Inserire un cono cliccando su <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cono](Part_Cone/it.md)
--   Selezionare entrambi gli oggetti nella vista ad albero
--   Applicare una fusione cliccando su <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Fusione](Part_Union/it.md)
--   Salvare il file
-
-
-</div>
-
-## Export Method 1: Using \"File → Export\" 
-
-1.  With the default settings, this method creates a mesh with noticeably jagged curves. To get a smoother finish when e.g. 3D printing, the mesh resolution should be configured:
-    1.  Make sure the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md) has been loaded (it is not loaded by default).
-    2.  Go to **Edit → Preferences... → Import-Export → Mesh Formats**.
-    3.  Change **Maximum mesh deviation**. A lower value will produce a mesh with a higher resolution.
-2.  Select the solid to be exported in the tree view.
-3.  Choose **File → Export...** and set the file type to **STL mesh (*.stl *.ast)**.
-4.  Enter your file name. The default extension is **.stl**. You must include the extension **.ast** to produce an **.ast** file.
-5.  Choose **Save**.
-
-## Export Method 2: Using the Mesh Workbench in FreeCAD 
+1.  Aprire FreeCAD.
+2.  Creare un nuovo documento.
+3.  Passare all\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente Part](Part_Workbench/it.md).
+4.  Inserire un cubo facendo clic su <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cubo](Part_Box/it.md).
+5.  Inserire un cono facendo clic su <img alt="" src=images/Part_Cone.svg  style="width:24px;"> [Part Cono](Part_Cone/it.md).
+6.  Selezionare entrambi gli oggetti nella [vista ad albero](Tree_view/it.md).
+7.  Applicare una fusione facendo clic su <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> [Part Unisci](Part_Fuse/it.md).
+8.  Salvare il file.
 
 
-<div class="mw-translate-fuzzy">
 
-## Esportazione metodo 2: Usando l\'ambiente Mesh di FreeCAD 
+## Metodo di esportazione 1: utilizzando \"File → Esporta\" 
 
--   Passare all\'ambiente [Mesh](Mesh_Workbench/it.md).
--   Selezionare il solido da rendere mesh, in vista ad albero
--   Scegliere ** Mesh** → **<img src="images/Mesh_FromPartShape.svg" width=32px> Crea Mesh da forma...** dal menu principale.
--   Selezionare una dei mesher disponibili e specificare le opzioni disponibili, per maggiori informazioni fare riferimento alla pagina [Mesh da Forma](Mesh_FromPartShape/it.md).
--   Scegliere ** OK**. Nella vista ad albero viene creato l\'oggetto mesh (con l\'icona verde di mesh <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;">).
--   Fare clic con il tasto destro del mouse sull\'oggetto mesh nella vista ad albero e scegliere **<img src="images/Mesh_Export.svg" width=32px> Esporta mesh...**.
--   Compilare il nome del file; l\'estensione non è necessaria. L\'estensione viene impostata in base al tipo di file. Se si include un\'estensione che non corrisponde al tipo di file selezionato, viene aggiunta un\'estensione per il tipo selezionato quando il file viene salvato. Se si include un\'estensione che corrisponde al tipo di file, non viene aggiunta alcuna estensione addizionale.
--   Il tipo di file predefinito è \"Binary STL (\*.stl)\". Cambiare il tipo se lo si desidera.
--   Scegliere **Salva** per eseguire l\'esportazione.
+1.  Con le impostazioni predefinite, questo metodo crea una mesh con curve notevolmente frastagliate. Per ottenere una finitura più liscia quando ad es. per la Stampa 3D, la risoluzione della mesh deve essere configurata:
+    1.  Assicurarsi che l\'<img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Ambiente Mesh](Mesh_Workbench/it.md) sia stato caricato (non è caricato per impostazione predefinita).
+    2.  Andare in **Modifica → Preferenze... → Importa-Esporta → Formati mesh**.
+    3.  Cambiare **Deviazione massima della mesh**. Un valore più basso produrrà una mesh con una risoluzione più alta.
+2.  Selezionarere il solido da esportare nella vista ad albero.
+3.  Scegliere **File → Esporta...** e impostare il tipo di file su **STL mesh (*.stl *.ast)**.
+4.  Inserire il nome del file. L\'estensione predefinita è **.stl**. È necessario includere l\'estensione **.ast** per produrre un file **.ast**.
+5.  Scegliere **Salva**.
 
 
-</div>
 
-## Which Method to choose ? 
+## Metodo di esportazione 2: utilizzo dell\'ambiente Mesh in FreeCAD 
+
+1.  Passare all\'<img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Ambiente Mesh](Mesh_Workbench.md).
+2.  Selezionare il solido da convertire in mesh nella vista ad albero.
+3.  Scegliere **Meshes → <img src="images/Mesh_FromPartShape.svg" width=24px> Crea mesh dalla forma...** dal menu principale (in alto).
+4.  Selezionare uno dei mesher disponibili e specificare le opzioni disponibili. Per ulteriori informazioni fare riferimento a [Mesh da forma](Mesh_FromPartShape/it.md).
+5.  Scegliere **OK**. L\'oggetto mesh verrà creato nella vista ad albero (con un\'icona mesh verde <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;">).
+6.  Fare clic con il pulsante destro del mouse sull\'oggetto mesh nella vista ad albero e scegliere **<img src="images/Mesh_Export.svg" width=24px> Esporta mesh...**.
+7.  Inserire il nome del file, l\'estensione non è necessaria. L\'estensione verrà impostata in base al tipo di file. Se si include un\'estensione che non corrisponde al tipo di file selezionato, quando il file verrà salvato verrà aggiunta un\'estensione per il tipo selezionato.
+8.  Il tipo di file predefinito è **Binary STL (*.stl)**. Cambiare il tipo se lo si desidera.
+9.  Scegliere **Salva**.
 
 
-<div class="mw-translate-fuzzy">
 
 ## Quale metodo scegliere? 
 
--   Il metodo 2 deve essere quello preferito. Tra i motivi:
--   Quando si vuole convertire più di un Corpo si possono usare gli strumenti di [Mesh](Mesh_Workbench/it.md). Ad esempio, è possibile fondere le mesh prima dell\'esportazione.
--   Le superfici curve sono rappresentate in STL come una serie di segmenti lineari, generati tramite tessellatura. Ciò si traduce in dimensioni interne leggermente sottodimensionate per le superfici curve. Se si sta esportando per l\'utilizzo nella stampa 3D, questo può comportare, ad esempio, un buco sottodimensionato. In questi casi potrebbe essere necessario usare un valore di tessellazione più fine. Quando si esporta da un altro ambiente usando **File** → **Esporta ...**, la tessellatura è controllata dal set generale di visualizzazione della tassellatura in **Modifica** → **Preferenze ...** → Part Design → Visualizzazione della figura. Tuttavia, poiché questi parametri controllano la tassellatura utilizzata per il rendering delle forme sul display, la loro diminuzione rallenta il rendering della visualizzazione, spesso in modo significativo. Inoltre, l\'esportazione immediatamente dopo aver modificato il valore della preferenza per la tessellizzazione della visualizzazione non ha l\'effetto desiderato perché la tessellatura della visualizzazione non viene aggiornata immediatamente. Per far ricalcolare la tessellatura si deve forzare una modifica nel modello sottostante, ad esempio modificando un parametro dello schizzo (l\'impostazione sul suo valore originale è sufficiente).
+-   Il metodo 1 può essere utilizzato per la maggior parte delle situazioni in cui è necessario un file mesh.
+-   Con il metodo 2 è possibile verificare la mesh in FreeCAD. E se si ha più di un solido da convertire si possono utilizzare gli Strumenti dell\'[Ambiente Mesh](Mesh_Workbench/it.md). Ad esempio, è possibile fondere le mesh prima dell\'esportazione.
 
 
-</div>
 
-## Links
-
-
-<div class="mw-translate-fuzzy">
-
-## Link
+## Collegamenti
 
 -   [Importare da STL o OBJ](Import_from_STL_or_OBJ/it.md)
 -   [Importazione e esportazione](Import_Export/it.md)
-
-
-</div>
 
 
 

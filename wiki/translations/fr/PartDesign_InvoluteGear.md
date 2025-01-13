@@ -2,8 +2,7 @@
  GuiCommand:
    Name: PartDesign InvoluteGear
    Name/fr: PartDesign Engrenage à développante
-   Icon: PartDesign_InternalExternalGear.svg
-   MenuLocation: Part Design , Engrenage à développante...
+   MenuLocation: PartDesign , Créer un engrenage à développante...
    Workbenches: PartDesign_Workbench/fr
    SeeAlso: FCGear_Workbench/fr
 ---
@@ -12,7 +11,7 @@
 
 ## Description
 
-Cet outil permet de créer un profil 2D d\'une roue d\'engrenage à développante ou un arbre cannelé. Ce profil 2D est pleinement paramétrique et peut être extrudé avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md) ou [PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md).
+Cet outil permet de créer un profil 2D d\'une roue d\'engrenage à développante ou un arbre cannelé. Ce profil 2D est paramétrable entièrement et peut être extrudé avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md) ou [PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md).
 
 Pour des informations plus détaillées, voir également [Engrenage](https://fr.wikipedia.org/wiki/Engrenage) et [fonction involute](https://fr.wikipedia.org/wiki/Involute)
 
@@ -27,7 +26,7 @@ Pour des informations plus détaillées, voir également [Engrenage](https://fr.
 ### Créer le profil 
 
 1.  Activez le bon corps.
-2.  Allez dans le menu **Part Design → [<img src=images/PartDesign_InternalExternalGear.svg style="width:16px"> Engrenage à développante...**.
+2.  Allez dans le menu **PartDesign → [<img src=images/PartDesign_InvoluteGear.svg style="width:16px"> Créer un engrenage à développante...**.
 3.  Définissez les paramètres de l\'engrenage à développante.
 4.  Cliquez sur **OK**.
 5.  S\'il n\'y avait pas de corps actif : faites glisser et déposez l\'engrenage dans un corps pour appliquer d\'autres fonctions comme une protrusion.
@@ -36,7 +35,7 @@ Pour des informations plus détaillées, voir également [Engrenage](https://fr.
 
 ### Créer un engrenage droit 
 
-1.  Sélectionnez le profil d\'engrenage dans la [Vue en arborescence](Tree_view/fr.md).
+1.  Sélectionnez le profil d\'engrenage dans la [vue en arborescence](Tree_view/fr.md).
 2.  Appuyez sur le bouton **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
 3.  Réglez la longueur de la protrusion **Length** à la largeur de la face souhaitée pour l\'engrenage.
 4.  Cliquez sur **OK**.
@@ -61,7 +60,7 @@ Conseil : pour faire de l\'angle d\'hélice un paramètre accessible, utilisez u
 1.  Sélectionnez le profil.
 2.  Dans l\'[éditeur de propriétés](Property_editor/fr.md), activez l\'option **Tout afficher** dans le menu contextuel.
 3.  Toujours dans le menu contextuel, sélectionnez l\'option **Ajouter une propriété**. Remarque : cette entrée n\'est disponible que lorsque l\'option **Tout afficher** est active.
-4.  Dans la boîte de dialogue **Ajouter une propriété** :
+4.  Dans la fenêtre de dialogue **Ajouter une propriété** :
     1.  Choisissez `App::PropertyAngle` comme Type.
     2.  Définissez `Gear` comme Groupe.
     3.  Définissez `HelicalAngle` comme Nom (sans espace).
@@ -126,7 +125,7 @@ Conseil : pour faire de l\'angle d\'hélice un paramètre accessible, utilisez u
 
 -    **High Precision**: vrai ou faux
 
--    **Modules**: diamètre de pas divisé par le nombre de dents.
+-    **Modules**: diamètre primitif divisé par le nombre de dents. (Remarque : le terme technique correct est \"Module\", mais ce nom est déjà utilisé par les modules internes de FreeCAD et ne peut donc pas être utilisé ici).
 
 -    **Number Of Teeth**: définit le nombre de dents désirées.
 
@@ -141,6 +140,10 @@ Conseil : pour faire de l\'angle d\'hélice un paramètre accessible, utilisez u
 ## Remarques
 
 -   Pour que deux engrenages puissent s\'engrener, ils doivent partager le même module et le même angle de pression. Des [expressions](Expressions/fr.md) peuvent aider à assurer la cohérence. Leur entraxe doit être `(NumberOfTeeth + OtherGear.NumberOfTeeth) * Modules / 2`. (c\'est-à-dire dans le cas où le décalage du profil de la somme est nul). Soustraire le nombre de dents dans le cas d\'un engrenage intérieur.
+
+-   Lorsque l\'on utilise une [equisse](Sketch/fr.md) pour positionner certains engrenages, ceux-ci peuvent être représentés à l\'aide de leurs cercles primitif et d\'une [contrainte de tangente](Sketcher_ConstrainTangent/fr.md) entre ces cercles. Leurs diamètres peuvent être définis par l\'[expression](Expressions/fr.md) suivante : `SomeGear.NumberOfTeeth * SomeGear.Modules` (en supposant qu\'il n\'y ait pas de changement de profil et que \"SomeGear\" soit **Name** de l\'objet de profil d\'engrenage correspondant).
+
+-   Lorsque vous utilisez une [esquisse](Sketch/fr.md) pour créer des fonctions supplémentaires (découpes, rayons\...) sur un engrenage, des cercles de référence à la pointe ou à la racine des dents peuvent aider à positionner ces fonctions. Le diamètre du cercle addendum peut être défini par l\'[expression](Expressions/fr.md) suivante : `(SomeGear.NumberOfTeeth + 2 * (SomeGear.AddendumCoefficient + SomeGear.ProfileShiftCoefficient)) * SomeGear.Modules` et le cercle racine respectivement par `(SomeGear.NumberOfTeeth - 2 * (SomeGear.DedendumCoefficient - SomeGear.ProfileShiftCoefficient)) * SomeGear.Modules`.
 
 -   Le décalage de profil peut être utilisé pour éviter les contre-dépouilles sur les engrenages ayant un petit nombre de dents. Une autre application consiste à ajuster l\'entraxe de deux engrenages ayant un nombre donné de dents et un module.
 
@@ -160,8 +163,9 @@ Conseil : pour faire de l\'angle d\'hélice un paramètre accessible, utilisez u
 
 ## Limitations
 
--   Il n\'est actuellement pas possible de régler l\'épaisseur des dents. Les dents et l\'espacement des dents sont répartis de manière égale sur le cercle primitif. Ainsi, la seule façon de contrôler le jeu est d\'ajuster la distance centrale dans un engrenage.
--   Il n\'y a actuellement pas de [undercut (contre-dépouille)](https://www.tec-science.com/mechanical-power-transmission/involute-gear/undercut/) dans le profil d\'engrenage généré. Cela signifie que les engrenages avec un faible nombre de dents peuvent interférer avec les dents de l\'engrenage correspondant. La limite inférieure dépend de l\'angle de pression **Pressure Angle** et se situe autour de 17 dents pour 20° et 32 pour 14,5°. La plupart des applications pratiques tolèrent cependant une contre-dépouille manquante pour des engrenages un peu plus petits que cette limite théorique.
+-   Il n\'est actuellement pas possible de régler l\'épaisseur de la dent. La dent et l\'espace entre les dents sont répartis de manière égale sur le cercle de référence. Une façon de contrôler encore le jeu est d\'ajuster l\'entraxe d\'un engrenage. Un autre moyen est d\'appliquer une quantité infime de décalage négatif du profil. Par exemple : pour un coefficient de jeu circonférentiel typique de 0,04, augmentez l\'entraxe de `(0.04 * Modules / 2) / tan(PressureAngle)` ou décalez le profil de l\'engrenage (de préférence le plus grand) d\'un coefficient de `-(0.04 / 2) / tan(PressureAngle))`.
+
+-   Il n\'y a actuellement pas de [undercut (contre-dépouille)](https://www.tec-science.com/mechanical-power-transmission/involute-gear/undercut/) dans le profil de l\'engrenage généré. Cela signifie que les engrenages avec un faible nombre de dents peuvent interférer avec les dents de l\'engrenage correspondant. La limite inférieure dépend de l\'angle de pression **Pressure Angle** et se situe autour de 17 dents pour 20° et 32 pour 14.5°. La plupart des applications pratiques tolèrent une contre-dépouille manquante pour des engrenages un peu plus petits que cette limite théorique, qui suppose un accouplement avec une crémaillère et une longueur de denture standard.
 
 
 

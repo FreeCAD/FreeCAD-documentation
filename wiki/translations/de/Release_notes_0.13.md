@@ -12,13 +12,13 @@ Dieses ist die Übersicht über die interessantesten Neuerungen bzw. Änderungen
 -   **Color preferences** - **bevorzugte Farb-Einstellungen**: die guten alten grauen Oberflächen mit schwarzen Rändern aus der FreeCAD-Voreinstellung sind langweilig geworden? Nunmehr ist es möglich, diese Einstellungen in den Benutzer-Einstellungen (Display -\> Color / Anzeige -\> Farben) zu ändern, zusammen mit einigen anderen voreingestellten Farben.
 -   **Alignment** - **Ausrichtung**: zwei Oberflächen können mit diesem Werkzeug, das im Bearbeiten-Menü zu finden ist, unter Verwendung von bis zu drei Punkten zueinander ausgerichtet werden.
 
-## Arbeitsbereich Zeichnungsableitung 
+## Arbeitsbereich Drawing 
 
--   **Clip feature** - **Schnitt - Werkzeug**: ein neues Objekt [Drawing Clip](Drawing_Clip.md) (Schnitt in Zeichnung) erlaubt, Objekt-Ansichten innerhalb rechteckiger Schnitte auf Zeichnungs-Seiten zu plazieren.
--   **Editable titleblocks** - **bearbeitbare Überschriften** : beim Anlegen einer Zeichnungs-Vorlage [Drawing templates](Drawing_templates.md), ist es nun möglich, Text zu erstellen, der nachträglich geändert werden kann. Dieser Text ist dann direkt in FreeCAD änderbar.
--   **Annotation feature** - **Anmerkungs-Werkzeug**: ein neues Objekt [Drawing Annotation](Drawing_Annotation.md) , um einfach und schnell Text-Blöcke auf einer Zeichnungs-Seite einzufügen.
--   **Orthographic Views** - **rechtwinklige Ansicht**: ein neues Werkzeug [Drawing Orthographic Views](Drawing_Orthoviews.md) erlaubt das Erzeugen mehrerer Ansichten, die zueinander ausgerichtet sind, entsprechend der Projektion.
--   **Browser preview** - **Betrachter Vorschau**: da durch den internen Qt SVG-Betrachter nicht immer alle SVG-Möglichkeiten unterstützt werden, erlaubt diese Taste zu überprüfen, wie eine Seite im *webkit*-Betrachter aussehen würde, der das SVG-Format vollständig unterstützt. Das ist provisorisch, bis wir wirklich mit dem SVG-Betrachter zum *webkit* wechseln\...
+-   **Clip feature**: ein neues Objekt [Drawing Clip](Drawing_Clip.md) (Zeichnungsausschnitt) erlaubt, Objektansichten innerhalb rechteckiger Ausschnitte auf Zeichnungsblättern zu positionieren.
+-   **Editable titleblocks** - **editierbare Schriftfelder** : beim Anlegen einer Zeichnungsvorlage, ist es nun möglich, Text zu erstellen, der nachträglich geändert werden kann. Dieser Text ist dann direkt in FreeCAD änderbar.
+-   **Annotation feature** - **Beschriftungswerkzeug**: ein neues Objekt [Drawing Annotation](Drawing_Annotation.md) , um einfach und schnell Text-Blöcke auf einem Zeichnungsblatt einzufügen.
+-   **Orthographic Views** - **orthogonale Ansichten**: ein neues Werkzeug [Drawing Orthographic Views](Drawing_Orthoviews/de.md) erlaubt das Erzeugen mehrerer Ansichten, die zueinander ausgerichtet sind, entsprechend der Projektion.
+-   **Browser preview** - **Betrachter Vorschau**: da durch den internen Qt-SVG-Betrachter nicht immer alle SVG-Elemente unterstützt werden, ermöglicht diese Taste zu überprüfen, wie eine Seite im *webkit*-Betrachter aussehen würde, der das SVG-Format vollständig unterstützt. Das ist provisorisch, bis wir wirklich mit dem SVG-Betrachter zum *webkit* wechseln\...
 -   **DXF export** - **DXF-Ausgabe**: es ist nun möglich, eine Seitanansicht direkt als DXF-Datei auszugeben.
 -   Einige Fehler-Korrekturen erlauben nun das Verändern der Größe (Skalieren) beim Drucken von Seiten.
 

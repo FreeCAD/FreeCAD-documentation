@@ -4,7 +4,7 @@
    Name/fr: Std Importer
    MenuLocation: Fichier , Importer...
    Workbenches: Tous
-   Shortcut: **Ctrl**+**I**
+   Shortcut: **Ctrl**+**Alt**+**I**
    SeeAlso: Std_Open/fr, Import_Export/fr, Import_Export_Preferences/fr
 ---
 
@@ -24,15 +24,16 @@ La commande **Std Importer** importe la géométrie d\'un format de fichier diff
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option **Fichier → <img src="images/Std_Import.svg" width=16px> Importer...** dans le menu.
-    -   Utilisez le raccourci clavier: **Ctrl**+**I**.
+    -   Sélectionnez l\'option **Fichier → <img src="images/Std_Import.svg" width=16px> Importer...** du menu.
+    -   Utilisez le raccourci clavier : **Ctrl**+**I**. {{VersionMinus/fr|1.0}}
+    -   Utilisez le raccourci clavier : **Ctrl**+**Alt**+**I**. {{Version/fr|1.1}}
 2.  Sélectionnez éventuellement le format de fichier correct dans la boîte de dialogue.
-3.  Sélectionner un fichier.
+3.  Sélectionnez un fichier.
 4.  Appuyez sur le bouton **Ouvrir**.
 
 ## Options
 
--   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
+-   Appuyez sur **Échap** ou sur le bouton **Annuler** pour annuler la commande.
 
 
 
@@ -46,9 +47,7 @@ La commande **Std Importer** importe la géométrie d\'un format de fichier diff
 
 ## Préférences
 
--   Voir : [Préférences Import Export](Import_Export_Preferences/fr.md).
--   Le dernier emplacement de fichier utilisé est stocké : **Outils → Éditer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
--   Le dernier filtre d\'importation utilisé est stocké : **Outils → Éditer les paramètres... → BaseApp → Preferences → General → FileImportFilter**.
+-   Voir : [Préférences Importer/Exporter](Import_Export_Preferences/fr.md).
 
 
 
@@ -70,18 +69,18 @@ Par défaut, un plan d\'image est placé sur le plan global XY. La taille initia
 4.  Sélectionnez **Plan XY**, **Plan XZ** ou **Plan YZ** du système de coordonnées global.
 5.  Cochez **Inverser le sens** pour faire pivoter le plan de l\'image de 180°. L\'axe de rotation dépend du plan sélectionné. Pour le plan XY, il s\'agit de l\'axe X global. Pour les plans XZ et YZ, il s\'agit de l\'axe Z global.
 6.  Les **Décalage**, **Distance X** et **Distance Y** sont relatifs au système de coordonnées du plan de l\'image. Un petit décalage négatif peut être utile pour tracer l\'image avec une [esquisse](Sketcher_Workbench/fr.md) ou une géométrie de [Draft](Draft_Workbench/fr.md).
-7.  Modifier éventuellement la **Transparence**.
+7.  Vous pouvez modifier la **Transparence**.
 8.  Options de **Dimension de l'image** :
-    -   Mise à l\'échelle par entrée numérique :
-        1.  Décochez éventuellement **Conserver les proportions** pour une mise à l\'échelle inégale.
+    -   Mise à l\'échelle par une valeur numérique :
+        1.  Vous pouvez décocher **Conserver les proportions** pour une mise à l\'échelle inégale.
         2.  Entrez une **Largeur** et/ou une **Hauteur**.
-    -   Mettre à l\'échelle en choisissant des points :
+    -   Mise à l\'échelle par des points :
         1.  Appuyez sur le bouton **Calibrer**.
         2.  Choisissez deux points dans l\'image.
-        3.  Une ligne de dimension est affichée.
+        3.  Une ligne de dimension s\'affiché.
         4.  Saisissez la dimension souhaitée.
         5.  Appuyez sur **Entrée** ou sur le bouton **Appliquer**.
-9.  Appuyez sur le bouton **OK** pour confirmer les modifications et fermer le panneau de tâches.
+9.  Appuyez sur le bouton **OK** pour confirmer les modifications et fermez le panneau de tâches.
 
 
 
@@ -117,7 +116,7 @@ Un objet Plan d\'image est dérivé d\'un objet [App GeoFeature](App_GeoFeature/
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

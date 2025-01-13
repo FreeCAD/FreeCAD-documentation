@@ -1,16 +1,5 @@
 # Python/tr
-<div class="mw-translate-fuzzy">
-
-
-{{VeryImportantMessage | (Kasım 2018) FreeCAD başlangıçta Python 2 ile çalışmak üzere tasarlandı. Birçok özellik Python 3 ile çalışıyor, ancak bazıları çalışmıyor. FreeCAD'i Python 3 te tam olarak destekleme işi , devam etmekte olan bir iştir.}}
-
-
-</div>
-
 ## Tanım
-
-
-
 
 [Python](https://www.python.org) genel amaçlı, büyük uygulamalarda komut dosyası veya [makro](macros/tr.md) oluşturarak bazı görevleri otomatikleştirmek için yaygın olarak kullanılan yüksek seviye bir programlama dilidir.
 
@@ -97,6 +86,8 @@ Wire = make_wire(pointslist,
 Wire = make_wire(pointslist, closed=True, face=True)
 Window = make_window(Wire, name="Big window")
 ```
+
+
 
 ## İçe Aktarma 
 

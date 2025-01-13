@@ -1,13 +1,12 @@
 # Category:Image
-This category is the top level category for **images**. It should not contain any files, but only sub categories.
+This category is for pages related to the [Image Workbench](Image_Workbench.md).
 
 ### Contents
 
 |     |     |     |
 | --- | --- | --- |
-| [Bitmap](Bitmap.md) | [Image CreateImagePlane](Image_CreateImagePlane.md) | [Image Open](Image_Open.md) |
-| [Image Scaling](Image_Scaling.md) | [Template:Image Tools navi](Template_Image_Tools_navi.md) | [Image Workbench](Image_Workbench.md) |
-|
+| [Image CreateImagePlane](Image_CreateImagePlane.md) | [Image Open](Image_Open.md) | [Image Scaling](Image_Scaling.md) |
+| [Template:Image Tools navi](Template_Image_Tools_navi.md) | [Image Workbench](Image_Workbench.md) |
 
 
 

@@ -2,10 +2,8 @@
  GuiCommand:
    Name: Std Workbench
    Name/de: Std Arbeitsbereich
-   Empty: 1
    MenuLocation: Ansicht , Arbeitsbereich
    Workbenches: Alle
-   SeeAlso: Workbenches/de
 ---
 
 # Std Workbench/de
@@ -14,18 +12,22 @@
 
 ## Beschreibung
 
-Der Befehl **Std Arbeitsbereich** aktiviert einen ausgewählten [Arbeitsbereich](Workbenches/de.md) einschließlich seiner grafischen Benutzeroberfläche (GUI).
+Der Befehl **Std Arbeitsbereich** aktiviert einen ausgewählten [Arbeitsbereich](Workbenches/de.md).
 
-<img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:800px;"> 
-*Die Auswahlliste der Arbeitsbereiche auf der Standard-[Oberfläche](interface/de.md) ist mit der Nummer 10 gekennzeichnet.*
+![](images/Std_Workbench_ComboBox_Icons_And_Text.png ) 
+*Die voreingestellte Arbeitsbereichsauswahl als ComboBox*
+
+![](images/Std_Workbench_TabBar_Icons_Only.png ) 
+*Die optionale Arbeitsbereichsauswahl als Tab-Leiste (hier die Darstellung nur mit Symbolen) {{Version/de|1.0*}}
 
 
 
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Auswahl eines Arbeitsbereiches aus der **Auswahlliste** in der Symbolleiste **Arbeitsbereich**. Diese Option ist nicht verfügbar, wenn der aktuelle Arbeitsbereich `<none>` (kein Arbeitsbereich) ist.
-    -   Auswahl eines Arbeitsbereiches aus dem Untermenü **Ansicht → Arbeitsbereich**.
+    -   Einen Arbeitsbereich in der Combo-Ansicht oder in der Tab-Leiste (<small>(v1.0)</small> ) der Symbolleiste Arbeitsbereich auswählen.
+    -   Die Schaltfläche **<img src="images/List-add.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** in der Tab-Leiste drücken, um einen Arbeitsbereich, der in den [Voreinstellungen](Preferences_Editor/de#Vorhandene_Arbeitsbereiche.md) deaktiviert wurde, in dem Menü auszuwählen, das geöffnet wird.
+    -   Einen Arbeitsbereich im Untermenü **Ansicht → Arbeitsbereich** auswählen.
 
 
 
@@ -37,18 +39,17 @@ Der Befehl **Std Arbeitsbereich** aktiviert einen ausgewählten [Arbeitsbereich]
 
 ## Einstellungen
 
--   Der Startarbeitsbereich kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Allgemein → Allgemein → Hochfahren**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Allgemeines.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Es gibt eine [Seite mit zugehörigen Einstellungen](Preferences_Editor/de#Vorhandene_Arbeitsbereiche.md): **Bearbeiten → Einstellungen... → Arbeitsbereiche → Vorhandene Arbeitsbereiche**. Der **Startarbeitsbereich**, die **Arbeitsbereichsauswahl** und weitere können angepasst werden. Mit der Schaltfläche **<img src="images/List-add.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** in der Tab-Leiste kann man über ihr Menü auf diese Seite zugreifen.
 
 
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um den Arbeitsbereich zu ändern, verwende die Methode `activateWorkbench` des FreeCADGui-Moduls. Diese Methode ist nicht verfügbar, wenn sich FreeCAD im Konsolenmodus befindet.
+Um den Arbeitsbereich zu ändern, wird die Methode `activateWorkbench` des FreeCADGui-Moduls verwendet.
 
 
 ```python

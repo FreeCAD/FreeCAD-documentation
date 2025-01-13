@@ -24,7 +24,7 @@ ZuTun.
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

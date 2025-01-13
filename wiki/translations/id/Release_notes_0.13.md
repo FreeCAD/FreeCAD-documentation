@@ -15,7 +15,7 @@ Older versions: [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
 ## Drawing module 
 
 -   **Clip feature**: A new [Drawing Clip](Drawing_Clip.md) object allows to place views of objects inside clipped rectangles on Drawing pages.
--   **Editable titleblocks**: When designing [Drawing templates](Drawing_templates.md), it is now possible to mark texts as editable. Those texts become then directly editable in FreeCAD.
+-   **Editable titleblocks**: When designing Drawing templates, it is now possible to mark texts as editable. Those texts become then directly editable in FreeCAD.
 -   **Annotation feature**: A new [Drawing Annotation](Drawing_Annotation.md) object, a simple feature to quickly place text blocks on a Drawing page.
 -   **Orthographic Views**: A new [Drawing Orthographic Views](Drawing_Orthoviews.md) tool facilitate creation of multiple views all aligned to each other, according to first-angle or third-angle projection.
 -   **Browser preview**: Since all SVG capabilities are not always supported by the internal Qt SVG viewer, this button allows you to check how a page looks like in the webkit browser, which fully supports the SVG format. This is provisory, until we definitely switch our SVG viewer to webkit\...

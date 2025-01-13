@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Mirror
    Name/de: Draft Spiegeln
-   MenuLocation: Änderung , Spiegeln
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Änderung , Spiegeln<br>Bearbeiten , Spiegeln
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **M** **I**
    SeeAlso: Draft_Clone/de
 ---
@@ -16,7 +16,7 @@
 
 Der Befehl <img alt="" src=images/Draft_Mirror.svg  style="width:24px;"> **Draft Spiegeln** erstellt gespiegelte Kopien, [Part-Mirror](Part_Mirror/de.md)-Objekte, von ausgewählten Objekten. Ein [Part-Mirror](Part_Mirror/de.md)-Objekt ist parametrisch, d.h. es aktualisiert sich, wenn sich sein Quellobjekt ändert.
 
-Der Befehl kann auf 2D-Objekte angewendet werden, die im Arbeitsbereich [Draft](Draft_Workbench/de.md) oder im Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, aber auch auf viele 3D-Objekte, wie jene, die in den Arbeitsbereichen [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erstellt wurden.
+Der Befehl kann auf 2D-Objekte angewendet werden, die im Arbeitsbereich [Draft](Draft_Workbench/de.md) oder im Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, aber auch auf viele 3D-Objekte, wie jene, die in den Arbeitsbereichen [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [BIM](BIM_Workbench/de.md) erstellt wurden.
 
 <img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;"> 
 * Ein Objekt Spiegeln*
@@ -30,7 +30,8 @@ Siehe auch: [Draft Einrasten](Draft_Snap/de.md) und [Draft Beschränken](Draft_C
 1.  Wahlweise ein oder mehrere Objekte auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_Mirror.svg" width=16px> [Spiegeln](Draft_Mirror/de.md)** drücken.
-    -   Den Menüeintrag **Änderung → <img src="images/Draft_Mirror.svg" width=16px> Spiegeln** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Änderung → <img src="images/Draft_Mirror.svg" width=16px> Spiegeln** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Bearbeiten → <img src="images/Draft_Mirror.svg" width=16px> Spiegeln** auswählen.
     -   Das Tastaturkürzel **M** dann **I**.
 3.  Wurde noch kein Objekt ausgewählt: Ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
 4.  Der Aufgaben-Bereich **Spiegeln** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
@@ -44,18 +45,18 @@ Siehe auch: [Draft Einrasten](Draft_Snap/de.md) und [Draft Beschränken](Draft_C
 
 Die im Aufgaben-Bereich verfügbaren Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die Standardtastenkürzel.
 
--   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press **Esc** or the **Close** button to abort the command.
+-   Um die Koordinaten des Basispunktes von Hand einzugeben, gib die X, Y und Z Komponenten ein und drücke nach jeder **Enter**. Oder du kannst die **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** Schaltfläche betätigen sobald du die gewünschten Werte hast. Es ist ratsam den Zeiger vor der Eingabe der Koordinaten aus der [3D Ansicht](3D_view/de.md) heraus zu bewegen.
+-   Drücke **R** oder wähle das **Relative** Optionsfeld um in den relativ Modus umzuschalten. Wenn der relativ Modus aktiv ist, dann sind die Koordinaten des zweiten Punktes relativ zu denen des ersten Punktes, sonst sind sie relativ zum Ursprung des Koordinatensystems
+-   Drücke **G** oder wähle das **Global** Optionsfeld um den globalen Modus umzuschalten. Wenn der Global Modus aktiv ist, dann sind die Koordinaten relativ zum globalen Koordinatensystem, sonst sind sie relativ zum Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md).
+-   Drücke **S** um [Draft Einrasten](Draft_Snap/de.md) ein oder auszuschalten.
+-   Drücke **Esc** oder die **Abbrechen** Schaltfläche um den Befehl abzubrechen.
 
 
 
 ## Hinweise
 
--   Mirrored copies of [Draft Lines](Draft_Line.md), [Draft Wires](Draft_Wire.md), [Draft Arcs](Draft_Arc.md) and [Draft Circles](Draft_Circle.md) can be turned into independent editable Draft objects by using [Draft Downgrade](Draft_Downgrade.md) and then [Draft Upgrade](Draft_Upgrade.md).
--   The [Part SimpleCopy](Part_SimpleCopy.md) command can be used to create a copy of a mirrored object that is not linked to its source object.
+-   Gespiegelte Kopien von [Draft Linie](Draft_Line/de.md), [Draft Linienzug](Draft_Wire/de.md), [Draft Bogen](Draft_Arc/de.md) und [Draft Kreis](Draft_Circle/de.md) können durch Verwenden von [ Herabstufen](Draft_Downgrade/de.md) in unabhängig editierbare Draft Objekte verwandelt werden und dann [Draft Hochstufen](Draft_Upgrade/de.md).
+-   Der Befehl [Part EinfacheKopie](Part_SimpleCopy/de.md) kann verwendet werden, um eine Kopie eines gespiegelten Objektes zu erzeugen, die nicht mit dem Ursprungsobjekt verbunden ist
 
 
 
@@ -85,7 +86,7 @@ Ein [Part Mirror](Part_Mirror.md)-Objekt ist von einem [Part Feature](Part_Featu
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Zum Spiegeln von Objekten wird die Methode `mirror` des Draft-Moduls verwendet.
 
@@ -94,15 +95,15 @@ Zum Spiegeln von Objekten wird die Methode `mirror` des Draft-Moduls verwendet.
 mirrored_list = mirror(objlist, p1, p2)
 ```
 
--    `objlist`contains the objects to be mirrored. It is either a single object or a list of objects.
+-    `objlist`enthält die Objekte die gespiegelt werden sollen. Entweder ein einzelnes Objekt oder eine Liste von Objekten.
 
--    `p1`is the first point of the mirror plane.
+-    `p1`ist der erste Punkt der Spiegelebene.
 
--    `p2`is the second point of the mirror plane.
+-    `p2`ist der zweite Punkt der Spiegelebene.
 
--   If the [Draft working plane](Draft_SelectPlane.md) is available the alignment of the mirror plane is determined by its normal, else the view direction of the camera in the active [3D view](3D_view.md) is used. If the graphical interface is not available the Z axis is used.
+-   Wenn [Draft EbeneAuswählen](Draft_SelectPlane/de.md) vorhanden ist, dann wird der Anschluss der Spiegelebene durch ihre Normale festgelegt, sonst wird die Blickrichtung der Kamera in der aktiven [3D Ansicht](3D_view/de.md) verwendet. Wenn keine graphische Schnittstelle vorhanden ist, dann wird die Z Achse verwendet.
 
--    `mirrored_list`is returned with the new `Part::Mirroring` objects. It is either a single object or a list of objects, depending on `objlist`.
+-    `mirrored_list`wird mit den neuen `Part::Mirroring` Objekten zurückgegeben. Ist abhängig von `objlist` entweder ein einzelnes Objekt oder eine Liste von Objekten.
 
 Beispiel:
 

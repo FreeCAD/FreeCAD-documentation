@@ -10,12 +10,16 @@
 
 # Std ViewRear/it
 
+
+
 ## Descrizione
 
 Il comando **Vista da dietro** orienta la camera della [Vista 3D](3D_view/it.md) nella direzione dell\'asse Y negativo.
 
 ![](images/FreeCAD_views_rear.svg ) 
 *La freccia 4 indica la direzione della vista posteriore.*
+
+
 
 ## Utilizzo
 
@@ -25,28 +29,17 @@ Il comando **Vista da dietro** orienta la camera della [Vista 3D](3D_view/it.md)
     -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewRear.svg" width=16px> Da dietro** dal menu contestuale della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **4**.
 
+
+
 ## Script
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
-
-Per passare alla vista posteriore utilizzare il metodo `viewRear` dell\'oggetto ActiveView. Questo metodo non è disponibile se FreeCAD è in modalità console.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.viewRear()
-FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
-```
+Vedere [Vista frontale](Std_ViewFront/it#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

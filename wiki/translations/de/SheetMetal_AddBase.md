@@ -32,22 +32,24 @@ Aus einer geschlossenen Kontur erzeugt er eine Grund**platte** (Platine):
 ### Profil
 
 1.  Eine <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketcher_Workbench/de.md) **mit offener Kontur** auswählen.
-2.  Den Befehl <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Basisobjekt erstellen](SheetMetal_AddBase/de.md) aktivieren durch
-    -   Die Schaltfläche **<img src="images/SheetMetal_AddBase.svg" width=16px> [Basisobjekt erstellen](SheetMetal_AddBase/de.md)**.
-    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_AddBase.svg" width=16px> Basisobjekt erstellen**.
-    -   Das Tastenkürzel: **C** dann **B**.
-3.  Einstellen der Parameter des Profils durch das Ändern der zugehörigen Werte im [Eigenschafteneditor](Property_editor/de.md):
-    -   Die {{PropertyData/de|length}} für die Profillänge.
-    -   Die {{PropertyData/de|thickness}} für die Profilwandstärke.
-    -   Die {{PropertyData/de|radius}} für den Innenradius der Bögen.
+2.  Es ist mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/SheetMetal_AddBase.svg" width=16px> [Basisobjekt erstellen](SheetMetal_AddBase/de.md)** drücken.
+    -   Den Menüeintrag **Sheet Metal → <img src="images/SheetMetal_AddBase.svg" width=16px> Basisobjekt erstellen** auswählen.
+    -   Ein Rechtsklick in die [Baumansicht](Tree_view/de.md) oder die [3D-Ansicht](3D_view/de.md) und die Menüoption **Sheet Metal → <img src="images/SheetMetal_AddBase.svg" width=16px> Basisobjekt erstellen** im Kontextmenü auswählen.
+    -   Das Tastenkürzel **C** dann **B**.
+3.  Ein **BaseBend**-Objekt wird erstellt; Ecken im Verlauf der Kontur werden automatisch in zylindrische Bögen gewandelt.
+4.  Die Parameter des Profils im [Eigenschafteneditor](Property_editor/de.md) anpassen:
+    -   Die {{PropertyData/de|length}} für die Extrusionslänge des Profils.
+    -   Die {{PropertyData/de|thickness}} für die Wandstärke des Profils.
+    -   Die {{PropertyData/de|radius}} für den Innenradius der automatisch hinzugefügten Bögen.
 
 
 
 ### Platine
 
 1.  Eine <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketcher_Workbench/de.md) **mit geschlossener Kontur** auswählen.
-2.  Den Befehl <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Basisobjekt erstellen](SheetMetal_AddBase/de.md) aktivieren (siehe oben).
-3.  Einstellen der Parameter des Profils durch das Ändern der zugehörigen Werte im [Eigenschafteneditor](Property_editor/de.md):
+2.  Den Befehl aufrufen, wie oben beschrieben.
+3.  Die Parameter der Platinne im [Eigenschafteneditor](Property_editor/de.md) anpassen:
     -   Die {{PropertyData/de|thickness}} für die Wandstärke der Platine.
 
 :   
@@ -60,37 +62,28 @@ Aus einer geschlossenen Kontur erzeugt er eine Grund**platte** (Platine):
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Ein SheetMetal-BaseBend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+Ein SheetMetal-BaseBend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet oder, wenn es sich in einem [PartDesign-Körper](PartDesign_Body/de.md) befindet, von einem [PartDesign Formelement](PartDesign_Feature/de.md) und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
 
 
 ### Daten
 
 
-{{Properties_Title/de|Basis}}
-
--    {{PropertyData/de|Label|String}}: Standard Wert: Der vom Benutzer änderbare Name dieses Objekts, der aus einer beliebigen UTF8-Zeichenkette bestehen kann.
-
--    {{PropertyData/de|Base Feature|Link|hidden}}: Base Feature. Verweis zum Eltern-Objekt.
-
--    {{PropertyData/de|_Body|LinkHidden|hidden}}: Unsichtbarer Verweis zum Eltern-Body.
-
-
 {{Properties_Title/de|Parameters}}
 
--    {{PropertyData/de|Bend Side|Enumeration}}: Profillage. Außen, innen oder mittig (entlang der Skizzenlinie),  Werte: {{value|Outside}} (standard), {{value|Inside}}, {{value| Middle}}.
+-    {{PropertyData/de|Bend Side|Enumeration}}: Profillage, legt fest, zu welcher Seite der Profilkurve die Wandstärke aufgetragen wird. {{value|Outside}} außen (Standardwert), {{value|Inside}} innen oder {{value| Middle}} mittig. (wird nicht für Platinen verwendet)
 
--    **Bend Sketch|Link**: \"Wall Sketch object\". Verweis zur Profil- bzw. Umriss-Skizze.
+-    {{PropertyData/de|Bend Sketch|Link}}: \"Wall Sketch object\". Verweis zur Profil- bzw. Umriss-Skizze.
 
--    {{PropertyData/de|Mid Plane|Bool}}: \"Extrude Symmetric to Plane\". Ausdehnung symmetrisch zur Ebene.   `True`, das Profil dehnt sich symmetrisch zu beiden Seiten der Skizzenebene aus.
+-    {{PropertyData/de|Mid Plane|Bool}}: Symmetrisch zur Ebene extrudieren. Die Ausdehnung eines Profils oder die Wandstärke einer Platine befindet sich auf einer Seite der der Skizzenebene, wenn `False` gesetzt ist (Standardwert) oder ist symmetrisch zur Skizzenebene, wenn `True` gesetzt ist.
 
--    {{PropertyData/de|Reverse|Bool}}: \"Reverse Extrusion Direction\". Extrusionsrichtung umkehren, Standardwert: `False`.
+-    {{PropertyData/de|Reverse|Bool}}: Kehrt die Richtung der Extrusion eines Profils bzw. der Wandstärke einer Platine um. Standardwert: `False`.
 
--    {{PropertyData/de|length|Length}}: \"Length of wall\". Länge des Profils, Standardwert: {{value|100,00 mm}}.
+-    {{PropertyData/de|length|Length}}: Extrusionslänge eines Profils. Standardwert: {{value|100,00 mm}}. (wird nicht für Platinen verwendet)
 
--    {{PropertyData/de|radius|Length}}: \"Bend Radius\". Biegeradius, Standardwert: {{value|1,00 mm}}.
+-    {{PropertyData/de|radius|Length}}: Innenradius der automatisch hinzugefügten Bögen. Standardwert: {{value|1,00 mm}}. (wird nicht für Platinen verwendet)
 
--    {{PropertyData/de| thickness|Length}}: \"Thickness of sheetmetal\". Blechstärke, Standardwert: {{value|1,00 mm}}.
+-    {{PropertyData/de|thickness|Length}}: Wandstärke eines Blechprofils oder einer Platine. Standardwert: {{value|1,00 mm}}.
 
 
 

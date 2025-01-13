@@ -13,9 +13,9 @@ This is the **top category** which contains the main categories of the FreeCAD w
 | [Category:Addons/tr](Category_Addons/tr.md) | [Category:Administration/tr](Category_Administration/tr.md) | [Category:API/tr](Category_API/tr.md) |
 | [Category:Categories/tr](Category_Categories/tr.md) | [Category:Command Reference/tr](Category_Command_Reference/tr.md) | [Category:Developer/tr](Category_Developer/tr.md) |
 | [Category:Documentation/tr](Category_Documentation/tr.md) | [Category:Help/tr](Category_Help/tr.md) | [Category:Hubs/tr](Category_Hubs/tr.md) |
-| [Category:Image/tr](Category_Image/tr.md) | [Category:Macros/tr](Category_Macros/tr.md) | [Category:News/tr](Category_News/tr.md) |
-| [Category:Python Code/tr](Category_Python_Code/tr.md) | [Category:Roadmap/tr](Category_Roadmap/tr.md) | [Category:Template/tr](Category_Template/tr.md) |
-| [Category:Wiki/tr](Category_Wiki/tr.md) |
+| [Category:Macros/tr](Category_Macros/tr.md) | [Category:News/tr](Category_News/tr.md) | [Category:Python Code/tr](Category_Python_Code/tr.md) |
+| [Category:Roadmap/tr](Category_Roadmap/tr.md) | [Category:Template/tr](Category_Template/tr.md) | [Category:Wiki/tr](Category_Wiki/tr.md) |
+|
 
 
 

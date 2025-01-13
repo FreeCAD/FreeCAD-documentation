@@ -13,11 +13,15 @@
 
 </div>
 
+
+
 ## Descripción
 
 Inserta un cubo primitivo en el Cuerpo activo como primera característica, o lo fusiona con la(s) característica(s) existente(s).
 
 <img alt="" src=images/PartDesign_AdditiveBox_example.png  style="width:200px;">
+
+
 
 ## Uso
 
@@ -32,12 +36,16 @@ Inserta un cubo primitivo en el Cuerpo activo como primera característica, o lo
 
 </div>
 
+
+
 ## Opciones
 
 Tras su creación, el Cubo puede ser editado de dos maneras:
 
 -   Haciendo doble clic con el ratón sobre el árbol del Modelo, o pinchando con el botón derecho y seleccionando **Editar primitiva** en el menú contextual. Con ello se abre la ventana de selección de parámetros de la Primitiva.
 -   Por medio del [Editor de propiedades](Property_editor/es.md).
+
+
 
 ## Propiedades
 

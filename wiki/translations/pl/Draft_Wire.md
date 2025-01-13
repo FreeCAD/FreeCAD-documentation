@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Wire
    Name/pl: Rysunek Roboczy: Polilinia
-   MenuLocation: Kreślenie , Polilinia
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Kreślenie , Polilinia<br>Kreślenie 2D , Polilinia
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **P** **L**
 ---
 
@@ -32,7 +32,8 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Wire.svg" width=16px> '''Polilinia'''**.
-    -   Wybierz opcję z menu **Kreślenie → <img src="images/Draft_Wire.svg" width=16px> Polilinia**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz opcję z menu **Kreślenie → <img src="images/Draft_Wire.svg" width=16px> Polilinia**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Kreślenie 2D → <img src="images/Draft_Wire.svg" width=16px> Polilinia** z menu.
     -   Użyj skrótu klawiaturowego: **P**, a następnie **L**.
 2.  Otworzy się panel zadań **Polilinia**. Zobacz [opcje](#Opcje.md) aby uzyskać więcej informacji.
 3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
@@ -43,11 +44,11 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 ### Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 1.0)*.
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź składowe X, Y i Z, i naciśnij klawisz **Enter** za każdym razem. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy ustawisz żądane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych przesunąć kursor myszki poza okno [widoku 3D](3D_view/pl.md).
 -   Naciśnij klawisz **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne są odnoszone do ostatniego punktu, jeśli jest dostępny, w przeciwnym razie są odnoszone do początku układu współrzędnych.
--   Naciśnij klawisz **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszone są do globalnego układu współrzędnych, w przeciwnym razie są odnoszone do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij klawisz **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszone są do globalnego układu współrzędnych, w przeciwnym razie są odnoszone do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij klawisz **F** lub kliknij pole wyboru **Wypełniony**, aby przełączyć tryb wypełnienia. Jeśli tryb wypełniania jest włączony, utworzona polilinia będzie miała wartość {{PropertyData/pl|Utwórz powierzchnię}} ustawioną na {{True/pl}} i będzie miała wypełnioną powierzchnię, pod warunkiem, że jest zamknięta i nie przecina się sama. Zauważ, że polilinia z powierzchnią nie będzie wyświetlana poprawnie, dla takiej konstrukcji wartość {{PropertyData/pl|Utwórz powierzchnię}} musi być ustawiona na {{False}}.
 -   Naciśnij klawisz **N** lub kliknij w pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po użyciu przycisku **<img src="images/Draft_FinishLine.svg" width=16px> Zakończ** lub **<img src="images/Draft_CloseLine.svg" width=16px> Zamknij**, lub po utworzeniu zamkniętej polilinii przez przyciągnięcie do pierwszego punktu polilinii, co pozwala na kontynuowanie tworzenia polilinii.
 -   Naciśnij klawisz **/** lub przycisk **<img src="images/Draft_UndoLine.svg" width=16px> Cofnij**, aby cofnąć ostatni punkt.

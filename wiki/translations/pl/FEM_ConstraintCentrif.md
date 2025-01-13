@@ -1,12 +1,17 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ConstraintCentrif
-|Name/pɬMES Obciążenie siłą odśrodkową
+   Name/pl: MES Obciążenie siłą odśrodkową
    MenuLocation: Model , Warunki brzegowe i obciążenia mechaniczne , Obciążenie siłą odśrodkową
    Workbenches: FEM_Workbench/pl
    Shortcut: 
    Version: 0.20
    SeeAlso: 
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: CalculiX
+}}
 ---
 
 # FEM ConstraintCentrif/pl
@@ -27,6 +32,12 @@ Definiuje obciążenie siłą odśrodkową bryły.
 2.  Podaj częstotliwość obrotów w Hz.
 3.  Wciśnij przycisk **Dodaj** w oknie **Wybór geometrii odniesienia dla Solid** i w [widoku 3D](3D_view.md) wybierz bryłę, do której obciążenie ma być przypisane.
 4.  Wciśnij przycisk **Dodaj** w oknie **Wybór geometrii odniesienia dla Edge** i w [widoku 3D](3D_view.md) wybierz krawędź, która ma stanowić oś obrotu.
+
+
+
+## Uwagi
+
+-   To narzędzia korzysta ze [słowa kluczowego \*DLOAD w CalculiX](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node190.html).
 
 
 

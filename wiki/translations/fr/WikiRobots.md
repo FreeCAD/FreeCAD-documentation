@@ -1,6 +1,8 @@
 # WikiRobots/fr
 **Les robots sont intrinsèquement dangereux car ils peuvent automatiquement faire beaucoup de dégâts. Utilisez-les avec une extrême prudence!**
 
+
+
 ## Présentation
 
 Les tâches répétitives peuvent être automatisées à l\'aide de robots ou de bots, c\'est-à-dire de programmes logiciels fonctionnant seuls sur le wiki.
@@ -28,6 +30,8 @@ Décompressez le contenu dans le répertoire de votre choix.
 À moins que vous ne vouliez installer les bibliothèques dans vos librairies Python, vous avez terminé (si vous voulez toujours les installer, vérifiez le fichier **INSTALL** dans le répertoire de base).
 
 Pywikibot fonctionne avec Python 2.6 et 2.7 sans problème. Python 3 n\'a pas été testé jusqu\'à présent avec FreeCAD wiki fonctionne également.
+
+
 
 ## Configuration
 
@@ -91,6 +95,8 @@ class Family(family.WikimediaFamily):
         #return 'https' # My server uses https
 ```
 
+
+
 ## Utilisation
 
 Vous êtes maintenant prêt à lancer les scripts de Pywikibot. Les scripts eux-mêmes sont contenus dans le sous-répertoire **/scripts**, dont vous pouvez connaître les noms.
@@ -109,6 +115,8 @@ Pour obtenir une description de l\'utilisation et des paramètres d\'un script, 
 
 Il existe un autre paramètre très utile, valable pour tous les scripts, appelé *-simulate*, qui vous permet de tester les commandes sans endommager le Wiki. Utilisez-le avant de passer en mode \'live\'.
 
+
+
 ## Exemples
 
 Cette commande permet de se connecter au wiki
@@ -121,20 +129,20 @@ Cette commande imprimera une liste de toutes les pages contenant un lien vers So
 
 {{SystemInput|pwb.py listpages.py -weblink:sourceforge.net}}
 
-Cette commande remplacera tous les liens vers l\'ancien forum SourceForge par un lien vers le nouveau forum hébergé par freecadweb.org.
+Cette commande remplacera tous les liens vers l\'ancien forum SourceForge par un lien vers le nouveau forum hébergé par freecad.org.
 
 
-{{SystemInput|pwb.py replace.py -weblink:sourceforge.net/apps/phpbb/free-cad "sourceforge.net/apps/phpbb/free-cad" "forum.freecadweb.org"}}
+{{SystemInput|pwb.py replace.py -weblink:sourceforge.net/apps/phpbb/free-cad "sourceforge.net/apps/phpbb/free-cad" "forum.freecad.org"}}
 
 Cette commande imprimera une liste de toutes les pages contenant le mot \'PartDesign\', en commençant par la page intitulée \"2d Drafting Module\" et en poursuivant par ordre alphabétique.
 
 
 {{SystemInput|pwb.py listpages.py -start:"2d Drafting Module" -grep:PartDesign}}
 
-Cette commande remplacera tous les liens sécurisés vers l\'ancien forum SourceForge par un lien vers le nouveau forum hébergé par freecadweb.org dans les pages traduites.
+Cette commande remplacera tous les liens sécurisés vers l\'ancien forum SourceForge par un lien vers le nouveau forum hébergé par freecad.org dans les pages traduites.
 
 
-{{SystemInput|pwb.py replace.py -start:Translations:! "https://sourceforge.net/apps/phpbb/free-cad" "http://forum.freecadweb.org"}}
+{{SystemInput|pwb.py replace.py -start:Translations:! "https://sourceforge.net/apps/phpbb/free-cad" "http://forum.freecad.org"}}
 
 ## Commandes liées au Wiki FreeCAD 
 
@@ -148,7 +156,7 @@ Liste de toutes les pages dans lesquelles un modèle wiki spécifique est utilis
 
 {{SystemInput|python3 pwb.py templatecount -list GuiCommand}}
 
-Remplacer une chaîne dans toutes les pages listées dans la catégorie Arch (connu comme )
+Remplacer une chaîne dans toutes les pages listées dans la catégorie Arch
 
 
 {{SystemInput|python3 pwb.py replace.py -cat:Arch}}

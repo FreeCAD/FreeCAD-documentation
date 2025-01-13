@@ -12,10 +12,19 @@
 # Arch Panel/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento consente di creare tutti i tipi di elementi simil-pannelli, in genere per le costruzioni di pannelli come nei progetti [WikiHouse](http://www.wikihouse.cc/), ma anche per tutti i tipi di oggetti che si basano su un profilo piatto.
+
+
+</div>
 
 <img alt="" src=images/Arch_Panel_example.jpg  style="width:700px;">
 
@@ -29,9 +38,15 @@ Dalla versione 0.17, il Pannello Arch può anche essere usato per creare dei pro
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 -   Selezionare una forma 2D (oggetto di Draft, faccia o schizzo) - opzionale.
 -   Premere il pulsante **<img src="images/Arch_Panel.svg" width=16px> [Pannello](Arch_Panel/it.md)**, oppure premere i tasti **P** e **A**.
 -   Regolare le proprietà come desiderate.
+
+
+</div>
 
 
 
@@ -83,7 +98,15 @@ Dalla versione 0.17, il Pannello Arch può anche essere usato per creare dei pro
 
 [API di Arch](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Pannello può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Pannello può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, name="Panel")
 ```
@@ -92,7 +115,9 @@ Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, 
     -   Se non viene fornito nessun `baseobj`, si possono fornire i valori numerici per `length`, `width`, e `thickness` per creare un blocco pannello.
 -   Se viene fornito un `placement`, esso viene utilizzato.
 
-Esempio: 
+Esempio:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -107,6 +132,20 @@ Panel = Arch.makePanel(Rect, thickness=36)
 -   [Wikihouse porting tutorial](Wikihouse_porting_tutorial/it.md)
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/it
+⏵ [documentation index](../README.md) > Arch Panel/it

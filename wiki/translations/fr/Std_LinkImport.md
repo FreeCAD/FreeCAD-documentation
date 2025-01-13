@@ -29,7 +29,7 @@ Utilisez **[<img src=images/Std_LinkImportAll.svg style="width:16px"> [Std Impor
 2.  Ouvrez le document cible et sélectionnez le lien vers l\'objet. Sa **Linked Object** doit afficher quelque chose comme {{Value|source#Part}}.
 3.  Appuyez sur **[<img src=images/Std_LinkImport.svg style="width:16px"> [Std Importer des liens](Std_LinkImport/fr.md)**.
 
-Une copie de l\'original **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** doit maintenant se trouver dans le document \"cible\" actuel. La propriété **Linked Object** du lien doit maintenant afficher {{Value|Part}} indiquant que le lien ne pointe plus vers {{Value|Part}} dans \"source\" mais vers {{Value|Part}} dans le document courant (\"cible\").
+Une copie du **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** d\'origine doit maintenant se trouver dans le document \"cible\" actuel. La propriété **Linked Object** du lien doit maintenant afficher {{Value|Part}} indiquant que le lien ne pointe plus vers {{Value|Part}} dans \"source\" mais vers {{Value|Part}} dans le document en cours (\"cible\").
 
 ![](images/Std_Link_tree_import_1_example.png ) ![](images/Std_Link_tree_import_2_example.png )
 

@@ -30,9 +30,15 @@
 ## Программирование
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
+
+
+</div>
 
 Для удаления объекта используйте метод `removeObject` объекта document.
 
@@ -47,7 +53,7 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

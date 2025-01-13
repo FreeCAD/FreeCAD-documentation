@@ -43,6 +43,8 @@ Las siguientes herramientas están disponibles en este menú:
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Cascada](Std_CascadeWindows/es.md): Acomoda las ventanas en cascada.
 
+-   \... The first 10 windows are listed here. Select a window to activate it.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -55,7 +57,7 @@ Las siguientes herramientas están disponibles en este menú:
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

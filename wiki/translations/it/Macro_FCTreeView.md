@@ -1,21 +1,14 @@
 # Macro FCTreeView/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro FCTreeView
 |Icon=Macro_FCTreeView.png
-|Translate=Macro FCTree Vista
-|Description={{ColoredText|#ff0000|#ffffff|Nuova versione GUI modificata per HD dpi (QGridLayout) run only FC version 0.18 and more (PySide2 Qt5)}} <br/> <br/>Questa macro visualizza tutti gli oggetti del progetto in un elenco con le opzioni ordinate per etichetta del nome...<br/> <br/>Per la precedente versione vedi [https://gist.githubusercontent.com/mario52a/67517ef758ff20005d0a6adcfd8c9190/raw/0a92d7f591a0a179f84b2fc417046723b4d7b0e6/Macro_FCTreeView.FCMacro Macro_FCTreeView.FCMacro] e installa la macro manuelamente.
+|Description={{ColoredText|#ff0000|#ffffff|Nuova versione GUI modificata per HD dpi (QGridLayout) eseguibile solo dalla versione FC 0.18 e successive (PySide2 Qt5)}} <br/> <br/>Macro per elencare tutti gli oggetti nel progetto in un elenco senza gerarchia, opzioni di ordinamento per nome, etichetta, visibilità, gruppo, opzioni di ricerca per lunghezza nome, etichetta .... senza distinzione tra maiuscole e minuscole o con distinzione tra maiuscole e minuscole e per selezionare tutti gli oggetti visualizzati nella finestra macro. <br/> <br/>[https://forum.freecadweb.org/download/file.php?id=70498 Pacchetto icone Macro FCTreeView] decomprimere il file .zip e copiare l'icona nella directory delle macro. <br/> <br/>Per la versione precedente cfr [https://gist.githubusercontent.com/mario52a/67517ef758ff20005d0a6adcfd8c9190/raw/0a92d7f591a0a179f84b2fc417046723b4d7b0e6/Macro_FCTreeView.FCMacro Macro_FCTreeView.FCMacro] e installarla manualmente.
 |Author=Mario52
+|Download=[https://wiki.freecad.org/images/6/64/Macro_FCTreeView.png ToolBar Icon]
 |Version=00.09
 |Date=2020-09-24
-|FCVersion=0.18 ed inferiori
-|Download=[https://forum.freecadweb.org/download/file.php?id=70498 Macro FCTreeView Icon package] decomprimere il file .zip e copiare le icona nella directory delle macro.
+|FCVersion=0.18 and below
 }}
-
-
-</div>
 
 
 
@@ -28,21 +21,9 @@ Macro per elencare tutti gli oggetti nel progetto in una lista senza gerarchia, 
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ## Utilizzo
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 ![Macro FCTreeView](images/FCTreeView.gif ) 
-
-
-</div>
 
 
 
@@ -275,7 +256,7 @@ Per evitare molte istanze il clic sul pulsante Barra degli strumenti è effetto 
 
 La macro si trova nella parte destra del dock per la modifica, modifica la riga di valore numero 133 **testing = 0** (o la modifica con il mouse come normale di un widget)
 
-The toolbar icon ![Macro FCTreeView](images/Macro_FCTreeView.png )
+Icona per la barra degli strumenti ![Macro FCTreeView](images/Macro_FCTreeView.png )
 
 **Macro_FCTreeView.FCMacro**
 
@@ -329,13 +310,7 @@ ver 00.03 (23/09/2017) : aggiungi ricerca per tipo oggetto
 
 ver 00.02 (11/09/2017) : modifica per ancorare e impedire molte istanze il clic sul pulsante è effetto flip/flop (macro nascondi/visibile)
 
-
-<div class="mw-translate-fuzzy">
-
 ver 00.01 (08/09/2017) :
-
-
-</div>
 
 
 

@@ -28,10 +28,10 @@ Damit können in einer komplexen Baugruppe eingebettete Objekte durch eine Verkn
 ## Anwendung
 
 1.  Wir benötigen ein Ojekt, das sich in einem anderen befindet. Betrachten wir z.B. eine **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Vereinigung](Part_Fuse/de.md)**, die sich in zwei zuvor erstellten Objekten befindet, z.B. einer **[<img src=images/Part_Sphere.svg style="width:16px"> [Part Kugel](Part_Sphere/de.md)** und einem **[<img src=images/Part_Cylinder.svg style="width:16px"> [Part Zylinder](Part_Cylinder/de.md)**.
-2.  Wähle <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Part Kugel](Part_Sphere/de.md) in der [Baumansicht](tree_view/de.md).
+2.  Wähle <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [Part Kugel](Part_Sphere/de.md) in der [Baumansicht](tree_view/de.md).
 3.  Klicke auf die Schaltfläche **[<img src=images/Std_LinkReplace.svg style="width:16px"> [Std DurchVerknüpfungErsetzen](Std_LinkReplace/de.md)**.
 
-Die Original-<img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Part Kugel](Part_Sphere/de.md) muß sich nun außerhalb von **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Vereinigung](Part_Fuse/de.md)** und innerhalb eine Verknüpfung statt dessen befinden. Im Icon wird ein kleiner überlagernder Pfeil gezeigt.
+Die Original-<img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [Part Kugel](Part_Sphere/de.md) muß sich nun außerhalb von **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Vereinigung](Part_Fuse/de.md)** und innerhalb eine Verknüpfung statt dessen befinden. Im Icon wird ein kleiner überlagernder Pfeil gezeigt.
 
 ![](images/Std_Link_tree_replace_fuse_1_example.png ) ![](images/Std_Link_tree_replace_fuse_2_example.png )
 

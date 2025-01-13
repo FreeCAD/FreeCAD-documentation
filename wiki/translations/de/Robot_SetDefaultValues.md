@@ -1,53 +1,40 @@
-# Robot SetDefaultValues/de
 ---
- GuiCommand:   Name: Robot SetDefaultValues   Workbenches: Robot_Workbench/de   Robot|MenuLocation: Roboter , Festlegen von Standardwerten---
+ GuiCommand:
+   Name: Robot SetDefaultValues
+   Name /de : Robot SetDefaultValues
+   MenuLocation: Robot , Standardwerte festlegen
+   Workbenches: Robot_Workbench /de 
+---
+
+# Robot SetDefaultValues/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-#### Beschreibung
-
-Setzen der Standardwerte für das Erzeugen von Wegpunkten.
+Setzt die Standardwerte für das Erzeugen von Wegpunkten.
 
 
-</div>
 
-## Usage
+## Anwendung
 
+1.  Den Menüeintrag **Robot** → **<img src="images/Robot_SetDefaultValues.svg" width=32px> Set default values** auswählen zum festlegen von:
 
-<div class="mw-translate-fuzzy">
+:  - Geschwindigkeit
 
-#### Anwendung
+:  - Modus (fortlaufend?)
 
-Wählen Sie ** Roboter** → ** Festlegen von Standardwerten** aus dem Top-Menü zur Definition von
-
--   Geschwindigkeit
--   Modus (fortlaufend?)
--   Beschleunigung
+:  - Beschleunigung
 
 
-</div>
 
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-#### Anmerkungen
+## Hinweise
 
 Die Standardwerte des Programms sind
 
 -   Geschwindigkeit = 1 m/s
--   fortlaufend? = false
+-   Fortlaufend = false
 -   Beschleunigung = 1 m/s\^2
-
-
-</div>
 
 
 

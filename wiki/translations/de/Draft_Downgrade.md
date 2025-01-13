@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Downgrade
-   Name/de: Entwurf Herabstufen
-   MenuLocation: Änderung , Herabstufen
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Name/de: Draft Herabstufen
+   MenuLocation: Änderung , Herabstufen<br>Bearbeiten , Zurückstufen
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **D** **N**
    SeeAlso: Draft_Upgrade/de, Part_Cut/de
 ---
@@ -26,7 +26,8 @@ Der <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Entwurf H
 1.  Wahlweise ein oder mehrere Objekte auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_Downgrade.svg" width=16px> [Draft Herabstufen](Draft_Downgrade/de.md)**.
-    -   Den Menüeintrag **Änderung → <img src="images/Draft_Downgrade.svg" width=16px> Herabstufen** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Änderung → <img src="images/Draft_Downgrade.svg" width=16px> Herabstufen** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Modify → <img src="images/Draft_Downgrade.svg" width=16px> Zurückstufen** auswählen.
     -   Das Tastaturkürzel **D** dann **N**.
 3.  Wurde noch kein Objekt ausgewählt: Ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
 
@@ -34,7 +35,7 @@ Der <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Entwurf H
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um Objekte herabzustufen, verwende die `downgrade` Methode des Entwurf Moduls.
 

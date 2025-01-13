@@ -20,7 +20,7 @@ The <img alt="" src=images/Part_Tube.svg  style="width:24px;"> **Part Tube** com
 ### Create
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Tube.svg" width=16px> [Part Tube](Part_Tube.md)** button.
+    -   Press the **<img src="images/Part_Tube.svg" width=16px> [Create tube](Part_Tube.md)** button.
     -   Select the **Part → Primitives → <img src="images/Part_Tube.svg" width=16px> Create tube** option from the menu.
 2.  The **Tube** task panel opens and a preview of the tube is displayed in the [3D view](3D_view.md).
 3.  Specify the dimensions.

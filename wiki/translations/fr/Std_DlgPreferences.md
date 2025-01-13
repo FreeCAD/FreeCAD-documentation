@@ -4,6 +4,7 @@
    Name/fr: Std Préférences
    MenuLocation: Édition , Préférences...
    Workbenches: Tous
+   Shortcut: **Ctrl**+**,**
    SeeAlso: Preferences_Editor/fr
 ---
 
@@ -17,7 +18,9 @@ La commande **Std Préférences** ouvre le [Réglage des préférences](Preferen
 
 ## Utilisation
 
-1.  Sélectionnez l\'option **Édition → <img src="images/Std_DlgPreferences.svg" width=16px> Préférences...** dans le menu.
+1.  Il existe plusieurs façons de lancer la commande :
+2.  Sélectionnez l\'option **Édition → <img src="images/Std_DlgPreferences.svg" width=16px> Préférences...** du menu.
+    -   Utilisez le raccourci clavier : **Ctrl**+**,**. {{Version/fr|1.1}}
 
 
 
@@ -30,7 +33,7 @@ La commande **Std Préférences** ouvre le [Réglage des préférences](Preferen
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

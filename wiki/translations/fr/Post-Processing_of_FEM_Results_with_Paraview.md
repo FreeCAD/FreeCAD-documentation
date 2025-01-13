@@ -1,6 +1,6 @@
 ---
  TutorialInfo:r
-   Topic: Post-traitement des résultats FEM avec Paraview
+   Topic: FEM Post-traitement des résultats FEM avec Paraview
    Level: Intermédiaire
    Time: 120 minutes
    Author: http://www.freecadweb.org/wiki/index.php?title=User: HarryvL
@@ -123,7 +123,7 @@ L\'emplacement et l\'orientation de la tranche peuvent être modifiés en faisan
 
 <img alt="" src=images/PVPic18.png  style="width:400px;">
 
-Pour vous débarrasser des boîtes englobantes, désélectionnez Show Plane box en haut de la boîte de dialogue Paramètres du plan.
+Pour vous débarrasser des boîtes englobantes, désélectionnez Show Plane box en haut de la fenêtre de dialogue Paramètres du plan.
 
 <img alt="" src=images/PVPic19.png  style="width:700px;">
 

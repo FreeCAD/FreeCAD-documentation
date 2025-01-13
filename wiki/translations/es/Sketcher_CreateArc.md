@@ -16,15 +16,25 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 Esta herramienta dibuja arcos indicando tres puntos: el centro, el ángulo inicial a lo largo del radio, y el radio final.
 
-Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de arco rojo. Además las coordenadas del puntero se muestran al lado de azul en tiempo real.
 
-<img alt="El centro ha sido seleccionado, arrastrando para establecer el radio‎" src=images/Sketcher_ArcExample1.png ) ![El centro y el ángulo inicial han sido seleccionados, arrastrando para establecer el ángulo final‎](images/Sketcher_ArcExample2.png  style="width:407" height="360px;">
+</div>
+
+<img alt="" src=images/Sketcher_ArcExample3.png  style="width:400px;"> 
+*Arc created in Center mode with automatically applied constraints defined by entering all On-View-Parameters*
 
 
 
 ## Utilización
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
+Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">

@@ -5,7 +5,7 @@
    MenuLocation: Esquisse , Outils d'esquisse , Décaler une géométrie
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **Z** **T**
-   Version: 0.22
+   Version: 1.0
    SeeAlso: 
 ---
 
@@ -13,7 +13,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/Sketcher_Offset.svg  style="width:24px;"> [Sketcher Décaler une géométrie](Sketcher_Offset/fr.md) dessine des bords équidistants autour de bords sélectionnés. Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône de décalage rouge :  <img alt="" src=images/Sketcher_Pointer_Create_Offset.svg  style="width:32px;"> .
+L\'outil <img alt="" src=images/Sketcher_Offset.svg  style="width:24px;"> [Sketcher Décaler](Sketcher_Offset/fr.md) crée des arêtes équidistantes autour des arêtes sélectionnées.
 
 <img alt="" src=images/Sketcher_OffsetExample.png‎  style="width:400px;"> 
 *Arêtes équidistantes autour d'une polyligne de construction fermée (O) et ouverte (U)*
@@ -22,18 +22,36 @@ L\'outil <img alt="" src=images/Sketcher_Offset.svg  style="width:24px;"> [Sketc
 
 ## Utilisation
 
-1.  Sélectionner une ou plusieurs arêtes.
-2.  Il y a plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Sketcher_Offset.svg" width=16px> [Décaler une géométrie](Sketcher_Offset/fr.md)**.
-    -   Sélectionnez l\'option **Sketcher → Outils Sketcher → <img src="images/Sketcher_Offset.svg" width=16px> Décaler une géométrie** du menu.
-    -   Le raccourci clavier : **Z** puis **T**.
-3.  Une section **Paramètres du décalage** est ajoutée en haut du [panneau des tâches](Task_panel/fr.md).
-4.  Vous pouvez modifier le **Mode** de {{Value|Arc}} (par défaut) à {{Value|Intersection}}.
-5.  Vous pouvez cocher la case **Supprimer les géométries d\'origine** pour ne conserver que le nouveau contour.
-6.  Vous pouvez cocher la case **Ajouter une contrainte de décalage** pour ajouter une contrainte dimensionnelle entre le contour décalé et la géométrie d\'origine.
-7.  Faites glisser le curseur et cliquez, ou entrez une distance pour définir le décalage et terminer la commande. Cette opération supprime également la section **Paramètres du décalage** du panneau des tâches.
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
 
-Si l\'option **Ajouter une contrainte de décalage** a été activée, le décalage peut être ajusté en modifiant la contrainte dimensionnelle.
+Dim-OVP = [Paramètres d\'affichage](Sketcher_Preferences/fr#Général.md) des dimensions.
+
+1.  Sélectionnez une ou plusieurs lignes, cercles et/ou arcs de cercle.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_Offset.svg" width=16px> [Décaler la géométrie](Sketcher_Offset/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Outils d'esquisse → <img src="images/Sketcher_Offset.svg" width=16px> Décaler la géométrie** du menu.
+    -   Cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **<img src="images/Sketcher_Offset.svg" width=16px> Décaler la géométrie** du menu contextuel.
+    -   Utilisez le raccourci clavier : **Z** puis **T**.
+3.  Le curseur se transforme en croix avec l\'icône de l\'outil.
+4.  La section **Paramètres du décalage** est ajoutée en haut de la [fenêtre de dialogue de l\'esquisse](Sketcher_Dialog/fr.md).
+5.  Vous pouvez appuyer sur la touche **U** ou cochez la case **Supprimer les géométries d\'origine** pour ne conserver que le nouveau contour.
+6.  Appuyez sur la touche **J** ou cochez la case **Ajouter une contrainte de décalage** pour ajouter une contrainte de dimension entre le contour décalé et la géométrie d\'origine.
+7.  Appuyez sur la touche **M** ou sélectionnez dans la liste déroulante de la section des paramètres pour changer le mode de l\'outil :
+    -   <img alt="" src=images/Sketcher_OffsetArc.svg  style="width:16px;"> 
+**Arc**
+    -   <img alt="" src=images/Sketcher_OffsetIntersection.svg  style="width:16px;"> 
+**Intersection**
+8.  Choisissez un point pour définir la distance de décalage, ou avec Dim-OVP : entrez cette distance.
+9.  La géométrie est créée et si **Ajouter une contrainte de décalage** a été sélectionné, une contrainte dimensionnelle est ajoutée.
+
+## Limitations
+
+Cet outil présente certaines limitations, principalement dues à des problèmes liés à d\'[OCC](OpenCASCADE/fr.md) :
+
+-   Les types de géométrie suivants ne sont actuellement pas pris en charge : ellipses, B-splines, hyperboles et paraboles.
+-   Le décalage d\'une seule ligne peut donner des résultats inattendus.
+-   Les profils ouverts sont décalés des deux côtés, ce qui crée un contour fermé.
+-   La géométrie externe ne peut pas être décalée directement.
 
 
 

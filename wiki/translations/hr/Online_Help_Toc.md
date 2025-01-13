@@ -1,23 +1,9 @@
 # Online Help Toc/hr
-<div class="mw-translate-fuzzy">
+Ako imate bilo kakvih pitanja ili vam je potrebna pomoć sa FreeCAD-om, molimo pogledajte [Stranica pomoći](Help/hr.md), najprije.
 
-Ovo je sadržaj koji se koristi za automatsku izgradnju sustava pomoći u FreeCAD-u. Verzija za ispis (printanje) ovog priručnika je dostupna na [releases page](https://github.com/FreeCAD/FreeCAD/releases) na Engleskom jeziku. Ako imate bilo kakvih pitanja ili vam je potrebna pomoć sa FreeCAD-om, molimo pogledajte [Stranica pomoći](Help/hr.md), uključujući forume i grupe za chat.
-
-
-</div>
-
-Postoji još jedna tablica sadržaja za[FreeCAD Uputstva](Manual:Introduction/hr.md).
-
-
-<div class="mw-translate-fuzzy">
+Postoji još jedna tablica sadržaja za [FreeCAD Uputstva](Manual:Introduction/hr.md).
 
 <img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   Uvod
     -   [Dobro došli](Online_Help_Startpage/hr.md)
@@ -28,136 +14,95 @@ Postoji još jedna tablica sadržaja za[FreeCAD Uputstva](Manual:Introduction/hr
     -   [Instaliraj u Mac](Install_on_Mac/hr.md)
     -   [Instaliranje dodatnih sadržaja](Installing/hr.md)
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   Raditi sa FreeCAD-om
     -   [Prvi koraci](Getting_started/hr.md)
-    -   [Navigacija u 3D prostoru](Mouse_Model/hr.md)
+    -   [Navigacija mišem](Mouse_nvigation/hr.md)
+    -   [Metode odabira](Selection_methods/hr.md)
     -   [Korištenje navigacijeke kocke](Navigation_Cube/hr.md)
     -   [FreeCAD Dokument](Document_structure/hr.md)
     -   [Rad sa parametrijskim objektima](Property_editor/hr.md)
-    -   [Rad sa radnim površinama](Workbenches/hr.md)
-    -   [Uvoz i Izvoz u druge datotečne formate](Import_Export/hr.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   The [Radne površine](Workbenches/hr.md)
-    -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Arhitektura](Arch_Workbench/hr.md)
-    -   [(Draft) Nacrt](Draft_Workbench/hr.md)
-    -   [Crtež](Drawing_Workbench/hr.md)
-    -   [FEM Moduli](FEM_Workbench/hr.md)
-    -   [(Image) Slike](Image_Workbench/hr.md)
-    -   [Inspekcija](Inspection_Workbench/hr.md)
-    -   [(Mesh) Mreža](Mesh_Workbench/hr.md)
-    -   [OpenSCAD modul](OpenSCAD_Workbench.md)
-    -   [(Part) Dijelovi](Part_Workbench/hr.md)
-    -   [(PartDesign) Dizajniranje Dijelova](PartDesign_Workbench/hr.md)
-    -   [(The Path) Putanja](Path_Workbench/hr.md)
-    -   [(The Plot) Ispis](Plot_Workbench/hr.md)
-    -   [(The Points) Točke](Points_Workbench.md)
-    -   [(The Raytracing) Tekstura](Raytracing_Workbench/hr.md)
-    -   [(The Reverse Engineering) ](Reverse_Engineering_Workbench.md)
-    -   [(The Robot) ](Robot_Workbench.md)
-    -   [(The Ship) Brod](Ship_Workbench/hr.md)
-    -   [(The Sketcher) Crtač](Sketcher_Workbench.md)
-    -   [(The Spreadsheet) Tabela](Spreadsheet_Workbench/hr.md)
-    -   [(The Start) Početak](Start_Workbench.md)
-    -   [The Surface workbench](Surface_Workbench.md)
-    -   [(The Techdraw) Tehničko Crtanje](TechDraw_Workbench/hr.md)
-    -   [(The Test Framework) Debag](Debugging/hr.md)
-    -   [(The Web) Web](Web_Workbench.md)
-    -   [External workbenches](External_workbenches.md)
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [(Arch) Arhitektura](Arch_Workbench/hr.md)
+    -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [(Standard) za sve radne površine](Std_Base.md)
+    -   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> [(Assembly) Sastavljanje](Assembly_Workbench.md) (<small>(v1.0)</small> )
+    -   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> [BIM](BIM_Workbench.md) (kombinira Arch Workbench i vanjski BIM Workbench dostupan u {{VersionMinus|0.21}})
+    -   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> [CAM](CAM_Workbench.md) (nazvana još \"Path Workbench\" {{VersionMinus|0.21}})
+    -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [(Draft) Nacrt](Draft_Workbench.md)
+    -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM](FEM_Workbench.md)
+    -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [(Inspection) Provjera ](Inspection_Workbench.md)
+    -   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> [The Material](Material_Workbench.md) (<small>(v1.0)</small> )
+    -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [(Mesh) Mreža](Mesh_Workbench.md)
+    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Workbench.md)
+    -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [(Part) Dijelovi](Part_Workbench.md)
+    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [(PartDesign) Modeliranje Dijelova](PartDesign_Workbench.md)
+    -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [(Points) Točke](Points_Workbench.md)
+    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [Reverse Engineering](Reverse_Engineering_Workbench.md)
+    -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [Robot](Robot_Workbench.md)
+    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [(Sketcher) Crtač](Sketcher_Workbench.md)
+    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [(Spreadsheet) Tabela](Spreadsheet_Workbench.md)
+    -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [(Surface) Površina](Surface_Workbench.md)
+    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [(Techdraw) Tehničko crtanje](TechDraw_Workbench.md)
+    -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Test Framework](Testing.md)
+    -   [External](External_workbenches.md)
 
 -   [Lista svih komandi FreeCAD-a](List_of_Commands/hr.md)
 -   [Vježbe](Tutorials/hr.md)
 
-
-</div>
-
--   [List of file formats (import-export)](Import_Export.md)
+-   [Lista datotečnih formata (import-export)](Import_Export.md)
 
 -   [FAQ](Frequently_asked_questions.md)
 
 -   [Workarounds](Workarounds.md)
 
--   [Tutorials](Tutorials.md)
-
-
-<div class="mw-translate-fuzzy">
+-   [Vježbe](Tutorials.md)
 
 -   Prilagodba FreeCAD-a
     -   [Prilagodba sučelja](Interface_Customization/hr.md)
     -   [Postavljanje glavnih postavki](Preferences_Editor/hr.md)
     -   [Postavljanje postavki uvoza i izvoza](Import_Export_Preferences/hr.md)
+    -   [Pokretanje i konfiguracija](Start_up_and_Configuration.md)
 
+-   [Programiranje i makro naredbe](Scripting_and_macros.md)
+    -   [Rad sa makro naredbama](Macros.md)
+    -   [Programiranje Uputstvo](Scripts.md)
+    -   [Uvod u Python](Introduction_to_Python.md)
+    -   [Python programiranje Uputstvo](Python_scripting_tutorial.md)
+    -   [FreeCAD programiranje basics](FreeCAD_Scripting_Basics.md)
+    -   [Part (Dio) skripta](Part_scripting.md)
+    -   [Shape (Oblik)skripta](Topological_data_scripting.md)
+    -   [Programirani objekati](Scripted_objects.md)
+    -   [Kružni diagram](Scenegraph.md)
+    -   [Rad sa Pivy](Pivy.md)
+    -   [Rad sa PySide](PySide.md)
+    -   [Interface (Sučelje)](Interface_creation.md)
+    -   [Stvaranje dijaloga](Dialog_creation.md)
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Skripta i makro naredbe
-    -   [Uvod u Python](Introduction_to_Python/hr.md)
-    -   [Python skripta vježbe](Python_scripting_tutorial/hr.md)
-    -   [FreeCAD Skripta Basics](FreeCAD_Scripting_Basics/hr.md)
-    -   [Mesh Skripta](Mesh_Scripting/hr.md)
-    -   [Dijelovi skripta](Topological_data_scripting/hr.md)
-    -   [Konvertiranje između Meshes i Parts](Mesh_to_Part/hr.md)
-    -   [The Coin Scenegraph](Scenegraph/hr.md)
-    -   [Rad sa Pivy](Pivy/hr.md)
-    -   [Rad sa PySide](PySide/hr.md)
-    -   [Izrada parametarskih objekata](Scripted_objects/hr.md)
-    -   [Integracija FreeCAD-a](Embedding_FreeCAD/hr.md)
-    -   Primjeri skripta
-        -   [Code snippets](Code_snippets/hr.md)
-        -   [Funkcija crtanja linija](Line_drawing_function/hr.md)
-        -   [Stvaranje dijaloga](Dialog_creation/hr.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Razvojne aplikacije za FreeCAD
+-   Razvoj
     -   [Licenca](Licence.md)
     -   Kompiliraj FreeCAD
-        -   [Potražite podršku](Tracker.md)
         -   [Kompiliranje na Windowsima](Compile_on_Windows/hr.md)
-        -   [Kompiliranje na Unix](Compile_on_Linux.md)
+        -   [Kompiliranje na Linux-u](Compile_on_Linux.md)
         -   [Kompiliranje na Mac](Compile_on_MacOS/hr.md)
-        -   [Kompiliranje (ubrzanje)](Compiling_(Speeding_up)/hr.md)
+        -   [Kompiliranje na Docker](Compile_on_Docker.md)
+        -   [Kompiliranje na Docker CLI mode](FreeCAD_Docker_CLI_mode.md)
+        -   [Kompiliranje (speeding up)](Compiling_(Speeding_up).md)
         -   [Dodatni izvori koda](Third_Party_Libraries.md)
         -   [Dodatni programi](Third_Party_Tools.md)
-        -   [Pokretanje i konfiguracija](Start_up_and_Configuration.md)
     -   Alati podrške za izgradnju
-        -   [The FreeCAD build tool](FreeCAD_Build_Tool.md)
-        -   [Adding a workbench](Workbench_creation.md)
+        -   [Potražite podršku](Tracker.md)
         -   [Debugging FreeCAD](Debugging/hr.md)
         -   [Testiranje FreeCAD-a](Testing.md)
+        -   [The FreeCAD build tool](FreeCAD_Build_Tool.md)
         -   [Integracija](Continuous_Integration.md)
     -   Prilagodite FreeCAD
         -   [Brendiranje](Branding/hr.md)
         -   [Prevedi FreeCAD](Localisation/hr.md)
+        -   [Dodavanje radne površine](Workbench_creation.md)
         -   [Instalacija extra python modula](Extra_python_modules.md)
     -   [Dokumentacija izvora](Source_documentation/hr.md)
-
-
-</div>
+    -   [API](https://www.freecadweb.org/api/)
 
 -   Credits
     -   [Suradnici](Contributors/hr.md)

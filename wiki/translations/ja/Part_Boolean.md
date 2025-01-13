@@ -11,7 +11,7 @@
 
 </div>
 
-このコマンドはブーリアン用ツールを一つにまとめたものです。実行される操作と使用されるパラメーターを下記のダイアログから指定することができます。より手軽なブーリアン演算については[Part Fuse](Part_Fuse/jp.md)、[Part Common](Part_Common/jp.md)、[Part Cut](Part_Cut/jp.md)も見てください。
+ このコマンドはブーリアン用ツールを一つにまとめたものです。実行される操作と使用されるパラメーターを下記のダイアログから指定することができます。より手軽なブーリアン演算については[Part Fuse](Part_Fuse/jp.md)、[Part Common](Part_Common/jp.md)、[Part Cutも](Part_Cut/jp.md)見てください。
 
 ![](images/Dialog-boolean.jpg )
 
@@ -48,14 +48,6 @@ See the individual commands:
 **
     
 
-
-<div class="mw-translate-fuzzy">
-
-See also Part → [Refine Shape](Part_RefineShape.md)
-
-
-</div>
-
 ## Coplanar problems 
 
 The boolean operations are performed by the internal geometry kernel, [OpenCASCADE Technology](OpenCASCADE.md) (OCCT). This library sometimes has problems producing boolean results when the input objects share an edge or a face. To be sure the boolean operation is successful the recommendation is that the shapes intersect each other clearly; this means that in most cases, one shape should protrude or be larger in size than the other shape.
@@ -77,6 +69,14 @@ In cases of coplanarity, even if the first boolean operation succeeds, subsequen
 
 
 *Left: shapes that share a face, a boolean union may produce incorrect results. Right: shapes that intersect each other clearly, the boolean union will be successful in most cases.*
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

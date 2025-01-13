@@ -4,7 +4,7 @@
    Name/de: TechDraw Hilfskreis
    MenuLocation: TechDraw , Linien hinzufügen , Hilfskreis hinzufügen
    Workbenches: TechDraw_Workbench/de
-   Version: 0.22
+   Version: 1.0
    SeeAlso: TechDraw_2PointCosmeticLine/de
 ---
 
@@ -26,21 +26,15 @@ Das Werkzeug **TechDraw Hilfskreis** fügt an einem ausgewählten Mittelpunkt ei
 
 ## Anwendung, Erstellen 
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-1.  Select a center point in a TechDraw View or in the [3D view](3D_view.md).
-2.  If you have selected a point in the 3D view: add the correct TechDraw View to the selection by selecting it in the [Tree view](Tree_view.md).
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_CosmeticCircle.svg" width=16px> [Add Cosmetic Circle](TechDraw_CosmeticCircle.md)** button.
-    -   Select the **TechDraw → Add Lines → <img src="images/TechDraw_CosmeticCircle.svg" width=16px> Add Cosmetic Circle** option from the menu.
-4.  A task panel opens.
-5.  Optionally adjust the coordinates of the center point, the radius, and the start and end angles of the circle.
-6.  Press the **OK** button.
-7.  A cosmetic circle is added. In the case of a 3D center point, the circle is located at the projection of the point.
-
-
-</div>
+1.  Einen Punkt in einer TechDraw-Ansicht oder in der [3D-Ansicht](3D_view/de.md) auswählen.
+2.  Wurde ein Punkt in der 3D-Ansicht ausgewählt: Die korrekte TechDraw-Ansicht zur Auswahl hinzufügen, indem sie in der [Baumansicht](Tree_view/de.md) ausgewählt wird.
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_CosmeticCircle.svg" width=16px> [Hilfkreis hinzufügen](TechDraw_CosmeticCircle.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Linien hinzufügen → <img src="images/TechDraw_CosmeticCircle.svg" width=16px> Hilfskreis hinzufügen** auswählen.
+4.  Der Aufgaben-Bereich wird geöffnet.
+5.  Wahlweise die Koordinaten des Mittelpunktes, den Radius sowie Start- und Endwinkel des Kreises anpassen.
+6.  Die Schaltfläche **OK** drücken.
+7.  Ein Hilfskreis wird hinzugefügt. Im Falle eines 3D-Mittelpunktes wird der Kreis auf der Projektion des Punktes plaziert.
 
 
 
@@ -48,25 +42,19 @@ Das Werkzeug **TechDraw Hilfskreis** fügt an einem ausgewählten Mittelpunkt ei
 
 Zum Ändern der Attribute eines Hilfskreises:
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-1.  Select the cosmetic circle.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_CosmeticCircle.svg" width=16px> [Add Cosmetic Circle](TechDraw_CosmeticCircle.md)** button.
-    -   Select the **TechDraw → Add Lines → <img src="images/TechDraw_CosmeticCircle.svg" width=16px> Add Cosmetic Circle** option from the menu.
-3.  A task panel opens.
-4.  Adjust the coordinates of the center point, the radius, or the start and end angles of the circle.
-5.  Press the **OK** button.
-
-
-</div>
+1.  Den Hilfskreis auswählen..
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_CosmeticCircle.svg" width=16px> [Hilfkreis hinzufügen](TechDraw_CosmeticCircle.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Linien hinzufügen → <img src="images/TechDraw_CosmeticCircle.svg" width=16px> Hilfskreis hinzufügen** auswählen.
+3.  Der Aufgaben-Bereich wird geöffnet.
+4.  Die Koordinaten des Mittelpunktes, den Radius sowie Start- und Endwinkel des Kreises anpassen.
+5.  Die Schaltfläche **OK** drücken.
 
 
 
 ## Hinweise
 
--   Zum Löschen eines Hilfskreises wird <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw HilfsobjektEntfernen](TechDraw_CosmeticEraser/de.md) verwendet; alternativ wird das Objekt ausgewählt und die Löschtaste gedrückt.
+-   Um einen Hilfskreis zu löschen, wird er ausgewählt und die **Entf**-Taste gedrückt. {{Version/de|0.22}}
 -   Um die Darstellung eines Hilfskreises anzupassen, wird <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [TechDraw LiniendarstellungÄndern](TechDraw_DecorateLine/de.md) verwendet.
 
 
@@ -79,7 +67,7 @@ Hilfskreise haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte sind
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Hilfskreise können mit der Methode {{Incode|makeCosmeticCircle(center, radius, start angle, end angle)}} von DrawViewPart erstellt werden.
 
@@ -87,7 +75,7 @@ Hilfskreise können mit der Methode {{Incode|makeCosmeticCircle(center, radius, 
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

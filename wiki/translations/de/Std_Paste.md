@@ -32,20 +32,22 @@ Der Befehl **Std Einfügen** fügt Objekte aus der Zwischenablage in das aktuell
 
 -   FreeCAD ändert die internen Namen automatisch und, abhängig von den Einstellungen, auch die Label der Objekte, um Namenskonflikte zu vermeiden.
 -   Ein Zellen-Alias einer Kalkulationstabelle, der schon in der Tabelle existiert, wird nicht eingefügt.
--   Wenn man in FreeCAD in einem Textfenster, einem Eingabefeld, oder einer Kalkulationstabelle arbeitet, ruft das Tastaturkürzel **Strg**+**V** in fast allen Fällen nicht den Befehl **Std Einfügen** auf, sondern verwendet stattdessen die Funktion Einfügen des Betriebssystems.
+-   Wenn man in FreeCAD in einem Textfenster, einem Eingabefeld, oder einer Kalkulationstabelle arbeitet, ruft das Tastaturkürzel **Strg**+**V** in fast allen Fällen nicht diesen Befehl auf, sondern verwendet stattdessen die Funktion Einfügen des Betriebssystems.
 -   Es ist nicht möglich mit FreeCAD erzeugte Objekte durch Kopieren und Einfügen zwischen FreeCAD und anderen Anwendungen auszutauschen.
 
 
 
 ## Einstellungen
 
--   Duplizierte Label sind erlaubt, wenn **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Document → DuplicateLabels** auf `True` gesetzt ist. Diese Einstellung kann auch im [Voreinstellungseditor](Preferences_Editor/de#Dokument.md) geändert werden.
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Um doppelte Benennungen (label) zu erlauben, wird die Option **Bearbeiten → Einstellungen... → Allgemein → Dokument → Doppelte Objektbezeichnungen in einem Dokument zulassen** aktiviert. Dies wird aber nicht empfohlen
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

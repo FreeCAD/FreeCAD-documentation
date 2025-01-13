@@ -1,174 +1,205 @@
 ---
  GuiCommand:
    Name: Std DependencyGraph
-   MenuLocation: Tools , Dependency graph...
-   Workbenches: All
+   Localização do menu: Ferramentas , Gráfico de dependência...
+   Bancadas: Todo
 ---
 
 # Std DependencyGraph/pt-br
 
 
+</div>
+
+
 
 ## Descrição
 
-The **Std DependencyGraph** command displays the dependencies between objects in the active document in a \'dependency graph\'. As opposed to the [Tree view](Tree_view.md), objects are listed in reverse chronological order, with the first created object at the bottom.
 
-It can be useful in analyzing a FreeCAD document and locating forks in a tree. The dependency graph layout will depend on which workbench was used to create the objects in the document. For example a model made exclusively in the [PartDesign](PartDesign_Workbench.md) workbench can display a linear dependency graph with a single vertical branch. A model made with [Part](Part_Workbench.md) operations will have many branches, but for a single part they will join up at the top after [Boolean](Part_Boolean.md) operations. If they don\'t, it means that they are separate objects.
+<div class="mw-translate-fuzzy">
 
-The dependency graph is purely a visualization tool, therefore it cannot be edited. It automatically updates if changes are made to the model.
+O comando Std DependencyGraph exibe as dependências entre objetos no documento ativo em um \'gráfico de dependência\'. Ao contrário do modo de [Vista em árvore](Tree_view/pt-br.md), os objetos são listados em ordem cronológica inversa, com o primeiro objeto criado na parte inferior.
+
+
+</div>
+
+le pode ser útil na análise de um documento FreeCAD e na localização de bifurcações em uma árvore. O layout do gráfico de dependência dependerá de qual bancada de trabalho foi usada para criar os objetos no documento. Por exemplo, um modelo feito exclusivamente na bancada de trabalho [PartDesignpode](PartDesign_Workbench/pt-br.md) exibir um gráfico de dependência linear com uma única ramificação vertical. Um modelo feito com operações da bancada [Part](Part_Workbench/pt-br.md) terá muitas filiais, mas para uma única parte elas se juntarão no topo após as operações [booleanasbooleanas](Part_Boolean/pt-br.md). Se não o fizerem, significa que são objetos separados.
+
+O gráfico de dependência é puramente uma ferramenta de visualização, portanto, não pode ser editado. Ele é atualizado automaticamente se forem feitas alterações no modelo.
 
 <img alt="" src=images/Std_DependencyGraph_example.svg  style="width:400px;"> 
-*Example of a dependency graph with a PartDesign body on the left and an object created with Part operations on the right*
+*Exemplo de um gráfico de dependência com um corpo PartDesign à esquerda e um objeto criado com operações Part à direita*
 
-## Installation
 
-To use the command a third-party software named [Graphviz](http://graphviz.org/) needs to be installed. If you do not have it pre-installed or it is installed in an unconventional location, FreeCAD will display the following dialog:
+
+## Instalação
+
+
+<div class="mw-translate-fuzzy">
+
+Para usar o comando, um software de terceiros chamado [Graphviz](http://graphviz.org/)precisa ser instalado. Se você não o tiver pré-instalado ou se ele estiver instalado em um local não convencional, o FreeCAD exibirá a seguinte caixa de diálogo:
+
+
+</div>
 
 ![](images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png )
 
 ### Windows
 
-Download the **graphviz-2.xx** installer from the [Graphviz Download page](https://graphviz.org/download/#windows) and launch it to install it. Some older versions seem to have issues displaying the graph; version 2.38 and newer are known to be reliable. You can find all graphviz releases on [Gitlab](https://gitlab.com/graphviz/graphviz/-/releases).
+Baixe o instalador do graphviz-2.xx na [página Download do Graphviz](https://graphviz.org/download/#windows) e inicie-o para instalá-lo. Algumas versões mais antigas parecem ter problemas para exibir o gráfico; A versão 2.38 e mais recente são conhecidas por serem confiáveis. Você pode encontrar todas as versões do graphviz no [Gitlab](https://gitlab.com/graphviz/graphviz/-/releases).
 
 ### macOS
 
-You can install Graphviz using [Homebrew](https://brew.sh/) if you have macOS Big Sur (11) (or higher). While installing Homebrew, don\'t get nervous, if macOS asks you to install updates, e.g. for the Xcode commandline tools. These updates are performed later by the installation process.
+Você pode instalar o Graphviz usando [Homebrew](https://brew.sh/) se tiver o macOS Big Sur (11) (ou superior). Ao instalar o Homebrew, não fique nervoso, se o macOS pedir que você instale atualizações, por exemplo, para as ferramentas de linha de comando do Xcode. Essas atualizações são executadas posteriormente pelo processo de instalação.
 
 
 {{Code|lang=text|code=
 brew install graphviz
 }}
 
-This installs the Graphviz binaries under **/usr/local/bin** for macOS on Intel, or **/opt/homebrew** for macOS on Apple Silicon/ARM. FreeCAD should automatically find these locations. If the Graphviz program is not found you will be asked to specify a path. Unfortunately we can\'t navigate directly to the program in the file dialog that comes up from **Tools → Dependency graph...**. There are two options: You can use the key combination Cmd+Shift+. to show hidden items. Or you can use the key combination Cmd+Shift+G to get an input field for the path. Enter one of these paths in the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)):
+Isso instala os binários do Graphviz em **/usr/local/bin** para macOS na Intel ou **/opt/homebrew** para macOS no Apple Silicon/ARM. O FreeCAD deve encontrar automaticamente esses locais. Se o programa Graphviz não for encontrado, você será solicitado a especificar um caminho. Infelizmente, não podemos navegar diretamente para o programa na caixa de diálogo de arquivo que surge de **Ferramentas → gráfico de dependência...**. Há duas opções: Você pode usar a combinação de teclas Cmd+Shift+. para mostrar itens ocultos. Ou você pode usar a combinação de teclas Cmd+Shift+G para obter um campo de entrada para o caminho. Insira um destes caminhos no [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)):
 
 
 {{Code|lang=text|code=
 /usr/local/bin
 }}
 
-or:
+ou:
 
 
 {{Code|lang=text|code=
 /opt/homebrew/bin
 }}
 
-and confirm the input field and the file selection dialog.
+e confirme o campo de entrada e a caixa de diálogo de seleção de arquivo.
 
-In case the Graphviz binaries are installed in a non-standard location try to find the program with the command:
+Caso os binários do Graphviz estejam instalados em um local não padrão, tente encontrar o programa com o comando:
 
 
 {{Code|lang=text|code=
 type dot
 }}
 
-It will output something like:
+Ele produzirá algo como:
 
 
 {{Code|lang=text|code=
 dot is /usr/local/bin/dot
 }}
 
-And you can tell FreeCAD to look in that directory.
+E você pode dizer ao FreeCAD para olhar nesse diretório.
 
-If you don\'t have macOS Big Sur (11) (or higher) Homebrew might not work, but you can use [MacPorts](https://www.macports.org/index.php) instead. Just download the [appropriate version for your OS](https://www.macports.org/install.php). Once the installation is complete, enter this command in the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)):
+Se você não tiver o macOS Big Sur (11) (ou superior) Homebrew pode não funcionar, mas você pode usar [MacPorts](https://www.macports.org/index.php) em vez disso. Basta baixar a [versão apropriada para o seu sistema operacional](https://www.macports.org/install.php). Quando a instalação estiver concluída, digite este comando no [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)):
 
 
 {{Code|lang=text|code=
 sudo port install graphviz
 }}
 
-Enter your password and wait while the dependencies are downloaded and installed (it can take some time).
+Digite sua senha e aguarde enquanto as dependências são baixadas e instaladas (pode levar algum tempo).
 
-The Graphviz binaries may be under **/usr/local/bin** or **/opt/local/bin/dot**. FreeCAD may automatically find the Graphviz program with the file dialog that comes up from **Tools → Dependency graph...**, if not enter this command:
+Os binários do Graphviz podem estar em **/usr/local/bin** ou **/opt/local/bin/dot**. FreeCAD pode encontrar automaticamente o programa Graphviz com a caixa de diálogo de arquivo que surge de **Ferramentas → gráfico de dependência ...**, se não digite este comando:
 
 
 {{Code|lang=text|code=
 type dot
 }}
 
-It will output something like:
+Ele produzirá algo como:
 
 
 {{Code|lang=text|code=
 dot is /opt/local/bin/dot
 }}
 
-And you can tell FreeCAD to look in that directory as explained before.
+E você pode dizer ao FreeCAD para olhar nesse diretório como explicado antes.
 
-It is also possible to make the opt directory visible with this command:
+Também é possível tornar o diretório opt visível com este comando:
 
 
 {{Code|lang=text|code=
 defaults write com.apple.finder AppleShowAllFiles YES;
 }}
 
-then:
+então:
 
 
 {{Code|lang=text|code=
 killall Finder /System/Library/CoreServices/Finder.app;
 }}
 
-Therefore you can tell FreeCAD to follow this path. It has been successfully tested on macOS 10.13 (High Sierra).
+Portanto, você pode dizer ao FreeCAD para seguir este caminho. Ele foi testado com sucesso no macOS 10.13 (High Sierra).
 
 ### Linux
 
-On most Linux distributions (Debian/Ubuntu, Fedora, OpenSUSE), you just need to install the Graphviz package from the repositories. However, similar to the macOS, in cases where the Graphviz binaries are installed in a non-standard location, try to find the program with the command:
+Na maioria das distribuições Linux (Debian/Ubuntu, Fedora, OpenSUSE), você só precisa instalar o pacote Graphviz a partir dos repositórios. No entanto, semelhante ao macOS, nos casos em que os binários do Graphviz estão instalados em um local não padrão, tente encontrar o programa com o comando:
 
 
 {{Code|lang=text|code=
 type dot
 }}
 
-It may output something like
+Pode produzir algo como
 
 
 {{Code|lang=text|code=
 dot is /usr/local/bin/dot
 }}
 
-And therefore you can point FreeCAD to look in that directory.
-
-## Usage
-
-1.  Select the **Tools → <img src="images/Std_DependencyGraph.svg" width=16px> Dependency graph...** option from the menu.
-2.  A new tab titled **Dependency graph** opens in the [Main view area](Main_view_area.md).
-3.  Use the mouse scroll wheel to zoom in or out.
-4.  Use the sliders at the bottom and at the right of the screen to pan the view. Alternatively hold down the left mouse button and move the mouse.
-
-## Save
-
-You can save a dependency graph:
-
-1.  Make sure the Dependency graph tab is in the foreground.
-2.  Select the **File → [Save](Std_Save.md)** or **File → [Save As](Std_SaveAs.md)** option from the menu.
-3.  Enter a filename and select the file type (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg or \*.pdf).
-4.  Press the **Save** button.
-
-## General principles 
-
--   The graph shows objects in reverse chronological order.
--   The direction of arrows showing dependencies should always point down, from the child object to the parent object. An arrow pointing up indicates a cyclic dependency, an issue that needs to be resolved.
--   A sketch that contains links to [external geometry](Sketcher_External.md) will have a number with an \'x\' suffix besides the arrow linking it to its parent, showing the number of external geometries linked in the sketch.
--   Objects can have dependencies to multiple parents. For example, for a model built in [PartDesign](PartDesign_Workbench.md), a Pocket may be linked to its Sketch and to the Pad feature that came before it.
--   Disallowed dependencies (for example, between a [Draft](Draft_Workbench.md)/[Part](Part_Workbench.md) operation and an element inside a PartDesign Body) will show with a red arrow. This type of link usually shows a \'Links go out of allowed scope\' error in the [Report view](Report_view.md).
--   A [Part container](Std_Part.md) and [PartDesign Body](PartDesign_Body.md) enclose their content inside a frame with a randomly colored background. Their Origin also encloses its content (standard planes and axes) in a frame.
--   A [Groups](Std_Group.md) is displayed as a single element linked to its content.
-
-## Limitations
-
--   The dependency graph cannot help with the [topological naming problem](Topological_naming_problem.md). If a sketch switches faces of a feature after an edit, it is still linked to the feature. Even if some features are broken, the dependency graph will remain unchanged.
+E, portanto, você pode apontar FreeCAD para olhar nesse diretório.
 
 
 
+## Utilização
+
+1.  Selecione a opção **Ferramentas → <img src="images/Std_DependencyGraph.svg" width=16px> gráfico de dependência...** no menu.
+2.  Uma nova guia intitulada Gráfico de dependência é aberta na [área de exibição Principal](Main_view_area/pt-br.md).
+3.  Use a roda de rolagem do mouse para aumentar ou diminuir o zoom.
+4.  Use os controles deslizantes na parte inferior e à direita da tela para deslocar a exibição. Como alternativa, mantenha pressionado o botão esquerdo do mouse e mova o mouse.
 
 
-{{Std Base navi
+
+## Salvar
+
+Você pode salvar um gráfico de dependência:
+
+1.  Verifique se a guia Gráfico de dependência está em primeiro plano.
+2.  Selecione a opção **Arquivo → [Salvar](Std_Save/pt-br.md)** ou **Arquivo → [→ Salvar como](Std_SaveAs/pt-br.md)** no menu.
+3.  Digite um nome de arquivo e selecione o tipo de arquivo (\*.gv, \*.png, \*.bmp, \*.gif, \*.jpg, \*.svg ou \*.pdf).
+4.  Pressione o botão **Salvar**.
+
+
+
+## Princípios gerais 
+
+
+<div class="mw-translate-fuzzy">
+
+-   O gráfico mostra objetos em ordem cronológica inversa.
+-   A direção das setas que mostram dependências deve sempre apontar para baixo, do objeto filho para o objeto pai. \* Uma seta apontando para cima indica uma dependência cíclica, um problema que precisa ser resolvido.
+-   Um esboço que contém links para [geometria externa](Sketcher_External/pt-br.md) terá um número com um sufixo \'x\' além da seta ligando-o ao seu pai, mostrando o número de geometrias externas vinculadas no esboço.
+-   Os objetos podem ter dependências para vários pais. Por exemplo, para um modelo construído no [PartDesign](PartDesign_Workbench/pt-br.md), um Pocket pode ser vinculado ao seu Sketch e ao recurso Pad que veio antes dele.
+-   As dependências não permitidas (por exemplo, entre uma operação [Draft](Draft_Workbench/pt-br.md)/[Part](Part_Workbench/pt-br.md) e um elemento dentro de um PartDesign Body) serão exibidas com uma seta vermelha. Esse tipo de link geralmente mostra um erro \"Links saem do escopo permitido\" na [visualização de Relatório](Report_view/pt-br.md).
+-   Um [contêiner Part](Std_Part/pt-br.md) e [PartDesign Body](PartDesign_Body/pt-br.md) colocam seu conteúdo dentro de um quadro com um plano de fundo colorido aleatoriamente. Sua Origem também encerra seu conteúdo (planos e eixos padrão) em um quadro.
+-   Um [Grupo](Std_Group/pt-br.md) é exibido como um único elemento vinculado ao seu conteúdo.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Std_Base_navi
 
 }}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/pt-br
+⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > Std DependencyGraph/pt-br

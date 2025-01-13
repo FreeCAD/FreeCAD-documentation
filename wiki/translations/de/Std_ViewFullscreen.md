@@ -37,7 +37,7 @@ Der Befehl **Std AnsichtVollbild** schaltet [3D-Ansichten](3D_view/de.md) in den
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

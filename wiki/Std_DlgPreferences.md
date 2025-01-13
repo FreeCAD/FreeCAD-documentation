@@ -3,6 +3,7 @@
    Name: Std DlgPreferences
    MenuLocation: Edit , Preferences...
    Workbenches: All
+   Shortcut: **Ctrl**+**,**
    SeeAlso: Preferences_Editor
 ---
 
@@ -14,7 +15,9 @@ The **Std DlgPreferences** command opens the [Preferences Editor](Preferences_Ed
 
 ## Usage
 
-1.  Select the **Edit → <img src="images/Std_DlgPreferences.svg" width=16px> Preferences...** option from the menu.
+1.  There are several ways to invoke the command:
+    -   Select the **Edit → <img src="images/Std_DlgPreferences.svg" width=16px> Preferences...** option from the menu.
+    -   Use the keyboard shortcut: **Ctrl**+**,**. <small>(v1.1)</small> 
 
 ## Notes
 
@@ -24,7 +27,7 @@ The **Std DlgPreferences** command opens the [Preferences Editor](Preferences_Ed
 
 
 
- {{Std Base navi}}
+ {{Std_Base_navi}}
 
 
 

@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## 描述
 
 
@@ -35,6 +37,8 @@
 
 <img alt="" src=images/Arch_Remove_example.jpg  style="width:600px;"> 
 *从墙体中去掉一个立方体，于是便留下了一个洞。*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -63,6 +67,8 @@
 
 
 </div>
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
@@ -93,7 +99,9 @@ removeComponents(objectsList, host=None)
 -   从父对象中去掉`objectsList`里的诸对象。
 -   如果指定了`host`对象，此函数将试图从`host`中去掉与`objectsList`里诸对象的交集。
 
-示例： 
+示例：
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -123,6 +131,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/zh-cn
+⏵ [documentation index](../README.md) > Arch Remove/zh-cn

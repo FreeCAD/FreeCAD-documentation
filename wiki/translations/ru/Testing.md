@@ -3,6 +3,8 @@
 
 
 
+
+
 ## Введение
 
 [Верстак Test Framework](Testing/ru.md) на самом деле не является верстаком для моделирования, но он содержит набор скриптов [Python](Python.md) для выполнения различных тестов на основных компонентах FreeCAD с целью отладки проблем. Смотри также [Отладку](debugging/ru.md).
@@ -30,11 +32,15 @@ If a test does not need the GUI, it can also be executed in console mode by sett
 freecad -c -t TestPartDesignApp
 ```
 
+
+
 ## Меню тестирования 
 
 Each top level directory in FreeCAD should have a file with the tests that can be run for that particular workbench or module. The file usually starts with the word `Test`.
 
 To run a test from within FreeCAD, switch to the Test Workbench, then **Test commands → TestToolsGui → Self test → Select test name**, then enter the name of the Python file with the tests; for example, for the [Draft Workbench](Draft_Workbench.md), this would be **TestDraft**, then press **Start**.
+
+
 
 ## Функции тестирования 
 
@@ -80,7 +86,7 @@ Add test function
 
 Add test function
 
-### TestPathApp
+### TestCAMApp
 
 Path workbench test cases:
 

@@ -10,10 +10,19 @@
 # Arch Truss/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento [Travatura](Arch_Truss/it.md) crea un oggetto [travatura](https://en.wikipedia.org/wiki/Truss), sia da un oggetto lineare selezionato (posta su una [Linea di Draft](Draft_Line/it.md) o uno \[\[Sketcher_NewSketch/it\|Schizzo\] \]), o da zero se non viene selezionato alcun oggetto all\'avvio del comando.
+
+
+</div>
 
 <img alt="" src=images/Arch_Truss_example.png  style="width:600px;">
 
@@ -25,6 +34,9 @@ Lo strumento [Travatura](Arch_Truss/it.md) crea un oggetto [travatura](https://e
 
 ### Creare da un oggetto selezionato 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Utilizzare un ambiente di lavoro a scelta per creare un\'unica linea
 2.  Selezionare quella linea
 3.  Premere il pulsante **<img src="images/Arch_Truss.svg" width=16px> [Travatura](Arch_Truss/it.md)
@@ -32,8 +44,14 @@ Lo strumento [Travatura](Arch_Truss/it.md) crea un oggetto [travatura](https://e
 4.  Regolare le proprietà della capriata a proprio piacimento
 
 
+</div>
+
+
 
 ### Creare dall\'inizio 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Assicurarsi che non sia selezionato nulla
 2.  Premere il pulsante **<img src="images/Arch_Truss.svg" width=16px> [Travatura](Arch_Truss/it.md)
@@ -41,6 +59,9 @@ Lo strumento [Travatura](Arch_Truss/it.md) crea un oggetto [travatura](https://e
 3.  Fare clic nella vista 3D per definire un primo punto o immettere manualmente le coordinate X, Y e Z.
 4.  Fare clic nella vista 3D per definire il secondo punto o immettere manualmente le coordinate X, Y e Z.
 5.  Regolare le proprietà della capriata a proprio piacimento
+
+
+</div>
 
 
 
@@ -109,6 +130,20 @@ truss.HeightEnd = 400
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/it
+⏵ [documentation index](../README.md) > Arch Truss/it

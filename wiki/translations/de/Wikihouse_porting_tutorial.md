@@ -20,13 +20,7 @@
 
 Dieses Tutorium zeigt dir, wie du [SketchUp](http://www.sketchup.com/)-Dateien, die vom [Wikihouse](http://wikihouse.cc/)-Projekt verwendet werden, in FreeCAD konvertieren kannst, indem du die [Arch Tafel](Arch_Panel/de.md)-Werkzeuge in FreeCAD verwendest. Das Ergebnis ist eine vollständige Kopie der ursprünglichen SketchUp-Datei, mit der Ausnahme, dass sie vollständig parametrisch geworden ist. Der Grad der Parametrisierung der endgültigen Datei hängt von der Arbeit ab, die du dafür aufwendest, wie weiter unten erläutert wird. Es ist jedoch durchaus möglich, die Dinge Schritt für Schritt zu erledigen und die Wikihouse Datei ziemlich schnell wieder aufzubauen und die langwierigere Konvertierung von Basisprofilen in Skizzen für später zu überlassen.
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Tutorial setzt mittlere Kenntnisse in FreeCAD voraus, d.h. du bist in der Lage, dich zwischen den verschiedenen Arbeitsbereichen und Werkzeugen zurechtzufinden, kannst bereits einfache Objekte modellieren und bist vor allem mit [Entwurf Bewegen](Draft_Move/de.md) und [Entwurf Drehen](Draft_Rotate/de.md) vertraut. Es werden hauptsächlich Entwurf- und Arch Werkzeuge verwendet, aber für die Umwandlung der Grundprofile in Skizzen werden Kenntnisse des Skizzierers erforderlich sein.
-
-
-</div>
+Dieses Tutorial setzt mittlere Kenntnisse in FreeCAD voraus, d.h. du bist in der Lage, dich zwischen den verschiedenen Arbeitsbereichen und Werkzeugen zurechtzufinden, kannst bereits einfache Objekte modellieren und bist vor allem mit [Draft Bewegen](Draft_Move/de.md) und [Draft Drehen](Draft_Rotate/de.md) vertraut. Es werden hauptsächlich [Draft-](Draft_Workbench/de.md) und [Arch-](Arch_Workbench/de.md) Werkzeuge verwendet, aber für die Umwandlung der Grundprofile in Skizzen werden Kenntnisse des Arbeitsbereiches [Sketcher](Sketcher_Workbench/de.md) erforderlich sein.
 
 Since the Wikihouse project is open by nature, files are easy to find on the project website, but also on the [SketchUp 3D Warehouse](https://3dwarehouse.sketchup.com/search.html?q=wikihouse&backendClass=both) or in the project\'s [github repositories](https://github.com/wikihouseproject). The preferred format used by the project is Sketchup, so most of the files you\'ll find are in that format.
 
@@ -121,13 +115,7 @@ It is also possible to do that part later, you could already create Panels from 
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Wiederherstellung des Wikihouse und Export von Schneidblättern 
-
-
-</div>
+## Neuaufbau des Wikihouse und Exportieren der Schnittmusterbögen 
 
 Also, make sure you don\'t redo any duplicated part. Instead, select the [Draft Clone](Draft_Clone.md) tool to duplicate parts based on the same profile, so they will all share one same profile object. Then, since we have the outline at the correct place to use as a guide, it is fairly easy to rotate and move the clone into its correct position with [Draft Rotate](Draft_Rotate.md) and [Draft Move](Draft_Move.md).
 

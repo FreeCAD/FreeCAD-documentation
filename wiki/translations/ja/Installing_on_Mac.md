@@ -40,7 +40,7 @@ FreeCADインストーラーはディスクイメージファイルに収めら�
 
 The FreeCAD installer is provided as a app package (.app) enclosed in a disk image file.
 
-最新のインストーラーは[ダウンロードページ](Download.md)からダウンロードすることができます。ファイルをダウンロードしたらディスクイメージをマウントして**Install FreeCAD**パッケージを実行してください。
+最新のインストーラーは[ダウンロードページからダウンロードすることができます](Download.md)。ファイルをダウンロードしたらディスクイメージをマウントして**Install FreeCAD**パッケージを実行してください。
 
 ![](images/mac_installer_1.png )
 

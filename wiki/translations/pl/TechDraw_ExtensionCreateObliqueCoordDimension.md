@@ -29,7 +29,13 @@ Narzędzie **Seria wymiarów kaskadowych ukośnie** tworzy ukośne wymiary wspó
 3.  Kolejność wyboru pierwszych dwóch wierzchołków określa położenie linii bazowej. Jeśli wierzchołek wybrany jako pierwszy znajduje się na lewo od drugiego, linia bazowa jest tworzona w wierzchołku najbardziej wysuniętym na lewo, w przeciwnym razie jest tworzona w wierzchołku najbardziej wysuniętym na prawo.
 4.  Pierwsze dwa wierzchołki definiują również kierunek.
 5.  Narzędzie można wywołać na kilka sposobów:
-    -   Naciśnięcie przycisku **<img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> '''Seria wymiarów kaskadowych ukośnie'''**.
+    -   
+        {{Version/pl|1.0}}
+        
+        : Jeśli [preferencja](TechDraw_Preferences/pl#Wymiary.md) **Narzędzie wymiarowania** jest ustawiona na {{Value|Narzędzie pojedyncze}} (domyślnie): kliknij na strzałce skierowanej w dół po prawej stronie od przycisku **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** i wybierz opcję **<img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> Seria wymiarów kaskadowych ukośnie** z listy rozwijanej.
+
+    -   Jeśli ta preferencja ma inną wartość (i {{VersionMinus/pl|0.21}}): wciśnij przycisk **<img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> [Seria wymiarów kaskadowych ukośnie](TechDraw_ExtensionCreateObliqueCoordDimension/pl.md)**.
+
     -   Wybierz opcję z menu **Rysunek Techniczny → Rozszerzenia: Wymiary → <img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> Seria wymiarów kaskadowych ukośnie**.
 6.  Tworzone są wymiary współrzędnych z wyśrodkowanymi tekstami wymiarowania.
 

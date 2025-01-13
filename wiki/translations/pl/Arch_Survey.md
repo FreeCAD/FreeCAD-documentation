@@ -1,56 +1,65 @@
 ---
  GuiCommand:
    Name: Arch Survey
-   MenuLocation: Arch , Survey
-   Workbenches: Arch_Workbench
-   SeeAlso: Macro_FCInfo, Macro_SimpleProperties
+   Name/pl: BIM: Spis wymiarów
+   MenuLocation: Narzędzia , Spis wymiarów
+   Workbenches: BIM_Workbench/pl
+   SeeAlso: Macro_FCInfo/pl, Macro_SimpleProperties/pl
 ---
 
 # Arch Survey/pl
 
-## Description
 
-The **<img src="images/Arch_Survey.svg" width=16px> [Arch Survey](Arch_Survey.md)** tool enters a special surveying mode, which allows you to quickly grab measurements and information from a model, and transfer that information to other applications. Once you are in Survey mode, clicking on different subelements of 3D objects gathers the following information (depending on what you click):
 
--   If you click on an edge, you get its length
--   If you click on a vertex, you get its height (coordinate on the Z axis)
--   If you click on a face, you get its area
--   If you double-click anything, therefore select the whole object, you get its volume
+## Opis
 
-When such a piece of information is gathered, several things happen:
+Narzędzie **Spis wymiarów** uruchamia specjalny tryb geodezyjny, który pozwala na szybkie pobieranie pomiarów i informacji z modelu oraz przesyłanie ich do innych aplikacji. Po przejściu do trybu geodezyjnego, kliknięcie różnych elementów podrzędnych obiektów 3D powoduje zebranie następujących informacji *(w zależności od klikniętego elementu)*:
 
--   A label is placed on top of the element you clicked, that displays the value (with \"a\" for area, \"l\" for length, \"z\" for height, or \"v\" for volume)
--   The numeric value is copied to the clipboard, so you can paste it in another application
--   A line is printed on the FreeCAD output window. After you exit the survey mode, those lines can be copied and pasted in another application (the values are comma-separated, making it easy to convert to spreadsheet data)
--   The total length or area of the elements you clicked so far is also printed in the output window
--   Each length or area is also recorded in the task dialog
+-   Jeśli klikniesz na krawędź, otrzymasz jej długość.
+-   Jeśli klikniesz na wierzchołek, otrzymasz jego wysokość *(współrzędna na osi Z)*.
+-   Jeśli klikniesz na ścianę, otrzymasz jej powierzchnię.
+-   Dwukrotne kliknięcie czegokolwiek, czyli zaznaczenie całego obiektu, spowoduje wyświetlenie jego objętości.
+
+Po zebraniu takich informacji dzieje się kilka rzeczy:
+
+-   Na górze klikniętego elementu umieszczana jest etykieta wyświetlająca wartość *(z \"a\" dla powierzchni, \"l\" dla długości, \"z\" dla wysokości lub \"v\" dla objętości)*.
+-   Wartość liczbowa jest kopiowana do schowka, dzięki czemu można ją wkleić w innej aplikacji.
+-   Linia jest drukowana w oknie wyjściowym FreeCAD. Po wyjściu z trybu spisu linie te można skopiować i wkleić w innej aplikacji *(wartości są oddzielone przecinkami, co ułatwia konwersję na dane arkusza kalkulacyjnego)*.
+-   Całkowita długość lub powierzchnia klikniętych elementów jest również drukowana w oknie wyjściowym.
+-   Każda długość lub powierzchnia jest również rejestrowana w oknie dialogowym zadania.
 
 <img alt="" src=images/Arch_Survey_example.jpg  style="width:640px;">
 
-*The above image shows what happens when running the survey mode.*
+*Powyższy obraz pokazuje, co dzieje się po uruchomieniu trybu spisu.*
 
-## Usage
 
-1.  Press the **<img src="images/Arch_Survey.svg" width=16px> [Arch Survey](Arch_Survey.md)** button.
-2.  Click on vertices, edges, faces or double-click to select whole objects.
-3.  Click outside any geometry (on the background of the 3D view) to remove existing labels, print a total line in the Task dialog, and restart counting lengths and areas from zero.
-4.  Press **Esc** or the **Close** button to exit survey mode and remove all the labels.
 
-## Options
+## Użycie
 
--   You can add a custom label to any line in the Task dialog by clicking that line, then adding a text in the description field, then press the **set description** button.
--   Once you are done, before closing, you can export the contents of the Task dialog by pressing the \"export CSV\" button. The resulting CSV file can then be opened in any spreadsheet application such as Excel or LibreOffice Calc. The values and units will be separated in the resulting CSV file, and the totals are written as SUM() functions.
+1.  Naciśnij przycisk w menu **Narzędzia → <img src="images/Arch_Survey.svg" width=16px> '''Spis wymiarów'''**.
+2.  Kliknij wierzchołki, krawędzie, ściany lub kliknij dwukrotnie, aby zaznaczyć całe obiekty.
+3.  Kliknij poza dowolną geometrią *(w oknie widoku 3D)*, aby usunąć istniejące etykiety, zostanie wydrukowana linia sumaryczna w oknie dialogowym Zadanie, a liczenie długości i powierzchni zostanie wznowione od zera.
+4.  Naciśnij **Esc** lub przycisk **Zamknij**, aby wyjść z trybu pomiaru i usunąć wszystkie etykiety.
+
+
+
+## Opcje
+
+-   Można dodać niestandardową etykietę do dowolnego wiersza w oknie dialogowym zadania, klikając ten wiersz, a następnie dodaj tekst w polu opisu i naciśnij przycisk **ustaw opis**.
+-   Po zakończeniu, przed zamknięciem, można wyeksportować zawartość okna dialogowego Zadanie, naciskając przycisk \"eksportuj CSV\". Wynikowy plik CSV można następnie otworzyć w dowolnej aplikacji arkusza kalkulacyjnego, takiej jak Excel lub LibreOffice Calc. Wartości i jednostki zostaną rozdzielone w wynikowym pliku CSV, a sumy zostaną zapisane jako funkcje SUM().
 
 <img alt="" src=images/Arch_Survey_spreadsheet.jpg  style="width:640px;">
 
-## Scripting
 
 
-**See also:**
+## Tworzenie skryptów 
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Survey tool doesn\'t have a programming interface, but gathering the same information from any selected [Part](Part_Workbench.md)-based object is reproduced with the following script:
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie Spis nie ma interfejsu programistycznego, ale zbieranie tych samych informacji z dowolnego wybranego obiektu opartego na obiekcie [Część](Part_Workbench/pl.md) można odtworzyć za pomocą następującego skryptu:
 
 
 ```python
@@ -68,5 +77,13 @@ for obj in selection:
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/pl
+⏵ [documentation index](../README.md) > Arch Survey/pl

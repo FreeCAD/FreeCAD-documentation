@@ -35,9 +35,7 @@ The referenced geometry can either be a single object (for example a [Part Box](
 
 1.  [Activate the Body](PartDesign_Body#Active_status.md) the ShapeBinder should be nested in.
 2.  Optionally select a single object, or one or more subelements belonging to the same parent object. Subelements can only be selected in the [3D view](3D_view.md).
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/PartDesign_ShapeBinder.svg" width=16px> [PartDesign ShapeBinder](PartDesign_ShapeBinder.md)** button.
-    -   Select the **Part Design → <img src="images/PartDesign_ShapeBinder.svg" width=16px> Create a shape binder** option from the menu.
+3.  Select the **Part Design → <img src="images/PartDesign_ShapeBinder.svg" width=16px> Create a shape binder** option from the menu.
 4.  The **Datum shape parameters** task panel opens.
 5.  Optionally select an object, this is not required if you want the select subelements:
     1.  Press the **Object** button.
@@ -68,7 +66,17 @@ To edit a ShapeBinder double-click it in the [Tree view](Tree_view.md), or right
 
 ## PartDesign SubShapeBinder vs. PartDesign ShapeBinder 
 
-See [PartDesign SubShapeBinder](PartDesign_SubShapeBinder#PartDesign_SubShapeBinder_vs._PartDesign_ShapeBinder.md).
+The PartDesign SubShapeBinder tool and the [PartDesign ShapeBinder](PartDesign_ShapeBinder.md) tool are quite similar. Their names are somewhat confusing as both can reference whole objects and subelements.
+
+The main differences are:
+
+-   Editing a PartDesign ShapeBinder is easier. Double-clicking the object in the [Tree view](Tree_view.md) will open a task panel.
+-   A PartDesign ShapeBinder can either reference a single whole object, or subelements belong to a single parent object. A PartDesign SubShapeBinder does not have these restrictions.
+-   Only PartDesign SubShapeBinders can reference geometry from an external file.
+-   A PartDesign SubShapeBinder always tracks the relative placement of the referenced geometry. For a PartDesign ShapeBinder this behavior is optional through its **Trace Support** property.
+-   Only PartDesign SubShapeBinders support 2D offsetting.
+
+While keeping in mind that each of these tools has its pros and cons and the choice may depend on the use case, one can conclude that using a SubShapeBinder is currently recommended for most applications due to its versatility and range of options. More about these tools can be found in MangoJelly\'s video \[<https://www.youtube.com/watch?v=ylAMGQ8HV0w>\| FreeCAD For Beginners 34: Part Design Shape Binder vs Sub Shape Binder\].
 
 
 
@@ -80,7 +88,7 @@ See [PartDesign SubShapeBinder](PartDesign_SubShapeBinder#PartDesign_SubShapeBin
 
 ## Example
 
-The example uses the ShapeBinder Feature to make a hole (with or without threads) through more than one body. Normally the Hole function of the Part Design workbench is limited to a single body. The example uses two cubes facing each other but misaligned in an arbitrary way. The holes are created with sketches containing a circle for every hole (the diameter is ignored by the hole function). When you copy the sketch to the other cube it will be at the same position in the local cube coordinate system. In the image this is shown by the white circle on the back cube. This is not what we want, because the hole at that position would not be aligned to the hole in the front cube.
+The example uses the ShapeBinder Feature to make a hole (with or without threads) through more than one body. Normally the [Hole](PartDesign_Hole.md) function of the Part Design workbench is limited to a single body. The example uses two cubes facing each other but misaligned in an arbitrary way. The holes are created with sketches containing a circle for every hole (the diameter is ignored by the hole function). When you copy the sketch to the other cube it will be at the same position in the local cube coordinate system. In the image this is shown by the white circle on the back cube. This is not what we want, because the hole at that position would not be aligned to the hole in the front cube.
 
 ![](images/ShapeBinderThroughHole.png ) 
 *Example setup for showing how to make holes through different bodies. The white circle shows that copying sketches is not enough*

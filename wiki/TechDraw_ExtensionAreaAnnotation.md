@@ -5,7 +5,7 @@
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20
-   SeeAlso: TechDraw_ExtensionArcLengthAnnotation
+   SeeAlso: TechDraw_AreaDimension
 ---
 
 # TechDraw ExtensionAreaAnnotation
@@ -27,10 +27,11 @@ The **TechDraw ExtensionAreaAnnotation** tool calculates the area of selected fa
 
 ## Limitation
 
+-    {{VersionMinus|0.21}}: The tool cannot handle faces with curved edges.
 
-{{VersionMinus|0.21}}
+-   Holes (islands) in the selected face are ignored. This [forum post](https://forum.freecad.org/viewtopic.php?p=783325#p783325) shows a workaround. You can also use [TechDraw AreaDimension](TechDraw_AreaDimension.md) but you must then correctly set the **References 3D** property of the created dimension.
 
-: The tool cannot handle faces with curved edges.
+-   The calculated area is not dynamically linked to the face. If the area of the face changes the text is not updated.
 
 
 

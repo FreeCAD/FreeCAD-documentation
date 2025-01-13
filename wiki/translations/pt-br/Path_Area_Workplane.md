@@ -1,57 +1,7 @@
----
- GuiCommand:
-   Name: Path Area Workplane
-   MenuLocation: Path , Area workplane
-   Workbenches: Path_Workbench
----
-
 # Path Area Workplane/pt-br
-
-## Description
-
-Empty
-
-## Usage
-
-Empty
-
-## Options
-
-Empty
-
-## Properties
-
-### Data
-
-Empty
-
-### View
-
-Empty
-
-## Scripting
-
-
-**See also:**
-
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-Example:
-
-
-```python
-#Place code example here.
-```
-
-
-
-
-
-{{Path_Tools_navi
-
-}}
+1.  REDIRECT [CAM_Area_Workplane/pt-br](CAM_Area_Workplane/pt-br.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Area Workplane/pt-br
+⏵ [documentation index](../README.md) > Path Area Workplane/pt-br

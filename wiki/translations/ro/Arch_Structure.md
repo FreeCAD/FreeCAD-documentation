@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -30,8 +32,10 @@ Acest instrument vă permite să construiți elemente structurale, cum ar fi col
 
 </div>
 
-![](images/Arch_Structure_example.jpg ) 
+<img alt="" src=images/Arch_Structure_example.jpg  style="width:400px;"> 
 *Column based on a 2D base profile; a column and a beam defined by their height, length and width, without a base profile; a metallic structure based on a 2D face*Imaginea de mai sus prezintă o coloană bazată pe un profil de bază 2D, o coloană și o grindă bazate pe nici un profil (definit prin dimensiunile înălțimii, lungimii și lățimii) și un profil metalic bazat pe un contur 2D (fațetă, fire sau schiță). În plus, un anumit număr de presetări disponibile în timpul creării obiectului vă permite să construiți rapid un element structural dintr-un profil standard predefinit.
+
+
 
 ## Cum se folosește 
 
@@ -44,6 +48,8 @@ Acest instrument vă permite să construiți elemente structurale, cum ar fi col
 
 
 </div>
+
+
 
 ## Opţiuni
 
@@ -61,6 +67,8 @@ Acest instrument vă permite să construiți elemente structurale, cum ar fi col
 
 
 </div>
+
+
 
 ## Proprietăți
 
@@ -98,11 +106,15 @@ Acest instrument vă permite să construiți elemente structurale, cum ar fi col
 
 </div>
 
+
+
 ### Vizualizare 3D 
 
 -    **Nodes Type**: The type of structural nodes of this object, linear or area.
 
 -    **Show Nodes**: Shows or hides the structural nodes.
+
+
 
 ## Setări prealabile 
 
@@ -117,6 +129,8 @@ Butonul **Comutator L / H** poate fi utilizat pentru a comuta valori Lungime și
 
 <img alt="" src=images/Arch_precast_example.jpg  style="width:960px;"> 
 *Some presets for precast concrete structures*
+
+
 
 ## Noduri Structurale 
 
@@ -166,9 +180,12 @@ Instrumentul Structură poate fi utilizat în [macros](macros.md) și din consol
 
 
 ```python
-Structure = makeStructure(baseobj=None, height=None)
-Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
+structure = makeStructure(baseobj=None, height=None)
+structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 
 :   creează un element de structură bazat pe obiectul profil dat și pe înălțimea de extrudare dată. Dacă nu se dă niciun obiect de bază, puteți specifica lungimea și lățimea unui obiect cubic.
@@ -177,16 +194,21 @@ Structure = makeStructure(baseobj=None, length=None, width=None, height=None, na
     -   If no `baseobj` is given, you can provide the numerical values for the `length`, `width`, and `height` to create a block structure.
     -   The `baseobj` can also be any existing solid object.
 
-Exempluː 
+
+</div>
+
+Exempluː
+
+
 ```python
 import FreeCAD, Draft, Arch
 
-Rect = Draft.makeRectangle(200, 300)
-Structure1 = Arch.makeStructure(Rect, height=2000)
+rect = Draft.make_rectangle(200, 300)
+structure1 = Arch.makeStructure(rect, height=2000)
 FreeCAD.ActiveDocument.recompute()
 
-Structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
-Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
+structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
+Draft.move(structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
 
@@ -207,6 +229,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/ro
+⏵ [documentation index](../README.md) > Arch Structure/ro

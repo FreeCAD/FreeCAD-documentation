@@ -1,5 +1,5 @@
 # Category:Image/bg
-This category lists pages related to the [Image Workbench/bg](Image_Workbench/bg.md).
+This category is for pages related to the [Image Workbench/bg](Image_Workbench/bg.md).
 
 ### Contents
 

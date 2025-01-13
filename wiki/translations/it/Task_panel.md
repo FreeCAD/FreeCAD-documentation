@@ -1,88 +1,38 @@
 # Task panel/it
 ## Introduzione
 
+Il [Pannello delle azioni](Task_panel.md) viene visualizzato in un pannello [ancorabile](Combo_view/it#Dock_Task_panel_on_top_of_Combo_view.md) autonomo chiamato **Azioni**. È uno spazio personalizzabile che è in grado di contenere qualsiasi tipo di widget grafico come campi di input, caselle di controllo, caselle di selezione, pulsanti, etichette, immagini e altri elementi, a seconda dello strumento attualmente attivo.
 
-<div class="mw-translate-fuzzy">
-
-Il [pannello delle attivitàzioni](task_panel/it.md) appare nella scheda **Azioni** della [vista combinata](combo_view/it.md). È uno spazio personalizzabile in grado di contenere qualsiasi tipo di widget grafico come finestre secondarie espandibili, tabelle, campi di input, caselle di controllo, caselle di selezione, caselle di testo, caselle di testo, pulsanti, etichette, immagini e altri elementi, secondo l\'[ambiente](Workbenches/it.md) e lo strumento attualmente attivi.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-![](images/FreeCAD_Combo_view_Task_panel.png )
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="250px;">
 
 
 
-*Il pannello delle azioni che mostra i vari comandi con  [PartDesign](PartDesign_Workbench/it.md) attivo.*
-
-
-</div>
+*Il Pannello delle azioni che mostra vari strumenti quando l'ambiente [PartDesign](PartDesign_Workbench/it.md) è attivo e uno [schizzo](Sketch/it.md) è selezionato.*
 
 
 
-## Lavorare con il pannello delle azioni 
+## Lavorare con il Pannello delle azioni 
 
-Un pannello delle azioni si apre quando viene attivato uno strumento che richiede l\'input dell\'utente, premendo un pulsante della barra degli strumenti o facendo doppio clic su un oggetto. Se lo strumento non necessita dell\'input dell\'utente, produce il suo risultato o termina, ma non visualizza un pannello delle azioni.
+Un Pannello delle Azioni normalmente si apre quando viene attivato uno strumento che richiede l\'input dell\'utente. Se lo strumento non necessita dell\'input dell\'utente, produrrà il risultato o terminerà, ma non visualizzerà un Pannello Azioni. L\'input dell\'utente può essere qualsiasi cosa, ad esempio testo, coordinate di punti 3D, elementi di un elenco, facce di una forma od opzioni per modificare il modo in cui funziona lo strumento.
 
-L\'input dell\'utente può essere costituita da qualsiasi cosa come testo, coordinate di punti 3D, elementi di un elenco, facce di una forma o opzioni per modificare il modo in cui lo strumento funziona.
+Esistono molti strumenti che richiedono la selezione di forme o oggetti. In tali casi il Pannello delle azioni attende che l\'utente selezioni gli oggetti appropriati dalla [Vista ad albero](Tree_view/it.md) o nella [Vista 3D](3D_view/it.md). Quando un Pannello azioni è aperto, è possibile passare alla [Vista ad albero](Tree_view/it.md) per scegliere un oggetto. Una volta fatto ciò, è possibile ritornare al Pannello azioni per procedere con lo strumento. Il Pannello delle azioni viene normalmente chiuso facendo clic su un pulsante **OK** o **Chiudi** o premendo il tasto **Esc** sulla tastiera per interrompere lo strumento.
 
-![](images/FreeCAD_Combo_view_Task_panel_Sketcher.png )
-
-
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/FreeCAD_Combo_view_Task_panel_ArchComponent.png  style="width:250px;">
 
 
 
-*Il pannello delle azioni che si apre quando viene modificato uno [schizzo](Sketcher_Workbench/it.md). Vengono presentati vari tipi di informazioni come messaggi del risolutore, opzioni per la griglia, vincoli ed elementi geometrici.*
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Esistono molti comandi che richiedono la selezione di forme o oggetti presenti nel documento; per tali casi il pannello delle azioni attende che l\'utente selezioni gli oggetti appropriati dalla [vista ad albero](tree_view/it.md) o nella [vista 3D](3D_view/it.md). Quando un pannello azioni è aperto, è possibile passare alla scheda **Modello** per visualizzare la [vista ad albero](tree_view/it.md) per scegliere un oggetto; una volta fatto ciò, è possibile tornare alla scheda **Azioni** per procedere con il comando. Il pannello delle azioni viene normalmente chiuso facendo clic su un pulsante **OK** o **Chiudi** o premendo il tasto **Esc** sulla tastiera per interrompere il comando.
-
-
-</div>
-
-![](images/FreeCAD_Combo_view_Task_panel_ArchComponent.png )
-
-
-<div class="mw-translate-fuzzy">
+*Il Pannello delle azioni che si apre quando si modifica un [Componente Arch](Arch_Component/it.md). Il pannello attende che l'utente selezioni gli oggetti che possono essere aggiunti o sottratti dal componente.*
 
 
 
-*Il pannello delle azioni che si apre quando si modifica un [Componente Arch](Arch_Component/it.md). Il pannello attende che l'utente selezioni gli oggetti che possono essere aggiunti o sottratti dal componente.*
+## Note
+
+-   Gli utenti che migrano da altre soluzioni CAD che utilizzano il tasto **ESC** come parte del loro flusso di lavoro potrebbero ottenere risultati diversi in FreeCAD. Quando si preme **ESC** in FreeCAD, il Pannello delle azioni che ha il focus si chiuderà. Per disabilitare questa funzionalità, consultare [Ottimizzare l\'installazione](Fine-tuning/it#Escape_key.md) e [Preferenze di Sketcher](Sketcher_Preferences/it#Generale.md).
 
 
-</div>
+{{Interface_navi
 
-
-<div class="mw-translate-fuzzy">
-
-In particolare, il passaggio dalla scheda **Azioni** alla scheda **Modello** non termina il comando attivo; l\'azione rimane ancora in esecuzione in background. L\'utente è responsabile della corretta conclusione o interruzione del comando attivo prima di iniziare una nuova azione; lasciare un\'azione in esecuzione può produrre errori quando si tenta di avviare altri strumenti.
-
-
-</div>
-
-## Notes
-
--   Users migrating from other CAD solutions that use the **ESC** key as part of their workflow may get different results in FreeCAD. When **ESC** is pressed in FreeCAD the task panel that has the focus will close. To disable this functionality, please see [Fine tuning](Fine-tuning#Escape_Key.md) and [Sketcher Preferences](Sketcher_Preferences#General.md).
-
-
-{{Interface navi
-
-}}
+}} {{Std_Base_navi}}
 
 
 

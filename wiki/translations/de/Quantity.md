@@ -15,10 +15,10 @@ Aus diesem Grund wurde das FreeCAD-Mengengerüst geschaffen. Es umfasst den gesa
 
 Der FreeCAD-Eingabe-Parser unterstützt eine Vielzahl von Einheiten und Einheitensystemen. FreeCAD unterstützt den griechischen Buchstaben \'µ\' für micro, akzeptiert aber auch \'u\' als Ersatz. Eine vollständige Liste aller unterstützter Einheiten befindet sich [hier](Expressions/de#Einheiten.md).
 
-Die detaillierte Beschreibung findest Du im Code:
+Die detaillierten technischen Einzelheiten findet man im Code:
 
--   Mengen-Lexer: [1](http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/QuantityParser.l)
--   Mengedefinition: [2](http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Base/Quantity.cpp#l167)
+-   [Quantity lexer](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/QuantityLexer.c)
+-   [Quantity definitions](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/Quantity.cpp#l167)
 
 ## Interne Darstellung 
 
@@ -66,12 +66,10 @@ The InputField is a QLineEdit derived Qt widget to handle all kinds of user inte
 
 The UnitsCalculator uses the InputField already.
 
-Hauptdokumentation: [Eingabefeld](InputField/de.md)
-
 Code:
 
--   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.h)
--   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.cpp)
+-   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/main/src/Gui/InputField.h)
+-   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/main/src/Gui/InputField.cpp)
 
 ## Python scripting 
 
@@ -209,9 +207,9 @@ Here you get more information using a tuple (three items). You get the string as
 
 The code of the schema translation can be found here:
 
--   [Internal](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaInternal.cpp)
--   [MKS](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaMKS.cpp)
--   [Imperial](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaImperial1.cpp)
+-   [Internal](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/UnitsSchemaInternal.cpp)
+-   [MKS](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/UnitsSchemaMKS.cpp)
+-   [Imperial](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/UnitsSchemaImperial1.cpp)
 
 ### Precision
 

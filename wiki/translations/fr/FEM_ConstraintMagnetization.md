@@ -1,11 +1,17 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM ConstraintMagnetization
    Name/fr: FEM Magnétisation
    MenuLocation: Modèle , Conditions limites électromagnétiques , Condition limite de magnétisation
    Workbenches: FEM_Workbench/fr
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic/fr, FEM_EquationMagnetodynamic2D/fr
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintMagnetization/fr
@@ -18,9 +24,9 @@ Crée une condition limite FEM pour la de magnétisation. A utiliser avec les é
 
 ## Utilisation
 
-1.  Appuyer sur le bouton **<img src="images/FEM_ConstraintMagnetization.svg" width=16px> [Condition limite de magnétisation](FEM_ConstraintMagnetization/fr.md)** ou utiliser **Modèle → Conditions limites électromagnétiques → <img src="images/FEM_ConstraintMagnetization.svg" width=16px> Condition limite de magnétisation** du menu.
-2.  Dans la [vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la condition limite doit être appliquée.
-3.  Appuyez sur le bouton **Ajouter**.
+1.  Appuyez sur le bouton **<img src="images/FEM_ConstraintMagnetization.svg" width=16px> [Condition limite de magnétisation](FEM_ConstraintMagnetization/fr.md)** ou utiliser **Modèle → Conditions limites électromagnétiques → <img src="images/FEM_ConstraintMagnetization.svg" width=16px> Condition limite de magnétisation** du menu.
+2.  Appuyez sur le bouton **Ajouter**.
+3.  Dans la [vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la condition limite doit être appliquée.
 
 ## Options
 

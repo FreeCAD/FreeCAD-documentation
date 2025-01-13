@@ -3,7 +3,13 @@
 
 FreeCAD je CAD/CAE [aplikacija parametarskog modeliranja](About_FreeCAD/hr.md).Prvenstveno je napravljen za dizajn mehanike, ali podržava sve druge primjene gdje je potrebno 3D modeliranje objekata sa velikom preciznošću i kontrolom zabilješki modeliranja.
 
-FreeCAD je u razvoju od 2002. godine i nudi veliki popis [features](Feature_list/hr.md). Neke mogućnosti još nedostaju, ali dovoljno je moćan za hobi upotrebu i male radionice. Postoji brzorastuća zajednica korisnika koji sudjeluju na [FreeCAD forumu](http://forum.freecadweb.org/index.php), a možete pronaći [?f=24 mnogo primjera](https://forum.freecadweb.org/viewforum.php) kvalitetnih projekata razvijenih sa FreeCAD-om. Vidi također, [FreeCAD korišten u proizvodnji](FreeCAD_used_in_production.md).
+
+<div class="mw-translate-fuzzy">
+
+FreeCAD je u razvoju od 2002. godine i nudi veliki popis [features](Feature_list/hr.md). Neke mogućnosti još nedostaju, ali dovoljno je moćan za hobi upotrebu i male radionice. Postoji brzorastuća zajednica korisnika koji sudjeluju na [FreeCAD forumu](http://forum.freecadweb.org/index.php), a možete pronaći [?f=24 mnogo primjera](https://forum.freecadweb.org/viewforum.php) kvalitetnih projekata razvijenih sa FreeCAD-om.
+
+
+</div>
 
 Kao svaki slobodni softver projekt, FreeCAD je ovisan o zajednici da bi mogao rasti, dobiti nove funkcije ili ispraviti pogreške u programu. Zato nemojte to zaboraviti dok koristite FreeCAD ; ako vam se sviđa, i vi možete direktno utjecati na program i pomoći [donate](Donate.md) i [help FreeCAD](Help_FreeCAD.md) učestvovati u razvoju kao npr. pisati dokumentaciju i prevoiti.
 
@@ -98,7 +104,13 @@ Fokus FreeCAD-a vam je omogućiti izradu 3D preciznih 3D modela, strogu kontrolu
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Radna ploča koju ćete početi koristiti u FreeCAD-u ovisi o vrsti posla koji trebate obaviti: Ako radite na mehaničkim modelima ili općenito nekim objektima manjeg opsega, vjerojatno ćete željeti isprobati [Dizajniranje dijelova radna ploča](PartDesign_Workbench/hr.md). Ako radite u 2D-u, prebacite se na [ Nacrt radna ploča](Draft_Workbench/hr.md) ili na [Skiciraj radna ploča](Sketcher_Workbench/hr.md) ako su vam potrebna ograničenja. Ako želite učiniti BIM, pokrenite [Arhitekt radna ploča](Arch_Workbench/hr.md). Ako radite s dizajnom brodova, za vas postoji poseban [Brod radna ploča](Ship_Workbench/hr.md). A ako stižete iz svijeta OpenSCAD, pokušajte [OpenSCAD radna ploča](OpenSCAD_Workbench/hr.md).
+
+
+</div>
 
 Radne ploče možete prebaciti u bilo koje vrijeme i također [Prilagodba sučelja](Interface_Customization/hr.md) svoju omiljenu radnu ploču koristiti za dodavanje alata s drugih radnih ploča.
 
@@ -130,15 +142,42 @@ U bilo kojem trenutku možete odabrati originalne skice i modificirati ih ili pr
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ## Rad s radnim pločama Nacrt i Arhitekt 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 [Nacrt](Draft_Workbench/hr.md) i [Arhitekt](Arch_Workbench/hr.md) ponašaju se malo drugačije od ostalih radnih radnih ploča gore, iako slijede ista pravila, koja su zajednička svima FreeCAD-u. Ukratko, dok su Sketcher (Skiciraj) i PartDesign (Dizajniranje dijelova) primarno dizajnirani za pojedinačne komade, Nacrt i Arhitekt su napravljeni da olakšaju vaš rad kada radite s nekoliko jednostavnijih objekata.
 
+
+</div>
+
 [Nacrt radna ploča](Draft_Workbench/hr.md) nudi vam 2D alate pomalo slične onima koje možete pronaći u tradicionalnim 2D CAD aplikacijama, poput [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). No, 2D nacrt je daleko od dosega FreeCAD-a, nemojte očekivati da će te tamo naći čitav niz alata koje nude ove posvećene aplikacije. Većina alata za nacrte djeluje ne samo u 2D ravnini, već i u cijelom 3D prostoru, a imaju koristi od posebnih pomoćnih sustava kao što su [Označi plohu nacrta](Draft_SelectPlane.md) i [Privuci objekt](Draft_Snap/hr.md).
+
+
+<div class="mw-translate-fuzzy">
 
 [Arhitekt](Arch_Workbench/hr.md) dodaje [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) alate FreeCAD, omogućujući vam izgradnju arhitektonskih modela s parametarskim objektima. Arhitekt radna ploča se uvelike oslanja na druge module kao što su Nacrt i Skiciraj. Svi alati za crtanje su također prisutni na Arhitekt radnoj ploči, a većina Arhitekt alata koristi nacrte za pomoćne sustave.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Tipičan tijek rada s Arch ( Arhitekt) i Drafts (Nacrt)radnim pločama može biti:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Nacrtajte nekoliko linija pomoću alata Nacrtaj liniju
 2.  Odaberite svaku liniju i pritisnite Zid alat da na svakom od njih izgradite zid
@@ -148,6 +187,9 @@ Tipičan tijek rada s Arch ( Arhitekt) i Drafts (Nacrt)radnim pločama može bit
 6.  Stvorite prozor klikom na alat Prozor, odaberite postavku na njenoj ploči, a zatim kliknite lice zida
 7.  Dodajte dimenzije prvo postavite radnu ravninu ako je potrebno, a zatim pomoću alata Draft Dimension (dimenzija nacrta)
 
+
+</div>
+
 Što vam daje ovo:
 
 <img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
@@ -156,17 +198,24 @@ Više informacija na stranici [Vježbe](Tutorials/hr.md).
 
 
 
-## Dodatci, Makronaredbe i Vanjske radne ploče 
-
 
 <div class="mw-translate-fuzzy">
 
-Freecad, kao softver otvorenog koda, nudi mogućnost nadopune radnih ploča dodacima.
+## Dodatci, Makronaredbe i Vanjske radne ploče 
 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Princip [Dodatci](Addon/hr.md) temelji se na razvoju dopuna radne površine. Bilo koji korisnik može razviti funkciju za koju smatra da nedostaje za vlastite potrebe ili, u konačnici, za zajednicu. Pomoću foruma korisnik može zatražiti mišljenje, pomoć na forumu. Može dijeliti, ili ne, objekt svog razvoja prema pravilima o autorskim pravima koje treba definirati. Besplatno njoj / njemu. Kako bi se razvio, korisnik ima na raspolaganju [skripti](scripting/hr.md) funkcije.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Postoje dvije vrste dodataka:
 
@@ -174,10 +223,19 @@ Postoje dvije vrste dodataka:
 2.  [Vanjskie radne ploče](External_workbenches/hr.md): zbirka alata programiranih u Pythonu ili C ++ koji na važan način proširuju FreeCAD. Ako je radna ploča dovoljno razvijena i dobro je dokumentirana, može biti uključena kao jedana od osnovnih radnih ploča u FreeCAD. Pod [ Vanjske radne ploče](External_workbenches/hr.md) naći ćete principe i popis postojeće knjižnice.
 
 
+</div>
+
+
 
 ## Skriptiranje
 
+
+<div class="mw-translate-fuzzy">
+
 I na kraju, jedna od najmoćnijih značajki FreeCAD-a je [skriptiranje](scripting/hr.md) okruženje. Iz integrirane python konzole (ili iz bilo koje druge vanjske Python skripte) možete dobiti pristup gotovo bilo kojem dijelu FreeCAD-a, stvoriti ili izmijeniti geometriju, modificirati reprezentaciju tih objekata na 3D sceni ili pristupiti i izmijeniti FreeCAD sučelje. Python skripti mogu se koristiti i u [makronaredbe](macros/hr.md), koje pružaju jednostavan način stvaranja prilagođenih naredbi.
+
+
+</div>
 
 
 

@@ -5,7 +5,7 @@
    MenuLocation: Część , Utwórz kopię , Utwórz przekształconą kopię
    Workbenches: Part_Workbench/pl
    Version: 0.19
-   SeeAlso: Part_SimpleCopy/pl, Part_ElementCopy/pl, Part_RefineShape/pl
+   SeeAlso: Part_SimpleCopy/pl
 ---
 
 # Part TransformedCopy/pl
@@ -14,33 +14,32 @@
 
 ## Opis
 
-Narzędzie **Utwórz przekształconą kopię** tworzy nieparametryczną kopię obiektu, który został przesunięty względem swojej pierwotnej pozycji.
+Narzędzie <img alt="" src=images/Part_TransformedCopy.svg  style="width:24px;"> **Utwórz przekształconą kopię** tworzy nieparametryczną kopię obiektu. Jest przeznaczone dla obiektów zagnieżdżonych w kontenerach.
 
-Aby utworzyć inne nieparametryczne kopie, należy użyć narzędzi **<img src="images/Part_SimpleCopy.svg" width=16px> [Utwórz prostą kopię](Part_SimpleCopy/pl.md)
-**, **<img src="images/Part_ElementCopy.svg" width=16px>[Kopia kształtu elementu](Part_ElementCopy/pl.md)**, lub **<img src="images/Part_RefineShape.svg" width=16px> [Udoskonal kształt](Part_RefineShape/pl.md)**
+Właściwość kopii **Umiejscowienie** jest dostosowywana, biorąc pod uwagę umiejscowienie kontenerów, tak że ich pozycja i obrót względem globalnego układu współrzędnych są takie same jak oryginalnych obiektów. Jeśli wskazane obiekty nie są zagnieżdżone lub są zagnieżdżone w kontenerze z domyślnym umiejscowieniem, to narzędzie daje taki sam wynik jak [Część: Utwórz prostą kopię](Part_SimpleCopy/pl.md).
 
 
 
 ## Użycie
 
-1.  Wybierz obiekt, który chcesz skopiować.
-2.  Przejdź do menu **Część → Utwórz kopię → [<img src=images/Part_TransformedCopy.svg style="width:16px"> '''Utwórz przekształconą kopię'''**.
+1.  Wybierz jeden lub więcej obiektów.
+2.  Wybierz opcję **Część → Utwórz kopię → [<img src=images/Part_TransformedCopy.svg style="width:16px"> '''Utwórz przekształconą kopię'''** z menu.
 
 
 
 ## Właściwości
 
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+
+Tworzone są obiekty [Część: Cecha](Part_Feature/pl.md) bez dodatkowych właściwości.
 
 
-### Dane
-
-Kopia ma zwykłą właściwość **Umiejscowienie** jak każda inna [cecha](Part_Feature/pl.md) środowiska Część.
 
 
 
-### Widok
+{{Part_Tools_navi
 
-Kopia ma proste właściwości widoku, jak każda inna [cecha](Part_Feature/pl.md) środowiska część.
+}}
 
 
 

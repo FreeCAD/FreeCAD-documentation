@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -21,6 +23,8 @@ Esta herramienta intenta eliminar la forma cúbica interna de una [Arch Wall](Ar
 
 
 </div>
+
+
 
 ## Utilización
 
@@ -91,6 +95,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/es
+⏵ [documentation index](../README.md) > Arch RemoveShape/es

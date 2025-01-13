@@ -9,7 +9,9 @@
 
 # FEM EquationFlow
 
-This equation calculate viscous fluid flows using the [Navier-Stokes equations](https://en.wikipedia.org/wiki/Navier-Stokes_Equations).
+## Description
+
+This equation calculates viscous fluid flows using the [Navier-Stokes equations](https://en.wikipedia.org/wiki/Navier-Stokes_Equations).
 
 For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Navier-Stokes Equations*.
 

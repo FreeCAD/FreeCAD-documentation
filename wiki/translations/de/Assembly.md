@@ -4,7 +4,7 @@
 
 
 
-In FreeCAD wird das Wort \"[Zusammenbau](Assembly/de.md)\" normalerweise verwendet, um sich auf ein [3D Modell](model/de.md) zu beziehen, das aus mehreren unterscheidbaren Teilen besteht, die auf irgendeine Art und Weise zusammengesetzt werden, um ein funktionales Objekt zu schaffen, so wie Produkte im echten Leben hergestellt werden.
+In FreeCAD wird das Wort \"[Zusammenbau](Assembly/de.md)\" normalerweise verwendet, um sich auf ein [3D Modell](model/de.md) zu beziehen, das aus mehreren unterscheidbaren Teilen besteht, die auf irgendeine Art und Weise zusammengesetzt werden, um ein funktionales Objekt (eine Baugruppe) zu schaffen, so wie Produkte im echten Leben hergestellt werden.
 
 Zum Beispiel sind eine Schraube, eine Beilagscheibe und eine Mutter drei separate Körper, die zusammengesetzt eine Baugruppe bilden.
 
@@ -22,37 +22,35 @@ Zum Beispiel sind eine Schraube, eine Beilagscheibe und eine Mutter drei separat
 
 ### Manueller Zusammenbau 
 
-Im Allgemeinen brauchst du keine speziellen Werkzeuge, um Baugruppen zu erstellen, du musst nur viele verschiedene [Körper](Body/de.md) in irgendeiner Weise angeordnet haben.
+Im Allgemeinen werden keine speziellen Werkzeuge benötigt, um Baugruppen zusammenzubauen, es müssen nur viele verschiedene [Körper](Body/de.md) in irgendeiner Weise angeordnet haben.
 
-Um die Körper dort zu positionieren, wo du sie haben willst, kannst du
+Um die Körper wie gewünscht zu positionieren, gibt es folgende Mölichkeiten:
 
--   das [Std TransformManip](Std_TransformManip/de.md) Werkzeug verwenden,
--   den <img alt="" src=images/Std_Placement.svg  style="width:16px;"> [Std Positionierungsdialog](Std_Placement/de.md), verwenden oder
--   ändere die [Platzierungseigenschaft](Placement/de.md) direkt im [Eigenschaftseditor](Property_editor/de.md).
+-   Das Werkzeug [Std TransformManip](Std_TransformManip/de.md) verwenden,
+-   Den Dialog <img alt="" src=images/Std_Placement.svg  style="width:16px;"> [Std Positionierung](Std_Placement/de.md) verwenden
+-   Die Eigenschaft [Platzierung](Placement/de.md) direkt im [Eigenschafteneditor](Property_editor/de.md) anpassen.
 
-Du kannst eine der Pseudo-Zusammenbau [externe Arbeitsbereiche](external_workbenches/de.md) wie Lattice2, Manipulator, Part-o-magic oder WorkFeature verwenden, um Schnittpunkte zu finden, Abstände zu messen und deine Objekte auf die gewünschte Weise zu verteilen.
+Es kann einer der [externen Pseudo-Zusammenbau-Arbeitsbereiche](external_workbenches/de.md) wie Lattice2, Manipulator, Part-o-magic oder WorkFeature verwendet werden, um Schnittpunkte zu ermitteln, Abstände zu messen und Objekte auf die gewünschte Weise zu verteilen.
 
-Im Allgemeinen wurde das**[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/de.md)** Objekt konzipiert um als Grundbaustein für die Erstellung von Baugruppen zu dienen. Dieses Objekt wird verwendet, um mehrere [Körper](body/de.md) zu gruppieren und sie als eine Einheit, d.h. als Unterbaugruppe, zusammen zu bewegen. Anschließend kann diese Unterbaugruppe neben oder innerhalb anderer Unterbaugruppen platziert werden, um die endgültige Baugruppe zu erstellen.
+Im Prinzip wurde das **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/de.md)**-Objekt so ausgelegt, dass es als Grundbaustein für die Erstellung von Baugruppen dient. Dieses Objekt wird verwendet, um mehrere [Körper](body/de.md) zu gruppieren und sie zusammen als eine Einheit, d.h. als Unterbaugruppe, zu bewegen. Anschließend kann diese Unterbaugruppe neben oder innerhalb anderer Unterbaugruppen platziert werden, um die endgültige Baugruppe zu erstellen.
 
 
 
-### Beschränkter Zusammenbau 
+### Zusammenbau mit Randbedingungen 
 
-Du kannst auch einen anderen zugeordneten Baugruppenarbeitsbereich verwenden, wie <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench/de.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/de.md) oder <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/de.md). Bitte beachte, dass [Assembly2](Assembly2_Workbench/de.md) nicht gepflegt wird und daher für neue Modelle nicht zu empfehlen ist.
+Es kann auch der enthaltene Arbeitsbereich [Assembly](Assembly_Workbench/de.md) verwendet werden oder entsprechende Addons wie <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench/de.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/de.md) oder <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/de.md). Bitte beachten, dass [Assembly2](Assembly2_Workbench/de.md) nicht gepflegt wird und daher für neue Modelle nicht zu empfehlen ist.
 
-Die Zusammenbau Arbeitsbereiche verwenden Beschränkungen und Ausdrücke, um Beziehungen zwischen den Objekten in deinem Modell zu erstellen, um die Objekte mathematisch an ihren Platz zu binden, z. B. \"diese Fläche sollte an dieser anderen Fläche haften\", \"dieser Zylinder sollte konzentrisch zu diesem Kreis sein\", \"dieser Punkt sollte dieser Kante folgen\", usw.
+Die Arbeitsbereiche zum Erstellen von Baugruppen verwenden Randbedingungen und Ausdrücke, um Beziehungen zwischen den Objekten in einem Modell festzulegen und so die Objekte mathematisch an ihren Platz zu binden, z. B. \"diese Fläche sollte an dieser anderen Fläche haften\", \"dieser Zylinder sollte konzentrisch zu diesem Kreis sein\", \"dieser Punkt sollte dieser Kante folgen\", usw.
 
-Dies ist eine erweiterte Anwendung der Software, die normalerweise bei komplexen mechanischen Systemen verwendet wird. Wenn dein [Modell](model/de.md) nicht sehr komplex ist, ist die Verwendung eines Zusammenbau Arbeitsbereichs möglicherweise nicht notwendig.
+Dies ist eine erweiterte Anwendung der Software, die normalerweise für komplexemechanischen Systeme eingesetzt wird. Wenn ein [Modell](model/de.md) nicht sehr komplex ist, ist die Verwendung eines Arbeitsbereichs zum Erstellen von Baugruppen möglicherweise nicht nötig.
 
 
 
 ## Hinweise
 
-Ab FreeCAD 0.19 gibt es keinen offiziellen Arbeitsbereich für Baugruppen mehr, die standardmäßig im System enthalten ist. Ein Arbeitsbereich für Baugruppen ist schwierig zu programmieren, da viele Probleme hinsichtlich der effizienten Nutzung von [Körpern](Body/de.md) und [Teilen](Part/de.md) in der Baugruppe gelöst werden müssen. Dennoch hat die Einführung des [Anwendungsverknüpfungs](App_Link/de.md)-Objekts die Situation verbessert.
+-   Seit FreeCAD 1.0 gibt es einen offiziellen Arbeitsbereich [Assembly](Assembly_Workbench/de.md), der standardmäßig im System enthalten ist.
 
-Bitte beachte, dass Zusammenbau Arbeitsbereiche im Allgemeinen nicht miteinander kompatibel sind. Wenn du eine Baugruppe mit einer dieser Arbeitsbereiche erstellst, solltest du bei dieser bleiben und keinen anderen Zusammenbau Arbeitsbereich für die Arbeit mit demselben Dokument verwenden.
-
-Die Entwicklung der Zusammenbau Arbeitsbereiche geht weiter, und es wird erwartet, dass irgendwann ein Zusammenbau Arbeitsbereich als die \"offizielle\" hervorgehen wird. Dies könnte durch die Förderung einer der aktuellen Zusammenbau Arbeitsbereiche oder durch deren Kombination zu einer umfassenderen Lösung geschehen.
+-   Bitte beachten, dass Arbeitsbereiche zum Erstellen von Baugruppen im Allgemeinen nicht miteinander kompatibel sind. Wird eine Baugruppe mit einem dieser Arbeitsbereiche erstellt, sollte man bei diesem bleiben und keinen anderen Arbeitsbereich für die Arbeit an demselben Dokument verwenden.
 
 
 {{Std Base navi

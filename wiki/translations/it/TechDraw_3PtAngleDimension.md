@@ -1,105 +1,78 @@
 ---
  GuiCommand:
    Name: TechDraw Dimension Angle3Pt
-   Name/it: Angolo da 3 punti
+   Name/it: TechDraw Quota angolare da 3 punti
+   MenuLocation: TechDraw , Quotatura , Quota angolare da 3 punti
    Workbenches: TechDraw_Workbench/it
-   MenuLocation: TechDraw , Angolo da 3 punti
-   Shortcut: 
+   Version: 0.18
    SeeAlso: TechDraw_AngleDimension/it
 ---
 
 # TechDraw 3PtAngleDimension/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Lo strumento **TechDraw Quota angolare da 3 punti** aggiunge una quota angolare ad una Vista. La quota mostra l\'angolo interno tra tre punti.
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width:24px;"> Angolo da 3 punti aggiunge una dimensione angolare a una vista. La dimensione può essere specificata selezionando tre vertici su una vista. 
-**Notare che il secondo dei tre vertici è l\'apice dell\'angolo**. Inizialmente viene indicato il valore dell\'angolo proiettato (vale a dire, come mostrato nel disegno), ma questo valore può essere sostituito con quello dell\'angolo 3D effettivo utilizzando lo strumento **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Link alla dimensione](TechDraw_LinkDimension/it.md)**
-
-
-</div>
-
-<img alt="" src=images/TechDraw_Dimension_Angle3Pt_example.png  style="width:200px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Misurare l'angolo tra due linee rette usando tre vertici; il secondo vertice è l'apice dell'angolo*
-
-
-</div>
+<img alt="" src=images/TechDraw_Dimension_Angle3Pt_example.png  style="width:200px;"> 
+*Quotatura dell'angolo tra tre punti*
 
 
 
 ## Utilizzo
 
+1.  Selezionare tre punti. Il secondo punto sarà l\'apice dell\'angolo. La geometria può essere selezionata nella [Vista 3D](3D_view/it.md) o nel disegno.
+2.  Se si ha selezionato la geometria nella vista 3D: aggiungere la Vista TechDraw corretta alla selezione selezionandola nella [Vista ad albero](Tree_view/it.md).
+3.  Esistono diversi modi per richiamare lo strumento:
+    -   
+        {{Version/it|1.0}}
+        
+        : Se la [preferenza](TechDraw_Preferences/it#Dimensions.md) degli **Strumenti di quotatura** è impostata su {{Value|Strumento singolo}} (predefinito): premere la freccia giù a destra del pulsante **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** e selezionare il pulsante **[[Image:TechDraw_3PtAngleDimension.svg|16px] ] Inserisci Quota angolare da 3 punti** dal menu a discesa.
 
-<div class="mw-translate-fuzzy">
+    -   Se questa preferenza ha un valore diverso (e in {{VersionMinus/it|0.21}}): premere il pulsante **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> [Inserisci Quota angolare da 3 punti](TechDraw_3PtAngleDimension/it.md)**.
 
-1.  Selezionare i punti o bordi che definiscono la misura.
-2.  Premere il pulsante **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> [Angolo da 3 punti](TechDraw_3PtAngleDimension/it.md)
-**
-3.  Alla Vista viene aggiunta una dimensione. La dimensione può essere trascinata nella posizione desiderata.
+    -   Selezionare l\'opzione **TechDraw → Quote → <img src="images/TechDraw_3PtAngleDimension.svg" width=16px> Inserisci Quota angolare da 3 punti** dal menu.
+4.  Una quota viene aggiunta alla Vista.
+5.  La quota può essere trascinata nella posizione desiderata.
+6.  Se necessario, aggiungere tolleranze come descritto in [questa pagina](TechDraw_Geometric_dimensioning_and_tolerancing/it#Tolleranze.md).
 
 
-</div>
 
-### Display 3D measurement 
+### Visualizzazione quotatura 3D 
 
-See [TechDraw LengthDimension](TechDraw_LengthDimension#Display_3D_measurement.md).
+Vedere [TechDraw Quota allineata](TechDraw_LengthDimension/it#Display_3D_measurement.md).
 
-### Change properties 
 
-To change the properties of a dimension object either double-click it in the drawing or in the [Tree view](Tree_view.md). This will open the [Dimension dialog](TechDraw_LengthDimension#Dimension_dialog.md).
+
+### Cambiare le proprietà 
+
+Per modificare le proprietà di un oggetto quota, fare doppio clic su di esso nel disegno o nella [Vista ad albero](Tree_view/it.md). Si aprirà la [Finestra di dialogo Quota](TechDraw_LengthDimension/it#Finestra_di_dialogo_Quota.md).
 
 
 
 ## Limitazioni
 
-
-<div class="mw-translate-fuzzy">
-
-Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologica\". Per maggiori informazioni vedere le informazioni nello strumento <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> [Lunghezza](TechDraw_LengthDimension/it.md).
+Gli oggetti Quota sono vulnerabili al \"[problema di denominazione topologica](Topological_naming_problem/it.md)\". Vedere [TechDraw Quota allineata](TechDraw_LengthDimension/it.md).
 
 
-</div>
 
-## Notes
+## Note
 
-See [TechDraw LengthDimension](TechDraw_LengthDimension#Notes.md).
+Vedere [TechDraw Quota allineata](TechDraw_LengthDimension/it#Note.md).
 
 
 
 ## Proprietà
 
-
-<div class="mw-translate-fuzzy">
-
-Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_LengthDimension/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Vedere [TechDraw Quota allineata](TechDraw_LengthDimension/it#Proprietà.md).
 
 
 
 
 
-</div>
-
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

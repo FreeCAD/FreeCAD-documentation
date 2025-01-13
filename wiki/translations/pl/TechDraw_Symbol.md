@@ -13,7 +13,14 @@
 
 ## Opis
 
-Narzędzie **Wstaw symbol SVG** wstawia plik [SVG](SVG/pl.md) na stronę. Symbolem tym może być wszystko, co pomaga w dodawaniu adnotacji do rysunku i nie musi być potem modyfikowane.
+Narzędzie **Wstaw symbol SVG** wstawia obiekt Symbol. Jest to okrojony widok, który zawiera tylko jeden plik [SVG](SVG/pl.md) zgodnie ze specyfikacją svg-tiny (zobacz [Rysunek Techniczny: Szablony](TechDraw_Templates/pl#Uwagi.md)).
+
+Symbol może być czymkolwiek, co pomaga opisać rysunek i nie musi być dalej modyfikowane, ale może zawierać [edytowalny tekst](Svg_Namespace/pl#freecad_editable.md).
+
+
+{{Version/pl|1.0}}
+
+: Narzędzie [Wstaw widok](TechDraw_View/pl.md) również może utworzyć Symbol.
 
 <img alt="" src=images/TechDraw_SymbolSVG_sample.png  style="width:250px;"> 
 *Róża wiatrów dodana do strony rysunku; ten symbol jest dostępny po zainstalowaniu dodatku "symbols_library" za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md).*
@@ -23,14 +30,12 @@ Narzędzie **Wstaw symbol SVG** wstawia plik [SVG](SVG/pl.md) na stronę. Symbol
 ## Użycie
 
 1.  Jeśli w dokumencie znajduje się wiele stron rysunku: opcjonalnie aktywuj żądaną stronę, wybierając ją w [Widoku drzewa](Tree_view.md).
-2.  Istnieje kilka sposobów wywołania narzędzia:
-    -   Naciśnij przycisk **<img src="images/TechDraw_Symbol.svg" width=16px> '''Wstaw symbol SVG'''**.
-    -   Wybierz z menu opcję **Rysunek Techniczny → Widoki → <img src="images/TechDraw_Symbol.svg" width=16px> Wstaw symbol SVG**.
-3.  Jeśli w dokumencie znajduje się wiele stron rysunków, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+2.  Wybierz opcję **Rysunek Techniczny → Widoki → <img src="images/TechDraw_Symbol.svg" width=16px> Wstaw symbol SVG** z menu.
+3.  Jeśli w dokumencie znajduje się wiele stron rysunków, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**:
     1.  Wybierz żądaną stronę.
     2.  Naciśnij przycisk **OK**.
-4.  Zostanie otwarte okno dialogowe pliku.
-5.  Wybierz lokalizację i nazwę pliku.
+4.  Zostanie otwarta przeglądarka plików.
+5.  Wybierz plik SVG.
 6.  Symbol zostanie wstawiony.
 7.  Opcjonalnie można zmienić jego właściwość **Skala**, aby dostosować jego rozmiar.
 
@@ -44,12 +49,22 @@ Narzędzie **Wstaw symbol SVG** wstawia plik [SVG](SVG/pl.md) na stronę. Symbol
 
 ## Właściwości
 
-Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw_View/pl#Widok.md) środowiska Rysunek Techniczny.
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+
+Symbol, formalnie obiekt {{Incode|TechDraw::DrawViewSymbol}} ma [właściwości](TechDraw_View/pl#Właściwości_-_Widok_części.md) wspólne dla wszystkich typów Widoków. Ma też następujące dodatkowe właściwości:
+
+
+
+### Dane
 
 
 {{TitleProperty|Widok rysunku}}
 
--    **Tekst edytowalny**: Lista edytowalnych tekstów, jeśli istnieją.
+-    **Symbol|String|Hidden**: Kod SVG definiujący ten symbol.
+
+-    **Editable Texts|StringList**: Wartości podstawienia dla edytowalnych ciągów w tym symbolu.
+
+-    **Owner|Link**: Cecha, do której ten symbol jest dołączony. {{Version/pl|1.0}}
 
 
 
@@ -74,7 +89,7 @@ rc = page.addView(sym)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

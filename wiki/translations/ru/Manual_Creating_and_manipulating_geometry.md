@@ -1,7 +1,13 @@
 # Manual:Creating and manipulating geometry/ru
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 В предыдущих главах мы узнали о различных верстаках FreeCAD, и как каждый из них реализует свои собственные инструменты и типы геометрии. То же самое касается работы из кода Python.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -11,30 +17,74 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Поэтому первая вещь, которую надо сделать для работы с геометрией Part, это импортирование модуля Part как эквивалент перехода к верстаку Part в Python:
+
+
+</div>
 
 
 ```python
 import Part 
 ```
 
+Take a moment to explore the Part module by typing **Part.** in the Python console and browsing through the available methods and attributes in the autocomplete window. This is a great way to familiarize yourself with the functionality the module offers. You\'ll find a variety of convenient functions, such as makeBox and makeCircle, which allow you to quickly create geometric shapes and objects with just a single command. Many of these functions also offer optional parameters, giving you precise control over dimensions and placement.
+
+
+<div class="mw-translate-fuzzy">
+
 Уделите минутку для исследования содержимого модуля Part, напечатав Part. и просмотрев доступные методы. Модуль Part предлагает некоторые общие функции, такие как makeBox, makeCircle, и так далее, которые мгновенно создают объекты для Вас. Попробуйте это, например:
+
+
+</div>
 
 
 ```python
 Part.makeBox(3,5,7) 
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Когда вы после ввода строки выше нажмёте Enter, в окне трёхмерного вида ничего не появится, но в консоли Python будет напечатано нечто вроде этого:
+
+
+</div>
 
 
 ```python
 <Solid object at 0x5f43600> 
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Здесь вступает в силу важная концепция. Мы создали форму Part. Это не объект документа FreeCAD (пока). Объекты и их геометрия в FreeCAD независимы. Считайте объект документа FreeCAD контейнером, который содержит форму. Параметрические объекты так же имеют параметры вроде Length и Width, и **пересчитывают** их форму на лету, когда один из параметров изменяется. Что мы сделали здесь - это вычислили форму вручную.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Теперь мы можем просто сделать \"общий\" объект документа в текущем документе (убедитесь что у Вас открыт хотя бы один новый объект), и дать ему форму куба вроде того, что мы только что сделали:
+
+
+</div>
+
+In this case, we manually created a shape using the **Part.makeBox()** function. This shape is a non-parametric object, meaning it won't update automatically based on any properties---it is static unless we manipulate it programmatically. To make this shape part of the active FreeCAD document, it would need to be assigned to a document object (like a **Part::Feature**), which would link it to the graphical interface and make it visible and manageable within the FreeCAD environment.
+
+
+<div class="mw-translate-fuzzy">
+
+Обратите внимание на то, как мы обрабатывали myObj.Shape , мы сделали это в точности как в предыдущей главе мы меняли другие параметры объекта, такие как box.Height = 5 . Фактически, **Shape** это так же параметр, подобно **Height**. Но его тип Part Shape, а не число. В следующей главе мы рассмотрим глубже конструкцию этих параметрических объектов.
+
+
+</div>
+
+We can now easily create a \"generic\" document object in the current document (make sure you have at least one new document open), and give it a box shape like the one we just made:
 
 
 ```python
@@ -44,9 +94,34 @@ myObj.Shape = boxShape
 FreeCAD.ActiveDocument.recompute()
 ```
 
-Обратите внимание на то, как мы обрабатывали myObj.Shape , мы сделали это в точности как в предыдущей главе мы меняли другие параметры объекта, такие как box.Height = 5 . Фактически, **Shape** это так же параметр, подобно **Height**. Но его тип Part Shape, а не число. В следующей главе мы рассмотрим глубже конструкцию этих параметрических объектов.
+Here is a breakdown of the previous commands:
 
-Теперь изучим наши формы Part детальнее. В конце главы о [традиционном моделировании с помощью верстака Part](Manual:Traditional_modeling,_the_CSG_way/ru.md) мы показали стол, показывающий как конструируются формы Part, и их различные компоненты (вершины, грани, рёбра и так далее). Точно такие же компоненты существуют и могут быть доступны через Python. Формы Part всегда имеют следующие атрибуты: Vertexes, Edges, Wires, Faces, Shells и Solids. Все они списки, содержащие любое число элементов или пустые:
+-   **boxShape = Part.makeBox(3,5,7)**: Creates a 3D box with dimensions 3x5x7 (length, width, and height) and stores it as a Part Shape in the variable boxShape. This shape exists only in memory and is not yet part of the FreeCAD document.
+
+-   **myObj = FreeCAD.ActiveDocument.addObject(\"Part::Feature\", \"MyNewBox\")**: Adds a new Part::Feature object named \"MyNewBox\" to the active FreeCAD document and assigns it to the variable myObj. The new object will appear in the FreeCAD document tree.
+
+-   **myObj.Shape = boxShape**: Links the boxShape geometry to the Shape property of myObj, integrating the geometry into the FreeCAD document.
+
+-   **FreeCAD.ActiveDocument.recompute()**: Updates the document to reflect the changes, ensuring that the new object and its geometry appear in the graphical interface.
+
+Note how we handled **myObj.Shape**. It was done in the same way as in the previous chapter, where we changed other properties of an object, such as **box.Height = 5**. In fact, **Shape** is also a property, just like **Height**. However, instead of taking a number, **Shape** requires a Part Shape. In the next chapter, we will take a closer look at how these parametric objects are constructed.
+
+
+<div class="mw-translate-fuzzy">
+
+Например, найдём площадь каждой грани нашей формы куба:
+
+
+</div>
+
+-   **Vertexes**: Points in 3D space that define the corners or endpoints of geometry.
+-   **Edges**: Straight or curved lines connecting two vertexes.
+-   **Wires**: Closed or open loops formed by one or more connected edges.
+-   **Faces**: Surfaces enclosed by one or more wires.
+-   **Shells**: Groups of connected faces, forming a continuous surface.
+-   **Solids**: 3D volumes enclosed by one or more shells.
+
+All of these attributes are represented as lists in Python. Each list can contain any number of elements or be empty, depending on the shape being explored. For example, a box will have eight **Vertexes**, twelve **Edges**, six **Faces**, one **Shell**, and one **Solid**, while a line will only have two **Vertexes** and one **Edge**, with all other attributes being empty. These components are fundamental building blocks of Part geometry and can be accessed and manipulated programmatically. Understanding how they interact provides powerful control over the creation and modification of 3D models. We can access those lists as follows:
 
 
 ```python
@@ -61,7 +136,7 @@ print(boxShape.Solids)
 
 <div class="mw-translate-fuzzy">
 
-Например, найдём площадь каждой грани нашей формы куба:
+Или, для каждого ребра, начальную и конечную точку:
 
 
 </div>
@@ -72,7 +147,7 @@ for f in boxShape.Faces:
    print(f.Area)
 ```
 
-Или, для каждого ребра, начальную и конечную точку:
+Or, for each edge, its start point and end point:
 
 
 ```python
@@ -84,7 +159,13 @@ for e in boxShape.Edges:
    print(e.Vertexes[1].Point)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Как Вы видите, если boxShape имеет атрибут \"Vertexes\", каждый Edge в boxShape так же имеет атрибут \"Vertexes\". Как мы можем ожидать, у boxShape будет 8 вершин, когда ребро имеет 2, которые включены в число этих восьми.
+
+
+</div>
 
 Мы всегда можем проверить, каков тип формы:
 
@@ -95,7 +176,21 @@ print(boxShape.Faces[0].ShapeType)
 print(boxShape.Vertexes[2].ShapeType)
 ```
 
+Here is a short explanation of the above commands:
+
+-   **print(boxShape.ShapeType)**: Displays the type of the top-level shape represented by **boxShape**. In this case, since **boxShape** was created as a box using **Part.makeBox**, the output will be \"Solid\", indicating that the shape is a 3D solid object.
+
+-   **print(boxShape.Faces\[0\].ShapeType)**: Accesses the first face in the **Faces** list of **boxShape** (index 0) and prints its shape type. For a box, each face is a flat surface, so the output will be \"Face\".
+
+-   **print(boxShape.Vertexes\[2\].ShapeType)**: Accesses the third vertex in the **Vertexes** list of **boxShape** (index 2) and prints its shape type. Since this is a specific point in 3D space, the output will be \"Vertex\".
+
+
+<div class="mw-translate-fuzzy">
+
 Так что возобновим тему Part Shape: всё начинается с вершин (Vertice). С одной или двумя вершинами (окружность имеет только одну вершину) формируется ребро (Edge). С несколькими рёбрами формируется ломаная (Wire). С одной или несколькими замкнутыми ломаными формируется грань (Face) (дополнительные ломаные образуют в грани \"отверстия\"). Несколько граней создают оболочку (Shell). Когда оболочка замкнута (водонепроницаемо), из неё можно создать тело (Solid). И в конце можно соединить несколько форм (Shape) различных видов, это называется соединение (Compound).
+
+
+</div>
 
 Теперь мы попробуем создать сложные формы с нуля, конструируя все их компоненты один за другим. Например, попробуем создать объём вроде этого:
 
@@ -125,14 +220,26 @@ L1 = Part.LineSegment(V1,V2)
 L2 = Part.LineSegment(V4,V3)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Заметили, что нам не надо создавать Vertices? Мы можем сразу создать Part.LineSegments из FreeCAD Vectors, потому, что у нес ещё не созданы рёбра (Edge). Part.LineSegments (как и Part.Circle, Part.Arc, Part.Ellipse или Part.BSpline) создают не ребро (Edge), а базовую геометрию, на которой будут созданы рёбра. Рёбра всегда делаются из такой базовой геометрии, сохраняемой в её атрибуте Curve. Так что если у Вас есть Edge, команда:
+
+
+</div>
 
 
 ```python
 print(Edge.Curve) 
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 покажет Вам, какого типа этот Edge, базируется ли он на линии, дуге или ещё чем\... Но вернёмся к нашему примеру, и свяжем сегменты дуги. Для этого нам нужна третья точка, поэтому мы можем использовать подходящий Part.Arc, у которого 3 точки:
+
+
+</div>
 
 ![](images/Circel.png )
 
@@ -182,14 +289,26 @@ E2 = L2.toShape()
 W = Part.Wire([E1,E4,E2,E3]) 
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 И мы можем проверить, правильно ли понята наша ломаная (Wire), и корректно ли она замкнута:
+
+
+</div>
 
 
 ```python
 print( W.isClosed() ) 
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Здесь будет напечатано \"True\" или \"False\". Чтобы создать грань (Face), нам нужны замкнутые ломаные (Wire), так что всегда полезно проверить это, прежде чем создать грань. Мы можем создать Face, передав ей единственную полилинию (Wire), или список полилиний, если нам нужны отверстия:
+
+
+</div>
 
 
 ```python
@@ -203,14 +322,20 @@ F = Part.Face(W)
 P = F.extrude(FreeCAD.Vector(0,0,10)) 
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Зметьте, что P уже твёрдое тело (Solid):
+
+
+</div>
 
 
 ```python
 print(P.ShapeType) 
 ```
 
-This is because when we extrude a single Face, we always get a Solid. This wouldn\'t be the case, for example, if we had extruded the Wire instead:
+This is because when we extrude a single face, we always get a solid. This wouldn\'t be the case, for example, if we had extruded the wire instead:
 
 
 ```python

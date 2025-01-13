@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft WorkingPlaneProxy
    Name/pl: Rysunek Roboczy: Pośrednia płaszczyzna robocza
-   MenuLocation: Narzędzia , Pośrednia płaszczyzna robocza
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Narzędzia , Utwórz pośrednią płaszczyznę roboczą
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    SeeAlso: Draft_SelectPlane/pl
 ---
 
@@ -26,8 +26,9 @@ Polecenie <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;
 2.  Opcjonalnie można zmienić ujęcie [widoku 3D](3D_view/pl.md).
 3.  Opcjonalnie można zmienić widoczność obiektów w dokumencie.
 4.  Polecenie można wywołać na kilka sposobów:
-    -   Naciśnij przycisk **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> '''Pośrednia płaszczyzna robocza''**.
-    -   Wybierz opcję z menu **Narzędzia → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Pośrednia płaszczyzna robocza**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Naciśnij przycisk **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> '''Utwórz pośrednią płaszczyznę roboczą''**.
+    -   Rysunek Roboczy: Wybierz opcję **Narzędzia → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Utwórz pośrednią płaszczyznę roboczą** z menu lub menu kontekstowego [widoku drzewa](Tree_view/pl.md) bądź [widoku 3D](3D_view/pl.md).
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Narzędzia → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Utwórz pośrednią płaszczyznę roboczą** z menu.
 5.  Zostanie utworzona pośrednia płaszczyzna robocza.
 6.  Aby wyrównać [płaszczyznę roboczą](Draft_SelectPlane/pl.md) z pośrednią płaszczyzną roboczą, kliknij dwukrotnie pośrednią płaszczyznę roboczą w [widoku drzewa](Tree_view/pl.md) lub użyj polecenia [Wybór płaszczyzny](Draft_SelectPlane/pl.md).
 

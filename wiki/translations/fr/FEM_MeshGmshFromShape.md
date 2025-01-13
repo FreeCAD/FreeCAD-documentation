@@ -1,17 +1,23 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM MeshGmshFromShape
-   Name/fr: FEM Maillage FEM à partir d'une forme avec Gmsh
-   MenuLocation: Maillage , Maillage FEM à partir d'une forme de Gmsh
+   Name/fr: FEM Mailler avec Gmsh
+   MenuLocation: Maillage , Mailler avec le mailleur Gmsh
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: Tous
+}}
 ---
 
 # FEM MeshGmshFromShape/fr
 
 ## Description
 
-Pour une analyse par éléments finis, la géométrie doit être discrétisée en un [maillage FEM](FEM_Mesh/fr.md). Cette commande utilise le logiciel [Gmsh](https://fr.wikipedia.org/wiki/Gmsh) (qui doit être installé sur le système) pour générer le maillage.
+Pour une analyse par éléments finis, la géométrie doit être discrétisée en un [maillage de l\'atelier FEM](FEM_Mesh/fr.md). Cette commande utilise le logiciel [Gmsh](https://fr.wikipedia.org/wiki/Gmsh) (qui doit être installé sur le système) pour générer le maillage.
 
 En fonction de votre système d\'exploitation et de votre paquetage d\'installation, Gmsh peut être fourni avec FreeCAD ou pas. Pour plus d\'informations voir [FEM Installation des composants requis](FEM_Install/fr.md).
 
@@ -19,14 +25,18 @@ En fonction de votre système d\'exploitation et de votre paquetage d\'installat
 
 ## Utilisation
 
-1.  Sélectionnez la forme que vous souhaitez analyser. Pour le volume FEM, il doit s\'agir d\'un solide ou d\'un composé de solides (compsolid). Un composé de solides est nécessaire si votre pièce est composée de plusieurs matériaux. (Un composé de solides peut être créé avec la commande [Part Fragments booléens](Part_BooleanFragments/fr.md).)
-    -   Appuyez sur le bouton **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [Maillage FEM à partir d'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md)**.
-    -   Sélectionnez l\'option **Maillage → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> Maillage FEM à partir d'une forme de Gmsh** dans le menu.
-2.  Vous pouvez éventuellement modifier la taille minimale et maximale des éléments (l\'autodétection crée souvent des maillages trop grossiers).
-3.  Cliquez sur le bouton **Appliquer** et attendez que la génération du maillage soit terminée.
-4.  Fermez la tâche. Vous devriez maintenant voir un nouvel objet FEMMeshGMSH dans votre conteneur d\'analyse active.
+1.  Sélectionnez la forme que vous souhaitez analyser. Pour un volume FEM, il doit s\'agir d\'un solide ou d\'un composé de solides (compsolid). Un composé de solides est nécessaire si votre pièce est composée de plusieurs matériaux. (Un composé de solides peut être créé avec la commande [Part Fragments booléens](Part_BooleanFragments/fr.md)).
+2.  Activez l\'outil par l\'un des moyens suivants :
+    -   Appuyez sur le bouton **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [Mailler avec le mailleur Gmsh](FEM_MeshGmshFromShape/fr.md)**.
+    -   Sélectionnez l\'option **Maillage → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> Mailler avec le mailleur Gmsh** du menu.
+3.  Vous pouvez également modifier la taille minimale et maximale des éléments (le paramètre par défaut crée souvent des maillages trop grossiers). Vous pouvez également modifier la dimension de l\'élément (mais le paramètre par défaut *À partir d\'une forme* est normalement suffisant) et l\'ordre.
+4.  Vous pouvez également modifier la taille minimale et maximale des éléments (le paramètre par défaut crée souvent des maillages trop grossiers). Vous pouvez également modifier la dimension de l\'élément (mais le paramètre par défaut *From shape* est normalement suffisant) et l\'ordre.
+5.  Cliquez sur le bouton **Appliquer** et attendez que le maillage soit terminée. {{Version/fr|1.0}} : vous pouvez appuyer sur le bouton **Annuler** pour annuler le maillage.
+6.  Cliquez sur le bouton **OK** pour fermer la tâche. Vous devriez maintenant voir un nouvel objet FEMMeshGmsh dans votre conteneur d\'analyse actif. Vous pouvez également cliquer sur le bouton **Annuler** pour annuler les modifications ou la création de l\'objet de maillage.
 
-Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l\'aide de l\'[éditeur de propriétés](Property_editor/fr.md). Après avoir modifié une propriété, vous devez rouvrir la boîte de dialogue Gmsh et cliquer sur le bouton **Appliquer**. (Vous pouvez laisser la boîte de dialogue ouverte pendant la modification des propriétés).
+Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l\'aide de l\'[éditeur de propriétés](Property_editor/fr.md). Après avoir modifié une propriété, vous devez rouvrir la fenêtre de dialogue Gmsh et cliquer sur le bouton **Appliquer**. (Vous pouvez laisser la fenêtre de dialogue ouverte pendant la modification des propriétés).
+
+Le bouton **Version du mailleur Gmsh** vous permet de vérifier les détails du binaire Gmsh utilisé.
 
 
 
@@ -82,6 +92,13 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
 
     -   true ; l\'interpolation linéaire est utilisée.
     -   false (par défaut) ; l\'interpolation curviligne est utilisée.
+
+-    **Subdivision Algorithm**{{Version/fr|1.0}} : permet la création d\'éléments quadrilatéraux et hexaédriques par subdivision.
+
+    -   None : n\'utilise aucun algorithme de subdivision
+    -   All Quadrangles : crée des éléments quadrilatéraux par subdivision
+    -   All Hexahedra : crée des éléments hexaédriques par subdivision
+    -   Barycentric : crée des éléments triangulaires par subdivision barycentrique
 
 
 

@@ -1,6 +1,13 @@
-# Part Sphere/sv
 ---
- GuiCommand:   Name: Part Sphere   Name/sv: Part Sphere   MenuLocation: Part -> Sphere   ,Complete---
+ GuiCommand:
+   Name: Part Sphere
+   Name/sv: Part Sphere
+   MenuLocation: Part , Primitives , Sphere
+   Workbenches: Part_Workbench/sv
+   SeeAlso: Part_CreatePrimitives/sv
+---
+
+# Part Sphere/sv
 
 
 </div>
@@ -16,7 +23,7 @@ A Part Sphere can be truncated at the top and/or bottom by changing its **Angle1
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Sphere.svg" width=16px> [Part Sphere](Part_Sphere.md)** button.
+    -   Press the **<img src="images/Part_Sphere.svg" width=16px> [Sphere](Part_Sphere.md)** button.
     -   Select the **Part → Primitives → <img src="images/Part_Sphere.svg" width=16px> Sphere** option from the menu.
 2.  The sphere is created.
 3.  Optionally change the dimensions and **Placement** of the sphere by doing one of the following:

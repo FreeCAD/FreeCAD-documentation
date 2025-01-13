@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Part JoinEmbed
-   MenuLocation: Part , Join , Embed Object
+   MenuLocation: Part , Join , Embed object
    Workbenches: Part_Workbench
    Version: 0.16
    SeeAlso: Part_JoinConnect, Part_JoinCutout, Part_Boolean, Part_Thickness
@@ -11,16 +11,17 @@
 
 ## Description
 
-Embed tool embeds a walled object (e.g., a pipe) into another walled object.
+The <img alt="" src=images/Part_JoinEmbed.svg  style="width:24px;"> **Part JoinEmbed** tool embeds a walled object (e.g. a pipe) into another walled object.
 
 ![600px](images/JoinFeatures_Embed.png)
 
 ## Usage
 
-1.  Select the base object first, then the object to be embedded. The order of selection is important. It is enough to select one sub-shape of each object (e.g., faces).
-2.  Invoke the Part JoinEmbed command.
-
-A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objects are hidden, and the result of embedding is shown in 3D view.
+1.  Select the base object first, then the object to be embedded. The order of selection is important. It is enough to select one sub-shape of each object (e.g. faces).
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Part_JoinEmbed.svg" width=16px> [Embed object](Part_JoinEmbed.md)** button.
+    -   Select the **Part → Join → <img src="images/Part_JoinEmbed.svg" width=16px> Embed object** option from the menu.
+3.  A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objects are hidden, and the result of embedding is shown in the [3D view](3D_view.md).
 
 ## Properties
 

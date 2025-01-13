@@ -3,7 +3,7 @@
    Name: Draft AutoGroup
    Name/pl: Rysunek Roboczy: Grupowanie automatyczne
    Empty: 1
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Version: 0.17
    SeeAlso: Draft_Layer/pl, Std_Group/pl
 ---
@@ -14,7 +14,7 @@
 
 ## Opis
 
-Polecenie **Grupowanie automatyczne** zmienia aktywną [warstwę](Draft_Layer/pl.md) lub, [opcjonalnie](#Ustawienia.md), aktywną [grupę](Std_Group/pl.md) lub podobny do grupy obiekt [architektury](Arch_Workbench/pl.md). Nowe obiekty [Rysunku roboczego](Draft_Workbench/pl.md) i [Architrktury](Arch_Workbench/pl.md) są automatycznie umieszczane w tej aktywnej warstwie lub grupie.
+Polecenie **Grupowanie automatyczne** zmienia aktywną [warstwę](Draft_Layer/pl.md) lub, [opcjonalnie](#Ustawienia.md), aktywną [grupę](Std_Group/pl.md) lub podobny do grupy obiekt [BIM](BIM_Workbench/pl.md). Nowe obiekty [Rysunku roboczego](Draft_Workbench/pl.md) i [BIM](BIM_Workbench/pl.md) są automatycznie umieszczane w tej aktywnej warstwie lub grupie.
 
 Polecenie to było pierwotnie przeznaczone dla grup, stąd jego nazwa, ale zostało przeprojektowane w wersji FreeCAD 0.19, kiedy wprowadzono system warstw. Ponieważ obsługa warstw jest teraz domyślna dla polecenia, pozostała część tej strony skupi się głównie na warstwach.
 
@@ -27,7 +27,7 @@ Polecenie to było pierwotnie przeznaczone dla grup, stąd jego nazwa, ale zosta
 
 1.  Opcjonalnie wybierz warstwę, którą chcesz aktywować w [widoku drzewa](Tree_view/pl.md).
 2.  Polecenie można wywołać na kilka sposobów:
-    -   Nacisnąć przycisk w ![](images/Draft_tray_button_layer.png ) [tacce narzędziowej](Draft_Tray/pl.md). Przycisk ten może wyglądać inaczej. Jeśli jest aktywna warstwa, wyświetli jej nazwę i ikonę z **kolorem linii** i **kolorem kształtu** warstwy.
+    -   Nacisnąć przycisk w ![](images/Draft_tray_button_layer.png ) [tacce narzędziowej](Draft_Tray/pl.md). Przycisk ten może wyglądać inaczej. Jeśli jest aktywna warstwa, wyświetli jej nazwę i ikonę z kolorem linii i kolorem kształtu warstwy.
     -   Jeśli zaznaczyłeś warstwę: wybierz opcję **<img src="images/button_right.svg" width=16px> Aktywuj tę warstwę** z menu kontekstowego [Widok drzewa](Tree_view/pl.md).
 3.  Jeśli warstwa nie została jeszcze wybrana, otworzy się menu warstw. Wykonaj jedną z następujących czynności:
     -   Wybierz **Brak**, aby pracować bez aktywnej warstwy.

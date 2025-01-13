@@ -1,52 +1,28 @@
 ---
  GuiCommand:
    Name: TechDraw Dimension Vertical
-   Name/it: Dimensione verticale
+   Name/it: TechDraw Quota verticale
+   MenuLocation: TechDraw , Quotatura , Inserisci Quota verticale
    Workbenches: TechDraw_Workbench/it
-   MenuLocation: TechDraw , Dimensione verticale
-   Shortcut: 
+   Shortcut: **Shift** + **V**
    SeeAlso: TechDraw_LengthDimension/it, TechDraw_HorizontalDimension/it
 ---
 
 # TechDraw VerticalDimension/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Lo strumento **TechDraw Quota verticale** aggiunge una quota verticale a una Vista. La quota può essere la distanza verticale tra due punti o la lunghezza verticale di un bordo dritto. Come con lo strumento [TechDraw Quota allineata](TechDraw_LengthDimension/it.md) è anche possibile selezionare due bordi o un punto e un bordo, ma queste opzioni hanno meno senso per questo strumento.
 
-<div class="mw-translate-fuzzy">
+Per ulteriori informazioni vedere [TechDraw Quota allineata](TechDraw_LengthDimension/it.md).
 
-Lo strumento Dimensione verticale aggiunge una dimensione verticale ad una Vista. La dimensione può essere la distanza tra due vertici, la lunghezza di uno spigolo o la distanza verticale tra 2 spigoli. La distanza indicata all\'inizio è la distanza proiettata (vale a dire, come mostrata nel disegno), ma utilizzando lo strumento **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Link alla dimensione](TechDraw_LinkDimension/it.md)** essa può essere modificata con la distanza 3D effettiva.
-
-
-</div>
-
-For more information see [TechDraw LengthDimension](TechDraw_LengthDimension.md).
-
-<img alt="" src=images/TechDraw_Dimension_Vertical_example.png  style="width:220px;">
-
-
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/TechDraw_Dimension_Vertical_example.png  style="width:220px;"> 
+*Quotatura della distanza verticale presa da due punti*
 
 
 
-*Dimensione della lunghezza presa da due nodi arbitrari della vista; la distanza è misurata verticalmente*
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

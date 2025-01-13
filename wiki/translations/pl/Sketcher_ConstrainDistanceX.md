@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Sketcher ConstrainDistanceX
-   Name/pl: Szkicownik: Zwiąż w poziomie
-   MenuLocation: Szkic , Wiązania szkicownika , Zwiąż w poziomie
+   Name/pl: Szkicownik: Zwiąż odległość poziomą
+   MenuLocation: Szkic , Wiązania szkicownika , Zwiąż odległość poziomą
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **L**
    SeeAlso: Sketcher_ConstrainDistance/pl, Sketcher_ConstrainDistanceY/pl
@@ -14,7 +14,7 @@
 
 ## Opis
 
-Ustala poziomą odległość pomiędzy 2 punktami lub końcami linii. Jeśli wybrany jest tylko jeden punkt, odległość jest ustalana względem punktu początku szkicu.
+Narzędzie <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> **Zwiąż odległość poziomą** ustala poziomą odległość między dwoma punktami lub punktami końcowymi linii. Jeśli wstępnie wybrano pojedynczy punkt, odległość jest względna do początku szkicu.
 
 ![](images/Constraint_H_Distance.png )
 
@@ -22,14 +22,48 @@ Ustala poziomą odległość pomiędzy 2 punktami lub końcami linii. Jeśli wyb
 
 ## Użycie
 
-1.  Wybierz jeden lub dwa punkty albo jedną linię.
-2.  Uruchomić narzędzie na jeden z możliwych sposobów:
-    -   Naciśnij przycisk **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Zwiąż w poziomie](Sketcher_ConstrainDistanceX/pl.md)** znajdujący się na pasku narzędzi Szkicownika.
-    -   Użyj klawiszya **L**.
-    -   Użyj polecenia menu głównego **Szkic → Wiązania szkicownika → Zwiąż w poziomie**.
-3.  Otworzy się wyskakujące okno dialogowe do edycji z proponowaną wartością. Naciśnij **OK**, aby ją wartość.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
-**Uwaga:** Narzędzie wiązania może być również uruchomione bez wcześniejszego zaznaczenia obiektów, ale będzie wymagane wybranie dwóch punktów lub jednej linii. Aby ustawić odległość względem punktu początkowego, należy także zaznaczyć punkt początkowy szkicu. Domyślnie polecenie jest aktywne w trybie kontynuacji, by utworzyć nowe wiązanie; wciśnij raz prawy przycisk myszki lub klawisz **Esc**, by zakończyć działanie polecenia.
+
+
+### [Tryb kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md) 
+
+1.  Upewnij się, że nie ma zaznaczenia.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   
+        {{Version/pl|1.0}}
+        
+        : Jeśli [ustawienie](Sketcher_Preferences/pl#Ogólne.md) **Wiązania wymiarów** jest aktywne i wybrano {{Value|Narzędzie pojedyncze}} *(domyślnie)*: naciśnij strzałkę w dół po prawej stronie przycisku **<img src="images/Sketcher_ConstrainDistanceX.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=16px>** i wybierz opcję **<img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> Zwiąż odległość poziomą** z rozwijanej listy.
+
+    -   Jeśli ta preferencja ma inną wartość *({{VersionMinus/pl|0.21}})*: naciśnij **<img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> '''Zwiąż odległość poziomą'''**.
+
+    -   Wybierz z menu opcję **Szkic → Wiązania szkicownika → <img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> Zwiąż odległość poziomą**.
+
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz opcję **Wiązanie wymiarów → <img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> Zwiąż odległość poziomą** z menu podręcznego.
+
+    -   Użyj skrótu klawiaturowego: **L**.
+3.  Kursor zmieni się w krzyżyk z ikoną narzędzia.
+4.  Wykonaj jedną z następujących czynności:
+    -   Wybierz dwa punkty *(jeden z nich może być punktem początkowym)*.
+    -   Wybierz pojedynczą linię.
+5.  Jeśli utworzono [kontrolujące wiązanie wymiarowe](Sketcher_ToggleDrivingConstraint/pl.md), w zależności od [konfiguracji](Sketcher_Preferences/pl#Wyświetlanie.md), otworzy się okno dialogowe [Wprowadź długość](Sketcher_Workbench/pl#Edycja_wiązań.md).
+6.  Wiązanie zostanie dodane.
+7.  Opcjonalnie można kontynuować tworzenie wiązań.
+8.  Aby zakończyć, kliknij prawym przyciskiem myszy lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
+
+
+
+### Tryb jednorazowy 
+
+1.  Wykonaj jedną z następujących czynności:
+    -   Wybierz jeden lub dwa punkty.
+    -   Wybierz pojedynczą linię.
+2.  Wywołaj narzędzie, jak wyjaśniono powyżej.
+3.  Opcjonalnie [dostosuj wartość](Sketcher_Workbench/pl#Edycja_wiązań.md).
+4.  Wiązanie zostało dodane.
 
 
 

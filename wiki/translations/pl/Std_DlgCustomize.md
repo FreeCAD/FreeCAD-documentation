@@ -29,7 +29,7 @@ Polecenie **Dostosuj** otwiera okno dialogowe Dostosuj dając dostęp do kilku o
 2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Wybierz z menu opcję **Przybory → <img src="images/Std_DlgCustomize.svg" width=16px> Dostosuj ...**.
     -   Kliknij prawym przyciskiem myszy obszar paska narzędzi i wybierz **<img src="images/Std_DlgCustomize.svg" width=16px> Dostosuj ...** z menu kontekstowego.
-3.  Otwiera się okno dialogowe Dostosuj. Więcej informacji można znaleźć na stronie [Dostosowywanie interfejsu użytkownika](Interface_Customization/pl#Opcje.md).
+3.  Otwiera się okno dialogowe **Dostosuj**. Więcej informacji można znaleźć na stronie [Dostosowywanie interfejsu użytkownika](Interface_Customization/pl#Opcje.md).
 4.  Przycisk **Pomoc** nie działa w tym momencie.
 5.  Naciśnij przycisk **Zamknij**, aby zamknąć okno dialogowe.
 
@@ -37,7 +37,7 @@ Polecenie **Dostosuj** otwiera okno dialogowe Dostosuj dając dostęp do kilku o
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

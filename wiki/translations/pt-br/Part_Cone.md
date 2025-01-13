@@ -19,7 +19,7 @@ The default Part Cone is truncated. It can be turned into a full, untruncated, c
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Cone.svg" width=16px> [Part Cone](Part_Cone.md)** button.
+    -   Press the **<img src="images/Part_Cone.svg" width=16px> [Cone](Part_Cone.md)** button.
     -   Select the **Part → Primitives → <img src="images/Part_Cone.svg" width=16px> Cone** option from the menu.
 2.  The cone is created.
 3.  Optionally change the dimensions and **Placement** of the cone by doing one of the following:

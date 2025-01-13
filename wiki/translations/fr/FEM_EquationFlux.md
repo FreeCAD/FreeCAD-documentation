@@ -10,6 +10,8 @@
 
 # FEM EquationFlux/fr
 
+## Description
+
 Cette équation est utilisée pour calculer les flux résultant généralement d\'équations de type Poisson. Il s\'agit notamment de l\'<img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [Equation de chaleur](FEM_EquationHeat/fr.md) et l\'<img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [Equation électrostatique](FEM_EquationElectrostatic/fr.md).
 
 Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Flux Computation*.

@@ -86,9 +86,9 @@ Narzędzie **Wstaw nową domyślna stronę rysunku** tworzy nowy obiekt Strony u
 
 {{TitleProperty|Siatka}}
 
--    **Pokaż siatkę**: Pokaż siatkę na Stronie. {{Version/pl|0.20}}
+-    **Pokaż siatkę**: Pokaż siatkę na Stronie.
 
--    **Rozstaw siatki**: Odległość między liniami siatki. {{Version/pl|0.20}}
+-    **Rozstaw siatki**: Odległość między liniami siatki.
 
 
 

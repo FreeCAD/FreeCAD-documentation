@@ -1,64 +1,37 @@
 # Combo view/fr
 ## Introduction
 
-La [vue combinée](combo_view/fr.md) est l'un des panneaux principaux de l'[interface](interface/fr.md) FreeCAD. Il est situé sur le côté gauche de l\'écran par défaut. Il est composé de **deux parties** :
+La [vue combinée](Combo_view/fr.md) apparaît dans un panneau appelé **Modèle**. Elle combine la [vue en arborescence](Tree_view/fr.md) (section supérieure) et l\'[éditeur de propriétés](Property_editor/fr.md) (section inférieure).
 
--   la [partie supérieure](#Partie_sup.C3.A9rieure.md) comporte deux onglets : l\'onglet **Modèle** et l\'onglet **Tâches**
--   la [partie inférieure](#Partie_inf.C3.A9rieure.md) affiche l\'[éditeur de propriétés](property_editor/fr.md). Il comporte deux onglets: pour les propriétés **Vue** et les **Données**. **\'Remarque :** L\'[éditeur de propriétés](property_editor/fr.md) s\'affiche uniquement lorsque l\'onglet **Modèle** est **actif**, c\'est-à-dire lorsque la [vue arborescente](tree_view/fr.md) est visible.
+Le [panneau des tâches](Task_panel/fr.md), qui faisait partie de la vue combinée, est un panneau séparé appelé **Tâches** dans {{VersionPlus/fr|1.0}}. Il peut être [ancré](#Ancrer_le_panneau_des_tâches_à_la_vue_combinée.md) à la vue combinée pour obtenir la disposition compacte des versions précédentes.
 
-
-**Remarque:**
-
-à l\'origine, la partie supérieure ([vue arborescente](tree_view/fr.md)) était séparée de la partie inférieure ([éditeur de propriétés](property_editor/fr.md)), mais elles ont ensuite été combinées et la vue \"combo\" a donc été créée.
+![](images/Combo_View_Example.png ) 
+*La vue combinée (onglet Modèle) avec le panneau des tâches ancré (onglet Tâches)*
 
 
 
-## Partie supérieure 
+## Ancrer le panneau des tâches à la vue combinée 
 
-L\'onglet **Modèle** affiche la [vue arborescente](tree_view/fr.md), qui représente le contenu du document, y compris les géométries 2D et 3D avec leur historique paramétrique, mais également les objets de prise en charge contenant des données enregistrées dans le document.
-
-L\'onglet **Tâches** affiche le [panneau des tâches](task_panel/fr.md), qui indique différentes actions en fonction de l\'atelier actif et de l\'outil actif.
-
-<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="600px;">
-
-
-
-*La vue combinée comporte deux onglets : l'onglet Modèle qui permet d'afficher la [vue arborescente](tree_view/fr.md) avec l'[éditeur de propriétés](property_editor/fr.md), et l'onglet Tâches qui contrôle l'affichage du [panneau de tâches](task_panel/fr.md).*
+1.  Assurez-vous que la vue combinée est ancrée au bord de la fenêtre FreeCAD.
+2.  Déplacez le curseur tout en haut du panneau des tâches.
+3.  La flèche devient une main.
+4.  Maintenez le bouton gauche de la souris enfoncé et faites glisser le panneau des tâches sur la vue combinée.
+5.  Déplacez-vous verticalement jusqu\'à ce que les sections supérieure et inférieure de la vue combinée soient en surbrillance.
+    <img alt="" src=images/Tasks_Dockable.png  style="width:200px;">
+6.  Relâchez le bouton de la souris.
 
 
 
-## Partie inférieure 
+## Préférences
 
-La partie inférieure de la vue combinée affiche l\'[éditeur de propriétés](property_editor/fr.md), qui affiche deux onglets pour les propriétés **Vue** et **Données**. L\'éditeur de propriétés s\'affiche uniquement lorsque l\'onglet **Modèle** est actif, c\'est-à-dire lorsque la [vue arborescente](tree_view/fr.md) est visible.
+Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md).
 
--   L\'onglet **Vue** affiche les propriétés de visualisation des objets, qui n\'affectent que leur apparence dans la [vue 3D](3D_view/fr.md).
-
--   L\'onglet **Données** affiche les propriétés paramétriques des objets, qui déterminent la définition des formes géométriques.
-
-<img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width:" height="600px;">
+La vue combinée est disponible si **Édition → Préférences... → Général → Général → Mode d'affichage de l'arborescence et des propriétés** est réglé sur {{Value|Combiné}}. S\'il est défini sur {{Value|Indépendant}}, l\'arborescence et l\'éditeur de propriétés apparaissent comme des panneaux distincts.
 
 
+{{Interface_navi
 
-*La partie inférieure de la vue combinée est l'éditeur de propriétés, qui affiche les propriétés Vue et Données.*
-
-## Désactiver la vue combinée 
-
-Pour utiliser ces vues par elles-mêmes, utilisez l\'[éditeur de paramètres](Std_DlgParameter/fr.md). Créez les sous-groupes suivants s\'ils n\'existent pas :
-
--    `BaseApp/Preferences/DockWindows/TreeView`
-    
-
--    `BaseApp/Preferences/DockWindows/PropertyView`
-    
-
-ajoutez ensuite le paramètre `Enabled` de type `Booléen` et définissez-le sur `True`.
-
-Activez ensuite la vue à l\'aide du menu, **Affichage → Panneaux → Vue arborescente** ou **→ Affichage des propriétés**.
-
-
-{{Std Base navi
-
-}} {{Interface navi}}
+}} {{Std_Base_navi}}
 
 
 

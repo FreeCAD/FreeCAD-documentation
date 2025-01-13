@@ -5,24 +5,26 @@
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **P** **7**
    Version: 0.15
+   SeeAlso: Sketcher_CreateRegularPolygon
 ---
 
 # Sketcher CreateHeptagon
 
 ## Description
 
-Draws an heptagon inscribed in a construction geometry circle. When starting the tool, the mouse pointer changes to a white cross with a red hexagon icon. The coordinates of the pointer are shown beside it in blue in real time.
+The <img alt="" src=images/Sketcher_CreateHeptagon.svg  style="width:24px;"> [Sketcher CreateHeptagon](Sketcher_CreateHeptagon.md) tool creates a heptagon. <small>(v1.0)</small> : This is the same tool as [Sketcher CreateRegularPolygon](Sketcher_CreateRegularPolygon.md) but with the number of sides preset to 7.
 
  ![](images/SketcherCreateHeptagonExample.png‎ ) 
 
 ## Usage
 
--   After pressing the **[<img src=images/Sketcher_CreateHeptagon.svg style="width:16px"> [Create heptagon](Sketcher_CreateHeptagon.md)** button, click once to set the center, then move the mouse and click a second time to set one of the vertices.
--   Pressing **Esc** or clicking the right mouse button cancels the function.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-## Notes
-
-The circumscribed circle is construction geometry, which is only visible when editing the sketch.
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_CreateHeptagon.svg" width=16px> [Heptagon](Sketcher_CreateHeptagon.md)** button.
+    -   Select the **Sketcher → Sketcher geometries → <img src="images/Sketcher_CreateHeptagon.svg" width=16px> Create heptagon** option from the menu.
+    -   Use the keyboard shortcut: **G** then **P**, then **7**.
+2.  For further steps see [Sketcher CreateRegularPolygon](Sketcher_CreateRegularPolygon#Usage.md).
 
 
 

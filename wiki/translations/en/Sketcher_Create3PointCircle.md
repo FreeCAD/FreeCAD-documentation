@@ -1,23 +1,27 @@
 ---
  GuiCommand:
    Name: Sketcher Create3PointCircle
-   MenuLocation: Sketch , Sketcher geometries , Create circle by three points
+   MenuLocation: Sketch , Sketcher geometries , Create circle by 3 points
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **3** **C**
-   SeeAlso: 
+   SeeAlso: Sketcher_CreateCircle
 ---
 
 # Sketcher Create3PointCircle/en
 
 ## Description
 
-This tool <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:16px;"> draws a circle by picking three points on the circle outline.
-When starting the tool, the mouse pointer changes to a white cross with a red circle icon. Besides are coordinates shown in real time.
+The <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:24px;"> [Sketcher Create 3PointCircle](Sketcher_Create3PointCircle.md) tool creates a circle by three points along the circle. <small>(v1.0)</small> : This is the same tool as [Sketcher CreateCircle](Sketcher_CreateCircle.md) but with a different initial mode.
 
 ## Usage
 
--   Pick points on an empty area of the 3D view, or on an existing object (auto constraints must be active in the [Task panel](Task_panel.md)).
--   Pressing **Esc** or clicking the right mouse button cancels the function.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_Create3PointCircle.svg" width=16px> [3 rim points](Sketcher_Create3PointCircle.md)** button.
+    -   Select the **Sketcher → Sketcher geometries → <img src="images/Sketcher_Create3PointCircle.svg" width=16px> Create circle by 3 points** option from the menu.
+    -   Use the keyboard shortcut: **G** then **3**, then **C**.
+2.  For further steps see [Sketcher CreateCircle](Sketcher_CreateCircle#Usage.md).
 
 
 

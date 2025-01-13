@@ -21,7 +21,7 @@ The **Std ViewFitAll** command zooms and pans the camera so that all visible obj
 ## Применение
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_ViewFitAll.svg" width=16px> [Std ViewFitAll](Std_ViewFitAll.md)** button.
+    -   Press the **<img src="images/Std_ViewFitAll.svg" width=16px> [Fit all](Std_ViewFitAll.md)** button.
     -   Select the **View → Standard views → <img src="images/Std_ViewFitAll.svg" width=16px> Fit all** option from the menu.
     -   Select the **<img src="images/Std_ViewFitAll.svg" width=16px> Fit all** option from the [3D view](3D_view.md) context menu.
     -   Select the **<img src="images/Std_ViewFitAll.svg" width=16px> Fit all** option from the Mini-cube menu of the [Navigation Cube](Navigation_Cube.md).
@@ -32,33 +32,40 @@ The **Std ViewFitAll** command zooms and pans the camera so that all visible obj
 ## Программирование
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-To change the view to \'fit all\' use the `fitAll` method of the ActiveView object. This method is not available if FreeCAD is in console mode.
+
+</div>
+
+Use the `fitAll` method of the View object to zoom to fit all.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.fitAll()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.fitAll()
 ```
 
-Alternatively the `SendMsgToActiveView` method of the FreeCADGui object can be used. This method is not available if FreeCAD is in console mode.
+For the active view the `SendMsgToActiveView` method of the FreeCADGui object can also be used.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.SendMsgToActiveView('ViewFit')
+FreeCADGui.SendMsgToActiveView("ViewFit")
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

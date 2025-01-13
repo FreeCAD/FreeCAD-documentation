@@ -10,14 +10,14 @@
 
 ## Description
 
-La commande **À propos** ouvre une boîte de dialogue qui affiche des informations sur le programme FreeCAD.
+La commande **À propos** ouvre une fenêtre de dialogue qui affiche des informations sur le programme FreeCAD.
 
 ![](images/Help-About-Dropdown-screenshot.png ) 
-*Activez la boîte de dialogue À propos via **Aide → <img src="images/Std_About.svg" width=16px> À propos de FreeCAD
+*Activer la fenêtre de dialogue À propos via **Aide → <img src="images/Std_About.svg" width=16px> À propos de FreeCAD
 ***
 
 ![](images/Std_About_example.png ) 
-*La boîte de dialogue À propos de FreeCAD*
+*La fenêtre de dialogue À propos de FreeCAD*
 
 
 **'''ATTENTION''' : ne prenez pas de capture d'écran de cette boîte de dialogue !<br/>Appuyez plutôt sur le bouton **Copier dans le presse-papiers** puis collez les informations dans votre demande d'aide.**
@@ -26,13 +26,13 @@ La commande **À propos** ouvre une boîte de dialogue qui affiche des informati
 
 ## Utilisation
 
-1.  Sélectionnez l\'option **Aide → [<img src=images/Std_About.svg style="width:16px"> À propos de FreeCAD** dans le menu.
+1.  Sélectionnez l\'option **Aide → [<img src=images/Std_About.svg style="width:16px"> À propos de FreeCAD** du menu.
 2.  Sélectionnez l\'un des onglets : **À propos**, **Remerciements**, **Licence**, **Bibliothèques**.
 3.  Chaque fois que vous devez fournir des informations sur la version de FreeCAD, procédez comme suit:
     -   Appuyez sur le bouton **Copier dans le presse-papiers** dans l\'onglet **À propos**.
     -   Collez ces informations dans votre demande d\'aide.
-    -   N\'incluez pas de capture d\'écran de la boîte de dialogue.
-4.  Appuyez sur **Echap** ou sur le bouton **OK** pour fermer la boîte de dialogue.
+    -   N\'incluez pas de capture d\'écran de la fenêtre de dialogue.
+4.  Appuyez sur **Échap** ou sur le bouton **OK** pour fermer la fenêtre de dialogue.
 
 
 
@@ -42,24 +42,26 @@ L\'onglet À propos affiche des informations sur la version de FreeCAD utilisée
 
 Pour obtenir des informations de dépannage, appuyez sur le bouton **Copiez dans le presse-papiers** puis collez ces informations ou cela est nécessaire.
 
-OS: Ubuntu 18.04.3 LTS (ubuntu:GNOME/ubuntu)
-Word size of OS: 64-bit
-Word size of FreeCAD: 64-bit
-Version: 0.19.18984 (Git)
-Build type: Unknown
-Branch: master
-Hash: c251caa934597d4b32def43ca8ac2ab479931d73
-Python version: 3.6.9
-Qt version: 5.9.5
-Coin version: 4.0.0a
-OCC version: 7.3.0
-Locale: English/UnitedStates (en_US)
+
+{{Code|lang=text|code=
+OS: Windows 11 build 22621
+Word size of FreeCAD: 64-bit
+Version: 0.21.2.33771 (Git)
+Build type: Release
+Branch: releases/FreeCAD-0-21
+Hash: b9bfa5c5507506e4515816414cd27f4851d00489
+Python 3.8.10, Qt 5.15.2, Coin 4.0.1, Vtk 8.2.0, OCC 7.6.3
+Locale: English/United States (en_US)
+Installed mods: 
+  * fasteners 0.5.0
+  * sheetmetal 0.3.16
+}}
 
 
 
 ### Licence
 
-FreeCAD est sous licence [Licence Publique Générale Limitée GNU 2](https://fr.wikipedia.org/wiki/Licence_publique_g%C3%A9n%C3%A9rale_limit%C3%A9e_GNU) (LGPL 2). Le texte intégral de cette licence est répertorié ici. Voir la [licence](licence/fr.md) pour plus de détails.
+FreeCAD est sous licence [Licence Publique Générale Limitée GNU 2](https://fr.wikipedia.org/wiki/Licence_publique_g%C3%A9n%C3%A9rale_limit%C3%A9e_GNU) (LGPL 2). Le texte intégral de cette licence est répertorié ici. Voir la [licence](License/fr.md) pour plus de détails.
 
 
 
@@ -80,9 +82,9 @@ L\'onglet Bibliothèques affiche une liste des bibliothèques externes utilisée
 
 
 
-{{Std Base navi}}
+{{Std_Base_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/fr
+⏵ [documentation index](../README.md) > [Common_Questions](Category_Common_Questions.md) > Std About/fr

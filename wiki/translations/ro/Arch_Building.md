@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Descriere
 
 Clădirea Arch este un tip special de obiect al grupului FreeCAD, care este special conceput pentru a reprezenta o întreagă unitate de construcție. Ele sunt cele mai utilizate pentru a vă organiza modelul, conținând obiecte [floor](Arch_Floor.md).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -27,6 +31,8 @@ Clădirea Arch este un tip special de obiect al grupului FreeCAD, care este spec
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -41,6 +47,8 @@ Clădirea Arch este un tip special de obiect al grupului FreeCAD, care este spec
 ## Properties
 
 -    **Building Type**: The type of this building, to choose from a list
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
@@ -102,6 +110,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/ro
+⏵ [documentation index](../README.md) > Arch Building/ro

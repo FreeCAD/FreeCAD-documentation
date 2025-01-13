@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -31,14 +33,18 @@
 
 </div>
 
-![](images/Arch_Structure_example.jpg ) 
+<img alt="" src=images/Arch_Structure_example.jpg  style="width:400px;"> 
 *Column based on a 2D base profile; a column and a beam defined by their height, length and width, without a base profile; a metallic structure based on a 2D face*На приведенном выше рисунке показана колонка, основанная на двумерном базовом профиле, колонке и балке на основе профиля (определяется их размерами высоты, длины и ширины) и металлическим профилем на основе 2D-контура (грань, провод или эскиз). Кроме того, определенное количество пресетов, доступных при создании объекта, позволяет быстро построить структурный элемент из предопределенного стандартного профиля.
+
+
 
 ## Применение
 
 1.  Select a 2D shape (Draft object, face or sketch) (optional).
-2.  Press the **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** button, or press **S** then **T** keys.
+2.  Select the **Utils → Structure tools → <img src="images/Arch_Structure.svg" width=16px> Structure** option from the menu.
 3.  Adjust the desired properties.
+
+
 
 ## Опции
 
@@ -51,7 +57,11 @@
 -   Double-clicking on the structure in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions
 -   In edit mode, it is also possible to add [axes systems](Arch_Axis.md) to the structural element. When adding one axes system, the structural element will be copied once on each axis of the system. When adding two axes systems, the structural element will be copied once on each intersection of the two systems.
 
+
+
 ## Свойства
+
+
 
 ### Данные
 
@@ -75,11 +85,15 @@
 
 </div>
 
+
+
 ### Вид
 
 -    **Nodes Type**: The type of structural nodes of this object, linear or area.
 
 -    **Show Nodes**: Shows or hides the structural nodes.
+
+
 
 ## Предустановки
 
@@ -104,7 +118,7 @@ Structural objects also have the ability to display structural nodes. Structural
 
 -   Nodes are calculated and updated automatically, as long as you don\'t modify them manually. If you did, they won\'t be updated if the shape of the structural object changes, unless you use the \"Reset nodes\" tool below.
 -   Arch structures can have not only linear nodes, but also planar nodes. For this, 1- There must be at least 3 vectors in the \"Nodes\" property of the object, 2- the \"NodesType\" property of their ViewObject must be set to \"Area\".
--   When the nodes calculation is automatic (that is, if you never touched them manually), when setting the Role property of a structure to \"Slab\", it will automatically become a planar node (there will be more than 3 vectors and the NodesType will be set to \"Area\").
+-   When the nodes calculation is automatic (that is, if you never touched them manually), when setting the \"Role\" property of a structure to \"Slab\", it will automatically become a planar node (there will be more than 3 vectors and the NodesType will be set to \"Area\").
 -   When editing a structure object (double-click), a couple of node tools are available in the task view:
     -   Reset the nodes to automatic calculation, in case you modified them manually
     -   Edit the nodes graphically, works the same way as [Draft Edit](Draft_Edit.md)
@@ -131,28 +145,44 @@ The Structure tool can be used in [macros](Macros.md) and from the [Python](Pyth
 
 
 ```python
-Structure = makeStructure(baseobj=None, height=None)
-Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
+structure = makeStructure(baseobj=None, height=None)
+structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
 ```
 
--   Creates a `Structure` object from the given `baseobj`, which is a closed profile, and the given extrusion `height`.
+-   Creates a `structure` object from the given `baseobj`, which is a closed profile, and the given extrusion `height`.
     -   If no `baseobj` is given, you can provide the numerical values for the `length`, `width`, and `height` to create a block structure.
     -   The `baseobj` can also be any existing solid object.
 
-Пример: 
+Пример:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
-Rect = Draft.makeRectangle(200, 300)
-Structure1 = Arch.makeStructure(Rect, height=2000)
+rect = Draft.make_rectangle(200, 300)
+structure1 = Arch.makeStructure(rect, height=2000)
 FreeCAD.ActiveDocument.recompute()
 
-Structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
-Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
+structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
+Draft.move(structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/ru
+⏵ [documentation index](../README.md) > Arch Structure/ru

@@ -4,7 +4,7 @@
    Name/fr: TechDraw Ajout vue dans une fenêtre de rognage
    MenuLocation: TechDraw , Vues de rognage , Ajouter une vue à la fenêtre de rognage
    Workbenches: TechDraw_Workbench/fr
-   SeeAlso: TechDraw_ClipGroup/fr, TechDraw_ClipGroupRemove/fr
+   SeeAlso: 
 ---
 
 # TechDraw ClipGroupAdd/fr

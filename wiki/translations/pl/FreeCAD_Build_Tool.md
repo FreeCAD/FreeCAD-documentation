@@ -1,17 +1,17 @@
 # FreeCAD Build Tool/pl
-## Overview
+## Przegląd
 
-The **FreeCAD build tool** or **fcbt** is a python script located at 
+**FreeCAD Narzędzie do kompilacji** lub **FreeCAD build tool *(fcbt)*** jest skryptem Python znajdującym się pod adresem: 
 ```python
 trunc/src/Tools/fcbt.py
-``` It can be used to simplify some frequent tasks in building, distributing and extending FreeCAD.
+``` Może być używany do uproszczenia niektórych częstych zadań w budowaniu, dystrybucji i rozszerzaniu FreeCAD.
 
-## Usage
+## Użycie
 
-With [Python](wikipedia:Python_(programming_language).md) correctly installed, *fcbt* can be invoked by the command 
+Z prawidłowo zainstalowanym środowiskiem [Python](wikipedia:Python_(programming_language).md), *fcbt* może być wywołane poleceniem: 
 ```python
 python fbct.py
-``` It displays a menu, where you can select the task you want to use it for: 
+``` Wyświetla menu, w którym można wybrać zadanie, do którego ma być używana: 
 ```python
 FreeCAD Build Tool
  Usage:
@@ -27,35 +27,35 @@ FreeCAD Build Tool
  
  For help on the modules type:
    fcbt <command name> ?
-``` At the input prompt enter the abbreviated command you want to call. For example type \"CM\" for [creating a module](Workbench_creation.md).
+``` W wierszu poleceń wpisz skrót polecenia, które chcesz wywołać. Na przykład wpisz \"CM\" dla [Tworzenie środowiska pracy](Workbench_creation/pl.md).
 
 ### DistSrc
 
-The command \"DS\" **creates a source distribution** of the current source tree.
+Polecenie \"DS\" **tworzy źródła dystrybucji** bieżącego drzewa źródeł.
 
 ### DistBin
 
-The command \"DB\" **creates a binary distribution** of the current source tree.
+Polecenie \"DB\" **tworzy binarja dystrybucji** bieżącego drzewa źródeł.
 
 ### DistSetup
 
-The command \"DI\" **creates a setup distribution** of the current source tree.
+Polecenie \"DI\" **tworzy konfigurację dystrybucji** bieżącego drzewa źródeł.
 
-### DistSetup 
+### DistSrc 
 
-The command \"DUI\" **creates a user setup distribution** of the current source tree.
+Polecenie \"DUI\" **tworzy konfigurację użytkownika dystrybucji** bieżącego drzewa źródeł.
 
 ### DistAll
 
-The command \"DA\" executes \"DS\", \"DB\" and \"DI\" in sequence.
+Polecenie \"DA\" wykonuje kolejno polecenia \"DS\", \"DB\" i \"DI\".
 
 ### NextBuildNumber
 
-The \"NBN\" command **increments the build number** to create a new release version of FreeCAD.
+Polecenie \"NBN\" **zwiększa numer kompilacji**, aby utworzyć nową wersję FreeCAD.
 
 ### CreateModule
 
-The \"CM\" command [creates a new application module (Workbench)](Workbench_creation.md).
+Polecenie \"CM\" [tworzy nowy moduł aplikacji *(środowisko pracy)*](Workbench_creation/pl.md).
 
 
 

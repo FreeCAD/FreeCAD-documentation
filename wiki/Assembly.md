@@ -31,7 +31,7 @@ In general, the **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](S
 
 ### Constrained assembly 
 
-You can also use a dedicated assembly workbench, like <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md), or <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench.md). Please note that [Assembly2](Assembly2_Workbench.md) is unmaintained, so it is not recommended for new models.
+You can also use the built-in [Assembly Workbench](Assembly_Workbench.md) or its add-on counterparts, like <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md), or <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench.md). Please note that [Assembly2](Assembly2_Workbench.md) is unmaintained, so it is not recommended for new models.
 
 The assembly workbenches use constraints and expressions to create relationships between the objects in your model, in order to mathematically tie the objects in place, for example, \"this face should stick to this other face\", \"this cylinder should be concentric to that circle\", \"this point should follow this edge\", etc.
 
@@ -39,11 +39,9 @@ This is an advanced usage of the software that is normally used in complex mecha
 
 ## Notes
 
-As of FreeCAD 0.19, there is no official assembly workbench included by default with the system. Assembly workbenches are difficult to program because many problems need to be solved regarding the efficient use of [bodies](Body.md) and [parts](Part.md) in your model. Nevertheless, the introduction of the [App Link](App_Link.md) object has improved the situation.
+-   Since FreeCAD 1.0, there is an official [Assembly workbench](Assembly_Workbench.md) included by default with the system.
 
-Please note that assembly workbenches are generally incompatible with each other. If you create an assembly with one of these workbenches, you should stick to it, and not use another assembly workbench to work with the same document.
-
-The assembly workbenches continue development, and it is expected that at some point one assembly workbench will emerge as the \"official\" one. This could happen by promoting one of the current assembly workbenches, or by combining them to produce a more complete solution.
+-   Please note that assembly workbenches are generally incompatible with each other. If you create an assembly with one of these workbenches, you should stick to it, and not use another assembly workbench to work with the same document.
 
  {{Std Base navi}} {{Document objects navi}}
 

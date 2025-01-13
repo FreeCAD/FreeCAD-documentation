@@ -82,9 +82,9 @@ Zusätzlich zu den in [Part Feature](Part_Feature.md) beschriebenen Eigenschafte
 
 [FreeCAD Basis Scripten](FreeCAD_Scripting_Basics.md).
 
-Das Übergangskurve Werkzeug kann in [macros](Macros.md) und von der [Python](Python.md) Konsole aus zum Einfügen von `Surface::FeatureBlendCurve` Objekten verwendet werden.
+Das Werkzeug Übergangskurve kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus zum Einfügen von `Surface::FeatureBlendCurve`-Objekten verwendet werden.
 
--   Die dabei zur Definition der Kurve verwendeten Kanten müssen als [LinkSub](LinkSub.md) den `Startkante` und `Endkante` Eigenschaften des Objektes zugeordnet werden.
+-   Die dabei zur Definition der Kurve verwendeten Kanten müssen als [LinkSub](FeaturePython_Custom_Properties/de#App:_PropertyLinkSub.md) den `Startkante` und `Endkante` Eigenschaften des Objektes zugeordnet werden.
 -   Alle Objekte mit Kanten müssen, bevor sie als Eingabe für die Eigenschaften der Übergangskurve verwendet werden können, berechnet werden.
 
 

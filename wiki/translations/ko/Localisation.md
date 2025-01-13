@@ -1,50 +1,54 @@
 # Localisation/ko
 ## 요약
 
-여기서 **번역** 의 의미는 주로, 외국 언어로 된 소프트웨어의 화면을 만드는 것 입니다. In FreeCAD you can set the language of the user interface under **Edit → Preferences → Application**. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
+여기서 **현지화** 의 의미는 주로, 외국 언어로 된 소프트웨어의 화면을 만드는 것 입니다. 프리캐드의 **Edit → Preferences → Application**에서 사용자 언어를 설정할 수 있습니다. 프리캐드는 다양한 언어 지원이 가능하도록 [Qt를](wikipedia:Qt_(toolkit).md) 사용합니다. 유닉스/리눅스 시스템에서, 프리캐드는 기본적으로 여러분의 컴퓨터의 지역설정을 사용합니다.
 
 
 
-## FreeCAD 번역 도움 
+## FreeCAD 번역 돕기 
 
-One of the very important things users can contribute to FreeCAD (if for example they don\'t have programming skills) is to help translate its different aspects (source code, wiki, website, documentation etc\...) in to another language. Here are the ways to do that.
+사용자가 프리캐드에 기여할 수 있는 매우 중요한 것 중 한 가지는 (예를 들어 프로그래밍 기술이 없는 경우) 다양한 측면(소스 코드, 위키, 웹사이트, 문서 등)을 다른 언어로 번역하는 것을 돕는 일이고 방법은 다음과 같습니다.
 
 
 
-## FreeCAD 소스 코드 번역 
+## 프리캐드 소스 코드 번역 
 
 FreeCAD 는 외부의 [Crowdin](https://crowdin.net) 라고 하는 온라인 공동 번역 시스템을 도입 했습니다.
 
 <img alt="" src=images/Logo-crowdin.png  style="width:320px;">
 
-It is proprietary software but free to [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) projects. Below are instructions on how to use it:
+이는 독점 소프트웨어이지만 [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) 프로젝트에서는 무료입니다. 다음은 사용 방법에 대한 지침입니다.
 
--   Go to the [FreeCAD translation project page on Crowdin](http://crowdin.net/project/freecad)
--   Login by creating a new profile, or using a third-party account (GitHub, GitLab, GMail etc\...)
--   Click on the language you wish to translate
--   Start translating by clicking on the **Translate** button next to one of the files. For example, **FreeCAD.ts** contains the text strings for the FreeCAD main GUI.
--   You can vote for existing translations, or you can create your own.
+-   [Crowdin의 FreeCAD 번역 프로젝트 페이지](http://crowdin.net/project/freecad)로 이동하세요.
+-   새 프로필을 생성하거나 타사 계정(GitHub, GitLab, GMail 등\...)을 사용하여 로그인하세요.
+-   번역하려는 언어를 클릭하세요.
+-   파일 옆에 있는 **Translate** 버튼을 클릭하여 번역을 시작하세요. 예를 들어, **FreeCAD.ts**에는 FreeCAD 기본 GUI에 대한 텍스트 문자열이 포함되어 있습니다.
+-   기존 번역에 투표하거나 직접 만들 수도 있습니다.
 
-{{Message|If you are actively taking part in translating FreeCAD and want to be informed before next release is ready to be launched, so there is time to review your translation, please subscribe to one of the Crowdin FreeCAD translation teams.}}
+{{Message|FreeCAD 번역에 적극적으로 참여하고 있고 다음 릴리스가 출시되기 전에 알림을 받아 번역을 검토할 시간이 있으면 Crowdin FreeCAD 번역 팀 중 하나를 구독하세요.}}
 
 
-**Note:**
+**참고:**
 
-Details on how to use crowdin can be found on the [Crowdin Administration](Crowdin_Administration.md) page.
+Crowdin 사용 방법에 대한 자세한 내용은 [Crowdin 관리](Crowdin_Administration.md) 페이지에서 확인할 수 있습니다.
 
-## Translating external workbenches 
 
-Visit [Translating an external workbench](Translating_an_external_workbench.md).
 
-## FreeCAD Preferences for Translators 
+## 외부 작업대 번역 
 
-Starting with FreeCAD 0.20, the following variables can be manually added to the BaseApp/Preferences/General section of the user.cfg file to assist with the development of new translations:
+[외부 작업대 번역을](Translating_an_external_workbench.md) 참고하세요
 
-**AdditionalLanguageDomainEntries** - to add entirely new languages to FreeCAD that are not currently supported by the source code, you can use this user preference to add to the list of available languages. The format of the languages is \"Language Name\"=\"code\"; for example:
+
+
+## 번역가를 위한 FreeCAD 기본 설정 
+
+FreeCAD 0.20부터 다음 변수를 user.cfg 파일의 BaseApp/Preferences/General 섹션에 수동으로 추가하여 새로운 번역 개발을 지원할 수 있습니다.
+
+**AdditionalLanguageDomainEntries** - 현재 소스 코드에서 지원되지 않는 완전히 새로운 언어를 FreeCAD에 추가하려면,이 사용자 기본 설정을 사용하여 사용 가능한 언어 목록에 추가할 수 있습니다. 언어 형식은 \"Language Name\"=\"code\"입니다. 예를 들어:
 
     <FCText Name="AdditionalLanguageDomainEntries">"Esperanto"="eo";"French"="fr";</FCText>
 
-**AdditionalTranslationsDirectory** - add an additional directory for FreeCAD to search for \*.qm files. This location will take precedence over \$userAppDataDir/translations and \$resourceDir/translations. For example:
+**AdditionalTranslationsDirectory** - \*.qm 파일을 검색하기 위해 FreeCAD용 추가 디렉토리를 추가합니다. 이 위치는 \$userAppDataDir/translations 및 \$resourceDir/translations보다 우선합니다. 예를 들어:
 
     <FCText Name="AdditionalTranslationsDirectory">C:/Users/FreeCADUser/TestTranslations</FCText>
 
@@ -52,21 +56,9 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 
 ## FreeCAD 위키 번역 
 
+이 위키는 많은 내용을 담고 있으며 대부분이 매뉴얼을 구성합니다. [홈페이지에서](Main_Page/ko.md) 시작하는 문서를 찾아보거나 [온라인 도움말 목차를](Online_Help_Toc/ko.md) 보세요.
 
-<div class="mw-translate-fuzzy">
-
-이 위키는 많은 내용을 담고 있으며 대부분이 매뉴얼을 구성합니다. [Main Page](Main_Page.md)에서 시작하는 문서를 찾아보거나 [Online Help Toc](Online_Help_Toc.md) 사용자 매뉴얼을 보세요.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-위키를 번역하려면, 위키 편집 권한을 가져야 합니다; FAQ 를 보세요.
-
-
-</div>
+위키를 번역하려면, 위키 편집 권한을 가져야 합니다; [How can I get edit permission on the wiki?](Frequently_asked_questions#How_can_I_get_edit_permission_on_the_wiki?.md) 를 보세요.
 
 You should also have enough knowledge of wiki markup and follow the general styling guidelines described on [WikiPages](WikiPages.md).
 
@@ -78,11 +70,11 @@ When the wiki moved away from SourceForge, [Yorik](User_Yorik.md) installed [Med
 
 The tool is documented in [Help:Extension:Translate](http://www.mediawiki.org/wiki/Help:Extension:Translate), and is part of [MediaWiki Language Extension Bundle](http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle).
 
-To quickly get started on preparing a page for translation, please read the [Page translation example](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example). Essentially, a pair of
+To quickly get started on preparing a page for translation, please read the [Page translation example](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example). A pair of tags need to surround the entire page to activate the translation system:
 
     &lt;translate&gt; ... &lt;/translate&gt;
 
-tags need to surround the entire page to activate the translation system, and the page needs to be marked for translation.
+The page also needs to be marked for translation.
 
 To see an example of how the translation tool works, visit the [Main Page](Main_Page.md). You will see an automatically generated language bar at the top. Click on [Deutsch](Main_Page/de.md) (German), it will get you to [Main Page/de](Main_Page/de.md). Right under the title, \"Hauptseite\" (in English \"Main Page\"), you can read , XX being the current percentage of translation. Click on \"Translate\" at the top of the page to start the translation utility to update, correct and review the existing translation.
 
@@ -195,10 +187,6 @@ Everything after this is automatic as far as a developer is concerned. The admin
 3rd party modules or macros are translated in much the same fashion, except that you must do some of the work yourself. This [forum discussion](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) describes the details.
 
 Update: see [Translating an external workbench](Translating_an_external_workbench.md)
-
-### Older module translation techniques 
-
-[Localization Older Methods](Localization_Older_Methods.md) describes the use of translation tools such as Qt Linguist, lupdate, lrelease, pylupdate4, etc in detail. Most of this is no longer required for FreeCAD/master modules, but may be helpful preparing and updating 3rd party modules.
 
 ## Automating Crowdin Translation Updates 
 

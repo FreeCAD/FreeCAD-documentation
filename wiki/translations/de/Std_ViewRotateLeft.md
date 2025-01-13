@@ -10,9 +10,13 @@
 
 # Std ViewRotateLeft/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std AnsichtNachLinksDrehen** dreht die Kamera in der aktiven [3D-Ansicht](3D_view/de.md) in 90-Grad Schritten nach links (gegen den Uhrzeigersinn) um die Blickrichtung.
+
+
 
 ## Anwendung
 
@@ -21,28 +25,27 @@ Der Befehl **Std AnsichtNachLinksDrehen** dreht die Kamera in der aktiven [3D-An
     -   Die Option **Standardansichten → <img src="images/Std_ViewRotateLeft.svg" width=16px> Nach links drehen** aus dem Kontextmenü der [3D-Ansicht](3D_view/de.md) auswählen.
     -   Das Tastaturkürzel: **Shift**+**Links**.
 
+
+
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um die Ansicht nach links zu drehen, wird die Methode `viewRotateLeft` des ActiveView-Objekts verwendet. Diese Methode ist nicht verfügbar, wenn sich FreeCAD im Konsolenmodus befindet.
+Die Methode `viewRotateLeft` des View-Objekts wird verwendet, um die Ansicht nach links zu drehen. Die Methode `viewRotateRight` steht ebenfalls zur Verfügung.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.viewRotateLeft()
-FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.viewRotateLeft()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

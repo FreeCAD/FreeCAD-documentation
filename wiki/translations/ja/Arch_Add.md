@@ -21,10 +21,10 @@
 
 Addツールは2種類の操作を提供します：
 
--   [シェイプ](Part_Workbench/ja.md)ベースのオブジェクトを[壁](Arch_Wall/ja.md)や[骨組み](Arch_Structure/ja.md)といった Archコンポーネントに追加します。これらのオブジェクトはArchコンポーネントのパーツとなってその高さや厚みといった基本プロパティを保持するだけでなく、その形状を変更する機能を提供します。
--   [壁](Arch_Wall/ja.md)、[骨組み](Arch_Structure/ja.md)あるいは[床](Arch_Floor/ja.md)などのセルベースのオブジェクトといったArchコンポーネントを追加します。
--   [axis systems](Arch_Axis.md) に[structural objects](Arch_Structure.md)を追加する
--   [ section planes](Arch_SectionPlane.md)にオブジェクトを追加する
+-   [シェイプベースのオブジェクトを](Part_Workbench/ja.md)[壁や](Arch_Wall/ja.md)[骨組みといった](Arch_Structure/ja.md) Archコンポーネントに追加します。これらのオブジェクトはArchコンポーネントのパーツとなってその高さや厚みといった基本プロパティを保持するだけでなく、その形状を変更する機能を提供します。
+-   [壁](Arch_Wall/ja.md)、[骨組みあるいは](Arch_Structure/ja.md)[床などのセルベースのオブジェクトといったArchコンポーネントを](Arch_Floor/ja.md)追加します。
+-   [axis systems](Arch_Axis.md) に[structural objectsを](Arch_Structure.md)追加する
+-   [ section planesにオブジェクトを](Arch_SectionPlane.md)追加する
 
 
 </div>
@@ -60,6 +60,8 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 
 </div>
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
@@ -71,7 +73,7 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 
 <div class="mw-translate-fuzzy">
 
-Add ツールは、[マクロ](macros.md)やPythonコンソールから次の関数を使って使うことができます：
+Add ツールは、[マクロやPythonコンソールから](macros.md)次の関数を使って使うことができます：
 
 
 </div>
@@ -119,5 +121,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/ja
+⏵ [documentation index](../README.md) > Arch Add/ja

@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Upgrade
    Name/pl: Draft: Ulepsz kształt
-   MenuLocation: Modyfikacja , Upgrade
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Modyfikacja , Ulepsz kształt
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **U** **P**
    SeeAlso: Draft_Downgrade/pl
 ---
@@ -26,8 +26,9 @@ Polecenie <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Uleps
 1.  Opcjonalnie wybierz jeden lub więcej obiektów.
 2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_Upgrade.svg" width=16px> '''Ulepsz kształt'''**,
-    -   Z menu wybierz opcję **Modyfikacja → <img src="images/Draft_Upgrade.svg" width=16px> Ulepsz kształt
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Z menu wybierz opcję **Modyfikacja → <img src="images/Draft_Upgrade.svg" width=16px> Ulepsz kształt
 **
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Modyfikacja → <img src="images/Draft_Upgrade.svg" width=16px> Ulepsz kształt** z menu.
     -   Użyj skrótu klawiszowego **U**, a następnie **P**,
 3.  Jeśli nie wybrałeś jeszcze obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 

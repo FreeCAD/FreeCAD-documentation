@@ -16,7 +16,13 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Инструмент **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Spreadsheet SetAlias](Spreadsheet_SetAlias/ru.md)** открывает диалоговое окно для установки псевдонима для ячейки. Вместо использования строгого имени ячейки, такого как A2, B3 или C4, можно использовать пользовательское имя.
+
+
+</div>
 
 
 

@@ -1,13 +1,15 @@
 ---
- TutorialInfo:
+ TutorialInfo:e
    Topic: TechDraw
-   Level: Beginner
-   Time: 10 minutes
+   Level: Anfänger
+   Time: 10 Minuten
    Author: Andergrin
    FCVersion: 0.19
 ---
 
 # TechDraw Pitch Circle Tutorial/de
+
+
 
 
 

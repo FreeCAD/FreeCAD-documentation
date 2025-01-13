@@ -1,7 +1,7 @@
 # FEM Mesh/fr
 ## Créer un maillage à éléments finis 
 
-L\'analyse par éléments finis (FEA) est effectuée sur un maillage composé de multiples éléments triangulaires et quadrilatéraux qui subdivisent le corps d\'origine. Plus le maillage est raffiné, plus les résultats numériques seront précis, mais le temps de calcul sera également plus long. Un équilibre entre la taille du maillage, le temps de calcul et la précision des résultats est une caractéristique importante d\'une analyse par éléments finis bien définie.
+L\'[analyse par éléments finis](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_%C3%A9l%C3%A9ments_finis) se fait sur un maillage composé de multiples éléments finis triangulaires/tétraédriques, quadrilatéraux/hexaédriques ou autres qui subdivisent un corps d\'origine. Plus le maillage est fin, plus les résultats numériques seront précis, et plus le temps de calcul sera long. Un équilibre entre la taille du maillage, le temps de calcul et la précision des résultats est une caractéristique importante d\'une analyse par éléments finis bien définie.
 
 Il existe différentes possibilités pour configurer un maillage dans l\'[atelier FEM](FEM_Workbench/fr.md) :
 
@@ -10,13 +10,13 @@ Il existe différentes possibilités pour configurer un maillage dans l\'[atelie
 -   Importer un maillage depuis un autre programme. En particulier, Gmsh et Netgen peuvent être utilisés seuls en dehors de FreeCAD pour mailler des corps solides tels que des fichiers Step.
 -   Créer manuellement le maillage à l\'aide de scripts [Python](Python/fr.md).
 
-Les outils Gmsh et Netgen prennent en charge les corps de maillage créés avec les ateliers [Part](Part_Workbench/fr.md) et [PartDesign](PartDesign_Workbench/fr.md), ainsi que les copies simples de ces solides. En général, tout atelier générant des objets solides, tel que l\'[atelier Arch](Arch_Workbench/fr.md), peut être utilisé comme base de création de maillages. Notez qu\'un maillage utilisé pour FEA est différent d\'un maillage créé ou importé à partir de l\'[atelier Mesh](Mesh_Workbench/fr.md).
+Les outils Gmsh et Netgen prennent en charge les corps de maillage créés avec les ateliers [Part](Part_Workbench/fr.md) et [PartDesign](PartDesign_Workbench/fr.md), ainsi que les copies simples de ces solides. En général, tout atelier générant des objets solides, tel que l\'[atelier BIM](BIM_Workbench/fr.md), peut être utilisé comme base de création de maillages. Notez qu\'un maillage utilisé en analyse par éléments finis est différent d\'un maillage créé ou importé à partir de l\'[atelier Mesh](Mesh_Workbench/fr.md).
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
-*L'atelier FEM appelle l'outil externe Gmsh pour obtenir un maillage à partir d'un corps solide créé avec n'importe quel atelier dans FreeCAD ; il peut aussi importer un maillage créé en externe*
+*L'atelier FEM fait appel à l'outil externe Gmsh pour créer un maillage à partir d'un corps solide créé avec n'importe quel atelier dans FreeCAD. il peut également importer un maillage créé à partir d'une source externe.*
 
 <img alt="" src=images/FEM_Mesh.png  style="width:600px;"> 
-*(1) Corps solide créé avec PartDesign ; (2) maillage produit par l'outil Gmsh à l'intérieur de l'atelier FEM (tous les triangles) ; et (3) un maillage produit en externe par Gmsh, exporté au format Abaqus **.inp*, puis importé dans FreeCAD (tous les quadrangles).**
+*(1) Corps solide créé avec PartDesign<br>(2) Maillage produit par l'outil Gmsh à l'intérieur de l'atelier FEM (tous les triangles)<br>(3) Maillage produit en externe par Gmsh, exporté au format Abaqus **.inp*, puis importé dans FreeCAD (tous les quadrangles).**
 
 Les outils [Gmsh](FEM_MeshGmshFromShape/fr.md) et [Netgen](FEM_MeshNetgenFromShape/fr.md) sont des outils pratiques pour rapidement mailler un corps, mais ils n\'exposent pas toutes leurs capacités. Ils créent par défaut des maillages triangulaires, ce qui peut ne pas être idéal pour certains types d\'analyse. Si vous souhaitez mieux contrôler le maillage créé (utilisez uniquement des quadrilatères, un nombre et une taille d\'élément précis, une résolution variable du maillage, etc.), vous devez utiliser ces programmes en externe, créez un fichier de maillage dans un format pris en charge (**.inp**, **.unv**, **.vtk**, **.z88**), et importez ce fichier dans FreeCAD.
 

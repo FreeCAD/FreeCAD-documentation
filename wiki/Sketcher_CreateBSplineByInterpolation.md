@@ -5,23 +5,24 @@
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **B** **I**
    Version: 0.21
-   SeeAlso: Sketcher_CreatePeriodicBSpline
+   SeeAlso: Sketcher_CreateBSpline
 ---
 
 # Sketcher CreateBSplineByInterpolation
 
 ## Description
 
-This tool creates a B-spline curve passing through given points. See [this page](B-Splines.md) for more info about B-splines.
+The <img alt="" src=images/Sketcher_CreateBSplineByInterpolation.svg  style="width:24px;"> [Sketcher CreateBSplineByInterpolation](Sketcher_CreateBSplineByInterpolation.md) tool creates a [B-spline](B-Splines.md) curve by knot points. <small>(v1.0)</small> : This is the same tool as [Sketcher CreateBSpline](Sketcher_CreateBSpline.md) but with a different initial mode.
 
 ## Usage
 
-1.  Press the **[<img src=images/Sketcher_CreateBSplineByInterpolation.svg style="width:16px"> [B-spline by knots](Sketcher_CreateBSplineByInterpolation.md)** button.
-2.  Create a series of points by clicking in the [3D view](3D_view.md). While the command is active, the created points are connected with straight lines.
-3.  Optionally press **M** before terminating the input to define the multiplicity of the knot at the last defined point (note that this may not always be respected, see [limitations](#Limitations.md) for details).
-4.  Optionally press **Backspace** before terminating the input to delete the last created control point.
-5.  Right-click to terminate the input and generate the curve.
-6.  Depending on preferences, the tool may remain active to trace a new curve. Right-click again to exit the command.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_CreateBSplineByInterpolation.svg" width=16px> [B-spline by knots](Sketcher_CreateBSplineByInterpolation.md)** button.
+    -   Select the **Sketcher → Sketcher geometries → <img src="images/Sketcher_CreateBSplineByInterpolation.svg" width=16px> Create B-spline by knots** option from the menu.
+    -   Use the keyboard shortcut: **G** then **B**, then **I**.
+2.  For further steps see [Sketcher CreateBSpline](Sketcher_CreateBSpline#Usage.md).
 
 ## Notes
 
@@ -29,12 +30,7 @@ See [Sketcher CreateBSpline](Sketcher_CreateBSpline#Notes.md).
 
 ## Limitations
 
--   The resultant curve is no different than a (non-uniform) B-spline defined through control points. So all related limitations apply. See [Sketcher CreateBSpline](Sketcher_CreateBSpline#Limitations.md).
--   The B-splines created are always cubic (i.e. with degree 3).
--   The defined multiplicity may not always be respected:
-    -   For a periodic spline, the first knot (coincident with last) always has a multiplicity of 2.
-    -   For a non-periodic spline, the first and last knots always have a multiplicity of 4.
-    -   If the points just before and just after have multiplicities \>=3, the piece between these two is fully continuous, and this (middle) point will only be constrained with point-on-object. If a knot is needed, consider using the insert knot tool.
+See [Sketcher CreateBSpline](Sketcher_CreateBSpline#Limitations.md).
 
 
 

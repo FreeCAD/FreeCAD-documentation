@@ -1,11 +1,11 @@
 ---
  GuiCommand:
    Name: Arch IfcSpreadsheet
-   Name/de: Arch_IfcKalkulationstabelle
-   Workbenches: Arch_Workbench/de
-   MenuLocation: Arch , Dienstprogramme , IFC-Kalkulationstabelle erstellen
+   Name/de: Arch_IfcTabellenblatt
+   MenuLocation: Dienstprogramme , IFC-Kalkulationstabelle erstellen...
+   Workbenches: BIM_Workbench/de
    Shortcut: **I** **P**
-   SeeAlso: Arch_IFC/de, Arch_IfcExplorer/de
+   SeeAlso: Arch_IFC
 ---
 
 # Arch IfcSpreadsheet/de
@@ -22,9 +22,8 @@ Dieses Werkzeug erstellt eine Kalkulationstabelle, um [IFC](Arch_IFC/de.md)-Eige
 
 1.  Ein Objekt auswählen.
 2.  Es gibt mehrere Mögkichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Arch_IfcSpreadsheet.svg" width=16px> IFC-Tabellenblatt erstellen** drücken.
+    -   Den Menüeintrag **Dienstprogramme → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> IFC-Kalkulationstabelle erstellen...** auswählen.
     -   Das Tastaturkürzel **I** dann **P**.
-    -   Den Menüeintrag **Arch → Dienstprogramme → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> IFC Kalkulationstabelle erstellen...** auswählen.
 
 
 
@@ -55,5 +54,13 @@ spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/de
+⏵ [documentation index](../README.md) > Arch IfcSpreadsheet/de

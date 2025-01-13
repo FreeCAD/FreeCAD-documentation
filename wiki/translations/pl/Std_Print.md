@@ -42,7 +42,7 @@ Polecenie **Drukuj** jest przeznaczone głównie do drukowania stron środowiska
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

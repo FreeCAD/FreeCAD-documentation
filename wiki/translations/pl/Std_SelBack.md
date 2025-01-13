@@ -38,7 +38,7 @@ Polecenie **Przywróć wybór** przywraca poprzedni zarejestrowany wybór z [Wid
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

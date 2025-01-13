@@ -6,19 +6,23 @@
 
 Questo repository contiene una libreria di parti da utilizzare in FreeCAD. È mantenuto dalla comunità degli utenti di FreeCAD e non fa parte del progetto FreeCAD, sebbene sia realizzato con l\'obiettivo di essere utilizzato in futuro come repository di parti da FreeCAD.
 
+
+
 ## Riferimenti
 
 -   Author: Initial commit yorikvanhavre + FreeCAD community
 -   Home page: [FreeCAD library](https://github.com/FreeCAD/FreeCAD-library)
 -   Source code on github: <https://github.com/FreeCAD/FreeCAD-library>
 
+
+
 ## Strumenti
 
-Detailed description [here](http://www.bolts-library.org/en/docs/0.3/freecad/usage.html)
+Detailed description [here](https://github.com/FreeCAD/FreeCAD-library?tab=readme-ov-file#usage)
 
 Parts Library Selector
 
-![](images/PatsLibrary-selector.png )
+![](images/PatsLibrary-selector.png ) 
 
 ## Installazione
 

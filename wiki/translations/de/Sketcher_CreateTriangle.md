@@ -6,6 +6,7 @@
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **P** **3**
    Version: 0.15
+   SeeAlso: Sketcher_CreateRegularPolygon/de
 ---
 
 # Sketcher CreateTriangle/de
@@ -14,7 +15,7 @@
 
 ## Beschreibung
 
-Zeichnet ein gleichseitiges Dreieck in einem Konstruktionsgeometrie-Umkreis. Beim Starten des Werkzeugs ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Sechsecksymbol. Die Koordinaten des Mauszeigers werden daneben in Echtzeit in blau angezeigt.
+Das Werkzeug <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:24px;"> [Sketcher DreieckErstellen](Sketcher_CreateTriangle/de.md) erstellt ein gleichseitiges Dreieck. {{Version/de|1.0}}: Dies ist dasselbe Werkzeug wie [Sketcher RegelmäßigesVieleckErstellen](Sketcher_CreateRegularPolygon/de.md) aber mit der vorgegebenen Anzahl von 3 Seiten.
 
 ![](images/SketcherCreateTriangleExample.png‎ )
 
@@ -22,16 +23,13 @@ Zeichnet ein gleichseitiges Dreieck in einem Konstruktionsgeometrie-Umkreis. Bei
 
 ## Anwendung
 
-1.  Die Schaltfläche **[<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> [Gleichseitiges Dreieck erstellen](Sketcher_CreateTriangle/de.md)** drücken.
-2.  Klicke einmal, um das Zentrum zu setzen.
-3.  Bewege die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
-4.  Drücken von **Esc** oder Klicken der rechten Maustaste bricht die Funktion ab.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
-
-
-## Hinweise
-
-Der Umkreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung der Skizze sichtbar ist.
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_CreateTriangle.svg" width=16px> [Dreieck](Sketcher_CreateTriangle/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Skizzengeometrien → <img src="images/Sketcher_CreateTriangle.svg" width=16px> Gleichseitiges Dreieck erstellen** auswählen.
+    -   Das Tastaturkürzel **G** dann **P** dann **3**.
+2.  Für weitere Schritte siehe [Sketcher RegelmäßigesVieleckErstellen](Sketcher_CreateRegularPolygon/de#Anwendung.md).
 
 
 

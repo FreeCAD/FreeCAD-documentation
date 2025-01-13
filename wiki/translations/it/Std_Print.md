@@ -42,7 +42,7 @@ Il comando **Stampa** ha principalmente lo scopo di stampare le pagine di [TechD
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

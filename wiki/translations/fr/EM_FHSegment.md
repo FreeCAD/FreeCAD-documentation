@@ -28,8 +28,8 @@ L\'outil Segment FH insère un objet FastHenry de type Segment.
 L\'objet Segment FH peut être basé sur la position d\'un objet <img alt="" src=images/Draft_Line.svg  style="width:16px;"> [Draft Ligne](Draft_Line/fr.md) ou sur deux <img alt="" src=images/EM_FHNode.svg  style="width:16px;"> [Noeuds FH](EM_FHNode/fr.md) qui seront les points d\'extrémité du Segment FH, ou bien, vous pouvez sélectionner l\'emplacement 3D des deux points d\'extrémité, où deux Noeuds FH supplémentaires seront créés.
 
 1.  Appuyez sur le bouton **<img src="images/EM_FHSegment.svg" width=16px> [EM FHSegment](EM_FHSegment/fr.md)** ou appuyez sur les touches **E** puis **S**.
-2.  Cliquez sur un premier point de la vue 3D ou tapez une coordonnée et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-3.  Cliquez sur un deuxième point de la vue 3D ou tapez une coordonnée et appuyez sur le bouton **<img src="images/_Draft_AddPoint.svg" width=16px> Entrez le point**.
+2.  Cliquez sur un premier point de la vue 3D ou rentrez une coordonnée et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
+3.  Cliquez sur un deuxième point de la vue 3D ou rentrez une coordonnée et appuyez sur le bouton **<img src="images/_Draft_AddPoint.svg" width=16px> Entrer un point**.
 
 Vous pouvez également le faire :
 
@@ -51,8 +51,8 @@ Ou :
 
 ## Options
 
--   Pour entrer les coordonnées manuellement, il suffit d\'entrer les nombres, et frapper sur la touche **Entrée** entre chaque affectation de la composante X, Y et Z. Vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées pour insérer le point.
--   Appuyez sur **Echap** ou le **Fermer** pour annuler et quitter l\'opération.
+-   Pour entrer les coordonnées manuellement, il suffit d\'entrer les nombres, et frapper sur la touche **Entrée** entre chaque affectation de la composante X, Y et Z. Vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées pour insérer le point.
+-   Appuyez sur **Échap** ou le **Fermer** pour annuler et quitter l\'opération.
 
 
 

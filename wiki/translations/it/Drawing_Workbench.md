@@ -65,34 +65,9 @@ Vedere la pagina [Esempi dell\'API di Drawing](Drawing_API_example/it.md) per un
 
 
 
-## Modelli di squadrature 
-
-FreeCAD viene fornito con una serie di modelli di pagina predefiniti, ma si possono trovare altri modelli in [Modelli di squadrature](Drawing_templates/it.md).
-
-
-
 ## Estendere il modulo Drawing 
 
 Alcune ulteriori note sulla programmazione del Modulo Disegno sono contenute nella pagina [Drawing Documentation (en)](Drawing_Documentation.md) [Drawing Documentation (it)](Drawing_Documentation/it.md). Dette note aiutano a capire rapidamente come lavora questo modulo e permettono ai programmatori di avviare rapidamente la programmazione per esso.
-
-## Tutorials
-
--   [Drawing tutorial](Drawing_tutorial.md)
--   [Drawing Template HowTo](Drawing_Template_HowTo.md)
-
-
-
-## Macro
-
--    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Macro Disegno automatico](Macro_Automatic_drawing/it.md): Permette all\'utente di ottenere la vista del proprio oggetto in un disegno con 4 diverse posizioni (frontale, superiore, iso, destra). Necessita di qualche modifica per essere perfettamente efficace.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC.png"> [Macro CartoucheFC](Macro_CartoucheFC/it.md): Questa macro della GUI riempie semplicemente tutti i campi del cartiglio del foglio di lavoro per l\'implementazione del disegno di FreeCAD, il formato della data e il simbolo della modalità di proiezione si adattano a la regione UE o gli Stati Uniti selezionati.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC_2.png"> [Macro CartoucheFC 2](Macro_CartoucheFC_2/it.md): Questa macro della GUI riempie semplicemente tutti i campi del cartiglio **modello 2** del foglio di lavoro per implementazione del disegno di FreeCAD.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC_Full.png"> [Macro CartoucheFC Full](Macro_CartoucheFC_Full/it.md): Questa macro della GUI riempie semplicemente tutti i campi del cartiglio nei [Modelli vari completi](Misc_templates_Full/it.md) del foglio di lavoro per implementazione del disegno di FreeCAD, il formato del la data e il simbolo della modalità di proiezione si adattano alla regione UE o agli Stati Uniti selezionati.
-
--    <img style="width:16px;" src="images/Macro_Corner_shapes_wizard.png"> [Procedura guidata/aggiornamento forme macro angolo](Macro_Corner_shapes_wizard/update.md): apre una finestra di dialogo che richiede le dimensioni del pezzo d\'angolo, quindi crea l\'oggetto nel documento e crea una visualizzazione della pagina con viste dall\'alto, frontale e laterale del pezzo.
 
 
 

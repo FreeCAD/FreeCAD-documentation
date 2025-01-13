@@ -15,11 +15,11 @@
 
 
 
-Ce tutoriel introduit au nouvel utilisateur certains des outils et techniques utilisés dans l\'[atelier Part Design](PartDesign_Workbench/fr.md). Ce tutoriel n\'est pas un guide complet et exhaustif de l\'atelier Part Design et de nombreux outils et fonctionnalités ne sont pas couverts. Ce tutoriel guidera l\'utilisateur à travers les étapes nécessaires pour modéliser la pièce montrée dans l\'image ci-dessous à l\'aide de dessins.
+Ce tutoriel introduit au nouvel utilisateur certains des outils et techniques utilisés dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Ce tutoriel n\'est pas un guide complet et exhaustif de l\'atelier PartDesign et de nombreux outils et fonctionnalités ne sont pas couverts. Ce tutoriel guidera l\'utilisateur à travers les étapes nécessaires pour modéliser la pièce montrée dans l\'image ci-dessous à l\'aide de dessins.
 
 ![](images/Tut17_final_refined.png )
 
-Une vidéo de l\'ensemble de la construction est ici: <https://youtu.be/geIrH1cOCzc>
+Une vidéo de l\'ensemble de la construction est ici : <https://youtu.be/geIrH1cOCzc>
 
 (chaque section a son propre extrait vidéo ci-dessous)
 
@@ -31,7 +31,7 @@ Une vidéo de l\'ensemble de la construction est ici: <https://youtu.be/geIrH1cO
 
 ## La tâche 
 
-Dans ce tutoriel, vous allez utiliser l\'atelier Part Design pour créer un modèle solide 3D de la pièce illustrée dans le [dessin](TechDraw_Workbench/fr.md) ci-dessous. Toutes les dimensions nécessaires pour accomplir cette tâche sont données. Vous allez commencer par créer une forme de base à partir d\'une esquisse de base, puis construire sur cette forme, en ajoutant ce que l\'on appelle les fonctions. Ces fonctions ajouteront ou retireront de la matière du solide en utilisant des esquisses supplémentaires et des des fonctions supplémentaires. Ce tutoriel n\'utilisera pas toutes les fonctionnalités et tous les outils disponibles dans l\'atelier Part Design, mais devrait en montrer suffisamment pour donner à l\'utilisateur de ce tutoriel une ressource de base sur laquelle fonder ses connaissances et compétences.
+Dans ce tutoriel, vous allez utiliser l\'atelier PartDesign pour créer un modèle solide 3D de la pièce illustrée dans le [dessin](TechDraw_Workbench/fr.md) ci-dessous. Toutes les dimensions nécessaires pour accomplir cette tâche sont données. Vous allez commencer par créer une forme de base à partir d\'une esquisse de base, puis construire sur cette forme, en ajoutant ce que l\'on appelle les fonctions. Ces fonctions ajouteront ou retireront de la matière du solide en utilisant des esquisses supplémentaires et des des fonctions supplémentaires. Ce tutoriel n\'utilisera pas toutes les fonctionnalités et tous les outils disponibles dans l\'atelier PartDesign, mais devrait en montrer suffisamment pour donner à l\'utilisateur de ce tutoriel une ressource de base sur laquelle fonder ses connaissances et compétences.
 
 
 
@@ -47,9 +47,9 @@ Dans ce tutoriel, vous allez utiliser l\'atelier Part Design pour créer un mod�
 
 ### Démarrer
 
-Commencez par vérifier que vous êtes dans l\'atelier Part Design. Une fois là, vous créerez un nouveau document si vous ne l\'avez pas déjà fait. C\'est une bonne habitude de sauvegarder votre travail souvent, donc avant toute chose, enregistrez le nouveau document, en lui donnant un nom qui vous convient.
+Commencez par vérifier que vous êtes dans l\'atelier PartDesign. Une fois là, vous créerez un nouveau document si vous ne l\'avez pas déjà fait. C\'est une bonne habitude de sauvegarder votre travail souvent, donc avant toute chose, enregistrez le nouveau document, en lui donnant un nom qui vous convient.
 
-Tout travail dans Part Design commence par un [Corps (Body)](Glossary/fr#Body.md). Puis nous construirons un solide dans le Corps à partir d\'une [Esquisse (Sketch)](Glossary/fr#Sketch.md).
+Tout travail dans PartDesign commence par un [Corps (Body)](Glossary/fr#Body.md). Puis nous construirons un solide dans le Corps à partir d\'une [Esquisse (Sketch)](Glossary/fr#Sketch.md).
 
 1.  Cliquez sur <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Créer un corps](PartDesign_Body/fr.md) pour créer et activer un nouveau conteneur corps. 
 *Remarque: cette étape peut être omise. Lors de la création d\'une esquisse, si aucun corps n\'est trouvé, un nouveau corps sera créé et activé automatiquement.*
@@ -85,7 +85,7 @@ Ensuite, vous utiliserez l\'outil <img alt="" src=images/Sketcher_CreatePolyline
 
 ![](images/Tut17B_profile.png )
 
-Maintenant, dans le [Panneau des tâches](Task_panel/fr.md), cliquez sur le bouton **Fermer** pour quitter le mode d\'édition d\'esquisse et sélectionnez <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Protrusion](PartDesign_Pad/fr.md) dans la barre d\'outils ou dans le menu Part Design. Cela vous donnera une boîte de dialogue Paramètres de protrusion dans le Panneau des tâches. À l\'aide de cette boîte de dialogue, en utilisant d\'abord le menu déroulant Type, sélectionnez Deux dimensions. Le dessin présenté au début de ce tutoriel indique que la pièce mesure 53 mm de long. Nous le faisons en remplissant notre esquisse des deux côtés à partir du plan central pour obtenir cette distance, c\'est-à-dire rendre le pavé symétrique par rapport au plan d\'esquisse. La raison en est vue plus tard lors de la création de fonctionnalités. Pour l\'instant, étant donné que nous voulons qu\'il soit de 53 mm au total, nous allons entrer 26.5 pour la première longueur et 26.5 pour la deuxième longueur. Vous pouvez également fournir une longueur unique de 53 mm et cliquer sur la case à cocher Symétrique par rapport au plan. Une fois cela fait, nous avons maintenant notre base solide sur laquelle nous allons ajouter des fonctionnalités supplémentaires pour construire notre pièce.
+Maintenant, dans le [Panneau des tâches](Task_panel/fr.md), cliquez sur le bouton **Fermer** pour quitter le mode d\'édition d\'esquisse et sélectionnez <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Protrusion](PartDesign_Pad/fr.md) dans la barre d\'outils ou dans le menu PartDesign. Cela vous donnera une boîte de dialogue Paramètres de protrusion dans le Panneau des tâches. À l\'aide de cette boîte de dialogue, en utilisant d\'abord le menu déroulant Type, sélectionnez Deux dimensions. Le dessin présenté au début de ce tutoriel indique que la pièce mesure 53 mm de long. Nous le faisons en remplissant notre esquisse des deux côtés à partir du plan central pour obtenir cette distance, c\'est-à-dire rendre le pavé symétrique par rapport au plan d\'esquisse. La raison en est vue plus tard lors de la création de fonctionnalités. Pour l\'instant, étant donné que nous voulons qu\'il soit de 53 mm au total, nous allons entrer 26.5 pour la première longueur et 26.5 pour la deuxième longueur. Vous pouvez également fournir une longueur unique de 53 mm et cliquer sur la case à cocher Symétrique par rapport au plan. Une fois cela fait, nous avons maintenant notre base solide sur laquelle nous allons ajouter des fonctionnalités supplémentaires pour construire notre pièce.
 
 Une vidéo des étapes utilisées dans cette partie du tutoriel est ici: <https://youtu.be/cUyPnCMeTgg>
 
@@ -97,7 +97,7 @@ Une vidéo des étapes utilisées dans cette partie du tutoriel est ici: <https:
 
 ![](images/PD_WB_Tutorial003.png )
 
-Une fois la face sélectionnée, cliquez sur l\'icône Nouvelle esquisse dans la barre d\'outils ou dans le menu Part Design, afin de mapper (déposer) notre esquisse suivante sur la face arrière de la pièce. Sélectionnez maintenant l\'outil <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [Rectangle](Sketcher_CreateRectangle/fr.md) et placez un rectangle sur la face arrière de la pièce de la même manière que ci-dessous. Maintenant, en suivant les étapes répertoriées, contraignez l\'esquisse.
+Une fois la face sélectionnée, cliquez sur l\'icône Nouvelle esquisse dans la barre d\'outils ou dans le menu PartDesign, afin de mapper (déposer) notre esquisse suivante sur la face arrière de la pièce. Sélectionnez maintenant l\'outil <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [Rectangle](Sketcher_CreateRectangle/fr.md) et placez un rectangle sur la face arrière de la pièce de la même manière que ci-dessous. Maintenant, en suivant les étapes répertoriées, contraignez l\'esquisse.
 
 1.  Sélectionnez l\'une des lignes horizontales en appliquant une contrainte de distance horizontale et une valeur de 5 mm.
 2.  Sélectionnez l\'une des lignes verticales et donnez-lui une contrainte de distance verticale et une valeur de 11 mm.
@@ -111,9 +111,9 @@ Une fois la face sélectionnée, cliquez sur l\'icône Nouvelle esquisse dans la
 
 ![](images/tut17_slote_constrained.png )
 
-Une fois cela fait, cliquez sur le bouton Fermer en haut de l\'onglet Tâches dans la fenêtre Vue Combo, puis sélectionnez l\'outil <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Cavité](PartDesign_Pocket/fr.md) dans la barre d\'outils ou le menu Part Design. L\'utilisation de cet outil est l\'opposé de l\'outil Protrusion. Comme l\'outil Protrusion ajoute de la matière à la pièce, l\'outil Cavité supprime de la matière de la pièce. Les deux opérations sont appelées des fonctions. Dans cette opération de cavité, nous allons sélectionner À travers tout dans le menu déroulant de type, puis cliquer sur le bouton OK.
+Une fois cela fait, cliquez sur le bouton Fermer en haut de l\'onglet Tâches dans la fenêtre Vue Combo, puis sélectionnez l\'outil <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Cavité](PartDesign_Pocket/fr.md) dans la barre d\'outils ou le menu PartDesign. L\'utilisation de cet outil est l\'opposé de l\'outil Protrusion. Comme l\'outil Protrusion ajoute de la matière à la pièce, l\'outil Cavité supprime de la matière de la pièce. Les deux opérations sont appelées des fonctions. Dans cette opération de cavité, nous allons sélectionner À travers tout dans le menu déroulant de type, puis cliquer sur le bouton OK.
 
-Pour l\'opération suivante, assurez-vous que \"Pocket\" est sélectionné dans l\'arborescence du modèle et une fois terminé, cliquez sur la fonction <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [Symétrie](PartDesign_Mirrored/fr.md) dans la barre d\'outils ou dans le menu Part Design. Dans la boîte de dialogue Symétrie de la vue combinée, sélectionnez Axe d\'esquisse horizontal dans le menu déroulant Plan. Puis cliquez sur OK. La fonction Symétrie fonctionne de cette manière car la fonction de base de notre modèle a été réalisée des deux côtés du plan horizontal lors de la première opération avec l\'esquisse de base. Si tout s\'est bien passé, vous devriez maintenant avoir une pièce qui ressemble à l\'image ci-dessous après avoir réorienté la vue de la pièce vers l\'avant.
+Pour l\'opération suivante, assurez-vous que \"Pocket\" est sélectionné dans l\'arborescence du modèle et une fois terminé, cliquez sur la fonction <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [Symétrie](PartDesign_Mirrored/fr.md) dans la barre d\'outils ou dans le menu PartDesign. Dans la boîte de dialogue Symétrie de la vue combinée, sélectionnez Axe d\'esquisse horizontal dans le menu déroulant Plan. Puis cliquez sur OK. La fonction Symétrie fonctionne de cette manière car la fonction de base de notre modèle a été réalisée des deux côtés du plan horizontal lors de la première opération avec l\'esquisse de base. Si tout s\'est bien passé, vous devriez maintenant avoir une pièce qui ressemble à l\'image ci-dessous après avoir réorienté la vue de la pièce vers l\'avant.
 
 ![](images/tut17_profilewithslots.png )
 
@@ -145,7 +145,7 @@ Ensuite, nous allons cliquer sur la fonction Protrusion et dans les paramètres 
 
 ![](images/tut17_sideblock.png )
 
-Utilisez à nouveau la fonction Symétrie pour obtenir la deuxième protrusion. Assurez-vous d\'abord que Pad est sélectionné dans l\'arborescence, puis cliquez sur Symétrie dans la barre d\'outils de la sélection dans le menu Part Design. Nous allons répéter l\'opération que nous avons effectuée pour Poche ci-dessus et sélectionnez l\'axe d\'esquisse horizontal dans le menu déroulant Plan.
+Utilisez à nouveau la fonction Symétrie pour obtenir la deuxième protrusion. Assurez-vous d\'abord que Pad est sélectionné dans l\'arborescence, puis cliquez sur Symétrie dans la barre d\'outils de la sélection dans le menu PartDesign. Nous allons répéter l\'opération que nous avons effectuée pour Poche ci-dessus et sélectionnez l\'axe d\'esquisse horizontal dans le menu déroulant Plan.
 
 ![](images/tut17_profilewithsideblocks.png )
 
@@ -188,7 +188,7 @@ Pour créer une cavité qui a le rectangle incliné comme sortie, nous dessinons
 
 ![](images/tut17_profilewithsideblocksrearplane.png )
 
-Sélectionnez <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Nouvelle esquisse](PartDesign_NewSketch/fr.md) dans la barre d\'outils ou dans le menu Part Design. Maintenant, en mode d\'édition d\'esquisse, nous ne voyons pas le rectangle esquissé sur la pente. Pour le rendre sélectionnable, nous basculons la vue combinée dans l\'onglet modèle et sélectionnons la dernière esquisse réalisée (Sketch003) sur le plan incliné. Ensuite, en utilisant la barre d\'espace, rendez-la visible. Ensuite, sélectionnez la fonction miroir ci-dessus (mirrored001) et à nouveau à l\'aide de la barre d\'espace, masquez-le. Ensuite, vous devriez voir le rectangle incliné à l\'intérieur de la vue 3D. Vous pouvez continuer à travailler avec l\'onglet du modèle visible ou revenir à l\'onglet des tâches. À l\'aide de l\'outil <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [Géométrie externe](Sketcher_External/fr.md), sélectionnez les bords horizontaux supérieur et inférieur du rectangle incliné. Ensuite, ajoutez un nouveau rectangle à l\'esquisse à l\'aide de l\'outil <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [Rectangle](Sketcher_CreateRectangle/fr.md).
+Sélectionnez <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Nouvelle esquisse](PartDesign_NewSketch/fr.md) dans la barre d\'outils ou dans le menu PartDesign. Maintenant, en mode d\'édition d\'esquisse, nous ne voyons pas le rectangle esquissé sur la pente. Pour le rendre sélectionnable, nous basculons la vue combinée dans l\'onglet modèle et sélectionnons la dernière esquisse réalisée (Sketch003) sur le plan incliné. Ensuite, en utilisant la barre d\'espace, rendez-la visible. Ensuite, sélectionnez la fonction miroir ci-dessus (mirrored001) et à nouveau à l\'aide de la barre d\'espace, masquez-le. Ensuite, vous devriez voir le rectangle incliné à l\'intérieur de la vue 3D. Vous pouvez continuer à travailler avec l\'onglet du modèle visible ou revenir à l\'onglet des tâches. À l\'aide de l\'outil <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [Géométrie externe](Sketcher_External/fr.md), sélectionnez les bords horizontaux supérieur et inférieur du rectangle incliné. Ensuite, ajoutez un nouveau rectangle à l\'esquisse à l\'aide de l\'outil <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [Rectangle](Sketcher_CreateRectangle/fr.md).
 
 ![](images/tut17_rectangleunconstrained.png )
 
@@ -199,11 +199,11 @@ Et nous devrions finir avec ça.
 
 ![](images/tut17_rectangleconstrained.png )
 
-Pour la dernière étape de ce tutoriel, fermez la fenêtre d\'esquisse par \"fermer\" ou \"fin de modification\" dans le menu contextuel de sketch004, puis sélectionnez la fonction <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Cavité](PartDesign_Pocket/fr.md) dans la barre d\'outils ou dans le menu Part Design. Dans le menu déroulant \"Type\", sélectionnez **A travers tout** et cliquez sur le bouton OK.
+Pour la dernière étape de ce tutoriel, fermez la fenêtre d\'esquisse par \"fermer\" ou \"fin de modification\" dans le menu contextuel de sketch004, puis sélectionnez la fonction <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Cavité](PartDesign_Pocket/fr.md) dans la barre d\'outils ou dans le menu PartDesign. Dans le menu déroulant \"Type\", sélectionnez **A travers tout** et cliquez sur le bouton OK.
 
 ![](images/Tut17_final.png )
 
-À ce stade, vous verrez des lignes qui proviennent d\'intersections. Dans ce cas, le *bloc latéral* croise avec le *profil de base* en le laissant apparaître comme un bloc triangulaire au-dessus du profil (c\'est-à-dire, il y a une ligne supplémentaire visible dans l\'image ci-dessus sur la face droite du modèle) . Pour supprimer ces lignes, vous pouvez soit activer *affiner la forme* dans vos paramètres de conception de pièce, soit, pour économiser une certaine vitesse de traitement et conserver ces lignes lors de la construction, l\'activer individuellement à chaque fonction. Le réglage au niveau de la fonctionnalité peut être effectué dans l\'onglet \"données\" de la fonctionnalité. Définissez [***refine* property**](Property_editor/fr#Données.md) sur TRUE pour que la fonction de poche Pocket001 invoque l\'affinement.
+À ce stade, vous verrez des lignes qui proviennent d\'intersections. Dans ce cas, le *bloc latéral* croise avec le *profil de base* en le laissant apparaître comme un bloc triangulaire au-dessus du profil (c\'est-à-dire, il y a une ligne supplémentaire visible dans l\'image ci-dessus sur la face droite du modèle) . Pour supprimer ces lignes, vous pouvez soit activer *affiner la forme* dans vos paramètres de conception de pièce, soit, pour économiser une certaine vitesse de traitement et conserver ces lignes lors de la construction, l\'activer individuellement à chaque fonction. Le réglage au niveau de la fonctionnalité peut être effectué dans l\'onglet \"données\" de la fonctionnalité. Définissez [***refine* property**](Property_editor/fr#Données.md) sur TRUE pour que la fonction de cavité Pocket001 lance l\'affinage.
 
 ![](images/Tut17_refine.png ) ![](images/Tut17_final_refined.png )
 

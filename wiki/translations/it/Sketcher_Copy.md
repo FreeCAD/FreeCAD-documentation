@@ -11,18 +11,25 @@
 
 # Sketcher Copy/it
 
+
+
 ## Descrizione
 
-Copia da un punto ad un altro gli elementi selezionati dello schizzo, utilizzando l\'ultimo punto selezionato come riferimento. Quando viene effettuata una copia, non viene stabilito alcun collegamento tra la copia e l\'originale, vedere **[<img src=images/Sketcher_Clone.svg style="width:16px"> [Clona](Sketcher_Clone/it.md)**.
+Il comando <img alt="" src=images/Sketcher_Copy.svg  style="width:16px;"> [Copia](Sketcher_Copy/it.md) copia gli elementi dello schizzo selezionati da un punto a un altro, utilizzando l\'ultimo punto selezionato come riferimento. Quando viene eseguita una copia, non viene stabilito alcun collegamento tra la copia e l\'originale, vedere **[<img src=images/Sketcher_Clone.svg style="width:16px"> [Clona](Sketcher_Clone/it.md)**.
+
+
 
 ## Utilizzo
 
 1.  Selezionare l\'elemento dello schizzo che si desidera copiare.
-2.  Cliccare sul pulsante **[<img src=images/Sketcher_Copy.svg style="width:16px"> [Copia](Sketcher_Copy/it.md)** nella toolbar o scegliere **Sketch → Sketcher tools → [<img src=images/Sketcher_Copy.svg style="width:16px"> Copia** dal menù Sketch.
-3.  Muovere il mouse nella [Vista 3D](3D_view/it.md) alla posizione desiderata per la copia.Tenendo premuto **Shift**, l\'angolo rispetto al punto di localizzazione può essere fissato in passi di 5°. <small>(v0.20)</small> 
-4.  Click-sinistro nella Vista 3D per creare la copia.
+2.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Sketcher_Copy.svg" width=16px> [Copia](Sketcher_Copy/it.md)**.
+    -   Selezionare l\'opzione **Schizzo → Strumenti → <img src="images/Sketcher_Copy.svg" width=16px> Copia** dal menu.
+    -   La scorciatoia da tastiera: **Z** quindi **C**.
+3.  Spostare il mouse nella [Vista 3D](3D_view/it.md) nella posizione desiderata per la copia.Tenendo premuto **Shift**, l\'angolo rispetto al punto di posizione può essere fissato in passi di 5 °. {{Version/it|0.20}}
+4.  Fare clic con il pulsante sinistro del mouse nella vista 3D per creare la copia.
 
-Alla copia non vengono aggiunti vincoli specifici.
+Non vengono aggiunti ulteriori vincoli.
 
 
 

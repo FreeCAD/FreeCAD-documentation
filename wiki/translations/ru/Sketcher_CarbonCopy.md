@@ -16,7 +16,13 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Инструмент **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Структурная Копия](Sketcher_CarbonCopy/ru.md)** копирует всю геометрию и ограничения из другого эскиза в активный эскиз.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -56,12 +62,6 @@
 
 
 </div>
-
-
-
-## Ограничения
-
--   Копируется весь эскиз, только часть выбрать невозможно. Однако можно удалить ненужные элементы скопированного эскиза после копирования.
 
 
 <div class="mw-translate-fuzzy">

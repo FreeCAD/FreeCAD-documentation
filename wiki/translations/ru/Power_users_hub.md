@@ -15,6 +15,8 @@ FreeCAD расширяем с помощью кода [Python](Python/ru.md), к
 
 Если Вы хотите добавить контент на эти страницы, запросите аккаунт на wiki с правом редактирования [на форуме](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), изучите [WikiPages](WikiPages/ru.md) насчёт общих рекомендаций, которым Вы должны следовать. Относительно прочих путей внести вклад в проект смотрите страницу [о том как помочь FreeCAD](Help_FreeCAD/ru.md).
 
+
+
 ## Настройка FreeCAD 
 
 -   [Настройка Интерфейса](Interface_Customization/ru.md): Начиная с начала: Панели инструментов и ярлыки
@@ -23,7 +25,11 @@ FreeCAD расширяем с помощью кода [Python](Python/ru.md), к
 -   [Кастомизация панелей инструментов](Customize_Toolbars/ru.md)
 -   [Установка дополнительных верстаков](Installing_more_workbenches/ru.md)
 
+
+
 ## Написание сценариев FreeCAD 
+
+
 
 ### Основы
 
@@ -40,6 +46,8 @@ FreeCAD расширяем с помощью кода [Python](Python/ru.md), к
 
 </div>
 
+
+
 ### Модули
 
 Функциональность FreeCAD разделена между модулями, работающими со своими типами данных и приложениями. У FreeCADа есть встроенные модули и модули расширения (plug-ins). Когда модули расширений установлены, они становятся доступны вам как встроенные модули. Описываемые ниже модули модули по умолчанию, включённые в любую установку FreeCAD.
@@ -47,9 +55,13 @@ FreeCAD расширяем с помощью кода [Python](Python/ru.md), к
 -   [Встроенные модули](Builtin_modules/ru.md) это принципиальные модули FreeCAD. Они содержат инструменты для манипулирования общими конфигурациями FreeCAD, документами и их содержимым.
 -   [Создание верстаков](Workbench_creation/ru.md) покажет Вам как создать собственных верстак.
 
+
+
 #### Работа с полигональными сетками 
 
 -   [Написание сценариев для Mesh](Mesh_Scripting/ru.md): Как взаимодействовать с [модулем Mesh](Mesh_Workbench/ru.md)
+
+
 
 #### Работа с Parts 
 
@@ -58,22 +70,36 @@ FreeCAD расширяем с помощью кода [Python](Python/ru.md), к
 -   [PythonOCC](pythonOCC/ru.md): Как раскрыть всю мощь OpenCasCade
 -   [Mesh to Part](Mesh_to_Part/ru.md): Преобразование между типами объектов
 
+
+
 #### Получение доступа к визуализатору сцен - Coin 
 
 -   [The Coin/Inventor scenegraph](Scenegraph/ru.md): Как работает представление сцен в FreeCAD
 -   [Pivy](Pivy/ru.md): Как получить доступ и изменить графическое представление сцены
+
+
 
 ### Управление Qt интерфейсом 
 
 -   [PySide](PySide/ru.md): Как получить доступ к интерфейсу и изменить его содержание
 -   [Использование FreeCAD GUI](Embedding_FreeCADGui/ru.md) в различных Qt приложениях с помощью PyQt
 
+
+
 ### Работа с параметрическими объектами 
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Сценарные объекты](Scripted_objects/ru.md): Как создать на 100% управляемые сценариями на python объекты в FreeCAD
     -   [Scripted objects with attachment](Scripted_objects_with_attachment/ru.md):Как сделать скриптовые объекты присоединяемыми к другим объектам в FreeCAD
     -   [Scripted objects saving attributes](Scripted_objects_saving_attributes/ru.md): как сохранить и восстановить атрибуты промежуточного класса с `__getstate__` и `__setstate__`.
     -   [Scripted objects migration](Scripted_objects_migration/ru.md): как мигрировать старые скриптовые объекты на новые классы.
+
+
+</div>
+
+
 
 ### Примеры
 
@@ -81,14 +107,18 @@ FreeCAD расширяем с помощью кода [Python](Python/ru.md), к
 -   [Функция отрисовки линии](Line_drawing_function/ru.md): Как собрать простой инструмент для отрисовки линий
 -   [Создание диалога](Dialog_creation/ru.md): Как сконструировать диалог в Qt designer, и использовать его в FreeCAD
 -   [Встраивание FreeCAD](Embedding_FreeCAD/ru.md): Как импортировать FreeCAD в виде python модуля в другие приложения
--   [Верстак черчения](Draft_Workbench/ru.md)добавляет основные функции 2d рисования в freecad. Он полностью написан на python, так что может быть хорошим примером если вы хотите писать ваши собственные модули.
+-   [Верстак черчениядобавляет](Draft_Workbench/ru.md) основные функции 2d рисования в freecad. Он полностью написан на python, так что может быть хорошим примером если вы хотите писать ваши собственные модули.
 -   [Векторная библиотека FreeCAD](FreeCAD_vector_math_library/ru.md): Пара полезных функций для работы с векторами в FreeCAD. Эта библиотека также включена в Чертежный Модуль.
+
+
 
 ## Функции API 
 
 Полное описание API можно найти в <http://www.freecadweb.org/api/> . Он содержит программный интерфейс как на C++, так и на Python, и пока не совсем хорошо форматирован, что может мешать при просмотре кода Python. Более простая для просмотра версия доступна [здесь](:Category:API/ru.md). Заметим что он может быть неполным, так как обновляется вручную. Для получения более точной информации, просматривайте модули напрямую из консоли Python FreeCADа.
 
 Связанное: [Представление C++ в Python](Exposing_C%2B%2B_to_Python/ru.md)
+
+
 
 ## Продвинутые модификации 
 
@@ -97,6 +127,8 @@ FreeCAD расширяем с помощью кода [Python](Python/ru.md), к
 -   [Компиляция FreeCAD в Windows](Compile_on_Windows/ru.md) и [компиляция FreeCAD в Linux](Compile_on_Linux/ru.md)
 -   [Маркирование](Branding/ru.md): Простые изменения, которые вы можете сделать с исходными кодами для изменения некоторых аспектов FreeCAD
 -   [Дополнительные модули Python](Extra_python_modules/ru.md) : Расширение интерпретатора python в FreeCAD этими мощными модулями!
+
+
 
 ## Учебники по Python 
 
@@ -134,11 +166,11 @@ FreeCAD расширяем с помощью кода [Python](Python/ru.md), к
 -   [High Level 3D Graphics Programming in Python](http://ftp.ntua.gr/mirror/python/pycon/dc2004/papers/47/) : Примеры Pivy из Pycon 2004
 -   [Introducing Pivy into studierstube](https://www.semanticscholar.org/paper/Integrating-Pivy-into-Studierstube-4.2-Gruber/08c9a89c8326c87f81c2d83428029fbfb6c2ae64) [(Mirror)](https://www.researchgate.net/publication/228737136_Integrating_Pivy_into_Studierstube_42) : Документ, который на самом деле не учебник, но прекрасно иллюстрирует как работает Pivy (требует академический аккаунт)
 
+
+
 ## Проекты сообщества 
 
 На [портале Сообщества](FreeCAD_Community_Portal.md), вы можете найти другие основанные на FreeCAD проекты запущенные сообществом пользователей FreeCAD. Если вы начинаете новый проект FreeCAD, убедитесь что его нет в списке! У нас также есть страница, с описанием вещей, которые вы могли бы сделать, если хотите [Помочь FreeCAD](Help_FreeCAD/ru.md).
-
--   [Научная литература](Scientific_literature/ru.md): статьи, которые по-разному ссылаются на систему FreeCAD или используют ее.
 
 
 

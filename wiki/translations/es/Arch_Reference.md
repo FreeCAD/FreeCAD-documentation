@@ -12,9 +12,9 @@
 
 </div>
 
-## Descripción
 
-<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
+
+## Descripción
 
 
 <div class="mw-translate-fuzzy">
@@ -24,12 +24,30 @@ La herramienta Referencia permite colocar un objeto en el documento actual que c
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
+<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
+
+
+</div>
+
+
+
 ## Utilización
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Pulse el botón **<img src="images/Arch_Reference.svg" width=16px> '''Arquitectura Referencia'''** botón,
 2.  Pulsa el botón \"Elegir archivo\...\" y selecciona un archivo existente de FreeCAD,
 3.  Selecciona uno de los objetos basados en la Parte incluidos en la lista desplegable,
 4.  Pulsa **OK**.
+
+
+</div>
+
+
 
 ## Opciones
 
@@ -39,6 +57,8 @@ La herramienta Referencia permite colocar un objeto en el documento actual que c
 -   Para referenciar varios objetos a la vez, colóquelos dentro de una [Arquitectura EdificioPieza](Arch_BuildingPart/es.md).
 -   Al desactivar la propiedad de la vista **Actualizar colores** de la Referencia, ya no se recargarán los colores originales, por lo que puede cambiarlos con seguridad.
 
+
+
 ## Propiedades
 
 -    **Archivo**: El archivo base sobre el que se construye este componente
@@ -47,19 +67,37 @@ La herramienta Referencia permite colocar un objeto en el documento actual que c
 
 -    **Actualizar Colores**: Si es verdadero, los colores del archivo vinculado se mantendrán actualizados
 
+
+
 ## Guión
 
-La herramienta Referencia puede utilizarse en [macros](macros/es.md) y desde la consola de python utilizando la siguiente función: 
+
+<div class="mw-translate-fuzzy">
+
+La herramienta Referencia puede utilizarse en [macros](macros/es.md) y desde la consola de python utilizando la siguiente función:
+
+
+</div>
+
+
 ```python
-makeReference ([file_path,object_name])
+reference = makeReference([filepath], [partname], [name])
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 crea un objeto Referencia a partir del objeto dado en el archivo dado.
 
-Ejemplo: 
+
+</div>
+
+Ejemplo:
+
+
 ```python
 import Arch
-Arch.makeReference("/path/to/some/file.FSCtd","myPart")
+Arch.makeReference("/path/to/some/file.FSCtd", "myPart")
 ```
 
 
@@ -72,6 +110,11 @@ Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/es
+⏵ [documentation index](../README.md) > Arch Reference/es

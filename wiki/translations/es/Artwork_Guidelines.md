@@ -6,7 +6,13 @@
 
 para todos los iconos del árbol de fuentes, ver [Obras de Arte](Artwork/es.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Un icono de FreeCAD se compone de 6 elementos que pueden ser recordados por el acrónimo SALCHO: **S** troke, **A** lignment, **L** ighting, **C** olor, **H** ighlighting, **O** utline. (español: *Trazo*, *Alineación*, *Iluminación*, *Color*, *Resaltar*, *Contorno*)
+
+
+</div>
 
 He aquí un ejemplo concreto, aunque arbitrario:
 
@@ -33,6 +39,8 @@ Este icono se muestra de la siguiente manera:
 | <img alt="" src=images/FreeCAD_icon_example.svg  style="width:16px;"> | 16 px, pequeño tamaño, como aparece en el [vista árbol](Tree_view/es.md). |
 +++
 
+
+
 ## Colores
 
 
@@ -40,22 +48,79 @@ Este icono se muestra de la siguiente manera:
 
 FreeCAD utiliza una paleta adaptada de la [Tango paleta](https://web.archive.org/web/20190921043652/http://tango.freedesktop.org/tango_icon_theme_guidelines). Cada color principal viene en 4 tonos: Resaltar, Base, Oscuro y Contorno. Observa que el Contorno no es completamente negro, sino una variación muy oscura de la Base.
 
-![](images/Green_tones.PNG ) 
++++++
+| #fce94f         | #edd400         | #c4a000         | #302b00         |
+| (252, 233, 79)  | (237, 212, 0)   | (196, 160, 0)   | (48, 43, 0)     |
+| Butter 1        | Butter 2        | Butter 3        | Butter 4        |
++=================+=================+=================+=================+
+| #8ae234         | #73d216         | #4e9a06         | #172a04         |
+| (138, 226, 52)  | (115, 210, 22)  | (78, 154, 6)    | (23, 42, 4)     |
+| Chameleon 1     | Chameleon 2     | Chameleon 3     | Chameleon 4     |
++++++
+| #fcaf3e         | #f57900         | #ce5c00         | #321900         |
+| (252, 175, 62)  | (245, 121, 0)   | (206, 92, 0)    | (50, 25, 0)     |
+| Orange 1        | Orange 2        | Orange 3        | Orange 4        |
++++++
+| #729fcf         | #3465a4         | #204a87         | #0b1521         |
+| (114, 159, 207) | (52, 101, 164)  | (32, 74, 135)   | (11, 21, 33)    |
+| Sky Blue 1      | Sky Blue 2      | Sky Blue 3      | Sky Blue 4      |
++++++
+| #ad7fa8         | #75507b         | #5c3566         | #171018         |
+| (173, 127, 168) | (117, 80, 123)  | (92, 53, 102)   | (23, 16, 24)    |
+| Plum 1          | Plum 2          | Plum 3          | Plum 4          |
++++++
+| #e9b96e         | #c17d11         | #8f5902         | #271903         |
+| (233, 185, 110) | (193, 125, 17)  | (143, 89, 2)    | (39, 25, 3)     |
+| Chocolate 1     | Chocolate 2     | Chocolate 3     | Chocolate 4     |
++++++
+| #ef2929         | #cc0000         | #a40000         | #280000         |
+| (239, 41, 41)   | (204, 0, 0)     | (164, 0, 0)     | (40, 0, 0)      |
+| Scarlet Red 1   | Scarlet Red 2   | Scarlet Red 3   | Scarlet Red 4   |
++++++
+| #34e0e2         | #16d0d2         | #06989a         | #042a2a         |
+| (52, 224, 226)  | (22, 208, 210)  | (6, 152, 154)   | (4, 42, 42)     |
+| FreeTeal 1      | FreeTeal 2      | FreeTeal 3      | FreeTeal 4      |
++++++
+| #ffffff         | #eeeeec         | #d3d7cf         | #babdb6         |
+| (255, 255, 255) | (238, 238, 236) | (211, 215, 207) | (186, 189, 182) |
+| Snowy White     | Aluminium 1     | Aluminium 2     | Aluminium 3     |
++++++
+| #888a85         | #555753         | #2e3436         | #000000         |
+| (136, 138, 133) | (85, 87, 83)    | (46, 52, 54)    | (0, 0, 0)       |
+| Aluminium 4     | Aluminium 5     | Aluminium 6     | Jet Black       |
++++++
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Ejemplo de una familia de colores de 4 tonos (Camaleón)*
 
-Ver [FreeCAD paleta](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) para la gama completa. Una selección de algunos colores clave.
+
+</div>
+
+A selection of some key colors.
 
       
-                                                                                                                                                          Utiliza los tonos amarillos para las herramientas que crean objetos; para un ejemplo, ver [Pieza](Part_Workbench/es.md) y [Ambiente de trabajo Borradores](Draft_Workbench/es.md).
-  style=\"background-color:#729fcf;\|   style=\"background-color:#3465a4;\|   style=\"background-color:#204a87;\|   style=\"background-color:#0b1521;\|   Utilice los tonos azules para las herramientas que modifican los objetos; por ejemplo, ver [Pieza](Part_Workbench/es.md) y [Ambiente de trabajo Borrador](Draft_Workbench/es.md).
-  style=\"background-color:#34e0e2\|    style=\"background-color:#16d0d2\|    style=\"background-color:#06989a\|    style=\"background-color:#042a2a\|    Utilice los tonos turquesa para las herramientas relacionadas con la vista; para un ejemplo, ver el [Menú vista](Std_View_Menu/es.md).
-  style=\"background-color:#ef2929\|    style=\"background-color:#cc0000\|    style=\"background-color:#a40000\|    style=\"background-color:#280000\|    Utilice los tonos rojos para las herramientas relacionadas con las restricciones; para un ejemplo, ver [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md).
+                                                                                                                                                          Use the Yellow tones for tools that create objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
+  style=\"background-color:#729fcf;\|   style=\"background-color:#3465a4;\|   style=\"background-color:#204a87;\|   style=\"background-color:#0b1521;\|   Use the Blue tones for tools that modify objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
+  style=\"background-color:#34e0e2\|    style=\"background-color:#16d0d2\|    style=\"background-color:#06989a\|    style=\"background-color:#042a2a\|    Use the Teal tones for view-related tools; for an example, see the [View Menu](Std_View_Menu.md).
+  style=\"background-color:#ef2929\|    style=\"background-color:#cc0000\|    style=\"background-color:#a40000\|    style=\"background-color:#280000\|    Use the Red tones for Constraint related tools; for an example, see [Sketcher Workbench](Sketcher_Workbench.md).
       
+
+
+<div class="mw-translate-fuzzy">
 
    
   style=\"width: 25%;\|¿Por qué limitarse a estos colores?   Restringir los colores a una paleta definida ayuda a evitar una iconografía heterogénea y mejora la legibilidad cuando hay muchos iconos.
   ¿Cómo utilizo la paleta de FreeCAD?                        Instalar [la paleta](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) es tan fácil como [copiarla en su carpeta de paletas de Inkscape](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
    
+
+
+</div>
+
+
 
 ## Rejilla y ancho del trazo 
 
@@ -79,6 +144,8 @@ Los trazos no deben ser *más finos* que 2px, con tapas y esquinas redondeadas e
   ¿Cómo puedo cumplir con esto?                   Si está usando Inkscape, vaya a **Archivo → Propiedades del documento** y confirme que la anchura, la altura y las unidades de su página son correctas. Luego vaya a la pestaña **Rejillas**, haga clic en **Nuevo**, establezca las unidades a `px`, `Distancia X` y `Distancia Y` a 1 y `Major grid line every` a 2.
    
 
+
+
 ## Contorno
 
 
@@ -93,6 +160,8 @@ Basándose en el color principal del icono, asegúrese de que hay un contorno os
   ¿Por qué es necesario el contorno?   El contorno es el esqueleto del que cuelga todo lo demás añadiendo contraste de forma. El uso del color del contorno o del color oscuro depende de la situación, pero sin esta línea, la gama de fondos en los que el icono es visible se limita drásticamente
   ¿Cómo puedo cumplir con esto?        Simplemente añada un trazo de 2px alrededor de cada parte del icono que será adyacente al color de fondo, es decir, el contorno es para trazos externos. En el caso de las formas que tienen un agujero en el centro, por ejemplo, un donut, el contorno debe añadirse también al agujero interior. Ajuste los nodos de su trazado a la rejilla siempre que sea posible, apuntando a las intersecciones menores de la rejilla.
    
+
+
 
 ## Resaltar
 
@@ -109,6 +178,8 @@ Usando el color de Resaltar, añada un trazo interno de 2px para ayudar a que es
   ¿Cómo se cumple esto?             Al igual que con el contorno, simplemente trace un trazo de 2px alrededor del lado interno del contorno, ajustando los nodos a la rejilla cuando sea posible, apuntando a las intersecciones menores de la rejilla.
    
 
+
+
 ## Iluminación
 
 
@@ -124,11 +195,15 @@ Según las directrices de Tango, si está añadiendo un efecto de iluminación d
   ¿Cómo cumplir con esto?                                 Configure el relleno para que sea un gradiente lineal o radial. En Inkscape esto está disponible en los ajustes de trazo y relleno; con \"F2\" es posible mover los nodos del gradiente para asegurarse de que están en el ángulo correcto.
    
 
+
+
 ## Formato de grabación recomendado 
 
 Todos los iconos deben crearse en formato [SVG](SVG/es.md) con una aplicación de imágenes vectoriales, como [Inkscape](http://inkscape.org). Esto facilita la aplicación de cambios y la derivación de iconos adicionales en el mismo espacio de la aplicación.
 
 Cuando se comprometan iconos para ser utilizados directamente por FreeCAD (en un archivo \*.qrc), guárdalos como \"Puro SVG\". Esto reducirá el tamaño del icono y ahorrará espacio en el disco y en la memoria.
+
+
 
 ## Comentarios finales 
 
@@ -136,9 +211,13 @@ Recuerda: **SALCHO**, Stroke, Alignment, Lighting, Color, Highlight, Outline
 
 Aquí tienes algunos consejos para comprobar tu trabajo.
 
+
+
 ### Controlar el tamaño 
 
 Inkscape tiene una práctica herramienta para comprobar su icono en varios tamaños. Vaya a **Ver → Vista de icono...** y le mostrará vistas previas de su icono redimensionado a 16, 24, 32 y 64 píxeles.
+
+
 
 ### Comprobar su contorno 
 
@@ -153,6 +232,8 @@ Inkscape tiene una práctica herramienta para comprobar su icono en varios tama�
    
   Mi icono es apenas visible.   Tiene un contraste de forma pobre. Compruebe de nuevo el contorno y el resaltado, probablemente falte uno de ellos o esté mal aplicado.
    
+
+
 
 ### Comprobar el contraste 
 

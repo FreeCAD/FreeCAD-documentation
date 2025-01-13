@@ -3,7 +3,7 @@
    Name: Part Scale
    MenuLocation: Part , Scale...
    Workbenches: Part_Workbench
-   Version: 0.22
+   Version: 1.0
    SeeAlso: Draft_Clone, Draft_Scale
 ---
 

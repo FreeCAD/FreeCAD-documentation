@@ -2,31 +2,31 @@
  GuiCommand:
    Name: Arch Reference
    Name/fr: Arch Référence externe
-   MenuLocation: Arch , Référence externe
-   Workbenches: Arch_Workbench/fr
-   SeeAlso: Arch_BuildingPart/fr
+   MenuLocation: 3D/BIM , Outils 3D génériques , Référence externe
+   Workbenches: BIM_Workbench/fr
+   SeeAlso: 
 ---
 
 # Arch Reference/fr
 
 ## Description
 
-<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
+L\'outil **Arch Référence externe** vous permet de placer un objet dans le document en cours qui copie sa forme et ses couleurs à partir d\'un objet issu de l\'[atelierPart](Part_Workbench/fr.md) (y compris [Arch Partie de bâtiment](Arch_BuildingPart/fr.md)) enregistré dans un autre fichier FreeCAD. Si ce fichier FreeCAD change, l\'objet de référence est marqué pour être rechargé.
 
-L\'outil Référence vous permet de placer dans le document actuel un objet qui copie sa forme et ses couleurs à partir d\'un objet basé sur l\'[Atelier Part](Part_Workbench/fr.md) (y compris [Arch Partie de bâtiment](Arch_BuildingPart/fr.md)) stocké dans un autre fichier FreeCAD. Si ce fichier FreeCAD change, l\'objet de référence est marqué pour être rechargé.
+<img alt="" src=images/Arch_reference_screenshot.png  style="width:600px;">
 
 
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/Arch_Reference.svg" width=16px> '''Référence externe'''**,
+1.  Appuyez sur le bouton **<img src="images/Arch_Reference.svg" width=16px> [Référence externe](Arch_Reference/fr.md)**,
 2.  Appuyez sur le bouton \"Choisir un fichier\...\" et sélectionnez un fichier FreeCAD existant,
 3.  Sélectionnez l\'un des objets à base de pièce inclus dans la liste déroulante,
 4.  Appuyer sur **OK**.
 
 ## Options
 
--   L\'objet de référence peut être déplacé et pivoté, la position actuelle sera conservée après le rechargement de l\'objet.
+-   L\'objet de référence peut être déplacé et pivoté, la position en cours sera conservée après le rechargement de l\'objet.
 -   Si l\'objet original est déplacé dans le fichier contenant, ce mouvement sera reflété dans l\'objet de référence.
 -   En cliquant avec le bouton droit de la souris sur un objet de référence dans l\'arborescence, vous avez le choix entre recharger l\'objet d\'origine ou ouvrir le fichier qui le contient.
 -   Pour référencer plusieurs objets à la fois, placez-les dans un [Arch Partie de bâtiment](Arch_BuildingPart/fr.md).
@@ -36,30 +36,42 @@ L\'outil Référence vous permet de placer dans le document actuel un objet qui 
 
 ## Propriétés
 
--    **File**: Fichier de base sur lequel ce composant est construit
+-    **File**: fichier de base sur lequel ce composant est construit
 
--    **Part**: La partie à utiliser à partir du fichier de base.
+-    **Part**: l\'item à utiliser à partir du fichier de base.
 
--    **Update Colors**: Si la valeur est true, les couleurs du fichier lié seront mises à jour.
+-    **Update Colors**: si la valeur est true, les couleurs du fichier lié seront mises à jour.
 
 
 
 ## Script
 
-L\'outil Reference peut être utilisé à l\'intérieur d\'une [macro](macros/fr.md), et à partir de la console Python, en utilisant la fonction suivante : 
+L\'outil Reference externe peut être utilisé à l\'intérieur d\'une [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md), en utilisant la fonction suivante :
+
+
 ```python
-makeReference ([file_path,object_name])
+reference = makeReference([filepath], [partname], [name])
 ```
 
-crée un objet de référence à partir de l\'objet donné dans le fichier donné.
+Crée un objet `reference` nommé `name` à partir de l\'objet `partname` dans le fichier `filepath`. Tous les arguments sont facultatifs.
 
-Exemple : 
+Exemple :
+
+
 ```python
 import Arch
-Arch.makeReference("/path/to/some/file.FSCtd","myPart")
+Arch.makeReference("/path/to/some/file.FSCtd", "myPart")
 ```
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/fr
+⏵ [documentation index](../README.md) > Arch Reference/fr

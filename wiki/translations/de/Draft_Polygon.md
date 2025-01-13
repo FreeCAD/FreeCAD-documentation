@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Polygon
    Name/de: Draft Vieleck
-   MenuLocation: Entwurf , Vieleck
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Zeichnen , Vieleck<br>2D-Entwurf , Vieleck
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **P** **G**
    Version: 0.7
 ---
@@ -29,22 +29,24 @@ Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Einrasten](Draft_Snap/de.md
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_Polygon.svg" width=16px> [Vieleck](Draft_Polygon/de.md)** drücken.
-    -   Den Menüeintrag **Drafting → <img src="images/Draft_Polygon.svg" width=16px> Vieleck** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Zeichnen→ <img src="images/Draft_Polygon.svg" width=16px> Vieleck** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **2D-Entwurf → <img src="images/Draft_Polygon.svg" width=16px> Vieleck
+**
     -   Das Tastaturkürzel **P** dann **G**.
 2.  Der Aufgabenbereich **Polygon** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 3.  Die gewünschte Anzahl von Seiten (**Sides**) eingeben.
-4.  Den ersten Punkt, den Mittelpunkt des Vielecks, in der [3D-Ansicht](3D_view/de.md) auswählen, oder Die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** drücken.
+4.  Den ersten Punkt, den Mittelpunkt des Vielecks, in der [3D-Ansicht](3D_view/de.md) auswählen, oder Die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
 5.  Den zweiten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen, oder einen **Radius** eingeben.
 
 
 
 ## Optionen
 
-Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 1.0).
 
 -   Zum manuellen Eingeben von Koordinaten, werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam, den Mauszeiger aus der [3D-Ansicht](3D_view/de.md) heraus zu bewegen, bevor Koordinaten eingegeben werden.
 
--    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md).
 
 -    **F**drücken oder die Checkbox **Füllen** aktivieren, um den Füllen-Modus umzuschalten. Ist der Füllen-Modus aktiviert, wird die {{PropertyData/de|Make Face}} des erstellten Vielecks auf `True` gesetzt und es erhält eine gefüllte Fläche.
 
@@ -83,19 +85,19 @@ Ein Draft-Vieleck (Polygon-Objekt) wird von einem [Part Part2DObject](Part_Part2
 
 {{TitleProperty|Draft}}
 
--    **Area|Area**: (read-only) specifies the area of the face of the polygon. The value will be {{value|0.0}} if **Make Face** if `False`.
+-    {{PropertyData/de|Area|Area}}: (nur Lesezugriff) gibt den Flächeninhalt der Fläche des Vielecks an. Der Wert ist {{value|0.0}}, wenn die {{PropertyData/de|Make Face}} `False` ist.
 
--    **Chamfer Size|Length**: specifies the length of the chamfers at the corners of the polygon.
+-    {{PropertyData/de|Chamfer Size|Length}}: gibt die Länge der Fasen an den Ecken des Vielecks an.
 
--    **Draw Mode|Enumeration**: specifies if the polygon is {{value|inscribed}} in a circle or {{value|circumscribed}} around a circle.
+-    {{PropertyData/de|Draw Mode|Enumeration}}: gibt an, ob das Vieleck einen Umkreis einbeschrieben ist ({{value|inscribed}}) oder ob ein Inkreis von ihm umschrieben wird ({{value|circumscribed}}).
 
--    **Faces Number|Integer**: specifies the number of sides of the polygon.
+-    {{PropertyData/de|Faces Number|Integer}}: gibt die Anzahl der Seiten des Vielecks an.
 
--    **Fillet Radius|Length**: specifies the radius of the fillets at the corners of the polygon.
+-    {{PropertyData/de|Fillet Radius|Length}}: gibt den Radius der Verrundungen an den Ecken des Vielecks an.
 
--    **Make Face|Bool**: specifies if the polygon makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object.
+-    {{PropertyData/de|Make Face|Bool}}: gibt an, ob das Vieleck eine Fläche erzeugt oder nicht. Wenn `True`, wird eine Fläche erstellt, andernfalls wird nur der Umriss als Teil des Objekts betrachtet.
 
--    **Radius|Length**: specifies the radius of the circle that defines the polygon.
+-    {{PropertyData/de|Radius|Length}}: gibt den Radius des Kreises an, der das Vieleck definiert.
 
 
 
@@ -104,27 +106,27 @@ Ein Draft-Vieleck (Polygon-Objekt) wird von einem [Part Part2DObject](Part_Part2
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the polygon. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+-    {{PropertyView/de|Pattern|Enumeration}}: Legt das [Draft-Muster](Draft_Pattern/de.md) fest, mit dem die Fläche des Vielecks gefüllt wird. Diese Eigenschaft funktioniert nur, wenn die {{PropertyData/de|Make Face}} auf `True` und die {{PropertyView/de|Display Mode}} auf {{value|Flat Lines}} gesetzt ist.
 
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    {{PropertyView/de|Pattern Size|Float}}: Legt die Größe des [Draft-Musters](Draft_Pattern/de.md) fest.
 
 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-To create a Draft Polygon use the `make_polygon` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makePolygon` method.
+Um ein Draft-Vieleck zu erstellen, wird die Methode `make_polygon` ({{Version/de|0.19}}) des Draft-Moduls verwendet. Diese Methode ersetzt die veraltete Methode `makePolygon`.
 
 
 ```python
 polygon = make_polygon(nfaces, radius=1, inscribed=True, placement=None, face=None, support=None)
 ```
 
--   Creates a `polygon` object with the given number of faces (`nfaces`), and based on a circle of `radius` in millimeters.
--   If `inscribed` is `True`, the polygon is inscribed in the circle, otherwise it will be circumscribed.
--   If `placement` is `None` the polygon is created at the origin and one of its vertices will lie on the X axis.
--   If `face` is `True`, the polygon will make a face, that is, it will appear filled.
+-   Erzeugt ein `polygon`-Objekt mit der angegebenen Anzahl von Flächen (`nfaces`) und basierend auf einem Kreis mit einem `radius` in Millimetern.
+-   Ist `inscribed` `True`, wird das Vieleck in einem Umkreis einbeschrieben, andernfalls umschreibt es einen Inkreis.
+-   Wenn `placement` `None` ist, wird das Vieleck im Ursprung erstellt und einer seiner Eckpunkte liegt auf der X-Achse.
+-   Wenn `face` `True` ist, bildet das Vieleck eine Fläche, d. h. es wird ausgefüllt.
 
 Beispiel: 
 ```python

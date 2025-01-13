@@ -53,7 +53,7 @@
         -   <img alt="" src=images/Std_ViewIsometric.svg  style="width:32px;"> [Изометрическая](Std_ViewIsometric/ru.md): Установить изометрический вид.
         -   <img alt="" src=images/Std_ViewDimetric.svg  style="width:32px;"> [Диметрическая](Std_ViewDimetric/ru.md): Установить диметрический вид.
         -   <img alt="" src=images/Std_ViewTrimetric.svg  style="width:32px;"> [Триметрическая](Std_ViewTrimetric/ru.md): Установить триметрический вид.
-    -   <img alt="" src=images/Std_ViewHome.svg  style="width:32px;"> [Домой](Std_ViewHome/ru.md): Установить вид по умолчанию. <small>(v0.19)</small> 
+    -   <img alt="" src=images/Std_ViewHome.svg  style="width:32px;"> [Домой](Std_ViewHome/ru.md): Установить вид по умолчанию.
     -   <img alt="" src=images/Std_ViewFront.svg  style="width:32px;"> [Спереди](Std_ViewFront/ru.md): Установить вид спереди.
     -   <img alt="" src=images/Std_ViewTop.svg  style="width:32px;"> [Сверху](Std_ViewTop/ru.md): Установить вид сверху.
     -   <img alt="" src=images/Std_ViewRight.svg  style="width:32px;"> [Справа](Std_ViewRight/ru.md): Установить вид справа.
@@ -62,17 +62,23 @@
     -   <img alt="" src=images/Std_ViewLeft.svg  style="width:32px;"> [Слева](Std_ViewLeft/ru.md): Установить вид слева.
     -   <img alt="" src=images/Std_RotateLeft.png  style="width:32px;"> [Повернуть влево](Std_ViewRotateLeft/ru.md): Повернуть вид на 90 градусов против часовой стрелки.
     -   <img alt="" src=images/Std_RotateRight.png  style="width:32px;"> [Повернуть вправо](Std_ViewRotateRight/ru.md): Повернуть вид на 90 градусов по часовой стрелке.
-    -   [Сохранить рабочий вид](Std_StoreWorkingView/ru.md): Сохраняет настройки камеры активного 3D-вида. {{Version/ru|1.0}}
-    -   [Восстановить рабочий вид](Std_RecallWorkingView/ru.md): Восстанавливает сохраненные настройки камеры активного 3D-вида. {{Version/ru|1.0}}
+    -   [Сохранить рабочий вид](Std_StoreWorkingView/ru.md): Сохраняет настройки камеры активного 3D-вида. {{Version/ru|0.21}}
+    -   [Восстановить рабочий вид](Std_RecallWorkingView/ru.md): Восстанавливает сохраненные настройки камеры активного 3D-вида. {{Version/ru|0.21}}
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Положения камеры](Std_FreezeViews/ru.md)
     -   [Сохранить виды в файл\...](Std_FreezeViews/ru#Сохранить_виды_в_файл....md): Сохраняет виды в файл.
     -   [Загрузить виды из файла\...](Std_FreezeViews/ru#Загрузить_виды_из_файла....md): Загружает виды из файла.
     -   [Запомнить вид](Std_FreezeViews/ru#Запомнить_вид.md): Запоминает текущий вид в сохраненом виде.
     -   [Забыть все виды](Std_FreezeViews/ru#Забыть_все_виды.md): Удаляет все сохраненные виды.
+
+
+</div>
 
 -   [Стиль представления](Std_DrawStyle/ru.md)
     -   <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:32px;"> [Как есть](Std_DrawStyle/ru#Как_есть.md): Переключает стиль представления в режим: Как есть.
@@ -107,7 +113,8 @@
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Плоскость сечения](Std_ToggleClipPlane/ru.md): Позволяет просмотреть объект в разрезе.
 
--   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Persistent section cut](Part_SectionCut.md): Creates persistent cuts of objects and assemblies. **-- Available if the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md) has been loaded.** <small>(v0.20)</small> 
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Persistent section cut](Part_SectionCut.md): Creates persistent cuts of objects and assemblies. 
+**-- Available if the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md) has been loaded.**
 
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Текстурирование\...](Std_TextureMapping/ru.md): Временно накладывает текстуру поверх всех объектов.
 
@@ -137,6 +144,8 @@
 
 </div>
 
+-   <img alt="" src=images/Std_SetMaterial.svg  style="width:32px;"> [Material\...](Std_SetMaterial.md): Sets the material of selected objects. **-- Available if the [Material Workbench](Material_Workbench.md) has been loaded directly or indirectly (via for example the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md)).** <small>(v1.0)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -145,7 +154,18 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Случайный цвет](Std_RandomColor/ru.md): Устанавливает цвет фигуры случайным образом.
+
+
+</div>
+
+-   <img alt="" src=images/Part_ColorPerFace.svg  style="width:32px;"> [Color per face](Part_ColorPerFace.md): Sets the display properties of selected faces. 
+**-- Available if the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md) is active.**
+
+-   <img alt="" src=images/Std_ToggleTransparency.svg  style="width:32px;"> [Toggle transparency](Std_ToggleTransparency.md): Toggles the transparency of selected objects. <small>(v1.0)</small> 
 
 -   [Верстак](Std_Workbench/ru.md) **-- Выбрать верстак из подменю.**
 
@@ -177,7 +197,7 @@
 
 </div>
 
--   Dock window overlay <small>(v0.22)</small> 
+-   Dock window overlay <small>(v1.0)</small> 
     -   [Toggle overlay for all](Std_DockOverlayAll.md): Toggles overlay mode for all docked windows.
     -   [Toggle transparent for all](Std_DockOverlayTransparentAll.md): Toggles transparent mode for all docked overlay windows. This makes the docked windows stay transparent at all times.
     -   [Toggle overlay](Std_DockOverlayToggle.md): Toggles overlay mode for the docked window under the cursor.
@@ -188,22 +208,20 @@
     -   [Toggle top](Std_DockOverlayToggleTop.md): Shows/hides the top overlay panel.
     -   [Toggle bottom](Std_DockOverlayToggleBottom.md): Shows/hides the bottom overlay panel.
 
--   <img alt="" src=images/Std_ToggleTransparency.svg  style="width:32px;"> [Toggle transparency](Std_ToggleTransparency.md):
-
 -   Link navigation
     -   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Go to linked object](Std_LinkSelectLinked.md): Selects the linked object and switches to its document.
     -   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Go to the deepest linked object](Std_LinkSelectLinkedFinal.md): Selects the deepest linked object and switches to its document.
     -   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;"> [Select all links](Std_LinkSelectAllLinks.md): Selects all links to an object.
 
 -   Tree view actions
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode.
-    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync selection](Std_TreeSyncSelection.md): Toggles the Tree view SyncSelection mode.
-    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync placement](Std_TreeSyncPlacement.md): Toggles the Tree view SyncPlacement mode.
-    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selection](Std_TreePreSelection.md): Toggles the Tree view PreSelection mode.
-    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Record selection](Std_TreeRecordSelection.md): Toggles the Tree view RecordSelection mode.
-    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Single document](Std_TreeSingleDocument.md): Switches the Tree view to SingleDocument mode.
-    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Multi document](Std_TreeMultiDocument.md): Switches the Tree view to MultiDocument mode.
-    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Collapse/Expand](Std_TreeCollapseDocument.md): Switches the Tree view to CollapseDocument mode.
+    -   [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode.
+    -   [Sync selection](Std_TreeSyncSelection.md): Toggles the Tree view SyncSelection mode.
+    -   [Sync placement](Std_TreeSyncPlacement.md): Toggles the Tree view SyncPlacement mode.
+    -   [Pre-selection](Std_TreePreSelection.md): Toggles the Tree view PreSelection mode.
+    -   [Record selection](Std_TreeRecordSelection.md): Toggles the Tree view RecordSelection mode.
+    -   [Single document](Std_TreeSingleDocument.md): Switches the Tree view to SingleDocument mode.
+    -   [Multi document](Std_TreeMultiDocument.md): Switches the Tree view to MultiDocument mode.
+    -   [Collapse/Expand](Std_TreeCollapseDocument.md): Switches the Tree view to CollapseDocument mode.
     -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Initiate dragging](Std_TreeDrag.md): Initiates a drag operation for selected objects in the Tree view.
     -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Go to selection](Std_TreeSelection.md): Scrolls the Tree view to the first created object in a 3D view selection.
     -   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Selection back](Std_SelBack.md): Restores the previous Tree view selection.
@@ -215,7 +233,7 @@
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

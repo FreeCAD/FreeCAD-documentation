@@ -3,13 +3,17 @@
 
 Cet article décrit le **Branding (identification à la marque)** de FreeCAD. Branding signifie que vous pouvez lancer votre propre application sur une base de FreeCAD. Cela peut être seulement votre propre exécutable ou votre [écran de démarrage](Splash_screen/fr.md) jusqu\'à une refonte complète du programme. Grace à l\'architecture flexible de FreeCAD, il est facile de l\'utiliser comme base pour votre propre programme spécifique.
 
+
+
 ## Attention
 
 Bien que FreeCAD vous soit proposé gratuitement, et que la communauté FreeCAD soit heureuse de voir émerger d\'autres applications basées sur FreeCAD, nous avons d\'autre part constaté une utilisation déloyale des informations contenues dans cette page par des personnes qui ont simplement rebaptisé FreeCAD en une application à code source fermé pour en tirer profit.
 
-Bien que la [licence LGPL](Licence/fr.md) permette d\'utiliser le code source de FreeCAD dans des applications à code fermé, elle donne également des règles strictes pour le faire, et ne permet pas de simplement prendre FreeCAD, de le renommer et de le dépouiller de sa licence.
+Bien que la [licence LGPL](License/fr.md) permette d\'utiliser le code source de FreeCAD dans des applications à code fermé, elle donne également des règles strictes pour le faire, et ne permet pas de simplement prendre FreeCAD, de le renommer et de le dépouiller de sa licence.
 
 Si vous souhaitez utiliser FreeCAD dans une application à code source fermé, assurez-vous de bien vérifier les implications de la licence LGPL et, mieux encore, contactez un développeur, un administrateur ou un modérateur de FreeCAD avant de le faire.
+
+
 
 ## Generalités
 

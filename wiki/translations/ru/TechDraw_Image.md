@@ -18,6 +18,11 @@
 
 The **TechDraw Image** tool inserts a [bitmap](Bitmap.md) image (PNG, TIFF, JPEG, etc.) from a file into the page as a view.
 
+
+<small>(v1.0)</small> 
+
+: The [TechDraw View](TechDraw_View.md) tool can also create an Image View.
+
 ![](images/TechDraw_Image_example.png ) 
 *Image inserted in the drawing page*
 
@@ -26,22 +31,22 @@ The **TechDraw Image** tool inserts a [bitmap](Bitmap.md) image (PNG, TIFF, JPEG
 ## Применение
 
 1.  If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](Tree_view.md).
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_Image.svg" width=16px> [Insert Bitmap Image](TechDraw_Image.md)** button.
-    -   Select the **TechDraw → TechDraw Views → <img src="images/TechDraw_Image.svg" width=16px> Insert Bitmap Image** option from the menu.
-3.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+2.  Select the **TechDraw → TechDraw Views → <img src="images/TechDraw_Image.svg" width=16px> Insert Bitmap Image** option from the menu.
+3.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens:
     1.  Select the desired page.
     2.  Press the **OK** button.
-4.  A file dialog opens.
-5.  Select a location and file name.
-6.  The image is inserted.
+4.  A file browser opens.
+5.  Select an image file.
+6.  An Image View is inserted.
 7.  Optionally change its **Scale** property to adjust its size.
 
 
 
 ## Свойства
 
-See also [TechDraw View](TechDraw_View#Properties.md).
+See also: [Property editor](Property_editor.md).
+
+An Image View, formally a {{Incode|TechDraw::DrawViewImage}} object, has the [properties](TechDraw_View#Properties_Part_View.md) that are common to all View types. It also has the following additional properties:
 
 ### Data
 
@@ -84,10 +89,16 @@ dvi.Width  = 200
 ```
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{TechDraw Tools navi
+
+
+</div>
+
+
+{{TechDraw_Tools_navi
 
 }}
 

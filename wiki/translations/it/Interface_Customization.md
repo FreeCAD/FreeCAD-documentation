@@ -3,11 +3,6 @@
 
 L\'interfaccia di FreeCAD è basata sul moderno toolkit [Qt](https://it.wikipedia.org/wiki/Qt_(toolkit)), e dispone di una organizzazione ottimale. Alcuni aspetti dell\'interfaccia possono essere personalizzati. Ad esempio, è possibile aggiungere barre degli strumenti personalizzate, con strumenti di diversi ambienti di lavoro o strumenti definiti nelle macro e creare le proprie scorciatoie da tastiera. Ma i menu e le barre degli strumenti predefinite fornite con FreeCAD e i suoi ambienti di lavoro non possono essere modificati.
 
-
-{{Version/it|0.21}}
-
-: La scheda degli Ambienti non è più disponibile. La sua funzionalità è stata spostata nella scheda [Ambienti Disponibili](Preferences_Editor/it#Ambienti_Disponibili.md) nella sezione Ambienti di lavoro dell\'[Editor delle preferenze](Preferences_Editor/it.md).
-
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *La finestra di dialogo Personalizza*
 
@@ -19,8 +14,8 @@ L\'interfaccia di FreeCAD è basata sul moderno toolkit [Qt](https://it.wikipedi
 2.  Esistono diversi modi per invocare il comando <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Personalizza](Std_DlgCustomize/it.md):
     -   Selezionare l\'opzione dal menu **Strumenti → <img src="images/Std_DlgCustomize.svg" width=16px> Personalizza...**.
     -   Cliccare col tasto destro sull\'area della barra strumenti e selezionare **<img src="images/Std_DlgCustomize.svg" width=16px> Personalizza...** dal menu contestuale.
-3.  Si apre la finestra di dialogo Personalizza. Per ulteriori informazioni, vedere [Opzioni](#Opzioni.md).
-4.  Il bottone **Aiuto** avvia il comando <img alt="" src=images/Std_WhatsThis.svg  style="width:16px;"> [Cos\'è questo](Std_WhatsThis/it.md)..
+3.  Si apre la finestra di dialogo **Personalizza**. Per ulteriori informazioni, vedere [Opzioni](#Opzioni.md).
+4.  Il bottone **Aiuto** non funziona in questo momento.
 5.  Premere il bottone **Chiudi** per chiudere la finestra di dialogo.
 
 
@@ -263,20 +258,7 @@ Puoi anche creare il tuo tema se non sei soddisfatto dei temi forniti con FreeCA
 
 ## Componenti aggiuntivi 
 
-I componenti aggiuntivi di <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) offrono un altro modo per personalizzare l\'interfaccia utente. Sono disponibili diversi [Preference Packs](Preference_Packs/it.md) per cambiare il [tema](#Temi.md).
-
-Nella categoria Ambienti di Lavoro dell\'Addon Manager si possono trovare alcuni addons dell\'utente triplus:
-
--   <https://github.com/triplus/CubeMenu> (per {{VersionMinus/it|0.20}})
--   <https://github.com/triplus/Glass>.
--   <https://github.com/triplus/IconThemes>
--   <https://github.com/triplus/Launcher>
--   <https://github.com/triplus/PieMenu>
--   <https://github.com/triplus/RemBench>
--   <https://github.com/triplus/ShortCuts>
-
-
-{{Top}}
+I componenti aggiuntivi di <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) offrono un altro modo per personalizzare l\'interfaccia utente. Sono disponibili diversi [Ambienti complementari](External_workbenches/it.md) e [Pacchetti di preferenze](Preference_Packs/it.md) dedicati. {{Top}}
 
 
 

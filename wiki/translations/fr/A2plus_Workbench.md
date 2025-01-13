@@ -168,7 +168,7 @@ Un assemblage peut contenir d\'autres assemblages. Ils sont ajoutés comme des 
 
 ## Traitement des contraintes 
 
-Les contraintes possibles pour une sélection sont affichées dans la barre d'outils et dans la boîte de dialogue \"Outils de contrainte\" en activant les boutons correspondants. La boîte de dialogue \"Outils de contrainte\" s'ouvre via le bouton de la barre d'outils <img alt="" src=images/A2p_DefineConstraints.svg  style="width:24px;">. Il est prévu de rester ouvert pour pouvoir ajouter rapidement plusieurs contraintes à l'assemblage.
+Les contraintes possibles pour une sélection sont affichées dans la barre d'outils et dans la fenêtre de dialogue \"Outils de contrainte\" en activant les boutons correspondants. La fenêtre de dialogue \"Outils de contrainte\" s'ouvre via le bouton de la barre d'outils <img alt="" src=images/A2p_DefineConstraints.svg  style="width:24px;">. Il est prévu de rester ouvert pour pouvoir ajouter rapidement plusieurs contraintes à l'assemblage.
 
 Les contraintes existantes peuvent être modifiées en les sélectionnant dans l\'arborescence du modèle, puis en double-cliquant dessus ou en utilisant le bouton de la barre d\'outils <img alt="" src=images/A2p_EditConstraint.svg  style="width:24px;">. Cela ouvre la boîte de dialogue \"Propriétés de contrainte\".
 
@@ -670,15 +670,15 @@ class AnimationDlg(QtGui.QWidget): # the animation dialog
     def CloseClicked(self):
         AnimationDialog.close()
 
-# créer et afficher la boîte de dialogue définie
+# créer et afficher la fenêtre de dialogue définie
 AnimationDialog = AnimationDlg()
 AnimationDialog.show()
 
-# exécuter cette boucle lorsque la boîte de dialogue est visible
+# exécuter cette boucle lorsque la fenêtre de dialogue est visible
 while AnimationDialog.isVisible():
-    # mettre à jour la vue; important de donner la rétroaction du système d'exploitation le dialogue est vivant
+    # mettre à jour la vue; important de donner la rétroaction du système d'exploitation la fenêtre de dialogue est vivant
     FreeCADGui.updateGui()
-    # amène la boîte de dialogue au premier plan, pour que la boîte de dialogue soit toujours visible
+    # amène la fenêtre de dialogue au premier plan, pour que la fenêtre de dialogue soit toujours visible
     QtGui.QWidget.raise_(AnimationDialog)
     # valeur de curseur de sortie ici aussi car pendant le calcul, le curseur a peut-être été déplacé
     AnimationDialog.CurrentAngle.setText(str(AnimationDialog.slider.value()))
@@ -690,7 +690,7 @@ while AnimationDialog.isVisible():
 
 </div>
 
-La boîte de dialogue définie dans le script ressemble à ceci :
+La fenêtre de dialogue définie dans le script ressemble à ceci :
 
 ![](images/A2p_AnimationDialog.png )
 

@@ -63,14 +63,10 @@ A Projection object is derived from a [Part Feature](Part_Feature.md) and inheri
 
 -    **Iso Line HCompound|Bool**: If `True`, hidden isoparameters are shown. Does not work currently.
 
-## Notes
-
-This tool was previously available in the Drawing Workbench.
 
 
 
-
- {{TechDraw Tools navi}}
+ {{TechDraw_Tools_navi}}
 
 
 

@@ -13,28 +13,34 @@
 
 ## Introduction
 
-Cette commande **<img src="images/Part_ShapeFromMesh.svg" width=16px> [Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md)** crée une forme à partir d\'un [objet maillé](Mesh/fr.md). Les objets maillés ont des capacités d\'édition limitées dans FreeCAD, les convertir en [shapes (formes)](Shape/fr.md) permettra leur utilisation avec de nombreux autres outils booléens et de modification.
+La commande <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:24px;"> **Part Forme à partir du maillage** crée des formes à partir d\'[objets Mesh](Mesh/fr.md). Les objets Mesh ont des capacités d\'édition limitées dans FreeCAD, les convertir en [formes](Shape/fr.md) permettra de les utiliser avec bien plus d\'outils booléens et de modifications.
 
-L\'opération inverse est **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh Tesselation](Mesh_FromPartShape/fr.md)** de l\'<img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [atelier Mesh](Mesh_Workbench/fr.md).
+L\'opération inverse est [Mesh Tesselation](Mesh_FromPartShape/fr.md) de l\'<img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [atelier Mesh](Mesh_Workbench/fr.md).
 
 
 
 ## Utilisation
 
-1.  Sélectionnez l\'objet mesh dans la [vue en arborescence](Tree_view/fr.md).
-2.  Allez dans le menu, **Part → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Créer une forme à partir d'un maillage...**.
-3.  Un menu contextuel demandera la tolérance pour la forme de la pièce. La valeur par défaut est {{Value|0.1}}.
-4.  Une [forme](Shape/fr.md) de l\'objet mesh est créée en tant que nouvel objet séparé.
+1.  L\'analyse et la réparation de l\'objet maillé, si nécessaire, doivent être effectuées avant de lancer cette commande. Les outils appropriés pour cette tâche sont disponibles dans l\'<img alt="" src=images/Workbench_Mesh.svg  style="width:16px;">[atelier Mesh](Mesh_Workbench/fr.md).
+2.  Sélectionnez un ou plusieurs objets Mesh.
+3.  Sélectionnez l\'option **Part → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Créer une forme à partir d'un maillage...** du menu.
+4.  La fenêtre de dialogue **Forme à partir du maillage** s\'ouvre.
+5.  Vous pouvez cocher la case **Recomposer la forme** et spécifiez une tolérance :
+    -   Cette option n\'est généralement pas nécessaire. Elle est destinée aux objets maillés qui ne sont pas étanches et présentent de petits espaces entre les arêtes.
+    -   Si l\'option est sélectionnée, un composé de coques, au lieu d\'un composé de faces, est créé.
+    -   L\'opération de recomposition peut être exigeante en termes de calcul.
+6.  Pressez sur le bouton **OK**.
+7.  Pour chaque objet sélectionné, une [forme](Shape/fr.md) est créée en tant que nouvel objet séparé.
+8.  Vous pouvez utiliser <img alt="" src=images/Part_RefineShape.svg  style="width:16px;"> [Part Affiner la forme](Part_RefineShape/fr.md) sur ces objets.
+9.  Vous pouvez transformer les objets finaux en solides avec <img alt="" src=images/Part_MakeSolid.svg  style="width:16px;"> [Part Convertir en solide](Part_MakeSolid/fr.md).
 
-L\'analyse et la réparation du maillage, si nécessaire, doivent être effectuées manuellement avant de lancer **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Créer une forme à partir d'un maillage... ](Part_ShapeFromMesh/fr.md)**. Les outils appropriés pour cette tâche sont disponibles dans l\'<img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [atelier Mesh](Mesh_Workbench/fr.md).
-
-Après la création d\'une [Shape](Shape/fr.md), il peut être utile d\'utiliser **[<img src=images/Part_MakeSolid.svg style="width:16px"> [Part Convertir en solide](Part_MakeSolid/fr.md)** (nécessaire pour les [Part Opérations booléennes](Part_Boolean/fr.md)) et **[<img src=images/Part_RefineShape.svg style="width:16px"> [Part Affiner la forme](Part_RefineShape/fr.md)**.
 
 
+## Propriétés
 
-## Liens
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
--   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) vidéo par AllVisuals4U.
+La commande Part Forme à partir du maillage crée des objets [Part Feature](Part_Feature/fr.md) sans propriétés supplémentaires.
 
 
 
@@ -49,19 +55,32 @@ Notez que le maillage doit être recalculé avant d\'être converti en Forme (Sh
 import FreeCAD as App
 import Part
 
-doc = App.newDocument()
+doc = App.ActiveDocument
 mesh = doc.addObject("Mesh::Cube", "Mesh")
 mesh.recompute()
 
-solid = doc.addObject("Part::Feature", "Shape")
 shape = Part.Shape()
 shape.makeShapeFromMesh(mesh.Mesh.Topology, 0.1)
 
-solid.Shape = shape
+solid = doc.addObject("Part::Feature", "Solid")
+solid.Shape = Part.Solid(shape.removeSplitter())
 solid.Placement.Base = App.Vector(15, 0, 0)
-solid.purgeTouched()
 doc.recompute()
 ```
+
+
+
+## Liens
+
+-   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) vidéo par AllVisuals4U.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

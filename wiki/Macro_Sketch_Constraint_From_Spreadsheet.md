@@ -4,8 +4,8 @@
 |Description=Macro which, with a simple click on a spreadsheet cell, adds a length constraint to a line, a circle, or between 2 points using a spreadsheet cell alias or address (ex. C2). Future changes to the spreadsheet will update the constraint. The macro can create alias for you.<br>Just select 1 line, 2 points or a constraint, click on a spreadsheet cell and run the macro. You can select lines, points at the ends of a line, points, circles or arcs of circles.<br>
 |Author=2cv001
 |Download=[https://wiki.freecad.org/images/d/dc/Macro_Sketch_Constraint_From_Spreadsheet.svg ToolBar icon]
-|Version=01.03
-|Date=2024-01-15
+|Version=01.04
+|Date=2024-11-25
 |FCVersion=All
 }}
 
@@ -108,6 +108,7 @@ The macro also works for Pads (property Length), Pockets (property Length), Fill
 Thanks to openBrain, mario52 and onekk for their help on the code!
 Thanks to Syres for tests and for the help on the format in the code.
 Thanks to Roy043 and David69 for the various reviews and improvements to the wiki.
+Thanks to L\'ami René for tests and ideas.
 
 ## Script
 
@@ -115,7 +116,7 @@ ToolBar Icon ![](images/Macro_Sketch_Constraint_From_Spreadsheet.svg )
 
 ### Code
 
- ver 01.03 15/01/2024 by 2cv001 **Macro_Sketch_Constraint_From_Spreadsheet.FCMacro** 
+ ver 01.04 2024/11/25 by 2cv001 **Macro_Sketch_Constraint_From_Spreadsheet.FCMacro** 
 
 #### Download
 

@@ -51,6 +51,10 @@ Kliknięcie małego sześcianu w prawym dolnym rogu Kostki nawigacji spowoduje w
 
 -   <img alt="" src=images/Std_ViewFitAll.svg  style="width:16px;"> **[Przybliż i dopasuj](Std_ViewFitAll/pl.md)**: powiększa i pochyla ujęcie widoku tak, aby wszystkie widoczne obiekty zmieściły się w aktualnym kadrze.
 
+-    **<img src="images/Std_ViewFitSelection.svg" width=16px> [Dopasuj do wyboru](Std_ViewFitSelection/pl.md)**: przybliża i przesuwa kamerę tak, zby wszystkie wskazane obiekty mieściły się w widoku. {{Version/pl|1.0}}
+
+-    **<img src="images/Std_AlignToSelection.svg" width=16px> [Wyrównaj do zaznaczenia](Std_AlignToSelection/pl.md)**: ustawia kamerę w widoku przeciwnym kierunku do kierunku normalnego płaskiej ściany lub w przeciwnym kierunku do prostej krawędzi. {{Version/pl|1.0}}
+
 -    **Ruchoma kostka nawigacyjna**: jeśli to pole wyboru ({{Version/pl|0.21}}) jest zaznaczone, cała kostka nawigacji może zostać przesunięta poprzez przytrzymanie lewego przycisku myszy w dowolnym miejscu na głównej kostce i przeciągnięcie. Ma to na celu tymczasowe przesunięcie kostki z drogi. [Parametry zaawansowane](#Parametry_zaawansowane.md) OffsetX i OffsetY mogą być użyte do trwałej zmiany położenia kostki, patrz poniżej.
 
 

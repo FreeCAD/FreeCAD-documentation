@@ -10,18 +10,34 @@
 
 # Part JoinEmbed/ru
 
+
+</div>
+
+
+
 ## Описание
+
+
+<div class="mw-translate-fuzzy">
 
 Данный инструмент встраивает полый объект (например трубу) в другой полый объект.
 
+
+</div>
+
 ![600px](images/JoinFeatures_Embed.png)
+
+
 
 ## Применение
 
-1.  Select the base object first, then the object to be embedded. The order of selection is important. It is enough to select one sub-shape of each object (e.g., faces).
-2.  Invoke the Part JoinEmbed command.
+1.  Select the base object first, then the object to be embedded. The order of selection is important. It is enough to select one sub-shape of each object (e.g. faces).
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Part_JoinEmbed.svg" width=16px> [Embed object](Part_JoinEmbed.md)** button.
+    -   Select the **Part → Join → <img src="images/Part_JoinEmbed.svg" width=16px> Embed object** option from the menu.
+3.  A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objects are hidden, and the result of embedding is shown in the [3D view](3D_view.md).
 
-A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objects are hidden, and the result of embedding is shown in 3D view.
+
 
 ## Свойства
 
@@ -36,6 +52,8 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
 
 -    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences. When Mode property is \'bypass\', Refine is ignored (never applied).
 
+
+
 ## Пример
 
 1.  Create a pipe by applying [thickness](Part_Thickness.md) to a [cylinder](Part_Cylinder.md):
@@ -46,6 +64,8 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
     ![320px](images/JoinFeatures_Example_step3_Embed.png)
 4.  Use some cross-section tool ([Clipping plane](Std_ToggleClipPlane.md), [Arch Section Plane](Arch_SectionPlane.md), [Arch Cut Plane](Arch_CutPlane.md)) to reveal internals. On the picture below, Arch Section Plane is used.
     ![320px](images/JoinFeatures_Example_step4_Embed.png)
+
+
 
 ## Алгоритм
 
@@ -60,11 +80,15 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
 4\. If Refine property is true, the resulting shape is [refined](Part_RefineShape.md).
 ![800px](images/JoinFeatures-Algo-Embed.png)
 
+
+
 ### Примечания
 
 -   If after step 1, the object remains in one piece, the result of Embed will be equivalent to [union](Part_Fuse.md) of Base and Tool, but taking longer to compute.
 -   Now, the tool will produce unexpected result, if a compound is supplied as Base. This may be changed in the future.
 -   Because the largest piece is determined by comparing volumes of pieces, the tool can only work with solids. This may be changed in the future.
+
+
 
 ## Программирование
 

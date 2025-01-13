@@ -302,20 +302,20 @@ p1 = App.Vector(-200, 1000, 0)
 place1 = App.Placement(App.Vector(-1000, 1300, 0), App.Rotation())
 
 label1 = Draft.make_label(p1, place1, target_object=rectangle, distance=500, label_type="Label")
-label1.ViewObject.TextSize = 200
+label1.ViewObject.FontSize= 200
 
 p2 = App.Vector(-200, 0, 0)
 place2 = App.Placement(App.Vector(-1000, -300, 0), App.Rotation())
 
 label2 = Draft.make_label(p2, place2, target_object=rectangle, distance=500, label_type="Custom",
                           custom_text="Beware of the sharp edges")
-label2.ViewObject.TextSize = 200
+label2.ViewObject.FontSize= 200
 
 p3 = App.Vector(1000, 1200, 0)
 place3 = App.Placement(App.Vector(2000, 1800, 0), App.Rotation())
 
 label3 = Draft.make_label(p3, place3, target_object=rectangle, distance=-500, label_type="Area")
-label3.ViewObject.TextSize = 200
+label3.ViewObject.FontSize= 200
 
 doc.recompute()
 ```

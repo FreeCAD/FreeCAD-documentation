@@ -10,9 +10,13 @@
 
 # Std ViewZoomOut/pl
 
+
+
 ## Opis
 
 Polecenie **Oddal** powoduje powiększenie aktywnego widoku w oknie [widoku 3D](3D_view/pl.md).
+
+
 
 ## Użycie
 
@@ -20,35 +24,29 @@ Polecenie **Oddal** powoduje powiększenie aktywnego widoku w oknie [widoku 3D](
     -   Wybierz z menu opcję **Widok → Powiększenie → <img src="images/Std_ViewZoomOut.svg" width=16px> Oddal**.
     -   Użyj skrótu klawiaturowego: **Ctrl** + **-**.
 
+
+
 ## Uwagi
 
--   Istnieje również możliwość powiększania /pomniejszenia obrazu za pomocą kółka przewijania myszy.
+Zobacz [Std: Przybliż widok](Std_ViewZoomIn/pl#Uwagi.md).
+
+
 
 ## Ustawienia
 
--   Współczynnik powiększenia można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Nawigacja → Krok powiększenia**. To ustawienie ma również wpływ na powiększanie za pomocą kółka przewijania. Zobacz informacje na stronie [Edytor ustawień](Preferences_Editor/pl#Nawigacja.md).
+Zobacz [Std: Przybliż widok](Std_ViewZoomIn/pl#Preferencje.md).
+
+
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby pomniejszyć obraz, użyj metody `zoomOut` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.zoomOut()
-```
+Zobacz [Std: Przybliż widok](Std_ViewZoomIn/pl#Tworzenie_skryptów.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

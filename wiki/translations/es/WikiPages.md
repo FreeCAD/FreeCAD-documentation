@@ -5,19 +5,13 @@ Esta página es una extensión de la página [Ayuda:Edición](Help_Editing.md) y
 
 ## Antes de empezar 
 
-
-<div class="mw-translate-fuzzy">
-
 -   Esta documentación wiki está basada en [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki), el mismo software que utiliza [Wikipedia](https://es.wikipedia.org/wiki/Main_Page). Si has contribuido a la Wikipedia, editar las páginas del wiki de FreeCAD debería ser fácil.
 -   A diferencia de Wikipedia, el wiki de FreeCAD está protegido contra la escritura para evitar el spam. Debes solicitar una cuenta [en el foro](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830).
 -   Si nunca has usado el software wiki antes, por favor lee [Ayuda:Edición](Help_Editing.md) para familiarizarte con el marcado que se usa.
 -   Para el uso avanzado del software wiki, vea [Ayuda de MediaWiki:Contenido](https://www.mediawiki.org/wiki/Help:Contents). No todas las características de MediaWiki están disponibles en este wiki de FreeCAD, pero muchas sí.
 -   Nos gusta mantener la documentación fácil de leer, así que evita usar características complejas. Mantén la sencillez.
--   Usa un sandbox para probar tu código, por ejemplo, [FreeCADDocu:Sandbox](FreeCADDocu_Sandbox.md) o una página particular con tu nombre [Sandbox:Yourname](Sandbox_Yourname.md).
--   Por favor, ten en cuenta las traducciones. El wiki de FreeCAD utiliza soporte de traducción automática para proporcionar páginas en muchos idiomas. Para cada página pueden existir múltiples versiones lingüísticas. En muchas páginas verás etiquetas como <translate>...</translate> y muchas etiquetas simples como . Estas últimas son creadas por el sistema de traducción. Vinculan los títulos y los párrafos a sus versiones traducidas. No debería cambiarlos, ya que eso destruiría esos enlaces. Sin embargo, puede mover los párrafos o cambiar la redacción siempre que las etiquetas permanezcan con ellos. Si elimina un epígrafe o un párrafo, debe eliminar también la etiqueta que le corresponde. Tenga en cuenta que los cambios en los títulos y párrafos existentes afectan a las traducciones actuales. Sus cambios deben valer la pena. No se preocupe cuando añada nuevo material porque el sistema añadirá nuevas etiquetas automáticamente después de sus ediciones. Para más información, consulte [Localización](Localisation/es.md) y la página original [Mediawiki:Extensión:Traducir](https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example).
-
-
-</div>
+-   Usa un sandbox para probar tu código, por ejemplo, [FreeCADDocu:Sandbox](FreeCADDocu_Sandbox.md) o una página particular con tu nombre [Sandbox:Yourname](Sandbox_Yourname.md). Las páginas Sandbox deben de ser colocads en la categoría Sandbox. Esto se logra al agregar [[Category:Sandbox]] al final del código de la wiki.
+-   Por favor, ten en cuenta las traducciones. El wiki de FreeCAD utiliza soporte de traducción automática para proporcionar páginas en muchos idiomas. Para cada página pueden existir múltiples versiones lingüísticas. En muchas páginas verás etiquetas como <translate>...</translate> y muchas etiquetas simples como . Estas últimas son llamadas unidades de traducción y son creadas por el sistema de traducción, no debería de crearlas manualmente. Vinculan los títulos y los párrafos a sus versiones traducidas. No debería cambiarlos, ya que eso destruiría esos enlaces. Sin embargo, puede mover los párrafos o cambiar la redacción siempre que las etiquetas permanezcan con ellos. Si elimina un epígrafe o un párrafo, debe eliminar también la etiqueta que le corresponde. Tenga en cuenta que los cambios en los títulos y párrafos existentes afectan a las traducciones actuales. Sus cambios deben valer la pena. No se preocupe cuando añada nuevo material porque el sistema añadirá nuevas etiquetas automáticamente después de sus ediciones. Para más información, consulte [Localización](Localisation/es.md) y la página original [Mediawiki:Extensión:Traducir](https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example).
 
 
 
@@ -59,13 +53,7 @@ Las plantillas se utilizan para dar estilo a las páginas de ayuda. Proporcionan
 
 Si está trabajando en una página grande, es aconsejable marcar la página como trabajo en curso o como inacabada. Esto asegura que los administradores del wiki no marquen su página como lista para ser traducida mientras usted todavía la está cambiando.
 
-
-<div class="mw-translate-fuzzy">
-
 Para marcar una página, añada  o  como primera línea. Con  invitas a otros a unirse a ti para terminar la página, mientras que  indica que tú mismo harás el trabajo y que los demás deben darte algo de tiempo.
-
-
-</div>
 
 Una vez terminado el trabajo, no olvides retirar las banderas.
 
@@ -87,45 +75,23 @@ Para familiarizarse rápidamente con la estructura y el estilo del wiki de FreeC
 
 El [El centro de usuarios](User_hub/es.md) proporciona un [Índice de contenidos](Online_Help_Toc/es.md). Esto se utiliza como referencia principal para construir automáticamente la ayuda offline que puedes alcanzar desde FreeCAD, así como la documentación offline en PDF.
 
-
-<div class="mw-translate-fuzzy">
-
-La [Template:Docnav](Template_Docnav.md) se utiliza para enlazar secuencialmente las páginas, siguiendo la estructura del [Índice de contenidos](Online_Help_Toc/es.md). Ver [#Plantillas](#Plantillas.md) para una lista de todas las plantillas.
-
-
-</div>
+La [Plantilla:Docnav](Template:Docnav/es.md) se utiliza para enlazar secuencialmente las páginas, siguiendo a la estructura del [Índice de contenidos](Online_Help_Toc/es.md). Ver [#Plantillas](#Plantillas.md) para una lista de todas las plantillas.
 
 
 
 ### Nombres de páginas 
 
+Los nombres de las páginas deben ser cortos, y deben capitalización de título: todas las palabras deben comenzar con letra mayúscula a menos que sean artículos, preposiciones, conjunciones u otras partículas gramaticales (f.e. \'of\', \'on\', \'in\', \'a\', \'an\', \'and\').
 
-<div class="mw-translate-fuzzy">
-
-Los nombres de las páginas deben ser cortos, y deben utilizar las mayúsculas y minúsculas: todas las palabras, excepto la primera y los nombres propios, deben ir en minúsculas. Este es el estilo [utilizado por Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Capital_letters#Headings,_headers,_and_captions) para sus artículos.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-Malo Nombre de página:
-:   Construction Of AeroCompany Airplanes
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-Buen nombre de página:
+Mal Nombre de página:
 :   Construction of AeroCompany airplanes
 
 
-</div>
+
+
+
+Buen nombre de página:
+:   Construction of AeroCompany Airplanes
 
 Los nombres de las páginas de los ambientes de trabajo de nivel superior deben tener este formato XYZ Workbench, donde XYZ es el nombre del ambiente de trabajo, por ejemplo [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md). Y los nombres de las páginas que describen los comandos (o herramientas) pertenecientes a un banco de trabajo deben tener este formato XYZ Command, por ejemplo [DiseñoPieza Alcolchado](PartDesign_Pad/es.md). Ten en cuenta que debes utilizar el nombre del comando tal y como aparece en el código fuente.
 
@@ -133,47 +99,47 @@ Los nombres de las páginas de los ambientes de trabajo de nivel superior deben 
 
 ### Rúbricas
 
-Paragraph headings should be short and use sentence case: all words except the first one and proper names, should be in lowercase. You should not use H1 headings (= Heading =) in your wiki markup since the page title is automatically added as the main H1 heading.
+Los títulos de los párrafos deben ser cortos y usar mayúsculas y minúsculas: todas las palabras, excepto la primera y los nombres propios, deben estar en minúsculas. No debe utilizar encabezados H1 (= Heading =) en el marcado de su wiki desde el título de la página ya que se agrega automáticamente como el encabezado principal H1.
 
 
 
 ### Enlaces
 
-You should use the original link name for links whenever possible. This clarifies the referenced page in printed or offline documentation. Please avoid non-meaningful words for the link.
+Debe utilizar el nombre del enlace original para los enlaces siempre que sea posible. Esto aclara la página a la que se hace referencia en la documentación impresa o fuera de línea. Evite palabras sin significado para el enlace.
 
-Bad link
+Mal enlace
 :   For more information on drafting 2D objects click [here](Draft_Workbench.md).
 
 
 
 
 
-Good link
+Buen enlace
 :   For more information on drafting 2D objects refer to the [Draft Workbench](Draft_Workbench.md).
 
-The preferred format for a link is:
+El formato preferido para un enlace es:
 
 [Name of Page](Name_of_Page.md)
 
 Traducido:
 
-[Nom de la Page](Name_of_Page/fr.md)
+[Nombre de la Página](Name_of_Page/es.md)
 
-Note that for the part before the | character, the actual link, case is relevant. If your page name is Name_of_page the link will fail if you type Name_of_Page (upper case P). Before the | character all spaces should be replaced by underscores (_). This is to assist translators using translation software, without the underscores the link would be translated by the software which is undesirable.
+Tenga en cuenta que para la parte anterior al carácter |, el enlace real, mayúsculas y minúsculas, es relevante. Si el nombre de su página es Name_of_page, el enlace fallará si escribe Name_of_Page (P mayúscula). Antes del carácter |, todos los espacios deben reemplazarse por guiones bajos (_). Esto es para ayudar a los traductores que utilizan software de traducción; sin los guiones bajos, el software traduciría el enlace, lo cual no es deseable.
 
-To link to a certain paragraph add a # sign and its headings to the page name. Example:
+Para vincular a un determinado párrafo, agregue un signo # y sus encabezados al nombre de la página. Ejemplo:
 
 [WikiPages](WikiPages#Links.md)
 
 Traducido:
 
-[WikiPages](WikiPages/fr#Liens.md)
+[WikiPages](WikiPages/es#Enlaces.md)
 
-Within the same page you can omit the page name. Example:
+Dentro de la misma página puede omitir el nombre de la página. Ejemplo:
 
 [Links](#Links.md)
 
-To link to the top of the page you can use:
+Para vincular a la parte superior de la página puede utilizar:
 
 </translate>{{Top}}<translate>
 
@@ -232,16 +198,7 @@ For examples visit the [Tutorials](Tutorials.md) page.
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Platillas
-
-
-<div class="mw-collapsible-content">
-
-
-</div>
+## Plantillas
 
 
 <div class="mw-collapsible-content">
@@ -361,7 +318,7 @@ These templates accept a simple text parameter, and format it with a particular 
 |                                                                                                               | {{ColoredText|Colored Text}}           |                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                |
 ++++
-| [ColoredParagraph](Template_ColoredParagraph.md)                                                      |                         | Use this template to color the background, text, or background and text of an entire paragraph. [ColoredParagraph](Template_ColoredParagraph.md) page for more examples)                                                                                                               |
+| [ColoredParagraph](Template_ColoredParagraph.md)                                                      |                         | Use this template to color the background, text, or background and text of an entire paragraph. ([ColoredParagraph](Template_ColoredParagraph.md) page for more examples)                                                                                                              |
 |                                                                                                               | {{ColoredParagraph|Colored Paragraph}} |                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                |
 ++++
@@ -413,7 +370,7 @@ These templates require more input parameters, or produce a block of text with a
 ++++
 | [Macro](Template_Macro.md)                                                               | See for example [Macro FlattenWire](Macro_FlattenWire.md)                                                            | Use it to create a box with useful information to document [macros](macros.md).                                                                                                                                                                                                                                    |
 ++++
-| [Docnav](Template_Docnav.md)                                                             |                                                                                                               | Use it to create a bar with the words \'next\', \'previous\', and \'index\', and the appropriate links, which is useful for putting pages in a particular sequence.                                                                                                                                                        |
+| [Docnav](Template_Docnav.md)                                                             |                                                                                                               | Use it to create a bar with arrows and appropriate links, which is useful for putting pages in a particular sequence.                                                                                                                                                                                                      |
 |                                                                                                  |                                                                                 |                                                                                                                                                                                                                                                                                                                            |
 |                                                                                                  |                                                                                                                           |                                                                                                                                                                                                                                                                                                                            |
 ++++
@@ -449,16 +406,7 @@ These templates require more input parameters, or produce a block of text with a
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ## Gráficos
-
-
-<div class="mw-collapsible-content">
-
-
-</div>
 
 
 <div class="mw-collapsible-content">
@@ -514,18 +462,7 @@ Refer to the [Artwork](Artwork.md) page for all artwork and icons that have been
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ## Traducciones
-
-
-<div class="mw-collapsible-content">
-
-Según el consenso general, la página de referencia en la wiki es la página inglesa, que debería crearse primero. Si quieres cambiar o añadir contenido a una página, debes hacerlo primero en la página inglesa, y sólo una vez completada la actualización, portar la modificación a la página traducida.
-
-
-</div>
 
 
 <div class="mw-collapsible-content">
@@ -583,11 +520,11 @@ Translated:
 
 ### Traducir enlace 
 
-    [Part Module](Part_Module.md)
+    [Part Workbench](Part_Workbench.md)
 
 Translated:
 
-    [Atelier Part](Part_Module/fr.md)
+    [Atelier Part](Part_Workbench/fr.md)
 
 
 
@@ -615,13 +552,7 @@ Translated:
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Renombrar y borrar 
-
-
-</div>
+## Crear, renombrar y borrar páginas 
 
 ### Create pages 
 

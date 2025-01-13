@@ -16,4 +16,4 @@ FreeCAD kann über den Arbeitsbereich [Image](Image_Workbench/de.md) Bitmap-Bild
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [TechDraw](Category_TechDraw.md) > [Image](Category_Image.md) > Bitmap/de
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [TechDraw](Category_TechDraw.md) > [File_Formats](Category_File_Formats.md) > Bitmap/de

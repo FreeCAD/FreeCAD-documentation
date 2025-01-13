@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Point
    Name/de: Draft Punkt
-   MenuLocation: Zeichnen , Punkt
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Zeichnen , Punkt<br>2D-Entwurf , Punkt
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Version: 0.7
 ---
 
@@ -25,7 +25,8 @@ Siehe auch: [Draft-Ablage](Draft_Tray/de.md), [Draft-Einrasten](Draft_Snap/de.md
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
 2.  Die Schaltfläche **<img src="images/Draft_Point.svg" width=16px> [Punkt](Draft_Point/de.md)** drücken.
-    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_Point.svg" width=16px> Punkt** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Zeichnen → <img src="images/Draft_Point.svg" width=16px> Punkt** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **2D-Entwurf → <img src="images/Draft_Point.svg" width=16px> Punkt** auswählen.
     -   Der Aufgaben-Bereich **Punkt** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 3.  Einen Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
 
@@ -33,11 +34,11 @@ Siehe auch: [Draft-Ablage](Draft_Tray/de.md), [Draft-Einrasten](Draft_Snap/de.md
 
 ## Optionen
 
-Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 1.0).
 
 -   Zum manuellen Eingeben von Koordinaten, werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam, den Mauszeiger aus der [3D-Ansicht](3D_view/de.md) heraus zu bewegen, bevor Koordinaten eingegeben werden.
 
--    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md).
 
 -    **N**drücken oder die Checkbox **Fortsetzen** aktivieren, um den Fortsetzen-Modus umzuschalten. Ist der Fortsetzen-Modus aktiviert, wird der Befehl nach dem Beenden erneut gestartet und ermöglicht so mit dem Erstellen von Punkten fortzufahren.
 
@@ -49,7 +50,7 @@ Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geänd
 
 ## Hinweise
 
--   <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft EinrastenInDerNähe](Draft_Snap_Near/de.md) verwenden ({{VersionMinus/de|0.20}}) oder <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Draft EinrastenAufEndpunkt](Draft_Snap_Endpoint.md) ({{VersionPlus/de|0.21}}), um an Draft-Punkten einzurasten.
+-   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Draft EinrastenAufEndpunkt](Draft_Snap_Endpoint.md) wird verwendet, um an Draft-Punkten einzurasten.
 
 
 
@@ -87,7 +88,7 @@ Ein Draft-Punkt-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abg
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um einen Draft-Punkt zu erstellen, wird die Methode `make_point` ({{Version/de|0.19}}) des Draft-Moduls verwendet. Diese Methode ersetzt die veraltete Methode `makePoint`.
 

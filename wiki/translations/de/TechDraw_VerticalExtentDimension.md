@@ -25,7 +25,7 @@ Für weitere Informationen siehe [TechDraw MaßHorizontaleAusdehnung](TechDraw_H
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

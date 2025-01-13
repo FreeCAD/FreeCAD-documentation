@@ -1,10 +1,9 @@
 ---
  GuiCommand:
    Name: Arch Panel Sheet
-   Name/de: Arch Plattenzeichnung
-   Workbenches: Arch_Workbench/de
-   MenuLocation: Arch , Plattenwerkzeuge , Tafel
-   Shortcut: **P** **S**
+   Name/de: Arch Panel Plattenzeichnung
+   MenuLocation: Utils , Plattenwerkzeuge , Plattenzeichnung
+   Workbenches: BIM_Workbench/de
    Version: 0.17
    SeeAlso: Arch_Panel/de, Arch_Panel_Cut/de, Arch_Nest/de
 ---
@@ -17,9 +16,9 @@
 
 Dieses Werkzeug ermöglicht eine 2D-Zeichnung zu erstellen, einschließlich einer beliebigen Anzahl von [Arch Plattenzuschnitt](Arch_Panel_Cut/de.md) Objekten oder anderen 2D-Objekten, wie z.B. diejenigen, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) und [Sketcher](Sketcher_Workbench/de.md) erstellt wurden. Die Plattenzeichnung wird in der Regel für die Anordnung von Plattenzuschnitten (Beschnittkonturen) erstellt, die von einer CNC-Maschine ausgeschnitten werden sollen. Diese Zeichnungsblatter können dann in eine [DXF](Draft_DXF/de.md)-Datei exportiert werden.
 
-<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:600px;">
 
-<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:600px;">
 
 *Das obige Bild zeigt, wie Plattenzeichnungen beim Export nach DXF erscheinen.*
 
@@ -28,7 +27,7 @@ Dieses Werkzeug ermöglicht eine 2D-Zeichnung zu erstellen, einschließlich eine
 ## Anwendung
 
 1.  Wahlweise ein oder mehrere [Arch Plattenzuschnitt](Arch_Panel_Cut/de.md)-Objekte auswählen oder jedes andere 2D-Objekt, das auf der XY-Ebene liegt.
-2.  Die Schaltfläche **<img src="images/Arch_Panel_Sheet.svg" width=16px> [Arch Tafel](Arch_Panel_Sheet/de.md)** drücken oder das Tastaturkürzel **P**, dann **S**.
+2.  Den Menüeintrag **Utils → Plattenwerkzeuge → <img src="images/Arch_Panel_Sheet.svg" width=16px> Plattenzeichnung** auswählen.
 3.  Die gewünschten Eigenschaften anpassen.
 
 
@@ -135,5 +134,13 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/de
+⏵ [documentation index](../README.md) > Arch Panel Sheet/de

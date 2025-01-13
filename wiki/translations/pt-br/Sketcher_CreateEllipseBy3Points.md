@@ -5,36 +5,28 @@
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **3** **E**
    Version: 0.15
-   SeeAlso: Sketcher_CreateEllipseByCenter, Sketcher_CreateCircle, Sketcher_CreateArcOfEllipse
+   SeeAlso: Sketcher_CreateEllipseByCenter
 ---
 
 # Sketcher CreateEllipseBy3Points/pt-br
 
 ## Description
 
-This tool draws an ellipse by picking three points : (1) the periapsis (first crossing of longer diameter with ellipse), (2) the apoapsis (second crossing of longer diameter with ellipse), (3) one point on a side of the longer diameter (a) defining the minor radius (b). (c) is the resulting center and (f) are the focal points.
-
-When starting the tool, the mouse pointer changes to a white cross with a red ellipse icon.
-
-![](images/Ellipse_3Point.png‎ ) 
-*The sequence of clicks is indicated by yellow arrows with numbers.<br>
-1 is the periapsis, 2 is the apoapsis, 3 is the defining point for the minor diameter.<br>
-The green lines are the major and minor diameters.<br>
-The blue lines are construction lines for illustration purposes.*
+The <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:24px;"> [Sketcher CreateEllipseBy3Points](Sketcher_CreateEllipseBy3Points.md) tool creates an ellipse by the endpoints of one of its axes and a point along the ellipse. <small>(v1.0)</small> : This is the same tool as [Sketcher CreateEllipseByCenter](Sketcher_CreateEllipseByCenter.md) but with a different initial mode.
 
 ## Usage
 
--   Press the **[<img src=images/Sketcher_CreateEllipseBy3Points.svg style="width:16px"> [Create ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md)** button.
--   First click in 3D view sets a point that defines the crossing of the major diameter with the ellipse (periapsis). Second click in 3D view sets a point that defines the crossing of the major diameter with the ellipse opposite to the center point (apoapsis). Third click sets a point on the ellipsis defining the minor radius.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
--   After the third click, the ellipse is created, together with a set of construction geometry aligned to it (major diameter, minor diameter, two foci). The construction geometry can be manually deleted if not needed, and recreated later. See [Sketcher Show Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md).
--   Pressing **ESC** or clicking the right mouse button cancels the function.
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_CreateEllipseBy3Points.svg" width=16px> [Ellipse by axis endpoints, rim point](Sketcher_CreateEllipseBy3Points.md)** button.
+    -   Select the **Sketcher → Sketcher geometries → <img src="images/Sketcher_CreateEllipseBy3Points.svg" width=16px> Create ellipse by 3 points** option from the menu.
+    -   Use the keyboard shortcut: **G** then **3**, then **E**.
+2.  For further steps see [Sketcher CreateEllipseByCenter](Sketcher_CreateEllipseByCenter#Usage.md).
 
-## Peculiarities
+## Notes
 
--   Major and minor axes of ellipses are strict and cannot be swapped by resizing the ellipse. This is a consequence of the solver parametrization used (center (x,y), focus1 (x,y) and minor radius length (b)) and the same strict behavior of OpenCascade. The ellipse must be rotated to swap the axes.
--   Ellipse can function as a circle when its major and minor diameter lines are deleted, and one of the foci is constrained to coincide with the center. But radius constraint won\'t work on such a circle.
--   Moving the ellipse by edge is the same as moving ellipse\'s center.
+See [Sketcher CreateEllipseByCenter](Sketcher_CreateEllipseByCenter#Notes.md).
 
 
 

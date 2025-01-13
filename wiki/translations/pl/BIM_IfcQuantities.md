@@ -1,11 +1,10 @@
 ---
- GuiCommand:Addon/pl
+ GuiCommand:
    Name: BIM IfcQuantities
    Name/pl: BIM: Menadżer ilości IFC
-   Workbenches: Image:IFC.svg BIM Workbench/pl
-   Addon: BIM
-   MenuLocation: Zarządzaj , Menadżer ilości IFC
-   SeeAlso: BIM IfcElements/pl, BIM IfcProperties/pl
+   MenuLocation: Zarządzanie , Menadżer ilości IFC
+   Workbenches: BIM Workbench/pl
+   SeeAlso: 
 ---
 
 # BIM IfcQuantities/pl
@@ -14,9 +13,10 @@
 
 ## Opis
 
-<img alt="" src=images/BIM_ifcquantities_screenshot.png  style="width:1024px;">
+**Menedżer ilości IFC** umożliwia sprawdzenie \"jawnych ilości\" dołączonych do obiektów, które mają zostać wyeksportowane do IFC.
 
-Menedżer ilości IFC umożliwia sprawdzenie \"jawnych ilości\" dołączonych do obiektów, które mają zostać wyeksportowane do IFC.
+<img alt="" src=images/BIM_ifcquantities_screenshot.png  style="width:600px;"> 
+*Menadżer ilości IFC.*
 
 Format IFC pozwala na uwzględnienie, dla dowolnego obiektu, jawnych wielkości, które mogą być takie jak \"Szerokość\", \"Wysokość\" lub \"Powierzchnia\". Nie ma standardu określającego, który typ obiektu musi zawierać dany rodzaj wielkości, a także nie ma gwarancji, że takie jawne wielkości faktycznie odzwierciedlają geometrię obiektu. Innymi słowy, wielkości te mogą mieć błędne wartości lub nawet kłamać. Ściana może mieć geometrię sześcianu o długości 10 metrów, ale może mieć dołączoną wartość \"Długość\" równą 8 metrów.
 
@@ -28,5 +28,13 @@ Można również użyć menedżera ilości, aby zmienić lub naprawić rzeczywis
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > BIM IfcQuantities/pl
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcQuantities/pl

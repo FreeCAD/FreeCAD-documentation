@@ -123,22 +123,11 @@ To create a blank with the [PartDesign Workbench](PartDesign_Workbench.md):
 
 See also: [Property editor](Property_editor.md).
 
-A SheetMetal Bend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+A SheetMetal Bend object is derived from a [Part Feature](Part_Feature.md) object or, if it is inside a [PartDesign Body](PartDesign_Body.md), from a [PartDesign Feature](PartDesign_Feature.md) object, and inherits all its properties. It also has the following additional properties:
 
 
 
 ### Dati
-
-
-{{Properties_Title|Base}}
-
-
-<div class="mw-translate-fuzzy">
-
--    **Label**: Nome assegnato dall\'utente all\'oggetto nella [vista ad albero](Tree_view/it.md).
-
-
-</div>
 
 
 {{Properties_Title|Parameters}}
@@ -184,19 +173,13 @@ A SheetMetal Bend object is derived from a [Part Feature](Part_Feature.md) objec
 
 -    **Auto Miter|Bool**: \"Enable Auto Miter\". Default: `True`.
 
--    **extend1|Distance**: \"Extend from Left Side\". Default: {{value|0,00 mm}}.
-
--    **extend2|Distance**: \"Extend from Right Side\". Default: {{value|0,00 mm}}.
-
 -    **kfactor|FloatConstraint**: \"Location of Neutral Line. Caution: Using ANSI standards, not DIN.\".  Default: {{value|0,50}}. K factor (also known as neutral factor) for the bend. Used to calculate bend allowance when unfolding.
 
 -    **max Extend Dist|Length**: \"Auto Miter maximum Extend Distance\". Default: {{value|5,00 mm}}.
 
--    **min Gap|Length**: \"Auto Miter Minimum Gap\". Default: {{value|5,00 mm}}.
+-    **min Gap|Length**: \"Auto Miter Minimum Gap\". Default: {{value|0,20 mm}}.
 
--    **miterangle1|Angle**: \"Bend Miter Angle from Left Side\". Default angle: {{value|0,00°}}.
-
--    **miterangle2|Angle**: \"Bend Miter Angle from Right Side\". Default angle: {{value|0,00°}}.
+-    **min Relief Gap|Length**: \"Minimum Gap to Relief Cut\". Default: {{value|1,00 mm}}.
 
 -    **offset|Distance**: \"Offset Bend\". Default: {{value|0,00 mm}}.
 
@@ -214,9 +197,29 @@ A SheetMetal Bend object is derived from a [Part Feature](Part_Feature.md) objec
 
 {{Properties_Title|Parameters Ex3}}
 
--    **Length List|FloatList**: \"Length of Wall List\". Default: {{value|[10,00]}}.
+-    **Length List|FloatList**: \"Length of Wall List\". Default: {{value|[10.00]}}.
 
--    **bend AList|FloatList**: \"Bend Angle List\". Default: {{value|[90,00]}}.
+-    **bend AList|FloatList**: \"Bend Angle List\". Default: {{value|[90.00]}}.
+
+
+{{Properties_Title|Parameters Miterangle}}
+
+-    **miterangle1|Angle**: \"Bend Miter Angle from Left Side\". Default angle: {{value|0,00°}}.
+
+-    **miterangle2|Angle**: \"Bend Miter Angle from Right Side\". Default angle: {{value|0,00°}}.
+
+
+{{Properties_Title|Parameters Perforation}}
+
+-    **Nonperforation Max Length|Length**: \"Non-Perforation Max Length\". Default: {{value|5 mm}}.
+
+-    **Perforate|Bool**: \"Enable perforation\". Default: `False`.
+
+-    **Perforation Angle|Angle**: \"Perforation Angle\". Default: {{value|0 °}}.
+
+-    **Perforation initial Length|Length**: \"Initial Perforation Length\". Default: {{value|5 mm}}.
+
+-    **Perforation Max Length|Length**: \"Perforation Max Length\". Default: {{value|5 mm}}.
 
 
 {{Properties_Title|Parameters Relief}}
@@ -224,8 +227,6 @@ A SheetMetal Bend object is derived from a [Part Feature](Part_Feature.md) objec
 -    **Relief Factor|Float**: \"Relief Factor\". Default: {{value|0,70}}.
 
 -    **Use Relief Factor|Bool**: \"Use Relief Factor\". Default: `False`.
-
--    **min Relief Gap|Length**: \"Minimum Gap to Relief Cut\". Default: {{value|1,00 mm}}.
 
 -    **relief Type|Enumeration**: \"Relief Type\". {{value|Rectangle}} (default), {{value|Round}}. Enabled only when a gap value is set.
 

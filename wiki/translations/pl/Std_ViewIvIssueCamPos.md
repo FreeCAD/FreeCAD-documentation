@@ -9,6 +9,8 @@
 
 # Std ViewIvIssueCamPos/pl
 
+
+
 ## Opis
 
 Polecenie **Std ViewIvIssueCamPos** wyświetla ustawienia ujęcia aktywnego [widoku 3D](3D_view/pl.md) w oknie [Widoku raportu](Report_view/pl.md) i [konsoli Python](Python_console/pl.md).
@@ -21,35 +23,39 @@ Polecenie **Std ViewIvIssueCamPos** wyświetla ustawienia ujęcia aktywnego [wid
 
 *Przykładowe wyświetlone dane: ustawienia ujęcia widoku po zmianie widoku na [izometryczny](Std_ViewIsometric/pl.md) w nowym dokumencie*
 
+
+
 ## Użycie
 
 1.  Wybierz z menu opcję **Widok → Widok trójwymiarowy → <img src="images/Std_ViewIvIssueCamPos.svg" width=16px> Parametry ujęcia widoku**.
 
+
+
 ## Uwagi
 
--   Ustawienia kamery można wykorzystać do dodania zamrożenia widoków do pliku \*.cam. Zobacz temat [Zamroź widok](Std_FreezeViews/pl.md).
+-   Ustawienia kamery można wykorzystać do dodania zamrożenia widoków do pliku ***.cam**. Zobacz stronę [Zamroź widok](Std_FreezeViews/pl.md).
+
+
 
 ## Tworzenie skryptów 
 
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Metoda `getCamera` obiektu *ActiveView* zwraca te same parametry ustawienia ujęcia widoku w postaci pojedynczego ciągu znaków. Ta metoda nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
+Metoda `getCamera` obiektu View zwraca te same parametry ustawienia ujęcia widoku w postaci pojedynczego ciągu znaków.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.getCamera()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.getCamera()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

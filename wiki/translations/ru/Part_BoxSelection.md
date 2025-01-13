@@ -10,24 +10,33 @@
 
 # Part BoxSelection/ru
 
+
+</div>
+
+
+
 ## Описание
 
-The **<img src="images/Part_BoxSelection.svg" width=16px> [Part BoxSelection](Part_BoxSelection.md)** tool allows you to select the faces of the objects on the screen that are touched by the rectangular selection.
+The <img alt="" src=images/Part_BoxSelection.svg  style="width:24px;"> **Part BoxSelection** command selects faces from a user defined rectangular area, a box, in the [3D view](3D_view.md).
 
-**Alternatively**, if there is a need to select **only the vertices** of an object then **<img src="images/Std_BoxElementSelection.svg" width=16px> [Std BoxElementSelection](Std_BoxElementSelection.md)** can be used. Use **<img src="images/Std_BoxSelection.svg" width=16px> [Std BoxSelection](Std_BoxSelection.md)** if the need is to select the **entire** shape.
+
 
 ## Применение
 
-1.  Go to **Part → <img src="images/Part_BoxSelection.svg" width=16px> Box selection**.
-2.  Click and drag the pointer in the viewport creating a rectangle that touches one or more shapes.
+1.  Select the **Edit → <img src="images/Part_BoxSelection.svg" width=16px> Box selection** option from the menu.
+2.  Drag a rectangle to select faces that are (partially) inside the rectangle, or touched by it.
 
-## Примечания
+## Notes
 
-## Свойства
+-   To box select whole objects use [Std BoxSelection](Std_BoxSelection.md) instead.
 
-## Ограничения
 
-## Программирование
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

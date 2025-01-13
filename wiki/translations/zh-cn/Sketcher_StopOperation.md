@@ -9,19 +9,15 @@
 
 ## Description
 
-
-**[<img src=images/Sketcher_StopOperation.svg style="width:16px"> [Stop operation](Sketcher_StopOperation.md)**
-
-stops a currently active command while a sketch is being edited; this may mean a drawing operation, a constraining operation, a B-spline operation, etc.
-
-This is similar to pressing the **Esc** key.
+The <img alt="" src=images/Sketcher_StopOperation.svg  style="width:16px;"> [Sketcher StopOperation](Sketcher_StopOperation.md) tool stops any currently running Sketcher tool.
 
 ## Usage
 
-1.  Make sure a [sketch](Sketch.md) is in **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Edit mode](Sketcher_EditSketch.md)**.
-2.  Make sure a tool is active such as **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Create polyline](Sketcher_CreatePolyline.md)**, **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Constrain distance Y](Sketcher_ConstrainDistanceY.md)**, or **[<img src=images/Sketcher_Move.svg style="width:16px"> [Move](Sketcher_Move.md)**.
-3.  Choose **Sketch → [<img src=images/Sketcher_StopOperation.svg style="width:16px"> [Stop operation](Sketcher_StopOperation.md)** from the top menu.
-4.  The tool is deactivated and the pointer returns to being a simple pointer.
+See also: [Continue modes](Sketcher_Workbench#Continue_modes.md).
+
+1.  Make sure a geometry or constraint creation tool is active.
+2.  Select the **Sketch → <img src="images/Sketcher_StopOperation.svg" width=16px> Stop operation** option from the menu.
+3.  The running tool is deactivated and the cursor changes to a simple arrow.
 
 
 <div class="mw-translate-fuzzy">

@@ -1,19 +1,18 @@
 ---
- GuiCommand:Addon
+ GuiCommand:
    Name: BIM IfcElements
-   Workbenches: Image:IFC.svg BIM Workbench
-   Addon: BIM
-   MenuLocation: Manage , IFC Elements
-   SeeAlso: BIM IfcProperties,BIM IfcQuantities
+   MenuLocation: Manage , Manage IFC elements...
+   Workbenches: BIM_Workbench
 ---
 
 # BIM IfcElements/en
 
 ## Description
 
-<img alt="" src=images/BIM_ifcelements_screenshot.png  style="width:1024px;">
+The **IFC Elements Manager** dialog allows you to manage names, IFC types and materials of the BIM elements of your model. Its purpose is to offer an easy general view of your model and to allow you to make sure everything is as you wish before exporting the model to [IFC](Arch_IFC.md).
 
-The IFC elements manager dialog allows you to manage **names**, **IFC types** and **materials** of the BIM elements of your model. Its purpose is to offer an easy general view of your model and to allow you to make sure everything is as you wish before exporting the model to [IFC](Arch_IFC.md).
+<img alt="" src=images/BIM_ifcelements_screenshot.png  style="width:600px;"> 
+*IFC Elements Manager*
 
 With it, you can:
 
@@ -24,5 +23,13 @@ With it, you can:
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > BIM IfcElements/en
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcElements/en

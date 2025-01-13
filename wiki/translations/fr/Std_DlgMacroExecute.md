@@ -13,10 +13,10 @@
 
 ## Description
 
-La commande **Std Exécuter une macro** ouvre la boîte de dialogue Exécuter une macro. À partir de cette boîte de dialogue, des macros peuvent être exécutées, modifiées et gérées.
+La commande **Std Exécuter une macro** ouvre la fenêtre de dialogue Exécuter une macro. À partir de cette fenêtre de dialogue, des macros peuvent être exécutées, modifiées et gérées.
 
 <img alt="" src=images/Std_DlgMacroExecute_dialog.png  style="width:300px;"> 
-*La boîte de dialogue Exécuter une macro*
+*La fenêtre de dialogue Exécuter une macro*
 
 
 
@@ -33,12 +33,8 @@ La commande **Std Exécuter une macro** ouvre la boîte de dialogue Exécuter un
 
 ### Rechercher un fichier/Rechercher dans les fichiers 
 
-:   
-    {{Version/fr|0.22}}
-    
 
-
-
+{{Version/fr|1.0}}
 
 
 :   Ces deux champs de saisie peuvent être utilisés pour filtrer les macros de la liste des fichiers de l\'onglet **Macros de l\'utilisateur** ou de l\'onglet **Macros du système**. Vous pouvez utiliser des expressions régulières ou simplement saisir du texte. Toutes les correspondances sont insensibles à la casse.
@@ -112,7 +108,7 @@ La commande **Std Exécuter une macro** ouvre la boîte de dialogue Exécuter un
 
 ### Fermer
 
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour fermer la boîte de dialogue.
+-   Appuyez sur **Échap** ou sur le bouton **Fermer** pour fermer la fenêtre de dialogue.
 
 
 
@@ -121,7 +117,7 @@ La commande **Std Exécuter une macro** ouvre la boîte de dialogue Exécuter un
 1.  Appuyez sur le bouton **Céer** pour créer un nouveau fichier de macro.
 2.  Entrez un nom dans la boîte de dialogue qui apparaît. Il n\'est pas nécessaire d\'inclure l\'extension **.FCMacro**.
 3.  Appuyez sur **Entrée** ou sur le bouton **OK**.
-4.  Les deux boîtes de dialogue se ferment.
+4.  Les deux fenêtres de dialogue se ferment.
 5.  Le nouveau fichier est ouvert dans l\'éditeur de macros.
 
 
@@ -147,7 +143,7 @@ La commande **Std Exécuter une macro** ouvre la boîte de dialogue Exécuter un
 
 1.  Sélectionnez la macro que vous souhaitez renommer dans la liste.
 2.  Appuyez sur le bouton **Renommer**.
-3.  Entrez un nouveau nom dans la boîte de dialogue qui apparaît. Il n\'est pas nécessaire d\'inclure l\'extension **.FCMacro**.
+3.  Entrez un nouveau nom dans la fenêtre de dialogue qui apparaît. Il n\'est pas nécessaire d\'inclure l\'extension **.FCMacro**.
 4.  Appuyez sur **Entrée** ou sur le bouton **OK**.
 
 
@@ -156,7 +152,7 @@ La commande **Std Exécuter une macro** ouvre la boîte de dialogue Exécuter un
 
 1.  Sélectionnez la macro que vous souhaitez dupliquer dans la liste.
 2.  Appuyez sur le bouton **Dupliquer**.
-3.  Entrez un nouveau nom dans la boîte de dialogue qui apparaît. Il n\'est pas nécessaire d\'inclure l\'extension **.FCMacro**.
+3.  Entrez un nouveau nom dans la fenêtre de dialogue qui apparaît. Il n\'est pas nécessaire d\'inclure l\'extension **.FCMacro**.
 4.  Appuyez sur **Entrée** ou sur le bouton **OK**.
 
 
@@ -183,13 +179,15 @@ La commande **Std Exécuter une macro** ouvre la boîte de dialogue Exécuter un
 
 ## Préférences
 
--   L\'emplacement des macros de l\'utilisateur peut également être modifié dans les préférences : **Édition → Préférences... → Python → Macro → Chemin d'accès aux macros**. Voir l\'[Editeur de préférences](Preferences_Editor/fr#Macro.md).
+Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md).
+
+-   L\'emplacement des macros de l\'utilisateur peut également être modifié dans les préférences : **Édition → Préférences... → Python → Macro → Chemin d'accès aux macros**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

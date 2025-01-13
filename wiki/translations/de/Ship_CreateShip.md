@@ -1,18 +1,14 @@
 ---
  GuiCommand:
-   Name: Ship New‏‎
-   Name/de: Schiff Neu‏‎
-   Icon: Ship_Instance.svg
-   MenuLocation: Schiffskonstruktion , Ein neues Schiff erstellen
-   Workbenches: Ship Workbench/de|
-Shortcut=
+   Name: Ship CreateShip
+   Name/de: Ship SchiffErstellen
+   MenuLocation: Ship design , Erstelle ein neues Schiff
+   Workbenches: Ship_Workbench/de|
+   Shortcut: 
    SeeAlso: 
 ---
 
 # Ship CreateShip/de
-
-
-</div>
 
 
 
@@ -33,13 +29,7 @@ Ship works over **Ship entities**, that must be created on top of provided geome
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-Um eine **Schiffsinstanz** (auch bekannt als: ein neues Schiff) zu erstellen, wähle die Geometrie s60 und führe das **Schiffserstellungswerkzeug** aus **Schiffskonstruktion → Neues Schiff erstellen**
-
-
-</div>
+Um eine **Schiffsinstanz** (in anderen Worten: ein neues Schiff) zu erstellen, die Festkörpergeometrie der Hülle auswählen und das Werkzeug **Ship design → <img src="images/Ship_CreateShip.svg" width=16px> Erstelle ein neues Schiff** aufrufen.
 
 Der Dialog zum Erstellen von Schiffsaufgaben und einige Anmerkungen unter [3D Ansicht](3D_view/de.md) werden gezeigt. Die Anmerkungen werden entfernt, wenn du das Schiffs-Erstellungswerkzeug schließt, machen dir also keine Sorgen.
 
@@ -87,15 +77,6 @@ Wenn du die **Accept** Schaltfläche drückst, wird eine neue Schiffsinstanz mit
 
 -   [FreeCAD Schiffs s60 Tutorium](FreeCAD-Ship_s60_tutorial/de.md)
 -   [FreeCAD Schiffs s60 Tutorium (II)](FreeCAD-Ship_s60_tutorial_(II)/de.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

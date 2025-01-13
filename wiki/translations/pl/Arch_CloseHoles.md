@@ -1,37 +1,44 @@
 ---
  GuiCommand:
    Name: Arch CloseHoles
-   MenuLocation: Arch , Utilities , Close holes
-   Workbenches: Arch_Workbench
-   SeeAlso: Arch_Check
+   Name/pl: Architektura: Zamknij otwory
+   MenuLocation: Narzędzia , Zamknij otwory
+   Workbenches: BIM_Workbench/pl
+   SeeAlso: Arch_Check/pl
 ---
 
 # Arch CloseHoles/pl
 
-## Description
-
-This tool identifies holes (circular sequence of open edges) in a [Shape](Part_Workbench.md) object and attempts to close it by adding it a new face made from that edges sequence. You must still verify yourself that the result is a solid, though.
-
-## Usage
-
-1.  Select a [Shape](Part_Workbench.md) object.
-2.  Press the **<img src="images/Arch_CloseHoles.svg" width=16px> [Close Holes](Arch_CloseHoles.md)** entry in **Arch → Utilities → Close Holes**.
-
-## Scripting
 
 
-**See also:**
+## Opis
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Narzędzie to identyfikuje otwory *(okrągłe sekwencje otwartych krawędzi)* w obiekcie [kształtu](Part_Workbench/pl.md) i próbuje je zamknąć poprzez dodanie nowej ściany utworzonej z tej sekwencji krawędzi. Należy jednak upewnić się, że wynikiem jest bryła.
 
-This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+
+
+## Użycie
+
+1.  Wybierz obiekt [kształtu](Part_Workbench/pl.md).
+2.  Wybierz z menu opcję **Architektura → Narzędzia → <img src="images/Arch_CloseHoles.svg" width=16px> Zamknij otwory**.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Kształt z siatki** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji: 
 ```python
 solid = closeHole(shape)
 ```
 
--   Closes a hole in a `shape`, which is a `Part.Shape`, and returns the new `solid` object.
+-   Zamyka otwór w `shape`, który jest `Part.Shape` i zwraca nowy obiekt `solid`.
 
-Example: 
+Przykład: 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -55,5 +62,13 @@ solid = Arch.closeHole(Wall.Shape)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/pl
+⏵ [documentation index](../README.md) > Arch CloseHoles/pl

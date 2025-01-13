@@ -5,7 +5,7 @@
    MenuLocation: Szkic , Elementy geometryczne szkicownika , Przełącz tryb konstrukcji
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **N**
-   SeeAlso: Sketcher_ToggleDrivingConstraint/pl
+   SeeAlso: 
 ---
 
 # Sketcher ToggleConstruction/pl
@@ -14,13 +14,9 @@
 
 ## Opis
 
-To narzędzie przełącza geometrię do / z trybu konstrukcyjnego. Może być użyte na dowolnej geometrii.
+Narzędzie <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:24px;"> **Przełącz tryb konstrukcji** albo przełącza narzędzia tworzenia geometrii do / z trybu konstrukcyjnego, albo przełącza wybraną geometrię do / z geometrii konstrukcyjnej.
 
-Geometria konstrukcyjna jest ważnym narzędziem szkicownika. Gdy szkic jest używany do operacji 3D, geometria konstrukcyjna jest ignorowana.
-
-Podczas **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Edycji szkicu](Sketcher_EditSketch.md)**, geometria konstrukcyjna jest ukazana jako niebieska i nie zmieni koloru na zielony nawet gdy szkic zostanie w pełni związany. Kiedy **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Opuścisz szkic](Sketcher_LeaveSketch.md)**, geometria konstrukcyjna zostanie ukryta w [widoku 3D](3D_view/pl.md).
-
-Linie konstrukcyjne mogą zostać użyte jako oś obrotu przez funkcję **[<img src=images/PartDesign_Revolution.svg style="width:16px"> [Projekt Części: Wyciągnij przez obrót](PartDesign_Revolution/pl.md)**.
+Geometria konstrukcji jest oznaczona specjalnym [kolorem](Sketcher_Preferences/pl#Wygląd_zewnętrzny.md) *(domyślnie niebieskim)* i *({{Version/pl|1.0}})* typem linii. Geometria konstrukcyjna nie jest widoczna poza szkicem, a jej zadaniem jest pomoc w definiowaniu wiązań i innej geometrii wewnątrz samego szkicu. Linie konstrukcyjne mogą być jednak używane jako oś obrotu przez [Wyciągnij przez obrót](PartDesign_Revolution/pl.md).
 
 <img alt="" src=images/Sketcher_ConstructionMode_fr_01.png  style="width:480px;">
 
@@ -28,22 +24,29 @@ Linie konstrukcyjne mogą zostać użyte jako oś obrotu przez funkcję **[<img 
 
 ## Użycie
 
-Istnieją dwa sposoby użycia tego narzędzia:
-
-1.  Nie mając niczego zaznaczonego w oknie [widoku 3D](3D_view/pl.md):
-    -   Wywołaj tryb konstrukcji, klikając na przycisk **[<img src=images/Sketcher_ToggleConstruction.svg style="width:24px"> [Przełącz geometrię konstrukcyjną](Sketcher_ToggleConstruction/pl.md)** lub używając opcji **Szkic → Elementy geometryczne szkicownika → [<img src=images/Sketcher_ToggleConstruction.svg style="width:24px"> Przełącz geometrię konstrukcyjną** w menu Szkicownika.
-    -   Spowoduje to zmianę koloru tworzenia nowych elementów geometrycznych na niebieski.
-    -   Nowo utworzone elementy geometryczne będą teraz tworzone w trybie konstrukcyjnym.
-2.  Z jednym lub kilkoma elementami geometrycznymi zaznaczonymi w oknie [widoku 3D](3D_view/pl.md)
-    -   Wywołaj narzędzie **Przełącz geometrię konstrukcyjną** klikając na przycisk **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Przełącz geometrię konstrukcyjną](Sketcher_ToggleConstruction/pl.md)** lub wybierając je z menu.
-    -   Zaznaczone elementy zostaną teraz przełączone w tryb konstrukcji.
-    -   Następnie nowo utworzone elementy będą znowu normalną geometrią.
 
 
+### Przełączanie narzędzi 
 
-## Uwagi
+1.  Upewnij się, że nie ma żadnego zaznaczenia.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> '''Przełącz tryb konstrukcji'''**.
+    -   Wybierz z menu opcję **Szkic → Elementy geometryczne szkicownika → <img src="images/Sketcher_ToggleConstruction.svg" width=16px> Przełącz tryb konstrukcji**.
+    -   Kliknij prawym przyciskiem myszy w oknie [widoku 3D](3D_view/pl.md) i z menu kontekstowego wybierz opcję **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> Przełącz tryb konstrukcji**.
+    -   Użyj skrótu klawiaturowego: **G**, a następnie **N**.
+3.  Tryb narzędzi do tworzenia geometrii jest przełączany:
+    -   W trybie normalnym ich ikony w menu i na pasku narzędzi są białe i tworzą zwykłą geometrię *(domyślnie w kolorze białym)*. Ikona tego narzędzia to: <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:16px;">.
+    -   W trybie konstrukcyjnym ikony menu i paska narzędzi są niebieskie i tworzą geometrię konstrukcyjną *(domyślny kolor niebieski)*. Ikona tego narzędzia wygląda następująco: <img alt="" src=images/Sketcher_ToggleConstruction_Constr.svg  style="width:16px;">.
 
--   Narzędzie **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Utwórz punkt](Sketcher_CreatePoint/pl.md)** zawsze będzie tworzyć punkty w trybie konstrukcji niezależnie od stanu przełącznika na pasku narzędzi, wybierz żądane punkty w oknie [widoku 3D](3D_view/pl.md) po utworzeniu i kliknij w przycisk **[<img src=images/Sketcher_ToggleConstruction.svg style="width:24px"> [Przełącz tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)**, aby przekształcić je w normalną geometrię.
+
+
+### Przełączanie geometrii 
+
+1.  Wybierz jeden lub więcej elementów w szkicu.
+2.  Wywołaj narzędzie w sposób opisany powyżej lub za pomocą następującej dodatkowej opcji:
+    -   Kliknij prawym przyciskiem myszy w sekcji **Elementy** [Panelu zadań](Sketcher_Dialog/pl.md) i wybierz opcję **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> Przełącz tryb konstrukcji** z menu kontekstowego.
+3.  Wybrane elementy zostaną zmienione z normalnej geometrii na geometrię konstrukcyjną lub odwrotnie. Ich wygląd zmienia się odpowiednio.
+4.  Tryb narzędzi do tworzenia geometrii nie ulega zmianie.
 
 
 

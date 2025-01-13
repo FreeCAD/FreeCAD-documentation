@@ -12,11 +12,21 @@
 
 </div>
 
+
+
 ## Opis
+
+
+<div class="mw-translate-fuzzy">
 
 Naklonuje vybrané elementy náčrtu z jedného bodu do druhého pomocou posledného vybraného bodu ako referencie. Ak sú súčasťou zdrojových elementov akékoľvek väzby, nové naklonované väzby budú naviazané na zdrojové väzby; ak sa neskôr zdrojové väzby zmenia, naklonované väzby budú tiež zmenené. Ak sa chcete tomuto naviazaniu vyhnúť, použite radšej príkaz **[<img src=images/Sketcher_Copy.svg style="width:16px"> [Kópia](Sketcher_Copy/sk.md)**.
 
+
+</div>
+
 Zapamätajte si, že klon klonu sa stane kópiou. Ak chcete vytvoriť v rade naviazané väzby, klonujte viackrát originálne zdrojové elementy.
+
+
 
 ## Použitie
 
@@ -34,7 +44,13 @@ Klonovanie nevytvára žiadne dodatočné väzby.
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher_Tools_navi

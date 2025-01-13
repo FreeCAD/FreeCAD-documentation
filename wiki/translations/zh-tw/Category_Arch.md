@@ -1,5 +1,5 @@
 # Category:Arch/zh-tw
-Pages relating to Architectural and Building Information Management
+This category is for pages related to the [Arch_Workbench/zh-tw](Arch_Workbench/zh-tw.md).
 
 ### Contents
 

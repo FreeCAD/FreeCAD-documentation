@@ -56,6 +56,17 @@ Preferencje dla menedżera dodatków można znaleźć w [Edytorze ustawień](Pre
 
 
 
+## Sortowanie według punktacji 
+
+
+{{Version/pl|1.0}}
+
+Menedżer dodatków obsługuje sortowanie według wielu różnych kryteriów. Większość z nich jest pobierana bezpośrednio z serwerów FreeCAD *(który buforuje je z GitHub i FreeCAD Wiki)*, ale jeden, \"Wynik\", nie jest w ogóle dostarczany przez FreeCAD i pojawia się jako opcja tylko wtedy, gdy ustawienie URL źródła wyniku jest podane w Preferencjach.
+
+Źródło URL wyniku jest ścieżką do zdalnego dokumentu sformatowanego jako JSON, który zawiera listę dodatków oraz jakiegoś rodzaju \"wynik\". Wynik może być obliczany w dowolny sposób, według upodobania dostawcy danych, ale powinien być wartością całkowitą, gdzie wyższe wyniki są w pewnym sensie \"lepsze\". Każdy dodatek, który nie jest wymieniony, jest wewnętrznie przypisywany wynik zero. Format pliku to pojedynczy słownik JSON, gdzie klucz to URL dodatku *(dla warsztatów roboczych i pakietów preferencji)* lub nazwa makrodefinicji *(dla makr)*. Zobacz [to źródło danych](https://gist.githubusercontent.com/chennes/e8f60e80f16e6ffbd057dd47ca36ad2a/raw/7b118cca8e84444c3379919bbd744b99e6ef6711/addon_score_for_testing.json) dla przykładu *(zauważ, że wynik tam jest po prostu długością opisu dodatku i jest przeznaczony tylko do testów i celów demonstracyjnych)*.
+
+
+
 ## Uwagi
 
 -   Korzystanie z dodatków nie jest ograniczone do wersji FreeCAD, w której zostały zainstalowane. Będziesz mógł również używać ich w każdej innej wersji programu, obsługiwanej przez dodatek, która może być zainstalowana w Twoim systemie.
@@ -142,7 +153,7 @@ Następnie zdefiniuj funkcje {{Incode|installation_succeeded}} i {{Incode|instal
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

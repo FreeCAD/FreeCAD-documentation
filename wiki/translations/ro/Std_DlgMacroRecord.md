@@ -59,16 +59,18 @@ Este accesibil via **Macro → Macro recording ...**, sau pe calea apăsării bu
 
 ## Preferences
 
--   The macro path can also be changed in the preferences: **Edit → Preferences... → Python → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+See also: [Preferences Editor](Preferences_Editor.md).
+
+-   The macro path can also be changed in the preferences: **Edit → Preferences... → Python → Macro → Macro path**.
 -   In most cases it is undesirable to record actions that do not change the model: under **Edit → Preferences... → Python → Macro → GUI commands** do one of the following:
-    -   To exclude these actions uncheck the {{CheckBox|FALSE|Record GUI commands}} checkbox.
-    -   To include them as comments only check both the {{CheckBox|TRUE|Record GUI commands}} and {{CheckBox|TRUE|Record as comment}} checkboxes.
+    -   To exclude these actions uncheck the **Record GUI commands** checkbox.
+    -   To include them as comments only, check both the **Record GUI commands** and **Record as comment** checkboxes.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

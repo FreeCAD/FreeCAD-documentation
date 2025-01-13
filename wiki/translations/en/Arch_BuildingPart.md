@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Arch BuildingPart
-   MenuLocation: Arch , BuildingPart
+   MenuLocation: Arch , BuildingPart, 3D/BIM , Level
    Workbenches: Arch_Workbench
    Version: 0.18
    SeeAlso: Arch_Building, Arch_Site
@@ -11,7 +11,7 @@
 
 ## Description
 
-The BuildingPart replaces the old [Arch Floor](Arch_Floor.md) and [Arch Building](Arch_Building.md) with a more capable version that can be used not only to create Floor/Storey/Levels but also all kinds of situations where different Arch/BIM objects need to be grouped and that group might need to be handled as one object or replicated.
+The BuildingPart object, produced by the BIM Level or BIM Building commands, replaces the old [Arch Floor](Arch_Floor.md) and [Arch Building](Arch_Building.md) with a more capable version that can be used not only to create Floor/Storey/Levels but also all kinds of situations where different Arch/BIM objects need to be grouped and that group might need to be handled as one object or replicated.
 
 ## Usage
 
@@ -71,7 +71,7 @@ An Arch BuildingPart is derived from an [App GeoFeature](App_GeoFeature.md) obje
 
 {{TitleProperty|Children}}
 
--    **Height Propagate|Bool**: If true, the height value propagates to contained objects.
+-    **Height Propagate|Bool**: If true, the height value propagates to contained objects. See the **Height** property for additional conditions that apply.
 
 
 {{TitleProperty|IFC}}
@@ -224,5 +224,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/en
+⏵ [documentation index](../README.md) > Arch BuildingPart/en

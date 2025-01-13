@@ -1,97 +1,97 @@
 ---
  GuiCommand:
    Name: Arch Rebar
-   MenuLocation: Arch , Rebar tools , Custom Rebar<br>3D/BIM , Reinforcement tools , Custom Rebar
-   Workbenches: Arch_Workbench, BIM_Workbench
+   Name/pl: BIM: Zbrojenie
+   MenuLocation: 3D / BIM , Narzędzia zbrojenia , Zbrojenie nietypowe
+   Workbenches: BIM_Workbench/pl, Reinforcement_Workbench/pl
    Shortcut: **R** **B**
-   SeeAlso: Arch_Structure, Reinforcement_Workbench
+   SeeAlso: 
 ---
 
 # Arch Rebar/pl
 
-## Description
 
-The [Arch Rebar](Arch_Rebar.md) tool allows you to place [reinforcing bars](http://en.wikipedia.org/wiki/Rebar) inside [Arch Structure](Arch_Structure.md) objects.
 
-The [Arch Rebar](Arch_Rebar.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
+## Opis
 
-Rebar objects are based on 2D profiles such as [Draft objects](Draft_Workbench.md) and [Sketches](Sketcher_Workbench.md), that must be drawn on a face of the structural object. After creation you can adjust the properties of the rebar, including the number and diameter of the bars, and the offset distance between them and the faces of the structural element.
+Narzędzie **Zbrojenie** pozwala na umieszczenie [prętów zbrojeniowych](http://en.wikipedia.org/wiki/Rebar) wewnątrz obiektów [konstrukcyjnych](Arch_Structure/pl.md).
+
+Obiekty prętów zbrojeniowych są oparte na profilach 2D, takich jak [obiekty rysunku roboczego](Draft_Workbench/pl.md) i [szkice](Sketcher_Workbench/pl.md), które muszą być narysowane na powierzchni obiektu konstrukcyjnego. Po utworzeniu można dostosować właściwości pręta zbrojeniowego, w tym liczbę i średnicę prętów oraz odległość przesunięcia między nimi a powierzchniami elementu konstrukcyjnego.
 
 <img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;"> 
-*Structural object with two sketches drawn on its faces, which are then turned into two sets of rebar objects*
-
-## Extension available 
-
-The Rebar tool is enhanced by the [Reinforcement Workbench](Reinforcement_Workbench.md), which is installed by the [Addon Manager](Std_AddonMgr.md). The additional rebar types available with the addon are:
-
--   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Straight Rebar](Arch_Rebar_Straight.md)
--   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [UShape Rebar](Arch_Rebar_UShape.md)
--   <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [LShape Rebar](Arch_Rebar_LShape.md)
--   <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Bent Shape Rebar](Arch_Rebar_BentShape.md)
--   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Stirrup Rebar](Arch_Rebar_Stirrup.md)
--   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Helical Rebar](Arch_Rebar_Helical.md)
-
-## Usage
-
-1.  Switch to the <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Arch Workbench](Arch_Workbench.md)
-2.  Create an **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** element.
-3.  Switch to the <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher Workbench](Sketcher_Workbench.md).
-4.  Select one face of the structural element.
-5.  Press the **<img src="images/Sketcher_NewSketch.svg" width=16px> [New Sketch](Sketcher_NewSketch.md)** button to start a new sketch on the selected face.
-6.  Draw the diagram of your bar.
-7.  Press the **<img src="images/Sketcher_LeaveSketch.svg" width=16px> [Leave Sketch](Sketcher_LeaveSketch.md)** button to finish.
-8.  Switch back to the <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Arch Workbench](Arch_Workbench.md).
-9.  Select the sketch you just drew.
-10. Press the **<img src="images/Arch_Rebar.svg" width=16px> [Arch Rebar](Arch_Rebar.md)** button, or press **R** then **B** keys.
-11. Adjust the desired properties (your rebar might not appear immediately, if some of the properties create an impossible situation, such as the bar diameter being 0, or the offset distances being bigger than the length of the structural element).
-
-Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 the rebar can be created outside of any host object. To host a rebar inside an object, you just need to set its **Host**.
-
-## Options
-
--   Rebars share the common properties and behaviours of all [Arch Components](Arch_Component.md)
--   The rounding value is expressed in times the diameter. If your bar has a diameter of 5mm, a rounding value of 3 will create rounding at angles with a radius of 15mm.
--   Default values for new rebars can be set in the Arch preferences settings.
--   If a direction vector is not specified, the direction and distance along which the bars will spread is calculated automatically from the host structural object, by taking the normal direction of the base sketch, and taking its intersection with the structural object. If you specify a direction vector, the length of that vector will also be taken into account.
--   The spacing value is calculated from the current amount of bars, and represents the distance between the axes of each bar. You must therefore subtract the bar diameter to obtain the size of the free space between bars.
-
-## Properties
-
--    **Amount**: The amount of bars.
-
--    **Diameter**: The diameter of the bars.
-
--    **Direction**: The direction (and length) along which the bars must spread. If the value is (0,0,0), the direction is calculated automatically from the host structural object.
-
--    **Offset Start**: The offset distance between the border of the structural object and the first bar.
-
--    **Offset End**: The offset distance between the border of the structural object and the last bar.
-
--    **Rounding**: A rounding value to be applied to the corners of the bars, expressed in times the diameter.
-
--    **Spacing**: The distance between the axes of each bar.
-
-## Scripting
+*Obiekt konstrukcyjny z dwoma szkicami narysowanymi na jego powierzchniach, które są następnie przekształcane w dwa zestawy obiektów prętów zbrojeniowych.*
 
 
-**See also:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Użycie
 
-The Rebar tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+1.  Przełącz się do środowiska pracy <img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [BIM](BIM_Workbench/pl.md).
+2.  Utwórz element **<img src="images/Arch_Structure.svg" width=16px> [konstrukcyjny](Arch_Structure/pl.md)**.
+3.  Przełącz się do środowiska pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Rysunek Roboczy](Sketcher_Workbench/pl.md).
+4.  Wybierz jedną z powierzchni elementu konstrukcyjnego.
+5.  Naciśnij przycisk **<img src="images/Sketcher_NewSketch.svg" width=16px> [Utwórz szkic](Sketcher_NewSketch/pl.md)**, aby rozpocząć nowy szkic na wybranej powierzchni.
+6.  Narysuj schemat swojego pręta.
+7.  Naciśnij przycisk **<img src="images/Sketcher_LeaveSketch.svg" width=16px> [Zamknij szkic](Sketcher_LeaveSketch/pl.md)**, aby zakończyć.
+8.  Przełącz się ponownie do środowiska pracy <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Architektura](Arch_Workbench/pl.md).
+9.  Wybierz właśnie narysowany szkic.
+10. Naciśnij przycisk **<img src="images/Arch_Rebar.svg" width=16px> [Zbrojenie nietypowe](Arch_Rebar/pl.md)**, lub naciśnij klawisze **R** a następnie **B**.
+11. Dostosuj właściwości *(pręt zbrojeniowy może nie pojawić się od razu, jeśli niektóre właściwości stworzą sytuację niemożliwą do rozwiązania, taką jak średnica pręta równa 0 lub odległości przesunięcia większe niż długość elementu konstrukcyjnego)*.
+
+Chociaż zwykle pręt zbrojeniowy jest używany wewnątrz konstrukcji architektury, od wersji FreeCAD 0.19 pręt zbrojeniowy może być tworzony poza dowolnym obiektem docelowym. Aby umieścić pręt zbrojeniowy wewnątrz obiektu, wystarczy ustawić jego obiekt **Host**.
+
+
+
+## Opcje
+
+-   Pręty zbrojeniowe dzielą wspólne właściwości i zachowania wszystkich [Komponentów Architektonicznych](Arch_Component/pl.md).
+-   Wartość zaokrąglenia jest wyrażana w wielokrotnościach średnicy pręta. Jeśli twój pręt ma średnicę 5 mm, wartość zaokrąglenia 3 spowoduje zaokrąglenie kątów o promieniu 15 mm.
+-   Domyślne wartości dla nowych prętów zbrojeniowych można ustawić w preferencjach środowiska pracy Architektura.
+-   Jeśli wektor kierunku nie jest określony, kierunek i odległość, wzdłuż których rozłożone będą pręty, są obliczane automatycznie na podstawie strukturalnego obiektu nadrzędnego, poprzez pobranie normalnej kierunku bazowego szkicu i jego przecięcie z obiektem konstrukcyjnym. Jeśli określisz wektor kierunku, długość tego wektora również będzie brana pod uwagę.
+-   Wartość odstępu jest obliczana na podstawie bieżącej liczby prętów i reprezentuje odległość między osiami każdego pręta. Musisz więc odjąć średnicę pręta, aby uzyskać rozmiar wolnej przestrzeni między prętami.
+
+
+
+## Właściwości
+
+-    **Ilość**: Ilość prętów.
+
+-    **Średnica**: Średnica prętów.
+
+-    **Kierunek**: Kierunek *(i długość)*, wzdłuż którego mają się rozłożyć pręty. Jeśli wartość wynosi (0,0,0), kierunek jest obliczany automatycznie na podstawie nadrzędnego obiektu konstrukcyjnego.
+
+-    **Przesunięcie początkowe**: Odległość przesunięcia między krawędzią obiektu konstrukcyjnego a pierwszym prętem.
+
+-    **Przesunięcie końcowe**: Odległość przesunięcia między krawędzią obiektu konstrukcyjnego a ostatnim prętem.
+
+-    **Zaokrąglenie**: Wartość zaokrąglenia stosowana do narożników prętów, wyrażona w wielokrotnościach średnicy.
+
+-    **Rozstaw**: Odległość między osiami każdego pręta.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Pręt zbrojeniowy** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
+
+
 ```python
 Rebar = makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=None, name="Rebar")
 ```
 
--   Creates a `Rebar` object from the given `baseobj`, which is an [Arch Structure](Arch_Structure.md), and a `sketch` as profile.
+-   Tworzy obiekt `Rebar` na podstawie podanego `baseobj`, który jest obiektem [konstrukcyjnym](Arch_Structure/pl.md), oraz `sketch` jako profilu.
     -   
         `diameter`
         
-        , `amount`, and `offset` are used to define the characteristics of the bars.
+        , `amount` i `offset` są używane do definiowania zbrojenia prętami.
 
-    -   If no `diameter`, `amount`, or `offset` values are given, the default values from the [Arch Preferences](Arch_Preferences.md) are used.
+    -   Jeśli nie podano wartości `diameter`, `amount` lub `offset`, używane są wartości domyślne z [Ustawień](Arch_Preferences/pl.md) środowiska Architektura.
 
-Example:
+Przykład:
 
 
 ```python
@@ -117,5 +117,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+
+
+{{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar/pl
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Arch Rebar/pl

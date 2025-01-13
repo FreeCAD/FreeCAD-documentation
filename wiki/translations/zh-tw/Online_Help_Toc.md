@@ -119,7 +119,7 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 <div class="mw-translate-fuzzy">
 
 -   Developing applications for FreeCAD
-    -   [版權](Licence/zh-tw.md)
+    -   [版權](License/zh-tw.md)
     -   FreeCAD 編譯
         -   [Finding assistance](Tracker.md)
         -   [Compiling on Windows](Compile_on_Windows.md)

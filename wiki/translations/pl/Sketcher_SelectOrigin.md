@@ -14,17 +14,17 @@
 
 ## Opis
 
-Polecenie <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:24px;"> **Wybierz odniesienie położenia** zaznacza punkt początkowy szkicu *(odniesienie położenia)*.
+Narzędzie <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:24px;"> **Wybierz odniesienie położenia** zaznacza punkt początkowy szkicu *(odniesienie położenia)*.
 
 
 
 ## Użycie
 
-1.  Jeśli nie zostało to jeszcze zrobione: Otwórz szkic w trybie edycji.
-2.  Polecenie można wywołać na kilka sposobów:
-3.  Wybierz opcję menu głównego **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Wybierz odniesienie położenia**.
-    -   Skrót klawiaturowy: **Z**, a następnie **O**.
-4.  Zostanie wybrany punkt odniesienia położenia szkicu.
+1.  Narzędzie można wywołać na kilka sposobów:
+    -   Wybierz opcję **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Wybierz odniesienie położenia** z menu.
+    -   Kliknij prawym przyciskiem myszy w sekcji **Elementy** [okna dialogowego](Sketcher_Dialog/pl.md) i wybierz opcję **<img src="images/Sketcher_SelectOrigin.svg" width=16px> Wybierz odniesienie położenia** z menu kontekstowego.
+    -   Użyj skrótu klawiaturowego: **Z** a następnie **O**.
+2.  Zostanie wybrany punkt odniesienia (początek) położenia szkicu.
 
 
 

@@ -1,4 +1,13 @@
-# <img alt="Ícone da bancada de trabalho Mesh" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/pt-br
+# Mesh Workbench/pt-br
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="Ícone da bancada de trabalho Mesh" src=images/Workbench_Mesh.svg  style="width:128px;">
 
 
 
@@ -126,10 +135,16 @@ Todas as ferramentas da Bancada de Trabalho Mesh podem ser acessadas a partir do
 
 Existem algumas [preferências de exportação relacionadas aos formatos de malha](Import_Export_Preferences/pt-br#Mesh_Formats.md), mas estas não são utilizadas pelos comandos pertencentes a esta bancada de trabalho. Eles são usados pelo comando [Std Export](Std_Export/pt-br.md).
 
+
+<div class="mw-translate-fuzzy">
+
 As preferências da Bancada de Trabalho Mesh podem ser encontradas nas seguintes categorias do [ Editor de Preferências](Preferences_Editor/pt-br.md):
 
 -   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor/pt-br#Display.md): Na aba [Mesh view](Preferences_Editor/pt-br#Mesh_view.md), várias preferências podem ser definidas.
 -   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences/pt-br.md): Os comandos [Mesh União](Mesh_Union/pt-br.md), [Mesh Intersecção](Mesh_Intersection/pt-br.md) e [Mesh Diferença](Mesh_Difference/pt-br.md) requerem [OpenSCAD](http://www.openscad.org/) e usam a preferência **OpenSCAD executável** para encontrar seu executável.
+
+
+</div>
 
 
 
@@ -141,7 +156,13 @@ As preferências da Bancada de Trabalho Mesh podem ser encontradas nas seguintes
 -   Veja [Assímptota](Asymptote/pt-br.md) para exportar malhas para o formato assintoto.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Mesh Tools navi

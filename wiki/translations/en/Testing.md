@@ -80,7 +80,7 @@ Add test function
 
 Add test function
 
-### TestPathApp
+### TestCAMApp
 
 Path workbench test cases:
 

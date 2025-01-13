@@ -18,7 +18,7 @@ Tento nástroj konvertuje [Dráty](Draft_Wire/cs.md) do [B-křivek](Draft_BSplin
 </div>
 
 <img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width:400px;"> 
-*Converting a Draft Wire to a Draft BSpline, and a closed Draft BSpline to a closed Draft Wire*
+*Converting a wire to a B-spline, and a closed B-spline to a closed wire*
 
 
 

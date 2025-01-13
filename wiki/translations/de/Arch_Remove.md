@@ -2,35 +2,41 @@
  GuiCommand:
    Name: Arch Remove
    Name/de: Arch Entfernen
-   MenuLocation: Arch , Komponente entfernen
-   Workbenches: Arch_Workbench/de
-   SeeAlso: Arch_CutLine/de, Arch_CutPlane/de, Arch_Add/de
+   MenuLocation: Modify , Komponente entfernen
+   Workbenches: BIM_Workbench/de
+   SeeAlso: Arch_CutPlane/de, Arch_Add/de
 ---
 
 # Arch Remove/de
 
+
+
 ## Beschreibung
 
-Das Entfernen Werkzeug erlaubt dir zwei Arten von Operationen:
+Das Werkzeug **Arch Entfernen** ermöglicht zwei Arten von Operationen:
 
--   Entfernen einer Unterkomponente aus einem Architekturobjekt, zum Beispiel einen Kasten entfernen, der an einer Wand angebracht wurde, wie in dem **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add/de.md)** Beispiel.
--   Subtrahieren eines [Form](Part_Workbench/de.md)-basierten Objektes aus einer Architekturkomponente wie z.B. einer **<img src="images/Arch_Wall.svg" width=16px> [Arch Mauer](Arch_Wall/de.md)
-** oder **<img src="images/Arch_Structure.svg" width=16px> [Arch Struktur](Arch_Structure/de.md)**
+-   Entfernen einer Unterkomponente aus einem Arch-Objekt, zum Beispiel einen Quader entfernen, der einer Wand hinzugefügt wurde, wie in dem Beispiel unter **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add/de.md)**.
+-   Abziehen eines auf einer [Form](Part_Workbench/de.md) basierenden Objekts aus einer Arch-Komponente wie z.B. einer **<img src="images/Arch_Wall.svg" width=16px> [Arch-Wand](Arch_Wall/de.md)
+** oder **<img src="images/Arch_Structure.svg" width=16px> [Arch-Struktur](Arch_Structure/de.md)**
 
 Das Gegenstück dieses Werkzeugs ist das **<img src="images/Arch_Add.svg" width=16px> [Arch Hinzufügen](Arch_Add/de.md)** Werkzeug.
 
 <img alt="" src=images/Arch_Remove_example.jpg  style="width:600px;"> 
 *Ein Quader wird von einer Wand subtrahiert und hinterlässt in ihr eine Aussparung.*
 
+
+
 ## Anwendung
 
-1.  Wählen Sie eine Unterkomponente in einem Architekturobjekt
-2.  Drücke die **<img src="images/Arch_Remove.svg" width=16px>** Schaltfläche oder **Arch** → **<img src="images/Arch_Remove.svg" width=16px> [Entfernen](Arch_Remove/de.md)** aus dem oberen Menü.
+1.  Eine Unterkomponente in einem Arch-Objekt auswählen
+2.  Die Schaltfläche **<img src="images/Arch_Remove.svg" width=16px> [Komponente entfernen](Arch_Remove/de.md)** drücken oder den Menüeintrag **Modify → <img src="images/Arch_Remove.svg" width=16px> Komponente entfernen** auswählen.
 
 Oder
 
-1.  Wähle zu subtrahierende Objekte, das letzte Objekt muss das Arch Objekt sein, von dem die anderen Objekte substrahiert werden sollen.
-2.  Drücke die **<img src="images/Arch_Remove.svg" width=16px>** Schaltfläche oder **Arch** → **<img src="images/Arch_Remove.svg" width=16px> [Entfernen](Arch_Remove/de.md)** aus dem oberen Menü.
+1.  Abzuziehende Objekte auswählen, das letzte Objekt muss das Arch-Objekt sein, von dem die anderen Objekte abgezogen werden sollen.
+2.  Die Schaltfläche **<img src="images/Arch_Remove.svg" width=16px> [Komponente entfernen](Arch_Remove/de.md)** drücken oder den Menüeintrag **Modify → <img src="images/Arch_Remove.svg" width=16px> Komponente entfernen** auswählen.
+
+
 
 ## Skripten
 
@@ -39,7 +45,9 @@ Oder
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Entfernen Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole mit der folgenden Funktion verwendet werden: 
+Das Entfernen Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole mit der folgenden Funktion verwendet werden:
+
+
 ```python
 removeComponents(objectsList, host=None)
 ```
@@ -48,7 +56,9 @@ removeComponents(objectsList, host=None)
 
 1.  Ist ein `Host`-Objekt angegeben, wird stattdessen versucht, die in `objectsList` angegebenen Objekte als Aussparungen zum `host` hinzuzufügen.
 
-Beispiel: 
+Beispiel:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -70,5 +80,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/de
+⏵ [documentation index](../README.md) > Arch Remove/de

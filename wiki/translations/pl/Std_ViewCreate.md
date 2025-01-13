@@ -9,17 +9,23 @@
 
 # Std ViewCreate/pl
 
+
+
 ## Opis
 
 Polecenie **Utwórz nowy widok** tworzy nowy [widok przestrzenny](3D_view/pl.md) dla aktywnego dokumentu. Dodatkowe widoki 3D mogą być przydatne, jeśli chcesz oglądać model z wielu kierunków lub na różnych poziomach powiększenia.
 
-![](images/ViewCreate1.png ) 
+<img alt="" src=images/ViewCreate1.png  style="width:400px;"> 
 *Interfejs FreeCAD z wieloma widokami 3D.*
+
+
 
 ## Użycie
 
 1.  Wybierz opcję z menu **Widok → <img src="images/Std_ViewCreate.svg" width=16px> Utwórz nowy widok
 **
+
+
 
 ## Opcje
 
@@ -29,7 +35,7 @@ Polecenie **Utwórz nowy widok** tworzy nowy [widok przestrzenny](3D_view/pl.md)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

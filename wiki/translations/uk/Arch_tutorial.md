@@ -490,6 +490,11 @@ I hope this gives you a good overview of the available tools, be sure to refer t
 The file created during this tutorial can be found [here](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd)
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/uk
+⏵ [documentation index](../README.md) > Arch tutorial/uk

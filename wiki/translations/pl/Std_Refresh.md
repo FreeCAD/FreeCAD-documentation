@@ -41,10 +41,7 @@ Polecenie **Std Odśwież** wykonuje ponowne przeliczenie aktywnego dokumentu. I
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby ponownie przeliczyć aktywny dokument, należy użyć metody `recompute` obiektu *document*.
 
@@ -60,7 +57,7 @@ doc.recompute()
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

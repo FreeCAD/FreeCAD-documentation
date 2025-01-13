@@ -1,5 +1,5 @@
 # Category:Arch/zh-hant
-Pages relating to Architectural and Building Information Management
+This category is for pages related to the [Arch_Workbench/zh-hant](Arch_Workbench/zh-hant.md).
 
 ### Contents
 

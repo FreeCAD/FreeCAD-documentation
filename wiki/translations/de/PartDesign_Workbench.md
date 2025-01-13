@@ -1,79 +1,68 @@
-# <img alt="PartDesign Arbeitsbereichsymbol" src=images/Workbench_PartDesign.svg  style="width:64px;"> PartDesign Workbench/de
+# <img alt="Symbol des Arbeitsbereichs PartDesign" src=images/Workbench_PartDesign.svg  style="width:64px;"> PartDesign Workbench/de
 
 
 
 
 
 
-## Einführung
+## Einleitung
 
-Der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">[Arbeitsbereich PartDesign ](PartDesign_Workbench/de.md) bietet erweiterte Werkzeuge zur Modellierung komplexer Festkörper. Er konzentriert sich hauptsächlich auf die Erstellung mechanischer Teile, die hergestellt und zu einem Endprodukt montiert werden können. Dennoch können die erzeugten Körper generell für jeden anderen Zweck verwendet werden, wie z.B. [Architekturdesign](Arch_Workbench/de.md), [Finite Element Analyse](FEM_Workbench/de.md), oder [CNC-Bearbeitung und 3D Druck](Path_Workbench/de.md).
+Der Arbeitsbereich <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> **PartDesign** enthält Werkzeuge zum Modellieren von Festkörperkomponenten. Sein Fokus liegt hauptsächlich auf der Erstellung mechanischer Komponenten, die hergestellt und zu einem Endprodukt montiert werden können. Dennoch können die erzeugten Körper generell für jeden anderen Zweck verwendet werden, wie z.B. [Bauwerksdatenmodellierung](BIM_Workbench/de.md) (BIM), [Finite-Elemente-Analyse](FEM_Workbench/de.md), oder [CNC-Bearbeitung und 3D-Druck](CAM_Workbench/de.md).
 
-Der Arbeitsbereich PartDesign ist eng mit dem [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md) verbunden. Der Anwender erstellt normalerweise eine Skizze, verwendet dann das Werkzeug [PartDesign Aufpolsterung](PartDesign_Pad/de.md), um sie zu extrudieren und einen Basis Körper zu erstellen, anschließend wird dieser Körper weiter modifiziert.
+Der Arbeitsbereich PartDesign verwendet eine auf Formelementen basierende Methodik. Eine Komponente wird durch einen Behälter Körper dargestellt (Body object container). Der Körper legt ein lokales Koordinatensystem fest und enthält die gesamten Formelemente, die die Komponente aufbauen. Die meisten Formelemente basieren auf parametrischer Skizzen sind hinzufügend oder abziehend. Z.B. fügt das Werkzeug [Pad](PartDesign_Pad/de.md) die extrudierte Skizze zum sich entwickelnden Festkörper hinzu, während das Werkzeug [Vertiefung](PartDesign_Pocket/de.md) die extrudierte Skizze abzieht. Jedes Formelement trägt zum Gesamtergebnis bei und baut dabei auf dem Ergebnis der vorherigen Formelemente auf. Es können auch Grundkörper (primitives) wie [Zylinder](PartDesign_AdditiveCylinder/de.md), [Kugeln](PartDesign_AdditiveSphere/de.md) usw. sowie Festkörper, die außerhalb des Körpers erstellt wurden, als Formelemente verwendet werden.
 
-Während der <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Arbeitsbereich Part](Part_Workbench/de.md) auf einer [konstruktiven Festkörpergeometrie](constructive_solid_geometry/de.md) (CSG) Methodik (engl.: Constructive Solid Geometry) für das Erstellen von Formen basiert, verwendet der Arbeitsbereich PartDesign eine parametrische Merkmal Bearbeitungsmethodik, d.h. ein Basis Körper wird sequentiell transformiert, indem Merkmale hinzugefügt werden, bis die endgültige Form erreicht ist. Um mit der Erstellung von Körpern zu beginnen, siehe die Seiten [Formelement bearbeiten](feature_editing/de.md) für eine ausführlichere Erläuterung dieses Vorgangs, und [Erstellen eines einfachen Teil mit PartDesign](Creating_a_simple_part_with_PartDesign/de.md).
+Siehe die Seite [Formelemente bearbeiten](Feature_editing/de.md) für eine umfassendere Erklärung dieses Prozesses und anschließend [Erstellen eines einfachen Bauteils mit PartDesign](Creating_a_simple_part_with_PartDesign/de.md), um mit dem Erstellen von Festkörpern loszulegn.
 
-Eine detaillierte Diskussion des Arbeitsbereichs Part im Vergleich mit dem Arbeitsbereich Part Design findest du hier: [ Part und PartDesign](Part_and_PartDesign/de.md).
+Der Arbeitsbereich <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/de.md) verwendet zum Erstellen von Festkörpern die alternative Methodik der [konstruktiven Festkörpergeometrie](constructive_solid_geometry/de.md) (engl.: Constructive Solid Geometry, kurz CSG). Eine detaillierte Diskussion der Arbeitsbereiche Part und Part Design im Vergleich befindet sich unter [Part und Part Design](Part_and_PartDesign/de.md).
 
-Die mit PartDesign erstellten Körper unterliegen oft dem [topologischen Benennungsproblem](Topological_naming_problem/de.md), wodurch bei Änderungen an den parametrischen Operationen interne Formelemente umbenannt werden. Dieses Problem kann minimiert werden, indem die auf der Seite [Formelemente bearbeiten](feature_editing/de.md) beschriebenen Erfolgsrezepte befolgt und die Vorteile von Bezugsobjekten als Unterstützung für Skizzen und Features genutzt werden.
-
-<img alt="" src=images/PartDesign_Example.png  style="width:500px;">
+![](images/PartDesign_Workbench_Example.jpg )
 
 
 
 ## Werkzeuge
 
-Die Werkzeuge für PartDesign befinden sich alle im Menü **Part Design** und in der PartDesign Werkzeugleiste, die beim Laden des Arbeitsbereichs angezeigt wird.
-
-
-
-### Strukturwerkzeuge
-
-Diese Werkzeuge sind gar keine Bestandteile des Arbeitsbereichs PartDesign. Sie gehören zum System [Std Base](Std_Base.md). Sie wurden in v0.17 mit der Absicht entwickelt, dass sie nützlich sein könnten, um ein Modell zu strukturieren und [Baugruppen](Assembly/de.md) zu erstellen.
-
--   <img alt="" src=images/Std_Part.png  style="width:32px;"> [Teil](Std_Part/de.md): fügt einen neuen Teilecontainer in das aktive Dokument ein und aktiviert ihn.
-
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Gruppe](Std_Group/de.md): fügt einen Gruppencontainer in das aktive Dokument ein, der es erlaubt, die Objekte in der [Baumansicht](Tree_view/de.md) zu ordnen.
+Die Werkzeuge für PartDesign befinden sich alle im Menü **Part Design** und in der PartDesign-Symbolleiste, die beim Laden des Arbeitsbereichs angezeigt wird.
 
 
 
 ### Hilfswerkzeuge Part Design 
 
--   <img alt="" src=images/PartDesign_Body.png  style="width:32px;"> [Körper erstellen](PartDesign_Body/de.md): Erzeugen und aktivieren eines neuen [Körpers](Body/de.md).
+-   <img alt="" src=images/PartDesign_Body.png  style="width:32px;"> [Körper erstellen](PartDesign_Body/de.md): Erstellt einen [Körper](Body/de.md) (Body object) im aktiven Dokument und aktiviert ihn.
 
--   <img alt="" src=images/PartDesign_NewSketch.png  style="width:32px;"> [Skizze erstellen](PartDesign_NewSketch/de.md): erstellt eine neue Skizze auf einer ausgewählten Fläche oder Ebene. Wenn vor der Ausführung dieses Werkzeugs keine Fläche ausgewählt wurde, wird der Anwender aufgefordert, eine Ebene aus dem Aufgabenbereich auszuwählen. Die Schnittstelle wechselt dann im Bearbeitungsmodus
+-   <img alt="" src=images/PartDesign_NewSketch.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Skizze erstellen:
 
-in den [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md).
+  - <img alt="" src=images/PartDesign_NewSketch.svg  style="width:32px;"> [Skizze erstellen](PartDesign_NewSketch/de.md): erstellt eine neue Skizze auf einer ausgewählten Fläche oder Ebene. Wenn vor der Ausführung dieses Werkzeugs keine Fläche ausgewählt wurde, wird der Anwender aufgefordert, eine Ebene im Aufgaben-Bereich auszuwählen. Die Schnittstelle wechselt dann zum Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) in den Bearbeitungsmodus.
 
--   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> [Skizze bearbeiten](Sketcher_EditSketch/de.md): Bearbeiten der ausgewählten Skizze.
+  - <img alt="" src=images/Sketcher_MapSketch.png‎  style="width:32px;"> [Skizze befestigen\...](Sketcher_MapSketch/de.md): Heftet eine Skizze an eine Geometrie, die am aktiven Körper ausgewählt wurde.
 
--   <img alt="" src=images/Sketcher_MapSketch.png‎  style="width:32px;"> [Eine Skizze einer Fläche zuordnen](Sketcher_MapSketch/de.md): Ordnet eine Skizze einer zuvor ausgewählten Ebene oder einer Fläche des aktiven Körpers zu.
+  - <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> [Skizze bearbeiten](Sketcher_EditSketch/de.md): Öffnet die ausgewählte Skizze zum Bearbeiten.
 
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Skizze überprüfen](Sketcher_ValidateSketch/de.md): Überprüft die Toleranz verschiedener Punkte und passt sie an.
+
+-   <img alt="" src=images/Part_CheckGeometry.svg  style="width:32px;"> [Geometrie prüfen](Part_CheckGeometry/de.md): Prüft die Geometrie von ausgewählten Objekte auf Fehler.
+
+-   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Formbinder erstellen](PartDesign_ShapeBinder/de.md): Erzeugt einen Formbinder, der Geometrie eines einzelnen übergeordneten Objekts referenziert.
+
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Teilformbinder erstellen](PartDesign_SubShapeBinder/de.md): Erstellt einen Teilformbinder der Geometrie von einem oder mehreren übergeordneten Objekten referenziert.
+
+-   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Klon erstellen](PartDesign_Clone/de.md): Erstellt einen Klon des ausgewählten Körpers.
+
+-   <img alt="" src=images/PartDesign_Plane.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Bezugselement erstellen (
+
+  -<img alt="" src=images/PartDesign_Plane.svg  style="width:32px;"> [Bezugsebene erstellen](PartDesign_Plane/de.md): Erstellt eine Bezugsebene im aktiven Körper. ({{VersionMinus/de|1.0}})
+
+  -<img alt="" src=images/PartDesign_Line.svg  style="width:32px;"> [Bezugslinie erstellen](PartDesign_Line/de.md): Erstellt eine Bezugslinie im aktiven Körper. ({{VersionMinus/de|1.0}})
+
+  -<img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Bezugspunkt erstellen](PartDesign_Point/de.md): Erstellt einen Bezugspunkt im aktiven Körper. ({{VersionMinus/de|1.0}})
+
+  -<img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Lokales Koordinatensystem erstellen](PartDesign_CoordinateSystem/de.md): Erstellt ein lokales Koordinatensystem, das an der Bezugsgeometrie im aktiven Körper angeheftet ist. ({{VersionMinus/de|1.0}})
+
+:   
+    <small>(v1.1)</small> : these tools have been replaced by new [datum tools](Std_Base#Part_Datums.md).
 
 
 
 ### Modellierungswerkzeuge Part Design 
-
-
-
-#### Bezugsswerkzeuge
-
--   <img alt="" src=images/PartDesign_Point.svg  style="width:32px;"> [Bezugspunkt erstellen](PartDesign_Point/de.md): Erstellt einen Bezugspunkt im aktiven Körper. {{Version/de|0.17}}
-
--   <img alt="" src=images/PartDesign_Line.svg  style="width:32px;"> [Bezugslinie erstellen](PartDesign_Line/de.md): Erstellt eine Bezugslinie im aktiven Körper. {{Version/de|0.17}}
-
--   <img alt="" src=images/PartDesign_Plane.svg  style="width:32px;"> [Bezugsebene erstellen](PartDesign_Plane/de.md): Erstellt eine Bezugsfläche im aktiven Körper. {{Version/de|0.17}}
-
--   <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Erzeugt ein lokales Koordinatensystem](PartDesign_CoordinateSystem/de.md):
-
-Erzeugt ein lokales Koordinatensystem, das an der Bezugsgeometrie im aktiven Körper angelegt ist.
-
--   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Formbinder erstellen](PartDesign_ShapeBinder/de.md): Erzeugt einen Formbinder als Referenz auf Geometrie eines einzelnen übergeordneten Körpers.
-
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Formbinder für Teilobjekt erstellen](PartDesign_SubShapeBinder/de.md): Erstellt einen Formbinder als Referenz auf Geometrie von einem oder mehreren übergeordneten Objekten.
-
--   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Klon erstellen](PartDesign_Clone/de.md): Erstellt einen Klon des ausgewählten Körpers.
 
 
 
@@ -85,13 +74,13 @@ Dies sind Werkzeuge zum Erstellen von Basisformelementen oder zum Hinzufügen vo
 
 -   <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Rotation](PartDesign_Revolution/de.md): Erzeugt einen Drehkörper, durch drehen einer Skizze um eine Achse. Die Skizze muss ein geschlossenes Profil ergeben.
 
--   <img alt="" src=images/PartDesign_Additive_Loft.svg  style="width:32px;"> [Additive Ausformung](PartDesign_AdditiveLoft/de.md): Erzeugt einen Volumenkörper, indem ein Übergang zwischen zwei oder mehr Skizzen erstellt wird.
+-   <img alt="" src=images/PartDesign_AdditiveLoft.svg  style="width:32px;"> [Additive Ausformung](PartDesign_AdditiveLoft/de.md): Erzeugt einen Volumenkörper, indem ein Übergang zwischen zwei oder mehr Skizzen erstellt wird.
 
--   <img alt="" src=images/PartDesign_Additive_Pipe.svg  style="width:32px;"> [Additives Rohr](PartDesign_AdditivePipe/de.md): Erzeugt einen Volumenkörper, indem eine oder mehrere Skizzen entlang eines offenen oder geschlossenen Pfades ausgetragen wird.
+-   <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:32px;"> [Additives Rohr](PartDesign_AdditivePipe/de.md): Erzeugt einen Volumenkörper, indem eine oder mehrere Skizzen entlang eines offenen oder geschlossenen Pfades ausgetragen wird.
 
 -   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Additive Helix](PartDesign_AdditiveHelix/de.md): erzeugt einen Festkörper durch Austragen einer Skizze entlang einer Wendel.
 
--   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Grundkörper hinzufügen](PartDesign_CompPrimitiveAdditive/de.md): fügt dem aktiven Körper einen additiven Grundkörper hinzu. {{Version/de|0.17}}
+-   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Grundkörper hinzufügen:
 
   -<img alt="" src=images/PartDesign_Additive_Box.svg  style="width:32px;"> [Quader](PartDesign_AdditiveBox/de.md): Erstellt einen additiven Quader. {{Version/de|0.17}}
 
@@ -131,7 +120,7 @@ Erzeugt eine Volumenkörperform, indem eine oder mehrere Skizzen entlang eines o
 
 -   <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:32px;"> [Subtraktive helix](PartDesign_SubtractiveHelix/de.md): erzeugt eine Festkörperform, indem eine Skizze entlang einer Helix ausgetragen wird, und subtrahiert sie vom aktiven Körper.
 
--   <img alt="" src=images/PartDesign_CompPrimitiveSubtractive.png  style="width:48px;"> [Grundkörper abziehen](PartDesign_CompPrimitiveSubtractive/de.md): Fügt einen abzuziehenden Grundkörper zum aktiven Körper hinzu.
+-   <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Grundkörper abziehen:
 
   -<img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Quader](PartDesign_SubtractiveBox/de.md): fügt dem aktiven Körper eine subtraktiven Quader hinzu.
 
@@ -151,22 +140,13 @@ Erzeugt eine Volumenkörperform, indem eine oder mehrere Skizzen entlang eines o
 
 
 
-#### Transformationswerkzeuge
+#### Boolesche Operationen 
 
-Dies sind Werkzeuge zur Transformation bestehender Formelemente.
-
--   <img alt="" src=images/PartDesign_Mirrored.svg  style="width:32px;"> [Spiegeln](PartDesign_Mirrored/de.md): Spiegelt ein oder mehrere Formelemente.
-
--   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [Lineares Muster](PartDesign_LinearPattern/de.md) erstellt ein lineares Muster aus einem oder mehreren Formelementen.
-
--   <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:32px;"> [Polares Muster](PartDesign_PolarPattern/de.md): Erstellt ein polares Muster aus einem oder mehreren Formelemente.
-
--   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Mehrfachtransformation](PartDesign_MultiTransform/de.md): Erzeugt ein Muster durch eine beliebige Kombination der oben gelisteten Transformationen und der Transformation [Skalieren](PartDesign_Scaled/de.md).
-    -   <img alt="" src=images/PartDesign_Scaled.svg  style="width:32px;"> [Skalieren](PartDesign_Scaled/de.md): Skaliert ein oder mehrere Formelemente. Dieses steht nicht als eigenständiges Transformationswerkzeug zur Verfügung.
+-   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Boolesche Operation](PartDesign_Boolean/de.md): importiert einen oder mehrere Körper oder PartDesign Klone in den aktiven Körper und führt eine Boolesche Operation aus.
 
 
 
-#### Modifikationswerkzeuge
+### Modifikationswerkzeuge
 
 Diese Werkzeuge modifizieren Kanten und Flächen.
 
@@ -180,25 +160,34 @@ Diese Werkzeuge modifizieren Kanten und Flächen.
 
 
 
-#### Boolesche Operationen 
+### Transformationswerkzeuge
 
--   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Boolesche Operation](PartDesign_Boolean/de.md): importiert einen oder mehrere Körper oder PartDesign Klone in den aktiven Körper und führt eine Boolesche Operation aus.
+Dies sind Werkzeuge zur Transformation bestehender Formelemente.
+
+-   <img alt="" src=images/PartDesign_Mirrored.svg  style="width:32px;"> [Spiegeln](PartDesign_Mirrored/de.md): Spiegelt ein oder mehrere Formelemente.
+
+-   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [Lineares Muster](PartDesign_LinearPattern/de.md) erstellt ein lineares Muster aus einem oder mehreren Formelementen.
+
+-   <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:32px;"> [Polares Muster](PartDesign_PolarPattern/de.md): Erstellt ein polares Muster aus einem oder mehreren Formelemente.
+
+-   <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Mehrfachtransformation](PartDesign_MultiTransform/de.md): Erzeugt ein Muster durch eine beliebige Kombination der oben gelisteten Transformationen und der Transformation [Skalieren](PartDesign_Scaled/de.md).
+    -   <img alt="" src=images/PartDesign_Scaled.svg  style="width:32px;"> [Skalieren](PartDesign_Scaled/de.md): Skaliert ein oder mehrere Formelemente. Dieses steht nicht als eigenständiges Transformationswerkzeug zur Verfügung.
 
 #### Extras
 
 Einige zusätzliche Funktionen befinden sich im Menü Part Design:
 
--   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;">[Migrieren](PartDesign_Migrate/de.md): Migriert Dateien, die mit älteren FreeCAD Versionen erstellt wurden. Wenn die Datei rein PartDesign formelementbasiert ist, sollte die Migration erfolgreich sein. Wenn die Datei gemischte Part/Part Design/Entwurfsobjekte enthält, wird die Konvertierung höchstwahrscheinlich fehlschlagen.
-
 -   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Kettenrad](PartDesign_Sprocket/de.md): Erstellt ein Kettenradprofil, das extrudiert werden kann.
 
--   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Evolventenverzahnung](PartDesign_InvoluteGear/de.md): erzeugt ein Evolventenverzahnradprofil, das extrudiert werden kann.
+-   <img alt="" src=images/PartDesign_InvoluteGear.svg  style="width:32px;"> [Evolventenzahnrad](PartDesign_InvoluteGear/de.md): erzeugt ein Evolventenzahnradprofil, das extrudiert werden kann.
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Wellenauslegungsassistent](PartDesign_WizardShaft/de.md): Erzeugt eine Welle aus einer Wertetabelle und ermöglicht die Analyse von Kräften und Momenten. Die Welle wird mit einer umlaufenden Skizze erstellt, die bearbeitet werden kann.
 
 
 
 ### Kontextmenü Elemente 
+
+-   [Unterdrückt](PartDesign_Suppressed/de.md): Checkbox zum Deaktivieren eines bestimmten Formelements ohne es zu löschen. {{Version/de|1.0}}
 
 -   <img alt="" src=images/PartDesign_MoveTip.svg  style="width:32px;"> [Spitze setzen](PartDesign_MoveTip/de.md): definiert die Spitze neu, das ist das Merkmal, das außerhalb des Körpers erscheint.
 
@@ -212,7 +201,13 @@ Einige zusätzliche Funktionen befinden sich im Menü Part Design:
 
 -   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Aussehen](Std_SetAppearance/de.md): bestimmt das Aussehen des gesamten Teils (Farbtransparenz usw.).
 
--   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;">[Farben festlegen](Part_FaceColors/de.md): Weist den Teilflächen Farben zu.
+-   <img alt="" src=images/Part_ColorPerFace.svg  style="width:32px;"> [Farbe pro Fläche](Part_ColorPerFace.md): Weist den einzelnen Flächen von Objekten Farben zu.
+
+
+
+### Veraltete Werkzeuge 
+
+-   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Migrieren](PartDesign_Migrate/de.md): migriert Dateien von FreeCAD Versionen unter 0.17 zu Version 0.17. Dieses Werkzeug ist nicht verfügbar in <small>(v1.0)</small> .
 
 
 
@@ -227,7 +222,7 @@ Einige zusätzliche Funktionen befinden sich im Menü Part Design:
 
 -   [Wie FreeCAD anwenden](http://help-freecad-jpg87.fr/), eine Netzseite, die den Arbeitsablauf für die mechanische Konstruktion beschreibt.
 -   [Erstellen eines einfachen Teils mit PartDesign](Creating_a_simple_part_with_PartDesign/de.md)
--   [Grundlegende Teilekonstruktion Übung](Basic_Part_Design_Tutorial/de.md)
+-   [Grundlegende PartDesign-Anleitung 019](Basic_Part_Design_Tutorial_019/de.md)
 -   [PartDesign Lagerträger Tutorial I](PartDesign_Bearingholder_Tutorial_I/de.md) (muss aktualisiert werden)
 -   [PartDesign Lagerträger Tutorial II](PartDesign_Bearingholder_Tutorial_II/de.md) (muss aktualisiert werden)
 

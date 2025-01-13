@@ -23,10 +23,18 @@ The command can only create one relief at a time.
 ## Usage
 
 1.  Select two edges of a corner.
-2.  Activate the <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:16px;"> **SheetMetal AddCornerRelief** command using one of the following:
-    -   The **<img src="images/SheetMetal_AddCornerRelief.svg" width=16px> [Add Corner Relief](SheetMetal_AddCornerRelief.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Add Corner Relief** menu option.
-    -   The keyboard shortcut: **C** then **R**.
+2.  There are several ways to invoke the command:
+    -   Press the **<img src="images/SheetMetal_AddCornerRelief.svg" width=16px> [Add Corner Relief](SheetMetal_AddCornerRelief.md)** button.
+    -   Select the **SheetMetal → <img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Add Corner Relief** option from the menu.
+    -   Right-click in the [Tree view](Tree_view.md) or the [3D view](3D_view.md) and select the **Sheet Metal → <img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Add Corner Relief** option from the context menu.
+    -   Use the keyboard shortcut: **C** then **R**.
+3.  The **Generate Sheet Metal base shape** [Task panel](Task_panel.md) opens (introduced in version 0.5.00).
+4.  Optionally press the **Select** button to reselect the edges.
+    -   Press the **Preview** button to finish the selection and display the changes.
+5.  Optionally adjust the parameters in the Task panel.
+6.  Press the **OK** button to finish the command and close the Task panel.
+7.  A **CornerRelief** object will be created consisting of one new corner relief at the selected corner.
+8.  Optionally adjust the parameters in the [Property editor](Property_editor.md).
 
 ## Relief shapes 
 
@@ -69,24 +77,16 @@ Switching to Circle-Scaled and creating another unfold solid shows that 1,67 mm 
 
 ## Notes
 
--   The k factor defines where within the thickness of a sheet the neutral axis is located.
-
-:   (It would be nice to know if this factor is according to ISO or ANSI standard\...)
+-   The k factor defines where within the thickness of a sheet the neutral axis is located according to the ANSI standard.
+-   The selection accepts more than two edges, but only the first two edges are taken into account.
 
 ## Properties
 
 See also: [Property editor](Property_editor.md).
 
-A SheetMetal CornerRelief object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+A SheetMetal CornerRelief object is derived from a [Part Feature](Part_Feature.md) object or, if it is inside a [PartDesign Body](PartDesign_Body.md), from a [PartDesign Feature](PartDesign_Feature.md) object, and inherits all its properties. It also has the following additional properties:
 
 ### Data
-
-
-{{Properties_Title|Base}}
-
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
-
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
 
 
 {{Properties_Title|Parameters}}

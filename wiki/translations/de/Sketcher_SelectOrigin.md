@@ -14,17 +14,17 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/_Sketcher_SelectOrigin.svg  style="width:24px;"> **UrsprungAuswählen** wählt den Ursprung einer Skizze aus.
+Das Werkzeug <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:24px;"> [Sketcher UrsprungAuswählen](Sketcher_SelectOrigin/de.md) wählt den Ursprung der Skizze aus.
 
 
 
 ## Anwendung
 
-1.  Falls noch nicht erfolgt: Eine Skizze im Bearbeitungsmodus öffnen.
-2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Den Menüeintrag **Skizze → Sketcher-Werkzeuge → [<img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Ursprung auswählen** auswählen.
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Den Menüeintrag **Skizze → Sketcher-Werkzeuge → <img src="images/Sketcher_SelectOrigin.svg" width=16px> Ursprung auswählen** auswählen.
+    -   Ein Rechtsklick in den Abschnitt **Elemente** des [Sketcher-Dialogs](Sketcher_Dialog/de.md) und die Menüoption **<img src="images/Sketcher_SelectOrigin.svg" width=16px> Ursprung auswählen** im Kontextmenü auswählen.
     -   Das Tastaturkürzel **Z** dann **O**.
-3.  Der Ursprung der Skizze wird ausgewählt.
+2.  Der Ursprung der Skizze wird ausgewählt.
 
 
 

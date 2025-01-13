@@ -15,7 +15,7 @@
 
 ## Описание
 
-This tool draws a rounded rectangle by picking two opposite points. When starting the tool, the mouse pointer changes to a white cross with a red rounded rectangle icon. The coordinates of the pointer are shown beside it in blue in real time.
+The <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:24px;"> [Sketcher CreateOblong](Sketcher_CreateOblong.md) tool creates a rounded rectangle. <small>(v1.0)</small> : This is the same tool as [Sketcher CreateRectangle](Sketcher_CreateRectangle.md) but with a different initial mode.
 
 ![](images/SketcherCreateRoundedRectangleExample.png‎ )
 
@@ -23,12 +23,13 @@ This tool draws a rounded rectangle by picking two opposite points. When startin
 
 ## Применение
 
--   After pressing the <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:24px;"> **Create rounded rectangle** toolbar button, click once to set the first corner, then move the mouse and click a second time to set the opposite corner.
--   Pressing **Esc** or clicking the right mouse button cancels the function.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-## Notes
-
-See [Sketcher CreateRectangle](Sketcher_CreateRectangle#Notes.md).
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_CreateOblong.svg" width=16px> [Rounded rectangle](Sketcher_CreateOblong.md)** button.
+    -   Select the **Sketcher → Sketcher geometries → <img src="images/Sketcher_CreateOblong.svg" width=16px> Create rounded rectangle** option from the menu.
+    -   Use the keyboard shortcut: **G** then **O**.
+2.  For further steps see [Sketcher CreateRectangle](Sketcher_CreateRectangle#Usage.md).
 
 
 <div class="mw-translate-fuzzy">

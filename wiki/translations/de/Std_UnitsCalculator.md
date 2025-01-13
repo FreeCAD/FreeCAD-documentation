@@ -2,27 +2,35 @@
  GuiCommand:
    Name: Std UnitsCalculator
    Name/de: Std Einheitenrechner
-   MenuLocation: Werkzeuge , Einheitenrechner...
+   MenuLocation: Werkzeuge , Einheitenwandler...
    Workbenches: Alle
 ---
 
 # Std UnitsCalculator/de
 
+
+
 ## Beschreibung
 
-Der **Std Einheitenrechner**-Befehl öffnet die Einheitenrechner-Dialogbox. Der Einheitenrechner kann genutzt werden, um Werte von einem Einheitensystem in ein anderes zu konvertieren.
+Der Befehl **Std Einheitenrechner** öffnet den Einheitenwandler. Der Einheitenwandler kann genutzt werden, um Werte von einem Einheitensystem in ein anderes umzuwandeln.
 
-![](images/Units_Calculator_it.png ) 
-*Die Einheitenrechner-Dialogbox*
+![](images/Std_UnitsCalculator_Dialog.png ) 
+*Das Einheitenwandler-Dialogfenster*
+
+
 
 ## Anwendung
 
-1.  Wähle die **Werkzeuge → <img src="images/Std_UnitsCalculator.svg" width=16px> Einheitenrechner...**-Option aus dem Menü.
-2.  Die Einheitenrechner-Dialogbox öffnet sich. Mehr Informationen findest du unter [Optionen](#Options.md).
-3.  Die Dialogbox ist nicht modal, d.h sie kann während der Arbeit mit FreeCAD geöffnet bleiben.
-4.  Drücke die **Schließen**-Schaltfläche, um die Dialogbox zu schließen.
+1.  Den Menüeintrag **Werkzeuge → <img src="images/Std_UnitsCalculator.svg" width=16px> Einheitenwandler...** auswählen.
+2.  Das Dialogfenster **Einheitenwandler** wird geöffnet. Mehr Informationen finden sich unter [Optionen](#Optionen.md).
+3.  Das Dialogfenster ist nicht modal, d.h es kann während der Arbeit mit FreeCAD geöffnet bleiben.
+4.  Die Schaltfläche **Schließen** drücken, um das Dialogfenster zu schließen.
+
+
 
 ## Optionen
+
+
 
 ### Oberste Zeile 
 
@@ -35,31 +43,33 @@ Der **Std Einheitenrechner**-Befehl öffnet die Einheitenrechner-Dialogbox. Der 
 3.  Wenn es keine Eingabefehler gibt, wird im **=\>**-Feld sofort das Ergebnis angezeigt. Für die Beispielwerte ist das Ergebnis {{Value|0,394 in}}.
 4.  Wahlweise kannst du die **Kopieren**-Schaltfläche drücken, um den Inhalt des **=\>**-Feldes in die Zwischenablage zu kopieren. Der Wert kann dann bspw. in ein FreeCAD-Aufgaben-Feld oder eine Dialogbox eingefügt werden.
 
+
+
 ### Textbereich
 
 1.  Die in der obersten Zeile durchgeführte Konvertierung kann durch Drücken von **Enter** im ersten oder zweiten Eingabefeld in den Textbereich kopiert werden.
 2.  Der Textbereich kann mehrere Konvertierungen enthalten und sein Inhalt kann ausgewählt und durch gleichzeitiges Betätigen von **Strg**+**C** in die Zwischenablage kopiert und in anderen Programmen benutzt werden.
 
+
+
 ### Anzahl
 
+1.  Eine Option in der Aufklappliste **Einheitensystem** auswähen. Dies wird das Zieleinheitensystem. **Preference system** auswählen, um das Einheitensystem zu verwenden, das in den [Einstellungen](Preferences_Editor/de#Units.md) definiert ist.
+2.  Eine Option in der Aufklappliste **Maßeinheitenkategorie** auswählen.
+3.  Einen Wert mit Einheiten in das Eingabefeld **Anzahl** eingeben. Die Einheiten müssen zur Maßeinheitenkategorie passen.
+4.  In das Eingabefeld **Dezimalstellen** klicken und **Enter** drücken, um den Wert im Eingabefeld **Anzahl** zu konvertieren.
 
-**Dieser neue Teil ({{Version/de|0.19**) des Einheitenrechners enthält noch einige Fehlerchen.}}
 
-1.  Wähle eine Option aus der **Einheitensystem**-Aufklappliste. Dies wird das Zieleinheitensystem. Wähle **Preference system**, um das Einheitensystem zu verwenden, das in den [Einstellungen](Preferences_Editor/de#Units.md) definiert ist.
-2.  Wähle eine Option aus der **Maßeinheitenkategorie**-Aufklappliste.
-3.  Gib einen Wert mit Einheit in das **Anzahl**-Eingabefeld ein. Die Einheit muss zur Maßeinheitenkategorie passen.
-    -   Falls die **Area**-Einheitenkategorie (Fläche) ausgewählt wurde, ist die Eingabe von bestimmten Einheiten problematisch. Um bspw. {{Value|m^2}} einzugeben, musst du zuerst {{Value|^2}} eingeben, den Cursor dann vor dem {{Value|^}}-Zeichen platzieren und dann {{Value|m}} eingeben.
-4.  Klicke in das **Dezimalstellen**-Eingabefeld und drücke **Enter**, um den Wert im **Anzahl**-Eingabefeld zu konvertieren.
 
 ## Hinweise
 
--   Siehe die [Ausdrücke](Expressions/de#Units.md)-Seite für eine Liste aller bekannten Einheiten.
+-   Siehe [Ausdrücke](Expressions/de#Units.md) für eine Liste aller bekannter Einheiten.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

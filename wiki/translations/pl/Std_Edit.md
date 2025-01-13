@@ -9,15 +9,21 @@
 
 # Std Edit/pl
 
+
+
 ## Opis
 
 Polecenie **Std: Edycja** aktywuje lub dezaktywuje tryb edycji obiektu.
+
+
 
 ## Użycie
 
 1.  Jeśli żaden obiekt nie znajduje się w trybie edycji: wybierz pojedynczy obiekt.
 2.  Wybierz z menu **Edycja → <img src="images/Std_Edit.svg" width=16px> Przełącz tryb edycji**.
 3.  Aktywowany jest domyślny tryb edycji wybranego obiektu lub dezaktywowany dotychczasowy tryb edycji.
+
+
 
 ## Uwagi
 
@@ -28,12 +34,14 @@ Polecenie **Std: Edycja** aktywuje lub dezaktywuje tryb edycji obiektu.
 
 -   Tryb edycji obiektu może być również aktywowany przez dwukrotne kliknięcie na obiekcie w [widoku drzewa](Tree_view/pl.md). W takim przypadku tryb edycji, który jest używany, może być zdefiniowany za pomocą polecenia [Std UserEditMode](Std_UserEditMode.md).
 
+
+
 ## Tworzenie skryptów 
 
 
 **Zobacz również:**
 
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+[Automatycznie generowana dokumentacja API](https://freecad.github.io/SourceDoc/) i [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
 Aby włączyć tryb edycji obiektu należy użyć metody `setEdit` obiektu dokumentu. Ta metoda nie jest dostępna, jeśli FreeCAD jest uruchomiony w trybie konsoli.
 
@@ -64,7 +72,7 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

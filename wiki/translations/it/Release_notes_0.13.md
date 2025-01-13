@@ -15,7 +15,7 @@ Versioni precedenti: ([0.11 en](Release_notes_0.11.md)) - [0.12](Release_notes_0
 ## Modulo Drawing - Disegno in Proiezione 
 
 -   **Operazione Ritaglio**: Un nuovo oggetto di [Ritaglio](Drawing_Clip/it.md) consente di posizionare le viste di oggetti all\'interno di rettangoli ritagliati nelle pagine di disegno.
--   **Blocchi di titoli editabili**: Durante la progettazione dei [Modelli di squadrature](Drawing_templates/it.md), ora è possibile marcare i testi modificabili. Tali testi diventano quindi direttamente modificabili in FreeCAD.
+-   **Blocchi di titoli editabili**: Durante la progettazione dei Modelli di squadrature, ora è possibile marcare i testi modificabili. Tali testi diventano quindi direttamente modificabili in FreeCAD.
 -   **Operazione Annotazione**: Un nuovo oggetto [Annotazione](Drawing_Annotation/it.md), una semplice funzione per posizionare rapidamente i blocchi di testo in una pagina di disegno.
 -   **Viste ortografiche**: Un nuovo strumento [Viste ortogonali](Drawing_Orthoviews/it.md) facilita la creazione di viste multiple tutte allineate tra di loro, secondo la proiezione del primo o del terzo quadrante.
 -   **Anteprima Browser**: Dato che il visualizzatore interno SVG di Qt non supporta sempre tutte le funzionalità SVG, questo pulsante consente di controllare come appare una pagina nel browser Webkit il quale supporta pienamente il formato SVG. Questo è provvisorio, fino a quando non viene sostituito definitivamente l\'attuale viewer SVG con Webkit \...

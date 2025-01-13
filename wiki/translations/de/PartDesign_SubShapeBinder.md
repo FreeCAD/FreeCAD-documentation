@@ -3,9 +3,9 @@
    Name: PartDesign SubShapeBinder
    Name/de: PartDesign Teilformbinder
    Workbenches: PartDesign_Workbench/de
-   MenuLocation: Part Design , Formbinder für Teilobjekt erstellen
+   MenuLocation: Part Design , Teilformbinder erstellen
    Version: 0.19
-   SeeAlso: PartDesign_ShapeBinder/de, PartDesign_Clone/de
+   SeeAlso: PartDesign_Clone/de
 ---
 
 # PartDesign SubShapeBinder/de
@@ -64,7 +64,7 @@ Rechts: zwei Teilformbinder, die Geometrien des ersten Körpers referenzieren, i
 
 ## Hinweise
 
--   2D-Versatz wird für einige Formarten unterstützt, eingeschlossen ebene Flächen, Kanten und Drähte. Da Versetzen für die Software eine schwierige Aufgabe ist, ist diese nicht immer erfolgreich. {{Version/de|0.20}}
+-   2D-Versatz wird für einige Formarten unterstützt, eingeschlossen ebene Flächen, Kanten und Kantenzüge. Da Versetzen für die Software eine schwierige Aufgabe ist, ist diese nicht immer erfolgreich.
 -   Ein Teilformbinder der sich nicht innerhalb eines Körpers befindet, kann als [Basis-Formelement](PartDesign_Body/de#Basis_Formelement.md) eines neuen Körpers dienen.
 -   Die {{PropertyData/de|Support}} enthält die Verknüpfungen zu den referenzierten Geometrien. Die Eigenschaft ist schreibgeschützt, kann aber durch das unter [Mit leerem Teilformbinder starten](#Mit_leerem_Teilformbinder_starten.md) beschriebenen Vorgehen geändert werden.
 -   Ein aus einer Skizze erstellter Teilformbinder kann eine umgekehrte \"Werkzeugausrichtung\" besitzen. Beispielsweise kann sich ein aus einer Skizze extrudierter [Block](PartDesign_Pad/de.md) in die positive Y-Richtung ausdehnen, während sich ein aus einem Teilformbinder extrudierter [Block](PartDesign_Pad/de.md) mit den gleichen Eigenschaften in die negative Y-Richtung ausdehnt. Durch umschalten der {{PropertyData/de|Reversed}} (oder der Checkbox) kann dies angeglichen werden.
@@ -73,17 +73,7 @@ Rechts: zwei Teilformbinder, die Geometrien des ersten Körpers referenzieren, i
 
 ## Vergleich von PartDesign Teilformbinder und PartDesign Formbinder 
 
-Die Werkzeuge PartDesign Teilformbinder und [PartDesign Formbinder](PartDesign_ShapeBinder/de.md) sind ziemlich ähnlich. Ihre Namen sind etwas verwirrend, da beide sowohl ganze Objekte als auch Unterelemente referenzieren können.
-
-Die Hauptunterschiede sind:
-
--   Das Ändern eines PartDesign-Formbinders ist einfacher. Ein Doppelklick auf das Objekt in der [Baumansicht](Tree_view/de.md) öffnet den Aufgabenbereich.
--   Ein PartDesign-Formbinder kann entweder ein einzelnes, ganzes Objekt referenzieren oder Unterelemente die zu einem einzigen übergeordneten Objekt gehören. Ein PartDesign-Teilformbinder besitzt diese Einschränkung nicht.
--   Nur PartDesign-Teilformbinder können Geometrien aus externen Dateien referenzieren.
--   ein PartDesign-Teilformbinder ermittelt immer die relative Positionierung der referenzierten Geometrie. Dieses Verhalten ist für den PartDesign-Formbinder optional und kann über seine {{PropertyData/de|Trace Support}} aktiviert werden.
--   Nur PartDesign-Teilformbinder unterstützen 2D-Versatz (parallele Konturen).
-
-While keeping in mind that each of these tools has its pros and cons and the choice may depend on the use case, one can conclude that using a SubShapeBinder is currently recommended for most applications due to its versatility and range of options. More about these tools can be found in MangoJelly\'s video \[<https://www.youtube.com/watch?v=ylAMGQ8HV0w>\| FreeCAD For Beginners 34: Part Design Shape Binder vs Sub Shape Binder\].
+Siehe [Vergleich von PartDesign-Teilformbinder und PartDesign-Formbinder](PartDesign_ShapeBinder/de#Vergleich_von_PartDesign_Teilformbinder_und_PartDesign_Formbinder.md).
 
 
 
@@ -117,7 +107,7 @@ Ein PartDesign-Teilformbinder (Binder-Objekt) ist von einem [Part-Formelement](P
 -    {{PropertyData/de|Bind Copy On Change|Enumeration}}
     
 
--    {{PropertyData/de|Refine|Bool}}: wenn auf `True` gesetzt, werden überzählige Kanten entfernt (z.B. nach einer booleschen Operation). {{Version/de|0.20}}
+-    {{PropertyData/de|Refine|Bool}}: wenn auf `True` gesetzt, werden überzählige Kanten entfernt (z.B. nach einer booleschen Operation).
 
 -    {{PropertyData/de|_ Version|Integer|hidden}}: Version dieses Objekttyps.
 
@@ -126,20 +116,27 @@ Ein PartDesign-Teilformbinder (Binder-Objekt) ist von einem [Part-Formelement](P
 
 {{TitleProperty|Cache}}
 
--    {{PropertyData/de|Körper|Matrix|ausgeblendet}}: Einheitenmatrix dieses Objekts.
+-    {{PropertyData/de|Cache_*|Matrix|hidden}}: Einheitsmatrix (eine separate Eigenschaft für jedes Objekt in {{PropertyData/de|Support}}).
 
 
 {{TitleProperty|Offsetting}}
 
--    **Offset**: 2D offset to apply. If Offset = 0, then no offset is applied. If Offset \< 0, then the offset is applied inward. <small>(v0.20)</small> 
+-    **Offset**: 2D offset to apply. If Offset = 0, then no offset is applied. If Offset \< 0, then the offset is applied inward.
 
--    **Offset Join Type**: Join method of offsetting non-tangent joints. The method can be {{Value|Arcs}}, {{Value|Tangent}} or {{Value|Intersection}}. <small>(v0.20)</small> 
+-    **Offset Join Type**: Join method of offsetting non-tangent joints. The method can be {{Value|Arcs}}, {{Value|Tangent}} or {{Value|Intersection}}.
 
--    **Offset Fill|Bool**: If `True`, a face is made between the new wire and the original wire. See also the **Make Face** property. <small>(v0.20)</small> 
+-    **Offset Fill|Bool**: If `True`, a face is made between the new wire and the original wire. See also the **Make Face** property.
 
--    **Offset Open Result|Bool**: Affects the way open wires are processed. If `False`, an open wire is made. If `True`, a closed wire is made from a double-sided offset, with rounds around open vertices. <small>(v0.20)</small> 
+-    **Offset Open Result|Bool**: Affects the way open wires are processed. If `False`, an open wire is made. If `True`, a closed wire is made from a double-sided offset, with rounds around open vertices.
 
--    **Offset Intersection|Bool**: Affects the way compounds are processed. If `False`, all children are processed independently. If `True`, and children are edges and wires, the children are offset in a collective manner. <small>(v0.20)</small> 
+-    **Offset Intersection|Bool**: Affects the way compounds are processed. If `False`, all children are processed independently. If `True`, and children are edges and wires, the children are offset in a collective manner.
+
+### View
+
+
+{{TitleProperty|Base}}
+
+-    **Use Binder Style|Bool**: If `True` the colors of the binder object depend on the [fine-tuning](Fine-tuning#PartDesign_Workbench.md) parameter **DefaultDatumColor**. If `False`, normal shape colors are applied.
 
 
 

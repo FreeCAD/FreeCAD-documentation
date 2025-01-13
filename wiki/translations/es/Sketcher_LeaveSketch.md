@@ -15,7 +15,7 @@
 
 </div>
 
-The **Leave sketch** command exits the sketch editing mode and frees up the [Task panel](Task_panel.md).
+The <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:16px;"> [Sketcher LeaveSketch](Sketcher_LeaveSketch.md) tool finishes sketch edit mode and closes the [Sketcher Dialog](Sketcher_Dialog.md).
 
 
 
@@ -27,11 +27,14 @@ The **Leave sketch** command exits the sketch editing mode and frees up the [Tas
 
 </div>
 
-There are several ways to invoke this command:
-
--   Press the **Close** button at the top of the [task panel](Task_panel.md).
--   Press the **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button
--   Select the **Sketch → [<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> Leave sketch** option from the menu.
+1.  There are several ways to invoke the tool:
+    -   Press the **Close** button at the top of the Sketcher Dialog.
+    -   If the **Esc can leave sketch edit mode** [preference](Sketcher_Preferences#General.md) is selected (default): press the **Esc** key.
+    -   Press the **<img src="images/Sketcher_LeaveSketch.svg" width=16px> [Leave sketch](Sketcher_LeaveSketch.md)** button.
+    -   Select the **Sketch → <img src="images/Sketcher_LeaveSketch.svg" width=16px> Leave sketch** option from the menu.
+    -   Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_LeaveSketch.svg" width=16px> Leave sketch** option from the context menu.
+    -   Right-click the sketch in the [Tree view](Tree_view.md) and select the **Finish editing** option from the context menu.
+2.  The Sketcher Dialog is closed.
 
 
 <div class="mw-translate-fuzzy">

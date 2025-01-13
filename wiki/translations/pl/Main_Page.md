@@ -1,7 +1,7 @@
 # Main Page/pl
 ## Wprowadzenie
 
-To jest dokumentacja Wiki programu [FreeCAD](https://www.freecadweb.org/?lang=pl). Istnieje kilka sposobów korzystania z tej dokumentacji: poprzez eksplorację centrów użytkownika, poprzez podążanie za podręcznikiem lub poprzez użycie pozycji menu Pomoc z poziomu FreeCAD. Wiki jest w czasie rozwoju, pisana przez społeczność użytkowników i twórców programu FreeCAD. Jeśli znalazłeś nieprawdziwą lub brakującą informację, proszę [pomóż](Help_FreeCAD/pl.md)! 
+To jest dokumentacja Wiki programu [FreeCAD](https://www.freecad.org/?lang=pl). Istnieje kilka sposobów korzystania z tej dokumentacji: poprzez eksplorację centrów użytkownika, poprzez podążanie za podręcznikiem lub poprzez użycie pozycji menu Pomoc z poziomu FreeCAD. Wiki jest w czasie rozwoju, pisana przez społeczność użytkowników i twórców programu FreeCAD. Jeśli znalazłeś nieprawdziwą lub brakującą informację, proszę [pomóż](Help_FreeCAD/pl.md)! 
 
 
 
@@ -17,7 +17,7 @@ To jest dokumentacja Wiki programu [FreeCAD](https://www.freecadweb.org/?lang=pl
 
 ## Podręcznik
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Podręcznik FreeCAD](Manual:Introduction/pl.md) to inny bardziej regularny sposób prezentowania informacji zawartych w tej Wiki. Podręcznik został stworzony aby czytać go jak zwykłą książkę, i łagodnie wprowadzać się do wielu innych zagadnień zawartych w powyższych centrach użytkowników. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details),[kilka tłumaczeń *(brak języka polskiego)*](https://www.freecadweb.org/manual/). 
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Podręcznik FreeCAD](Manual:Introduction/pl.md) to inny bardziej regularny sposób prezentowania informacji zawartych w tej Wiki. Podręcznik został stworzony aby czytać go jak zwykłą książkę, i łagodnie wprowadzać się do wielu innych zagadnień zawartych w powyższych centrach użytkowników. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details),[kilka tłumaczeń *(brak języka polskiego)*](https://www.freecad.org/manual/). 
 
 
 
@@ -59,13 +59,13 @@ Strona [Pomóż w rozwoju FreeCAD](Special:MyLanguage/help_FreeCAD.md) opisuje w
 
 ### Kod źródłowy 
 
-FreeCAD może zostać skompilowany na wszystkie platformy przy pomocy [CMake](https://cmake.org/). Kod źródłowy jest udostępniony na zasadach licencji [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) na stronie [GitHub](https://github.com/FreeCAD/FreeCAD) i powielony na [GitLab](https://gitlab.com/freecad/FreeCAD), [SourceForge](https://sourceforge.net/projects/free-cad/) oraz [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Instrukcje kompilacji są dostępne dla systemów [Linux](Compile_on_Linux/pl.md), [MacOSX](Compile_on_MacOS/pl.md) i [Windows](Compile_on_Windows/pl.md). Dokumentacja kodu źródłowego jest dostępna [tutaj](http://www.freecadweb.org/api/) i została wygenerowana przy pomocy [Doxygen](Doxygen/pl.md), a strona Wiki opisująca dokładniej dokumentacje kodu źródłowego dostępna jest [tutaj](Source_documentation/pl.md).
+FreeCAD może zostać skompilowany na wszystkie platformy przy pomocy [CMake](https://cmake.org/). Kod źródłowy jest udostępniony na zasadach licencji [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) na stronie [GitHub](https://github.com/FreeCAD/FreeCAD) i powielony na [GitLab](https://gitlab.com/freecad/FreeCAD), [SourceForge](https://sourceforge.net/projects/free-cad/) oraz [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). Instrukcje kompilacji są dostępne dla systemów [Linux](Compile_on_Linux/pl.md), [MacOSX](Compile_on_MacOS/pl.md) i [Windows](Compile_on_Windows/pl.md). Dokumentacja kodu źródłowego jest dostępna [tutaj](http://www.freecad.org/api/) i została wygenerowana przy pomocy [Doxygen](Doxygen/pl.md), a strona Wiki opisująca dokładniej dokumentacje kodu źródłowego dostępna jest [tutaj](Source_documentation/pl.md).
 
 
 
 ### O rozwoju 
 
-Sprawdź [Drogę rozwoju](Development_roadmap.md) by dowiedzieć się co jest planowane. Możesz odwiedzić [Dziennik zmian](http://www.freecadweb.org/tracker/changelog_page.php) i [FreeCAD tracker](http://www.freecadweb.org/tracker), aby sprawdzić postęp wydawania kolejnej wersji programu, lub zobacz [Statystyki projektu](http://www.ohloh.net/p/freecad) by zobaczyć jeszcze więcej informacji o kodzie FreeCAD-a. Cała komunikacja w kwestii rozwoju odbywa się na [forum](http://www.freecadweb.org/forum), więc nie zapomnij go odwiedzić, jeśli chcesz współtworzyć projekt.
+Sprawdź [Drogę rozwoju](Development_roadmap.md) by dowiedzieć się co jest planowane. Możesz odwiedzić strony [Dziennik zmian](http://www.freecad.org/tracker/changelog_page.php) i [Roadmap](http://www.freecad.org/tracker/roadmap_page.php) na [FreeCAD tracker](https://github.com/FreeCAD/FreeCAD/issues), aby sprawdzić postęp wydawania kolejnej wersji programu, lub zobacz [Statystyki projektu](http://www.ohloh.net/p/freecad) by zobaczyć jeszcze więcej informacji o kodzie FreeCAD-a. Cała komunikacja w kwestii rozwoju odbywa się na [forum](http://www.forum.freecad.org), więc nie zapomnij go odwiedzić, jeśli chcesz współtworzyć projekt.
 
 
 

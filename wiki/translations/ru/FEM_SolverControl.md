@@ -10,9 +10,13 @@
 
 # FEM SolverControl/ru
 
+
+
 ## Описание
 
 This command is used to control the FEM solver (write the input file, edit it, and trigger the solver).
+
+
 
 ## Применение
 

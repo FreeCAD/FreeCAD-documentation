@@ -1,5 +1,5 @@
 # Category:Raytracing/tr
-This category lists pages related to the [Raytracing Workbench/tr](Raytracing_Workbench/tr.md).
+This category is for pages related to the [Raytracing Workbench/tr](Raytracing_Workbench/tr.md).
 
 ### Contents
 

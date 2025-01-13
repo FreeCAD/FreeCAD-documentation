@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft PointArray
    Name/pl: Rysunek Roboczy: Szyk z punktów
-   MenuLocation: Modyfikacja , Narzędzia szyku , Szyk z punktów
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Modyfikacja , Narzędzia szyku , Szyk z punktów<br>Modyfikacja , Szyk z punktów
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Version: 0.18
    SeeAlso: Draft_OrthoArray/pl, Draft_PolarArray/pl, Draft_CircularArray/pl, Draft_PathArray/pl, Draft_PointArray/pl, Draft_PointLinkArray/pl
 ---
@@ -16,11 +16,9 @@
 
 Polecenie <img alt="" src=images/Draft_PointArray.svg  style="width:24px;"> **Szyk z punktów** tworzy regularną tablicę z wybranego obiektu bazowego poprzez umieszczenie kopii w punktach obiektu punktowego. Użyj polecenia [Szyk powiązań w punktach](Draft_PointLinkArray/pl.md), aby utworzyć bardziej wydajną tablicę [Łączy](App_Link/pl.md). Z wyjątkiem typu tworzonego szyku, szyku łączy lub zwykłego szyku, polecenie [Szyk powiązań w punktach](Draft_PointLinkArray/pl.md) działa identycznie jak to polecenie.
 
-Narzędzie Szyk z punktów może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
+Narzędzie Szyk z punktów może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [BIM](BIM_Workbench/pl.md).
 
-Obiektem punktowym może być dowolny obiekt z kształtem i wierzchołkami *(w tym [Std: Część](Std_Part/pl.md) zawierający jeden lub więcej takich obiektów)*, a także [siatka](Mesh_Workbench/pl.md) i [point cloud](Points_Workbench/pl.md). Zduplikowane punkty w obiekcie punktowym są odfiltrowywane. {{Version/pl|0.21}}
-
-W {{VersionMinus/pl|0.20}} obsługiwane są tylko trzy typy obiektów punktowych patrz [Obiekt punktów w wersji 0.20 i niższej](#Obiekt_punktów_w_wersji_0.20_i_niższej.md).
+Obiektem punktowym może być dowolny obiekt z kształtem i wierzchołkami *(w tym [Std: Część](Std_Part/pl.md) zawierający jeden lub więcej takich obiektów)*, a także [siatka](Mesh_Workbench/pl.md) i [chmura punktów](Points_Workbench/pl.md). Zduplikowane punkty w obiekcie punktowym są odfiltrowywane.
 
 <img alt="" src=images/Draft_PointArray_Example.png  style="width:400px;"> 
 *Szyk z punktów.*
@@ -33,19 +31,10 @@ W {{VersionMinus/pl|0.20}} obsługiwane są tylko trzy typy obiektów punktowych
 2.  Dodaj obiekt punktów do zaznaczenia.
 3.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_PointArray.svg" width=16px> '''Szyk z punktów'''**.
-    -   Wybierz opcję z menu **Modyfikacja → Narzędzia szyku → <img src="images/Draft_PointArray.svg" width=16px> Szyk z punktów**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz opcję z menu **Modyfikacja → Narzędzia szyku → <img src="images/Draft_PointArray.svg" width=16px> Szyk z punktów**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Modyfikacja → <img src="images/Draft_PointArray.svg" width=16px> Szyk z punktów** z menu.
 4.  Tablica zostanie utworzona.
-5.  Opcjonalnie można zmienić [właściwości](#właściwości.md) tablicy w [edytor właściwości](Property_editor/pl.md).
-
-
-
-## Obiekt punktów w wersji 0.20 i niższej 
-
-Oto obsługiwane obiekty punktowe w {{VersionMinus/pl|0.20}} i sposób ich tworzenia:
-
--   [Part Compound](Part_Compound/pl.md): Utwórz jeden lub więcej [Punktów](Draft_Point/pl.md) środowiska Rysunek Roboczy lub [Punktów](Part_Point/pl.md) środowiska Część, wybierz je i wywołaj polecenie [Kształt złożony](Part_Compound/pl.md) środowiska Część.
--   Blok: Utwórz jeden lub więcej [Punktów](Draft_Point/pl.md) środowiska Rysunek Roboczy lub [Punktów](Part_Point/pl.md) środowiska Część, zaznacz je i wywołaj polecenie [Ulepsz kształt](Draft_Upgrade/pl.md) środowiska Rysunek Roboczy.
--   Otwórz środowisko pracy [Szkicownik](Sketcher_NewSketch/pl.md): Utwórz [Szkic](Sketcher_NewSketch/pl.md) i dodaj jeden lub więcej [Punktów](Sketcher_CreatePoint/pl.md) do szkicu.
+5.  Opcjonalnie można zmienić [właściwości](#właściwości.md) tablicy w [edytorze właściwości](Property_editor/pl.md).
 
 
 
@@ -104,7 +93,9 @@ Właściwości w tej grupie są dostępne tylko dla szyków łączy. Więcej inf
 
 -    **Dodatkowe umiejscowienie|Placement**: : określa dodatkowe [Umiejscowienie](Placement/pl.md), przesunięcie i obrót dla każdego elementu w szyku.
 
--    **Obiekt punktowy|Link**: określa obiekt złożony, którego punkty są używane do pozycjonowania elementów w tablicy. Obiekt musi mieć właściwość **Łącze**, **Komponenty** lub **Geometria** i zawierać co najmniej jeden element z właściwościami **X**, **Y** i **Z**.
+-    **Połącz|Bool**: określa, czy nakładające się elementy w tablicy są łączone, czy nie. Nie używane dla tablic Łączy. {{Version/pl|1.0}}.
+
+-    **Obiekt punktowy|Link**: określa obiekt, którego punkty są używane do pozycjonowania elementów w tablicy.
 
 
 

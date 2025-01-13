@@ -1,7 +1,7 @@
 # Navigation Cube/ko
-## Introduction
+## 소개
 
-The **Navigation Cube** gives visual information about the camera orientation in the current [3D view](3D_view.md) and can be used to change it. By default it is visible and resides in the upper right corner of the view.
+**항해 입방체**는 현재 [3차원 보기의](3D_view/ko.md) 카메라 방향에 대한 시각적 정보를 제공하며 이를 변경하는 데 사용할 수 있습니다. 기본적으로 표시되며 보기의 오른쪽 상단에 위치합니다.
 
 ![](images/Navigation_Cube_Example.png )
 
@@ -40,6 +40,10 @@ Clicking the small cube in the bottom right corner of the Navigation Cube brings
 -    **<img src="images/Std_ViewIsometric.svg" width=16px> [Isometric](Std_ViewIsometric.md)**: switches to an isometric view.
 
 -    **<img src="images/Std_ViewFitAll.svg" width=16px> [Fit all](Std_ViewFitAll.md)**: zooms and pans the camera so that all visible objects fit inside the view.
+
+-    **<img src="images/Std_ViewFitSelection.svg" width=16px> [Fit selection](Std_ViewFitSelection.md)**: zooms and pans the camera so that all selected objects fit inside the view. <small>(v1.0)</small> 
+
+-    **<img src="images/Std_AlignToSelection.svg" width=16px> [Align to selection](Std_AlignToSelection.md)**: points the camera in the view in the opposite direction of the normal of a planar face, or the opposite direction of a straight edge. <small>(v1.0)</small> 
 
 -    **Movable navigation cube**: if this checkbox (<small>(v0.21)</small> ) is checked the entire Navigation Cube can be moved by holding down the left mouse button anywhere on the main cube and dragging. This is intended to temporarily move the cube out of the way. The [advanced parameters](#Advanced_parameters.md) OffsetX and OffsetY can be used to permanently reposition the cube, see below.
 

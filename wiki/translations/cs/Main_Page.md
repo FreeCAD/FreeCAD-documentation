@@ -1,4 +1,7 @@
 # Main Page/cs
+## Introduction
+
+
 <div class="mw-translate-fuzzy">
 
 Toto je wiki dokumentace [FreeCADu](http://www.freecadweb.org). Informace obsažené zde jsou ty, které budou v offline dokumentaci distribuované s FreeCADem. Pro prohlížení dokumentace pak máte dvě možnosti: buď v uživatelském centru nebo v manuálu. Právě se na tom pracuje, dokumentace je psána komunitou uživatelů a vývojářů FreeCADu. Najdete-li informace které jsou chybné nebo které chybí, prosím [pomozte](Help_FreeCAD/cs.md)!
@@ -32,7 +35,7 @@ Dále jsou tři hlavní vstupní body do dokumentace, pro tři velké kategorie 
 
 ## Manuál
 
-<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual_Introduction.md)  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/).
+<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual_Introduction.md)  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecad.org/manual/).
 
 
 

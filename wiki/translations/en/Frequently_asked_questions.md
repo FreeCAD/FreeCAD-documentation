@@ -15,10 +15,6 @@ In contrast to most 3D CAD software, FreeCAD can run smoothly on the most modest
 
 FreeCAD\'s underlying geometric modeling kernel, the [OpenCASCADE Technology](http://en.wikipedia.org/wiki/Open_Cascade_Technology) (OCCT) third-party library, [has only partial multi-threading support at this time](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501&p=173095&hilit=Multithread#p173095). See the [multithreading](multithreading.md) page for more details.
 
-#### For Mac users 
-
-Only the MacIntel architecture is supported. There are no builds available for the PowerPC architecture.
-
 ### What if I want to compile FreeCAD myself? 
 
 The source code of FreeCAD is always available in the project source code repository. Compiling FreeCAD yourself allows you to use the most recent features being developed, but requires a bit of computer knowledge, although the procedure is fairly simple. Access to the source code is explained [here](Compile_on_Linux#Getting_the_source.md), and we have detailed instructions for compiling on [Windows](Compile_on_Windows.md), [Linux](Compile_on_Linux.md) and [macOS](Compile_on_MacOS.md).
@@ -97,10 +93,6 @@ If there is any difference, either FreeCAD or SoQt must be recompiled (better to
 
 A segmentation fault happens at {{SystemOutput|vbo_save_playback_vertex_list()}}. This means that the implementation of VBO in the graphic driver is bad. In order to avoid caching OpenGL calls you can try to set the environment variable {{SystemInput|<nowiki>IV_SEPARATOR_MAX_CACHES=0</nowiki>}} and restart FreeCAD.
 
-### I have trouble running FreeCAD on macOS 
-
-The Mac platform is less easy to support than Windows or Linux, since none of the core developers owns one. The macOS packages are compiled by volunteering FreeCAD users, and they might sometimes not work correctly on your machine, depending on your system. Your best chance is probably to head to the forums, look for macOS-related threads, and discuss your problem there or see if someone else encountered a solution.
-
 ### I cannot change numeric values in FreeCAD\'s properties panels 
 
 <img alt="language options" src=images/Jj62l.png  style="width:480px;">
@@ -123,7 +115,7 @@ There is a [Macro findConfigFiles](Macro_findConfigFiles.md) available to help i
 
 ### Is FreeCAD really free? Even for commercial use? 
 
-FreeCAD is [open-source software](http://en.wikipedia.org/wiki/Open-source_software), and is free not only to use, for yourself or for doing commercial work, but also to distribute, modify, or even use in a closed-source application. To summarize, you are free to do (almost) anything you want with it. See the [Licence](Licence.md) page for more details.
+FreeCAD is [open-source software](http://en.wikipedia.org/wiki/Open-source_software), and is free not only to use, for yourself or for doing commercial work, but also to distribute, modify, or even use in a closed-source application. To summarize, you are free to do (almost) anything you want with it. See the [License](License.md) page for more details.
 
 ### How do I rotate the 3D view? 
 
@@ -181,7 +173,12 @@ The above code retrieves the shape from an object, shows the faces and wires you
 
 ### My boolean operations fail, or give weird results 
 
-The [Open CASCADE](https://en.wikipedia.org/wiki/Open_CASCADE_Technology) geometric modeling kernel used in FreeCAD for Part geometry, although probably the best open-source geometry kernel available, has its flaws and limitations. Indeed the boolean operations (fusion, subtraction, intersection) are not its best features, and often give strange results. This is a current limitation we have no way to solve at once, so your best path is to try obtaining the desired result by modeling another way. For example, problems with primitives such as cylinder can often be solved by using an extruded circle instead. Coplanar surfaces between parts can cause trouble, as well as surface tangency. As a general rule, if a shape doesn\'t work, try remodeling it a different way. In 99% of the cases at the end you will manage to obtain the result you want.
+Like all solid modeling kernels, the [Open CASCADE](https://en.wikipedia.org/wiki/Open_CASCADE_Technology) geometric modeling kernel used in FreeCAD for Part geometry, although probably the best open-source geometry kernel available, has flaws and limitations. Boolean operations (fusion, subtraction, intersection) are complicated operations, and often give strange results. This is a current limitation we have no way to solve at once, so your best path is to try obtaining the desired result by modeling another way. For example, problems with primitives such as cylinder can often be solved by using an extruded circle instead. Coplanar surfaces between parts can cause trouble, as well as surface tangency. As a general rule, if a shape doesn\'t work, try remodeling it a different way. In 99% of the cases at the end you will manage to obtain the result you want.
+
+To understand boolean operations better, see these articles:
+
+-   <https://wiki.mcneel.com/rhino/booleanfaq>
+-   <https://dev.opencascade.org/doc/overview/html/specification__boolean_operations.html#autotoc_md293>
 
 ### When I export (or view) my model, the holes are filled in 
 
@@ -248,7 +245,7 @@ Sure. All the artwork (icons, banners, etc.) of FreeCAD are licensed LGPL, same 
 
 ### Can I reuse pieces of FreeCAD in another application? 
 
-Yes, you can use the core parts of FreeCAD in other applications as long as you comply with the terms of the LGPL. Third party libraries, [external workbenches](External_workbenches.md), and [macros](Macros.md) may be subject to their own license terms, so please consult with their authors. More details on the [Licence](Licence.md) page.
+Yes, you can use the core parts of FreeCAD in other applications as long as you comply with the terms of the LGPL. Third party libraries, [external workbenches](External_workbenches.md), and [macros](Macros.md) may be subject to their own license terms, so please consult with their authors. More details on the [License](License.md) page.
 
 
 

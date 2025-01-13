@@ -4,7 +4,7 @@
    Name/pl: Szkicownik: Sprawdź poprawność szkicu
    MenuLocation: Szkic , Sprawdź poprawność szkicu ...
    Workbenches: Sketcher_Workbench/pl, PartDesign_Workbench/pl
-   SeeAlso: Sketcher_ConstrainCoincident/pl, Topological_naming_problem/pl
+   SeeAlso: Sketcher_ConstrainCoincident/pl
 ---
 
 # Sketcher ValidateSketch/pl
@@ -13,9 +13,9 @@
 
 ## Opis
 
-Narzędzie **Sprawdź poprawność szkicu** może być używane do analizowania i naprawiania szkicu, który nie jest już edytowalny lub ma nieprawidłowe wiązania, lub do dodawania brakujących [zbieżności punktów](Sketcher_ConstrainCoincident/pl.md) do szkicu utworzonego z importowanej geometrii, takiej jak pliki DXF. Może być również przydatny do zlokalizowania brakującej zbieżności w rodzimym szkicu, który generuje błąd **nie można zatwierdzić uszkodzonej powierzchni** podczas próby zastosowania elementu ze środowiska Projekt Części.
+Narzędzie <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:24px;"> **Sprawdź poprawność szkicu** może być używane do analizowania i naprawiania szkicu, który nie jest już edytowalny lub ma nieprawidłowe wiązania, lub do dodawania brakujących [zbieżności punktów](Sketcher_ConstrainCoincident/pl.md) do szkicu utworzonego z importowanej geometrii, takiej jak pliki DXF. Może być również przydatny do zlokalizowania brakującej zbieżności w rodzimym szkicu, który generuje błąd **nie można zatwierdzić uszkodzonej powierzchni** podczas próby zastosowania elementu ze środowiska Projekt Części.
 
-![](images/Sketcher_ValidateSketch_taskpanel.png ) 
+<img alt="" src=images/Sketcher_ValidateSketch_taskpanel.png  style="width:" height="500px;"> 
 *Panel zadań sprawdzania poprawności w środowisku pracy Szkicownik*
 
 
@@ -32,6 +32,17 @@ Narzędzie **Sprawdź poprawność szkicu** może być używane do analizowania 
     -   Naciśnij przycisk **[<img src=images/Sketcher_ValidateSketch.svg style="width:16px">. [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md)** *(nie jest dostępny w środowisku pracy [Projekt części](PartDesign_Workbench/pl.md))*.
 4.  Zobacz [Opcje](#Opcje.md) poniżej, aby zapoznać się z dostępnymi operacjami.
 5.  Po zakończeniu naciśnij przycisk **Zamknij**.
+
+
+
+
+1.  To narzędzie nie może być używane, gdy szkic jest w trybie edycji. Aby zakończyć tryb edycji, zobacz informacje na stronie [Opuść szkic](Sketcher_LeaveSketch/pl.md).
+2.  Wybierz szkic.
+3.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_ValidateSketch.svg" width=16px> '''Sprawdź poprawność szkicu'''**.
+    -   Wybierz przycisk **Szkic → <img src="images/Sketcher_ValidateSketch.svg" width=16px> Sprawdź poprawność szkicu ...** z menu.
+4.  Otworzy się panel zadań **Sprawdzenie poprawności szkicu**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
+5.  Naciśnij przycisk **Zamknij**, aby zakończyć.
 
 
 

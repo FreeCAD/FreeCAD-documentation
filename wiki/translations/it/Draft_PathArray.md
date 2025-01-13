@@ -1,9 +1,9 @@
 ---
  GuiCommand:
-   Name: Draft_PathArray
-   Name/it: Serie su tracciato
-   MenuLocation: Modifiche , Strumenti serie , Serie su tracciato
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name: Draft PathArray
+   Name/it: Draft Serie su tracciato
+   MenuLocation: Modifiche , Strumenti serie , Serie su tracciato<br>Modifica , Serie su tracciato
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Version: 0.14
    SeeAlso: Draft_OrthoArray/it, Draft_PolarArray/it, Draft_CircularArray/it, Draft_PathLinkArray/it, Draft_PointArray/it, Draft_PointLinkArray/it 
 ---
@@ -16,7 +16,7 @@
 
 Il comando <img alt="" src=images/Draft_PathArray.svg  style="width:24px;"> **Serie su tracciato** crea una serie (array) regolare da un oggetto selezionato posizionando copie lungo un percorso. Utilizzare invece il comando [Serie di link su tracciato](Draft_PathLinkArray/it.md) per creare una serie di [Link](App_Link/it.md) più efficiente. Fatta eccezione per il tipo di serie creato, Serie di link o Serie normale, il comando [Serie di link su tracciato](Draft_PathLinkArray/it.md) è identico a questo comando.
 
-Entrambi i comandi possono essere utilizzati su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [Arch](Arch_Workbench/it.md).
+Entrambi i comandi possono essere utilizzati su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [BIM](BIM_Workbench/it.md).
 
 <img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;"> 
 *Serie su tracciato*
@@ -29,7 +29,8 @@ Entrambi i comandi possono essere utilizzati su oggetti 2D creati con [Draft](Dr
 2.  Aggiungere l\'oggetto tracciato alla selezione. È anche possibile selezionare invece dei bordi. I bordi devono appartenere allo stesso oggetto e devono essere collegati.
 3.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_PathArray.svg" width=16px> [Serie su tracciato](Draft_PathArray/it.md)**.
-    -   Selezionare l\'opzione **Modifiche → Strumenti serie → <img src="images/Draft_PathArray.svg" width=16px> Serie su tracciato** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Modifiche → Strumenti serie → <img src="images/Draft_PathArray.svg" width=16px> Serie su tracciato** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_PathArray.svg" width=16px> Serie su tracciato** dal menu.
 4.  La serie viene creata.
 5.  Facoltativamente, modificare le [proprietà](#Proprietà.md) della serie nell\'[Editor delle proprietà](property_editor/it.md).
 
@@ -144,6 +145,8 @@ Le proprietà in questo gruppo sono disponibili solo per le serie di link. Veder
 -    **Count|Integer**: specifica il numero di elementi nella serie.
 
 -    **Expand Array|Bool**: specifica se espandere la serie nella [Vista ad albero](Tree_view/it.md) per abilitare la selezione dei suoi singoli elementi. Disponibile solo per le serie di Link.
+
+-    **Fuse|Bool**: specifica se gli elementi sovrapposti nell\'array sono fusi o meno. Non utilizzato per le serie di Link. {{Version/it|1.0}}
 
 -    **Path Object|LinkGlobal**: specifica l\'oggetto da utilizzare per il percorso. Deve contenere {{Value|Edges}} nella sua [Part TopoShape](Part_TopoShape/it.md).
 

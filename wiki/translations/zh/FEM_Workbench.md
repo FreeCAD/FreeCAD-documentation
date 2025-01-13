@@ -84,11 +84,13 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
   - <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Fixed boundary condition](FEM_ConstraintFixed.md): Used to define a fixed constraint on point/edge/face(s).
 
+  - <img alt="" src=images/FEM_ConstraintRigidBody.svg  style="width:32px;"> [Rigid body constraint](FEM_ConstraintRigidBody.md): Used to apply the CalculiX\'s rigid body constraint that constrains the motion of the nodes of a selected geometrical entity to the motion of a reference point positioned by the user. <small>(v1.0)</small> 
+
   - <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Displacement boundary condition](FEM_ConstraintDisplacement.md): Used to define a displacement constraint on point/edge/face(s).
 
   - <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Contact constraint](FEM_ConstraintContact.md): Used to define a contact constraint between two faces.
 
-  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Tie constraint](FEM_ConstraintTie.md): Used to define a tie constraint (\"bonded contact\") between two faces.
+  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Tie constraint](FEM_ConstraintTie.md): Used to define a tie constraint (\"bonded contact\") between two faces, or, <small>(v1.0)</small> , cyclic symmetry.
 
   - <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
 
@@ -126,9 +128,9 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_MeshGroup.svg  style="width:32px;"> [FEM mesh group](FEM_MeshGroup.md): Groups and labels elements of a mesh (vertex, edge, surface) together, useful for exporting the mesh to external solvers.
 
--   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Nodes set](FEM_CreateNodesSet.md): Creates/defines a node set from FEM mesh.
+-   <img alt="" src=images/FEM_CreateElementsSet.svg  style="width:32px;"> [Erase Elements](FEM_CreateElementsSet.md): Hides elements selected by a polygon from the mesh. <small>(v1.0)</small> 
 
--   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md): Convert the surface of a FEM mesh to a mesh.
+-   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md): Converts surfaces of 3D elements or whole 2D elements of a selected FEM mesh to surface mesh.
 
 ## Menu: Solve 
 
@@ -218,15 +220,17 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 ## Obsolete tools 
 
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid boundary condition](FEM_ConstraintFluidBoundary.md): Used to define a fluid boundary condition. Did not have a solver. Not available in <small>(v0.22)</small> .
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid boundary condition](FEM_ConstraintFluidBoundary.md): Used to define a fluid boundary condition. Did not have a solver. Not available in <small>(v1.0)</small> .
 
--   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Constraint bearing](FEM_ConstraintBearing.md): Used to define a bearing constraint. Did not have a solver. Not available in <small>(v0.22)</small> .
+-   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Constraint bearing](FEM_ConstraintBearing.md): Used to define a bearing constraint. Did not have a solver. Not available in <small>(v1.0)</small> .
 
--   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Constraint gear](FEM_ConstraintGear.md): Used to define a gear constraint. Did not have a solver. Not available in <small>(v0.22)</small> .
+-   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Constraint gear](FEM_ConstraintGear.md): Used to define a gear constraint. Did not have a solver. Not available in <small>(v1.0)</small> .
 
--   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley.md): Used to define a pulley constraint. Did not have a solver. Not available in <small>(v0.22)</small> .
+-   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley.md): Used to define a pulley constraint. Did not have a solver. Not available in <small>(v1.0)</small> .
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solver CalculiX (new framework)](FEM_SolverCalculiX.md): Same as the original framework <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md) with extra checks. Tool was unfinished. Not available in <small>(v0.22)</small> .
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solver CalculiX (new framework)](FEM_SolverCalculiX.md): Same as the original framework <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md) with extra checks. Tool was unfinished. Not available in <small>(v1.0)</small> .
+
+-   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Nodes set](FEM_CreateNodesSet.md): Creates/defines a node set from FEM mesh. Tool was unfinished and couldn\'t be used. Not available in <small>(v1.0)</small> .
 
 ## Preferences
 

@@ -13,28 +13,34 @@
 
 ## Wprowadzenie
 
-Polecenie **<img src="images/Part_ShapeFromMesh.svg" width=16px> '''Utwórz kształt z siatki'''** tworzy kształt z [obiektu siatkowego](Mesh/pl.md). Obiekty siatkowe mają ograniczone możliwości edycji w FreeCAD, konwersja ich do [kształtu](Shape/pl.md) pozwoli na ich użycie z wieloma innymi narzędziami logicznymi i modyfikującymi.
+Polecenie **<img src="images/Part_ShapeFromMesh.svg" width=16px> '''Utwórz kształt z siatki'''** tworzy kształty z [obiektów siatki](Mesh/pl.md). Obiekty siatki mają ograniczone możliwości edycji w programie FreeCAD, konwersja do [kształtu](Shape/pl.md) pozwoli na ich użycie z wieloma innymi narzędziami logicznymi i modyfikującymi.
 
-Operacja odwrotna to **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Siatka z kształtu](Mesh_FromPartShape/pl.md)** ze środowiska pracy <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Siatki](Mesh_Workbench/pl.md).
+Operacja odwrotna to [Siatka z kształtu](Mesh_FromPartShape/pl.md) ze środowiska pracy <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Siatka](Mesh_Workbench/pl.md).
 
 
 
 ## Użycie
 
-1.  Wybierz obiekt siatki w oknie [Widoku drzewa](Tree_view/pl.md).
-2.  Przejdź do menu **Część → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Utwórz kształt z siatki ...**
-3.  Pojawi się wyskakujące okienko z pytaniem o tolerancję szycia kształtu, domyślną wartością jest {{Value|0.1}}.
-4.  [Kształt](Shape/pl.md) z obiektu siatki jest tworzony jako oddzielny nowy obiekt.
+1.  Analiza i naprawa obiektu siatki, jeśli to konieczne, powinna być wykonana przed uruchomieniem tego polecenia. Odpowiednie narzędzia do tego zadania dostępne są w środowisku pracy <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Siatka](Mesh_Workbench/pl.md).
+2.  Wybierz jeden lub więcej obiektów siatki.
+3.  Wybierz opcję **Część → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Utwórz kształt z siatki ...** z menu.
+4.  Otworzy się okno dialogowe **Kształt z siatki**.
+5.  Opcjonalnie zaznacz pole wyboru **Zszyj kształt** i określ tolerancję:
+    -   Opcja ta zazwyczaj nie jest potrzebna. Jest ona przeznaczona dla obiektów siatkowych, które nie są wodoszczelne i mają małe odstępy między krawędziami.
+    -   Jeśli opcja jest zaznaczona, tworzone jest złożenie powłok zamiast złożenia ścian.
+    -   Operacja szycia może być wymagająca obliczeniowo.
+6.  Naciśnij przycisk **OK**.
+7.  Dla każdego wybranego obiektu siatki zostanie utworzony [kształt](Shape/pl.md) jako oddzielny nowy obiekt.
+8.  Opcjonalnie użyj funkcji <img alt="" src=images/Part_RefineShape.svg  style="width:16px;"> [Udoskonal kształt](Part_RefineShape/pl.md) na tych obiektach.
+9.  Opcjonalnie przekształć ten obiekt w bryłę za pomocą polecenia <img alt="" src=images/Part_MakeSolid.svg  style="width:16px;"> [Przekształć na bryłę](Part_MakeSolid/pl.md).
 
-Analiza i naprawa siatki, jeśli to konieczne, powinna być wykonana ręcznie przed uruchomieniem narzędzia **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> '''Utwórz kształt z siatki ...'''**. Odpowiednie narzędzia do tego zadania dostępne są w środowisku pracy <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Siatka](Mesh_Workbench/pl.md).
-
-Po utworzeniu [Kształtu](Shape/pl.md) przydatne może być użycie narzędzia **[<img src=images/Part_MakeSolid.svg style="width:16px"> [Przekształć na bryłę](Part_MakeSolid/pl.md)** *(niezbędne dla operacji [logicznych](Part_Boolean.md))* oraz **[<img src=images/Part_RefineShape.svg style="width:16px"> [Udoskonal kształt](Part_RefineShape/pl.md)**.
 
 
+## Właściwości
 
-## Odnośniki internetowe 
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
 
--   [Edytuj pliki STL w FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) wideo autorstwa AllVisuals4U.
+Tworzone są obiekty [Część: Cecha](Part_Feature/pl.md) bez dodatkowych właściwości.
 
 
 
@@ -49,19 +55,32 @@ Należy zauważyć, że siatka musi zostać ponownie obliczona przed konwersją 
 import FreeCAD as App
 import Part
 
-doc = App.newDocument()
+doc = App.ActiveDocument
 mesh = doc.addObject("Mesh::Cube", "Mesh")
 mesh.recompute()
 
-solid = doc.addObject("Part::Feature", "Shape")
 shape = Part.Shape()
 shape.makeShapeFromMesh(mesh.Mesh.Topology, 0.1)
 
-solid.Shape = shape
+solid = doc.addObject("Part::Feature", "Solid")
+solid.Shape = Part.Solid(shape.removeSplitter())
 solid.Placement.Base = App.Vector(15, 0, 0)
-solid.purgeTouched()
 doc.recompute()
 ```
+
+
+
+## Odnośniki internetowe 
+
+-   [Edytuj pliki STL w FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) wideo autorstwa AllVisuals4U.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

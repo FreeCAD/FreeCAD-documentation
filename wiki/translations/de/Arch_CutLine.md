@@ -52,5 +52,13 @@ Das Werkzeug **Arch Schnittlinie** beschneidet einen Arch-Festkörper (Arch-Obje
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/de
+⏵ [documentation index](../README.md) > Arch CutLine/de

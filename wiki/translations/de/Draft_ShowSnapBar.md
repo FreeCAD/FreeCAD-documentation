@@ -3,7 +3,7 @@
    Name: Draft ShowSnapBar
    Name/de: Draft SymbolleisteEinrastenAnzeigen
    MenuLocation: Dienstprogramme , Symbolleiste Draft-Einrasten anzeigen
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de
    SeeAlso: Draft_Snap/de
 ---
 

@@ -24,9 +24,9 @@ Das Werkzeug **TechDraw Hinweisfeld** kann einer Zeichnung Hinweisfelder mit zug
 
 1.  Eins der folgenden auswählen:
     -   Eine Ansicht (auf dem Blatt oder in der [Baumansicht](Tree_view/de.md)).
-    -   Einen Knoten in einer Ansicht. {{Version/de|0.20}}
-    -   Eine Kante in einer Ansicht. {{Version/de|0.20}}
-    -   Einen abgeschlossenen Bereich in einer Ansicht. {{Version/de|0.20}}
+    -   Einen Knoten in einer Ansicht.
+    -   Eine Kante in einer Ansicht.
+    -   Einen abgeschlossenen Bereich in einer Ansicht.
 2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/TechDraw_Balloon.svg" width=16px> [Hinweisfeld einfügen](TechDraw_Balloon/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → Anmerkungen → <img src="images/TechDraw_Balloon.svg" width=16px> Hinweisfeld einfügen** auswählen.
@@ -38,13 +38,13 @@ Um ein Hinweisfeld zu verschieben, positioniert man den Mauszeiger über seiner 
 
 Um die Eigenschaften eines Hinweisfeldes zu ändern, wählt man es per Doppelklick auf dem Blatt oder in der [Baumansicht](Tree_view/de.md) aus. Dies Öffnet den Aufgabenbereich des Hinweisfeldes.
 
-*Hinweis:*\' Die Position eines Hinweisfeldes ist relativ zu seiner Ursprungsansicht und verwendet den gleichen Maßstabsfaktor.
+**Hinweis:** Die Position eines Hinweisfeldes ist relativ zu seiner Ursprungsansicht und verwendet den gleichen Maßstabsfaktor.
 
 
 
 ## Verwendung von Trennzeichen 
 
-Bei Verwendung einer Rechteckform können Trennzeichen mit \"\|\" im Text hinzugefügt werden. Zum Beispiel ergibt \"AAA\|TEST\|111\":
+Bei Verwendung der Rechteckform können mit \"\|\" Trennzeichen im Text hinzugefügt werden. Zum Beispiel ergibt \"AAA\|TEST\|111\":
 
 <img alt="" src=images/balloon_separator.png  style="width:300px;">
 
@@ -102,7 +102,7 @@ Optionen: <img alt="" src=images/Circular.svg  style="width:20px;"> Kreisförmig
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Das Ballon-Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen benutzt werden:
 
@@ -116,7 +116,7 @@ rc = page.addView(bal1)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

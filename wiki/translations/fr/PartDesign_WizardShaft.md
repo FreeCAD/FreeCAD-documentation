@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign_WizardShaft
    Name/fr: PartDesign Conception d'arbre
-   MenuLocation: Part Design , Conception d'arbre...
+   MenuLocation: PartDesign , Créer un arbre...
    Workbenches: PartDesign_Workbench/fr
 ---
 
@@ -16,7 +16,7 @@ Cet outil vous permet de créer un arbre à partir d\'un tableau de valeurs et d
 
 ## Utilisation
 
-Vous pouvez démarrer l\'assistant par la commande **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Conception d'arbre...**.
+Vous pouvez démarrer l\'assistant par le menu **PartDesign → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Créer un arbre...**.
 
 L\'assistant démarre et affiche un tableau par défaut, la partie de l\'arbre correspondante et les graphiques des forces/moments.
 

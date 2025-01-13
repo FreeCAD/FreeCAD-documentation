@@ -1,207 +1,215 @@
 ---
  GuiCommand:
    Name: Arch BuildingPart
-   MenuLocation: Arch , BuildingPart
-   Workbenches: Arch_Workbench
+   MenuLocation: Architektura , Część budynku, 3D/BIM , Poziom
+   Workbenches: Arch_Workbench/pl
    Version: 0.18
-   SeeAlso: Arch_Building, Arch_Site
+   SeeAlso: Arch_Building/pl, Arch_Site/pl
 ---
 
 # Arch BuildingPart/pl
 
-## Description
-
-The BuildingPart replaces the old [Arch Floor](Arch_Floor.md) and [Arch Building](Arch_Building.md) with a more capable version that can be used not only to create Floor/Storey/Levels but also all kinds of situations where different Arch/BIM objects need to be grouped and that group might need to be handled as one object or replicated.
-
-## Usage
-
-1.  Optionally, select one or more objects to be included in your new Building Part.
-2.  Press the **<img src="images/Arch_BuildingPart.svg" width=16px> [Arch BuildingPart](Arch_BuildingPart.md)** button.
-
-### Notes
-
-BuildingParts have a built-in, implicit [Arch SectionPlane](Arch_SectionPlane.md).
-
-This plane is always parallel to the BuildingPart\'s base plane, but you can specify the offset between them. So all tools that work with a section plane, such as [Draft Shape2DView](Draft_Shape2DView.md) and [TechDraw ArchView](TechDraw_ArchView.md) also work with BuildingParts.
-
-## Options
-
--   After creating a BuildingPart, you can add more objects to it by dragging and dropping them in the Tree View or by using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
--   You can remove objects from a BuildingPart by dragging and dropping them out of the Tree View or by using the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
--   By double-clicking the BuildingPart object in the tree view, the [Working Plane](Draft_SelectPlane.md) will be set to its location, and the BuildingPart will become active, which means that new objects will be added automatically to it. Double-clicking the BuildingPart again will deactivate it and set the working plane back to its previous position (to be available this option needs to be set up as true, in View Property panel - Interaction - Double Click Activates).
--   The BuildingPart can display a mark in the 3D view with a label and level indication.
--   When a BuildingPart is moved/rotated, all its children that either have no **Move With Host** property, or have it turned on, will move/rotate together.
--   Building Parts can be [Draft Cloned](Draft_Clone.md).
--   Building Parts can take any IFC type. Its **IFC Type** property determines its use. If you set it to **Building Storey** it will behave as a level. If you set it to **Building** it behaves as a building, and if you set it to **Element Assembly** it behaves as an assembly. Its icon will change to reflect this setting, but other than that it has no other impact in FreeCAD. However, being exported to IFC as one or another type can have an impact in other BIM applications.
--   Building Parts allow to define an **Auto-group capture box**. Subsequent Draft and Arch objects, or anything else that uses Draft.autogroup(), will be automatically added to that Building Part if they are fully inside the capture box. <small>(v0.20)</small> 
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-An Arch BuildingPart is derived from an [App GeoFeature](App_GeoFeature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
 
 
-{{TitleProperty|Base}}
+## Opis
 
--    **Group|LinkList**: List of referenced objects.
-
--    **_ Group Touched|Bool|Hidden**
-    
+Narzędzie Część budynku zastępuje stare narzędzia [Podłoga](Arch_Floor/pl.md) i [Budynek](Arch_Building/pl.md) nową, bardziej wszechstronną wersją, która może być używana nie tylko do tworzenia Pięter / Poziomów, ale także wszelkiego rodzaju sytuacji, w których różne obiekty Arch / BIM muszą być pogrupowane, a ta grupa może wymagać traktowania jako jednego obiektu lub replikacji.
 
 
-{{TitleProperty|Building Part}}
 
--    **Area|Area**: The computed floor area of this floor.
+## Użycie
 
--    **Height|Length**: The height of this object, and of its children objects. The children objects could be, for example, [Arch Walls](Arch_Wall.md). Each wall\'s height must be set to `0` (zero), so the height property of the BuildingPart propagates to the objects inside of it.
-
--    **Level Offset|Length**: The level of the (0,0,0) point of this level. This value is added to the `Placement.Base.z` attribute of the BuildingPart, to indicate a vertical offset without actually moving the object. The resulting offset is displayed if **Show Level** is `True`.
-
--    **Materials Table|Map|Hidden**: A MaterialName:SolidIndexesList map that relates material names with solid indexes to be used when referencing this object from other files.
-
--    **Only Solids|Bool**: If true, only solids will be collected by this object when referenced from other files.
-
--    **Saved Inventor|FileIncluded|Hidden**: This property stores an inventor representation for this object.
-
--    **Shape|PartShape|Hidden**: The shape of this object.
+1.  Opcjonalnie, wybierz jeden lub więcej obiektów, które mają być zawarte w nowej części budynku.
+2.  Naciśnij przycisk **<img src="images/Arch_BuildingPart.svg" width=16px> '''Część budowli'''**.
 
 
-{{TitleProperty|Children}}
 
--    **Height Propagate|Bool**: If true, the height value propagates to contained objects.
+### Uwagi
+
+Obiekty \\Część budynku\\ posiadają wbudowaną, domyślną [płaszczyznę przekroju](Arch_SectionPlane/pl.md).
+
+Płaszczyzna ta jest zawsze równoległa do płaszczyzny bazowej obiektu Część budynku, ale można określić przesunięcie między nimi. Tak więc wszystkie narzędzia, które działają z płaszczyzną przekroju, takie jak [Widok 2D kształtu](Draft_Shape2DView/pl.md) i [Wstaw obiekt środowiska Architektura](TechDraw_ArchView/pl.md) również działają z obiektem Część budynku.
+
+
+
+## Opcje
+
+-   Po utworzeniu obiektu Część budynku można dodać do niego więcej obiektów, przeciągając je i upuszczając w widoku drzewa lub korzystając z narzędzia **<img src="images/Arch_Add.svg" width=16px> [Połącz obiekty](Arch_Add/pl.md)**.
+-   Można usuwać obiekty z Części budynku, przeciągając je i upuszczając poza obiekt Widoku drzewa lub korzystając z narzędzia **<img src="images/Arch_Remove.svg" width=16px> [Usuń komponent](Arch_Remove/pl.md)**.
+-   Podwójne kliknięcie na obiekcie Część budynku w widoku drzewa ustawia płaszczyznę roboczą w jego lokalizacji, a obiekt Część budynku staje się aktywny, co oznacza, że nowe obiekty zostaną do niego automatycznie dodane. Kolejne podwójne kliknięcie na Części budynku ponownie go dezaktywuje i przywróci płaszczyznę roboczą do poprzedniej pozycji *(aby ta opcja była dostępna, należy ją ustawić w panelu Właściwości Widoku - Interakcja - Podwójne Kliknięcie Aktywuje)*.
+-   Część budynku może wyświetlać znacznik w widoku 3D z etykietą i wskazaniem poziomu.
+-   Gdy Część budynku jest przesuwana / obracana, wszystkie jej obiekty podrzędne, które nie mają właściwości **Ruch z obiektem nadrzędnym** lub mają ją włączoną, zostaną przesunięte / obrócone razem.
+-   Części Budynku mogą być [Klonowane](Draft_Clone/pl.md).
+-   Części Budynku mogą przyjmować dowolny typ IFC. Jego właściwość **Typ IFC** określa jego zastosowanie. Jeśli ustawisz go na **Poziom Budynku**, będzie działać jak poziom. Jeśli ustawisz go na **Budynek**, zachowuje się jak budynek, a jeśli ustawisz go na **Element złożenia**, zachowuje się jak zmontowane elementy. Jego ikona zmieni się, aby odzwierciedlić to ustawienie, ale poza tym nie ma to żadnego innego wpływu w programie FreeCAD. Jednak eksport do IFC jako jeden z tych typów może mieć wpływ na inne aplikacje BIM.
+-   Części budynku pozwalają zdefiniować **Automatyczną grupę przechwytywania**. Następne obiekty Rysunku Roboczego i Architektury, lub cokolwiek innego, co korzysta z Draft.autogroup(), zostaną automatycznie dodane do tej Części budynku, jeśli znajdują się w całości w polu przechwytywania. {{Version/pl|0.20}}
+
+
+
+## Właściwości
+
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt **Część budowli** wywodzi się z obiektu [App: Cechy geometrii](App_GeoFeature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
+
+### Dane
+
+
+{{TitleProperty|Podstawa}}
+
+-    **Grupa|LinkList**: Lista obiektów, do których istnieją odniesienia.
+
+-    **_ Group Touched|Bool|Ukryte**.
+
+
+{{TitleProperty|Część Budynku}}
+
+-    **Powierzchnia|Area**: Obliczona powierzchnia podłogi tej kondygnacji.
+
+-    **Wysokość|Length**: Wysokość tego obiektu i jego obiektów podrzędnych. Obiekty podrzędne mogą być na przykład [ścianami](Arch_Wall/pl.md). Wysokość każdej ściany musi być ustawiona na `0`, aby właściwość wysokości Części Budynku przenosiła się do obiektów wewnątrz niej.
+
+-    **Przesunięcie Poziomu|Length**: Punkt (0,0,0) tego poziomu. Wartość ta jest dodawana do atrybutu `Placement.Base.z` obiektu Część budynku, aby wskazać pionowe przesunięcie bez faktycznego przesuwania obiektu. Wynikowe przesunięcie jest wyświetlane, jeśli **Show Level** ma wartość {{TRUE/pl}}.
+
+-    **Tabela Materiałów|Map|Ukryte**: Mapa MaterialName:SolidIndexesList, która określa powiązanie nazw materiałów z indeksami brył do użycia podczas odwoływania się do tego obiektu z innych plików.
+
+-    **Tylko Bryły|Bool**: Jeśli ustawiono {{TRUE/pl}}, tylko bryły będą pobierane przez ten obiekt, gdy będą przywoływane z innych plików.
+
+-    **Zapisany twórca|FileIncluded|Hidden**: Ten atrybut przechowuje reprezentację twórcy dla tego obiektu.
+
+-    **Kształt|PartShape|Hidden**: Kształt tego obiektu.
+
+
+{{TitleProperty|Obiekt podrzędny}}
+
+-    **Propagacja wysokości|Bool**: Jeśli wartość ta przyjmie {{true/pl}}, wartość wysokości będzie przekazywana do zawartych obiektów. Zobacz właściwość **Height** dla dodatkowych warunków, które mają zastosowanie.
 
 
 {{TitleProperty|IFC}}
 
--    **Ifc Data|Map|Hidden**: IFC data.
+-    **Dane IFC|Map|Hidden**: dane zgodne ze standardem IFC.
 
--    **Ifc Properties|Map|Hidden**: IFC properties of this object.
+-    **Własciwości IFC|Map|Hidden**: Właściwości IFC tego obiektu.
 
--    **Ifc Type|Enumeration**: The IFC type of this object.
+-    **Typ IFC|Enumeration**: Typ IFC dla tego obiektu.
 
 
-{{TitleProperty|IFC Attributes}}
+{{TitleProperty|Atrybuty IFC}}
 
--    **Description|String**: An optional description for this component
+-    **Opis|String**: Opcjonalny opis dla tego komponentu
 
--    **Global Id|String**
+-    **Globalny Id|String**.
+
+-    **Typ obiektu|String**.
+
+-    **Wysokość całkowita|Length**
     
 
--    **Object Type|String**
+-    **Szerokość całkowita|Length**
     
 
--    **Overall Height|Length**
+-    **Typ podziału|Enumeration**
     
 
--    **Overall Width|Length**
+-    **Zdefiniowany typ|Enumeration**
     
 
--    **Partitioning Type|Enumeration**
-    
+-    **Tag|String**: Opcjonalny znacznik dla tego komponentu.
 
--    **Predefined Type|Enumeration**
-    
-
--    **Tag|String**: An optional tag for this component.
-
--    **User Defined Partitioning Type|String**
-    
-
-### View
+-    **Typ podziału użytkownika|String**.
 
 
-{{TitleProperty|Auto Group}}
 
--    **Autogroup Autosize|Bool**: Automatically set the capture box size from the Building Part contents. <small>(v0.20)</small> 
-
--    **Autogroup Box|Bool**: Turns auto grouping (and the display of the capture box) on/off. <small>(v0.20)</small> 
-
--    **Autogroup Margin|Length**: A margin to use when autosize is turned on. <small>(v0.20)</small> 
-
--    **Autogroup Size|IntegerList**: The capture box for newly created objects expressed as \[XMin,YMin,ZMin,XMax,YMax,ZMax\]. <small>(v0.20)</small> 
+### Widok
 
 
-{{TitleProperty|Building Part}}
+{{TitleProperty|Grupa automatycznie}}
 
--    **Diffuse Color|ColorList|Hidden**: The individual face colors.
+-    **Autogroup Autosize|Bool**: Automatycznie ustawia rozmiar pola przechwytywania na podstawie zawartości części budynku. {{Version/pl|0.20}}.
 
--    **Display Offset|Placement**: A transformation to apply to the level mark.
+-    **Autogroup Box|Bool**: Włącza/wyłącza automatyczne grupowanie (i wyświetlanie pola przechwytywania). <small>(v0.20)</small> 
 
--    **Font Name|Font**: The font to be used for texts.
+-    **Autogroup Margin|Length**: Margines używany, gdy włączony jest automatyczny rozmiar. <small>(v0.20)</small> 
 
--    **Font Size|Length**: The font size of texts.
-
--    **Line Width|Float**: The line width of this object.
-
--    **Origin Offset|Bool**: If true, when activated, Display offset will affect the origin mark too.
-
--    **Override Unit|String**: An optional unit to express levels.
-
--    **Show Label|Bool**: If true, when activated, the object\'s label is displayed.
-
--    **Show Level|Bool**: If true, show the level.
-
--    **Show Unit|Bool**: If true, show the unit on the level tag.
+-    **Autogroup Size|IntegerList**: Pole przechwytywania dla nowo utworzonych obiektów wyrażone jako \[XMin,YMin,ZMin,XMax,YMax,ZMax\]. {{Version/pl|0.20}}.
 
 
-{{TitleProperty|Children}}
+{{TitleProperty|Część Budynku}}
 
--    **Children Line Color|Color**: The line color to apply to the children of this Building Part.
+-    **Nazwa Czcionki|Font**: Czcionka do użytku w tekstach.
 
--    **Children Line Width|Float**: The line width to apply to the children of this Building Part.
+-    **Rozmiar Czcionki|Font Size|Length**: Rozmiar czcionki dla tekstów.
 
--    **Children Override|Bool**: If true, the objects contained in this Building Part will adopt these line, color and transparency settings.
+-    **Grubość Linii|Line Width|Float**: Grubość linii dla tego obiektu.
 
--    **Children Shape Color|Color**: The shape color to apply to the children of this Building Part.
+-    **Przesunięcie Początku|Origin Offset|Bool**: Jeśli wartość to {{true/pl}}, aktywując, przesunięcie wyświetlania będzie również miało wpływ na znacznik początku.
 
--    **Children Transparency|Percent**: The transparency to apply to the children of this Building Part.
+-    **Nadpisz Jednostkę|String**: Opcjonalna jednostka do wyrażenia poziomów.
 
+-    **Pokaż Etykietę|Bool**: Jeśli wartość to {{true/pl}}, po aktywowaniu wyświetlana jest etykieta obiektu.
 
-{{TitleProperty|Clip}}
+-    **Pokaż Poziom|Bool**: Jeśli wartość to {{true/pl}}, pokazuj poziom.
 
--    **Auto Cut View|Bool**: Turn cutting on when activating this level.
-
--    **Cut Margin|Length**: The distance between the level plane and the cut line.
-
--    **Cut View|Bool**: Cut the view above this level.
+-    **Pokaż Jednostkę|Bool**: Jeśli wartość to {{true/pl}}, pokazuj jednostkę na znaczniku poziomu.
 
 
-{{TitleProperty|Interactions}}
+{{TitleProperty|Obiekt podrzędny}}
 
--    **Auto Working Plane|Bool**: If set to True, the working plane will be kept on Auto mode.
+-    **Kolor Linii obiektów podrzędnych|Kolor**: Kolor linii do zastosowania dla obiektów podrzędnych tego elementu budynku.
 
--    **Double Click Activates|Bool**: If True, double-clicking this object in the tree activates it.
+-    **Grubość Linii obiektów podrzędnych|Float**: Grubość linii do zastosowania dla obiektów podrzędnych tego elementu budynku.
 
--    **Restore View|Bool**: If set, the view stored in this object will be restored on double-click.
+-    **Nadpisanie obiektów podrzędnych|Bool**: Jeśli watrość to {{True/pl}}, obiekty zawarte w tym elemencie budynku będą stosować te ustawienia linii, koloru i przezroczystości.
 
--    **Save Inventor|Bool**: If this is enabled, the inventor representation of this object will be saved in the FreeCAD file, allowing to reference it in other files in lightweight mode.
+-    **Kolor Kształtu obiektów podrzędnych|Kolor**: Kolor kształtu do zastosowania dla obiektów podrzędnych tego elementu budynku.
 
--    **Saved Inventor|FileIncluded|Hidden**: A slot to save the inventor representation of this object, if enabled.
-
--    **Set Working Plane|Bool**: If true, when activated, the working plane will automatically adapt to this Building Part.
-
--    **View Data|FloatList|Hidden**: Camera position data associated with this object.
-
-## Scripting
+-    **Przezroczystość obiektów podrzędnych|Procent**: Przezroczystość do zastosowania dla obiektów podrzędnych tego elementu budynku.
 
 
-**See also:**
+{{TitleProperty|Wycinek}}
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+-    **Automatyczne Wycinanie Widoku|Bool**: Włącz wycinanie widoku podczas aktywacji tego poziomu.
 
-The BuildingPart tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+-    **Margines Wycinania|Długość**: Odległość między płaszczyzną poziomu a linią wycinania.
+
+-    **Wycinanie Widoku|Bool**: Wytnij widok powyżej tego poziomu.
+
+
+{{TitleProperty|Interakcje}}
+
+-    **Automatyczna Płaszczyzna Robocza|Bool**: Jeśli ustawiono wartość {{True/pl}}, płaszczyzna robocza będzie utrzymana w trybie Automatycznym.
+
+-    **Aktywacja Podwójnego Kliknięcia|Bool**: Jeśli ustawiono wartość {{True/pl}}, podwójne kliknięcie tego obiektu w drzewie aktywuje go.
+
+-    **Przywróć Widok|Bool**: Jeśli ustawiono wartość {{True/pl}}, widok przechowywany w tym obiekcie zostanie przywrócony po podwójnym kliknięciu.
+
+-    **Zapisz Inventor|Bool**: Jeśli opcja jest włączona, reprezentacja inventor tego obiektu zostanie zapisana w pliku FreeCAD, co pozwoli na odwołanie się do niej w innych plikach w trybie lekkim.
+
+-    **Zapisany Inventor|FileIncluded|Ukryte**: Slot do zapisywania reprezentacji inventor tego obiektu, jeśli jest włączony.
+
+-    **Ustaw Płaszczyznę Roboczą|Bool**: Jeśli ustawiono wartość {{True/pl}}, po aktywowaniu płaszczyzna robocza automatycznie dostosuje się do tej Części budynku.
+
+-    **Dane Widoku|FloatList|Ukryte**: Dane pozycji kamery skojarzone z tym obiektem.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Część budynku** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python
 BuildingPart = makeBuildingPart(objectslist=None)
 ```
 
--   Creates a `BuildingPart` object from `objectslist`, which is a list of objects.
+-   Tworzy obiekt `BuildingPart` z `objectslist`, który jest listą obiektów.
 
-Example: 
+Przykład: 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -224,5 +232,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/pl
+⏵ [documentation index](../README.md) > Arch BuildingPart/pl

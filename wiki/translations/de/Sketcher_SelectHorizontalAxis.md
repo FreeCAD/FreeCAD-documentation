@@ -14,17 +14,17 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:24px;"> **HorizontaleAchseAuswählen** wählt die horizontale Achse einer Skizze aus.
+Das Werkzeug <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:24px;"> [Sketcher HorizontaleAchseAuswählen](Sketcher_SelectHorizontalAxis/de.md) wählt die horizontale Achse der Skizze aus.
 
 
 
 ## Anwendung
 
-1.  Falls noch nicht erfolgt: Eine Skizze im Bearbeitungsmodus öffnen.
-2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
     -   Den Menüeintrag **Skizze → Sketcher-Werkzeuge → [<img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Horizontale Achse auswählen** auswählen.
+    -   Ein Rechtsklick in den Abschnitt **Elemente** des [Sketcher-Dialogs](Sketcher_Dialog/de.md) und die Menüoption **<img src="images/Sketcher_SelectHorizontalAxis.svg" width=16px> Horizontale Achse auswählen** im Kontextmenü auswählen.
     -   Das Tastaturkürzel **Z** dann **H**.
-3.  Die horizontale Achse der Skizze wird ausgewählt.
+2.  Die horizontale Achse der Skizze wird ausgewählt.
 
 
 

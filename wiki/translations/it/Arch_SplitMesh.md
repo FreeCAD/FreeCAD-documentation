@@ -10,17 +10,32 @@
 # Arch SplitMesh/it
 
 
+</div>
+
+
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento suddivide un oggetto [Mesh](Mesh_Workbench/it.md) selezionato nei suoi singoli componenti
+
+
+</div>
 
 
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare un oggetto mesh.
 2.  Premere il pulsante **<img src="images/Arch_SplitMesh.svg" width=16px> [Dividi Mesh](Arch_SplitMesh/it.md)** in **Arch → Utilità → Dividi Mesh**.
+
+
+</div>
 
 
 
@@ -65,6 +80,20 @@ new_list = Arch.splitMesh(mesh_obj)
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/it
+⏵ [documentation index](../README.md) > Arch SplitMesh/it

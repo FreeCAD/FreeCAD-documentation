@@ -27,7 +27,7 @@ Narzędzie **Wstaw wymiar długości w aksonometrii** dodaje wymiar długości d
     -   Wybierz dwie krawędzie *(na obrazku e3 i e4)* i dwa punkty *(na obrazku v1 i v2)*. Pierwsza krawędź definiuje kierunek linii wymiarowej. Druga krawędź określa kierunek linii przedłużenia. Punkty określają zmierzoną odległość.
 2.  Istnieje kilka sposobów wywołania narzędzia:
     -   Naciśnij przycisk **<img src="images/TechDraw_AxoLengthDimension.svg" width=16px> '''Wstaw wymiar długości w aksonometrii'''**.
-    -   Wybierz opcję z menu **Rysunek Techniczny → Wymiary → <img src="images/TechDraw_AxoLengthDimension.svg" width=16px> Wstaw wymiar długości w aksonometrii**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Adnotacje → <img src="images/TechDraw_AxoLengthDimension.svg" width=16px> Wstaw wymiar długości w aksonometrii**.
 3.  Wymiar aksonometryczny zostanie dodany do widoku.
 4.  Wymiar można przeciągnąć do żądanej pozycji.
 5.  W razie potrzeby dodaj tolerancje, jak opisano na stronie [Wymiarowanie geometrii i tolerancja](TechDraw_Geometric_dimensioning_and_tolerancing/pl#Tolerancja.md).

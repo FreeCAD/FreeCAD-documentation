@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Ce didacticiel montre comment placer des fenêtres Arch et des portes Arch personnalisées dans un modèle de bâtiment. Il utilise l\'atelier Draft, l\'atelier Arch et l\'atelier Sketcher.
+Ce tutoriel montre comment placer des Arch fenêtres et des Arch portes personnalisées dans un modèle de bâtiment. Il utilise l\'atelier Draft, l\'atelier Arch et l\'atelier Sketcher.
 
 Les outils couramment utilisés sont: Draft Grille, Draft Aimantation, Draft Polyligne, Arch Mur, Arch Fenêtre et Sketcher Esquisse. L\'utilisateur doit être familiarisé avec les esquisses contraignantes.
 
@@ -364,9 +364,11 @@ abs(N) = 1 = sqrt(sin^2(angle) + cos^2(angle) + z^2)
 ```
 
 
-  {{Sketcher Tools navi}}
+{{BIM_Tools_navi
+
+}} {{Draft_Tools_navi}} {{Sketcher_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > Tutorial custom placing of windows and doors/fr
+⏵ [documentation index](../README.md) > Tutorial custom placing of windows and doors/fr

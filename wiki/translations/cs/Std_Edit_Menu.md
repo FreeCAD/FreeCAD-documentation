@@ -41,7 +41,7 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_Paste.svg  style="width:32px;"> [Paste](Std_Paste.md): Pastes objects from the Clipboard into the document.
 
--   <img alt="" src=images/Std_DuplicateSelection.svg  style="width:32px;"> [Duplicate selection](Std_DuplicateSelection.md): Duplicates objects within the document.
+-   <img alt="" src=images/Std_DuplicateSelection.svg  style="width:32px;"> [Duplicate selection](Std_DuplicateSelection.md): Duplicates objects within the document. **-- If the [PartDesign Workbench](PartDesign_Workbench.md) is active the [PartDesign DuplicateSelection](PartDesign_DuplicateSelection.md) tool (<small>(v1.0**) appears here instead.)</small> 
 
 -   <img alt="" src=images/Std_Refresh.svg  style="width:32px;"> [Refresh](Std_Refresh.md): Recomputes the document.
 
@@ -63,6 +63,8 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [Toggle Edit mode](Std_Edit.md): Activates or deactivates an object\'s edit mode.
 
+-   <img alt="" src=images/Std_Properties.svg  style="width:32px;"> [Properties](Std_Properties.md): Displays the [Property view panel](Property_editor.md). <small>(v1.0)</small> 
+
 -   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> [Edit mode](Std_UserEditMode.md): Defines the edit mode to be used when an object is double-clicked in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferences\...](Std_DlgPreferences.md): Opens the [Preferences Editor](Preferences_Editor.md). 
@@ -72,7 +74,7 @@ The following tools are available in this menu:
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

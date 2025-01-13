@@ -26,7 +26,7 @@ Mostra o nasconde la visualizzazione della molteplicità di nodi di una curva B-
 </div>
 
 <img alt="" src=images/Sketcher_KnotMultiplicity_multiplicity3.png  style="width:500px;"> 
-*B-spline in which the left knot has the multiplicity 3, the right knot has multiplicity 1, the end points have the multiplicity 4.*
+*The numbers (1), (3) and (4) (green, in round brackets) refer to the [multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md) of the knot points.*
 
 
 

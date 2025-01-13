@@ -1,11 +1,17 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM ConstantVacuumPermittivity
    Name/fr: FEM Constante de permittivité du vide
    MenuLocation: Modèle , Remplacer les constantes , Constante de permittivité du vide
    Workbenches: FEM_Workbench/fr
    Version: 0.19
    SeeAlso: 
+}}
+{{GuiCommandFemInfo
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstantVacuumPermittivity/fr

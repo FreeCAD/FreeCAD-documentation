@@ -26,7 +26,13 @@ Geometrię można wybrać w oknie [Widoku 3D](3D_view/pl.md) lub na rysunku. Nie
 
 1.  Jeśli zaznaczyłeś geometrię w widoku 3D: dodaj właściwy widok Rysunku Technicznego do zaznaczenia, wybierając go w oknie [Widoku drzewa](Tree_view/pl.md).
 2.  Istnieje kilka sposobów wywołania narzędzia:
-    -   Naciśnij przycisk **<img src="images/TechDraw_RadiusDimension.svg" width=16px> '''Wstaw wymiar promienia'''**.
+    -   
+        {{Version/pl|1.0}}
+        
+        : Jeśli [preferencja](TechDraw_Preferences/pl#Wymiary.md) **Narzędzie wymiarowania** jest ustawiona na {{Value|Narzędzie pojedyncze}} (domyślnie): kliknij na strzałce skierowanej w dół po prawej stronie od przycisku **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** i wybierz opcję **<img src="images/TechDraw_RadiusDimension.svg" width=16px> Wstaw wymiar promienia** z listy rozwijanej.
+
+    -   Jeśli ta preferencja ma inną wartość (i {{VersionMinus/pl|0.21}}): wciśnij przycisk **<img src="images/TechDraw_RadiusDimension.svg" width=16px> [Wstaw wymiar promienia](TechDraw_RadiusDimension/pl.md)**.
+
     -   Wybierz opcję z menu **Rysunek Techniczny → Wymiary → <img src="images/TechDraw_RadiusDimension.svg" width=16px> Wstaw wymiar promienia**.
 3.  Wymiar zostanie dodany do widoku.
 4.  Wymiar można przeciągnąć do żądanej pozycji.

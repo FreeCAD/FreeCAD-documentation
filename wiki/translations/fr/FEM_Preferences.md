@@ -1,54 +1,58 @@
 # FEM Preferences/fr
-La fenêtre des préférences de l\'[atelier FEM](FEM_Workbench/fr.md) se trouve dans l\'[Éditeur de préférences](Preferences_Editor/fr.md), **Édition → Préférences → FEM**.
+## Introduction
 
-Il y a plusieurs onglets dans les préférences de l\'atelier FEM, en commençant par la configuration **Générale** de l\'atelier. Le reste des onglets contrôle la façon dont FEM interagit avec les solveurs externes supportés.
+Les préférences pour l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md) peuvent être trouvées dans l\'[éditeur de préférences](Preferences_Editor/fr.md). Dans le menu, sélectionnez **Édition → Préférences...** puis **<img src="images/Workbench_FEM.svg" width=16px> FEM**. Ce groupe n\'est disponible que si l\'atelier FEM a été chargé dans la session FreeCAD en cours.
+
+Il y a sept pages : [Général](#Général.md), [Gmsh](#Gmsh.md), [CalculiX](#CalculiX.md), [Elmer](#Elmer.md), [Mystran](#Mystran.md), [Z88](#Z88.md) et [Netgen](#Netgen.md). Toutes les pages, à l\'exception de la première, contrôlent la manière dont FEM interagit avec les maillages et les solveurs externes.
 
 Les solveurs externes actuellement acceptés sont :
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [CalculiX](FEM_SolverCalculixCxxtools/fr.md)
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer/fr.md)
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran/fr.md) ({{Version/fr|0.20}})
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran/fr.md)
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Z88](FEM_SolverZ88/fr.md)
 
 
 
 ## Général
 
-Dans l\'onglet *Général*, vous pouvez spécifier les éléments suivants:
+<img alt="" src=images/Preferences_FEM_Page_General.png  style="width:350px;">
+
+Sur cette page, vous pouvez spécifier les éléments suivants :
 
 +++
-| Nom                                                                                              | Description                                                                                                                                         |
-+==================================================================================================+=====================================================================================================================================================+
-|                                                                                   | Répertoire dans lequel les fichiers de maillage et de solveur doivent être stockés                                                                  |
-| **Répertoire de travail**                                                            |                                                                                                                                                     |
-|                                                                                               |                                                                                                                                                     |
+| Nom                                                                                                         | Description                                                                                                                                           |
++=============================================================================================================+=======================================================================================================================================================+
+|                                                                                              | Répertoire dans lequel les fichiers de maillage et de solveur doivent être stockés                                                                    |
+| **Répertoire de travail**                                                                       |                                                                                                                                                       |
+|                                                                                                          |                                                                                                                                                       |
 +++
-|                                                                                   | S\'il y a plusieurs maillages, ils seront regroupés                                                                                                 |
-| **Créer des groupes de maillage**                                                    |                                                                                                                                                     |
-|                                                                                               |                                                                                                                                                     |
+|                                                                                              | S\'il y a plusieurs maillages, ils seront regroupés                                                                                                   |
+| **Créer des collectes de maillage pour les formes de référence d'analyse (très expérimental)**  |                                                                                                                                                       |
+|                                                                                                          |                                                                                                                                                       |
 +++
-|                                                                                   | Les [objets Résultats](FEM_ResultShow/fr.md) existants seront conservés, sinon ils seront écrasés par une nouvelle exécution du solveur.    |
-| **Conserver les résultats lors d'une nouvelle exécution du calcul**                  |                                                                                                                                                     |
-|                                                                                               |                                                                                                                                                     |
+|                                                                                              | Les [objets Résultats](FEM_ResultShow/fr.md) existants seront conservés, sinon ils seront écrasés par une nouvelle exécution du solveur.      |
+| **Conserver les résultats après un nouveau calcul**                                             |                                                                                                                                                       |
+|                                                                                                          |                                                                                                                                                       |
 +++
-|                                                                                   | Si coché, la boîte de dialogue [Afficher le résultat](FEM_ResultShow/fr.md) est ouverte avec les derniers paramètres utilisés.              |
-| **Restaurer les paramètres de la boîte de dialogue des résultats**                   |                                                                                                                                                     |
-|                                                                                               |                                                                                                                                                     |
+|                                                                                              | Si coché, la fenêtre de dialogue [Afficher le résultat](FEM_ResultShow/fr.md) est ouverte avec les derniers paramètres utilisés.              |
+| **Restaurer les paramètres de la fenêtre de dialogue des résultats**                            |                                                                                                                                                       |
+|                                                                                                          |                                                                                                                                                       |
 +++
-|                                                                                   | Les contraintes seront cachées dans la vue du modèle lorsque la boîte de dialogue [Afficher le résultat](FEM_ResultShow/fr.md) est ouverte. |
-| **Cacher les contraintes lors de l'ouverture de la boîte de dialogue des résultats** |                                                                                                                                                     |
-|                                                                                               |                                                                                                                                                     |
+|                                                                                              | Les contraintes seront cachées dans la vue du modèle lorsque la fenêtre de dialogue [Afficher le résultat](FEM_ResultShow/fr.md) est ouverte. |
+| **Masquer les fonctions d'analyse lors de l'ouverture de la fenêtre de dialogue des résultats** |                                                                                                                                                       |
+|                                                                                                          |                                                                                                                                                       |
 +++
-|                                                                                   | Le solveur par défaut à ajouter lors de l\'ajout d\'un [conteneur d\'analyse](FEM_Analysis/fr.md) ({{Version/fr|0.21}}).      |
-| **Solveur par défaut**                                                               |                                                                                                                                                     |
-|                                                                                               |                                                                                                                                                     |
+|                                                                                              | Le solveur par défaut à ajouter lors de l\'ajout d\'un [conteneur d\'analyse](FEM_Analysis/fr.md) ({{Version/fr|0.21}}).        |
+| **Solveur par défaut**                                                                          |                                                                                                                                                       |
+|                                                                                                          |                                                                                                                                                       |
 +++
-
-![](images/Preference_Fem_Tab_01.png )
 
 ## Gmsh
 
-Dans l\'onglet *Gmsh*, vous pouvez spécifier les éléments suivants :
+<img alt="" src=images/Preferences_FEM_Page_Gmsh.png  style="width:350px;">
+
+Sur cette page, vous pouvez spécifier les éléments suivants :
 
 +++
 | Nom                                                             | Description                                                                                                                                   |
@@ -57,22 +61,106 @@ Dans l\'onglet *Gmsh*, vous pouvez spécifier les éléments suivants :
 | **Rechercher dans les répertoires binaires connus** |                                                                                                                                               |
 |                                                              |                                                                                                                                               |
 +++
-|                                                  | Le chemin vers le binaire de [Gmsh](FEM_MeshGmshFromShape/fr.md).                                                                     |
-| **Chemin binaire de Gmsh**                          |                                                                                                                                               |
+|                                                  | Le chemin d\'accès au binaire de [Gmsh](FEM_MeshGmshFromShape/fr.md).                                                                 |
+| **Chemin d'accès au binaire de Gmsh**               |                                                                                                                                               |
 |                                                              |                                                                                                                                               |
 +++
 
-![](images/Preference_Fem_Tab_03.png )
-
 ## CalculiX
 
-Dans l\'onglet *CalculiX*, vous pouvez spécifier les éléments suivants :
+<img alt="" src=images/Preferences_FEM_Page_CalculiX.png  style="width:350px;">
 
-![](images/Preference_Fem_Tab_02.png )
+Sur cette page, vous pouvez spécifier les éléments suivants :
+
++++
+| Nom                                                                           | Description                                                                                                                                                                                                                     |
++===============================================================================+=================================================================================================================================================================================================================================+
+|                                                                | Si cette case est cochée, FreeCAD recherchera le binaire de [CalculiX](FEM_SolverCalculixCxxtools/fr.md) dans les répertoires connus (habituels)                                                                        |
+| **Rechercher dans les répertoires des binaires connus**           |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Le chemin d\'accès au binaire de [CalculiX](FEM_SolverCalculixCxxtools/fr.md)                                                                                                                                           |
+| **Chemin d'accès au binaire de CalculiX**                         |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Si cette case est cochée, un éditeur intégré de fichiers \*.inp avec coloration syntaxique est utilisé lors de l\'édition des jeux d\'entrée de CalculiX.                                                                       |
+| **Utiliser l'éditeur interne pour les fichiers *.inp**            |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Le chemin d\'accès à l\'éditeur externe de fichiers \*.inp.                                                                                                                                                                     |
+| **Éditeur externe**                                               |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Si la case est cochée, plusieurs fichiers \*.inp sont écrits et le fichier d\'entrée principal utilise les mots-clés \*INCLUDE pour référencer les autres. Si la case n\'est pas cochée, un seul gros fichier \*.inp est écrit. |
+| **Diviser lors de l'écriture des fichiers *.inp**                 |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Type d\'analyse par défaut : Statique, Fréquence, Thermomecanique, Vérification du maillage ou Flambage.                                                                                                                        |
+| **Type**                                                          |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Nombre de cœurs de processeurs physiques à utiliser pour le calcul parallèle.                                                                                                                                                   |
+| **Nombre de cœurs du CPU à utiliser**                             |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Solveur de matrice par défaut : par défaut, PaStiX, Pardiso, Librairie d\'équations Spooles, Mise à l\'échelle itérative ou Solveur itératif de Cholesky.                                                                       |
+| **Solveur de matrice**                                            |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Si cette case est cochée, la non-linéarité géométrique est incluse par défaut.                                                                                                                                                  |
+| **Géométrie non-linéaire**                                        |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Si cette case est cochée, les contrôles du solveur ne sont pas ceux par défaut (ce qui n\'est pas recommandé dans la plupart des cas).                                                                                          |
+| **Paramètre de contrôle de l'incrémentation du temps**            |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Nombre maximum d\'itérations dans un pas d\'analyse.                                                                                                                                                                            |
+| **Nombre maximum d'itérations**                                   |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Taille de l\'incrémentation du temps initial (peut être modifiée par le solveur si l\'incrémentation automatique est utilisée).                                                                                                 |
+| **Intervalle de temps initial**                                   |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Temps total de la simulation.                                                                                                                                                                                                   |
+| **Durée de la simulation**                                        |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | La taille minimale de l\'intervalle de temps autorisé.                                                                                                                                                                          |
+| **Intervalle de temps minimum**                                   |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | La taille maximale de l\'intervalle de temps autorisé.                                                                                                                                                                          |
+| **Intervalle de temps maximum**                                   |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Si la case est cochée, les résultats pour les éléments 1D et 2D sont affichés par défaut avec une représentation 3D.                                                                                                            |
+| **Format de sortie 3D pour les éléments de type poutre et coque** |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Si cette case est cochée, les analyses thermomécaniques sont par défaut de type permanent.                                                                                                                                      |
+| **Type d'analyse (état transitoire ou stable)**                   |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Nombre par défaut de modes propres demandés dans les analyses fréquencielles.                                                                                                                                                   |
+| **Nombre de modes propres**                                       |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Limite supérieure par défaut des fréquences propres évaluées dans les analyses de fréquence.                                                                                                                                    |
+| **Limite de la fréquence haute**                                  |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
+|                                                                | Limite inférieure par défaut des fréquences propres évaluées dans les analyses de fréquence.                                                                                                                                    |
+| **Limite de la fréquence basse**                                  |                                                                                                                                                                                                                                 |
+|                                                                            |                                                                                                                                                                                                                                 |
++++
 
 ## Elmer
 
-Dans l\'onglet *Elmer*, vous pouvez spécifier les éléments suivants :
+<img alt="" src=images/Preferences_FEM_Page_Elmer.png  style="width:350px;">
+
+Sur cette page, vous pouvez spécifier les éléments suivants :
 
 +++
 | Nom                                                                           | Description                                                                                                                                                                                                                                                                                    |
@@ -81,8 +169,8 @@ Dans l\'onglet *Elmer*, vous pouvez spécifier les éléments suivants :
 | **ElmerGrid : Rechercher dans les répertoires binaires connus**   |                                                                                                                                                                                                                                                                                                |
 |                                                                            |                                                                                                                                                                                                                                                                                                |
 +++
-|                                                                | Le chemin vers le binaire de l\'utilitaire d\'écriture du réseau d\'[Elmer](FEM_SolverElmer/fr.md).                                                                                                                                                                                    |
-| **Chemin du binaire d'ElmerGrid**                                 |                                                                                                                                                                                                                                                                                                |
+|                                                                | Le chemin d\'accès au binaire de l\'utilitaire d\'écriture du réseau d\'[Elmer](FEM_SolverElmer/fr.md).                                                                                                                                                                                |
+| **Chemin d'accès au binaire d'ElmerGrid**                         |                                                                                                                                                                                                                                                                                                |
 |                                                                            |                                                                                                                                                                                                                                                                                                |
 | .                                                                             |                                                                                                                                                                                                                                                                                                |
 +++
@@ -90,8 +178,8 @@ Dans l\'onglet *Elmer*, vous pouvez spécifier les éléments suivants :
 | **ElmerSolver : Rechercher dans les répertoires binaires connus** |                                                                                                                                                                                                                                                                                                |
 |                                                                            |                                                                                                                                                                                                                                                                                                |
 +++
-|                                                                | Le chemin vers le binaire du solveur d\'[Elmer](FEM_SolverElmer/fr.md).                                                                                                                                                                                                                |
-| **Chemin du binaire d'ElmerSolver**                               |                                                                                                                                                                                                                                                                                                |
+|                                                                | Le chemin d\'accès au binaire du solveur d\'[Elmer](FEM_SolverElmer/fr.md).                                                                                                                                                                                                            |
+| **Chemin d'accès au binaire d'ElmerSolver**                       |                                                                                                                                                                                                                                                                                                |
 |                                                                            |                                                                                                                                                                                                                                                                                                |
 +++
 |                                                                | Le nombre de cœurs de CPU qui seront utilisés pour effectuer la résolution. **Important :** Elmer divise le maillage en portions. Le nombre de portions est égal au nombre de cœurs de CPU utilisés. Cela peut avoir des effets secondaires :                                                  |
@@ -107,91 +195,84 @@ Dans l\'onglet *Elmer*, vous pouvez spécifier les éléments suivants :
 | **Résultats du filtre**                                           |                                                                                                                                                                                                                                                                                                |
 |                                                                            |                                                                                                                                                                                                                                                                                                |
 +++
-
-![](images/Preference_Fem_Tab_05.png )
+|                                                                | Si cette case est cochée, le format binaire des résultats est utilisé. Sinon, le format ASCII est utilisé. Le format binaire peut entraîner l\'absence de résultats en raison d\'un bogue. {{Version/fr|1.1}}                                                                    |
+| **Utiliser le format binaire**                                    |                                                                                                                                                                                                                                                                                                |
+|                                                                            |                                                                                                                                                                                                                                                                                                |
++++
+|                                                                | Si cette option est cochée, l\'index des entités géométriques est sauvegardé dans les résultats. {{Version/fr|1.1}}                                                                                                                                                              |
+| **Sauvegarder les index géométriques**                            |                                                                                                                                                                                                                                                                                                |
+|                                                                            |                                                                                                                                                                                                                                                                                                |
++++
 
 ## Mystran
 
-Dans l\'onglet *Mystran*, vous pouvez spécifier les éléments suivants :
+<img alt="" src=images/Preferences_FEM_Page_Mystran.png  style="width:350px;">
+
+Sur cette page, vous pouvez spécifier les éléments suivants :
 
 +++
-| Nom                                                             | Description                                                                                                                                       |
-+=================================================================+===================================================================================================================================================+
-|                                                  | Si cette option est cochée, FreeCAD recherchera le binaire de [Mystran](FEM_SolverMystran/fr.md) dans les répertoires (habituels) connus. |
-| **Rechercher dans les répertoires binaires connus** |                                                                                                                                                   |
-|                                                              |                                                                                                                                                   |
+| Nom                                                               | Description                                                                                                                                       |
++===================================================================+===================================================================================================================================================+
+|                                                    | Si cette option est cochée, FreeCAD recherchera le binaire de [Mystran](FEM_SolverMystran/fr.md) dans les répertoires (habituels) connus. |
+| **Rechercher dans les répertoires binaires connus**   |                                                                                                                                                   |
+|                                                                |                                                                                                                                                   |
 +++
-|                                                  | Le chemin vers le binaire de [Mystran](FEM_SolverMystran/fr.md).                                                                          |
-| **Chemin du binaire de Mystran**                    |                                                                                                                                                   |
-|                                                              |                                                                                                                                                   |
+|                                                    | Le chemin d\'accès au binaire de [Mystran](FEM_SolverMystran/fr.md).                                                                      |
+| **Chemin d'accès au binaire de Mystran**              |                                                                                                                                                   |
+|                                                                |                                                                                                                                                   |
 +++
-
-![](images/Preference_Fem_Tab_Mystran.png )
+|                                                    |                                                                                                                                                   |
+| **Écrire des commentaires dans les fichiers sources** |                                                                                                                                                   |
+|                                                                |                                                                                                                                                   |
++++
 
 ## Z88
 
-Dans l\'onglet *Z88*, vous pouvez spécifier les éléments suivants :
+<img alt="" src=images/Preferences_FEM_Page_Z88.png  style="width:350px;">
+
+Sur cette page, vous pouvez spécifier les éléments suivants :
 
 +++
-| Nom                                                              | Description                                                                                                                                                                                                                                             |
-+==================================================================+=========================================================================================================================================================================================================================================================+
-|                                                   | Si cette option est cochée, FreeCAD recherchera le binaire nommé *z88r* du solveur [Z88](FEM_SolverZ88/fr.md) dans les répertoires (habituels) connus.                                                                                          |
-| **Recherche dans les répertoires binaires connus**   |                                                                                                                                                                                                                                                         |
-|                                                               |                                                                                                                                                                                                                                                         |
+| Nom                                                                  | Description                                                                                                                                                                                                                                             |
++======================================================================+=========================================================================================================================================================================================================================================================+
+|                                                       | Si cette option est cochée, FreeCAD recherchera le binaire nommé *z88r* du solveur [Z88](FEM_SolverZ88/fr.md) dans les répertoires (habituels) connus.                                                                                          |
+| **Recherche dans les répertoires binaires connus**       |                                                                                                                                                                                                                                                         |
+|                                                                   |                                                                                                                                                                                                                                                         |
 +++
-|                                                   | Le chemin vers le binaire nommé *z88r* du [solveur Z88](FEM_SolverZ88/fr.md).                                                                                                                                                                   |
-| **Chemin du binaire de z88r**                        |                                                                                                                                                                                                                                                         |
-|                                                               |                                                                                                                                                                                                                                                         |
+|                                                       | Le chemin d\'accès au binaire nommé *z88r* du [solveur Z88](FEM_SolverZ88/fr.md).                                                                                                                                                               |
+| **Chemin d'accès au binaire de z88r**                    |                                                                                                                                                                                                                                                         |
+|                                                                   |                                                                                                                                                                                                                                                         |
 +++
-|                                                   | La méthode de résolution utilisée par le [solveur Z88](FEM_SolverZ88/fr.md) pour les nouvelles simulations.                                                                                                                                     |
-| **Méthode du solveur**                               |                                                                                                                                                                                                                                                         |
-|                                                               |                                                                                                                                                                                                                                                         |
-| .                                                                |                                                                                                                                                                                                                                                         |
+|                                                       | La méthode de résolution utilisée par le [solveur Z88](FEM_SolverZ88/fr.md) pour les nouvelles simulations.                                                                                                                                     |
+| **Méthode du solveur**                                   |                                                                                                                                                                                                                                                         |
+|                                                                   |                                                                                                                                                                                                                                                         |
+| .                                                                    |                                                                                                                                                                                                                                                         |
 +++
-|                                                   | Ceci est pertinent lorsque la méthode du solveur *Simple Cholesky* est utilisée. Après avoir démarré le solveur, il peut vous indiquer que vous devez augmenter la valeur *MAXGS*. Dans ce cas, augmentez les valeurs maximales et relancez le solveur. |
-| **Valeurs maximales dans la matrice de rigidité**    |                                                                                                                                                                                                                                                         |
-|                                                               |                                                                                                                                                                                                                                                         |
+|                                                       | Ceci est pertinent lorsque la méthode du solveur *Simple Cholesky* est utilisée. Après avoir démarré le solveur, il peut vous indiquer que vous devez augmenter la valeur *MAXGS*. Dans ce cas, augmentez les valeurs maximales et relancez le solveur. |
+| **Nombre maximum de points dans une matrice de raideur** |                                                                                                                                                                                                                                                         |
+|                                                                   |                                                                                                                                                                                                                                                         |
 +++
-|                                                   | Ceci est pertinent lorsqu\'une des méthodes de solveur itératif est utilisée. Après avoir lancé le solveur, il peut vous indiquer que vous devez augmenter la valeur *MAXKOI*. Dans ce cas, augmentez les valeurs maximales et relancez le solveur.     |
-| **Valeurs maximales dans le vecteur de coïncidence** |                                                                                                                                                                                                                                                         |
-|                                                               |                                                                                                                                                                                                                                                         |
-+++
-
-![](images/Preference_Fem_Tab_04.png )
-
-
-
-## Matériau
-
-Dans l\'onglet *Matériau*, vous pouvez spécifier les éléments suivants :
-
-+++
-| Nom                                                                                                                     | Description                                                                                                                                                                                                         |
-+=========================================================================================================================+=====================================================================================================================================================================================================================+
-|                                                                                                          | Les cartes intégrées à FreeCAD seront listées comme disponibles.                                                                                                                                                    |
-| **Utiliser les matériaux intégrés**                                                                         |                                                                                                                                                                                                                     |
-|                                                                                                                      |                                                                                                                                                                                                                     |
-| .                                                                                                                       |                                                                                                                                                                                                                     |
-+++
-| \\AppData\\Roaming\\FreeCAD\\Material*. |
-| **Utiliser les matériaux du répertoire Matériaux du répertoire de préférences de FreeCAD de l'utilisateur** |                                                                                                                                                                                                                     |
-|                                                                                                                      |                                                                                                                                                                                                                     |
-+++
-|                                                                                                          | Les jeux de paramètres de matériaux provenant également du répertoire spécifié seront répertoriées comme disponibles.                                                                                               |
-| **Utiliser les matériaux du répertoire défini par l'utilisateur**                                           |                                                                                                                                                                                                                     |
-|                                                                                                                      |                                                                                                                                                                                                                     |
-+++
-|                                                                                                          | Les jeux de paramètres en double seront supprimées de la liste des jeux de paramètres de matériaux affichée.                                                                                                        |
-| **Supprimer les doublons de jeu de paramètres**                                                             |                                                                                                                                                                                                                     |
-|                                                                                                                      |                                                                                                                                                                                                                     |
-+++
-|                                                                                                          | Les jeux de paramètres de matériaux apparaîtront triées par leurs ressources (emplacements). Si cette option n\'est pas cochée, elles seront triées par leur nom.                                                   |
-| **Trier par ressources**                                                                                    |                                                                                                                                                                                                                     |
-|                                                                                                                      |                                                                                                                                                                                                                     |
-| .                                                                                                                       |                                                                                                                                                                                                                     |
+|                                                       | Ceci est pertinent lorsqu\'une des méthodes de solveur itératif est utilisée. Après avoir lancé le solveur, il peut vous indiquer que vous devez augmenter la valeur *MAXKOI*. Dans ce cas, augmentez les valeurs maximales et relancez le solveur.     |
+| **Taille maximale dans le vecteur de coïncidence**       |                                                                                                                                                                                                                                                         |
+|                                                                   |                                                                                                                                                                                                                                                         |
 +++
 
-![](images/Preference_Fem_Tab_Material.png )
+## Netgen
+
+<img alt="" src=images/Preferences_FEM_Page_Netgen.png  style="width:350px;">
+
+Sur cette page, vous pouvez spécifier les éléments suivants :
+
++++
+| Nom                               | Description                                                                                                                                                                                                                                                                                                                                                          |
++===================================+======================================================================================================================================================================================================================================================================================================================================================================+
+|                    | Si cette option est cochée, l\'ancienne implémentation [Netgen](FEM_MeshNetgenFromShape/fr.md) est utilisée par FEM. Cela peut être nécessaire pour les utilisateurs (en général les vieux ordinateurs et Windows) qui ne peuvent pas installer les extensions Python de Netgen nécessaires à la nouvelle implémentation. ({{Version/fr|1.0}}) |
+| **Netgen historique** |                                                                                                                                                                                                                                                                                                                                                                      |
+|                                |                                                                                                                                                                                                                                                                                                                                                                      |
++++
+
+
+
 
 
 {{FEM Tools navi

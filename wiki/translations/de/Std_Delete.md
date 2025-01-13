@@ -9,9 +9,13 @@
 
 # Std Delete/de
 
+
+
 ## Beschreibung
 
 Der **Std Löschen** Befehl löscht die ausgewählten Objekte.
+
+
 
 ## Anwendung
 
@@ -24,12 +28,11 @@ aus dem Kontextmenü der [Baumansicht](Tree_view/de.md) oder dem Kontextmenü de
 
 #\* Verwende das Tastaturkürzel: **Del**.
 
+
+
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um ein Objekt zu löschen, verwende die Methode `removeObject` des Dokumentobjekts.
 
@@ -44,7 +47,7 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

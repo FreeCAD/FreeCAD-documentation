@@ -25,7 +25,7 @@ La commande pointe vers [<https://wiki.freecad.org/Frequently_asked_questions>](
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

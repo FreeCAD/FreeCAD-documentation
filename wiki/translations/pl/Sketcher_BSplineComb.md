@@ -5,7 +5,7 @@
    MenuLocation: Szkic , Wygląd w szkicowniku , Pokaż / ukryj warstwę informacyjną krzywej złożonej , Grzebień krzywizny krzywej złożonej
    Workbenches: Sketcher_Workbench/pl
    Version: 0.17
-   SeeAlso: Sketcher_CompCreateBSpline/pl
+   SeeAlso: Sketcher_CreateBSpline/pl
 ---
 
 # Sketcher BSplineComb/pl
@@ -14,19 +14,20 @@
 
 ## Opis
 
-Pokazuje lub ukrywa wyświetlanie *Grzebienia krzywizny* krzywej złożonej *(zobacz stronę [Krzywe złożone](B-Splines/pl.md) aby dowiedzieć się więcej)*.
+Narzędzie <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:24px;"> **Pokaż / ukryj grzebień krzywizny krzywej złożonej** pokazuje lub ukrywa grzebień krzywizny [krzywej złożonej](B-Splines/pl.md) we wszystkich szkicach.
 
-Grzebień krzywizny wskazuje krzywiznę (wartość pochodnej drugiego rzędu) krzywej złożonej w każdej pozycji. Im wyższa krzywizna w danej pozycji, tym bardziej grzebień jest oddalony od krzywej. Dla dodatnich krzywizn *(\"zwrot w prawo\")* grzebień znajduje się po drugiej stronie krzywej niż dla ujemnych krzywizn.
+Grzebień krzywizny wskazuje krzywiznę *(wartość pochodnej drugiego rzędu)* wzdłuż krzywej złożonej. Im wyższa krzywizna, tym dłuższe są zęby grzebienia. Gdy krzywa złozona zakrzywia się w prawo, grzebień znajduje się po jego lewej stronie i odwrotnie.
 
 ![](images/sketcher_BSplineCurvatureShow.png ) 
-*Krzywa złożona z punktem siodłowym w jego środkowym położeniu - grzebień krzywizny jest tam zerowy.*
+*Krzywa złożona z punktem siodłowym w jego punkcie środkowym, grzebień krzywizny wynosi tam zero.*
 
 
 
 ## Użycie
 
-1.  Wybierz krzywą złożoną.
-2.  Albo użyj przycisku na pasku narzędzi **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> '''Pokaż / ukryj grzebień krzywizny krzywej złożonej'''** albo użyj menu **Szkic → Narzędzia szkicownika krzywej złożonej→ [<img src=images/Sketcher_BSplineComb.svg style="width:16px"> Pokaż / ukryj grzebień krzywizny krzywej złożonej**.
+1.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_BSplineComb.svg" width=16px> '''Pokaż / ukryj grzebień krzywizny krzywej złożonej'''**.
+    -   Wybierz z menu **Szkic → Widok szkicu → Pokaż / ukryj warstwę informacyjną krzywej złożonej → <img src="images/Sketcher_BSplineComb.svg" width=16px> Pokaż / ukryj grzebień krzywizny krzywej złożonej**.
 
 
 

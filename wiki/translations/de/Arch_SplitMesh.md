@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch SplitMesh
    Name/de: Arch NetzAufteilen
-   MenuLocation: Arch , Dienstprogramme , Netz zerlegen
-   Workbenches: Arch_Workbench/de
+   MenuLocation: Utils , Netz aufteilen
+   Workbenches: BIM_Workbench/de
    SeeAlso: Arch_SelectNonSolidMeshes/de, Arch_MeshToShape/de
 ---
 
@@ -13,15 +13,14 @@
 
 ## Beschreibung
 
-Diese Werkzeug teilt ein ausgewähltes [Mesh](Mesh_Workbench/de.md)-Objekt in seine einzelnen Bestandteile.
+Das Werkzeug **Arch NetzAufteilen** teilt ein ausgewähltes [Mesh](Mesh_Workbench/de.md)-Objekt in seine einzelnen Bestandteile.
 
 
 
 ## Anwendung
 
-1.  Wähle ein Netzobjekt
-2.  Drücke den **<img src="images/Arch_SplitMesh.svg" width=16px> [Netz aufteilen](Arch_SplitMesh/de.md)
-** Eintrag in **Arch → Dienstprogramme → Netz aufteilen**
+1.  Ein Netzobjekt auswählen.
+2.  Den Menüeintrag **Utils → <img src="images/Arch_SplitMesh.svg" width=16px> Netz aufteilen** auswählen.
 
 
 
@@ -67,5 +66,13 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/de
+⏵ [documentation index](../README.md) > Arch SplitMesh/de

@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part Cut
    Name/de: Part Differenz
-   MenuLocation: Formteil , Boolesche Operationen , Differenz
+   MenuLocation: Part , Boolesche Verknüpfungen , Differenz
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Boolean/de, Part_Fuse/de, Part_Common/de
 ---
@@ -13,26 +13,34 @@
 
 ## Beschreibung
 
-Beschneidet ausgewählte Part-Objekte, wobei das letzte vom ersten abgezogen (subtrahiert) wird. Diese Operation ist voll parametrisch und die Komponenten können modifiziert und das Ergebnis neu berechnet werden.
+Das Werkzeug <img alt="" src=images/Part_Cut.svg  style="width:24px;"> **Part Differenz** beschneidet ausgewählte Part-Objekte, wobei das zuletzt ausgewählte vom ersten abgezogen (subtrahiert) wird. Diese Operation ist voll parametrisch und die Komponenten können modifiziert und das Ergebnis neu berechnet werden.
 
-**Hinweis:** Dieser Befehl ist eine automatisierte Form des <img alt="" src=images/Part_Booleans.svg  style="width:24px;"> [Boolesche Operation](Part_Boolean/de.md).
+Dieses Werkzeug ist eine automatisierte Form der <img alt="" src=images/Part_Booleans.svg  style="width:24px;"> [Booleschen Verknüpfung](Part_Boolean/de.md).
 
-[480px\|left\|Schneiden](IMAGE:Part_Cut_01.png.md)
+<img alt="" src=images/Part_Cut_01.png  style="width:480px;">
 
 
 
 ## Anwendung
 
-1.  Wähle zwei Formen
-2.  Rufe den Part Schneiden Befehl auf verschiedene Weise auf:
-    -   Drücke die **![](images/) '''Schneiden'''** Schaltfläche in der Part Werkzeugleiste
-    -   Verwende den **Part → Boolesche operation → Schneiden** Eintrag aus dem Part Menü
+1.  Zwei Formen auswählen
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Part_Cut.svg" width=16px> [Differenz](Part_Cut/de.md)** drücken
+    -   Den Menüeintrag **Part → Boolesche Verknüpfung → <img src="images/Part_Cut.svg" width=16px> Differenz** auswählen.
 
 
 
 ## Unterstützte Eingaben 
 
 Eingabeobjekte müssen [OpenCASCADE](OpenCASCADE/de.md)-Formen sein. Zum Beispiel Objekte die mit den Arbeitsbereichen Part, PartDesign oder Sketcher erstellt wurden. Für Polygonnetze gibt es eigene boolesche Werkzeuge im Arbeitsbereich [Mesh](Mesh_Workbench/de.md).
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

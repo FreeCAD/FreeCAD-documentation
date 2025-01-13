@@ -13,7 +13,7 @@
 
 ## Przybory
 
-Większość **narzędzi Głównych** jest dostępna z [menu standardowego](Standard_Menu/pl.md), i standardowy pasek narzędzi. Te, które są dostępne tylko poprzez pasek narzędzi lub menu kontekstowe, są wymienione w sekcji [narzędzia dodatkowe](#Narzędzia_dodatkowe.md).
+Większość **narzędzi Głównych** jest dostępna z [menu standardowego](Standard_Menu/pl.md), i standardowy pasek narzędzi. Te, które są dostępne tylko poprzez pasek narzędzi lub menu kontekstowe, są wymienione w sekcjach [Struktura](#Structure_toolbar/pl.md) i [Narzędzia dodatkowe](#Narzędzia_dodatkowe.md) poniżej.
 
 
 
@@ -41,45 +41,83 @@ Istnieje siedem standardowych menu podrzędnych. Każde podmenu ma dedykowaną s
 
 
 
-### Narzędzia dodatkowe 
+### Menu Struktura 
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Utwórz Część](Std_Part/pl.md): Tworzy nową część i czyni ją aktywną.
 
+-   <img alt="" src=images/Part_CoordinateSystem.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Utwórz geometrie odniesienia: 
+
+  - <img alt="" src=images/Part_CoordinateSystem.svg  style="width:32px;"> [Utwórz układ współrzędnych odniesienia](Part_CoordinateSystem/pl.md): Tworzy obiekt układu współrzędnych, który może być zamocowany do innych obiektów. {{Version/pl|1.1}}
+
+  - <img alt="" src=images/Part_DatumPlane.svg  style="width:32px;"> [Utwórz płaszczyznę odniesienia](Part_DatumPlane/pl.md): Tworzy obiekt płaszczyzny odniesienia, który może być zamocowany do innych obiektów. {{Version/pl|1.1}}
+
+  - <img alt="" src=images/Part_DatumLine.svg  style="width:32px;"> [Utwórz linię odniesienia](Part_DatumLine/pl.md): Tworzy obiekt linii odniesienia, który może być zamocowany do innych obiektów. {{Version/pl|1.1}}
+
+  - <img alt="" src=images/Part_DatumPoint.svg  style="width:32px;"> [Utwórz punkt odniesienia](Part_DatumPoint/pl.md): Tworzy obiekt punktu odniesienia, który może być zamocowany do innych obiektów. {{Version/pl|1.1}}
+
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Utwórz grupę](Std_Group/pl.md): Tworzy nową grupę.
 
--   <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [Utwórz łącze](Std_LinkMake/pl.md): Tworzy łącze.
+-   <img alt="" src=images/Std_LinkMake.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Narzędzia Łączy:
 
--   <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:32px;"> [Utwórz łącze względne](Std_LinkMakeRelative/pl.md): Tworzy łącze obiektu podrzędnego lub elementu podrzędnego.
+  - <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [Utwórz łącze](Std_LinkMake/pl.md): Tworzy łącze.
 
--   <img alt="" src=images/Std_LinkReplace.svg  style="width:32px;"> [Zastąp przez łącze](Std_LinkReplace/pl.md): Zastępuje obiekt nowym łączem, lub wiele obiektów łączami.
+  - <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:32px;"> [Utwórz łącze względne](Std_LinkMakeRelative/pl.md): Tworzy łącze obiektu podrzędnego lub elementu podrzędnego.
 
--   <img alt="" src=images/Std_LinkUnlink.svg  style="width:32px;"> [Usuń powiązanie](Std_LinkUnlink/pl.md): Zastępuje łącza powiązanymi z nimi obiektami.
+  - <img alt="" src=images/Std_LinkReplace.svg  style="width:32px;"> [Zastąp przez łącze](Std_LinkReplace/pl.md): Zastępuje obiekt nowym łączem, lub wiele obiektów łączami.
 
--   <img alt="" src=images/Std_LinkImport.svg  style="width:32px;"> [Importuj łącza](Std_LinkImport/pl.md): Importuje wybrane łącza zewnętrzne.
+  - <img alt="" src=images/Std_LinkUnlink.svg  style="width:32px;"> [Usuń powiązanie](Std_LinkUnlink/pl.md): Zastępuje łącza powiązanymi z nimi obiektami.
 
--   <img alt="" src=images/Std_LinkImportAll.svg  style="width:32px;"> [Importuj wszystkie łącza](Std_LinkImportAll/pl.md): Importuje wszystkie łącza zewnętrzne.
+  - <img alt="" src=images/Std_LinkImport.svg  style="width:32px;"> [Importuj łącza](Std_LinkImport/pl.md): Importuje wybrane łącza zewnętrzne.
+
+  - <img alt="" src=images/Std_LinkImportAll.svg  style="width:32px;"> [Importuj wszystkie łącza](Std_LinkImportAll/pl.md): Importuje wszystkie łącza zewnętrzne.
+
+-   <img alt="" src=images/Std_VarSet.svg  style="width:32px;"> [Utwórz zestaw zmiennych](Std_VarSet/pl.md): Tworzy zestaw właściwości, które mogą zostać użyte jako zmienne w [wyrażeniach](Expressions/pl.md). {{Version/pl|1.0}}
+
+
+
+### Narzędzia dodatkowe 
 
 -   <img alt="" src=images/Std_LinkMakeGroup.svg  style="width:32px;"> [Stwórz grupę łączy](Std_LinkMakeGroup/pl.md): Tworzy grupę łączy.
 
--   <img alt="" src=images/Selection-filter.svg  style="width:32px;"> [Filtr wyboru](Part_SelectFilter/pl.md) **-- Dostępne, jeśli załadowano środowisko pracy [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md).** {{Version/pl|0.22}}
+-   [Akcje z wyrażeniami](Std_Expressions/pl.md):
 
-  - <img alt="" src=images/Vertex-selection.svg  style="width:32px;"> Wybór wierzchołków: Umożliwia wybór wyłącznie wierzchołków.
+  - [Kopiuj wybrane](Std_Expressions/pl#Kopiuj_wybrane.md): kopiuje dane wyrażeń z wybranych obiektów do schowka.
 
-  - <img alt="" src=images/Edge-selection.svg  style="width:32px;"> Wybór krawędzi: Umożliwia wybór wyłącznie krawędzi.
+  - [Kopiuj aktywny dokument](Std_Expressions/pl#Kopiuj_aktywny_dokument.md): kopiuje dane wyrażeń z aktywnego dokumentu do schowka.
 
-  - <img alt="" src=images/Face-selection.svg  style="width:32px;"> Wybór ścian: Umożliwia wybór wyłącznie ścian.
+  - [Kopiuj wszystkie dokumenty](Std_Expressions/pl#Kopiuj_wszystkie_dokumenty.md): kopiuje dane wyrażeń ze wszystkich dokumentów do schowka.
 
-  - <img alt="" src=images/Clear-selection.svg  style="width:32px;"> Wszystkie filtry wyboru wyczyszczone: Umożliwia wybór wszystkich elementów podrzędnych.
+  - [Wklej](Std_Expressions/pl#Wklej.md): wkleja dane wyrażeń ze schowka.
 
--   <img alt="" src=images/Std_TreeSelectAllInstances.svg  style="width:32px;"> [Wybierz wszystkie wystąpienia](Std_TreeSelectAllInstances/pl.md): Wybiera wszystkie instancje obiektu.
+-   <img alt="" src=images/Part_SelectFilter.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> [Filtr wyboru](Part_SelectFilter/pl.md): {{Version/pl|1.0}}
 
--   [Akcje z wyrażeniami](Std_Expressions/pl.md): Działania związane z wyrażeniami.
+  - <img alt="" src=images/Vertex-selection.svg  style="width:32px;"> [Wybór wierzchołków](Part_SelectFilter/pl#Wybór_wierzchołków.md):: Umożliwia wybór wyłącznie wierzchołków.
+
+  - <img alt="" src=images/Edge-selection.svg  style="width:32px;"> [Wybór krawędzi](Part_SelectFilter/pl#Wybór_krawędzi.md): Umożliwia wybór wyłącznie krawędzi.
+
+  - <img alt="" src=images/Face-selection.svg  style="width:32px;"> [Wybór ścian](Part_SelectFilter/pl#Wybór_ścian.md): Umożliwia wybór wyłącznie ścian.
+
+  - <img alt="" src=images/Clear-selection.svg  style="width:32px;"> [Wszystkie filtry wyboru wyczyszczone](Part_SelectFilter/pl#Wszystkie_filtry_wyboru_wyczyszczone.md): Umożliwia wybór wszystkich elementów podrzędnych.
+
+-   <img alt="" src=images/Std_TreeSelectAllInstances.svg  style="width:32px;"> [Wybierz wszystkie wystąpienia](Std_TreeSelectAllInstances/pl.md): Wybiera wszystkie wystąpienia obiektu w [widoku drzewa](Tree_view/pl.md).
+
+-   <img alt="" src=images/Std_ToggleFreeze.svg  style="width:32px;"> [Włącz / wyłącz przeliczanie](Std_ToggleFreeze/pl.md): Przełącza stan zamrożenia obiektów. {{Version/pl|1.0}}
+
+
+
+### Narzędzia przestarzałe 
+
+-   <img alt="" src=images/View_Measure_Clear_All.svg  style="width:32px;"> [Usuń wszystkie pomiary widoku](View_Measure_Clear_All/pl.md): Usuwa pomiary [środowiska Część](Part_Workbench/pl.md). Niedostępne w {{VersionPlus/pl|1.0}}. Użyj [Std: Pomiary](Std_Measure/pl.md) zamiast tego.
+
+-   <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:32px;"> [Przełącz widoczność wymiarów](View_Measure_Toggle_All/pl.md): Przełącza widoczność wymiarów środowiska pracy Część. Niedostępne w {{VersionPlus/pl|1.0}}. Użyj [Std: Pomiary](Std_Measure/pl.md) zamiast tego.
+
+-   <img alt="" src=images/Std_MeasureDistance.svg  style="width:32px;"> [Std: Wymiarowanie odległości](Std_MeasureDistance/pl.md): Tworzy obiekt do pomiaru i wyświetlania odległości. Niedostępne w {{VersionPlus/pl|1.0}}. Użyj [Std: Pomiary](Std_Measure/pl.md) zamiast tego.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

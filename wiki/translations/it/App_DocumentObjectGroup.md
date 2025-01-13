@@ -13,6 +13,8 @@ Un oggetto [App DocumentObjectGroup](App_DocumentObjectGroup/it.md) o formalment
 
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `App::DocumentObjectGroup* ha un'estensione che le consente di raggruppare qualsiasi tipo di oggetto; il gruppo di per se stesso non ha molte proprietà.`
 
+
+
 ## Utilizzo
 
 1.  Premere il pulsante **[<img src=images/Std_Group.svg style="width:16px"> [Gruppo](Std_Group/it.md)** nella barra degli strumenti della struttura. Viene creato un gruppo vuoto.
@@ -20,6 +22,8 @@ Un oggetto [App DocumentObjectGroup](App_DocumentObjectGroup/it.md) o formalment
 3.  Per rimuovere degli oggetti da un gruppo, trascinarli fuori dal gruppo, sull\'etichetta del documento nella parte superiore della [vista ad albero](tree_view/it.md).
 
 Vedere la pagina [Gruppo](Std_Group/it.md) per le informazioni complete, incluso il suo uso negli [Script](Std_Group/it#Script.md).
+
+
 
 ## Proprietà
 

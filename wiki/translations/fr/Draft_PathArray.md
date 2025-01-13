@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft PathArray
    Name/fr: Draft Réseau selon une courbe
-   MenuLocation: Modification , Outils pour les réseaux , Réseau selon une courbe
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Modification , Outils pour les réseaux , Réseau selon une courbe<br><br>BIM : Modification , Réseau selon une courbe
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Version: 0.14
    SeeAlso: Draft_OrthoArray/fr, Draft_PolarArray/fr, Draft_CircularArray/fr, Draft_PathLinkArray/fr, Draft_PointArray/fr, Draft_PointLinkArray/fr
 ---
@@ -14,7 +14,7 @@
 
 La commande <img alt="" src=images/Draft_PathArray.svg  style="width:24px;"> **Draft Réseau selon une courbe** crée un réseau régulier à partir d\'un objet sélectionné en plaçant des copies le long d\'un chemin. Utilisez la commande [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md) pour créer un réseau [Link](App_Link/fr.md) plus efficace à la place. À l\'exception du type de réseau créé, réseau de liens ou réseau régulier, la commande [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md) est identique à cette commande.
 
-Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
+Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier BIM](BIM_Workbench/fr.md).
 
 <img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;"> 
 *Un Draft réseau selon une courbe*
@@ -24,12 +24,13 @@ Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[a
 ## Utilisation
 
 1.  Sélectionner l\'objet que vous souhaitez mettre en réseau.
-2.  Ajouter l\'objet trajectoire à la sélection. Il est également possible de sélectionner des arêtes à la place. Les arêtes doivent appartenir au même objet et doivent être connectées.
+2.  Ajouter la trajectoire à la sélection. Il est également possible de sélectionner des arêtes à la place. Les arêtes doivent appartenir au même objet et doivent être connectées.
 3.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyer sur le **<img src="images/Draft_PathArray.svg" width=16px> [Réseau selon une courbe](Draft_PathArray/fr.md)**.
-    -   Sélectionner l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_PathArray.svg" width=16px> Réseau selon une courbe** du menu.
+    -   Appuyer sur le bouton **<img src="images/Draft_PathArray.svg" width=16px> [Réseau selon une courbe](Draft_PathArray/fr.md)**.
+    -   [Draft](Draft_Workbench/fr.md): sélectionner l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_PathArray.svg" width=16px> Réseau selon une courbe** du menu.
+    -   [BIM](BIM_Workbench/fr.md): sélectionner l\'option **Modification → <img src="images/Draft_PathArray.svg" width=16px> Réseau selon une courbe** du menu.
 4.  Le réseau est créé.
-5.  Vous pouvez éventuellement modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du réseau dans l\'[éditeur de propriétés](Property_editor/fr.md).
+5.  Vous pouvez modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du réseau dans l\'[éditeur de propriétés](Property_editor/fr.md).
 
 
 
@@ -140,6 +141,8 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 -    **Count|Integer**: spécifie le nombre d\'éléments dans le réseau.
 
 -    **Expand Array|Bool**: indique s\'il faut développer le réseau dans la [vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type lien (Link).
+
+-    **Fuse|Bool**: spécifie si les éléments qui se chevauchent dans le réseau sont fusionnés ou non. Non utilisé pour les réseaux de liens. {{Version/fr|1.0}}
 
 -    **Path Object|LinkGlobal**: spécifie l\'objet à utiliser pour le chemin. Il doit contenir {{Value|Edges}} dans sa [Part TopoShape](Part_TopoShape/fr.md).
 

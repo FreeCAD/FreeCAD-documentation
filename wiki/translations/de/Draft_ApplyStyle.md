@@ -3,7 +3,7 @@
    Name: Draft ApplyStyle
    Name/de: Draft StilAnwenden
    MenuLocation: Dienstprogramme , Aktuellen Stil anwenden
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de
    SeeAlso: Draft_SetStyle/de
 ---
 
@@ -35,7 +35,7 @@ Der Befehl <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **D
 
 1.  Wahlweise die Stileinstellungen mit dem Befehl [Draft StilFestlegen](Draft_SetStyle/de.md) anpassen.
 2.  Ein oder mehrere Objekte auswählen.
-3.  Den Menüeintrag **Dienstprogramme → <img src="images/Draft_ApplyStyle.svg" width=16px> Aktuellen Stil anwenden** auswählen.
+3.  Den Menüeintrag **Dienstprogramme → <img src="images/Draft_ApplyStyle.svg" width=16px> Aktuellen Stil anwenden** auswählen oder die Menüoption im Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen.
 
 
 

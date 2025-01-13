@@ -22,20 +22,22 @@ Der Befehl **Std BaumAuswahlAufzeichnen** schaltet den Auswahl-Aufzeichnen-Modus
 
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Den nach unten weisenden Pfeil rechts neben der Schaltfläche **<img src="images/Std_TreeSyncView.svg" width=16px>** anklicken und den Eintrag **Auswahl aufzeichnen** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
-    -   Den Menüeintrag **Ansicht → Baumansicht-Aktionen → <img src="images/Std_TreeRecordSelection.svg" width=16px> Auswahl aufzeichnen** auswählen.
+    -   Den Menüeintrag **Ansicht → Baumansicht-Aktionen → Auswahl aufzeichnen** auswählen.
     -   Das Tastaturkürzel **T** dann **5**.
 
 
 
 ## Einstellungen
 
--   Der Modus Auswahl aufzeichnen der Baumansicht kann auch im [Voreinstellungseditor](Preferences_Editor/de#Auswahl.md) ausgewählt werden: **Bearbeiten→ Einstellungen... → Allgemein → Auswahl**.
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Der Modus Auswahl aufzeichnen der Baumansicht kann auch in den Einstellungen festgelegt werden: **Bearbeiten→ Einstellungen... → Allgemein → Auswahl → Auswahl in der Baumansicht aufzeichnen, um mit einer Navigationstaste zurück bzw. vorwärts zu gehen**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

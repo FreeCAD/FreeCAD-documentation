@@ -36,7 +36,7 @@ Ta sekcja ma na celu dostarczenie listy wszystkich takich pakietów oprogramowan
 
 ### OpenCAMLib
 
-[OpenCAMLib](http://www.anderswallin.net/CAM) to biblioteka open source algorytmów produkcji wspomaganej komputerowo **(CAM)**. Jest ona używana w Środowisku pracy [Path](Path_Workbench/pl.md) programu FreeCAD . Zobacz [jego stronę](OpenCamLib.md), aby uzyskać instrukcje instalacji.
+[OpenCAMLib](http://www.anderswallin.net/CAM) to biblioteka open source algorytmów produkcji wspomaganej komputerowo **(CAM)**. Jest ona używana w Środowisku pracy [CAM](CAM_Workbench/pl.md) programu FreeCAD . Zobacz [jego stronę](OpenCamLib.md), aby uzyskać instrukcje instalacji.
 
 ### OpenSCAD
 

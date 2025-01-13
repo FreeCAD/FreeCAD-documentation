@@ -15,74 +15,74 @@
 
 ## Description
 
-The Perpendicular Constraint makes two lines to be perpendicular (i.e. orthogonal) to each other, or two curves to be perpendicular at their intersection. Lines are treated infinite, and arcs are treated as full circles/ellipses. The constraint is also capable of connecting two curves, forcing them perpendicular at the joint, similarly to **[<img src=images/Sketcher_ConstrainTangent.svg style="width:16px"> [Constrain tangent](Sketcher_ConstrainTangent.md)**.
+The <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> [Sketcher ConstrainPerpendicular](Sketcher_ConstrainPerpendicular.md) tool constrains two lines to be perpendicular, or two edges, or an edge and an axis, to be perpendicular at their intersection. Lines are treated as infinite, and open curves are virtually extended as well. The constraint can also connect two edges, forcing them to be perpendicular at the joint.
 
 ## Usage
 
-There are four different ways the constraint can be applied:
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-1.  between two curves (available not for all curves)
-2.  between two endpoints of a curve
-3.  between a curve and an endpoint of another curve
-4.  between two curves at user-defined point
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
 
-To apply perpendicular constraint, one should the follow the steps:
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> [Constrain perpendicular](Sketcher_ConstrainPerpendicular.md)** button.
 
--   Select two or three entities in the sketch.
--   Invoke the constraint by clicking its icon on the toolbar, or selecting the menu item, or using keyboard shortcut.
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> Constrain perpendicular** option from the menu.
 
-### Between two curves (direct perpendicularity) 
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Constrain → <img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> Constrain perpendicular** option from the context menu.
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:600px;">
+    -   Use the keyboard shortcut: **N**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Do one of the following:
+    -   Select two edges. One of the edges must be a straight line or an axis. The other can be any edge except a B-spline.
+    -   Select a point and two edges (in that order).
+    -   Select an edge, a point and another edge (idem).
+5.  A Perpendicular constraint is added. If a point and two edges have been selected, up to two [Point on object constraints](Sketcher_ConstrainPointOnObject.md) can also be added. See [Examples](#Between_two_edges_at_point.md).
+6.  Optionally keep creating constraints.
+7.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
 
-Two curves will be made perpendicular at point of their intersection (either real, or of curves\' extensions), and the point of intersection will be implicit. This mode is applied if two curves were selected.
+### Run-once mode 
 
-**Accepted selection:**
+1.  Do one of the following:
+    -   Select two edges (see above).
+    -   Select two endpoints belonging to different edges.
+    -   Select an edge and the endpoint of another edge (in any order).
+    -   Select a point and two edges (idem).
+2.  Invoke the tool as explained above, or with the following additional option:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> Constrain perpendicular** option from the context menu.
+3.  A Perpendicular constraint is added. If a point and two edges have been selected, up to two [Point on object constraints](Sketcher_ConstrainPointOnObject.md) can also be added. See [Examples](#Between_two_edges_at_point.md).
 
--   line + line, circle, arc
--   circle, arc + circle, arc
+## Examples
 
-If direct perpendicularity between selected curves is not supported (e.g. between a line and an ellipse), a helper point will be added to sketch automatically, and perpendicular-via-point will be applied.
+### Between two edges 
 
-Unlike for tangency, it is perfectly fine to reconstruct the point of perpendicularity by creating a point and constraining it to lie on both curves (thus constraining the point to the intersection).
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:400px;">
 
-### Between two endpoints (point-to-point perpendicularity) 
+The two edges are made perpendicular at their (virtual) intersection. If one of the edges is a [conic](Sketcher_Workbench#Sketcher_CompCreateConic.md), a [Point object](Sketcher_CreatePoint.md) that has a [Point on object constraint](Sketcher_ConstrainPointOnObject.md) with both (extended) edges is added.
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:600px;">
+### Between two endpoints 
 
-In this mode, the endpoints are made coincident, and the joint is made to be right angle. This mode is applied when two endpoints of two curves were selected.
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:400px;">
 
-**Accepted selection:**
+The endpoints are made coincident, and the edges are made perpendicular at that point.
 
--   endpoint of line/arc/arc-of-ellipse + endpoint of line/arc/arc-of-ellipse (i.e., two endpoints of any two curves)
+### Between edge and endpoint 
 
-### Between curve and endpoint (point-to-curve perpendicularity) 
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:400px;">
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:600px;">
+The endpoint of one edge is constrained to lie on the other edge, and the edges are made perpendicular at that point.
 
-In this mode, an endpoint of one curve is constrained to lie on the other curve, and the curves are forced perpendicular at the point. This mode is applied when a curve and an endpoint of another curve were selected.
+### Between two edges at point 
 
-**Accepted selection:**
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:400px;">
 
--   line, circle, arc, ellipse, arc-of-ellipse + endpoint of line/arc/arc-of-ellipse (i.e., any curve + endpoint of any curve)
-
-### Between two curves at point (perpendicular-via-point) (v0.15) 
-
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:600px;">
-
-In this mode, two curves are made perpendicular, and the point of perpendicularity is tracked. This mode is applied when two curves and a point were selected.
-
-**Accepted selection:**
-
--   any line/curve + any line/curve + any point
-
-\"Any point\" can be a lone point, or a point of something, e.g. a center of a circle, an endpoint of an arc, or the origin.
-
-For the constraint to work correctly, the point must be on both curves. So, as the constraint is invoked, the point will be automatically constrained onto both curves ([helper constraints](Sketcher_helper_constraint.md) will be added, if necessary), and the curves will be forced perpendicular at the point. These [helper constraints](Sketcher_helper_constraint.md) are plain regular constraints. They can be added manually, or deleted.
-
-Compared to direct perpendicular, this constraint is slower, because there are mode degrees of freedom involved, but it supports ellipses.
-
-The placement of the point before the constraint is applied is a hint for the solver for where the perpendicularity should be.
+The two edges are made perpendicular at a given point. The point can be any point, e.g. the center of a circle, the endpoint of an edge, or the origin, it can belong to one of the edges, and it can also be a [Point object](Sketcher_CreatePoint.md). If required [Point on object constraint(s)](Sketcher_ConstrainPointOnObject.md) are added to ensure the point lies on both (extended) edges. These additional constraints are called [helper constraints](Sketcher_helper_constraint.md).
 
 ## Scripting
 

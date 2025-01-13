@@ -1,7 +1,7 @@
 # Manual:Generating 2D drawings/it
 {{Manual:TOC}}
 
-Quando il modello non può essere stampato o fresato direttamente da una macchina, perché, ad esempio, è troppo grande (un edificio) o richiede un montaggio manuale dopo che i pezzi sono pronti, di solito bisogna spiegare ad un\'altra persona come realizzarlo. Nel campo tecnico (ingegneria, architettura, ecc), questo di solito viene fatto con dei disegni. I disegni vengono consegnati alla persona responsabile dell\'assemblaggio del prodotto finale e questi spiegheranno come farlo.
+Quando il modello non può essere stampato o fresato direttamente da una macchina perché, ad esempio, è troppo grande (un edificio) o richiede un montaggio manuale dopo che i pezzi sono pronti, di solito bisogna spiegare ad un\'altra persona come realizzarlo. Nel campo tecnico (ingegneria, architettura, ecc), questo di solito viene fatto con dei disegni. I disegni vengono consegnati alla persona responsabile dell\'assemblaggio del prodotto finale e questi spiegheranno come farlo.
 
 Esempi tipici sono [architectural drawings](https://en.wikipedia.org/wiki/Architectural_drawing) e [blueprints](https://en.wikipedia.org/wiki/Blueprint). Questi disegni di solito contengono non solo i disegni stessi, ma anche molte annotazioni, quali testo, quote, numeri, simboli che aiutano a capire che cosa deve essere fatto e come.
 
@@ -13,9 +13,9 @@ I fogli di disegno, una volta completi, possono essere stampati o esportati come
 
 Nel seguente esercizio, vedremo come creare un semplice disegno di un modello di sedia trovato in [FreeCAD library](https://github.com/FreeCAD/FreeCAD-library) (Industrial Design → Chairs → IkeaLikeChair). La libreria FreeCAD può essere facilmente aggiunta alla propria installazione FreeCAD (consultare il capitolo [installazione](Manual:Installing/it.md) di questo manuale), oppure si può semplicemente scaricare il modello dalla libreria della pagina web, oppure tramite il link diretto fornito in fondo a questo capitolo.
 
-![](images/Exercise_TechDraw_01.svg )
+![](images/Exercise_TechDraw_01.png )
 
--   Caricare il file IkeaLikeChair dalla libreria. Si può scegliere tra la versione .[FCStd](File_Format_FCStd/it.md), che carica la storia completa della modellazione, o la versione .[step](STEP.md), che crea solo un oggetto, senza la storia. Dato che ora non avremo bisogno di fare ulteriore modellazione, è meglio scegliere la versione .step, in quanto è più facile da manipolare.
+-   Caricare il file IkeaLikeChair dalla libreria. Si può scegliere tra la versione .[FCStd](File_Format_FCStd/it.md), che carica lo storico completo della modellazione o la versione .[step](STEP.md), che crea solo un oggetto, senza la storia. Dato che ora non avremo bisogno di fare ulteriore modellazione, è meglio scegliere la versione .step, in quanto è più facile da manipolare.
 
 ![](images/Parts_library.jpg )
 
@@ -30,10 +30,12 @@ Nel seguente esercizio, vedremo come creare un semplice disegno di un modello di
         -   Y: 120 mm
         -   Rotazione: 0
         -   Scala: 0.1
-    -   Sotto la categoria Proiezione (premi la freccia del menu a discesa per modificare singolarmente i componenti x, y e z di queste proprietà):
+    -   Sotto la categoria Proiezione (premere la freccia del menu a discesa per modificare singolarmente i componenti x, y e z di queste proprietà):
         -   Direzione: \[0 0 1\]
         -   XDirection: \[0 -1 0\] (Cambia prima il campo y, poi il campo x)
 -   Ora abbiamo una bella vista dall\'alto della nostra sedia. Premere il pulsante <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> [Attiva o disattiva la cornice](TechDraw_ToggleFrame/it.md) per disattivare la cornice, le etichette e i vertici della vista.
+
+![](images/Exercise_drawing_02.jpg )
 
 ![](images/Exercise_drawing_02.jpg )
 
@@ -46,7 +48,7 @@ Nel seguente esercizio, vedremo come creare un semplice disegno di un modello di
 
 -   Tieni presente che potrebbero esserci modi più semplici per ottenere le visualizzazioni che desideri. Puoi semplicemente [ruotare](Manual:Navigating_in_the_3D_view/it.md) la vista 3D del tuo modello e, una volta ottenuta la vista che desideri, selezionare il modello nella vista ad albero e premere [16px ](Image:TechDraw_View.svg.md) Nuova vista. Questo inserirà automaticamente una vista con le proprietà di rotazione e direzione desiderate. Puoi anche utilizzare lo strumento <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:16px;"> [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md).
 
--   Possiamo modificare l\'aspetto delle nostre viste se vogliamo, per esempio possiamo cambiare la loro proprietà **Line Width** (sotto la scheda View nella Combo View) a 0.5.
+-   Possiamo modificare l\'aspetto delle nostre viste se vogliamo, per esempio, possiamo cambiare la loro proprietà **Line Width** (sotto la scheda View nella Combo View) a 0.5.
 
 Apporremo ora quote e indicazioni sul nostro disegno. Esistono due modi per aggiungere quote a un modello: uno consiste nel posizionare le quote all\'interno del modello 3D, utilizzando lo strumento <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [Quotatura](Draft_Dimension/it.md) dell\'ambiente [Draft](Draft_Workbench/it.md), quindi posizionando una vista di queste dimensioni sul nostro foglio con lo strumento <img alt="" src=images/TechDraw_DraftView.svg  style="width:16px;"> [Vista di Draft](TechDraw_DraftView/it.md). L\'altro è fare le cose direttamente sul foglio TechDraw. Useremo quest\'ultimo metodo.
 
@@ -56,13 +58,13 @@ Apporremo ora quote e indicazioni sul nostro disegno. Esistono due modi per aggi
 
 ![](images/Exercise_TechDraw_05.png )
 
--   Ripetere l\'operazione, fino a posizionare tutte le quote che si desidera indicare. Usare gli strumenti <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> [Dimensione verticale](TechDraw_VerticalDimension/it.md) e <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> [Dimensione orizzontale](TechDraw_HorizontalDimension/it.md) se necessario.
--   Prendersi un minuto per guardare le [proprietà](TechDraw_LengthDimension/it#Proprietà.md) dell\'oggetto Dimension nella vista combinata.
--   Tieni presente che se stai quotando una vista [axonometric](https://en.wikipedia.org/wiki/Axonometric_projection) (ad es. vista isometrica) invece di una [multiview](https://en.wikipedia.org/wiki/Multiview_projection) vista (ad esempio, vista frontale) come abbiamo fatto qui, dovrai utilizzare lo strumento <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:16px;"> [Link alla geometria 3D](TechDraw_LinkDimension/it.md) per ottenere una dimensione precisa.
+-   Ripetere l\'operazione, fino a posizionare tutte le quote che si desidera indicare. Usare gli strumenti <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> [Quota verticale](TechDraw_VerticalDimension/it.md) e <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> [Quota orizzontale](TechDraw_HorizontalDimension/it.md) se necessario.
+-   Prendersi un minuto per guardare le [proprietà](TechDraw_LengthDimension/it#Proprietà.md) dell\'oggetto Quotatura nella vista combinata.
+-   Tenere presente che se si sta quotando una vista [assonometrica](https://en.wikipedia.org/wiki/Axonometric_projection) (ad es. vista isometrica) invece di una [multivista](https://en.wikipedia.org/wiki/Multiview_projection) (ad esempio, vista frontale) come abbiamo fatto qui, si dovrà utilizzare lo strumento <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:16px;"> [Link alla geometria 3D](TechDraw_LinkDimension/it.md) per ottenere una quotatura precisa.
 
 ![](images/Exercise_TechDraw_07.png )
 
--   Ora posizioneremo le due annotazioni mostrate nell\'immagine sopra, utilizzando lo strumento <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [Pallinatura](TechDraw_Balloon/it.md).
+-   Ora posizioneremo i due callout mostrati nell\'immagine sopra, utilizzando lo strumento <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [TechDraw Pallinatura](TechDraw_Balloon/it.md).
 
 ![](images/Exercise_TechDraw_06.png )
 

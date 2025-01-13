@@ -1,125 +1,164 @@
 ---
  GuiCommand:
    Name: PartDesign AdditiveHelix
-   MenuLocation: Part Design , Create an additive feature , Additive helix
-   Workbenches: PartDesign_Workbench
+   Name/it: Elica Additiva
+   MenuLocation: Part Design , Crea una funzione additiva , Elica additiva
+   Workbenches: PartDesign_Workbench/it
    Version: 0.19
-   SeeAlso: PartDesign_SubtractiveHelix
+   SeeAlso: PartDesign_SubtractiveHelix/it
 ---
 
 # PartDesign AdditiveHelix/it
 
-## Description
 
-The **AdditiveHelix** tool creates a solid by sweeping a selected sketch or 2D object along a helix path.
+
+## Descrizione
+
+Lo strumento **Elica additiva** crea un solido facendo scorrere uno schizzo selezionato o un oggetto 2D lungo un percorso elicoidale.
 
 <img alt="" src=images/PartDesign_AdditiveHelix_example_overview.png  style="width:650px;">
 
-*The profile (B), is swept around axis (A) in order to produce the solid helix (C)*
+*Il profilo (B), viene fatto scorrere attorno all\'asse (A) per produrre l\'elica solida (C)*
 
-## Usage
 
-1.  Select the sketch to be swept into a helix. A face on the existing solid can alternatively be used.
-2.  Press the **<img src="images/PartDesign_AdditiveHelix.svg" width=16px> [PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md)** button.
-3.  Set the Helix parameters (see next section).
-4.  Inspect the Helix in the view window, to ensure that the parameters do not result in a self intersecting helix.
-5.  Press **OK**.
 
-## Options
+## Utilizzo
 
-When creating an Additive Helix, the **Helix parameters** dialogue offers several parameters specifying how the sketch should be swept.
+1.  Selezionare lo schizzo da trasformare in un\'elica. In alternativa è possibile utilizzare una faccia su un solido esistente.
+2.  Premere il pulsante **<img src="images/PartDesign_AdditiveHelix.svg" width=16px> [Elica additiva](PartDesign_AdditiveHelix/it.md)**.
+3.  Impostare i parametri dell\'elica (vedere la sezione successiva).
+4.  Esaminare l\'elica nella finestra di visualizzazione, per garantire che i parametri non risultino in un\'elica autointersecante.
+5.  Cliccare su **OK**.
+
+
+
+## Opzioni
+
+Quando si crea un\'elica additiva, la finestra di dialogo **Parametri dell\'elica** offre diversi parametri che specificano come deve essere fatto scorrere lo schizzo.
 
 ![](images/PartDesign_AdditiveHelix_taskpanel.png )
 
-### Axis
 
-This option specifies the axis about which the sketch is to be swept.
 
--   **Normal sketch axis**: selects the normal of the sketch that runs through the sketch origin as axis. <small>(v0.20)</small> 
--   **Vertical sketch axis**: selects the vertical sketch axis. This is the default for new helices.
--   **Horizontal sketch axis**: selects the horizontal sketch axis.
--   **Construction line**: selects a construction line contained in the sketch used by the Helix. The drop down list will contain an entry for each construction line. The first construction line created in the sketch will be labelled *Construction line 1*.
--   **Base (X/Y/Z) axis**: selects the X, Y or Z axis of the Body\'s Origin;
--   **Select reference\...**: allows selection in the 3D view of an edge on the Body, or a [datum line](PartDesign_Line.md).
+### Asse
 
-### Mode
+Questa opzione specifica l\'asse attorno al quale lo schizzo deve essere spostato.
 
-This controls what parameters will be used to define the helix. The choices are:
+-   **Asse normale allo schizzo**: seleziona la normale dello schizzo che attraversa l\'origine dello schizzo come asse. {{Version/it|0.20}}
+-   **Asse verticale dello schizzo**: seleziona l\'asse verticale dello schizzo. Questa è l\'impostazione predefinita per le nuove eliche.
+-   **Asse orizzontale dello schizzo**: seleziona l\'asse orizzontale dello schizzo.
+-   **Linea di costruzione**: seleziona una linea di costruzione contenuta nello schizzo utilizzato dall\'Elica. L\'elenco a discesa conterrà una voce per ciascuna linea di costruzione. La prima linea di costruzione creata nello schizzo verrà etichettata *Linea di costruzione 1*.
+-   **Asse (X/Y/Z) di Base**: seleziona l\'asse X, Y o Z dell\'Origine del Corpo;
+-   **Seleziona riferimento\...**: consente la selezione nella vista 3D di un bordo sul Corpo, o di una [linea di riferimento](PartDesign_Line/it.md).
 
--   **Pitch-Height-Angle**: definition via the height per turn and the overall height
--   **Pitch-Turns-Angle**: definition via the height per turn and the number of turns
--   **Height-Turns-Angle**: definition via the overall height and the number of turns
--   **Height-Turns-Growth** <small>(v0.20)</small> : definition via the overall height, the number of turns and the growth of the helical radius. So a Height of zero leads to a path in form of a spiral. A Height and Growth of zero to leads to a path in form of a circle.
 
-### Pitch
 
-The distance between turns in the helix.
+### Modalità
 
-### Height
+Questo indica quali parametri verranno utilizzati per definire l\'elica. Le scelte sono:
 
-The height of the helix (center-center).
+-   **Passo-Altezza-Angolo**: definisce tramite il passo e l\'altezza complessiva
+-   **Passo-Numero giri-Angolo**: definisce tramite il passo e il numero di giri
+-   **Altezza-Numero giri-Angolo**: definisce tramite l\'altezza totale e il numero di giri
+-   **Altezza-Numero giri-Crescita** {{Version/it|0.20}}: definizione tramite l\'altezza totale, il numero di giri e la crescita del raggio dell\'elica. Quindi un\'altezza pari a zero porta ad un percorso a forma di spirale. Un\'altezza e una crescita pari a zero creano una figura a forma di cerchio.
 
-### Turns
 
-The number of turns in the helix. Define as Height/Pitch
 
-### Cone Angle 
+### Passo
 
-Angle of the cone that forms a hull around the helix. Allowable range: \[-89°, +89°\].
+La distanza tra le spire dell\'elica.
 
-### Left handed 
 
-If checked, the turning direction of helix is reversed from default clockwise to counterclockwise.
 
-### Reversed
+### Altezza
 
-If checked, the axis direction of helix is reversed from default.
+La lunghezza dell\'elica (centro-centro).
 
-### Update view 
 
-If checked, the helix will be shown in the view, and updated automatically on every change of the parameters.
 
-## Preferences
+### Numero giri 
 
--   An additive helix that does not intersect the body will be visible in the preview if **Tools → Edit parameters... → BaseApp → Preferences → Mod → PartDesign → AdditiveHelixPreview** is set to `True`. The default for this preference is `False`. <small>(v0.20)</small> 
+Il numero di giri dell\'elica. Definiti come Altezza/Passo
 
-## Properties
 
--    **Pitch**: The axial distance between two turns.
 
--    **Height**: The total length of the helix (not accounting for the extent of the profile)
+### Angolo cono 
 
--    **Turns**: The number of turns (does not need to be a whole number)
+Angolo del cono che forma un avvolgimento attorno all\'elica. Intervallo consentito: \[-89°, +89°\].
 
--    **Left Handed**: See [Left Handed](#Left_handed.md).
 
--    **Reversed**: See [Reversed](#Reversed.md).
 
--    **Angle**: The rate at which the radius of the helix increase along the axis. Allowable range: \[-89°, +89°\].
+### Sinistrorsa
 
--    **Reference axis**: The helix axis
+Se selezionato, la direzione di rotazione dell\'elica viene invertita da quella predefinita in senso orario a quella antioraria.
 
--    **Mode**: The helix input mode (pitch-height, pitch-turns, turns-height)
 
--    **Outside**: Not used (Used in SubtractiveHelix)
 
--    **Has Been Edited**: If false, the tool will propose an initial value for pitch based on the profile bounding box, so that self intersection is avoided.
+### Invertita
 
--    **Refine**: true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+Se selezionato, la direzione dell\'asse dell\'elica viene invertita rispetto a quella predefinita.
 
--    **Profile**: Either a sketch containing a closed contour, or a face.
 
--    **Midplane**: Not used.
 
--    **Up to face**: Not used.
+### Aggiorna la vista 
 
--    **Allow multiple face**: Not used.
+Se selezionato, l\'elica verrà mostrata nella vista e aggiornata automaticamente ad ogni modifica dei parametri.
 
-## Examples
 
-![Example helix using a [B-spline](images/Sketcher_CreateBSpline.md) in the sketch](PartDesign_AdditiveHelix_example_bspline.png )
 
-![Example helix where the helix axis is normal to the sketch plane resulting in a \"Pad with twist\" effect.](images/PartDesign_AdditiveHelix_example_twisting_pad.png )
+## Preferenze
+
+-   Un\'elica additiva che non interseca il corpo sarà visibile nell\'anteprima se **Strumenti → Modifica parametri... → BaseApp → Preferences → Mod → PartDesign → AdditiveHelixPreview** è impostato su `True`. Il valore predefinito per questa preferenza è `False`. {{Version/it|0.20}}
+
+
+
+## Proprietà
+
+-    **Pitch**: La distanza assiale tra due spire.
+
+-    **Height**: La lunghezza totale dell\'elica (esclusa l\'estensione del profilo)
+
+-    **Turns**: Il numero di giri (non è necessario che sia un numero intero)
+
+-    **Left Handed**: Vedere [Sinistrorsa](#Sinistrorsa.md).
+
+-    **Reversed**: Vedere [Invertita](#Invertita.md).
+
+-    **Angle**: L\'inclinazione con cui il raggio dell\'elica aumenta lungo l\'asse. Intervallo consentito: \[-89°, +89°\].
+
+-    **Reference axis**: L\'asse dell\'elica
+
+-    **Mode**: La modalità di input dell\'elica (altezza e passo, spire e passo, altezza e giri)
+
+-    **Outside**: Non utilizzato (utilizzato per l\'elica sottrattiva)
+
+-    **Has Been Edited**: Se falso, lo strumento proporrà un valore iniziale per il passo in base al riquadro di delimitazione del profilo, in modo da evitare l\'autointersezione.
+
+-    **Refine**: vero o falso. Se impostato su true, pulisce il solido dai bordi residui lasciati dalle lavorazioni. Per ulteriori dettagli, vedere [Affina forma](Part_RefineShape/it.md)..
+
+-    **Profile**: Uno schizzo contenente un contorno chiuso o una faccia.
+
+-    **Midplane**: Non usato.
+
+-    **Up to face**: Non usato.
+
+-    **Allow multiple face**: Non usato.
+
+
+
+## Note
+
+-   Un <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [ShapeBinder](PartDesign_ShapeBinder/it.md) non può essere utilizzato per il profilo.
+-   Quando si utilizza un <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [SubShapeBinder](PartDesign_SubShapeBinder/it.md) per il profilo, la selezione del collegamento nella [Vista ad albero](Tree_view/it.md) fallirà, invece si deve selezionare la faccia del collegamento nella [vista 3D](3D_view/it.md).
+-   Le eliche sono molto difficili da calcolare correttamente per il motore sottostante poiché le curve coinvolte spingono al limite la precisione in virgola mobile. Ciò significa che eseguire ulteriori operazioni su un\'elica come tentare operazioni booleane con un altro oggetto può essere molto sensibile a piccoli cambiamenti. Quando falliscono, spesso rompono il modello in modi sorprendenti. Per evitare ciò, si dovrebbe provare a fare in modo che le operazioni su un\'elica si sovrappongano chiaramente (interferiscano) o chiaramente non si sovrappongano. Le corrispondenze esatte in cui la superficie dell\'elica è perfettamente allineata con la superficie di un altro oggetto sono fragili. Un esempio di ciò è la filettatura attorno al cilindro del bullone. Potrebbe anche funzionare inizialmente, per poi rompersi in seguito quando gli oggetti vengono spostati leggermente.
+
+
+
+## Esempi
+
+![Esempio di elica che utilizza una [B-spline](images/Sketcher_CreateBSpline/it.md) nello schizzo](PartDesign_AdditiveHelix_example_bspline.png )
+
+![Esempio di elica in cui l\'asse dell\'elica è normale al piano dello schizzo con conseguente effetto \"Pad con torsione\".](images/PartDesign_AdditiveHelix_example_twisting_pad.png )
 
 
 

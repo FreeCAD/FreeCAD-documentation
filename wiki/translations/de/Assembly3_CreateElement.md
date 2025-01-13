@@ -10,6 +10,8 @@
 
 # Assembly3 CreateElement/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:24px;"> [Element anlegen](Assembly3_CreateElement/de.md) legt neue Elemente von ausgewählten Objekten an.
@@ -18,10 +20,15 @@ Er kann benutzt werden, um **Elemente** vorzubereiten, bevor Festlegungen angewe
 
 (Normalerweise werden Elemente von ausgewählten Objekten angelegt, wenn ein Beziehungswerkzeug auf sie angewendet wird)
 
+
+
 ## Anwendung
 
 1.  Ein oder mehrere Objekte der Grenzflächen-Repräsentation auswählen, wie z.B. ebene **Flächen**, gerade **Kanten** oder **Punkte**
-2.  Schaltfläche  oder Tastenkürzel **A** dann **E** benutzen
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Assembly_New_Element.svg‎‎" width=16px> [Element anlegen](Assembly3_CreateElement/de.md)** drücken.
+    -   Den Menüeintrag **Assembly3 → <img src="images/Assembly_New_Element.svg‎‎‎" width=16px> Element anlegen** auswählen.
+    -   Das Tastaturkürzel **A** dann **E**
 3.  (optional aber empfohlen) Umbenennen der Elemente durch editieren ihrer Eigenschaft **Label**.
 
 

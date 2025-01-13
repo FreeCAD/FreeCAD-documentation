@@ -5,7 +5,7 @@
 
 </div>
 
-Detta kommando är ett allt-i-ett booleskt verktyg. Det tillåter dig att specificera vilken operation som ska utföras och vilka parametrar som ska användas via dialogen nedan. För snabbare booleska operationer, se även [Förena](Part_Union/sv.md), [Gemensamt](Part_Common/sv.md) och [Klipp](Part_Cut/sv.md).
+ Detta kommando är ett allt-i-ett booleskt verktyg. Det tillåter dig att specificera vilken operation som ska utföras och vilka parametrar som ska användas via dialogen nedan. För snabbare booleska operationer, se även [Förena](Part_Union/sv.md), [Gemensamt](Part_Common/sv.md) och [Klipp](Part_Cut/sv.md).
 
 
 **[<img src=images/Part_Boolean.svg style="width:16px"> [Part Boolean](Part_Boolean.md)**
@@ -40,14 +40,6 @@ See the individual commands:
 **
     
 
-
-<div class="mw-translate-fuzzy">
-
-See also Part → [Refine Shape](Part_RefineShape/sv.md)
-
-
-</div>
-
 ## Coplanar problems 
 
 The boolean operations are performed by the internal geometry kernel, [OpenCASCADE Technology](OpenCASCADE.md) (OCCT). This library sometimes has problems producing boolean results when the input objects share an edge or a face. To be sure the boolean operation is successful the recommendation is that the shapes intersect each other clearly; this means that in most cases, one shape should protrude or be larger in size than the other shape.
@@ -69,6 +61,14 @@ In cases of coplanarity, even if the first boolean operation succeeds, subsequen
 
 
 *Left: shapes that share a face, a boolean union may produce incorrect results. Right: shapes that intersect each other clearly, the boolean union will be successful in most cases.*
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

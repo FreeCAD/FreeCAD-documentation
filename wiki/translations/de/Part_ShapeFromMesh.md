@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part ShapeFromMesh‏‎
    Name/de: Part FormAusNetz
-   MenuLocation: Part , Erzeuge Form aus Netz...
+   MenuLocation: Part , Form aus Dreiecksnetz erstellen...
    Workbenches: Part_Workbench/de
    SeeAlso: Part_MakeSolid/de, Part_RefineShape/de, Part_PointsFromMesh/de
 ---
@@ -11,24 +11,62 @@
 
 
 
-## Einführung
+## Einleitung
 
-Der **<img src="images/Part_ShapeFromMesh.svg" width=16px> [Part FormAusNetz](Part_ShapeFromMesh/de.md)** Befehl erzeugt eine Form aus einem [Netzobjekt](Mesh/de.md). Netzobjekte haben in FreeCAD nur begrenzte Bearbeitungsmöglichkeiten, ihre Konvertierung in [Formen](Shape/de.md) ermöglicht ihre Verwendung mit vielen weiteren Booleschen und Modifikationswerkzeugen.
+Der Befehl **<img src="images/Part_ShapeFromMesh.svg" width=24px> [Part FormAusNetz](Part_ShapeFromMesh/de.md)** erzeugt eine Form aus einem [Netzobjekt](Mesh/de.md). Netzobjekte haben in FreeCAD nur begrenzte Bearbeitungsmöglichkeiten, ihre Konvertierung in [Formen](Shape/de.md) ermöglicht ihre Verwendung mit booleschen Verknüpfungen und vielen weiteren Bearbeitungsbefehlen.
 
-Die Umkehroperation ist **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Netz AusTeilForm](Mesh_FromPartShape/de.md)** aus dem <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Netz Arbeitsbereich](Mesh_Workbench/de.md).
+Der umgekehrte Vorgang wird mit <img alt="" src=images/Mesh_FromPartShape.svg  style="width:16px;"> [Mesh NetzAusPartForm](Mesh_FromPartShape/de.md) aus dem Arbeitsbereich <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Mesh](Mesh_Workbench/de.md) ausgeführt.
 
 
 
 ## Anwendung
 
-1.  Wähle das Netzobjekt in der [Baumansicht](tree_view/de.md) aus.
-2.  Gehe zum Menü, **Part → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Erzeuge Form aus Netz**.
-3.  Ein Aufklappmenü fragt nach der Toleranz für das Nähen der Form; der Standardwert ist {{Value|0.1}}.
-4.  Eine [Form](Shape/de.md) aus dem Netzobjekt wird als separates neues Objekt erstellt.
+1.  Das Analysieren und Reparieren der Netzobjekte sollte, wenn erforderlich, bevor dieser Befehl gestartet wird. Geeignete Werkzeuge für diese Aufgabe findet man im Arbeitsbereich <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Mesh](Mesh_Workbench/de.md).
+2.  Ein oder mehrere Netzobjekte auswählen.
+3.  Den Menüeintrag **Part → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Form aus Dreiecksnetz erstellen** auswählen.
+4.  Das Dialogfenster **Form aus Netz** wird geöffnet.
+5.  Wahlweise die Checkbox **Form nähen** aktivieren und eine Toleranz festlegen:
+    -   Diese Option wird normalerweise nicht gebraucht. Sie ist für Netzobjekte vorgesehen, die nicht wasserdicht sind und kleine Lücken zwischen Kanten aufweisen.
+    -   Ist die Option ausgewählt, wird ein Verbund von Hüllen anstatt eines Verbundes von Flächen erstellt.
+    -   Der Vorgang des Vernähens kann eine hohe Rechenleistung erfordern.
+6.  Die Schaltfläche **OK** drücken.
+7.  Zu jedem ausgewählten Netzobjekt wird eine [Form](Shape/de.md) (Shape object) als separates neues Objekt erstellt.
+8.  Wahlweise <img alt="" src=images/Part_RefineShape.svg  style="width:16px;"> [Part FormAufbereiten](Part_RefineShape/de.md) auf diese Objekte anwenden.
+9.  Wahlweise die endgültigen Objekte mit <img alt="" src=images/Part_MakeSolid.svg  style="width:16px;"> [Part FestkörperErstellen](Part_MakeSolid/de.md) in Festkörper umwandeln.
 
-Die Analyse und Reparatur des Netzes sollte, falls erforderlich, vor dem Start manuell durchgeführt werden **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [FormAusNetz](Part_ShapeFromMesh/de.md)**. Geeignete Werkzeuge für diese Aufgabe sind im <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Netz Arbeitsbereich](Mesh_Workbench/de.md) verfügbar.
 
-Nach der Erstellung einer [Form](Shape/de.md), kann es nützlich sein, **[<img src=images/Part_MakeSolid.svg style="width:16px"> [Form aus Dreiecksnetz erstellen](Part_MakeSolid/de.md)** zu verwenden (erforderlich für [boolesche Operationen](Part_Boolean/de.md)) und **[<img src=images/Part_RefineShape.svg style="width:16px"> [Form verfeinern](Part_RefineShape/de.md)**.
+
+## Eigenschaften
+
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
+
+Der Befehl Part ShapeFromMesh erstellt [Part Formelemente](Part_Feature/de.md) ohne weitere Eigenschaften.
+
+
+
+## Skripten
+
+Das Erstellen einer [Form](Shape/de.md) aus einem [Netz](Mesh/de.md) kann mit der Methode `makeShapeFromMesh` aus einem [Part TopoShape](Part_TopoShape/de.md)-Objekt erfolgen; es muss das Quellnetz und die Toleranz angegeben sowie das Ergebnis einem neuen [Part Formelement](Part_Feature/de.md) (Feature object) zuweisen werde.
+
+Man beachte, dass das Netz neu berechnet werden muss, bevor es in eine Form umgewandelt wird, andernfalls würden die Topologieinformationen fehlen und die Umwandlung könnte nicht erfolgreich durchgeführt werden.
+
+
+```python
+import FreeCAD as App
+import Part
+
+doc = App.ActiveDocument
+mesh = doc.addObject("Mesh::Cube", "Mesh")
+mesh.recompute()
+
+shape = Part.Shape()
+shape.makeShapeFromMesh(mesh.Mesh.Topology, 0.1)
+
+solid = doc.addObject("Part::Feature", "Solid")
+solid.Shape = Part.Solid(shape.removeSplitter())
+solid.Placement.Base = App.Vector(15, 0, 0)
+doc.recompute()
+```
 
 
 
@@ -38,30 +76,11 @@ Nach der Erstellung einer [Form](Shape/de.md), kann es nützlich sein, **[<img s
 
 
 
-## Skripten
-
-Das Erstellen einer [Form](Shape/de.md) aus einem [Netz](Mesh/de.md) kann mit der Methode `makeShapeFromMesh` aus einem [Part TopoForm](Part_TopoShape/de.md) erfolgen; Du musst das Quellnetz und die Toleranz angeben und das Ergebnis einem neuen [Part Formelement](Part_Feature/de.md) Objekt zuweisen.
-
-Beachte, dass das Netz neu berechnet werden muss, bevor es in eine Form umgewandelt wird, da es sonst keine Topologieinformationen gibt und die Umwandlung nicht erfolgreich ist.
 
 
-```python
-import FreeCAD as App
-import Part
+{{Part_Tools_navi
 
-doc = App.newDocument()
-mesh = doc.addObject("Mesh::Cube", "Mesh")
-mesh.recompute()
-
-solid = doc.addObject("Part::Feature", "Shape")
-shape = Part.Shape()
-shape.makeShapeFromMesh(mesh.Mesh.Topology, 0.1)
-
-solid.Shape = shape
-solid.Placement.Base = App.Vector(15, 0, 0)
-solid.purgeTouched()
-doc.recompute()
-```
+}}
 
 
 

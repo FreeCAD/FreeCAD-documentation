@@ -51,7 +51,8 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_ShapeString.svg" width=16px> [Shape from text](Draft_ShapeString.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Annotation → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
 2.  The **ShapeString** task panel opens.
 3.  Click a point in the [3D view](3D_view.md), or type coordinates.
 4.  Optionally press the **Reset Point** button to reset the point to the origin.
@@ -77,15 +78,20 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 
 </div>
 
-## Notes
+## Relative font path 
 
--   A Draft ShapeString can be edited by double-clicking it in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
--   Supported fonts include TrueType (**.ttf**), OpenType (**.otf**) and Type 1 (**.pfb**).
--   The command is restricted to left-to-right text. Right-to-left and top-to-bottom text are not supported.
--   Very small text heights may result in deformed character shapes due to loss of detail in scaling.
--   Fonts can generate problematic geometry. This is because font contours are allowed to overlap and have small gaps. These conditions are considered errors in wires used to define faces.
--   Draft ShapeStrings can also be created with the [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP.md).
--   To create Draft ShapeStrings arranged in a circular fashion use the [Macro FCCircularText](Macro_FCCircularText.md).
+
+<small>(v1.1)</small> 
+
+It is possible to specify a relative path for the font file. For this the FreeCAD document must have been saved at least once.
+
+Some examples:
+
+-    **./SomeFont.ttf**: The font file is in the same directory as the document.
+
+-    **./MyDirectory/SomeFont.ttf**: The font file is in the **MyDirectory** sub-directory of the document directory.
+
+-    **../SomeFont.ttf**: The font file is in the parent directory of the document directory.
 
 ## Font file selection on Windows 
 
@@ -99,6 +105,16 @@ Pressing the **...** button and then selecting a file from the default Windows f
 -   Create a custom folder for your font files.
 
 See the [Preferences](#Preferences.md) paragraph below for the location of the mentioned preferences.
+
+## Notes
+
+-   A Draft ShapeString can be edited by double-clicking it in the [Tree view](Tree_view.md).
+-   Supported fonts include TrueType (**.ttf**), OpenType (**.otf**) and Type 1 (**.pfb**).
+-   The command is restricted to left-to-right text. Right-to-left and top-to-bottom text are not supported.
+-   Very small text heights may result in deformed character shapes due to loss of detail in scaling.
+-   Fonts can generate problematic geometry. This is because font contours are allowed to overlap and have small gaps. These conditions are considered errors in wires used to define faces.
+-   Draft ShapeStrings can also be created with the [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP.md).
+-   To create Draft ShapeStrings arranged in a circular fashion use the [Macro FCCircularText](Macro_FCCircularText.md).
 
 ## Tutorials
 

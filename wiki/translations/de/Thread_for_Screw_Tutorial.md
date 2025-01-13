@@ -190,7 +190,7 @@ Im Allgemeinen vermeide Geometrie deckungsgleich mit Elementen der Austragung, w
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Aufgrund der Ungültigkeit sich selbst überschneidender Austragungen ist es nahezu unmöglich, ein Gewinde ohne Lücke zwischen den einzelnen Zähnen zu erzeugen, d.h. ohne gerade zylindrische Fläche an den Innenseiten des Gewindes.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Boolesche Operationen sind erforderlich, um einen einzigen zusammenhängenden Festkörper zu erhalten. Die Berechnung boolescher Operationen nimmt relativ viel Zeit in Anspruch und schlägt häufig fehl.
--   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> TGewinde mit einer großen Anzahl von Windungen sind problematisch.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Gewinde mit einer großen Anzahl von Windungen sind problematisch.
 
 
 

@@ -5,8 +5,7 @@ This category collects pages from the [external workbenches](external_workbenche
 
 |     |     |     |
 | --- | --- | --- |
-| [BIM Workbench/ja](BIM_Workbench/ja.md) | [Plot Save/ja](Plot_Save/ja.md) | [Ship Workbench/ja](Ship_Workbench/ja.md) |
-|
+| [Plot Save/ja](Plot_Save/ja.md) | [Ship Workbench/ja](Ship_Workbench/ja.md) |
 
 
 

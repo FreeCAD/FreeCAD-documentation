@@ -1,18 +1,24 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM MaterialEditor
    Name/fr: FEM Éditeur de matériaux
    MenuLocation: Modèle , Matériaux , Éditeur de matériaux
    Workbenches: FEM_Workbench/fr, Arch_Workbench/fr
    Version: 0.18
    SeeAlso: Arch_SetMaterial/fr, FEM_tutorial/fr
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: Tous
+}}
 ---
 
 # FEM MaterialEditor/fr
 
 ## Description
 
-L**\'Éditeur de matériaux** vous permet de modifier et de sauvegarder les informations contenues dans un [matériau de FreeCAD](Material/fr.md). Actuellement, ces matériaux sont utilisés par les ateliers <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/fr.md) et <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/fr.md).
+L**\'Éditeur de matériaux** vous permet de modifier et de sauvegarder les informations contenues dans un [matériau de FreeCAD](Material/fr.md). Actuellement, ces matériaux sont utilisés par les ateliers <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/fr.md) et <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/fr.md).
 
 ![](images/Material_editor.png )
 
@@ -22,12 +28,12 @@ L**\'Éditeur de matériaux** vous permet de modifier et de sauvegarder les info
 
 L\'éditeur de matériau est accessible soit par :
 
-1.  L\'<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Atelier Arch](Arch_Workbench/fr.md)
-    -   Le bouton **<img src="images/Arch_SetMaterial.svg" width=16px> [Matériau](Arch_SetMaterial/fr.md)**.
-    -   L\'entrée du menu **Arch → Outils pour les matériaux → <img src="images/Arch_SetMaterial.svg" width=16px> Matériau**.
-2.  L\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [Atelier FEM](FEM_Workbench/fr.md)
-    -   Le bouton **<img src="images/FEM_MaterialEditor.svg" width=16px> [Editeur de matériaux](FEM_MaterialEditor/fr.md)**.
-    -   L\'entrée du menu **Modèle → Matériaux → <img src="images/FEM_MaterialEditor.svg" width=16px> Éditeur de matériaux**.
+1.  L\'<img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [atelier BIM](BIM_Workbench/fr.md)
+    -   Le bouton **<img src="images/BIM_Material.svg" width=16px> [Matériau](BIM_Material/fr.md)**.
+    -   L\'entrée du menu **Gestion → <img src="images/BIM_Material.svg" width=16px> Matériau**.
+2.  L\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md)
+    -   Le bouton **<img src="images/FEM_MaterialEditor.svg" width=16px> [Éditeur de matériaux](FEM_MaterialEditor/fr.md)**.
+    -   Le menu **Modèle → Matériaux → <img src="images/FEM_MaterialEditor.svg" width=16px> Éditeur de matériaux**.
 
 ## Options
 

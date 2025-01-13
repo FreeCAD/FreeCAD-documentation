@@ -27,12 +27,13 @@ L\'outil <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Évide
 
 ## Options
 
--   \* **Épaisseur** : épaisseur de la paroi de l\'objet résultant, définir la valeur souhaitée
+-    **Épaisseur**: épaisseur de la paroi de l\'objet résultant, définir la valeur souhaitée
+
     -   Une valeur positive décalera les faces vers l\'extérieur
     -   Une valeur négative décalera les faces vers l\'intérieur
 
 -    **Mode**-   
-        **Boîte sans couvercle**
+        **Objet creux**
         
         : sélectionner cette option pour obtenir un élément comme un vase, sans dessus mais avec le fond.
 
@@ -98,15 +99,15 @@ Remarques :
 -   Pour cette forme, pensez à utiliser **<img src="images/Part_Tube.svg" width=16px> [Part Tube](Part_Tube/fr.md)** à la place.
 -   Sélectionnez la surface supérieure du cylindre uniquement pour créer un réceptacle.
 
-![](images/ThicknessEsempio1.png )
+<img alt="" src=images/ThicknessEsempio1.png  style="width:600px;">
 
-![](images/ThicknessEsempio2.png )
+<img alt="" src=images/ThicknessEsempio2.png  style="width:600px;">
 
 **Enveloppe de boîte**
 
-![](images/ThicknessEsempio3.png )
+<img alt="" src=images/ThicknessEsempio3.png  style="width:600px;">
 
-![](images/ThicknessEsempio4.png )
+<img alt="" src=images/ThicknessEsempio4.png  style="width:600px;">
 
 
 

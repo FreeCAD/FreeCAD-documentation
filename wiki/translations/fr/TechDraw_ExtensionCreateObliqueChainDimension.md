@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: TechDraw ExtensionCreateObliqueChainDimension
-   Name/fr: TechDraw Cotes obliques
-   MenuLocation: TechDraw , Extensions : cotes , Cotes obliques
+   Name/fr: TechDraw Cotes inclinées
+   MenuLocation: TechDraw , Extensions : cotes , Cotes inclinées
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20
@@ -13,7 +13,7 @@
 
 ## Description
 
-L\'outil **TechDraw Cotes obliques** crée une chaîne oblique de cotes : une séquence de cotes alignées.
+L\'outil **TechDraw Cotes inclinées** crée des cotes inclinées en chaîne : une séquence de cotes alignées.
 
 <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimensionExample.png  style="width:350px;"> 
 *A droite, les cotes créées*
@@ -23,10 +23,16 @@ L\'outil **TechDraw Cotes obliques** crée une chaîne oblique de cotes : une s�
 ## Utilisation
 
 1.  Sélectionnez trois sommets ou plus.
-2.  Les deux sommets sélectionnés définissent d\'abord la direction et déterminent la position de la dimension de la chaîne.
+2.  Les deux sommets sélectionnés définissent d\'abord la direction et déterminent la position de la chaîne des cotes.
 3.  Il existe plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionCreateObliqueChainDimension.svg" width=16px> [Cotes obliques](TechDraw_ExtensionCreateObliqueChainDimension/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Extensions : cotes → <img src="images/TechDraw_ExtensionCreateObliqueChainDimension.svg" width=16px> Cotes obliques** à partir du menu.
+    -   
+        {{Version/fr|1.0}}
+        
+        : si la [préférence](TechDraw_Preferences/fr#Cotes.md) **Outils de cotation** est réglée sur {{Value|Outil unique}} (par défaut) : appuyez sur la flèche vers le bas à droite du bouton **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** et sélectionnez l\'option **<img src="images/TechDraw_ExtensionCreateHorizChainDimension.svg" width=16px> Cotes horizontales** du menu déroulant.
+
+    -   Si cette préférence a une valeur différente (et dans {{VersionMinus/fr|0.21}}) : appuyez sur le bouton **<img src="images/TechDraw_ExtensionCreateObliqueChainDimension.svg" width=16px> [Cotes inclinées](TechDraw_ExtensionCreateObliqueChainDimension/fr.md)**.
+
+    -   Sélectionnez l\'option **TechDraw → Extensions : cotes → <img src="images/TechDraw_ExtensionCreateObliqueChainDimension.svg" width=16px> Cotes inclinées** à partir du menu.
 4.  La chaîne de cotes avec des textes de cotes centrés est créée.
 
 

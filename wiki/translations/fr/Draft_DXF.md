@@ -1,7 +1,7 @@
 # Draft DXF/fr
 ## Description
 
-Draft DXF est un module du logiciel utilisé par <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Ouvrir](Std_Open/fr.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Importer](Std_Import/fr.md) et <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Exporter](Std_Export/fr.md) pour gérer le format de fichier DXF.
+Draft DXF est un module utilisé par <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Ouvrir](Std_Open/fr.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Importer](Std_Import/fr.md) et <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Exporter](Std_Export/fr.md) pour gérer le format de fichiers DXF.
 
 ![](images/Screenshot_qcad.jpg ) 
 *Dessin de Qcad exporté au format DXF puis ouvert dans FreeCAD*
@@ -10,7 +10,7 @@ Draft DXF est un module du logiciel utilisé par <img alt="" src=images/Std_Open
 
 ## Importer
 
-Deux importateurs sont disponibles, celui qui est utilisé peut être spécifié sous **Édition → Préférences... → Importer-Exporter → DXF**. L\'un est intégré, basé sur C++ et rapide, l\'autre est hérité, codé en Python, plus lent et nécessite l\'installation d\'un module complémentaire, mais peut mieux gérer certaines entités et créer des objets FreeCAD plus raffinés. Les deux prennent en charge toutes les versions DXF à partir de R12.
+Deux importateurs sont disponibles, celui qui est utilisé peut être spécifié sous **Édition → Préférences... → Importer/Exporter → DXF**. L\'un est intégré, basé sur C++ et rapide, l\'autre est hérité, codé en Python, plus lent et nécessite l\'installation d\'un module complémentaire, mais peut mieux gérer certaines entités et créer des objets FreeCAD plus précis. Les deux prennent en charge toutes les versions DXF à partir de R12.
 
 Les solides 3D à l\'intérieur d\'un fichier DXF sont stockés sous un blob binaire ACIS/SAT, qui ne peut actuellement pas être lu par FreeCAD.
 
@@ -29,10 +29,10 @@ Cet importateur peut importer les objets DXF suivants :
 -   points
 -   textes et mtextes
 -   dimensions
--   chefs
+-   lignes de référence
 -   blocs (seuls la géométrie, les textes, les dimensions et les attributs à l\'intérieur des blocs sont ignorés)
 -   calques
--   objets de l\'espace papier
+-   objets espace-papier
 
 
 
@@ -48,7 +48,7 @@ Cet importateur peut importer les objets DXF suivants :
 -   splines
 -   Visages 3D
 -   textes et mtextes
--   leaders
+-   lignes de repère
 -   calques
 
 
@@ -92,7 +92,7 @@ Pour des raisons de licence, les bibliothèques d\'importation/exportation [DXF]
 
 ## Préférences
 
-Voir : [Préférences d\'Import Export](Import_Export_Preferences/fr.md).
+Voir : [Préférences Importer/Exporter](Import_Export_Preferences/fr.md).
 
 ## DWG
 
@@ -104,9 +104,9 @@ Il existe un support intégré pour les convertisseurs DWG suivants :
 
 -   [LibreDWG](https://www.gnu.org/software/libredwg) (open-source, manque de support pour certaines entités DWG).
 -   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (gratuit).
--   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). {{Version/fr|0.20}}
+-   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial).
 
-Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md) et [FreeCAD et l\'importation DWG](FreeCAD_and_DWG_Import/fr.md) pour plus d\'informations.
+Voir [Préférences Importer/Exporter](Import_Export_Preferences/fr#DWG.md) et [FreeCAD et l\'importation DWG](FreeCAD_and_DWG_Import/fr.md) pour plus d\'informations.
 
 
 

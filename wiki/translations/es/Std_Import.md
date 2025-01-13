@@ -38,13 +38,11 @@ Cuando se carga, el fichero es **incorporado** al proyecto actual (que debe esta
 
 -   To convert an imported [mesh object](Mesh_Workbench.md) into a solid see the [Import from STL or OBJ](Import_from_STL_or_OBJ.md) tutorial.
 -   To import into a new document you can use the [Std Open](Std_Open.md) command.
--   Some workbenches have additional import commands. See: [Import Export](Import_Export.md).
+-   Some workbenches have additional import commands. See [Import Export](Import_Export.md).
 
 ## Preferences
 
--   See: [Import Export Preferences](Import_Export_Preferences.md).
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
--   The last used import filter is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileImportFilter**.
+-   See [Import Export Preferences](Import_Export_Preferences.md).
 
 ## Image Plane 
 
@@ -113,7 +111,7 @@ An Image Plane object is derived from an [App GeoFeature](App_GeoFeature.md) obj
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

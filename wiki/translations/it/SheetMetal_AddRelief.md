@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -46,6 +48,8 @@ This command is the first of three steps to convert a shell object made with the
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -116,24 +120,17 @@ To create a hollow cuboid with the [PartDesign Workbench](PartDesign_Workbench.m
     -   <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Pad](PartDesign_Pad.md) from a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Sketch](Sketcher_NewSketch.md).
 2.  Use <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [PartDesign Thickness](PartDesign_Thickness.md) to create a shell object from the solid (Typically with the thickness value of the sheet metal).
 
+
+
 ## Proprietà
 
 See also: [Property editor](Property_editor.md).
 
-A SheetMetal Relief object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
+A SheetMetal Relief object is derived from a [Part Feature](Part_Feature.md) object or, if it is inside a [PartDesign Body](PartDesign_Body.md), from a [PartDesign Feature](PartDesign_Feature.md) object, and inherits all its properties. It also has the following additional properties:
+
+
 
 ### Dati
-
-
-{{Properties_Title|Base}}
-
-
-<div class="mw-translate-fuzzy">
-
--    **Label**: Nome assegnato dall\'utente all\'oggetto nella [vista ad albero](Tree_view/it.md).
-
-
-</div>
 
 
 {{Properties_Title|Parameters}}

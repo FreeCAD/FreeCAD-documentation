@@ -2,13 +2,11 @@
 {{Macro
 |Name=Macro FCCamera
 |Icon=FCCamera_00.png
-|Description={{ColoredText|#ff0000|#ffffff|The new modified version GUI for the HD dpi (QGridLayout) runs only with FC version 0.18 and more (PySide2 Qt5)}}<br/><br/> 
-For previous versions, see [https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/42dc3ef73dc8db463a03b175f5a7f1f6978e3293/Macro%2520FCCamera.FCMacro FCCamera] and install it manually.<br/><br/> 
-This macro can rotate the screen in a defined angle and the defined axis and creates a plan to face the screen to create a form in the specified plan positions the selected face facing the screen, to detect the position of the camera, align view to face or to axis, align the object to view.
+|Description=This macro can rotate the screen in a defined angle and the defined axis and creates a plan to face the screen to create a form in the specified plan positions the selected face facing the screen, to detect the position of the camera, align view to face or to axis, align the object to view.
 |Author=Mario52
-|Version=0.14
-|Date=2020/10/20
-|FCVersion=0.18 and more
+|Version=0.15b
+|Date=2024/12/19
+|FCVersion=1.00 and more
 |Download=[https://wiki.freecad.org/images/2/25/FCCamera_00.png ToolBar Icon]
 }}
 
@@ -17,7 +15,7 @@ This macro can rotate the screen in a defined angle and the defined axis and cre
 This macro can rotate the screen in a defined angle and the defined axis and creates a plan to face the screen to create a form in the specified plan positions the selected face facing the screen, to detect the position of the camera, align view to face or to axis, align the object to view.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/98d90ee303e9fa5d6aed6e9f2e36e7ca1a18ca19/Macro%2520FCCamera.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/b31c64d26788b796750095eca4a6b92803537732/Macro%2520FCCamera.FCMacro}}
 
 ## Usage
 
@@ -184,7 +182,26 @@ The same result can be achieved by creating a plan in the corner given by the mo
 
 ## Version
 
--   **ver 0.14 (20/10/2020):** correction bug \"Grid\" not accepted
+-   **ver 0.15, 0.15b (19/12/2024):** adapt and return PySide, ([FCCamera macro can\'t find Pyside2](https://forum.freecad.org/viewtopic.php?p=797838)) correct the web access delete **WebGui** replaced by **webbrowser**
+
+
+```python
+####
+try:
+    import webbrowser
+    webbrowser.open("http://www.freecadweb.org/wiki/index.php?title=Macro_FCCamera")
+except Exception:
+    None
+####
+####
+import urllib
+from urllib import request
+
+contentPage = request.urlopen("https://wiki.freecadweb.org/Macro_FCCamera").readlines()
+####
+```
+
+-   **ver 0.14 (20/10/2020) :** \*correction bug \"Grid\" not accepted
 
 -   **ver 0.13 (28/06/2020):** adding files image in source code, create plane \"On point, Center face, BBox center, Center Mass\", gridLayout
 
@@ -203,13 +220,16 @@ The same result can be achieved by creating a plan in the corner given by the mo
 
 -   **ver 0.6 (13/12/2016):** new system for search the macro path directly in the preferences
 
-#path = FreeCAD.ConfigGet("AppHomePath")
-#path = FreeCAD.ConfigGet("UserAppData")
-#path = "your path"
-param = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macro")# macro path
-path = param.GetString("MacroPath","") + "/"                        # macro path
-path = path.replace("\\","/")
-App.Console.PrintMessage("Path locality to FCCamera.....images.png [ " + path + " ]"+"\n")
+
+```python
+#path = FreeCAD.ConfigGet("AppHomePath")
+#path = FreeCAD.ConfigGet("UserAppData")
+#path = "your path"
+param = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macro")# macro path
+path = param.GetString("MacroPath","") + "/"                        # macro path
+path = path.replace("\\","/")
+App.Console.PrintMessage("Path locality to FCCamera.....images.png [ " + path + " ]"+"\n")
+```
 
 -   **ver 0.5 06/09/2016:** correct name \"FCCamera_Axis_rotation_X.png\" in reset block
 

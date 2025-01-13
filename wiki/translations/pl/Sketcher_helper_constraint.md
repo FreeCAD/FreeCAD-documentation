@@ -1,5 +1,5 @@
 # Sketcher helper constraint/pl
-## Przegląd
+## Informacje ogólne 
 
 <img alt="Przykład wiązania pomocniczego *(Constraint5 - punkt na okręgu)* dla wiązania stycznego *(Constraint6 w trybie styczna-przez-punkt)*. W tym przypadku używane jest tylko jedno wiązanie pomocnicze, ponieważ punkt styczności jest punktem końcowym głównej średnicy elipsy, która z natury leży na elipsie." src=images/Sketcher_helper_constraint_example1.png  style="width:500px;">
 
@@ -11,33 +11,39 @@ Jeśli tak się stanie *(brakuje jakiegoś wiązania pomocniczego, a wymagane wa
 
 Wiązania pomocnicze są obecnie wymagane dla:
 
--   [wiązań styczności](Sketcher_ConstrainTangent/pl.md) *(w trybie styczna-przez-punkt, potrzebne są dwa wiązania w punkcie)*,
--   [wiązań prostopadłości](Sketcher_ConstrainPerpendicular/pl.md) *(w trybie prostopadle-przez-punkt, potrzebne są dwa wiązania w punkcie)*,
--   [wiązań kąta](Sketcher_ConstrainAngle/pl.md) *(w trybie kątowym, potrzebne są dwa wiązania w punkcie)*,
--   [wiązań prawa Snell\'a](Sketcher_ConstrainSnellsLaw/pl.md) *(potrzebne są wiązania zbieżności i w punkcie)*.
+-   [wiązań styczności](Sketcher_ConstrainTangent/pl.md) *(w trybie styczna-przez-punkt, potrzebne są dwa wiązania punkt na obiekcie)*,
+-   [wiązań prostopadłości](Sketcher_ConstrainPerpendicular/pl.md) *(w trybie prostopadle-przez-punkt, potrzebne są dwa wiązania punkt na obiekcie)*,
+-   [wiązań kąta](Sketcher_ConstrainAngle/pl.md) *(w trybie kątowym, potrzebne są dwa wiązania punkt na obiekcie)*,
+-   [wiązań prawa Snell\'a](Sketcher_ConstrainSnellsLaw/pl.md) *(potrzebne są wiązania zbieżności i punkt na obiekcie)*.
+
+
 
 ## Tworzenie skryptów 
 
-Gdy wiązania wymagające elementów pomocniczych są dodawane z poziomu środowiska Python, żadne wiązania pomocnicze nie są dodawane automatycznie. Można odtworzyć automatyczne podejmowanie decyzji przez polecenia UI w skrypcie, testując funkcje, specjalnie dodane w tym celu i używane w procedurach UI: 
+Gdy wiązania wymagające elementów pomocniczych są dodawane z poziomu środowiska Python, żadne wiązania pomocnicze nie są dodawane automatycznie. Można odtworzyć automatyczne podejmowanie decyzji przez polecenia UI w skrypcie, testując funkcje, specjalnie dodane w tym celu i używane w procedurach UI:
+
+
 ```python
 Sketch.isPointOnCurve(icurve,x,y)
-``` isPointOnCurve sprawdza, czy punkt wirtualny określony przez współrzędne szkicu x,y *(wartości zmiennoprzecinkowe)* spełnia wymogi wirtualnego punktu na obiekcie - tj. leży na krzywej określonej przez indeks krzywej icurve. Zwraca wartość {{True/pl}}, jeśli punkt jest na krzywej, i {{False/pl}}, jeśli tak nie jest.
+```
+
+
+{{Incode|isPointOnCurve}}
+
+sprawdza, czy punkt wirtualny określony przez współrzędne szkicu {{Incode|x,y}} *(wartości zmiennoprzecinkowe)* spełnia wymogi wirtualnego punktu na obiekcie - tj. leży na krzywej określonej przez indeks krzywej {{Incode|icurve}}. Zwraca wartość {{True/pl}}, jeśli punkt jest na krzywej, i {{False/pl}}, jeśli tak nie jest.
 
 
 ```python
 Sketch.calculateConstraintError(iconstr)
 ```
 
-CalcConstraintError ocenia funkcję błędu wiązania określonego przez jego indeks iconstr w szkicu. Jeśli w wiązaniu występuje tylko jedna funkcja błędu, zwracaną wartością jest podpisana wartość zwracana przez funkcję błędu. Jeśli z więzem związana jest więcej niż jedna funkcja błędu *(tj. wiązanie usuwa więcej niż jeden stopień swobody)*, zwracaną wartością jest RMS wszystkich funkcji błędu *(zawsze dodatnia)*.
+
+{{Incode|calculateConstraintError}}
+
+ocenia funkcję błędu wiązania określonego przez jego indeks {{Incode|iconstr}} w szkicu. Jeśli w wiązaniu występuje tylko jedna funkcja błędu, zwracaną wartością jest podpisana wartość zwracana przez funkcję błędu. Jeśli z więzem związana jest więcej niż jedna funkcja błędu *(tj. wiązanie usuwa więcej niż jeden stopień swobody)*, zwracaną wartością jest RMS wszystkich funkcji błędu *(zawsze dodatnia)*.
 
 
-
-## Wersja
-
-Wiązania pomocnicze zostały wprowadzone w wersji 0.15.4387
-
-
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

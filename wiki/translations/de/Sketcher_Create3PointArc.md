@@ -1,11 +1,11 @@
 ---
  GuiCommand:
    Name: Sketcher Create3PointArc
-   Name/de: Sketcher BogenDurch3PunkteErstellen
-   MenuLocation: Skizze , Skizzengeometrien , Kreisbogen durch drei Punkte erstellen
+   Name/de: Sketcher KreisbogenDurch3PunkteErstellen
+   MenuLocation: Skizze , Skizzengeometrien , Kreisbogen durch 3 Punkte erstellen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **3** **A**
-   SeeAlso: 
+   SeeAlso: Sketcher CreateArc/de
 ---
 
 # Sketcher Create3PointArc/de
@@ -14,16 +14,19 @@
 
 ## Beschreibung
 
-Dieses Werkzeug zeichnet einen Kreisbogen durch Setzen von drei Punkten: Dem Startpunkt, dem Endpunkt und einem Punkt auf dem Kreisbogen.
+Das werkzeug <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:24px;"> [KreisbogenDurch3PunkteErstellen](Sketcher_Create3PointArc/de.md): Erstellt einen Kreisbogen durch seine Endpunkte und eine weiteren Punkt im Verlauf des Bogens. {{Version/de|1.0}}: Dies ist dasselbe Werkzeug wie [KreisbogenErstellen](Sketcher_CreateArc/de.md) aber mit einem anderen Startmodus.
 
 
 
 ## Anwendung
 
-Beim Start des Werkzeugs ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Kreisbogen-Symbol. Die Koordinaten des Zeigers werden daneben in blau in Echtzeit angezeigt.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
--   Punkte in einem leeren Bereich in der 3D-Ansicht setzen oder auf einem existierenden Objekt (Automatische Randbedingungen müssen im [Aufgaben-Bereich](Task_panel/de.md) aktiviert sein).
--   Das Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_Create3PointArc.svg" width=16px> [Kreisbogen durch 3 Punkte erstellen](Sketcher_Create3PointArc/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Skizzengeometrien → <img src="images/Sketcher_Create3PointArc.svg" width=16px> Kreisbogen durch 3 Punkte erstellen** auswählen.
+    -   Das Tastaturkürzel **G** dann **3** dann **A**.
+2.  Für weitere Schritte siehe [Sketcher Kreisbogen Erstellen](Sketcher_CreateArc/de#Anwendung.md).
 
 
 

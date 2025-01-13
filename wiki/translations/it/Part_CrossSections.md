@@ -1,8 +1,7 @@
 ---
  GuiCommand:
    Name: Part SectionCross
-   Name/it: Sezioni...
-   Icon: Part_CrossSections.svg
+   Name/it: Part Sezioni
    MenuLocation: Parte , Sezioni...
    Workbenches: Part_Workbench/it
    SeeAlso: Part_Section/it
@@ -11,22 +10,14 @@
 # Part CrossSections/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-L\'utilità **Sezioni\...** crea una o più sezioni trasversali attraverso la forma selezionata.
+L\'utilità **Sezioni** crea una o più sezioni attraverso la forma selezionata, parallele ad uno dei piani globali predefiniti (XY, XZ o YZ).
 
 
-</div>
 
 ## Utilizzo
-
-
-<div class="mw-translate-fuzzy">
 
 1.  Selezionare una forma.
 2.  Premere il pulsante **[<img src=images/Part_CrossSections.svg style="width:24px"> '''Sezioni...'''**.
@@ -38,36 +29,30 @@ L\'utilità **Sezioni\...** crea una o più sezioni trasversali attraverso la fo
 6.  Premere **OK**.
 
 
-</div>
 
+## Note
 
-{{Part Tools navi/it}}
-
-
-<div class="mw-translate-fuzzy">
-
--   L\'oggetto risultante non è parametrico, cioè non è collegato alla forma originale.
+-   Gli oggetti [App Link](App_Link/it.md) collegati ai tipi di oggetto appropriati e i contenitori [App Part](App_Part/it.md) con gli oggetti visibili appropriati all\'interno possono essere utilizzati anche come oggetti di origine. {{Version/it|0.20}}
+-   L\'oggetto risultante non è parametrico, cioè non è legato alla forma originale.
 -   Viene creato un singolo oggetto, anche con più di una sezione trasversale.
 
 
-</div>
 
 ## Esempio
 
-![Selezionare un oggetto](images/SectionCross1.png ) 
+![Selezionare un oggetto](images/SectionCross1.png )
 
-![Finestra di dialogo](images/SectionCross2.png ) 
+![Finestra di dialogo](images/SectionCross2.png )
 
-![Risultato](images/SectionCross3.png ) 
-
-
-<div class="mw-translate-fuzzy">
+![Risultato](images/SectionCross3.png )
 
 
 
 
 
-</div>
+{{Part_Tools_navi
+
+}}
 
 
 

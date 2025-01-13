@@ -7,9 +7,9 @@
 Download [https://forum.freecadweb.org/download/file.php?id=80844 the Icons] in .zip file 
 |Author=Mario52
 |Download=[https://wiki.freecad.org/images/6/69/FCSpring_Helix_Variable.png ToolBar Icon]
-|Version=01.18c
-|Date=2023/09/01
-|FCVersion=0.19
+|Version=01.19
+|Date=2024/07/11
+|FCVersion=0.19 and bigger
 }}
 
 ## Description
@@ -305,6 +305,8 @@ soften fittings :done
 modify diameter to any coil :done
 
 ## Version
+
+11/07/2024 version 01.19 delete **\"import WebGui\"** replaced by **\"import webbrowser\"** and optimise filter for **OS Linux Mint**
 
 2023/09/01 Version 0.18c adding **FreeCAD.activeDocument().recompute(None,True,True)***Texte en italique* \"bug\" fixed by **Syres** thanks [How to draw polygonal spirals in Freecad?](https://forum.freecad.org/viewtopic.php?p=703568#p703568)
 

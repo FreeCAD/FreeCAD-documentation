@@ -14,6 +14,21 @@ La barre d\'état affiche également le dernier objet présélectionné (tout ob
 ![](images/FreeCAD_Status_bar_selected.png )
 
 
+
+## Mesure rapide 
+
+
+{{Version/fr|1.0}}
+
+La fonction Mesure rapide utilise le côté droit de la barre d\'état pour afficher les mesures basées sur la sélection dans la vue 3D :
+
+-   Longueur de l\'arête
+-   Surface de la face
+-   Distance entre les points, les arêtes ou les faces
+-   Angle entre les arêtes
+-   Rayon des arêtes circulaires ou des faces cylindriques
+
+
 {{Interface navi
 
 }}

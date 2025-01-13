@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign Groove
    Name/pl: Projekt Części: Rowek
-   MenuLocation: Projekt części , Utwórz cechę przez odjęcie , Kieszeń
+   MenuLocation: Projekt Części , Utwórz cechę przez odjęcie , Rowek
    Workbenches: PartDesign_Workbench/pl
    SeeAlso: PartDesign_Revolution/pl
 ---
@@ -25,64 +25,156 @@ Narzędzie **Rowek** obraca wybrany szkic lub profil wokół danej osi, wycinaj�
 
 ## Użycie
 
-1.  Wybierz szkic, który ma zostać obrócony.
-
-    :   Alternatywnie można użyć ściany na istniejącej bryle. {{VersionPlus/pl|0.17}}
-2.  Szkic musi być zmapowany do płaskiej ściany istniejącej bryły lub elementu środowiska Projekt Części, w przeciwnym razie zostanie wyświetlony komunikat o błędzie. {{VersionMinus/pl|0.16}}
-3.  Naciśnij przycisk **<img src="images/PartDesign_Groove.svg" width=24px> '''Rowek'''**.
-4.  Ustaw parametry rowka *(patrz następna sekcja)*.
-5.  Naciśnij przycisk **OK**.
+1.  Wybierz pojedynczy szkic lub jedną lub więcej powierzchni na istniejącej bryle.
+2.  Naciśnij przycisk **<img src="images/PartDesign_Groove.svg" width=16px> '''Rowek'''**.
+3.  Ustaw parametry wyżłobienia, patrz sekcja [Opcje](#Opcje.md) poniżej.
+4.  Naciśnij przycisk **OK**.
 
 
 
 ## Opcje
 
-Podczas tworzenia rowka okno dialogowe **Parametry wyciągnica przez obrót** oferuje kilka parametrów określających sposób obracania szkicu.
+Podczas tworzenia rowka lub po dwukrotnym kliknięciu istniejącego rowka w oknie [Widok drzewa](Tree_view/pl.md) wyświetlany jest panel zadań **Parametry rowka**. Oferuje on następujące ustawienia:
 
-+++
-| ![](images/partdesign_groove_parameters.png ) | ### Oś                                                                                                                                                                                                                                                                                                            |
-|                                                                          |                                                                                                                                                                                                                                                                                                                   |
-|                                                                          | -   **Pionowa oś szkicu**: wybiera pionową oś szkicu.                                                                                                                                                                                                                                                             |
-|                                                                          | -   **Pozioma oś szkicu**: wybiera poziomą oś szkicu.                                                                                                                                                                                                                                                             |
-|                                                                          | -   **Oś szkicu**: wybiera linię konstrukcyjną zawartą w szkicu używanym przez Rowek. Pierwsza linia konstrukcyjna utworzona w szkicu będzie oznaczona jako *Oś szkicu 0*. Lista rozwijana będzie zawierać jedną niestandardową oś szkicu dla każdej linii konstrukcyjnej. {{VersionMinus/pl|0.16}} |
-|                                                                          | -   **Linia konstrukcyjna**: wybiera linię konstrukcyjną zawartą w szkicu używanym przez Rowek. Lista rozwijana będzie zawierać pozycję dla każdej linii konstrukcyjnej. Pierwsza linia konstrukcyjna utworzona w szkicu będzie oznaczona jako *Linia konstrukcyjna 1*. {{VersionPlus/pl|0.17}}     |
-|                                                                          | -   **Oś bazowa (X/Y/Z)**: wybiera oś X, Y lub Z położenia początkowego bryły. {{VersionPlus/pl|0.17}}.                                                                                                                                                                                             |
-|                                                                          | -   **Wybierz odniesienie\...**: umożliwia wybór w oknie widoku 3D krawędzi na bryle lub [linii odniesienia](PartDesign_Line/pl.md). {{VersionPlus/pl|0.17}}.                                                                                                                               |
-|                                                                          |                                                                                                                                                                                                                                                                                                                   |
-|                                                                          |                                                                                                                                                                                                                                                                         |
-|                                                                          |                                                                                                                                                                                                                                                                                                                   |
-|                                                                          | ### Kąt                                                                                                                                                                                                                                                                                                           |
-|                                                                          |                                                                                                                                                                                                                                                                                                                   |
-|                                                                          | Określa kąt, przez który ma zostać utworzony rowek, np. 360° oznacza pełny, ciągły obrót. Nie jest możliwe określenie ujemnych kątów *(zamiast tego należy użyć opcji **Odwrócony**)* lub kątów większych niż 360°.                                                                                               |
-|                                                                          |                                                                                                                                                                                                                                                                                                                   |
-|                                                                          |                                                                                                                                                                                                                                                            |
-|                                                                          |                                                                                                                                                                                                                                                                                                                   |
-|                                                                          | ### Symetrycznie do płaszczyzny                                                                                                                                                                                                                                                     |
-|                                                                          |                                                                                                                                                                                                                                                                                                                   |
-|                                                                          | Jeśli opcja ta jest zaznaczona, rowek będzie rozciągał się o połowę określonego kąta w obu kierunkach od płaszczyzny szkicu.                                                                                                                                                                                      |
-|                                                                          |                                                                                                                                                                                                                                                                                                                   |
-|                                                                          |                                                                                                                                                                                                                                                                      |
-|                                                                          |                                                                                                                                                                                                                                                                                                                   |
-|                                                                          | ### Odwrócony                                                                                                                                                                                                                                                                                                     |
-|                                                                          |                                                                                                                                                                                                                                                                                                                   |
-|                                                                          | Jeśli opcja zostanie zaznaczona, kierunek wykonania rowka ulegnie odwróceniu z domyślnego zgodnego z ruchem wskazówek zegara na przeciwny.                                                                                                                                                                        |
-+++
+\| ![](images/partdesign_groove_parameters.png )
+
+
+
+### Typ
+
+
+{{Version/pl|1.0}}
+
+Typ oferuje pięć różnych sposobów określania kąta rowka:
+
+
+
+#### Wymiar
+
+Podaj wartość numeryczną dla **Kąta** rowka. W przypadku opcji **Symetryczne do płaszczyzny** rowek będzie rozszerzony o połowę podanego kąta na obie strony względem szkicu lub powierzchni.
+
+
+
+#### Przez wszystkie 
+
+Rowek będzie rozciągał się do ostatniej powierzchni podpory, którą napotka w swoim kierunku. Z opcją **Symetrycznie do płaszczyzny** rowek będzie przecinał cały materiał w obu kierunkach.
+
+
+
+#### Do pierwszego 
+
+Rowek będzie sięgać do pierwszej powierzchni podpory, którą napotka w swoim kierunku.
+
+
+
+#### Do powierzchni 
+
+Rowek będzie rozciągał się aż do powierzchni. Naciśnij przycisk **Ściana** i wybierz powierzchnię lub [płaszczyzna odniesienia](PartDesign_Plane/pl.md) z listy Zawartości.
+
+
+
+#### Dwa wymiary 
+
+Umożliwia to wprowadzenie drugiego kąta, w którym rowek powinien rozciągać się w przeciwnym kierunku. Kierunki można przełączać, zaznaczając opcję **Odwrócony**.
+
+
+
+### Oś
+
+Określa oś rowka:
+
+-   **Pionowa oś szkicu**: wybiera pionową oś szkicu.
+-   **Pozioma oś szkicu**: wybiera poziomą oś szkicu.
+-   **Linia konstrukcyjna**: wybiera linię konstrukcyjną ze szkicu używanego przez rowek. Lista rozwijana będzie zawierać pozycję dla każdej linii konstrukcyjnej. Pierwsza linia konstrukcyjna będzie oznaczona jako *Linia konstrukcyjna 1*.
+-   **Oś bazowa (X/Y/Z)**: wybiera oś X, Y lub Z odniesienia położenia bryły.
+-   **Wybierz odniesienie \...**: umożliwia wybór prostej krawędzi lub [linii odniesienia](PartDesign_Line/pl.md) z obiektu Zawartości.
+
+Należy pamiętać, że podczas zmiany osi opcja **Odwrócony** może zostać *(nie)*zaznaczona automatycznie.
+
+
+
+### Kąt
+
+Określa kąt rowka. Ta opcja jest dostępna tylko wtedy, gdy **Typ** to **Wymiar** lub **Dwa wymiary**. Kąty większe niż 360° nie są dostępne. Wartości ujemne również nie są dostępne, zamiast nich należy użyć opcji **Odwrócony**.
+
+
+
+### Symetrycznie do płaszczyzny 
+
+Zaznacz tę opcję, aby rozszerzyć rowek o połowę podanego kąta po obu stronach szkicu lub powierzchni, jeśli **Typ** to **Wymiar**, lub **Przez wszystkie**, jeśli taki jest **Typ**.
+
+
+
+### Odwrócony
+
+Odwraca kierunek rowka.
+
+
+
+### Drugi kąt 
+
+
+{{Version/pl|1.0}}
+
+Określa kąt rowka w przeciwnym kierunku. Ta opcja jest dostępna tylko wtedy, gdy **Typ** to **Dwa wymiary**, a **Kąt** jest mniejszy niż 360°.
 
 
 
 ## Właściwości
 
-Poniżej znajdują się właściwości, które można zdefiniować po utworzeniu elementu. Właściwości danych \"Podstawowe\" i \"Oś\" nie można edytować.
 
--    **Kąt**: kąt obrotu. Patrz sekcja [Kąt](#Kąt.md).
 
--    **Etykieta**: etykieta nadana operacji, może zostać zmieniona w dogodny sposób.
+### Dane
 
--    **Midplane**: przyjmuje wartość {{true/pl}} lub {{false/pl}}. Zobacz sekcję [Symetrycznie do płaszczyzny](#Symetrycznie_do_płaszczyzny.md).
 
--    **Odwrócony**: przyjmuje wartość prawda lub fałsz. Zobacz sekcję [Odwrócony](#Odwrócony.md).
+{{TitleProperty|Rowek}}
 
--    **Ulepsz**: przyjmuje wartość {{true/pl}} lub {{false/pl}}. Ustawienie na prawda powoduje oczyszczenie bryły z resztek krawędzi pozostawionych przez elementy. Zobacz stronę [Udoskonal kształt](Part_RefineShape/pl.md) aby uzyskać więcej szczegółów. {{VersionPlus/pl|0.17}}
+-    **Typ|Enumeration**
+    
+
+-    **Baza|Vector**: (read-only)
+
+-    **Oś|Vector**: (read-only)
+
+-    **Kąt|Angle**
+    
+
+-    **Kąt2|Angle**
+    
+
+-    **Do powierzchni|LinkSub**
+    
+
+-    **Oś odniesienia|LinkSub**
+    
+
+
+{{TitleProperty|Projekt Części}}
+
+-    **Ulepsz|Bool**
+    
+
+
+{{TitleProperty|Szkic bazowy}}
+
+-    **Profil|LinkSub**
+    
+
+-    **Płaszczyzna pośrednia|Bool**
+    
+
+-    **Odwrócony|Bool**
+    
+
+-    **Zezwalaj na wiele ścian|Bool**
+    
+
+
+
+## Uwagi
+
+-   Narzędzie <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [Łącznik kształtu](PartDesign_ShapeBinder/pl.md) nie może być użyte dla profilu.
+-   Podczas korzystania z narzędzia <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [Łącznik kształtów podrzędnych](PartDesign_SubShapeBinder/pl.md) dla profilu, wybranie spoiwa w oknie [widoku drzewa](Tree_view/pl.md) nie powiedzie się, zamiast tego powierzchnia wiążąca musi zostać wybrana w oknie [widoku 3D](3D_view/pl.md).
 
 
 

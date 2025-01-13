@@ -55,7 +55,7 @@ La macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [
 </div>
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/3ec2ab127d8ad01a6b657aa5df9a6127ff07c7c0/Macro%2520FCTexture.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/f18613c8bfd142e644ba79fc8dd34a5f72282f18/Macro%2520FCTexture.FCMacro}}
 
 <img alt="" src=images/Texture_004_Honda.png  style="width:480px;">
 
@@ -301,6 +301,9 @@ Le immagini sono state inclinate per esaltare l\'effetto 3D.
 </center>
 
 
+<div class="mw-translate-fuzzy">
+
+
 <center>
 
 <File:Texture> Nano Photo.png\|Ecco un esempio di immagine bmp convertita in punti e ripristinata in foto larga 6.5 nm
@@ -379,6 +382,9 @@ Image:Texture_003_napperon.png\|Una porzione di una tovaglia. Image:Texture_005_
 </center>
 
 
+
+</div>
+
 ## Links
 
 
@@ -399,13 +405,27 @@ La <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 [apply hair cell texture](http://forum.freecadweb.org/viewtopic.php?f=3&t=4708&start=10#p46353)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 [How to handle pdf import properly and feasibly?](http://forum.freecadweb.org/viewtopic.php?f=3&t=6123&hilit=teobo&start=10#p49024)
 
 
+</div>
+
+
 
 ## Revisioni
+
+-   ver 0.15 2025/01/04 delette all references to PySide and QtWidgets , chrono by chrisb
 
 -   Ver 0.14c : 15-01-2021 include **Gui.SendMsgToActiveView(\"ViewFit\")**
 

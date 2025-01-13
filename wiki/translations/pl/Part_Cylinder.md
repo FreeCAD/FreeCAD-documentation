@@ -24,11 +24,11 @@ Walec środowiska pracy Część można przekształcić w fragment walca, zmieni
 ## Użycie
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Part_Cylinder.svg" width=16px> [Part Cylinder](Part_Cylinder.md)**.
-    -   Wybierz opcję z menu **Część → Bryła pierwotna → <img src="images/Part_Cylinder.svg" width=16px> Walec**.
+    -   Naciśnij przycisk **<img src="images/Part_Cylinder.svg" width=16px> [Część: Walec](Part_Cylinder/pl.md)**.
+    -   Wybierz opcję **Część → Bryła pierwotna → <img src="images/Part_Cylinder.svg" width=16px> Walec** z menu.
 2.  Zostanie utworzony walec.
 3.  Opcjonalnie zmień wymiary i **Umiejscowienie** walca, wykonując jedną z poniższych czynności:
-    -   Kliknij dwukrotnie obiekt w oknie [widoku drzewa](Tree_view/pl.md):
+    -   Kliknij dwukrotnie obiekt w [widoku drzewa](Tree_view/pl.md):
         1.  Otworzy się panel zadań **Pierwotne bryły geometryczne**.
         2.  Zmień jedną lub więcej właściwości.
         3.  Obiekt jest dynamicznie aktualizowany w oknie [widoku 3D](3D_view/pl.md).

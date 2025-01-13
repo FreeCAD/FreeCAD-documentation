@@ -2,44 +2,45 @@
  GuiCommand:
    Name: Part SimpleCopy‏‎
    Name/fr: Part Copie simple
-   MenuLocation: Part , Créer une copie , Créer une copie simple
+   MenuLocation: Part , Créer une copie , Copie simple
    Workbenches: Part_Workbench/fr
-   SeeAlso: Std_Copy/fr, Std_DuplicateSelection/fr, Part_TransformedCopy/fr, Part_ElementCopy/fr, Part_RefineShape/fr
+   SeeAlso: Part_TransformedCopy/fr, Std_Copy/fr, Std_DuplicateSelection/fr
 ---
 
 # Part SimpleCopy/fr
 
 ## Description
 
-
-**![](images/)_[Part_Copie_simple](Part_SimpleCopy‎/fr.md)**
-
-génère une copie sans l\'historique paramétrique. Les étapes et opérations nécessaires à sa création ne sont plus accessibles.
-
-**Autre possibilité**, pour produire d\'autres copies non-paramétriques, utilisez <img alt="" src=images/Part_TransformedCopy.svg  style="width:16px;"> [Part Copie transformée](Part_TransformedCopy/fr.md), <img alt="" src=images/Part_ElementCopy.svg  style="width:16px;"> [Part Copie élément](Part_ElementCopy/fr.md) et <img alt="" src=images/Part_RefineShape.svg  style="width:16px;"> [Part Affiner la forme](Part_RefineShape/fr.md)
+La commande <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> **Part Copie simple** crée des copies non paramétriques d\'objets.
 
 
 
 ## Utilisation
 
-1.  Sélectionnez un objet pour lequel vous souhaitez faire une copie.
-2.  Aller au menu **Part → Créer une copie → ![](images/)_[Créer_une_simple_copie](Part_SimpleCopy/fr.md)**.
+1.  Sélectionnez un ou plusieurs objets.
+2.  Sélectionnez l\'option **Part → Créer une copie → <img src="images/Part_SimpleCopy.svg" width=16px> Copie simple** du menu.
+
+
+
+## Remarques
+
+-   Pour les objets imbriqués dans des conteneurs, [Part Copie transformée](Part_TransformedCopy/fr.md) doit être utilisé à la place.
 
 
 
 ## Propriétés
 
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+
+Les objets créés sont des objets [Part Feature](Part_Feature/fr.md) sans propriétés supplémentaires.
 
 
-### Données
-
-La copie a une seule propriété **Placement** comme n\'importe quelle autre [Part Fonction](Part_Feature/fr.md).
 
 
 
-### Vue
+{{Part_Tools_navi
 
-La copie a des propriétés de vue simples comme toutes les autres [Part Fonctions](Part_Feature/fr.md).
+}}
 
 
 

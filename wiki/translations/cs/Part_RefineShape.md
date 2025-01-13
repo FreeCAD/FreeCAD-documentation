@@ -17,15 +17,10 @@ Vyčistí zbytečné čáry. Po logických operacích zůstávají viditelné č
 
 </div>
 
-The **<img src="images/Part_RefineShape.svg" width=16px> [Part RefineShape](Part_RefineShape.md)** produces a non-parametric copy with a refined shape, that is, with certain edges and faces cleaned up.
-
-After certain boolean operations, like [Part Fuse](Part_Fuse.md), some lines from the previous shapes may remain visible. This tool produces a copy of that boolean result, and cleans up those seams.
-
-**Alternatively**, to produce other non-parametric copies use **<img src="images/Part_SimpleCopy.svg" width=16px> [Simple Copy](Part_SimpleCopy.md)
-**, **<img src="images/Part_TransformedCopy.svg" width=16px>[Transformed Copy](Part_TransformedCopy.md)**, and **<img src="images/Part_ElementCopy.svg" width=16px> [Element Copy](Part_ElementCopy.md)**
+The <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> **Part RefineShape** command creates parametric copies with a refined shape from selected objects. It removes unnecessary edges from planar and cylindrical faces.
 
 ![](images/PartRefineShape_it.png ) 
-*Original boolean result with 11 faces (left), and refined shape copy with 7 faces (right).*
+*Original with 11 faces (left), and refined copy with 7 faces (right).*
 
 
 
@@ -43,31 +38,32 @@ After certain boolean operations, like [Part Fuse](Part_Fuse.md), some lines fro
 
 </div>
 
-1.  Select an object that you wish to clean and copy.
-2.  Go to the menu **Part → Create a copy → <img src="images/Part_RefineShape.svg" width=16px> Refine shape**.
-3.  A cleaned, independent copy of the original object is created; the original object is hidden.
-
-As of <small>(v0.19)</small>  the result defaults to a parametric (linked) copy.
-
-This behavior can be changed in the <img alt="" src=images/Std_DlgParameter.svg  style="width:24px;"> [Parameter editor](Std_DlgParameter.md):
-
-1.  Go to the subgroup: `BaseApp/Preferences/Mod/Part`
-2.  Change `ParametricRefine` of type `Boolean` to `False` to get the old behavior (independent copy).
-
-See other parameters in [Fine-tuning](Fine-tuning.md).
+1.  Select one or more objects.
+2.  Select the **Part → Create a copy → <img src="images/Part_RefineShape.svg" width=16px> Refine shape** option from the menu.
+3.  For each object a cleaned, parametric copy is created
+4.  The original objects are hidden.
 
 ## Notes
 
--   This function can be used as the last step in the modelling work to clean up shapes in a traditional [constructive solid geometry](constructive_solid_geometry.md) workflow.
--   This function may help to clean up the model before applying another feature, such as a [Fillet](Part_Fillet.md).
--   This clean up may stop 3D printers from printing unwanted edges once the solid model is exported to a mesh format.
--   This function can also be used after converting a mesh to a shape ([ShapeFromMesh](Part_ShapeFromMesh.md)) to clean up the residual edges on flat faces.
+-   This command can be used as the last step in a traditional [constructive solid geometry](constructive_solid_geometry.md) workflow.
+-   It may help to clean up the model before applying other features, such as [fillets](Part_Fillet.md).
+-   Cleaning up an object may prevent 3D printers from printing unwanted edges once the object is exported to a mesh format.
+-   This command can also be used after converting a mesh to a shape ([Part ShapeFromMesh](Part_ShapeFromMesh.md)).
+-   By default this command creates parametric (linked) copies. There is [fine-tuning](Fine-tuning.md) parameter to change this to non-parametric copies. More information about parametric/non-parametric copy behavior can be found in this [forum post](https://forum.freecad.org/viewtopic.php?t=42993).
 -   Some interesting information about what is happening with placement and how to access by Python can be found in this [forum post](https://forum.freecad.org/viewtopic.php?t=77568#p675456).
 
-## Limitations
+## Properties
 
--   The refinement algorithm only works on shells. Therefore it iterates over the shells of the input shape and then for each shell it creates a new shell with joined faces wherever possible. This means that if your input shape is only a face, wire, edge or vertex then the algorithm does nothing.
--   Unlike the <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:24px;"> [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md) command, <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part RefineShape](Part_RefineShape.md) won\'t update when the preceding shapes are changed.
+See also: [Property editor](Property_editor.md).
+
+A Part RefineShape object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional property:
+
+### Data
+
+
+{{TitleProperty|Refine}}
+
+-    **Source|Link**: specifies the linked source shape.
 
 ## Scripting
 
@@ -77,6 +73,14 @@ The Python command for refining a shape is the following:
 ```python
 shape.removeSplitter()
 ```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

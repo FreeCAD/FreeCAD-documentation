@@ -1,59 +1,58 @@
-# Part ReverseShape/it
 ---
- GuiCommand:   Name: Part ReverseShapes   Name/it: ‏‎Inverti forme   Empty: 1‏‎   MenuLocation: Part , Inverti forme   Workbenches: Part Workbench/it   Part|SeeAlso: ---
+ GuiCommand:
+   Name: Part ReverseShape
+   Name/it: ‏‎Part Inverti forma
+‎   MenuLocation: Parte , Inverti forma
+   Workbenches: Part_Workbench/it
+---
 
-
-</div>
+# Part ReverseShape/it
 
 
 
 ## Descrizione
 
-Inverte le normali di tutte le facce dell\'oggetto selezionato.
+Il comando <img alt="" src=images/Part_ReverseShape.svg  style="width:24px;"> **Part Inverti forma** crea copie parametriche dagli oggetti selezionati con normali delle facce invertite.
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare una forma.
-2.  Scegliere **Part → Inverti le forme** dal menu in alto.
-3.  Viene creata una forma inversa come un nuovo oggetto separato.
-
-
-</div>
+1.  Selezionare uno o più oggetti.
+2.  Selezionare l\'opzione **Parte → <img src="images/Part_ReverseShape.svg" width=16px> Inverti forme** dal menu.
+3.  Per ciascun oggetto selezionato viene creata una forma invertita.
 
 
 
+## Note
 
-<div class="mw-translate-fuzzy">
-
-### Note
-
-
-</div>
-
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as source objects. <small>(v0.20)</small> 
--   To see the effect of the command change the **Lighting** property of the reversed shape to {{Value|On side}} and if required change **Edit → Preferences... → Display → 3D View → Rendering → Backlight color**.
+-   Gli oggetti [App Link](App_Link/it.md) collegati ai tipi di oggetto appropriati e i contenitori [App Part](App_Part/it.md) con gli oggetti visibili appropriati all\'interno possono essere utilizzati anche come oggetti di origine. {{Version/it|0.20}}
+-   Per vedere l\'effetto del comando, modificare la proprietà **Lighting** della forma invertita in {{Value|On side}} e, se necessario, modificare **Modifica → Preferenze... → Visualizzazione → Vista 3D → Rendering → Colore di retroilluminazione**.
 
 
 
 ## Proprietà
 
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-
-## Script
-
-
-<div class="mw-translate-fuzzy">
+Un oggetto Part Inverti forma deriva da un oggetto [Funzione Part](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha inoltre le seguenti proprietà aggiuntive:
 
 
 
+### Dati
 
 
-</div>
+{{TitleProperty|Reverse}}
+
+-    **Source|Link**: specifica il collegamento alla la forma sorgente.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

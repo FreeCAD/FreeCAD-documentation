@@ -3,7 +3,7 @@
    Name: Draft FlipDimension
    Name/de: Draft MaßKippen
    MenuLocation: Änderung , Bemaßung umkehren
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de
 ---
 
 # Draft FlipDimension/de
@@ -33,7 +33,7 @@ Der Befehl <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;"> 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um ein [Draft Maß](Draft_Dimension/de.md) zu kippen, invertiert man seine Eigenschaft `Normal`.
 

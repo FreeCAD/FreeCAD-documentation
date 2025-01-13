@@ -1,10 +1,10 @@
 ---
  TutorialInfo:r
-   Topic:  Sketcher
-   Level:  Débutant
-   Time:  15 minutes
+   Topic: Sketcher
+   Level: Débutant
+   Time: 15 minutes
    Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
-   FCVersion: 0.16 or above
+   FCVersion: 0.16 ou plus
    Files: 
 }}
 

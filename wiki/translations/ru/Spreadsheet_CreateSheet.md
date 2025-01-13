@@ -9,15 +9,22 @@
 
 # Spreadsheet CreateSheet/ru
 
+
+
 ## Описание
 
-The **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet CreateSheet](Spreadsheet_CreateSheet.md)** tool adds a new spreadsheet object to the active document, which will be opened in a new tab in the [main view area](main_view_area.md).
+The <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:24px;"> **Spreadsheet CreateSheet** tool adds a new spreadsheet to the active document.
+
+
 
 ## Применение
 
-1.  Press the **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet CreateSheet](Spreadsheet_CreateSheet.md)** button.
-2.  Edit the contents of the cells.
-3.  Close the spreadsheet tab when you are finished, the values are saved automatically as you type them.
+1.  There are several ways to invoke the tool:
+    -   Press the **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Create spreadsheet](Spreadsheet_CreateSheet.md)** button.
+    -   Select the **Spreadsheet → [<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> Create spreadsheet** option from the menu.
+2.  Double-click the spreadsheet in the [Tree view](Tree_view.md) to open it on a new tab in the [main view area](Main_view_area.md).
+3.  Edit the contents of the cells.
+4.  Close the spreadsheet tab when you are finished, the values are saved automatically as you type them.
 
 
 

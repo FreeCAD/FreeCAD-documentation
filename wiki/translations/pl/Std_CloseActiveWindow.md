@@ -10,9 +10,13 @@
 
 # Std CloseActiveWindow/pl
 
+
+
 ## Opis
 
 Polecenie **Zamknij aktywne okno** zamyka aktywne okno. Aby zamknąć dokument, wszystkie jego okna muszą być zamknięte.
+
+
 
 ## Użycie
 
@@ -24,33 +28,30 @@ Polecenie **Zamknij aktywne okno** zamyka aktywne okno. Aby zamknąć dokument, 
     -   Naciśnij przycisk **Zapisz**, aby zapisać dokument. W razie potrzeby wprowadź najpierw nazwę pliku.
     -   Naciśnij przycisk **Porzuć zmiany**, aby odrzucić dokument i utracić wszystkie zmiany.
 
+
+
 ## Opcje
 
 -   Po wyświetleniu okna dialogowego: naciśnij przycisk **Esc** lub **Anuluj**, aby przerwać wykonywanie polecenia.
+
+
 
 ## Uwagi
 
 -   Polecenie to może zamknąć tylko okna [zadokowane](Std_ViewDockUndockFullscreen/pl.md).
 -   Dokument można również zamknąć, klikając go prawym przyciskiem myszy w oknie [widoku drzewa](Tree_view/pl.md) i wybierając opcję **Zamknij dokument** z menu podręcznego.
 
-## Ustawienia
 
--   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby zamknąć dokument, należy użyć metody `closeDocument` aplikacji FreeCAD. Przykład skryptu można znaleźć na stronie opisującej opcję [Nowy](Std_New/pl#Tworzenie_skrypt.C3.B3w.md).
+Zobacz [Std: Nowy](Std_New/pl#Tworzenie_skryptów.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

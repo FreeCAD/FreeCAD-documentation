@@ -1,6 +1,6 @@
 ---
  TutorialInfo:r
-   Topic:  Analyse FEM transitoire
+   Topic: FEM Tutoriel d'analyse transitoire
    Level:  
    Time: 
    Author: 

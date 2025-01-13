@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Polygon
-   MenuLocation: Drafting , Polygon
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Drafting , Polygon<br>2D Drafting , Polygon
+   Workbenches: Draft_Workbench, BIM_Workbench
    Shortcut: **P** **G**
    Version: 0.7
 ---
@@ -11,7 +11,7 @@
 
 ## Description
 
-The <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> **Draft Polygon** command creates a regular polygon in the current [working plane](Draft_SelectPlane.md) from a center and a radius. The radius can be defined by picking a point.
+The <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> **Draft Polygon** command creates a regular polygon on the current [working plane](Draft_SelectPlane.md) from a center and a radius. The radius can be defined by picking a point.
 
 A Draft Polygon can be switched from inscribed to circumscribed by changing its **Draw Mode** property. The corners of a Draft Polygon can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively.
 
@@ -24,7 +24,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Polygon.svg" width=16px> [Polygon](Draft_Polygon.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_Polygon.svg" width=16px> Polygon** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Drafting → <img src="images/Draft_Polygon.svg" width=16px> Polygon** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **2D Drafting → <img src="images/Draft_Polygon.svg" width=16px> Polygon** option from the menu.
     -   Use the keyboard shortcut: **P** then **G**.
 2.  The **Polygon** task panel opens. See [Options](#Options.md) for more information.
 3.  Adjust the desired number of **Sides**.
@@ -33,10 +34,10 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ## Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 -   To manually enter the coordinates for the center enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system.
 -   Press **F** or click the **Filled** checkbox to toggle filled mode. If filled mode is on, the created polygon will have **Make Face** set to `True` and will have a filled face.
 -   Press **N** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating polygons.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.

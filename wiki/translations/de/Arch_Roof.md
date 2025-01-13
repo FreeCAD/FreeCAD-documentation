@@ -2,10 +2,10 @@
  GuiCommand:
    Name: Arch Roof
    Name/de: Arch Dach
-   MenuLocation: Arch , Dach
-   Workbenches: Arch_Workbench/de
+   MenuLocation: 3D/BIM , Dach
+   Workbenches: BIM_Workbench/de
    Shortcut: **R** **F**
-   SeeAlso: Arch_Structure/de, Arch_Wall/de
+   SeeAlso: 
 ---
 
 # Arch Roof/de
@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Das **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof.md)** Werkzeug erlaubt die Erstellung eines geneigten Daches aus einem ausgewählten Linienzug. Das erstellte Dach Objekt ist parametrisch und behält seine Verbindung zum Basisobjekt. Das Prinzip ist, dass jeder Kante ein Dachprofil (Neigung, Breite, Überhang, Dicke) zugewiesen wird.
+Das Werkzeug **Arch Dach** erlaubt die Erstellung eines geneigten Daches aus einem ausgewählten Linienzug. Das erstellte Dach Objekt ist parametrisch und behält seine Verbindung zum Basisobjekt. Das Prinzip ist, dass jeder Kante ein Dachprofil (Neigung, Breite, Überhang, Dicke) zugewiesen wird.
 
 **Hinweis:** Dieses Werkzeug befindet sich noch in der Entwicklung und kann bei sehr komplexen Formen fehlschlagen.
 
@@ -23,12 +23,12 @@ Das **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof.md)** We
 
 
 
-## Anwendung
+## Anwendung (linienzugbasiert) 
 
 1.  Einen Linienzug gegen den Uhrzeigersinn erstellen und auswählen.
     -   <img alt="" src=images/CounterclockwiseWire.png  style="width:600px;">
 
-2.  Die Schaltfläche **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof/de.md)** drücken oder das Tastaturkürzel **R** dann **F**.
+2.  Die Schaltfläche **<img src="images/Arch_Roof.svg" width=16px> [Dach](Arch_Roof/de.md)** drücken oder das Tastaturkürzel **R** dann **F**.
 
 3.  Das Standard-Dach-Objekt könnte eine seltsame Form haben, weil das Werkzeug nicht alle notwendigen Informationen hat
 
@@ -49,6 +49,30 @@ Das **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof.md)** We
 
 9.  
     **Hinweis**: für ein besseres Verständnis siehe bitte diesen [youtube clip](https://www.youtube.com/watch?v=4Urwru71dVk).
+
+
+
+## Anwendung (Festkörperbasiert) 
+
+Hat das Dach eine komplexe Form (es enthält z.B. geneigte Fenster oder andere nicht standardmäßige Formelemente), kann man selbst ein Festkörperobjekt mit Hilfe verschiedener FreeCAD-Arbeitsbereiche ([Part](Part_Workbench/de.md), [Sketcher](Sketcher_Workbench/de.md) usw.) erstellen und dann diesen Festkörper als {{PropertyData/de|Base}}-Objekt des Daches verwenden:
+
+1.  Das Festkörper-Basisobjekt auswählen.
+2.  Die Schaltfläche **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof/de.md)** drücken, oder das Tastaturkürzel **R** dann **F**.
+
+
+
+## Ein Dach abziehen 
+
+Dächer haben ein automatisch erstelltes Abzugsvolumen ({{Version/de|1.0}} für Dächer mit einer Festkörper-Basis). Wird ein Dach von den Wänden eines Gebäudes [entfernt](Arch_Remove/de.md), wird sowohl das Dach selbst als auch alles darüber befindliche von den Wänden abgezogen.
+
+
+{{Version/de|1.0}}
+
+: Es ist möglich, das automatische Abzugsvolumen zu überschreiben, indem die {{PropertyData/de|Subvolume}} des Daches auf ein selbsterstelltes Festkörperobjekt gesetzt wird.
+
+<img alt="" src=images/Arch_Roof_Subtract_Default.png  style="width:" height="150px;"> <img alt="" src=images/Arch_Roof_Subtract_Subvolume.png  style="width:" height="150px;"> <img alt="" src=images/Arch_Roof_Subvolume_Example.png  style="width:" height="150px;"> 
+*Festkörperbasiertes Dach bevor (erstes Bild) und nachdem es von Wänden [entfernt](Arch_Remove/de.md) wurde (zweites Bild).<br>
+Das dritte Bild zeigt das erstellte Abzugsvolumen.*
 
 
 
@@ -84,6 +108,8 @@ Das **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof.md)** We
 -    {{PropertyData/de|Ridge Length|Length}}: Die Gesamtlänge der Grate und Sparren des Dachs.
 
 -    {{PropertyData/de|Runs|FloatList}}: Die Liste der Projektionen horizontaler Längen der Dachabschnitte.
+
+-    {{PropertyData/de|Subvolume|Link}}: Das abzuziehende Volumen. Wenn angegeben, wird es anstatt des automatisch erstellten Untervolumens verwendet. {{Version/de|1.0}}
 
 -    {{PropertyData/de|Thickness|FloatList}}: Die Liste der Dicken der Dachabschnitte.
 
@@ -135,5 +161,13 @@ doc.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/de
+⏵ [documentation index](../README.md) > Arch Roof/de

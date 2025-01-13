@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Rysunek Roboczy: Widok 2D kształtu
    MenuLocation: Modyfikacja , Widok 2D kształtu
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
    SeeAlso: TechDraw_ProjectShape/pl
 ---
 
@@ -54,13 +54,15 @@ Obiekt *Widok 2D kształtu* wywodzi się z obiektu [Część: Part2DObject](Part
 
 {{TitleProperty|Rysunek Roboczy}}
 
--    **Aktualizacja automatyczna|Bool**: określa, czy rzut powinien być automatycznie obliczany ponownie, jeśli obiekt **Podstawa** ulegnie zmianie. Wybór wartości {{False/pl}} może być użyteczny, jeśli w dokumencie jest wiele obiektów *Widok 2D kształtu* lub jeśli są one złożone. Jeśli wybrano wartość {{False/pl}}, do aktualizacji rzutów należy użyć polecenia [Std: Odśwież](Std_Refresh/pl.md). {{Version/pl|0.20}}
+-    **Aktualizacja automatyczna|Bool**: określa, czy rzut powinien być automatycznie obliczany ponownie, jeśli obiekt **Podstawa** ulegnie zmianie. Wybór wartości {{False/pl}} może być użyteczny, jeśli w dokumencie jest wiele obiektów *Widok 2D kształtu* lub jeśli są one złożone. Jeśli wybrano wartość {{False/pl}}, do aktualizacji rzutów należy użyć polecenia [Std: Odśwież](Std_Refresh/pl.md).
+
+-    **Clip|Bool**: jeśli ma wartość {{True/pl}}, zawartość jest przycinana do granic płaszczyzny przekroju, jeśli ma to zastosowanie. Zastępuje to właściwość Clip obiektu bazowego.
 
 -    **Podstawa|Link**: określa obiekt, który ma być wyświetlany.
 
 -    **Numer ściany|IntegerList**: określa indeksy ścian, które mają być rzutowane. Działa tylko jeśli **Tryb rzutowania** ma wartość {{Value|Poszczególne ściany}}.
 
--    **Fuse Arch|Bool**: określa czy [obiekty Architektoniczne](Arch_Workbench/pl.md) tego samego typu i z tego samego materiału są łączone czy nie.
+-    **Fuse Arch|Bool**: określa czy [obiekty BIM](BIM_Workbench/pl.md) tego samego typu i z tego samego materiału są łączone czy nie.
 
 -    **Ukryte linie|Bool**: określa, czy ukryte linie są wyświetlane, czy nie.
 
@@ -83,17 +85,17 @@ Obiekt *Widok 2D kształtu* wywodzi się z obiektu [Część: Part2DObject](Part
     -   
         {{Value|Cutlines}}
         
-        : działa tylko wtedy, gdy wybranym obiektem jest [płaszczyzna przekroju](Arch_SectionPlane/pl.md) środowiska Architektura, rzutuje tylko krawędzie przecięte przez płaszczyznę przekroju.
+        : działa tylko wtedy, gdy wybranym obiektem jest [płaszczyzna przekroju](Arch_SectionPlane/pl.md) środowiska BIM, rzutuje tylko krawędzie przecięte przez płaszczyznę przekroju.
 
     -   
         {{Value|Cutfaces}}
         
-        : działa tylko wtedy, gdy wybranym obiektem jest [płaszczyzna przekroju](Arch_SectionPlane/pl.md) środowiska Architektura, rzutuje powierzchnie przecięte płaszczyzną przekroju przez bryłę jako powierzchnie czołowe.
+        : działa tylko wtedy, gdy wybranym obiektem jest [płaszczyzna przekroju](Arch_SectionPlane/pl.md) środowiska BIM, rzutuje powierzchnie przecięte płaszczyzną przekroju przez bryłę jako powierzchnie czołowe.
 
     -   
         {{Value|Ściany bryły}}
         
-        : rzutuje cały wybrany obiekt poprzez cięcie powierzchni jedna po drugiej. Może być użyty, jeśli tryb {{Value|Bryła}} daje złe wyniki. {{Version/pl|0.20}}
+        : rzutuje cały wybrany obiekt poprzez cięcie powierzchni jedna po drugiej. Może być użyty, jeśli tryb {{Value|Bryła}} daje złe wyniki.
 
 -    **Długość segmentu|Float**: określa rozmiar w milimetrach odcinków liniowych, jeżeli parametr **Tesselacja** ma wartość {{TRUE/pl}}.
 
@@ -101,7 +103,7 @@ Obiekt *Widok 2D kształtu* wywodzi się z obiektu [Część: Part2DObject](Part
 
 -    **Wyłącznie widoczne|Bool**: określa, czy rzut powinien być obliczany ponownie tylko wtedy, gdy jest widoczny.
 
--    **Punkty wykluczenia|Vector list**: Lista punktów wykluczenia. Krawędź przechodząca przez którykolwiek z tych punktów nie zostanie narysowana. {{Version/pl|0.20}}
+-    **Punkty wykluczenia|Vector list**: Lista punktów wykluczenia. Krawędź przechodząca przez którykolwiek z tych punktów nie zostanie narysowana.
 
 -    **Nazwy wykluczeń|String list**: Lista nazw obiektów. Każdy oglądany lub wycinany obiekt podrzędny o nazwie zawartej w tej liście nie będzie rysowany. {{Version/pl|0.21}}
 

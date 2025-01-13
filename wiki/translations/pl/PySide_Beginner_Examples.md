@@ -42,9 +42,11 @@ reply = QtGui.QMessageBox.information(None,"","Houston, we have a problem")
 
 ![](images/PySideScreenSnapshot5.jpg )
 
-## Yes or No Query 
 
-The next most simple interaction is to ask for a yes/no answer:
+
+## Pytanie Tak lub Nie 
+
+Kolejną najprostszą interakcją jest pytanie o odpowiedź tak / nie:
 
 
 ```python
@@ -65,9 +67,11 @@ if reply == QtGui.QMessageBox.No:
 
 ![](images/PySideScreenSnapshot6.jpg )
 
-## Enter Text Query 
 
-The next code snippet asks the user for a piece of text - note this can be any key on the keyboard really:
+
+## Wprowadź zapytanie tekstowe 
+
+Następny fragment kodu prosi użytkownika o podanie fragmentu tekstu - może to być dowolny klawisz na klawiaturze:
 
 
 ```python
@@ -82,7 +86,7 @@ else:
 
 ![](images/PySideScreenSnapshot7.jpg )
 
-Remember that even if the user enters only digits, \"1234\" for example, they are strings and must be converted to number representation with either of the following:
+Należy pamiętać, że nawet jeśli użytkownik wprowadzi tylko cyfry, na przykład \"1234\", są one ciągami znaków i muszą zostać przekonwertowane na reprezentację liczbową za pomocą jednej z poniższych metod:
 
 
 ```python
@@ -91,7 +95,9 @@ anInteger = int(userInput) # to convert to an integer from a string representati
 aFloat = float(userInput) # to convert to a float from a string representation
 ```
 
-## More Than 2 Buttons 
+
+
+## Więcej niż 2 przyciski 
 
 The final Beginner Level example is of how to build a dialog with an arbitrary number of buttons. This example is programmatically too complex to be invoked from a single Python statement so in some ways it should be on the next page which is [PySide Intermediate Examples](PySide_Intermediate_Examples.md). But on the other hand this is often all that is needed without getting into complex GUI definitions, so the code is placed at the end of this page rather than the beginning of the next.
 

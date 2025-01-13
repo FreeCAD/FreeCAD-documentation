@@ -88,7 +88,7 @@ There is built-in support for the following DWG converters:
 
 -   [LibreDWG](https://www.gnu.org/software/libredwg) (open-source, lacks support for some DWG entities).
 -   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (free).
--   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). <small>(v0.20)</small> 
+-   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial).
 
 See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
 

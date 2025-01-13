@@ -1,5 +1,5 @@
 # Category:Web/bg
-This category lists pages that relate to the [Web Workbench/bg](Web_Workbench/bg.md).
+This category is for pages related to the [Web Workbench](Web_Workbench.md).
 
 ### Contents
 
@@ -10,4 +10,4 @@ This category lists pages that relate to the [Web Workbench/bg](Web_Workbench/bg
 
 
 ---
-⏵ [documentation index](../README.md) > Category:Web/bg
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Category:Web/bg

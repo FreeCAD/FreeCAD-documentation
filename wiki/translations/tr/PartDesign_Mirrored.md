@@ -8,6 +8,8 @@
 
 # PartDesign Mirrored/tr
 
+
+
 ## Tanım
 
 The <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> **PartDesign Mirrored** tool mirrors one or more features.
@@ -39,18 +41,29 @@ The <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> **PartD
 
 ## Options
 
--   To add features:
-    1.  Press the **Add feature** button.
-    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-    3.  Repeat to add more features.
--   To remove features:
-    1.  Press the **Remove feature** button.
-    2.  Do one of the following:
-        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-        -   Select a feature in the list and press the **Del** key.
-        -   Right-click a feature in the list and select **Remove** from the context menu.
-    3.  Repeat to remove more features.
--   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Choose the mode:
+    -   
+        **Transform body**
+        
+        : Transforms the whole base feature\'s shape (default). <small>(v1.0)</small> 
+
+    -   
+        **Transform tool shapes**
+        
+        : Transforms the individual tool shapes of selected features.
+
+        -   To add features:
+            1.  Press the **Add feature** button.
+            2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+            3.  Repeat to add more features.
+        -   To remove features:
+            1.  Press the **Remove feature** button.
+            2.  Do one of the following:
+                -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+                -   Select a feature in the list and press the **Del** key.
+                -   Right-click a feature in the list and select **Remove** from the context menu.
+            3.  Repeat to remove more features.
+        -   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
 -   Specify the mirror **Plane**:
     -   
         **Vertical sketch axis**

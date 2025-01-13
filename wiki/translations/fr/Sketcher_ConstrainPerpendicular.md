@@ -12,84 +12,95 @@
 
 ## Description
 
-La Contrainte perpendiculaire fait que deux lignes soient perpendiculaires (càd orthognales) l\'une à l\'autre, ou deux courbes soit perpendiculaires à leur intersection. Les lignes sont traitées infinie, et des arcs sont traités comme des cercles pleins/ellipses. La contrainte est également capable de connecter deux courbes, les forçant perpendiculaire à la jointure, de manière similaire à la **[<img src=images/Sketcher_ConstrainTangent.svg style="width:16px"> [Contrainte tangente](Sketcher_ConstrainTangent/fr.md)**.
+L\'outil <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> [Sketcher Contrainte perpendiculaire](Sketcher_ConstrainPerpendicular/fr.md) permet de contraindre deux lignes à être perpendiculaires, ou deux arêtes, ou une arête et un axe, à être perpendiculaires à leur intersection. Les lignes sont considérées comme infinies et les courbes ouvertes sont virtuellement étendues. La contrainte peut également relier deux arêtes, les obligeant à être perpendiculaires à la jonction.
 
 
 
 ## Utilisation
 
-Il y a quatre façons différentes d\'appliquer la contrainte :
-
-1.  entre deux courbes (non disponible pour toutes les courbes)
-2.  entre deux extrémités d\'une courbe
-3.  entre une courbe et un point de terminaison d\'un autre courbe
-4.  entre deux courbes au point défini par l\'utilisateur
-
-Pour appliquer la contrainte perpendiculaire, suivre les étapes suivantes :
-
--   sélectionnez deux ou trois entités dans l\'esquisse.
--   lancez la contrainte en cliquant sur son icône sur la barre d\'outils, ou en sélectionnant l\'option de menu, ou en utilisant le raccourci clavier.
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
 
 
 
-### Entre deux courbes (directement perpendiculaire) 
+### [Mode continu](Sketcher_Workbench/fr#Modes_continus.md) 
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:600px;">
+1.  Assurez-vous qu\'il n\'y a pas de sélection.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> [Contrainte perpendiculaire](Sketcher_ConstrainPerpendicular/fr.md)**.
 
-Deux courbes doivent être perpendiculaires au point d\'intersection (réel ou des extensions de courbes), et le point d\'intersection sera implicite. Ce mode est appliqué si deux courbes ont été sélectionnées.
+    -   Sélectionnez l\'option **Esquisse → Contraintes d'esquisse → <img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> Contrainte perpendiculaire** du menu.
 
-**Sélection Acceptée :**
+    -   
+        {{Version/fr|1.0}}
+        
+        : cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **Contrainte → <img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> Contrainte perpendiculaire** du menu contextuel.
 
--   la ligne + ligne, cercle, arc
--   cercle, arc + cercle, arc.
-
-Si la perpendicularité direct entre les courbes sélectionnées n\'est pas prise en charge (par exemple, entre une ligne et une ellipse), un point d\'aide sera ajoutés pour esquisser automatiquement, et la perpendiculaire-via-point sera appliquée.
-
-Contrairement aux tangences, il est parfaitement bien de reconstruire le point de perpendicularité en créant un point et le contraindre d\'être sur les deux courbes (Contraignant ainsi le point à l\'intersection).
-
-
-
-### Entre deux points terminaux (perpendicularité point-à-point) 
-
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:600px;">
-
-Dans ce mode, les extrémités sont confondues et le joint est fait pour être à angle droit. Ce mode s\'applique lorsque deux extrémités de deux courbes ont été sélectionnées.
-
-**Sélection acceptée :**
-
--   point extrémité de ligne/arc/arc d\'ellipse + extrémité de ligne/arc/arc d\'ellipse (soit, deux points de deux courbes)
+    -   Utilisez le raccourci clavier : **N**.
+3.  Le curseur se transforme en croix avec l\'icône de l\'outil.
+4.  Faites l\'une des choses suivantes :
+    -   Sélectionnez deux arêtes. L\'une des arêtes doit être une ligne droite ou un axe. L\'autre peut être n\'importe quelle arête à l\'exception d\'une B-spline.
+    -   Sélectionnez un point et deux arêtes (dans cet ordre).
+    -   Sélectionnez une arête, un point et une autre arête (idem).
+5.  Une contrainte perpendiculaire est ajoutée. Si un point et deux arêtes ont été sélectionnés, jusqu\'à deux [contraintes Point sur objet](Sketcher_ConstrainPointOnObject/fr.md) peuvent également être ajoutées. Voir [Exemples](#Entre_deux_arêtes_au_point.md).
+6.  Il est possible de continuer à créer des contraintes.
+7.  Pour terminer, cliquez avec le bouton droit de la souris ou appuyez sur **Échap**, ou démarrez un autre outil de création de géométrie ou de contrainte.
 
 
 
-### Entre courbe et extrémité (Perpendicularité de point-à-courbe) 
+### Mode unique 
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:600px;">
+1.  Faites l\'une des choses suivantes :
+    -   Sélectionnez deux arêtes (voir ci-dessus).
 
-Dans ce mode, une extrémité d\'une courbe est contraint de se trouver sur l\'autre courbe, et les courbes sont obligatoirement perpendiculaires en ce point. Ce mode est appliqué lorsqu\'une courbe et un point de terminaison d\'une autre courbe ont été sélectionnés.
+    -   Sélectionnez deux points d\'extrémité appartenant à des arêtes différentes.
 
-**Sélection acceptée :**
+    -   Sélectionnez une arête et l\'extrémité d\'une autre arête (dans n\'importe quel ordre).
 
--   ligne, cercle, arc, ellipse, arc-d\'ellipse + extrémité de ligne/arc/arc-d\'ellipse (soit., courbe + extrémité de courbe)
+    -   Sélectionnez un point et deux arêtes (idem).
+
+    -   Lancez l\'outil comme expliqué ci-dessus, ou avec l\'option supplémentaire suivante :
+
+    -   
+        {{Version/fr|1.0}}
+        
+        : cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **<img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> Contrainte perpendiculaire** dans le menu contextuel.
+2.  Une contrainte de perpendicularité est ajoutée. Si un point et deux arêtes ont été sélectionnés, jusqu\'à deux [contraintes point sur objet](Sketcher_ConstrainPointOnObject/fr.md) peuvent également être ajoutées. Voir [Exemples](#Entre_deux_arêtes_au_point.md).
 
 
 
-### Entre deux courbes en un point (perpendiculaire-par-point) (v0.15) 
+## Exemples
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:600px;">
 
-Dans ce mode, deux courbes sont rendues perpendiculaires, et le point de perpendicularité est identifié. Ce mode est appliqué lorsque deux courbes et un point ont été sélectionnés.
 
-**Sélection acceptée :**
+### Entre deux arêtes 
 
--   ligne/courbe + ligne/courbe
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:400px;">
 
-\"Tout point\" peut être un point isolé, ou un point d\'un élément, par exemple, le centre d\'un cercle, un point d\'extrémité d\'un arc, ou l\'origine.
+Les deux arêtes sont rendues perpendiculaires à leur intersection (virtuelle). Si l\'une des arêtes est une [conique](Sketcher_Workbench/fr#Sketcher_CompCreateConic.md), un objet [Point](Sketcher_CreatePoint/fr.md) qui a une [contrainte Point sur objet](Sketcher_ConstrainPointOnObject.md) avec les deux arêtes (étendues) est ajouté.
 
-Pour que la contrainte fonctionne correctement, le point doit être sur les deux courbes. Donc, comme la contrainte est invoquée, le point sera automatiquement contraint sur les deux courbes, une ([contrainte auxiliaire](Sketcher_helper_constraint/fr.md) sera ajoutée, si nécessaire) et les courbes seront forcées perpendiculaires en ce point. Ces [contraintes auxiliaires](Sketcher_helper_constraint/fr.md) sont des contraintes ordinaires simples. Elles peuvent être ajoutées manuellement ou supprimées.
 
-Comparé à la perpendiculaire directe cette contrainte est plus lente, car il y a des modes de degrés de liberté impliquées, mais elle prend en charge les ellipses
 
-Le placement du point avant la contrainte qui est appliquée est une indication pour le calculateur dans le cas où il devrait y avoir une perpendicularité .
+### Entre deux extrémités 
+
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:400px;">
+
+Les extrémités coïncident et les arêtes sont perpendiculaires à ce point.
+
+
+
+### Entre une arête et une extrémité 
+
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:400px;">
+
+L\'extrémité d\'une arête est contrainte de se trouver sur l\'autre arête, et les arêtes sont rendues perpendiculaires à ce point.
+
+
+
+### Entre deux arêtes en un point 
+
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:400px;">
+
+Les deux arêtes sont rendues perpendiculaires en un point donné. Le point peut être n\'importe quel point, par exemple le centre d\'un cercle, l\'extrémité d\'une arête ou l\'origine, il peut appartenir à l\'une ou l\'autre des arêtes ou aux deux, et il peut également être un [objet Point](Sketcher_CreatePoint/fr.md). Si nécessaire, des [contrainte(s) de point sur objet](Sketcher_ConstrainPointOnObject/fr.md) sont ajoutées pour s\'assurer que le point se trouve sur les deux arêtes (étendues). Ces contraintes supplémentaires sont appelées [contraintes d\'aide](Sketcher_helper_constraint/fr.md).
 
 
 

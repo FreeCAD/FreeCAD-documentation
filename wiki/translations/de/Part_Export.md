@@ -1,9 +1,10 @@
 ---
  GuiCommand:
+   Name: Part Export‎
    Name/de: Part Export
-   MenuLocation: Formteil , CAD Export
+   MenuLocation: Part , In CAD-Datei exportieren...
    Workbenches: Part_Workbench/de
-   SeeAlso: Part_Import/de, Std_Export/de, Import_Export/de
+   SeeAlso: Std_Export/de, Import_Export/de
 ---
 
 # Part Export/de
@@ -12,16 +13,32 @@
 
 ## Beschreibung
 
-Das **<img src="images/Part_Export.svg" width=16px> [Part Export](Part_Export/de.md)** Werkzeug öffnet ein Dialogfeld, das dir erlaubt Objekte im Dokument in die folgenden CAD Dateiformate zu exportieren: [IGES](http://en.wikipedia.org/wiki/IGES), [STEP](http://en.wikipedia.org/wiki/Step_file) und [BREP](http://en.wikipedia.org/wiki/BREP).
+Der Befehl **<img src="images/Part_Export.svg" width=24px> [Part Export](Part_Export/de.md)** exportiert ausgewählte Objektein ein anderes Dateiformat. Die unterstützten Dateifrmate sind: [STEP](http://en.wikipedia.org/wiki/Step_file) (mit und ohne Farben), [IGES](http://en.wikipedia.org/wiki/IGES) (mit und ohne Farben) und [BREP](http://en.wikipedia.org/wiki/BREP).
 
 
 
 ## Anwendung
 
-1.  Richte die [Import Export Einstellungen](Import_Export_Preferences/de.md) im [Einstellungseditor](Preferences_Editor/de.md) ein.
-2.  Wähle Formen in [Baumansicht](tree_view/de.md) oder in der [3D Ansicht](3D_view/de.md) aus.
-3.  Gehe zum Menü **Part → [<img src=images/Part_Export.svg style="width:16px"> CAD exportieren**.
-4.  Wähle das Dateiformat und den Ausgabepfad.
+1.  Die [Import-/Export-Einstellungen](Import_Export_Preferences/de.md) im [Voreinstellungseditor](Preferences_Editor/de.md) einrichten.
+2.  Ein oder mehrere Objekte auswählen. Siehe [Std Export](Std_Export/de#Anwendung.md).
+3.  Den Menüeintrag **Part → [<img src=images/Part_Export.svg style="width:16px"> In CAD-Datei exportieren** auswählen.
+4.  Das korrekte Dateiformat im Dialogfenster auswählen.
+5.  einen Dateinamen eingeben.
+6.  Die Schaltfläche **Speichern** drücken.
+
+
+
+## Hinweise
+
+-   Der Befehl [Std Export](Std_Export/de.md) unterstützt noch viele weitere Dateiformate.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

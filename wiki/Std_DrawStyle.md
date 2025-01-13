@@ -16,7 +16,7 @@ The **Std DrawStyle** command can override the effect of the **Display Mode** [p
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Click on the black down arrow to the right of the **<img src="images/Std_DrawStyleAsIs.svg" width=16px> [Std DrawStyle](Std_DrawStyle.md)** button and select a style from the flyout.
+    -   Click on the black down arrow to the right of the **<img src="images/Std_DrawStyleAsIs.svg" width=16px> [Draw style](Std_DrawStyle.md)** button and select a style from the flyout.
     -   In the menu go to **View → Draw style** and select a style.
     -   In the [3D view](3D_view.md) context menu go to **Draw style** and select a style.
     -   Use one of the keyboard shortcut: **V** then **1**, **2**, **3**, **4**, **5**, **6** or **7**.
@@ -80,7 +80,7 @@ The **Flat lines** style overrides the **Display Mode** of objects. This style m
 
 
 
- {{Std Base navi}}
+ {{Std_Base_navi}}
 
 
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-L\'atelier <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/fr.md) est utilisé pour produire des dessins techniques de base à partir de modèles 3D créés avec un autre atelier, tels que [Part](Part_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md), ou importés à partir d\'autres applications. Chaque dessin est une page pouvant contenir diverses vues d\'objets pouvant être dessinés, telles que Part::Features, PartDesign::Bodies, App::Part groups et des groupes Object Document. Les dessins résultants peuvent être utilisés pour des éléments tels que la documentation, les instructions de fabrication, les contrats, les permis, etc.
+L\'<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [atelier TechDraw](TechDraw_Workbench/fr.md) est utilisé pour produire des dessins techniques de base à partir de modèles 3D créés avec un autre atelier, tels que [Part](Part_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md) ou [BIM](BIM_Workbench/fr.md), ou importés à partir d\'autres applications. Chaque dessin est une page pouvant contenir diverses vues d\'objets pouvant être dessinés, telles que Part::Features, PartDesign::Bodies, App::Part groups et des groupes Object Document. Les dessins résultants peuvent être utilisés pour des éléments tels que la documentation, les instructions de fabrication, les contrats, les permis, etc.
 
 Des dimensions, des sections, des zones hachurées, des annotations et des symboles [SVG](SVG/fr.md) peuvent être ajoutés à la page, qui peuvent ensuite être exportés vers différents formats tels que [DXF](DXF/fr.md), [SVG](SVG/fr.md) et [PDF](PDF/fr.md).
 
@@ -15,53 +15,82 @@ Si votre objectif principal est la production de dessins 2D complexes et de fich
 
 
 
-## Pages
+## Aimantation
 
-Ce sont les outils pour créer des objets Pages.
+
+{{Version/fr|1.0}}
+
+: l\'atelier TechDraw dispose d\'une fonction d\'aimantation. Elle peut être utilisée pour aligner automatiquement les vues, les vues de section et les cotes lorsqu\'on les positionne en les faisant glisser avec la souris. Avec l\'option **Aimanter les vues à l\'alignement** activée (par défaut) dans les [préférences](TechDraw_Preferences/fr#Aimantation.md), les vues s\'aligneront avec d\'autres vues lorsqu\'elles sont suffisamment proches (paramètre **Coefficient d\'aimantation des vues**). Les cotes sont également alignées sur d\'autres cotes parallèles et le texte de la cote peut être aligné sur le milieu de la ligne de cote. L\'aimantation peut être temporairement désactivé en maintenant la touche **Alt** enfoncée.
+
+
+
+## Outils
+
+
+
+### Pages
 
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Page par défaut](TechDraw_PageDefault/fr.md) : ajoute une nouvelle page en utilisant le [modèle](TechDraw_Templates/fr.md) par défaut.
 
 -   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Page selon un modèle](TechDraw_PageTemplate/fr.md) : ajoute une nouvelle page en utilisant un [modèle](TechDraw_Templates/fr.md) sélectionné.
 
+-   <img alt="" src=images/TechDraw_FillTemplateFields.svg  style="width:32px;"> [Mettre à jour les champs du modèle](TechDraw_FillTemplateFields/fr.md) : {{Version/fr|1.0}}
+
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Rafraîchir](TechDraw_RedrawPage/fr.md) : force la mise à jour de la page.
 
 -   <img alt="" src=images/TechDraw_PrintAll.svg  style="width:32px;"> [Tout imprimer](TechDraw_PrintAll/fr.md) : imprime toutes les pages d\'un document. {{Version/fr|0.21}}
 
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Sauvegarder au format SVG](TechDraw_ExportPageSVG/fr.md) : enregistre la page en cours sous forme de fichier [SVG](SVG/fr.md).
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Sauvegarder au format DXF](TechDraw_ExportPageDXF/fr.md) : enregistre la page en cours sous forme de fichier [DXF](DXF/fr.md).
 
 
-## Vues
 
-Ce sont les outils pour créer des objets Vues.
+### Vues
 
--   <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Vue](TechDraw_View/fr.md) : ajoute une vue en projection 2D d\'un objet.
 
--   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Vue active](TechDraw_ActiveView/fr.md) : insère une vue de la vue 3D active.
 
--   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:32px;"> [Groupe de projections](TechDraw_ProjectionGroup/fr.md) : ouvre une boîte de dialogue pour créer plusieurs vues d\'un objet depuis différentes directions.
+#### Vues de TechDraw 
 
--   <img alt="" src=images/TechDraw_SectionView.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Insérer des vues en coupes :
+-   <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Vue](TechDraw_View/fr.md) : ajoute une représentation d\'un ou plusieurs objets. {{Version/fr|1.0}} : permet de créer une vue unique, un [groupe de projection](TechDraw_ProjectionGroup/fr.md), une [vue de l\'atelier Spreadsheet](TechDraw_SpreadsheetView/fr.md), une [vue de l\'atelier Arch](TechDraw_ArchView.md), un [symbole](TechDraw_Symbol/fr.md) ou une [vue d\'une image](TechDraw_Image/fr.md).
 
-  - <img alt="" src=images/TechDraw_SectionView.svg  style="width:32px;"> [Vue en coupe](TechDraw_SectionView/fr.md) : insère une vue en coupe à partir d\'une vue existante.
+-   <img alt="" src=images/TechDraw_BrokenView.svg  style="width:32px;"> [Vue interrompue](TechDraw_BrokenView/fr.md) : ajoute une vue interrompue d\'un ou plusieurs objets. {{Version/fr|1.0}}
 
-  - <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:32px;"> [Vue en coupe complexe](TechDraw_ComplexSection/fr.md) : insère une vue en coupe d\'une vue existante en fonction d\'un profil. {{Version/fr|0.21}}
+-   <img alt="" src=images/TechDraw_SectionView.svg  style="width:32px;"> [Vue en coupe](TechDraw_SectionView/fr.md) : insère une vue en coupe à partir d\'une vue existante.
+
+-   <img alt="" src=images/TechDraw_ComplexSection.svg  style="width:32px;"> [Vue en coupe complexe](TechDraw_ComplexSection/fr.md) : insère une vue en coupe d\'une vue existante en fonction d\'un profil. {{Version/fr|0.21}}
 
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Vue détaillée](TechDraw_DetailView/fr.md) : ajoute une vue détaillée d\'une partie d\'une vue existante.
 
+-   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:32px;"> [Groupe de projections](TechDraw_ProjectionGroup/fr.md) : ouvre une boîte de dialogue pour créer plusieurs vues d\'un objet depuis différentes directions. {{Version/fr|1.0}} : l\'outil [Vue](TechDraw_View/fr.md) peut être utilisé à la place.
+
+-   <img alt="" src=images/TechDraw_ClipGroup.svg  style="width:32px;"> [Fenêtre de rognage](TechDraw_ClipGroup/fr.md) : insère une fenêtre de rognage.
+
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [Symbole](TechDraw_Symbol/fr.md) : insère un symbole [SVG](SVG/fr.md) dans une page. {{Version/fr|1.0}} : l\'outil [Vue](TechDraw_View/fr.md) peut être utilisé à la place.
+
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Image](TechDraw_Image/fr.md) : insère une image [bitmap](bitmap/fr.md) PNG ou JPG dans une page. {{Version/fr|1.0}} : l\'outil [Vue](TechDraw_View/fr.md) peut être utilisé à la place.
+
+-   <img alt="" src=images/TechDraw_ShareView.svg  style="width:32px;"> [Copier une vue](TechDraw_ShareView/fr.md) : partage une vue entre plusieurs pages.
+
+-   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Bascule des cadres](TechDraw_ToggleFrame/fr.md) : bascule l\'affichage des cadres et des étiquettes entourant une vue.
+
+-   <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:32px;"> [Projection de forme](TechDraw_ProjectShape/fr.md) : crée des projections de formes dans la [vue 3D](3D_view/fr.md).
+
+
+
+#### Vues d\'autres ateliers 
+
+-   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Vue active](TechDraw_ActiveView/fr.md) : insère une vue de la vue 3D active.
+
 -   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Vue d\'un objet Draft](TechDraw_DraftView/fr.md) : ajoute une vue d\'un objet [Draft](Draft_Workbench/fr.md).
 
--   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Vue d\'un objet Arch](TechDraw_ArchView/fr.md) : ajoute une vue d\'un objet [Arch Plan de coupe](Arch_SectionPlane/fr.md) de l\'[Atelier Arch](Arch_Workbench/fr.md).
+-   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Vue d\'un objet BIM](TechDraw_ArchView/fr.md) : ajoute une vue d\'un objet [Arch Plan de coupe](Arch_SectionPlane/fr.md) de l\'[atelier BIM](BIM_Workbench/fr.md). {{Version/fr|1.0}} : l\'outil [Vue](TechDraw_View/fr.md) peut être utilisé à la place.
 
--   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Vue d\'un objet Spreadsheet](TechDraw_SpreadsheetView/fr.md) : insère une vue d\'une feuille de calcul de l\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md).
-
--   <img alt="" src=images/TechDraw_MoveView.svg  style="width:32px;"> [Déplacer une vue](TechDraw_MoveView/fr.md) : déplace une vue et ses dépendants vers une page différente. {{Version/fr|0.20}}
-
--   <img alt="" src=images/TechDraw_ShareView.svg  style="width:32px;"> [Copier une vue](TechDraw_ShareView/fr.md) : partager une vue entre plusieurs pages. {{Version/fr|0.20}}
-
--   <img alt="" src=images/TechDraw_ProjectShape.svg  style="width:32px;"> [Projection de forme](TechDraw_ProjectShape/fr.md) : crée des projections de formes dans la [Vue 3D](3D_view/fr.md). {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Vue d\'un objet Spreadsheet](TechDraw_SpreadsheetView/fr.md) : insère une vue d\'une feuille de calcul de l\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md). {{Version/fr|1.0}} : l\'outil [Vue](TechDraw_View/fr.md) peut être utilisé à la place.
 
 
 
-## Empilement
+### Empilement
 
 Il s\'agit d\'outils permettant de modifier l\'ordre d\'empilement qui contrôle la profondeur apparente des vues sur une page.
 
@@ -77,61 +106,49 @@ Il s\'agit d\'outils permettant de modifier l\'ordre d\'empilement qui contrôle
 
 
 
-## Rognages
+### Cotes
 
-Ce sont des outils pour créer et gérer des objets de Rognages (vues découpées).
+-   <img alt="" src=images/TechDraw_Dimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Insérer une cote :
 
--   <img alt="" src=images/TechDraw_ClipGroup.svg  style="width:32px;"> [Fenêtre de rognage](TechDraw_ClipGroup/fr.md) : insère une fenêtre de rognage sur une page.
+  - <img alt="" src=images/TechDraw_Dimension.svg  style="width:32px;"> [Cote](TechDraw_Dimension/fr.md) : ajoute une cote contextuelle. {{Version/fr|1.0}}
 
--   <img alt="" src=images/TechDraw_ClipGroupAdd.svg  style="width:32px;"> [Ajout vue à une fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md) : ajoute une vue existante à une fenêtre de rognage.
+  - <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [Cote de longueur](TechDraw_LengthDimension/fr.md) : ajoute une cote de longueur.
 
--   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Suppression vue d\'une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md) : supprime une vue d\'une fenêtre de rognage.
+  - <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Cote horizontale](TechDraw_HorizontalDimension/fr.md) : ajoute une cote de longueur horizontale.
 
+  - <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Cote verticale](TechDraw_VerticalDimension/fr.md) : ajoute une cote de longueur verticale.
 
+  - <img alt="" src=images/TechDraw_RadiusDimension.svg  style="width:32px;"> [Cote de rayon](TechDraw_RadiusDimension/fr.md) : ajoute une cote de rayon à un cercle ou un arc de cercle.
 
-## Décorations
+  - <img alt="" src=images/TechDraw_DiameterDimension.svg  style="width:32px;"> [Cote de diamètre](TechDraw_DiameterDimension/fr.md) : ajoute une cote de diamètre à un cercle ou à un arc de cercle.
 
-Ce sont les outils pour décorer l\'apparence des pages et des vues.
+  - <img alt="" src=images/TechDraw_AngleDimension.svg  style="width:32px;"> [Cote angulaire](TechDraw_AngleDimension/fr.md) : ajoute une cote angulaire entre deux arêtes droites.
 
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Hachures par motif](TechDraw_Hatch/fr.md) : hachure une face en utilisant un fichier image.
+  - <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width:32px;"> [Cote angulaire par 3 points](TechDraw_3PtAngleDimension/fr.md) : ajoute une cote d\'angle à partir de trois sommets.
 
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Applique un motif de hachure](TechDraw_GeometricHatch/fr.md) : applique un motif de hachure à une face en utilisant une spécification Autodesk PAT.
+  - <img alt="" src=images/TechDraw_AreaDimension.svg  style="width:32px;"> [Cote de surface](TechDraw_AreaDimension/fr.md) : ajoute une cote de surface à une face. {{Version/fr|1.0}}
 
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [Symbole](TechDraw_Symbol/fr.md) : insère un symbole [SVG](SVG/fr.md) dans une page.
-
--   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Image Bitmap](TechDraw_Image/fr.md) : insère une image PNG ou JPG [bitmap](bitmap/fr.md) dans une page.
-
--   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Bascule des cadres](TechDraw_ToggleFrame/fr.md) : bascule l\'affichage des cadres et des étiquettes entourant une vue.
-
-
-
-## Cotes
-
-Ce sont les outils pour créer et travailler avec des objets Cote.
-
-Les cotes linéaires peuvent être basées sur deux points, sur une ligne ou sur deux lignes.
-
--   <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [Cote de longueur](TechDraw_LengthDimension/fr.md) : ajoute une cote de longueur.
-
--   <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Cote horizontale](TechDraw_HorizontalDimension/fr.md) : ajoute une cote de longueur horizontale.
-
--   <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Cote verticale](TechDraw_VerticalDimension/fr.md) : ajoute une cote de longueur verticale.
-
--   <img alt="" src=images/TechDraw_RadiusDimension.svg  style="width:32px;"> [Cote de rayon](TechDraw_RadiusDimension/fr.md) : ajoute une cote de rayon à un cercle ou un arc de cercle.
-
--   <img alt="" src=images/TechDraw_DiameterDimension.svg  style="width:32px;"> [Cote de diamètre](TechDraw_DiameterDimension/fr.md) : ajoute une cote de diamètre à un cercle ou à un arc de cercle.
-
--   <img alt="" src=images/TechDraw_AngleDimension.svg  style="width:32px;"> [Cote angulaire](TechDraw_AngleDimension/fr.md) : ajoute une cote angulaire entre deux arêtes droites.
-
--   <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width:32px;"> [Cote angulaire par 3 points](TechDraw_3PtAngleDimension/fr.md) : ajoute une cote d\'angle à partir de trois sommets.
-
--   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Insérer des cotes étendues :
+  - <img alt="" src=images/TechDraw_ExtensionCreateLengthArc.svg  style="width:32px;"> [Longueur d\'arc](TechDraw_ExtensionCreateLengthArc/fr.md) : crée une cote de longueur d\'arc.
 
   - <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Cote étendue horizontale](TechDraw_HorizontalExtentDimension/fr.md) : ajoute une cote étendue horizontale.
 
   - <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Cote étendue verticale](TechDraw_VerticalExtentDimension/fr.md) : ajoute une cote étendue verticale.
 
--   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Lier une cote](TechDraw_LinkDimension/fr.md) : lie une cote existante à la géométrie 3D.
+  - <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimension.svg  style="width:32px;"> [Cotes horizontales](TechDraw_ExtensionCreateHorizChainDimension/fr.md) : crée une séquence horizontale de cotes.
+
+  - <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimension.svg  style="width:32px;"> [Cotes verticales](TechDraw_ExtensionCreateVertChainDimension/fr.md) : crée une séquence verticale de cotes.
+
+  - <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimension.svg  style="width:32px;"> [Cotes inclinées](TechDraw_ExtensionCreateObliqueChainDimension/fr.md) : crée une séquence de cotes inclinées alignées.
+
+  - <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  style="width:32px;"> [Cotes parallèles horizontales](TechDraw_ExtensionCreateHorizCoordDimension/fr.md) : crée des cotes horizontales uniformément espacées à partir de la même ligne de base.
+
+  - <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.svg  style="width:32px;"> [Cotes parallèles verticales](TechDraw_ExtensionCreateVertCoordDimension/fr.md) : crée des cotes verticales uniformément espacées à partir de la même ligne de base.
+
+  - <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.svg  style="width:32px;"> [Cotes parallèles inclinées](TechDraw_ExtensionCreateObliqueCoordDimension/fr.md) : crée des cotes inclinées uniformément espacées à partir de la même ligne de base.
+
+  - <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width:32px;"> [Cote horizontale chanfrein](TechDraw_ExtensionCreateHorizChamferDimension/fr.md) : crée une cote horizontale et une cote d\'angle pour un chanfrein.
+
+  - <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimension.svg  style="width:32px;"> [Cote verticale chanfrein](TechDraw_ExtensionCreateVertChamferDimension/fr.md) : crée une cote verticale et une cote d\'angle pour un chanfrein.
 
 -   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Infobulle](TechDraw_Balloon/fr.md) : ajoute une \"infobulle\" dans la page.
 
@@ -141,15 +158,23 @@ Les cotes linéaires peuvent être basées sur deux points, sur une ligne ou sur
 
 -   <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:32px;"> [Réparation des cotes](TechDraw_DimensionRepair/fr.md) : permet d\'ajuster les références géométriques 2D ou 3D d\'une cote. {{Version/fr|0.21}}
 
-## Annotations
+-   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Lier une cote](TechDraw_LinkDimension/fr.md) : lie une cote existante à la géométrie 3D (obsolète).
 
-Les outils d\'annotation permettent de \"marquer\" un dessin avec des informations supplémentaires.
+
+
+### Hachures
+
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Hachures par motif](TechDraw_Hatch/fr.md) : hachure une face en utilisant un fichier image.
+
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Applique un motif de hachure](TechDraw_GeometricHatch/fr.md) : applique un motif de hachure à une face en utilisant une spécification Autodesk PAT.
+
+### Annotations
 
 -   <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Annotation](TechDraw_Annotation/fr.md) : ajoute un bloc de texte pour servir d\'annotation.
 
--   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Ligne de référence](TechDraw_LeaderLine/fr.md) : ajoute une ligne de référence à une vue.
+-   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Ligne de repère](TechDraw_LeaderLine/fr.md) : ajoute une ligne de repère à une vue.
 
--   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Annotation texte enrichi](TechDraw_RichTextAnnotation/fr.md) : ajoute un bloc d'annotation en texte enrichi à une ligne de référence ou à une vue.
+-   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Annotation texte enrichi](TechDraw_RichTextAnnotation/fr.md) : ajoute un bloc d'annotation en texte enrichi à une ligne de repère ou à une vue.
 
 -   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Ajouter des sommets cosmétiques :
 
@@ -169,155 +194,137 @@ Les outils d\'annotation permettent de \"marquer\" un dessin avec des informatio
 
 -   <img alt="" src=images/TechDraw-line2points.svg  style="width:32px;"> [Ligne cosmétique par 2 points](TechDraw_2PointCosmeticLine/fr.md) : ajoute une ligne cosmétique reliant 2 points.
 
--   <img alt="" src=images/TechDraw_CosmeticCircle.svg  style="width:32px;"> [Cercle cosmétique](TechDraw_CosmeticCircle/fr.md) : ajoute un cercle cosmétique. {{Version/fr|0.22}}
-
--   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Gomme](TechDraw_CosmeticEraser/fr.md) : supprime les objets cosmétiques d\'une page.
+-   <img alt="" src=images/TechDraw_CosmeticCircle.svg  style="width:32px;"> [Cercle cosmétique](TechDraw_CosmeticCircle/fr.md) : ajoute un cercle cosmétique. {{Version/fr|1.0}}
 
 -   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Apparence des lignes](TechDraw_DecorateLine/fr.md) : modifie l\'apparence des lignes.
 
--   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Montrer tout](TechDraw_ShowAll/fr.md) : affiche/masque les bords invisibles dans une vue.
+-   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Montrer tout](TechDraw_ShowAll/fr.md) : affiche/masque les lignes/arêtes invisibles dans une vue.
 
--   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Soudure](TechDraw_WeldSymbol/fr.md) : ajoute des spécifications de soudage à une ligne de référence existante.
+-   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Soudure](TechDraw_WeldSymbol/fr.md) : ajoute des spécifications de soudage à une ligne de repère existante.
 
--   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width:32px;"> [Symbole d\'état de surface](TechDraw_SurfaceFinishSymbol/fr.md) : ajoute un symbole de finition de surface à une page. {{Version/fr|0.21}}
+-   <img alt="" src=images/TechDraw_SurfaceFinishSymbols.svg  style="width:32px;"> [Symbole de finition de surface](TechDraw_SurfaceFinishSymbols/fr.md) : ajoute un symbole de finition de surface à une page. {{Version/fr|0.21}}
 
 -   <img alt="" src=images/TechDraw_HoleShaftFit.svg  style="width:32px;"> [Tolérance de trou/d\'arbre](TechDraw_HoleShaftFit/fr.md) : ajoute les tolérances de trous ou d\'arbres selon la norme ISO 286 à une cote. {{Version/fr|0.21}}
 
-## Extensions
-
-Ce sont des outils pour améliorer vos dessins TechDraw.
+### Extensions
 
 
 
-### Attributs et modifications 
+#### Attributs et modifications 
 
--   <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:32px;"> [Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md) : sélectionne les attributs (style, largeur et couleur) des nouvelles lignes cosmétiques et des lignes centrales, et spécifie l\'espacement en cascade et la distance delta. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:32px;"> [Choix des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md) : sélectionne les attributs (style, largeur et couleur) des nouvelles lignes cosmétiques et des lignes centrales, et spécifie l\'espacement en cascade et la distance delta.
 
--   <img alt="" src=images/TechDraw_ExtensionChangeLineAttributes.svg  style="width:32px;"> [Modification des attributs](TechDraw_ExtensionChangeLineAttributes/fr.md) : modifie les attributs (style, largeur et couleur) des lignes cosmétiques et des lignes centrales. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionChangeLineAttributes.svg  style="width:32px;"> [Modification des attributs](TechDraw_ExtensionChangeLineAttributes/fr.md) : modifie les attributs (style, largeur et couleur) des lignes cosmétiques et des lignes centrales.
 
 -   <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Modifier la longueur des lignes cosmétiques ou des lignes centrales :
 
-  - <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:32px;"> [Prolonger](TechDraw_ExtensionExtendLine/fr.md) : prolonge une ligne cosmétique ou une ligne centrale aux deux extrémités. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:32px;"> [Prolonger](TechDraw_ExtensionExtendLine/fr.md) : prolonge une ligne cosmétique ou une ligne centrale aux deux extrémités.
 
-  - <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:32px;"> [Raccourcir](TechDraw_ExtensionShortenLine/fr.md) : raccourcit une ligne cosmétique ou une ligne centrale aux deux extrémités. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:32px;"> [Raccourcir](TechDraw_ExtensionShortenLine/fr.md) : raccourcit une ligne cosmétique ou une ligne centrale aux deux extrémités.
 
--   <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width:32px;"> [Verrouiller/déverrouiller](TechDraw_ExtensionLockUnlockView/fr.md) : verrouille/déverrouille la position d\'une vue. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width:32px;"> [Verrouiller/déverrouiller](TechDraw_ExtensionLockUnlockView/fr.md) : verrouille/déverrouille la position d\'une vue.
 
--   <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width:32px;"> [Position d\'une vue en coupe](TechDraw_ExtensionPositionSectionView/fr.md) : aligne orthogonalement une vue en coupe avec sa vue source. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width:32px;"> [Positionner une vue en coupe](TechDraw_ExtensionPositionSectionView/fr.md) : aligne orthogonalement une vue en coupe avec sa vue source.
 
 -   <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Aligner des cotes :
 
-  - <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width:32px;"> [Aligner horizontalement](TechDraw_ExtensionPosHorizChainDimension/fr.md) : aligne des cotes horizontales pour créer une chaîne de cotes. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width:32px;"> [Aligner horizontalement](TechDraw_ExtensionPosHorizChainDimension/fr.md) : aligne des cotes horizontales pour créer une chaîne de cotes.
 
-  - <img alt="" src=images/TechDraw_ExtensionPosVertChainDimension.svg  style="width:32px;"> [Aligner verticalement](TechDraw_ExtensionPosVertChainDimension/fr.md) : aligne des cotes verticales pour créer une chaîne de cotes. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionPosVertChainDimension.svg  style="width:32px;"> [Aligner verticalement](TechDraw_ExtensionPosVertChainDimension/fr.md) : aligne des cotes verticales pour créer une chaîne de cotes.
 
-  - <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.svg  style="width:32px;"> [Aligner obliquement](TechDraw_ExtensionPosObliqueChainDimension/fr.md) : aligne des cotes obliques pour créer une chaîne de cotes. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.svg  style="width:32px;"> [Aligner obliquement](TechDraw_ExtensionPosObliqueChainDimension/fr.md) : aligne des cotes inclinées pour créer une chaîne de cotes.
 
 -   <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Espacements réguliers :
 
-  - <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="width:32px;"> [Cascade horizontale](TechDraw_ExtensionCascadeHorizDimension/fr.md) : espace régulièrement des cotes horizontales. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="width:32px;"> [Cascade horizontale](TechDraw_ExtensionCascadeHorizDimension/fr.md) : espace régulièrement des cotes horizontales.
 
-  - <img alt="" src=images/TechDraw_ExtensionCascadeVertDimension.svg  style="width:32px;"> [Cascade verticale](TechDraw_ExtensionCascadeVertDimension/fr.md) : espace régulièrement des cotes verticales. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionCascadeVertDimension.svg  style="width:32px;"> [Cascade verticale](TechDraw_ExtensionCascadeVertDimension/fr.md) : espace régulièrement des cotes verticales.
 
-  - <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width:32px;"> [Cascade oblique](TechDraw_ExtensionCascadeObliqueDimension/fr.md) : espace régulièrement des cotes obliques. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width:32px;"> [Cascade inclinée](TechDraw_ExtensionCascadeObliqueDimension/fr.md) : espace régulièrement des cotes inclinées.
 
--   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:32px;"> [Surface](TechDraw_ExtensionAreaAnnotation/fr.md) : calcule la surface des faces sélectionnées et insère une annotation de surface. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:32px;"> [Surface](TechDraw_ExtensionAreaAnnotation/fr.md) : calcule la surface des faces sélectionnées et insère une annotation de surface.
 
--   <img alt="" src=images/TechDraw_ExtensionArcLengthAnnotation.svg  style="width:32px;"> [Longueur d\'arc d\'arêtes](TechDraw_ExtensionArcLengthAnnotation/fr.md) : calcule la longueur d\'arc d\'arêtes sélectionnées et insère une annotation de longueur d\'arc. {{Version/fr|0.22}}
+-   <img alt="" src=images/TechDraw_ExtensionArcLengthAnnotation.svg  style="width:32px;"> [Longueur d\'arc d\'arêtes](TechDraw_ExtensionArcLengthAnnotation/fr.md) : calcule la longueur d\'arc d\'arêtes sélectionnées et insère une annotation de longueur d\'arc. {{Version/fr|1.0}}
 
--   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Personnaliser le format d\'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md) : Personnalise le formatage du texte d\'une infobulle ou du texte d\'une cote. Des [symboles GD&T](https://en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing) et d\'autres caractères spéciaux peuvent être ajoutés. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Personnaliser l\'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md) : personnalise le formatage du texte d\'une infobulle ou du texte d\'une cote. Des [symboles GD&T](https://en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing) et d\'autres caractères spéciaux peuvent être ajoutés.
 
 
 
-### Lignes centrales, filetage et taraudage 
+#### Lignes centrales, filetage et taraudage 
 
 -   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Ajouter des axes de centrage :
 
-  - <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Axes de centrage](TechDraw_ExtensionCircleCenterLines/fr.md) : ajoute des lignes de centre aux cercles et aux arcs. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Axes de centrage](TechDraw_ExtensionCircleCenterLines/fr.md) : ajoute des lignes de centre aux cercles et aux arcs.
 
-  - <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width:32px;"> [Axes de centrage de trous/vis](TechDraw_ExtensionHoleCircle/fr.md) : dessine les lignes centrales des cercles de trous/vis. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width:32px;"> [Axes de centrage de trous/vis](TechDraw_ExtensionHoleCircle/fr.md) : dessine les lignes centrales des cercles de trous/vis.
 
 -   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Ajouter des filetages/taraudages cosmétiques :
 
-  - <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Corps de taraudage](TechDraw_ExtensionThreadHoleSide/fr.md) : ajoute un symbole pour le taraudage à la vue latérale d\'un trou. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Corps de taraudage](TechDraw_ExtensionThreadHoleSide/fr.md) : ajoute un symbole pour le taraudage à la vue latérale d\'un trou.
 
-  - <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Taraudage](TechDraw_ExtensionThreadHoleBottom/fr.md) : ajoute des taraudages symboliques à la vue supérieure ou inférieure des trous. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Taraudage](TechDraw_ExtensionThreadHoleBottom/fr.md) : ajoute des taraudages symboliques à la vue supérieure ou inférieure des trous.
 
-  - <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Corps de filetage](TechDraw_ExtensionThreadBoltSide/fr.md) : ajoute un symbole pour le filetage à la vue latérale des boulons/vis/tiges. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Corps de filetage](TechDraw_ExtensionThreadBoltSide/fr.md) : ajoute un symbole pour le filetage à la vue latérale des boulons/vis/tiges.
 
-  - <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Filetage](TechDraw_ExtensionThreadBoltBottom/fr.md) : ajoute des filetages symboliques à la vue supérieure ou inférieure des boulons/vis/tiges. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Filetage](TechDraw_ExtensionThreadBoltBottom/fr.md) : ajoute des filetages symboliques à la vue supérieure ou inférieure des boulons/vis/tiges.
 
 -   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Ajoute des sommets :
 
-  - <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Intersection de lignes](TechDraw_ExtensionVertexAtIntersection/fr.md) : crée des sommets cosmétiques à l\'intersection des lignes sélectionnées. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Intersection de lignes](TechDraw_ExtensionVertexAtIntersection/fr.md) : crée des sommets cosmétiques à l\'intersection des lignes sélectionnées.
 
-  - <img alt="" src=images/TechDraw_CommandAddOffsetVertex.svg  style="width:32px;"> [Ajoute un sommet décalé](TechDraw_CommandAddOffsetVertex/fr.md) : ajoute un sommet cosmétique à un décalage spécifié par rapport à un sommet sélectionné. {{Version/fr|0.22}}
+  - <img alt="" src=images/TechDraw_CommandAddOffsetVertex.svg  style="width:32px;"> [Ajoute un sommet décalé](TechDraw_CommandAddOffsetVertex/fr.md) : ajoute un sommet cosmétique à un décalage spécifié par rapport à un sommet sélectionné. {{Version/fr|1.0}}
 
 -   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Ajouter des cercles ou des arcs cosmétiques :
 
-  - <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:32px;"> [Cercle](TechDraw_ExtensionDrawCosmCircle/fr.md) : dessine un cercle cosmétique en utilisant deux points. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:32px;"> [Cercle](TechDraw_ExtensionDrawCosmCircle/fr.md) : dessine un cercle cosmétique en utilisant deux points.
 
-  - <img alt="" src=images/TechDraw_ExtensionDrawCosmArc.svg  style="width:32px;"> [Arc](TechDraw_ExtensionDrawCosmArc/fr.md) : ajoute un arc cosmétique dans le sens inverse des aiguilles d\'une montre à partir de trois sommets. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionDrawCosmArc.svg  style="width:32px;"> [Arc](TechDraw_ExtensionDrawCosmArc/fr.md) : ajoute un arc cosmétique dans le sens inverse des aiguilles d\'une montre à partir de trois sommets.
 
-  - <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3Points.svg  style="width:32px;"> [Cercle par 3 points](TechDraw_ExtensionDrawCosmCircle3Points/fr.md) : ajoute un cercle cosmétique basé sur trois sommets. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3Points.svg  style="width:32px;"> [Cercle par 3 points](TechDraw_ExtensionDrawCosmCircle3Points/fr.md) : ajoute un cercle cosmétique basé sur trois sommets.
 
 -   <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Ajouter des lignes cosmétiques parallèles ou perpendiculaires :
 
-  - <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:32px;"> [Ligne parallèle](TechDraw_ExtensionLineParallel/fr.md) : dessine une ligne cosmétique parallèle à une autre ligne passant par un sommet. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:32px;"> [Ligne parallèle](TechDraw_ExtensionLineParallel/fr.md) : dessine une ligne cosmétique parallèle à une autre ligne passant par un sommet.
 
-  - <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:32px;"> [Ligne perpendiculaire](TechDraw_ExtensionLinePerpendicular/fr.md) : dessine une ligne cosmétique perpendiculaire à une autre ligne passant par un sommet. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:32px;"> [Ligne perpendiculaire](TechDraw_ExtensionLinePerpendicular/fr.md) : dessine une ligne cosmétique perpendiculaire à une autre ligne passant par un sommet.
 
 
 
-### Cotes 
+#### Cotes 
 
--   <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Créer des cotes en chaîne :
-
-  - <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimension.svg  style="width:32px;"> [Cotes horizontales](TechDraw_ExtensionCreateHorizChainDimension/fr.md) : crée une séquence horizontale de cotes. {{Version/fr|0.20}}
-
-  - <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimension.svg  style="width:32px;"> [Cotes verticales](TechDraw_ExtensionCreateVertChainDimension/fr.md) : crée une séquence verticale de cotes. {{Version/fr|0.20}}
-
-  - <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimension.svg  style="width:32px;"> [Cotes obliques](TechDraw_ExtensionCreateObliqueChainDimension/fr.md) : crée une séquence oblique de cotes. {{Version/fr|0.20}}
-
--   <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Créer des cotes coordonnées :
-
-  - <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  style="width:32px;"> [Cotes parallèles horizontales](TechDraw_ExtensionCreateHorizCoordDimension/fr.md) : crée des cotes horizontales uniformément espacées à partir de la même ligne de base.. {{Version/fr|0.20}}
-
-  - <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.svg  style="width:32px;"> [Cotes parallèles verticales](TechDraw_ExtensionCreateVertCoordDimension/fr.md) : crée des cotes verticales uniformément espacées à partir de la même ligne de base. {{Version/fr|0.20}}
-
-  - <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.svg  style="width:32px;"> [Cotes parallèles obliques](TechDraw_ExtensionCreateObliqueCoordDimension/fr.md) : crée des cotes obliques uniformément espacées à partir de la même ligne de base. {{Version/fr|0.20}}
-
--   <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Créer des cotes de chanfrein :
-
-  - <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width:32px;"> [Cote horizontale chanfrein](TechDraw_ExtensionCreateHorizChamferDimension/fr.md) : crée une cote horizontale et une cote d\'angle pour un chanfrein. {{Version/fr|0.20}}
-
-  - <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimension.svg  style="width:32px;"> [Cote verticale chanfrein](TechDraw_ExtensionCreateVertChamferDimension/fr.md) : crée une cote verticale et une cote d\'angle pour un chanfrein. {{Version/fr|0.20}}
-
--   <img alt="" src=images/TechDraw_ExtensionCreateLengthArc.svg  style="width:32px;"> [Longueur d\'arc](TechDraw_ExtensionCreateLengthArc/fr.md) : crée une dimension de longueur d\'arc. {{Version/fr|0.20}}
+Plusieurs des outils de cotation des extensions sont répertoriés dans la section [Cotes](#Cotes.md) ci-dessus.
 
 -   <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Insérer un préfixe :
 
-  - <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width:32px;"> [Diamètre](TechDraw_ExtensionInsertDiameter/fr.md) : insère un symbole \"⌀\" pour un diamètre au début du texte de la cote. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width:32px;"> [Diamètre](TechDraw_ExtensionInsertDiameter/fr.md) : insère un symbole \"⌀\" pour un diamètre au début du texte de la cote.
 
-  - <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width:32px;"> [Section tube](TechDraw_ExtensionInsertSquare/fr.md) : insère le symbole \"〼\" pour une section de tube carré au début du texte de la cote. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width:32px;"> [Section tube](TechDraw_ExtensionInsertSquare/fr.md) : insère un symbole \"□\" pour une section de tube carré au début du texte de la cote.
 
-  - <img alt="" src=images/TechDraw_ExtensionRemovePrefixChar.svg  style="width:32px;"> [Supprimer les symboles](TechDraw_ExtensionRemovePrefixChar/fr.md) : supprime tous les symboles au début du texte de la cote. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionInsertRepetition.svg  style="width:32px;"> [Symbole de répétition](TechDraw_ExtensionInsertRepetition/fr.md) : insère un symbole de répétition au début du texte de la cote. {{Version/fr|1.0}}
+
+  - <img alt="" src=images/TechDraw_ExtensionRemovePrefixChar.svg  style="width:32px;"> [Supprimer les symboles](TechDraw_ExtensionRemovePrefixChar/fr.md) : supprime tous les symboles devant le texte de la cote.
 
 -   <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Modifier les décimales :
 
-  - <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width:32px;"> [Plus de décimales](TechDraw_ExtensionIncreaseDecimal/fr.md) : augmente le nombre de décimales du texte de la cote. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width:32px;"> [Plus de décimales](TechDraw_ExtensionIncreaseDecimal/fr.md) : augmente le nombre de décimales du texte de la cote.
 
-  - <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Moins de décimales](TechDraw_ExtensionDecreaseDecimal/fr.md) : diminue le nombre de décimales du texte de la cote. {{Version/fr|0.20}}
+  - <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Moins de décimales](TechDraw_ExtensionDecreaseDecimal/fr.md) : diminue le nombre de décimales du texte de la cote.
 
 
 
-## Exportation
+### Divers
 
-Ce sont les outils pour exporter les pages vers d\'autre applications.
+-   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Gomme](TechDraw_CosmeticEraser/fr.md) : supprime les objets cosmétiques d\'une page.
 
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Sauvegarder au format SVG](TechDraw_ExportPageSVG/fr.md) : enregistre la page en cours sous forme de fichier [SVG](SVG/fr.md).
 
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Sauvegarder au format DXF](TechDraw_ExportPageDXF/fr.md) : enregistre la page en cours sous forme de fichier [DXF](DXF/fr.md).
+
+### Outils obsolètes 
+
+-   <img alt="" src=images/TechDraw_ClipGroupAdd.svg  style="width:32px;"> [Ajout vue à une fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md) : ajoute une vue existante à une fenêtre de rognage. Non disponible dans {{VersionPlus/fr|1.0}}.
+
+-   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Suppression vue d\'une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md) : supprime une vue d\'une fenêtre de rognage. Non disponible dans {{VersionPlus/fr|1.0}}.
+
+-   <img alt="" src=images/TechDraw_MoveView.svg  style="width:32px;"> [Déplacer une vue](TechDraw_MoveView/fr.md) : déplace une vue et ses dépendants vers une page différente. Non disponible dans {{VersionPlus/fr|1.0}}.
 
 
 

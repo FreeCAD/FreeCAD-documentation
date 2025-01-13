@@ -13,13 +13,17 @@
 ![](images/Macro_Draft_circle_tangent_example.png ) 
 *Macro Draft Circle Tangent*
 
+
+
 ## Utilisation
 
 Sélectionnez et lancez.
 
+
+
 ## Installation
 
-Par le biais du [Gestionnaire des extensions](Std_AddonMgr/fr.md).
+Par le biais du [gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 ## Version
 

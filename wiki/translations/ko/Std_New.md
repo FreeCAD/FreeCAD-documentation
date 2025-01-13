@@ -10,11 +10,18 @@
 
 # Std New/ko
 
+
+
 ## 설명
 
 **표준 새 파일(Std New)** 명령은 빈 새 문서를 만들고 활성화 시킵니다.
 
+
+
 ## 용법
+
+
+<div class="mw-translate-fuzzy">
 
 1.  이 명령을 실행하는 방법은 여러 가지입니다.
     -   
@@ -27,15 +34,40 @@
 
     -   단축키를 사용합니다: **Ctrl**+**N**.
 
+
+</div>
+
+
+
 ## 환경 설정 
 
--    **Tools → Edit parameters... → BaseApp → Preferences → Document → CreateNewDoc**를 `True`로 설정한 경우 FreeCAD를 시작할 때 새 문서가 생성됩니다. 이 설정은 [환경설정 편집기](Preferences_Editor/ko#문서.md)에서도 변경할 수 있습니다.
+See also: [Preferences Editor](Preferences_Editor.md).
 
--   작성자 이름, 회사 이름, 라이센스 정보와 같은 일부 문서 속성은 [환경설정 편집기](Preferences_Editor/ko#문서.md)에서 미리 설정할 수 있습니다.
+
+<div class="mw-translate-fuzzy">
+
+-    **Tools → Edit parameters... → BaseApp → Preferences → Document → CreateNewDoc**를 `True`로 설정한 경우 FreeCAD를 시작할 때 새 문서가 생성됩니다. 이 설정은 [환경설정 편집기에서도](Preferences_Editor/ko#문서.md) 변경할 수 있습니다.
+
+-   작성자 이름, 회사 이름, 라이센스 정보와 같은 일부 문서 속성은 [환경설정 편집기에서](Preferences_Editor/ko#문서.md) 미리 설정할 수 있습니다.
+
+
+</div>
+
+
 
 ## 속성
 
+See also: [Property editor](Property_editor.md).
+
 속성은 대부분 [표준 프로젝트 정보](Std_ProjectInfo/ko.md) 명령의 대화 상자에서도 변경할 수 있습니다.
+
+### Data
+
+
+{{TitleProperty|Base}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Comment**: 적용할 수 있는 모든 설명
 
@@ -49,7 +81,7 @@
 
 -    **Id**: 미구현.
 
--    **Label**: [트리 보기](Tree_view/ko.md)에 표시될 이름. 기본적으로는 문서 이름.
+-    **Label**: [트리 보기에](Tree_view/ko.md) 표시될 이름. 기본적으로는 문서 이름.
 
 -    **Last Modified By**: 최종 수정자 이름. **미리 설정 가능**.
 
@@ -59,7 +91,7 @@
 
 -    **License URL**: 라이센스 URL. **미리 설정 가능**.
 
--    **Show Hidden**: {{true}}면 [트리 보기](Tree_view/ko.md)에서 숨긴 항목도 표시됨. 트리에서 항목을 숨기는 기능은 큰 모델 작업을 할 때 유용합니다.
+-    **Show Hidden**: {{true}}면 [트리 보기에서](Tree_view/ko.md) 숨긴 항목도 표시됨. 트리에서 항목을 숨기는 기능은 큰 모델 작업을 할 때 유용합니다.
 
 -    **Tip**: 미구현.
 
@@ -67,12 +99,23 @@
 
 -    **Transient Dir**: 복구 데이터를 위한 임시 디렉토리. **편집 불가능**.
 
+
+</div>
+
+
+
 ## 스크립트
+
+
+<div class="mw-translate-fuzzy">
 
 
 **참조:**
 
 [FreeCAD 스크립트 기초](FreeCAD_Scripting_Basics/ko.md).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -109,7 +152,7 @@ FreeCAD.closeDocument(doc.Name)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

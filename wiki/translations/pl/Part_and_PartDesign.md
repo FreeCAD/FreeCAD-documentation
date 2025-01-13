@@ -39,7 +39,7 @@ Zatem **aby mieć kompletną bryłę**, z jednej strony cecha Czubka musi być o
 
 Umożliwi to, w przypadku modyfikacji, **posiadanie zawsze reprezentowanej ostatniej wersji bryły**.
 
-**Uwagi i uzupełnienia :** W każdym momencie konstrukcji, ostatnią używaną funkcją jest \"Czubek\", którą można zdefiniować również jako \"aktywny etap w konstrukcji obiektu\" lub \"etap poprzedzający następną czynność w konstrukcji obiektu\". Kiedy rysunek obiektu jest kompletny, Czubek jest naturalnie ostatnim etapem lub cechą konstrukcji. Ale jeśli jest to pożądane, w przypadku zapomnienia, dowolna cecha konstrukcji może być tymczasowo zadeklarowana jako Czubek: staje się ona wtedy etapem poprzedzającym następne działanie w konstrukcji obiektu, co oznacza, że nowa cecha (nowe cechy) może być wstawiona w dowolnym miejscu konstrukcji, **pod warunkiem, że nie tworzy żadnej niezgodnej z zestawem**.
+**Uwagi i uzupełnienia :** W każdym momencie konstrukcji, ostatnią używaną funkcją jest \"Czubek\", który można zdefiniować również jako \"aktywny etap w konstrukcji obiektu\" lub \"etap poprzedzający następną czynność w konstrukcji obiektu\". Kiedy rysunek obiektu jest kompletny, Czubek jest naturalnie ostatnim etapem lub cechą konstrukcji. Ale jeśli jest to pożądane, w przypadku zapomnienia, dowolna cecha konstrukcji może być tymczasowo zadeklarowana jako Czubek: staje się ona wtedy etapem poprzedzającym następne działanie w konstrukcji obiektu, co oznacza, że nowa cecha (nowe cechy) może być wstawiona w dowolnym miejscu konstrukcji, **pod warunkiem, że nie tworzy żadnej niezgodności z zestawem**.
 
 Kiedy wszystko jest skończone, musisz ponownie zadeklarować ostatnią cechę jako Czubek, która odpowiada gotowemu obiektowi.
 

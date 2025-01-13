@@ -35,7 +35,6 @@ The **TechDraw CosmeticVertex** tool adds a [vertex](Glossary#V.md), which is no
 ## Notes
 
 -   You cannot change the position of an existing cosmetic vertex. At the moment there is no other way than to delete it and create a new one.
--   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
 
 
 

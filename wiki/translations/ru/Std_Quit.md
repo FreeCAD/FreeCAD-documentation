@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Описание
 
 The **Std Quit** command closes the FreeCAD application and optionally saves unsaved documents.
+
+
 
 ## Применение
 
@@ -26,20 +30,24 @@ The **Std Quit** command closes the FreeCAD application and optionally saves uns
     -   Нажмите кнопку **Сохранить**, чтобы сохранить активный документ. При необходимости сначала введите имя файла.
     -   Нажмите кнопку **Закрыть без сохранения**, чтобы сбросить активный документ и потерять все изменения.
 
+
+
 ## Опции
 
--   If there are multiple unsaved documents: check the {{CheckBox|TRUE|Apply answer to all}} checkbox to avoid being prompted for each unsaved document separately.
+-   If there are multiple unsaved documents: check the **Apply answer to all** checkbox to avoid being prompted for each unsaved document separately.
 -   If there are unsaved documents: press **Esc** or the **Cancel** button to abort the command.
 
-## Настройки
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
-
+<div class="mw-translate-fuzzy">
 
 
 
 
-{{Std Base navi
+
+</div>
+
+
+{{Std_Base_navi
 
 }}
 

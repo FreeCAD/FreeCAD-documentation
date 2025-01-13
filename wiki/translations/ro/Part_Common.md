@@ -36,6 +36,8 @@ Funcția **![](images/)_[Intersection](Part_Common/fr.md)**, extrage partea com
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Intrări suportate 
@@ -50,6 +52,14 @@ Elementele de intrare trebuie să fie forme OpenCascade. Exemple: chestii realiz
 
 
 </div>
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

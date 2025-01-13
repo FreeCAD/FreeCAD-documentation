@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft AddNamedGroup
-   Name: Draft BenannteGruppeHinzufügen
-   MenuLocation: Utilities , Neue benannte Gruppe hizufügen
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/de: Draft BenannteGruppeHinzufügen
+   MenuLocation: Dienstprogramme , Neue benannte Gruppe hizufügen
+   Workbenches: Draft_Workbench/de
    Shortcut: 
    Version: 0.20
    SeeAlso: Std_Group/de, Draft_AddToGroup/de, Draft_AutoGroup/de
@@ -15,25 +15,25 @@
 
 ## Beschreibung
 
-The <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;"> **Draft AddNamedGroup** command creates a named [Std Group](Std_Group.md) and moves selected objects to that group.
+Der Befehl <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;"> **Neue benannte Gruppe hinzufügen** erstellt eine benannte [Standardgruppe](Std_Group/de.md) und verschiebt ausgewählte Objekte in diese Gruppe.
 
 
 
 ## Anwendung
 
-1.  Optionally select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_AddNamedGroup.svg" width=16px> [Add a new named group](Draft_AddNamedGroup.md)** button.
-    -   Select the **Utilities → <img src="images/Draft_AddNamedGroup.svg" width=16px> Add a new named group** option from the menu.
-3.  The **Add group** task panel opens.
-4.  Enter a **Group name**.
-5.  Press the **OK** button.
+1.  Optional ein oder mehrere Objekte auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_AddNamedGroup.svg" width=16px> [Neue benannte Gruppe hinzufügen](Draft_AddNamedGroup/de.md)** drücken.
+    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_AddNamedGroup.svg" width=16px> Neue benannte Gruppe hinzufügen** auswählen oder die Menüoption aus dem Kontextmenü der Baumansicht oder der 3D-Ansicht.
+3.  Das Aufgabenfeld **Gruppe hinzufügen** wird geöffnet.
+4.  Einen **Gruppennamen** eingeben.
+5.  Die Schaltfläche **OK** drücken.
 
 
 
 ## Hinweise
 
--   For more information about organizing your model see [Document structure](Document_structure.md) and [Arch tutorial](Arch_tutorial#Organizing_your_model.md).
+-   Mehr Informationen über das Organisieren deines Modells findest du in [Documentstruktur](Document_structure/de.md) und [Arch Tutorium](Arch_tutorial/de#Organizing_your_model.md).
 
 
 

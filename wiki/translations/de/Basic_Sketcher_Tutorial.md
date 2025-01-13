@@ -32,7 +32,7 @@ Der Leser wird üben:
 -   Anwenden von Bezugspunktbeschränkungen
 -   Erhalten eines geschlossenen Profils
 
-Für eine genauere Beschreibung des Skizzierers, lese die [Skizzierer Referenz](Sketcher_reference/de.md).
+Für eine genauere Beschreibung des Sketchers, lies das [Sketcher-Referenzhandbuch](Sketcher_Lecture/de.md).
 
 ![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
 *Endergebnis der Skizze, wobei die gesamte Geometrie vollständig beschränkt ist, einschließlich der Konstruktionsgeometrie zur Unterstützung.*
@@ -322,7 +322,7 @@ Wir sollten am Ende eine völlig beschränkte Skizze erhalten. Dies kann bestät
 
 ## Zusätzliche Informationen 
 
-Für eine eingehendere Beschreibung des Skizzierers besuche die [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) Dokumentation und lies auch die [Skizzierer Referenz](Sketcher_reference/de.md).
+Für eine eingehendere Beschreibung des Skizzierers besuche die [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) Dokumentation und lies auch das [Sketcher-Referenzhandbuch](Sketcher_Lecture/de.md).
 
 Die Beschränkung einer Skizze kann auf viele verschiedene Arten erfolgen. Im Allgemeinen empfiehlt es sich, zuerst geometrische Beschränkungen zu verwenden und die Anzahl der Bezugsbeschränkungen zu minimieren, da dies die Aufgabe des internen Beschränkungslösers vereinfacht. Um dies zu untersuchen, wiederhole dieses Beispiel und füge nun die Abhängigkeiten in anderer Reihenfolge hinzu.
 

@@ -35,7 +35,7 @@ Per utilizzare ShapeString all\'interno di <img alt="" src=images/Workbench_Part
 Per disegnare una linea ausiliaria viene utilizzato l\'ambiente [Sketcher](Sketcher_Workbench/it.md). Maggiori informazioni sugli strumenti di questo workbench sono disponibili in
 
 -   [Tutorial base di Sketcher](Basic_Sketcher_Tutorial/it.md)
--   [Manuale di riferimento per Sketcher](Sketcher_reference/it.md)
+-   [Manuale di riferimento per Sketcher](Sketcher_Lecture/it.md)
 
 
 
@@ -85,7 +85,7 @@ Per disegnare una linea ausiliaria viene utilizzato l\'ambiente [Sketcher](Sketc
 :   5.4. Impostare **Z** in `0 mm`.
 :   5.5. Oppure cliccare **Reimposta punto**.
 :   5.6. Scrivere in **Stringa** `FreeCAD`; cambiare **Altezza** in `5 mm`.
-:   5.7. Assicurarsi che **Font file** punti ad un carattere valido, ad esempio `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf`. Premere i puntini di sospensione **...** per aprire la finestra di dialogo del sistema operativo e trovare un font di carattere.
+:   5.7. Assicurarsi che **Font file** punti ad un font valido (ad es. `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf` o `C:/Windows/Fonts/arial.ttf`). Premere i puntini di sospensione **...** per aprire la finestra di dialogo del sistema operativo e trovare un font.
 
     :   
         **Nota:**

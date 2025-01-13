@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Arc 3Points
    Name/fr: Draft Arc par 3 points
-   MenuLocation: Draft , Outils Arc , Arc par 3 points
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Formes , Outils pour les arcs , Arc par 3 points<br><br>BIM : Formes 2D , Arc par 3 points
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **A** **T**
    Version: 0.19
    SeeAlso: Draft_Arc/fr, Draft_Circle/fr
@@ -13,7 +13,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> **Draft Arc par 3 points** crée un arc de cercle dans le [plan de travail](Draft_SelectPlane/fr.md) en cours à partir de trois points qui définissent sa circonférence. Le centre et le rayon sont calculés à partir de ces points.
+La commande <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> **Draft Arc par 3 points** crée un arc de cercle sur le [plan de travail](Draft_SelectPlane/fr.md) en cours à partir de trois points qui définissent sa circonférence. Le centre et le rayon sont calculés à partir de ces points.
 
 Un Draft Arc est en fait un [Draft Cercle](Draft_Circle/fr.md) dont **First Angle** n\'est pas identique à **Last Angle**.
 
@@ -28,23 +28,24 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyer sur le **<img src="images/Draft_Arc_3Points.svg" width=16px> [Arc par 3 points](Draft_Arc_3Points/fr.md)**.
-    -   Sélectionner l\'option **Draft → Outils arc → <img src="images/Draft_Arc_3Points.svg" width=16px> Arc par 3 points** du menu.
-    -   Utiliser le raccourci clavier : **A** puis **T**. {{Version/fr|0.20}}
+    -   [Draft](Draft_Workbench/fr.md) : sélectionner l\'option **Formes → Outils pour les arcs → <img src="images/Draft_Arc_3Points.svg" width=16px> Arc par 3 points** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionner l\'option **Formes 2D → <img src="images/Draft_Arc_3Points.svg" width=16px> Arc par 3 points** du menu.
+    -   Utiliser le raccourci clavier : **A** puis **T**.
 2.  Le panneau de tâches **Arc par 3 points** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-4.  Choisir le deuxième point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-5.  Choisir le troisième point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
+4.  Choisir le deuxième point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
+5.  Choisir le troisième point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut (pour la version 1.0).
 
--   Pour saisir manuellement des coordonnées, entrez la composante X, Y et Z, et appuyer sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez la composante X, Y et Z, et appuyer sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyer sur **R** ou cliquer sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
--   Appuyer sur **G** ou cliquer sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyer sur **N** ou cliquer sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des arcs. {{Version/fr|0.20}}
+-   Appuyer sur **G** ou cliquer sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md).
+-   Appuyer sur **N** ou cliquer sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des arcs.
 -   Appuyer sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Appuyer sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
+-   Appuyer sur **Échap** ou sur le bouton **Fermer** pour abandonner la commande.
 
 
 

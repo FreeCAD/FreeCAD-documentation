@@ -3,7 +3,7 @@
    Name: Draft Label
    Name/pl: Rysunek Roboczy: Etykieta
    MenuLocation: Adnotacja , Etykieta
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **D** **L**
    Version: 0.17
    SeeAlso: Draft_Text/pl, Draft_ShapeString/pl
@@ -49,7 +49,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź element X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie wskaźnika poza okno [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
 -   Wciśnij **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne są względne do ostatniego punktu, jeśli jest dostępny, w przeciwnym razie są one względne do początku układu współrzędnych.
--   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij **S**, aby włączyć lub wyłączyć [Przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij **Esc** lub przycisk **Zamknij**, aby przerwać polecenie.
 
@@ -65,17 +65,17 @@ Dostępne są następujące typy etykiet:
 
 -    {{Value|Etykieta}}: wyświetla etykietę obiektu docelowego. Etykieta obiektu może zostać zmieniona przez użytkownika.
 
--    {{Value|Pozycja}}: wyświetla współrzędne punktu bazowego docelowego obiektu, docelowego wierzchołka lub środka masy docelowego elementu podrzędnego, jeśli ma to zastosowanie.
+-    {{Value|Pozycja}}: wyświetla współrzędne punktu bazowego obiektu docelowego lub wierzchołka docelowego.
 
--    {{Value|Długość}}: wyświetla długość docelowego obiektu lub elementu podrzędnego, jeśli dotyczy.
+-    {{Value|Długość}}: wyświetla długość docelowego obiektu lub elementu podrzędnego.
 
--    {{Value|Powierzchnia}}: wyświetla obszar docelowego obiektu lub elementu podrzędnego, jeśli ma to zastosowanie.
+-    {{Value|Powierzchnia}}: wyświetla obszar docelowego obiektu lub elementu podrzędnego.
 
--    {{Value|Objętość}}: wyświetla objętość obiektu docelowego, jeśli dotyczy.
+-    {{Value|Objętość}}: wyświetla objętość obiektu docelowego.
 
--    {{Value|Znacznik}}: wyświetla atrybut `Znacznik` obiektu docelowego, jeśli dotyczy. Obiekty utworzone za pomocą środowiska pracy [Architektura](Arch_Workbench/pl.md) mogą mieć ten atrybut.
+-    {{Value|Znacznik}}: wyświetla atrybut `Znacznik` obiektu docelowego. Obiekty utworzone za pomocą środowiska pracy [BIM](BIM_Workbench/pl.md) mogą mieć ten atrybut.
 
--    {{Value|Materiał}}: wyświetla etykietę materiału obiektu docelowego, jeśli dotyczy.
+-    {{Value|Materiał}}: wyświetla etykietę materiału obiektu docelowego.
 
 -    {{Value|Etykieta + pozycja}},
 
@@ -160,9 +160,9 @@ Etykieta środowispa pracy Rysunek Roboczy wywodzi się z obiektu [App: FeatureP
 
 -    **Linia|Bool**: określa, czy ma być wyświetlana linia prowadząca. Jeśli ma wartość {{FALSE/pl}}, wyświetlane są tylko strzałka i tekst.
 
--    **Kolor linii|Color**: określa kolor linii prowadzącej i strzałki. Jest on również używany dla ramki ({{Version/pl|0.20}}).
+-    **Kolor linii|Color**: określa kolor linii prowadzącej i strzałki. Jest on również używany dla ramki.
 
--    **Szerokość linii|Float**: określa szerokość linii odniesienia. Jest używana także dla ramki ({{Version/pl|0.20}}).
+-    **Szerokość linii|Float**: określa szerokość linii odniesienia. Jest używana także dla ramki.
 
 
 {{TitleProperty|Tekst}}
@@ -215,20 +215,20 @@ p1 = App.Vector(-200, 1000, 0)
 place1 = App.Placement(App.Vector(-1000, 1300, 0), App.Rotation())
 
 label1 = Draft.make_label(p1, place1, target_object=rectangle, distance=500, label_type="Label")
-label1.ViewObject.TextSize = 200
+label1.ViewObject.FontSize= 200
 
 p2 = App.Vector(-200, 0, 0)
 place2 = App.Placement(App.Vector(-1000, -300, 0), App.Rotation())
 
 label2 = Draft.make_label(p2, place2, target_object=rectangle, distance=500, label_type="Custom",
                           custom_text="Beware of the sharp edges")
-label2.ViewObject.TextSize = 200
+label2.ViewObject.FontSize= 200
 
 p3 = App.Vector(1000, 1200, 0)
 place3 = App.Placement(App.Vector(2000, 1800, 0), App.Rotation())
 
 label3 = Draft.make_label(p3, place3, target_object=rectangle, distance=-500, label_type="Area")
-label3.ViewObject.TextSize = 200
+label3.ViewObject.FontSize= 200
 
 doc.recompute()
 ```

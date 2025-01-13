@@ -3,7 +3,7 @@
    Name: Part CrossSections
    Name/fr: Part Coupes
    Icon: Part_CrossSections.svg
-   MenuLocation: Part , Coupes...
+   MenuLocation: Part , Créer des coupes...
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Section/fr
 ---
@@ -19,11 +19,11 @@ L\'utilitaire **Coupes** crée une ou plusieurs coupes transversales à travers 
 ## Utilisation
 
 1.  Sélectionnez une forme.
-2.  Cliquez sur le bouton **[24px|link=Part_CrossSections/fr](File:Part_CrossSections.svg.md) '''Coupes...'''**.
+2.  Cliquez sur le bouton **[24px|link=Part_CrossSections/fr](File:Part_CrossSections.svg.md) '''Créer des coupes...'''**.
 3.  Définissez le plan guide.
-4.  Définissez la position (hauteur de la section transversale).
+4.  Définissez la position (hauteur de la coupe transversale).
 5.  Vous pouvez cocher **Sections** pour créer plus d\'une section transversale :
-    -   Cochez *Des deux côtés* pour répartir les sections transversales de chaque côté de l\'emplacement du plan de guidage.
+    -   Cochez *Des deux côtés* pour répartir les sections transversales de chaque côté de l\'emplacement du plan guide.
     -   Définissez le nombre.
 6.  Cliquez sur **OK**.
 
@@ -44,6 +44,14 @@ L\'utilitaire **Coupes** crée une ou plusieurs coupes transversales à travers 
 ![Fenêtre de dialogue](images/SectionCross2.png )
 
 ![Résultat](images/SectionCross3.png )
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

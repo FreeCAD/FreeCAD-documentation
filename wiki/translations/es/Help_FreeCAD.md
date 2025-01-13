@@ -49,7 +49,7 @@ For details on translation, see [Localisation](Localisation.md).
 
 ## Traduce la documentación 
 
-Traducir esta wiki es sencillo, simplemente necesitas añadir una página con el código del idioma (/languagecode) para crear la traducción. Por ejemplo, para traducir la página [Part_Workbench](Part_Workbench.md) (su url termina con index.php?title=Part_Module) al francés, simplemente tendrías que añadir /fr a la url, lo cual creará una página [Part_Workbench/fr](Part_Workbench/fr.md).
+Traducir esta wiki es sencillo, simplemente necesitas añadir una página con el código del idioma (/languagecode) para crear la traducción.
 
 For details on translation, see [Localisation#Translating the wiki](Localisation#Translating_the_wiki.md).
 

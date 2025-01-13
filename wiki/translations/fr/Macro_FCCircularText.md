@@ -4,9 +4,9 @@
 |Icon=FCCircularTextButtom.png
 |Description=Cette macro utilise l'outil [Draft Forme à partir d'un texte](Draft_ShapeString/fr.md) pour créer une ligne de texte placée dans différentes orientations circulaires, y compris circonférentielle et hélicoïdale (à la manière d'une colonne Trajane). Elle peut également être utilisée pour créer un cadran d'horloge avec des chiffres arabes ''1, 2, 3'' etc., ou des chiffres romains ''I, II, III'', etc.
 |Author=Mario52
-|Version=0.22c
-|Date=2023/11/17
-|FCVersion=0.19
+|Version=0.22e
+|Date=2024/07/11
+|FCVersion=0.19 et au-dessus
 |Download=[https://www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png Icône de la barre d'outils]
 }}
 
@@ -15,7 +15,7 @@
 Cette macro utilise l\'outil <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft Formes à partir texte](Draft_ShapeString/fr.md) pour créer une ligne de texte placée dans différentes orientations circulaires, notamment circonférentielle et hélicoïdale comme par ex la [colonne Trajane](https://fr.wikipedia.org/wiki/Colonne_Trajane). Elle peut également être utilisée pour créer un cadran d\'horloge avec des chiffres arabes *1, 2, 3\...* ou des chiffres romains *I, II, III\...*. Cette dernière utilisation a été inspirée par le fil du Forum [Macro pour créer un cadran d\'horloge](http://forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock) par un membre de la communauté FreeCAD, cblt2l.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/7ab8a1e9dd7f924a62ecef83ec1d2ad8723e37d6/Macro_FCCircularText.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/b80bc84eb1f39084a20564cf02c48764906fd6b8/Macro_FCCircularText.FCMacro}}
 
 
 :   <img alt="Orientation à 360 degrés" src=images/FCCircularText_01.png  style="width:400px;">
@@ -390,13 +390,13 @@ le dernier bouton radio utilisé est enregistré dans le paramètre de FreeCAD
 
 ![](images/FCCircularText_13.png ) 
 
--    **Exit**: Quitte la macro.
+-    **Exit**: quitte la macro.
 
--    **Reset**: Reset toutes les valeurs, et affiche le nombre de caractères du texte entré dans la fenêtre de texte est affiché à côté du titre.
+-    **Reset**: réinitialise toutes les valeurs et affiche le nombre de caractères affichés dans la fenêtre.
 
--    **Run Comp**: Lance la macro et crée un compount de tous les caractères et le place sur la racine de l\'arbre dans la Vue combinéé.
+-    **Run Comp**: lance la macro et crée un objet composé de tous les caractères.
 
--    **Run**: Lance la macro.
+-    **Run**: lance la macro.
 
 
 
@@ -517,11 +517,11 @@ L\'icône pour votre barre à outils:
 
 **Macro_Circular_Text.FCMacro**
 
-ou téléchargez le script:
+ou bien téléchargez le script :
 
-Téléchargez le script sur github [Macro_FCCircularText.FCMacro](https://gist.github.com/mario52a/a25e802498bae6959335) ver 0.21 2022/05/31
+\- sur github [Macro_FCCircularText.FCMacro](https://gist.github.com/mario52a/a25e802498bae6959335)
 
-ou sur le forum [Extrude from curved surface of cylinder](http://forum.freecadweb.org/viewtopic.php?f=3&t=7384&p=87642#p87642)
+\- sur le forum [Extrude from curved surface of cylinder](http://forum.freecadweb.org/viewtopic.php?f=3&t=7384&p=87642#p87642)
 
 
 
@@ -747,6 +747,10 @@ En projet:
 
 
 ## Journal des modifications 
+
+-   ver 0.22e 2024/07/11 : supprime **\"ss.support = None\"**
+
+-   ver 0.22d 2024/07/11 : supprime l\'erreur de cause **\"import WebGui\"** dans FC 0.22xxx et est remplacé par **\"import webbrowser\"**
 
 -   ver 0.22c 2023/11/17 : adding restore selection after delete the last object , by TheMarkster , thanks
 

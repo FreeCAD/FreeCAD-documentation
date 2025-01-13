@@ -9,6 +9,8 @@
 
 # FEM EquationMagnetodynamic
 
+## Description
+
 This equation perform analyses using the [Maxwell\'s equations](https://en.wikipedia.org/wiki/Maxwell%27s_equations).
 
 For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Computation of Magnetic Fields in 3D*.

@@ -11,20 +11,33 @@
 
 ## Description
 
-L\'outil Point crée un point dans l\'esquisse en cours, qui peut être utilisé pour construire des éléments de géométrie.
+L\'outil <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:24px;"> [Sketcher Point](Sketcher_CreatePoint/fr.md) crée un point.
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
+
 
 ## Utilisation
 
--   Cliquez sur le bouton **<img src="images/Sketcher_CreatePoint.svg" width=24px> Créer un point** pour activer la fonction.
--   Cliquez dans l\'esquisse pour créer un point.
--   Pressez sur la touche **Echap** ou sur le bouton droit de la souris pour quitter la fonction.
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
 
-## Options
+Pos-OVP = [Paramètres d\'affichage](Sketcher_Preferences/fr#Général.md) de position. {{Version/fr|1.0}}
 
--   Par défaut, les points sont créés en tant que géométrie de construction et ne sont donc pas visibles en dehors du mode d\'édition Sketch. Utilisez l\'outil <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:16px;"> [Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md) pour les transformer en géométrie normale.
--   Un mode d\'accrochage à la grille peut être défini dans le menu [Sketcher Préférences](Sketcher_Preferences/fr.md). Le point s\'accroche alors à la grille, s\'il a moins de 25% de distance à une ligne de la grille. Le mode d\'accrochage ne fixe pas le point sur la grille. Il possède toujours deux degrés de liberté et peut être déplacé avec la souris ou contraint à d\'autres emplacements.
+1.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_CreatePoint.svg" width=16px> [Créer un point](Sketcher_CreatePoint/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Géométries d'esquisse → <img src="images/Sketcher_CreatePoint.svg" width=16px> Créer un point** du menu.
+    -   Cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **<img src="images/Sketcher_CreatePoint.svg" width=16px> Créer un point** du menu contextuel.
+    -   Utilisez le raccourci clavier : **G** puis **Y**.
+2.  Le curseur se transforme en croix avec l\'icône de l\'outil.
+3.  Choisissez un point, ou avec Pos-OVP : entrez sa coordonnée X et/ou Y.
+4.  Le point est créé et les contraintes applicables basées sur Pos-OVP sont ajoutées.
+5.  Si l\'outil fonctionne en [mode continu](Sketcher_Workbench/fr#Modes_continus.md) :
+    1.  Vous pouvez continuer à créer des points.
+    2.  Pour terminer, cliquez avec le bouton droit de la souris ou appuyez sur **Échap**, ou démarrez un autre outil de création de géométrie ou de contrainte.
+
+
+
+## Remarques
+
+-    {{VersionMinus/fr|0.21}}: les points sont toujours créés en tant que géométrie de construction. Il est possible de les transformer en géométrie normale avec [Sketcher Géométrie de construction](Sketcher_ToggleConstruction/fr.md) pour les rendre visibles en dehors du mode d\'édition de l\'esquisse.
 
 
 

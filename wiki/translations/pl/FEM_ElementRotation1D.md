@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ElementRotation1D
    Name/pl: MES: Obrót belki
    MenuLocation: Model , Geometria elementu , Obrót belki
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_tutorial/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: CalculiX
+}}
 ---
 
 # FEM ElementRotation1D/pl
@@ -26,11 +31,12 @@
 
 
 
-## Opcje
-
-
-
 ## Właściwości
+
+
+**Rotation**
+
+: określa kąt obrotu.
 
 
 
@@ -43,6 +49,7 @@
 ## Uwagi
 
 -   Aby zwizualizować obrócony przekrój, należy ustawić `Beam Shell Result Output 3D` w [solverze CalculiX](FEM_SolverCalculixCxxtools/pl.md) na wartość {{True/pl}} i uruchomić analizę.
+-   To narzędzie korzysta ze [słowa kluczowego \*BEAM SECTION w CalculiX](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node162.html).
 
 
 

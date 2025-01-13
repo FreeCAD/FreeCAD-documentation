@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft OrthoArray
-   Name/it: Serie ortogonale
-   MenuLocation: Modifiche , Strumenti serie , Serie ortogonale
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Serie ortogonale
+   MenuLocation: Modifiche , Strumenti serie , Serie ortogonale<br>Modifica , Serie ortogonale
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Version: 0.19
    SeeAlso: Draft_PolarArray/it, Draft_CircularArray/it, Draft_PathArray/it, Draft_PathLinkArray/it, Draft_PointArray/it, Draft_PointLinkArray/it
 ---
@@ -16,7 +16,7 @@
 
 Il comando <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Serie ortogonale** crea una serie (array) ortogonale (3 assi) da un oggetto selezionato. Il comando può facoltativamente creare una Serie di [Link](App_Link/it.md), che è più efficiente di una normale Serie.
 
-Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [Arch](Arch_Workbench/it.md).
+Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [BIM](BIM_Workbench/it.md).
 
 <img alt="" src=images/Draft_Array_example.png  style="width:300px;"> 
 *Serie ortogonale*
@@ -28,8 +28,9 @@ Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workben
 1.  Facoltativamente selezionare un oggetto.
 2.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_OrthoArray.svg" width=16px> [Serie ortogonale](Draft_OrthoArray/it.md)**.
-    -   Selezionare l\'opzione **Modifiche → Strumenti serie → <img src="images/Draft_OrthoArray.svg" width=16px> Serie ortogonale** dal menu.
-3.  Si apre il pannello attività **Serie ortogonale**. Vedi [Opzioni](#Opzioni.md) per maggiori informazioni.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Modifiche → Strumenti serie → <img src="images/Draft_OrthoArray.svg" width=16px> Serie ortogonale** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_OrthoArray.svg" width=16px> Serie ortogonale** dal menu.
+3.  Si apre il pannello attività **Serie ortogonale**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
 4.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto.
 5.  Immettere i parametri richiesti nel pannello delle attività.
 6.  Per completare il comando, eseguire una delle seguenti operazioni:
@@ -126,7 +127,7 @@ Le proprietà in questo gruppo sono nascoste per le serie ortogonali e le serie 
 
 -    **Base|Link**: specifica l\'oggetto da duplicare nella serie.
 
--    **Count|Integer**: (read-only) specifica il numero totale di elementi nella serie. {{VersionMinus/it|0.20}}: disponibile solo per le serie di link.
+-    **Count|Integer**: (read-only) specifica il numero totale di elementi nella serie.
 
 -    **Expand Array|Bool**: specifica se espandere la serie nella [Vista ad albero](Tree_view/it.md) per abilitare la selezione dei suoi singoli elementi. Disponibile solo per le serie di link.
 

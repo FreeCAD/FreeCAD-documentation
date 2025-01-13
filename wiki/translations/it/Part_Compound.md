@@ -1,56 +1,43 @@
-# Part Compound/it
 ---
- GuiCommand:   Name: Part Compound‏‎   Name/it: Crea un composto‏‎   MenuLocation: Parte , Crea un composto   Workbenches: Part Workbench/it   Part, Part CompoundFilter/it, Part ExplodeCompound/it---
+ GuiCommand:
+   Name: Part Compound‏‎
+   Name/it: Part crea un composto
+‏‎   MenuLocation: Parte , Crea un composto
+   Workbenches: Part Workbench/it
+   Version: 0.14
+   SeeAlso: Part_Fuse/it, Part CompoundFilter/it, Part ExplodeCompound/it
+---
+
+# Part Compound/it
 
 
-</div>
 
-## Description
+## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-## Introduzione
-
-Questo comando crea un composto di qualsiasi tipo di forme topologiche. Questi possono essere solidi o mesh o qualsiasi altro tipo di forme topologiche.
+Questo comando crea un composto di oggetti con forma topologica come oggetti solidi e altri oggetti con facce e/o bordi. Non può gestire le mesh poiché non hanno una forma topologica.
 
 
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
-Selezionare le forme topologiche da aggiungere al composto nella vista ad albero e poi usare il comando **Parte → Composto → Crea composto**
+1.  Contrassegnare le forme topologiche da aggiungere al composto nella [vista ad albero](Tree_view/it.md)
+2.  Scegliere la voce **Parte → Composto → Crea composto** nel menu Parte o fare clic sul pulsante <img alt="" src=images/Part_Compound.svg  style="width:24px;">.
 
 
-</div>
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
 
 ## Note
 
-Un composto che contiene pezzi che si intersecano o si toccano **non è valido** per le operazioni booleane. A causa dei problemi di prestazioni per la Parte composta il controllo automatico sull\'intersezione delle parti non viene eseguito di default. Anche il controllo automatico delle geometrie disponibile per le operazioni booleane nel caso di parti composte non viene eseguito.
+Un composto contenente pezzi che si intersecano o si toccano non è **valido** per le operazioni booleane. A causa di problemi di prestazioni, il controllo se i pezzi si intersecano non viene eseguito per impostazione predefinita. Il controllo automatico della geometria (disponibile per le operazioni booleane) è disabilitato anche per il composto di parti.
 
-
-</div>
-
-Per attivare questo controllo, andare in **Strumenti → Modifica parametri → Preferenze ... → Mod → Parte → CheckGeometry → RunBOPCheck** e impostare il parametro su `true`.
-
-
-<div class="mw-translate-fuzzy">
+Per attivare questo controllo andare su **Strumenti → Modifica parametri → Preferences... → Mod → Part → CheckGeometry → RunBOPCheck** e impostare il parametro su `true`.
 
 
 
 
 
-</div>
+{{Part_Tools_navi
+
+}}
 
 
 

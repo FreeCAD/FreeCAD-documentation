@@ -27,7 +27,7 @@ The **Std FreeCADForum** command opens the FreeCAD forum website in the system\'
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

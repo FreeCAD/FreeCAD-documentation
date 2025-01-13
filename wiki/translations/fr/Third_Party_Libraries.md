@@ -1,5 +1,5 @@
 # Third Party Libraries/fr
-## Vue d\'ensemble 
+## Présentation
 
 Ce sont des bibliothèques que FreeCAD utilise comme dépendances tierces lors de la compilation. Ils sont généralement [bibliothèques liées dynamiquement](https://en.wikipedia.org/wiki/Dynamic_loading) et ont une extension `.so` sous Linux/MacOS et `.dll` sous Windows, et sont accompagnés de leurs fichiers d'en-tête `.h` ou `.hpp` ou similaire. Si une bibliothèque modifiée est nécessaire, ou si une classe wrapper est nécessaire, le code de la bibliothèque modifiée, ou du wrapper, doit faire partie du code source de FreeCAD et être compilé avec ce dernier.
 
@@ -79,10 +79,10 @@ Si voulez compiler en utilisant Windows, pensez à utiliser le [LibPack](#LibPac
 Python est un langage de script polyvalent populaire largement utilisé sous Linux et dans les logiciels open source. Dans FreeCAD, Python est utilisé de différentes manières lors de la compilation et lors de l\'exécution. C\'est utilisé
 
 -   écrire des scripts de test pour tester différentes conditions, telles que des fuites de mémoire, afin de garantir la fonctionnalité du logiciel après les modifications, pour les vérifications après la construction et les tests de couverture,
--   pour écrire [macros](macros/fr.md) et l\'enregistrement de macros,
+-   pour écrire des [macros](Macros/fr.md) et l\'enregistrement de macros,
 -   implémenter la logique d\'application pour les packages standard,
--   pour implémenter des outils auxiliaires tels que le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md),
--   mettre en place des ateliers complets comme [Draft](Draft_Workbench/fr.md) et [Arch](Arch_Workbench/fr.md),
+-   pour implémenter des outils auxiliaires tels que le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md),
+-   mettre en place des ateliers complets comme [Draft](Draft_Workbench/fr.md) et [BIM](BIM_Workbench/fr.md),
 -   charger dynamiquement des paquets,
 -   mettre en place des règles de conception (des connaissances en ingénierie),
 -   faire des interactions Internet fantaisistes comme des groupes de travail et PDM
@@ -141,7 +141,9 @@ Qt est l\'une des boîtes à outils d\'interface graphique (GUI) les plus popula
 
 Vous trouverez de plus amples informations sur la librairie Qt et une très bonne documentation en ligne sur la documentation [Qt](https://doc.qt.io/?hsCtaTracking=f641fd1a-772b-4957-964b-dad954b8d702%7C46c97dac-f1f6-49b3-ae46-8070fc35ea13).
 
-#### Shiboken2 and Pyside2 
+
+
+#### Shiboken2 et Pyside2 
 
 Shiboken est le générateur de liaison Python utilisé par Qt pour créer le module PySide pour être utilisé par Python. En d\'autres termes, c\'est le système utilisé pour exposer l\'API Qt C++ au langage Python.
 
@@ -191,7 +193,7 @@ Quarter est une nouvelle liaison Coin3D à la boîte à outils Qt. Une version d
 
 **License :** BSD 3-clause license
 
-[Pivy](Pivy/fr.md) est une bibliothèque qui enveloppe la bibliothèque Coin3d pour une utilisation dans [Python](Python/fr.md). Il n\'est pas nécessaire de construire FreeCAD ou de le démarrer, mais il est nécessaire en tant que dépendance d\'exécution par [Draft Workbench](Draft_Workbench/fr.md), et par d\'autres établis qui l\'utilisent en interne, comme [Arch](Arch_Workbench/fr.md) et [BIM](BIM_Workbench/fr.md).
+[Pivy](Pivy/fr.md) est une bibliothèque qui enveloppe la bibliothèque Coin3d pour une utilisation dans [Python](Python/fr.md). Il n\'est pas nécessaire de construire FreeCAD ou de le démarrer, mais il est nécessaire en tant que dépendance d\'exécution par l\'[atelier Draft](Draft_Workbench/fr.md) et par d\'autres ateliers qui l\'utilisent en interne, comme [BIM](BIM_Workbench/fr.md).
 
 Si vous n\'utilisez pas ces établis, vous n\'aurez pas besoin de Pivy.
 
@@ -259,7 +261,7 @@ Une copie de cette bibliothèque est incluse dans le code source de FreeCAD, ell
 
 Libarea est une bibliothèque de logiciels permettant de calculer les opérations de profil et de poche utilisées dans les logiciels de fabrication assistée par ordinateur (FAO). Il a été créé par Dan Heeks pour son projet HeeksCNC.
 
-Une copie de la bibliothèque est incluse avec le code source de l\'atelier [Path](Path_Workbench/fr.md). Elle est donc compilée avec celle-ci.
+Une copie de la bibliothèque est incluse avec le code source de l\'[atelier CAM](CAM_Workbench/fr.md). Elle est donc compilée avec celle-ci.
 
 ## LibPack
 

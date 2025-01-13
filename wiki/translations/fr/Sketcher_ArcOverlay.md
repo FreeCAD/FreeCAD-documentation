@@ -4,7 +4,7 @@
    Name/fr: Sketcher Cercle auxiliaire
    MenuLocation: Esquisse , Affichage , Afficher/masquer le cercle auxiliaire pour les arcs
    Workbenches: Sketcher_Workbench/fr
-   Version: 0.22
+   Version: 1.0
 ---
 
 # Sketcher ArcOverlay/fr
@@ -17,14 +17,14 @@ L\'outil <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:24px;"> L\
 
 
 
-*À gauche : contrainte de tangence sans connexion visible.<br>À droite : Contrainte de tangente connectée à l'aide circulaire*
+*À gauche : contrainte de tangence sans connexion visible.<br>À droite : contrainte de tangence connectée à l'aide circulaire*
 
 
 
 ## Utilisation
 
-1.  Il y a plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Sketcher_ArcOverlay.svg" width=16px> [Afficher/masquer le cercle auxiliaire pour les arcs](Sketcher_ArcOverlay.md)**.
+1.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_ArcOverlay.svg" width=16px> [Afficher/masquer le cercle auxiliaire pour les arcs](Sketcher_ArcOverlay/fr.md)**.
     -   Sélectionnez l\'option **Esquisse → Affichage → <img src="images/Sketcher_ArcOverlay.svg" width=16px> Afficher/masquer le cercle auxiliaire pour les arcs** du menu.
 
 

@@ -1,7 +1,7 @@
 # Topological data scripting/it
 {{docnav/it
 |[Script di Part](Part_scripting/it.md)
-|[Script di oggetti](Scripted_objects/it.md)
+|[Oggetti creati da script](Scripted_objects/it.md)
 }}
 
 
@@ -1158,7 +1158,7 @@ Per convertire un file STEP in un file IGS fare:
 
 {{docnav/it
 |[Script di Part](Part_scripting/it.md)
-|[Script di oggetti](Scripted_objects/it.md)
+|[Oggetti creati da script](Scripted_objects/it.md)
 }}
 
 

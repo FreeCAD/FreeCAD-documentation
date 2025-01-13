@@ -1,9 +1,21 @@
 # Manual:Preparing models for 3D printing/ro
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 Una dintre principalele utilizări ale FreeCAD este de a produce obiecte în lumea reală. Acestea pot fi proiectate în FreeCAD și apoi materializat în diferite moduri, cum ar fi cele comunicarea altor persoane care le vor construi sau, tot mai des, trimise direct la o [3D printer](https://en.wikipedia.org/wiki/3D_printing) sau la o [CNC mill](https://en.wikipedia.org/wiki/Milling_%28machining%29). Capitolul său vă va arăta cum să vă pregătiți modelele pentru a le trimite la aceste mașini-unelte.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Dacă ați fost prudenți în timpul modelării, cea mai mare parte a dificultăților întâmpinate la imprimarea modelului dvs. în 3D a fost deja evitată. Aceasta implică în principiu:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -15,19 +27,47 @@ Dacă ați fost prudenți în timpul modelării, cea mai mare parte a dificultă
 
 </div>
 
-Mai jos, vom presupune că sunt îndeplinite primele două criterii și că până acum puteți produce obiecte solide cu dimensiuni corecte. Vom vedea acum cum să abordăm al treilea punct.
+-   **Confirming the Accuracy of Dimensions**: Precision is critical---what you design in FreeCAD will translate directly to real-world measurements. A millimeter in FreeCAD is a millimeter in the physical object, so each dimension must be carefully considered and verified to ensure accuracy.
+
+-   **Managing Degradation**: It\'s important to remember that no 3D printer or CNC mill can directly process FreeCAD files. These machines use G-Code, a machine language with various dialects depending on the machine or vendor. The process of converting your model into G-Code can often be done automatically through slicer software, but you also have the option to do it manually for greater control. However, during this conversion, some loss of detail or quality is inevitable, particularly when converting the model to a mesh format for printing. You must ensure that this degradation remains within acceptable limits and doesn't affect the functionality or appearance of your final object.
+
+-   **Export Format Compatibility**: For 3D printing, STL is the most commonly used format, but it inherently converts your model into a mesh of triangles, which can result in some loss of detail. It's essential to choose the right resolution when exporting to STL, balancing between detail retention and file size. Similarly, for CNC machining, formats like STEP or IGES are preferable as they maintain the original geometric integrity of the design better than STL. Choosing the right format ensures that the conversion to G-Code remains accurate.
+
+-   **Mesh Analysis and Calibration**: Before exporting your model to a slicer or CNC toolpath generator, it's advisable to run a mesh analysis using FreeCAD's [Mesh Workbench](Mesh_Workbench.md) to detect irregularities, non-manifold edges, or other mesh issues that might complicate the manufacturing process. Additionally, even with a perfect model, make sure your 3D printer or CNC machine is properly calibrated (e.g., for bed leveling, stepper motor settings, or extruder configuration) to avoid quality problems in the final product.
+
+In the following sections, we\'ll assume that you\'ve already taken care of creating solid models with the correct dimensions. Our focus will now shift to managing the conversion process to G-Code, ensuring that your model maintains the necessary quality for 3D printing or CNC machining. By addressing these considerations, you\'ll be better equipped to produce successful physical objects directly from your FreeCAD models.
 
 
 
 ### Exportarea feliilor 
 
+
+<div class="mw-translate-fuzzy">
+
 Aceasta este metoda cea mai frecvent utilizată pentru tipărirea 3D. Obiectul 3D este exportat către un alt program (dispozitivul de feliere), care va genera codul G de la obiect, prin împărțirea acestuia în straturi subțiri (de aici numele), care vor reproduce mișcările pe care le va face imprimanta 3D. Deoarece multe dintre aceste imprimante sunt construite acasă, există adesea diferențe mici de la una la alta. Aceste programe oferă de obicei posibilități avansate de configurare care vă permit să adaptați ieșirea exact pentru caracteristicile imprimantei 3D.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 De fapt Imprimarea 3D este, totuși, un subiect prea vast pentru acest manual. Dar vom vedea cum să exportați și să utilizați acești sliceri pentru a verifica dacă output-ul este corectă.
 
+
+</div>
+
+Slicers often include additional insights, such as estimating print time, material usage, and cost based on the filament or resin being used. This allows you to make informed decisions about the printing process and tweak settings for efficiency or material conservation. Although the deeper intricacies of 3D printing---such as machine calibration, material selection, and post-processing---are beyond the scope of this guide, we will focus on how to properly export your FreeCAD model and use slicer software to ensure the output is correct and optimized for your specific printer
+
  Conversia obiectelor în ochiuri de plase
 
+
+<div class="mw-translate-fuzzy">
+
 Niciunul dintre sliceri nu va prelua, în acest moment, o geometrie solidă pe măsură ce o producem în FreeCAD. Așa că va trebui să convertim pentru început orice obiect pe care dorim să-l tipărim 3 D într-o plasă [mesh](https://en.wikipedia.org/wiki/Polygon_mesh), pe care se poate deschide feliatorul. Din fericire, transformarea unei rețele într-un solid nu este o operație complicată, dimpotrivă, transformarea unui solid într-o rețea, este foarte simplă. Tot ce trebuie, este să fim atenți, pentru că se va produce degradarea menționată mai sus. Trebuie să verificăm dacă degradarea rămâne în limite acceptabile.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -50,7 +90,22 @@ Toate manipulările cu plase, în FreeCAD, sunt realizate de un alt atelier de l
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_meshing_01.jpg )
+
+
+</div>
+
+-   Let\'s convert the Lego piece we created in the last chapter into an STL mesh. The geometry can be downloaded at the end of said chapter.
+-   Open the FreeCAD file containing the Lego piece.
+-   Switch to the [Mesh Workbench](Mesh_Workbench.md)
+-   Select the Lego brick
+-   Select menu **Meshes → Create Mesh from Shape**
+-   A task panel will open with several options. Some additional meshing algorithms (Mefisto or Netgen) might not be available, depending on how your version of FreeCAD was compiled. The Standard meshing algorithm will always be present. It offers fewer possibilities than the two others, but is totally sufficient for small objects that fit into the maximum print size of a 3D printer.
+
+![](images/FreeCAD_MeshLego.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -75,66 +130,75 @@ Toate manipulările cu plase, în FreeCAD, sunt realizate de un alt atelier de l
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Dacă nu dețineți o imprimantă, este de obicei foarte ușor să găsiți servicii comerciale care vă vor tipări și trimite prin poștă. Printre cele celebre sunt [Shapeways](http://www.shapeways.com/) și [Sculpteo](http://www.sculpteo.com/), dar veți găsi, de obicei, alții în orașul dvs. În toate orașele mari, veți găsi astăzi [Fab labs](https://en.wikipedia.org/wiki/Fab_lab), care sunt ateliere echipate cu o gamă de mașini de producție 3D, aproape întotdeauna au cel puțin o imprimantă 3D. Laboratoarele Fab sunt, de obicei, spații comunitare, care vor fi utilizate pentru mașinile lor, contra cost sau gratuit, în funcție de laboratorul Fab, dar vă vor învăța cum să utilizați și să promovați alte activități în jurul producției 3D.
 
 
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ### Utilizare Slic3r 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 [Slic3r](http://slic3r.org/) este o aplicație care convertește obiectele STL în cod G care poate fi trimise direct la imprimante 3D. Ca și FreeCAD, acesta este gratuit, open source și rulează pe Windows, Mac OS și Linux. Configurarea corectă a lucrurilor pentru imprimarea 3D este un proces complicat, în care trebuie să aveți o bună cunoaștere a imprimantei dvs. 3D, deci nu este foarte util să generați codul G înainte de a merge la printat (codul dvs G ar putea să nu meargă pe o altă imprimantă), dar este oricum util pentru a verifica dacă fișierul nostru va fi printabil fără probleme.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Acesta este fișierul nostru exportat STL deschis în Slic3r. Prin utilizarea funcției **preview** tab, și deplasând cursorul din dreapta, putem vizualiza calea pe care urmează să o urmeze imprimanta 3D.
+
+
+</div>
+
+This is our exported STL file opened in PrusaSlicer. By just pressing on the **slice** button, the software divides your model into layers, generates the toolpaths for the 3D printer, and applies the necessary speed and temperature settings. It calculates the infill, support structures, and perimeters, then creates the G-code, which contains detailed instructions for the printer. You can preview the sliced model layer by layer, check estimated print time and filament usage, and finally save or send the G-code to your printer for the actual printing process.
+
+
+<div class="mw-translate-fuzzy">
 
 ![](images/Exercise_meshing_03.jpg )
 
 
+</div>
 
 
 <div class="mw-translate-fuzzy">
-
-### Utilizarea addon Cura 
-
-Atenție: addon Cura nu este deocamdată funcțional pentru FreeCAD 0.17!
-
-
-</div>
 
 [Cura](https://ultimaker.com/en/products/cura-software) este o altă aplicație gratuită și open source pentru Windows, Mac și Linux [Ultimaker](https://ultimaker.com). Unii utilizatori FreeCAD au creat un plugin [Cura Workbench](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin) care utilizează Cura intern. Atelierul Curaeste disponibil de la depozitul [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons) . Pentru a utiliza Cura Workbench, trebuie să instalați și Cura, care nu este inclusă în atelierul de lucru.
 
-Odată ce ați instalat atât Cura, cât și atelierul Cura, le veți putea utiliza pentru a produce fișierul cu cod G direct de la obiecte Part, fără a fi nevoie să le convertiți în ochiuri de plasă și fără a fi nevoie să deschideți o aplicație externă. Producerea altui fișier G-cod din caramida Lego, folosind de data aceasta Atelierul Cura Workbench , se derulează după cum urmează:
-
-
-<div class="mw-translate-fuzzy">
-
--   Încărcați fișierul care conține caramida Lego (poate fi descărcat de la sfârșitul capitolului precedent)
--   Mergeți în atelierul [Cura Workbench](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)
--   Configurați spațiul de lucru al imprimantei și selectați meniul **3D printing -\> Create a 3D printer definition**. Din moment ce nu vom imprima in mod real, vom folosi parametrii asa cum sunt. Geometria spațiului de imprimare și spațiul disponibil vor fi afișate în vizualizarea 3D.
--   Deplasați caramida Lego într-o locație potrivită, cum ar fi centrul patului de imprimare. Rețineți că obiectele PartDesign nu pot fi mutate direct, deci trebuie să mutați prima schiță (primul dreptunghi) sau să mutați (și imprimați) o copie, care poate fi făcută cu instrumentul [Part -\> Create Simple Copy](Part_SimpleCopy.md). copia poate fi mutată, de exemplu cu <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Draft -\> Move](Draft_Move.md).
--   Selectați obiectul de printat, și selectați meniul **3D printing -\> Slice with Cura Engine**.
--   În panoul de activități care se va deschide, asigurați-vă că calea către executabilul Cura este definită corect. Din moment ce nu vom imprima cu adevărat, putem lăsa toate celelalte opțiuni așa cum sunt.Apăsați **Ok**. Două fișiere for fi generate în același director ca fișierul dvs FreeCAD, un fișier STL și un fișier G-code.
-
 
 </div>
 
-![](images/Exercise_meshing_05.jpg )
-
--   Codul G generat poate fi, de asemenea, reimportat în FreeCAD (utilizând postprocesorul slic3r ) pentru verificare.
+### Generating G-code 
 
 
 <div class="mw-translate-fuzzy">
-
-### Generarea codulului G-code 
-
- Atenție:Această secțiune a fost făcută pentru FreeCAD 0.16. Au fost făcute schimbări semnificative în crearea căii. Consultați documentația [Path workbench](Path_Workbench.md) in general sau tutorialul ca [path walk-through](Path_Walkthrough_for_the_Impatient.md)!
-
-
-</div>
 
 FreeCAD oferă, de asemenea, metode avansate de generare directă a codului G. Acest lucru este mult mai complicat decât utilizarea instrumentelor automate. Acest lucru nu este de obicei necesar atunci când se utilizează imprimante 3D, dar devine foarte important atunci când se lucrează cu frezarea CNC, deoarece mașinile-unelte sunt mult mai complexe.
 
-Generarea de cale G-code în FreeCAD se face cu [Path Workbench](Path_Workbench.md). Dispune de instrumente care generează traiectorii complete de mașină și altele care pot fi doar părți dintr-un proiect G-code, care poate fi apoi asamblat pentru a forma o întreagă operație de frezare.
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Generarea traiectoriilor de frezare CNC este un alt subiect care este mult prea vast pentru a fi tratat în acest manual, așa că vom arăta cum să construim un proiect cu Traiectorie simplă, fără a avea grijă de multe detalii ale prelucrării CNC reale.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -147,7 +211,19 @@ Generarea traiectoriilor de frezare CNC este un alt subiect care este mult prea 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_path_01.jpg )
+
+
+</div>
+
+-   Load the file containing our Lego piece, and switch to the <img alt="" src=images/Workbench_CAM.svg  style="width:16px;"> [CAM Workbench](CAM_Workbench.md).
+-   Press on the <img alt="" src=images/CAM_Job.svg  style="width:16px;"> [Job](CAM_Job.md) button and select our lego piece.
+-   Since this section doesn't aim to provide an in-depth tutorial of the CAM Workbench, we will be using the default values. If you would like a more detailed tutorial, please refer to [CAM walk-through](CAM_Walkthrough_for_the_Impatient.md). Keep in mind that in the CAM Workbench, a stock body is automatically created around your object, representing the raw material that will be machined. Right now, this stock body extends 1 mm in all directions from the object.
+
+![](images/FreeCAD_CAM1.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -158,7 +234,15 @@ Generarea traiectoriilor de frezare CNC este un alt subiect care este mult prea 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_path_02.jpg )
+
+
+</div>
+
+![](images/FreeCAD_CAMtree.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -168,18 +252,6 @@ Generarea traiectoriilor de frezare CNC este un alt subiect care este mult prea 
 
 
 </div>
-
-![](images/Exercise_path_03.jpg )
-
-
-<div class="mw-translate-fuzzy">
-
--   Încă o dată faceți o matrice. Selectați obiectul FacePocket, și apăsați butonul <img alt="" src=images/Path_Array.png  style="width:16px;"> [Array](Path_Array.md). reglați numărul *Copies**la 1 și**offset*\' la -2mm in direcția Z . Deplasați poziționarea matricei cu 2 mm în direcția Z. Cele două operațiuni se fac acum:
-
-
-</div>
-
-![](images/Exercise_path_04.jpg )
 
 
 <div class="mw-translate-fuzzy">
@@ -192,15 +264,47 @@ Generarea traiectoriilor de frezare CNC este un alt subiect care este mult prea 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Există numeroase aplicații disponibile pentru a simula uzinarea reală, una dintre acestea este de asemenea open source și multiplatformă, ca și FreeCAD, [Camotics](http://camotics.org/).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 **Fişiere de descărcat**
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   Fișierul STL generează în acest exercițiu: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/lego.stl>
 -   fișierul generat pe durata acestui exercițiu: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/path.FCStd>
 -   Fișierul G-code generat în acest exercițiu: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/lego.gcode>
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 **De citit în plus**
+
+
+</div>
+
+**Downloads**
+
+-   The STL file generated in this exercise: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/lego.stl>
+-   The file generated during this exercise: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/path.FCStd>
+-   The G-code file generated in this exercise: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/lego.gcode>
+
+**Read more**
 
 
 <div class="mw-translate-fuzzy">
@@ -223,4 +327,4 @@ Există numeroase aplicații disponibile pentru a simula uzinarea reală, una di
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Category_Path.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/ro
+⏵ [documentation index](../README.md) > [CAM](Category_CAM.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/ro

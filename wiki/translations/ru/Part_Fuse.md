@@ -9,11 +9,15 @@
 
 # Part Fuse/ru
 
+
+
 ## Описание
 
 The **![](images/)_[Part_Fuse](Part_Fuse.md)** tool fuses (unites) selected Part objects into one. This operation is fully parametric and the components can be modified and the result recomputed.
 
 **Примечание:** Эта команда - автоматизированная форма <img alt="" src=images/Part_Booleans.svg  style="width:24px;"> [Булевой операции](Part_Boolean/ru.md).
+
+
 
 ## Применение
 
@@ -38,7 +42,13 @@ Compounds are supported; however, it is assumed that shapes packed into a compou
 
 Items can be added and removed from a fusion, by dragging them in or out of the fusion feature in the tree view with the mouse. To drag items out of a fusion you have to drop them onto the document node (the filename) of your model. A manual recompute (press **F5** key or click on the <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Refresh/Recompute](Std_Refresh.md) icon) is required to see the results.
 
-После завершения этой операции может оказаться полезным уточнить форму с помощью команды <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Уточнить форму](Part_RefineShape/ru.md).
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

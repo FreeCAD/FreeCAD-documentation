@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign Boolean
    Name/fr: PartDesign Opérations booléennes
-   MenuLocation: Part Design , Opération booléenne
+   MenuLocation: PartDesign , Opération booléenne...
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
 ---

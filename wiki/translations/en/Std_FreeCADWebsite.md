@@ -22,7 +22,7 @@ Currently the command points to [<https://www.freecad.org>](https://www.freecad.
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

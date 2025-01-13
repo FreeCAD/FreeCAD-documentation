@@ -1,5 +1,5 @@
 # Category:Draft/de
-
+Diese Kategorie ist eine Zusammenstellung von Seiten, die zum Arbeitsbereich [Draft](Draft_Workbench.md) gehören.
 
 ### Contents
 

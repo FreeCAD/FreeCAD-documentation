@@ -1,7 +1,5 @@
 # Gui Command/it
-<div class="mw-translate-fuzzy">
-
-I comandi dell\'interfaccia grafica dell\'utente (GuiCommand) sono una delle funzioni più importanti di FreeCAD e sono il punto principale di interazione dell\'utente. Ogni volta che l\'utente seleziona una voce del menu o preme un pulsante si attiva un comando Gui. Alcuni degli attributi di un comando grafico sono:
+I comandi dell\'interfaccia grafica utente (GuiCommand) sono una delle funzioni più importanti di FreeCAD in quanto principale metodo di interazione dell\'utente. Ogni volta che l\'utente seleziona una voce di menu o preme un pulsante della barra degli strumenti, attiva un GuiCommand. Alcuni degli attributi della GuiCommand sonoː
 
 -   Definisce un nome
 -   Contiene una icona
@@ -12,54 +10,24 @@ I comandi dell\'interfaccia grafica dell\'utente (GuiCommand) sono una delle fun
 -   etc\...
 
 
-</div>
 
-## Naming
+## Nome del comando 
 
-
-<div class="mw-translate-fuzzy">
-
-### Nome del comando 
-
-Il Comando Gui è denominato nel modo: *ModuleName_CommandName*. Ad esempio, \"Base_Open\" nell\'interfaccia grafica è il comando *Open* nel sistema *Base*. I comandi della Gui specifici di un modulo sono denominati con il nome del modulo come prefissso. Ad esempio: \"Part_Cylinder\".
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Il GuiCommand è denominato in modo standard: *ModuleName_CommandName* ad esempio, \"[Base_Open](Base_Open.md)\" questo è il comando Open Gui nel sistema Base. Il GuiCommand in un determinato modulo è denominato con il nome del modulo in primo piano, ad esempio \"[Part_Cylinder](Part_Cylinder/it.md)\".
 
 Se la sua documentazione non è completa usare la maschera [Template:UnfinishedDocu](Template_UnfinishedDocu.md) (en) - [Documentazione incompleta](Template:UnfinishedDocu/it.md) (it).
 
 
-</div>
 
-## Help page 
+## Pagina di aiuto 
 
+Ogni GuiCommand deve avere una pagina di aiuto. La pagina di aiuto è ospitata sul wiki della documentazione di FreeCAD. L\'articolo ha lo stesso nome del GuiCommand, es. [Draft ShapeString](Draft_ShapeString.md).
 
-<div class="mw-translate-fuzzy">
-
-### Pagina di aiuto 
-
-Ogni GuiCommand deve avere una pagina di aiuto. La pagina di aiuto è ospitata sul wiki della documentazione di FreeCAD. L\'articolo ha lo stesso nome del GuiCommand. Per esempio [Draft ShapeString](Draft_ShapeString.md) (in inglese) - [Draft ShapeString](Draft_ShapeString/it.md) (in it).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Per creare le proprie pagine di aiuto si può utilizzare il modello: [GuiCommand model](GuiCommand_model.md) (en) - [Modello di comando Gui](GuiCommand_model/it.md) (it)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Per creare le proprie pagine di aiuto si può utilizzare il modello [GuiCommand model](GuiCommand_model.md) (en) - [Modello di comando Gui](GuiCommand_model/it.md) (it)
 
 Esempi in italiano:
 
--   [Draft ShapeString](Draft_ShapeString/it.md)
+-   [Draft Forma da testo](Draft_ShapeString/it.md)
 -   [Draft Linea](Draft_Line/it.md)
 
 Esempi in inglese:
@@ -68,43 +36,18 @@ Esempi in inglese:
 -   [Draft Line](Draft_Line.md)
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-### Icone
+## Icone
 
 <img alt="" src=images/Tango-Palette.png  style="width:400px;">
 
+Ogni comando dell\'interfaccia grafica deve avere un\'icona. Utilizziamo il [Set di icone Tango](http://tango-project.org/Tango_Desktop_Project/) e le sue linee guida. Sul lato destro si vede la tavolozza dei colori Tango.
 
-</div>
-
-<img alt="" src=images/Tango-Palette.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-Ogni comando dell\'interfaccia grafica deve avere un\'icona. Utilizziamo il [Set di icone Tango](http://tango.freedesktop.org/Tango_Desktop_Project) e le sue linee guida. Sul lato destro si vede la tavolozza dei colori Tango.
+Tutte le icone devono essere create in formato [SVG](SVG/it.md) con un\'applicazione per immagini vettoriali, come [Inkscape](http://inkscape.org). Ciò semplifica l\'applicazione delle modifiche e la derivazione di icone aggiuntive nello stesso spazio dell\'applicazione.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-Produrre preferiblemente tutte le icone in formato Grafico Vettoriale Scalabile (SVG) per esempio con [Inkscape](http://inkscape.org). Questo rende più facile applicare le modifiche e ricavare ulteriori icone nell\'ambito della stessa applicazione.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-**tabella del codice colore delle icone**
-
-
-</div>
+### Tabella di codifica colori delle icone 
 
 <img alt="" src=images/Colorchart.png  style="width:200px;">
 

@@ -10,15 +10,33 @@
 
 {{Manual:TOC}}
 
-Главная сложность новых пользователей FreeCAD - узнать, в каком верстаке найти нужный инструмент. Расположенная ниже таблица даст Вам обзор наиболее важных верстаков и их инструментов. Более полный список [верстаков](Workbenches/ru.md) смотрите в документации FreeCAD.
+As previously mentioned, FreeCAD offers various workbenches, each dedicated to different applications. Although the multitude of options might seem overwhelming at first, each workbench is designed to cater to specific tasks, making the overall workflow more efficient and tailored to various project requirements. For instance, the Part Design workbench is ideal for creating and modifying solid 3D models, while the Draft workbench is perfect for 2D drafting and drawing. This modular approach allows users to customize their interface and toolset according to their specific needs and preferences.
+
+On this page, you will find information regarding the basic set of workbenches and their functionalities. For additional information, feel free to refer to each [workbench](Workbenches.md) page in the FreeCAD documentation for a more complete list.
+
+An interesting feature of FreeCAD is the ability to obtain additional information by hovering the mouse over a command. This tooltip functionality helps users understand what each command does, providing guidance and making it easier to learn and navigate the software.
+
+![](images/FreeCAD_022_ObjectDesc.png )
+
+
+<div class="mw-translate-fuzzy">
 
 Четыре верстака так же разработаны для работы в парах, и один из них полностью включён в другой: верстак Arch содержит все инструменты Draft, а PartDesign - все инструменты Sketcher. Тем не менее, они разделены ниже для ясности.
+
+
+</div>
 
 
 
 ### Верстак Part 
 
+
+<div class="mw-translate-fuzzy">
+
 Верстак Part предоставляет базовые инструменты для работы с твердотельными частями: примитивами, такими как кубы или сферы, и простыми геометрическими и булевыми операциями. Будучи основной точкой привязки к [OpenCasCade](https://ru.wikipedia.org/wiki/Open_Cascade_Technology), верстак Part обеспечивает основу геометрической системы FreeCAD, и почти все другие верстаки производят геометрию, базируемую на Part.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -44,9 +62,43 @@
 
 
 
+### Верстак PartDesign 
+
+
+<div class="mw-translate-fuzzy">
+
+Верстак Part Design содержит инструменты для построения твердотельных частей. Он так же содержит все инструменты по работе с эскизами. Поскольку он может создавать только твёрдые тела (правило номер один Part Design), это главный верстак для использования частей для производства или трёхмерной печати, поскольку Вы всегда получите пригодный к печати объект.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+  Инструмент                                                                                                                              Описание                                                                     Инструмент                                                                                                                                 Описание
+     
+  <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Pad](PartDesign_Pad/ru.md)                                            Выдавливает твердотельный объект из выбранного эскиза                        <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [Pocket](PartDesign_Pocket/ru.md)                                   Создаёт выемку из выбранного эскиза. Эскиз должен быть привязан к грани существующего объекта
+  <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Revolution](PartDesign_Revolution/ru.md)                Создаёт твёрдое тело вращением эскиза вокруг оси                             <img alt="" src=images/PartDesign_Groove.svg  style="width:32px;"> [Groove](PartDesign_Groove/ru.md)                                   Создаёт канавку вращением эскиза вокруг оси
+  <img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [Fillet](PartDesign_Fillet/ru.md)                                Скругляет переход между гранями объекта                                      <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [Chamfer](PartDesign_Chamfer/ru.md)                               Создаёт фаску на рёбрах объекта
+  <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [Draft](PartDesign_Draft/ru.md)                                    Применяет угловую вытяжку на грани объекта                                   <img alt="" src=images/PartDesign_Mirrored.svg  style="width:32px;"> [Mirrored](PartDesign_Mirrored/ru.md)                           Отражает элементы на плоскость или грань
+  <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [Linear pattern](PartDesign_LinearPattern/ru.md)   Создаёт линейный массив элементов                                            <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:32px;"> [Polar pattern](PartDesign_PolarPattern/ru.md)          Создаёт круговой массив элементов
+  <img alt="" src=images/PartDesign_Scaled.png  style="width:32px;"> [Scaled](PartDesign_Scaled/ru.md)                                Масштабирует элемент к другому размеру                                       <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Multitransform](PartDesign_MultiTransform/ru.md)   Позволяет создание элемента с любой комбинацией трансформаций
+  <img alt="" src=images/PartDesign_WizardShaft.png  style="width:32px;"> [Shaft wizard](PartDesign_WizardShaft/ru.md)           Формирует вал из таблицы значений и позволяет анализировать силы и моменты   <img alt="" src=images/PartDesign_InvoluteGear.png  style="width:32px;"> [Involute gear wizard](PartDesign_InvoluteGear/ru.md)   Позволяет создавать различные типы редукторов
+
+
+</div>
+
+
+
 ### Верстак Draft 
 
+
+<div class="mw-translate-fuzzy">
+
 Верстак Draft обеспечивает инструменты для базовых задач двумерных САПР: линии, окружности и так далее, и серия общеупотребительных инструментов вроде перемещения, вращения или масштабирования. Он так же обеспечивает несколько вспомогательных инструментов, вроде сетки и привязки. Это принципиально означает рисовать направляющие для архитектурных объектов, но так же служит \"швейцарским ножом\" для FreeCAD .
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -71,11 +123,19 @@
 
 </div>
 
+\|- \| <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Snap extension](Draft_Snap_Extension.md) \| Snaps to an imaginary line that extends beyond the endpoints of straight edges \| <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:32px;"> [Snap parallel](Draft_Snap_Parallel.md) \| Snaps to an imaginary line parallel to straight edges \|- \| <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Snap special](Draft_Snap_Special.md) \| Snaps to special points defined by the object. \| <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Snap near](Draft_Snap_Near.md) \| Snaps to the nearest point on faces and edges \|- \| <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Snap ortho](Draft_Snap_Ortho.md) \| Snaps to imaginary lines that cross the previous point at multiples of 45°. \| <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap grid](Draft_Snap_Grid.md) \| Snaps to the intersections of grid lines. \|- \| <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap working plane](Draft_Snap_WorkingPlane.md) \| Projects snap points onto the current [working plane](Draft_SelectPlane.md) \| <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap dimensions](Draft_Snap_Dimensions.md) \| Shows temporary X and Y dimensions \|}
+
 
 
 ### Верстак Sketcher 
 
+
+<div class="mw-translate-fuzzy">
+
 Верстак Sketcher содержит инструменты для создания и редактирования сложных двумерных объектов, называемых эскизами (sketch). Геометрия внутри этих эскизов может быть точно позиционирована и связана использованием ограничений. Это создано в первую очередь для создания блоков в геометрии PartDesign, но может быть полезно в любом месте FreeCAD.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -108,31 +168,24 @@
 
 
 
-### Верстак PartDesign 
-
-Верстак Part Design содержит инструменты для построения твердотельных частей. Он так же содержит все инструменты по работе с эскизами. Поскольку он может создавать только твёрдые тела (правило номер один Part Design), это главный верстак для использования частей для производства или трёхмерной печати, поскольку Вы всегда получите пригодный к печати объект.
-
 
 <div class="mw-translate-fuzzy">
 
-  Инструмент                                                                                                                              Описание                                                                     Инструмент                                                                                                                                 Описание
-     
-  <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Pad](PartDesign_Pad/ru.md)                                            Выдавливает твердотельный объект из выбранного эскиза                        <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [Pocket](PartDesign_Pocket/ru.md)                                   Создаёт выемку из выбранного эскиза. Эскиз должен быть привязан к грани существующего объекта
-  <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Revolution](PartDesign_Revolution/ru.md)                Создаёт твёрдое тело вращением эскиза вокруг оси                             <img alt="" src=images/PartDesign_Groove.svg  style="width:32px;"> [Groove](PartDesign_Groove/ru.md)                                   Создаёт канавку вращением эскиза вокруг оси
-  <img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [Fillet](PartDesign_Fillet/ru.md)                                Скругляет переход между гранями объекта                                      <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [Chamfer](PartDesign_Chamfer/ru.md)                               Создаёт фаску на рёбрах объекта
-  <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [Draft](PartDesign_Draft/ru.md)                                    Применяет угловую вытяжку на грани объекта                                   <img alt="" src=images/PartDesign_Mirrored.svg  style="width:32px;"> [Mirrored](PartDesign_Mirrored/ru.md)                           Отражает элементы на плоскость или грань
-  <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [Linear pattern](PartDesign_LinearPattern/ru.md)   Создаёт линейный массив элементов                                            <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:32px;"> [Polar pattern](PartDesign_PolarPattern/ru.md)          Создаёт круговой массив элементов
-  <img alt="" src=images/PartDesign_Scaled.png  style="width:32px;"> [Scaled](PartDesign_Scaled/ru.md)                                Масштабирует элемент к другому размеру                                       <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Multitransform](PartDesign_MultiTransform/ru.md)   Позволяет создание элемента с любой комбинацией трансформаций
-  <img alt="" src=images/PartDesign_WizardShaft.png  style="width:32px;"> [Shaft wizard](PartDesign_WizardShaft/ru.md)           Формирует вал из таблицы значений и позволяет анализировать силы и моменты   <img alt="" src=images/PartDesign_InvoluteGear.png  style="width:32px;"> [Involute gear wizard](PartDesign_InvoluteGear/ru.md)   Позволяет создавать различные типы редукторов
+### Верстак Arch 
 
 
 </div>
 
 
-
-### Верстак Arch 
+<div class="mw-translate-fuzzy">
 
 Верстак Arch содержит инструменты для работы с проектами на основе [BIM](https://ru.wikipedia.org/wiki/BIM) (промышленно-гражданское строительство и архитектура). Он так же содержит все инструменты верстака Draft. Основное использование верстака Arch в создании объектов BIM или добавлении атрибутов BIM к объектам, созданным с помощью других верстаков, чтобы экспортировать их в [IFC](https://ru.wikipedia.org/wiki/Industry_Foundation_Classes).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   Инструмент                                                                                           Описание                                                                       Инструмент                                                                                                        Описание
      
@@ -147,6 +200,9 @@
   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Schedule](Arch_Schedule/ru.md)       Создаёт различные типы расписаний                                              <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut plane](Arch_CutPlane/ru.md)                   Обрезает объект в соответствии с планом
   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add](Arch_Add/ru.md)                           Добавляет объекты к компоненту                                                 <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove](Arch_Remove/ru.md)                            Вычитает или удаляет объекты из компонента
   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Survey](Arch_Survey/ru.md)               Переходит в или покидает режим ревизии                                                                                                                                                           
+
+
+</div>
 
 
 
@@ -169,7 +225,13 @@
 
 ### Внешние верстаки 
 
+
+<div class="mw-translate-fuzzy">
+
 Существует несколько очень полезных верстаков, созданных членами сообщества FreeCAD. Хотя они и не включены в стандартную установку FreeCAD, их легко установить как плагины. Ссылки на них показаны в репозитории [дополнений FreeCAD](https://github.com/FreeCAD/FreeCAD-addons). Из наиболее завершённых в разработке:
+
+
+</div>
 
 -   [верстак Drawing Dimensioning](https://github.com/hamish2014/FreeCAD_drawing_dimensioning) предлагает много новых инструментов для работы прямо на чертёжных листах и позволяет добавлять размеры, аннотации и других технические символы с глубоким контролем над их аспектами. **Верстак Drawing Dimensioning больше не поддерживается.**
 -   [Верстак Fasteners](https://github.com/shaise/FreeCAD_FastenersWB) обеспечивает широкий диапазон готовых к использованию крепёжных изделий вроде болтов, винтов, шпилек и болтов. Доступно множество опций и настроек.

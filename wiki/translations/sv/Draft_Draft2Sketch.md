@@ -24,7 +24,8 @@ The <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Draft 
 1.  Optionally select one or more Draft objects or [Sketcher Sketches](Sketcher_NewSketch.md).
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Draft2Sketch.svg" width=16px> [Draft to sketch](Draft_Draft2Sketch.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Draft2Sketch.svg" width=16px> Draft to sketch** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Modification → <img src="images/Draft_Draft2Sketch.svg" width=16px> Draft to sketch** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Modify → <img src="images/Draft_Draft2Sketch.svg" width=16px> Draft to sketch** option from the menu.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
 4.  A new object is created.
 

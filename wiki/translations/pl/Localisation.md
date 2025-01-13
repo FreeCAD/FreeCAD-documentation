@@ -70,15 +70,15 @@ Kiedy Wiki została odłączona od SourceForge, [Yorik](User_Yorik.md) zainstalo
 
 Narzędzie jest udokumentowane w [Pomoc:Rozszerzenia:Tłumaczenie](http://www.mediawiki.org/wiki/Help:Extension:Translate) i jest częścią [MediaWiki Pakietu rozszerzeń językowych](http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle).
 
-Aby szybko rozpocząć przygotowywanie strony do tłumaczenia, proszę przeczytać przykład [Tłumaczenie strony](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example). Zasadniczo, para znaczników
+Aby szybko rozpocząć przygotowywanie strony do tłumaczenia, proszę przeczytać przykład [Tłumaczenie strony](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example). Para znaczników musi zawierać całą stronę aby system tłumaczenia został aktywowany:
 
     &lt;translate&gt; ... &lt;/translate&gt;
 
-musi otaczać całą stronę, aby aktywować system tłumaczenia, a strona musi być oznaczona do tłumaczenia.
+Strona musi być również oznaczona do tłumaczenia.
 
 Aby zobaczyć przykładowy sposób działania narzędzia do tłumaczenia, odwiedź stronę [Strona główna](Main_Page.md). Na górze pojawi się automatycznie wygenerowany pasek językowy. Kliknij na [polski](Main_Page/pl.md). *(polski)*, doprowadzi cię do [Main_Page/pl](Main_Page/pl.md). Tuż pod tytułem, możesz przeczytać , **XX** jest bieżącą wartością procentową postępu tłumaczenia. Kliknij na **Przetłumacz** u góry strony, aby uruchomić narzędzie do aktualizacji, korekty i przeglądania istniejącego tłumaczenia.
 
-Jeśli przejdziesz do strony [Main Page](Main_Page.md), zauważysz, że nie możesz już edytować strony bezpośrednio, przez kliknięcie znacznika \[Edit\], a górny link **Edit** został zastąpiony linkiem **Translate**, który otwiera narzędzie do tłumaczenia.
+Jeśli przejdziesz do [Strony głównej](Main_Page/pl.md), zauważysz, że nie możesz już edytować strony bezpośrednio, przez kliknięcie znacznika \[Edit\], a górny link **Edit** został zastąpiony linkiem **Translate**, który otwiera narzędzie do tłumaczenia.
 
 Przy dodawaniu nowych treści należy najpierw utworzyć stronę w języku angielskim, a następnie przetłumaczyć ją na inny język. Jeśli ktoś chce zmienić lub dodać treść na stronie, najpierw należy zmodyfikować stronę w języku angielskim.
 
@@ -179,12 +179,6 @@ Następnie wszystko odbywa się automatycznie, jeśli chodzi o dewelopera. Admin
 Moduły lub makra osób trzecich są tłumaczone w podobny sposób, z tym że część pracy musisz wykonać samodzielnie. Ta [dyskusja na forum](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) opisuje szczegóły.
 
 ***Aktualizacja***: zobacz [Tłumaczenie zewnętrznych środowisk pracy](Translating_an_external_workbench.md)
-
-
-
-### Techniki tłumaczenia starszych modułów 
-
-Strona [Tłumaczenie starszymi metodami](Localization_Older_Methods.md) szczegółowo opisuje korzystanie z narzędzi tłumaczeniowych takich jak Qt Linguist, lupdate, lrelease, pylupdate4, itp. Większość z nich nie jest już wymagana dla modułów FreeCAD/master, ale może być pomocna w przygotowaniu i aktualizacji modułów zewnętrznych.
 
 
 

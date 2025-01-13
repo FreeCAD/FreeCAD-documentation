@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft CubicBezCurve
-   Name/pl: Rysunek Roboczy: Sześcienna krzywa Bézier'a
-   MenuLocation: Kreślenie , Narzędzia krzywych Bézier'a , Sześcienna krzywa Bézier'a
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Name/pl: Rysunek Roboczy: Sześcienna krzywa Béziera
+   MenuLocation: Kreślenie , Narzędzia krzywych Béziera , Sześcienna krzywa Béziera<br>Kreślenie 2D , Sześcienna krzywa Béziera
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Version: 0.19
    SeeAlso: Draft_BezCurve/pl, Draft_BSpline/pl
 ---
@@ -14,11 +14,11 @@
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Sześcienna krzywa Bézier\'a** tworzy [krzywą Béziera](http://en.wikipedia.org/wiki/Bezier_curve) trzeciego stopnia *(wymagane są cztery punkty)*.
+Polecenie <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Sześcienna krzywa Béziera** tworzy [krzywą Béziera](http://en.wikipedia.org/wiki/Bezier_curve) trzeciego stopnia *(wymagane są cztery punkty)*.
 
-Krzywa Béziera jest jedną z najczęściej używanych krzywych w grafice komputerowej. Polecenie to pozwala utworzyć ciągły splajn składający się z kilku segmentów Béziera trzeciego stopnia, w sposób podobny do narzędzia Bézier\'a w [Inkscape](https://inkscape.org/). Ogólną krzywą Béziera dowolnego stopnia można utworzyć za pomocą polecenia [Krzywa Bezier\'a](Draft_BezCurve/pl.md).
+Krzywa Béziera jest jedną z najczęściej używanych krzywych w grafice komputerowej. Polecenie to pozwala utworzyć ciągły splajn składający się z kilku segmentów Béziera trzeciego stopnia, w sposób podobny do narzędzia Béziera w [Inkscape](https://inkscape.org/). Ogólną krzywą Béziera dowolnego stopnia można utworzyć za pomocą polecenia [Krzywa Beziera](Draft_BezCurve/pl.md).
 
-Polecenia [Krzywa Bézier\'a](Draft_BezCurve/pl.md) i Sześcienna krzywa Bézier\'a używają **punktów kontrolnych** do zdefiniowania położenia i krzywizny odcinka krzywej. Z kolei polecenie [Krzywa złożona](Draft_BSpline/pl.md) określa **dokładne punkty**, przez które będzie przechodzić krzywa.
+Polecenia [Krzywa Béziera](Draft_BezCurve/pl.md) i Sześcienna krzywa Béziera używają **punktów kontrolnych** do zdefiniowania położenia i krzywizny odcinka krzywej. Z kolei polecenie [Krzywa złożona](Draft_BSpline/pl.md) określa **dokładne punkty**, przez które będzie przechodzić krzywa.
 
 <img alt="" src=images/Draft_CubicBezCurve_example.png  style="width:500px;"> 
 *Krzywa Spline składająca się z trzech sześciennych segmentów Béziera. Pierwszy segment jest zdefiniowany przez cztery punkty. Kolejne segmenty wykorzystują ponownie dwa punkty z poprzedniego segmentu, a zatem wymagają tylko dwóch dodatkowych punktów.*
@@ -31,7 +31,8 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 1.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_CubicBezCurve.svg" width=16px> '''Sześcienna krzywa Béziera'''**.
-    -   Wybierz z menu **Kreślenie → Narzędzia krzywych Bézier'a → <img src="images/Draft_CubicBezCurve.svg" width=16px> Sześcienna krzywa Béziera** .
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu **Kreślenie → Narzędzia krzywych Béziera → <img src="images/Draft_CubicBezCurve.svg" width=16px> Sześcienna krzywa Béziera**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Kreślenie 2D → <img src="images/Draft_CubicBezCurve.svg" width=16px> Sześcienna krzywa Béziera** option from the menu.
 2.  Otworzy się panel zadań **Sześcienna krzywa Béziera**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
 3.  Nie jest możliwe wprowadzanie punktów za pomocą panelu zadań.
 4.  W przypadku następujących modeli [Profil nawigacji myszką](Mouse_navigation/pl.md) należy przytrzymać klawisz klawiatury:
@@ -50,7 +51,7 @@ Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tr
 
 ## Opcje
 
-Zapoznaj się z informacjami na stronie [Krzywa Bezier\'a](Draft_BezCurve/pl#Options.md).
+Zapoznaj się z informacjami na stronie [Krzywa Beziera](Draft_BezCurve/pl#Options.md).
 
 
 
@@ -62,7 +63,7 @@ Zapoznaj się z informacjami na stronie [Krzywa Bezier\'a](Draft_BezCurve/pl#Opt
 
 ## Właściwości
 
-Zapoznaj się z informacjami na stronie [Krzywa Bézier\'a](Draft_BezCurve/pl#Właściwości.md).
+Zapoznaj się z informacjami na stronie [Krzywa Béziera](Draft_BezCurve/pl#Właściwości.md).
 
 
 
@@ -70,7 +71,7 @@ Zapoznaj się z informacjami na stronie [Krzywa Bézier\'a](Draft_BezCurve/pl#W�
 
 Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-Aby uzyskać ogólne informacje, zobacz stronę [Krzywa Bézier\'a](Draft_BezCurve/pl.md). Poprzez przekazanie opcji tworzony jest sześcienna krzywa Bézier\'a degree=3 to `makeBezCurve()`.
+Aby uzyskać ogólne informacje, zobacz stronę [Krzywa Béziera](Draft_BezCurve/pl.md). Poprzez przekazanie opcji tworzony jest sześcienna krzywa Béziera degree=3 to `makeBezCurve()`.
 
 Dla każdego segmentu krzywej sześciennej Béziera należy użyć czterech punktów, z których dwa skrajne wskazują miejsce, przez które przechodzi krzywizna, a dwa punkty pośrednie są punktami kontrolnymi.
 

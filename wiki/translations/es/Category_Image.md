@@ -1,5 +1,5 @@
 # Category:Image/es
-This category is the top level category for **images**. It should not contain any files, but only sub categories.
+This category is for pages related to the [Image Workbench/es](Image_Workbench/es.md).
 
 ### Contents
 

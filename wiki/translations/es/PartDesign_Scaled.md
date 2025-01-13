@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Introducción
@@ -45,6 +47,8 @@ If there is no previous transformation within the <img alt="" src=images/PartDes
     -   Press the **<img src="images/PartDesign_MultiTransform.svg" width=16px> [MultiTransform](PartDesign_MultiTransform.md)** button.
     -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_MultiTransform.svg" width=16px> Create MultiTransform** option from the menu.
 3.  The **MultiTransform parameters** [task panel](Task_panel.md) opens. See above.
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft PointArray
    Name/de: Draft PunktAnordnung
-   MenuLocation: Änderung , Array tools ,  Punkt-Anordnung
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Änderung , Anordnungwerkzeuge , Punkt-Anordnung<br>Bearbeiten ,  Punkt-Anordnung
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Version: 0.18
    SeeAlso: Draft_OrthoArray/de, Draft_PolarArray/de, Draft_CircularArray/de, Draft_PathArray/de, Draft_PathLinkArray/de, Draft_PointLinkArray/de
 ---
@@ -16,14 +16,12 @@
 
 Der Befehl <img alt="" src=images/Draft_PointArray.svg  style="width:24px;"> **Draft Punkt-Anordnung** erstellt eine regelmäßige Anordnung aus einem ausgewählten Basisobjekt, indem er Kopien auf den Punkten eines Punktobjekts positioniert. Der Befehl [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md) erstellt alternativ eine effizientere Verknüpfungsanordnung ([Link](App_Link/de.md)-Array). Außer der Art der Anordnung die erstellt wird, normale Anordnung oder Verknüpfungsanordnung, ist der Befehl [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md) identisch mit diesem Befehl.
 
-Das Basisobjekt kann ein 2D-Objekt sein, das mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench.md) erstellt wurde, aber auch ein 3D-Objekt, das mit den Arbeitsbereichen [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erstellt wurde.
+Das Basisobjekt kann ein 2D-Objekt sein, das mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench.md) erstellt wurde, aber auch ein 3D-Objekt, das mit den Arbeitsbereichen [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [BIM](BIM_Workbench/de.md) erstellt wurde.
 
-Das Punktobjekt kann ein beliebiges Objekt mit einer Form und Knotenpunkten sein (einschließlich einem [Std Part](Std_Part/de.md), das ein oder mehrere solcher Objekte enthält), ein [Netz-Objekt](Mesh_Workbench/de.md) oder eine [Punktewolke](Points_Workbench/de.md). Doppelte Punkte im Punktobjekt werden herausgefiltert. {{Version/de|0.21}}
-
-In {{VersionMinus/de|0.20}} wird nur der Typ Drei-Punkt-Objekt unterstützt, siehe [Punkt-Objekt-Version 0.20 und älter](#Punkt-Objekt-Version_0.20_und_älter/de.md).
+Das Punktobjekt kann ein beliebiges Objekt mit einer Form und Knotenpunkten sein (einschließlich einem [Std Part](Std_Part/de.md), das ein oder mehrere solcher Objekte enthält), ein [Netz-Objekt](Mesh_Workbench/de.md) oder eine [Punktwolke](Points_Workbench/de.md). Doppelte Punkte im Punktobjekt werden herausgefiltert.
 
 <img alt="" src=images/Draft_PointArray_Example.png  style="width:400px;"> 
-*Draft PunktAnordnung*
+*Draft Punkt-Anordnung*
 
 
 
@@ -33,19 +31,10 @@ In {{VersionMinus/de|0.20}} wird nur der Typ Drei-Punkt-Objekt unterstützt, sie
 2.  Das Punkt-Objekt zur Auswahl hinzufügen.
 3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_PointArray.svg" width=16px> [Punkt-Anordnung](Draft_PointArray/de.md)** drücken.
-    -   Den Menüeintrag **Änderung → Anordnungswerkzeuge → <img src="images/Draft_PointArray.svg" width=16px> Punkt-Anordnung** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Änderung → Anordnungswerkzeuge → <img src="images/Draft_PointArray.svg" width=16px> Punkt-Anordnung** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Bearbeiten → <img src="images/Draft_PointArray.svg" width=16px> Punkt-Anordnung** auswählen.
 4.  Die Anordnung wird erstellt.
 5.  Wahlweise die [Eigenschaften](#Eigenschaften.md) der Anordnung im [Eigenschafteneditor](Property_editor/de.md) anpassen.
-
-
-
-## Punkt-Objekt - Version 0.20 und älter 
-
-Dies sind die unterstützten Punktobjekte in {{VersionMinus/de|0.20}} und wie sie erstellt werden können:
-
--   [Part Verbund](Part_Compound/de.md): Erzeugen einen oder mehrere [Entwurf Punkte](Draft_Point/de.md) oder [Part Punkte](Part_Point/de.md), wähle diese aus und rufe den Befehl [Part Verbund](Part_Compound/de.md) auf.
--   Zeichnungsblock: Erzeuge einen oder mehrere [Entwurf Punkte](Draft_Point/de.md) oder [Part Punkte](Part_Point/de.md), markiere diese und rufe den Befehl [Entwurf Heraufstufen](Draft_Upgrade/de.md) auf.
--   [Skizzierer Skizze](Sketcher_NewSketch/de.md): Erstelle eine [Skizze](Sketcher_NewSketch/de.md) und füge der Skizze einen oder mehrere [Skizzierer Punkte](Sketcher_CreatePoint/de.md) hinzu.
 
 
 
@@ -97,15 +86,17 @@ Die Eigenschaften dieser Gruppe stehen nur für Verknüpfungsanordnungen zur Ver
 
 {{TitleProperty|Objects}}
 
--    **Base|Link**: specifies the object to duplicate in the array.
+-    {{PropertyData/de|Base|Link}}: gibt das Objekt an, das in der Anordnung dupliziert werden soll.
 
--    **Count|Integer**: (read-only) specifies the number of elements in the array. This number is determined by the number of points in the **Point Object**.
+-    {{PropertyData/de|Count|Integer}}: (nur Lesezugriff) gibt die Anzahl der Elemente in der Anordnung an. Diese Zahl wird durch die Anzahl der Punkte im {{PropertyData/de|Point Object}} bestimmt.
 
--    **Expand Array|Bool**: specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
+-    {{PropertyData/de|Expand Array|Bool}}: gibt an, ob die Anordnung in der [Baumansicht](Tree_view/de.md) erweitert werden soll, um die Auswahl der einzelnen Elemente zu ermöglichen. Nur für Verknüpfungsanordnung verfügbar.
 
--    **Extra Placement|Placement**: : specifies an additional [placement](Placement.md), translation and rotation, for each element in the array.
+-    {{PropertyData/de|Extra Placement|Placement}}: gibt für jedes Element in der Anordnung eine zusätzliche [Positionierung](Placement/de.md), Verschiebung und Drehung an.
 
--    **Point Object|Link**: specifies the compound object whose points are used to position the elements in the array. The object must have a **Links**, **Components** or **Geometry** property, and contain at least one element with **X**, **Y**, and **Z** properties.
+-    {{PropertyData/de|Fuse|Bool}}: gibt an, ob die Kopien vereinigt werden sollen, wenn sie einander berühren oder nicht. Wird nicht für Verknüpfungsanordnungen verwendet. {{Version/de|1.0}}
+
+-    {{PropertyData/de|Point Object|Link}}: gibt das Objekt an, dessen Punkte zur Positionierung der Elemente in der Anordnung verwendet werden.
 
 
 
@@ -114,29 +105,29 @@ Die Eigenschaften dieser Gruppe stehen nur für Verknüpfungsanordnungen zur Ver
 
 {{TitleProperty|Link}}
 
-The properties in this group, with the exception of the inherited property, are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+Die Eigenschaften dieser Gruppe, mit Ausnahme der ererbten Eigenschaften, stehen nur für Verknüpfungsanordnungen zur Verfügung. Siehe [Std VerknüpfungErstellen](Std_LinkMake/de#Eigenschaften.md) für weitere Informationen.
 
--    **Draw Style|Enumeration**
+-    {{PropertyView/de|Draw Style|Enumeration}}
     
 
--    **Line Width|FloatConstraint**
+-    {{PropertyView/de|Line Width|FloatConstraint}}
     
 
--    **Override Material|Bool**
+-    {{PropertyView/de|Override Material|Bool}}
     
 
--    **Point Size|FloatConstraint**
+-    {{PropertyView/de|Point Size|FloatConstraint}}
     
 
--    **Selectable|Bool**: this is an inherited property that appears in the Selection group for other arrays
+-    {{PropertyView/de|Selectable|Bool}}: das ist eine übernommene Eigenschaft, die in der Auswahlgruppe für andere Anordnungen erscheint.
 
--    **Shape Material|Material**
+-    {{PropertyView/de|Shape Material|Material}}
     
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Basis}}
 
-The properties in this group, with the exception of the inherited property, are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+Die Eigenschaften dieser Gruppe, mit Ausnahme der ererbten Eigenschaften, stehen nur für Verknüpfungsanordnungen zur Verfügung. Siehe [Std VerknüpfungErstellen](Std_LinkMake/de#Eigenschaften.md) für weitere Informationen.
 
 -    **Child View Provider|PersistentObject|Hidden**
     
@@ -150,29 +141,29 @@ The properties in this group, with the exception of the inherited property, are 
 -    **Override Material List|BoolList|Hidden**
     
 
--    **Proxy|PythonObject|Hidden**: this is an inherited property.
+-    **Proxy|PythonObject|Hidden**: das ist eine geerbte Eigenschaft.
 
 
 {{TitleProperty|Display Options}}
 
-The properties in this group are inherited properties. See [Part Feature](Part_Feature#Properties.md) for more information.
+Die Eigenschaften in dieser Gruppe sind ererbte Eigenschaften. Siehe auch [Part Formelement](Part_Feature/de#Eigenschaften.md).
 
--    **Bounding Box|Bool**: this property is not inherited by Link arrays.
+-    {{PropertyView/de|Bounding Box|Bool}}: diese Eigenschaft wird bei Verknüpfungsanordnungen nicht vererbt.
 
--    **Display Mode|Enumeration**: for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}
+-    {{PropertyView/de|Display Mode|Enumeration}}: kann für Verknüpfungsanordnungen {{value|Link}} oder {{value|ChildView}} sein. Für andere Anordnung kann es: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} oder {{value|Points}} sein.
 
--    **Show In Tree|Bool**
+-    {{PropertyView/de|Show In Tree|Bool}}
     
 
--    **Visibility|Bool**
+-    {{PropertyView/de|Visibility|Bool}}
     
 
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: not used.
+-    **Pattern|Enumeration**: nicht verwendet.
 
--    **Pattern Size|Float**: not used.
+-    **Pattern Size|Float**: nicht verwendet.
 
 
 {{TitleProperty|Object style}}
@@ -183,22 +174,22 @@ Die Eigenschaften dieser Gruppe werden nicht an Verknüpfungsanordnungen vererbt
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-Zum Erstellen einer Punktanordnung verwende die Methode `make_point_array` ({{Version/de|0.19}}) des Entwurf Moduls. Diese Methode ersetzt die veraltete Methode `makePointArray`.
+Zum Erstellen einer Punkt-Anordnung wird die Methode ` make_point_array` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makePointArray`.
 
 
 ```python
 point_array = make_point_array(base_object, point_object, extra=None, use_link=True)
 ```
 
--    `base_object`is the object to be arrayed. It can also be the `Label` (string) of an object in the current document.
+-    `base_object`ist das anzuordnende Objekt. Es kann auch die `Label` (-Zeichenkette) eines Objekts im aktuellen Dokument sein.
 
--    `point_object`is the object containing the points. It can also be the `Label` (string) of an object in the current document. It should have a `Geometry`, `Links`, or `Components` property containing points.
+-    `point_object`ist das Objekt, das die Punkte enthält. Es kann auch die `Label` (-Zeichenkette) eines Objekts im aktuellen Dokument sein. Es sollte eine Eigenschaft `Geometry`, `Links` oder `Components` haben, die Punkte enthält.
 
--    `extra`is an `App.Placement`, an `App.Vector` or an `App.Rotation` that displaces each element.
+-    `extra`ist ein `App.Placement`, ein `App.Vector` oder eine `App.Rotation`, die jedes Element verschiebt.
 
--   If `use_link` is `True` the created elements are [App Links](App_Link.md) instead of regular copies.
+-   Wenn `use_link` auf `True` gesetzt ist, sind die erstellten Elemente [App-Links](App_Link/de.md) anstelle von regulären Kopien.
 
 Beispiel:
 

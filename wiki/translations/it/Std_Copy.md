@@ -32,14 +32,14 @@ Il comando **Copia** pone gli oggetti selezionati negli \"appunti\" per un succe
 
 ## Note
 
--   Quando si lavora in una finestra di testo di FreeCAD, in una casella di input o in un foglio di calcolo, la scorciatoia da tastiera standard **Ctrl** + **C**, in quasi tutti i casi, non richiama **il comando Std Copia** ma utilizza invece la funzione Copia del sistema operativo.
+-   Quando si lavora in una finestra di testo di FreeCAD, in una casella di input o in un foglio di calcolo, la scorciatoia da tastiera standard **Ctrl** + **C**, in quasi tutti i casi, non richiama questo comando ma utilizza invece la funzione Copia del sistema operativo.
 -   Non è possibile copiare e incollare oggetti nativi tra FreeCAD e altre applicazioni.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

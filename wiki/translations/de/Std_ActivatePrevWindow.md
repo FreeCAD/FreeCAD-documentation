@@ -29,13 +29,13 @@ Der Befehl **Std VorherigesFensterAktivieren** aktiviert das vorherige Fenster i
 
 ## Hinweise
 
-Fenster im Hauptansichtsbereich sind auch im **Fenster**-Menü aufgeführt und können von dort aktiviert werden.
+Die ersten 10 Fenster im Hauptansichtsbereich sind auch im Menü **Fenster** aufgeführt und können von dort aktiviert werden.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

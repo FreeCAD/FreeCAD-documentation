@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Std ProjectUtil
-   MenuLocation: Tools , Project utility...
+   MenuLocation: Tools , Document utility...
    Workbenches: All
 ---
 
@@ -22,8 +22,8 @@ With the **Std ProjectUtil** command you can extract files from a FreeCAD projec
 
 ### Extract project 
 
-1.  Select the **Tools → <img src="images/Std_ProjectUtil.svg" width=16px> Project utility...** option from the menu.
-2.  The Project utility dialog box opens.
+1.  Select the **Tools → <img src="images/Std_ProjectUtil.svg" width=16px> Document utility...** option from the menu.
+2.  The **Project utility** dialog box opens.
 3.  Press the **...** button to the right of **Extract project → Source**.
 4.  Select the ***.FCStd** file you want to edit.
 5.  Press the **...** button to the right of **Extract project → Destination**.
@@ -33,19 +33,19 @@ With the **Std ProjectUtil** command you can extract files from a FreeCAD projec
 
 ### Manual edits 
 
-It is important to realize that the files inside a FreeCAD project file are interlinked. Only editing a single file will typically lead to errors. To make consistent edits across multiple files use a good code editor, such as [Notepad++](http://notepad-plus-plus.org/) (for the Windows OS) or [Notepadqq](https://notepadqq.com/s/) (for Linux OS).
+It is important to realize that the files inside a FreeCAD project file are interlinked. Only editing a single file will typically lead to errors. To make consistent edits across multiple files use a good code editor, such as [Notepad++](https://notepad-plus-plus.org/) (for the Windows OS) or [Notepadqq](https://notepadqq.com/s/) (for Linux OS).
 
 ### Create project 
 
 1.  Select the **Tools → <img src="images/Std_ProjectUtil.svg" width=16px> Project utility...** option from the menu.
-2.  The Project utility dialog box opens.
+2.  The **Project utility** dialog box opens.
 3.  Press the **...** button to the right of **Create project → Source**.
 4.  Select the **Document.xml** file. The command will be automatically find all linked files.
 5.  Press the **...** button to the right of **Create project → Destination**.
 6.  Select a folder where the new project file should be created.
 7.  Press the **Create** button.
 8.  A new project file with a fixed name, **project.fcstd**, is created in the selected folder. There is no warning if a file with that name already exists.
-9.  Optionally check the {{CheckBox|TRUE|Load project file after creation}} checkbox.
+9.  Optionally check the **Load project file after creation** checkbox.
 10. Press the **Close** button to close the dialog box.
 
 
@@ -58,7 +58,7 @@ It is important to realize that the files inside a FreeCAD project file are inte
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

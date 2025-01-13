@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ConstraintInitialFlowVelocity
    Name/pl: MES: Warunek początkowy prędkości przepływu
    MenuLocation: Model , Warunki brzegowe dla płynu , Warunek początkowy prędkości przepływu
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_ConstraintFlowVelocity/pl, FEM_ConstraintInitialPressure/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintInitialFlowVelocity/pl

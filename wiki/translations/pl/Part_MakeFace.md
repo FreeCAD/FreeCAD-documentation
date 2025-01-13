@@ -14,22 +14,22 @@
 
 ## Opis
 
-Narzędzie **Utwórz ścianę z polilinii** środowiska Część tworzy [płaszczyznę](Part_Plane/pl.md) w niestandardowym kształcie. Kształt jest zdefiniowany przez zamknięty kontur szkicu.
+Narzędzie <img alt="" src=images/Part_MakeFace.svg  style="width:24px;"> **Część: Utwórz ścianę z polilinii** tworzy płaską ścianę z jednego lub większej liczby współpłaszczyznowych zamkniętych polilinii (konturów). Mogą to być dowolne prawidłowe polilinie, np. stworzone w środowiskach pracy [Część](Part_Workbench/pl.md), [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md). Kontury nie powinny się same przecinać ani przecinać się wzajemnie. Mogą być zagnieżdżone aby tworzyć pustki.
 
-Możliwe jest zagnieżdżanie zamkniętych konturów, na przykład okręgów wewnątrz wielokąta. W takim przypadku ściana zostanie utworzona między konturami, jak w tym przykładzie:
-
-<img alt="" src=images/Part_MakeFace-example.png  style="width:300px;">
+<img alt="" src=images/Part_MakeFace-example.png  style="width:500px;">
 
 
 
-*Przykład ściany utworzonej z zagnieżdżonego zestawu konturów.*
+*Ściany utworzone z różnych zestawów polilinii.*
 
 
 
 ## Użycie
 
-1.  Wybierz szkic definiujący co najmniej jeden zamknięty kontur
-2.  Naciśnij przycisk **<img src="images/Part_MakeFace.svg" width=16px> [Utwórz ścianę z polilinii](Part_MakeFace/pl.md)**.
+1.  Wybierz jeden lub więcej obiektów zawierających jedną lub więcej zamkniętych polilinii.
+2.  Istnieje kilka sposobów na wywołanie tego polecenia:
+    -   Wciśnij przycisk **<img src="images/Part_MakeFace.svg" width=16px> [Utwórz ścianę z polilinii](Part_MakeFace/pl.md)**.
+    -   Wybierz opcję **Część → <img src="images/Part_MakeFace.svg" width=16px> Utwórz ścianę z polilinii** z menu.
 
 
 

@@ -15,18 +15,49 @@
 
 ## Opis
 
-**Wiązanie zablokowania** powoduje unieruchomienie elementu geometrycznego w miejscu za pomocą pojedynczego wiązania.
+Narzędzie <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;"> **Wiązanie zablokowania** blokuje krawędzie w miejscu za pomocą pojedynczego wiązania. Jest ono przeznaczone głównie dla [krzywych złożonych](Sketcher_CreateBSpline/p.md), które mogą być trudne do pełnego związania w inny sposób.
 
-Jest ono przeznaczone głównie do użycia z narzędziem **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Utwórz krzywą złożoną](Sketcher_CreateBSpline/pl.md)**, która może być trudna do pełnego związania w inny sposób.
+Wiązanie blokujące wpływa tylko na swobodnie ruchome części krawędzi. Zablokowane krawędzie mogą mieć inne wiązania, a zastosowanie dodatkowych wiązań do zablokowanej krawędzi może ją zmodyfikować.
 
 
 
 ## Użycie
 
-1.  Wybierz element, który chcesz związać.
-2.  Naciśnij przycisk **[<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> '''Wiązanie zablokowania'''**.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
-Albo najpierw naciśnij przycisk, a potem wybierz elementy.
+
+
+### [Tryb kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md) 
+
+1.  Upewnij się, że nie ma zaznaczenia.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_ConstrainBlock.svg" width=16px> '''Wiązanie zablokowania'''**.
+
+    -   Wybierz z menu opcję **Szkic → Wiązania szkicownika → <img src="images/Sketcher_ConstrainBlock.svg" width=16px> Wiązanie zablokowania**.
+
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz opcję **Wiązanie → <img src="images/Sketcher_ConstrainBlock.svg" width=16px> Wiązanie zablokowania** z menu podręcznego.
+
+    -   Użyj skrótu klawiaturowego: **K**, a następnie **B**.
+3.  Kursor zmieni się w krzyżyk z ikoną narzędzia.
+4.  Wybierz pojedynczą krawędź.
+5.  Zostanie dodane wiązanie.
+6.  Opcjonalnie można kontynuować tworzenie wiązań.
+7.  Aby zakończyć, kliknij prawym przyciskiem myszy lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
+
+
+
+### Tryb jednorazowy 
+
+1.  Wybierz jedną lub więcej krawędzi.
+2.  Wywołaj narzędzie jak wyjaśniono powyżej lub z następującą dodatkową opcją:
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widok 3D](3D_view/pl.md) i wybierz opcję **<img src="images/Sketcher_ConstrainBlock.svg" width=16px> Wiązanie zablokowania** z menu podręcznego.
+3.  W zależności od wyboru dodawane jest jedno lub więcej ograniczeń.
 
 
 

@@ -7,16 +7,26 @@
 
 ## Description
 
-Selects the constraints of a sketcher element.
+The <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:24px;"> [Sketcher SelectConstraints](Sketcher_SelectConstraints.md) tool selects the constraints associated with sketch elements.
 
 ## Usage
 
-1.  Select one or more objects in the active sketch.
-2.  There are several ways to invoke the command:
-    -   Click on the **[<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> [Select associated constraints](Sketcher_SelectConstraints.md)** button.
-    -   Choose the **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> Select associated constraints** from the menu.
-    -   Use the **Z** then **K** keyboard shortcut.
-3.  The associated constraints will be highlighted in the [task panel](Task_panel.md) and the [3D view](3D_view.md).
+1.  Select one or more sketch elements.
+2.  There are several ways to invoke the tool:
+    -   Press the **[<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> [Select associated constraints](Sketcher_SelectConstraints.md)** button.
+
+    -   Select the **Sketch → Sketcher visual → [<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> Select associated constraints** option from the menu.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_SelectConstraints.svg" width=16px> Select associated constraints** option from the context menu.
+
+    -   Right-click in the **Elements** section of the [Sketcher Dialog](Sketcher_Dialog.md) and select the **<img src="images/Sketcher_SelectConstraints.svg" width=16px> Select Constraints** option from the context menu.
+
+    -   Use the keyboard shortcut: **Z** then **K**.
+3.  The associated constraints are selected.
+4.  Optionally click in an empty area in the [3D view](3D_view.md) to clear the selection.
 
 
 

@@ -12,153 +12,52 @@
 
 ## Description
 
-**Part Ancrage** est un utilitaire permettant d\'ancrer un objet à un ou plusieurs autres objets. L\'objet ancré est lié à l\'objet ou aux objets référencés, ce qui signifie que si le [placement](Std_Placement/fr.md) ou la géométrie de l\'objet ou des objets référencés est modifié, le placement de l\'objet ancré sera mis à jour en conséquence.
+La commande <img alt="" src=images/Part_EditAttachment.svg  style="width:24px;"> **Part Ancrage** ancre un objet à un ou plusieurs autres objets. L\'objet ancré est lié à l\'objet ou aux objets référencés, ce qui signifie que si le [placement](Std_Placement/fr.md) ou la géométrie de l\'objet ou des objets référencés est modifié, le placement de l\'objet ancré sera mis à jour si nécessaire.
 
 
 
 ## Dispositifs d\'ancrage 
 
-L\'ancrage d\'un objet est contrôlé par l\'un des quatre dispositifs d\'ancrage. Le dispositif par défaut utilisé pour un objet dépend de son type.
+L\'ancrage d\'un objet est contrôlé par l\'un des quatre dispositifs d\'ancrage. Le dispositif par défaut utilisé pour un objet dépend de son type. Le dispositif d\'ancrage d\'un objet peut être modifié via sa propriété **Attacher Engine** ({{Version/fr|1.0}}) ou sa propriété [cachée](Property_editor/fr#Menu_contextuel.md) **Attacher Type**.
 
-Les quatre dispositifs sont les suivants :
+Les dispositifs disponibles sont énumérés dans le tableau ci-dessous. Les dispositifs d\'ancrage contrôlent les **Placement** des objets. Tous les dispositifs peuvent être utilisés pour tous les objets ayant cette propriété. Toutefois, les résultats des trois derniers dispositifs sont plus pertinents si la forme de l\'objet correspond à la \"forme logique\" mentionnée.
 
--   [Attacher::AttachEnginePoint](#Attacher:_AttachEnginePoint.md)
--   [Attacher::AttachEngineLine](#Attacher:_AttachEngineLine.md)
--   [Attacher::AttachEnginePlane](#Attacher:_AttachEnginePlane.md)
--   [Attacher::AttachEngine3D](#Attacher:_AttachEngine3D.md)
+  Dispositif d\'ancrage                              Type d\'ancrage               Forme logique
+    
+  [Dispositif 3D](#Dispositif_3D.md)         Attacher::AttachEngine3D      
+  [Dispositif plan](#Dispositif_plan.md)     Attacher::AttachEnginePlane   Face plane coïncidant avec le plan XY du placement
+  [Dispositif ligne](#Dispositif_ligne.md)   Attacher::AttachEngineLine    Arête droite colinéaire à l\'axe Z du placement
+  [Dispositif point](#Dispositif_point.md)   Attacher::AttachEnginePoint   Sommet coïncidant avec l\'origine du placement
 
-Le reste de cette page est consacré à AttachEngine3D. Les modes des autres dispositifs sont seulement listés. Notez que les modes d\'AttachEnginePlane sont en fait identiques à ceux d\'AttachEngine3D.
+Le reste de cette page est consacré au dispositif 3D. Les modes des autres dispositifs sont seulement listés. Notez que les modes du dispositif plan sont en fait identiques à ceux du dispositif 3D.
 
 
 
 ## Utilisation
 
 1.  Sélectionnez l\'objet à ancrer.
-2.  Sélectionnez l\'option **Part → <img src="images/Part_EditAttachment.svg" width=16px> Ancrer...** du menu.
+2.  Faites l\'une des choses suivantes :
+    -   Si l\'objet possède déjà une propriété **Map Mode** : cliquez dans ce champ dans l\'éditeur de propriétés et appuyez sur le bouton **...** qui apparaît.
+    -   Sélectionnez l\'option **Part → <img src="images/Part_EditAttachment.svg" width=16px> Ancrer...** du menu.
 3.  Le panneau des tâches **Ancrage** s\'ouvre.
 4.  En haut du panneau des tâches, on peut lire *Non ancré*. Le premier bouton intitulé **Sélection de...** est mis en évidence pour indiquer qu\'une sélection dans la [vue 3D](3D_view/fr.md) est attendue.
 5.  Sélectionnez un sommet, une arête ou une face/un plan appartenant à un autre objet.
-6.  Dans le champ de saisie situé à droite du bouton, l\'objet et le sous-élément référencés sont affichés. Par exemple, si une face d\'un [Part Cube](Part_Box/fr.md) est sélectionnée, le champ peut afficher {{Value|Box:Face6}}.
+6.  Dans le champ de saisie situé à droite du bouton, l\'objet et le sous-élément référencés sont affichés. Par exemple, si une face d\'un [Part Cube](Part_Box/fr.md) est sélectionnée, le champ peut afficher {{Value|Box:Face6}}. L\'étiquette du bouton affiche maintenant le type de sous-élément.
 7.  Les modes disponibles sont filtrés en fonction des références sélectionnées et de leur ordre. Par exemple, pour les modes [Alignement O-Z-X](#Alignement_O-Z-X.md) à [Alignement O-Y-X](#Alignement_O-Y-X.md), la première référence doit être un sommet. Si la première référence est un sous-élément d\'un type différent, elle est supprimée de la liste.
-8.  Sélectionnez un [mode d\'ancrage](#Mode_d'ancrage.md) dans la liste. Pour plus d\'informations sur les modes d\'ancrage, passez la souris dessus pour faire apparaître une infobulle.
-9.  *Ancré avec le mode * est maintenant affiché en haut du panneau des tâches.
+8.  *Ancré avec le mode * est maintenant affiché en haut du panneau des tâches.
+9.  Vous pouvez également sélectionner un autre [mode d\'ancrage](#Mode_d'ancrage.md) dans la liste. Pour plus d\'informations sur les modes d\'ancrage, passez la souris dessus pour faire apparaître une infobulle.
 10. Selon le mode sélectionné, ajoutez jusqu\'à trois références supplémentaires en appuyant sur les boutons **Référence2**, **Référence3** et **Référence4** et en répétant l\'étape 5. Il est également possible de spécifier toutes les références avant de sélectionner un mode d\'attachement.
-11. Lors de la sélection d\'une référence supplémentaire, l\'étiquette du bouton précédent change et affiche le type de sous-élément de cette référence.
-12. Vous pouvez également définir un [Décalage de la pièce ancrée](#D.C3.A9calage_de_l.27ancrage.md).
-13. Appuyez sur **OK**.
-14. Le cas échéant, vous pouvez modifier la propriété **Map Path Parameter** dans l\'[éditeur de propriétés](Property_editor/fr.md).
-
-
-
-## Changer le dispositif d\'ancrage 
-
-Il est possible de modifier manuellement le dispositif d\'ancrage d\'un objet :
-
-1.  Sélectionnez l\'objet.
-2.  Cliquez avec le bouton droit de la souris dans l\'[éditeur de propriétés](Property_editor/fr.md) et sélectionnez **Afficher tout** dans le menu contextuel.
-3.  Modifiez la propriété **Attacher Type** de l\'objet.
+11. Vous pouvez également définir un [décalage de la pièce ancrée](#D.C3.A9calage_de_l.27ancrage.md).
+12. Appuyez sur **OK**.
+13. Le cas échéant, vous pouvez modifier la propriété **Map Path Parameter** dans l\'[éditeur de propriétés](Property_editor/fr.md).
 
 
 
 ## Modes d\'ancrage 
 
 
-<div class="toccolours mw-collapsible mw-collapsed">
 
-### Attacher::AttachEnginePoint
-
-
-<div class="mw-collapsible-content">
-
--   Désactivé
--   Origine de l\'objet
--   Foyer1
--   Foyer2
--   Sur l\'arête
--   Centre de courbure
--   Centre de masse
--   Vertex
--   Point de proximité 1
--   Point de proximité 2
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-### Attacher::AttachEngineLine
-
-
-<div class="mw-collapsible-content">
-
--   Désactivé
--   X de l\'objet
--   Y de l\'objet
--   Z de l\'objet
--   Axe de courbure
--   Directrice1
--   Directrice2
--   Asymptote1
--   Asymptote2
--   Tangente
--   Normal à l\'arête
--   Binormale
--   Par deux points
--   Ligne de proximité
--   1er axe principal
--   2ème axe principal
--   3ème axe principal
--   Normal à la surface
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-### Attacher::AttachEnginePlane
-
-
-<div class="mw-collapsible-content">
-
--   Désactivé
--   Origine de la translation
--   XY de l\'objet
--   XZ de l\'objet
--   YZ de l\'objet
--   Face plane
--   Tangente à la surface
--   Normal à l\'arête
--   Frenet NB
--   Frenet TN
--   Frenet TB
--   Concentrique
--   Section révolutionnaire
--   Plan de 3 points
--   Normal à 3 points
--   Pliage
--   Inertie 2-3
--   Alignement O-N-X
--   Alignement O-N-Y
--   Alignement O-X-Y
--   Aligner O-X-N
--   Aligner O-Y-N
--   Aligner O-Y-X
-
-
-</div>
-
-
-</div>
-
-### Attacher::AttachEngine3D
+### Dispositif 3D 
 
 <img alt="" src=images/Part_Offset_Tasks.png  style="width:250px;">
 
@@ -411,6 +310,124 @@ Voir [Alignement O-Z-X](#Alignement_O-Z-X.md).
 L\'origine correspond au premier sommet. Les axes Y et X sont alignés vers un sommet ou le long d\'une ligne.
 
 Voir [Alignement O-Z-X](#Alignement_O-Z-X.md).
+
+
+
+#### XY parallèle au plan 
+
+
+{{Version/fr|1.0}}
+
+Le plan XY est aligné de manière à être parallèle au plan XY du placement d\'un objet lié et à passer par un sommet. L\'origine correspond à la projection de l\'origine de l\'objet lié sur le plan XY.
+
+Remarquez que vous devez sélectionner un objet entier et non un sous-élément tel qu\'une face ou un plan.
+
+:   ; Combinaisons de référence :
+:   Tout objet entier (avec une propriété **Placement**), sommet
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Dispositif plan 
+
+
+<div class="mw-collapsible-content">
+
+-   Désactivé
+-   Origine de la translation
+-   XY de l\'objet
+-   XZ de l\'objet
+-   YZ de l\'objet
+-   Face plane
+-   Tangente à la surface
+-   Normal à l\'arête
+-   Frenet NB
+-   Frenet TN
+-   Frenet TB
+-   Concentrique
+-   Section révolutionnaire
+-   Plan de 3 points
+-   Normal à 3 points
+-   Pliage
+-   Inertie 2-3
+-   Alignement O-N-X
+-   Alignement O-N-Y
+-   Alignement O-X-Y
+-   Aligner O-X-N
+-   Aligner O-Y-N
+-   Aligner O-Y-X
+-   XY parallèle au plan {{Version/fr|1.0}}
+
+
+</div>
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Dispositif ligne 
+
+
+<div class="mw-collapsible-content">
+
+-   Désactivé
+-   X de l\'objet
+-   Y de l\'objet
+-   Z de l\'objet
+-   Axe de courbure
+-   Directrice1
+-   Directrice2
+-   Asymptote1
+-   Asymptote2
+-   Tangente
+-   Normal à l\'arête
+-   Binormale
+-   Par deux points
+-   Ligne de proximité
+-   Intersection {{Version/fr|1.0}}
+-   1er axe principal
+-   2ème axe principal
+-   3ème axe principal
+-   Normal à la surface
+
+
+</div>
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Dispositif point 
+
+
+<div class="mw-collapsible-content">
+
+-   Désactivé
+-   Origine de l\'objet
+-   Foyer1
+-   Foyer2
+-   Sur l\'arête
+-   Centre de courbure
+-   Centre de masse
+-   Vertex
+-   Point de proximité 1
+-   Point de proximité 2
+
+
+</div>
+
+
+</div>
 
 
 

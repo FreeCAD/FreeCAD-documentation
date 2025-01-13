@@ -30,7 +30,7 @@ The reader will practice:
 -   Applying datum constraints
 -   Obtaining a closed profile
 
-For a more in depth description of the sketcher, read the [Sketcher reference](Sketcher_reference.md).
+For a more in depth description of the sketcher, read the [Sketcher Lecture](Sketcher_Lecture.md).
 
  ![](images/00_Sk01_Sketcher_fully_constrained_final.png )  
 *Final result of the sketch, with all geometry fully constrained, including construction geometry for support.*
@@ -294,7 +294,7 @@ We should end up with a fully constrained sketch. It can be confirmed by noticin
 
 ## Additional information 
 
-For a more in depth description of the sketcher, visit the [Sketcher Workbench](Sketcher_Workbench.md) documentation and also read the [Sketcher reference](Sketcher_reference.md).
+For a more in depth description of the sketcher, visit the [Sketcher Workbench](Sketcher_Workbench.md) documentation and also read the [Sketcher Lecture](Sketcher_Lecture.md).
 
 Constraining a sketch can be done in many different ways. In general, it is recommended to use geometrical constraints first, and minimize the number of datum constraints, as this simplifies the task of the internal constraint solver. To investigate this, repeat this example, now adding the constraints in different order.
 

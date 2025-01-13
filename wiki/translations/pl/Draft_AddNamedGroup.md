@@ -3,7 +3,7 @@
    Name: Draft AddNamedGroup
    Name/pl: Rysunek Roboczy: Dodaj grupę o nazwie
    MenuLocation: Narzędzia , Dodaj grupę o nazwie
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
    Shortcut: 
    Version: 0.20
    SeeAlso: Std_Group/pl, Draft_AddToGroup/pl, Draft_AutoGroup/pl
@@ -24,7 +24,7 @@ Polecenie <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;"> *
 1.  Opcjonalnie wybierz jeden lub więcej obiektów.
 2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_AddNamedGroup.svg" width=16px> '''Dodaj grupę o nazwie'''**.
-    -   Wybierz opcję z menu **Narzędzia → <img src="images/Draft_AddNamedGroup.svg" width=16px> Dodaj grupę o nazwie**.
+    -   Wybierz opcję **Narzędzia → <img src="images/Draft_AddNamedGroup.svg" width=16px> Dodaj grupę o nazwie** z menu lub menu kontekstowego [widoku drzewa](Tree_view/pl.md) bądź [widoku 3D](3D_view/pl.md).
 3.  Otworzy się panel zadań **Dodaj grupę**.
 4.  Wprowadź **Nazwę grupy**.
 5.  Naciśnij przycisk **OK**.

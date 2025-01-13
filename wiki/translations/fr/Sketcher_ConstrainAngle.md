@@ -5,84 +5,100 @@
    MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte angulaire
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **K** **A**
-   SeeAlso: Sketcher_ConstrainDistance/fr, Sketcher_ConstrainPerpendicular/fr
+   SeeAlso: Sketcher_ConstrainPerpendicular/fr
 ---
 
 # Sketcher ConstrainAngle/fr
 
 ## Description
 
-La contrainte d\'angle est une [contrainte de donnée](Sketcher_Workbench/fr#Contraintes_d'esquisse.md) destinée à fixer les angles dans une esquisse. Elle est capable de fixer les pentes de lignes seules, les angles entre les lignes, les angles des intersections de courbes et les portées d\'angle des arcs de cercle.
+L\'outil <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:24px;"> [Sketcher Contrainte angulaire](Sketcher_ConstrainAngle/fr.md) fixe l\'angle entre deux arêtes (les lignes sont alors considérées comme infinies et les courbes ouvertes sont virtuellement étendues), l\'angle d\'une ligne avec l\'axe horizontal de l\'esquisse ou l\'angle d\'ouverture d\'un arc de cercle.
 
 
 
 ## Utilisation
 
-La contrainte peut être appliquée de quatre manières différentes :
-
--   à des lignes seules
--   entre les lignes
--   aux intersections de courbes
--   aux arcs de cercles
-
-Pour appliquer une contrainte d\'angle, il faut suivre les étapes suivantes :
-
-1.  Sélectionnez une, deux ou trois entités dans l\'esquisse. Le mode sera choisi en fonction de la sélection.
-2.  Lancez la contrainte en utilisant plusieurs méthodes :
-    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Contraint angulaire](Sketcher_ConstrainAngle/fr.md)** dans la barre d\'outils.
-    -   Utilisez des raccourcis clavier **K** puis **A**.
-    -   Utilisez **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Contraint angulaire** du menu supérieure.
-3.  Une boîte de dialogue d\'édition apparaît.
-4.  Modifiez l\'angle si nécessaire. **Remarque :** l\'angle peut être rentré comme une expression qui sera évaluée et le résultat sera enregistré.
-5.  Cliquez sur **OK**
-
-Comme avec toute contrainte de référence, il est possible de changer la valeur d\'angle plus tard en double-cliquant sur la contrainte dans la liste contrainte ou une vue 3D. La saisie d\'une valeur négative entraînera la direction de l\'angle à basculer.
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
 
 
 
-## Modes de contrainte 
+### [Mode continu](Sketcher_Workbench/fr#Modes_continus.md) 
+
+1.  Assurez-vous qu\'il n\'y a pas de sélection.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   
+        {{Version/fr|1.0}}
+        
+        : si la [préférence](Sketcher_Preferences/fr#Général.md) des **contraintes de dimensions** est réglée sur {{Value|Outil unique}} (par défaut) : appuyez sur la flèche vers le bas à droite du bouton **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** et sélectionnez l\'option **<img src="images/Sketcher_ConstrainAngle.svg" width=16px> Contrainte angulaire** du menu déroulant.
+
+    -   Si cette préférence a une valeur différente (et dans {{VersionMinus/fr|0.21}}) : appuyez sur le **<img src="images/Sketcher_ConstrainAngle.svg" width=16px> [Contrainte angulaire](Sketcher_ConstrainAngle/fr.md)**.
+
+    -   Sélectionnez l\'option **Esquisse → Contraintes d'esquisse → <img src="images/Sketcher_ConstrainAngle.svg" width=16px> Contrainte angulaire** du menu.
+
+    -   
+        {{Version/fr|1.0}}
+        
+        : cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **Dimension → <img src="images/Sketcher_ConstrainAngle.svg" width=16px> Contrainte angulaire** du menu contextuel.
+
+    -   Utilisez le raccourci clavier : **K** puis **A**.
+3.  Le curseur se transforme en croix avec l\'icône de l\'outil.
+4.  Faites l\'une des choses suivantes :
+    -   Sélectionner deux lignes.
+    -   Sélectionner un point et deux arêtes (dans cet ordre).
+    -   Sélectionner une arête, un point et une arête (idem).
+5.  Si une [contrainte pilotante dimensionnelle](Sketcher_ToggleDrivingConstraint/fr.md) est créée, en fonction des [préférences](Sketcher_Preferences/fr#Affichage.md), une fenêtre de dialogue s\'ouvre pour [modifier sa valeur](Sketcher_Workbench/fr#Modifier_les_contraintes.md). Une valeur négative inversera la direction de l\'angle.
+6.  Une contrainte d\'angle est ajoutée. Si un point et deux arêtes ont été sélectionnés, jusqu\'à deux [contraintes point sur objet](Sketcher_ConstrainPointOnObject/fr.md) peuvent également être ajoutées. Voir les [Exemples](#Entre_deux_arêtes_au_point.md).
+7.  Vous pouvez continuer à créer des contraintes.
+8.  Pour terminer, cliquez avec le bouton droit de la souris ou appuyez sur **Échap**, ou démarrez un autre outil de création de géométrie ou de contrainte.
 
 
 
-### Angle de pente de la ligne 
+### Mode unique 
 
-**Sélection acceptée :** ligne
-
-<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:600px;">
-
-La contrainte définit l\'angle polaire de la direction de la ligne. C\'est l\'angle entre la ligne et l\'axe X de l\'esquisse.
-
-
-
-### Valeur angulaire d\'arc de cercle 
-
-**Sélection acceptée :** arc de cercle
-
-<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:600px;">
-
-Dans ce mode, la contrainte fixe la valeur angulaire de l\'arc de cercle
+1.  Faites l\'une des choses suivantes :
+    -   Sélectionnez une seule ligne.
+    -   Sélectionnez un seul arc de cercle.
+    -   Sélectionnez deux lignes.
+    -   Sélectionnez un point et deux arêtes (dans n\'importe quel ordre).
+2.  Lancez l\'outil comme expliqué ci-dessus.
+3.  Vous pouvez [modifier la valeur de la contrainte](Sketcher_Workbench/fr#Modifier_les_contraintes.md).
+4.  Une contrainte d\'angle est ajoutée. Si un point et deux arêtes ont été sélectionnés, jusqu\'à deux [contraintes point sur objet](Sketcher_ConstrainPointOnObject/fr.md) peuvent également être ajoutées. Voir les [exemples](#Entre_deux_arêtes_au_point.md).
 
 
 
-### Entre des lignes 
-
-**Sélection acceptée :** ligne + ligne
-
-<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:600px;">
-
-Dans ce mode, la contrainte fixe l\'angle entre deux lignes. Il n\' est pas obligatoire que les lignes se coupent.
+## Exemples
 
 
 
-### Entre les courbes à l\'intersection (angle par point) 
+### Une seule ligne 
 
-**Sélection acceptée :** toute ligne/courbe + toute ligne/courbe + tout point
+<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:400px;">
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:600px;">
+L\'angle de la ligne avec l\'axe X positif de l\'esquisse est fixe.
 
-Dans ce mode, l\'angle entre deux courbes est contraint au point d\'intersection. Le point d\'intersection peut être sur les extensions de courbes. Le point doit être explicitement spécifié, étant donné que les courbes se croisent généralement dans plus d\'un point.
 
-Pour que la contrainte fonctionne correctement, le point doit être sur les deux courbes. Donc, comme la contrainte est invoquée, le point sera automatiquement ajouté sur les deux courbes ([Aide pour contraindre](Sketcher_helper_constraint/fr.md), si nécessaire), et l\'angle entre les courbes sera contraint en ce point. Ces [Assistants de contraintes](Sketcher_helper_constraint/fr.md) sont des contraintes régulières simples. Ils peuvent être ajoutés manuellement ou supprimés. Il n\'y a pas d\'assistant de contraintes sur l\'image ci-dessus par exemple parce que le point sélectionné est déjà à l\'intersection des courbes.
+
+### Un seul arc de cercle 
+
+<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:400px;">
+
+L\'angle d\'ouverture de l\'arc est fixe.
+
+
+
+### Entre deux lignes 
+
+<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:400px;">
+
+L\'angle entre les deux lignes est fixe. Il n\'est pas nécessaire que les lignes se croisent.
+
+
+
+### Entre deux arêtes au point 
+
+<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:400px;">
+
+L\'angle entre les deux arêtes en un point donné est fixe. Le point peut être n\'importe quel point, par exemple le centre d\'un cercle, l\'extrémité d\'une arête ou l\'origine, il peut appartenir à l\'une ou l\'autre des arêtes ou aux deux, et il peut également être un [objet Point](Sketcher_CreatePoint/fr.md). Si nécessaire, des [contrainte(s) de point sur objet](Sketcher_ConstrainPointOnObject/fr.md) sont ajoutées pour s\'assurer que le point se trouve sur les deux arêtes (étendues). Ces contraintes supplémentaires sont appelées [contraintes d\'aide](Sketcher_helper_constraint/fr.md).
 
 
 

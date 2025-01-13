@@ -1,7 +1,13 @@
 # Tree view/ru
 ## Введение
 
+
+<div class="mw-translate-fuzzy">
+
 [Древо проекта](Tree_view/ru.md) появляется на вкладке **Модель** [комбо панели](Combo_view/ru.md), одной из самых важных панелей [интерфейса](Interface/ru.md); оно показывает все пользовательские объекты, которые являются частью документа FreeCAD. Древо проекта представляет собой [структуру документа](Document_structure/ru.md) и указывает, какая информация сохраняется на диске.
+
+
+</div>
 
 Эти объекты не обязательно должны быть геометрическими фигурами, видимыми в [3D-виде](3D_view/ru.md), но также могут быть вспомогательными объектами данных, созданными с помощью любого из [верстаков](Workbenches/ru.md).
 
@@ -39,125 +45,41 @@
 
 ### Tree view columns 
 
-By default the tree view only displays a single column with the labels and icons of objects. A second column with descriptions can optionally be displayed as well, column headings are then also added.
-
-To enable the description column right click the tree view and in the context menu select:
-**Tree settings → Show description column** <small>(v0.21)</small> 
+The Tree view always displays a column with the icons and labels of objects. Two additional columns can optionally be displayed as well. To enable these columns right-click the Tree view and in the context menu select **Tree settings** and then **Show description** (<small>(v0.21)</small> ) and/or **Show internal name** (<small>(v1.0)</small> ). Column headings are added if more than one column is displayed. Note that the internal names of objects cannot be changed.
 
 ### Edit object label 
 
-Select an object in the first column and press **F2** (on Windows and Linux), or **Enter** (on macOS), to edit its **Label** property. This property can also be edited via the context menu action described below or in the [Property editor](Property_editor.md).
+Select an object in the first column and press **F2** (on Windows and Linux), or **Enter** (on macOS), to edit its **Label** property. This property can also be edited via the context menu option **Rename** or in the [Property editor](Property_editor.md).
 
 ### Edit object description 
 
 An object can optionally have a description. This information is stored in its **Label2** property. If the description column is displayed you can edit this property by selecting an object in that column and pressing **F2** (on Windows and Linux), or **Enter** (on macOS). The property can also be changed in the [Property editor](Property_editor.md).
 
+### Context menu 
+
+The options in the context menu of the Tree view depend on the selected object(s) and the currently active workbench. To display this menu right-click the background of the list, right-click an object in the list, or select multiple objects in the list and then right-click one of them.
+
+### Keyboard modifiers 
+
+The usual keyboard modifiers can be used in the Tree view. The modifiers can be combined as well.
+
+-    **Ctrl**: hold down this key to select multiple objects.
+
+-    **Shift**: hold down this key to select all objects between a previously selected object and the next selected object.
 
 
-## Действия
-
-
-<div class="mw-translate-fuzzy">
-
-Поскольку в древе проекта перечислены объекты, которые могут быть видны в [3D-виде](3D_view/ru.md), многие действия совпадают с теми, которые могут быть выполнены из [3D-вида](3D_view/ru.md).
-
-
-</div>
-
-### Application start 
-
-
-<div class="mw-translate-fuzzy">
-
-Когда приложение запускается, по умолчанию [Верстак Start](Start_Workbench/ru.md) активен, и ни один документ не был создан, щелчок правой кнопкой мыши на древе проекта показывает только одну команду:
-
--    **Действия с выражениями**: [Копировать выбранное](Std_Expressions/ru.md), [Копировать активный документ](Std_Expressions/ru.md), [Копировать все документы](Std_Expressions/ru.md), Вставить. Они позволяют работать с различными документами, но недоступны, если документ отсутствует.
-
-
-</div>
-
-### New document 
 
 
 <div class="mw-translate-fuzzy">
-
-После создания нового документа активными становятся следующие:
-
--    **Действия с выражениями**: [Копировать активный документ](Std_Expressions/ru.md), [Копировать все документы](Std_Expressions/ru.md).
-
-
-</div>
-
-
-
-### Выбор документа 
-
-
-<div class="mw-translate-fuzzy">
-
-Если выбрать активный документ и щелкнуть правой кнопкой мыши, то в дополнение к **Действия с выражениями** и **Link actions (действия ссылки)** появятся следующие команды:
-
--    **Показать скрытые элементы**: если он активен,в древе проекта будут показаны скрытые элементы.
-
--    **Поиск...**: выводит поле ввода для поиска объектов внутри выбранного документа.
-
--    **Закрыть документ**: закрывает выбранный документ, вызывая метод `closeDocument()` приложения.
-
--    **Пропуск пересчёта**: если он активен, объекты документа не будут [пересчитываться](Std_Refresh/ru.md) автоматически.
-
-    -   
-        **Разрешить частичные перерасчёты**
-        
-        : если он активен, то позволит [пересчитать](Std_Refresh/ru.md) только некоторые объекты документа.
-
--    **Отметить для перерасчёта**: помечает все объекты документа как тронутые и готовые к [перерасчёту](Std_Refresh/ru.md).
-
--    **[Создать группу...](Std_Group/ru.md)**: создаёт группу в выбранном документе с помощью метода документа `addObject()`.
-
-
-</div>
-
-
-
-### Выбор объектов 
-
-
-<div class="mw-translate-fuzzy">
-
-Как только объекты будут добавлены в документ, то в дополнение к предыдущим действиям, щелчок правой кнопкой мыши на пустой части древа проекта покажет дополнительные команды; они зависят от типа объекта и активного верстака.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Если выбран объект, например [Draft Линия](Draft_Line/ru.md), и в этом же объекте сделан щелчок правой кнопкой мыши, то могут быть доступны дополнительные команды:
-
--    **Преобразовать**: запускает элемент управления преобразованием для перемещения или поворота объекта.
-
--    **Установить цвета... **: устанавливает цвета объекта.
-
--    **Flatten this wire**: **(Draft)** специфическая команда для [Draft Линия](Draft_Line/ru.md).
-
--    **Скрыть элемент**: если он активен, выбранный объект будет установлен как скрытый.
-
--    **Отметить для пересчёта**: помечает выбранный объект как тронутый и готовый к [пересчёту](Std_Refresh/ru.md).
-
--    **Пересчитать объект**: пересчитать выбранный объект.
-
--    **Переименовать**: запускает редактирование имени выбранного объекта. Это позволяет изменить атрибут `Label`, но не атрибут `Name`, так как последний доступен только для чтения.
-
-
-</div>
-
-
 
 ### Действия с клавиатуры 
 
-The following keyboard actions are available when the focus is on the Tree view:
 
--    **Ctrl**\+**F**: opens a search box at the bottom of the tree, allowing to search and reach objects using their names or labels.
+</div>
+
+The following keyboard shortcuts are available when the focus is on the Tree view:
+
+-    **Ctrl**\+**F**: opens a search box at the bottom of the tree, allowing to search and reach objects using their internal names or labels.
 
 -   Expand and collapse actions using **Alt**+**Arrow** combinations: <small>(v0.20)</small> 
     -   
@@ -200,15 +122,27 @@ The following keyboard actions are available when the focus is on the Tree view:
 
 
 
-### ![](images/FreeCAD_Tree_view_tip.png ) Белая стрелка на зелёном фоне 
+### ![](images/FreeCAD_Tree_view_error.png ) Белый восклицательный знак на красном фоне 
 
-Это указывает на, так называемый, [Кончик](PartDesign_Body#Tip/ru.md) тела. Обычно это последняя функция в [PartDesign Тело](PartDesign_Body/ru.md) и олицетворяет всё тело целиком в окружающем мире вне тела, например, когда тело экспортируется или используется в [Булевых операциях](Part_Boolean/ru.md). Кончик может быть изменён пользователем.
+Это указывает на то, что объект имеет ошибку, которую необходимо исправить. После повторного вычисления всего документа при наведении курсора мыши на объект в древе проекта появляется всплывающая подсказка с описанием ошибки. **Примечание:** Все остальные объекты, зависящие от объекта в таком состоянии ошибки, не будут правильно пересчитаны, поэтому они всё ещё могут показывать какое-то устаревшее состояние.
 
 
+
+
+<div class="mw-translate-fuzzy">
 
 ### ![](images/FreeCAD_Tree_view_unattached.png ) Фиолетовое звено цепи на белом фоне 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Это обычно показано на [sketches(эскизах)](Sketch/ru.md), геометрических примитивах, таких как коробка, цилиндр и т.п. а также [Datum(Данных)](Datum/ru.md). Это указывает на то, что объект ни к чему не привязан. Он не имеет Привязки от Смещения и получает свое положение и выравнивание исключительно из своего свойства [Размещения](Placement/ru.md).
+
+
+</div>
 
 Существует базовый учебник (англ) [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md), объясняющий, как обращаться с такими объектами.
 
@@ -216,22 +150,54 @@ The following keyboard actions are available when the focus is on the Tree view:
 
 ### ![](images/FreeCAD_Tree_view_notfullyconstrained.png ) Жёлтый крестик 
 
+
+<div class="mw-translate-fuzzy">
+
 Это обозначение используется только для [эскизов](Sketch/ru.md) и указывает на то, что эскиз не полностью ограничен. В среде [Sketcher](Sketcher_Workbench/ru.md) количество оставшихся степеней свободы отображается в сообщениях решателя.
 
 
+</div>
 
-### ![](images/FreeCAD_Tree_view_error.png ) Белый восклицательный знак на красном фоне 
 
-Это указывает на то, что объект имеет ошибку, которую необходимо исправить. После повторного вычисления всего документа при наведении курсора мыши на объект в древе проекта появляется всплывающая подсказка с описанием ошибки. **Примечание:** Все остальные объекты, зависящие от объекта в таком состоянии ошибки, не будут правильно пересчитаны, поэтому они всё ещё могут показывать какое-то устаревшее состояние.
+
+### ![](images/FreeCAD_Tree_view_tip.png ) Белая стрелка на зелёном фоне 
+
+Это указывает на, так называемый, [Кончик](PartDesign_Body#Tip/ru.md) тела. Обычно это последняя функция в [PartDesign Тело](PartDesign_Body/ru.md) и олицетворяет всё тело целиком в окружающем мире вне тела, например, когда тело экспортируется или используется в [Булевых операциях](Part_Boolean/ru.md). Кончик может быть изменён пользователем.
+
+### ![](images/FreeCAD_Tree_view_suppressed.png ) Red backslash 
+
+
+<small>(v1.0)</small> 
+
+This indicates a suppressed [PartDesign](PartDesign_Workbench.md) feature.
+
+### ![](images/FreeCAD_Tree_view_link.png ) White upwards curved arrow 
+
+This indicates a [linked](Std_LinkMake.md) object.
+
+### ![](images/FreeCAD_Tree_view_link_external.png ) Two white upwards curved arrows 
+
+This indicates a [linked](Std_LinkMake.md) object loaded from an external document.
 
 ### ![](images/FreeCAD_Tree_view_hidden.png ) Eye symbol 
 
-This indicates that the object will be hidden in the Tree view if the **Show items hidden in tree view** context menu option is unchecked.
+This indicates that the object will be hidden in the Tree view if the **Show items hidden in Tree view** context menu option is unchecked.
+
+### ![](images/FreeCAD_Tree_view_frozen.png ) Cyan ice crystal 
 
 
-{{Interface navi
+<small>(v1.0)</small> 
 
-}} {{Std Base navi}}
+This indicates a [frozen](Std_ToggleFreeze.md) object that is not recomputed when its parents change.
+
+## Preferences
+
+See [Combo view](Combo_view#Preferences.md).
+
+
+{{Interface_navi
+
+}} {{Std_Base_navi}}
 
 
 

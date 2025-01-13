@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part Offset
    Name/de: Part Versatz
-   MenuLocation: Formteil , 3D-Versatz...
+   MenuLocation: Part , 3D-Versatz...
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Thickness/de, Part_Offset2D/de
 ---
@@ -35,43 +35,51 @@ Das Werkzeug <img alt="" src=images/Part_Offset.svg  style="width:24px;"> **Part
 
 ## Beispiele
 
-Objekt mit kleinem Versatz und abgerundeten ( Bogen ) Ecken.
+<img alt="" src=images/PartOffset0.png  style="width:" height="200px;"> → <img alt="" src=images/PartOffset1.png  style="width:" height="200px;">
 
-<img alt="" src=images/PartOffset0.png  style="width:400" height="200px;"> → <img alt="" src=images/PartOffset1.png  style="width:400" height="200px;">
+Objekt mit kleinem Versatz und abgerundeten (Bogen-) Ecken.
 
-Gleiches Objekt mit scharfen ( Schnittpunkt ) Ecken.
+<img alt="" src=images/PartOffset3.png  style="width:" height="200px;">
 
-<img alt="" src=images/PartOffset3.png  style="width:400" height="200px;">
+Dasselbe Objekt mit scharfen (Schnittpunkt-) Ecken.
 
-Gleiches Objekt mit dickem Abstand, der die vordere linke Lücke überfüllt und Schnittpunkte zulässt.
+<img alt="" src=images/PartOffset2.png  style="width:" height="200px;">
 
-<img alt="" src=images/PartOffset2.png  style="width:400" height="200px;">
+Dasselbe Objekt mit großem Versatz, der die vordere linke Lücke überfüllt, und aktivierter Schnitt-Option.
 
-Willkürliche Form ( Entwurf Poly als Draht ) mit einem 3D Versatz ( ignoriert MODE param )
+<img alt="" src=images/PartOffset4.png  style="width:" height="200px;">
 
-<img alt="" src=images/PartOffset4.png  style="width:400" height="200px;">
+Beliebige Form ([Draft Wire](Draft_Wire/de.md)) mit einem 3D-Versatz (ignoriert MODUS-Parameter)
 
-dieselbe Form mit einem 3D Versatz als SKIN und *gefülltem* Versatz
+<img alt="" src=images/PartOffset5.png  style="width:" height="200px;">
 
-<img alt="" src=images/PartOffset5.png  style="width:400" height="200px;">
+Dieselbe Form mit einem 3D-Versatz als SKIN und *gefülltem* Versatz
 
-*gefüllter* Versatz mit 2 Zylindern, die boolesche Schnitte erzeugen. Zylinder A geht durch die FÜLLUNG, während Zylinder B nur durch die FÜLLUNG geht und NICHT durch die 2D Ausgangsform.
+<img alt="" src=images/PartOffset6.png  style="width:" height="200px;">
 
-<img alt="" src=images/PartOffset6.png  style="width:400" height="200px;">
+*gefüllter* Versatz mit 2 Zylindern, die boolesche Ausschnitte (Differenz) erstellen. Zylinder A geht durch den FÜLL-Körper, während Zylinder B auch durch den FÜLL-Körper geht aber NICHT durch die 2D-Ausgangsform.
 
 
 
 ## Eigenschaften
 
--    {{PropertyData/de|Versatz}}: Abstand zum Versetzen der Flächen der Form.
+-    {{PropertyData/de|Offset}}: Abstand zum Versetzen der Flächen der Form.
 
--    {{PropertyData/de|Modus}}: Modus der Erstellung. Oberfläche erzeugt eine neue Form um die Ausgangsform herum. Rohr ( todo ). RectoVerso ( todo ).
+-    {{PropertyData/de|Mode}}: Modus der Erstellung. *Oberfläche* erzeugt eine neue Form um die Ausgangsform herum. *Rohr* (in Arbeit). *RectoVerso* (in Arbeit).
 
--    {{PropertyData/de|Verknüpfungstyp}}: Wie die neuen Ecken aufgebaut werden. Schnitt ergibt scharfe Ecken durch lineare Verlängerung der Kanten. Kreisbogen und Tangente ergeben abgerundete Ecken.
+-    {{PropertyData/de|Join type}}: Wie die neuen Ecken aufgebaut werden. *Schnitt* ergibt scharfe Ecken durch lineare Verlängerung der Kanten. *Kreisbogen* und *Tangente* ergeben abgerundete Ecken.
 
 1.  Optionː Schnittː Erlaubt nach innen gerichtete Versätze, um die Lücke zu \"überfließen\", indem die resultierende Form so lange geschnitten wird, bis gegenüberliegende Flächen erreicht sind.
 2.  Optionː Selbstdurchdringungː ( todo )
 3.  Optionː Versatz füllenː Wenn die Form 2-dimensional war, wird die Lücke zwischen den beiden Formen gefüllt. Die Füllung ist jetzt ein Festkörper, während die Ausgangsform kein Festkörper ist. Dadurch können boolesche Operationen zu seltsamen Ergebnissen führen. (siehe Beispiel unten).
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

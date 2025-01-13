@@ -168,7 +168,17 @@ Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and al
 
 {{TitleProperty|Component}}
 
--    **Base**: The base object this wall is built on
+See [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|IFC}}
+
+See [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|IFC Attributes}}
+
+See [Arch Component](Arch_Component#Properties.md).
 
 
 {{TitleProperty|Wall}}
@@ -198,6 +208,8 @@ Obiectele de pe perete moștenesc proprietățile obiectelor [ Part](Part_Workbe
 
 
 </div>
+
+<img alt="" src=images/Sketch_vs_Wall.jpg  style="width:480px;">
 
 ## Scripting
 
@@ -255,6 +267,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/ro
+⏵ [documentation index](../README.md) > Arch Wall/ro

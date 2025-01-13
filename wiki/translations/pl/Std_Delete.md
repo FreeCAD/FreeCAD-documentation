@@ -9,9 +9,13 @@
 
 # Std Delete/pl
 
+
+
 ## Opis
 
 Polecenie **Usuń** usuwa wybrane obiekty.
+
+
 
 ## Użycie
 
@@ -21,12 +25,11 @@ Polecenie **Usuń** usuwa wybrane obiekty.
     -   Wybierz opcję **<img src="images/Std_Delete.svg" width=16px> Usuń** z menu kontekstowego [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
     -   Użyj skrótu klawiaturowego: **Del**.
 
+
+
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby usunąć obiekt, należy użyć metody `removeObject` obiektu *document*.
 
@@ -41,7 +44,7 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

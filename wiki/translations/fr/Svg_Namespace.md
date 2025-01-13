@@ -13,70 +13,55 @@ FreeCAD peut importer et exporter des documents [SVG](https://fr.wikipedia.org/w
 
 Comme tout document XML, un document SVG se compose de deux sections :
 
--   L\'en-tête : une seule ligne pour déclarer la version du langage XML utilisée pour les instructions dans le corps de ce document.
--   Le corps : une liste d\'instructions. Les documents SVG contiennent toutes les instructions dans des balises<svg>.
+-   [en-tête](#L'en-tête.md) : une seule ligne pour déclarer la version du langage XML utilisée pour les instructions dans le corps de ce document.
+-   [Le corps](#Le_corps.md) : une liste d\'instructions. Les documents SVG contiennent toutes les instructions dans des balises {{Incode|<svg>}}.
 
 :   La balise d\'ouverture contient des informations sur la taille et les espaces de noms SVG utilisés.
 
 
 
-## Espace de noms par défaut 
+## Espace des noms par défaut 
 
-=
-
-L\'espace de noms SVG par défaut utilisé par FreeCAD est déclaré par cette ligne :
+L\'espace ded noms SVG par défaut utilisé par FreeCAD est déclaré par cette ligne :
 
 
 {{Code|lang=xml|code=
 xmlns="http://www.w3.org/2000/svg" version="1.1"
 }}
 
-Le lien externe mène à un site web contenant des informations sur l\'espace de noms et son ensemble d\'instructions. Les attributs de cet espace de noms sont utilisés sans préfixe.
+Le lien externe mène à un site web contenant des informations sur l\'espace des noms et son ensemble d\'instructions. Les attributs de cet espace de noms sont utilisés sans préfixe.
 
 
 
-## Extension de l\'espace de noms 
+## Extension de l\'espace des noms 
 
-Les attributs manquants dans l\'espace de noms SVG peuvent être ajoutés par des extensions d\'espace de noms. FreeCAD utilise une telle extension pour les modèles de dessin. Les modèles pour l\'atelier Drawing utilisent quatre attributs personnalisés qui sont marqués d\'un préfixe \"freecad:\" :
-
--   [freecad:EditableText](#freecad_EditableText.md), cet attribut est toujours utilisé pour les modèles de l\'atelier TechDraw.
--   [freecad:basepoint1](#freecad_basepoint1.md)
--   [freecad:basepoint2](#freecad_basepoint2.md)
--   [freecad:dimpoint](#freecad_dimpoint.md)
-
-Une déclaration d\'espace de noms est utilisée pour introduire le préfixe et le lien vers le site web correspondant, **cette page** :
+Les attributs manquants dans l\'espace des noms SVG peuvent être ajoutés par des extensions d\'espace de noms. FreeCAD utilise une telle extension pour les modèles de dessin. La déclaration d\'espace des noms connexe, utilisée pour introduire le préfixe {{Value|freecad:}}, renvoie au site web connexe, **cette page** :
 
 
 {{Code|lang=xml|code=
-xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
 }}
 
 Le lien n\'est pas utilisé pour récupérer des informations ou des valeurs au moment de l\'exécution, mais c\'est la clé qui permet d\'activer les attributs personnalisés.
 
 
 
-### Modèles de Drawing 
+### Modèles et symbols de TechDraw 
 
-Dans les documents [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics) exportés par l\'[atelier Drawing](Drawing_Workbench/fr.md) de FreeCAD et utilisés comme des [modèles](Drawing_templates/fr.md) de pages (de dessin), les [attributs](http://www.w3schools.com/xml/xml_attributes.asp) personnalisés peuvent être utilisés, à l\'origine pour l\'usage interne de FreeCAD, mais ils pourraient également être utilisés par d\'autres applications compatibles avec FreeCAD à l\'avenir. Ces attributs utilisent tous le préfixe d\'[espace de nom](http://www.w3schools.com/xml/xml_namespaces.asp) **freecad:**. L\'URL de l\'espace de noms définie dans ces documents SVG renvoie à cette page.
+L\'atelier TechDraw utilise des modèles SVG pour créer des dessins. Il ne peut pas créer et exporter des modèles mais s\'appuie sur des modèles créés en externe avec des attributs insérés manuellement :
 
-:   L\'atelier Drawing n\'est plus inclus dans FreeCAD {{VersionPlus/fr|0.21}} et ces modèles de Drawing sont donc obsolètes.
+-   [freecad:editable](#freecad_editable.md) active les entrées éditables dans les blocs de titre.
+-   [freecad:autofill](#freecad_autofill.md) ({{Version/fr|1.0}}) ajouté à ce qui précède, marque le texte à remplir automatiquement lors de la création du modèle.
 
-
-
-### Modèles de TechDraw 
-
-L\'atelier TechDraw utilise également des modèles SVG mais ne peut pas créer et exporter des modèles. Il s\'appuie sur [freecad:EditableText](#freecad_EditableText.md) pour les entrées dans les blocs de titre.
+Les symboles sont un autre type de fichiers SVG qui peuvent être utilisés dans les vues de dessin, par exemple pour des annotations de type timbre. Ils doivent également être créés en externe et peuvent utiliser les attributs mentionnés ci-dessus.
 
 
 
-### Migrer vers freecad.org 
+### Migration vers freecad.org 
 
-Depuis que le wiki de FreeCAD, y compris **cette page**, a été migré de **freecadweb.org** à **freecad.org** avec la version 0.21, le lien doit être mis à jour en conséquence :
+Avant la migration du wiki FreeCAD, y compris **cette page** de **freecadweb.org** à **freecad.org** dans la version 0.21, le lien vers cette page était :
 
-
-{{Code|lang=xml|code=
-xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
-}}
+**xmlns:freecad=\"http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"**
 
 Les mises à jour des modèles TechDraw contiennent maintenant une clé qui ne peut pas activer les attributs personnalisés lorsqu\'ils sont utilisés avec FreeCAD {{VersionMinus/fr|0.20}} par conséquent, les textes éditables des modèles récents ne sont pas reconnus et sont donc traités comme du texte brut.
 
@@ -88,92 +73,197 @@ Il semble que {{VersionPlus/fr|0.21}} puisse traiter l\'une ou l\'autre adresse 
 
 ## Utilisation
 
-un pixel = un millimètre
 
-Vous devez insérer, quelque part dans votre code svg, où vous souhaitez que le contenu du dessin apparaisse (par exemple à la fin du fichier, juste avant la derniere balise \'\'\'
+<div class="mw-collapsible mw-collapsed toccolours">
 
 
+
+### Rappel au sujet du fichier SVG 
+
+
+<div class="mw-collapsible-content">
+
+Les modèles TechDraw sont des fichiers SVG utilisés pour créer le cadre des dessins techniques dans FreeCAD, tandis que les symboles ajoutent des éléments d\'annotation graphique.
+
+Le format SVG est un sous-ensemble du format XML. C\'est pourquoi un fichier SVG, comme tout fichier XML, se compose de deux parties :
+
+-   Un **en-tête** contenant une déclaration de format.
+-   Un **corps** contenant l\'information de ce qu\'il faut montrer et où la placer.
+
+
+
+#### L\'en-tête 
+
+L\'en-tête n\'est qu\'une ligne pour déclarer quelle version du langage XML, un interpréteur doit utiliser pour traiter les instructions du corps.
+
+
+{{Code|lang=xml|code=
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+}}
+
+
+
+#### Le corps 
+
+Le corps d\'un fichier SVG commence par une balise d\'ouverture {{Incode|<svg>}} qui contient des informations sur les espaces des noms, la taille du modèle et l\'endroit où le placer. Il se termine par une balise de fermeture {{Incode|</svg>}}. Toutes les instructions relatives à la création et à la modification des éléments géométriques et textuels seront insérées entre ces deux balises.
+
+
+{{Code|lang=xml|code=
+<svg
+  xmlns="http://www.w3.org/2000/svg" version="1.1"
+  width="420mm"
+  height="297mm"
+  viewBox="0 0 420 297">
 </svg>
+}}
 
-\'\'\'), la ligne suivante :
+Les balises peuvent contenir des attributs contrôlant les éléments situés entre la paire de balises d\'ouverture et de fermeture :
 
- xml
+:   **xmlns=**\'\"<http://www.w3.org/2000/svg>\" : lien externe vers l\'espace de noms xml pour consulter les commandes xml standard.
+:   **version=** \"1.1\" : jeu d\'instructions de la version 1.1 de xml est utilisé.
+:   **width=** \"420mm\" : largeur de la zone de dessin
+:   **height=** \"297mm\" : hauteur de la zone de dessin
+:   **viewBox=** \"0 0 420 297\" : position du coin supérieur gauche (0;0) et du coin inférieur droit (420;297) dans l\'espace de construction svg (en unités svg).
+
+La combinaison de {{Incode|width}}, {{Incode|height}} et {{Incode|viewBox}} définit **1 unité svg = 1 mm** pour l\'ensemble du document afin de permettre l\'impression à l\'échelle, c\'est-à-dire que toutes les dimensions en unités svg sont interprétées en millimètres et qu\'une unité dimensionnelle peut être omise à partir de maintenant. (Les valeurs de l\'exemple définissent la surface d\'une feuille A3 en orientation paysage)
+
+
+</div>
+
+
+</div>
 
 
 
- xml
+### Activer l\'extension de l\'espace des noms de FreeCAD 
+
+Pour activer l\'[extension de l\'espace des noms](#Extension_de_l'espace_des_noms.md), la déclaration de l\'espace des noms doit être ajoutée aux attributs de la balise d\'ouverture {{Incode|<svg>}}. Il en résulte un cadre de base pour un fichier modèle, une feuille A3 vierge en orientation paysage préparée pour {{Incode|freecad:}} [attributs](#Attributs.md) :
+
+
+{{Code|lang=xml|code=
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-    xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
-
-
-Pour obtenir une impression à l\'échelle, la taille réelle doit être inscrite dans les attributs width et height du SVG-Tag. L\'unité du document utilisateur doit être le pixel(px), et doit être renseigné dans l\'attribut viewBox.
-
-Ce qui suit doit être formaté comme dans l\'exemple ci-dessous :
-
--   xxx = pixel width (largeur)
--   yyy = pixel height (hauteur)
-
- xml
-width="xxxmm"
-height="yyymm"
-viewBox="0 0 xxx yyy"
-
-
-Les informations complémentaires pour l\'espace de travail et le bloc du titre peuvent être ajoutées et sont définies sur la page [Drawing Modèles](Drawing_templates/fr.md).
+  xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
+  width="420mm"
+  height="297mm"
+  viewBox="0 0 420 297">
+</svg>
+}}
 
 
 
 ## Attributs
 
+Si [l\'espace des noms de FreeCAD est activé](#Activer_l'extension_de_l'espace_des_noms_de_FreeCAD.md), les attributs suivants {{Incode|freecad:}} peuvent maintenant être utilisés dans les balises d\'ouverture {{Incode|<text>}} dans le document SVG :
 
+### freecad:editable
 
-### [freecad:EditableText](#Exemple_de_code_freecad_EditableText.md)
+L\'attribut freecad:editable est utilisé pour marquer les textes éditables dans les fichiers SVG. La valeur de cet attribut peut être modifiée :
 
-Pour utiliser l\'un des attributs **freecad:** dans vos documents SVG, vous devez d\'abord définir l\'espace de nom freecad comme un attribut de la balise d\'ouverture
+-   avec la boîte de dialogue \"Changer le champ éditable\" dans les modèles.
+-   en éditant la liste contenue dans la propriété Editable Texts des symboles.
 
-
-<svg>
-
-Définit un texte dans un modèle qui peut être édité par FreeCAD.
+Le texte par défaut doit être entouré de balises tspan, sinon le texte affiché dans le modèle/symbole ne sera pas synchronisé avec le contenu modifié de la variable.
 
 Exemple :
 
  xml
-<text freecad:EditableText="MyTitleText">
+<text freecad:editable="MyTitleText">
     <tspan>This is a title</tspan>
 </text>
 
 
-### freecad:basepoint1
+### freecad:autofill
 
-Définit le premier point d\'un objet [Draft Dimension](Draft_Dimension/fr.md) (représenté comme un groupe dans un document SVG). Cet attribut est utilisé lors de l\'importation du fragment SVG dans FreeCAD, afin de recréer l\'objet dimension. Le groupe contient des chemins et d\'autres éléments graphiques pour rendre correctement l\'objet de dimension dans d\'autres applications SVG.
+
+{{Version/fr|1.0}}
+
+: marque un texte éditable dans un modèle pour qu\'il soit rempli automatiquement lorsqu\'un modèle est inséré. (Ceci est ajouté à un attribut freecad:editable existant)
 
 Exemple :
 
  xml
-<g freecad:basepoint1="0.5 4.34" freecad:basepoint2="2.4 5.8" dimpoint="3.2 7.76">
-    <path d="...">
+<text freecad:editable="MyTitleText"; freecad:autofill="AutofillElement" >
+    <tspan>This is a title</tspan>
+</text>
+
+
+Les \"AutofillElements\" suivants sont encore implémentés :
+
+1.  freecad:autofill=\"author\" insère la valeur de BaseApp/Preferences/Document/prefAuthor.
+2.  freecad:autofill=\"date\" insère la valeur de currentDateTime().
+3.  freecad:autofill=\"organization\" insère la valeur de BaseApp/Preferences/Document/prefCompany.
+4.  freecad:autofill=\"scale\" insère la propriété d\'échelle de la page.
+5.  freecad:autofill=\"sheet\" insère le numéro de page/le nombre de pages.
+6.  freecad:autofill=\"title\" insère la valeur de la propriété Label du document courant.
+
+
+<div class="mw-collapsible mw-collapsed toccolours">
+
+
+
+### Rappel au sujet du traitement du texte 
+
+
+<div class="mw-collapsible-content">
+
+Les exemples ci-dessus sont incomplets car ils se concentrent uniquement sur les attributs {{Incode|freecad:}}, mais le texte a besoin de plus d\'informations pour être affiché à l\'endroit souhaité, avec un style spécifique, et éventuellement une rotation.
+
+Omettre les attributs pour utiliser les valeurs par défaut, cela améliore la lisibilité et permet d\'obtenir un fichier assez court et facile à maintenir.
+
+Chaque chaîne de texte est intégrée entre les balises {{Incode|<text>}} et {{Incode|</text>}}. Un texte modifiable doit également être inséré entre les balises {{Incode|<tspan>}} et {{Incode|</tspan>}}, faute de quoi il ne sera pas modifiable.
+
+Les textes sont insérés par défaut à {{Value|0;0}}. Insérez les coordonnées du point d\'ancrage {{Incode|x}} et {{Incode|y}} dans la balise {{Incode|<text>}} pour positionner le texte comme vous le souhaitez. Gardez à l\'esprit que la direction y dans le fichier SVG est vers le bas.
+
+Il est recommandé de regrouper les textes qui ont plusieurs propriétés en commun (c\'est-à-dire d\'intégrer le texte entre les balises {{Incode|<g>}} et {{Incode|</g>}}). De cette manière, les attributs communs peuvent être définis dans la balise de groupe {{Incode|<g>}} tandis que les attributs individuels peuvent être définis dans la balise {{Incode|<text>}}. Les attributs de texte intégrés ont la priorité sur les attributs de groupe environnants.
+
+Exemple :
+
+
+{{Code|lang=xml|code=
+<g id="text-non-editable"
+  font-family="osifont"
+  font-size="10"
+  text-anchor="start">
+    <text x="10" y="20">A simple text</text>
+    <text x="10" y="40" font-color:"blue">another simple text</text>
 </g>
+}}
+
+Dans cet exemple, les deux textes groupés sont affichés à l\'aide d\'un osifont de 10 mm de haut et leurs points d\'ancrage sont situés au niveau du premier caractère. Le premier est coloré en noir (couleur par défaut) et le second en bleu.
 
 
-### freecad:basepoint2
+{{Code|lang=xml|code=
+<g id="text-editable"
+  style="font-family:osifont; font-size:15; text-anchor:start; fill:blue">
+    <text freecad:editable="Text1" x="50" y="40">  <tspan>Editable text in blue</tspan>. </text>
+    <text freecad:editable="Text2" x="50" y="60" fill="red" text-anchor="middle">
+        <tspan>Centered editable text in red</tspan>
+    </text>
+    <text freecad:editable="Text3" x="50" y="80" transform="rotate(90,50,80)>
+        <tspan>Rotated editable text in blue</tspan>
+    </text>
+</g>
+}}
 
-Définit le deuxième point d\'un objet [Draft Dimension](Draft_Dimension/fr.md) (représenté comme un groupe dans un document SVG). Cet attribut est utilisé lors de l\'importation du fragment SVG dans FreeCAD, afin de recréer l\'objet dimension. Le groupe contient des chemins et d\'autres éléments graphiques pour rendre correctement l\'objet de dimension dans d\'autres applications SVG.
+Dans cet exemple, les trois textes modifiables groupés sont affichés en utilisant une police osifont de 15 mm de haut en bleu et avec leurs points d\'ancrage au premier caractère. Text2 a la couleur déviante rouge et est centré, Text3 est tourné de 90° dans le sens horaire, le centre de rotation coïncidant avec le point d\'ancrage.
 
-Exemple: voir [freecad:basepoint1](#freecad_basepoint1.md)
+Les exemples utilisent deux manières différentes de définir les paramètres de police, des attributs séparés dans le premier et combinés dans un seul attribut de style dans le second.
 
-### freecad:dimpoint
+Il est recommandé d\'utiliser l\'attribut ID dans les balises de groupe pour décrire grosso modo le type d\'éléments regroupés.
 
-Définit le point d\'un objet [Draft Dimension](Draft_Dimension/fr.md) par lequel passe la ligne de cote. Cet attribut est utilisé lors de l\'importation du fragment SVG dans FreeCAD, afin de recréer l\'objet dimension. Le groupe contient des chemins et d\'autres éléments graphiques pour rendre correctement l\'objet de dimension dans d\'autres applications SVG.
-
-Exemple: voir [freecad:basepoint1](#freecad_basepoint1.md)
+Les attributs de transformation fonctionnent bien avec tous les textes, mais les textes éditables perdront la connexion avec leurs marques d\'édition (soulignés bleus par défaut) car elles ne suivront pas le mouvement du texte. C\'est pourquoi les textes simples peuvent être regroupés avec la géométrie du cartouche et déplacés avec une seule translation, alors que les textes éditables doivent être positionnés individuellement. Les rotations dont le point d\'ancrage et le centre de rotation correspondent, contrairement aux autres transformations, peuvent être utilisées en toute sécurité dans les balises {{Incode|<text>}}, car le texte et la marque d\'édition ne s\'éloigneront pas l\'un de l\'autre.
 
 
+</div>
 
-### Exemple de code freecad:EditableText 
 
-Cet exemple provient du cartouche de la feuille [A3 Paysage](Misc_templates/fr#A3_paysage_texte_US_complet_avec_convention_US.md)
+</div>
+
+
+
+### Exemple de code freecad:editable 
 
 
 
@@ -305,17 +395,11 @@ Exemple:
 -   replacer par **freecad:editable** = \"AuthorName\"
 
 
-
-## Autres attributs disponibles 
-
-Voir [Drawing Modèles](Drawing_templates/fr.md)
-
-
-{{Drawing Tools navi
+{{TechDraw Tools navi
 
 }}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [Developer](Category_Developer.md) > [Python_Code](Category_Python_Code.md) > [Macros](Category_Macros.md) > [Drawing](Category_Drawing.md) > Svg Namespace/fr
+⏵ [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [Developer](Category_Developer.md) > [Python_Code](Category_Python_Code.md) > [Macros](Category_Macros.md) > [TechDraw](Category_TechDraw.md) > Svg Namespace/fr

@@ -13,20 +13,19 @@
 
 ## Description
 
-Cet outil trace une courbe B-spline périodique (fermée) à partir de ses points de contrôle. (Voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
-
-![](images/Sketcher_Periodic_B-spline_example01.png )
-
-
-
-*Une courbe B-spline périodique (en blanc) composée de 5 points. Sur la photo, le polygone de contrôle en vert (les lignes droites reliant les points rouges), les cercles de poids en bleu et le peigne de courbure en vert. Le chiffre (3) au centre fait référence au degré de la spline B et les chiffres (1) et (2) des nœuds situés sur la courbe font référence à leur multiplicité.*
+L\'outil <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:24px;"> [Sketcher B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md) crée une courbe [B-spline](B-Splines/fr.md) périodique (fermée) par des points de contrôle. {{Version/fr|1.0}} : c\'est le même outil que [Sketcher B-spline simple](Sketcher_CreateBSpline/fr.md) mais avec un mode initial différent.
 
 
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Créer une B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md)**.
-2.  Pour plus d\'informations, voir [Sketcher B-spline simple](Sketcher_CreateBSpline/fr#Utilisation.md).
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
+
+1.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Créer une B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Géometries d'esquisse → <img src="images/Sketcher_CreatePeriodicBSpline.svg" width=16px> Créer une B-spline périodique** du menu.
+    -   Utilisez le raccourci clavier : **G** puis **B**, puis **P**.
+2.  Pour d\'autres étapes, voir [Sketcher B-spline simple](Sketcher_CreateBSpline/fr#Utilisation.md).
 
 
 

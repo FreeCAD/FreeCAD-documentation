@@ -14,82 +14,50 @@
 
 
 
-## Introduction
 
-
-<div class="mw-translate-fuzzy">
 
 ## Introduzione
 
 OpenSCAD è un programma open source di CAD 3D, come FreeCAD. Ma mentre FreeCAD utilizza un approccio visivo, OpenSCAD utilizza un\'interfaccia di programmazione per eseguire le operazioni in 3D. L\'ambiente OpenSCAD di FreeCAD può essere utilizzato per importare il codice OpenSCAD dell\'oggetto e per accedere ad alcune delle operazioni sulle mesh possibili con OpenSCAD.
 
 
-</div>
-
-## Installing OpenSCAD 
-
-
-<div class="mw-translate-fuzzy">
 
 ## Installare OpenSCAD 
 
-Gli utenti Mac possono scaricare i file binari da [OpenSCAD homepage](http://www.openscad.org/).
-Gli utenti Linux Ubuntu/Mint possono installarlo dai repository di sistema o da [OpenSCAD homepage](http://www.openscad.org/).
-Gli utenti Windows possono scaricare il programma da [OpenSCAD homepage](http://www.openscad.org/).
-Dato che è necessario solo l\'eseguibile OpenSCAD, gli utenti Windows di FreeCAD possono installare la versione portabile, se preferiscono.
+-   Gli utenti Linux possono eseguire l\'installazione dai repository di distribuzione pertinenti, come Debian, openSUSE, Mint, Unbuntu, ecc. o dalla [di OpenSCAD](http://www.openscad.org/homepage).
+-   Gli utenti Mac possono scaricare i file binari dalla [di OpenSCAD](http://www.openscad.org/homepage).
+-   Gli utenti Windows possono scaricare il programma dalla [di OpenSCAD](http://www.openscad.org/homepage). Poiché FreeCAD necessita solo dell\'eseguibile OpenSCAD, gli utenti Windows possono installare la versione portatile, se lo desiderano.
 
 
-</div>
-
-## Configuring OpenSCAD workbench in FreeCAD 
-
-
-<div class="mw-translate-fuzzy">
 
 ## Configurare l\'ambiente OpenSCAD in FreeCAD 
 
--   Avviare FreeCAD
--   Passare all\'ambiente [OpenSCAD](OpenSCAD_Workbench/it.md)
--   Scegliere Modifica → Preferenze → OpenSCAD dal menu principale
-    -   Indirizzare FreeCAD all\'eseguibile di OpenSCAD (sezione: Impostazioni generali di OpenSCAD)
-    -   Tutti gli altri valori nella pagina delle impostazioni possono essere lasciati di default
+-   Aprire FreeCAD.
+-   Passare all\'[ambiente OpenSCAD](OpenSCAD_Workbench/it.md).
+-   Scegliere Modifica → Preferenze → OpenSCAD dal menu principale.
+    -   Far puntare FreeCAD all\'eseguibile OpenSCAD (sezione: Impostazioni generali di OpenSCAD).
+    -   Tutti gli altri valori nella pagina delle impostazioni potrebbero essere lasciati ai valori predefiniti.
 
 
-</div>
-
-## The sample model 
-
-
-<div class="mw-translate-fuzzy">
 
 ## Il modello di esempio 
 
 Qui viene usato il file example005.scad dai (vecchi) esempi OpenSCAD, ma si può utilizzare, a piacere, qualsiasi file scad.
-<img alt="" src=images/TutorialOpenSCAD_SampleFile.jpg  style="width:800px;">
-
-
-</div>
 
 <img alt="" src=images/TutorialOpenSCAD_SampleFile.jpg  style="width:800px;">
 
-## Importing the model in FreeCAD 
 
-
-<div class="mw-translate-fuzzy">
 
 ## Importare il modello in FreeCAD 
 
--   In FreeCAD scegliere ** File** → ** Apri** e scegliere il file .scad che si desidera importare.
--   Non è importante che l\'ambiente OpenSCAD sia attivato. L\'ambiente OpenSCAD è necessario solo quando si applicano specifiche funzioni al modello.
--   FreeCAD importa il file OpenSCAD e costruisce un albero con le primitive e le operazioni booleane.
--   Il tutorial è finito.
+-   In FreeCAD basta scegliere ** File** → ** Apri** e scegliere il file .scad che si desidera importare.
+-   Non è importante quale ambiente di lavoro è attivo, l\'ambiente di lavoro OpenSCAD stesso è necessario solo quando si applicano funzionalità speciali al modello.
+-   FreeCAD importerà il file OpenSCAD e creerà un albero con primitive e operazioni booleane
+-   Tutorial terminato.
 
 <img alt="" src=images/TutorialOpenSCAD_ImportFile.jpg  style="width:800px;">
 
 
-</div>
-
-<img alt="" src=images/TutorialOpenSCAD_ImportFile.jpg  style="width:800px;">
 
 ## Correlazioni
 

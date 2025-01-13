@@ -1,9 +1,11 @@
 # Code snippets/it
 ## Introduzione
 
-Questa pagina contiene degli esempi di codice Python utilizzabili in FreeCAD, raccolti dalle esperienze degli utenti e dalle discussioni nei [forum](https://forum.freecadweb.org/viewforum.php?f=22). Dopo averli letti, è possibile usarli per iniziare a creare degli script personali \...
+Questa pagina contiene degli esempi, pezzi, di codice Python utilizzabili in FreeCAD, raccolti dalle esperienze degli utenti e dalle discussioni nei [forum](https://forum.freecadweb.org/viewforum.php?f=22). Dopo averli letti, è possibile usarli per iniziare a creare degli script personali \...
 
-## Snippets
+
+
+## Frammenti
 
 
 
@@ -216,7 +218,9 @@ v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
 
 {{Top}}
 
-### Replace the form of mouse with one image 
+
+
+### Sostituire la forma del mouse con un\'immagine 
 
 
 ```python
@@ -235,9 +239,11 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 {{Top}}
 
-### Replace the form of mouse with one image (cross) include 
 
-The image is created by Gimp exported in a .XPM file. Copy and use the code between the bracket **\"{\"** code to copy **\"}\"**
+
+### Sostituire la forma del mouse con un\'immagine (croce) inclusa 
+
+L\'immagine viene creata da Gimp esportata in un file .XPM. Copiare ed utilizzare il codice tra parentesi **\"{\"** code to copy **\"}\"**
 
 
 ```python
@@ -294,9 +300,11 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 {{Top}}
 
-### Observe camera change in the 3D viewer via Python 
 
-This can be done adding a [Node sensor](https://www.coin3d.org/Coin/html/classSoNodeSensor.html) to the camera:
+
+### Osservare il cambiamento della telecamera nel visualizzatore 3D tramite Python 
+
+Questo può essere fatto aggiungendo un [Sensore Node](https://www.coin3d.org/Coin/html/classSoNodeSensor.html) alla fotocamera:
 
 
 ```python
@@ -481,7 +489,7 @@ sg.removeChild(no)
 
 ### Salvare il grafo della scena in 3 serie di 36 file 
 
-View the code snippet by expanding this section
+Visualizza il frammento di codice espandendo questa sezione
 
 
 <div class="mw-collapsible-content">
@@ -661,7 +669,7 @@ tab2.show()
 
 ### Abilitare o disabilitare una finestra 
 
-This script give the ability to manipulate the UI from the [Python console](Python_console.md) to show/hide different components in the FreeCAD [interface](interface.md) such as:
+Questo script dà la possibilità di manipolare l\'interfaccia utente dalla [Python console/it](Python_console/it.md) per mostrare/nascondere diversi componenti nella [interface/it](interface/it.md) di FreeCAD come:
 
 -   [Report view](Report_view.md)
 -   [Tree view](Tree_view.md)
@@ -873,7 +881,9 @@ c = v.addEventCallback("SoMouseButtonEvent",o.logPosition)
 
 {{Top}}
 
-### Display the active document 
+
+
+### Visualizzare il documento attivo 
 
 
 ```python
@@ -886,7 +896,7 @@ App.addDocumentObserver(obs)
 #App.removeDocumentObserver(obs)                 # desinstalle la fonction residente
 ```
 
-To remove the observer call:
+Per rimuovere la chiamata dell\'osservatore:
 
 
 ```pythonApp.removeDocumentObserver(obs)                 # desinstalle la fonction residente
@@ -950,12 +960,12 @@ mouse_over = view.addEventCallbackPivy( coin.SoLocation2Event.getClassTypeId(), 
 
 Questa funzione elenca i componenti ed estrae le coordinate XYZ di un oggetto, i bordi (edge) e le loro lunghezze, le sue facce e la loro superficie.
 
-This function list the components of an object and extracts:
+Questa funzione elenca i componenti di un oggetto ed estrae:
 
--   this object its XYZ coordinates,
--   its edges and their lengths center of mass and coordinates
--   its faces and their center of mass
--   its faces and their surfaces and coordinates
+-   questo oggetto e le sue coordinate XYZ,
+-   i suoi bordi e le loro lunghezze, centro di massa e coordinate
+-   le sue facce e il loro centro di massa
+-   le sue facce e le loro superfici e coordinate
 
 
 <div class="mw-collapsible-content">
@@ -1439,13 +1449,7 @@ App.Console.PrintMessage("Base.Angle   : "+str(FreeCAD.ActiveDocument.getObjects
 
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Note: Di solito gli angoli sono espressi in radianti da convertire con:
-
-
-</div>
+**Nota:** Solitamente gli angoli sono espressi in radianti. Per convertirli:
 
 1.  da gradi a radianti :
     -   angolo in radianti = **pi \* (angolo in gradi) / 180**
@@ -1604,7 +1608,9 @@ print("Rotation Q : ", r.Q)
 
 {{Top}}
 
-### Get the normal vector of a face of an object by Name object and number of Face 
+
+
+### Ottienere il vettore normale di una faccia di un oggetto tramite Nome oggetto e numero di Faccia 
 
 
 ```python
@@ -1618,7 +1624,9 @@ print("Face"+str(numero_Face), " : ", normal)
 
 {{Top}}
 
-### Get the normal vector of an object selected and number of Face 
+
+
+### Ottienere il vettore normale di un oggetto selezionato e il numero di Faccia 
 
 
 ```python
@@ -1663,7 +1671,9 @@ def normal(self):
 
 {{Top}}
 
-### Get the normal vector of the face and create a line at the point mouse clicked 
+
+
+### Ottenere il vettore normale della faccia e creare una linea nel punto cliccato con il mouse 
 
 
 ```python
@@ -1809,9 +1819,11 @@ for i in expressions:                                                      # lis
 
 {{Top}}
 
-### Create a Sketch on a Surface in PartDesign 
 
-This snippet can be useful, if you want to create a sketch on a surface in PartDesign from inside a macro. Note, that body might be None, if no active body is selected and that the Selection might be empty.
+
+### Creare uno schizzo su una superficie in PartDesign 
+
+Questo frammento può essere utile se si desidera creare uno schizzo su una superficie in PartDesign dall\'interno di una macro. Tenere presente che il corpo potrebbe essere None, se non è selezionato alcun corpo attivo e che la Selezione potrebbe essere vuota.
 
 
 ```python
@@ -1832,9 +1844,11 @@ App.ActiveDocument.recompute()
 
 {{Top}}
 
-### How to Simulate a Mouse Click at a given Coordinate 
 
-The position is relative to the GL widget. See [forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=44008).
+
+### Come simulare un Clic del Mouse su una data coordinata 
+
+La posizione è relativa al widget GL. Vedere [discussione sul forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=44008).
 
 
 ```python
@@ -1850,7 +1864,7 @@ app = QtWidgets.QApplication.instance()
 app.sendEvent(gl, me)
 ```
 
-If you have a 3d point and want to get the 2d point on the opengl widget then use this:
+Se si ha un punto 3D e si vuole ottenere il punto 2D sul widget OpenGL, usare questo:
 
 
 ```python
@@ -1874,9 +1888,11 @@ me = QtGui.QMouseEvent(QtCore.QEvent.MouseButtonRelease, QtCore.QPoint(coordX,co
 
 {{Top}}
 
-### How to create a face with holes using Python API 
 
-This snippet demonstrates how to create a face with internal holes through the Python API. See [forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=56308).
+
+### Come creare una faccia con fori utilizzando l\'API Python 
+
+Questo frammento dimostra come creare una faccia con fori interni tramite l\'API Python. Vedi [discussione sul forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=56308).
 
 
 ```python
@@ -1918,7 +1934,9 @@ Part.show(myFace)
 
 {{Top}}
 
-### Close and restart FreeCAD 
+
+
+### Chiudere e riavviare FreeCAD 
 
 
 ```python
@@ -1940,18 +1958,13 @@ def restart_freecad():
 
 ## Coin3D
 
-See [Coin3d snippets](Coin3d_snippets.md) 
+Vedere [Frammenti Coin3d](Coin3d_snippets/it.md) 
 
 ## Correlazioni
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Oggetti da script](Scripted_objects/it.md)
 -   [Macro](Macros/it.md)
-
-
-</div>
+-   [Topological_data_scripting/Script di dati topologici](Topological_data_scripting/Script_di_dati_topologici.md)
 
 
 {{Top}}

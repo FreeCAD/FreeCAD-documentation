@@ -47,7 +47,13 @@ FreeCAD apoya varios paquetes de software de terceros fuera de la caja. En mucho
 
 ### OpenCAMLib
 
+
+<div class="mw-translate-fuzzy">
+
 [OpenCAMLib](http://www.anderswallin.net/CAM) es una biblioteca de código abierto de algoritmos de fabricación asistida por ordenador (CAM). Se utiliza en el [Ambiente de Trabajo Path](Path_Workbench/es.md). Consulte la página [OpenCamLib](OpenCamLib/es.md) para obtener instrucciones de instalación.
+
+
+</div>
 
 ### OpenSCAD
 
@@ -97,11 +103,27 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ### LuxCoreRender
 
+
+<div class="mw-translate-fuzzy">
+
+### LuxCoreRender 
+
 [LuxCoreRender](https://www.luxcorerender.org) es una máquina de renderizado, reinicio del proyecto [LuxRender](LuxRender/es.md). Oficialmente no está soportado por el [Ambiente de trabajo Trazado de rayos](Raytracing_Workbench/es.md), pero podría valer la pena probarlo. Está oficialmente soportado por el nuevo [Ambiente de trabajo Renderización](https://github.com/FreeCAD/FreeCAD-render), pensado como un futuro reemplazo del ambiente de trabajo trazado de rayos. Ver la página [LuxCoreRender](LuxCoreRender/es.md) para más información e instrucciones de instalación.
+
+
+</div>
 
 ### LuxRender
 
+
+<div class="mw-translate-fuzzy">
+
+### LuxRender 
+
 [LuxRender](https://luxcorerender.org/history/) es una de las dos máquinas de renderización soportados por el [Ambiente de trabajo Trazado de rayos](Raytracing_Workbench/es.md). En 2013 el proyecto ha sido reiniciado convirtiéndose en [LuxCoreRender](LuxCoreRender/es.md), con una importante reescritura de código y cambios que rompen la compatibilidad. Oficialmente el ambiente de trabajo trazado de rayos sólo soporta el abandonado [LuxRender](LuxRender/es.md) (la última versión es la 1.6, 2017-12-28), mientras que el nuevo [Ambiente de trabajo Renderización](https://github.com/FreeCAD/FreeCAD-render) (pensado como un futuro reemplazo del Ambiente de trabajo Trazado de rayos) soporta en cambio LuxCoreRender y ha dejado de soportar LuxRender. De todos modos, aunque oficialmente no esté soportado, [LuxCoreRender](LuxCoreRender/es.md) puede funcionar con el Ambiente de trabajo Trazado de rayos, podría valer la pena probarlo. Mira la página de [LuxRender](LuxRender/es.md) para más información e instrucciones de instalación, y la de [LuxCoreRender](LuxCoreRender/es.md) si quieres probar un software más moderno.
+
+
+</div>
 
 
 

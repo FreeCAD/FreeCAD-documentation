@@ -10,9 +10,13 @@
 
 # Std ViewZoomIn/pl
 
+
+
 ## Opis
 
 Polecenie **Przybliż** powoduje powiększenie aktywnego widoku w oknie [widoku 3D](3D_view/pl.md).
+
+
 
 ## Użycie
 
@@ -20,35 +24,41 @@ Polecenie **Przybliż** powoduje powiększenie aktywnego widoku w oknie [widoku 
     -   Wybierz z menu opcję **Widok → Powiększenie → <img src="images/Std_ViewZoomIn.svg" width=16px> Przybliż**.
     -   Użyj skrótu klawiaturowego: **Ctrl** + **+**.
 
+
+
 ## Uwagi
 
--   Istnieje również możliwość powiększania / pomniejszenia obrazu za pomocą kółka przewijania myszy.
+-   W prawie wszystkich [stylach nawigacji](Mouse_navigation/pl.md) istnieje również możliwość powiększania / pomniejszenia obrazu za pomocą kółka przewijania myszy.
+
+
 
 ## Ustawienia
 
--   Współczynnik powiększenia można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Nawigacja → Krok powiększenia**. To ustawienie ma również wpływ na powiększanie za pomocą kółka przewijania. Zobacz informacje na stronie [Edytor ustawień](Preferences_Editor/pl#Nawigacja.md).
+Zobacz też: [Edytor preferencji](Preferences_Editor/pl.md).
+
+-   Współczynnik powiększenia można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Nawigacja → Krok powiększenia**. To ustawienie ma również wpływ na powiększanie za pomocą kółka przewijania.
+
+
 
 ## Tworzenie skryptów 
 
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby powiększyć obraz, użyj metody `zoomIn` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
+Aby powiększyć obraz, użyj metody `zoomIn` obiektu View. Jest też dostępna metoda `zoomOut`.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.zoomIn()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.zoomIn()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

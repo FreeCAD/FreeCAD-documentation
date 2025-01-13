@@ -1,57 +1,78 @@
 ---
  GuiCommand:
    Name: Arch MultiMaterial
-   MenuLocation: Arch , Material tools , Multi-Material
-   Workbenches: Arch_Workbench, BIM_Workbench
+   Name/pl: Architektura: Narzędzia materiałowe
+   MenuLocation: Architektura , Narzędzia materiałowe , Materiał wielowarstwowy
+   Workbenches: Arch_Workbench/pl, BIM_Workbench/pl
    Version: 0.17
-   SeeAlso: Arch_SetMaterial, Arch_CompSetMaterial
+   SeeAlso: Arch_SetMaterial/pl
 ---
 
 # Arch MultiMaterial/pl
 
-## Description
 
-The Multi-Material tool defines a list of [materials](Material.md) with, for each material, a name and a thickness value. This multi-materials list can then be added to an [Arch](Arch_Workbench.md) object instead of a single [Arch Material](Arch_SetMaterial.md) .
+
+## Opis
+
+Narzędzie Materiał wielowarstwowy definiuje listę [materiały](Material/pl.md) z nazwą i wartością grubości dla każdego materiału. Taką listę materiałów można następnie dodać do obiektu [Architektury](Arch_Workbench/pl.md) zamiast pojedynczego [materiału](Arch_SetMaterial/pl.md).
 
 ![](images/Arch_multimaterial_example.png )
 
-Not all Arch objects can currently make use of multi-materials, and the use they do of it differs. Currently:
+Nie wszystkie obiekty Architektury mogą obecnie korzystać z materiałów wielowarstwowych, a sposób ich wykorzystania jest różny. Obecnie:
 
--   <img alt="" src=images/Arch_Wall.svg  style="width:24px;"> [Walls](Arch_Wall.md) with a MultiMaterial will use the material definitions and thicknesses to create a multi-layer wall
--   <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Windows](Arch_Window.md) with a MultiMaterial will attribute materials with a given name defined inside the MultiMaterial to window components with a same name or type (see below). Material thickness is not considered.
--   <img alt="" src=images/Arch_Panel.svg  style="width:24px;"> [Panels](Arch_Panel.md) with a MultiMaterial will use the material definitions and thicknesses to create a multi-layer panel
+-   <img alt="" src=images/Arch_Wall.svg  style="width:24px;"> [Ściana](Arch_Wall/pl.md) z materiałem wielowarstwowym użyje definicji materiału i grubości do stworzenia wielowarstwowej ściany.
+-   <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Okno](Arch_Window/pl.md) z materiałem wielowarstwowym przypisze materiały o danej nazwie zdefiniowanej wewnątrz materiału wielowarstwowego do komponentów okna o tej samej nazwie lub typie *(patrz poniżej)*. Grubość materiału nie jest brana pod uwagę.
+-   <img alt="" src=images/Arch_Panel.svg  style="width:24px;"> [Panel](Arch_Panel/pl.md) z materiałem wielowarstwowym użyje definicji i grubości materiału do utworzenia wielowarstwowego panelu.
 
-## Usage
 
-1.  Create first a series of **<img src="images/Arch_SetMaterial.svg" width=16px> [Arch Materials](Arch_SetMaterial.md)** that you will need in your Multi-Material.
-2.  Optionally, select an Arch object you wish to attribute the new Multi-Material to.
-3.  Press the **<img src="images/Arch_MultiMaterial.svg" width=16px> [Multi-Material](Arch_MultiMaterial.md)** button.
-4.  Set the desired material layers.
 
-## Options
+## Użycie
+
+1.  Stwórz najpierw serię **<img src="images/Arch_SetMaterial.svg" width=16px> [materiałów](Arch_SetMaterial/pl.md)**, które będą potrzebne w twoim materiale wielowarstwowym.
+2.  Opcjonalnie, wybierz obiekt Architektury, któremu chcesz przypisać nowy materiał wielowarstwowy.
+3.  Naciśnij przycisk **<img src="images/Arch_MultiMaterial.svg" width=16px> [Materiał wielowarstwowy](Arch_MultiMaterial/pl.md)**.
+4.  Ustaw żądane warstwy materiału.
+
+
+
+## Opcje
 
 ![](images/Arch_multimaterial_panel.png )
 
-Upon creating or editing a multi-material by double-clicking it in the tree, the following options are available:
+Po utworzeniu lub edycji materiału wielowarstwowego poprzez dwukrotne kliknięcie go w drzewie, dostępne są następujące opcje:
 
--   **Duplicate** another existing Multi-Material from the same document. This only copies the values over, and doesn\'t link the two multi-materials in any way.
--   The **Name** field will also set the material object\'s Label
--   The **Composition** list is the list of the different material layers that compose this multi-material. Each layer has a name, a material and a thickness value.
--   Click **Add** to add a new layer, **Up** to move a selected layer up, **Down** to move a selected layer down, or **Del** to delete a selected layer.
--   Double-click the **name** of a layer to edit it, the material will offer you a drop-down list of available [Arch Materials](Arch_SetMaterial.md) in the same document, and thickness can be set to any value in any unit
--   Name and Material fields are mandatory. Thickness can be left blank (it will then adopt a value of 0).
--   When a multi-material contains layers with a thickness of zero, that thickness is considered variable. Arch objects that use the multi-material, such as Walls and Panels, will treat that accordingly, and give that layer the remaining space available given their own width or thickness.
--   If you name the different components of a multi-material \"Frame\", \"Solid panel\", \"Glass panel\" or \"Louvre\", and apply that material to a window, the given materials will be applied to the corresponding window components.
+-   **Duplikuj** inny istniejący Materiał wielowarstwowy z tego samego dokumentu. Kopiuje to tylko wartości i nie łączy w żaden sposób tych dwóch materiałów.
+-   Pole *Nazwa* ustawi również etykietę obiektu materiału.
+-   Lista *Kompozycja* to lista różnych warstw materiału, które składają się na ten materiał. Każda warstwa ma nazwę, materiał i wartość grubości.
+-   Kliknij **Dodaj**, aby dodać nową warstwę, **Up**, aby przesunąć wybraną warstwę w górę, **Down**, aby przesunąć wybraną warstwę w dół lub **Del**, aby usunąć wybraną warstwę.
+-   Dwukrotne kliknięcie na **nazwę** warstwy umożliwia jej edycję, obiekt materiał wyświetli rozwijaną listę dostępnych [materiałów](Arch_SetMaterial/pl.md) w tym samym dokumencie, a grubość można ustawić na dowolną wartość w dowolnej jednostce.
+-   Pola Nazwa i Materiał są obowiązkowe. Grubość może pozostać pusta *(przyjmie wtedy wartość 0)*.
+-   Gdy Materiał wielowarstwowy zawiera warstwy o grubości równej zero, grubość ta jest uważana za zmienną. Obiekty Architektury, które używają tego materiału, takie jak Ściany i Panele, potraktują to odpowiednio i dadzą tej warstwie pozostałą dostępną przestrzeń, biorąc pod uwagę ich własną szerokość lub grubość.
+-   Jeśli nazwiesz różne komponenty Materiału wielowarstwowego \"Rama\", \"Panel pełny\", \"Panel szklany\" lub \"Żaluzja\" i zastosujesz ten materiał do okna, podane materiały zostaną zastosowane do odpowiednich komponentów okna.
 
-## Relation to IFC 
 
-This roughly corresponds to a combination of [IfcMaterialLayerSet](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) and [IfcMaterialLayer](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
 
-## Limitations
+## Powiązania z IFC 
 
-## Scripting
+Z grubsza odpowiada to kombinacji [IfcMaterialLayerSet](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayerset.htm) i [IfcMaterialLayer](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmateriallayer.htm).
+
+
+
+## Ograniczenia
+
+
+
+## Tworzenie skryptów 
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/pl
+⏵ [documentation index](../README.md) > Arch MultiMaterial/pl

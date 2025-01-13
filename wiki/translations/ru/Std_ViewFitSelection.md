@@ -26,6 +26,9 @@
 
 ## Применение
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Выберите один или несколько объектов.
 2.  Существует несколько способов вызова команды:
     -   Через нажатие кнопки **<img src="images/Std_ViewFitSelection.svg" width=16px> [Уместить выделенное](Std_ViewFitSelection/ru.md)**.
@@ -34,28 +37,49 @@
     -   Последовательностью клавиш клавиатуры: **V** и **S**.
 
 
+</div>
+
+
 
 ## Программирование
+
+
+<div class="mw-translate-fuzzy">
 
 
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Чтобы применить команду «Уместить выбранное» к активному 3D Виду, можно также использовать метод `SendMsgToActiveView` объекта FreeCADGui. Этот метод недоступен, если FreeCAD находится в режиме консоли.
+
+
+</div>
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.SendMsgToActiveView('ViewSelection')
+FreeCADGui.SendMsgToActiveView("ViewSelection")
 ```
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Std Base navi
+
+
+</div>
+
+
+{{Std_Base_navi
 
 }}
 

@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug arbeitet wie das Werkzeug [Sketcher LinieErstellen](Sketcher_CreateLine/de.md), erstellt aber kontinuierliche Linien- und Bogensegmente, die durch Knoten miteinander verbunden sind. Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Polyliniensymbol. Die Koordinaten werden in Echtzeit in blau neben dem Zeiger angezeigt.
+Das Werkzeug <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [Sketcher LinienzugErstellen](Sketcher_CreatePolyline/de.md) erstellt eine Abfolge von Linien- und Kreisbogenabschnitten, die an ihren Endpunkten verbunden sind. Das Werkzeug besitzt mehrere Modi.
 
 ![](images/Sketcher_PolylineExample1.png )
 
@@ -26,22 +26,34 @@ Dieses Werkzeug arbeitet wie das Werkzeug [Sketcher LinieErstellen](Sketcher_Cre
 
 ## Anwendung
 
-Die Polylinie beginnt immer mit einem geraden Liniensegment: klicken - die Maus bewegen - klicken. Bewege die Maus erneut. Nachdem das erste Liniensegment platziert wurde, verfügt das Skizzierer Polylinien Werkzeug über mehrere Modi, die mit der **M** Taste umgeschaltet werden können. Zum Beispiel kannst du tangentiale oder senkrechte Bögen zeichnen, die einem Linien- oder Bogensegment folgen. Durch wiederholtes Drücken der Taste **M** schaltet zwischen diesen verschiedenen Modi um:
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
-1.  Drücke die **M** Taste: Das neue Segment ist eine Linie, die senkrecht zum vorherigen Segment verläuft.
-2.  Drücke die **M** Taste erneut: das neue Segment ist eine Linie, die tangential zum vorherigen Segment verläuft.
-3.  Drücke die **M** Taste erneut: das neue Segment ist ein Bogen, der tangential zum vorherigen Segment verläuft.
-4.  Drücke die **M** Taste erneut: das neue Segment ist ein Bogen, der senkrecht (links) zum vorherigen Segment verläuft.
-5.  Drücke die **M** Taste erneut: das neue Segment ist ein Bogen, der senkrecht (rechts) zum vorherigen Segment verläuft.
-6.  Drücke die **M** Taste erneut: Du befindest dich wieder in dem Zustand, in dem du begonnen hast; die Linie ist nur durch eine Koinzidenz mit dem vorherigen Segment verbunden.
-
--    <small>(v0.18)</small> Solange in einem der der Bogenmodi, gedrückt halten der **Strg** Taste (MacOS: **CMD** Taste) und bewegen des Mauszeigers bewirkt, dass der Bogen in 45 Grad Abstufungen einrastet, relativ zum zuvor erstellten Polyliniensegment.
-
--   Punkte wählen auf einem leeren Bereich der 3D Ansicht oder auf einem vorhandenen Objekt (automatische Beschränkungen müssen in AufgabenAnsicht aktiv sein).
-
--   Drücken von **Esc** oder Klicken der rechten Maustaste *vor* dem Schließen der Polylinie zu einer Schleife beendet die aktuelle Polylinie und du kannst mit einer neuen fortfahren. Drücken von **Esc** oder ein erneuter Klick mit der rechten Maustaste beendet die Polylinienfunktion.
-
--   Drücken von **Esc** oder das Klicken der rechten Maustaste *nach* dem Schließen des Linienzugs zu einer Schleife beendet die Linienzugfunktion.
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_CreatePolyline.svg" width=16px> [Linienzug erstellen](Sketcher_CreatePolyline/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Skizzengeometrien → <img src="images/Sketcher_CreatePolyline.svg" width=16px> Linienzug erstellen** auswählen.
+    -   Ein Rechtsklick in die [3D-Ansicht](3D_view/de.md) und die Menüoption **<img src="images/Sketcher_CreatePolyline.svg" width=16px> Linienzug erstellen** im Kontextmenü auswählen.
+    -   Das Tastaturkürzel **G** then **M**.
+2.  Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
+3.  Die Modi dieses Werkzeugs erfordern einen vorherigen Abschnitt. Dafür eine der folgenden Möglichkeiten auswählen:
+    -   Zwei Punkte auswählen, um einen Linienabschnitt festzulegen.
+    -   Den Endpunkt eines vorhandenen Linien- oder Kreisbogenabschnitts auswählen ([automatische Randbedingungen](Sketcher_Workbench/de#Automatische_Randbedingungen.md) müssen aktiviert sein).
+4.  Wahlweise die **M**-Taste einmal oder mehrmals drücken, um durch die unterschiedlichen Modi für den nächsten Abschnitt zu wechseln. Diese Modi stehen zur Verfügung:
+    -   Linie rechtwinklig zum vorherigen Abschnitt.
+    -   Linie tangential zum vorherigen Abschnit (dies ist der Ausgangsmodus, wenn der vorherige Abschnitt ein Kreisbogen ist).
+    -   Kreisbogen tangential zum vorherigen Abschnitt.
+    -   Kreisbogen rechtwinklig (links) zum vorherigen Abschnitt.
+    -   Kreisbogen rechtwinklig (rechts) zum vorherigen Abschnitt.
+    -   Linie nur mit dem vorherigen Abschnitt verbunden.
+5.  Während ein Kreisbogen-Modus aktiv ist, kann wahlweise die **Ctrl**-Taste gedrückt gehalten werden, um den Kreisbogen in 45°-Schritten, bezogen auf den vorherigen Abschnitt, einrasten zu lassen.
+6.  Den Endpunkt des Abschnitts auswählen.
+7.  Wahlweise wiederholen, um weitere Abschnitte zu erstellen.
+8.  Zum Beenden eine der folgenden Möglichkeiten auswählen:
+    -   Auf den Startpunkt einrasten, um einen geschlossenen Linienzug zu erstellen.
+    -   Die rechte Maustaste oder **Esc** drücken, um einen offenen Linienzug zu erstellen.
+9.  Die Linienzugabschnitte werden erstellt und passende Randbedingungen hinzugefügt.
+10. Wenn das Werkzeug im [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md) läuft:
+    1.  Wahlweise weitere Linienzüge erstellen.
+    2.  Zum Beenden die rechte Maustaste oder **Esc** drücken; oder ein anderes Werkzeug zum Erstellen von Geometrien oder Randbedingungen aufrufen.
 
 
 

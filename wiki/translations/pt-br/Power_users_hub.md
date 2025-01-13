@@ -2,41 +2,49 @@
 
 
 
-This is the place to come if you are an experienced user and want to learn more about customizing and extending FreeCAD.
+Este é o local ideal para você, se for um usuário experiente e deseja aprender mais sobre como personalizar e expandir o FreeCAD.
 
-FreeCAD is extensible by [Python](Python.md) code that is run directly in the [Python console](Python_console.md), or that is loaded from modules at startup. This means that you can modify FreeCAD without needing to recompile the program. For example, you can:
+O FreeCAD é extensível por meio de código [Python](Python/pt-br.md) que é executado diretamente no [console Python](Python_console/pt-br.md), ou carregado a partir de módulos na inicialização. Isso significa que você pode modificar o FreeCAD sem precisar recompilar o programa. Por exemplo, você pode:
 
--   **Create and modify geometry**: you can create a new object type, either from scratch or by adapting an existing type.
--   **Create custom tools and commands**: add your own set of tools that run your code.
--   **Modify the interface**: create toolbars to put your tools, create special windows, panels, or interfaces for interacting with your tools.
--   **Modify the scenegraph representation**: FreeCAD has separate processes for building up the geometry and displaying that geometry on screen. You have full access to the way the scene contents are displayed on screen, therefore you can modify that representation, interact with it, or add custom behaviour to it. You can also add custom screen widgets, like information, draggers, anchors or temporary entities.
+-   **Criar e modificar geometria**: você pode criar um novo tipo de objeto, seja do zero ou adaptando um tipo existente.
+-   **Criar ferramentas e comandos personalizados**: adicione seu próprio conjunto de ferramentas que executam seu código.
+-   **Modificar a interface**: crie barras de ferramentas para adicionar suas ferramentas, crie janelas especiais, painéis ou interfaces para interagir com suas ferramentas.
+-   **Modificar a representação do scenegraph**: O FreeCAD possui processos separados para construir a geometria e exibi-la na tela. Você tem acesso total à maneira como o conteúdo da cena é exibido, portanto, pode modificar essa representação, interagir com ela ou adicionar comportamentos personalizados. Também é possível adicionar widgets de tela personalizados, como informações, manipuladores, âncoras ou entidades temporárias.
 
-If you\'d like to contribute content to these pages, request a wiki account with editor permissions [in the forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), and read the [WikiPages](WikiPages.md) for the general guidelines that you should follow. For other ways to contribute with the project, see the [Help FreeCAD](Help_FreeCAD.md) page.
+Se você gostaria de contribuir com conteúdo para essas páginas, solicite uma conta na wiki com permissões de editor \[aqui no fórum\](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) e leia as [Páginas da Wiki](WikiPages/pt-br.md) para as diretrizes gerais que você deve seguir. Para outras formas de contribuir com o projeto, veja a página [Ajuda FreeCAD](Help_FreeCAD/pt-br.md).
 
-## Customizing FreeCAD 
 
--   [Interface Customization](Interface_Customization.md): Starting with the beginning: Toolbars and shortcuts
--   [Working with Macros](Macros.md): Easily record often repeated tasks or Python code
--   [Macros recipes](Macros_recipes.md)
--   [Customize Toolbars](Customize_Toolbars.md)
--   [Installing more workbenches](Installing_more_workbenches.md)
 
-## Scripting in FreeCAD 
+## Customizando o FreeCAD 
 
-### General
+-   [Personalização da Interface](Interface_Customization/pt-br.md): Começando pelo básico: Barras de ferramentas e atalhos
+-   [Trabalhando com Macros](Macros/pt-br.md): Grave facilmente tarefas repetidas ou código Python
+-   [Receitas de Macros](Macros_recipes/pt-br.md)
+-   [Personalizar Barras de Ferramentas](Customize_Toolbars/pt-br.md)
+-   [Instalando mais Workbenches](Installing_more_workbenches/pt-br.md)
 
--   [Scripting and Macros](Scripting_and_macros.md) - A list of relevant wiki pages
--   [Introduction to Python](Introduction_to_Python.md) - See also other Python tutorials at the bottom of this page
--   [FreeCAD scripting tutorial](Python_scripting_tutorial.md) - A general look at Python scripting in FreeCAD
--   [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md): Well, the basics
--   [FreeCAD Manual - Section Python Scripting](Manual_A_gentle_introduction.md): Multi-chapter introduction to Python Scripting in FreeCAD
--   [Gui Command](Gui_Command.md): Adding custom commands to the GUI
--   Using mixed [Units](Units.md) in FreeCAD
--   [Profiling](Profiling.md) the Python code
--   [Debugging](Debugging#Python_Debugging.md) the Python code
--   [Python Development Environment](Python_Development_Environment.md) - A simplistic development environment for Python within FreeCAD
 
-### Modules
+
+## Programação em FreeCAD 
+
+
+
+### Gerais
+
+-   [Programação e Macros](Scripting_and_macros/pt-br.md) - Uma lista de páginas relevantes do wiki
+-   [Introdução ao Python](Introduction_to_Python/pt-br.md) - Veja também outros tutoriais de Python no final desta página
+-   [Tutorial de Programação em FreeCAD](Python_scripting_tutorial/pt-br.md) - Uma visão geral sobre a programação em Python no FreeCAD
+-   [Noções Básicas de Programação no FreeCAD](FreeCAD_Scripting_Basics/pt-br.md): Bem, as noções básicas
+-   [Manual do FreeCAD - Seção Programação em Python](Manual:A_gentle_introduction/pt-br.md): Introdução de vários capítulos sobre a Programação em Python no FreeCAD
+-   [Comando de Interface Gráfica](Gui_Command/pt-br.md): Adicionando comandos personalizados à interface gráfica
+-   Usando unidades mistas [Unidades](Units/pt-br.md) no FreeCAD
+-   [Análise de Desempenho](Profiling/pt-br.md) do código Python
+-   [Depuração](Debugging#Python_Debugging/pt-br.md) do código Python
+-   [Ambiente de Desenvolvimento Python](Python_Development_Environment/pt-br.md) - Um ambiente de desenvolvimento simples para Python dentro do FreeCAD
+
+
+
+### Modulos
 
 The functionality of FreeCAD is separated in Modules which deal with special data types and applications. FreeCAD has built-in modules and Extension Modules (plug-ins). Once plugin modules are installed, they become availible to you as easily as the built-in modules. The modules described below are the default modules, includeed in every FreeCAD installation.
 
@@ -68,7 +76,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 -   [Scripted objects](Scripted_objects.md): how to make 100% Python-scripted objects.
     -   [Scripted objects with attachment](Scripted_objects_with_attachment.md): how to make scripted objects attachable to other objects.
-    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md): how to save and restore attributes of the proxy class with `__getstate__` and `__setstate__`.
+    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md): how to save and restore attributes of the proxy class with `dumps` and `loads`.
     -   [Scripted objects migration](Scripted_objects_migration.md): how to migrate old scripted objects to a new class.
 
 ### Examples
@@ -127,8 +135,6 @@ The following two references are PyQt specific (not PySide) but may offer some i
 ## Community projects 
 
 On the [Community portal](FreeCAD_Community_Portal.md), you can find other FreeCAD-based projects run by the FreeCAD users community. If you are starting a new FreeCAD project, be sure to list it there! We also have a page with things you can do if you would like to [Help FreeCAD](Help_FreeCAD.md).
-
--   [Scientific literature](Scientific_literature.md): articles that reference or use the FreeCAD system in different ways.
 
 
 

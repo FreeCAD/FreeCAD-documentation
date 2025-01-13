@@ -21,7 +21,7 @@ Polecenie **Dodaj dokument testowy** tworzy obiekt zdolny do przechowywania dowo
 ## Użycie
 
 1.  Wybierz z menu opcję **Przybory → Dodaj dokument tekstowy**.
-2.  Kliknij dwukrotnie nowo utworzony obiekt w oknie [widoku drzewa](Tree_view/pl.md), aby otworzyć zakładkę, w której będziesz mógł napisać tekst.
+2.  Kliknij dwukrotnie nowo utworzony obiekt w [widoku drzewa](Tree_view/pl.md), aby otworzyć zakładkę, w której będziesz mógł napisać tekst.
 3.  Dodaj tekst.
 4.  Zamknij zakładkę i zapisz plik, gdy zostaniesz o to poproszony.
 
@@ -48,10 +48,7 @@ Polecenie **Dodaj dokument testowy** tworzy obiekt zdolny do przechowywania dowo
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), oraz [Obiekty skryptowe](Scripted_objects/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć na stronie [Część: właściwość](Part_Feature/pl.md).
 
@@ -63,19 +60,19 @@ import FreeCAD as App
 import Draft
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::TextDocument", "Text_document")
+obj = doc.addObject("App::TextDocument", "Text_document")
 obj.Text = "textual information"
-App.ActiveDocument.recompute()
+doc.recompute()
 
 obj2 = Draft.makeShapeString(obj.Text, "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 10)
-App.ActiveDocument.recompute()
+doc.recompute()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

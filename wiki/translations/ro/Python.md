@@ -1,17 +1,5 @@
 # Python/ro
-<div class="mw-translate-fuzzy">
-
-
-**(November 2018) 
-FreeCAD a fost proiectat inițial pentru a lucra cu Python 2. Multe funcții lucrează cu Python 3, dar unele nu funcționează. Efectuarea suportului deplin al FreeCAD Python 3 este o lucrare în desfășurare.**
-
-
-</div>
-
 ## Descriere
-
-
-
 
 [Python](https://www.python.org) este un limbaj de programare cu scop general, care este foarte frecvent utilizat în aplicații mari pentru a automatiza anumite sarcini prin crearea de scripturi sau [macros](macros/ro.md).
 
@@ -98,6 +86,8 @@ Wire = make_wire(pointslist,
 Wire = make_wire(pointslist, closed=True, face=True)
 Window = make_window(Wire, name="Big window")
 ```
+
+
 
 ## Importuri
 

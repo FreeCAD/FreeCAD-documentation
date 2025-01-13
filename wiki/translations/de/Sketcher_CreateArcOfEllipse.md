@@ -2,11 +2,11 @@
  GuiCommand:
    Name: Sketcher CreateArcOfEllipse
    Name/de: Sketcher EllipsenbogenErstellen
-   MenuLocation: Sketch , Skizzengeometrien , Ellipsenbogen erstellen
+   MenuLocation: Skizze , Skizzengeometrien , Ellipsenbogen erstellen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **E** **A**
    Version: 0.15
-   SeeAlso: Sketcher_CreateEllipseByCenter/de, Sketcher_CompCreateArc/de
+   SeeAlso: Sketcher_CreateEllipseByCenter/de
 ---
 
 # Sketcher CreateArcOfEllipse/de
@@ -15,27 +15,37 @@
 
 ## Beschreibung
 
-Dieses Werkzeug zeichnet einen Ellipsenbogen, indem vier Punkte ausgewählt werden: der Mittelpunkt, das Ende des großen Radius (Scheitelpunkt), der Startpunkt und der Endpunkt. Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Ellipsenbogensymbol. Daneben werden die Koordinaten in Echtzeit angezeigt.
+Das Werkzzeug <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:24px;"> [Ellipsenbogen erstellen](Sketcher_CreateArcOfEllipse/de.md) erstellt einen Ellipsenbogen.
 
-<img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;"> 
-*Die Reihenfolge der Klicks wird durch gelbe Pfeile mit Zahlen angezeigt.<br> C ist das Zentrum, a der große Durchmesser, b der kleine Durchmesser, F1 und F2 sind Brennpunkte.*
+![](images/Sketcher_CreateArcOfEllipse_Example.png ) 
+*Ellipsenbogen (weiß) mit interner Geometrie (dunkelgelb)*
 
 
 
 ## Anwendung
 
--   Die Schaltfläche **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Ellipsenbogen erstellen](Sketcher_CreateArcOfEllipse/de.md)** drücken.
--   Der erster Klick in die 3D-Ansicht setzt den Mittelpunkt der Ellipse. Der zweite Klick legt den Scheitelpunkt (erster Radius) und die Ausrichtung der Ellipse fest. Der dritte Klick legt den zweiten Radius und den Beginn des Bogens fest. Der vierte Klick legt das Ende des Bogens fest.
--   Nach dem vierten Klick wird der Ellipsenbogen zusammen mit darauf ausgerichteter Konstruktionsgeometrie erstellt (großer Durchmesser, kleiner Durchmesser, zwei Brennpunkte). Die Konstruktionsgeometrie kann manuell gelöscht werden, wenn sie nicht benötigt wird, und später neu erstellt werden. Siehe [InterneAusrichtungsgeometrieWiederherstellen](Sketcher_RestoreInternalAlignmentGeometry/de.md).
--   Das Drücken von **ESC** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
+
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Ellipsenbogen erstellen](Sketcher_CreateArcOfEllipse/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Skizzengeometrien → <img src="images/Sketcher_CreateArcOfEllipse.svg" width=16px> Ellipsenbogen erstellen** auswählen.
+    -   Das Tastaturkürzel **G** dann **E** dann **A**.
+2.  Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
+3.  Den Mittelpunkt des Bogens auswählen.
+4.  Einen Endpunkt einer der Achsen auswählen; dies legt auch einen der Radien fest.
+5.  Den Startpunkt des Bogens auswählen; dies legt auch den anderen Radius des Bogens fest.
+6.  Den Endpunkt des Bogens auswählen.
+7.  Der Ellipsenbogen wird erstellt inklusive der internen Geometrie (Hauptachse, Nebenachse und zwei Fokus-Punkte).
+8.  Läuft das Werkzeug im [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md):
+    1.  Wahlweise weitere Kreise erstellen.
+    2.  Zum Beenden die rechte Maustaste oder **Esc** drücken; oder ein anderes Werkzeug zum Erstellen von Geometrien oder Randbedingungen aufrufen.
 
 
 
-## Besonderheiten
+## Hinweise
 
--   Haupt- und Nebenachsen der zugrundeliegenden Ellipse sind genau festgelegt und können nicht durch Größenänderung vertauscht werden. Die zugrundeliegende Ellipse muss gedreht werden, um die Achsen zu tauschen.
--   Im Gegensatz zur Ellipse, die durch geeignete Randbedingungen zu einem Kreis geformt werden kann, kann der Ellipsenbogen keinen Kreisbogen darstellen.
--   Das Verschieben des Ellipsenbogens durch Verschieben einer Kante ist dasselbe wie das Verschieben des Ellipsenmittelpunkts.
+-   Die Elemente der internen Geometrie können gelöscht werden. Sie können jederzeit mit [Sketcher RestoreInterna/delInterneAusrichtungsgeometrieWiederherstellen](Sketcher_RestoreInternalAlignmentGeometry.md) wiederhergestellt werden.
+-   Einmal erstellt, sind Haupt- und Nebenachse eines Ellipsenbogens fest zugeordnet und können nicht durch Ändern der Längen getauscht werden. Dies ist eine Folge der Parametrisierung des Gleichungslösers und des gleichen strengen Verhaltens von [OpenCASCADE](OpenCASCADE/de.md). Ein Ellipsenbogen muss gedreht werden, um die Achsen zu tauschen.
 
 
 

@@ -16,26 +16,32 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 Esta herramienta está pensada para ayudar a restringir completamente un croquis resaltando en verde los elementos del croquis con grados de libertad (GdL) (inglés: DoF Degrees of Freedom) restantes.
+
+
+</div>
+
+If such elements exist in a sketch the [Solver messages section of the Sketcher Dialog](Sketcher_Dialog#Solver_messages.md) displays this message:
+
+-   Under constrained: n DoF(s)
+
+Where *n* is the remaining number of degrees of freedom. Clicking the underlined text will select the under-constrained elements.
+
+Please note that a sketch can also have redundant constraints if one of the other [solver messages](Sketcher_Dialog#Solver_messages.md) is displayed.
 
 
 
 ## Utilización
 
-En el cuadro de mensajes del Solucionador, situado en la parte superior del [Pestaña Tareas](Task_panel/es.md), deberían aparecer los siguientes mensajes:
-
--   En caso de un croquis **restringido inferior**:
-
-> Croquis bajo-restringido con X grados de libertad
-
-donde \"X\" es el número de grados de libertad que quedan en el croquis; recibirá más información si hace clic en el enlace azul, o si utiliza el menú.
-
-1.  Los elementos que tienen grados de libertad están ahora resaltados en verde.
-2.  Haga clic en cualquier parte del croquis para borrar el color de resaltado.
-
--   En el caso de un croquis **totalmente-restringido**:
-
-> Croquis totalmente restringido
+1.  There are several ways to invoke the tool:
+    -   Click the underlined text in the Sketcher Dialog as described above.
+    -   Select the **Sketch → Sketcher visual → <img src="images/Sketcher_SelectElementsWithDoFs.svg" width=16px> Select unconstrained DoF** option from the menu.
+    -   Use the keyboard shortcut: **Z** then **F**.
+2.  The under-constrained sketch elements are selected.
+3.  Optionally click in an empty area in the [3D view](3D_view.md) to clear the selection.
 
 
 <div class="mw-translate-fuzzy">

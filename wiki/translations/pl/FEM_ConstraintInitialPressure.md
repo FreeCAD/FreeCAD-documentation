@@ -1,11 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ConstraintInitialPressure
    Name/pl: MES: Warunek początkowy ciśnienia
    MenuLocation: Model , Warunki brzegowe dla płynu , Warunek początkowy ciśnienia
    Workbenches: FEM_Workbench/pl
    Version: 0.21
    SeeAlso: FEM_ConstraintInitialFlowVelocity/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintInitialPressure/pl

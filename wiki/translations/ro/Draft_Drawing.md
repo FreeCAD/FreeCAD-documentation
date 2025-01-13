@@ -15,13 +15,7 @@
 
 ## Descriere
 
-
-<div class="mw-translate-fuzzy">
-
-Acest instrument vă permite să plasați obiecte selectate pe o foaie de desne, respectiv un svg [Drawing sheet](Drawing_Workbench.md). Dacă în document nu există nici o foaie [sheet](Drawing_templates.md), aceasta va fi creată implicit. Acest instrument funcționează similar cu instrumentul [Drawing View](Drawing_View.md), dar este optimizat pentru obiectele [ Draft](Draft_Workbench.md) și poate face obiecte plane 2D cu o umplere a fațetei. De asemenea, se poate ocupa de câteva obiecte proprii atelierului Draft, cum ar fi [dimensions](Draft_Dimension.md) și [texts](Draft_Text.md), pe care [Drawing View](Drawing_View.md) nu le poate gestiona.
-
-
-</div>
+The <img alt="" src=images/Draft_Drawing.svg  style="width:24px;"> **Draft Drawing** command inserts views of selected objects into a [drawing](Drawing_Workbench.md) page.
 
 This command is similar to the [Drawing View](Drawing_View.md) command but is optimized for [Draft](Draft_Workbench.md) objects. Contrary to that command, it can handle specific objects such as [Draft Dimensions](Draft_Dimension.md) and [Draft Texts](Draft_Text.md), and it can render faces.
 

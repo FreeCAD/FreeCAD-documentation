@@ -28,7 +28,7 @@ Obecnie polecenie wskazuje na [<https://wiki.freecad.org/User_hub>](https://wiki
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

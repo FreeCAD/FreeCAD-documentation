@@ -27,16 +27,16 @@ Der Befehl <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> **Pa
 ### Erstellung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Part_Primitives.svg" width=16px> [ Grundkörper erstellen...](Part_Primitives/de.md)** drücken.
+    -   Die Schaltfläche **<img src="images/Part_Primitives.svg" width=16px> [Grundkörper erstellen...](Part_Primitives/de.md)** drücken.
     -   Den Menüeintrag **Part → <img src="images/Part_Primitives.svg" width=16px> Grundkörper erstellen...** auswählen.
-2.  Der Aufgabenbereich **Geometrische Grundkörper** wird geöffnet.
+2.  Das Aufgaben-Fenster **Geometrische Grundkörper** wird geöffnet.
 3.  Einen Typ Grundkörper aus der Aufklappliste auswählen.
 4.  Die Eigenschaften festlegen.
 5.  Die Schaltfläche **Erstellen** drücken.
 6.  Das Grundkörper-Objekt wird erstellt.
-7.  Man beachte, dass der Aufgabenbereich geöffnet bleibt.
+7.  Man beachte, dass das Aufgaben-Fenster geöffnet bleibt.
 8.  Wahlweise weitere Grundkörper erstellen.
-9.  Die Schaltfläche **Schließen** drücken, um den Aufgabenbereich zu schließen und den Befehl fertigzustellen.
+9.  Die Schaltfläche **Schließen** drücken, um das Aufgaben-Fenster zu schließen und den Befehl fertigzustellen.
 
 
 
@@ -57,12 +57,12 @@ Die Eigenschaften eines Part-Grundkörpers können auch im [Eigenschafteneditor]
 Die folgenden Grundelemente können erstellt werden:
 
 -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Ebene](Part_Plane/de.md): Erstellt eine Ebene.
--   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Quader](Part_Box/de.md): Erstellt einen Quader. Dieses Objekt kann auch mit dem Werkzeug <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Würfel](Part_Box/de.md) erstellt werden.
--   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cylinder](Part_Cylinder/de.md): Erstellt einen Zylinder. Dieses Objekt kann auch mit dem Werkzeug <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Zylinder](Part_Cylinder/de.md) erstellt werden.
--   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Kegel](Part_Cone/de.md): Erstellt einen Kegel. Dieses Objekt kann auch mit dem Werkzeug <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Kegel](Part_Cone/de.md) erstellt werden.
--   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Kugel](Part_Sphere/de.md): Erstellt eineKugel. Dieses Objekt kann auch mit dem Werkzeug <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Kugel](Part_Sphere/de.md) erstellt werden.
+-   <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Quader](Part_Box/de.md): Erstellt einen Quader. Dieses Objekt kann auch mit dem Werkzeug [Würfel](Part_Box/de.md) erstellt werden.
+-   <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cylinder](Part_Cylinder/de.md): Erstellt einen Zylinder. Dieses Objekt kann auch mit dem Werkzeug [Zylinder](Part_Cylinder/de.md) erstellt werden.
+-   <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Kegel](Part_Cone/de.md): Erstellt einen Kegel. Dieses Objekt kann auch mit dem Werkzeug [Kegel](Part_Cone/de.md) erstellt werden.
+-   <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Kugel](Part_Sphere/de.md): Erstellt eineKugel. Dieses Objekt kann auch mit dem Werkzeug [Kugel](Part_Sphere/de.md) erstellt werden.
 -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellipsoid](Part_Ellipsoid/de.md): Erstellt ein Ellipsoid.
--   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Torus](Part_Torus/de.md): Erstellt einen Torus. Dieses Objekt kann auch mit dem Werkzeug <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus/de.md) erstellt werden.
+-   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus/de.md): Erstellt einen Torus. Dieses Objekt kann auch mit dem Werkzeug [Torus](Part_Torus/de.md) erstellt werden.
 -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisma](Part_Prism/de.md): Erstellt ein Prisma.
 -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Keil](Part_Wedge/de.md): Erstellt einen Keil.
 -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Helix](Part_Helix/de.md): Erstellt eine Wendel.
@@ -83,7 +83,7 @@ Die folgenden Grundelemente können erstellt werden:
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/), [Part Skripten](Part_scripting/de.md) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Es gibt ein Python-Skript, um die Erstellung von Grundkörpern zu testen. Es kann von der [Python-Konsole](Python_console/de.md) gestartet werden:
 

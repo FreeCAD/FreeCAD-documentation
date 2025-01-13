@@ -34,6 +34,9 @@ GNU LibreDWG 는 DWG 파일을 다루는 기능들을 모아 놓은 c 언어로 
 #### Linux / Unix 시스템에 설치 
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{Code|lang=shell|code=
 git clone --recurse-submodules https://git.savannah.gnu.org/git/libredwg.git
 cd libredwg
@@ -44,6 +47,9 @@ make
 make install # 또는 checkinstall , 또는 dwg2dxf 를 위치 복사 등을 사용 합니다
              # 여러분의 실행 파일 폴더를 설치 하기, 이 후로는 프리캐드에 의해 자동적으로 될 겁니다
 }}
+
+
+</div>
 
 이 운영체제가 검색 (<small>(v0.21)</small> ) 할 때 자동적으로 조사하는 폴더 목록에 실행 파일이 있는 폴더를 등록 합니다 {{Incode|os.getenv("PATH")}} 또는, 수동으로 설정 합니다.
 

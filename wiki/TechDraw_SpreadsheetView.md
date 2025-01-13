@@ -11,30 +11,41 @@
 
 The **TechDraw SpreadsheetView** tool allows you to place a view of a selected [spreadsheet](Spreadsheet_Workbench.md) on a [Page](TechDraw_Workbench.md).
 
+
+<small>(v1.0)</small> 
+
+: The [TechDraw View](TechDraw_View.md) tool can also create a Spreadsheet View.
+
  ![](images/TechDraw_Spreadsheetview.png )  
 *Spreadsheet element inserted in the TechDraw drawing page*
 
 ## Usage
 
-1.  Select a single spreadsheet in the [Tree view](Tree_view.md).
+1.  Select a spreadsheet in the [Tree view](Tree_view.md).
 2.  If there are multiple drawing pages in the document: optionally add the desired page to the selection by selecting it in the [Tree view](Tree_view.md).
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_SpreadsheetView.svg" width=16px> [Insert Spreadsheet View](TechDraw_SpreadsheetView.md)** button.
-    -   Select the **TechDraw → Views From Other Workbenches → <img src="images/TechDraw_SpreadsheetView.svg" width=16px> Insert Spreadsheet View** option from the menu.
-4.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+3.  Select the **TechDraw → Views From Other Workbenches → <img src="images/TechDraw_SpreadsheetView.svg" width=16px> Insert Spreadsheet View** option from the menu.
+4.  If there are multiple drawing pages in the document, and if no page is displayed in the [Main view area](Main_view_area.md) and you have not yet selected a page, the **Page Chooser** dialog box opens:
     1.  Select the desired page.
     2.  Press the **OK** button.
-5.  Adjust the cell range of the view by changing its **Cell Start** and **Cell End** properties.
-
-## Notes
-
--   In {{VersionMinus|0.19}} some characters in spreadsheet cells will cause errors when displayed in a Spreadsheet View. These characters have to be XML encoded. Currently known characters are: {{Incode|&}} (replace with {{Incode|&amp;amp;}}) and {{Incode|&lt;}} (replace with {{Incode|&amp;lt;}}). See also this [discussion](https://forum.freecadweb.org/viewtopic.php?p=629853#p629885) in the forum.
+5.  A Spreadsheet View is inserted.
+6.  Adjust the cell range of the view by changing its **Cell Start** and **Cell End** properties.
 
 ## Properties
 
-See also [TechDraw View](TechDraw_View#Properties.md).
+See also: [Property editor](Property_editor.md).
+
+A Spreadsheet View, formally a {{Incode|TechDraw::DrawViewSpreadsheet}} object, has the [properties](TechDraw_View#Properties_Part_View.md) that are common to all View types. It also has the following additional properties:
 
 ### Data
+
+
+{{TitleProperty|Drawing view}}
+
+-    **Symbol|String|Hidden**: The SVG code defining this symbol.
+
+-    **Editable Texts|StringList|Hidden**: Substitution values for the editable strings in this symbol. Not used.
+
+-    **Owner|Link**: Feature to which this symbol is attached. <small>(v1.0)</small> 
 
 
 {{TitleProperty|Spreadsheet}}
@@ -56,7 +67,7 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 
 
- {{TechDraw Tools navi}}
+ {{TechDraw_Tools_navi}}
 
 
 

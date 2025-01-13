@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Описание
 
 The <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:24px;"> **PartDesign MultiTransform** tool creates a pattern of one or more features. The pattern can include multiple transformations where each subsequent transformation is applied to the result of the previous transformation.
@@ -20,7 +22,11 @@ The available transformations are: <img alt="" src=images/PartDesign_Mirrored.sv
 <img alt="" src=images/multitransform_example.png  style="width:600px;"> 
 *Массив отверстий, созданный из объекта с одним отверстием путем применения Линейного массива с 2-мя повторами, после которого был применен Круговой массив с 8-ю повторами.*
 
+
+
 ## Применение
+
+
 
 ### Создание массива 
 
@@ -34,6 +40,8 @@ The available transformations are: <img alt="" src=images/PartDesign_Mirrored.sv
 6.  The **MultiTransform parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 7.  Press the **OK** button at the top to finish.
 
+
+
 ### Изменение
 
 1.  Do one of the following:
@@ -41,6 +49,8 @@ The available transformations are: <img alt="" src=images/PartDesign_Mirrored.sv
     -   Right-click the MultiTransform object in the [Tree view](Tree_view.md) and select **Edit MultiTransform** from the context menu.
 2.  The **MultiTransform parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button at the top to finish.
+
+
 
 ### Объединение уже существующих трансформаций 
 
@@ -61,20 +71,33 @@ It is possible to create a MultiTransform object from existing [Mirrored](PartDe
     5.  Press the **OK** button.
 7.  Optionally [edit](#Edit.md) the MultiTransform object, see above.
 
+
+
 ## Опции
 
--   To add features:
-    1.  Press the **Add feature** button.
-    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-    3.  Repeat to add more features.
--   To remove features:
-    1.  Press the **Remove feature** button.
-    2.  Do one of the following:
-        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-        -   Select a feature in the list at the top and press the **Del** key.
-        -   Right-click a feature in the list at the top and select **Remove** from the context menu.
-    3.  Repeat to remove more features.
--   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Choose the mode:
+    -   
+        **Transform body**
+        
+        : Transforms the whole base feature\'s shape (default). <small>(v1.0)</small> 
+
+    -   
+        **Transform tool shapes**
+        
+        : Transforms the individual tool shapes of selected features.
+
+        -   To add features:
+            1.  Press the **Add feature** button.
+            2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+            3.  Repeat to add more features.
+        -   To remove features:
+            1.  Press the **Remove feature** button.
+            2.  Do one of the following:
+                -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+                -   Select a feature in the list at the top and press the **Del** key.
+                -   Right-click a feature in the list at the top and select **Remove** from the context menu.
+            3.  Repeat to remove more features.
+        -   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
 -   To add transformations:
     1.  If there are existing transformations: select the transformation after which the new transformation should be added.
     2.  Right-click the **Transformations** list.
@@ -112,6 +135,8 @@ It is possible to create a MultiTransform object from existing [Mirrored](PartDe
     2.  Select **Move up** or **Move down** from the context menu.
 -   If the **Update view** checkbox is checked the view will update in real time.
 
+
+
 ## Ограничения
 
 Смотрите [PartDesign Круговой массив](PartDesign_PolarPattern/ru#Ограничения.md).
@@ -132,10 +157,10 @@ This could be a 150x100x10mm large mounting plate for a motor with symmetric hol
 4.  Select <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> **PartDesign MultiTransform**.
 5.  The task dialog opens.
 6.  The last feature of the Body is already selected. Since we want to mirror that feature we can ignore the **Add feature** and **Remove feature** buttons.
-7.  Right-click in the **Transformations** field and select **Add mirrored transform** from the context menu.
+7.  Right-click in the **Transformations** field and select **Add mirrored transformation** from the context menu.
 8.  For the **Plane** select **Vertical sketch axis**.
 9.  If the **Update view** checkbox is checked, you should now see the part mirrored about one axis.
-10. Again select **Add mirrored transform** from the context menu of the **Transformations** field.
+10. Again select **Add mirrored transformation** from the context menu of the **Transformations** field.
 11. Now for the **Plane** select **Horizontal sketch axis**.
 12. Press the **OK** button to finish.
 13. To remove the edges along the axes of symmetry in the final result, set the **Refine** property of the new feature to {{Value|true}} in the [Property editor](Property_editor.md).

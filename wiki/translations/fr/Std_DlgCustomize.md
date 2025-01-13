@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Std Personnaliser** ouvre la boîte de dialogue Personnaliser donnant accès à plusieurs options de personnalisation.
+La commande **Std Personnaliser** ouvre la fenêtre de dialogue Personnaliser donnant accès à plusieurs options de personnalisation.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png )
 
@@ -23,19 +23,19 @@ La commande **Std Personnaliser** ouvre la boîte de dialogue Personnaliser donn
 
 ## Utilisation
 
-1.  Les commandes disponibles dans la boîte de dialogue Personnaliser dépendent des ateliers qui ont été chargés dans la session FreeCAD en cours. Vous devez donc d\'abord charger tous les établis dont vous souhaitez avoir accès aux commandes.
-2.  Il existe plusieurs façons d\'appeler la commande:
-    -   Sélectionnez l\'option **Outils → <img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** dans le menu.
+1.  Les commandes disponibles dans la fenêtre de dialogue Personnaliser dépendent des ateliers qui ont été chargés dans la session FreeCAD en cours. Vous devez donc d\'abord charger tous les ateliers dont vous souhaitez avoir accès aux commandes.
+2.  Il existe plusieurs façons de lancer la commande :
+    -   Sélectionnez l\'option **Outils → <img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** du menu.
     -   Cliquez avec le bouton droit sur une zone de barre d\'outils et choisissez **<img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** dans le menu contextuel.
-3.  La boîte de dialogue Personnaliser s\'ouvre. Pour plus d\'informations, voir [Personnalisation de l\'interface](Interface_Customization/fr#Options.md).
+3.  La fenêtre de dialogue **Personnaliser** s\'ouvre. Pour plus d\'informations, voir [Personnalisation de l\'interface](Interface_Customization/fr#Options.md).
 4.  Le bouton **Aide** ne fonctionne pas pour le moment.
-5.  Appuyez sur le bouton **Fermer** pour fermer la boîte de dialogue.
+5.  Appuyez sur le bouton **Fermer** pour fermer la fenêtre de dialogue.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

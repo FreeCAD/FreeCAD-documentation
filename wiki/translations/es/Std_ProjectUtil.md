@@ -8,6 +8,11 @@
 
 # Std ProjectUtil/es
 
+
+</div>
+
+
+
 ## Descripción
 
 Con el comando **Std ProjectoUtil** puedes extraer archivos de un archivo de proyecto de FreeCAD (***.FCStd**), que es de hecho un archivo [ZIP](https://en.wikipedia.org/wiki/Zip_(file_format)), y, después de ediciones manuales, crear un nuevo archivo de proyecto a partir de ellos.
@@ -15,9 +20,16 @@ Con el comando **Std ProjectoUtil** puedes extraer archivos de un archivo de pro
 ![](images/Project_utility_en.png ) 
 *El cuadro de diálogo de la utilidad del proyecto*
 
+
+
 ## Utilización
 
+
+
 ### Extraer proyecto 
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Seleccione la opción **Hierramientas → <img src="images/Std_ProjectUtil.svg" width=16px> Utilidad del proyecto...** en el menú.
 2.  Se abre el cuadro de diálogo Utilidad del proyecto.
@@ -27,6 +39,11 @@ Con el comando **Std ProjectoUtil** puedes extraer archivos de un archivo de pro
 6.  Seleccione una carpeta en la que deba extraerse el archivo del proyecto. Es aconsejable seleccionar una carpeta vacía.
 7.  Pulse el botón **Extracto**.
 8.  Pulse el botón **Cerrar** para cerrar el cuadro de diálogo.
+
+
+</div>
+
+
 
 ### Manual ediciones 
 
@@ -38,28 +55,38 @@ Es importante darse cuenta de que los archivos dentro de un archivo de proyecto 
 
 </div>
 
+
+
 ### Crea projecto 
 
 1.  Select the **Tools → <img src="images/Std_ProjectUtil.svg" width=16px> Project utility...** option from the menu.
-2.  The Project utility dialog box opens.
+2.  The **Project utility** dialog box opens.
 3.  Press the **...** button to the right of **Create project → Source**.
 4.  Select the **Document.xml** file. The command will be automatically find all linked files.
 5.  Press the **...** button to the right of **Create project → Destination**.
 6.  Select a folder where the new project file should be created.
 7.  Press the **Create** button.
 8.  A new project file with a fixed name, **project.fcstd**, is created in the selected folder. There is no warning if a file with that name already exists.
-9.  Optionally check the {{CheckBox|TRUE|Load project file after creation}} checkbox.
+9.  Optionally check the **Load project file after creation** checkbox.
 10. Press the **Close** button to close the dialog box.
+
+
 
 ## Notas
 
 -   For more information about the FreeCAD project file format see [File Format FCStd](File_Format_FCStd.md).
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Std Base navi
+
+
+</div>
+
+
+{{Std_Base_navi
 
 }}
 

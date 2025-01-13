@@ -25,31 +25,29 @@ Polecenie **Dopasuj do wyboru** powiększa i przesuwa ujęcie widoku tak, że ws
     -   Naciśnij przycisk **<img src="images/Std_ViewFitSelection.svg" width=16px> [Dopasuj do wyboru](Std_ViewFitSelection/pl.md)**.
     -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewFitSelection.svg" width=24px>Dopasuj do wyboru**.
     -   Wybierz z menu opcję **<img src="images/Std_ViewFitSelection.svg" width=24px> Dopasuj do wyboru** z menu kontekstowego w oknie [widoku 3D](3D_view/pl.md).
+    -   Wybierz opcję **<img src="images/Std_ViewFitSelection.svg" width=16px> Dopasuj do widoku** z menu mini kostki [kostki nawigacyjnej](Navigation_Cube/pl.md).
     -   Użyj skrótu klawiaturowego: **V**, a następnie **S**.
 
 
 
 ## Tworzenie skryptów 
 
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby zmienić widok na *dopasowany do wyboru* można użyć metody `SendMsgToActiveView` obiektu FreeCADGui. Metoda ta nie jest dostępna, jeśli FreeCAD jest w trybie konsoli.
+Aby zmienić widok na *dopasowany do wyboru* można użyć metody `SendMsgToActiveView` obiektu FreeCADGui.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.SendMsgToActiveView('ViewSelection')
+FreeCADGui.SendMsgToActiveView("ViewSelection")
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -1,44 +1,71 @@
 ---
  GuiCommand:
    Name: Sketcher ConstrainSymmetric
-   Name/fr: Sketcher Contrainte symétrique
-   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte symétrique
+   Name/fr: Sketcher Contrainte de symétrie
+   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte de symétrie
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **S**
-   SeeAlso: Sketcher_ConstrainParallel/fr
+   SeeAlso: 
 ---
 
 # Sketcher ConstrainSymmetric/fr
 
 ## Description
 
-La **Contrainte symétrique** contraint deux points sélectionnés à devenir symétriques à une ligne donnée, à savoir, deux points sélectionnés sont contraints de se situer sur une normale (ligne) passant par les deux points et sont contraints d\'être équidistants à la normale (ligne). Alternativement, elle peut contraindre deux points à être symétriques par rapport à un troisième.
+L\'outil <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> [Sketcher Contrainte de symétrie](Sketcher_ConstrainSymmetric/fr.md) permet de contraindre deux points à être symétriques autour d\'une ligne ou d\'un axe, ou autour d\'un troisième point.
 
 
 
 ## Utilisation
 
-<img alt="" src=images/SymmetricConstraint1.png  style="width:500px;">
-
-Sélectionnez deux points (sommets) dans l\'esquisse et une ligne dans l\'esquisse. Les points sélectionnés et la ligne seront vert foncé.
-
-<img alt="" src=images/SymmetricConstraint2.png  style="width:500px;">
-
-Cliquez sur **[<img src=images/Sketcher_ConstrainSymmetric.svg style="width:16px"> [Constrain symmetric](Sketcher_ConstrainSymmetric.md)** ou sélectionnez l\'option Contrainte symétrique dans le sous-menu Contraintes d\'esquisse d\'Esquisse de l\'atelier Sketcher (ou Part Design).
-
-Ceci appliquera la contrainte aux éléments sélectionnés.
-
-<img alt="" src=images/SymmetricConstraint3.png  style="width:500px;">
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
 
 
-**Remarque :**
 
-avant la version 0.19 (voir correctif [1](https://github.com/FreeCAD/FreeCAD/pull/3746)), si vous souhaitiez définir une contrainte de symétrie par rapport à un point, l\'ordre de la sélection était important, selon que vous sélectionniez l\'outil avant ou après.
+### [Mode continu](Sketcher_Workbench/fr#Modes_continus.md) 
 
--   si vous cliquiez d\'abord sur l\'outil : sélectionnez le premier point, puis le point de référence de la symétrie et enfin le deuxième point.
--   si vous cliquiez sur l\'outil en dernier : sélectionnez le premier point, puis le deuxième point et enfin le point de référence de symétrie.
+1.  Assurez-vous qu\'il n\'y a pas de sélection.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> [Contrainte de symétrie](Sketcher_ConstrainSymmetric/fr.md)**.
 
-Voir le tracker [issue #4144](https://freecadweb.org/tracker/view.php?id=4144), et [forum thread](https://forum.freecadweb.org/viewtopic.php?f=3&t=39611).
+    -   Sélectionnez l\'option **Esquisse → Contraintes de l'esquisse → <img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Contrainte de symétrie** dans le menu.
+
+    -   
+        {{Version/fr|1.0}}
+        
+        : cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **Contrainte → <img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Contrainte de symétrie** du menu contextuel.
+
+    -   Utilisez le raccourci clavier : **S**.
+3.  Le curseur se transforme en croix avec l\'icône de l\'outil.
+4.  Effectuez l\'une des opérations suivantes :
+    -   Sélectionnez deux points et un point de symétrie (dans cet ordre).
+    -   Sélectionnez deux points et une ligne de symétrie (idem).
+    -   Sélectionnez un point, une ligne de symétrie et un autre point (idem).
+    -   Sélectionnez une ligne et un point de symétrie (idem).
+5.  Une contrainte est ajoutée.
+6.  Il est possible de continuer à créer des contraintes.
+7.  Pour terminer, cliquez avec le bouton droit de la souris ou appuyez sur **Échap**, ou démarrez un autre outil de création de géométrie ou de contrainte.
+
+
+
+### Mode unique 
+
+1.  Faites l\'une des choses suivantes :
+    -   Sélectionnez deux points et un point de symétrie (dans cet ordre).
+    -   Sélectionnez deux points et une ligne de symétrie (dans n\'importe quel ordre).
+    -   Sélectionnez une ligne et un point de symétrie (idem).
+2.  Lancez l\'outil comme expliqué ci-dessus, ou avec l\'option supplémentaire suivante :
+    -   
+        {{Version/fr|1.0}}
+        
+        : cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **Contrainte → <img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Contrainte de symétrie** du menu contextuel.
+3.  Une contrainte est ajoutée.
+
+
+
+## Remarques
+
+-   Les flèches de cette contrainte indiquent la couleur des contraintes dimensionnelles.
 
 
 

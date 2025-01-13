@@ -10,11 +10,15 @@ Currently this page mainly catalogs links to relevant FreeCAD forum discussion a
 
 See also a [video tutorial](https://www.youtube.com/watch?v=sCs8xlrw2nM) of the contents of this page
 
+
+
 ## Аргументы в пользу Conda 
 
 The motivation for using Conda is multi-fold, as is Conda\'s purpose.
 
 Рассмотрим более подробно.
+
+
 
 ### Conda как пакетный менеджер 
 
@@ -23,6 +27,8 @@ First, Conda is a package manager \-- similar to apt or pip.
 This means we can install **packages** with a a simple conda install from various [channels](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html#what-is-a-conda-channel) such as [conda-forge](https://conda-forge.org/).
 
 Conda Forge is analogous to [the Python Package Index (PyPI)](https://pypi.org/), a community channel made up of thousands of contributors, and serves [freecad](https://anaconda.org/conda-forge/freecad) as a conda package.
+
+
 
 ### Conda как менеджер зависимостей 
 
@@ -33,6 +39,8 @@ Conda can manage the dependencies and install the dependencies for a project lik
 Why not just use pip? pip works really well for managing the dependencies of projects that *only* use python.
 
 Conda works for multiple languages, and is therefore better suited for managing the dependencies of projects like FreeCAD that have dependencies across a variety of languages like C / C++ and Python.
+
+
 
 ### Conda как менеджер среды окружения 
 
@@ -46,6 +54,8 @@ Conda environments allow you to reproduce the same exact environment on differen
 
 For example, multiple local developer machines, or a remote build-server hosted by Travis CI.
 
+
+
 ## Установка Conda 
 
 1\. [Install Miniconda](https://docs.conda.io/en/latest/miniconda.html).
@@ -54,9 +64,9 @@ For example, multiple local developer machines, or a remote build-server hosted 
 
 ## Installing FreeCAD Using Conda 
 
-First, you need to decide whether you want to install a **stable** version of FreeCAD, or experiment with the latest **unstable** code from FreeCAD master.
+First, you need to decide whether you want to install a **stable** version of FreeCAD, or experiment with the latest **unstable** code from FreeCAD main.
 
-Stable released versions of FreeCAD are served on the conda-forge channel, while the latest from FreeCAD master is served on the freecad/label/dev channel.
+Stable released versions of FreeCAD are served on the conda-forge channel, while the latest from FreeCAD main is served on the freecad/label/dev channel.
 
   Conda Channel         Stable?
    
@@ -81,6 +91,8 @@ conda create --name fcenv-dev --channel freecad/label/dev freecad
 -   [Let\'s talk about Conda](https://forum.freecadweb.org/viewtopic.php?t=39656)
 -   [Packaging solution: (ana)conda](https://forum.freecadweb.org/viewtopic.php?f=10&t=15197)
 -   [FreeCAD Conda Distribution](https://forum.freecadweb.org/viewtopic.php?f=8&t=45582)
+
+
 
 ## Смотрите Также 
 

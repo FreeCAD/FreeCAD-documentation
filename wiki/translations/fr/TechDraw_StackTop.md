@@ -37,7 +37,7 @@ L\'ordre d\'empilement peut être modifié dans les scripts en changeant la prop
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

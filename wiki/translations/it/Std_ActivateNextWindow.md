@@ -29,13 +29,13 @@ Il comando **Prossima** attiva la finestra successiva nell\'[Area della vista pr
 
 ## Note
 
--   Le finestre dell\'area di visualizzazione principale sono elencate anche nel menu **Finestre** e possono essere attivate da lì.
+-   Le prime 10 finestre dell\'area di visualizzazione principale sono elencate anche nel menu **Finestre** e possono essere attivate da lì.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

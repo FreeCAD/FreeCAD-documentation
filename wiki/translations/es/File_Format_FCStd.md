@@ -3,6 +3,8 @@
 
 El **FreeCAD Standard formato de archivo** (**.FCStd**) es el principal formato de archivo de FreeCAD. Es un formato compuesto, soporta la compresión y la incrustación de diferentes tipos de datos.
 
+
+
 ## Internos de los archivos .FCStd 
 
 
@@ -16,6 +18,8 @@ FCStd es un [ archivo zip estándar que contiene uno o más archivos](#Contenido
 ### Document.xml
 
 Este es el archivo principal **.xml** que describe todos los objetos dentro de un documento de FreeCAD, es decir, sólo la definición geométrica y paramétrica de los objetos, no su representación visual. Si FreeCAD se ejecuta en modo consola (sin la GUI), sólo se utilizará este **Document.xml**.
+
+
 
 #### Ejemplo Document.xml 
 
@@ -116,6 +120,8 @@ Este es el archivo principal **.xml** que describe todos los objetos dentro de u
 
 Es la contrapartida de la interfaz gráfica de usuario del archivo **Document.xml**. Para cada objeto descrito en **Document.xml**, hay un objeto correspondiente en **GuiDocument.xml**, que describe la representación visual de ese objeto (color, ancho de línea, etc).
 
+
+
 ### Miniaturas/thumbnail.png
 
 Esta es una imagen en miniatura de 128x128 píxeles del documento, que es una captura de pantalla de la vista 3D en el momento de guardar. Las miniaturas se generan sólo si la opción correspondiente está activada en las preferencias de FreeCAD.
@@ -127,6 +133,8 @@ Estas son las formas [B-rep](wikipedia_Boundary_representation.md) de todos los 
 ### \*.svg
 
 Estos son los archivos svg de plantilla utilizados en las páginas de [TechDraw](TechDraw_Workbench/es.md).
+
+
 
 ### Estructura típica 
 
@@ -145,6 +153,8 @@ Estructura de un archivo típico **.FCStd**. La extensión puede cambiarse a **.
       :--MyPage.svg
       :--etc.
 
+
+
 ## Incrustar otros archivos 
 
 Para incrustar otros tipos de archivos dentro de un archivo FCStd, primero hay que crear un [objeto scriptado](Scripted_objects/es.md) desde la [consola de Python](Python_console/es.md), y darle una propiedad `App::PropertyFileIncluded`.
@@ -159,13 +169,11 @@ custom_obj.addProperty("App::PropertyFileIncluded", "AttachedFile")
 
 Ver el hilo del foro, [PDF dentro del proyecto](https://forum.freecadweb.org/viewtopic.php?t=38201).
 
+
+
 ## Cambiar la fuente del archivo .FCStd 
 
 -   Ver [Std ProjectUtil](Std_ProjectUtil/es.md).
-
-## Otros
-
--   Una utilidad de conversión de archivos [ImageConv](ImageConv/es.md).
 
 
 

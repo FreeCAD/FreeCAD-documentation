@@ -21,6 +21,8 @@ The appearance of the measurements can be changed in the [preferences](PartDesig
 
 <img alt="" src=images/MeasureLinear3D1.png  style="width:400px;"> <img alt="" src=images/MeasureLinearDelta1.PNG  style="width:400px;">
 
+
+
 ## Применение
 
 1.  Select any combination of two elements: vertices, edges, faces

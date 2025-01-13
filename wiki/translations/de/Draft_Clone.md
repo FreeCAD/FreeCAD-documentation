@@ -3,7 +3,7 @@
    Name: Draft Clone
    Name/de: Draft Klonen
    MenuLocation: Änderung , Klonen
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de
    Shortcut: **C** **L**
    SeeAlso: Draft_Scale/de
 ---
@@ -14,9 +14,9 @@
 
 ## Beschreibung
 
-Das Werkzeug <img alt="" src=images/Draft_Clone.svg  style="width:16px;"> **Draft Klonen** erstellt verknüpfte Kopien, Klone von ausgewählten Objekten. Die Form eines Klons ist parametrisch; er wird aktualisiert, wenn sich sein Quellobjekt ändert. Aber ein Klon hat seine eigene Position, Ausrichtung und Skalierung sowie seine eigenen [Ansicht-Eigenschaften](Property_editor/de.md). Für [Arch](Arch_Workbench/de.md)-Objekte erstellt der Befehl eine besondere Art von Klon: einen Arch-Klon.
+Das Werkzeug <img alt="" src=images/Draft_Clone.svg  style="width:16px;"> **Draft Klonen** erstellt verknüpfte Kopien, Klone von ausgewählten Objekten. Die Form eines Klons ist parametrisch; er wird aktualisiert, wenn sich sein Quellobjekt ändert. Aber ein Klon hat seine eigene Position, Ausrichtung und Skalierung sowie seine eigenen [Ansicht-Eigenschaften](Property_editor/de.md). Für [BIM](BIM_Workbench/de.md)-Objekte erstellt der Befehl eine besondere Art von Klon: einen Arch-Klon.
 
-Der Befehl kann auf 2D-Objekte angewendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erzeugt wurden, aber auch auf viele 3D-Objekte, wie solchen, die mit den Arbeitsbereichen [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erzeugt wurden. Klone von 2D-Objekten können in [PartDesign-Körpern](PartDesign_Body/de.md) verwendet werden.
+Der Befehl kann auf 2D-Objekte angewendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erzeugt wurden, aber auch auf viele 3D-Objekte, wie solchen, die mit den Arbeitsbereichen [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [BIM](BIM_Workbench/de.md) erzeugt wurden. Klone von 2D-Objekten können in [PartDesign-Körpern](PartDesign_Body/de.md) verwendet werden.
 
 <img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;"> 
 *Draft-Klon neben dem Quellobjekt*
@@ -57,7 +57,7 @@ Ein mit dem Befehl Draft Klonen erzeugtes Objekt wird von einem [Part Part2DObje
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um einen Klon zu erstellen, wird die Methode `make_clone` ({{Version/de|0.19}}) des Moduls Draft verwendet. Diese Methode ersetzt die veraltete Methode `clone`.
 
@@ -70,7 +70,7 @@ cloned_object = make_clone(obj, delta=None, forcedraft=False)
 
 -    `delta`ist der Verschiebungsvektor, der auf den Klon angewendet wird.
 
--   Wenn `forcedraft` `False` ist und `obj` ein einzelnes [Arch- Objekt](Arch_Workbench/de.md) enthält, wird ein Arch-Klon erstellt. `forcedraft` auf `True` setzen, um stattdessen einen Draft-Klon zu erstellen.
+-   Wenn `forcedraft` `False` ist und `obj` ein einzelnes [BIM](BIM_Workbench/de.md)-Objekt enthält, wird ein Arch-Klon erstellt. `forcedraft` auf `True` setzen, um stattdessen einen Draft-Klon zu erstellen.
 
 -    `cloned_object`wird mit dem Klon-Objekt zurückgegeben.
 

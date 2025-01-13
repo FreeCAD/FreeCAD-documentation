@@ -1,8 +1,16 @@
 # Main Page/hr
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
+
 ## Uvod
 
 Ovdje se nalazi wiki dokumentacija programa [FreeCAD](https://www.freecadweb.org). Imate više mogućnosti za pregledavanje dokumentacije: možete istraživati u korisničkom okruženju ili koristite priručnik. Ova dokumentacija (wiki) je rad u tijeku koji je napisan od zajednice korisnika i razvojnih programera programa FreeCAD. Ako pronađete informacije koje su pogrešne ili koje nedostaju, molimo pomozite [help FreeCAD](Special:MyLanguage/help_FreeCAD.md)! 
 
+
+
+</div>
 
 
 
@@ -28,11 +36,14 @@ Ovdje se nalazi wiki dokumentacija programa [FreeCAD](https://www.freecadweb.org
 
 ## Priručnik
 
-<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [FreeCAD priručnik](Manual:Introduction/hr.md) je još jedan, linearniji način prikazivanja informacija sadržanih na ovoj wiki stranici. Dizajniran je za čitanje poput knjige i upoznaje vas s mnogim drugim stranicama iz okruženja gore. Također su dostupne i [ebook verzija](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details), kao i [nekoliko prijevoda u pdf formatu](https://www.freecadweb.org/manual/).
+
+<div class="mw-translate-fuzzy">
+
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [FreeCAD priručnik](Manual:Introduction/hr.md) je još jedan, linearniji način prikazivanja informacija sadržanih na ovoj wiki stranici. Dizajniran je za čitanje poput knjige i upoznaje vas s mnogim drugim stranicama iz okruženja gore. Također su dostupne i [ebook verzija](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details), kao i [nekoliko prijevoda u pdf formatu](https://www.freecadweb.org/manual/). 
 
 
 
-
+</div>
 
 
 
@@ -97,7 +108,13 @@ FreeCAD može biti kompiliran na svim platformama koristeći [CMake](https://cma
 
 ### O razvoju 
 
+
+<div class="mw-translate-fuzzy">
+
 Provjerite [Development roadmap](Development_roadmap.md) za vijesti o onom što se planira, [Ispis promjena](http://www.freecadweb.org/tracker/changelog_page.php) i [Mape puta](http://www.freecadweb.org/tracker/roadmap_page.php) na [FreeCAD trackeru](http://www.freecadweb.org/tracker) kako biste vidjeli napredak ususret sljedećem izdanju ili [Statistika projekta](http://www.ohloh.net/p/freecad) za još više informacija o FreeCAD bazi koda. Sva razvojna komunikacija događa se na [Forumu](http://forum.freecadweb.org/), stoga ga svakako posjetite ako ste zainteresirani za sudjelovanje.
+
+
+</div>
 
 
 

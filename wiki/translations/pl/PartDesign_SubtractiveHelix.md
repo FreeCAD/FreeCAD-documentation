@@ -152,6 +152,13 @@ Jeśli opcja ta jest zaznaczona, helisa będzie wyświetlana w oknie widoku w tr
 
 
 
+## Uwagi
+
+-   Narzędzie <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [Łącznik kształtu](PartDesign_ShapeBinder/pl.md) nie może być użyte dla profilu.
+-   Podczas korzystania z narzędzia <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [Łącznik kształtów podrzędnych](PartDesign_SubShapeBinder/pl.md) dla profilu, wybranie spoiwa w oknie [widoku drzewa](Tree_view/pl.md) nie powiedzie się, zamiast tego powierzchnia wiążąca musi zostać wybrana w oknie [widoku 3D](3D_view/pl.md).
+
+
+
 
 
 {{PartDesign Tools navi

@@ -1,75 +1,59 @@
 ---
  GuiCommand:
    Name: TechDraw 2PointCenterLine
-   Name/it: Linea centrale a 2 punti
-   MenuLocation: TechDraw , Aggiungi linee , Linea centrale a 2 punti
+   Name/it: TechDraw Linea centrale tra 2 punti
+   MenuLocation: TechDraw , Aggiungi linee , Aggiungi Linea centrale tra 2 punti
    Workbenches: TechDraw_Workbench/it
-   SeeAlso: TechDraw_FaceCenterLine/it, TechDraw_2LineCenterLine/it
    Version: 0.19
+   SeeAlso: TechDraw_FaceCenterLine/it, TechDraw_2LineCenterLine/it
 ---
 
 # TechDraw 2PointCenterLine/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Linea centrale a 2 punti aggiunge una linea centrale tra due vertici (punti).
-
-
-</div>
+Lo strumento **TechDraw Linea centrale tra 2 punti** aggiunge una linea centrale tra due punti.
 
 <img alt="" src=images/CL2PointsSample.png  style="width:200px;">
-
-
-<div class="mw-translate-fuzzy">
 
 
 
 *Linea centrale tra 2 punti*
 
 
-</div>
 
-## Usage create 
+## Creazione
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare 2 vertici in una vista.
-2.  Premere il pulsante **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> Linea centrale a 2 punti**.
-3.  Si apre una finestra di dialogo in cui è possibile specificare gli attributi della nuova linea centrale.
-4.  Viene aggiunta una linea centrale tra i 2 punti selezionati.
-
-
-</div>
-
-## Usage edit 
-
-See [TechDraw FaceCenterLine](TechDraw_FaceCenterLine#Usage_edit.md).
-
-## Notes
-
--   To delete a centerline use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
-
-## Properties
-
-Centerlines have no properties of their own, as they are not document objects.
-
-
-<div class="mw-translate-fuzzy">
+1.  Selezionare due punti in una Vista.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Aggiungi linea centrale tra 2 punti](TechDraw_2PointCenterLine/it.md)**.
+    -   Selezionare l\'opzione **TechDraw → Aggiungi linee → <img src="images/TechDraw_2PointCenterLine.svg" width=16px> Aggiungi linea centrale tra 2 punti** dal menu.
+3.  Si apre un pannello delle azioni. Vedere [TechDraw Linea centrale alla faccia](TechDraw_FaceCenterLine/it#Opzioni.md) per ulteriori informazioni.
+4.  Premere il pulsante **OK** per confermare.
+5.  Viene aggiunta una linea centrale tra i punti selezionati.
 
 
 
+## Modifica
+
+Vedere [TechDraw Linea centrale alla faccia](TechDraw_FaceCenterLine/it#Modifica.md).
 
 
-</div>
+
+## Note
+
+-   Per eliminare una linea centrale selezionarla e premere **Delete**. {{Version/it|1.0}}
+
+
+
+## Proprietà
+
+Le Linee centrali non hanno proprietà proprie, poiché non sono oggetti documento.
+
+
+
 
 
 {{TechDraw Tools navi

@@ -12,20 +12,19 @@
 
 ## Description
 
-This tool draws a rectangle by first picking a point that will become the center point, then by picking an edge point. The result is a rectangle like with the [Rectangle](Sketcher_CreateRectangle.md) tool, only the definition points are different.
-
-When starting the tool, the mouse pointer changes to a white cross with a red rectangle icon. The coordinates of the pointer are shown beside it in blue in real time.
+The <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> [Sketcher CreateRectangle Center](Sketcher_CreateRectangle_Center.md) tool creates a centered rectangle. <small>(v1.0)</small> : This is the same tool as [Sketcher CreateRectangle](Sketcher_CreateRectangle.md) but with a different initial mode.
 
 ![](images/SketcherCreateCenteredRectangleExample.png‎ )
 
 ## Usage
 
--   After pressing the <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> **Create centered rectangle** toolbar button, click once to set the center point, then move the mouse and click a second time to set a corner point.
--   Pressing **Esc** or clicking the right mouse button cancels the function.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-## Notes
-
-See [Sketcher CreateRectangle](Sketcher_CreateRectangle#Notes.md).
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_CreateRectangle_Center.svg" width=16px> [Centered rectangle](Sketcher_CreateRectangle_Center.md)** button.
+    -   Select the **Sketcher → Sketcher geometries → <img src="images/Sketcher_CreateRectangle_Center.svg" width=16px> Create centered rectangle** option from the menu.
+    -   Use the keyboard shortcut: **G** then **V**.
+2.  For further steps see [Sketcher CreateRectangle](Sketcher_CreateRectangle#Usage.md).
 
 
 

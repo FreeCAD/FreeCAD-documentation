@@ -1,20 +1,25 @@
 ---
  GuiCommand:
    Name: Web BrowserRefresh
+   Name/pl: Web: Odśwież stronę
    MenuLocation: 
-   Workbenches: Web_Workbench, Start_Workbench
+   Workbenches: Web_Workbench/pl, Start_Workbench/pl
    SeeAlso: 
 ---
 
 # Web BrowserRefresh/pl
 
-## Description
 
-The <img alt="" src=images/Web_BrowserRefresh.svg  style="width:24px;"> **Web BrowserRefresh** command updates the current web page.
 
-## Usage
+## Opis
 
-1.  Press the **<img src="images/Web_BrowserRefresh.svg" width=16px> [Refresh web page](Web_BrowserRefresh.md)** button.
+Polecenie <img alt="" src=images/Web_BrowserRefresh.svg  style="width:24px;"> **Odśwież stronę** aktualizuje bieżąco wyświetlaną stronę internetową.
+
+
+
+## Użycie
+
+1.  Naciśnij przycisk **<img src="images/Web_BrowserRefresh.svg" width=16px> '''Odśwież stronę'''**.
 
 
 

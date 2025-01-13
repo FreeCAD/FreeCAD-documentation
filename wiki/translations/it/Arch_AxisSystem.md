@@ -10,6 +10,9 @@
 # Arch AxisSystem/it
 
 
+</div>
+
+
 
 ## Descrizione
 
@@ -24,11 +27,17 @@ Questo è utile per definire i punti di intersezione tra i diversi assi. Gli ogg
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Facoltativamente, selezionare gli oggetti [Assi](Arch_Axis/it.md) che si desidera includere in questo sistema.
 2.  Premere il pulsante **<img src="images/Arch_AxisSystem.svg" width=16px> [Sistema di assi](Arch_AxisSystem/it.md)**.
 3.  Fare clic con il tasto destro del mouse sull\'oggetto Sistema di assi appena creato nella vista ad albero per aggiungere o modificare gli oggetti [Assi](Arch_Axis/it.md) incluso in questo sistema.
 4.  Selezionare qualsiasi [Asse](Arch_Axis/it.md) esistente e premere i pulsanti **<img src="images/Arch_Add.svg" width=16px> [Aggiungi](Arch_Add/it.md)** o **<img src="images/Arch_Remove.svg" width=16px> [Rimuovi](Arch_Remove/it.md)** per aggiungerlo o rimuoverlo dal sistema.
 5.  Impostare le proprietà **Axis** per fare in modo che un oggetto Arch punti a questo sistema, e la sua forma venga duplicata nei punti di intersezione di questo sistema
+
+
+</div>
 
 
 
@@ -85,6 +94,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch AxisSystem/it
+⏵ [documentation index](../README.md) > Arch AxisSystem/it

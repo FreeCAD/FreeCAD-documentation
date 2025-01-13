@@ -1,16 +1,13 @@
 # Python/fr
-**FreeCAD a été conçu à l'origine pour fonctionner avec Python 2.x. Cette série s'est terminée avec la version 2.7.18 du 20 avril 2020 et a été remplacée par Python 3. Le développement futur de FreeCAD se fera exclusivement avec Python 3, et la rétrocompatibilité ne sera pas supportée.**
-
 ## Description
-
-
-
 
 [Python](https://www.python.org) est un langage de programmation de haut niveau à usage général très utilisé dans les grandes applications pour automatiser certaines tâches en créant des scripts ou des [macros](macros/fr.md).
 
 Dans FreeCAD, le code Python peut être utilisé pour créer divers éléments par programmation, sans qu\'il soit nécessaire de cliquer sur l\'interface graphique. De plus, de nombreux outils et ateliers de FreeCAD sont programmés en Python.
 
 Voir [Introduction à Python](Introduction_to_Python/fr.md) pour en savoir plus sur le langage de programmation Python, puis sur [Tutoriel sur les scripts Python](Python_scripting_tutorial/fr.md) et sur [principes de base des scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md) pour lancer la création de scripts dans FreeCAD.
+
+
 
 ## Lisibilité
 
@@ -85,6 +82,8 @@ Wire = make_wire(pointslist,
 Wire = make_wire(pointslist, closed=True, face=True)
 Window = make_window(Wire, name="Big window")
 ```
+
+
 
 ## Importations
 

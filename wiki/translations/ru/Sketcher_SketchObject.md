@@ -13,25 +13,13 @@ The `Sketcher::SketchObject` is derived from the [Part Part2DObject](Part_Part2D
 
 *Simplified diagram of the relationships between the core objects in FreeCAD*
 
+
+
 ## Применение
 
-1.  Switch to the [Sketcher Workbench](Sketcher_Workbench.md).
-2.  Press **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)**.
-3.  Select a **Sketch orientation**: XY-plane, XZ-plane, or YZ-plane. Optionally also choose **Reverse direction**, and give an **Offset** value.
-4.  Press **OK**.
+See [Sketcher NewSketch](Sketcher_NewSketch.md).
 
-Although the SketchObject can be used by itself to draw on a plane, it is most commonly used in conjunction with the [PartDesign Workbench](PartDesign_Workbench.md) to create extruded solids.
 
-1.  Switch to the [PartDesign Workbench](PartDesign_Workbench.md).
-
-2.  Press **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.
-
-3.  Press **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)**.
-
-4.  
-    **Select feature**: XY_Plane (Base plane), XZ_Plane (Base plane), or YZ_Plane (Base plane).
-
-5.  Press **OK**.
 
 ## Свойства
 
@@ -40,6 +28,8 @@ See [Property](Property.md) for all property types that scripted objects can hav
 The [Sketcher SketchObject](Sketcher_SketchObject.md) (`Sketcher::SketchObject` class) is derived from the [Part Part2DObject](Part_Part2DObject.md) (`Part::Part2DObject` class) and inherits all its properties.
 
 The Sketcher SketchObject also has the following additional properties in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
+
+
 
 ### Данные
 
@@ -54,6 +44,8 @@ The Sketcher SketchObject also has the following additional properties in the [p
 
 -    **Fully Constrained|Bool|Hidden**: (read-only) if `True` the sketch is fully constrained.
 
+
+
 ### Вид
 
 
@@ -66,21 +58,11 @@ The Sketcher SketchObject also has the following additional properties in the [p
 
 {{TitleProperty|Grid}}
 
--    **Grid Auto Size|Bool|Hidden**: if `True` the grid is resized based on the boundingbox of the geometry of the sketch.
+-    **Grid Auto|Bool**: if `True` the grid is resized based on the boundingbox of the geometry of the sketch.
 
 -    **Grid Size|Length**: the size of the spacing of the local grid lines in the [3D view](3D_view.md); it defaults to {{value|10 mm}}.
 
--    **Grid Snap|Bool**: if `True` the grid can be used to snap points.
-
--    **Grid Style|Enumeration**: the style of the grid lines; {{value|Dashed}} (default) or {{value|Light}}.
-
 -    **Show Grid|Bool**: if `True` a grid local to the object will be displayed in the [3D view](3D_view.md). This grid is independent of the [Draft Grid](Draft_ToggleGrid.md).
-
--    **Show Only In Edit Mode|Bool**: if `True` the grid is only displayed while the sketch is being edited.
-
--    **Tight Grid|Bool**: if `True` the local grid will be localized around the origin of the shape, otherwise it will extend itself more.
-
--    **max Number Of Lines|Integer**: the maximum number of lines in the grid.
 
 
 {{TitleProperty|Visibility automation}}
@@ -100,6 +82,8 @@ The Sketcher SketchObject also has the following additional properties in the [p
 -    **Show Support|Bool**: if `True` all objects this sketch is attached to are shown when the sketch is opened.
 
 -    **Tempo Vis|PythonObject|Hidden**: a custom class associated with this object, that handles hiding and showing other objects when opening and closing the sketch.
+
+
 
 ## Программирование
 

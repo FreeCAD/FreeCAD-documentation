@@ -1,10 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM ConstraintInitialFlowVelocity
    Name/fr: FEM Vitesse initiale d'écoulement
    MenuLocation: Modèle , Conditions limites de fluide , Condition de vitesse d'écoulement initial
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_ConstraintFlowVelocity/fr, FEM_ConstraintInitialPressure/fr
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintInitialFlowVelocity/fr

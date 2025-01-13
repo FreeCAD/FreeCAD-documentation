@@ -10,12 +10,16 @@
 
 # PartDesign Line/ru
 
+
+
 ## Описание
 
 Создает **опорный отрезок**, который можно использовать для размещения эскизов или другой опорной геометрии. Например, его можно использовать в качестве оси симметрии для построения фигур вращения или для выреза пазов (канавок).
 
 <img alt="" src=images/datum_line.png  style="width:600px;"> 
 *Два опорных отрезка, проходящих через противоположные углы параллелепипеда, пересекаются в центре масс.*
+
+
 
 ## Применение
 
@@ -27,9 +31,17 @@
 6.  Define Attachment Offset values.
 7.  Press **OK**.
 
+
+
 ## Опции
 
 Double-click the DatumLine label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Part EditAttachment](Part_EditAttachment.md).
+
+## Preferences
+
+See [PartDesign Plane](PartDesign_Plane#Preferences.md).
+
+
 
 ## Свойства
 
@@ -40,7 +52,13 @@ Double-click the DatumLine label in the Model tree or right-click and select **E
 -    **Label**: name given to the object, this name can be changed at convenience.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

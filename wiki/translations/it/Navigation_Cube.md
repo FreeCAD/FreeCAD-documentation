@@ -61,6 +61,10 @@ Facendo clic sul cubo nell\'angolo inferiore destro del Cubo di Navigazione vien
 
 -    **<img src="images/Std_ViewFitAll.svg" width=16px> [Visualizza tutto](Std_ViewFitAll.md)**: esegue lo zoom e lo spostamento della telecamera in modo che tutti gli oggetti visibili rientrino nella vista.
 
+-    **<img src="images/Std_ViewFitSelection.svg" width=16px> [Visualizza la selezione](Std_ViewFitSelection.md)**: esegue lo zoom e la panoramica della telecamera in modo che tutti gli oggetti selezionati si adattino alla vista. {{Version/it|1.0}}
+
+-    **<img src="images/Std_AlignToSelection.svg" width=16px> [Allinea alla selezione](Std_AlignToSelection.md)**: punta la telecamera nella vista nella direzione opposta alla normale di una faccia piana o nella direzione opposta di un bordo dritto. {{Version/it|1.0}}
+
 -    **Cubo di navigazione mobile**: se questa casella di controllo ({{Version/it|0.21}}) è selezionata, l\'intero Cubo di navigazione può essere spostato tenendo premuto il pulsante sinistro del mouse in qualsiasi punto del cubo principale e trascinandolo. Questo ha lo scopo di spostare temporaneamente il cubo fuori ingombro. I [parametri avanzati](#Advanced_parameters.md) OffsetX e OffsetY possono essere usati per riposizionare permanentemente il cubo, vedi sotto.
 
 

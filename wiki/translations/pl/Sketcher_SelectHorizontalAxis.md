@@ -14,17 +14,17 @@
 
 ## Opis
 
-Polecenie <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:24px;"> **Wybierz oś poziomą** zaznacza oś poziomą szkicu.
+Narzędzie <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:24px;"> **Wybierz oś poziomą** zaznacza oś poziomą szkicu.
 
 
 
 ## Użycie
 
-1.  Jeśli nie zostało to jeszcze zrobione: Otwórz szkic w trybie edycji.
-2.  Polecenie można wywołać na kilka sposobów:
-    -   Wybierz z menu **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Wybierz oś poziomą**.
-    -   Skrót klawiaturowy: **Z**, a następnie **H**.
-3.  Zostanie zaznaczona pozioma oś szkicu.
+1.  Narzędzie można wywołać na kilka sposobów:
+    -   Wybierz opcję **Szkic → Narzędzia szkicownika → [<img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Wybierz oś poziomą** z menu.
+    -   Kliknij prawym przyciskiem myszy w sekcji **Elementy** [okna dialogowego](Sketcher_Dialog/pl.md) i wybierz opcję **<img src="images/Sketcher_SelectHorizontalAxis.svg" width=16px> Wybierz oś poziomą** z menu kontekstowego.
+    -   Użyj skrótu klawiaturowego: **Z**, a następnie **H**.
+2.  Zostanie zaznaczona pozioma oś szkicu.
 
 
 

@@ -11,164 +11,44 @@
 
 ## Description
 
-**Part EditAttachment** is a utility to attach an object to one or more other objects. The attached object is linked to the referenced object(s), which means that if the [placement](Std_Placement.md) or geometry of the referenced object(s) is changed, the placement of the attached object will update accordingly.
+The <img alt="" src=images/Part_EditAttachment.svg  style="width:24px;"> **Part EditAttachment** command attaches an object to one or more other objects. The attached object is linked to the referenced object(s), which means that if the [placement](Std_Placement.md) or geometry of the referenced object(s) is changed, the placement of the attached object will update accordingly.
 
-## Attach engines 
+## Attacher engines 
 
-The attachment of an object is controlled by one of four attach engines. The default engine that is used for an object depends on its type.
+The attachment of an object is controlled by one of four attacher engines. The default engine that is used for an object depends on its type. An object\'s attacher engine can be changed via its **Attacher Engine** property (<small>(v1.0)</small> ) or its [hidden](Property_editor#Context_menu.md) **Attacher Type** property.
 
-The four engines are:
+The available engines are listed in the table below. Attacher engines control the **Placement** of objects. All engines can be used for all objects that have this property. But the results of the last three make the most sense if the shape of the object matches the mentioned \'Logical Shape\'.
 
--   [Attacher::AttachEnginePoint](#Attacher:_AttachEnginePoint.md)
--   [Attacher::AttachEngineLine](#Attacher:_AttachEngineLine.md)
--   [Attacher::AttachEnginePlane](#Attacher:_AttachEnginePlane.md)
--   [Attacher::AttachEngine3D](#Attacher:_AttachEngine3D.md)
+  Attacher Engine                            Attacher Type                 Logical Shape
+    
+  [Engine 3D](#Engine_3D.md)         Attacher::AttachEngine3D      
+  [Engine Plane](#Engine_Plane.md)   Attacher::AttachEnginePlane   Planar face coincident with the XY plane of the Placement
+  [Engine Line](#Engine_Line.md)     Attacher::AttachEngineLine    Straight edge collinear with the Z axis of the Placement
+  [Engine Point](#Engine_Point.md)   Attacher::AttachEnginePoint   Vertex coincident with the origin of the Placement
 
-The rest of this page focuses on the AttachEngine3D. The modes of the other engines are only listed. Note that the modes of AttachEnginePlane are in fact identical to those of AttachEngine3D.
+The rest of this page focuses on the Engine 3D. The modes of the other engines are only listed. Note that the modes of Engine Plane are in fact identical to those of Engine 3D.
 
 ## Usage
 
 1.  Select the object to be attached.
-2.  Select the **Part → <img src="images/Part_EditAttachment.svg" width=16px> Attachment...** option from the menu.
+2.  Do one of the following:
+    -   If the object already has a **Map Mode** property: click in that field in the [Property editor](Property_editor.md) and press the **...** button that appears.
+    -   Select the **Part → <img src="images/Part_EditAttachment.svg" width=16px> Attachment...** option from the menu.
 3.  The **Attachment** task panel opens.
 4.  At the top of the task panel *Not attached* can be read. The first button labeled **Selecting...** is highlighted to indicate a selection in the [3D view](3D_view.md) is expected.
 5.  Select a vertex, edge or face/plane belonging to another object.
-6.  In the input field to the right of the button, the referenced object and subelement are shown. For example, if a face of a [Part Box](Part_Box.md) is selected, the field may show {{Value|Box:Face6}}.
+6.  In the input field to the right of the button, the referenced object and subelement are shown. For example, if a face of a [Part Box](Part_Box.md) is selected, the field may show {{Value|Box:Face6}}. The label of the button displays the subelement type now.
 7.  The available modes are filtered based on the selected references and their order. For example, for modes [Align O-Z-X](#Align_O-Z-X.md) to [Align O-Y-X](#Align_O-Y-X.md) the first reference must be a vertex. If the first reference is a subelement of a different type, they are removed from the list.
-8.  Select an [Attachment mode](#Attachment_mode.md) in the list. For information on the attachment modes, hover the mouse over them for a tooltip to appear.
-9.  *Attached with mode * is now displayed at the top of the task panel.
+8.  *Attached with mode * is now displayed at the top of the task panel.
+9.  Optionally select a different [Attachment mode](#Attachment_mode.md) from the list. For information on the attachment modes, hover the mouse over them for a tooltip to appear.
 10. Depending on the selected mode, add up to three more references by pressing the **Reference2**, **Reference3**, and **Reference4** buttons and repeating step 5. It is also possible to specify all references before selecting an attachment mode.
-11. When selecting an additional reference the label of the previous button will change and display the type of subelement of that reference.
-12. Optionally set an [Attachment Offset](#Attachment_Offset.md).
-13. Press **OK**.
-14. If applicable, optionally change the **Map Path Parameter** property in the [Property editor](Property_editor.md).
-
-## Change attach engine 
-
-It is possible to manually change the attach engine of an object:
-
-1.  Select the object.
-2.  Right-click in the [Property editor](Property_editor.md) and select **Show all** from the context menu.
-3.  Edit the **Attacher Type** property of the object.
+11. Optionally set an [Attachment Offset](#Attachment_Offset.md).
+12. Press **OK**.
+13. If applicable, optionally change the **Map Path Parameter** property in the [Property editor](Property_editor.md).
 
 ## Attachment modes 
 
-
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-
-
-### Attacher::AttachEnginePoint
-
-
-
-
-<div class="mw-collapsible-content">
--   Deactivated
--   Object\'s origin
--   Focus1
--   Focus2
--   On edge
--   Center of curvature
--   Center of mass
--   Vertex
--   Proximity point 1
--   Proximity point 2
-
-
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-
-
-### Attacher::AttachEngineLine
-
-
-
-
-<div class="mw-collapsible-content">
--   Deactivated
--   Object\'s X
--   Object\'s Y
--   Object\'s Z
--   Axis of curvature
--   Directrix1
--   Directrix2
--   Asymptote1
--   Asymptote2
--   Tangent
--   Normal to edge
--   Binormal
--   Through two points
--   Proximity line
--   1st principal axis
--   2nd principal axis
--   3rd principal axis
--   Normal to surface
-
-
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-
-
-### Attacher::AttachEnginePlane
-
-
-
-
-<div class="mw-collapsible-content">
--   Deactivated
--   Translate origin
--   Object\'s XY
--   Object\'s XZ
--   Object\'s YZ
--   Plane face
--   Tangent to surface
--   Normal to edge
--   Frenet NB
--   Frenet TN
--   Frenet TB
--   Concentric
--   Revolution Section
--   Plane by 3 points
--   Normal to 3 points
--   Folding
--   Inertia 2-3
--   Align O-N-X
--   Align O-N-Y
--   Align O-X-Y
--   Align O-X-N
--   Align O-Y-N
--   Align O-Y-X
-
-
-
-
-</div>
-
-
-</div>
-
-
-
-### Attacher::AttachEngine3D
+### Engine 3D 
 
 <img alt="" src=images/Part_Offset_Tasks.png  style="width:250px;">
 
@@ -333,7 +213,7 @@ The X, Y and Z axes are matched with those of an inertial coordinate system, con
 
 #### Align O-Z-X 
 
-The origin is matched with the first Vertex. The Z and X axes are aligned towards a vertex or along a line.
+The origin is matched with the first vertex. The Z and X axes are aligned towards a vertex or along a line.
 
 See [Align O-X-Y Type Attachment Modes](O-X-Y_Type_Attachment_Modes.md) for more details.
 
@@ -348,33 +228,163 @@ See [Align O-X-Y Type Attachment Modes](O-X-Y_Type_Attachment_Modes.md) for more
 
 #### Align O-Z-Y 
 
-The origin is matched with the first Vertex. The Z and Y axes are aligned towards a vertex or along a line.
+The origin is matched with the first vertex. The Z and Y axes are aligned towards a vertex or along a line.
 
 See [Align O-Z-X](#Align_O-Z-X.md).
 
 #### Align O-X-Y 
 
-The origin is matched with the first Vertex. The X and Y axes are aligned towards a vertex or along a line.
+The origin is matched with the first vertex. The X and Y axes are aligned towards a vertex or along a line.
 
 See [Align O-Z-X](#Align_O-Z-X.md).
 
 #### Align O-X-Z 
 
-The origin is matched with the first Vertex. The X and Z axes are aligned towards a vertex or along a line.
+The origin is matched with the first vertex. The X and Z axes are aligned towards a vertex or along a line.
 
 See [Align O-Z-X](#Align_O-Z-X.md).
 
 #### Align O-Y-Z 
 
-The origin is matched with the first Vertex. The Y and Z axes are aligned towards a vertex or along a line.
+The origin is matched with the first vertex. The Y and Z axes are aligned towards a vertex or along a line.
 
 See [Align O-Z-X](#Align_O-Z-X.md).
 
 #### Align O-Y-X 
 
-The origin is matched with the first Vertex. The Y and X axes are aligned towards a vertex or along a line.
+The origin is matched with the first vertex. The Y and X axes are aligned towards a vertex or along a line.
 
 See [Align O-Z-X](#Align_O-Z-X.md).
+
+#### XY parallel to plane 
+
+
+<small>(v1.0)</small> 
+
+The XY plane is aligned to be plane-parallel to the XY plane of the Placement of a linked object, and pass through a vertex. The origin is matched with the projection of the origin of the linked object onto the XY plane.
+
+Note that you have to select a whole object and not a subelement such as a face or plane.
+
+:; Reference combinations:
+
+:   Any whole object (with a **Placement** property), Vertex
+
+
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Engine Plane 
+
+
+
+
+<div class="mw-collapsible-content">
+-   Deactivated
+-   Translate origin
+-   Object\'s XY
+-   Object\'s XZ
+-   Object\'s YZ
+-   Plane face
+-   Tangent to surface
+-   Normal to edge
+-   Frenet NB
+-   Frenet TN
+-   Frenet TB
+-   Concentric
+-   Revolution Section
+-   Plane by 3 points
+-   Normal to 3 points
+-   Folding
+-   Inertia 2-3
+-   Align O-N-X
+-   Align O-N-Y
+-   Align O-X-Y
+-   Align O-X-N
+-   Align O-Y-N
+-   Align O-Y-X
+-   XY parallel to plane <small>(v1.0)</small> 
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Engine Line 
+
+
+
+
+<div class="mw-collapsible-content">
+-   Deactivated
+-   Object\'s X
+-   Object\'s Y
+-   Object\'s Z
+-   Axis of curvature
+-   Directrix1
+-   Directrix2
+-   Asymptote1
+-   Asymptote2
+-   Tangent
+-   Normal to edge
+-   Binormal
+-   Through two points
+-   Intersection <small>(v1.0)</small> 
+-   Proximity line
+-   1st principal axis
+-   2nd principal axis
+-   3rd principal axis
+-   Normal to surface
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Engine Point 
+
+
+
+
+<div class="mw-collapsible-content">
+-   Deactivated
+-   Object\'s origin
+-   Focus1
+-   Focus2
+-   On edge
+-   Center of curvature
+-   Center of mass
+-   Vertex
+-   Proximity point 1
+-   Proximity point 2
+
+
+
+
+</div>
+
+
+</div>
+
+
 
 ## Attachment offset 
 

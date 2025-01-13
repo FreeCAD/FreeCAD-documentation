@@ -1,4 +1,7 @@
-# <img alt="Логотип верстака Arch" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/ru
+# Arch Workbench/ru
+**In v1.0 the BIM, Native-IFC and Arch Workbenches have been merged into the integrated [BIM Workbench](BIM_Workbench.md).**
+
+<img alt="Логотип верстака Arch" src=images/Workbench_Arch.svg  style="width:128px;">
 
 
 
@@ -7,7 +10,7 @@
 
 ## Введение
 
-<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Верстак Arch](Arch_Workbench/ru.md) обеспечивает современный процесс [информационного моделирования здания](http://ru.wikipedia.org/wiki/BIM) (Building Information Modeling, BIM) внутри FreeCAD, c поддержкой таких функций как полностью параметрические архитектурные элементы вроде стен, балок, крыш, окон, лестниц, труб и фурнитуры. Он поддерживает Industry Foundation Classes ([IFC](Arch_IFC/ru.md)) данные, и создание двумерных планов строений совместно с [верстаком TechDraw](TechDraw_Workbench/ru.md).
+The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md) provides a modern [**B**uilding **I**nformation **M**odelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) workflow to FreeCAD, with support for features like fully parametric architectural entities such as walls, beams, roofs, windows, stairs, pipes, and furniture. It supports [**I**ndustry **F**oundation **C**lasses](Arch_IFC.md) (IFC) files, and production of 2D floor plans in combination with the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
 
 Верстак Arch импортирует все инструменты из [верстака Draft](Draft_Workbench/ru.md), используя двумерные объекты для построения архитектурных объектов. В то же время Arch так же использует твердотельные объекты, созданные в других верстаках вроде [Part](Part_Workbench/ru.md) и [PartDesign](PartDesign_Workbench/ru.md).
 
@@ -27,27 +30,87 @@
 
 -   <img alt="" src=images/Arch_Structure.svg  style="width:32px;"> [Структура](Arch_Structure/ru.md): создаёт структурный элемент с нуля или использует выбранный объект в качестве основы.
 
--   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Rebar tools](Arch_CompRebarStraight.md): These tools are only available if the [Reinforcement Workbench](Reinforcement_Workbench.md) has been installed.
+-   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Rebar tools](Arch_CompRebarStraight.md): These tools, except the last, are only available if the [Reinforcement Workbench](Reinforcement_Workbench.md) has been installed.
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> [Прямая арматура](Arch_Rebar_Straight/ru.md): Создает прямой арматурный стержень в выбранном структурном элементе.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Arch_Rebar_UShape.png  style="width:32px;"> [U-Образная арматура](Arch_Rebar_UShape/ru.md): Создает U-образный арматурный стержень в выбранном структурном элементе.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/Arch_Rebar_LShape.png  style="width:32px;"> [L-Образная арматура](Arch_Rebar_LShape/ru.md): Создает L-образный арматурный стержень в выбранном структурном элементе.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Arch_Rebar_Stirrup.png  style="width:32px;"> [Кольцевая арматура](Arch_Rebar_Stirrup/ru.md): Создает кольцевой арматурный стержень в выбранном структурном элементе.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/Arch_Rebar_BentShape.png  style="width:32px;"> [Изогнутая арматура](Arch_Rebar_BentShape/ru.md): Создает изогнутый арматурный стержень в выбранном структурном элементе.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Arch_Rebar_Helical.png  style="width:32px;"> [Спиральная арматура](Arch_Rebar_Helical/ru.md): Создает спиральный арматурный стержень в выбранном структурном элементе.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Армировать колонну](Arch_Rebar_ColumnReinforcement/ru.md): Добавляет арматуру внутрь указанной прямоугольной колонны.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Армировать балку](Arch_Rebar_BeamReinforcement/ru.md): Добавляет арматуру внутрь указанной балки.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Армировать плиту](Arch_Rebar_Slab_Reinforcement/ru.md): Добавляет арматуру внутрь указанной плиты.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Армировать фундамент](Arch_Rebar_Footing_Reinforcement/ru.md): Добавляет арматуру в указанный фундамент.
+
+
+</div>
 
   - <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Арматура по эскизу](Arch_Rebar.md): Создает арматурный стержень в выбранном элементе конструкции по эскизу.
 
@@ -149,6 +212,8 @@
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Обрезать плоскостью](Arch_CutPlane/ru.md): Обрезает объект по указанной плоскости.
 
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line.
+
 -   <img alt="" src=images/Arch_Add.png  style="width:32px;"> [Добавить компонент](Arch_Add/ru.md): Добавляет объекты к компоненту.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Удалить компонент](Arch_Remove/ru.md): Вычитает или удаляет объекты из компонента.
@@ -186,10 +251,6 @@
 -   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Create IFC spreadsheet\...](Arch_IfcSpreadsheet.md): Creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an object.
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
-
-## Obsolete tools 
-
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. Not available in <small>(v0.22)</small> .
 
 
 
@@ -235,4 +296,4 @@
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/ru
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Arch Workbench/ru

@@ -50,7 +50,7 @@ Enable the console output in the menu **Edit → Preferences → Python → Macr
 
 <div class="mw-translate-fuzzy">
 
-マクロダイアログには、あなたのマクロを管理、編集、削除、新規作成ができます。マクロを編集する場合、コードに変更を加えることができるエディタウィンドウが開きます。 新しいマクロは[Addon Manager](Std_AddonMgr.md)にリンクするAddons \...ボタンを使ってインストールできます。
+マクロダイアログには、あなたのマクロを管理、編集、削除、新規作成ができます。マクロを編集する場合、コードに変更を加えることができるエディタウィンドウが開きます。 新しいマクロは[Addon ManagerにリンクするAddons](Std_AddonMgr.md) \...ボタンを使ってインストールできます。
 
 
 </div>
@@ -62,7 +62,7 @@ Enable the console output in the menu **Edit → Preferences → Python → Macr
 
 ### 例
 
-「記録」ボタンを押して名前をつけてみましょう。\"cylinder 10×10\"にします。その後、[パートワークベンチ](Part_Workbench/ja.md)で、半径= 10、高さ= 10でシリンダを作成します。そして、「記録停止」ボタンを押してください。マクロ編集のダイアログでは、記録されているPythonのコードを見ることができ、必要に応じて変更を加えることができます。マクロを実行する簡単な方法は、マクロをエディタで開きツールバー上の「実行」ボタンを押します。 マクロは常にディスクに保存され、あなたが行ったすべての変更、または新しく作成したマクロはFreeCADを次回起動時も利用できるようになっています。
+「記録」ボタンを押して名前をつけてみましょう。\"cylinder 10×10\"にします。その後、[パートワークベンチで](Part_Workbench/ja.md)、半径= 10、高さ= 10でシリンダを作成します。そして、「記録停止」ボタンを押してください。マクロ編集のダイアログでは、記録されているPythonのコードを見ることができ、必要に応じて変更を加えることができます。マクロを実行する簡単な方法は、マクロをエディタで開きツールバー上の「実行」ボタンを押します。 マクロは常にディスクに保存され、あなたが行ったすべての変更、または新しく作成したマクロはFreeCADを次回起動時も利用できるようになっています。
 
 
 </div>
@@ -88,7 +88,7 @@ Of course it is not practical to load a macro in the editor in order to use it. 
 
 <div class="mw-translate-fuzzy">
 
-[Customize Toolbars](Customize_Toolbars.md) この方法であなたのマクロをFreeCADの標準ツールのように使うことができます。これは、FreeCADのpythonスクリプトの力のおかげで、インターフェイスに独自のツールを簡単に追加することができます。Pythonスクリプティングについて詳細をお知りになりたい場合は[Scripting](Scripting.md)ページを参照してください。
+[Customize Toolbars](Customize_Toolbars.md) この方法であなたのマクロをFreeCADの標準ツールのように使うことができます。これは、FreeCADのpythonスクリプトの力のおかげで、インターフェイスに独自のツールを簡単に追加することができます。Pythonスクリプティングについて詳細をお知りになりたい場合は[Scriptingページを](Scripting.md)参照してください。
 
 
 </div>
@@ -118,7 +118,7 @@ See [How to install macros](How_to_install_macros.md) for a more detailed descri
 
 ### マクロリポジトリ
 
-[Macros recipes](Macros_recipes.md)ページには、あなたのFreeCADに追加できるいくつかの便利なマクロが紹介されています。
+[Macros recipesページには](Macros_recipes.md)、あなたのFreeCADに追加できるいくつかの便利なマクロが紹介されています。
 
 
 </div>

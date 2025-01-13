@@ -1,111 +1,76 @@
 ---
  GuiCommand:
-   Name: TechDraw_ActiveView
-   Name/it: Vista attiva
-   Icon: TechDraw_ActiveView.svg
-   MenuLocation: TechDraw , Vista attiva
+   Name: TechDraw ActiveView
+   Name/it: TechDraw Vista attiva
+   MenuLocation: TechDraw , Viste Da Altri Ambienti , Inserisci Vista attiva 
    Workbenches: TechDraw_Workbench/it
-   SeeAlso: TechDraw Symbol/it
    Version: 0.19
+   SeeAlso: TechDraw_Image/it
 ---
 
 # TechDraw ActiveView/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Lo strumento **TechDraw Vista attiva** inserisce un\'immagine bitmap della finestra 3D attiva in una pagina di disegno.
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento Vista attiva inserisce una copia di una finestra 3D in una pagina di disegno.
-
-
-</div>
-
-![](images/TechDraw_ActiveView_example.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+![](images/TechDraw_ActiveView_example.png ) 
 *Una vista semplice dal modello 3D.*
-
-
-</div>
 
 
 
 ## Utilizzo
 
+1.  Passare alla [Vista 3D](3D_view/it.md) corretta.
+2.  Se nel documento sono presenti più pagine di disegno: facoltativamente selezionare la pagina desiderata nella [Vista ad albero](Tree_view/it.md).
+3.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/TechDraw_ActiveView.svg" width=16px> [Inserisci Vista attiva (Vista 3D)](TechDraw_ActiveView/it.md)**.
+    -   Seleziona l\'opzione **TechDraw → Viste Da Altri Ambienti → <img src="images/TechDraw_ActiveView.svg" width=16px> Inserisci Vista attiva (Vista 3D)** dal menu.
+4.  Se nel documento sono presenti più pagine di disegno e non si ha ancora selezionato una pagina, si apre la finestra di dialogo **Scelta pagina**:
+    1.  Selezionare la pagina desiderata.
+    2.  Premere il pulsante **OK**.
+5.  Si apre il pannello delle attività da **ActiveView a TD View**. Vedere [Opzioni](#Opzioni.md) per ulteriori informazioni.
+6.  Premere il pulsante **OK**.
 
-<div class="mw-translate-fuzzy">
-
-1.  Passare alla finestra 3D che si desidera copiare.
-2.  Se nel documento sono presenti più pagine di disegno, è necessario selezionare nella struttura ad albero anche la pagina desiderata.
-3.  Premere il pulsante **<img src="images/TechDraw_ActiveView.svg" width=16px> [Vista attiva](TechDraw_ActiveView/it.md)**.
-4.  Si apre una finestra di dialogo che consente di specificare le dimensioni, il colore del bordo e dello sfondo della copia.
 
 
-</div>
+## Opzioni
 
-## Options
+È possibile specificare quanto segue:
 
-The following can be specified:
+-    **Ritaglia**: Ritaglia la bitmap generata.
 
--    **Crop**: Crop the generated bitmap.
+-    **Larghezza**: La larghezza (in mm) per ritagliare la vista generata.
 
--    **Width**: The width (in mm) to crop the generated view.
+-    **Altezza**: L\'altezza (in mm) per ritagliare la vista generata.
 
--    **Height**: The height (in mm) to crop the generated view.
+-    **Nessuno sfondo**: Se selezionato, la bitmap generata avrà uno sfondo trasparente.
 
--    **No Background**: If checked, the generated bitmap will have a transparent background.
+-    **Sfondo uniforme**: Se selezionato, il generato avrà uno sfondo del colore selezionato.
 
--    **Solid Background**: If checked, the generated will have a background of the selected color.
-
--    **Use 3d Background**: If checked, the generated bitmap will use the background from the 3D window.
+-    **Usa sfondo 3D**: Se selezionato, la bitmap generata utilizzerà lo sfondo della finestra 3D.
 
 
 
 ## Note
 
-
-<div class="mw-translate-fuzzy">
-
--   Le viste attive sono statiche, una volta generate non vengono mai aggiornate con le modifiche al modello 3D.
--   Vista attiva in realtà è un <img alt="" src=images/TechDraw_Symbol.svg  style="width:24px;"> [Simbolo](TechDraw_Symbol/it.md). La sua proprietà **Scale Type** viene quindi sempre inizializzata come *Personalizzata*.
--   Questo strumento è ancora in qualche modo **sperimentale**.
-
-
-</div>
+-   Le Viste attive sono statiche una volta generate e non vengono mai aggiornate con le modifiche al modello 3D.
+-   Una Vista Attive dietro le quinte è una [Immagine](TechDraw_Image/it.md). Il suo **Scale Type** è quindi sempre inizializzato come {{Value|Custom}}.
+-   In {{VersionMinus/it|0.20}} le Viste Attive erano un [Simbolo](TechDraw_Symbol/it.md).
 
 
 
 ## Proprietà
 
-
-<div class="mw-translate-fuzzy">
-
-Vedere <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Simbolo](TechDraw_Symbol/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Vedere [TechDraw Immagine](TechDraw_Image/it#Properietà.md).
 
 
 
 
 
-</div>
-
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

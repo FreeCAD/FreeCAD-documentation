@@ -17,7 +17,7 @@
 
 ## Описание
 
-**Constrain distance** defines the length of a line, the perpendicular distance between a point and a line, the distance between two points, or, <small>(v0.21)</small> , the distance between the edges of two circles or between the edge of a circle and a line.
+The <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;"> [Sketcher ConstrainDistance](Sketcher_ConstrainDistance.md) tool fixes the length of a line, the distance between two points, the perpendicular distance between a point and a line; or, <small>(v0.21)</small> , the distance between the edges of two circles or arcs, or between the edge of a circle or arc and a line; or, <small>(v1.0)</small> , the length of an arc.
 
 ![](images/Sketcher_ConstrainDistance_example.png )
 
@@ -25,18 +25,61 @@
 
 ## Применение
 
-1.  Pick one line, or one point and one line, or two points, or the edges of two circles, or the edge of one circle and one line.
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Constrain distance](Sketcher_ConstrainDistance.md)** button in the Sketcher toolbar.
-    -   Use the **K** then **D** keyboard shortcut.
-    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Constrain distance** entry from the top menu.
-3.  A pop up dialog opens to edit or confirm the value. Press **OK** to validate.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-**Note:** the constraint tool can also be started with no prior selection (apart from circle to circle and circle to line cases). To set the perpendicular distance between a point and a line, the point needs to be selected first. By default the command will be in continue mode to create new constraints; press the right mouse button or **Esc** once to quit the command.
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
 
-### Hint
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   
+        <small>(v1.0)</small> 
+        
+        : If the **Dimensioning constraints** [preference](Sketcher_Preferences#General.md) is set to {{Value|Single tool}} (default): press the down arrow to the right of the **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button and select the **<img src="images/Sketcher_ConstrainDistance.svg" width=16px> Constrain distance** option from the dropdown.
 
-If applicable please consider using the **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Horizontal distance](Sketcher_ConstrainDistanceX.md)** or **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Vertical distance](Sketcher_ConstrainDistanceY.md)** constraints instead. These constraints are more robust and faster to calculate than the **ConstrainDistance** tool.
+    -   If this preference has a different value (and in {{VersionMinus|0.21}}): press the **<img src="images/Sketcher_ConstrainDistance.svg" width=16px> [Constrain distance](Sketcher_ConstrainDistance.md)** button.
+
+    -   Select the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Constrain distance** option from the menu.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Dimension → <img src="images/Sketcher_ConstrainDistance.svg" width=16px> Constrain distance** option from the context menu.
+
+    -   Use the keyboard shortcut **K** then **D**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Do one of the following:
+    -   Select a single line.
+    -   Select two points.
+    -   Select a point and a line (in that order).
+5.  If a [driving dimensional constraint](Sketcher_ToggleDrivingConstraint.md) is created, depending on the [preferences](Sketcher_Preferences#Display.md), a dialog opens to [edit its value](Sketcher_Workbench#Edit_constraints.md).
+6.  A constraint is added.
+7.  Optionally keep creating constraints.
+8.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool
+
+### Run-once mode 
+
+1.  Do one of the following:
+    -   Select a single line.
+
+    -   Select two points.
+
+    -   Select a point and a line (in any order).
+
+    -   Select the edges of two circles or arcs.
+
+    -   Select the edge of a circle or arc and a line (idem).
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Select the edge of a single arc.
+2.  Invoke the tool as explained above.
+3.  Optionally [edit the constraint value](Sketcher_Workbench#Edit_constraints.md).
+4.  A constraint is added.
+
+## Notes
+
+-   If applicable please consider using [Horizontal distance](Sketcher_ConstrainDistanceX.md) or [Vertical distance](Sketcher_ConstrainDistanceY.md) constraints instead. They are more efficient.
 
 
 

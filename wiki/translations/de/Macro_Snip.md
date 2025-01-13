@@ -4,8 +4,8 @@
 |Icon=Snip.png
 |Description=Verwende dieses Makro, um Bildschirmfotos im FreeCAD-Forum zu veröffentlichen.<br/> Am besten füge dieses Makro zu deiner globalen benutzerdefinierten Makro-Werkzeugleiste hinzu, damit du schnell und einfach darauf zugreifen kannst.<br/> Wenn du im FreeCAD-Forum veröffentlichst, ist es oft nützlich, Bildschirmfotos einbinden zu können. Das Problem ist, dass dies eine etwas mühsame Aufgabe ist. Dieses Makro soll diese Aufgabe etwas erleichtern.<br/>Das Makro kann Bildschirmfotos machen oder es kann vorhandene Bildschirmfotos verwenden, die bereits in die Zwischenablage des Systems kopiert wurden. Um das bereits in der Zwischenablage befindliche Bild zu umgehen, drücke die Umschalttaste, während du das Makro aufrufst. Um das Makro zur Aufnahme des Bildschirmfotos zu verwenden, passe die Größe und Platzierung des eingeblendeten Dialogfelds an, und klicke dann auf OK. Wenn du auf OK klickst, versucht das Makro, ein Bildschirmfoto des vom Dialogfeld abgedeckten Bildschirmbereichs zu erstellen. Das Dialogfeld selbst ist halbtransparent, so dass du den Inhalt darunter sehen kannst. 
 |Author=TheMarkster
-|Version=1.22
-|Date=2022.02.23
+|Version=1.3
+|Date=2024.07.23
 |FCVersion=Alle
 |Download=[https://wiki.freecadweb.org/images/a/a0/Snip.png ToolBar Icon]
 |SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md), [Macro Screen Wiki](Macro_Screen_Wiki.md)
@@ -126,7 +126,7 @@ tedious steps. This macro is to reduce some of those steps.
 
 You should add the macro to your custom macro toolbar to save as many clicks as possible.
 
-The first thing the macro does is to check if there is an image already saved to the 
+The first thing the macro does is to check if there is an image already saved to the
 system clipboard, and if so, it uses that one. To bypass the clipboard, press Shift
 while invoking the macro.
 
@@ -136,29 +136,141 @@ __title__ = "Snip"
 __author__ = "TheMarkster"
 __url__ = ""
 __Wiki__ = ""
-__date__ = "2022.02.23"
-__version__ = 1.22
+__date__ = "2024.07.23"
+__version__ = 1.3
 import FreeCAD
 from PySide import QtGui,QtCore
 import uuid
 import time
 import tempfile, os, shutil
 
+# class SnipBox(QtGui.QDialog):
+#     def __init__(self, scale, desired_width):
+#         QtGui.QDialog.__init__(self)
+#         self.scale = scale
+#         self.desired_width = desired_width
+#
+#         self.detailsTextEdit = QtGui.QTextEdit("Details")
+#         self.Details = QtGui.QPushButton("Details")
+#         self.Scaling = QtGui.QPushButton("Scaling")
+#         self.Details.clicked.connect(self.onDetailsClicked)
+#         self.Scaling.clicked.connect(self.onScalingClicked)
+#         layout = QtGui.QVBoxLayout()
+#         layout.addWidget(self.detailsTextEdit)
+#         layout.addStretch()
+#         buttons = QtGui.QDialogButtonBox(
+#             QtGui.QDialogButtonBox.Ok,
+#             QtCore.Qt.Horizontal, self)
+#         buttons.accepted.connect(self.accept)
+#         buttons.rejected.connect(self.reject)
+#         buttons.addButton(self.Details, QtGui.QDialogButtonBox.ActionRole)
+#         buttons.addButton(self.Scaling, QtGui.QDialogButtonBox.ActionRole)
+#         buttons.setCenterButtons(True)
+#         layout.addWidget(buttons)
+#         self.setLayout(layout)
+#         self.detailsTextEdit.setVisible(False)
+#
+#     def setDetailedText(self, txt):
+#         self.detailsTextEdit.setText(txt)
+#
+#     def setTitle(self, rectwidth, rectheight):
+#         if self.scale != 1.0:
+#            out_width = rect.width()*scale_factor
+#         elif self.desired_width != 0:
+#             out_width = desired_width
+#         self.setWindowTitle(f"Snip macro v{__version__} {rectwidth} x {rectheight} output width {out_width}")
+#
+#
+#     def onDetailsClicked(self):
+#         self.detailsTextEdit.setVisible(not self.detailsTextEdit.isVisible())
+#
+#     def onScalingClicked(self):
+#         pass
+#
+#     def event(self, e): #credit serge_gubenko of stackoverflow for this
+#         result = QtGui.QDialog.event(self, e)
+#         self.setMinimumHeight(0)
+#         self.setMaximumHeight(16777215)
+#         self.setMinimumWidth(0)
+#         self.setMaximumWidth(16777215)
+#         self.setSizePolicy(QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Expanding)
+#         textEdit = self.findChild(QtGui.QTextEdit)
+#         if textEdit != None :
+#             textEdit.setMinimumHeight(0)
+#             textEdit.setMaximumHeight(16777215)
+#             textEdit.setMinimumWidth(0)
+#             textEdit.setMaximumWidth(16777215)
+#             textEdit.setSizePolicy(QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Expanding)
+# #thanks to mario52 for this
+#         if result == True:
+#             try:
+#                 rect = mb.frameGeometry()
+#                 rectwidth  = rect.width()
+#                 rectheight = rect.height()
+#                 mb.setTitle(rectwidth,rectheight)
+#
+#             except Exception:
+#                 None
+# ##############
+#         return result
 class SnipBox(QtGui.QDialog):
-    def __init__(self):
+    def __init__(self, scale, desired_width):
         QtGui.QDialog.__init__(self)
+        self.pg = FreeCAD.ParamGet("User parameter:Plugins/Snip_Macro")
+        self.scale = scale
+        self.desired_width = desired_width
+
         self.detailsTextEdit = QtGui.QTextEdit("Details")
         self.Details = QtGui.QPushButton("Details")
+        self.Scaling = QtGui.QPushButton("Scaling")
         self.Details.clicked.connect(self.onDetailsClicked)
+        self.Scaling.clicked.connect(self.onScalingClicked)
+
         layout = QtGui.QVBoxLayout()
         layout.addWidget(self.detailsTextEdit)
         layout.addStretch()
+
+        # Scaling widgets
+        self.scaleLabel = QtGui.QLabel("Scale:")
+        self.scaleSpinBox = QtGui.QDoubleSpinBox()
+        self.scaleSpinBox.setDecimals(2)
+        self.scaleSpinBox.setSingleStep(0.1)
+        self.scaleSpinBox.setValue(self.scale)
+        self.scaleSpinBox.valueChanged.connect(self.updateScale)
+
+        self.fixedWidthLabel = QtGui.QLabel("Fixed Width:")
+        self.fixedWidthSpinBox = QtGui.QSpinBox()
+        self.fixedWidthSpinBox.setRange(0, 10000)
+        self.fixedWidthSpinBox.setValue(self.desired_width)
+        self.fixedWidthSpinBox.valueChanged.connect(self.updateDesiredWidth)
+
+        self.scaleLayout = QtGui.QVBoxLayout()
+        self.scaleText = QtGui.QLabel("Scale values other than 1.0 will override fixed width setting")
+        self.scaleLayout.addWidget(self.scaleText)
+        scaleHBox1 = QtGui.QHBoxLayout()
+        scaleHBox1.addWidget(self.scaleLabel)
+        scaleHBox1.addWidget(self.scaleSpinBox)
+
+        scaleHBox2 = QtGui.QHBoxLayout()
+        scaleHBox2.addWidget(self.fixedWidthLabel)
+        scaleHBox2.addWidget(self.fixedWidthSpinBox)
+
+        self.scaleLayout.addLayout(scaleHBox1)
+        self.scaleLayout.addLayout(scaleHBox2)
+
+        self.scaleWidget = QtGui.QWidget()
+        self.scaleWidget.setLayout(self.scaleLayout)
+        self.scaleWidget.setVisible(False)
+
+        layout.addWidget(self.scaleWidget)
+
         buttons = QtGui.QDialogButtonBox(
             QtGui.QDialogButtonBox.Ok,
             QtCore.Qt.Horizontal, self)
         buttons.accepted.connect(self.accept)
         buttons.rejected.connect(self.reject)
         buttons.addButton(self.Details, QtGui.QDialogButtonBox.ActionRole)
+        buttons.addButton(self.Scaling, QtGui.QDialogButtonBox.ActionRole)
         buttons.setCenterButtons(True)
         layout.addWidget(buttons)
         self.setLayout(layout)
@@ -167,8 +279,30 @@ class SnipBox(QtGui.QDialog):
     def setDetailedText(self, txt):
         self.detailsTextEdit.setText(txt)
 
+    def setTitle(self, rectwidth, rectheight):
+        if self.scale != 1.0:
+            out_width = rectwidth * self.scale
+        elif self.desired_width != 0:
+            out_width = self.desired_width
+        self.setWindowTitle(f"Snip macro v{__version__} {rectwidth} x {rectheight} output width {out_width}")
+
     def onDetailsClicked(self):
+        if self.scaleWidget.isVisible():
+            self.scaleWidget.setVisible(False)
         self.detailsTextEdit.setVisible(not self.detailsTextEdit.isVisible())
+
+    def onScalingClicked(self):
+        if self.detailsTextEdit.isVisible():
+            self.detailsTextEdit.setVisible(False)
+        self.scaleWidget.setVisible(not self.scaleWidget.isVisible())
+
+    def updateScale(self, value):
+        self.scale = value
+        self.pg.SetFloat("ScaleFactor", self.scale)
+
+    def updateDesiredWidth(self, value):
+        self.desired_width = value
+        self.pg.SetInt("DesiredWidth", self.desired_width)
 
     def event(self, e): #credit serge_gubenko of stackoverflow for this
         result = QtGui.QDialog.event(self, e)
@@ -190,11 +324,27 @@ class SnipBox(QtGui.QDialog):
                 rect = mb.frameGeometry()
                 rectwidth  = rect.width()
                 rectheight = rect.height()
-                mb.setWindowTitle("Snip macro v"+str(__version__)+"  "+str(rectwidth)+" x "+str(rectheight))
+                mb.setTitle(rectwidth,rectheight)
             except Exception:
                 None
 ##############
         return result
+
+def get_screen_for_widget(widget):
+    screen_geometry = widget.geometry()
+    for screen in QtGui.QApplication.screens():
+        if screen.geometry().contains(screen_geometry.center()):
+            return screen
+def get_widget_screen_coordinates(widget):
+    screen = get_screen_for_widget(widget)
+    widget_geometry = widget.geometry()
+    screen_geometry = screen.geometry()
+    return QtCore.QRect(widget_geometry.x() - screen_geometry.x(),
+                        widget_geometry.y() - screen_geometry.y(),
+                        widget_geometry.width(),
+                        widget_geometry.height())
+
+
 pg = FreeCAD.ParamGet("User parameter:Plugins/Snip_Macro")
 #parameters were originally in BaseApp, but should be in Plugins, so relocate if necessary
 if FreeCAD.ParamGet("User parameter:BaseApp/Preferences").HasGroup("Snip_Macro"):
@@ -226,7 +376,7 @@ if not skipClipboard:
 if not image:
 
     #use our own screen grabber
-    mb = SnipBox()     
+    mb = SnipBox(scale_factor, desired_width)
     details = """
 Move and resize this box to cover the part of the screen you wish to grab.
 If it succeeds an open file dialog will appear. Drag and drop the file
@@ -240,7 +390,7 @@ Windows snip tool: Window Key + Shift + S
 Mac snip tool: Command + Shift + 4
 Linux: gnome-screenshot utility
 
-If the macro finds there is already an image copied to the clipboard 
+If the macro finds there is already an image copied to the clipboard
 it uses that image instead of bringing up this dialog. Press Shift
 while invoking this macro to bypass the clipboard. Alternatively,
 you can clear the image from the clipboard by copying some text to it.
@@ -254,7 +404,7 @@ Cancel to close the open file dialog afterwards.
 If you wish to open the screenshot file with another application, right-click
 the file and select open with... option or drag/drop to that other application.
 
-User Parameters: These can be accessed via Tools menu -> Edit Parameters in 
+User Parameters: These can be accessed via Tools menu -> Edit Parameters in
 Plugins -> Snip_Macro:
 
 LastX, LastY, LastWidth, LastHeight -- location and size of snip box last use
@@ -266,12 +416,12 @@ ScaleFactor -- float value, e.g. 0.5 -- image will be scaled to that scale facto
 Note: ScaleFactor (if not 1.0) will take precedence over DesiredWidth
 Hold down Ctrl key to ignore scaling.
 
-The SnipDelay parameter can be adjusted to speed things up a bit, but if it 
+The SnipDelay parameter can be adjusted to speed things up a bit, but if it
 is too small the screenshot taken might include the snip box itself because
 we need to wait for it to close before taking the screenshot.
 
 """
-    mb.setWindowTitle("Snip macro v"+str(__version__))
+   # mb.setWindowTitle("Snip macro v"+str(__version__))
     mb.setDetailedText(details)
     if pg.GetFloat("WindowOpacity",0.85) == 0.85:
         pg.SetFloat("WindowOpacity",0.85)
@@ -288,7 +438,9 @@ we need to wait for it to close before taking the screenshot.
         userCanceled = True
     if not userCanceled:
         clientRect = mb.geometry()
-        rect = mb.frameGeometry()
+        scale_factor = mb.scale
+        desired_width = mb.desired_width
+        rect = get_widget_screen_coordinates(mb)
         diff = rect.height()-clientRect.height()
         pg.SetInt("LastX", rect.x())
         pg.SetInt("LastY", rect.y())
@@ -301,7 +453,8 @@ we need to wait for it to close before taking the screenshot.
         time.sleep(snipDelay) #give time for dialog to close before taking screenshot
         QtGui.QApplication.processEvents()
         if hasattr(QtGui.QApplication,"primaryScreen"):
-            screen = QtGui.QApplication.primaryScreen()
+            #screen = QtGui.QApplication.primaryScreen()
+            screen = get_screen_for_widget(mb)
             image = screen.grabWindow(0,rect.x(),rect.y(),rect.width(),rect.height()).toImage()
         else:
             long_qdesktop_id = QtGui.QApplication.desktop().winId()
@@ -314,10 +467,8 @@ we need to wait for it to close before taking the screenshot.
             skipScaling = True
         if not skipScaling:
             if scale_factor != 1.0:
-                #image = image.scaledToWidth(rect.width()*scale_factor)
                 image = image.smoothScaled(rect.width()*scale_factor, rect.height()*scale_factor)
             elif desired_width != 0:
-                #image = image.scaledToWidth(desired_width)
                 image = image.smoothScaled(desired_width, rect.height()*float(desired_width)/float(rect.width()))
 
 if not userCanceled:

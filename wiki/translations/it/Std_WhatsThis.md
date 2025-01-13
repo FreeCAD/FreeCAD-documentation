@@ -24,7 +24,7 @@ A partire dalla versione 0.20 di FreeCAD questo comando e il sistema di Aiuto so
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_WhatsThis.svg" width=16px> [Cos'è questo?](Std_WhatsThis/it.md)**.
-    -   Selezionare l\'opzione **Aiuto → <img src="images/Std_WhatsThis.svg" width=16px> Cos'è questo?** dal menu.
+    -   Selezionare l\'opzione **Aiuto → <img src="images/Std_WhatsThis.svg" width=16px>Cos'è questo?** dal menu.
     -   Usare la scorciatoia da tastiera: **Maiusc**+**F1**.
 2.  Fare clic su un pulsante della barra degli strumenti o su un\'opzione di menu.
 3.  Si apre la documentazione di aiuto per il comando selezionato.
@@ -39,7 +39,7 @@ A partire dalla versione 0.20 di FreeCAD questo comando e il sistema di Aiuto so
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -8,6 +8,8 @@ En las siguientes notas, `"contexto"` debe ser el mismo nombre de tu complemento
 
 **Note**: Here is an all-in-one script that automates the complete procedure mentioned below (you are still advised to read the procedure to know what the script should do, though): <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
 
+
+
 ## Preparando las fuentes 
 
 ### General
@@ -15,6 +17,8 @@ En las siguientes notas, `"contexto"` debe ser el mismo nombre de tu complemento
 -   Agregar una carpeta `translations/`. Puedes nombrarlo con algo más, pero esto sera mas sencillo como es el mismo en todo FreeCAD. En esta carpeta, tu colocaras los archivos `.ts` (Los archivos de traducción \"fuente\" ) y los archivos `.qm` (Archivos compilados de traducción).
 -   Solo el texto que es mostrado al usuario en la Interface de usuario FreeCAD debera ser traducida. Solo el texto que es mostrado en la consola de python no debe ser traducida.
 -   Texto que es impreso con `FreeCAD.Console` es mostrado en \"Vista de reporte\", y por lo tanto de ser traducido. La \"Vista de reporte es diferente a la consola de Python\".
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -156,12 +160,13 @@ En las siguientes notas, `"contexto"` debe ser el mismo nombre de tu complemento
 ```
     
 
--   Add the path to your `translations/` folder in the Initialized function:
+-   Add the path to your `translations/` folder and update the locale in the Initialized function:
 
 :   
     
 ```python
     FreeCADGui.addLanguagePath("/path/to/translations")
+    FreeCADGui.updateLocale()
     
 ```
     
@@ -180,6 +185,7 @@ En las siguientes notas, `"contexto"` debe ser el mismo nombre de tu complemento
     
 ```python
     FreeCADGui.addLanguagePath(os.path.join(os.path.dirname(__file__), "translations"))
+    FreeCADGui.updateLocale()
     
 ```
     

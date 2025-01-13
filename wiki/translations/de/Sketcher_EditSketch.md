@@ -13,24 +13,19 @@
 
 ## Beschreibung
 
-Der Befehl **SkizzeBearbeiten** öffnet den [Sketcher-Dialog](Sketcher_Dialog/de.md), um eine vorhandene Skizze zu bearbeiten.
+Der Befehl <img alt="" src=images/Sketcher_EditSketch.svg  style="width:24px;"> [Sketcher SkizzeBearbeitenöffnet](Sketcher_EditSketch/de.md) den [Sketcher-Dialog](Sketcher_Dialog/de.md), um eine vorhandene Skizze zu bearbeiten.
 
 
 
 ## Anwendung
 
-Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-
--   Ein Doppelklick auf eine Skizze in der [Baumansicht](Tree_view/de.md).
--   Eine Skizze auswählen und die Schaltfläche **<img src="images/Sketcher_EditSketch.svg" width=16px> [Skizze bearbeiten](Sketcher_EditSketch/de.md)** drücken.
--   Eine Skizze auswählen und den Menüeintrag **Skizze → <img src="images/Sketcher_EditSketch.svg" width=16px> Skizze bearbeiten** auswählen.
--   Ein Rechtsklick auf eine Skizze in der [Baumansicht](Tree_view/de.md) und die Menüoption **Skizze bearbeiten** im Kontextmenü auswählen.
-
-
-
-## Hinweise
-
--   Die Auswahl von [Sketcher SkizzeVerlassen](Sketcher_LeaveSketch/de.md) beendet den Bearbeitungsmodus.
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Ein Doppelklick auf eine Skizze in der [Baumansicht](Tree_view/de.md).
+    -   Eine Skizze auswählen und die Schaltfläche **<img src="images/Sketcher_EditSketch.svg" width=16px> [Skizze bearbeiten](Sketcher_EditSketch/de.md)** drücken.
+    -   Eine Skizze auswählen und dann den Menüeintrag **Skizze → <img src="images/Sketcher_EditSketch.svg" width=16px> Skizze bearbeiten** auswählen.
+    -   Ein Rechtsklick auf eine Skizze in der [Baumansicht](Tree_view/de.md) und die Menüoption **Skizze bearbeiten** im Kontextmenü auswählen.
+2.  Die Skizze wird in den Bearbeitungsmodus versetzt und der [Sketcher-Dialog](Sketcher_Dialog.md) geöffnet.
+3.  Zum Beenden des Bearbeitungsmodus siehe <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:16px;"> [Sketcher SkizzeVerlassen](Sketcher_LeaveSketch/de.md).
 
 
 

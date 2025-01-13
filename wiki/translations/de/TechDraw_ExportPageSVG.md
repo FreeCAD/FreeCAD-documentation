@@ -24,7 +24,7 @@ Das Werkzeug **TechDraw BlattExportierenSVG** speichert das aktuelle Zeichnungsb
     -   Die Schaltfläche **<img src="images/TechDraw_ExportPageSVG.svg" width=16px> [Seite als SVG-Datei exportieren](TechDraw_ExportPageSVG/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → Page  → <img src="images/TechDraw_ExportPageSVG.svg" width=16px> Seite als SVG-Datei exportieren** auswählen.
     -   Wenn ein Zeichnungsblatt im [Hauptansichtsbereich](Main_view_area/de.md) angezeigt wird: Mit der rechten Maustaste in das Fenster des Blattes klicken und im Kontextmenü die Option **Export SVG** auswählen.
-3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
     1.  Das gewünschte Blatt auswählen.
     2.  Die Schaltfläche **OK** drücken.
 4.  Das Dialogfenster **Seite als SVG-Datei exportieren** wird geöffnet.
@@ -59,7 +59,7 @@ Beachte, dass das FreeCADGui Modul aktiv sein muss, um diese Funktion nutzen zu 
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

@@ -63,34 +63,9 @@ Opis funkcji używanych do tworzenia stron rysunku i widoków znajduje się na s
 
 
 
-## Szablony
-
-FreeCAD posiada wbudowany zestaw szablonów, możesz znaleźć ich więcej na stronie [Szablony rysunku](Drawing_templates/pl.md).
-
-
-
 ## Rozszerzanie Środowiska pracy Drawing 
 
 Niektóre uwagi dotyczące programowania Środowiska pracy Drawing zostaną dodane do strony [Dokumentacja rysunkowa](Drawing_Documentation.md). Ma to pomóc w szybkim zrozumieniu sposobu działania Środowiska pracy Drawing, umożliwiając programistom sprawne rozpoczęcie programowania.
-
-## Poradniki
-
--   [Przewwodnik po środowisku Kreślenie](Drawing_tutorial/pl.md)
--   [Jak wykonać szablon środowiska Kreślenie](Drawing_Template_HowTo/pl.md)
-
-
-
-## Makrodefinicje
-
--    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Makro Automatic drawing](Macro_Automatic_drawing/pl.md): Umożliwia użytkownikowi uzyskanie widoku obiektu na rysunku w 4 różnych pozycjach *(przód, góra, iso, prawo)*. Wymaga pewnych modyfikacji, aby być w pełni efektywnym.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC.png"> [Makro CartoucheFC](Macro_CartoucheFC/pl.md): To makro GUI wypełnia w prosty sposób wszystkie pola formatki arkusza realizacji planu FreeCAD, format daty i symbol trybu rzutowania dostosowuje się do wybranego regionu UE lub USA.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC_2.png"> [Makro CartoucheFC 2](Macro_CartoucheFC_2/pl.md): To makro GUI służy do prostego wypełniania wszystkich pól formatki **model 2** arkusza realizacji planu FreeCAD.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC_Full.png"> [Makro CartoucheFC Full](Macro_CartoucheFC_Full/pl.md): To makro GUI wypełnia w prosty sposób wszystkie pola formatki [Wypełnienie szablonu](Misc_templates_Full/pl.md) arkusza implementacji planu FreeCAD, format daty i symbol trybu rzutowania dostosowuje do wybranego regionu UE lub USA.
-
--    <img style="width:16px;" src="images/Macro_Corner_shapes_wizard.png"> [Makro Corner shapes wizard/update](Macro_Corner_shapes_wizard/update/pl.md): Wyświetla okno dialogowe z prośbą o podanie wymiarów narożnika, a następnie tworzy obiekt w dokumencie i tworzy widok strony z widokiem elementu z góry, z przodu i z boku.
 
 
 

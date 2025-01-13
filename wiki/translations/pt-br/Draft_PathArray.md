@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft PathArray
-   MenuLocation: Modification , Array tools , Path array
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Modification , Array tools , Path array<br>Modify , Path array
+   Workbenches: Draft_Workbench, BIM_Workbench
    Version: 0.14
    SeeAlso: Draft_OrthoArray, Draft_PolarArray, Draft_CircularArray, Draft_PathLinkArray, Draft_PointArray, Draft_PointLinkArray
 ---
@@ -15,7 +15,7 @@
 
 The <img alt="" src=images/Draft_PathArray.svg  style="width:24px;"> **Draft PathArray** command creates a regular array from a selected object by placing copies along a path. Use the [Draft PathLinkArray](Draft_PathLinkArray.md) command to create a more efficient [Link](App_Link.md) array instead. Except for the type of array that is created, Link array or regular array, the [Draft PathLinkArray](Draft_PathLinkArray.md) command is identical to this command.
 
-Both commands can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
+Both commands can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [BIM Workbench](BIM_Workbench.md).
 
 <img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;"> 
 *Draft PathArray*
@@ -28,7 +28,8 @@ Both commands can be used on 2D objects created with the [Draft Workbench](Draft
 2.  Add the path object to the selection. It is also possible to select edges instead. The edges must belong to the same object and they must be connected.
 3.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_PathArray.svg" width=16px> [Path array](Draft_PathArray.md)** button.
-    -   Select the **Modification → Array tools → <img src="images/Draft_PathArray.svg" width=16px> Path array** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Modification → Array tools → <img src="images/Draft_PathArray.svg" width=16px> Path array** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Modify → <img src="images/Draft_PathArray.svg" width=16px> Path array** option from the menu.
 4.  The array is created.
 5.  Optionally change the [properties](#Properties.md) of the array in the [Property editor](property_editor.md).
 
@@ -133,6 +134,8 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 -    **Count|Integer**: specifies the number of elements in the array.
 
 -    **Expand Array|Bool**: specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
+
+-    **Fuse|Bool**: specifies if overlapping elements in the array are fused or not. Not used for Link arrays. <small>(v1.0)</small> 
 
 -    **Path Object|LinkGlobal**: specifies the object to be used for the path. It must contain {{Value|Edges}} in its [Part TopoShape](Part_TopoShape.md).
 

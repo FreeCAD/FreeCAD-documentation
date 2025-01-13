@@ -37,7 +37,7 @@ Seit FreeCAD Version 0.20 wird dieser Befehl und das Hilfesystem von einem separ
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch Fence
    Name/fr: Arch Clôture
-   MenuLocation: Arch , Clôture
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: 3D/BIM , Clôture
+   Workbenches: BIM_Workbench/fr
    Version: 0.19
 ---
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil [Arch Clôture](Arch_Fence/fr.md) est un objet qui construit une clôture en répétant un poteau et une section de clôture le long d\'un tracé donné.
+L\'outil **Arch Clôture** est un objet qui construit une clôture en répétant un poteau et une section de clôture le long d\'un tracé donné.
 
 <img alt="" src=images/Arch_Fence_description_example.png  style="width:600px;">
 
@@ -25,13 +25,13 @@ L\'outil [Arch Clôture](Arch_Fence/fr.md) est un objet qui construit une clôtu
 
 1.  Utilisez un atelier de votre choix pour créer un seul poteau de clôture et une seule section.
 2.  Créez le tracé que la clôture doit suivre à l\'aide de l\'[atelier Sketcher](Sketcher_Workbench/fr.md) ou de l\'[atelier Draft](Draft_Workbench/fr.md).
-3.  Revenez à l\'[atelier Arch](Arch_Workbench/fr.md).
+3.  Revenez à l\'[atelier BIM](BIM_Workbench/fr.md).
 4.  Sélectionnez la section, la publication et le tracé dans exactement cet ordre.
 5.  Appuyez sur le bouton **<img src="images/Arch_Fence.svg" width=16px>[Clôture](Arch_Fence/fr.md)**.
 
 ## Options
 
-Pour l\'instant, l\'outil suppose ce qui suit
+Pour l\'instant, l\'outil part du principe que
 
 1.  Le tracé est dessiné sur le plan XY
 2.  La section et le poteau sont dessinés à l\'origine de manière à rester debout dans la vue de face
@@ -113,5 +113,13 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/fr
+⏵ [documentation index](../README.md) > Arch Fence/fr

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 ## Introdução
 
 A <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [Bancada de trabalho OpenSCAD](OpenSCAD_Workbench/pt-br.md) tem como objetivo oferecer interoperabilidade com o software de código aberto [OpenSCAD](http://www.openscad.org/). Esse programa não é distribuído como parte do FreeCAD, mas deve ser instalado para fazer uso total desta bancada de trabalho. O OpenSCAD não deve ser confundido com o [OpenCASCADE](OpenCASCADE/pt-br.md), que é o núcleo geométrico que o FreeCAD utiliza para construir a geometria na tela. As bibliotecas do OpenCASCADE são sempre necessárias para usar o FreeCAD, enquanto o executável do OpenSCAD é totalmente opcional.
@@ -9,9 +12,6 @@ A <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [Bancada d
 Ela contém um importador [CSG](OpenSCAD_CSG.md) para abrir arquivos CSG do OpenSCAD e um exportador para a saída de um CSG baseado em árvore. A geometria que não está baseada em operações CSG serão exportadas como uma malha.
 
 Esta bancada de trabalho contém funções para modificar o recurso de árvore CSG e reparar modelos. Também contém ferramentas de propósitos gerais que não necessitam de instalação do OpenSCAD; elas também podem ser utilizadas em conjunto com outras bancadas de trabalho.
-
-
-
 
 ![](images/OpenSCADexamaple1.png )
 
@@ -52,6 +52,9 @@ A linguagem OpenSCAD permite o uso de variáveis e laços de repetição. Permit
 
 ## Ferramentas
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/OpenSCAD_ColorCodeShape.svg  style="width:32px;"> [Cor da Forma](OpenSCAD_ColorCodeShape/pt-br.md): Modifica a cor de todas as formas selecionadas baseado na validade delas.
 -   <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width:32px;"> [Substituir Objeto](OpenSCAD_ReplaceObject/pt-br.md): Substitui um objeto no recurso de árvore.
 -   <img alt="" src=images/OpenSCAD_RemoveSubtree.svg  style="width:32px;"> [Remover Subárvore](OpenSCAD_RemoveSubtree/pt-br.md): Remove os objetos selecionados e todos os filhos que não são referenciados de outros objetos.
@@ -68,6 +71,9 @@ A linguagem OpenSCAD permite o uso de variáveis e laços de repetição. Permit
 -   <img alt="" src=images/OpenSCAD_MeshBoolean.svg  style="width:32px;"> [Booleano Malha](OpenSCAD_MeshBoolean/pt-br.md): Cria um novo objeto de malha através de operação booleana de formas.
 -   <img alt="" src=images/OpenSCAD_Hull.svg  style="width:32px;"> [Casco](OpenSCAD_Hull/pt-br.md): Aplica um casco às formas selecionadas.
 -   <img alt="" src=images/OpenSCAD_Minkowski.svg  style="width:32px;"> [Minkowski](OpenSCAD_Minkowski/pt-br.md): Aplica uma soma minkowski às formas selecionadas.
+
+
+</div>
 
 
 

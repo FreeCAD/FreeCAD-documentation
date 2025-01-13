@@ -31,12 +31,6 @@ Neste momento, o núcleo de modelagem geométrica subjacente do FreeCAD (compost
 
 
 
-#### Para usuários de Mac 
-
-Somente a arquitetura MacIntel é suportada. Não há builds disponíveis para a arquitetura PowerPC.
-
-
-
 ### E se eu quiser compilar o FreeCAD sozinho? 
 
 O código fonte do FreeCAD está sempre disponível no repositório de código-fonte do projeto. Você pode compilar o FreeCAD por conta própria, caso queira utilizar os recursos mais recentes em desenvolvimento. Para saber compilar, é preciso ter um pouco de conhecimento de informática. Acreditamos, porém, que o procedimento simples de realizar. Na página [aqui](Compile_on_Linux/pt-br#obtendo_a_fonte.md) explicamos como ter acesso ao código-fonte, e existem instruções detalhadas para compilar o código nas páginas [Compilar para Windows](Compile_on_Windows/pt-br.md), [Compilar para Linux](Compile_on_Linux/pt-br.md) e [Compilar para MacOS](Compile_on_MacOS/pt-br.md).
@@ -149,14 +143,6 @@ Uma falha de segmentação acontece em {{SystemOutput|vbo_save_playback_vertex_l
 
 
 
-### Tenho problemas para executar o FreeCAD no Mac OSX 
-
-Não é tão fácil dar um suporte adequado para plataforma Mac (o que não ocorre com as versões para Windows ou Linux) porque nenhum dos principais desenvolvedores possui um.
-
-Os pacotes OSX são compilados por usuários voluntários do FreeCAD, e pode ser que não funcionem corretamente em sua máquina, dependendo de seu sistema. Neste caso, vá aos fóruns e procure pelos tópicos relacionados ao Mac OSX.
-
-
-
 ### Não consigo alterar valores numéricos nos painéis de propriedades do FreeCAD 
 
 <img alt="language options" src=images/Jj62l.png  style="width:480px;">
@@ -197,7 +183,13 @@ Há um [Macro findConfigFiles](Macro_findConfigFiles.md) disponível para ajudar
 
 ### O FreeCAD é realmente livre? Mesmo para uso comercial? 
 
-O FreeCAD é um [software de código aberto](http://en.wikipedia.org/wiki/Open-source_software), e é livre não só para uso, pessoal ou comercial, mas também para distribuir, modificar, ou mesmo usar em uma aplicação de código fechado. Para resumir, você está livre para fazer (quase) tudo o que quiser com ele. Consulte a página [Licença](Licence/pt-br.md) para obter mais detalhes.
+
+<div class="mw-translate-fuzzy">
+
+O FreeCAD é um [software de código aberto](http://en.wikipedia.org/wiki/Open-source_software), e é livre não só para uso, pessoal ou comercial, mas também para distribuir, modificar, ou mesmo usar em uma aplicação de código fechado. Para resumir, você está livre para fazer (quase) tudo o que quiser com ele. Consulte a página [Licença](License/pt-br.md) para obter mais detalhes.
+
+
+</div>
 
 
 
@@ -289,7 +281,18 @@ O código acima recupera a forma de um objeto, mostra as faces e as linhas deste
 
 ### Minhas operações booleanas falham, ou dão resultados estranhos 
 
+
+<div class="mw-translate-fuzzy">
+
 O núcleo de modelagem geométrica [Open CASCADE](https://en.wikipedia.org/wiki/Open_CASCADE_Technology) usado no FreeCAD para a geometria da Peça, embora provavelmente o melhor núcleo de geometria de código aberto disponível, tem suas falhas e limitações. De fato, as operações booleanas (fusão, subtração, interseção) não são suas melhores características, e muitas vezes dão resultados estranhos. Esta é uma limitação atual que não temos como resolver de uma só vez, portanto seu melhor caminho é tentar obter o resultado desejado modelando de outra forma. Por exemplo, problemas com primitivos como o cilindro podem muitas vezes ser resolvidos usando um círculo extrudado em seu lugar. Superfícies coplanares entre as peças podem causar problemas, bem como tangência de superfície. Como regra geral, se uma forma não funcionar, tente remodelá-la de maneira diferente. Em 99% dos casos no final, você conseguirá obter o resultado desejado.
+
+
+</div>
+
+To understand boolean operations better, see these articles:
+
+-   <https://wiki.mcneel.com/rhino/booleanfaq>
+-   <https://dev.opencascade.org/doc/overview/html/specification__boolean_operations.html#autotoc_md293>
 
 ### When I export (or view) my model, the holes are filled in 
 
@@ -396,7 +399,13 @@ Claro. Todas as obras de arte (ícones, banners, etc.) do FreeCAD são licenciad
 
 ### Posso reutilizar peças do FreeCAD em outra aplicação? 
 
-Sim, você pode usar as partes principais do FreeCAD em outras aplicações, desde que você cumpra com os termos da LGPL. Bibliotecas de terceiros, [bancadas de trabalho externas](External_workbenches/pt-br.md), e [macros](Macros/pt-br.md) podem estar sujeitas a seus próprios termos de licença, portanto, favor consultar seus autores. Mais detalhes na página [Licença](Licence/pt-br.md).
+
+<div class="mw-translate-fuzzy">
+
+Sim, você pode usar as partes principais do FreeCAD em outras aplicações, desde que você cumpra com os termos da LGPL. Bibliotecas de terceiros, [bancadas de trabalho externas](External_workbenches/pt-br.md), e [macros](Macros/pt-br.md) podem estar sujeitas a seus próprios termos de licença, portanto, favor consultar seus autores. Mais detalhes na página [Licença](License/pt-br.md).
+
+
+</div>
 
 
 

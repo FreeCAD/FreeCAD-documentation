@@ -1,4 +1,13 @@
-# <img alt="Логотип верстака Surface" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/ru
+# Surface Workbench/ru
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="Логотип верстака Surface" src=images/Workbench_Surface.svg  style="width:128px;">
 
 
 
@@ -52,7 +61,13 @@ The generated surface cannot be placed inside a **[<img src=images/PartDesign_Bo
 -   <img alt="" src=images/Surface_BlendCurve.svg  style="width:32px;"> [Blend Curve](Surface_BlendCurve.md): creates a Bezier curve between two edges, with desired continuity.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Surface Tools navi

@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Arc 3Points
-   MenuLocation: Drafting , Arc tools , Arc by 3 points
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Drafting , Arc tools , Arc by 3 points<br>2D Drafting , Arc by 3 points
+   Workbenches: Draft_Workbench, BIM_Workbench
    Shortcut: **A** **T**
    Version: 0.19
    SeeAlso: Draft_Arc, Draft_Circle
@@ -14,7 +14,7 @@
 
 ## Descrição
 
-The <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> **Draft Arc 3Points** command creates a circular arc in the current [working plane](Draft_SelectPlane.md) from three points that define its circumference. The center and radius are calculated from these points.
+The <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> **Draft Arc 3Points** command creates a circular arc on the current [working plane](Draft_SelectPlane.md) from three points that define its circumference. The center and radius are calculated from these points.
 
 A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** that is not the same as its **Last Angle**.
 
@@ -29,8 +29,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Arc_3Points.svg" width=16px> [Arc by 3 points](Draft_Arc_3Points.md)** button.
-    -   Select the **Drafting → Arc tools → <img src="images/Draft_Arc_3Points.svg" width=16px> Arc by 3 points** option from the menu.
-    -   Use the keyboard shortcut: **A** then **T**. <small>(v0.20)</small> 
+    -   [Draft](Draft_Workbench.md): Select the **Drafting → Arc tools → <img src="images/Draft_Arc_3Points.svg" width=16px> Arc by 3 points** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **2D Drafting → <img src="images/Draft_Arc_3Points.svg" width=16px> Arc by 3 points** option from the menu.
+    -   Use the keyboard shortcut: **A** then **T**.
 2.  The **Arc by 3 points** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 4.  Pick the second point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
@@ -40,12 +41,12 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ## Opções
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **N** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating arcs. <small>(v0.20)</small> 
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system.
+-   Press **N** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating arcs.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 

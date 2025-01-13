@@ -3,7 +3,7 @@
    Name: Sketcher ArcOverlay
    MenuLocation: Sketch , Sketcher visual , Show/hide circular helper for arcs
    Workbenches: Sketcher_Workbench
-   Version: 0.22
+   Version: 1.0
 ---
 
 # Sketcher ArcOverlay/en
@@ -20,7 +20,7 @@ The <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:24px;"> [Sketch
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the tool:
     -   Press the **<img src="images/Sketcher_ArcOverlay.svg" width=16px> [Show/hide circular helper for arcs](Sketcher_ArcOverlay.md)** button.
     -   Select the **Sketch → Sketcher visual → <img src="images/Sketcher_ArcOverlay.svg" width=16px> Show/hide circular helper for arcs** option from the menu.
 

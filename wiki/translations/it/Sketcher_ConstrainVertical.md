@@ -1,60 +1,64 @@
 ---
  GuiCommand:
-   Icon: Constraint Vertical.svg
-   Name: Vertical constraint
-   Name/it: Vincolo verticale
-   Workbenches: Sketcher Workbench/it
+   Name: Sketcher ConstrainVertical
+   Name/it: Sketcher Vincolo verticale
+   MenuLocation: Schizzo , Vincoli Sketcher , Vincolo verticale
+   Workbenches: Sketcher_Workbench/it
    Shortcut: **V**
-   MenuLocation: Sketch , Vincoli , Verticale
-   SeeAlso: Sketcher_ConstrainHorizontal/it
+   SeeAlso: Sketcher_ConstrainHorVer/it, Sketcher_ConstrainHorizontal/it
 ---
 
 # Sketcher ConstrainVertical/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-Crea un vincolo verticale per le linee o le polilinee selezionate.
+Lo strumento <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> [Sketcher Vincolo verticale](Sketcher_ConstrainVertical/it.md) vincola le linee o le coppie di punti ad essere verticali (parallele all\'asse verticale dello schizzo).
 
-Può anche vincolare verticalmente i vertici. Si possono selezionare più oggetti {{VersionPlus/it|0.17}} .
+
+{{Version/it|1.0}}
+
+: nella maggior parte dei casi è consigliabile utilizzare invece lo strumento combinato [Sketcher Vincolo orizzontale/verticale](Sketcher_ConstrainHorVer/it.md).
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare le linee o i vertici da vincolare verticalmente.
-2.  Richiamare il comando in uno di questi modi:
-    -   Cliccare sull\'icona **[<img src=images/Constraint_Vertical.svg style="width:24px">** **Vincolo verticale** della barra degli strumenti.
-    -   Usare la scorciatoia da tastiera **V**.
-    -   Usare la voce **Sketch → Vincoli → Verticale** dal menu principale.
-3.  In alternativa, lo strumento può essere avviato senza previa selezione e quindi attende una selezione; ma in questo caso sono selezionabili solo le linee.
-4.  Fare clic con il tasto destro del mouse o premere **Esc** una volta per uscire dallo strumento.
-
-
-</div>
-
-## Scripting
-
-
-```pythonSketch.addConstraint(Sketcher.Constraint('Vertical', Line))```
-
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Line` and contains further examples on how to create constraints from Python scripts.
-
-
-<div class="mw-translate-fuzzy">
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
 
 
+### [Modalità continua](Sketcher_Workbench/it#Continue_modes.md) 
+
+1.  Assicurarsi che non ci sia alcuna selezione.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   
+        {{Version/it|1.0}}
+        
+        : Se la [preferenza](Sketcher_Preferences/it#General.md) **Strumento automatico per orizzontale/verticale** è selezionata (predefinito): premere la freccia giù a destra del pulsante **<img src="images/Sketcher_ConstrainHorVer.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** e selezionare l\'opzione **<img src="images/Sketcher_ConstrainVertical.svg" width=16px> Vincolo verticale** dal menu a discesa.
+
+    -   Se questa preferenza non è selezionata (e in {{VersionMinus/it|0.21}}): premere il pulsante **<img src="images/Sketcher_ConstrainVertical.svg" width=16px> [Vincolo verticale](Sketcher_ConstrainVertical/it.md)**.
+
+    -   Selezionare l\'opzione **Schizzo → Vincoli Sketcher → <img src="images/Sketcher_ConstrainVertical.svg" width=16px> Vincolo verticale** dal menu.
+
+    -   Usare la scorciatoia da tastiera: **V**.
+3.  Per ulteriori passaggi vedere [Sketcher Vincolo orizzontale](Sketcher_ConstrainHorizontal/it#Continue_mode.md).
 
 
-</div>
+
+### Modalità di esecuzione una sola volta 
+
+Vedere [Sketcher Vincolo orizzontale](Sketcher_ConstrainHorizontal/it#Run-once_mode.md).
+
+
+
+## Script
+
+Vedere [Sketcher Vincolo orizzontale](Sketcher_ConstrainHorizontal/it#Scripting.md).
+
+
+
 
 
 {{Sketcher_Tools_navi

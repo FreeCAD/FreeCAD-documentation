@@ -21,7 +21,7 @@ La documentazione per gli sviluppatori comprende le seguenti sezioni:
 -   [Compilare in Windows](Compile_on_Windows/it.md)
 -   [Compilare in Linux](Compile_on_Linux/it.md)
 -   [Compilare in MacOS](Compile_on_MacOS/it.md)
--   [Licence details](Licence.md) - Dettagli sulle licenze FreeCAD
+-   [Licenze](License/it.md) - Dettagli sulle licenze FreeCAD
 -   [Librerie di terze parti](Third_Party_Libraries/it.md)
 -   [Strumenti di terze parti](Third_Party_Tools/it.md)
 -   [Avvio e configurazione](Start_up_and_Configuration/it.md)

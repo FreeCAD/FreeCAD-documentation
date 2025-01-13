@@ -10,25 +10,38 @@
 # Arch MergeWalls/it
 
 
+</div>
+
+
 
 ## Descrizione
 
-Lo strumento [Unisci pareti](Arch_MergeWalls/it.md) fonde due o più **<img src="images/_Arch_Wall.svg" width=16px> [Pareti](Arch_Wall/it.md)** selezionate.
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento [Unisci Muri](Arch_MergeWalls/it.md) fonde due o più **<img src="images/_Arch_Wall.svg" width=16px> [Muri](Arch_Wall/it.md)** selezionati.
+
+
+</div>
 
 
 
 ## Utilizzo
 
-1.  Selezionare due o più muri.
-2.  Premere il pulsante **<img src="images/Arch_MergeWalls.svg" width=16px>**, o utilizzare **Arch** → **Utilità** → **<img src="images/Arch_MergeWalls.svg" width=16px> [Unisci pareti](Arch_MergeWalls/it.md)** dal menu principale.
+
+<div class="mw-translate-fuzzy">
+
+1.  Selezionare due o più muri. I muri devono avere la stessa altezza, larghezza e allineamento.
+2.  Premere il pulsante **<img src="images/Arch_MergeWalls.svg" width=16px>**, o utilizzare **Arch** → **Utilità** → **<img src="images/Arch_MergeWalls.svg" width=16px> [Unisci Muri](Arch_MergeWalls/it.md)** dal menu principale.
+
+
+</div>
 
 
 
-## Proprietà
+## Note
 
-
-
-## Limitazioni
+-   [Aggiungi componente](Arch_Add/it.md) può unire i muri anche se hanno altezze, larghezze e allineamenti diversi.
 
 
 
@@ -39,12 +52,16 @@ Lo strumento [Unisci pareti](Arch_MergeWalls/it.md) fonde due o più **<img src=
 
 [API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+Lo strumento può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
 ```python
 base = joinWalls(walls, delete=False)
 ```
 
-Esempio: 
+Esempio:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -61,6 +78,20 @@ base = Arch.joinWalls([Wall1, Wall2])
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/it
+⏵ [documentation index](../README.md) > Arch MergeWalls/it

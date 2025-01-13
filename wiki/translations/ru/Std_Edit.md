@@ -43,9 +43,15 @@
 ## Программирование
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Смотрите так же:**
 
 [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
+
+
+</div>
 
 Для входа в режим редактирования объекта используйте метод `setEdit` объекта документа. Этот метод не доступен, когда FreeCAD в режиме консоли.
 
@@ -73,10 +79,16 @@ FreeCADGui.ActiveDocument.resetEdit()
 ```
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Std Base navi
+
+
+</div>
+
+
+{{Std_Base_navi
 
 }}
 

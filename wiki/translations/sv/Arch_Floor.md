@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 #### Beskrivning
 
 
@@ -29,9 +31,9 @@ As of <small>(v0.18)</small>  the Arch Floor is derived entirely from the [Arch 
 
 1.  Optionally, select one or more objects to be included in your new floor.
 2.  Invoke the Arch Floor command several ways:
-    -   Pressing the **<img src="images/Arch_Floor.svg" width=16px> [Arch Floor](Arch_Floor.md)** button on the toolbar.
+    -   Pressing the **<img src="images/Arch_Floor.svg" width=16px> [Floor](Arch_Floor.md)** button on the toolbar.
     -   Using the **L** then **V** keyboard keys.
-    -   Using the **Arch → Floor** entry from the top menu.
+    -   Using the **3D/BIM → Floor** entry from the top menu.
 
 ## Options
 
@@ -49,7 +51,9 @@ An Arch Floor object shares all properties from an [Arch BuildingPart](Arch_Buil
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Floor tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Floor tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Floor = makeFloor(objectslist=None, baseobj=None, name="Floor")
 ```
@@ -88,6 +92,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/sv
+⏵ [documentation index](../README.md) > Arch Floor/sv

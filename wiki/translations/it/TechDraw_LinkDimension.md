@@ -1,83 +1,44 @@
 ---
  GuiCommand:
    Name: TechDraw LinkDimension
-   Name/it: Link alla dimensione
-   MenuLocation: TechDraw , Link alla geometria 3D
+   Name/it: TechDraw Link alla geometria 3D
+   MenuLocation: TechDraw , Quotatura , Link alla geometria 3D
    Workbenches: TechDraw_Workbench/it
-   Shortcut: 
    SeeAlso: TechDraw_View/it, TechDraw_ProjectionGroup/it
 ---
 
 # TechDraw LinkDimension/it
 
 
-</div>
-
-The **TechDraw LinkDimension** tool is expected to be deprecated in the future. The [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) tool can be used to change both 2D and 3D references.
-
-
 
 ## Descrizione
 
+Lo strumento **TechDraw Link alla geometria 3D** crea un collegamento tra la geometria 3D e una o più quote proiettate esistenti su una Pagina. Questo collegamento consente alla Quota di utilizzare valori 3D effettivi anziché valori proiettati 2D.
 
-<div class="mw-translate-fuzzy">
+L\'uso più comune dello strumento Link alla geometria 3D è nella quotatura delle viste isometriche in un gruppo di proiezione. La lunghezza proiettata di un Bordo in una vista isometrica, ovviamente, non sarà necessariamente uguale alla lunghezza effettiva del bordo. In una vista ortogonale le lunghezze proiettate e quelle effettive saranno uguali.
 
-Lo strumento Link alla dimensione crea un collegamento tra la geometria 3D e una o più quote proiettate esistenti in una pagina. Questo collegamento permette alla dimensione di utilizzare i valori reali in 3D invece dei valori proiettati in 2D.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-L\'uso più comune dello strumento Link alla geometria 3D è nel dimensionamento delle viste isometriche in un gruppo di proiezione. La lunghezza proiettata di un bordo in una vista isometrica, ovviamente, non sarà necessariamente uguale alla lunghezza effettiva del bordo. In una vista ortogonale le lunghezze proiettate e quelle effettive saranno uguali.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Il link alla geomtria 3D indica alla quota di calcolare il valore direttamente dalla geometria 3D.
-
-
-</div>
+Il link alla geometria 3D indica alla Quota di calcolare il valore direttamente dalla geometria 3D.
 
 
 
 ## Utilizzo
 
+1.  Creare una quota appropriata nella Pagina di disegno utilizzando uno qualsiasi tra [TechDraw Quota allineata](TechDraw_LengthDimension/it.md), [TechDraw Quota orizzontale](TechDraw_HorizontalDimension/it.md), ecc. Questa quota sarà nel posto giusto sulla Pagina, ma mostrerà un valore proiettato.
+2.  Selezionare la geometria nella vista 3D, ad esempio un bordo, che corrisponde alla geometria proiettata della propria quota.
+3.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Collega dimensione alla geometria 3D](TechDraw_LinkDimension/it.md)**.
+    -   Seleziona l\'opzione **TechDraw → Quotatura → <img src="images/TechDraw_LinkDimension.svg" width=16px> Link alla geometria 3D** dal menu.
+4.  Si apre un pannello delle azioni.
+5.  Selezionare una o più quote da collegare alla geometria 3D selezionata.
+6.  Premere **OK**.
 
-<div class="mw-translate-fuzzy">
-
-1.  Creare una dimensione appropriata nella pagina di disegno usando uno degli strumenti di [Lunghezza](TechDraw_LengthDimension/it.md), [Dimensione orizzontale](TechDraw_HorizontalDimension/it.md), ecc. Questa dimensione sarà posizionata correttamente nella Pagina, ma mostrerà il valore della dimensione proiettata.
-2.  Nella vista 3D selezionare la geometria, ad esempio un bordo, che corrisponde alla geometria della dimensione proiettata.
-3.  Premere il pulsante **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Link alla geometria 3D](TechDraw_LinkDimension/it.md)**.
-4.  Si apre una finestra di dialogo. Selezionare una o più quote da collegare alla geometria 3D selezionata.
-5.  Premere **OK**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Al termine dell\'operazione di collegamento, la proprietà **MeasureType** della dimensione cambia da `Projected` a `True`.
-
-
-</div>
+L\'operazione di collegamento modifica la proprietà **MeasureType** della quota da `Projected` a `True`.
 
 
 
 ## Limitazioni
 
-
-<div class="mw-translate-fuzzy">
-
-Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologica\". Per maggiori informazioni vedere le informazioni nello strumento [Lunghezza](TechDraw_LengthDimension/it.md).
-
-
-</div>
+Gli oggetti Quota sono vulnerabili al \"[problema di denominazione topologica](Topological_naming_problem/it.md)\". Per ulteriori informazioni, vedere [TechDraw Quota allineata](TechDraw_LengthDimension/it.md). Si consiglia di collegare le quote come uno degli ultimi passaggi del processo di disegno.
 
 Lo strumento Link alla dimensione non impedisce di creare collegamenti errati, quindi bisogna scegliere il bordo corretto dalla vista 3D quando si crea il collegamento.
 
@@ -94,19 +55,13 @@ Notare che se la dimensione da collegare si basa su due vertici, si devono selez
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-The TechDraw LinkDimension tool is not directly usable in macros, but changing the **References 3D** property can accomplish the same result.
-
-
-<div class="mw-translate-fuzzy">
+Lo strumento TechDraw Link alla geometria 3D non è utilizzabile direttamente nelle macro, ma la modifica della proprietà **References 3D** può ottenere lo stesso risultato.
 
 
 
 
 
-</div>
-
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

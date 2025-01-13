@@ -21,7 +21,7 @@ The **TechDraw Annotation** tool adds a text block to a drawing page.
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_Annotation.svg" width=16px> [Insert Annotation](TechDraw_Annotation.md)** button.
     -   Select the **TechDraw → Annotations → <img src="images/TechDraw_Annotation.svg" width=16px> Insert Annotation** option from the menu.
-3.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+3.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens:
     1.  Select the desired page.
     2.  Press the **OK** button.
 4.  A text block containing *Default Text* appears on the page.
@@ -71,7 +71,7 @@ rc = page.addView(anno)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

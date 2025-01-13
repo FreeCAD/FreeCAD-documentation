@@ -1,32 +1,7 @@
----
- GuiCommand:
-   Name: Arch Door
-   Name/it: Arch Porta
-   MenuLocation: Arch , Finestra
-   Workbenches: Arch_Workbench/it
-   Shortcut: **W** **I**
-   SeeAlso: Arch Wall/it, Arch Window/it
-   Icon: Arch_Window.svg
----
-
 # Arch Door/it
-
-## Descrizione
-
-Le [Porte](Arch_Door/it.md) sono create con lo strumento [Finestra](Arch_Window/it.md).
-
-Internamente a FreeCAD, Porte e Finestre sono lo stesso tipo di oggetto: uno schizzo di base estruso in oggetti solidi, che può essere sottratto da un [Muro](Arch_Wall/it.md).
-
-## Utilizzo
-
-Disegnare il profilo interno toccando il profilo esterno e usare lo strumento [Finestra](Arch_Window/it.md).
-
-Tutte le proprietà sono descritte nello strumento [Finestra](Arch_Window/it.md).
-
-<img alt="Door" src=images/Arch_door.jpg  style="width:600px;"> 
-*Porta costruita da uno [Schizzo](Sketcher_Workbench/it.md)*
+1.  REDIRECT [BIM_Door/it](BIM_Door/it.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door/it
+⏵ [documentation index](../README.md) > Arch Door/it

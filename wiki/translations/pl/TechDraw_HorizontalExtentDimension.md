@@ -25,7 +25,13 @@ Narzędzie **Wstaw wymiar rozpiętości poziomej** dodaje wymiar liniowy do wido
 
 1.  Wybierz widok lub zestaw krawędzi w widoku.
 2.  Narzędzie można wywołać na kilka sposobów:
-    -   Naciśnij przycisk **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> '''Wstaw wymiar rozpiętości poziomej'''**.
+    -   
+        {{Version/pl|1.0}}
+        
+        : Jeśli [preferencja](TechDraw_Preferences/pl#Wymiary.md) **Narzędzie wymiarowania** jest ustawiona na {{Value|Narzędzie pojedyncze}} (domyślnie): kliknij na strzałce skierowanej w dół po prawej stronie od przycisku **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** i wybierz opcję **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> Wstaw wymiar rozpiętości poziomej** z listy rozwijanej.
+
+    -   Jeśli ta preferencja ma inną wartość (i {{VersionMinus/pl|0.21}}): wciśnij przycisk **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Wstaw wymiar rozpiętości poziomej](TechDraw_HorizontalExtentDimension/pl.md)**.
+
     -   Wybierz opcję z menu **Rysunek Techniczny → Wymiary → <img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> Wstaw wymiar rozpiętości poziomej**.
 3.  Wymiar zostanie dodany do widoku.
 4.  Wymiar można przeciągnąć do żądanej pozycji.

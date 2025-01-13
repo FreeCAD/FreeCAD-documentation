@@ -3,13 +3,14 @@
    Name: Std DependencyGraph
    MenuLocation: Tools , Dependency graph...
    Workbenches: All
+   SeeAlso: Std_ExportDependencyGraph
 ---
 
 # Std DependencyGraph/ko
 
 ## Description
 
-The **Std DependencyGraph** command displays the dependencies between objects in the active document in a \'dependency graph\'. As opposed to the [Tree view](Tree_view.md), objects are listed in reverse chronological order, with the first created object at the bottom.
+The **Std DependencyGraph** command displays the dependencies between objects in the active document in a graph. As opposed to the [Tree view](Tree_view.md), objects are listed in reverse chronological order, with the first created object at the bottom.
 
 It can be useful in analyzing a FreeCAD document and locating forks in a tree. The dependency graph layout will depend on which workbench was used to create the objects in the document. For example a model made exclusively in the [PartDesign](PartDesign_Workbench.md) workbench can display a linear dependency graph with a single vertical branch. A model made with [Part](Part_Workbench.md) operations will have many branches, but for a single part they will join up at the top after [Boolean](Part_Boolean.md) operations. If they don\'t, it means that they are separate objects.
 
@@ -20,7 +21,7 @@ The dependency graph is purely a visualization tool, therefore it cannot be edit
 
 ## Installation
 
-To use the command a third-party software named [Graphviz](http://graphviz.org/) needs to be installed. If you do not have it pre-installed or it is installed in an unconventional location, FreeCAD will display the following dialog:
+To use the command a third-party software named [Graphviz](https://graphviz.org/) needs to be installed. If you do not have it pre-installed or it is installed in an unconventional location, FreeCAD will display the following dialog:
 
 ![](images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png )
 
@@ -141,32 +142,28 @@ You can save a dependency graph:
 
 1.  Make sure the Dependency graph tab is in the foreground.
 2.  Select the **File → [Save](Std_Save.md)** or **File → [Save As](Std_SaveAs.md)** option from the menu.
-3.  Enter a filename and select the file type (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg or \*.pdf).
+3.  Enter a filename and select the file type (\*.gv, \*.png, \*.bmp, \*.gif, \*.jpg, \*.svg or \*.pdf).
 4.  Press the **Save** button.
 
 ## General principles 
 
 -   The graph shows objects in reverse chronological order.
--   The direction of arrows showing dependencies should always point down, from the child object to the parent object. An arrow pointing up indicates a cyclic dependency, an issue that needs to be resolved.
+-   The direction of arrows showing dependencies should always point down. An arrow pointing up indicates a cyclic dependency, an issue that needs to be resolved.
 -   A sketch that contains links to [external geometry](Sketcher_External.md) will have a number with an \'x\' suffix besides the arrow linking it to its parent, showing the number of external geometries linked in the sketch.
 -   Objects can have dependencies to multiple parents. For example, for a model built in [PartDesign](PartDesign_Workbench.md), a Pocket may be linked to its Sketch and to the Pad feature that came before it.
 -   Disallowed dependencies (for example, between a [Draft](Draft_Workbench.md)/[Part](Part_Workbench.md) operation and an element inside a PartDesign Body) will show with a red arrow. This type of link usually shows a \'Links go out of allowed scope\' error in the [Report view](Report_view.md).
 -   A [Part container](Std_Part.md) and [PartDesign Body](PartDesign_Body.md) enclose their content inside a frame with a randomly colored background. Their Origin also encloses its content (standard planes and axes) in a frame.
--   A [Groups](Std_Group.md) is displayed as a single element linked to its content.
-
-## Limitations
-
--   The dependency graph cannot help with the [topological naming problem](Topological_naming_problem.md). If a sketch switches faces of a feature after an edit, it is still linked to the feature. Even if some features are broken, the dependency graph will remain unchanged.
+-   A [Group](Std_Group.md) is displayed as a single element linked to its content.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/ko
+⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > Std DependencyGraph/ko

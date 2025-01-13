@@ -13,21 +13,21 @@
 
 ## Beschreibung
 
-Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfeld, um eine Bilddatei, einen Bildschirmfoto, von der aktiven [3D-Ansicht](3D_view/de.md) zu erstellen.
+Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfenster, um eine Bilddatei, ein Bildschirmfoto, von der aktiven [3D-Ansicht](3D_view/de.md) zu erstellen.
 
 <img alt="" src=images/Save_picture.png  style="width:800px;"> 
-*Das Dialogfeld Bildinhalt speichern nach Drücken der Schaltfläche Erweitert*
+*Das Dialogfenster Bildinhalt speichern nach Drücken der Schaltfläche Erweitert*
 
 
 
 ## Anwendung
 
-1.  Wähle die **Werkzeuge → <img src="images/Std_ViewScreenShot.svg" width=16px> Bild speichern...** Option aus dem Menü.
-2.  Es öffnet sich das Dialogfeld Bildinhalt speichern.
-3.  Wahlweise die Schaltfläche **Erweitert** drücken, um ein zusätzlichen Bereich im Dialogfeld einzublenden. Für weitere Informationen siehe [Optionen](#Optionen.md).
-4.  Wahlweise nach dem richtigen Ordner suchen.
+1.  Den Menüeintrag **Werkzeuge → <img src="images/Std_ViewScreenShot.svg" width=16px> Bild speichern...** auswählen.
+2.  Das Dialogfenster **Bildinhalt speichern** wird geöffnet.
+3.  Wahlweise die Schaltfläche **Erweitert** drücken, um ein zusätzlichen Bereich im Dialogfenster einzublenden. Für weitere Informationen siehe [Optionen](#Optionen.md).
+4.  Wahlweise den richtigen Ordner suchen.
 5.  Einen Dateinamen eingeben und den Dateityp auswählen.
-6.  Die Schaltfläche **Speichern** drücken, um die Bilddatei zu erstellen und das Dialogfeld zu schließen.
+6.  Die Schaltfläche **Speichern** drücken, um die Bilddatei zu erstellen und das Dialogfenster zu schließen.
 
 
 
@@ -79,9 +79,9 @@ Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfeld, um eine Bilddatei, e
 
 ### Kommentar zum Bild 
 
-1.  Wähle die Option {{RadioButton|TRUE|MIBA Informationen einfügen}}, um [MIBA](MIBA.md)-Informationen in die Datei einzufügen. Nicht alle Bildformate unterstützen dies.
-2.  Oder wähle die Option {{RadioButton|TRUE|Kommentar einfügen}} und gib einen Kommentar in das Textfeld ein, um einen Kommentar in die Datei einzubetten. Dies wird nicht von allen Bildformaten unterstützt.
-3.  Aktiviere das Kontrollkästchen {{CheckBox|TRUE|Wasserzeichen einfügen}}, um ein Wasserzeichen hinzuzufügen. Das Wasserzeichen wird in der unteren linken Ecke des Bildes platziert und besteht aus dem FreeCAD-Logo und dem Namen über der FreeCAD-Haupt-URL: [www.freecadweb.org](http://www.freecadweb.org).
+1.  Die Option **MIBA-Informationen einfügen** auswählen, um [MIBA](http://juergen-riegel.net/Miba/)-Informationen in die Datei einzufügen. Nicht alle Bildformate unterstützen dies.
+2.  Oder die Option **Kommentar einfügen** auswählen und einen Kommentar in das Textfeld eingeben, um einen Kommentar in die Datei einzubetten. Dies wird nicht von allen Bildformaten unterstützt.
+3.  Das Kontrollkästchen **Wasserzeichen einfügen** aktivieren, um ein Wasserzeichen hinzuzufügen. Das Wasserzeichen wird in der unteren linken Ecke des Bildes platziert und besteht aus dem FreeCAD-Logo und dem Namen über der FreeCAD-Haupt-URL: [www.freecad.org](http://www.freecad.org).
 
 
 
@@ -94,37 +94,43 @@ Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfeld, um eine Bilddatei, e
 
 ## Einstellungen
 
--   Der Hintergrund der 3D-Ansicht kann in den Voreinstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeige → Farben → Hintergrundfarbe**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Farben.md).
--   Um das Anti Aliasing der 3D-Ansicht zu ändern: **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Rendern → Kantenglättung**. Siehe [Voreinstellungseditor](Preferences_Editor/de#3D-Ansicht.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Der Hintergrund der 3D-Ansicht kann in den Voreinstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeige → Farben → Hintergrundfarbe**.
+-   Um das Anti-Aliasing der 3D-Ansicht zu ändern: **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Rendern → Kantenglättung**.
 
 
 
 ## Skripten
 
-Es ist möglich, Bildschirmfotos mit Python Code zu erstellen.
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
+
+Es ist möglich, Bildschirmfotos mit Python-Code zu erstellen.
 
 
 ```python
-Gui.ActiveDocument.ActiveView.saveImage('C:/temp/test.png',1656,783,'Current')
+Gui.ActiveDocument.ActiveView.saveImage("D:/temp/test.png", 1656, 783, "Current")
 ```
 
 Dieses Skript speichert eine Reihe von Bildschirmfotos in verschiedenen Größen und aus verschiedenen Richtungen. Der Kameratyp, orthografisch oder perspektivisch, wird ebenfalls geändert.
 
 
 ```python
-import Part, PartGui
-# Loading test part
-Part.open('C:/Documents and Settings/jriegel/My Documents/Projects/FreeCAD/data/Blade.stp')
-OutDir = 'C:/temp/'
- 
-# Creating images with different Views, Cameras and sizes
-for p in ['PerspectiveCamera','OrthographicCamera']:
+import FreeCADGui as Gui
+import Part
+
+out_dir = "D:/temp/"
+name = "Blade"
+view = Gui.ActiveDocument.ActiveView
+
+# Create images with different Views, Cameras and sizes
+for p in ["PerspectiveCamera", "OrthographicCamera"]:
     Gui.SendMsgToActiveView(p)
-    for f in ['ViewAxo','ViewFront','ViewTop']:
+    for f in ["ViewAxo", "ViewFront", "ViewTop"]:
         Gui.SendMsgToActiveView(f)
-        for x,y in [[500,500],[1000,3000],[3000,1000],[3000,3000],[8000,8000]]:
-            Gui.ActiveDocument.ActiveView.saveImage(OutDir + 'Blade_' + p +'_' + f + '_' + x + '_' + y + '.jpg',x,y,'White')
-            Gui.ActiveDocument.ActiveView.saveImage(OutDir + 'Blade_' + p +'_' + f + '_' + x + '_' + y + '.png',x,y,'Transparent')
+        for x, y in [[500, 500], [1000, 3000], [3000, 1000], [3000, 3000], [8000, 8000]]:
+            view.saveImage(out_dir + name + "_" + p + "_" + f + "_" + str(x) + "_" + str(y) + ".jpg", x, y, "White")
+            view.saveImage(out_dir + name + "_" + p + "_" + f + "_" + str(x) + "_" + str(y) + ".png", x, y, "Transparent")
 
 # Close active document
 App.closeDocument(App.ActiveDocument.Name)
@@ -134,7 +140,7 @@ App.closeDocument(App.ActiveDocument.Name)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

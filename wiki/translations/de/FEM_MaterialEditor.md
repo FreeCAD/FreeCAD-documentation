@@ -1,11 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/de
    Name: FEM MaterialEditor
    Name/de: FEM MaterialEditor
    MenuLocation: Modell , Materialien , Material editor
    Workbenches: FEM_Workbench/de, Arch_Workbench/de
    Version: 0.18
    SeeAlso: Arch_SetMaterial/de, FEM_tutorial/de
+}}
+{{GuiCommandFemInfo/de
+   Solvers: Alle
+}}
 ---
 
 # FEM MaterialEditor/de
@@ -14,7 +19,7 @@
 
 ## Beschreibung
 
-Mit dem **Material-Editor** kann man die in einem [FreeCAD-Material](Material.md) gespeicherten Informationen bearbeiten und speichern. Derzeit werden diese Materialien von den Arbeitsbereichen <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/de.md) und <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md) verwendet.
+Mit dem **Material-Editor** kann man die in einem [FreeCAD-Material](Material.md) gespeicherten Informationen bearbeiten und speichern. Derzeit werden diese Materialien von den Arbeitsbereichen <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/de.md) und <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/de.md) verwendet.
 
 ![](images/Material_editor.png )
 
@@ -24,9 +29,9 @@ Mit dem **Material-Editor** kann man die in einem [FreeCAD-Material](Material.md
 
 Derzeit hat man zwei Möglichkeiten den Material-Editor aufzurufen:
 
-1.  Arbeitsbereich <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md):
-    -   Die Schaltfläche **<img src="images/Arch_SetMaterial.svg" width=16px> [Material](Arch_SetMaterial/de.md)** drücken.
-    -   Den Menüeintrag **Arch → Materialwerkzeuge → <img src="images/Arch_SetMaterial.svg" width=16px> Material** auswählen.
+1.  Arbeitsbereich <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/de.md):
+    -   Die Schaltfläche **<img src="images/BIM_Material.svg" width=16px> [Material](BIM_Material/de.md)** drücken.
+    -   Den Menüeintrag **Verwalten → <img src="images/BIM_Material.svg" width=16px> Material** auswählen.
 2.  Arbeitsbereich <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/de.md):
     -   Die Schaltfläche **<img src="images/FEM_MaterialEditor.svg" width=16px> [Material-Editor](FEM_MaterialEditor/de.md)** drücken.
     -   Den Menüeintrag **Modell → Materialien → <img src="images/FEM_MaterialEditor.svg" width=16px> Material-Editor** auswählen.

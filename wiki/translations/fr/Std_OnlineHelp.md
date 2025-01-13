@@ -35,7 +35,7 @@ Depuis la version 0.20 de FreeCAD, cette commande et le syst√®me d\'aide sont g√
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -88,7 +88,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   If the start or end node of an open wire is moved so that they coincide, the wire is closed.
 -   Node context menu: {{Value|Delete point}}. At least two points must remain.
--   Edge context menu: {{Value|Add point}}, {{Value|Open wire}}/{{Value|Close wire}} (<small>(v0.21)</small> ) and {{Value|Reverse wire}} (<small>(v0.20)</small> ).
+-   Edge context menu: {{Value|Add point}}, {{Value|Open wire}}/{{Value|Close wire}} (<small>(v0.21)</small> ) and {{Value|Reverse wire}}.
 
 ### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> [Draft Arc](Draft_Arc.md) and <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> [Draft Arc 3Points](Draft_Arc_3Points.md) 
 
@@ -187,7 +187,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
 -   The color of the temporary nodes is the same as the color of the snap symbols. This color can be changed in the preferences: **Edit → Preferences... → Draft → Grid and snapping → Snap symbol color**. Note that this color is not used for the temporary nodes displayed for [Draft BezCurves](Draft_BezCurve.md). These nodes use the **Line Color** of the curve instead.
--   The size of the nodes depends on: **Edit → Preferences... → Display → 3D View → Marker size**. <small>(v0.22)</small> 
+-   The size of the nodes depends on: **Edit → Preferences... → Display → 3D View → Marker size**. <small>(v1.0)</small> 
 
 ## Scripting
 

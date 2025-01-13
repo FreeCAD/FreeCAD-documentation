@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -23,6 +25,8 @@ Acest instrument creează, în documentul 3D, o vizualizare plană 2D a unui pan
 </div>
 
 <img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
+
+
 
 ## Cum se folosește 
 
@@ -37,6 +41,8 @@ Acest instrument creează, în documentul 3D, o vizualizare plană 2D a unui pan
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -50,6 +56,8 @@ Acest instrument creează, în documentul 3D, o vizualizare plană 2D a unui pan
 
 
 </div>
+
+
 
 ## Proprietăți
 
@@ -136,6 +144,8 @@ View.ViewObject.LineWidth = 3
 FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ## Tutoriale
 
 
@@ -156,6 +166,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/ro
+⏵ [documentation index](../README.md) > Arch Panel Cut/ro

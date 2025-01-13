@@ -38,10 +38,6 @@ Ve stromu projektu rozbalíte složku objektu Stránka a vyberete pohled. Jeho p
 -   **Zobraz skryté čáry**:  přepíná viditelnost skrytých čar výběrem hodnot *True* nebo *False*.
 -   **Zobraz Smooth Lines**: přepíná viditelnost smooth lines výběrem hodnot *True* nebo *False*. Smooth lines jsou také nazývány dotykové okraje. Tyto okraje indikují místa, kde jedne povrch přechází v druhý (dotýkají se).
 
-### Průvodce Pohledem 
-
-K automatickému generování výkresů se standardními pohledy používejte [Automatické výkresové makro](Macro_Automatic_drawing/cs.md). 
-
 ### Other
 
 If you are looking for persective-orthographic toggling in 3D view check [Std PerspectiveCamera](Std_PerspectiveCamera.md) and [Std OrthographicCamera](Std_OrthographicCamera.md)

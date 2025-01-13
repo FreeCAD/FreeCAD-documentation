@@ -9,8 +9,6 @@
 
 # TechDraw LinkDimension/pl
 
-Oczekuje się, że narzędzie **Powiąż wymiar z geometrią 3D** zostanie w przyszłości wycofane. Narzędzie [Napraw odniesienia do wymiarów](TechDraw_DimensionRepair/pl.md) może być używane do zmiany zarówno odniesień 2D, jak i 3D.
-
 
 
 ## Opis
@@ -60,7 +58,7 @@ Narzędzie **Powiąż wymiar z geometrią 3D** nie jest bezpośrednio użyteczne
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

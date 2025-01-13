@@ -1,15 +1,17 @@
-# <img alt="OpenSCAD workbench icon" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> OpenSCAD Workbench/ko
+# <img alt="OpenSCAD 작업대 아이콘" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> OpenSCAD Workbench/ko
 
-## Introduction
 
-The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) is intended to offer interoperability with the open source software [OpenSCAD](http://www.openscad.org/). This program is not distributed as part of FreeCAD, but should be installed to make full use of this workbench. OpenSCAD should not be confused with [OpenCASCADE](OpenCASCADE.md), which is the geometrical kernel that FreeCAD uses to build geometry on screen. The OpenCASCADE libraries are always needed to use FreeCAD, while the OpenSCAD executable is entirely optional.
+
+
+
+
+## 소개
+
+<img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD 작업대는](OpenSCAD_Workbench/ko.md) 오픈 소스 소프트웨어 \[<http://www.openscad.org/OpenSCAD%5D와의> 상호 운용성을 제공하기 위한 것입니다. 이 프로그램은 FreeCAD의 일부로 배포되지 않지만 이 작업대를 최대한 활용하려면 설치해야 합니다. OpenSCAD는 FreeCAD가 화면에 형상을 만드는 데 사용하는 기하학적 커널인 [OpenCASCADE와](OpenCASCADE.md) 혼동해서는 안 됩니다. FreeCAD를 사용하려면 OpenCASCADE 라이브러리가 항상 필요하지만 OpenSCAD 실행 파일은 전적으로 선택 사항입니다.
 
 It contains a [CSG](OpenSCAD_CSG.md) importer to open the CSG files from OpenSCAD, and an exporter to output a CSG based tree. Geometry which is not based on CSG operations will be exported as a mesh.
 
 This workbench contains functions to modify the CSG feature tree and repair models. It also contains general purpose tools that do not require installation of OpenSCAD; they can be used in conjunction with other workbenches. For example, the [Mesh Workbench](Mesh_Workbench.md) internally uses the OpenSCAD functions to perform operations with [meshes](mesh.md), as they are quite robust.
-
-
-
 
 ![](images/OpenSCADexamaple1.png )
 
@@ -47,7 +49,7 @@ The OpenSCAD language allows the use of variables and loops. It allows you to sp
 -   <img alt="" src=images/OpenSCAD_ColorCodeShape.svg  style="width:32px;"> [Color Code Shape](OpenSCAD_ColorCodeShape.md): Change the color of selected or all shapes based on their validity.
 -   <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width:32px;"> [Replace Object](OpenSCAD_ReplaceObject.md): Replace an object in the feature tree.
 -   <img alt="" src=images/OpenSCAD_RemoveSubtree.svg  style="width:32px;"> [Remove Subtree](OpenSCAD_RemoveSubtree.md): Removes the selected objects and all children that are not referenced from other objects.
--   <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:32px;"> [Refine Shape Feature](OpenSCAD_RefineShapeFeature.md): Create Refine Shape Feature.
+-   <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:32px;"> [Refine Shape Feature](OpenSCAD_RefineShapeFeature.md): Cleans unnecessary lines.
 -   <img alt="" src=images/OpenSCAD_MirrorMeshFeature.svg  style="width:32px;"> [Mirror Mesh Feature](OpenSCAD_MirrorMeshFeature.md): Create Mirror Mesh Feature.
 -   <img alt="" src=images/OpenSCAD_ScaleMeshFeature.svg  style="width:32px;"> [Scale Mesh Feature](OpenSCAD_ScaleMeshFeature.md): Scale a Mesh Feature.
 -   <img alt="" src=images/OpenSCAD_ResizeMeshFeature.svg  style="width:32px;"> [Resize Mesh Feature](OpenSCAD_ResizeMeshFeature.md): Resize a Mesh Feature.

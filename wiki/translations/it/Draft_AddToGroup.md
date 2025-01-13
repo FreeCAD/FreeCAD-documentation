@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft_AddToGroup
-   Name/it: Sposta nel gruppo
+   Name/it: Draft Sposta nel gruppo
    MenuLocation: Utilità , Sposta nel gruppo...
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Workbenches: Draft_Workbench/it
    SeeAlso: Std_Group/it, Draft_AddNamedGroup/it, Draft_AddConstruction/it, Draft_AutoGroup/it
 ---
 
@@ -13,7 +13,7 @@
 
 ## Descrizione
 
-Il comando <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft Sposta nel gruppo** sposta gli oggetti in un [Gruppo](Std_Group/it.md) o in un oggetto [Arch](Arch_Workbench/it.md) simile a un gruppo. Può anche separare gli oggetti.
+Il comando <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft Sposta nel gruppo** sposta gli oggetti in un [Gruppo](Std_Group/it.md) o in un oggetto [BIM](BIM_Workbench/it.md) simile a un gruppo. Può anche separare gli oggetti.
 
 
 
@@ -23,7 +23,7 @@ Il comando <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **D
 2.  Esistono diversi modi per richiamare il comando:
     -   Premere il pulsante **<img src="images/Draft_AddToGroup.svg" width=16px> [Draft Sposta nel gruppo](Draft_AddToGroup/it.md)**.
     -   Selezionare l\'opzione **Utilità → <img src="images/Draft_AddToGroup.svg" width=16px> Sposta nel gruppo...** dal menu.
-    -   Selezionare l\'opzione **Utilità → <img src="images/Draft_AddToGroup.svg" width=16px> Sposta nel gruppo...** dal menù contestuale alle [Vista ad albero](Tree_view/it.md) o [Vista 3D](3D_view/it.md).
+    -   Selezionare l\'opzione **Utilità → <img src="images/Draft_AddToGroup.svg" width=16px> Sposta nel gruppo...** dal menu, o dalla [Vista ad albero](Tree_view/it.md) o dal menu contestuale della [Vista 3D](3D_view/it.md).
 3.  Viene visualizzato un menu vicino al cursore. Effettuare una delle seguenti operazioni:
     -   Selezionare **Separa** per spostare gli oggetti fuori dai gruppi in cui si trovano.
     -   Selezionare il gruppo in cui si vogliono spostare gli oggetti.

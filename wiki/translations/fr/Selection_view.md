@@ -4,7 +4,7 @@
 
 
 
-La [Fenêtre de sélection](Selection_view/fr.md) est un panneau dans l\'[interface](interface/fr.md) par défaut situé sous la [vue combinée](Combo_view/fr.md). Tout comme l\'[éditeur de propriétés](Property_editor/fr.md), elle affiche plus d\'informations sur les objets actuellement sélectionnés.
+La [Fenêtre de sélection](Selection_view/fr.md) ou **Sélection** est un panneau dans l\'[interface](interface/fr.md) par défaut situé sous la [vue combinée](Combo_view/fr.md). Tout comme l\'[éditeur de propriétés](Property_editor/fr.md), elle affiche plus d\'informations sur les objets actuellement sélectionnés.
 
 Une sélection peut être effectuée en choisissant un objet dans la [vue 3D](3D_view/fr.md) ou dans la [vue en arborescence](Tree_view/fr.md). Plusieurs corps peuvent être sélectionnés en maintenant **Ctrl**.
 

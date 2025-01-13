@@ -14,7 +14,7 @@
 
 ## Opis
 
-**Wiązanie odległości** określa długość prostej, odległość prostopadłą między punktem a prostą, odległość między dwoma punktami lub, {{Version/pl|0.21}}, odległość między krawędziami dwóch okręgów lub między krawędzią okręgu a linią.
+Narzędzie <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;"> **Wiązanie odległości** ustala długość prostej, odległość między dwoma punktami, odległość prostopadłą między punktem a prostą, lub {{Version/pl|0.21}} odległość między krawędziami dwóch okręgów lub łuków, lub między krawędzią okręgu lub łuku a prostą, lub {{Version/pl|1.0}} długość łuku.
 
 ![](images/Sketcher_ConstrainDistance_example.png )
 
@@ -22,20 +22,64 @@
 
 ## Użycie
 
-1.  Wybierz jedną linię, albo jeden punkt i jedną linię, albo dwa punkty, albo krawędzie dwóch okręgów lub krawędzie okręgu i linii.
-2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **[<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> '''Wiązanie odległości'''** znajdujący się na pasku narzędzi Szkicownika.
-    -   Użyj kombinacji klawiszy **K** kolejnie **D**. (**D** odnosi się do **D**istance).
-    -   Użyj pozycji menu głównego **Szkic → Wiązania szkicownika → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Wiązanie odległości**.
-3.  Otworzy się wyskakujące okno dialogowe do edycji z proponowaną wartością. Naciśnij **OK**, aby ją zatwierdzić.
-
-**Uwaga:** Narzędzie wiązania może być również uruchomione bez wcześniejszego zaznaczenia obiektów *(pomijając przypadki typu okrąg do okręgu i okrąg do linii)*. Aby ustawić odległość prostopadłą pomiędzy punktem a prostą, należy najpierw zaznaczyć ten punkt. Domyślnie polecenie jest aktywne w trybie kontynuacji, by utworzyć nowe wiązanie; wciśnij raz prawy przycisk myszki lub klawisz **ESC**, by zakończyć działanie polecenia.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
 
 
-### Podpowiedź
+### [Tryb kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md) 
 
-Ewentualnie proszę rozważyć użycie **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Zwiąż w poziomie](Sketcher_ConstrainDistanceX/pl.md)** lub **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Zwiąż w  pionie](Sketcher_ConstrainDistanceY/pl.md)** zamiast tego wiązania. Wymienione wiązania są bardziej efektywne i szybsze do obliczenia niż to to prezentowane.
+1.  Upewnij się, że nie ma zaznaczenia.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   
+        {{Version/pl|1.0}}
+        
+        : Jeśli [ustawienie](Sketcher_Preferences/pl#Ogólne.md) **Wiązania wymiarów** jest aktywne i wybrano {{Value|Narzędzie pojedyncze}} *(domyślnie)*: naciśnij strzałkę w dół po prawej stronie przycisku **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** i wybierz opcję **<img src="images/Sketcher_ConstrainDistance.svg" width=16px> Wiązanie odległości** z rozwijanej listy.
+
+    -   Jeśli ta preferencja ma inną wartość *(w {{VersionMinus|0.21}})*: naciśnij **<img src="images/Sketcher_ConstrainDistance.svg" width=16px> '''Wiązanie odległości'''**.
+
+    -   Wybierz z menu opcję **Szkic → Wiązania szkicownika → <img src="images/Sketcher_ConstrainDistance.svg" width=16px> Wiązanie odległości**.
+
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz opcję **Wiązanie wymiarów → <img src="images/Sketcher_ConstrainDistance.svg" width=16px> Wiązanie odległości** z menu podręcznego.
+
+    -   Użyj skrótu klawiaturowego: **K**, a następnie **D**.
+3.  Kursor zmieni się w krzyżyk z ikoną narzędzia.
+4.  Wybierz krawędź okręgu lub łuku.
+5.  Jeśli utworzono [kontrolujące wiązanie wymiarowe](Sketcher_ToggleDrivingConstraint/pl.md), w zależności od [konfiguracji](Sketcher_Preferences/pl#Wyświetlanie.md), otworzy się okno dialogowe [Wprowadź \...](Sketcher_Workbench/pl#Edycja_wiązań.md).
+6.  Wiązanie zostanie dodane.
+7.  Opcjonalnie można kontynuować tworzenie wiązań.
+8.  Aby zakończyć, kliknij prawym przyciskiem myszy lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
+
+
+
+### Tryb jednorazowy 
+
+1.  Wykonaj jedną z następujących czynności:
+    -   Wybierz pojedynczą linię.
+
+    -   Wybierz dwa punkty.
+
+    -   Wybierz punkt i linię (w dowolnej kolejności).
+
+    -   Wybierz krawędzie dwóch okręgów lub łuków.
+
+    -   Wybierz krawędź okręgu lub łuku i linię (idem).
+
+    -   
+        {{Version/pl|1.0}}
+        
+        : Wybieranie krawędzi pojedynczego łuku.
+2.  Wywołaj narzędzie, jak wyjaśniono powyżej.
+3.  Opcjonalnie [dostosuj wartość](Sketcher_Workbench/pl#Edycja_wiązań.md).
+4.  Wiązanie zostanie dodane.
+
+
+
+## Uwagi
+
+-   Jeśli ma to zastosowanie, rozważ użycie wiązań **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Zwiąż w poziomie](Sketcher_ConstrainDistanceX/pl.md)** lub **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Zwiąż w pionie](Sketcher_ConstrainDistanceY/pl.md)** zamiennie. Są one bardziej wydajne.
 
 
 

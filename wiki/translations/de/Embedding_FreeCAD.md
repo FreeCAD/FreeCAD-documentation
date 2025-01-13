@@ -85,7 +85,7 @@ Die Tesselation erzeugt eine Liste der Knoten und eine Liste der Flächen, die d
        Blender.Redraw()
 }}
 
-Natürlich ist es ein sehr einfaches Skript(tatsächlich habe ich eine erweiterte Version [FreeCAD nach Blender-Import](https://yorik.orgfree.com/scripts/import_freecad.py)), die Sie vielleicht erweitern möchten, z. B. auch zum importieren von Mesh-Objekten, oder importieren von Part-Geometrie ohne Flächen, oder Import anderer Dateiformate, die FreeCAD lesen kann. Vielleicht wollen Sie auch Geometrien ein FreeCAD-Dokument exportieren, was auf die gleiche Weise durchgeführt werden kann. Vielleicht wollen Sie auch einen Dialog aufbauen, womit der Benutzer wählen kann, was zu importieren ist, etc\... Die Schönheit in alle dem liegt in der Tatsache, dass Sie FreeCAD die gesaamte Grundarbeit überlassen, während der Präsentation des Ergebnisses in dem Programm Ihrer Wahl geschiet.
+Natürlich ist es ein sehr einfaches Skript (tatsächlich habe ich eine erweiterte Version [FreeCAD nach Blender-Import](https://yorik.uncreated.net/archive/scripts/blender24/import_freecad.py)), die Sie vielleicht erweitern möchten, z. B. auch zum importieren von Mesh-Objekten, oder importieren von Part-Geometrie ohne Flächen, oder Import anderer Dateiformate, die FreeCAD lesen kann. Vielleicht wollen Sie auch Geometrien ein FreeCAD-Dokument exportieren, was auf die gleiche Weise durchgeführt werden kann. Vielleicht wollen Sie auch einen Dialog aufbauen, womit der Benutzer wählen kann, was zu importieren ist, etc\... Die Schönheit in alle dem liegt in der Tatsache, dass Sie FreeCAD die gesaamte Grundarbeit überlassen, während der Präsentation des Ergebnisses in dem Programm Ihrer Wahl geschiet.
 
 
 **Hinweis:**
@@ -120,7 +120,9 @@ Beachten Sie, für Konsole-Anwendungen wird diese Lösung natürlich nicht funkt
 
 Obwohl es möglich ist, FreeCAD in einen externen Python-Interpreter zu importieren, ist dies kein übliches Benutzungsszenario und erfordert etwas Sorgfalt. Generell ist es besser, das in FreeCAD enthaltene Python zu verwenden, FreeCAD auf der Kommandozeile auszuführen oder als ein Sub-Prozess. Zu den letzten beiden Optionen gibt es [hier](Start_up_and_Configuration/de.md) nähere Einzelheiten.
 
-Weil das FreeCAD-Python-Modul aus C++ kompiliert wurde (anstatt ein reines Python-Modul zu sein), kann es nur von einem kompatiblen Python-Interpreter importiert werden. Generell bedeutet das, dass der Python-Interpreter mit dem gleichen C-Compiler wie bei der Erstellung von FreeCAD kompiliert werden muss. Informationen über den bei der Erstellung des (in FreeCAD enthaltenen) Python-Interpreters benutzten Compilers köönen wie folgt ermittelt werden: 
+Weil das FreeCAD-Python-Modul aus C++ kompiliert wurde (anstatt ein reines Python-Modul zu sein), kann es nur von einem kompatiblen Python-Interpreter importiert werden. Generell bedeutet das, dass der Python-Interpreter mit dem gleichen C-Compiler wie bei der Erstellung von FreeCAD kompiliert werden muss. Informationen über den bei der Erstellung des (in FreeCAD enthaltenen) Python-Interpreters benutzten Compilers köönen wie folgt ermittelt werden:
+
+
 ```python
 >>> import sys
 >>> sys.version

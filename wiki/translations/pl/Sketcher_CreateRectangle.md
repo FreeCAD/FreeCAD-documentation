@@ -5,7 +5,7 @@
    MenuLocation: Szkic , Elementy geometryczne szkicownika , Utwórz prostokąt
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **R**
-   SeeAlso: Sketcher_CreateOblong/pl, Sketcher_CreatePolyline/pl
+   SeeAlso: Sketcher_CreatePolyline/pl
 ---
 
 # Sketcher CreateRectangle/pl
@@ -14,9 +14,7 @@
 
 ## Opis
 
-Narzędzie to rysuje prostokąt, wybierając dwa przeciwstawne punkty. Po uruchomieniu narzędzia wskaźnik myszy zmienia się w biały krzyż z czerwoną prostokątną ikoną. Na bieżąco wyświetlane są obok niego współrzędne wskaźnika w kolorze niebieskim.
-
-Aby zdefiniować prostokąt za pomocą punktu środkowego i punktu na krawędzi, użyj narzędzia [Utwórz wyśrodkowany prostokąt](Sketcher_CreateRectangle_Center/pl.md).
+Narzędzie <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> **Utwórz prostokąt** tworzy prostokąt. {{Version/pl|1.0}}: Narzędzie posiada cztery tryby, z których dwa mogą również tworzyć równoległoboki. Zaokrąglone rogi i tworzenie kopii z przesunięciem są funkcjami opcjonalnymi.
 
 ![](images/SketcherCreateRectangleExample.png‎ )
 
@@ -24,26 +22,41 @@ Aby zdefiniować prostokąt za pomocą punktu środkowego i punktu na krawędzi,
 
 ## Użycie
 
--   Po naciśnięciu przycisku na pasku narzędzi **[<img src=images/Sketcher_CreateRectangle.svg style="width:24px"> [Utwórz prostokąt](Sketcher_CreateRectangle/pl.md)**, kliknij raz, aby ustawić pierwszy narożnik, a następnie przesuń kursor myszki i kliknij drugi raz, aby ustawić przeciwległy narożnik.
--   Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszy anuluje tę funkcję.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
+Pos-OVP = Pozycyjne [Parametry w widoku](Sketcher_Preferences#Ogólne/pl.md). {{Version/pl|1.0}}
+Dim-OVP = Wymiarowe parametry w widoku. {{Version/pl|1.0}}
 
-
-## Uwagi
-
--   Po uruchomieniu narzędzia prostokąta w górnej części [Panelu zadań](Task_panel/pl.md) ({{Version/pl|0.22}}) dodano sekcję **Parametry prostokąta**. Zawiera ona:
-
-1.  Pole **Tryb** umożliwiające wybór jednego z trybów rysowania prostokąta:
-    -   Narożnik, długość i szerokość
-    -   Środek, długość i szerokość
-    -   Trzy narożniki
-    -   Środek i dwa narożniki
-2.  Pole wyboru **Zaokrąglone narożniki**, aby zastosować zaokrąglone narożniki do prostokąta.
-3.  Pole wyboru **Obramowanie**, aby dodać kontur ze stałym przesunięciem do *(zaokrąglonego)* prostokąta.
-
--   Wszystkie trzy przyciski w tym wyborze uruchamiają teraz to samo narzędzie, ale z różnymi wstępnie ustawionymi kombinacjami trybu i opcji, które nadal można zmienić po pierwszym kliknięciu.
--   Jeśli opcja **Zaokrąglone narożniki** jest włączona, przesunięcie jest do wewnątrz, a wartość przesunięcia jest większa niż promień narożnika, przesunięty kontur zostanie utworzony bez zaokrągleń.
--   Tryby **Trzy narożniki** i **Środek i dwa narożniki** tworzą równoległoboki zamiast prostokątów.
+1.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_CreateRectangle.svg" width=16px> '''Utwórz prostokąt'''**.
+    -   Wybierz z menu opcję **Szkic → Elementy geometryczne szkicownika → <img src="images/Sketcher_CreateRectangle.svg" width=16px> Utwórz prostokąt**.
+    -   Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz opcję **<img src="images/Sketcher_CreateRectangle.svg" width=16px> Utwórz prostokąt** z menu podręcznego.
+    -   Użyj skrótu klawiaturowego: **G**, a następnie **R**.
+2.  Kursor zmieni się w krzyżyk z ikoną bieżącego trybu narzędzia.
+3.  Sekcja **Parametry prostokąta** *({{Version/pl|1.0}})* jest dodawana na górze [okna dialogowego](Sketcher_Dialog/pl.md).
+4.  Opcjonalnie można nacisnąć klawisz **U** lub zaznaczyć pole wyboru **Zaokrąglone narożniki**, aby zaokrąglić prostokąt. {{Version/pl|1.0}}
+5.  Opcjonalnie naciśnij klawisz **J** lub zaznacz pole wyboru **Ramka**, aby utworzyć drugi odsunięty kształt. <small>(v1.0)</small> 
+6.  Opcjonalnie naciśnij klawisz **M** lub wybierz z listy rozwijanej w sekcji parametrów, aby zmienić tryb narzędzia:
+    -   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:16px;"> **Wierzchołek, szerokość, wysokość**:
+        1.  Wybierz pierwszy róg prostokąta. Lub za pomocą Pos-OVP: wprowadź jego współrzędną X i / lub Y.
+        2.  Wybierz przeciwległy róg prostokąta. Lub za pomocą Dim-OVP: wprowadź szerokość i / lub wysokość prostokąta.
+    -   <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:16px;"> **Środek, szerokość, wysokość**: {{Version/pl|1.0}}.
+        1.  Wybierz środek prostokąta. Lub z Pos-OVP: wprowadź jego współrzędną X i / lub Y.
+        2.  Wybierz róg prostokąta. Lub za pomocą Dim-OVP: wprowadź szerokość i / lub wysokość prostokąta.
+    -   <img alt="" src=images/Sketcher_CreateRectangle3Points.svg  style="width:16px;"> **Trzy wierzchołki**: {{Version/pl|1.0}}.
+        1.  Wybierz pierwszy róg prostokąta. Lub z Pos-OVP: wprowadź jego współrzędne X i / lub Y.
+        2.  Wybierz punkt końcowy pierwszej krawędzi prostokąta. Lub za pomocą Dim-OVP: wprowadź długość i / lub kąt pierwszej krawędzi. Kąt jest względem osi X szkicu.
+        3.  Wybierz trzeci narożnik prostokąta, przeciwległy do pierwszego. Lub z Dim-OVP: wprowadź długość i / lub kąt drugiej krawędzi. Kąt jest względny w stosunku do pierwszej krawędzi. Tylko jeśli kąt ten wynosi 90°, wynikiem będzie prostokąt.
+    -   <img alt="" src=images/Sketcher_CreateRectangle3Points_Center.svg  style="width:16px;"> **Środek, dwa wierzchołki**: {{Version/pl|1.0}}.
+        1.  Wybierz środek prostokąta. Lub za pomocą Pos-OVP: wprowadź jego współrzędne X i / lub Y.
+        2.  Wybierz pierwszy róg prostokąta. Lub za pomocą Pos-OVP: wprowadź jego współrzędną X i / lub Y.
+        3.  Wybierz drugi narożnik prostokąta. Lub za pomocą Dim-OVP: wprowadź długość i / lub kąt krawędzi między pierwszym a drugim narożnikiem. Kąt jest względny w stosunku do drugiej krawędzi połączonej z pierwszym narożnikiem. Tylko jeśli kąt ten wynosi 90°, wynikiem będzie prostokąt.
+7.  Jeśli wybrano opcję **Zaokrąglone narożniki**: Wybierz punkt, aby zdefiniować promień zaokrąglenia. Lub za pomocą Dim-OVP: wprowadź go.
+8.  Jeśli wybrano opcję **Obramowanie**: Wybierz punkt, aby zdefiniować odległość odsunięcia. Lub za pomocą Dim-OVP: wprowadź ją. Jeśli odsunięcie jest do wewnątrz i większe niż promień, odsunięty kształt nie będzie miał zaokrągleń.
+9.  Geometria jest tworzona i dodawane są odpowiednie wiązania oparte na Pos-OVP i Dim-OVP.
+10. Jeśli narzędzie działa w [trybie kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md):
+    1.  Opcjonalnie kontynuuj tworzenie prostokątów.
+    2.  Aby zakończyć, kliknij prawym przyciskiem myszki lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
 
 
 

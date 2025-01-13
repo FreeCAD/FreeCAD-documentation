@@ -21,7 +21,7 @@ La commande **Importer un maillage** importe la géométrie d\'un format de fich
     -   Appuyez sur le bouton **<img src="images/Mesh_Import.svg" width=16px> [Importer un maillage...](Mesh_Import/fr.md)**.
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Import.svg" width=16px> Importer un maillage...** du menu.
     -   Sélectionnez l\'option **<img src="images/Mesh_Import.svg" width=16px> Importer un maillage...** du menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou le menu contextuel de la [vue 3D](3D_view/fr.md). Cette option n\'est disponible que si un objet maillé existant a été sélectionné. Notez que l\'objet sélectionné n\'est en fait pas utilisé ou modifié par la commande.
-2.  Sélectionnez éventuellement le format de fichier correct dans la boîte de dialogue.
+2.  Sélectionnez éventuellement le format de fichier correct dans la fenêtre de dialogue.
 3.  Sélectionner un fichier.
 4.  Appuyez sur le bouton **Ouvrir**.
 

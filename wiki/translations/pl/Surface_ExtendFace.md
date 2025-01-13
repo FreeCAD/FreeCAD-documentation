@@ -1,84 +1,96 @@
 ---
  GuiCommand:
    Name: Surface ExtendFace
+   Name/pl: Powierzchnia 3D: Rozszerz powierzchnię
    MenuLocation: Surface , Extend face
-   Workbenches: Surface_Workbench
+   Workbenches: Surface_Workbench/pl
    Version: 0.17
 ---
 
 # Surface ExtendFace/pl
 
-## Description
 
 
-**[<img src=images/Surface_ExtendFace.svg style="width:16px"> [Surface ExtendFace](Surface_ExtendFace.md)**
+## Opis
 
-extrapolates an existing face or surface at its boundaries with its local U and V parameters.
+Polecenie **[<img src=images/Surface_ExtendFace.svg style="width:16px"> '''Rozszerz powierzchnię'''** ekstrapoluje istniejącą ścianę lub powierzchnię na jej granicach za pomocą lokalnych parametrów U i V.
 
 <img alt="" src=images/Surface_ExtendFace_base_example.png  style="width:300px;"> <img alt="" src=images/Surface_ExtendFace_example.png  style="width:300px;">
 
 
 
-*Left: original face. Right: extended face.*
-
-## Usage
-
-1.  Make sure you have an object that has faces. The object could be created with the <img alt="" src=images/Workbench_Surface.svg  style="width:24px;"> [Surface Workbench](Surface_Workbench.md) but it could also be any other object, for example, created with <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md) or <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md).
-2.  Select the face to extend by clicking on it on the [3D view](3D_view.md).
-3.  Press **[<img src=images/Surface_ExtendFace.svg style="width:16px"> [Extend face](Surface_ExtendFace.md)**.
-
-## Options
-
-This command doesn\'t have any options. Either it works with the selection or not.
-
-## Properties
-
-A [Surface Extend](Surface_ExtendFace.md) object (`Surface::Extend` class) is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
-
-In addition to the properties described in [Part Feature](Part_Feature.md), the Surface Filling has the following properties in the [property editor](Property_editor.md).
-
-### Data
+*Po lewej: oryginalna powierzchnia. Po prawej: powierzchnia powiększona.*
 
 
-{{TitleProperty|Base}}
 
--    **Face|LinkSub**: the subelement from an object that will be extended; it must be a face.
+## Użycie
 
--    **Tolerance|FloatConstraint**: it defaults to {{Value|0.1}}.
-
--    **Extend UNeg|FloatConstraint**: it defaults to {{Value|0.05}}. The ratio of the local U parameter that will be extended in the negative direction.
-
--    **Extend UPos|FloatConstraint**: it defaults to {{Value|0.05}}. The ratio of the local U parameter that will be extended in the positive direction.
-
--    **Extend USymetric|Bool**: it defaults to `True`, in which case **Extend UNeg** and **Extend UPos** will have the same value.
-
--    **Extend VNeg|FloatConstraint**: it defaults to {{Value|0.05}}. The ratio of the local V that will be extended in the negative direction.
-
--    **Extend VPos|FloatConstraint**: it defaults to {{Value|0.05}}. The ratio of the local V direction that will be extended in the positive direction.
-
--    **Extend VSymetric|Bool**: it defaults to `True`, in which case **Extend VNeg** and **Extend VPos** will have the same value.
-
--    **SampleU|IntegerConstraint**: it defaults to {{Value|32}}.
-
--    **SampleV|IntegerConstraint**: it defaults to {{Value|32}}.
-
-### View
+1.  Upewnij się, że masz obiekt, który ma powierzchnie. Obiekt może być utworzony w środowisku pracy <img alt="" src=images/Workbench_Surface.svg  style="width:24px;">. [Powierzchnia 3D](Surface_Workbench/pl.md), ale może to być również dowolny inny obiekt, na przykład utworzony za pomocą środowisk <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) lub <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">. [Projekt Części](PartDesign_Workbench/pl.md).
+2.  Wybierz ścianę do rozszerzenia, klikając ją w oknie [widoku 3D](3D_view/pl.md).
+3.  Naciśnij przycisk **[<img src=images/Surface_ExtendFace.svg style="width:16px">. '''Rozszerz powierzchnię'''**.
 
 
-{{TitleProperty|Base}}
 
--    **Control Points|Bool**: it defaults to `False`; if set to `True`, it will show an overlay with the control points of the surface.
+## Opcje
 
-## Scripting
+To polecenie nie ma żadnych opcji. Może działać z zaznaczeniem wstępnym lub jego brakiem.
 
 
-**See also:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Właściwości
 
-The Surface Extend tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::Extend` object.
+Obiekt **Rozszerz powierzchnię** *(klasa `Surface::Extend`)* jest pochodną podstawowej klasy [Część: Cecha](Part_Feature/pl.md) *(klasa `Part::Feature`, poprzez klasę podrzędną `Part::Spline`)*, dlatego też dzieli z nią wszystkie jej właściwości.
 
--   The face to extend must be assigned as a [LinkSub](LinkSub.md) to the `Face` property of the object. It must contain only a single face.
+Oprócz właściwości opisanych na stronie [Cecha części](Part_Feature/pl.md), obiekt Rozszerz powierzchnię, posiada następujące właściwości w [edytorze właściwości](Property_editor/pl.md).
+
+
+
+### Dane
+
+
+{{TitleProperty|Podstawa}}
+
+-    **Ściana|LinkSub**: element podrzędny obiektu, który zostanie rozszerzony. Musi to być powierzchnia.
+
+-    **Tolerancja|FloatConstraint**: wartość domyślna to {{Value|0.1}}.
+
+-    **Extend UNeg|FloatConstraint**: Wartość domyślna to {{Value|0.05}}. Stosunek lokalnego parametru U, który zostanie rozszerzony w kierunku ujemnym.
+
+-    **Extend UPos|FloatConstraint**: Wartość domyślna to {{Value|0.05}}. Stosunek lokalnego parametru U, który zostanie rozszerzony w kierunku dodatnim.
+
+-    **Extend USymetric|Bool**: Wartość domyślna to {{TRUE/pl}}, w którym to przypadku **Extend UNeg** i **Extend UPos** będą miały tę samą wartość.
+
+-    **Extend VNeg|FloatConstraint**: Wartość domyślna to {{Value|0.05}}. Stosunek lokalnego V, który zostanie rozszerzony w kierunku ujemnym.
+
+-    **Extend VPos|FloatConstraint**: Wartość domyślna to {{Value|0.05}}. Stosunek lokalnego kierunku V, który zostanie rozszerzony w kierunku dodatnim.
+
+-    **Extend VSymetric|Bool**: Wartość domyślna to {{TRUE/pl}}, w którym to przypadku **Extend VNeg** i **Extend VPos** będą miały tę samą wartość.
+
+-    **SampleU|IntegerConstraint**: Wartość domyślna to {{Value|32}}.
+
+-    **SampleV|IntegerConstraint**: Wartość domyślna to {{Value|32}}.
+
+
+
+### Widok
+
+
+{{TitleProperty|Podstawa}}
+
+-    **Punkty kontrolne|Bool**: wartość domyślna to {{FALSE/pl}}, Jeśli ustawiono {{TRUE/pl}}, wyświetlona zostanie nakładka z punktami kontrolnymi krzywej.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie Surface Extend może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) poprzez dodanie obiektu `Surface::Extend`.
+
+-   Powierzchnia do rozszerzenia musi być przypisana jako struktura danych [LinkSub](FeaturePython_Custom_Properties/pl#App:_PropertyLinkSub.md) do właściwości `Face` obiektu. Musi ona zawierać tylko jedną powierzchnię.
 
 
 ```python

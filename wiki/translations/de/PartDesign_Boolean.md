@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: PartDesign Boolean
-   Name/de: PartDesign Boolesche Operation
-   MenuLocation: Part Design , Boolesche Operation
+   Name/de: PartDesign BoolescheVerknüpfung
+   MenuLocation: Part Design , Boolesche Verknüpfung
    Workbenches: PartDesign_Workbench/de
    Version: 0.17
 ---
@@ -13,13 +13,13 @@
 
 ## Beschreibung
 
-**PartDesign Boolesche Operation** importiert einen oder mehrere [PartDesign-Körper (Bodies)](PartDesign_Body/de.md) oder [PartDesign-Klone](PartDesign_Clone/de.md) (hier \"Werkzeugkörper\" genannt) in den aktiven PartDesign-Körper und führt eine Boolesche Operation durch (Vereinigung, Differenz oder Schnitt ).
+**PartDesign BoolescheVerknüpfung** importiert einen oder mehrere [PartDesign-Körper](PartDesign_Body/de.md) (Bodies) oder [PartDesign-Klone](PartDesign_Clone/de.md) (hier \"Werkzeugkörper\" genannt) in den aktiven PartDesign-Körper und führt eine boolesche Verknüpfung durch (Vereinigung, Differenz oder Schnitt ).
 
 ![](images/PartDesign_Boolean_example.png )
 
 
 
-*Links der aktive Körper (A) mit den Werkzeugkörpern (B) und (C); Rechts das Ergebnis nach der Booleschen Operation Differenz.*
+*Links der aktive Körper (A) mit den Werkzeugkörpern (B) und (C); Rechts das Ergebnis nach der booleschen Verknüpfung Differenz.*
 
 
 
@@ -27,13 +27,13 @@
 
 1.  Den [Körper aktivieren](PartDesign_Body/de#Aktiver_Status.md), der das Boolean-Objekt erhalten soll. ***Hinweis**: Es ist wichtig, dass weder der aktive Körper noch eines der darin enthaltenen Elemente ausgewählt sind!*
 
-2.  Die Schaltfläche **<img src="images/PartDesign_Boolean.svg" width=24px> '''Boolesche Operation'''** drücken.
+2.  Die Schaltfläche **<img src="images/PartDesign_Boolean.svg" width=24px> '''Boolesche Verknüpfung'''** drücken.
 
-3.  Unter **Boolesche Parameter**, klickt man auf die Schaltfläche **Körper hinzufügen**. Der aktive Körper verschwindet vorübergehend aus der [3D-Ansicht](3D_view/de.md), um die Auswahl von Werkzeugkörpern zu erleichtern.
+3.  Unter **Parameter der booleschen Verknüpfung**, klickt man auf die Schaltfläche **Körper hinzufügen**. Der aktive Körper verschwindet vorübergehend aus der [3D-Ansicht](3D_view/de.md), um die Auswahl von Werkzeugkörpern zu erleichtern.
 
 4.  In der 3D-Ansicht den Körper auswählen, der in dem Boolean-Objekt verwendet werden soll. Diesen Vorgang wiederholen, um weitere Körper hinzuzufügen.
 
-5.  Den Typ der Booleschen Operation im Auswahlmenü auswählen (Vereinigung, Differenz oder Schnitt).
+5.  Den Typ der booleschen Verknüpfung im Auswahlmenü auswählen (Vereinigung, Differenz oder Schnitt).
 
 6.  
     **OK**klicken.

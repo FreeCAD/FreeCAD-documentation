@@ -1,34 +1,42 @@
 ---
- GuiCommand:
-   Name: Std Part
-   MenuLocation: None
-   Workbenches: All
-   Version: 0.17
-   SeeAlso: Std_Group, PartDesign_Body
+ GuiCommand:  
+   Name: Std Part  
+   MenuLocation: Nenhum  
+   Workbenches: Todas  
+   Version: 0.17  
+   SeeAlso: Std_Group/pt-br, PartDesign_Body/pt-br  
 ---
 
 # Std Part/pt-br
 
+
+
 ## Descrição
 
 
-**[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)**
+**[<img src=images/Std_Part.svg style="width:16px"> [Parte Std](Std_Part/pt-br.md)**
 
-(internally called [App Part](App_Part.md)) is a general purpose container that keeps together a group of objects so that they can be moved together as a unit in the [3D view](3D_view.md).
+(também chamada internamente de [Parte App](App_Part/pt-br.md)) é um contêiner usado para organizar e agrupar objetos. Ele permite que esses objetos sejam movimentados juntos como uma única unidade na [vista 3D](3D_view/pt-br.md).
 
-The Std Part element was developed to be the basic building block to create mechanical [assemblies](assembly.md). In particular, it is meant to arrange objects that have a [Part TopoShape](Part_TopoShape.md), like [Part Primitives](Part_Primitives.md), [PartDesign Bodies](PartDesign_Body.md), and other [Part Features](Part_Feature.md). The Std Part provides an [Origin object](#Origin.md) with local X, Y, and Z axes, and standard planes, that can be used as reference to position the contained objects. In addition, Std Parts may be nested inside other Std Parts to create a big assembly from smaller sub-assemblies.
+O elemento \*\*Parte Std\*\* foi desenvolvido como um bloco básico para criar [montagens](assembly/pt-br.md) mecânicas. Ele é especialmente útil para organizar objetos que possuem uma [Forma Topológica (TopoShape) de Parte](Part_TopoShape/pt-br.md), como [Primitivas de Parte](Part_Primitives/pt-br.md), [Corpos PartDesign](PartDesign_Body/pt-br.md) e outras [Funcionalidades de Parte](Part_Feature/pt-br.md).
 
-Although it is primarily intended for solid bodies, the Std Part can be used to manage any object that has a [Placement](Placement.md) property, so it can also contain [Mesh Features](Mesh_Feature.md), [sketches](Sketch.md), and other objects derived from the [App GeoFeature](App_GeoFeature.md) class.
+A \*\*Parte Std\*\* inclui um [Objeto de Origem](#Origin/pt-br.md) com eixos locais X, Y e Z, além de planos padrão, que podem ser usados como referência para posicionar os objetos contidos. Além disso, é possível aninhar \*\*Partes Std\*\* dentro de outras \*\*Partes Std\*\*, permitindo criar uma montagem maior a partir de submontagens menores.
 
-Do not confuse the **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)** with the **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)**. The first one is a specific object used in the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), intended to model a [single contiguous solid](PartDesign_Body#Single_contiguous_solid.md) by means of [PartDesign Features](PartDesign_Feature.md). On the other hand, the [Std Part](Std_Part.md) is not used for modelling, just to arrange different objects in space, with the intention to create [assemblies](assembly.md).
+Embora seja principalmente destinado a corpos sólidos, a \*\*Parte Std\*\* pode ser usada para gerenciar qualquer objeto que possua a propriedade de [Posicionamento](Placement/pt-br.md). Isso significa que ela também pode conter [Elementos de Malha](Mesh_Feature/pt-br.md), [Esboços](Sketch/pt-br.md) e outros objetos derivados da classe [App GeoFeature](App_GeoFeature/pt-br.md).
 
-The **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar** that is available in all [workbenches](Workbenches.md). To group objects arbitrarily without considering their position, use **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group.md)**; this object does not affect the placements of the elements that it contains, it is essentially just a folder that is used to keep the [Tree view](Tree_view.md) organized.
+Não confunda o **[<img src=images/PartDesign_Body.svg style="width:16px"> [Corpo PartDesign](PartDesign_Body/pt-br.md)** com o **[<img src=images/Std_Part.svg style="width:16px"> [Parte Std](Std_Part/pt-br.md)**.
+
+O primeiro é um objeto específico usado na <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Bancada PartDesign](PartDesign_Workbench/pt-br.md), destinado a modelar um [sólido único e contínuo](PartDesign_Body#Single_contiguous_solid/pt-br.md) por meio de [Recursos PartDesign](PartDesign_Feature/pt-br.md). Por outro lado, a \*\*Parte Std\*\* não é utilizada para modelagem, mas sim para organizar diferentes objetos no espaço, com o objetivo de criar [montagens](assembly/pt-br.md).
+
+A ferramenta **[<img src=images/Std_Part.svg style="width:16px"> [Parte Std](Std_Part/pt-br.md)** não é definida por uma bancada específica, mas sim pelo sistema base, portanto, ela está disponível na **barra de ferramentas de estrutura**, que pode ser encontrada em todas as [bancadas de trabalho](Workbenches/pt-br.md).
+
+Para agrupar objetos de forma arbitrária, sem considerar sua posição, use **[<img src=images/Std_Group.svg style="width:16px"> [Grupo Std](Std_Group/pt-br.md)**; este objeto não afeta o posicionamento dos elementos que contém, sendo essencialmente apenas uma pasta usada para manter a [Vista em Árvore](Tree_view/pt-br.md) organizada.
 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
 
 
-*Left: elements inside a Std Part in the [Tree view](Tree_view.md). Right: objects positioned in space, referred to the Origin of the Std Part.*
+*Esquerda: elementos dentro de uma Parte Std na [Vista em Árvore](Tree_view/pt-br.md). Direita: objetos posicionados no espaço, referenciados à Origem da Parte Std.*
 
 ## Usage
 
@@ -128,7 +136,7 @@ An open document can contain multiple Parts. But only one Part can be active. Th
 To activate or de-activate a Part:
 
 -   Double click on it on the [Tree view](Tree_view.md), or
--   Open the context menu (right click) and select **Toggle active part**.
+-   Open the context menu (right click) and select **Active object**.
 
 ![](images/Std_Part_active.png )
 
@@ -198,10 +206,10 @@ class MyGroup(object):
         if obj:
             self.attach(obj)
 
-    def __getstate__(self):
+    def dumps(self):
         return
 
-    def __setstate__(self, _state):
+    def loads(self, _state):
         return
 
     def attach(self, obj):
@@ -223,21 +231,27 @@ class ViewProviderMyGroup(object):
         vobj.addExtension("Gui::ViewProviderOriginGroupExtensionPython")
         self.ViewObject = vobj
 
-    def __getstate__(self):
+    def dumps(self):
         return None
 
-    def __setstate__(self, _state):
+    def loads(self, _state):
         return None
 
 App.ActiveDocument.addObject("Part::FeaturePython",
                              "Group",
-                             group.MyGroup(),
-                             group.ViewProviderMyGroup(),
+                             MyGroup(),
+                             ViewProviderMyGroup(),
                              True)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std_Base_navi

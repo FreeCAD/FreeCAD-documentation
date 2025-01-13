@@ -12,22 +12,27 @@
 
 ## Description
 
-Cet outil supprime les alignements des axes (contraintes <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [horizontales](Sketcher_ConstrainHorizontal/fr.md), <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [verticales](Sketcher_ConstrainVertical/fr.md)) des éléments sélectionnés en essayant de préserver la relation de contrainte.
+L\'outil <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> [Sketcher Supprimer l\'alignement des axes](Sketcher_RemoveAxesAlignment/fr.md) supprime l\'alignement des axes des arêtes sélectionnées en remplaçant les contraintes [horizontales](Sketcher_ConstrainHorizontal/fr.md) et [verticales](Sketcher_ConstrainVertical/fr.md) par des contraintes [parallèle](Sketcher_ConstrainParallel/fr.md) et [perpendiculaire](Sketcher_ConstrainPerpendicular/fr.md). Les arêtes peuvent alors être pivotées sans perdre leur relation orthogonale.
 
 
 
 ## Utilisation
 
-1.  Sélectionnez une géométrie avec des alignements des axes, par exemple un [rectangle](Sketcher_CreateRectangle/fr.md).
-2.  Appuyez sur le bouton de la barre d\'outils <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> **Supprimer l\'alignement des axes**.
+1.  Sélectionnez deux arêtes ou plus avec des contraintes horizontales ou verticales, par exemple un [rectangle](Sketcher_CreateRectangle/fr.md).
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_RemoveAxesAlignment.svg" width=16px> [Supprimer l'alignement des axes](Sketcher_RemoveAxesAlignment/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Outils d'esquisse → <img src="images/Sketcher_RemoveAxesAlignment.svg" width=16px> Supprimer l'alignement des axes** du menu.
+    -   Utilisez le raccourci clavier : **Z** puis **R**.
 
-Le résultat est que les contraintes (horizontales et verticales) seront supprimées. Dans l\'exemple d\'un rectangle, il reste un rectangle mais devient pivotable.
+
+
+## Exemple
 
 <img alt="" src=images/SketcherRemoveAxesAlignmentStart.png  style="width:300px;"> 
 *Un rectangle sélectionné avec des contraintes horizontales et verticales.*
 
 <img alt="" src=images/SketcherRemoveAxesAlignmentResult.png  style="width:300px;"> 
-*Le rectangle après l'utilisation de Supprimer l'alignement des axes.*
+*Le rectangle après l'utilisation de l'outil.*
 
 
 

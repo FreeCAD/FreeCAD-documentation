@@ -24,7 +24,7 @@
 
 </div>
 
-It is mainly intended to be used with **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-splines](Sketcher_CreateBSpline.md)**, which can be difficult to fully constrain otherwise.
+The block constraint only affects the freely movable parts of an edge. Blocked edges can have other constraints, and applying additional constraints to a blocked edge can modify it.
 
 
 
@@ -35,6 +35,10 @@ It is mainly intended to be used with **[<img src=images/Sketcher_CreateBSpline.
 
 
 </div>
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
 
 
 <div class="mw-translate-fuzzy">
@@ -47,7 +51,15 @@ It is mainly intended to be used with **[<img src=images/Sketcher_CreateBSpline.
 
 </div>
 
-Or press the button first, and then select the elements.
+### Run-once mode 
+
+1.  Select one or more edges.
+2.  Invoke the tool as explained above, or with the following additional option:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ConstrainBlock.svg" width=16px> Constrain block** option from the context menu.
+3.  Depending on the selection one or more constraints are added.
 
 ## Scripting
 

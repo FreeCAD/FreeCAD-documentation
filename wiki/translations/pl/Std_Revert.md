@@ -8,14 +8,20 @@
 
 # Std Revert/pl
 
+
+
 ## Opis
 
 Polecenie **Przywróć** powoduje zamknięcie aktywnego dokumentu i ponowne otwarcie ostatnio zapisanej wersji dokumentu.
+
+
 
 ## Użycie
 
 1.  Wybierz z menu opcję **Plik → <img src="images/Std_Revert.svg" width=16px> Przywróć**.
 2.  Naciśnij przycisk **Tak** w oknie dialogowym, aby potwierdzić, że chcesz utracić wszystkie zmiany od czasu wykonania ostatniego zapisu.
+
+
 
 ## Opcje
 
@@ -25,7 +31,7 @@ Polecenie **Przywróć** powoduje zamknięcie aktywnego dokumentu i ponowne otwa
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -1,22 +1,22 @@
 ---
  GuiCommand:
    Name: Arch Site
-   Workbenches: Arch_Workbench
-   MenuLocation: Arch , Site
+   MenuLocation: 3D/BIM , Site
+   Workbenches: BIM_Workbench
    Shortcut: **S** **I**
-   SeeAlso: Arch_Floor, Arch_Building
+   SeeAlso: 
 ---
 
 # Arch Site/en
 
 ## Description
 
-The Arch Site is a special object that combines properties of a standard FreeCAD group object and Arch objects. It is particularly suited for representing a whole project site, or terrain. In IFC-based architectural work, it is mostly used to organize your model, by containing [building](Arch_Building.md) objects. The site is also used to manage and display a physical terrain, and can compute volumes of earth to be added or removed.
+The **Arch Site** is a special object that combines properties of a standard FreeCAD group object and Arch objects. It is particularly suited for representing a whole project site, or terrain. In IFC-based architectural work, it is mostly used to organize your model, by containing [building](Arch_Building.md) objects. The site is also used to manage and display a physical terrain, and can compute volumes of earth to be added or removed.
 
 ## Usage
 
 1.  Optionally, select one or more objects to be included in your new site.
-2.  Press the **<img src="images/Arch_Site.svg" width=16px> [Arch Site](Arch_Site.md)** button, or press the **S** then **I** keys.
+2.  Press the **<img src="images/Arch_Site.svg" width=16px> [Site](Arch_Site.md)** button, or press the **S** then **I** keys.
 
 ## Options
 
@@ -92,7 +92,7 @@ The site geometry will be recomputed and the areas, perimeter, and volumes prope
 
 If [Ladybug](https://www.ladybug.tools/ladybug.html) is installed on your system, [Arch Sites](Arch_Site.md) can display a solar diagram and/or a wind rose. For this, **Longitude**, **Latitude** and **Declination** (previously **North Deviation**) must be correctly set, and **Solar Diagram** or **Wind Rose** set to `True`.
 
-**Note**: If you don\'t have Ladybug, [pysolar](http://pysolar.org/) is still supported to generate solar diagrams, but not wind roses. Pysolar 0.7 or above is required; this version only works with Python 3. If you require this feature with Python 2, you should have Pysolar 0.6 as this is the last version that works with Python 2. However, Ladybug is a much more powerful tool that will probably be used more in the future, so we recommend using it instead of pysolar. Ladybug can be installed simply via [pip](https://github.com/ladybug-tools/ladybug).
+**Note**: If you don\'t have Ladybug, [pysolar](http://pysolar.org/) is still supported to generate solar diagrams, but not wind roses. Pysolar 0.7 or above is required. However, Ladybug is a much more powerful tool that will probably be used more in the future, so we recommend using it instead of pysolar. Ladybug can be installed simply via [pip](https://github.com/ladybug-tools/ladybug).
 
 ![](images/Freecad-solar-diagram.jpg )
 
@@ -167,5 +167,13 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/en
+⏵ [documentation index](../README.md) > Arch Site/en

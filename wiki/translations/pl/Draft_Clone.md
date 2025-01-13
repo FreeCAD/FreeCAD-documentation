@@ -3,7 +3,7 @@
    Name: Draft Clone
    Name/pl: Draft: Klonuj
    MenuLocation: Modyfikacja , Klonuj
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
    Shortcut: **C** **L**
    SeeAlso: Draft_Scale/pl
 ---
@@ -14,9 +14,9 @@
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> **Klonuj** tworzy połączone kopie, klony, wybranych obiektów. Kształt klonu jest parametryczny, będzie aktualizowany, jeśli zmieni się jego obiekt źródłowy. Ale klon ma swoją własną pozycję, obrót i skalę oraz własne [Edytor właściwości](Property_editor/pl.md). Dla obiektów [architektury](Arch_Workbench/pl.md) polecenie tworzy specjalny typ klonu: klon Arch.
+Polecenie <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> **Klonuj** tworzy połączone kopie, klony, wybranych obiektów. Kształt klona jest parametryczny, będzie aktualizowany, jeśli zmieni się jego obiekt źródłowy. Ale klon ma swoją własną pozycję, obrót i skalę oraz własne [właściwości widoku](Property_editor/pl.md). Dla obiektów [BIM](BIM_Workbench/pl.md) polecenie tworzy specjalny typ klonu: klon Arch.
 
-Polecenie może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale także na wielu obiektach 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md). Klony obiektów 2D mogą być używane w [Zawartości](PartDesign_Body/pl.md) środowiska Projekt Części.
+Polecenie może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale także na wielu obiektach 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [BIM](BIM_Workbench/pl.md). Klony obiektów 2D mogą być używane w [Zawartości](PartDesign_Body/pl.md) środowiska Projekt Części.
 
 <img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;"> 
 *Klon obok obiektu źródłowego.*
@@ -68,11 +68,11 @@ cloned_object = make_clone(obj, delta=None, forcedraft=False)
 
 -    `obj`zawiera obiekty do sklonowania. Jest to pojedynczy obiekt lub lista obiektów.
 
--    `delta`to wektor przesunięcia, który zostanie zastosowany do klonu.
+-    `delta`to wektor przesunięcia, które zostanie zastosowane do klona.
 
--   Jeśli `forcedraft` ma wartość {{False/pl}} i `obj` zawiera pojedynczy obiekt [architektury](Arch_Workbench/pl.md), tworzony jest klon Architektury. Ustaw właściwość `forcedraft` na wartość {{True/pl}}, aby zamiast tego utworzyć Klona środowiska Rysunek Roboczy.
+-   Jeśli `forcedraft` ma wartość {{False/pl}} i `obj` zawiera pojedynczy obiekt [BIM](BIM_Workbench/pl.md), tworzony jest klon Arch. Ustaw właściwość `forcedraft` na wartość {{True/pl}}, aby zamiast tego utworzyć Klona środowiska Rysunek Roboczy.
 
--    `cloned_object`jest zwracany wraz z obiektem klonu.
+-    `cloned_object`jest zwracany wraz z obiektem klona.
 
 Przykład:
 

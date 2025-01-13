@@ -31,7 +31,7 @@
 2.  In the **Select feature** dialog select a sketch to be used as base profile object and click **OK**.
     -   Alternatively, either a single sketch or the face of a 3D object (<small>(v0.20)</small> ) can be selected prior to pressing the Additive loft button.
 3.  In the **Loft parameters**, press the **Add Section** button.
-4.  Select the next sketch in the [3D view](3D_view.md). Repeat to select more sketches in the order you want them to be lofted through. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.
+4.  Select the next sketch in the [3D view](3D_view.md). Repeat to select more sketches in the order you want them to be lofted through. You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.
 5.  Set options if needed and click **OK**.
 
 

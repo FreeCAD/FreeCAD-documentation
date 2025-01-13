@@ -3,7 +3,7 @@
    Name: Draft Label
    Name/de: Draft Hinweis
    MenuLocation: Anmerkung , Bezeichnung
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **D** **L**
    Version: 0.17
    SeeAlso: Draft_Text/de, Draft_ShapeString/de
@@ -51,7 +51,7 @@ Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geänd
 
 -    **R**drücken oder die Checkbox **Relativ** aktivieren, um den Relativmodus ein- bzw. auszuschalten. Bei aktiviertem Relativmodus haben Koordinaten einen Bezug zum letzten Punkt, wenn vorhanden, andernfalls beziehen sie sich auf den Ursprung des Koordinatensystems.
 
--    **G**drücken oder die Checkbox **Global** aktivieren, um den Globalmodus ein- bzw. auszuschalten. Bei aktiviertem Globalmodus haben Koordinaten einen Bezug zum globalen Koordinatensystem, andernfalls beziehen sich Koordinaten auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Globalmodus ein- bzw. auszuschalten. Bei aktiviertem Globalmodus haben Koordinaten einen Bezug zum globalen Koordinatensystem, andernfalls beziehen sich Koordinaten auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md).
 
 -    **S**drücken, um [Draft Fangen](Draft_Snap.md) ein- oder auszuschalten.
 
@@ -69,17 +69,17 @@ Die folgenden Arten von Hinweisen stehen zur Verfügung:
 
 -    {{Value|Benennung}}(Label): zeigt die Benennung des Zielobjekts an; die Benennung eines Objekts kann jederzeit vom Benutzer geändert werden.
 
--    {{Value|Position}}: zeigt die Koordinaten des Basispunktes des Zielobjekts, des Zielknotenpunktes oder des Schwerpunktes des Ziel-Teilelements an, falls vorhanden.
+-    {{Value|Position}}: zeigt die Koordinaten des Basispunktes des Zielobjekts oder des Zielknotenpunktes an.
 
--    {{Value|Length}}: zeigt die Länge des Zielobjekts oder des Unterelements an, falls vorhanden.
+-    {{Value|Length}}: zeigt die Länge des Zielobjekts oder des Unterelements an.
 
--    {{Value|Area}}: zeigt den Flächeninhalt des Zielobjekts oder des Unterelements an, falls vorhanden.
+-    {{Value|Area}}: zeigt den Flächeninhalt des Zielobjekts oder des Unterelements an.
 
--    {{Value|Volume}}: zeigt das Volumen des Zielobjekts an, falls vorhanden.
+-    {{Value|Volume}}: zeigt das Volumen des Zielobjekts an.
 
--    {{Value|Kennzeichen}}(Tag): zeigt das Attribut `Tag` des Zielobjekts an, falls vorhanden. Objekte, die mit dem Arbeitsbereich [Arch](Arch_Workbench/de.md) erstellt wurden, können dieses Attribut besitzen.
+-    {{Value|Kennzeichen}}(Tag): zeigt das Attribut `Tag` des Zielobjekts an. Objekte, die mit dem Arbeitsbereich [BIM](BIM_Workbench/de.md) erstellt wurden, können dieses Attribut besitzen.
 
--    {{Value|Material}}: zeigt die Benennung des Materials des Zielobjekts an, falls vorhanden
+-    {{Value|Material}}: zeigt die Benennung des Materials des Zielobjekts an.
 
 -    {{Value| Benennung + Position}}
     
@@ -169,9 +169,9 @@ Ein Draft-Hinweis (Label-Objekt) ist von einem [App FeaturePython](App_FeaturePy
 
 -    {{PropertyView/de|Line|Bool}}: Legt fest, ob die Hinweislinie angezeigt wird. Auf `False` gesetzt, werden nur der Pfeil und der Text angezeigt.
 
--    {{PropertyView/de|Line Color|Color}}: Legt die Farbe von Hinweislinie und Pfeil fest. Diese wird auch für den Rahmen verwendet ({{Version/de|0.20}}).
+-    {{PropertyView/de|Line Color|Color}}: Legt die Farbe von Hinweislinie und Pfeil fest. Diese wird auch für den Rahmen verwendet.
 
--    {{PropertyView/de|Line Width|Float}}: Legt die Breite der Hinweisliie fest. Diese wird auch für den Rahmen verwendet ({{Version/de|0.20}}).
+-    {{PropertyView/de|Line Width|Float}}: Legt die Breite der Hinweisliie fest. Diese wird auch für den Rahmen verwendet.
 
 
 {{TitleProperty|Text}}
@@ -194,7 +194,7 @@ Ein Draft-Hinweis (Label-Objekt) ist von einem [App FeaturePython](App_FeaturePy
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug Draft-Hinweis kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus mit der folgenden Funktion verwendet werden:
 
@@ -224,20 +224,20 @@ p1 = App.Vector(-200, 1000, 0)
 place1 = App.Placement(App.Vector(-1000, 1300, 0), App.Rotation())
 
 label1 = Draft.make_label(p1, place1, target_object=rectangle, distance=500, label_type="Label")
-label1.ViewObject.TextSize = 200
+label1.ViewObject.FontSize= 200
 
 p2 = App.Vector(-200, 0, 0)
 place2 = App.Placement(App.Vector(-1000, -300, 0), App.Rotation())
 
 label2 = Draft.make_label(p2, place2, target_object=rectangle, distance=500, label_type="Custom",
                           custom_text="Beware of the sharp edges")
-label2.ViewObject.TextSize = 200
+label2.ViewObject.FontSize= 200
 
 p3 = App.Vector(1000, 1200, 0)
 place3 = App.Placement(App.Vector(2000, 1800, 0), App.Rotation())
 
 label3 = Draft.make_label(p3, place3, target_object=rectangle, distance=-500, label_type="Area")
-label3.ViewObject.TextSize = 200
+label3.ViewObject.FontSize= 200
 
 doc.recompute()
 ```

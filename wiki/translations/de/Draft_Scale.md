@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Scale
    Name/de: Draft Skalieren
-   MenuLocation: Änderung , Skalieren
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Änderung , Skalieren<br>Bearbeiten , Skalieren
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **S** **C**
    SeeAlso: Draft_SubelementHighlight/de, Draft_Clone/de
 ---
@@ -16,7 +16,7 @@
 
 Das Werkzeug <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> **Draft Skalieren** skaliert oder kopiert ausgewählte Objekte von einem Basispunkt aus. Im Unterelement-Modus skaliert der Befehl ausgewählte Punkte und Kanten von [Draft Linien](Draft_Line/de.md) und [Draft-Drähten](Draft_Wire/de.md).
 
-Der Befehl kann auf 2D-Formen angewendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, kann aber auch mit vielen Arten von 3D-Objekten benutzt werden, wie denen, die mit den Arbeitsbereichen [Part](Part_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erzeugt wurden.
+Der Befehl kann auf 2D-Formen angewendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, kann aber auch mit vielen Arten von 3D-Objekten benutzt werden, wie denen, die mit den Arbeitsbereichen [Part](Part_Workbench/de.md) oder [BIM](BIM_Workbench/de.md) erzeugt wurden.
 
 <img alt="" src=images/Draft_Scale_example.png  style="width:400px;"> 
 *Skalieren eines Objekts von einen Basispunkt aus*
@@ -27,41 +27,46 @@ Der Befehl kann auf 2D-Formen angewendet werden, die mit den Arbeitsbereichen [D
 
 Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
-1.  Optionally select one or more objects, or one or more subelements of [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Scale.svg" width=16px> [Scale](Draft_Scale.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Scale.svg" width=16px> Scale** option from the menu.
-    -   Use the keyboard shortcut: **S** then **C**.
-3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
-4.  The **Scale** task panel opens. See [Options](#Options.md) for more information.
-5.  If subelements have been selected: check the **Modify subelements** checkbox to switch on subelement mode.
-6.  Pick the base point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-7.  Enter the X, Y and Z scale factors.
-8.  Press **Enter** or the **OK** button to finish the command.
+1.  Wähle wahlweise eines oder mehrere Objekte, oder ein oder mehrere Unterelemente von [Draft Linien](Draft_Line/de.md) or [Draft Linienzug](Draft_Wire/de.md).
+2.  Es gibt mehrere Möglichkeiten den Befehl zu starten:
+    -   Drücke die **<img src="images/Draft_Scale.svg" width=16px> [Skalieren](Draft_Scale/de.md)** Schaltfläche.
+    -   [Draft](Draft_Workbench/de.md): Wähle die **Änderung → <img src="images/Draft_Scale.svg" width=16px> Skalieren** Option aus dem Menü.
+    -   [BIM](BIM_Workbench/de.md): Wähle die **Modifizieren → <img src="images/Draft_Scale.svg" width=16px> Skalieren** Option aus dem Menü.
+    -   Wähle die Abkürzungstaste: **S** dann **C**.
+3.  Wenn du kein Objekt ausgewählt hast: wähle ein Objekt in der [3D Ansicht](3D_view/de.md).
+4.  Das **Skalieren** Aufgabenfenster öffnet. Siehe [Optionen](#Options.md) für weitere Informationen.
+5.  Wenn Unterelemente ausgewählt wurden: überprüfe das **Modifiziere Unterelemente** Optionsfeld um in den Unterelemente Modus zu wechseln.
+6.  Wähle den Basispunkt in der [3D Ansicht](3D_view/de.md), oder gib Koordinaten ein und wähle die **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** Schaltfläche.
+7.  Gib die X, Y und Z Skalierfaktoren ein.
+8.  Drücke **Enter** oder die **OK** Schaltfläche um den Befehl zu beenden.
 
 
 
 ## Optionen
 
-### First task panel 
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
--   To manually enter the coordinates for the base point enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press the **Close** button to abort the command.
+### Erstes Aufgabenfenster 
 
-### Second task panel 
+Alle im Aufgabenfenster vorhandenen Abkürzungstasten können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Abkürzungstasten sind die voreingestellten.
 
--   Enter the X, Y and Z factors to define the scaling. The values must be larger than zero.
--   Check the **Uniform scaling** checkbox to lock the X, Y and Z factors to the same value.
--   If the **Working plane orientation** checkbox is checked the scale factors are relative to the [working plane](Draft_SelectPlane.md) coordinate system, else they are relative to the global coordinate system.
--   If the **Copy** checkbox is checked a scaled copy of the original object is created. This only works for Draft objects that have a **Points** property, such as [Draft Wires](Draft_Wire.md).
--   If the **Modify subelements** checkbox is checked the command will use the selected subelements instead of the whole objects. The subelements must belong to [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
--   If the **Create a clone** checkbox is checked scaled [clones](Draft_Clone.md) of the original objects are created. This works for all object types. For objects that are not Draft objects, or for Draft objects that do not have a **Points** property, this option **must** be selected.
--   Press the **Pick from/to points** button and pick two additional points in the [3D view](3D_view.md) to calculate the scale factors. This will automatically check the **Uniform scaling** checkbox. The X, Y and Z scale factors will therefore be equal and will be set to the distance between the base point and the \'from\' point, divided by the distance between the base point and the \'to\' point.
--   Press **Esc** or the **Cancel** button to abort the command.
+-   Um die Koordinaten des Basispunktes von Hand einzugeben, gib die X, Y und Z Komponenten ein und drücke nach jeder **Enter**. Oder du kannst die **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** Schaltfläche betätigen sobald du die gewünschten Werte hast. Es ist ratsam den Zeiger vor der Eingabe der Koordinaten aus der [3D Ansicht](3D_view/de.md) heraus zu bewegen.
+-   Drücke **G** oder wähle das **Global** Optionsfeld um den globalen Modus umzuschalten. Wenn der Global Modus aktiv ist, dann sind die Koordinaten relativ zum globalen Koordinatensystem, sonst sind sie relativ zum Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md).
+-   Drücke **S** um [Draft Einrasten](Draft_Snap/de.md) ein oder auszuschalten.
+-   Drücke die **Abbrechen** Schaltfläche um den Befehl abzubrechen.
+
+
+
+### Zweites Aufgabenfenster 
+
+-   Gib um die Skalierung zu definieren die X, Y und Z Faktoren ein. Die Werte müssen größer als Null sein.
+-   Markiere das **Einheitliche Skalierung** Optionsfeld um die X, Y und Z Faktoren auf den gleichen Wert einzurasten.
+-   Wenn das **Ausrichtung der Arbeitsebene** Optionsfeld gewählt ist dann sind die Skalierungsfaktoren relativ zum Koordinaten System der [Arbeitsebene](Draft_SelectPlane.md), sonst sind sie relativ zum globalen Koordinatensystem.
+-   Wenn das **Kopieren** Optionsfeld gewählt ist dann wird eine skalierte Kopie des Originalobjektes erzeugt. Dies funktioniert nur bei Draft Objekten die eine **Punkte** Eigenschaft haben, wie etwa [Draft Linienzug](Draft_Wire/de.md).
+-   Wenn das **Unterelemente ändern** Optionsfeld gewählt ist dann verwendet der Befehl die gewählten Unterelemente an Stelle des gesamten Objektes. Die Unterelemente müssen zu [Draft Linien](Draft_Line.md) oder [Draft Linienzug](Draft_Wire/de.md) gehören.
+-   Wenn das **Klon erzeugen** Optionsfeld gewählt ist dann werden skalierte [Klone](Draft_Clone/de.md) des original Objektes erzeugt. Dies funktioniert mit allen Objekttypen. Für Objekte die keine Draft Objekte sind, oder für Draft Objekte die keine **Punkte** Eigenschaft haben, **muss** dies gewählt werden.
+-   Drücke die **Anfangs- und Endpunkte wählen** Schaltfläche und wähle zwei zusätzliche Punkte in der [3D Ansicht](3D_view/de.md) um die Masstabfaktoren zu berechnen. Dies überprüft automatisch das **Einheitliche Skalierung** Optionsfeld. Die X, Y und Z Skalierungsfaktoren werden daher gleich sein und auf den Abstand zwischen Basispunkt und \'von\' Punkt, dividiert durch den Abstand zwischen Basispunkt und \'bis\' Punkt gesetzt werden.
+-   Drücke **Esc** oder die **Abbrechen** Schaltfläche um den Befehl abzubrechen.
 
 
 
@@ -75,13 +80,13 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
--   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General → Select base objects after copying**.
+-   Um die Basisobjekte nach dem Kopieren von Objekten wieder auszuwählen: **Bearbeiten → Einstellungen... → Draft → Allgemein → Wähle ursprüngliche Objekte nach dem Kopieren aus**.
 
 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Zum skalieren von Objekten wird die Methode `scale` des Draft-Moduls verwendet.
 
@@ -90,15 +95,15 @@ Zum skalieren von Objekten wird die Methode `scale` des Draft-Moduls verwendet.
 scaled_list = scale(objectslist, scale=Vector(1,1,1), center=Vector(0,0,0), copy=False)
 ```
 
--    `objectslist`contains the objects to be scaled. It is either a single object or a list of objects.
+-    `objectslist`enthält die Objekte, die skaliert werden sollen. Das ist entweder ein einzelnes Objekt oder eine Liste von Objekten.
 
--    `scale`is the vector that specifies by the X, Y and Z scale factors.
+-    `scale`ist der Vektor welcher die X, Y und Z Skalierungsfaktoren definiert.
 
--    `center`is the center point of the scaling operation.
+-    `center`ist der Mittelpunkt der Skalierungsoperation.
 
--   If `copy` is `True` copies are created instead of scaling the original objects.
+-   Falls `copy` auf `True` ist, dann werden Kopien erzeugt,anstatt die originalen Objekte zu skalieren.
 
--    `scaled_list`is returned with the original scaled objects, or with the new copies. It is either a single object or a list of objects, depending on `objectslist`.
+-    `scaled_list`wird mit den originalen skalierten Objekten oder mit neuen Kopien zurückgeliefert. Ist abhängig von `objectslist` entweder ein einzelnes Objekt oder eine Liste von Objekten..
 
 Beispiel:
 

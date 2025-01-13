@@ -20,11 +20,11 @@ Der Befehl **Std Positionierung** zeigt den [ Aufgabenbereich](Task_panel/de.md)
 
 
 
-## Verwendung
+## Anwendung
 
-1.  Ein einzelnes Objekt, das eine {{PropertyData/de|Placement}} besitzt im [Eigenschafteneditor](Property_editor/de.md) auswählen.
+1.  Ein einzelnes Objekt, das eine {{PropertyData/de|Placement}} besitzt auswählen.
 
-2.  Die Menüoption **Bearbeiten → Placement...** auswählen.
+2.  Die Menüoption **Bearbeiten → <img src="images/Std_Placement.svg" width=16px> Placement...** auswählen.
 
 3.  Einen oder mehrere der Translations- und Rotationsparameter ändern.
 
@@ -48,10 +48,7 @@ Der Dialog kann auch durch Klicken auf die Ellipsentaste **...** gestartet werde
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Siehe das [Python Skipterstellung Tutorium](Python_scripting_tutorial/de#Vektoren_und_Platzierungen.md).
 
@@ -103,7 +100,7 @@ print(obj.Placement.Matrix)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

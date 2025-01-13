@@ -3,7 +3,7 @@
    Name: Draft Edit
    Name/de: Draft Bearbeiten
    MenuLocation: Modification , Bearbeiten
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **D** **E**
    SeeAlso: Std_Edit/de
 ---
@@ -80,7 +80,9 @@ Die im Aufgaben-Bereich verfügbaren Einzelzeichen-Tastaturkürzel können geän
 
 -   Das Kontrollkästchen **Winkel** aktivieren, um den Zeiger auf den angegebenen Winkel festzulegen.
 
--    **G**drücken oder auf das Kontrollkästchen **Global** klicken, um den globalen Modus zu aktivieren. Wenn der globale Modus eingeschaltet ist, sind die Koordinaten relativ zum globalen Koordinatensystem, andernfalls sind sie relativ zum Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+-    **R**drücken oder auf das Kontrollkästchen **Relativ** klicken, um den Relativ-Modus zu aktivieren. Wenn der Relativ-Modus eingeschaltet ist, beziehen sich die Koordinaten des ausgewählten Punktes auf den originalen Punkt, andernfalls auf den Ursprung des Koordinatensystems. {{Version/de|1.0}}
+
+-    **G**drücken oder auf das Kontrollkästchen **Global** klicken, um den Global-Modus zu aktivieren. Wenn der Global-Modus eingeschaltet ist, beziehen sich die Koordinaten auf das globale Koordinatensystem, andernfalls auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md).
 
 -    **S**drücken, um [Draft Fangen](Draft_Snap/de.md) ein- oder auszuschalten.
 
@@ -94,7 +96,7 @@ Die im Aufgaben-Bereich verfügbaren Einzelzeichen-Tastaturkürzel können geän
 
 -   Wenn Anfangs- oder Endknoten einer offenen Polylinie so verschoben werden, dass sie zusammenfallen, wird die Polylinie geschlossen.
 -   Kontextmenü des Knotens: {{Value|Punkt löschen}}. Es müssen mindestens zwei Punkte verbleiben.
--   Kontextmenü der Kante: {{Value|Punkt hinzufügen}}, {{Value|Polylinie öffnen}}/{{Value|Polylinie schließen}} ({{Version/de|0.21}}) und {{Value|Polylinie umkehren}} ({{Version/de|0.20}}).
+-   Kontextmenü der Kante: {{Value|Punkt hinzufügen}}, {{Value|Polylinie öffnen}}/{{Value|Polylinie schließen}} ({{Version/de|0.21}}) und {{Value|Polylinie umkehren}}.
 
 
 
@@ -235,13 +237,13 @@ Die im Aufgaben-Bereich verfügbaren Einzelzeichen-Tastaturkürzel können geän
 Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
 -   Die Farbe der temporären Knoten ist dieselbe wie die Farbe der Einrastsymbole. Diese Farbe kann in den Voreinstellungen geändert werden: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten → Snap symbol color**. Beachte, dass diese Farbe nicht für die temporären Knoten verwendet wird, die für [Draft BezKurven](Draft_BezCurve/de.md) angezeigt werden. Diese Knoten verwenden stattdessen die {{PropertyView/de|Linienfarbe}} der Kurve.
--   Die größe der Knoten hängt von der Voreinstellung unter **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Markergröße** ab. {{Version/de|0.22}}
+-   Die größe der Knoten hängt von der Voreinstellung unter **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Markergröße** ab. {{Version/de|1.0}}
 
 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Es gibt keine Python-Methode, um Draft Bearbeiten auf Objekte anzuwenden. Um die Ergebnisse des Befehls zu emulieren, müssen die geometrische Eigenschaften der Objekte geändert werden.
 

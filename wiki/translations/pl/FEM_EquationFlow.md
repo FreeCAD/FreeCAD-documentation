@@ -10,6 +10,10 @@
 
 # FEM EquationFlow/pl
 
+
+
+## Opis
+
 To równanie analizuje przepływ płynów lepkich przy pomocy [równań Naviera-Stokesa](https://pl.wikipedia.org/wiki/R%C3%B3wnania_Naviera-Stokesa).
 
 Informacje o teorii stojącej za tym równaniem można znaleźć w dokumencie [Elmer models manual](http://www.elmerfem.org/blog/documentation/), w sekcji **Navier-Stokes Equations** *(równania Naviera-Stokesa)*.

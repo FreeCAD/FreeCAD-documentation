@@ -17,7 +17,13 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Фиксирует горизонтальное расстояние между 2 точками или концами отрезка. Если выбрана только одна точка, расстояние устанавливается в точки центра координат эскиза.
+
+
+</div>
 
 ![](images/Constraint_H_Distance.png )
 
@@ -25,14 +31,44 @@
 
 ## Применение
 
-1.  Pick one or two points or one line.
-2.  Invoke the tool several ways:
-    -   Press the **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Constrain horizontal distance](Sketcher_ConstrainDistanceX.md)** button in the toolbar.
-    -   Use the **L** keyboard shortcut.
-    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> Constrain horizontal distance** from the top menu.
-3.  A pop up dialog opens to edit or confirm the value. Press **OK** to validate.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-**Note:** the constraint tool can also be started with no prior selection, but will require selection of two points or one line. To set the distance to the origin, the sketch origin point needs to be selected as well. By default the command will be in continue mode to create new constraints; press the right mouse button or **Esc** once to quit the command.
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
+
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   
+        <small>(v1.0)</small> 
+        
+        : If the **Dimensioning constraints** [preference](Sketcher_Preferences#General.md) is set to {{Value|Single tool}} (default): press the down arrow to the right of the **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button and select the **<img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> Constrain horizontal distance** option from the dropdown.
+
+    -   If this preference has a different value (and in {{VersionMinus|0.21}}): press the **<img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> [Constrain horizontal distance](Sketcher_ConstrainDistanceX.md)** button.
+
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> Constrain horizontal distance** option from the menu.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Dimension → <img src="images/Sketcher_ConstrainDistanceX.svg" width=16px> Constrain horizontal distance** option from the context menu.
+
+    -   Use the keyboard shortcut: **L**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Do one of the following:
+    -   Select two points (one of which can be the origin).
+    -   Select a single line.
+5.  If a [driving dimensional constraint](Sketcher_ToggleDrivingConstraint.md) is created, depending on the [preferences](Sketcher_Preferences#Display.md), a dialog opens to [edit its value](Sketcher_Workbench#Edit_constraints.md).
+6.  A constraint is added.
+7.  Optionally keep creating constraints.
+8.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
+
+### Run-once mode 
+
+1.  Do one of the following:
+    -   Select one or two points.
+    -   Select a single line.
+2.  Invoke the tool as explained above.
+3.  Optionally [edit the constraint value](Sketcher_Workbench#Edit_constraints.md).
+4.  A constraint is added.
 
 
 

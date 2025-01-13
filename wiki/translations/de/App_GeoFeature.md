@@ -3,46 +3,54 @@
 
 <img alt="" src=images/Feature.svg  style="width:32px;">
 
-An [App GeoFeature](App_GeoFeature.md) object, or formally an `App::GeoFeature`, is the base class of most objects that will display geometrical elements in the [3D view](3D_view.md) because it includes a **Placement** property.
+Ein [App-GeoFeature](App_GeoFeature/de.md)-Objekt, oder formal ein `App::GeoFeature`, ist die Basisklasse der meisten Objekte, die geometrische Elemente in der [3D-Ansicht](3D_view/de.md) anzeigen, da es eine {{PropertyData/de|Placement}} enthält.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
-*Simplified diagram of the relationships between the core objects in FreeCAD*
+*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten in FreeCAD*
+
+
 
 ## Anwendung
 
-The [App GeoFeature](App_GeoFeature.md) is an internal object, so it cannot be created from the graphical interface. It is generally not meant to be used directly, rather it can be sub-classed to get a bare-bones object that only has a basic **Placement** property to define its position in the [3D view](3D_view.md).
+Das [App GeoFeature](App_GeoFeature/de.md) ist ein internes Objekt; es kann daher nicht von der grafischen Oberfläche aus erstellt werden. Es ist generell nicht dafür vorgesehen, direkt eingesetzt zu werden, eher zum Ableiten einer Unterklasse für ein nacktes Objekt, das nur eine grundlegende {{PropertyData/de|Placement}} enthält, die seine Position in der [3D-Ansicht](3D_view/de.md) festlegt.
 
-Some of the most important derived objects are the following:
+Einige der wichtigsten abgeleiteten Objekte sind folgende:
 
--   The [Part Feature](Part_Feature.md) class, the parent of most objects with 2D and 3D [topological shapes](Part_TopoShape.md).
--   The [Mesh Feature](Mesh_Feature.md) class, the parent of most objects made from [meshes](Mesh_MeshObject.md), not solids.
--   The [Fem FemMeshObject](FEM_Mesh.md) class, the parent of finite element meshes created with the [FEM Workbench](FEM_Workbench.md).
--   The [Path Feature](Path_Feature.md) class, the parent of paths created with the [Path Workbench](Path_Workbench.md) for use in CNC machining.
--   The [App Part](App_Part.md) class, which defines [Std Parts](Std_Part.md) that can be used as containers of bodies to perform assemblies.
+-   Die Klasse [Part Feature](Part_Feature/de.md) (Part-Formelement), übergeordnete Klasse der meisten Objekte mit 2D- und 3D- [TopoFormen](Part_TopoShape/de.md).
+-   Die Klasse [Mesh Feature](Mesh_Feature/de.md) (Mesh-Formelement), übergeordnete Klasse der meisten von [Netzobjekten](Mesh_MeshObject/de.md) abgeleiteten Objekte; keine Festkörper.
+-   Die Klasse [Fem FemMeshObject](FEM_Mesh/de.md) (FEM-Netzobjekt), übergeordnete Klasse der FEM-Netze, die mit dem Arbeitsbereich [FEM](FEM_Workbench/de.md) erstellt wurden.
+-   Die Klasse [CAM Feature](CAM_Feature/de.md) (CAM-Element), übergeordnete Klasse der Werkzeugbahnen (paths), die mit dem Arbeitsbereich [CAM](CAM_Workbench/de.md) für CNC-Bearbeitungen erstellt wurden.
+-   Die Klasse [App Part](App_Part/de.md) (App-Part), die [Std-Parts](Std_Part/de.md) definiert, die als Behälter von Körpern eingesetzt werden, um Baugruppen zusammenzustellen.
 
-When creating this object in [Python](Python.md), instead of sub-classing `App::GeoFeature`, you should sub-class `App::GeometryPython` because the latter includes a default view provider, and `Proxy` attributes for the object itself, and its view provider. See [Scripting](App_GeoFeature#Scripting.md).
-
-## Properties App GeoFeature 
-
-See [Property](Property.md) for all property types that scripted objects can have.
-
-The [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class) and inherits all its properties. In addition it has a **Placement** property, which controls its position in the [3D view](3D_view.md).
-
-## Properties App GeometryPython 
-
-See [Property](Property.md) for all property types that scripted objects can have.
-
-The [App GeometryPython](App_GeoFeature.md) (`App::GeometryPython` class) is derived from the basic [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` class) and inherits all its properties. It also has several additional properties.
-
-These are the properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
-
-### Data
+Wird dieses Objekt mit [Python](Python/de.md) erstellt, sollte anstatt eine Unterklasse von `App::GeoFeature` abzuleiten, eine Unterklasse von `App::GeometryPython` abgeleitet werden, da letztere einen Standard-Viewprovider enthält sowie `Proxy`-Attribute für das Objekt selbst und seinen Viewprovider. Siehe [Skripten](App_GeoFeature/de#Skripten.md).
 
 
-{{TitleProperty|Base}}
+
+## Eigenschaften eines App-GeoFeature-Objekts 
+
+Siehe [Objekteigenschaften](Property/de.md) für alle Arten von Eigenschaften, die skriptgenerierte Objekte besitzen können.
+
+Das Objekt [App GeoFeature](App_GeoFeature/de.md) (Klasse `App::GeoFeature`) ist von dem grundlegenden [App DocumentObject](App_DocumentObject/de.md) (Klasse `App::DocumentObject`) abgeleitet und erbt alle seine Eigenschaften. Zusätzlich besitzt es eine {{PropertyData/de|Placement}}, die seine Position in der [3D-Ansicht](3D_view/de.md) bestimmt.
+
+
+
+## Eigenschaften eines App-GeometryPython-Objekts 
+
+Siehe [Objekteigenschaften](Property/de.md) für alle Arten von Eigenschaften, die skriptgenerierte Objekte besitzen können.
+
+Das Objekt [App GeometryPython](App_GeoFeature/de.md) (Klasse `App::GeometryPython`) wird von einem [App GeoFeature](App_GeoFeature/de.md) (Klasse `App::GeoFeature`) abgeleitet und erbt alle seine Eigenschaften. Es besitzt einige zusätzliche Eigenschaften.
+
+Diese sind die im [Eigenschafteneditor](Property_editor/de.md) vorhandenen Eigenschaften. Ausgeblendete Eigenschaften können mit dem Befehl **Alle anzeigen** im Kontextmenü des [Eigenschafteneditors](Property_editor/de.md) angezeigt werden.
+
+
+
+### Daten
+
+
+{{TitleProperty|Basis}}
 
 -    **Proxy|PythonObject|Hidden**: a custom class associated with this object.
 
@@ -71,12 +79,14 @@ These are the properties available in the [property editor](Property_editor.md).
 
 -    **Visibility|Bool|Hidden**: whether to display the object or not.
 
-### View
 
 
-{{TitleProperty|Base}}
+### Ansicht
 
--    **Proxy|PythonObject|Hidden**: a custom [viewprovider](Viewprovider.md) class associated with this object.
+
+{{TitleProperty|Basis}}
+
+-    {{PropertyView/de|Proxy|PythonObject|Hidden}}: eine spezielle, mit diesen Objekt vebundene, [Viewprovider](Viewprovider/de.md)-klasse.
 
 
 {{TitleProperty|Display Options}}
@@ -107,16 +117,18 @@ These are the properties available in the [property editor](Property_editor.md).
 
 -    **Selection Style|Enumeration**: see the information in [App FeaturePython](App_FeaturePython.md).
 
-## Scripting
 
 
-**See also:**
+## Skripten
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) and [scripted objects](Scripted_objects.md).
 
-See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
+**Siehe auch:**
 
-A GeoFeature is created with the `addObject()` method of the document. If you would like to create an object with a 2D or 3D [topological shape](Part_TopoShape.md), it may be better to create one of the sub-classes specialized for handling shapes, for example [Part Feature](Part_Feature.md) or [Part Part2DObject](Part_Part2DObject.md).
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) und [Skriptgenerierte Objekte](Scripted_objects/de.md).
+
+Siehe [Part Formelement](Part_Feature/de.md) für allgemeine Informationen zum Hinzufügen von Objekten zu einem Dokument.
+
+Ein GeoFeature wird mit der Methode `addObject()` des Dokuments erstellt. Soll ein Objekt mit einer 2D- oder 3D- [Topoform](Part_TopoShape.md) erstellt werden, ist es vielleicht besser, eine Unterklasse zu erstellen, die auf den Umgang mit Formen spezialisiert ist, z.B. [Part Fomelement](Part_Feature/de.md) oder [Part Part2DObject](Part_Part2DObject/de.md).
 
 
 ```python
@@ -127,7 +139,7 @@ obj = App.ActiveDocument.addObject("App::GeoFeature", "Name")
 obj.Label = "Custom label"
 ```
 
-For [Python](Python.md) subclassing you should create the `App::GeometryPython` object.
+Für die Ableitung von [Python](Python/de.md)-Unterklassen sollte das `App::GeometryPython`-Objekt erstellt werden.
 
 
 ```python

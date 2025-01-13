@@ -15,7 +15,7 @@
 
 ### Значки верстака, используемые в вики 
 
-<img alt="" src=images/Workbench_Arch.svg  style="width:64px;"> <img alt="" src=images/Workbench_Draft.svg  style="width:64px;"> <img alt="" src=images/Workbench_FEM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Inspection.svg  style="width:64px;"> <img alt="" src=images/Workbench_Mesh.svg  style="width:64px;"> <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> <img alt="" src=images/Workbench_Part.svg  style="width:64px;"> <img alt="" src=images/Workbench_PartDesign.svg  style="width:64px;"> <img alt="" src=images/Workbench_Path.svg  style="width:64px;"> <img alt="" src=images/Workbench_Points.svg  style="width:64px;"> <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> <img alt="" src=images/Workbench_Robot.svg  style="width:64px;"> <img alt="" src=images/Workbench_Sketcher.svg  style="width:64px;"> <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> <img alt="" src=images/Workbench_Start.svg  style="width:64px;"> <img alt="" src=images/Workbench_Surface.svg  style="width:64px;"> <img alt="" src=images/Workbench_TechDraw.svg  style="width:64px;"> <img alt="" src=images/Workbench_Test.svg  style="width:64px;"> <img alt="" src=images/Workbench_Web.svg  style="width:64px;">
+<img alt="" src=images/Workbench_Assembly.svg  style="width:64px;"> <img alt="" src=images/Workbench_BIM.svg  style="width:64px;"> <img alt="" src=images/Workbench_CAM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Draft.svg  style="width:64px;"> <img alt="" src=images/Workbench_FEM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Inspection.svg  style="width:64px;"> <img alt="" src=images/Workbench_Material.svg  style="width:64px;"> <img alt="" src=images/Workbench_Mesh.svg  style="width:64px;"> <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> <img alt="" src=images/Workbench_Part.svg  style="width:64px;"> <img alt="" src=images/Workbench_PartDesign.svg  style="width:64px;"> <img alt="" src=images/Workbench_Points.svg  style="width:64px;"> <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> <img alt="" src=images/Workbench_Robot.svg  style="width:64px;"> <img alt="" src=images/Workbench_Sketcher.svg  style="width:64px;"> <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> <img alt="" src=images/Workbench_Surface.svg  style="width:64px;"> <img alt="" src=images/Workbench_TechDraw.svg  style="width:64px;"> <img alt="" src=images/Workbench_Test.svg  style="width:64px;">
 
 
 
@@ -33,11 +33,17 @@
 
 Смотри [Художественное оформление GUI(графического интерфейса)](Artwork_Gui/ru.md).
 
+### From src/Mod/Assembly/ 
 
+See [Artwork Assembly](Artwork_Assembly.md).
 
-### Из папки src/Mod/Arch/ 
+### From src/Mod/BIM/ 
 
-Смотри [Художественное оформление Arch](Artwork_Arch/ru.md).
+See [Artwork BIM](Artwork_BIM.md).
+
+### From src/Mod/CAM/ 
+
+See [Artwork CAM](Artwork_CAM.md).
 
 
 
@@ -95,12 +101,6 @@
 
 
 
-### Из папки src/Mod/Path/ 
-
-Смотри [Художественное оформление Path](Artwork_Path/ru.md).
-
-
-
 ### Из папки src/Mod/Points/ 
 
 Смотри [Художественное оформление Points](Artwork_Points/ru.md).
@@ -131,12 +131,6 @@
 
 
 
-### Из папки src/Mod/Start/ 
-
-Смотри [Художественное оформление Start](Artwork_Start/ru.md).
-
-
-
 ### Из папки src/Mod/Surface/ 
 
 Смотри [Художественное оформление Surface](Artwork_Surface/ru.md).
@@ -158,12 +152,6 @@
 ### Из папки src/Mod/Tux/ 
 
 Смотри [Художественное оформление Tux](Artwork_Tux/ru.md).
-
-
-
-### Из папки src/Mod/Web/ 
-
-Смотри [Художественное оформление Web](Artwork_Web/ru.md).
 
 
 
@@ -194,6 +182,10 @@ See [Artwork Assembly3](Artwork_Assembly3.md).
 ### From Mod/Render/ 
 
 See [Artwork Render](Artwork_Render.md).
+
+### From Mod/SheetMetal/ 
+
+See [Artwork SheetMetal](Artwork_SheetMetal.md).
 
 
 

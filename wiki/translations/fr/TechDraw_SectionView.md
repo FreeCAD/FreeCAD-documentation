@@ -4,7 +4,7 @@
    Name/fr: TechDraw Vue en coupe
    MenuLocation: TechDraw , Vues de Techdraw , Insérer une vue en coupe
    Workbenches: TechDraw_Workbench/fr
-   SeeAlso: TechDraw_ComplexSection/fr, TechDraw_View/fr, TechDraw_ProjectionGroup/fr
+   SeeAlso: TechDraw_ComplexSection/fr, TechDraw_View/fr
 ---
 
 # TechDraw SectionView/fr
@@ -23,31 +23,42 @@ L'image du bas montre le format de flèche ISO.*
 
 ## Utilisation
 
-1.  Sélectionnez une vue de la pièce dans la [vue 3D](3D_view/fr.md) ou la [Vue en arborescence](Tree_view/fr.md).
+1.  Sélectionnez une vue de la pièce dans la [vue 3D](3D_view/fr.md) ou la [vue en arborescence](Tree_view/fr.md).
 2.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_SectionView.svg" width=16px> [Insérer une vue en coupe](TechDraw_SectionView/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_SectionView.svg" width=16px> Insérer une vue en coupe** dans le menu.
+    -   Sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_SectionView.svg" width=16px> Insérer une vue en coupe** du menu.
 3.  Un panneau de tâches s\'ouvre et vous aide à calculer les différentes propriétés. Des valeurs raisonnables pour la direction de la vue sont calculées, mais elles peuvent être modifiées.
 
 ![](images/TechDraw_Section_Taskview.png ) 
-*Boîte de dialogue pour définir la zone de la vue en coupe*
+*Fenêtre de dialogue pour définir la zone de la vue en coupe*
 
 
 
-## Propriétés Vue en coupe 
+## Propriétés
 
-Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+
+Dans les propriétés de **Base View**, vous pouvez modifier l\'apparence de la ligne de la coupe.
+
+Une vue de coupe, en fait un objet {{Incode|TechDraw::DrawViewSection}}, est dérivée d\'une [vue de Part](TechDraw_View/fr#Propriétés_Vue_de_Part.md), objet {{Incode|TechDraw::DrawViewPart}}, et hérite de toutes ses propriétés. Elle possède également les propriétés supplémentaires suivantes :
 
 
 
 ### Données
 
 
+{{TitleProperty|Appearance}}
+
+-    **Section Line Stretch|FloatConstraint**: ajuste la longueur de la ligne de la coupe. {{Value|1.0}} est la longueur normale, {{Value|1.1}} serait 10% plus longue, {{Value|0.9}} serait 10% plus courte. {{Version/fr|1.0}}
+
+
 {{TitleProperty|Cut Operation}}
 
 -    **Fuse Before Cut|Bool**: fusionne les formes sources avant d\'effectuer la coupe de section.
 
--    **Trim After Cut|Bool**: découpe la forme résultante après le découpage de section pour supprimer les morceaux indésirables.
+-    **Trim After Cut|Bool**: découpe la forme résultante après le découpage de section pour supprimer les morceaux indésirables. {{Version/fr|0.21}}
+
+-    **Use Previous Cut|Bool**: permet d\'utiliser la forme découpée dans la vue de base au lieu de l\'objet original. {{Version/fr|1.0}}
 
 
 {{TitleProperty|Cut Surface Format}}
@@ -86,6 +97,10 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 -    **Hatch Scale|Float**: réglage de la taille du motif de hachures.
 
+-    **Hatch Rotation|Float**: rotation du motif de hachure en degrés dans le sens anti-horaire. {{Version/fr|0.21}}
+
+-    **Hatch Offset|Vector|Hidden**: décalage du motif de hachure. {{Version/fr|0.21}}
+
 
 {{TitleProperty|Section}}
 
@@ -120,18 +135,6 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 -    **Hatch Cut Surface|Bool|Hidden**: permet de hachurer la surface de coupe.
 
 -    **Weight Pattern|Float**: poids de ligne du motif de hachures géométriques.
-
-
-
-## Propriétés Vue de base 
-
-Une vue de section hérite de toutes les propriétés applicables de la vue spécifiée comme **BaseView**. Dans les propriétés de cette vue, vous pouvez modifier l\'apparence de la ligne de section :
-
--    **Section Line Color**: couleur de la ligne de section.
-
--    **Section Line Style**: style de la ligne de section.
-
-Les paramètres par défaut de ces paramètres sont définis via les paramètres **Section Line** et **Section Line Style** dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
 
 
@@ -183,7 +186,7 @@ Pour plus d\'informations sur les coupes et certains cas d\'utilisation, consult
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

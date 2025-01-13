@@ -28,7 +28,7 @@ Das Werkzeug **TechDraw AktiveAnsicht** fügt eine Bitmap-Abbildung des aktiven 
 3.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/TechDraw_ActiveView.svg" width=16px> [Aktive (3D-)Ansicht einfügen](TechDraw_ActiveView/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → Views From Other Workbenches → <img src="images/TechDraw_ActiveView.svg" width=16px> Aktive (3D-)Ansicht einfügen** auswählen.
-4.  Wenn sich mehrere Zeichnungsblätter im Dokument befinden und noch kein Blatt ausgewählt wurde, öffnet sich der Dialog **Blattauswahl** {{Version/de|0.20}}:
+4.  Wenn sich mehrere Zeichnungsblätter im Dokument befinden und noch kein Blatt ausgewählt wurde, öffnet sich der Dialog **Blattauswahl**:
     1.  Das gewünschte Zeichnungsblatt auswählen.
     2.  Die Schaltfläche **OK** drücken.
 5.  Der Aufgabenbereich **Aktive Ansicht wird TD-Ansicht** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
@@ -70,7 +70,7 @@ Siehe [TechDraw Bild](TechDraw_Image/de#Eigenschaften.md).
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

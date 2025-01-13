@@ -10,13 +10,15 @@
 
 ## Description
 
-The **[<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Spreadsheet AlignLeft](Spreadsheet_AlignLeft.md)** tool makes the text inside the cell align to the left.
+The <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> **Spreadsheet AlignLeft** tool aligns the contents of selected cells to the left.
 
 ## Usage
 
-1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Select a cell.
-3.  Press the **[<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Spreadsheet AlignLeft](Spreadsheet_AlignLeft.md)** button.
+1.  Make sure there is an active [spreadsheet](Spreadsheet_CreateSheet.md).
+2.  Select one or more cells.
+3.  There are several ways to invoke the tool:
+    -   Press the **[<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Align left](Spreadsheet_AlignLeft.md)** button.
+    -   Select the **Spreadsheet → Alignment → [<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> Align left** option from the menu.
 
 
 

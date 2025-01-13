@@ -119,7 +119,7 @@ Osierocony pakiet to taki, który nie ma aktualnego opiekuna. Osierocone pakiety
 
 CO NAJMNIEJ JEDEN WYMAGANY *(dopuszczalna jest większa liczba)*
 
-Skrócony identyfikator SPDX licencji dla tego pakietu, np. BSD-2-Clause, GPL-3, LGPL-2.1. W celu ułatwienia odczytu maszynowego, należy dołączyć tylko krótki identyfikator SPDX licencji *(patrz [strona SPDX](https://spdx.org/licenses/))*. W przypadku wielu licencji należy użyć wielu oddzielnych znaczników. Pakiet będzie miał wiele licencji, jeśli różne pliki źródłowe mają różne licencje. Każda licencja występująca w plikach źródłowych powinna mieć odpowiedni znacznik . W przypadku tekstu objaśniającego zastrzeżenia licencyjne należy użyć znacznika .
+Skrócony identyfikator SPDX licencji dla tego pakietu, np. BSD-2-Clause, PL-3.0 lub nowszy, LGPL-2.1 lub nowszy. W celu ułatwienia odczytu maszynowego, należy dołączyć tylko krótki identyfikator SPDX licencji *(patrz [strona SPDX](https://spdx.org/licenses/))*. W przypadku wielu licencji należy użyć wielu oddzielnych znaczników. Pakiet będzie miał wiele licencji, jeśli różne pliki źródłowe mają różne licencje. Każda licencja występująca w plikach źródłowych powinna mieć odpowiedni znacznik . W przypadku tekstu objaśniającego zastrzeżenia licencyjne należy użyć znacznika . Aby określić, że nie ma zastosowania żadna licencja *(np. \"Wszystkie prawa zastrzeżone.\")*, należy ustawić tę wartość na \"UNLICENSED\". Aby określić niestandardową licencję bez identyfikatora SPDX, należy ustawić tę wartość na \"SEE LICENSE IN \".
 
 Powszechnie używane ciągi nazw licencji:
 
@@ -154,6 +154,8 @@ Powszechnie używane ciągi nazw licencji:
     
 
 -    `"CC0-1.0"`*(Dedykacja domeny publicznej)*
+
+**Uwaga dotycząca kompatybilności wstecznej**: Menedżer dodatków będzie próbował znormalizować identyfikatory licencji, które nie są dokładnie zgodne z ciągiem licencyjnym SPDX. Czasami będzie to skutkować identyfikatorem licencji, który daje licencję inną niż FSF-Libre lub niezatwierdzoną przez OSI: na przykład \"LGPL2\" zostanie znormalizowana do \"LGPL-2.0\", która jest licencją inną niż FSF-Libre: prawdopodobnie chodziło o \"LGPL-2. lub nowszą\".
 
 
 

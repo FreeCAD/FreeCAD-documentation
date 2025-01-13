@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft OrthoArray
    Name/de: Draft RechtwinkligeAnordnung
-   MenuLocation: Änderung , Anordnungswerkzeuge , Anordnung
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Änderung , Anordnungswerkzeuge , Anordnung<br>Bearbeiten , Anordnung
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Version: 0.19
    SeeAlso: Draft_PolarArray/de, Draft_CircularArray/de, Draft_PathArray/de, Draft_PathLinkArray/de, Draft_PointArray/de, Draft_PointLinkArray/de
 ---
@@ -14,9 +14,9 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Draft RectwinkligeAnordnung** erstellt eine (in 3 Achsen) rechtwinklige Anordnung von einem ausgewählten Objekt. Der Befehl kann wahlweise auch eine Verknüpfungsanordnung ([Link](App_Link/de.md)-Array) erstellen, die effizienter ist, als eine normale Anordnung.
+Der Befehl <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Draft RechtwinkligeAnordnung** erstellt eine (in 3 Achsen) rechtwinklige Anordnung von einem ausgewählten Objekt. Der Befehl kann wahlweise auch eine Verknüpfungsanordnung ([Link](App_Link/de.md)-Array) erstellen, die effizienter ist, als eine normale Anordnung.
 
-Dieser Befehl kann für 2D-Objekte verwendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, aber auch für viele 3D-Objekte, die mit anderen Arbeitsbereichen wie [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erstellt wurden.
+Dieser Befehl kann für 2D-Objekte verwendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, aber auch für viele 3D-Objekte, die mit anderen Arbeitsbereichen wie [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [BIM](BIM_Workbench/de.md) erstellt wurden.
 
 <img alt="" src=images/Draft_Array_example.png  style="width:300px;"> 
 *Rechtwinklige Draft-Anordnung*
@@ -28,7 +28,8 @@ Dieser Befehl kann für 2D-Objekte verwendet werden, die mit den Arbeitsbereiche
 1.  Wahlweise ein Objekt auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_OrthoArray.svg" width=16px> [Anordnung](Draft_OrthoArray.md)** drücken.
-    -   Den Menüeintrag **Änderung → Anordnungswerkzeuge → <img src="images/Draft_OrthoArray.svg" width=16px> Anordnung** wählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Änderung → Anordnungswerkzeuge → <img src="images/Draft_OrthoArray.svg" width=16px> Anordnung** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Bearbeiten → <img src="images/Draft_OrthoArray.svg" width=16px> Anordnung** auswählen.
 3.  Der Aufgabenbereich **Rechtwinklige Anordnung** wird geöffnet. Siehe auch [Optionen](#Optionen.md).
 4.  Ein Objekt auswählen, wenn noch keins ausgewählt wurde.
 5.  Die erforderlichen Parameter im Aufgabenbereich eingeben.
@@ -114,65 +115,65 @@ Die Eigenschaften dieser Gruppe gibt es nur für Vernüpfungsanordnungen (Link-A
 
 Die Eigenschaften dieser Gruppe werden für rechtwinklige und polare Anordnungen verborgen.
 
--    **Number Circles|Integer**: specifies the number of circular layers. Must be at least {{Value|2}}.
+-    **Number Circles|Integer**: legt die Anzahl der umlaufenden Abschnitte fest. Muss mindestens {{Value|2}} sein.
 
--    **Radial Distance|Distance**: specifies the distance between circular layers.
+-    **Radial Distance|Distance**: legt den Abstand zwischen zwei umlaufenden Abschnitten fest.
 
--    **Symmetry|Integer**: specifies the number of symmetry lines. This number changes the distribution of the elements in the array.
+-    **Symmetry|Integer**: legt die Anzahl der Symmetrielinien fest. Diese Zahl ändert die Verteilung der Elemente im Array.
 
--    **Tangential Distance|Distance**: specifies the distance between elements in the same circular layer. Must be larger than zero.
+-    **Tangential Distance|Distance**: Legt den Abstand zwischen Elementen im gleichen umlaufenden Layer fest. Muss größer als Null sein.
 
 
 {{TitleProperty|Objekte}}
 
--    **Array Type|Enumeration**: specifies the type of array, which can be {{value|ortho}}, {{value|polar}} or {{value|circular}}.
+-    {{PropertyData/de|Array Type|Enumeration}}: legt den Typ des Array fest, dieser kann {{value|ortho}}, {{value|polar}} oder {{value|circular}} sein.
 
--    **Axis Reference|LinkGlobal**: specifies the object and edge to be used instead of the **Axis** and **Center** properties. Not used for orthogonal arrays.
+-    {{PropertyData/de|Axis Reference|LinkGlobal}}: legt das Objekt und die Kante fest, die an Stelle der Eigenschaften **Axis** und {{PropertyData/de|Center}} verwendet werden. Wird bei rechtwinkeligen Arrays nicht verwendet.
 
--    **Base|Link**: specifies the object to duplicate in the array.
+-    {{PropertyData/de|Base|Link}}: legt das Objekt fest, welches im Array dupliziert wird.
 
--    **Count|Integer**: (read-only) specifies the total number of elements in the array. {{VersionMinus|0.20}}: Only available for Link arrays.
+-    {{PropertyData/de|Count|Integer}}: (nur lesen) legt die Gesamtzahl der Elemente im Array fest.
 
--    **Expand Array|Bool**: specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
+-    {{PropertyData/de|Expand Array|Bool}}: legt fest, ob es möglich ist das Array in der [Baumansicht](Tree_view/de.md) zu erweitern, sodass die Auswahl von einzelnen Elementen möglich wird. Nur bei verbundenen Arrays möglich.
 
--    **Fuse|Bool**: specifies if overlapping elements in the array are fused or not. Not used for Link arrays.
+-    {{PropertyData/de|Fuse|Bool}}: legt fest, ob einander überschneidende Elemente im Array verschmolzen werden oder nicht. Nicht verwendet bei verbundenen Arrays.
 
 
 {{TitleProperty|Orthogonales Feld}}
 
 Die Eigenschaften dieser Gruppe werden für Kreis-Anordnungen verborgen.
 
--    **Interval X|VectorDistance**: specifies the interval between elements in the X direction.
+-    **Interval X|VectorDistance**: legt das Intervall zwischen Elementen in Richtung X fest.
 
--    **Interval Y|VectorDistance**: specifies the interval between elements in the Y direction.
+-    **Interval Y|VectorDistance**: legt das Intervall zwischen Elementen in Richtung Y fest.
 
--    **Interval Z|VectorDistance**: specifies the interval between elements in the Z direction.
+-    **Interval Z|VectorDistance**: legt das Intervall zwischen Elementen in Richtung Z fest.
 
--    **Number X|Integer**: specifies the number of elements in the X direction. Must be at least {{Value|1}}.
+-    **Number X|Integer**: legt die Anzahl der Elemente in Richtung X fest. Muss mindestens {{Value|1}} sein.
 
--    **Number Y|Integer**: specifies the number of elements in the Y direction. Must be at least {{Value|1}}.
+-    **Number Y|Integer**: legt die Anzahl der Elemente in Richtung Y fest. Muss mindestens {{Value|1}} sein.
 
--    **Number Z|Integer**: specifies the number of elements in the Z direction. Must be at least {{Value|1}}.
+-    **Number Z|Integer**: legt die Anzahl der Elemente in Richtung Z fest. Muss mindestens {{Value|1}} sein.
 
 
 {{TitleProperty|Polares Feld}}
 
 Die Eigenschaften dieser Gruppe werden für Kreis-Anordnungen und rechtwinklige Anordnungen verborgen.
 
--    **Angle|Angle**: specifies the aperture of the circular arc. Use {{value|360&#176;}} for a full circle.
+-    **Angle|Angle**: legt den Öffnungswinkel des umlaufenden Bogens fest. Für einen Vollkreis {{value|360&#176;}} verwenden.
 
--    **Interval Axis|VectorDistance**: specifies the interval between elements in the **Axis** direction.
+-    **Interval Axis|VectorDistance**: legt das Intervall zwischen Elementen in der **Axis** Richtung fest.
 
--    **Number Polar|Integer**: specifies the number of elements in the polar direction.
+-    **Number Polar|Integer**: legt die Anzahl der Elemente in polarer Richtung fest.
 
 
-{{TitleProperty|Polar/circular array}}
+{{TitleProperty|Polares/umlaufendes Array}}
 
 Die Eigenschaften dieser Gruppe werden für rechtwinklige Anordnungen verborgen.
 
--    **Axis|Vector**: specifies the direction of the axis of the array.
+-    **Axis|Vector**: legt die Richtung der Achse des Array fest.
 
--    **Center|VectorDistance**: specifies the center point of the array. The axis of the array passes through this point. For circular arrays it is an offset from the **Placement** of the **Base** object.
+-    **Center|VectorDistance**: legt den Mittelpunkt des Array fest. Die Achse des Array geht durch diesen Punkt. Für umlaufende Arrays ist das der Abstand vom **Placement** des **Base** Objektes.
 
 
 
@@ -195,7 +196,7 @@ Die Eigenschaften dieser Gruppe, mit Ausnahme der ererbten Eigenschaften, stehen
 -    **Point Size|FloatConstraint**
     
 
--    **Selectable|Bool**: this is an inherited property that appears in the Selection group for other arrays
+-    **Selectable|Bool**: das ist eine geerbte Eigenschaft die in der Auswahlgruppe für andere Arrays aufscheint.
 
 -    **Shape Material|Material**
     
@@ -217,7 +218,7 @@ Die Eigenschaften dieser Gruppe, mit Ausnahme der ererbten Eigenschaften, stehen
 -    **Override Material List|BoolList|Hidden**
     
 
--    **Proxy|PythonObject|Hidden**: this is an inherited property.
+-    **Proxy|PythonObject|Hidden**: das ist eine geerbte Eigenschaft.
 
 
 {{TitleProperty|Zeige Auswahlmöglichkeiten}}
@@ -250,7 +251,7 @@ Die Eigenschaften dieser Gruppe werden nicht an Verknüpfungsanordnungen vererbt
 
 ## Skripten
 
-Siehe auch: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 
 
@@ -301,17 +302,17 @@ array = make_rect_array2d(base_object,
                           use_link=True)
 ```
 
--    `base_object`is the object to be arrayed. It can also be the `Label` (string) of an object in the current document.
+-    `base_object`ist das Objekt, aus dem ein Array gemacht werden soll. Es kann auch der `Label` (string) eines Objekts im aktuellen Dokument sein.
 
--    `v_x`, `v_y`, and `v_z` are the vectors between the base points of the elements in the respective directions.
+-    `v_x`, `v_y`, und `v_z`sind die Vektoren zwischen den Basispunkten der Elemente in den jeweiligen Richtungen.
 
--    `d_x`, `d_y`, and `d_z` are the distances between the base points of the elements in the respective directions.
+-    `d_x`, `d_y`, und `d_z`sind die Abstände zwischen den Basispunkten der Elemente in den jeweiligen Richtungen.
 
--    `n_x`, `n_y`, and `n_z` are the numbers of elements in the respective directions.
+-    `n_x`, `n_y`, und `n_z` ist die Anzahl der Elemente in den jeweiligen Richtungen.
 
--   If `use_link` is `True` the created elements are [App Links](App_Link.md) instead of regular copies.
+-   Wenn `use_link` auf `True` ist, dann sind die erzeugten Elemente [App Links](App_Link/de.md) statt richtiger Kopien.
 
--    `array`is returned with the created array object.
+-    `array`wird mir dem erzeugten Array Element zurück gegeben.
 
 Beispiel:
 

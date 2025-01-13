@@ -90,9 +90,9 @@ Tutti gli strumenti dell\'ambiente Mesh sono accessibili dal menu **Meshes**. Qu
 
 -   Esistono alcune [preferenze di esportazione correlate ai formati mesh](Import_Export_Preferences/it#Formati_mesh.md) ma esse non vengono utilizzate dai comandi appartenenti a questo ambiente. Sono utilizzate dal comando [Esporta](Std_Export/it.md).
 
-Le preferenze di Mesh si trovano nelle seguenti categorie dell\'[editor delle preferenze](Preferences_Editor/it.md):
+Le preferenze di Mesh si trovano nei seguenti gruppi nell\'[editor delle preferenze](Preferences_Editor/it.md):
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Visualizzazione](Preferences_Editor/it#Visualizzazione.md): Nella scheda [Visualizzazione mesh](Preferences_Editor/it#Visualizzazione_mesh.md) possono essere impostate diverse preferenze.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Visualizzazione](Preferences_Editor/it#Visualizzazione.md): Nella pagina [Visualizzazione mesh](Preferences_Editor/it#Visualizzazione_mesh.md) possono essere impostate diverse preferenze.
 -   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences/it.md): I comandi [Mesh Unione](Mesh_Union/it.md), [Mesh Intersezione](Mesh_Intersection/it.md) e [Mesh Differenza](Mesh_Difference/it.md) richiedono [OpenSCAD](http://www.openscad.org/) e usano le preferenze **OpenSCAD executable** per trovare il loro eseguibile.
 
 

@@ -1,79 +1,79 @@
 ---
- TutorialInfo:
-   Topic:  Part Scripting - Ball Bearing #2
-   Level:  Beginner
+ TutorialInfo:l
+   Topic:  Skrypty części: Łożysko kulkowe - część 2
+   Level:  Początkujący
    Time:  30 min
    Author: r-frank
    FCVersion: 0.16.6706
-   Files: 
+   Files:  nie dołączono
 }}
 
-### Introduction
+### Wprowadzenie
 
-This tutorial is meant as a beginner\'s introduction to creating parts with python scripts within FreeCAD.
-This tutorial will cover how to build a ball bearing with a workflow that consists of creating sketches and revolving them.
-The code will produce a new FreeCAD document with 12 shapes .
-It will look like this:
+Ten poradnik ma na celu wprowadzenie początkujących użytkowników w tworzenie części za pomocą skryptów Python w programie FreeCAD.
+Ten samouczek będzie omawiał, jak zbudować łożysko kulkowe przy użyciu szkiców i ich wyciągnięcia przez obrót.
+Kod wygeneruje nowy dokument FreeCAD zawierający 12 kształtów **.
+Będzie to wyglądać tak:
 !{width="400"}
 
-### Workflow
+### Przebieg pracy 
 
-The workflow is more or less identical how you would create the part in part design workbench.
-Just some small differences.
-\*Create a new empty document and make it the active document
+Przebieg pracy jest mniej więcej identyczny z tym, jak tworzyłbyś część w środowisku projektowania Część.
+Istnieje tylko kilka drobnych różnic.
+\*Utwórz nowy pusty dokument i ustaw go jako aktywny dokument
 
--   Draw the basic shape of the outer ring consisting of four straight lines and four arcs
+-   Narysuj podstawowy kształt zewnętrznego pierścienia składający się z czterech prostych linii i czterech łuków
 
 !{width="150"}
 
--   Connect the lines and arcs and upgrade them to one single wire
--   Upgrade the wire to a face
--   Revolve the face to get a shape
--   Draw a circle
--   Upgrade circle to wire
--   Upgrade wire to face
--   Revolve face and apply boolean cut to obtain groove in outer ring
--   Draw the basic shape of the inner ring consisting of four straight lines and four arcs
--   Connect the lines and arcs and upgrade them to one single wire
--   Upgrade the wire to a face
--   Revolve the face to get a shape
--   Draw a circle
--   Upgrade circle to wire
--   Upgrade wire to face
--   Revolve face and apply boolean cut to obtain groove in inner ring
--   Insert balls with same workflow as in part 1 
--   Set view to axometric
--   Zoom to fit all
+-   Połącz linie i łuki, a następnie zaktualizuj je do jednego ciągu.
+-   Zaktualizuj ciąg do powierzchni.
+-   Obróć powierzchnię, aby uzyskać kształt.
+-   Narysuj koło.
+-   Zaktualizuj koło do ciągu.
+-   Zaktualizuj ciąg do powierzchni.
+-   Obróć powierzchnię i zastosuj odcięcie funkcją logiczną, aby uzyskać rowek w zewnętrznym pierścieniu.
+-   Narysuj podstawowy kształt wewnętrznego pierścienia składający się z czterech prostych linii i czterech łuków.
+-   Połącz linie i łuki, a następnie zaktualizuj je do jednej polilinii.
+-   Zaktualizuj ciąg do powierzchni.
+-   Obróć powierzchnię, aby uzyskać kształt.
+-   Narysuj koło.
+-   Zaktualizuj koło do ciągu.
+-   Zaktualizuj ciąg do powierzchni.
+-   Obróć powierzchnię i zastosuj odcięcie funkcją logiczną, aby uzyskać rowek wewnętrznym pierścieniu.
+-   Wstaw kule tak samo jak w części 1 **
+-   Ustaw widok na aksometryczny.
+-   Powiększ, aby wszystko zmieściło się na ekranie.
 
-### Making the groove 
+### Tworzenie rowka 
 
-Drawing an arc needs either three points or a start angle and an end angle.
-In the sketcher we would use constraints to define the start point and the end point of the arc.
-Since we can\'t do this in scripting, we draw a rounded rectangle and revolve it to get a basic \"ring shape\".
-Then we draw a circle and revolve it to get the geometry of the groove.
-Then we apply a boolean cut to the two revolved shapes and we have the complete shape of the inner/outer ring.
+Narysowanie łuku wymaga podania trzech punktów lub kąta początkowego i końcowego.
+W narzędziu do rysowania będziemy korzystać z wiązań, aby zdefiniować punkt początkowy i punkt końcowy łuku.
+Ponieważ nie możemy tego zrobić w skrypcie, narysujemy zaokrąglony prostokąt i dokonamy jego obrotu, aby uzyskać podstawowy \"kształt pierścienia\".
+Następnie narysujemy okrąg i dokonamy jego obrotu, aby uzyskać geometrię rowka.
+Następnie zastosujemy odcięcie operacją logiczną do dwóch obrotowych kształtów i uzyskamy kompletny kształt wewnętrznego / zewnętrznego pierścienia.
 
-### Inserting the balls 
+### Wstawianie kul 
 
-The correct sketcher-based workflow of inserting the balls would be:
-\*Draw an arc  with center being identical with the origin and draw a line closing the \"open\" side of the arc
+Prawidłowy sposób wstawiania kul przy użyciu narzędzia do rysowania byłby następujący:
+\*Narysuj łuk ** z ośrodkiem identycznym z początkiem układu współrzędnych i narysuj linię zamykającą \"otwartą\" stronę łuku.
 
--   Convert the two elements to a wire, upgrade to a face, revolve around z-axis to get a ball shape
--   Use \"translate\" command to move the ball into correct position
--   Repeat the above steps nine times involving math function to create and position the other balls
--   This repeat-operation could be programmed with a loop
+-   Przekształć oba elementy w polilinię, podnieś do postaci twarzy, obróć wokół osi z, aby uzyskać kształt kuli.
+-   Użyj polecenia \"przesuń\", aby przenieść kulę w odpowiednie miejsce.
+-   Powtórz powyższe kroki dziewięć razy, wykorzystując funkcję matematyczną do tworzenia i pozycjonowania kolejnych kul.
+-   Tę operację powtarzania można zaprogramować za pomocą pętli.
 
-Now this is not effective, inserting primitives and positioning them is easier and faster in this case.
-So we use the same method as in \"Scripted Parts: Ball Bearing - Part 1\".
+Jednakże ten sposób nie jest efektywny, wstawianie podstawowych kształtów i ich pozycjonowanie jest łatwiejsze i szybsze w tym przypadku.
+Więc używamy tego samego sposobu co w \"Skrypty części: Łożysko kulkowe - część 1\".
 
-### Links
+### Odnośniki internetowe 
 
-Scripted objects: The wiki page explaining the basics of scripting
-Topological data scripting: A tutorial for covering basics of scripting
-Scripted Parts: Ball Bearing - Part 1: Doing it with part primitives
-Bearings from scripted sketches: Base for this tutorial, thanks to JMG \...
+Obiekty tworzone skryptami: Strona Wiki wyjaśniająca podstawy tworzenia skryptów
+Skrypty danych topologicznych: Poradnik odsłaniający podstawy tworzenia skryptów
+Skrypty części: Łożysko kulkowe - część 1: Wykonanie za pomocą szkiców
+Łożyska ze szkiców tworzonych skryptami: Baza dla tego poradnika, podziękowania dla JMG \...
 
-### Code
+### Kod
 
 
 {{Code   code: 

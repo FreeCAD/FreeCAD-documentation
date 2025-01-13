@@ -1,5 +1,8 @@
 # <img alt="OpenSCAD workbench icon" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> OpenSCAD Workbench/tr
 
+
+
+
 ## Introduction
 
 The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) is intended to offer interoperability with the open source software [OpenSCAD](http://www.openscad.org/). This program is not distributed as part of FreeCAD, but should be installed to make full use of this workbench. OpenSCAD should not be confused with [OpenCASCADE](OpenCASCADE.md), which is the geometrical kernel that FreeCAD uses to build geometry on screen. The OpenCASCADE libraries are always needed to use FreeCAD, while the OpenSCAD executable is entirely optional.
@@ -7,9 +10,6 @@ The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCA
 It contains a [CSG](OpenSCAD_CSG.md) importer to open the CSG files from OpenSCAD, and an exporter to output a CSG based tree. Geometry which is not based on CSG operations will be exported as a mesh.
 
 This workbench contains functions to modify the CSG feature tree and repair models. It also contains general purpose tools that do not require installation of OpenSCAD; they can be used in conjunction with other workbenches. For example, the [Mesh Workbench](Mesh_Workbench.md) internally uses the OpenSCAD functions to perform operations with [meshes](mesh.md), as they are quite robust.
-
-
-
 
 ![](images/OpenSCADexamaple1.png )
 
@@ -42,6 +42,8 @@ pip3 install --user ply
 
 The OpenSCAD language allows the use of variables and loops. It allows you to specify sub-modules to reuse geometry and code. This high degree of flexibility makes parsing very complex. Currently the OpenSCAD Workbench cannot handle the OpenSCAD language natively. Instead, if OpenSCAD is installed, it can be used to convert the input to the CSG format, which is a subset of the OpenSCAD language, and can be used as the input to OpenSCAD for further processing. During conversion all parametric behavior is lost, meaning that all variable names are discarded, loops expanded, and mathematical expressions evaluated.
 
+
+
 ## Tools
 
 -   <img alt="" src=images/OpenSCAD_ColorCodeShape.png  style="width:32px;"> [Color Code Shape](OpenSCAD_ColorCodeShape.md): Change the color of selected or all shapes based on their validity.
@@ -60,7 +62,7 @@ The OpenSCAD language allows the use of variables and loops. It allows you to sp
 -   <img alt="" src=images/OpenSCAD_ColorCodeShape.svg  style="width:32px;"> [Color Code Shape](OpenSCAD_ColorCodeShape.md): Change the color of selected or all shapes based on their validity.
 -   <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width:32px;"> [Replace Object](OpenSCAD_ReplaceObject.md): Replace an object in the feature tree.
 -   <img alt="" src=images/OpenSCAD_RemoveSubtree.svg  style="width:32px;"> [Remove Subtree](OpenSCAD_RemoveSubtree.md): Removes the selected objects and all children that are not referenced from other objects.
--   <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:32px;"> [Refine Shape Feature](OpenSCAD_RefineShapeFeature.md): Create Refine Shape Feature.
+-   <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:32px;"> [Refine Shape Feature](OpenSCAD_RefineShapeFeature.md): Cleans unnecessary lines.
 -   <img alt="" src=images/OpenSCAD_MirrorMeshFeature.svg  style="width:32px;"> [Mirror Mesh Feature](OpenSCAD_MirrorMeshFeature.md): Create Mirror Mesh Feature.
 -   <img alt="" src=images/OpenSCAD_ScaleMeshFeature.svg  style="width:32px;"> [Scale Mesh Feature](OpenSCAD_ScaleMeshFeature.md): Scale a Mesh Feature.
 -   <img alt="" src=images/OpenSCAD_ResizeMeshFeature.svg  style="width:32px;"> [Resize Mesh Feature](OpenSCAD_ResizeMeshFeature.md): Resize a Mesh Feature.

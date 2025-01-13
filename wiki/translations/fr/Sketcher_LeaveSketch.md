@@ -3,7 +3,7 @@
    Name: Sketcher LeaveSketch
    Name/fr: Sketcher Quitter l'esquisse
    MenuLocation: Esquisse , Quitter l'esquisse
-   Workbenches: Sketcher_Workbench/fr, PartDesign_Workbench/fr
+   Workbenches: Sketcher_Workbench/fr
    SeeAlso: Sketcher_EditSketch/fr
 ---
 
@@ -11,17 +11,20 @@
 
 ## Description
 
-La commande **Quitter l\'esquisse** quitte le mode d\'édition d\'esquisse et libère le [Panneau des tâches](Task_Panel/fr.md).
+L\'outil <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:16px;"> [Sketcher Quitter l\'esquisse](Sketcher_LeaveSketch/fr.md) met fin au mode d\'édition de l\'esquisse et ferme la [boîte de dialogue de Sketcher](Sketcher_Dialog/fr.md).
 
 
 
 ## Utilisation
 
-Il existe plusieurs façons de lancer cette commande :
-
--   Appuyer sur le bouton **Fermer** en haut du [panneau des tâches](Task_panel/fr.md).
--   Appuyer sur **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Quitter l'esquisse](Sketcher_LeaveSketch/fr.md)**.
--   Sélectionner l\'option **Esquisse → [<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> Quitter l'esquisse** du menu.
+1.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **Fermer** en haut de la boîte de dialogue.
+    -   Si la [préférence](Sketcher_Preferences/fr#Général.md) de **Échap permet de quitter l'esquisse en édition** est sélectionnée (par défaut) : appuyez sur la touche **Échap**.
+    -   Appuyez sur le bouton **<img src="images/Sketcher_LeaveSketch.svg" width=16px> [Quitter l'esquisse](Sketcher_LeaveSketch/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → <img src="images/Sketcher_LeaveSketch.svg" width=16px> Quitter l'esquisse** du menu.
+    -   Cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **<img src="images/Sketcher_LeaveSketch.svg" width=16px> Quitter l'esquisse** dans le menu contextuel.
+    -   Cliquez avec le bouton droit de la souris sur l\'esquisse dans la [vue en arborescence](Tree_view/fr.md) et sélectionnez l\'option **Terminer l'édition** dans le menu contextuel.
+2.  La boîte de dialogue de Sketcher se ferme.
 
 
 

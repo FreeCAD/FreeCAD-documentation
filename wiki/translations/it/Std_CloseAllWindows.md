@@ -29,7 +29,7 @@ Il comando **Chiudi tutto** chiude tutte le finestre, chiudendo così tutti i do
 ## Opzioni
 
 -   Quando viene visualizzata la finestra di dialogo: premere **Esc** o il pulsante **Annulla** per interrompere il comando.
--   Se sono presenti più documenti non salvati: selezionare la casella di controllo {{CheckBox|TRUE|Applica la risposta a tutti}} per evitare che venga richiesto separatamente per ogni documento non salvato.
+-   Se sono presenti più documenti non salvati: selezionare la casella di controllo **Applica la risposta a tutti** per evitare che venga richiesto separatamente per ogni documento non salvato.
 
 
 
@@ -39,26 +39,15 @@ Il comando **Chiudi tutto** chiude tutte le finestre, chiudendo così tutti i do
 
 
 
-## Preferenze
-
--   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
-
-
-
 ## Script
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
-
-Per chiudere un documento usare il metodo `closeDocument` dell\'applicazione FreeCAD. Per un esempio di scripting vedere [Std Nuovo](Std_New/it.md).
+Vedere [Nuovo](Std_New/it#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

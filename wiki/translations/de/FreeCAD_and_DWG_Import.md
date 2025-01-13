@@ -27,7 +27,7 @@ Die passenden [pre-compiled Windows Binär-Dateien](https://github.com/LibreDWG/
 
 
 {{Code|lang=shell|code=
-git clone  --recurse-submodules https://git.savannah.gnu.org/git/libredwg.git
+git clone  --recurse-submodules https://github.com/LibreDWG/libredwg.git
 cd libredwg
 mkdir build
 cd build
@@ -36,7 +36,7 @@ make
 make install # oder verwende checkinstall oder suche und kopiere einfach das dwg2dxf # Hilfsprogramm in den Pfad deiner ausführbaren Dateien, es wird dann automatisch von FreeCAD erkannt
 }}
 
-Die ausführbaren Dateien dem Suchpfad des Betriebssystems hinzufügen {{Incode|os.getenv("PATH")}} für die automatische ermittlung ({{Version/de|0.21}}) oder den Pfad manuell festlegen. Siehe [Import-/Export-Voreinstellungen](Import_Export_Preferences/#DWG.md).
+Die ausführbaren Dateien dem Suchpfad des Betriebssystems hinzufügen {{Incode|os.getenv("PATH")}} für die automatische ermittlung ({{Version/de|0.21}}) oder den Pfad manuell festlegen. Siehe [Import-/Export-Voreinstellungen](Import_Export_Preferences/de#DWG.md).
 
 
 

@@ -199,7 +199,7 @@ The first layer of plastic is often being squashed a little too much, this will 
 
 <img alt="" src=images/TBHS-22.JPG  style="width:800px;">
 
-Tadaa !
+Tadaa!
 
 ## Export as a .STL 
 
@@ -434,7 +434,7 @@ Chamfer = left / Draft = right
 
 <img alt="" src=images/TBHS2-31.JPG  style="width:800px;">
 
-Perfect !
+Perfect!
 
 ## Export as a .STL 
 

@@ -25,32 +25,32 @@ Polecenie **Widok stereo czerwony / cyjan** zmienia aktywny [widok 3D](3D_view/p
 
 ## Ustawienia
 
--   Odległość między oczami można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Odległość między oczami dla trybu stereo**. Zobacz również [Edytor usytawień](Preferences_Editor/pl#Widok_3D.md).
+Zobacz też: [Edytor preferencji](Preferences_Editor/pl.md).
+
+-   Odległość między oczami można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Odległość między oczami dla trybu stereo**.
 
 
 
 ## Tworzenie skryptów 
 
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby zmienić widok na widok stereo czerwony / cyjan, należy użyć metody `setStereoType` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
+Aby zmienić widok na widok stereo czerwony / cyjan, należy użyć metody `setStereoType` obiektu View. Dostępne tryby to `"Anaglyph"`, `"QuadBuffer"`, `"InterleavedRows"`, `"InterleavedColumns"` i `"None"`.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.setStereoType('Anaglyph')
-FreeCADGui.ActiveDocument.ActiveView.getStereoType()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.setStereoType("Anaglyph")
+view.getStereoType()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

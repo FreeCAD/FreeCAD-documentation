@@ -2,10 +2,10 @@
  GuiCommand:
    Name: PartDesign SubShapeBinder
    Name/fr: PartDesign Sous forme liée
-   MenuLocation: PartDesign , Créer une forme liée du sous-objet
+   MenuLocation: PartDesign , Créer une forme liée du/des sous-objet
    Workbenches: PartDesign_Workbench/fr
    Version: 0.19
-   SeeAlso: PartDesign_ShapeBinder/fr, PartDesign_Clone/fr
+   SeeAlso: PartDesign_Clone/fr
 ---
 
 # PartDesign SubShapeBinder/fr
@@ -32,21 +32,21 @@ La géométrie référencée peut être constituée d\'un ou de plusieurs élém
 
 ### Même document 
 
-1.  S\'il y a plusieurs corps dans le document : vous pouvez éventuellement [activer le corps](PartDesign_Body/fr#Statut_actif.md) la Sous forme liée doit être imbriquée dedans.
-2.  Sélectionnez la géométrie requise. Les sous-éléments ne peuvent être sélectionnés que dans la [Vue 3D](3D_view/fr.md).
+1.  S\'il y a plusieurs corps dans le document : vous pouvez [activer le corps](PartDesign_Body/fr#Statut_actif.md) dans lequel la Sous forme liée doit être imbriquée.
+2.  Sélectionnez la géométrie requise. Les sous-éléments ne peuvent être sélectionnés que dans la [vue 3D](3D_view/fr.md).
 3.  Il existe plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/PartDesign_SubShapeBinder.svg" width=16px> [Créer une formée liée du sous-objet(s)](PartDesign_SubShapeBinder/fr.md)**.
-    -   Sélectionnez le bouton **Part Design → <img src="images/PartDesign_SubShapeBinder.svg" width=16px> Créer une formée liée du sous-objet(s)** option du menu.
+    -   Appuyez sur le bouton **<img src="images/PartDesign_SubShapeBinder.svg" width=16px> [Créer une forme liée du/des sous-objet(s)](PartDesign_SubShapeBinder/fr.md)**.
+    -   Sélectionnez l\'option **PartDesign → <img src="images/PartDesign_SubShapeBinder.svg" width=16px> Créer une forme liée du/des sous-objet(s)** du menu.
 4.  La Sous forme liée est créée.
-5.  S\'il n\'y a qu\'un seul corps dans le document, la Sous forme liée est automatiquement ajoutée à celui-ci et le corps est activé. Si c\'est le cas et que la Sous forme liée ne doit pas être imbriquée, il peut être glissé hors du corps et déposé sur le nœud du document <img alt="" src=images/Document.svg  style="width:16px;"> dans la [Vue en arborescence](Tree_view/fr.md).
+5.  S\'il n\'y a qu\'un seul corps dans le document, la Sous forme liée est automatiquement ajoutée à celui-ci et le corps est activé. Si c\'est le cas et que la Sous forme liée ne doit pas être imbriquée, elle peut être glissée hors du corps et déposée sur le nœud du document <img alt="" src=images/Document.svg  style="width:16px;"> dans la [vue en arborescence](Tree_view/fr.md).
 
 
 
 ### Document externe 
 
 1.  Si nécessaire, ouvrez le document source (le document externe) et le document cible. Les deux documents doivent avoir été enregistrés au moins une fois.
-2.  S\'il y a plusieurs corps dans le document cible : activez éventuellement le corps dans lequel la Sous forme liée doit être imbriquée.
-3.  Sélectionnez la géométrie requise dans le document source. Les sous-éléments ne peuvent être sélectionnés que dans la [Vue 3D](3D_view/fr.md).
+2.  S\'il y a plusieurs corps dans le document cible : vous pouvez activer le corps dans lequel la Sous forme liée doit être imbriquée.
+3.  Sélectionnez la géométrie requise dans le document source. Les sous-éléments ne peuvent être sélectionnés que dans la [vue 3D](3D_view/fr.md).
 4.  Passez au document cible en cliquant sur son onglet dans la [zone de vue principale](Main_view_area/fr.md).
 5.  Lancez l\'outil comme décrit ci-dessus.
 
@@ -56,8 +56,8 @@ La géométrie référencée peut être constituée d\'un ou de plusieurs élém
 
 1.  Suivez les instructions décrites dans [Même document](#M.C3.AAme_document.md) ci-dessus mais sans sélectionner de géométrie.
 2.  Une Sous forme liée vide est créée.
-3.  Sélectionnez la géométrie requise. Les sous-éléments ne peuvent être sélectionnés que dans la [Vue 3D](3D_view/fr.md).
-4.  Dans la [Vue en arborescence](Tree_view/fr.md), faites glisser et déposez la sélection sur la Sous forme liée. Si vous avez sélectionné des sous-éléments, leurs objets parents sont mis en surbrillance dans la [Vue en arborescence](Tree_view/fr.md), indiquant les objets à faire glisser.
+3.  Sélectionnez la géométrie requise. Les sous-éléments ne peuvent être sélectionnés que dans la [vue 3D](3D_view/fr.md).
+4.  Dans la [vue en arborescence](Tree_view/fr.md), faites glisser et déposez la sélection sur la Sous forme liée. Si vous avez sélectionné des sous-éléments, leurs objets parents sont mis en surbrillance dans la [vue en arborescence](Tree_view/fr.md), indiquant les objets à faire glisser.
 5.  Vous pouvez ajouter d\'autres éléments géométriques de la même manière.
 6.  Pour remplacer une géométrie déjà référencée, maintenez la touche **Ctrl** enfoncée pendant l\'opération de glisser-déposer.
 
@@ -65,26 +65,16 @@ La géométrie référencée peut être constituée d\'un ou de plusieurs élém
 
 ## Remarques
 
--   Le décalage 2D est pris en charge pour certains types de formes, notamment les faces planes, les arêtes et les fils. Comme le décalage est une opération difficile pour le logiciel, il ne réussit pas toujours. {{Version/fr|0.20}}
+-   Le décalage 2D est pris en charge pour certains types de formes, notamment les faces planes, les arêtes et les fils. Comme le décalage est une opération difficile pour le logiciel, il ne réussit pas toujours.
 -   Une Sous forme liée qui n\'est pas imbriquée dans un corps peut être utilisé comme une [Base Feature](PartDesign_Body/fr#Base_Feature.md) pour un nouveau corps.
 -   La propriété **Support** contient les liens vers la géométrie référencée. Par défaut, cette propriété est en lecture seule, mais elle peut être modifiée en suivant les instructions décrites dans la section [Commencer avec une Sous forme liée vide](#Commencer_avec_une_Sous_forme_li.C3.A9e_vide.md).
--   Une Sous forme liée créée à partir d\'une esquisse peut avoir une \" direction d\'outil \" opposée. Par exemple, une [Protrusion](PartDesign_Pad/fr.md) créée à partir de l\'esquisse peut s\'étendre dans la direction +Y, tandis qu\'une [Protrusion](PartDesign_Pad/fr.md), avec les mêmes propriétés, créée à partir d\'une Sous forme liée s\'étend dans la direction -Y. Le basculement de la propriété **Reversed** (ou de la case à cocher) résoudra ce problème.
+-   Une Sous forme liée créée à partir d\'une esquisse peut avoir une \" direction d\'outil \" opposée. Par exemple, une [protrusion](PartDesign_Pad/fr.md) créée à partir de l\'esquisse peut s\'étendre dans la direction +Y, tandis qu\'une [protrusion](PartDesign_Pad/fr.md), avec les mêmes propriétés, créée à partir d\'une Sous forme liée s\'étend dans la direction -Y. Le basculement de la propriété **Reversed** (ou de la case à cocher) résoudra ce problème.
 
 
 
 ## PartDesign Sous forme liée vs. PartDesign Forme liée 
 
-L\'outil PartDesign Sous forme liée et l\'outil [PartDesign Forme liée](PartDesign_ShapeBinder/fr.md) sont assez similaires. Leurs noms prêtent quelque peu à confusion car ils peuvent tous deux faire référence à des objets entiers et à des sous-éléments.
-
-Les principales différences sont :
-
--   L\'édition d\'une Forme liée de PartDesign est plus facile. Un double-clic sur l\'objet dans l\'arborescence ouvre un panneau de tâches.
--   Une PartDesign Forme liée peut soit faire référence à un seul objet complet, soit des sous-éléments appartenant à un seul objet parent. Une PartDesign Sous forme liée n\'a pas ces restrictions.
--   Seuls les PartDesign Sous formes liées peuvent référencer la géométrie d\'un fichier externe.
--   Une PartDesign Sous forme liée suit toujours le placement relatif de la géométrie référencée. Pour une PartDesign Forme liée, ce comportement est facultatif grâce à sa propriété **Trace Support**.
--   Seules les PartDesign Sous formes liées prennent en charge le décalage 2D.
-
-Tout en gardant à l\'esprit que chacun de ces outils a ses avantages et ses inconvénients et que le choix peut dépendre du cas d\'utilisation, on peut conclure que l\'utilisation d\'une Sous forme liée est actuellement recommandée pour la plupart des applications en raison de sa polyvalence et de sa gamme d\'options. Pour en savoir plus sur ces outils, consultez la vidéo de MangoJelly [FreeCAD For Beginners 34 : Part Design Shape Binder vs Sub Shape Binder](https://www.youtube.com/watch?v=ylAMGQ8HV0w).
+Voir [PartDesign Forme liée](PartDesign_ShapeBinder/fr#PartDesign_Sous_forme_liée_vs._PartDesign_Forme_liée.md).
 
 
 
@@ -101,24 +91,24 @@ Un objet PartDesign Sous forme liée est dérivé d\'un objet [Part Feature](Par
 
 -    **Support|XLinkSubList|hidden**: support de la géométrie.
 
--    **Fuse|Bool**: si `True`, fusion les formes liées solides.
+-    **Fuse|Bool**: si `True`, fusionne les formes liées solides.
 
--    **Make Face|Bool**: si `True`, création d\'une face pour les polylignes liées.
+-    **Make Face|Bool**: si `True`, crée une face pour les polylignes liées.
 
--    **Claim Children|PropertyBool**: si `True`, donnera les objets liés en tant qu\'enfants dans la [vue en arborescence](Tree_view/fr.md).
+-    **Claim Children|PropertyBool**: si `True`, les objets liés seront déclarés en tant qu\'enfants dans la [vue en arborescence](Tree_view/fr.md).
 
--    **Relative|Bool**: si `True`, cela permettra d\'établir des liens relatifs entre les sous-objets.
+-    **Relative|Bool**: si `True`, permet d\'établir des liens relatifs entre les sous-objets.
 
 -    **Bind Mode|Enumeration**: mode de liaison, {{value|Synchronized}}, {{Value|Frozen}}, {{Value|Detached}}.
 
--    **Partial Load|Bool**: si `True`, cela permettra le chargement partiel des objets.
+-    **Partial Load|Bool**: si `True`, permet le chargement partiel des objets.
 
 -    **Context|XLink|hidden**: objet conteneur de cet objet liant.
 
 -    **Bind Copy On Change|Enumeration**
     
 
--    **Refine|Bool**: si `True`, les arêtes redondantes seront supprimées (par exemple après une opération booléenne). {{Version/fr|0.20}}
+-    **Refine|Bool**: si `True`, les arêtes redondantes seront supprimées (par exemple après une opération booléenne).
 
 -    **_ Version|Integer|hidden**: version de ce type d\'objet.
 
@@ -127,26 +117,35 @@ Un objet PartDesign Sous forme liée est dérivé d\'un objet [Part Feature](Par
 
 {{TitleProperty|Cache}}
 
--    **Body|Matrix|hidden**: matrice d\'unité de cet objet.
+-    **Body|Matrix|hidden**: matrice d\'unité (propriété distincte pour chaque objet dans **Support**).
 
 
 {{TitleProperty|Offsetting}}
 
--    **Offset**: Décalage 2D à appliquer. Si Offset = 0, aucun décalage n\'est appliqué. Si Offset \< 0, alors le décalage est appliqué vers l\'intérieur. {{Version/fr|0.20}}
+-    **Offset**: décalage 2D à appliquer. Si Offset = 0, alors aucun décalage n\'est appliqué. Si Offset \< 0, alors le décalage est appliqué vers l\'intérieur.
 
--    **Offset Join Type**: Méthode de jointure permettant de décaler les joints non tangents. La méthode peut être {{Value|Arcs}}, {{Value|Tangente}} ou {{Value|Intersection}}. {{Version/fr|0.20}}
+-    **Offset Join Type**: méthode de jointure permettant de décaler les joints non tangents. La méthode peut être {{Value|Arcs}}, {{Value|Tangente}} ou {{Value|Intersection}}.
 
--    **Offset Fill|Bool**: Si `True`, une face est réalisée entre la nouvelle polyligne et la polyligne d\'origine. Voir aussi la propriété **Make Face**. {{Version/fr|0.20}}
+-    **Offset Fill|Bool**: si `True`, une face est créée entre la nouvelle polyligne et la polyligne d\'origine. Voir aussi la propriété **Make Face**.
 
--    **Offset Open Result|Bool**: Affecte la façon dont les fils ouverts sont traités. Si `False`, une polyligne ouverte est réalisée. Si `True`, une polyligne fermée est créé à partir d\'un décalage de double face, avec des ronds autour des sommets ouverts. {{Version/fr|0.20}}
+-    **Offset Open Result|Bool**: affecte la façon dont les polylignes ouvertes sont traitées. Si `False`, une polyligne ouverte est réalisée. Si `True`, une polyligne fermée est créé à partir d\'un décalage de double face, avec des ronds autour des sommets ouverts.
 
--    **Offset Intersection|Bool**: Affecte la façon dont les composés sont traités. Si `False`, tous les enfants sont traités indépendamment. Si `True`, et que les enfants sont des arêtes et des polylignes, les enfants sont décalés de manière collective. <small>(v0.20)</small> 
+-    **Offset Intersection|Bool**: affecte la façon dont les composés sont traités. Si `False`, tous les enfants sont traités indépendamment. Si `True`, et que les enfants sont des arêtes et des polylignes, les enfants sont décalés de manière collective.
+
+
+
+### Vue
+
+
+{{TitleProperty|Base}}
+
+-    **Use Binder Style|Bool**: si mis à `True`, les couleurs de l\'objet liant dépendent du paramètre **DefaultDatumColor** du [réglage fin](Fine-tuning/fr#Atelier_PartDesign.md). si mis à `False`, les couleurs normales de la forme sont appliquées.
 
 
 
 ## Liens
 
--   [New Sublink Link Feature](https://forum.freecadweb.org/viewtopic.php?t=41450), explication d\'utilisation avec vidéo.
+-   Explication de l\'utilisation avec une vidéo [New Sublink Link Feature](https://forum.freecadweb.org/viewtopic.php?t=41450).
 
 
 

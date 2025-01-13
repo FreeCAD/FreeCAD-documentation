@@ -10,34 +10,43 @@
 
 # Std Undo/pl
 
+
+
 ## Opis
 
 Polecenie **Cofnij** cofa ostatnią czynność
 
+
+
 ## Użycie
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Std_Undo.svg" width=16px> [Cofnij](Std_Undo.md)**.
+    -   Wciśnij przycisk **<img src="images/Std_Undo.svg" width=16px> [Cofnij](Std_Undo/pl.md)**.
     -   Wybierz z menu opcję **Edycja → <img src="images/Std_Undo.svg" width=16px> Cofnij**.
-    -   Użyj skrótu klawiaturowego: **Ctrl** + **Z**.
+    -   Użyj skrótu klawiszowego: **Ctrl** + **Z**.
+
+
 
 ## Opcje
 
--   Aby cofnąć wiele czynności, kliknij na małą czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_Undo.svg" width=16px> [Std Cofnij](Std_Undo.md)** i wybierz odpowiednią pozycję z listy.
+-   Aby cofnąć wiele czynności, kliknij na małą czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_Undo.svg" width=16px> [Std Cofnij](Std_Undo/pl.md)** i wybierz odpowiednią pozycję z listy.
+
+
 
 ## Ustawienia
 
--   Funkcję Cofnij / Ponów można wyłączyć, ustawiając parametr **Przybory → Edycja parametrów... → BaseApp → Preferencje → Dokument → UżywanieUndo** na wartość {{FALSE/pl}}, ale nie jest to zalecane. To ustawienie można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
--   Maksymalna liczba kroków Cofnij / Ponów jest kontrolowana przez parametr **Przybory → Edycja parametrów... → BaseApp → Preferencje → Dokument → MaxUndoSize**. Ustawienie to można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
+Zobacz też: [Edytor preferencji](Preferences_Editor/pl.md).
+
+-   Funkcję Cofnij / Ponów można wyłączyć, odznaczając opcję **Edycja → Preferencje... → Ogólne → Dokument → Używanie Cofnij/Ponów w dokumentach**, ale nie jest to zalecane.
+-   Maksymalna liczba kroków Cofnij / Ponów jest kontrolowana przez opcję **Edycja → Preferencje... → Ogólne → Dokument → Maksymalna liczba kroków Cofnij/Ponów**.
+
+
 
 ## Tworzenie skryptów 
 
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby cofnąć ostatnią czynność, należy użyć metody `undo` obiektu dokumentu.
+Aby cofnąć ostatnią czynność, należy użyć metody `undo` obiektu dokumentu. Dostępny jest też jej odpowiednik w postaci metody `redo`.
 
 
 ```python
@@ -59,7 +68,7 @@ FreeCAD.ActiveDocument.UndoMode = 1
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

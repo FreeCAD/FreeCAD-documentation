@@ -37,22 +37,24 @@ The About tab shows information on the FreeCAD version used, revision number, op
 
 To get troubleshooting information press **Copy to clipboard** button, then paste this information where it is needed.
 
-OS: Ubuntu 18.04.3 LTS (ubuntu:GNOME/ubuntu)
-Word size of OS: 64-bit
-Word size of FreeCAD: 64-bit
-Version: 0.19.18984 (Git)
-Build type: Unknown
-Branch: master
-Hash: c251caa934597d4b32def43ca8ac2ab479931d73
-Python version: 3.6.9
-Qt version: 5.9.5
-Coin version: 4.0.0a
-OCC version: 7.3.0
-Locale: English/UnitedStates (en_US)
+
+{{Code|lang=text|code=
+OS: Windows 11 build 22621
+Word size of FreeCAD: 64-bit
+Version: 0.21.2.33771 (Git)
+Build type: Release
+Branch: releases/FreeCAD-0-21
+Hash: b9bfa5c5507506e4515816414cd27f4851d00489
+Python 3.8.10, Qt 5.15.2, Coin 4.0.1, Vtk 8.2.0, OCC 7.6.3
+Locale: English/United States (en_US)
+Installed mods: 
+  * fasteners 0.5.0
+  * sheetmetal 0.3.16
+}}
 
 ### License
 
-FreeCAD is licensed under the terms of the [GNU Lesser General Public License 2](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL 2). The full text of this license is listed here. See [license](licence.md) for more details.
+FreeCAD is licensed under the terms of the [GNU Lesser General Public License 2](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL 2). The full text of this license is listed here. See [License](License.md) for more details.
 
 ### Credits
 
@@ -69,9 +71,9 @@ The Libraries tab shows a list of the external libraries used by the program, an
 
 
 
-{{Std Base navi}}
+{{Std_Base_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/en
+⏵ [documentation index](../README.md) > [Common_Questions](Category_Common_Questions.md) > Std About/en

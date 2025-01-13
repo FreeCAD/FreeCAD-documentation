@@ -1,4 +1,7 @@
-# <img alt="Ikonka FreeCAD dla środowiska pracy Architektura" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/pl
+# Arch Workbench/pl
+**W wersji v1.0 środowiska pracy BIM, Native-IFC i Architektura zostały połączone w zintegrowane środowisko pracy [BIM](BIM_Workbench/pl.md).**
+
+<img alt="Ikonka FreeCAD dla środowiska pracy Architektura" src=images/Workbench_Arch.svg  style="width:128px;">
 
 
 
@@ -7,7 +10,7 @@
 
 ## Wprowadzenie
 
-Środowisko pracy <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md) zapewnia [modelowanie informacji o budynku](http://en.wikipedia.org/wiki/Building_Information_Modeling) *(BIM)* nowoczesny przepływ pracy programu FreeCAD, z obsługą funkcjonalności takich jak w pełni parametryczne struktury architektoniczne obejmujące: ściany, elementy konstrukcyjne, dachy, okna, schody, rury i meble. Obsługuje on dane [branżowe klasy fundamentów](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) plików *([IFC](Arch_IFC.md))* oraz produkcję rzutów poziomych 2D w połączeniu z Środowiskiem pracy <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md).
+Środowisko pracy <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md) zapewnia nowoczesny przepływ pracy dla FreeCAD [**B**uilding **I**nformation **M**odelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) *(BIM)*, z obsługą funkcji takich jak w pełni parametryczne obiekty architektoniczne, takie jak ściany, belki, dachy, okna, schody, rury i meble. Obsługuje pliki [**I**ndustry **F**oundation **C**lasses](Arch_IFC/pl.md) *(IFC)* oraz tworzenie planów pięter 2D w połączeniu z środowiskiem pracy <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md).
 
 Środowisko pracy Architektura importuje wszystkie narzędzia środowiska <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md), ponieważ używa obiektów 2D do budowy swoich przestrzennych obiektów architektonicznych. Niemniej jednak Arch może używać kształtów brył utworzonych w innych środowiskach pracy, takich jak <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) i <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md).
 
@@ -27,27 +30,27 @@ Są to narzędzia służące do tworzenia obiektów architektonicznych.
 
 -   <img alt="" src=images/Arch_Structure.svg  style="width:32px;"> [Konstrukcja](Arch_Structure/pl.md): Tworzy element konstrukcyjny od podstaw lub używając wybranego obiektu jako podstawy.
 
--   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Narzędzia zbrojenia](Arch_CompRebarStraight/pl.md): Narzędzia te są dostępne tylko wtedy, gdy zainstalowano środowisko pracy [Zbrojenie](Reinforcement_Workbench/pl.md).
+-   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Narzędzia zbrojenia](Arch_CompRebarStraight/pl.md): Narzędzia te, z wyjątkiem ostatniego, są dostępne tylko po zainstalowaniu środowiska pracy [Zbrojenie](Reinforcement_Workbench/pl.md).
 
-  -<img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Pręty zbrojeniowe proste](Arch_Rebar_Straight/pl.md): Tworzy prosty pręt zbrojeniowy w wybranym elemencie konstrukcyjnym.
+  -<img alt="" src=images/Reinforcement_StraightRebar.svg  style="width:32px;"> [Pręty zbrojeniowe proste](Reinforcement_StraightRebar/pl.md): Tworzy prosty pręt zbrojeniowy w wybranym elemencie konstrukcyjnym.
 
--   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [Pręty zbrojeniowe typu U](Arch_Rebar_UShape/pl.md): Tworzy pręt zbrojeniowy w kształcie litery U w wybranym elemencie konstrukcyjnym.
+-   <img alt="" src=images/Reinforcement_UShapeRebar.svg  style="width:32px;"> [Pręty zbrojeniowe typu U](Reinforcement_UShapeRebar/pl.md): Tworzy pręt zbrojeniowy w kształcie litery U w wybranym elemencie konstrukcyjnym.
 
-  - <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [Pręty zbrojeniowe typu L](Arch_Rebar_LShape/pl.md): Tworzy pręt zbrojeniowy w kształcie litery L w wybranym elemencie konstrukcyjnym.
+  - <img alt="" src=images/Reinforcement_LShapeRebar.svg  style="width:32px;"> [Pręty zbrojeniowe typu L](Reinforcement_LShapeRebar/pl.md): Tworzy pręt zbrojeniowy w kształcie litery L w wybranym elemencie konstrukcyjnym.
 
-  - <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Strzemiona zbrojeniowe](Arch_Rebar_Stirrup/pl.md): Tworzy pręt zbrojeniowy strzemion w wybranym elemencie konstrukcyjnym.
+  - <img alt="" src=images/Reinforcement_StirrupRebar.svg  style="width:32px;"> [Strzemiona zbrojeniowe](Reinforcement_StirrupRebar/pl.md): Tworzy pręt zbrojeniowy strzemion w wybranym elemencie konstrukcyjnym.
 
-  - <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Pręty zbrojeniowe wygięte](Arch_Rebar_BentShape/pl.md): Tworzy pręt zbrojeniowy typu wygiętego w wybranym elemencie konstrukcyjnym.
+  - <img alt="" src=images/Reinforcement_BentShapeRebar.svg  style="width:32px;"> [Pręty zbrojeniowe wygięte](Reinforcement_BentShapeRebar/pl.md): Tworzy pręt zbrojeniowy typu wygiętego w wybranym elemencie konstrukcyjnym.
 
-  - <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Pręty zbrojeniowe spiralne](Arch_Rebar_Helical/pl.md): Tworzy spiralny pręt zbrojeniowy w wybranym elemencie konstrukcyjnym.
+  - <img alt="" src=images/Reinforcement_HelicalRebar.svg  style="width:32px;"> [Pręty zbrojeniowe spiralne](Reinforcement_HelicalRebar/pl.md): Tworzy spiralny pręt zbrojeniowy w wybranym elemencie konstrukcyjnym.
 
-  - <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Pręty zbrojeniowe, zbrojenie słupów](Arch_Rebar_ColumnReinforcement/pl.md): Tworzy pręty zbrojeniowe w wybranym elemencie konstrukcyjnym słupa prostokątnego.
+  - <img alt="" src=images/Reinforcement_ColumnRebars.svg  style="width:32px;"> [Pręty zbrojeniowe, zbrojenie słupów](Reinforcement_ColumnRebars/pl.md): Tworzy pręty zbrojeniowe w wybranym elemencie konstrukcyjnym słupa prostokątnego.
 
-  - <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Pręty zbrojeniowe, zbrojenie belek](Arch_Rebar_BeamReinforcement/pl.md): Tworzy pręty zbrojeniowe w wybranym elemencie konstrukcyjnym belki.
+  - <img alt="" src=images/Reinforcement_BeamRebars.svg  style="width:32px;"> [Pręty zbrojeniowe, zbrojenie belek](Reinforcement_BeamRebars/pl.md): Tworzy pręty zbrojeniowe w wybranym elemencie konstrukcyjnym belki.
 
-  - <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Pręty zbrojeniowe, zbrojenie płyt stropowych](Arch_Rebar_Slab_Reinforcement/pl.md): Tworzy pręty zbrojeniowe w wybranym elemencie konstrukcyjnym płyty.
+  - <img alt="" src=images/Reinforcement_SlabRebars.svg  style="width:32px;"> [Pręty zbrojeniowe, zbrojenie płyt stropowych](Reinforcement_SlabRebars/pl.md): Tworzy pręty zbrojeniowe w wybranym elemencie konstrukcyjnym płyty.
 
-  - <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Zbrojenie stóp fundamentowych](Arch_Rebar_Footing_Reinforcement/pl.md): Tworzy pręty zbrojeniowe wewnątrz obiektu konstrukcyjnego ławy fundamentowej.
+  - <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Zbrojenie stóp fundamentowych](Reinforcement_FootingRebars/pl.md): Tworzy pręty zbrojeniowe wewnątrz obiektu konstrukcyjnego ławy fundamentowej.
 
   - <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Pręt zbrojeniowy](Arch_Rebar/pl.md): Tworzy niestandardowy pręt zbrojeniowy w wybranym elemencie konstrukcyjnym za pomocą szkicu.
 
@@ -107,7 +110,7 @@ Są to narzędzia służące do tworzenia obiektów architektonicznych.
 
   - <img alt="" src=images/Arch_SetMaterial.svg  style="width:32px;"> [Materiał](Arch_SetMaterial/pl.md): Tworzy materiał i przypisuje go do wybranych obiektów, jeśli takie istnieją.
 
-  - <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Materiał złożony](Arch_MultiMaterial/pl.md): Tworzy materiał złożony z wielu elementów i przypisuje go do wybranych obiektów, jeśli takie istnieją.
+  - <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Materiał wielowarstwowy](Arch_MultiMaterial/pl.md): Tworzy materiał złożony z wielu elementów i przypisuje go do wybranych obiektów, jeśli takie istnieją.
 
 -   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Obmiar](Arch_Schedule/pl.md): Tworzenie różnych typów obmiaru.
 
@@ -124,6 +127,8 @@ Są to narzędzia służące do tworzenia obiektów architektonicznych.
 Są to narzędzia służące do modyfikowania obiektów architektonicznych.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Płaszczyzna cięcia](Arch_CutPlane/pl.md): Przycina obiekt według płaszczyzny.
+
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Linia cięcia](Arch_CutLine/pl.md): Przycina obiekt zgodnie z linią.
 
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Dodaj komponent](Arch_Add/pl.md): Dodaje obiekty do komponentu.
 
@@ -165,12 +170,6 @@ Są to dodatkowe narzędzia, które pomogą Ci w konkretnych zadaniach.
 
 
 
-## Narzędzia przestarzałe 
-
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Linia cięcia](Arch_CutLine/pl.md): Przycina obiekt zgodnie z linią. Nie dostępne dla {{VersionPlus/pl|0.22}}
-
-
-
 ### Ustawienia
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferences](Arch_Preferences.md): preferencje dotyczące domyślnego wyglądu ścian, konstrukcji, zbrojenia, okien, schodów, paneli, rur, siatek i osi.
@@ -209,4 +208,4 @@ Moduł Arch może być używany w skryptach [Python](Python.md) i [makrodefiniac
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/pl
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Arch Workbench/pl

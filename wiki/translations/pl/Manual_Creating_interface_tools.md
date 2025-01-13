@@ -1,48 +1,56 @@
 # Manual:Creating interface tools/pl
 {{Manual:TOC}}
 
-In the last two chapters, we saw how to [create Part geometry](Manual_Creating_and_manipulating_geometry.md) and [create parametric objects](Manual_Creating_parametric_objects.md). One last piece is missing to gain full control over FreeCAD: Create tools that will interact with the user.
+W ostatnich dwóch rozdziałach zobaczyliśmy, jak [tworzyć geometrię części](Manual:Creating_and_manipulating_geometry/pl.md) i [tworzyć obiekty parametryczne](Manual:Creating_parametric_objects/pl.md). Brakuje jeszcze jednego elementu, aby uzyskać pełną kontrolę nad FreeCAD: Tworzenie narzędzi, które będą współdziałać z użytkownikiem.
 
-In many situations, it is not very user-friendly to construct an object with zero-values, like we did with the rectangle in the previous chapter, and then ask the user to fill in the Height and Width values in the Properties panel. This works for a very small number of objects, but will become very tedious if you have a lot of rectangles to make. A better way would be to be able to already give the Height and Width when creating the rectangle.
+W wielu sytuacjach nie jest bardzo przyjazne dla użytkownika konstruowanie obiektu z zerowymi wartościami, tak jak zrobiliśmy to z prostokątem w poprzednim rozdziale, a następnie prośba o wypełnienie wartości Wysokości i Szerokości w panelu Właściwości. To działa dla bardzo niewielkiej liczby obiektów, ale stanie się bardzo uciążliwe, jeśli trzeba będzie tworzyć wiele prostokątów. Lepszym sposobem byłoby już podanie Wysokości i Szerokości podczas tworzenia prostokąta.
 
-Python offers a basic tool to have the user enter text on screen:
+Python oferuje podstawowe narzędzie do wprowadzania tekstu na ekranie:
 
 text = raw_input("Height of the rectangle?")
 print("The entered height is ",text)
 
-However, this requires a running Python console, and when running our code from a macro, we are not always sure that the Python console will be turned on on the user\'s machine.
+Wymaga to jednak aktywnej konsoli Python, a kiedy uruchamiamy nasz kod z makrodefinicji, nie zawsze mamy pewność, że konsola Python będzie aktywna.
 
-The [Graphical User Interface](https://en.wikipedia.org/wiki/Graphical_user_interface), or GUI, that is, all the part of FreeCAD that is displayed on your screen (the menu, toolbars, 3D view, etc), is all there for that purpose: interact with the user. FreeCAD\'s interface is built with [Qt](https://en.wikipedia.org/wiki/Qt_(software)), a very common open source GUI toolkit that offers a wide range of tools such as dialog boxes, buttons, labels, text input boxes or pull-down menus. These are all generically called \"widgets\".
+[Graficzny interfejs użytkownika](https://pl.wikipedia.org/wiki/Graficzny_interfejs_u%C5%BCytkownika) (GUI) - zawierający menu, widoku 3D i inne wizualne komponenty programu FreeCAD - jest zaprojektowany tak, aby uczynić program intuicyjnym i dostępnym. Stanowi pomost między użytkownikiem i wewnętrznymi funkcjami środowiska FreeCAD, pozwalając na efektywną interakcję z programem zarówno początkującym użytkownikom, jak i ekspertom.
 
-The Qt tools are very easy to use from Python, thanks to a Python module called [Pyside](https://en.wikipedia.org/wiki/PySide) (there are several other Python modules to communicate with Qt from Python too). This module allows you to create and interact with widgets, read what the user did with them (what was filled in text boxes) or do things when, for example, a button was pressed.
+GUI programu FreeCAD jest zbudowane przy pomocy [Qt](https://pl.wikipedia.org/wiki/Qt), potężnego i otwartego zestawu narzędzi GUI, które zapewnia szeroki zakres funkcji. Qt oferuje podstawowe bloki do projektowania interfejsu, takie jak oknia dialogowe, przyciski, etykiety, pola do wprowadzania tekstu i menu rozwijane, zbiorczo nazywane \"widżetami\". Te widżety tworzą podstawę doświadczenia użytkownika programu FreeCAD.
 
-Qt also provides another interesting tool called [Qt Designer](http://doc.qt.io/qt-4.8/designer-manual.html), which is today embedded inside a bigger application called [Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator). It allows to design dialog boxes and interface panels graphically, instead of having to code them manually. In this chapter, we will use Qt Creator to design a panel widget that we will use in the **Task** panel of FreeCAD. So you will need to download and install Qt Creator from its [official page](https://www.qt.io/ide/) if you are on Windows or Mac (on Linux it will usually be available from your software manager application).
+Jedną z kluczowych zalet Qt jest jego międzyplatformowa kompatybilność, umożliwiając bezproblemowe uruchamianie programu FreeCAD na różnych systemach operacyjnych, takich jak Windows, macOS i Linux. Ponadto, elastyczność Qt ułatwia deweloperom rozszerzanie i dostosowywanie interfejsu programu FreeCAD poprzez tworzenie nowych pasków narzędzi i menu lub budowanie całkowicie nowych modułów, które integrują się z programem. Ta adaptacyjność sprawia, że FreeCAD pozostaje przyjazny użytkownikom i znacząco rozszerzalny.
 
-In the following exercise, we will first create a panel with Qt Creator that asks for length, width and height values, then we will create a Python class around it, that will read the values entered by the user from the panel, and create a box with the given dimensions. This Python class will then be used by FreeCAD to display and control the task panel:
+Dla użytkowników zainteresowanych tworzeniem skryptów lub opracowywaniem nowych narzędzi, API Pythona programu FreeCAD również daje dostęp do wielu funkcji Qt. Oznacza to, że możesz nie tylko automatyzować zadania, ale również tworzyć własne widżety lub okna dialogowe, które są integrowane bezpośrednio ze środowiskiem FreeCAD.
+
+Narzędzia Qt są bardzo łatwe do użycia z poziomu Pythona dzięki modułowi Pythona o nazwie [PySide](https://en.wikipedia.org/wiki/PySide). PySide to oficjalny moduł Pythona do biblioteki Qt, zapewniający bezpośredni sposób tworzenia i interakcji z widżetami poprzez programowanie. Pozwala deweloperom projektować interfejsy, zarządzać wprowadzaniem danych przez użytkowników (np. odczytywanie tekstu z pól wejściowych) i definiować akcje w oparciu o interakcje użytkowników, takie jak odpowiadanie na wciśnięcie przycisku. Używając PySide, możesz budować własne okna dialogowe, menu i paski narzędzi bezpośrednio z poziomu programu FreeCAD, rozszerzając jego funkcjonalność w sposób, który integruje się bezpośrednio z jego istniejącym interfejsem.
+
+PySide ułatwia połączenie akcji użytkownika z określonymi funkcjami w kodzie. Przykładowo, możesz ustawić przycisk tak, że gdy jest on wciśnięty, uruchamia skrypt wykonujący polecenie lub modyfikujący obiekt w widoku 3D. Ta interaktywna funkcjonalność otwiera nieograniczone możliwości dostosowywania przepływów pracy i automatyzowania powtarzalnych czynności.
+
+Qt udostępnia również inne interesujące narzędzie o nazwie [Qt Designer](http://doc.qt.io/qt-4.8/designer-manual.html), które jest obecnie wbudowane w większą aplikację o nazwie [Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator). Umożliwia ono graficzne projektowanie okien dialogowych i paneli interfejsu, zamiast konieczności ich ręcznego kodowania. W tym rozdziale użyjemy Qt Creator do zaprojektowania widżetu panelu, którego użyjemy w panelu **Zadanie** programu FreeCAD. Będziesz więc musiał pobrać i zainstalować Qt Creator z [oficjalnej strony QT](https://www.qt.io/ide/), jeśli korzystasz z systemu Windows lub Mac *(w systemie Linux będzie on zwykle dostępny w aplikacji menedżera oprogramowania)*.
+
+W poniższym ćwiczeniu najpierw utworzymy panel za pomocą Qt Creator, który poprosi o podanie wartości długości, szerokości i wysokości, a następnie utworzymy wokół niego klasę Python, która odczyta wartości wprowadzone przez użytkownika z panelu i utworzy pudełko o podanych wymiarach. Ta klasa Python będzie następnie używana przez FreeCAD do wyświetlania i sterowania panelem zadań:
 
 ![](images/Exercise_python_07.jpg )
 
-Let\'s start by creating the widget. Start Qt Creator, then menu **File → New File or Project → Files and Classes → Qt → Qt Designer Form → Dialog without buttons**. Click **Next**, give it a filename to save, click **Next**, leave all project fields to their default value (\"\"), and **Create**. FreeCAD\'s Task system will automatically add OK/Cancel buttons, that\'s why we chose here a dialog without buttons.
+Zacznijmy od stworzenia widżetu. Uruchom Qt Creator, a następnie menu **File → New File or Project → Qt → Qt Designer Form → Dialog without buttons**. Kliknij **Dalej**, nadaj mu nazwę pliku do zapisania, kliknij **Dalej**, pozostaw wszystkie pola projektu do wartości domyślnej *(\"\")* i **Utwórz**. System zadań FreeCAD automatycznie doda przyciski OK / Anuluj, dlatego wybraliśmy tutaj okno dialogowe bez przycisków.
 
 ![](images/Exercise_python_06.jpg )
 
--   Find the **Label** in the list in the left panel, and drag it onto the canvas of our widget. Double-click the recent placed Label, and change its text to **Length**.
--   Right-click the widget canvas, and choose **Lay out → Lay out in a Grid**. This will turn our widget into a grid with currently only one cell, occupied by ourfirst label. We can now add the next items at the left, right, top or bottom of our first label, and the grid will expand automatically.
--   Add two more labels below the first one, and change their text to Width and Height:
+-   Znajdź **Etykietę** na liście w lewym panelu (pod sekcją Display Widgets) i przeciągnij ją na obszar roboczy naszego widżetu. Kliknij dwukrotnie ostatnio umieszczoną etykietę i zmień jej tekst na **Długość**.
+-   Kliknij prawym przyciskiem myszy kanwę widżetu i wybierz **Rozmieść → Rozmieść w siatce**. Spowoduje to przekształcenie naszego widżetu w siatkę z obecnie tylko jedną komórką, zajmowaną przez naszą pierwszą etykietę. Możemy teraz dodać kolejne elementy po lewej, prawej, górnej lub dolnej stronie naszej pierwszej etykiety, a siatka rozszerzy się automatycznie.
+-   Dodaj dwie kolejne etykiety poniżej pierwszej i zmień ich tekst na Width i Height:
 
 ![](images/Exercise_python_08.jpg )
 
--   Now place 3 **Double Spin Box** widgets next to our Length, Width and Height labels. For each of them, in the lower right panel, which shows all the available settings for the selected widget, locate **Suffix** and set their suffix to **mm**. FreeCAD has a more advanced widget, that can handle different units, but that is not available in Qt Creator by default (but can be [compiled](Compile_on_Linux#Qt_designer_plugin.md)), so for now we will use a standard Double Spin Box, and we add the \"mm\" suffix to make sure the user knows in which units they work:
+-   Umieść teraz 3 widżety „Double Spin Box" (pod sekcją Input Widgets) obok naszych etykiet „Długość", „Szerokość" i „Wysokość". Dla każdego z nich, w dolnym prawym panelu, który pokazuje wszystkie dostępne ustawienia dla wybranego widżetu, zlokalizuj „Suffix" i ustaw ich przyrostek na „mm". FreeCAD posiada bardziej zaawansowany widżet, który może obsługiwać różne jednostki, ale nie jest on dostępny w Kreatorze Qt domyślnie *(choć może zostać [skompilowany](Compile_on_Linux/pl#Wtyczka_Qt_designer.md))*, więc na razie skorzystamy z standardowego „Double Spin Box" i dodamy przyrostek „mm", aby upewnić się, że użytkownik wie, w jakich jednostkach pracują:
 
 ![](images/Exercise_python_09.jpg )
 
--   Now our widget is done, we just need to make sure of one last thing. Since FreeCAD will need to access that widget and read the Length, Width and Height values, we need to give proper names to those widgets, so we can easily retrive them from within FreeCAD. Click each of the Double Spin Boxes, and in the upper right window, double-click their Object Name, and change them to something easy to remember, for example: BoxLength, BoxWidth and BoxHeight:
+-   Teraz nasz widżet jest gotowy, musimy tylko upewnić się co do jednej ostatniej rzeczy. Ponieważ FreeCAD będzie musiał uzyskać dostęp do tego widżetu i odczytać wartości długości, szerokości i wysokości, musimy nadać tym widżetom odpowiednie nazwy, abyśmy mogli je łatwo odzyskać z poziomu FreeCAD. Kliknij każde z Double Spin Boxes, a następnie w prawym górnym oknie kliknij dwukrotnie ich Object Name i zmień je na coś łatwego do zapamiętania, na przykład: BoxLength, BoxWidth i BoxHeight:
 
 ![](images/Exercise_python_10.jpg )
 
--   Save the file, you can now close Qt Creator, the rest will be done in Python.
--   Open FreeCAD and create a new macro from menu **Macro → Macros → Create**
--   Paste the following code. Make sure you change the file path to match where you saved the .ui file created in QtCreator:
+-   Zapisz plik, możesz teraz zamknąć Qt Creator, reszta zostanie wykonana w Python.
+-   Otwórz FreeCAD i utwórz nowe makro z menu **Makrodefinicje → Makrodefinicje \... → Utwórz**.
+-   Wklej następujący kod. Upewnij się, że zmieniłeś ścieżkę pliku, aby pasowała do miejsca, w którym zapisałeś plik .ui utworzony w QtCreator:
 
 
 ```python
@@ -72,18 +80,18 @@ panel = BoxTaskPanel()
 FreeCADGui.Control.showDialog(panel)
 ```
 
-In the code above, we used a convenience function (PySideUic.loadUi) from the FreeCADGui module. That function loads a .ui file, creates a Qt Widget from it, and maps names, so we can easily access the subwidget by their names (ex: self.form.BoxLength).
+W powyższym kodzie użyliśmy wygodnej funkcji **PySideUic.loadUi** z modułu **FreeCADGui**. Funkcja ta ładuje plik .ui, tworzy z niego widżet Qt i mapuje nazwy, dzięki czemu możemy łatwo uzyskać dostęp do podwidżetu według ich nazw *(np. self.form.BoxLength)*.
 
-The \"accept\" function is also a convenience offered by Qt. When there is an \"OK\" button in a dialog (which is the case by default when using the FreeCAD Tasks panel), any function named \"accept\" will automatically be executed when the \"OK\" button is pressed. Similarly, you can also add a \"reject\" function which gets executed when the \"Cancel\" button is pressed. In our case, we omitted that function, so pressing \"Cancel\" will do the default behaviour (do nothing and close the dialog).
+Funkcja \"akceptuj\" jest również udogodnieniem oferowanym przez Qt. Gdy w oknie dialogowym znajduje się przycisk \"OK\" *(co ma miejsce domyślnie podczas korzystania z panelu zadań FreeCAD)*, każda funkcja o nazwie \"akceptuj\" zostanie automatycznie wykonana po naciśnięciu przycisku \"OK\". Podobnie, można również dodać funkcję \"odrzuć\", która zostanie wykonana po naciśnięciu przycisku \"Anuluj\". W naszym przypadku pominęliśmy tę funkcję, więc naciśnięcie przycisku \"Anuluj\" spowoduje domyślne zachowanie *(nic nie robi i zamyka okno dialogowe)*.
 
-If we implement any of the accept or reject functions, their default behaviour (do nothing and close) will not occur anymore. So we need to close the Task panel ourselves. This is done with:
+Jeśli zaimplementujemy którąkolwiek z funkcji akceptacji lub odrzucenia, ich domyślne zachowanie *(nic nie rób i zamknij)* nie będzie już występować. Musimy więc sami zamknąć panel zadań. Odbywa się to za pomocą:
 
 
 ```python
 FreeCADGui.Control.closeDialog() 
 ```
 
-Once we have our BoxTaskPanel that has 1- a widget called \"self.form\" and 2- if needed, accept and reject functions, we can open the task panel with it, which is done with these two last lines:
+Gdy mamy już nasz BoxTaskPanel, który ma 1 - widżet o nazwie \"self.form\" i 2 - w razie potrzeby funkcje akceptacji i odrzucenia, możemy otworzyć panel zadań za jego pomocą, co odbywa się za pomocą tych dwóch ostatnich wierszy:
 
 
 ```python
@@ -91,7 +99,7 @@ panel = BoxTaskPanel()
  FreeCADGui.Control.showDialog(panel)
 ```
 
-Note that the widget created by PySideUic.loadUi is not specific to FreeCAD, it is a standard Qt widget which can be used with other Qt tools. For example, we could have shown a separate dialog box with it. Try this in the Python Console of FreeCAD (using the correct path to your .ui file of course):
+Należy pamiętać, że widżet utworzony przez **PySideUic.loadUi** nie jest specyficzny dla FreeCAD, jest to standardowy widżet Qt, który może być używany z innymi narzędziami Qt. Moglibyśmy na przykład wyświetlić za jego pomocą osobne okno dialogowe. Wypróbuj to w konsoli Python FreeCAD *(oczywiście używając poprawnej ścieżki do pliku .ui)*:
 
 
 ```python
@@ -100,25 +108,25 @@ from PySide import QtGui
  w.show()
 ```
 
-Of course we didn\'t add any \"OK\" or \"Cancel\" button to our dialog, since it was made to be used from the FreeCAD Task panel, which already provides such buttons. So there is no way to close the dialog (other than pressing its Window Close button). But the function show() creates a non-modal dialog, which means it doesn\'t block the rest of the interface. So, while our dialog is still open, we can read the values of the fields:
+Oczywiście nie dodaliśmy żadnego przycisku \"OK\" lub \"Anuluj\" do naszego okna dialogowego, ponieważ zostało ono stworzone do użycia z panelu zadań FreeCAD, który już zapewnia takie przyciski. Nie ma więc możliwości zamknięcia okna dialogowego *(poza naciśnięciem przycisku zamykania okna)*. Ale funkcja show() tworzy niemodalne okno dialogowe, co oznacza, że nie blokuje reszty interfejsu. Tak więc, gdy nasze okno dialogowe jest nadal otwarte, możemy odczytać wartości pól:
 
 
 ```python
 w.BoxHeight.value() 
 ```
 
-This is very useful for testing.
+Jest to bardzo przydatne do testowania.
 
-Finally, don\'t forget there is much more documentation about using Qt widgets on the FreeCAD Wiki, in the [Python Scripting](Power_users_hub.md) section, which contains a [dialog creation tutorial](Dialog_creation.md), a special 3-part [PySide tutorial](PySide.md) that covers the subject extensively.
+Wreszcie, nie zapominaj, że istnieje znacznie więcej dokumentacji na temat korzystania z widżetów Qt na FreeCAD Wiki, na stronie [Centrum Power użytkowników](Power_users_hub/pl.md), która zawiera poradnik [Tworzenie dialogu](Dialog_creation/pl.md), specjalny 3-częściowy poradnik [PySide](PySide/pl.md), który obszernie omawia ten temat.
 
-## Relevant Links 
+## Powiązane odnośniki 
 
--   [Qt Creator Documentation](https://en.wikipedia.org/wiki/Qt_Creator)
--   [Installing Qt Creator](https://www.qt.io/ide/)
--   [FreeCAD Python scripting documentation](Power_users_hub.md)
--   [FreeCAD Dialog creation tutorial](Dialog_creation.md)
--   [FreeCAD PySide tutorials](PySide.md)
--   [PySide documentation](http://srinikom.github.io/pyside-docs/index.html)
+-   [Dokumentacja Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator)
+-   [Instalacja Qt Creator](https://www.qt.io/ide/)
+-   [Dokumentacja skryptów FreeCAD Python](Power_users_hub.md)
+-   [Tutorial tworzenia dialogów FreeCAD](Dialog_creation.md)
+-   [Tutoriale FreeCAD PySide](PySide.md)
+-   [http://srinikom.github.io/pyside-docs/index.html Dokumentacja PySide](http://srinikom.github.io/pyside-docs/index.html_Dokumentacja_PySide.md)
 
 
 

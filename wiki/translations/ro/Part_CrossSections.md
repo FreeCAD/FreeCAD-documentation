@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -20,6 +22,8 @@ Utilitarul **Cross-sections** crează una sau mai multe secțiuni transversale p
 
 
 </div>
+
+
 
 ## Cum se folosește 
 
@@ -49,6 +53,8 @@ Utilitarul **Cross-sections** crează una sau mai multe secțiuni transversale p
 
 </div>
 
+
+
 ## Exemplu
 
 ![Select an object](images/SectionCross1.png )
@@ -56,6 +62,14 @@ Utilitarul **Cross-sections** crează una sau mai multe secțiuni transversale p
 ![Dialog window](images/SectionCross2.png )
 
 ![Result](images/SectionCross3.png )
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

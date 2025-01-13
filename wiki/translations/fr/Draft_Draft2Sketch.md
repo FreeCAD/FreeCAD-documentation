@@ -1,16 +1,16 @@
 ---
  GuiCommand:
    Name: Draft Draft2Sketch
-   Name/fr: Draft Draft vers Esquisse
-   MenuLocation: Modification , Draft vers Esquisse
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   Name/fr: Draft Draft <=> Esquisse
+   MenuLocation: Draft/BIM : Modification , Convertir un objet Draft en esquisse et inversement
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
 ---
 
 # Draft Draft2Sketch/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Draft Draft vers Esquisse** convertit les objets [Draft](Draft_Workbench/fr.md) en [Sketcher Esquisses](Sketcher_NewSketch/fr.md) et vice versa.
+La commande <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Draft Draft \<=\> Esquisse** convertit les objets [Draft](Draft_Workbench/fr.md) en [Sketcher Esquisses](Sketcher_NewSketch/fr.md) et inversement.
 
 ![](images/Draft_Draft2Sketch_example.png ) 
 *Conversion d'objets Draft en esquisses de Sketcher*
@@ -19,10 +19,11 @@ La commande <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> 
 
 ## Utilisation
 
-1.  Sélectionnez un ou plusieurs objets Draft ou [Sketcher Esquisses](Sketcher_NewSketch/fr.md).
+1.  Sélectionnez un ou plusieurs objets Draft ou des [Sketcher Esquisses](Sketcher_NewSketch/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Draft2Sketch.svg" width=16px> [Draft vers Esquisse](Draft_Draft2Sketch/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Draft2Sketch.svg" width=16px> Draft vers Esquisse** du menu.
+    -   Appuyez sur le bouton **<img src="images/Draft_Draft2Sketch.svg" width=16px> [Convertir un objet Draft en esquisse et inversement](Draft_Draft2Sketch/fr.md)**.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionnez l\'option **Modification → <img src="images/Draft_Draft2Sketch.svg" width=16px> Convertir un objet Draft en esquisse et inversement** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionnez l\'option **Modification → <img src="images/Draft_Draft2Sketch.svg" width=16px> Convertir un objet Draft en esquisse et inversement** du menu.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [vue 3D](3D_view/fr.md).
 4.  Un nouvel objet est créé.
 

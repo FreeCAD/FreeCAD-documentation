@@ -17,7 +17,14 @@ Instrumentul Simbol inserează un fișier SVG în pagină ca vizualizare
 
 </div>
 
-The **TechDraw Symbol** tool inserts an [SVG](SVG.md) file into the page. This symbol can be anything that helps annotating your drawing, and that doesn\'t need to be further modified.
+The **TechDraw Symbol** tool inserts a Symbol object. A Symbol is a stripped down view that contains only a single [SVG](SVG.md) file complying with the svg-tiny specification (see [TechDraw Templates](TechDraw_Templates#Notes.md)).
+
+A Symbol can be anything that helps annotate a drawing and that doesn\'t need to be further modified, it may however contain [editable texts](Svg_Namespace#freecad_editable.md).
+
+
+<small>(v1.0)</small> 
+
+: The [TechDraw View](TechDraw_View.md) tool can also create a Symbol.
 
 <img alt="" src=images/TechDraw_SymbolSVG_sample.png  style="width:250px;"> 
 *Compass rose added to the drawing page; this symbol is available by installing the "symbols_library" addon with the [Addon Manager](Std_AddonMgr.md)*
@@ -37,15 +44,13 @@ The **TechDraw Symbol** tool inserts an [SVG](SVG.md) file into the page. This s
 </div>
 
 1.  If there are multiple drawing pages in the document: optionally activate the desired page by selecting it in the [Tree view](Tree_view.md).
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_Symbol.svg" width=16px> [Insert SVG Symbol](TechDraw_Symbol.md)** button.
-    -   Select the **TechDraw → TechDraw Views → <img src="images/TechDraw_Symbol.svg" width=16px> Insert SVG Symbol** option from the menu.
-3.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+2.  Select the **TechDraw → TechDraw Views → <img src="images/TechDraw_Symbol.svg" width=16px> Insert SVG Symbol** option from the menu.
+3.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens:
     1.  Select the desired page.
     2.  Press the **OK** button.
-4.  A file dialog opens.
-5.  Select a location and file name.
-6.  The symbol is inserted.
+4.  A file browser opens.
+5.  Select an SVG file.
+6.  A symbol is inserted.
 7.  Optionally change its **Scale** property to adjust its size.
 
 ## Notes
@@ -54,12 +59,20 @@ The **TechDraw Symbol** tool inserts an [SVG](SVG.md) file into the page. This s
 
 ## Properties
 
-See also [TechDraw View](TechDraw_View#Properties.md).
+See also: [Property editor](Property_editor.md).
+
+A Symbol, formally a {{Incode|TechDraw::DrawViewSymbol}} object, has the [properties](TechDraw_View#Properties_Part_View.md) that are common to all View types. It also has the following additional properties:
+
+### Data
 
 
 {{TitleProperty|Drawing view}}
 
--    **Editable Texts**: List of editable texts, if any.
+-    **Symbol|String|Hidden**: The SVG code defining this symbol.
+
+-    **Editable Texts|StringList**: Substitution values for the editable strings in this symbol.
+
+-    **Owner|Link**: Feature to which this symbol is attached. <small>(v1.0)</small> 
 
 
 
@@ -92,7 +105,7 @@ rc = page.addView(sym)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

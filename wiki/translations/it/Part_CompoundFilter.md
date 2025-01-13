@@ -1,41 +1,33 @@
 ---
  GuiCommand:
    Name: Part Compound‏‎Filter
-   Name/it: Filtra composto
-   MenuLocation: Part , Filtra composto
+   Name/it: Part filtra composto
+   MenuLocation: Parte , Composto , Filtra composto
    Workbenches: Part Workbench/it
    Version: 0.17
 ---
 
 # Part CompoundFilter/it
 
-
-</div>
-
 ![](images/CompoundFilter.png )
+
+
 
 ## Descrizione
 
+Il CompoundFilter può essere utilizzato per estrarre i singoli pezzi del risultato, ad es. di un\'operazione [Part Affetta](Part_Slice/it.md), con cui è stato diviso un oggetto.
 
-<div class="mw-translate-fuzzy">
-
-Il CompoundFilter può essere utilizzato per estrarre i singoli pezzi del risultato, ad es. di un\'operazione [Affetta di Part](Part_Slice/it.md), con cui è stato diviso un oggetto.
-
-
-</div>
-
-Può estrarre i figli dai loro indici, testare i figli per le collisioni con la forma dello matrice e filtrare i figli in base alle loro proprietà, come lunghezza, area, volume.
+Può estrarre i figli dai loro indici, testare i figli per le collisioni con la forma della matrice e filtrare i figli in base alle loro proprietà, come lunghezza, area, volume.
 
 Se c\'è un solo figlio nel risultato, l\'output è il figlio. Se è presente più di un figlio, l\'output è un nuovo composto.
 
+
+
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Selezionare l\'oggetto affettato
-2.  Applicare **Menu → Parte → Composto → Filtra composto**
-3.  Selezionare il CompoundFilterObject nell\'albero
+2.  Applicare **Parte → Composto → Filtra composto**
+3.  Selezionare il CompoundFilter Object nell\'albero
 4.  Nella scheda delle proprietà impostare \"Filter Type\" su \"specific items\"
 5.  Impostare le voci per gli elementi che si vuole estrarre
     1.  Per un singolo pezzo questo è un numero che inizia con 0, cioè se si vuole estrarre il primo elemento inserire 0 in questo campo, 1 per il successivo elemento \...
@@ -52,7 +44,6 @@ Se c\'è un solo figlio nel risultato, l\'output è il figlio. Se è presente pi
 7.  Ripetere dall\'inizio la procedura di selezione. La sezione e i suoi sottoelementi sono visualizzati in entrambi i CompoundFilters; naturalmente, non sono ripetuti nel modello. Un modo molto veloce per estrarre un nuovo pezzo è copiare il CompoundFilter. Ma **stare attenti**: viene chiesto se si vuole copiare gli elementi anche sotto il CompoundFilter, al che si deve rispondere con **no**, se non si vuole copiarli, ma fare solo riferimento.
 
 
-</div>
 
 ## Proprietà
 
@@ -60,13 +51,13 @@ Se c\'è un solo figlio nel risultato, l\'output è il figlio. Se è presente pi
 
 -    **Filter Type**opzioni selezionabili:
 
-    -   bypass; senza Filtro. Viene emesso il composto originale, invariato.
-    -   specific items; estrae gli oggetti elencati nella proprietà \"items\"
-    -   collision-pass; estrae i pezzi che si toccano o intersecano con la forma \'Stencil\'.
-    -   window-volume (default); estrae tutti i pezzi che hanno un volume compreso tra \"Window From\" e \"Window To\" dove 100% è il pezzo più grande - e non l\'oggetto non affettato. Il valore di 100% è un valore di riferimento che può essere sovrascritto in \"OverrideMaxVal\".
-    -   window-area; lo stesso di window-volume, ma è l\'area affettata che determina la selezione anziché il volume.
-    -   window-length; lo stesso di window-volume, ma è la lunghezza dei bordi che determina la selezione anziché il volume.
-    -   window-distance; estrae i figli la cui distanza dalla forma \'Stencil\' è all\'interno della finestra dei valori, definita dalle proprietà \"WindowFrom\", \"WindowTo\", \"OverrideMaxVal\".
+    -   bypass: senza Filtro. Viene emesso il composto originale, invariato.
+    -   specific items: estrae gli oggetti elencati nella proprietà \"items\"
+    -   collision-pass: estrae i pezzi che si toccano o intersecano con la forma \'Stencil\'.
+    -   window-volume (default): estrae tutti i pezzi che hanno un volume compreso tra \"Window From\" e \"Window To\" dove 100% è il pezzo più grande - e non l\'oggetto non affettato. Il valore di 100% è un valore di riferimento che può essere sovrascritto in \"OverrideMaxVal\".
+    -   window-area: lo stesso di window-volume, ma è l\'area affettata che determina la selezione anziché il volume.
+    -   window-length: lo stesso di window-volume, ma è la lunghezza dei bordi che determina la selezione anziché il volume.
+    -   window-distance: estrae i figli la cui distanza dalla forma \'Stencil\' è all\'interno della finestra dei valori, definita dalle proprietà \"Window From\", \"Window To\", \"Override Max Val\".
 
 -    **Invert**: Se impostato su true, l\'elenco come sopra descritto è escluso anziché incluso.
 

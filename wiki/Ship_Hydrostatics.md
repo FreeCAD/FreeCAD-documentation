@@ -38,7 +38,7 @@ with $F_\mathrm d$ the drag force, $\rho$ the water density, $u$ the ship veloci
 
 The MCT plays a mayor role in the load condition planning, since it gives information about the effect of displacing any load along the ship. The actual MCT is computed according the transversal gravity center to metacenter distance, GML, obviously requiring the gravity center position. However, as it is a common practice in naval architecture, the distance of such metacenter to the buoyancy center, BML, is considered similar to such GML ($GML / BML \simeq 1$). Please note that is only valid for the longitudinal direction ($GMT / BMT \neq 1$).
 
-Some times the BML is prefered to the MCT. If it is your case, you just need to apply
+Sometimes the BML is preferred to the MCT. If it is your case, you just need to apply
 
 $BML = \dfrac{100 \,\, L \,\, MCT}{\Delta},$
 

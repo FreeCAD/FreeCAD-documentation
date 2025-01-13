@@ -9,7 +9,7 @@ Snäppa innebär att din nästa 3d punkt \"klistras\" på en existerande punkt.
 
 </div>
 
-Snapping is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) commands.
+Snapping is available with most [Draft](Draft_Workbench.md) and [BIM](BIM_Workbench.md) commands.
 
 ![](images/Draft_Snap_Endpoint_example.png )
 

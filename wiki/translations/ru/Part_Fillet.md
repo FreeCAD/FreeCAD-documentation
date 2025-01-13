@@ -40,6 +40,8 @@
 
 ![](images/Dialog-fillet-ru.png )
 
+## Part Fillet VS. PartDesign Fillet 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -49,6 +51,8 @@
 
 
 </div>
+
+## Notes on application of Part Fillet 
 
 
 <div class="mw-translate-fuzzy">
@@ -89,6 +93,11 @@ Part(Деталь) Скругление может ничего не сдела�
 
 
 </div>
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

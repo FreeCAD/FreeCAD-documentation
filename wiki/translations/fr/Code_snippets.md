@@ -300,7 +300,7 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 
 
-### Observer le changement de caméra dans la vue 3D via Python 
+### Observer le changement de la caméra dans la vue 3D via Python 
 
 Cela peut être fait en ajoutant un [capteur Node](https://www.coin3d.org/Coin/html/classSoNodeSensor.html) à la caméra.
 
@@ -1735,7 +1735,7 @@ Gui.ActiveDocument.ActiveView.removeEventCallbackPivy(coin.SoMouseButtonEvent.ge
 
 
 
-### Créer un objet dans la position de la camera 
+### Créer un objet dans la position de la caméra 
 
 
 ```python

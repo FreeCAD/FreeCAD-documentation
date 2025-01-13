@@ -139,10 +139,10 @@ Queste sono le proprietà disponibili nell\'[editor delle proprietà](Property_e
 
 Un documento aperto può contenere più Parti. Ma solo una Parte può essere attiva. Viene visualizzata la parte attiva nella [vista ad albero](Tree_view/it.md) con il colore di sfondo specificato per il **Contenitore attivo**, per impostazione predefinita il colore in [editor delle preferenze](Preferences_Editor/it#Colori.md) è azzurro. Essa sarà anche mostrata con testo in grassetto.
 
-Per attivare o disattivare un Parte:
+Per attivare o disattivare una Parte:
 
 -   Doppio click nella [vista ad albero](Tree_view/it.md), oppure
--   Aprire il menu contestuale (click tasto destro) e selezionare **Attivare la parte**.
+-   Aprire il menu contestuale (click tasto destro) e selezionare **Oggetto attivo**.
 
 ![](images/Std_Part_active.png )
 
@@ -218,10 +218,10 @@ class MyGroup(object):
         if obj:
             self.attach(obj)
 
-    def __getstate__(self):
+    def dumps(self):
         return
 
-    def __setstate__(self, _state):
+    def loads(self, _state):
         return
 
     def attach(self, obj):
@@ -243,21 +243,27 @@ class ViewProviderMyGroup(object):
         vobj.addExtension("Gui::ViewProviderOriginGroupExtensionPython")
         self.ViewObject = vobj
 
-    def __getstate__(self):
+    def dumps(self):
         return None
 
-    def __setstate__(self, _state):
+    def loads(self, _state):
         return None
 
 App.ActiveDocument.addObject("Part::FeaturePython",
                              "Group",
-                             group.MyGroup(),
-                             group.ViewProviderMyGroup(),
+                             MyGroup(),
+                             ViewProviderMyGroup(),
                              True)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std_Base_navi

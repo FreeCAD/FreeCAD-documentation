@@ -1,49 +1,31 @@
 # Macro 3D Parametric Curve/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro 3D Parametric Curve
 |Icon=Macro_3D_Parametric_Curve.png
 |Translate=Macro 3D Parametric Curve
-|Description=Disegna una funzione descritta da una equazione parametrica x(t), y(t) e z(t). Permette di scegliere il tipo di linea tra b-spline e polilinea.
+||Description=Disegna una funzione descritta dalle equazioni parametriche x(t), y(t) ez(t) con la possibilità di scegliere tra B-spline e polilinea per il tipo di linea tra i punti.
 |Author=Lucio Gomez (psicofil)
 |Version=2.0
 |Date=2015-03-06
 |FCVersion=Tutte versione
-|Download=[https://www.freecadweb.org/wiki/images/f/f5/Macro_3D_Parametric_Curve.png Icona per la ToolBar]
+|Download=[https://wiki.freecad.org/images/f/f5/Macro_3D_Parametric_Curve.png Icona per la ToolBar]
 |SeeAlso=[Macro Parametric Curve FP](Macro_Parametric_Curve_FP/it.md) <img src="images/Parametric_Curve_FP.svg" width=24px>
 }}
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-Disegna una funzione descritta da una equazione parametrica x(t), y(t) e z(t). Permette di scegliere il tipo di linea tra b-spline e polilinea.
-
-
-</div>
+Questa macro crea una curva descritta dalle equazioni parametriche x(t), y(t) e z(t), con la possibilità di scegliere tra B-spline e polilinea per il tipo di linea tra i punti.
 
 <img alt="" src=images/ParametricCurve.png  style="width:600px;"> 
 *Esempio di curva epicicloidale‎*
 
-## Original Script 
 
-
-<div class="mw-translate-fuzzy">
 
 ## Script originale 
 
 Il codice aggiornato (13/05/2015) è disponibile nel Github repository: [Get the code here!](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/ParametricCurve.FCMacro)
-
-
-</div>
 
 
 

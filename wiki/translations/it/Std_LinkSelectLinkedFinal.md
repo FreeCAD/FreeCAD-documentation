@@ -33,7 +33,7 @@ Il comando **Vai all\'oggetto collegato più profondo** seleziona l\'**Linked Ob
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

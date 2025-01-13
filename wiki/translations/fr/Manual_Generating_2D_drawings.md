@@ -13,7 +13,7 @@ Les feuilles de dessin, une fois complétées, peuvent être imprimées ou expor
 
 Dans l\'exercice suivant, nous verrons comment créer un dessin simple d\'un modèle de chaise trouvé dans la [bibliothèque FreeCAD](https://github.com/FreeCAD/FreeCAD-library) (Industrial Design → Chairs → IkeaLikeChair). La bibliothèque FreeCAD peut facilement être ajoutée à votre installation FreeCAD (reportez-vous au chapitre de ce [Manuel : Installation](Manual:Installing/fr.md)), ou vous pouvez télécharger simplement le modèle à partir de la page Web de la bibliothèque ou via le lien direct fourni au bas de ce chapitre.
 
-![](images/Exercise_TechDraw_01.svg )
+![](images/Exercise_TechDraw_01.png )
 
 -   Chargez le fichier IkeaLikeChair à partir de la bibliothèque. Vous pouvez choisir entre la version .[FCStd](File_Format_FCStd/fr.md), qui chargera l\'historique de la modélisation complète, ou la version .[step](STEP/fr.md), qui ne créera qu\'un seul Objet, sans l\'historique. Comme nous n\'aurons plus besoin de modéliser maintenant, il est préférable de choisir la version .step, car le fichier sera plus facile à manipuler.
 
@@ -22,17 +22,17 @@ Dans l\'exercice suivant, nous verrons comment créer un dessin simple d\'un mod
 -   Passer à l'<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [atelier TechDraw](TechDraw_Workbench/fr.md)
 -   Appuyez sur le bouton <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:16px;"> [TechDraw Page à partir d\'un modèle](TechDraw_PageTemplate/fr.md).
 -   Sélectionnez le modèle **A4_Portrait_ISO7200TD**. Un nouvel onglet s\'ouvrira dans votre fenêtre FreeCAD montrant la nouvelle page.
--   Dans la [vue en arborescence](tree_view/fr.md) (ou dans l\'onglet modèle), sélectionnez le modèle de chaise. Il sera très probablement nommé quelque chose comme \"Open CASCADE STEP translator.\"
+-   Dans la [vue en arborescence](Tree_view/fr.md) (ou dans l\'onglet modèle), sélectionnez le modèle de chaise. Il sera très probablement nommé quelque chose comme \"Open CASCADE STEP translator.\"
 -   Appuyez sur le bouton <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> [TechDraw Vue](TechDraw_View/fr.md).
 -   Un objet Vue sera créé sur notre page. Sélectionnez l\'objet Vue dans l\'arborescence puis donnez à la vue les [propriétés](TechDraw_View/fr#Vue.md) dans l\'onglet de données de la vue combinée:
     -   Sous la catégorie Base:
         -   X: 70 mm
         -   Y: 120 mm
-        -   Rotation: 0
-        -   Échelle: 0,1
+        -   Rotation : 0
+        -   Échelle : 0,1
     -   Sous la catégorie Projection (appuyez sur la flèche déroulante pour modifier individuellement les composants x, y et z de ces propriétés):
-        -   Direction: \[0 0 1\]
-        -   XDirection: \[0 -1 0\] (changez d\'abord le champ y, puis le champ x)
+        -   Direction : \[0 0 1\]
+        -   XDirection : \[0 -1 0\] (changez d\'abord le champ y, puis le champ x)
 -   Nous avons maintenant une belle vue de dessus de notre chaise. Appuyez sur le bouton <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> [TechDraw Bascule des cadres](TechDraw_ToggleFrame/fr.md) pour désactiver les cadres, étiquettes et sommets de vue.
 
 ![](images/Exercise_drawing_02.jpg )
@@ -62,15 +62,15 @@ Nous allons maintenant placer des dimensions et des indications sur notre dessin
 
 ![](images/Exercise_TechDraw_07.png )
 
--   Nous allons maintenant placer les deux légendes illustrées dans l\'image ci-dessus en utilisant l\'outil <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [TechDraw Bulles](TechDraw_Balloon/fr.md).
+-   Nous allons maintenant placer les deux légendes de l\'image ci-dessus, en utilisant l\'outil <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [TechDraw Infobulle](TechDraw_Balloon/fr.md).
 
 ![](images/Exercise_TechDraw_06.png )
 
-1.  En regardant la page dans la [Vue 3D](3D_view/fr.md), sélectionnez la vue à laquelle le ballon sera attaché comme indiqué dans l\'image ci-dessus.
-2.  Appuyez sur le bouton <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> Bulle.
-3.  Le curseur est maintenant affiché sous forme d\'icône de bulle. Cliquez sur la page pour placer l\'origine de la bulle à la position souhaitée.
-4.  La bulle peut être déplacée vers la position souhaitée.
-5.  Modifiez les propriétés de la bulle en double-cliquant sur l\'étiquette de la bulle ou sur l\'objet de la bulle dans la [Vue en arborescence](Tree_view/fr.md). Cela ouvrira la boîte de dialogue de la bulle. Définissez le champ Valeur sur le texte souhaité et modifiez la sélection du menu déroulant Symbole sur **None** (aucun).
+1.  En regardant la page dans la [vue 3D](3D_view/fr.md), sélectionnez la vue à laquelle le ballon sera attaché comme indiqué dans l\'image ci-dessus.
+2.  Appuyez sur le bouton <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> Infobulle.
+3.  Le curseur est maintenant affiché sous forme d\'icône de l\'infobulle. Cliquez sur la page pour placer l\'origine de l\'infobulle à la position souhaitée.
+4.  L\'infobulle peut être déplacée vers la position souhaitée.
+5.  Modifiez les propriétés de l\'infobulle en double-cliquant sur l\'étiquette de l\'infobulle ou sur l\'objet de l\'infobulle dans la [vue en arborescence](Tree_view/fr.md). Cela ouvrira la boîte de dialogue de l\'infobulle. Définissez le champ Valeur sur le texte souhaité et modifiez la sélection du menu déroulant Symbole sur **Aucun**.
 6.  Appuyez sur **OK**.
 7.  Répétez l\'opération pour la deuxième légende.
 

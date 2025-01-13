@@ -1,5 +1,5 @@
 # Category:Arch/id
-Pages relating to Architectural and Building Information Management
+This category is for pages related to the [Arch_Workbench/id](Arch_Workbench/id.md).
 
 ### Contents
 

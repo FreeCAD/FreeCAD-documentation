@@ -5,7 +5,7 @@
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20
-   SeeAlso: TechDraw_ExtensionInsertSquare
+   SeeAlso: TechDraw_ExtensionInsertSquare, TechDraw_ExtensionInsertRepetition
 ---
 
 # TechDraw ExtensionInsertDiameter/en

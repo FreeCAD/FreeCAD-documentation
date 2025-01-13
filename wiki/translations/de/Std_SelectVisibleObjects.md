@@ -8,9 +8,13 @@
 
 # Std SelectVisibleObjects/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std SichtbareObjekteAuswählen** wählt alle sichtbaren Objekte aus. Man beachte, dass für jeden [PartDesign Körper](PartDesign_Body/de.md) normalerweise zwei Objekte ausgewählt werden: Der Körper selbst und sein {{PropertyData/de|Tip}}-Objekt.
+
+
 
 ## Anwendung
 
@@ -20,7 +24,7 @@ Der Befehl **Std SichtbareObjekteAuswählen** wählt alle sichtbaren Objekte aus
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

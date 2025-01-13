@@ -27,7 +27,7 @@ Attualmente il comando punta a [<https://wiki.freecad.org/Donate>](https://wiki.
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Offset
    Name/de: Draft Versatz
-   MenuLocation: Änderung , Versatz
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Änderung , Versatz<br>Bearbeiten , Versatz
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **O** **S**
    SeeAlso: Part_Offset2D/de
 ---
@@ -28,7 +28,8 @@ Siehe auch: [Draft Einrasten](Draft_Snap/de.md) und [Draft Beschränken](Draft_C
 1.  Wahlweise ein Objekt auswählen. Das Objekt muß auf der aktuellen [Draft Arbeitsebene](Draft_SelectPlane/de.md) liegen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_Offset.svg" width=16px> [Versetzen](Draft_Offset/de.md)** drücken.
-    -   Den Menüeintrag **Änderung → <img src="images/Draft_Offset.svg" width=16px> Versetzen** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Änderung → <img src="images/Draft_Offset.svg" width=16px> Versetzen** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Bearbeiten → <img src="images/Draft_Offset.svg" width=16px> Versetzen** auswählen.
     -   Das Tastaturkürzel **O** dann **S**.
 3.  Wurde noch kein Objekt ausgewählt: Ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
 4.  Der Aufgaben-Bereich **Versatz** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informtionen.
@@ -44,7 +45,7 @@ Siehe auch: [Draft Einrasten](Draft_Snap/de.md) und [Draft Beschränken](Draft_C
 
 ## Optionen
 
-Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 1.0).
 
 -   Ist die Checkbox **OCC-style offset** aktiviert, wird ein besonderer Versatzstil verwendet: Offene [Draft Polylinien](Draft_Wire/de.md) werden zu beiden Seiten versetzt und die neuen Kanten werden mit gerundeten Ecken verbunden. Dies funktioniert nur mit ebenen Objekten mit mindestens zwei Kanten. Dabei ist zu beachten, dass mit diesem Stil ein neues nicht parametrisches Objekt erstellt wird und, wenn der Modus Kopieren deaktiviert ist, das Originalobjekt entfernt wird.
 
@@ -69,7 +70,7 @@ Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geänd
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Zum Versetzen von Objekten wird die Methode `offset` des Draft-Moduls verwendet. Die Methode kann nur [Draft Wires](Draft_Wire/de.md), [Draft Circles](Draft_Circle/de.md), [Draft Rectangles](Draft_Rectangle/de.md), [Draft Polygons](Draft_Polygon/de.md) und [Draft BSplines](Draft_BSpline/de.md) verarbeiten.
 

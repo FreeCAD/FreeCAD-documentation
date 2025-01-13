@@ -1,7 +1,7 @@
 # Expressions/pt-br
 ## Visão geral 
 
-It is possible to define properties using mathematical expressions. In the GUI, spin boxes or input fields that are bound to properties contain a blue icon <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Clicking on the icon or typing the equal sign **&#61;** brings up the expression editor for that particular property.
+It is possible to define properties using mathematical expressions. In the GUI, spin boxes or input fields that are bound to properties show a blue icon <img alt="" src=images/Bound-expression.svg  style="width:16px;"> when activated. Clicking on the icon or typing the equal sign **&#61;** opens the expression editor for that particular property. If the input field shows a **...** button instead of an icon, the expression editor can be opened by right-clicking the property and selecting **Expression...** from the context menu.
 
 A FreeCAD expression is a mathematical expression using the standard mathematical [operators](#Supported_operators.md), [functions](#Supported_functions.md) and [predefined constants](#Supported_constants.md) as described below. In addition, the expression may reference object properties, and also use [conditionals](#Conditional_expressions.md). Numbers in an expression may have an optional [unit](#Units.md) attached to them.
 
@@ -384,7 +384,7 @@ The following objects may be created in expressions using the following function
 
 ### Vector functions 
 
-Functions: <small>(v0.22)</small> .
+Functions: <small>(v1.0)</small> .
 
 +++
 | Function / Operator                 | Description                                                                                                                                                                         |
@@ -525,6 +525,8 @@ and `Placement` can each be represented by a `Matrix`. The following functions a
 
 Conditional expressions are of the form `condition ? resultTrue : resultFalse`. The condition is defined as an expression that evaluates to either `0` (false) or non-zero (true).
 
+Note that to use a boolean property as the condition this syntax must be used: `VarSet.MyBool &#61;&#61; 1 ? 10 mm : 15 mm`.
+
 The following [relational operators](https://en.wikipedia.org/wiki/Relational_operator#Standard_relational_operators) are defined:
 
   Unit      Description
@@ -567,10 +569,10 @@ The following units are recognized by the expression parser:
   deg    [Degree](https://en.wikipedia.org/wiki/Degree_(angle)); alternative to the unit °
   rad    [Radian](https://en.wikipedia.org/wiki/Radian)
   gon    [Gradian](https://en.wikipedia.org/wiki/Gon_(unit))
-  S      [Second of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit ″
-  ″      [Second of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit S
   M      [Minute of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit ′
-  ′      [Minute of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit M
+  ′      [Minute of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); this is the prime symbol (U+2032); alternative to the unit M
+  S      [Second of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); **DOES NOT WORK**; alternative to the unit ″
+  ″      [Second of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); this is the double prime symbol (U+2033); alternative to the unit S
 
 ### Current
 
@@ -939,7 +941,33 @@ Of course, it\'s up to you to load the corresponding documents later when you wa
 ## Known issues / remaining tasks 
 
 -   FreeCAD does not yet have a built-in expression manager where all expressions in a document are listed, and can be created, deleted, queried, etc. But an addon is available: [fcxref expression manager](https://github.com/gbroques/fcxref).
--   Open bugs/tickets for Expressions can be found on [GitHub](https://github.com/FreeCAD/FreeCAD/issues?q=is%3Aissue+is%3Aopen+label%3AExpressions).
+-   Open bugs/tickets for Expressions can be found on [GitHub](https://github.com/FreeCAD/FreeCAD/labels/Topic%3A%20Expressions).
+
+
+{{Top}}
+
+## Scripting
+
+
+```python
+import FreeCAD as App
+
+doc = App.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+cyl = doc.addObject("Part::Cylinder", "Cylinder")
+cyl_name = cyl.Name
+
+box.setExpression("Height", f"{cyl_name}.Height / 2")
+box.setExpression("Length", f"{cyl_name}.Radius * 2")
+box.setExpression("Width", "Length")
+
+doc.recompute()
+
+# Expressions are stored in the ExpressionEngine property:
+for prop, exp in box.ExpressionEngine:
+    val = getattr(box, prop)
+    print(f"Property: '{prop}' -- Expression: '{exp}' -- Current value: {val}")
+```
 
 
 {{Top}}

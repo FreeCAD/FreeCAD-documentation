@@ -14,6 +14,21 @@ La barra di stato mostra anche l\'ultimo oggetto preselezionato (qualsiasi ogget
 ![](images/FreeCAD_Status_bar_selected.png )
 
 
+
+## Misura rapida 
+
+
+{{Version/it|1.0}}
+
+La funzione Misura rapida utilizza il lato destro della barra di stato per mostrare le misurazioni in base alla selezione nella vista 3D:
+
+-   Lunghezza del bordo
+-   Area della faccia
+-   Distanza tra punti, bordi o facce
+-   Angolo tra i bordi
+-   Raggio di bordi circolari o di facce cilindriche
+
+
 {{Interface navi
 
 }}

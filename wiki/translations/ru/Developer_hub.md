@@ -16,17 +16,23 @@
 
 ### Компиляция FreeCAD 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Github репозиторий](https://github.com/FreeCAD/FreeCAD). Если вы новичок, в git изучите [управление исходным кодом](Source_code_management/ru.md)
 -   [Компиляция с Docker](Compile_on_Docker/ru.md)
 -   [Компиляция в Windows](Compile_on_Windows/ru.md)
 -   [Компиляция в Linux](Compile_on_Linux/ru.md)
 -   [Компиляция в MacOS](Compile_on_MacOS/ru.md)
--   [Детали лицензий](Licence/ru.md) про FreeCAD лицензии
+-   [Детали лицензий](License/ru.md) про FreeCAD лицензии
 -   [Сторонние Библиотеки](Third_Party_Libraries/ru.md)
 -   [Сторонние Инструменты](Third_Party_Tools/ru.md)
 -   [Запуск и Конфигурирование](Start_up_and_Configuration/ru.md)
 -   [Документирование исходников](Source_documentation/ru.md)
 -   Используйте [Систему отслеживания Багов](Tracker/ru.md) когда у вас есть проблема или вы думаете, что, возможно, нашли ошибку
+
+
+</div>
 
 
 

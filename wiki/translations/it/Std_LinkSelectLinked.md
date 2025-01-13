@@ -33,7 +33,7 @@ Il comando **Vai all\'oggetto collegato** seleziona il **Linked Object**, l\'ogg
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

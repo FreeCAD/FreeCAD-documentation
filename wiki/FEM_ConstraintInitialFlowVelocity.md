@@ -1,9 +1,14 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand
    Name: FEM ConstraintInitialFlowVelocity
    MenuLocation: Model , Fluid boundary conditions , Initial flow velocity condition
    Workbenches: FEM_Workbench
    SeeAlso: FEM_ConstraintFlowVelocity, FEM_ConstraintInitialPressure
+}}
+{{GuiCommandFemInfo
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintInitialFlowVelocity

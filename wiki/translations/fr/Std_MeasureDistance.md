@@ -4,7 +4,7 @@
    Name/fr: Std Mesurer une distance
    MenuLocation: Outils , Mesurer une distance‏‎
    Workbenches: Tous
-   SeeAlso: Part_Measure_Linear/fr, Draft_Dimension/fr
+   SeeAlso: Std_Measure/fr, Draft_Dimension/fr
 ---
 
 # Std MeasureDistance/fr
@@ -72,7 +72,7 @@ La commande **Std Mesurer une distance** crée un objet distance qui mesure et a
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

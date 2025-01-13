@@ -32,7 +32,7 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|term=Arch|content=[Arch](Arch_Workbench/it.md)}}
 
 
-{{defn|defn=Abbreviazione di [Architectural Workbench](#Workbench.md) un ambiente di lavoro utilizzato principalmente per la modellazione di edifici e di strutture. Strettamente correlato all'ambiente [Draft](#Draft.md).}}
+{{defn|defn=Un'abbreviazione per il vecchio [workbench](#Workbench/it.md) architettonico. Questo ambiente di lavoro è stato sostituito dall'[Ambiente BIM](BIM_Workbench/it.md) ({{Version/it|1.0}}).}}
 
 
 {{term|term=Assembly}}
@@ -68,6 +68,12 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 
 
 {{defn|defn=Un tipo di curva parametrica.}}
+
+
+{{term|BIM|content=[BIM](BIM_Workbench/it.md)}}
+
+
+{{defn|defn=Un'abbreviazione per [https://en.wikipedia.org/wiki/Building_information_modeling Building Information Modeling]. L'[Ambiente BIM](BIM_Workbench/it.md) fornisce un flusso di lavoro BIM in FreeCAD.}}
 
 
 {{term|Blueprint}}
@@ -159,7 +165,7 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Coin}}
 
 
-{{defn|defn=Detto anche Coin3D. Libreria software di terze parti utilizzata per la rappresentazione 3D da FreeCAD.}}
+{{defn|defn=Detto anche [https://www.coin3d.org Coin3D]. Libreria software di terze parti utilizzata per la rappresentazione 3D da FreeCAD.}}
 
 
 {{term|COLLADA}}
@@ -940,7 +946,7 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{defn|defn=Uno standard ISO (ISO 10303) per lo scambio di dati 3D e informazioni sulla produzione dei prodotti. Sostituisce [IGES](#IGES.md). Le estensioni dei file sono *.step, *.stp.}}
 
 
-{{term|SVG|content=[SVG](SVG.md)}}
+{{term|SVG}}
 
 
 {{defn|defn=[https://en.wikipedia.org/wiki/Scalable_Vector_Graphics Scalable Vector Graphics]. Un formato di file di grafica vettoriale.}}
@@ -1101,7 +1107,7 @@ Vai alla lettera: {{CompactTOC|center=yes}}
 {{term|Workbench}}
 
 
-{{defn|defn=Detto anche modulo, ogni workbench raggruppa una serie di strumenti dedicati a un'attività specifica.}}
+{{defn|defn=Detto anche modulo, ogni [workbench](Workbenches.md) raggruppa una serie di strumenti dedicati a un'attività specifica.}}
 
 
 {{glossend}}

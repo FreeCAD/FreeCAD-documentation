@@ -50,18 +50,29 @@
 
 ## Opcje
 
--   Aby dodać cechy:
-    1.  Naciśnij przycisk **Dodaj element**.
-    2.  Wybierz element w oknie [Widoku drzewa](Tree_view/pl.md) lub [Widok 3D](3D_view/pl.md).
-    3.  Powtórz czynność, aby dodać więcej cech.
--   Aby usunąć funkcje:
-    1.  Naciśnij przycisk **Usuń element**.
-    2.  Wykonaj jedną z następujących czynności:
-        -   Wybierz element w [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
-        -   Zaznacz element na liście i naciśnij klawisz **Del**.
-        -   Kliknij prawym przyciskiem myszki element na liście i wybierz **Usuń** z menu podręcznego.
-    3.  Powtórz czynność, aby usunąć więcej elementów.
--   Jeśli we wzorcu znajduje się kilka elementów, ich kolejność może być istotna. Zobacz stronę [Szyk kołowy](PartDesign_PolarPattern/pl#Oczekiwane_funkcje.md).
+-   Wybierz tryb:
+    -   
+        **Przekształć Zawartość**
+        
+        : Przekształca cały kształt cechy bazowej (domyślne). {{Version/pl|1.0}}
+
+    -   
+        **Narzędzie przekształcania kształtów**
+        
+        : Przekształca pojedyncze kształty narzędzi wybranych cech.
+
+        -   Aby dodać cechy:
+            1.  Naciśnij przycisk **Dodaj element**.
+            2.  Wybierz element w oknie [Widoku drzewa](Tree_view/pl.md) lub [Widok 3D](3D_view/pl.md).
+            3.  Powtórz czynność, aby dodać więcej cech.
+        -   Aby usunąć funkcje:
+            1.  Naciśnij przycisk **Usuń element**.
+            2.  Wykonaj jedną z następujących czynności:
+                -   Wybierz element w [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
+                -   Zaznacz element na liście i naciśnij klawisz **Del**.
+                -   Kliknij prawym przyciskiem myszki element na liście i wybierz **Usuń** z menu podręcznego.
+            3.  Powtórz czynność, aby usunąć więcej elementów.
+        -   Jeśli w szyku znajduje się kilka elementów, ich kolejność może być istotna. Zobacz stronę [Szyk kołowy](PartDesign_PolarPattern/pl#Kolejność_cech.md).
 -   Określ **płaszczyznę**:
     -   
         **Pionowa oś szkicu**

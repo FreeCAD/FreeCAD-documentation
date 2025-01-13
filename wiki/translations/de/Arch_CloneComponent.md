@@ -39,5 +39,13 @@ Bei der geklonten Komponente wird die {{PropertyData/de|CloneOf}}-Eigenschaft au
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/de
+⏵ [documentation index](../README.md) > Arch CloneComponent/de

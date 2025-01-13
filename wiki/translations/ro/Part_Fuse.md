@@ -12,11 +12,15 @@
 
 </div>
 
+
+
 ## Descriere
 
 Unites (fuses) selected Part objects into one. This operation is fully parametric and the components can be modified and the result recomputed.
 
 **Note:** This command is an automated form of the <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Boolean operation](Part_Boolean.md).
+
+
 
 ## Cum se folosește 
 
@@ -30,6 +34,8 @@ Unites (fuses) selected Part objects into one. This operation is fully parametri
 2.  There are several ways to invoke the command:
     -   Press the **![](images/) Part Fuse** button in the **Part tools** toolbar
     -   Use the **Part → Boolean → Union** entry in the Part menu
+
+
 
 ## Intrări suportate 
 
@@ -61,7 +67,13 @@ Elementele pot fi adăugate și scoase din fuziune/uniune, tragându-le în sau 
 
 </div>
 
-După această operație, este posibil să fie necesară curățarea formei [RefineShape](Part_RefineShape.md).
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

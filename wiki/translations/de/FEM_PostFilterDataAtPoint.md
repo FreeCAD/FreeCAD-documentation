@@ -1,9 +1,10 @@
 ---
  GuiCommand:
    Name: FEM PostFilterDataAtPoint
-   MenuLocation: Results , Data at point clip filter
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_PostPipelineFromResult, FEM_tutorial
+   Name/de: FEM DatenzuPunktSchnittfilter
+   MenuLocation: Ergebnisse , FEM Daten zu Punkt Ausschnittfilter
+   Workbenches: FEM_Workbench/de
+   SeeAlso: FEM_PostPipelineFromResult/de, FEM_tutorial/de
 ---
 
 # FEM PostFilterDataAtPoint/de
@@ -18,16 +19,16 @@ Stellt den Wert eines ausgewählten Feldes an einem bestimmten Punkt dar.
 
 ## Anwendung
 
-1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md) or another filter (except of a line filter).
-2.  Invoke the command either by:
-    -   Pressing the button **<img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> '''Data at point clip filter'''**.
-    -   Using the menu **Results → <img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> Data at point clip filter**.
-3.  Select a result **Field**.
-4.  Now
-    -   either click the **Select Point** button and subsequently pick the desired point in the mesh.
-    -   change the point coordinate.
+1.  Wähle eine zuvor erstellte [Ergebnis-Pipeline](FEM_PostPipelineFromResult.md) oder einen anderen Filter (außer einem Linienfilter).
+2.  Ruf den Befehl entweder durch:
+    -   Drücken der Schaltfläche **<img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> '''Daten am Punkt Ausschnitt-Filter'''**, oder,
+    -   über das Menü **Ergebnisse → <img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> Daten am Punkt Ausschnitt-filter** auf.
+3.  Wähle ein Ergebnis **Feld**.
+4.  Dann
+    -   klicke entweder auf die Schaltfläche **Punkt wählen** und wähle anschließend den gewünschten Punkt im Netz, oder
+    -   ändere die Punktkoordinate.
 
-The value at this point for the given **Field** is output to the dialog. The value of the data point is also anytime accessible via the [property](Property_editor.md) **Point Data**.
+Der Wert an diesem Punkt für das angegebene **Feld** wird im Dialog ausgegeben. Der Wert des Datenpunktes ist auch jederzeit über die [Eigenschaft](Property_editor/de.md) {{PropertyData/de|Point Data}}.
 
 
 

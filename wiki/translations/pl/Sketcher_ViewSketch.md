@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Sketcher ViewSketch
-   Name/pl: Skzkicownik: Widok szkicu
+   Name/pl: Szkicownik: Widok szkicu
    MenuLocation: Sketch , Widok szkicu
-   Workbenches: Sketcher_Workbench/pl, PartDesign_Workbench/pl
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **Q** **P**
 ---
 
@@ -13,16 +13,18 @@
 
 ## Opis
 
-Narzędzie to ustawia widok modelu prostopadle do płaszczyzny szkicu. Jest ono przydatne, gdy użytkownik zmienił orientację widoku modelu, aby zbadać inny aspekt modelu i chciałby wrócić do widoku normalnego szkicu.
+Narzędzie <img alt="" src=images/Sketcher_ViewSketch.svg  style="width:16px;"> **Widok szkicu** ustawia [widok 3D](3D_view/pl.md) modelu prostopadle do płaszczyzny szkicu. Widok jest obracany tak, aby kierunek widoku był prostopadły do płaszczyzny szkicu, a oś X szkicu była pozioma. Jest ono przydatne, gdy użytkownik zmienił orientację widoku modelu, aby zbadać inny aspekt modelu i chciałby wrócić do widoku domyślnego szkicu.
 
 
 
 ## Użycie
 
-W trybie edycji szkicu jest dostępnych kilka sposobów wywołania tego polecenia:
+Zobacz również informacje na stronie [Wyświetlanie](Sketcher_Preferences/pl#Wyświetlanie.md).
 
--   Kliknij na ikonę **[<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Widok szkicu](Sketcher_ViewSketch/pl.md)** na pasku narzędzi środowiska pracy Szkicownik lub Projekt Części.
--   przejdź do menu **Szkic → [<img src=images/Sketcher_ViewSketch.svg style="width:16px"> Widok szkicu**.
+1.  To narzędzie jest dostępne tylko wtedy, gdy szkic znajduje się w trybie [edycji](Sketcher_EditSketch/pl.md).
+2.  Istnieje kilka sposobów wywołania tego narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_ViewSketch.svg" width=16px> '''Widok szkicu'''**.
+    -   Wybierz opcję **Szkic → [<img src=images/Sketcher_ViewSketch.svg style="width:16px"> Widok szkicu**.
 
 
 

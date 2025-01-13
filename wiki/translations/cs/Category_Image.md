@@ -1,5 +1,5 @@
 # Category:Image/cs
-This category lists pages related to the [Image Workbench/cs](Image_Workbench/cs.md).
+This category is for pages related to the [Image Workbench/cs](Image_Workbench/cs.md).
 
 ### Contents
 

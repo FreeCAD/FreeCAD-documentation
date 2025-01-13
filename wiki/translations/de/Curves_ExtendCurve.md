@@ -16,7 +16,7 @@ Das Werkzeug <img alt="" src=images/Curves_ExtendCurve.svg  style="width:24px;">
 
 
 
-## Verwendung
+## Anwendung
 
 1.  Zum Arbeitsbereich <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench/de.md) wechseln (muss mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) installiert werden, wenn noch nicht geschehen)
 2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:

@@ -28,8 +28,14 @@ Videos que pasan por el modelado de varios objetos sólidos usando ambientes de 
 
 -   [FreeCAD para los principiantes](https://www.youtube.com/playlist?list=PLxa9m2nC6N924jFUOYRECQUMm9xl4_jUI): una serie de videos de DrVax, presentando FreeCAD 0.19, y usándolo para la impresión en 3D con Cura y PrusaSlicer.
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Invent Box Tutoriales listas de reproducción](https://www.youtube.com/channel/UCRQCzMftIUElX03kHjV4rmQ/playlists): muchos videos de diferentes programas de diseño incluyendo GIMP, Krita, Inkscape, Blender, KiCad, y FreeCAD.
     -   [Aprende FreeCAD](https://www.youtube.com/watch?v=CG_czsNdUfs&list=PL2935W76vRNFvUGefQr3q9P9eezJZyj-u): FreeCAD 0.17, una serie de 15 vídeos de Invent Box Tutorials en inglés. Esta serie presenta muchas herramientas comunes utilizadas en [Ambiente de trabajo de diseño de piezas](PartDesign_Workbench/es.md) y el [Ambiente de trabajo Trayectoria](Path_Workbench/es.md) para modelar una pieza adecuada para la fabricación: bocetos, extrusión, desván, barrido, espejo, patrones lineales y polares, operaciones booleanas, hélice, sendas de herramientas, corte de bolsillo, taladrado, grabado, postprocesamiento y corte.
+
+
+</div>
 
 -   [Tutorial de FreeCAD - Conceptos básicos](https://www.youtube.com/watch?v=8V4zmIoYuOA&list=PL4mEeIFbIt5e_gfW3sxbDwHBkORFrJvPe): FreeCAD 0.19, una serie de 4 videos en inglés de MarthamEngineering. Esta serie muestra cómo construir varios objetos usando el [Ambiente de trabajo de diseño de piezas](PartDesign_Workbench/es.md): un jarrón retorcido, un bloque de conexión, una pieza de ajedrez y un letrero de casa.
 

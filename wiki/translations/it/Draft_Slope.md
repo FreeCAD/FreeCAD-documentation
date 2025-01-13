@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Slope
-   Name/it: Draft Slope
-   MenuLocation: Draft , Utilità , Imposta la pendenza
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Pendenza
+   MenuLocation: Modifiche , Imposta la pendenza<br>Utilità , Imposta la pendenza
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Version: 0.17
    SeeAlso: Draft Line/it, Draft Wire/it
 ---
@@ -25,8 +25,9 @@ Il comando <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Draft 
 
 1.  Selezionare una o più [Draft Linee](Draft_Line/it.md) e/o [Draft Polilinee](Draft_Wire/it.md).
 2.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Draft_Slope.svg" width=16px> [Imposta la pendenza](Draft_Slope/it.md)**.
-    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Slope.svg" width=16px> Imposta la pendenza** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Premere il pulsante **<img src="images/Draft_Slope.svg" width=16px> [Imposta la pendenza](Draft_Slope/it.md)**.
+    -   Draft: Selezionare l\'opzione **Modifiche → <img src="images/Draft_Slope.svg" width=16px> Imposta la pendenza** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Utilità → <img src="images/Draft_Slope.svg" width=16px> Imposta la pendenza** dal menu.
 3.  Inserire un valore **Pendenza**. {{Value|0}} significa che ogni segmento è orizzontale, {{Value|0.5}} significa che l\'altezza delta per ogni segmento è {{Value|0.5}} volte la sua lunghezza, ecc. Il valore può anche essere negativo.
 4.  Premere **Enter** o il pulsante **OK** per terminare il comando.
 

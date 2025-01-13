@@ -52,14 +52,10 @@ Esto colocará una copia de la última versión del código fuente de FreeCAD en
 
 
 {{Code|lang=bash|code=
-git clone https://github.com/FreeCAD/FreeCAD.git ~/my_code/freecad_source
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git ~/my_code/freecad_source
 }}
 
 Para más información sobre el uso de Git y la contribución de código al proyecto, véase [Gestión de código fuente](Source_code_management/es.md).
-
-#### Source archive 
-
-Alternatively you can download the source as an [archive](https://github.com/FreeCAD/FreeCAD/releases/latest), a `.zip` or `.tar.gz` file, and unpack it in the desired directory.
 
 ### Create build directory 
 

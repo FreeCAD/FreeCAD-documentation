@@ -24,28 +24,16 @@ Die Funktion <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="w
 
 ### Zylinderfunktion erstellen 
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-1.  Press the **<img src="images/FEM_PostCreateFunctionCylinder.svg" width=16px> [Cylinder](FEM_PostCreateFunctionCylinder.md)** button or select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionCylinder.svg" width=16px> Cylinder** option from the menu.
-2.  The Implicit function [task panel](Task_panel.md) is opened.
-3.  Optionally set the values for the center and the radius of the section cylinder.
-4.  Press the **OK** button to finish.
-
-
-</div>
+1.  Drücke den **<img src="images/FEM_PostCreateFunctionCylinder.svg" width=16px> [Zylinder](FEM_PostCreateFunctionCylinder/de.md)** oder wähle **Ergebnisse → Filterfunktionen → <img src="images/FEM_PostCreateFunctionCylinder.svg" width=16px> Zylinder** aus dem Menü.
+2.  Das [Aufgabenfenster](Task_panel/de.md) wird geöffnet.
+3.  Lege optional die Werte für den Mittelpunkt und den Radius des Schnittzylinders fest.
+4.  Drücke die Schaltfläche **OK**, um den Vorgang abzuschließen.
 
 
 
 ### Zylinderfunktion bearbeiten 
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-If the Cylinder object in the [tree view](Tree_view.md) is hidden, select the <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:24px;"> Cylinder object in the [3D view](3D_view.md) and press **Space** to make it visible, like in this example:
-
-
-</div>
+Wenn der Zylinder in der [3D-Ansicht](3D_view/de.md) nicht sichtbar ist wähle in der [Baumansicht](Tree_view/de.md) das Zylinderobjekt <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:24px;"> und drücke **Space**, um es sichtbar zu machen.
 
 <img alt="" src=images/FEM_Cylinder-Cut-Function-Example.png  style="width:400px;">
 
@@ -53,38 +41,20 @@ If the Cylinder object in the [tree view](Tree_view.md) is hidden, select the <i
 
 #### Den Zylinder bewegen 
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--   Click and drag the big white cuboid to move the cylinder along its normal vector.
--   Click and drag the white grid.
-
-
-</div>
+-   Klicke und ziehe den großen weißen Quader, um den Zylinder entlang seines Normalenvektors zu bewegen.
+-   Klicke und ziehe das weiße Gitter.
 
 
 
 #### Den Zylinder drehen und neigen 
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--   Click and drag a line that connects the small cubes with the big white cuboid to rotate and tilt the cylinder around its origin.
-
-
-</div>
+-   Klicken und ziehe die Linie, die die kleinen Würfel mit dem großen weißen Quader verbindet, um den Zylinder um seinen Ursprung zu drehen und zu kippen.
 
 
 
 #### Die Zylindergröße anpassen 
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--   Click and drag one of the 6 small cubes to scale the cylinder.
-
-
-</div>
+-   Klicke und ziehe einenn der 6 kleinen Würfel, um den Zylinder zu skalieren.
 
 
 

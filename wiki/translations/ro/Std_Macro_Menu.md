@@ -54,7 +54,7 @@ The following tools are available in this menu:
 
 </div>
 
--   <img alt="" src=images/Std_RecentMacros.svg  style="width:32px;"> Recent macros: shows a list of macros recently used, which can be called with a key combination, for example, **Ctrl**+**Shift**+**1**. This can be configured in the [Preferences](Preferences_Editor.md).
+-   Recent macros: shows a list of recently used macros, which can be called with a key combination, for example, **Ctrl**+**Shift**+**1**. This can be configured in the [Preferences](Preferences_Editor.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -120,7 +120,7 @@ The following tools are available in this menu:
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

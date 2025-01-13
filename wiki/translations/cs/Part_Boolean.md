@@ -5,7 +5,7 @@
 
 </div>
 
-!!FUZZY!!Tento příkaz je obecný Boolean (Logický) nástroj vše v jednom. Pomocí dialogového okna umožňuje specifikovat jakou operaci budete provádět a jaké chcete parametry. Na rychlejší logické operace se podívejte také do [Díl Sjednotit](Part_Union/cs.md), [Díl Společné](Part_Common/cs.md) a [Díl Oddělit](Part_Cut/cs.md).
+ !!FUZZY!!Tento příkaz je obecný Boolean (Logický) nástroj vše v jednom. Pomocí dialogového okna umožňuje specifikovat jakou operaci budete provádět a jaké chcete parametry. Na rychlejší logické operace se podívejte také do [Díl Sjednotit](Part_Union/cs.md), [Díl Společné](Part_Common/cs.md) a [Díl Oddělit](Part_Cut/cs.md).
 
 
 **[<img src=images/Part_Boolean.svg style="width:16px"> [Part Boolean](Part_Boolean.md)**
@@ -40,14 +40,6 @@ See the individual commands:
 **
     
 
-
-<div class="mw-translate-fuzzy">
-
-See also Part → [Refine Shape](Part_RefineShape/cs.md)
-
-
-</div>
-
 ## Coplanar problems 
 
 The boolean operations are performed by the internal geometry kernel, [OpenCASCADE Technology](OpenCASCADE.md) (OCCT). This library sometimes has problems producing boolean results when the input objects share an edge or a face. To be sure the boolean operation is successful the recommendation is that the shapes intersect each other clearly; this means that in most cases, one shape should protrude or be larger in size than the other shape.
@@ -69,6 +61,14 @@ In cases of coplanarity, even if the first boolean operation succeeds, subsequen
 
 
 *Left: shapes that share a face, a boolean union may produce incorrect results. Right: shapes that intersect each other clearly, the boolean union will be successful in most cases.*
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

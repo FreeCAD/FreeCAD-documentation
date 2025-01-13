@@ -37,7 +37,6 @@ Das Werkzeug **TechDraw Hilfspunkt** fügt einer Ansicht einen Hilfspunkt ([Knot
 ## Hinweise
 
 -   Die Position eines Hilfspunktes kann nicht geändert werden. Im Moment gibt es keine andere Möglichkeit, als ihn zu löschen und einen neuen zu erstellen.
--   Um einen Hilfspunkt zu löschen, wird <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw HilfsobjektEntfernen](TechDraw_CosmeticEraser.md) verwendet.
 
 
 
@@ -49,7 +48,7 @@ Hilfspunkte haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte sind
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Hilfspunkte stehen in [Makros](Macros/de.md) oder der [Python](Python/de.md)-Konsole zur Verfügung.
 

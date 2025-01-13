@@ -13,7 +13,7 @@ Arkusze rysunków, po ukończeniu, można wydrukować lub wyeksportować jako pl
 
 W poniższym ćwiczeniu zobaczymy, jak stworzyć prosty rysunek modelu krzesła znajdującego się w bibliotece [FreeCAD](https://github.com/FreeCAD/FreeCAD-library) *(Industrial Design → Chairs → IkeaLikeChair)*. Biblioteka FreeCAD, może być łatwo dodana do Twojej instalacji programu *(patrz rozdział [instalacja](Manual:Installing/pl.md) tego podręcznika)*, lub możesz po prostu pobrać model ze strony internetowej biblioteki, lub za pośrednictwem bezpośredniego łącza podanyego na dole tego rozdziału.
 
-![](images/Exercise_TechDraw_01.svg )
+![](images/Exercise_TechDraw_01.png )
 
 -   Wczytaj plik IkeaLikeChair z biblioteki. Możesz wybrać wersję pliku [FCStd](File_Format_FCStd.md), która załaduje pełną historię modelowania, lub [step](STEP.md), która utworzy tylko jeden obiekt, bez historii. Ponieważ nie będziemy już musieli dalej modelować, najlepiej wybrać wersję step, ponieważ będzie ona łatwiejsza do manipulowania.
 
@@ -64,9 +64,9 @@ Drugi to wykonywanie czynności bezpośrednio na arkuszu Rysunku Technicznego. U
 
 ![](images/Exercise_TechDraw_07.png )
 
--   Teraz umieścimy dwa objaśnienia pokazane na powyższym obrazku, używając narzędzia <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [Dymek](TechDraw_Balloon/pl.md).
+-   Umieścimy teraz dwa objaśnienia pokazane na rysunku powyżej korzystając z narzędzia <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> [Wstaw adnotację w formie dymka](TechDraw_Balloon/pl.md).
 
-![](images/_Exercise_TechDraw_06.png )
+![](images/Exercise_TechDraw_06.png )
 
 1.  Patrząc na stronę w oknie [Widok 3D](3D_view/pl.md), wybierz widok, do którego zostanie dołączony dymek, jak pokazano na powyższym obrazku.
 2.  Naciśnij przycisk dymka <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;">.

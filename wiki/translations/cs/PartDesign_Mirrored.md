@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Úvod
@@ -19,6 +21,8 @@ The <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> **PartD
 
 ![](images/PartDesign_Mirrored_example.svg ) 
 *A Pocket feature created from a sketch containing a circle (A) is used to create a mirrored feature. The vertical axis of the sketch (B) is used to the define the mirror plane. The result (C) is shown on the right.*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -69,18 +73,29 @@ The <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> **PartD
 
 ## Options
 
--   To add features:
-    1.  Press the **Add feature** button.
-    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-    3.  Repeat to add more features.
--   To remove features:
-    1.  Press the **Remove feature** button.
-    2.  Do one of the following:
-        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-        -   Select a feature in the list and press the **Del** key.
-        -   Right-click a feature in the list and select **Remove** from the context menu.
-    3.  Repeat to remove more features.
--   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Choose the mode:
+    -   
+        **Transform body**
+        
+        : Transforms the whole base feature\'s shape (default). <small>(v1.0)</small> 
+
+    -   
+        **Transform tool shapes**
+        
+        : Transforms the individual tool shapes of selected features.
+
+        -   To add features:
+            1.  Press the **Add feature** button.
+            2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+            3.  Repeat to add more features.
+        -   To remove features:
+            1.  Press the **Remove feature** button.
+            2.  Do one of the following:
+                -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+                -   Select a feature in the list and press the **Del** key.
+                -   Right-click a feature in the list and select **Remove** from the context menu.
+            3.  Repeat to remove more features.
+        -   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
 -   Specify the mirror **Plane**:
     -   
         **Vertical sketch axis**
@@ -117,6 +132,8 @@ The <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> **PartD
         
         : Select a planar face in the [3D view](3D_view.md).
 -   If the **Update view** checkbox is checked the view will update in real time.
+
+
 
 
 <div class="mw-translate-fuzzy">

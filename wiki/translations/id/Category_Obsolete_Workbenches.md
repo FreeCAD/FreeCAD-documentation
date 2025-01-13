@@ -1,12 +1,14 @@
 # Category:Obsolete Workbenches/id
-This category lists pages related to the [Drawing Workbench/id](Drawing_Workbench/id.md).
+
 
 ### Contents
 
 |     |     |     |
 | --- | --- | --- |
-| [Drawing Workbench/id](Drawing_Workbench/id.md) | [Image Workbench/id](Image_Workbench/id.md) | [Raytracing Workbench/id](Raytracing_Workbench/id.md) |
-| [Category:Drawing/id](Category_Drawing/id.md) | [Category:Obsolete Workbenches/id](Category_Obsolete_Workbenches/id.md) |
+| [Arch Workbench/id](Arch_Workbench/id.md) | [Drawing Workbench/id](Drawing_Workbench/id.md) | [Image Workbench/id](Image_Workbench/id.md) |
+| [Raytracing Workbench/id](Raytracing_Workbench/id.md) | [Category:Arch/id](Category_Arch/id.md) | [Category:Drawing/id](Category_Drawing/id.md) |
+| [Category:Image/id](Category_Image/id.md) | [Category:Raytracing/id](Category_Raytracing/id.md) | [Category:Start/id](Category_Start/id.md) |
+| [Category:Web/id](Category_Web/id.md) |
 
 
 

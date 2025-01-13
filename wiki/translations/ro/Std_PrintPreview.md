@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 Această funcție vă permite să definiți aspectul paginii care va fi tipărită, dimensiunea imaginii, marginea etc.
@@ -43,7 +45,7 @@ Această funcție vă permite să definiți aspectul paginii care va fi tipărit
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

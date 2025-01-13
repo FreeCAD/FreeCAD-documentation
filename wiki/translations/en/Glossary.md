@@ -38,7 +38,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Arch|content=[Arch](Arch_Workbench.md)}}
 
 
-{{defn|defn=An abbreviation for the Architectural [workbench](#Workbench.md) which is used primarily for modeling buildings and structures. Closely related to the [Draft Workbench](#Draft.md).}}
+{{defn|defn=An abbreviation for the old Architectural [workbench](#Workbench.md). This workbench has been superseded by the [BIM Workbench](BIM_Workbench.md) (<small>(v1.0)</small> ).}}
 
 
 {{term|Assembly|content=[Assembly](Assembly.md)}}
@@ -80,6 +80,12 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 
 {{defn|defn=A type of parametric curve.}}
+
+
+{{term|BIM|content=[BIM](BIM_Workbench.md)}}
+
+
+{{defn|defn=An abbreviation for [https://en.wikipedia.org/wiki/Building_information_modeling Building Information Modelling]. The [BIM Workbench](BIM_Workbench.md) provides a BIM workflow in FreeCAD.}}
 
 
 {{term|Blueprint}}
@@ -171,7 +177,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Coin}}
 
 
-{{defn|defn=Also called Coin3D. Third-party software library used for 3D representation by FreeCAD.}}
+{{defn|defn=Also called [https://www.coin3d.org Coin3D]. Third-party software library used for 3D representation by FreeCAD.}}
 
 
 {{term|COLLADA}}
@@ -952,7 +958,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|defn=An ISO standard (ISO 10303) for the exchange of 3D data and product manufacturing information. It replaces [IGES](#IGES.md). File extensions are *.step, *.stp.}}
 
 
-{{term|SVG|content=[SVG](SVG.md)}}
+{{term|SVG}}
 
 
 {{defn|defn=[https://en.wikipedia.org/wiki/Scalable_Vector_Graphics Scalable Vector Graphics]. A vector graphics file format.}}
@@ -1113,7 +1119,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{term|Workbench}}
 
 
-{{defn|defn=Also called a module, each workbench groups a set of tools dedicated to a specific task.}}
+{{defn|defn=Also called a module, each [workbench](Workbenches.md) groups a set of tools dedicated to a specific task.}}
 
 
 {{glossend}}

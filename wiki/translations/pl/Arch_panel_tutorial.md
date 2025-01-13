@@ -241,9 +241,11 @@ Zarówno narzędzia Obróć, jak i Przesuń korzystają z systemu przyciągania 
 ![](images/Arch_panel_tutorial_20.jpg )
 
 
-  {{Sketcher Tools navi}}
+{{BIM_Tools_navi
+
+}} {{Draft_Tools_navi}} {{Sketcher Tools navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/pl
+⏵ [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Arch panel tutorial/pl

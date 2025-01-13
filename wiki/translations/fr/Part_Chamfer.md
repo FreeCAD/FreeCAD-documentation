@@ -21,11 +21,11 @@
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Part_Chamfer.svg" width=16px> Chanfreiner...**.
-    -   Sélectionnez l\'option **Part → Chanfreiner...** dans le menu.
-2.  Sélectionnez la forme à chanfreiner dans la boîte de dialogue.
-3.  Sélectionnez les arêtes à chanfreiner en cochant la case correspondante dans la boîte de dialogue de chanfreinage ou en les sélectionnant directement sur le modèle.
+    -   Sélectionnez l\'option **Part → Chanfreiner...** du menu.
+2.  Sélectionnez la forme à chanfreiner dans la fenêtre de dialogue.
+3.  Sélectionnez les arêtes à chanfreiner en cochant la case correspondante dans la fenêtre de dialogue de chanfreinage ou en les sélectionnant directement sur le modèle.
 4.  Modifiez les paramètres du chanfrein.
-5.  Appuyez sur **OK** pour fermer la boîte de dialogue de chanfrein et appliquer le chanfrein.
+5.  Appuyez sur **OK** pour fermer la fenêtre de dialogue de chanfrein et appliquer le chanfrein.
 
 ## Options
 

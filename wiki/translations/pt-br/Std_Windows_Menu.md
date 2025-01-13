@@ -43,13 +43,15 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Cascade](Std_CascadeWindows.md): Cascades the windows.
 
+-   \... The first 10 windows are listed here. Select a window to activate it.
+
 -   <img alt="" src=images/Std_Windows.svg  style="width:32px;"> [Windows\...](Std_Windows.md): Opens a dialog box from which a window can be activated.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

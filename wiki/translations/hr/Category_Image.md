@@ -1,5 +1,5 @@
 # Category:Image/hr
-This category lists pages related to the [Image Workbench/hr](Image_Workbench/hr.md).
+This category is for pages related to the [Image Workbench/hr](Image_Workbench/hr.md).
 
 ### Contents
 

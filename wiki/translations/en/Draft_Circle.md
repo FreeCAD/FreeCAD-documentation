@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Circle
-   MenuLocation: Drafting , Circle
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Drafting , Circle<br>2D Drafting , Circle
+   Workbenches: Draft_Workbench, BIM_Workbench
    Shortcut: **C** **I**
    Version: 0.7
    SeeAlso: Draft_Arc, Draft_Arc_3Points
@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> **Draft Circle** command creates a circle in the current [working plane](Draft_SelectPlane.md) from a center and a radius. The radius can be defined by picking a point.
+The <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> **Draft Circle** command creates a circle on the current [working plane](Draft_SelectPlane.md) from a center and a radius. The radius can be defined by picking a point.
 
 A Draft Circle can be turned into an arc by setting its **First Angle** and **Last Angle** properties to different values.
 
@@ -25,7 +25,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Circle.svg" width=16px> [Circle](Draft_Circle.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_Circle.svg" width=16px> Circle** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Drafting → <img src="images/Draft_Circle.svg" width=16px> Circle** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **2D Drafting → <img src="images/Draft_Circle.svg" width=16px> Circle** option from the menu.
     -   Use the keyboard shortcut: **C** then **I**.
 2.  The **Circle** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick the first point, the center of the circle, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
@@ -33,10 +34,10 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ## Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 -   To manually enter the coordinates for the center enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system.
 -   Press **F** or click the **Filled** checkbox to toggle filled mode. If filled mode is on, the created circle will have **Make Face** set to `True` and will have a filled face.
 -   Press **N** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating circles.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.

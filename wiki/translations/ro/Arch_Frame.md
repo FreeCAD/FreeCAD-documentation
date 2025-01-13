@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -35,6 +37,8 @@ Instrumentul de cadru/dulgherie este utilizat pentru a construi toate tipurile d
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Cum se folosește 
@@ -53,6 +57,8 @@ Instrumentul de cadru/dulgherie este utilizat pentru a construi toate tipurile d
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -65,7 +71,24 @@ Instrumentul de cadru/dulgherie este utilizat pentru a construi toate tipurile d
 
 </div>
 
+
+
 ## Proprietăți
+
+### Data
+
+
+{{TitleProperty|Component}}
+
+-    **Base|Link**: The layout this frame is based on.
+
+For the other properties in the group see [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|Frame}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Base**: The layout this frame is based on.
 
@@ -76,6 +99,9 @@ Instrumentul de cadru/dulgherie este utilizat pentru a construi toate tipurile d
 -    **Offset**: An optional distance between the layout object and the frame object.
 
 -    **Rotation**: The rotation of the profile around its extrusion axis.
+
+
+</div>
 
 ## Scripting
 
@@ -109,7 +135,9 @@ Frame = makeFrame(baseobj, profile)
 
 </div>
 
-Exempluː 
+Exempluː
+
+
 ```python
 import Draft, Arch
 
@@ -131,6 +159,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Frame/ro
+⏵ [documentation index](../README.md) > Arch Frame/ro

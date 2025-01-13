@@ -112,7 +112,7 @@ Pythonインタプリタにもヘルプ機能があります。次の命令を�
 
 
 ```python
-help("print")
+help(print)
 ```
 
 

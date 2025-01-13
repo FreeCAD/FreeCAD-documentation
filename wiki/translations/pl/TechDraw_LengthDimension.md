@@ -28,8 +28,14 @@ Narzędzie **Wstaw wymiar długości** dodaje wymiar liniowy do widoku. Wymiar m
     -   Wybierz dwie krawędzie. Jeśli obie krawędzie są proste, muszą być równoległe. Spowoduje to utworzenie wymiaru prostopadłego, jeśli punkt końcowy jednej z krawędzi ma rzut prostopadły na drugą krawędź *(punkt wynikowy musi leżeć na rzeczywistej krawędzi)*. Jeśli możliwych jest wiele rozwiązań, używany jest punkt końcowy najbliższy rzutowanemu punktowi. Jeśli nie ma prawidłowego rzutowania prostopadłego, wymiar będzie odległością między najbliższymi punktami końcowymi krawędzi.
     -   Wybierz punkt i krawędź. #\* Wybierz punkt i krawędź. Spowoduje to utworzenie wymiaru prostopadłego. W {{VersionMinus/pl|0.21}} wymiar będzie prostopadły tylko wtedy, gdy punkt ma rzut prostopadły na rzeczywistą krawędź. W przeciwnym razie wymiar będzie odległością między punktem a najbliższym punktem końcowym krawędzi.
 2.  Jeśli geometria została wybrana w widoku 3D: dodaj prawidłowy widok do zaznaczenia, wybierając go w oknie [widoku 3D](3D_view/pl.md).
-3.  Istnieje kilka sposobów wywołania narzędzia:
-    -   Naciśnij przycisk **<img src="images/TechDraw_LengthDimension.svg" width=16px> '''Wstaw wymiar długości'''**.
+3.  Istnieje kilka sposobów wywołania tego narzędzia:
+    -   
+        {{Version/pl|1.0}}
+        
+        : Jeśli [preferencja](TechDraw_Preferences/pl#Wymiary.md) **Narzędzie wymiarowania** jest ustawiona na {{Value|Narzędzie pojedyncze}} (domyślnie): kliknij na strzałce skierowanej w dół po prawej stronie od przycisku **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** i wybierz opcję **<img src="images/TechDraw_LengthDimension.svg" width=16px> Wstaw wymiar długości** z listy rozwijanej.
+
+    -   Jeśli ta preferencja ma inną wartość (i {{VersionMinus/pl|0.21}}): wciśnij przycisk **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Wstaw wymiar długości](TechDraw_LengthDimension/pl.md)**.
+
     -   Wybierz z menu opcję **Rysunek Techniczny → Wymiary → <img src="images/TechDraw_LengthDimension.svg" width=16px> Wstaw wymiar długości**.
 4.  Wymiar zostanie dodany do widoku.
 5.  Wymiar można przeciągnąć do wybranej pozycji.

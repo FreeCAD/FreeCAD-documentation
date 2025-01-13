@@ -2,11 +2,11 @@
  GuiCommand:
    Name: Sketcher ConstrainRadiam
    Name/de: Sketcher RadiamFestlegen
-   MenuLocation: Sketch , Skizzen-Beschränkungen , Automatisch Radius/Durchmesser einschränken
+   MenuLocation: Skizze , Sketcher-Randbedingungen , Automatisch Radius/Durchmesser festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **K** **S**
    Version: 0.20
-   SeeAlso: Sketcher_ConstrainDistance/de, Sketcher_ConstrainDistanceX/de, Sketcher_ConstrainDistanceY/de
+   SeeAlso: Sketcher_ConstrainRadius/de, Sketcher_ConstrainDiameter/de
 ---
 
 # Sketcher ConstrainRadiam/de
@@ -15,41 +15,72 @@
 
 ## Beschreibung
 
-Diese Randbedingung legt den Durchmesser eines Kreises oder den Radius eines Bogens auf einen bestimmten Wert fest. Dabei gelten folgende Regeln:
-
--   Ist das Objekt ein B-Spline-Pol, wird ein Gewicht festgelegt.
--   Ist das Objekt ein Vollkreis, wird ein Durchmesser festgelegt.
--   In anderen Fällen (z. B. Bögen), wird ein Radius festgelegt.
-
-Wenn vor dem Start des Befehls mehr als ein Kreis oder Bogen ausgewählt wurde:
-
--   Wenn die Beschränkung im \'Referenz\' Modus angewendet wird, wird eine neue Referenz Beschränkung zu jedem Objekt separat gemäß den oben genannten Regeln hinzugefügt.
--   Wird die Beschränkung im \'Normal\' (Fahren) Modus angewendet, werden folgende Regeln angewandt
-    -   Ein Referenz Beschränkung wird separat auf jedes Objekt angewendet, das eine externe Geometrie ist
-
-    -   
-        **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [GleichheitFestlegen](Sketcher_ConstrainEqual.md)**
-        
-        wird nacheinander auf alle Objekte der realen Geometrie/Konstruktionsgeometrie angewandt, und eine maßliche Randbedingung wird auf das erste ausgewählte Objekt gemäß den obigen Regeln angewandt
-
-NB: B-Spline-Pole können nicht mit anderen Objekttypen in der Auswahl gemischt werden.
+Das Werkzeug <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:24px;"> [Sketcher RadiamFestlegen](Sketcher_ConstrainRadiam/de.md) legt den Radius von Bögen und [B-Spline-Gewichtskreisen](Sketcher_CreateBSpline/de#Hinweise.md) sowie den Durchmesser von Kreisen fest.
 
 
 
 ## Anwendung
 
-1.  Einen oder mehrere Kreise oder Bögen auswählen.
-2.  Die Schaltfläche **[<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Automatisch Radius oder Durchmesser festlegen](Sketcher_ConstrainRadiam/de.md)** drücken.
-3.  Es öffnet sich ein Aufklappdialog zum Bearbeiten oder Bestätigen des Wertes. Zum Bestätigen **OK** drücken.
-4.  Optional können Maßzahl und Maßlinie in der 3D-Ansicht durch Klicken auf die Maßzahl und Ziehen bei gedrückter linker Maustaste verschoben und gedreht werden.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
-**Hinweis:** Dieses Werkzeug kann auch ohne vorherige Auswahl gestartet werden. Standardmäßig befindet sich der Befehl im Fortsetzungsmodus, um neue Randbedingungen zu erstellen; ein Druck auf die rechte Maustaste oder auf **Esc** beendet den Befehl.
+
+
+### [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md) 
+
+1.  Sicherstellen, dass die Auswahl leer ist.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   
+        {{Version/de|1.0}}
+        
+        : Ist die [Voreinstellung](Sketcher_Preferences/de#Allgemein.md) **Werkzeuge für Maßeinträge** auf {{Value|Einzelnes Werkzeug}} gesetzt (Standardeinstellung): Den Abwärtspfeil rechts neben der Schaltfläche **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** drücken und die Menüoption **<img src="images/Sketcher_ConstrainRadiam.svg" width=16px> Automatisch Radius oder Durchmesser festlegen** im Ausklappmenü auswählen.
+
+    -   Besitzt die Voreinstellung einen anderen Wert (und in {{VersionMinus/de|0.21}}): Die Schaltfläche **<img src="images/Sketcher_ConstrainRadiam.svg" width=16px> [Automatisch Radius oder Durchmesser festlegen](Sketcher_ConstrainRadiam/de.md)** drücken.
+
+    -   Den Menüeintrag **Skizze → Sketcher-Randbedingungen → <img src="images/Sketcher_ConstrainRadiam.svg" width=16px> Automatisch Radius oder Durchmesser festlegen** auswählen.
+
+    -   
+        {{Version/de|1.0}}
+        
+        : Ein Rechtsklick in die [3D-Ansicht](3D_view/de.md) und die Menüoption **Abmessung → <img src="images/Sketcher_ConstrainRadiam.svg" width=16px> Automatisch Radius oder Durchmesser festlegen** im Kontextmenü auswählen.
+
+    -   Das Tastaturkürzel **K** dann **S**.
+3.  Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
+4.  Eine der folgenden Möglichkeiten auswählen:
+    -   Die Kante eines Kreises oder Kreisbogens auswählen.
+    -   Die Kante eines B-Spline-Gewichtskreises auswählen.
+5.  Wird eine [festlegende maßliche Randbedingung](Sketcher_ToggleDrivingConstraint/de.md) erstellt, hängt von den [Voreinstellungen](Sketcher_Preferences/de#Anzeige.md) ab, ob ein Dialog geöffnet wird, um ihren [Wert zu bearbeiten](Sketcher_Workbench/de#Randbedingungen_bearbeiten.md).
+6.  Eine Randbedingung wird hinzugefügt.
+7.  Wahlweise weitere Randbedingungen erstellen.
+8.  Zum Beenden die rechte Maustaste oder **Esc** drücken; oder ein anderes Werkzeug zum Erstellen von Geometrien oder Randbedingungen aufrufen.
+
+
+
+### Einmal-Ausführen-Modus 
+
+1.  Eine der folgenden Möglichkeiten auswählen:
+    -   Die Kante(n) eines oder mehrerer Kreise oder Kreisbögen auswählen.
+    -   Die Kante(n) eines oder mehrerer B-Spline-Gewichtskreise auswählen.
+2.  Das Werkzeug aufrufen, wie oben beschrieben.
+3.  Wahlweise den [Wert der Randbedingung](Sketcher_Workbench/de#Randbedingungen_bearbeiten.md) bearbeiten.
+4.  Abhängig von der Auswahl werden eine oder mehrere Randbedingungen hinzugefügt, siehe [Hinweise](#Hinweise.md).
+
+
+
+## Hinweise
+
+-   Werden [festlegende maßliche Randbedingungen](Sketcher_ToggleDrivingConstraint/de.md) erstellt und wurden mehrere Elemente vorausgewählt, die keine [externen Geometrien](Sketcher_External/de.md) sind, erhält nur das erste von ihnen eine maßliche Randbedingung, während Zwischen dem ersten und den anderen die Randbedingung [Gleichheit festlegen](Sketcher_ConstrainEqual/de.md) eingesetzt wird.
 
 
 
 ## Skripten
 
-Es gilt kein spezielles Skripten. Siehe die Seite [Sketcher Skripten](Sketcher_scripting/de.md), die die Werte erklärt, die für `ArcOrCircle` und `Circle` verwendet werden können, und weitere Beispiele für die Erstellung von Randbedingungen mit Python-Skripten enthält.
+
+```python
+Sketch.addConstraint(Sketcher.Constraint('Radius', ArcOrCircle, App.Units.Quantity('123.0 mm')))
+Sketch.addConstraint(Sketcher.Constraint('Diameter', ArcOrCircle, App.Units.Quantity('246.0 mm')))
+```
+
+Die Seite [Sketcher Skripten](Sketcher_scripting.md) erklärt die Werte, die für `ArcOrCircle` verwendet werden können und enthält weitere Beispiele, wie man Randbedingungen mit Python-Skripten erstellt.
 
 
 

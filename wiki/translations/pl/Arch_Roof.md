@@ -1,103 +1,136 @@
 ---
  GuiCommand:
    Name: Arch Roof
-   MenuLocation: Arch , Roof
-   Workbenches: Arch_Workbench
+   Name/pl: BIM: Dach
+   MenuLocation: 3D / BIM , Dach
+   Workbenches: BIM_Workbench/pl
    Shortcut: **R** **F**
-   SeeAlso: Arch_Structure, Arch_Wall
+   SeeAlso: 
 ---
 
 # Arch Roof/pl
 
-## Description
 
-The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** tool allows for the creation of a sloped roof from a selected wire. The created roof object is parametric, keeping its relationship with the base object. The principle is that each edge is seen allotting a profile of roof (slope, width, overhang, thickness).
 
-**Note:** This tool is still in development, and might fail with very complex shapes.
+## Opis
+
+Narzędzie **Dach** pozwala na utworzenie pochyłego dachu z wybranej linii. Utworzony obiekt dachu jest parametryczny, zachowując relację z obiektem bazowym. Zasada jest taka, że każdej krawędzi przypisany jest profil dachu *(nachylenie, szerokość, okap, grubość)*.
+
+**Uwaga:** Narzędzie to jest wciąż w fazie rozwoju i może zawieść w przypadku bardzo złożonych kształtów.
 
 <img alt="" src=images/RoofExample.png  style="width:600px;"> 
-*View from above a building model showing the roof with certain transparency*
+*Widok z góry modelu budynku przedstawiający dach z pewną przezroczystością.*
 
-## Usage
 
-1.  Create a closed wire with following the counter-clockwise direction and select it.
 
-    :   <img alt="" src=images/CounterclockwiseWire.png  style="width:600px;">
+## Użycie(polilinia bazowa) 
 
-2.  Press the **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** button, or press **R** then **F** keys
+1.  Stwórz zamkniętą polilinię, idąc w kierunku przeciwnym do ruchu wskazówek zegara, i zaznacz ją.
 
-3.  The default roof object could have a strange shape, it\'s because the tool is missing some necessary information.
+2.  Naciśnij przycisk **<img src="images/Arch_Roof.svg" width=16px> '''Dach'''**, lub użyj skrótu klawiszowego **R**, a następnie **F**.
 
-4.  After creating the default roof, double click on the object in the [tree view](Tree_view.md) to access and edit all the properties. Angle must be between 0 and 90.
+3.  Domyślny obiekt dachu może mieć dziwny kształt, ponieważ narzędzie brakuje niezbędnych informacji.
 
-    :   ![](images/RoofTable.png )
+4.  Po utworzeniu domyślnego dachu, kliknij dwukrotnie na obiekt w widoku drzewa, aby uzyskać dostęp i edytować wszystkie właściwości. Kąt musi mieć wartość pomiędzy 0° a 90°.
 
-5.  Each line corresponds to a roof pane. So you can set the properties you want for each roof pane.
+5.  Każda linia odpowiada jednej płycie dachowej. Możesz więc ustawić właściwości dla każdej z nich.
 
-6.  To help you, you can set `Angle` or `Run` to `0` and define a `Relative Id`, this makes an automatic calculation to find the data relative to the `Relative Id`.
+6.  Aby ułatwić sobie zadanie, możesz ustawić wartość `Angle` lub `Run` na `0` i zdefiniować `Relative Id`, co spowoduje automatyczne obliczenie danych względem `Relative Id`.
 
-7.  It works like this:
-    1.  If `Angle &#61; 0` and `Run &#61; 0` then profile is identical to the relative profile.
-    2.  If `Angle &#61; 0` then `Angle` is calculated so that the height is the same one as the relative profile.
-    3.  If `Run &#61; 0` then `Run` is calculated so that the height is the same one as the relative profile.
+7.  Działa to następująco:
+    1.  Jeśli `Angle &#61; 0` i `Run &#61; 0`, to profil jest identyczny jak względny profil.
+    2.  Jeśli `Angle &#61; 0`, to `Angle` jest obliczany tak, aby wysokość była taka sama jak w względnym profilu.
+    3.  Jeśli `Run &#61; 0`, to `Run` jest obliczany tak, aby wysokość była taka sama jak w względnym profilu.
 
-8.  Finally, set an Angle to 90° to make a gable.
-
-    :   <img alt="" src=images/RoofProfil.png  style="width:600px;">
+8.  W końcu, ustaw kąt na 90°, aby uzyskać szczyt.
 
 9.  
-    **Note**: for better comprehension, please see this [youtube clip](https://www.youtube.com/watch?v=4Urwru71dVk).
-
-## Options
-
--   Roofs share the common properties and behaviors of all [Arch Components](Arch_Component.md).
-
-## Properties
-
-### Data
+    **Uwaga**: dla lepszego zrozumienia, zapoznaj się z [prezentacją na YouTube](https://www.youtube.com/watch?v=4Urwru71dVk).
 
 
-{{TitleProperty|Roof}}
 
--    **Angles|FloatList**: The list of angles of the roof segments.
+## Użycie (bryła bazowa) 
 
--    **Border Length|Length**: The total length of the borders of the roof.
+Jeśli dach ma skomplikowany kształt *(np. zawiera skośne okna lub inne niestandardowe elementy)*, można utworzyć niestandardowy obiekt bryłowy za pomocą różnych innych narzędzi FreeCAD *([Część](Part_Workbench/pl.md), [Szkicownmik](Sketcher_Workbench.md) itp.)* A następnie użyć tej bryły jako obiektu **bazowego** dla dachu:
 
--    **Face|Integer**: The face number of the base object used to build the roof (not used).
-
--    **Flip|Bool**: Specifies if the direction of the roof should be flipped.
-
--    **Heights|FloatList**: The list of calculated heights of the roof segments.
-
--    **Id Rel|IntegerList**: The list of IDs of the relative profiles of the roof segments.
-
--    **Overhang|FloatList**: The list of overhangs of the roof segments.
-
--    **Ridge Length|Length**: The total length of the ridges and hips of the roof.
-
--    **Runs|FloatList**: The list of horizontal length projections of the roof segments.
-
--    **Thickness|FloatList**: The list of thicknesses of the roof segments.
-
-## Scripting
+1.  Wybierz obiekt bazowy.
+2.  Naciśnij przycisk **<img src="images/Arch_Roof.svg" width=16px> '''Dach'''** lub naciśnij **R**, a następnie **F**.
 
 
-**See also:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Odjęcie nad dachem 
 
-The Roof tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+Dachy mają automatycznie generowaną objętość odejmowania *({{Version/pl|1.0}} dla dachów z podstawą z bryły)*. Gdy dach jest [usuwany](Arch_Remove/pl.md) ze ścian budynku, zarówno sam dach, jak i wszystko nad nim jest odejmowane od ścian.
+
+
+{{Version/pl|1.0}}
+
+: Możliwe jest zastąpienie automatycznego odejmowania objętości poprzez ustawienie właściwości **Subvolume** dachu na niestandardowy obiekt bryłowy.
+
+<img alt="" src=images/Arch_Roof_Subtract_Default.png  style="width:" height="150px;"> <img alt="" src=images/Arch_Roof_Subtract_Subvolume.png  style="width:" height="150px;"> <img alt="" src=images/Arch_Roof_Subvolume_Example.png  style="width:" height="150px;"> 
+*Dach oparty na bryle przed ''(obrazek 1.)'' i po ''(obrazek 2.)'' [usunięciu](Arch_Remove/pl.md) go ze ścian.<br>
+Trzeci obraz przedstawia wygenerowaną objętość odejmowania.*
+
+
+
+## Opcje
+
+-   Dachy dzielą wspólne właściwości i zachowania wszystkich [komponentów](Arch_Component/pl.md).
+
+
+
+## Właściwości
+
+
+
+### Dane
+
+
+{{TitleProperty|Dach}}
+
+-    **Kąty|FloatList**: Lista kątów połaci dachu.
+
+-    **Długość obramowania|Length**: Całkowita długość granic dachu.
+
+-    **Ściana|Integer**: Numer ściany obiektu bazowego użytej do budowy dachu (nie używane).
+
+-    **Odwrócony|Bool**: Określa, czy kierunek dachu powinien być odwrócony.
+
+-    **Wysokości|FloatList**: Lista obliczonych wysokości segmentów dachu.
+
+-    **Id Rel|IntegerList**: Lista identyfikatorów profilów względnych segmentów dachu.
+
+-    **Overhang|FloatList**: Lista wysięgników segmentów dachu.
+
+-    **Długość kalenic|Length**: Całkowita długość grzbietów i szczytów dachu.
+
+-    **Przebiegi|FloatList**: Lista rzutów poziomych długości segmentów dachu.
+
+-    **ObjętośćPodrzędna|Link**: Objętość do odjęcia. Jeśli określone, jest używana zamiast automatycznie wygenerowanej objętości podrzędnej. {{Version/pl|1.0}}
+
+-    **Grobość|FloatList**: Lista grubości segmentów dachu.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Dach** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
 
 
 ```python
 Roof = makeRoof(baseobj=None, facenr=0, angles=[45.,], run=[], idrel=[0,], thickness=[50.,], overhang=[100.,], name="Roof")
 ```
 
--   Creates a `Roof` object from the given `baseobj`, which can be a closed wire or a solid object.
-    -   If `baseobj` is a wire, you can provide lists for `angles`, `run`, `idrel`, `thickness`, and `overhang`, for each edge in the wire to define the shape of the roof.
-    -   The lists are automatically completed to match the number of edges in the wire.
+-   Tworzy obiekt `Roof` z podanego `baseobj`, który może być zamkniętą linią lub obiektem stałym.
+    -   Jeśli `baseobj` jest linią, można podać listy dla `angles`, `run`, `idrel`, `thickness` i `overhang`, dla każdej krawędzi w linii, aby zdefiniować kształt dachu.
+    -   Listy są automatycznie uzupełniane w celu dopasowania do liczby krawędzi w polilinii.
 
-Example:
+Przykład:
 
 
 ```python
@@ -125,5 +158,13 @@ doc.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/pl
+⏵ [documentation index](../README.md) > Arch Roof/pl

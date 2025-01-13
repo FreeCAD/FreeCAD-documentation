@@ -1,8 +1,8 @@
 ---
  GuiCommand:
-   Name: TechDraw_RedrawPage
-   Name/it: Ridisegna la pagina
-   MenuLocation: TechDraw , Ridisegna la pagina
+   Name: TechDraw RedrawPage
+   Name/it: TechDraw Ridisegna Pagina
+   MenuLocation: TechDraw , Ridisegna Pagina
    Workbenches: TechDraw_Workbench/it
    Version: 0.19
 ---
@@ -10,41 +10,25 @@
 # TechDraw RedrawPage/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Ridisegna impone un aggiornamento della Pagina nonostante le impostazioni contrarie di KeepUpdated (proprietà Pagina), Aggiorna con 3D (parametro) o Consenti sostituzione pagina (parametro).
-
-
-</div>
+Lo strumento **TechDraw Ridisegna Pagina** forza un aggiornamento della Pagina nonostante le impostazioni contrarie di KeepUpdated (proprietà Pagina), Update with 3D (parametro) o Allow Page Override (parametro).
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Se nel file sono presenti più pagine, selezionare quella che si desidera aggiornare.
-2.  Premere il pulsante **<img src="images/TechDraw_RedrawPage.svg" width=24px> [Ridisegna la pagina](TechDraw_RedrawPage/it.md)**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  Se nel documento sono presenti più pagine di disegno: facoltativamente attivare la pagina desiderata o selezionarla nella [Vista ad albero](Tree_view/it.md).
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/TechDraw_RedrawPage.svg" width=16px> [Ridisegna Pagina](TechDraw_RedrawPage/it.md)**.
+    -   Selezionare l\'opzione **TechDraw → Pagina → <img src="images/TechDraw_RedrawPage.svg" width=16px> Ridisegna Pagina** dal menu.
+3.  Se nel documento sono presenti più pagine di disegno e non è stata ancora selezionata una pagina, si apre la finestra di dialogo **Scelta pagina**:
+    1.  Selezionare la pagina desiderata.
+    2.  Premere il pulsante **OK**.
 
 
 
-
-
-</div>
 
 
 {{TechDraw Tools navi

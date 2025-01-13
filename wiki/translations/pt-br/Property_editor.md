@@ -1,289 +1,156 @@
 # Property editor/pt-br
 ## Introdução
 
+
+<div class="mw-translate-fuzzy">
+
 O [editor de propriedades](property_editor/pt-br.md) aparece quando a guia **Model** da [visão combinada](combo_view/pt-br.md) está ativa na [interface](interface/pt-br.md); ele permite gerenciar as propriedades publicamente expostas dos objetos de documento.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Geralmente, o editor de propriedade é destinado a lidar com apenas um objeto de cada vez. Os valores mostrados no editor de propriedade pertencem ao objeto selecionado do documento ativo. Apesar disso, algumas propriedades como cores, podem ser definidas para vários objetos selecionados. Se não houver elementos selecionados, o editor de propriedades estará vazio.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Nem todas as propriedades podem ser modificadas sempre; dependendo do status específico da propriedade, algumas delas serão invisíveis (não listadas), ou somente leitura (não editáveis).
 
 
+</div>
 
-
-![](images/FreeCAD_Property_editor_empty.png )
-
-
-
-*Editor de propriedade vazia, quando nenhum objeto é selecionado.*
+<img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width:300px;"> 
+*The Data properties of a [Part Box](Part_Box.md)*
 
 
 
 ## Tipos de propriedade 
 
+
+<div class="mw-translate-fuzzy">
+
 Uma propriedade é uma informação como um número ou uma cadeia de texto que é anexada a um documento FreeCAD ou a um objeto no documento.
 
-Objetos personalizados [objetos com scripts](scripted_objects/pt-br.md) podem usar qualquer um dos tipos de propriedade definidos no sistema base. Veja a lista completa em [Propriedade](Property/pt-br.md).
 
-Alguns dos tipos de propriedade mais comumente utilizados são:
+</div>
 
 
-```python
-App::PropertyBool
-App::PropertyFloat
+{{Code|lang=text|code=
 App::PropertyAngle
+App::PropertyBool
 App::PropertyDistance
+App::PropertyFloat
 App::PropertyInteger
-App::PropertyString
-App::PropertyMatrix
-App::PropertyVector
+App::PropertyLength
 App::PropertyPlacement
-```
-
-Objetos diferentes podem ter diferentes tipos de propriedade. No entanto, muitos objetos têm os mesmos tipos porque são derivados da mesma classe interna. Por exemplo, a maioria dos objetos que descrevem formas geométricas (linhas, círculos, retângulos, sólidos, peças importadas, etc.) tem a propriedade \"Colocação\" que define sua posição na [Vista 3D](3D_view/pt-br.md).
+App::PropertyString
+App::PropertyVector
+}}
 
 
 
 ## Propriedades de visualização e dados 
+
+
+<div class="mw-translate-fuzzy">
 
 Há duas classes de propriedades funcionais acessíveis através de abas no editor de propriedades:
 
 -   Propriedades da **Vista** as propriedades relacionadas à aparência \"visual\" do objeto. As propriedades de visualização estão ligadas ao atributo **ViewProvider**(`ViewObject`) do objeto e só são acessíveis quando a interface gráfica do usuário (GUI) é carregada. Eles não são acessíveis quando se usa o FreeCAD no modo de console ou como biblioteca sem cabeça.
 -   Propriedades dos **dados** relativos aos parâmetros \"físicos\" do objeto. As propriedades dos **dados**definem as características essenciais do objeto; elas sempre existem, mesmo quando o FreeCAD é usado no modo console ou como uma biblioteca. Isto significa que se você carregar um documento em modo console, você pode alterar o raio de um círculo ou o comprimento de uma linha, mesmo que não consiga ver o resultado na tela.
 
-Por esta razão, as propriedades dos **dados** são consideradas mais \"importantes\", uma vez que, na verdade, definem a geometria de uma forma. Por outro lado, as propriedades de **Vista** são menos importantes porque afetam apenas a aparência da superfície da geometria. Por exemplo, um círculo com um raio de 10 mm é diferente de um círculo com um raio de 5 mm; a cor dos círculos (propriedade da aparência) não afeta sua forma, mas o raio (propriedade de dados). Em muitos casos, nesta documentação, a palavra \"Propriedade\" se refere a uma \"propriedade de dados\", não a uma \"propriedade de aparência\".
+
+</div>
 
 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Propriedades básicas 
 
 
-**Veja também: [Nome do objeto](Object_name/pt-br.md)**
+</div>
 
-O mais básico [script de objeto](scripted_objects/pt-br.md) não exibe nenhuma propriedade de **Dados** no editor de propriedade, exceto por seu atributo `Label`. O `Rótulo` é uma cadeia editável pelo usuário que identifica o objeto na [vista em árvore](tree_view.md). Por outro lado, o `Nome` de um objeto é um atributo interno que é atribuído ao objeto no momento de sua criação. Este atributo é somente de leitura, portanto não pode ser modificado, nem é exibido no editor de propriedade.
-
-Um objeto paramétrico básico é criado da seguinte forma
+Different objects may have different properties. However, many objects have the same properties because they are derived from the same internal class.
 
 
-```python
-obj = App.ActiveDocument.addObject("App::FeaturePython", "App__FeaturePython")
-obj.Label = "Plain_object"
-print(obj.Name)
-print(obj.Label)
-```
-
-<img alt="" src=images/FreeCAD_Property_editor_View_basic.png  style="width:" height="264px;"> <img alt="" src=images/FreeCAD_Property_editor_Data_basic.png  style="width:" height="264px;">
-
-
-
-*Aba Vista e Dados do editor de propriedade, para um objeto básico "App::FeaturePython" com script.*
+<div class="mw-translate-fuzzy">
 
 A maioria dos objetos geométricos que podem ser criados e exibidos em [Vista 3D](3D_view/pt-br.md) são derivados de uma `Parte::Característica`. Veja a [Característica Part](Part_Feature/pt-br.md) para conhecer as propriedades mais básicas desses objetos.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Para a geometria 2D, a maioria dos objetos são derivados de `Part::Part2DObject` (ela mesma derivada de `Part::Feature`) sendo a base dos [Sketche](Sketch/pt-br.md), e elementos do [Draft](Draft_Workbench/pt-br.md). Veja a [Part Part2DObject](Part_Part2DObject/pt-br.md) para as propriedades mais básicas destes objetos.
 
 
-
-## Ações
-
-Clicar com o botão direito do mouse em um espaço vazio na vista ou com uma propriedade selecionada mostra apenas um comando:
-
--    **Mostrar todos:**se ativo, além das propriedades padrão que já aparecem, mostra todos os dados ocultos e exibe as propriedades nas respectivas abas.
-
-    -   Dados:\"Proxy\", \"Label2\", \"Expression Engine\", e \"Visibility\".
-    -   Vista:\"Proxy\".
-
-Quando a opção **Mostrar todas** está ativa, e uma propriedade é selecionada, mais ações estão disponíveis com um segundo clique do botão direito:
-
--    **Mostrar todas**: desabilita o comando **Mostrar todas**, escondendo assim os dados adicionais e as propriedades de exibição.
-
--    **Adicionar propriedade**: Isto funciona tanto com objetos definidos em C++, quanto com [scripts de objetos](scripted_objects/pt-br.md) escritos em Python.
-
--    **Expressão...**:chama o editor de fórmula, que permite o uso de [expressões](Expressions.md) no valor da propriedade.
-
--    **Hidden**: se ativo, define a propriedade como oculta, o que significa que ela só será exibida no editor da propriedade se **Mostrar todas** está ativo.
-
--    **Output**: se ativo, define a propriedade como uma saída.
-
--    **NoRecompute**: se ativo, define a propriedade como não recalculada quando o documento é recalculado; isto é útil quando uma propriedade não deve ser afetada por outras atualizações.
-
--    **ReadOnly**:se ativo, define a propriedade para somente leitura. Não será mais editável no editor da propriedade até que esta configuração seja desativada. A entrada do menu **Expressão...** não está mais disponível. Nota: Ainda pode ser possível alterar o imóvel através de um diálogo que atualize o imóvel.
-
--    **Transient**:se ativo, define a propriedade como transitória. O valor de uma propriedade transitória não é armazenado em um arquivo. Quando um arquivo é aberto, ele é instanciado com seu valor padrão.
-
--    **Touched**:se estiver ativo, ele é atingido e está pronto para ser recalculado.
-
--    **EvalOnRestore**: se estiver ativo, ele é avaliado quando o documento é restaurado.
-
-
-
-## Exemplo de propriedades de um objeto PartDesign 
-
-Nesta seção mostramos algumas propriedades comuns visíveis para um [Corpo PartDesign](PartDesign_Body/pt-br.md) e uma [Função PartDesign](PartDesign_Feature/pt-br.md). As propriedades específicas de um objeto podem ser encontradas na página de documentação específica para esse objeto.
-
-
-
-### Vista
-
-A maioria dessas propriedades são herdadas do objeto básico [Part Feature](Part_Feature/pt-br.md).
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCAD_Property_editor_View.png  style="width:490px;"> {{TitleProperty|Base}}
-
-
 </div>
 
+## Context menu 
 
-{{TitleProperty|Base}}
+To display the context menu of the Property editor right-click the background of the editor, or right-click a property.
 
--    **Angular Deflection**:Esta é outra maneira de especificar a finura de geração da malha para renderização em tela ou exportação. O valor padrão é 28,5 graus, ou 0,5 radianos. Quanto menor o valor, mais suave será a aparência na [Vista 3D](3D_view/pt-br.md), e mais fina será a malha exportada.
+Right-clicking the background shows three options:
 
--    **Bounding Box**: indica se uma caixa mostrando a extensão global do objeto é exibida.
+-    **Add property**: adds a dynamic property to the object.
 
--    **Deviation**: define a precisão da representação poligonal do modelo na [vista 3D](3D_view/pt-br.md) (tesselação). Valores mais baixos indicam melhor qualidade. O valor está em porcentagem do tamanho do objeto.
+-    **Show hidden**: if active, hidden Data and View properties are shown in the editor.
 
--    **Display Mode**: modo de exibição de corpo inteiro,{{Value|Flat lines}} (padrão), {{Value|Shaded}}, {{Value|Wireframe}}, {{Value|Points}}.
+-    **Auto expand**: if active, all nodes in the editor are expanded when an object is selected.
 
--    **Display Mode Body**:modo de exibição da ponta do corpo, {{Value|Through}} (padrão), {{Value|Tip}}.
+When right-clicking a property the following additional options are available:
 
--    **Draw Style**: {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dotted}}, {{Value|Dashdot}}; define o estilo das bordas na [vista 3D](3D_view/pt-br.md).
+-    **Rename property group**: renames the property group of selected properties. Only available for dynamic properties. Dynamic properties are those added by the user, as well as those added through Python code.
 
--    **Lighting**: {{Value|One side}}, {{Value|Two side}} (padrão).
+-    **Remove property**: removes selected properties. Only available for dynamic properties.
 
--    **Line Color**: cor RGB das bordas, é por padrão {{value|(25, 25, 25)}}.
+-    **Expression...**: brings up the Expression editor, which allows using [expressions](Expressions.md) in the property value.
 
--    **Line Width**: a espessura das bordas, é por padrão {{value|2}} pixels.
+-    **Status**:
 
--    **On Top When Selected**: {{value|Disabled}}, {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
+:   If a status value is followed by an asterisk (*****) it is static and cannot be changed.
 
--    **Point Color**: a cor RGB dos vértices, por padrão {{value|(25, 25, 25)}}.
+  - **Hidden**: if active, sets the property as hidden, meaning that it will only be displayed in the Property editor if **Show hidden** is active.
 
--    **Point Size**: o tamanho dos vértices, é por padrão {{value|2}} pixels.
+  - **Output**: if active, sets the property as output.
 
--    **Selectable**:se o objeto é selecionável ou não.
+  - **NoRecompute**: if active, modifying the property doesn\'t touch its container for recompute.
 
--    **Selection Style**: {{value|Shape}}, {{value|BoundBox}}.
+  - **ReadOnly**: if active, sets the property as read-only. The property won\'t be editable in the Property editor and the **Expression...** option no longer available. It may however still be possible to change the property via a dialog.
 
--    **Shape Color**: a cor RGB da forma, é por padrão {{value|(204, 204, 204)}}.
+  - **Transient**: if active, sets the property as transient. The value of a transient property is not saved to file. When opening a file, it is instantiated with its default value.
 
--    **Show In Tree**: se estiver definido para `True`, to objeto aparece na estrutura em árvore. Caso contrário, é definido como invisível.
+  - **Touched**: if active, the object becomes touched, and ready for recompute.
 
--    **Transparency**: o grau de transparência de {{value|0}} (padrão) a {{value|100}}.
+  - **EvalOnRestore**: if active, the property is evaluated when the document is restored.
 
--    **Visibility**: se o objeto esta visível na [vista 3D](3D_view/pt-br.md) ou não. Alternar com o **Space** no teclado.
-
-
-
-
-
-
-
-
-
-### Data
-
-Neste caso, observamos as propriedades da função [Revolução PartDesign](PartDesign_Revolution/pt-br.md).
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCAD_Property_editor_Data.png  style="width:490px;"> {{TitleProperty|Base}}
-
-
-</div>
-
-
-{{TitleProperty|Base}}
-
--    **Label**: o nome definido pelo usuário dado ao objeto, isto pode ser alterado conforme desejado.
-
-
-{{TitleProperty|Part Design}}
-
--    **Refine**: se a fusão feita com outros objetos deve ser refinada.
-
-
-{{TitleProperty|Revolution}}
-
--    **Base**: o ponto no espaço que especifica onde ocorre a revolução. Ela não pode ser modificada diretamente, somente quando se edita o recurso.
-
--    **Axis**: o eixo em torno do qual a revolução será realizada. Ele não pode ser modificado diretamente, somente quando se edita o recurso.
-
--    **Angle**: o ângulo que especifica quanto do elemento base é girado. Por padrão é {{value|360°}}, mas pode ser qualquer fração disso.
-
-
-{{TitleProperty|Sketch Based}}
-
--    **Midplane**:se o objeto base for um [Sketch](Sketch/pt-br.md), quando esta propriedade for `True`, ela fará a revolução com o esboço servindo como o plano de simetria. Isto é visível se o **Angle** diferir de {{value|360°}}.
-
--    **Reversed**: por padrão é `True`. Seja para realizar a revolução em uma direção ou em outra.
-
-
-
+  - **CopyOnChange**: if active, the property is copied when changed in a Link. The Link\'s **Link Copy on Change** property must be set to {{Value|Tracking}} or {{Value|Enabled}} for this to work. This is related to [Variant Links](https://forum.freecad.org/viewtopic.php?p=738833#p738833).
 
 ## Scripting
 
+See [FeaturePython Custom Properties](FeaturePython_Custom_Properties.md).
 
-**Veja também:**
+## Preferences
 
-[FreeCAD Noções básicas Script](FreeCAD_Scripting_Basics/pt-br.md).
-
-Consulte a página de [objetos com scripts](scripted_objects/pt-br.md) para obter informações completas sobre como adicionar propriedades a objetos definidos através de um script [Python](Python.md).
-
-A maioria das propriedades visíveis no editor de propriedades são acessíveis a partir do [console Python](Python_console.md). Geralmente estas propriedades são apenas atributos da classe que define o objeto selecionado. Por exemplo, se o editor de propriedade exibir a propriedade **Group**, isso significa que o objeto tem o atributo `Group`.
-
-
-```python
-print(obj.Group)
-```
-
-Estes atributos (propriedades) são adicionados com o método `addProperty` do objeto base. Como mínimo, é necessário especificar o tipo de [propriedade](property/pt-br.md) e seu nome.
-
-
-```python
-obj.addProperty("App::PropertyFloat", "Custom")
-print(obj.Custom)
-```
-
-As propriedades seguem a convenção `CapitalCamelCase` ou `PascalCase`, o que significa que cada palavra começa com uma letra maiúscula e não há nenhum sublinhado. Quando o editor de propriedade exibe estes nomes, ele deixa um espaço entre cada letra maiúscula, facilitando a leitura.
-
-
-```python
-obj.addProperty("App::PropertyDistance", "CustomCamelProperty")
-obj.CustomCamelProperty = 1000
-print(obj.CustomCamelProperty)
-```
-
-![](images/FreeCAD_Property_editor_Custom.png ) 
-*Editor de propriedade mostrando as propriedades de dados de um  [PartDesign Body](PartDesign_Body/pt-br.md), com duas propriedades adicionais, "Custom" e "Custom Camel Property".*
-
-Da mesma forma, as propriedades **View**são adicionadas, não ao objeto base, mas ao seu `ViewObject`.Então, segue-se que propriedades como **Angular Deflection**, **Bounding Box**, **Display Mode**, **Display Mode Body**, **Line Color**, e outros, podem ser examinados e alterados a partir no [console Python](Python_console/pt-br.md).
-
-
-```python
-print(obj.ViewObject.AngularDeflection)
-print(obj.ViewObject.BoundingBox)
-print(obj.ViewObject.DisplayMode)
-print(obj.ViewObject.DisplayModeBody)
-print(obj.ViewObject.LineColor)
-```
-
-Todas as propriedades públicas do objeto e seu provedor de visão estão contidas no atributo `PropertiesList` correspondente.
-
-
-```python
-print(obj.PropertiesList)
-print(obj.ViewObject.PropertiesList)
-```
+See [Combo view](Combo_view#Preferences.md).
 
 
 
 
 
-{{Interface navi
+{{Interface_navi
 
-}} {{Std Base navi}}
+}} {{Std_Base_navi}}
 
 
 

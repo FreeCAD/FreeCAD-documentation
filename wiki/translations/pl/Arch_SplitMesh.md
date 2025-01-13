@@ -1,43 +1,50 @@
 ---
  GuiCommand:
    Name: Arch SplitMesh
-   MenuLocation: Arch , Utilities , Split Mesh
-   Workbenches: Arch_Workbench
-   SeeAlso: Arch_SelectNonSolidMeshes, Arch_MeshToShape
+   Name/pl: BIM: Podziel siatkę
+   MenuLocation: Narzędzia , Podziel siatkę
+   Workbenches: BIM_Workbench/pl
+   SeeAlso: Arch_SelectNonSolidMeshes/pl, Arch_MeshToShape/pl
 ---
 
 # Arch SplitMesh/pl
 
-## Description
-
-This tool splits a selected [Mesh](Mesh_Workbench.md) object into its separate components
-
-## Usage
-
-1.  Select a mesh object.
-2.  Press the **<img src="images/Arch_SplitMesh.svg" width=16px> [Split Mesh](Arch_SplitMesh.md)** entry in **Arch → Utilities → Split Mesh**.
-
-## Scripting
 
 
-**See also:**
+## Opis
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Narzędzie **Podziel siatkę** dzieli wybrany obiekt [Siatki](Mesh_Workbench/pl.md) na jego oddzielne komponenty.
 
-The SplitMesh tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
+## Użycie
+
+1.  Wybierz obiekt siatki.
+2.  Naciśnij przycisk w menu **Narzędzia → <img src="images/Arch_SplitMesh.svg" width=16px> Podziel siatkę**.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Podziel siatkę** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python
 new_list = splitMesh(obj, mark=True)
 ```
 
--   Splits the given mesh object (`obj`) into separated components.
+-   Dzieli podany obiekt siatki (`obj`) na oddzielne komponenty.
 
--   If `mark` is `True` [non-manifold](https://en.wikipedia.org/wiki/Manifold) components will be painted red.
+-   Jeśli `mark` ma wartość `True` komponenty [non-manifold](https://en.wikipedia.org/wiki/Manifold) zostaną pomalowane na czerwono.
 
--    `new_list`is a list of all the individual components that make the mesh.
+-    `new_list`jest listą wszystkich pojedynczych komponentów tworzących siatkę.
 
-Example:
+Przykład:
 
 
 ```python
@@ -59,5 +66,13 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/pl
+⏵ [documentation index](../README.md) > Arch SplitMesh/pl

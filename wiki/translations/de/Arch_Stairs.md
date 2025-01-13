@@ -2,11 +2,11 @@
  GuiCommand:
    Name: Arch Stairs
    Name/de: Arch Treppe
-   MenuLocation: Arch , Treppe
-   Workbenches: Arch_Workbench/de
+   MenuLocation: 3D/BIM , Treppe
+   Workbenches: BIM_Workbench/de
    Shortcut: **S** **R**
    Version: 0.14
-   SeeAlso: Arch_Structure/de, Arch_Equipment/de
+   SeeAlso: 
 ---
 
 # Arch Stairs/de
@@ -32,15 +32,22 @@ Siehe den [Wikipediaeintrag Treppe](https://de.wikipedia.org/wiki/Treppe) für e
 
 ## Anwendung
 
-1.  Wahlweise ein oder mehrere Basisobjekte auswählen, z.B. [Draft Linien](Draft_Line/de.md) und [Draft Linienzüge](Draft_Wire/de.md):
-    -   Draft Linienzüge mit zwei und mehr Abschnitten werden verwendet, um Podeste zu erstellen. Sie müssen auf einer Ebene liegen, die parallel zur globalen XY-Ebene verläuft. Z.B. ein U-förmiger Linienzug für ein Podest mit einer halben Drehung (180°) und ein L-förmiger Linienzug für ein Eckpodest (90°).
-    -   Draft Linien werden verwendet, um Treppen zu erstellen.
-    -   Haben die Knoten aller Linien und Linienzüge korrekte Z-Koordinaten, verwendet die erstellte Treppe diese Informationen.
+1.  Wahlweise ein oder mehrere Basisobjekte auswählen, z.B. [Draft Linien](Draft_Line/de.md), [Draft Linienzüge](Draft_Wire/de.md) und [Skizzen](Sketch/de.md):
+    -   Draft-Linienzüge oder Skizzen mit zwei und mehr Abschnitten werden verwendet, um Podeste zu erstellen. Sie müssen auf einer Ebene liegen, die parallel zur globalen XY-Ebene verläuft. Z.B. ein U-förmiger Linienzug für ein Podest mit einer halben Drehung (180°) und ein L-förmiger Linienzug für ein Eckpodest (90°).
+    -   Draft-Linien und Skizzen mit einer einzelnen Kante werden verwendet, um Treppen zu erstellen.
+    -   Haben die Knoten aller Linien und Linienzüge korrekte Z-Koordinaten, verwendet die erstellte Treppe diese Informationen. Eine Skizze (parallel zur XY-Ebene) mit einer einzelnen Kante oder eine Draft-Linie ohne Abweichung in Z funktioniert auch für ein Podest; Die Höhe wird dann für die Konstruktion des Podests verwendet.
     -   Die Basisobjekt müssen in der richtigen Reihenfolge ausgewählt werden, beginnend mit dem untersten Objekt.
 2.  Die Schaltfläche **<img src="images/Arch_Stairs.png" width=16px> [Treppe](Arch_Stairs/de.md)** drücken oder das Tastaturkürzel **S**, **R**.
-3.  Die gewünschten Werte anpassen. Einige Bauteile der Treppe, wie die Struktur, sind nicht sofort sichtbar, wenn irgendeine der Eigenschaften dies unmöglich machen, wie die Wandstärke einer Struktur von 0.
+3.  Die gewünschten Werte anpassen. Einige Bauteile der Treppe, wie die Struktur, sind nicht sofort sichtbar, wenn irgendeine der Eigenschaften dies unmöglich macht, wie eine Wandstärke der Struktur von 0.
 
-<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;"> 
+<img alt="" src=images/Stairs_and_Landing_02.png  style="width:600px;">
+
+<img alt="" src=images/Stairs_and_Landing_01.png  style="width:600px;">
+
+<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;">
+
+
+
 *Eine komplexe Treppe, die auf einer Auswahl von Linien und Linienzügen basiert, wie links gezeigt.<br>
 Rot: die Linienzüge für die Podeste auf Z &equals; 1500 mm, Z &equals; 3000 mm and Z &equals; 4500 mm.<br>
 Schwarz: die Linien, die sie verbinden und für die Treppen verwendet werden.
@@ -61,13 +68,13 @@ Schwarz: die Linien, die sie verbinden und für die Treppen verwendet werden.
 
 -    **Last Segment|Link**: Last segment (flight or landing) of an Arch Stairs connecting to this segment. The start level of the stairs will be the end level of this last segment.
 
--    **Outline Left|VectorList**: The left outline of the stairs.
+-    **Outline Left|VectorList**: The left outline of the stairs (read-only).
 
--    **Outline Left All|VectorList**: The left outline of all segments of the stairs.
+-    **Outline Left All|VectorList**: The left outline of all segments of the stairs (read-only).
 
--    **Outline Right|VectorList**: The right outline of the stairs.
+-    **Outline Right|VectorList**: The right outline of the stairs (read-only).
 
--    **Outline Right All|VectorList**: The right outline of all segments of the stairs.
+-    **Outline Right All|VectorList**: The right outline of all segments of the stairs (read-only).
 
 -    **Railing Height Left|Length**: Height of the left railing of the stairs or landing.
 
@@ -97,48 +104,58 @@ Schwarz: die Linien, die sie verbinden und für die Treppen verwendet werden.
 
 {{TitleProperty|Steps}}
 
+-    {{PropertyData/de|BlondelRatio|Float}}: (schreibgeschützt) Das errechnete Steigungsverhältnis (Blondel ratio). Dieses Verhältnis sollte für bequeme Stufen zwischen 62 und 64 cm bzw. 24.5 und 25.5 Zoll liegen.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Landing Depth|Length}}: Die Tiefe des Absatzes des Stockwerks, wenn in der {{PropertyData/de|Landings}} aktiviert. Übernimmt standardmäßig den wert der {{PropertyData/de|Width}}, wenn 0.
 
--    **Überstand**: Überstand des Auftritts gegenüber der darunterliegenden Setzstufe.
+-    {{PropertyData/de|Nosing|Length}}: Überstand des Auftritts (nosing) gegenüber der darunterliegenden Setzstufe.
 
--    **Stufenanzahl**: Die Anzahl der Treppenstufen (Setzstufen) der Treppe.
+-    {{PropertyData/de|Number Of Steps|Integer}}: Die Anzahl der Treppenstufen (Setzstufen) der Treppe. Muss mindestens 2 für eine einzelne Treppe sein oder 4 für 2 Treppen mit einem Absatz dazwischen.
 
--    **Setzstufenhöe**: Die Höhe der Setzstufe.
+-    {{PropertyData/de|Riser Height|Length}}: (schreibgeschützt) Die Höhe der Setzstufen. Ist die {{PropertyData/de|Riser Height Enforce}} 0, wird sie berechnet ({{PropertyData/de|Height}} / {{PropertyData/de|Number of Steps}}). Andernfalls hat sie denselben Wert, wie die {{PropertyData/de|Riser Height Enforce}}.
 
--    **Auftrittsbreite**: Die Breite des Auftritts.
+-    {{PropertyData/de|Riser Height Enforce|Length}}: Die erzwungene Höhe der Setzstufe.
 
--    **Stufendicke**: Die Dicke der Stufen.
+-    {{PropertyData/de|Riser Thickness|Length}}: Die Wandstärke der Setzstufen.
 
+-    {{PropertyData/de|Tread Depth|Length}}: (schreibgeschützt) Die Tiefe des Auftritts. Ist die {{PropertyData/de|Tread Depth Enforce}} 0, wird sie berechnet ({{PropertyData/de|Length}} / **Number of Steps**). Andernfalls hat sie denselben Wert, wie die {{PropertyData/de|Tread Depth Enforce}}.
 
-</div>
+-    {{PropertyData/de|Tread Depth Enforce|Length}}: Die erzwungene Tiefe des Auftritts.
+
+-    {{PropertyData/de|Tread Thickness|Length}}: Die Wandstärke des Auftritts.
 
 
 {{TitleProperty|Structure}}
 
+-    {{PropertyData/de|Connection Down Start Stairs|Enumeration}}: Die Art der Verbindung zwischen der unteren Bodenplatte und dem Beginn der Treppe. Kann {{value|HorizontalCut}}, {{value|VerticalCut}} oder {{value|HorizontalVerticalCut}} sein.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Connection End Stairs Up|Enumeration}}: Die Art der Verbindung zwischen dem Ende der Treppe und der Bodenplatte im oberen Stockwerk. Kann {{value|toFlightThickness}} oder {{value|toSlabThickness}} sein.
 
--    **Podeste**: Typ des Treppenpodestes.
+-    {{PropertyData/de|Down Slab Thickness|Length}}: Die Dicke der unteren Bodenplatte.
 
--    **Wangenversatz**: Der Versatz zwischen Treppenrand und Treppenwange.
+-    {{PropertyData/de|Flight|Enumeration}}: die Treppenlaufrichtung nach dem Podest. Kann {{value|Straight}}, {{value|HalfTurnLeft}} oder {{value|HalfTurnRight}} sein.
 
--    **Wangenbreite**: Breite der Treppenwange.
+-    {{PropertyData/de|Landings|Enumeration}}: Die Art der Podeste. Kann {{value|None}} oder {{value|At center}} sein ({{value|At each corner}} ist noch nicht implementiert).
 
--    **Lauf**: Typ des Treppenlaufs.
+-    {{PropertyData/de|Stringer Overlap|Length}}: Die Überlappung der Wangen über die Unterseite der Auftrittflächen.
 
--    **Laufdicke**: Die Höhe des Treppenlaufs.
+-    {{PropertyData/de|Stringer Width|Length}}: Die Breite der Wangen.
 
--    **Windung**: Die Art der Treppenwindung.
+-    {{PropertyData/de|Structure|Enumeration}}: Die Art der Struktur der Stufen. Kann {{value|None}}, {{value|Massive}}, {{value|One stringer}} oder {{value|Two stringers}} sein.
 
+-    {{PropertyData/de|Structure Offset|Length}}: Der Abstand zwischen der Begrenzung der Treppe und der Struktur.
 
-</div>
+-    {{PropertyData/de|Structure Thickness|Length}}: Die Dicke der Struktur.
+
+-    {{PropertyData/de|Up Slab Thickness|Length}}: Die Dicke der oberen Bodenplatte.
+
+-    {{PropertyData/de|Winders|Enumeration}}: Die art der Wendelung. Nicht implementiert.
 
 
 
 ## Einschränkungen
 
--   Momentan werden nur gerade Treppen unterstützt
+-   Momentan stehen nur gerade Treppen, solche mit einer halben Drehung nach rechts oder links und Podeste zur Verfügung.
 -   Siehe [Beitrag im Forum](http://forum.freecadweb.org/viewtopic.php?f=23&t=6534) bezüglich Wendeltreppen
 -   Siehe [Ankündigung im Forum](http://forum.freecadweb.org/viewtopic.php?f=9&t=4564)
 
@@ -168,5 +185,13 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/de
+⏵ [documentation index](../README.md) > Arch Stairs/de

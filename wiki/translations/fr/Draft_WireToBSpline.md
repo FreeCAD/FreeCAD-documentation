@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft WireToBSpline
-   Name/fr: Draft Polyligne vers B-spline
-   MenuLocation: Modification , Polyligne vers B-spline
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   Name/fr: Draft Polyligne <=> B-spline
+   MenuLocation: Modification , Convertir une polyligne en B-spline et inversement
+   Workbenches: Draft_Workbench/fr
    SeeAlso: Draft_Wire/fr, Draft_BSpline/fr
 ---
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Draft Polyligne vers B-spline** convertit les [Draft Polylignes](Draft_Wire/fr.md) en [Draft B-splines](Draft_BSpline/fr.md) et inversement.
+La commande <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Draft Polyligne \<=\> B-spline** convertit les [Draft Polylignes](Draft_Wire/fr.md) en [Draft B-splines](Draft_BSpline/fr.md) et inversement.
 
 <img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width:400px;"> 
 *Conversion d'une Draft Polyligne en Draft B-spline, et d'une Draft B-spline fermée en Draft Polyligne fermée.*
@@ -22,8 +22,8 @@ La commande <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;">
 
 1.  Sélectionnez une [Draft Polyligne](Draft_Wire/fr.md) ou une [Draft B-spline](Draft_BSpline/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_WireToBSpline.svg" width=16px> [Polyligne vers B-spline](Draft_WireToBSpline/fr.md)**.
-    -   Sélectionnez la **Modification → <img src="images/Draft_WireToBSpline.svg" width=16px> Polyligne vers B-spline** du menu.
+    -   Appuyez sur le bouton **<img src="images/Draft_WireToBSpline.svg" width=16px> [Convertir une polyligne en B-spline et inversement](Draft_WireToBSpline/fr.md)**.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_WireToBSpline.svg" width=16px> Convertir une polyligne en B-spline et inversement** du menu.
 3.  Un nouvel objet est créé.
 
 

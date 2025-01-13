@@ -11,7 +11,7 @@
 
 ## Description
 
-The **AdditiveHelix** tool creates a solid by sweeping a selected sketch or 2D object along a helix path.
+The **Additive Helix** tool creates a solid by sweeping a selected sketch or 2D object along a helix path.
 
 <img alt="" src=images/PartDesign_AdditiveHelix_example_overview.png  style="width:650px;">
 
@@ -114,6 +114,12 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 -    **Up to face**: Not used.
 
 -    **Allow multiple face**: Not used.
+
+## Notes
+
+-   A <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [ShapeBinder](PartDesign_ShapeBinder.md) cannot be used for the profile.
+-   When using a <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [SubShapeBinder](PartDesign_SubShapeBinder.md) for the profile, selecting the binder in the [Tree view](Tree_view.md) will fail, instead the binder\'s face has to be selected in the [3D view](3D_view.md).
+-   Helixes are very difficult for the underlying engine to calculate correctly because the curves involved push floating point precision to its limit. That means that performing further operations on a helix like attempting boolean operations with another object can be very sensitive to small changes. When they fail, they often break the model in surprising ways. To avoid this, you should try to make operations on a helix either clearly overlap (interfere) or clearly not overlap. Exact matches where the surface of the helix is perfectly aligned with the surface of another object are fragile. A thread around a bolt cylinder is an example of this. It may even work initially, and then break later when objects are moved slightly.
 
 ## Examples
 

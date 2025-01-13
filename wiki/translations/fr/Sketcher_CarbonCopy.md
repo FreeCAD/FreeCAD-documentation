@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher CarbonCopy
    Name/fr: Sketcher Copie carbone
-   MenuLocation: Esquisse , Géométries d'esquisse , Copie carbone
+   MenuLocation: Esquisse , Outils d'esquisse , Créer une copie carbone
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **W**
    Version: 0.17
@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Sketcher Copie carbone](Sketcher_CarbonCopy/fr.md)** copie toutes les géométries et contraintes d\'une autre esquisse dans l\'esquisse active.
+L\'outil **<img src="images/Sketcher_CarbonCopy.svg" width=24px> [Sketcher Copie carbone](Sketcher_CarbonCopy/fr.md)** copie toutes les géométries et contraintes d\'une autre esquisse dans l\'esquisse active.
 
 Les contraintes dimensionnelles qui existaient avant la fonction de copie restent liées aux contraintes dimensionnelles de l\'esquisse d\'origine via les [expressions](Expressions/fr.md).
 
@@ -20,24 +20,25 @@ Les contraintes dimensionnelles qui existaient avant la fonction de copie resten
 
 ## Utilisation
 
-1.  Assurez-vous que vous êtes en mode édition d\'une **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Esquisse](Sketcher_NewSketch/fr.md)**. Cette esquisse est la cible de l\'opération.
-2.  Appuyez sur le bouton **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Copie carbone](Sketcher_CarbonCopy/fr.md)**.
-3.  Cliquez sur une arête d\'une autre esquisse. Cette esquisse est la source de l\'opération.
-4.  Les éléments de géométrie ainsi que les contraintes sont copiés dans l\'esquisse active.
-5.  Appuyez sur **Echap** ou sur le bouton droit de la souris pour terminer l\'opération.
+1.  Assurez-vous d\'être en mode édition d\'une [esquisse](Sketcher_NewSketch/fr.md) existant. Cette esquisse est la cible de l\'opération.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_CarbonCopy.svg" width=16px> [Créer une copie carbone](Sketcher_CarbonCopy/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Outils d'esquisse → <img src="images/Sketcher_CarbonCopy.svg" width=16px> Créer une copie carbone** dans le menu.
+    -   Utilisez le raccourci clavier : **G** puis **W**.
+3.  Le curseur se transforme en croix avec l\'icône de l\'outil.
+4.  Choisissez une arête dans une autre esquisse. Cette esquisse est la source de l\'opération. Voir [Remarques](#Remarques.md).
+5.  Les éléments géométriques ainsi que les contraintes sont copiés dans l\'esquisse active.
+6.  Cet outil fonctionne toujours en mode continu : vous pouvez copier d\'autres esquisses.
+7.  Pour terminer, cliquez avec le bouton droit de la souris ou appuyez sur **Échap**, ou démarrez un autre outil de création de géométrie ou de contrainte.
 
 
 
 ## Remarques
 
--   Lorsque des esquisses sont utilisées dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md), normalement l\'esquisse sur copie carbone doit être dans le même **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)** que l\'esquisse active en cours. Si l\'esquisse à copier ne se trouve pas dans le [Corps](PartDesign_Body/fr.md) actif, le pointeur de la souris ne permet pas la sélection. Dans ce cas, maintenez **Ctrl** pour permettre la sélection d\'esquisses d\'autres corps.
--   Normalement, l\'esquisse à sélectionner doit être dans un plan parallèle à l\'esquisse active. Si l\'esquisse à copier n\'est pas parallèle à l\'esquisse active, maintenez **Ctrl** + **Alt** pour permettre la sélection d\'esquisses non parallèles. L\'objet sera alors ajusté au plan de l\'esquisse active. Remarqueː à ce jour, cela nécessite une sauvegarde et un rechargement du document pour le rendre visible. Cela fonctionne également pour les esquisses situées en dehors du [Corps](PartDesign_Body/fr.md) actif.
--   Comme les contraintes dimensionnelles copiées au carbone utilisent des expressions, elles sont rendues dans une couleur différente. La couleur peut être personnalisée avec les [Réglages des préférences](Preferences_Editor/fr.md) dans **Édition → Préférences → Sketcher → Couleurs → Couleur de contraintes → Contraintes dépendant d'une expression**.
--   Si le mode de Sketcher a été changé en mode construction en utilisant **[<img src=images/Sketcher_ToggleConstruction.svg style="width:24px"> [Basculer le mode de la géométrie de construction](Sketcher_ToggleConstruction/fr.md)**, toute la géométrie copiée sera créée en mode construction.
-
-## Limitations
-
--   L\'esquisse complète est copiée : il n\'est pas possible de sélectionner uniquement une partie. Cependant, après la copie, vous pouvez supprimer les éléments indésirables de l\'esquisse copiée.
+-   Dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md), il est possible de sélectionner l\'esquisse à copier au carbone depuis l\'extérieur du [Body](PartDesign_Body/fr.md) de l\'esquisse active, mais uniquement si la touche **Ctrl** est maintenue enfoncée pendant la sélection.
+-   L\'esquisse à copier doit être parallèle à l\'esquisse active. Si ce n\'est pas le cas, les touches **Ctrl** et **Alt** doivent être maintenues enfoncées pendant la sélection. Cela fonctionne également pour les esquisses situées en dehors du corps actif.
+-   Si le [mode de construction](Sketcher_ToggleConstruction/fr.md) est actif, la géométrie copiée est créée en tant que géométrie de construction.
+-   L\'esquisse complète est copiée, il n\'est pas possible de n\'en sélectionner qu\'une partie. Mais après la copie, vous pouvez supprimer les éléments non désirés.
 
 
 

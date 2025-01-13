@@ -15,6 +15,8 @@ Notez que l\'**<img src="images/Workbench_FEM.svg" width=16px> [atelier FEM](FEM
 
 *Diagramme simplifié des relations entre les objets centraux dans Freecad*
 
+
+
 ## Utilisation
 
 Presque tous les objets maillés créés par les commandes disponibles dans l\'interface graphique de l\'[atelier Mesh](Mesh_Workbench/fr.md) sont des [Mesh Features](Mesh_Feature/fr.md). Les objets maillés paramétriques créés par la commande [Mesh Solide régulier](Mesh_BuildRegularSolid/fr.md) sont les seules exceptions. Un [Mesh Feature](Mesh_Feature/fr.md) peut également être créé à partir de la [console Python](Python_console/fr.md) comme décrit dans la section [Script](Mesh_Feature/fr#Script.md).
@@ -23,13 +25,17 @@ L\'objet `Mesh::Feature` est défini dans l\'[atelier Mesh](Mesh_Workbench/fr.md
 
 Un `Mesh::Feature` a des propriétés simples comme un [placement](Placement/fr.md) et des propriétés visuelles pour définir l\'apparence de ses arêtes et faces.
 
+
+
 ## Propriétés
 
 Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les objets crées par script peuvent avoir.
 
 La classe [Mesh Feature](Mesh_Feature/fr.md) (classe `Mesh::Feature`) est dérivée de [App GeoFeature](App_GeoFeature/fr.md) de base. (classe `App::GeoFeature`) et hérite de toutes ses propriétés. Elle possède également plusieurs propriétés supplémentaires, notamment une propriété **Mesh**, qui stocke son [Mesh MeshObject](Mesh_MeshObject/fr.md). Il s\'agit de la géométrie qui est affichée dans la [vue 3D](3D_view/fr.md).
 
-Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](Property_editor/fr.md).
+Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Tout afficher** dans le menu contextuel de l\'[éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ### Données
 
@@ -64,6 +70,8 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property
 -    **Expression Engine|ExpressionEngine|Hidden**: une liste d\'expressions. Par défaut, elle est vide {{value|[]}}.
 
 -    **Visibility|Bool|Hidden**: affichage ou non de l\'objet.
+
+
 
 ### Vue
 
@@ -116,6 +124,8 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property
 -    **Selectable|Bool**: si elle vaut `True`, l\'objet peut être sélectionné avec le pointeur dans la [vue 3D](3D_view/fr.md). Sinon, l\'objet ne peut pas être sélectionné tant que cette option n\'est pas définie sur `True`.
 
 -    **Selection Style|Enumeration**: {{value|Shape}} (par défaut), {{value|BoundBox}}. Si l\'option est {{value|Shape}}, la forme entière (sommets, arêtes et faces) sera mise en évidence dans la [vue 3D](3D_view/fr.md) ; si elle est {{value|BoundBox}}, seule la boîte de délimitation sera mise en évidence.
+
+
 
 ## Script
 

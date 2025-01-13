@@ -32,6 +32,10 @@ A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" s
 
 Double-click the DatumPlane label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Part EditAttachment](Part_EditAttachment.md).
 
+## Preferences
+
+The default diffuse color and transparency of [PartDesign datums](PartDesign_CompDatums.md) is controlled by the **DefaultDatumColor** [fine-tuning parameter](Fine-tuning#PartDesign_Workbench.md).
+
 ## Properties
 
 -    **MapMode**: lists the attachment mode used.

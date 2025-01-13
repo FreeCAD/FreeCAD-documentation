@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Popis
 
 Stavba je speciální typ skupiny objektů FreeCADu, zvlášť přizpůsobené k prezentaci celých stavebních jednotek. Většinou jsou využívány pro uspořádání Vašeho modelu obsahujícího objekty [podlaží](Arch_Floor/cs.md)
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -27,6 +31,8 @@ Stavba je speciální typ skupiny objektů FreeCADu, zvlášť přizpůsobené k
 
 </div>
 
+
+
 ## Volby
 
 
@@ -41,6 +47,8 @@ Stavba je speciální typ skupiny objektů FreeCADu, zvlášť přizpůsobené k
 ## Properties
 
 -    **Building Type**: The type of this building, to choose from a list
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
@@ -102,6 +110,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/cs
+⏵ [documentation index](../README.md) > Arch Building/cs

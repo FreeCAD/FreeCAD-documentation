@@ -14,245 +14,246 @@
 
 
 
-## Introduction
 
-This tutorial shows how to place [Arch Windows](Arch_Window.md) and Doors in a building model, how to display them as open in the 3D view, and how to create a 2D drawing (plan and elevation projection) for the model. It uses the [Draft Workbench](Draft_Workbench.md), the [Arch Workbench](Arch_Workbench.md), and the [TechDraw Workbench](TechDraw_Workbench.md).
 
-Common tools used are: [Draft Grid](Draft_Snap_Grid.md), [Draft Snap](Draft_Snap.md), [Draft Wire](Draft_Wire.md), [Arch Wall](Arch_Wall.md), [Arch Window](Arch_Window.md), [Arch SectionPlane](Arch_SectionPlane.md), and [TechDraw ArchView](TechDraw_ArchView.md).
+## Wprowadzenie
 
-See also the following page for some videos on how to work with windows and doors.
+Ten poradnik pokazuje, jak umieszczać [okna architektoniczne](Arch_Window/pl.md) i drzwi w modelu budynku, jak wyświetlać je jako otwarte w widoku 3D oraz jak tworzyć rysunek 2D *(projekcję planu i elewacji)* dla modelu. Wykorzystuje środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md) i [Rysunek Techniczny](TechDraw_Workbench/pl.md).
 
--   [The workbench used to create architectural projects is called Arch](http://help-freecad-jpg87.fr/04_arch_ind.php)
+Często używanymi narzędziami są: [Siatka](Draft_Snap_Grid/pl.md), [Przyciągnij](Draft_Snap/pl.md), [Polilinia](Draft_Wire/pl.md) środowiska Rysunek roboczy, [Ściana](Arch_Wall/pl.md), [Okno](Arch_Window/pl.md), [Płaszczyzna przekroju](Arch_SectionPlane/pl.md) środowiska Architektura, oraz [Widok Architektoniczny](TechDraw_ArchView/pl.md) środowiska Rysunek Techniczny.
 
-## Setup
+Zobacz również poniższą stronę, aby zobaczyć kilka filmów na temat pracy z oknami i drzwiami.
 
-1\. Open FreeCAD, create a new empty document, and switch to the [Arch Workbench](Arch_Workbench.md).
+-   [Środowisko pracy używane do tworzenia projektów architektonicznych nosi nazwę Architektura](http://help-freecad-jpg87.fr/04_arch_ind.php).
 
-2\. Make sure your units are set correctly in the menu **Edit → Preferences → General → Units**. For example, `MKS (m/kg/s/degree)` is good for dealing with distances in a typical building; moreover, set the number of decimals to `4`, to consider even the smallest fractions of a meter.
 
-3\. Use the [Draft ToggleGrid](Draft_ToggleGrid.md) button to show a grid with enough resolution. You can change the grid appearance in the menu **Edit → Preferences → Draft → Grid and snapping → Grid**. Set lines at every `50 mm`, with major lines every `20` lines (every meter), and `1000 lines` in total (the grid covers an area of 50 m x 50 m).
 
-4\. [Zoom out](Std_ViewZoomOut.md) of the 3D view if you are too close to the grid.
+## Konfiguracja
 
-Now we are ready to create a simple building with closed walls, two doors and two windows.
+1\. Otwórz program FreeCAD, utwórz nowy pusty dokument i przejdź do środowiska [Architektura](Arch_Workbench/pl.md).
 
-## Placing a wall 
+2\. Upewnij się, że jednostki są prawidłowo ustawione w menu **Edycja → Preferencje ... → Ogólne → Jednostki**. Na przykład {{Incode|MKS (m/kg/s/stopnie)}} jest dobre do radzenia sobie z odległościami w typowym budynku; co więcej, ustaw liczbę miejsc dziesiętnych na {{Incode|4}}, aby uwzględnić nawet najmniejsze ułamki metra.
 
-5\. Use the [Draft Wire](Draft_Wire.md) tool to create a closed wire. Go counterclockwise.
+3\. Użyj przycisku [Przełącz widoczność siatki](Draft_ToggleGrid/pl.md), aby wyświetlić siatkę z wystarczającą rozdzielczością. Wygląd siatki można dostosować w menu **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Siatka**. Ustaw linie co `50 mm`, z głównymi liniami co `20` linii *(co metr)* i `1000 linii` w sumie (siatka obejmuje obszar 50 m x 50 m).
 
-:   5.1. First point in (0, 0, 0); in the dialog enter **0** **m** **Enter**, **0** **m** **Enter**, **0** **m** **Enter**.
-:   5.2. Second point in (3, 0, 0). Press **X** to constrain the movement to the X axis; enter the value **3** **m** **Enter**.
-:   5.3. Third point in (3, 4, 0). Press **Y** to constrain the movement to the Y axis; enter the value **4** **m** **Enter**.
-:   5.4. Fourth point in (0, 4, 0). Press **X** to constrain the movement to the X axis; enter the value **-** **3** **m** **Enter**.
-:   5.5. Press **O** to close the Wire, and close the tool.
-:   5.6. In the number pad press **0** to get an [axonometric view](Std_ViewIsometric.md) of the model.
-:   
-    **Note:**the points can also be defined with the mouse pointer by choosing intersections on the grid, with the help of the [Draft Snap](Draft_Snap.md) toolbar and the [Draft Grid](Draft_Snap_Grid.md) method.
+4\. [Oddal](Std_ViewZoomOut/pl.md) widok 3D, jeśli znajdujesz się zbyt blisko siatki.
 
-6\. Select the `DWire` and change the property **Make Face** to `False`.
+Teraz jesteśmy gotowi do stworzenia prostego budynku z zamkniętymi ścianami, dwoma drzwiami i dwoma oknami.
 
-7\. Select the `DWire` and click the [Arch Wall](Arch_Wall.md) tool; the Wall is immediately created with a default width (thickness) of 0.2 m, and height of 3 m.
 
-:   
-    **Note:**if the property **Make Face** of `DWire` is `True`, this step would create a solid block, instead of using only the contour of `DWire`.
+
+## Umieszczenie ściany 
+
+5\. Użyj narzędzia [Polilinia](Draft_Wire/pl.md), aby utworzyć zamkniętą linię. Idź zgodnie z ruchem wskazówek zegara. 5.1. Pierwszy punkt w (0, 0, 0). W oknie dialogowym wprowadź **0** **m** **Enter**, **0** **m** **Enter**, **0** **m** **Enter**. 5.2. Drugi punkt w (3, 0, 0). Naciśnij **X**, aby ograniczyć ruch do osi X; wprowadź wartość **3** **m** **Enter**. 5.3. Trzeci punkt w (3, 4, 0). Naciśnij **Y**, aby ograniczyć ruch do osi Y; wprowadź wartość **4** **m** **Enter**. 5.4. Czwarty punkt w (0, 4, 0). Naciśnij **X**, aby ograniczyć ruch do osi X. Wprowadź wartość **-** **3** **m** **Enter**. 5.5. Naciśnij **O**, aby zamknąć linię i zakończyć narzędzie. 5.6. Na klawiaturze numerycznej naciśnij **0**, aby uzyskać [widok aksonometryczny](Std_ViewIsometric/pl.md) modelu. **Uwaga:** punkty można również zdefiniować za pomocą kursora myszki, wybierając przecięcia na siatce, przy pomocy paska narzędzi [przyciągania](Draft_Snap/pl.md) i metody [przyciągnij do siatki](Draft_Snap_Grid/pl.md).
+
+6\. Wybierz {{Incode|DWire}} i zmień właściwość **Utwórz ścianę** na {{FALSE/pl}}.
+
+7\. Wybierz {{Incode|DWire}} i kliknij narzędzie [Ściana](Arch_Wall/pl.md). Ściana zostanie natychmiast utworzona z domyślną szerokością *(grubością)* 0,2 m i wysokością 3 m. **Uwaga:** jeśli właściwość **Utwórz ściane** `DWire` ma wartość {{TRUE/pl}}, ten krok utworzy bryłę, zamiast używać tylko konturu `DWire`.
 
 <img alt="" src=images/01_T01_wire_wall.png  style="width:600px;"> 
-*align=center|Base wire for the wall; it is a closed wire that doesn't make a face*
+*align=center|Podstawowa polilinia dla ściany. To zamknięta linia, która nie tworzy powierzchni.*
 
 <img alt="" src=images/02_T01_just_wall.png  style="width:600px;"> 
-*align=center|Wall constructed from the wire*
+*align=center|Ściana utworzona z polilini*
 
-## Placing doors and windows 
 
-8\. Click the [Arch Window](Arch_Window.md) tool; as preset select `Simple door`, and change the height to 2 m.
 
-:   8.1. Change the snapping to [Draft Midpoint](Draft_Snap_Midpoint.md), and try selecting the bottom edge of the frontal wall; rotate the [standard view](Std_View_Menu.md) as necessary to help you pick the edge and not the wall face; when the midpoint is active, click to place the door.
-:   8.2. Click the [Arch Window](Arch_Window.md) tool again, and place another door, but this time in the midpoint of the rear wall; rotate the [standard view](Std_View_Menu.md) as necessary.
+## Umieszczanie drzwi i okien 
+
+8\. Kliknij narzędzie [Okno](Arch_Window/pl.md). Jako wstępnie wybierz `Proste drzwi`, a wysokość zmień na 2 m.
+
+:   8.1. Zmień przyciąganie na [Przyciągnij do punktu środkowego](Draft_Snap_Midpoint/pl.md) i spróbuj wybrać dolną krawędź ściany frontowej. W razie potrzeby ustaw [widok standardowy](Standard_view.md), aby wybrać krawędź, a nie lico ściany; gdy punkt środkowy jest aktywny, kliknij, aby umieścić drzwi.
+:   8.2. Ponownie kliknij narzędzie [Okno architektoniczne](Arch_Window.md), i umieść kolejne drzwi, tym razem w środku tylnej ściany. Dostosuj [widok standardowy](Std_View_Menu/pl.md) według potrzeb.
 
 <img alt="" src=images/03_T01_wall_place_door_rear.png  style="width:600px;"> 
-*align=center|Snapping to the midpoint of the bottom edge of the wall to place the door*
+*align=center|Przyciąganie do punktu środkowego dolnej krawędzi ściany w celu umieszczenia drzwi.*
 
-9\. Click the [Arch Window](Arch_Window.md) tool; as preset select `Open 1-pane`, and change the `Sill height` to 1 m.
+9\. Kliknij narzędzie [Okno](Arch_Window/pl.md). Jako wstępnie wybierz `Otwarte jednoskrzydłowe`, a wysokość `Progu` zmień na 1 m.
 
-:   9.1. Keep the snapping to [Draft Midpoint](Draft_Snap_Midpoint.md), and try selecting the lower edge of the left side wall; rotate the [standard view](Std_View_Menu.md) as necessary to help you pick the edge and not the wall face; when the midpoint is active, click to place the window.
-
-
+:   9.1. Zachowaj przyciąganie do [punktu środkowego](Draft_Snap_Midpoint/pl.md), i spróbuj wybrać dolną krawędź lewej ściany.Obróć [widok standardowy](Std_View_Menu/pl.md) według potrzeb, aby pomóc w wybraniu krawędzi, a nie powierzchni ściany. Gdy środek odcinka jest aktywny, kliknij, aby umieścić okno.
 
 
+**Uwaga:**
 
-:   
-    **Note:**the `Sill height` is the distance from the floor to the lower edge of the element. For doors the `Sill height` is usually 0 m as doors are normally touching the floor; on the other hand, windows have a usual separation of 0.5 m to 1.5 m from the floor.
+`Wysokość progu` to odległość od podłogi do dolnej krawędzi elementu. Dla drzwi `Wysokość progu` zazwyczaj wynosi 0 m, ponieważ drzwi zazwyczaj stykają się z podłogą. Natomiast okna zwykle mają odstęp od 0,5 m do 1,5 m od podłogi.
 
-
-
-
-
-:   9.2. Click the [Arch Window](Arch_Window.md) tool again, and place another window, but this time in the midpoint of the right wall; rotate the [standard view](Std_View_Menu.md) as necessary. This time make the window\'s width (length) 1.5 m, and again make the `Sill height` 1 m.
+9.2. Kliknij ponownie narzędzie [Okno](Arch_Window/pl.md) i umieść kolejne okno, tym razem w środku prawej ściany. Obróć widok [standardowy](Std_View_Menu/pl.md), jeśli to konieczne. Tym razem szerokość okna *(długość)* ustaw na 1,5 m, a `Wysokość progu` ponownie na 1 m.
 
 <img alt="" src=images/04_T01_wall_place_door_side_right.png  style="width:600px;"> 
-*align=center|Snapping to the midpoint of the bottom edge of the wall to place the window*
+*align=center|Przyciąganie do punktu środkowego dolnej krawędzi ściany w celu umieszczenia okna.*
 
 :   
-    **Note:**the `Sill height` parameter can only be set when initially creating the window with a preset. Once the window is inserted, modify its placement by editing the **Position** vector `[x, y, z]` of the underlying [Sketcher Sketch](Sketcher_Workbench.md).
+    **Uwaga:**parametr `Wysokość progu` można ustawić tylko podczas początkowego tworzenia okna z predefiniowaną konfiguracją. Po wstawieniu okna można zmienić jego położenie, edytując wektor `[x, y, z]` właściwości **Pozycja** podkładającego [szkicu](Sketcher_Workbench/pl.md).
 
 
 
 
 
-:   9.3. Move the `Window001` a bit higher. Select the underlying `Sketch003`, and change its **Position** from `[3.1 m, 2.0 m, 1.0 m]` to `[3.1 m, 2.0 m, 1.6 m]`. The entire `Window001` should move up. The wall may still show an opening in the previous position; if this happens, right click the `Wall` element, select `Mark to recompute`, and then press **Ctrl**+**R** to [recompute](recompute.md) the model.
+:   9.3. Przesuń okno `Window001` trochę wyżej. Wybierz podkładający `Sketch003` i zmień jego właściwość **Pozycja** z `[3,1 m, 2,0 m, 1,0 m]` na `[3,1 m, 2,0 m, 1,6 m]`. Całe okno `Window001` powinno się przesunąć w górę. Ściana może wciąż pokazywać otwarcie w poprzednim miejscu. Jeśli tak się dzieje, kliknij prawym przyciskiem myszy element `Wall`, wybierz `Oznacz do przeliczenia` i następnie naciśnij klawisze **Ctrl** + **R**, aby [przeliczyć](Std_Refresh/pl.md) model.
 
 <img alt="" src=images/04.1_T01_wall_built.png  style="width:600px;"> 
-*align=center|Wall built with doors and windows*
+*align=center|Ściana z drzwiami i oknami.*
 
 
-**Note:**
+**Uwaga:**
 
-when placing a window or a door with a preset, hover the element over the [Arch Wall](Arch_Wall.md), and wait for the element to rotate so that it is parallel to that wall. Aim for the bottom edge of the wall, and use the `Sill height` to adjust the distance from the floor. If this is difficult, use the [Draft Near](Draft_Snap_Near.md) snapping mode of the [Draft Snap](Draft_Snap.md) toolbar to insert the element anywhere on the face of the wall, and then adjust its **Position** manually as described above. Having many [Draft Snap](Draft_Snap.md) modes active at the same time may cause issues with placing the element, so try with only one option at a time.
+Podczas umieszczania okna lub drzwi z ustawieniami wstępnymi, najedź na element nad [ścianą](Arch_Wall.md) i poczekaj, aż element obróci się tak, że będzie równoległy do tej ściany. Celuj w dolny brzeg ściany i użyj `Wysokość progu` do dostosowania odległości od podłogi. Jeśli to trudne, użyj trybu przyciągania [do najbliższego](Draft_Snap_Near/pl.md) z paska narzędzi [przyciągania](Draft_Snap/pl.md), aby wstawić element w dowolnym miejscu na powierzchni ściany, a następnie dostosuj jego właściwość **Pozycja** ręcznie, zgodnie z opisem powyżej. Posiadanie wielu aktywnych jednocześnie trybów [przyciągania](Draft_Snap/pl.md) może powodować problemy z umieszczeniem elementu, więc spróbuj korzystać z jednej opcji na raz.
 
 
-**Note 2:**
+**Uwaga 2:**
 
-occasionally the window may be placed outside the [Arch Wall](Arch_Wall.md); as long as the element is parallel to that wall, you should be able to correct the position manually.
+czasami okno może być umieszczone poza [ścianą](Arch_Wall/pl.md). O ile element jest równoległy do tej ściany, powinieneś być w stanie ręcznie poprawić jego położenie.
 
-## Opening the doors 
 
-10\. In the tree view select `Sketch` underlying `Door`, and press **Space**, or change the property **Visibility** to `True`
 
-11\. Double click `Door` in the tree view to start editing it.
+## Otwieranie drzwi 
 
-:   11.1. Inside the `Window elements` frame there are two panes, `Wires` and `Components`.
+10\. W widoku drzewa wybierz {{Incode|Sketch}} leżący pod {{Incode|Door}} i naciśnij **Space** lub zmień właściwość **Widoczność** na {{TRUE/pl}}.
+
+11\. Kliknij dwukrotnie obiekt {{Incode|Door}} w widoku drzewa, aby rozpocząć edycję.
+
+:   11.1. Wewnątrz ramy `elementów okna` znajdują się dwa panele, `Wire` i `Components`.
 :   
-    **Note:**with a simple door preset there are two wires, `Wire0` and `Wire1`, and two components, `OuterFrame` and `Door`. A custom designed [Arch Door](Arch_Door.md) may have more wires and components.
+    **Uwaga:**w przypadku prostego ustawienia drzwi są dwie polilinie, `Wire0` i `Wire1`, oraz dwa komponenty, `OuterFrame` i `Door`. Niestandardowo zaprojektowane [drzwi](Arch_Door/pl.md) mogą zawierać więcej polilinii i komponentów.
 
 
 
 
 
-:   11.2. Click on `Door`, and click the **Edit** button. This shows the properties of the `Door` component like `Name`, `Type`, `Wires`, `Thickness`, `Offset`, `Hinge`, and `Opening mode`.
-:   11.3. In the 3D view, select only one vertical edge in the visible sketch of the door, then click the **Get selected edge** button. The button should change to an edge name, for example, **Edge8**.
-:   11.4. Change the `Opening mode` to **Arc 90**, or any other option.
-:   11.5. Click the **+Create/update component** button, and then **Close** to finish editing the door. The sketch may become hidden again.
+:   11.2. Kliknij na `Door` i kliknij przycisk **Edycja**. Spowoduje to wyświetlenie właściwości komponentu `Door`, takich jak `Name`, `Type`, `Wires`, `Thickness`, `Offset`, `Hinge` i `Opening mode`.
+:   11.3. W widoku 3D wybierz tylko jedną pionową krawędź na widocznym szkicu drzwi, a następnie kliknij przycisk **Pobierz wybraną krawędź**. Przycisk powinien zmienić się na nazwę krawędzi, na przykład **Edge8**.
+:   11.4. Zmień {{Incode|Opening mode}} na **Arc 90** lub dowolną inną opcję.
+:   11.5. Kliknij przycisk **+Twórz/aktualizuj komponent**, a następnie **Zamknij**, aby zakończyć edycję drzwi. Szkic może zostać ponownie ukryty.
 
 ![](images/05_T01_window_edit.png ) 
-*align=center|Dialog to edit a window or a door*
+*align=center|Okno dialogowe do edycji okna lub drzwi*
 
 ![](images/06_T01_window_edit_component.png ) 
-*align=center|Dialog to edit the components that make a window or a door*
+*align=center|Okno dialogowe do edycji komponentów tworzących okno lub drzwi.*
 
 <img alt="" src=images/06.1_T01_window_edit_wire_door_front.png  style="width:600px;"> 
-*align=center|Vertical edge of sketch selected as hinge for a door*
+*align=center|Pionowa krawędź szkicu wybrana jako zawias drzwi.*
 
-12\. Select `Door`, and give the property **Opening** a value of 45. The solid panel of the door should open to the inside of the building.
+12\. Wybierz {{Incode|Drzwi}} i nadaj właściwości **Otwarcie** wartość 45. Pełny panel drzwi powinien otwierać się do wewnątrz budynku.
 
-13\. Select `Door`, and change the property **Symbol Elevation** to `True`; the tip of the created wire indicates which side of the door opens; this is easier to see if the viewport changes to [front view](Std_ViewFront.md). Change the property **Symbol Plan** to `True`; a circular arc should indicate the extent of the door\'s swing; this is easier to see if the viewport changes to [top view](Std_ViewTop.md).
+13\. Wybierz {{Incode|Drzwi}} i zmień właściwość **Symbol Elevation** na {{TRUE/pl}}. Końcówka utworzonej linii wskazuje, z której strony otwierają się drzwi. Jest to łatwiejsze do zauważenia, jeśli widok zostanie zmieniony na [od przodu](Std_ViewFront/pl.md). Zmień właściwość **Symbol Plan** na {{TRUE/pl}}. Okrągły łuk powinien wskazywać zakres obrotu drzwi. Jest to łatwiejsze do zobaczenia, jeśli widok zostanie zmieniony na [od góry](Std_ViewTop/pl.md).
 
-14\. Repeat the steps with `Door001` and the underlying `Sketch001` to make the door open 75 degrees to the inside of the building. Also enable the elevation and plan symbols.
+14\. Powtórz kroki z obiektem {{Incode|Drzwi001}} i obiektem bazowym {{Incode|Szkic001}}, aby drzwi otwierały się pod kątem 75° do wnętrza budynku. Włącz także symbole elewacji i planu.
 
 ![](images/07_T01_window_property_view.png ) 
-*align=center|Property view of the door to change Opening value, Symbol elevation, Symbol plan, and other options*
+*align=center|Widok właściwości drzwi umożliwiający zmianę wartości otwarcia, symbolu elewacji, symbolu planu i innych opcji.*
 
 <img alt="" src=images/08_T01_window_symbol_elevation.png  style="width:600px;"> 
-*align=center|Door with opening elevation symbol, front view*
+*align=center|Drzwi z symbolem otwarcia na rzucie elewacji, widok z przodu.*
 
 <img alt="" src=images/09_T01_window_symbol_plan.png  style="width:600px;"> 
-*align=center|Door with plan symbol, top view*
-
-## Opening the windows 
-
-15\. In the tree view select `Sketch002` underlying `Window`, and press **Space**, or change the property **Visibility** to `True`.
-
-16\. Double click `Window` in the tree view to start editing it.
-
-:   16.1. Click on the `InnerFrame` component, and click the **Edit** button.
+*align=center|Drzwi z symbolem planu, widok z góry.*
 
 
 
+## Otwieranie drzwi 
 
+15\. W widoku drzewa wybierz {{Incode|Sketch002}} leżący pod {{Incode|Oknem}} i naciśnij **Spacja** lub zmień właściwość **Widoczność** na {{TRUE/pl}}.
 
-:   16.2. In the 3D view, select only one vertical edge of `Sketch002`. The wires representing `OuterFrame` and the `InnerFrame` are very close to each other, so [zoom in](Std_ViewZoomIn.md) as close as possible to the sketch to select the appropriate wire. Then click the **Get selected edge** button. The button should change to an edge name, for example, **Edge12**.
-:   
-    **Note:**when there are many solids on the screen that it becomes difficult to select only one edge, switch to [wireframe mode](Std_DrawStyle#Wireframe.md) to remove the faces of those solid objects, and see only the wires, edges, and contours.
+16\. Kliknij dwukrotnie obiekt {{Incode|Okno}} w widoku drzewa, aby rozpocząć edycję.
+
+:   16.1. Kliknij komponent {{Incode|WewnętrznaRama}} i kliknij przycisk **Edytuj**.
 
 
 
 
 
-:   16.3. Change the `Opening mode` to `Arc 90 inv`, or any other option.
+:   16.2. W widoku 3D zaznacz tylko jedną pionową krawędź w `Szkic002`. Linie reprezentujące `ZewnętrznaRama` i `WewnętrznaRama` są bardzo blisko siebie, więc [prybliż](Std_ViewZoomIn.md) widok szkicu, aby wybrać odpowiednią linię. Następnie kliknij przycisk **Pobierz wybraną krawędź**. Przycisk powinien zmienić się na nazwę krawędzi, na przykład **Krawędź12**.
 
-17\. Select `Window`, and give the property **Opening** a value of 45. The inner frame containing the transparent glass should open to the inside of the building.
 
-18\. Select `Window`, and change the property **Symbol Elevation** to `True`; the tip of the created wire indicates which side of the window opens; this is easier to see if the viewport changes to [left side view](Std_ViewLeft.md). Change the property **Symbol Plan** to `True`; a circular arc should indicate the extent of the window\'s swing; this is easier to see if the viewport changes to [top view](Std_ViewTop.md).
+**Uwaga:**
 
-19\. Repeat the steps with `Window001` and the underlying `Sketch003` to make the window open 75 degrees. Also show the elevation and plan symbols. In this case, don\'t pick a vertical wire of the `InnerFrame` as hinge, but pick the top horizontal wire. This means that this window will open differently from the other window. The elevation symbol will be better seen from a [right side view](right_side_view.md). The plan symbol will be better seen from the [front view](Std_ViewFront.md); however, since the wall is obstructing the view, you can change its **Transparency** to a value such as 85 to see through it; alternatively you can also change its **Display Mode** to `Wireframe` to show only its edges. <img alt="" src=images/06.2_T01_window_edit_wire_side_right.png  style="width:600px;"> 
-*align=center|Horizontal edge of sketch selected as hinge for a window*
+gdy na ekranie znajduje się wiele brył, że trudno jest wybrać tylko jedną krawędź, przełącz się na widok [szkieletowy](Std_DrawStyle/pl#Szkieletowy.md), aby usunąć powierzchnie tych brył i zobaczyć tylko same linie, krawędzie i kontury.
+
+:   16.3. Zmień `Tryb otwierania` na `Łuk 90 wew`, lub dowolną inną opcję.
+
+17\. Wybierz {{Incode|Okno}} i nadaj właściwości **Otwarcie** wartość 45. Wewnętrzna rama zawierająca przezroczyste szkło powinna otwierać się do wnętrza budynku.
+
+18\. Wybierz {{Incode|Okno}} i zmień właściwość **Symbol Elevation** na {{TRUE/pl}}. Końcówka utworzonej linii wskazuje, z której strony otwierają się drzwi. Jest to łatwiejsze do zauważenia, jeśli widok zostanie zmieniony na [od przodu](Std_ViewFront/pl.md). Zmień właściwość **Symbol Plan** na {{TRUE/pl}}. Okrągły łuk powinien wskazywać zakres obrotu drzwi. Jest to łatwiejsze do zobaczenia, jeśli widok zostanie zmieniony na [od góry](Std_ViewTop/pl.md).
+
+19\. Powtórz kroki z obiektami {{Incode|Okno001}} i bazowym {{Incode|Szkic003}}, aby okno otwierało się pod kątem 75 stopni. Pokaż również symbole elewacji i planu. W tym przypadku nie wybieraj pionowej linii `WewnętrznaRama` jako zawiasu, ale wybierz górną linię poziomą. Oznacza to, że to okno będzie otwierać się inaczej niż pozostałe. Symbol elewacji będzie lepiej widoczny z [prawej strony](Std_ViewRight/pl.md). Symbol planu będzie lepiej widoczny od [przodu](Std_ViewFront/pl.md). Jednakże, ponieważ ściana zasłania widok, możesz zmienić jej właściwość **Przezroczystość** na wartość taką jak 85, aby przez nią widzieć. Alternatywnie możesz także zmienić jej właściwość **Tryb wyświetlania** na `Szkieletowy`, aby pokazać tylko jej krawędzie. <img alt="" src=images/06.2_T01_window_edit_wire_side_right.png  style="width:600px;"> 
+*align=center|Pozioma krawędź szkicu wybrana jako zawias okna.*
 
 <img alt="" src=images/10_T01_window_all_symbol_axonometric.png  style="width:600px;"> 
-*align=center|Elevation and plan symbols for all elements, axonometric view*
+*align=center|Symbole elewacji i planu dla wszystkich elementów, widok aksonometryczny.*
 
 <img alt="" src=images/11_T01_window_all_symbol_top.png  style="width:600px;"> 
-*align=center|Elevation and plan symbols for all elements, top view*
-
-## Making a floor plan of the building 
-
-20\. Still in the [Arch Workbench](Arch_Workbench.md), select all components in the tree view, the [Arch Wall](Arch_Wall.md), the two [Arch Windows](Arch_Window.md), and the two [Arch Doors](Arch_Door.md), then use the [Arch SectionPlane](Arch_SectionPlane.md) tool to create a `Section` element.
+*align=center|Symbole elewacji i planu dla wszystkich elementów, widok z góry.*
 
 
-**Note:**
 
-change the property **Arrow size** of the section plane to a larger value, for example, `200 mm`, so that the direction of the section is clearly visible in the 3D viewport.
+## Sporządzenie planu piętra budynku 
+
+20\. Wciąż będąc w środowisku pracy [Architektura](Arch_Workbench/pl.md), zaznacz wszystkie komponenty w widoku drzewa, [ściana](Arch_Wall/pl.md), dwa [oknas](Arch_Window/pl.md) i dwoje [drzwis](Arch_Door/pl.md), a następnie użyj narzędzia [Płaszczyzna przekroju](Arch_SectionPlane/pl.md), aby utworzyć obiekt `Przekroju`.
+
+
+**Uwaga:**
+
+zmień właściwość **Wielkość strzałki** płaszczyzny przekroju na większą wartość, na przykład {{Value|200 mm}}, aby kierunek przekroju był wyraźnie widoczny w widoku 3D.
 
 <img alt="" src=images/11.1_T01_Arch_SectionPlane_all.png  style="width:600px;"> 
-*align=center|Section plane cutting through solid objects, including walls, doors, and windows*
+*align=center|Płaszczyzna przekroju przecinająca obiekty stałe, w tym ściany, drzwi i okna.*
 
-21\. Change to the [TechDraw Workbench](TechDraw_Workbench.md) and insert a new page with the [TechDraw PageDefault](TechDraw_PageDefault.md) tool; a new `Page` object is created, and the view switches to this page. The page inserted is a standard A4 sheet in landscape orientation, with a basic frame around it. Use the [TechDraw PageTemplate](TechDraw_PageTemplate.md) tool if you need to create a new page using a particular [SVG](SVG.md) template.
+21\. Przełącz się na środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) i wstaw nową stronę za pomocą narzędzia [Wstaw nową domyślną stronę rysunku](TechDraw_PageDefault/pl.md). Zostanie utworzony nowy obiekt `Strona`, a widok zostanie przełączony na tę stronę. Wstawiona strona to standardowy arkusz formatu A4 w orientacji poziomej, z podstawowym obramowaniem. Użyj narzędzia [Wstaw nową stronę przy użyciu szablonu](TechDraw_PageTemplate/pl.md), jeśli potrzebujesz utworzyć nową stronę przy użyciu określonego szablonu [Svg](SVG/pl.md).
 
-22\. Select `Section`, and use the [TechDraw ArchView](TechDraw_ArchView.md) tool to create an `ArchView` object in the page. Most probably the new object won\'t be visible in the page because it has a very large scale of `1`, that is, 1:1. This means that every meter in the 3D view is shown as a meter in the page view; since the page is only 0.297 m x 0.210 m in size, most features are too big to fit in this page at their natural scale.
+22\. Wybierz `Przekrój` i użyj narzędzia [Wstaw obiekt środowiska Architektura](TechDraw_ArchView/pl.md), aby utworzyć obiekt {{Incode|Widok architektoniczny}} na stronie. Najprawdopodobniej nowy obiekt nie będzie widoczny na stronie, ponieważ ma bardzo dużą skalę {{value|1}}, czyli 1:1. Oznacza to, że każdy metr w widoku 3D jest wyświetlany jako metr w widoku strony. Ponieważ strona ma rozmiar zaledwie 0,297 m x 0,210 m, większość elementów jest zbyt duża, aby zmieścić się na tej stronie w ich naturalnej skali.
 
-23\. Select this `ArchView` object, and change the property **Scale** to `0.02`, which is equivalent to 1:50, a scale suitable for typical buildings. This means every meter in the 3D view will be shown as 20 mm in the page. The object should appear in the center of the page, and can be moved to a better position on the left side. The two doors should look like they are open, but only the left window should look open. The reason the right window doesn\'t appear in the projection is that the plane defined by `Section` does not cut through this right window.
+23\. Wybierz obiekt {{Incode|Widok architektoniczny}} i zmień właściwość **Skala** na {{Incode|0.02}}, co odpowiada skali 1:50, odpowiedniej dla typowych budynków. Oznacza to, że każdy metr w widoku 3D będzie wyświetlany jako 20 mm na stronie. Obiekt powinien pojawić się na środku strony i może zostać przesunięty w lepsze miejsce po lewej stronie. Dwoje drzwi powinno wyglądać na otwarte, ale tylko lewe okno powinno wyglądać na otwarte. Powodem, dla którego prawe okno nie pojawia się w rzucie, jest to, że płaszczyzna zdefiniowana przez `Przekrój` nie przecina tego prawego okna.
 
 <img alt="Section view of the building, A4 sheet, scale 1:50" src=images/12_T01_TechDraw_window_all_symbols.png  style="width:600px;"> 
-*align=center|Section plane cutting through solid objects, including walls, doors, and windows*
+*align=center|Płaszczyzna przekroju przecinająca obiekty stałe, w tym ściany, drzwi i okna.*
 
-24\. Switch back to the [Arch Workbench](Arch_Workbench.md). In the tree view select all components again, and use the [Arch SectionPlane](Arch_SectionPlane.md) tool to create a second `Section001` element.
+24\. Wróć do środowiska pracy [Architektura](Arch_Workbench/pl.md). W widoku drzewa ponownie wybierz wszystkie komponenty i użyj narzędzia [Płaszczyzna przekroju](Arch_SectionPlane/pl.md), aby utworzyć drugi obiekt `Przekrój001`.
 
-:   24.1. Select `Section001` and change the property **Position** to `[1.5 m, 2.0 m, 1.8 m]`. This second plane does cut through all Arch objects.
-:   24.2. Switch back to the [TechDraw Workbench](TechDraw_Workbench.md). Select `Section001`, use the [TechDraw ArchView](TechDraw_ArchView.md) tool to create `ArchView001`, and set **Scale** to `0.02`. The new view in the TechDraw page now shows all openings in the [Arch Wall](Arch_Wall.md) produced by doors and windows.
+:   24.1. Wybierz {{Incode|Przekrój001}} i zmień właściwość **Pozycja** na {{Incode|[1.5 m, 2.0 m, 1.8 m]}}. Ta druga płaszczyzna przecina wszystkie obiekty Architektoniczne.
+:   24.2. Wróć do środowiska [Rysunek Techniczny](TechDraw_Workbench/pl.md). Wybierz {{Incode|Przekrój001}}, użyj narzędzia [Wstaw obiekt środowiska Architektura](TechDraw_ArchView/pl.md), aby utworzyć `ArchView001` i ustaw właściwość **Skala** na {{Value|0.02}}. Nowy widok na stronie Rysunku technicznego pokazuje teraz wszystkie otwory w [ścianie](Arch_Wall/pl.md) utworzone przez drzwi i okna.
 
 
-**Note:**
+**Uwaga:**
 
-set **All On** to `True` for [TechDraw ArchView](TechDraw_ArchView.md) objects so that all elements cut by the plane are visible in the page, regardless of their visibility state in the 3D viewport. The option **Show Fill** can also be set to `True` to draw a shade on the solids that were cut by the section plane.
+ustawienie właściwości **All On** na {{TRUE/pl}} dla obiektów [Wstaw obiekt środowiska Architektura](TechDraw_ArchView/pl.md) powoduje, że wszystkie elementy przecięte przez płaszczyznę są widoczne na stronie, niezależnie od ich stanu widoczności w widoku 3D. Opcję **Pokaż wypełnienie** również można ustawić na {{TRUE/pl}}, aby pokazać cień na bryłach, które zostały przecięte przez płaszczyznę przekroju.
 
 <img alt="" src=images/13_T01_TechDraw_window_all_symbols_higher.png  style="width:600px;"> 
-*align=center|Section view of the building, with a second plane cut, A4 sheet, scale 1:50*
+*align=center|Widok przekroju budynku z wyciętą drugą płaszczyzną, arkusz A4, skala 1:50*
 
-## Making an elevation projection of the building 
 
-25\. Go back to the [Arch Workbench](Arch_Workbench.md). In the tree view, select all components, the [Arch Wall](Arch_Wall.md), the two [Arch Windows](Arch_Window.md), and the two [Arch Doors](Arch_Door.md), then use the [Arch SectionPlane](Arch_SectionPlane.md) tool to create a third `Section002` element.
 
-:   25.1. Rotate `Section002`, so that it cuts vertically through the building. Change the properties **Axis** to `[1, 0, 0]`, and **Angle** to `90`.
-:   25.2. Change the **Position** to `[1.5 m, -1 m, 1.5 m]`, so that the plane is in front of the building.
+## Wykonanie rzutu elewacji budynku 
+
+25\. Wróć do środowiska pracy [Architektura](Arch_Workbench/pl.md). W widoku drzewa zaznacz wszystkie komponenty, [ściana](Arch_Wall/pl.md), dwa [okna](Arch_Window/pl.md) i dwoje [drzwis](Arch_Door/pl.md), a następnie użyj narzędzia [Płaszczyzna przekroju](Arch_SectionPlane/pl.md), aby utworzyć trzeci element `Przektój002`.
+
+:   25.1. Obróć {{Incode|Przektój002}}, tak aby przecinał pionowo budynek. Zmień właściwości **Oś** na `[1, 0, 0]` i **Kąt** na `90`.
+:   25.2. Zmień właściwość **Pozycja** na `[1.5 m, -1 m, 1.5 m]`, aby płaszczyzna znajdowała się przed budynkiem.
 
 <img alt="" src=images/14.1_T01_Arch_SectionPlane_three.png  style="width:600px;"> 
-*align=center|Section planes that cut or look at the building and the solid objects*
+*align=center|Płaszczyzny przekroju, które przecinają lub patrzą na budynek i obiekty stałe.*
 
-26\. Go back to the [TechDraw Workbench](TechDraw_Workbench.md), and use the [TechDraw ArchView](TechDraw_ArchView.md) tool on `Section002`; remember to adjust the scale to `0.02` (1:50). Change **Rotation** to `-90` to correct the appearance of the projections. Arrange `ArchView002` next to the other views in the page. This third projection looks at the building from the front.
+26\. Wróć do środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) i użyj narzędzia [Wstaw obiekt środowiska Architektura](TechDraw_ArchView/pl.md) na obiektcie {{Incode|Przekrój002}}. Pamiętaj o dostosowaniu skali do {{Incode|0.02}} *(1:50)*. Zmień właściwość **Obrót** na `-90`, aby skorygować wygląd rzutów. Ułóż {{Incode|ArchView002}} obok innych widoków na stronie. Ten trzeci rzut przedstawia budynek od frontu.
 
 <img alt="" src=images/14_T01_TechDraw_window_all_symbols_elevation.png  style="width:600px;"> 
-*align=center|Section view of the building, two top views, and one elevation view, A4 sheet, scale 1:50*
-
-## Arch and TechDraw interaction 
-
-As of the time of writing of this document (FreeCAD 0.18, November 2018), the [TechDraw Workbench](TechDraw_Workbench.md) can only display in its pages what the [Arch Workbench](Arch_Workbench.md) exports as [SVG](SVG.md). This means that the appearance of the elements included within the [Arch SectionPlane](Arch_SectionPlane.md) tool, and displayed by the [TechDraw ArchView](TechDraw_ArchView.md) tool, is controlled by the [Arch Workbench](Arch_Workbench.md).
-
-The [TechDraw Workbench](TechDraw_Workbench.md) only has minimal control over how it displays those [Arch SectionPlane](Arch_SectionPlane.md) (`ArchView`) objects. Therefore, bug reports and feature requests related to displaying Arch elements should be filed with both workbenches.
-
-A closer interaction between the workbenches is planed for future versions of FreeCAD. In those versions it is expected that long-standing issues be resolved, such as controlling the characteristics of lines and faces (line width, line color, face color, hatch patterns, and others).
+*align=center|Widok przekroju budynku, dwa widoki z góry i jeden widok elewacji, arkusz A4, skala 1:50.*
 
 
-  {{TechDraw Tools navi}}
+
+## Współdziałanie środowiska Architektura i Rysunek Techniczny 
+
+Na dzień pisania tego poradnika *(FreeCAD 0.18, listopad 2018)*, środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) może wyświetlać na swoich stronach tylko to, co środowisko [Architektura](Arch_Workbench/pl.md), zapewnia eksport jako [SVG](SVG/pl.md). Oznacza to, że wygląd elementów zawartych w narzędziu [Płaszczyzna przekroju](Arch_SectionPlane/pl.md), i wyświetlanych przez narzędzie [Wstaw obiekt środowiska Architektura](TechDraw_ArchView/pl.md), jest kontrolowany przez środowisko [Architektura](Arch_Workbench/pl.md).
+
+Środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) ma tylko minimalną kontrolę nad tym, jak wyświetla te obiekty [płaszczyzny przekroju](Arch_SectionPlane/pl.md) *(`ArchView`)*. Dlatego raporty o błędach i prośby o dodanie funkcji dotyczących wyświetlania elementów Architektury powinny być zgłaszane do obu środowisk pracy.
+
+Bliska interakcja między środowiskami pracy jest planowana na przyszłe wersje FreeCAD. W tych wersjach oczekuje się rozwiązania długotrwałych problemów, takich jak kontrola cech linii i powierzchni *(grubość linii, kolor linii, kolor powierzchni, wzory kreskowania i inne)*.
+
+
+{{BIM_Tools_navi
+
+}} {{Draft_Tools_navi}} {{TechDraw_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/pl
+⏵ [documentation index](../README.md) > Tutorial for open windows/pl

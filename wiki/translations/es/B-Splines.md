@@ -1,6 +1,8 @@
 # B-Splines/es
 Esta página describe cómo utilizar las B-splines en FreeCAD. También ofrece información sobre qué son las B-splines y para qué aplicaciones son útiles.
 
+
+
 ## Motivación
 
 Si ya conoces las B-splines y su aplicación, puedes continuar directamente con la sección [B-splines en FreeCAD](#B-splines_en_FreeCAD.md).
@@ -29,7 +31,11 @@ BIEN. Pero en el fondo no necesitas apoyo inmediato.
 
 Así, una curva con la que se puedan conectar dos puntos tangencialmente a un punto de referencia puede ser muy útil para las construcciones. Las curvas de Bézier ofrecen esta característica.
 
+
+
 ## Curvas Bézier 
+
+
 
 ### Derivación
 
@@ -75,6 +81,7 @@ Para responder a la pregunta, la solución con el final de la dirección y tange
 
 [<img src=images/B-splines_Motivation-cubic-bezier.png style="width:450px">
 
+<span id="Rules"></span>
 === Reglas ===
 
 <div class="mw-translate-fuzzy">
@@ -84,6 +91,7 @@ En el texto anterior ya habrás notado algunas "reglas" para las curvas de Bézi
 * Una curva de Bézier siempre comienza tangencialmente a la línea entre el punto inicial y el primer punto de control (y termina tangencialmente a la línea entre el último punto de control y el punto final).
 </div>
 
+<span id="Math"></span>
 === Matemáticas ===
 
 Si estás interesado en entender las matemáticas de fondo, aquí tienes lo básico.
@@ -100,6 +108,8 @@ Una curva de Bézier se calcula con esta fórmula:
 Si le interesa más, eche un vistazo a [Las matemáticas de las curvas de Bézier](https://pomax.github.io/bezierinfo/#explanation) con una derivación muy bien animada de las matemáticas de las curvas de Bézier.
 
 ## B-Splines 
+
+
 
 ### Básicos
 
@@ -156,6 +166,8 @@ The knot vector comprises the knots of the $N_{i,n}$ basis functions that define
 
 The derivative until which continuity exists is given by the multiplicity $m$. Therefore we can specify a vector with the multiplicity for every knot: $\{m_0, m_1,\dots, m_k\}$. A knot on a spline with degree *d* and the multiplicity *m* tells that the curve left and right to the knot has at least an equal *n* order derivative (called *C*^*n*^ continuity) whereas $n=d-m$.
 
+
+
 ### B-splines no-uniformes 
 
 
@@ -195,9 +207,13 @@ Estas B-splines no-uniformes y racionales (por la división) suelen llamarse **N
 
 </div>
 
+
+
 ## B-splines en FreeCAD 
 
 FreeCAD ofrece la posibilidad de crear B-splines uniformes o no uniformes de cualquier grado en 2D a través del [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md).
+
+
 
 ### Creación
 
@@ -215,15 +231,25 @@ Para crear B-splines periódicas (B-splines que forman una curva cerrada), utili
 
 ![](images/Sketcher_Periodic-B-spline-creation.gif )
 
+
+<div class="mw-translate-fuzzy">
+
 Las B-splines también pueden generarse a partir de segmentos de croquis existentes. Para ello, seleccione los elementos y pulse el botón de la barra de herramientas **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Convertir geometría en B-spline](Sketcher_BSplineApproximate/es.md)**.
 
+
+</div>
+
 While creating a B-spline, its degree can be specified by pressing the **D** key. With this, the default to create a cubic B-spline if possible, can be overridden. <small>(v0.20)</small> 
+
+
 
 ### Cambio de grado 
 
 Para cambiar el grado, seleccione la B-spline y utilice el botón de la barra de herramientas **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> [Aumentar grado de la B-spline](Sketcher_BSplineIncreaseDegree/es.md)** o **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> [Decrementar grado de B-spline](Sketcher_BSplineDecreaseDegree/es.md)**.
 
 Nota:\'\'\' Disminuir el grado no puede revertir un aumento anterior del grado, ver la página Wiki [Disminuir el grado de la B-spline](Sketcher_BSplineDecreaseDegree/es.md) para una explicación.
+
+
 
 ### Cambiar la multiplicidad de nudos 
 
@@ -232,6 +258,8 @@ Los puntos donde se conectan dos curvas Bézier para formar la B-spline se llama
 Para cambiar la multiplicidad de nudos, utilice los botones de la barra de herramientas **[<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> [B-spline aumenta la multiplicidad de nudos](Sketcher_BSplineIncreaseKnotMultiplicity/es.md)** o **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:24px"> [B-spline disminuye la multiplicidad de los nudos](Sketcher_BSplineDecreaseKnotMultiplicity/es.md)**.
 
 **Nota:** La creación de dos B-Splines conectadas entre sí no se unirá a una sola B-spline nueva. Por lo tanto, su punto de conexión no es un nodo. La única manera de obtener un nuevo nodo en una B-spline existente es disminuir el grado. Sin embargo, puede obtener muchos nudos nuevos. Por tanto, la mejor opción es redibujar la B-spline con más puntos de control.
+
+
 
 ### Cambiar el peso 
 
@@ -263,6 +291,8 @@ A knot is deleted by decreasing it\'s degree to 0 (i.e applying **[<img src=imag
 
 Changing the parameter value of a knot is not yet supported.
 
+
+
 ### Mostrar Información 
 
 Como la forma de una B-spline no dice mucho sobre sus propiedades, FreeCAD ofrece [diferentes herramientas](Sketcher_Workbench/es#Herramientas_de_la_B-spline_de_Sketcher.md) para mostrar las propiedades:
@@ -291,6 +321,8 @@ Como la forma de una B-spline no dice mucho sobre sus propiedades, FreeCAD ofrec
 |                            |                                                                                                                                                    |
 +++
 
+
+
 ### Limitaciones
 
 
@@ -306,6 +338,8 @@ De momento (FreeCAD 0.19) hay algunas limitaciones al usar splines que debes con
 
 </div>
 
+
+
 ## Casos típicos de uso 
 
 Según las propiedades de las B-splines, hay 3 casos de uso principales:
@@ -313,6 +347,8 @@ Según las propiedades de las B-splines, hay 3 casos de uso principales:
 1.  Curvas que comienzan/terminan tangencialmente a una determinada dirección. Un ejemplo de esto es el ejemplo de motivación [arriba](#Motivación.md).
 2.  Curvas que describen diseños más grandes y proporcionan la libertad de cambios locales. Véase [este ejemplo](#Diseño.md) más abajo.
 3.  Curvas que proporcionan una cierta continuidad (derivada). Véase [este ejemplo](#Continuidad_en_las_transiciones_geométricas.md) más abajo.
+
+
 
 ### Diseño
 
@@ -323,6 +359,8 @@ Tomemos por ejemplo el caso de que usted diseñe la carcasa de una batidora de c
 Para definir la forma exterior es ventajoso utilizar una B-spline porque cuando se cambia un punto de control para cambiar la curvatura en la parte inferior, la curvatura en el lado y la parte superior no se cambiará:
 
 ![](images/Sketcher_spline-exmple-mixer-sketch.gif )
+
+
 
 ### Continuidad en las transiciones geométricas 
 

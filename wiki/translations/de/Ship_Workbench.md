@@ -53,9 +53,11 @@ Der Arbeitsbereich Ship (Schiff) wurde seit v0.17 nicht mehr gewartet, ist aber 
 -   Github: <https://github.com/FreeCAD/freecad.ship>
 -   Diskussion: <https://forum.freecadweb.org/viewtopic.php?f=8&t=60885>
 
-## Acknowledgments
 
-Many developers have contributed to this module development, and we want to express our gratitude to them.
+
+## Danksagung
+
+Viele Entwickler haben zur Entwicklung dieses Moduls beigetragen und wir möchte ihnen unseren Dank aussprechen.
 
 -   All the FreeCAD team for the maintenance operations over all these years.
 -   Jose Luis Cercós Pita as the main developer.

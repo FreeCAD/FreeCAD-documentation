@@ -23,9 +23,9 @@ Il comando **Registra una macro** avvia una sessione di registrazione della [mac
 ## Utilizzo
 
 1.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Std_DlgMacroRecord.svg" width=16px> [Registra una macro](Std_DlgMacroRecord/it.md)**.
+    -   Premere il pulsante **<img src="images/Std_DlgMacroRecord.svg" width=16px> [Registra una macro...](Std_DlgMacroRecord/it.md)**.
     -   Selezionare l\'opzione **Macro → <img src="images/Std_DlgMacroRecord.svg" width=16px> Registra una macro...** dal menu.
-2.  Si apre la finestra di dialogo Registra macro.
+2.  Si apre la finestra di dialogo **Registra macro**.
 3.  Immettere un nome per la macro nella casella di inserimento **Nome macro**.
 4.  Opzionalmente cambiare il **Percorso macro** premendo il pulsante **...**.
 5.  Il pulsante **Ferma** non funziona in questo momento.
@@ -33,7 +33,7 @@ Il comando **Registra una macro** avvia una sessione di registrazione della [mac
 7.  L\'immagine del pulsante del comando cambia in **<img src="images/Std_MacroStopRecord.svg" width=16px>** e il testo del menu cambia in **Interrompi registrazione macro**.
 8.  Eseguire le azioni che si desidere registrare.
 9.  Per terminare la sessione di registrazione, eseguire una delle seguenti operazioni:
-    -   Premere il pulsante **<img src="images/Std_MacroStopRecord.svg" width=16px> [Registra](Std_DlgMacroRecord/it.md)**.
+    -   Premere il pulsante **<img src="images/Std_MacroStopRecord.svg" width=16px> [Interrompi la registrazione](Std_DlgMacroRecord/it.md)**.
     -   Seleziona l\'opzione **Macro → <img src="images/Std_MacroStopRecord.svg" width=16px> Interrompi la registrazione** dal menu.
 
 
@@ -53,16 +53,18 @@ Il comando **Registra una macro** avvia una sessione di registrazione della [mac
 
 ## Preferenze
 
--   Il percorso della macro può essere modificato anche nelle preferenze: **Modifica → Preferenze... → Python → Macro → Percorso macro**. Vedi [Editor delle preferenze](Preferences_Editor/it#Macro.md).
+Vedere anche: [Editor delle Preferenze](Preferences_Editor/it.md).
+
+-   Il percorso della macro può essere modificato anche nelle preferenze: **Modifica → Preferenze... → Python → Macro → Percorso macro**.
 -   Nella maggior parte dei casi non è consigliabile registrare azioni che non modificano il modello: in **Modifica → Preferenze... → Python → Macro → Comandi GUI** eseguire una delle seguenti operazioni:
-    -   Per escludere queste azioni, deselezionare la casella di controllo {{CheckBox|FALSE|Registra comandi GUI}}.
-    -   Per includerli solo come commenti selezionare entrambe le caselle di controllo {{CheckBox|TRUE|Registra comandi GUI}} e {{CheckBox|TRUE|Registra come commento}}.
+    -   Per escludere queste azioni, deselezionare la casella di controllo **Registra comandi GUI**.
+    -   Per includerli solo come commenti selezionare entrambe le caselle di controllo **Registra comandi GUI** e **Registra come commento**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

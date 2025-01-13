@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft SetWorkingPlaneProxy
-   Name/it: Piano di lavoro proxy
-   MenuLocation: Utilità , Crea piano di lavoro Proxy
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Piano di lavoro proxy
+   MenuLocation: Utilità , Crea piano di lavoro Proxy<br>Utilità , Crea piano di lavoro Proxy
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    SeeAlso: Draft SelectPlane/it
 ---
 
@@ -26,14 +26,15 @@ Il comando <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px
 2.  Facoltativamente modificare la [Vista 3D](3D_view/it.md).
 3.  Facoltativamente, modificare lo stato di visibilità degli oggetti nel documento.
 4.  Esistono diversi modi per richiamare il comando:
-    -   Premere il pulsante **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Crea piano di lavoro proxy](Draft_WorkingPlaneProxy/it.md)**.
-    -   Selezionare l\'opzione **Utilità → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Crea piano di lavoro proxy** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Premere il pulsante **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Crea piano di lavoro proxy](Draft_WorkingPlaneProxy/it.md)**.
+    -   Draft: Selezionare l\'opzione **Utilità → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Crea piano di lavoro proxy** dal menu, o dalla [Vista ad albero](Tree_view/it.md) o dal menu contestuale della [Vista 3D](3D_view/it.md).
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Utilità → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Crea piano di lavoro proxy** dal menu.
 5.  Viene creato un Piano di lavoro proxy.
 6.  Per allineare il [piano di lavoro](Draft_SelectPlane/it.md) con un Piano di lavoro proxy, fare doppio clic sul Piano di lavoro proxy nella [Vista ad albero](Tree_view/it.md) o utilizzarlo con il comando [Draft Seleziona piano](Draft_SelectPlane/it.md).
 
 
 
-## Menu contestuale 
+## Menù contestuale 
 
 Per un Draft Piano di lavoro proxy queste opzioni aggiuntive sono disponibili nel menu contestuale [Vista ad albero](Tree_view/it.md):
 

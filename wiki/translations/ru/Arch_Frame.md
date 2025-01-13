@@ -10,6 +10,11 @@
 
 # Arch Frame/ru
 
+
+</div>
+
+
+
 ## Описание
 
 
@@ -30,11 +35,15 @@
 
 </div>
 
+
+
 ## Применение
 
 1.  Create a layout object and a profile object, for example with the [Draft Workbench](Draft_Workbench.md) or the [Sketcher Workbench](Sketcher_Workbench.md).
 2.  Select the layout object first, then, with **Ctrl** pressed, select the profile object.
-3.  Press the **<img src="images/Arch_Frame.svg" width=16px> [Arch Frame](Arch_Frame.md)** button, or press **F** then **R** keys.
+3.  Press the **<img src="images/Arch_Frame.svg" width=16px> [Frame](Arch_Frame.md)** button, or press **F** then **R** keys.
+
+
 
 ## Опции
 
@@ -42,17 +51,98 @@
 -   The frame object can be placed at a certain distance from the layout object, by setting its Offset property
 -   The profile will be copied at the base of each edge of the layout object, then extruded along it. You can control how the profile is placed at the base of each edge with the Align and Rotation properties.
 
+
+
 ## Свойства
 
--    **Base**: The layout this frame is based on.
+### Data
 
--    **Profile**: The profile this frame is based on.
 
--    **Align**: Specifies if the profile must be rotated to have its normal axis aligned with each edge.
+{{TitleProperty|Component}}
 
--    **Offset**: An optional distance between the layout object and the frame object.
+-    **Base|Link**: The layout this frame is based on.
 
--    **Rotation**: The rotation of the profile around its extrusion axis.
+For the other properties in the group see [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|Frame}}
+
+-    **Align|Bool**: Specifies if the profile must be rotated to have its normal axis aligned with each edge.
+
+-    **Base Point|Integer**: Zero-based index indicating the crossing point of the path on the profile:
+
+    -   
+        {{Value|0}}
+        
+        : The **Base** of the **Placement** of the profile. This point is also used in case of an invalid index.
+
+    -   
+        {{Value|1}}
+        
+        : The midpoint of the 1st edge of the profile.
+
+    -   
+        {{Value|2}}
+        
+        : The endpoint of the 1st edge of the profile.
+
+    -   
+        {{Value|3}}
+        
+        : The midpoint of the 2nd edge of the profile.
+
+    -   
+        {{Value|4}}
+        
+        : The endpoint of the 2nd edge of the profile.
+
+    -   \...
+
+    -   
+        {{Value|n*2-1}}
+        
+        : The midpoint of the nth edge of the profile.
+
+    -   
+        {{Value|n*2}}
+        
+        : The endpoint of the nth edge of the profile.
+
+-    **Edges|Enumeration**: The type of edges to consider. The options are:
+
+    -   
+        {{Value|All edges}}
+        
+
+    -   
+        {{Value|Vertical edges}}
+        
+
+    -   
+        {{Value|Horizontal edges}}
+        
+
+    -   
+        {{Value|Bottom horizontal edges}}
+        
+        : Based of the global Z coordinate of the center of mass of the edge.
+
+    -   
+        {{Value|Top horizontal edges}}
+        
+        : Idem.
+
+-    **Fuse|Bool**: If true, overlapping solids are fused.
+
+-    **Offset|VectorDistance**: An optional distance between the layout object and the frame object.
+
+-    **Profile|Link**: The profile this frame is based on.
+
+-    **Profile Placement|Placement**: An optional additional placement to add to the profile before extruding it. Only the **Rotation** of the **Placement** is used. Ignored if **Align** is `True`.
+
+-    **Rotation|Angle**: The rotation of the profile around its extrusion axis.
+
+
 
 ## Программирование
 
@@ -69,7 +159,9 @@
 
 </div>
 
-The Frame tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The Frame tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Frame = makeFrame(baseobj, profile)
 ```
@@ -85,7 +177,9 @@ Frame = makeFrame(baseobj, profile)
         
         is an extrudable 2D object containing faces or closed wires.
 
-Пример: 
+Пример:
+
+
 ```python
 import Draft, Arch
 
@@ -98,6 +192,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Frame/ru
+⏵ [documentation index](../README.md) > Arch Frame/ru

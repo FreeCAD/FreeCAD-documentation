@@ -81,7 +81,7 @@ Oprócz właściwości opisanych na stronie [Część: Cecha](Part_Feature/pl.md
 
 Narzędzie Blend Curve może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) poprzez dodanie obiektu `Surface::FeatureBlendCurve`.
 
--   Krawędzie, które mają być użyte do zdefiniowania krzywej, muszą być przypisane jako [Struktura danych LinkSub](LinkSub/pl.md) do właściwości `StartEdge` i `EndEdge` obiektu.
+-   Krawędzie, które mają być użyte do zdefiniowania krzywej, muszą być przypisane jako [Struktura danych LinkSub](FeaturePython_Custom_Properties/pl#App:_PropertyLinkSub.md) do właściwości `StartEdge` i `EndEdge` obiektu.
 -   Wszystkie obiekty z krawędziami muszą zostać obliczone, zanim będą mogły zostać użyte jako dane wejściowe dla właściwości obiektu Blend Curve.
 
 

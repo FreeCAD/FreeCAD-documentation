@@ -1,23 +1,29 @@
 ---
  GuiCommand:
    Name: Arch PipeConnector
-   MenuLocation: Arch , Pipe Tools , Pipe Connector
-   Workbenches: Arch_Workbench
+   MenuLocation: 3D/BIM , Connector
+   Workbenches: BIM_Workbench
    Shortcut: **P** **C**
    Version: 0.17
-   SeeAlso: Arch_Pipe, Arch_Equipment
+   SeeAlso: 
 ---
 
 # Arch PipeConnector/pt-br
 
+
+
 ## Descrição
 
-This tool allows to create corner or tee connection between two or three selected [Arch Pipes](Arch_Pipe.md).
+The **Arch PipeConnector** tool allows to create corner or tee connection between two or three selected [Arch Pipes](Arch_Pipe.md).
+
+
 
 ## Utilização
 
 1.  Select 2 or 3 [Arch Pipes](Arch_Pipe.md). If you are selecting 3 pipes, two of them must be exactly aligned.
-2.  Press the **<img src="images/Arch_PipeConnector.svg" width=16px> [Arch PipeConnector](Arch_PipeConnector.md)** button, or press **P** then **C** keys.
+2.  Press the **<img src="images/Arch_PipeConnector.svg" width=16px> [Connector](Arch_PipeConnector.md)** button, or press **P** then **C** keys.
+
+
 
 ## Propriedades
 
@@ -34,7 +40,9 @@ See the information on [Arch Pipe](Arch_Pipe.md) for the workflow on using pipes
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Pipe Connector tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The Pipe Connector tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Connector = makePipeConnector(pipes, radius=0, name="Connector")
 ```
@@ -42,7 +50,9 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 -   Creates a `Connector` object from the given `pipes`, which is a list of [Arch Pipes](Arch_Pipe.md), and optionally a `radius` of curvature.
     -   The base objects ([Draft Wires](Draft_Wire.md)) of the [Arch Pipes](Arch_Pipe.md) should share an endpoint so they create a proper, smooth connector.
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -85,6 +95,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/pt-br
+⏵ [documentation index](../README.md) > Arch PipeConnector/pt-br

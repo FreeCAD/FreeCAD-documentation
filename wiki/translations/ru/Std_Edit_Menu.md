@@ -45,7 +45,13 @@
 
 -   <img alt="" src=images/Std_Paste.svg  style="width:32px;"> [Вставить](Std_Paste/ru.md): Вставляет содержимое буфера обмена в документ.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_DuplicateSelection.svg  style="width:32px;"> [Дублировать выбранное](Std_DuplicateSelection/ru.md): Дублирует объекты в документе.
+
+
+</div>
 
 -   <img alt="" src=images/Std_Refresh.svg  style="width:32px;"> [Обновить](Std_Refresh/ru.md): Пересчитывает документ.
 
@@ -73,6 +79,8 @@
 
 -   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [Редактировать/закончить редактирование](Std_Edit/ru.md): Активирует или деактивирует режим редактирования объекта.
 
+-   <img alt="" src=images/Std_Properties.svg  style="width:32px;"> [Properties](Std_Properties.md): Displays the [Property view panel](Property_editor.md). <small>(v1.0)</small> 
+
 -   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> [Edit mode](Std_UserEditMode.md): Defines the edit mode to be used when an object is double-clicked in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
 
 
@@ -88,7 +96,7 @@
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

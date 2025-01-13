@@ -25,26 +25,13 @@ Il comando **Stereo off** disattiva la modalità stereo nella [Vista 3D](3D_view
 
 ## Script
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
-
-Per modificare la visualizzazione in stereo off utilizzare il metodo `setStereoType` dell\'oggetto ActiveView. Questo metodo non è disponibile se FreeCAD è in modalità console.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.setStereoType('None')
-FreeCADGui.ActiveDocument.ActiveView.getStereoType()
-```
+Vedere [Stereo rosso/ciano](Std_ViewIvStereoRedGreen/it#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

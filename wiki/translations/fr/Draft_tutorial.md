@@ -1,8 +1,8 @@
 ---
  TutorialInfo:r
-   Topic:  Drafting
-   Level:  Débutant
-   Time:  30 minutes
+   Topic: Esquisser
+   Level: Débutant
+   Time: 30 minutes
    Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei et vocx
    FCVersion: 0.19
    Files: https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Draft tutorial updated
@@ -39,8 +39,8 @@ Ce tutoriel utilise la notation {{Value|(x, y, z)}} pour désigner les coordonn�
 1\. Ouvrez FreeCAD, créez un nouveau document vide avec **Fichier → [<img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)**.
 
 :   1.1. Basculez vers l\'[atelier Draft](Draft_Workbench/fr.md) depuis le [sélecteur d\'atelier](Std_Workbench/fr.md) ou le menu **Affichage → Atelier → [<img src=images/Workbench_Draft.svg style="width:16px"> Draft**.
-:   1.2. Assurez-vous de comprendre comment utiliser l\'[éditeur de propriétés](property_editor/fr.md), en particulier les onglets **Données** et **Affichage** pour modifier les propriétés. Lors de la modification des propriétés, vous devrez peut-être effectuer une action **<img src="images/Std_Refresh.svg" width=16px> [Std Rafraîchir](Std_Refresh/fr.md)** pour voir le résultat dans la [vue 3D](3D_view/fr.md).
-:   1.3. Comme les objets Draft sont des formes planes, ils sont mieux vus du dessus. Utilisez **[<img src=images/Std_ViewTop.svg style="width:16px"> [vue de dessus](Std_ViewTop/fr.md)** pour définir la [Vue 3D](3D_view/fr.md).
+:   1.2. Assurez-vous de comprendre comment utiliser l\'[éditeur de propriétés](Property_editor/fr.md), en particulier les onglets **Données** et **Affichage** pour modifier les propriétés. Lors de la modification des propriétés, vous devrez peut-être effectuer une action **<img src="images/Std_Refresh.svg" width=16px> [Std Recalculer](Std_Refresh/fr.md)** pour voir le résultat dans la [vue 3D](3D_view/fr.md).
+:   1.3. Comme les objets Draft sont des formes planes, ils sont mieux vus du dessus. Utilisez **[<img src=images/Std_ViewTop.svg style="width:16px"> [vue de dessus](Std_ViewTop/fr.md)** pour définir la [vue 3D](3D_view/fr.md).
 :   1.4. Bien qu\'elle ne soit pas utilisée dans ce tutoriel, la grille Draft est utile pour positionner des éléments géométriques. Utilisez **[<img src=images/Draft_SelectPlane.svg style="width:16px"> [Plan de travail](Draft_SelectPlane/fr.md)** pour définir à la fois le plan de travail et la grille, puis affichez et masquez la grille avec **[<img src=images/Draft_ToggleGrid.svg style="width:16px"> [Visibilité de la grille](Draft_ToggleGrid/fr.md)**.
 
 
@@ -82,7 +82,7 @@ Avant d\'appuyer sur le bouton, vous pouvez également modifier la valeur du dé
 5\. Nous allons maintenant créer un profil fermé en liant les arcs avec des lignes.
 
 :   5.1. Appuyez sur **[<img src=images/Draft_Line.svg style="width:16px"> [Ligne](Draft_Line/fr.md)**.
-:   5.2. Dans la [Barre d\'outils Aimantation](Draft_Snap/fr.md), assurez-vous que **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Activer/désactiver l'aimantation](Draft_Snap_Lock/fr.md)** est actif et que **[<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** également. Lorsque vous déplacez le pointeur sur l\'arc et à proximité de l\'un de ses extrémités, l\'icône <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Terminaison](Draft_Snap_Endpoint/fr.md) doit apparaître. De plus, le point cible est mis en valeur par un grand point blanc. Cliquez pour sélectionner ce point.
+:   5.2. Dans la [Barre d\'outils Aimantation](Draft_Snap/fr.md), assurez-vous que **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Activer/désactiver l'aimantation](Draft_Snap_Lock/fr.md)** est actif et que **[<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Extrémité](Draft_Snap_Endpoint/fr.md)** également. Lorsque vous déplacez le pointeur sur l\'arc et à proximité de l\'un de ses extrémités, l\'icône <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Extrémité](Draft_Snap_Endpoint/fr.md) doit apparaître. De plus, le point cible est mis en valeur par un grand point blanc. Cliquez pour sélectionner ce point.
 :   5.3. Déplacez le pointeur vers l\'extrémité la plus proche de l\'autre arc pour lier les deux arcs ensemble.
 :   5.4. Répétez le processus pour l\'autre côté de l\'arc pour fermer le profil.
 
@@ -174,7 +174,7 @@ Les cotes linéaires fonctionnent mieux lorsque vous utilisez les méthodes d\'[
 
 12\. Répétez le processus pour les deux arcs du profil fermé. Le premier point de la mesure sera toujours l\'origine et le second point utilisera le <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Milieu](Draft_Snap_Midpoint/fr.md) de l\'arc.
 
-13\. Répétez le processus pour le cercle situé au centre. Le premier point de la mesure sera toujours l\'origine. Pour sélectionner le deuxième point, assurez-vous que **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Bascule de l'accrochage](Draft_Snap_Lock/fr.md)** est actif et que seul **[16px ](File:Draft_Snap_Angle.svg.md) [Angle](Draft_Snap_Angle/fr.md)** également. Lorsque vous déplacez le pointeur vers le haut du cercle, l\'icône <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> [Angle](Draft_Snap_Angle/fr.md) doit apparaître. Cliquez pour sélectionner ce point. Déplacez ensuite le curseur vers la droite et cliquez pour fixer la cote.
+13\. Répétez le processus pour le cercle situé au centre. Le premier point de la mesure sera toujours l\'origine. Pour sélectionner le deuxième point, assurez-vous que **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Verrouiller l'aimantation](Draft_Snap_Lock/fr.md)** est actif et que seul **[16px ](File:Draft_Snap_Angle.svg.md) [Angle](Draft_Snap_Angle/fr.md)** également. Lorsque vous déplacez le pointeur vers le haut du cercle, l\'icône <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> [Angle](Draft_Snap_Angle/fr.md) doit apparaître. Cliquez pour sélectionner ce point. Déplacez ensuite le curseur vers la droite et cliquez pour fixer la cote.
 
 N\'oubliez pas d\'ajuster {{PropertyView/fr|Font Size}} et d\'autres propriétés pour voir correctement la dimension.
 
@@ -218,12 +218,12 @@ Avant de faire quoi que ce soit, masquez la grille Draft en appuyant sur **[<img
 
 16\. Basculez vers l\' <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [atelier TechDraw](TechDraw_Workbench/fr.md).
 
-:   16.1. Créez une page standard en appuyant sur **[<img src=images/TechDraw_PageDefault.svg style="width:16px"> [TechDraw Page par défaut](TechDraw_PageDefault/fr.md)**.
-:   16.2. Dans la [Vue en arborescence](Tree_view/fr.md), sélectionnez tous les objets créés, à l\'exception de la page, puis appuyez sur **[<img src=images/TechDraw_ActiveView.svg style="width:16px"> [TechDraw Vue active](TechDraw_ActiveView/fr.md)**. Appuyez sur **OK** avec les options par défaut; la création de la vue dans la page peut prendre quelques secondes.
-:   16.3. La sélection de l\'objet Page dans la [Vue en arborescence](Tree_view/fr.md) affichera automatiquement la page dans la fenêtre principale. Avec la page sélectionnée, allez dans l\'[Éditeur de propriétés](Property_editor/fr.md) et changez {{PropertyData/fr|Scale}} en {{Value|0.75}}.
-:   16.4. Développez l\'objet Page dans la [Vue en arborescence](Tree_view/fr.md) pour sélectionner l\'objet ActiveView. Avec cette vue sélectionnée, allez dans [property editor](Property_editor.md) et changez {{PropertyData/fr|Scale Type}} en {{Value|Page}}.
-:   16.5. Recalculez le modèle en utilisant **[<img src=images/Std_Refresh.svg style="width:16px"> [Rafraîchir](Std_Refresh/fr.md)** ou en appuyant sur **F5**.
-:   16.6. Cachez les cadres des objets en appuyant sur **[<img src=images/TechDraw_ToggleFrame.svg style="width:16px"> [TechDraw Bascule des cadres](TechDraw_ToggleFrame/fr.md)**.
+:   16.1. Créez une page standard en appuyant sur **[<img src=images/TechDraw_PageDefault.svg style="width:16px"> [Page par défaut](TechDraw_PageDefault/fr.md)**.
+:   16.2. Dans la [vue en arborescence](Tree_view/fr.md), sélectionnez tous les objets créés, à l\'exception de la page, puis appuyez sur **[<img src=images/TechDraw_ActiveView.svg style="width:16px"> [Vue active](TechDraw_ActiveView/fr.md)**. Appuyez sur **OK** avec les options par défaut. La création de la vue dans la page peut prendre quelques secondes.
+:   16.3. La sélection de l\'objet Page dans la [vue en arborescence](Tree_view/fr.md) affichera automatiquement la page dans la fenêtre principale. Avec la page sélectionnée, allez dans l\'[éditeur de propriétés](Property_editor/fr.md) et changez **Scale** en {{Value|0.75}}.
+:   16.4. Développez l\'objet Page dans la [vue en arborescence](Tree_view/fr.md) pour sélectionner l\'objet ActiveView. Avec cette vue sélectionnée, allez dans [éditeur de propriétés](Property_editor/fr.md) et changez **Scale Type** en {{Value|Page}}.
+:   16.5. Recalculez le modèle en utilisant **[<img src=images/Std_Refresh.svg style="width:16px"> [Recalculer](Std_Refresh/fr.md)** ou en appuyant sur **F5**.
+:   16.6. Cachez les cadres des objets en appuyant sur **[<img src=images/TechDraw_ToggleFrame.svg style="width:16px"> [Bascule des cadres](TechDraw_ToggleFrame/fr.md)**.
 
 En savoir plus sur l\'[atelier TechDraw](TechDraw_Workbench/fr.md) en lisant le [TechDraw: Tutoriel d\'introduction](Basic_TechDraw_Tutorial/fr.md).
 
@@ -240,7 +240,7 @@ Les outils tels que **[<img src=images/TechDraw_ActiveView.svg style="width:16px
 
 L\'[atelier Draft](Draft_Workbench/fr.md) est à bien des égards similaire au [atelier Sketcher](Sketcher_Workbench/fr.md), car tous deux sont destinés à produire des formes 2D. La principale différence réside dans la façon dont chaque atelier gère les systèmes de coordonnées et la façon dont les objets sont positionnés. Dans Draft, les objets sont librement positionnés dans le système de coordonnées global, en alignant généralement leurs points sur une grille ou sur d\'autres objets. Dans Sketcher, un \"[objet sketch](Sketch/fr.md)\" définit un système de coordonnées local qui sert de référence pour tous les éléments géométriques de cette esquisse. De plus, l\'esquisse s\'appuie sur des «contraintes» pour définir la position finale de ses points.
 
--   L\'[atelier Draft](Draft_Workbench/fr.md) est destiné aux dessins 2D qui peuvent être dessinés sur une grille. L\'[atelier Arch](Arch_Workbench/fr.md) s\'appuie principalement sur les outils définis dans l\'[atelier Draft](Draft_Workbench/fr.md).
+-   L\'[atelier Draft](Draft_Workbench/fr.md) est destiné aux dessins 2D qui peuvent être dessinés sur une grille. L\'[atelier BIM](BIM_Workbench/fr.md) s\'appuie principalement sur les outils définis dans l\'[atelier Draft](Draft_Workbench/fr.md).
 
 -   L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est destiné aux dessins 2D qui nécessitent des relations précises entre ses points. Il ne s\'appuie pas sur une grille mais sur des règles de positionnement (contraintes) pour déterminer où seront placés les points et les arêtes. L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est principalement utilisé avec l\'[atelier PartDesign](PartDesign_Workbench/fr.md) pour la création de solides [corps](Body/fr.md).
 

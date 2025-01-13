@@ -10,6 +10,10 @@
 
 # FEM EquationElectrostatic/pl
 
+
+
+## Opis
+
 To równanie służy do przeprowadzania analiz elektrostatycznych przy pomocy [prawa Gaussa](https://pl.wikipedia.org/wiki/Prawo_Gaussa_(elektryczno%C5%9B%C4%87)).
 
 Informacje o teorii stojącej za tym równaniem można znaleźć w dokumencie [Elmer models manual](http://www.elmerfem.org/blog/documentation/), w sekcji **Electrostatics** *(elektrostatyka)*.

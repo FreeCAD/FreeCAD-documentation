@@ -5,7 +5,7 @@
    MenuLocation: Skizze , Sketcher visuell , B-Spline-Informationsschicht ein- / ausblenden, Vielfachheit der B-Spline-Knoten ein- / ausblenden
    Workbenches: Sketcher_Workbench/de
    Version: 0.17
-   SeeAlso: Sketcher_CompCreateBSpline/de
+   SeeAlso: Sketcher_CreateBSpline/de
 ---
 
 # Sketcher BSplineKnotMultiplicity/de
@@ -14,16 +14,18 @@
 
 ## Beschreibung
 
-Zeigt oder verbirgt die Anzeige der Knotenvielfalt einer B-Spline. Siehe [diese Seite](Sketcher_BSplineDecreaseKnotMultiplicity/de#Beschreibung.md) für eine Erklärung der Vielfachheit. Die Vielfachheit wird in geschweiften Klammern neben dem Knoten angezeigt.
+Das Werkzeug <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Vielfachheit der B-Spline-Knoten ein- / ausblenden](Sketcher_BSplineKnotMultiplicity/de.md) blendet die Knotenvielfachheit der B-Splines in allen Skizzen ein bzw. aus.
 
 <img alt="" src=images/Sketcher_KnotMultiplicity_multiplicity3.png  style="width:500px;"> 
-*B-spline, in der der linke Knoten die Vielfachheit 3 hat, der rechte Knoten hat die Vielfachheit 1, die Endpunkte haben die Vielfachheit 4.*
+*Die Zahlen (1), (3) und (4) (grün, in runden Klammern) repräsentieren die [Vielfachheit](Sketcher_BSplineIncreaseKnotMultiplicity/de.md) der Knotenpunkte.*
 
 
 
 ## Anwendung
 
-1.  Einen B-Spline auswählen und die Schaltfläche **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [Vielfachheit der B-Spline Knoten ein-/ausblenden](Sketcher_BSplineKnotMultiplicity/de.md)** drücken.
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_BSplineKnotMultiplicity.svg" width=16px> [Vielfachheit der B-Spline Knoten ein-/ausblenden](Sketcher_BSplineKnotMultiplicity/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Sketcher visuell → B-Spline Informationsebene ein- / ausblenden → <img src="images/Sketcher_BSplineKnotMultiplicity.svg" width=16px> Vielfachheit der B-Spline Knoten ein-/ausblenden** auswählen.
 
 
 

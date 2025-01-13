@@ -10,21 +10,42 @@
 # Arch Reference/it
 
 
+</div>
+
+
 
 ## Descrizione
 
-<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
+
+<div class="mw-translate-fuzzy">
 
 Lo strumento Riferimento consente di posizionare nel documento corrente un oggetto che copia la sua forma e i suoi colori da un oggetto basato su [Part](Part_Workbench/it.md) (incluso [Parte di edificio](Arch_BuildingPart/it.md)) e memorizzato in un altro file di FreeCAD. Se il file di FreeCAD cambia, l\'oggetto di riferimento viene contrassegnato per essere ricaricato.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
+
+
+</div>
 
 
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Premere il pulsante **<img src="images/Arch_Reference.svg" width=16px> '''Riferimento'''**.
 2.  Premere il pulsante \"Choose file\...\" e selezionare un file FreeCAD esistente.
 3.  Selezionare uno degli oggetti Part-based inclusi dall\'elenco a discesa
 4.  Premere **OK**.
+
+
+</div>
 
 
 
@@ -50,20 +71,50 @@ Lo strumento Riferimento consente di posizionare nel documento corrente un ogget
 
 ## Script
 
-Lo strumento Riferimento può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione: 
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Riferimento può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
-makeReference ([file_path,object_name])
+reference = makeReference([filepath], [partname], [name])
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 crea un oggetto Riferimento dall\'oggetto dato nel file specificato.
 
-Esempio: 
+
+</div>
+
+Esempio:
+
+
 ```python
 import Arch
-Arch.makeReference("/path/to/some/file.FSCtd","myPart")
+Arch.makeReference("/path/to/some/file.FSCtd", "myPart")
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/it
+⏵ [documentation index](../README.md) > Arch Reference/it

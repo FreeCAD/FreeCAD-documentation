@@ -1,34 +1,42 @@
 # Manual:Creating and manipulating geometry/pl
 {{Manual:TOC}}
 
-W poprzednich rozdziałach dowiedzieliśmy się o różnych środowiskach pracy programu FreeCAD oraz o tym, jak każde z nich stosuje swoje własne narzędzia i typy geometrii. Ta sama koncepcja obowiązuje przy pracy z kodem Pythona.
+W poprzednich rozdziałach omówiliśmy różne środowiska pracy we FreeCAD i sposób, w jaki każde z nich wprowadza swoje własne narzędzia i typy geometrii. Te same zasady odnoszą się do pracy z FreeCAD za pomocą skryptów Pythona.
 
-Zauważyliśmy również, że zdecydowana większość środowisk pracy FreeCAD zależy od bardzo fundamentalnego elementu: Środowiska pracy [Część](Part_Workbench/pl.md). W rzeczywistości, wiele innych środowisk pracy, takich jak [Rysunek Roboczy](Draft_Workbench/pl.md) i [Arch](Arch_Workbench.md), wykonuje dokładnie to, co zrobimy w tym rozdziale: używa kodu Python do tworzenia i manipulowania geometrią Części.
+Zauważyliśmy również, że większość środowisk pracy w FreeCAD opiera się na jednym podstawowym module: [16px](Plik:Workbench_Part.svg.md) [środowisku pracy Część](Part_Workbench/pl.md). Wiele innych środowisk pracy, takich jak [16px](Plik:Workbench_Draft.svg.md) [Rysunek Roboczy](Draft_Workbench/pl.md), wykorzystuje narzędzia i geometrię środowiska Część, co jest dokładnie tym, co zrobimy w tym rozdziale - użyjemy Pythona do tworzenia i manipulowania geometrią środowiska pracy Część.
 
-Więc pierwszą rzeczą, którą musimy zrobić, aby pracować z geometrią części, jest wykonanie w środowisku Python odpowiednika przejścia do Środowiska pracy Part: zaimportuj moduł Part:
+Aby rozpocząć pracę z geometrią środowiska pracy Część w Pythonie, musimy wykonać skryptowy odpowiednik przełączenia się na środowisko pracy Część: zaimportować moduł Część.
 
 
 ```python
 import Part 
 ```
 
-Poświęć minutę na zapoznanie się z zawartością modułu Część, wpisując Part i przeglądając różne dostępne metody. Moduł Część oferuje kilka wygodnych funkcji, takich jak makeBox, makeCircle, itp\... które natychmiast zbudują dla Ciebie obiekt. Spróbuj na przykład tego:
+Poświęć chwilę na eksplorację modułu Część, wpisując **Part.** w konsoli Pythona i przeglądając dostępne metody oraz atrybuty w oknie autouzupełniania. To świetny sposób na zapoznanie się z funkcjonalnością, jaką oferuje ten moduł. Znajdziesz wiele przydatnych funkcji, takich jak makeBox i makeCircle, które pozwalają szybko tworzyć figury geometryczne i obiekty za pomocą jednego polecenia. Wiele z tych funkcji oferuje również opcjonalne parametry, dając Ci precyzyjną kontrolę nad wymiarami i umiejscowieniem.
+
+Spędzenie czasu na przeglądaniu zawartości modułu nie tylko pomoże Ci zrozumieć, jakie narzędzia są dostępne, ale także da Ci wgląd w to, jak działa środowisko pracy Część \"od środka\". Ta podstawowa wiedza okaże się nieoceniona, gdy przejdziemy do tworzenia i manipulowania geometrią za pomocą skryptów. Wpisz następujące polecenie
 
 
 ```python
 Part.makeBox(3,5,7) 
 ```
 
-Kiedy naciśniesz **Enter** po wpisaniu powyższej linii, nic nie pojawi się w widoku 3D, ale w konsoli Python zostanie wydrukowane coś takiego:
+Ta komenda tworzy prostopadłoscian 3D, znany również jako prostokątny graniastosłup, o określonych wymiarach. Pierwszy parametr, 3, definiuje długość prostopadłościanu wzdłuż osi X. Drugi parametr, 5, ustawia szerokość wzdłuż osi Y, a trzeci parametr, 7, określa wysokość wzdłuż osi Z. Chociaż ta funkcja generuje geometrię prostopadłościanu, nie dodaje go automatycznie do aktywnego dokumentu FreeCAD. W konsoli Pythona zobaczysz:
 
 
 ```python
 <Solid object at 0x5f43600> 
 ```
 
-W tym właśnie miejscu pojawia się ważna koncepcja. To, co tu stworzyliśmy, jest Kształtem Części. Nie jest to obiekt dokumentu FreeCAD *(jeszcze)*. W programie FreeCAD, obiekty i ich geometrie są niezależne. Pomyśl o obiekcie dokumentu FreeCAD jako o kontenerze, który będzie posiadał kształt. Obiekty parametryczne będą miały również właściwości takie jak długość i szerokość oraz będą *przeliczać* swój kształt w locie, gdy tylko jedna z tych właściwości ulegnie zmianie. To, co zrobiliśmy tutaj, to ręczne obliczenie kształtu.
+Wynik **\<Solid object at 0x5f43600\>** wskazuje, że obiekt typu Część: Kształt został utworzony w pamięci. Jest to obiekt geometryczny przechowywany pod określonym adresem pamięci, który jest pokazany przez wartość szesnastkową (0x5f43600). Ważne jest jednak, aby zrozumieć, że to, co stworzyliśmy, nie jest jeszcze obiektem dokumentu FreeCAD - istnieje tylko jako surowy kształt geometryczny w pamięci.
 
-Możemy teraz w prosty sposób stworzyć \"ogólny\" obiekt dokumentu w bieżącym dokumencie *(upewnij się, że masz otwarty przynajmniej jeden nowy dokument)* i nadaj mu kształt pudełka, taki jak ten, który właśnie stworzyliśmy:
+To rozróżnienie podkreśla fundamentalną koncepcję w FreeCAD: obiekty i ich geometria są niezależne. Obiekt dokumentu FreeCAD działa jako kontener, który przechowuje kształt. Te obiekty dokumentu mogą mieć dodatkowe właściwości, takie jak Długość, Szerokość i Wysokość, i mogą być parametryczne. Obiekty parametryczne dynamicznie przeliczają swoją geometrię (lub kształt) za każdym razem, gdy jedna z ich właściwości ulega zmianie. Na przykład, zmiana długości parametrycznego pudełka spowoduje automatyczne odtworzenie jego kształtu z zaktualizowaną wartością.
+
+W tym przypadku ręcznie stworzyliśmy kształt za pomocą funkcji **Part.makeBox()**. Ten kształt jest obiektem nieparametrycznym, co oznacza, że nie będzie się automatycznie aktualizować w zależności od żadnych właściwości - jest statyczny, chyba że będziemy nim manipulować programowo. Aby uczynić ten kształt częścią aktywnego dokumentu FreeCAD, należałoby przypisać go do obiektu dokumentu (takiego jak **Part::Feature**), co połączyłoby go z interfejsem graficznym i umożliwiło wyświetlanie oraz zarządzanie nim w środowisku FreeCAD.
+
+Ta rozdzielność między kształtami a obiektami dokumentu to cecha, która sprawia, że FreeCAD jest bardzo wszechstronny, umożliwiając użytkownikom manipulowanie kształtami programowo i integrowanie ich w razie potrzeby w przepływie pracy modelowania parametrycznego.
+
+Teraz możemy łatwo utworzyć \"ogólny\" obiekt dokumentu w bieżącym dokumencie (upewnij się, że masz otwarty przynajmniej jeden nowy dokument) i nadać mu kształt prostopadłościanu, jak to zrobiliśmy wcześniej:
 
 
 ```python
@@ -38,9 +46,28 @@ myObj.Shape = boxShape
 FreeCAD.ActiveDocument.recompute()
 ```
 
-Zwróć uwagę, jak obchodziliśmy się z **myObj.Shape**, zauważ, że robimy to dokładnie tak samo, jak robiliśmy to w poprzednim rozdziale, kiedy zmienialiśmy inne właściwości obiektu, takie jak **box.Height = 5**. W rzeczywistości, **Kształt** jest również właściwością, podobnie jak **Wysokość**. Tylko bierze ona obiekt Part Shape, a nie liczbę. W następnym rozdziale lepiej przyjrzymy się temu, jak te parametryczne obiekty są konstruowane.
+Oto szczegółowe wyjaśnienie poprzednich poleceń:
 
-Na razie przyjrzyjmy się bardziej szczegółowo naszym Kształtom Części. Na końcu rozdziału o [Podręcznik:Modelowanie tradycyjne, według CSG](Manual:Traditional_modeling,_the_CSG_way/pl.md) pokazaliśmy tabelę, która wyjaśnia, jak konstruowane są Kształty Części oraz ich różne komponenty *(wierzchołki, krawędzie, powierzchnie, itp.)*. Dokładnie te same komponenty istnieją tutaj i mogą być pobrane z Pythona. Kształty Części posiadają zawsze następujące atrybuty: wierzchołki, krawędzie, obwiednie, powierzchnie, powłoki i bryły. Wszystkie z nich są listami, które mogą zawierać dowolną liczbę pozycji lub mogą pozostać puste:
+-   **boxShape = Part.makeBox(3,5,7)**: Tworzy trójwymiarowy prostopadłościan o wymiarach 3x5x7 (długość, szerokość i wysokość) i przechowuje go jako kształt środowiska pracy Część w zmiennej boxShape. Ten kształt istnieje tylko w pamięci i nie jest jeszcze częścią dokumentu FreeCAD.
+
+-   **myObj = FreeCAD.ActiveDocument.addObject(\"Part::Feature\", \"MyNewBox\")**: Dodaje nowy obiekt typu Part::Feature o nazwie \"MyNewBox\" do aktywnego dokumentu FreeCAD i przypisuje go do zmiennej myObj. Nowy obiekt pojawi się w drzewie dokumentów FreeCAD.
+
+-   **myObj.Shape = boxShape**: Łączy geometrię boxShape z właściwością Shape obiektu myObj, integrując geometrię z dokumentem FreeCAD.
+
+-   **FreeCAD.ActiveDocument.recompute()**: Aktualizuje dokument, aby odzwierciedlić zmiany, zapewniając, że nowy obiekt i jego geometria pojawią się w interfejsie graficznym.
+
+Zauważ, jak obsłużyliśmy **myObj.Shape**. Zrobiliśmy to w sposób podobny do poprzedniego rozdziału, gdzie zmienialiśmy inne właściwości obiektu, takie jak **box.Height = 5**. W rzeczywistości **Shape** jest również właściwością, podobnie jak **Height**. Jednak zamiast liczby, **Shape** wymaga obiektu typu Część: Kształt. W następnym rozdziale przyjrzymy się bliżej, jak te obiekty parametryczne są tworzone.
+
+Na razie przyjrzyjmy się szczegółowo obiektom typu Part Shape. W rozdziale poświęconym tradycyjnemu modelowaniu w <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [środowisku pracy Część](Part_Workbench/pl.md) wprowadziliśmy tabelę wyjaśniającą, jak tworzona jest geometria Część: Kształty i jakie składają się na nią komponenty, takie jak **wierzchołki**, **krawędzie** i **powierzchnie**. Te same komponenty są dostępne podczas pracy z obiektami typu Część: Kształty w Pythonie, co umożliwia szczegółowe badanie i manipulowanie geometrią. Obiekty Część: Kształty w FreeCAD zawsze posiadają następujące atrybuty:
+
+-   **Wierzchołki**: Punkty w przestrzeni 3D, które definiują narożniki lub końce geometrii.
+-   **Krawędzie**: Proste lub zakrzywione linie łączące dwa wierzchołki.
+-   **Linie**: Zamknięte lub otwarte pętle utworzone przez jedną lub więcej połączonych krawędzi.
+-   **Powierzchnie**: Powierzchnie zamknięte przez jedną lub więcej linii.
+-   **Powłoki**: Grupy połączonych powierzchni, tworzące ciągłą powierzchnię.
+-   **Bryły**: Objętości 3D zamknięte przez jedną lub więcej powłok.
+
+Wszystkie te atrybuty są reprezentowane jako listy w Pythonie. Każda lista może zawierać dowolną liczbę elementów lub być pusta, w zależności od badanej geometrii. Na przykład, sześcian będzie miał osiem **wierzchołków**, dwanaście **krawędzi**, sześć **powierzchni**, jedną **powłokę** i jedną **bryłę**, podczas gdy linia będzie miała tylko dwa **wierzchołki** i jedną **krawędź**, a wszystkie inne atrybuty będą puste. Te komponenty są podstawowymi elementami geometrii środowiska pracy Część i mogą być dostępne oraz manipulowane programistycznie. Zrozumienie, jak one współdziałają, daje potężną kontrolę nad tworzeniem i modyfikowaniem modeli 3D. Możemy uzyskać dostęp do tych list w następujący sposób:
 
 
 ```python
@@ -52,7 +79,7 @@ print(boxShape.Shells)
 print(boxShape.Solids)
 ```
 
-Na przykład, znajdźmy powyżej obszar każdej z powierzchni kształtu naszego sześcianu: *(Pamiętaj o wcięciu drugiego wiersza, tak jak pokazano poniżej. Naciśnij dwukrotnie klawisz Enter po ostatnim wierszu, aby uruchomić polecenie środowiska Python)*.
+Znajdźmy pole każdej powierzchni naszej bryły w kształcie prostopadłościanu: (Upewnij się, że druga linia jest odpowiednio wcięta, tak jak poniżej. Naciśnij Enter dwa razy po ostatniej linii, aby uruchomić polecenie Pythona.)
 
 
 ```python
@@ -72,7 +99,7 @@ for e in boxShape.Edges:
    print(e.Vertexes[1].Point)
 ```
 
-Jak widzisz, jeśli nasz boxShape posiada atrybut **Vertexes**, każdy z brzegów boxShape posiada również atrybut **Vertexes**. Jak możemy się spodziewać, boxShape będzie posiadał 8 wierzchołków, podczas gdy krawędź będzie miała tylko 2, są częścią listy tych ośmiuj.
+Jak widzisz, jeśli nasz boxShape posiada atrybut **Vertexes**, każdy z brzegów boxShape posiada również atrybut **Vertexes**. Jak możemy się spodziewać, boxShape będzie posiadał 8 wierzchołków, podczas gdy krawędź będzie miała tylko 2, obie będące częścią listy tych 8.
 
 Zawsze możemy sprawdzić, jaki jest rodzaj kształtu:
 
@@ -83,7 +110,15 @@ print(boxShape.Faces[0].ShapeType)
 print(boxShape.Vertexes[2].ShapeType)
 ```
 
-Wróćmy więc do tematu Kształty części: Wszystko zaczyna się od Wierzchołków. Z jednym lub dwoma wierzchołkami tworzysz krawędź *(pełne koła mają tylko jeden wierzchołek)*. Z jedną lub kilkoma krawędziami tworzysz obwiednię. Z pojedynczą lub kilkoma zamkniętymi obwiedniami tworzysz powierzchnię czołową *(dodatkowe obwiednie stają się \"otworami\" w powierzchni czołowej)*. Z jedną lub kilkoma powierzchniami tworzysz Powłokę. Gdy powłoka jest całkowicie zamknięta *(wodoszczelna)*, można z niej utworzyć bryłę. I wreszcie, można połączyć dowolną liczbę dowolnych kształtów, które następnie nazywa się Związkiem.
+Oto krótkie wyjaśnienie powyższych poleceń:
+
+-   **print(boxShape.ShapeType)**: Wyświetla typ najwyższego poziomu kształtu reprezentowanego przez **boxShape**. W tym przypadku, ponieważ **boxShape** został utworzony jako pudełko za pomocą **Part.makeBox**, wynik będzie \"Solid\", co wskazuje, że kształt jest obiektem 3D typu bryła.
+
+-   **print(boxShape.Faces\[0\].ShapeType)**: Uzyskuje dostęp do pierwszej powierzchni w liście **Faces** obiektu **boxShape** (indeks 0) i wypisuje jej typ. Dla prostopadłościanu każda ściana to płaska powierzchnia, więc wynikiem będzie \"Face\".
+
+-   **print(boxShape.Vertexes\[2\].ShapeType)**: Uzyskuje dostęp do trzeciego wierzchołka w liście **Vertexes** obiektu **boxShape** (indeks 2) i wypisuje jego typ. Ponieważ jest to konkretny punkt w przestrzeni 3D, wynikiem będzie \"Vertex\".
+
+Aby podsumować koncepcję Part Shapes: Wszystko zaczyna się od **Vertexes**, najbardziej podstawowych elementów geometrii. Używając jednego lub dwóch **Vertexes**, można stworzyć **Edge** (zauważ, że pełne okręgi wymagają tylko jednego **Vertex**). Jeden lub więcej **Edges** może utworzyć **Wire**, który może być otwarty lub zamknięty. Gdy masz jeden lub więcej zamkniętych **Wires**, możesz stworzyć **Face**. Dodatkowe **Wires** wewnątrz głównego **Wire** będą działać jako \"otwory\" w **Face**. Łącząc jedną lub więcej **Faces**, można stworzyć **Shell**, który jest zasadniczo zbiorem połączonych powierzchni. Jeśli **Shell** jest całkowicie zamknięty i szczelny, można go użyć do utworzenia **Solid**---obiektu 3D o objętości. Wreszcie, dowolna liczba kształtów dowolnego typu, w tym **Vertexes**, **Edges**, **Wires**, **Faces**, **Shells** lub **Solids**, może być grupowana w **Compound**, który działa jako pojemnik dla wielu kształtów.
 
 Możemy teraz próbować tworzyć złożone kształty od podstaw, konstruując wszystkie ich elementy jeden po drugim. Na przykład, spróbujmy stworzyć taką objętość:
 
@@ -113,14 +148,14 @@ L1 = Part.LineSegment(V1,V2)
 L2 = Part.LineSegment(V4,V3)
 ```
 
-Zauważ, że nie musieliśmy tworzyć wierzchołków. Mogliśmy natychmiast stworzyć Part.LineSegmenty za pomocą FreeCAD Vectors. To dlatego, że tutaj nie stworzyliśmy jeszcze Krawędzi. Part.LineSegment *(jak również Part.Circle, Part.Arc, Part.Ellipse czy Part.BSpline)* nie tworzy krawędzi, ale raczej bazową geometrię, na której zostanie utworzony obiekt Edge. Krawędzie są zawsze tworzone z takiej geometrii bazowej, która jest zapisana w atrybucie Curve. Więc jeśli masz krawędzie, to zrób to:
+Zauważ, że nie musieliśmy tworzyć **Vertexes** w sposób jawny. Zamiast tego mogliśmy bezpośrednio tworzyć **Part.LineSegments** przy użyciu **FreeCAD Vectors**. Dzieje się tak, ponieważ na tym etapie pracujemy z geometrią podstawową, a nie rzeczywistymi **Edges**. **Part.LineSegment**, jak również **Part.Circle**, **Part.Arc**, **Part.Ellipse** czy **Part.BSpline**, definiują podstawową geometrię, ale same w sobie nie generują krawędzi. W FreeCAD krawędzie są zawsze tworzone z takiej geometrii podstawowej, która jest przechowywana w atrybucie **Curve** krawędzi. Oznacza to, że krawędź jest zasadniczo opakowaniem wokół geometrii podstawowej, dziedziczącym jej właściwości. Jeśli masz krawędź, możesz uzyskać dostęp do jej podstawowej geometrii, odnosząc się do atrybutu **Curve**. Następujące polecenie:
 
 
 ```python
 print(Edge.Curve) 
 ```
 
-pokaże Ci, jaki to rodzaj obiektu Edge, tzn. czy jest oparty na linii, łuku, itd\... Ale wróćmy do naszego ćwiczenia, i zbudujmy segmenty łuku. Do tego będziemy potrzebowali trzeciego punktu, więc możemy użyć wygodnego Part.Arc, który pobiera 3 punkty:
+pozwala zrozumieć podstawową strukturę krawędzi i sposób jej konstrukcji. Teraz wróćmy do naszego ćwiczenia i kontynuujmy budowanie segmentów łuków. Aby stworzyć łuk, potrzebujemy trzech punktów: punktu początkowego, punktu końcowego oraz punktu środkowego, który określa krzywiznę. W tym celu możemy użyć funkcji **Part.Arc**, która przyjmuje te trzy punkty jako dane wejściowe i generuje geometrię podstawową dla łuku.
 
 ![](images/Circel.png )
 
@@ -151,21 +186,21 @@ E2 = L2.toShape()
  ...
 ```
 
-Kiedy już będziemy mieli serię krawędzi, możemy teraz stworzyć obwiednię, podając jej listę krawędzi. Musimy jednak zwrócić uwagę na kolejność. Zwróćcie też uwagę na nawiasy.
+Kiedy już będziemy mieli serię krawędzi, możemy teraz stworzyć **Wire**, podając listę krawędzi. Musimy jednak zwrócić uwagę na kolejność. Zwróćcie też uwagę na nawiasy.
 
 
 ```python
 W = Part.Wire([E1,E4,E2,E3]) 
 ```
 
-I możemy sprawdzić, czy nasza obwiednia została prawidłowo wykonana, i czy jest prawidłowo zamknięta:
+I możemy sprawdzić, czy nasza polilinia została prawidłowo wykonana, i czy jest prawidłowo zamknięta:
 
 
 ```python
 print( W.isClosed() ) 
 ```
 
-Instrukcja wydrukuje {{Value|True}} lub {{Value|False}}. Aby wykonać powierzchnię, potrzebujemy zamkniętej obwiedni, więc zawsze warto to sprawdzić przed wykonaniem powierzchni. Teraz możemy stworzyć taką powierzchnię, nadając jej pojedynczą obwiednię *(lub listę obwiedni, jeśli chcemy uzyskać otwory)*:
+Instrukcja wydrukuje {{Value|True}} lub {{Value|False}}. Aby utworzyć **Face**, potrzebujemy **zamkniętej polilinii**, więc zawsze warto to sprawdzić przed wykonaniem powierzchni. Teraz możemy stworzyć taką powierzchnię, nadając jej pojedynczą polilinię *(lub listę polilinii, jeśli chcemy uzyskać otwory)*:
 
 
 ```python
@@ -179,14 +214,14 @@ Potem go wyciągamy:
 P = F.extrude(FreeCAD.Vector(0,0,10)) 
 ```
 
-Należy pamiętać, że P jest już bryłą:
+Należy pamiętać, że P to już **Solid**:
 
 
 ```python
 print(P.ShapeType) 
 ```
 
-To dlatego, że kiedy wyciągamy pojedynczą powierzchnię, zawsze otrzymujemy bryłę. Nie miałoby to miejsca, na przykład, gdybyśmy zamiast tego wyciągnęli obwiednię:
+To dlatego, że kiedy wyciągamy pojedynczą powierzchnię, zawsze otrzymujemy bryłę. Nie miałoby to miejsca, na przykład, gdybyśmy zamiast tego wyciągnęli polilinię:
 
 
 ```python

@@ -9,6 +9,11 @@ A **tela de abertura** (splash screen) é uma imagem que aparece durante a inici
 
 </div>
 
+
+<small>(v1.0)</small> 
+
+: The splash screen image is picked randomly from multiple images including user models and selected add-on workbenches.
+
 ## Custom splash screen 
 
 To use a custom splash screen, you have to place an image named **splash_image.png** in one of the following directories depending on the operating system:

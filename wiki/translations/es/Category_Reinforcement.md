@@ -1,13 +1,13 @@
 # Category:Reinforcement/es
-
+This category is for pages related to the [Reinforcement Workbench/es](Reinforcement_Workbench/es.md).
 
 ### Contents
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch Rebar BentShape/es](Arch_Rebar_BentShape/es.md) | [Arch Rebar Helical/es](Arch_Rebar_Helical/es.md) | [Arch Rebar LShape/es](Arch_Rebar_LShape/es.md) |
-| [Arch Rebar Stirrup/es](Arch_Rebar_Stirrup/es.md) | [Arch Rebar Straight/es](Arch_Rebar_Straight/es.md) | [Arch Rebar UShape/es](Arch_Rebar_UShape/es.md) |
-| [Arch Rebar/es](Arch_Rebar/es.md) | [Custom Spacing/es](Custom_Spacing/es.md) |
+| [Arch Rebar/es](Arch_Rebar/es.md) | [Reinforcement BentShapeRebar/es](Reinforcement_BentShapeRebar/es.md) | [Reinforcement Custom Spacing/es](Reinforcement_Custom_Spacing/es.md) |
+| [Reinforcement HelicalRebar/es](Reinforcement_HelicalRebar/es.md) | [Reinforcement LShapeRebar/es](Reinforcement_LShapeRebar/es.md) | [Reinforcement StirrupRebar/es](Reinforcement_StirrupRebar/es.md) |
+| [Reinforcement StraightRebar/es](Reinforcement_StraightRebar/es.md) | [Reinforcement UShapeRebar/es](Reinforcement_UShapeRebar/es.md) |
 
 
 

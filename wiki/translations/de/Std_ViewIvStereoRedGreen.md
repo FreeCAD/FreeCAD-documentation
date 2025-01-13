@@ -25,32 +25,32 @@ Der Befehl **Std AnsichtStereoRotGrün** stellt den Stereo-Modus der aktiven [3D
 
 ## Einstellungen
 
--   Der Augenabstand kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Augenabstand für Stereo-Modi**. Siehe [Einstellungseditor](Preferences_Editor/de#3D-Viewer.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Der Augenabstand kann geändert werden: **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Augenabstand für Stereo-Modi**.
 
 
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um den Stereo-Modus der Ansicht auf Stereo rot/cyan zu ändern, wird die Methode `setStereoType` des ActiveView-Objekts verwendet. Diese Methode steht nicht zur Verfügung, wenn sich FreeCAD im Konsolenmodus befindet.
+Die Methode `setStereoType` des View-Objekts wird verwendet, um den Stereo-Modus der Ansicht auf Stereo rot/cyan zu ändern. Die zur Verfügung stehenden Modi sind `"Anaglyph"`, `"QuadBuffer"`, `"InterleavedRows"`, `"InterleavedColumns"` und `"None"`.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.setStereoType('Anaglyph')
-FreeCADGui.ActiveDocument.ActiveView.getStereoType()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.setStereoType("Anaglyph")
+view.getStereoType()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

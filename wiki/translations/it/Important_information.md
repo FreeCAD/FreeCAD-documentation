@@ -1,26 +1,28 @@
 # Important information/it
-## Overview
+## Panoramica
 
-[Important information](Important_information.md) helps troubleshoot problems in your installation and usage of the program.
+[Informazioni importanti](Important_information/it.md) aiuta a risolvere i problemi relativi all\'installazione e all\'utilizzo del programma.
 
-The [FreeCAD forum](https://forum.freecadweb.org/viewforum.php?f=3) is the best place to get help from expert users and developers. For other ways see [Help](Help.md).
-
-## Directions
+Il [Forum di FreeCAD](https://forum.freecadweb.org/viewforum.php?f=3) è il posto migliore per ottenere aiuto da utenti e sviluppatori esperti. Per altre modalità vedere [Aiuto](Help/it.md).
 
 
-**Before asking for help, you need to follow these links or click the images/captions below**
 
--   [IMPORTANT: Please read first before asking for help](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264) in the forum.
--   [Std About](Std_About.md) command in the software itself.
+## Indicazioni
+
+
+**Prima di chiedere aiuto, seguire questi link o fare clic sulle immagini/didascalie sottostanti**
+
+-   [IMPORTANTE: leggere prima di chiedere aiuto](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264) nel forum.
+-   Comando [Informazioni su FreeCAD](Std_About/it.md) nel software stesso.
 
 ![](images/Important_information-updated.png ) 
-*align=center|The request for important information is located at the top of every subforum. Click the image above to follow link.*
+*align=center|La richiesta di informazioni importanti si trova nella parte superiore di ogni sottoforum. Fare clic sull'immagine qui sopra per seguire il collegamento.*
 
 ![](images/Std_About_example.png )
 
 
 
-*align=center|Window with the "[About](Std_About.md)" information in the software. Do not take a picture of this window;<br/>Click the **Copy to clipboard* button to be able to paste the information with your help request.**
+*align=center|Finestra con le informazioni "[Informazioni su FreeeCAD](Std_About/it.md)" nel software. Non scattare una foto di questa finestra;<br/>Fare clic sul pulsante **Copia negli appunti* per poter incollare le informazioni assieme alla propria richiesta di aiuto.**
 
 
 

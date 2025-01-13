@@ -85,10 +85,23 @@ I valori predefiniti possono essere impostati nel menu **Modifica** → **Prefer
 
 </div>
 
+-    **Beam Reduced Integration**\- <small>(v1.0)</small> :
+
+    -   true - uses beam elements with reduced integration (B31R or B32R), required when pipe beam section is used, can also make it possible to obtain [accurate results with plasticity](https://forum.freecad.org/viewtopic.php?t=61233)
+    -   false - uses regular (fully-integrated) beam elements
+
+
+<div class="mw-translate-fuzzy">
+
 -    **Beam Shell Result Output 3D**: si noti che CalculiX espande internamente elementi 1D e 2D in elementi 3D per eseguire l\'analisi FE
 
     -   falso - i risultati degli elementi 1D e 2D verranno calcolati in base alla media dei nodi della mesh 1D o 2D originale (ad esempio, il raggio puramente piegato mostrerà 0 sforzi nodali dovuti alla media)
     -   true - la mesh risultante conterrà elementi 1D e 2D espansi in elementi 3D
+
+
+</div>
+
+-    **Buckling Accuracy**\- <small>(v1.1)</small> : defines the accuracy of buckling eigenvalue evaluation. In most cases it can be left with the default value (0.01) but sometimes it might be necessary to lower it (e.g. to 0.0001) to capture the first eigenvalue.
 
 -    **Eigenmode High Limit**: Gli autovalori superiori a questo limite non verranno calcolati. **Nota**: se gli autovalori del modello sono sopra al limite superiore, CalculiX terminerà senza output.
 
@@ -179,6 +192,15 @@ I valori predefiniti possono essere impostati nel menu **Modifica** → **Prefer
 
 </div>
 
+-    **Model Space**\- <small>(v1.0)</small> : switches between 3D and 2D analyses, the latter require surface geometry on the XY plane (on the right of the Y axis in the axisymmetric case) with [thickness definition](FEM_ElementGeometry2D.md) (value ignored in the axisymmetric case) and proper boundary conditions ([displacement boundary condition](FEM_ConstraintDisplacement.md) with degrees of freedom X and Y has to be used instead of [fixed boundary condition](FEM_ConstraintFixed.md)) and in-plane loads applied to edges
+
+    -   3D - three-dimensional solid/shell/beam elements are used
+    -   plane stress - plane stress 2D solid elements are used
+    -   plane strain - plane strain 2D solid elements are used
+    -   axisymmetric - axisymmetric 2D solid elements are used
+
+-    **Output Frequency**\- <small>(v1.0)</small> : defines the frequency of results writing in increments (the default setting of 1 means that the results are written every increment, setting 2 would save the results every 2 increments and so on), particularly useful for nonlinear and transient simulations, helps reduce the clutter in the tree since currently a pair of results objects (CCX_Results and Pipeline_CCX_Results) is created for each results frame
+
 -    **Split Input Writer**:
 
     -   false - scrive l\'intero input in un file \* .inp da utilizzare con il risolutore CalculiX
@@ -195,6 +217,12 @@ I valori predefiniti possono essere impostati nel menu **Modifica** → **Prefer
 
 </div>
 
+-    **Thermo Mech Type**\- <small>(v1.0)</small> :
+
+    -   coupled - coupled thermo-mechanical analysis
+    -   uncoupled - uncoupled thermo-mechanical analysis
+    -   pure heat transfer - purely thermal analysis (*\*HEAT TRANSFER*)
+
 
 <div class="mw-translate-fuzzy">
 
@@ -210,6 +238,10 @@ I valori predefiniti possono essere impostati nel menu **Modifica** → **Prefer
 
 
 </div>
+
+-    **Time Maximum Step**\- <small>(v1.0)</small> : maximum time increment of the step, used when parameter **Iterations User Defined Incrementations** or **Iterations User Defined Time Step Length** is *true*
+
+-    **Time Minimum Step**\- <small>(v1.0)</small> : minimum time increment of the step, used when parameter **Iterations User Defined Incrementations** or **Iterations User Defined Time Step Length** is *true*
 
 -    **Working Dir**:percorso alla directory di lavoro che verrà utilizzata per i file di analisi CalculiX.
 

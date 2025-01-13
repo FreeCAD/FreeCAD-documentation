@@ -4,7 +4,7 @@
    Name/fr: Part Importation
    MenuLocation: Part , Importer un fichier de CAO...
    Workbenches: Part_Workbench/fr
-   SeeAlso: Part_Export/fr, Std_Import/fr, Import_Export/fr
+   SeeAlso: Std_Import/fr, Import_Export/fr
 ---
 
 # Part Import/fr
@@ -13,15 +13,31 @@
 
 ## Description
 
-L\'outil **<img src="images/Part_Import.svg" width=16px> [Part Importation](Part_Import/fr.md)** ouvre une boîte de dialogue vous permettant d\'importer les fichiers CAO de format suivant : [.IGES](https://fr.wikipedia.org/wiki/Initial_Graphics_Exchange_Specification), [.STEP](https://fr.wikipedia.org/wiki/Standard_pour_l%27échange_de_données_de_produit) et [.BREP](https://fr.wikipedia.org/wiki/B-Rep) dans le document courant.
+La commande <img alt="" src=images/Part_Import.svg  style="width:24px;"> **Part Importation** importe la géométrie d\'un format différent d\'un fichier dans le document actif. Les formats de fichiers pris en charge sont les suivants : [STEP](https://fr.wikipedia.org/wiki/Standard_pour_l%27%C3%A9change_de_donn%C3%A9es_de_produit) (avec ou sans couleurs), [IGES](https://fr.wikipedia.org/wiki/Initial_Graphics_Exchange_Specification) (avec ou sans couleurs) et [BREP](https://fr.wikipedia.org/wiki/B-Rep).
 
 
 
 ## Utilisation
 
-1.  Configurez les [Préférences d\'Import Export](Import_Export_Preferences/fr.md) dans l\'[Éditeur de préférences](Preferences_Editor/fr.md).
-2.  Aller dans le menu **Part → [<img src=images/Part_Import.svg style="width:16px"> Importer un fichier de CAO...**.
-3.  Sélectionnez le fichier à importer.
+1.  Configurez les [préférences Importer/Exporter](Import_Export_Preferences/fr.md) dans l\'[éditeur de préférences](Preferences_Editor/fr.md).
+2.  Sélectionnez l\'option **Part → [<img src=images/Part_Import.svg style="width:16px"> Importer un fichier de CAO...** du menu.
+3.  Vous pouvez sélectionnez le bon format de fichier dans la fenêtre de dialogue.
+4.  Sélectionnez un fichier.
+5.  Appuyez sur le bouton **Ouvrir**.
+
+
+
+## Remarques
+
+-   La commande [Std Importer](Std_Import/fr.md) prend en charge de nombreux autres formats de fichiers.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

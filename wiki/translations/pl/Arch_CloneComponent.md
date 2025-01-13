@@ -1,29 +1,46 @@
 ---
  GuiCommand:
    Name: Arch CloneComponent
-   MenuLocation: Arch , Utilities , Clone component‎‏‎
-   Workbenches: Arch_Workbench
+   Name/pl: Architektura: Klonuj komponent
+   MenuLocation: Architektura , Narzędzia , Klonuj komponent
+   Workbenches: Arch_Workbench/pl
    Shortcut: **C** **C‏‎**
-   SeeAlso: Draft_Clone, Arch_Component
+   SeeAlso: Draft_Clone/pl, Arch_Component/pl
 ---
 
 # Arch CloneComponent/pl
 
-## Description
 
-The **<img src="images/Arch_CloneComponent.svg" width=16px> [Arch Clone Component](Arch_CloneComponent.md)** produces **<img src="images/Arch_Component.svg" width=16px> [Arch Components](Arch_Component.md)** that are clones of selected Arch objects.
 
-**Unlike** the **<img src="images/Draft_Clone.svg" width=16px> [Draft Clone](Draft_Clone.md)** tool, which will produce a clone of the same type as the selected object, this tool produces a generic **<img src="images/Arch_Component.svg" width=16px> [Arch Component](Arch_Component.md)** object that can assume any role, not necessarily the role of the cloned object.
+## Opis
 
-The clone component will simply have its **CloneOf** property set to the selected object.
+Narzędzie **<img src="images/Arch_CloneComponent.svg" width=16px> '''Klonuj komponent'''** tworzy **<img src="images/Arch_Component.svg" width=16px> [Komponenty](Arch_Component/pl.md)**, które są klonami wybranych obiektów Architektury.
 
-## Usage
+**W przeciwieństwie do** narzędzia **<img src="images/Draft_Clone.svg" width=16px> [Klonuj](Draft_Clone/pl.md)** środowiska Rysunek Roboczy, które tworzy klon tego samego typu co wybrany obiekt, to narzędzie tworzy ogólny obiekt **<img src="images/Arch_Component.svg" width=16px> [Komponent](Arch_Component/pl.md)**, który może przyjąć dowolną rolę, niekoniecznie rolę sklonowanego obiektu.
 
-## Properties
+Komponent klona będzie miał po prostu właściwość **CloneOf** ustawioną na wybrany obiekt.
 
-## Scripting
+
+
+## Użycie
+
+
+
+## Właściwości
+
+
+
+## Tworzenie skryptów 
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/pl
+⏵ [documentation index](../README.md) > Arch CloneComponent/pl

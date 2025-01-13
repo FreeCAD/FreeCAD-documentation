@@ -1,14 +1,17 @@
 # Category:Obsolete Workbenches/en
-This category lists obsolete workbenches, that is, workbenches that are old and unmaintained, and which have been superseded by other workbenches.
+
 
 ### Contents
 
 |     |     |     |
 | --- | --- | --- |
-| [Drawing Workbench/en](Drawing_Workbench/en.md) | [Image Workbench/en](Image_Workbench/en.md) | [Raytracing Workbench/en](Raytracing_Workbench/en.md) |
-| [Category:Drawing/en](Category_Drawing/en.md) |
+| [Arch Workbench/en](Arch_Workbench/en.md) | [Drawing Workbench/en](Drawing_Workbench/en.md) | [Image Workbench/en](Image_Workbench/en.md) |
+| [Raytracing Workbench/en](Raytracing_Workbench/en.md) | [Start Workbench/en](Start_Workbench/en.md) | [Web Workbench/en](Web_Workbench/en.md) |
+| [Category:Arch/en](Category_Arch/en.md) | [Category:Drawing/en](Category_Drawing/en.md) | [Category:Image/en](Category_Image/en.md) |
+| [Category:Raytracing/en](Category_Raytracing/en.md) | [Category:Start/en](Category_Start/en.md) | [Category:Web/en](Category_Web/en.md) |
+|
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Category:Obsolete Workbenches/en
+⏵ [documentation index](../README.md) > Category:Obsolete Workbenches/en

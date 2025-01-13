@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM MeshRegion
-   Name/pl: MES Ulepsz ...
-   MenuLocation: Siatka , MES Ulepsz
+   Name/pl: Zagęszczenie siatki MES
+   MenuLocation: Siatka , Zagęszczenie siatki MES
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_tutorial/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: Wszystkie
+}}
 ---
 
 # FEM MeshRegion/pl
@@ -21,18 +26,17 @@ Lokalne zagęszczanie siatki ma tę zaletę, że umożliwia dokładne obliczenia
 
 ## Użycie
 
-1.  Aby skorzystać z tego narzędzia należy najpierw utworzyć siatkę <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [Siatka MES z kształtu przy pomocy generatora Gmsh](FEM_MeshGmshFromShape.md).
-    -   Zaznacz obiekt siatki w drzewie modelu i wciśnij przycisk **<img src="images/FEM_MeshRegion.svg" width=32px> '''Ulepsz ...'''**.
-    -   Zaznacz obiekt siatki w drzewie modelu i wybierz opcję **Siatka → <img src="images/FEM_MeshRegion.svg" width=32px> Ulepsz ...** z menu.
-2.  Edytuj maksymalny rozmiar elementu dla obszaru.
-3.  Wciśnij przycisk **OK**.
-4.  Zamknij okno dialogowe.
+1.  Aby skorzystać z tej funkcji, potrzebna jest <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:16px;"> [siatka wygenerowana przez Gmsh](FEM_MeshGmshFromShape/pl.md) lub ({{VersionPlus/pl|1.1}}) <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:16px;"> [siatka wygenerowana przez Netgen](FEM_MeshNetgenFromShape/pl.md). Zaznacz obiekt siatki w drzewie modelu i wciśnij przycisk **<img src="images/FEM_MeshRegion.svg" width=16px> [Zagęszczenie siatki MES](FEM_MeshRegion/pl.md)** lub skorzystaj z opcji **Siatka → <img src="images/FEM_MeshRegion.svg" width=32px> Zagęszczenie siatki MES** w menu.
+2.  Wciśnij przycisk **Dodaj** i wybierz jeden lub więcej obiektów typu ściana, krawędź lub wierzchołek w [widoku 3D](3D_view/pl.md) aby zastosować na nich zagęszczenie siatki. Wybrane obiekty pojawią się na liście. Tryb wyboru można również zmienić na *Bryła*.
+3.  Wprowadź maksymalny rozmiar elementu dla obszaru.
+4.  Wciśnij przycisk **OK**.
+5.  Zamknij okno dialogowe.
 
-    :   Rezultat: Powinieneś teraz widzieć nowy obiekt `FEMMeshRegion` pod obiektem `FEMMeshGMSH` *(zobacz przykład #3 poniżej)* w aktywnym kontenerze analizy.
-5.  Dwukrotnie kliknij na obiekcie `FEMMeshGMSH` w drzewie modelu i wciśnij przycisk **Zastosuj** aby wymusić ponowne przeliczenie siatki.
-6.  Zamknij okno dialogowe.
+    :   Rezultat: Powinieneś teraz widzieć nowy obiekt `FEMMeshRegion` pod obiektem `FEMMeshGmsh` lub ({{VersionPlus/pl|1.1}}) `FEMMeshNetgen` *(zobacz przykład #3 poniżej)* w aktywnym kontenerze analizy.
+6.  Dwukrotnie kliknij na obiekcie `FEMMeshGmsh` lub ({{VersionPlus/pl|1.1}}) `FEMMeshNetgen` w drzewie modelu i wciśnij przycisk **Zastosuj** aby wymusić ponowne przeliczenie siatki.
+7.  Zamknij okno dialogowe.
 
-Po utworzeniu siatki można edytować jej właściwości przy pomocy [edytora właściwości](Property_editor/pl.md). Po zmianie właściwości należy ponownie otworzyć okno dialogowe Gmsh i wcisnąć przycisk **Zastosuj** *(można zostawić okno dialogowe otwarte podczas zmieniana właściwości)*.
+Po utworzeniu siatki można edytować jej właściwości przy pomocy [edytora właściwości](Property_editor/pl.md). Po zmianie właściwości należy ponownie otworzyć okno dialogowe generatora siatki i wcisnąć przycisk **Zastosuj** *(można zostawić okno dialogowe otwarte podczas zmieniana właściwości)*.
 
 Możesz utworzyć tyle różnych obszarów siatki, ile potrzeba.
 

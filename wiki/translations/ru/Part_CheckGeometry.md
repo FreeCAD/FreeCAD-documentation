@@ -75,6 +75,20 @@ If ticked, any errors found are also logged in the [report view](Report_view.md)
 -   FreeCAD has no methods to automatically repair geometry. If faults are detected the steps involved to create the model need to be examined and fixed manually.
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Part_Tools_navi
+
+}}
+
+
 
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/ru

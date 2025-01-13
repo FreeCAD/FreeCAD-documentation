@@ -10,6 +10,8 @@
 
 # Std ViewBottom/it
 
+
+
 ## Descrizione
 
 Il comando **Vista dal basso** orienta la fotocamera della [Vista 3D](3D_view/it.md) che guarda dal basso verso l\'alto, nella direzione dell\'asse Z positivo.
@@ -17,36 +19,27 @@ Il comando **Vista dal basso** orienta la fotocamera della [Vista 3D](3D_view/it
 ![](images/FreeCAD_views_rear.svg ) 
 *La freccia 5 punta nella direzione della vista dal basso.*
 
+
+
 ## Utilizzo
 
 1.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Std_ViewBottom.svg" width=16px> Vista dal basso**.
+    -   Premere il pulsante **<img src="images/Std_ViewBottom.svg" width=16px> Dal basso**.
     -   Selezionare l\'opzione **Visualizza → Viste standard → <img src="images/Std_ViewBottom.svg" width=16px> Dal basso** dal menu.
     -   Selezionare l\'opzione **Viste standard → <img src="images/Std_ViewBottom.svg" width=16px> Dal basso** dal menu contestuale della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **5**.
 
+
+
 ## Script
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
-
-Per passare alla vista dal basso usare il metodo `viewBottom` dell\'oggetto ActiveView. Questo metodo non è disponibile se FreeCAD è in modalità console.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.viewBottom()
-FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
-```
+Vedere [Vista frontale](Std_ViewFront/it#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

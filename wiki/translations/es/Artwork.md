@@ -13,7 +13,7 @@ Here is the artwork that has been created for FreeCAD. Feel free to reuse in oth
 
 ### Iconos del ambiente de trabajo utilizados en la wiki 
 
-<img alt="" src=images/Workbench_Arch.svg  style="width:64px;"> <img alt="" src=images/Workbench_Draft.svg  style="width:64px;"> <img alt="" src=images/Workbench_FEM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Inspection.svg  style="width:64px;"> <img alt="" src=images/Workbench_Mesh.svg  style="width:64px;"> <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> <img alt="" src=images/Workbench_Part.svg  style="width:64px;"> <img alt="" src=images/Workbench_PartDesign.svg  style="width:64px;"> <img alt="" src=images/Workbench_Path.svg  style="width:64px;"> <img alt="" src=images/Workbench_Points.svg  style="width:64px;"> <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> <img alt="" src=images/Workbench_Robot.svg  style="width:64px;"> <img alt="" src=images/Workbench_Sketcher.svg  style="width:64px;"> <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> <img alt="" src=images/Workbench_Start.svg  style="width:64px;"> <img alt="" src=images/Workbench_Surface.svg  style="width:64px;"> <img alt="" src=images/Workbench_TechDraw.svg  style="width:64px;"> <img alt="" src=images/Workbench_Test.svg  style="width:64px;"> <img alt="" src=images/Workbench_Web.svg  style="width:64px;">
+<img alt="" src=images/Workbench_Assembly.svg  style="width:64px;"> <img alt="" src=images/Workbench_BIM.svg  style="width:64px;"> <img alt="" src=images/Workbench_CAM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Draft.svg  style="width:64px;"> <img alt="" src=images/Workbench_FEM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Inspection.svg  style="width:64px;"> <img alt="" src=images/Workbench_Material.svg  style="width:64px;"> <img alt="" src=images/Workbench_Mesh.svg  style="width:64px;"> <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> <img alt="" src=images/Workbench_Part.svg  style="width:64px;"> <img alt="" src=images/Workbench_PartDesign.svg  style="width:64px;"> <img alt="" src=images/Workbench_Points.svg  style="width:64px;"> <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> <img alt="" src=images/Workbench_Robot.svg  style="width:64px;"> <img alt="" src=images/Workbench_Sketcher.svg  style="width:64px;"> <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> <img alt="" src=images/Workbench_Surface.svg  style="width:64px;"> <img alt="" src=images/Workbench_TechDraw.svg  style="width:64px;"> <img alt="" src=images/Workbench_Test.svg  style="width:64px;">
 
 
 
@@ -31,9 +31,17 @@ See [Artwork Splash screen](Artwork_Splash_screen.md).
 
 See [Artwork Gui](Artwork_Gui.md).
 
-### From src/Mod/Arch/ 
+### From src/Mod/Assembly/ 
 
-See [Artwork Arch](Artwork_Arch.md).
+See [Artwork Assembly](Artwork_Assembly.md).
+
+### From src/Mod/BIM/ 
+
+See [Artwork BIM](Artwork_BIM.md).
+
+### From src/Mod/CAM/ 
+
+See [Artwork CAM](Artwork_CAM.md).
 
 ### From src/Mod/Draft/ 
 
@@ -71,10 +79,6 @@ See [Artwork Part](Artwork_Part.md).
 
 See [Artwork PartDesign](Artwork_PartDesign.md).
 
-### From src/Mod/Path/ 
-
-See [Artwork Path](Artwork_Path.md).
-
 ### From src/Mod/Points/ 
 
 See [Artwork Points](Artwork_Points.md).
@@ -95,10 +99,6 @@ See [Artwork Sketcher](Artwork_Sketcher.md).
 
 See [Artwork Spreadsheet](Artwork_Spreadsheet.md).
 
-### From src/Mod/Start/ 
-
-See [Artwork Start](Artwork_Start.md).
-
 ### From src/Mod/Surface/ 
 
 See [Artwork Surface](Artwork_Surface.md).
@@ -114,10 +114,6 @@ See [Artwork Test](Artwork_Test.md).
 ### From src/Mod/Tux/ 
 
 See [Artwork Tux](Artwork_Tux.md).
-
-### From src/Mod/Web/ 
-
-See [Artwork Web](Artwork_Web.md).
 
 ## External workbenches and addons 
 
@@ -136,6 +132,10 @@ See [Artwork Reinforcement](Artwork_Reinforcement.md).
 ### From Mod/Render/ 
 
 See [Artwork Render](Artwork_Render.md).
+
+### From Mod/SheetMetal/ 
+
+See [Artwork SheetMetal](Artwork_SheetMetal.md).
 
 ### From Mod/Ship/ 
 

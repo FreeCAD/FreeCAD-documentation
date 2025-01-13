@@ -1,138 +1,97 @@
 ---
  GuiCommand:
    Name: TechDraw FaceCenterLine
-   Name/it: Linea a centro faccia
-   MenuLocation: TechDraw , Aggiungi linee , Linea a centro faccia
-   Workbenches: TechDraw_Workbench/it
-   SeeAlso: TechDraw_CosmeticVertex/it, TechDraw_2LineCenterLine/it, TechDraw_2PointCenterLine/it, TechDraw_CosmeticEraser/it
+   Name/it: TechDraw Linea centrale alla faccia
+   MenuLocation: TechDraw , Aggiungi linee , Linea centrale alla faccia
    Version: 0.19
+   Workbenches: TechDraw_Workbench/it
+   SeeAlso: TechDraw_2LineCenterLine/it, TechDraw_2PointCenterLine/it
 ---
 
 # TechDraw FaceCenterLine/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Lo strumento **TechDraw Linea centrale alla faccia** aggiunge una linea centrale alle facce selezionate.
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento Linea a centro faccia aggiunge una linea centrale alle facce selezionate
-
-
-</div>
-
-<img alt="" src=images/TechDraw_FaceCenterLine_Sample.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+<img alt="" src=images/TechDraw_FaceCenterLine_Sample.png  style="width:400px;"> 
 *Linea centrale aggiunta alla faccia*
 
 
-</div>
 
-## Usage create 
+## Creazione
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare una o più facce in una vista.
-2.  Premere il pulsante **<img src="images/TechDraw_FaceCenterLine.svg" width=16px> Linea a centro faccia
-**
-3.  Si apre una finestra di dialogo in cui è possibile specificare gli attributi della nuova linea centrale.
-4.  Viene aggiunta una linea centrale nel punto medio del riquadro di delimitazione delle facce selezionate.
+1.  Selezionare una o più facce in una Vista.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/TechDraw_FaceCenterLine.svg" width=16px> [Aggiungi Linea centrale alle facce](TechDraw_FaceCenterLine/it.md)**.
+    -   Selezionare l\'opzione **TechDraw → Aggiungi linee → <img src="images/TechDraw_FaceCenterLine.svg" width=16px> Aggiungi Linea centrale alle facce** dal menu.
+3.  Si apre un pannello delle azioni. Vedere [Opzioni](#Opzioni.md) per ulteriori informazioni.
+4.  Premere il pulsante **OK** per confermare.
+5.  Una linea centrale viene aggiunta al punto medio del riquadro di delimitazione delle facce selezionate.
 
 
-</div>
 
-## Usage edit 
+## Modifica
 
-
-<div class="mw-translate-fuzzy">
-
-Per modificare qualsiasi linea centrale si può usare qualsiasi pulsante di comando delle linee centrali (**<img src="images/TechDraw_FaceCenterLine.svg" width=16px> Linea a centro faccia**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Linea a centro linee](TechDraw_2LineCenterLine/it.md)**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Linea a centro punti](TechDraw_2PointCenterLine/it.md)**).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Uno qualsiasi degli strumenti della linea centrale (<img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:16px;"> TechDraw Linea centrale faccia, <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:16px;"> [TechDraw Linea centrale a 2 linee](TechDraw_2LineCenterLine/it.md) e <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:16px;"> [TechDraw Linea centrale a 2 punti](TechDraw_2PointCenterLine/it.md)) può essere utilizzato per modificare qualsiasi linea centrale.
 
 1.  Selezionare una linea centrale.
-2.  Premere qualsiasi pulsante di comando di linea centrale.
-3.  Si apre una finestra di dialogo in cui è possibile modificare gli attributi della linea centrale.
-4.  Premere **OK** per vedere le modifiche applicate.
-
-
-</div>
+2.  Invocare uno strumento della linea centrale.
+3.  Si apre un pannello delle azioni. Vedere [Opzioni](#Opzioni.md) per ulteriori informazioni.
+4.  Premere il pulsante **OK** per confermare.
 
 
 
+## Opzioni
 
-<div class="mw-translate-fuzzy">
-
-## Proprietà
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Mode (pulsanti di opzione):
-    -   **Vertical**: Forza una linea centrale verticale
-    -   **Horizontal**: Forza una linea centrale orizzontale
-    -   ***Aligned**: Questa opzione non è possibile per la linea centrale delle facce*
-2.  **Shift Horiz**: Sposta la linea centrale a sinistra o a destra della sua posizione normale
-3.  **Shift Vert**: Sposta la linea centrale verso l\'alto o verso il basso dalla sua posizione normale
-4.  **Rotate**: Ruota la linea centrale attorno al suo centro (in gradi, + Antiorario, - orario)
-5.  **Extend**: Allunga la linea centrale di questo importo
-6.  **Color**: Colore della linea centrale
-7.  **Weight**: Spessore della linea centrale
-8.  **Style**: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continua, <img alt="" src=images/Dash-line.svg  style="width:20px;"> A tratti, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Punti, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> Tratto e punto, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> Tratto e due punti
-
-
-</div>
+-   **Orientamento**:
+    -   **Verticale**: Forza la linea centrale in verticale. Ignorato per Linea centrale tra 2 linee.
+    -   **Orizzontale**: forza la linea centrale in orizzontale. Ignorato per Linea centrale tra 2 linee.
+    -   **Allineato**: non disponibile per Line centrale alla faccia. Forza la linea centrale a seguire la direzione generale dei bordi selezionati per Line a centrale a 2 linee. Ignorato per Linea centrale a 2 punti.
+-   **Scostamento orizzontale**: sposta la linea centrale a sinistra o a destra rispetto alla sua posizione normale.
+-   **Scostamento verticale**: sposta la linea centrale verso l\'alto o verso il basso rispetto alla sua posizione normale.
+-   **Ruota**: Ruota la linea centrale attorno al suo punto medio (gradi + in senso antiorario, - in senso orario).
+-   **Estesa per**: Allunga la linea centrale di questo valore.
+-   **Colore**: il colore della linea centrale.
+-   **Spessore**: La larghezza della linea centrale.
+-   **Stile**: lo stile della linea centrale. Le opzioni sono:
+    -   <img alt="" src=images/Continuous-line.svg  style="width:20px;"> 
+**Continua**
+    -   <img alt="" src=images/Dash-line.svg  style="width:20px;"> 
+**Tratteggiata**
+    -   <img alt="" src=images/Dot-line.svg  style="width:20px;"> 
+**Punto**
+    -   <img alt="" src=images/DashDot-line.svg  style="width:20px;"> 
+**TrattoPunto**
+    -   <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> 
+**TrattoPuntoPunto**
 
 
 
 ## Note
 
-
-<div class="mw-translate-fuzzy">
-
--   FaceCenterLine sostituisce eventualmente due proprietà vista:
+-   Per eliminare una linea centrale selezionarla e premere **Delete**. {{Version/it|1.0}}
+-   Linea centrale alla faccia sostituirà eventualmente due proprietà View:
     -   
         **HorizCenterLine**
         
-        : Mostra una linea centrale orizzontale attraverso la vista.
+        : mostra una linea centrale orizzontale attraverso la Vista.
 
     -   
         **VertCenterLine**
         
-        : Mostra una linea centrale verticale attraverso la vista.
-
-
-</div>
-
-## Properties
-
-Centerlines have no properties of their own, as they are not document objects.
-
-
-<div class="mw-translate-fuzzy">
+        : mostra una linea centrale verticale attraverso la Vista.
 
 
 
+## Proprietà
+
+Le Linee centrali non hanno proprietà proprie, poiché non sono oggetti documento.
 
 
-</div>
+
 
 
 {{TechDraw Tools navi

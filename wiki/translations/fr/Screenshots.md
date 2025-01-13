@@ -1,5 +1,19 @@
 # Screenshots/fr
-Vous trouverez ici des vues d\'écran montrant différentes parties de FreeCAD. Elles n\'ont pas d\'ordre particulier, donc les images peuvent être différentes de votre version actuelle. Voir d\'autre vues d\'écrans proposées par des utilisateurs de FreeCAD sur le [sujet call for screenshot](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) et sur le sujet [\"Show your project here!\" de la partie Users Showcase du forum](http://forum.freecadweb.org/viewforum.php?f=24).
+Voici quelques captures d\'écran montrant différentes parties de FreeCAD. Voir d\'autres captures d\'écran soumises par les utilisateurs de FreeCAD dans le [fil du forum *capture d\'écran*](https://forum.freecad.org/viewtopic.php?f=8&t=4751) et dans le [« Show your project here ! » partie du forum des présentation des utilisateurs](https://forum.freecad.org/viewforum.php?f=24).
+
+
+
+### La version 1.0 
+
+<img alt="" src=images/PartDesign_Pozidriv.png  style="width:1024px;">
+
+<img alt="" src=images/Assembly_Example.png  style="width:1024px;">
+
+<img alt="" src=images/BIM_Example.png  style="width:1024px;">
+
+<img alt="" src=images/FEM_Example.png  style="width:1024px;">
+
+
 
 ### La version 0.17 
 
@@ -29,6 +43,8 @@ Vous trouverez ici des vues d\'écran montrant différentes parties de FreeCAD. 
 
 <img alt="" src=images/freeCAD-guitar.jpg  style="width:1024px;">
 
+
+
 ### La version 0.16 
 
 <img alt="" src=images/Hhassey.png  style="width:1024px;">
@@ -43,6 +59,8 @@ Vous trouverez ici des vues d\'écran montrant différentes parties de FreeCAD. 
 
 <img alt="" src=images/R_tec.jpeg  style="width:1024px;">
 
+
+
 ### La version 0.15 
 
 <img alt="" src=images/Obijuan.png  style="width:1024px;">
@@ -55,151 +73,71 @@ Vous trouverez ici des vues d\'écran montrant différentes parties de FreeCAD. 
 
 <img alt="" src=images/Lou_papet.png  style="width:1024px;">
 
+
+
 ### La version 0.14 
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
-Une jeep modélisée par psicofil
+
+
+*Une jeep modélisée par psicofil*
 
 <img alt="" src=images/Rockn_house1.png  style="width:1024px;">
 
 <img alt="" src=images/Rockn_house2.png  style="width:1024px;">
 
-Une maison faite par rockn avec l\'atelier Arch.
+
+
+*Une maison faite par rockn avec l'atelier Arch*
 
 <img alt="" src=images/Mesh_curvature_plot1.jpeg  style="width:1024px;">
 
-Analyse de la courbure du maillage avec l\'atelier Mesh.
+
+
+*Analyse de la courbure du maillage avec l'atelier Mesh*
 
 <img alt="" src=images/Cura_export.png  style="width:1024px;">
 
-Export vers une application externe grâce aux macros python.
+
+
+*Exporter vers une application externe grâce aux macros Python*
+
+
 
 ### La version 0.12 
 
-![Assembly of multiple objects\|1024px](images/FreeCAD_aeroponic_system.jpg )
+<img alt="" src=images/FreeCAD_aeroponic_system.jpg  style="width:1024px;">
 
-![Un sketch parfaitement contraint révolutionné pour créer une section de jante de vélo\|1024px](images/rim_bling.png )
+
+
+*Assemblage de plusieurs objets*
+
+<img alt="" src=images/rim_bling.png  style="width:1024px;">
+
+
+
+*Un esquisse entièrement contrainte tourne pour créer une section de jante de vélo*
+
+
 
 ### La version 0.11 
 
 <img alt="" src=images/FreeCAD011.png  style="width:1024px;">
 
+
+
 ### La version 0.10 
 
 ![](images/Freecad010.png )
+
+
 
 ### La version 0.9 
 
 ![](images/Freecad09.jpg )
 
-### Dimensionnement
-
-<img alt="" src=images/Measurement.jpeg  style="width:800px;">
-
-### STEP
-
-![](images/Screenshot-gcad.jpg )
-
-Une capture d\'écran montrant FreeCAD important et affichant un modèle STEP provenant de gCAD
-
-### Données STEP 
-
-<img alt="" src=images/TaskPanel.jpg  style="width:800px;">
-
-Avec le robot grippeur chargé
-
-### Robot grippeur 
-
-![](images/FreeCAD_Screenshot.png )
-
-Sous XP avec Schenkel
-
-### Opérations booléennes sur des formes 
-
-<img alt="" src=images/Part_BooleanOperations.png  style="width:800px;">
-
-Opérations booléennes
-
-### IGES
-
-![](images/Freecad-vista01.jpg )
-
-FreeCAD sous Windows Vista, avec un modèle IGES de [Rexroth](http://www13.boschrexroth-us.com) chargé
-
-### Fantaisiste
-
-![](images/Sceenshot-reversevid.jpg‎ )
-
-Vous pouvez personnaliser plusieurs aspects de FreeCAD!
-
-### Opérations booléennes sur maillages 
-
-![](images/Screenshot_mesh.jpg )
-
-Opérations booléennes sur maillage dans FreeCAD
-
-### Blender
-
-![](images/Fcblender.jpg )
-
-Blender est doté d\'un [script](http://yorik.orgfree.com/guestblog.php?2009=105) pour importer les fichiers FreeCAD.
-
-### Extraction de mise en plan 
-
-<img alt="" src=images/Drawing_extraction.png  style="width:800px;">
-
-Extraction d\'une pièce 3D (STEP dans ce cas) vers une vue de **Mise en plan** SVG. Ceci est pleinement paramétrique, si la pièce change, la vue sera rafraichie.
-
-### FreeCAD vs. QCad 
-
-![](images/Screenshot_qcad.jpg )
-
-Cette capture d\'écran montre comment le même fichier est affiché par FreeCAD et QCAD.
-
-### FreeCAD vs. Inkscape 
-
-![](images/Screenshot_inkscape.jpg )
-
-Cette capture d\'écran montre comment le même fichier est affiché par FreeCAD et Inkscape.
-
-### Atelier Draft 
-
-![](images/Screenshot_draft.jpg )
-
-Freecad avec l\'[atelier Draft](Draft_Workbench/fr.md) chargé et un fichier de dessin DXF importé.
-
-### Préférences
-
-![](images/Freecad-vista02.jpg )
-
-La fenêtre des préférences
-
-### Sous Ubuntu 
-
-![](images/Interface_screenshot.jpg )
-
-L\'interface de FreeCAD lorsqu\'il est lancé la première fois, sous Ubuntu
-
-### Installateur Windows 
-
-![](images/Screenshot_installer.jpg )
-
-L\'installateur Windows au travail
-
-### Mode console 
-
-![](images/Screenshot_console.jpg )
-
-FreeCAD s\'exécutant en mode console (sans interface graphique)
-
-### Save picture 
-
-![](images/Save_picture.png )
-
-La boîte de dialogue pour sauvegarder une image avec des dimensions personnalisées.
-
 
 
 ---
-⏵ [documentation index](../README.md) > Screenshots/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Screenshots](Category_Screenshots.md) > Screenshots/fr

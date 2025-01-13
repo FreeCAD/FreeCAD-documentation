@@ -26,6 +26,11 @@ Il vincolo peso proprio definisce l\'accelerazione di gravità di 9,81 m/s\^2 ch
 </div>
 
 
+{{VersionMinus|0.21}}
+
+: The acceleration has a fixed value of 9.81 m/s\^2.
+
+
 
 ## Utilizzo
 

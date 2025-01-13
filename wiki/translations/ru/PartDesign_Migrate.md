@@ -8,12 +8,16 @@
 
 # PartDesign Migrate/ru
 
+
+
 ## Описание
 
 The PartDesign workbench in FreeCAD v0.17 introduces new tools and elements that are not recognized by older FreeCAD versions (0.16 and older). FreeCAD documents created in older versions can still be opened and edited. To benefit from the new features, they must be migrated via the menu PartDesign → Migrate.
 
 
 {{Version/ru|0.17}}
+
+
 
 ## Применение
 
@@ -22,6 +26,8 @@ The PartDesign workbench in FreeCAD v0.17 introduces new tools and elements that
 3.  Go to the **Part Design** → **Migrate** menu.
 4.  If the migration works, a <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Part container](Std_Part.md) will be created which will hold one or more <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Bodies](PartDesign_Body.md), each hosting a chain of features.
 
+
+
 ## Ограничения
 
 -   Before starting the migration process, check if the model was built with automatic refine options enabled (in **Edit → Preferences → Part design → General**), and set your preferences accordingly. This can be easily determined by successively toggling the visibility of the features in the Model tree. If no residual edges are left between features such as Pads and Pockets, the automatic refine options were disabled.
@@ -29,7 +35,13 @@ The PartDesign workbench in FreeCAD v0.17 introduces new tools and elements that
 -   If the document to migrate has a mixed Part/Part Design/Draft workflow, the conversion will most likely fail or at best produce unexpected results, and will need to be migrated manually.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

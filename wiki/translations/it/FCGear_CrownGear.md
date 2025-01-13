@@ -2,130 +2,130 @@
  GuiCommand:
    Name: FCGear CrownGear
    Name/it: Corona dentata
-   MenuLocation: FCGear , Create an Crown gear
-   Workbenches: FCGear Workbench/it
+   MenuLocation: Gear , Crown Gear
+   Workbenches: FCGear_Workbench/it
    Shortcut: None
    Version: v0.16
-   SeeAlso: FCGear InvoluteGear/it
+   SeeAlso: FCGear_InvoluteGear/it
 ---
 
 # FCGear CrownGear/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-The crown wheel resembles a ring-shaped curved rack. The pressure angle decreases continuously from the outer to the inner diameter. Thus, the variable peripheral speed at the crown wheel is compensated against the constant peripheral speed of the pinion. The pointed outer teeth and the steep tooth flanks on the inner diameter limit the usable tooth width. Crown gears achieve similar efficiencies as spur gears. One crown gear can drive several pinions.
+La ruota dentata ricorda una cremagliera curva a forma di anello. L\'angolo di pressione diminuisce continuamente dal diametro esterno a quello interno. In questo modo la velocità periferica variabile della corona dentata viene compensata con la velocità periferica costante del pignone. I denti esterni appuntiti e i fianchi ripidi del dente sul diametro interno limitano la larghezza utile del dente. Gli ingranaggi a corona raggiungono efficienze simili agli ingranaggi cilindrici. Una corona dentata può azionare più pignoni.
 
-Known field of application of crown gears:
+Campi di applicazione noti per le corone dentate:
 
--   Rear axle drives for cars and motorcycles
--   Swivel mechanism for operating tables
--   Angular milling heads
--   Powered tool systems with multiple pinions and a crown gear
+-   Azionamenti dell\'asse posteriore per auto e moto
+-   Meccanismo girevole per tavoli operatori
+-   Teste per fresatura angolare
+-   Sistemi di utensili motorizzati con pignoni multipli e corona dentata
 
 ![](images/Crown-Gear_example.png ) 
-*Above: Crown gear*
+*Sopra: corona dentata*
 
-## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_CrownGear.svg style="width:16px"> [Crown Gear](FCGear_CrownGear.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_CrownGear.svg style="width:16px"> Crown Gear** option from the menu.
-3.  The crown gear is displayed without teeth by default. (<small>(v0.21)</small> )
-4.  Change the gear parameters to the required conditions (see [Properties](#Properties.md)).
-5.  Set the **preview_mode** property to {{false}} to display the teeth (see [Notes](#Notes.md)).
 
-## Properties
+## Utilizzo
 
-An FCGear CrownGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+1.  Passare a <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/it.md).
+2.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **[<img src=images/FCGear_CrownGear.svg style="width:16px"> [Crown Gear](FCGear_CrownGear/it.md)** nella barra degli strumenti.
+    -   Selezionare l\'opzione **Gear → [<img src=images/FCGear_CrownGear.svg style="width:16px"> Crown Gear** dal menu.
+3.  Per default la corona dentata viene visualizzata senza denti. ({{Version/it|0.21}})
+4.  Modificare i parametri dell\'ingranaggio alle condizioni richieste (vedere [Proprietà](#Proprietà.md)).
+5.  Impostare la proprietà **preview_mode** su {{false}} per visualizzare i denti (vedere [Note](#Note.md)).
 
-### Data
+
+
+## Proprietà
+
+Un oggetto FCGear CrownGear deriva da un oggetto [Part Feature](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{Properties_Title|accuracy}}
 
--    **num_profiles|Integer**: Default is {{Value|4}}. Number of profiles used for loft.
+-    **num_profiles|Integer**: L\'impostazione predefinita è {{Value|4}}. Numero di profili utilizzati per il loft.
 
--    **preview_mode|Bool**: Default is {{True}}.
+-    **preview_mode|Bool**: il valore predefinito è {{True}}.
 
 
 {{Properties_Title|base}}
 
--    **height|Length**: Default is {{Value|2 mm}}. Value for the tooth width.
+-    **height|Length**:L\'impostazione predefinita è {{Value|2 mm}}. Valore per la larghezza del dente.
 
--    **module|Length**: Default is {{Value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
+-    **module|Length**: L\'impostazione predefinita è {{Value|1 mm}}. Il modulo è il rapporto tra il diametro di riferimento dell\'ingranaggio diviso per il numero di denti (vedere [Note](#Note.md)).
 
--    **other_teeth|Integer**: Default is {{Value|15}}. Number of teeth of the construction gear (pinion) (see [Notes](#Notes.md)).
+-    **other_teeth|Integer**: L\'impostazione predefinita è {{Value|15}}. Numero di denti dell\'ingranaggio da accoppiare (pignone) (vedere [Note](#Note.md)).
 
--    **teeth|Integer**: Default is {{Value|15}}. Number of teeth.
+-    **teeth|Integer**: L\'impostazione predefinita è {{Value|15}}. Numero di denti.
 
--    **thickness|Length**: Default is {{Value|5 mm}}. Height from the tip of tooth to the lower side of the crown wheel.
+-    **thickness|Length**: L\'impostazione predefinita è {{Value|5 mm}}. Altezza dalla punta del dente sul lato inferiore della corona dentata.
 
 
 {{Properties_Title|involute}}
 
--    **pressure_angle|Angle**: Default is {{Value|20 °}} (see [Notes](#Notes.md)).
+-    **pressure_angle|Angle**: Il valore predefinito è {{Value|20 °}} (vedere [Note](#Note.md)).
 
 
 {{Properties_Title|version}}
 
 -    **version|String**:
 
-## Notes
 
--   The **preview_mode** property is set to {{true}} by default and when the gear is created you\'ll find this message in the report view:
+
+## Note
+
+-   La proprietà **preview_mode** è impostata su {{true}} per impostazione predefinita quando l\'ingranaggio viene creato apparirà questo messaggio nella visualizzazione del report:
 
     :   *Gear module: Crown gear created, preview_mode = true for improved performance. Set preview_mode property to false when ready to cut teeth.*
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
+-    **modulo**: Utilizzando le linee guida ISO (Organizzazione internazionale per la standardizzazione), la dimensione del modulo è designata come l\'unità che rappresenta le dimensioni dei denti degli ingranaggi. Modulo (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). Se si moltiplica il Modulo per Pi, si può ottenere la dimensione (p). Il passo è la distanza tra i punti corrispondenti sui denti adiacenti.
 
--    **other_teeth**: Several pinions with the same number of teeth only can be used on one crown wheel.
+-    **other_teeth**: Su una corona dentata possono essere utilizzati più pignoni ma tutti con lo stesso numero di denti.
 
--    **pressure_parameter**: Only change the parameter, if sufficient knowledge of the gear geometry is available.
+-    **pressure_parameter**: Modificare il parametro solo se si dispone di una conoscenza sufficiente della geometria dell\'ingranaggio.
 
--   The geometry of the crown gear is primarily determined by the spur pinion geometry (**other_teeth**).
+-   La geometria della corona dentata è determinata principalmente dalla geometria del pignone cilindrico (**other_teeth**).
 
--   Create spur gear with [Involute gear](FCGear_InvoluteGear.md). The number of teeth must be identical to the parameter **other_teeth** of the crown gear.
+-   Creare un ingranaggio cilindrico con [Ingranaggio ad evolvente](FCGear_InvoluteGear/it.md). Il numero di denti deve essere identico al parametro **other_teeth** della corona dentata.
 
--   Adjustments for optimal running characteristics can be made with the parameters of involute gear.
+-   Le regolazioni per le caratteristiche di funzionamento ottimali possono essere effettuate con i parametri dell\'ingranaggio ad evolvente.
 
-## Crown and spur gear set overview 
+
+
+## Panoramica dell\'insieme corona e ingranaggio cilindrico 
 
 ![](images/Crown-spur-gear-set_example.png )
 
--   \(1\) Spur gear
--   \(2\) Crown gear
--   \(3\) Tooth width
--   \(4\) Inner diameter
--   \(5\) Outer diameter
+-   \(1\) Ingranaggio cilindrico
+-   \(2\) Corona dentata
+-   \(3\) Larghezza del dente
+-   \(4\) Diametro interno
+-   \(5\) Diametro esterno
 
-## Useful formulas 
+
+
+## Formule utili 
 
 -   **Inner diameter (4)**
     -   
-        **inner diamter**
+        **diametro interno**
         
-        = **module (spur gear)** \* **teeth (crown gear)** \* **cos pressure_paramter (pinion)** : **cos pressure_parameter (crown gear)**
+        = **modulo (ingranaggio cilindrico)** \* **denti (corona dentata)** \* **cos parametro_pressione (pignone)** : **cos parametro_pressione (corona dentata)**
 
 -   **Outer diameter (5)**
     -   
-        **outer diamter**
+        **diametro esterno**
         
-        = **inner diameter** + **2x height (tooth width crown gear)**
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+        = **diametro interno** + **2x altezza (larghezza del dente della corona dentata)**
 
 
 

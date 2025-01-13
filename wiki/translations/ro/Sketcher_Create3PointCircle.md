@@ -35,6 +35,8 @@ Acest instrument <img alt="" src=images/Sketcher_CreateCircle3Point.png  style="
 
 </div>
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
 
 <div class="mw-translate-fuzzy">
 

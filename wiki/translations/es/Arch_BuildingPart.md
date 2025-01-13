@@ -91,7 +91,7 @@ An Arch BuildingPart is derived from an [App GeoFeature](App_GeoFeature.md) obje
 
 {{TitleProperty|Children}}
 
--    **Height Propagate|Bool**: If true, the height value propagates to contained objects.
+-    **Height Propagate|Bool**: If true, the height value propagates to contained objects. See the **Height** property for additional conditions that apply.
 
 
 {{TitleProperty|IFC}}
@@ -252,6 +252,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/es
+⏵ [documentation index](../README.md) > Arch BuildingPart/es

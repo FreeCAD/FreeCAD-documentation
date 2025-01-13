@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -26,6 +28,8 @@
 ![*Clone of the inner gear while being translated in 3D space as an independent object*](images/clone.png ) 
 *Clone of the inner gear while being translated in 3D space as an independent object*
 
+
+
 ## Cum se folosește 
 
 
@@ -36,6 +40,8 @@
 
 
 </div>
+
+
 
 ## Proprietăți
 
@@ -50,6 +56,8 @@
 
 
 </div>
+
+
 
 ## Limite
 

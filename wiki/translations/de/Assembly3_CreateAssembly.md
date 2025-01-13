@@ -10,9 +10,11 @@
 
 # Assembly3 CreateAssembly/de
 
+
+
 ## Beschreibung
 
-Der Befehl **Assembly3 Baugruppe anlegen** fügt dem Konstruktionsbaum ein neues **Assembly**-Astobjekt hinzu.
+Der Befehl <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width:24px;"> **Assembly3 Baugruppe anlegen** fügt dem Modellbaum einen neuen Ast hinzu, ein **Assembly**-Objekt.
 
 Jedes Astobjekt ist ein <img alt="" src=images/Assembly_Assembly_Tree.svg  style="width:24px;"> **Assembly** -Container und enthält vier Gruppencontainer:
 
@@ -27,10 +29,15 @@ Das hinzugefügte **Assembly**-Objekt mit allen sichtbaren Containern sieht so a
 
 <img alt="" src=images/Assembly3_Example-Tree-07.png  style="width:190px;"> <img alt="" src=images/Assembly3_Example-Tree-08.png  style="width:190px;">
 
+
+
 ## Anwendung
 
-1.  Durch drücken der Schaltfläche **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Baugruppe anlegen](Assembly3_CreateAssembly/de.md)** oder
-    durch die Verwendung des Tastenkürzels **A** dann **N**, wird ein leerer Assembly-Container erzeugt
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Baugruppe anlegen](Assembly3_CreateAssembly/de.md)** drücken.
+    -   Den Menüeintrag **Assembly3 → <img src="images/Assembly_New_Assembly.svg‎‎" width=16px> Baugruppe anlegen** auswählen.
+2.  Das Tastaturkürzel **A** dann **N**
+3.  Ein Assembly-Container wird erstellt.
 
 
 

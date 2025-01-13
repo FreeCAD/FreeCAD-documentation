@@ -1,11 +1,13 @@
 # Workbench creation/ko
-## Introduction
+## 소개
 
-This page will show you how to add a new workbench to the FreeCAD interface. [Workbenches](Workbenches.md) are containers for FreeCAD commands. They can be coded in Python, in C++, or in a mix of both, which has the advantage to ally the speed of C++ to the flexibility of Python. In all cases, though, your workbench will be launched by a set of two Python files. They can be \"internal\" workbenches, included with FreeCAD\'s distribution, or \"external\" workbenches, distributed via the [Addon Manager](Std_AddonMgr.md) or installed manually by downloading from some online repository. Internal workbenches may be coded in either C++, Python, or a combination of the two, whereas external workbenches must be Python-only.
+이 페이지에서는 FreeCAD 인터페이스에 새 작업대를 추가하는 방법을 보여줍니다. [작업대는](Workbenches/ko.md) FreeCAD 명령을 위한 컨테이너입니다. Python, C++ 또는 둘을 혼합하여 코딩할 수 있으며, 이는 C++의 속도를 Python의 유연성과 결합시키는 이점이 있습니다. 그러나 모든 경우에 작업대는 두 개의 Python 파일 세트로 시작됩니다. FreeCAD 배포판에 포함된 \"내부\" 작업대가 될 수도 있고, [애드온 관리자를](Std_AddonMgr.md) 통해 배포되거나 일부 온라인 저장소에서 다운로드하여 수동으로 설치되는 \"외부\" 작업대가 될 수도 있습니다. 내부 작업대는 C++, Python 또는 둘의 조합으로 코딩할 수 있는 반면, 외부 워크벤치는 Python 전용이어야 합니다.
 
-## The workbench structure 
 
-You need a folder, with any name you like, placed in the user Mod directory, with an `Init.py` file, and, optionally an `InitGui.py` file. The Init file is executed when FreeCAD starts, and the `InitGui.py` file is executed immediately after, but only when FreeCAD starts in GUI mode. That\'s all it needs for FreeCAD to find your workbench at startup and add it to its interface.
+
+## 작업대 구조 
+
+You need a folder, with any name you like, placed in the user Mod directory, with an `Init.py` file, and, optionally an `InitGui.py` file. The `Init.py` file is executed when FreeCAD starts, and the `InitGui.py` file is executed immediately after, but only when FreeCAD starts in GUI mode. That\'s all it needs for FreeCAD to find your workbench at startup and add it to its interface.
 
 The user Mod directory is a sub-directory of the user application data directory (you can find the latter by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md)):
 
@@ -29,7 +31,7 @@ Inside those files you can do whatever you want. Usually they are used like this
 
 -   In the InitGui.py file you usually define a workbench, which contains a name, an icon, and a series of FreeCAD commands (see below). That python file also defines functions that are executed when FreeCAD loads (you try to do as little as possible there, so you don\'t slow down the startup), another that gets executed when the workbench is activated (that\'s where you\'ll do most of the work), and a third one when the workbench is deactivated (so you can remove things if needed).
 
-The structure and file content for a workbench described here is the classic way of creating a new workbench. One can use a slight variation in the structure of files when making a new Python workbench, that alternative way is best described as a \"namespaced workbench\", opening up the possibility to use pip to install the workbench. Both structures work, so it is more a question of preference when creating a new workbench. The style and structure for workbenches presented here are available in the global namespace of FreeCAD, whereas for the alternative style and structure the workbench resides in a dedicated namespace. For further readings on the topic see [Related](Workbench_creation#Related.md).
+The structure and file content for a workbench described here is the classic way of creating a new workbench. One can use a slight variation in the structure of files when making a new Python workbench, that alternative way is best described as a \"namespaced workbench\", opening up the possibility to use pip to install the workbench. Both structures work, so it is more a question of preference when creating a new workbench. The style and structure for workbenches presented here are available in the global namespace of FreeCAD, whereas for the alternative style and structure the workbench resides in a dedicated namespace. For further readings on the topic see [Related](#Related.md).
 
 ### C++ workbench structure 
 
@@ -79,7 +81,7 @@ extern "C" {
 # *   it under the terms of the GNU Lesser General Public License (LGPL)    *
 # *   as published by the Free Software Foundation; either version 2 of     *
 # *   the License, or (at your option) any later version.                   *
-# *   for detail see the LICENCE text file.                                 *
+# *   for detail see the LICENSE text file.                                 *
 # *                                                                         *
 # *   FreeCAD is distributed in the hope that it will be useful,            *
 # *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
@@ -98,7 +100,7 @@ FreeCAD.addExportType("My own format (*.own)", "exportOwn")
 print("I am executing some stuff here when FreeCAD starts!")
 }}
 
-You can choose any license you like for your workbench, but be aware that if you wish to see your workbench integrated into and distributed with the FreeCAD source code at some point, it needs to be LGPL2+ like the example above. See [Licence](Licence.md).
+You can choose any license you like for your workbench, but be aware that if you wish to see your workbench integrated into and distributed with the FreeCAD source code at some point, it needs to be LGPL2+ like the example above. See [License](License.md).
 
 The `FreeCAD.addImportType()` and `addEXportType()` functions allow you to give the name and extension of a file type, and a Python module responsible for its import. In the example above, an `importOwn.py` module will handle `.own` files. See [Code snippets](Code_snippets.md) for more examples.
 
@@ -331,7 +333,7 @@ compileA2pResources.py from the A2Plus workbench:
 #*   it under the terms of the GNU Lesser General Public License (LGPL)    *
 #*   as published by the Free Software Foundation; either version 2 of     *
 #*   the License, or (at your option) any later version.                   *
-#*   for detail see the LICENCE text file.                                 *
+#*   for detail see the LICENSE text file.                                 *
 #*                                                                         *
 #*   This program is distributed in the hope that it will be useful,       *
 #*   but WITHOUT ANY WARRANTY; without even the implied warranty of        *

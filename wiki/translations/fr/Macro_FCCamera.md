@@ -3,12 +3,12 @@
 |Name=Macro FCCamera
 |Name/fr=Macro FCCamera
 |Icon=FCCamera_00.png
-|Description={{ColoredText|#ff0000|#ffffff|Nouvelle version de l'interface modifiée pour HD dpi (QGridLayout) fonctionnant uniquement avec FC version 0.18 et plus (PySide2 Qt5)}}<br/>Pour les versions précédentes, voir [https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/42dc3ef73dc8db463a03b175f5a7f1f6978e3293/Macro%2520FCCamera.FCMacro FCCamera] et l'installer manuellement.<br/><br/>
+|Description=
 Cette macro peut faire pivoter l'écran selon un angle défini et l'axe défini et crée un plan pour faire face à l'écran afin de créer un formulaire dans les positions du plan spécifiées : la face sélectionnée faisant face à l'écran, pour détecter la position de la caméra, aligner la vue sur la face ou sur l'axe, aligner l'objet à voir.
 |Author=Mario52
-|Version=0.14
-|Date=2020/10/20
-|FCVersion=0.18 et plus
+|Version=0.15b
+|Date=2024/12/19
+|FCVersion=1.0 et plus
 |Download=[https://wiki.freecad.org/images/2/25/FCCamera_00.png Icône de la barre d'outils]
 }}
 
@@ -17,7 +17,7 @@ Cette macro peut faire pivoter l'écran selon un angle défini et l'axe défini 
 Cette macro permet de faire pivoter l\'écran selon un angle et un axe définis et de créer un plan face à l\'écran pour créer une forme dans le plan spécifié, de positionner la face sélectionnée face à l\'écran, de détecter la position de la caméra, d\'aligner la vue sur la face ou sur l\'axe, d\'aligner l\'objet sur la vue.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/98d90ee303e9fa5d6aed6e9f2e36e7ca1a18ca19/Macro%2520FCCamera.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/b31c64d26788b796750095eca4a6b92803537732/Macro%2520FCCamera.FCMacro}}
 
 
 
@@ -194,6 +194,25 @@ Le même résultat peut être obtenu en créant un plan dans le coin donné par 
 
 ## Versions
 
+-   **ver 0.15, 0.15b (19/12/2024):** adaptation et retour sur PySide, ([FCCamera macro can\'t find Pyside2](https://forum.freecad.org/viewtopic.php?p=797838)) correction de web acces et remplacé **WebGui** par**webbrowser**
+
+
+```python
+####
+try:
+    import webbrowser
+    webbrowser.open("http://www.freecadweb.org/wiki/index.php?title=Macro_FCCamera")
+except Exception:
+    None
+####
+####
+import urllib
+from urllib import request
+
+contentPage = request.urlopen("https://wiki.freecadweb.org/Macro_FCCamera").readlines()
+####
+```
+
 -   **ver 0.14 (20/10/2020) :** correction du bogue \"Grid\" non accepté
 
 -   **ver 0.13 (28/06/2020) :** ajout des images dans le code souece, creation du plan \"On point, Center face, BBox center, Center Mass\", gridLayout
@@ -213,13 +232,16 @@ Le même résultat peut être obtenu en créant un plan dans le coin donné par 
 
 -   **ver 0.6 (13/12/2016) :** nouveau système de recherche du chemin des macros directement dans les préférences.
 
-#path = FreeCAD.ConfigGet("AppHomePath")
-#path = FreeCAD.ConfigGet("UserAppData")
-#path = "your path"
-param = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macro")# macro path
-path = param.GetString("MacroPath","") + "/"                        # macro path
-path = path.replace("\\","/")
-App.Console.PrintMessage("Path locality to FCCamera.....images.png [ " + path + " ]"+"\n")
+
+```python
+#path = FreeCAD.ConfigGet("AppHomePath")
+#path = FreeCAD.ConfigGet("UserAppData")
+#path = "your path"
+param = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macro")# macro path
+path = param.GetString("MacroPath","") + "/"                        # macro path
+path = path.replace("\\","/")
+App.Console.PrintMessage("Path locality to FCCamera.....images.png [ " + path + " ]"+"\n")
+```
 
 -   **ver 0.5 06/09/2016 :** correction du nom \"FCCamera_Axis_rotation_X.png\" dans le bloc reset
 

@@ -34,6 +34,8 @@ The dialog offers the following settings:
 -   **Field**: The results field to be drawn.
 -   **Vector**: If the **Field** is a vector, the vector components.
 -   **Number of contours**: The number of contours to be created. **Note:** depending on the geometry the created number of contours can be higher than specified. This is caused by the creation algorithm. However, for 2D and simple 3D geometries, the number should be correct.
+-   **Smoothing**: If checked, Laplacian smoothing filter is applied to the Contours filter to make the isosurfaces less coarse. <small>(v1.1)</small> 
+-   **Relaxation Factor**: Controls the level of smoothing via amount of vertex displacement (if smoothing is enabled). <small>(v1.1)</small> 
 -   **No color**: Don\'t apply a color to the contours.
 
 **Note**: A **Field** can only be set if a filter function exists and has been applied with <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:16px;"> [Apply Changes](FEM_PostApplyChanges.md). Alternatively you can reopen the filter dialog.

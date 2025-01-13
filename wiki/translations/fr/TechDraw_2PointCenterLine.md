@@ -42,7 +42,7 @@ Voir [TechDraw Ligne centrale à une face](TechDraw_FaceCenterLine/fr#Édition.m
 
 ## Remarques
 
--   Pour supprimer une ligne centrale, utilisez **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)**.
+-   Pour supprimer une ligne centrale, sélectionnez-la et appuyez sur **Supprimer**. {{Version/fr|1.0}}
 
 
 

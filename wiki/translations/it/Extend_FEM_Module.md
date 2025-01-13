@@ -1,11 +1,10 @@
 ---
  TutorialInfo:t
-   Topic:  
-   Level:  
-   Time:  
+   Topic: FEM
+   Level: Intermediate
+   Time: 1 hour
    Author: User:M42kus
-   FCVersion: 
-   Files: 
+   FCVersion: 0.17
 ---
 
 # Extend FEM Module/it
@@ -13,20 +12,8 @@
 
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-L\'ambiente FEM supporta già un sacco di vincoli diversi e alcuni solutori. Nonostante ciò spesso si ha bisogno di vincoli non ancora supportati da FreeCAD. Questa pagina è il punto di partenza per una serie di esercitazioni e di altre risorse che descrivono come estendere l\'ambiente FEM utilizzando la struttura esistente. Anche se questa serie può rivelarsi utile per gli sviluppatori di software, l\'idea è di permettere agli utenti di FEM che hanno un po\' di interesse per la codifica in Python di aggiungere le cose di cui hanno bisogno.
-
-
-</div>
+L\'ambiente FEM supporta già molti vincoli diversi e diversi solutori. Nonostante ciò, gli utenti spesso necessitano di vincoli non ancora supportati da FreeCAD. Questa pagina è il punto di partenza per una serie di tutorial e altre risorse che descrivono come estendere l\'ambiente FEM utilizzando il framework esistente. Sebbene questa serie possa rivelarsi utile anche per gli sviluppatori di software, l\'idea è quella di consentire agli utenti FEM con un po\' di interesse per la codifica Python di aggiungere autonomamente le parti di cui hanno bisogno.
 
 Aggiungere nuovi vincoli, equazioni o solutori è per lo più un lavoro di routine. Ma farlo per la prima volta non è così facile come potrebbe sembrare. È utile conoscere i seguenti argomenti:
 
@@ -42,7 +29,7 @@ Aggiungere nuovi vincoli, equazioni o solutori è per lo più un lavoro di routi
 
 ## Sistema di costruzione (cmake) 
 
-The build system must be modified regardless of which objects shall be added o the FEM workbench. Every python module (file) must be registered. The FEM workbench requires every new python module to be registered in `Mod/Fem/CMakeLists.txt`. This is true regardless of the type of the python module (GUI or non-GUI). Where exactly the module must be inserted depends on the role of the module. Solver, equations and constraints all use different lists. Searching for similar files and inserting the new file in the same list works most of the time.
+Il sistema di build deve essere modificato indipendentemente da quali oggetti verranno aggiunti all\'ambiente FEM. Ogni modulo (file) Python deve essere registrato. Il workbench FEM richiede che ogni nuovo modulo Python sia registrato in `Mod/Fem/CMakeLists.txt`. Questo è necessario indipendentemente dal tipo di modulo Python (GUI o non GUI). Il punto esatto in cui deve essere inserito il modulo dipende dal ruolo del modulo. Risolutore, equazioni e vincoli utilizzano tutti elenchi diversi. La ricerca di file simili e l\'inserimento del nuovo file nello stesso elenco funziona nella maggior parte dei casi.
 
 
 <div class="mw-translate-fuzzy">
@@ -119,7 +106,7 @@ Un pacchetto non segue questo modello: FemSolver. È posizionato allo stesso liv
 
 In FreeCAD a solver can be split into two parts:
 
--   One is the document object used by the user to interact with the solver. Though it solver parameter can be set and it is also used to control the solving process.
+-   One is the document object used by the user to interact with the solver. Through it, solver parameters can be set and it is also used to control the solving process.
 -   The other one are the so called tasks of a solver. The solving process is split into those tasks, namely: *check, prepare, solve and results*. Those do the actual work of exporting the analysis into a format understood by the solver executable, starting the executable and loading the results back into FreeCAD.
 
 

@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Trimex
    Name/de: Draft Trimex
-   MenuLocation: Änderung , Trimex
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Änderung , Trimex<br>Bearbeiten , Trimex.
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **T** **R**
    SeeAlso: Part_Extrude/de
 ---
@@ -30,8 +30,9 @@ Unten: eine Fläche zu einem Festkörper extrudiert.*
 
 1.  Wahlweise ein Objekt auswählen. Das Objekt muss eine [Draft-Linie](Draft_Line/de.md), eine [Draft-Polylinie](Draft_Wire/de.md), ein [Draft-Bogen](Draft_Arc/de.md) oder ein [Draft-Kreis](Draft_Circle/de.md) sein (nur diese lassen sich trimmen). Ist das ausgewählte Objekt geschlossen, muss seine {{PropertyData/de|Make Face}} auf `False` gesetzt werden.
 2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Draft_Trimex.svg" width=16px> [Trimex](Draft_Trimex.md)** drücken.
-    -   Den Menüeintrag **Änderung → <img src="images/Draft_Trimex.svg" width=16px> Trimex** auswählen.
+    -   Die Schaltfläche **<img src="images/Draft_Trimex.svg" width=16px> [Trimex](Draft_Trimex/de.md)** drücken.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Änderung → <img src="images/Draft_Trimex.svg" width=16px> Trimex** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Bearbeiten → <img src="images/Draft_Trimex.svg" width=16px> Trimex** auswählen.
     -   Das Tastaturkürzel **T** dann **R**.
 3.  Wurde noch kein Objekt ausgewählt: Ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
 4.  Der Aufgabenbereich **Trimex** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
@@ -45,13 +46,13 @@ Unten: eine Fläche zu einem Festkörper extrudiert.*
 
 ### Optionen
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel.
 
--   Hold down **Alt** to invert the default result of the command.
--   Hold down **Shift** to restrict the operation to the current segment of a [Draft Wire](Draft_Wire.md).
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
+-   Halte die **Alt** Taste um das Standard Ergebnis des Befehls umzukehren.
+-   Halte die **Shift** Taste um den Vorgang auf den aktuellen Abschnitt eines [Draft Linienzug](Draft_Wire/de.md) einzuschränken.
+-   Drücke **S** um [Draft Einrasten](Draft_Snap/de.md) ein- oder auszuschalten
 
-Here is an example to explain the modifier keys. The left edge or the bottom edge of the U-shaped wire was extended. All [Draft Snaps](Draft_Snap.md) were turned off.
+Ein Beispiel um die Modifizier Tasten zu erklären. Die linke Kante oder die obere Kante des U-förmigen Drahtes wurden erweitert. Alles [Draft Einrasten](Draft_Snap/de.md) wurde abgeschaltet.
 
 ![](images/Draft_Trimex_example2.png )
 
@@ -73,31 +74,31 @@ Here is an example to explain the modifier keys. The left edge or the bottom edg
 
 Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
-1.  It can be helpful to first change the [Draft working plane](Draft_SelectPlane.md) so that it is not coplanar with the face you want to extrude.
-2.  Optionally select a single face or an object with a single face.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Trimex.svg" width=16px> [Draft Trimex](Draft_Trimex.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Trimex.svg" width=16px> Trimex** option from the menu.
-    -   Use the keyboard shortcut: **T** then **R**.
-4.  If you have not yet selected an object or a face: select an object with a single face in the [3D view](3D_view.md).
-5.  The **Trimex** task panel opens. See [Options](#Options_2.md) for more information.
-6.  To define the extrusion direction and distance do one of the following:
-    -   Pick a point in the [3D view](3D_view.md) that does no lie on the same plane as the face.
-    -   Make sure the pointer is on the correct side of the face in the [3D view](3D_view.md) and enter a **Distance**.
+1.  Es kann hilfreich sein die [Draft Arbeitsebenezu](Draft_SelectPlane/de.md) wechseln so dass sie nicht in der gleichen Ebene mit der Fläche die du extrudieren möchtest ist.
+2.  Wähle optional eine einzelne Fläche oder ein Objekt mit einer einzelnen Fläche.
+3.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Drücke die **<img src="images/Draft_Trimex.svg" width=16px> [Draft Trimex](Draft_Trimex/de.md)** Schaltfläche.
+    -   Wähle die **Änderung → <img src="images/Draft_Trimex.svg" width=16px> Trimex** Option aus dem Menü.
+    -   Verwende die Kurztasten: **T** dann **R**.
+4.  Wenn bis jetzt noch kein Objekt oder keine Fläche ausgewählt wurde: wähle ein Objekt mit einer einzelnen Fläche in [3D Ansicht](3D_view/de.md).
+5.  Das Aufgabenfenster **Trimex** öffnet. Siehe [Options](#Options_2.md) für weitere Informationen.
+6.  Um die Richtung der Verlängerung und den Abstand zu definieren mache eines der folgenden:
+    -   Greife einen Punkt in der [3D Ansicht](3D_view/de.md) der nicht in der gleichen Ebene wie die Fläche liegt.
+    -   Stelle sicher, dass der Zeiger auf der richtigen Seite der Fläche in der [3D Ansicht](3D_view/de.md) ist, und gib einen **Abstand** ein.
 
 
 
 ### Optionen 
 
-The modifier key mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+Die hier verwendete Modifizier Taste kann geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md).
 
--   Hold **Shift** to extrude in a direction that is not parallel to the normal of the face.
+-   Halte **Shift** um in eine Richtung die nicht parallel zur Normalen der Fläche ist zu verlängern.
 
 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Es gibt keine Python-Methode zum Trimmen von Objekten. Um Objekte zu extrudieren, wird die Methode `extrude` des Draft-Moduls verwendet.
 
@@ -106,13 +107,13 @@ Es gibt keine Python-Methode zum Trimmen von Objekten. Um Objekte zu extrudieren
 extrusion = extrude(obj, vector, solid=False)
 ```
 
--    `obj`is the object to be extruded.
+-    `obj`ist das Objekt, das verlängert wird.
 
--    `vector`is the extrusion direction and distance.
+-    `vector`ist die Richtung und der Betrag der Verlängerung.
 
--   If `solid` is `True` a solid is created instead of a shell.
+-   Falls `solid` auf `True` ist, dann wird an Stelle einer Schale ein Körper erzeugt.
 
--    `extrusion`is returned with the created object.
+-    `extrusion`wird mit dem erzeugten Objekt zurückgegeben.
 
 Beispiel:
 

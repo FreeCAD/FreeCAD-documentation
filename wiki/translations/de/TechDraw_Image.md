@@ -15,6 +15,11 @@
 
 Das Werkzeug **TechDraw Bild** fügt eine [Bitmap](Bitmap/de.md)-Grafik (PNG, JPEG, JPG, BMP usw.) aus einer Datei als Ansicht auf einem Zeichnungsblatt ein.
 
+
+{{Version/de|1.0}}
+
+: Auch das Werkzeug [TechDraw Ansicht](TechDraw_View/de.md) kann eine Bildansicht erstellen.
+
 ![](images/TechDraw_Image_example.png ) 
 *Ein auf dem Zeichnungsblatt eingefügtes Bild*
 
@@ -23,22 +28,22 @@ Das Werkzeug **TechDraw Bild** fügt eine [Bitmap](Bitmap/de.md)-Grafik (PNG, JP
 ## Anwendung
 
 1.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](Tree_view/de.md) aktivieren.
-2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-    -   Die Schaltfläche **<img src="images/TechDraw_Image.svg" width=16px> [Bitmap-Grafik einfügen](TechDraw_Image/de.md)** drücken.
-    -   Den Menüeintrag **TechDraw → TechDraw Ansichten → <img src="images/TechDraw_Image.svg" width=16px> Bitmap-Grafik einfügen** auswählen.
-3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+2.  Den Menüeintrag **TechDraw → TechDraw Ansichten → <img src="images/TechDraw_Image.svg" width=16px> Bitmap-Grafik einfügen** auswählen.
+3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
     1.  Das gewünschte Blatt auswählen.
     2.  Die Schaltfläche **OK** drücken.
-4.  Ein Dateidialog wird geöffnet.
-5.  Einen Speicherort und einen Dateinamen auswählen.
-6.  Die Bitmap-Grafik wird eingefügt.
-7.  Wahlweise ihre {{PropertyData/de|Scale}} ändern, um ihre Größe anzupassen.
+4.  Ein Datei-Browser wird geöffnet.
+5.  Eine Bilddatei auswählen.
+6.  Eine Bildansicht wird eingefügt.
+7.  Wahlweise ihre {{PropertyData/de|Scale}} Anpassen, um ihre Größe einzustellen.
 
 
 
 ## Eigenschaften
 
-Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
+
+Eine Bildansicht, oder formal ein {{Incode|TechDraw::DrawViewImage}}-Objekt, besitzt die gemeinsamen [Eigenschaften](TechDraw_View/de#Eigenschaften_der_Bauteilansicht.md) aller Ansichtsarten. Sie enthält außerdem die folgenden Eigenschaften:
 
 
 
@@ -64,13 +69,13 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 {{TitleProperty|Image}}
 
--    {{PropertyView/de|Crop|Bool}}: Schneidet das Bild auf {{PropertyData/de|Width}} x {{PropertyData/de|Height}} zu.
+-    {{PropertyView/de|Crop|Bool}}: Beschneidet das Bild entsprechen der {{PropertyData/de|Width}} und der {{PropertyData/de|Height}}.
 
 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug Bild kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
@@ -87,7 +92,7 @@ dvi.Width  = 200
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

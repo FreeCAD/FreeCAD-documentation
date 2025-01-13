@@ -67,7 +67,8 @@ Dowolne narzędzie poleceń linii środkowej *(**<img src="images/TechDraw_FaceC
 
 ## Uwagi
 
--   Aby usunąć linię środkową użyj narzędzia <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [Usuń geomertie pomocnicze](TechDraw_CosmeticEraser/pl.md).
+Aby usunąć linię środka należy zaznaczyć ją i nacisnąć **Delete**. {{Version/pl|1.0}}
+
 -   Funkcja Dodaj oś ściany ostatecznie zastąpi dwie właściwości widoku:
     -   
         **LniaŚrodkaPoziomo**

@@ -1,58 +1,42 @@
 ---
  GuiCommand:
-   Name: Robot InsertWaypointPre   Name/de: Robot In Bewegungsbahn einfügen
-   Workbenches: Robot_Workbench
-   MenuLocation: Roboter , In Bewegungsbahn einfügen
+   Name: Robot InsertWaypointPre
+   Name/de: Robot InsertWaypointPre
+   MenuLocation: Robot , In Bewegungsbahn einfügen
+   Workbenches: Robot_Workbench/de
    Shortcut: **W**
+   SeeAlso: Robot_CreateTrajectory/de, Robot_InsertWaypoint/de
 ---
 
 # Robot InsertWaypointPre/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-#### Beschreibung
-
-Fügt aus vorselektierten Objekten einen Wegpunkt in eine Bewegungsbahn ein.
+Fügt aus vorausgewählten Objekten einen Wegpunkt in eine Bewegungsbahn ein.
 
 
-</div>
 
-## Usage
+## Anwendung
 
+Abhängig vom verwendeten Navigationstil kann das Vorauswählen variieren.
 
-<div class="mw-translate-fuzzy">
+-   wird z.B. die [Blender-Navigation](Mouse_navigation#Blender_navigation.md) eingesetzt, kann man mit der Maus über einem Objekt schweben (hover), um es hervorzuheben (vorauszuwählen).
 
-#### Anwendung
+-   Sicherstellen, dass eine Bewegungsbahn in der [Baumansicht](Tree_view/de.md) ausgewählt ist.
 
-Abhängig vom verwendeten Navigationstil kann das Vorselektieren unterschiedlich sein.
-Wenn Sie z.B. die Blender-Navigation benutzen, können Sie mit dem Maus-Cursor über einem Objekt schweben (hover), um es hervorzuheben (vorzuselektieren).
-Stellen Sie sicher, dass eine Bewegungsbahn in der Baumansicht selektiert ist.
-Drücken Sie ** W**, um diesen Wegpunkt in die selektierte Bewegungsbahn einzufügen.
+-    **W**drücken, um diesen Wegpunkt in die ausgewählte Bewegungsbahn einzufügen.
 
 
-</div>
 
-## Notes
+## Hinweise
 
+Auswählbare Objekte sind:
 
-<div class="mw-translate-fuzzy">
-
-#### Anmerkungen
-
-Selektierbare Objekte sind
-
--   Ecken von Volumenkörpern
--   Punkte, die mit dem Draft-Arbeitsbereich eingefügt wurden
--   Endpunkte von Skizzen-Elementen wie Linien, Kreisbögen (Skizze muss sichtbar sein)
-
-
-</div>
+-   Ecken von Festkörpern
+-   Punkte, die mit dem Arbeitsbereich <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) eingefügt wurden.
+-   Endpunkte von Skizzenelementen wie Linien und Kreisbögen (Skizze muss sichtbar sein)
 
 
 

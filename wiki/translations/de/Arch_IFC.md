@@ -1,16 +1,22 @@
 # Arch IFC/de
 ## Beschreibung
 
-Die Arbeitsbereiche <img alt="" src=images/Workbench_Arch.svg  style="width:24px;">[Arch](Arch_Workbench/de.md) und <img alt="" src=images/Workbench_BIM.svg  style="width:24px;">[BIM](BIM_Workbench/de.md) (engl. Building Information Modeling - Bauwerksdatenmodellierung) enthält Import- und Exportfunktionen für [Industry Foundation Classes (IFC)](https://de.wikipedia.org/wiki/Industry_Foundation_Classes). Das IFC-Format ist ein ständig wachsendes, weit verbreitetes Format für den Datenaustausch zwischen [BIM](https://de.wikipedia.org/wiki/Building_Information_Modeling)-Anwendungen, das im Architektur- und im Bauingenieurwesen verwendet wird.
+Der Arbeitsbereich <img alt="" src=images/Workbench_BIM.svg  style="width:24px;">[BIM](BIM_Workbench/de.md) (engl. Building Information Modeling - Bauwerksdatenmodellierung) unterstützt von Haus aus [Industry-Foundation-Classes (IFC)](https://de.wikipedia.org/wiki/Industry_Foundation_Classes) und stellt dafür auch Import- und Exportwerkzeuge zur Verfügung. Das IFC-Format ist ein ständig wachsendes, weit verbreitetes Format für den Datenaustausch zwischen [BIM](https://de.wikipedia.org/wiki/Building_Information_Modeling)-Anwendungen, das im Architektur- und im Bauingenieurwesen verwendet wird.
 
-Sowohl der Importer als auch der Exporter hängen von der [IfcOpenShell](IfcOpenShell/de.md)-Bibliothek ab, die in einigen FreeCAD-Distributionen mitgeliefert wird. Eine einfache Möglichkeit zu prüfen, ob IfcOpenShell verfügbar ist, ist die Eingabe in der [Python-Konsole](Python_console/de.md):
+Weitere Informationen zum Umgang mit IFC-Dateien finden sich auf der Seite [NativeIFC](NativeIFC.md).
+
+
+
+#### IfcOpenShell
+
+Die gesamte IFC-Funktionalität hängt von der [IfcOpenShell](IfcOpenShell/de.md)-Bibliothek ab, die in einigen FreeCAD-Distributionen mitgeliefert wird. Eine einfache Möglichkeit zu prüfen, ob IfcOpenShell vorhanden ist, ist die Eingabe des Folgenden in der [Python-Konsole](Python_console/de.md):
 
 
 ```python
 import ifcopenshell
 ```
 
-Wenn keine Fehlermeldung erscheint, ist IfcOpenShell installiert, und du kannst mit dem [Importieren](Std_Import/de.md) von IFC Dateien fortfahren. Andernfalls musst du IfcOpenShell selbst installieren; lies die [IfcOpenShell](IfcOpenShell/de.md) Seite, um mehr über diesen Vorgang zu erfahren.
+Wenn keine Fehlermeldung erscheint, ist IfcOpenShell installiert, kann mit dem [Öffnen](Std_Open/de.md) oder [Importieren](Std_Import/de.md) von IFC-Dateien fortgefahren werden. Andernfalls muss man IfcOpenShell selbst installieren; auf der Seite [IfcOpenShell](IfcOpenShell/de.md) erfährt man mehr über diesen Vorgang.
 
 
 **Note:**
@@ -18,13 +24,26 @@ Wenn keine Fehlermeldung erscheint, ist IfcOpenShell installiert, und du kannst 
 Das Werkzeug **[<img src=images/BIM_Setup.svg style="width:16px"> [BIM Einrichten](BIM_Setup/de.md)** sucht auch nach IfcOpenShell und gibt eine Warnmeldung aus, wenn diese nicht installiert ist.
 
 
-**Hinweis 2:**
 
-in der Vergangenheit (2013) verfügte der Arbeitsbereich Arch über einen einfacheren IFC-Importeur, der nicht von IfcOpenShell abhängig war. Dieses Legacy-Modul ist immer noch im Quellcode enthalten, aber ab v0.19 wird es überhaupt nicht mehr empfohlen; es wird nur eine sehr kleine Teilmenge von IFC Objekten importieren können und sollte als völlig veraltet betrachtet werden.
+## Öffnen und Importieren 
+
+Beginnend mit Version 1.0 öffnet und importiert FreeCAD IFC-Dateien eigenständig. Mehr dazu findet man auf der Seite [NativeIFC](NativeIFC/de.md).
 
 
 
-## Importieren
+### Ältere Import-Werkzeuge 
+
+
+
+#### Das Arch-Import-Werkzeug 
+
+Das originale IFC-Import-Werkzeug des Arbeitsbereichs Arch wurde in der FreeCAD-Version 1.0 deaktiviert, steht aber noch über Python zur Verfügung:
+
+
+```python
+from importers import importIFC
+importIFC.open("C:\\Path\\To\\My\\File.ifc")
+```
 
 Alle [IfcProduct](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifckernel/lexical/ifcproduct.htm)-basierten Objekte aus IFC2x3 oder IFC4 Dateien werden in das FreeCAD-Dokument importiert. In den IFC-Voreinstellungen kannst du festlegen, wie die IFC-Objekte importiert werden:
 
@@ -37,7 +56,7 @@ Jeder dieser Typen verliert einige Informationen gegenüber dem vorherigen, ist 
 
 Wenn du versuchst, eine große Datei zu öffnen und FreeCAD zu lange für den Import braucht, versuche es normalerweise mit einem niedrigeren Importmodus.
 
-IfcOpenShell unterstützt alle IFC2x3 und IFC4 Entitäten (IFC4-add1 und IFC4-add2 werden in v0.6 implementiert und sind möglicherweise verfügbar, wenn du dies liest), aber nicht alle können in [Arch](Arch_Workbench/de.md)-Objekte konvertiert werden, diejenigen, die nicht importiert werden können, werden als einfache [Part](Part_Workbench/de.md) Formen importiert. Der IFC Importeur importiert zunächst alle IFC-Entitäten, die von [IfcProduct](http://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifckernel/lexical/ifcproduct.htm) abgeleitet sind, d.h. im Grunde alle Objekte, aus denen ein Gebäude besteht, wie z.B. Wände oder Fenster oder Rohre. Alle anderen Entitäten, die von einem dieser Objekte benötigt werden, wie z. B. Extrusionsprofile oder Komponenten boolescher Operationen, werden nach Bedarf importiert.
+IfcOpenShell unterstützt alle IFC2x3 und IFC4 Entitäten (IFC4-add1 und IFC4-add2 werden in v0.6 implementiert und sind möglicherweise verfügbar, wenn du dies liest), aber nicht alle können in [BIM](BIM_Workbench/de.md)-Objekte konvertiert werden, diejenigen, die nicht importiert werden können, werden als einfache [Part](Part_Workbench/de.md)-Formen importiert. Das IFC-Import-Programm importiert zunächst alle IFC-Entitäten, die von [IfcProduct](http://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifckernel/lexical/ifcproduct.htm) abgeleitet sind, d.h. im Grunde alle Objekte, aus denen ein Gebäude besteht, wie z.B. Wände oder Fenster oder Rohre. Alle anderen Entitäten, die von einem dieser Objekte benötigt werden, wie z. B. Extrusionsprofile oder Komponenten boolescher Operationen, werden nach Bedarf importiert.
 
 Wenn ein Importmodus verwendet wird, der Arch Objekte verwendet, gleichgültig ob parametrisch oder nicht, tragen alle Objekte den vollständigen Satz von [IfcEigenschaften](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifcpropertyresource/lexical/ifcproperty.htm), der an jedes Objekt angehängt ist, gruppiert nach Eigenschaftensatz.
 
@@ -50,6 +69,18 @@ Die in der IFC Datei angegebenen Größen werden **NICHT** importiert. Da die Ge
 Das Aktivieren von **show debug messages** in den IFC-Voreinstellungen wird einen Bericht ausgeben, wenn beim Import von IFC-Dateien Fehler auftreten.
 
 **Hinweis**: Der BIM Arbeitsbereich verfügt über ein [IFC Explorer](BIM_IfcExplorer/de.md) Werkzeug , das dir erlaubt eine IFC Datei im schnellen Nur-Text Modus zu öffnen und nur die gewünschten Teile zu importieren.
+
+#### The legacy importer 
+
+In der Vergangenheit verfügte der Arbeitsbereich Arch über einen einfacheres IFC-Import-Werkzeug, das nicht von IfcOpenShell abhängig war. Dieses Legacy-Modul ist immer noch im Quellcode enthalten und kann über Python verwendet werden, wird aber gar nicht mehr empfohlen; es kann nur eine sehr kleine Teilmenge der IFC-Objekte importieren und sollte als völlig veraltet betrachtet werden.
+
+The legacy importer can be used from Python:
+
+
+```python
+from importers import importIFClegacy
+importIFClegacy.open("C:\\Path\\To\\My\\File.ifc")
+```
 
 
 
@@ -71,5 +102,13 @@ Wenn die Form der exportierten Objekte auf einer Extrusion oder einer booleschen
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch IFC/de
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch IFC/de

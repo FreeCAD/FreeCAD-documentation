@@ -1,17 +1,17 @@
 ---
  GuiCommand:
    Name: Arch Wall
-   MenuLocation: Arch , Wall
-   Workbenches: Arch_Workbench
+   MenuLocation: 3D/BIM , Wall
+   Workbenches: BIM_Workbench
    Shortcut: **W** **A**
-   SeeAlso: Arch_Structure
+   SeeAlso: 
 ---
 
 # Arch Wall
 
 ## Description
 
-This tool builds a Wall object from scratch or on top of any other [shape](Part_Workbench.md)-based or [mesh](Mesh_Workbench.md)-based object. A wall can be built without any base object, in which case it behaves as a cubic volume, using length, width and height properties. When built on top of an existing shape, a wall can be based on:
+The **Arch Wall** tool builds a Wall object from scratch or on top of any other [shape](Part_Workbench.md)-based or [mesh](Mesh_Workbench.md)-based object. A wall can be built without any base object, in which case it behaves as a cubic volume, using length, width and height properties. When built on top of an existing shape, a wall can be based on:
 
 -   A **linear 2D object**, such as lines, wires, arcs or sketches, in which case you can change thickness, alignment (right, left or centered) and height. The length property has no effect.
 -   A **flat face**, in which case you can only change the height. Length and width properties have no effect. If the base face is vertical, however, the wall will use the width property instead of height, allowing you to build walls from space-like objects or mass studies.
@@ -29,14 +29,17 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 
 ### Drawing a wall from scratch 
 
-1.  Press the **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)** button, or press **W** then **A** keys.
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Arch_Wall.svg" width=16px> [Wall](Arch_Wall.md)** button.
+    -   Select the **3D/BIM → <img src="images/Arch_Wall.svg" width=16px> Wall** option from the menu.
+    -   Use the keyboard shortcut: **W** then **A**.
 2.  Click a first point on the 3D view, or type coordinates.
 3.  Click a second point on the 3D view, or type coordinates.
 
 ### Drawing a wall on top of a selected object 
 
-1.  Select one or more base geometry objects (Draft object, sketch, etc)
-2.  Press the **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)** button, or press the **W** then **A** keys
+1.  Select one or more base geometry objects (Draft object, sketch, etc).
+2.  Invoke the tool as described above.
 3.  Adjust needed properties such as height or width.
 
 ## Options
@@ -70,49 +73,63 @@ Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and al
 
 {{TitleProperty|Blocks}}
 
--    **Block Height**: The height of each block
+-    **Block Height**: The height of each block.
 
--    **Block Length**: The length of each block
+-    **Block Length**: The length of each block.
 
--    **Count Broken**: The number of broken blocks (read-only)
+-    **Count Broken**: The number of broken blocks (read-only).
 
--    **Count Entire**: The number of entire blocks (read-only)
+-    **Count Entire**: The number of entire blocks (read-only).
 
--    **Joint**: The size of the joints between each block
+-    **Joint**: The size of the joints, the empty space, between blocks.
 
--    **Make Blocks**: Enable this to make the wall generate blocks
+-    **Make Blocks**: Enables block generation.
 
--    **Offset First**: The horizontal offset of the first line of blocks
+-    **Offset First**: The horizontal offset of the first and every uneven line of blocks.
 
--    **Offset Second**: The horizontal offset of the second line of blocks
+-    **Offset Second**: The horizontal offset of the second and every even line of blocks.
 
 
 {{TitleProperty|Component}}
 
--    **Base**: The base object this wall is built on
+See [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|IFC}}
+
+See [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|IFC Attributes}}
+
+See [Arch Component](Arch_Component#Properties.md).
 
 
 {{TitleProperty|Wall}}
 
--    **Align**: The alignment of the wall on its baseline: Left, Right or Center
+-    **Align**: The alignment of the wall on its baseline: Left, Right or Center. The direction of the individual edges of the Base object (Sketch/ArchSketch) is taken into account, giving finer control over each wall segment. See diagram below. Arcs in sketches are always counter-clockwise. When a curved segment of a wall is left aligned, the inner edge of the segment matches the sketch arc. See also **Override Align**.
 
--    **Area**:
+-    **Area**: Area of the whole wall, separation into blocks makes no difference (read-only).
 
--    **Face**: The index of the face from the base object to use. If the value is not set or 0, the whole object is used
+-    **Face**: The index of the face from the base object to use. If the value is not set or 0, the whole object is used.
 
--    **Height**: The height of the wall (not used when the wall is based on a solid). If no height is given, and the wall is inside a [floor](Arch_Floor.md) object with its height defined, the wall will automatically take the value of the floor height.
+-    **Height**: The height of the wall. Ignored if the wall is based on a solid. If set to zero, and the wall is inside a [floor](Arch_Floor.md) object with its height defined, the wall will automatically take the value of the floor height.
 
--    **Length**: The length of the wall (not used when the wall is based on an object)
+-    **Length**: The length of the wall. The value can be edited if the wall is based on an unconstrained sketch with a single edge, or on a [Draft Wire](Draft_Wire.md) with a single edge, else the value is read-only. <small>(v1.0)</small>  The value when the property is read-only is more accurate. It is based on the medium of the wall if segments have different **Width**, **Align** and/or **Offset** properties. Note that there can still be inaccuracies if the wall is complex, for example if it has T-junctions or self-intersections. In such cases it is advisable to instead use the **Horizontal Area** property for further calculations.
 
--    **Normal**: An extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
+-    **Normal**: The extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
 
--    **Offset**: This specifies the distance between the wall and its baseline. Works only if the Align property is set to Right or Left.
+-    **Offset**: The distance between the wall and its baseline. Works only if the **Align** property is set to Right or Left. The direction of the individual edges of the Base object (Sketch/ArchSketch) is taken into account, giving finer control over each wall segment. See also **Override Offset**.
 
--    **Override Align**:
+-    **Override Align**: This overrides **Align** attribute to set align of each segment of wall. Ignored if Base object provides Aligns information, with getAligns() method (If a value is not \'Left, Right, Center\', the value of \'Align\' will be followed). ENHANCEMENT by ArchSketch: GUI \'Edit Wall Segment Align\' Tool is provided in the external <img alt="" src=images/SketchArch_Workbench.svg  style="width:16px;"> [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) to let users to set the values interactively. \'Toponaming-Tolerant\' if ArchSketch is used in Base (and SketchArch Add-on is installed). Warning: Not \'Toponaming-Tolerant\' if just Sketch is used.
 
--    **Override Width**:
+-    **Override Width**: This overrides **Width** attribute to set width of each segment of wall. Ignored if Base object provides Widths information, with getWidths() method (if a value is zero, the value of \'Width\' will be followed). ENHANCEMENT by ArchSketch: GUI \'Edit Wall Segment Width\' Tool is provided in the external <img alt="" src=images/SketchArch_Workbench.svg  style="width:16px;"> [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) to let users to set the values interactively. \'Toponaming-Tolerant\' if ArchSketch is used in Base (and SketchArch Add-on is installed). Warning: Not \'Toponaming-Tolerant\' if just Sketch is used.
 
--    **Width**: The width of the wall (not used when the wall is based on a face)
+-    **Override Offset**: (<small>(v1.0)</small> ) This overrides **Offset** attribute to set offset of each segment of wall. Ignored if Base object provides Offsets information, with getOffsets() method (If a value is zero, the value of \'Offset\' will be followed). ENHANCEMENT by ArchSketch: GUI \'Edit Wall Segment Offset\' Tool is provided in the external <img alt="" src=images/SketchArch_Workbench.svg  style="width:16px;"> [SketchArch Add-on](https://github.com/paullee0/FreeCAD_SketchArch) to let users to select the edges interactively. \'Toponaming-Tolerant\' if ArchSketch is used in Base (and SketchArch Add-on is installed). Warning: Not \'Toponaming-Tolerant\' if just Sketch is used. Property is ignored if Base ArchSketch provided the selected edges.
+
+-    **Width**: The width of the wall. Ignored if the wall is based on a face or a solid. See also **Override Width**.
+
+ <img alt="" src=images/Sketch_vs_Wall.jpg  style="width:480px;"> 
 
 ## Scripting
 
@@ -155,5 +172,10 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+ {{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall
+⏵ [documentation index](../README.md) > Arch Wall

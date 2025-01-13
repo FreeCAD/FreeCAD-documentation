@@ -10,9 +10,13 @@
 
 # Std MainFullscreen/pl
 
+
+
 ## Opis
 
 Polecenie **Pełny ekran** przełącza tryb pełnoekranowy okna głównego programu FreeCAD.
+
+
 
 ## Użycie
 
@@ -24,7 +28,7 @@ Polecenie **Pełny ekran** przełącza tryb pełnoekranowy okna głównego progr
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

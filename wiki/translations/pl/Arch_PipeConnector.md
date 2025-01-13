@@ -1,48 +1,63 @@
 ---
  GuiCommand:
    Name: Arch PipeConnector
-   MenuLocation: Arch , Pipe Tools , Pipe Connector
-   Workbenches: Arch_Workbench
+   Name/pl: Architektura: Kształtka
+   MenuLocation: 3D / BIM , Kształtka
+   Workbenches: BIM_Workbench/pl
    Shortcut: **P** **C**
    Version: 0.17
-   SeeAlso: Arch_Pipe, Arch_Equipment
+   SeeAlso: 
 ---
 
 # Arch PipeConnector/pl
 
-## Description
-
-This tool allows to create corner or tee connection between two or three selected [Arch Pipes](Arch_Pipe.md).
-
-## Usage
-
-1.  Select 2 or 3 [Arch Pipes](Arch_Pipe.md). If you are selecting 3 pipes, two of them must be exactly aligned.
-2.  Press the **<img src="images/Arch_PipeConnector.svg" width=16px> [Arch PipeConnector](Arch_PipeConnector.md)** button, or press **P** then **C** keys.
-
-## Properties
-
--    **Radius**: The curvature radius of this connector
-
-## Typical workflow 
-
-See the information on [Arch Pipe](Arch_Pipe.md) for the workflow on using pipes and creating connectors.
-
-## Scripting
 
 
-**See also:**
+## Opis
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Narzędzie **Kształtka** pozwala na tworzenie połączeń kątowych lub trójnikowych pomiędzy dwoma lub trzema wybranymi [rurami](Arch_Pipe/pl.md).
 
-The Pipe Connector tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+
+
+## Użycie
+
+1.  Wybierz 2 lub 3 [rury](Arch_Pipe/pl.md). Jeśli wybierasz 3 rury, dwie z nich muszą być dokładnie wyrównane.
+2.  Naciśnij przycisk **<img src="images/Arch_PipeConnector.svg" width=16px> '''Kształtka'''** lub naciśnij **P**, a następnie **C**.
+
+
+
+## Właściwości
+
+-    **Promień**: Promień krzywizny tego złącza.
+
+
+
+## Typowy przepływ pracy 
+
+Zobacz informacje na temat [rura](Arch_Pipe/pl.md) w celu zapoznania się z przepływem pracy dotyczącym używania rur i tworzenia połączeń.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Kształtka** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
+
+
 ```python
 Connector = makePipeConnector(pipes, radius=0, name="Connector")
 ```
 
--   Creates a `Connector` object from the given `pipes`, which is a list of [Arch Pipes](Arch_Pipe.md), and optionally a `radius` of curvature.
-    -   The base objects ([Draft Wires](Draft_Wire.md)) of the [Arch Pipes](Arch_Pipe.md) should share an endpoint so they create a proper, smooth connector.
+-   Tworzy obiekt `Connector` z podanego `pipes`, który jest listą [rur](Arch_Pipe/pl.md) i opcjonalnie `radius` krzywizny.
+    -   Obiekty bazowe ([polilinii](Draft_Wire/pl.md)) [rur](Arch_Pipe/pl.md) powinny mieć wspólny punkt końcowy, aby utworzyć odpowiednie, gładkie połączenie.
 
-Example: 
+Przykład:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -77,5 +92,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/pl
+⏵ [documentation index](../README.md) > Arch PipeConnector/pl

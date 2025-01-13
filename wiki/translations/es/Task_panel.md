@@ -1,27 +1,49 @@
 # Task panel/es
 ## Introducción
 
+
+<div class="mw-translate-fuzzy">
+
 El [panel de tareas](Task_panel/es.md) aparece en la pestaña **Tareas** de la [vista combinada](Combo_view/es.md), uno de los paneles importantes de la [interfaz](interface/es.md). Es un espacio personalizable que puede contener cualquier tipo de widget gráfico como sub-ventanas plegables, tablas, campos de entrada, casillas de verificación, casillas de selección, cajas de texto, botones, etiquetas, imágenes y otros elementos, dependiendo del [Ambiente de trabajo](Workbenches/de.md) actualmente activo, y de la herramienta actualmente activa.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="550px;">
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 
 *El panel de tareas que muestra varios comandos cuando el [Entorno de trabajo DiseñoPieza](PartDesign_Workbench/es.md) está activo, y se selecciona un [Boceto](Sketch/es.md).*
 
 
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Trabajando con el panel de tareas 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Un panel de tareas normalmente se abre cuando se activa una herramienta que requiere la entrada del usuario, ya sea presionando un botón de la barra de herramientas o haciendo doble clic en un objeto. Si la herramienta no necesita la entrada del usuario, producirá su resultado o terminará, pero no mostrará un panel de tareas.
 
-La entrada del usuario puede ser cualquier cosa como texto, coordenadas de puntos 3D, elementos de una lista, caras de una forma, u opciones para modificar la forma en que opera la herramienta.
 
-![](images/FreeCAD_Combo_view_Task_panel_Sketcher.png )
-
-
-
-*Panel de tareas que se abre cuando se edita un [Boceto](Sketch/es.md). Se presentan varios tipos de información como mensajes del solucionador, opciones de cuadrícula, restricciones y elementos geométricos.*
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -31,22 +53,26 @@ Hay muchos comandos que requieren la selección de formas u objetos presentes en
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/FreeCAD_Combo_view_Task_panel_ArchComponent.png )
+
+
+</div>
 
 
 
 *Panel de tareas que se abre cuando se edita un [Arch Componente](Arch_Component/es.md). El panel espera a que el usuario seleccione los objetos que pueden ser añadidos o sustraídos del componente.*
 
-Nota: Por favor note que al cambiar de la pestaña **Tareas** a la pestaña **Modelo** no se termina el comando activo; la tarea seguirá ejecutándose en segundo plano. El usuario es responsable de terminar o abortar correctamente el comando activo antes de iniciar una tarea diferente; dejar una tarea en ejecución puede producir errores al intentar lanzar otras herramientas.
-
 ## Notes
 
--   Users migrating from other CAD solutions that use the **ESC** key as part of their workflow may get different results in FreeCAD. When **ESC** is pressed in FreeCAD the task panel that has the focus will close. To disable this functionality, please see [Fine tuning](Fine-tuning#Escape_Key.md) and [Sketcher Preferences](Sketcher_Preferences#General.md).
+-   Users migrating from other CAD solutions that use the **ESC** key as part of their workflow may get different results in FreeCAD. When **ESC** is pressed in FreeCAD the Task panel that has the focus will close. To disable this functionality, please see [Fine tuning](Fine-tuning#Escape_key.md) and [Sketcher Preferences](Sketcher_Preferences#General.md).
 
 
-{{Interface navi
+{{Interface_navi
 
-}}
+}} {{Std_Base_navi}}
 
 
 

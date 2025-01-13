@@ -3,7 +3,7 @@
    Name: Draft LayerManager
    Name/de: Draft LayerManager
    MenuLocation: Dienstprogramme , Ebenen verwalten...
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de
    Version: 0.21
    SeeAlso: BIM_Workbench/de, Draft_Layer/de
 ---

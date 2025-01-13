@@ -34,12 +34,7 @@ sudo yum install spacenavd
 apt-get install spacenavd libspnav-dev
 ```
 
-
-:   spacenav needs these permissions:
-
-
-
-
+Spacenav needs these permissions:
 
 :   
     
@@ -49,15 +44,7 @@ apt-get install spacenavd libspnav-dev
 ```
     
 
-
-
-
-
-:   Restart spnavd and FreeCAD
-
-
-
-
+Restart spnavd and FreeCAD
 
 :   
     
@@ -154,7 +141,7 @@ This is recommended if your distribution might provide an outdated version.
 ```
     
 
--   \... then you need to install libgtkmm-2.4-dev. Under Ubuntu, this is done like this:
+-   \... then you need to install **libgtkmm-2.4-dev**. Under Ubuntu, this is done like this:
 
 :   
     
@@ -176,7 +163,7 @@ This is recommended if your distribution might provide an outdated version.
 
 -   Look in the directory libspnav-x.x.x/examples/. If you want to test your device, compile and run either one of the two examples.
 
--   Follow the same pattern to compile and install spnavcfg. Make sure to run spnavcfg as root, or no settings will be saved!
+-   Follow the same pattern to compile and install **spnavcfg**. Make sure to run spnavcfg as root, or no settings will be saved!
 
 #### Starting spacenavd as a systemd service at boot 
 
@@ -191,7 +178,7 @@ This is only necessary for the installation from source.
 
 #### Restarting spacenavd 
 
-If sometimes navigator stops working, it is good to restart driver. To restart it, go to Terminal and execute:
+If sometimes SpaceNavigator stops working, it is good to restart driver. To restart it, go to Terminal and execute:
 
 
 ```python
@@ -201,7 +188,7 @@ sudo /etc/init.d/spacenavd restart
 
 After that restart FreeCAD. On some distros this is necessary at each boot.
 
-### Known Issues 
+#### Known Issues 
 
 A user reported on the [forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) they saw the following:
 
@@ -222,29 +209,33 @@ sudo spnavd_ctl x11 start
 sudo systemctl restart spacenavd 
 ```
 
-### macOS
+### MacOS
 
 3Dconnexion input devices are supported on macOS, provided FreeCAD is built and used on a system with the 3Dconnexion drivers installed. You may need 3DxWare 10.7.2 or greater for macOS 12 Monterey.
 
 ### Windows
 
-As of version 0.13, 3D mouse is supported under Windows. You need to have 3Dconnexion drivers installed.
+As of version 0.13, 3D mouse is supported under Windows. You need to have 3Dconnexion drivers installed. In FreeCAD version 1.0 a [new integration with 3Dconnexion devices](https://github.com/FreeCAD/FreeCAD/pull/12929) has been introduced. If compiled with that integration, only recent hardware is supported: to support older devices users will need to self-compile with the FREECAD_3DCONNEXION_SUPPORT cMake variable set to \"Raw Input\". Windows users should be aware that 3Dconnexion\'s driver (*not* the code in FreeCAD) contains a telemetry package that communicates information about your installed software back to 3Dconnexion.
 
-#### Known Issue 
+#### Known Issues 
 
-There is an issue where 3Dconnexion sends duplicate scroll events to FreeCAD, which causes the view to jump. To fix it:
-
-1.  Open 3Dconnexion Properties. You can double-click its icon in the Taskbar, next to the Windows clock.
-2.  Click on the Advanced Settings button.
-3.  Open FreeCAD or switch to an already-open FreeCAD window.
-4.  Switch back to 3Dconnexion Advanced Settings. Confirm that it says \"FreeCAD\" in the heading.
-5.  Uncheck all boxes on the page.
-
-ref: <https://freecadweb.org/tracker/view.php?id=1893>
+-   In FreeCAD version 1.0 and later changing settings in the 3DX config window may not have the expected results ([issue](https://github.com/FreeCAD/FreeCAD/issues/14044)). To fix this:
+    1.  Stop the driver (by running Stop 3DxWare).
+    2.  Go to **..<user>\AppData\Roaming\3Dconnexion\3DxWare\Cfg** and delete the **FreeCAD.xml** file.
+    3.  Start the driver (by running Start 3DxWare).
+    4.  Run FreeCAD and check if you can change the [Spaceball Motion](#Spaceball_Motion.md) settings.
 
 ## Setting up FreeCAD 
 
-3D mouse support was made with spnav project on Linux, and on a very low level on Windows. This means there was no support for any settings for a device, since on Linux there is no good support for this, and on Windows it is overridden. This is why two additional pages were added to \"Customize\" dialog.
+
+<small>(v1.0)</small> 
+
+: The 3Dconnexion manipulator can be set up in its driver app (3DxWare software).
+
+
+{{VersionMinus|0.21}}
+
+: If a Spaceball is detected the following tabs in the [Customize dialog](Interface_Customization.md) can be used to change settings:
 
 <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
 
@@ -288,7 +279,7 @@ If none of them appears then your FreeCAD build doesn\'t link to the spacenav li
 
 ## Related
 
--   Forum thread [spacenav on windows](https://forum.freecadweb.org/viewtopic.php?f=3&t=51023)
+-   Forum thread [spacenav on Windows](https://forum.freecadweb.org/viewtopic.php?f=3&t=51023)
 -   Forum thread [Space navigator axis confusion](https://forum.freecadweb.org/viewtopic.php?f=8&t=57188)
 
 

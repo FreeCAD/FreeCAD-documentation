@@ -2,10 +2,10 @@
 {{Macro
 |Name= Macro Connect And Sweep
 |Icon=Macro_Connect_And_Sweep.png
-|Description={{ColoredText|#ff0000|#ffffff|New version GUI modifyed for the HD dpi (QGridLayout) run only FC version 0.18 and more (PySide2 Qt5)}} <br/> <br/> This macro easily creates a connection between two objects, an object and a point or between two points or on wire selected (the center of the objects are the starting and ending points of the sweep) can be selected form a configurable ellipse polygon circle.<br/>A discretize function is available to create marker points configurable for cutting lines in section or cutting with a dimension on point is created to all coordinates.<br/>A Duplicate face or wire feature for use with the Sweep and Loft operation<br/>Sweep and Loft operation directly with the macro.<br/>Centring the beam on face<br/><br/>For the precedent version see [https://gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/b3554916e0dce63644a2d4d3f88ef114b5e1e390/Macro_Connect_And_Sweep.FCMacro Macro_Connect_And_Sweep.FCMacro] and install it manually.
+|Description={{ColoredText|#ff0000|#ffffff|New version GUI modifyed for the HD dpi (QGridLayout) run only FC version 0.18 and more (PySide2 Qt5)}} <br/> <br/> This macro easily creates a connection between two objects, an object and a point or between two points or on wire selected (the center of the objects are the starting and ending points of the sweep) can be selected form a configurable ellipse polygon circle.<br/>A discretize function is available to create marker points configurable for cutting lines in section or cutting with a dimension on point is created to all coordinates.<br/>A Duplicate face or wire feature for use with the Sweep and Loft operation<br/>Sweep and Loft operation directly with the macro.<br/>Centring the beam on face<br/>
 |Author=Mario52
-|Version=0.12
-|Date=2020-07-05
+|Version=0.13
+|Date=2024-07-21
 |FCVersion=0.18 and more
 |Download=[https://www.freecadweb.org/wiki/images/c/c9/Macro_Connect_And_Sweep.png ToolBar Icon]<br/>
 }}
@@ -18,7 +18,7 @@ A Duplicate face or wire feature for use with the Sweep and Loft operation
 Sweep and Loft operation directly with the macro.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/5717e333a7df104d461a495e8e1f5de75ead41b9/Macro_Connect_And_Sweep.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/984cd58c1d64dd391062025cfa82a698c7268e66/Macro_Connect_And_Sweep.FCMacro}}
 
 <img alt="" src=images/Macro_Connect_And_Sweep_00.png  style="width:640px;"> 
 *Macro_Connect_And_Sweep*
@@ -168,6 +168,8 @@ Detect Error of mode selection, if one error of selection is created the mode ch
 
 
 ## Version
+
+ver 0.13 2024/07/24 : del webGui and replace by webbrowser
 
 ver 0.12 2020/07/05 : include icons in source code
 

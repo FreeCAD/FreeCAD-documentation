@@ -1,10 +1,9 @@
 ---
  GuiCommand:
    Name: Arch AxisSystem
-   Name/de: Arch AchsenSystem
-   Icon: Arch Axis System.svg
-   MenuLocation: Arch , Achsenwerkzeuge , Achsensystem
-   Workbenches: Arch_Workbench/de
+   Name/de: Arch Achsensystem
+   MenuLocation: Anmerkung , Achsensystem
+   Workbenches: BIM_Workbench/de
    SeeAlso: Arch_Axis/de, Arch_Grid/de
 ---
 
@@ -14,22 +13,22 @@
 
 ## Beschreibung
 
-Das [AchsenSystem](Arch_AxisSystem/de.md) Werkzeug ermöglicht dir zwei oder drei [AchsenSystem](Arch_Axis/de.md) Objekte zu kombinieren.
+Das Werkzeug [Achsensystem](Arch_AxisSystem/de.md) ermöglicht zwei oder drei [Achsensystem](Arch_Axis/de.md)-Objekte zu kombinieren.
 
-Dies ist nützlich, um die Schnittpunkte zwischen den verschiedenen Achsen zu definieren.Arch Objekte können dann dieses System verwenden, um ihre Form an den verschiedenen Schnittpunkten zu duplizieren.
+Dies ist nützlich, um die Schnittpunkte zwischen den verschiedenen Achsen festzulegen. Arch Objekte können dann dieses System verwenden, um ihre Form an den verschiedenen Schnittpunkten zu duplizieren.
 
 <img alt="" src=images/Arch_AxisSystem_example.jpg  style="width:600px;"> 
-*Drei [Arch Achsen](Arch_Axis/de.md)-Objekte zu einem [Arch AchsenSystem](Arch_AxisSystem/de.md) zusammengefasst. Ein [Arch Struktur](Arch_Structure/de.md)-Objekt verwendet dieses System als seine {{PropertyData/de|Achsen*, um seine Form an jedem Schnittpunkt zu duplizieren.}}
+*Drei [Arch Achsen](Arch_Axis/de.md)-Objekte zu einem [Arch Achsensystem](Arch_AxisSystem/de.md) zusammengefasst. Ein [Arch Struktur](Arch_Structure/de.md)-Objekt verwendet dieses System als seine {{PropertyData/de|Achsen*, um seine Form an jedem Schnittpunkt zu duplizieren.}}
 
 
 
 ## Anwendung
 
-1.  Wahlweise die [Arch Achse](Arch_Axis/de.md)-Objekte auswählen, die du in dieses System aufnehmen möchtest.
-2.  Die Schaltfläche **<img src="images/Arch_AxisSystem.svg" width=16px> [Arch Achsensystem](Arch_AxisSystem/de.md)** drücken.
-3.  Rechtsklicke auf das neu erstellte Achsensystem Objekt in der Baumansicht, um die in diesem System enthaltenen [Arch Achsen](Arch_Axis/de.md)-Objekte hinzuzufügen/zu bearbeiten.
-4.  Eine vorhandene [Arch Achse](Arch_Axis/de.md) auswählen und Schaltfläche **<img src="images/Arch_Add.svg" width=16px> [Arch Hinzufügen](Arch_Add/de.md)** oder **<img src="images/Arch_Remove.svg" width=16px> [Arch Entfernen](Arch_Remove/de.md)** drücken, um sie zu diesem System hinzuzufügen oder zu entfernen.
-5.  Lege die {{PropertyData/de|Achse}} eines beliebigen Arch-Objekts so fest, dass es auf dieses System zeigt, damit seine Form auf die Schnittpunkte dieses Systems dupliziert wird.
+1.  Wahlweise die [Arch Achsen](Arch_Axis/de.md)-Objekte auswählen, die in dieses System aufgenommen werden sollen.
+2.  Die Schaltfläche **<img src="images/Arch_AxisSystem.svg" width=16px> [Achsensystem](Arch_AxisSystem/de.md)** drücken.
+3.  Mit der rechten Maustaste auf das neu erstellte Achsensystem Objekt in der Baumansicht klicken, um die in diesem System enthaltenen [Arch Achsen](Arch_Axis/de.md)-Objekte hinzuzufügen/zu bearbeiten.
+4.  Eine vorhandene [Arch Achse](Arch_Axis/de.md) auswählen und die Schaltfläche **<img src="images/Arch_Add.svg" width=16px> [Hinzufügen](Arch_Add/de.md)** oder **<img src="images/Arch_Remove.svg" width=16px> [Entfernen](Arch_Remove/de.md)** drücken, um sie zu diesem System hinzuzufügen bzw. zu entfernen.
+5.  Die {{PropertyData/de|Achse}} eines beliebigen Arch-Objekts so festlegen, dass es auf dieses System zeigt, damit seine Form auf die Schnittpunkte dieses Systems dupliziert wird.
 
 
 
@@ -87,5 +86,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch AxisSystem/de
+⏵ [documentation index](../README.md) > Arch AxisSystem/de

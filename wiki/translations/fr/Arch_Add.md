@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch Add
    Name/fr: Arch Ajouter
-   MenuLocation: Arch , Ajouter un composant
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: Modifier , Ajouter un composant
+   Workbenches: BIM_Workbench/fr
    SeeAlso: Arch_Remove/fr
 ---
 
@@ -20,7 +20,7 @@ L\'outil Ajouter vous permet de faire 4 types d\'opérations :
 -   Ajouter des objets à des **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch Plans de coupe](Arch_SectionPlane/fr.md)
 **
 
-La contrepartie de cet outil est l\'outil **<img src="images/Arch_Remove.svg" width=16px> [Arch Soustraire](Arch_Remove/fr.md)**.
+La contrepartie de cet outil est l\'outil **<img src="images/Arch_Remove.svg" width=16px> [Arch Supprimer](Arch_Remove/fr.md)**.
 
 <img alt="" src=images/Arch_Add_example.jpg  style="width:640px;"> 
 *Dans l'image ci-dessus, une boîte est ajoutée à un mur.*
@@ -30,14 +30,16 @@ La contrepartie de cet outil est l\'outil **<img src="images/Arch_Remove.svg" wi
 ## Utilisation
 
 1.  Sélectionnez les objets à ajouter ensemble. Le dernier objet sélectionné sera l\'objet Arch de l\'hôte.
-2.  Cliquez sur le bouton **<img src="images/Arch_Add.png" width=16px> [Ajouter un composant](Arch_Add/fr.md)** ou utilisez **Arch** → **<img src="images/Arch_Add.svg" width=16px> [Ajouter un composant](Arch_Add/fr.md)** du menu principal.
+2.  Appuyez sur le bouton **<img src="images/Arch_Add.svg" width=16px> [Ajouter un composant](Arch_Add/fr.md)** ou utilisez **Modifier → <img src="images/Arch_Add.svg" width=16px> Ajouter un composant** du menu supérieur.
+
+
 
 ## Script
 
 
 **Voir aussi :**
 
-[Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
 L\'outil Ajouter peut être utilisé dans une [macro](Macros/fr.md) ou dans la console [Python](Python/fr.md) en utilisant la fonction :
 
@@ -81,5 +83,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/fr
+⏵ [documentation index](../README.md) > Arch Add/fr

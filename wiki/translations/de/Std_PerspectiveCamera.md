@@ -32,32 +32,19 @@ Der Befehl **Std PerspectivKamera** schaltet die Kamera in der aktiven [3D Ansic
 
 ## Einstellungen
 
--   Der Kameratyp kann in den Einstellungen geändert werden: **Bearbeiten → Voreinstellungen... → Anzeige → 3D Ansicht → Kameratyp**. Der gewählte Typ wird für alle 3D Ansichten aller geöffneten Dokumente und auch für neue Dokumente verwendet. Siehe [Einstellungseditor](Preferences_Editor/de#3D_Ansicht.md).
+See [Std OrthographicCamera](Std_OrthographicCamera#Preferences.md).
 
 
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md).
-
-Um die Ansicht auf perspektivisch zu ändern, verwende die Methode `setCameraType` des AktiveAnsicht Objekts. Diese Methode ist nicht verfügbar, wenn sich FreeCAD im Konsolenmodus befindet.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.setCameraType('Perspective')
-FreeCADGui.ActiveDocument.ActiveView.getCameraType()
-```
+See [Std OrthographicCamera](Std_OrthographicCamera#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

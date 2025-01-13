@@ -1,89 +1,72 @@
-# Sketcher ConstrainParallel/it
 ---
- GuiCommand:   Name: Sketcher ConstrainParallel   Name/it: Parallela   Icon: Constraint Parallel.svg   Workbenches: Sketcher Workbench/it   Schizzo, Sketcher ConstrainHorizontal/it---
+ GuiCommand:
+   Name: Sketcher ConstrainParallel
+   Name/it: Sketcher Vincolo parallelo
+   MenuLocation: Schizzo , Vincoli Sketcher , Vincolo parallelo
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **P**
+   SeeAlso: 
+---
 
-
-</div>
+# Sketcher ConstrainParallel/it
 
 
 
 ## Descrizione
 
-Il vincolo Parallela costringe due linee rette o due bordi selezionati a essere paralleli tra loro.
+Lo strumento <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> [Sketcher Vincolo parallelo](Sketcher_ConstrainParallel/it.md) vincola le linee ad essere parallele.
 
 
 
 ## Utilizzo
 
-Il disegno contiene due linee orientate in modo casuale.
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
 
-<div class="mw-translate-fuzzy">
 
-<img alt="" src=images/ConstrainParallel1.png  style="width:256px;">
+### [Modalità continua](Sketcher_Workbench/it#Continue_modes.md) 
 
+1.  Assicurarsi che non ci sia alcuna selezione.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_ConstrainParallel.svg" width=16px> [Vincolo parallelo](Sketcher_ConstrainParallel/it.md)**.
 
-</div>
+    -   Selezionare l\'opzione **Schizzo → Vincoli Sketcher → <img src="images/Sketcher_ConstrainParallel.svg" width=16px> Vincolo parallelo** dal menu.
 
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [Vista 3D](3D_view/it.md) e selezionare l\'opzione **Vincolo → <img src="images/Sketcher_ConstrainParallel.svg" width=16px> Vincolo parallelo** dall\'elenco menu contestuale.
 
-<div class="mw-translate-fuzzy">
-
-Selezionare entrambe le linee facendo clic in successione su ciascuna di esse.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/ConstrainParallel2.png  style="width:256px;">
-
-
-</div>
+    -   Usare la scorciatoia da tastiera: **P**.
+3.  Il cursore si trasforma in una croce con l\'icona dello strumento.
+4.  Selezionare due linee.
+5.  Viene aggiunto un vincolo.
+6.  Facoltativamente, continuare a creare vincoli.
+7.  Per terminare, fare clic con il pulsante destro del mouse o premere **Esc** oppure avviare un altro strumento di creazione di geometrie o vincoli.
 
 
-<div class="mw-translate-fuzzy">
 
-Applicare il vincolo Parallela in uno di questi modi:
+### Modalità di esecuzione una sola volta 
 
--   Cliccare sull\'icona <img alt="" src=images/Constraint_Parallel.png  style="width:16px;"> nella barra degli strumenti dei vincoli di Sketcher
--   Usare la scorciatoia da tastiera **Shift** + **P**.
--   Usare la voce **Sketch → Vincoli → Parallela** dal menu principale.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/ConstrainParallel3.png  style="width:256px;">
+1.  Selezionare due o più linee. {{Version/it|1.0}}: i punti possono essere inclusi nella selezione, ma verranno ignorati.
+2.  Richiamare lo strumento come spiegato sopra o con la seguente opzione aggiuntiva:
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [Vista 3D](3D_view/it.md) e selezionare l\'opzione **<img src="images/Sketcher_ConstrainParallel.svg" width=16px> Vincolo parallelo** dal menu contestuale .
+3.  A seconda della selezione vengono aggiunti uno o più vincoli.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-**Risultato.** Le linee selezionate sono forzate ad essere parallele tra di loro. Ora, modificando l\'orientamento di una linea si cambia anche l\'orientamento dell\'altra allo stesso modo.
-
-
-</div>
-
-## Scripting
+## Script
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Parallel', Line1, Line2))```
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Line1` and `Line2` and contains further examples on how to create constraints from Python scripts.
-
-
-<div class="mw-translate-fuzzy">
+La pagina [Sketcher scripting](Sketcher_scripting/it.md) spiega i valori che possono essere utilizzati per `Line1` e `Line2` e contiene ulteriori esempi su come creare vincoli da script Python.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

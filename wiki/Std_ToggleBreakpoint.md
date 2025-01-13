@@ -1,7 +1,6 @@
 ---
  GuiCommand:
    Name: Std ToggleBreakpoint
-   Empty: 1
    MenuLocation: Macro , Toggle breakpoint
    Workbenches: All
    Shortcut: **F9**
@@ -17,7 +16,7 @@ This command does not work at this time.
 
 
 
- {{Std Base navi}}
+ {{Std_Base_navi}}
 
 
 

@@ -5,11 +5,15 @@
 
 </div>
 
+
+
 ## Descriere
 
 Se introduce o pană subtractivă în corpul activ. Forma sa este scăzută de solidul existent.
 
 ![](images/PartDesign_SubtractiveWedge_example.svg ) *În stânga, corpul activ (A) în gri și pana substractivă (B) în roșu transparent; rezultatul final este în partea dreaptă.*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -30,6 +34,8 @@ Se introduce o pană subtractivă în corpul activ. Forma sa este scăzută de s
 
 </div>
 
+
+
 ## Opţiuni
 
 
@@ -42,6 +48,8 @@ Pana(Wedge) poate fi editată după crearea ei în douăî moduri:
 
 
 </div>
+
+
 
 ## Proprietăți
 

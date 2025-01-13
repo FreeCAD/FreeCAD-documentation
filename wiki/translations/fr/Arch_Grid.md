@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch Grid
    Name/fr: Arch Grille
-   MenuLocation: Arch , Outils pour les axes , Grille
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: Annotation , Grille
+   Workbenches: BIM_Workbench/fr
    SeeAlso: Arch_Axis/fr, Arch_AxisSystem/fr
 ---
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil **<img src="images/Arch_Grid.svg" width=16px> [Arch Grille](Arch_Grid/fr.md)** vous permet de placer un objet de type grille dans le document. Cet objet est destiné à servir de base pour construire des objets Arch nécessitant un cadre régulier mais complexe, comme des fenêtres, des murs-rideaux, des grilles de colonnes, des garde-corps, etc. L\'objet Grille est modifiable comme une feuille de calcul où vous pouvez ajouter ou supprimer des colonnes et des lignes, définir leur taille et fusionner des cellules.
+L\'outil **Arch Grille** vous permet de placer un objet de type grille dans le document. Cet objet est destiné à servir de base pour construire des objets Arch nécessitant un cadre régulier mais complexe, comme des fenêtres, des murs-rideaux, des grilles de colonnes, des garde-corps, etc. L\'objet Grille est modifiable comme une feuille de calcul où vous pouvez ajouter ou supprimer des colonnes et des lignes, définir leur taille et fusionner des cellules.
 
 La grille est un objet 2D et peut donc être utilisée partout où une forme 2D, tel qu\'un [dessin](Draft_Workbench/fr.md) ou une [esquisse](Sketcher_Workbench/fr.md) sont nécessaires, mais elle peut aussi se comporter comme un [Arch Système d\'axes](Arch_AxisSystem/fr.md) et être utilisée pour propager le placement d\'autres objets Arch.
 
@@ -100,5 +100,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Grid/fr
+⏵ [documentation index](../README.md) > Arch Grid/fr

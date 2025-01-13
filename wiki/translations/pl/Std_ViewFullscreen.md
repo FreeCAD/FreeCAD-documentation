@@ -10,9 +10,13 @@
 
 # Std ViewFullscreen/pl
 
+
+
 ## Opis
 
 Polecenie **Wyświetl na pełnym ekranie** przełącza okno [widoku 3D](3D_view/pl.md) do i z trybu pełnoekranowego. Widoki 3D są automatycznie [oddokowane](Std_ViewDockUndockFullscreen/pl.md) dla trybu pełnoekranowego.
+
+
 
 ## Użycie
 
@@ -21,6 +25,8 @@ Polecenie **Wyświetl na pełnym ekranie** przełącza okno [widoku 3D](3D_view/
     -   Wybierz z menu opcję **Widok → Okno dokumentu → <img src="images/Std_ViewFullscreen.svg" width=16px> Pełny ekran**. Opcja ta nie działa, jeśli chcesz wyłączyć tryb pełnoekranowy, a istnieją inne zadokowane widoki 3D.
     -   Wybierz z menu opcję **Okno dokumentu → <img src="images/Std_ViewFullscreen.svg" width=16px> Pełny ekran** z menu kontekstowego okna widoku 3D.
     -   Użyj skrótu klawiaturowego: **F11**.
+
+
 
 ## Uwagi
 
@@ -31,7 +37,7 @@ Polecenie **Wyświetl na pełnym ekranie** przełącza okno [widoku 3D](3D_view/
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

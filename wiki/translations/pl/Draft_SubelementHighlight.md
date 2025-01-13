@@ -3,7 +3,7 @@
    Name: Draft SubelementHighlight
    Name/pl: Rysunek Roboczy: Podświetl element podrzędny
    MenuLocation: Rysunek Roboczy , Podświetl element podrzędny
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
    Shortcut: **S** **S**
    Version: 0.19
    SeeAlso: Draft_Move/pl, Draft_Rotate/pl, Draft_Scale/pl

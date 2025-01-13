@@ -9,6 +9,8 @@
 
 # FEM EquationFlux/en
 
+## Description
+
 This equation is used to calculate the fluxes resulting usually from Poisson kind of equations. These include the <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [Heat equation](FEM_EquationHeat.md) and the <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [Electrostatic equation](FEM_EquationElectrostatic.md).
 
 For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Flux Computation*.

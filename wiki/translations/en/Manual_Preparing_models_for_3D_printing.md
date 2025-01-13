@@ -1,39 +1,51 @@
 # Manual:Preparing models for 3D printing/en
 {{Manual:TOC}}
 
-One of the main uses of FreeCAD is to produce real-world objects. These can be designed in FreeCAD, and then made real in different ways, such as communicated to other people who will then build them, or, more and more frequently, sent directly to a [3D printer](https://en.wikipedia.org/wiki/3D_printing) or a [CNC mill](https://en.wikipedia.org/wiki/Milling_%28machining%29). This chapter will show you how to get your models ready to send to these machines.
+One of the primary purposes of FreeCAD is to design objects that can be turned into real-world, physical products. These designs can be shared with others for manufacturing or, increasingly, exported directly to [3D printers](https://en.wikipedia.org/wiki/3D_printing) or a [CNC mill &CNC machines](https://en.wikipedia.org/wiki/Milling_%28machining%29) for automated fabrication. With FreeCAD, you can create precise, detailed models that are ready for various production methods. This chapter will guide you through the process of preparing your models for these machines, ensuring they meet the necessary specifications for successful manufacturing, whether you\'re working with a team or handling the entire process yourself.
 
-If you have been cautious while modeling, most of the difficulty you might encounter when printing your model in 3D has already been avoided. This involves basically:
+If you\'ve been careful while modeling, most of the challenges associated with 3D printing your model should already be minimized. The key aspects to focus on include:
 
--   Making sure that your 3D objects are **solid**. Real-world objects are solid, the 3D model must be solid too. We saw in earlier chapters that FreeCAD helps you a lot in that regard, and that the [PartDesign Workbench](PartDesign_Workbench.md) will notify you if you do an operation that prevents your model to stay solid. The [Part Workbench](Part_Workbench.md) also contains a <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Check Geometry](Part_CheckGeometry.md) tool that is handy to check further for possible defects.
--   Making sure about the **dimensions** of your objects. One millimeter will be one millimeter in real-life. Every dimension matters.
--   Controlling the **degradation**. No 3D printing or CNC milling system can take FreeCAD files directly. Most of them will only understand a machine language called [G-Code](https://en.wikipedia.org/wiki/G-code). G-code has dozens of different dialects, each machine or vendor usually has its own. The conversion of your models into G-Code can be easy and automatic, but you can also do it manually, with total control over the output. In any case, some loss of quality of your model will unavoidably occur during the process. When printing in 3D, you must always make sure this loss of quality stays below your minimum requirements.
+-   **Ensuring Your Objects Are Solid**: Just like real-world objects, your 3D models must be solid. FreeCAD, especially within the PartDesign Workbench, helps you ensure that your models remain solid throughout the design process. The software will notify you if an operation compromises the solid nature of the object. Additionally, the Part Workbench offers a <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Check Geometry](Part_CheckGeometry.md) tool, which allows you to identify potential defects or issues that might interfere with the 3D printing process.
 
-Below, we will assume that the first two criteria are met, and that by now you are able to produce solid objects with correct dimensions. We will now see how to address the third point.
+-   **Confirming the Accuracy of Dimensions**: Precision is critical---what you design in FreeCAD will translate directly to real-world measurements. A millimeter in FreeCAD is a millimeter in the physical object, so each dimension must be carefully considered and verified to ensure accuracy.
+
+-   **Managing Degradation**: It\'s important to remember that no 3D printer or CNC mill can directly process FreeCAD files. These machines use G-Code, a machine language with various dialects depending on the machine or vendor. The process of converting your model into G-Code can often be done automatically through slicer software, but you also have the option to do it manually for greater control. However, during this conversion, some loss of detail or quality is inevitable, particularly when converting the model to a mesh format for printing. You must ensure that this degradation remains within acceptable limits and doesn't affect the functionality or appearance of your final object.
+
+-   **Export Format Compatibility**: For 3D printing, STL is the most commonly used format, but it inherently converts your model into a mesh of triangles, which can result in some loss of detail. It's essential to choose the right resolution when exporting to STL, balancing between detail retention and file size. Similarly, for CNC machining, formats like STEP or IGES are preferable as they maintain the original geometric integrity of the design better than STL. Choosing the right format ensures that the conversion to G-Code remains accurate.
+
+-   **Mesh Analysis and Calibration**: Before exporting your model to a slicer or CNC toolpath generator, it's advisable to run a mesh analysis using FreeCAD's [Mesh Workbench](Mesh_Workbench.md) to detect irregularities, non-manifold edges, or other mesh issues that might complicate the manufacturing process. Additionally, even with a perfect model, make sure your 3D printer or CNC machine is properly calibrated (e.g., for bed leveling, stepper motor settings, or extruder configuration) to avoid quality problems in the final product.
+
+In the following sections, we\'ll assume that you\'ve already taken care of creating solid models with the correct dimensions. Our focus will now shift to managing the conversion process to G-Code, ensuring that your model maintains the necessary quality for 3D printing or CNC machining. By addressing these considerations, you\'ll be better equipped to produce successful physical objects directly from your FreeCAD models.
 
 ### Exporting to slicers 
 
-This is the technique most commonly used for 3D printing. The 3D object is exported to another program (the slicer) which will generate the G-code from the object, by slicing it into thin layers (hence the name), which will reproduce the movements that the 3D printer will do. Since many of those printers are home-built, there are often small differences from one to the other. These programs usually offer advanced configuration possibilities that allow you to tailor the output exactly for the features of your 3D printer.
+The most common technique for preparing a 3D model for printing involves exporting the 3D object from FreeCAD to a specialized software known as a slicer. The slicer generates G-code by slicing the model into thin layers, which the 3D printer will follow to build the object layer by layer. Because many 3D printers---especially home-built or hobbyist models---have unique configurations, slicer programs provide a wide range of advanced settings. These settings allow you to customize key parameters, such as layer height, print speed, infill density, and support structures, ensuring the G-code is tailored to the specific features and capabilities of your printer.
 
-Actual 3D printing, however, is too vast a subject for this manual. But we will see how to export and use these slicers to check that the output is correct.
+Many slicers also offer simulation and print validation features that are invaluable for previewing the print process. You can visualize the toolpath for each layer, which helps detect potential issues like overhangs that may require supports or areas where cooling might be insufficient. This pre-print validation ensures your model is properly prepared before the print begins, avoiding failed prints or wasted material.
+
+Slicers often include additional insights, such as estimating print time, material usage, and cost based on the filament or resin being used. This allows you to make informed decisions about the printing process and tweak settings for efficiency or material conservation. Although the deeper intricacies of 3D printing---such as machine calibration, material selection, and post-processing---are beyond the scope of this guide, we will focus on how to properly export your FreeCAD model and use slicer software to ensure the output is correct and optimized for your specific printer
 
 ### Converting objects to meshes 
 
-None of the slicers will, at this time, directly take the solid geometry as we produce in FreeCAD. So we will need to convert any object we want to 3D print into a [mesh](https://en.wikipedia.org/wiki/Polygon_mesh) first, that the slicer can open. Fortunately, as much as converting a mesh to a solid is a complicated operation, the contrary, converting a solid to a mesh, is very straightforward. All we need to be careful about, is that it is here that the degradation we mentioned above will occur. We need to check that the degradation stays within acceptable limits.
+None of the slicers currently available can directly accept the solid geometry produced in FreeCAD. Slicers like Cura and PrusaSlicer work with [mesh](https://en.wikipedia.org/wiki/Polygon_mesh)-based formats such as STL, OBJ, or 3MF, which represent the object's surface geometry using a network of triangles. Therefore, to use a model created in FreeCAD, it must first be converted into a mesh format that these slicers can interpret.
 
-All the mesh handling, in FreeCAD, is done by another specific workbench, the [Mesh Workbench](Mesh_Workbench.md). This workbench contains, in addition to the most important tools that convert between Part and Mesh objects, several utilities meant to analyze and repair meshes. Although working with meshes is not the focus of FreeCAD, when working with 3D modeling, you often need to deal with mesh objects, since their use is very widespread among other applications. This workbench allows you to handle them fully in FreeCAD.
+The most commonly used format for 3D printing is STL. One reason STL is preferred is its simplicity---it represents the 3D geometry as a mesh of triangles without including complex details like colors, materials, or textures. This minimalistic approach ensures that STL files are lightweight and compatible with virtually all slicers and 3D printers, making it the industry standard. While OBJ and 3MF are also supported, they can carry additional information like textures and materials, which is unnecessary for most 3D printing tasks and can complicate the slicing process.
 
--   Let\'s convert one of the objects we modelled in the previous chapters, such as the lego piece (which can be downloaded from the end of the previous chapter).
--   Open the FreeCAD file containing the lego piece.
+Fortunately, converting a solid object to a mesh in FreeCAD is straightforward, even though converting a mesh back into a solid is a more complicated operation. During the conversion process, it is crucial to keep in mind that some degradation of the model's quality may occur, especially when reducing complex geometry to a simple triangular mesh. You must ensure that this degradation remains within acceptable limits to maintain the accuracy of your printed object.
+
+In FreeCAD, the [Mesh Workbench](Mesh_Workbench.md) handles all mesh-related tasks. This workbench contains tools not only for converting between Part and Mesh objects but also for analyzing and repairing meshes. While mesh manipulation isn't the primary focus of FreeCAD, it becomes essential when preparing models for 3D printing. Mesh objects are widely used in other applications, and the Mesh Workbench allows you to fully manage and adjust these objects, ensuring they are ready for the next step in the printing process.
+
+-   Let\'s convert the Lego piece we created in the last chapter into an STL mesh. The geometry can be downloaded at the end of said chapter.
+-   Open the FreeCAD file containing the Lego piece.
 -   Switch to the [Mesh Workbench](Mesh_Workbench.md)
--   Select the lego brick
+-   Select the Lego brick
 -   Select menu **Meshes → Create Mesh from Shape**
--   A task panel will open with several options. Some additional meshing algorithms (Mefisto or Netgen) might not be available, depending on how your version of FreeCAD was compiled. The Standard meshing algorithm will always be present. It offers less possibilities than the two others, but is totally sufficient for small objects that fit into the maximum print size of a 3D printer.
+-   A task panel will open with several options. Some additional meshing algorithms (Mefisto or Netgen) might not be available, depending on how your version of FreeCAD was compiled. The Standard meshing algorithm will always be present. It offers fewer possibilities than the two others, but is totally sufficient for small objects that fit into the maximum print size of a 3D printer.
 
-![](images/Exercise_meshing_01.jpg )
+![](images/FreeCAD_MeshLego.png )
 
 -   Select the **Standard** mesher, and leave the deviation value to the default value of **0.10**. Press **Ok**.
--   A mesh object will be created, exactly on top of our solid object. Either hide the solid, or move one of the objects aside, so you can compare both.
+-   A mesh object will be created, exactly on top of our solid object. Either hide the solid or move one of the objects aside, so you can compare both.
 -   Change the **View → Display Mode** property of the new mesh object to **Flat Lines**, in order to see how the triangulation occurred.
 -   If you are not happy, and think that the result is too coarse, you can repeat the operation, lowering the deviation value. In the example below, the left mesh used the default value of **0.10**, while the right one uses **0.01**:
 
@@ -43,71 +55,62 @@ In most cases, though, the default values will give a satisfying result.
 
 -   We can now export our mesh to a mesh format, such as [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29), which is currently the most widely used format in 3D printing, by using menu **File → Export** and choosing the STL file format.
 
-If you don\'t own a 3D printer, it is usually very easy to find commercial services that will print and send you the printed objects by mail. Among the famous ones are [Shapeways](http://www.shapeways.com/) and [Sculpteo](http://www.sculpteo.com/), but you will usually find many others in your own city. In all major cities, you will nowadays find [Fab labs](https://en.wikipedia.org/wiki/Fab_lab), which are workshops equipped with a range of 3D manufacturing machines, almost always including at least one 3D printer. Fab labs are usually community spaces, that will let you use their machines, for a fee or for free depending on the Fab lab, but also teach you how to use them, and promote other activities around 3D manufacturing.
+In FreeCAD, the Mesh Workbench provides several algorithms for converting a solid model into a mesh, including Standard, Mefisto, Netgen, and Gmsh. The Standard algorithm is commonly used for small to medium-sized objects as it provides a balance between speed and mesh quality. When creating a mesh, two critical parameters are the surface deviation and angular deviation. Surface deviation controls how closely the mesh follows the original geometry, with smaller values providing a finer, more accurate mesh but potentially leading to larger file sizes. Angular deviation defines how much deviation is allowed based on changes in the model\'s angles, particularly for curves and sharp edges. Other options like relative surface deviation allow you to adjust the precision dynamically based on the model\'s scale, and features like applying face colors or defining mesh segments by color are useful for advanced rendering or grouping different regions of the model. Once the mesh is generated, it can be exported in formats like STL, OBJ, or 3MF, which are essential for preparing models for 3D printing. Mesh quality is crucial for ensuring that 3D printers interpret the model correctly, so selecting the right meshing algorithm and deviation settings can significantly affect the final print outcome.
 
-### Using Slic3r 
+### Using PrusaSlicer 
 
-[Slic3r](http://slic3r.org/) is an application that converts STL objects into G-code that can be sent directly to 3D printers. Like FreeCAD, it is free, open source and runs on Windows, Mac OS and Linux. Correctly configuring things for 3D printing is a complicated process, where you must have a good knowledge of your 3D printer, so it is not very useful to generate G-code before actually going to print (your G-code file might not work well on another printer), but it is useful for us anyway, to check that our STL file will be printable without problems.
+[PrusaSlicer](https://github.com/prusa3d/prusaslicer/releases) is an application that converts STL, OBJ, and 3MF objects into G-code that can be sent directly to 3D printers. Like FreeCAD, it is free, open-source, and available on Windows, Mac OS, and Linux. Although it is developed by Prusa Research and optimized for Prusa 3D printers, PrusaSlicer can be used with almost any 3D printer, making it versatile for a wide range of machines. PrusaSlicer is based on Slic3r, the original slicer software, but with significant improvements and more frequent updates. Slic3r is no longer actively updated, while PrusaSlicer continues to evolve, adding new features such as adaptive layer heights, tree supports, and improved print strategies.
 
-This is our exported STL file opened in Slic3r. By using the **preview** tab, and moving the right slider, we can visualize the path that the 3D printer head will follow to construct our object.
+Correctly configuring a slicer for 3D printing is a complex process that requires a good understanding of your 3D printer\'s capabilities. While generating G-code without this knowledge might result in a file that doesn\'t work well on other printers, PrusaSlicer still provides an excellent way to verify that your STL file is correctly formatted and printable. The slicer\'s simulation features allow you to preview the G-code paths and check for any potential printing issues before you begin the actual print.
 
-![](images/Exercise_meshing_03.jpg )
+This is our exported STL file opened in PrusaSlicer. By just pressing on the **slice** button, the software divides your model into layers, generates the toolpaths for the 3D printer, and applies the necessary speed and temperature settings. It calculates the infill, support structures, and perimeters, then creates the G-code, which contains detailed instructions for the printer. You can preview the sliced model layer by layer, check estimated print time and filament usage, and finally save or send the G-code to your printer for the actual printing process.
 
-### Using the Cura addon 
+![](images/FreeCAD_PrusaSlicer.png )
 
-[Cura](https://ultimaker.com/en/products/cura-software) is another free and open source slicer application for Windows, Mac and Linux, maintained by the 3D printer maker [Ultimaker](https://ultimaker.com). Some FreeCAD users have created a [Cura Workbench](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin) that uses cura internally. The Cura Workbench is available from the [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons) repository. To use the Cura Workbench, you also need to install Cura itself, which is not included in the workbench.
-
-Once you have installed both Cura and the Cura Workbench, you will be able to use it to produce the G-code file directly from Part objects, without the need to convert them to meshes, and without the need to open an external application. Producing another G-code file from our Lego brick, using the Cura Workbench this time, is done as follows:
-
--   Load the file containing our Lego brick (it can be downloaded at the end of the previous chapter)
--   Switch to the [Cura Workbench](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)
--   Setup the printer space by choosing menu **3D printing → Create a 3D printer definition**. Since we aren\'t going to print for real, we can leave the settings as they are. The geometry of the printing bed and available space will be shown in the 3D view.
--   Move the Lego brick to a suitable location, such as the center of the printing bed. Remember that PartDesign objects cannot be moved directly, so you need either to move its very first sketch (the first rectangle), or to move (and print) a copy, which can be made with the [Part -\> Create Simple Copy](Part_SimpleCopy.md) tool. The copy can be moved, for example with <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Draft → Move](Draft_Move.md).
--   Select the object to be printed, and select menu **3D printing → Slice with Cura Engine**.
--   In the task panel that will open, make sure the path to the Cura executable is correctly set. Since we are not going to really print, we can leave all other options as they are. Press **Ok**. Two files will be generated in the same directory as your FreeCAD file, an STL file and a G-code file.
-
-![](images/Exercise_meshing_05.jpg )
-
--   The generated G-code can also be re-imported into FreeCAD (using the slic3r preprocessor) for checking.
+Apart from PrusaSlicer, there are several other slicer software options available for 3D printing. [Cura](https://ultimaker.com/fr/software/ultimaker-cura/), developed by Ultimaker, is one of the most popular open-source slicers and supports a wide range of printers with extensive customization. [Simplify3D](https://www.simplify3d.com/) is a paid slicer known for its advanced features and efficient toolpath generation.[MatterControl](https://www.matterhackers.com/store/l/mattercontrol/sk/MKZGTDW6) is an open-source slicer that also includes basic CAD tools, while [IdeaMaker](https://www.raise3d.com/fr/ideamaker/) offers a user-friendly interface with adaptive layer heights, developed by Raise3D. Finally, [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer), a newer open-source option based on PrusaSlicer and Bambu Studio, provides additional features for various printers. Each slicer has unique strengths, making the best choice dependent on specific printer models and print requirements.
 
 ### Generating G-code 
 
+The <img alt="" src=images/Workbench_CAM.svg  style="width:16px;"> [CAM Workbench](CAM_Workbench.md) in FreeCAD provides advanced options for generating G-code directly for CNC machines, offering greater flexibility and control compared to automatic slicing tools like those used for 3D printing. While 3D printing slicers can automatically convert a model into G-code with minimal input, CNC milling requires much more user involvement to ensure precise control over the toolpaths, speeds, depths, and other machining parameters. This makes the CAM Workbench essential for tasks that demand fine-tuned G-code, particularly for CNC milling, where machine complexity and the variety of operations (like cutting, drilling, and contouring) require careful planning.
 
-**'''Warning:''' This section was made for FreeCAD 0.16. There have been made significant changes to the path creation. Please refer to the documentation of the [Path workbench](Path_Workbench.md) in general or the tutorial like [path walk-through](Path_Walkthrough_for_the_Impatient.md)!**
+In the CAM Workbench, G-code path generation is highly customizable. It features tools to generate complete machine paths for various operations, or, alternatively, you can build partial G-code segments and assemble them into a full milling operation. This modular approach allows you to tailor each step of the machining process, optimizing the toolpaths for efficiency, material type, and specific machine capabilities.
 
-FreeCAD also offers more advanced ways to generate G-code directly. This is often much more complicated than using automatic tools as we saw above, but has the advantage to let you fully control the output. This is usually not needed when using 3D printers, but becomes very important when dealing with CNC milling, as the machines are much more complex.
+The CAM process is indeed much more intricate than 3D printing because CNC machines use different tools and must account for material removal, tool geometry, and safety margins, all of which are configured manually. In FreeCAD, building a simple CAM project requires defining toolpaths, adjusting cutting depths, selecting appropriate tools, and configuring work offsets, feeds, and speeds. Unlike slicer software, which handles most of this automatically, the CAM Workbench places the control in your hands, making it highly customizable but also more complex.
 
-G-code path generation in FreeCAD is done with the [Path Workbench](Path_Workbench.md). It features tools that generate full machine paths and others that generate only parts of a G-code project, that can then be assembled to form a whole milling operation.
+Though generating CNC milling paths is a topic too broad to cover in detail here, we'll demonstrate how to create a simple CAM project in FreeCAD. While we won't focus on every detail of real-world CNC machining, this guide will introduce you to the essential steps, emphasizing the level of input required to ensure accurate and efficient results. This added complexity is essential for CNC projects, where precision and customizability are critical to achieving desired machining outcomes.
 
-Generating CNC milling paths is another subject that is much too vast to fit in this manual, so we are going to show how to build a simple Path project, without caring much about most of the details of real CNC machining.
+-   Load the file containing our Lego piece, and switch to the <img alt="" src=images/Workbench_CAM.svg  style="width:16px;"> [CAM Workbench](CAM_Workbench.md).
+-   Press on the <img alt="" src=images/CAM_Job.svg  style="width:16px;"> [Job](CAM_Job.md) button and select our lego piece.
+-   Since this section doesn't aim to provide an in-depth tutorial of the CAM Workbench, we will be using the default values. If you would like a more detailed tutorial, please refer to [CAM walk-through](CAM_Walkthrough_for_the_Impatient.md). Keep in mind that in the CAM Workbench, a stock body is automatically created around your object, representing the raw material that will be machined. Right now, this stock body extends 1 mm in all directions from the object.
 
--   Load the file containing our lego piece, and switch to the [Path Workbench](Path_Workbench.md).
--   Since the final piece doesn\'t contain anymore a rectangular top face, hide the final lego piece, and show the first cubic pad that we did, which has a rectangular top face.
--   Select the top face and press the <img alt="" src=images/Path_Profile.svg  style="width:16px;"> [Profile](Path_Profile.md) button.
--   Set its **Offset** property to 1mm.
+![](images/FreeCAD_CAM1.png )
 
-![](images/Exercise_path_01.jpg )
+-   The first step is to remove the unnecessary material from around our object. At this stage, we're starting with a solid block of raw material, and we need to carve out the Lego brick from this block. This process involves defining the toolpaths that will gradually cut away the excess material, leaving behind the desired shape of the Lego.
 
--   Then, let\'s duplicate this first loop a couple of times, so the tool will carve out the whole block. Select the Profile path, and press the <img alt="" src=images/Path_Array.svg  style="width:16px;"> [Array](Path_Array.md) button.
--   Set the **Copies** property of the array to 8, and its **Offset** to -2mm in the Z direction, and move the placement of the array by 2mm in the Z direction, so the cutting will start a bit above the pad, and include the height of the dots too.
+-   The following image shows the FreeCAD CAM Workbench setup for machining a Lego block. The model tree includes solid modeling operations like Pad, Pocket, and LinearPattern, which were used to shape the part. A Job is created, containing toolpaths under Operations that define how the material will be removed from the Stock. The Default Tool is selected for machining, and the Model-Body represents the 3D part being worked on. This setup prepares the object for generating G-code to control the CNC machine.
 
-![](images/Exercise_path_02.jpg )
+![](images/FreeCAD_CAMtree.png )
 
--   Now we have defined a path that, when followed by the milling machine, will carve a rectangular volume out of a block of material. We now need to carve out the space between the dots, in order to reveal them. Hide the Pad, and show the final piece again, so we can select the face that lies between the dots.
--   Select the top face, and press the <img alt="" src=images/Path_Pocket_Shape.svg  style="width:16px;"> [Pocket Shape](Path_Pocket_Shape.md) button. Set the **Offset** property to 1mm, and the **retraction height** to 20mm. That is the height to where the cutter will travel when switching from one loop to another. Otherwise, the cutter might cut right through one of our dots:
+-   Before we begin cutting away the excess material, let\'s make some adjustments to the milling tool that will be used. Although the CAM Workbench allows you to define custom tools, for simplicity, we will modify the default tool. This will ensure the settings are optimized for our project without needing to create a new tool from scratch.
 
-![](images/Exercise_path_03.jpg )
+-   Click on the **TC:Default Tool** text. This will open up the **Tool Controller Editor**. Change the feed rates and spindle velocities as shown in the picture. The feed rates for horizontal and vertical cutting are set to 2000 mm/min, while the spindle speed is set to 2000 RPM with forward rotation. These settings control the movement and cutting speed of the tool during the machining process.
 
--   Once again, make an array. Select the Pocket object, and press the <img alt="" src=images/Path_Array.svg  style="width:16px;"> [Array](Path_Array.md) button. Set the **Copies** number to 1 and the **offset** to -2mm in the Z direction. Move the placement of the array by 2mm in the Z direction. Our two operations are now done:
+![](images/FreeCAD_toolController.png )
 
-![](images/Exercise_path_04.jpg )
+-   Double-click on the tool itself and change its diameter to 1mm.
+-   Now we are ready to begin removing the excess material from the block, gradually carving out the Lego geometry. This process will involve the toolpaths we set, ensuring the final shape matches the intended design.
+-   Click on the <img alt="" src=images/CAM_Profile.svg  style="width:16px;"> [Profile](CAM_Profile.md). This option is used to carve out the unnecessary material around the perimeter of the part, effectively shaping the outer boundaries to achieve the general dimensions of the Lego piece.
+-   Normally you will not have to change any of the default values, except the **Extra Offset** located in the Operation tab. Set this option to 1 mm to ensure that the remaining object corresponds correctly to the Lego\'s boundaries.
+-   Once you press **apply** you should be able to see those green lines around the object. Those lines visualize the path our cutting object will follow when cutting the initial block.
 
--   Now all that is left to do is to join these two operations into one. This can be done with a [Path Job](Path_Job.md). Press the <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Job](Path_Job.md) button.
--   Set the **Use Placements** property of the project is to True, because we changed the placement of the arrays, and we want that to be taken into account in the project.
--   In the tree view, drag and drop the two arrays into the project. You can reorder the arrays inside the project if needed, by double-clicking it.
--   The project can now be exported to G-code, by selecting it, choosing menu **File -\> Export**, selecting the G-code format, and in the pop-up dialog that will open, selecting a post-processing script according to your machine.
+![](images/FreeCAD_CAMProfile.png )
 
-There are many applications available to simulate the real cutting, one of them that is also multi-platform and open source, like FreeCAD, is [Camotics](http://camotics.org/).
+-   Our next step is to create the 6 extruding cylinders on the top of the Lego block.
+-   Choose the top face and click on the <img alt="" src=images/CAM_Pocket_Shape.svg  style="width:16px;"> [Pocket Shape](CAM_Pocket_Shape.md) button. On the **Extensions** tab, enable Extensions and click on the edge of the top face (it should normally be automatically added in the default length box.
+-   Finally, on the **Operation** tab input -1.5 mm in the **Pass Extension box** and change the pattern option to a ZigZagOffset.
+-   Press **apply** and then close the tab.
+-   In a similar manner we can create the three cylinders on the bottom of the Lego piece.
+-   We can easily visualize the steps followed during the milling of the object by using the <img alt="" src=images/CAM_SimulatorGL.svg  style="width:16px;"> [SimulatorGL](CAM_SimulatorGL.md) option.
 
 **Downloads**
 
@@ -122,7 +125,7 @@ There are many applications available to simulate the real cutting, one of them 
 -   [Slic3r](http://slic3r.org/)
 -   [Cura](https://ultimaker.com/en/products/cura-software)
 -   [The Cura Workbench](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)
--   [The Path Workbench](Path_Workbench.md)
+-   [The CAM Workbench](CAM_Workbench.md)
 -   [Camotics](http://camotics.org/)
 
 ### Videos
@@ -132,4 +135,4 @@ There are many applications available to simulate the real cutting, one of them 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Category_Path.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/en
+⏵ [documentation index](../README.md) > [CAM](Category_CAM.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/en

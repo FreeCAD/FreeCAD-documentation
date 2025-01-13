@@ -22,7 +22,7 @@ Flips the normals of all faces of the selected object.
 
 </div>
 
-Flips the normals of all faces of the selected object.
+The <img alt="" src=images/Part_ReverseShape.svg  style="width:24px;"> **Part ReverseShape** command creates parametric copies with reversed face normals from selected objects.
 
 
 
@@ -38,9 +38,9 @@ Flips the normals of all faces of the selected object.
 
 </div>
 
-1.  Select shape.
+1.  Select one or more objects.
 2.  Select the **Part → <img src="images/Part_ReverseShape.svg" width=16px> Reverse shapes** option from the menu.
-3.  A reversed shape is created as a new separate object.
+3.  For each selected object a reversed shape is created.
 
 
 
@@ -65,7 +65,24 @@ Puteți verifica prin :
 
 ## Properties
 
-## Scripting
+See also: [Property editor](Property_editor.md).
+
+A Part ReverseShape object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional property:
+
+### Data
+
+
+{{TitleProperty|Reverse}}
+
+-    **Source|Link**: specifies the linked source shape.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

@@ -19,7 +19,7 @@ A Part Torus can be turned into a segment of a torus by changing its **Angle3** 
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Torus.svg" width=16px> [Part Torus](Part_Torus.md)** button.
+    -   Press the **<img src="images/Part_Torus.svg" width=16px> [Torus](Part_Torus.md)** button.
     -   Select the **Part → Primitives → <img src="images/Part_Torus.svg" width=16px> Torus** option from the menu.
 2.  The torus is created.
 3.  Optionally change the dimensions and **Placement** of the torus by doing one of the following:

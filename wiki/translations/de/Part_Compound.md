@@ -33,5 +33,13 @@ Um diese Prüfung einzuschalten, gehe zu **Werkzeuge → Parameter bearbeiten �
 
 
 
+
+
+{{Part_Tools_navi
+
+}}
+
+
+
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/de

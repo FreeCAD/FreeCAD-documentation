@@ -9,8 +9,6 @@
 
 # TechDraw LinkDimension/ru
 
-The **TechDraw LinkDimension** tool is expected to be deprecated in the future. The [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) tool can be used to change both 2D and 3D references.
-
 
 
 ## Описание
@@ -60,10 +58,16 @@ Note that if the Dimension to be linked is based on two vertices, you should sel
 The TechDraw LinkDimension tool is not directly usable in macros, but changing the **References 3D** property can accomplish the same result.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{TechDraw Tools navi
+
+
+</div>
+
+
+{{TechDraw_Tools_navi
 
 }}
 

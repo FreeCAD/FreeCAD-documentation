@@ -123,7 +123,7 @@ This is the best way to constrain this sketch, as we only used one datum (dimens
 ## Additional resources 
 
 -   [Basic Sketcher Tutorial](Basic_Sketcher_Tutorial.md)
--   [Sketcher reference](Sketcher_reference.md)
+-   [Sketcher Lecture](Sketcher_Lecture.md)
 -   [Sketcher Tutorial](Sketcher_Tutorial.md)
 
  {{Sketcher Tools navi}}

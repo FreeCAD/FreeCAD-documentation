@@ -1,15 +1,22 @@
-# Robot TrajectoryCompound/de
 ---
- GuiCommand:   Name: Robot TrajectoryCompound   Workbenches: Robot_Workbench   Robot|MenuLocation: Robot , TrajectoryCompound---
+ GuiCommand:
+   Name: Robot TrajectoryCompound
+   Name/de: Robot TrajectoryCompound
+   MenuLocation: Robot , TrajectoryCompound
+   Workbenches: Robot_Workbench/de
+---
+
+# Robot TrajectoryCompound/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
 Creates a compound out of some single trajectories.
 
-## Usage
+
+
+## Anwendung
 
 1.  Click on the <img alt="" src=images/Robot_TrajectoryCompound.svg  style="width:24px;"> tool or use the 
 **Robot → TrajectoryCompound**
@@ -19,12 +26,8 @@ Creates a compound out of some single trajectories.
 5.  Switch back to [Tasks panel](Task_panel.md) and click on **OK** to finish selection
 
 
-<div class="mw-translate-fuzzy">
 
-## Bemerkungen
-
-
-</div>
+## Hinweise
 
 
 

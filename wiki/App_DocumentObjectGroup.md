@@ -3,9 +3,9 @@
 
  <img alt="" src=images/Folder.svg  style="width:32px;"> 
 
-An [App DocumentObjectGroup](App_DocumentObjectGroup.md) object, or formally an `App::DocumentObjectGroup`, is a simple element that allows grouping any type of [App DocumentObject](App_DocumentObject.md) in the [tree view](tree_view.md) no matter its type of data.
+An [App DocumentObjectGroup](App_DocumentObjectGroup.md) object, or formally an `App::DocumentObjectGroup`, is a simple element that allows grouping any type of [App DocumentObject](App_DocumentObject.md) in the [tree view](Tree_view.md) no matter its type of data.
 
-It was developed to organize the objects in the [tree view](tree_view.md) in a way that is logical for the user.
+It was developed to organize the objects in the [tree view](Tree_view.md) in a way that is logical for the user.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -16,8 +16,8 @@ It was developed to organize the objects in the [tree view](tree_view.md) in a w
 ## Usage
 
 1.  Press the **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group.md)** button in the structure toolbar. An empty Group is created.
-2.  To add objects to a Group, select them in the [tree view](tree_view.md), and then drag and drop them over the Group.
-3.  To remove objects from a Group, drag them out of the Group, and onto the document label at the top of the [tree view](tree_view.md).
+2.  To add objects to a Group, select them in the [tree view](Tree_view.md), and then drag and drop them over the Group.
+3.  To remove objects from a Group, drag them out of the Group, and onto the document label at the top of the [tree view](Tree_view.md).
 
 See the [Std Group](Std_Group.md) page for the complete information, including its use in [Scripting](Std_Group#Scripting.md).
 

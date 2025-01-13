@@ -322,9 +322,9 @@ This section defines material-properties which are related to the visual appeara
 
 -   add sustainability & LEED properties
 
- {{FEM Tools navi}}
+{{BIM Tools navi}} {{FEM Tools navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [Roadmap](Category_Roadmap.md) > [BIM](Category_BIM.md) > [File_Formats](Category_File_Formats.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > Material
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [Roadmap](Category_Roadmap.md) > [BIM](Category_BIM.md) > [File_Formats](Category_File_Formats.md) > [FEM](Category_FEM.md) > Material

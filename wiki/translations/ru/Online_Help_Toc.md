@@ -1,10 +1,5 @@
 # Online Help Toc/ru
-<div class="mw-translate-fuzzy">
-
-Это оглавление, используемое для автоматического построения системы \"Онлайн Справка\" во FreeCAD. Версия для печати этого руководства также доступна на [странице релизов](https://github.com/FreeCAD/FreeCAD/releases). Если у Вас есть вопросы или нужна помощь с FreeCAD, пожалуйста, обратитесь к [странице помощи](Help/ru.md), включая форумы и группы чатов.
-
-
-</div>
+Если у Вас есть какие-либо вопросы или нужна помощь с FreeCAD, пожалуйста, сначала обратитесь к [странице помощи](Help/ru.md).
 
 Вы можете так же ознакомиться с еще одним [Руководством по FreeCAD](Manual:Introduction/ru.md).
 
@@ -27,37 +22,29 @@
     -   [Документ FreeCAD](Document_structure/ru.md)
     -   [Редактор свойств](Property_editor/ru.md)
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Верстаки](Workbenches/ru.md)
 
 -   -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Стандартные инструменты для всех Верстаков](Std_Base/ru.md)
-    -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Верстак Arch (Архитектура)](Arch_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> [Верстак Assembly (Сборка)](Assembly_Workbench.md) (<small>(v1.0)</small> )
+    -   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> [Верстак BIM](BIM_Workbench.md) (комбинация Arch Workbench и внешнего BIM Workbench доступна в {{VersionMinus|0.21}})
+    -   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> [Верстак CAM (ЧПУ обработка)](CAM_Workbench.md) (называется \"Path Workbench\" in {{VersionMinus|0.21}})
     -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Верстак Draft (Черчение на плоскости)](Draft_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [Верстак FEM (Расчёты Методом Конечных Элементов)](FEM_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> [Верстак Image (Изображение)](Image_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [Верстак Inspection](Inspection_Workbench/ru.md)
+    -   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> [Верстак Material](Material_Workbench.md) (<small>(v1.0)</small> )
     -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Верстак Mesh (Полигональные Сетки)](Mesh_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [Верстак OpenSCAD](OpenSCAD_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Верстак Part (Деталь)](Part_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Верстак PartDesign (Проектирование детали)](PartDesign_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Верстак Path (Механическая обработка)](Path_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [Верстак Points (Точки)](Points_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> [Верстак Raytracing (Визуализация)](Raytracing_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [Верстак Reverse Engineering (Обратная разработка)](Reverse_Engineering_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [Верстак Robot (Робототехника)](Robot_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Верстак Sketcher (Редактирование Эскизов)](Sketcher_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [Верстак Spreadsheet (Электронные таблицы)](Spreadsheet_Workbench/ru.md)
-    -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [Стартовая страница](Start_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Верстак Surface (Поверхности)](Surface_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [Верстак Techdraw (Подготовка чертежей)](TechDraw_Workbench/ru.md)
     -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Верстак Тестирования (для разработчиков)](Testing/ru.md)
-    -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Встроенный браузер](Web_Workbench/ru.md)
     -   [Внешние верстаки](External_workbenches/ru.md)
-
-
-</div>
 
 -   [Список команд FreeCAD](List_of_Commands/ru.md)
 
@@ -90,17 +77,14 @@
     -   [Разработка графических интерфейсов](Interface_creation/ru.md)
     -   [Разработка диалогов](Dialog_creation/ru.md)
 
-
-<div class="mw-translate-fuzzy">
-
 -   Разработка
-    -   [Лиценция](Licence/ru.md)
+    -   [Лиценция](License/ru.md)
     -   Компиляция FreeCAD
         -   [Компиляция в Windows](Compile_on_Windows/ru.md)
         -   [Компиляция в Linux](Compile_on_Linux/ru.md)
         -   [Компиляция в Mac](Compile_on_MacOS/ru.md)
         -   [Компиляция в Docker](Compile_on_Docker/ru.md)
-        -   [Компиляция в Docker через командндную строку](FreeCAD_Docker_CLI_mode.md)
+        -   [Компиляция в Docker через командную строку](FreeCAD_Docker_CLI_mode.md)
         -   [Компиляция (Ускорение)](Compiling_(Speeding_up)/ru.md)
         -   [Библиотеки сторонних разработчиков](Third_Party_Libraries/ru.md)
         -   [Инструменты сторонних разработчиков](Third_Party_Tools/ru.md)
@@ -108,18 +92,15 @@
         -   [Система отслеживания Багов](Tracker.md)
         -   [Отладка](Debugging/ru.md)
         -   [Тестирование](Testing/ru.md)
-        -   [Непрерывная Интеграция](Continuous_Integration/ru.md)
         -   [Инструмент сборки FreeCAD](FreeCAD_Build_Tool/ru.md)
+        -   [Непрерывная Интеграция](Continuous_Integration/ru.md)
     -   Модифицирование FreeCAD
         -   [Брендирование](Branding/ru.md)
         -   [Перевод FreeCAD](Localisation/ru.md)
         -   [Разработка собственного верстака](Workbench_creation/ru.md)
         -   [Установка дополнительных модулей Python](Extra_python_modules/ru.md)
     -   [Документация из исходных кодов](Source_documentation/ru.md)
-    -   [API](https://www.freecadweb.org/api/)
-
-
-</div>
+    -   [API](https://www.freecad.org/api/)
 
 -   Авторы
     -   [Участники проекта](Contributors/ru.md)

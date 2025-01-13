@@ -52,7 +52,7 @@ Pour commencer le profil, dessinez un <img alt="" src=images/Draft_Rectangle.svg
 
 ![](images/T101dwb01-02rectangleraw.png )
 
-Lorsque l\'on travaille dans l**\'atelier Draft**, on dessine presque toujours sur un plan 2D. Ce plan 2D est appelé *[plan de travail](Draft_SelectPlane/fr.md)*, et, si les paramètres par défaut sont utilisés, il s\'alignera toujours automatiquement sur la vue 3D courante. Ainsi, jusqu\'à ce que le profil 2D soit terminé, il est préférable de conserver simplement la vue du dessus (position de la caméra) et de ne pas jouer avec la rotation de la vue. Si vous l\'avez modifiée, il vous suffit de revenir à la vue du dessus avant de lancer une nouvelle commande dans l**\'atelier Draft**.
+Lorsque l\'on travaille dans l**\'atelier Draft**, on dessine presque toujours sur un plan 2D. Ce plan 2D est appelé *[plan de travail](Draft_SelectPlane/fr.md)*, et, si les paramètres par défaut sont utilisés, il s\'alignera toujours automatiquement sur la vue 3D courante. Ainsi, jusqu\'à ce que le profil 2D soit terminé, il est préférable de conserver simplement la vue du dessus (position de la prise de vue) et de ne pas jouer avec la rotation de la vue. Si vous l\'avez modifiée, il vous suffit de revenir à la vue du dessus avant de lancer une nouvelle commande dans l**\'atelier Draft**.
 
 La vue latérale de notre modèle terminé a un contour extérieur de 100 x 50 mm, et il serait bien que le coin inférieur gauche soit placé à la position zéro globale. Ceci peut être réalisé par l\'intermédiaire de l\'éditeur de propriétés. Assurez-vous que le **Rectangle** créé est sélectionné, puis changez la *Position* du rectangle en **(0, 0, 0)**, modifiez la *Hauteur* à **50** mm et la *Longueur* à **100** mm comme dans les images ci-dessous.
 
@@ -108,7 +108,7 @@ La ligne est maintenant à la bonne position, mais elle est trop longue. Pour aj
 
 ![](images/T101dwb03-05_trimline.png )
 
-Ajustez également la ligne verticale la plus à gauche pour former le coin inférieur du chanfrein. Sélectionnez la *ligne angulaire*, **Edge001**, près de son extrémité supérieure droite pour obtenir un résultat correct. Si vous faites une erreur en ajustant, utilisez simplement <img alt="" src=images/Std_Undo.svg  style="width:24px;"> [Annuler](Std_Undo/fr.md) et <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Rafraîchir](Std_Refresh/fr.md) (ce dernier est souvent appelé *recompute*) et réessayez.
+Ajustez également la ligne verticale la plus à gauche pour former le coin inférieur du chanfrein. Sélectionnez la *ligne angulaire*, **Edge001**, près de son extrémité supérieure droite pour obtenir un résultat correct. Si vous faites une erreur en ajustant, utilisez simplement <img alt="" src=images/Std_Undo.svg  style="width:24px;"> [Annuler](Std_Undo/fr.md) et <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Recalculer](Std_Refresh/fr.md) (ce dernier est souvent appelé *recompute*) et réessayez.
 
 ![](images/T101dwb03-06_chamferlowercornerdone.png )
 

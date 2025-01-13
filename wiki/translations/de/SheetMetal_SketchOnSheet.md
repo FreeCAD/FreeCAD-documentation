@@ -21,15 +21,15 @@ Im Gegensatz zu dem Befehl <img alt="" src=images/PartDesign_Pocket.svg  style="
 
 ## Anwendung
 
-1.  Eine **planare Fläche** auswählen
-2.  Eine komplanare <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketcher_Workbench/de.md) (d.h. eine auf derselben Ebenen liegende) als **Lochbild** auswählen (vorzugsweise aus der [Baumansicht](Tree_view/de.md)).
-    -   **Hinweis:** Nicht die Taste **Steuerung**/**Befehl** vergessen!
-3.  Den Befehl <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Skizze auf Blech](SheetMetal_SketchOnSheet/de.md) aktivieren durch:
-    -   Die Schaltfläche **<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> [Skizze auf Blech](SheetMetal_SketchOnSheet/de.md)
-**
-    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Sketch On Sheet metal
-**
-    -   Das Tastenkürzel: **M** dann **S**
+1.  Eine **ebene Fläche** auswählen
+2.  Eine komplanare <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketcher_Workbench/de.md) (d.h. eine auf derselben Ebene liegende) als **Lochbild** zur Auswahl hinzufügen (vorzugsweise in der [Baumansicht](Tree_view/de.md)).
+3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> [Skizze auf Blech](SheetMetal_SketchOnSheet/de.md)** drücken.
+    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Skizze auf Blech** auswählen.
+    -   Ein Rechtsklick in die [Baumansicht](Tree_view/de.md) oder die [3D-Ansicht](3D_view/de.md) und die Menüoption **SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Skizze auf Blech** im Kontextmenü auswählen.
+    -   Das Tastaturkürzel **M** dann **S**.
+4.  Ein **SketchOnSheet**-Objekt wird erstellt und enthält Löcher, die auf der ausgewählten Fläche beginnen und dem gekanteten Flächernverlauf folgen.
+5.  Wahlweise die Parameter im [Eigenschafteneditor](Property_editor/de.md) anpassen.
 
 
 
@@ -44,20 +44,11 @@ Im Gegensatz zu dem Befehl <img alt="" src=images/PartDesign_Pocket.svg  style="
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Ein SheetMetal-SketchOnSheet-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+Ein SheetMetal-SketchOnSheet-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet oder, wenn es sich in einem [PartDesign-Körper](PartDesign_Body/de.md) befindet, von einem [PartDesign Formelement](PartDesign_Feature/de.md) und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
 
 
 ### Daten
-
-
-{{Properties_Title/de|Basis}}
-
--    {{PropertyData/de|Label|String}}: Standardwert: Der vom Benutzer änderbare Name dieses Objekts, der aus einer beliebigen UTF8-Zeichenkette bestehen kann.
-
--    {{PropertyData/de|Base Feature|Link|hidden}}: Base Feature. Verweis zum Eltern-Objekt.
-
--    {{PropertyData/de|_Body|LinkHidden|hidden}}: Unsichtbarer Verweis zum Eltern-Body.
 
 
 {{Properties_Title/de|Parameters}}

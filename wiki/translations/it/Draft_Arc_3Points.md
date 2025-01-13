@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Arc 3Points
-   Name/it: Arco da tre punti
-   MenuLocation: Drafting , Strumenti Arco , Arco da tre punti
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Arco per 3 punti
+   MenuLocation: Drafting , Strumenti Arco , Arco per 3 punti<br>2D Drafting , Arco per 3 punti
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **A** **T**
    Version: 0.19
    SeeAlso: Draft Arc/it, Draft Circle/it
@@ -15,7 +15,7 @@
 
 ## Descrizione
 
-Il comando <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> **Arc da 3 punti** crea un arco circolare nel [piano di lavoro](Draft_SelectPlane/it.md) corrente da tre punti che ne definiscono la circonferenza. Il centro e il raggio sono calcolati da questi punti.
+Il comando <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> **Arco per 3 punti** crea un arco circolare sul [piano di lavoro](Draft_SelectPlane/it.md) corrente passante per 3 punti che ne definiscono la circonferenza. Il centro e il raggio sono calcolati da questi punti.
 
 Un Arco è infatti una [Circonferenza](Draft_Circle/it.md) con un **First Angle** diverso dal suo **Last Angle**.
 
@@ -29,10 +29,11 @@ Un Arco è infatti una [Circonferenza](Draft_Circle/it.md) con un **First Angle*
 Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 
 1.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Draft_Arc_3Points.svg" width=16px> [Arco da 3 punti](Draft_Arc_3Points/it.md)**.
-    -   Selezionare l\'opzione **Drafting → Strumenti Arco → <img src="images/Draft_Arc_3Points.svg" width=16px> Arco da 3 punti** dal menu.
-    -   Usare la scorciatoia da tastiera: **A** poi **T**. {{Version/it|0.20}}
-2.  Si apre il pannello attività **Arco da 3 punti**. Vedi [Opzioni](#Options.md) per maggiori informazioni.
+    -   Premere il pulsante **<img src="images/Draft_Arc_3Points.svg" width=16px> [Arco per 3 punti](Draft_Arc_3Points/it.md)**.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Drafting → Strumenti Arco → <img src="images/Draft_Arc_3Points.svg" width=16px> Arco per 3 punti** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **2D Drafting → <img src="images/Draft_Arc_3Points.svg" width=16px> Arco per 3 punti** dal menu.
+    -   Usare la scorciatoia da tastiera: **A** poi **T**.
+2.  Si apre il pannello attività **Arco per 3 punti**. Vedi [Opzioni](#Options.md) per maggiori informazioni.
 3.  Scegliere il primo punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
 4.  Scegliere il secondo punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
 5.  Scegliere il terzo punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
@@ -41,12 +42,12 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 ## Opzioni
 
-È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 0.22).
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 1.0).
 
 -   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
 -   Premere **R** o fare clic sulla casella di controllo **Relativo** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate sono relative all\'ultimo punto, se disponibile, altrimenti sono relative all\'origine del sistema di coordinate.
--   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
--   Premere **N** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando si riavvierà al termine, consentendo di continuare a creare archi. {{Version/it|0.20}}
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md).
+-   Premere **N** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando si riavvierà al termine, consentendo di continuare a creare archi.
 -   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap.md).
 -   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
@@ -76,7 +77,7 @@ Vedere [Draft Cerchio](Draft_Circle/it#Propertietà.md).
 
 Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Per creare un Arco da 3 punti usare il metodo `make_arc_3points` del modulo Draft:
+Per creare un Arco per 3 punti usare il metodo `make_arc_3points` del modulo Draft:
 
 
 ```python

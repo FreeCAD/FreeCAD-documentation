@@ -1,5 +1,5 @@
 # Sketcher CompCreateCircle/en
-1.  REDIRECT [Sketcher_Workbench/en#Sketcher_CompCreateCircle](Sketcher_Workbench/en#Sketcher_CompCreateCircle.md)
+1.  REDIRECT [Sketcher_Workbench/en#Sketcher_CompCreateConic](Sketcher_Workbench/en#Sketcher_CompCreateConic.md)
 
 
 

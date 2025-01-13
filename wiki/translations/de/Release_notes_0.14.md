@@ -75,7 +75,7 @@ Die neue Funktion [Part Thickness](Part_Thickness.md) (Menü Formteil \--\> Dick
 
 ### Make Compound 
 
-Der [Arbeitsbereich Partverf](Part_Workbench/de.md)ügt jetzt über ein [Verbund herstellen](Part_Workbench/de.md) Werkzeug, der dir erlaubt schnell ein Verbundobjekt aus einem Satz ausgewählter Formen erstellen zu können.
+Der [Arbeitsbereich Partverfügt](Part_Workbench/de.md) jetzt über ein [Verbund herstellen](Part_Workbench/de.md) Werkzeug, der dir erlaubt schnell ein Verbundobjekt aus einem Satz ausgewählter Formen erstellen zu können.
 
 ### Part Grundkörper 
 

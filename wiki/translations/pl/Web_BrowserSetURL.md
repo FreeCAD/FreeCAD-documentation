@@ -1,24 +1,29 @@
 ---
  GuiCommand:
    Name: Web BrowserSetURL
+   Name/pl: Web: Wprowadź adres URL
    MenuLocation: 
-   Workbenches: Web_Workbench, Start_Workbench
-   SeeAlso: Web_OpenWebsite
+   Workbenches: Web_Workbench/pl, Start_Workbench/pl
+   SeeAlso: Web_OpenWebsite/pl
 ---
 
 # Web BrowserSetURL/pl
 
-## Description
 
-Use the <img alt="" src=images/Web_BrowserSetURL.svg  style="width:24px;"> **Web BrowserSetURL** command to change the URL of the active Web tab.
 
-## Usage
+## Opis
 
-1.  Make sure a Web tab is active, use the <img alt="" src=images/Web_OpenWebsite.svg  style="width:16px;"> [Web OpenWebsite](Web_OpenWebsite.md) command to create one if required.
-2.  Press the **<img src="images/Web_BrowserSetURL.svg" width=16px> [Set URL](Web_BrowserSetURL.md)** button.
-3.  A prompt line opens with the current URL.
-4.  Edit the URL and press **Enter** to finish.
-5.  The new URL is loaded.
+Użyj polecenia <img alt="" src=images/Web_BrowserSetURL.svg  style="width:24px;"> **Wprowadź adres URL**, aby zmienić adres URL aktywnej karty Web.
+
+
+
+## Użycie
+
+1.  Upewnij się, że zakładka Web jest aktywna, użyj polecenia <img alt="" src=images/Web_OpenWebsite.svg  style="width:16px;">. [Otwórz witrynę](Web_OpenWebsite/pl.md), aby ją utworzyć w razie potrzeby.
+2.  Naciśnij przycisk **<img src="images/Web_BrowserSetURL.svg" width=16px> '''Wprowadź adres URL'''**.
+3.  Otworzy się wiersz zachęty z bieżącym adresem URL.
+4.  Edytuj adres URL i naciśnij **Enter**, aby zakończyć.
+5.  Nowy adres URL zostanie załadowany.
 
 
 

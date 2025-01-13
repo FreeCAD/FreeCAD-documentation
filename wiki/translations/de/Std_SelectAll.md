@@ -9,13 +9,19 @@
 
 # Std SelectAll/de
 
+
+
 ## Beschreibung
 
 Der **Std AllesAuswählen** Befehl wählt alle Objekte in der [Baumansicht](Tree_view/de.md) aus.
 
+
+
 ## Anwendung
 
 1.  Wähle die **Bearbeiten → <img src="images/Std_SelectAll.svg" width=16px> Alles auswählen** Option aus dem Menü.
+
+
 
 ## Hinweise
 
@@ -25,7 +31,7 @@ Der **Std AllesAuswählen** Befehl wählt alle Objekte in der [Baumansicht](Tree
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

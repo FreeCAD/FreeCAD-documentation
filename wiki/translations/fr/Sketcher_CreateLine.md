@@ -12,18 +12,39 @@
 
 ## Description
 
-Cet outil dessine une ligne en cliquant deux points dans la [vue 3D](3D_view/fr.md). Lorsque l\'outil est activé, le pointeur de la souris se change en croix blanche avec une icône de ligne rouge. Les coordonnées à l\'écran du pointeur sont affichées à côté en bleu, et sont mises à jour en temps réel.
+L\'outil <img alt="" src=images/Sketcher_CreateLine.svg  style="width:24px;"> [Sketcher Ligne](Sketcher_CreateLine/fr.md) crée une ligne. {{Version/fr|1.0}} : si le [mode de visibilité des paramètres d\'affichage](Sketcher_Preferences/fr#Général.md) est activé, l\'outil dispose de trois modes.
 
 ![](images/Sketcher_LineExample1.png‎ )
-
-L\'objet ligne créé commence et se termine aux points donnés, mais la ligne est infinie en ce qui concerne les contraintes [Tangence](Sketcher_ConstrainTangent/fr.md), [Point sur objet](Sketcher_ConstrainPointOnObject/fr.md) et [Angle interne](Sketcher_ConstrainAngle/fr.md). Cela signifie par exemple qu'un point avec la contrainte [Point sur objet](Sketcher_ConstrainPointOnObject/fr.md) peut ne pas être situé entre les deux points donnés, mais peut se trouver en dehors des deux points sur l'extension de la ligne dessinée.
 
 
 
 ## Utilisation
 
--   Cliquez des points dans un espace libre de la vue 3D, ou sur un élément existant (les contraintes auto doivent être activées dans le [Panneau des tâches](Task_panel/fr.md)).
--   Appuyez sur **Echap** ou faire un clic droit avec la souris annule l\'opération.
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
+
+Pos-OVP = [Paramètres d\'affichage](Sketcher_Preferences/fr#Général.md) de position. {{Version/fr|1.0}}
+Dim-OVP = Paramètres d\'affichage des dimensions. {{Version/fr|1.0}}
+
+1.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_CreateLine.svg" width=16px> [Créer une ligne](Sketcher_CreateLine/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Géométries d'esquisse → <img src="images/Sketcher_CreateLine.svg" width=16px> Créer une ligne** du menu.
+    -   Utiliser le raccourci clavier : **G** puis **L**.
+2.  Le curseur se transforme en croix avec l\'icône du mode d\'outil actuel.
+3.  si le [mode de visibilité des paramètres d\'affichage](Sketcher_Preferences/fr#Général.md) est activé, la section **Paramètres de la ligne** ({{Version/fr|1.0}}) est ajoutée en haut de la [fenêtre de dialogue de l\'esquisse](Sketcher_Dialog/fr.md).
+4.  Il est possible d\'appuyer sur la touche **M** ou de choisir dans la liste déroulante de la section des paramètres pour changer le mode de l\'outil :
+    -   <img alt="" src=images/Sketcher_CreateLineAngleLength.svg  style="width:16px;"> **Point, largeur, angle** : {{Version/fr|1.0}}
+        1.  Choisissez le point de départ de la ligne, ou avec Pos-OVP : entrez ses coordonnées X et/ou Y.
+        2.  Choisissez le point d\'arrivée de la ligne, ou avec Dim-OVP : entrez la longueur et/ou l\'angle de la ligne. L\'angle est relatif à l\'axe X du croquis.
+    -   <img alt="" src=images/Sketcher_CreateLineLengthWidth.svg  style="width:16px;"> **Point, largeur, hauteur** : {{Version/fr|1.0}}
+        1.  Choisissez le point de départ de la ligne, ou avec Pos-OVP : entrez ses coordonnées X et/ou Y.
+        2.  Choisissez le point d\'arrivée de la ligne, ou avec Dim-OVP : entrez sa distance X et/ou Y par rapport au point de départ.
+    -   <img alt="" src=images/Sketcher_CreateLine.svg  style="width:16px;"> **2 points** :
+        1.  Choisissez le point de départ de la ligne, ou avec Pos-OVP : entrez ses coordonnées X et/ou Y.
+        2.  Choisissez le point d\'arrivée de la ligne, ou avec Pos-OVP : entrez sa coordonnée X et/ou Y.
+5.  La ligne est créée et les contraintes Pos-OVP et Dim-OVP applicables sont ajoutées.
+6.  Si l\'outil fonctionne en [mode continu](Sketcher_Workbench/fr#Modes_continus.md) :
+    1.  Vous pouvez continuer à créer des lignes.
+    2.  Pour terminer, cliquez avec le bouton droit de la souris ou appuyez sur **Échap**, ou démarrez un autre outil de création de géométrie ou de contrainte.
 
 
 

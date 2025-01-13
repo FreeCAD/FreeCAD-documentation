@@ -81,20 +81,20 @@ Enhanced and extended [Arch and BIM](#Arch_Workbench.md) tools
 
 ## FEM Workbench 
 
-<img alt="The polished FEM material dialog" src=images/FEM-Material-dialog-018.png  style="width:300px;"> In 0.17 there where added tons of new features in FEM. Thus the main focus for FEM in 0.18 release of FreeCAD was not adding even more new features and tools, but make the existing ones more stable and fix as much as possible bugs. FEM got 470 commits during FreeCAD 0.18 development cycle [1](https://forum.freecadweb.org/viewtopic.php?f=10&t=13154&p=297292#p297110).
+<img alt="The polished FEM material dialog" src=images/FEM-Material-dialog-018.png  style="width:300px;"> In 0.17, tons of new features were added to FEM. Thus, the main focus for FEM in the 0.18 release of FreeCAD was not adding even more new features and tools, but making the existing ones more stable and fixing as many bugs as possible. FEM got 470 commits during FreeCAD 0.18 development cycle [1](https://forum.freecadweb.org/viewtopic.php?f=10&t=13154&p=297292#p297110).
 
 ### General Improvements on the code base 
 
 -   Tons of bug fixes.
--   Code refactor and cleaning. Get rid of duplicate code.
+-   Code refactoring and cleaning. Get rid of duplicate code.
 -   Fix a lot of typos in code and visible messages.
 -   Python 3 compatibility fixes.
--   More unit tests where added.
--   Possibility to compile FreeCAD with external uptodate SMESH.
+-   More unit tests were added.
+-   Possibility to compile FreeCAD with external up-to-date SMESH.
 
 ### Tools
 
--   A clipping plane tool was added to be able to select solids which are inside other solids.
+-   A clipping plane tool was added to be able to select solids that are inside other solids.
 -   The VTK warp filter got some love.
 -   An analysis type for CalculiX model checking was added.
 

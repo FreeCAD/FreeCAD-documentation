@@ -1,23 +1,29 @@
 ---
  GuiCommand:
    Name: Spreadsheet AlignLeft
-   Name/de: Kalkulationstabelle LinksAusrichten
-   MenuLocation: Kalkulationstabelle , Ausrichtung , LinksAusrichten
+   Name/de: Spreadsheet AusrichtenLinks
+   MenuLocation: Kalkulationstabelle , Ausrichtung , Linksbündig
    Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
 ---
 
 # Spreadsheet AlignLeft/de
 
+
+
 ## Beschreibung
 
-Das **[<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Kalkulationstabelle LinksAusrichten](Spreadsheet_AlignLeft/de.md)** bewirkt, dass der Text innerhalb der Zelle nach links ausgerichtet wird.
+Das Werkzeug <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> **Spreadsheet AusrichtenLinks** richtet den Inhalt ausgewählter Zellen linksbündig aus.
+
+
 
 ## Anwendung
 
-1.  Stelle sicher, dass eine aktive **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md)** geöffnet ist, so dass die Schaltfläche aktiviert ist.
-2.  Wähle eine Zelle.
-3.  Drücke die **[<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Kalkulationstabelle LinksAusrichten](Spreadsheet_AlignLeft/de.md)** Schaltfläche.
+1.  Sicherstellen, dass eine [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md) aktiviert ist.
+2.  Eine oder mehrere Zellen auswählen.
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Linksbündig](Spreadsheet_AlignLeft/de.md)** drücken.
+    -   Den Menüeintrag **Kalkulationstabelle → Ausrichtung → [<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> Linksbündig** auswählen.
 
 
 

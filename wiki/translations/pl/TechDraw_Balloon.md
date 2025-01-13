@@ -24,9 +24,9 @@ Narzędzie **Wstaw adnotację w formie dymka** może dodawać do rysunku dymki z
 
 1.  Wybierz jedną z poniższych opcji:
     -   Widok *(na stronie lub w oknie [Widoku drzewa](Tree_view/pl.md))*.
-    -   Wierzchołek w widoku. {{Version/pl|0.20}}
-    -   Krawędź w widoku. {{Version/pl|0.20}}
-    -   Zamknięty region w widoku. {{Version/pl|0.20}}
+    -   Wierzchołek w widoku.
+    -   Krawędź w widoku.
+    -   Zamknięty region w widoku.
 2.  Istnieje kilka sposobów wywołania narzędzia:
     -   Naciśnięcie przycisku **<img src="images/TechDraw_Balloon.svg" width=16px> '''Wstaw adnotację w formie dymka'''**.
     -   Wybierz **Rysunek Techniczny → Adnotacje → <img src="images/TechDraw_Balloon.svg" width=16px> Wstaw adnotację w formie dymka** z menu.
@@ -112,7 +112,7 @@ rc = page.addView(bal1)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

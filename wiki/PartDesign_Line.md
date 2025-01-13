@@ -11,7 +11,7 @@
 
 ## Description
 
-Creates a **datum line** which can be used as reference for sketches, other datum geometry or features. For example it can be used as revolution axis for Revolution and Groove features.
+Creates a **[datum](datum.md) line** which can be used as reference for sketches, other datum geometry or features. For example it can be used as revolution axis for Revolution and Groove features.
 
  <img alt="" src=images/datum_line.png  style="width:600px;">  
 *Two Datum lines through opposite corners of the cube meet at the center of mass.*
@@ -29,6 +29,10 @@ Creates a **datum line** which can be used as reference for sketches, other datu
 ## Options
 
 Double-click the DatumLine label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Part EditAttachment](Part_EditAttachment.md).
+
+## Preferences
+
+See [PartDesign Plane](PartDesign_Plane#Preferences.md).
 
 ## Properties
 

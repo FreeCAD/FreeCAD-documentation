@@ -25,7 +25,7 @@ Instrumentul PathArray plasează copii ale unei forme selectate de-a lungul unei
 
 </div>
 
-Both commands can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
+Both commands can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [BIM Workbench](BIM_Workbench.md).
 
 <img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;"> 
 *Draft PathArray*
@@ -154,6 +154,8 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 -    **Count|Integer**: specifies the number of elements in the array.
 
 -    **Expand Array|Bool**: specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
+
+-    **Fuse|Bool**: specifies if overlapping elements in the array are fused or not. Not used for Link arrays. <small>(v1.0)</small> 
 
 -    **Path Object|LinkGlobal**: specifies the object to be used for the path. It must contain {{Value|Edges}} in its [Part TopoShape](Part_TopoShape.md).
 

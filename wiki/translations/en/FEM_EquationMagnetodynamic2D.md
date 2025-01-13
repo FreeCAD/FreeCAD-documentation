@@ -9,6 +9,8 @@
 
 # FEM EquationMagnetodynamic2D/en
 
+## Description
+
 This equation performs analyses using a 2D version of the [Maxwell\'s equations](https://en.wikipedia.org/wiki/Maxwell%27s_equations) when the unknown is the z-component (or φ-component).
 
 For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Computation of Magnetic Fields in 2D*.

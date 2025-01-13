@@ -29,19 +29,32 @@ If an outline sketch is added it creates **interlocking geometry** to close a pr
 ### Simple Extension 
 
 1.  Select one or more edge face(s) to be extended.
-2.  Activate the <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **SheetMetal Extrude** command using one of the following:
-    -   The **<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_Extrude.svg" width=16px> Extend Face** menu option.
-    -   The keyboard shortcut: **E**.
-3.  Change the value of the property **length** to adjust the length of the extension.
+2.  There are several ways to invoke the command:
+    -   Press the **<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude.md)** button.
+    -   Select the **Sheet Metal → <img src="images/SheetMetal_Extrude.svg" width=16px> Extend Face** option from the menu.
+    -   Right-click in the [Tree view](Tree_view.md) or the [3D view](3D_view.md) and select the **Sheet Metal → <img src="images/SheetMetal_Extrude.svg" width=16px> Extend Face** option from the context menu.
+    -   Use the keyboard shortcut: **E**.
+3.  The **Extend Parameters** [Task panel](Task_panel.md) opens (introduced in version 0.5.00).
+4.  Optionally press the **Select** button to add more faces.
+    -   Press the **Preview** button to finish the selection and display the changes.
+5.  Optionally adjust the parameters in the Task panel.
+6.  Press the **OK** button to finish the command and close the Task panel.
+7.  An **Extend** object will be created consisting of one new face extension at each selected face.
+8.  Optionally adjust the parameters in the [Property editor](Property_editor.md).
 
 ### Interlocking Extension 
 
-1.  Select one edge face to be extended.
-2.  Activate the <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **SheetMetal Extrude** command (see above).
-3.  Add a coplanar outline sketch to the property **Sketch**.
-4.  Set the property **Use Subtraction** to `True` to create cut-outs to make room for the extensions.
-5.  Set the property **Offset** to adjust the clearance around the extension.
+:   (Prepare a <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md) for interlocking tabs)
+
+1.  Select the edge face to be extended.
+2.  Invoke the command as described above.
+3.  Press the **OK** button to finish the command and close the Task panel.
+4.  In the [Property editor](Property_editor.md) press the **...** button of the **Sketch** property.
+5.  The Link dialog window opens.
+    -   Select the prepared sketch from the list
+    -   Press the **OK** button to close the dialog.
+6.  Set the property **Use Subtraction** to `True` to create cut-outs to make room for the extensions.
+7.  Set the property **Offset** to adjust the clearance around the extension.
 
  <img alt="" src=images/SheetMetal_Extrude-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-04.png  style="width:200px;"> 
 
@@ -79,18 +92,9 @@ If an outline sketch is added it creates **interlocking geometry** to close a pr
 
 See also: [Property editor](Property_editor.md).
 
-A SheetMetal Extend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+A SheetMetal Extend object is derived from a [Part Feature](Part_Feature.md) object or, if it is inside a [PartDesign Body](PartDesign_Body.md), from a [PartDesign Feature](PartDesign_Feature.md) object, and inherits all its properties. It also has the following additional properties:
 
 ### Data
-
-
-{{Properties_Title|Base}}
-
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
-
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
-
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
 
 
 {{Properties_Title|Parameters}}

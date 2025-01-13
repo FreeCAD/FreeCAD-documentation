@@ -1,17 +1,19 @@
 # Viewprovider/pl
-## Introduction
+## Wprowadzenie
 
-[Viewproviders](Viewprovider.md) are classes that define the way objects will look like in the [tree view](tree_view.md) and the [3D view](3D_view.md), and how they will interact with certain graphical actions such as [selection](Selection_methods.md).
+Dostawcy widoku to klasy, które definiują sposób, w jaki obiekty będą wyglądać w oknie [widoku drzewa](Tree_view/pl.md) i [widoku 3D](3D_view/pl.md), oraz jak będą współdziałać z niektórymi akcjami graficznymi, takimi jak [zaznaczanie](Selection_methods/pl.md) obiektów.
 
-They complement the [scripted objects](scripted_objects.md). While the base class of the scripted object defines its **data** [properties](property.md), the viewprovider defines it **view** [properties](property.md). These view properties are not essential information of the object, as they only indicate superficial information like line width, line color, face color, etc. In a terminal only session, the viewprovider is not loaded because there will be no interface to manipulate those visible properties.
+Uzupełniają one [obiekty tworzone skryptami](Scripted_objects/pl.md). Podczas gdy klasa bazowa obiektu skryptowego definiuje jego [właściwości](Property/pl.md) **dane**, viewprovider definiuje jego [właściwości](Property/pl.md) **widok**. Te właściwości widoku nie są istotnymi informacjami o obiekcie, ponieważ wskazują tylko powierzchowne informacje, takie jak szerokość linii, kolor linii, kolor powierzchni itp. W sesji terminalowej dostawca widoku nie jest ładowany, ponieważ nie będzie interfejsu do manipulowania tymi widocznymi właściwościami.
 
-Like with data properties, view properties are accessible from the [property editor](property_editor.md).
+Podobnie jak w przypadku właściwości danych, właściwości widoku są dostępne z poziomu [edytora własciwości](Property_editor/pl.md).
 
-## Python view providers 
 
-The viewproviders classes usually include `ViewProvider` in their name. They are assigned on the `ViewObject` attribute of the base object.
 
-In this example, we define two properties for the viewprovider, only if the properties don\'t already exist, and assign their default values. We also define the `onChanged` method that runs every time a property changes. We need to test the property by name, and then we will call one of two methods that will do the actual work of updating the pattern or setting its size. 
+## Dostawcy widoków Python 
+
+Klasy viewprovider zazwyczaj zawierają w nazwie ciąg `ViewProvider`. Są one przypisywane do atrybutu `ViewObject` obiektu bazowego.
+
+W tym przykładzie definiujemy dwie właściwości dla Dostawcy widoku, tylko jeśli właściwości jeszcze nie istnieją, i przypisujemy im wartości domyślne. Definiujemy również metodę `onChanged`, która jest uruchamiana za każdym razem, gdy zmienia się właściwość. Musimy przetestować właściwość według nazwy, a następnie wywołamy jedną z dwóch metod, które wykonają rzeczywistą pracę polegającą na aktualizacji wzorca lub ustawieniu jego rozmiaru. 
 ```python
 # views/view_custom.py
 class ViewProviderCustom:
@@ -51,7 +53,7 @@ class ViewProviderCustom:
         ...
 ```
 
-The normal workflow is to first add the object proxy class, for example, `CustomObject`, and then the viewprovider, for example, `ViewProviderCustom`. The viewprovider can only be assigned when we have verified that the graphical interface is available, as otherwise the `ViewObject` attribute doesn\'t exist, and it will be an error to use this element as input for our class. 
+Normalnym przepływem pracy jest dodanie najpierw klasy proxy obiektu, na przykład `CustomObject`, a następnie dostawcy widoku, na przykład `ViewProviderCustom`. Viewprovider może być przypisany tylko wtedy, gdy zweryfikowaliśmy, że interfejs graficzny jest dostępny, ponieważ w przeciwnym razie atrybut `ViewObject` nie istnieje, a użycie tego elementu jako danych wejściowych dla naszej klasy będzie błędem. 
 ```python
 import FreeCAD as App
 import objects.custom as custom
@@ -66,11 +68,13 @@ if App.GuiUp:
     view_custom.ViewProviderCustom(obj.ViewObject)
 ```
 
-## Custom icons 
 
-By implementing the `getIcon` method, you can specify the icon that will be shown in the [tree view](tree_view.md) in the upper part of the [combo view](combo_view.md).
 
-The return value can be the full path to an icon. 
+## Ikonki użytkownika 
+
+Implementując metodę `getIcon`, można zdefiniować ikonkę, która będzie wyświetlana w [widok drzewa](Tree_view/pl.md) w górnej części [widoku połączonego](Combo_view/pl.md).
+
+Wartością zwrotną może być pełna ścieżka do ikony. 
 ```python
 import os
 some_path = "/home/user/.FreeCAD/custom_icons"
@@ -82,7 +86,7 @@ class ViewProviderCustom:
         return os.path.join(some_path, "my_icon.svg")
 ```
 
-The relative path to an icon inside a compiled resource file. 
+Względna ścieżka do ikony w skompilowanym pliku zasobów. 
 ```python
 import MyModule_rc.py
 
@@ -93,7 +97,7 @@ class ViewProviderCustom:
         return ":/icons/my_icon.svg"
 ```
 
-A raw [XPM icon](https://en.wikipedia.org/wiki/X_PixMap), which is essentially ASCII art. 
+Nieobrobiona [Ikona XPM](https://en.wikipedia.org/wiki/X_PixMap), która jest zasadniczo grafiką ASCII. 
 ```python
 import MyModule_rc.py
 
@@ -130,7 +134,7 @@ class ViewProviderCustom:
                """
 ```
 
-See various examples in [Custom icon in tree view](Custom_icon_in_tree_view.md).
+Zobacz różne przykłady na stronie [Własna ikona w widoku drzewa](Custom_icon_in_tree_view/pl.md).
 
 
 

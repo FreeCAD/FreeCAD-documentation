@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Downgrade
-   MenuLocation: Modification , Downgrade
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Modification , Downgrade<br>Modify , Downgrade
+   Workbenches: Draft_Workbench, BIM_Workbench
    Shortcut: **D** **N**
    SeeAlso: Draft_Upgrade, Part_Cut
 ---
@@ -21,7 +21,8 @@ The <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Draft Dow
 1.  Optionally select one or more objects.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Downgrade.svg" width=16px> [Downgrade](Draft_Downgrade.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Downgrade.svg" width=16px> Downgrade** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Modification → <img src="images/Draft_Downgrade.svg" width=16px> Downgrade** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Modify → <img src="images/Draft_Downgrade.svg" width=16px> Downgrade** option from the menu.
     -   Use the keyboard shortcut: **D** then **N**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
 

@@ -6,7 +6,7 @@ Il existe une autre table des matières pour le [Manuel : Introduction à FreeCA
 <img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
 -   Introduction
-    -   [Bienvenue](Online_Help_Startpage/fr.md)
+    -   [Aide en ligne](Online_Help_Startpage/fr.md)
     -   [À propos de FreeCAD](About_FreeCAD/fr.md)
     -   [Fonctionnalités](Feature_list/fr.md)
     -   [Installation sous Windows](Installing_on_Windows/fr.md)
@@ -25,15 +25,17 @@ Il existe une autre table des matières pour le [Manuel : Introduction à FreeCA
 -   Les [Ateliers](Workbenches/fr.md)
 
 -   -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Outils standard pour tous les Ateliers](Std_Base/fr.md)
-    -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Atelier Arch](Arch_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> [Atelier Assembly](Assembly_Workbench/fr.md) ({{Version/fr|1.0}})
+    -   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> [Atelier BIM](BIM_Workbench/fr.md) (combine l\'atelier Arch et l\'atelier BIM externe disponible dans {{VersionMinus/fr|0.21}})
+    -   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> [Atelier CAM](CAM_Workbench/fr.md) (s\'appelait \"Atelier Path\" {{VersionMinus/fr|0.21}})
     -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Atelier Draft](Draft_Workbench/fr.md)
     -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [Atelier FEM](FEM_Workbench/fr.md)
     -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [Atelier Inspection](Inspection_Workbench/fr.md)
+    -   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> [Atelier Material](Material_Workbench/fr.md) ({{Version/fr|1.0}})
     -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Atelier Mesh](Mesh_Workbench/fr.md)
     -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [Atelier OpenSCAD](OpenSCAD_Workbench/fr.md)
     -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Atelier Part](Part_Workbench/fr.md)
     -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Atelier PartDesign](PartDesign_Workbench/fr.md)
-    -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Atelier Path](Path_Workbench/fr.md)
     -   <img alt="" src=images/Workbench_Plot.svg  style="width:32px;"> [Atelier Plot](Plot_Workbench/fr.md)
     -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [Atelier Points](Points_Workbench/fr.md)
     -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [Atelier Reverse Engineering](Reverse_Engineering_Workbench/fr.md)
@@ -61,7 +63,7 @@ Il existe une autre table des matières pour le [Manuel : Introduction à FreeCA
 -   Personnaliser FreeCAD
     -   [Personnaliser l\'interface](Interface_Customization/fr.md)
     -   [Réglage des préférences utilisateur](Preferences_Editor/fr.md)
-    -   [Réglage des préférences import-export](Import_Export_Preferences/fr.md)
+    -   [Réglage des préférences Importer/Exporter](Import_Export_Preferences/fr.md)
     -   [Démarrage et configuration](Start_up_and_Configuration/fr.md)
 
 -   [Script en Python](Scripting_and_macros/fr.md)
@@ -80,7 +82,7 @@ Il existe une autre table des matières pour le [Manuel : Introduction à FreeCA
     -   [Création d\'une boite de dialogue](Dialog_creation/fr.md)
 
 -   Développement
-    -   [Licence](Licence/fr.md)
+    -   [Licence](License/fr.md)
     -   Compiler FreeCAD
         -   [Compiler sous Windows](Compile_on_Windows/fr.md)
         -   [Compiler sous Linux](Compile_on_Linux/fr.md)

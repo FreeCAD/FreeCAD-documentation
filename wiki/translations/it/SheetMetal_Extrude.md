@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -36,6 +38,8 @@ If an outline sketch is added it creates **interlocking geometry** to close a pr
 
 *Three profiles with outline sketches to add → three results*
 
+
+
 ## Utilizzo
 
 ### Simple Extension 
@@ -53,11 +57,17 @@ Per estendere la faccia:
 
 ### Interlocking Extension 
 
-1.  Select one edge face to be extended.
-2.  Activate the <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **SheetMetal Extrude** command (see above).
-3.  Add a coplanar outline sketch to the property **Sketch**.
-4.  Set the property **Use Subtraction** to `True` to create cut-outs to make room for the extensions.
-5.  Set the property **Offset** to adjust the clearance around the extension.
+:   (Prepare a <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md) for interlocking tabs)
+
+1.  Select the edge face to be extended.
+2.  Invoke the command as described above.
+3.  Press the **OK** button to finish the command and close the Task panel.
+4.  In the [Property editor](Property_editor.md) press the **...** button of the **Sketch** property.
+5.  The Link dialog window opens.
+    -   Select the prepared sketch from the list
+    -   Press the **OK** button to close the dialog.
+6.  Set the property **Use Subtraction** to `True` to create cut-outs to make room for the extensions.
+7.  Set the property **Offset** to adjust the clearance around the extension.
 
 <img alt="" src=images/SheetMetal_Extrude-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-04.png  style="width:200px;">
 
@@ -126,22 +136,17 @@ Per estendere la faccia:
 
 -   The extension operation with a linked sketch may fail due to coplanar issues if the face on the sketch side and the face on the opposite side are coplanar, but with opposite orientations. A small offset may help in such a case.
 
+
+
 ## Proprietà
 
 See also: [Property editor](Property_editor.md).
 
-A SheetMetal Extend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+A SheetMetal Extend object is derived from a [Part Feature](Part_Feature.md) object or, if it is inside a [PartDesign Body](PartDesign_Body.md), from a [PartDesign Feature](PartDesign_Feature.md) object, and inherits all its properties. It also has the following additional properties:
+
+
 
 ### Dati
-
-
-{{Properties_Title|Base}}
-
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
-
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
-
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
 
 
 {{Properties_Title|Parameters}}

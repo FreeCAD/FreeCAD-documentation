@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -21,6 +23,8 @@
 
 
 </div>
+
+
 
 ## Применение
 
@@ -32,6 +36,24 @@
 
 
 </div>
+
+## Notes
+
+-   The [Std Import](Std_Import.md) command supports many more file formats.
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

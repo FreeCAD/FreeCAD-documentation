@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch MeshToShape
-   MenuLocation: Arch , Utilities , Mesh to Shape
-   Workbenches: Arch_Workbench
+   MenuLocation: Utils , Mesh to Shape
+   Workbenches: BIM_Workbench
    SeeAlso: Arch_SplitMesh, Arch_RemoveShape
 ---
 
@@ -10,14 +10,14 @@
 
 ## Description
 
-[Arch MeshToShape](Arch_MeshToShape.md) converts a selected [Mesh](Mesh.md) ([Mesh Feature](Mesh_Feature.md)) object into a [Shape](Shape.md) ([Part Feature](Part_Feature.md)) object.
+The **Arch MeshToShape** tool converts a selected [Mesh](Mesh.md) ([Mesh Feature](Mesh_Feature.md)) object into a [Shape](Shape.md) ([Part Feature](Part_Feature.md)) object.
 
 This tool is optimized for objects with flat faces (no curves). The corresponding tool **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
 
 ## Usage
 
 1.  Select a mesh object.
-2.  Press the **<img src="images/Arch_MeshToShape.svg" width=16px> [Mesh to Shape](Arch_MeshToShape.md)** entry in **Arch → Utilities → Mesh to Shape**.
+2.  Select the **Utils → <img src="images/Arch_MeshToShape.svg" width=16px> Mesh to Shape** option from the menu.
 
 ## Properties
 
@@ -30,7 +30,9 @@ This tool is optimized for objects with flat faces (no curves). The correspondin
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 new_obj = meshToShape(obj, mark=True, fast=True, tol=0.001, flat=False, cut=True)
 ```
@@ -47,7 +49,9 @@ The above code snippet converts the given `obj` (a mesh), into a shape, joining 
 
 -   If `cut` is `True`, holes in faces are made by subtraction.
 
-Example: 
+Example:
+
+
 ```python
 import Arch, Mesh, BuildRegularGeoms
 
@@ -62,5 +66,13 @@ new_obj = Arch.meshToShape(Box)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/en
+⏵ [documentation index](../README.md) > Arch MeshToShape/en

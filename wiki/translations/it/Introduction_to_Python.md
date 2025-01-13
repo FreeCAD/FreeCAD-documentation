@@ -46,7 +46,7 @@ L\'interprete Python ha anche un sistema di aiuto integrato. Diciamo che non cap
 
 
 ```python
-help("print")
+help(print)
 ```
 
 Si ottiene una lunga e completa descrizione di tutto quello che può fare il comando `print()`.

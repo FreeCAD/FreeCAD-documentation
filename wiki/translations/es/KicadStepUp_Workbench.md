@@ -1,95 +1,72 @@
-# KicadStepUp Workbench/es
-<div class="mw-translate-fuzzy">
-
-KicadStepUp Icono del ambiente de trabajo externo
+# <img alt="Icono del entorno de trabajo externo KicadStepUp" src=images/Kicad-StepUp-tools-WB.svg  style="width:64px;"> KicadStepUp Workbench/es
 
 
-</div>
 
 
 
 
 ## Introducción
 
-
-<div class="mw-translate-fuzzy">
-
-KicadStepUp ambiente de trabajo tiene como objetivo ayudar a los usuarios de KiCad y FreeCAD a colaborar en el diseño eléctrico (ECAD) y mecánico (MCAD).
+KicadStepUp es un entorno de trabajo que tiene como objetivo ayudar a los usuarios de KiCad y FreeCAD a colaborar en el diseño eléctrico (ECAD) y mecánico (MCAD).
 
 
-</div>
 
 ## Fondo
 
 
 <div class="mw-translate-fuzzy">
 
-Kicad ([website](https://kicad-pcb.org/)) es una suite de automatización del diseño electrónico de código abierto. Permite diseñar un circuito eléctrico y crear una placa de circuito de una o varias capas utilizando una amplia biblioteca de piezas. Lo mejor es que el uso de FreeCAD y KicadStepUp ambiente de trabajo es la forma oficial de Kicad para crear piezas 3D de componentes eléctricos para Kicad. Las bibliotecas están alojadas [aquí](https://kicad.github.io/), por lo que todo el mundo puede crear y comprobar las piezas.
+KiCad ([website](https://kicad-pcb.org/)) es una suite de automatización del diseño electrónico de código abierto. Permite al usuario diseñar un circuito eléctrico y después crear una placa de circuito (PCB) de una o varias capas utilizando una amplia biblioteca de piezas. Lo mejor es que el uso de FreeCAD con el entorno de trabajo KicadStepUp es la forma oficial de Kicad para crear piezas 3D de componentes electrónicos para Kicad. Las bibliotecas están alojadas [aquí](https://kicad.github.io/), por lo que todo el mundo puede crear y comprobar las piezas.
 
 
 </div>
+
+La filosofía de la interfaz gráfica de KiCad es un poco diferente en comparación con FreeCAD, especialmente cuando se trata de crear y mover elementos. Sin embargo, ya que Kicad se utiliza en la producción desde hace años hay una excelente documentación, por ejemplo, un documento muy bueno \"Cómo empezar\". Además, cada herramienta tiene su propio manual.
 
 
 <div class="mw-translate-fuzzy">
 
-La filosofía de la interfaz gráfica de KiCAD es un poco diferente en comparación con FreeCAD, especialmente cuando se trata de crear elementos y moverlos. Sin embargo, ya que Kicad se utiliza en la producción desde hace años hay una excelente documentación, por ejemplo, un documento muy bueno \"Cómo empezar\". Además, cada herramienta tiene su propio manual.
+Si uno no conoce todavía [KiCad](https://kicad.org/), se recomienda completar un PCB independiente de acuerdo con la [Guía de inicio](https://docs.kicad.org/8.0/en/getting_started_in_kicad/getting_started_in_kicad.html) para entender los conceptos involucrados. Aunque algunos temas como la adición de nuevos esquemas y huellas (Inglés:footprints) a una biblioteca local parecen ser de poco interés para el principiante, en la práctica se encuentran rápidamente después de comenzar un proyecto serio.
 
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-Si uno no conoce todavía [Kicad](https://kicad-pcb.org/), se recomienda completar un PCB autónomo de acuerdo con la [Guía de inicio](https://docs.kicad-pcb.org/5.1/en/getting_started_in_kicad/getting_started_in_kicad.pdf) para entender los conceptos involucrados. Aunque algunos temas como la adición de nuevos esquemas y huellas (Inglés:footprints) a una biblioteca local parecen ser de poco interés para el principiante, en la práctica se encuentran rápidamente después de comenzar un proyecto serio.
-
-Para todos estos conceptos [Kicad](https://kicad-pcb.org/) se puede encontrar una función de algún tipo en el ambiente de trabajo KicadStepUp. Por lo tanto, conocer estos conceptos hace que sea mucho más fácil de entender cómo utilizar este ambiente de trabajo.
+Para todos estos conceptos de [KiCad](https://kicad.org/) se puede encontrar una característica de algún tipo en el entorno de trabajo KicadStepUp. Entonces, conocerlos hace que sea mucho más fácil entender cómo usar este entorno de trabajo.
 
 
-</div>
-
-For all these [KiCad](https://kicad.org/) concepts one can find a feature of some sort in the KicadStepUp workbench. So knowing those makes it a lot easier to understand how to use this workbench.
 
 ## Características
 
 
 {{emphasis|En progreso}}
 
--   Load KiCad board and parts in FreeCAD and export it to STEP (or IGES) for a full ECAD MCAD collaboration
--   Load KiCad footprint in FreeCAD to easy and precisely align the mechanical model to KiCad footprint
--   Convert the STEP 3D model of parts, board, enclosure to VRML with Materials properties for the best use in KiCad
--   Check interference and collisions for enclosure and footprint design
--   Design a new PCB edge with the [Sketcher Workbench](Sketcher_Workbench.md) of FreeCAD and PUSH it to an existing KiCad PCB board
--   PULL a PCB edge from a KiCad PCB board, edit it in the Sketcher Workbench of FreeCAD and PUSH it back to KiCad
--   Design a new footprint in FreeCAD to get the power of Sketch in footprints
--   Generate Blender compatible VRML files
+-   Cargue la placa de KiCad y partes en FreeCAD y expórtelas a STEP (o IGES) para una colaboración ECAD MCAD completa.
+-   Cargue la huella de KiCad en FreeCAD para alinear de manera fácil y precisa el modelo mecánico con la huella de KiCad
+-   Convierta el modelo STEP 3D de partes, placas y gabinetes a VRML con propiedades de materiales para un mejor uso en KiCad.
+-   Verifique las interferencias y colisiones para el diseño del gabinete y la huella.
+-   Diseñe un nuevo borde de PCB con el [entorno de trabajo Sketcher](Sketcher_Workbench/es.md) de FreeCAD y ENVÍELO a una placa de PCB KiCad existente
+-   RECIBA un borde de PCB de una placa PCB KiCad, edítelo en Sketcher Workbench de FreeCAD y ENVÍE de nuevo a KiCad
+-   Diseñe una nueva huella en FreeCAD para obtener el poder de un croquis en las huellas
+-   Genere archivos VRML compatibles con Blender
 
 <img alt="" src=images/ECAD-MCAD-collaboration.png  style="width:800px;">
 
+
+
 ## Instalación
 
-
-<div class="mw-translate-fuzzy">
-
-KicadStepUp es parte de los [Ambientes de trabajo externos](external_workbenches/es.md), y puede instalarse automáticamente usando el <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestor de complementos de FreeCAD](Std_AddonMgr/es.md) que viene incluido con FreeCAD 0.17, en el menú **Herramientas → Gestor de complementos**.
+KicadStepUp es parte de los [entornos de trabajo externos](External_workbenches/es.md), y puede instalarse automáticamente usando el <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestor de complementos de FreeCAD](Std_AddonMgr/es.md) que viene incluido con FreeCAD 0.17 en adelante, en el menú **Herramientas → Administrador de complementos**.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-## Utilización
+## Uso
 
 
 {{emphasis|En progreso}}
 
 
-</div>
 
-
-{{emphasis|In progress}}
-
-### General Approach 
+### Enfoque general 
 
 The basic idea of KicadStepUp is to synchronize data between the two applications. For home use you might have FreeCAD and KiCad running at the same time. Professional users can work on the same files (e.g. on a central server) and have specialists on mechanical CAD (MCAD) working in FreeCAD and electronics experts on electrical CAD (ECAD).
 
@@ -98,7 +75,9 @@ KicadStepUp will convert standard FreeCAD files to KiCad files and vice versa. T
 It\'s important to note that the differences between the two programs impose some difficulties for a full data exchange.
 One example is that the Sketcher used in KiCad to define the board outline is very limited compared to the Sketcher Workbench of FreeCAD. So in order to synchronize back and forth, the sketch content cannot be more complex than the KiCad Sketcher can handle. From a FreeCAD point of view, that means you may want to avoid using some of the FreeCAD sketch features. KicadStepUp offers workarounds that might be more difficult to understand if you do not have this background.
 
-### Basic Workflow 
+
+
+### Flujo de trabajo básico 
 
 A collaboration can be started with a new or an existing project. We consider here a new project to keep things simple:
 
@@ -123,7 +102,7 @@ A collaboration can be started with a new or an existing project. We consider he
 9.  Go over the circle with the mouse and press *m* on the keyboard to move the circle. Click to place it in another position. Press the \"Save\" toolbar button on the top left.
 10. Switch to FreeCAD and select in the KicadStepUp Workbech the tool button \"Pull Sketch from PCB\" or the menu *ksu PushPull/ksu Pull Sketch from PCB*
     -   first dialog with default layer \"Edge.Cuts\" and three choices will open. Select choice \"replace PCB and Sketch in current document\" \*\*\*
-    -   next a file dialog should show again the file \"KsuTest.kucad_pcb\". Select it and press *Open*
+    -   next a file dialog should show again the file \"KsuTest.kicad_pcb\". Select it and press *Open*
 
         :   You should see your PCB as a 3D model. Note that the hole has moved compared to your \"pcb design\" sketch.
         :   In the tree appears a new structure with a yellow *Part Container* with the KiCad Filename and within another *Part Container* with \"Board_Geoms_e63b\" (the part with the number probably different). In the second container there are the following three files. Do not change any names in that structure, because KicadStepUp uses them to find the parts to update.
@@ -156,22 +135,20 @@ This only shows the very basic way KicadStepUp works. You are still missing a lo
 
     :   The second choice has the advantage that changes in KiCad can be traced to the original sketch, and the FreeCAD sketch is protected against an accidentally wrong import choice. The described workflow uses this approach to make sure the issue is well understood. From there it\'s easy to switch to modifying the KicadStepUp supplied sketch with none of the more advanced FreeCAD features.
 
-    -   To use KicadStepUp with a FreeCAD assembly (\> V0.19) you could add a new file for the PCB. After the workflow above has been run once add the 3D object for the PCB to your assembly like any other mechanical part. Make sure you save the file when it was updated by KicadStepUp (Important: KicadStepUp writes to FreeCAD memory, not to FreeCAD files).
+    -   To use KicadStepUp with a FreeCAD Assembly (\> V0.19) you could add a new file for the PCB. After the workflow above has been run once add the 3D object for the PCB to your assembly like any other mechanical part. Make sure you save the file when it was updated by KicadStepUp (Important: KicadStepUp writes to FreeCAD memory, not to FreeCAD files).
 
 \'\'
 
-
-<div class="mw-translate-fuzzy">
-
-Consulte la [kicadStepUp ficha de ayuda](https://github.com/easyw/kicadStepUpMod/blob/master/demo/kicadStepUp-cheat-sheet.pdf) para conocer las demás características.
+Consulte la [ficha de ayuda de KicadStepUp](https://github.com/easyw/kicadStepUpMod/blob/master/demo/kicadStepUp-cheat-sheet.pdf) para conocer las demás características.
 
 
-</div>
 
 ## Referencias
 
 -   Autor: Github: [\@easyw](https://github.com/easyw) \| Foros de FreeCAD: [kicad StepUp: Colaboración bidireccional ECAD MCAD](https://forum.freecadweb.org/viewtopic.php?f=24&t=14276)
 -   Código fuente en GitHub: <https://github.com/easyw/kicadStepUpMod>
+
+
 
 ## Nota al margen sobre los ambientes de trabajo externos 
 
@@ -179,7 +156,7 @@ Los ambientes de trabajo de FreeCAD son fáciles de programar en [Python](Python
 
 La página [Ambientes de trabajo externos](external_workbenches/es.md) tiene información y tutoriales sobre algunos de ellos, y el proyecto [FreeCAD Complementos](https://github.com/FreeCAD/FreeCAD-addons) pretende reunirlos y hacerlos fácilmente instalables desde FreeCAD.
 
-Nuevos ambientes de trabajo están en desarrollo, esté atento!
+Nuevos ambientes de trabajo están en desarrollo, ¡esté atento!
 
 
 

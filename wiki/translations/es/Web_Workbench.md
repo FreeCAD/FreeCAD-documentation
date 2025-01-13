@@ -7,7 +7,12 @@
 
 </div>
 
+
+**The '''Web Workbench''' is no longer included after version 0.21.**
+
 <img alt="El icono del Ambiente de trabajo Web" src=images/Workbench_Web.svg  style="width:128px;">
+
+
 
 ## Introducción
 
@@ -64,4 +69,4 @@ The Web Workbench offers the following tools:
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/es
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/es

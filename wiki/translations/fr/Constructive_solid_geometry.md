@@ -1,7 +1,7 @@
 # Constructive solid geometry/fr
 ## Introduction
 
-La [Géométrie de construction de solides](https://fr.wikipedia.org/wiki/Géométrie_de_construction_de_solides) (**CSG** en anglais) est un paradigme de modélisation utilisé dans de nombreux systèmes de CAO traditionnels. Cela consiste essentiellement à utiliser des objets solides primitifs et à effectuer des opérations booléennes, telles que la fusion, la soustraction et l\'intersection, afin de créer une forme finale.
+La [géométrie de construction de solides](https://fr.wikipedia.org/wiki/Géométrie_de_construction_de_solides) (**CSG** en anglais) est un paradigme de modélisation utilisé dans de nombreux systèmes de CAO traditionnels. Cela consiste essentiellement à utiliser des objets solides primitifs et à effectuer des opérations booléennes, telles que la fusion, la soustraction et l\'intersection, afin de créer une forme finale.
 
 Dans FreeCAD, cette méthode est principalement utilisée avec l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md), qui permet de créer des objets primitifs tels que des <img alt="" src=images/Part_Box.svg  style="width:24px;"> [boîtes](Part_Box/fr.md), des <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [cylindres](Part_Cylinder/fr.md), des <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> [sphères](Part_Sphere.md), et de les fusionner, ou de les utiliser pour couper d\'autres objets avec des outils tels que **<img src="images/Part_Cut.svg" width=24px> [Part Soustraction](Part_Cut/fr.md)**.
 

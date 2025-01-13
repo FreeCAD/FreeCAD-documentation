@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft AnnotationStyleEditor
-   Name/fr: Draft Éditeur de styles d'annotations
-   MenuLocation: Annotation , Éditeur de styles d'annotations...
-   Workbenches: Draft_Workbench/fr
+   Name/fr: Draft Éditer le style des annotations
+   MenuLocation: Draft : Annotation , Éditer le style des annotations...<br><br>BIM : Gestion , Éditer le style des annotations...
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    SeeAlso: Draft_Text/fr, Draft_Label/fr, Draft_Dimension/fr
    Version: 0.19
 ---
@@ -12,19 +12,20 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:24px;"> **Draft Éditeur de styles d\'annotations** vous permet de définir des styles qui affectent les propriétés visuelles des objets de type annotation, comme ceux créés par les commandes [Draft Texte](Draft_Text/fr.md), [Draft Dimension](Draft_Dimension/fr.md) et [Draft Étiquette](Draft_Label/fr.md).
+La commande <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:24px;"> **Draft Éditer le style des annotations** vous permet de définir les styles qui affectent les propriétés visuelles des objets annotation, comme ceux créés par les commandes [Draft Texte](Draft_Text/fr.md), [Draft Dimension](Draft_Dimension/fr.md) et [Draft Étiquette](Draft_Label/fr.md).
 
 ![](images/Draft_AnnotationStyleEditor_Dialog.png ) 
-*La boîte de dialogue de l'Éditeur de styles d'annotation*
+*La fenêtre de dialogue de l'Éditeur du style des annotations*
 
 
 
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> [Éditeur de styles d'annotations...](Draft_AnnotationStyleEditor/fr.md)**.
-    -   Sélectionnez l\'option **Annotation → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Éditeur de styles d'annotation...** du menu.
-2.  La boîte de dialogue **Éditeur de styles d'annotation** s\'ouvre.
+    -   [Draft](Draft_Workbench/fr.md): appuyez sur le bouton **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> [Éditer le style des annotations...](Draft_AnnotationStyleEditor/fr.md)**.
+    -   Draft : sélectionnez l\'option **Annotation → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Éditer le style des annotations...** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionnez l\'option **Gestion → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Éditer le style des annotations...** du menu.
+2.  La boîte de dialogue **Éditeur du style des annotations** s\'ouvre.
 3.  Sélectionnez un style dans la liste déroulante **Nom du style** ou choisissez {{Value|Ajouter nouveau...}} pour définir un nouveau style.
 4.  Vous pouvez également ajuster les propriétés du style.
 5.  Vous pouvez également appuyer sur le bouton **[<img src=images/Accessories-text-editor.svg style="width:16px"> Renommer** pour renommer le style.
@@ -32,6 +33,15 @@ La commande <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width
 7.  Vous pouvez également appuyer sur le bouton **[<img src=images/Std_Import.svg style="width:16px">** pour importer tous les styles d\'un fichier **.json**. Cela écrasera les styles existants portant le même nom.
 8.  Vous pouvez également appuyer sur le bouton **[<img src=images/Std_Export.svg style="width:16px">** pour exporter tous les styles vers un fichier **.json**.
 9.  Appuyez sur le bouton **OK** pour fermer la boîte de dialogue et terminer la commande.
+
+
+
+## Application
+
+Pour appliquer un style d\'annotation, modifiez la propriété **Annotation Style** des objets d\'annotation. Cette propriété se trouve dans l\'onglet **Vue** de l\'[éditeur de propriétés](Property_editor/fr.md).
+
+![](images/Draft_AnnotationStyleEditor_Apply.png ) 
+*Sélection d'un style d'annotation*
 
 
 

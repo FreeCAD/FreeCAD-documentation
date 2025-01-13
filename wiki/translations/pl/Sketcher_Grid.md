@@ -13,7 +13,7 @@
 
 ## Opis
 
-Polecenie **Przełącz widoczność siatki** włącza / wyłącza widoczność siatki w aktualnie edytowanym szkicu. Ustawienia można zmienić w powiązanym menu.
+Narzędzie <img alt="" src=images/Sketcher_Grid.svg  style="width:16px;"> **Przełącz widoczność siatki** włącza / wyłącza widoczność siatki w aktualnie edytowanym szkicu. Ustawienia można zmienić w powiązanym menu.
 
 
 

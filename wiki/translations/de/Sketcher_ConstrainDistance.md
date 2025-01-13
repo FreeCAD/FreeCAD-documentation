@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Die Randbedingung **AbstandFestlegen** legt die Länge einer Linie, den senkrechten Abstand eines Punktes zu einer Linie, den Abstand zwischen zwei Punkten und, {{Version/de|0.21}}, den Abstand zwischen zwei Kreiskurven oder zwischen einem Kreis und einer linie fest.
+Das Werkzeug <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;"> [Abstand festlegen](Sketcher_ConstrainDistance/de.md): Legt die Länge einer Linie, den Abstand zwischen zwei Punkten, den senkrechten Abstand eines Punktes zu einer Linie fest; oder {{Version/de|0.21}} den Abstand zwischen den Kanten zweier Kreise oder Kreisbögen oder zwischen der Kante eines Kreises oder Kreisbogens und einer Linie; oder {{Version/de|1.0}} die Länge eines Kreisbogens.
 
 ![](images/Sketcher_ConstrainDistance_example.png )
 
@@ -22,20 +22,59 @@ Die Randbedingung **AbstandFestlegen** legt die Länge einer Linie, den senkrech
 
 ## Anwendung
 
-1.  Eine Linie, einen Punkt und eine Linie, zwei Punkte, zwei Kreiskurven oder eine Kreiskurve und eine linie auswählen.
-2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **[<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Abstand festlegen](Sketcher_ConstrainDistance/de.md)** in der Sketcher-Werkzeugleiste drücken.
-    -   Das Tastaturkürzel **K** dann **D**.
-    -   Den Menüeintrag **Sketch → Skizzen-Beschränkungen  → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Abstand festlegen** auswählen.
-3.  Ein Dialogfeld wird geöffnet, um den Wert zu bearbeiten oder zu bestätigen. Zum Bestätigen **OK** drücken.
-
-**Hinweis**: Das Werkzeug kann auch ohne vorherige Auswahl gestartet werden (außer bei Kreis-zu-Kreis- und Kreis-zu-Linie-Auswahl). Um den lotrechten Abstand zwischen einem Punkt und einer Linie festzulegen muss der Punkt zuerst ausgewählt werden. Standardmäßig befindet sich der Befehl im Fortsetzungsmodus, um neue Randbedingungen zu erstellen; ein Druck auf die rechte Maustaste oder auf Esc beendet den Befehl.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
 
 
-### Hinweis
+### [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md) 
 
-Wenn es passt, sollte die Verwendung von **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [XAbstandFestlegen](Sketcher_ConstrainDistanceX/de.md)** oder **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [YAbstandFestlegen](Sketcher_ConstrainDistanceY/de.md)** erwägt werden. Diese Randbedingungen sind robuster und schneller zu berechnen als das Werkzeug **AbstandFestlegen**.
+1.  Sicherstellen, dass nichts ausgewählt ist.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   
+        {{Version/de|1.0}}
+        
+        : Ist die [Voreinstellung](Sketcher_Preferences/de#Allgemein.md) **Werkzeuge für Maßeinträge** auf {{Value|Einzelnes Werkzeug}} (Standardeinstellung) gesetz: Den Abwärtspfeil rechts neben der Schaltfläche **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** drücken und im Ausklappmenü **<img src="images/Sketcher_ConstrainDistance.svg" width=16px> Abstand festlegen** auswählen.
+
+    -   Hat die Voreinstellung einen anderen Wert (und in {{VersionMinus/de|0.21}}): Die Schaltfläche **<img src="images/Sketcher_ConstrainDistance.svg" width=16px> [Abstand festlegen](Sketcher_ConstrainDistance/de.md)** drücken.
+
+    -   Den Menüeintrag **Skizze → Sketcher-Randbedingungen → <img src="images/Sketcher_ConstrainDistance.svg" width=16px> Abstand festlegen** auswählen.
+
+    -   
+        {{Version/de|1.0}}
+        
+        : Ein Rechtsklick in die [3D-Ansicht](3D_view/de.md) und die Menüoption **Bemaßung → <img src="images/Sketcher_ConstrainDistance.svg" width=16px> Abstand festlegen** im Kontextmenü auswählen.
+
+    -   Das Tastaturkürzel **I**.
+3.  Für weitere Schritte siehe [Sketcher XAbstandFestlegen](Sketcher_ConstrainDistanceX/de#Fortsetzen-Modus.md).
+
+
+
+### Einmal-Ausführen-Modus 
+
+1.  Eine der folgenden Möglichkeiten auswählen:
+    -   Eine einzelne Linie auswählen.
+
+    -   Zwei Punkte auswählen.
+
+    -   Einen Punkt und eine Linie auswählen (in beliebiger Reihenfolge).
+
+    -   Die Kanten zweier Kreise oder Kreisbögen auswählen.
+
+    -   Eine Kante eines Kreises oder Kreisbogens und eine Linie auswählen (in beliebiger Reihenfolge).
+
+    -   
+        {{Version/de|1.0}}
+        
+        : Die Kante eines einzelnen Kreisbogens auswählen.
+2.  Das Werkzeug aufrufen, wie oben beschrieben.
+3.  Wahlweise den [Wert der Randbedingung](Sketcher_Workbench/de#Randbedingungen_bearbeiten.md) bearbeiten.
+4.  Eine Randbedingung wird hinzugefügt.
+
+
+
+## Hinweise
+
+-   Wenn es passt, sollte die Verwendung der Randbedingungen [XAbstandFestlegen](Sketcher_ConstrainDistanceX/de.md) oder [YAbstandFestlegen](Sketcher_ConstrainDistanceY/de.md) erwägt werden; sie sind effizienter.
 
 
 

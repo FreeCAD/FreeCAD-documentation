@@ -37,7 +37,7 @@ La géométrie de base peut appartenir à des courbes créées avec l\'[atelier 
 
 [Surface Fusion de courbes](Surface_BlendCurve/fr.md) (classe `Surface::Filling`) est dérivée de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature` via la sous-classe `Part::Spline`), elle partage donc toutes les propriétés de cette dernière.
 
-Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surface Fusion de courbes a les propriétés suivantes dans l\'[éditeur de propriétés](property_editor/fr.md).
+Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surface Fusion de courbes a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
 
 
 
@@ -46,7 +46,7 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 
 {{TitleProperty|Blend Curve}}
 
--    **Start Edge|LinkSub**: premier bord d\'entrée.
+-    **Start Edge|LinkSub**: première arête à rentrer.
 
 -    **Start Continuity|Integer**: valeur de continuité géométrique
 
@@ -54,7 +54,7 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 
 -    **Start Size|Float**: taille de la tangente.
 
--    **End Edge|LinkSub**: deuxième arête d\'entrée.
+-    **End Edge|LinkSub**: deuxième arête à rentrer.
 
 -    **End Continuity|Integer**: valeur de continuité géométrique
 
@@ -82,7 +82,7 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 
 L\'outil Fusion de courbes peut être utilisé dans les [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en ajoutant l\'objet `Surface::FeatureBlendCurve`.
 
--   Les arêtes à utiliser pour définir la courbe doivent être assignées en tant que [LinkSub](LinkSub/fr.md) aux propriétés `StartEdge` et `EndEdge` de l\'objet.
+-   Les arêtes à utiliser pour définir la courbe doivent être assignées en tant que [LinkSub](FeaturePython_Custom_Properties/fr#App:_PropertyLinkSub.md) aux propriétés `StartEdge` et `EndEdge` de l\'objet.
 -   Tous les objets dotés d\'arêtes doivent être calculés avant de pouvoir être utilisés comme entrée pour les propriétés de l\'objet Fusion de courbes.
 
 

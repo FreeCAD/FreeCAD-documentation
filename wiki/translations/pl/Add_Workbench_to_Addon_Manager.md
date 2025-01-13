@@ -1,7 +1,7 @@
 # Add Workbench to Addon Manager/pl
 ## Wprowadzenie
 
-Przedstawiono tutaj instrukcje krok po kroku, jak dodać środowisko pracy Python do [Menadżera dodatków](Std_AddonMgr/pl.md).
+Przedstawiono tutaj instrukcje krok po kroku, jak dodać środowisko pracy zakodowane w Python do [Menadżera dodatków](Std_AddonMgr/pl.md).
 
 -   Lokalne repozytorium Git.
 -   Zdalne repozytorium Git. Obsługiwane hosty git to [GitHub](https://github.com), [GitLab](https://about.gitlab.com/), [Framagit](https://framagit.org/public/projects) i [Debian Salsa](https://salsa.debian.org/public).

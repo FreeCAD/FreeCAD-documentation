@@ -1,11 +1,11 @@
 ---
  GuiCommand:
    Name: Sketcher ToggleConstruction
-   Name/de: Sketcher UmschalterKonstruktion
-   MenuLocation: Skizze , Skizzengeometrien , Umschalten der Hilfsgeometrie
+   Name/de: Sketcher HilfsgeometrieUmschalten
+   MenuLocation: Skizze , Skizzengeometrien , Hilfsgeometrie umschalten
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **N**
-   SeeAlso: Sketcher_ToggleDrivingConstraint/de
+   SeeAlso: 
 ---
 
 # Sketcher ToggleConstruction/de
@@ -14,13 +14,9 @@
 
 ## Beschreibung
 
-Dieses Werkzeug schaltet Skizzengeometrie in den Konstruktionsmodus um oder wieder zurück. Es beeinflusst sämtliche Geometrien.
+Das Werkzeug <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:24px;"> [Sketcher HilfsgeometrieUmschalten](Sketcher_ToggleConstruction/de.md) aktiviert bzw. deaktiviert den Konstruktionsmodus für alle Werkzeuge zur Geometrieerstellung oder es wandelt ausgewählte normale Geometrie in Hilfsgeometrie und umgekehrt.
 
-Die Konstruktionsgeometrie ist ein wichtiges Werkzeug des Sketchers. Wenn eine Skizze für eine 3D-Funktion verwendet wird, wird die Konstruktionsgeometrie ignoriert.
-
-Im **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Bearbeitungsmodus](Sketcher_EditSketch/de.md)** wird die Konstruktionsgeometrie blau dargestellt und wird nicht grün, wenn eine Skizze vollständig bestimmt ist. Sobald **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px">[Skizze verlassen](Sketcher_LeaveSketch/de.md)** ausgewählt wird, wird die Konstruktionsgeometrie in der [3D-Ansicht](3D_view/de.md) ausgeblendet.
-
-Konstruktionslinien können von der Funktion **[<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Drehteil](PartDesign_Revolution/de.md)** als Drehachse verwendet werden.
+Hilfsgeometrie wird mit einer bestimmten [Farbe](Sketcher_Preferences/de#Darstellung.md) (standardmäßig Blau) gekennzeichnet und ({{Version/de|1.0}}) mit einer bestimmten Linienart. Hilfsgeometrie ist außerhalb der Skizze nicht sichtbar; sie ist dafür gedacht, bei der Festlegung von Randbedingungen und anderen Geometrien innerhalb der Skizze zu helfen. Hilfslinien können trotzdem als Drehachse für ein [PartDesign Drehteil](PartDesign_Revolution/de.md) verwendet werden.
 
 <img alt="" src=images/Sketcher_ConstructionMode_fr_01.png  style="width:480px;">
 
@@ -28,31 +24,32 @@ Konstruktionslinien können von der Funktion **[<img src=images/PartDesign_Revol
 
 ## Anwendung
 
-Dieses Werkzeug kann auf zwei Arten verwendet werden:
-
-1.  Ohne etwas in der [3D-Ansicht](3D_view/de.md) ausgewählt zu haben:
-    -   Den Bearbeitungsmodus aufrufen durch Anklicken der Schaltfläche **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Hilfsgeometrie umschalten](Sketcher_ToggleConstruction/de.md)** oder durch Auswahl des Menüeintrags **Skizze → Skizzengeometrien → [<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> Hilfsgeometrie umschalten**.
-    -   Dies ändert die Farbe für die Ertstellung neuer Geometrieelemente auf Blau.
-    -   Neue Geometrieelemente werden jetzt im Konstruktionsmodus erstellt.
-2.  Mit einem oder mehreren in der [3D-Ansicht](3D_view/de.md) ausgewählten Geometrieelementen:
-    -   Das Werkzeug aufrufen durch Anklicken der Schaltfläche **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Hilfsgeometrie umschalten](Sketcher_ToggleConstruction/de.md)** oder durch Auswahl seines Menüeintrags.
-    -   Die ausgewählten Elemente werden jetzt in den Konstruktionsmodus versetzt.
-    -   Danach werden neue Elemente wieder als normale Geometrie erstellt.
 
 
+### Werkzeuge umschalten 
 
-## Hinweise
-
--    **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Punkt erstellen](Sketcher_CreatePoint/de.md)**wird immer Punkte im Konstruktionsmodus erstellen unabhängig von der Einstellung des Umschalters in der Symbolleiste. Sollen Punkte in normale Geometrie gewandelt werden, wählt man sie nach der Erstellung in der [3D-Ansicht](3D_view/de.md) aus und klickt dann auf die Schaltfläche **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Hilfsgeometrie umschalten](Sketcher_ToggleConstruction.md)**.
-
-
-<div class="mw-translate-fuzzy">
+1.  Sicherstellen, dass die Auswahl leer ist.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Hilfsgeometrie umschalten](Sketcher_ToggleConstruction/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Skizzengeometrien → <img src="images/Sketcher_ToggleConstruction.svg" width=16px> Hilfsgeometrie umschalten** auswählen.
+    -   Ein Rechtsklick in die [3D-Ansicht](3D_view/de.md) und die Menüoption **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> Hilfsgeometrie umschalten** im Kontextmenü auswählen.
+    -   Das Tastaturkürzel **G** dann **N**.
+3.  Der Modus der Werkzeuge zur Geometrieerstellung wird umgeschaltet:
+    -   Im normalen Modus sind ihre Menü- und Werkzeugleistensymbole weiß und sie erstellen normale Geometrie (Standardfarbe Weiß). Das Symbol dieses Werkzeugs ist dann: <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:16px;">.
+    -   Im Hilfsgeometrie-Modus (Konstruktionsmodus) sind ihre Menü- und Werkzeugleistensymbole blau und sie erstellen Hilftgeometrie (Standardfarbe Blau). Das Symbol dieses Werkzeugs ist dann: <img alt="" src=images/Sketcher_ToggleConstruction_Constr.svg  style="width:16px;">.
 
 
 
+### Geometrie umschalten 
+
+1.  Ein oder mehrere Elemente in der Skizze auswählen.
+2.  Das Werkzeug wie oben beschrieben aufrufen oder mit der folgenden zusätzlichen Möglichkeit:
+    -   Ein Rechtsklick in den Abschnitt **Elemente** des [Sketcher-Dialogs](Sketcher_Dialog/de.md) und die Menüoption **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> Hilfsgeometrie umschalten** im Kontextmenü auswählen.
+3.  Die ausgewählten Elemente wechseln von normaler Geometrie zu Hilfsgeometrie oder umgekehrt. Ihre Darstellung passt sich entsprechend an.
+4.  Der Modus der Werkzeuge zur Geometrieerstellung ändert sich nicht.
 
 
-</div>
+
 
 
 {{Sketcher_Tools_navi

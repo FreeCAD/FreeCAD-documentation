@@ -1,5 +1,5 @@
 # Third Party Libraries/pl
-## Przegląd
+## Informacje ogólne 
 
 Są to biblioteki, których FreeCAD używa jako zależności od innych dostawców podczas kompilacji. Zazwyczaj są to \[<https://en.wikipedia.org/wiki/Dynamic_loading>. Biblioteki dynamicznie łączone\] i mają rozszerzenie `.so` w Linuksie/MacOSie i `.dll` w Windowsie, a towarzyszą im pliki nagłówkowe `.h` lub `.hpp` lub podobne. Jeśli potrzebna jest zmodyfikowana biblioteka lub klasa opakowująca, kod zmodyfikowanej biblioteki lub klasy opakowującej musi stać się częścią kodu źródłowego programu FreeCAD i zostać razem z nim skompilowany.
 
@@ -69,6 +69,8 @@ Jeśli kompilujesz w systemie Windows, rozważ użycie [paczki bibliotek](#LibPa
 
 ## Szczególy
 
+
+
 ### Python
 
 **Wersja:** 3.3 lub nowsza
@@ -84,7 +86,7 @@ Python to popularny uniwersalny język skryptowy, który jest szeroko stosowany 
 -   tworzenia [makrodefinicji](macros/pl.md) i nagrywania makrodefinicji,
 -   implementacji logiki aplikacji dla pakietów standardowych,
 -   implementacji narzędzi pomocniczych, takich jak [Menadżer dodatków](Std_AddonMgr/pl.md),
--   implementacji całych środowisk pracy, takich jak [Rysunek Roboczy](Draft_Workbench/pl.md) i [Architektura](Arch_Workbench/pl.md),
+-   implementacji całych środowisk pracy, takich jak [Rysunek Roboczy](Draft_Workbench/pl.md) i [BIM](BIM_Workbench/pl.md),
 -   dynamicznego ładowania pakietów,
 -   implementacji reguł projektowania *(inżynieria wiedzy)*,
 -   wykonywania wymyślnych interakcji internetowych, takich jak grupy robocze i PDM.
@@ -149,6 +151,8 @@ Qt jest jednym z najpopularniejszych zestawów narzędzi graficznego interfejsu 
 
 Więcej informacji o bibliotekach Qt i ich dokumentacji programistycznej można znaleźć na stronie [Qt Documentation](https://doc.qt.io/?hsCtaTracking=f641fd1a-772b-4957-964b-dad954b8d702%7C46c97dac-f1f6-49b3-ae46-8070fc35ea13).
 
+
+
 #### Shiboken2 i Pyside2 
 
 Shiboken jest generatorem wiązań Python, którego Qt dla Python używa do tworzenia modułu PySide, innymi słowy, jest to system używany do eksponowania API Qt C++ na język Python.
@@ -186,6 +190,8 @@ Coin3D jest przenośny na szeroką gamę platform: UNIX, Linux, BSD, MacOS X ora
 SoQt jest powiązaniem Coin3D *(Open Inventor)* z zestawem narzędzi GUI Qt.
 
 SoQt nie jest już używany w programie FreeCAD, został zastąpiony przez Quarter, który jest nowszą oprawą Qt.
+
+
 
 #### Quarter
 
@@ -283,7 +289,9 @@ Kopia tej biblioteki jest dołączona do kodu źródłowego programu FreeCAD, wi
 
 Libarea to biblioteka oprogramowania do obliczania profili i operacji kieszeni, które są używane w oprogramowaniu do komputerowego wspomagania wytwarzania *(CAM)*. Została ona stworzona przez Dana Heeksa dla jego projektu HeeksCNC.
 
-Kopia biblioteki jest dołączona do kodu źródłowego środowiska pracy [Path](Path_Workbench/pl.md), więc jest kompilowana razem z nim.
+Kopia biblioteki jest dołączona do kodu źródłowego środowiska pracy [CAM](CAM_Workbench/pl.md), więc jest kompilowana razem z nim.
+
+
 
 ## LibPack
 

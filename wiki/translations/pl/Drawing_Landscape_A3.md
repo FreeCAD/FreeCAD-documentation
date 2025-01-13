@@ -12,9 +12,11 @@ Jeśli strona nie jest wyświetlana, kliknij na ikonę odświeżania <img alt=""
 
 <img alt="" src=images/Drawing_Page.png  style="width:500px;">
 
+
+
 ### Możliwości
 
--   Szablon używany przez stronę może zostać zmieniony poprzez **właściwości Szablonu** w widoku danych. Kliknij na pole wartości, a następnie na przycisk **...** i przejdź do [odpowiedniego szablonu](Drawing_templates.md). Następnie należy odświeżyć widok.
+-   Szablon używany przez stronę może zostać zmieniony poprzez **właściwości Szablonu** w widoku danych. Kliknij na pole wartości, a następnie na przycisk **...** i przejdź do odpowiedniego szablonu. Następnie należy odświeżyć widok.
 
 
 

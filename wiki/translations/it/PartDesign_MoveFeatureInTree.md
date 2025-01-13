@@ -15,6 +15,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -24,6 +26,8 @@
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -38,9 +42,17 @@
 
 </div>
 
+## Example
+
+
+<div class="mw-translate-fuzzy">
+
 ## Esempio
 
 Le tre immagini seguenti mostrano lo stesso modello con una tasca definita da uno schizzo associato al piano di Riferimento. Le funzioni vengono riordinate da un\'immagine all\'altra. Questo fa si che la tasca non abbia fori, oppure i fori siano prodotti su differenti pad, a seconda dell\'ordine delle funzioni nell\'albero del modello.
+
+
+</div>
 
 ![](images/PD_move_feature0.png ) ![](images/Hole_Pad002.png ) ![](images/PD_move_feature2.png )
 

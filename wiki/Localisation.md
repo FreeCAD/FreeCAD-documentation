@@ -67,7 +67,7 @@ When the wiki moved away from SourceForge, [Yorik](User_Yorik.md) installed [Med
 
 The tool is documented in [Help:Extension:Translate](http://www.mediawiki.org/wiki/Help:Extension:Translate), and is part of [MediaWiki Language Extension Bundle](http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle).
 
-To quickly get started on preparing a page for translation, please read the [Page translation example](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example). Essentially, a pair of
+To quickly get started on preparing a page for translation, please read the [Page translation example](http://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example). A pair of tags need to surround the entire page to activate the translation system:
 
 
 
@@ -75,7 +75,7 @@ To quickly get started on preparing a page for translation, please read the [Pag
 
 
 
-tags need to surround the entire page to activate the translation system, and the page needs to be marked for translation.
+The page also needs to be marked for translation.
 
 To see an example of how the translation tool works, visit the [Main Page](Main_Page.md). You will see an automatically generated language bar at the top. Click on [Deutsch](Main_Page/de.md) (German), it will get you to [Main Page/de](Main_Page/de.md). Right under the title, \"Hauptseite\" (in English \"Main Page\"), you can read , XX being the current percentage of translation. Click on \"Translate\" at the top of the page to start the translation utility to update, correct and review the existing translation.
 
@@ -166,10 +166,6 @@ Everything after this is automatic as far as a developer is concerned. The admin
 3rd party modules or macros are translated in much the same fashion, except that you must do some of the work yourself. This [forum discussion](https://www.forum.freecadweb.org/viewtopic.php?f=3&t=25180) describes the details.
 
 Update: see [Translating an external workbench](Translating_an_external_workbench.md)
-
-### Older module translation techniques 
-
-[Localization Older Methods](Localization_Older_Methods.md) describes the use of translation tools such as Qt Linguist, lupdate, lrelease, pylupdate4, etc in detail. Most of this is no longer required for FreeCAD/master modules, but may be helpful preparing and updating 3rd party modules.
 
 ## Automating Crowdin Translation Updates 
 

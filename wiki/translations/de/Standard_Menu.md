@@ -40,7 +40,7 @@ Das Standardmenü besteht aus 7 Untermenüs:
 -   Das Menü {{StdMenu|[Hilfe](Std_Help_Menu/de.md)}} bietet Zugriff auf das Hilfesystem und Verweise zur FreeCAD-Webseite und zum Forum.
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}  {{Interface navi}}
 

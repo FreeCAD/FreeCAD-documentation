@@ -13,7 +13,7 @@ This repository contains a library of Parts to be used in FreeCAD. It is maintai
 
 ## Tools
 
-Detailed description [here](http://www.bolts-library.org/en/docs/0.3/freecad/usage.html)
+Detailed description [here](https://github.com/FreeCAD/FreeCAD-library?tab=readme-ov-file#usage)
 
 Parts Library Selector
 

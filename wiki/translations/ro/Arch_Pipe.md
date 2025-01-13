@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -25,6 +27,8 @@ Acest instrument permite crearea de țevi/conducte de la zero, sau din obiectele
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -44,11 +48,36 @@ Acest instrument permite crearea de țevi/conducte de la zero, sau din obiectele
 
 </div>
 
+
+
 ## Opțiuni
+
+
+<div class="mw-translate-fuzzy">
 
 -   Conductele partajează proprietățile și comportamentele comune tuturor [Arch Components](Arch_Component.md)
 
+
+</div>
+
+
+
 ## Proprietăți
+
+### Data
+
+
+{{TitleProperty|Component}}
+
+-    **Base|Link**: The base wire of this pipe, if any.
+
+For the other properties in the group see [Arch Component](Arch_Component#Properties.md).
+
+
+{{TitleProperty|Pipe}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Length**: Setează lungimea acestei țevi,când nu se bazează pe un filament
 
@@ -58,9 +87,20 @@ Acest instrument permite crearea de țevi/conducte de la zero, sau din obiectele
 
 -    **Profile**: Profilul de bază a acestei țevi. Dacă nu este specificat, țeava este cilindrică.
 
+
+</div>
+
+
+
 ## Fluxul de lucru tipic 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Începeți prin a plasa obiecte sanitare / hidraulice (mai jos este un fișier importat pas). Transformați aceste obiecte în Echipamente Arch, selectând-le și apăsând butonul [ Arbor Equipment](Arch_Equipment.md).
+
+
+</div>
 
 ![](images/Arch_pipe_example_01.jpg )
 
@@ -100,11 +140,23 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_05.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Trebuie doar să selectăm toate liniile noastre și să apăsăm butonul [Pipe Arch](Arch_Pipe.md). Arch Pipe funcționează cu orice obiect bazat pe componente care conține un singur fir deschis.
+
+
+</div>
 
 ![](images/Arch_pipe_example_06.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Acum putem crea conexiuni selectând 2 sau 3 tuburi coincidente și apăsați butonul [Arch PipeConnector](Arch_PipeConnector.md). Dacă sunt selectate 3 țevi, două dintre ele trebuie să fie aliniate pentru a crea un element (T):
+
+
+</div>
 
 ![](images/Arch_pipe_example_07.jpg )
 
@@ -132,10 +184,10 @@ Instrumentul Pipe poate fi utilizat în [macros](macros.md) și de la consola py
 
 
 ```python
-Pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
+pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
 ```
 
--   Creates a `Pipe` object from the given `baseobj` and `diameter`.
+-   Creates a `pipe` object from the given `baseobj` and `diameter`.
     -   
         `baseobj`
         
@@ -152,12 +204,12 @@ p1 = FreeCAD.Vector(1000, 0, 0)
 p2 = FreeCAD.Vector(2500, 200, 0)
 p3 = FreeCAD.Vector(3100, 1000, 0)
 p4 = FreeCAD.Vector(3500, 500, 0)
-Line = Draft.makeWire([p1, p2, p3, p4])
+line = Draft.make_wire([p1, p2, p3, p4])
 
-Pipe = Arch.makePipe(Line, 200)
+pipe = Arch.makePipe(line, 200)
 FreeCAD.ActiveDocument.recompute()
 
-Pipe2 = Arch.makePipe(diameter=120, length=3000)
+pipe2 = Arch.makePipe(diameter=120, length=3000)
 FreeCAD.ActiveDocument.recompute()
 ```
 
@@ -171,6 +223,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/ro
+⏵ [documentation index](../README.md) > Arch Pipe/ro

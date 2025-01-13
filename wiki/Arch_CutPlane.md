@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch CutPlane
-   MenuLocation: Arch , Cut with plane
-   Workbenches: Arch_Workbench
+   MenuLocation: Modify , Cut with plane
+   Workbenches: BIM_Workbench
 ---
 
 # Arch CutPlane
@@ -16,18 +16,18 @@ The **Arch CutPlane** tool cuts a solid Arch object like an [Arch Wall](Arch_Wal
 
 ## Usage
 
-1.  If the cutting plane is to be derived from a straight edge (<small>(v0.22)</small> ) optionally align the [working plane](Draft_SelectPlane.md):
+1.  If the cutting plane is to be derived from a straight edge (<small>(v1.0)</small> ) optionally align the [working plane](Draft_SelectPlane.md):
     -   The selected edge cannot be parallel to the normal of the working plane.
     -   The generated cutting face will be perpendicular to the working plane.
 2.  Select the object to be cut.
 3.  Do one of the following:
-    -   Select an object with a single planar face. <small>(v0.22)</small> 
+    -   Select an object with a single planar face. <small>(v1.0)</small> 
     -   Select a planar face in the [3D view](3D_view.md).
-    -   Select an object with a single straight edge. <small>(v0.22)</small> 
-    -   Select a straight edge in the [3D view](3D_view.md). <small>(v0.22)</small> 
+    -   Select an object with a single straight edge. <small>(v1.0)</small> 
+    -   Select a straight edge in the [3D view](3D_view.md). <small>(v1.0)</small> 
 4.  There are several ways to invoke the command:
     -   Press the **<img src="images/Arch_CutPlane.svg" width=16px> [Cut with plane](Arch_CutPlane.md)** button.
-    -   Select the **Arch → <img src="images/Arch_CutPlane.svg" width=16px> Cut with plane** option from the menu.
+    -   Select the **Modify → <img src="images/Arch_CutPlane.svg" width=16px> Cut with plane** option from the menu.
 5.  Choose **Behind** or **Front** to indicate on which side of the cutting face material should be removed.
 6.  Press the **OK** button.
 
@@ -104,5 +104,10 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+ {{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane
+⏵ [documentation index](../README.md) > Arch CutPlane

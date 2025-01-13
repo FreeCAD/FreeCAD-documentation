@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Crea un **piano di riferimento** che può essere utilizzato come riferimento per schizzi o altre geometrie di riferimento. Gli schizzi possono essere associati ai piani di Riferimento. ![](images/Datum_plane.png ) *Piano di riferimento che attraversa 3 angoli del Cubo con un Cilindro disegnato su di esso usando il Piano di riferimento come suo Piano X-Y.*
+
+
 
 ## Prerequisiti
 
@@ -26,6 +30,8 @@ A partire da FreeCAD 0.18 un piano di riferimento può essere creato solo all\'i
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -44,6 +50,8 @@ A partire da FreeCAD 0.18 un piano di riferimento può essere creato solo all\'i
 
 </div>
 
+
+
 ## Opzioni
 
 
@@ -53,6 +61,12 @@ Fare doppio clic sull\'etichetta DatumPlane nell\'albero del modello o fare clic
 
 
 </div>
+
+## Preferences
+
+The default diffuse color and transparency of [PartDesign datums](PartDesign_CompDatums.md) is controlled by the **DefaultDatumColor** [fine-tuning parameter](Fine-tuning#PartDesign_Workbench.md).
+
+
 
 ## Proprietà
 

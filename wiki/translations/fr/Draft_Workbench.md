@@ -52,11 +52,11 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Point.svg  style="width:32px;"> [Point](Draft_Point/fr.md) : crée un simple point.
 
--   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Surfaces liées](Draft_Facebinder/fr.md) : crée un objet surface à partir des faces sélectionnées.
+-   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Surface liée](Draft_Facebinder/fr.md) : crée un objet surface à partir des faces sélectionnées.
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [Forme à partir d\'un texte](Draft_ShapeString/fr.md) : crée une forme composée qui représente une chaîne de texte.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hachure](Draft_Hatch/fr.md) : crée des hachures sur les faces planes d\'un objet sélectionné. {{Version/fr|0.20}}
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hachures](Draft_Hatch/fr.md) : crée des hachures sur les faces planes d\'un objet sélectionné.
 
 ## Annotation
 
@@ -66,7 +66,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Étiquette](Draft_Label/fr.md) : crée un texte de plusieurs lignes avec une ligne de tête à deux segments et une flèche.
 
--   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Éditeur de styles d\'annotations](Draft_AnnotationStyleEditor/fr.md) : permet de définir des styles qui affectent les propriétés visuelles des objets de type annotation.
+-   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Éditer le style des annotations](Draft_AnnotationStyleEditor/fr.md) : permet de définir des styles qui affectent les propriétés visuelles des objets de type annotation.
 
 ## Modification
 
@@ -104,7 +104,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> [Éditer](Draft_Edit/fr.md) : met les objets sélectionnés en mode d\'édition de Draft. Dans ce mode, les propriétés des objets peuvent être modifiées graphiquement.
 
--   <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:32px;"> [Surligner les sous éléments](Draft_SubelementHighlight/fr.md) : met temporairement en évidence les objets sélectionnés ou les objets de base des objets sélectionnés.
+-   <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:32px;"> [Surligner des sous éléments](Draft_SubelementHighlight/fr.md) : met temporairement en évidence des objets sélectionnés ou des objets base des objets sélectionnés.
 
 -   <img alt="" src=images/Draft_Join.svg  style="width:32px;"> [Joindre](Draft_Join/fr.md) : joint des [Draft Lignes](Draft_Line/fr.md) et des [Draft Polylignes](Draft_Wire/fr.md) en une seule ligne.
 
@@ -114,9 +114,9 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Désagréger](Draft_Downgrade/fr.md) : déclasse les objets sélectionnés.
 
--   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Polyligne vers B-spline](Draft_WireToBSpline/fr.md) : convertit des [Draft Polylignes](Draft_Wire/fr.md) en [Draft B-splines](Draft_BSpline/fr.md) et vice versa.
+-   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Polyligne \<=\> B-spline](Draft_WireToBSpline/fr.md) : convertit des [Draft Polylignes](Draft_Wire/fr.md) en [Draft B-splines](Draft_BSpline/fr.md) et vice versa.
 
--   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft vers esquisse](Draft_Draft2Sketch/fr.md) : convertit les objets [Draft](Draft_Workbench/fr.md) en [Sketcher Esquisses](Sketcher_NewSketch/fr.md) et vice versa.
+-   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft \<=\> esquisse](Draft_Draft2Sketch/fr.md) : convertit les objets [Draft](Draft_Workbench/fr.md) en [Sketcher Esquisses](Sketcher_NewSketch/fr.md) et vice versa.
 
 -   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Pente](Draft_Slope/fr.md) : incline les [Draft Lignes](Draft_Line/fr.md) ou les [Draft Polylignes](Draft_Wire.md) sélectionnés en augmentant ou en diminuant, la coordonnée Z de tous les points après le premier.
 
@@ -138,7 +138,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   ![](images/Draft_tray_button_construction.png ) [Basculer en mode construction](Draft_ToggleConstructionMode/fr.md) : active ou désactive le mode de construction de Draft. Egalement disponible dans le menu : **Draft → Utilitaires → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Basculer en mode construction**.
 
--   ![](images/Draft_tray_button_layer.png ) [Groupement automatique](Draft_AutoGroup/fr.md) : change le [Draft Calque](Draft_Layer/fr.md) actif ou, accessoirement, le [Std Groupe](Std_Group/fr.md) actif ou un objet de type groupe [Arch](Arch_Workbench/fr.md).
+-   ![](images/Draft_tray_button_layer.png ) [Groupement automatique](Draft_AutoGroup/fr.md) : change le [Draft Calque](Draft_Layer/fr.md) actif ou, accessoirement, le [Std Groupe](Std_Group/fr.md) actif ou un objet de type groupe de [BIM](BIM_Workbench/fr.md).
 
 
 
@@ -162,9 +162,9 @@ Le [Draft Widget d\'aimantation](Draft_snap_widget/fr.md) peut être utilisé co
 
 La barre d\'outils Draft Aimantation permet de sélectionner les options actives d\'aimantation. Les boutons appartenant aux options actives restent enfoncés. Pour des informations générales sur l\'aimantation, voir : [Draft Aimantation](Draft_Snap/fr.md).
 
--   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Verrouillage de l\'aimantation](Draft_Snap_Lock/fr.md) : active ou désactive l\'aimantation de manière globale.
+-   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Verrouiller l\'aimantation](Draft_Snap_Lock/fr.md) : active ou désactive l\'aimantation de manière globale.
 
--   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Aimantation Terminaison](Draft_Snap_Endpoint/fr.md) : aimante aux extrémités des segments.
+-   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Aimantation Extrémité](Draft_Snap_Endpoint/fr.md) : aimante aux extrémités des segments.
 
 -   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Aimantation Milieu](Draft_Snap_Midpoint/fr.md) : aimante au point milieu des segments.
 
@@ -200,11 +200,11 @@ La barre d\'outils Draft Aimantation permet de sélectionner les options actives
 
 -   <img alt="" src=images/Draft_LayerManager.svg  style="width:32px;"> [Gestion des calques\...](Draft_LayerManager/fr.md) : permet de gérer les calques dans un document. {{Version/fr|0.21}}
 
--   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [Nommer un groupe](Draft_AddNamedGroup/fr.md) : crée un [Std Groupe](Std_Group/fr.md) nommé et déplace les objets sélectionnés vers ce groupe. {{Version/fr|0.20}}
+-   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [Nommer un groupe](Draft_AddNamedGroup/fr.md) : crée un [Std Groupe](Std_Group/fr.md) nommé et déplace les objets sélectionnés vers ce groupe.
 
 -   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> [Déplacer vers un groupe](Draft_AddToGroup/fr.md) : déplace les objets vers un [Std Groupe](Std_Group/fr.md). Il peut aussi dégrouper des objets.
 
--   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Sélection groupée](Draft_SelectGroup/fr.md) : sélectionne le contenu des objets de type [Std Groupe](Std_Group/fr.md) ou des objets de type groupe de [Arch](Arch_Workbench/fr.md).
+-   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Sélection groupée](Draft_SelectGroup/fr.md) : sélectionne le contenu des objets de type [Std Groupe](Std_Group/fr.md) ou des objets de type groupe de [BIM](BIM_Workbench/fr.md).
 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Ajouter au groupe de construction](Draft_AddConstruction/fr.md) : déplace les objets vers le [Draft mode construction](Draft_ToggleConstructionMode/fr.md).
 
@@ -220,7 +220,7 @@ Le menu **Draft → Utilitaires** contient plusieurs outils. La plupart d\'entre
 
 -   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Appliquer le style](Draft_ApplyStyle/fr.md) : applique les paramètres du style en cours aux objets sélectionnés.
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Calque](Draft_Layer/fr.md) : crée un [Draft Calque](Draft_Layer/fr.md). Disponible dans la [barre d\'outils de Draft](Draft_Workbench/fr#Outils_utilitaires_de_la_barre_d'outils_de_Draft.md), {{VersionMinus/fr|0.20}}.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Calque](Draft_Layer/fr.md) : crée un [Draft Calque](Draft_Layer/fr.md).
 
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Réparer](Draft_Heal/fr.md) : répare les objets Draft problématiques trouvés dans de très vieux fichiers.
 
@@ -280,7 +280,7 @@ Pour un [Draft Calque](Draft_Layer/fr.md), les options supplémentaires sont dis
 
 Pour un [Draft Texte](Draft_Text/fr.md) et une [Draft Étiquette](Draft_Label/fr.md) qui contient un ou plusieurs hyperliens, vers un fichier local ou distant ou vers une URL, cette option supplémentaire est disponible :
 
--   Ouvrir les hyperliens : les hyperliens sont ouverts dans l\'application appropriée (telle que définie par le système d\'exploitation). Il y a un avertissement dans le cas d\'hyperliens multiples. {{Version/fr|0.22}}
+-   Ouvrir les hyperliens : les hyperliens sont ouverts dans l\'application appropriée (telle que définie par le système d\'exploitation). Il y a un avertissement dans le cas d\'hyperliens multiples. {{Version/fr|1.0}}
 
 
 
@@ -296,7 +296,7 @@ Pour une [Draft Ligne](Draft_Line/fr.md) et une [Draft Polyligne](Draft_Wire/fr.
 
 Pour un [Draft Proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md), les options supplémentaires sont disponibles :
 
--   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Écrire la position de la caméra](Draft_WorkingPlaneProxy/fr#Menu_contextuel.md) : met à jour la propriété **View Data** du proxy du plan de travail avec les paramètres en cours de la caméra de la [Vue 3D](3D_view/fr.md).
+-   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Écrire la position de la caméra](Draft_WorkingPlaneProxy/fr#Menu_contextuel.md) : met à jour la propriété **View Data** du proxy du plan de travail avec les paramètres en cours de la caméra de la [vue 3D](3D_view/fr.md).
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Écriture de l\'état des objets](Draft_WorkingPlaneProxy/fr#Menu_contextuel.md) : met à jour la propriété **Visibility Map** du proxy du plan de travail avec l\'état de visibilité en cours des objets dans le document.
 
@@ -328,7 +328,7 @@ Voir [au dessus](#Text_options.md).
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Dessin](Draft_Drawing/fr.md) : insère des vues des objets sélectionnés dans une page [Drawing](Drawing_Workbench/fr.md). Elle n\'est plus disponible dans la {{VersionPlus/fr|0.21}}.
 
--   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Basculer en mode continu](Draft_ToggleContinueMode/fr.md) : active ou désactive le mode continu. Cela n\'est plus disponible avec la {{VersionPlus/fr|0.22}}.
+-   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Basculer en mode continu](Draft_ToggleContinueMode/fr.md) : active ou désactive le mode continu. Cela n\'est plus disponible avec la {{VersionPlus/fr|1.0}}.
 
 
 
@@ -336,7 +336,7 @@ Voir [au dessus](#Text_options.md).
 
 -   <img alt="" src=images/Preferences-draft.svg  style="width:32px;"> [Draft Préférences](Draft_Preferences/fr.md) : préférences générales pour l\'atelier Draft.
 
--   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Préférences d\'import-export](Import_Export_Preferences/fr.md) : préférences disponibles pour l\'importation et l\'exportation vers différents formats de fichiers.
+-   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Préférences Importer/Exporter](Import_Export_Preferences/fr.md) : préférences disponibles pour l\'importation et l\'exportation vers différents formats de fichiers.
 
 
 

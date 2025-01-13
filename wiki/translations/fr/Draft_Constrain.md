@@ -1,9 +1,9 @@
 # Draft Constrain/fr
 ## Description
 
-En plus de la saisie de coordonnées ou de l\'utilisation de l\'[aimantation](Draft_Snap/fr.md), il existe une fonctionnalité appelée contrainte qui vous aide à dessiner avec précision dans l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et l\'<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [atelier Arch](Arch_Workbench/fr.md). Pour chaque point consécutif, vous pouvez contraindre le mouvement du curseur à la direction X, Y ou Z du système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). Ceci peut par exemple être utilisé pour créer une ligne parfaitement verticale.
+En plus de la saisie de coordonnées ou de l\'utilisation de l\'[aimantation](Draft_Snap/fr.md), il existe une fonctionnalité appelée contrainte qui vous aide à dessiner avec précision dans l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et l\'<img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [atelier BIM](BIM_Workbench/fr.md). Pour chaque point consécutif, vous pouvez contraindre le mouvement du curseur à la direction X, Y ou Z du système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). Ceci peut par exemple être utilisé pour créer une ligne parfaitement verticale.
 
-La contrainte est disponible avec la plupart des commandes de [Draft](Draft_Workbench/fr.md) et [Arch](Arch_Workbench/fr.md).
+La contrainte est disponible avec la plupart des commandes de [Draft](Draft_Workbench/fr.md) et [BIM](BIM_Workbench/fr.md).
 
 ![](images/Draft_Constrain_taskpanel_example.png ) 
 *Lorsque le curseur est contraint, le panneau de tâches verrouille les valeurs qui ne sont pas modifiées.*
@@ -12,7 +12,7 @@ La contrainte est disponible avec la plupart des commandes de [Draft](Draft_Work
 
 ## Utilisation des contraintes horizontales et verticales 
 
-1.  Choisir une commande de [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
+1.  Choisir une commande de [Draft](Draft_Workbench/fr.md) ou [atelier BIM](BIM_Workbench/fr.md) pour créer votre géométrie.
 2.  Choisir un premier point. Un point précédent est nécessaire.
 3.  Effectuer l\'une des opérations suivantes :
     -   Pour une contrainte horizontale : déplacer le curseur à gauche ou à droite du point précédent.
@@ -27,7 +27,7 @@ La contrainte est disponible avec la plupart des commandes de [Draft](Draft_Work
 
 ## Utilisation des contraintes X, Y et Z 
 
-1.  Choisir une commande de [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
+1.  Choisir une commande de [Draft](Draft_Workbench/fr.md) ou [atelier BIM](BIM_Workbench/fr.md) pour créer votre géométrie.
 2.  Choisir un premier point. Un point précédent est nécessaire.
 3.  Appuyer sur **X**, **Y** ou **Z** pour spécifier la direction.
 4.  Le curseur est maintenant contraint.

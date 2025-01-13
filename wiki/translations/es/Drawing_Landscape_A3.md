@@ -12,9 +12,17 @@ Si la página no se muestra, pulsa en el icono <img alt="" src=images/view-refre
 
 <img alt="" src=images/Drawing_Page.png  style="width:500px;">
 
+
+
 ### Opciones
 
--   La plantilla utilizada por una Página se puede cambiar a través de sus propiedades en la vista de Datos. Pulsa en el campo del valor, y luego en el botón \"\...\" y navega hasta seleccionar una [Plantilla adecuada](Drawing_templates/es.md). Luego actualiza la vista.
+
+<div class="mw-translate-fuzzy">
+
+-   La plantilla utilizada por una Página se puede cambiar a través de sus propiedades en la vista de Datos. Pulsa en el campo del valor, y luego en el botón \"\...\" y navega hasta seleccionar una Plantilla adecuada. Luego actualiza la vista.
+
+
+</div>
 
 
 {{docnav|[Open scalable vector graphic](Drawing_Open_SVG.md)|[Insert a view](Drawing_View.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Drawing_Open_SVG.png|IconC=Workbench_Drawing.svg|IconR=Drawing_View.png}}

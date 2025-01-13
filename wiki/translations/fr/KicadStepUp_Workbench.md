@@ -11,13 +11,13 @@ L\'atelier KicadStepUp a pour but d\'aider les utilisateurs de KiCad et de FreeC
 
 ## Contexte
 
-KiCad ([website](https://kicad.org/)) est une suite Open Source d\'automatisation de conception électronique. Elle permet à l\'utilisateur de concevoir un schéma électronique, puis un circuit imprimé (PCB) simple ou multicouche à l\'aide d\'une vaste bibliothèque de pièces. Utiliser FreeCAD avec l\'atelier KicadStepUp est la méthode officielle de KiCad pour créer des pièces 3D pour les composants électroniques de KiCad. Les bibliothèques sont hébergées [ici](https://kicad.github.io/), de sorte que tout le monde peut créer et enregistrer des pièces.
+KiCad ([site web](https://docs.kicad.org/8.0/fr/)) est une suite Open Source d\'automatisation de conception électronique. Elle permet à l\'utilisateur de concevoir un schéma électronique, puis un circuit imprimé (PCB) simple ou multicouche à l\'aide d\'une vaste bibliothèque de pièces. Utiliser FreeCAD avec l\'atelier KicadStepUp est la méthode officielle de KiCad pour créer des pièces 3D pour les composants électroniques de KiCad. Les bibliothèques sont hébergées [ici](https://gitlab.com/kicad/libraries), de sorte que tout le monde peut créer et enregistrer des pièces.
 
 La philosophie de l\'interface graphique de KiCad est un peu différente de celle de FreeCAD, surtout lorsqu\'il s\'agit de créer des éléments et de les déplacer. Cependant, comme KiCad est utilisé en production depuis des années, il existe une excellente documentation, par exemple, un très bon document \"Getting Started\". En outre, chaque outil dispose de son propre manuel.
 
-Si vous ne connaissez pas encore [KiCad](https://kicad.org/), il est recommandé de réaliser un circuit imprimé seul en suivant le [Guide de démarrage](https://docs.kicad.org/5.1/en/getting_started_in_kicad/getting_started_in_kicad.pdf) pour comprendre les concepts en jeu. Bien que certains sujets tels que l\'ajout de nouveaux schémas et d\'empreintes à une bibliothèque locale semblent peu intéressants pour le débutant, dans la pratique, ils sont souvent rencontrés rapidement après le démarrage d\'un projet sérieux.
+Si vous ne connaissez pas encore [KiCad](https://docs.kicad.org/8.0/fr/), il est recommandé de réaliser un circuit imprimé seul en suivant le [Guide de démarrage](https://docs.kicad.org/8.0/fr/getting_started_in_kicad/getting_started_in_kicad.html) pour comprendre les concepts en jeu. Bien que certains sujets tels que l\'ajout de nouveaux schémas et d\'empreintes à une bibliothèque locale semblent peu intéressants pour le débutant, dans la pratique, ils sont souvent rencontrés rapidement après le démarrage d\'un projet sérieux.
 
-Vous trouverez tous ces concepts [KiCad](https://kicad.org/) dans l\'atelier KicadStepUp. En les connaissant, il est donc beaucoup plus facile de comprendre comment utiliser cet atelier.
+Vous trouverez tous ces concepts de [KiCad](https://docs.kicad.org/8.0/fr/) dans l\'atelier KicadStepUp. En les connaissant, il est donc beaucoup plus facile de comprendre comment utiliser cet atelier.
 
 
 
@@ -86,7 +86,7 @@ Une collaboration peut être entamée avec un nouveau projet ou un projet exista
 9.  Passez au-dessus du cercle avec la souris et appuyez sur *m* sur le clavier pour déplacer le cercle. Cliquez pour le placer dans une autre position. Appuyez sur le bouton \"Enregistrer\" de la barre d\'outils en haut à gauche.
 10. Passez à FreeCAD et sélectionnez dans la zone de travail KicadStepUp le bouton d\'outil \"Pull Sketch from PCB\" ou le menu *ksu PushPull/ksu Pull Sketch from PCB*.
     -   Une première boîte de dialogue avec le calque par défaut \"Edge.Cuts\" et trois choix s\'ouvre. Select choice \"replace PCB and Sketch in current document\" \*\*\*
-    -   Ensuite, une boîte de dialogue devrait afficher à nouveau le fichier \"KsuTest.kucad_pcb\". Sélectionnez-le et appuyez sur *Ouvrir*.
+    -   Ensuite, une boîte de dialogue devrait afficher à nouveau le fichier \"KsuTest.kicad_pcb\". Sélectionnez-le et appuyez sur *Ouvrir*.
 
         :   Vous devriez voir votre PCB sous la forme d\'un modèle 3D. Notez que le trou s\'est déplacé par rapport à votre croquis \"pcb design\".
         :   Dans l\'arborscence apparaît une nouvelle structure avec un *Part Container* jaune avec le nom de fichier KiCad et dans un autre *Part Container* avec \"Board_Geoms_e63b\" (la pièce avec le numéro probablement différent). Dans le deuxième conteneur, il y a les trois fichiers suivants. Ne changez aucun nom dans cette structure, car KicadStepUp les utilise pour trouver les pièces à mettre à jour.

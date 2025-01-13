@@ -34,7 +34,7 @@ Polecenie **Podgląd wydruku** wyświetli podgląd wyniku polecenia [Drukuj](Std
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

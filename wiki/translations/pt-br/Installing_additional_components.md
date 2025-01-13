@@ -47,7 +47,13 @@ O FreeCAD suporta vários pacotes de software de terceiros prontos para uso. Em 
 
 ### OpenCAMLib
 
+
+<div class="mw-translate-fuzzy">
+
 [OpenCAMLib](http://www.anderswallin.net/CAM) é uma biblioteca de código aberto de algoritmos de manufatura auxiliada por computador (CAM). É utilizada no [Bancada Path](Path_Workbench/pt-br.md). Veja a página [OpenCamLib](OpenCamLib/pt-br.md) para instruções de instalação.
+
+
+</div>
 
 ### OpenSCAD
 
@@ -101,20 +107,24 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ## Renderização
 
+### LuxCoreRender
+
 
 <div class="mw-translate-fuzzy">
 
-### LuxCoreRender
+### LuxCoreRender 
 
 [LuxCoreRender](https://www.luxcorerender.org) é um motor de renderização, uma reinicialização do projeto [LuxRender](LuxRender/pt-br.md). Oficialmente, não é apoiado pelo [Módulo Raytracing](Raytracing_Workbench/pt-br.md), mas talvez valha a pena tentar. Ele é oficialmente apoiado pelo novo [Render Workbench](https://github.com/FreeCAD/FreeCAD-render), destinado a substituir o Raytracing Workbench no futuro. Veja a página [LuxCoreRender](LuxCoreRender/pt-br.md) para mais informações e instruções de instalação.
 
 
 </div>
 
+### LuxRender
+
 
 <div class="mw-translate-fuzzy">
 
-### LuxRender
+### LuxRender 
 
 [LuxRender](https://luxcorerender.org/history/) é um dos dois motores de renderização suportados pelo [Raytracing Workbench](Raytracing_Workbench.md). Em 2013 o projeto foi reiniciado tornando-se [LuxCoreRender](LuxCoreRender/pt-br.md), com uma grande reescrita de código e mudanças de compatibilidade. Oficialmente, o Raytracing Workbench suporta apenas os abandonados [LuxRender](LuxRender/pt-br.md). (a última versão é 1.6, 2017-12-28), enquanto o novo [Render Workbench](https://github.com/FreeCAD/FreeCAD-render) (destinado a substituir no futuro o Raytracing Workbench) suporta, em vez disso, o LuxCoreRender e abandonou o suporte para o LuxRender. De qualquer forma, mesmo que oficialmente não tenha suporte, [LuxCoreRender](LuxCoreRender/pt-br.md) pode trabalhar com o Raytracing Workbench, talvez valha a pena tentar. Veja a página [LuxRender](LuxRender/pt-br.md) para mais informações e instruções de instalação, e o [LuxCoreRender](LuxCoreRender/pt-br.md) se você quiser experimentar um 'software' mais moderno.
 

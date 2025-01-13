@@ -22,7 +22,7 @@ L\'outil **TechDraw Arc** ajoute un arc cosmétique dans le sens inverse des aig
 
 ## Utilisation
 
-1.  Spécifiez à votre convenance les attributs de ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
+1.  Spécifiez à votre convenance les attributs de ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw Choix des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
 2.  Sélectionnez le premier sommet pour déterminer le point central de l\'arc.
 3.  Sélectionnez le deuxième sommet pour déterminer le rayon et l\'angle de départ de l\'arc.
 4.  Sélectionnez le troisième sommet pour déterminer l\'angle final de l\'arc.

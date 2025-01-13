@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -24,5 +26,13 @@
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > BIM Copy/ru
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Copy/ru

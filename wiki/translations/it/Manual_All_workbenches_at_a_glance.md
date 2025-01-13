@@ -1,15 +1,22 @@
 # Manual:All workbenches at a glance/it
 {{Manual:TOC}}
 
-Per i nuovi utenti di FreeCAD una delle maggiori difficoltà è quella di sapere in quale ambiente di lavoro trovare uno strumento specifico. La tabella sottostante fornisce una panoramica degli ambienti più importanti e dei loro strumenti. Per un elenco più completo fare riferimento alla pagina della documentazione di FreeCAD per ciascun [ ambiente](Workbenches/it.md).
+Come accennato in precedenza, FreeCAD offre vari ambienti di lavoro, ciascuno dedicato a diverse applicazioni. Sebbene la moltitudine di opzioni possa sembrare inizialmente travolgente, ogni banco di lavoro è progettato per soddisfare attività specifiche, rendendo il flusso di lavoro complessivo più efficiente e adattato ai vari requisiti del progetto. Ad esempio, l\'ambiente Part Design è ideale per creare e modificare modelli 3D solidi, mentre l\'ambiente Draft è perfetto per il disegno e il disegno 2D. Questo approccio modulare consente agli utenti di personalizzare la propria interfaccia e il proprio set di strumenti in base alle proprie esigenze e preferenze specifiche.
 
-Quattro ambienti sono inoltre progettati per lavorare in coppia, e uno di loro è completamente incluso nell\'altro: Architettura contiene tutti gli strumenti di Draft, e PartDesign tutti gli strumenti di Sketcher. Tuttavia, per chiarezza, qui sono separati.
+In questa pagina si troveranno informazioni sul set base degli ambienti di lavoro e sulle loro funzionalità. Per ulteriori informazioni, fare riferimento a ciascuna pagina [ambienti di lavoro](Workbenches/it.md) nella documentazione di FreeCAD per un elenco più completo.
+
+Una caratteristica interessante di FreeCAD è la possibilità di ottenere informazioni aggiuntive posizionando il mouse su un comando. Questa funzionalità di descrizione aiuta gli utenti a comprendere la sua funzione, fornendo indicazioni e semplificando l\'apprendimento e la navigazione nel software.
+
+![](images/FreeCAD_022_ObjectDesc.png )
+
+Quattro ambienti di lavoro sono progettati per funzionare in coppia, completamente incorporati l\'uno nell\'altro: BIM contiene tutti gli strumenti Draft e Part Design include tutti gli strumenti Sketcher. Tuttavia, per chiarezza, vengono descritti separatamente nel seguito.
+
+### Part
+
+L\'[Ambiente Part](Part_Workbench/it.md) <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> offre strumenti fondamentali per lavorare con parti solide, comprese primitive come cubi e sfere, nonché operazioni geometriche e booleane di base. Fungendo da collegamento principale con [OpenCasCade](https://en.wikipedia.org/wiki/Open_Cascade_Technology), l\'ambiente Part costituisce la pietra angolare del sistema geometrico di FreeCAD, con quasi tutti gli altri ambienti che generano geometria basata su Parti. Questo sistema di modellazione parametrica consente il controllo e la modifica precisi dei modelli 3D attraverso un flusso di lavoro basato sulla cronologia. Gli utenti possono creare e perfezionare progetti complessi impilando e adattando forme e operazioni più semplici, garantendo un processo di progettazione robusto e flessibile.
 
 
-
-### Parte
-
-L\'ambiente Parte fornisce gli strumenti di base per lavorare con le parti solide: primitive, come cubi e sfere, e operazioni geometriche semplici e operazioni booleane. Essendo il punto di ancoraggio principale con [OpenCasCade](https://en.wikipedia.org/wiki/Open_Cascade_Technology), l\'ambiente Parte fornisce le fondamenta del sistema di geometria di FreeCAD, e quasi tutti gli altri ambienti producono della geometria basata su Part.
+<div class="mw-translate-fuzzy">
 
   Tool                                                                                                                       Descrizione                                                                Tool                                                                                                           Descrizione
      
@@ -27,9 +34,47 @@ L\'ambiente Parte fornisce gli strumenti di base per lavorare con le parti solid
   <img alt="" src=images/Part_Loft.svg  style="width:32px;"> [Loft](Part_Loft/it.md)                                             Congiunge due profili                                                      <img alt="" src=images/Part_Offset.png  style="width:32px;"> [Offset](Part_Offset/it.md)                         Crea una copia in scala dell\'oggetto originale
   <img alt="" src=images/Part_Thickness.svg  style="width:32px;"> [Spessore](Part_Thickness/it.md)                          Assegna uno spessore alle facce di una forma                                                                                                                                              
 
+
+</div>
+
+### Part Design 
+
+
+<div class="mw-translate-fuzzy">
+
+L\'ambiente Part Design contiene strumenti avanzati per costruire parti solide. Esso contiene inoltre tutti gli strumenti di Sketcher. Dato che può produrre solo forme solide (la regola numero uno di Parte Design), è il principale ambiente da utilizzare nella progettazione di pezzi (parti) da produrre come manufatti o stampare in 3D, poiché si ottengono sempre oggetti stampabili.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+  Tool                                                                                                                                   Descrizione                                                                               Tool                                                                                                                                                Descrizione
+     
+  <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Prisma](PartDesign_Pad/it.md)                                        Estrudere un oggetto solido da uno schizzo selezionato                                    <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [Cavità](PartDesign_Pocket/it.md)                                            Crea una tasca da uno schizzo selezionato. Il disegno deve essere mappato sulla faccia di un oggetto solido esistente
+  <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Rivoluzione](PartDesign_Revolution/it.md)              Crea un solido rivoluzionando uno schizzo attorno ad un asse                              <img alt="" src=images/PartDesign_Groove.svg  style="width:32px;"> [Gola](PartDesign_Groove/it.md)                                              Crea una gola rivoluzionando uno schizzo attorno ad un asse
+  <img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [Raccordo](PartDesign_Fillet/it.md)                             Arrotonda i bordi di un oggetto                                                           <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [Smusso](PartDesign_Chamfer/it.md)                                         Smussa i bordi di un oggetto
+  <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [Sformo](PartDesign_Draft/it.md)                                  Applica uno sformo angolare alle facce di un oggetto                                      <img alt="" src=images/PartDesign_Mirrored.svg  style="width:32px;"> [Specchiato](PartDesign_Mirrored/it.md)                                  Specchia le funzioni su un piano o una faccia
+  <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [Serie lineare](PartDesign_LinearPattern/it.md)   Crea una schiera lineare di funzioni                                                      <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:32px;"> [Serie polare](PartDesign_PolarPattern/it.md)                    Crea una schiera polare di funzioni
+  <img alt="" src=images/PartDesign_Scaled.svg  style="width:32px;"> [Scalatura](PartDesign_Scaled/it.md)                            Scala le funzioni a una dimensione diversa                                                <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Trasformazione multipla](PartDesign_MultiTransform/it.md)   Permette di creare una schiera con una qualsiasi combinazione delle altre trasformazioni
+  <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Shaft wizard](PartDesign_WizardShaft/it.md)          Genera un albero da una tabella di valori e permette di analizzare le forze e i momenti   <img alt="" src=images/PartDesign_InvoluteGear.svg  style="width:32px;"> [Involute gear wizard](PartDesign_InvoluteGear/it.md)            Consente di creare diversi tipi di ingranaggi
+
+
+</div>
+
 ### Draft
 
+
+<div class="mw-translate-fuzzy">
+
 L\'ambiente Draft fornisce gli strumenti per fare disegni di base CAD 2D: linee, cerchi, ecc \... e una serie di utili strumenti generici come spostare, ruotare o scalare. Esso fornisce inoltre diversi aiuti di disegno, come la griglia e l\'aggancio. Esso è pensato principalmente per disegnare le linee guida per gli oggetti di Arch, ma serve anche come \"coltellino svizzero\" di FreeCAD.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   Tool                                                                                                                     Descrizione                                                        Tool                                                                                                                 Descrizione
      
@@ -48,9 +93,23 @@ L\'ambiente Draft fornisce gli strumenti per fare disegni di base CAD 2D: linee,
   <img alt="" src=images/Draft_Clone.svg  style="width:32px;"> [Clona](Draft_Clone/it.md)                                    Crea copie collegate di oggetti                                                                                                                                                         
   <img alt="" src=images/Draft_Mirror.svg  style="width:32px;"> [Specchia](Draft_Mirror/it.md)                              Specchia oggetti rispetto a una linea                                                                                                                                                   
 
+
+</div>
+
+\|- \| <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Snap extension](Draft_Snap_Extension.md) \| Snaps to an imaginary line that extends beyond the endpoints of straight edges \| <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:32px;"> [Snap parallel](Draft_Snap_Parallel.md) \| Snaps to an imaginary line parallel to straight edges \|- \| <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Snap special](Draft_Snap_Special.md) \| Snaps to special points defined by the object. \| <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Snap near](Draft_Snap_Near.md) \| Snaps to the nearest point on faces and edges \|- \| <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Snap ortho](Draft_Snap_Ortho.md) \| Snaps to imaginary lines that cross the previous point at multiples of 45°. \| <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap grid](Draft_Snap_Grid.md) \| Snaps to the intersections of grid lines. \|- \| <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap working plane](Draft_Snap_WorkingPlane.md) \| Projects snap points onto the current [working plane](Draft_SelectPlane.md) \| <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap dimensions](Draft_Snap_Dimensions.md) \| Shows temporary X and Y dimensions \|}
+
 ### Sketcher
 
+
+<div class="mw-translate-fuzzy">
+
 L\'ambiente Sketcher contiene gli strumenti per costruire e modificare gli oggetti 2D complessi, chiamati schizzi. La geometria all\'interno di questi disegni può essere posizionata con precisione e relazionata usando i vincoli. Gli schizzi sono destinati principalmente ad essere i mattoni della geometria di PartDesign, ma in FreeCAD sono utili ovunque.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   Tool                                                                                                                                                       Descrizione                                                                                                                                                                Tool                                                                                                                                                             Descrizione
      
@@ -75,23 +134,29 @@ L\'ambiente Sketcher contiene gli strumenti per costruire e modificare gli ogget
   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angolo interno](Sketcher_ConstrainAngle/it.md)                         Definisce l\'angolo interno tra due linee selezionate.                                                                                                                     <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Mappa sketch](Sketcher_MapSketch/it.md)                                                Mappa uno schizzo sulla faccia di un solido selezionata in precedenza
   <img alt="" src=images/Sketcher_MergeSketch.svg  style="width:32px;"> [Unisci](Sketcher_MergeSketches/it.md)                                        Unisce due o più schizzi                                                                                                                                                   <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Rifletti](Sketcher_MirrorSketch/it.md)                                           Riflette gli elementi selezionati in uno schizzo
 
-### Part Design 
 
-L\'ambiente Part Design contiene strumenti avanzati per costruire parti solide. Esso contiene inoltre tutti gli strumenti di Sketcher. Dato che può produrre solo forme solide (la regola numero uno di Parte Design), è il principale ambiente da utilizzare nella progettazione di pezzi (parti) da produrre come manufatti o stampare in 3D, poiché si ottengono sempre oggetti stampabili.
+</div>
 
-  Tool                                                                                                                                   Descrizione                                                                               Tool                                                                                                                                                Descrizione
-     
-  <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Prisma](PartDesign_Pad/it.md)                                        Estrudere un oggetto solido da uno schizzo selezionato                                    <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [Cavità](PartDesign_Pocket/it.md)                                            Crea una tasca da uno schizzo selezionato. Il disegno deve essere mappato sulla faccia di un oggetto solido esistente
-  <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Rivoluzione](PartDesign_Revolution/it.md)              Crea un solido rivoluzionando uno schizzo attorno ad un asse                              <img alt="" src=images/PartDesign_Groove.svg  style="width:32px;"> [Gola](PartDesign_Groove/it.md)                                              Crea una gola rivoluzionando uno schizzo attorno ad un asse
-  <img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [Raccordo](PartDesign_Fillet/it.md)                             Arrotonda i bordi di un oggetto                                                           <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [Smusso](PartDesign_Chamfer/it.md)                                         Smussa i bordi di un oggetto
-  <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [Sformo](PartDesign_Draft/it.md)                                  Applica uno sformo angolare alle facce di un oggetto                                      <img alt="" src=images/PartDesign_Mirrored.svg  style="width:32px;"> [Specchiato](PartDesign_Mirrored/it.md)                                  Specchia le funzioni su un piano o una faccia
-  <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [Serie lineare](PartDesign_LinearPattern/it.md)   Crea una schiera lineare di funzioni                                                      <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:32px;"> [Serie polare](PartDesign_PolarPattern/it.md)                    Crea una schiera polare di funzioni
-  <img alt="" src=images/PartDesign_Scaled.svg  style="width:32px;"> [Scalatura](PartDesign_Scaled/it.md)                            Scala le funzioni a una dimensione diversa                                                <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Trasformazione multipla](PartDesign_MultiTransform/it.md)   Permette di creare una schiera con una qualsiasi combinazione delle altre trasformazioni
-  <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Shaft wizard](PartDesign_WizardShaft/it.md)          Genera un albero da una tabella di valori e permette di analizzare le forze e i momenti   <img alt="" src=images/PartDesign_InvoluteGear.svg  style="width:32px;"> [Involute gear wizard](PartDesign_InvoluteGear/it.md)            Consente di creare diversi tipi di ingranaggi
+
+
+
+<div class="mw-translate-fuzzy">
 
 ### Arch
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 L\'ambiente Arch contiene gli strumenti per lavorare con i progetti [BIM](https://en.wikipedia.org/wiki/Building_information_modeling) (ingegneria civile e architettura). Esso contiene inoltre tutti gli strumenti dell\'ambiente Draft. Arch è usato principalmente per creare oggetti BIM o dare gli attributi BIM agli oggetti costruiti con altri ambienti, al fine di esportarli in [IFC](https://en.wikipedia.org/wiki/Industry_Foundation_Classes).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   Tool                                                                                              Descrizione                                                           Tool                                                                                                                 Descrizione
      
@@ -108,10 +173,16 @@ L\'ambiente Arch contiene gli strumenti per lavorare con i progetti [BIM](https:
   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Ispeziona](Arch_Survey/it.md)         Entra o esce dalla modalità di ispezione                                                                                                                                                   
 
 
+</div>
+
+
 
 ### Altri ambienti incorporati 
 
 Quanto sopra riassume i più importanti strumenti di FreeCAD, ma sono disponibili molti altri ambienti di lavoro, tra i quali:
+
+
+<div class="mw-translate-fuzzy">
 
 -   L\'ambiente [TechDraw](TechDraw_Workbench/it.md) per produrre disegni tecnici da modelli 3D.
 -   L\'ambiente [Mesh](Mesh_Workbench/it.md) permette di lavorare con le [mesh poligonali](https://en.wikipedia.org/wiki/Polygon_mesh). Anche se le mesh (maglie) non sono il tipo di geometria preferito con cui lavorare in FreeCAD, a causa della loro mancanza di precisione e di supporto per le curve, le mesh sono ancora molto usate, e sono pienamente supportate in FreeCAD. L\'ambiente Mesh offre anche una serie di strumenti \"da Part a Mesh\" e \"da Mesh a Part\".
@@ -120,16 +191,28 @@ Quanto sopra riassume i più importanti strumenti di FreeCAD, ma sono disponibil
 -   L\'ambiente [FEM](FEM_Workbench/it.md) si occupa di [Finite Elements Analysis](https://en.wikipedia.org/wiki/Finite_element_method), e consente di effettuare i calcoli pre e post-elaborazione FEA e di visualizzare i risultati graficamente.
 
 
+</div>
+
+
 
 ### Ambienti esterni 
 
+
+<div class="mw-translate-fuzzy">
+
 Esistono anche numerosi altri ambienti molto utili, prodotti dai membri della comunità FreeCAD. Anche se non sono inclusi in una installazione standard di FreeCAD, sono facili da installare come plug-in. Essi sono tutti referenziati nel repositorio [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons). Tra i più sviluppati ci sono:
+
+
+</div>
 
 -   L\'ambiente [Drawing Dimensioning](https://github.com/hamish2014/FreeCAD_drawing_dimensioning) offre molti nuovi strumenti per lavorare direttamente su fogli di disegno (Drawing) e permette di aggiungere quote, annotazioni e altri simboli tecnici con un grande controllo sul loro aspetto. **L\'ambiente di lavoro Drawing non è più mantenuto.**
 -   L\'ambiente [Fasteners](https://github.com/shaise/FreeCAD_FastenersWB) offre una vasta gamma di oggetti dispositivi di fissaggio pronti per l\'uso come viti, bulloni, barre, rondelle e dadi. Sono disponibili molte opzioni e impostazioni.
 -   L\'ambiente [A2plus](https://github.com/kbwbe/A2plus) offre una serie di strumenti per assiemare e lavorare con gli [assemblaggi](https://en.wikipedia.org/wiki/Assembly_modelling).
 
 **Approfondimenti**
+
+
+<div class="mw-translate-fuzzy">
 
 -   [La lista completa degli ambienti](Workbenches/it.md)
 -   [Ambiente Part](Part_Workbench/it.md)
@@ -139,6 +222,9 @@ Esistono anche numerosi altri ambienti molto utili, prodotti dai membri della co
 -   [Ambiente Drawing](Drawing_Workbench/it.md)
 -   [Ambiente FEM](FEM_Workbench/it.md)
 -   [Il repository FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons)
+
+
+</div>
 
 
 

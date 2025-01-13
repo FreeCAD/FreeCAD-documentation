@@ -54,7 +54,7 @@ Now we have a model to work with.
 3.  Select <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:24px;"> [Create FEM fixed constraint](FEM_ConstraintFixed.md).
 4.  Click **Add**, select the back face of the Cube object (face on the **YZ** axis) and click **OK**.
 5.  Select <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> [Create FEM force constraint](FEM_ConstraintForce.md).
-6.  Click **Add**, select the front face of the Cube object (the face parallel to the back face) and set the **Load \[N\]** value to 9000000.
+6.  Click **Add**, select the front face of the Cube object (the face parallel to the back face) and set the **Force \[N\]** value to 9000000.
 7.  Set the **Direction** to **-Z** by selecting one of the face edges parallel to that direction.
 8.  Click **OK**.
 
@@ -112,6 +112,10 @@ We have now meshed our object and are ready to add constraints and forces.
 {{Note|Comparison to previous example file|If you select the '''Z displacement''' result type, you can see that the obtained value is almost identical to the test example provided by FreeCAD. Differences may occur due to the quality of the mesh and the number of nodes it possesses.}}
 
 We are now finished with the basic workflow for the [FEM Workbench](FEM_Workbench.md).
+
+## Notes
+
+-   For a video tutorial based on this written tutorial watch: [FEM MaterialReinforced tutorial](https://www.youtube.com/watch?v=SZTIqhfCSVc).
 
  {{FEM Tools navi}}
 

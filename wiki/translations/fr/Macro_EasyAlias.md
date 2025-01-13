@@ -4,8 +4,8 @@
 |Icon=easy-alias-icon.png
 |Description=Utilisez cette fonction pour créer rapidement et facilement des alias pour les cellules de vos feuilles de calcul. Elle prend les étiquettes de texte que vous avez déjà créées dans une colonne et les utilise comme alias dans la colonne suivante.
 |Author=TheMarkster
-|Version=2023.11.06
-|Date=2023-11-06
+|Version=2024.12.24
+|Date=2024-12-24
 |FCVersion=0.21
 |Download=[https://www.freecadweb.org/wiki/images/5/5e/Easy-alias-icon.png Icône de la barre d'outils]
 }}
@@ -84,7 +84,7 @@ __title__ = "EasyAlias"
 __author__ = "TheMarkster and rosta"
 __url__ = "https://wiki.freecadweb.org/Macro_EasyAlias"
 __Wiki__ = "https://wiki.freecadweb.org/Macro_EasyAlias"
-__date__ = "2023.11.06" #year.month.date
+__date__ = "2024.12.24" #year.month.date
 __version__ = __date__
 __icon__ = "https://www.freecadweb.org/wiki/images/5/5e/Easy-alias-icon.png"
 
@@ -119,6 +119,16 @@ def getSpreadsheets():
             linkedObject = selectedObject.LinkedObject
             if linkedObject.TypeId == 'Spreadsheet::Sheet':
                 spreadsheets.add(linkedObject)
+    if spreadsheets:
+        return spreadsheets
+    else:
+        # check if there is only one spreadsheet and use that one if none are selected
+        doc = FreeCAD.ActiveDocument
+        if not doc:
+            return spreadsheets
+        all_spreadsheets = [obj for obj in doc.Objects if obj.isDerivedFrom("Spreadsheet::Sheet")]
+        if len(all_spreadsheets) == 1:
+            return set(all_spreadsheets)
     return spreadsheets
 
 # The original implementatin of a1_to_rowcol and rowcol_to_a1 can be found here:

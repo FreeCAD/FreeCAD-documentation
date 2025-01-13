@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher CreatePeriodicBSpline
    Name/de: Sketcher GeschlossenenB-SplineErstellen
-   MenuLocation:  Sketch , Skizzengeometrien , Geschlossenen B-Spline erstellen
+   MenuLocation:  Skizze , Skizzengeometrien , Geschlossenen B-Spline erstellen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **B** **P**
    Version: 0.17
@@ -15,20 +15,19 @@
 
 ## Beschreibung
 
-Dieses Werkzeug erstellt eine periodische (geschlossene) B-Spline-Kurve aus ihren Kontrollpunkten. (Siehe [diese Seite](B-Splines/de.md) für weitere Informationen über B-Splines).
-
-![](images/Sketcher_Periodic_B-spline_example01.png )
-
-
-
-*Eine periodische B-Spline-Kurve (in Weiß), durch 5 Punkte definiert. Abgebildet sind das Kontrollpolygon in grün (die Geraden verbinden die roten Punkte), die Gewichtskreise in blau und der Krümmungskamm in grün. Die Ziffer (3) in der Mitte bezieht sich auf den Grad des B-Splines und die Ziffern (1) und (2) an den Knoten, die auf der Kurve liegen, beziehen sich auf deren Vielfachheit.*
+Das Werkzeug <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:24px;"> [Sketcher GeschlossenenB-SplineErstellen](Sketcher_CreatePeriodicBSpline/de.md) erstellt eine periodische (geschlossene) [B-Spline](B-Splines.md)-Kurve aus Kontrollpunkten. {{Version/de|1.0}}: Dies ist dasselbe Werkzeug wie [Sketcher B-SplineErstellen](Sketcher_CreateBSpline/de.md) aber mit einem anderen Startmodus.
 
 
 
 ## Anwendung
 
-1.  Die Schaltfläche **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Geschlossener B-Spline durch Kontrollpunkte](Sketcher_CreatePeriodicBSpline/de.md)** drücken.
-2.  Für weitere Schritte siehe [Sketcher B-Spline durch Kontrollpunkte](Sketcher_CreateBSpline/de#Anwendung.md).
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
+
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+2.  Die Schaltfläche **<img src="images/Sketcher_CreatePeriodicBSpline.svg" width=16px> [Geschlossener B-Spline durch Kontrollpunkte](Sketcher_CreatePeriodicBSpline/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Skizzengeometrien → <img src="images/Sketcher_CreatePeriodicBSpline.svg" width=16px> Geschlossenen B-Spline erstellen** auswählen.
+    -   Das Tastaturkürzel **G** dann **B** dann **P**.
+3.  Für weitere Schritte siehe [Sketcher B-SplineErstellen](Sketcher_CreateBSpline/de#Anwendung.md).
 
 
 

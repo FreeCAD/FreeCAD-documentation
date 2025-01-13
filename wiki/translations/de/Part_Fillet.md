@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug erstellt Verrundungen auf den ausgewählten Kanten einer Form. Ein Dialog ermöglicht die Auswahl der Form und der Kanten, die bearbeitet werden.
+Das Werkzeug **Part Verrundung** erstellt Verrundungen auf den ausgewählten Kanten einer Form. Ein Dialog ermöglicht die Auswahl der Form und der Kanten, die bearbeitet werden.
 
 
 
@@ -33,9 +33,15 @@ Dieses Werkzeug erstellt Verrundungen auf den ausgewählten Kanten einer Form. E
 
 ![](images/Dialog-fillet.png )
 
+
+
+## Part Verrundung im Vergleich mit PartDesign Verrundung 
+
 ## Part Verrundung VS. PartDesign Verrundung 
 
 Es gibt ein weiteres Verrundungswerkzeug im Arbeitsbereich <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md). Bitte beachten, dass ihre Bedienung recht unterschiedlich ist. Siehe Referenzseite zu <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Verrundung](PartDesign_Fillet/de.md) für weitere Einzelheiten zu ihren Unterschieden.
+
+
 
 ## Hinweise zur Anwendung von Part Verrundung 
 
@@ -49,6 +55,14 @@ Das Verrundungswerkzeug schlägt manchmal fehl, wenn versucht wird, komplexe Obj
 -   Erwäge die Verwendung von **Bearbeiten → Einstellungen → PartDesign**, um die automatische Überprüfung und Verfeinerung des Modells nach booleschen und skizzenbasierten Operationen zu ermöglichen (die Leistung kann beeinträchtigt werden, wenn diese Optionen eingeschaltet bleiben).
 
 Das Werkzeug Verrundung ist von dem Problem der topologischen Benennung betroffen, wenn die Änderung an einem Modellierungsschritt vorgenommen wird, der früher in der Prozesskette liegt und die Anzahl der Flächen oder Eckpunkte beeinflusst. Dies kann zu unvorhersehbaren Ergebnissen führen. Bis dieses Problem gelöst ist, wird empfohlen Fasen und Verrundungen als letzte Schritte in der Modellierungskette anzuwenden.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

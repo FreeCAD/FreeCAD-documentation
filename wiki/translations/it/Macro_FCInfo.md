@@ -6,12 +6,12 @@
 |Name=Macro FCInfo
 |Icon=FCInfo.png
 |Description=Fornisce una ampia serie di informazioni sulla forma selezionata quali lunghezza, angoli, superficie, inclinazione, volume e peso secondo la densità della forma selezionata, sia nelle unità del Sistema Internazionale che in quelle del Sistema Anglosassone.
-<br />French Version [https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/73681a39b8e7e4bcf286c80038ec3f3a594af43e/FCInfo_fr_Ver_1-28-rmu_Docked.FCMacro Version française]
+<br />Versione francese [https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/57021aa2ac873bf5bdf0aad877cedaa59081dee1/FCInfo_fr_Ver_1-29b-rmu_Docked.FCMacro Version française]
 |Author=Mario52
-|Version=1.28
-|Date=2023/09/01
+|Version=1.29b
+|Date=2023/05/10
 |FCVersion=All
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey.md)<br /> [Macro_SimpleProperties|<img src=images/Macro_SimpleProperties.png style="width:24px"> [Macro SimpleProperties](Macro_SimpleProperties.md)<br /> [<img src=images/Macro_FCInfoGlass.png style="width:24px"> [Macro FCInfoGlass](Macro_FCInfoGlass.md)
+|SeeAlso=[Arch: Ispeziona](Arch_Survey.md), [Macro SimpleProperties](Macro_SimpleProperties.md), [Macro FCInfoGlass](Macro_FCInfoGlass.md)
 }}
 
 
@@ -24,22 +24,16 @@
 Fornisce una ampia serie di informazioni sulla forma selezionata quali lunghezza, angoli, superficie, inclinazione, volume e peso secondo la densità della forma selezionata, sia nelle unità del Sistema Internazionale che in quelle del Sistema Anglosassone.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/c18679d096d168133e6f9e914774b3ba06ff6dc9/FCInfo_en_Ver_1-28c-rmu_Docked.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/c6dd9eabe1ae67d0baf235d672faa75dfd927ad6/FCInfo_en_Ver_1-30-rmu_Docked.FCMacro}}
 
 <img alt="FCInfo" src=images/Macro_FCInfo_00_en.png  style="width:480px;"> 
 *FCInfo*
 
-## Usage
 
-
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
-Selezionare un oggetto e avviare l\'applicazione o viceversa. Viene visualizzata la tabella delle informazioni. I calcoli sono basati sull\'unità di FreeCAD, che è il **mm**. Ogni nuova selezione ripristina il **mm** per l\'unità di lunghezza e i **gradi decimali** per gli angoli. <img alt="upper window" src=images/Macro_FCInfo_06.png  style="width:900px;">
-
-
-</div>
+Selezionare un oggetto e avviare l\'applicazione oppure avviare prima l\'applicazione e quindi selezionare un oggetto. L\'oggetto viene analizzato e si apre una finestra di dialogo che mostra le informazioni raccolte. Ad ogni nuova selezione, l\'unità di lunghezza viene reimpostata su **mm** e l\'unità angolare su **gradi decimali**. <img alt="upper window" src=images/Macro_FCInfo_06.png  style="width:900px;">
 
 
 
@@ -50,73 +44,85 @@ Selezionare un oggetto e avviare l\'applicazione o viceversa. Viene visualizzata
 
 ![FCInfo Document](images/Macro_FCInfo_Document_00.png )
 
-
-<div class="mw-translate-fuzzy">
-
 -   Nome del documento
 -   Etichetta dell\'oggetto
 -   Nome interno dell\'oggetto
 -   Nome dei sottoelementi dell\'oggetto
 -   Tipo di oggetto
 
-
-</div>
-
+*(puoi impostare a {{false}} la variabile **switch_setVisible_GBox_001_Document** per nascondere il box)*
 
 
-### Settore 2: Coordinate del clic mouse 
+
+### Settore 2: Coordinate del clic col mouse 
 
 ![FCInfo Coordinate](images/Macro_FCInfo_Coordinate_click_mouse_00.png )
 
--   Coordinates X,Y and Z click to mouse
--   The **button** creates point, axis, plane, copy vector axis from **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+-   Le coordinate X,Y e Z cliccate con il mouse
+-   Il **bottone** crea un punto, un asse, un piano, copia l\'asse vettoriale da **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
-*(you can checked to {{false}} the variable **switch_setVisible_GBox_002_Coordinate_Mouse** for hidden the Box)*
+*(puoi impostare a {{false}} la variabile **switch_setVisible_GBox_002_Coordinate_Mouse** per nascondere il Box)*
 
-### Sector 3: Color on point 
+
+
+### Settore 3: Colore sul punto 
 
 ![FCInfo Color_on_point](images/Macro_FCInfo_Color_on_point_00.png )
 
+-   Colore sul punto cliccato.
+    -   valore da 0,0 a 1,0
 
-<div class="mw-translate-fuzzy">
+-   La riga modificabile visualizza il valore del colore in diversi formati: {{LineEdit|"3435973887" , "#cccccc" , "0xcccccc" , "204,204,204" , "(0.8,0.8,0.8)"}}
+    -   **3435973887** : Modalità RVBA Int unsigned (formato nelle preferenze di FreeCAD) Alpha = 255
+    -   **#cccccc** : Modalità RVB Esadecimale (Qt: `setStyleSheet("color : #cccccc")`)
+    -   **0xcccccc** : Modalità RVB Esadecimale (Python: `hex(0xcccccc`)
+    -   \"**204,204,204** \" : RVB decim: Modalità RVB (Qt: `setStyleSheet(u"QLineEdit {" background-color: rgb(204, 204, 204)};")`)
+    -   **(0.8,0.8,0.8)** : RVB float: Modalità formato RVB float da 0.0 a 1.0
+    -   (Il numero di decimali dipende dall\'opzione *\"x (Decimals)\"*)
 
-**Settore 3: Value**
+-    {{CheckBox|Sub.Objet}}: Cambia il colore dell\'oggetto o sotto-oggetto selezionato. Se questa casella è attivata {{CheckBox|TRUE|Sub.Objet}} la faccia o l\'oggetto secondario selezionato viene modificato o duplicato. Se non è attivato (default) l\'oggetto viene modificato (colore) o duplicato
 
--   Lunghezza dell\'oggetto, se l\'oggetto è una faccia viene visualizzato il perimetro. Si può scegliere l\'unità di misura :
-    km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
--   Perimetro della forma (lunghezza di tutti i bordi).
+-    **Coul. Obj**: Se cambiare il colore della forma o della faccia dipende dall\'opzione scelta. Nel caso dell\'oggetto Mesh o Punti viene colorato l\'oggetto completo.
+
+-    **Dupl. Obj**: La duplicazione della faccia o dell\'oggetto dipende dall\'opzione scelta. Nel caso di un oggetto Mesh o di Punti l\'oggetto completo viene colorato. La duplicazione di un oggetto Mesh mantiene l\'originale e crea una forma solida. La duplicazione di un oggetto Points mantiene l\'originale e crea una copia.
+
+-    {{SpinBox|0}}: Il grado di trasparenza della faccia o dell\'oggetto selezionato dipende dall\'opzione scelta **0 = opaco** , **100 = trasparente**
+
+*(si può impostare a {{false}} la variabile **switch_setVisible_GBox_003_Color** per nascondere la casella)*
 
 
-</div>
 
-### Sector 4: Components Mesh 
+### Settore 4: Componenti Mesh 
 
 ![FCInfo Component Mesh](images/Componant_Mesh_v_1-28.png )
 
-If the selection is a mesh object one new window ***\"Components\"*** is displayed and gives:
+Se la selezione è un oggetto mesh viene visualizzata una nuova finestra ***\"Components\"*** che fornisce:
 
--   Edges : number of edges {{LineEdit|9561}}.
--   Faces : number of faces {{LineEdit|6374}}.
--   Points : number of points {{LineEdit|3189}}.
+-   Edges : numero di bordi {{LineEdit|9561}}.
+-   Faces : numero di facce {{LineEdit|6374}}.
+-   Points : numero di punti {{LineEdit|3189}}.
 
-*(you can checked to {{false}} the variable **switch_setVisible_GBox_004_Object_Mesh** for hidden the Box)*
+*(si può impostare a {{false}} la variabile **switch_setVisible_GBox_004_Object_Mesh** per nascondere il Box)*
 
-### Sector 5: Units 
+
+### Settore 5: Unità 
 
 ![FCInfo Units](images/Macro_FCInfo_Units_00.png )
 
--    {{ComboBox|mm}}: If the object is a face perimeter, length of the object is displayed. Unit size can be selected :
-    km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
+-    {{ComboBox|mm}}: se l\'oggetto è il perimetro di una faccia, viene visualizzata la lunghezza dell\'oggetto. È possibile selezionare la dimensione dell\'unità:
+    km, hm, decametri, m, dm, cm, **mm**, µm, nm, pm, fm, pollici, link, piede, iarda, pertica, catena, furlong, miglio, lega, nautica.
 
--   Length of the object : Length of the object or perimeter of the face {{LineEdit|10.0 mm}}.
+-   Length of the object: Lunghezza dell\'oggetto o perimetro della faccia {{LineEdit|10.0 mm}}.
 
--   If the object is a circle, a second lineEdit **Radius :** is opened and display the radius and diameter of circle {{LineEdit|2.0 mm (dia. 4.0 mm)}}.
+-   Se l\'oggetto è un cerchio, viene mostrato un secondo campo **Radius :** che visualizza il raggio e il diametro del cerchio {{LineEdit|2.0 mm (dia. 4.0 mm)}}.
 
--   Perimeter of the shape (12). Perimeter of the object and number of subObject (Edges) contained in the object {{LineEdit|120.0 mm}}.
+-   Perimeter of the shape (12). Perimetro dell\'oggetto e numero di sotto-oggetti (Bordi) contenuti nell\'oggetto {{LineEdit|120.0 mm}}.
 
-*(you can checked to {{false}} the variable **switch_setVisible_GBox_005_Value_Unit** for hidden the Box)*
+*(si può impostare a {{false}} la variabile **switch_setVisible_GBox_005_Value_Unit** per nascondere la casella)*
 
-### Sector 6: Inclination 
+
+
+### Settore 6: Inclinazione 
 
 ![FCInfo Inclination](images/Macro_FCInfo_Inclination_00.png )
 
@@ -145,7 +151,9 @@ If the selection is a mesh object one new window ***\"Components\"*** is display
 
 *(you can checked to {{false}} the variable **switch_setVisible_GBox_006_Inclination** for hidden the Box)*
 
-### Sector 7: Surface and Volume 
+
+
+### Settore 7: Superficie e Volume 
 
 ![FCInfo Surface and Volume](images/Macro_FCInfo_Surface_and_Volume_00.png )
 
@@ -208,7 +216,9 @@ If the selection is a mesh object one new window ***\"Components\"*** is display
 
 *(you can checked to {{false}} the variable **switch_setVisible_GBox_007_Surface_and_Volume** for hidden the Box)*
 
-### Sector 8: Cost 
+
+
+### Settore 8: Costo 
 
 ![FCInfo Cost](images/Macro_FCInfo_Cost_00.png )
 
@@ -224,7 +234,9 @@ If the selection is a mesh object one new window ***\"Components\"*** is display
 
 *(you can checked to {{false}} the variable **switch_setVisible_GBox_008_Cost_And_Price** for hidden the Box)*
 
-### Sector 9: BoundBox 
+
+
+### Settore 9: BoundBox 
 
 ![FCInfo BoundBox](images/Macro_FCInfo_BoundBox_00.png )
 
@@ -256,7 +268,9 @@ If the selection is a mesh object one new window ***\"Components\"*** is display
 
 *(you can checked to {{false}} the variable **switch_setVisible_GBox_009_BoundBox** for hidden the Box)*
 
-### Sector 10: Center of: 
+
+
+### Settore 10: Centro di: 
 
 ![FCInfo Center of\...](images/Macro_FCInfo_Center_of_00.png )
 
@@ -266,7 +280,9 @@ If the selection is a mesh object one new window ***\"Components\"*** is display
 
 *(you can checked to {{false}} the variable **switch_setVisible_GBox_010_Center_Mass** for hidden the Box)*
 
-### Sector 11: Inertia 
+
+
+### Settore 11: Inerzia 
 
 ![FCInfo Inertia](images/Macro_FCInfo_Inertia_00.png )
 
@@ -284,7 +300,9 @@ same for length and weigth
 
 *(you can checked to {{false}} the variable **switch_setVisible_GBox_011_Inertia** for hidden the Box)*
 
-### Sector 12: SpreadSheet 
+
+
+### Settore 12: Foglio di calcolo 
 
 ![FCInfo Disabled](images/Macro_FCInfo_Disabled_module_00.png )
 
@@ -300,7 +318,9 @@ same for length and weigth
 
 *(you can checked to {{false}} the variable **switch_setVisible_GBox_012_SpreadSheet** for hidden the Box)*
 
-### Sector 13: SpreadSheet creation 
+
+
+### Settore 13: creazione del foglio di calcolo 
 
 ![FCInfo SpreedSheet](images/Macro_FCInfo_SpreedSheet_00.png )
 
@@ -337,7 +357,9 @@ Se volete convertire le vecchie fili di FCInfo, caricate il file con il separato
 
 </div>
 
-### Sector 14: Main tools 
+
+
+### Settore 14: Strumenti principali 
 
 ![FCInfo Main](images/Macro_FCInfo_Main_00.png )
 
@@ -399,14 +421,16 @@ Image:Macro_FCInfo_04.png\|La tabella dei dati può essere dislocata a destra, I
 
 </div>
 
-## Options
+
+
+## Opzioni
 
 
 
 
 <div class="mw-translate-fuzzy">
 
-## Opzioni
+## Opzioni 
 
 ### Unità di misura utilizzate 
 
@@ -417,11 +441,15 @@ km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, 
 
 </div>
 
-#### Length unit: 
+
+
+#### Unità di lunghezza: 
 
 km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
-#### Angle degrees : 
+
+
+#### Gradi angolari: 
 
 
 <div class="mw-translate-fuzzy">
@@ -469,7 +497,9 @@ click twice to see the animation (the image must be in full screen)
 
 
 
-#### Weight unit : 
+
+
+#### Unità di peso: 
 
 
 <div class="mw-translate-fuzzy">
@@ -482,7 +512,9 @@ Il valore della massa volumica è preimpostato su **7,5** kg/dm3, che è la dens
 
 </div>
 
-#### FCInfo Configuration 
+
+
+#### Configurazione FCInfo 
 
 -   Location : **Tools \> Edit parameter \> \*User parameter:BaseApp/Preferences/Macros/FCMmacros/FCInfo/**
 -   **switchNotInfoOnBeginning** **\#** SetBool {{true}} or \[{{false}}\]
@@ -665,12 +697,14 @@ Questo è normale il contatore della lista dentro OpenCascade comincia sempre da
 
 </div>
 
-### Limitations
+
+
+### Limitazioni
 
 
 <div class="mw-translate-fuzzy">
 
-### Limitazioni
+### Limitazioni 
 
 Uscire sempre dalla macro tramite il pulsante **Exit**, altrimenti il programma rimane in memoria e continua a funzionare fino a quando non si chiude FreeCAD.
 
@@ -712,6 +746,49 @@ associare una sostanza alla sua massa volumica
 
 
 ## Versione
+
+ver \"1.30\" 2025/01/02 : delette all reference to PySide PySide2 and QtWidgets modify the (Qt) Save file
+
+
+```python
+#
+import PySide2
+from PySide2 import QtGui , QtCore, QtWidgets
+from PySide2.QtWidgets import QComboBox
+from PySide2.QtWidgets import QMessageBox
+from PySide2.QtWidgets import QTableWidget, QApplication
+from PySide2.QtGui import *
+from PySide2.QtCore import *
+from PySide2.QtWidgets import *
+
+            OpenName, Filter = PySide2.QtWidgets.QFileDialog.getOpenFileName(None, u"Read a txt file", setPathLatestDirectory, "*.FCInfo *.csv *.asc *.txt;;FCInfo (*.FCInfo);;Cvs (*.csv);;Ascii (*.asc);;TXT (*.txt);;(*.*);;(*)")#PySide2
+```
+
+replaced and change command by
+
+
+```python
+#
+import PySide
+try:
+    from PySide import QtWidgets
+    from PySide.QtWidgets import *
+except Exception:
+    None
+from PySide import QtGui , QtCore
+from PySide.QtGui import *
+from PySide.QtCore import *
+
+            OpenName, Filter = QFileDialog.getOpenFileName(None, u"Read a txt file", setPathLatestDirectory, "*.FCInfo *.csv *.asc *.txt;;FCInfo (*.FCInfo);;Cvs (*.csv);;Ascii (*.asc);;TXT (*.txt);;(*.*);;(*)")#PySide
+
+```
+
+ver \"1.29b\" 2024/05/10 **PySide2** modify Inertia \" MatrixX1\*uniteM to (MatrixX1\*uniteM) \" and adding spinBox inertia
+
+-   [Moment of inertias calculation](https://forum.freecad.org/viewtopic.php?p=713935#p713935)
+-   [Momentof Interia - FCInfo macro](https://forum.freecad.org/viewtopic.php?t=64653)
+
+ver 1.29 2024/05/06 **french** version **fr PySide6** by sylvainbx <https://gist.github.com/sylvainbx/af09a30be3e1427de56305825331fb29> merci sylvainbx
 
 ver 1.28b 1.28c 2023/10/30 orthographe
 
@@ -810,15 +887,13 @@ ver 1.13 , 27/07/2014 sostituzione FCInfo_en_Ver_1-12_Docked.FCMacro con FCInfo_
 ver 1.12 , 10/03/2014 aggiunto tooltip sopra i pulsanti
 
 ver 1.11 , 04/03/2014 aggiunto µm, nm, pm, fm, µg, ng, pg, percento, correzione dell\'errore carat ~~\"cd\"~~ con **\"ct\"**, visualizzazione dell\'etichetta e del nome interno, correzione del calcolo degli angoli XY YZ ZX, funzionava bene su un oggetto semplice, ma ha dato un valore sbagliato su un pezzo composto (ha preso altre coordinate ! scoperto confrontando la tabella e le coordinate visualizzate nella sezione inclinazioni), finestra mobile o ancorabile in qualsiasi parte della GUI di FreeCAD
-ver 1.10.b, 19/11/2013 pulsanti esterni alla scrollbar e bloccaggio delle dimensioni della finestra
+ver 1.10b, 19/11/2013 pulsanti esterni alla scrollbar e bloccaggio delle dimensioni della finestra
 
 ver 1.10 , 18/11/2013 agggiunto una scrollbar per diminuire la dimensione della finestra
 
-ver 1.08.b 10/10/2013 correzione dell\'errore di superficie delle facce elencati nella tabella e sostituzione di \"**print**\" con \"**App.Console.PrintMessage**\"
+ver 1.08b 10/10/2013 correzione dell\'errore di superficie delle facce elencati nella tabella e sostituzione di \"**print**\" con \"**App.Console.PrintMessage**\"
 
 ~~ver 1.09 , 04/11/2013 funziona perfettamente su Windows e Linux (causa dell\'errore i caratteri : ² ³ ° \" ordinal not in range (128)\")~~
-
-In alcune distribuzioni Linux e nel caso di un errore **\"ordinal not in range (128)\"** esiste un\'altra versione su questa pagina [Macro_FCInfo_Alternate_Linux](Macro_FCInfo_Alternate_Linux.md)
 
 ver 1.08 , 24/10/2013 correzione della mappa dei titoli \"Faces\" e \"Edges\" sopra 100 objeti
 
@@ -841,17 +916,9 @@ ver 1.0 , 6/09/2013
 
 
 
+## Link
 
-<div class="mw-translate-fuzzy">
-
-## Links
-
-Vedere [Arch Survey](Arch_Survey/it.md) <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width:36px;">
-
-
-</div>
-
-See Also: <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width:36px;"> [Arch Survey](Arch_Survey.md)
+Vedere anche: <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width:36px;"> [Arch: Ispeziona](Arch_Survey/it.md)
 
 Si può commentare questa macro nel forum [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 Qui uno altro post ché parla di [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)

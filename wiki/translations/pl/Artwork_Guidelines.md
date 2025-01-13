@@ -6,7 +6,7 @@
 
 wszystkie ikony w drzewie źródłowym, zobacz na stronie [grafika](Artwork/pl.md).
 
-Ikona FreeCAD składa się z 6 elementów, które można zapamiętać za pomocą akronimu SALCHO: **S**troke, **A**lignment, **L**ighlighting, **C**olor, **H**ighlighting, **O**utline.
+**Ikona** FreeCAD składa się z 6 elementów, które można zapamiętać za pomocą akronimu SALCHO: **S**troke, **A**lignment, **L**ighlighting, **C**olor, **H**ighlighting, **O**utline.
 
 Oto konkretny, aczkolwiek dowolny przykład:
 
@@ -42,21 +42,64 @@ Ikona ta jest wyświetlana w następujący sposób:
 
 FreeCAD używa palety zaadaptowanej z [palety Tango](https://web.archive.org/web/20190921043652/http://tango.freedesktop.org/tango_icon_theme_guidelines). Każdy główny kolor ma 4 odcienie: Podświetlenia, Bazy, Ciemnego i Konturu. Zauważ, że Kontur nie jest całkowicie czarny, ale jest bardzo ciemną odmianą Bazy.
 
-![](images/Green_tones.PNG ) 
-*Przykład 4-tonowej rodziny kolorów ''(Kameleon)''.*
++++++
+| #fce94f         | #edd400         | #c4a000         | #302b00         |
+| (252, 233, 79)  | (237, 212, 0)   | (196, 160, 0)   | (48, 43, 0)     |
+| Butter 1        | Butter 2        | Butter 3        | Butter 4        |
++=================+=================+=================+=================+
+| #8ae234         | #73d216         | #4e9a06         | #172a04         |
+| (138, 226, 52)  | (115, 210, 22)  | (78, 154, 6)    | (23, 42, 4)     |
+| Chameleon 1     | Chameleon 2     | Chameleon 3     | Chameleon 4     |
++++++
+| #fcaf3e         | #f57900         | #ce5c00         | #321900         |
+| (252, 175, 62)  | (245, 121, 0)   | (206, 92, 0)    | (50, 25, 0)     |
+| Orange 1        | Orange 2        | Orange 3        | Orange 4        |
++++++
+| #729fcf         | #3465a4         | #204a87         | #0b1521         |
+| (114, 159, 207) | (52, 101, 164)  | (32, 74, 135)   | (11, 21, 33)    |
+| Sky Blue 1      | Sky Blue 2      | Sky Blue 3      | Sky Blue 4      |
++++++
+| #ad7fa8         | #75507b         | #5c3566         | #171018         |
+| (173, 127, 168) | (117, 80, 123)  | (92, 53, 102)   | (23, 16, 24)    |
+| Plum 1          | Plum 2          | Plum 3          | Plum 4          |
++++++
+| #e9b96e         | #c17d11         | #8f5902         | #271903         |
+| (233, 185, 110) | (193, 125, 17)  | (143, 89, 2)    | (39, 25, 3)     |
+| Chocolate 1     | Chocolate 2     | Chocolate 3     | Chocolate 4     |
++++++
+| #ef2929         | #cc0000         | #a40000         | #280000         |
+| (239, 41, 41)   | (204, 0, 0)     | (164, 0, 0)     | (40, 0, 0)      |
+| Scarlet Red 1   | Scarlet Red 2   | Scarlet Red 3   | Scarlet Red 4   |
++++++
+| #34e0e2         | #16d0d2         | #06989a         | #042a2a         |
+| (52, 224, 226)  | (22, 208, 210)  | (6, 152, 154)   | (4, 42, 42)     |
+| FreeTeal 1      | FreeTeal 2      | FreeTeal 3      | FreeTeal 4      |
++++++
+| #ffffff         | #eeeeec         | #d3d7cf         | #babdb6         |
+| (255, 255, 255) | (238, 238, 236) | (211, 215, 207) | (186, 189, 182) |
+| Snowy White     | Aluminium 1     | Aluminium 2     | Aluminium 3     |
++++++
+| #888a85         | #555753         | #2e3436         | #000000         |
+| (136, 138, 133) | (85, 87, 83)    | (46, 52, 54)    | (0, 0, 0)       |
+| Aluminium 4     | Aluminium 5     | Aluminium 6     | Jet Black       |
++++++
 
-Zobacz [paletę FreeCAD](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00), aby zapoznać się z pełną gamą. Wybór niektórych kluczowych kolorów.
+
+
+*Kompletna paleta*
+
+Wybór niektórych kluczowych kolorów.
 
       
-                                                                                                                                                          Żółtych tonów należy używać w przypadku narzędzi, które tworzą obiekty. Jako przykład można podać środowiska pracy [Część](Part_Workbench/pl.md) i [Rysunek Roboczy](Draft_Workbench/pl.md).
-  style=\"background-color:#729fcf;\|   style=\"background-color:#3465a4;\|   style=\"background-color:#204a87;\|   style=\"background-color:#0b1521;\|   Używaj niebieskich odcieni dla narzędzi, które modyfikują obiekty. Jako przykład, zobacz środowiska pracy [Część](Part_Workbench/pl.md) i [Rysunek Roboczy](Draft_Workbench/pl.md).
-  style=\"background-color:#34e0e2\|    style=\"background-color:#16d0d2\|    style=\"background-color:#06989a\|    style=\"background-color:#042a2a\|    Używaj odcieni turkusu dla narzędzi związanych z widokiem; przykład można znaleźć w [menu Widoku](Std_View_Menu/pl.md).
-  style=\"background-color:#ef2929\|    style=\"background-color:#cc0000\|    style=\"background-color:#a40000\|    style=\"background-color:#280000\|    Używaj czerwonych tonów dla narzędzi związanych z wiązaniami. Przykład można znaleźć w środowisku pracy [Szkicownik](Sketcher_Workbench/pl.md).
+                                                                                                                                                          Użyj żółtych odcieni dla narzędzi tworzących obiekty, np. zobacz środowiska pracy [Część](Part_Workbench/pl.md) i [Rysunek Roboczy](Draft_Workbench/pl.md).
+  style=\"background-color:#729fcf;\|   style=\"background-color:#3465a4;\|   style=\"background-color:#204a87;\|   style=\"background-color:#0b1521;\|   Użyj niebieskich odcieni dla narzędzi modyfikujących obiekty, np. zobacz środowiska pracy [Część](Part_Workbench/pl.md) i [Rysunek Roboczy](Draft_Workbench/pl.md).
+  style=\"background-color:#34e0e2\|    style=\"background-color:#16d0d2\|    style=\"background-color:#06989a\|    style=\"background-color:#042a2a\|    Użyj odcieni barwy morskiej dla narzędzi związanych z widokami, np. zobacz [Menu Widok](Std_View_Menu/pl.md).
+  style=\"background-color:#ef2929\|    style=\"background-color:#cc0000\|    style=\"background-color:#a40000\|    style=\"background-color:#280000\|    Użyj czerwonych odcieni dla narzędzi związanych z wiązaniami, np. zobacz [Szkicownik](Sketcher_Workbench/pl.md).
       
 
    
   style=\"width: 25%;\|Dlaczego ograniczać się do tych kolorów?   Ograniczenie kolorów do określonej palety pomaga uniknąć niejednorodnej ikonografii i poprawia czytelność w przypadku wielu ikon.
-  Jak używać palety FreeCAD?                                      Instalacja [palety](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) jest tak prosta, jak [skopiowanie jej do folderu palety Inkscape](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
+  Jak używać palety FreeCAD?                                      Instalacja [palety](https://gist.github.com/GAZ082/724d2092b2986e3b17b9663f34093cf5) jest tak prosta, jak [skopiowanie jej do folderu palety Inkscape](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
    
 
 

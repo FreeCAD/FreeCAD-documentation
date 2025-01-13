@@ -3,7 +3,7 @@
    Name: Draft Downgrade
    Name/pl: Rysunek Roboczy: Rozbij kształt
    MenuLocation: Modyfikacja , Rozbij kształt
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **D** **N**
    SeeAlso: Draft_Upgrade/pl, Part_Cut/pl
 ---
@@ -26,8 +26,9 @@ Polecenie <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Roz
 1.  Opcjonalnie wybierz jeden lub więcej obiektów.
 2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_Downgrade.svg" width=16px> [Rozbij kształt](Draft_Downgrade/pl.md)**,
-    -   Z menu wybierz opcję **Modyfikacja → <img src="images/Draft_Downgrade.svg" width=16px> Rozbij kształt
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Z menu wybierz opcję **Modyfikacja → <img src="images/Draft_Downgrade.svg" width=16px> Rozbij kształt
 **
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Modyfikacja → <img src="images/Draft_Downgrade.svg" width=16px> Rozbij kształt** z menu.
     -   Użyj skrótu klawiszowego **D**, a następnie **N**,
 3.  Jeśli nie wybrałeś jeszcze obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 

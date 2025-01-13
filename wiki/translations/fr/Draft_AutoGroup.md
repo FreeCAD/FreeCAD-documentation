@@ -3,7 +3,7 @@
    Name: Draft AutoGroup
    Name/fr: Draft Groupement automatique
    Empty: 1
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Version: 0.17
    SeeAlso: Draft_Layer/fr, Std_Group/fr
 ---
@@ -12,7 +12,7 @@
 
 ## Description
 
-La commande **Draft Groupement automatique** modifie le [Draft Calque](Draft_Layer/fr.md) actif ou, [éventuellement](#Pr.C3.A9f.C3.A9rences.md), l\'objet actif [Std Groupe](Std_Group/fr.md) ou similaire aux groupes [Arch](Arch_Workbench/fr.md). Les nouveaux objets [Draft](Draft_Workbench/fr.md) et [Arch](Arch_Workbench/fr.md) sont automatiquement placés dans ce calque ou groupe actif.
+La commande **Draft Groupement automatique** modifie le [Draft Calque](Draft_Layer/fr.md) actif ou, [éventuellement](#Pr.C3.A9f.C3.A9rences.md), l\'objet actif [Std Groupe](Std_Group/fr.md) ou similaire aux objets groupe de [BIM](BIM_Workbench/fr.md). Les nouveaux objets de [Draft](Draft_Workbench/fr.md) et de [BIM](BIM_Workbench/fr.md) sont automatiquement placés dans ce calque ou groupe actif.
 
 Cette commande était à l\'origine destinée aux groupes, d\'où son nom, mais a été remaniée dans la version 0.19 de FreeCAD lorsqu\'un système de calques a été introduit. Comme la gestion des couches est maintenant la valeur par défaut de la commande, le reste de cette page se concentrera principalement sur les couches.
 
@@ -25,7 +25,7 @@ Cette commande était à l\'origine destinée aux groupes, d\'où son nom, mais 
 
 1.  Vous pouvez sélectionner le calque que vous voulez rendre actif dans la [vue en arborescence](Tree_view/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyer sur le bouton ![](images/Draft_tray_button_layer.png ) dans la [Draft Barre](Draft_Tray/fr.md). Ce bouton peut avoir un aspect différent. S\'il y a un calque actif, il affichera le nom du calque et une icône de calque avec la **Line Color** et la **Shape Color** du calque.
+    -   Appuyer sur le bouton ![](images/Draft_tray_button_layer.png ) dans la [Draft Barre](Draft_Tray/fr.md). Ce bouton peut avoir un aspect différent. S\'il y a un calque actif, il affichera le nom du calque et une icône de calque avec la couleur de la ligne et de la face du calque.
     -   Si vous avez sélectionné un calque : sélectionner l\'option **<img src="images/button_right.svg" width=16px> Activer ce calque** du menu contextuel de la [vue en arborescence](Tree_view/fr.md).
 3.  Si vous n\'avez pas encore sélectionné de calque, le menu des calques s\'ouvre. Effectuer l\'une des opérations suivantes :
     -   Sélectionner **Aucun** pour travailler sans calque actif.

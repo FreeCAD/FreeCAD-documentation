@@ -3,7 +3,7 @@
    Name: Draft Draft2Sketch
    Name/pl: Rysunek Roboczy: Rysunek roboczy do szkicu
    MenuLocation: Modyfikacja , Rysunek roboczy do szkicu
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
 ---
 
 # Draft Draft2Sketch/pl
@@ -24,7 +24,8 @@ Narzędzie <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> *
 1.  Opcjonalnie wybierz jeden lub więcej obiektów Rysunku Roboczego lub [szkic](Sketcher_NewSketch/pl.md) środowiska Szkicownik.
 2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_Draft2Sketch.svg" width=16px> '''Rysunek roboczy do szkicu'''**.
-    -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Draft2Sketch.svg" width=16px> Rysunek roboczy do szkicu**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Draft2Sketch.svg" width=16px> Rysunek roboczy do szkicu**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Modyfikacja → <img src="images/Draft_Draft2Sketch.svg" width=16px> Rysunek roboczy do szkicu** z menu.
 3.  Jeśli nie wybrałeś jeszcze żadnego obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 4.  Zostanie utworzony nowy obiekt.
 

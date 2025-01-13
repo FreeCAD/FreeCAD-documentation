@@ -13,13 +13,25 @@ Visite [tutoriales](tutorials/es.md) para obtener tutoriales escritos de alta ca
 
 ## Diseño arquitectónico 
 
+
+<div class="mw-translate-fuzzy">
+
 Vídeos que recorren el modelado de habitaciones, casas, edificios de oficinas y estructuras similares, y el dibujo de planos de planta, utilizando ambiente de trabajo como <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Borrador](Draft_Workbench/es.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> y [Arch](Arch_Workbench/es.md), y <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/es.md).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Listas de reproducción de Yorik van Havre](https://www.youtube.com/user/yorikvanhavre/playlists): el desarrollador principal de [Ambiente de trabajo Arch](Arch_Workbench/es.md) tiene varias listas en FreeCAD para el modelado de edificios así como para la arquitectura general.
     -   [Presentación del Arch Workbench de FreeCAD](https://www.youtube.com/watch?v=lTDOeHapv_E): FreeCAD 0.16, presentación para #ODC2016PN.
     -   [BIM con FreeCAD - Introducción](https://www.youtube.com/watch?v=rkWOFQ2fGZQ): introducción general a FreeCAD 0.17.
     -   [BIM con FreeCAD](https://www.youtube.com/watch?v=QhDMhYvxPO4&list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU): FreeCAD 0.17 a 0.19, videos generales sobre el BIM y el Arch Ambiente de trabajo, incluyendo la instalación, la construcción de paredes, ventanas, el uso de objetos 2D y expresiones.
     -   [Pabellón de Barcelona](https://www.youtube.com/watch?v=N9K9YJxroc4&list=PLmKdGVtV5VnuE5U75CEORkjlVK_nzQQUh): FreeCAD 0.18 y 0.19, una serie de 17 videos que describen el modelado del \"Pabellón de Barcelona\" (o \"Pabellón Alemán\"), un edificio de Barcelona diseñado por Ludwig Mies van der Rohe y Lilly Reich en 1929. Los vídeos muestran la importación de la geometría desde un archivo DXF, y luego pasan a dibujar las paredes, las ventanas, los paneles de vidrio, los elementos estructurales y los techos, las baldosas del suelo, el terreno, las bases y las escaleras. Luego muestra cómo exportar el modelo a IFC, cómo crear proyecciones 2D en TechDraw, cómo trabajar con cantidades y horarios, y finalmente cómo crear una vista renderizada del proyecto en Blender.
+
+
+</div>
 
 -   [Experiencia de Arch ambiente de trabajo: Nuevo flujo de trabajo](https://forum.freecadweb.org/viewtopic.php?f=36&t=44475): una serie de videos de jpg87, alojados en su propia web, que enseñan a los usuarios a modelar paredes, techos y ventanas y puertas en diferentes posiciones, con la ayuda de [Croquis](sketch/es.md).
 

@@ -1,5 +1,5 @@
 # Category:Test Framework/de
-This category lists pages related to the [Test Framework Workbench](Testing/de.md).
+Diese Kategorie ist eine Zusammenstellung von Seiten, die zum Arbeitsbereich [Test Framework](Testing.md) (Erprobung) gehören.
 
 ### Contents
 

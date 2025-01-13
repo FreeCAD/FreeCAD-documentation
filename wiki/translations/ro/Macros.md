@@ -88,7 +88,7 @@ Of course it is not practical to load a macro in the editor in order to use it. 
 
 <div class="mw-translate-fuzzy">
 
-[Customize Toolbars](Customize_Toolbars.md)În acest fel, puteți face ca macrocomanda să devină un instrument real, la fel ca orice instrument standard FreeCAD. Acest lucru, adăugat la puterea scripting-ului Python în cadrul FreeCAD, face posibilă adăugarea ușoară a propriilor instrumente la interfață. Citiți pagina [Scripting](Scripting.md) dacă doriți să aflați mai multe despre scrierea Python \...
+[Customize ToolbarsÎn](Customize_Toolbars.md) acest fel, puteți face ca macrocomanda să devină un instrument real, la fel ca orice instrument standard FreeCAD. Acest lucru, adăugat la puterea scripting-ului Python în cadrul FreeCAD, face posibilă adăugarea ușoară a propriilor instrumente la interfață. Citiți pagina [Scripting](Scripting.md) dacă doriți să aflați mai multe despre scrierea Python \...
 
 
 </div>

@@ -7,7 +7,7 @@
 
 ## Wprowadzenie
 
-Środowisko pracy **MES** zapewnia nowoczesną [analizę metodą elementów skończonych](https://en.wikipedia.org/wiki/Finite_element_analysis) *(FEA)* dla FreeCAD. Głównie oznacza to, że wszystkie narzędzia do wykonania analizy są połączone w jeden graficzny interfejs użytkownika *(GUI)*.
+Środowisko pracy **MES** zapewnia nowoczesną [analizę metodą elementów skończonych](https://pl.wikipedia.org/wiki/Metoda_element%C3%B3w_sko%C5%84czonych) *(MES)* dla FreeCAD. Głównie oznacza to, że wszystkie narzędzia do wykonania analizy są połączone w jeden graficzny interfejs użytkownika *(GUI)*.
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
 
@@ -102,11 +102,13 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 
   - <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Warunek brzegowy utwierdzenia](FEM_ConstraintFixed/pl.md): Służy do definiowania stałego wiązania punktu / krawędzi / powierzchni.
 
+  - <img alt="" src=images/FEM_ConstraintRigidBody.svg  style="width:32px;"> [Wiązanie ciała sztywnego](FEM_ConstraintRigidBody/pl.md): Służy do definiowania wiązania ciała sztywnego solvera CalculiX, które wiąże ruch węzłów wybranego obiektu geometrycznego z ruchem punktu referencyjnego o pozycji określonej przez użytkownika. {{Version/pl|1.0}}
+
   - <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Warunek brzegowy przemieszczenia](FEM_ConstraintDisplacement/pl.md): Służy do definiowania przemieszczeń punktów / krawędzi / powierzchni.
 
   - <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Kontakt](FEM_ConstraintContact/pl.md): Służy do definiowania kontaktu między 2 powierzchniami.
 
-  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Wiązanie tie](FEM_ConstraintTie/pl.md): Służy do definiowania wiązania tie *(\"kontakt wiązany\")* między 2 powierzchniami.
+  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Wiązanie tie](FEM_ConstraintTie/pl.md): Służy do definiowania wiązania tie *(\"kontakt wiązany\")* między 2 powierzchniami lub, {{Version/pl|1.0}}, symetrią cykliczną.
 
   - <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Sprężyna](FEM_ConstraintSpring/pl.md): Służy do definiowania sprężyny. {{Version/pl|0.20}}
 
@@ -150,9 +152,9 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 
 -   <img alt="" src=images/FEM_MeshGroup.svg  style="width:32px;"> [Grupa siatki](FEM_MeshGroup/pl.md): Grupuje i oznacza elementy siatki *(wierzchołek, krawędź, powierzchnia)* razem - przydatne do eksportowania siatki do zewnętrznych solverów.
 
--   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Utwórz zestaw węzłów](FEM_CreateNodesSet/pl.md): Tworzy zestaw węzłów z siatki MES.
+-   <img alt="" src=images/FEM_CreateElementsSet.svg  style="width:32px;"> [Usuń elementy](FEM_CreateElementsSet/pl.md): Ukrywa elementy wskazane wielokątem z siatki. {{Version/pl|1.0}}
 
--   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Siatka MES na obiekt środowiska Siatka](FEM_FemMesh2Mesh/pl.md): Przekształca powierzchnię siatki MES na obiekt środowiska Siatka.
+-   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Siatka MES na obiekt środowiska Siatka](FEM_FemMesh2Mesh/pl.md): Konwertuje powierzchnie elementów 3D lub całe elementy 2D wybranej siatki MES na siatkę powierzchniową.
 
 
 
@@ -258,15 +260,19 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 
 ## Narzędzia przestarzałe 
 
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Zdefiniuj przepływ graniczny](FEM_ConstraintFluidBoundary/pl.md): Służy do definiowania warunku brzegowego płynu. Niewspierane przez żaden solver, niedostępne w {{VersionPlus/pl|0.22}}.
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Zdefiniuj przepływ graniczny](FEM_ConstraintFluidBoundary/pl.md): Służy do definiowania warunku brzegowego płynu. Niewspierane przez żaden solver, niedostępne w {{VersionPlus/pl|1.0}}.
 
--   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Wiązanie łożyska](FEM_ConstraintBearing/pl.md): Służy do definiowania wiązania łożyska. Niewspierane przez żaden solver, niedostępne w {{VersionPlus/pl|0.22}}.
+-   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Wiązanie łożyska](FEM_ConstraintBearing/pl.md): Służy do definiowania wiązania łożyska. Niewspierane przez żaden solver, niedostępne w {{VersionPlus/pl|1.0}}.
 
--   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Wiązanie koła zębatego](FEM_ConstraintGear/pl.md): Służy do definiowania wiązania koła zębatego. Niewspierane przez żaden solver, niedostępne w {{VersionPlus/pl|0.22}}.
+-   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Wiązanie koła zębatego](FEM_ConstraintGear/pl.md): Służy do definiowania wiązania koła zębatego. Niewspierane przez żaden solver, niedostępne w {{VersionPlus/pl|1.0}}.
 
--   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley/pl.md): Służy do definiowania wiązania koła pasowego. Niewspierane przez żaden solver, niedostępne w {{VersionPlus/pl|0.22}}.
+-   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley/pl.md): Służy do definiowania wiązania koła pasowego. Niewspierane przez żaden solver, niedostępne w {{VersionPlus/pl|1.0}}.
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solver CalculiX](FEM_SolverCalculiX/pl.md): To samo co <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Narzędzia CalculiX](FEM_SolverCalculixCxxtools/pl.md) z dodatkowymi sprawdzeniami. Narzędzie niedokończone, niedostępne w {{VersionPlus/pl|0.22}}.
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solver CalculiX](FEM_SolverCalculiX/pl.md): To samo co <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Narzędzia CalculiX](FEM_SolverCalculixCxxtools/pl.md) z dodatkowymi sprawdzeniami. Narzędzie niedokończone, niedostępne w {{VersionPlus/pl|1.0}}.
+
+-   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Utwórz zestaw węzłów](FEM_CreateNodesSet/pl.md): Tworzy zestaw węzłów z siatki MES.
+
+Narzędzie było niedokończone i nie można było go użyć. Niedostępne w {{VersionPlus/pl|1.0}}.
 
 
 

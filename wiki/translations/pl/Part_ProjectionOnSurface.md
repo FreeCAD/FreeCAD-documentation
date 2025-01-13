@@ -103,7 +103,11 @@ Rzutowanie wykonane w środowisku pracy Część nie jest parametryczne. Jeśli 
 
 
 
-## Przykłady
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

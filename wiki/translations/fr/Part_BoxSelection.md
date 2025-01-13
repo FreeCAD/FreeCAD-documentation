@@ -1,33 +1,39 @@
 ---
  GuiCommand:
    Name: Part BoxSelection
-   Name/fr: Part Sélection par zone
-   MenuLocation: Part , Sélection par boîte
+   Name/fr: Part Sélection par boîte
+   MenuLocation: Part , Sélection par une boîte
    Workbenches: Part_Workbench/fr
    Version: 0.18
-   SeeAlso: Std_BoxSelection/fr, Std_BoxElementSelection/fr, Std_SelectAll/fr
+   SeeAlso: Std_BoxSelection/fr, Std_BoxElementSelection/fr
 ---
 
 # Part BoxSelection/fr
 
 ## Description
 
-L\'outil **<img src="images/Part_BoxSelection.svg" width=16px> [Part Sélection par boîte](Part_BoxSelection/fr.md)** vous permet de sélectionner les faces des objets à l\'écran qui sont touchées par la sélection rectangulaire.
+La commande <img alt="" src=images/Part_BoxSelection.svg  style="width:24px;"> **Part Sélection par boîte** sélectionne des faces par une zone rectangulaire, une boîte, définie par l\'utilisateur, dans la [vue 3D](3D_view/fr.md).
 
-**Autre possibilité**, s\'il est nécessaire de sélectionner **uniquement les sommets** d\'un objet alors **<img src="images/Std_BoxElementSelection.svg" width=16px> [Std Sélection d'éléments](Std_BoxElementSelection/fr.md)** peut être utilisé. Utilisez **<img src="images/Std_BoxSelection.svg" width=16px> [Std Sélection par boîte](Std_BoxSelection/fr.md)** si le besoin est de sélectionner la forme **entière**.
+
 
 ## Utilisation
 
-1.  Allez dans **Part → <img src="images/Part_BoxSelection.svg" width=16px> Sélection par boîte**.
-2.  Cliquez et faites glisser le pointeur dans la fenêtre pour créer un rectangle qui touche une ou plusieurs formes..
+1.  Sélectionnez l\'option **Édition → <img src="images/Part_BoxSelection.svg" width=16px> Sélection par une boîte** du menu.
+2.  Faites glisser un rectangle pour sélectionner les faces qui se trouvent (partiellement) à l\'intérieur du rectangle ou qui sont en contact avec celui-ci.
+
+
 
 ## Remarques
 
-## Propriétés
+-   Pour sélectionner des objets entiers, utilisez plutôt [Std Sélection par boîte](Std_BoxSelection/fr.md).
 
-## Limitations
 
-## Script
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

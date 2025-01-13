@@ -3,7 +3,7 @@
    Name: Draft ToggleDisplayMode
    Name/de: Draft DarstellungsartUmschalten
    MenuLocation: Hilfsprogramme , Normal-/Wireframe-Anzeige umschalten
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Workbenches: Draft_Workbench/de
    Shortcut: **Shift**+**Space**
    SeeAlso: Std_ToggleVisibility/de
 ---
@@ -26,8 +26,7 @@ Der Befehl <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px
 1.  Ein oder mehrere Objekte auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_ToggleDisplayMode.svg" width=16px> [Normal-/Wireframe-Anzeige umschalten](Draft_ToggleDisplayMode/de.md)** drücken.
-    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Normal-/Wireframe-Anzeige umschalten** auswählen.
-    -   Die Menüoption **Dienstprogramme → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Normal-/Wireframe-Anzeige umschalten** im Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md).
+    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Normal-/Wireframe-Anzeige umschalten** auswählen oder die Menüoption im Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen.
     -   Das Tastaturkürzel **Shift**+**Space**.
 
 

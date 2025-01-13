@@ -29,26 +29,13 @@ Il comando **Ruota a destra** ruota la camera nella [vista 3D](3D_view/it.md) at
 
 ## Script
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
-
-Per ruotare la vista verso destra, utilizzare il metodo `viewRotateRight` dell\'oggetto ActiveView. Questo metodo non è disponibile se FreeCAD è in modalità console.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.viewRotateRight()
-FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
-```
+Vedere [Ruota la vista a sinistra](Std_ViewRotateLeft/it#Script.md)
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

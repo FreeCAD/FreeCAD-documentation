@@ -45,6 +45,7 @@ Derzeit gibt es kein Deinstallationsprogramm für FreeCAD. Um FreeCAD und alle i
     -   \$HOME/Library/Application Support/FreeCAD
     -   \$HOME/Library/Preferences/FreeCAD
     -   \$HOME/Library/Preferences/com.freecad.FreeCAD.plist
+    -   \$HOME/Library/Preferences/freecad.plist
     -   \$HOME/Library/Caches/FreeCAD
 
 Wurde FreeCAD mit Homebrew installiert, wird der Befehl `brew uninstall freecad` verwendet, um /Programme/FreeCAD.app zu deinstallieren. Die zugehörigen Dateien und Verzeichnisse im Ordner Library des Home-Verzeichnisses des Benuzers müssen aber noch immer von Hand gelöscht werden.

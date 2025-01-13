@@ -10,6 +10,8 @@
 
 # Std ViewFront/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std Vorderansicht** wendet die Kamerasicht der aktiven [3D-Ansicht](3D_view/de.md) in die Richtung der positiven Y-Achse.
@@ -17,36 +19,37 @@ Der Befehl **Std Vorderansicht** wendet die Kamerasicht der aktiven [3D-Ansicht]
 ![](images/FreeCAD_views_front.svg ) 
 *Der Peil 1 zeigt in Richtung der Vorderansicht*
 
+
+
 ## Anwendung
 
-1.  Es gibt verschiedene Wegen, den Befehl umzusetzen:
-    -   Die **<img src="images/Std_ViewFront.svg" width=16px> [Std Vorderansicht](Std_ViewFront/de.md)**-Schaltfläche betätigen.
-    -   Den Menüpunkt **Ansicht → Standardansichten → <img src="images/Std_ViewFront.svg" width=16px> Vorderansicht** aus dem Menü wählen.
-    -   Den Menüpunkt **Standardansichten → <img src="images/Std_ViewFront.svg" width=16px> Vorderansicht** aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
-    -   Mit dem Tastenkürzel: **1**.
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Std_ViewFront.svg" width=16px> [Vorderansicht](Std_ViewFront/de.md)** drücken.
+    -   Den Menüeintrag **Ansicht → Standardansichten → <img src="images/Std_ViewFront.svg" width=16px> Vorderansicht** auswählen.
+    -   Die Menüoption **Standardansichten → <img src="images/Std_ViewFront.svg" width=16px> Vorderansicht** im Kontextmenü der [3D-Ansicht](3D_view/de.md) auswählen.
+    -   Das Tastaturkürzel **1**.
+
+
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe also:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Mit der `viewFront`-Methode des Objektes der aktiven Ansicht wechselt man in die Vorderansicht
+Die Methode `viewFront` des View-Objekts wird verwendet, um zur Vorderansicht zu wechseln. Methoden für die anderen Hauptausrichtungen der Ansicht stehen auch zur Verfügung: `viewTop`, `viewRight`, `viewRear`, `viewBottom` und `viewRight`.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.viewFront()
-FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.viewFront()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 Extracts the common part (intersection) between selected Part objects. This operation is fully parametric and the components can be modified and the result recomputed.
@@ -32,6 +34,20 @@ Extracts the common part (intersection) between selected Part objects. This oper
 ## Supported inputs 
 
 Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

@@ -5,11 +5,15 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Inserisce un cuneo sottrattivo nel corpo attivo. La sua forma viene sottratta dal solido esistente.
 
 ![](images/PartDesign_SubtractiveWedge_example.svg ) *A sinistra il corpo attivo (A) mostrato in grigio e il cuneo sottrattivo (B) mostrato in rosso trasparente; a destra il risultato.*
+
+
 
 ## Utilizzo
 
@@ -24,6 +28,8 @@ Inserisce un cuneo sottrattivo nel corpo attivo. La sua forma viene sottratta da
 
 </div>
 
+
+
 ## Opzioni
 
 
@@ -36,6 +42,8 @@ Dopo la sua creazione il cuneo può essere modificato in due modi:
 
 
 </div>
+
+
 
 ## Proprietà
 

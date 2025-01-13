@@ -1,23 +1,29 @@
 ---
  GuiCommand:
    Name: Spreadsheet AlignVCenter
-   Name/de: Kalkulationstabelle AusrichtenVMittig
-   MenuLocation: Kalkulationstabelle , Ausrichtung , Ausrichten Vertikal Mittig
+   Name/de: Spreadsheet AusrichtenVMitte
+   MenuLocation: Kalkulationstabelle , Ausrichtung , Vertikal zentrieren
    Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
 ---
 
 # Spreadsheet AlignVCenter/de
 
+
+
 ## Beschreibung
 
-Das **[<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Kalkulationstabelle AusrichtenVMittig](Spreadsheet_AlignVCenter/de.md)** Werkzeug bewirkt, dass der Text innerhalb der Zelle vertikal zur Mitte der Zelle ausgerichtet wird.
+Das Werkzeug <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> **Spreadsheet AusrichtenVMitte** zentriert den Inhalt ausgewählter Zellen vertikal.
+
+
 
 ## Anwendung
 
-1.  Stelle sicher, dass eine aktive **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md)** geöffnet ist, so dass die Schaltfläche aktiviert ist.
-2.  Wähle eine Zelle.
-3.  Drücke die **[<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Kalkulationstabelle AusrichtenVMittig](Spreadsheet_AlignVCenter/de.md)** Schaltfläche.
+1.  Sicherstellen, dass eine [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md) aktiviert ist.
+2.  Eine oder mehrere Zellen auswählen.
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Vertikal zentrieren](Spreadsheet_AlignVCenter/de.md)** drücken.
+    -   Den Menüeintrag **Kalkulationstabelle → Ausrichtung → [<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> Vertikal zentrieren** auswählen.
 
 
 

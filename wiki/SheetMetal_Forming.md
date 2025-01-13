@@ -19,7 +19,7 @@ A sketch can be added to multiply and distribute the embossed shape in regular o
 A small selection of features that can be created:
 
  <img alt="" src=images/SheetMetal_Forming-08.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-09.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-10.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-11.png  style="width:200px;">  
-*dimples, louvres, drawn cutouts, bridges*
+*Dimples, louvres, drawn cutouts, bridges*
 
 ## Usage
 
@@ -31,10 +31,17 @@ Make sure that the body containing the object to be embossed is the active body.
 2.  Hold down the **Ctrl** key (or the **Command** key on macOS).
 3.  Add the **bottom face** (back side) of the solid defining the shape to the selection.
 4.  Release the **Ctrl** key (or the **Command** key).
-5.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [SheetMetal Forming](SheetMetal_Forming.md) command using one of the following:
-    -   The **<img src="images/SheetMetal_Forming.svg" width=16px> [SheetMetal Forming](SheetMetal_Forming.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Make Forming in Wall** menu option.
-    -   The keyboard shortcut: **M** then **F**.
+5.  There are several ways to invoke the command:
+    -   Press the **<img src="images/SheetMetal_Forming.svg" width=16px> [Make Forming in Wall](SheetMetal_Forming.md)** button.
+    -   Select the **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Make Forming in Wall** option from the menu.
+    -   Right-click in the [Tree view](Tree_view.md) or the [3D view](3D_view.md) and select the **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Make Forming in Wall** option from the context menu.
+    -   Use the keyboard shortcut: **M** then **F**.
+6.  The **Binded faces/edges list** [Task panel](Task_panel.md) opens (introduced in version 0.5.00).
+7.  Optionally select new faces/edges.
+    -   Press the **Update** button to finish the selection and display the changes.
+8.  Press the **OK** button to finish the command and close the Task panel.
+9.  A **WallForming** object will be created at the center of the selected face to be embossed.
+10. Optionally adjust the parameters in the [Property editor](Property_editor.md).
 
 ### Louvre
 
@@ -43,7 +50,7 @@ Make sure that the body containing the object to be embossed is the active body.
 3.  Add the **bottom face** (back side) of the solid defining the shape to the selection.
 4.  Add a **side face** adjoined the bottom face to indicate the position of the cut to the selection.
 5.  Release the **Ctrl** key (or the **Command** key).
-6.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [SheetMetal Forming](SheetMetal_Forming.md) command (see above).
+6.  Invoke the command and follow the steps as described above.
 
 ### Bridge
 
@@ -53,7 +60,7 @@ Make sure that the body containing the object to be embossed is the active body.
 4.  Add a **side face** adjoined the bottom face to indicate the position of the first cut to the selection.
 5.  Add the **opposite side face** adjoined the bottom face to indicate the position of the second cut to the selection.
 6.  Release the **Ctrl** key (or the **Command** key).
-7.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [SheetMetal Forming](SheetMetal_Forming.md) command (see above).
+7.  Invoke the command and follow the steps as described above.
 
 ### Drawn Cutout 
 
@@ -62,7 +69,7 @@ Make sure that the body containing the object to be embossed is the active body.
 3.  Add the **bottom face** (back side) of the solid defining the shape to the selection.
 4.  Add the **top face** opposite the bottom face to mark the area to be cut open to the selection.
 5.  Release the **Ctrl** key (or the **Command** key).
-6.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [SheetMetal Forming](SheetMetal_Forming.md) command (see above).
+6.  Invoke the command and follow the steps as described above.
 
 ### Multiply and Pattern 
 
@@ -95,18 +102,9 @@ Forming and fillets should be the last steps in creating a SheetMetal object.
 
 See also: [Property editor](Property_editor.md).
 
-A SheetMetal WallForming object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+A SheetMetal WallForming object is derived from a [Part Feature](Part_Feature.md) object or, if it is inside a [PartDesign Body](PartDesign_Body.md), from a [PartDesign Feature](PartDesign_Feature.md) object, and inherits all its properties. It also has the following additional properties:
 
 ### Data
-
-
-{{Properties_Title|Base}}
-
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
-
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
-
--    **_Body|LinkHidden|hidden**:
 
 
 {{Properties_Title|Parameters}}
@@ -119,7 +117,7 @@ A SheetMetal WallForming object is derived from a [Part Feature](Part_Feature.md
 
 -    **offset|VectorDistance**: \"Offset from Center of Face\". Default: {{value|[0,00 mm, 0,00 mm, 0,00 mm]}}.
 
--    **thickness|Distance**: \"Thickness of Sheetmetal\". Thickness of the **Base Feature||hidden**:.
+-    **thickness|Distance**: \"Thickness of Sheetmetal\". Thickness of the **Base Feature||hidden**.
 
 -    **tool Object|LinkSub**: \"Forming Tool Object\". Link to the planar face used to position the Forming Tool
 

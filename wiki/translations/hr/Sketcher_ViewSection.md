@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher ViewSection
    MenuLocation: Sketch , View section
-   Workbenches: Sketcher_Workbench, PartDesign_Workbench
+   Workbenches: Sketcher_Workbench
    Shortcut: **Q** **S**
    Version: 0.18
 ---
@@ -11,17 +11,19 @@
 
 ## Description
 
-The **View section** tool creates a section plane that temporarily hides any matter in front of the sketch plane.
+The <img alt="" src=images/Sketcher_ViewSection.svg  style="width:16px;"> [Sketcher ViewSection](Sketcher_ViewSection.md) tool toggles a temporary section plane that hides any objects and parts of objects in front of the sketch plane while the sketch is in edit mode. This is a per-sketch setting stored in the **Section View** property of sketches.
 
-<img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:320px;"> 
+<img alt="" src=images/Sketcher_ViewSection1.png  style="width:300px;"> <img alt="" src=images/Sketcher_ViewSection2.png  style="width:300px;"> 
 *Partially hidden sketch and fully visible sketch*
 
 ## Usage
 
-Several ways to invoke this command:
+See also: [Sketcher Preferences](Sketcher_Preferences#Display.md).
 
--   Press the **[<img src=images/Sketcher_ViewSection.svg style="width:16px"> [View section](Sketcher_ViewSection.md)** button to toggle between section and full view.
--   Use the **Sketch → View section** from the dropdown menu.
+1.  This tool is only available if a sketch is in [edit mode](Sketcher_EditSketch.md).
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ViewSection.svg" width=16px> [View section](Sketcher_ViewSection.md)** button.
+    -   Select the **Sketch → <img src="images/Sketcher_ViewSection.svg" width=16px> View section** option from the menu.
 
 
 

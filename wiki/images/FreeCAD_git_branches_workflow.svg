@@ -577,12 +577,12 @@
          x="118.03397"
          y="78.475189"
          style="stroke-width:0.26458332px"
-         id="tspan2575">FreeCAD master repository</tspan><tspan
+         id="tspan2575">FreeCAD main repository</tspan><tspan
          sodipodi:role="line"
          x="118.03397"
          y="83.436127"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.26458332px"
-         id="tspan1067">upstream/master</tspan></text>
+         id="tspan1067">upstream/main</tspan></text>
     <rect
        style="display:inline;opacity:1;fill:#91f08c;fill-opacity:1;stroke:#000000;stroke-width:0.35000002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4880-5"
@@ -665,7 +665,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:monospace;-inkscape-font-specification:monospace;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
          y="105.4413"
          x="130.40073"
-         sodipodi:role="line">origin/master</tspan></text>
+         sodipodi:role="line">origin/main</tspan></text>
     <rect
        ry="1.7706602"
        rx="1.7706604"
@@ -770,7 +770,7 @@
          x="151.03764"
          y="173.18283"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:monospace;-inkscape-font-specification:monospace;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-         id="tspan9756">master</tspan></text>
+         id="tspan9756">main</tspan></text>
     <rect
        style="display:inline;opacity:1;fill:#ff8a5c;fill-opacity:1;stroke:#000000;stroke-width:0.35000002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect9760"

@@ -1,43 +1,53 @@
 # PartDesign Preferences/pl
 ## Wprowadzenie
 
-Środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) oraz <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt części](PartDesign_Workbench/pl.md) używają tych samych preferencji. Można je znaleźć w <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> sekcji [Edytora ustawień](Preferences_Editor/pl.md) **Projekt Części**. Sekcja ta będzie dostępna tylko wtedy, gdy w bieżącej sesji programu FreeCAD załadowano jedno z tych środowisk pracy.
+Środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) oraz <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt części](PartDesign_Workbench/pl.md) używają tych samych preferencji. Można je znaleźć w [Edytorze preferencji](Preferences_Editor/pl.md). W menu wybierz **Edycja → Preferencje...** a następnie **<img src="images/Preferences-part_design.svg" width=16px> Część/Projekt Części**. Ta grupa jest widoczna tylko gdy jedno z tych środowisk pracy zostało załadowane w bieżącej sesji programu FreeCAD.
+
+Niektóre zaawansowane preferencje mogą być zmienione tylko w [Edytorze parametrów](Std_DlgParameter/pl.md). Zobacz stronę [Dostrajanie parametrów](Fine-tuning/pl#środowisko_pracy_Projekt_Części.md).
+
+Ta strona została zaktualizowana do wersji 1.0.
 
 
 
 ## Dostępne ustawienia 
 
-Dostępne są cztery zakładki: Ogólne, Widok kształtu, Wygląd kształtu i Wymiarowanie.
+Dostępne są trzy strony: [Ogólne](#Ogólne.md), [Widok kształtu](#Widok_kształtu.md) i [Wygląd kształtu](#Wygląd_kształtu.md).
 
 
 
 ### Ogólne
 
-W zakładce **Ogólne** można zdefiniować następujące parametry:
+<img alt="" src=images/Preferences_PartDesign_Page_General.png  style="width:400px;">
+
+Na tej stronie można określić następujące parametry:
 
 +++
-| Nazwa                                                                                  | Opis                                                                                                                                                                                                                                      |
-+========================================================================================+===========================================================================================================================================================================================================================================+
-|                                                                         | Jeśli opcja jest zaznaczona, [reprezentacja granicy](https://en.wikipedia.org/wiki/Boundary_representation) *(BRep)* modelu jest [weryfikowana](Part_CheckGeometry/pl.md) po [operacjach logicznych](Part_Boolean/pl.md). |
-| **Automatycznie sprawdź model po zakończeniu operacji logicznej**          |                                                                                                                                                                                                                                           |
-|                                                                                     |                                                                                                                                                                                                                                           |
+| Nazwa                                                                                          | Opis                                                                                                                                                                                                                                      |
++================================================================================================+===========================================================================================================================================================================================================================================+
+|                                                                                 | Jeśli opcja jest zaznaczona, [reprezentacja granicy](https://en.wikipedia.org/wiki/Boundary_representation) *(BRep)* modelu jest [weryfikowana](Part_CheckGeometry/pl.md) po [operacjach logicznych](Part_Boolean/pl.md). |
+| **Automatycznie sprawdź model po zakończeniu operacji logicznej**                  |                                                                                                                                                                                                                                           |
+|                                                                                             |                                                                                                                                                                                                                                           |
 +++
-|                                                                         | Jeśli opcja jest zaznaczona, model zostanie [udoskonalony](Part_RefineShape/pl.md) po zakończeniu [operacji logicznej](Part_Boolean/pl.md).                                                                               |
-| **Automatycznie udoskonal model po wykonaniu operacji logicznej.**         |                                                                                                                                                                                                                                           |
-|                                                                                     |                                                                                                                                                                                                                                           |
+|                                                                                 | Jeśli opcja jest zaznaczona, model zostanie [udoskonalony](Part_RefineShape/pl.md) po zakończeniu [operacji logicznej](Part_Boolean/pl.md).                                                                               |
+| **Automatycznie udoskonal model po wykonaniu operacji logicznej.**                 |                                                                                                                                                                                                                                           |
+|                                                                                             |                                                                                                                                                                                                                                           |
 +++
-|                                                                         | Jeśli opcja jest zaznaczona, model zostanie [udoskonalony](Part_RefineShape/pl.md) po wprowadzeniu zmian do źródłowych szkiców obiektów.                                                                                          |
-| **Automatycznie udoskonal model po wykonaniu operacji opartej na szkicu.** |                                                                                                                                                                                                                                           |
-|                                                                                     |                                                                                                                                                                                                                                           |
+|                                                                                 | Jeśli opcja jest zaznaczona, model zostanie [udoskonalony](Part_RefineShape/pl.md) po wprowadzeniu zmian do źródłowych szkiców obiektów.                                                                                          |
+| **Automatycznie udoskonal model po wykonaniu operacji opartej na szkicu.**         |                                                                                                                                                                                                                                           |
+|                                                                                             |                                                                                                                                                                                                                                           |
 +++
-
-![](images/Preferences_Part_design_Tab_General.png )
+|                                                                                 | Jeśli zaznaczone, obiekty Zawartość mogą mieć wiele oddzielnych brył. {{Version/pl|1.0}}                                                                                                                                    |
+| **Zezwalaj domyślnie na wiele brył w środowisku Projekt Części (eksperymentalne)** |                                                                                                                                                                                                                                           |
+|                                                                                             |                                                                                                                                                                                                                                           |
++++
 
 
 
 ### Widok kształtu 
 
-W zakładce *Widok kształtu* można zdefiniować następujące parametry:
+<img alt="" src=images/Preferences_PartDesign_Page_Shape_view.png  style="width:400px;">
+
+Na tej stronie można określić następujące parametry:
 
 +++
 | Nazwa                                                                                | Opis                                                                                                                                                                                                                                 |
@@ -51,103 +61,77 @@ W zakładce *Widok kształtu* można zdefiniować następujące parametry:
 |                                                                                   |                                                                                                                                                                                                                                      |
 +++
 
-![](images/Preferences_Part_design_Tab_Shape_view.png )
-
 
 
 ### Wygląd kształtu 
 
-W zakładce *Wygląd kształtu* można zdefiniować następujące parametry:
+<img alt="" src=images/Preferences_PartDesign_Page_Shape_appearance.png  style="width:400px;">
+
+Wyjaśnienie kolorów można znaleźć [tutaj](Part_ColorPerFace/pl#Użycie.md).
+
+Na tej stronie można określić następujące parametry:
 
 +++
-| Nazwa                                    | Opis                                                                                                                                                                                                                                                                   |
-+==========================================+========================================================================================================================================================================================================================================================================+
-|                           | Barwa dla nowych kształtów. Jeśli aktywna jest opcja **Losowy**, wówczas stosowany jest losowy kolor.                                                                                                                                        |
-| **Kolor kształtu**           |                                                                                                                                                                                                                                                                        |
-|                                       |                                                                                                                                                                                                                                                                        |
+| Nazwa                                              | Opis                                                                                                                                                                                                                                                                   |
++====================================================+========================================================================================================================================================================================================================================================================+
+|                                     | Kolor rozproszony dla nowych kształtów. Jeśli ustawiona jest opcja **Losowo**, używany jest przypadkowy kolor zamiast tego.                                                                                                                  |
+| **Kolor kształtu**                     |                                                                                                                                                                                                                                                                        |
+|                                                 |                                                                                                                                                                                                                                                                        |
 +++
-|                           | Przezroczystość dla nowych kształtów {{Version/pl|0.21}}.                                                                                                                                                                                                |
-| **Przezroczystość kształtu** |                                                                                                                                                                                                                                                                        |
-|                                       |                                                                                                                                                                                                                                                                        |
+|                                     | Kolor otoczenia dla nowych kształtów. {{Version/pl|1.0}}                                                                                                                                                                                                 |
+| **Kolor kształtu otoczenia**           |                                                                                                                                                                                                                                                                        |
+|                                                 |                                                                                                                                                                                                                                                                        |
 +++
-|                           | Barwa linii dla nowych kształtów.                                                                                                                                                                                                                                      |
-| **Kolor linii**              |                                                                                                                                                                                                                                                                        |
-|                                       |                                                                                                                                                                                                                                                                        |
+|                                     | Kolor emisji dla nowych kształtów. {{Version/pl|1.0}}                                                                                                                                                                                                    |
+| **Kolor emisji kształtu**              |                                                                                                                                                                                                                                                                        |
+|                                                 |                                                                                                                                                                                                                                                                        |
 +++
-|                           | Grubość linii dla nowych kształtów.                                                                                                                                                                                                                                    |
-| **Szerokość linii**          |                                                                                                                                                                                                                                                                        |
-|                                       |                                                                                                                                                                                                                                                                        |
+|                                     | Kolor odbicia dla nowych kształtów. {{Version/pl|1.0}}                                                                                                                                                                                                   |
+| **Kolor odbicia kształtu**             |                                                                                                                                                                                                                                                                        |
+|                                                 |                                                                                                                                                                                                                                                                        |
 +++
-|                           | Barwa nadawana nowym [wierzchołkom](Glossary/pl#V.md).                                                                                                                                                                                                         |
-| **Kolor wierzchołka**        |                                                                                                                                                                                                                                                                        |
-|                                       |                                                                                                                                                                                                                                                                        |
+|                                     | Przezroczystość dla nowych kształtów {{Version/pl|0.21}}.                                                                                                                                                                                                |
+| **Przezroczystość kształtu**           |                                                                                                                                                                                                                                                                        |
+|                                                 |                                                                                                                                                                                                                                                                        |
 +++
-|                           | Rozmiar nadawany nowym [wierzchołkom](Glossary/pl#V.md).                                                                                                                                                                                                       |
-| **Rozmiar wierzchołka**      |                                                                                                                                                                                                                                                                        |
-|                                       |                                                                                                                                                                                                                                                                        |
+|                                     | Połysk dla nowych kształtów. {{Version/pl|1.0}}                                                                                                                                                                                                          |
+| **Połysk kształtu**                    |                                                                                                                                                                                                                                                                        |
+|                                                 |                                                                                                                                                                                                                                                                        |
 +++
-|                           | Barwa [ramki otaczającej](Property_editor/pl#Widok.md) w oknie widoku 3D.                                                                                                                                                                                      |
-| **Kolor ramki otaczającej**  |                                                                                                                                                                                                                                                                        |
-|                                       |                                                                                                                                                                                                                                                                        |
+|                                     | Barwa linii dla nowych kształtów.                                                                                                                                                                                                                                      |
+| **Kolor linii**                        |                                                                                                                                                                                                                                                                        |
+|                                                 |                                                                                                                                                                                                                                                                        |
 +++
-|                           | IJeśli opcja jest zaznaczona, barwa wewnętrznej strony powierzchni będzie taka sama jak zewnętrznej. Jeśli nie jest zaznaczona, będzie używany [kolor podświetlenia](Preferences_Editor/pl#Widok_3D.md), jeśli jest włączony, lub będzie używany kolor czarny. |
-| **Rendering dwustronny**     |                                                                                                                                                                                                                                                                        |
-|                                       |                                                                                                                                                                                                                                                                        |
+|                                     | Grubość linii dla nowych kształtów.                                                                                                                                                                                                                                    |
+| **Szerokość linii**                    |                                                                                                                                                                                                                                                                        |
+|                                                 |                                                                                                                                                                                                                                                                        |
 +++
-|                           | Kolor tekstu w adnotacjach na dokumentach. Obecnie nie ma okna dialogowego umożliwiającego dodawanie adnotacji do dokumentów. Adnotacje można dodawać wyłącznie za pomocą poleceń w konsoli Python:                                                                    |
-| **Kolor tekstu**             |                                                                                                                                                                                                                                                                        |
-|                                       | obj = App.ActiveDocument.addObject("App::Annotation", "Label")                                                                                                                                                                                                       |
-|                                          |                                                                                                                                                                                                                                                                        |
-|                                          | Konsole można aktywować w menu **Widok → Panele → konsola Python**.                                                                                                                                                                          |
+|                                     | Barwa nadawana nowym [wierzchołkom](Glossary/pl#V.md).                                                                                                                                                                                                         |
+| **Kolor wierzchołka**                  |                                                                                                                                                                                                                                                                        |
+|                                                 |                                                                                                                                                                                                                                                                        |
 +++
-
-![](images/Preferences_Part_design_Tab_Shape_appearance.png )
-
-
-
-### Pomiary
-
-Te preferencje kontrolują wygląd miar utworzonych za pomocą narzędzi [Pomiaru](Part_Module/pl#Pomiary.md) dostępnych w środowiskach pracy [Część](Part_Workbench/pl.md) i [Projekt Części](PartDesign_Workbench/pl.md).
-
-W zakładce **Wymiarowanie** *({{Version/pl|0.21}})* można wybrać następujące narzędzia:
-
+|                                     | Rozmiar nadawany nowym [wierzchołkom](Glossary/pl#V.md).                                                                                                                                                                                                       |
+| **Rozmiar wierzchołka**                |                                                                                                                                                                                                                                                                        |
+|                                                 |                                                                                                                                                                                                                                                                        |
 +++
-| Nazwa                               | Opcje                                                               |
-+=====================================+=====================================================================+
-|                      | Kolor dla wymiarów liniowych 3D.                                    |
-| **kolor w widoku 3D**   |                                                                     |
-|                                  |                                                                     |
+|                                     | Barwa [ramki otaczającej](Property_editor/pl#Widok.md) w oknie widoku 3D.                                                                                                                                                                                      |
+| **Kolor ramki otaczającej**            |                                                                                                                                                                                                                                                                        |
+|                                                 |                                                                                                                                                                                                                                                                        |
 +++
-|                      | Kolor dla wymiarów delta *(równolegle do globalnych osi X, Y i Z)*. |
-| **kolor Delta**         |                                                                     |
-|                                  |                                                                     |
+|                                     | Rozmiar czcionki [ramek otaczających](Property_editor/pl#Widok.md) w widoku 3D. {{Version/pl|1.0}}                                                                                                                                               |
+| **Rozmiar czcionki ramki otaczającej** |                                                                                                                                                                                                                                                                        |
+|                                                 |                                                                                                                                                                                                                                                                        |
 +++
-|                      | Kolor dla wymiarów kątowych.                                        |
-| **kolor ką↑tów**        |                                                                     |
-|                                  |                                                                     |
+|                                     | IJeśli opcja jest zaznaczona, barwa wewnętrznej strony powierzchni będzie taka sama jak zewnętrznej. Jeśli nie jest zaznaczona, będzie używany [kolor podświetlenia](Preferences_Editor/pl#Widok_3D.md), jeśli jest włączony, lub będzie używany kolor czarny. |
+| **Rendering dwustronny**               |                                                                                                                                                                                                                                                                        |
+|                                                 |                                                                                                                                                                                                                                                                        |
 +++
-|                      | Rozmiar fontów w pikselach.                                         |
-| **Rozmiar czcionki**    |                                                                     |
-|                                  |                                                                     |
+|                                     | Kolor tekstu dla nowych adnotacji w dokumentach.                                                                                                                                                                                                                       |
+| **Kolor tekstu**                       |                                                                                                                                                                                                                                                                        |
+|                                                 | Obecnie te adnotacje można dodać tylko przy pomocy [konsoli Pythona](Python_console/pl.md):                                                                                                                                                                    |
+|                                                    |                                                                                                                                                                                                                                                                        |
+|                                                    | obj = App.ActiveDocument.addObject("App::Annotation", "Label")                                                                                                                                                                                                       |
 +++
-|                      | Jeśli opcja jest zaznaczona, używany jest pogrubiony styl czcionki. |
-| **Bold**                |                                                                     |
-|                                  |                                                                     |
-+++
-|                      | Jeśli opcja jest zaznaczona, używany jest pochylony styl czcionki.  |
-| **Italic**              |                                                                     |
-|                                  |                                                                     |
-+++
-|                      | Czcionka do użycia.                                                 |
-| **Nazwa czcionki**      |                                                                     |
-|                                  |                                                                     |
-+++
-|                      | Naciśnij ten przycisk, aby zaktualizować istniejące miary.          |
-| **Odśwież istniejące miary** |                                                                     |
-|                                  |                                                                     |
-+++
-
-![](images/Preferences_Part_design_Tab_Measure.png )
 
 
 
@@ -155,9 +139,9 @@ W zakładce **Wymiarowanie** *({{Version/pl|0.21}})* można wybrać następując
 
 W celu efektywnego wyświetlania obiektu jego powierzchnia jest [teselowana](https://pl.wikipedia.org/wiki/Teselacja), tzn. jest wyświetlana z pewnymi niewielkimi odchyleniami od jego rzeczywistej powierzchni. Dotyczy to nie tylko modeli środowiska Projekt Części, ale także innych obiektów w programie FreeCAD.
 
-Dolna granica teselacji wynosi 0,01%. Jeśli naprawdę chcesz poświęcić dodatkowy czas, możesz jeszcze bardziej zmniejszyć dolną granicę, otwierając menu **Przybory → Edycja parametrów ...**. Otworzy to edytor parametrów, gdzie przechodzimy do **BaseApp → Preferences → Mod → Part**.
+Dolna granica teselacji wynosi 0,01%. Jeśli naprawdę chcesz poświęcić dodatkowy czas, możesz jeszcze bardziej zmniejszyć dolną granicę, otwierając [Edytor parametrów](Std_DlgParameter/pl.md).
 
-Kliknij prawym przyciskiem myszy na pozycji **Mesh deviation** i wybierz z menu kontekstowego **Zmień wartość elementu**. Ustaw wartość na wybraną minimalną teselację. Należy pamiętać, że wartość podawana jest w %, tzn. dla wartości 0,005% należy wpisać \"0,00005\". Najmniejsza możliwa wartość to 1e-7. **Uwaga:** W menu preferencji nadal będzie widoczna wartość 0,01%, nawet jeśli ustawisz niższą wartość.
+W edytorze parametrów przejdź do **BaseApp → Preferences → Mod → Part**, kliknij prawym przyciskiem myszy na pozycji **Mesh deviation** i wybierz z menu kontekstowego **Zmień wartość elementu**. Ustaw wartość na wybraną minimalną teselację. Należy pamiętać, że wartość podawana jest w %, tzn. dla wartości 0,005% należy wpisać \"0,00005\". Najmniejsza możliwa wartość to 1e-7. Zauważ, że w [Edytorze preferencji](Preferences_Editor/pl.md) nadal będzie widoczna wartość 0,01%, nawet jeśli ustawiłeś niższą wartość.
 
 
 

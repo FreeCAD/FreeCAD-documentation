@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="holder.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title10">FreeGrid WB Holder</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#323232"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#191919"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="11.313709"
+     inkscape:cx="16.396038"
+     inkscape:cy="27.091028"
+     inkscape:window-width="1894"
+     inkscape:window-height="999"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1"
+     showguides="true"
+     inkscape:lockguides="false"
+     guidecolor="#ffff00"
+     guideopacity="0.6"
+     guidehicolor="#ff00ff"
+     guidehiopacity="0.50196078">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="2"
+       spacingy="2"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="4"
+       enabled="true"
+       visible="true" />
+    <sodipodi:guide
+       position="-2,62"
+       orientation="0,1"
+       id="guide5"
+       inkscape:locked="false"
+       inkscape:label="top margin"
+       inkscape:color="rgb(255,255,0)" />
+    <sodipodi:guide
+       position="64,2"
+       orientation="0,1"
+       id="guide6"
+       inkscape:locked="false"
+       inkscape:label="bottom margin"
+       inkscape:color="rgb(255,255,0)" />
+    <sodipodi:guide
+       position="2,-2"
+       orientation="-1,0"
+       id="guide7"
+       inkscape:locked="false"
+       inkscape:label="right margin"
+       inkscape:color="rgb(255,255,0)" />
+    <sodipodi:guide
+       position="62,64"
+       orientation="-1,0"
+       id="guide8"
+       inkscape:locked="false"
+       inkscape:label="left margin"
+       inkscape:color="rgb(255,255,0)" />
+    <sodipodi:guide
+       position="64,64"
+       orientation="0.70710678,-0.70710678"
+       id="guide1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,64"
+       orientation="0.70710678,0.70710678"
+       id="guide2"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(255,255,0)" />
+    <sodipodi:guide
+       position="30,34"
+       orientation="0.5,0.8660254"
+       id="guide3"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(255,255,0)" />
+    <sodipodi:guide
+       position="10.374933,45.830986"
+       orientation="1,0"
+       id="guide4"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="14,14"
+       orientation="0.5,0.8660254"
+       id="guide9"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(255,255,0)" />
+    <sodipodi:guide
+       position="24.771181,33.908353"
+       orientation="0.5,0.8660254"
+       id="guide10"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(255,255,0)" />
+    <sodipodi:guide
+       position="25.526304,41.794407"
+       orientation="0,-1"
+       id="guide12"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="25.526304,41.794407"
+       orientation="1,0"
+       id="guide13"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="35.184544,43.645653"
+       orientation="0.5,0.8660254"
+       id="guide14"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(255,255,0)" />
+    <sodipodi:guide
+       position="21.802664,40.81968"
+       orientation="0.5,0.8660254"
+       id="guide15"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(255,255,0)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="perspective-envelope"
+       up_left_point="38,34"
+       up_right_point="50,27.125"
+       down_left_point="38,52"
+       down_right_point="50.438063,44.208963"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1"
+       deform_type="perspective"
+       horizontal_mirror="false"
+       vertical_mirror="false"
+       overflow_perspective="false" />
+    <inkscape:path-effect
+       effect="perspective-envelope"
+       up_left_point="13.476007,26.541379"
+       up_right_point="25.981307,33.712853"
+       down_left_point="13.607182,44.335938"
+       down_right_point="26,51.495019"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1"
+       deform_type="perspective"
+       horizontal_mirror="false"
+       vertical_mirror="false"
+       overflow_perspective="false" />
+    <linearGradient
+       id="linearGradient11"
+       inkscape:collect="always"
+       inkscape:label="Chameleon gradient">
+      <stop
+         style="stop-color:#8ae234;stop-opacity:1;"
+         offset="0"
+         id="stop11" />
+      <stop
+         style="stop-color:#73d216;stop-opacity:1;"
+         offset="1"
+         id="stop12" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11"
+       id="linearGradient31"
+       x1="17.580357"
+       y1="17.240562"
+       x2="47.099232"
+       y2="46.759438"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>hasecilu</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>FreeCAD</rdf:li>
+            <rdf:li>command</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Template file to create icons for FreeCAD commands.</dc:description>
+        <dc:date>2024</dc:date>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>FreeCAD LGPL2+</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:identifier>FreeCAD/src/</dc:identifier>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>FreeCAD</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:relation>https://wiki.freecad.org/Artwork</dc:relation>
+        <dc:title>FreeGrid WB Holder</dc:title>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m 29.512418,3.3964539 c -0.208214,0.1049186 -0.238907,0.064148 -0.290095,0.077853 L 8.7733226,15.448428 c -0.1605392,0.494085 0,31.978424 0,31.978424 0.1916804,0.340514 1.3629964,1.247417 1.3629964,1.247417 l 20.559046,11.870002 c 0.01078,-0.04054 0.06367,-0.0035 0.289734,0.0775 h 2.029914 c 0.239896,-0.0695 0.271566,-0.109091 0.289723,-0.0775 6.853096,-3.956346 13.706433,-7.913174 20.559046,-11.870002 l 1.363151,-1.247417 c 0.162804,-0.401026 0,-31.978424 0,-31.978424 C 54.864438,15.025275 34.778139,3.4743052 34.778139,3.4743052 c -0.249763,0.00108 -0.246068,-0.066164 -0.290097,-0.077852 z"
+     color="#000000"
+     fill="#ff4f00"
+     stroke-width="0.198191"
+     style="display:inline;fill:#8ae234;fill-opacity:1;stroke:#4e9a06;stroke-width:1.91681;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path1-35"
+     inkscape:label="main"
+     sodipodi:nodetypes="ccccccccccccccc" />
+  <path
+     id="path10"
+     style="display:inline;fill:url(#linearGradient31);stroke:none;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+     inkscape:label="gradient"
+     sodipodi:type="inkscape:offset"
+     inkscape:radius="-3.0273206"
+     inkscape:original="M 29.404297 2.1464844 C 29.187047 2.2559564 29.154972 2.2122625 29.101562 2.2265625 L 7.9160156 14.458984 C 7.7485093 14.974512 7.7142224 14.807584 7.6132812 14.982422 L 7.6132812 47.824219 C 7.8132803 48.17951 7.8152506 48.175271 7.9160156 48.349609 L 9.1875 49.388672 L 30.638672 61.773438 C 30.649922 61.731138 30.705528 61.768956 30.941406 61.853516 L 33.058594 61.853516 C 33.308902 61.780996 33.342383 61.740473 33.361328 61.773438 C 40.511837 57.645392 47.662495 53.51722 54.8125 49.388672 L 56.083984 48.349609 C 56.253853 47.93118 56.286067 47.998707 56.386719 47.824219 L 56.386719 14.982422 C 56.008492 14.540905 56.184788 14.633873 56.083984 14.458984 L 34.898438 2.2265625 C 34.637836 2.2276625 34.641642 2.1586844 34.595703 2.1464844 L 29.404297 2.1464844 z "
+     d="M 30.050781,5.1738281 10.640625,16.380859 v 30.285157 l 0.273438,0.222656 20.673828,11.9375 h 0.824218 c 6.890838,-3.978138 13.781639,-7.957009 20.671875,-11.935547 l 0.275391,-0.224609 V 16.380859 L 33.949219,5.1738281 Z"
+     transform="matrix(0.95840674,0,0,0.95840674,1.3310106,1.3400942)" />
+  <path
+     id="path12"
+     style="display:inline;fill:none;stroke:#4e9a06;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     d="M 10.374933,21.779969 V 47.907067 L 29.451818,58.921111 M 21.544554,54.422302 22.0822,54.11194 m 2.640553,-31.442312 0.748043,-6.638995 m -3.668132,7.149687 0.980345,-8.701429 m 8.158204,3.425384 0.980356,-8.7013046 m -4.136912,11.6990856 0.374114,-3.31956 M 21.544885,28.539205 V 54.422867 M 15.631773,25.12476 v 26.496854 m 0,-26.806589 v 0.310361 m 6.450697,28.987145 1.109878,-0.64083 1.5778,-14.00316 M 22.08247,28.539365 v 25.572698 m 4.192221,-27.99403 -0.374114,3.319437 m -4.355692,-0.899088 h 0.537646 m 4.195172,-2.735244 -0.0028,0.314982 m 9.138375,-5.275405 -0.74824,6.638995 m -0.803551,0.464023 0.748032,-6.638995 m -3.668132,7.149441 0.980343,-8.701305 m 3.494584,0.772773 -0.0028,0.314982 m 4.66641,2.33763 0.980345,-8.70143 m -4.13679,11.699209 0.374115,-3.319558 m -20.157275,-2.330748 -0.0028,0.314983 m 0.0016,-0.314649 -0.23171,-0.173587 m 5.873264,-5.8799 0.0023,0.0046 m -0.0023,-0.0046 2.6878,1.55174 m 6.450775,-6.828014 0.0023,0.00477 m -3.760085,8.378074 -0.0028,0.0014 m 0.0028,-0.0014 2.687801,1.551742 M 28.73349,17.25089 28.161454,17.581161 m -12.529468,7.234004 0.268916,-0.155088 m -0.268916,0.465436 5.913088,3.413955 0.268718,-0.465437 m -5.912841,-3.413954 -0.268916,0.465436 m 10.642919,0.993631 -4.192098,2.420347 m -0.268928,-0.465436 0.268928,0.465436 m 4.192098,-2.420347 -0.2287,-0.488765 m 0.23171,0.173784 -0.23171,-0.173784 m 5.875477,-5.875108 -8.025791,4.633592 m 8.023579,-4.638262 0.0023,0.0048 m -0.0023,-0.0048 2.6878,1.55174 m -2.648223,-2.1894 -0.0396,0.63761 m 3.493722,1.09239 -0.803746,0.464034 m 0.803759,-0.464059 -0.228687,-0.488569 m -0.577273,0.947971 0.0024,0.0048 m 0.03738,-0.642231 -0.03962,0.63761 m 0.808958,-0.77442 -0.23171,-0.173586 m 5.87559,-5.875662 -8.025904,4.63427 m 4.265803,3.744287 -0.0028,0.0014 m 0.0028,-0.0014 2.687801,1.551618 m -2.115788,-1.881905 -0.572036,0.330271 m -21.667841,11.336625 -1.577719,14.002004 -1.109923,0.640903 m 4.192185,-27.993415 -0.374114,3.319559 m 0.374114,-3.319559 -4.192098,2.420348 m 4.192098,-2.420348 -0.228699,-0.488568 m 7.86302,9.736534 4.569309,2.637899 M 16.90859,20.354705 12.407495,22.953273 m 1.813294,-4.15031 2.687801,1.551742 m 6.450451,-6.827908 2.6878,1.551742 m 3.225164,1.862089 2.687678,1.551742 m -2.687678,-1.551742 -0.537646,0.310361 2.6878,1.551741 -8.600887,4.965696 m -2.687678,-1.551742 2.687678,1.551742 m -2.687678,-1.551742 -4.232167,2.443456 5.912841,3.413953 m 4.232415,-2.443578 -4.232415,2.443578 m 1.54449,-3.995197 2.687802,1.551619 m 5.912841,-6.517314 -8.600766,4.965695 m 8.600766,-4.965695 2.6878,1.551742 m 0.537646,-0.310348 -0.537646,0.310348 m -2.150192,-1.86209 2.687801,1.551742 m 3.225165,1.862089 2.687677,1.551742 m -2.687677,-1.551742 -0.537648,0.310361 2.687802,1.551741 -8.600888,4.965573 m -2.687678,-1.551742 2.687678,1.551742 m -2.687678,-1.551742 -4.501095,2.59869 M 12.944209,23.264387 V 50 m -0.537647,-27.046582 0.537647,0.310362 m 11.826972,6.827867 v 26.193394 l 4.569309,2.6379 V 32.729546 l -0.06577,-2.585915 5.212162,0.01098 L 54.790831,18.430689 33.318855,6.4462677 30.678884,6.4459307 10.374933,18.169014 v 3.568393 l 2.031666,1.216024 M 41.097652,23.768426 49.69854,18.80273 31.959683,8.5609787 14.220789,18.802963 m 11.288443,-3.414076 0.537647,-0.310361 0.227665,0.488071 -0.74824,6.638996 M 33.318855,6.4462677 v -3.18936 m -2.639971,3.189023 v -3.189023 m 2.639129,3.189023 H 30.679004 M 54.790831,18.430689 33.318975,6.4459307 m -2.639971,0 L 10.374933,18.169014 M 29.51317,30.155817 h 4.974913 m -4.974913,0 V 60 M 34.48688,30.154614 V 60 m 0,-29.846108 20.303951,-11.723203"
+     inkscape:label="strokes" />
+</svg>

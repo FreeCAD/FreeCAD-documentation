@@ -22,7 +22,7 @@ L\'outil **TechDraw Ligne parallèle** ajoute une ligne cosmétique parallèle �
 
 ## Utilisation
 
-1.  Spécifiez à votre convenance les attributs de ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
+1.  Spécifiez à votre convenance les attributs de ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw Choix des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
 2.  Sélectionnez une arête droite pour déterminer la direction et la longueur de la ligne.
 3.  Sélectionnez un sommet pour déterminer la position de la ligne.
 4.  Il existe plusieurs façons de lancer l\'outil :

@@ -15,7 +15,7 @@
 
 ## Description
 
-This tool allows you to build all kinds of panel-like elements, typically for panel constructions like the [WikiHouse](http://www.wikihouse.cc/) project, but also for all kinds of objects that are based on a flat profile.
+The **Arch Panel** tool allows you to build all kinds of panel-like elements, typically for panel constructions like the [WikiHouse](https://www.wikihouse.cc/) project, but also for all kinds of objects that are based on a flat profile.
 
 <img alt="" src=images/Arch_Panel_example.jpg  style="width:700px;">
 
@@ -28,7 +28,7 @@ Since version <small>(v0.17)</small>  the Arch Panel can also be used to create 
 ## Usage
 
 1.  Select a 2D shape (Draft object, face or sketch) - optional.
-2.  Press the **<img src="images/Arch_Panel.svg" width=16px> [Arch Panel](Arch_Panel.md)** button, or press **P** then **A** keys.
+2.  Press the **<img src="images/Arch_Panel.svg" width=16px> [Panel](Arch_Panel.md)** button, or press **P** then **A** keys.
 3.  Adjust the desired properties.
 
 ### Limitations
@@ -73,7 +73,9 @@ Since version <small>(v0.17)</small>  the Arch Panel can also be used to create 
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Panel tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Panel tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, name="Panel")
 ```
@@ -82,7 +84,9 @@ Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, 
     -   If no `baseobj` is given, you can provide the numerical values for the `length`, `width`, and `thickness` to create a block panel.
 -   If a `placement` is given, it is used.
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -104,6 +108,11 @@ Panel = Arch.makePanel(Rect, thickness=36)
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/uk
+⏵ [documentation index](../README.md) > Arch Panel/uk

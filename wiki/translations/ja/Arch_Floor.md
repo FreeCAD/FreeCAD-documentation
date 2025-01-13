@@ -12,17 +12,21 @@
 
 </div>
 
+
+
 ## 説明
 
 
 <div class="mw-translate-fuzzy">
 
-Arch Floorは床を作成するのに特に便利な追加プロパティを持った特殊なタイプのです。特徴的なのがheightプロパティを持っていることで、その子オブジェクト（[壁](Arch_Wall.md)や[骨組み](Arch_Structure.md)）ではそれを使ってその高さを自動で設定することができます。
+Arch Floorは床を作成するのに特に便利な追加プロパティを持った特殊なタイプのです。特徴的なのがheightプロパティを持っていることで、その子オブジェクト（[壁や](Arch_Wall.md)[骨組み](Arch_Structure.md)）ではそれを使ってその高さを自動で設定することができます。
 
 
 </div>
 
 As of <small>(v0.18)</small>  the Arch Floor is derived entirely from the [Arch BuildingPart](Arch_BuildingPart.md) object, which is a general container to organize a building model not limited to floors or storeys. Older Floor objects can be converted to the new type by right clicking on them and choosing `Convert to BuildingPart`.
+
+
 
 ## 使用方法
 
@@ -34,14 +38,20 @@ As of <small>(v0.18)</small>  the Arch Floor is derived entirely from the [Arch 
 
 </div>
 
+
+
 ## オプション
 
 -   After creating a floor, you can add more objects to it by drag and dropping them in the Tree View or by using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
 -   You can remove objects from a floor by drag and dropping them out of it the Tree View or by using the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
 
+
+
 ## プロパティ
 
 An Arch Floor object shares all properties from an [Arch BuildingPart](Arch_BuildingPart.md), with the **Ifc Type** set to `"Building Storey"`.
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
@@ -54,7 +64,7 @@ An Arch Floor object shares all properties from an [Arch BuildingPart](Arch_Buil
 
 <div class="mw-translate-fuzzy">
 
-Floorツールは、[マクロ](macros.md)やPythonコンソールから次の関数を使って使うことができます：
+Floorツールは、[マクロやPythonコンソールから](macros.md)次の関数を使って使うことができます：
 
 
 </div>
@@ -98,6 +108,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/ja
+⏵ [documentation index](../README.md) > Arch Floor/ja

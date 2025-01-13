@@ -1,11 +1,29 @@
 # Manual:Creating renderings/ro
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 In limbajul computerului, cuvântul [rendering](https://en.wikipedia.org/wiki/Rendering_%28computer_graphics%29) este utilizat pentru a descrie o imagine frumoasă produsă de către un model 3D. Desigur, am putea spune că ceea ce vedem într-o vizualizarea 3D FreeCAD este deja ceva plăcut. Cu toate acestea, oricine a văzut un film recent de la Hollywood, știe că este posibil să se producă imagini cu un computer aproape că nu pot fi deosebite de o fotografie.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Desigur, producerea de imagini foto realiste necesită o mulțime de lucruri, în plus față de o aplicație 3D care oferă instrumente specifice în acest scop, precum controale precise pentru materiale și iluminat. Deoarece FreeCAD este o aplicație orientată mai mult spre modelarea tehnică, nu conține niciun fel de instrumente avansate de randare.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 +Fortunately, lumea open source oferă numeroase aplicații pentru a produce imagini realiste. Cea mai faimoasă este probabil [Blender](http://www.blender.org), care este foarte popular și utilizat pe scară largă în industria cinematografică și de jocuri. Modelele 3D pot fi exportate cu ușurință și cu fidelitate din FreeCAD și importate în Blender, unde puteți adăuga materiale realiste și iluminare și puteți produce imagini finale sau chiar animații.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -19,19 +37,35 @@ Alte instrumente open source de randare sunt create pentru a fi folosite în alt
 
 ### Instalare
 
+
+<div class="mw-translate-fuzzy">
+
 Înainte de a putea utiliza Raytracing Workbench în FreeCAD, una dintre aceste două aplicații de randare trebuie instalată pe sistemul dvs.This is usually very straightforward. They both provide installers for many platforms or are usually included in the software repositories of most Linux distributions.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Odată POV-Ray ori Luxrender este instalat, trebuie să setăm calea spre executabilul lor principal în preferințele FreeCAD. Acest lucru este de obicei necesar numai în Windows și Mac. Pe Linux, FreeCAD o va alege din locațiile standard. Locația executabililor de tip povray sau luxrender poate fi găsită prin căutarea în sistemul dvs. pentru fișiere numite povray (sau povray.exe pe Windows) și luxrender (sau luxrender.exe pe Windows).
 
-![](images/Exercise_raytracing_01.jpg )
 
-În acest ecran de preferințe putem seta dimensiunea dorită a imaginii pe care dorim să o producem.
+</div>
+
+![](images/FreeCAD_Render_Preferences.png )
 
 
 
 ### Randarea cu PovRay 
 
+
+<div class="mw-translate-fuzzy">
+
 Vom folosi tabela pe care am modelat-o în capitolul [traditional modeling](Manual:Traditional_modeling,_the_CSG_way.md) pentru a produce randări cu PovRay și Luxrender.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -45,7 +79,7 @@ Vom folosi tabela pe care am modelat-o în capitolul [traditional modeling](Manu
 
 </div>
 
-![](images/Exercise_raytracing_02.jpg )
+![](images/FreeCAD_Render_Project.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -58,7 +92,7 @@ Acum putem face acest lucru prin selectarea tuturor obiectelor care compun masa 
 
 </div>
 
-![](images/Exercise_raytracing_03.jpg )
+![](images/FreeCAD_Render_Bodies.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -76,11 +110,7 @@ Acum putem face acest lucru prin selectarea tuturor obiectelor care compun masa 
 
 </div>
 
-![](images/Exercise_raytracing_04.jpg )
-
-
-
-### Randarea cu LuxRender 
+![](images/FreeCAD_Render_Result.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -91,20 +121,6 @@ Acum putem face acest lucru prin selectarea tuturor obiectelor care compun masa 
 -   Press the <img alt="" src=images/Raytracing_InsertPart.png  style="width:16px;"> [Insert part](Raytracing_InsertPart.md) button.
 -   Select the Luxrender project, and press the <img alt="" src=images/Raytracing_Render.png  style="width:16px;"> [Render](Raytracing_Render.md) button.
 -   Luxrender works differently to Povray. When you start the render, the Luxrender application will open and immediately start rendering:
-
-
-</div>
-
-![](images/Exercise_raytracing_05.jpg )
-
--   If you leave that window open, Luxrender will continue calculating and rendering forever, progressively refining the image. It is up to you to decide when the image has reached a sufficient quality for your needs, and stop the render.
--   There are also many controls to play with, on the left panel. All these controls will change the aspect of the image being rendered on the fly, without stopping the rendering.
--   Atunci când ajungeți la concluzia că avem o calitate suficient de bună, apăsați**Render-\>stop**, și apoi **File-\>Export to image-\>Tonemapped low dynamic range** pentru a salva imaginea randată îîntr-un fișier png .
-
-
-<div class="mw-translate-fuzzy">
-
-Puteți extinde foarte mult posibilitățile de randare ale FreeCAD, creând noi șabloane pentru Povray sau Luxrender. Acest lucru este explicat în [Raytracing Workbench](Raytracing_Workbench.md) documentation.
 
 
 </div>

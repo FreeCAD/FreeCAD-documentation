@@ -2,10 +2,10 @@
  GuiCommand:
    Name: Arch_IfcSpreadsheet
    Name/fr: Arch Tableur IFC
-   MenuLocation: Arch , Utilitaires , Créer une feuille de calcul IFC
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: Utilitaires , Créer une feuille de calcul IFC...
+   Workbenches: BIM_Workbench/fr
    Shortcut: **I** **P**
-   SeeAlso: Arch_IFC/fr, Arch_IfcExplorer/fr
+   SeeAlso: Arch_IFC/fr
 ---
 
 # Arch IfcSpreadsheet/fr
@@ -18,11 +18,10 @@ Cet outil crée une feuille de calcul pour stocker les propriétés [IFC](Arch_I
 
 ## Utilisation
 
-1.  Sélectionner un objet.
-2.  Lancer la commande en utilisant plusieurs méthodes :
-    -   En appuyant sur le bouton **<img src="images/Arch_IfcSpreadsheet.svg" width=16px> Créer une feuille de tableur IFC** dans la barre d\'outils.
-    -   Utiliser le raccourci clavier **I** puis **P**.
-    -   Utiliser l\'entrée **Arch → Utilitaires → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Créer une feuille de tableur IFC** du menu supérieur.
+1.  Sélectionnez un objet.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Créer une feuille de calcul IFC...** du menu.
+    -   Utilisez le raccourci clavier : **I** puis **P**.
 
 
 
@@ -53,5 +52,13 @@ spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/fr
+⏵ [documentation index](../README.md) > Arch IfcSpreadsheet/fr

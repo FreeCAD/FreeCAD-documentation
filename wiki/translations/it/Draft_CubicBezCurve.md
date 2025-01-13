@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft CubicBezCurve
-   Name/it: Curva di Bézier cubica
-   MenuLocation: Drafting , Strumenti Bezier , Curva di Bézier cubica
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Curva di Bézier cubica
+   MenuLocation: Drafting , Strumenti Bezier , Curva di Bézier cubica<br>2D Drafting , Curva di Bézier cubica
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Version/it: 0.19
    SeeAlso: Draft BezCurve/it, Draft BSpline/it
 ---
@@ -30,8 +30,9 @@ I comandi [Curva di Bézier](Draft_BezCurve/it.md) e Curva di Bézier cubica uti
 Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 
 1.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Curva di Bézier cubica](Draft_CubicBezCurve.md)**.
-    -   Selezionare l\'opzione **Drafting → Strumenti Bézier → <img src="images/Draft_CubicBezCurve.svg" width=16px> Curva di Bézier cubica** dal menu.
+    -   Premere il pulsante **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Curva di Bézier cubica](Draft_CubicBezCurve/it.md)**.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Drafting → Strumenti Bézier → <img src="images/Draft_CubicBezCurve.svg" width=16px> Curva di Bézier cubica** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **2D Drafting → <img src="images/Draft_CubicBezCurve.svg" width=16px> Curva di Bézier cubica** dal menu.
 2.  Si apre il pannello delle attività **Curva di Bézier cubica**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
 3.  Non è possibile inserire i punti tramite il pannello delle attività.
 4.  Per i seguenti [Modelli di navigazione con mouse](Mouse_navigation/it.md) è necessario tenere premuto un tasto della tastiera:

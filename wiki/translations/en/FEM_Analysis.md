@@ -11,10 +11,10 @@
 
 ## Description
 
-The FEM Analysis could be seen as a Container that holds all objects of a Finite Element Analysis. It is mandatory to have an analysis container which holds all the needed objects. At least one of the following objects is necessary for a mechanical analysis:
+The FEM Analysis could be seen as a container that holds all objects of a Finite Element Analysis. It is mandatory to have an analysis container that holds all the needed objects. At least one of the following objects (apart from the mesh) is necessary for a mechanical analysis:
 
--   [solid material](FEM_MaterialSolid.md)
--   [fixed boundary condition](FEM_ConstraintFixed.md) or [displacement boundary condition](FEM_ConstraintDisplacement.md)
+-   [solid material](FEM_MaterialSolid.md),
+-   [fixed boundary condition](FEM_ConstraintFixed.md) or [displacement boundary condition](FEM_ConstraintDisplacement.md) or [rigid body constraint](FEM_ConstraintRigidBody.md).
 
 ## Usage
 
@@ -23,8 +23,8 @@ The FEM Analysis could be seen as a Container that holds all objects of a Finite
     -   Select the **Model → <img src="images/FEM_Analysis.svg" width=16px> Analysis container‏‎** option from the menu.
     -   Use the keyboard shortcut: **S** then **A**.
 2.  A new Analysis is created and set to active.
-3.  Other objects could be added or removed to the analysis container by drag and drop.
-4.  To add new FEM Objects to the document the analysis has to be active. Double click on the analysis does activate the analysis.
+3.  Other objects could be added or removed from the analysis container by drag and drop.
+4.  To add new FEM objects to the document the analysis has to be active. Double-clicking on the analysis container activates the analysis.
 
 ## Options
 

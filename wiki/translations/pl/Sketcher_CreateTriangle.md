@@ -6,6 +6,7 @@
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **P** **3**
    Version: 0.15
+   SeeAlso: Sketcher_CreateRegularPolygon/pl
 ---
 
 # Sketcher CreateTriangle/pl
@@ -14,7 +15,7 @@
 
 ## Opis
 
-Rysuje trójkąt równoboczny wpisany w okrąg z geometrii konstrukcyjnej. Po uruchomieniu narzędzia kursor myszki zmienia kształt na biały krzyż z czerwoną ikoną sześciokąta. W czasie rzeczywistym wyświetlane są obok niego współrzędne wskaźnika w kolorze niebieskim.
+Narzędzie <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:24px;"> **Utwórz trójkąt równoboczny** tworzy trójkąt równoboczny. {{Version/pl|1.0}}: Jest to to samo narzędzie co [Utwórz wielokąt foremny](Sketcher_CreateRegularPolygon/pl.md), ale z liczbą boków ustawioną na 3.
 
 ![](images/SketcherCreateTriangleExample.png‎ )
 
@@ -22,16 +23,13 @@ Rysuje trójkąt równoboczny wpisany w okrąg z geometrii konstrukcyjnej. Po ur
 
 ## Użycie
 
-1.  Naciśnij przycisk **[<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> [Trójkąt](Sketcher_CreateTriangle/pl.md)**.
-2.  Kliknij raz, aby ustawić środek.
-3.  Przesuń kursor i kliknij drugi raz, aby ustawić jeden z wierzchołków.
-4.  Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszki powoduje zakończenie działania narzędzia.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
-
-
-## Uwagi
-
-Wyznaczony okrąg to geometria konstrukcyjna, która jest widoczna tylko podczas edycji szkicu.
+1.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_CreateTriangle.svg" width=16px> '''Trójkąt'''**.
+    -   Wybierz z menu **Szkic → Elementy geometryczne szkicownika → <img src="images/Sketcher_CreateTriangle.svg" width=16px> Utwórz trójkąt równoboczny**.
+    -   Użyj skrótu klawiaturowego: **G**, następnie **P**, a potem **3**.
+2.  Dalsze kroki można znaleźć na stronie [Utwórz wielokąt foremny](Sketcher_CreateRegularPolygon/pl#Użycie.md).
 
 
 

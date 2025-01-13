@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand
    Name: FEM ConstantVacuumPermittivity
    MenuLocation: Model , Overwrite Constraints , Constant vacuum permittivity
    Workbenches: FEM_Workbench
    Version: 0.19
    SeeAlso: 
+}}
+{{GuiCommandFemInfo
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstantVacuumPermittivity/en

@@ -1,37 +1,43 @@
 # WikiRobots/it
 **I robot sono intrinsecamente pericolosi in quanto possono causare automaticamente molti danni. Usalo con estrema cura!**
 
+
+
 ## Panoramica
 
 Le attività ripetitive possono essere automatizzate utilizzando robot o bot, ovvero programmi software che operano sul wiki da soli.
 
-The natural and most commonly used robots for wiki sites are provided by MediaWiki, under the package name Pywikibot. See [Manual:Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) for the full information.
+I robot naturali e più comunemente usati per i siti wiki sono forniti da MediaWiki, sotto il nome del pacchetto Pywikibot. Vedere [Manuale:Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) per informazioni complete.
 
-In a nutshell, Pywikibot is a collection of Python scripts able to use the native wiki API to act on wiki sites. To see the API list for the FreeCAD wiki, visit <http://www.freecadweb.org/wiki/api.php>
+In poche parole, Pywikibot è una raccolta di script Python in grado di utilizzare l\'API wiki nativa per agire sui siti wiki. Per visualizzare l\'elenco delle API per la wiki di FreeCAD, visitare <http://www.freecadweb.org/wiki/api.php>
 
-In order to use Pywikibot, you need to:
+Per utilizzare Pywikibot è necessario:
 
-1.  install the Pywikibot package
-2.  configure Pywikibot to work on the FreeCAD Wiki
-3.  launch the scripts you need for the task at hand
+1.  installare il pacchetto Pywikibot
+2.  configurare Pywikibot per lavorare sul Wiki di FreeCAD
+3.  avviare gli script necessari per l\'attività da svolgere
 
-There is a wealth of information on how to install, configure and use Pywikibot. However, please be aware that this information, although useful, can be misleading, since it mixes instructions related to two different Pywikibot codebases, and different versions of the Pywikibot scripts collection.
+Sono disponibili numerose informazioni su come installare, configurare e utilizzare Pywikibot. Tuttavia, tenere presente che queste informazioni, sebbene utili, possono essere fuorvianti, poiché mescolano istruzioni relative a due diverse basi di codice Pywikibot e diverse versioni della raccolta di script Pywikibot.
 
-In the following, you will find the basic instructions to set up and use Pywikibot on the FreeCAD wiki. This will allow you to perform the most common tasks. For advanced usage, refer to the [Manual:Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot), and to the Python source code.
+Di seguito si troveranno le istruzioni di base per configurare e utilizzare Pywikibot sul wiki di FreeCAD. Ciò consentirà di eseguire le attività più comuni. Per un utilizzo avanzato, fare riferimento al [Manual:Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) e al codice sorgente Python.
 
-## Installation
 
-Go to <http://tools.wmflabs.org/pywikibot/> and download **package/pywikipedia/core.zip** (the project is also under github, gerrit, etc. but this is a simple way to get a full self-contained package).
 
-Unzip the content in your preferred directory.
+## Installazione
 
-Unless you want to install the libraries into your Python libs, you are done (if you still want to install them, check the file **INSTALL** in the base directory).
+Andare su <http://tools.wmflabs.org/pywikibot/> e scaricare **package/pywikipedia/core.zip** (il progetto è anche sotto github, gerrit, ecc. ma questo è un modo semplice per ottenere un pacchetto completo e autonomo).
 
-Pywikibot works with Python 2.6 and 2.7 with no issues. Python 3 has been not tested so far with FreeCAD wiki works as well.
+Decomprimi il contenuto in una directory preferita.
 
-## Configuration
+A meno che non si voglia installare le librerie all\'interno proprie librerie Python, si ha finito (se si vuol ancora installarle, controllare il file **INSTALL** nella directory di base).
 
-You must save the following Python code as a file with the name **user-config.py** in the base directory where you unzipped **package/pywikipedia/core.zip** (to be clear, in the same directory where you already find a file called **user-config.py.sample**).
+Pywikibot funziona con Python 2.6 e 2.7 senza problemi. Python 3 non è stato testato finora con FreeCAD wiki funziona altrettanto bene.
+
+
+
+## Configurazione
+
+Si deve salvare il seguente codice Python come file con il nome **user-config.py** nella directory di base in cui si ha decompresso **package/pywikipedia/core.zip** (per essere chiari, all\'interno della stessa directory in cui è presente già un file chiamato **user-config.py.sample**).
 
 
 ```python
@@ -43,12 +49,12 @@ usernames['freecadwiki']['en'] = u'<<yourWikiUserName>>'
 console_encoding = 'cp437'
 ```
 
-In the above code:
+Nel codice sopra:
 
--   replace *\<\>* with your Wiki user name
--   replace *cp437* with your *console_encoding*. To find out what is your console encoding, for Windows and Linux, launch the Python interpreter, enter {{SystemInput|import sys}} followed by {{SystemInput|print sys.stdout.encoding}}. Python will write your {{SystemOutput|console_encoding}} on the screen.
+-   sostituire *\<\>* con il proprio nome utente Wiki
+-   sostituire *cp437* con il proprio *console_encoding*. Per scoprire qual è la codifica della propria console, per Windows e Linux, avviare l\'interprete Python, inserire {{SystemInput|import sys}} seguito da {{SystemInput|print sys.stdout.encoding}}. Python scriverà il proprio {{SystemOutput|console_encoding}} sullo schermo.
 
-Then you must save the following Python code as a file with the name **freecadwiki_family.py** under the sub-directory **/pywikibot/families** (together with the other **family_xxx.py** files).
+Quindi si deve salvare il seguente codice Python come file con il nome **freecadwiki_family.py** nella sottodirectory **/pywikibot/families** (insieme agli altri **family_xxx.py ** file).
 
 
 ```python
@@ -56,7 +62,7 @@ Then you must save the following Python code as a file with the name **freecadwi
 
 __version__ = '$Id: 7f3891c3bbbfbd69c0b005de953514803d783d92 $'
 
-from pywikibot import family
+dalla famiglia di importazione pywikibot
 
 
 # The MediaWiki family
@@ -91,64 +97,68 @@ class Family(family.WikimediaFamily):
         #return 'https' # My server uses https
 ```
 
-## Usage
 
-You are now all set to launch the Pywikibot scripts. The scripts themselves are contained in the **/scripts** subdirectory, from which you can know the names.
 
-To launch the scripts, open a shell and move to the base directory (the installation one, NOT the **/scripts** subdirectory), and write
+## Utilizzo
+
+Ora si è pronti per avviare gli script Pywikibot. Gli script stessi sono contenuti nella sottodirectory **/scripts**, dalla quale si può conoscere i nomi.
+
+Per avviare gli script, aprire una shell e spostarsi nella directory di base (quella di installazione, NON la sottodirectory **/scripts**) e scrivere
 
 
 {{SystemInput|python pwb.py <<scriptname>>.py -<<parameter>>}}
 
-where of course you replace *\<\>* with the name of the script you are interested in, and *\<\>* with the parameter(s) required for the given script.
+dove ovviamente si deve sostituire *\<\>* con il nome dello script che interessa e *\<\>* con i parametri richiesti per lo script specificato.
 
-To have a description of the usage and parameters of any script, simply use the *-help* parameter. For instance, to have a description of the **replace.py** script (one of the most useful), type
+Per avere una descrizione dell\'utilizzo e dei parametri di qualsiasi script, utilizzare semplicemente il parametro *-help*. Ad esempio, per avere una descrizione dello script **replace.py** (uno dei più utili), digitare
 
 
 {{SystemInput|python pwb.py replace.py -help}}
 
-There is another very useful parameter, valid for all the scripts, called *-simulate*, that allows you to test commands without harming the Wiki. Use it, before going \'live\'.
+C\'è un altro parametro molto utile, valido per tutti gli script, chiamato *-simulate*, che permette di testare i comandi senza danneggiare il Wiki. Si consiglia di usarlo prima di andare \"dal vivo\".
 
-## Examples
 
-This command will log into the wiki
+
+## Esempi
+
+Questo comando permetterà di accedere al wiki
 
 
 {{SystemInput|pwb.py login.py}}
 
-This command will print a list of all the pages containing a link to SourceForge
+Questo comando stamperà un elenco di tutte le pagine contenenti un collegamento a SourceForge
 
 
 {{SystemInput|pwb.py listpages.py -weblink:sourceforge.net}}
 
-This command will replace all the links to the old SourceForge Forum with a link to the new freecadweb.org-hosted Forum
+Questo comando sostituirà tutti i collegamenti al vecchio forum di SourceForge con un collegamento al nuovo forum ospitato da freecad.org
 
 
-{{SystemInput|pwb.py replace.py -weblink:sourceforge.net/apps/phpbb/free-cad "sourceforge.net/apps/phpbb/free-cad" "forum.freecadweb.org"}}
+{{SystemInput|pwb.py replace.py -weblink:sourceforge.net/apps/phpbb/free-cad "sourceforge.net/apps/phpbb/free-cad" "forum.freecad.org"}}
 
-This command will print a list of all the pages containing the word \'PartDesign\', starting with the page titled \"2d Drafting Module\" and going on alphabetically
+Questo comando stamperà un elenco di tutte le pagine contenenti la parola \'PartDesign\', iniziando con la pagina intitolata \"2d Drafting Module\" e proseguendo in ordine alfabetico
 
 
 {{SystemInput|pwb.py listpages.py -start:"2d Drafting Module" -grep:PartDesign}}
 
-This command will replace all the secure links to the old SourceForge Forum with a link to the new freecadweb.org-hosted Forum in the translated pages
+Questo comando sostituirà tutti i collegamenti certi al vecchio forum di SourceForge con un collegamento al nuovo forum ospitato da freecad.org nelle pagine tradotte
 
 
-{{SystemInput|pwb.py replace.py -start:Translations:! "https://sourceforge.net/apps/phpbb/free-cad" "http://forum.freecadweb.org"}}
+{{SystemInput|pwb.py replace.py -start:Translations:! "https://sourceforge.net/apps/phpbb/free-cad" "http://forum.freecad.org"}}
 
-## FreeCAD Wiki Related Commands 
+## Comandi correlati a FreeCAD Wiki 
 
-Count all pages that a specific wiki templates is used in
+Conta tutte le pagine in cui viene utilizzato un modello wiki specifico
 
 
 {{SystemInput|python3 pwb.py templatecount -count GuiCommand}}
 
-List all pages that a specific wiki templates is used in
+Elenca tutte le pagine in cui viene utilizzato un modello wiki specifico
 
 
 {{SystemInput|python3 pwb.py templatecount -list GuiCommand}}
 
-Replace a string in all the pages listed in the Arch category (a/k/a )
+Sostituisci una stringa in tutte le pagine elencate nella categoria Arch
 
 
 {{SystemInput|python3 pwb.py replace.py -cat:Arch}}

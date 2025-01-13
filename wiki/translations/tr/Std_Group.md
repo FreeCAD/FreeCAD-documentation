@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Tanım
 
 
@@ -41,6 +43,8 @@ To group 3D objects as a single unit, with the intention of creating assemblies,
 *Various elements inside Std Groups in the tree view.*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Kullanım
@@ -62,6 +66,8 @@ farenin sol düğmesini basılı tutun ve nesneyi istediğiniz yeni konuma sür�
 
 </div>
 
+
+
 ## Özellikler
 
 The [Std Group](Std_Group.md), internally called [App DocumentObjectGroup](App_DocumentObjectGroup.md) (`App::DocumentObjectGroup` class), is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class) and inherits all its properties.
@@ -80,6 +86,8 @@ The Std Group has the same properties as the [App FeaturePython](App_FeaturePyth
 
 
 </div>
+
+
 
 ## Betik
 
@@ -123,6 +131,8 @@ obj.Label = "Custom label"
 ```
 
 For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPython` object with a custom icon and additional properties.
+
+
 
 ## Linkler
 

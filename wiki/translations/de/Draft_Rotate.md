@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Rotate
    Name/de: Draft Drehen
-   MenuLocation: Änderung , Drehen
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Änderung , Drehen<br>Bearbeiten , Drehen
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **R****O**
    Version: 0.7
    SeeAlso: Draft_SubelementHighlight/de
@@ -15,9 +15,9 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Draft Drehen** dreht oder kopiert ausgewählte Objekte um ein Zentrum in einem gegebenen Winkel. Im Unterelemente-Modus dreht die Anweisung ausgewählte Punkte und Kanten oder Kopien von ausgewählten Kanten von [Draft Linien](Draft_Line/de.md) und [Draft Drähte](Draft_Wire/de.md).
+Der Befehl <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Draft Drehen** dreht oder kopiert ausgewählte Objekte um ein Zentrum in einem gegebenen Winkel. Die Drehachse steht senkrecht auf der aktuellen [Arbeitsebene](Draft_SelectPlane/de.md) und der Drehwinkel ist relativ zu dieser Ebene. Im Unterelemente-Modus dreht die Anweisung ausgewählte Punkte und Kanten oder Kopien von ausgewählten Kanten von [Draft Linien](Draft_Line/de.md) und [Draft Linienzügen](Draft_Wire/de.md).
 
-Der Befehl kann auf 2D-Formen angewendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, kann aber auch mit vielen Arten von 3D-Objekten benutzt werden, wie denen, die mit den Arbeitsbereichen [Part](Part_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erzeugt wurden.
+Der Befehl kann auf 2D-Formen angewendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, kann aber auch mit vielen Arten von 3D-Objekten benutzt werden, wie denen, die mit den Arbeitsbereichen [Part](Part_Workbench/de.md) oder [BIM](BIM_Workbench/de.md) erzeugt wurden.
 
 <img alt="" src=images/Draft_Rotate_example.jpg  style="width:400px;"> 
 *Drehen eines Objekts um einen Drehpunkt*
@@ -31,7 +31,8 @@ Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Cons
 1.  Wahlweise ein oder mehrere Objekte auswählen oder Unterelemente von [Draft Linien](Draft_Line/de.md) oder [Draft Drähten](Draft_Wire/de.md).
 2.  Es gibt mehrere Möglichkeiten den Befehl auszuführen:
     -   Die Schaltfläche **<img src="images/Draft_Rotate.svg" width=16px> [Drehen](Draft_Rotate/de.md)** klicken.
-    -   Den Menüeintrag **Änderung → <img src="images/Draft_Rotate.svg" width=16px> Drehen** wählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Änderung → <img src="images/Draft_Rotate.svg" width=16px> Drehen** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Bearbeiten → <img src="images/Draft_Rotate.svg" width=16px> Drehen** auswählen.
     -   Das Tastenkürzel **R** dann **O**.
 3.  Wenn noch kein Objekt ausgewählt wurde: ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
 4.  Der Aufgaben-Bereich **Drehen** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
@@ -44,11 +45,11 @@ Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Cons
 
 ## Optionen
 
-Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 1.0).
 
 -   Zum manuellen Eingeben von Koordinaten, werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam, den Mauszeiger aus der [3D-Ansicht](3D_view/de.md) heraus zu bewegen, bevor Koordinaten eingegeben werden.
 
--    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md).
 
 -    **N**drücken oder die Checkbox **Fortsetzen** aktivieren, um den Fortsetzen-Modus umzuschalten. Ist der Fortsetzen-Modus aktiviert, wird der Befehl nach dem Beenden erneut gestartet. Dieser Modus ist nur sinnvoll, wenn der Kopieren-Modus aktiviert ist. Abhängig von der Einstellung **Select base objects after copying** werden entweder die Originalobjekte für den nächsten Befehlsaufruf ausgewählt oder die zuletzt erstellten Kopien. Siehe [Einstellungen](#Einstellungen.md).
 
@@ -68,7 +69,8 @@ Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geänd
 
 ## Hinweise
 
--   Ein Objekt das [angehängt](Part_EditAttachment/de.md) ist, kann nicht mit der Drehen-Anweisung gedreht werden. Entweder sein {{PropertyData/de|Support}}-Objekt wird gedreht, oder sein {{PropertyData/de|Attachment Offset}} wird geändert, um es zu drehen.
+-   Ein Objekt, das [angehängt](Part_EditAttachment/de.md) ist, kann nicht mit dem Befehl Drehen gedreht werden. Entweder wird sein {{PropertyData/de|Support}}-Objekt gedreht, oder sein {{PropertyData/de|Attachment Offset}} wird geändert, um es zu drehen.
+-   Das Basiswinkelkonzept kann irgendwie verwirrend sein, besonders, da es nur funktioniert, wenn Punkte ausgewählt werden und nicht, wenn der Winkel im Eingabefeld eingegeben wird. Eine Erklärung mit einem Beispiel, wie es funktioniert, findet man in diesem [Forum Beitrag](https://forum.freecad.org/viewtopic.php?p=736674#p736674).
 
 
 
@@ -82,7 +84,7 @@ Siehe auch: [Editor Einstellungen](Preferences_Editor/de.md) und [Entwurf Einste
 
 ## Skripten
 
-Siehe auch: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Verwende die `Drehen`-Methode des Entwurfmodules, um Objekte zu drehen.
 

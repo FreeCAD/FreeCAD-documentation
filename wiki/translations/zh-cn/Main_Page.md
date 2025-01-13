@@ -1,7 +1,15 @@
 # Main Page/zh-cn
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
+
 ## 介绍
 
 这是[FreeCAD](http://www.freecadweb.org) 的文档wiki。有几种方法可以使用这个文档：通过探索枢纽，通过遵循手册，或者通过使用FreeCAD内部的帮助菜单条目。这是一项正在进行中的工作，由FreeCAD的用户和开发人员组成的社区编写。如果你发现有错误或遗漏的信息，请[帮助 FreeCAD](Special:MyLanguage/help_FreeCAD.md)!
+
+
+</div>
 
 
 
@@ -16,11 +24,14 @@
 
 ## 书籍手册
 
-<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [FreeCAD 手册](Manual:Introduction/zh-cn.md) 是另一种更线性的方式，来呈现此维基中的信息。它做成了一本书的形式，也会善意地引导您进入上面三个入口中的许多其他页面。 这里有 [电子书版本](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details)，还有 [几个翻译后的PDF格式](https://www.freecadweb.org/manual/)。
+
+<div class="mw-translate-fuzzy">
+
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [FreeCAD 手册](Manual:Introduction/zh-cn.md) 是另一种更线性的方式，来呈现此维基中的信息。它做成了一本书的形式，也会善意地引导您进入上面三个入口中的许多其他页面。 这里有 [电子书版本](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details)，还有 [几个翻译后的PDF格式](https://www.freecadweb.org/manual/)。 
 
 
 
-
+</div>
 
 
 
@@ -67,13 +78,25 @@
 
 ### 源代码
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD 可以用 [CMake](https://cmake.org/) 在所有平台上编译。源代码是 [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) 授权的，并在 [GitHub](https://github.com/FreeCAD/FreeCAD) 上托管，并且有镜像在： [GitLab](https://gitlab.com/freecad/FreeCAD) 和 [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD) 。有 [Windows](Compile_on_Windows.md)，[Linux](Compile_on_Linux.md) 和 [MacOS](Compile_on_MacOS.md) 的构建指导。源代码文档托管在 [这里](http://www.freecadweb.org/api/)，由 [Doxygen](Doxygen.md) 生成，记录在 [这个](Source_documentation/zh-cn.md) 维基页面上。
+
+
+</div>
 
 
 
 ### 关于开发
 
+
+<div class="mw-translate-fuzzy">
+
 通过 [开发路线图](Development_roadmap.md)，看看什么正在计划之中。通过 [修改记录](http://www.freecadweb.org/tracker/changelog_page.php)、[路线图页](http://www.freecadweb.org/tracker/roadmap_page) 和 [FreeCAD跟踪器](http://www.preecadweb.org/tracker) 页面，查看下一个版本的进展。或者，通过 [项目统计](http://www.ohloh.net/p/freecad) 寻找有关 FreeCAD 代码库的更多信息。所有的开发交流都在 [论坛](http://forum.freecadweb.org) 上，如果您有兴趣参与，请务必访问那里。
+
+
+</div>
 
 
 

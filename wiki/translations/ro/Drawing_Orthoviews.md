@@ -7,6 +7,8 @@ Instrumentul Orthoviews introduce un set de proiecții ortogonale ale obiectului
 Instrumentul Orthoviews creează toate proiecțiile ortogonale reprezintă locația potrivită pentru vizualizarea principală dată.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Cum se folosește 
@@ -19,6 +21,8 @@ Instrumentul Orthoviews creează toate proiecțiile ortogonale reprezintă loca�
 3.  Apăsați butonul **<img src="images/Drawing_Orthoviews.png" width=16px> [Insert orthographic views](Drawing_Orthoviews.md)**.
 4.  Definiți opțiunile de creare a vizualizării dorite. Consultați [ Opțiuni](#Opțiuni.md).
 5.  Faceți clic pe OK pentru a crea vizualizările funcțiilor selectate pe pagina selectată.
+
+
 
 ## Opţiuni
 
@@ -46,22 +50,23 @@ Instrumentul Orthoviews creează toate proiecțiile ortogonale reprezintă loca�
 
 </div>
 
+
+
 ## Proprietăți
 
 Nu există proprietăți pentru această comandă; comanda creează proprietăți pentru fiecare vizualizare individuală.
+
+
 
 ## Scrip-Programare 
 
 Drawing Orthoviews nu este numit în scripting. Vizualizările individuale create de comanda Drawing Orthoviews pot fi create în scripturi.
 
+
+
 ## Limite
 
 De completat
-
-## Tutoriale
-
--   [Drawing tutorial](Drawing_tutorial.md), Introducere pentru crearea de planuri cu Atelierul Drawing workbench
--   [Manual:Generating 2D drawings](Manual_Generating_2D_drawings.md) cu Atelierul Drawing și cu addon-ul Drawing Dimensioning .
 
 
 {{docnav|[Open Browser](Drawing_Openbrowser.md)|[Symbol](Drawing_Symbol.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Drawing_Openbrowser.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Symbol.png}}

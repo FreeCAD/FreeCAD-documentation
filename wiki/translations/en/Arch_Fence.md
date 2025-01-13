@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch Fence
-   MenuLocation: Arch , Fence
-   Workbenches: Arch_Workbench
+   MenuLocation: 3D/BIM , Fence
+   Workbenches: BIM_Workbench
    Version: 0.19
 ---
 
@@ -10,7 +10,7 @@
 
 ## Description
 
-The [Arch Fence](Arch_Fence.md) is a object that builds a fence by repeating a single fence post and section along a given path.
+The **Arch Fence** is an object that builds a fence by repeating a single fence post and section along a given path.
 
 <img alt="" src=images/Arch_Fence_description_example.png  style="width:600px;">
 
@@ -20,9 +20,9 @@ The [Arch Fence](Arch_Fence.md) is a object that builds a fence by repeating a s
 
 1.  Use a workbench of your choice to create a single fence post and a single section.
 2.  Create the path the fence should follow using the [Sketcher Workbench](Sketcher_Workbench.md) or [Draft Workbench](Draft_Workbench.md).
-3.  Switch back to the [Arch Workbench](Arch_Workbench.md).
+3.  Switch back to the [BIM Workbench](BIM_Workbench.md).
 4.  Select the section, post and path in exactly that order.
-5.  Press the **<img src="images/Arch_Fence.svg" width=16px> [Arch Fence](Arch_Fence.md)** button
+5.  Press the **<img src="images/Arch_Fence.svg" width=16px> [Fence](Arch_Fence.md)** button
 
 ## Options
 
@@ -98,5 +98,13 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/en
+⏵ [documentation index](../README.md) > Arch Fence/en

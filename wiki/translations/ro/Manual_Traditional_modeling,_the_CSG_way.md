@@ -10,7 +10,13 @@
 
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 CSG înseamnă Constructive Solid Geometry [Constructive Solid Geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry)și descrie maniera cea mai simplă de a lucra cu geometria 3D solidă, care creează obiecte complexe prin adăugarea/eliminarea unor elemente de volum prin utilizarea operațiilor booleene cum ar fi unirea, scăderea sau intersecția solidelor.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -20,15 +26,43 @@ FreeCAD poate gestiona multe tipuri de geometrie, dar tipul preferat și mai uti
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Mesh_vs_brep.jpg )
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Diferența dintre cele două poate fi comparată cu diferența dintre imaginile bitmap și vectori. Ca și în cazul imaginilor bitmap, rețelele poligonale au suprafețele lor curbate împărțite într-o serie de puncte. Dacă o priviți îndeaproape, nu va fi o suprafață curbată, ci o suprafață fațetată. În ambele imagini vectoriale datele B-REP, poziția oricărui punct de pe o curbă nu este stocată în geometrie, ci calculată din voleu, cu precizie exactă.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 În FreeCAD, toate geometriile bazate pe BREP sunt tratate de o altă piesă de software open source OpenCasCade, [OpenCasCade](https://en.wikipedia.org/wiki/Open_Cascade_Technology). Interfața principală dintre FreeCAD și kernelul OpenCasCade este Atelierul(Workbench). Majoritatea atelierelor de lucru își construiesc funcționalitatea pe atelierul Part.
 
-Deși alte benzi de lucru oferă adesea instrumente mai avansate pentru a construi și manipula geometria, deoarece acestea manipulează obiecte Part, este foarte util să știm cum funcționează aceste obiecte intern și să poată folosi instrumentele Part deoarece, fiind mai simple, pot foarte des să vă ajute să ocoliți problemele instrumentelor mai inteligente care nu reușesc a rezolva corect aceleași probleme.
+
+</div>
+
+While other workbenches in FreeCAD, such as the Part Design and Surface Workbenches, offer more advanced tools for building and manipulating geometry, they rely on the underlying Part Workbench. Understanding how Part objects work internally and being adept with the basic Part tools is beneficial. Often, these simpler tools can resolve issues that more complex tools may not handle effectively.
+
+![](images/Mesh_vs_brep.jpg )
+
+The difference between the two can be compared to the difference between bitmap and vector images. As with bitmap images, polygon meshes have their curved surfaces divided into a series of points. If you look at it closely or print it very large, you will see not a curved but a faceted surface. In both vector images and BREP data, the position of any point on a curve is not stored in the geometry but calculated on the fly, with exact precision.
+
+
+<div class="mw-translate-fuzzy">
 
 Pentru a ilustra lucrul Atelierului, vom folosi acest model, folosind doar operațiunile CSG (cu excepția șuruburilor, pentru care vom folosi unul dintre addon-uri și cotele/dimensiunile pe care se vor vedea în următorul capitol):
+
+
+</div>
 
 ![](images/Exercise_table_complete.jpg )
 
@@ -76,7 +110,10 @@ Ar trebui să obțineți două cuburi(paralelipipede) distanțate la 8 mm pe axa
 
 Observați că obiectul nou creat, numit \"Cut\", conține în continuare cele două cuburi(de fapt paralelipipede) pe care le-am folosit ca operanzi. De fapt, cele două cuburi sunt încă în document, au fost ascunse și grupate sub obiectul Cut din vizualizarea arborescentă. Puteți să le selectați prin extinderea săgeții la obiectul Cut și, dacă doriți, să le readuceți din nou vizibile făcând clic pe ele sau schimbând oricare dintre proprietățile acestora.
 
-You can use Cut -tool and other Boolean tools also through \"Combo view\" with <img alt="" src=images/Part_Boolean.svg  style="width:16px;"> [Boolean](Part_Boolean.md). It gives more explicit but longer way to do it.
+You can use the Cut tool and other Boolean tools also through \"Combo view\" with <img alt="" src=images/Part_Boolean.svg  style="width:16px;"> [Boolean](Part_Boolean.md). It gives more explicit but longer way to do it.
+
+
+<div class="mw-translate-fuzzy">
 
 -   Acum, să creăm celelalte trei picioare, duplicând cubul de bază 6 de alte ori. Din moment ce este încă copiat, puteți pur și simplu să inserați (Ctrl + V) de 6 ori. Modificați poziția după cum urmează:
     -   Cube002: x: 0, y: 80cm
@@ -86,11 +123,26 @@ You can use Cut -tool and other Boolean tools also through \"Combo view\" with <
     -   Cube006: x: 120cm, y: 80cm
     -   Cube007: x: 119.2cm, y: 79.2cm
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   Acum hai să facem celelalte trei secțiuni, selectând mai întâi cubul \"gazdă\", apoi cubul care urmează să fie tăiat. Acum avem patru obiecte tăiate:
+
+
+</div>
 
 ![](images/Exercise_table_03.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 S-ar fi putut gândi că, în loc să repetăm cubul de bază de șase ori, am putea să repetăm piciorul complet de trei ori. Acest lucru este complet adevărat, ca întotdeauna în FreeCAD, există multe modalități de a obține același rezultat. Acesta este un lucru prețios de reținut, pentru că putem avansa la obiecte mai complexe, unele operații ar putea să nu dea rezultatul corect și adesea trebuie să încercăm alte căi.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -108,8 +160,14 @@ S-ar fi putut gândi că, în loc să repetăm cubul de bază de șase ori, am p
 
 Veți observa că cilindrii sunt mai lungi decât este necesar. Acest lucru se datorează tuturor aplicațiilor 3D bazate pe solid, operațiile booleene în FreeCAD sunt uneori suprasensibile față de situațiile față-pe-față și pot eșua. Făcând acest lucru, ne punem în siguranță.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Acum să facem scăderea. Selectați primul picior, apoi, cu CTRL apăsat, selectați unul dintre tuburile care îl lipesc, apăsați butonul **Cut**. Gaura se va face și cilindrul ascuns. Găsiți-l în arborescență prin extinderea piciorului străpuns.
 -   Alegeți un alt picior străpuns de acest cilindru ascuns, apoi repetați procesul, de această dată selectând cilindrul din arborescență cu ajutorul Ctrl +, deoarece este ascuns în vizualizarea 3D (puteți, de asemenea, să îl faceți vizibil și să îl selectați în vizualizarea 3D). Repetați acest lucru pentru celelalte picioare până când fiecare are două găuri:
+
+
+</div>
 
 ![](images/Exercise_table_05.jpg )
 
@@ -117,11 +175,13 @@ După cum puteți vedea, fiecare picior a devenit o lungă serie de operațiuni.
 
 O altă particularitate a FreeCAD este cea a conceptului de obiect 3D și a conceptului de operare 3D. au tendința a se contopi în unul și același lucru. Cut(secționare) este în același timp operație și obiectul rezultat al acestei operații. În FreeCAD acest lucru este numit \"funcționalitate/caracteristică\", mai degrabă decât obiect sau operație.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Acum să facem blatul al masă, va fi un simplu bloc de lemn, să o facem cu altă **Box** with length: 126cm, width: 86cm, height: 8cm, position: x: 10mm, y: 10mm, z, 67cm. In the **View** tab, puteți să-i dați o culoare frumoasă maro, de lemn, schimbând proprietatea de culoare **Shape Color** :
 
-![](images/Exercise_table_06.jpg )
 
-Observați că, deși picioarele au o grosime de 8 mm, le plasăm la 10 mm distanță, lăsând 2 mm între ele. Acest lucru nu este necesar, desigur, nu se va întâmpla cu masa reală, dar este un lucru obișnuit de făcut în acele fel de modele \"asamblate\", îi ajută pe oameni care privesc la Model să înțeleagă că acestea sunt piese separate, care vor trebui atașate manual mai târziu.
+</div>
 
 Acum că cele 5 piese ale noastre sunt complete, este un moment potrivit să le oferim nu nume mai potrivit decât \"Cut015\". Dând clic dreapta pe obiectele din vederea arborescentă (or pressing **F2**), le puteți redenumi la ceva mai semnificativ pentru dvs. sau pentru altcineva care va deschide fișierul dvs. mai târziu. Se spune adesea că numirea obiectelor dvs. este mult mai importantă decât modelarea lor.
 
@@ -134,31 +194,73 @@ Acum că cele 5 piese ale noastre sunt complete, este un moment potrivit să le 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_table_07.jpg )
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   Apoi, putem apăsa unul dintre șuruburile Fasteners Workbench, de exemplu **EN 1665 Hexagon bolt with flanges, heavy series**. Șurubul va fi plasat și aliniat cu gaura noastră, iar diametrul va fi selectat pentru a se potrivi cu dimensiunea găurii noastre. Uneori, șurubul va fi plasat inversat, pe care îl putem corecta inversând sensul său . De asemenea, putem seta decalajul/offset-ul la 2mm, pentru a respecta aceeași regulă pe care am folosit-o între blatul mesei și picioare:
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_table_08.jpg )
+
+
+</div>
 
 -   Repetați acest lucru pentru toate găurile, iar masa noastră este completă!
 
+
+<div class="mw-translate-fuzzy">
+
 **The internal structure of Part objects**
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 După cum am văzut mai sus, este posibil ca FreeCAD să selecteze nu numai obiecte întregi, ci și părți ale acestora, cum ar fi conturul circular al găurii noastre de șurub. Acesta este un moment bun pentru a avea o privire rapidă asupra modului în care sunt construite obiecte Part în interior. Fiecare atelier de lucru care produce geometria pieselor se va baza pe acestea:
 
--   **Vertices**: Acestea sunt puncte (usually endpoints) pe care se construiește restul. De exemplu, o linie are două vortexuri/vârfuri.
--   **Edges**: muchiile sunt forme geometrice liniare ca linii, arcuri, elipse sau curbe B-spline [NURBS](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline) De obicei, acestea au două vârfuri, dar în unele cazuri speciale au doar unul (de exemplu, un cerc închis).
--   **Wires**: O polilinie este o secvență de muchii conectae la punctele lor de capăt. Pot conține muchii de orice tip, și pot fi deschise sau închise.
--   **Faces**: Fațetele pot fi plane sau curbe și pot fi formate de o polilinie inchisă, care formează marginile unei fațete, sau a multora în cazul în care fațeta are găuri.
--   **Shells**: Cochilie este un simplu grup de fațete conectaea prin muchiile lor. Poate fi deschis sau închis.
--   **Solids**: Atunci când o cochilie este închisă bine, adică nu are \"scurgeri\", devine solid. Solidul poartă noțiunea de interior și exterior. Multe ateliere de lucru se bazează pe acest lucru pentru a se asigura că obiectele pe care le produc pot fi construite în lumea reală.
--   **Compounds**: Compușii sunt pur și simplu agregate de alte forme, indiferent de tipul lor, într-o singură formă.
 
-În vizualizarea 3D, puteți selecta **vertices**, **edges** or **faces**. individuale. Selectarea unuia dintre acestea selectează de asemenea întregul obiect.
+</div>
+
+![](images/Tabble_alternative_complete.png )
+
+**The internal structure of Part objects**
+
+As we saw above, it is possible in FreeCAD to select not only whole objects but parts of them, such as the circular border of our screw hole. This is a good time to have a quick look at how Part objects are constructed internally. Every workbench that produces Part geometry will be based on these:
+
+-   **Vertices**: These are points (usually endpoints) on which all the rest is built. For example, a line has two vertices.
+-   **Edges**: the edges are linear geometry like lines, arcs, ellipses or [NURBS](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline) curves. They usually have two vertices, but some special cases have only one (a closed circle for example).
+-   **Wires**: A wire is a sequence of edges connected by their endpoints. It can contain edges of any type, and it can be closed or not.
+-   **Faces**: Faces can be planar or curved, and can be formed by one closed wire, which forms the border of the face, or more than one, in case the face has holes.
+-   **Shells**: Shells are simply a group of faces connected by their edges. It can be open or closed.
+-   **Solids**: When a shell is tightly closed, that is, it has no \"leak\", it becomes a solid. Solids carry the notion of inside and outside. Many workbenches rely on this to make sure the objects they produce can be built in the real world.
+-   **Compounds**: Compounds are simply aggregates of other shapes, no matter their type, into a single shape.
+
+In the 3D view, you can select individual **vertices**, **edges** or **faces**. Selecting one of these also selects the whole object.
 
 **A note about shared design**
 
+
+<div class="mw-translate-fuzzy">
+
 S-ar putea să vă uitați la masa de mai sus și să vă gândiți că designul său nu este bun. Strângerea picioarelor cu blatul este probabil prea slabă. S-ar putea să doriți să adăugați bucăți de armare sau pur și simplu aveți alte idei pentru a o face mai bună. Acesta este locul în care partajarea devine interesantă. Puteți descărca fișierul realizat în timpul acestui exercițiu de la linkul de mai jos și îl puteți modifica pentru al face mai bine. Apoi, dacă împărțiți acest fișier îmbunătățit, alții ar putea să o facă chiar mai bine sau să utilizeze masa bine proiectată în proiectele lor. Designul tău ar putea da alte idei altor oameni și poate că ai fi ajutat un pic pentru a face o lume mai bună \...
+
+
+</div>
 
 **Downloads**
 

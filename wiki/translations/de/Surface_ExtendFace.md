@@ -9,6 +9,8 @@
 
 # Surface ExtendFace/de
 
+
+
 ## Beschreibung
 
 
@@ -22,21 +24,29 @@ extrapoliert eine vorhandene Fläche oder Oberfläche an ihren Rändern mit ihre
 
 *Links: Original Fläche. Rechts: Erweiterte Fläche.*
 
+
+
 ## Anwendung
 
 1.  Make sure you have an object that has faces. The object could be created with the <img alt="" src=images/Workbench_Surface.svg  style="width:24px;"> [Surface Workbench](Surface_Workbench.md) but it could also be any other object, for example, created with <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md) or <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md).
 2.  Select the face to extend by clicking on it on the [3D view](3D_view.md).
 3.  Press **[<img src=images/Surface_ExtendFace.svg style="width:16px"> [Extend face](Surface_ExtendFace.md)**.
 
+
+
 ## Optionen
 
 Dieser Befehl besitzt keine Optionen. Entweder funktioniert er mit der Auswahl oder nicht.
+
+
 
 ## Eigenschaften
 
 A [Surface Extend](Surface_ExtendFace.md) object (`Surface::Extend` class) is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the Surface Filling has the following properties in the [property editor](Property_editor.md).
+
+
 
 ### Daten
 
@@ -63,12 +73,16 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 -    **SampleV|IntegerConstraint**: it defaults to {{Value|32}}.
 
+
+
 ### Ansicht
 
 
 {{TitleProperty|Base}}
 
 -    **Control Points|Bool**: it defaults to `False`; if set to `True`, it will show an overlay with the control points of the surface.
+
+
 
 ## Skripten
 
@@ -79,7 +93,7 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 The Surface Extend tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::Extend` object.
 
--   The face to extend must be assigned as a [LinkSub](LinkSub.md) to the `Face` property of the object. It must contain only a single face.
+-   The face to extend must be assigned as a [LinkSub](FeaturePython_Custom_Properties#App:_PropertyLinkSub.md) to the `Face` property of the object. It must contain only a single face.
 
 
 ```python

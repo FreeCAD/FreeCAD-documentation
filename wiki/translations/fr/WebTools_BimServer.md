@@ -22,6 +22,8 @@ Pentru a utiliza această comandă, trebuie îndeplinite următoarele condiții:
 -   Vous devez avoir accès à une instance BIMServer (lisez la [BIMServer documentation](https://github.com/opensourceBIM/BIMserver/wiki) pour installer un BIMServer localement) et disposer des informations d\'identification (nom d\'utilisateur et mot de passe) pour ce serveur. Au moment de la rédaction de ce manuel, la version stable de BIMServer est 1.4, mais nous vous recommandons d'installer une des versions bêta 1.5.X disponibles, qui installe automatiquement de nombreux plug-ins (dans la version 1.4, vous devez l'installer manuellement).
 -   Tous les transferts de fichiers avec le serveur BIMServer sont effectués avec des fichiers IFC. Par conséquent, vous devez savoir comment travailler avec [IFC files](Arch_IFC/fr.md).
 
+
+
 ## Utilisation
 
 1.  Assurez-vous que les conditions ci-dessus sont remplies et que vous avez accès à une instance BIMServer en cours d\'exécution.
@@ -39,18 +41,22 @@ Pentru a utiliza această comandă, trebuie îndeplinite următoarele condiții:
 -   Afin de supprimer manuellement le cookie de session et de tout réinitialiser, vous pouvez simplement supprimer l\'URL BIMServer stockée dans **Edit → Préférences → Arch → BimServer**.
 -   Le bouton **Ouvrir dans le navigateur** ouvrira l\'interface Web du serveur BIMServer dans le navigateur Web interne de FreeCAD ou, si vous avez marqué cette option dans **Edit → Préférences → Arch → BimServer**, dans un navigateur Web externe. Cela permet par exemple de créer de nouveaux projets ou d\'analyser le contenu stocké sur le serveur BIMServer.
 
+
+
 ### Téléchargement de révisions 
 
 -   La liste déroulante **Projet** affiche les projets disponibles stockés sur le serveur BIM. Choisissez-en une pour voir les révisions disponibles pour ce projet.
 -   Sélectionnez une révision et cliquez sur **Ouvrir** pour télécharger et ouvrir le fichier IFC correspondant à cette révision dans FreeCAD.
 -   Lorsque vous appuyez sur le bouton **Ouvrir**, une boîte de dialogue s\'ouvre pour vous permettre de sauvegarder le fichier IFC téléchargé à l\'emplacement de votre choix avant de l\'ouvrir. Si vous appuyez sur **Annuler**, le fichier sera enregistré sous un nom temporaire dans le répertoire temporaire du système.
 
+
+
 ### Téléchargement de révisions 
 
 -   Si vous souhaitez télécharger une nouvelle révision, assurez-vous que le bon projet a été sélectionné dans la liste déroulante **Projet**
 -   Choisissez l\'objet **Objet racine** que vous souhaitez télécharger. Il doit s\'agir d\'un [Arch Site](Arch_Site/fr.md) ou d\'un [Arch Bâtiment](Arch_Building/fr.md). Seuls les objets appartenant à cet objet racine seront téléchargés.
 -   Ecrivez un **Commentaire**, ce sera la description (nom) de la révision.
--   Appuyez sur le bouton **Upload**. Une boîte de dialogue s\'ouvre pour vous permettre de sauvegarder le fichier IFC produit à l\'emplacement de votre choix avant de le télécharger. Si vous appuyez sur **Annuler**, le fichier sera enregistré sous un nom temporaire dans le répertoire temporaire du système.
+-   Appuyez sur le bouton **Upload**. Une fenêtre de dialogue s\'ouvre pour vous permettre de sauvegarder le fichier IFC produit à l\'emplacement de votre choix avant de le télécharger. Si vous appuyez sur **Annuler**, le fichier sera enregistré sous un nom temporaire dans le répertoire temporaire du système.
 
 
 

@@ -34,6 +34,7 @@ C\'est la deuxième partie du tutoriel. Il utilisera ce qu\'on pourrait appeler 
 
 ~~Vous pouvez trouver ma version de la pièce créée dans ce tutoriel [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 ici](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_ici.md)~~ *Le fichier n\'est plus disponible, un nouveau fichier sera fourni à certains date ultérieure*.
 
+
 ## 
 
 Les Données de Conception == ==
@@ -42,9 +43,13 @@ Le support doit être en mesure de tenir un Roulement d\'un diamètre de 90mm av
 
 Le support sera réalisé dans un moule en sable avec une épaisseur minimale de paroi de 5 mm, un angle de dépouille de 2 degrés, et un rayon de congé minimum de 3mm.
 
+
+
 ## Configuration de la géométrie de l\'ossature 
 
 ![ Croquis de la géométrie du squelette \| thumb \| right \| 400px](images/_HolderTop2-2.png ) Créer une nouvelle pièce dans l\'atelier de Conception de Pièce. Renommez le Corps qui est créé par défaut pour l\'Ossature. Cet organe est probablement déjà activé, vous pouvez voir par la couleur de fond bleu dans l\'arborescence. Créer une nouvelle esquisse sur le plan YZ contenant le contour de l\'arbre, du roulements et bagues d\'étanchéité. Après avoir terminé l\'esquisse, faites une fonction de révolution de celle-ci. Cette fonction squelette sera ensuite utilisé pour référencer la géométrie réelle à celle-ci. Cela signifie que si vous souhaitez modifier les dimensions, tout ce que vous devez faire est d\'ajuster les dimensions de la fonction squelette et le reste de la pièce se mettra à jour en conséquence. ![ La géométrie de l\'ossature \| thumb \| right \| 400px](images/_HolderTop2-2-1.jpg )
+
+
 
 ## Le corps principal 
 
@@ -57,6 +62,7 @@ Vous vous demandez probablement pourquoi il y a ce petit segment de droite au ba
 ![ Plan neutre pour appliquer le projet \| thumb \| right \| 400px](images/_HolderTop2-7.jpg ) Maintenant, il est temps de créer le projet et les congés. Le projet nécessite un plan neutre, ce qui signifie que la géométrie qui est coupée par ce plan restera à sa place, tandis que le reste de la face est incliné de l\'angle de dépouille. L\'utilisation du fond de la Protusion à cette fin n\'est pas une bonne idée, parce que l\'épaisseur de la paroi dans la partie supérieure du support deviendrait inférieure à 5 mm. Donc nous créons un plan de référence décalé environ 35mm de XY à cet effet. Activez le squelette et créer le plan, parce que nous en aurons besoin pour appliquer le projet à d\'autres organes, aussi.
 ![ Première corps avec le projet et les flancs de raccordement \| thumb \| right \| 400px](images/_HolderTop2-8.jpg ) L\'image de droite montre le premier corps fini avec le projet et les congés appliqués. On notera que les bords (concaves) extérieurs ont un rayon de de raccordement plus large de 5 mm, de nouveau avec le but de créer une épaisseur de paroi plus uniforme (plus de 5 mm n\'est pas possible, car alors, après usinage de l\'intérieur du support l\'épaisseur de paroi deviendrait inférieure à 5 mm).
 
+
 ## Ajouter des organes pour les boulons 
 
 ![ Le croquis pour le corps des boulons \| thumb \| right \| 400px](images/_HolderTop2-13.jpg ) Les boulons ont besoin de deux corps cylindriques des deux côtés du corps principal. Il est préférable d\'inclure l\'angle de dépouille de 2 degrés dans l\'esquisse. J\'ai essayé de tourner un cylindre et d\'appliquer plus tard un projet, mais des choses étranges se sont passées après la symétrie et je ne pouvais pas mettre les congés sur elle parce que la surface a été déformée en quelque sorte.
@@ -65,6 +71,7 @@ Le dessin est dimensionné pour que l\'axe de rotation soit à distance de 12mm 
 
 ![ Le corps des boulons \| thumb \| right \| 400px](images/_HolderTop2-14.jpg ) Créez une révolution de l\'esquisse et appliquer un congé de 4mm vers le haut. Cela signifie que, après usinage et enlèvement de 3mm, un léger rayon restera qui permet d\'éviter une arête vive où quelqu\'un pourrait se couper la main pour serrer la vis.
 ![ Le corps principal avec les deux organes pour les boulons \| thumb \| right \| 400px](images/_HolderTop2-16.jpg ) Créer une fonction booléenne pour fusionner le corps principal et le corps du boulon. Puis créer un nouvel organe pour l\'autre côté. Dupliquer le croquis de la révolution, le déplacer à cet organe et créez le deuxième corps pour les boulons (Symétriser un corps n\'est pas encore pris en charge si vous avez besoin de refaire la plus grande partie). Puis fusionner ce deuxième corps dans le corps principal . Enfin, appliquez un grand congé sur le bord créé par l\'opération de fusion booléenne. Le plus grand que je pouvais obtenir était 4mm.
+
 
 ## Vider le corps principal 
 
@@ -79,6 +86,7 @@ Après cela, nous voulons créer deux autres Protusions comme les deux derniers 
 ![ La pièce brute complète du support (sans usinage) \| thumb \| right \| 400px](images/_HolderTop2-15.jpg ) Nous sommes prêts à creuser le corps principal. Sélectionnez-le et choisissez de créer une nouvelle opération booléenne. Ajouter le corps de découpe à la liste de la fenêtre et régler l\'opération pour \"Couper\". Mettre un congé de 3 mm sur les deux bords résultant de l\'opération de découpe (encore certains bords restent qui sont \"non congéable»). Le résultat devrait ressembler à l\'image sur la droite.
 
 La pièce brute est maintenant terminée. C\'est ce à quoi le support va ressembler avant l\'usinage. A noter que puisque le moule aura une moitié supérieure et inférieure, le bord entre les deux n\'a pas de congé. Aussi, si vous donnez ce modèle à une fonderie assurez-vous de souligner qu\'il a les dimensions après la coulée. La fonderie devra ensuite appliquer un certain pourcentage de retrait au modèle (faire le modèle numérique utilisé pour fabriquer le moule plus grand de sorte que lorsque le métal se refroidit et se contracte après la coulée, il aura la bonne taille).
+
 
 ## Usinage
 

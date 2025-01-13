@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## 説明
 
 
@@ -30,8 +32,10 @@
 
 </div>
 
-![](images/Arch_Structure_example.jpg ) 
+<img alt="" src=images/Arch_Structure_example.jpg  style="width:400px;"> 
 *Column based on a 2D base profile; a column and a beam defined by their height, length and width, without a base profile; a metallic structure based on a 2D face*
+
+
 
 ## 使用方法
 
@@ -45,6 +49,8 @@
 
 </div>
 
+
+
 ## オプション
 
 -   When no base 2D object is selected, the structure tool has 2 drawing modes: Column and beam:
@@ -56,6 +62,8 @@
 -   Double-clicking on the structure in the tree view after it is created allows you to enter edit mode and access and modify its additions and subtractions
 -   In edit mode, it is also possible to add [axes systems](Arch_Axis.md) to the structural element. When adding one axes system, the structural element will be copied once on each axis of the system. When adding two axes systems, the structural element will be copied once on each intersection of the two systems.
 
+
+
 ## プロパティ
 
 ### Data
@@ -64,7 +72,26 @@
 
 -    **Normal**: specifies the direction in which the base face of this structure will be extruded. If this property is kept to (0,0,0), the direction will be automatically set to the normal direction of the base face.
 
--    **Face Maker**: specifies the type of face generation algorithm to use to build the profile. Choices are None, Simple, Cheese and Bullseye.
+-    **Face Maker**: specifies the type of face generation algorithm to use to build the profile. The options are:
+
+    -   
+        {{Value|None}}
+        
+
+    -   
+        {{Value|Simple}}
+        
+        : makes faces from all closed wires, ignoring overlaps.
+
+    -   
+        {{Value|Cheese}}
+        
+        : makes faces with holes, but no faces within holes.
+
+    -   
+        {{Value|Bullseye}}
+        
+        : makes faces with holes, including islands within holes.
 
 -    **Length**: specifies the length of the structure. This is only used if the structure is not based on a profile.
 
@@ -103,7 +130,7 @@ Structural objects also have the ability to display structural nodes. Structural
 
 -   Nodes are calculated and updated automatically, as long as you don\'t modify them manually. If you did, they won\'t be updated if the shape of the structural object changes, unless you use the \"Reset nodes\" tool below.
 -   Arch structures can have not only linear nodes, but also planar nodes. For this, 1- There must be at least 3 vectors in the \"Nodes\" property of the object, 2- the \"NodesType\" property of their ViewObject must be set to \"Area\".
--   When the nodes calculation is automatic (that is, if you never touched them manually), when setting the Role property of a structure to \"Slab\", it will automatically become a planar node (there will be more than 3 vectors and the NodesType will be set to \"Area\").
+-   When the nodes calculation is automatic (that is, if you never touched them manually), when setting the \"Role\" property of a structure to \"Slab\", it will automatically become a planar node (there will be more than 3 vectors and the NodesType will be set to \"Area\").
 -   When editing a structure object (double-click), a couple of node tools are available in the task view:
     -   Reset the nodes to automatic calculation, in case you modified them manually
     -   Edit the nodes graphically, works the same way as [Draft Edit](Draft_Edit.md)
@@ -130,24 +157,26 @@ The Structure tool can be used in [macros](Macros.md) and from the [Python](Pyth
 
 
 ```python
-Structure = makeStructure(baseobj=None, height=None)
-Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
+structure = makeStructure(baseobj=None, height=None)
+structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
 ```
 
--   Creates a `Structure` object from the given `baseobj`, which is a closed profile, and the given extrusion `height`.
+-   Creates a `structure` object from the given `baseobj`, which is a closed profile, and the given extrusion `height`.
     -   If no `baseobj` is given, you can provide the numerical values for the `length`, `width`, and `height` to create a block structure.
     -   The `baseobj` can also be any existing solid object.
 
-例題: 
+例題:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
-Rect = Draft.makeRectangle(200, 300)
-Structure1 = Arch.makeStructure(Rect, height=2000)
+rect = Draft.make_rectangle(200, 300)
+structure1 = Arch.makeStructure(rect, height=2000)
 FreeCAD.ActiveDocument.recompute()
 
-Structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
-Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
+structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
+Draft.move(structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
 
@@ -161,6 +190,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/ja
+⏵ [documentation index](../README.md) > Arch Structure/ja

@@ -4,32 +4,35 @@
    MenuLocation: Part , Create a copy , Create transformed copy
    Workbenches: Part_Workbench
    Version: 0.19
-   SeeAlso: Part_SimpleCopy, Part_ElementCopy, Part_RefineShape
+   SeeAlso: Part_SimpleCopy
 ---
 
 # Part TransformedCopy/pt-br
 
 ## Description
 
-[Part TransformedCopy](Part_TransformedCopy.md) produces a non-parametric copy of an object that has been displaced from its original position.
+The <img alt="" src=images/Part_TransformedCopy.svg  style="width:24px;"> **Part TransformedCopy** command creates non-parametric copies of objects. It is intended for objects nested in containers.
 
-To produce other non-parametric copies use **<img src="images/Part_SimpleCopy.svg" width=16px> [Simple Copy](Part_SimpleCopy.md)
-**, **<img src="images/Part_ElementCopy.svg" width=16px>[ElementCopy](Part_ElementCopy.md)**, or **<img src="images/Part_RefineShape.svg" width=16px> [RefineShape](Part_RefineShape.md)**
+The **Placement** of the copies is adjusted, accounting for the placement of the container(s), so that their position and rotation relative to the global coordinate system is the same as that of the original objects. If the selected objects are not nested, or nested in a container with a default placement, this command produces the same results as [Part SimpleCopy](Part_SimpleCopy.md).
 
 ## Usage
 
-1.  Select an object that you wish to copy.
-2.  Go to the menu **Part → Create a copy → [<img src=images/Part_TransformedCopy.svg style="width:16px"> [Create transformed copy](Part_TransformedCopy.md)**.
+1.  Select one or more objects.
+2.  Select the **Part → Create a copy → <img src="images/Part_TransformedCopy.svg" width=16px> Create transformed copy** option from the menu.
 
 ## Properties
 
-### Data
+See also: [Property editor](Property_editor.md).
 
-The copy has a simple **Placement** property like any other [Part Feature](Part_Feature.md).
+The created objects are [Part Feature](Part_Feature.md) objects with no additional properties.
 
-### View
 
-The copy has simple view properties like any other [Part Feature](Part_Feature.md).
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

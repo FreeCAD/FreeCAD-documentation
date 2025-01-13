@@ -24,8 +24,6 @@ Acest instrument permite selectarea conținutului unuia sau a mai multor grupuri
 
 </div>
 
-The command was revised in FreeCAD version 0.20 and this page describes that version.
-
 ## Usage
 
 

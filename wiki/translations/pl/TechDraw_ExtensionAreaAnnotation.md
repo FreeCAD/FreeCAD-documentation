@@ -6,7 +6,7 @@
    Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20
-   SeeAlso: TechDraw_ExtensionArcLengthAnnotation/pl
+   SeeAlso: TechDraw_AreaDimension/pl
 ---
 
 # TechDraw ExtensionAreaAnnotation/pl
@@ -34,10 +34,11 @@ Narzędzie **Oblicz obszar wybranych powierzchni** oblicza obszar wybranych powi
 
 ## Ograniczenia
 
+-    {{VersionMinus/pl|0.21}}: Narzędzie nie radzi sobie z powierzchniami o zakrzywionych krawędziach.
 
-{{VersionMinus/pl|0.21}}
+-   Otwory (*wyspy*) we wskazanych ścianach są ignorowane. [Ten wątek na forum](https://forum.freecad.org/viewtopic.php?p=783325#p783325) pokazuje obejście. Można również użyć narzędzia [Wstaw adnotację obszaru](TechDraw_AreaDimension/pl.md), ale trzeba wtedy prawidłowo ustawić właściwość **References 3D** utworzonego wymiaru.
 
-: Narzędzie nie radzi sobie z powierzchniami o zakrzywionych krawędziach.
+-   Obliczona powierzchnia nie jest dynamicznie powiązana ze ścianą. Jeśli powierzchnia ściany się zmieni, tekst nie zostanie zaktualizowany.
 
 
 

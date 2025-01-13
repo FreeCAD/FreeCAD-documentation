@@ -9,7 +9,7 @@ The SVG image is described in an XML-type language, which means that it can be o
 
 ## Usage
 
-FreeCAD can read and export SVG graphics using the [**Draft SVG**](Draft_SVG.md) function from the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md) Workbench. SVG files are used for many things, including symbols and icons on the graphical user interface, and for templates.
+FreeCAD can read and export SVG graphics using the [**Draft SVG**](Draft_SVG.md) function from the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md) Workbench. SVG files are used for many things, including [symbols](TechDraw_Symbol.md) and [icons](Artwork_Guidelines.md) on the graphical user interface, and for [templates](TechDraw_Templates.md).
 
 :   For example, the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench.md) workbench [templates](TechDraw_Templates.md) can be created as SVG files with some editable text fields that the user can fill in.
 

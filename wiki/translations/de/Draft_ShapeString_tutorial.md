@@ -35,7 +35,7 @@ Um Textformen innerhalb des Arbeitsbereichs <img alt="" src=images/Workbench_Par
 Der Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) wird kurzzeitig zum Zeichnen einer Hilfslinie verwendet. Weitere Informationen zu den Werkzeugen dieses Arbeitsbereichs findet man unter
 
 -   [Grundlegendes Sketcher Tutorium](Basic_Sketcher_Tutorial/de.md)
--   [Sketcher Referenz](Sketcher_reference/de.md)
+-   [Sketcher-Referenzhandbuch](Sketcher_Lecture/de.md)
 
 
 
@@ -85,7 +85,7 @@ Der Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) wird kurzzeitig zum Zeic
 :   5.4. **Z** auf `0 mm` ändern.
 :   5.5. Oder die Schaltfläche **Punkt zurücksetzen** drücken.
 :   5.6. Die **Zeichenkette** in `FreeCAD` ändern und die **Höhe** auf `5 mm`. **Nachverfolgung** auf `0 mm` ändern (noch aktuell?).
-:   5.7. Sicherstellen, dass **Schriftartendatei** auf eine gültige Schriftart zeigt, z.B. `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf`. **...** drücken, um den Dialog des Betriebssystems zu öffnen und eine Schriftart zu finden.
+:   5.7. Sicherstellen, dass **Schriftartendatei** auf eine gültige Schriftart zeigt (z.B. `/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf` oder `C:/Windows/Fonts/arial.ttf`). **...** drücken, um den Dialog des Betriebssystems zu öffnen und eine Schriftart zu finden.
 
     :   
         **Hinweis:**

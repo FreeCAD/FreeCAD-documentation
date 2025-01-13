@@ -9,27 +9,41 @@
 
 # Sketcher ValidateSketch/es
 
+
+</div>
+
+
+
 ## Descripción
+
+
+<div class="mw-translate-fuzzy">
 
 La utilidad **Validar croquis** puede utilizarse para analizar y reparar un croquis que ya no es editable o que tiene restricciones no válidas, o para añadir las restricciones [coincidentes](Sketcher_ConstrainCoincident/es.md) que faltan a un croquis creado a partir de geometría importada, como los archivos DXF. También puede ser útil para localizar una coincidencia que falta en un boceto nativo que genera un error de \"no se puede validar la cara rota\" al intentar aplicar una función de DiseñoPieza.
 
-![](images/Sketcher_ValidateSketch_taskpanel.png ) 
+
+</div>
+
+<img alt="" src=images/Sketcher_ValidateSketch_taskpanel.png  style="width:" height="500px;"> 
 *El panel de tareas de validación de Croquizador*
+
+
 
 ## Utilización
 
-1.  This tool cannot be used on a sketch that is in edit mode. If required exit edit mode by doing one of the following:
-    -   Press the **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button.
-    -   Press the **Close** button at the top of the [Task panel](Task_panel.md).
-    -   Use the keyboard shortcut: **Esc** (if enabled in the [Sketcher Preferences](Sketcher_Preferences#General.md)).
-2.  Select the sketch to be validated from the [Tree view](Tree_view.md) or by clicking on one of its edges in the [3D view](3D_view.md).
-3.  To open the validate sketch utility do one of the following:
-    -   Select the **Sketch → Validate sketch...** option from the menu.
-    -   Press the **[<img src=images/Sketcher_ValidateSketch.svg style="width:16px"> [Validate sketch](Sketcher_ValidateSketch.md)** button (not available in the [PartDesign Workbench](PartDesign_Workbench.md)).
-4.  See [Options](#Options.md) below for the available operations.
-5.  Press the **Close** button when done.
+1.  This tool cannot be used while a sketch is in edit mode. To finish edit mode see [Sketcher LeaveSketch](Sketcher_LeaveSketch.md).
+2.  Select a sketch.
+3.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ValidateSketch.svg" width=16px> [Validate sketch...](Sketcher_ValidateSketch.md)** button.
+    -   Select the **Sketch → <img src="images/Sketcher_ValidateSketch.svg" width=16px> Validate sketch...** option from the menu.
+4.  The **Sketcher validation** task panel opens. See [Options](#Options.md) for more information.
+5.  Press the **Close** button to finish.
+
+
 
 ## Opciones
+
+
 
 ### Coincidencias Falta 
 
@@ -43,6 +57,8 @@ This tolerance is also used by the **Find**/**Fix** process.
 
 Leave the \"Ignore construction geometry\" checkbox checked to disregard construction geometry in the analysis.
 
+
+
 ### Restricciones no válidas 
 
 Checks for malformed constraints.
@@ -53,6 +69,8 @@ For example, if there is a Circle-Line-Tangent constraint, but it references two
 
 It also does other checks, such as for empty links.
 
+
+
 ### Geometría degenerada 
 
 Degenerated geometry can result from solver actions in a sketch.
@@ -61,11 +79,15 @@ For instance, if a line is forced to shorten to become almost a point.
 
 Other examples: a zero length line or zero radius circle/arc.
 
+
+
 ### Geometría externa invertida 
 
 Reversed external geometry can happen because the handling of reversed geometry was changed around revision 0.15.
 
 This process might be helpful if sketches with external-geometry fail to solve because of these changes.
+
+
 
 ### Bloqueo de la orientación de las restricciones 
 

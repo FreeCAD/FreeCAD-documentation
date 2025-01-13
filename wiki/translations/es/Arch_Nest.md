@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -26,6 +28,8 @@ El algoritmo detrás de la herramienta Nido está en constante evolución y actu
 <img alt="" src=images/Arch_Nest_example.jpg  style="width:600px;">
 
 *La imagen de arriba muestra una serie de formas antes y después de la operación de anidación*
+
+
 
 ## Utilización
 
@@ -53,6 +57,8 @@ El algoritmo detrás de la herramienta Nido está en constante evolución y actu
 
 </div>
 
+
+
 ## Notas
 
 -   Todos los objetos deben tener una cara
@@ -71,6 +77,11 @@ El algoritmo detrás de la herramienta Nido está en constante evolución y actu
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/es
+⏵ [documentation index](../README.md) > Arch Nest/es

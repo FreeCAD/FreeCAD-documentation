@@ -36,7 +36,6 @@ Aggiunge le proprietà del fluido ad una parte.
     -   A condizione di applicare il fluido all\'intero oggetto, non selezionare alcuna entità geometrica (lasciare vuoto l\'elenco di riferimento). Il fluido verrà applicato all\'intero modello. Altrimenti assegnare il fluido a particolari domini del modello manualmente selezionandone alcuni per ogni materiale inserito, in questo caso, non lasciare alcun dominio del modello senza fluido assegnato.
     -   È possibile regolare le proprietà del fluido come densità, viscosità cinematica, conduttività termica, ecc. Alcuni fluidi chiave sono già assegnati nell\'elenco e non necessitano di alcuna regolazione.
     -   Se si apportano delle modifiche, si può salvare il materiale personalizzato.
-
 -   Cliccare su **Chiudi** per chiudere la finestra di dialogo e creare l\'oggetto <img alt="" src=images/Fem-material-fluid.svg  style="width:16px;"> Materiale per fluido.
 
 

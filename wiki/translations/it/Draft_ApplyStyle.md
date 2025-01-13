@@ -3,7 +3,7 @@
    Name: Draft ApplyStyle
    Name/it: Draft Applica lo stile
    MenuLocation: Utilità , Applica lo stile corrente
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Workbenches: Draft_Workbench/it
    SeeAlso: Draft_SetStyle/it
 ---
 
@@ -35,7 +35,7 @@ Il comando <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **D
 
 1.  Facoltativamente modificare le impostazioni di stile con il comando [Draft Imposta stile](Draft_SetStyle/it.md).
 2.  Selezionare uno o più oggetti.
-3.  Selezionare l\'opzione **Utilities → <img src="images/Draft_ApplyStyle.svg" width=16px> Applica lo stile corrente** dal menu.
+3.  Selezionare l\'opzione **Utilities → <img src="images/Draft_ApplyStyle.svg" width=16px> Applica lo stile corrente** dal menu, o dalla [Vista ad albero](Tree_view/it.md) o dal menu contestuale della [Vista 3D](3D_view/it.md).
 
 
 

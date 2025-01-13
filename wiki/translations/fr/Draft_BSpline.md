@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft BSpline
    Name/fr: Draft B-spline
-   MenuLocation: Draft , B-spline
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Formes , B-spline<br><br>BIM : Formes 2D , B-spline
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **B** **S**
    Version: 0.7
    SeeAlso: Draft_Wire/fr, Draft_CubicBezCurve/fr, Draft_BezCurve/fr
@@ -28,21 +28,22 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyer sur le bouton **<img src="images/Draft_BSpline.svg" width=16px> [B-spline](Draft_BSpline/fr.md)**.
-    -   Sélectionner l\'option **Draft → <img src="images/Draft_BSpline.svg" width=16px> B-spline** du menu.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionner l\'option **Formes → <img src="images/Draft_BSpline.svg" width=16px> B-spline** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionner l\'option **Formes 2D → <img src="images/Draft_BSpline.svg" width=16px> B-spline** du menu.
     -   Utiliser les raccourcis du clavier : **B** puis **S**.
 2.  Le panneau de tâches **B-spline** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-4.  Choisir des points supplémentaires dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
+4.  Choisir des points supplémentaires dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
 5.  Appuyer sur **Échap** ou sur le bouton **Fermer** pour terminer la commande.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut (pour la version 1.0).
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
--   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **F** ou cliquez sur la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, la spline créée aura la valeur **Make Face** `True` et aura une face remplie, à condition qu\'elle soit fermée et ne s\'auto-intersectionne pas. Notez qu\'une spline qui s\'auto-intersecte avec une face ne s\'affichera pas correctement, pour une telle spline, **Make Face** doit être définie sur `False`.
+-   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md).
+-   Appuyez sur **F** ou cliquez sur la case **Remplir** pour activer le mode de remplissage. Si le mode rempli est activé, la spline créée aura la valeur **Make Face** `True` et aura une face remplie, à condition qu\'elle soit fermée et ne s\'auto-intersectionne pas. Notez qu\'une spline qui s\'auto-intersecte avec une face ne s\'affichera pas correctement, pour une telle spline, **Make Face** doit être définie sur `False`.
 -   Appuyez sur **N** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir utilisé **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** ou **<img src="images/Draft_CloseLine.svg" width=16px> Fermer**, ou après avoir créé une spline fermée en l\'accrochant au premier point de la spline, ce qui vous permet de continuer à créer des splines.
 -   Appuyez sur **/** ou sur le bouton **<img src="images/Draft_UndoLine.svg" width=16px> Annuler** pour annuler le dernier point.
 -   Appuyez sur **A** ou sur le bouton **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** pour terminer la commande et laisser la cannelure ouverte.
@@ -119,7 +120,7 @@ bspline = make_bspline(Part.Wire, closed=False, placement=None, face=None, suppo
     -   Chaque point de la liste est défini par son `FreeCAD.Vector`, en millimètres.
     -   Sinon, l\'entrée peut être un `Part.Wire` à partir duquel les points sont extraits.
 -   Si `closed` est `True` ou si les premier et dernier points sont identiques, la courbe est fermée.
--   Si un `placement` est `None`, la courbe est créée à l\'origine.
+-   Si `placement` est `None`, la courbe est créée à l\'origine.
 -   Si `face` est `True` et la courbe est fermée, la courbe fera une face, c\'est-à-dire qu\'elle apparaîtra remplie.
 
 Exemple :

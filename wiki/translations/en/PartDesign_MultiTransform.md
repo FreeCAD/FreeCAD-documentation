@@ -15,7 +15,7 @@ The <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:24px;"> *
 The available transformations are: <img alt="" src=images/PartDesign_Mirrored.svg  style="width:16px;"> [Mirrored](PartDesign_Mirrored.md), <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> [LinearPattern](PartDesign_LinearPattern.md), <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:16px;"> [PolarPattern](PartDesign_PolarPattern.md) and <img alt="" src=images/PartDesign_Scaled.svg  style="width:16px;"> [Scaled](PartDesign_Scaled.md). The first three are also available as separate tools.
 
 <img alt="" src=images/multitransform_example.png  style="width:600px;"> 
-*A pattern of holes created from a single Hole feature by applying a LinearPattern with 2 occurences, followed by a PolarPattern with 8 occurrences.*
+*A pattern of holes created from a single Hole feature by applying a LinearPattern with 2 occurrences, followed by a PolarPattern with 8 occurrences.*
 
 ## Usage
 
@@ -60,18 +60,29 @@ It is possible to create a MultiTransform object from existing [Mirrored](PartDe
 
 ## Options
 
--   To add features:
-    1.  Press the **Add feature** button.
-    2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-    3.  Repeat to add more features.
--   To remove features:
-    1.  Press the **Remove feature** button.
-    2.  Do one of the following:
-        -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
-        -   Select a feature in the list at the top and press the **Del** key.
-        -   Right-click a feature in the list at the top and select **Remove** from the context menu.
-    3.  Repeat to remove more features.
--   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
+-   Choose the mode:
+    -   
+        **Transform body**
+        
+        : Transforms the whole base feature\'s shape (default). <small>(v1.0)</small> 
+
+    -   
+        **Transform tool shapes**
+        
+        : Transforms the individual tool shapes of selected features.
+
+        -   To add features:
+            1.  Press the **Add feature** button.
+            2.  Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+            3.  Repeat to add more features.
+        -   To remove features:
+            1.  Press the **Remove feature** button.
+            2.  Do one of the following:
+                -   Select a feature in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+                -   Select a feature in the list at the top and press the **Del** key.
+                -   Right-click a feature in the list at the top and select **Remove** from the context menu.
+            3.  Repeat to remove more features.
+        -   If there are several features in the pattern, their order can be important. See [PartDesign PolarPattern](PartDesign_PolarPattern#Ordering_features.md).
 -   To add transformations:
     1.  If there are existing transformations: select the transformation after which the new transformation should be added.
     2.  Right-click the **Transformations** list.
@@ -129,10 +140,10 @@ This could be a 150x100x10mm large mounting plate for a motor with symmetric hol
 4.  Select <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> **PartDesign MultiTransform**.
 5.  The task dialog opens.
 6.  The last feature of the Body is already selected. Since we want to mirror that feature we can ignore the **Add feature** and **Remove feature** buttons.
-7.  Right-click in the **Transformations** field and select **Add mirrored transform** from the context menu.
+7.  Right-click in the **Transformations** field and select **Add mirrored transformation** from the context menu.
 8.  For the **Plane** select **Vertical sketch axis**.
 9.  If the **Update view** checkbox is checked, you should now see the part mirrored about one axis.
-10. Again select **Add mirrored transform** from the context menu of the **Transformations** field.
+10. Again select **Add mirrored transformation** from the context menu of the **Transformations** field.
 11. Now for the **Plane** select **Horizontal sketch axis**.
 12. Press the **OK** button to finish.
 13. To remove the edges along the axes of symmetry in the final result, set the **Refine** property of the new feature to {{Value|true}} in the [Property editor](Property_editor.md).

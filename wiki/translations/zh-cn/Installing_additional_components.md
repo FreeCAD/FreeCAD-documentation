@@ -98,7 +98,7 @@ GraphViz是一款开源的图形可视化（graph visualization）软件。在Fr
 
 </div>
 
-[OpenCAMLib](http://www.anderswallin.net/CAM) is an open source library of computer aided manufacturing (CAM) algorithms. It is used in the [Path Workbench](Path_Workbench.md). See the [OpenCamLib](OpenCamLib.md) page for installation instructions.
+[OpenCAMLib](https://www.anderswallin.net/CAM) is an open source library of computer aided manufacturing (CAM) algorithms. It is used in the [CAM Workbench](CAM_Workbench.md). See the [OpenCamLib](OpenCamLib.md) page for installation instructions.
 
 
 
@@ -168,7 +168,7 @@ IfcOpenShell是一种用来处理建筑设计所用Industry Foundation Classes (
 
 </div>
 
-[IfcOpenShell](http://ifcopenshell.org) is a library for working with the Industry Foundation Classes (IFC) file format used in architectural design. The library is also used by the [Arch IfcExplorer](Arch_IfcExplorer.md) ({{VersionMinus|0.18}}) and [BIM IfcExplorer](BIM_IfcExplorer.md) tools. IfcOpenShell is included in the FreeCAD installers for Windows and Mac.
+[IfcOpenShell](https://ifcopenshell.org) is a library for working with the Industry Foundation Classes (IFC) file format used in architectural design. The library is also used by the [Arch IfcExplorer](Arch_IfcExplorer.md) ({{VersionMinus|0.18}}) and [BIM IfcExplorer](BIM_IfcExplorer.md) tools. IfcOpenShell is included in the FreeCAD installers for Windows and Mac.
 
 ### IfcJson
 
@@ -229,7 +229,7 @@ CalculiX是两种有限元包的组合套件：
 
 </div>
 
-[CalculiX](http://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) tool.
+[CalculiX](https://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) tool.
 
 
 
@@ -243,7 +243,7 @@ CalculiX是两种有限元包的组合套件：
 
 </div>
 
-[Gmsh](http://gmsh.info) is an automatic finite element mesh generator. it is used by the [FEM MeshGmshFromShape](FEM_MeshGmshFromShape.md) and [Mesh FromPartShape](Mesh_FromPartShape.md) tools.
+[Gmsh](https://gmsh.info) is an automatic finite element mesh generator. it is used by the [FEM MeshGmshFromShape](FEM_MeshGmshFromShape.md) and [Mesh FromPartShape](Mesh_FromPartShape.md) tools.
 
 
 
@@ -299,7 +299,7 @@ Z88是另一种FEM程序，内含网格生成器、求解器与转换器，用�
 
 </div>
 
-[OpenFOAM](https://openfoam.org) is a large collection of libraries for computational fluid dynamics (CFD) simulations. OpenFOAM is used by the [Cfd](Cfd_Workbench.md) and [CfdOF](https://github.com/jaheyns/CfdOF) [external workbenches](external_workbenches.md).
+[OpenFOAM](https://openfoam.org) is a large collection of libraries for computational fluid dynamics (CFD) simulations. OpenFOAM is used by the [Cfd](Cfd_Workbench.md) and [CfdOF](https://github.com/jaheyns/CfdOF) [external workbenches](External_workbenches.md).
 
 
 

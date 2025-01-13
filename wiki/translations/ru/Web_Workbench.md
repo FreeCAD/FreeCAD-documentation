@@ -1,4 +1,18 @@
-# <img alt="Логотип верстака Web" src=images/Workbench_Web.svg  style="width:64px;"> Web Workbench/ru
+# Web Workbench/ru
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+**The '''Web Workbench''' is no longer included after version 0.21.**
+
+<img alt="Логотип верстака Web" src=images/Workbench_Web.svg  style="width:128px;">
+
+
 
 ## Введение
 
@@ -33,7 +47,13 @@ The Web Workbench offers the following tools:
 -   <img alt="" src=images/Web_BrowserZoomOut.svg  style="width:32px;"> [Zoom out](Web_BrowserZoomOut.md): Zooms out on the current web page.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Web Tools navi
@@ -43,4 +63,4 @@ The Web Workbench offers the following tools:
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/ru
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/ru

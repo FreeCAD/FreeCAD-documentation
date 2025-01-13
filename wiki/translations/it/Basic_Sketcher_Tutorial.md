@@ -30,7 +30,13 @@ Il lettore farà pratica su:
 -   Applicazione di vincoli di riferimento
 -   Ottenere un profilo chiuso
 
-Per una descrizione più approfondita dello sketcher, leggere il [Manuale di riferimento per Sketcher](Sketcher_reference/it.md).
+
+<div class="mw-translate-fuzzy">
+
+Per una descrizione più approfondita dello sketcher, leggere il [Manuale di riferimento per Sketcher](Sketcher_Lecture/it.md).
+
+
+</div>
 
 ![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
 *Risultato finale dello schizzo, con tutta la geometria completamente vincolata, inclusa la geometria di costruzione per il supporto.*
@@ -327,7 +333,7 @@ Alla fine si dovrebbe ottenere uno schizzo completamente vincolato. Questo può 
 
 ## Additional information 
 
-For a more in depth description of the sketcher, visit the [Sketcher Workbench](Sketcher_Workbench.md) documentation and also read the [Sketcher reference](Sketcher_reference.md).
+For a more in depth description of the sketcher, visit the [Sketcher Workbench](Sketcher_Workbench.md) documentation and also read the [Sketcher Lecture](Sketcher_Lecture.md).
 
 Constraining a sketch can be done in many different ways. In general, it is recommended to use geometrical constraints first, and minimize the number of datum constraints, as this simplifies the task of the internal constraint solver. To investigate this, repeat this example, now adding the constraints in different order.
 

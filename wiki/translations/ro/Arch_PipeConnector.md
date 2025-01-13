@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -26,6 +28,8 @@ Acest instrument permite crearea unui conector de colț sau T între două sau t
 
 </div>
 
+
+
 ## Cum se folosește 
 
 
@@ -38,9 +42,13 @@ Acest instrument permite crearea unui conector de colț sau T între două sau t
 
 </div>
 
+
+
 ## Proprietăți
 
 -    **Radius**: Raza curburii acestui conector
+
+
 
 ## Fluxul de lucru tipic 
 
@@ -78,7 +86,9 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 -   Creates a `Connector` object from the given `pipes`, which is a list of [Arch Pipes](Arch_Pipe.md), and optionally a `radius` of curvature.
     -   The base objects ([Draft Wires](Draft_Wire.md)) of the [Arch Pipes](Arch_Pipe.md) should share an endpoint so they create a proper, smooth connector.
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -121,6 +131,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/ro
+⏵ [documentation index](../README.md) > Arch PipeConnector/ro

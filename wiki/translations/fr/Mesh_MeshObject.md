@@ -11,7 +11,9 @@ Notez que l\'**<img src="images/Workbench_FEM.svg" width=16px> [atelier FEM](FEM
 
 
 
-*Diagramme simplifié des relations entre les objets principaux du programme. La classe `Mesh::MeshObject* est incorporée dans l'objet {{incode|Mesh::Feature` et à partir de là, elle est propagée à tous les objets qui en sont dérivés.}}
+*Diagramme simplifié des relations entre les objets principaux du programme.<br>La classe `Mesh::MeshObject* est incorporée dans l'objet {{incode|Mesh::Feature` et à partir de là, elle est propagée à tous les objets qui en sont dérivés.}}
+
+
 
 ## Utilisation
 
@@ -21,8 +23,10 @@ En particulier, l\'objet de base qui gère ces types d\'attributs est la [foncti
 
 Les objets les plus remarquables qui auront un objet Mesh MeshObject sont les suivants:
 
--   Tout maillage primitif créé avec le [atelier Mesh](Mesh_Workbench/fr.md).
+-   Tout maillage primitif créé avec l\'[atelier Mesh](Mesh_Workbench/fr.md).
 -   Tout objet créé en important une STL, OBJ et des fichiers de format de maillage similaires.
+
+
 
 ## Script
 

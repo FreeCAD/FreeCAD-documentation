@@ -1,12 +1,12 @@
 ---
  GuiCommand:
    Name: Sketcher CreateEllipseByCenter
-   Name/fr: Sketcher Ellipse par son centre
+   Name/fr: Sketcher Ellipse par centre
    MenuLocation: Esquisse , Géométries d'esquisse , Créer une ellipse par son centre
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **E** **E**
    Version: 0.15
-   SeeAlso: Sketcher_CreateEllipseBy3Points/fr, Sketcher_CreateCircle/fr, Sketcher_CreateArcOfEllipse/fr
+   SeeAlso: Sketcher_CreateArcOfEllipse/fr
 ---
 
 # Sketcher CreateEllipseByCenter/fr
@@ -15,28 +15,45 @@
 
 ## Description
 
-Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du rayon majeur, le rayon mineur. Lors du démarrage de l\'outil, le pointeur de la souris passe à une croix blanche avec une icône d\'ellipse rouge. En outre, les coordonnées sont affichées en temps réel.
+L\'outil <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:24px;"> [Sketcher Ellipse par centre](Sketcher_CreateEllipseByCenter/fr.md) crée une ellipse par son centre, une extrémité de l\'un de ses axes et un point de l\'ellipse. {{Version/fr|1.0}} : ou bien par les deux extrémités d\'un de ses axes et un point de l\'ellipse.
 
-<img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;"> 
-*La séquence de clics est indiquée par des flèches jaunes avec des nombres.<br>
-C est le centre, a est le grand axe, b est le petit axe, F1, F2 sont les foyers.*
+![](images/Sketcher_CreateEllipseByCenter_Example.png ) 
+*Ellipse (en blanc) avec géométrie interne (en jaune foncé)*
 
 
 
 ## Utilisation
 
--   Cliquer sur le bouton de la barre d\'outils, en choisissant l\'élément de menu, ou en utilisant le raccourci clavier (il faut d\'abord attribuer la touche dans [Personnalisation de l\'interface](Interface_Customization/fr.md)).
--   Le premier clic dans la vue 3D, définit le centre de l\'ellipse. Le deuxième clic définit le premier rayon et l\'orientation de l\'ellipse. Le troisième clic définit l\'autre rayon (la distance de la ligne définie par les deux premiers clics est le deuxième rayon).
--   Après le troisième clic, l\'ellipse est créée, ainsi que l\' ensemble de géométrie de construction (en traits bleu) aligné (diamètre principal, diamètre mineur, deux foyers). La géométrie de la construction peut être supprimée manuellement si elle n\'est pas nécessaire et recréée ultérieurement. Voir [Afficher/masquer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
--   En appuyant sur **Echap** ou en cliquant sur le bouton droit de la souris, vous annulez la fonction.
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
+
+Pos-OVP = [Paramètres d\'affichage](Sketcher_Preferences/fr#Général.md) de position. {{Version/fr|1.0}}
+Dim-OVP = Paramètres d\'affichage des dimensions. {{Version/fr|1.0}}
+
+1.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_CreateEllipseByCenter.svg" width=16px> [Ellipse par son centre, un de ses rayons, un point de la courbe](Sketcher_CreateEllipseByCenter/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Géométries d'esquisse → <img src="images/Sketcher_CreateEllipseByCenter.svg" width=16px> Créer une ellipse par le centre** du menu.
+    -   Utilisez le raccourci clavier : **G** puis **E**, puis **E**.
+2.  Le curseur se transforme en croix avec l\'icône du mode d\'outil en cours.
+3.  La section **Paramètres de l\'ellipse** ({{Version/fr|1.0}}) est ajoutée en haut de la [fenêtre de dialogue de l\'esquisse](Sketcher_Dialog/fr.md).
+4.  Il est possible d\'appuyer sur la touche **M** ou d\'effectuer une sélection dans la liste déroulante de la section des paramètres pour changer le mode de l\'outil :
+    -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:16px;"> **Centre** :
+        1.  Choisissez le centre de l\'ellipse, ou avec Pos-OVP : entrez ses coordonnées X et/ou Y.
+        2.  Choisissez un point d\'extrémité de l\'un des axes de l\'ellipse, ce qui définit également l\'un de ses rayons, ou avec Dim-OVP : entrez ce rayon et/ou l\'angle de cet axe.
+        3.  Choisissez un point pour définir l\'autre rayon de l\'ellipse, ou avec Dim-OVP : entrez ce rayon.
+    -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:16px;"> **Extrémités de l\'axe** : {{Version/fr|1.0}}
+        1.  Choisissez les extrémités de l\'un des axes de l\'ellipse, cela définit également l\'un de ses rayons, ou avec Pos-OVP : entrez leurs coordonnées X et/ou Y. Aucune contrainte n\'est créée pour ces points. Aucune contrainte n\'est créée pour ces points.
+        2.  Choisissez un point pour définir l\'autre rayon de l\'ellipse, ou avec Pos-OVP : entrez ses coordonnées X et/ou Y. Aucune contrainte n\'est créée pour ce point.
+5.  L\'ellipse est créée, y compris un ensemble de géométrie interne (grand axe, petit axe et deux foyers), et les contraintes Pos-OVP et Dim-OVP applicables sont ajoutées.
+6.  Si l\'outil fonctionne en [mode continu](Sketcher_Workbench/fr#Modes_continus.md) :
+    1.  Vous pouvez continuer à créer des ellipses.
+    2.  Pour terminer, cliquez avec le bouton droit de la souris ou appuyez sur **Échap**, ou démarrez un autre outil de création de géométrie ou de contrainte.
 
 
 
-## Particularités
+## Remarques
 
--   Le grand axe et le petit axe des ellipses sont stricts et ne peuvent pas être échangés en redimensionnant l\'ellipse. Ceci est une conséquence du paramétrage du solveur utilisé (centre (x, y), focus1 (x, y) et longueur du demi petit axe (b)) et le même comportement strict d\'OpenCascade. L\'ellipse doit être tournée pour échanger les axes.
--   L\'ellipse peut fonctionner comme un cercle lorsque ses lignes de diamètre majeur et mineur sont supprimées, et l\'un des foyers est contraint de coïncider avec le centre. Mais la contrainte de rayon ne fonctionnera pas sur un tel cercle.
--   Déplacer l\'ellipse par un bord donne le même résultat que le centre de l\'ellipse.
+-   Les éléments de la géométrie interne peuvent être supprimés. Ils peuvent être recréés à tout moment avec [Sketcher Géométrie interne d\'alignement](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
+-   Une fois créée, les axes majeur et mineur d\'une ellipse sont figés et ne peuvent pas être intervertis par redimensionnement. Ceci est une conséquence de la paramétrisation du solveur et du même comportement strict de [OpenCASCADE](OpenCASCADE/fr.md). Une ellipse doit être pivotée pour intervertir ses axes.
 
 
 

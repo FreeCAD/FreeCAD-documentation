@@ -3,7 +3,7 @@
    Name: PartDesign InvoluteGear
    Name/pl: Projekt Części: Koło zębate ewolwentowe
    Icon: PartDesign_InternalExternalGear.svg
-   MenuLocation: Projekt Części , Koło zębate ewolwentowe ...
+   MenuLocation: Projekt Części , Koło zębate ewolwentowe...
    Workbenches: PartDesign_Workbench/pl
    SeeAlso: FCGear_Workbench/pl
 ---
@@ -28,11 +28,11 @@ Bardziej szczegółowe informacje można znaleźć również na stronach Wiki: [
 
 ### Utworzenie profilu 
 
-1.  Opcjonalnie aktywuj właściwą zawartość.
-2.  Przejdź do menu **Projekt Części → [<img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Przekładnia ewolwentowa ...**.
-3.  Ustaw parametry zębatki.
+1.  Opcjonalnie aktywuj właściwą Zawartość.
+2.  Przejdź do menu **Projekt Części → [<img src=images/PartDesign_InvoluteGear.svg style="width:16px"> Koło zębate ewolwentowe...**.
+3.  Ustaw parametry ewolwenty.
 4.  Kliknij **OK**.
-5.  Jeśli koło zębate znajduje się poza aktywną zawartością: przeciągnij go i upuść do zawartości, aby zastosować dalsze funkcje, takie jak wyciągnięcie.
+5.  Jeśli nie było aktywnej Zawartości: przeciągnij koło i upuść do Zawartości, aby zastosować dalsze operacje, takie jak wyciągnięcie.
 
 
 
@@ -129,7 +129,7 @@ Wskazówka: Aby uczynić kąt skrętu dostępnym parametrem, użyj \"właściwo�
 
 -    **Wysoka dokładność**: przyjmuje wartość {{True/pl}} lub {{False/pl}}
 
--    **Modułowość**: średnica podziałki podzielona przez liczbę zębów.
+-    **Modułowość**: Średnica podziałowa podzielona przez liczbę zębów. *(Uwaga: poprawnym terminem technicznym jest \"Moduł\", ale ta nazwa jest już używana przez wewnętrzne elementy FreeCAD i dlatego nie może być tutaj używana)*.
 
 -    **Liczba zębów**: ustawia liczbę zębów.
 
@@ -146,6 +146,10 @@ Wskazówka: Aby uczynić kąt skrętu dostępnym parametrem, użyj \"właściwo�
 ## Uwagi
 
 -   Aby dwa koła zębate mogły się zazębić, muszą mieć ten sam moduł i kąt nacisku. [Wyrażenia](Expressions/pl.md) mogą pomóc w zapewnieniu spójności. Ich odległość środkowa musi wynosić `(NumberOfTeeth + OtherGear.NumberOfTeeth) * Modules / 2` *(czyli w przypadku, gdy suma przesunięcia profilu wynosi zero)*. Odejmij liczbę zębów w przypadku przekładni wewnętrznej.
+
+-   Podczas używania [Szkicu](Sketch/pl.md) do pozycjonowania niektórych kół zębatych, mogą one być reprezentowane za pomocą ich okręgów podziałowych i przy użyciu [wiązania styczneości](Sketcher_ConstrainTangent/pl.md) między tymi okręgami. Ich średnice można ustawić za pomocą następującego [wyrażenia](Expressions/pl.md): `SomeGear.NumberOfTeeth * SomeGear.Modules` *(zakładając, że nie ma przesunięcia profilu, a \"SomeGear\" jest **Name** odpowiedniego obiektu profilu przekładni)*.
+
+-   Podczas używania [Szkicu](Sketch/pl.md) do tworzenia dodatkowych elementów *(wycięć, szprych, \...)* na kole zębatym, okręgi odniesienia na wierzchołku lub korzeniu zębów mogą pomóc w pozycjonowaniu tych elementów. Średnicę okręgu wierzchołkowego można ustawić za pomocą następującego [Wyrażenia](Expressions/pl.md): `(SomeGear.NumberOfTeeth + 2 * (SomeGear.AddendumCoefficient + SomeGear.ProfileShiftCoefficient)) * SomeGear.Modules`, a okrąg główny odpowiednio o `(SomeGear.NumberOfTeeth - 2 * (SomeGear.DedendumCoefficient - SomeGear.ProfileShiftCoefficient)) * SomeGear.Modules`.
 
 -   Przesunięcie profilu może być stosowane do zapobiegania podcięciu na kołach zębatych o małej liczbie zębów. Innym zastosowaniem jest regulacja odległości środkowej dwóch kół zębatych o danej liczbie zębów i module.
 
@@ -167,8 +171,9 @@ Wskazówka: Aby uczynić kąt skrętu dostępnym parametrem, użyj \"właściwo�
 
 ## Ograniczenia
 
--   Obecnie nie ma możliwości regulacji grubości zęba. Ząb i przestrzeń zęba są rozmieszczone równomiernie na kole podziałowym. Dlatego jedynym sposobem na kontrolowanie luzu jest dostosowanie odległości środka w parowaniu przekładni.
--   Obecnie nie ma [podcięcia](https://www.tec-science.com/mechanical-power-transmission/involute-gear/undercut/) w generowanym profilu przekładni. Oznacza to, że koła zębate z małą liczbą zębów mogą kolidować z zębami współpracującego koła zębatego. Dolna granica zależy od **Kąt docisku** i wynosi około 17 zębów dla 20° i 32 dla 14.5°. Większość praktycznych zastosowań toleruje brak podcięcia dla kół zębatych nieco mniejszych niż ta teoretyczna granica.
+-   Obecnie nie jest możliwe dostosowanie grubości zęba. Ząb i przestrzeń między zębami są równomiernie rozłożone na okręgu odniesienia. Jednym ze sposobów na kontrolowanie luzu jest dostosowanie odległości między środkami kół zębatych. Innym sposobem jest zastosowanie niewielkiego ujemnego przesunięcia profilu. Przykład: Dla typowego współczynnika luzu obwodowego wynoszącego 0,04 zwiększ albo odległość środkową o `(0,04 * Modules / 2) / tan(PressureAngle)` lub przesuń profil jednego koła zębatego (najlepiej większego) o współczynnik `-(0,04 / 2) / tan(PressureAngle)`.
+
+-   Obecnie nie ma [podcięcia](https://www.tec-science.com/mechanical-power-transmission/involute-gear/undercut/) w wygenerowanym profilu koła zębatego. Oznacza to, że koła zębate o małej liczbie zębów mogą kolidować z zębami współpracującego koła zębatego. Dolna granica zależy od **Kąt docisku** i wynosi około 17 zębów dla 20° i 32 dla 14,5°. Większość praktycznych zastosowań toleruje brak podcięcia dla kół zębatych nieco mniejszych niż ten teoretyczny limit, który zakłada współpracę z zębatką i standardową długością zębów.
 
 
 

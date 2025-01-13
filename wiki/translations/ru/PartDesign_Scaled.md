@@ -23,6 +23,8 @@ If there is no previous transformation within the <img alt="" src=images/PartDes
 <img alt="" src=images/PartDesign_Scaled-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/PartDesign_Scaled-04.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/PartDesign_Scaled-05.png  style="width:200px;"> 
 *A base feature with a hole → Scaled object with 2 occurrences → Scaled object with 4 occurrences*
 
+
+
 ## Применение
 
 ### Scaling a transformed feature 
@@ -53,6 +55,8 @@ If there is no previous transformation within the <img alt="" src=images/PartDes
     -   A scaled transformation accepts the number of occurrences of the previous transformation as maximum value or any integer divisor of that number returning an integer result. So {{Value|12}}, {{Value|6}}, {{Value|4}}, {{Value|3}}, and {{Value|2}} are valid for a Linear or Polar Pattern with 12 occurrences.
     -   A scaled single feature accepts any integer number larger than 1.
 
+
+
 ## Примечания
 
 -   The center of scaling is the features\'s center of gravity and that may cause:
@@ -61,7 +65,13 @@ If there is no previous transformation within the <img alt="" src=images/PartDes
     -   A shrinking pocket to become an invisible cavity inside the parent feature.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{PartDesign Tools navi

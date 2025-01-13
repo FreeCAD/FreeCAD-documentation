@@ -9,9 +9,13 @@
 
 # Std PrintPreview/ru
 
+
+
 ## Описание
 
 The **Std PrintPreview** command will show a preview of the result of the [Std Print](Std_Print.md) command. You can also print directly from the preview dialog box.
+
+
 
 ## Применение
 
@@ -19,6 +23,8 @@ The **Std PrintPreview** command will show a preview of the result of the [Std P
 2.  Select the **File → <img src="images/Std_PrintPreview.svg" width=16px> Print preview...** option from the menu.
 3.  The Print Preview dialog box that pops up has several button options. If you have zoomed in you can pan by holding down the left mouse button and moving the mouse.
 4.  Use the dialog box\'s **Print** button.
+
+
 
 ## Опции
 
@@ -28,7 +34,7 @@ The **Std PrintPreview** command will show a preview of the result of the [Std P
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

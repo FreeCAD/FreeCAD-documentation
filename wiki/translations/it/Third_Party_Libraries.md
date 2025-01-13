@@ -84,7 +84,7 @@ Python è un popolare linguaggio di scripting per tutti gli usi ampiamente utili
 -   per scrivere [macro](Macros/it.md) e registrazione di macro,
 -   per implementare la logica dell\'applicazione per i pacchetti standard,
 -   per implementare strumenti ausiliari come [Addon Manager](Std_AddonMgr/it.md),
--   per implementare interi ambienti di lavoro come [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md),
+-   per implementare interi ambienti di lavoro come [Draft](Draft_Workbench/it.md) e [BIM](BIM_Workbench/it.md),
 -   per caricare dinamicamente i pacchetti,
 -   per implementare regole per la progettazione (ingegneria della conoscenza)
 -   per creare interazioni fantasiose su Internet come gruppi di lavoro e PDM
@@ -141,6 +141,8 @@ Qt è uno dei toolkit di interfaccia utente grafica (GUI) più popolari disponib
 
 Ulteriori informazioni sulle librerie Qt e la relativa documentazione di programmazione sono disponibili nella [Documentazione di Qt](https://doc.qt.io/?hsCtaTracking=f641fd1a-772b-4957-964b-dad954b8d702%7C46c97dac-f1f6-49b3-ae46-8070fc35ea13).
 
+
+
 #### Shiboken2 e Pyside2 
 
 Shiboken è il generatore di binding Python che Python Qt utilizza per creare il modulo PySide, in altre parole, è il sistema utilizzato per esporre l\'API Qt C++ al linguaggio Python.
@@ -179,7 +181,7 @@ SoQt non è più utilizzato in FreeCAD, è stato sostituito da Quarter che è un
 
 #### Quarter
 
-**Versione:** 1.0 or higher
+**Versione:** 1.0 o successiva
 
 **Licenza:** BSD 3-clause license
 
@@ -191,7 +193,7 @@ Quarter è un binding a Coin3D più recente rispetto al toolkit Qt. Una sua vers
 
 **Licenza:** BSD 3-clause license
 
-[Pivy](Pivy/it.md) è una libreria che avvolge la libreria Coin3d per l\'uso in [Python](Python/it.md). Non è necessaria per compilare FreeCAD o per avviarla, ma è necessaria come dipendenza di runtime dall\'[Ambiente Draft](Draft_Workbench/it.md) e da altri ambienti che la utilizzano internamente, come [Arch](Arch_Workbench/it.md) e [BIM](BIM_Workbench/it.md).
+[Pivy](Pivy/it.md) è una libreria che avvolge la libreria Coin3d per l\'uso in [Python](Python/it.md). Non è necessaria per compilare FreeCAD o per avviarla, ma è necessaria come dipendenza di runtime dall\'[Ambiente Draft](Draft_Workbench/it.md) e da altri ambienti che la utilizzano internamente, come [BIM](BIM_Workbench/it.md).
 
 Se non si utilizzano questi ambienti di lavoro, non ci sarà bisogno di Pivy.
 
@@ -261,11 +263,11 @@ Una copia di questa libreria è inclusa nel codice sorgente di FreeCAD, quindi v
 
 Libarea è una libreria software per calcolare le operazioni di profili e tasche utilizzate nel software di produzione assistita da computer (CAM). È stata creata da Dan Heeks per il suo progetto HeeksCNC.
 
-Una copia della libreria è inclusa nel codice sorgente dell\'[Ambiente Path](Path_Workbench/it.md), quindi viene compilata insieme ad esso.
+Una copia della libreria è inclusa nel codice sorgente dell\'[Ambiente CAM](CAM_Workbench/it.md), quindi viene compilata insieme ad esso.
 
-### LibPack
+## LibPack
 
-LibPack è un pacchetto utile con le dipendenze di compilazione di FreeCAD raccolte insieme. È necessario solo se si sta compilando FreeCAD su Windows con Visual Studio 2015 o versioni successive. È possibile trovare l\'ultimo LibPack nella [releases page](https://github.com/FreeCAD/FreeCAD/releases).
+LibPack è un comodo pacchetto contenente le dipendenze di compilazione di FreeCAD raccolte tutte insieme. È necessario solo se si sta compilando FreeCAD su Windows con Visual Studio 2015 o versioni successive. È possibile trovare l\'ultimo LibPack nella [releases page](https://github.com/FreeCAD/FreeCAD/releases).
 
 Se si sta lavorando sotto Linux, non c\'è bisogno del LibPack, poiché si può ottenere le dipendenze dai repository della tua distribuzione come menzionato nella pagina [Compilazione in Linux](Compile_on_Linux/it.md).
 

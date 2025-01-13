@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -26,6 +28,8 @@ Algoritmul din spatele instrumentului Nest (Economizor) este în evoluție const
 <img alt="" src=images/Arch_Nest_example.jpg  style="width:600px;">
 
 *Imaginea de mai sus prezintă o serie de forme înainte și după operația de cuibărit*
+
+
 
 ## Cum se folosește 
 
@@ -53,6 +57,8 @@ Algoritmul din spatele instrumentului Nest (Economizor) este în evoluție const
 
 </div>
 
+
+
 ## Notă
 
 -   toate obiectele trebuie să aibă o fațetă
@@ -71,6 +77,11 @@ Algoritmul din spatele instrumentului Nest (Economizor) este în evoluție const
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/ro
+⏵ [documentation index](../README.md) > Arch Nest/ro

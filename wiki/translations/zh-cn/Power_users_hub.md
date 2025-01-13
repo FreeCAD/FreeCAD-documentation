@@ -31,6 +31,8 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 </div>
 
+
+
 ## 定制FreeCAD
 
 
@@ -46,6 +48,8 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 
 </div>
+
+
 
 ## 在FreeCAD里写脚本
 
@@ -64,6 +68,8 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 
 </div>
+
+
 
 ### 模块
 
@@ -138,6 +144,8 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### 参数对象类工作
@@ -150,7 +158,7 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 -   [Scripted objects](Scripted_objects.md): how to make 100% Python-scripted objects.
     -   [Scripted objects with attachment](Scripted_objects_with_attachment.md): how to make scripted objects attachable to other objects.
-    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md): how to save and restore attributes of the proxy class with `__getstate__` and `__setstate__`.
+    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md): how to save and restore attributes of the proxy class with `dumps` and `loads`.
     -   [Scripted objects migration](Scripted_objects_migration.md): how to migrate old scripted objects to a new class.
 
 ### Examples
@@ -170,11 +178,15 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 </div>
 
+
+
 ## API函数
 
 FreeCAD完整的API文档放在http://www.freecadweb.org/api/中。它既有C++也有Python的API，还没有完全格式化好。当你想找只含Python的代码，就会发现那里有点乱。更便于浏览的版本在[这里](:Category_API.md)。注意，它可能并不完整，因为它得用人工更新。要找更精确信息的话，直接在FreeCAD的Python控制台里浏览相应模块吧。
 
 Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
+
+
 
 ## 高级修改
 
@@ -189,6 +201,8 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 
 </div>
+
+
 
 ## Python教程
 
@@ -237,6 +251,8 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 </div>
 
+
+
 ## 社区项目
 
 
@@ -246,8 +262,6 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 
 </div>
-
--   [Scientific literature](Scientific_literature.md): articles that reference or use the FreeCAD system in different ways.
 
 
 

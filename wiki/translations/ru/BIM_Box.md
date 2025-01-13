@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 <img alt="" src=images/BIM_box_screenshot.png  style="width:1024px;">
@@ -24,9 +26,11 @@
 
 </div>
 
+
+
 ## Применение
 
-1.  Press the **<img src="images/BIM_Box.png" width=16px> [BIM Box](BIM_Box.md)** button
+1.  Press the **<img src="images/BIM_Box.svg" width=16px> [Box](BIM_Box.md)** button
 2.  Click a first point to define a first corner of the box. It can be any of the box corners
 3.  Click a second point to define a first edge of the box, starting from the first point
 4.  Click a third point to define a first face of the box, orthogonal to the first edge
@@ -34,5 +38,13 @@
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > BIM Box/ru
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Box/ru

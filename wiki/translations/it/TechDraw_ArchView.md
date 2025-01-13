@@ -1,140 +1,121 @@
 ---
  GuiCommand:
    Name: TechDraw_ArchView
-   Name/it: Vista di Arch
-   MenuLocation: TechDraw , Vista di Arch
-   Workbenches: TechDraw_Workbench/it
-   SeeAlso: Arch Workbench/it, Arch SectionPlane/it
+   Name/it: TechDraw Vista di Arch
+   MenuLocation: TechDraw , Viste da altri ambienti di lavoro , Inserisci Oggetto ambiente BIM
+   Workbenches: TechDraw_Workbench/it, BIM_Workbench/it
+   SeeAlso:  Arch SectionPlane/it
 ---
 
 # TechDraw ArchView/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Vista di Arch inserisce una vista di un **<img src="images/Arch_SectionPlane.svg" width=16px> [Piano di sezione di Arch](Arch_SectionPlane/it.md)** in una [pagina di TechDraw](TechDraw_PageDefault/it.md).
+Lo strumento **TechDraw Vista di Arch** inserisce una Vista di Arch, una vista di un <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Piano di sezione Arch](Arch_SectionPlane/it.md), su una [Pagina TechDraw](TechDraw_PageDefault/it.md).
 
 
-</div>
+{{Version/it|1.0}}
 
-![](images/TechDraw_Arch_example.jpg )
+: lo strumento [TechDraw Vista](TechDraw_View.md) può anche creare una vista di Arch.
+
+<img alt="" src=images/TechDraw_Arch_example.jpg  style="width:500px;">
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare una Sezione di Arch nella finestra 3D o nella vista a albero.
-2.  Se nel documento ci sono più pagine di disegno, è necessario selezionare anche la pagina desiderata nella struttura.
-3.  Premere il pulsante **<img src="images/TechDraw_ArchView.svg" width=24px> [Vista di Arch](TechDraw_ArchView/it.md)
-**
-4.  Nella pagina appare una vista degli oggetti visti dal piano di sezione.
-
-
-</div>
+1.  Selezionare un piano di sezione di Arch nella [Vista 3D](3D_view/it.md) o nella [Vista albero](Tree_view/it.md).
+2.  Se nel documento sono presenti più pagine di disegno: facoltativamente aggiungere la pagina desiderata alla selezione selezionandola nella [Vista ad albero](Tree_view/it.md).
+    -   Selezionare l\'opzione **TechDraw → Viste da altri ambienti di lavoro → <img src="images/TechDraw_ArchView.svg" width=16px> Inserisci oggetto Ambiente BIM** dal menu.
+3.  Se nel documento sono presenti più pagine di disegno e se nessuna pagina è visualizzata nell\'[Area della vista principale](Main_view_area/it.md) e non si ha ancora selezionato una pagina, si apre la finestra di dialogo **Scelta pagina**:
+    1.  Selezionare la pagina desiderata.
+    2.  Premere il pulsante **OK**.
 
 
 
 ## Opzioni
 
+-   La Vista di Arch è renderizzata dall\'[Ambiente BIM](BIM_Workbench/it.md).
+-   [Quotature Draft](Draft_Snap_Dimensions/it.md), [Testi Draft](Draft_Text/it.md) e qualsiasi altro oggetto 2D (Sketch o Draft) considerato dal piano di sezione viene reso \"così com\'è\" (senza intersezioni o linee nascoste) sopra la geometria solida
+-   Il volume di [Arch Spazio](Arch_Space/it.md) non viene renderizzato, verrà renderizzata solo l\'etichetta
+-   Le linee di taglio, le linee proiettate (se la proprietà Mostra nascosto è impostata su True) e le linee 2D sopra possono essere renderizzate con larghezze di linea diverse. Questo può essere configurato nelle preferenze di Arch.
+-   Vista di Arch ha due modalità di rendering:
+    -   Wireframe, che utilizza gli algoritmi OpenCasCade di [TechDraw](TechDraw_Workbench/it.md), è veloce e produce solo linee (non è possibile il riempimento della faccia)
+    -   Solido, che si basa sull\'[Painter\'s algorithm](https://en.wikipedia.org/wiki/Painter%27s_algorithm) ed è in grado di rendere i volti riempiti con il colore della loro forma. Tuttavia, è molto più lento e può fallire in molte situazioni.
 
-<div class="mw-translate-fuzzy">
-
--   La Vista di Arch è resa dall\'ambiente [Arch](Arch_Workbench/it.md), allo stesso modo di come avveniva in [Drawing](Drawing_Workbench/it.md). Vedere le note.
--   [Dimensioni](Draft_Snap_Dimensions/it.md), [Testi](Draft_Text/it.md) e qualsiasi altro oggetto 2D (Sketch o Draft) considerato dal piano di sezione viene reso \"così com\'è\" (senza nessuna intersezione o linee nascoste) sopra la geometria solida.
--   Il volume degli [Spazi](Arch_Space/it.md) non viene reso, viene resa solo l\'etichetta.
--   Le linee di taglio, le linee proiettate (se Mostra proprietà nascosta è impostata su Vero) e le linee 2D di cui sopra possono essere rese con larghezze di linea diverse. Questo può essere configurato nelle preferenze di Arch.
--   La Vista di Arch ha due modalità di rendering: Wireframe, che utilizza gli algoritmi OpenCasCade di [Drawing](Drawing_Workbench/it.md), è veloce e produce solo linee (non è possibile riempire la faccia) e Solid, che si basa sull\'[algoritmo di Painter](https://en.wikipedia.org/wiki/Painter%27s_algorithm), ed è in grado di riprodurre facce riempite con il colore della loro forma. Tuttavia, è molto più lento e può fallire in molte situazioni. L\'immagine sotto mostra la differenza tra le due modalità di rendering:
+:   L\'immagine seguente illustra la differenza tra le due modalità di rendering:
 
 
-</div>
+
 
 
 :   ![](images/TechDraw_Arch_rendering.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   Per le [Tubazioni](Arch_Pipe/it.md) sono rese solo le linee di base, ma non il volume dei tubi:
-
-
-</div>
-
+-   Per le [Tubazioni Arch](Arch_Pipe/it.md) sono renderizzate solo le linee di base, ma non il volume dei tubi:
 
 :   ![](images/TechDraw_Arch_piping.jpg )
 
-## Notes
 
 
-<div class="mw-translate-fuzzy">
+## Note
 
-Poiché la Vista di Arch è resa all\'interno del modulo [Arch](Arch_Workbench/it.md), TechDraw ha un controllo limitato sul suo aspetto. Potrebbe essere necessario apportare delle modifiche all\'interno di Arch per ottenere la rappresentazione desiderata.
-
-
-</div>
+La Vista di Arch viene renderizzata all\'interno dell\'ambiente [BIM](BIM_Workbench/it.md), pertanto TechDraw ha un controllo limitato sul suo aspetto. Potrebbe essere necessario apportare modifiche all\'interno di Arch per ottenere la rappresentazione desiderata.
 
 
 
 ## Proprietà
 
-See also [TechDraw View](TechDraw_View#Properties.md).
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-### Data
+Una Vista Arch, formalmente un oggetto {{Incode|TechDraw::DrawViewArch}}, ha le [proprietà](TechDraw_View#Properties_Part_View.md) comuni a tutti i tipi di Vista. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{TitleProperty|Arch view}}
 
+-    **Source|Link**: l\'oggetto piano di sezione da visualizzare.
 
-<div class="mw-translate-fuzzy">
+-    **All On|Bool**: se gli oggetti nascosti devono essere mostrati o meno. Se `False`, viene eseguito il rendering solo degli oggetti visibili nella vista 3D.
 
--    **Source**: L\'oggetto piano di sezione da visualizzare.
+-    **Render Mode|Enumeration**: la modalità di rendering da utilizzare, {{Value|Solid}} o {{Value|Wireframe}}.
 
--    **All On**: Se gli oggetti nascosti devono essere mostrati o meno. Se False, vengono visualizzati solo gli oggetti visibili nella vista 3D.
+-    **Fill Spaces|Bool**: Se `True`, gli Spazi Arch vengono visualizzati come un\'area colorata.
 
--    **Render Mode**: La modalità di rendering da utilizzare, Solido o Wireframe.
+-    **Show Hidden|Bool**: se la geometria nascosta (la parte della geometria che si trova dietro il piano di sezione) viene mostrata o meno. Verrà visualizzato in una linea tratteggiata, che può essere configurata nelle preferenze di Arch.
 
--    **Show Hidden**: Se la geometria nascosta (la parte della geometria che si trova dietro il piano di sezione) viene mostrata o meno. Verrà eseguito il rendering in linea tratteggiata, che può essere configurato nelle preferenze di Arch.
+-    **Show Fill|Bool**: se le aree tagliate devono essere riempite con un colore grigio o meno.
 
--    **Show Fill**: Se le aree tagliate devono essere riempite con un colore grigio o no.
+-    **Line Width|Float|Float**: la larghezza delle linee principali. I rapporti delle linee di taglio e delle larghezze delle linee proiettate/2D possono essere configurati nelle preferenze di Arch.
 
--    **Line Width**: La larghezza delle linee principali. La larghezza delle linee di taglio e delle linee 2D proiettate possono essere configurate nelle preferenze di Arch.
+-    **Font Size|Float**: la dimensione di tutti i testi che appaiono in questa vista.
 
--    **Font Size**: La dimensione di tutti i testi che appaiono in questa vista.
+-    **Cut Line Width|Float**: larghezza delle linee di taglio in questa vista.
+
+-    **Join Arch|Bool**: Se `True`, i muri e le strutture verranno fusi dal materiale.
+
+-    **Line Spacing|Float**: la spaziatura tra le righe da utilizzare per i testi su più righe. {{Version/it|1.0}}
 
 
-</div>
+{{TitleProperty|Drawing view}}
+
+-    **Symbol|String|Hidden**: il codice SVG che definisce questo simbolo.
+
+-    **Editable Texts|StringList**: valori di sostituzione per le stringhe modificabili in questo simbolo.
+
+-    **Owner|Link**: feature a cui è associato questo simbolo. {{Version/it|1.0}}
 
 
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-<div class="mw-translate-fuzzy">
-
-
-**Vedere anche:**
-
-[API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento New Arch può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
-
-
-</div>
+Lo strumento Vista di Arch può essere utilizzato nelle [macro](Macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
 
 
 ```python
@@ -144,13 +125,7 @@ rc = page.addView(dv)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

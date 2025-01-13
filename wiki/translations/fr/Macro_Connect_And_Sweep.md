@@ -4,8 +4,8 @@
 |Icon=Macro_Connect_And_Sweep.png
 |Description={{ColoredText|#ff0000|#ffffff|Nouvelle version de l'interface graphique modifiée pour le dpi HD (QGridLayout) exécutez uniquement la version FC 0.18 et plus (PySide2 Qt5)}} <br/> <br/> Cette macro crée facilement une connexion entre deux objets. Une fonction discretize permet de créer de point suivant le nombre de coupes du fil ou par dimension déterminée.<br/>Une fonction de discrétisation est disponible pour créer des points marqueurs configurables pour couper des lignes en coupe ou une coupe avec une cote sur le point est créée pour toutes les coordonnées.<br/>Une fonction de face ou de fil dupliquée à utiliser avec l'opération de balayage et de lissage <br/>Opération de balayage et de lissage directement avec la macro.<br/>Centrage de la poutrelle sur les faces
 |Author=Mario52
-|Version=0.12
-|Date=2020-07-05
+|Version=0.13
+|Date=2024-07-21
 |FCVersion=0.18 et plus
 |Download=[https://www.freecadweb.org/wiki/images/c/c9/Macro_Connect_And_Sweep.png ToolBar Icon]
 }}
@@ -18,7 +18,7 @@ Opération de balayage et de lissage directement avec la macro.
 Centrage de la poutrelle sur les faces
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/5717e333a7df104d461a495e8e1f5de75ead41b9/Macro_Connect_And_Sweep.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/984cd58c1d64dd391062025cfa82a698c7268e66/Macro_Connect_And_Sweep.FCMacro}}
 
 <img alt="" src=images/Macro_Connect_And_Sweep_00.png  style="width:640px;"> 
 *Macro_Connect_And_Sweep*
@@ -115,7 +115,9 @@ Créer un tubage en suivant un chemin avec Macro_Connect_And_Sweep et [Macro_Rep
 
 </center>
 
-==Exemples animés==
+
+
+## Exemples animés 
 
 
 
@@ -169,7 +171,11 @@ Detection Erreur de mode de sélection, si une erreur ou sélection est creée l
 
 
 
+
+
 ## Versions
+
+ver 0.13 2024/07/24 : remplacement de webGui par webbrowser
 
 ver 0.12 2020/07/05 : inclusion des icônes dans le code source
 

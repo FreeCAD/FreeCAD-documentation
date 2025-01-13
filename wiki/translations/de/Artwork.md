@@ -15,7 +15,7 @@ Hier sind die für FreeCAD erstellte Grafiken. Du kannst sie gerne in anderen An
 
 ### Symbole der Arbeitsbereiche, die im Wiki verwendet werden 
 
-<img alt="" src=images/Workbench_Arch.svg  style="width:64px;"> <img alt="" src=images/Workbench_Draft.svg  style="width:64px;"> <img alt="" src=images/Workbench_FEM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Inspection.svg  style="width:64px;"> <img alt="" src=images/Workbench_Mesh.svg  style="width:64px;"> <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> <img alt="" src=images/Workbench_Part.svg  style="width:64px;"> <img alt="" src=images/Workbench_PartDesign.svg  style="width:64px;"> <img alt="" src=images/Workbench_Path.svg  style="width:64px;"> <img alt="" src=images/Workbench_Points.svg  style="width:64px;"> <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> <img alt="" src=images/Workbench_Robot.svg  style="width:64px;"> <img alt="" src=images/Workbench_Sketcher.svg  style="width:64px;"> <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> <img alt="" src=images/Workbench_Start.svg  style="width:64px;"> <img alt="" src=images/Workbench_Surface.svg  style="width:64px;"> <img alt="" src=images/Workbench_TechDraw.svg  style="width:64px;"> <img alt="" src=images/Workbench_Test.svg  style="width:64px;"> <img alt="" src=images/Workbench_Web.svg  style="width:64px;">
+<img alt="" src=images/Workbench_Assembly.svg  style="width:64px;"> <img alt="" src=images/Workbench_BIM.svg  style="width:64px;"> <img alt="" src=images/Workbench_CAM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Draft.svg  style="width:64px;"> <img alt="" src=images/Workbench_FEM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Inspection.svg  style="width:64px;"> <img alt="" src=images/Workbench_Material.svg  style="width:64px;"> <img alt="" src=images/Workbench_Mesh.svg  style="width:64px;"> <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> <img alt="" src=images/Workbench_Part.svg  style="width:64px;"> <img alt="" src=images/Workbench_PartDesign.svg  style="width:64px;"> <img alt="" src=images/Workbench_Points.svg  style="width:64px;"> <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> <img alt="" src=images/Workbench_Robot.svg  style="width:64px;"> <img alt="" src=images/Workbench_Sketcher.svg  style="width:64px;"> <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> <img alt="" src=images/Workbench_Surface.svg  style="width:64px;"> <img alt="" src=images/Workbench_TechDraw.svg  style="width:64px;"> <img alt="" src=images/Workbench_Test.svg  style="width:64px;">
 
 
 
@@ -35,9 +35,21 @@ Siehe [Grafik Gui](Artwork_Gui/de.md).
 
 
 
-### Aus src/Mod/Arch/ 
+### Aus src/Mod/Assembly/ 
 
-Siehe [Grafik Arch](Artwork_Arch/de.md).
+Siehe [Grafik Assembly](Artwork_Assembly/de.md).
+
+
+
+### Aus src/Mod/BIM/ 
+
+Siehe [Grafik BIM](Artwork_BIM/de.md).
+
+
+
+### Aus src/Mod/CAM/ 
+
+Siehe [Grafik CAM](Artwork_CAM/de.md).
 
 
 
@@ -95,12 +107,6 @@ Siehe [Grafik PartDesign](Artwork_PartDesign/de.md).
 
 
 
-### Aus src/Mod/Path/ 
-
-Siehe [Grafik Path](Artwork_Path/de.md).
-
-
-
 ### Aus src/Mod/Points/ 
 
 Siehe [Grafik Points](Artwork_Points/de.md).
@@ -131,12 +137,6 @@ Siehe [Grafik Spreadsheet](Artwork_Spreadsheet/de.md).
 
 
 
-### Aus src/Mod/Start/ 
-
-Siehe [Grafik Start](Artwork_Start/de.md).
-
-
-
 ### Aus src/Mod/Surface/ 
 
 Siehe [Grafik Surface](Artwork_Surface/de.md).
@@ -158,12 +158,6 @@ Siehe [Grafik Test](Artwork_Test/de.md).
 ### Aus src/Mod/Tux/ 
 
 Siehe [Grafik Tux](Artwork_Tux/de.md).
-
-
-
-### Aus src/Mod/Web/ 
-
-Siehe [Grafik Web](Artwork_Web/de.md).
 
 
 
@@ -192,6 +186,10 @@ Siehe [Artwork Reinforcement](Artwork_Reinforcement/de.md).
 ### Aus Mod/Render/ 
 
 Siehe [Grafik Render](Artwork_Render/de.md).
+
+### From Mod/SheetMetal/ 
+
+See [Artwork SheetMetal](Artwork_SheetMetal.md).
 
 
 

@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Std ProjectUtil
-   Name/pl: Std: Narzędzie projektu
-   MenuLocation: Przybory , Narzędzia projektu ...
+   Name/pl: Std: Narzędzie dokumentu
+   MenuLocation: Przybory , Narzędzie dokumentu...
    Workbenches: wszystkie
 ---
 
@@ -25,8 +25,8 @@ Za pomocą polecenia **Narzędzie projektu** można wyodrębnić pliki z pliku p
 
 ### Wyodrębnienie projektu 
 
-1.  Wybierz z menu opcję **Przybory → <img src="images/Std_ProjectUtil.svg" width=16px> Narzędzie projektu ...**.
-2.  Otworzy się okno dialogowe Narzędzie projektu.
+1.  Wybierz z menu opcję **Przybory → <img src="images/Std_ProjectUtil.svg" width=16px> Narzędzie dokumentu ...**.
+2.  Otworzy się okno dialogowe **Narzędzie dokumentu**.
 3.  Naciśnij przycisk **...** po prawej stronie **Wyodrębnij projekt → Źródło**.
 4.  Wybierz plik ***.FCStd**, który chcesz edytować.
 5.  Naciśnij przycisk **...** po prawej stronie **Wyodrębnij projekt → Miejsce docelowe**.
@@ -38,14 +38,14 @@ Za pomocą polecenia **Narzędzie projektu** można wyodrębnić pliki z pliku p
 
 ### Edycja samodzielna 
 
-Ważne jest, aby zdać sobie sprawę, że pliki wewnątrz pliku projektu FreeCAD są ze sobą powiązane. Edycja tylko jednego pliku zazwyczaj prowadzi do błędów. Aby dokonać spójnych edycji w wielu plikach, użyj dobrego edytora kodu, takiego jak [Notepad++](http://notepad-plus-plus.org/) (dla systemu operacyjnego Windows) lub [Notepadqq](https://notepadqq.com/s/) *(dla systemu operacyjnego Linux)*.
+Ważne jest, aby zdać sobie sprawę, że pliki wewnątrz pliku projektu FreeCAD są ze sobą powiązane. Edycja tylko jednego pliku zazwyczaj prowadzi do błędów. Aby dokonać spójnych edycji w wielu plikach, użyj dobrego edytora kodu, takiego jak [Notepad++](http://notepad-plus-plus.org/) (dla systemu operacyjnego Windows) lub [Notepadqq](https://notepadqq.com/s/) (dla systemu operacyjnego Linux).
 
 
 
 ### Utwórz projekt 
 
-1.  Wybierz z menu opcję **Przybory → <img src="images/Std_ProjectUtil.svg" width=16px> Narzędzie projektu ...**.
-2.  Otworzy się okno dialogowe Narzędzie projektu.
+1.  Wybierz z menu opcję **Przybory → <img src="images/Std_ProjectUtil.svg" width=16px> Narzędzie dokumentu ...**.
+2.  Otworzy się okno dialogowe Narzędzie dokumentu.
 3.  Naciśnij przycisk **...** na prawo od **Utwórz projekt → Źródło**.
 4.  Wybierz plik **Document.xml**. Polecenie automatycznie znajdzie wszystkie powiązane pliki.
 5.  Naciśnij przycisk **...** po prawej stronie **Utwórz projekt → Miejsce docelowe**.
@@ -65,7 +65,7 @@ Ważne jest, aby zdać sobie sprawę, że pliki wewnątrz pliku projektu FreeCAD
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

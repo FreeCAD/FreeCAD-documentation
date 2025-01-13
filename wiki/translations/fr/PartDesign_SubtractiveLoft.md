@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign SubtractiveLoft
    Name/fr: PartDesign Lissage soustractif
-   MenuLocation: Part Design , Créer une fonction soustractive , Enlèvement de matière par lissage
+   MenuLocation: PartDesign , Créer une fonction soustractive , Enlèvement de matière par lissage
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_AdditiveLoft/fr, PartDesign_SubtractivePipe/fr
@@ -20,7 +20,7 @@ Le **Lissage soustractif** crée un solide soustractif dans le corps actif en ef
 
 
 
-### Processus de travail basé sur la boîte de dialogue 
+### Processus de travail basé sur la fenêtre de dialogue 
 
 1.  Appuyez sur le bouton **[<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Enlèvement de matière par lissage](PartDesign_SubtractiveLoft/fr.md)**.
 2.  Dans la boîte de dialogue **Sélectionner une fonction**, sélectionnez une esquisse à utiliser comme objet de profil de base et cliquez sur **OK**.
@@ -35,7 +35,7 @@ Le **Lissage soustractif** crée un solide soustractif dans le corps actif en ef
 
 1.  Sélectionnez plusieurs esquisses. L\'ordre dans lequel vous les sélectionnez est important :
     -   L\'esquisse sélectionnée au départ deviendra l\'objet de profil de base à l\'étape suivante.
-    -   Les esquisses sélectionnées après la première deviendront les sections du lissage. Ici aussi, l\'ordre de sélection est important : la deuxième esquisse sélectionnée deviendra la première section de lissage, celle sélectionnée comme troisième deviendra la deuxième section et ainsi de suite. (Vous pouvez modifier l\'ordre des sections à tout moment ultérieurement dans la boîte de dialogue de lissage en faisant glisser les sections de la liste vers la position souhaitée.)
+    -   Les esquisses sélectionnées après la première deviendront les sections du lissage. Ici aussi, l\'ordre de sélection est important : la deuxième esquisse sélectionnée deviendra la première section de lissage, celle sélectionnée comme troisième deviendra la deuxième section et ainsi de suite. (Vous pouvez modifier l\'ordre des sections à tout moment ultérieurement dans la fenêtre de dialogue de lissage en faisant glisser les sections de la liste vers la position souhaitée.)
     -   La première ou la dernière sélection peut aussi être une face d\'un objet 3D ({{Version/fr|0.20}})
 2.  Appuyez sur le bouton **[<img src=images/_PartDesign_SubtractiveLoft.svg style="width:24px"> [Enlèvement de matière par lissage](PartDesign_SubtractiveLoft/fr.md)**.
 3.  Définissez les options si nécessaire et cliquez sur **OK**.
@@ -61,7 +61,7 @@ Le **Lissage soustractif** crée un solide soustractif dans le corps actif en ef
 
 -    **Reversed**: N/A
 
--    **Refine**: vrai ou faux. Si la valeur est \"true\" (vrai), nettoie le solide des bords résiduels laissés par les entités. Voir [Affiner la forme](Part_RefineShape/fr.md) pour plus de détails.
+-    **Refine**: vrai ou faux. Si la valeur est \"true\" (vrai), nettoie le solide des arêtes résiduelles laissées par les fonctions. Voir [Affiner la forme](Part_RefineShape/fr.md) pour plus de détails.
 
 
 

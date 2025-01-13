@@ -59,7 +59,8 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_ShapeString.svg" width=16px> [Shape from text](Draft_ShapeString.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Annotation → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
 2.  The **ShapeString** task panel opens.
 3.  Click a point in the [3D view](3D_view.md), or type coordinates.
 4.  Optionally press the **Reset Point** button to reset the point to the origin.
@@ -84,19 +85,20 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 
 </div>
 
-## Notes
+## Relative font path 
 
 
-<div class="mw-translate-fuzzy">
+<small>(v1.1)</small> 
 
-### Sınırlamalar
+It is possible to specify a relative path for the font file. For this the FreeCAD document must have been saved at least once.
 
--   Çok küçük metin yükseklikleri, ölçeklemede ayrıntı kaybı nedeniyle deforme karakter şekillerine neden olabilir.
--   Mevcut sürüm, soldan sağa yazma ile sınırlıdır.
--   Dairesel biçimde düzenlenmiş metin oluşturmak için ![ 24px](images/_FCCircularTextButtom.png ) [Macro FCCircularText](Macro_FCCircularText/tr.md) kullanın.
+Some examples:
 
+-    **./SomeFont.ttf**: The font file is in the same directory as the document.
 
-</div>
+-    **./MyDirectory/SomeFont.ttf**: The font file is in the **MyDirectory** sub-directory of the document directory.
+
+-    **../SomeFont.ttf**: The font file is in the parent directory of the document directory.
 
 ## Font file selection on Windows 
 
@@ -110,6 +112,20 @@ Pressing the **...** button and then selecting a file from the default Windows f
 -   Create a custom folder for your font files.
 
 See the [Preferences](#Preferences.md) paragraph below for the location of the mentioned preferences.
+
+## Notes
+
+
+<div class="mw-translate-fuzzy">
+
+### Sınırlamalar
+
+-   Çok küçük metin yükseklikleri, ölçeklemede ayrıntı kaybı nedeniyle deforme karakter şekillerine neden olabilir.
+-   Mevcut sürüm, soldan sağa yazma ile sınırlıdır.
+-   Dairesel biçimde düzenlenmiş metin oluşturmak için ![ 24px](images/_FCCircularTextButtom.png ) [Macro FCCircularText](Macro_FCCircularText/tr.md) kullanın.
+
+
+</div>
 
 
 

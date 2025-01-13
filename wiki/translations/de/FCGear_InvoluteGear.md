@@ -11,9 +11,11 @@
 
 # FCGear InvoluteGear/de
 
+
+
 ## Beschreibung
 
-Due to the favourable meshing ratio and the relatively simple production, involute gearing is the most common tooth form in mechanical engineering. Gear wheels can be found wherever movement and force are to be transferred from one part to another. For example, they can be found in machines, cars, watches or household appliances. The movement is often transferred directly from one gear wheel to the other, but sometimes also via a chain. In addition, the direction of rotation can be changed. It is also possible to change a radial movement into a linear one via an [involute rack](FCGear_InvoluteRack.md).
+Dank des günstigen Eingriffverhältnisses und der relativ einfachen Herstellung, ist die Evolventenverzahnung die am weitesten verbreitete Zahnform in der mechanischen Konstruktion. Zahnräder findet man überall, wo Bewegung und Kraft von einem Bauteil auf ein anderes übertragen werden. Sie befinden sich z.B. in Maschinen, Autos, Uhren und Haushaltsgeräten. Die Bewegung wird oft direkt von einem Zahnrad auf ein anderes übertragen, aber manchmal auch über eine Kette. Außerdem kann die Drehrichtung geändert werden. Es ist auch möglich, mit Hilfe einer [Evolventenzahnstange](FCGear_InvoluteRack/de.md), eine Drehbewegung in eine lineare Bewegung umzuwandeln.
 
 ![](images/Involute-Gear_example.png )
 
@@ -23,6 +25,8 @@ Due to the favourable meshing ratio and the relatively simple production, involu
     *
     
 
+
+
 ## Anwendung
 
 1.  Zum Arbeitsbereich <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/de.md) wechseln.
@@ -31,65 +35,84 @@ Due to the favourable meshing ratio and the relatively simple production, involu
     -   Den Menüeintrag **Gear → [<img src=images/FCGear_InvoluteGear.svg style="width:16px"> Involute Gear** auswählen.
 3.  Die Einstellungen den geforderten Randbedingungen entsprechend ändern (siehe [Eigenschaften](#Eigenschaften.md)).
 
+
+
 ## Eigenschaften
 
 Ein FCGear-InvoluteGear-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
 
 {{Properties_Title|accuracy}}
 
--    **numpoints|Integer**: Default is {{Value|6}}. Change of the involute profile. Changing the value can lead to unexpected results.
+-    {{PropertyData/de|numpoints|Integer}}: Standardwert {{Value|20}}. Change of the involute profile. Das Ändern des Wertes kann zu unerwarteten Ergebnissen führen.
 
--    **simple|Bool**: Default is {{False}}, {{True}} generates a simplified display (without teeth and only a cylinder in pitch diameter).
+-    {{PropertyData/de|simple|Bool}}: Standardwert {{False}}, {{True}} erstellt eine vereinfachte Darstellung (ohne Zähne, nur ein Zylinder mit Teilkreisdurchmesser).
 
 
 {{Properties_Title|base}}
 
--    **height|Length**: Default is {{Value|5 mm}}. Value of the gear width.
+-    {{PropertyData/de|height|Length}}: Standardwert {{Value|5 mm}}. Zahnbreite.
 
--    **module|Length**: Default is {{Value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
+-    {{PropertyData/de|module|Length}}: Standardwert {{Value|1 mm}}. Der Modul ist das Verhältnis des Teilkreisdurchmessers zur Zähnezahl (siehe [Hinweise](#Hinweise.md)).
 
--    **teeth|Integer**: Default is {{Value|15}}. Number of teeth (see [Notes](#Notes.md)).
+-    {{PropertyData/de|num_teeth|Integer}}: Standardwert {{Value|15}}. Zähnezahl (siehe [Hinweise](#Hinweise.md)).
 
 
 {{Properties_Title|computed}}
 
--    **angular_backlash|Angle**: (read-only)
+-    {{PropertyData/de|addendum_diameter|Length}}: Standardwert {{Value|17 mm}}. Kopfkreisdurchmesser, am Zahnkopf gemessen (Außendurchmesser).
 
--    **da|Length**: (read-only) Outside diameter, measured at the addendum (the tip of the teeth).
+-    {{PropertyData/de|angular_backlash|Angle}}: (Schreibgeschützt) Zahnspiel (-winkel), der Winkel, um den sich dieses Zahnrad drehen kann, ohne das andere Zahnrad der Paarung zu bewegen.
 
--    **df|Length**: (read-only) Root diameter, measured at the foot of the teeth.
+-    {{PropertyData/de|pitch_diameter|Length}}: Standardwert {{Value|15 mm}}. Der Teilkreisdurchmesser (Wälzkreisdurchmesser).
 
--    **dw|Length**: (read-only) Working pitch diameter.
+-    {{PropertyData/de|root_diameter|Length}}: (Schreibgeschützt) Fußkreisdurchmesser, am Zahnlückengrund gemessen.
 
--    **transverse_pitch|Length**: (read-only) Pitch in the plane of rotation.
+-    {{PropertyData/de|transverse_pitch|Length}}: Standardwert {{Value|3.14 mm}}. The transverse pitch.
+
+-    {{PropertyData/de|traverse_module|Length}}: Standardwert {{Value|1 mm}}. The traverse module of the generated gear.
 
 
 {{Properties_Title|fillets}}
 
--    **head_fillet|Float**: Default is {{Value|0 mm}}.
+-    {{PropertyData/de|head_fillet|Float}}: Standardwert {{Value|0 mm}}. Kopfrundung
 
--    **root_fillet|Float**: Default is {{Value|0 mm}}.
+-    {{PropertyData/de|root_fillet|Float}}: Standardwert {{Value|0 mm}}. Fußrundung
 
--    **undercut|Bool**: Default is {{False}}, {{True}} changes the profile of the tooth root (see [Notes](#Notes.md)).
+-    {{PropertyData/de|undercut|Bool}}: Standardwert {{False}}, {{True}} ändert das Profil des Zahnlückengrundes (siehe [Hinweise](#Hinweise.md)).
 
 
 {{Properties_Title|helical}}
 
--    **beta|Angle**: Default is {{Value|0 °}}. With the helix angle β a helical gear is created -- positive value → rotation direction right, negative value → rotation direction left (see [Notes](#Notes.md)).
+-    {{PropertyData/de|double_helix|Bool}}: Standardwert {{False}}, {{True}} erstellt ein pfeilverzahntes Stirnrad (siehe [Hinweise](#Hinweise.md)).
 
--    **double_helix|Bool**: Default is {{False}}, {{True}} creates a double helix gear (see [Notes](#Notes.md)).
+-    {{PropertyData/de|helix_angle|Angle}}: Standardwert {{Value|0 °}}. Mit dem Schrägungswinkel β wird ein schrägverzahtes Stirnrad (Schrägstirnrad) erstellt -- positiver Wert → Drehrichtung nach rechts, negativer Wert → Drehrichtung nach links (siehe [Hinweise](#Hinweise.md)).
 
--    **properties_from_tool|Bool**: Default is {{False}}. If {{True}} and **beta** is not zero, gear parameters are recomputed internally for the rotated gear.
+-    {{PropertyData/de|properties_from_tool|Bool}}: Standardwert {{False}}. Wenn {{True}} und die {{PropertyData/de|helix_angle}} ist nicht Null, werden die Parameter intern für das umgedrehte Zahnrad berechnet.
+
+
+{{Properties_Title|hole}}
+
+-    {{PropertyData/de|Axle_hole|Bool}}: Standardwert {{False}}. {{True}} aktiviert eine Bohrung in der Mitte zum Verbinden mit einer Welle.
+
+-    {{PropertyData/de|Axle_holesize|Length}}: Standardwert {{Value|10 mm}}. Durchmesser der Wellenbohrung.
+
+-    {{PropertyData/de|offset_hole|Bool}}: Standardwert {{False}}, {{True}} aktiviert eine versetzte Bohrung.
+
+-    {{PropertyData/de|offset_holeoffset|Length}}: Standardwert {{Value|10 mm}}. Der Versatz der versetzten Bohrung.
+
+-    {{PropertyData/de|offset_holesize|Length}}: Standardwert {{Value|10 mm}}. Der Durchmesser der versetzten Bohrung.
 
 
 {{Properties_Title|involute}}
 
--    **pressure_angle|Angle**: Default is {{Value|20 °}} (see [Notes](#Notes.md)).
+-    {{PropertyData/de|pressure_angle|Angle}}: Standardwert {{Value|20 °}}, Eingriffwinkel (siehe [Hinweise](#Hinweise.md)).
 
--    **shift|Float**: Default is {{Value|0}}. Generates a positive and negative profile shift (see [Notes](#Notes.md)).
+-    {{PropertyData/de|shift|Float}}: Standardwert {{Value|0}}. Erstellt eine positive oder negative Profilverschiebung (siehe [Hinweise](#Hinweise.md)).
 
 
 {{Properties_Title|tolerance}}
@@ -105,7 +128,9 @@ Ein FCGear-InvoluteGear-Objekt wird von einem [Part-Formelement](Part_Feature/de
 
 {{Properties_Title|version}}
 
--    **version|String**:
+-    {{PropertyData/de|version|String}}:
+
+
 
 ## Hinweise
 
@@ -127,103 +152,107 @@ Ein FCGear-InvoluteGear-Objekt wird von einem [Part-Formelement](Part_Feature/de
 
 -    **reversed_backlash**: If there are several gears, pay attention to which gear the parameter is set for.
 
+
+
 ## Begrenzungen
 
 Ein 2D-Zahnprofil, erstellt mit der auf null gesetzten {{PropertyData/de|height}}, kann nicht mit Elementen verwendet werden, die eine 2D-Form erfordern. Zum Beispiel akzeptieren [PartDesign Pad](PartDesign_Pad/de.md) und [PartDesign Wendel](PartDesign_AdditiveHelix/de.md) solche Profile nicht als Basis. Technische Details (engl.) findet man unter: [issue on GitHub](https://github.com/looooo/freecad.gears/issues/97).
 
+
+
 ## Nützliche Formeln 
+
+
 
 ### Standard-Stirnräder 
 
 Hier bezieht sich "standard" auf Stirnräder ohne Profilverschiebungsbeiwert ($x$).
 
 +++++
-| Symbol   | Term                                     | Formula                        | FCGear Parameter                            |
-+==========+==========================================+================================+=============================================+
-| $m$      | *Module*                                 | \-                             | $\texttt{module}$                           |
+| Symbol   | Begriff                                            | Formel                            | FCGear-Parameter                        |
++==========+====================================================+===================================+=========================================+
+| $m$      | (der) *Modul*                                      | \-                                | $\texttt{module}$                       |
 +++++
-| $z$      | *Number of Teeth*                        | \-                             | $\texttt{teeth}$                            |
+| $z$      | *Zähnezahl*                                        | \-                                | $\texttt{teeth}$                        |
 +++++
-| $\alpha$ | *Pressure Angle*                         | \-                             | $\texttt{pressure} {\_} \texttt{parameter}$ |
-|          |                                          | Typically, $\alpha = 20^\circ$ |                                             |
+| $\alpha$ | *Eingriffwinkel*                                   | Üblicherweise $\alpha = 20^\circ$ | $\texttt{pressure} {\_} \texttt{angle}$ |
 +++++
-| d        | *Reference Diameter* or *Pitch Diameter* | $z \cdot m$                    | \-                                          |
+| $d$      | *Teilkreisdurchmesser* oder *Wälzkreisdurchmesser* | $z \cdot m$                       | $\texttt{dw}$                           |
 +++++
-| $h^*_a$  | *Addendum Coefficient*                   | \-                             | $h^*_a = 1 + \texttt{ head}$                |
-|          |                                          | Typically, $h^*_a = 1$         |                                             |
+| $h^*_a$  | *Addendum Coefficient*                             | Üblicherweise $h^*_a = 1$         | $h^*_a = 1 + \texttt{ head}$            |
 +++++
-| $h^*_f$  | *Dedendum Coefficient*                   | \-                             | $h^*_f = 1 + \texttt{ clearance}$           |
-|          |                                          | Typically, $h^*_f = 1.25$      |                                             |
+| $h^*_f$  | *Dedendum Coefficient*                             | Üblicherweise $h^*_f = 1.25$      | $h^*_f = 1 + \texttt{ clearance}$       |
 +++++
-| $h_a$    | *Addendum*                               | $h_a = h^*_a \cdot m$          | \-                                          |
+| $h_a$    | *Kopfhöhe*                                         | $h_a = h^*_a \cdot m$             | \-                                      |
 +++++
-| $h_f$    | *Dedendum*                               | $h_f = h^*_f \cdot m$          | \-                                          |
+| $h_f$    | *Fußhöhe*                                          | $h_f = h^*_f \cdot m$             | \-                                      |
 +++++
-| $h$      | *Tooth Height* or *Tooth Depth*          | $h = h_a + h_f$                | \-                                          |
-|          |                                          | Typically, $h = 2.25 \cdot m$  |                                             |
+| $h$      | *Zahnhöhe*                                         | $h = h_a + h_f$                   | \-                                      |
+|          |                                                    | Üblicherweise $h = 2.25 \cdot m$  |                                         |
 +++++
-| $x$      | *Profile Shift Coefficient*              | \-                             | $\texttt{shift}$                            |
-|          |                                          | For standard gears, $x = 0$    |                                             |
+| $x$      | *Profilverschiebungsfaktor*                        | Für Standard-Stirnräder, $x = 0$  | $\texttt{shift}$                        |
 +++++
 
-: style=\"text-align: left;\" \| Basic formulas common to internal and external standard spur gears
+: style=\"text-align: left;\" \| Grundlegende Formeln für sowohl Innenräder als auch Stirnräder
 
 ++++
-| Symbol | Term            | Formula                              |
-+========+=================+======================================+
-| $d_a$  | *Tip Diameter*  | $d_a = d + 2 \cdot h_a$              |
-|        |                 | Typically, $d_a = (z + 2) \cdot m$   |
+| Symbol | Begriff                | Formel                                  |
++========+========================+=========================================+
+| $d_a$  | *Kopfkreisdurchmesser* | $d_a = d + 2 \cdot h_a$                 |
+|        |                        | Üblicherweise $d_a = (z + 2) \cdot m$   |
 ++++
-| $d_f$  | *Root Diameter* | $d_f = d - 2 \cdot h_f$              |
-|        |                 | Typically, $d_f = (z - 2.5) \cdot m$ |
-++++
-
-: style=\"text-align: left;\" \| Basic formulas specific to external standard spur gears
-
-++++
-| Symbol | Term            | Formula                              |
-+========+=================+======================================+
-| $d_a$  | *Tip Diameter*  | $d_a = d - 2 \cdot h_a$              |
-|        |                 | Typically, $d_a = (z - 2) \cdot m$   |
-++++
-| $d_f$  | *Root Diameter* | $d_f = d + 2 \cdot h_f$              |
-|        |                 | Typically, $d_f = (z + 2.5) \cdot m$ |
+| $d_f$  | *Fußkreisdurchmesser*  | $d_f = d - 2 \cdot h_f$                 |
+|        |                        | Üblicherweise $d_f = (z - 2.5) \cdot m$ |
 ++++
 
-: style=\"text-align: left;\" \| Basic formulas specific to internal standard spur gears
+: style=\"text-align: left;\" \| Grundlegende Formeln für Standard-Stirnräder
 
 ++++
-| Symbol | Term                     | Formula                       |
-+========+==========================+===============================+
-| $a$    | *Center Distance*        | $d = \frac{d_1 + d_2}{2}$     |
+| Symbol | Begriff                | Formel                                  |
++========+========================+=========================================+
+| $d_a$  | *Kopfkreisdurchmesser* | $d_a = d - 2 \cdot h_a$                 |
+|        |                        | Üblicherweise $d_a = (z - 2) \cdot m$   |
 ++++
-| $c$    | *Tip and Root Clearance* | $c_1 = h_{f2} - h_{a1}$       |
-|        |                          | $c_2 = h_{f1} - h_{a2}$       |
-|        |                          | Typically, $c = 0.25 \cdot m$ |
+| $d_f$  | *Fußkreisdurchmesser*  | $d_f = d + 2 \cdot h_f$                 |
+|        |                        | Üblicherweise $d_f = (z + 2.5) \cdot m$ |
 ++++
 
-: style=\"text-align: left;\" \| Basic formulas specific for a pair of external standard spur gears
+: style=\"text-align: left;\" \| Grundlegende Formeln für Standard-Innenräder
 
--   **Helical and double helical gearing**
+++++
+| Symbol | Begriff       | Formel                           |
++========+===============+==================================+
+| $a$    | *Achsabstand* | $a = \frac{d_1 + d_2}{2}$        |
+++++
+| $c$    | *Kopfspiel*   | $c_1 = h_{f2} - h_{a1}$          |
+|        |               | $c_2 = h_{f1} - h_{a2}$          |
+|        |               | Üblicherweise $c = 0.25 \cdot m$ |
+++++
+
+: style=\"text-align: left;\" \| Grundlegende Formeln für eine Standard-Stirnradpaarung
+
+-   **Schrägverzahnung und Pfeilverzahnung**
     -   
-        **pitch diameter (dw)**
+        **Teilkreisdurchmesser (dw)**
         
-        = **module** \* **teeth** : **cos beta**
+        = **Modul** \* **Zähnezahl** : **cos beta**
 
     -   
-        **axle base**
+        **Achsabstand**
         
-        = **(pitch diameter (dw) 1 + 2)** : 2
+        = **(Teilkreisdurchmesser (dw) 1 + Teilkreisdurchmesser (dw) 2)** : 2
 
     -   
-        **addendum diameter**
+        **Kopfkreisdurchmesser**
         
-        = **pitch diameter (dw)** + 2 \* **module**
+        = **Teilkreisdurchmesser (dw)** + 2 \* **Modul**
 
     -   
-        **module**
+        **Modul**
         
-        = **pitch diameter (dw)** \* **cos beta** : **teeth**
+        = **Teilkreisdurchmesser (dw)** \* **cos beta** : **Zähnezahl**
+
+
 
 ## Skripten
 

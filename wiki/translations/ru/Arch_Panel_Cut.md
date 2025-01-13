@@ -14,17 +14,29 @@
 
 </div>
 
+
+
 ## Описание
+
+
+<div class="mw-translate-fuzzy">
 
 Данный инструмент создает плоский контур [Панели](Arch_Panel/ru.md) в 3D виде документа, который в дальнейшем, можно добавить в [панельный лист](Arch_Panel_Sheet/ru.md) или напрямую экспортировать в формат [DXF](Draft_DXF/ru.md). Объекты созданные с помощью инструмента \"Контур панели\" также поддерживаются в [верстаке Path](Path_Workbench/ru.md).
 
+
+</div>
+
 <img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
+
+
 
 ## Применение
 
 1.  Select one or more [Arch Panel](Arch_Panel.md) objects.
-2.  Press the **<img src="images/Arch_Panel_Cut.svg" width=16px> [Arch Panel Cut](Arch_Panel_Cut.md)** button, or press **P** then **C** keys.
+2.  Select the **Utils → Panel tools → <img src="images/Arch_Panel_Cut.svg" width=16px> Panel Cut** option from the menu.
 3.  Adjust the desired properties.
+
+
 
 ## Опции
 
@@ -34,7 +46,11 @@
 -   Двойной щелчок по вырезанной панели в древовидном представлении после ее создания позволяет перейти в режим редактирования и изменить положение тега.
 -   Когда вам нужно расположить разные вырезы панелей вместе, Вырезы панелей могут отображать поля, что полезно для обеспечения того, чтобы между вырезом и другим всегда присутствовал определенный зазор.
 
+
+
 ## Свойства
+
+
 
 ### Данные
 
@@ -52,11 +68,15 @@
 
 -    **Make Face**: Если значение равно True, то панель является гранью детали, в противоположном случае является контуром сформированным из граней детали.
 
+
+
 ### Вид
 
 -    **Margin**: Поле отступа, которое может отображаться за пределами контура панели.
 
 -    **Show Margin**: Включает/выключает отображение полей.
+
+
 
 ## Программирование
 
@@ -98,11 +118,27 @@ View.ViewObject.LineWidth = 3
 FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ## Материалы для самостоятельного изучения 
 
 -   [Руководство по портированию файлов проекта Wikihouse в FreeCAD](Wikihouse_porting_tutorial/ru.md)
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/ru
+⏵ [documentation index](../README.md) > Arch Panel Cut/ru

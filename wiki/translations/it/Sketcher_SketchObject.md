@@ -28,37 +28,13 @@ deriva da [Part Part2DObject](Part_Part2DObject/it.md), il che significa che è 
 
 </div>
 
+
+
 ## Utilizzo
 
-1.  Passare all\'ambiente [Sketcher](Sketcher_Workbench/it.md).
-2.  Premere **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Nuovo schizzo](Sketcher_NewSketch/it.md)**.
-3.  Selezionare un **orientamento**: piano XY, piano XZ o piano YZ. Opzionalmente scegliere anche **Direzione inversa**, e assegnare un valore di **Offset**.
-4.  Premere **OK**.
+See [Sketcher NewSketch](Sketcher_NewSketch.md).
 
 
-<div class="mw-translate-fuzzy">
-
-Sebbene SketchObject possa essere utilizzato da solo per disegnare su un piano, viene comunemente utilizzato insieme a [PartDesign](PartDesign_Workbench/it.md) per creare solidi estrusi.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Passare in [PartDesign](PartDesign_Workbench/it.md).
-
-2.  Premere **[<img src=images/PartDesign_Body.svg style="width:16px"> [Crea un corpo](PartDesign_Body/it.md)**.
-
-3.  Premere **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Crea uno schizzo](PartDesign_NewSketch/it.md)**.
-
-4.  
-    **Selezione della funzione**: piano XY (piano base), piano XZ (piano base) o piano YZ (piano base).
-
-5.  Premere **OK**.
-
-
-</div>
 
 ## Proprietà
 
@@ -80,6 +56,8 @@ Oltre alle proprietà descritte in [Part Part2DObject](Part_Part2DObject/it.md),
 
 </div>
 
+
+
 ### Dati
 
 
@@ -92,6 +70,8 @@ Oltre alle proprietà descritte in [Part Part2DObject](Part_Part2DObject/it.md),
 -    **External Geometry|LinkSubList**: a list of Part geometries outside this Sketch that are used for reference.
 
 -    **Fully Constrained|Bool|Hidden**: (read-only) if `True` the sketch is fully constrained.
+
+
 
 ### Vista
 
@@ -113,21 +93,11 @@ Oltre alle proprietà descritte in [Part Part2DObject](Part_Part2DObject/it.md),
 
 {{TitleProperty|Grid}}
 
--    **Grid Auto Size|Bool|Hidden**: if `True` the grid is resized based on the boundingbox of the geometry of the sketch.
+-    **Grid Auto|Bool**: if `True` the grid is resized based on the boundingbox of the geometry of the sketch.
 
 -    **Grid Size|Length**: the size of the spacing of the local grid lines in the [3D view](3D_view.md); it defaults to {{value|10 mm}}.
 
--    **Grid Snap|Bool**: if `True` the grid can be used to snap points.
-
--    **Grid Style|Enumeration**: the style of the grid lines; {{value|Dashed}} (default) or {{value|Light}}.
-
 -    **Show Grid|Bool**: if `True` a grid local to the object will be displayed in the [3D view](3D_view.md). This grid is independent of the [Draft Grid](Draft_ToggleGrid.md).
-
--    **Show Only In Edit Mode|Bool**: if `True` the grid is only displayed while the sketch is being edited.
-
--    **Tight Grid|Bool**: if `True` the local grid will be localized around the origin of the shape, otherwise it will extend itself more.
-
--    **max Number Of Lines|Integer**: the maximum number of lines in the grid.
 
 
 {{TitleProperty|Visibility automation}}
@@ -150,6 +120,8 @@ Oltre alle proprietà descritte in [Part Part2DObject](Part_Part2DObject/it.md),
 
 
 </div>
+
+
 
 ## Script
 

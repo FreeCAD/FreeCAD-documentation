@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign AdditiveLoft
    Name/fr: PartDesign Lissage additif
-   MenuLocation: Part Design , Créer une fonction additive , Lissage additif
+   MenuLocation: PartDesign , Créer une fonction additive , Lissage additif
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_AdditivePipe/fr, PartDesign_SubtractiveLoft/fr
@@ -23,13 +23,13 @@ Le **Lissage additif** crée un solide dans le Corps actif en faisant une transi
 
 
 
-### Processus de travail basé sur la boîte de dialogue 
+### Processus de travail basé sur la fenêtre de dialogue 
 
 1.  Cliquez sur le bouton **[<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Lissage additif](PartDesign_AdditiveLoft/fr.md)**.
 2.  Dans la boîte de dialogue **Sélectionner une fonction**, sélectionnez une esquisse à utiliser comme objet de profil de base et cliquez sur **OK**.
     -   Vous pouvez également sélectionner une seule esquisse ou la face d\'un objet 3D ({{Version/fr|0.20}}) avant d\'appuyer sur le bouton Lissage additif.
 3.  Dans **Paramètres de lissage**, cliquez sur **Ajouter une section**.
-4.  Sélectionnez l\'esquisse suivante dans la [Vue 3D](3D_view/fr.md). Répétez la sélection pour les autres esquisses dans l'ordre dans lequel vous souhaitez qu'elles soient lissées. (Vous pouvez modifier l\'ordre des sections à tout moment ultérieurement dans la boîte de dialogue de lissage en faisant glisser les sections de la liste vers la position souhaitée.)
+4.  Sélectionnez l\'esquisse suivante dans la [vue 3D](3D_view/fr.md). Répétez la sélection pour les autres esquisses dans l'ordre dans lequel vous souhaitez qu'elles soient lissées. (Vous pouvez modifier l\'ordre des sections à tout moment ultérieurement dans la boîte de dialogue de lissage en faisant glisser les sections de la liste vers la position souhaitée.)
 5.  Définissez des options si nécessaire puis cliquez sur **OK**.
 
 
@@ -38,7 +38,7 @@ Le **Lissage additif** crée un solide dans le Corps actif en faisant une transi
 
 1.  Sélectionnez plusieurs esquisses. L\'ordre dans lequel vous les sélectionnez est important :
     -   L\'esquisse sélectionnée au départ deviendra l\'objet de profil de base à l\'étape suivante
-    -   Les esquisses sélectionnées après la première deviendront les sections du lissage. Ici aussi, l\'ordre de sélection est important : la deuxième esquisse sélectionnée deviendra la première section de lissage, celle sélectionnée comme troisième deviendra la deuxième section et ainsi de suite. (Vous pouvez modifier l\'ordre des sections à tout moment ultérieurement dans la boîte de dialogue de lissage en faisant glisser les sections de la liste vers la position souhaitée.)
+    -   Les esquisses sélectionnées après la première deviendront les sections du lissage. Ici aussi, l\'ordre de sélection est important : la deuxième esquisse sélectionnée deviendra la première section de lissage, celle sélectionnée comme troisième deviendra la deuxième section et ainsi de suite. (Vous pouvez modifier l\'ordre des sections à tout moment ultérieurement dans la fenêtre de dialogue de lissage en faisant glisser les sections de la liste vers la position souhaitée.)
     -   La première ou la dernière sélection peut aussi être une face d\'un objet 3D ({{Version/fr|0.20}}).
 2.  Appuyez sur le bouton **[<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Lissage additif](PartDesign_AdditiveLoft/fr.md)**.
 3.  Définissez les options si nécessaire et cliquez sur **OK**.

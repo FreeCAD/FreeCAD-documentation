@@ -10,20 +10,24 @@
 
 # Std LinkMake/ru
 
+
+
 ## Описание
 
 
 **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**
 
-creates an [App Link](App_Link.md) (`App::Link` class), a type of object that references or links to another object, in the same document, or in another document. It is especially designed to efficiently duplicate a single object multiple times, which helps with the creation of complex [assemblies](assembly.md) from smaller subassemblies, and from multiple reusable components like screws, nuts, and similar fasteners.
+creates an [App Link](App_Link.md) (`App::Link` class), a type of object that references or links to another object in the same document, or in another document. It is especially designed to efficiently duplicate a single object multiple times, which helps with the creation of complex [assemblies](assembly.md) from smaller subassemblies, and from multiple reusable components like screws, nuts, and similar fasteners.
 
-The [App Link](App_Link.md) object was newly introduced in v0.19; in the past, simple duplication of objects could be achieved with **[<img src=images/Draft_Clone.svg style="width:16px"> [Draft Clone](Draft_Clone.md)**, but this is a less efficient solution due to its implementation which essentially creates a copy of the internal [Shape](Part_TopoShape.md) of the source object. On the other hand, a Link references directly the original Shape, so it is more memory efficient.
+The [App Link](App_Link.md) object was newly introduced in v0.19; in the past, simple duplication of objects could be achieved with **[<img src=images/Draft_Clone.svg style="width:16px"> [Draft Clone](Draft_Clone.md)**, but this is a less efficient solution due to its implementation, which essentially creates a copy of the internal [Shape](Part_TopoShape.md) of the source object. Instead, a Link directly references the original Shape, so it is more memory-efficient.
 
 By itself the [Link](App_Link.md) object can behave like an array, duplicating its base object many times; this can be done by setting its **Element Count** property to {{Value|1}} or larger. This \"[Link Array](#Link_Array.md)\" object can also be created with the different array tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md), for example, **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft OrthoArray](Draft_OrthoArray.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft PolarArray](Draft_PolarArray.md)**, and **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft CircularArray](Draft_CircularArray.md)**.
 
 When used with the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), Links are intended to be used with **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Bodies](PartDesign_Body.md)**, so it is recommended to set **Display Mode Body** to {{Value|Tip}} to select the features of the entire Body, and not the individual features. To create arrays of the internal [PartDesign Features](PartDesign_Feature.md), use **[<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign LinearPattern](PartDesign_LinearPattern.md)**, **[<img src=images/PartDesign_PolarPattern.svg style="width:16px"> [PartDesign PolarPattern](PartDesign_PolarPattern.md)**, and **[<img src=images/PartDesign_MultiTransform.svg style="width:16px"> [PartDesign MultiTransform](PartDesign_MultiTransform.md)**.
 
 The **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)** tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar** that is available in all [workbenches](Workbenches.md). The Link object, used in conjunction with **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** to group various objects, forms the basis of the <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md) and <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbenches](Assembly4_Workbench.md).
+
+
 
 ## Применение
 
@@ -77,6 +81,8 @@ Dragging and dropping results in different actions depending on the modifier key
 -   Holding the **Alt** key creates a Link; a pair of chain links is shown in the cursor.
 
 For the **Ctrl** and **Alt** modifiers, dragging and dropping can also be done with a single document. That is, dragging an object and dropping it into the same document\'s name can be used to create multiple copies or multiple Links to it.
+
+
 
 ## Группы
 
@@ -154,6 +160,8 @@ Once you are satisfied with the placement and properties of the Link elements in
 
 When creating this type of Link array, you must place each of the elements manually; however, if you would like to use specific patterns to place the copies, you may use the array tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md), like **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft OrthoArray](Draft_OrthoArray.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft PolarArray](Draft_PolarArray.md)**, and **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft CircularArray](Draft_CircularArray.md)**; these commands can create normal copies or Link copies depending on the options at creation time.
 
+
+
 ## Видимость
 
 When **Show Element** is `True` and individual elements are listed in the [tree view](Tree_view.md) in a [Link Array](#Link_Array.md), each Link can be shown or hidden by pressing the **Space** bar in the keyboard.
@@ -181,48 +189,82 @@ When the Link is for a **[<img src=images/Std_Part.svg style="width:16px"> [Std 
 
 *A [Std Part](Std_Part.md) containing three objects, and a Link to that Part; in the Link, (1) the first object is made invisible, (2) the second object has some subelements with different colors, (3) the entire third object has a different color and level of transparency.*
 
+
+
 ## Свойства
 
 An [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), therefore it has the latter\'s basic properties like **Label** and **Label2**.
 
 The following are the specific properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
 
+
+
 ### Данные
 
 
 {{TitleProperty| Link}}
 
--    **Linked Object|XLink**: it indicates the source object of the [App Link](App_Link.md); this can be an entire object, or a subelement of it (vertex, edge, or face).
+-    **ColoredElements|LinkSubHidden|LockDynamic, Hidden**: list of Link elements that have had their color overriden.
+
+-    **Element Count|IntegerConstraint|LockDynamic**: Link element count. It defaults to {{Value|0}}. If it is {{Value|1}} or larger, the [App Link](App_Link.md) will behave like an array, and will duplicate the same **Linked Object** many times. If **Show Elements** is `True`, each element in the array will be displayed in the [tree view](tree_view.md), and each can have its own **Placement** modified. Each Link copy will have a name based on the Link\'s [Name](Object_name.md), augmented by `_iN`, where `N` is a number starting from `0`. For example, with a single `Link`, the copies will be named `Link_i0`, `Link_i1`, `Link_i2`, etc.
+
+-    **ElementList|LinkList|Immutable, Hidden, LockDynamic**: the list of Link elements.
+
+-    **LinkClaimChild|Bool|LockDynamic**: Claim the linked object as a child
+
+-    **LinkCopyOnChange|Enumeration|LockDynamic**:
+
+    -   
+        {{value|Disabled}}
+        
+        : disable the creation of a copy of the linked object, triggered by a change of any of its properties set as {{value|CopyOnChange}}.
+
+    -   
+        {{value|Enabled}}
+        
+        : enable a deep copy of the linked object if any of its properties marked as {{value|CopyOnChange}} are changed. After the deep copy is performed, there won\'t be any linkage between the original and the copied object. Therefore, changes in the original object won\'t be reflected in the copies.
+
+    -   
+        {{value|Owned}}
+        
+        : indicates that the linked object has been copied and is owned by the Link. This state is set automatically by the Link itself, a user would normally not do that. The link will try to sync any change of the original linked object back to the copy (Editor\'s note: the latter seems not to be implemented in FreeCAD main).
+
+    -   
+        {{value|Tracking}}
+        
+        : same as {{value|Enabled}}, but additionally the copy will be automatically refreshed if the original source object changes.
+
+-    **LinkCopyOnChangeGroup|Link|Hidden, LockDynamic**: Linked to a internal group object for holding on change copies
+
+-    **LinkCopyOnChangeSource|XLink|Hidden, LockDynamic**: The copy on change source object
+
+-    **LinkCopyOnChangeTouched|Bool|Hidden, LockDynamic**: Indicating the copy on change source object has been changed
+
+-    **LinkExecute|String|LockDynamic**: name of the execute function that will run for this particular Link object. It defaults to {{Value|'appLinkExecute'}}. Set it to {{Value|'None'}} to disable it.
+
+-    **Link Placement|Placement|Hidden, LockDynamic**: it is an offset applied on top of the **Placement** of the **Linked Object**. This property is normally hidden but appears if **Link Transform** is set to `True`; in this case, **Placement** now becomes hidden.
 
 -    **Link Transform|Bool**: it defaults to `False`, in which case the Link will override the **Linked Object**\'s own placement. If it is set to `True`, the Link will be placed in the same position as the **Linked Object**, and its placement will be relative to the **Linked Object**\'s placement. This can also be achieved with **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std LinkMakeRelative](Std_LinkMakeRelative.md)**.
 
+-    **Linked Object|XLink**: it indicates the source object of the [App Link](App_Link.md); this can be an entire object, or a subelement of it (vertex, edge, or face).
+
 -    **Placement|Placement**: the placement of the Link in absolute coordinates.
 
--    **Link Placement|Placement|Hidden**: it is an offset applied on top of the **Placement** of the **Linked Object**. This property is normally hidden but appears if **Link Transform** is set to `True`; in this case, **Placement** now becomes hidden.
-
--    **Show Element|Bool**: it defaults to `True`, in which case the [tree view](tree_view.md) will show the individual Link copies, as long as **Element Count** is {{Value|1}} or larger.
-
--    **Element Count|IntegerConstraint**: it defaults to {{Value|0}}. If it is {{Value|1}} or larger, the [App Link](App_Link.md) will behave like an array, and will duplicate the same **Linked Object** many times. If **Show Elements** is `True`, each element in the array will be displayed in the [tree view](tree_view.md), and each can have its own **Placement** modified. Each Link copy will have a name based on the Link\'s [Name](Object_name.md), augmented by `_iN`, where `N` is a number starting from `0`. For example, with a single `Link`, the copies will be named `Link_i0`, `Link_i1`, `Link_i2`, etc.
-
--    **Link Execute|String**: name of the execute function that will run for this particular Link object. It defaults to {{Value|'appLinkExecute'}}. Set it to {{Value|'None'}} to disable it.
-
--    **Colored Elements|LinkSubHidden|Hidden**: list of Link elements that have had their color overriden.
+-    **PlacementList|PlacementList|LockDynamic**: The placement for each Link element
 
 -    **Scale|Float**: it defaults to {{Value|1.0}}. It is a factor for uniform scaling in each direction `X`, `Y`, and `Z`. For example, a cube of {{Value|2 mm}} x {{Value|2 mm}} x {{Value|2 mm}}, that is scaled by {{Value|2.0}}, will result in a shape with dimensions {{Value|4 mm}} x {{Value|4 mm}} x {{Value|4 mm}}.
 
--    **Scale Vector|Vector|Hidden**: the scale factor for each component `(X, Y, Z)` for all Link elements when **Element Count** is {{Value|1}} or larger. If **Scale** is other than {{Value|1.0}}, this same value will be used in the three components.
-
 -    **Scale List|VectorList**: the scale factor for each Link element.
 
--    **Visibility List|BoolList|Hidden**: {{emphasis|(read-only)}} the visibility state of each Link element, either `True` or `False`.
+-    **Scale Vector|Vector|Hidden**: the scale factor for each component `(X, Y, Z)` for all Link elements when **Element Count** is {{Value|1}} or larger. If **Scale** is other than {{Value|1.0}}, this same value will be used in the three components.
 
--    **Placement List|PlacementList|Hidden**: {{emphasis|(read-only)}} the placement for each Link element.
+-    **Show Element|Bool**: it defaults to `True`, in which case the [tree view](tree_view.md) will show the individual Link copies, as long as **Element Count** is {{Value|1}} or larger.
 
--    **Element List|LinkList|Hidden**: the list of Link elements.
+-    **_ChildCache|LinkList|NoPersist, ReadOnly, Hidden**: TBD
 
--    **_LinkTouched|Bool|Hidden**:
+-    **_LinkOwner|Integer|Hidden, Output**: TBD
 
--    **_ChildCache|LinkList|Hidden**:
+-    **_LinkTouched|Bool|NoPersist, Hidden**: TBD
 
 
 {{TitleProperty|Основные}}
@@ -230,6 +272,8 @@ The following are the specific properties available in the [property editor](Pro
 -    **Proxy|PythonObject|Hidden**: a custom class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Std_LinkMake#Scripting.md).
 
 The [App Link](App_Link.md) object will additionally show the properties of the original **Linked Object**, so the [property editor](property_editor.md) may have groups of properties like {{TitleProperty|Attachment}}, {{TitleProperty|Box}}, {{TitleProperty|Draft}}, etc.
+
+
 
 ### Вид
 
@@ -307,6 +351,8 @@ The [App Link](App_Link.md) object will additionally show the properties of the 
 
 It will additionally show the view properties of the original **Linked Object**.
 
+
+
 ## Наследование
 
 Объект [App Link](App_Link/ru.md) формально является экземпляром класса `App::Link`, родителем которого является базовый [App DocumentObject](App_DocumentObject/ru.md) (класс `App::DocumentObject`). Это объект очень низкого уровня, который можно использовать с большинством других объектов документа.
@@ -316,6 +362,8 @@ It will additionally show the view properties of the original **Linked Object**.
 
 
 *Simplified diagram of the relationships between the core objects in the program. The `App::Link* object is a core component of the system, it does not depend on any workbench, but it can be used with most objects created in all workbenches.`
+
+
 
 ## Программирование
 
@@ -360,7 +408,11 @@ obj = App.ActiveDocument.addObject("App::LinkPython", "Link")
 obj.Label = "Custom label"
 ```
 
+
+
 ## Дополнительные материалы 
+
+If you want to skip the historical details, go to the [user-oriented introduction to links](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link).
 
 Объект App Link был представлен после двух лет разработки и прототипирования. Этот компонент был задуман и спроектирован практически в одиночку пользователем **realthunder**. Мотивация и реализация дизайна этого проекта описаны на его странице в GitHub, [ссылка](https://github.com/realthunder/FreeCAD_assembly3/wiki/Link). Чтобы завершить эту функцию, в ядре FreeCAD были сделаны несколько изменений; это было подробно документировано в [Изменениях-Ядра](https://github.com/realthunder/FreeCAD_assembly3/wiki/Core-Changes).
 

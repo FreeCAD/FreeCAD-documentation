@@ -16,7 +16,7 @@ FreeCAD can store camera settings in up to 50 \'frozen views\'. The menu options
 
 ### Description
 
-The **Save views\...** menu option saves all existing frozen views in a file with the \*.cam extension.
+The **Save views\...** menu option saves all existing frozen views in a file with the ***.cam** extension.
 
 ### Usage
 
@@ -33,7 +33,7 @@ The **Save views\...** menu option saves all existing frozen views in a file wit
 
 ### Description 
 
-The **Load views\...** menu option loads frozen views from a file with the \*.cam extension. All existing frozen views will be deleted.
+The **Load views\...** menu option loads frozen views from a file with the ***.cam** extension. All existing frozen views will be deleted.
 
 ### Usage 
 
@@ -85,7 +85,7 @@ For each frozen view a **Restore view** option is added with which it can be res
 
 
 
- {{Std Base navi}}
+ {{Std_Base_navi}}
 
 
 

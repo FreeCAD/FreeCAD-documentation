@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch Truss
    Name/fr: Arch Treillis
-   MenuLocation: Arch , Treillis
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: 3D/BIM , Treillis
+   Workbenches: BIM_Workbench/fr
    Version: 0.19
 ---
 
@@ -11,19 +11,25 @@
 
 ## Description
 
-L\'outil [Arch Treillis](Arch_Truss/fr.md) crée un objet [Treillis](https://fr.wikipedia.org/wiki/Treillis_(assemblage)) à partir d\'un objet linéaire sélectionné (positionnez une [Draft Ligne](Draft_Line/fr.md) ou [Sketcher Esquisse](Sketcher_NewSketch/fr.md)) ou à partir de zéro, si aucun objet n\'est sélectionné lors du lancement de la commande.
+L\'outil **Arch Treillis** crée un objet [Treillis](https://fr.wikipedia.org/wiki/Treillis_(assemblage)) à partir d\'un objet linéaire sélectionné (positionnez une [Draft Ligne](Draft_Line/fr.md) ou [Sketcher Esquisse](Sketcher_NewSketch/fr.md)) ou à partir de zéro, si aucun objet n\'est sélectionné lors du lancement de la commande.
 
 <img alt="" src=images/Arch_Truss_example.png  style="width:600px;">
 
+
+
 ## Utilisation
+
+
 
 ### Création à partir d\'un objet sélectionné 
 
-1.  Utilisez un atelier de votre choix pour créer une seule ligne
+1.  Utilisez l\'atelier de votre choix pour créer une seule ligne
 2.  Sélectionnez cette ligne
 3.  Appuyez sur le bouton **<img src="images/Arch_Truss.svg" width=16px> [Treillis](Arch_Truss/fr.md)
 **
 4.  Ajustez les propriétés du treillis à votre convenance
+
+
 
 ### Création à partir de zéro 
 
@@ -34,7 +40,11 @@ L\'outil [Arch Treillis](Arch_Truss/fr.md) crée un objet [Treillis](https://fr.
 4.  Cliquez dans la vue 3D pour définir un deuxième point ou entrez manuellement les coordonnées X, Y et Z
 5.  Ajustez les propriétés du treillis à votre convenance
 
+
+
 ## Propriétés
+
+
 
 ### Données
 
@@ -68,6 +78,8 @@ L\'outil [Arch Treillis](Arch_Truss/fr.md) crée un objet [Treillis](https://fr.
 
 -    **RodMode**: comment dessiner les membrures
 
+
+
 ## Script
 
 L\'outil Treillis peut être utilisé dans une [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante :
@@ -96,5 +108,13 @@ truss.HeightEnd = 400
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/fr
+⏵ [documentation index](../README.md) > Arch Truss/fr

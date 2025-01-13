@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Upgrade
-   Name/it: Promuovi
-   MenuLocation: Modifiche , Promuovi
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Promuovi
+   MenuLocation: Modifiche , Promuovi<br>Modifica , Promuovi
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **U** **P**
    SeeAlso: Draft_Downgrade/it
 ---
@@ -26,7 +26,8 @@ Il comando <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Draf
 1.  Opzionalmente selezionare uno o più oggetti.
 2.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Upgrade.svg" width=16px> [Promuovi](Draft_Upgrade/it.md)**.
-    -   Selezionare l\'opzione **Modifica → <img src="images/Draft_Upgrade.svg" width=16px> Promuovi** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_Upgrade.svg" width=16px> Promuovi** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_Upgrade.svg" width=16px> Promuovi** dal menu.
     -   Usare la scorciatoia da tastiera: **U** poi **P**.
 3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
 

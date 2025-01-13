@@ -2,44 +2,36 @@
  GuiCommand:
    Name: Sketcher CreateEllipseBy3Points
    Name/fr: Sketcher Ellipse par 3 points
-   MenuLocation: Esquisse , Géométries d'esquisse , Créer une ellipse via 3 points
+   MenuLocation: Esquisse , Géométries d'esquisse , Créer une ellipse par 3 points
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **3** **E**
    Version: 0.15
-   SeeAlso: Sketcher_CreateEllipseByCenter/fr, Sketcher_CreateCircle/fr, Sketcher_CreateArcOfEllipse/fr
+   SeeAlso: Sketcher_CreateEllipseByCenter/fr
 ---
 
 # Sketcher CreateEllipseBy3Points/fr
 
 ## Description
 
-Cet outil trace une ellipse à partir de trois points : (1) la périapside (premier croisement du plus grand diamètre avec l\'ellipse), (2) l\'apoapside (le second croisement du plus grand diamètre avec l\'ellipse), (3) un point du côté du plus grand diamètres plus long (a) définissant le rayon mineur (b). (c) est le centre résultant et (f) sont les points focaux.
-
-Lors du lancement de l\'outil, le pointeur de la souris change pour une croix blanche avec une icône représentant une ellipse rouge.
-
-![](images/Ellipse_3Point.png‎ ) 
-*La séquence de clics est indiquée par des flèches jaunes numérotées.<br>
-1 est la périapside, 2 l'apoapside, 3 définit le point du diamètre mineur<br>
-Les lignes vertes sont les diamètres majeur et mineur.<br>
-Les lignes bleues sont des lignes de construction aléatoires à des fins d'illustration.*
+L\'outil <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:24px;"> [Sketcher Ellipse par 3 points](Sketcher_CreateEllipseBy3Points/fr.md) crée une ellipse à partir des extrémités de l\'un de ses axes et d\'un point situé sur l\'ellipse. {{Version/fr|1.0}} : il s\'agit du même outil que [Sketcher Ellipse par centre](Sketcher_CreateEllipseByCenter/fr.md) mais avec un mode initial différent.
 
 
 
 ## Utilisation
 
--   Appuyer sur le bouton **[<img src=images/Sketcher_CreateEllipseBy3Points.svg style="width:16px"> [Créer une ellipse via 3 points](Sketcher_CreateEllipseBy3Points/fr.md)**.
--   Cliquez d\'abord dans la vue 3D pour définir un point de croisement du diamètre majeur avec l\'ellipse (périapside). Le second point dans la vue 3D définit le croisement avec l\'ellipse opposé au centre (apoapside). Le troisième clic définit un point sur l\'ellipse définissant le rayon mineur.
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
 
--   Après le troisième clic, l\'ellipse est créée, ainsi qu\'un ensemble de géométrie de construction alignée sur l\'ellipse (diamètres majeur et intérieur, 2 points focaux). La géométrie de construction peut être supprimée manuellement si non requise, et recréée plus tard. Consultez [afficher/basculer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
--   Appuyez sur **Echap** ou un clic droit sur la souris annule la fonction.
+1.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_CreateEllipseBy3Points.svg" width=16px> [Ellipse par les extrémités de ses axes, un point de la courbe](Sketcher_CreateEllipseBy3Points/fr.md)**.
+    -   Sélectionnez la commande **Esquisse → Géométries d'esquisse → <img src="images/Sketcher_CreateEllipseBy3Points.svg" width=16px> Créer une ellipse par 3 points** du menu.
+    -   Utilisez le raccourci clavier : **G** puis **3**, puis **E**.
+2.  Pour d\'autres étapes, voir [Sketcher Ellipse par centre](Sketcher_CreateEllipseByCenter/fr#Utilisation.md).
 
 
 
-## Particularités
+## Remarques
 
--   Le grand axe et le petit axe des ellipses sont stricts et ne peuvent pas être échangés en redimensionnant l\'ellipse. Ceci est une conséquence du paramétrage du solveur utilisé (centre (x, y), focus1 (x, y) et longueur du demi petit axe (b)) et le même comportement strict d\'OpenCascade. L\'ellipse doit être tournée pour échanger les axes.
--   L\'ellipse peut fonctionner comme un cercle lorsque ses lignes de diamètre majeur et mineur sont supprimées, et l\'un des foyers est contraint de coïncider avec le centre. Mais la contrainte de rayon ne fonctionnera pas sur un tel cercle.
--   Déplacer l\'ellipse par un bord donne le même résultat que le centre de l\'ellipse.
+Voir [Ellipse par son centre](Sketcher_CreateEllipseByCenter/fr#Remarques.md)
 
 
 

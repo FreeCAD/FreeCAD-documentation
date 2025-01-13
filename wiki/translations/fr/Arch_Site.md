@@ -2,17 +2,17 @@
  GuiCommand:
    Name: Arch Site
    Name/fr: Arch Site
-   MenuLocation: Arch , Site
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: 3D/BIM , Site
+   Workbenches: BIM_Workbench/fr
    Shortcut: **S** **I**
-   SeeAlso: Arch_Floor/fr, Arch_Building/fr
+   SeeAlso: 
 ---
 
 # Arch Site/fr
 
 ## Description
 
-**Arch Site** est un objet spécial qui combine les propriétés d\'un objet groupe FreeCAD standard et un objet Arch. Il est particulièrement adapté pour représenter un site entier, ou un terrain. Dans un travail architectural fait d\'IFC, il est surtout utilisé pour organiser votre modèle qui contient un objet [Arch Bâtiment](Arch_Building/fr.md). Arch Site est également utilisé pour gérer et afficher un terrain physique et peut calculer le volume de terre a ajouter ou a supprimer.
+**Arch Site** est un objet spécial qui combine les propriétés d\'un objet groupe FreeCAD standard et des objets Arch. Il est particulièrement adapté pour représenter un site entier ou un terrain. Dans un travail architectural fait d\'IFC, il est surtout utilisé pour organiser votre modèle qui contient des objets de [bâtiments](Arch_Building/fr.md). Arch Site est également utilisé pour gérer et afficher un terrain physique et peut calculer le volume de terre a ajouter ou a supprimer.
 
 
 
@@ -24,7 +24,7 @@
 ## Options
 
 -   Après la création d\'un site, vous pouvez ajouter des objets par glisser-déposer dans la [vue en arborescence](Tree_view/fr.md) ou en utilisant le bouton **<img src="images/Arch_Add.svg" width=16px> [Arch Ajouter](Arch_Add/fr.md)**. Cela ne détermine que les objets qui font partie du site donné et n\'a aucun effet sur le terrain.
--   Vous pouvez supprimer les objets d\'un site par un glisser-déposer hors du site de la [vue en arborescence](Tree_view/fr.md) ou en utilisant le bouton **<img src="images/Arch_Remove.svg" width=16px> [Arch Soustraire](Arch_Remove/fr.md)**.
+-   Vous pouvez supprimer les objets d\'un site par un glisser-déposer hors du site de la [vue en arborescence](Tree_view/fr.md) ou en utilisant le bouton **<img src="images/Arch_Remove.svg" width=16px> [Arch Supprimer](Arch_Remove/fr.md)**.
 -   Vous pouvez ajouter un objet terrain en modifiant la propriété **Terrain** du site. Le terrain peut être une coque ouverte ou ({{Version/fr|0.21}}) un solide.
 -   Vous pouvez ajouter des volumes à ajouter ou à soustraire du terrain de base en double-cliquant sur le site et en ajoutant des objets à ses groupes Additions ou Soustractions. Les objets doivent être des solides.
 -   La propriété **Extrusion Vector** peut être utilisée pour résoudre certains problèmes qui peuvent apparaître lorsque le terrain est une coque ouverte et qu\'il y a des additions et/ou des soustractions. Afin d\'effectuer ces additions/soustractions, la coque ouverte est extrudée en un solide, qui est ensuite assemblé/soustrait de manière appropriée. Selon la topologie du terrain, cette extrusion peut échouer avec le vecteur d\'extrusion par défaut. Vous pouvez alors remédier au problème en modifiant cette valeur. Cette propriété est ignorée si le terrain est un solide.
@@ -67,7 +67,7 @@
 
 -    **Declination**: angle entre le nord vrai et le nord dans ce document, c'est-à-dire l'axe des Y. Cela signifie que par défaut (déclinaison de 0 degré) le Nord pointe vers l'axe Y et est vers l'est dans l\'Axe X; l\'angle est incrémenté dans les sens contraire des aiguilles d\'une montre. Cette propriété était connue auparavant comme une **North Deviation**.
 
--    **EPW File**: permet de joindre à ce site un fichier EPW provenant du [site Ladybug données EPW](https://www.ladybug.tools/epwmap/). Ceci est nécessaire pour afficher les diagrammes de la rose des vents.
+-    **EPW File**: permet de joindre à ce site un fichier EPW provenant du [site web de données EPW de Ladybug](https://www.ladybug.tools/epwmap/). Ceci est nécessaire pour afficher les diagrammes de la rose des vents.
 
 
 
@@ -85,7 +85,7 @@
 
 
 
-## Processus de travail typique 
+## Flux de travail typique 
 
 Commencez par créer un objet qui représente votre terrain. Par exemple, il est facile d\'importer des données de maillage, qui peuvent être transformées en une Part Forme à partir du menu **Part → Créer une forme à partir d'un maillage**. Créez ensuite un objet Site et définissez sa propriété **Terrain** sur la pièce que nous venons de créer :
 
@@ -105,7 +105,7 @@ La géométrie du site est alors calculée, les surfaces les périmètres et vol
 
 Si [Ladybug](https://www.ladybug.tools/ladybug.html) est installé, [Arch Site](Arch_Site/fr.md) peut afficher un diagramme solaire et/ou une rose des vents. Pour cela, les propriétés **Longitude**, **Latitude** et **NorthDeviation** doivent être correctement définies et {{PropertyView/fr|SolarDiagram}} ou {{PropertyView/fr|Wind Rose}} activée `True`.
 
-**Remarque** : si vous n\'avez pas Ladybug, [pysolar](http://pysolar.org/) est toujours pris en charge pour générer des diagrammes solaires mais pas les roses des vents. Pysolar 0.7 ou supérieur est requis. Cette version ne fonctionne qu\'avec Python 3. Si vous avez besoin de cette fonctionnalité avec Python 2, vous devriez avoir Pysolar 0.6 car c\'est la dernière version qui fonctionne avec Python 2. Cependant, Ladybug est un outil beaucoup plus puissant qui sera probablement plus utilisé dans l\'avenir. Nous vous recommandons donc de l\'utiliser au lieu de pysolar. Ladybug peut être installé simplement via [pip](https://github.com/ladybug-tools/ladybug).
+**Remarque** : si vous n\'avez pas Ladybug, [pysolar](http://pysolar.org/) est toujours pris en charge pour générer des diagrammes solaires mais pas les roses des vents. Pysolar 0.7 ou supérieur est requis. Cependant, Ladybug est un outil beaucoup plus puissant qui sera probablement plus utilisé dans l\'avenir. Nous vous recommandons donc de l\'utiliser au lieu de pysolar. Ladybug peut être installé simplement via [pip](https://github.com/ladybug-tools/ladybug).
 
 ![](images/Freecad-solar-diagram.jpg )
 
@@ -186,5 +186,13 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/fr
+⏵ [documentation index](../README.md) > Arch Site/fr

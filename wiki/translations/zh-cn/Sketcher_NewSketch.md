@@ -9,6 +9,11 @@
 
 # Sketcher NewSketch/zh-cn
 
+
+</div>
+
+
+
 ## 描述
 
 
@@ -28,6 +33,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 如何使用
@@ -35,33 +42,34 @@
 
 </div>
 
-若未（预）选特定面，则点击此图标将弹出一个对话框，问您是否将草图绘制在
+1.  If the sketch should be [attached](Part_EditAttachment.md) to existing geometry: select an object with a shape, or one or more vertices, edges, and/or faces, and/or a plane.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_NewSketch.svg" width=16px> [Create sketch](Sketcher_NewSketch.md)** button.
+    -   Select the **Sketch → <img src="images/Sketcher_NewSketch.svg" width=16px> Create sketch** option from the menu.
+3.  If geometry has been selected:
+    1.  The **Sketch attachment** dialog opens.
+    2.  Select an [attachment method](Part_EditAttachment#Attachment_modes.md) from the dropdown list. Or select **Don\'t attach** to ignore the selection.
+    3.  Press the **OK** button.
+4.  If there is no selection, or **Don\'t attach** has been selected in the previous step:
+    1.  The **Choose orientation** dialog opens.
+    2.  Specify the plane for the orientation. The plane is relative to the local coordinate system the sketch is in:
+        -   If the **Reverse direction** checkbox is not checked:
+            -   Top: **XY-Plane**
+            -   Front: **XZ-Plane**
+            -   Right: **YZ-Plane**
+        -   If the **Reverse direction** checkbox is checked:
+            -   Bottom: **XY-Plane**
+            -   Rear: **XZ-Plane**
+            -   Left: **YZ-Plane**
+    3.  Optionally change the **Offset**. The offset is measured along the Z, Y or X axis of the local coordinate system.
+    4.  Press the **OK** button.
+5.  A sketch is created.
+6.  The sketch is put in edit mode and the [Sketcher Dialog](Sketcher_Dialog.md) opens.
+7.  To finish edit mode see <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:16px;"> [Sketcher LeaveSketch](Sketcher_LeaveSketch.md).
 
--   XY-平面
--   XZ-平面
--   YZ-平面
+## Notes
 
-在此，您也可以改变至上述任意一种平面的偏移值（offset），以及在上述平面的哪一侧计算偏移值。
-
-在已有特定（预选）面的情况下，点击此图标将把草图映射至选中的面上。
-
-## 备注
-
-
-<div class="mw-translate-fuzzy">
-
-通过[映射草图（Map Sketch） - 命令](Sketcher_MapSketch.md)可将草图重新映射至另一存在的面上。
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-利用[方位（Placement）](Placement/zh-cn.md)属性可把草图移至3D空间中。
-
-
-</div>
+-   Existing sketches can be attached to (different) object(s) with [Sketcher MapSketch](Sketcher_MapSketch.md) or detached and reoriented with [Sketcher ReorientSketch](Sketcher_ReorientSketch.md).
 
 
 

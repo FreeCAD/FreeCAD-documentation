@@ -3,6 +3,8 @@
 
 
 
+
+
 ## Einleitung
 
 Der Arbeitsbereich **FCGear** ist ein [externer Arbeitsbereich](External_workbenches/de.md) zur Herstellung verschiedener Arten von Zahnrädern und Schneckenwellen in FreeCAD. Durch die parametrische Modellierung können die erforderlichen Geometrien jederzeit geändert werden. Durch Ändern einiger Parameter wird das Evolventenzahnrad beispielsweise entweder zu einem geradverzahnten, einem schrägverzahnten oder einem doppelschrägverzahnten Zahnrad.
@@ -12,9 +14,11 @@ Damit die Ergebnisse von FCGear verwendet werden können, ist ein gewisses Grund
 
 In Verbindung mit dem 3D-Druck haben Heimanwender nun die Möglichkeit, Zahnräder und Schneckenwellen nach ihren eigenen Vorstellungen zu konstruieren, herzustellen und gegebenenfalls an die konstruktiven Gegebenheiten anzupassen.
 
-Der Arbeitsbereich FCGear kann mit dem <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr.md) installiert werden. Zur manuellen Installation siehe [Weitere Arbeitsbereiche installieren](Installing_more_workbenches/de.md).
+Der Arbeitsbereich FCGear kann mit dem <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) installiert werden. Zur manuellen Installation siehe [Weitere Arbeitsbereiche installieren](Installing_more_workbenches/de.md).
 
 Nach der Installation stehen die Werkzeuge in der Symbolleiste Gear und dem Menü Gear zur Verfügung.
+
+
 
 ## Werkzeuge
 
@@ -34,6 +38,8 @@ Nach der Installation stehen die Werkzeuge in der Symbolleiste Gear und dem Men�
 
 -   <img alt="" src=images/FCGear_WormGear.svg  style="width:32px;"> [Schneckenwelle](FCGear_WormGear/de.md): Erstellt eine Schneckenwelle.
 
+-   <img alt="" src=images/FCGear_TimingGearT.svg  style="width:32px;"> [ZahnriemenscheibeT](FCGear_TimingGearT.md): Erstellt eine Zahnriemenscheibe Bauart T.
+
 -   <img alt="" src=images/FCGear_TimingGear.svg  style="width:32px;"> [Zahnriemenscheibe](FCGear_TimingGear/de.md): Erstellt eine Zahnriemenscheibe.
 
 -   <img alt="" src=images/FCGear_LanternGear.svg  style="width:32px;"> [Triebstockrad](FCGear_LanternGear/de.md): Erstellt ein Triebstockrad.
@@ -42,68 +48,96 @@ Nach der Installation stehen die Werkzeuge in der Symbolleiste Gear und dem Men�
 
 -   <img alt="" src=images/FCGear_GearConnector.svg  style="width:32px;"> [Zahnradpaarung](FCGear_GearConnector/de.md): Stellt Paare aus zwei verzahnten Elementen zusammen.
 
+
+
 ## Zahnradarten
+
+
 
 ### Evolventenzahnrad
 
 <img alt="" src=images/Involute-Gear_example.png  style="width:200px;"> 
 *Von links nach rechts: Geradverzahnung, Schrägverzahnung, Doppelschrägverzahnung (siehe [FCGear Evolventenzahnrad](FCGear_InvoluteGear/de.md))*
 
+
+
 ### Innenverzahntes Evolventenzahnrad 
 
 <img alt="" src=images/FCGear_InternalInvoluteGear-01.png  style="width:200px;"> 
 *Von links nach rechts: Geradverzahnung, Schrägverzahnung, Doppelschrägverzahnung (siehe [FCGear InnenverzahntesEvolventenzahnrad](FCGear_InternalInvoluteGear/de.md))*
+
+
 
 ### Evolventenzahnstange
 
 <img alt="" src=images/Involute-Rack_example.png  style="width:" height="200px;"> 
 *Von links nach rechts: Geradverzahnung, Schrägverzahnung, Doppelschrägverzahnung (siehe [FCGear Evolventenzahnstange](FCGear_InvoluteRack/de.md))*
 
+
+
 ### Zykloidenzahnrad
 
 <img alt="" src=images/Cycloid-Gear_example_1.png  style="width:200px;"> 
 *Von links nach rechts: Geradverzahnung, Schrägverzahnung, Doppelschrägverzahnung (siehe [FCGear Zykloidenzahnrad](FCGear_CycloidGear/de.md))*
+
+
 
 ### Zykloidenzahnstange
 
 <img alt="" src=images/FCGear_CycloidRack-01.png  style="width:" height="200px;"> 
 *Von links nach rechts: Geradverzahnung, Schrägverzahnung, Doppelschrägverzahnung (siehe [FCGear Zykloidenzahnstange](FCGear_CycloidRack/de.md))*
 
+
+
 ### Kegelrad
 
 <img alt="" src=images/Bevel-Gear_example.png  style="width:150px;"> 
 *Von links nach rechts: Geradverzahnung, Spiralverzahnung (siehe [FCGear Kegelrad](FCGear_BevelGear/de.md))*
+
+
 
 ### Kronenrad
 
 <img alt="" src=images/Crown-Gear_example.png  style="width:150px;"> 
 *Kronenrad (siehe [FCGear Kronenrad](FCGear_CrownGear/de.md))*
 
+
+
 ### Schneckenwelle
 
 <img alt="" src=images/Worm-Gear_example.png  style="width:150px;"> 
 *Schneckenwelle (siehe [FCGear Schneckenwelle](FCGear_WormGear/de.md))*
+
+
 
 ### Zahnriemenscheibe
 
 <img alt="" src=images/Timing-Gear_example.png  style="width:150px;"> 
 *Zahnriemenscheibe (siehe [FCGear Zahnriemenscheibe](FCGear_TimingGear/de.md))*
 
+
+
 ### Triebstockrad
 
 <img alt="" src=images/Lantern-Gear_example.png  style="width:150px;"> 
 *Triebstockrad (siehe [FCGear Triebstockrad](FCGear_LanternGear/de.md))*
+
+
 
 ### Hypozykloidenrad
 
 <img alt="" src=images/FCGear_FCGear_HypoCycloidGear-05.png  style="width:120px;"> 
 *Hypozykloidenrad (siehe [FCGear Hypozykloidenrad](FCGear_HypoCycloidGear/de.md))*
 
+
+
 ## Referenzen
 
 -   Autor: looooo
 -   Heimseite: <https://github.com/looooo/FCGear>
 -   Quellcode auf github: <https://github.com/looooo/FCGear>
+
+
 
 ## Verweise zum Arbeitsbereich FCGear 
 
@@ -113,6 +147,8 @@ Nach der Installation stehen die Werkzeuge in der Symbolleiste Gear und dem Men�
 -   Videos:
 -   Dateien:
 -   Fehler melden: Bitte melde Fehler unter <https://github.com/looooo/FCGear/issues>
+
+
 
 ## Andere nützliche Verweise 
 

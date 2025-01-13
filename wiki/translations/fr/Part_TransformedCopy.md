@@ -2,34 +2,44 @@
  GuiCommand:
    Name: Part TransformedCopy
    Name/fr: Part Copie transformée
-   MenuLocation: Part , Créer une copie , Créer une copie modifiée
+   MenuLocation: Part , Créer une copie , Copie transformée
    Workbenches: Part_Workbench/fr
    Version: 0.19
-   SeeAlso: Part_SimpleCopy/fr, Part_ElementCopy/fr, Part_RefineShape/fr
+   SeeAlso: Part_SimpleCopy/fr
 ---
 
 # Part TransformedCopy/fr
 
+
+
 ## Description
 
-[Part Copie transformée](Part_TransformedCopy/fr.md) produit une copie non paramétrique d\'un objet qui a été déplacé de sa position d\'origine.
+La commande <img alt="" src=images/Part_TransformedCopy.svg  style="width:24px;"> **Part Copie transformée** crée des copies non paramétriques d\'objets. Elle est destinée aux objets imbriqués dans des conteneurs.
 
-Pour produire d'autres copies non paramétriques, utilisez **<img src="images/Part_SimpleCopy.svg" width=16px> [Part Créer une copie simple](Part_SimpleCopy/fr.md)**, **<img src="images/Part_ElementCopy.svg" width=16px>[Part Copie élément](Part_ElementCopy/fr.md)** ou **<img src="images/Part_RefineShape.svg" width=16px> [Part Affiner la forme](Part_RefineShape/fr.md)**.
+Les **Placement** des copies sont ajustées, en tenant compte de l\'emplacement du ou des conteneurs, de manière à ce que leur position et leur rotation par rapport au système de coordonnées global soient identiques à celles des objets d\'origine. Si les objets sélectionnés ne sont pas imbriqués, ou s\'ils sont imbriqués dans un conteneur avec un placement par défaut, cette commande produit les mêmes résultats que [Part Copie simple](Part_SimpleCopy/fr.md).
+
+
 
 ## Utilisation
 
-1.  Sélectionnez un objet que vous souhaitez copier.
-2.  Aller au menu **Part → Créer une copie → [<img src=images/Part_TransformedCopy.svg style="width:16px"> [Create transformed copy](Part_TransformedCopy/fr.md)**.
+1.  Sélectionnez un ou plusieurs objets.
+2.  Sélectionnez l\'option **Part → Créer une copie → <img src="images/Part_TransformedCopy.svg" width=16px> Copie transformée** du menu.
+
+
 
 ## Propriétés
 
-### Données
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-La copie a une seule propriété **Placement** comme n\'importe quelle autre [Part Fonction](Part_Feature/fr.md).
+Les objets créés sont des objets [Part Feature](Part_Feature/fr.md) sans propriétés supplémentaires.
 
-### Vue
 
-La copie a des propriétés de vue simples comme toutes les autres [Part Fonctions](Part_Feature/fr.md).
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

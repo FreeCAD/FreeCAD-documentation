@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Das Werkzeug Verbinden verbindet die Innenbereiche von zwei Hohlkörpern (z.B. Rohre). Es kann auch Schalenobjekte und Drähte verbinden.
+Das Werkzeug <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> **Part Verbinden** verbindet die Innenbereiche von zwei Hohlkörpern (z.B. Rohre). Es kann auch Schalenobjekte und Drähte verbinden.
 
 ![600px](images/JoinFeatures_Connect.png)
 
@@ -22,13 +22,11 @@ Das Werkzeug Verbinden verbindet die Innenbereiche von zwei Hohlkörpern (z.B. R
 
 ## Anwendung
 
-1.  Die zu verbindenden Objekte auswählen.
-    Die Reihenfolge der Auswahl ist nicht wichtig, da die Wirkung des Werkzeugs symmetrisch ist. Es genügt, von jedem Objekt eine Teilform (z.B. Flächen) auszuwählen. Es kann auch ein Verbund ausgewählt werden, der alle zu verbindenden Formen enthält, z.B. [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md).
+1.  Die zu verbindenden Objekte auswählen. Die Reihenfolge der Auswahl ist nicht wichtig, da die Wirkung des Werkzeugs symmetrisch ist. Es genügt, von jedem Objekt eine Teilform (z.B. Flächen) auszuwählen. Es kann auch ein Verbund ausgewählt werden, der alle zu verbindenden Formen enthält, z.B. eine [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md).
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Part Connect objects](Part_JoinConnect/de.md) in der Part-Werkzeugleiste drücken.
-    -   Den Menüeintrag **Part → Verbinden → Objekte verbinden** auswählen.
-
-Ein parametrisches Verbindungsobjekt wird erstellt. Originalobjekte werden ausgeblendet, und das Ergebnis der Verbindung wird in der [3D-Ansicht](3D_view/de.md) angezeigt.
+    -   Die Schaltfläche **<img src="images/Part_JoinConnect.svg" width=16px> [Objekte verbinden](Part_JoinConnect/de.md)** drücken.
+    -   Den Menüeintrag **Part → Verbinden → <img src="images/Part_JoinConnect.svg" width=16px> Objekte verbinden** auswählen.
+3.  Ein parametrisches Connect-Objekt wird erstellt. Die originalen Objekte werden ausgeblendet und das Ergebnis des Verbindens wird in der [3D-Ansicht](3D_view/de.md) angezeigt.
 
 
 
@@ -104,6 +102,14 @@ j.Objects = FreeCADGui.Selection.getSelection()
 }}
 
 Das Werkzeug selbst ist in Python implementiert, siehe **/Mod/Part/BOPTools/JoinFeatures.py** ([GitHub link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) innerhalb des FreeCAD-Installationsverzeichnisses.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

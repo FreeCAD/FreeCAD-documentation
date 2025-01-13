@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch MergeWalls
-   MenuLocation: Arch , Utilities , Merge Walls
-   Workbenches: Arch_Workbench
+   MenuLocation: Utils , Merge Walls
+   Workbenches: BIM_Workbench
    SeeAlso: Arch_Wall
 ---
 
@@ -10,16 +10,19 @@
 
 ## Description
 
-The [MergeWalls](Arch_MergeWalls.md) tool fuses two or more selected **<img src="images/_Arch_Wall.svg" width=16px> [Arch Walls](Arch_Wall.md)**.
+The **Arch MergeWalls** tool merges [Arch Walls](Arch_Wall.md).
 
 ## Usage
 
-1.  Select two or more walls.
-2.  Press the **<img src="images/Arch_MergeWalls.svg" width=16px>** button, or use the **Arch** → **Utilities** → **<img src="images/Arch_MergeWalls.svg" width=16px> [Merge Walls](Arch_MergeWalls.md)** from the top menu.
+1.  Do one of the following:
+    -   Select a single wall with one or more [additions](Arch_Add.md) that are also walls.
+    -   Select two or more walls.
+2.  In both cases the walls must have the same **Height**, **Width** and **Align** properties.
+3.  Select the **Utils → <img src="images/Arch_MergeWalls.svg" width=16px> Merge Walls** option from the menu.
 
-## Properties
+## Notes
 
-## Limitations
+-   [Arch Add](Arch_Add.md) can merge walls even if they have different heights, widths and alignments.
 
 ## Scripting
 
@@ -28,12 +31,16 @@ The [MergeWalls](Arch_MergeWalls.md) tool fuses two or more selected **<img src=
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:  
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+ 
 ```python
 base = joinWalls(walls, delete=False)
 ```
 
-Example:  
+Example:
+
+ 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -51,5 +58,10 @@ base = Arch.joinWalls([Wall1, Wall2])
 
 
 
+
+ {{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls
+⏵ [documentation index](../README.md) > Arch MergeWalls

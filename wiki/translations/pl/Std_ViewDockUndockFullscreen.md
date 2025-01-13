@@ -70,7 +70,7 @@ Opcja menu **Niezadokowany** powoduje odłączenie aktywnego okna [widoku 3D](3D
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

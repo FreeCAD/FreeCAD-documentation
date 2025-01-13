@@ -17,21 +17,25 @@
 
 ## Descripción
 
-Esta herramienta dibuja un arco de elipse eligiendo cuatro puntos: el centro, el extremo del radio mayor, el punto inicial y el punto final. Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de arco de elipse rojo. Además se muestran las coordenadas en tiempo real.
-
-<img alt="" src=images/Sketcher_ArcOfEllipseExample1.png‎  style="width:500px;">
-
 
 <div class="mw-translate-fuzzy">
 
-*La secuencia de clics se indica con flechas amarillas con números. C es el centro, a - diámetro mayor, b - diámetro menor, F1, F2 son focos.*
+Esta herramienta dibuja un arco de elipse eligiendo cuatro puntos: el centro, el extremo del radio mayor, el punto inicial y el punto final. Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de arco de elipse rojo. Además se muestran las coordenadas en tiempo real.
 
 
 </div>
 
+![](images/Sketcher_CreateArcOfEllipse_Example.png ) 
+*Arc of ellipse (white) with internal geometry (dark yellow)*
+
 
 
 ## Utilización
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+
+<div class="mw-translate-fuzzy">
 
 -   Pulse el **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Arco de elipse](Sketcher_CreateArcOfEllipse/es.md)**.
 -   El primer clic en la vista 3D establece el centro de la elipse. El segundo clic establece el primer radio y la orientación de la elipse. El tercer clic establece el otro radio y el inicio del arco. El cuarto clic establece el final del arco.
@@ -41,7 +45,10 @@ Croquizador Mostrar Ocultar la geometría interna\]\].
 
 -   Pulsar **ESC** o hacer clic con el botón derecho del ratón cancela la función.
 
-## Peculiarities
+
+</div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">
@@ -56,7 +63,13 @@ Croquizador Mostrar Ocultar la geometría interna\]\].
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

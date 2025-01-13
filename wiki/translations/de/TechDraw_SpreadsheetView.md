@@ -14,6 +14,11 @@
 
 Das Werkzeug **TechDraw Tabellenansicht** ermöglicht es, eine ausgewählte [Kalkulationstabelle](Spreadsheet_Workbench/de.md) in einer Tabellenansicht auf einem [Zeichnungsblatt](TechDraw_Workbench/de.md) darzustellen.
 
+
+{{Version/de|1.0}}
+
+: Auch das Werkzeug [TechDraw Ansicht](TechDraw_View/de.md) kann eine Tabellenansicht erstellen.
+
 ![](images/TechDraw_Spreadsheetview.png ) 
 *Darstellung einer eingefügten Kalkulationstabelle (Spreadsheet-Objekt) als Tabellenansicht (Sheet-Objekt) auf einem TechDraw-Zeichnungsblatt*
 
@@ -21,54 +26,58 @@ Das Werkzeug **TechDraw Tabellenansicht** ermöglicht es, eine ausgewählte [Kal
 
 ## Anwendung
 
-1.  Ein einzelnes Tabellenblatt in der [Baumansicht](Tree_view/de.md) auswählen.
-2.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](Tree_view/de.md) aktivieren.
-3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-    -   Die Schaltfläche **<img src="images/TechDraw_SpreadsheetView.svg" width=16px> [Tabellenansicht einfügen](TechDraw_SpreadsheetView/de.md)** drücken.
-    -   Den Menüeintrag **TechDraw → Views From Other Workbenches → <img src="images/TechDraw_SpreadsheetView.svg" width=16px> Tabellenansicht einfügen** auswählen.
-4.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+1.  Ein Tabellenblatt in der [Baumansicht](Tree_view/de.md) auswählen.
+2.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswählen in der [Baumansicht](Tree_view/de.md) zur Auswahl hinzufügen.
+3.  Den Menüeintrag **TechDraw → Ansichten von anderen Arbeitsbereichen → <img src="images/TechDraw_SpreadsheetView.svg" width=16px> Tabellenansicht einfügen** auswählen.
+4.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und kein Blatt im [Hauptansichtsbereich](Main_view_area/de.md) angezeigt wird und außerdem noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
     1.  Das gewünschte Blatt auswählen.
     2.  Die Schaltfläche **OK** drücken.
-5.  Den Zellenbereich anpassen, indem die {{PropertyData/de|Cell Start}} und die {{PropertyData/de|Cell End}} geändert werden.
-
-
-
-## Hinweise
-
--   In der {{VersionMinus/de|0.19}} erzeugen einige Zeichen in Tabellenzellen Fehler, wenn sie in einer Tabellenansicht dargestellt werden. Diese Zeichen müssen XML-kodiert werden. Bisher bekannte Zeichen sind: {{Incode|&}} (ersetz durch {{Incode|&amp;amp;}}) und {{Incode|&lt;}} (ersetz durch {{Incode|&amp;lt;}}). Siehe auch diese [Diskussion](https://forum.freecadweb.org/viewtopic.php?p=629853#p629885) (engl.) im Forum.
+5.  Eine Tabellenansicht wird eingefügt
+6.  Den Zellenbereich anpassen, indem die {{PropertyData/de|Cell Start}} und die {{PropertyData/de|Cell End}} geändert werden.
 
 
 
 ## Eigenschaften
 
-Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
+
+Eine Tabellenansicht, oder formal ein {{Incode|TechDraw::DrawViewSpreadsheet}}-Objekt, besitzt die gemeinsamen [Eigenschaften](TechDraw_View/de#Eigenschaften_der_Bauteilansicht.md) aller Ansichtsarten. Sie enthält außerdem die folgenden Eigenschaften:
 
 
 
 ### Daten
 
 
+{{TitleProperty|Drawing view}}
+
+-    {{PropertyData/de|Symbol|String|Hidden}}: Der SVG-Code, der dieses Symbol definiert.
+
+-    {{PropertyData/de|Editable Texts|StringList|Hidden}}: Ersatzwert für bearbeitbare Zeichenfolgen in diesem Symbol. Nicht in Verwendung.
+
+-    {{PropertyData/de|Owner|Link}}: Formelement dem das Symbol zugeordnet ist. {{Version/de|1.0}}
+
+
 {{TitleProperty|Spreadsheet}}
 
--    **Source|Link**(Quelle): Das zum Zeichungsblatt hinzuzufügende Tabellenblatt.
+-    {{PropertyData/de|Source|Link}}(Quelle): Das zum Zeichungsblatt hinzuzufügende Tabellenblatt.
 
--    **Cell Start|String**(Zellanfang): Die linke obere Zelle des Zellbereichs, der dieser Ansicht hinzugefügt werden soll.
+-    {{PropertyData/de|Cell Start|String}}(Zellanfang): Die linke obere Zelle des Zellbereichs, der dieser Ansicht hinzugefügt werden soll.
 
--    **Cell End|String**(Zellenende): Die rechte untere Zelle des Zellbereichs, der in diese Ansicht aufgenommen werden soll.
+-    {{PropertyData/de|Cell End|String}}(Zellenende): Die rechte untere Zelle des Zellbereichs, der in diese Ansicht aufgenommen werden soll.
 
--    **Font|Font**(Schriftart): Der Name der für Texte verwendeten Schriftart.
+-    {{PropertyData/de|Font|Font}}(Schriftart): Der Name der für Texte verwendeten Schriftart.
 
--    **Text Color|Color**(Farbe): Die Farbe von Linien und Texten, denen in der Kalkulationstabelle kein Farbe zugewiesen wurde.
+-    {{PropertyData/de|Text Color|Color}}(Farbe): Die Farbe von Linien und Texten, denen in der Kalkulationstabelle kein Farbe zugewiesen wurde.
 
--    **Text Size|Float**(Schriftgröße): Die Schriftgröße von Texten.
+-    {{PropertyData/de|Text Size|Float}}(Schriftgröße): Die Schriftgröße von Texten.
 
--    **Line Width|Float**(Strichstärke): Die Breite der Zellränder.
-
-
+-    {{PropertyData/de|Line Width|Float}}(Strichstärke): Die Breite der Zellränder.
 
 
 
-{{TechDraw Tools navi
+
+
+{{TechDraw_Tools_navi
 
 }}
 

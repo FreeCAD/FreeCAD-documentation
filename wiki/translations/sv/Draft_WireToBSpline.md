@@ -12,7 +12,7 @@
 The <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Draft WireToBSpline** command converts [Draft Wires](Draft_Wire.md) to [Draft BSplines](Draft_BSpline.md) and vice versa.
 
 <img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width:400px;"> 
-*Converting a Draft Wire to a Draft BSpline, and a closed Draft BSpline to a closed Draft Wire*
+*Converting a wire to a B-spline, and a closed B-spline to a closed wire*
 
 
 
@@ -44,7 +44,7 @@ The <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Draft
 
 </div>
 
-To convert a wire to a bspline, or vice versa, pass the `Points` property of the source object to the `[make_bspline](Draft_BSpline#Scripting.md)` method, or respectively the `[make_wire](Draft_Wire#Scripting.md)` method, of the Draft module.
+To convert a wire to a B-spline, or vice versa, pass the `Points` property of the source object to the `[make_bspline](Draft_BSpline#Scripting.md)` method, or respectively the `[make_wire](Draft_Wire#Scripting.md)` method, of the Draft module.
 
 Example:
 

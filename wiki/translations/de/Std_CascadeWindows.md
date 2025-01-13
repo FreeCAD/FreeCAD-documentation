@@ -15,7 +15,7 @@
 
 Der **Std FensterÜberlappendAnordnen**-Befehl ordnet die Fenster im [Hauptansichtsbereich](Main_view_area/de.md) so an, dass sie alle sichtbar sind, aber überlappen. Das Ergebnis wird durch die Reihenfolge festgelegt, in der die Fenster das letzte Mal aktiviert wurden.
 
-<img alt="" src=images/Std_CascadeWindows_example.png  style="width:600px;"> 
+<img alt="" src=images/Std_CascadeWindows_example.png  style="width:400px;"> 
 *Hauptansichtsbereich mit drei überlappenden Fenstern*
 
 
@@ -29,7 +29,7 @@ Der **Std FensterÜberlappendAnordnen**-Befehl ordnet die Fenster im [Hauptansic
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

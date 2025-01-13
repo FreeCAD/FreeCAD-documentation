@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Std ViewBottom
-   Name/de: Std Bodenansicht
-   MenuLocation: {{StdMenu}} , Standardansichten , Bodenansicht
+   Name/de: Std Untersicht
+   MenuLocation: Ansicht , Standardansichten , Untersicht
    Workbenches: Alle
    Shortcut: 5
    SeeAlso: Std_ViewRear/de, Std_ViewLeft/de
@@ -10,43 +10,36 @@
 
 # Std ViewBottom/de
 
+
+
 ## Beschreibung
 
-Der Befehl **Std Bodenansicht** wendet die Kamerasicht der aktiven [3D Ansicht](3D_view/de.md) in die Richtung der positiven Z Achse.
+Der Befehl **Std Untersicht** schwenkt die Kamerasicht der aktiven [3D-Ansicht](3D_view/de.md) in die Richtung der positiven Z-Achse.
 
 ![](images/FreeCAD_views_rear.svg ) 
-*Pfeil 5 zeigt in Richtung der Bodenansicht*
+*Pfeil 5 zeigt in Richtung der Untersicht*
+
+
 
 ## Anwendung
 
-1.  Es gibt verschiedene Wege, den Befehl umzusetzen:
-    -   Die **<img src="images/Std_ViewBottom.svg" width=16px> [Std Bodenansicht](Std_ViewFront/de.md)**-Schaltfläche betätigen.
-    -   Den Menüpunkt **Ansicht → Standardansichten → <img src="images/Std_ViewBottom.svg" width=16px> Bodenansicht** aus dem Menü wählen.
-    -   Den Menüpunkt **Standardansichten → <img src="images/Std_ViewBottom.svg" width=16px> Bodenansicht** aus dem [3D-Ansicht](3D_view/de.md)-Kontextmenü wählen.
-    -   Mit dem Tastenkürzel: **5**.
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Std_ViewBottom.svg" width=16px> [Untersicht](Std_ViewFront/de.md)** drücken.
+    -   Den Menüeintrag **Ansicht → Standardansichten → <img src="images/Std_ViewBottom.svg" width=16px> Untersicht** auswählen.
+    -   Die Menüoption **Standardansichten → <img src="images/Std_ViewBottom.svg" width=16px> Untersicht** im Kontextmenü der [3D-Ansicht](3D_view/de.md) auswählen.
+    -   Das Tastaturkürzel **5**.
+
+
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Mit der `viewBottom`-Methode des Objektes der aktiven Ansicht wechselt man in die Bodenansicht. Diese Methode gibt es im FreeCAD-Konsolenmodus nicht.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.viewBottom()
-FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
-```
+Siehe [Std Vorderansicht](Std_ViewFront/de#Skripten.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

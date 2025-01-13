@@ -1,7 +1,7 @@
 # Category:Template:Text/de
-Diese Kategorie listet Vorlagen auf, die Textelemente hinzufügen.
+Diese Kategorie ist eine Zusammenstellung von Vorlagen (Templates), die Textelemente hinzufügen.
 
-Diese Vorlagen erzeugen kleine Textstücke, die für die Transklusion geeignet sind.
+Diese Vorlagen erzeugen kleine Textstücke, die sich für [Transklusion](https://de.wikipedia.org/wiki/Transklusion) eignen.
 
 Längere Textteile sollten auf der Seite selbst platziert werden, damit sie mit der Übersetzungserweiterung übersetzt werden können.
 

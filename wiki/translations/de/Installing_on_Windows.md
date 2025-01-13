@@ -58,21 +58,7 @@ Beachte: diese {{Incode|/NCRC}} Angabe (flag) wird **nicht empfohlen**, da die P
 
 ## Chocolatey
 
-Es wird dringend empfohlen, dass einen Paketmanager wie Chocolatey verwendet wird, um Software auf dem neuesten Stand zu halten. Chocolatey kann über [diese Anweisungen](https://chocolatey.org/install) installiert und dann über ein PowerShell Terminal mit Administratorrechten folgendes ausgeführt werden:
-
-
-{{Code|lang=text|code=
-choco install freecad
-}}
-
-Von Zeit zu Zeit kann die Software aktualisiert werden, mit:
-
-
-{{Code|lang=text|code=
-choco upgrade freecad
-}}
-
-Dies bekommt die neueste verfügbare Version aus dem Chocolatey-Repositorium. Wenn es irgendwelche Probleme mit dem Chocolateypaket gibt, kann man sich an die Betreuer unter [auf dieser Seite](https://chocolatey.org/packages/freecad) wenden.
+Die Verwendung des [Chocolatey](https://chocolatey.org/install) Paketmanagers wird derzeit nicht empfohlen, da diese Quelle nicht mehr aktuell gehalten wird.
 
 
 

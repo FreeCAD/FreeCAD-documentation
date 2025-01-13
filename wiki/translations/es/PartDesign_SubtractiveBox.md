@@ -13,11 +13,15 @@
 
 </div>
 
+
+
 ## Descripción
 
 Inserta una Caja sustractiva en el Body (cuerpo) activo. Su forma es sustraída del sólido existente.
 
 ![](images/PartDesign_SubtractiveBox_example.png ) *A la izquierda: Body activo (A) mostrado en color gris y la Caja sustractiva (B) mostrada en color rojo transparente. El resultado se puede apreciar a la derecha.*
+
+
 
 ## Uso
 
@@ -32,12 +36,16 @@ Inserta una Caja sustractiva en el Body (cuerpo) activo. Su forma es sustraída 
 
 </div>
 
+
+
 ## Opciones
 
 Tras su creación, la Caja puede ser editada de dos maneras:
 
 -   Haciendo doble clic con el ratón sobre el árbol del Modelo, o pinchando con el botón derecho y seleccionando **Editar primitiva** en el menú contextual. Con ello se abre la ventana de selección de parámetros de la Primitiva.
 -   Por medio del [Editor de propiedades](Property_editor/es.md).
+
+
 
 ## Propiedades
 

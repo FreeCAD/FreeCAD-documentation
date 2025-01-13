@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -22,6 +24,8 @@ Acest instrument permite / dezactivează funcția IfcBrep a unui obiect Arch sel
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -43,5 +47,13 @@ Acest instrument permite / dezactivează funcția IfcBrep a unui obiect Arch sel
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/ro
+⏵ [documentation index](../README.md) > Arch ToggleIfcBrepFlag/ro

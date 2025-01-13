@@ -1,34 +1,49 @@
 ---
  GuiCommand:
    Name: Arch ToggleSubs
-   MenuLocation: Arch , Utilities , Toggle Subcomponents
-   Workbenches: Arch_Workbench
+   Name/pl: BIM: Pokaż komponenty podrzędne
+   MenuLocation: Narzędzia , Pokaż komponenty podrzędne
+   Workbenches: BIM_Workbench/pl
    Shortcut: Ctrl + Space
-   SeeAlso: Arch_Component
+   SeeAlso: Arch_Component/pl
 ---
 
 # Arch ToggleSubs/pl
 
+
+
 ## Opis
 
-To narzędzie przełącza widoczność wszystkich obiektów będącymi wynikami odejmowania obiektu [Architektury](Arch_Workbench/pl.md) między widocznym a ukrytym.
+Narzędzie **Pokaż elementy odejmowane** przełącza widoczność wszystkich obiektów będącymi wynikami odejmowania obiektu [BIM](BIM_Workbench/pl.md) między widocznym a ukrytym.
 
-Normally, if an Arch object, like an [Arch Wall](Arch_Wall.md), is selected and you press **Space** only the external wall will be hidden or made visible, but not the internal objects.
+Normalnie, jeśli obiekt architektury, taki jak [Ściana](Arch_Wall/pl.md), jest zaznaczony i naciśniesz **Space**, tylko zewnętrzna ściana zostanie ukryta lub uwidoczniona, ale nie obiekty wewnętrzne.
 
-With this tool, the internal subtracted objects will all become visible or hidden.
+Za pomocą tego narzędzia wszystkie wewnętrzne odjęte obiekty staną się widoczne lub ukryte.
 
-## Usage
 
-1.  Select an Arch object that has subtractions.
-2.  Select menu **Arch → Utilities → <img src="images/Arch_ToggleSubs‏‎.svg" width=16px> [Toggle Subcomponents‏‎](Arch_ToggleSubs‏‎.md)**.
 
-## Options
+## Użycie
 
-The color of a subtraction element can follow the style of [Draft construction](Draft_ToggleConstructionMode.md) elements, by activating the appropriate option in the [Arch Preferences](Arch_Preferences.md), in the menu **Edit → Preferences → Arch → General settings → Apply Draft construction style to subcomponents**.
+1.  Wybierz obiekt Architektury, który ma elementy odejmowane.
+2.  Wybierz opcję z menu **Narzędzia → <img src="images/Arch_ToggleSubs.svg" width=16px> Pokaż komponenty podrzędne**.
 
-The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in the [Draft Preferences](Draft_Preferences.md), in the menu **Preferences → Draft → General Draft**.
+
+
+## Opcje
+
+Kolor elementu odejmowanego może być zgodny ze stylem elementów [konstrukcyjnych](Draft_ToggleConstructionMode/pl.md), poprzez aktywację odpowiedniej opcji w [Ustawieniach](Arch_Preferences/pl.md), w menu **Edyckja → Preferencje ... → Architektura → Ustawienia ogólne → Zastosuj styl kreślenia konstrukcji do elementów podrzędnych**.
+
+Styl [konstrukcji](Draft_ToggleConstructionMode/pl.md) można ustawić w [Preferencjach](Draft_Preferences/pl.md) środowiska Rysunek Roboczy, w menu **Edycja → Preferencje ... → Rysunek Roboczy → Ogólne**.
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/pl
+⏵ [documentation index](../README.md) > Arch ToggleSubs/pl

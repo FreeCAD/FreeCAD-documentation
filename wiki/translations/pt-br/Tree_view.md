@@ -1,7 +1,7 @@
 # Tree view/pt-br
 ## Introdução
 
-The [tree view](Tree_view.md) appears in the **Model** tab of the [combo view](Combo_view.md), one of the most important panels in the [interface](Interface.md); it shows all user defined objects that are part of a FreeCAD document. The tree view is a representation of the [document\'s structure](document_structure.md), and indicates what information is saved to disk.
+The [Tree view](Tree_view.md) appears in the upper section of the **Model** panel (if the [Combo view](Combo_view.md) is active) or as a stand-alone panel. It shows all user defined objects that are part of a FreeCAD document. The Tree view is a representation of the [document\'s structure](Document_structure.md), and indicates what information is saved to disk.
 
 These objects don\'t necessarily have to be geometrical shapes visible in the [3D view](3D_view.md), but can also be supporting data objects created with any of the [workbenches](Workbenches.md).
 
@@ -9,13 +9,13 @@ These objects don\'t necessarily have to be geometrical shapes visible in the [3
 
 
 
-*The tree view showing various elements in the document.*
+*The Tree view showing various elements in the document.*
 
-## Working with the tree view 
+## Working with the Tree view 
 
-By default, whenever a new object is created, it is added to the end of the list in the tree view. The tree view allows managing the objects to keep them organized; it permits creating [groups](Std_Group.md), moving objects inside groups, moving groups inside other groups, relabeling objects, copying objects, deleting objects, and other operations in the context menu (right click) which depend on the currently selected object and the currently active workbench.
+By default, whenever a new object is created, it is added to the end of the list in the Tree view. The Tree view allows managing the objects to keep them organized; it permits creating [groups](Std_Group.md), moving objects inside groups, moving groups inside other groups, relabeling objects, copying objects, deleting objects, and using options from its [context menu](#Context_menu.md).
 
-Many operations create objects that are dependent on a previously existing object. In this case, the tree view shows this relationship by absorbing the older object inside the new object. Expanding and collapsing the objects in the tree view shows the parametric history of that object. Objects that are deeper inside others are older, while objects that are outside are newer, and are derived from the older objects. By modifying the interior objects, the parametric operations propagate all the way to the top, generating a new result.
+Many operations create objects that are dependent on a previously existing object. In this case, the Tree view shows this relationship by absorbing the older object inside the new object. Expanding and collapsing the objects in the Tree view shows the parametric history of that object. Objects that are deeper inside others are older, while objects that are outside are newer, and are derived from the older objects. By modifying the interior objects, the parametric operations propagate all the way to the top, generating a new result.
 
 <img alt="" src=images/FreeCAD_Tree_view_parametric_history.png  style="width:" height="300px;">
 
@@ -26,129 +26,33 @@ Fully expanding the tree reveals the original elements that were used to create 
 
 ### Tree view columns 
 
-By default the tree view only displays a single column with the labels and icons of objects. A second column with descriptions can optionally be displayed as well, column headings are then also added.
-
-To enable the description column right click the tree view and in the context menu select:
-**Tree settings → Show description column** <small>(v0.21)</small> 
+The Tree view always displays a column with the icons and labels of objects. Two additional columns can optionally be displayed as well. To enable these columns right-click the Tree view and in the context menu select **Tree settings** and then **Show description** (<small>(v0.21)</small> ) and/or **Show internal name** (<small>(v1.0)</small> ). Column headings are added if more than one column is displayed. Note that the internal names of objects cannot be changed.
 
 ### Edit object label 
 
-Select an object in the first column and press **F2** (on Windows and Linux), or **Enter** (on macOS), to edit its **Label** property. This property can also be edited via the context menu action described below or in the [Property editor](Property_editor.md).
+Select an object in the first column and press **F2** (on Windows and Linux), or **Enter** (on macOS), to edit its **Label** property. This property can also be edited via the context menu option **Rename** or in the [Property editor](Property_editor.md).
 
 ### Edit object description 
 
 An object can optionally have a description. This information is stored in its **Label2** property. If the description column is displayed you can edit this property by selecting an object in that column and pressing **F2** (on Windows and Linux), or **Enter** (on macOS). The property can also be changed in the [Property editor](Property_editor.md).
 
-## Actions
+### Context menu 
 
-Since the tree view lists objects that may be visible in the [3D view](3D_view.md), many of the actions are the same as those that can be executed from the [3D view](3D_view.md). The actions can be started from a **Context menu** that can be accessed by right clicking either the background or an object.
+The options in the context menu of the Tree view depend on the selected object(s) and the currently active workbench. To display this menu right-click the background of the list, right-click an object in the list, or select multiple objects in the list and then right-click one of them.
 
-### Application start 
+### Keyboard modifiers 
 
-When the application starts, the default [Start Workbench](Start_Workbench.md) is active, and no document has been created, the context menu of the [tree view](Tree_view.md) has only one entry:
+The usual keyboard modifiers can be used in the Tree view. The modifiers can be combined as well.
 
--    **Expression actions**. When the cursor is moved onto it, a sub-menu opens containing four commands:
+-    **Ctrl**: hold down this key to select multiple objects.
 
-    -   [Copy selected](Std_Expressions.md)
-    -   [Copy active document](Std_Expressions.md)
-    -   [Copy all documents](Std_Expressions.md)
-    -   [Paste](Std_Paste.md)
+-    **Shift**: hold down this key to select all objects between a previously selected object and the next selected object.
 
-These allow working with various documents, but are disabled if no document is present.
+### Keyboard shortcuts 
 
-### New document 
+The following keyboard shortcuts are available when the focus is on the Tree view:
 
-Once a new document has been created right clicking the background opens the context menu now containing two entries:
-
--    **Expression actions**as above but with these two entries activated:
-
-    -   [Copy active document](Std_Expressions.md)
-    -   [Copy all documents](Std_Expressions.md)
-
--    **Link actions**\- a sub-menu with two entries:
-
-    -   
-        **Make Link group**
-        
-        \- another sub-menu containing three commands:
-
-        -   [Simple group](Std_LinkMakeGroup.md)
-        -   [Group with links](Std_LinkMakeGroup.md)
-        -   [Group with transform links](Std_LinkMakeGroup.md)
-
-    -   [Make Link](Std_LinkMake.md)
-
-### Selecting the document 
-
-If you select the document and right click, in addition to **Expression actions** and **Link actions**, the context menu contains the following commands:
-
--    **Show items hidden in tree view**: if active, the tree view will show hidden items.
-
--    **Search**: shows an input field to search objects inside the selected document.
-
--    **Close document**: closes the selected document.
-
--    **Add dependent objects to selection**: all dependent objects will be added to the selection. This way one can see the dependencies and e.g. delete all dependent objects at once. Only available for objects with links and for documents.
-
--    **Skip recomputes**: if active, the document\'s objects will not [recompute](Std_Refresh.md) automatically.
-
--    **Allow partial recomputes**: if active, the document will allow [recompute](Std_Refresh.md) of only some objects. Only available if **Skip recomputes** is activated.
-
--    **Mark to recompute**: marks all objects of the document as touched, and ready for [recompute](Std_Refresh.md).
-
--    **[Create group](Std_Group.md)**: creates a [group](Std_Group.md) in the selected document.
-
-### Selecting objects 
-
-Once objects are added to the document right clicking them will show additional commands. These depend on the number of selected objects, their type and also on the active workbench. In most cases and with most workbenches (except the [Start Workbench](Start_Workbench.md)) the following commands are then available:
-
--    **[Appearance](Std_SetAppearance.md)**: launches a dialog to change the visual properties of the whole object.
-
--    **[Random color](Std_RandomColor.md)**: assigns a random color to the object.
-
--    **[Cut](Std_Cut.md)**: disabled.
-
--    **[Copy](Std_Copy.md)**: copies an object into memory.
-
--    **[Paste](Std_Paste.md)**: pastes the copied object into the document; the copy is added to the end of the tree view.
-
--    **[Delete](Std_Delete.md)**: removes the object from the document.
-
--    **[Toggle visibility in tree view](#Eye_symbol.md)**: toggles the Tree view visibility of objects.
-
--    **Mark to recompute**: marks the selected object as touched, and ready for [recompute](Std_Refresh.md).
-
--    **Recompute object**: recomputes the selected object.
-
--    **Rename**: starts editing the label of the selected object, not the name which is read-only. This option is only available if a single object is selected.
-
-As an example of context menu extension, if a [Part Box](Part_Box.md) is right clicked while the [Part Workbench](Part_Workbench.md) is active the following additional commands are available:
-
--    **[Edit](Std_Edit.md)**: activates the edit mode of the object.
-
--    **[Transform](Std_TransformManip.md)**: launches the transform widget to move or rotate the object.
-
--    **[Attachment editor](Part_EditAttachment.md)**: launches a dialog to attach the object to one or more other objects.
-
--    **[Set colors](Part_FaceColors.md)**: sets the color of selected faces of the object.
-
--    **[Toggle visibility](Std_ToggleVisibility.md)**: makes the object visible or invisible in the [3D view](3D_view.md).
-
--    **[Show selection](Std_ShowSelection.md)**: makes the selected object visible.
-
--    **[Hide selection](Std_HideSelection.md)**: makes the selected object invisible.
-
--    **[Toggle selectability](Std_ToggleSelectability.md)**: toggles the selectability of the object in the [3D view](3D_view.md).
-
--    **[Select all instances](Std_TreeSelectAllInstances.md)**: selects all instances of this object in the tree view.
-
--    **[Send to Python Console](Std_SendToPythonConsole.md)**: creates a variable in the [Python console](Python_console.md) referencing the object
-
-### Keyboard actions 
-
-The following keyboard actions are available when the focus is on the Tree view:
-
--    **Ctrl**\+**F**: opens a search box at the bottom of the tree, allowing to search and reach objects using their names or labels.
+-    **Ctrl**\+**F**: opens a search box at the bottom of the tree, allowing to search and reach objects using their internal names or labels.
 
 -   Expand and collapse actions using **Alt**+**Arrow** combinations: <small>(v0.20)</small> 
     -   
@@ -173,38 +77,64 @@ The following keyboard actions are available when the focus is on the Tree view:
 
 ## Overlay icons 
 
-One or more smaller overlay icons can be displayed on top of an object\'s default icon in the tree view. The available overlay icons and their meaning are listed below.
+One or more overlay icons can be displayed on top of an object\'s default icon in the Tree view. The available overlay icons and their meaning are listed below.
 
 ### ![](images/FreeCAD_Tree_view_recompute.png ) White check mark on blue background 
 
-This indicates that the object has to be [recomputed](Std_Refresh.md), due to changes made to the model or because the user marked the object in the tree view context menu to be recomputed. In most cases recomputes are triggered automatically, but sometimes they are delayed for performance reasons.
+This indicates that the object has to be [recomputed](Std_Refresh.md), due to changes made to the model or because the user marked the object in the Tree view context menu to be recomputed. In most cases recomputes are triggered automatically, but sometimes they are delayed for performance reasons.
 
-### ![](images/FreeCAD_Tree_view_tip.png ) White arrow on green background 
+### ![](images/FreeCAD_Tree_view_error.png ) White exclamation mark on red background 
 
-This indicates the so called [Tip](PartDesign_Body#Tip.md) of a body. It is usually the last feature in a [PartDesign Body](PartDesign_Body.md) and represents the whole body to the world outside of the body, e.g. when the body is exported or used in [Part boolean](Part_Boolean.md) operations. The tip can be changed by the user.
+This indicates that the object has an error that needs to be fixed. After recomputing the whole document a tooltip describing the error is shown when you hover the mouse over the object in the Tree view. Note: All other objects depending on an object in such an error state will not be properly recomputed, thus they may still show some old state.
 
-### ![](images/FreeCAD_Tree_view_unattached.png ) Purple chain link on white background 
+### ![](images/FreeCAD_Tree_view_unattached.png ) Purple chain link 
 
-This is typically shown for [sketches](Sketch.md), geometric primitives, such as box, cylinder, etc. and [Datum](Datum.md) geometry. It indicates that the object is not attached to anything. It has no Attachment Offset and gets its position and alignment solely from its [Placement](Placement.md) property.
+This is typically shown for [sketches](Sketch.md), [PartDesign](PartDesign_Workbench.md) primitives, such as box, cylinder, etc. and [Datum](Datum.md) geometry. It indicates that the object is not attached to anything. It has no Attachment Offset and gets its position and alignment solely from its [Placement](Placement.md) property.
 
 There is a [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md) explaining how to handle such objects.
 
 ### ![](images/FreeCAD_Tree_view_notfullyconstrained.png ) Yellow X 
 
-This is only used for [sketches](Sketch.md) and indicates that the sketch is not fully constrained. Inside of [Sketcher](Sketcher_Workbench.md) the number of remaining degrees of freedom is shown in the solver messages.
+This is only used for [sketches](Sketch.md) and indicates that the sketch is not fully constrained. If the sketch is in [edit mode](Sketcher_EditSketch.md) the number of remaining degrees of freedom is shown in the [solver messages](Sketcher_Dialog#Solver_messages.md).
 
-### ![](images/FreeCAD_Tree_view_error.png ) White exclamation mark on red background 
+### ![](images/FreeCAD_Tree_view_tip.png ) White arrow on green background 
 
-This indicates that the object has an error that needs to be fixed. After recomputing the whole document a tooltip describing the error is shown when you hover the mouse over the object in the tree view. Note: All other objects depending on an object in such an error state will not be properly recomputed, thus they may still show some old state.
+This indicates the so called [Tip](PartDesign_Body#Tip.md) of a [PartDesign Body](PartDesign_Body.md). It is usually the last feature in a body and represents the whole body to the world outside of the body, e.g. when the body is exported or used in [Part boolean](Part_Boolean.md) operations. The tip can be changed by the user.
+
+### ![](images/FreeCAD_Tree_view_suppressed.png ) Red backslash 
+
+
+<small>(v1.0)</small> 
+
+This indicates a suppressed [PartDesign](PartDesign_Workbench.md) feature.
+
+### ![](images/FreeCAD_Tree_view_link.png ) White upwards curved arrow 
+
+This indicates a [linked](Std_LinkMake.md) object.
+
+### ![](images/FreeCAD_Tree_view_link_external.png ) Two white upwards curved arrows 
+
+This indicates a [linked](Std_LinkMake.md) object loaded from an external document.
 
 ### ![](images/FreeCAD_Tree_view_hidden.png ) Eye symbol 
 
-This indicates that the object will be hidden in the Tree view if the **Show items hidden in tree view** context menu option is unchecked.
+This indicates that the object will be hidden in the Tree view if the **Show items hidden in Tree view** context menu option is unchecked.
+
+### ![](images/FreeCAD_Tree_view_frozen.png ) Cyan ice crystal 
 
 
-{{Interface navi
+<small>(v1.0)</small> 
 
-}} {{Std Base navi}}
+This indicates a [frozen](Std_ToggleFreeze.md) object that is not recomputed when its parents change.
+
+## Preferences
+
+See [Combo view](Combo_view#Preferences.md).
+
+
+{{Interface_navi
+
+}} {{Std_Base_navi}}
 
 
 

@@ -21,7 +21,7 @@ Sélectionnez un Draft Rectangle, lancez la macro. Voir \_\_doc\_\_ pour les lim
 
 ## Installation
 
-Par le biais du [Gestionnaire des extensions](Std_AddonMgr/fr.md).
+Par le biais du [gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 
 

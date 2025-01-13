@@ -1,11 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ConstraintDisplacement
 |Name/pɬMES Warunek brzegowy przemieszczenia
    MenuLocation: Model , Warunki brzegowe i obciążenia mechaniczne , Warunek brzegowy przemieszczenia
    Workbenches: FEM_Workbench/pl
    Shortcut: 
    SeeAlso: FEM_tutorial/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: CalculiX, Elmer
+}}
 ---
 
 # FEM ConstraintDisplacement/pl
@@ -21,10 +26,9 @@ Tworzy warunek brzegowy MES przemieszczenia wybranego obiektu dla określonego s
 ## Użycie
 
 1.  Wciśnij przycisk **<img src="images/FEM_ConstraintDisplacement.svg" width=16px> [Warunek brzegowy przemieszczenia](FEM_ConstraintDisplacement/pl.md)** lub wybierz opcję **Model → Warunki brzegowe i obciążenia mechaniczne → <img src="images/FEM_ConstraintDisplacement.svg" width=16px> Warunek brzegowy przemieszczenia**.
-2.  W [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być przyłożony warunek brzegowy. Może to być wierzchołek, krawędź lub ściana.
-3.  Wciśnij przycisk **Dodaj**.
-4.  Zaznacz właściwe pola do edycji.
-5.  Ustaw wartości lub ({{Version/pl|0.21}}) podaj równanie dla przemieszczeń.
+2.  Wciśnij przycisk **Dodaj**.
+3.  W [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być przyłożony warunek brzegowy. Może to być wierzchołek, krawędź lub ściana (ale wszystkie wskazane obiekty muszą być tego samego typu). Aby usunąć obiekty z listy, wciśnij przycisk **Usuń** i kliknij na nich.
+4.  Zaznacz pola przy stopniach swobody, których chcesz użyć. Domyślnie są one ustawione na zero (blokada stopnia swobody), ale może zostać wprowadzona dowolna wartość ({{Version/pl|0.21}}: lub równanie dla Elmera).
 
 
 

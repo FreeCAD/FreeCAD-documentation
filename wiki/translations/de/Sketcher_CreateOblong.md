@@ -15,7 +15,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug zeichnet ein abgerundetes Rechteck, indem zwei gegenüberliegende Punkte gegriffen werden. Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten abgerundeten Rechtecksymbol. Die Koordinaten des Mauszeigers werden daneben in Echtzeit blau angezeigt.
+Das Werkzeug <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:24px;"> [Sketcher AbgerundetesRechteckErstellen](Sketcher_CreateOblong/de.md) erstellt ein abgerundetes Rechteck. {{Version/de|1.0}}: Dies ist dasselbe Werkzeug wie [Sketcher RechteckErstellen](Sketcher_CreateRectangle/de.md) aber mit einem anderen Startmodus.
 
 ![](images/SketcherCreateRoundedRectangleExample.png‎ )
 
@@ -23,14 +23,13 @@ Dieses Werkzeug zeichnet ein abgerundetes Rechteck, indem zwei gegenüberliegend
 
 ## Anwendung
 
--   Nach Drücken der <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:24px;"> *Abgerundetes Rechteck erstellen* Werkzeugleisten Taste, klicke einmal, um die erste Ecke zu setzen, bewege dann die Maus und klicke ein zweites Mal, um die gegenüberliegende Ecke zu setzen.
--   Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
-
-
-## Hinweise
-
-Siehe [Sketcher RechteckErstellen](Sketcher_CreateRectangle/de#Hinweise.md).
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_CreateOblong.svg" width=16px> [Abgerundetes Rechteck](Sketcher_CreateOblong/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Skizzengeometrien → <img src="images/Sketcher_CreateOblong.svg" width=16px> Abgerundetes Rechteck erstellen** auswählen.
+    -   Das Tastaturkürzel **G** dann **O**.
+2.  Für weitere Schritte siehe [Sketcher RechteckErstellen](Sketcher_CreateRectangle/de#Anwendung.md).
 
 
 

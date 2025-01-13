@@ -22,15 +22,15 @@ La commande <img alt="" src=images/Part_XOR.svg  style="width:24px;"> **Part XOR
 ## Utilisation
 
 1.  Sélectionnez deux objets ou plus. Il est également possible de sélectionner un [Part Composé](Part_Compound/fr.md) contenant deux objets ou plus.
-2.  Il existe plusieurs façons d\'invoquer la commande :
-    -   Sélectionnez l\'option **Part → Scinder → <img src="images/Part_XOR.svg" width=16px> OU exclusif** dans le menu.
+2.  Il existe plusieurs façons de lancer la commande :
+    -   Sélectionnez l\'option **Part → Scinder → <img src="images/Part_XOR.svg" width=16px> OU exclusif** du menu.
     -   Appuyez sur le bouton **<img src="images/Part_XOR.svg" width=16px> [OU exclusif](Part_XOR/fr.md)**.
 
 
 
 ## Remarques
 
--   Les espaces vides sont difficiles à détecter si les objets sélectionnés n\'ont pas de faces coplanaires. Pour vérifier le résultat du XOR, on peut alors utiliser [Std Couper selon des plans](Std_ToggleClipPlane/fr.md).
+-   Les espaces vides sont difficiles à détecter si les objets sélectionnés n\'ont pas de faces coplanaires. Pour vérifier le résultat du OU exclusif, on peut alors utiliser [Std Couper selon des plans](Std_ToggleClipPlane/fr.md).
 
 
 
@@ -39,6 +39,14 @@ La commande <img alt="" src=images/Part_XOR.svg  style="width:24px;"> **Part XOR
 
 
 ## Script
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

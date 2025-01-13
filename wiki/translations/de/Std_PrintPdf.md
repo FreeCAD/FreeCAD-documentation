@@ -39,15 +39,9 @@ Der Befehl **Std DruckZuPDF** ist in erster Linie zum Erstellen von [PDF](PDF/de
 
 
 
-## Einstellungen
-
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
 
 
-
-
-
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

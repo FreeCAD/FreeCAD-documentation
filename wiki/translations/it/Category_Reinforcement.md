@@ -1,18 +1,17 @@
 # Category:Reinforcement/it
-
+This category is for pages related to the [Reinforcement Workbench/it](Reinforcement_Workbench/it.md).
 
 ### Contents
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch Rebar BeamReinforcement/it](Arch_Rebar_BeamReinforcement/it.md) | [Arch Rebar BentShape/it](Arch_Rebar_BentShape/it.md) | [Arch Rebar BOM/it](Arch_Rebar_BOM/it.md) |
-| [Arch Rebar Circular ColumnReinforcement/it](Arch_Rebar_Circular_ColumnReinforcement/it.md) | [Arch Rebar ColumnReinforcement TwoTiesSixRebars/it](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md) | [Arch Rebar ColumnReinforcement/it](Arch_Rebar_ColumnReinforcement/it.md) |
-| [Arch Rebar Dimensioning/it](Arch_Rebar_Dimensioning/it.md) | [Arch Rebar Drawing Dimensioning/it](Arch_Rebar_Drawing_Dimensioning/it.md) | [Arch Rebar Drawing/it](Arch_Rebar_Drawing/it.md) |
-| [Arch Rebar Footing Reinforcement/it](Arch_Rebar_Footing_Reinforcement/it.md) | [Arch Rebar Helical/it](Arch_Rebar_Helical/it.md) | [Arch Rebar LShape/it](Arch_Rebar_LShape/it.md) |
-| [Arch Rebar Slab Reinforcement/it](Arch_Rebar_Slab_Reinforcement/it.md) | [Arch Rebar Stirrup/it](Arch_Rebar_Stirrup/it.md) | [Arch Rebar Straight/it](Arch_Rebar_Straight/it.md) |
-| [Arch Rebar UShape/it](Arch_Rebar_UShape/it.md) | [Arch Rebar/it](Arch_Rebar/it.md) | [Custom Spacing/it](Custom_Spacing/it.md) |
-| [Reinforcement Addon/it](Reinforcement_Addon/it.md) | [Reinforcement API/it](Reinforcement_API/it.md) | [Reinforcement Bar Bending Schedule/it](Reinforcement_Bar_Bending_Schedule/it.md) |
-| [Reinforcement Bar Shape Cut List/it](Reinforcement_Bar_Shape_Cut_List/it.md) | [Reinforcement Workbench/it](Reinforcement_Workbench/it.md) |
+| [Arch Rebar/it](Arch_Rebar/it.md) | [Reinforcement API/it](Reinforcement_API/it.md) | [Reinforcement BarBendingSchedule/it](Reinforcement_BarBendingSchedule/it.md) |
+| [Reinforcement BarShapeCutList/it](Reinforcement_BarShapeCutList/it.md) | [Reinforcement BeamRebars/it](Reinforcement_BeamRebars/it.md) | [Reinforcement BentShapeRebar/it](Reinforcement_BentShapeRebar/it.md) |
+| [Reinforcement BillOfMaterial/it](Reinforcement_BillOfMaterial/it.md) | [Reinforcement ColumnRebars Circular/it](Reinforcement_ColumnRebars_Circular/it.md) | [Reinforcement ColumnRebars TwoTiesSixRebars/it](Reinforcement_ColumnRebars_TwoTiesSixRebars/it.md) |
+| [Reinforcement ColumnRebars/it](Reinforcement_ColumnRebars/it.md) | [Reinforcement Custom Spacing/it](Reinforcement_Custom_Spacing/it.md) | [Reinforcement DrawingDimensioning/it](Reinforcement_DrawingDimensioning/it.md) |
+| [Reinforcement FootingRebars/it](Reinforcement_FootingRebars/it.md) | [Reinforcement HelicalRebar/it](Reinforcement_HelicalRebar/it.md) | [Reinforcement LShapeRebar/it](Reinforcement_LShapeRebar/it.md) |
+| [Reinforcement SlabRebars/it](Reinforcement_SlabRebars/it.md) | [Reinforcement StirrupRebar/it](Reinforcement_StirrupRebar/it.md) | [Reinforcement StraightRebar/it](Reinforcement_StraightRebar/it.md) |
+| [Reinforcement UShapeRebar/it](Reinforcement_UShapeRebar/it.md) | [Reinforcement Workbench/it](Reinforcement_Workbench/it.md) |
 
 
 

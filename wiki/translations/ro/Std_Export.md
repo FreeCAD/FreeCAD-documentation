@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -22,6 +24,8 @@ Aceasta este comanda standard pentru a exporta obiecte din interiorul unui docum
 
 
 </div>
+
+
 
 ## Cum se folosește 
 
@@ -44,19 +48,17 @@ Aceasta este comanda standard pentru a exporta obiecte din interiorul unui docum
 ## Notes
 
 -   To export a [mesh object](Mesh_Workbench.md) to a solid file format it must first be converted. See the [Import from STL or OBJ](Import_from_STL_or_OBJ.md) tutorial.
--   Some workbenches have additional export commands. See: [Import Export](Import_Export.md).
+-   Some workbenches have additional export commands. See [Import Export](Import_Export.md).
 
 ## Preferences
 
--   See: [Import Export Preferences](Import_Export_Preferences.md).
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
--   The last used export filter is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileExportFilter**.
+-   See [Import Export Preferences](Import_Export_Preferences.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

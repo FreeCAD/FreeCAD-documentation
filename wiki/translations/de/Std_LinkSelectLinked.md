@@ -32,7 +32,7 @@ Der Befehl **Std ZumVerknüpftenObjektGehen** wählt die {{PropertyData/de|Linke
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -16,11 +16,16 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument desenează un arc de cerc definit prin trei puncte: centrul, unghiul de start de-a lungul razei și unghiul final.
 
-Când este activat acest instrument, indicatorul mouse-ului se transformă într-o iconiță sub formă de cruce albă înconjurată de un arc de cerc roșu Coordonatele pointerului sunt afișate alături în culoarea albastră în timp real.
 
-<img alt="The center has been selected, dragging to set the radius‎" src=images/Sketcher_ArcExample1.png ) ![The center and start angle have been selected, dragging to set end angle‎](images/Sketcher_ArcExample2.png  style="width:407" height="360px;">
+</div>
+
+<img alt="" src=images/Sketcher_ArcExample3.png  style="width:400px;"> 
+*Arc created in Center mode with automatically applied constraints defined by entering all On-View-Parameters*
 
 
 
@@ -31,6 +36,11 @@ Când este activat acest instrument, indicatorul mouse-ului se transformă într
 
 
 </div>
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
+Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">

@@ -13,12 +13,16 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Crea una **linea di riferimento** che può essere utilizzata come riferimento per schizzi, altre geometrie di riferimento o caratteristiche. Ad esempio può essere utilizzata come asse di rivoluzione per le funzioni Rivoluzione e Scanalatura.
 
 <img alt="" src=images/datum_line.png  style="width:600px;"> 
 *Due linee di riferimento attraverso gli angoli opposti del cubo si incontrano nel centro di massa.*
+
+
 
 ## Utilizzo
 
@@ -36,6 +40,8 @@ Crea una **linea di riferimento** che può essere utilizzata come riferimento pe
 
 </div>
 
+
+
 ## Opzioni
 
 
@@ -45,6 +51,12 @@ Fare doppio clic sull\'etichetta DatumLine nell\'albero del modello o fare clic 
 
 
 </div>
+
+## Preferences
+
+See [PartDesign Plane](PartDesign_Plane#Preferences.md).
+
+
 
 ## Proprietà
 

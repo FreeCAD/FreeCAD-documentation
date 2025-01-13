@@ -10,9 +10,11 @@
 
 # Assembly3 CreateAssembly/fr
 
+
+
 ## Description
 
-La commande **Créer un assemblage** ajoute un nouvel objet à la branche **Assembly** à l\'arbre de conception.
+La commande <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width:24px;"> **Créer un assemblage** ajoute un nouvel objet à la branche **Assembly** à l\'arborescence du modèle.
 
 Chaque objet de la branche est un <img alt="" src=images/Assembly_Assembly_Tree.svg  style="width:24px;"> un conteneur **Assembly** et contient quatre conteneurs de groupe :
 
@@ -27,11 +29,15 @@ Chaque objet de la branche est un <img alt="" src=images/Assembly_Assembly_Tree.
 
 <img alt="" src=images/Assembly3_Example-Tree-07.png  style="width:190px;"> <img alt="" src=images/Assembly3_Example-Tree-08.png  style="width:190px;">
 
+
+
 ## Utilisation
 
-1.  Créez un conteneur d\'assemblage vide en appuyant sur **<img src="images/Assembly_New_Assembly.svg" width=16px> [Create assembly](Assembly3_CreateAssembly/fr.md)
-**
-    ou utilisez le raccourci clavier : **A** puis **N**
+1.  Il y a plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Assembly_New_Assembly.svg" width=16px> [Create assembly](Assembly3_CreateAssembly/fr.md)**.
+    -   Sélectionnez l\'option **Assembly3 → <img src="images/Assembly_New_Assembly.svg" width=16px> Create assembly** du menu.
+    -   Utiliser le raccourci clavier **A** puis **N**
+2.  Un conteneur Assembly est créé.
 
 
 

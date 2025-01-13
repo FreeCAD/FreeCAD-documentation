@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch Structure
    Name/fr: Arch Structure
-   MenuLocation: Arch , Outils pour les strutures , Structure
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: Utilitaires , Outils pour les strutures , Structure
+   Workbenches: BIM_Workbench/fr
    Shortcut: **S** **T**
    SeeAlso: Arch_Wall/fr, Arch_Rebar/fr
 ---
@@ -16,15 +16,17 @@ L\'outil [Arch Structure](Arch_Structure/fr.md) vous permet de construire les é
 
 Si aucun profil n\'est fourni, un ensemble de préréglages est disponible pour construire rapidement un élément structurel à partir d\'un profil standard prédéfini.
 
-![](images/Arch_Structure_example.jpg ) 
-*Colonne basée sur un profil de base 2D ; une colonne et une poutre définies par leur hauteur, leur longueur et leur largeur, sans profil de base ; une structure métallique basée sur une face 2D*
+<img alt="" src=images/Arch_Structure_example.jpg  style="width:400px;"> 
+*Une colonne basée sur un profil de base 2D<br>Une colonne et une poutre définies par leur hauteur, leur longueur et leur largeur, sans profil de base<br>Une structure métallique basée sur une face 2D*
 
 
 
 ## Utilisation
 
 -   Sélectionnez une forme 2D (objet Draft, une face ou une esquisse) (en option).
--   Appuyez sur le bouton **<img src="images/Arch_Structure.svg" width=16px> [Structure](Arch_Structure/fr.md)** ou appuyez sur les touches **S** puis **T**.
+
+1.  Sélectionnez l\'option **Utilitaires → Outils pour les strutures → <img src="images/Arch_Structure.svg" width=16px> Structure** du menu.
+
 -   Réglez les propriétés désirées.
 
 ## Options
@@ -50,7 +52,26 @@ Si aucun profil n\'est fourni, un ensemble de préréglages est disponible pour 
 
 -    **Normal**: spécifie la direction dans laquelle la face de base de cette structure sera extrudée. Si cette propriété est maintenue à (0,0,0), la direction sera automatiquement définie sur la direction normale de la face de base.
 
--    **Face Maker**: spécifie le type d\'algorithme de génération de face à utiliser pour créer le profil. Les choix sont None, Simple, Cheese and Bullseye.
+-    **Face Maker**: spécifie le type d\'algorithme de génération de face à utiliser pour créer le profil. Les options sont :
+
+    -   
+        {{Value|None}}
+        
+
+    -   
+        {{Value|Simple}}
+        
+        : crée des faces à partir de toutes les polylignes fermées, en ignorant les chevauchements.
+
+    -   
+        {{Value|Cheese}}
+        
+        : crée des faces avec des trous, mais pas de faces à l\'intérieur des trous.
+
+    -   
+        {{Value|Bullseye}}
+        
+        : crée des faces avec des trous, y compris des îlots à l\'intérieur des trous.
 
 -    **Length**: spécifie la longueur de la structure. Ceci n\'est utilisé que si la structure n\'est pas basée sur un profil.
 
@@ -95,7 +116,7 @@ L\'objet structurel a également la possibilité d\'afficher les nœuds structur
 
 -   Les nœuds sont calculés et mis à jour automatiquement, tant que vous ne les modifiez pas manuellement. Si vous le faites manuellement, et que la forme de l\'objet change sa structure ils ne seront pas mis à jour, à moins que vous n\'utilisiez l\'outil « Reset nœuds » ci-dessous.
 -   Les structures Arch peuvent avoir non seulement des nœuds linéaires, mais aussi des nœuds planaires. Pour cela, 1- Il doit y avoir au moins 3 vecteurs dans la propriété \"Nodes\" de l\'objet, 2- la propriété \"NodesType\" de leur ViewObject doit être réglée sur \"Surface\".
--   Lorsque le calcul des nœuds est automatique (d\'office, si vous ne les touchez pas manuellement), lors de la création de la propriété Rôle d\'une structure à \"Slab\", il deviendra automatiquement un nœud plat (il y aura plus de 3 vecteurs et NodesType sera réglé sur \"Surface\").
+-   Lorsque le calcul des nœuds est automatique (d\'office, si vous ne les touchez pas manuellement), lors de la création de la propriété \"Role\" d\'une structure à \"Slab\", il deviendra automatiquement un nœud plat (il y aura plus de 3 vecteurs et NodesType sera réglé sur \"Surface\").
 -   Lors de la modification d\'un objet de structure (double-clic), une série d\'outils pour les nœuds est disponible dans la vue \"Tâche\" :
     -   Réinitialiser les nœuds lancera le calcul automatique, dans le cas où vous les modifiez manuellement.
     -   Modifier les nœuds graphiquement, fonctionne de la même manière que dans [Draft Éditer](Draft_Edit/fr.md).
@@ -116,11 +137,11 @@ L\'outil Structure peut être utilisé dans une [macro](Macros/fr.md) et dans la
 
 
 ```python
-Structure = makeStructure(baseobj=None, height=None)
-Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
+structure = makeStructure(baseobj=None, height=None)
+structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
 ```
 
--   Créer un objet `Structure` à partir du `baseobj` donné, qui est un profil fermé, et de l\'extrusion donnée `height`.
+-   Créer un objet `structure` à partir du `baseobj` donné, qui est un profil fermé, et de l\'extrusion donnée `height`.
     -   Si aucun `baseobj` n\'est donné, vous pouvez fournir les valeurs numériques pour `length`, `width`, et `height` pour créer une structure de bloc.
 
     -   
@@ -128,20 +149,30 @@ Structure = makeStructure(baseobj=None, length=None, width=None, height=None, na
         
         peut également être n\'importe quel objet solide existant.
 
-Exemple : 
+Exemple :
+
+
 ```python
 import FreeCAD, Draft, Arch
 
-Rect = Draft.makeRectangle(200, 300)
-Structure1 = Arch.makeStructure(Rect, height=2000)
+rect = Draft.make_rectangle(200, 300)
+structure1 = Arch.makeStructure(rect, height=2000)
 FreeCAD.ActiveDocument.recompute()
 
-Structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
-Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
+structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
+Draft.move(structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/fr
+⏵ [documentation index](../README.md) > Arch Structure/fr

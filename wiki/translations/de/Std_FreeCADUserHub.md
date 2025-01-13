@@ -27,7 +27,7 @@ Aktuell verweist dieser Befehl auf die Seite [<https://wiki.freecad.org/User_hub
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

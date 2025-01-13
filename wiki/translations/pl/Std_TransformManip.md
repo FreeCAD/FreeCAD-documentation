@@ -34,7 +34,7 @@ Narzędzie **Przemieszczenie** pozwala na stosowanie przyrostów obrotu oraz prz
     -   Naciśnij i przytrzymaj lewy przycisk myszy na kuli i przeciągnij, aby obrócić obiekt wokół tej osi.
 6.  Wykonaj jedną z następujących czynności:
     -   Naciśnij przycisk **OK**, aby potwierdzić i zakończyć polecenie.
-    -   Naciśnij przycisk **Anuluj**, aby przywrócić zastosowane przekształcenia i zakończyć polecenie. {{Version/pl|0.22}}
+    -   Naciśnij przycisk **Anuluj**, aby przywrócić zastosowane przekształcenia i zakończyć polecenie. {{Version/pl|1.0}}
 
 
 
@@ -42,13 +42,13 @@ Narzędzie **Przemieszczenie** pozwala na stosowanie przyrostów obrotu oraz prz
 
 -   Gdy tylko obrócisz/przesuniesz obiekt w oknie [widoku 3D](3D_view/pl.md), zmiany zostaną zastosowane.
 -   Niektóre obiekty z właściwością **Umiejscowienie**, takie jak szkice, nie mogą być manipulowane, podobnie jak obiekty dołączone do innych obiektów.
--   W {{VersionMinus/pl|0.21}} nie ma przycisku **Anuluj**, w tych wersjach można nacisnąć przycisk **OK** i użyć <img alt="" src=images/Std_Undo.svg  style="width:20px;"> [Cofnij](Std_Undo/pl.md), aby cofnąć zmiany.
+-   W {{VersionMinus/pl|0.21}} nie ma przycisku **Anuluj**, w tych wersjach można nacisnąć przycisk **OK** i użyć <img alt="" src=images/Std_Undo.svg  style="width:16px;"> [Cofnij](Std_Undo/pl.md), aby cofnąć zmiany.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

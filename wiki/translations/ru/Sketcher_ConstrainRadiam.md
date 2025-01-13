@@ -13,26 +13,13 @@
 
 </div>
 
+
+
 ## Описание
 
-This constraint automatically constrains the value of the radius/diameter of a circle or arc to have a specific value. Following rules are applied :
+The <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:24px;"> [Sketcher ConstrainRadiam](Sketcher_ConstrainRadiam.md) tool fixes the radius of arcs and [B-spline weight circles](Sketcher_CreateBSpline#Notes.md), and the diameter of circles.
 
--   If object is a B-spline pole, a weight constrain is added
--   If object is a complete circle, a diameter constrain is added
--   In other cases (typically an arc), a radius constrain is added
 
-If more than one circle or arc is selected before launching the command :
-
--   If the constrain is applied in \'Reference\' mode, a new reference constrain is added to each object separately according above rules
--   If the constrain is applied in \'Normal\' (driving) mode, following rules are applied
-    -   A reference constrain is applied separately on each object which is an external geometry
-
-    -   
-        **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Equal constrains](Sketcher_ConstrainEqual.md)**
-        
-        are applied sequentially between all real/construction geometry objects and a dimensional constrain is applied to the first selected object according above rules
-
-NB : B-spline poles can\'t be mixed with other object type in the selection
 
 
 <div class="mw-translate-fuzzy">
@@ -42,16 +29,60 @@ NB : B-spline poles can\'t be mixed with other object type in the selection
 
 </div>
 
-1.  Pick one or more circles or arcs.
-2.  Press the **[<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Constrain auto radius/diameter](Sketcher_ConstrainRadiam.md)** button.
-3.  A pop up dialog opens to edit or confirm the value. Press **OK** to validate.
-4.  Optionally the dimension label and line can be moved and rotated in the 3D view by clicking on the value and dragging while keeping the left mouse button pressed.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-**Note:** the constraint tool can also be started with no prior selection. By default the command will be in continue mode to create new constraints; press the right mouse button or **Esc** once to quit the command.
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
+
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   
+        <small>(v1.0)</small> 
+        
+        : If the **Dimensioning constraints** [preference](Sketcher_Preferences#General.md) is set to {{Value|Single tool}} (default): press the down arrow to the right of the **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button and select the **<img src="images/Sketcher_ConstrainRadiam.svg" width=16px> Constrain auto radius/diameter** option from the dropdown.
+
+    -   If this preference has a different value (and in {{VersionMinus|0.21}}): press the **<img src="images/Sketcher_ConstrainRadiam.svg" width=16px> [Constrain auto radius/diameter](Sketcher_ConstrainRadiam.md)** button.
+
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainRadiam.svg" width=16px> Constrain auto radius/diameter** option from the menu.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Dimension → <img src="images/Sketcher_ConstrainRadiam.svg" width=16px> Constrain auto radius/diameter** option from the context menu.
+
+    -   Use the keyboard shortcut: **K** then **S**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Do one of the following:
+    -   Select the edge of a circle or arc.
+    -   Select the edge of a B-spline weight circle.
+5.  If a [driving dimensional constraint](Sketcher_ToggleDrivingConstraint.md) is created, depending on the [preferences](Sketcher_Preferences#Display.md), a dialog opens to [edit its value](Sketcher_Workbench#Edit_constraints.md).
+6.  A constraint is added.
+7.  Optionally keep creating constraints.
+8.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
+
+### Run-once mode 
+
+1.  Do one of the following:
+    -   Select the edge of one or more circles or arcs.
+    -   Select the edge of one or more B-spline weight circles.
+2.  Invoke the tool as explained above.
+3.  Optionally [edit the constraint value](Sketcher_Workbench#Edit_constraints.md).
+4.  Depending on the selection one or more constraints are added, see [Notes](#Notes.md).
+
+## Notes
+
+-   If [driving constraints](Sketcher_ToggleDrivingConstraint.md) are created and multiple elements that are not [external geometry](Sketcher_External.md) have been pre-selected, only the first of those receives a dimensional constraint, while between the first and the others [Equal constrains](Sketcher_ConstrainEqual.md) are applied.
+
+
 
 ## Программирование
 
-No specific scripting applies. See the [Sketcher scripting](Sketcher_scripting.md) page that explains the values which can be used for `ArcOrCircle` and `Circle`, and contains further examples on how to create constraints from Python scripts.
+
+```python
+Sketch.addConstraint(Sketcher.Constraint('Radius', ArcOrCircle, App.Units.Quantity('123.0 mm')))
+Sketch.addConstraint(Sketcher.Constraint('Diameter', ArcOrCircle, App.Units.Quantity('246.0 mm')))
+```
+
+The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `ArcOrCircle`, and contains further examples on how to create constraints from Python scripts.
 
 
 <div class="mw-translate-fuzzy">

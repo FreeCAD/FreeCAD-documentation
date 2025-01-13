@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrição
 
 
@@ -16,6 +18,8 @@ O piso \"Arch\" é um tipo especial de grupo do FreeCAD que tem algumas propried
 </div>
 
 As of <small>(v0.18)</small>  the Arch Floor is derived entirely from the [Arch BuildingPart](Arch_BuildingPart.md) object, which is a general container to organize a building model not limited to floors or storeys. Older Floor objects can be converted to the new type by right clicking on them and choosing `Convert to BuildingPart`.
+
+
 
 ## Como usar 
 
@@ -45,7 +49,9 @@ An Arch Floor object shares all properties from an [Arch BuildingPart](Arch_Buil
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Floor tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Floor tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Floor = makeFloor(objectslist=None, baseobj=None, name="Floor")
 ```
@@ -84,6 +90,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/pt
+⏵ [documentation index](../README.md) > Arch Floor/pt

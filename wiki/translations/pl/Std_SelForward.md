@@ -38,7 +38,7 @@ Polecenie **Ponów wybór** przywraca następny zarejestrowany wybór z [Widoku 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

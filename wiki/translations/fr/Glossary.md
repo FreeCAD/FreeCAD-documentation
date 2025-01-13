@@ -38,7 +38,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|Arch|content=[Arch](Arch_Workbench/fr.md)}}
 
 
-{{defn|defn=Abréviation de l'[atelier](#Workbench.md) d'architecture, qui sert principalement à modéliser des bâtiments et des structures. Elle est étroitement liée à l'atelier [Draft](#Draft.md).}}
+{{defn|defn=Abréviation de l'ancien [atelier](#Workbench.md) d'architecture. Cet atelier a été remplacé par l'[atelier BIM](BIM_Workbench/fr.md) ({{Version/fr|1.0}}).}}
 
 
 {{term|Assembly|content=[Assembly](Assembly/fr.md)}}
@@ -73,13 +73,19 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|Backtrace}}
 
 
-{{defn|defn=Sortie d'un programme de débogage qui affiche une série d'instrucion que  FreeCAD suivait avant qu'un problème ne survienne.}}
+{{defn|defn=Sortie d'un programme de débogage qui affiche une série d'instruction que FreeCAD suivait avant qu'un problème ne survienne.}}
 
 
-{{term|Bezier Curve|content=[https://fr.wikipedia.org/wiki/Courbe_de_B%C3%A9zier Bezier Curve]}}
+{{term|Bezier Curve|content=[https://fr.wikipedia.org/wiki/Courbe_de_B%C3%A9zier courbes de Bézier]}}
 
 
 {{defn|defn=Un type de courbe paramétrique.}}
+
+
+{{term|BIM|content=[BIM](BIM_Workbench/fr.md)}}
+
+
+{{defn|defn=Abréviation de [https://fr.wikipedia.org/wiki/Building_information_modeling Building Information Modelling]. L'[atelier BIM](BIM_Workbench/fr.md) fournit un flux de travail BIM dans FreeCAD.}}
 
 
 {{term|Blueprint}}
@@ -127,13 +133,13 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|B-rep}}
 
 
-{{defn|defn=Standard pour une [http://fr.wikipedia.org/wiki/B-Rep représentation par les bords], qui est l'un des deux types de représentation en 3D que supporte FreeCAD (l'autre étant [mesh](#Mesh.md)).}}
+{{defn|defn=Standard pour une [https://fr.wikipedia.org/wiki/B-Rep représentation par les bords], qui est l'un des deux types de représentation en 3D que supporte FreeCAD (l'autre étant [mesh](#Mesh.md)).}}
 
 
 {{term|B-spline}}
 
 
-{{defn|defn=Un type de courbe paramétrique. Voir [https://fr.wikipedia.org/wiki/Spline Spline] et [http://fr.wikipedia.org/wiki/B-spline B-spline]}}
+{{defn|defn=Un type de courbe paramétrique. Voir [https://fr.wikipedia.org/wiki/Spline Spline] et [https://fr.wikipedia.org/wiki/B-spline B-spline]}}
 
 
 {{glossend}}
@@ -171,7 +177,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|Coin}}
 
 
-{{defn|defn=Aussi appelé Coin3D. Bibliothèque logicielle utilisée par FreeCAD pour la représentation 3D.}}
+{{defn|defn=Aussi appelé [https://www.coin3d.org Coin3D]. Bibliothèque logicielle utilisée par FreeCAD pour la représentation 3D.}}
 
 
 {{term|COLLADA}}
@@ -251,7 +257,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{defn|defn=Degrés de Liberté. Le nombre de manières dont une géométrie d'[esquisse](#Sketch.md) peut varier. Par exemple, si nous avons une esquisse constituée de seulement un point, et qu'à ce point aucune [contrainte](#Constraint.md) n'a été appliquée, alors ce point a deux [DOF](#DOF.md). En effet, il est libre de se déplacer à la fois verticalement et horizontalement. De la même manière, une esquisse constituée d'un unique cercle non contraint a trois [DOF](#DOF.md) parce que ce cercle est libre de se déplacer à la fois verticalement et horizontalement et son rayon peut varier. C'est une bonne pratique de contraindre une esquisse jusqu'à ce qu'elle ne présente plus aucun [DOF](#DOF.md), dans ce cas, on dit qu'elle est [entièrement contrainte](#Fully_Constrained.md).}}
 
 
-{{defn|defn=Outil graphique tiers utilisé pour montrer comment les objets d'un modèle FreeCAD sont utilisés ou sont liés les uns aux autres. Pour plus d'informations, reportez-vous à la page [Graphique de dépendance](Std_DependencyGraph/fr.md).}}
+{{defn|defn=Outil graphique tiers utilisé pour montrer comment les objets d'un modèle FreeCAD sont utilisés ou sont liés les uns aux autres. Pour plus d'informations, reportez-vous à la page [Graphe de dépendance](Std_DependencyGraph/fr.md).}}
 
 
 {{term|Difference}}
@@ -265,7 +271,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 
 {{term|Directed Acyclic Graph}}
 
-(acronyme : \"DAG\") {{defn|defn=Un type de [graphe de dépendance](#Dependency_Graph.md) où les relations entre objets s'organisent de façon linéaire, du début à la fin, sans aucune dépendance circulaire. Si l'on parcourt un "DAG" on ne trouvera pas de chemin, ou relation, d'un objet A vers un ou plusieurs autres objets qui puisse revenir vers l'objet A. Dans FreeCAD, le graphe d'un modèle doit toujours être un "DAG".}} {{term|DOF}} {{defn|defn=[Degrees Of Freedom](#Degrees_Of_Freedom.md)}} {{term|Draft|content=[Draft](Draft_Workbench/fr.md)}} {{defn|no=1|defn=Un [atelier](#Workbench.md) de FreeCAD utilisé principalement pour le travail en 2 dimensions.}} {{defn|no=2|defn=Angle de dépouille sur un moule afin de permettre le démoulage du produit final. Voir [PartDesign Dépouille](PartDesign_Draft/fr.md).}} {{term|Drawing}} {{defn|defn=Décrit une représentation de la géométrie par l'utilisation de vues bidimensionnelles. Également appelé plan ou [blueprint](#Blueprint.md).}} {{glossend}}
+(acronyme : \"DAG\") {{defn|defn=Un type de [graphe des dépendances](#Dependency_Graph.md) où les relations entre objets s'organisent de façon linéaire, du début à la fin, sans aucune dépendance circulaire. Si l'on parcourt un "DAG" on ne trouvera pas de chemin, ou relation, d'un objet A vers un ou plusieurs autres objets qui puisse revenir vers l'objet A. Dans FreeCAD, le graphe d'un modèle doit toujours être un "DAG".}} {{term|DOF}} {{defn|defn=[Degrees Of Freedom](#Degrees_Of_Freedom.md)}} {{term|Draft|content=[Draft](Draft_Workbench/fr.md)}} {{defn|no=1|defn=Un [atelier](#Workbench.md) de FreeCAD utilisé principalement pour le travail en 2 dimensions.}} {{defn|no=2|defn=Angle de dépouille sur un moule afin de permettre le démoulage du produit final. Voir [PartDesign Dépouille](PartDesign_Draft/fr.md).}} {{term|Drawing}} {{defn|defn=Décrit une représentation de la géométrie par l'utilisation de vues bidimensionnelles. Également appelé plan ou [blueprint](#Blueprint.md).}} {{glossend}}
 
 ## E
 
@@ -936,7 +942,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{defn|defn=Norme ISO (ISO 10303) pour l'échange de données 3D et d'informations sur la fabrication de produits. Il remplace [IGES](#IGES.md). Les extensions des fichiers sont *.step, *.stp.}}
 
 
-{{term|SVG|content=[SVG](SVG/fr.md)}}
+{{term|SVG}}
 
 
 {{defn|[https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics '''S'''calable '''V'''ector '''G'''raphics]. Est un format de fichier de graphisme vectoriel.}}
@@ -1088,7 +1094,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|term=Wire}}
 
 
-{{defn|no=1|defn=Polyligne: succession d'[arêtes](#Edge.md) connectées par des [vertex](#Vertex.md) ou Points. Le terme est utilisé en ce sens principalement par [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Open Cascade Technology]. On l'utilise donc aussi dans FreeCAD.}}
+{{defn|no=1|defn=Polyligne : succession d'[arêtes](#Edge.md) connectées par des [vertex](#Vertex.md) ou Points. Le terme est utilisé en ce sens principalement par [https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Open Cascade Technology]. On l'utilise donc aussi dans FreeCAD.}}
 
 
 {{defn|no=2|defn=Une commande de l'[atelier](#Workbench.md) [Draft](Draft_Workbench/fr.md) qui crée une polyligne paramétrique.}}
@@ -1097,7 +1103,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|term=Workbench}}
 
 
-{{defn|defn=Aussi appellé module, chaque atelier regroupe un ensemble d'outils dédiés à une tâche spécifique.}}
+{{defn|defn=Aussi appellé module, chaque [atelier](Workbenches/fr.md) regroupe un ensemble d'outils dédiés à une tâche spécifique.}}
 
 
 {{glossend}}

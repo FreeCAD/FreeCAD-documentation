@@ -24,18 +24,18 @@ Nicht mit dem Befehl [Std Bearbeiten](Std_Edit/de.md) verwechseln.
 *Ein Beispiel zur Anwendung des Befehls:*
 
 1.  Zum Arbeitsbereich <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Mesh](Mesh_Workbench/de.md) wechseln.
-2.  Den Menüeintrag **Netze → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Regelgeometrie...** auswählen.
-3.  Das Dialogfenster Regelgeometrie wird geöffnet.
+2.  Die Schaltfläche **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Regelgeometrie...](Mesh_BuildRegularSolid/de.md)** Drücken.
+3.  Das Dialogfenster **Regelgeometrie** wird geöffnet.
 4.  **Ellipsoid** aus der Liste auswählen.
 5.  Die Schaltfläche **Erstellen** drücken.
 6.  Die Schaltfläche **Schließen** drücken, um das Dialogfenster zu schließen.
 7.  Das Netz-Objekt auswählen.
-8.  Die Schaltfläche **<img src="images/Mesh_PolyCut.svg" width=16px> [Mesh Schneiden](Mesh_PolyCut/de.md)** drücken.
+8.  Die Schaltfläche **<img src="images/Mesh_PolyCut.svg" width=16px> [Netz Schneiden](Mesh_PolyCut/de.md)** drücken.
 9.  Punkte in der 3D-Ansicht auswählen, um ein Vieleck (Polygon) zu erstellen, das eine Hälfte des Netzes überlappt.
 10. Nach einem Klick mit der rechten Maustaste **Innen** im Kontextmenü auswählen.
 11. Das Ergebnis ist ein offenes Netz mit einem Rand.
 12. Das Netz sollte noch immer ausgewählt sein.
-13. Den Menüeintrag **Netze → <img src="images/Mesh_AddFacet.svg" width=16px> Dreieck hinzufügen** option from the menuauswählen, um den Befehl [Mesh FacetteHinzufügen](Mesh_AddFacet/de.md) aufzurufen.
+13. Die Schaltfläche **<img src="images/Mesh_AddFacet.svg" width=16px> [Dreieck hinzufügen](Mesh_AddFacet/de.md)** drücken, um den Befehl [Mesh FacetteHinzufügen](Mesh_AddFacet/de.md) zu starten.
 14. Schwebt der Mauszeiger über einem Randpunkt, wird eine gelbe Markierung angezeigt, die mit einem Klick der linken Mausteste ausgewählt wird.
 15. Wahlweise zwei weitere Punkte auswählen und ein Dreieck zum Netz hinzufügen.
 16. Jetzt befindet man sich im Edit-Modus und es ist unmöglich die 3D-Ansicht zu drehen oder zu verschieben, während das Zoomen immer noch funktioniert.
@@ -53,7 +53,7 @@ Nicht mit dem Befehl [Std Bearbeiten](Std_Edit/de.md) verwechseln.
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

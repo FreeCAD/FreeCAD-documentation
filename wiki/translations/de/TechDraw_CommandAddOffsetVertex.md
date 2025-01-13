@@ -1,69 +1,40 @@
 ---
  GuiCommand:
    Name: TechDraw CommandAddOffsetVertex
-   MenuLocation: TechDraw , Extensions: Centerlines/Threading , Add an offset vertex
-   Workbenches: TechDraw_Workbench
+   Name/de: TechDraw CommandAddOffsetVertex
+   MenuLocation: TechDraw , Ergänzungen: Mittellinien/Gewinde  , Versetzten Punkt hinzufügen
+   Workbenches: TechDraw_Workbench/de
    Shortcut: 
-   Version: 0.22
+   Version: 1.0
    SeeAlso: 
 ---
 
 # TechDraw CommandAddOffsetVertex/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
+Der Befehl **TechDraw CommandAddOffsetVertex** fügt einen Hilfspunkt mit einem bestimmten Versatz zu einem ausgewählten Knoten hinzu.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-The **TechDraw CommandAddOffsetVertex** tool adds a cosmetic vertex at a specified offset from a selected vertex.
-
-
-</div>
-
-<img alt="" src=images/TechDraw_CommandAddOffsetVertex_Example.png  style="width:200px;">
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-
-
-*Selected vertex and added cosmetic vertex*
-
-
-</div>
+<img alt="" src=images/TechDraw_CommandAddOffsetVertex_Example.png  style="width:200px;"> 
+*Ausgewählter Knoten und hinzugefügter Hilfspunkt*
 
 
 
 ## Anwendung
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-1.  Select a vertex.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_CommandAddOffsetVertex.svg" width=16px> [Add an offset vertex](TechDraw_CommandAddOffsetVertex.md)** button.
-    -   Select the **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_CommandAddOffsetVertex.svg" width=16px> Add an offset vertex** option from the menu.
-3.  A task panel opens.
-4.  Enter the desired (positive or negative) **X-Offset** and **Y-Offset** in mm.
-5.  Press the **OK** button.
-6.  A cosmetic vertex is added.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
+1.  Einen Knoten auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_CommandAddOffsetVertex.svg" width=16px> [Add an offset vertex](TechDraw_CommandAddOffsetVertex/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzungen: Mittellinien/Gewinde → <img src="images/TechDraw_CommandAddOffsetVertex.svg" width=16px> Add an offset vertex** auswählen.
+3.  Der Aufgaben-Bereich wird geöffnet.
+4.  Die gewünschten (positiven oder negativen) Werte für **X-Versatz** und **Y-Versatz** in mm eingeben.
+5.  Die Schaltfläche **OK** drücken.
+6.  Ein Hilfspunkt wird hinzugefügt.
 
 
 
-
-
-</div>
 
 
 {{TechDraw_Tools_navi

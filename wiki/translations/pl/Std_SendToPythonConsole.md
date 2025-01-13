@@ -10,6 +10,8 @@
 
 # Std SendToPythonConsole/pl
 
+
+
 ## Opis
 
 Polecenie **Wyślij do konsoli Pyton** tworzy w [Konsoli Python](Python_console/pl.md) zmienne odnoszące się do wybranego obiektu i jego wybranych kształtów podrzędnych, wraz z kilkoma innymi użytecznymi odniesieniami. Zmienne i związany z nimi kod mogą być wykorzystane podczas tworzenia kodu środowiska Python.
@@ -63,6 +65,8 @@ W zależności od wybranego obiektu i jego wybranych kształtów podrzędnych, j
 
 *Przykładowe dane wyjściowe: wybrano krawędź, ścianę i wierzchołek [łącza](Std_LinkMake/pl.md) do [sześcianu](Part_Box/pl.md).*
 
+
+
 ## Użycie
 
 1.  Wybierz pojedynczy obiekt albo jeden lub więcej kształtów podrzędnych należących do pojedynczego obiektu.
@@ -72,6 +76,8 @@ W zależności od wybranego obiektu i jego wybranych kształtów podrzędnych, j
     -   Użyj skrótu klawiaturowego: **Ctrl** + **Shift** + **P**.
 3.  W razie potrzeby otwiera się [Konsola Pythona](Python_console/pl.md).
 4.  [Konsola Python](Python_console/pl.md) zostaje przekierowana na klawiaturę.
+
+
 
 ## Uwagi
 
@@ -88,7 +94,7 @@ W zależności od wybranego obiektu i jego wybranych kształtów podrzędnych, j
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

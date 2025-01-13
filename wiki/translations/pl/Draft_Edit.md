@@ -3,7 +3,7 @@
    Name: Draft Edit
    Name/pl: Rysunek Roboczy: Edytuj
    MenuLocation: Modyfikacja , Edytuj
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl
    Shortcut: **D** **E**
    SeeAlso: Std_Edit/pl
 ---
@@ -70,7 +70,8 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 -   Aby ręcznie wprowadzić współrzędne, wprowadź element X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie kursora poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
 -   Aby użyć współrzędnych biegunowych, wprowadź wartość dla **Długości** i wartość dla **Kąta**, a następnie naciśnij **Enter** po każdej z nich.
 -   Zaznacz pole wyboru **Kąt**, aby ograniczyć kursor do określonego kąta.
--   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne wybranego punktu są względne do oryginalnego punktu, w przeciwnym razie są one odnoszone do początku układu współrzędnych. {{Version/pl|1.0}}
+-   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md).
 -   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 
 
@@ -83,7 +84,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 -   Jeśli węzeł początkowy lub końcowy otwartej linii zostanie przesunięty tak, aby zbiegł się, linia zostanie zamknięta.
 -   Menu kontekstowe węzła: {{Value|Usuń punkt}}. Muszą pozostać co najmniej dwa punkty.
--   Menu kontekstowe krawędzi: {{Value|Dodaj punkt}}, {{Value|Otwórz polilinię}}/{{Zamknij polilinię}} *({{Version/pl|0.21}})* i {{Value|Odwróć polilinię}} *({{Version/pl|0.21}})*.
+-   Menu kontekstowe krawędzi: {{Value|Dodaj punkt}}, {{Value|Otwórz polilinię}}/{{Value|Zamknij polilinię}} *({{Version/pl|0.21}})* i {{Value|Odwróć polilinię}}.
 
 
 
@@ -125,7 +126,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 -   Jeśli węzeł początkowy lub końcowy otwartej krzywej zostanie przesunięty tak, aby się pokrywały, krzywizna zostanie zamknięta.
 -   Menu kontekstowe węzła: {{Value|Usuń punkt}}. W przypadku otwartej krzywej muszą pozostać co najmniej dwa punkty. W przypadku zamkniętej minimalna liczba punktów wynosi trzy.
--   Menu kontekstowe krawędzi: {{Value|Dodaj punkt}}, {{Value|Otwórz polilinię}}/{{Zamknij polilinię}} *({{Version/pl|0.21}})* i {{Value|Odwróć krzywą złożoną}} *({{Version/pl|0.21}})*.
+-   Menu kontekstowe krawędzi: {{Value|Dodaj punkt}}, {{Value|Otwórz polilinię}}/{{Value|Zamknij polilinię}} *({{Version/pl|0.21}})* i {{Value|Odwróć krzywą złożoną}} *({{Version/pl|0.21}})*.
 
 
 
@@ -133,7 +134,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 -   Jeśli węzeł początkowy lub końcowy otwartej krzywej zostanie przesunięty tak, aby się pokrywały, krzywa zostanie zamknięta.
 -   Menu kontekstowe węzła: {{Value|Usuń punkt}}, {{Value|Ustaw ostro}}, {{Value|Ustaw stycznie}} i {{Value|Ustaw symetrycznie}}.
--   Menu kontekstowe krawędzi: {{Value|Dodaj punkt}}, {{Value|Otwórz polilinię}}/{{Zamknij polilinię}} *({{Version/pl|0.21}})* i {{Value|Odwróć krzywą}} *({{Version/pl|0.21}})*.
+-   Menu kontekstowe krawędzi: {{Value|Dodaj punkt}}, {{Value|Otwórz polilinię}}/{{Value|Zamknij polilinię}} *({{Version/pl|0.21}})* i {{Value|Odwróć krzywą}} *({{Version/pl|0.21}})*.
 
 
 
@@ -224,6 +225,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Ustawienia](Draft_Preferences/pl.md).
 
 -   Kolor tymczasowych węzłów jest taki sam jak kolor symboli przyciągania. Kolor ten można zmienić w preferencjach: **Edycja → Preferencje ... → Rysunek Roboczy → Siatka i przyciąganie → Kolor domyślny dla symboli przyciągania**. Należy pamiętać, że ten kolor nie jest używany dla tymczasowych węzłów wyświetlanych dla [Krzywa Bézier\'a](Draft_BezCurve/pl.md). Te węzły używają zamiast tego właściwości **Kolor linii** dla krzywej.
+-   Rozmiar węzłów zależy od opcji: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Rozmiar znacznika**. {{Version/pl|1.0}}
 
 
 

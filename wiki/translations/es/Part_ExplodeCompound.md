@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -29,11 +31,21 @@ Las colocaciones de las formas extraídas siguen las colocaciones de los origina
 
 La herramienta también explotará las formas no compuestas en sus constituyentes de nivel inferior: los compsólidos en sólidos, los sólidos en conchas, las conchas en caras, las caras en cables, los cables en bordes, los bordes en vértices.
 
+
+
 ## Utilización
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Invocar la Herramienta de explotar piezas de compuesto de varias maneras:
     -   Presionando en la <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> en la barra de herramientas de pieza
     -   Usando la **Pieza → Compuesto → Explotar compuesto** entrada en el Pieza menú
+
+
+</div>
+
+
 
 ## Casos de uso 
 

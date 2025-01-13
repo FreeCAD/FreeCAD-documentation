@@ -14,84 +14,90 @@
 
 ## Opis
 
-Wiązanie prostopadłości tworzy dwie linie, które są prostopadłe *(tzn. ortogonalne)* do siebie, lub dwie krzywe, które są prostopadłe na ich przecięciu. Linie są traktowane jako nieskończone, a łuki są traktowane jako pełne okręgi/elipsy. Wiązanie może również łączyć dwie krzywe, wymuszając ich prostopadłość w miejscu połączenia, podobnie jak w przypadku **[<img src=images/Sketcher_ConstrainTangent.svg style="width:16px"> [Wiązanie styczności](Sketcher_ConstrainTangent/pl.md)**.
+Narzędzie <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> **Wiązanie prostopadłości** wymusza prostopadłość dwóch linii lub dwóch krawędzi lub osi. Linie są traktowane jako nieskończone, a otwarte krzywe są również wirtualnie wydłużone. Wiązanie może również łączyć dwie krawędzie, wymuszając ich prostopadłość w miejscu połączenia.
 
 
 
 ## Użycie
 
-Istnieją cztery różne sposoby zastosowania tego wiązania:
-
-1.  pomiędzy dwoma krzywymi *(dostępne nie dla wszystkich krzywych)*,
-2.  pomiędzy dwoma punktami końcowymi krzywej,
-3.  pomiędzy krzywą a punktem końcowym innej krzywej,
-4.  pomiędzy dwoma krzywymi w punkcie zdefiniowanym przez użytkownika.
-
-Aby zastosować wiązanie prostopadłości, należy wykonać następujące czynności:
-
--   Wybierz dwie lub trzy pozycje na szkicu.
--   Wywołaj wiązanie, klikając jego ikonę na pasku narzędzi, wybierając element menu lub używając skrótu klawiaturowego.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
 
 
 
-### Pomiędzy dwoma krzywymi *(prostopadłość bezpośrednia)* 
+### [Tryb kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md) 
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:600px;">
+1.  Upewnij się, że nie ma zaznaczenia.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> '''Wiązanie prostopadłości'''**.
 
-Dwie krzywe zostaną wykonane prostopadle w punkcie ich przecięcia *(rzeczywiste lub przedłużenia krzywych)*, a punkt przecięcia będzie domyślny. Tryb ten jest stosowany, jeśli zostały wybrane dwie krzywe.
+    -   Wybierz z menu **Szkic → Wiązania szkicownika → <img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> Wiązanie prostopadłości**.
 
-**Zaakceptowany wybór:**
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz **Wiązanie → <img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> Wiązanie prostopadłości** z menu podręcznego.
 
--   linia + linia, koło, łuk
--   okrąg, łuk + okrąg, łuk
-
-Jeśli bezpośrednia prostopadłość między wybranymi łukami nie jest obsługiwana (np. między linią a elipsą), do szkicu zostanie automatycznie dodany punkt pomocniczy i zastosowany zostanie punkt prostopadły-przejściowy.
-
-W przeciwieństwie do styczności, rekonstrukcja punktu prostopadłości przez utworzenie punktu i związanie jego położenia na obu łukach *(ograniczając w ten sposób punkt do punktu przecięcia)* jest całkowicie poprawna.
-
-
-
-### Między dwoma punktami końcowymi *(prostopadłość między punktami)* 
-
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:600px;">
-
-W tym trybie zbierzne są punkty końcowe, a połączenie jest wykonane pod kątem prostym. Tryb ten jest stosowany, gdy wybrane zostały dwa punkty końcowe dwóch krzywych.
-
-\"Zaakceptowany wybór:
-
--   punkt końcowy linii/łuku/łuku-ellipsy + punkt końcowy linii/łuku/łuku-ellipsy *(tj. dwa punkty końcowe dowolnych dwóch krzywych)*
+    -   Użyj skrótu klawiaturowego: **N**.
+3.  Kursor zmieni się w krzyżyk z ikoną narzędzia.
+4.  Wykonaj jedną z następujących czynności:
+    -   Wybierz dwie krawędzie. Jedna z krawędzi musi być linią prostą lub osią. Druga może być dowolną krawędzią z wyjątkiem krzywej złożonej.
+    -   Wybierz punkt i dwie krawędzie *(w tej kolejności)*.
+    -   Wybierz krawędź, punkt i inną krawędź *(w tej samej kolejności)*.
+5.  Dodawane jest wiązanie prostopadłe. Jeśli wybrano punkt i dwie krawędzie, można również dodać maksymalnie dwa wiązania [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md). Zobacz [przykłady](#Between_two_edges_at_point/pl.md).
+6.  Opcjonalnie kontynuuj tworzenie wiązań.
+7.  Aby zakończyć, kliknij prawym przyciskiem myszy lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
 
 
 
-### Między krzywą a punktem końcowym *(prostopadłość punktu do krzywej)* 
+### Tryb jednorazowy 
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:600px;">
+1.  Wykonaj jedną z następujących czynności:
+    -   Wybierz dwie krawędzie *(patrz wyżej)*.
+    -   Wybierz dwa punkty końcowe należące do różnych krawędzi.
+    -   Wybierz krawędź i punkt końcowy innej krawędzi *(w dowolnej kolejności)*.
+    -   Wybierz punkt i dwie krawędzie *(analogicznie)*.
+2.  Wywołaj narzędzie w sposób opisany powyżej lub z następującą dodatkową opcją:
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz **Wiązanie → <img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> Wiązanie prostopadłości** z menu podręcznego.
+3.  Dodawane jest wiązanie prostopadłe. Jeśli wybrano punkt i dwie krawędzie, można również dodać maksymalnie dwa wiązania [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md). Zobacz [przykłady](#Between_two_edges_at_point/pl.md).
 
-W tym trybie, punkt końcowy jednej krzywej jest związany z położeniem na drugiej, a krzywe są ustawione prostopadle do punktu. Tryb ten jest stosowany, gdy zostały wybrane krzywa i punkt końcowy innej krzywej.
 
-**Zaakceptowany wybór:**
 
--   linia, okrąg, łuk, elipsa, łuk elipsy + punkt końcowy linii/łuku/łuku elipsy *(tzn. każda krzywa + punkt końcowy każdej krzywej)*.
+## Przykłady
 
 
 
-### Pomiędzy dwoma krzywymi w punkcie *(prostopadłym do punktu) (v0.15)* 
+### Między dwiema krawędziami 
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:400px;">
 
-W tym trybie, dwie krzywe są wykonane prostopadle, a punkt prostopadłości znajduje się na trasie. Tryb ten jest stosowany w przypadku wybrania dwóch krzywych i punktu.
+Dwie krawędzie są prostopadłe w miejscu ich (wirtualnego) przecięcia. Jeśli jedna z krawędzi jest [stożkiem](Sketcher_Workbench/pl#Sketcher_CompCreateConic.md), dodawany jest [obiekt punktu](Sketcher_CreatePoint/pl.md), który ma [wiązanie punk na obiekcie](Sketcher_ConstrainPointOnObject/pl.md) z obiema *(przedłużonymi)* krawędziami.
 
-**Zaakceptowany wybór:**
 
--   każda linia/krzywizna + każda linia/krzywizna + każdy punkt
 
-\"Każdy punkt\" może być samotnym punktem, albo punktem jakiegoś obiektu, np. środkiem okręgu, punktem końcowym łuku, albo początkiem.
+### Między dwoma punktami końca 
 
-Aby wiązanie działało prawidłowo, punkt musi znajdować się na obu krzywych. Tak więc, w miarę wywoływania wiązania, punkt będzie automatycznie związany z obiema krzywymi *([wiązanie pomocnicze](Sketcher_helper_constraint.md) zostanie dodane, jeśli jest to konieczne)*, a krzywe zostaną wymuszone w punkcie prostopadłym. Te [wiązania pomocnicze](Sketcher_helper_constraint.md) są zwykłymi regularnymi wiązaniami. Mogą być dodane ręcznie lub usunięte.
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:400px;">
 
-W porównaniu do trybu bezpośredniego prostopadłego, to wiązanie jest wolniejsze, ponieważ istnieją stopnie swobody, ale obsługuje elipsy.
+Punkty końcowe są zbieżne, a krawędzie są prostopadłe w tym punkcie.
 
-Umieszczenie punktu przed zastosowaniem wiązania jest wskazówką dla rozwiązania, które określa, gdzie powinna znajdować się prostopadłość.
+
+
+### Między krawędzią a punktem końcowym 
+
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:400px;">
+
+Punkt końcowy jednej krawędzi jest ograniczony tak, aby leżał na drugiej krawędzi, a krawędzie są prostopadłe w tym punkcie.
+
+
+
+### Między dwiema krawędziami w punkcie 
+
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:400px;">
+
+Dwie krawędzie są prostopadłe w danym punkcie. Punktem może być dowolny punkt, np. środek okręgu, punkt końcowy krawędzi lub początek, może on należeć do jednej z krawędzi, a także może być [obiektem punktu](Sketcher_CreatePoint/pl.md). W razie potrzeby dodawane są wiązania [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md), aby zapewnić, że punkt leży na obu *(przedłużonych)* krawędziach. Te dodatkowe wiązania nazywane są [wiązaniami pomocniczymi](Sketcher_helper_constraint/pl.md).
 
 
 

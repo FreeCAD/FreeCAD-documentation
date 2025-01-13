@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -31,6 +33,8 @@ Esta herramienta crea, en el documento 3D, una vista 2D plana de un [Arch Panel]
 
 </div>
 
+
+
 ## Como utilizar 
 
 
@@ -43,6 +47,8 @@ Esta herramienta crea, en el documento 3D, una vista 2D plana de un [Arch Panel]
 
 
 </div>
+
+
 
 ## Opciones
 
@@ -57,6 +63,8 @@ Esta herramienta crea, en el documento 3D, una vista 2D plana de un [Arch Panel]
 
 
 </div>
+
+
 
 ## Propiedades
 
@@ -143,6 +151,8 @@ View.ViewObject.LineWidth = 3
 FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ## Tutoriales
 
 
@@ -163,6 +173,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/es
+⏵ [documentation index](../README.md) > Arch Panel Cut/es

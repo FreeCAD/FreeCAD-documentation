@@ -10,6 +10,8 @@
 
 # FEM EquationFlow/fr
 
+## Description
+
 Cette équation calcule les mouvements de fluides visqueux à l\'aide des [équations de Navier-Stokes](https://fr.wikipedia.org/wiki/%C3%89quations_de_Navier-Stokes).
 
 Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Navier-Stokes Equations*.

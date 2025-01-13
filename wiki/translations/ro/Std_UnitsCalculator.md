@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Rezumat
@@ -23,13 +25,13 @@ Deschide caseta de dialog a calculatorului unității, care permite transformare
 
 </div>
 
-![](images/Units_Calculator_it.png ) 
-*The Units calculator dialog box*
+![](images/Std_UnitsCalculator_Dialog.png ) 
+*The Units converter dialog box*
 
 ## Usage
 
-1.  Select the **Tools → <img src="images/Std_UnitsCalculator.svg" width=16px> Units calculator...** option from the menu.
-2.  The Units calculator dialog box opens. For more information see [Options](#Options.md).
+1.  Select the **Tools → <img src="images/Std_UnitsCalculator.svg" width=16px> Units converter...** option from the menu.
+2.  The **Units converter** dialog box opens. For more information see [Options](#Options.md).
 3.  The dialog box is modeless, meaning it can stay open while you continue working in FreeCAD.
 4.  Press the **Close** button to close the dialog box.
 
@@ -53,24 +55,20 @@ Deschide caseta de dialog a calculatorului unității, care permite transformare
 
 ### Quantity
 
-
-**This new part (<small>(v0.19**) of the Units calculator still suffers from some bugs.)</small> 
-
 1.  Select an option from the **Unit system** dropdown list. This will be the target unit system. Select **Preference system** to use the unit system defined in the [Preferences](Preferences_Editor#Units.md).
 2.  Select an option from the **Unit category** dropdown list.
 3.  Enter a value with units in the **Quantity** input box. The units must match the unit category.
-    -   If the **Area** unit category has been selected, entering certain units is problematic. For example to enter {{Value|m^2}} you have to first enter {{Value|^2}}, put the cursor before the {{Value|^}} character and then enter {{Value|m}}.
 4.  Click in the **Decimals** input box and press **Enter** to convert the value in the **Quantity** input box.
 
 ## Notes
 
--   See the [Expressions](Expressions#Units.md) page for a list of all known units.
+-   See [Expressions](Expressions#Units.md) for a list of all known units.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

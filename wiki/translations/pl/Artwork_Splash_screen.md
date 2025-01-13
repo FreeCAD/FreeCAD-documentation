@@ -1,6 +1,10 @@
 # Artwork Splash screen/pl
 Są to ekrany powitalne, które zostały użyte w poszczególnych wersjach programu.
 
+## FreeCAD 1.0 
+
+Image:freecadsplash.png Image:freecadsplash0.png Image:freecadsplash1.png Image:freecadsplash2.png Image:freecadsplash3.png Image:freecadsplash4.png Image:freecadsplash5.png Image:freecadsplash6.png Image:freecadsplash7.png Image:freecadsplash8.png Image:freecadsplash9.png Image:freecadsplash10.png Image:freecadsplash11.png Image:freecadsplash12.png
+
 ## FreeCAD 0.21 
 
 ![](images/Freecadsplash021.png )

@@ -25,6 +25,8 @@
 3.  W oknie dialogowym **Wybierz element** wybierz obiekt, pod który chcesz przesunąć obiekt*(y)*.
 4.  Naciśnij przycisk **OK**.
 
+
+
 ## Przykład
 
 Poniższe trzy obrazki przedstawiają ten sam model z kieszenią zdefiniowaną na szkicu dołączonym do płaszczyzny odniesienia. Na każdym z rysunków zmieniono kolejność elementów. Powoduje to, że kieszeń nie wykonuje żadnego otworu lub wykonuje otwory w różnych wyciągnięciach, w zależności od kolejności cech w drzewie modelu.

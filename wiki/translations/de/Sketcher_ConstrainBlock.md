@@ -15,18 +15,49 @@
 
 ## Beschreibung
 
-Die Randbedingung **Fixieren** setzt ein geometrisches Element an Ort und Stelle mit einer einzigen Bedingung fest.
+Das Werkzeug <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;"> [Sketcher Fixieren](Sketcher_ConstrainBlock/de.md) setzt Kanten an Ort und Stelle mit einer einzigen Randbedingung fest. Es ist hauptsächlich für [B-Splines](Sketcher_CreateBSpline/de.md) gedacht, die sonst nur schwer vollständig bestimmt werden können.
 
-Es ist hauptsächlich für die Verwendung mit **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-Splines](Sketcher_CreateBSpline/de.md)** vorgesehen, die sonst nur schwer vollständig bestimmt werden können.
+Die Randbedingung Fixieren betrifft zurzeit nur die frei beweglichen Teile einer Kante. Fixierten Kanten können andere Randbedingungen hinzugefügt werden, und das Hinzufügen von weiteren Randbedingungen zu fixierten Kanten, kann diese verändern.
 
 
 
 ## Anwendung
 
-1.  Ein Element auswählen, das fixiert werden soll.
-2.  Die Schaltfläche **[<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> [Fixieren](Sketcher_ConstrainBlock/de.md)** drücken.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
-Oder zuerst die Schaltfläche drücken, und dann die Elemente auswählen.
+
+
+### [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md) 
+
+1.  Sicherstellen, dass die Auswahl leer ist.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_ConstrainBlock.svg" width=16px> [Fixieren](Sketcher_ConstrainBlock/de.md)** drücken.
+
+    -   Den Menüeintrag **Skizze → Sketcher-Randbedingungen → <img src="images/Sketcher_ConstrainBlock.svg" width=16px> Fixieren** auswählen.
+
+    -   
+        {{Version/de|1.0}}
+        
+        : Ein Rechtsklick in die [3D-Ansicht](3D_view/de.md) und die Menüoption **Festlegen → <img src="images/Sketcher_ConstrainBlock.svg" width=16px> Fixieren** im Kontextmenü auswählen.
+
+    -   Das Tastaturkürzel **K** dann **B**.
+3.  Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
+4.  Eine einzelne Kante auswählen.
+5.  Eine Randbedingung wird hinzugefügt.
+6.  Wahlweise weitere Randbedingungen erstellen.
+7.  Zum Beenden die rechte Maustaste oder **Esc** drücken; oder ein anderes Werkzeug zum Erstellen von Geometrien oder Randbedingungen aufrufen.
+
+
+
+### Einmal-Ausführen-Modus 
+
+1.  Eine oder mehrere Kanten auswählen.
+2.  Das Werkzeug wie oben beschrieben aufrufen oder mit der folgenden weiteren Möglichkeit:
+    -   
+        {{Version/de|1.0}}
+        
+        : Ein Rechtsklick in die [3D-Ansicht](3D_view/de.md) und die Menüoption **<img src="images/Sketcher_ConstrainBlock.svg" width=16px> Fixieren** im Kontextmenü auswählen.
+3.  Abhängig von der Auswahl werden eine oder mehrere Randbedingungen hinzugefügt.
 
 
 

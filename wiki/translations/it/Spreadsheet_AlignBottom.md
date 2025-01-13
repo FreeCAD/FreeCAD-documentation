@@ -1,9 +1,9 @@
 ---
  GuiCommand:
-   Name: Spreadsheet_AlignBottom
-   Name/it: Allinea in basso
+   Name: Spreadsheet AlignBottom
+   Name/it: Spreadsheet Allinea in basso
+   MenuLocation: Foglio di calcolo , Allineamento , Allinea in basso
    Workbenches: Spreadsheet_Workbench/it
-   MenuLocation: Spreadsheet , Allineamento , In basso
    Version: 0.17
 ---
 
@@ -13,15 +13,17 @@
 
 ## Descrizione
 
-Lo strumento <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:16px;"> **Allinea in basso** rende il testo all\'interno della cella allineato alla parte inferiore della cella.
+Lo strumento <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> **Spreadsheet Allinea in basso** allinea in basso il contenuto delle celle selezionate.
 
 
 
 ## Utilizzo
 
-1.  Accertarsi che sia attivo un <img alt="" src=images/_Spreadsheet_CreateSheet.svg  style="width:16px;"> [Foglio di calcolo](Spreadsheet_CreateSheet/it.md) in modo che il pulsante sia abilitato.
-2.  Selezionare una cella.
-3.  Premere il pulsante **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> In basso**.
+1.  Assicurarsi che ci sia un [foglio di calcolo](Spreadsheet_CreateSheet/it.md) attivo.
+2.  Selezionare una o più celle.
+3.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Allinea in basso](Spreadsheet_AlignBottom/it.md)**.
+    -   Selezionare l\'opzione **Foglio di calcolo → Allineamento → [<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> Allinea in basso** dal menu.
 
 
 

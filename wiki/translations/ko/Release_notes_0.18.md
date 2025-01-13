@@ -1,10 +1,12 @@
 # Release notes 0.18/ko
 <div class="mw-translate-fuzzy">
 
-FreeCAD 0.18은 2019년 3월 12일 나왔습니다. [Download](Download.md) 페이지에서 받으세요. 이것은 가장 흥미로운 변화의 요약입니다. 변화의 완전한 목록은 [MantisBT bugtracker FC 0.18 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=78). 옛 FreeCAD 릴리스 노트는 [Feature list](Feature_list#Release_notes.md)에 있습니다.
+FreeCAD 0.18은 2019년 3월 12일 나왔습니다. [Download](Download.md) 페이지에서 받으세요. 이것은 가장 흥미로운 변화의 요약입니다. 변화의 완전한 목록은 [MantisBT bugtracker FC 0.18 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=78). 옛 FreeCAD 릴리스 노트는 [Feature list에](Feature_list#Release_notes.md) 있습니다.
 
 
 </div>
+
+
 
 ## 강조
 
@@ -25,6 +27,8 @@ FreeCAD 0.18은 2019년 3월 12일 나왔습니다. [Download](Download.md) 페�
 개선되고 확장된 [Arch and BIM](#Arch_Workbench.md) 도구
 
 <img alt="Model by regis" src=images/Arch_work_screenshot.png  style="width:700px;">
+
+
 
 
 
@@ -84,7 +88,7 @@ FreeCAD 0.18은 2019년 3월 12일 나왔습니다. [Download](Download.md) 페�
 
 ## FEM Workbench 
 
-<img alt="The polished FEM material dialog" src=images/FEM-Material-dialog-018.png  style="width:300px;"> In 0.17 there where added tons of new features in FEM. Thus the main focus for FEM in 0.18 release of FreeCAD was not adding even more new features and tools, but make the existing ones more stable and fix as much as possible bugs. FEM got 470 commits during FreeCAD 0.18 development cycle [1](https://forum.freecadweb.org/viewtopic.php?f=10&t=13154&p=297292#p297110).
+<img alt="The polished FEM material dialog" src=images/FEM-Material-dialog-018.png  style="width:300px;"> In 0.17, tons of new features were added to FEM. Thus, the main focus for FEM in the 0.18 release of FreeCAD was not adding even more new features and tools, but making the existing ones more stable and fixing as many bugs as possible. FEM got 470 commits during FreeCAD 0.18 development cycle [1](https://forum.freecadweb.org/viewtopic.php?f=10&t=13154&p=297292#p297110).
 
 ### 코드 기반 일반 개선 
 
@@ -118,6 +122,8 @@ The material handling was improved. It is now possible to use the global FreeCAD
 
 ## Path Workbench 
 
+
+
 ### 일반 개선 
 
 -   Path can now correctly display gcode with ABC axis words
@@ -129,6 +135,8 @@ The material handling was improved. It is now possible to use the global FreeCAD
 -   Job container organisation has been improved
 -   Default Values for Operation Settings can be controlled through SetupSheets
 
+
+
 ### 연산
 
 -   New Adaptive Clearing Operation
@@ -137,6 +145,8 @@ The material handling was improved. It is now possible to use the global FreeCAD
 -   Support for 2D objects and individual edge milling through Engrave and Deburr
 -   RampEntry dressup now has a configurable start point
 -   PocketShape Operation can now \'use outline\'
+
+
 
 ### 후 처리기 
 
@@ -193,6 +203,8 @@ The TechDraw Workbench received a number of additions and improvements for v0.18
 <img alt="A material card" src=images/Material-Card-018.png  style="width:300px;"> The material handling has been improved. It is now possible to create **material cards** for every material. The cards can contain all information, physical properties, architectural specification, web links, comments. etc. The cards are text files with the file suffix **.FCMat** and can be used for all workbenches of FreeCAD.
 
 FreeCAD provides material cards for standard metals, plastics and different types of steel.
+
+
 
 ## 추가 모듈 
 

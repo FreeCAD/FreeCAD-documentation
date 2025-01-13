@@ -37,6 +37,12 @@ Kliknij dwukrotnie etykietę **Local_CS** w Drzewie modelu lub kliknij prawym pr
 
 
 
+## Ustawienia
+
+Zobacz [Projekt Części: Płaszczyzna odniesienia](PartDesign_Plane/pl#Właściwości.md).
+
+
+
 ## Właściwości
 
 

@@ -1,11 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/de
    Name: FEM ConstraintDisplacement
    Name/de: FEM RandbedingungVerschiebung
    MenuLocation: Modell , Mechanische Randbedingungen und Belastungen , Randbedingung Verschiebung
    Workbenches: FEM_Workbench/de
    Shortcut: 
    SeeAlso: FEM_tutorial/de
+}}
+{{GuiCommandFemInfo/de
+   Solvers: CalculiX, Elmer
+}}
 ---
 
 # FEM ConstraintDisplacement/de
@@ -21,10 +26,9 @@ Erstellt eine FEM-Randbedingungn für eine festgelegte Verschiebung (Auslenkung)
 ## Anwendung
 
 1.  Die Schaltfläche **<img src="images/FEM_ConstraintDisplacement.svg" width=16px> '''Randbedingung Verschiebung'''** drücken oder den Menüeintrag **Modell → Mechanische Randbedingungen und Belastungen → <img src="images/FEM_ConstraintDisplacement.svg" width=16px> Randbedingung Verschiebung** auswählen.
-2.  In der [3D-Ansicht](3D_view.md) das Objekt auswählen, dem die Randbedingung zugeordnet werden soll; dies kann ein Knoten (Ecke), eine Kante, oder eine Fläche sein.
-3.  Die Schaltfläche **Hinzufügen** drücken.
-4.  Das Deaktivieren von *Unspecified* aktiviert die erforderlichen Felder zum Bearbeiten.
-5.  Die Werte anpassen oder ({{Version/de|0.21}}) eine Formel für die Versatzwerte festlegen.
+2.  Die Schaltfläche **Hinzufügen** drücken.
+3.  In der [3D-Ansicht](3D_view/de.md) das Objekt auswählen, dem die Randbedingung zugeordnet werden soll; dies kann ein Knoten, eine Kante, oder eine Fläche sein (aber alle ausgewählten Objekte müssen von derselben Art sein). Um Elemente von der Liste zu entfernen wird die Schaltfläche **Entfernen** gedrückt und die Objekte angeklickt.
+4.  Die Felder neben den Freiheitsgraden aktivieren, die man verwenden möchte. Standardmäßig sind sie auf Null gesetzt (fixed), können aber auf einen beliebigen Wert ({{Version/de|0.21}}: oder eine Formel für Elmer) geändert werden.
 
 
 
@@ -37,30 +41,30 @@ Erstellt eine FEM-Randbedingungn für eine festgelegte Verschiebung (Auslenkung)
 
 ### Allgemein
 
-For the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solver Elmer](FEM_SolverElmer.md) it is possible to define the displacement as a formula. In this case the solver sets the displacement according to the given formula variable.
+Für den <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) ist es möglich, die Verschiebung als Formel zu definieren. In diesem Fall berechnet der Solver die Verschiebung entsprechend der angegebenen Formelvariablen.
 
-Take for example the case that we want to perform a [transient analysis](FEM_SolverElmer_SolverSettings#Timestepping_(transient_analyses).md). For every time step the displacement $d$ should be increased by 6 mm:
+Nehmen wir zum Beispiel den Fall, dass wir eine [Transientenanalyse](FEM_SolverElmer_SolverSettings/de#Timestepping_(transient_analyses).md) durchführen wollen. Für jeden Zeitschritt soll die Verschiebung $d$ um 6 mm erhöht werden:
 
 $\quad
 d(t)=0.006\cdot t$
 
-enter this in the *Formula* field: ` Variable "time"; Real MATC "0.006*tx"`
+dies in das Feld *Formel* eingeben: ` Variable "time"; Real MATC "0.006*tx"`
 
-This code has the following syntax:
+Dieser Code hat die folgende Syntax:
 
--   the prefix *Variable* specifies that the displacement is not a constant but a variable
--   the variable is the current time
--   the displacement values are returned as *Real* (floating point) values
--   *MATC* is a prefix for the Elmer solver indicating that the following code is a formula
--   *tx* is always the name of the variable in *MATC* formulas, no matter that *tx* in our case is actually *t*
+-   das Präfix \"Variable\" gibt an, dass es sich bei der Verschiebung nicht um eine Konstante, sondern um eine Variable handelt.
+-   die Variable ist die aktuelle Zeit.
+-   die Verschiebungswerte werden als *Real* (Fließkomma) Werte zurückgegeben.
+-   MATC ist ein Präfix der dem Elmer Solver angibt, dass der folgende Code eine Formel ist
+-   *tx* ist immer der Name der Variablen in *MATC*-Formeln, unabhängig davon, dass *tx* in unserem Fall eigentlich *t* ist
 
 
 
 ### Drehungen
 
-Elmer only uses the **Displacement \*** fields of the boundary condition. To define rotations, we need a formula.
+Elmer verwendet nur die Felder *Verschiebung \** der Randbedingung. Um Drehungen zu definieren, benötigen wir eine Formel.
 
-If for example a face should be rotated according to this condition:
+Wenn zum Beispiel eine Fläche entsprechend dieser Bedingung gedreht werden soll:
 
 $\quad
 \begin{align}
@@ -68,27 +72,27 @@ d_{x}(t)= & \left(\cos(\phi)-1\right)x-\sin(\phi)y\\
 d_{y}(t)= & \left(\cos(\phi)-1\right)y+\sin(\phi)x
 \end{align}$
 
-then we need to enter for **Displacement x** `  Variable "time, Coordinate"
-Real MATC "(cos(tx(0)*pi)-1.0)*tx(1)-sin(tx(0)*pi)*tx(2)`
+dann müssen wir für **Verschiebung x** ` Variable "Zeit, Koordinate"
+Real MATC "(cos(tx(0)*pi)-1.0)*tx(1)-sin(tx(0)*pi)*tx(2)` eingeben
 
-and for **Displacement y** `  Variable "time, Coordinate"
+und für **Displacement y** `  Variable "time, Coordinate"
 Real MATC "(cos(tx(0)*pi)-1.0)*tx(2)+sin(tx(0)*pi)*tx(1)`
 
-This code has the following syntax:
+Dieser Code hat die folgende Syntax:
 
--   we have 4 variables, the time and all possible coordinates (x, y z)
--   *tx* is a vector, *tx(0)* refers to the first variable, the time, while *tx(1)* refers to the first coordinate *x*
--   *pi* denotes $\pi$ and was added so that after $t=1\rm\, s$ a rotation of 180° is performed
+-   wir haben 4 Variablen, die Zeit und alle möglichen Koordinaten (x, y z)
+-   *tx* ist ein Vektor, *tx(0)* bezieht sich auf die erste Variable, die Zeit, während *tx(1)* sich auf die erste Koordinate *x* bezieht
+-   *pi* bezeichnet $\pi$ und wurde hinzugefügt, damit nach $t=1\rm\, s$ eine Drehung um 180° durchgeführt wird
 
 
 
 ## Hinweise
 
-For the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [solver CalculiX](FEM_SolverCalculixCxxtools.md):
+Für den <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Löser CalculiX](FEM_SolverCalculixCxxtools/de.md):
 
--   This tool uses the \*BOUNDARY card.
--   Fixing a degree of freedom is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html>
--   Prescribing a displacement for a degree of freedom is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>
+-   Calkulix verwendet die \*BOUNDARY-Karte.
+-   Die Fixierung eines Freiheitsgrades wird unter <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html> erklärt.
+-   Die Vorgabe einer Verschiebung für einen Freiheitsgrad wird erklärt unter <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>
 
 
 

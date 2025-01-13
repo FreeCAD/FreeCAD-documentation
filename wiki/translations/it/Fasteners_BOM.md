@@ -1,41 +1,45 @@
 ---
  GuiCommand:
    Name: Fasteners BOM
+   Name/it: Fasteners BOM
    MenuLocation: Fasteners , Generate BOM
-   Workbenches: Fasteners_Workbench
-   SeeAlso: Spreadsheet_Workbench
+   Workbenches: Fasteners_Workbench/it
+   SeeAlso: Spreadsheet_Workbench/it
 ---
 
 # Fasteners BOM/it
 
-## Description
 
-The <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> **Fasteners BOM** command creates a spreadsheet with a bill of materials (BOM) for the fasteners in the document.
+
+## Descrizione
+
+Il comando <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> **Fasteners BOM** crea un foglio di calcolo con una distinta materiali (BOM) per gli elementi di fissaggio nel documento.
 
 <img alt="" src=images/Fasteners_BOM_Example.png  style="width:650px;"> 
-*A model with a Fasteners BOM spreadsheet*
-
-## Usage
-
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Fasteners_BOM.svg" width=16px> [Generate BOM](Fasteners_BOM.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_BOM.svg" width=16px> Generate BOM** option from the menu.
-2.  A Fasteners BOM spreadsheet is created.
-
-## Notes
-
--   A Fasteners BOM spreadsheet does not update if fasteners are changed, or if fasteners are added or removed. In such cases the command has to be used to create a new spreadsheet.
--   A Fasteners BOM spreadsheet can be exported with the [Spreadsheet Export](Spreadsheet_Export.md) command.
+*Un modello con il foglio di calcolo della distinta base Fasteners*
 
 
 
+## Utilizzo
+
+1.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Fasteners_BOM.svg" width=16px> [Generate BOM](Fasteners_BOM/it.md)**.
+    -   Selezionare l\'opzione **Fasteners → <img src="images/Fasteners_BOM.svg" width=16px> Generate BOM** dal menu.
+2.  Viene creato un foglio di calcolo con la distinta base degli elementi di fissaggio.
 
 
-{{Fasteners Tools navi
 
-}}
+## Note
+
+-   Un foglio di calcolo della distinta base degli elementi di fissaggio non si aggiorna se gli elementi di fissaggio vengono modificati o se gli elementi di fissaggio vengono aggiunti o rimossi. In questi casi è necessario utilizzare il comando per creare un nuovo foglio di calcolo.
+-   È possibile esportare un foglio di calcolo della distinta base degli elementi di fissaggio con il comando [Esporta di Spreadsheet](Spreadsheet_Export/it.md).
+
+
+
+
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners BOM/it
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners BOM/it

@@ -10,27 +10,30 @@
 # Sketcher MirrorSketch/es
 
 
+</div>
+
+
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 Simetría de un croquis a lo largo del eje x, el eje y o el origen. Este comando se invoca mientras \"no\" se edita un croquis. Crea un nuevo croquis que contiene la geometría simétrica.
+
+
+</div>
 
 
 
 ## Utilización
 
-1.  Seleccione el croquis que desea simétrica (normalmente haciendo clic en él en la [vista de árbol](Tree_view/es.md)).
-2.  Haga clic en **[<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Simetría Croquis](Sketcher_MirrorSketch/es.md)** o elige **Croquis → [<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Simetría Croquis](Sketcher_MirrorSketch/es.md)** en el menú superior.
-3.  El croquis resultante se crea como un nuevo objeto independiente.
-
-## Notes
-
 
 <div class="mw-translate-fuzzy">
 
-Notas:
-
--   Se pueden seleccionar varios croquis antes de aplicar la operación.
+1.  Seleccione el croquis que desea simétrica (normalmente haciendo clic en él en la [vista de árbol](Tree_view/es.md)).
+2.  Haga clic en **[<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Simetría Croquis](Sketcher_MirrorSketch/es.md)** o elige **Croquis → [<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Simetría Croquis](Sketcher_MirrorSketch/es.md)** en el menú superior.
+3.  El croquis resultante se crea como un nuevo objeto independiente.
 
 
 </div>

@@ -67,7 +67,7 @@ Alcune delle caratteristiche e limitazioni di questo esportatore sono:
 -   I bordi diritti delle facce degli oggetti 3D vengono esportati, ma i bordi curvi solo se si trovano su un piano parallelo al piano XY del sistema di coordinate globale. Tenere presente che un DXF creato da oggetti 3D conterrà linee duplicate.
 -   Testi e quotature non vengono esportati.
 -   I colori vengono ignorati.
--   I livelli vengono mappati in base ai nomi degli oggetti.
+-   I layer vengono mappati in base ai nomi degli oggetti.
 
 
 
@@ -80,7 +80,7 @@ Alcune delle caratteristiche e limitazioni di questo esportatore sono:
 -   Gli oggetti composti vengono esportati come blocchi.
 -   I testi e le quotature vengono esportati.
 -   I colori nel DXF si basano sul colore della linea degli oggetti. Il nero è mappato su \"ByBlock\", gli altri colori sono mappati utilizzando i colori AutoCAD Color Index (ACI).
--   I livelli vengono mappati in base ai nomi dei livelli e dei gruppi. Quando i gruppi sono nidificati, il nome del livello viene assegnato al gruppo più profondo.
+-   I layer vengono mappati in base ai nomi dei layer e dei gruppi. Quando i gruppi sono nidificati, il nome del layer viene assegnato al gruppo più profondo.
 
 
 
@@ -104,7 +104,7 @@ Tenere presente che il formato DXF consente una conversione 1:1 del formato DWG.
 
 -   [LibreDWG](https://www.gnu.org/software/libredwg) (open source, manca il supporto per alcune entità DWG).
 -   [Convertitore di file ODA](https://www.opendesign.com/guestfiles/oda_file_converter) (gratuito).
--   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commerciale). {{Version/it|0.20}}
+-   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commerciale).
 
 Vedere [Preferenze di Importa/Esporta](Import_Export_Preferences/it#DWG.md) e [Importare i file DWG in FreeCAD](FreeCAD_and_DWG_Import/it.md) per maggiori informazioni.
 

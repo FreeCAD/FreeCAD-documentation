@@ -24,9 +24,9 @@ The **TechDraw Balloon** tool can add balloons with leader line in a drawing.
 
 1.  Select one of the following:
     -   A View (on the page or in the [Tree view](Tree_view.md)).
-    -   A vertex in a View. <small>(v0.20)</small> 
-    -   An edge in a View. <small>(v0.20)</small> 
-    -   A closed region in a View. <small>(v0.20)</small> 
+    -   A vertex in a View.
+    -   An edge in a View.
+    -   A closed region in a View.
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_Balloon.svg" width=16px> [Insert Balloon Annotation](TechDraw_Balloon.md)** button.
     -   Select the **TechDraw → Annotations → <img src="images/TechDraw_Balloon.svg" width=16px> Insert Balloon Annotation** option from the menu.
@@ -115,7 +115,7 @@ rc = page.addView(bal1)
 </div>
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

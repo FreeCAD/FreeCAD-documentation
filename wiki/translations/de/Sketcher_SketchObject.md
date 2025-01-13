@@ -17,28 +17,7 @@ Das `Sketcher::SketchObject` ist vom [Part Part2DObject](Part_Part2DObject/de.md
 
 ## Anwendung
 
-1.  Zum Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) wechseln.
-
-2.  Die Schaltfläche **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NeueSkizze](Sketcher_NewSketch/de.md)** drücken.
-
-3.  Eine **Skizzenorientierung** auswählen: XY-Ebene, XZ-Ebene, oder YZ-Ebene. Wahlweise die **Umgekehrte Richtung** aktivieren, und einen **Offset**-Wert eingeben.
-
-4.  
-    **OK**drücken.
-
-Auch wenn das Sketch-Objekt eigenständig verwendet werden kann, um auf einer Fläche zu zeichnen, wird es meistens in Verbindung mit dem Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md) verwendet um extrudierte Volumenkörper zu erstellen.
-
-1.  Zum Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) wechseln.
-
-2.  Die Schaltfläche **[<img src=images/PartDesign_Body.svg style="width:16px"> [Körper erstellen](PartDesign_Body/de.md)** drücken.
-
-3.  Die Schaltfläche **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Skizze erstellen](PartDesign_NewSketch/de.md)** drücken.
-
-4.  
-    **Element auswählen**: XY_Plane (Basis-Ebene), XZ_Plane (Basis-Ebene), oder YZ_Plane (Basis-Ebene).
-
-5.  
-    **OK**drücken.
+Siehe [Sketcher NeueSkizze](Sketcher_NewSketch/de.md).
 
 
 
@@ -79,21 +58,11 @@ Das Sketcher Sketch-Objekt hat außerdem die folgenden zusätzlichen Eigenschaft
 
 {{TitleProperty|Grid}}
 
--    {{PropertyView/de|Grid Auto Size|Bool|Hidden}}: Wenn `True`, wird die Größe eines Rasters auf Basis der Boundingbox der Geometrie einer Skizze angepasst.
+-    {{PropertyView/de|Grid Auto|Bool}}: Wenn `True`, wird die Größe eines Rasters auf Basis der Boundingbox der Geometrie einer Skizze angepasst.
 
 -    {{PropertyView/de|Grid Size|Length}}: Der Wert für den Abstand der lokalen Rasterlinien in der [3D-Ansicht](3D_view/de.md); Standardwert ist {{value|10 mm}}.
 
--    {{PropertyView/de|Grid Snap|Bool}}: Wenn `True`, kann das Raster zum Fangen von Punkten verwendet werden.
-
--    {{PropertyView/de|Grid Style|Enumeration}}: Linienart der Rasterlinien; {{value|Dashed}} (Standard) oder {{value|Light}}.
-
 -    {{PropertyView/de|Show Grid|Bool}}: Wenn `True`, wird in der [3D-Ansicht](3D_view/de.md) örtlich am Objekt ein Raster angezeigt. Dieses Raster ist unabhängig vom [Draft Raster](Draft_ToggleGrid/de.md).
-
--    {{PropertyView/de|Show Only In Edit Mode|Bool}}: Wenn `True`, wird das Raster nur angezeigt, während die Skizze bearbeitet wird.
-
--    {{PropertyView/de|Tight Grid|Bool}}: Wenn `True`, wird das örtliche Raster nur in der nähe des Ursprungs der Form dargestellt, andernfalls wird es weiter ausgedehnt.
-
--    {{PropertyView/de|max Number Of Lines|Integer}}: Die maximale Anzahl an Linien in einem Raster.
 
 
 {{TitleProperty|Visibility automation}}

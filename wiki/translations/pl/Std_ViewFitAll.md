@@ -32,34 +32,32 @@ Polecenie **Przybliż i dopasuj wszystko** powiększa i przesuwa ujęcie widoku 
 
 ## Tworzenie skryptów 
 
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby zmienić widok na widok *Przybliż i dopasuj wszystko*, należy użyć metody `fitAll` obiektu ActiveView. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
+Aby zmienić widok na widok *Przybliż i dopasuj wszystko*, należy użyć metody `fitAll` obiektu ActiveView.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.fitAll()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.fitAll()
 ```
 
-Alternatywnie można użyć metody `SendMsgToActiveView` obiektu FreeCADGui. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
+Alternatywnie można użyć metody `SendMsgToActiveView` obiektu FreeCADGui.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.SendMsgToActiveView('ViewFit')
+FreeCADGui.SendMsgToActiveView("ViewFit")
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

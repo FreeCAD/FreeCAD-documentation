@@ -1,17 +1,23 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM MaterialMechanicalNonlinear
    Name/fr: FEM Matériau mécanique non linéaire
    MenuLocation: Modèle , Matériaux ,  Matériau mécanique non linéaire
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: CalculiX
+}}
 ---
 
 # FEM MaterialMechanicalNonlinear/fr
 
 ## Description
 
-Crée un matériau mécanique non linéaire. Actuellement, seule la plasticité avec un durcissement simple (isotrope) est disponible.
+Crée un matériau mécanique non linéaire. Actuellement, seule la plasticité avec un durcissement simple (isotrope) est disponible. {{Version/fr|1.0}} : l\'écrouissage cinématique est également disponible.
 
 
 
@@ -21,8 +27,8 @@ Crée un matériau mécanique non linéaire. Actuellement, seule la plasticité 
     -   Ajouter d\'abord un **<img src="images/FEM_MaterialSolid.svg" width=16px> [Matériau pour solide](FEM_MaterialSolid/fr.md)** et sélectionnez-le.
     -   Cliquer sur le bouton **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> [Matériau mécanique non linéaire](FEM_MaterialMechanicalNonlinear/fr.md)** ou choisissez l\'option **Modèle → Matériaux → <img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> Matériau mécanique non linéaire** dans le menu.
 2.  Pour modifier un objet Matériau mécanique non linéaire existant :
-    -   Slectionner le dessus dans la [vue en arborescence](Tree_view/fr.md).
-    -   Sélectionner le modèle de matériau (actuellement, seul le durcissement simple est disponible).
+    -   Sélectionner le dessus dans la [vue en arborescence](Tree_view/fr.md).
+    -   Sélectionner le modèle de matériau (durcissement isotrope (simple) ou {{Version/fr|1.0}} : écrouissage cinématique).
     -   Définir les limites d\'élasticité (contrainte \[MPa\] en fonction de la déformation plastique). Le premier point doit avoir une déformation plastique nulle. Appuyez sur le bouton **...** à côté de **Yield Points** pour saisir les points à l\'aide d\'une liste intuitive. La syntaxe est décrite dans la section [Remarques](##Remarques.md).
 
 

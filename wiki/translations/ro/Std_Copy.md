@@ -32,14 +32,14 @@ Comanda **[16px|text-top=Std Copy|link=Std Copy/fr](File:Std_Copy.png.md) [copie
 
 ## Notes
 
--   When you are working in a FreeCAD text window, an input box or a spreadsheet, the standard keyboard shortcut **Ctrl**+**C**, in almost all cases, does not call the **Std Copy** command but uses the Copy function from the OS instead.
+-   When you are working in a FreeCAD text window, an input box or a spreadsheet, the standard keyboard shortcut **Ctrl**+**C**, in almost all cases, does not call this command but uses the Copy function from the OS instead.
 -   It is not possible to copy-paste native objects between FreeCAD and other applications.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

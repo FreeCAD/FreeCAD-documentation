@@ -25,13 +25,19 @@
 
 </div>
 
-A note of caution, using this tool to link to generated (solid) geometry can lead to unexpected results due to [Topological Naming Problem](Topological_naming_problem.md). Also see [Advice for stable models](Feature_editing#Advice_for_creating_stable_models.md).
 
-<FILE:Sketcher_ExternalEsempio1.png>
+<small>(v1.1)</small> 
+
+: See <img alt="" src=images/Sketcher_Projection.svg  style="width:24px;"> [Sketcher Projection](Sketcher_Projection.md)
+
+![](images/Sketcher_ExternalEsempio1.png ) 
+*The two magenta lines are external geometry linked to edges of a pre-existing [Pad](PartDesign_Pad.md). They are used to constrain the circles.*
 
 
 
 ## Применение
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -44,77 +50,11 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 
 </div>
 
+## Notes
 
-<div class="mw-translate-fuzzy">
-
-### Правила выбора 
-
-Правила выбора объектов, которые можно импортировать, существенно различаются между версиями FC v0.16 и FC v0.17.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-То есть эскиз и объект должны находиться в одном и том же теле, или в одной и той же детали, или оба за пределами детали или тела.
-
-
-</div>
-
-Например, если открытый эскиз находится в теле, вы можете использовать другой эскиз из тела в качестве внешней геометрии, но вы не можете использовать эскиз из Body001, или ребро из Детали Куба в корне проекта. Используйте функцию Shapebinder, чтобы ввести копию объекта в систему координат открытого эскиза. Тогда вы сможете использовать ребра/вершины объекта Shapebinder.
-
--   Круговые зависимости не допускаются.
-
-Это означает, что вы не можете ссылаться на Вырез, созданный с помощью этого же эскиза. Вы не можете ссылаться на любой объект, который зависит от того же эскиза.
-
-
-<div class="mw-translate-fuzzy">
-
-В отличии в версии FC v0.16, эскизу не обязательно быть на любой грани, чтобы использовать этот инструмент. Ссылки непосредственно между эскизами возможны и поощряются, так как они более надежны.
-
-
-</div>
-
-### Внешний вид при успешном соединении 
-
-Когда ребро будет успешно связано, то появится цветная линия (по умолчанию пурпурная ,вершины по умолчанию красные), и она будет видна на эскизе только в режиме редактирования.
-
-### Сходство со вспомогательной геометрией 
-
-Линии внешней геометрии (по умолчанию пурпурные) аналогичны линиям (по умолчанию синие) [Вспомогательной геометрии](Sketcher_ToggleConstruction/ru.md) за исключением того, что пурпурные линии внешней геометрии параметрически связаны с элементом тела, к которому привязан эскиз. Вспомогательная геометрия - это внутренние линии эскиза видимые только тогда, когда эскиз находится в режиме редактирования,используемые только для привязки ограничений, а не на прямую для последующих операций с твердыми телами, таких как Выдавливание или Вырез.
-
-
-
-### Использование внешней геометрии в верстаке PartDesign 
-
-В верстаке PartDesign, инструмент «Внешняя геометрия» используется для облегчения позиционирования твердого тела, которое вы строите, относительно предыдущего этапа его построения. Верстак PartDesign предназначен для создания одного единственного тела, поэтому эти эскизы, с внешней геометрией, используются для создания нового элемента этого тела.
-
-Например, внешняя геометрия может использоваться в качестве привязки ограничения, используемого для позиционирования отверстия в объекте в определенном месте относительно ребра или вершины.
-
-
-
-### Использование внешней геометрии в верстаке Part 
-
-Вы можете использовать любую геометрию детали, которая находится в системе координат эскиза. Рекомендуется ссылаться на самые ранние элементы детали, поскольку они формируют более стабильную связь.
-
-
-
-## Пример
-
-Ниже приведен эскиз, связанный с верхней гранью тела, созданного Выдавливанием из предыдущего эскиза. Пурпурные линии - это Внешняя Геометрия, связанная с двумя ребрами созданного ранее Выдавливания.
-
-В этом случае они используются в качестве эталона для ограничения касания с окружностями одного круга. Они также используются в качестве эталона для горизонтального и вертикального ограничения, чтобы найти центр второго круга относительно низа и верха Выдавливания.
-
-<FILE:Sketcher_ExternalEsempio2.png>
-
-Это тот же эскиз в режиме редактирования, но в котором Выдавливание, с которым он связан, скрыто.
-
-<FILE:Sketcher_ExternalEsempio4.png>
-
-Когда режим редактирования эскиза закрыт, линии внешней геометрии не видны.
-
-<FILE:Sketcher_ExternalEsempio3.png>
+-   Only edges and vertices from objects within the same coordinate system can be selected. The sketch and the object must be in same [Body](PartDesign_Body.md), or the same [Part](Std_Part.md), or both in the global coordinate system. Use a [Binder](PartDesign_SubShapeBinder.md) to bring a copy of the object into the current coordinate system if required.
+-   Circular dependencies are not allowed. You cannot link to an object that depends on the sketch itself.
+-   Links to elements from other sketches are possible, and encouraged, as they are more reliable than links to generated (solid) geometry. The latter can suffer from the [Topological Naming Problem](Topological_naming_problem.md). See [Advice for stable models](Feature_editing#Advice_for_creating_stable_models.md).
 
 
 <div class="mw-translate-fuzzy">

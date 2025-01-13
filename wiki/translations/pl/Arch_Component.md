@@ -1,54 +1,108 @@
 ---
  GuiCommand:
    Name: Arch Component
-   MenuLocation: Arch , Utilities , Component‎‏‎
-   Workbenches: Arch_Workbench
+   Name/pl: Architektura: Komponent‎‏‎
+   MenuLocation: 3D/BIM , Narzędzia ogólne 3D , Komponent‎‏‎
+   Workbenches: BIM_Workbench/pl
    Shortcut: **C** **M**
 ---
 
 # Arch Component/pl
 
-## Description
 
-Creates a non-parametric [Arch](Arch_Workbench.md) component from any [Part](Part_Workbench.md)-based object. This gives the Part-based object the same attributes and properties as other Arch objects, and allows to specify how it should be exported to IFC by setting its **Role** property.
 
-## Usage
+## Opis
 
-1.  Select a [Part](Part_Workbench.md)-based object.
-2.  Invoke Arch Component utilizing several methods:
-    -   Pressing the **<img src="images/Arch_Component.svg" width=16px>** button from the toolbar.
-    -   Using the use the **C** **M** keyboard shortcut.
-    -   Using the **Arch** → **Utilities** → **<img src="images/Arch_Component.svg" width=16px> [Component](Arch_Component.md)** entry from the top menu.
+Tworzy nieparametryczny komponent [BIM](BIM_Workbench/pl.md) z dowolnego obiektu opartego na [Części](Part_Workbench/pl.md). Daje to obiektowi opartemu na części te same atrybuty i właściwości co innym obiektom Architektury i pozwala określić, w jaki sposób powinien być eksportowany do IFC poprzez ustawienie jego właściwości **Typ IFC**.
 
-## Common Arch component properties 
 
-The Arch component object is also a base shared by all other Arch objects (**<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)**, **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)**, etc). Therefore some of its properties and behaviours are common to all Arch objects (except tools that don\'t produce solid objects, like **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch Section Plane](Arch_SectionPlane.md)** or **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis.md)**):
 
--   **Base shape**: Arch Components are always based on a [Shape](Part_Workbench.md)-based base object. Some types of Arch objects will just use the Base shape as is, others (for example (**<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)**) will do some additional operations on it, such as an extrusion. For some types, having a base object is not mandatory (**<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)**)
+## Użycie
 
--   **Additions**: Arch Components have an addition property, that can hold reference to any number of other [Shape](Part_Workbench.md)-based objects. The shape of these additions will be united with the base shape of the component, to produce the final shape.
+1.  Wybierz obiekt oparty na [Części](Part_Workbench/pl.md).
+2.  Istnieje kilka sposobów wywołania polecenia:
+    -   Naciśnij przycisk **<img src="images/Arch_Component.svg" width=16px> Komponent**.
+    -   Wybierz z menu opcję **3D/BIM → Narzędzia ogólne 3D → <img src="images/Arch_Component.svg" width=16px> Komponent**.
+    -   Użyj skrótu klawiaturowego: **C**, a następnie **M**.
 
--   **Subtractions**: Arch Components have an subtraction property, that can hold reference to any number of other [Shape](Part_Workbench.md)-based objects. The shape of these objects will be subtracted from the base shape of the component, to produce the final shape.
 
--   The Placement of the Arch Component is applied after the additions and subtractions are done, so these are performed against the base object at its base location. Then the result is moved to the location of the Placement.
 
--   Objects can be added or removed to/from a Component\'s Additions and Subtractions lists by selecting both the object and the component, and using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** or **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** commands, or from the task panel by double-clicking the Component in the [Tree view](Tree_view.md). The task panel also allows to check which object is currently part of these lists.
+## Właściwości
 
--   **Role**: Each Arch Component, besides the function defined by its type (wall, window, etc), also has a Role property, that can define further which kind of function it performs. For example, an **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** can have a beam or column role. Generic Arch Components (as produced by this command) can have any role available in the whole Arch workbench. The role is what is used to define the type of IFC object to export to when [exporting to IFC](Arch_IFC.md).
+Obiekt komponent Architektury jest również bazą współdzieloną przez wszystkie inne obiekty Architektury *([ścina](Arch_Wall/pl.md), [konstrukcja](Arch_Structure/pl.md) itd.)* Dlatego niektóre z jego właściwości i zachowań są wspólne dla wszystkich obiektów Architektury *(z wyjątkiem narzędzi, które nie tworzą obiektów bryłowych, takich jak [Płaszczyzna przekroju](Arch_SectionPlane/pl.md) lub [Osie](Arch_Axis/pl.md))*.
 
--   **Clone Of**: Any Arch Component can be a clone of another Arch Component of the same type (a Wall can only be a clone of another Wall, etc.). The only exception is the generic Arch Component (as produced by this command), that can be clone of any other type (Wall, structure, window, etc). This allows to use a generic Arch Component to override the type of another one.
 
--   **Description**: All Arch Components have a Description field, that can contain any text. This is used when [exporting to IFC](Arch_IFC.md).
 
--   **Tag**: The Tag property is another text field, which can be used to give an additional custom identity to objects.
+### Dane
 
--   **Material**: All Arch Components have a Material slot, that can contain either a [Material](Arch_SetMaterial.md) or a [MultiMaterial](Arch_MultiMaterial.md) (not all Arch object type support the use of [MultiMaterials](Arch_MultiMaterial.md)). The DiffuseColor and Transparency properties of the attached material will define the Shape color and transparency of the Arch component. The material will be imported and exported to [IFC](Arch_IFC.md), [OBJ](Arch_OBJ.md) and [DAE](Arch_DAE.md).
 
--   **Move with Host**: When a component is embedded inside another (for example a window inside a wall), setting this property to True will make the object move and rotate together when its host object is moved or rotated using **<img src="images/Draft_Move.svg" width=16px> [Draft Move](Draft_Move.md)** or **<img src="images/Draft_Rotate.svg" width=16px> [Draft Rotate](Draft_Rotate.md)**.
+{{TitleProperty|Komponent}}
 
--   **Hi Res**: Arch Components can use the shape of another object as a higher-resolution version of themselves. For this, both the Hi Res property and the Hi Res display mode must be set. This allows, for example, to make a simple wall, and then model every brick that composes the wall, for example with **<img src="images/Part_Box.svg" width=16px> [Part Box](Part_Box.md)**. Then, use a compound of those bricks as a high-resolution version of the wall. The shape of the wall is not modified by adding a Hi-Res object. Only its representation in the [3D view](3D_view.md) will change by adopting the representation of the high-resolution version instead of its own.
+-    **Dodatki|LinkList**: Komponenty architektury mają właściwość obiektu dodanego, która może zawierać odniesienie do dowolnej liczby innych obiektów opartych na [kształcie](Part_Workbench/pl.md). Kształt tych dodatków zostanie połączony z podstawowym kształtem komponentu, aby uzyskać ostateczny kształt. Zobacz akapit [Uwagi](#Uwagi.md)
+
+-    **Oś|Link**: An optional axis or axis system on which this object should be duplicated.
+
+-    **Kształt bazowy|Link**: Komponenty architektury są zawsze oparte na obiekcie bazowym [kształtu](Part_Workbench/pl.md). Niektóre typy obiektów będą po prostu używać kształtu bazowego, inne *(na przykład <img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [ściana](Arch_Wall/pl.md))* wykonają na nim dodatkowe operacje, takie jak wyciągnięcie. W przypadku niektórych typów, posiadanie obiektu bazowego nie jest obowiązkowe *(<img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [konstrukcja](Arch_Structure/pl.md))*.
+
+-    **Klon z|Link**: Każdy komponent Architektury może być klonem innego komponentu Architektury tego samego typu *(Ściana może być tylko klonem innej Ściany, itd.)*. Jedynym wyjątkiem jest generyczny komponent architektury *(generowany przez to polecenie)*, który może być klonem dowolnego innego typu *(ściana, struktura, okno itp.)*. Pozwala to na użycie generycznego komponentu Architektury do nadpisania typu innego komponentu.
+
+-    **Wysoka rozdzielczość|Link**: Komponenty Architektury mogą używać kształtu innego obiektu jako wersji o wyższej rozdzielczości. W tym celu należy ustawić zarówno właściwość Wysoka rozdzielczość, jak i tryb wyświetlania Wysokiej rozdzielczości. Pozwala to na przykład na stworzenie prostej ściany, a następnie wymodelowanie każdej cegły, która ją tworzy, na przykład za pomocą [Sześcian](Part_Box/pl.md). Następnie użyj złożenia tych cegieł jako wersji ściany w wysokiej rozdzielczości. Kształt ściany nie jest modyfikowany przez dodanie obiektu wysokiej rozdzielczości. Zmieni się tylko jego reprezentacja w oknie [widoku 3D](3D_view/pl.md), przyjmując reprezentację wersji wysokiej rozdzielczości zamiast własnej.
+
+-    **Obszar poziomy|Area**: Obszar rzutu tego obiektu na płaszczyznę XY *(tylko do odczytu)*.
+
+-    **Materiał|Link**: Wszystkie komponenty Architektury posiadają miejsce na materiał, który może zawierać [Material](Arch_SetMaterial/pl.md) lub [Materiał wielowarstwowy](Arch_MultiMaterial/pl.md) *(nie wszystkie typy obiektów Architektury wspierają użycie [Materiału wielowarstwowego](Arch_MultiMaterial/pl.md))*. Właściwości Rozproszony kolor i Przezroczystość dołączonego materiału zdefiniują kolor kształtu i przezroczystość komponentu Architektury. Materiał będzie importowany i eksportowany do [IFC](Arch_IFC/pl.md), [OBJ](Arch_OBJ/pl.md) i [DAE](Arch_DAE/pl.md).
+
+-    **Przesuń bazę|Bool**: Określa, czy przeniesienie tego obiektu spowoduje przeniesienie jego podstawy.
+
+-    **Przesuń z obiektem nadrzędnym|Bool**: Gdy komponent jest osadzony wewnątrz innego *(na przykład okno wewnątrz ściany)*, ustawienie tej właściwości na {{True/pl}} sprawi, że obiekt przesunie się i obróci razem, gdy jego obiekt nadrzędny zostanie przesunięty lub obrócony za pomocą narzędzi [Przesuń](Draft_Move/pl.md) lub [Obróć](Draft_Rotate/pl.md).
+
+-    **Długość obwodu|Length**: Długość obwodu obszaru poziomego *(tylko do odczytu)*.
+
+-    **Kod standardowy|String**: Opcjonalny kod standardowy *(OmniClass itp.)* dla tego komponentu.
+
+-    **Odjęcia|LinkList**: Komponenty architektury mają właściwość obiektu odjęcia, która może zawierać odniesienie do dowolnej liczby innych obiektów opartych na [kształcie](Part_Workbench/pl.md). Kształt tych obiektów zostanie odjęty od bazowego kształtu komponentu, aby uzyskać ostateczny kształt. Zobacz akapit [Uwagi](#Uwagi.md).
+
+-    **Obszar pionowy|Area**: Obszar wszystkich pionowych powierzchni tego obiektu *(tylko do odczytu)*.
+
+
+{{TitleProperty|IFC}}
+
+-    **Dane IFC|Map|Hidden**:
+
+-    **Właściwości IFC|Map|Hidden**:
+
+-    **Typ IFC|Enumeration**: Każdy komponent architektury, oprócz funkcji zdefiniowanej przez jego typ *(ściana, okno itp.)*, posiada również właściwość Rola, która może dodatkowo definiować rodzaj pełnionej przez niego funkcji. Na przykład [konstrukcja](Arch_Structure/pl.md) może pełnić rolę belki lub słupa. Generyczne komponenty Architektury *(generowane przez to polecenie)* mogą mieć dowolną rolę dostępną w całym środowisku roboczym Architektury. Rola jest używana do definiowania typu obiektu IFC, który ma zostać wyeksportowany podczas [eksport do IFC](Arch_IFC/pl.md).
+
+
+{{TitleProperty|Atrybuty IFC}}
+
+-    **Opis|String**: Wszystkie komponenty Architektury mają pole Opis, które może zawierać dowolny tekst. Jest ono używane podczas [eksportu do IFC](Arch_IFC/pl.md).
+
+-    **Id Globalny|String**:
+
+-    **Typ Obiektu|String**:
+
+-    **Typ predefiniowany|Enumeration**:
+
+-    **Tag|Enumeration**: Właściwość Tag jest kolejnym polem tekstowym, które może być użyte do nadania dodatkowej niestandardowej tożsamości obiektom.
+
+
+
+## Uwagi
+
+-   Umieszczenie komponentu archiektury jest stosowane po wykonaniu dodawania i odejmowania, więc są one wykonywane względem obiektu bazowego w jego lokalizacji bazowej. Następnie wynik jest przenoszony do lokalizacji Umiejscowienia.
+
+-   Obiekty mogą być dodawane lub usuwane z list dodawania i odejmowania komponentów poprzez zaznaczenie zarówno obiektu, jak i komponentu, a następnie użycie przycisku [Połącz obiekty](Arch_Add/pl.md) lub [Usuń komponent](Arch_Remove/pl.md) lub z panelu zadań poprzez dwukrotne kliknięcie komponentu w [Widoku drzewa](Tree_view/pl.md). Panel zadań pozwala również sprawdzić, który obiekt jest aktualnie częścią tych list.
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/pl
+⏵ [documentation index](../README.md) > Arch Component/pl

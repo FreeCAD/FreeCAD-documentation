@@ -23,7 +23,7 @@ The **TechDraw RichTextAnnotation** tool adds a formatted annotation block to a 
 3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_RichTextAnnotation.svg" width=16px> [Insert Rich Text Annotation](TechDraw_RichTextAnnotation.md)** button.
     -   Select the **TechDraw → Annotations → <img src="images/TechDraw_RichTextAnnotation.svg" width=16px> Insert Rich Text Annotation** option from the menu.
-4.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+4.  If there are multiple drawing pages in the document and you have not yet activated a page, the **Page Chooser** dialog box opens:
     1.  Select the desired page.
     2.  Press the **OK** button.
 5.  A task panel opens.

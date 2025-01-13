@@ -8,33 +8,35 @@
 
 ## Informacje ogólne 
 
-This page describes how to compile the FreeCAD source code on macOS. For other platforms, see [Compiling](Compiling.md).
+Ta strona opisuje, jak kompilować kod źródłowy FreeCAD na macOS. Aby zapoznać się z kompilacją na innych platformach, zobacz [Kompilacja](Compiling/pl.md).
 
-These instructions have been tested on macOS Catalina with standard XCode 11.6. It is known to work on macOS BigSur Beta with XCode 12.0 beta. If you plan to use XCode Beta, please be sure to download Command Line Tools add on through a dmg package to workaround some libz dependency issues.
+Te instrukcje były testowane na macOS Catalina ze standardowym Xcode 11.6. Ich działanie jest też potwierdzone na macOS Big Sur Beta z Xcode 12.0 beta. Jeśli planujesz używać wersji beta Xcode, upewnij się, że pobrałeś dodatek Command Line Tools przez pakiet dmg, aby obejść problemy z zależnościami libz.
 
-This page serves as a quick start, and is not intended to be comprehensive with regard to describing all the available build options.
+Ta strona służy jako szybki przewodnik i nie jest przeznaczona do szczegółowego opisywania wszystkich dostępnych opcji kompilacji.
 
-If you just want to evaluate the latest pre-release build of FreeCAD, you can download pre-built binaries [from here](https://github.com/FreeCAD/FreeCAD/releases).
+Jeśli chcesz tylko przetestować najnowszą wersję przed-wydaniową FreeCAD, możesz pobrać gotowe pliki wykonywalne [stąd](https://github.com/FreeCAD/FreeCAD/releases).
 
-## Install Prerequisites 
 
-The following software must be installed to support the build process.
+
+## Instalacja wymaganego oprogramowania 
+
+Następujące oprogramowanie musi być zainstalowane aby umożliwić kompilację.
 
 ### Homebrew Package Manager 
 
-Homebrew is a command line based package manager for macOS. The [Homebrew main page](https://brew.sh/) provides an installation command line that you simply paste into a terminal window.
+Homebrew to menedżer pakietów oparty na wierszu poleceń dla macOS. [Strona główna Homebrew](https://brew.sh/) zawiera polecenie instalacyjne, które wystarczy wkleić do okna terminala.
 
 
 
 ### CMake
 
-CMake is a build tool that generates a build configuration based on variables you specify. You then issue the \'make\' command to actually build that configuration. The command-line version of CMake is automatically installed as part of the Homebrew installation, above. If you prefer to use a GUI version of CMake, you can download it from [here](https://www.cmake.org/downloadDownload).
+CMake to narzędzie do kompilacji, które generuje konfigurację kompilacji na podstawie określonych przez Ciebie zmiennych. Następnie wydajesz polecenie \make\, aby rzeczywiście zbudować tę konfigurację. Wersja wiersza poleceń CMake jest automatycznie instalowana jako część instalacji Homebrew powyżej. Jeśli wolisz używać wersji graficznej CMake, możesz pobrać ją [stąd](https://www.cmake.org/downloadDownload).
 
 
 
 ## Instalacja zależności 
 
-FreeCAD maintains a Homebrew \'cask\' which installs the required formulas and dependencies. Issue the following brew commands in your terminal.
+FreeCAD utrzymuje \'cask\' Homebrew, który instaluje wymagane formuły i zależności. Wykonaj poniższe polecenia \brew\ w terminalu.
 
 
 ```python
@@ -46,9 +48,9 @@ brew install --only-dependencies freecad
 
 {{Incode|brew install}}
 
-may take quite a while, so you may want go grab a beverage. :-).
+może potrwać dość długo, więc warto przygotować sobie napój. :-).
 
-Alternately, you can install the individual dependencies manually by installing the following packages using {{Incode|brew install ...}}:
+Alternatywnie możesz ręcznie zainstalować poszczególne zależności, instalując następujące pakiety za pomocą {{Incode|brew install ...}}:
 
 -    `cmake`
     
@@ -74,7 +76,7 @@ Alternately, you can install the individual dependencies manually by installing 
 -    `xerces-c`
     
 
--    `qt@5`\- Only Qt5 is currently supported, support for Qt6 is a work-in-progress
+-    `qt@5`\- Obecnie obsługiwany jest tylko Qt5, wsparcie dla Qt6 jest w trakcie opracowywania
 
 -    `opencascade`
     
@@ -85,9 +87,9 @@ Alternately, you can install the individual dependencies manually by installing 
 -    `pkgconfig`
     
 
--    `coin3d`\- Note that as of this writing (Nov. 2022) this will install an unusable version of pyside@2 as a dependency.
+-    `coin3d`\- Zauważ, że w momencie pisania (listopad 2022) ta wersja zainstaluje nieużywalną wersję pyside@2 jako zależność
 
-There are several packages that are only available when you have tapped the freecad cask: you must do that (`brew tap freecad/freecad`). Due to some historical bug workarounds, at the time of this writing (Nov. 2022) the versions of PySide2 and Shiboken2 installed by Homebrew are not usable because they force the use of Py_Limited_API, which FreeCAD does not support. It is expected that this workaround will be removed in the coming months, but in the meantime you must use the FreeCAD cask versions of PySide and Shiboken. Use `brew install ...`, install the following packages:
+Istnieje kilka pakietów, które są dostępne tylko po dodaniu tapu freecad cask: musisz to zrobić (`brew tap freecad/freecad`). Z powodu niektórych historycznych obejść błędów, w momencie pisania (listopad 2022) wersje PySide2 i Shiboken2 zainstalowane przez Homebrew są nieużywalne, ponieważ wymuszają użycie Py_Limited_API, którego FreeCAD nie obsługuje. Oczekuje się, że to obejście zostanie usunięte w nadchodzących miesiącach, ale w międzyczasie musisz używać wersji PySide i Shiboken z tapu FreeCAD. Użyj `brew install ...`, aby zainstalować następujące pakiety:
 
 -    `freecad/freecad/pyside2@5.15.5`
     
@@ -101,16 +103,16 @@ There are several packages that are only available when you have tapped the free
 -    `freecad/freecad/netgen`
     
 
-You will also need to \"link\" PySide and Shiboken:
+Będziesz także musiał połączyć PySide i Shiboken:
 
 
 ```python
 brew link freecad/freecad/pyside2@5.15.5 freecad/freecad/shiboken2@5.15.5
 ```
 
-In some cases the packages installed by Homebrew do not use the same Python version: for example, at the time of this writing PySide2 uses Python 3.10, but boost-python3 uses Python 3.11. While it is possible to \"roll back\" the more advanced version (so that in this case boost-python3 uses Python 3.10) this is an advanced operation, and in many cases it is best to wait for an update to the other package. If you want to pursue that path anyway, look at the \"brew extract\" command, which you can use to extract a formula into a new cask (typically freecad/freecad). You can then edit that formula as needed.
+W niektórych przypadkach pakiety zainstalowane przez Homebrew mogą korzystać z różnych wersji Pythona: na przykład, w momencie pisania tego tekstu PySide2 używa Pythona 3.10, podczas gdy boost-python3 używa Pythona 3.11. Możliwe jest „cofnięcie" bardziej zaawansowanej wersji (aby boost-python3 używał Pythona 3.10), ale jest to zaawansowana operacja i w wielu przypadkach lepiej poczekać na aktualizację drugiego pakietu. Jeśli chcesz mimo wszystko spróbować tego rozwiązania, zapoznaj się z poleceniem \"brew extract\", które możesz wykorzystać do wyodrębnienia formuły do nowego casku (zazwyczaj freecad/freecad). Następnie możesz edytować tę formułę w razie potrzeby.
 
-You will need to set the path to Qt: Qt5 is currently supported, while support for Qt6 is a work-in-progress. Set FREECAD_QT_VERSION to \"Auto\" or \"5\" to select Qt5 (the default). On the command line, use something like:
+Będziesz musiał ustawić ścieżkę do Qt: obecnie wspierany jest Qt5, natomiast wsparcie dla Qt6 jest w trakcie prac. Ustaw \FREECAD_QT_VERSION\ na \"Auto\" lub \"5\", aby wybrać Qt5 (domyślnie). W wierszu poleceń użyj czegoś takiego jak:
 
 
 ```python
@@ -123,16 +125,18 @@ cmake \
   ../freecad-source
 ```
 
-## Get the source 
 
-In the following instructions, the source and build folders are created side-by-side under
+
+## Pobieranie kodu źródłowego 
+
+W poniższych instrukcjach foldery źródłowy i kompilacji są tworzone obok siebie w folderze:
 
 
 ```python
 /Users/username/FreeCAD
 ```
 
-but you can use whatever folders you want.
+ale możesz użyć dowolnych folderów.
 
 
 ```python
@@ -140,50 +144,56 @@ mkdir ~/FreeCAD
 cd ~/FreeCAD
 ```
 
-The following command will clone the FreeCAD git repository into a directory called FreeCAD-git.
+Poniższe polecenie sklonuje repozytorium git FreeCAD do katalogu o nazwie FreeCAD-git.
 
 
 ```python
-git clone https://github.com/FreeCAD/FreeCAD FreeCAD-git
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD FreeCAD-git
 ```
 
-Create the build folder.
+Utwórz folder kompilacji.
 
 
 ```python
 mkdir ~/FreeCAD/build
 ```
 
-## Run CMake 
 
-Next, we will run CMake to generate the build configuration. Several options must be passed to CMake. The following table describes the options and gives some background.
 
-### CMake Options 
+## Uruchom CMake 
 
-  Name                       Value                                    Notes
+Następnie uruchomimy CMake, aby wygenerować konfigurację budowy. Należy przekazać kilka opcji do CMake. Poniższa tabela opisuje opcje i dostarcza kilka informacji na ich temat.
+
+
+
+### Opcje CMake 
+
+  Nazwa               Wartość                                  Uwagi
     
-  CMAKE_BUILD_TYPE           Release (STRING)                         Release or Debug. Debug is generally used for developer-level testing but may also be required for user-level testing and troubleshooting.
-  CMAKE_PREFIX_PATH          \"/usr/local/opt/qt5152;\" \... (PATH)   Required to build with Qt5. See note below. You also need to add path to VTK libraries and NGLIB libraries cmake configuration file.
-  FREECAD_CREATE_MAC_APP     1 (BOOL)                                 Create a FreeCAD.app bundle at the location specified in CMAKE_INSTALL_PREFIX, when the \'make install\' command issued.
-  CMAKE_INSTALL_PREFIX       \"./..\" (PATH)                          Path where you want to generate the FreeCAD.app bundle.
-  FREECAD_USE_EXTERNAL_KDL   1 (BOOL)                                 Required.
-  BUILD_FEM_NETGEN           1 (BOOL)                                 Required if choosing to build the FEM tools.
+  CMAKE_BUILD_TYPE    Release (STRING)                         Release lub Debug. Debug jest zazwyczaj używany do testowania na poziomie dewelopera, ale może być również wymagany do testowania i rozwiązywania problemów na poziomie użytkownika.
+  CMAKE_PREFIX_PATH   \"/usr/local/opt/qt5152;\" \... (PATH)   Wymagane do budowy z Qt5. Zobacz uwagi poniżej. Należy również dodać ścieżkę do bibliotek VTK i pliku konfiguracyjnego cmake dla bibliotek NGLIB.
 
-Note: Command line to generate CMAKE_PREFIX_PATH:
+\|- \| FREECAD_CREATE_MAC_APP \|\| 1 (BOOL) \|\| Utwórz pakiet FreeCAD.app w lokalizacji określonej w CMAKE_INSTALL_PREFIX, gdy wydane zostanie polecenie \'make install\'. \|- \| CMAKE_INSTALL_PREFIX \|\| \"./..\" (PATH) \|\| Ścieżka, w której chcesz wygenerować pakiet FreeCAD.app. \|- \| FREECAD_USE_EXTERNAL_KDL \|\| 1 (BOOL) \|\| Wymagane. \|- \| BUILD_FEM_NETGEN \|\| 1 (BOOL) \|\| Wymagane, jeśli wybierasz kompilację narzędzi MES. \|}
+
+Uwaga: Polecenie do wygenerowania CMAKE_PREFIX_PATH:
 
 ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/lib/cmake
 
-### CMake GUI 
 
-Open the CMake app, and fill in the source and build folder fields. In this example, it would be **/Users/username/FreeCAD/FreeCAD-git** for the source, and **/Users/username/FreeCAD/build** for the build folder.
 
-Next, click the **Configure** button to populate the list of configuration options. This will display a dialog asking you to specify what generator to use. Leave it at the default **Unix Makefiles.** Configuring will fail the first time because there are some options that need to be changed. Note: You will need to check the **Advanced** checkbox to get all of the options.
+### GUI CMake 
 
-Set options from the table above, then click **Configure** again and then **Generate**.
+Otwórz aplikację CMake i wypełnij pola dla folderu źródłowego i folderu kompilacji. W tym przykładzie będzie to **/Users/username/FreeCAD/FreeCAD-git** jako folder źródłowy i **/Users/username/FreeCAD/build** jako folder kompilacji.
 
-### CMake command line 
+Następnie kliknij przycisk **Configure**, aby wypełnić listę opcji konfiguracyjnych. Pojawi się okno dialogowe, w którym musisz określić, jaki generator ma być użyty. Pozostaw domyślną opcję **Unix Makefiles**. Konfiguracja nie powiedzie się za pierwszym razem, ponieważ niektóre opcje będą musiały zostać zmienione. Uwaga: Będziesz musiał zaznaczyć pole **Advanced**, aby zobaczyć wszystkie opcje.
 
-Enter the following in the terminal.
+Ustaw opcje zgodnie z tabelą powyżej, a następnie kliknij **Configure** ponownie, a potem **Generate**.
+
+
+
+### Linia poleceń CMake 
+
+Wprowadź poniższe w terminalu.
 
 
 ```python
@@ -210,9 +220,11 @@ $cmake \
 
 ```
 
-## Run make 
 
-Finally, from a terminal run **make** to compile and link FreeCAD, and generate the app bundle.
+
+## Uruchom make 
+
+Na koniec uruchom polecenie **make** w terminalu, aby skompilować i połączyć FreeCAD oraz wygenerować pakiet aplikacji.
 
 
 ```python
@@ -220,25 +232,33 @@ cd ~/FreeCAD/build
 make -j5 install
 ```
 
-The -j option specifies how many make processes to run at once. One plus the number of CPU cores is usually a good number to use. However, if compiling fails for some reason, it is useful to rerun make without the -j option, so that you can see exactly where the error occurred.
+Opcja -j określa, ile procesów make ma działać jednocześnie. Jedna więcej niż liczba rdzeni CPU jest zazwyczaj dobrym wyborem. Jednakże, jeśli kompilacja zakończy się niepowodzeniem, warto uruchomić make bez opcji -j, aby zobaczyć dokładnie, gdzie wystąpił błąd.
 
-See also [Compiling - Speeding up](Compiling_(Speeding_up).md).
+Zobacz też [Kompilacja (przyspieszamy)](Compiling_(Speeding_up)/pl.md)
 
-If make finishes without any errors, you can now launch FreeCAD by double clicking the executable in the Finder.
+Jeśli make zakończy się bez błędów, możesz teraz uruchomić FreeCAD, klikając dwukrotnie na plik wykonywalny w Finderze.
 
-## Updating from Github 
 
-FreeCAD development happens fast; every day or so there are bug fixes or new features. To get the latest changes, use git to update the source directory (see [Source code management](Source_code_management.md)), then re-run the CMake and make steps above. It is not usually necessary to start with a clean build directory in this case, and subsequent compiles will generally go much faster than the first one.
 
-## Building with Qt4 and Python 2.7 
+## Aktualizowanie z Github 
 
-FreeCAD has transitioned from Qt 4 to Qt 5 as well as homebrew. Qt 4 is no longer available as an option for new build on macOS following Qt 5 transition. Python 2.7 has been deprecated within homebrew and upcoming macOS and we do not support it anymore for macOS build either.
+Rozwój FreeCAD postępuje szybko; codziennie pojawiają się poprawki błędów lub nowe funkcje. Aby uzyskać najnowsze zmiany, użyj gita, aby zaktualizować katalog źródłowy (zobacz [Zarządzanie kodem źródłowym](Source_code_management/pl.md)), a następnie ponownie uruchom kroki CMake i make opisane powyżej. Zazwyczaj nie ma potrzeby zaczynania od pustego katalogu build, a kolejne kompilacje będą zazwyczaj znacznie szybsze niż pierwsza.
 
-## Troubleshooting
 
-### Segfault on Qt5 launch 
 
-If Qt4 was previously installed via brew, and you then build with Qt5, you may get a EXC_BAD_ACCESS (SEGSEGV) exception when launching the new Qt5 build. The fix for this is to manually uninstall Qt4.
+## Kompilacja z Qt4 i Python 2.7 
+
+FreeCAD przeszedł z Qt 4 do Qt 5 oraz do używania homebrew. Qt 4 nie jest już dostępne jako opcja dla nowych kompilacji na macOS po przejściu na Qt 5. Python 2.7 został wycofany w homebrew oraz nadchodzących wersjach macOS i również nie jest już wspierany w budowie FreeCAD na macOS.
+
+
+
+## Rozwiązywanie problemów 
+
+
+
+### Segfault przy uruchamianiu Qt5 
+
+Jeśli Qt4 był wcześniej zainstalowany za pomocą brew, a następnie budujesz przy użyciu Qt5, możesz napotkać wyjątek EXC_BAD_ACCESS (SEGSEGV) podczas uruchamiania nowej kompilacji Qt5. Naprawą tego problemu jest ręczne odinstalowanie Qt4.
 
 
 ```python
@@ -247,15 +267,17 @@ brew uninstall --ignore-dependencies --force cartr/qt4/shiboken@1.2 cartr/qt4/py
 
 ### Fortran
 
-*\"No CMAKE_Fortran_COMPILER could be found.\"* during configuration - Older versions of FreeCAD will need a fortran compiler installed. With Homebrew, do \"brew install gcc\" and try configuring again, giving cmake the path to Fortran ie -DCMAKE_Fortran_COMPILER=/opt/local/bin/gfortran-mp-4.9 . Or, preferably use a more current version of FreeCAD source!
+*\"No CMAKE_Fortran_COMPILER could be found.\"* podczas konfiguracji - Starsze wersje FreeCAD mogą wymagać zainstalowanego kompilatora Fortran. W przypadku Homebrew użyj polecenia \"brew install gcc\" i spróbuj ponownie skonfigurować, podając cmake ścieżkę do Fortrana, np. -DCMAKE_Fortran_COMPILER=/opt/local/bin/gfortran-mp-4.9. Lub, najlepiej, użyj nowszej wersji kodu źródłowego programu FreeCAD!
 
 ### FreeType
 
-When using CMake versions older than 3.1.0, it\'s necessary to set CMake variable FREETYPE_INCLUDE_DIR_freetype2 manually, eg /usr/local/include/freetype2
+W przypadku używania wersji CMake starszych niż 3.1.0, konieczne jest ręczne ustawienie zmiennej CMake FREETYPE_INCLUDE_DIR_freetype2, np. /usr/local/include/freetype2.
 
-### Additional Build Instructions 
 
-FreeCAD can be built against the latest git master hosted on github, and launched from a CLI using libraries provided by the homebrew-freecad tap. For a complete list of build instructions see [here](https://github.com/ipatch/homebrew-us-05/tree/dev/freecad#building-freecad-for-macos-by-macos).
+
+### Dodatkowe instrukcje kompilacji 
+
+FreeCAD można skompilować z najnowszego kodu źródłowego dostępnego na GitHubie, a następnie uruchomić z wiersza poleceń, korzystając z bibliotek dostarczanych przez homebrew-freeCAD tap. Pełną listę instrukcji dotyczących kompilacji można znaleźć [tutaj](https://github.com/ipatch/homebrew-us-05/tree/dev/freecad#building-freecad-for-macos-by-macos).
 
 
 

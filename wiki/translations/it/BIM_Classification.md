@@ -9,11 +9,25 @@
 
 # BIM Classification/it
 
+
+</div>
+
+
+
 ## Descrizione
 
-<img alt="" src=images/BIM_classification_screenshot.png  style="width:1024px;">
+
+<div class="mw-translate-fuzzy">
 
 Il gestore delle classificazioni consente di attribuire una classe standard a un oggetto o materiale BIM. Diversi sistemi di classificazione sono disponibili in formato XML o IFC (entrambi supportati da questo strumento) da <https://github.com/Moult/IfcClassification> o direttamente dai loro editori o da <https://www.graphisoft.com/downloads/archicad/BIM_Data.html>. Per rendere noti questi file XML o IFC a FreeCAD, essi devono essere collocati in una sottocartella BIM della cartella utente di FreeCAD. Per fornire la posizione esatta al sistema usare la finestra di dialogo di classificazione BIM. Se sono disponibili sia un file IFC che un file XML, lo strumento di classificazione BIM preferisce quello IFC.
+
+
+</div>
+
+<img alt="" src=images/BIM_classification_screenshot.png  style="width:600px;"> 
+*Classification manager*
+
+
 
 ## Utilizzo
 
@@ -23,5 +37,13 @@ Il gestore delle classificazioni consente di attribuire una classe standard a un
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > BIM Classification/it
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Classification/it

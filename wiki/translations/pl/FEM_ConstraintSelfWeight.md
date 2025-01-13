@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ConstraintSelfWeight
-|Name/pɬMES Obciążenie grawitacją
+   Name/pl: MES: Obciążenie grawitacją
    MenuLocation: Model , Warunki brzegowe i obciążenia mechaniczne , Obciążenie grawitacją
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_tutorial/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: CalculiX, Elmer
+}}
 ---
 
 # FEM ConstraintSelfWeight/pl
@@ -13,7 +18,12 @@
 
 ## Opis
 
-Definiuje przyspieszenie grawitacyjne o wartości 9,81 m/s² działające na cały model w wybranym kierunku.
+Definiuje przyspieszenie grawitacyjne działające na cały model w wybranym kierunku.
+
+
+{{VersionMinus/pl|0.21}}
+
+: Przyspieszenie to ma ustaloną wartość 9,81 m/s².
 
 
 
@@ -22,7 +32,13 @@ Definiuje przyspieszenie grawitacyjne o wartości 9,81 m/s² działające na ca�
 1.  Jest kilka sposobów wywołania tej komendy:
     -   Wciśnij przycisk **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [Obciążenie grawitacją](FEM_ConstraintSelfWeight/pl.md)** button.
     -   Wybierz opcję **Model → Warunki brzegowe i obciążenia mechaniczne → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Obciążenie grawitacją** z menu.
-2.  Możesz zmodyfikować kierunek obciążenia grawitacyjnego poprzez zmianę jego współrzędnych wektorowych w oknie właściwości nowo utworzonego obiektu ConstraintSelfWeight.
+
+2.  Tworzony jest obiekt ConstraintSelfWeight.
+
+3.  
+    {{Version/pl|1.0}}: Opcjonalnie, zmień jego właściwość **Gravity Acceleration** (wartość przyspieszenia).
+
+4.  Opcjonalnie, zmień jego właściwość **Gravity Direction** (kierunek działania).
 
 
 
@@ -58,7 +74,8 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfw
 
 ### Ograniczenia
 
--   Aby zmienić wartość przyspieszenia grawitacyjnego, musisz edytować plik .inp.
+-    {{VersionMinus/pl|0.21}}: Aby zmienić wartość przyspieszenia grawitacyjnego, musisz edytować plik .inp.
+
 -   Obciążenie grawitacją jest nakładane na zbiór elementów Eall, w którego skład wchodzą wszystkie elementy siatki modelu.
 
 

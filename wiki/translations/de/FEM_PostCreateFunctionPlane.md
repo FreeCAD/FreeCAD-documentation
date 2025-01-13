@@ -40,7 +40,7 @@ Wenn das Plane-Objekt in der [Baumansicht](Tree_view/de.md) ausgeblendet ist, w�
 
 #### Die Ebene bewegen 
 
--   Den großen weißen Quader anklicken und ziehen um die Ebene entlang ihres Normalenvektors zu verschieben.
+-   Den großen weißen Quader anklicken und ziehen um die Ebene entlang ihres Normalenvektors zu verschieben. Mit dem Mauszeiger über dem Anfasser schweben (ohne zu klicken) und **Ctrl** bzw. **Strg** drücken, um die Ausrichtung des Verschiebewerkzeugs zu ändern.
 -   Das weiße Gitter anklicken und ziehen.
 
 

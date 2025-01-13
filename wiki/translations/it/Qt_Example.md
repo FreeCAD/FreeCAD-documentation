@@ -1,17 +1,14 @@
 # Qt Example/it
-<div class="mw-translate-fuzzy">
-
-
-{{Macro/it
-|Icon=MEPlan.png
+{{Macro
 |Name=Macro Qt Example
-|Name/it=Macro Qt Example
-|Description=Descrive i comandi Qt.
+|Icon=MEPlan.png
+|Description=It describes Qt commands.
 |Author=Mario52
 |Version=0.4
 |Date=2019-06-19
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/a/a7/MEpipe01.png MEpipe01]<br />
+|Download=<br />
+[https://www.freecadweb.org/wiki/images/a/a7/MEpipe01.png MEpipe01]<br />
 [https://www.freecadweb.org/wiki/images/5/5b/MEpipe02.png MEpipe02]<br />
 [https://www.freecadweb.org/wiki/images/e/e4/MEPlan.png MEPlan]<br />
 [https://www.freecadweb.org/wiki/images/3/30/MEPlanD.png MEPlanD]<br />
@@ -20,71 +17,33 @@
 [https://www.freecadweb.org/wiki/images/f/f2/MEPlanI.png MEPlanI]<br />
 [https://www.freecadweb.org/wiki/images/e/e6/MEPlanFC.png MEPlanFC]<br />
 [https://www.freecadweb.org/wiki/images/d/d2/MEPlanPY.png MEPlanPY]
-|SeeAlso=[Dialog_creation](Dialog_creation/it.md)
+|SeeAlso=[Dialog creation](Dialog_creation.md)
 }}
-
-
-</div>
 
 Questa macro è un esempio di utilizzo dei principali comandi della finestra di una macro, da cui vengono estratti e assegnati i dati.
 
-
-<div class="mw-translate-fuzzy">
-
-
-<center>
-
-Image:Qt_Example_00.png\|Esempio con Qt Image:Qt_Example_01.png\|Descrizione dell\'esempio Qt
-
-
-</center>
-
-
-
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Image:Qt_Example_00.png\|Esempio Qt Image:Qt_Example_01.png\|Dettagli esempio Qt
 
 Sono trattati:
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Icona per la finestra
-2.  Cursore orizzontale
-3.  Barra di progressione orizzontale
-4.  Cursore verticale
-5.  Barra di progressione verticale
-6.  Riga editabile
-7.  Riga editabile
-8.  Casella di selezione bidirezionale
-9.  Casella di selezione bidirezionale
-10. Casella di selezione bidirezionale
-11. Pulsante
-12. Pulsante
-13. Pulsante di opzione con icona
-14. Casella di controllo con l\'icona di attivazione e disattivazione
-15. Campo editabile con un testo
-16. Campo di vista grafica con 2 grafici
-
-La pagina del codice e delle icone: [Qt_Example](Qt_Example/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  **icon for window**: L\'icona visualizzata nella finestra principale
+2.  **horizontalSlider**: cursore orizzontale per la connessione e l\'estrazione/assegnazione dei dati
+3.  **progressBar orizzontale**: barra di avanzamento orizzontale per la connessione e l\'estrazione/assegnazione dei dati
+4.  **verticalSlider**: cursore verticale per la connessione e l\'estrazione/assegnazione dei dati
+5.  **progressBar vertical**: barra di avanzamento verticale per la connessione e l\'estrazione/assegnazione dei dati
+6.  **lineEdit**: la linea modifica la sua connessione ed estrazione/assegnazione dei dati
+7.  **lineEdit**: la linea modifica la sua connessione ed estrazione/assegnazione dei dati
+8.  **doubleSpinBox**: doppia spinbox per la connessione e l\'estrazione/assegnazione dei dati
+9.  **doppioSpinBox** :
+10. **doppioSpinBox** :
+11. **pulsante**: pulsante per la sua connessione
+12. **pulsante**:
+13. **radioButton**: pulsante di opzione con icone relative alla connessione e selezionati
+14. **checkBox**: casella di controllo con icona relativa alla connessione selezionata e deselezionata
+15. **textEdit**: il testo modifica la sua connessione ed estrazione/assegnazione dei dati
+16. **graphicsView**: vista grafica con 2 grafici e metodo utilizzato per cambiare immagine
 
 Gli strumenti usati sono:
-
-
-</div>
 
 [python-2.7.8](https://www.python.org/downloads/)
 
@@ -92,13 +51,7 @@ Gli strumenti usati sono:
 
 Per convertire il file .ui in .py è necessario usare **pyuic.py** che si trova in \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" (per Windows)
 
-
-<div class="mw-translate-fuzzy">
-
-è possibile creare un file convertuitopy.bat per automatizzare il processo
-
-
-</div>
+è possibile creare un file convertuitopy.bat per automatizzare il processoː
 
 **1:** Creare un nuovo file nella directory di lavoro Qt e nominarlo **convertuitopy.bat**
 
@@ -110,19 +63,15 @@ Per convertire il file .ui in .py è necessario usare **pyuic.py** che si trova 
 
 **4:** il file monprojet.py è creato
 
+
+
 ### Le icone utilizzate 
 
 ![](images/MEpipe01.png ) ![](images/MEpipe02.png ) ![](images/MEPlan.png ) ![](images/MEPlanD.png ) ![](images/MEPlanF.png ) ![](images/MEPlanT.png ) ![](images/MEPlanI.png )
 
 ![](images/MEPlanFC.png ) ![](images/MEPlanPY.png )
 
-
-<div class="mw-translate-fuzzy">
-
 È necessario copiare e incollare le immagini nella stessa directory della macro, qui:
-
-
-</div>
 
 Linux : \"**home/user/.FreeCAD/Macro**\"
 
@@ -130,7 +79,7 @@ Windows : \"**C:\\Users\\UserName\\AppData\\Roaming\\FreeCAD\\Macro**\"
 
 ## Script
 
-The contents of the file **Qt_Example.FCMacro** are given below:
+Di seguito è riportato il contenuto del file **Qt_Example.FCMacro**:
 
 
 {{MacroCode|code=

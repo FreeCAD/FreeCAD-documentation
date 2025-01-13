@@ -4,7 +4,7 @@
    MenuLocation: TechDraw , Extensions: Centerlines/Threading , Add an offset vertex
    Workbenches: TechDraw_Workbench
    Shortcut: 
-   Version: 0.22
+   Version: 1.0
    SeeAlso: 
 ---
 

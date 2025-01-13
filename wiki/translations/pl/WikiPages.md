@@ -372,8 +372,8 @@ Szablony te wymagają większej ilości parametrów wejściowych, lub generują 
 ++++
 | [Macro](Template_Macro.md)                                                               | Zobacz przykład [Macro FlattenWire](Macro_FlattenWire.md)                                                        | Użyj go do stworzenia ramki z przydatnymi informacjami, aby udokumentować [makrodefinicje](macros/pl.md).                                                                                                                                                                                                                                    |
 ++++
-| [Docnav](Template_Docnav.md)                                                             |                                                                                                           | Use it to create a bar with the words \'next\', \'previous\', and \'index\', and the appropriate links, which is useful for putting pages in a particular sequence.                                                                                                                                                                                  |
-|                                                                                                  |                                                                             |                                                                                                                                                                                                                                                                                                                                                      |
+| [Docnav](Template_Docnav.md)                                                             |                                                                                                           | Użyj go, aby utworzyć pasek ze strzałkami i odpowiednimi linkami, który jest przydatny do umieszczania stron w określonej kolejności.                                                                                                                                                                                                                |
+|                                                                                                  |                                                                    |                                                                                                                                                                                                                                                                                                                                                      |
 |                                                                                                  |                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                      |
 ++++
 | [VeryImportantMessage](Template_VeryImportantMessage.md)                                 |                                                                                                           | Użyj go, aby utworzyć wyróżnione pole z bardzo ważną wiadomością. Używaj rzadko, tylko do wskazania poważnych problemów w funkcjonalności oprogramowania, zaprzestania używania narzędzi itp.                                                                                                                                                        |
@@ -522,11 +522,11 @@ przetłumaczone:
 
 ### Tłumaczenie odnośnika 
 
-    [Part Module](Part_Module.md)
+    [Part Workbench](Part_Workbench.md)
 
 przetłumaczone:
 
-    [Atelier Part](Part_Module/fr.md)
+    [Atelier Part](Part_Workbench/fr.md)
 
 
 

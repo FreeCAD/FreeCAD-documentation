@@ -68,6 +68,37 @@ obj.ThePropertyName = ["aaa", "bbb", "ccc"]
 obj.ThePropertyName = "bbb"
 ```
 
+
+{{Version/fr|1.0}}
+
+: l\'argument {{Incode|enum_vals}} de la fonction {{Incode|addProperty}} peut également être utilisé pour définir les cas d\'énumération.
+
+
+{{Version/fr|1.0}}
+
+: la signature complète de la fonction est :
+
+
+```python
+obj.addProperty(type: string, name: string, group="", doc="", attr=0, read_only=False, hidden=False, enum_vals=[])
+```
+
+-    {{Incode|type}}: type de propriété.
+
+-    {{Incode|name}}: nom de la propriété.
+
+-    {{Incode|group}}: sous-section de la propriété.
+
+-    {{Incode|doc}}: infobulle.
+
+-    {{Incode|attr}}: attribut, voir [Objets créés par script](Scripted_objects/fr#Attributs_des_propriétés.md).
+
+-    {{Incode|read_only}}: voir idem.
+
+-    {{Incode|hidden}}: voir idem.
+
+-    {{Incode|enum_vals}}: valeurs d\'énumération (liste de chaînes), uniquement pertinentes si le type est [App::PropertyEnumeration](#App:_PropertyEnumeration.md).
+
 ## App::PropertyAcceleration
 
 Une propriété {{TODO}}acceleration. Elle peut contenir des {{TODO}} \"types et/ou valeurs autorisés\". Pour plus de détails, voir la section [Créer un objet FeaturePython et lui ajouter une propriété](#Creating.md).
@@ -254,7 +285,15 @@ obj.ThePropertyName = "Quux"                 # choose single item
 obj.ThePropertyName # returns "Quux"
 ```
 
-A partir de FreeCAD 0.20, vous pouvez également grouper des énumérations, qui sont affichées dans l\'interface graphique à l\'aide d\'une interface de sous-menu. Pour grouper, utilisez le caractère `|` comme séparateur, par exemple :
+
+{{Version/fr|1.0}}
+
+: l\'argument {{Incode|enum_vals}} de la fonction {{Incode|addProperty}} peut également être utilisé pour définir les cas d\'énumération. Voir [au-dessus](#Créer_un_objet_FeaturePython_et_lui_ajouter_une_propriété.md).
+
+
+{{Version/fr|0.20}}
+
+: il est possible de regrouper des énumérations affichées dans l\'interface graphique à l\'aide d\'une interface de sous-menu. Pour grouper, utilisez le caractère `<nowiki>|</nowiki>` comme séparateur, par exemple :
 
 
 ```python
@@ -597,16 +636,20 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkSub
 
-Une propriété {{TODO}}linkSub. Elle peut contenir des {{TODO}} \"types et/ou valeurs autorisés\". Pour plus de détails, voir la section [Créer un objet FeaturePython et lui ajouter une propriété](#Creating.md).
+Un LinkSub est une liste de deux éléments : le premier est une référence à un [objet de document](App_DocumentObject/fr.md), le second une chaîne de caractères ou une liste de chaînes de caractères indiquant le(s) nom(s) interne(s) du (des) sous-élément(s). Pour plus de détails, voir la section [Créer un objet FeaturePython et lui ajouter une propriété](#Creating.md).
 
 
 ```python
-obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
+doc = FreeCAD.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+
+obj = doc.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyLinkSub", "ThePropertyName", "Subsection", "Description for tooltip")
-obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName # returns {{TODO}}"example value for getter"
-}}
+obj.ThePropertyName = [box, ["Vertex1", "Vertex2"]]
+
+doc.recompute()
+```
 
 ## App::PropertyLinkSubChild
 
@@ -649,16 +692,21 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 ## App::PropertyLinkSubList
 
-Une propriété {{TODO}}linkSubList. Elle peut contenir des {{TODO}} \"types et/ou valeurs autorisés\". Pour plus de détails, voir la section [Créer un objet FeaturePython et lui ajouter une propriété](#Creating.md).
+Une LinkSubList est une liste de tuples. Chaque tuple contient deux éléments : le premier est une référence à un [objet de document](App_DocumentObject/fr.md), le second une chaîne de caractères ou une liste de chaînes de caractères indiquant le(s) nom(s) interne(s) du (des) sous-élément(s). Pour plus de détails, voir la section [Créer un objet FeaturePython et lui ajouter une propriété](#Creating.md).
 
 
 ```python
-obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
+doc = FreeCAD.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+cyl = doc.addObject("Part::Cylinder", "Cylinder")
+
+obj = doc.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyLinkSubList", "ThePropertyName", "Subsection", "Description for tooltip")
-obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName # returns {{TODO}}"example value for getter"
-}}
+obj.ThePropertyName = [(box, ["Vertex1", "Vertex2"]), (cyl, "Edge1")]
+
+doc.recompute()
+```
 
 ## App::PropertyLinkSubListChild
 
@@ -1162,7 +1210,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 ## App::PropertyWork
 
 
-{{Version/fr|1.0}}
+{{Version/fr|0.21}}
 
 ## App::PropertyXLink
 

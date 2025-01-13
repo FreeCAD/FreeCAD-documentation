@@ -14,6 +14,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Popis
@@ -23,70 +25,41 @@ Vazba Shodné zajistí, že dva nebo více přímkových segmentů v přímce, l
 
 </div>
 
-The Constrain Equal constraint forces two or more line segments in a line, poly-line or rectangle to have equal length. If applied to arcs or circles the radii are constrained to be equal. It cannot be applied to geometry primitives which are not of the same type (e.g. line segments and arcs).
+The <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> [Sketcher ConstrainEqual](Sketcher_ConstrainEqual.md) tool constrains edges to have an equal length (lines) or curvature (other edges except [B-splines](Sketcher_CreateBSpline.md)). Selected edges must have the same type. Circles and circular arcs are of the same type (their radii are made equal), and so are ellipses and elliptical arcs (their major and minor radii are made equal).
 
+## Usage
 
-<div class="mw-translate-fuzzy">
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-#### Použití
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
 
-Zde uvedený náčrt obsahuje několik nakreslených základních prvků (přímka, lomená čára, obdélník, úhel a kružnice).
-<img alt="" src=images/EqualConstraint1.png  style="width:256px;">
-Vyberte dva nebo více segmentů (např. přímka a jedna strana obdélníka).
-<img alt="" src=images/EqualConstraint2.png  style="width:256px;">
-Klikněte na ikonu Shodné (EqualLength) <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> v pruhu nástrojů kreslení (na náčrtové pracovní ploše nebo ploše pro Díl) nebo vyberte položku menu Vazba Shodné ze submenu Náčrty Vazba v hlavním menu Náčrtové pracovní plochy nebo plochy Díl, podle toho ve které pracovní ploše jste. Tím aplikujete tuto vazbu na vybrané položky.
-<img alt="" src=images/EqualConstraint3.png  style="width:256px;">
-Teď na náčrtu vyberte úhel a kružnici.
-<img alt="" src=images/EqualConstraint4.png  style="width:256px;">
-a aplikujte vazbu Shodné (Equal)<img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> jako předtím.
-<img alt="" src=images/EqualConstraint5.png  style="width:256px;">
-Teď vyberte přímkový segment, všechny segmenty lomené čáry a jednu ze zbývajících neupravených stran obdélníka
-<img alt="" src=images/EqualConstraint6.png  style="width:256px;">
-a aplikujte vazbu Shodné (Equal) <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> jako předtím.
-<img alt="" src=images/EqualConstraint7.png  style="width:256px;">
-Vyberet přímkový segment a úhel
-<img alt="" src=images/EqualConstraint8.png  style="width:256px;">
-a aplikujte vazbu Shodné (Equal) <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> jako předtím. Vyskakovací okénko zobrazí zprávu, která indikuje, že vybrané položky musejí být stejného konstrukčního typu (přímky s nulovým úhlem nebo přímky s nenulovým úhlem).
-<img alt="" src=images/EqualConstraint9.png  style="width:256px;">
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ConstrainEqual.svg" width=16px> [Constrain equal](Sketcher_ConstrainEqual.md)** button.
 
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainEqual.svg" width=16px> Constrain equal** option from the menu.
 
-</div>
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Constrain → <img src="images/Sketcher_ConstrainEqual.svg" width=16px> Constrain equal** option from the context menu.
 
-The example sketch below contains a number of sketch primitives (line, poly-line, rectangle, arc and circle).
+    -   Use the keyboard shortcut: **E**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Select two edges of the same type.
+5.  A constraint is added.
+6.  Optionally keep creating constraints.
+7.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
 
-![](images/EqualConstraint1.png )
+### Run-once mode 
 
-Select two or more line segments (e.g. line and one side of the rectangle).
-
-![](images/EqualConstraint2.png )
-
-Click on **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** in the Sketcher toolbar (in either the Sketcher or Part Design workbenches) or select the Constrain Equal menu item from the Sketcher constraints sub menu item in either the Sketch or Part Design menu item depending upon which workbench is selected (Sketcher or Part Design) to apply the constraint to the selected items.
-
-![](images/EqualConstraint3.png )
-
-Now select the arc and the circle in the sketch.
-
-![](images/EqualConstraint4.png )
-
-and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before.
-
-![](images/EqualConstraint5.png )
-
-Now select the line segment, all segments of the poly-line and one of the remaining unconstrained sides of the rectangle
-
-![](images/EqualConstraint6.png )
-
-and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before.
-
-![](images/EqualConstraint7.png )
-
-Select the line segment and the arc
-
-![](images/EqualConstraint8.png )
-
-and apply **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Constrain equal](Sketcher_ConstrainEqual.md)** as before. A pop-up message indicates that the constrained items have to be of the same geometrical type (lines of zero curvature or lines of non-zero curvature).
-
-![](images/EqualConstraint9.png )
+1.  Select two or more edges of the same type.
+2.  Invoke the tool as explained above, or with the following additional option:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ConstrainEqual.svg" width=16px> Constrain equal** option from the context menu.
+3.  Depending on the selection one or more constraints are added.
 
 ## Scripting
 

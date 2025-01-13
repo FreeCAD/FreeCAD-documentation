@@ -36,7 +36,7 @@ Il existe de nombreux autres endroits dans cette documentation pour en savoir pl
 -   En savoir plus sur l\'[atelier PartDesign](PartDesign_Workbench/fr.md)
 -   En savoir plus sur l\'[atelier Sketcher](Sketcher_Workbench/fr.md)
 -   Tutoriel : [Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md)
--   Tutoriel : [Tutoriel d\'introduction Part Design](Basic_Part_Design_Tutorial/fr.md)
+-   Tutoriel : [Tutoriel d\'introduction PartDesign](Basic_Part_Design_Tutorial/fr.md)
 -   Tutoriel : [Manuel: Modélisation pour la conception de produits](Manual:Modeling_for_product_design/fr.md)
 -   Tutoriel : [Exporter des STL ou OBJ](Export_to_STL_or_OBJ/fr.md)
 
@@ -101,9 +101,7 @@ Voici plus d\'informations sur le dessin et le dessin 2D dans FreeCAD :
 
 ## J\'ai une certaine expérience avec Revit ou ArchiCAD ou une autre application BIM. Je veux faire de la modélisation BIM 
 
-L\'atelier de votre choix est le [atelier BIM](BIM_Workbench/fr.md). Il ne fait pas partie des ateliers intégrés à FreeCAD, vous devez l\'installer via le [gestionnaire des extensions](Std_AddonMgr/fr.md). L\'[atelier Arch](Arch_Workbench/fr.md), fourni avec FreeCAD, est un sous-ensemble minimal des outils de l\'atelier BIM, qui permettra à vos modèles BIM d\'être correctement ouverts sur n\'importe quelle installation de FreeCAD, même sans l\'atelier BIM.
-
-L\'atelier BIM contient tous les outils que l\'on trouve habituellement dans les applications BIM pour modéliser les éléments de construction, tels que mur, fenêtre, porte, etc. Il contient également la plupart des [Outils de Draft](Draft_Workbench/fr.md) et utilise le même concept de [plan de travail](Draft_SelectPlane/fr.md) où vos prochains objets se trouveront sur le plan de travail en cours.
+L\'atelier de votre choix est l\'[atelier BIM](BIM_Workbench/fr.md). L\'atelier BIM contient tous les outils que l\'on trouve habituellement dans les applications BIM pour modéliser les éléments de construction, tels que mur, fenêtre, porte, etc. Il contient également la plupart des [outils de Draft](Draft_Workbench/fr.md) et utilise le même concept de [plan de travail](Draft_SelectPlane/fr.md) où vos prochains objets se trouveront sur le plan de travail en cours.
 
 Il n\'y a pas d\'organisation stricte de structure de bâtiments (ex. étages) dans FreeCAD. Vous pouvez choisir de grouper vos objets BIM par [groupes](Std_Group/fr.md) ou par [calques](Draft_Layer/fr.md), comme dans Draft, mais vous pouvez aussi utiliser l\'objet [Partie de bâtiment](Arch_BuildingPart/fr.md) pour représenter des niveaux ou des bâtiments, et obtenir une organisation similaire à celle que l\'on trouve habituellement dans d\'autres applications BIM.
 

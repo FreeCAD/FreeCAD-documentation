@@ -1,7 +1,16 @@
 # Manual:Import and export to other filetypes/es
 {{Manual:TOC}}
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD puede importar y exportar a muchos tipos de archivos. Aquí hay una lista de los más importantes con una breve descripción de las características disponibles
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   Formato   Importar   Exportar   Notas
      
@@ -20,9 +29,18 @@ FreeCAD puede importar y exportar a muchos tipos de archivos. Aquí hay una list
   GCODE     Sí         Sí         FreeCAD ya puede importar y exportar a/desde varios sabores de GCode, pero sólo un pequeño número de máquinas es soportado por el momento.
   CSG       Sí         No         El formato [CSG](https://en.wikipedia.org/wiki/Constructive_solid_geometry) (Constructive Solid Geometry) de OpenSCAD.
 
+
+</div>
+
 Algunos de estos formatos de archivo tienen opciones. Estas se pueden configurar desde el menú **Edición → Preferencias → Importar/exportar:**
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Import_preferences.jpg )
+
+
+</div>
 
 **Leer más**
 

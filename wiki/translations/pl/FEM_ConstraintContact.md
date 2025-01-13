@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ConstraintContact
-|Name/pɬMES Kontakt
+   Name/pl: MES Kontakt
    MenuLocation: Model , Warunki brzegowe i obciążenia mechaniczne , Kontakt
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_ConstraintFixed/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: CalculiX
+}}
 ---
 
 # FEM ConstraintContact/pl
@@ -13,7 +18,7 @@
 
 ## Opis
 
-Tworzy więz kontaktowy między 2 powierzchniami.
+Tworzy wiązanie kontaktowe między dwiema powierzchniami. W przeciwieństwie do [wiązania tie](FEM_ConstraintTie/pl.md), powierzchnie mogą się rozdzielać i ślizgać po sobie *(z tarciem lub bez)* podczas analizy.
 
 
 
@@ -22,10 +27,23 @@ Tworzy więz kontaktowy między 2 powierzchniami.
 1.  Jest kilka sposobów wywołania tej komendy:
     -   Wciśnij przycisk **<img src="images/FEM_ConstraintContact.svg" width=16px> [Kontakt](FEM_ConstraintContact/pl.md)**.
     -   Wybierz opcję **Model → Warunki brzegowe i obciążenia mechaniczne → <img src="images/FEM_ConstraintContact.svg" width=16px> Kontakt** z menu.
-2.  Wybierz powierzchnię master.
-3.  Wybierz powierzchnię slave.
-4.  Wprowadź sztywność kontaktu.
-5.  Wprowadź współczynnik tarcia.
+
+2.  Wybierz powierzchnię master. Wciśnij pierwszy przycisk **Dodaj**. Aby usunąć powierzchnię ze wskazania, kliknij na niej i wciśnij pierwszy przycisk **Usuń**.
+
+3.  Wybierz powierzchnię slave. Wciśnij drugi przycisk **Dodaj**. Aby usunąć powierzchnię ze wskazania, kliknij na niej i wciśnij drugi przycisk **Usuń**.
+
+4.  Opcjonalnie, wprowadź sztywność kontaktu.
+
+5.  
+    {{Version/pl|1.0}}: Opcjonalnie, wprowadź odległość dociągania. Wszystkie węzły powierzchni slave, których odległość od powierzchni master jest mniejsza lub równa tej liczbie, zostaną przesunięte tak, aby leżały na powierzchni master na początku analizy. To dociąganie nie powoduje żadnych odkształceń.
+
+6.  
+    {{Version/pl|1.0}}: Opcjonalnie, zaznacz pole *Włącz tarcie*, aby określić współczynnik tarcia i wartość nachylenia krzywej zależności między naprężeniami stycznymi a przemieszczeniem stycznym.
+
+7.  Opcjonalnie, wprowadź współczynnik tarcia. Domyślna wartość 0 oznacza kontakt bez tarcia.
+
+8.  
+    {{Version/pl|1.0}}: Opcjonalnie, wprowadź wartość nachylenia krzywej zależności między naprężeniami stycznymi a przemieszczeniem stycznym w zakresie przylegania (przed wystąpieniem poślizgu). Jest to odpowiednik sztywności kontaktu dla zachowania w kierunku stycznym.
 
 
 

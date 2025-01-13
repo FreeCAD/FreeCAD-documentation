@@ -191,7 +191,13 @@ Kdykoliv můžete vybrat původní náčrty a modifikovat je nebo změnit parame
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ## Práce s pracovními plochami Kreslení a Architektura 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -217,7 +223,16 @@ Kdykoliv můžete vybrat původní náčrty a modifikovat je nebo změnit parame
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Typická práce s Architekturou a Kreslením může být:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Kreslení přímek pomocí nástroje Kreslní Přímka
 2.  Vyberte přímky a stiskněte tlačítko Zeď pro vytvoření zdi z těchto přímek
@@ -226,6 +241,9 @@ Typická práce s Architekturou a Kreslením může být:
 5.  Vytvořte objekt budova a přesuňte do něj podlaží z pohledu stromu
 6.  Kliknutím na nástroj Okno vytvořte okno, vyberte nastavení v jeko panelu a pak klikněte na plochu zdi
 7.  Přidejte rozměry prvním nastavením pracovní roviny, pokud je to potřeba a potom použijte nástroj Kóty
+
+
+</div>
 
 Dostanete toto:
 
@@ -249,14 +267,13 @@ Víc na stránce [Výukový program](Tutorials/cs.md).
 
 </div>
 
-FreeCAD, as an open source software, offers the possibility to supplement its workbenches with addons.
+Any user can develop their own new features for FreeCAD and make them available to the FreeCAD community as an [addon](Addon.md).
 
-The [Addon](Addon.md) principle is based on the development of a workbench complement. Any user can develop a function that he or she deems to be missing for her/his own needs or, ultimately, for the community. With the forum, the user can request an opinion, help on the forum. It can share, or not, the object of its development according to copyright rules to define. Free to her/him. To develop, the user has available [scripting](scripting.md) functions.
+There are three types of addons:
 
-There are two types of addons:
-
-1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
+-   [Macros](Macros.md): short snippet of [Python](Python.md) code that provides a new tool or functionality in a single file ending with `.FCMacro`.
+-   [Workbenches](External_workbenches.md): collections of Python files that provide related [Gui Commands](Gui_Command.md) (tools) centered around a particular topic.
+-   [Preference Packs](Preference_Packs.md): distributable collections of user preferences.
 
 ## Scripting
 

@@ -29,7 +29,7 @@ Diese Funktion entfernt eine Verknüpfung aus einem Behälter, wie etwa einem **
 2.  Wähle eine interne Verknüpfung in der [Baumansicht](tree_view/de.md).
 3.  Klicke auf die Schaltfläche **[<img src=images/Std_LinkUnlink.svg style="width:16px"> [Std VerknüpfungAuflösen](Std_LinkUnlink/de.md)**.
 
-Jetzt muß die Original-<img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Part Kugel](Part_Sphere/de.md) im **[<img src=images/Std_Part.svg style="width:16px"> [Standard Teil](Std_Part/de.md)** sein und die Verknüpfung muß außerhalb liegen. Jetzt kann auch die Verknüpfung gelöscht werden, sofern sie nicht mehr benötigt wird, ohne den Behälter zu kaputt zu machen.
+Jetzt muß die Original-<img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [Part Kugel](Part_Sphere/de.md) im **[<img src=images/Std_Part.svg style="width:16px"> [Std Teil](Std_Part/de.md)** sein und die Verknüpfung muß außerhalb liegen. Jetzt kann die Verknüpfung gelöscht werden, sofern sie nicht mehr benötigt wird, ohne den Behälter zu kaputt zu machen.
 
 ![](images/Std_Link_tree_replace_1_example.png ) ![](images/Std_Link_tree_unlink_1_example.png )
 

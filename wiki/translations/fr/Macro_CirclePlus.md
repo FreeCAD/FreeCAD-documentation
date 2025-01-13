@@ -3,7 +3,7 @@
 |Name=Macro CirclePlus
 |Name/fr=Macro CirclePlus
 |Icon=Macro_CirclePlus.png
-|Description=Crée un cercle ou un arc en indiquant le rayon, le diamètre, la circonférence, la surface, l'angle de départ, l'angle final, l'arc, le centre de l'angle, la corde, la flèche, le centre (point), l'objet de placement au choix (par l'interface graphique).
+|Description=Créer un cercle ou un arc en indiquant le rayon, le diamètre, la circonférence, la surface, l'angle de départ, l'angle final, l'arc, le centre de l'angle, la corde, la flèche, le centre (point), l'objet de placement au choix (par l'interface graphique).
 |Download=[https://www.freecadweb.org/wiki/images/4/4c/Macro_CirclePlus.png Icône de la barre d'outils].
 |Author=mario52
 |FCVersion=Toutes
@@ -74,7 +74,7 @@ Copiez le code et l\'icône dans votre répertoire de macros
 
 ## Script
 
-Téléchargez l\'icône et mettez la dans la même répertoire que la macro <img alt="" src=images/Macro_CirclePlus.png  style="width:64px;">
+Télécharger l\'image en se positionnant sur l\'icône <img alt="" src=images/Macro_CirclePlus.png  style="width:24px;"> puis en faire glisser la souris, clic droit \"save as\" (ne pas changer le nom)
 
 
 {{CodeDownload|https://gist.github.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7|Dernière version de Macro_CirclePlus <br />l'icône se trouve en fin de page}}

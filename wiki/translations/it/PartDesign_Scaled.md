@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descrizione
@@ -28,6 +30,8 @@ If there is no previous transformation within the <img alt="" src=images/PartDes
 
 <img alt="" src=images/PartDesign_Scaled-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/PartDesign_Scaled-04.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/PartDesign_Scaled-05.png  style="width:200px;"> 
 *A base feature with a hole → Scaled object with 2 occurrences → Scaled object with 4 occurrences*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -55,6 +59,8 @@ A partire da FreeCAD 0.15, questa funzione non è disponibile direttamente, ma �
     -   Press the **<img src="images/PartDesign_MultiTransform.svg" width=16px> [MultiTransform](PartDesign_MultiTransform.md)** button.
     -   Select the **Part Design → Apply a pattern → <img src="images/PartDesign_MultiTransform.svg" width=16px> Create MultiTransform** option from the menu.
 3.  The **MultiTransform parameters** [task panel](Task_panel.md) opens. See above.
+
+
 
 
 <div class="mw-translate-fuzzy">

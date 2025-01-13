@@ -9,6 +9,8 @@
 
 </div>
 
+
+
 ## Interiorul fișierelor .FCStd 
 
 
@@ -18,6 +20,8 @@ FCStd este un fișier standard tip fișier zip, conținând fișiere[one or more
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -32,6 +36,8 @@ This is the main xml file describing all the objects inside a FreeCAD document, 
 </div>
 
 This is the main **.xml** file describing all the objects inside a FreeCAD document, that is, only the geometric and parametric definition of the objects, not their visual representation. If FreeCAD is ran in console mode (without the GUI), only this **Document.xml** will be used.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -135,6 +141,8 @@ This is the main **.xml** file describing all the objects inside a FreeCAD docum
 }}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### GuiDocument.xml
@@ -145,6 +153,8 @@ This is the GUI counterpart of the Document.xml file. For each object described 
 </div>
 
 This is the GUI counterpart of the **Document.xml** file. For each object described in the **Document.xml**, there is one corresponding object in **GuiDocument.xml**, describing the visual representation of that object (color, linewidth, etc).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -159,6 +169,8 @@ This is a 128x128 pixels thumbnail image of the document, which is a screenshot 
 This is a 128x128 pixels thumbnail image of the document, which is a screenshot of the 3D view at save time. Thumbnails are generated only if the corresponding option is enabled in the FreeCAD preferences.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### \*.brep
@@ -171,6 +183,8 @@ Acestea sunt forme .brep shapes a tuturor obeicteleor care au o Part shape în D
 These are the [B-rep](wikipedia_Boundary_representation.md) shapes of all objects that have a Part shape in the **Document.xml**. Each object, even if it is parametric, has its shape stored as an individual **.brep** file, so it can be accessed by components without the need to recalculate the shape.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Șabloane/\*.svg
@@ -181,6 +195,8 @@ In the Templates folder are stored the template svg files used in [Drawing](Draw
 </div>
 
 These are the template svg files used in [TechDraw](TechDraw_Workbench.md) pages.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -222,6 +238,8 @@ custom_obj.addProperty("App::PropertyFileIncluded", "AttachedFile")
 See the forum thread, [PDF inside the project](https://forum.freecadweb.org/viewtopic.php?t=38201).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Schimbarea sursei fișierului .FCStd 
@@ -236,16 +254,6 @@ See the forum thread, [PDF inside the project](https://forum.freecadweb.org/view
 <div class="mw-translate-fuzzy">
 
 Este posibilă schimbara sursei fișierului .FCStd Dar procedura nu este lipsită de riscuri din acest motiv trebuie să lucrăm pe o **copy**.
-
-
-</div>
-
-## Altele
-
-
-<div class="mw-translate-fuzzy">
-
-Here, a file Converter utility [ImageConv](ImageConv.md).
 
 
 </div>

@@ -37,6 +37,8 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_Open.svg  style="width:32px;"> [Ouvrir](Std_Open/fr.md) : ouvre un document ou importe des fichiers.
 
+-   [Fichiers récents](Std_RecentFiles/fr.md) : affiche la liste des fichiers récents.
+
 -   <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:32px;"> [Fermer](Std_CloseActiveWindow/fr.md) : ferme la fenêtre active.
 
 -   <img alt="" src=images/Std_CloseAllWindows.svg  style="width:32px;"> [Fermer tout](Std_CloseAllWindows/fr.md) : ferme tous les fenêtres ouvertes.
@@ -57,7 +59,7 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_MergeProjects.svg  style="width:32px;"> [Fusionner un projet\...](Std_MergeProject/fr.md) : ajoute les objets d\'un fichier FreeCAD au document.
 
--   <img alt="" src=images/Std_ProjectInfo.svg  style="width:32px;"> [Informations sur le projet\...](Std_ProjectInfo/fr.md) : affiche les détails du document.
+-   <img alt="" src=images/Std_ProjectInfo.svg  style="width:32px;"> [Informations sur le document\...](Std_ProjectInfo/fr.md) : affiche les détails du document.
 
 -   <img alt="" src=images/Std_Print.svg  style="width:32px;"> [Imprimer\...](Std_Print/fr.md) : imprime le document.
 
@@ -65,15 +67,13 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_PrintPdf.svg  style="width:32px;"> [Exporter au format PDF\...](Std_PrintPdf/fr.md) : exporte le document au format PDF.
 
--   [Fichiers récents\...](Std_RecentFiles/fr.md) : affiche la liste des fichiers récents.
-
 -   <img alt="" src=images/Std_Quit.svg  style="width:32px;"> [Quitter](Std_Exit/fr.md) : quitte l\'application.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

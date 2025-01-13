@@ -19,7 +19,7 @@ A Part Cylinder can be turned into a segment of a cylinder by changing its **Ang
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Cylinder.svg" width=16px> [Part Cylinder](Part_Cylinder.md)** button.
+    -   Press the **<img src="images/Part_Cylinder.svg" width=16px> [Cylinder](Part_Cylinder.md)** button.
     -   Select the **Part → Primitives → <img src="images/Part_Cylinder.svg" width=16px> Cylinder** option from the menu.
 2.  The cylinder is created.
 3.  Optionally change the dimensions and **Placement** of the cylinder by doing one of the following:

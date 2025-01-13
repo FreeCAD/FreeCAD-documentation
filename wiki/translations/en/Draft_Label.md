@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft Label
    MenuLocation: Annotation , Label
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Workbenches: Draft_Workbench, BIM_Workbench
    Shortcut: **D** **L**
    Version: 0.17
    SeeAlso: Draft_Text, Draft_ShapeString
@@ -42,7 +42,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 
@@ -56,17 +56,17 @@ The following label types are available:
 
 -    {{Value|Label}}: displays the label of the target object. The label of an object can be changed by the user.
 
--    {{Value|Position}}: displays the coordinates of the base point of the target object, of the target vertex, or of the center of mass of the target subelement, if applicable.
+-    {{Value|Position}}: displays the coordinates of the base point of the target object or of the target vertex.
 
--    {{Value|Length}}: displays the length of the target object or subelement, if applicable.
+-    {{Value|Length}}: displays the length of the target object or subelement.
 
--    {{Value|Area}}: displays the area of the target object or subelement, if applicable.
+-    {{Value|Area}}: displays the area of the target object or subelement.
 
--    {{Value|Volume}}: displays the volume of the target object, if applicable.
+-    {{Value|Volume}}: displays the volume of the target object.
 
--    {{Value|Tag}}: displays the `Tag` attribute of the target object, if applicable. Objects created with the [Arch Workbench](Arch_Workbench.md) can have this attribute.
+-    {{Value|Tag}}: displays the `Tag` attribute of the target object. Objects created with the [BIM Workbench](BIM_Workbench.md) can have this attribute.
 
--    {{Value|Material}}: displays the label of the material of the target object, if applicable.
+-    {{Value|Material}}: displays the label of the material of the target object.
 
 -    {{Value|Label + Position}}
     
@@ -148,9 +148,9 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 -    **Line|Bool**: specifies whether to display the leader line. If it is `False` only the arrow and the text are displayed.
 
--    **Line Color|Color**: specifies the color of the leader and the arrow. This is also used for the frame (<small>(v0.20)</small> ).
+-    **Line Color|Color**: specifies the color of the leader and the arrow. This is also used for the frame.
 
--    **Line Width|Float**: specifies the width of the leader. This is also used for the frame (<small>(v0.20)</small> ).
+-    **Line Width|Float**: specifies the width of the leader. This is also used for the frame.
 
 
 {{TitleProperty|Text}}
@@ -201,20 +201,20 @@ p1 = App.Vector(-200, 1000, 0)
 place1 = App.Placement(App.Vector(-1000, 1300, 0), App.Rotation())
 
 label1 = Draft.make_label(p1, place1, target_object=rectangle, distance=500, label_type="Label")
-label1.ViewObject.TextSize = 200
+label1.ViewObject.FontSize= 200
 
 p2 = App.Vector(-200, 0, 0)
 place2 = App.Placement(App.Vector(-1000, -300, 0), App.Rotation())
 
 label2 = Draft.make_label(p2, place2, target_object=rectangle, distance=500, label_type="Custom",
                           custom_text="Beware of the sharp edges")
-label2.ViewObject.TextSize = 200
+label2.ViewObject.FontSize= 200
 
 p3 = App.Vector(1000, 1200, 0)
 place3 = App.Placement(App.Vector(2000, 1800, 0), App.Rotation())
 
 label3 = Draft.make_label(p3, place3, target_object=rectangle, distance=-500, label_type="Area")
-label3.ViewObject.TextSize = 200
+label3.ViewObject.FontSize= 200
 
 doc.recompute()
 ```

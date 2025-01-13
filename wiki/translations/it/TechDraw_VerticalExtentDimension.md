@@ -1,54 +1,31 @@
 ---
  GuiCommand:
-   Name: TechDraw Dimension Vertical Extent
-   Name/it: Estensione verticale
-   MenuLocation: TechDraw , Estensione verticale
+   Name: TechDraw VerticalExtentDimension
+   Name/it: TechDraw Quota estensione verticale
+   MenuLocation: TechDraw , Quotatura , Quota estensione verticale
    Workbenches: TechDraw_Workbench/it
+   Version: 0.19
    SeeAlso: TechDraw_LengthDimension/it, TechDraw_HorizontalExtentDimension/it
 ---
 
 # TechDraw VerticalExtentDimension/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Lo strumento **TechDraw Quota estensione verticale** aggiunge una quota lineare a una Vista. La quota si estende dal punto più in basso degli oggetti selezionati fino al punto più in alto.
 
-<div class="mw-translate-fuzzy">
+Per ulteriori informazioni, vedere [TechDraw Quota estensione orizzontale](TechDraw_HorizontalExtentDimension/it.md).
 
-Lo strumento Estensione verticale aggiunge una quota lineare a una vista. La dimensione si estende dal punto più in basso degli oggetti selezionati al punto più in alto. Viene posizionato un vertice cosmetico nei punti estremi.
-
-
-</div>
-
-For more information see [TechDraw HorizontalExtentDimension](TechDraw_HorizontalExtentDimension.md).
-
-<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Estensione verticale della faccia BSpline*
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
+*Quotatura dell'estensione orizzontale e verticale di una B-spline*
 
 
 
 
 
-</div>
-
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

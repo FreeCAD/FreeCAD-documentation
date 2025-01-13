@@ -1,69 +1,111 @@
 # Manual:The FreeCAD Interface/pl
 {{Manual:TOC}}
 
-FreeCAD uses the [Qt framework](https://en.wikipedia.org/wiki/Qt_(software)) to draw and manage its interface. This framework is used in a wide range of applications, so the FreeCAD interface is very classical and presents no particular difficulty to understand. Most buttons are standard and will be found where you expect them **File → Open, Edit → Paste, etc**. Here is the look of FreeCAD when you open it for the first time, just after installing, showing you the start center:
+FreeCAD jest oparty na [Qt](https://pl.wikipedia.org/wiki/Qt) i charakteryzuje się prostym i przejrzystym interfejsem. Bardziej doświadczeni użytkownicy CAD będą w stanie dostrzec podobieństwa z innymi programami, podczas gdy nowi użytkownicy znajdą nawigację intuicyjną i łatwą do odkrywania różnych opcji, jakie oferuje FreeCAD. Oto domyślny wygląd programu FreeCAD:
 
-![](images/FreeCAD-v0-18-FirstStart.png )
+![](images/FreeCAD_022_Start.png )
 
-The start center is a convenient \"welcome screen\", that shows useful information for newcomers, like the latest files you have been working on, what\'s new in the FreeCAD world, or quick info about the most common Workbenches. It will also notify you if a new stable version of FreeCAD is available.
+Strona Startowa pełni rolę ekranu powitalnego, zaprojektowanego w celu ułatwienia szybkiego i łatwego dostępu do głównych obszarów FreeCAD, które użytkownik może chcieć eksplorować. Dzięki niej użytkownicy mogą bez trudu tworzyć nowe części, otwierać niedawno używane pliki i rozpocząć rysowanie 2D. Dodatkowo zawiera skróty do pomocnych zasobów, takich jak samouczki i fora użytkowników, które są niezwykle cenne zarówno dla początkujących, jak i bardziej doświadczonych użytkowników szukających wskazówek lub porad. Użytkownicy mogą łatwo dostosować wygląd Strony Startowej zgodnie z własnymi preferencjami.
 
-After a while, when you are more familiar with FreeCAD, you may have made changes in the preferences so when FreeCAD starts you find yourself directly in one of the Workbenches with a new document open. Or, simply close the start page tab and create a new document:
+W miarę jak stajesz się bardziej biegły w korzystaniu z programu FreeCAD, możesz dostosować ustawienia w preferencjach. Dzięki temu FreeCAD może otworzyć się bezpośrednio w jednym z środowisk pracy z gotowym nowym dokumentem. Alternatywnie, możesz po prostu zamknąć kartę Strony Startowej i ręcznie utworzyć nowy dokument.
 
-![](images/FreeCAD-v0-18-NewProject.png )
+![](images/FreeCAD_022_PartDesign.png )
 
-### Workbenches
 
-Note that some of the icons have changed between the two screencaptures above. This is where the most important concept used in the FreeCAD interface comes into play: Workbenches.
 
-Workbenches are groups of tools (toolbar buttons, menus, and other interface controls) that are grouped together by specialty. Think of a workshop where you have different people working together: A person who works with metal, another with wood. Each of them has, in their workshop, a separate table with specific tools for his/her job. However, they can all work on the same objects. The same happens in FreeCAD.
+### Środowiska pracy 
 
-The most important control of the FreeCAD interface is the Workbench selector, which you use to switch from one Workbench to the other:
+FreeCAD wykorzystuje system zwany \"środowiskami pracy\", podobny do koncepcji używanych w zaawansowanym oprogramowaniu projektowym, takim jak Revit czy CATIA. Idea środowiska pracy jest analogiczna do wyspecjalizowanych stacji w laboratorium naukowym, gdzie różne stanowiska są wyposażone w odpowiednie narzędzia do różnych rodzajów eksperymentów. W laboratorium może być jedno stanowisko dedykowane chemii, drugie biologii, a trzecie fizyce, z odpowiednimi narzędziami potrzebnymi w tych dziedzinach.
 
-![](images/FreeCAD-v0-18-WorkbenchMenu.png )
+W kontekście FreeCAD każde środowisko pracy jest dostosowane do określonego typu zadania, organizując wszystkie niezbędne narzędzia do danej aktywności w jednym interfejsie. Przełączając się między środowiskami pracy, zestaw narzędzi i kontrolki widoczne w interfejsie użytkownika zmieniają się, aby odpowiadać potrzebom wybranego zadania, chociaż faktyczna zawartość projektu lub \"scena\", nad którą pracujesz, nie ulega zmianie. Umożliwia to płynne przejścia w przepływie pracy, na przykład rozpoczynając projektowanie od podstawowych kształtów 2D w środowisku pracy Rysunek Roboczy, a następnie rozwijając te projekty za pomocą zaawansowanych narzędzi modelowania w środowisku pracy Część.
 
-The Workbenches often confuse new users, since it\'s not always easy to know in which Workbench to look for a specific tool. But they are quick to learn, and after a short while it will feel natural \-- realizing it is a convenient way to organize the multitude of tools FreeCAD has to offer. Workbenches are also fully customizable (see below). The same tool may appear in more than one workbench. The button icon for a particular tool will always be the same no matter which workbench it appears in.
+Określenia \"środowisko pracy\" i \"moduł\" są czasami używane zamiennie, ale mają różne znaczenia w FreeCAD. Moduł to każde rozszerzenie, które dodaje funkcjonalność do FreeCAD, podczas gdy środowisko pracy to specyficzny rodzaj modułu, który wyposażony jest w własne komponenty interfejsu użytkownika, takie jak paski narzędzi i menu, zaprojektowane w celu ułatwienia realizacji określonych typów zadań. W związku z tym każde środowisko pracy jest modułem, ale nie każdy moduł kwalifikuje się jako środowisko pracy.
 
-Later in this manual, you will also find a table showing the contents of all Workbenches.
+Najważniejszym elementem sterującym interfejsu FreeCAD jest selektor środowiska pracy, który służy do przełączania się z jednego środowiska pracy na drugie:
 
-### The interface 
+![](images/FreeCAD_WB.png )
 
-Let\'s have a better look at the different parts of the interface:
+-   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> The [Złożenie](Assembly_Workbench/pl.md) do tworzenia i rozwiązywania mechanicznych złożeń. {{Version/pl|1.0}}
 
-![](images/FreeCAD-v0-18-Cube.png )
+-   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> The [BIM](BIM_Workbench/pl.md) do pracy z elementami architektonicznymi i tworzenia modeli [BIM](https://en.wikipedia.org/wiki/Building_information_modeling). Łączy środowisko pracy Architektura i wcześniej zewnętrzne środowisko pracy BIM dostępne w {{VersionMinus/pl|0.21}}.
 
--   **The 3D view** is the main component of the interface; it is where the objects you are working with are drawn and manipulated. You may have several views of the same document (or same objects), or several documents open at the same time. Each of these views may be individually undocked from the main window. You may select objects or parts of objects by clicking them, and you can pan, zoom and rotate the view with the mouse buttons. This will be explained further in the next chapter.
+-   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> [CAM](CAM_Workbench/pl.md) służy do tworzenia instrukcji G-Code. To środowisko pracy zostało nazwane \"Path\" w {{VersionMinus/pl|0.21}}.
 
-In addition to the 3D view panel, the following information panels are available. They may be made visible or hidden by selecting them from **View → Panels** . The name of the panel appears in the upper left corner of the panel when it is displayed:
+-   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Rysunek Roboczy](Draft_Workbench/pl.md) zawiera narzędzia 2D oraz podstawowe operacje CAD 2D i 3D.
 
--   **The combo view** has two tabs:
-    -   The Model tab shows you the contents and structure of your document above and the properties (or parameters) of the selected object(s) below. These properties are separated into two categories:
-        -   Data (properties which concern the geometry itself)
-        -   View (properties that affect how the geometry looks on screen).
-    -   The Tasks tab is where FreeCAD will prompt you for values specific to the workbench and tool you are currently using. For example, entering a \'length\' value when the [Draft Workbench Line Tool](Draft_Line.md) is being used. It will clear and switch back to the Model tab after the **OK** (or Cancel) button is pressed. Double-clicking the related object in the Model tab will usually reopen the corresponding Task tab in order to modify the settings.
-        The Tasks tab sometimes has puzzling and frustrating side-effects. If the Task tab is not empty, some FreeCAD operations will not work as expected. For example, if you have a single object in your model such as a cube, double-clicking on it will open the Tasks tab to allow you to modify the parameters characterizing the cube. If you have the [Selection view](#Selection_view.md) open, you will see the cube\'s internal name listed there. The entire cube will turn green in the 3D panel, indicating the entire cube is selected. Clicking on the background will deselect the entire cube and clear the Selection view. So far, this is normal behavior. However, if you now click on a face of the cube, instead of that face being selected, nothing will be selected --- because the Tasks tab has not been completed. Even if you have made no modifications to the parameters there, FreeCAD is waiting for the **OK** (or other) button in the Tasks tab to be clicked.
+-   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [MES](FEM_Workbench/pl.md) zapewnia narzędzia do analiz metodą elementów skończonych *(MES)*.
 
--   **Widok raportu** zazwyczaj jest ukryty, ale warto go otworzyć, ponieważ wyświetli on wszelkie informacje, ostrzeżenia lub błędy, które pomogą ci rozszyfrować *(lub debugować)*, co mogłeś zrobić źle.
--   **Konsola Python** jest również domyślnie ukryta. Jest to miejsce, w którym można wchodzić w interakcje z zawartością dokumentu przy użyciu języka [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29). Ze względu na to, że każda czynność wykonywana w interfejsie FreeCAD faktycznie wykonuje fragment kodu Python, otwarcie tej konsoli pozwala obserwować, jak kod rozwija się w czasie rzeczywistym --- umożliwiając wspaniały i łatwy sposób na naukę odrobiny Pythona przy okazji, prawie tego nie zauważając.
--   **Widok drzewa** wyświetla tylko drzewo obiektów pokazane w zakładce Model w widoku połączonym. Normalnie jest on ukryty.
--   **Widok właściwości** wyświetla tylko informacje o właściwościach obiektu wyświetlane w dolnej części Widoku połączonego. Normalnie jest ukryty.
+-   <img alt="" src=images/_Workbench_Inspection.svg  style="width:32px;"> [Inspekcja](Inspection_Workbench/pl.md) ma na celu udostępnienie narzędzi do badania kształtów. Nadal jest we wczesnej fazie rozwoju.
 
-**Widok zaznaczenia** pokazuje nazwy wszystkich obiektów, które są aktualnie zaznaczone. Są to obiekty, do których zostanie zastosowana operacja środowiska pracy. Można go użyć do doprecyzowania wyboru poprzez odznaczenie niektórych z tych obiektów przed zastosowaniem operacji w środowisku pracy. Widok zaznaczenia może być również używany do wyszukiwania obiektów według nazwy, a następnie ich zaznaczania. Domyślnie widok zaznaczenia jest ukryty. Chociaż często można określić aktualnie wybrany obiekt *(obiekty)*, patrząc na drzewo obiektów w zakładce Model widoku połączonego, w przypadku złożonych operacji wymagających wielokrotnego wyboru i gdy wybór jest trudny, pomocne jest uczynienie tego widoku widocznym, aby można było zarówno zobaczyć etykiety, jak i policzyć wybrane obiekty.
+-   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> [Materiał](Material_Workbench.md) obsługuje system materiałów we FreeCAD. {{Version/pl|1.0}}
 
-![](images/FreeCAD-v0-18-ExtrudeTask.png )
+-   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Siatka](Mesh_Workbench/pl.md) do pracy z siatkami o trójkątnych oczkach.
 
-### Customizing the interface 
+-   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Workbench/pl.md) dla interoperacyjności z OpenSCAD i naprawiania historii modeli typu [konstrukcyjnej geometrii bryły](Constructive_solid_geometry/pl.md) *(CSG)*.
 
-The interface of FreeCAD is highly customizable. All panels and toolbars can be moved to different places or stacked one above another. They can also be closed and reopened when needed from the View menu or by right-clicking on an empty area of the interface. There are, however, many more options available, such as creating custom toolbars with tools from any of the Workbenches, or assigning and changing keyboard shortcuts.
+-   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Część](Part_Workbench/pl.md) do pracy z pierwotnymi obiektami geometrycznymi i operacjami logicznymi.
 
-These advanced customization options are available from the **Tools → Customize menu**:
+-   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Projekt Części](PartDesign_Workbench/pl.md) do budowy kształtów części ze szkiców.
 
-![](images/FreeCAD-v0-18-CustomizeInterface.png )
+-   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [Punkty](Points_Workbench/pl.md) do pracy z chmurami punktów.
 
-**Read more**
+-   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [Inżynieria Wsteczna](Reverse_Engineering_Workbench/pl.md) ma na celu dostarczenie specyficznych narzędzi do konwersji kształtów/brył/siatek na parametryczne elementy kompatybilne z FreeCAD.
 
--   [Getting started with FreeCAD](Getting_started.md)
--   [Customizing the interface](Interface_Customization.md)
--   [Workbenches](Workbenches.md)
+-   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [Robot](Robot_Workbench/pl.md) do badania ruchów robotów. Obecnie nie jest utrzymywany.
+
+-   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Szkicownik](Sketcher_Workbench/pl.md) do pracy na szkicach z zachowaniem wiązań geometrii.
+
+-   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md) do tworzenia i manipulowania danymi w arkuszu kalkulacyjnym.
+
+-   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Powierzchnia](Surface_Workbench/pl.md) dostarcza narzędzi do tworzenia i modyfikowania powierzchni. Jest on podobny do opcji Ściana z krawędzi narzędzia [Konstruktor kształtu](Part_Builder/pl.md).
+
+-   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md) do tworzenia rysunków technicznych dla modeli przestrzennych. Jest to następca środowiska [Kreślenie](Drawing_Workbench/pl.md).
+
+-   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Test Framework](Testing/pl.md) służy do debugowania programu FreeCAD.
+
+Środowiska pracy często wprowadzają w błąd nowych użytkowników, ponieważ nie zawsze oczywiste jest to, w którym środowisku pracy szukać konkretnego narzędzia. Jednak po krótkim czasie stają się one intuicyjne, a użytkownicy szybko zdają sobie sprawę, że środowiska pracy to wygodny sposób na organizację licznych narzędzi, które oferuje FreeCAD. Dodatkowo, środowiska pracy są w pełni konfigurowalne.
+
+
+
+### Interfejs użytkownika 
+
+Przyjrzyjmy się bliżej różnym częściom interfejsu:
+
+![](images/FreeCAD_022_Interface.png )
+
+Główne okno aplikacji można podzielić mniej więcej na 11 sekcji:
+
+1.  [Główny obszar widoku](main_view_area/pl.md), który może zawierać różne okna z zakładkami.
+2.  [Widok 3D](3D_view/pl.md), zazwyczaj osadzony w [głównym obszarze widoku](main_view_area/pl.md). Widok 3D jest centralnym elementem interfejsu, wyświetlającym i umożliwiającym manipulację obiektami, nad którymi pracujesz. Możliwe jest posiadanie wielu widoków tego samego dokumentu (lub obiektów) lub otwieranie kilku dokumentów jednocześnie. Dodatkowo, każdy widok można oddzielić od głównego okna.
+3.  Zakładka Model i [Panel zadań](task_panel/pl.md).
+    1.  Zakładka Model pokazuje zawartość i strukturę twojego dokumentu.
+    2.  Zakładka Zadania to miejsce, w którym FreeCAD poprosi cię o wartości specyficzne dla używanego warsztatu i narzędzia (na przykład wymiary obiektu).
+4.  [Edytor właściwości](property_editor/pl.md), który pojawia się, gdy zakładka Model jest aktywna w interfejsie. Umożliwia zarządzanie publicznymi właściwościami obiektów w dokumencie. Składa się z sekcji Dane i Widok, pokazujących odpowiednio właściwości wizualizacji i parametryczne obiektów.
+5.  [Widok zaznaczenia](selection_view/pl.md), który wskazuje wybrane obiekty lub podelementy obiektów (wierzchołki, krawędzie, powierzchnie).
+6.  [Widok raportu](report_view/pl.md), w którym wyświetlane są komunikaty, ostrzeżenia i błędy.
+7.  [Konsola Pythona](python_console/pl.md). Konsola Pythona, w której wyświetlane są wszystkie wykonane polecenia i gdzie można wprowadzać kod Pythona.
+8.  [Pasek statusu](status_bar/pl.md), w którym pojawiają się niektóre komunikaty i podpowiedzi.
+9.  Obszar paska narzędzi, w którym są dokowane paski narzędzi.
+10. [Wybór środowiska pracy](Std_Workbench/pl.md), w którym wybierasz aktywne [środowisko pracy](workbenches/pl.md).
+11. [Menu standardowe](Standard_Menu/pl.md), które zawiera podstawowe operacje programu.
+
+Większość z powyższych paneli można ukryć lub wyświetlić za pomocą opcji **Widok → Panele** w menu.
+
+
+
+### Dostosowanie interfejsu graficznego 
+
+Interfejs FreeCAD jest zaprojektowany z myślą o szerokiej personalizacji. Wszystkie paski narzędzi i panele można przenosić, układać w stosy, a nawet dokować w różnych konfiguracjach zgodnie z preferencjami użytkownika. Dodatkowo można je zamknąć, a następnie ponownie otworzyć w razie potrzeby. Poza tymi możliwościami, użytkownicy mają wiele innych opcji, w tym możliwość tworzenia własnych pasków narzędzi z narzędziami wybranymi z dowolnego dostępnego środowiska pracy oraz przypisywania lub modyfikowania skrótów klawiaturowych w celu usprawnienia pracy. Ta elastyczność zapewnia, że użytkownicy mogą dostosować środowisko do swoich specyficznych potrzeb i preferencji.
+
+Te zaawansowane opcje dostosowywania są dostępne w menu **Przybory → Dostosuj ...**:
+
+![](images/FreeCAD_022_Customization.png )
+
+**Więcej informacji:**
+
+-   [Jak zacząć](Getting_started/pl.md)
+-   [Dostosowywanie interfejsu użytkownika do własnych potrzeb](Interface_Customization/pl.md)
+-   [Środowiska pracy](Workbenches/pl.md)
 -   [More about Python](https://www.python.org)
 
 

@@ -1,5 +1,5 @@
 # Vector API/fr
-{{VeryImportantMessage |(Octobre 2019) Ne modifiez pas cette page. L'information est incomplète et obsolète. Pour la dernière API, consultez la [https://www.freecadweb.org/api documentation de l'API générée automatiquement], ou générez la documentation vous-même, voir [Source documentation](Source_documentation/fr.md).}}
+**(Octobre 2019) Ne modifiez pas cette page. L'information est incomplète et obsolète. Pour la dernière API, consultez la [https://www.freecadweb.org/api documentation de l'API générée automatiquement], ou générez la documentation vous-même, voir [Documentation du code source](Source_documentation/fr.md).**
 
 Les vecteurs sont utilisés partout dans FreeCAD.
 
@@ -17,7 +17,7 @@ print v3.Length
 {{APIProperty|Length|renvoie la longueur du vecteur.}}
 
 
-{{APIFunction|add|Vector|ajoute un autre vecteur à celui-ci|. La somme de deux vecteurs.|vecteur}}
+{{APIFunction|add|Vector|ajoute un autre vecteur à celui-ci|vecteur}}
 
 
 {{APIFunction|distanceToPoint|Vector|la distance entre ce vecteur et un autre.|virgule flottante}}
@@ -35,22 +35,28 @@ print v3.Length
 {{APIFunction|distanceToPlane|Vector1, Vector2|la distance entre le vecteur et un plan défini par un point et une normale.|virgule flottante}}
 
 
-{{APIFunction|dot|Vector||le produit scalaire entre deux vecteurs.|virgule flottante}}
+{{APIFunction|dot|Vector|le produit scalaire entre deux vecteurs.|virgule flottante}}
 
 
 {{APIFunction|getAngle|Vector|l'angle en radians entre ce vecteur et un autre.|virgule flottante}}
 
 
-{{APIFunction|isEqual|Vector|Vérifie si la distance entre les points représentés par ce Vector et Vector2 est inférieure ou égale à la tolérance donnée.|virgule flottante}}
+{{APIFunction|isEqual|Vector2,tolerance|vérifie si la distance entre les points représentés par ce Vector et Vector2 est inférieure ou égale à la tolérance donnée.|vrai/faux}}
 
 
-{{APIFunction|isOnLineSegment|Vector1,Vector2|Vérifie si ce vecteur est sur le segment de ligne généré par Vector1 et Vector2.|vecteur}}
+{{APIFunction|isNormal|Vector2,tolerance|vérifie si ce vecteur est normal à Vector2 dans les limites de la tolérance.|vrai/faux}}
+
+
+{{APIFunction|isOnLineSegment|Vector1,Vector2|vérifie si ce vecteur est sur le segment de ligne généré par Vector1 et Vector2.|vecteur}}
+
+
+{{APIFunction|isParallel|Vector2,tolerance|vérifie si ce vecteur est parallèle à Vector2 dans la limite de la tolérance.|vrai/faux}}
 
 
 {{APIFunction|multiply|Float|multiplie (échelles) un vecteur par le facteur donné.|rien}}
 
 
-{{APIFunction|negative|Vector|Renvoie le négatif (opposé) de ce vecteur.|vecteur}}
+{{APIFunction|negative|Vector|renvoie le négatif (opposé) de ce vecteur.|vecteur}}
 
 
 {{APIFunction|normalize| |normalise un vecteur (fixe sa longueur à 1,0).|rien}}

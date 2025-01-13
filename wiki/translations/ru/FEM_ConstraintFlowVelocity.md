@@ -25,9 +25,9 @@
 ## Применение
 
 1.  Press the **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> [Flow velocity boundary condition](FEM_ConstraintFlowVelocity.md)** button or select the menu **Model → Fluid boundary conditions → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Flow velocity boundary condition**.
-2.  Select the target Edges or Faces.
-3.  Press the **Add** button.
-4.  Uncheck *Unspecified* to activate the necessary fields for edition.
+2.  Press the **Add** button.
+3.  Select the target Edges or Faces.
+4.  Uncheck *unspecified* to activate the necessary fields for editing.
 5.  Set the velocity values or (<small>(v0.21)</small> ) specify a formula.
 
 ## Formulas

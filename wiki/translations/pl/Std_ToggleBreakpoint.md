@@ -2,7 +2,6 @@
  GuiCommand:
    Name: Std ToggleBreakpoint
    Name/pl: Std: Przełącz punkt przerwania
-   Empty: 1
    MenuLocation: Makrodefinicje , Przełącz punkt przerwania
    Workbenches: wszystkie
    Shortcut: **F9**
@@ -21,7 +20,7 @@ To polecenie w tej chwili nie działa.
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

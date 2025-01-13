@@ -628,6 +628,8 @@ but it's not readable or writable by FEniCS</p></td>
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Tipuri de Elemente MEF 
@@ -668,6 +670,8 @@ More information on the elements, and their data structure inside FreeCAD can be
 ### Pyramid element 
 
 <img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width:600px;">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -758,6 +762,8 @@ obj_2.FemMesh = a
 ```
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Manipulare vizuală 
@@ -812,6 +818,8 @@ Double the factor of the displacement shown. (**Note to editors: removed in newe
 ```python
 obj.ViewObject.animate(2.0)
 ```
+
+
 
 
 <div class="mw-translate-fuzzy">

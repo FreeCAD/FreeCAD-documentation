@@ -1,35 +1,7 @@
----
- GuiCommand:
-   Name: Path SimpleCopy
-   MenuLocation: Path , Path Modification , Simple Copy
-   Workbenches: Path_Workbench
-   SeeAlso: Path_Copy
----
-
 # Path SimpleCopy/pt-br
-
-## Description
-
-The tool <img alt="" src=images/Path_SimpleCopy.svg  style="width:24px;"> [SimpleCopy](Path_SimpleCopy.md) creates a non-parametric copy of a given path.
-
-## Usage
-
-1.  Select one [Path](Path_Workbench.md) object
-2.  Press the **<img src="images/Path_SimpleCopy.svg" width=16px> [Simple Copy](Path_SimpleCopy.md)** button
-
-## Options
-
--   The simple copy is not bound anymore to the path that was used to make the copy, and is not parametric. Therefore, when edited with the [Path Inspect](Path_Inspect.md) tool, any change made to its G-code will be retained.
-
-
-
-
-
-{{Path_Tools_navi
-
-}}
+1.  REDIRECT [CAM_SimpleCopy/pt-br](CAM_SimpleCopy/pt-br.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy/pt-br
+⏵ [documentation index](../README.md) > Path SimpleCopy/pt-br

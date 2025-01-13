@@ -4,7 +4,7 @@
    Name/fr: TechDraw Suppression vue d'une fenêtre de rognage
    MenuLocation: TechDraw , Vues de rognage , Supprimer la vue de la fenêtre de rognage
    Workbenches: TechDraw_Workbench/fr
-   SeeAlso: TechDraw_ClipGroup/fr, TechDraw_ClipGroupAdd/fr
+   SeeAlso: 
 ---
 
 # TechDraw ClipGroupRemove/fr

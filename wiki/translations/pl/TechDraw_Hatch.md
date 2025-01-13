@@ -94,7 +94,7 @@ page.addView(hatch)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

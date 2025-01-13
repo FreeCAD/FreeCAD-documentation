@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft ShapeString
    Name/pl: Rysunek Roboczy: Kształt z tekstu
-   MenuLocation: Kreślenie , Kształt z tekstu ...
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Kreślenie , Kształt z tekstu<br>Opisy , Kształt z tekstu
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: 
    Version: 0.14
    SeeAlso: Draft_Text/pl, Draft_Label/pl, Part_Extrude/pl
@@ -30,7 +30,8 @@ Dla użytkowników Windows OS: przeczytaj najpierw akapit [Wybór pliku czcionki
 
 1.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_ShapeString.svg" width=16px> '''Kształt z tekstu'''**.
-    -   Wybierz opcję z menu **Kreślenie → <img src="images/Draft_ShapeString.svg" width=16px> Kształt z tekstu**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz opcję z menu **Kreślenie → <img src="images/Draft_ShapeString.svg" width=16px> Kształt z tekstu**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Opisy → <img src="images/Draft_ShapeString.svg" width=16px> Kształt z tekstu** z menu.
 2.  Otworzy się panel zadań **Kształt z tekstu**.
 3.  Kliknij punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne.
 4.  Opcjonalnie naciśnij przycisk **Zresetuj współrzędne punktu**, aby zresetować punkt do położenia punktu początkowego.
@@ -40,7 +41,7 @@ Dla użytkowników Windows OS: przeczytaj najpierw akapit [Wybór pliku czcionki
     -   Wprowadź ścieżkę do pliku w polu wprowadzania **Plik czcionki**.
     -   Naciśnij przycisk **...** i wybierz plik.
 8.  Naciśnij przycisk **OK**, aby zakończyć polecenie.
-9.  Opcjonalnie można zmienić włąściwość **Wyrównanie** dla tekstu. Zobacz [Właściwości](#Właściwości.md).
+9.  Opcjonalnie można zmienić właściwość **Wyrównanie** dla tekstu. Zobacz [Właściwości](#Właściwości.md).
 
 
 
@@ -50,15 +51,20 @@ Dla użytkowników Windows OS: przeczytaj najpierw akapit [Wybór pliku czcionki
 
 
 
-## Uwagi
+## Względna ścieżka czcionki 
 
--   Szkic obiektu Kształt z tekstu może być edytowany poprzez dwukrotne kliknięcie go w [Widoku drzewa](Tree_view/pl.md). {{Version/pl|0.20}}
--   Obsługiwane czcionki to TrueType (**.ttf**), OpenType (**.otf**) i Type 1 (**.pfb**).
--   Polecenie jest ograniczone do tekstu od lewej do prawej. Teksty od prawej do lewej i od góry do dołu nie są obsługiwane.
--   Bardzo małe wysokości tekstu mogą skutkować zdeformowanymi kształtami znaków z powodu utraty szczegółów podczas skalowania.
--   Wiele czcionek wygeneruje problematyczną geometrię. Wynika to z faktu, że kontury czcionek mogą się nakładać, mieć małe odstępy i mieć różne kierunki w obrębie glifu. Warunki te są uważane za błędy w poliliniach używanych do definiowania ścian.
--   Kształt z tekstu można również utworzyć za pomocą makrodefinicji [Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/pl.md).
--   Aby utworzyć Kształt tekstu ułożony w okrąg, należy użyć makrodefinicji [FCCircularText](Macro_FCCircularText/pl.md).
+
+{{version/pl|1.1}}
+
+Możliwe jest określenie względnej ścieżki do pliku czcionki. W tym celu dokument programu FreeCAD musi zostać zapisany przynajmniej raz.
+
+Wybrane przykłady:
+
+-    **./SomeFont.ttf**: Plik czcionki jest w tym samym katalogu co dokument.
+
+-    **./MyDirectory/SomeFont.ttf**: Plik czcionki jest w podfolderze **MyDirectory** katalogu dokumentu.
+
+-    **../SomeFont.ttf**: Plik czcionki jest w folderze nadrzędnym katalogu dokumentu.
 
 
 
@@ -74,6 +80,18 @@ Naciśnięcie przycisku **...**, a następnie wybranie pliku z domyślnego folde
 -   Utwórz niestandardowy folder dla plików czcionek.
 
 Zobacz akapit [Ustawienia](#Ustawienia.md) poniżej, aby sprawdzić lokalizację wspomnianych preferencji.
+
+
+
+## Uwagi
+
+-   Szkic obiektu Kształt z tekstu może być edytowany poprzez dwukrotne kliknięcie go w [Widoku drzewa](Tree_view/pl.md).
+-   Obsługiwane czcionki to TrueType (**.ttf**), OpenType (**.otf**) i Type 1 (**.pfb**).
+-   Polecenie jest ograniczone do tekstu od lewej do prawej. Teksty od prawej do lewej i od góry do dołu nie są obsługiwane.
+-   Bardzo małe wysokości tekstu mogą skutkować zdeformowanymi kształtami znaków z powodu utraty szczegółów podczas skalowania.
+-   Wiele czcionek wygeneruje problematyczną geometrię. Wynika to z faktu, że kontury czcionek mogą się nakładać, mieć małe odstępy i mieć różne kierunki w obrębie glifu. Warunki te są uważane za błędy w poliliniach używanych do definiowania ścian.
+-   Kształt z tekstu można również utworzyć za pomocą makrodefinicji [Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/pl.md).
+-   Aby utworzyć Kształt tekstu ułożony w okrąg, należy użyć makrodefinicji [FCCircularText](Macro_FCCircularText/pl.md).
 
 
 
@@ -110,25 +128,25 @@ Obiekt *Kształt z tekstu* wywodzi się z obiektu [Część: Part2DObject](Part_
 
 -    **Plik czcionki|File**: Nazwa pliku czcionki.
 
--    **Sczl|Bool**: Łączenie ścian, jeśli zachodzą na siebie, zwykle nie jest wymagane *(może być bardzo powolne)*. Ignorowane, jeśli parametr **Utwórz ścianę** ma wartość {{FALSE/pl}}. {{Version/pl|0.22}}
+-    **Sczl|Bool**: Łączenie ścian, jeśli zachodzą na siebie, zwykle nie jest wymagane *(może być bardzo powolne)*. Ignorowane, jeśli parametr **Utwórz ścianę** ma wartość {{FALSE/pl}}. {{Version/pl|1.0}}
 
--    **Wyrównanie|Enumeration**: Wyrównanie poziome i pionowe. Opcje: {{value|Góra-lewo}}, {{value|Góra-środek}}, {{value|Góra-prawo}}, {{value|Środek-lewo}}, {{value|Środek}}, {{value|Środek-prawo}}, {{value|Dół-lewo}}, {{value|Dół-środek}}, {{value|Dół-prawo}}. {{Version/pl|0.22}}
+-    **Wyrównanie|Enumeration**: Wyrównanie poziome i pionowe. Opcje: {{value|Góra-lewo}}, {{value|Góra-środek}}, {{value|Góra-prawo}}, {{value|Środek-lewo}}, {{value|Środek}}, {{value|Środek-prawo}}, {{value|Dół-lewo}}, {{value|Dół-środek}}, {{value|Dół-prawo}}. {{Version/pl|1.0}}
 
--    **Odniesienie wyrównania|Enumeration**: Odniesienie do wysokości używane do wyrównania. Opcje: {{value|Wysokość nasadki}}, {{value|Wysokość kształtu}}. Wysokość kształtu zależy od znaków w **Ciągu znaków**. {{Version/pl|0.22}}
+-    **Odniesienie wyrównania|Enumeration**: Odniesienie do wysokości używane do wyrównania. Opcje: {{value|Wysokość nasadki}}, {{value|Wysokość kształtu}}. Wysokość kształtu zależy od znaków w **Ciągu znaków**. {{Version/pl|1.0}}
 
--    **Zachowaj lewy margines|Bool**: Zachowuje lewy margines i wiodącą spację, gdy justowanie jest w lewo. {{Version/pl|0.22}}.
+-    **Zachowaj lewy margines|Bool**: Zachowuje lewy margines i wiodącą spację, gdy justowanie jest w lewo. {{Version/pl|1.0}}.
 
 -    **Utwórz ścianę|Bool**: Wypełnia litery licami.
 
--    **Kąt skośny|Angle**: Kąt ukośny. Musi mieścić się w zakresie od -80° do +80°. <small>(v0.22)</small> .
+-    **Kąt skośny|Angle**: Kąt ukośny. Musi mieścić się w zakresie od -80° do +80°. <small>(v1.0)</small> .
 
--    **Skaluj do rozmiaru|Bool**: Skalowanie w celu zapewnienia, że wysokość nakładki jest równa rozmiarowi. Jeśli ustawiono na {{FALSE/pl}}, w zależności od czcionki, wysokość nakładki nie będzie dokładnie odpowiadać wartości **Rozmiar**. {{Version/pl|0.22}}
+-    **Skaluj do rozmiaru|Bool**: Skalowanie w celu zapewnienia, że wysokość nakładki jest równa rozmiarowi. Jeśli ustawiono na {{FALSE/pl}}, w zależności od czcionki, wysokość nakładki nie będzie dokładnie odpowiadać wartości **Rozmiar**. {{Version/pl|1.0}}
 
 -    **Rozmiar|Length**: Wysokość tekstu.
 
 -    **Ciąg znaków|String**: Ciąg tekstowy. Obiekt Kształt z tekstu może wyświetlać tylko jedną linię tekstu.
 
--    **Kontrola|Distance**: Odstęp między znakami. Typ właściwości został zaktualizowany ({{Version/pl|0.22}}).
+-    **Kontrola|Distance**: Odstęp między znakami. {{Version/pl|1.0}}: Typ właściwości został zaktualizowany.
 
 <img alt="" src=images/Draft_ShapeString_Justification.png  style="width:200px;"> 
 *Wysokość czerwonego prostokąta ''(linia ciągła)'' jest równa wysokości nakładki.<br>

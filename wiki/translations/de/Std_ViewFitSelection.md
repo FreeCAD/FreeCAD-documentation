@@ -22,34 +22,32 @@ Der Befehl **Std AnsichtAuswahlEinpassen** zoomt und schwenkt die Kamera, so das
 
 1.  Ein oder mehrere Objekte auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Std_ViewFitSelection.svg" width=16px> [Einpassen](Std_ViewFitSelection/de.md)** drücken.
-    -   Den Menüeintrag **Ansicht → Standardansichten → <img src="images/Std_ViewFitSelection.png" width=16px> Einpassen** auswählen.
-    -   Den Menüeintrag **<img src="images/Std_ViewFitSelection.svg" width=16px> Auswahl einpassen** aus dem Kontextmenü der [3D-Ansicht](3D_view/de.md) auswählen.
+    -   Die Schaltfläche **<img src="images/Std_ViewFitSelection.svg" width=16px> [Auswahl einpassen](Std_ViewFitSelection/de.md)** drücken.
+    -   Den Menüeintrag **Ansicht → Standardansichten → <img src="images/Std_ViewFitSelection.png" width=16px> Auswahl einpassen** auswählen.
+    -   Die Menüoption **<img src="images/Std_ViewFitSelection.svg" width=16px> Auswahl einpassen** im Kontextmenü der [3D-Ansicht](3D_view/de.md) auswählen.
+    -   Die Menüoption **<img src="images/Std_ViewFitSelection.svg" width=16px> Auswahl einpassen** im Miniwürfel-Menü des [Navigationswürfels](Navigation_Cube/de.md) auswählen.
     -   Das Tastaturkürzel **V**, dann **S**.
 
 
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um die Ansicht in \'Auswahl einpassen\' zu ändern, kann die `SendMsgToActiveView`-Methode des FreeCADGui-Objekts benutzt werden. Diese Methode ist im FreeCAD-Konsolenmodus nicht verfügbar.
+Die Methode `SendMsgToActiveView` des FreeCADGui-Objekts kann verwendet werden, um die aktive Ansicht so zu skalieren, dass die Auswahl hinein passt.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.SendMsgToActiveView('ViewSelection')
+FreeCADGui.SendMsgToActiveView("ViewSelection")
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

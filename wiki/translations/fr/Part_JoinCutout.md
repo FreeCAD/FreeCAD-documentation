@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Part JoinCutout
-   Name/fr: Part Découpe
+   Name/fr: Part Découper
    |MenuLocation: Part , Joindre , Découper pour un objet
    Workbenches: Part_Workbench/fr
    Version: 0.16
@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part Découper](Part_JoinCutout/fr.md) crée une découpe dans un objet muré (par exemple, un tuyau) pour s\'adapter à un autre objet à paroi.
+L\'outil <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> **Part Découper** crée une découpe dans un objet avec des parois (par exemple, un tuyau) pour s\'adapter à un autre objet à parois.
 
 ![600px](images/JoinFeatures_Cutout.png)
 
@@ -20,13 +20,11 @@ L\'outil <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part 
 
 ## Utilisation
 
-1.  Sélectionnez d\'abord l\'objet de base, puis l\'objet pour définir la découpe.
-    L\'ordre de sélection est important. Il suffit de sélectionner une sous-forme de chaque objet (par ex. des faces).
-2.  Lancez la commande Part Découpe de plusieurs manières :
-    -   En appuyant sur le bouton <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Découper pour un objet ](Part_JoinCutout/fr.md) dans la barre d\'outils Part
-    -   Utilisation de l\'entrée **Part → Joindre → Découper pour un objet ** du menu Part
-
-Un objet Part JoinFeature est créé avec le mode défini sur \"Cutout\" (Découpe). Les objets originaux sont masqués et le résultat de la découpe est affiché dans la [vue 3D](3D_view/fr.md).
+1.  Sélectionnez d\'abord l\'objet de base, puis l\'objet destiné à définir la découpe. L\'ordre de sélection est important. Il suffit de sélectionner une sous forme de chaque objet (par exemple les faces).
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Part_JoinCutout.svg" width=16px> [Découper pour un objet](Part_JoinCutout/fr.md)**.
+    -   Sélectionnez l\'option **Part → Joindre → <img src="images/Part_JoinCutout.svg" width=16px> Découper pour un objet** du menu.
+3.  Un objet Part JoinFeature est créé, avec un mode défini sur \"Cutout\". Les objets originaux sont cachés et le résultat de la découpe est affiché dans la [vue 3D](3D_view/fr.md).
 
 
 
@@ -41,7 +39,7 @@ Un objet Part JoinFeature est créé avec le mode défini sur \"Cutout\" (Décou
 
 -    **Mode**: le mode d\'opération est \"Cutout\" (changement qui transformera l\'outil en un autre Part_JoinXXX). La valeur \"bypass\" peut être utilisée pour désactiver temporairement les longs calculs (un composé de la base et de l\'outil sera créé, ce qui est une opération rapide).
 
--    **Refine**: définit s\'il faut appliquer l\'opération [Part Affiner](Part_RefineShape/fr.md) ou non, à la forme finale. La valeur par défaut est déterminée par la case à cocher \"Affiner automatiquement la forme après l\'opération booléenne\" dans les préférences de Part Design. Lorsque la propriété Mode est à \"bypass\", affiner est ignoré (jamais appliqué).
+-    **Refine**: définit s\'il faut appliquer l\'opération [Part Affiner la forme](Part_RefineShape/fr.md) ou non, à la forme finale. La valeur par défaut est déterminée par la case à cocher \"Affiner automatiquement la forme après l\'opération booléenne\" dans les préférences de PartDesign. Lorsque la propriété Mode est à \"bypass\", Affiner est ignoré (jamais appliqué).
 
 
 
@@ -64,7 +62,7 @@ Les algorithmes derrière les outils Joindre sont assez simples et leur compréh
 
 2\. Le composé résultant est filtré : seul le plus grand solide est conservé.
 
-3\. Si la propriété Refine (Affiner) est vraie, la forme résultante est [affinée](Part_RefineShape/fr.md).
+3\. Si la propriété Refine est vraie, la forme résultante est [affinée](Part_RefineShape/fr.md).
 ![800px](images/JoinFeatures-Algo-Cutout.png)
 
 
@@ -95,6 +93,14 @@ j.Tool = FreeCADGui.Selection.getSelection()[1]
 }}
 
 L\'outil lui-même est implémenté en Python, voir **/Mod/Part/JoinFeatures.py** ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) là où FreeCAD est installé.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

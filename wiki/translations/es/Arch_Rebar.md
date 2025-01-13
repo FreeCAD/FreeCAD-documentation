@@ -5,9 +5,6 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
 ---
  GuiCommand:   Name: Arch Rebar   Name/es: Arch Rebar   Workbenches: Arch_Workbench/es   Arch---
 
@@ -26,8 +23,6 @@ La herramienta Rebar le permite colocar [reinforcing bars](http://en.wikipedia.o
 
 </div>
 
-The [Arch Rebar](Arch_Rebar.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
-
 Rebar objects are based on 2D profiles such as [Draft objects](Draft_Workbench.md) and [Sketches](Sketcher_Workbench.md), that must be drawn on a face of the structural object. After creation you can adjust the properties of the rebar, including the number and diameter of the bars, and the offset distance between them and the faces of the structural element.
 
 <img alt="" src=images/Arch_Rebar_example.jpg  style="width:400px;">
@@ -36,18 +31,6 @@ Rebar objects are based on 2D profiles such as [Draft objects](Draft_Workbench.m
 <div class="mw-translate-fuzzy">
 
 La imagen de arriba muestra un objeto estructural, donde se dibujan dos bocetos, que definen dos diagramas de barras. Estos dos bocetos se convierten en objetos de barras de refuerzo.
-
-
-</div>
-
-
-
-## Extensión disponible 
-
-
-<div class="mw-translate-fuzzy">
-
-La herramienta Rebar se ha mejorado mucho durante la edición 2017 de [Google Summer of Code](Google_Summer_of_Code.md). El resultado de ese trabajo es una serie de nuevos preajustes y asistentes para los tipos de varillas corrugadas más comunes. Se empaquetan en un módulo independiente denominado **Refuerzo**, que puede instalar a través del menú Herramientas -\> Administrador de Addons. Una vez que se instala el Addon Reinforcement, en la próxima ejecución, FreeCAD lo detectará y agregará una serie de nuevas herramientas bajo el botón Rebar en la barra de herramientas y el menú de Arch. Las diferentes herramientas del addon de refuerzo se describen en la página [Arch Workbench](Arch_Workbench/es.md).
 
 
 </div>
@@ -173,12 +156,17 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+
+
+
 <div class="mw-translate-fuzzy">
 
 
 </div>
 
+{{BIM_Tools_navi}}
+
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar/es
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Arch Rebar/es

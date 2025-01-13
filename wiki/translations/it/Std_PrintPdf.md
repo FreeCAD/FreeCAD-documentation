@@ -39,15 +39,9 @@ Il comando **Esporta PDF** ha principalmente lo scopo di creare dei file [PDF](P
 
 
 
-## Preferenze
-
--   L\'ultima posizione del file utilizzato viene memorizzata in: **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
-
-
-
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

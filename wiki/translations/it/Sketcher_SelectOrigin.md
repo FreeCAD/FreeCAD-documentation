@@ -1,44 +1,33 @@
-# Sketcher SelectOrigin/it
 ---
- GuiCommand:   Name: Sketcher SelectOrigin   Name/it: Seleziona Origine   Workbenches: Sketcher Workbench/it   Sketcher|MenuLocation: Sketch , Strumenti , Seleziona l'origine   Shortcut: **Maiusc**+**Ctrl**+**O**   SeeAlso:    Version: 0.15---
+ GuiCommand:
+   Name: Sketcher SelectOrigin
+   Name/it: Sketcher Seleziona l'origine
+   MenuLocation: Schizzo , Strumenti Sketcher , Seleziona l'origine
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **Z** **O**
+   Version: 0.15
+---
 
-
-</div>
+# Sketcher SelectOrigin/it
 
 
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Seleziona l\'origine di uno schizzo.
-
-
-</div>
+Lo strumento <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:24px;"> [Sketcher Seleziona l\'origine](Sketcher_SelectOrigin/it.md) seleziona l\'origine dello schizzo.
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Entrare in modalità di modifica del disegno.
-2.  Scegliere ** Sketch** → **Strumenti** → **<img src="images/Sketcher_SelectOrigin.svg" width=32px> Seleziona l'origine** dal menu in alto.
-3.  Viene selezionato l\'origine del disegno.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  Esistono diversi modi per richiamare lo strumento:
+    -   Seleziona l\'opzione **Schizzo → Strumenti Sketcher → [<img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Seleziona l'origine** dal menu.
+    -   Fare clic con il pulsante destro del mouse sulla sezione **Elementi** della [Finestra di dialogo Sketchcher](Sketcher_Dialog/it.md) e selezionare l\'opzione **<img src="images/Sketcher_SelectOrigin.svg" width=16px> Seleziona l'origine** dalla menu contestuale.
+    -   Usare la scorciatoia da tastiera: **Z** quindi **O**.
+2.  Viene selezionata l\'origine dello schizzo.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

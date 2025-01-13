@@ -15,7 +15,7 @@
 
 Polecenie **Sąsiadująco** zmienia układ okien w [Głównym obszarze widoku](Main_view_area/pl.md) tak, aby wszystkie były widoczne i nie zachodziły na siebie. Wynik jest określany na podstawie kolejności, w jakiej okna były ostatnio aktywowane.
 
-<img alt="" src=images/Std_TileWindows_example.png  style="width:600px;"> 
+<img alt="" src=images/Std_TileWindows_example.png  style="width:400px;"> 
 *Główny obszar widoku z trzema oknami wyłożonymi sąsiadująco.*
 
 
@@ -29,7 +29,7 @@ Polecenie **Sąsiadująco** zmienia układ okien w [Głównym obszarze widoku](M
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

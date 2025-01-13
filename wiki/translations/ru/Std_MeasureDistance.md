@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## Описание
 
 The **Std MeasureDistance** command creates a distance object that measures and displays the distance between two points.
+
+
 
 ## Применение
 
@@ -26,13 +30,19 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 4.  The selection order of the points can have an impact on the position of the dimension line.
 5.  Optionally flip the position of the dimension line by changing the **Mirror** property of the distance object.
 
+
+
 ## Примечания
 
 -   You cannot use the [Draft](Draft_Workbench.md) snap tools with this command.
 -   To add dimensions to drawings use the dimension tools from the [TechDraw Workbench](TechDraw_Workbench.md).
 -   For more comprehensive measuring tools, install the <img alt="" src=images/Manipulator_workbench_icon.svg  style="width:24px;"> [Manipulator Workbench](Manipulator_Workbench.md) (an [external workbench](External_workbenches.md)).
 
+
+
 ## Свойства
+
+
 
 ### Данные
 
@@ -50,6 +60,8 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 
 -    **Distance**: (read-only) the measured distance between P1 and P2.
 
+
+
 ### Вид
 
 
@@ -62,10 +74,16 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 -    **Mirror**: if set to `True` the position of the dimension line relative to P1 and P2 is flipped.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Std Base navi
+
+
+</div>
+
+
+{{Std_Base_navi
 
 }}
 

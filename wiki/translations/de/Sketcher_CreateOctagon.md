@@ -6,24 +6,30 @@
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **P** **8**
    Version: 0.15
+   SeeAlso: Sketcher_CreateRegularPolygon/de
 ---
 
 # Sketcher CreateOctagon/de
 
+
+
 ## Beschreibung
 
-Zeichnet ein Achteck, das in einem Kreis der Konstruktionsgeometrie eingeschrieben ist. Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Sechsecksymbol. Die Koordinaten des Zeigers werden daneben in Echtzeit blau dargestellt.
+Das Werkzeug <img alt="" src=images/Sketcher_CreateOctagon.svg  style="width:24px;"> [Sketcher AchteckErstellen](Sketcher_CreateOctagon/de.md) erstellt ein Achteck. {{Version/de|1.0}}: Dies ist dasselbe Werkzeug wie [Sketcher RegelmäßigesVieleckErstellen](Sketcher_CreateRegularPolygon/de.md) aber mit der vorgegebenen Anzahl von 8 Seiten.
 
 ![](images/SketcherCreateOctagonExample.png‎ )
 
+
+
 ## Anwendung
 
--   Nach Drücken der **[<img src=images/Sketcher_CreateOctagon.svg style="width:16px"> [Achteck erstellen](Sketcher_CreateOctagon/de.md)**, klicke einmal, um das Zentrum zu setzen, bewege dann die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
--   Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
-## Hinweise
-
-Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung der Skizze sichtbar ist.
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_CreateOctagon.svg" width=16px> [Achteck](Sketcher_CreateOctagon/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Skizzengeometrien → <img src="images/Sketcher_CreateOctagon.svg" width=16px> Achteck erstellen** auswählen.
+    -   Das Tastaturkürzel **G** dann **P** dann **8**.
+2.  Für weitere Schritte siehe [Sketcher RegelmäßigesVieleckErstellen](Sketcher_CreateRegularPolygon/de#Anwendung.md).
 
 
 

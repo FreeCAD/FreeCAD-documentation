@@ -21,7 +21,7 @@ L\'outil **TechDraw Redessiner** force la mise à jour de la page malgré les pa
 2.  Il y a plusieurs façons de lancer l\'outil :
     -   Appuyez sur le **<img src="images/TechDraw_RedrawPage.svg" width=16px> [Redessiner la page](TechDraw_RedrawPage/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Page → <img src="images/TechDraw_RedrawPage.svg" width=16px> Redessiner la page** du menu.
-3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
+3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la fenêtre de dialogue **Sélecteur de pages** s\'ouvre :
     1.  Sélectionnez la page désirée.
     2.  Appuyez sur le bouton **OK**.
 

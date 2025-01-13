@@ -1,7 +1,13 @@
 # SheetMetal Workbench/it
 }
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
+
+
+</div>
 
 
 
@@ -10,7 +16,13 @@
 
 ## Introduzione
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> [Sheet Metal](SheetMetal_Workbench.md) è un [ambiente esterno](External_workbenches.md) e non appartiene all\'installazione standard di FreeCAD. È stato sviluppato per fornire strumenti per realizzare e dispiegare oggetti in lamiera.
+
+
+</div>
 
 Le caratteristiche degli oggetti in lamiera sono:
 
@@ -19,8 +31,17 @@ Le caratteristiche degli oggetti in lamiera sono:
 
 Lo strumento di svolgimento in entrambe le sue versioni non è limitato alle parti fatte con gli strumenti di questo banco di lavoro, ma può gestire anche oggetti degli ambienti [Part](Part_Workbench.md) e [PartDesign](PartDesign_Workbench.md), purché soddisfino le caratteristiche di cui sopra.
 
-<img alt="" src=images/SheetMetal_Example.png  style="width:600px;"> 
+<img alt="" src=images/SheetMetal_Example.png  style="width:600px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Il modello in lamiera costruito con l'addon Sheet Metal; di fronte, il solido dispiegato; in primo piano, lo schizzo aperto con linee di piegatura per l'esportazione in DXF.*
+
+
+</div>
 
 Se l\'esportazione in DXF viene utilizzata per controllare una macchina (ad esempio Lasercut), è necessario modificare il DXF per rimuovere le linee che mostrano le pieghe, perché queste linee potrebbero essere utilizzate come linee di taglio dalla macchina.
 
@@ -34,8 +55,6 @@ Questo ambiente di lavoro può essere installato da [Addon Manager](Std_AddonMgr
 
 ## Strumenti
 
-È possibile trovare una descrizione dettagliata degli strumenti [sul blog dell\'autore](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/). Attualmente è un po\' datato, dato che sono stati aggiunti alcuni nuovi strumenti.
-
 -   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Make Base Wall](SheetMetal_AddBase/it.md):Crea un oggetto base in lamiera da uno schizzo, un profilo o un piatto.
 
 -   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Make Wall](SheetMetal_AddWall/it.md): Aggiunge una flangia su ogni bordo selezionato di una piastra di base. (La flangia può essere trasformata in un risvolto modificando il suo angolo).
@@ -47,6 +66,8 @@ Questo ambiente di lavoro può essere installato da [Addon Manager](Std_AddonMgr
 -   <img alt="" src=images/SheetMetal_Unfold.svg  style="width:32px;"> [Unfold](SheetMetal_Unfold/it.md): Appiattisce un oggetto in lamiera piegata e genera un solido non piegato e uno schizzo di contorno con linee di piegatura (fornisce un dialogo per impostare i parametri).
 
 -   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md): Appiattisce un oggetto in lamiera piegata e genera un solido non piegato e uno schizzo di contorno con linee di piegatura (se i parametri sono già stati impostati).
+
+-   <img alt="" src=images/SheetMetal_UnfoldUpdate.svg  style="width:32px;"> [Unfold Update](SheetMetal_UnfoldUpdate.md): Updates all unfold objects.
 
 -   <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:32px;"> [Add Corner Relief](SheetMetal_AddCornerRelief/it.md): Aggiunge rilievo ad un angolo.
 
@@ -64,9 +85,11 @@ Questo ambiente di lavoro può essere installato da [Addon Manager](Std_AddonMgr
 
 </div>
 
+-   <img alt="" src=images/SheetMetal_AddCutout.svg  style="width:32px;"> [Extruded Cutout](SheetMetal_AddCutout.md): Creates an extruded cutout from a sketch extrusion.
+
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Make Forming in Wall](SheetMetal_Forming/it.md): Imprime forme con o senza fori in una lastra di metallo.
 
--   <img alt="" src=images/SheetMetal_BaseShape.svg  style="width:32px;"> [Add base shape](SheetMetal_BaseShape.md): Adds a basic sheet metal object from parameters.
+-   <img alt="" src=images/SheetMetal_BaseShape.svg  style="width:32px;"> [Add base shape](SheetMetal_BaseShape.md): Adds a basic sheet metal object from parameters (introduced in version 0.3.10).
 
 
 
@@ -87,8 +110,14 @@ Questa sezione ha lo scopo di dare un\'idea approssimativa di come usare gli str
 
 #### Iniziare con un profilo 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Crea una polilinea aperta(preferibilmente con lo sketcher)
 2.  Utilizzare il comando <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase/it.md) per creare un profilo di lamiera.
+
+
+</div>
 
 
 
@@ -96,6 +125,10 @@ Questa sezione ha lo scopo di dare un\'idea approssimativa di come usare gli str
 
 1.  Crea una polilinea chiusa (preferibilmente con lo sketcher)
 2.  Utilizzare il comando <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase.md) per creare una lamiera grezza.
+
+#### Start with a base shape 
+
+1.  Use the <img alt="" src=images/SheetMetal_BaseShape.svg  style="width:16px;"> [Add base shape](SheetMetal_BaseShape.md) comand to add a basic sheet metal object from parameters (introduced in version 0.3.10).
 
 
 
@@ -150,9 +183,15 @@ It contains some hints about [properties](SheetMetal_Examples#SheetMetal_propert
 
 ## Limitazioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Il workbench è influenzato dal problema della [denominazione topologica](Glossary#Topological_Naming.md) inerente a FreeCAD. Se una modifica di una piega precedente nella cronologia della parte rinomina le facce, le piegature successive potrebbero essere influenzate e cambiare le facce. Se le funzioni di piegatura non si interrompono, si può fare doppio clic su di esse per ottenere una finestra di dialogo in cui è possibile selezionare la faccia corretta nella vista 3D e aggiornare la Piegatura.
 -   Lo strumento Unfold ha alcune limitazioni e fallisce in alcune situazioni complesse. Quando fallisce, provare a selezionare una faccia diversa.
 -   Caso frequente di crash: prendere tutte le precauzioni per non tagliare le cerniere (le pieghe) né lungo le facce o negli angoli e per non fare fori o tacche negli angoli.
+
+
+</div>
 
 
 
@@ -161,9 +200,19 @@ It contains some hints about [properties](SheetMetal_Examples#SheetMetal_propert
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:800px">
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ### Sheet Metal Tutorial by meme2704 
 
 Il seguente tutorial è riprodotto dal tutorial in PDF menzionato nei [Link](#Link.md).
+
+
+</div>
+
+The following tutorial is reproduced from the PDF tutorial mentioned in [Links](#Links.md).
 
 
 <div class="mw-collapsible-content">
@@ -183,6 +232,9 @@ Dopo aver scaricato e installato l\'estensione, aprirla. ![](images/sm1.png )
 
 #### 2nd operation 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Aprire l\'ambiente Sheet Metal.
 -   Selezionare uno spessore del bordo (un bordo) della piastra di base e fare clic sullo strumento \"Piegatura\" (Bend). L\'angolo di piegatura predefinito è di 90°, ma può essere modificato da 0° a 90°.
 -   L\'altezza del bordo (lembo piegato) di default è 10 mm, modificabile da 0,1 a xxx mm.
@@ -190,6 +242,9 @@ Dopo aver scaricato e installato l\'estensione, aprirla. ![](images/sm1.png )
 -   Gap1, gap2 sono la distanza del bordo piegato dall\'angolo della base (0 è accettato).
 -   Invert default: false piega a Z+, true a ZReliefd taglia l\'angolo tra la piega e la base (inattivo se gap = 0).
 -   Reliefw aggiunge una gola di scarico tra la base e il bordo (inattivo se reliefd = 0).
+
+
+</div>
 
 ![](images/sm3.png ) Ripetere tante volte quanti sono i lati da piegare.
 Piegare un ritorno con l\'uso di \"extend\".
@@ -202,7 +257,6 @@ Ora bisogna separare i due bordi altrimenti si fondono e il dispiegamento è imp
 \* Primo metodo: ritrarre, arretrare, un bordo.
 
 -   -   Dare un valore leggermente maggiore a gap1 (o gap2), a zero c\'è ancora fusione.
-
 -   Secondo metodo, effettuare un taglio a 45°, vedere più avanti la descrizione di come utilizzare questo strumento.
 
 ![](images/sm5a.png )
@@ -260,7 +314,13 @@ Come fare ?
 
 ## Videos
 
+
+<div class="mw-translate-fuzzy">
+
 -   [I\' legante ambiente di lavoro per la lamiera](https://www.youtube.com/watch?v=xidvQYkC4so) di Joko Engineering
+
+
+</div>
 
 
 

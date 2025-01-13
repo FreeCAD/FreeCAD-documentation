@@ -8,7 +8,9 @@ Attualmente, in FreeCAD sono rappresentati solo due componenti dell\'ingegneria 
 1.  [Armatura](Arch_Rebar/it.md)
 2.  [Trasporti](Transportation_Workbench/it.md)
 
-Gli strumenti Armatura attualmente sono parte dell\'ambiente [Architettura](Arch_Workbench/it.md)
+Gli strumenti Armatura attualmente sono parte dell\'ambiente [BIM](BIM_Workbench/it.md)
+
+
 
 ## Discussioni nel forum 
 
@@ -21,6 +23,8 @@ Gli strumenti Armatura attualmente sono parte dell\'ambiente [Architettura](Arch
 -   Screenshots
 -   Roadmap (pun not intended)
 -   Spruce up this wiki page
+
+
 
 ## Link correlati 
 

@@ -17,12 +17,12 @@ FreeCAD può importare ed esportare molti tipi di file. Ecco un elenco dei più 
   IFC       Si             Si             [Industry Foundation Classes](https://en.wikipedia.org/wiki/Industry_Foundation_Classes). Richiede l\'installazione di [IfcOpenShell-python](http://ifcopenshell.org/python). Il formato IFC e la sua compatibilità con altre applicazioni è un affare complesso, utilizzare con cautela.
   SVG       Si             Si             Un eccellente e diffuso formato grafico 2D
   VRML      Si             Si             Un formato web piuttosto vecchio basato su mesh.
-  GCODE     Si             Si             FreeCAD può già importare ed esportare da e verso vari dialetti di codice G, ma per il momento supporta solo alcune macchine.
+  GCODE     Si             Si             FreeCAD può già importare ed esportare da/verso diverse versioni di GCode, ma al momento è supportato solo un numero limitato di macchine.
   CSG       Si             No             Formato di OpenSCAD [CSG](https://en.wikipedia.org/wiki/Constructive_solid_geometry) (Constructive Solid Geometry).
 
 Alcuni di questi formati di file hanno delle opzioni. Questi formati possono essere configurati nel menu **Modifica → Preferenze → Importa/esporta**:
 
-![](images/Import_preferences.jpg )
+![](images/FreeCAD_022_ImportExport.png )
 
 **Approfondimenti**
 

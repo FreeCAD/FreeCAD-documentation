@@ -1,168 +1,81 @@
 # Feature editing/en
 ## Introduction
 
-This page explains the way the <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [PartDesign Workbench](PartDesign_Workbench.md) is intended to be used starting with FreeCAD 0.17.
-
-While the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) and other workbenches construct models by combining shapes together (see [Constructive solid geometry](Constructive_solid_geometry.md)), the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md) workbench uses **[features](PartDesign_Feature.md)**. A [feature](https://en.wikipedia.org/wiki/Feature_recognition) is an operation that modifies the shape of a model.
-
-## Feature editing methodology 
-
-The first feature is commonly called the **base feature**. As more features are added to the model, each feature takes the shape of the previous one and adds or removes matter, creating linear dependencies from one feature to the next. In effect, this methodology mimics a common manufacturing process: a block is cut on one side, then on another side, holes are added, then rounds, etc.
-
-All features are listed sequentially in the Model tree and can be edited at any time, with the last feature at the bottom representing the final part.
-
-Features can be sorted into different categories:
-
--   **Profile-based**: these features start from a profile to define the shape of the matter to be added or removed. The profile can be a sketch, a planar face on existing geometry (a profile will be extracted from its edges), a ShapeBinder or a Draft object that has been included in the active Body.
-
--   **Additive**: adds matter to the existing model. Additive features show yellow icons.
-
--   **Subtractive**: removes matter from the existing model. Subtractive features show red and blue icons.
-
--   **Primitive-based**: based on geometric primitives (cube, cylinder, cone, torus...). They can be additive or subtractive.
-
--   **Transformation features**: they apply a transformation to existing features (mirrored, linear pattern, polar pattern, multitransform).
-
--   **Dress-up**: features that apply a treatment to edges or faces, such as fillets/rounds, chamfers and drafts.
-
--   **Procedural**: can be said of features that are not based on sketches, like the transformation and dress-up features.
+This page explains the feature editing workflow of the <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [PartDesign Workbench](PartDesign_Workbench.md).
 
 ## Body
 
-Working in PartDesign requires first creating a <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> **[Body](PartDesign_Body.md)**. The PartDesign Body is a container that groups a sequence of features forming a single contiguous solid.
+Working in PartDesign requires first creating a <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Body](PartDesign_Body.md). The Body is a container intended to hold a single contiguous solid. When a Body is created, an Origin object, a local coordinate system consisting of standard reference planes (XY, XZ, YZ) and axes (X, Y, Z), is automatically added. The solid is then built by adding features. Each [feature](PartDesign_Feature.md) is cumulative and adds to or subtracts from the result of the previous feature.
+
+<img alt="" src=images/PartDesign_Feature_example.png  style="width:400px;">
+
+
+
+*Feature editing in practice. From left to right:<br>
+Body with a [box](PartDesign_AdditiveBox.md) feature.<br>
+Body with a box and a [chamfer](PartDesign_Chamfer.md) feature.<br>
+Body with a box, a chamfer and a [pocket](PartDesign_Pocket.md) feature.*
+
+A document can contain multiple Bodies, but only one Body can be active. New features are added to the active Body. A Body can be activated or deactivated by double clicking it in the [Tree view](Tree_view.md). The activate Body is highlighted in the Tree view.
 
 ![](images/PartDesign_Body_tree.png )
 
-**What is a single contiguous solid?** It is an object like a casting or something machined from a single block of metal. If the object involves nails, screws, glue or welding, it is not a single contiguous solid. As a practical example, a wooden chair would be made of multiple bodies, with one for each of its sub-components (legs, slats, seat, etc).
+### What is a contiguous solid? 
 
-Multiple bodies can be created in a FreeCAD document; they can also be combined to form a single contiguous solid.
+A contiguous solid is an object like a casting or something machined from a single block of metal. If the object involves nails, screws or glue, it is not a contiguous solid. As a practical example, a wooden chair would be made of multiple Bodies, with one for each of its sub-components (legs, slats, seat, etc).
 
-Only one body can be active in a document. The active body gets the new created features. A body can be activated or deactivated by double clicking on it. An activated body is highlighted in light blue. The highlighting color can be set in the preferences under Display/Colors/Active container since version 0.18.
+In FreeCAD version 1.0 an experimental property was introduced that allows the Body to have non-contiguous solids. This can also be set in the [Preferences](PartDesign_Preferences#General.md) as default for newly created Bodies. This is not intended to be used to build, as in the example, a chair in one Body. It is meant to allow features that may produce disconnected solids that will be made contiguous by later features.
 
-When a model requires multiple bodies, like the previous wooden chair example, the general purpose <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Part container](Std_Part.md) can be used to group them and move the whole as a unit.
+When a model requires multiple Bodies, like the wooden chair, the general purpose <img alt="" src=images/Std_Part.svg  style="width:16px;"> [Part container](Std_Part.md) can be used to group them and move the whole as a unit.
 
 ### Body visibility management 
 
-A body will present by default its most recent feature to the outside. This feature is defined by default as the tip. A good analogy is the expression *the tip of the iceberg*: only the tip is visible above the water, most of the iceberg\'s mass (the other features) is hidden. As a new feature is added to the body, visibility of the previous feature is turned off, and the new feature becomes the tip.
+By default a Body presents its most recent feature to the outside. This feature is the Tip of the Body. The Tip also marks the location where new features are added. It is possible to temporarily redefine the Tip to a feature in the middle of the Body to insert new objects (features, sketches or datum geometry) there. As a new feature is added to the Body, visibility of the previous feature is turned off, and the new feature becomes the Tip.
 
-There can only be one feature visible at a time. It is possible to [toggle the visibility](Std_ToggleVisibility.md) of any feature in the body, by selecting it in the Model tree and pressing the **Spacebar**, in effect going back in the history of the body.
-
-### Body Origin 
-
-The body has an Origin which consists of reference planes (XY, XZ, YZ) and axes (X, Y, Z) that can be used by sketches and features. Sketches can be attached to Origin planes, and they no longer need to be mapped to planar faces for features based on them to be added or subtracted from the model.
+There can only be one feature visible at a time. It is possible to [toggle the visibility](Std_ToggleVisibility.md) of any feature in the Body, by selecting it in the Tree view and pressing the **Spacebar**, in effect going back in the history of the Body. Note that changing the visibility of features does not change the Tip of the Body.
 
 ### Moving and Reordering Objects 
 
-It is possible to temporarily redefine the tip to a feature in the middle of the Body tree to insert new objects (features, sketches or datum geometry). It is also possible to reorder features under a Body, or to move them to a different Body. Select the object and right-click to get a contextual menu that will offer both options. The operation may be prevented if the object has dependencies in the source Body, such as being attached to a face. To move a sketch to another Body, it should not contain links to external geometry.
+The features of a Body can be reordered, or moved to a different Body. Select the feature and right-click to get a context menu that offers both options. The operation may be prevented if the object has dependencies in the source Body, such as being attached to a face. To move a sketch to another Body, it should not contain links to external geometry.
 
-### Difference with other CAD systems 
-
-A fundamental difference between FreeCAD and other programs, like Catia, is that FreeCAD doesn\'t allow you to have many disconnected solids in the same <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> **[PartDesign Body](PartDesign_Body.md)**. That is, a new feature should always be built on top of the previous one. Or said in a different way, the newer feature should \"touch\" the previous feature, so that both features are fused together and become a single solid. You cannot have \"floating\" solids.
-
-<img alt="" src=images/PartDesign_Body_non-contiguous.png  style="width:550px;">
+<img alt="" src=images/PartDesign_workflow.svg  style="width:400px;">
 
 
 
-*Difference between Catia and FreeCAD. Left: Catia allows disconnected bodies from the previous features of the body. In FreeCAD this causes an error; Right: the newer feature should always contact or intersect the previous feature so that it is fused to it, and becomes a single contiguous solid.*
+*Schematic representation of the PartDesign workflow.*
 
 ## Datum geometry 
 
-Datum geometry consists of custom planes, lines, points or externally linked shapes. They can be created for use as reference by sketches and features. There is a multitude of attachment possibilities for datum objects.
+Datum geometry consists of custom planes, lines, points or externally linked shapes. They can be created for use as reference by sketches and features. There are many [attachment](Part_EditAttachment.md) options for datum objects.
 
-In some CAD systems you can define a datum plane that is offset from the previous body and you can create a disconnected solid. So, placing a lot of datum planes, and building objects on them is okay and won\'t cause an error. Typically, you would eventually adjust the planes to their final positions, so that the individual objects are fused together.
+In FreeCAD, datum planes make sense if you are placing sketches in non-standard orientations, that is, on planes offset or rotated around the three main axes. But since sketches can also be placed in non-standard orientations and have the same attachment options as datum planes, there is often no need to use them. Datum planes make the most sense if there is more than one sketch with the same non-standard orientation. Adjusting the orientation of the datum plane will then adjust all associated sketches and the features created from those sketches.
 
-In FreeCAD, as mentioned in the previous section, disconnected solids are **NOT** allowed, so a sketch on a datum plane that would create a non-contiguous solid will fail.
-
-In FreeCAD, datum planes make sense if you are placing sketches (and padding, pocketing, etc.) in non-standard orientations, that is, in planes offset or rotated around the three main axes. Since sketches can also be placed in non-standard orientations in the same way as datum planes, often there is no need to use datum planes.
-
-Datum planes also make sense if there will be more than one sketch in the same non-standard orientation. In this case a datum plane can be used and the orientation only needs to be adjusted for the datum plane to adjust all associated sketches and the features created from the sketches.
-
-Both sketches and datum planes should be attached to base planes. Referencing generated geometry (geometry that is the result of a feature creating operation, for example a pad or pocket) should be avoided since faces and edges get renamed and renumbered and the references no longer refer to the same thing. This is called topological instability and is due the way FreeCAD uses some external geometric libraries. Hopefully this will be improved in the future. (See Advice for creating stable models below).
-
-Even if not used for supporting sketches, datum objects are still helpful as visual indicators, to draw attention to important features or distances in the modelling process. (Though, simply adding geometry to a sketch also provides similar visual feedback.)
-
-<img alt="" src=images/PartDesign_Body_non-contiguous_slanted.png  style="width:550px;">
-
-
-
-*Difference between Catia and FreeCAD. Left: Catia allows disconnected bodies from the previous features of the body. In FreeCAD this causes an error; Right: the newer feature should always contact or intersect the previous feature, so that it is fused to it, and becomes a single contiguous solid. In this example, the new solid is based on a datum plane that is rotated around the Y axis.*
-
-## Cross-referencing 
-
-It is possible to cross-reference elements from a body in another body via datums. For example the datum shape binder allows to copy over faces from a body as reference in another one. This should make it easy to build a box with fitting cover in two different bodies. FreeCAD helps you to avoid accidentally linking to other bodies by asking for confirmation of your intent.
-
-## Attachment
-
-Object attachment is not a specific PartDesign tool, but rather a Part utility introduced in v0.17 that can be found in the Part menu. It is heavily used in the PartDesign workbench to attach sketches and reference geometry to the standard planes and axes of the Body. Very extensive ways of creating datum points, lines and planes are available. Optional attachment offset parameters make this tool very versatile.
-
-More info can be found in the [Attachment](Part_EditAttachment.md) page and the [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md).
+Although FreeCAD version 1.0 already has code to mitigate the [topological naming problem](Topological_naming_problem.md), it is still best practice to attach both sketches and datum planes to the base planes of the Body\'s Origin whenever possible. Referencing generated geometry (geometry that is the result of a feature operation, for example a pad or pocket) may yet result in less stable models. See [Advice for creating stable models](#Advice_for_creating_stable_models.md) below.
 
 ## Advice for creating stable models 
 
-The idea of parametric modeling implies that you can change the values of certain parameters and subsequent steps are changed according to the new values. However, when severe changes are made, the model can break due to the [topological naming problem](Topological_naming_problem.md) that is still unresolved in FreeCAD. Breakage can be minimized when you respect the following design principles:
+The idea of parametric modeling implies that you can change the values of certain parameters and subsequent steps are changed according to the new values. However, when severe changes are made, the model can break due to the [topological naming problem](Topological_naming_problem.md). Breakage can be minimized if you respect the following design principles:
 
--   Avoid attaching sketches and datum objects to generated geometry of the model. (Generated geometry is any face or edge created as a result of a pad, pocket, etc..)
--   Place your sketches on standard coordinate planes, or on custom datum planes attached to standard planes.
-    -   Sketches attached to basic coordinate planes/axes or to datum planes attached to coordinate planes/axes, will not get unexpectedly reattached to a different reference.
--   When creating datum geometry, do not attach it to generated geometry
-    -   Attach it to standard planes/axes and/or sketches or datum objects which use attachment offsets to standard planes/axes.
--   Use a \"master sketch\". Since a master sketch is done before rest of the model, it only references the coordinate planes/axes.
-    -   A master sketch should be as simple as possible, containing basic geometric elements of your model.
+-   Avoid attaching sketches and custom datum geometry to generated geometry, that is any face, edge or vertex, of the model\'s solid. Attach them to standard planes/axes instead. Sketches attached to standard planes/axes or to datum geometry attached to standard planes/axes, will not get unexpectedly reattached to a different reference. Use attachment offsets as needed.
+-   Use a \"master sketch\". Since a master sketch is done before the rest of the model, it can only reference the standard planes/axes.
+    -   A master sketch should be as simple as possible, containing the basic geometric elements of your model.
     -   Master sketch elements can be referenced when modelling subsequent features.
-    -   A master sketch can be the first sketch in the Body, or outside the body completely
-    -   A master sketch can be referenced as external geometry or via a ShapeBinder.
--   Don\'t create ShapeBinders from generated geometry
--   Keep in mind that ShapeBinders can be an issue when geometry is deleted from the sketch it is based on.
--   If you inevitably have to reference an intermediate feature, e.g. the result of a thickness operation
-    -   Use the first reference possible in the list of subsequent features where the referenced geometric element occurs.
-    -   If you take an early feature as reference, all changes to intermediate steps won\'t break your model.
-    -   Try to reference a sketch or sketch geometry rather than generated geometry.
--   Use *dress ups*, like fillets and chamfers, as late in the feature tree as possible
--   Note, using spreadsheets, dynamic data, master sketches, etc. generally produce more parametric models and help avoid the topological naming issue.
-
-## Body building workflow 
-
-There are several workflows that are possible with the [PartDesign Workbench](PartDesign_Workbench.md). What should always be noticed is that all the features created inside a [PartDesign Body](PartDesign_Body.md) will be fused together to obtain the final object.
-
-### Different sketches 
-
-Sketches need to be supported by a plane. This plane can be one of the main planes (XY, XZ, or YZ) defined by the Origin of the Body. A sketch is either extruded into a positive solid (additive), with a tool like <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Pad](PartDesign_Pad.md), or into a negative solid (subtractive), with a tool like <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [PartDesign Pocket](PartDesign_Pocket.md). The first adds volume to the final shape of the body, while the latter cuts volume from the final shape. Any number of sketches and partial solids can be created in this way; the final shape (tip) is the result of fusing these operations together. Naturally, the Body can\'t consist of only subtractive operations, as the final shape should be a solid with a positive, non-zero volume.
-
-<img alt="" src=images/PartDesign_workflow_1.svg  style="width:600px;">
-
-### Sequential features 
-
-Sketches can be supported by the faces of previous solid operations. This may be necessary if you need to access a face that is only available after a certain feature has been created. However, this workflow isn\'t recommended since, if the original feature is modified, the following features in the sequence may break. This is the [topological naming problem](Topological_naming_problem.md).
-
-<img alt="" src=images/PartDesign_workflow_2.svg  style="width:600px;">
-
-### Use of datum planes for support 
-
-Datum planes are useful to support the sketches. These auxiliary planes should be attached to the base planes of the body.
-
-*Note: In many cases, a sketch attached to a base plane with attachment offsets can accomplish the same function. Datums are particularly useful when multiple sketches or other constructs will use the datum. This means all changes to the datum will be apply to attached sketches, etc. Adding a single sketch to a datum, rather than using attachment offsets in the sketch properties, is an extra step and is essentially redundant.*
-
-As with sketches, it is possible to attach Datum planes to generated geometry (edges, faces of previously created solids), ***but this is not recommended*** since it can cause the topological naming problem.
-
-In addition, a <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:24px;"> [PartDesign ShapeBinder](PartDesign_ShapeBinder.md) can be used to import external geometry into the body to serve as reference; then sketches can be attached to this auxiliary body, either using datum planes or not.
-
-*Again, the ShapeBinder should be based on Sketches from the previous body, not generated geometry.*
-
-Using datum objects is often the best way to produce stable models, when used with base planes and attachment offsets, although it requires a bit more work from the user. For details about basic attachment see: [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md) *Note: while this tutorial talks about sketches, datum attachment is done in similar fashion.*
+    -   A master sketch can be the first sketch in the Body, or outside the Body completely. In the first case it can be referenced directly as external geometry, in the latter it can be referenced via a <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [ShapeBinder](PartDesign_ShapeBinder.md) or <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [SubShapeBinder](PartDesign_SubShapeBinder.md).
+-   Don\'t create (Sub)ShapeBinders from generated geometry. Keep in mind that (Sub)ShapeBinders can be an issue if geometry is deleted from the sketch it is based on.
+-   Always first try to reference a sketch, or sketch geometry, rather than generated geometry. If you inevitably have to reference generated geometry, use the first feature where the element to be referenced occurs. Changes to later steps then won\'t break your model.
+-   Use dress ups, like fillets and chamfers, as late in the feature tree as possible.
 
 ## Tutorials
 
-The [tutorials](Tutorials.md) page provides some examples of using the [feature editing](Feature_editing.md) method of the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md).
+The [tutorials](Tutorials.md) page provides some examples of using the feature editing method of the [PartDesign Workbench](PartDesign_Workbench.md).
 
 -   [Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md)
--   [Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md)
+-   [Basic Part Design Tutorial 019](Basic_Part_Design_Tutorial_019.md)
 -   [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md)
 
 ## Related
 
 -   [Constructive solid geometry](Constructive_solid_geometry.md)
-
-<img alt="" src=images/PartDesign_workflow_3.svg  style="width:600px;">
 
 
 {{PartDesign Tools navi

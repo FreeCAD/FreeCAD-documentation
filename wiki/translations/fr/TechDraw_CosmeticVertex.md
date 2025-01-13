@@ -35,7 +35,6 @@ L\'outil **TechDraw Point cosmétique** ajoute un [Vertex](Glossary/fr#V.md) (so
 ## Remarques
 
 -   Vous ne pouvez pas modifier la position d\'un sommet cosmétique existant. Pour l\'instant, il n\'y a pas d\'autre moyen que de le supprimer et d\'en créer un nouveau.
--   Pour supprimer un sommet cosmétique, utilisez la <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw Supprimer l\'objet cosmétique](TechDraw_CosmeticEraser/fr.md).
 
 
 

@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Std ActivateNextWindow
    Name/fr: Std Suivante
-   MenuLocation: Fenêtre , Suivante
+   MenuLocation: Fenêtres , Suivante
    Workbenches: Tous
    Shortcut: **Ctrl**+**Tab**
    SeeAlso: Std_ActivatePrevWindow/fr, Std_Windows/fr
@@ -20,20 +20,20 @@ La commande **Std Suivante** active la fenêtre suivante dans la [zone de vue pr
 
 1.  La zone de vue principale doit contenir au moins deux fenêtres.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Sélectionnez l\'option **Fenêtre → <img src="images/Std_ActivateNextWindow.svg" width=16px> Suivante** du menu.
+    -   Sélectionnez l\'option **Fenêtres → <img src="images/Std_ActivateNextWindow.svg" width=16px> Suivante** du menu.
     -   Utilisez le raccourci clavier : **Ctrl**+**Tab**.
 
 
 
 ## Remarques
 
--   Les fenêtres de la zone d\'affichage principale sont également répertoriées dans le menu **Fenêtre** et peuvent être activées à partir de là.
+-   Les 10 premières fenêtres de la zone d\'affichage principale sont également répertoriées dans le menu **Fenêtres** et peuvent être activées à partir de là.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -21,8 +21,8 @@ Ce tutoriel a pour but d\'expliquer aux débutants découvrant Freecad, quelques
 
 **Nous allons voir dans ce tutoriel notamment :**
 
--   Utiliser l\'[atelier Part Design](PartDesign_Workbench/fr.md), traçage de l\'esquisse.
--   Utiliser les fonctions Pad et Pocket.
+-   Utiliser l\'[atelier PartDesign](PartDesign_Workbench/fr.md), tracer l\'esquisse.
+-   Utiliser les fonctions Protrusion et Poche.
 -   Changer couleur et transparence.
 -   Déplacer manuellement la pièce.
 -   Afficher des cotes indicatives dans l\'esquisse.
@@ -31,13 +31,13 @@ Ce tutoriel a pour but d\'expliquer aux débutants découvrant Freecad, quelques
 
 
 
-### Utiliser l\'[atelier Part Design](PartDesign_Workbench/fr.md), traçage de l\'esquisse 
+### Utiliser l\'[atelier PartDesign](PartDesign_Workbench/fr.md), tracer l\'esquisse 
 
-Créez un nouveau document et basculez vers l\'**[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''atelier Part Design'''** à l\'aide du [sélecteur d\'atelier](Getting_started/fr#Explorer_FreeCAD.md) (identifié 10 dans l\'image liée) ou via le menu *Affichage → Atelier*. FreeCAD doit démarrer avec les icônes au dessus, la vue combinée à gauche et la vue 3D à droite.
+Créez un nouveau document et basculez vers l\'**[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''atelier PartDesign'''** à l\'aide du [sélecteur d\'atelier](Getting_started/fr#Explorer_FreeCAD.md) (identifié 10 dans l\'image liée) ou via le menu *Affichage → Atelier*. FreeCAD doit démarrer avec les icônes au dessus, la vue combinée à gauche et la vue 3D à droite.
 
 **Créer un corps :**
 
-Cliquez sur <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Créer un corps](PartDesign_Body/fr.md). ***Remarque:** ne confondez pas le Corps (Body), dont l\'icône est bleue, avec le conteneur Pièce (Part), dont l\'icône est jaune.* Dans l\'onglet Modèle sous le panneau latéral de la vue combinée, un nouvel objet intitulé \"Body\" apparaît sous l\'étiquette du document, qui est actuellement \"Sans nom\" car nous n\'avons pas encore enregistré notre document. Le corps est un conteneur où sont rangées de façon séquentielle les fonctions Part Design pour former un solide unique. Il contient ses propres axes et plans de référence. Il sera surligné en bleu clair dans l'arborescence du modèle, ce qui signifie qu'il est actif, c'est-à-dire que nous pouvons modifier les éléments qu'il contient et y ajouter de nouveaux éléments. S\'il n\'est pas mis en surbrillance, double-cliquez dessus ou cliquez avec le bouton droit de la souris et sélectionnez *Activer/désactiver le corps* dans le menu contextuel. Devant l\'étiquette Body, vous trouverez une icône bleue identique à celle ci-dessus et une flèche ou un signe plus, selon votre système d\'exploitation. En cliquant sur la flèche ou le signe plus devant Body, son contenu se développe. À ce stade, il ne contient qu\'un élément intitulé *Origin*. Devant cette *origine* se trouve également une flèche ou un signe plus. Cliquez dessus pour développer son contenu. Il révèle les axes et les plans de référence susmentionnés, comme indiqué dans l\'image ci-dessous :
+Cliquez sur <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Créer un corps](PartDesign_Body/fr.md). ***Remarque:** ne confondez pas le Corps (Body), dont l\'icône est bleue, avec le conteneur Pièce (Part), dont l\'icône est jaune.* Dans l\'onglet Modèle sous le panneau latéral de la vue combinée, un nouvel objet intitulé \"Body\" apparaît sous l\'étiquette du document, qui est actuellement \"Sans nom\" car nous n\'avons pas encore enregistré notre document. Le corps est un conteneur où sont rangées de façon séquentielle les fonctions de PartDesign pour former un solide unique. Il contient ses propres axes et plans de référence. Il sera surligné en bleu clair dans l'arborescence du modèle, ce qui signifie qu'il est actif, c'est-à-dire que nous pouvons modifier les éléments qu'il contient et y ajouter de nouveaux éléments. S\'il n\'est pas mis en surbrillance, double-cliquez dessus ou cliquez avec le bouton droit de la souris et sélectionnez *Activer/désactiver le corps* dans le menu contextuel. Devant l\'étiquette Body, vous trouverez une icône bleue identique à celle ci-dessus et une flèche ou un signe plus, selon votre système d\'exploitation. En cliquant sur la flèche ou le signe plus devant Body, son contenu se développe. À ce stade, il ne contient qu\'un élément intitulé *Origin*. Devant cette *origine* se trouve également une flèche ou un signe plus. Cliquez dessus pour développer son contenu. Il révèle les axes et les plans de référence susmentionnés, comme indiqué dans l\'image ci-dessous :
 
 ![](images/PartDesign_Body_tree_Unnamed.png ) *Le corps actif nouvellement créé avec son contenu développé.*
 
@@ -45,9 +45,9 @@ L\'élément *Origin* est grisé, ce qui indique que son contenu n\'est pas visi
 
 Avant de continuer, profitons de l'occasion pour renommer le corps (Body).
 
-**Renommer le body :**
+**Renommer le corps :**
 
-Dans l\'arborescence Modèle, cliquez dessus avec le bouton droit. Sélectionnez Renommer et donnez un nom, par exemple \"Body pièce1\" puis valider.
+Dans l\'arborescence, cliquez dessus avec le bouton droit. Sélectionnez Renommer et donnez un nom, par exemple \"Body pièce1\" puis valider.
 
 **Créer une esquisse :**
 
@@ -134,7 +134,7 @@ Si votre esquisse n\'est toujours pas verte, vérifiez que tous les segments (sa
 
 ### Utiliser les fonctions Pad et Pocket 
 
-Cliquez sur **Fermer** dans l\'onglet Tâches, en haut à gauche. Nous quittons alors l\'atelier Sketcher automatiquement, et l\'atelier Part Design est de nouveau activé. La vue combinée bascule sur l\'onglet Modèle. Si vous aviez laissé votre *Body pièce1* déroulé, vous verrez un nouvel élément **Sketch** sous *Origin*, et imbriqué sous le corps.
+Cliquez sur **Fermer** dans l\'onglet Tâches, en haut à gauche. Nous quittons alors l\'atelier Sketcher automatiquement, et l\'atelier PartDesign est de nouveau activé. La vue combinée bascule sur l\'onglet Modèle. Si vous aviez laissé votre *Body pièce1* déroulé, vous verrez un nouvel élément **Sketch** sous *Origin*, et imbriqué sous le corps.
 
 À ce point, il serait bon de sauvegarder notre document. Donnez-lui un nom (par ex. \"tutoriel1\", ou tout autre nom qui vous convienne). Il est recommandé de sauvegarder votre document souvent, par exemple après avoir terminé une esquisse ou ajouté une fonction.
 

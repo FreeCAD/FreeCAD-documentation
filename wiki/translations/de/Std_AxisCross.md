@@ -39,32 +39,32 @@ Das Achsenkreuz besteht aus drei Pfeilen, die positiven X-, Y- und Z-Achsen des 
 
 ## Einstellungen
 
--   Der Standard für das Achsenkreuz kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeige → 3D-Ansicht → Achsenkreuz standardmäßig anzeigen**. Siehe [Voreinstellungseditor](https://wiki.freecadweb.org/Preferences_Editor/de#3D_Ansicht.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Die Standardeinstellung für das Achsenkreuz kann geändert werden: **Bearbeiten → Einstellungen... → Anzeige → 3D-Ansicht → Achsenkreuz standardmäßig anzeigen**.
 
 
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um die Ansicht des Achsenkreuzes umzuschalten, verwende die Methode `viewIsometric` des AktiveAnsicht Objekts. Diese Methode ist nicht verfügbar, wenn sich FreeCAD im Konsolenmodus befindet.
+Die Methode `setAxisCross` des View-Objekts wird verwendet, um das Achsenkreuz ein- bzw. auszuschalten.
 
 
 ```python
 import FreeCADGui
 
-FreeCADGui.ActiveDocument.ActiveView.setAxisCross(True)
-FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
+view = FreeCADGui.ActiveDocument.ActiveView
+view.setAxisCross(True)
+view.hasAxisCross()
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

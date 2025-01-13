@@ -6,28 +6,38 @@
    Author: Pablo Gil
    FCVersion: 0.19.x
    Files: 
-}}
+---
+
+# Import/Export IFC - compiling IfcOpenShell/es
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+</div>
 
 ## Introducción
 
 Fue una investigación tan dura sobre cómo obtener una copia de trabajo de IfcOpenShell-python en OSX/macOS con el fin de importar/exportar archivos IFC que estoy compartiendo este tutorial en caso de que ayude a más personas. Mi sistema es OSX 10.11.6, 64bits con Python 2.7.11, puede que te funcione si también tienes OSX ya que suelen ser de 64bits pero puede diferir del mío. El procedimiento puede ser muy similar si tienes Linux o Windows pero probablemente tenga algunas diferencias.
 
+
+
 ## Requisitos
 
--   IfcOpenShell
+-   [IfcOpenShell](IfcOpenShell/es.md)
 -   FreeCAD v0.19 o superior
 
 ## Pasos
 
-1\. Descargue o clone el proyecto completo de GitHub en <https://github.com/IfcOpenShell/IfcOpenShell> 
+1\. Descargue o clone el proyecto completo de GitHub en <https://github.com/IfcOpenShell/IfcOpenShell> (siempre será la versión más reciente)
 
 :   
-    `git clone https://github.com/IfcOpenShell/IfcOpenShell
----
-
-# Import/Export IFC - compiling IfcOpenShell/es
-
-     
+    `git clone https://github.com/IfcOpenShell/IfcOpenShell`
+    
 
 2\. Desde un terminal ve a la carpeta **/nix/** y lanza el script. En OSX se ejecuta con: 
 ```python
@@ -40,7 +50,7 @@ cd nix/
 4\. Abre FreeCAD y abre la [consola de Python](Python_console/es.md) y la [vista de informe](Report_view/es.md). Luego escribe en la consola de Python lo siguiente: {{Code|código=
 importar sys
 print sys.path
-` Obtendrás una línea larguísima con todas las rutas que lee FreeCAD. Puedes instalar IfcOpenShell en cualquiera de ellas, pero te sugiero que lo coloques dentro de una en la que encuentres un **/site-packages/** después de un **/Python/** o **/python-algo/**. En mi caso era **/Library/Python/2.7/site-packages**. (Nota: encontrarás rutas dentro del directorio de tu aplicación pero te sugiero que no las uses porque entonces IfcOpenShell sólo estará disponible para esta aplicación)
+}} Obtendrás una línea larguísima con todas las rutas que lee FreeCAD. Puedes instalar IfcOpenShell en cualquiera de ellas, pero te sugiero que lo coloques dentro de una en la que encuentres un **/site-packages/** después de un **/Python/** o **/python-algo/**. En mi caso era **/Library/Python/2.7/site-packages**. (Nota: encontrarás rutas dentro del directorio de tu aplicación pero te sugiero que no las uses porque entonces IfcOpenShell sólo estará disponible para esta aplicación)
 
 5\. Una vez localizado donde quieres/tienes que instalarlo, ve allí con tu explorador de archivos (Finder en OSX). Es decir, entra en la carpeta **/site-packages/**
 
@@ -129,6 +139,8 @@ Espero que te ayude.
 
 Salud
 
+
+
 ## Enlaces
 
 -   Hilo del foro relacionado [discusión](http://forum.freecadweb.org/viewtopic.php?f=23&t=17536)
@@ -137,4 +149,4 @@ Salud
 
 
 ---
-⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > [3rd Party](Category_3rd Party.md) > [File_Formats](Category_File_Formats.md) > Import/Export IFC - compiling IfcOpenShell/es
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [3rd_Party](Category_3rd_Party.md) > [File_Formats](Category_File_Formats.md) > Import/Export IFC - compiling IfcOpenShell/es

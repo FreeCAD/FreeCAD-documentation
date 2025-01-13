@@ -3,7 +3,7 @@
    Name: Draft AddConstruction
    Name/it: Aggiungi al gruppo costruzione
    MenuLocation: Utilità , Aggiungi al gruppo costruzione
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Version: 0.17
    SeeAlso: Draft_ToggleConstructionMode/it, Draft AddToGroup/it
 ---
@@ -22,8 +22,9 @@ Il comando <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;"
 
 1.  Selezionare uno o più oggetti.
 2.  Esistono diversi modi per richiamare il comando:
-    -   Premere il pulsante **<img src="images/Draft_AddConstruction.svg" width=16px> [Aggiungi al gruppo costruzione](Draft_AddConstruction/it.md)**.
-    -   Seleziona l\'opzione **Utilità → <img src="images/Draft_AddConstruction.svg" width=16px> Aggiungi al gruppo costruzione** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Premere il pulsante **<img src="images/Draft_AddConstruction.svg" width=16px> [Aggiungi al gruppo costruzione](Draft_AddConstruction/it.md)**.
+    -   Draftː Seleziona l\'opzione **Utilità → <img src="images/Draft_AddConstruction.svg" width=16px> Aggiungi al gruppo costruzione** dal menu, o dalla [Vista ad albero](Tree_view/it.md) o dal menu contestuale della [Vista 3D](3D_view/it.md).
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Utilità → <img src="images/Draft_AddConstruction.svg" width=16px> Aggiungi al gruppo costruzione** dal menu.
 3.  Se non esiste viene creato prima il gruppo di costruzione.
 4.  Gli oggetti vengono spostati nel gruppo di costruzione e le loro proprietà di colore vengono modificate.
 

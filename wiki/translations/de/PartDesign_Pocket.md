@@ -21,79 +21,95 @@ Das Werkzeug **Tasche** beschneidet einen Volumenkörper, indem es eine Skizze o
 
 ## Anwendung
 
-1.  Eine Skizze oder Fläche auswählen, die als Tasche extrudiert werden soll. Es können wahlweise auch mehrere Skizzen oder Flächen ausgewählt werden. {{Version/de|0.20}}
-
-2.  Die Schaltfläche **<img src="images/PartDesign_Pocket.svg" width=16px> '''Tasche'''** drücken.
-
+1.  Eine einzelne Skizze oder eine oder mehrere Flächen des Körpers auswählen.
+2.  Die Schaltfläche **<img src="images/PartDesign_Pocket.svg" width=16px> [Tasche](PartDesign_Pocket/de.md)** drücken.
 3.  Parameter der Tasche einstellen, siehe [Optionen](#Optionen.md) unten.
-
-4.  
-    **OK**klicken.
-
-Wenn eine einzelne Skizze ausgewählt wird, kann sie mehrere geschlossene Konturen innerhalb einer größeren enthalten, z.B. ein Rechteck mit zwei Kreisen darin. Die Konturen dürfen sich nur nicht überlappen. {{Version/de|0.20}}
+4.  Die Schaltfläche **OK** drücken.
 
 
 
 ## Optionen
 
-Während der Erstellung der Tasche wird der Dialog **Parameter der Tasche** angezeigt. Er bietet folgende Einstellungen:
+Während der Erstellung der Tasche oder nach einem Doppelklick auf eine bestehende Tasche in der [Baumansicht](Tree_view/de.md) wird der Aufgaben-Dialog **Parameter der Tasche** angezeigt. Er bietet folgende Einstellungen:
 
-![](images/pocket_parameters_cropped.png )
+![](images/PartDesign_Pocket_Taskpanel.png )
 
 
 
 ### Typ
 
-Typ bietet fünf verschiedene Möglichkeiten zum Festlegen der Länge, auf die die Tasche extrudiert werden soll:
+Typ bietet fünf verschiedene Möglichkeiten zum Festlegen der Länge der Tasche:
 
 
 
 #### Abmessung
 
-Einen numerischen Wert für die Tiefe der Tasche eingeben. Die Vorgaberichtung der Extrusion ist in den Basiskörper hinein, kann aber geändert werden, durch aktivieren der Option **Umgekehrt**. Voreingestellt ist die Richtung der Extrusion [1](http://en.wikipedia.org/wiki/Surface_normalnormal) zur maßgeblichen Skizzenebene. Dies kann durch die Angabe einer anderen **Richtung** {{Version/de|0.20}} geändert werden. Mit der Option **Symmetrisch zu einer Ebene** wird die Tasche jeweils mit der Hälfte der gegebenen Länge auf beiden Seiten der Ebene ausgeführt. Negative Längen sind nicht Möglich; stattdessen wird die Option **Umgekehrt** verwendet.
+Einen numerischen Wert für das **Tiefenmaß** der Tasche eingeben. Mit der Option **Symmetrisch zu einer Ebene** wird die Tasche jeweils mit der Hälfte der gegebenen Länge zu beiden Seiten der Skizze oder Fläche ausgeführt.
 
 
 
 #### Durch alles 
 
-The pocket will extrude through all objects in the extrusion direction. With the option **Symmetric to plane** the pad will cut through all material in both directions.**Note:** For technical reasons, *Through All* is actually a 10 meter deep pocket. If you need deeper pockets, use the type **Dimension**.
+The pocket will extend up to the last face of the support it encounters in its direction. With the option **Symmetric to plane** the pocket will cut through all material in both directions. Note that for technical reasons, *Through All* is actually a 10 meter deep pocket. If you need deeper pockets, use the type **Dimension**.
 
 
 
 #### Bis zur dichtesten Objektbegrenzung 
 
-The pocket will extrude up to the first face of the support in the extrusion direction. In other words, it will cut through all material until it reaches an empty space.
+The pocket will extend up to the first face of the support it encounters in its direction.
 
 
 
 #### Bis zu Oberfläche 
 
-Die Tasche wird bis zu einer Fläche im Modell extrudiert, die durch Anklicken ausgewählt werden kann.
+Die Tasche wird bis zu einer Fläche ausgeführt. Die Schaltfläche **Fläche auswählen** drücken und eine Fläche oder [Bezugsebene](PartDesign_Plane/de.md) am Körper auswählen.
 
 
 
 #### Zwei Längen 
 
-Dies ermöglicht die Eingabe einer zweiten Länge, mit der die Tasche in die entgegengesetzte Richtung (in die Halterung) ausgedehnt werden soll. Die Richtung kann durch Aktivieren der Option **Umgekehrt** geändert werden.
+Dies ermöglicht die Eingabe einer zweiten Länge, mit der die Tasche in die entgegengesetzte Richtung ausgedehnt werden soll. Die Richtung kann durch Aktivieren der Option **Umgekehrt** geändert werden.
+
+#### Up to shape 
 
 
+<small>(v1.0)</small> 
 
-### Länge
-
-Definiert die Tiefe der Tasche. Die Maßeinheiten können unabhängig von den Benutzervorgaben in den Einstellungen angegeben werden (m, cm, mm, nm, ft oder \', in oder \"). Diese Option ist nur verfügbar, wenn als **Typ** entweder **Abmessung** oder **Zwei Längen** gewählt wurde.
+: The pocket will extend up to the selected shape. Optionally press the **Select shape** button and select a shape. Leave the **Select all faces** checkbox enabled or disable it, press the **Select** button and select the faces up to which the pocket should be created.
 
 
 
 ### Abstand zur Fläche 
 
-Abstand zu der Fläche, an der die Tasche enden soll. Diese Option ist nur verfügbar, wenn als **Typ** entweder **Durch alles**, **Bis zur dichtesten Objektbegrenzung**, oder **Bis zur Oberfläche** gewählt wurde.
+Abstand zu der Fläche, an der die Tasche enden soll. Diese Option steht nur zur Verfügung, wenn für **Typ** entweder **Durch alles**, **Bis zur dichtesten Objektbegrenzung**, oder **Bis zur Oberfläche** ausgewählt wurde.
+
+
+
+### Länge
+
+Legt die Tiefe der Tasche fest. Diese Option steht nur zur Verfügung, wenn für **Typ** entweder **Tiefenmaß** oder **Zwei Längen** ausgewählt wurde. Die Tiefe wird entlang des Richtungsvektors oder entlang der Skizzen- oder Flächennormale gemessen. Negative Werte sind nicht möglich; stattdessen verwendet man dafür die Option **Umgekehrt**.
+
+
+
+### Zweite Länge 
+
+Defines the length of the pocket in the opposite direction. This option is only available if **Type** is **Two dimensions**.
+
+
+
+### Symmetrisch zur Ebene 
+
+Diese Option aktivieren, um jeweils die Hälfte der angegebenen Länge zu beiden Seiten der Skizze oder Fläche auszuführen, wenn für **Typ** entweder **Tiefe**, oder **Durch alles** ausgewählt wurde.
+
+
+
+### Umgekehrt
+
+Kehrt die Richtung der Tasche um.
 
 
 
 ### Richtung
-
-
-{{Version/de|0.20}}
 
 
 
@@ -101,9 +117,9 @@ Abstand zu der Fläche, an der die Tasche enden soll. Diese Option ist nur verf�
 
 Für die Richtung der Extrusion steht Folgendes zur Auswahl:
 
--   **Face/Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
--   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion.
--   **Custom direction** The sketch is extruded along a direction that can be specified via vector values.
+-   **Sketch normal** or **Face normal:** The sketch or face is extruded in the opposite direction of its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used.
+-   **Select reference\...:** The sketch or face is extruded in the opposite direction of a straight edge or a [datum line](PartDesign_Line.md) selected from the Body.
+-   **Custom direction:** The sketch or face is extruded in the direction of the specified vector.
 
 
 
@@ -115,68 +131,74 @@ Wenn Aktiviert, wird die Richtung der Tasche angezeigt. Falls die Tasche eine **
 
 #### Länge entlang der Skizzennormale 
 
-Wenn Aktiviert, wird die Länge der Tasche entlang der Skizzennormale gemessen, sonst entlang der benutzerdefinierten Richtung.
-
-
-
-### Symmetrisch zur Ebene 
-
-Diese Option extrudiert jeweils die halbe Gesamtlänge auf beiden Seiten der Skizze oder Ebene.
-
-
-
-### Umgekehrt
-
-Kehrt die Richtung der Tasche um.
+Wenn Aktiviert, wird die Länge der Tasche entlang der Skizzen- oder Flächennormale gemessen, sonst entlang der benutzerdefinierten Richtung.
 
 
 
 ### Schrägungswinkel
 
-
-{{Version/de|0.20}}
-
-Tapers the pocket in the extrusion direction by the given angle. A positive angle means the outer pocket border gets wider. This option is only available if **Type** is either **Dimension** or **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
-
-Limitations:
-
--   Sketches containing [B-Splines](B-Splines.md) often cannot be properly tapered. This is a limitation of the [OpenCASCADE](OpenCASCADE.md) kernel that FreeCAD uses.
--   For larger angles tapering will fail if the end face of the pocket would have fewer edges than the start face/sketch.
-
-
-
-### Zweite Länge 
-
-Defines the length of the pocket in the opposite extrusion direction. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available if **Type** is **Two dimensions**.
+Tapers the pocket in the extrusion direction by the given angle. A positive angle means the outer pocket border gets wider. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts. This option is only available if **Type** is **Dimension** or **Two dimensions**.
 
 
 
 ### Zweiter Schrägungswinkel 
 
-
-{{Version/de|0.20}}
-
-Tapers the pocket in the opposite extrusion direction by the given angle. A positive angle means the outer pocket border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
+Tapers the pocket in the opposite extrusion direction by the given angle. See **Taper angle**. This option is only available if **Type** is **Two dimensions**.
 
 
 
 ## Eigenschaften
 
--    **Type**: Type of ways how the pocket will be extruded, see [Options](#Options.md).
+### Data
 
--    **Length**: Defines the length of the pocket, see [Options](#Options.md).
 
--    **Length2**: Second pocket length in case the **Type** is **TwoLengths**, see [Options](#Options.md).
+{{TitleProperty|Part Design}}
 
--    **Use Custom Vector**: <small>(v0.20)</small>  If checked, the pocket direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
+-    **Refine|Bool**: True or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in **Preferences → Part Design → General → Model settings**).
 
--    **Direction**: <small>(v0.20)</small>  Vector of the pocket direction if **Use Custom Vector** is used.
 
--    **Along Sketch Normal**: <small>(v0.20)</small>  If *true*, the pocket length is measured along the sketch normal. Otherwise and if **Use Custom Vector** is used, it is measured along the custom direction.
+{{TitleProperty|Pocket}}
 
--    **Up To Face**: A face the pocket will extrude up to, see [Options](#Options.md).
+-    **Type|Enumeration**: Defines how the pocket will be extruded, see [Options](#Options.md).
 
--    **Refine**: True or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in **Preferences → Part design → General → Model settings**). It can be manually changed afterwards. This property will be saved with the FreeCAD document.
+-    **Length|Length**: Defines the length of the pocket, see [Options](#Options.md).
+
+-    **Length2|Length**: Second pocket length in case the **Type** is **TwoLengths**, see [Options](#Options.md).
+
+-    **Use Custom Vector|Bool**: If checked, the pocket direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
+
+-    **Direction|Vector**: Vector of the pocket direction if **Use Custom Vector** is used.
+
+-    **Reference Axis|LinkSub**
+    
+
+-    **Along Sketch Normal|Bool**: If *true*, the pocket length is measured along the sketch normal. Otherwise and if **Use Custom Vector** is used, it is measured along the custom direction.
+
+-    **Up To Face|LinkSub**: A face the pocket will extrude up to, see [Options](#Options.md).
+
+-    **Offset|Length**
+    
+
+-    **Taper Angle|Angle**
+    
+
+-    **Taper Angle2|Angle**
+    
+
+
+{{TitleProperty|Sketch Based}}
+
+-    **Profile|LinkSub**
+    
+
+-    **Midplane|Bool**
+    
+
+-    **Reversed|Bool**
+    
+
+-    **Allow Multi Face|Bool**
+    
 
 
 

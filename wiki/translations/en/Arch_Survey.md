@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch Survey
-   MenuLocation: Arch , Survey
-   Workbenches: Arch_Workbench
+   MenuLocation: Utils , Survey
+   Workbenches: BIM_Workbench
    SeeAlso: Macro_FCInfo, Macro_SimpleProperties
 ---
 
@@ -10,7 +10,7 @@
 
 ## Description
 
-The **<img src="images/Arch_Survey.svg" width=16px> [Arch Survey](Arch_Survey.md)** tool enters a special surveying mode, which allows you to quickly grab measurements and information from a model, and transfer that information to other applications. Once you are in Survey mode, clicking on different subelements of 3D objects gathers the following information (depending on what you click):
+The **Arch Survey** tool enters a special surveying mode, which allows you to quickly grab measurements and information from a model, and transfer that information to other applications. Once you are in Survey mode, clicking on different subelements of 3D objects gathers the following information (depending on what you click):
 
 -   If you click on an edge, you get its length
 -   If you click on a vertex, you get its height (coordinate on the Z axis)
@@ -31,7 +31,7 @@ When such a piece of information is gathered, several things happen:
 
 ## Usage
 
-1.  Press the **<img src="images/Arch_Survey.svg" width=16px> [Arch Survey](Arch_Survey.md)** button.
+1.  Select the **Utils → <img src="images/Arch_Survey.svg" width=16px> Survey** option from the menu.
 2.  Click on vertices, edges, faces or double-click to select whole objects.
 3.  Click outside any geometry (on the background of the 3D view) to remove existing labels, print a total line in the Task dialog, and restart counting lengths and areas from zero.
 4.  Press **Esc** or the **Close** button to exit survey mode and remove all the labels.
@@ -68,5 +68,13 @@ for obj in selection:
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/en
+⏵ [documentation index](../README.md) > Arch Survey/en

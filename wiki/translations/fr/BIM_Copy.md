@@ -1,19 +1,27 @@
 ---
- GuiCommand:Addon
+ GuiCommand:
    Name: BIM Copy
-   Workbenches: Image:IFC.svg BIM Workbench/fr
-   Addon: BIM
-   MenuLocation: Modify , Copie
-   SeeAlso: Draft Move/fr
+   Name/fr: BIM Copie
+   MenuLocation: Modification , Copier
+   Workbenches: BIM Workbench/fr
+   SeeAlso: Draft_Move/fr
 ---
 
 # BIM Copy/fr
 
 ## Description
 
-L'outil Copie BIM est un raccourci vers l'outil standard [Déplacer](Draft_Move/fr.md) mais en commençant par son option **Copier** ce qui permet de créer une copie d'un objet et de le placer à un endroit donné, en une fois.
+L'outil **BIM Copie** est un raccourci vers l'outil standard [Draft Déplacer](Draft_Move/fr.md) mais en commençant par son option **Copier** ce qui permet de créer une copie d'un objet et de le placer à un endroit donné, en une fois.
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > BIM Copy/fr
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Copy/fr

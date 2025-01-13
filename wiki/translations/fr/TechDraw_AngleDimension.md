@@ -23,7 +23,13 @@ L\'outil **TechDraw Cote angulaire** ajoute une cote angulaire à une vue. Cette
 1.  Sélectionnez deux arêtes droites. La géométrie peut être sélectionnée dans la [vue 3D](3D_view/fr.md) ou dans le dessin.
 2.  Si vous avez sélectionné la géométrie dans la vue 3D : ajoutez la bonne vue TechDraw à la sélection en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
 3.  Il y a plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_AngleDimension.svg" width=16px> [Insérer une cote angulaire](TechDraw_AngleDimension/fr.md)**.
+    -   
+        {{Version/fr|1.0}}
+        
+        : si la [préférence](TechDraw_Preferences/fr#Cotes.md) **outils de cotation** est réglée sur {{Value|Outil unique}} (par défaut) : appuyez sur la flèche vers le bas à droite du bouton **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** et sélectionnez l\'option **<img src="images/TechDraw_AngleDimension.svg" width=16px> Insérer une cote angulaire** du menu déroulant.
+
+    -   Si cette préférence a une valeur différente (et dans {{VersionMinus/fr|0.21}}) : appuyez sur le bouton **<img src="images/TechDraw_AngleDimension.svg" width=16px> [Insérer une cote angulaire](TechDraw_AngleDimension/fr.md)**.
+
     -   Sélectionnez l\'option **TechDraw → Dimensions → <img src="images/TechDraw_AngleDimension.svg" width=16px> Insérer une cote angulaire** du menu.
 4.  Une cote est ajoutée à la vue.
 5.  La cote peut être déplacée jusqu\'à la position souhaitée.

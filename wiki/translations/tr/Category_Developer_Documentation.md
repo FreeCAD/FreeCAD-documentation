@@ -11,7 +11,7 @@ This category gathers documentation article mostly aimed at programmers
 | [Embedding FreeCADGui/tr](Embedding_FreeCADGui/tr.md) | [Extra python modules/tr](Extra_python_modules/tr.md) | [FreeCAD Build Tool/tr](FreeCAD_Build_Tool/tr.md) |
 | [FreeCAD Scripting Basics/tr](FreeCAD_Scripting_Basics/tr.md) | [FreeCAD vector math library/tr](FreeCAD_vector_math_library/tr.md) | [Help FreeCAD/tr](Help_FreeCAD/tr.md) |
 | [How to install macros/tr](How_to_install_macros/tr.md) | [Installing more workbenches/tr](Installing_more_workbenches/tr.md) | [Installing on Linux/tr](Installing_on_Linux/tr.md) |
-| [Introduction to Python/tr](Introduction_to_Python/tr.md) | [Licence/tr](Licence/tr.md) | [Line drawing function/tr](Line_drawing_function/tr.md) |
+| [Introduction to Python/tr](Introduction_to_Python/tr.md) | [License/tr](License/tr.md) | [Line drawing function/tr](Line_drawing_function/tr.md) |
 | [Localisation Sidebar/tr](Localisation_Sidebar/tr.md) | [Localisation/tr](Localisation/tr.md) | [Macros/tr](Macros/tr.md) |
 | [Mesh Scripting/tr](Mesh_Scripting/tr.md) | [Mesh to Part/tr](Mesh_to_Part/tr.md) | [Pivy/tr](Pivy/tr.md) |
 | [Property/tr](Property/tr.md) | [PySide/tr](PySide/tr.md) | [Python scripting tutorial/tr](Python_scripting_tutorial/tr.md) |

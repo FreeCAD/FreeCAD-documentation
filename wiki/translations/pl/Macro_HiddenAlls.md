@@ -1,28 +1,33 @@
 # Macro HiddenAlls/pl
-{{Macro
+{{Macro/pl
 |Name=Macro HiddenAlls
+|Translate=Makrodefinicja: Ukryj wszystko
 |Icon=Macro_HiddenAlls.png
-|Description=This macro hidden all objects in the document (Visibility False).
+|Description=Ukrywa wszystkie obiekty w dokumencie ''(Widoczność = "False")''.
 |Author=Mario52
 |Version=00.01
 |Date=2015-11-12
-|FCVersion=All
+|FCVersion=wszystkie
 |Download=[https://www.freecadweb.org/wiki/images/d/d6/Macro_HiddenAlls.png ToolBar Icon]
-|SeeAlso=[Macro Toggle Visibility2 1-2](Macro_Toggle_Visibility2_1-2.md)<br>[Macro Toggle Visibility2 2-2](Macro_Toggle_Visibility2_2-2.md)<br>[Macro_Toggle_Visibility](Macro_Toggle_Visibility.md)<br>[Macro VisibleAlls](Macro_VisibleAlls.md)<br>[Macro If Selected Stay If Not Then Delete](Macro_If_Selected_Stay_If_Not_Then_Delete.md)
+|SeeAlso=[Makro Przełącz widoczność 2 1-2](Macro_Toggle_Visibility2_1-2/pl.md)<br>[Makro Przełącz widoczność 2 2-2](Macro_Toggle_Visibility2_2-2/pl.md)<br>[Makro Przełącz widoczność](Macro_Toggle_Visibility/pl.md)<br>[Makro Widoczne wszystko](Macro_VisibleAlls/pl.md)<br>[Makro Jeżeli zaznaczone pozostaw Jeżeli nie to usuń](Macro_If_Selected_Stay_If_Not_Then_Delete/pl.md)
 }}
 
-## Description
 
-This macro hidden all objects in the document (Visibility False).
 
-## Script
+## Opis
 
-ToolBar Icon <img alt="" src=images/Macro_HiddenAlls.png  style="width:64px;">
+Makrodefinicja ta umożliwia ukrycie wszystkich obiektów w dokumencie *(widoczność = \"False\")*.
+
+
+
+## Tworzenie skryptów 
+
+Ikonka paska narzędzi <img alt="" src=images/Macro_HiddenAlls.png  style="width:64px;">
 
 **Macro_HidenAlls.FCMacro**
 
 
-```python
+{{MacroCode|code=
 import FreeCAD
 #Macro_HideAllObjects
 __title__="Macro_HideAlls"
@@ -37,7 +42,7 @@ try:
         FreeCADGui.ActiveDocument.getObject(ShapeNameObj.Name).Visibility = False
 except Exception:
     None
-```
+}}
 
 
 

@@ -14,17 +14,17 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:24px;"> **VertikaleAchseAuswählen** wählt die vertikale Achse einer Skizze aus.
+Das Werkzeug <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:24px;"> [Sketcher VertikaleAchseAuswählen](Sketcher_SelectVerticalAxis/de.md) wählt die vertikale Achse der Skizze aus.
 
 
 
 ## Anwendung
 
-1.  Falls noch nicht erfolgt: Eine Skizze im Bearbeitungsmodus öffnen.
-2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Den Menüeintrag **Skizze → Sketcher-Werkzeuge → [<img src=images/Sketcher_SelectVerticalAxis.svg style="width:16px"> Vertikale Achse auswählen** auswählen.
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Den Menüeintrag **Skizze → Sketcher-Werkzeuge → <img src="images/Sketcher_SelectVerticalAxis.svg" width=16px> Vertikale Achse auswählen** auswählen.
+    -   Ein Rechtsklick in den Abschnitt **Elemente** des [Sketcher-Dialogs](Sketcher_Dialog/de.md) und die Menüoption **<img src="images/Sketcher_SelectVerticalAxis.svg" width=16px> Vertikale Achse auswählen** im Kontextmenü auswählen.
     -   Das Tastaturkürzel **Z** dann **V**.
-3.  Die vertikale Achse der Skizze wird ausgewählt.
+2.  Die vertikale Achse der Skizze wird ausgewählt.
 
 
 

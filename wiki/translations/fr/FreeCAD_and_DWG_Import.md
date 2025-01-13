@@ -23,25 +23,27 @@ GNU LibreDWG est une bibliothèque libre en C pour manipuler les fichiers DWG. E
 
 #### Installation sous Windows 
 
-Télécharger et décompresser le [binaire Windows précompilé](https://github.com/LibreDWG/libredwg/releases) approprié. Placer l\'exécutable dans le chemin de recherche du système d\'exploitation, {{Incode|os.getenv("PATH")}}, pour une détection automatique ({{Version/fr|0.21}}) ou définir le chemin manuellement. Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md).
+Télécharger et décompresser le [binaire Windows précompilé](https://github.com/LibreDWG/libredwg/releases) approprié. Placer l\'exécutable dans le chemin de recherche du système d\'exploitation, {{Incode|os.getenv("PATH")}}, pour une détection automatique ({{Version/fr|0.21}}) ou définir le chemin manuellement. Voir [Préférences Importer/Exporter](Import_Export_Preferences/fr#DWG.md).
 
 
 
 #### Installation sous des systèmes Linux/Unix 
 
 
-{{Code|lang=shell|code=
-git clone --recurse-submodules https://git.savannah.gnu.org/git/libredwg.git
+{{Code
+|lang=shell
+|code=
+git clone --recurse-submodules https://github.com/LibreDWG/libredwg.git
 cd libredwg
 mkdir build
 cd build
 cmake ..
 make
-make install # ou utiliser checkinstall, ou simplement localiser et copier l'utilitaire dwg2dxf 
-             # dans le chemin de vos exécutables, il sera alors autodétecté par FreeCAD.
+make install # or use checkinstall, or simply locate & copy the dwg2dxf 
+             # utility to your executables path, it will be then autodetected by FreeCAD
 }}
 
-Placer l\'exécutable dans le chemin de recherche du système d\'exploitation, {{Incode|os.getenv("PATH")}}, pour une détection automatique ({{Version/fr|0.21}}) ou définir le chemin manuellement. Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md).
+Placer l\'exécutable dans le chemin de recherche du système d\'exploitation, {{Incode|os.getenv("PATH")}}, pour une détection automatique ({{Version/fr|0.21}}) ou définir le chemin manuellement. Voir [Préférences Importer/Exporter](Import_Export_Preferences/fr#DWG.md).
 
 
 
@@ -62,7 +64,7 @@ Dans n\'importe quel terminal/console (droits root requis), l\'installation s\'e
 zypper install libredwg0 libredwg-tools
 ```
 
-Placer l\'exécutable dans le chemin de recherche du système d\'exploitation, {{Incode|os.getenv("PATH")}}, pour une détection automatique ({{Version/fr|0.21}}) ou définir le chemin manuellement. Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md).
+Placer l\'exécutable dans le chemin de recherche du système d\'exploitation, {{Incode|os.getenv("PATH")}}, pour une détection automatique ({{Version/fr|0.21}}) ou définir le chemin manuellement. Voir [Préférences Importer/Exporter](Import_Export_Preferences/fr#DWG.md).
 
 
 
@@ -76,7 +78,7 @@ Le convertisseur de fichier ODA est un petit utilitaire disponible gratuitement 
 
 #### Installation
 
-Si l\'utilitaire n\'est pas trouvé automatiquement par FreeCAD après l\'installation, vous devez définir manuellement le chemin de l\'exécutable. Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md).
+Si l\'utilitaire n\'est pas trouvé automatiquement par FreeCAD après l\'installation, vous devez définir manuellement le chemin de l\'exécutable. Voir [Préférences Importer/Exporter](Import_Export_Preferences/fr#DWG.md).
 
 ### QCAD pro 
 
@@ -91,7 +93,7 @@ QCAD est une plateforme de CAO 2D open-source bien connue, basée sur le format 
 
 #### Installation 
 
-Si l\'utilitaire n\'est pas trouvé automatiquement par FreeCAD après l\'installation ({{Version/fr|0.21}}), vous devez définir manuellement le chemin d\'accès au fichier bash (Linux et macOS) ou au fichier batch (Windows). Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md).
+Si l\'utilitaire n\'est pas trouvé automatiquement par FreeCAD après l\'installation ({{Version/fr|0.21}}), vous devez définir manuellement le chemin d\'accès au fichier bash (Linux et macOS) ou au fichier batch (Windows). Voir [Préférences Importer/Exporter](Import_Export_Preferences/fr#DWG.md).
 
 
 

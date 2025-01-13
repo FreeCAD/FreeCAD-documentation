@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch CutPlane
    Name/fr: Arch Couper selon un plan
-   MenuLocation: Arch , Couper selon un plan
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: Modification , Couper selon un plan
+   Workbenches: BIM_Workbench/fr
 ---
 
 # Arch CutPlane/fr
@@ -21,18 +21,18 @@ Au milieu : mur résultant après la coupe.<br>
 
 ## Utilisation
 
-1.  Si le plan de coupe doit être dérivé d\'une arête droite ({{Version/fr|0.22}}), vous pouvez aligner le [plan de travail](Draft_SelectPlane/fr.md) :
+1.  Si le plan de coupe doit être dérivé d\'une arête droite ({{Version/fr|1.0}}), vous pouvez aligner le [plan de travail](Draft_SelectPlane/fr.md) :
     -   L\'arête sélectionnée ne peut pas être parallèle à la normale du plan de travail.
     -   La face de la coupe générée sera perpendiculaire au plan de travail.
 2.  Sélectionnez l\'objet à découper.
 3.  Effectuez l\'une des opérations suivantes :
-    -   Sélectionner un objet avec une seule face plane. {{Version/fr|0.22}}
+    -   Sélectionner un objet avec une seule face plane. {{Version/fr|1.0}}
     -   Sélectionnez une face plane dans la [vue 3D](3D_view/fr.md).
-    -   Sélectionnez un objet avec une seule arête droite. {{Version/fr|0.22}}
-    -   Sélectionnez une arête droite dans la [vue 3D](3D_view/fr.md). {{Version/fr|0.22}}
+    -   Sélectionnez un objet avec une seule arête droite. {{Version/fr|1.0}}
+    -   Sélectionnez une arête droite dans la [vue 3D](3D_view/fr.md). {{Version/fr|1.0}}
 4.  Il y a plusieurs façons de lancer la commande :
     -   Appuyez sur le **<img src="images/Arch_CutPlane.svg" width=16px> [Couper selon un plan](Arch_CutPlane/fr.md)**.
-    -   Sélectionnez l\'option **Arch → <img src="images/Arch_CutPlane.svg" width=16px> Couper selon un plan** du menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Arch_CutPlane.svg" width=16px> Couper selon un plan** du menu.
 5.  Choisissez **Derrière** ou **Devant** pour indiquer de quel côté de la face de la coupe, la matière doit être enlevée.
 6.  Appuyez sur le bouton **OK**.
 
@@ -111,5 +111,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/fr
+⏵ [documentation index](../README.md) > Arch CutPlane/fr

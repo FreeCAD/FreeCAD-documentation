@@ -3,15 +3,21 @@
 
 A **Preference Pack** is a distributable collection of user preferences (<small>(v0.20)</small> ) that can be installed as an add-on and applied as a single set. Any user parameter that can be set in the user.cfg file can be included in a Preference Pack. Applying a preference pack sets all of the variables in the supplied CFG file without modifying any other user settings. For example, these packs can be used to create \"Themes\" by bundling together a custom stylesheet along with a set of user preferences that sets the various colors and styles of items in FreeCAD that aren\'t controlled by the stylesheet.
 
+
+
 ## Interfaz de usuario principal de paquetes de preferencias 
 
 Most user interaction with installed Preference Packs is via the **General** tab in the **General settings** section of the [Preferences editor](Preferences_Editor.md).
 
 <img alt="" src=images/PreferencePacks_MainInterface.png  style="width:400px;">
 
+
+
 ## Aplicando un paquete instalado 
 
 To apply a Preference Pack, click the **Apply** button next to its name in the **General** tab of the [Preferences editor](Preferences_Editor.md). The core of a Preference Pack is a set of user preferences. When applying a pack each of these preferences is changed to the value defined in the pack. Optionally, the pack author may have included a pre- and/or post-application macro that may also be run. Because packs can potentially make large (and possibly undesirable) changes to your user preferences, a timestamped backup of your original preferences is taken, and stored in **FREECAD_USER_DATA/SavedPreferencePacks/Backups**. These backups are retained for one week.
+
+
 
 ## Creando un nuevo paquete 
 
@@ -20,6 +26,8 @@ Packs can be created by hand, or jump-started by using the **Save new...** butto
 <img alt="" src=images/PreferencePacks_SaveNewPack.png  style="width:400px;">
 
 Because of the way FreeCAD uses preferences internally, only items contained in these template files can be saved automatically using this procedure. Items not included in the template files must be manually included in the pack\'s \*.cfg file. There is no built-in limit to which preferences items may be included in a preference pack, but authors are strongly discouraged from changing a user\'s set language, or from modifying the recent files list, or from changing anything related to a temporary UI state (e.g. the saved size of a resizable window, etc.).
+
+
 
 ### Detalles de plantilla 
 
@@ -359,7 +367,7 @@ Many add-ons have user-specifiable preference information that is added to the u
 
 ## Distributing a pack 
 
-Preference Packs are distributed identically to [External Workbenches](External_workbenches.md) through the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). To install a pack manually, use git to clone the package repository into your FreeCAD data directory (enter `App.getUserAppDataDir()` in the [Python console](Python_console.md) to get this path), in a subdirectory called \"Preference Packs\".
+Preference Packs are distributed identically to [External Workbenches](External_workbenches.md) through the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). To install a pack manually, use git to clone the package repository into your FreeCAD data directory (enter `App.getUserAppDataDir()` in the [Python console](Python_console.md) to get this path), in a subdirectory called \"Preference Packs\". Note that user-installed packs with the same name as an included pack take precedence.
 
 See also [Private Preference Packs](Private_Preference_Packs.md).
 

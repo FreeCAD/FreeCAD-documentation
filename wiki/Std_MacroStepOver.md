@@ -1,7 +1,6 @@
 ---
  GuiCommand:
    Name: Std MacroStepOver
-   Empty: 1
    MenuLocation: Macro , Step over
    Workbenches: All
    Shortcut: **F10**
@@ -17,7 +16,7 @@ This command does not work at this time.
 
 
 
- {{Std Base navi}}
+ {{Std_Base_navi}}
 
 
 

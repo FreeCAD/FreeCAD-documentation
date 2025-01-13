@@ -10,12 +10,16 @@
 
 # PartDesign Point/de
 
+
+
 ## Beschreibung
 
 Erstellt einen Bezugspunkt. Dieser kann innerhalb des aktuellen Körpers referenziert werden. Dies gilt ebenfalls für weitere Referenzobjekte.
 
 ![](images/DatumPoint.png ) 
 *Ein Referenzpunkt, der mit einem Offset von {{Value|2* in Z Richtung die Kugel am Z Scheitelpunkt referenziert.}}
+
+
 
 ## Anwendung
 
@@ -34,9 +38,17 @@ Erstellt einen Bezugspunkt. Dieser kann innerhalb des aktuellen Körpers referen
 7.  
     **OK**drücken.
 
+
+
 ## Optionen
 
 Doppel-Klicke das Referenzpunkt Label im Modellbaum oder klicke dies einfach und selektiere \"Bezug ändern\" oder wähle ein Referenzobjekt mit der rechten Maustaste im Kontextmenu. Details findet man bei Referenzmodus und Offsets , siehe: [Part AnhangBearbeiten](Part_EditAttachment/de.md).
+
+## Preferences
+
+See [PartDesign Plane](PartDesign_Plane#Preferences.md).
+
+
 
 ## Eigenschaften
 
@@ -45,6 +57,8 @@ Doppel-Klicke das Referenzpunkt Label im Modellbaum oder klicke dies einfach und
 -    {{PropertyData/de|Attachment Offset}}: Transformiert ( Verschiebung und Rotation ) das Objekt in Bezug auf seinen Referenzpunkt und seine Richtung.
 
 -    {{PropertyData/de|Label}}: änderbarer Name des Objekts
+
+
 
 ## Einschränkungen
 

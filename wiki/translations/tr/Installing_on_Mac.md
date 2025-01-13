@@ -40,7 +40,7 @@ FreeCAD yükleyici, bir disk imaj dosyasına eklenmiş bir uygulama paketi (.app
 
 The FreeCAD installer is provided as a app package (.app) enclosed in a disk image file.
 
-Son sürüm yükleme dosyasını [İndirme sayfas](Download.md)ından indirebilirsiniz. Dosyayı indirdikten sonra, sadece disk imaj dosyasını monte edin, ardından Uygulama klasörüne veya seçtiğiniz bir klasöre sürükleyin.
+Son sürüm yükleme dosyasını [İndirme sayfasından](Download.md) indirebilirsiniz. Dosyayı indirdikten sonra, sadece disk imaj dosyasını monte edin, ardından Uygulama klasörüne veya seçtiğiniz bir klasöre sürükleyin.
 
 ![](images/mac_installer_1.png )
 

@@ -3,7 +3,7 @@
    Name: Draft Offset
    Name/pl: Rysunek Roboczy: Odsunięcie
    MenuLocation: Modyfikacja , Odsunięcie
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **O** **S**
    SeeAlso: Part_Offset2D/pl
 ---
@@ -28,7 +28,8 @@ Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysu
 1.  Opcjonalnie wybierz jeden obiekt. Obiekt musi leżeć na aktualnej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md).
 2.  Istnieje kilka sposobów, aby wywołać to polecenie:
     -   Naciśnij przycisk **<img src="images/Draft_Offset.svg" width=16px> '''Odsunięcie'''**.
-    -   Wybierz z menu opcję **Modifikacja → <img src="images/Draft_Offset.svg" width=16px> Odsunięcie**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Modifikacja → <img src="images/Draft_Offset.svg" width=16px> Odsunięcie**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Modyfikacja → <img src="images/Draft_Offset.svg" width=16px> Odsunięcie** z menu.
     -   Użyj skrótu klawiaturowego: **O**, a następnie **S**.
 3.  Jeśli nie wybrałeś jeszcze obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 4.  Otwiera się panel zadań **Odsunięcie**. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
@@ -44,7 +45,7 @@ Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysu
 
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 1.0)*.
 
 -   Jeśli pole wyboru **Odsunięcie w stylu OpenCascade** jest zaznaczone, używany jest specjalny styl odsunięcia: otwarte [polilinie](Draft_Wire/pl.md) są odsunięte po obu stronach, a nowe krawędzie są łączone z zaokrąglonymi rogami. Działa to tylko dla planarnych obiektów z co najmniej dwoma krawędziami. Zauważ, że przy tym stylu tworzony jest nowy obiekt nieparametryczny, a jeśli tryb kopiowania jest wyłączony, oryginalny obiekt jest usuwany.
 -   Naciśnij **C** lub kliknij pole wyboru **Copy**, aby przełączyć tryb kopiowania. Jeśli tryb kopiowania jest włączony, polecenie utworzy kopię z przesunięciem zamiast przesunięcia oryginalnego obiektu.

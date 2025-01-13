@@ -45,7 +45,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_Paste.svg  style="width:32px;"> [Incolla](Std_Paste/it.md): incolla il contenuto degli appunti nel documento corrente.
 
--   <img alt="" src=images/Std_DuplicateSelection.svg  style="width:32px;"> [Duplica la selezione](Std_DuplicateSelection/it.md): duplica gli oggetti all\'interno del documento.
+-   <img alt="" src=images/Std_DuplicateSelection.svg  style="width:32px;"> [Duplica la selezione](Std_DuplicateSelection/it.md): duplica gli oggetti all\'interno del documento. **-- Se l'[Ambiente PartDesign](PartDesign_Workbench/it.md) è attivo, lo strumento [PartDesign Duplica selezione](PartDesign_DuplicateSelection/it.md) ({{Version/it|1.0**) viene visualizzato al suo posto.}}
 
 -   <img alt="" src=images/Std_Refresh.svg  style="width:32px;"> [Aggiorna](Std_Refresh/it.md): ricalcola il documento.
 
@@ -67,16 +67,18 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [Modalità modifica](Std_Edit/it.md): attiva o disattiva la modalità di modifica degli oggetti.
 
+-   <img alt="" src=images/Std_Properties.svg  style="width:32px;"> [Proprietà](Std_Properties/it.md): Visualizza l\'[Editor delle proprietà](Property_editor/it.md). {{Version/it|1.0}}
+
 -   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> [Impostazione Modalità modifica](Std_UserEditMode/it.md): definisce la modalità di modifica da utilizzare quando si fa doppio clic su un oggetto nella [Vista albero](Tree_view/it.md). {{Version/it|0.20}}
 
--   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferenze](Std_DlgPreferences/it.md): apre la finestra di dialogo per l[editor delle preferenze](Preferences_Editor/it.md). 
+-   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferenze](Std_DlgPreferences/it.md): apre la finestra di dialogo per l\'[editor delle preferenze](Preferences_Editor/it.md). 
 **-- In MacOS questa opzione di menu potrebbe trovarsi nel menu di FreeCAD invece che nel menu Modifica.**
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

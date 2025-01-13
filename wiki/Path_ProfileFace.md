@@ -1,7 +1,7 @@
 # Path ProfileFace
-1.  REDIRECT [Path_Profile](Path_Profile.md)
+1.  REDIRECT [CAM_Profile](CAM_Profile.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ProfileFace
+⏵ [documentation index](../README.md) > Path ProfileFace

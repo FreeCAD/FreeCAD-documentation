@@ -25,7 +25,7 @@ Więcej informacji można znaleźć na stronie [Wstaw wymiar rozpiętości pozio
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

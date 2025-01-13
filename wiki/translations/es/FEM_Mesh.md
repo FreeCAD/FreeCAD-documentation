@@ -18,7 +18,7 @@ There are different possibilities to set up a mesh in the [FEM Workbench](FEM_Wo
 -   Importing a mesh from another program. In particular, Gmsh and Netgen can be used by themselves outside of FreeCAD to mesh solid bodies like Step files.
 -   Manually creating the mesh through [Python](Python.md) scripting.
 
-The Gmsh and Netgen tools support meshing bodies created with the [Part Workbench](Part_Workbench.md) and [PartDesign Workbench](PartDesign_Workbench.md), as well as simple copies of those solids. In general, any workbench that generates solid objects, like the [Arch Workbench](Arch_Workbench.md), can be used as the basis from which to create meshes. Notice that a mesh used for FEA is different from a mesh created or imported from the [Mesh Workbench](Mesh_Workbench.md).
+The Gmsh and Netgen tools support meshing bodies created with the [Part Workbench](Part_Workbench.md) and [PartDesign Workbench](PartDesign_Workbench.md), as well as simple copies of those solids. In general, any workbench that generates solid objects, like the [BIM Workbench](BIM_Workbench.md), can be used as the basis from which to create meshes. Notice that a mesh used for FEA is different from a mesh created or imported from the [Mesh Workbench](Mesh_Workbench.md).
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 *The FEM Workbench calls the external tool Gmsh to obtain a mesh from a solid body created with any workbench in FreeCAD; it can also import a mesh created externally*
@@ -36,10 +36,14 @@ Meshing software operates on solid bodies that can be in different formats, like
 
 The [FEM Workbench](FEM_Workbench.md) has developed simple communication interfaces to use Gmsh and Netgen directly inside FreeCAD. Other programs don\'t have an interface, but this could change in the future if there is interest from the community, and if those applications are easy to integrate. The meshing software can be compiled and distributed together with FreeCAD only if its license is compatible with the LGPL2 license; otherwise, the program has to be used as an external binary, like Gmsh (GPL2) is used.
 
+
+
 ### Interfaz implementada en FreeCAD 
 
 -   Gmsh: [main website](http://gmsh.info/), [code repository](https://gitlab.onelab.info/gmsh/gmsh)
 -   Netgen: [main website](https://ngsolve.org/), [code repository](https://github.com/NGSolve/netgen)
+
+
 
 ### No hay interfaz en FreeCAD 
 
@@ -601,6 +605,8 @@ but it's not readable or writable by FEniCS</p></td>
 -   \"NI\" means the element type is not implemented in FreeCAD but the format would support it.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:20px;"> means the format specification does not support this element type, thus FreeCAD cannot support it.
 -   \"?\" means it is not known if the format supports this element type.
+
+
 
 ## Tipos de elementos MEF 
 

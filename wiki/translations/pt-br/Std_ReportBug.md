@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Std ReportBug
-   MenuLocation: Help , Report a bug
+   MenuLocation: Help , Report an issue
    Workbenches: All
    Version: 0.20
 ---
@@ -46,7 +46,7 @@ Currently the command points to [<https://github.com/FreeCAD/FreeCAD/issues>](ht
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 
-1.  Select the **Help → <img src="images/Std_ReportBug.svg" width=16px> Report a bug** option from the menu.
+1.  Select the **Help → <img src="images/Std_ReportBug.svg" width=16px> Report an issue** option from the menu.
 
 
 </div>
@@ -61,7 +61,7 @@ Currently the command points to [<https://github.com/FreeCAD/FreeCAD/issues>](ht
 </div>
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

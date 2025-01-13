@@ -1,13 +1,17 @@
 # NumPy/it
 ## Introduzione
 
-This page aims to document how to use [NumPy](https://numpy.org/) with FreeCAD.
+Questa pagina ha lo scopo di documentare come utilizzare [numpy](https://numpy.org/NumPy) con FreeCAD.
 
-numpy comes installed as a dependency of FreeCAD, therefore you can import numpy as np without having to first install it like in normal Python project environments.
+numpy viene installato come dipendenza di FreeCAD, quindi è possibile fare import numpy as np senza doverlo prima installare come nei normali ambienti di sviluppo di Python.
 
-## Convert Vector list between FreeCAD Python and NumPy 
 
-### From Python to NumPy 
+
+## Convertire una lista di vettori tra FreeCAD Python e NumPy 
+
+
+
+### Da Python a NumPy 
 
 
 ```python
@@ -19,7 +23,7 @@ numpy_array = np.asarray(vector_list)
 print(numpy_array)
 ```
 
-Output is:
+L\'output è:
 
 
 {{Code|lang=text|code=
@@ -28,7 +32,9 @@ Output is:
  [ 0.  3.  0.]]
 }}
 
-### From NumPy to Python 
+
+
+### Da NumPy a Python 
 
 
 ```python
@@ -39,21 +45,25 @@ cad_list = [App.Vector(itm) for itm in numpy_array]
 print(cad_list)
 ```
 
-Output is:
+L\'output è:
 
 
 {{Code|lang=text|code=
 [Vector (1.0, 0.0, 0.0), Vector (1.0, 2.0, 3.0), Vector (0.0, 3.0, 0.0)]
 }}
 
-## FreeCAD projects using NumPy 
+
+
+## Progetti FreeCAD che utilizzano NumPy 
 
 -   <https://github.com/looooo/freecad.gears/blob/master/setup.py#L13>
 -   <https://github.com/booya-at/OpenGlider/blob/develop/setup.py#L77>
 
-## FreeCAD forum discussion 
 
--   [Any numpy experts?](https://forum.freecadweb.org/viewtopic.php?f=22&t=47529)
+
+## Discussione nel forum di FreeCAD 
+
+-   [Qualche esperto in numpy?](https://forum.freecadweb.org/viewtopic.php?f=22&t=47529)
 
 
 

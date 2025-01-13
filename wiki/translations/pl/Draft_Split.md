@@ -3,7 +3,7 @@
    Name: Draft Split
    Name/pl: Rysunek Roboczy: Rozdziel
    MenuLocation: Modyfikacja , Rozdziel
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Shortcut: **S** **P**
    Version: 0.18
    SeeAlso: Draft_Join/pl
@@ -23,7 +23,8 @@ Polecenie <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Rozdzie
 
 1.  Istnieje kilka sposobów wywołania polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Split.svg" width=16px> '''Rozdziel'''**.
-    -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Split.svg" width=16px> Rozdziel**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Split.svg" width=16px> Rozdziel**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Modyfikacja → <img src="images/Draft_Split.svg" width=16px> Rozdziel** z menu.
     -   Użyj skrótu klawiaturowego: **S**, a następnie **P**.
 2.  Przesuń kursor nad właściwą krawędź [linii](Draft_Line/pl.md) lub [polilinii](Draft_Wire/pl.md).
 3.  Krawędź zostanie podświetlona.

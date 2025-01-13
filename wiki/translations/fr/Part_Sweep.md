@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part Sweep
    Name/fr: Part Balayage
-   MenuLocation: Part , Balayage...
+   MenuLocation: Part , Créer un balayage...
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Loft/fr
 ---
@@ -23,16 +23,16 @@ La commande Part Balayage est similaire à <img alt="" src=images/Part_Loft.svg 
 ## Utilisation
 
 1.  Il y a plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Part_Sweep.svg" width=16px> [Balayage...](Part_Sweep/fr.md)
+    -   Appuyez sur le bouton **<img src="images/Part_Sweep.svg" width=16px> [Créer un balayage...](Part_Sweep/fr.md)
 **
-    -   Sélectionnez l\'option **Part → <img src="images/Part_Sweep.svg" width=16px> Balayage...** du menu.
-2.  Le [panneau des tâches](Task_panel/fr.md) du Balayage s\'ouvre.
+    -   Sélectionnez l\'option **Part → <img src="images/Part_Sweep.svg" width=16px> Créer un balayage...** du menu.
+2.  Le [panneau des tâches](Task_panel/fr.md) du balayage s\'ouvre.
 3.  Dans la liste *Profils disponibles* à gauche, sélectionnez un profil et cliquez sur la flèche droite pour le placer dans la liste *Profils sélectionnés* à droite.
-4.  Répétez l\'opération si vous souhaitez plus d\'un profil.
+4.  Répétez l\'opération si vous voulez plus d\'un profil.
 5.  Les flèches vers le haut et vers le bas réorganisent la liste de droite. Mais cela n\'a pas d\'impact sur le résultat. La position des profils le long de la trajectoire détermine l\'ordre dans lequel ils sont utilisés.
 6.  Cliquez sur le bouton **Trajectoire de balayage**, puis choisissez l\'un ou l\'autre mode de sélection :
-    -   *Sélection de segments* : sélectionnez une ou plusieurs arêtes contiguës dans la [vue 3D](3D_view/fr.md) (appuyez sur **CTRL** pour une sélection multiple) et cliquez sur **Fait**. Le balayage ne sera généré que le long des arêtes sélectionnées.
-    -   *Sélection complète du chemin* : passez à la [vue en arborescence](Tree_view/fr.md), sélectionnez l\'objet à utiliser comme colonne vertébrale, revenez au panneau des tâches et cliquez sur **Fait**. Le balayage sera généré le long de toutes les arêtes contiguës de l\'objet.
+    -   *Sélection de segments* : sélectionnez une ou plusieurs arêtes contiguës dans la [vue 3D](3D_view/fr.md) (appuyez sur **CTRL** pour une sélection multiple) et cliquez sur **Valider**. Le balayage ne sera généré que le long des arêtes sélectionnées.
+    -   *Sélection complète de la trajectoire* : passez à la [vue en arborescence](Tree_view/fr.md), sélectionnez l\'objet à utiliser comme trajectoire, revenez au panneau des tâches et cliquez sur **Valider**. Le balayage sera généré le long de toutes les arêtes contiguës de l\'objet.
 7.  Définissez les options [Solide](#Solide.md) et [Frenet](#Frenet.md).
 8.  Cliquez sur **OK**.
 
@@ -40,7 +40,7 @@ La commande Part Balayage est similaire à <img alt="" src=images/Part_Loft.svg 
 
 ### Géométrie acceptée 
 
--   **Profils :** ce peut être un point (sommet), une ligne (arête), une polyligne ou une face. Les arêtes et les polylignes peuvent être ouvertes ou fermées. Il existe plusieurs [Limitations](#Limitations.md), voir ci-dessous.
+-   **Profils :** ce peut être un point (sommet), une ligne (arête), une polyligne ou une face. Les arêtes et les polylignes peuvent être ouvertes ou fermées. Il existe plusieurs [Limitations](#Limitations.md), voir ci-dessous. Parfois, il ne suffit pas d\'aligner correctement le profil sur la trajectoire. Pour que l\'outil fonctionne correctement, il peut également être nécessaire d\'[ancrer](Part_EditAttachment/fr.md) le profil à la trajectoire. Si l\'esquisse du profil est ancrée à la mauvaise extrémité d\'une arête de la trajectoire, changez **Map Path Parameter** de 0 à 1.
 
 -   **Trajectoire** : ce peut être une ligne (arête) ou une série de lignes connectées, une polyligne ou divers objets des atelier Part ou Draft ou une esquisse. La trajectoire peut être ouverte ou fermée.
 

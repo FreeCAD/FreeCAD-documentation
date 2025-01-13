@@ -1,20 +1,25 @@
 ---
  GuiCommand:
    Name: Web BrowserZoomIn
+   Name/pl: Web: Powiększ
    MenuLocation: 
-   Workbenches: Web_Workbench, Start_Workbench
+   Workbenches: Web_Workbench/pl, Start_Workbench/pl
    SeeAlso: 
 ---
 
 # Web BrowserZoomIn/pl
 
-## Description
 
-Use the <img alt="" src=images/Web_BrowserZoomIn.svg  style="width:24px;"> **Web BrowserZoomIn** command to zoom in on the current web page.
 
-## Usage
+## Opis
 
-1.  Press the **<img src="images/Web_BrowserZoomIn.svg" width=16px> [Zoom in](Web_BrowserZoomIn.md)** button.
+Użyj polecenia <img alt="" src=images/Web_BrowserZoomIn.svg  style="width:24px;"> **Powiększ**, aby powiększyć widok bieżącej strony internetowej.
+
+
+
+## Użycie
+
+1.  Naciśnij przycisk **<img src="images/Web_BrowserZoomIn.svg" width=16px> '''Powiększ'''**.
 
 
 

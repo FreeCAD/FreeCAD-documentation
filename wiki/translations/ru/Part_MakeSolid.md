@@ -9,25 +9,34 @@
 # Part MakeSolid/ru
 
 
+</div>
+
+
 
 ## Описание
 
-This command creates a solid from a shape object.
+The <img alt="" src=images/Part_MakeSolid.svg  style="width:24px;"> **Part MakeSolid** command creates solids from shape objects.
+
+This command is typically used as one of the steps to create a solid from a mesh. See [Part ShapeFromMesh](Part_ShapeFromMesh#Usage.md) for more information.
 
 
 
 ## Применение
 
-1.  Select the shape object.
+1.  Select one or more shape objects.
 2.  Select the **Part → <img src="images/Part_MakeSolid.svg" width=16px> Convert to solid** option from the menu.
-3.  A solid from the shape object is created as a separate new object.
+3.  For each selected object a solid is created as a separate new object.
 
+## Notes
 
-
-## Ограничения
-
--   There will be no analyzing or validating of the shape object.
+-   The selected shape objects or not analyzed or validated.
 -   It is recommended to use [Part RefineShape](Part_RefineShape.md) before converting to a solid.
+
+## Properties
+
+See also: [Property editor](Property_editor.md).
+
+The created objects are [Part Feature](Part_Feature.md) objects with no additional properties.
 
 
 <div class="mw-translate-fuzzy">
@@ -37,6 +46,11 @@ This command creates a solid from a shape object.
 
 
 </div>
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

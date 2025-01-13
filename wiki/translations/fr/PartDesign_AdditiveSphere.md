@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign AdditiveSphere
    Name/fr: PartDesign Sphère additive
-   MenuLocation: Part Design , Créer une primitive additive , Sphère additive
+   MenuLocation: PartDesign , Créer une primitive additive , Sphère additive
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/fr, PartDesign_SubtractiveSphere/fr

@@ -29,13 +29,13 @@ Polecenie **Następne** aktywuje następne okno w [Głównym obszarze widoku](Ma
 
 ## Uwagi
 
--   Okna głównego obszaru widoku są również wymienione w menu **Okna** i mogą być stamtąd aktywowane.
+-   Pierwsze 10 okien głównego widoku jest również wymienione w menu **Okna** i mogą być stamtąd aktywowane.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

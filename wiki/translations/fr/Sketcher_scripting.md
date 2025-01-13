@@ -174,15 +174,15 @@ Les nombres positifs indiquent les arêtes d\'esquisse (lignes droites, cercles,
 
 Pour déterminer quelle partie d\'une ligne est affectée par une contrainte, les valeurs suivantes peuvent être utilisées :
 
--    `0`pour indiquer que la contrainte affecte tout le bord.
+-    `0`pour indiquer que la contrainte affecte toute l\'arête.
 
--    `1`pour indiquer que la contrainte affecte le point de départ du bord (un cercle entier n\'a pas de point de départ).
+-    `1`pour indiquer que la contrainte affecte le point de départ de l\'arête (un cercle entier n\'a pas de point de départ).
 
--    `2`pour indiquer que la contrainte affecte le point final du bord.
+-    `2`pour indiquer que la contrainte affecte le point final de l\'arête.
 
--    `3`pour indiquer que la contrainte affecte le point central de l\'arête. Pour des <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:" height="24px;"> [cercles](Sketcher_CompCreateCircle/fr.md) et des <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:" height="24px;"> [coniques](Sketcher_CompCreateConic/fr.md) (ellipses), c\'est le centre du cercle ou le centre (intersection des grands et petits axes) de l\'ellipse. Pour des lignes <img alt="" src=images/Sketcher_CreateLine.svg  style="width:" height="24px;"> [droites](Sketcher_CreateLine/fr.md), `3` ne peut pas être utilisé pour indiquer le point central.
+-    `3`pour indiquer que la contrainte affecte le point central de l\'arête. Ne peut être utilisé que pour les cercles, les arcs de cercle, les ellipses et les arcs elliptiques.
 
--    `n`pour indiquer que la contrainte affecte le n-ième pôle d\'une <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:" height="24px;"> [B-spline](Sketcher_CompCreateBSpline/fr.md).
+-    `n`pour indiquer que la contrainte affecte le n-ième pôle d\'une B-spline.
 
 Les sommets indiqués par 1 et 2 sont numérotés selon leur ordre de création. Pour connaître l\'ordre de leur création (si vous avez beaucoup de lignes, vous ne vous souvenez plus quel sommet vous avez créé en premier), il vous suffit de déplacer le curseur de votre souris au-dessus des deux sommets d\'une ligne, voir figure suivante.
 

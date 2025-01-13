@@ -7,6 +7,8 @@ Older FreeCAD release notes can be found in [Feature list](Feature_list#Release_
 
 *Simpson and Shipton short stroke steam engine circa 1845, using horizontal rotating piston, by \"un1corn\", [Users Showcase](https://forum.freecadweb.org/viewtopic.php?f=24&t=39024).*
 
+
+
 ## Destacados
 
 +++
@@ -39,11 +41,15 @@ Older FreeCAD release notes can be found in [Feature list](Feature_list#Release_
 
 With more than 8128 commits in the master branch since the 0.18 release, this is one of the most extensive releases ever, with several new components like the new \"[App::Link](App_Link.md)\" object, as well as many new tools in the [TechDraw Workbench](TechDraw_Workbench.md) that make FreeCAD even more powerful for 3D solid modelling and assembly. Beside that, the FreeCAD ecosystem has continued to grow with more specialized [external workbenches](external_workbenches.md).
 
+
+
 ### Python 3 y Qt5 
 
 The effort to migrate from Python 2 and Qt4 to Python 3 and Qt5 is essentially complete and most developers have moved to the Python3/Qt5 toolchains.
 
 Undoubtedly there are unforeseen bugs; these will be addressed as they are reported. Any existing dependence on Python 2 or Qt4 will not be supported beyond 1st January 2020 when Python 2 officially became unsupported by the Python Foundation. Please note that certain addons have not been ported yet to Python3/Qt5. This may be due to several reasons including lack of time by their developers, or broken dependencies that may not be easily fixed, or simply because the addon is considered obsolete. Individuals interested in the migration of a particular workbench or tool are encouraged to participate in the [FreeCAD forum](https://forum.freecadweb.org/); see also, [Python3 and Qt5 Compatible Addon Workbenches (in preparation for 0.18)](https://forum.freecadweb.org/viewtopic.php?f=10&t=30624).
+
+
 
 ### Algunos temas 
 
@@ -54,6 +60,8 @@ Fixed issue with [Std Part](Std_Part.md) containers visibility when the viewport
 -   Fixed bug in `MainWindow::setActiveWindow` to avoid a crash when returning from full screen; [forum discussion](https://forum.freecadweb.org/viewtopic.php?p=326093#p326093), [commit c4e34ed9b](https://github.com/FreeCAD/FreeCAD/commit/c4e34ed9b).
 -   Fixed [issue #4088](https://freecadweb.org/tracker/view.php?id=4088) about the visibility of the origin of a Part changing when undocking the 3D view; [forum discussion](https://forum.freecadweb.org/viewtopic.php?p=326093#p326093), [commit 1e19ef5be](https://github.com/FreeCAD/FreeCAD/commit/1e19ef5be).
 -   Fixed [issue #3130](https://freecadweb.org/tracker/view.php?id=0003130) about Qt5 bugs when using a high resolution external monitor; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=34916), [commit 2f2d505359](https://github.com/FreeCAD/FreeCAD/commit/2f2d5053599785fdc8db481682746066911033b4).
+
+
 
 ### Desarrollo
 
@@ -68,6 +76,8 @@ Other development news:
 -   There is a new Docker container to build FreeCAD, see [Compile on Docker](Compile_on_Docker.md); [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=4&t=42954).
 -   The infrastructure of the bug tracker as well as wiki was moved to a dedicated server, so that it is easier to manage by the project administrators; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=42795).
 
+
+
 ### Documentación
 
 -   The [Compile on Linux](Compile_on_Linux.md) page was reviewed to better explain the requisites to compile on different Linux distributions. As many developers use Debian based systems, this section received the most attention. Users of other Linux distributions are encouraged to maintain the documentation for their particular distribution.
@@ -79,11 +89,15 @@ Other development news:
 -   The [External workbenches](External_workbenches.md) page was re-organized, so that all feature-rich, publicly available workbenches are listed. If you\'d like to add a workbench to this page, showcase it in the forum, and provide supporting information like user manual, wiki pages, and a link to its repository. Then push for it to be included in the [Addon Manager](Std_AddonMgr.md).
 -   There have been improvements to the [Tutorials](Tutorials.md) and [Video tutorials](Video_tutorials.md) pages. In particular, it has been stressed to readers that they should consider only video tutorials that are made with versions 0.17 and above.
 
+
+
 ### Limitaciones conocidas 
 
 -   Black screen due to video card drivers, while running FreeCAD inside a virtual machine; [issue #3939](https://freecadweb.org/tracker/view.php?id=3939).
 -   Logitech Wingman USB joystick can cause erratic behavior when spinning and zooming in the view; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=36712&start=10).
 -   Gesture navigation is fully supported for Windows but yet to be maintained in Linux and MacOS. Problem: the developer, DeepSOIC, doesn\'t have a MacOS machine with its special trackpad, and hasn\'t tested it on Linux either; [forum discussion](https://forum.freecadweb.org/viewtopic.php?p=308403#p308402).
+
+
 
 ## Interfaz de usuario 
 
@@ -170,6 +184,8 @@ Beside the introduction of [App Link](App_Link.md), the \"LinkMerge\" branch als
 -   New [glTF](Import_Export#Overview_of_file_formats.md) support (requires OCC 7.5.0) [commit](https://github.com/FreeCAD/FreeCAD/commit/74b866ed3)
 -   New [WebGL](Import_Export#Overview_of_file_formats.md) exporter [pull request #4025](https://github.com/FreeCAD/FreeCAD/pull/4025)
 
+
+
 ## Gerente del complemento 
 
 +++
@@ -177,6 +193,8 @@ Beside the introduction of [App Link](App_Link.md), the \"LinkMerge\" branch als
 +++
 | <img alt="" src=images/addon_manager_ui_tweak.png  style="width:384px;">       | It will also show information on whether the addon is obsolete, already installed, or available for update. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394&p=340109#p340109), [pull request #2605](https://github.com/FreeCAD/FreeCAD/pull/2605).                                                                                                                                       |
 +++
+
+
 
 ## Ambiente de Trabajo Arch 
 
@@ -195,7 +213,7 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |                                                                                               | [Arch Fence in action](https://forum.freecadweb.org/viewtopic.php?f=24&t=37121).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +++
-| <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width:384px;"> | Improvements in the [Reinforcement Addon](Reinforcement_Addon.md), which extends the [Arch Rebar](Arch_Rebar.md) tool.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width:384px;"> | Improvements in the [Reinforcement Workbench](Reinforcement_Workbench.md), which extends the [Arch Rebar](Arch_Rebar.md) tool.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |                                                                                               | Automated reinforcement graphical user interface: the intention is to facilitate the automatic creation of simple and complex rebars. This development was carried out as a [Google Summer of Code 2019](Google_Summer_of_Code_2019.md) project: [Suraj_Dadral/gsoc_proposal](User:Suraj_Dadral/gsoc_proposal.md).                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -223,6 +241,8 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |                                                                                               | [Commit e42a26fba1](https://github.com/FreeCAD/FreeCAD/commit/e42a26fba1), [commit 7c12c8688c](https://github.com/FreeCAD/FreeCAD/commit/7c12c8688c).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 +++
+
+
 
 ## Ambiente de Trabajo Draft 
 

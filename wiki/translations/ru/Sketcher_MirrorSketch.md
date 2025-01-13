@@ -10,10 +10,19 @@
 # Sketcher MirrorSketch/ru
 
 
+</div>
+
+
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Зеркально отразить эскиз вдоль оси x, оси y или начала координат. Эта команда вызывается, когда эскиз *не* редактируется. Это вызывает новый эскиз, содержащий отражённую геометрию.
+
+
+</div>
 
 
 
@@ -28,10 +37,6 @@
 
 
 </div>
-
-## Notes
-
--   Multiple sketches can be selected before applying the operation.
 
 
 <div class="mw-translate-fuzzy">

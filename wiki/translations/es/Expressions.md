@@ -1,17 +1,17 @@
 # Expressions/es
 ## Resumen
 
-Es posible definir propiedades utilizando expresiones matemáticas. En la interfaz gráfica de usuario, los cuadros de giro o campos de entrada que están vinculados a las propiedades contienen un icono azul <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Haciendo clic en el icono o escribiendo el signo igual **&#61;** aparece el editor de expresiones para esa propiedad en particular.
-
-Es una expresión matemática que usa la notación de los [operadores](#Supported_operators.md), [funciones](#Supported_functions.md) y [constantes predefinidas](#Supported_constants.md) matemáticas estándar como se describe a continuación. Además, la expresión puede hacer referencia a otras propiedades de objetos, y también utilizar [condicionales](#Conditional_expressions.md). Los números en una expresión pueden tener una [unidad](#Units.md) opcional adjunta.
-
 
 <div class="mw-translate-fuzzy">
 
-Los número pueden usar ya sea una coma `,` o un punto decimal `.` para separar los dígitos enteros de los decimales. Cuando se usa el marcador decimal, \"debe\" ser seguido por al menos un dígito. Por lo tanto, las expresiones {{incode | 1.+2.}} y {{incode | 1,+2,}} son inválidas, pero {{incode | 1.0+2.0}} y {{incode | 1,0+2,0}} son válidas.
+Es posible definir propiedades utilizando expresiones matemáticas. En la interfaz gráfica de usuario, los cuadros de giro o campos de entrada que están vinculados a las propiedades contienen un icono azul <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Haciendo clic en el icono o escribiendo el signo igual **&#61;** aparece el editor de expresiones para esa propiedad en particular.
 
 
 </div>
+
+Es una expresión matemática que usa la notación de los [operadores](#Supported_operators.md), [funciones](#Supported_functions.md) y [constantes predefinidas](#Supported_constants.md) matemáticas estándar como se describe a continuación. Además, la expresión puede hacer referencia a otras propiedades de objetos, y también utilizar [condicionales](#Conditional_expressions.md). Los números en una expresión pueden tener una [unidad](#Units.md) opcional adjunta.
+
+Los números pueden usar ya sea una coma `,` o un punto decimal `.` para separar los dígitos enteros de los decimales. Cuando se usa el marcador decimal, *debe* ser seguido por al menos un dígito. Por lo tanto, las expresiones {{incode | 1.+2.}} y {{incode | 1,+2,}} son inválidas, pero {{incode | 1.0+2.0}} y {{incode | 1,0+2,0}} son válidas.
 
 Los operadores y las funciones son conscientes de la unidad y requieren combinaciones válidas de unidades, si se suministran. Por ejemplo, {{incode | 2mm+4mm}} es una expresión válida, mientras que {{incode | 2mm+4}} no lo es. Esto también se aplica a las referencias a propiedades de objetos que tienen unidades, como las propiedades de longitud. Por lo tanto, `Pad001.Length + 1` es inválido ya que agrega un número puro a una propiedad con unidades de longitud, se requiere `Pad001.Length + 1mm`.
 
@@ -39,34 +39,11 @@ Los argumentos pueden incluir referencias a las celdas en una hoja de cálculo. 
 
 ### Referencia de objetos 
 
+Como ya se mostró arribam puede hacer referencia a un objeto por su {{PropertyData | Name}}. Pero también puedes usar su {{PropertyData | Label}}. En el caso de un {{PropertyData | Label}}, debe estar encerrado en doble símbolos {{incode | <<}} y {{incode | >>}}, como {{incode | <<Label>>}}.
 
-<div class="mw-translate-fuzzy">
+Puede referenciar cualquier propiedad de un objeto. Por ejemplo, para referenciar la altura de un Cilindro puede usar `Cylinder.Height` o `<<Label_of_cylinder>>.Height`.
 
-Puede hacer referencia a un objeto por su {{PropertyData | Name}} o por su {{PropertyData | Label}}. En el caso de un {{PropertyData | Label}}, debe estar encerrado en doble símbolos {{incode | <<}} y {{incode | >>}}, como {{incode | <<Label>>}}.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Puede referenciar cualquier propiedad de un objeto. Por ejemplo, para referenciar la altura de un Cilindro puede usar `Cylinder.Height` o `<<Long_name_of_cylinder>>.Height`. Para referenciar al objeto mismo use la pseudo propiedad `_self`. Por ejemplo, puede usar `Cylinder._self` o `<<Label_of_cylinder>>._self`.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Para más información de como referenciar objetos, vea [Referencia a los datos CAD](#Referencia_a_los_datos_CAD.md).
-
-
-</div>
-
-
-{{Top}}
-
-
+Para más información de como referenciar objetos, vea [Referencia a los datos CAD](#Referencia_a_los_datos_CAD.md). 
 
 ## Constantes soportadas 
 
@@ -112,13 +89,7 @@ Las siguientes funciones matemáticas son soportadas:
 
 #### Funciones trigonométricas 
 
-
-<div class="mw-translate-fuzzy">
-
-Las [Funciones trigonométricas](https://es.wikipedia.org/wiki/Funci%C3%B3n_trigonom%C3%A9trica) utilizan el grado sexagesimal como unidad predeterminada. Para la medida en radianes, agregue primer valor de una expresión. Entonces, por ejemplo, `cos(45)` es lo mismo que `cos(pi rad / 4)`. Las expresiones en grados pueden usar `deg` o `°`, por ejemplo, `360deg - atan2(3; 4)` o `360&deg;  - atan2(3; 4)`. Si una expresión no tiene unidades y debe convertirse a grados o radianes para garantizar la compatibilidad, multiplíquela por `1&nbsp;deg`, `1&nbsp;°` o `1&nbsp;rad` como apropiado, por ejemplo, `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0,5 + pi / 2) * 1rad`.
-
-
-</div>
+Las [Funciones trigonométricas](https://es.wikipedia.org/wiki/Funci%C3%B3n_trigonom%C3%A9trica) utilizan el grado sexagesimal como unidad predeterminada. Para radianes, agregue primer valor de una expresión. Entonces, por ejemplo, `cos(45)` es lo mismo que `cos(pi rad / 4)`. Las expresiones en grados pueden usar `deg` o `°`, por ejemplo, `360deg - atan2(3; 4)` o `360&deg;  - atan2(3; 4)`. Si una expresión no tiene unidades y debe convertirse a grados o radianes para garantizar la compatibilidad, multiplíquela por `1deg`, `1°` o `1rad` como apropiado, por ejemplo, `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0,5 + pi / 2) * 1rad`.
 
 ++++
 | Function               | Description                                                                                                                                                                       | Input range                                |
@@ -449,7 +420,13 @@ Los siguientes objetos se pueden crear en expresiones utilizando las siguientes 
 
 ### Funciones vectoriales 
 
+
+<div class="mw-translate-fuzzy">
+
 Funciones: <small>(v0.22)</small> .
+
+
+</div>
 
 +++
 | Function / Operator                 | Description                                                                                                                                                                         |
@@ -594,6 +571,8 @@ and `Placement` can each be represented by a `Matrix`. The following functions a
 
 Conditional expressions are of the form `condition ? resultTrue : resultFalse`. The condition is defined as an expression that evaluates to either `0` (false) or non-zero (true).
 
+Note that to use a boolean property as the condition this syntax must be used: `VarSet.MyBool &#61;&#61; 1 ? 10 mm : 15 mm`.
+
 The following [relational operators](https://en.wikipedia.org/wiki/Relational_operator#Standard_relational_operators) are defined:
 
   Unit      Description
@@ -642,10 +621,10 @@ El analizador de expresiones reconoce las siguientes unidades:
   deg    [Degree](https://en.wikipedia.org/wiki/Degree_(angle)); alternative to the unit °
   rad    [Radian](https://en.wikipedia.org/wiki/Radian)
   gon    [Gradian](https://en.wikipedia.org/wiki/Gon_(unit))
-  S      [Second of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit ″
-  ″      [Second of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit S
   M      [Minute of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit ′
-  ′      [Minute of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit M
+  ′      [Minute of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); this is the prime symbol (U+2032); alternative to the unit M
+  S      [Second of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); **DOES NOT WORK**; alternative to the unit ″
+  ″      [Second of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); this is the double prime symbol (U+2033); alternative to the unit S
 
 
 
@@ -968,14 +947,7 @@ All next examples reference the object by its name, but in all cases the object 
 
 If the property is a compound of fields, the individual fields can be accessed as `object_name.property.field`.
 
-
-<div class="mw-translate-fuzzy">
-
-Para referenciar una lista de objetos use `<<object_label>>.list[list_index]` or `object_name.list[list_index]`. Si quiere por ejemplo referenciar una restricción de un croquis use `<<MySketch>>.Constraints[16]`. Si está en el mismo croquis puede omitir su nombre y solo usar `Constraints[16]`.
-**Nota:** El índice inicia en 0, por lo que la restricción 17 tiene que ser referenciada como `Constraints[16]`
-
-
-</div>
+Para referenciar una lista de objetos use `object_label.list[list_index]`. Si quiere por ejemplo referenciar una restricción de un croquis use `Sketch.Constraints[16]`. Si está en el mismo croquis puede omitir su nombre y solo usar `Constraints[16]`.Note que el índice inicia en 0, por lo que la restricción 17 tiene que ser referenciada como `Constraints[16]`
 
 To reference the object itself use the `_self` pseudo property: `object_name._self`.
 
@@ -1069,7 +1041,33 @@ Of course, it\'s up to you to load the corresponding documents later when you wa
 ## Problemas conocidos / tareas pendientes 
 
 -   FreeCAD does not yet have a built-in expression manager where all expressions in a document are listed, and can be created, deleted, queried, etc. But an addon is available: [fcxref expression manager](https://github.com/gbroques/fcxref).
--   Open bugs/tickets for Expressions can be found on [GitHub](https://github.com/FreeCAD/FreeCAD/issues?q=is%3Aissue+is%3Aopen+label%3AExpressions).
+-   Open bugs/tickets for Expressions can be found on [GitHub](https://github.com/FreeCAD/FreeCAD/labels/Topic%3A%20Expressions).
+
+
+{{Top}}
+
+## Scripting
+
+
+```python
+import FreeCAD as App
+
+doc = App.ActiveDocument
+box = doc.addObject("Part::Box", "Box")
+cyl = doc.addObject("Part::Cylinder", "Cylinder")
+cyl_name = cyl.Name
+
+box.setExpression("Height", f"{cyl_name}.Height / 2")
+box.setExpression("Length", f"{cyl_name}.Radius * 2")
+box.setExpression("Width", "Length")
+
+doc.recompute()
+
+# Expressions are stored in the ExpressionEngine property:
+for prop, exp in box.ExpressionEngine:
+    val = getattr(box, prop)
+    print(f"Property: '{prop}' -- Expression: '{exp}' -- Current value: {val}")
+```
 
 
 {{Top}}

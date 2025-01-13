@@ -50,7 +50,9 @@ Distribuția presiunii este întotdeauna uniformă și întotdeauna perpendicula
 
 </div>
 
--   Pressure on shells: <https://github.com/FreeCAD/FreeCAD/issues/5699>
+-    {{VersionMinus|0.21}}: Pressure load can be applied to shells but only when [Gmsh](FEM_MeshGmshFromShape.md) is used for meshing and group meshing is set to true. It is hardcoded as true so the user doesn\'t have to worry about that. However, due to a bug, pressure load may require remeshing to work on shells.
+
+-   This feature uses the [\*DLOAD card in CalculiX](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node190.html).
 
 
 

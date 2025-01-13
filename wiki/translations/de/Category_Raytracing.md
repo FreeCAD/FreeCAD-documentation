@@ -1,5 +1,5 @@
 # Category:Raytracing/de
-Diese Kategorie zeigt eine Liste von Seiten, die zum [Robot-Arbeitsbereich](Robot_Workbench/de.md) gehören.
+This category is for pages related to the [Raytracing Workbench/de](Raytracing_Workbench/de.md).
 
 ### Contents
 

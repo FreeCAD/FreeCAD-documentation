@@ -1,5 +1,5 @@
 # Category:Drawing/zh
-This category lists pages related to the [Drawing Workbench/zh](Drawing_Workbench/zh.md).
+This category is for pages related to the [Drawing Workbench/zh](Drawing_Workbench/zh.md).
 
 ### Contents
 

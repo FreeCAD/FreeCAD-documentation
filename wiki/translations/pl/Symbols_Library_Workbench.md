@@ -44,21 +44,21 @@ Biblioteka jest prostym kontenerem dla plików SVG. Można ją pobrać w dowolny
 
 -   środowiska pracy w Wiki:
 -   FreeCAD w Wiki:
--   Forum programu FreeCAD: <http://forum.freecadweb.org/viewtopic.php?f=9&t=10641>
+-   Forum programu FreeCAD: <https://forum.freecad.org/viewtopic.php?f=9&t=10641>
 -   Poradniki:
 -   Filmy:
 -   Pliki:
--   Zgłaszanie błędów: Prosimy o zgłaszanie błędów na [forum FreeCAD](http://forum.freecadweb.org/index.php) lub repozytorium [GitHub](https://github.com/FreeCAD/FreeCAD-symbols/issues)
+-   Zgłaszanie błędów: Prosimy o zgłaszanie błędów na [forum FreeCAD](https://forum.freecad.org/index.php) lub repozytorium [GitHub](https://github.com/FreeCAD/FreeCAD-symbols/issues)
 
 
 
 ## Inne użyteczne odnośniki 
 
--   [http://www.freecadweb.org/wiki/index.php?title=Sandbox:Parts_Library Biblioiteka części](http://www.freecadweb.org/wiki/index.php?title=Sandbox_Parts_Library_Biblioiteka_części.md), [Śruby](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Bolts), [Elementy złączne](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Fasteners), [FCGear](http://www.freecadweb.org/wiki/index.php?title=Sandbox:FCGear)
--   [Zewnętrzne środowiska pracy](External_workbenches/pl.md).
--   [Przepisy na makrodefinicje](Macros_recipes/pl.md)
--   [Pobieranie FreeCAD](Download/pl.md)
--   [Portal społeczności FreeCAD](FreeCAD_Community_Portal/pl.md)
+-   [Środowisko pracy biblioteka podzespołów](Parts_Library_Workbench/pl.md), [Środowisko pracy Elementy złączne](Fasteners_Workbench/pl.md), [Środowisko pracy FCGear](FCGear_Workbench/pl.md)
+-   [Zewnętrzne środowiska pracy](External_workbenches/pl.md)
+-   [Przepisy na makropolecenia](Macros_recipes/pl.md)
+-   [Pobieranie programu](Download/pl.md)
+-   [Portale społeczności FreeCAD](FreeCAD_Community_Portal/pl.md)
 
 
 

@@ -26,7 +26,7 @@ The **TechDraw Midpoints** tool adds [cosmetic vertices](TechDraw_CosmeticVertex
 ## Notes
 
 -   The created cosmetic vertices are not parametrically linked to the selected edges.
--   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+-   To delete a cosmetic vertex select it and press **Delete**. <small>(v1.0)</small> 
 
 ## Properties
 

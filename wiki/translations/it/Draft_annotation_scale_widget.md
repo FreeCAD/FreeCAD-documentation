@@ -1,7 +1,7 @@
 # Draft annotation scale widget/it
 ## Descrizione
 
-Il **Dispositivo Draft Scala annotazione** può essere utilizzato per specificare la scala di annotazione di Draft. Questa scala determina il **Scale Multiplier** dei nuovi [Testi](Draft_Text/it.md), [Quote](Draft_Dimension/it.md) e [Etichette](Draft_Label/it.md). Il dispositivo è disponibile solo in ambiente <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md). È un elemento GUI [opzionale](#Preferenze.md) che si trova nella [Barra di stato](Status_bar/it.md).
+Il **Dispositivo (widget) Draft scala annotazione** può essere utilizzato per specificare la scala di annotazione di Draft. Questa scala determina il **Scale Multiplier** dei nuovi [Testi](Draft_Text/it.md), [Quote](Draft_Dimension/it.md) e [Etichette](Draft_Label/it.md). Il dispositivo è disponibile solo in ambiente <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md). È un elemento GUI [opzionale](#Preferenze.md) che si trova nella [Barra di stato](Status_bar/it.md).
 
 ![](images/Draft_annotation_scale_widget_button.png ) 
 *Il dispositivo Draft scala annotazione*

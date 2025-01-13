@@ -29,6 +29,8 @@ Esta herramienta <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="
 
 ## Utilización
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
 
 <div class="mw-translate-fuzzy">
 

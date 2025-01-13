@@ -8,11 +8,15 @@
 
 # PartDesign Sprocket/it
 
-## Description
+
+
+## Descrizione
 
 This tool allows you to create a 2D profile of a sprocket (or chainwheel). It can be padded with the [PartDesign Pad](PartDesign_Pad.md) feature.
 
-## Usage
+
+
+## Utilizzo
 
 1.  Optionally activate the correct body.
 2.  Go to the menu **Part Design → [<img src=images/PartDesign_Sprocket.svg style="width:16px"> Sprocket...**.
@@ -20,7 +24,9 @@ This tool allows you to create a 2D profile of a sprocket (or chainwheel). It ca
 4.  Click **OK**.
 5.  If there was no active body: drag and drop the sprocket into a body for the application of further features like padding.
 
-## Properties
+
+
+## Proprietà
 
 -    **Number Of Teeth**: Number of teeth
 

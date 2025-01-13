@@ -5,12 +5,12 @@ This category contains the help pages of each of FreeCAD [Command](Command.md).
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch 3Views/hr](Arch_3Views/hr.md) | [Arch Door/hr](Arch_Door/hr.md) | [Arch Reference/hr](Arch_Reference/hr.md) |
-| [Arch Structure/hr](Arch_Structure/hr.md) | [BIM Classification/hr](BIM_Classification/hr.md) | [BIM Copy/hr](BIM_Copy/hr.md) |
+| [Arch 3Views/hr](Arch_3Views/hr.md) | [Arch Reference/hr](Arch_Reference/hr.md) | [Arch Structure/hr](Arch_Structure/hr.md) |
+| [BIM Classification/hr](BIM_Classification/hr.md) | [BIM Copy/hr](BIM_Copy/hr.md) | [BIM Door/hr](BIM_Door/hr.md) |
 | [BIM IfcElements/hr](BIM_IfcElements/hr.md) | [BIM Views/hr](BIM_Views/hr.md) | [BIM Windows/hr](BIM_Windows/hr.md) |
-| [Draft Draft2Sketch/hr](Draft_Draft2Sketch/hr.md) | [Template:GuiCommand/hr](Template_GuiCommand/hr.md) | [Part CrossSections/hr](Part_CrossSections/hr.md) |
-| [PartDesign NewSketch/hr](PartDesign_NewSketch/hr.md) | [PartDesign Pad/hr](PartDesign_Pad/hr.md) | [PartDesign PolarPattern/hr](PartDesign_PolarPattern/hr.md) |
-| [Path Shape/hr](Path_Shape/hr.md) | [Sketcher CarbonCopy/hr](Sketcher_CarbonCopy/hr.md) | [Sketcher Clone/hr](Sketcher_Clone/hr.md) |
+| [CAM Shape/hr](CAM_Shape/hr.md) | [Draft Draft2Sketch/hr](Draft_Draft2Sketch/hr.md) | [Template:GuiCommand/hr](Template_GuiCommand/hr.md) |
+| [Part CrossSections/hr](Part_CrossSections/hr.md) | [PartDesign NewSketch/hr](PartDesign_NewSketch/hr.md) | [PartDesign Pad/hr](PartDesign_Pad/hr.md) |
+| [PartDesign PolarPattern/hr](PartDesign_PolarPattern/hr.md) | [Sketcher CarbonCopy/hr](Sketcher_CarbonCopy/hr.md) | [Sketcher Clone/hr](Sketcher_Clone/hr.md) |
 | [Sketcher CloseShape/hr](Sketcher_CloseShape/hr.md) | [Sketcher ConnectLines/hr](Sketcher_ConnectLines/hr.md) | [Sketcher Copy/hr](Sketcher_Copy/hr.md) |
 | [Sketcher CreateArc/hr](Sketcher_CreateArc/hr.md) | [Sketcher CreateCircle/hr](Sketcher_CreateCircle/hr.md) | [Sketcher CreateFillet/hr](Sketcher_CreateFillet/hr.md) |
 | [Sketcher CreateLine/hr](Sketcher_CreateLine/hr.md) | [Sketcher CreatePeriodicBSpline/hr](Sketcher_CreatePeriodicBSpline/hr.md) | [Sketcher CreatePoint/hr](Sketcher_CreatePoint/hr.md) |

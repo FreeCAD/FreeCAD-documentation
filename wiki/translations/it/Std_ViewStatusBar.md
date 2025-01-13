@@ -25,7 +25,7 @@ Il comando **Barra di stato** attiva o disattiva la visualizzazione della [Barra
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

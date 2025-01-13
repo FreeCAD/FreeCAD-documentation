@@ -2,22 +2,26 @@
  GuiCommand:
    Name: Part Box
    MenuLocation: Part , Primitives , Cube
-   Workbenches: Part_Workbench
+   Workbenches: Part_Workbench/ko
    SeeAlso: Part_Primitives
 ---
 
 # Part Box/ko
 
-## Description
 
-The <img alt="" src=images/Part_Box.svg  style="width:24px;"> **Part Box** command creates a parametric box solid, a [rectangular cuboid](https://en.wikipedia.org/wiki/Cuboid#Rectangular_cuboid). In the coordinate system defined by its **Placement** property, the bottom face of the box lies on the XY plane with its front left corner at the origin, and its front edge parallel to the X axis.
+
+## 설명
+
+<img alt="" src=images/Part_Box.svg  style="width:24px;"> **부품 작업대에서 상자(Part Box)** 명령은 파라메트릭 상자 고체인 [직사각형 직육면체](https://en.wikipedia.org/wiki/Cuboid#Rectangular_cuboid)를 만듭니다. **Placement** 속성으로 정의된 좌표계에서 상자의 바닥 면은 왼쪽 앞 꼭지점이 원점에 닿으면서 XY 평면 위에 놓이고, 앞쪽 모서리는 X축과 평행합니다.
 
 <img alt="" src=images/Part_Box_Example.png  style="width:400px;">
 
-## Usage
+
+
+## 용법
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Box.svg" width=16px> [Part Box](Part_Box.md)** button.
+    -   Press the **<img src="images/Part_Box.svg" width=16px> [Cube](Part_Box.md)** button.
     -   Select the **Part → Primitives → <img src="images/Part_Box.svg" width=16px> Cube** option from the menu.
 2.  The box is created.
 3.  Optionally change the dimensions and **Placement** of the box by doing one of the following:
@@ -29,7 +33,9 @@ The <img alt="" src=images/Part_Box.svg  style="width:24px;"> **Part Box** comma
     -   Change the properties in the [Property editor](Property_editor.md).
     -   Change the **Placement** with the <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std TransformManip](Std_TransformManip.md) command.
 
-## Example
+
+
+## 예제
 
 ![Part Box from the scripting example](images/Part_Box_Scripting_Example.png )
 

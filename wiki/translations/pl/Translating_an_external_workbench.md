@@ -3,13 +3,19 @@ W poniższych uwagach, `" kontekst"` powinien być nazwą twojego dodatku lub ś
 
 **Uwaga**: Oto skrypt all-in-one, który automatyzuje całą procedurę opisaną poniżej *(zalecamy jednak przeczytanie procedury, aby wiedzieć, co skrypt powinien zrobić)*: <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
 
+
+
 ## Przygotowywanie źródeł 
+
+
 
 ### Informacje ogólne 
 
 -   Dodaj folder `translations/`. Możesz nadać mu inną nazwę, ale tak będzie łatwiej, ponieważ jest on taki sam w całym FreeCAD. W tym folderze umieścisz pliki `.ts` *(pliki tłumaczenia \"źródła\")* i `.qm` *(skompilowane pliki tłumaczenia)*.
 -   Należy tłumaczyć tylko tekst, który jest wyświetlany użytkownikowi w interfejsie użytkownika programu FreeCAD. Tekst, wyświetlany w konsoli Python nie powinien być tłumaczony.
 -   Tekst, który jest wyświetlany w `FreeCAD.Console`, jest wyświetlany w oknie \"Widok raportu\" i dlatego powinien zostać przetłumaczony. Okno \"Widok raportu\" jest czymś innym niż konsola Python.
+
+
 
 ### W każdym pliku .py Python 
 
@@ -103,6 +109,8 @@ Może to być użyte wszędzie: w `print()`, w `FreeCAD.Console.PrintMessage()`,
 
 Nie używaj swojego własnego `"kontekstu"` w tym konkretnym przypadku. Zachowaj `"App::Property"`.
 
+
+
 ### Wewnątrz InitGui.py 
 
 -   Dodaj następującą linię, na początku pliku:
@@ -129,12 +137,13 @@ Nie używaj swojego własnego `"kontekstu"` w tym konkretnym przypadku. Zachowaj
 ```
     
 
--   Dodaj ścieżkę do folderu `translations/` w funkcji Initialized:
+-   Dodaj ścieżkę do katalogu `translations/` i zaktualizuj ustawienia regionalne w funkcji *Initialized*:
 
 :   
     
 ```python
     FreeCADGui.addLanguagePath("/path/to/translations")
+    FreeCADGui.updateLocale()
     
 ```
     
@@ -145,9 +154,12 @@ Plik `InitGui.py` nie ma atrybutu **plik**, więc nie jest łatwo znaleźć wzgl
     
 ```python
     FreeCADGui.addLanguagePath(os.path.join(os.path.dirname(__file__), "translations"))
+    FreeCADGui.updateLocale()
     
 ```
     
+
+
 
 ### Wewnątrz każdej klasy poleceń FreeCAD 
 
@@ -186,6 +198,8 @@ gdzie `"CommandName"` jest nazwą polecenia, zdefiniowaną przez:
     
 ```
     
+
+
 
 ## Zbierz wszystkie ciągi z twojego modułu 
 
@@ -239,6 +253,8 @@ To działa rekurencyjnie i znajdzie pliki `.ui` wewnątrz wszystkich twoich kata
 ```
     
 
+
+
 ## Przesłanie pliku .ts do platformy tłumaczeniowej 
 
 Nadszedł czas, aby zlecić tłumaczenie Twojego pliku `.ts`. Możesz założyć konto na publicznej platformie tłumaczeniowej, takiej jak [Crowdin](https://crowdin.com/) lub [Transifex](https://www.transifex.com/), lub możesz skorzystać z naszego istniejącego [konta FreeCAD-addons na Crowdin](https://crowdin.com/project/freecad-addons), które ma już wielu użytkowników, a zatem jest większa szansa, że Twój plik zostanie przetłumaczony szybko i przez ludzi, którzy znają FreeCAD.
@@ -250,12 +266,16 @@ Jeśli chcesz udostępnić swój plik na koncie FreeCAD Crowdin, skontaktuj się
 
 niektóre platformy, takie jak Crowdin, mogą zintegrować się z GitHubem i wykonać wszystkie procesy z punktów 2, 3 i 4 automatycznie. W tym celu nie można korzystać z konta FreeCAD Crowdin. Będziesz musiał założyć własne konto.
 
+
+
 ## Scalanie tłumaczeń 
 
 Kiedy Twój plik `.ts` został przetłumaczony, choćby częściowo, możesz pobrać tłumaczenia ze strony:
 
 -   Zazwyczaj pobierasz plik `.zip` zawierający jeden plik `.ts` na każdy język.
 -   Umieść wszystkie przetłumaczone pliki `.ts`, razem ze swoim podstawowym plikiem `.ts`, w folderze `translations/`.
+
+
 
 ## Kompilacja tłumaczeń 
 
@@ -282,6 +302,8 @@ Powinieneś znaleźć jeden plik `.qm` dla każdego przetłumaczonego pliku `.ts
 
 To wszystko, czego potrzebujesz. Zauważ, że niektóre części Twojego środowiska pracy nie mogą być tłumaczone w locie, jeśli zdecydujesz się na zmianę języka. Jeśli tak jest, będziesz musiał ponownie uruchomić FreeCAD, aby nowy język został zastosowany.
 
+
+
 ## Testowanie tłumaczeń 
 
 1.  Przełącz FreeCAD na język, który przetłumaczyłeś *(np. niemiecki)*
@@ -290,15 +312,21 @@ To wszystko, czego potrzebujesz. Zauważ, że niektóre części Twojego środow
 
 Wynik: To powinno dać ci niemieckie tłumaczenie. Jeśli to działa dobrze, to znaczy, że podstawowa konfiguracja jest w porządku. Wtedy możemy przyjrzeć się czemuś innemu. Na przykład, nazwy poleceń powinny zawsze używać specjalnego kontekstu, który jest nazwą polecenia zarejestrowanego we FreeCAD.
 
+
+
 ### Istotne uwagi 
 
 -   Upewnij się, że używasz \*kontekstu\* i \*ciągu znaków\*, które rzeczywiście znajdują się w pliku ts/qm.
+
+
 
 ## Wygodniejszy skrypt 
 
 Yorik utrzymuje wygodny skrypt dla środowiska pracy BIM, który może zbierać, wysyłać i pobierać pliki ts. Możesz po prostu skopiować i dostosować ten skrypt do swojego środowiska pracy:
 
 <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
+
+
 
 ## Szczegóły techniczne i obsługa zaawansowana 
 
@@ -353,9 +381,13 @@ pylupdate myfile.py -ts outfile.ts
 
 Plik `outfile.ts` będzie zawierał zestaw ciągów znaków, które są przesyłane do CrowdIn w celu przetłumaczenia.
 
+
+
 ## Ważne odnośniki 
 
 -   Dlaczego warto i jak tłumaczyć funkcje `openCommand()` *([forum thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=55869))*.
+
+
 
 ## Powiązane strony 
 

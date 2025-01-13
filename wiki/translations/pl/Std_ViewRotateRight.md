@@ -29,26 +29,13 @@ Polecenie **Odwróć widok w prawo** obraca widok w aktywnym oknie [widoku 3D](3
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby obrócić widok w Prawo, użyj metody `viewRotateRigh` obiektu *ActiveView*. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.viewRotateRight()
-FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
-```
+Zobacz [Std: Odwróć widok w lewo ](Std_ViewRotateLeft/pl#Tworzenie_skryptów.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -14,29 +14,38 @@
 
 ## Description
 
-This constraint constrains the value of the radius of a circle or arc to have a specific value. If more than one circle or arc is selected before launching the command :
-
--   If the constrain is applied in \'Reference\' mode, a new reference constrain is added to each object separately according above rules
--   If the constrain is applied in \'Normal\' (driving) mode, following rules are applied
-    -   A reference constrain is applied separately on each object which is an external geometry
-
-    -   
-        **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Equal constrains](Sketcher_ConstrainEqual.md)**
-        
-        are applied sequentially between all real/construction geometry objects and a dimensional constrain is applied to the first selected object according above rules
-
-NB : B-spline poles can\'t be mixed with other object type in the selection
+The <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:24px;"> [Sketcher ConstrainRadius](Sketcher_ConstrainRadius.md) tool fixes the radius of circles, arcs and [B-spline weight circles](Sketcher_CreateBSpline#Notes.md).
 
 ![](images/Sketcher_ConstrainRadius_example.png )
 
 ## Usage
 
-1.  Pick one or more circles or arcs.
-2.  Press the **[<img src=images/Sketcher_ConstrainRadius.svg style="width:16px"> [Constrain radius](Sketcher_ConstrainRadius.md)** button.
-3.  A pop up dialog opens to edit or confirm the value. Press **OK** to validate. In case multiple circles/arcs were selected, all constraints will adopt this value. Edit their separate values by double-clicking on the dimension label in the 3D view; or in the Constraints list, double-click on the constraint or right-click and select **Change value**.
-4.  Optionally the dimension label and line can be moved and rotated in the 3D view by clicking on the value and dragging while keeping the left mouse button pressed.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
-**Note:** the constraint tool can also be started with no prior selection. By default the command will be in continue mode to create new constraints; press the right mouse button or **Esc** once to quit the command.
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
+
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   
+        <small>(v1.0)</small> 
+        
+        : If the **Dimensioning constraints** [preference](Sketcher_Preferences#General.md) is set to {{Value|Single tool}} (default): press the down arrow to the right of the **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button and select the **<img src="images/Sketcher_ConstrainRadius.svg" width=16px> Constrain radius** option from the dropdown.
+
+    -   If this preference has a different value (and in {{VersionMinus|0.21}}): press the **<img src="images/Sketcher_ConstrainRadius.svg" width=16px> [Constrain radius](Sketcher_ConstrainRadius.md)** button.
+
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainRadius.svg" width=16px> Constrain radius** option from the menu.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Dimension → <img src="images/Sketcher_ConstrainRadius.svg" width=16px> Constrain radius** option from the context menu.
+
+    -   Use the keyboard shortcut: **K** then **R**.
+3.  For further steps see [Sketcher ConstrainRadiam](Sketcher_ConstrainRadiam#Continue_mode.md).
+
+### Run-once mode 
+
+See [Sketcher ConstrainRadiam](Sketcher_ConstrainRadiam#Run-once_mode.md).
 
 ## Scripting
 

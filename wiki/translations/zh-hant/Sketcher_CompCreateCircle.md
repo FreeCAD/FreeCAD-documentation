@@ -1,5 +1,5 @@
 # Sketcher CompCreateCircle/zh-hant
-1.  REDIRECT [Sketcher_Workbench/zh-hant#Sketcher_CompCreateCircle](Sketcher_Workbench/zh-hant#Sketcher_CompCreateCircle.md)
+1.  REDIRECT [Sketcher_Workbench/zh-hant#Sketcher_CompCreateConic](Sketcher_Workbench/zh-hant#Sketcher_CompCreateConic.md)
 
 
 

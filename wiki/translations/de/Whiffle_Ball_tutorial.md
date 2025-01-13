@@ -11,20 +11,20 @@
 
 
 
-## Einführung
+## Einleitung
 
-Dieses Tutorium wurde ursprünglich von Roland Frank  verfasst, und es wurde von vocx neu geschrieben und illustriert.
+Diese Anleitung wurde ursprünglich von Roland Frank  verfasst und  von vocx überarbeitet und illustriert.
 
-Dieses Tutorium soll dir vermitteln, wie man die Part Arbeitsbereich benutzt.
+Diese Anleitung soll vermitteln, wie man den Arbeitsbereich Part verwendet.
 
-Der Part Arbeitsbereich war der erste entwickelte Arbeitsbereich. Sie liefert die grundlegenden geometrischen Elemente, die als Bausteine für andere Arbeitsbereiche verwendet werden können. Der Part Arbeitsbereich ist für die Verwendung in einem herkömmlichen Konstruktiven Festkörpergeometrie  Arbeitsablauf gedacht. Für einen moderneren Arbeitsablauf mit Skizzen, Blöcken und Formelementen verwende den PartDesign Arbeitsbereich.
+Der Arbeitsbereich Part war der Arbeitsbereich, der zuerst entwickelt wurde. Er stellt die grundlegenden geometrischen Elemente zur Verfügung, die als Bausteine für andere Arbeitsbereiche verwendet werden können. Der Arbeitsbereich Part ist für die Verwendung in einem herkömmlichen Arbeitsablauf für konstruktive Festkörpergeometrie  gedacht. Für einen moderneren Arbeitsablauf mit Skizzen, Blöcken und Formelementen wird der Arbeitsbereich PartDesign verwendet.
 
-Du wirst üben:
+Geübt wird:
 
--   Einfügen von Grundelementen 
--   sich ändernde Parameter dieser Grundelementobjekte
--   Ändern ihrer Positionierung
--   Ausführen Boolesche Operationen
+-   Grundelemente  einfügen
+-   Parameter dieser Grundelemente anpassen
+-   Ihre Positionierung ändern
+-   Boolesche Verknüpfungen anwenden
 
 ! 
 *Endgültiges Modell des Wiffleballs*
@@ -33,255 +33,249 @@ Du wirst üben:
 
 ## Einrichtung
 
-1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit **Datei , File:Std_New.svg   16px Std_New/de**{: mediawiki}, und wechsle zum Part Arbeitsbereich.
+1\. FreeCAD öfnen, ein neues leeres Dokument mit **Datei , File:Std_New.svg   16px Std_New/de**{: mediawiki} erstellen und zum Arbeitsbereich Part wechseln.
 
-:   1.1. Drücke die **File:Std_ViewIsometric.svg   16px Std_ViewIsometric/de**{: mediawiki} Schaltfläche oder drücke **0** auf dem Ziffernblock deiner Tastatur, um die Ansicht auf isometrisch zu ändern und die 3D Volumenkörper besser zu visualisieren.
-:   1.2. Drücke die **File:Std_ViewFitAll.svg   16px Std_ViewFitAll/de**{: mediawiki} Schaltfläche wann immer du Objekte zum Schwenken und Zoomen der 3D Ansicht hinzufügst, so dass alle Elemente in der Ansicht zu sehen sind.
-:   1.3. Halte **Strg** gedrückt, währen du klickst, um mehrere Elemente auszuwählen. Wenn du etwas falsch ausgewählt hast oder die Auswahl aufheben möchtest, klicke einfach auf eine leere Stelle in der 3D Ansicht.
-
-
-
-## Einfügen von Grundelementwürfeln 
-
-2\. Füge einen Grundelementwürfel ein, indem du auf **Image:Part_Box.svg   16px Part_Box/de**{: mediawiki} klickst.
-
-:   2.1. Wähle {{incode   Würfel}}{: mediawiki} in der Baumansicht.
-:   2.2. Ändere die Abmessungen im **Daten** reiter des Eigenschaftseditors.
-:   2.3. Ändere **Länge** in {{incode   90 mm}}{: mediawiki}.
-:   2.4. Ändere **Breite** in {{incode   90 mm}}{: mediawiki}.
-:   2.5. Ändere **Höhe** in {{incode   90 mm}}{: mediawiki}.
-
-3\. Im **Daten** reiter des Eigenschaftseditors, klicke auf den **Positionierung** Wert damit die elliptische Taste **...** zur rechten erscheint.
-
-:   3.1. Drücke auf die Ellipse um den Positionierungs dialog zu starten.
-:   3.2. Ändere die **Übersetzungs** Werte.
-:   3.3. Ändere **X** auf {{incode   -45 mm}}{: mediawiki}.
-:   3.4. Ändere **Y** auf {{incode   -45 mm}}{: mediawiki}.
-:   3.5. Ändere **Z** auf {{incode   -45 mm}}{: mediawiki}.
-:   3.6. Drücke die **OK** Schaltfläche um den Dialog zu schließen.
-
-4\. Wiederhole den Vorgang und füge einen zweiten, kleineren Würfel ein, indem du auf **Image:Part_Box.svg   16px Part_Box/de**{: mediawiki} klickst.
-
-:   4.1. Der zweite Würfel wird mit dem gleichen Namen, aber mit einer zusätzlichen Nummer zur Unterscheidung des Objekts erstellt.
-:   4.2. :4.2. Wähle {{incode   Cube001}}{: mediawiki} in der Baumansicht, und ändere die Abmessungen und die Positionierung wie beim vorherigen Objekt.
-:   4.3. Ändere **Länge** auf {{incode   80 mm}}{: mediawiki}.
-:   4.4. Ändere **Breite** auf {{incode   80 mm}}{: mediawiki}.
-:   4.5. Ändere **Höhe** auf {{incode   80 mm}}{: mediawiki}.
-:   4.6. Öffne den Positionierungs dialog.
-:   4.7. Ändere **X** auf {{incode   -40 mm}}{: mediawiki}.
-:   4.8. Ändere **Y** auf {{incode   -40 mm}}{: mediawiki}.
-:   4.9. Ändere **Z** auf {{incode   -40 mm}}{: mediawiki}.
-:   4.10. Drücke die **OK** Schaltfläche um den Dialog zu schließen.
+:   1.1. Die Schaltfläche **File:Std_ViewIsometric.svg   16px Std_ViewIsometric/de**{: mediawiki} drücken oder **0** auf dem Ziffernblock der Tastatur, um die Ansicht auf isometrisch zu ändern, für eine bessere Darstellung der 3D-Festkörper.
+:   1.2. Die Schaltfläche **File:Std_ViewFitAll.svg   16px Std_ViewFitAll/de**{: mediawiki} drücken, wann immer Objekte hinzugefügt werden, um die 3D-Ansicht so zu schwenken und zoomen, dass alle Elemente in der Ansicht zu sehen sind.
+:   1.3. **Strg** gedrückt halten, um mehrere Elemente durch Anklicken auszuwählen. Wurde etwas falsch ausgewählt oder soll die Auswahl aufgehoben werden, klickt man einfach auf einen leeren Bereich in der 3D-Ansicht.
 
 
 
-## Ändern der visuellen Eigenschaften 
+## Würfel-Grundelemente einfügen 
+
+2\. Ein Würfel-Grundelement einfügen durch Anklicken der Schaltfläche **Image:Part_Box.svg   16px Part_Box/de**{: mediawiki}.
+
+:   2.1. {{incode   Quader}}{: mediawiki} in der Baumansicht auswählen.
+:   2.2. Die Abmessungen im Reiter **Daten** des Eigenschafteneditors anpassen.
+:   2.3. **Length**  auf {{incode   90 mm}}{: mediawiki} ändern.
+:   2.4. **Width**  auf {{incode   90 mm}}{: mediawiki} ändern.
+:   2.5. **Height**  auf {{incode   90 mm}}{: mediawiki} ändern.
+
+3\. Im Reiter **Daten** des Eigenschafteneditors den Wert von **Placement** anklicken, damit rechts die Taste **...**  erscheint.
+
+:   3.1. Das Auslassungszeichen drücken, um den Dialog Positionierung zu öffnen.
+:   3.2. Die Werte für die **Verschiebung** anpassen.
+:   3.3. **X** auf {{incode   -45 mm}}{: mediawiki} ändern.
+:   3.4. **Y** auf {{incode   -45 mm}}{: mediawiki} ändern.
+:   3.5. **Z** auf {{incode   -45 mm}}{: mediawiki} ändern.
+:   3.6. Die Schaltfläche **OK** drücken, um den Dialog zu schließen.
+
+4\. Den Vorgang wiederholen, um einen zweiten, kleineren Würfel einzufügen, durch Anklicken der Schaltfläche **Image:Part_Box.svg   16px Part_Box/de**{: mediawiki}.
+
+:   4.1. Der zweite Quader wird mit dem gleichen Namen, aber mit einer zusätzlichen Nummer zum Unterscheiden der Objekte erstellt.
+:   4.2. {{incode   Quader001}}{: mediawiki} in der Baumansicht auswählen und die Abmessungen sowie die Positionierung wie beim vorherigen Objekt anpassen.
+:   4.3. **Length**  auf {{incode   80 mm}}{: mediawiki} ändern.
+:   4.4. **Width**  auf {{incode   80 mm}}{: mediawiki} ändern.
+:   4.5. **Height**  auf {{incode   80 mm}}{: mediawiki} ändern.
+:   4.6. Den Dialog Positionierung öffnen.
+:   4.7. **X** auf {{incode   -40 mm}}{: mediawiki} ändern.
+:   4.8. **Y** auf {{incode   -40 mm}}{: mediawiki} ändern.
+:   4.9. **Z** auf {{incode   -40 mm}}{: mediawiki} ändern.
+:   4.10. Die Schaltfläche **OK** drücken, um den Dialog zu schließen.
 
 
-<div class="mw-translate-fuzzy">
 
-5\. Die vorigen Operationen erstellen einen kleineren Würfel in einem größeren Würfel. Um dies zu veranschaulichen, können wir die **Ansicht**-Eigenschaft im Eigenschaftseditor ändern.
+## Visuelle Eigenschaften anpassen 
 
-:   5.1. Wähle {{incode   Cube001}}{: mediawiki}, den kleineren Würfel, in der Baumansicht und ändere die Farbe. Im **Ansicht**-Reiter, klicke auf den **Shape Color**-Wert, um den **Farbauswahl**-Dialog zu öffnen, dann wähle eine grüne Farbe; ändere auch den Wert der **Line Width**  auf {{incode   2.0}}{: mediawiki}.
-:   5.2. Wähle {{incode   Cube}}{: mediawiki}, den größeren Würfel, in der Baumansicht und ändere die Transparenz. Im **Ansicht**-Reiter ändere den Wert der **Transparency**  auf {{incode   70}}{: mediawiki}.
+5\. Die vorigen Operationen erstellen einen kleineren Würfel in einem größeren Würfel. Um dies zu veranschaulichen, können wir die **Ansicht**-Eigenschaften im Eigenschafteneditor ändern.
 
-
-</div>
+:   5.1. {{incode   Quader001}}{: mediawiki}, den kleineren Würfel in der Baumansicht auswählen und die Farbe ändern. Dafür im Reiter **Ansicht** auf den Wert von **Shape Color**  klicken, um den Dialog **Farbauswahl** zu öffnen und darin einen grünen Farbton auswählen; auch den Wert von **Line Width**  auf {{incode   2.0}}{: mediawiki} ändern.
+:   5.2. {{incode   Quader}}{: mediawiki}, den größeren Würfel, in der Baumansicht auswählen. Im Reiter **Ansicht** den Wert von **Transparency**  auf {{incode   70}}{: mediawiki} ändern.
 
 ! 
-*Solid cube inside another solid cube*
+*Ein Festkörper-Würfel innerhalb eines anderen  Festkörper-Würfels*
 
 
 
-## Einfügen von Grundelementzylindern 
+## Zylinder-Grundelemente einfügen 
 
-6\. Insert a primitive cylinder by clicking on **Image:Part_Cylinder.svg   16px Part_Cylinder**{: mediawiki}.
+6\. Ein Zylinder-Grundelement einfügen durch Anklicken der Schaltfläche **Image:Part_Cylinder.svg   16px Part_Cylinder/de**{: mediawiki}.
 
-:   6.1. Select {{incode   Cylinder}}{: mediawiki} in the tree view.
-:   6.2. Change the dimensions in the **Data** tab of the property editor.
-:   6.3. Change **Radius** to {{incode   27.5 mm}}{: mediawiki}.
-:   6.4. Change **Height** to {{incode   120 mm}}{: mediawiki}.
-:   6.5. Open the Placement dialog.
-:   6.6. Change **Z** to {{incode   -60 mm}}{: mediawiki}.
-:   6.7. Press the **OK** button to close the dialog.
+:   6.1. {{incode   Zylinder}}{: mediawiki} in der Baumansicht auswählen.
+:   6.2. Die Abmessungen im Reiter **Daten** des Eigenschafteneditors anpassen.
+:   6.3. **Radius** auf {{incode   27,5 mm}}{: mediawiki} ändern.
+:   6.4. **Height**  auf {{incode   120 mm}}{: mediawiki} ändern.
+:   6.5. Den Dialog Positionierung öffnen.
+:   6.6. **Z** auf {{incode   -60 mm}}{: mediawiki} ändern.
+:   6.7. Die Schaltfläche **OK** drücken, um den Dialog zu schließen.
 
-7\. Repeat the process, inserting a second cylinder by clicking on **Image:Part_Cylinder.svg   16px Part_Cylinder**{: mediawiki}.
+7\. Den Vorgang wiederholen, um einen zweiten Zylinder einzufügen, durch Anklicken der Schaltfläche **Image:Part_Cylinder.svg   16px Part_Cylinder/de**{: mediawiki}.
 
-:   7.1. The second cylinder will be created with the same name, but with an additional number to distinguish the object.
-:   7.2. Select {{incode   Cylinder001}}{: mediawiki} in the tree view, and change the dimensions and placement like with the previous object.
-:   7.3. Change **Radius** to {{incode   27.5 mm}}{: mediawiki}.
-:   7.4. Change **Height** to {{incode   120 mm}}{: mediawiki}.
-:   7.5. Open the Placement dialog.
-:   7.6. Change **Y** to {{incode   60 mm}}{: mediawiki}.
-:   7.7. Change the **Rotation** to {{incode   Rotation axis with angle}}{: mediawiki}; **Axis** to {{incode   X}}{: mediawiki} , and **Angle** to {{incode   90 deg}}{: mediawiki}.
-:   7.8. Press the **OK** button to close the dialog.
+:   7.1. Der zweite Zylinder wird mit dem gleichen Namen, aber mit einer zusätzlichen Nummer zum Unterscheiden der Objekte erstellt.
+:   7.2. {{incode   Zylinder001}}{: mediawiki} in der Baumansicht auswählen und die Abmessungen sowie die Positionierung wie beim vorherigen Objekt anpassen.
+:   7.3. **Radius** auf {{incode   27.5 mm}}{: mediawiki} ändern.
+:   7.4. **Height**  auf {{incode   120 mm}}{: mediawiki} ändern.
+:   7.5. Den Dialog Positionierung öffnen.
+:   7.6. **Y** auf {{incode   60 mm}}{: mediawiki} ändern.
+:   7.7. Unter **Drehung** {{incode   Rotationsachse mit Winkel}}{: mediawiki} einstellen; **X-Achse** festlegen  und **Angle**  auf {{incode   90 °}}{: mediawiki} ändern.
+:   7.8. Die Schaltfläche **OK** drücken, um den Dialog zu schließen.
 
-8\. Insert another cylinder. This time create a duplicate so that the radius and height don\'t have to be changed, only its placement.
+8\. Einen weiteren Zylinder einzufügen. Diesmal wird ein Duplikat erstellt, damit Radius und Höhe nicht geändert werden müssen, sondern nur seine Positionierung.
 
-:   8.1. Select {{incode   Cylinder001}}{: mediawiki} in the tree view, and go to the menu **Edit , Std_DuplicateSelection   Duplicate selection**{: mediawiki}. This will create {{incode   Cylinder002}}{: mediawiki}.
-:   8.2. Open the Placement dialog.
-:   8.3. Change **X** to {{incode   -60 mm}}{: mediawiki}, and change **Y** back to {{incode   0 mm}}{: mediawiki}.
-:   8.4. Change the **Rotation** to {{incode   Rotation axis with angle}}{: mediawiki}; **Axis** to {{incode   Y}}{: mediawiki}, and **Angle** to {{incode   90 deg}}{: mediawiki}.
-:   8.5. Press the **OK** button to close the dialog.
+:   8.1. {{incode   Zylinder001}}{: mediawiki} in der Baumansicht auswählen und danach den Menüeintrag **Bearbeiten , Std_DuplicateSelection/de   Auswahl duplizieren**{: mediawiki}. Dies erstellt {{incode   Zylinder002}}{: mediawiki}.
+:   8.2. Den Dialog Positionierung öffnen.
+:   8.3. **X** auf {{incode   -60 mm}}{: mediawiki} und **Y** zurück auf {{incode   0 mm}}{: mediawiki} ändern.
+:   8.4. Unter **Drehung** {{incode   Rotationsachse mit Winkel}}{: mediawiki} einstellen; **Y-Achse** festlegen und **Angle**  auf {{incode   90 °}}{: mediawiki} ändern.
+:   8.5. Die Schaltfläche **OK** drücken, um den Dialog zu schließen.
 
 
 
-## Ändern der visuellen Eigenschaften 
+## Visuelle Eigenschaften anpassen 
 
-9\. The previous operations create three cylinders that intersect with each other, and also intersect the cubes. To visualize this better we can modify the **View** properties in the property editor.
+9\. Die vorigen Operationen erstellen drei Zylinder, die sich gegenseitig durchdringen und auch die Würfel durchdringen. Um dies zu veranschaulichen, können wir die **Ansicht**-Eigenschaften im Eigenschafteneditor ändern.
 
-:   9.1. Select {{incode   Cube001}}{: mediawiki}, the smaller cube, in the tree view, and change the transparency. In the **View** tab, change the value of **Transparency** to {{incode   70}}{: mediawiki}.
-:   9.2. Select {{incode   Cylinder}}{: mediawiki}, in the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a red color.
-:   9.3. Select {{incode   Cylinder001}}{: mediawiki}, in the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a blue color.
-:   9.4. Select {{incode   Cylinder002}}{: mediawiki}, in the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a pink color.
-:   9.5. Select the three cylinders, in the **View** tab also change the value of **Line Width** to {{incode   2.0}}{: mediawiki}.
+:   9.1. {{incode   Quader001}}{: mediawiki}, den kleineren Würfel in der Baumansicht auswählen und die Transparennz ändern. Im Reiter **Ansicht** den Wert von **Transparency**  auf {{incode   70}}{: mediawiki} ändern.
+:   9.2. {{incode   Zylinder}}{: mediawiki} auswählen, im Reiter **Ansicht** den Wert von **Shape Color**  anklicken, um den Dialog **Farbauswahl** zu öffnen und einen roten Farbton auszuwählen.
+:   9.3. {{incode   Zylinder001}}{: mediawiki} auswählen, im Reiter **Ansicht** den Wert von **Shape Color** anklicken, um den Dialog **Farbauswahl** zu öffnen und einen blauen Farbton auszuwählen.
+:   9.4. {{incode   Zylinder002}}{: mediawiki} auswählen, im Reiter **Ansicht** den Wert von **Shape Color** anklicken, um den Dialog **Farbauswahl** zu öffnen und einen rosafarbenen Farbton auszuwählen.
+:   9.5. Alle drei Zylinder auswählen und im Reiter **Ansicht** auch hier **Line Width**  auf {{incode   2,0}}{: mediawiki} ändern.
 
 ! 
-*Solid cylinders that intersect themselves and the solid cubes.*
+*Festkörper-Zylinder, die sich selbst durchdringen und die Festkörper-Würfel*
 
 
 
-## Verschmelzen und Schneiden 
+## Vereinigen und Ausschneiden 
 
-10\. In the tree view, select {{incode   Cube001}}{: mediawiki} , and the tree cylinders, then press **File:Part_Fuse.svg   16px Part_Fuse**{: mediawiki}. This will create a {{incode   Fusion}}{: mediawiki} object.
+10\. In der Baumansicht {{incode   Quader001}}{: mediawiki} , und die drei Zylinder auswählen und danach die Schaltfläche **File:Part_Fuse.svg   16px Part_Fuse/de**{: mediawiki} drücken. Dies erstellt ein Vereinigungsobjekt {{incode   Fusion}}{: mediawiki}.
 
-11\. Then perform a boolean cut of the {{incode   Cube}}{: mediawiki}  and the new {{incode   Fusion}}{: mediawiki} object.
+11\. Dann wird die boolesche Verknüpfung Differenz angewendet, um das neue Objekt {{incode   Fusion}}{: mediawiki} aus den größeren Würfel {{incode   Quader}}{: mediawiki} herauszuschneiden.
 
-:   11.1. In the tree view select {{incode   Cube}}{: mediawiki} first, and then {{incode   Fusion}}{: mediawiki}.
-:   11.2. Then press **File:Part_Cut.svg   16px Part_Cut**{: mediawiki}. This will create a {{incode   Cut}}{: mediawiki} object.
+:   11.1. In der Baumansicht zuerst {{incode   Quader}}{: mediawiki} auswählen und dann {{incode   Fusion}}{: mediawiki}.
+:   11.2. Danach die Schaltfläche **File:Part_Cut.svg   16px Part_Cut/de**{: mediawiki} drücken. Dies erstellt ein Differenzobjekt {{incode   Cut}}{: mediawiki}.
 :   
-    **Note:**the order in which you select the objects is important for the cut operation. The base object is selected first, and the subtracting object comes at the end.
-:   11.3. If the colors look strange, select the new {{incode   Cut}}{: mediawiki} object, go to the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a gray color; also change the value of **Line Width** to {{incode   2.0}}{: mediawiki}.
+    **Hinweis:**Die Reihenfolge, in der die Objekte ausgewählt werden, ist entscheidend für diesen Vorgang. Das Basisobjekt wird zuerst ausgewählt und danach die Objekte, die etwas entfernen .
+:   11.3. Wenn die Farben nicht gefallen, das neue Objekt {{incode   Cut}}{: mediawiki} auswählen, zum Reiter **Ansicht** wechseln, Den Wert von **Shape Color** anklicken, um den Dialog **Farbauswahl** zu öffnen und einen grauen Farbton auszuwählen; auch hier den Wert von **Line Width** auf {{incode   2.0}}{: mediawiki} ändern.
 
 ! 
-*Hohle Form, hergestellt durch Schneiden eines Würfels und dreier Zylinder aus einem größeren Würfel.*
+*Hohle Form, hergestellt durch Entfernen eines Würfels und dreier Zylinder aus einem größeren Würfel.*
 
 
 
-## Einfügen von Grundelementwürfeln, um die Ecken des Teilkörpers zu schneiden 
+## Würfel-Grundelemente einfügen, um die Ecken des Teilkörpers zu beschneiden 
 
-Now we\'ll create more cubes that will be used as cutting tools to trim the corners of the previously obtained {{incode   Cut}}{: mediawiki} object.
+Jetzt werden weitere Würfel erstellt, die als Beschnittwerkzeuge für die Ecken des zuvor erstellten Objekts {{incode   Cut}}{: mediawiki} verwendet werden.
 
-12\. Click on **Image:Part_Box.svg   16px Part_Box**{: mediawiki}.
+12\. Die Schaltfläche **Image:Part_Box.svg   16px Part_Box/de**{: mediawiki} drücken.
 
-:   12.1. Select {{incode   Cube002}}{: mediawiki} in the tree view, and change the dimensions and placement.
-:   12.2. Change **Length** to {{incode   140 mm}}{: mediawiki}.
-:   12.3. Change **Width** to {{incode   112 mm}}{: mediawiki}.
-:   12.4. Change **Height** to {{incode   112 mm}}{: mediawiki}.
-:   12.5. Open the Placement dialog.
-:   12.6. Change **X** to {{incode   -70 mm}}{: mediawiki}.
-:   12.7. Change **Y** to {{incode   -56 mm}}{: mediawiki}.
-:   12.8. Change **Z** to {{incode   -56 mm}}{: mediawiki}.
-:   12.9. Press **OK**.
+:   12.1. {{incode   Quader002}}{: mediawiki} in der Baumansicht auswählen und Abmessungen ung Positionierung anpassen.
+:   12.2. **Length** auf {{incode   140 mm}}{: mediawiki} ändern.
+:   12.3. **Width** auf {{incode   112 mm}}{: mediawiki} ändern.
+:   12.4. **Height** auf {{incode   112 mm}}{: mediawiki} ändern.
+:   12.5. Den Dialog Positionierung öffnen.
+:   12.6. **X** auf {{incode   -70 mm}}{: mediawiki} ändern.
+:   12.7. **Y** auf {{incode   -56 mm}}{: mediawiki} ändern.
+:   12.8. **Z** auf {{incode   -56 mm}}{: mediawiki} ändern.
+:   12.9. Die Schaltfläche **OK** drücken.
 
-13\. Click on **Image:Part_Box.svg   16px Part_Box**{: mediawiki}.
+13\. Die Schaltfläche **Image:Part_Box.svg   16px Part_Box/de**{: mediawiki} drücken.
 
-:   13.1. Select {{incode   Cube003}}{: mediawiki} in the tree view, and change the dimensions and placement.
-:   13.2. Change **Length** to {{incode   180 mm}}{: mediawiki}.
-:   13.3. Change **Width** to {{incode   180 mm}}{: mediawiki}.
-:   13.4. Change **Height** to {{incode   180 mm}}{: mediawiki}.
-:   13.5. Open the Placement dialog.
-:   13.6. Change **X** to {{incode   -90 mm}}{: mediawiki}.
-:   13.7. Change **Y** to {{incode   -90 mm}}{: mediawiki}.
-:   13.8. Change **Z** to {{incode   -90 mm}}{: mediawiki}.
-:   13.9. Press **OK**.
+:   13.1. {{incode   Quader003}}{: mediawiki} in der Baumansicht auswählen und Abmessungen ung Positionierung anpassen.
+:   13.2. **Length** auf {{incode   180 mm}}{: mediawiki} ändern.
+:   13.3. **Width** auf {{incode   180 mm}}{: mediawiki} ändern.
+:   13.4. **Height** auf {{incode   180 mm}}{: mediawiki} ändern.
+:   13.5. Den Dialog Positionierung öffnen.
+:   13.6. **X** auf {{incode   -90 mm}}{: mediawiki} ändern.
+:   13.7. **Y** auf {{incode   -90 mm}}{: mediawiki} ändern.
+:   13.8. **Z** auf {{incode   -90 mm}}{: mediawiki} ändern.
+:   13.9. Die Schaltfläche **OK** drücken.
 
-We\'ll duplicate the previous two objects again to use once more as cutting objects.
+Die beiden vorherigen Objekte werden wieder dupliziert, um sie auch wieder als Beschnittobjekte zu verwenden.
 
-14\. Select only {{incode   Cube002}}{: mediawiki} in the tree view, and go to **Edit , Std_DuplicateSelection   Duplicate selection**{: mediawiki}. This will create {{incode   Cube004}}{: mediawiki}.
+14\. Nur {{incode   Quader002}}{: mediawiki} in der Baumansicht auswählen und danach den Menüeintrag **Bearbeiten , Std_DuplicateSelection/de   Auswahl duplizieren**{: mediawiki}. Dies erstellt {{incode   Quader004}}{: mediawiki}.
 
-15\. Select only {{incode   Cube003}}{: mediawiki} in the tree view, and go to **Edit , Std_DuplicateSelection   Duplicate selection**{: mediawiki}. This will create {{incode   Cube005}}{: mediawiki}.
+14\. Nur {{incode   Quader003}}{: mediawiki} in der Baumansicht auswählen und danach den Menüeintrag **Bearbeiten , Std_DuplicateSelection/de   Auswahl duplizieren**{: mediawiki}. Dies erstellt {{incode   Quader005}}{: mediawiki}.
 
-16\. To visualize this better we can modify the **View** properties in the property editor.
+16\. Um dies zu veranschaulichen, können wir die **Ansicht**-Eigenschaften im Eigenschafteneditor ändern.
 
-:   16.1. Select the {{incode   Cut}}{: mediawiki} object, in the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a blue color.
-:   16.2. Select all new cubes, {{incode   Cube002}}{: mediawiki}, {{incode   Cube003}}{: mediawiki}, {{incode   Cube004}}{: mediawiki}, and {{incode   Cube005}}{: mediawiki}, in the **View** tab, change the value of **Transparency** to {{incode   80}}{: mediawiki}.
-
-! 
-*Additional external cubes that will be used as cutting objects for the internal solid.*
-
-
-
-## Schneiden der Ecken 1 
-
-17\. In the tree view select {{incode   Cube002}}{: mediawiki} and {{incode   Cube003}}{: mediawiki}.
-
-:   17.1. Open the Placement dialog.
-:   17.2. Tick the option **Apply incremental changes**; notice that all **Translation** values are reset to zeroes.
-:   17.3. Change the **Rotation** to {{incode   Rotation axis with angle}}{: mediawiki}; **Axis** to {{incode   X}}{: mediawiki}, and **Angle** to {{incode   45 deg}}{: mediawiki}, then click on **Apply**. This will apply a rotation around the X-axis, and will reset the **Angle** field to zero.
-:   17.4. Change the **Rotation** again, now **Axis** to {{incode   Z}}{: mediawiki}, and **Angle** to {{incode   45 deg}}{: mediawiki}, then click on **Apply**. This will apply a rotation around the local Z-axis, and will reset the **Angle** field to zero.
-:   17.5. Click on **OK** to close the dialog.
-
-18\. In the tree view de-select the objects; then select {{incode   Cube003}}{: mediawiki} first, the bigger cube, and then {{incode   Cube002}}{: mediawiki}, the smaller cube.
-
-:   18.1. Then press **File:Part_Cut.svg   16px Part_Cut**{: mediawiki}. This will create {{incode   Cut001}}{: mediawiki}. This is a hollowed body which intersects the initial {{incode   Cut}}{: mediawiki} only at certain corners.
-
-19\. To visualize this better we can modify the **View** properties in the property editor.
-
-:   19.1. Select {{incode   Cube004}}{: mediawiki} and {{incode   Cube005}}{: mediawiki}, in the **View** tab, then change the value of **Visibility** to {{incode   false}}{: mediawiki}, or press **Space** in the keyboard.
-:   19.2. Select {{incode   Cut001}}{: mediawiki}, click on the **Shape Color** value to open the **Select color** dialog, then choose a red color; also change the value of **Transparency** to {{incode   90}}{: mediawiki}.
+:   16.1. Das Objekt {{incode   Cut}}{: mediawiki} auswählen, im Reiter **Ansicht** den Wert von **Shape Color** anklicken, um den Dialog **Farbauswahl** zu öffnen und einen blauen Farbton auszuwählen.
+:   16.2. Alle neuen Würfel, {{incode   Quader002}}{: mediawiki}, {{incode   Quader003}}{: mediawiki}, {{incode   Quader004}}{: mediawiki} und {{incode   Quader005}}{: mediawiki} auswählen, im Reiter **Ansicht** den Wert von **Transparency** auf {{incode   80}}{: mediawiki} ändern.
 
 ! 
-*A rotated, hollowed solid, which will be used as a cutting object for some corners of the internal solid.*
+*Weitere äußere Würfel, die als Beschnittobjekte für den inneren Festkörper verwendet werden*
 
 
 
-## Schneiden der Ecken 2 
+## Beschneiden der Ecken 1 
 
-20\. In the tree view select {{incode   Cut001}}{: mediawiki}, in the **View** tab, change the value of **Visibility** to {{incode   false}}{: mediawiki}, or press **Space** in the keyboard.
+17\. In der Baumansicht {{incode   Cube002}}{: mediawiki} und {{incode   Cube003}}{: mediawiki} auswählen.
 
-21\. In the tree view select {{incode   Cube004}}{: mediawiki} and {{incode   Cube005}}{: mediawiki}, in the **View** tab, change the value of **Visibility** to {{incode   true}}{: mediawiki}, or press **Space** in the keyboard.
+:   17.1. Den Dialog Positionierung öffnen.
+:   17.2. Die Option **Inkrementelle Änderungen anwenden** aktivieren; man beachte, dass alle Werte unter **Verschiebung** auf Null zurückgesetzt werden
+:   17.3. Unter **Drehung** {{incode   Rotationsachse mit Winkel}}{: mediawiki} einstellen; **X-Achse** festlegen und **Angle**  auf {{incode   45 °}}{: mediawiki} ändern; danach die Schaltfläche **Anwenden** drücken. Dies wendet eine Drehung um die X-Achse an und setzt den Wert des Feldes **Angle** auf Null zurück.
+:   17.4. Noch einmal **Drehung** einstellen, jetzt die **Z-Achse** festlegen und **Angle** auf {{incode   45 °}}{: mediawiki} ändern; danach die Schaltfläche **Anwenden** drücken. Dies wendet eine Drehung um die lokale Z-Achse an und setzt den Wert des Feldes **Angle** auf Null zurück.
+:   17.5. Die Schaltfläche **OK** drücken, um den Dialog zu schließen.
 
-:   21.1. Open the Placement dialog.
-:   21.2. Tick the option **Apply incremental changes**; notice that all **Translation** values are reset to zeroes.
-:   21.3. Change the **Rotation** to {{incode   Rotation axis with angle}}{: mediawiki}; **Axis** to {{incode   X}}{: mediawiki}, and **Angle** to {{incode   45 deg}}{: mediawiki}, then click on **Apply**. This will apply a rotation around the X-axis, and will reset the {{incode   Angle}}{: mediawiki} field to zero.
-:   21.4. Change the **Rotation** again, now **Axis** to {{incode   Z}}{: mediawiki}, and **Angle** to {{incode   -45 deg}}{: mediawiki}, then click on **Apply**. This will apply a rotation around the local Z-axis, and will reset the **Angle** field to zero.
-:   21.5. Click on **OK** to close the dialog.
+18\. In der Baumansicht alle Objekte abwählen, dann zuerst {{incode   Quader003}}{: mediawiki}, den größeren Würfel, auswählen und danach {{incode   Quader002}}{: mediawiki}, den kleineren Würfel.
 
-22\. In the tree view de-select the objects; then select {{incode   Cube005}}{: mediawiki} first, the bigger cube, and then {{incode   Cube004}}{: mediawiki}, the smaller cube.
+:   18.1. Danach die Schaltfläche **File:Part_Cut.svg   16px Part_Cut/de**{: mediawiki} drücken. Dies erstellt das Differenzobjekt {{incode   Cut001}}{: mediawiki}. Dies ist ein hohler Körper, der den Basiskörper {{incode   Cut}}{: mediawiki} nur an bestimmten Ecken überschneidet.
 
-:   22.1. Then press **File:Part Cut.svg   16px Part_Cut**{: mediawiki}. This will create {{incode   Cut002}}{: mediawiki}. This is a hollowed body which intersects the initial {{incode   Cut}}{: mediawiki} only at certain corners.
+19\. Um dies zu veranschaulichen, können wir die **Ansicht**-Eigenschaften im Eigenschafteneditor ändern.
 
-23\. To visualize this better we can modify the **View** properties in the property editor.
-
-:   23.1. Select {{incode   Cut002}}{: mediawiki}, click on the **Shape Color** value to open the **Select color** dialog, then choose a pink color; also change the value of **Transparency** to {{incode   90}}{: mediawiki}.
-
-! 
-*Ein gedrehter ausgehöhlter Volumenkörper, der als Beschnittobjekt für einige Ecken des inneren Volumenkörpers verwendet wird.*
-
-
-
-## Fertigstellung des Modells 
-
-24\. Make sure all objects are visible. In the tree view select all objects, in the **View** tab, change the value of **Visibility** to {{incode   true}}{: mediawiki}, or press **Space** in the keyboard.
+:   19.1. {{incode   Quader004}}{: mediawiki} und {{incode   Quader005}}{: mediawiki} auswählen, im Reiter **Ansicht** den Wert von **Visibility**  auf {{incode   false}}{: mediawiki} ändern oder die **Leertaste** drücken.
+:   19.2. {{incode   Cut001}}{: mediawiki} auswählen, den Wert von **Shape Color** anklicken, um den Dialog **Farbauswahl** zu öffnen und einen roten Farbton auszuwählen; abschließend auch den Wert von **Transparency** auf {{incode   90}}{: mediawiki} ändern.
 
 ! 
-*The internal hollowed solid, together with the external objects which will be used to cut it.*
+*Ein gedrehter hohler Festkörper, der als Beschnittobjekt für einige Ecken des inneren Festkörpers verwendet wird*
 
-25\. In the tree view de-select the objects; then select {{incode   Cut}}{: mediawiki} first, and then {{incode   Cut001}}{: mediawiki}.
 
-:   25.1. Then press **File:Part_Cut.svg   16px Part_Cut**{: mediawiki}. This will create {{incode   Cut003}}{: mediawiki}.
+
+## Beschneiden der Ecken 2 
+
+20\. In Der Baumansicht {{incode   Cut001}}{: mediawiki} auswählen, im Reiter **Ansicht** den Wert von **Visibility**  auf {{incode   false}}{: mediawiki} ändern oder die **Leertaste** drücken.
+
+21\. In der Baumansicht {{incode   Quader004}}{: mediawiki} und {{incode   Quader005}}{: mediawiki} auswählen, im Reiter **Ansicht** den Wert von **Visibility** auf {{incode   true}}{: mediawiki} ändern oder die **Leertaste** drücken.
+
+:   21.1. Den Dialog Positionierung öffnen.
+:   21.2. Die Option **Inkrementelle Änderungen anwenden** aktivieren; man beachte, dass alle Werte unter **Verschiebung** auf Null zurückgesetzt werden.
+:   21.3. Unter **Drehung** {{incode   Rotationsachse mit Winkel}}{: mediawiki} einstellen; **X-Achse** festlegen und **Angle**  auf {{incode   45 °}}{: mediawiki} ändern; danach die Schaltfläche **Anwenden** drücken. Dies wendet eine Drehung um die X-Achse an und setzt den Wert des Feldes **Angle** auf Null zurück.
+:   21.4. Noch einmal **Drehung** einstellen, jetzt die **Z-Achse** festlegen und **Angle** auf {{incode   -45 °}}{: mediawiki} ändern; danach die Schaltfläche **Anwenden** drücken. Dies wendet eine Drehung um die lokale Z-Achse an und setzt den Wert des Feldes **Angle** auf Null zurück.
+:   21.5. Die Schaltfläche **OK** drücken, um den Dialog zu schließen.
+
+22\. In der Baumansicht alle Objekte abwählen, dann zuerst {{incode   Quader005}}{: mediawiki}, den größeren Würfel, auswählen und danach {{incode   Quader004}}{: mediawiki}, den kleineren Würfel.
+
+:   22.1. Danach die Schaltfläche **File:Part_Cut.svg   16px Part_Cut/de**{: mediawiki} drücken. Dies erstellt das Differenzobjekt {{incode   Cut002}}{: mediawiki}. Dies ist ein hohler Körper, der den Basiskörper {{incode   Cut}}{: mediawiki} nur an bestimmten Ecken überschneidet.
+
+23\. Um dies zu veranschaulichen, können wir die **Ansicht**-Eigenschaften im Eigenschafteneditor ändern.
+
+:   23.1. {{incode   Cut002}}{: mediawiki} auswählen, den Wert von **Shape Color** anklicken, um den Dialog **Farbauswahl** zu öffnen und einen rosafarbenen Farbton auszuwählen; abschließend auch den Wert von **Transparency** auf {{incode   90}}{: mediawiki} ändern.
 
 ! 
-*The internal hollowed solid, cut by {{incode   Cut001*.}}{: mediawiki}
+*Ein gedrehter hohler Festkörper, der als Beschnittobjekt für einige Ecken des inneren Festkörpers verwendet wird*
 
-26\. In the tree view de-select the objects; then select {{incode   Cut003}}{: mediawiki} first, and then {{incode   Cut002}}{: mediawiki}.
 
-:   26.1. Then press **File:Part_Cut.svg   16px Part_Cut**{: mediawiki}. This will create {{incode   Cut004}}{: mediawiki}. This is the final object.
-:   26.2. Select {{incode   Cut004}}{: mediawiki}, click on the **Shape Color** value to open the **Select color** dialog, then choose a green color; also change the value of **Line Width** to {{incode   2.0}}{: mediawiki}.
 
-! 
-*The internal hollowed solid, cut by {{incode   Cut001* and `Cut002`. Final model.}}{: mediawiki}
+## Das Modell fertigstellen 
 
-27\. Real objects don\'t have perfectly sharp edges or corners, so applying a fillet to the edges can be done to refine the model.
-
-:   27.1. In the tree view, select {{incode   Cut004}}{: mediawiki} then press **File:Part_Fillet.svg   16px Part_Fillet**{: mediawiki}.
-:   27.2. In the **Fillet edges** task panel go to **Selection**, choose **Select edges**, and then press **All**. As **Fillet type** choose {{incode   Constant radius}}{: mediawiki}, then set **Radius** to {{incode   1 mm}}{: mediawiki}.
-:   24.3. Press **OK**. This will create a {{incode   Fillet}}{: mediawiki} object.
-:   27.4. In the **View** tab, change the value of **Line Width** to {{incode   2.0}}{: mediawiki}.
+24\. Sicherstellen, dass alle Objekte sichtbar sind. In Der Baumansicht alle Objekte auswählen, im Reiter **Ansicht** den Wert von **Visibility** auf {{incode   true}}{: mediawiki} ändern oder die **Leertaste** drücken.
 
 ! 
-*Final whiffle ball model with fillets applied to the edges.*
+*Der innere hohle Festkörper zusammen mit den Äußeren Objekten, die ihn beschneiden werden*
+
+25\. In der Baumansicht alle Objekte abwählen, dann zuerst {{incode   Cut}}{: mediawiki} auswählen und danach {{incode   Cut001}}{: mediawiki}.
+
+:   25.1. Danach die Schaltfläche **File:Part_Cut.svg   16px Part_Cut/de**{: mediawiki} drücken. Dies erstellt das Differenzobjekt {{incode   Cut003}}{: mediawiki}.
+
+! 
+*Der innere hohle Festkörper mit {{incode   Cut001* beschnitten}}{: mediawiki}
+
+26\. In der Baumansicht alle Objekte abwählen, dann zuerst {{incode   Cut003}}{: mediawiki} auswählen und danach {{incode   Cut002}}{: mediawiki}.
+
+:   26.1. Danach die Schaltfläche **File:Part_Cut.svg   16px Part_Cut/de**{: mediawiki} drücken. Dies erstellt das Differenzobjekt {{incode   Cut004}}{: mediawiki}. Dies ist das endgültige Objekt.
+:   26.2. {{incode   Cut004}}{: mediawiki} auswählen, den Wert von **Shape Color** anklicken, um den Dialog to open the **Farbauswahl** zu öffnen und einen grünen Farbton auszuwählen; abschließend auch den Wert von **Line Width** auf {{incode   2.0}}{: mediawiki} ändern.
+
+! 
+*Der innere hohle Festkörper mit {{incode   Cut001*  und `Cut002` beschnitten. Das endgültige Modell}}{: mediawiki}
+
+27\. Echt Objekte haben keine perfekt scharfe Kanten oder Ecken, daher kann Verrunden das Modell noch verfeinern.
+
+:   27.1. In der Baumansicht {{incode   Cut004}}{: mediawiki} auswählen, dann die Schaltfläche **File:Part_Fillet.svg   16px Part_Fillet/de**{: mediawiki} drücken.
+:   27.2. Im Aufgaben-Bereich **Kanten abrunden** unter **Auswahl** **Kanten auswählen** aktivieren und die Schaltfläche **Alle** drücken. Als **Typ der Abrundung** {{incode   Konstanter Radius}}{: mediawiki} auswählen und **Radius** auf {{incode   1 mm}}{: mediawiki} ändern.
+:   24.3. **OK** drücken. Dies erstellt ein Verrundungsobjekt {{incode   Fillet}}{: mediawiki}.
+:   27.4. Im Reiter **Ansicht** den Wert von **Line Width** auf {{incode   2.0}}{: mediawiki} ändern.
+
+! 
+*Das fertige Whiffle-Ball-Modell mit verrundeten Kanten*
 
 
  {{Userdocnavi

@@ -30,6 +30,8 @@ A Part Torus can be turned into a segment of a torus by changing its **Angle3** 
 <img alt="" src=images/Part_Torus_Example.png  style="width:400px;">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Cum se folosește 
@@ -54,6 +56,8 @@ A Part Torus object created with the [scripting example](#Scripting.md) below is
 ## Notes
 
 -   A Part Torus can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+
+
 
 
 <div class="mw-translate-fuzzy">

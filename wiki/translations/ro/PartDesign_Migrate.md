@@ -12,12 +12,16 @@
 
 </div>
 
+
+
 ## Descriere
 
 Atelierul PartDesign în FreeCAD v0.17 introduce noi instrumente și elemente care și elemente care nu sunt recunoscute de versiunile mai vechi ale FreeCAD (0.16 and older). Documentele FreeCAD create în versiuni mai vechi pot fi deschise și editate. Pentru a beneficia de noile caracteristici, acestea trebuie migrate prin intermediul meniului PartDesign → Migrate.
 
 
 <small>(v0.17)</small> 
+
+
 
 ## Cum se folosește 
 
@@ -31,6 +35,8 @@ Atelierul PartDesign în FreeCAD v0.17 introduce noi instrumente și elemente ca
 
 
 </div>
+
+
 
 ## Limite
 

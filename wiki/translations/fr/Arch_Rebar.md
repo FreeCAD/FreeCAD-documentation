@@ -1,20 +1,18 @@
 ---
  GuiCommand:
    Name: Arch_Rebar
-   Name/fr: Arch Armature personnalisée
-   MenuLocation: Arch , Outils pour armatures , Armature personnalisée<br>3D/BIM , Reinforcement tools , Armature personnalisée
-   Workbenches: Arch_Workbench/fr, BIM_Workbench/fr
+   Name/fr: Arch Armature
+   MenuLocation: 3D/BIM , Outils d'armatures , Armature personnalisée
+   Workbenches: BIM_Workbench/fr, Reinforcement_Workbench/fr
    Shortcut: **R** **B**
-   SeeAlso: Arch_Structure/fr, Reinforcement_Workbench/fr
+   SeeAlso: 
 ---
 
 # Arch Rebar/fr
 
 ## Description
 
-L\'outil [Armature](Arch_Rebar/fr.md) vous permet de placer des [barres d\'armature](http://fr.wikipedia.org/wiki/Armature_%28technique%29) dans les objets [Structure](Arch_Structure/fr.md).
-
-L\'outil [Armature](Arch_Rebar/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
+L\'outil **Arch Armature** vous permet de placer des [barres d\'armature](http://fr.wikipedia.org/wiki/Armature_%28technique%29) dans les objets [Structure](Arch_Structure/fr.md).
 
 Les objets Armatures sont basés sur des profils 2D comme les [esquisses](Sketcher_Workbench/fr.md) ou [les objets dessin](Draft_Workbench/fr.md), qui doivent être dessinés sur une face d\'un objet Structure. Vous pouvez ensuite ajuster la configuration de l\'armature comme le nombre et le diamètre des barres ou la distance de décalage entre les deux extrémités de l\'élément structurel.
 
@@ -23,22 +21,9 @@ Les objets Armatures sont basés sur des profils 2D comme les [esquisses](Sketch
 
 
 
-## Extension disponible 
-
-L\'outil Armature a été amélioré par l\'[Atelier Reinforcement](Reinforcement_Workbench/fr.md) et peut être installé avec le [Gestionnaire des extensions](Std_AddonMgr/fr.md). Les types de barres supplémentaires disponibles avec l\'extension sont :
-
--   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Armature droite](Arch_Rebar_Straight/fr.md)
--   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [Armature en U](Arch_Rebar_UShape/fr.md)
--   <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [Armature en L](Arch_Rebar_LShape/fr.md)
--   <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Armature cintrée](Arch_Rebar_BentShape/fr.md)
--   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Armature en étrier](Arch_Rebar_Stirrup/fr.md)
--   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Armature hélicoïdale](Arch_Rebar_Helical/fr.md)
-
-
-
 ## Utilisation
 
-1.  Basculez vers l\'<img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [atelier Arch](Arch_Workbench/fr.md)
+1.  Basculez vers l\'<img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [atelier BIM](BIM_Workbench/fr.md).
 2.  Créez un objet **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)
 **
 3.  Basculez vers l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [atelier Sketcher](Sketcher_Workbench/fr.md)
@@ -46,21 +31,21 @@ L\'outil Armature a été amélioré par l\'[Atelier Reinforcement](Reinforcemen
 5.  Appuyez sur le bouton **<img src="images/Sketcher_NewSketch.svg" width=16px> [Sketcher Créer une nouvelle esquisse](Sketcher_NewSketch/fr.md)** pour démarrer l\'édition d\'une nouvelle esquisse sur la face choisie
 6.  Dessinez la forme de l\'Armature
 7.  Cliquez sur le bouton **<img src="images/Sketcher_LeaveSketch.svg" width=16px> [Sketcher Sortir de l'edition de l'esquisse](Sketcher_LeaveSketch/fr.md)** pour finir
-8.  Basculez de nouveau vers l\'<img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [atelier Arch](Arch_Workbench/fr.md)
+8.  Basculez de nouveau vers l\'<img alt="" src=images/Workbench_BIM.svg  style="width:16px;"> [atelier BIM](BIM_Workbench/fr.md).
 9.  Sélectionnez l\'esquisse que vous venez de dessiner
-10. Appuyez sur le bouton **<img src="images/Arch_Rebar.svg" width=16px> [Arch Armature](Arch_Rebar/fr.md)
+10. Appuyez sur le bouton **<img src="images/Arch_Rebar.svg" width=16px> [Arch Armature personnalisée](Arch_Rebar/fr.md)
 **, ou pressez les touches **R** puis **B**
 11. Ajustez les propriétés désirées (votre armature peut ne pas apparaître immédiatement, si certaines propriétés créent des situations impossibles comme un diamètre égal à 0 mm ou un décalage plus grand que la longueur de l\'objet Structure).
 
-Bien que normalement une barre d'accès soit utilisée dans une structure en arc, depuis FreeCAD 0.19, elle peut être créée en dehors de tout objet hôte. Pour héberger une barre dans un objet, il vous suffit de définir **Host**.
+Bien que normalement une armature soit utilisée dans une structure de Arch, depuis FreeCAD 0.19, elle peut être créée en dehors de tout objet hôte. Pour héberger une barre dans un objet, il vous suffit de définir **Host**.
 
 ## Options
 
 -   Armature partage les propriétés communes et les comportements de tous les [Arch Composants](Arch_Component/fr.md).
 -   La valeur d\'arrondi est exprimée en multiples du diamètre. Si la barre a un diamètre de 5 mm, la valeur d\'arrondi de 3 va créer des angles arrondis d\'un rayon de 15 mm.
--   La valeur par défaut des nouvelles Armatures peut être définie dans les préférences de l\'atelier Arch.
--   Si un vecteur de direction n\'est pas spécifié, la direction et la distance le long de laquelle les barres seront répandues sont définies automatiquement sur l\'objet hôte structurel, en prenant la direction normale de l\'esquisse de base et en son intersection avec l\'objet structurel. Si vous spécifiez un vecteur de direction, la longueur de ce vecteur va également être prise en compte.
--   La valeur d\'espacement est calculée d\'après le nombre actuel des barres et représente la distance entre les axes de chaque barre. Vous devez donc soustraire le diamètre de la barre pour obtenir la taille de l\'espace libre entre les barres.
+-   La valeur par défaut des nouvelles armatures peut être définie dans les préférences de l\'atelier Arch.
+-   Si un vecteur de direction n\'est pas spécifié, la direction et la distance le long de laquelle les armatures seront répandues sont définies automatiquement sur l\'objet hôte structurel, en prenant la direction normale de l\'esquisse de base et en son intersection avec l\'objet structurel. Si vous spécifiez un vecteur de direction, la longueur de ce vecteur va également être prise en compte.
+-   La valeur d\'espacement est calculée d\'après le nombre actuel des armatures et représente la distance entre les axes de chaque barre. Vous devez donc soustraire le diamètre de l\'armature pour obtenir la taille de l\'espace libre entre les armatures.
 
 
 
@@ -89,7 +74,9 @@ Bien que normalement une barre d'accès soit utilisée dans une structure en arc
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Armature peut être utilisé dans les [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant les fonctions suivantes : 
+L\'outil Armature peut être utilisé dans les [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant les fonctions suivantes :
+
+
 ```python
 Rebar = makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=None, name="Rebar")
 ```
@@ -128,5 +115,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+
+
+{{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar/fr
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Arch Rebar/fr

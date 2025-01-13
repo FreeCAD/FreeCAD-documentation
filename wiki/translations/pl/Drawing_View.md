@@ -53,10 +53,6 @@ Rozwiń obiekt Strona w drzewie projektu i wybierz widok. Jego parametry można 
 
 -    {{PropertyData/pl|Pokaż linie gładkie}}: włącza lub wyłącza widoczność linii gładkich wybierając `True` lub {{False}}. Gładkie linie są również nazywane krawędziami styczności. Krawędzie te wskazują zmiany powierzchni pomiędzy powierzchniami stycznymi.
 
-### Kreator widoków rysunków 
-
-Aby automatycznie wygenerować arkusz rysunkowy z widokami standardowymi, użyj [Makrodefinicja: Automatyczne rysowanie](Macro_Automatic_drawing/pl.md). 
-
 ### Inne
 
 Jeśli szukasz przełączania persektywnego i ortogonalnego w widoku 3D, sprawdź strony [Std: Widok perspektywy](Std_PerspectiveCamera/pl.md) i [Std: Widok ortogonalny](Std_OrthographicCamera/pl.md)

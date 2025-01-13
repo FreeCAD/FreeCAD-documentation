@@ -10,11 +10,15 @@
 
 # PartDesign SubtractiveBox/de
 
+
+
 ## Beschreibung
 
 Fügt einen Quader-Grundkörper in den aktiven Körper (Body-Objekt) ein. Seine Form wird von dem vorhandenen Volumenkörper abgezogen.
 
 ![](images/PartDesign_SubtractiveBox_example.png ) *Auf der linken Seite ist der aktive Körper (A) in grau und der abzuziehender Quader (B) in durchscheinenden rot gezeigt. Auf der rechten Seite ist das Resultat zu sehen.*
+
+
 
 ## Anwendung
 
@@ -27,12 +31,16 @@ Fügt einen Quader-Grundkörper in den aktiven Körper (Body-Objekt) ein. Seine 
 
 4.  Ein Box-Objekt (Formelement) erscheint unter dem aktiven Körper (in der Baumansicht).
 
+
+
 ## Optionen
 
 Der Quader kann nach der Erstellung auf zwei Arten bearbeitet werden:
 
 -   Durch Doppelklick in der Baumstruktur oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** im Kontextmenü. Dies öffnet den Dialog „Parameter des Grundkörpers" im Aufgabenbereich.
 -   Mit Hilfe des [Eigenschafteneditors](Property_editor/de.md).
+
+
 
 ## Eigenschaften
 

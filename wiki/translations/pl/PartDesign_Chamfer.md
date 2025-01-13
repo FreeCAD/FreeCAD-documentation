@@ -27,7 +27,7 @@ Narzędzie <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;"> *
 2.  Istnieje kilka sposobów wyboru krawędzi do fazowania:
     -   Wybierz jedną lub więcej krawędzi bryły indywidualnie.
     -   Wybierz jedną lub więcej ścian bryły, aby wybrać wszystkie ich krawędzie.
-    -   Wybierz element *(zwykle ostatni)* bryły, aby wybrać wszystkie jej krawędzie. {{Version/pl|0.20}}
+    -   Wybierz element *(zwykle ostatni)* bryły, aby wybrać wszystkie jej krawędzie.
 3.  W przypadku łańcucha stycznie połączonych krawędzi należy wybrać tylko jedną krawędź, a fazowanie będzie propagowane wzdłuż łańcucha.
 4.  Istnieje kilka sposobów wywołania narzędzia:
     -   Naciśnij przycisk **<img src="images/PartDesign_Chamfer.svg" width=16px> Sfazowanie**.
@@ -54,7 +54,7 @@ Narzędzie <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;"> *
     -   Naciśnij przycisk **Dodaj**, aby rozpocząć zaznaczanie krawędzi i / lub ścian w oknie [Widoku 3D](3D_view/pl.md).
     -   Aby zaznaczyć wszystkie pozostałe krawędzie, wykonaj następujące czynności:
         1.  W razie potrzeby naciśnij przycisk **Dodaj**.
-        2.  Użyj skrótu klawiaturowego **Ctrl** + **Shift** + **A** lub kliknij listę prawym przyciskiem myszy i wybierz **Dodaj wszystkie krawędzie** z menu podręcznego. {{Version/pl|0.20}}
+        2.  Użyj skrótu klawiaturowego **Ctrl** + **Shift** + **A** lub kliknij listę prawym przyciskiem myszy i wybierz **Dodaj wszystkie krawędzie** z menu podręcznego.
 -   Aby usunąć krawędzie, wykonaj jedną z następujących czynności:
     -   Naciśnij przycisk **Usuń**, aby rozpocząć odznaczanie krawędzi i / lub ścian w oknie [Widoku 3D](3D_view/pl.md). Wybrane elementy są podświetlone na fioletowo.
     -   Zaznacz jeden lub więcej elementów na liście i naciśnij klawisz **Del** lub kliknij listę prawym przyciskiem myszki i wybierz **Usuń** z menu podręcznego.
@@ -78,7 +78,7 @@ Narzędzie <img alt="" src=images/PartDesign_Chamfer.svg  style="width:24px;"> *
 -   Ustaw **Rozmiar 2** fazowania *(dostępne tylko po wybraniu opcji **Dwa wymiary**)*.
 -   Ustaw **Kąt** fazowania *(dostępne tylko po wybraniu opcji **Wymiar i kąt**)*.
 -   Wyznacz **Promień** zaokrąglenia.
--   Zaznacz pole wyboru **Użyj wszystkich krawędzi**, aby wybrać wszystkie krawędzie poprzedniego elementu. Spowoduje to dezaktywację listy wyboru i powiązanych przycisków. {{Version/pl|0.20}}
+-   Zaznacz pole wyboru **Użyj wszystkich krawędzi**, aby wybrać wszystkie krawędzie poprzedniego elementu. Spowoduje to dezaktywację listy wyboru i powiązanych przycisków.
 
 
 

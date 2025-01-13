@@ -11,7 +11,11 @@ Le GIF suivant montre comment attacher notre boîte personnalisée à un cylindr
 
  **REMARQUE:** La boîte est notre objet personnalisé crée par script et le cylindre est un objet FreeCAD standard généré à partir de l\'atelier Part.
 
+
+
 ## Rendre les objets créés par script attachables 
+
+
 
 ### Ajouter une extension attachée 
 
@@ -29,12 +33,14 @@ class Box():
         ... custom properties
 
         # Needed to make this object "attachable"
-        obj.addExtension('Part::AttachExtensionPython', obj)
+        obj.addExtension('Part::AttachExtensionPython')
 
 
-Sans ce code, nous verrions la boîte de dialogue d\'avertissement suivante lors de la connexion de notre objet personnalisé créé par script à un autre objet.
+Sans ce code, nous verrions la fenêtre de dialogue d\'avertissement suivante lors de la connexion de notre objet personnalisé créé par script à un autre objet.
 
 ![](images/Part-attachment-warning-dialog.png )
+
+
 
 ### Mis à jour de la position en fonction de l\'objet attaché 
 
@@ -51,6 +57,8 @@ class Box:...
 
 
 Si positionBySupport n\'est pas appelé, notre objet personnalisé crée par script ne mettra pas à jour sa position lorsque la position de l\'objet attaché change.
+
+
 
 ## Exemple minimal complet 
 
@@ -86,7 +94,7 @@ class Box():
 
         # Needed to make this object "attachable",
         # or able to attach parameterically to other objects
-        obj.addExtension('Part::AttachExtensionPython', obj)
+        obj.addExtension('Part::AttachExtensionPython')
 
     def execute(self, obj):
         """
@@ -118,12 +126,16 @@ box = create_box('CustomBox', document)
 document.recompute()
 
 
+
+
 ## Références
 
 -   [Part Ancrage](Part_EditAttachment/fr.md)
 -   [FreeCAD Forum - Parametric attachment of scripted object](https://forum.freecadweb.org/viewtopic.php?f=22&t=24794)
 -   [FreeCAD Forum - Port attachment to be an extension](https://forum.freecadweb.org/viewtopic.php?f=10&t=18978&start=10)
 -   [GitHub - freecad-part-attachment-python-example](https://github.com/gbroques/freecad-part-attachment-python-example)
+
+
 
 ## Testé avec la version FreeCAD 
 

@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Std ProjectInfo
    Name/de: Std Projektinformationen
-   MenuLocation: Datei , Projektinformationen...
+   MenuLocation: Datei , Dokumentinformationen...
    Workbenches: Alle
    Shortcut: -
    SeeAlso: Std_New/de
@@ -10,40 +10,52 @@
 
 # Std ProjectInfo/de
 
+
+
 ## Beschreibung
 
-Der Befehl **Std Projektinformationen** öffnet ein Dialogfeld mit Projektinformationen zum aktiven Dokument. Einige der Informationen können bearbeitet werden.
+Der Befehl **Std Projektinformationen** öffnet ein Dialogfeld mit Einzelheiten zum aktiven Dokument. Einige der Informationen können bearbeitet werden.
+
+
 
 ## Anwendung
 
-1.  Wähle **Datei → <img src="images/Std_ProjectInfo.svg" width=16px> Projektinformationen...** aus dem Menü.
-2.  Ein Dialogfenster mit den folgenden Informationen wird angezeigt:
-    -   **Name**: der Name des Dokumentes. **keine Bearbeitung möglich** Entspricht der Eigenschaft Beschriftung des Dokumentes, die im [Eigenschaftseditor](Property_editor/de.md) geändert werden kann.
-    -   **Pfad**: die vollständige Pfadangabe der Datei. Dies ist leer, wenn die Datei nicht gespeichert wurde. **keine Bearbeitung möglich**
-    -   **UUID**: FreeCAD berechnet eine Prüfsumme, die hier eingetragen wurde.**keine Bearbeitung möglich**
-    -   **Erstellt von**: den Namen des Erstellers eintragen. **Bearbeitung möglich**
-    -   **Erstellungsdatum**: das korrekte Datum wird von FreeCAD automatisch eingetragen. **keine Bearbeitung möglich**
-    -   **Zuletzt geändert von**: den Namen des Erstellers eintragen. **Bearbeitung möglich**
-    -   **Zuletzt geändert am**: das korrekte Datum wird von FreeCAD automatisch eingetragen. **keine Bearbeitung möglich**
-    -   **Firma**: den Namen des Firma eintragen. **Bearbeitung möglich**
-    -   **Lizenzinformationen**: die Lizenz aus dem Aufklappmenü wählen. **Bearbeitung möglich**
-    -   **Lizenz-URL**: die URL wird mit der ausgewählten Lizenz mit ausgewählt, kann aber überschrieben werden. **Bearbeitung möglich**
-    -   **Kommentar**: einen erklärenden Kommentar eingetragen. **Bearbeitung möglich**
-3.  Die erforderlichen Informationen eintragen und die Schaltfläche **OK** anklicken.
+1.  Den Menüeintrag **Datei → <img src="images/Std_ProjectInfo.svg" width=16px> Dokumentinformationen...** auswählen.
+2.  EinDialogfenster mit den folgenden Informationen wird geöffnet:
+    -   **Name**: Der Name des Dokuments. Entspricht der Eigenschaft Label des Dokuments. *Nicht überschreibbar.*
+    -   **Pfad**: Der vollständige Dateipfad. Leer, wenn die Datei noch nicht gespeichert wurde. *Nicht überschreibbar.*
+    -   **UUID**: FreeCADs automatisch erstellter Checksummenwert. *Nicht überschreibbar.*
+    -   **Programmversion**: Die FreeCAD-Version, die beim Speichern der Datei verwendet wurde. Leer, wenn die Datei noch nicht gespeichert wurde. *Nicht überschreibbar.*
+    -   **Einheitensystem**: Das Einheitensystem des Dokuments. *Ausgangswert hängt von der Einstellung [Standard-Einheitensystem](Preferences_Editor#Allgemein_2.md) ab.* <small>(v1.0)</small> 
+    -   **Erstellt von**: Zur Eingabe des Namens des Bearbeiters. *Kann voreingestellt werden.*
+    -   **Erstelldatum**: FreeCAD trägt automatisch das korrekte Datum ein. *Nicht überschreibbar.*
+    -   **Zuletzt geändert von**: Zur Eingabe des Namens des Bearbeiters. *Kann voreingestellt werden.*
+    -   **Zuletzt geändert am**: FreeCAD trägt automatisch das korrekte Datum ein. *Nicht überschreibbar.*
+    -   **Firma**: Zur Eingabe eines Firmennamens. *Kann voreingestellt werden.*
+    -   **Lizenzinformationen**: Zum Auswählen einer Lizenz in dem Ausklappmenü. *Kann voreingestellt werden.*
+    -   **Lizenz-URL**: URL ändert sich automatisch entsprechend der ausgewählten Lizenz, kann aber überschrieben werden. *Kann voreingestellt werden.*
+    -   **Kommentar**: Zur Eingabe eines geeigneten Kommentars.
+3.  Die erforderlichen Informationen eintragen und die Schaltfläche **OK** drücken.
+
+
 
 ## Optionen
 
 -   Drücke die **esc**-Taste oder klicke auf die Schaltfläche **Abbrechen** um abzubrechen.
 
+
+
 ## Einstellungen
 
--   Die Angaben für den Namen des Autors, den Firmennamen und Lizenzinformationen können bereits im [Voreinstellungseditor](Preferences_Editor/de#Dokument.md) eingetragen sein.
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
+
+-   Einige der Dokumenteigenschaften wie Name, Firma und Lizenzinformationen, können voreingestellt werden: **Bearbeiten → Einstellungen... → Allgemein → Dokument → Autorenschaft und Lizenz**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

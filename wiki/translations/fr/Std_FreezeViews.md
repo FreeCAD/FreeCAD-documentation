@@ -4,7 +4,6 @@
    Name/fr: Std Figer l'affichage
    MenuLocation: Affichage , Figer l'affichage , ...
    Workbenches: Tous
-   SeeAlso: Std_ViewIvIssueCamPos/fr
    SeeAlso: Std_StoreWorkingView/fr, Std_RecallWorkingView/fr, Std_ViewIvIssueCamPos/fr
 ---
 
@@ -22,20 +21,20 @@ FreeCAD peut mémoriser les paramètres de la caméra jusqu\'à 50 \"vues figée
 
 ### Description
 
-L\'option de menu **Enregistrer les vues\...** enregistre toutes les vues figées existantes dans un fichier avec l\'extension \*.cam.
+L\'option de menu **Enregistrer les vues\...** enregistre toutes les vues figées existantes dans un fichier avec l\'extension ***.cam**.
 
 
 
 ### Utilisation
 
 1.  Pour utiliser cette option, une ou plusieurs vues figées doivent exister. Une vue figée est créée avec l\'option de menu **[Figer l\'affichage](#Figer_l.27affichage.md)**.
-2.  Sélectionnez l\'option **Affichage → Figer l'affichage → Enregistrer les vues...** dans le menu.
-3.  Entrez un nom de fichier dans la boîte de dialogue.
+2.  Sélectionnez l\'option **Affichage → Figer l'affichage → Enregistrer les vues...** du menu.
+3.  Entrez un nom de fichier dans la fenêtre de dialogue.
 4.  Appuyez sur le bouton **Enregistrer**.
 
 ### Options
 
--   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
+-   Appuyez sur **Échap** ou sur le bouton **Annuler** pour annuler la commande.
 
 
 
@@ -43,21 +42,21 @@ L\'option de menu **Enregistrer les vues\...** enregistre toutes les vues figée
 
 ### Description 
 
-L\'option du menu **Charger les vues\...** charge les vues figées à partir d\'un fichier avec l\'extension \*.cam. Toutes les vues figées existantes seront supprimées.
+L\'option du menu **Charger les vues\...** charge les vues figées à partir d\'un fichier avec l\'extension ***.cam**. Toutes les vues figées existantes seront supprimées.
 
 
 
 ### Utilisation 
 
-1.  Sélectionnez l\'option **Affichage → Figer l'affichage → Charger les vues...** dans le menu.
-2.  Appuyez sur le bouton **Oui** dans la boîte de dialogue Restaurer les vues pour confirmer que vous souhaitez perdre toutes les vues figées existantes.
+1.  Sélectionnez l\'option **Affichage → Figer l'affichage → Charger les vues...** du menu.
+2.  Appuyez sur le bouton **Oui** dans la fenêtre de dialogue Restaurer les vues pour confirmer que vous souhaitez perdre toutes les vues figées existantes.
 3.  Sélectionner un fichier.
 4.  Appuyez sur le bouton **Ouvrir**.
 
 ### Options 
 
--   Si la boîte de dialogue Restaurer les vues s\'affiche, appuyez sur **Echap** ou sur le bouton **Non** pour annuler la commande.
--   Si la boîte de dialogue du fichier s\'affiche, appuyez sur **Echap** ou sur le bouton **Annuler** pour abandonner la commande.
+-   Si la fenêtre de dialogue Restaurer les vues s\'affiche, appuyez sur **Échap** ou sur le bouton **Non** pour annuler la commande.
+-   Si la fenêtre de dialogue du fichier s\'affiche, appuyez sur **Échap** ou sur le bouton **Annuler** pour abandonner la commande.
 
 
 
@@ -72,7 +71,7 @@ L\'option de menu **Figer l\'affichage** enregistre les paramètres en cours de 
 ### Utilisation 
 
 1.  Il existe plusieurs façons de lancer cette option :
-    -   Sélectionnez l\'option **Affichage → Figer l'affichage → Charger les vues...** dans le menu.
+    -   Sélectionnez l\'option **Affichage → Figer l'affichage → Charger les vues...** du menu.
     -   Utilisez le raccourci clavier : **Maj**+**F**.
 2.  La nouvelle vue figée peut être sélectionnée dans le sous-menu **Affichage → Figer l'affichage**.
 
@@ -88,7 +87,7 @@ L\'option de menu **Effacer les vues** supprime toutes les vues figées existant
 
 ### Utilisation 
 
-1.  Sélectionnez l\'option **Affichage → Figer l'affichage → Effacer les vues** dans le menu.
+1.  Sélectionnez l\'option **Affichage → Figer l'affichage → Effacer les vues** du menu.
 
 
 
@@ -103,14 +102,14 @@ Pour chaque vue figée, une option **Vue de restauration** est ajoutée avec laq
 ### Utilisation 
 
 1.  Il existe plusieurs façons de lancer cette option :
-    -   Sélectionnez l\'option **Affichage → Figer l'affichage → Restaurer la vue** dans le menu.
+    -   Sélectionnez l\'option **Affichage → Figer l'affichage → Restaurer la vue** du menu.
     -   Pour les 9 premières vues figées: utilisez le raccourci clavier : **Ctrl**+**1** - **Ctrl**+**9**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

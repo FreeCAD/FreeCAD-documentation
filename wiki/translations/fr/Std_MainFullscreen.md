@@ -14,6 +14,8 @@
 
 La commande **Std Plein écran principal** bascule le mode plein écran de la fenêtre principale de FreeCAD.
 
+
+
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
@@ -24,7 +26,7 @@ La commande **Std Plein écran principal** bascule le mode plein écran de la fe
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

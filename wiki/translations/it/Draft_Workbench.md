@@ -58,7 +58,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [Forma da testo](Draft_ShapeString/it.md): crea una forma composta che rappresenta una stringa di testo.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Tratteggio](Draft_Hatch/it.md): crea tratteggi sulle facce piane di un oggetto selezionato. {{Version/it|0.20}}
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Tratteggio](Draft_Hatch/it.md): crea tratteggi sulle facce piane di un oggetto selezionato.
 
 
 
@@ -134,7 +134,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 ## Vassoio di Draft 
 
-Il [Vassoio di Draft](Draft_Tray/it.md) consente di selezionare il piano di lavoro, definire le impostazioni di stile, attivare/disattivare la modalità di costruzione e specificare il livello o il gruppo attivo.
+Il [Vassoio di Draft](Draft_Tray/it.md) consente di selezionare il piano di lavoro, definire le impostazioni di stile, attivare/disattivare la modalità di costruzione e specificare il layer o il gruppo attivo.
 
 ![](images/Draft_tray_default.png )
 
@@ -144,7 +144,7 @@ Il [Vassoio di Draft](Draft_Tray/it.md) consente di selezionare il piano di lavo
 
 -   ![](images/Draft_tray_button_construction.png ) [Attiva/Disattiva la modalità costruzione](Draft_ToggleConstructionMode/it.md): attiva o disattiva la modalità di costruzione Draft. Disponibile anche nel menu: **Draft → Utilità → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Attiva/Disattiva la modalità costruzione**.
 
--   ![](images/Draft_tray_button_layer.png ) [Disattiva auto gruppo](Draft_AutoGroup/it.md): cambia l\'oggetto attivo [Strato Draft](Draft_Layer/it.md) o, facoltativamente, l\'oggetto attivo [Gruppo](Std_Group/it.md) o l\'oggetto gruppo di [Arch](Arch_Workbench/it.md).
+-   ![](images/Draft_tray_button_layer.png ) [Disattiva auto gruppo](Draft_AutoGroup/it.md): cambia l\'oggetto attivo [Strato Draft](Draft_Layer/it.md) o, facoltativamente, l\'oggetto attivo [Gruppo](Std_Group/it.md) o l\'oggetto gruppo di [BIM](BIM_Workbench/it.md).
 
 
 
@@ -204,13 +204,13 @@ La barra degli strumenti di Aggancio (snap) di Draft consente di selezionare le 
 
 ## Strumenti di utilità di Draft 
 
--   <img alt="" src=images/Draft_LayerManager.svg  style="width:32px;"> [Gestione livelli](Draft_LayerManager/it.md): permette di gestire i livelli in un documento. {{Version/it|0.21}}
+-   <img alt="" src=images/Draft_LayerManager.svg  style="width:32px;"> [Gestione layer](Draft_LayerManager/it.md): permette di gestire i layer in un documento. {{Version/it|0.21}}
 
--   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [Aggiunge un nuovo gruppo con nome](Draft_AddNamedGroup/it.md): crea un [gruppo](Std_Group.md) con nome e sposta gli oggetti selezionati in quel gruppo. {{Version/it|0.20}}
+-   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [Aggiunge un nuovo gruppo con nome](Draft_AddNamedGroup/it.md): crea un [gruppo](Std_Group.md) con nome e sposta gli oggetti selezionati in quel gruppo.
 
 -   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> [Sposta nel gruppo](Draft_AddToGroup/it.md): sposta gli oggetti in un [gruppo](Std_Group/it.md). Può anche separare gli oggetti.
 
--   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Seleziona gruppo](Draft_SelectGroup/it.md): seleziona il contenuto dei [gruppi](Std_Group/it.md) o degli oggetti simili a gruppi [Arch](Arch_Workbench/it.md).
+-   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Seleziona gruppo](Draft_SelectGroup/it.md): seleziona il contenuto dei [gruppi](Std_Group/it.md) o degli oggetti simili a gruppi [BIM](BIM_Workbench/it.md).
 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Aggiungi al gruppo costruzione](Draft_AddConstruction/it.md): sposta gli oggetti nel [Gruppo di costruzione Draft](Draft_ToggleConstructionMode/it.md).
 
@@ -226,7 +226,7 @@ Il menu **Draft → Utilità** contiene diversi strumenti. Alla maggior parte di
 
 -   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Applica lo stile corrente](Draft_ApplyStyle/it.md): applica le impostazioni di stile correnti agli oggetti selezionati.
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Livello](Draft_Layer/it.md): crea un [livello](Draft_Layer/it.md). Disponibile nella [Strumenti di utilità di Draft](Draft_Workbench/it#Strumenti_di_utilità_di_Draft.md) in {{VersionMinus/it|0.20}}.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Layer](Draft_Layer/it.md): crea un [layer](Draft_Layer/it.md).
 
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Ripara](Draft_Heal/it.md): ripara gli oggetti Draft problematici trovati in file molto vecchi.
 
@@ -262,23 +262,23 @@ Se c\'è un documento attivo il menu contestuale contiene un ulteriore sottomenu
 
 
 
-### Opzioni del contenitore di livelli 
+### Opzioni del contenitore di layer 
 
-Per un [Contenitore di livelli](Draft_Layer/it.md) sono disponibili queste opzioni aggiuntive:
+Per un [Contenitore di layer](Draft_Layer/it.md) sono disponibili queste opzioni aggiuntive:
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Unisci i livelli duplicati](Draft_Layer/it#Opzioni_del_contenitore_di_Livelli.md): unisce tutti i livelli con la stessa etichetta di base.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Unisci i layer duplicati](Draft_Layer/it#Opzioni_del_contenitore_di_Layer.md): unisce tutti i layer con la stessa etichetta di base.
 
--   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Aggiungi un nuovo livello](Draft_Layer/it#Contenitore_di_liveeli_di_Draft.md): aggiunge un nuovo livello al documento corrente.
+-   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Aggiungi un nuovo layer](Draft_Layer/it#Contenitore_di_layer_di_Draft.md): aggiunge un nuovo layer al documento corrente.
 
 
 
-### Opzioni dei livelli 
+### Opzioni dei layer 
 
-Per un [Livello di Draft](Draft_Layer/it.md) sono disponibili queste opzioni aggiuntive.
+Per un [Layer di Draft](Draft_Layer/it.md) sono disponibili queste opzioni aggiuntive.
 
--   <img alt="" src=images/button_right.svg  style="width:32px;"> [Attiva questo livello](Draft_AutoGroup/it.md): attiva il livello selezionato.
+-   <img alt="" src=images/button_right.svg  style="width:32px;"> [Attiva questo layer](Draft_AutoGroup/it.md): attiva il layer selezionato.
 
--   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Seleziona il contenuto del livello](Draft_SelectGroup/it.md): seleziona gli oggetti all\'interno del livello selezionato.
+-   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Seleziona il contenuto del layer](Draft_SelectGroup/it.md): seleziona gli oggetti all\'interno del layer selezionato.
 
 
 
@@ -286,7 +286,7 @@ Per un [Livello di Draft](Draft_Layer/it.md) sono disponibili queste opzioni agg
 
 Per un [Draft Testo](Draft_Text/it.md) e un [Draft Etichetta](Draft_Label/it.md) che contengono uno o più collegamenti ipertestuali a un file locale o remoto o a un URL, questa opzione aggiuntiva è disponibile
 
--   Apri collegamenti ipertestuali: i collegamenti ipertestuali vengono aperti nell\'applicazione appropriata (come definito dal sistema operativo). In caso di collegamenti ipertestuali multipli viene visualizzato un avviso. {{Version/it|0.22}}
+-   Apri collegamenti ipertestuali: i collegamenti ipertestuali vengono aperti nell\'applicazione appropriata (come definito dal sistema operativo). In caso di collegamenti ipertestuali multipli viene visualizzato un avviso. {{Version/it|1.0}}
 
 
 
@@ -334,7 +334,7 @@ Vedere [sopra](#Opzioni_testo.md).
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Disegno](Draft_Drawing/it.md): inserisce le viste degli oggetti selezionati in una pagina [disegno tecnico](Drawing_Workbench/it.md). Non disponibile nella {{VersionPlus/it|0.21}}.
 
--   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Attiva/Disattiva la modalità continua](Draft_ToggleContinueMode/it.md): attiva o disattiva la modalità continua. Non disponibile nella {{VersionPlus/it|0.22}}.
+-   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Attiva/Disattiva la modalità continua](Draft_ToggleContinueMode/it.md): attiva o disattiva la modalità continua. Non disponibile nella {{VersionPlus/it|1.0}}.
 
 
 

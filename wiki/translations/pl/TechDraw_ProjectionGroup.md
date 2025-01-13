@@ -4,7 +4,7 @@
    Name/pl: Rysunek Techniczny: Wstaw grupę rzutów
    MenuLocation: Rysunek Techniczny , Widoki , Wstaw grupę rzutów
    Workbenches: TechDraw_Workbench/pl
-   SeeAlso: TechDraw_View/pl, TechDraw_SectionView/pl
+   SeeAlso: TechDraw_View/pl
 ---
 
 # TechDraw ProjectionGroup/pl
@@ -13,9 +13,12 @@
 
 ## Opis
 
-Narzędzie Wstaw grupę rzutów tworzy [rzuty z wielu widoków](https://en.wikipedia.org/wiki/Multiview_projection) jednego lub więcej obiektów 3D. Można również dołączyć izometryczne widoki 4 przednich narożników.
+Narzędzie Wstaw grupę rzutów tworzy [rzuty z wielu widoków](https://en.wikipedia.org/wiki/Multiview_projection) jednego lub więcej obiektów 3D, używając tradycyjnego [rzutowania metodą pierwszego kąta (europejskiego)](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) lub [rzutowania metodą trzeciego kąta (amerykańskiego)](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection). Można również dołączyć izometryczne widoki 4 przednich narożników.
 
-Jeśli chcesz stworzyć tylko jeden widok, nie będzie to korzystne przy użyciu **Grupy rzutów**. Zamiast tego powinieneś użyć narzędzia [Wstaw widok](TechDraw_View/pl.md). Jeśli nie chcesz używać tradycyjnego rzutowania [pierwszy-](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) / [trzeci-kąt Grupy rzutów](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection), powinieneś użyć wielokrotnie narzędzia *([Wstaw widok](TechDraw_View/pl.md))* zamiast **Grupy rzutów**.
+
+{{Version/pl|1.0}}
+
+: Narzędzie [Wstaw widok](TechDraw_View/pl.md) również może utworzyć grupę rzutów. Zalecane jest używanie tamtego narzędzia.
 
 <img alt="" src=images/TechDraw_ProjGroup_example.png  style="width:400px;"> 
 *Trzy widoki ortogonalne i jeden izometryczny widok na obiekt bryły.*
@@ -24,27 +27,15 @@ Jeśli chcesz stworzyć tylko jeden widok, nie będzie to korzystne przy użyciu
 
 ## Użycie
 
-1.  Opcjonalnie obróć [widok 3D](3D_view/pl.md). Kierunek ujęcia widoku w oknie [widok 3D](3D_view/pl.md) określa początkowa wartość **Kierunek pierwszy** grupy projekcji *(właściwość **Kierunek** widoku głównego)*.
-2.  Wybierz jeden lub więcej obiektów w oknie [Widoku 3D](3D_view/pl.md) lub [Widoku drzewa](Tree_view/pl.md).
-3.  Jeśli w dokumencie znajduje się wiele stron rysunku: opcjonalnie dodaj żądaną stronę do zaznaczenia, wybierając ją w [Widoku drzewa](Tree_view/pl.md).
-4.  Istnieje kilka sposobów wywołania narzędzia:
-    -   Naciśnij w menu przycisk **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> '''Wstaw grupę rzutów'''**.
-    -   Wybierz opcję **Rysunek Techniczny → Widoki → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Wstaw grupę rzutów**.
-5.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze wybrana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
-    1.  Wybierz żądaną stronę.
-    2.  Naciśnij przycisk **OK**.
-6.  Otworzy się panel zadań **Grupa rzutów**.
-7.  Wybierz widoki, które mają być wyświetlane w grupie projekcji, a także skalę i inne parametry grupy rzutów.
-8.  Naciśnij przycisk **OK**.
-9.  Opcjonalnie przesuń grupę rzutów, przeciągając jej środkowy widok.
-10. Opcjonalnie przesuń inne widoki grupy projekcji względem widoku głównego, przeciągając je pojedynczo.
-
-![](images/TaskProjGroup.png ) 
-*[Panel zadań](Task_panel/pl.md) Grupa projekcji. Pole Rzutowanie wskazuje aktualny kierunek widoku.*
+Zobacz stronę [Wstaw widok](TechDraw_View/pl#Usage_Projection_Group_Item_and_Projection_Group.md), ale do wywołania narzędzia wybierz opcję **Rysunek Techniczny → Widoki → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Wstaw grupę rzutów** z menu.
 
 
 
 ## Właściwości
+
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Grupa rzutów, formalnie obiekt {{Incode|TechDraw::DrawProjGroup}} ma [właściwości](TechDraw_View/pl#Właściwości_-_Widok_części.md) wspólne dla wszystkich typów Widoków. Ma też następujące dodatkowe właściwości:
 
 
 
@@ -61,8 +52,6 @@ Jeśli chcesz stworzyć tylko jeden widok, nie będzie to korzystne przy użyciu
 
 -    **Typ rzutowania|Enumeration**: {{Value|Kąt pierwszy}} lub {{Value|Kąt trzeci}}.
 
-Pozostałe właściwości z tej grupy zostały opisane na stronie [Wstaw widok](TechDraw_View/pl#Właściwości.md).
-
 
 {{TitleProperty|Kolekcja}}
 
@@ -76,15 +65,6 @@ Pozostałe właściwości z tej grupy zostały opisane na stronie [Wstaw widok](
 -    **odstęp X|Length**: Poziomy odstęp między widokami przy automatycznym pozycjonowaniu. Należy pamiętać, że Skala i rozmiar innych widoków w grupie również wpływają na odstępy.
 
 -    **odstęp Y|Length**: Pionowy odstęp między widokami przy automatycznym pozycjonowaniu.
-
-
-
-### Widok
-
-
-{{TitleProperty|Podstawa}}
-
-Zapoznaj się również informacjami na stronie [Wstaw widok](TechDraw_View/pl#Ustawienia.md) środowiska Rysunek Techniczny.
 
 
 
@@ -147,7 +127,7 @@ Uwaga: Przed dodaniem rzutów do grupy należy zawsze dodać **Grupę rzutów** 
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

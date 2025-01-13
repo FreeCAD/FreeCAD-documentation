@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Part Offset2D
-   Name/it: Offset 2D
+   Name/it: Part Offset 2D
    MenuLocation: Parte , Offset 2D...
    Workbenches: Part_Workbench/it
    Version: 0.17
@@ -11,42 +11,31 @@
 # Part Offset2D/it
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-Offset 2D di Parte costruisce un contorno, parallelo al contorno originale, ad una data distanza da esso. Oppure ingrandisce o restringe una faccia piana, in modo simile.
+Lo strumento <img alt="" src=images/Part_Offset2D.svg  style="width:24px;"> **Part Offset 2D** costruisce una polilinea, parallela alla polilinea originale, ad una certa distanza da essa. Oppure ingrandisce/rimpicciolisce una faccia planare, in modo simile.
 
-
-</div>
-
-La faccia del contorno deve essere planare. In un oggetto ci possono essere più contorni, non necessariamente complanari.
+La polilinea/faccia deve essere planare. In un oggetto ci possono essere più contorni, non necessariamente complanari.
 
 ![600px](images/Part_Offset2D_Demo.png)
 
-## Usage
 
-
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
-1.  Selezionare un oggetto 2D
-2.  Premere il pulsante **[<img src=images/Part_Offset2D.svg style="width:24px">** **Offset 2D\...** di Parte.
-3.  Impostare l\'offset nel [Pannello delle azioni](Task_Panel/it.md).
+1.  Selezionare un oggetto da sfalsare.
+2.  Premere il pulsante **<img src="images/Part_Offset2D.svg" width=16px> [Offset 2D](Part_Offset2D/it.md)**.
+3.  Impostare l\'offset nel [Pannello Azioni](Task_panel/it.md).
 4.  Premere **OK**.
 
 
-</div>
 
-## Notes
+## Note
 
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as source objects. <small>(v0.20)</small> 
+-   Gli oggetti [App Link](App_Link/it.md) collegati ai tipi di oggetto appropriati e i contenitori [App Part](App_Part/it.md) con gli oggetti visibili appropriati all\'interno possono essere utilizzati anche come oggetti di origine. {{Version/it|0.20}}
+
+
 
 ## Problemi noti 
 
@@ -56,21 +45,9 @@ La faccia del contorno deve essere planare. In un oggetto ci possono essere più
 
 -   Allargando delle facce con fori circolari di una quantità sufficiente a chiudere i fori, si verifica un crash (OCC 7.0.0). Il problema sembra essere specifico per cerchi; le altre forme sembrano chiudersi in modo corretto.
 
+-   Quando si applica l\'offset a cerchi che hanno un posizionamento diverso da zero, il risultato può essere posizionato in modo sbagliato. (OCC 7.0.0)
 
-<div class="mw-translate-fuzzy">
-
--   quando si applica l\'offset a cerchi che hanno un posizionamento diverso da zero, il risultato può essere posizionato in modo sbagliato. (OCC 7.0.0)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   quando si applica l\'offset ai cerchi, a volte essi sono scalati in direzione inattesa (per esempio verso l\'interno anziché verso l\'esterno). (OCC 7.0.0)
-
-
-</div>
+-   Quando si applica l\'offset ai cerchi, a volte essi sono scalati in direzione inattesa (per esempio verso l\'interno anziché verso l\'esterno). (OCC 7.0.0)
 
 -   Fill=\"true\" non funziona quando si trattano collettivamente dei contorni aperti in modalità \"Skin\"
 
@@ -78,17 +55,13 @@ La faccia del contorno deve essere planare. In un oggetto ci possono essere più
 
 -   L\'offeset di contorni composti da un singolo segmento non è supportato (perché un segmento non definisce un piano). I contorni composti da una singola linea non possono neanche essere trattati in un offset collettivo.
 
+
+
 ## Proprietà
 
 -    **Source**: Link alla forma originale
 
-
-<div class="mw-translate-fuzzy">
-
--    **Value**La distanza a cui allargare la faccia del contorno. Se è negativa, la faccia del contorno si restringe.
-
-
-</div>
+-    **Value**ː La distanza a cui allargare la faccia del contorno. Se è negativa, la faccia del contorno si restringe.
 
 -    **Mode**(\"Pipe\" or \"Skin\"): Imposta il modo in cui vengono elaborati i contorni non chiusi. Se \"Pipe\", il contorno è delineato come se fosse un contorno chiuso estremamente sottile. Se \"Skin\", viene creato un contorno aperto.
 
@@ -98,7 +71,7 @@ La faccia del contorno deve essere planare. In un oggetto ci possono essere più
 
 :   ![600px](images/Part_Offset2D_Join.png)
 
--    **Intersection**(\"false\", \"true\"): stabilisce se più contorni vengono trattate collettivamente o in modo indipendente. Se \"false\", i contorni sono trattati in modo indipendente, le intersezioni tra i contorni risultanti vengono ignorate. Se \"true\", i contorni sono trattati in modo collettivo.
+-    **Intersection**(\"false\", \"true\"): stabilisce se più contorni vengono trattati collettivamente o in modo indipendente. Se \"false\", i contorni sono trattati in modo indipendente, le intersezioni tra i contorni risultanti vengono ignorate. Se \"true\", i contorni sono trattati in modo collettivo.
 
 :   ![600px](images/Part_Offset2D_Intersection.png)
 
@@ -124,18 +97,11 @@ La faccia del contorno deve essere planare. In un oggetto ci possono essere più
 
 :   ![600px](images/Part_Offset2D_Fill.png)
 
+
+
 ## Script
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console python utilizzando la seguente funzione:
-
-
-</div>
-
-
-{{code|code=
+Lo strumento può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione: {{code|code=
 f = App.ActiveDocument.addObject("Part::Offset2D", "Offset2D")
 f.Source =  #some object
 f.Value = 10.0

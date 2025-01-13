@@ -42,18 +42,20 @@ Wobei `$INSTALL_DIR` das Verzeichnis ist, wo FreeCAD installiert wurde, z.B.
 2\. In den Dokumenteneigenschaften
 
 -   Das Format (Page Size) \"US Letter\" oder \"A4\" und die Ausrichtung (Orientation) \"Querformat\" (Landscape) auswählen.
--   Die Vorgabe für die Maßeinheit (Unit) auf \"mm\" setzen und die Blattgröße auf die Werte
-
-"279,4" für die Breite (width) und "215,9" für die Höhe (height). Für DIN-A4 würde entsprechend "210" und "297" eingegeben. 
+-   Die Vorgabe für die Maßeinheit (Unit) auf \"mm\" setzen und die Blattgröße auf die Werte \"279,4\" für die Breite (width) und \"215,9\" für die Höhe (height). Für DIN-A4 würde entsprechend \"210\" und \"297\" eingegeben.
 
 <img alt="" src=images/InkDocProp.png  style="width:800px;"> 
 *align=center|Inkscape: Dokument mit Blattgröße und Ausrichtung* 
 
 3\. Mit dem XML-Editor dem `<svg>`-Element eine \"freecad\"-Namensraum-Angabe hinzufügen.
 
--   xmlns:freecad="[http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace](http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace)"
+-    {{VersionMinus/de|0.20}}: xmlns:freecad="[http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace](http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace)"
 
-Dabei ist zu beachten, dass editierbare Texte *nicht* funktionieren, wenn \"<https://>\...\" verwendet wird, auch wenn das Wiki heutzutage über https erreicht wird. Da SVG ein von Menschen lesbares Format ist, könnte die obige Zeile auch mit einem Texteditor in die Datei eingeben werden. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
+:   Dabei ist zu beachten, dass editierbare Texte *nicht* funktionieren, wenn \"<https://>\...\" verwendet wird, auch wenn das Wiki heutzutage über https erreicht wird.
+
+-    {{VersionPlus/de|0.21}}: xmlns:freecad="[https://www.freecad.org/wiki/index.php?title=Svg_Namespace](https://www.freecad.org/wiki/index.php?title=Svg_Namespace)"
+
+Da SVG ein von Menschen lesbares Format ist, könnte die obige Zeile auch mit einem Texteditor in die Datei eingeben werden. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
 *align=center|Inkscape: XML-Editor, der die "freecad"-Namensraum-Angabe zum Element <svg> hinzufügt* 
 
 

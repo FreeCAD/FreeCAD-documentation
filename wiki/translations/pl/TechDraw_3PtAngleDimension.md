@@ -25,10 +25,15 @@ Narzędzie **Wstaw trzy punktowy wymiar kąta** dodaje wymiar kąta do widoku. W
 
 1.  Wybierz punkty lub krawędzie, które definiują pomiar.
 2.  Jeśli zaznaczyłeś geometrię w widoku 3D: dodaj właściwy widok Rysunku Technicznego do zaznaczenia, wybierając go w oknie [Widoku drzewa](Tree_view/pl.md).
-3.  Istnieje kilka sposobów wywołania narzędzia:
-4.  Naciśnij przycisk **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> '''Wstaw trzy punktowy wymiar kąta'''**.
+3.  Istnieje kilka sposobów wywołania tego narzędzia:
+    -   
+        {{Version/pl|1.0}}
+        
+        : Jeśli [preferencja](TechDraw_Preferences/pl#Wymiary.md) **Narzędzie wymiarowania** jest ustawiona na {{Value|Narzędzie pojedyncze}} (domyślnie): kliknij na strzałce skierowanej w dół po prawej stronie od przycisku **<img src="images/TechDraw_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** i wybierz opcję **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> Wstaw trzy punktowy wymiar kąta** z listy rozwijanej.
 
--   Wybierz opcję z menu **Rysunek Techniczny → Wymiary → <img src="images/TechDraw_3PtAngleDimension.svg" width=16px> Wstaw trzy punktowy wymiar kątaa**.
+    -   Jeśli ta preferencja ma inną wartość (i {{VersionMinus/pl|0.21}}): wciśnij przycisk **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> [Wstaw trzy punktowy wymiar kąta](TechDraw_3PtAngleDimension/pl.md)**.
+
+-   Wybierz opcję z menu **Rysunek Techniczny → Wymiary → <img src="images/TechDraw_3PtAngleDimension.svg" width=16px> Wstaw trzy punktowy wymiar kąta**.
 
 1.  Do widoku zostanie dodany wymiar.
 2.  Wymiar można przeciągnąć do żądanej pozycji.
@@ -68,7 +73,7 @@ Zobacz stronę [Wymiar długości](TechDraw_LengthDimension/pl#W.C5.82a.C5.9Bciw
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

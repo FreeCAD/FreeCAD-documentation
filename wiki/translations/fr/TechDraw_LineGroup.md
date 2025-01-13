@@ -44,7 +44,8 @@ Vous pouvez spécifier vos valeurs préférées par défaut dans [TechDraw Préf
 -   **Windows** : `C:\Program Files\FreeCAD\data\Mod\TechDraw\LineGroup\`
 -   **Mac** : `/Applications/FreeCAD.app/Contents/Mod/TechDraw/LineGroup/`
 -   **Linux** : `/usr/share/freecad/Mod/TechDraw/LineGroup/`
-    -   ***freecad-daily PPA*** : `/usr/share/freecad-daily/Mod/TechDraw/LineGroup/`
+    -   **freecad-daily PPA** : `/usr/share/freecad-daily/Mod/TechDraw/LineGroup/`
+    -   **snap package** : `/snap/freecad/current/usr/share/Mod/TechDraw/LineGroup`
 
 Remarque : une nouvelle préférence a été ajoutée pour vous permettre d\'utiliser votre propre fichier personnel LineGroup.
 
@@ -77,7 +78,7 @@ Remarque : une nouvelle préférence a été ajoutée pour vous permettre d\'uti
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

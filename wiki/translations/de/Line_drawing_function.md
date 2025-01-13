@@ -3,6 +3,8 @@
 
 Diese Seite zeigt, wie erweiterte Funktionalität in Python einfach erstellt werden kann. In dieser Übung werden wir ein neues Werkzeug bauen, das eine Linie zeichnet. Dieses Werkzeug kann dann mit einem FreeCAD Befehl verknüpft werden, und dieser Befehl kann von jedem Element in der Oberfläche, wie z.B. einem Menüpunkt oder einer Werkzeugleistenschaltfläche, aufgerufen werden.
 
+
+
 ## Das Hauptskript 
 
 Zuerst werden wir ein Skript schreiben, das unsere gesamte Funktionalität enthält. Dann werden wir dieses in einer Datei speichern und in FreeCAD importieren, so dass alle von uns geschriebenen Klassen und Funktionen in FreeCAD zur Verfügung stehen. Starte deinen bevorzugten Codeeditor und gib die folgenden Zeilen ein:
@@ -36,6 +38,8 @@ class line:
 
 
 {{Top}}
+
+
 
 ## Detaillierte Erklärung 
 
@@ -94,7 +98,7 @@ Beachte, dass es auch eine Alternative zu `addEventCallbackPivy()` namens `addEv
 def getpoint(self, event_cb):
 ```
 
-Nun definieren wir die `getpoint()` Funktion, die beim Drücken einer Maustaste in einer 3D Ansicht ausgeführt wird. Diese Funktion erhält ein Argument, das wir `event_cb` aufrufen. Von diesem Ereignisrückruf aus können wir auf das Ereignisobjekt zugreifen, das verschiedene Informationen enthält (Mode Info [Hier](Code_snippets/de#Observing_mouse_events_in_the_3D_viewer_via_Python/de.md)).
+Nun definieren wir die Funktion `getpoint()`, die beim Drücken einer Maustaste in einer 3D-Ansicht ausgeführt wird. Diese Funktion erhält ein Argument, das wir `event_cb` nennen. Von dieser Ereignisrückmeldung aus können wir auf das Ereignisobjekt zugreifen, das verschiedene Informationen enthält (weitere Informationen [Hier](Code_snippets/de#Mausereignisse_in_der_3D-Ansicht_beobachten_mit_Python.md)).
 
 
 ```python
@@ -157,7 +161,7 @@ Das Part Modul hat eine sehr nützliche `show()` Funktion, die ein neues Objekt 
 self.view.removeEventCallbackPivy(SoMouseButtonEvent.getClassTypeId(), self.callback)
 ```
 
-Da wir mit unserer Linie fertig sind, entfernen wir den Rückrufmechanismus hier. {{Top}}
+Da wir mit unserer Linie fertig sind, entfernen wir den Rückrufmechanismus hier. 
 
 ## Testen des Skripts 
 
@@ -191,7 +195,7 @@ Nun wollen wir es testen:
 exercise.line()
 ```
 
-Klicke zwei Mal in der 3D Ansicht, und Bingo, hier ist unsere Linie! Um es zu wiederholen, tippe einfach nochmal `exercise.line()`. {{Top}}
+Klicke zwei Mal in der 3D Ansicht, und Bingo, hier ist unsere Linie! Um es zu wiederholen, tippe einfach nochmal 
 
 ## Registrierung des Skripts 
 
@@ -249,7 +253,7 @@ FreeCADGui.addCommand('line', line())
 
 Was wir hier gemacht haben, ist die Umwandlung unserer `__init__()` Funktion in eine `Activated()` Funktion, denn wenn FreeCAD Befehle ausgeführt werden, führen sie automatisch die `Activated()` Funktion aus. Wir haben auch eine `GetResources()` Funktion hinzugefügt, die FreeCAD darüber informiert, wo es ein Icon für das Werkzeug finden kann und wie der Name und der Tooltip unseres Werkzeugs lauten wird. Jedes **jpg**, **png** oder **svg** Bild wird als Symbol funktionieren, es kann jede beliebige Größe haben, aber es ist am besten, eine Größe zu verwenden, die dem fertigen Seitenverhältnis nahe kommt, wie 16x16, 24x24 oder 32x32. Dann fügen wir die `line()` Klasse als offiziellen FreeCAD Befehl mit der `addCommand()` Methode hinzu.
 
-Das war\'s, anschließend müssen wir nur noch FreeCAD neu starten und schon haben wir einen schönen neuen Arbeitsbereich mit unserem brandneuen Linienwerkzeug! {{Top}}
+Das war\'s, anschließend müssen wir nur noch FreeCAD neu starten und schon haben wir einen schönen neuen Arbeitsbereich mit unserem brandneuen Linienwerkzeug! 
 
 ## Also willst du mehr? 
 

@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher SwitchVirtualSpace
    Name/pl: Szkicownik: Przełącz przestrzeń wirtualną
-   MenuLocation: Szkic , Wirtualna przestrzeń szkicownika , Przełącz przestrzeń wirtualną
+   MenuLocation: Szkic , Widok szkicu , Przełącz przestrzeń wirtualną
    Workbenches: Sketcher_Workbench/pl
    Version: 0.17
 ---
@@ -13,32 +13,44 @@
 
 ## Opis
 
-Szkicownik programu FreeCAD posiada dwie przestrzenie wirtualne, na których można ustawić wiązania. Zazwyczaj wszystkie wiązania są ustawiane w pierwszej przestrzeni wirtualnej. Można przenieść niektóre z nich do drugiej przestrzeni wirtualnej. Może to ułatwić kontrolę tylko wybranych wiązań w tym samym czasie.
+Narzędzie <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:24px;"> **Przełącz przestrzeń wirtualną** ukrywa wiązania lub wyświetla wiązania lub przełącza widoczną przestrzeń wirtualną.
+
+Szkic ma dwie wirtualne przestrzenie, które mogą zawierać wiązania. Wszystkie więzy są tworzone w głównej przestrzeni wirtualnej, ale można je ukryć, co powoduje przeniesienie ich do drugiej przestrzeni wirtualnej.
 
 
 
 ## Użycie
 
-Aby przenieść wiązania do drugiej przestrzeni wirtualnej:
-
-1.  Wybierz wiązania, które chcesz przenieść.
-2.  Naciśnij przycisk **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> '''Przełącz przestrzeń wirtualną'''**.
-
-Aby przełączyć przestrzeń wirtualną:
-
-1.  Upewnij się, że nie masz zaznaczonego żadnego wiązania.
-2.  Naciśnij przycisk **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> '''Przełącz przestrzeń wirtualną'''**.
 
 
-**Uwaga:**
+### Ukrywanie, wyświetlanie wiązań 
 
-jeśli zdecydujesz się ustawić wiązania na drugiej przestrzeni wirtualnej, nie zapomnij o nich później, jeśli nie widzisz ich w oknie [widoku 3D](3D_view/pl.md).
+1.  Wybierz jedno lub więcej wiązań. Wiązania, które nie są widoczne w bieżącej przestrzeni wirtualnej, można wybrać w sekcji [wiązania okna dialogowego Szkicownika](Sketcher_Dialog/pl#Wiązania.md).
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_SwitchVirtualSpace.svg" width=16px> '''Przełącz przestrzeń wirtualną'''**.
+    -   Wybierz z menu opcję **Szkic → Widok szkicu → <img src="images/Sketcher_SwitchVirtualSpace.svg" width=16px> Przełącz przestrzeń wirtualną**.
+    -   Użyj skrótu klawiaturowego: **Z**, a następnie **Z**.66366
 
 
 
+### Przełączanie przestrzeni wirtualnej 
+
+1.  Upewnij się, że nie wybrano żadnych wiązań.
+2.  Wywołaj narzędzie w sposób opisany powyżej.
+3.  Ukryte wiązania staną się widoczne, a nieukryte niewidoczne lub odwrotnie.
 
 
-{{Sketcher Tools navi
+
+## Uwagi
+
+-   Wiązania mogą być również ukryte, wyświetlone w [oknie dialogowym Szkicownika](Sketcher_Dialog/pl#Wiązania.md).
+-   Ustawienie przestrzeni wirtualnej szkicu jest używane tylko w bieżącej sesji, nie jest przechowywane w pliku FreeCAD.
+
+
+
+
+
+{{Sketcher_Tools_navi
 
 }}
 

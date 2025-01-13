@@ -9,7 +9,13 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Creează o matrice de repetabilitate a unor elemente selectate ale schiței.
+
+
+</div>
 
 
 

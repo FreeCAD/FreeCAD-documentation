@@ -37,7 +37,7 @@ Translations:Std LinkSelectLinkedFinal/1/pt-br
 </div>
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

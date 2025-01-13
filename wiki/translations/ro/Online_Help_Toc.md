@@ -143,7 +143,7 @@ Aici este un alt conținut de cuprins pentru
 <div class="mw-translate-fuzzy">
 
 -   Dezvoltarea de aplicatii pentru FreeCAD
-    -   [Licenţa](Licence/ro.md)
+    -   [Licenţa](License/ro.md)
     -   Compilarea FreeCAD
         -   [Ajutor pentru compilare](Tracker/ro.md)
         -   [Compilarea sub Windows](Compile_on_Windows/ro.md)

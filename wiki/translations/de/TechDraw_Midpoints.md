@@ -33,7 +33,7 @@ Das Werkzeug **TechDraw Mittenpunkte** fügt einer oder mehreren Kanten einen Hi
 ## Hinweise
 
 -   Die erstellten Hilfspunkte sind nicht parametrisch mit den ausgewählten Kanten verbunden.
--   Zum Löschen eines Hilfspunktes wird <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw Hilfsobjekte entfernen](TechDraw_CosmeticEraser/de.md) verwendet.
+-   Um einen Hilfspunkt zu löschen, wird er ausgewählt und die **Entf**-Taste gedrückt. {{Version/de|1.0}}
 
 
 
@@ -45,7 +45,7 @@ Hilfspunkte haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte sind
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Hilfspunkte sind zur Zeit nicht über [Makros](Macros/de.md) oder die [Python](Python/de.md)-Konsole erreichbar. Dieser Schnipsel entfernt alle Hilfspunkte aus der Ansicht.
 

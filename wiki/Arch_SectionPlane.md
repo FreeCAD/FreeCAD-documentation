@@ -1,17 +1,17 @@
 ---
  GuiCommand:
    Name: Arch SectionPlane
-   MenuLocation: Arch , Section Plane
-   Workbenches: Arch_Workbench
+   MenuLocation: Annotation , Section Plane
+   Workbenches: BIM_Workbench
    Shortcut: **S** **P**
-   SeeAlso: Draft_Shape2DView, TechDraw_ArchView
+   SeeAlso: Draft_Shape2DView
 ---
 
 # Arch SectionPlane
 
 ## Description
 
-This tool places in the current document a section plane \"thing\", which defines a section or view plane. The \"thing\" takes its placement according to the current [Draft Working Plane](Draft_SelectPlane.md) and can be relocated and reoriented by moving and rotating it, until it describes the 2D view you want to obtain. The Section plane object will only consider a certain set of objects. Objects that are selected when you create a Section Plane will be added to that set automatically. Other objects can later be added or removed from a SectionPlane object with the [Arch Add component](Arch_Add.md) and [Arch Remove component](Arch_Remove.md) tools, or by double-clicking the Section Plane in the tree view.
+The **Arch SectionPlane** tool places in the current document a section plane \"thing\", which defines a section or view plane. The \"thing\" takes its placement according to the current [Draft Working Plane](Draft_SelectPlane.md) and can be relocated and reoriented by moving and rotating it, until it describes the 2D view you want to obtain. The Section plane object will only consider a certain set of objects. Objects that are selected when you create a Section Plane will be added to that set automatically. Other objects can later be added or removed from a SectionPlane object with the [Arch Add component](Arch_Add.md) and [Arch Remove component](Arch_Remove.md) tools, or by double-clicking the Section Plane in the tree view.
 
 The Section Plane alone won\'t create any view of its objects set. For that, you must create a [TechDraw ArchView](TechDraw_ArchView.md) to create a view in a [TechDraw page](TechDraw_Workbench.md).
 
@@ -113,5 +113,10 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+ {{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane
+⏵ [documentation index](../README.md) > Arch SectionPlane

@@ -4,7 +4,7 @@
    Name/pl: Część: Skaluj
    MenuLocation: Część , Skaluj ...
    Workbenches: Part_Workbench/pl
-   Version: 0.22
+   Version: 1.0
    SeeAlso: Draft_Clone/pl, Draft_Scale/pl
 ---
 

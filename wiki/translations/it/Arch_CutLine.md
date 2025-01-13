@@ -45,15 +45,14 @@ Lo strumento **Arch CutLine** taglia un oggetto Arch solido come un [Muro](Arch_
 [API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 
-<div class="mw-translate-fuzzy">
 
 
 
+{{BIM_Tools_navi
 
-
-</div>
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/it
+⏵ [documentation index](../README.md) > Arch CutLine/it

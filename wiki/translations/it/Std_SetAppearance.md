@@ -3,9 +3,9 @@
    Name: Std SetAppearance
    Name/it: Impostare l'aspetto degli oggetti
    MenuLocation: Visualizza , Aspetto...
-   Workbenches: Tutti
+   Workbenches: Material_Workbench/it, Part_Workbench/it, PartDesign_Workbench/it e altro
    Shortcut: **Ctrl**+**D**
-   SeeAlso: Part_FaceColors/it
+   SeeAlso: Std_SetMaterial/it,Part_ColorPerFace/it
 ---
 
 # Std SetAppearance/it
@@ -14,10 +14,12 @@
 
 ## Descrizione
 
-Il comando **Impostare l\'aspetto degli oggetti** mostra le proprietà di visualizzazione [Scheda Azioni](Task_panel/it.md) per gli oggetti selezionati.
+Il comando **Aspetto** imposta le proprietà di visualizzazione degli oggetti selezionati.
 
-<img alt="" src=images/DlgDisplayProperties.png  style="width:250px;"> 
-*Il pannello delle attività delle proprietà di visualizzazione*
+Questa pagina è stata aggiornata per la versione 1.0.
+
+![](images/Std_SetAppearance_Taskpanel.png ) 
+*Il pannello delle azioni delle proprietà di Visualizzazione*
 
 
 
@@ -28,9 +30,11 @@ Il comando **Impostare l\'aspetto degli oggetti** mostra le proprietà di visual
     -   Selezionare l\'opzione **Visualizza → <img src="images/Std_SetAppearance.svg" width=16px> Aspetto...** dal menu.
     -   Selezionare l\'opzione **<img src="images/Std_SetAppearance.svg" width=16px> Aspetto...** dal menu contestuale [Vista albero](Tree_view/it.md) o dal menu contestuale [Vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **Ctrl**+**D**.
-3.  Modificare una o più proprietà di visualizzazione. Vedere [Opzioni](#Opzioni.md). Gli oggetti verranno aggiornati immediatamente.
-4.  Facoltativamente selezionare uno o più nuovi oggetti di cui si desidera modificare le proprietà di visualizzazione.
-5.  Premere il pulsante **Chiudi** per chiudere il pannello delle attività e terminare il comando.
+3.  Si apre il pannello delle azioni **Proprietà di visualizzazione**. Vedere [Opzioni](#Opzioni.md).
+4.  Modificare una o più proprietà.
+5.  Gli oggetti vengono aggiornati immediatamente.
+6.  Facoltativamente selezionare uno o più nuovi oggetti di cui si desidera modificarne le proprietà.
+7.  Premere il pulsante **Chiudi** per chiudere il pannello delle azioni e terminare il comando.
 
 
 
@@ -40,16 +44,17 @@ Il comando **Impostare l\'aspetto degli oggetti** mostra le proprietà di visual
 
 ### Modalità di visualizzazione 
 
--   Selezionare una **Modalità di visualizzazione** dall\'elenco a discesa. Le opzioni disponibili sono: \'Linee piatte\', \'Ombreggiato\' (non per oggetti [Draft](Draft_Workbench/it.md)), \'Fil di ferro\' e \'Punti\'. Vedere il comando [Stile di disegno](Std_DrawStyle/it.md) per maggiori informazioni.
+-   Selezionare una **Modalità di visualizzazione** dall\'elenco a discesa. Le opzioni disponibili sono: {{Value|Linee piatte}}, {{Value|Ombreggiato}} (non per oggetti [Draft](Draft_Workbench/it.md)), {{Value|Fil di ferro}} e {{Value|Punti}}. Vedere il comando [Stile di disegno](Std_DrawStyle/it.md) per maggiori informazioni.
 
 
 
 ### Materiale
 
--   Selezionare un materiale predefinito dall\'elenco a discesa (\'Predefinito\', \'Alluminio\', \'Ottone\', \'Bronzo\', ecc.).
--   Premere il pulsante **...** per aprire la finestra di dialogo delle proprietà del materiale e modificare i colori ambientali, diffusi, emissivi e speculari, nonché la brillantezza.
--   **Colore trama:** non supportato in questo momento.
--   **Colore forma:** imposta la proprietà **Shape Color**. Premere il pulsante per aprire la finestra di dialogo Seleziona colore.
+-   Selezionare un materiale dall\'elenco.
+    1.  Selezionare facoltativamente una categoria dall\'elenco a discesa sotto l\'elenco dei materiali per filtrare i materiali. Le categorie disponibili sono {{Value|Aspetto base}}, {{Value|Aspetto texture}} (tali materiali non sono ancora disponibili) e {{Value|Tutti i materiali}}.
+    2.  Facoltativamente, premere il pulsante **Avvia editor** per avviare l\'[Editor materiali](Materials_Edit/it.md).
+-   **Aspetto personalizzato:** premere il pulsante **...** per sovrascrivere l\'aspetto del materiale. Si apre la finestra di dialogo **Proprietà del materiale**. Vedere [Part Colore per faccia](Part_ColorPerFace/it#Utilizzo.md).
+-   **Color plot:** non supportata al momento.
 -   **Colore linea:** imposta la proprietà **Line Color**. Premere il pulsante per aprire la finestra di dialogo Seleziona colore.
 -   **Colore punto:** imposta la proprietà **Point Color**. Premere il pulsante per aprire la finestra di dialogo Seleziona colore.
 
@@ -66,13 +71,13 @@ Il comando **Impostare l\'aspetto degli oggetti** mostra le proprietà di visual
 
 ## Note
 
--   Le proprietà della vista menzionate possono anche essere modificate nell\'[Editor delle proprietà](Property_editor/it.md) o nella [Vista combinata](Combo_view/it.md).
+-   Le proprietà di visualizzazione menzionate possono essere modificate anche nell\'[Editor delle proprietà](Property_editor/it.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

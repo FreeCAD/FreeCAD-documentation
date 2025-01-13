@@ -16,7 +16,7 @@ Les versions plus anciennes : [0.12](Release_notes_0.12/fr.md) - [0.11](Release_
 ## Module de mise en plan (Drawing) 
 
 -   **Masque** : Un nouvel objet [Masque](Drawing_Clip/fr.md) permet de placer des objets à l\'intérieur de vues rectangulaires coupées, sur les pages de dessin.
--   **Texte de cartouche éditable** : Lors de la conception d\'un [modèles de feuille](Drawing_templates/fr.md), il est maintenant possible d\'ajouter des textes éditables. Ces textes sont alors directement modifiables dans FreeCAD.
+-   **Texte de cartouche éditable** : Lors de la conception d\'un modèles de feuille de Drawing, il est maintenant possible d\'ajouter des textes éditables. Ces textes sont alors directement modifiables dans FreeCAD.
 -   **Annotation** : Un nouvel objet [annotation](Drawing_Annotation/fr.md) pour placer facilement et rapidement des blocs de textes sur une page de dessin.
 -   **Vues orthogonales** : Un nouvel outil de [vues orthogonales](Drawing_Orthoviews/fr.md) facilite la création de vues multiples alignées, selon la projection européenne ou américaine.
 -   **Vue web** : Parce que le moteur de rendu SVG utilisé par le module de mise en plan ne supporte pas toutes les fonctionnalités SVG, ce bouton permet de visionner l\'aspect d\'une page de dessin dans le navigateur WebKit, qui supporte pleinement le format SVG. Cette mesure est provisoire, jusqu\'à ce que le moteur de rendu de mise en plan passe définitivement à QebKit\...
@@ -120,7 +120,7 @@ Les géométrie (points, lignes et courbes) peuvent être sélectionnés en fais
 -   L**\'outil Évidement** permet d\'évider un solide en définissant une épaisseur de paroi et une ou plusieurs faces à défoncer.
 -   Le **Générateur de formes** et **Créer des primitives** font maintenant partie de la barre d\'outil Pièce pour un accès rapide.
 
-## Module Part Design 
+## Module PartDesign 
 
 -   Les fonctions **Protrusion** et **Cavité** bénéficient de nouveaux paramètres d\'extrusion : au dernier/au premier, jusqu\'à la face, 2 dimensions assymétriques par rapport au plan d\'esquisse, et symétrique au plan.
 -   Les fonctions **Chanfrein** et **Congé** permettent maintenant la sélection d\'une face : toutes les arêtes extérieures et intérieures seront traitées.

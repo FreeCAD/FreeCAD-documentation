@@ -21,7 +21,7 @@ L\'outil **TechDraw Filetage** ajoute des filetages cosmétiques à la vue de de
 
 ## Utilisation
 
-1.  Spécifiez à votre convenance les attributs de ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
+1.  Spécifiez à votre convenance les attributs de ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw Choix des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
 2.  Sélectionnez un ou plusieurs cercles.
 3.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionThreadBoltBottom.svg" width=16px> [Filetage](TechDraw_ExtensionThreadBoltBottom/fr.md)**.

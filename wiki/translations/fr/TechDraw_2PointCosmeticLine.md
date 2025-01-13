@@ -52,7 +52,7 @@ Pour modifier les extrémités d\'une ligne cosmétique :
 
 ## Remarques
 
--   Pour supprimer une ligne cosmétique, utilisez <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md).
+-   Pour supprimer une ligne cosmétique, sélectionnez-la et appuyez sur **Supprimer**. {{Version/fr|1.0}}
 -   Pour modifier l\'apparence d\'une ligne cosmétique, utilisez <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [TechDraw Apparence des lignes](TechDraw_DecorateLine/fr.md).
 
 

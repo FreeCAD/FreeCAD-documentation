@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -42,6 +44,8 @@ Esta herramienta puede proyectar toda la cara, o sólo un alambre o borde de una
 
 
 </div>
+
+
 
 ## Utilización
 
@@ -91,11 +95,15 @@ Notes:
 -   Alternatively press the **X:**, **Y:**, or **Z:** buttons to set the projection direction to the main global axes, +X, -X, +Y, -Y, +Z, or -Z.
 -   However, do notice that changing the projection direction won\'t automatically update the projection preview; in order to do this, you must re-select the geometry by pressing the **Add...** buttons and picking the subelements again.
 
+
+
 ## Opciones
 
 -    **Extrude height**: it is the height of the solid shape that is created by extruding the projected face, from the target surface and along the negative of the projection direction. For example, if the projection direction is along +Y {{Value|(0, 1, 0)}}, the extrusion will be created in the direction -Y {{Value|(0, -1, 0)}}. This solid extrusion will only be created if the subelement selected was a closed face, by pressing the **Add face** button, and by choosing the {{RadioButton|TRUE|Show all}} option.
 
 -    **Solid depth**: it is the distance that the projection object is moved along the projection direction. Negative values will displace the object in the opposite direction; this allows creating a projection that is offset from the target surface.
+
+
 
 ## Limitaciones
 
@@ -109,11 +117,11 @@ If this happens:
 
 The projection done in the Part workbench is not parametric. If you need a parametric workflow, please consult with the [Projection class](https://gist.github.com/CsatiZoltan/f4fd10bf20923143ba0e0678ea1d3d61), which is a Python scripted object, intended for programmatic use.
 
+
+
 ## Enlaces
 
 -   Hilo del foro: [Project faces onto bent surface](https://forum.freecadweb.org/viewtopic.php?f=9&t=33700)
-
-## Ejemplos
 
 
 <div class="mw-translate-fuzzy">
@@ -123,6 +131,11 @@ The projection done in the Part workbench is not parametric. If you need a param
 
 
 </div>
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

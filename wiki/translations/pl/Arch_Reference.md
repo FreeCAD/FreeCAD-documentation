@@ -1,58 +1,81 @@
 ---
  GuiCommand:
    Name: Arch Reference
-   MenuLocation: Arch , Reference
-   Workbenches: Arch_Workbench
-   SeeAlso: Arch_BuildingPart
+   Name/pl: BIM: Odniesienie
+   MenuLocation: 3D / BIM , Narzędzia ogólne 3D , Odniesienie
+   Workbenches: BIM_Workbench/pl
+   SeeAlso: 
 ---
 
 # Arch Reference/pl
 
-## Description
 
-<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
 
-The Reference tool allows you to place an object in the current document that copies its shape and colors from a [Part](Part_Workbench.md)-based object (including [Arch BuildingPart](Arch_BuildingPart.md)) stored in another FreeCAD file. If that FreeCAD file changes, the reference object is marked to be reloaded.
+## Opis
 
-## Usage
+Narzędzie **Odniesienie** umożliwia umieszczenie w bieżącym dokumencie obiektu, który kopiuje swój kształt i kolory z obiektu opartego na [Części](Part_Workbench/pl.md) *(w tym [Części budynku](Arch_BuildingPart/pl.md))* przechowywanego w innym pliku FreeCAD. Jeśli ten plik ulegnie zmianie, obiekt referencyjny zostanie oznaczony do ponownego załadowania.
 
-1.  Press the **<img src="images/Arch_Reference.svg" width=16px> '''Arch Reference'''** button,
-2.  Press the \"Choose file\...\" button and select an existing FreeCAD file,
-3.  Select one of the included Part-based objects from the drop-down list,
-4.  Press **OK**.
+<img alt="" src=images/Arch_reference_screenshot.png  style="width:600px;">
 
-## Options
 
--   The reference object can be moved and rotated, the current position will be retained after reloading the object.
--   If the original object gets moved in containing file, this movement will reflect in the reference object.
--   By right-clicking a Reference object in the tree view, you have the options to reload the original object, or open the containing file.
--   To reference several objects at once, place them inside an [Arch BuildingPart](Arch_BuildingPart.md).
--   When turning off the **Update Colors** view property of the Reference, it won\'t reload the original colors anymore, so you can safely change them.
 
-## Properties
+## Użycie
 
--    **File**: The base file this component is built upon
+1.  Naciśnij przycisk **<img src="images/Arch_Reference.svg" width=16px> '''Odniesienie'''**,
+2.  Naciśnij przycisk \"Wybierz plik \...\" i wybierz istniejący plik FreeCAD,
+3.  Wybierz jeden z dołączonych obiektów opartych na częściach z rozwijanej listy,
+4.  Naciśnij przycisk **OK**.
 
--    **Part**: The part to use from the base file
 
--    **Update Colors**: If true, the colors from the linked file will be kept updated
 
-## Scripting
+## Opcje
 
-The Reference tool can by used in [macros](macros.md) and from the python console by using the following function: 
+-   Obiekt referencyjny można przesuwać i obracać, bieżąca pozycja zostanie zachowana po ponownym załadowaniu obiektu.
+-   Jeśli oryginalny obiekt zostanie przeniesiony w pliku zawierającym, ruch ten zostanie odzwierciedlony w obiekcie referencyjnym.
+-   Klikając prawym przyciskiem myszy obiekt odniesienia w widoku drzewa, można przeładować oryginalny obiekt lub otworzyć plik zawierający.
+-   Aby odwołać się do kilku obiektów jednocześnie, umieść je wewnątrz [części budynku](Arch_BuildingPart/pl.md).
+-   Po wyłączeniu właściwości widoku **Aktualizuj kolory** obiektu referencyjnego, nie będzie on już przeładowywał oryginalnych kolorów, więc można je bezpiecznie zmienić.
+
+
+
+## Właściwości
+
+-    **Plik**: Plik bazowy, na którym zbudowany jest ten komponent.
+
+-    **Część**: Część do użycia z pliku bazowego.
+
+-    **Aktualizuj kolory**: Jeśli wartość ta zostanie ustawiona na {{true/pl}}, kolory z połączonego pliku będą aktualizowane.
+
+
+
+## Tworzenie skryptów 
+
+Narzędzie Odniesienie może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
+
+
 ```python
-makeReference ([file_path,object_name])
+reference = makeReference([filepath], [partname], [name])
 ```
 
-creates a Reference object from the given object in the given file.
+Tworzy obiekt `reference` nazwany `name` z obiektu `partname` w pliku `filepath`. Wszystkie argumenty są opcjonalne.
 
-Example: 
+Przykład:
+
+
 ```python
 import Arch
-Arch.makeReference("/path/to/some/file.FSCtd","myPart")
+Arch.makeReference("/path/to/some/file.FSCtd", "myPart")
 ```
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/pl
+⏵ [documentation index](../README.md) > Arch Reference/pl

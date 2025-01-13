@@ -102,14 +102,14 @@ Istnieje wiele możliwych strategii, w zależności od tego, jak edytowalny i pr
 
 Tę część można również wykonać później, można już utworzyć panele z każdego z komponentów, ale zobaczmy już teraz, jak przekonwertować obiekt podobny do polilinii na szkic:
 
-1.  Create a copy of your wire-like object with **Ctrl**+**C**, **Ctrl**+**V**. This is so we can modify it but still keep one in its correct location
-2.  Move and rotate it so it lies in the XY plane, using [Draft Move](Draft_Move.md) and [Draft Rotate](Draft_Rotate.md). This is not indispensable, but the next point sometimes fails otherwise
-3.  Use [Draft Draft2Sketch](Draft_Draft2Sketch.md) to turn the wire into a sketch. Be warned, this can fail or take a very long time for huge wires. It is best to decompose your object into individual wires as shown above.
-4.  If the command above fails, using [Draft Upgrade](Draft_Upgrade.md) twice on a wire-like object, to convert it to a Face then to a [Draft Wire](Draft_Wire.md), before using [Draft Draft2Sketch](Draft_Draft2Sketch.md), usually works better, because the Draft Wire keeps a better track of the order of vertices inside a wire.
-5.  Curves are made of several small segments. They can be left as is, but they introduce a lot of endpoint constraints. It is better to replace them by arcs. It is fairly easy to do, just delete the small segments and replace them by an arc. The arc can then be made tangential to the neighbouring segments, but make sure the position of those segments is locked before doing this, as this operation will make them move.
-6.  If you worked with several sketches, make a [Part Compound](Part_Compound.md) of them
-7.  Create an [Arch Panel](Arch_Panel.md) from it
-8.  Rotate/move it back into position with [Draft Move](Draft_Move.md) and [Draft Rotate](Draft_Rotate.md)
+1.  Stwórz kopię obiektu polilinii za pomocą **Ctrl** + **C**, **Ctrl** + **V**. W ten sposób możemy go modyfikować, ale nadal utrzymywać w prawidłowej lokalizacji
+2.  Przesuń i obróć go tak, aby leżał w płaszczyźnie XY, używając narzędzi [Przesuń](Draft_Move/pl.md) i [Obróć](Draft_Rotate/pl.md). Nie jest to konieczne, ale następny punkt czasami zawodzi w przeciwnym razie
+3.  Użyj [Rysunek roboczy do szkicu](Draft_Draft2Sketch/pl.md), aby przekształcić przewód w szkic. Ostrzegam, że może się to nie udać lub zająć bardzo dużo czasu w przypadku złożonych polilinii. Najlepiej jest rozłożyć obiekt na pojedyncze polilinie, jak pokazano powyżej.
+4.  Jeśli powyższe polecenie zawiedzie, dwukrotnie użyj narzędzia [Ulepsz](Draft_Upgrade/pl.md) na obiekcie podobnym do polilinii, aby przekonwertować go na ścianę, a następnie na [polilinię](Draft_Wire/pl.md), przed użyciem [Rysunek roboczy do szkicu](Draft_Draft2Sketch/pl.md), zwykle działa lepiej, ponieważ Draft Wire lepiej śledzi kolejność wierzchołków wewnątrz polilinii.
+5.  Krzywe składają się z kilku małych segmentów. Można je pozostawić bez zmian, ale wprowadzają one wiele ograniczeń dotyczących punktów końcowych. Lepiej zastąpić je łukami. Jest to dość łatwe do zrobienia, wystarczy usunąć małe segmenty i zastąpić je łukiem. Łuk może być następnie styczny do sąsiednich segmentów, ale upewnij się, że pozycja tych segmentów jest zablokowana przed wykonaniem tej operacji, ponieważ spowoduje to ich przesunięcie.
+6.  Jeśli pracowałeś z kilkoma szkicami, utwórz z nich [Utwórz kształt złożony](Part_Compound/pl.md).
+7.  Utwórz na jego podstawie [Panel](Arch_Panel/pl.md).
+8.  Obróć / przesuń go z powrotem na miejsce za pomocą narzędzi [Przesuń](Draft_Move/pl.md) i [Obróć](Draft_Rotate/pl.md).
 
 ![](images/Arch_Wikihouse_12.jpg )
 
@@ -117,39 +117,39 @@ Tę część można również wykonać później, można już utworzyć panele z
 
 ## Przebudowa Wikihouse i eksportowanie wyciętych arkuszy 
 
-Also, make sure you don\'t redo any duplicated part. Instead, select the [Draft Clone](Draft_Clone.md) tool to duplicate parts based on the same profile, so they will all share one same profile object. Then, since we have the outline at the correct place to use as a guide, it is fairly easy to rotate and move the clone into its correct position with [Draft Rotate](Draft_Rotate.md) and [Draft Move](Draft_Move.md).
+Upewnij się również, że nie powielasz żadnej zduplikowanej części. Zamiast tego wybierz narzędzie [Klonuj](Draft_Clone/pl.md), aby zduplikować części oparte na tym samym profilu, dzięki czemu wszystkie będą miały ten sam obiekt profilu. Następnie, ponieważ mamy już kontur w odpowiednim miejscu, można go łatwo obrócić i przesunąć klon do właściwej pozycji za pomocą narzędzi [Obróć](Draft_Rotate/pl.md) i [Przesuń](Draft_Move/pl.md).
 
 Po chwili cała sekcja Microhouse jest gotowa.
 
 ![](images/Arch_Wikihouse_01.jpg )
 
-We can now easily create the cut sheets, which are DXF files that will be sent to the shop that will cut the actual panels. The easiest way to do this is to select everything in your document with **Ctrl**+**A**, and then use the [Arch Panel Cut](Arch_Panel_Cut.md) tool. This will produce one Panel Cut object for each Panel object found in the selection. By moving them apart, we get a clear view of all our pieces:
+Możemy teraz łatwo utworzyć arkusze cięcia, które są plikami DXF, które zostaną wysłane do warsztatu, który wytnie rzeczywiste panele. Najprostszym sposobem na to jest zaznaczenie wszystkiego w dokumencie za pomocą **Ctrl** + **A**, a następnie użycie narzędzia [Panelizacja do cięcia](Arch_Panel_Cut/pl.md) środowiska Architektura. Spowoduje to utworzenie jednego obiektu Panel Cut dla każdego obiektu Panel znajdującego się w zaznaczeniu. Odsuwając je od siebie, uzyskamy przejrzysty widok wszystkich elementów:
 
 ![](images/Arch_Wikihouse_02.jpg )
 
-We must then \"nest\" our pieces, that is, move and rotate them so they occupy as much as possible to space of a given panel, to generate as little material loss as possible. This operation unfortunately needs to be done by hand, but if you are using a Wikihouse project that already has produced cut sheets, copying them goes pretty fast:
+Następnie musimy \"zagnieździć\" nasze elementy, czyli przesunąć i obrócić je tak, aby zajmowały jak najwięcej miejsca w danym panelu, aby wygenerować jak najmniejsze straty materiału. Ta operacja niestety musi być wykonana samodzielnie, ale jeśli korzystasz z projektu Wikihouse, który już wyprodukował pocięte arkusze, kopiowanie ich przebiega dość szybko:
 
-1.  To make sure everything will stay in the XY plane, it is advised to set the [Working Plane](Draft_SelectPlane.md) to XY (top)
-2.  Create an [Arch Panel Sheet](Arch_Panel_Sheet.md)
-3.  Give it the desired width and height values (Wikihouses are typically printed on 122x244cm plywood sheets)
-4.  Move it to a convenient place with [Draft Move](Draft_Move.md)
-5.  Optionally, set its margin values to help you position the cut pieces
-6.  Move and rotate the individual [Arch Panel Cut](Arch_Panel_Cut.md) objects so they fit inside the Panel Sheet
-7.  When you are more or less ready, select the Panel Sheet, and double click it in the [tree view](Tree_view.md) to enter Edit mode
-8.  Select all the Panel Cuts you wish to insert in it (you may want to switch the tree view to the \"project\" tab to select in the tree)
-9.  Select the \"group\" section in the Panel Sheet\'s Task view
-10. Press the **Add** button
-11. Press the **OK** button
+1.  Aby upewnić się, że wszystko pozostanie w płaszczyźnie XY, zaleca się ustawienie [płaszczyzny roboczej](Draft_SelectPlane/pl.md) na XY *(góra)*.
+2.  Utwórz [Arkusz panela](Arch_Panel_Sheet/pl.md).
+3.  Nadaj mu żądane wartości szerokości i wysokości *(elementy Wikihouse są zazwyczaj drukowane na arkuszach sklejki 122x244cm)*.
+4.  Przenieś go w dogodne miejsce za pomocą narzędzia [Przesuń](Draft_Move/pl.md) środowiska Rysunek roboczy.
+5.  Opcjonalnie ustaw wartości marginesów, aby pomóc w pozycjonowaniu wyciętych elementów.
+6.  Przesuń i obróć poszczególne obiekty [Panelizacji do cięcia](Arch_Panel_Cut/pl.md) tak, aby zmieściły się wewnątrz arkusza panelu.
+7.  Gdy będziesz mniej więcej gotowy, wybierz arkusz panelu i kliknij go dwukrotnie w oknie [widoku drzewa](Tree_view/pl.md), aby przejść do trybu edycji.
+8.  Wybierz wszystkie wycinki panelu, które chcesz w nim umieścić (możesz przełączyć widok drzewa na zakładkę \"projekt\", aby wybrać w drzewie).
+9.  Wybierz sekcję \"grupa\" w widoku zadań arkusza paneli.
+10. Naciśnij przycisk **Dodaj**.
+11. Naciśnij przycisk **OK**.
 
-In the Panel Sheet\'s Task view, there is also a button that allows you to move the individual Panel Cuts after they\'ve been inserted inside the sheet. After a while, we have our sheets ready:
+W widoku zadań arkusza panelu znajduje się również przycisk umożliwiający przesuwanie poszczególnych wycinków panelu po ich wstawieniu do arkusza. Po chwili nasze arkusze są gotowe:
 
 ![](images/Arch_Wikihouse_03.jpg )
 
-The last step is simply to select all the sheets, then export them to DXF from menu File → Export. The sheets contents will be exported separated in different layers, with the same color coding commonly used by the Wikihouse project:
+Ostatnim krokiem jest po prostu zaznaczenie wszystkich arkuszy, a następnie wyeksportowanie ich do formatu DXF z menu **Plik → Eksportuj**. Zawartość arkuszy zostanie wyeksportowana oddzielnie w różnych warstwach, z tym samym kodowaniem kolorów powszechnie używanym w projekcie Wikihouse:
 
 ![](images/Arch_Wikihouse_04.jpg )
 
-These files are ready to send to the shops that will do the actual cut. It would be possible to generate the G-Code to be sent to the CNC machine directly from FreeCAD too, but that is matter for another tutorial.
+Pliki te są gotowe do wysłania do warsztatów, które wykonają rzeczywiste cięcie. Możliwe byłoby również wygenerowanie kodu G do wysłania do maszyny CNC bezpośrednio z FreeCAD, ale to już temat na inny poradnik.
 
 
 

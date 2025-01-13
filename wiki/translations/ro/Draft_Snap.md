@@ -10,7 +10,7 @@ Ancorarea(Snapping) înseamnă \"lipirea\" următorului punct 3D pe un punct exi
 
 </div>
 
-Snapping is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) commands.
+Snapping is available with most [Draft](Draft_Workbench.md) and [BIM](BIM_Workbench.md) commands.
 
 ![](images/Draft_Snap_Endpoint_example.png )
 

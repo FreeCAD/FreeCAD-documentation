@@ -42,7 +42,7 @@ Obiekt InvoluteGear wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md)
 
 {{Properties_Title|Dokładność}}
 
--    **liczba punktów|Integer**: Domyślnie {{Value|6}}. Zmiana profilu ewolwentowego. Zmiana wartości może prowadzić do nieoczekiwanych rezultatów.
+-    **liczba punktów|Integer**: Domyślnie {{Value|20}}. Zmiana profilu ewolwentowego. Zmiana wartości może prowadzić do nieoczekiwanych rezultatów.
 
 -    **uprość|Bool**: Wartością domyślną jest {{False/pl}}, {{True/pl}} generuje uproszczone wyświetlanie *(bez zębów i tylko cylinder o średnicy podziałowej)*.
 
@@ -53,38 +53,53 @@ Obiekt InvoluteGear wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md)
 
 -    **moduł|Length**: Domyślnie {{Value|1 mm}}. Moduł jest stosunkiem średnicy referencyjnej koła zębatego podzielonej przez liczbę zębów *(patrz [Uwagi](#Uwagi.md))*.
 
--    **zęby|Integer**: Domyślną wartością jest {{Value|15}}. Liczba zębów *(patrz [Uwagi](#Uwagi.md))*.
+-    **liczba_zębów|Integer**: Domyślną wartością jest {{Value|15}}. Liczba zębów *(patrz [Uwagi](#Uwagi.md))*.
 
 
 {{Properties_Title|Obliczone}}
 
--    **angular_backlash|Angle**: *(tylko do odczytu)*.
+-    **addendum_diameter|Length**: Domyślna wartość to {{Value|17 mm}}. Średnica zewnętrzna mierzona dla addendum (czubka zęba).
 
--    **da|Length**: *(tylko do odczytu)* Średnica zewnętrzna, mierzona na wierzchołku zęba *(końcówki zębów)*.
+-    **angular_backlash|Angle**: (tylko do odczytu) Kąt, o który koło może się obrócić bez poruszania drugiego koła w parze.
 
--    **df|Length**: *(tylko do odczytu)* Średnica korzenia, mierzona u podstawy zębów.
+-    **pitch_diameter|Length**: Domyślna wartość to {{Value|15 mm}}. Średnica podziałowa.
 
--    **dw|Length**: *(tylko do odczytu)* Średnica podziałki roboczej.
+-    **root_diameter|Length**: (tylko do odczytu) Średnica podstawy, mierzona przy podstawie zęba.
 
--    **transverse_pitch|Length**: *(tylko do odczytu)* Podziałka w płaszczyźnie obrotu.
+-    **transverse_pitch|Length**: Domyślna wartość to {{Value|3.14 mm}}. Podziałka poprzeczna.
+
+-    **traverse_module|Length**: Domyślna wartość to {{Value|1 mm}}. Moduł poprzeczny generowanego koła.
 
 
 {{Properties_Title|Zaokrąglenie}}
 
--    **zaokrąglenie_głowy|Float**: Domyślnie {{Value|0 mm}}.
+-    **zaokrąglenie_głowy|Float**: Domyślnie {{Value|0 mm}}. Zaokrąglenie głowy zęba.
 
--    **zaokrąglenie_stopy|Float**: Domyślnie {{Value|0 mm}}.
+-    **zaokrąglenie_stopy|Float**: Domyślnie {{Value|0 mm}}. Zaokrąglenie stopy zęba.
 
 -    **podcięcie|Bool**: Domyślną wartością jest {{False/pl}}, {{True/pl}} zmienia profil korzenia zęba *(patrz [Uwagi](#Uwagi.md))*.
 
 
 {{Properties_Title|Śrubowy}}
 
--    **beta|Angle**: Domyślnie {{Value|0 °}}. Z kątem helisy β tworzone jest koło zębate śrubowe - wartość dodatnia → kierunek obrotu w prawo, wartość ujemna → kierunek obrotu w lewo *(patrz [Uwagi](#Uwagi.md))*.
-
 -    **double_helix|Bool**: Domyślną wartością jest {{False/pl}}, {{True/pl}} tworzy podwójną helisę *(patrz [Uwagi](#Uwagi.md))*.
 
--    **properties_from_tool|Bool**: Domyślną wartością jest {{False/pl}}. Jeśli wybrano {{True/pl}} i parametr **beta** nie jest równy zero, parametry koła zębatego są obliczane wewnętrznie dla obróconego koła zębatego.
+-    **helix_angle|Angle**: Domyślnie {{Value|0 °}}. Z kątem helisy β tworzone jest koło zębate śrubowe -- dodatnia wartość → kierunek obrotu w prawo, ujemna wartość → kierunek obrotu w lewo (zobacz [Uwagi](#Uwagi.md)).
+
+-    **properties_from_tool|Bool**: Domyślną wartością jest {{False/pl}}. Jeśli wybrano {{True/pl}} i parametr **helix_angle** nie jest równy zero, parametry koła zębatego są obliczane wewnętrznie dla obróconego koła zębatego.
+
+
+{{Properties_Title|hole}}
+
+-    **Axle_hole|Bool**: Domyślna wartość to {{False/pl}}. {{True/pl}} aktywuje środkowy otwór na oś.
+
+-    **Axle_holesize|Length**: Domyślna wartość to {{Value|10 mm}}. Średnica otworu na oś.
+
+-    **offset_hole|Bool**: Domyślna wartość to {{False/pl}}, {{True/pl}} aktywuje odsunięty otwór.
+
+-    **offset_holeoffset|Length**: Domyślna wartość to {{Value|10 mm}}. Odsunięcie dla odsuniętego otworu.
+
+-    **offset_holesize|Length**: Domyślna wartość to {{Value|10 mm}}. Średnica odsuniętego otworu.
 
 
 {{Properties_Title|Ewolwenta}}
@@ -148,32 +163,28 @@ Profil zęba 2D, uzyskany przez ustawienie właściwości **wysokość** na zero
 Tutaj \"standard\" odnosi się do tych kół zębatych czołowych, które nie mają współczynnika zmiany profilu *($x$)*.
 
 +++++
-| Symbol   | Terminy                                          | Formuła                            | Parametry FCGear                            |
-+==========+==================================================+====================================+=============================================+
-| $m$      | *Moduł*                                          | \-                                 | $\texttt{module}$                           |
+| Symbol   | Terminy                                          | Formuła                               | Parametry FCGear                            |
++==========+==================================================+=======================================+=============================================+
+| $m$      | *Moduł*                                          | \-                                    | $\texttt{module}$                           |
 +++++
-| $z$      | *Liczba zębów*                                   | \-                                 | $\texttt{teeth}$                            |
+| $z$      | *Liczba zębów*                                   | \-                                    | $\texttt{teeth}$                            |
 +++++
-| $\alpha$ | *Kąt natarcia*                                   | \-                                 | $\texttt{pressure} {\_} \texttt{parameter}$ |
-|          |                                                  | Typowo, $\alpha = 20^\circ$        |                                             |
+| $\alpha$ | *Kąt natarcia*                                   | Typowo, $\alpha = 20^\circ$           | $\texttt{pressure} {\_} \texttt{parameter}$ |
 +++++
-| d        | *Średnica odniesienia* lub *Średnica podziałowa* | $z \cdot m$                        | \-                                          |
+| $d$      | *Średnica odniesienia* lub *Średnica podziałowa* | $z \cdot m$                           | $\texttt{dw}$                               |
 +++++
-| $h^*_a$  | *współczynnik Addendum*                          | \-                                 | $h^*_a = 1 + \texttt{ head}$                |
-|          |                                                  | Typowo, $h^*_a = 1$                |                                             |
+| $h^*_a$  | *współczynnik Addendum*                          | \- Typowo, $h^*_a = 1$                | $h^*_a = 1 + \texttt{ head}$                |
 +++++
-| $h^*_f$  | *współczynnik Dedendum*                          | \-                                 | $h^*_f = 1 + \texttt{ clearance}$           |
-|          |                                                  | Typowo, $h^*_f = 1.25$             |                                             |
+| $h^*_f$  | *współczynnik Dedendum*                          | \- Typowo, $h^*_f = 1.25$             | $h^*_f = 1 + \texttt{ clearance}$           |
 +++++
-| $h_a$    | *Addendum*                                       | $h_a = h^*_a \cdot m$              | \-                                          |
+| $h_a$    | *Addendum*                                       | $h_a = h^*_a \cdot m$                 | \-                                          |
 +++++
-| $h_f$    | *Dedendum*                                       | $h_f = h^*_f \cdot m$              | \-                                          |
+| $h_f$    | *Dedendum*                                       | $h_f = h^*_f \cdot m$                 | \-                                          |
 +++++
-| $h$      | *Wysokość zęba* lub *Głębokość zęba*             | $h = h_a + h_f$                    | \-                                          |
-|          |                                                  | Typowo, $h = 2.25 \cdot m$         |                                             |
+| $h$      | *Wysokość zęba* lub *Głębokość zęba*             | $h = h_a + h_f$                       | \-                                          |
+|          |                                                  | Typowo, $h = 2.25 \cdot m$            |                                             |
 +++++
-| $x$      | *Współczynnik przesunięcia profilu*              | \-                                 | $\texttt{shift}$                            |
-|          |                                                  | Dla standardowych zębatek, $x = 0$ |                                             |
+| $x$      | *Współczynnik przesunięcia profilu*              | \- Dla standardowych zębatek, $x = 0$ | $\texttt{shift}$                            |
 +++++
 
 : style=\"text-align: left;\" \| Podstawowe wzory wspólne dla wewnętrznych i zewnętrznych standardowych kół zębatych czołowych
@@ -205,7 +216,7 @@ Tutaj \"standard\" odnosi się do tych kół zębatych czołowych, które nie ma
 ++++
 | Symbol | Terminy                                     | Formuła                    |
 +========+=============================================+============================+
-| $a$    | *Odległość od środka*                       | $d = \frac{d_1 + d_2}{2}$  |
+| $a$    | *Odległość od środka*                       | $a = \frac{d_1 + d_2}{2}$  |
 ++++
 | $c$    | *Prześwit pomiędzy końcówkami i korzeniami* | $c_1 = h_{f2} - h_{a1}$    |
 |        |                                             | $c_2 = h_{f1} - h_{a2}$    |
@@ -223,7 +234,7 @@ Tutaj \"standard\" odnosi się do tych kół zębatych czołowych, które nie ma
     -   
         **rozstaw osi**
         
-        = **(średnica podziałowa (dw) 1 + 2)** : 2
+        = **(średnica podziałowa (dw) 1 + śerdnica podziałowa (dw) 2)** : 2
 
     -   
         **średnica koła wierzchołkowego**

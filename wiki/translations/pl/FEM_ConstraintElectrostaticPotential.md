@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ConstraintElectrostaticPotential
    Name/pl: MES: Warunek brzegowy potencjału elektrostatycznego
    MenuLocation: Model , Warunki brzegowe elektromagnetyczne , Warunek brzegowy potencjału elektrostatycznego
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_Example_Capacitance_Two_Balls/pl, FEM_tutorial/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintElectrostaticPotential/pl
@@ -13,15 +18,15 @@
 
 ## Opis
 
-Tworzy warunek brzegowy MES dla potencjału elektrostatycznego. Używane z równaniem [elektrostatycznym](FEM_EquationElectrostatic/pl.md) lub [siły elektrostatycznej](FEM_EquationElectricforce/pl.md).
+Tworzy warunek brzegowy MES dla potencjału elektrostatycznego. Do użycia razem z równaniem [elektrostatycznym](FEM_EquationElectrostatic/pl.md), [siły elektrostatycznej](FEM_EquationElectricforce/pl.md), [magnetodynamicznym](FEM_EquationMagnetodynamic/pl.md) lub [magnetodynamicznym 2D](FEM_EquationMagnetodynamic2D/pl.md).
 
 
 
 ## Użycie
 
 1.  Wciśnij przycisk **<img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> '''Warunek brzegowy potencjału elektrostatycznego'''** lub użyj opcji **Model → Warunki brzegowe elektromagnetyczne → <img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> Warunek brzegowy potencjału elektrostatycznego** z menu.
-2.  W oknie [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego chcesz przypisać warunek brzegowy.
-3.  Wciśnij przycisk **Dodaj**.
+2.  Wciśnij przycisk **Dodaj**.
+3.  W oknie [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego chcesz przypisać warunek brzegowy.
 
 
 

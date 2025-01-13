@@ -1,5 +1,5 @@
 # Category:Image/ro
-This category lists pages related to the [Image Workbench/ro](Image_Workbench/ro.md).
+This category is for pages related to the [Image Workbench/ro](Image_Workbench/ro.md).
 
 ### Contents
 

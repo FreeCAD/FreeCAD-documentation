@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher MirrorSketch
    MenuLocation: Sketch , Mirror sketch
-   Workbenches: Sketcher_Workbench
+   Workbenches: Sketcher_Workbench, PartDesign_Workbench
    Version: 0.16
 ---
 
@@ -39,10 +39,6 @@ Construiți o schiță simetrică(o reflexie în oglindă) cu prima față de ax
 
 
 </div>
-
-## Notes
-
--   Multiple sketches can be selected before applying the operation.
 
 
 

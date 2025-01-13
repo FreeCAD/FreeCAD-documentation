@@ -1,59 +1,33 @@
-# Robot Export/de
 ---
- GuiCommand:   Name: Robot Export   Workbenches: Robot_Workbench/de   Robot|MenuLocation: Roboter , Exportiere Bewegungsbahn---
+ GuiCommand:
+   Name: Robot Export
+   Name/de: Robot Export
+   MenuLocation: Roboter , Bewegungsbahn exportieren
+   Workbenches: Robot_Workbench/de
+---
+
+# Robot Export/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-#### Beschreibung
-
-Exportiere eine Roboter-Programmdatei.
-Man kann entweder ein KUKA kompaktes Unterprogramm oder ein KUKA vollständiges Unterprogramm exportieren.
+Eine Roboter-Programmdatei exportieren. Es kann entweder ein kompaktes KUKA-Unterprogramm (**compact** subroutine) oder ein vollständiges KUKA-Unterprogramm (**full** subroutine) exportiert werden.
 
 
-</div>
+
+## Anwendung
+
+1.  Einen Roboter und eine Bewegungsbahn in der [Baumansicht](Tree_view/de.md) auswählen.
+2.  Es gibt mehrere Möglichkeiten eine Bewegungsbahn zu exportieren:
+    -   Den Menüeintrag **Robot** → ** Bewegungsbahn exportieren** → **<img src="images/Robot_Export.svg" width=32px> Kompaktes KUKA-Unterprogramm...** auswählen.
+    -   Den Menüeintrag **Robot** → **Bewegungsbahn exportieren** → **<img src="images/Robot_Export.svg" width=32px> Vollständiges KUKA-Unterprogramm...** auswählen.
+
+Ergebnis: Eine KRL-Datei (\*.src) wird erstellt.
 
 
-<div class="mw-translate-fuzzy">
 
-#### Anwendung
-
-1.  Selektieren Sie Roboter und Bewegungsbahn in der Baumansicht.
-2.  Wählen Sie ** Roboter** → ** Exportiere Bewegungsbahn** → **<img src="images/Robot_Export.png" width=32px> KUKA kompakte Unterprogramm...** aus dem Top-Menü.
-
-oder
-
-1.  Selektieren Sie Roboter und Bewegungsbahn in der Baumansicht.
-2.  Wählen Sie ** Roboter** → ** Exportiere Bewegungsbahn** → **<img src="images/Robot_Export.png" width=32px> KUKA vollständiges Unterprogramm...** aus dem Top-Menü.
-
-
-</div>
-
-1.  Select robot and trajectory in the [Tree view](Tree_view.md).
-2.  There are several ways to Export trajectory:
-    -   Choose **Robot** → **Export trajectory** → **<img src="images/Robot_Export.svg" width=32px> Kuka compact subroutine...** from the top menu.
-    -   Choose **Robot** → **Export trajectory** → **<img src="images/Robot_Export.svg" width=32px> Kuka full subroutine...** from the top menu.
-
-
-<div class="mw-translate-fuzzy">
-
-Eine KRL-Datei (\*.src) wird erstellt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Bemerkungen
-
-
-</div>
+## Hinweise
 
 
 

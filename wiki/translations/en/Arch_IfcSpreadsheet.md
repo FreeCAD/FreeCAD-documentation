@@ -1,10 +1,10 @@
 ---
  GuiCommand:
    Name: Arch IfcSpreadsheet
-   MenuLocation: Arch , Utilities , Create IFC spreadsheet
-   Workbenches: Arch_Workbench
+   MenuLocation: Utils , Create IFC spreadsheet...
+   Workbenches: BIM_Workbench
    Shortcut: **I** **P**
-   SeeAlso: Arch_IFC, Arch_IfcExplorer
+   SeeAlso: Arch_IFC
 ---
 
 # Arch IfcSpreadsheet/en
@@ -16,10 +16,9 @@ This tool creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an obj
 ## Usage
 
 1.  Select an object.
-2.  Invoke the command using several methods:
-    -   Pressing the **<img src="images/Arch_IfcSpreadsheet.svg" width=16px> Create IFC spreadsheet** button on the toolbar.
-    -   Using the **I** then **P** keyboard shortcut.
-    -   Using the **Arch → Utilities → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Create IFC spreadsheet** entry from the top menu.
+2.  There are several ways to invoke the tool:
+    -   Select the **Utils → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> Create IFC spreadsheet...** option from the menu.
+    -   Use the keyboard shortcut: **I** then **P**.
 
 ## Scripting
 
@@ -48,5 +47,13 @@ spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/en
+⏵ [documentation index](../README.md) > Arch IfcSpreadsheet/en

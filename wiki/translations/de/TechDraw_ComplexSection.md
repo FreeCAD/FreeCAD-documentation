@@ -5,7 +5,7 @@
    MenuLocation: TechDraw , TechDraw Ansichten , Komplexe Schnittansicht einfügen
    Workbenches: TechDraw_Workbench/de
    Version: 0.21
-   SeeAlso: TechDraw_SectionView/de, TechDraw_View/de, TechDraw_ProjectionGroup/de
+   SeeAlso: TechDraw_SectionView/de, TechDraw_View/de
 ---
 
 # TechDraw ComplexSection/de
@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Das Werkzeug **TechDraw KomplexerSchnitt** fügt einem Zeichnungsblatt eine Schnittansicht hinzu, die auf einer vorhandenen Bauteilansicht und einem Schnittprofil basiert.
+Das Werkzeug **TechDraw KomplexerSchnitt** fügt einem Zeichnungsblatt eine Schnittansicht hinzu, die auf einer vorhandenen Bauteilansicht und einem Schnittprofil (Schnittkontur) basiert.
 
 <img alt="" src=images/TechDraw_QuarterSection_example.png  style="width:350px;"> 
 *Halbschnitt, mit dem Werkzeug Komplexe Schnittansicht erstellt*
@@ -39,9 +39,9 @@ Das Werkzeug **TechDraw KomplexerSchnitt** fügt einem Zeichnungsblatt eine Schn
 
 
 
-## Eigenschaften KomplexerSchnitt 
+## Eigenschaften
 
-Siehe auch [TechDraw Schnittansicht](TechDraw_SectionView/de#Eigenschaften_Schnittansicht.md).
+Eine komplexe Schnittansicht, formal ein {{Incode|TechDraw::DrawComplexSection}}-Objekt, wird von einer [Schnittansicht](TechDraw_SectionView/de#Eigenschaften.md), formal ein {{Incode|TechDraw::DrawViewSection}}-Objekt abgeleitet und erbt alle seine Eigenschaften. Es besitzt außerdem die folgenden Eigenschaften:
 
 
 
@@ -50,24 +50,24 @@ Siehe auch [TechDraw Schnittansicht](TechDraw_SectionView/de#Eigenschaften_Schni
 
 {{TitleProperty|Cutting Tool}}
 
--    **Cutting Tool Wire Object**: Das Dokumentobjekt dessen Oberfläche verwendet wird, um das Profil des Schnittes zu erzeugen.
+-    {{PropertyData/de|Cutting Tool Wire Object}}: Das Dokumentobjekt, dessen Form verwendet wird, um die Schnittkontur zu erstellen.
 
--    **Projection Strategy**: Steuert, wie der Schnitt durchgeführt wird und wie das Ergebnis auf die Seite projiziert wird:
+-    {{PropertyData/de|Projection Strategy}}: Steuert, wie der Schnitt durchgeführt wird und wie das Ergebnis auf dem Blatt projiziert wird:
 
     -   
         {{Value|Offset}}
         
-        : Erzeugt einen einfachen Schnitt der Oberfläche und projiziert das Ergebnis.
+        : Erzeugt einen einfachen Schnitt der Ausgangsform und projiziert das Ergebnis.
 
     -   
         {{Value|Aligned}}
         
-        : Schneidet die Oberfläche unter Verwendung eines Werkzeuges das jede Kante (edge) des Schnittprofiles einzeln schneidet. Die Ergebnisse jedes Schnittes werden, in Abhängigkeit der Orientierung des Schnittprofiles, in einem vertikalen oder horizontalem Feld projiziert.
+        : Schneidet die Ausgangsform unter Verwendung eines Werkzeuges das jede Kante (edge) der Schnittkontur verwendet. Die Ergebnisse aller Schnitte werden, abhängig von der Orientierung der Schnittkontur, in einer vertikalen oder horizontalen Anordnung projiziert.
 
     -   
         {{Value|NoParallel}}
         
-        : Wie Aligned, aber jene Segmente des Schnittprofiles die parallel zur Blickrichtung sind, werden übersprungen.
+        : Wie Aligned, aber Abschnitte der Schnittkontur, die parallel zur Blickrichtung verlaufen, werden übersprungen.
 
 
 
@@ -79,7 +79,7 @@ Siehe [TechDraw Schnittansicht](TechDraw_SectionView/de#Hinweise.md)
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Eine komplexe Schnittansicht kann mit [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen erstellt werden:
 

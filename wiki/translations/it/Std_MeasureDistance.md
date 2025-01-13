@@ -4,7 +4,7 @@
    Name/it: Misura la distanza
    MenuLocation: Strumenti , Misura la distanza
    Workbenches: Tutti
-   SeeAlso: Part_Measure_Linear/it, Draft_Dimension/it
+   SeeAlso: Std_Measure/it, Draft_Dimension/it
 ---
 
 # Std MeasureDistance/it
@@ -74,7 +74,7 @@ Il comando **Misura la distanza** crea un oggetto distanza che misura e visualiz
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

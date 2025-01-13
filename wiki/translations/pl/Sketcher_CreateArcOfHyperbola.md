@@ -6,7 +6,7 @@
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **H**
    Version: 0.17
-   SeeAlso: Sketcher_CreateArcOfEllipse/pl, Sketcher_CreateArcOfParabola/pl
+   SeeAlso: Sketcher_CreateArcOfParabola/pl
 ---
 
 # Sketcher CreateArcOfHyperbola/pl
@@ -15,19 +15,36 @@
 
 ## Opis
 
-To narzędzie tworzy łuk hiperboli poprzez środek, promień główny i punkty końcowe.
+Narzędzie <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width:24px;"> **Utwórz łuk na podstawie hiperboli** tworzy łuk hiperboli.
 
-![](images/Sketcher_Arc_of_Hyperbola_01.png )
+![](images/Sketcher_CreateArcOfHyperbola_Example.png ) 
+*Łuk hiperpoli ''(biały)'' z wewnętrzną geometrią ''(ciemnożółta)''.*
 
 
 
 ## Użycie
 
-1.  Naciśnij przycisk **[<img src=images/Sketcher_CreateArcOfHyperbola.svg style="width:16px"> [Utwórz łuk na podstawie hiperboli](Sketcher_CreateArcOfHyperbola/pl.md)**.
-2.  Kliknij w oknie widoku 3D, aby zdefiniować środek promienia głównego *(oznaczony jako 1 na rysunku powyżej)*.
-3.  Kliknij w oknie widoku 3D, aby zdefiniować długość promienia głównego, który jest jednocześnie wierzchołkiem łuku hiperboli *(oznaczony jako 2 na rysunku powyżej)*.
-4.  Odsuń kursor myszki od dwóch ostatnio wybranych punktów, aby zobaczyć, jak będzie wyglądał łuk. Kliknij ponownie, gdy pojawi się przybliżona pożądana krzywizna. Ten punkt będzie definiował pierwszy punkt końcowy *(oznaczony jako 3 na rysunku powyżej)*.
-5.  Kliknij czwarty raz w oknie widoku 3D, aby zdefiniować drugi punkt końcowy *(oznaczony jako 4 na powyższym rysunku)*.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
+
+1.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_CreateArcOfHyperbola.svg" width=16px> '''Łuk hiperboli przez środek, promień, punkty końcowe'''**.
+    -   Wybierz z menu **Szkic → Elementy geometryczne szkicownika → <img src="images/Sketcher_CreateArcOfHyperbola.svg" width=16px> Utwórz łuk na podstawie hiperboli**.
+    -   Użyj skrótu klawiaturowego: **G**, a następnie **H**.
+2.  Kursor zmieni się w krzyżyk z ikoną narzędzia.
+3.  Wybierz środek głównego promienia łuku *(oznaczony jako 1 na powyższym obrazku)*.
+4.  Wybierz wierzchołek łuku *(oznaczony jako 2 na powyższym obrazku)*, który również definiuje jego główny promień.
+5.  Wybierz punkt początkowy łuku *(oznaczony jako 3 lub 4 na powyższym obrazku)*, który również definiuje jego krzywiznę.
+6.  Wybierz punkt końcowy łuku *(oznaczony 3 lub 4 na powyższym obrazku)*.
+7.  Zostanie utworzony łuk hiperboli wraz z zestawem geometrii wewnętrznej.
+8.  Jeśli narzędzie działa w [trybie kontynuacji](Sketcher_Workbench/pl#Tryby_kontynuacji.md):
+    1.  Opcjonalnie kontynuuj tworzenie łuków.
+    2.  Aby zakończyć, kliknij prawym przyciskiem myszy lub naciśnij **Esc**, lub uruchom inne narzędzie do tworzenia geometrii lub wiązań.
+
+
+
+## Uwagi
+
+-   Elementy geometrii wewnętrznej mogą zostać usunięte. Można je odtworzyć w dowolnym momencie za pomocą [Pokaż / ukryj geometrię wewnętrzną](Sketcher_RestoreInternalAlignmentGeometry/pl.md).
 
 
 

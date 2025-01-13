@@ -1,28 +1,19 @@
 ---
  GuiCommand:
    Name: Part_Chamfer
-   Name/it: Smussa
+   Name/it: Part Smussa
    MenuLocation: Parte , Smussa...
    Workbenches: Part_Workbench/it
-   SeeAlso: Part Fillet/it
+   SeeAlso: Part_Fillet/it
 ---
 
 # Part Chamfer/it
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-Questo strumento smussa i bordi selezionati di un oggetto. Una finestra di dialogo consente di scegliere su quali oggetti e su quali bordi lavorare e di impostare i parametri dello smusso.
-
-
-</div>
+**Part Smussa** smussa il bordo(i) selezionato(i) di un oggetto. Una finestra di dialogo consente di scegliere su quale/i bordo/i lavorare e di modificare vari parametri dello smusso.
 
 ![Chamfer example](images/Chamfer-example.png )
 
@@ -30,22 +21,15 @@ Questo strumento smussa i bordi selezionati di un oggetto. Una finestra di dialo
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Premere il pulsante **<img src="images/Part_Chamfer.svg" width=30px>** dell\'ambiente [Part](Part_Workbench/it.md), oppure selezionare **Part → Smussa...**.
+1.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Part_Chamfer.svg" width=16px> Smussa...**.
+    -   Seleziona l\'opzione **Parte → Smussa...** dal menu.
 2.  Selezionare la forma da smussare dalla finestra di dialogo.
-3.  Selezionare i bordi da smussare attivando la casella corrispondente nella finestra di dialogo Smusso o selezionandoli direttamente sul modello.
-4.  Definire i parametri dello smusso.
-5.  Premere **OK** per chiudere la finestra e applicare lo smusso.
+3.  Selezionare i bordi da smussare selezionando la casella corrispondente nella finestra di dialogo dello smusso o selezionandoli direttamente sul modello.
+4.  Modificare i parametri dello smusso.
+5.  Premere **OK** per chiudere la finestra di dialogo dello smusso e applicare lo smusso.
 
 
-</div>
-
-## Options
-
-
-<div class="mw-translate-fuzzy">
 
 ## Opzioni
 
@@ -57,25 +41,10 @@ Questo strumento smussa i bordi selezionati di un oggetto. Una finestra di dialo
     -   Uno smusso variabile ha i bordi che possono essere impostati a distanze diverse dal bordo originale, e consente di creare uno smusso angolato a piacere.
 
 
-</div>
-
-## Properties
-
-
-<div class="mw-translate-fuzzy">
 
 ## Proprietà
 
-![Part_Chamfer Properties](images/Part_Chamfer-Properties.png )
-
-
-</div>
-
-
-{{Properties_Title|Base}}
-
-
-<div class="mw-translate-fuzzy">
+![Part Chamfer Properties](images/Part_Chamfer-Properties.png ) 
 
 
 {{Properties_Title|Base}}
@@ -90,39 +59,18 @@ Questo strumento smussa i bordi selezionati di un oggetto. Una finestra di dialo
 
 
 
-</div>
-
-## Limitations
-
-
-<div class="mw-translate-fuzzy">
 
 ## Limitazioni
 
-Lo smusso potrebbe non fare nulla se il risultato tocca o attraversa il bordo adiacente successivo. Quindi, se non si ottiene il risultato atteso, provare con un valore inferiore. Lo stesso vale per il <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Raccordo](Part_Fillet/it.md) di Part.
+Lo smusso potrebbe non fare nulla se il risultato tocca o attraversa il bordo adiacente successivo. Quindi, se non si ottiene il risultato atteso, provare con un valore inferiore. Lo stesso vale per <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Raccorda](Part_Fillet/it.md).
+
+Notare inoltre che la funzione Smusso è soggetta al problema della [denominazione topologica](Topological_naming_problem/it.md) quando viene apportata una qualsiasi modifica a una fase di modellazione precedente nella catena che influenza il numero di sfaccettature o vertici. Ciò può causare risultati imprevedibili. Fino a quando ciò non viene risolto, si consiglia di applicare le operazioni di smusso e di [raccordo](Part_Fillet/it.md) negli ultimi passi della catena.
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Notare inoltre che la funzione Smusso è soggetta al problema della [denominazione topologica](Topological_naming_problem/it.md) quando viene apportata una qualsiasi modifica a una fase di modellazione precedente nella catena che influenza il numero di sfaccettature o vertici. Ciò può causare risultati imprevedibili. Fino a quando ciò non viene risolto (possibilmente con V0.19), si consiglia di applicare le operazioni di smusso e di [raccordo](Part_Fillet/it.md) negli ultimi passi della catena.
-
-
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
-Lo strumento smusso può essere utilizzato nelle [macro](macros/it.md) e dalla console python aggiungendo un oggetto smusso al documento.
-
-
-</div>
+Lo strumento smusso può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) aggiungendo un oggetto smusso al documento.
 
 **Esempio di Script:**
 
@@ -216,15 +164,6 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 -   Ricalcola tutti i componenti modificati e presenti sullo schermo e aggiorna la visualizzazione.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

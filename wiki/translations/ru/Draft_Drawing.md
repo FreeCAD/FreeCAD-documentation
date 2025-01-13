@@ -16,13 +16,7 @@
 
 ## Описание
 
-
-<div class="mw-translate-fuzzy">
-
-Этот инструмент позволяет помещать выбранные объекты в svg [Drawing sheet](Drawing_Workbench.md). Если в документе нет [sheet](Drawing_templates.md), будет создан по умолчанию. Этот инструмент работает аналогично инструменту [Drawing View](Drawing_View.md), но оптимизирован для объектов [ Draft](Draft_Workbench.md) и может отображать плоские 2D-объекты с заполнением лица. Он также может обрабатывать несколько конкретных объектов проекта, таких как [dimensions](Draft_Dimension.md) и [texts](Draft_Text.md), которые невозможно обработать инструментом [Drawing View](Drawing_View.md).
-
-
-</div>
+The <img alt="" src=images/Draft_Drawing.svg  style="width:24px;"> **Draft Drawing** command inserts views of selected objects into a [drawing](Drawing_Workbench.md) page.
 
 This command is similar to the [Drawing View](Drawing_View.md) command but is optimized for [Draft](Draft_Workbench.md) objects. Contrary to that command, it can handle specific objects such as [Draft Dimensions](Draft_Dimension.md) and [Draft Texts](Draft_Text.md), and it can render faces.
 

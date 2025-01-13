@@ -5,8 +5,8 @@
    MenuLocation: TechDraw , Ergänzungen: Merkmale/Änderungen , Bogenlänge der ausgewählten Kanten berechnen
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
-   Version: 0.22
-   SeeAlso: TechDraw_ExtensionAreaAnnotation/de
+   Version: 1.0
+   SeeAlso: TechDraw_ExtensionCreateLengthArc/de
 ---
 
 # TechDraw ExtensionArcLengthAnnotation/de

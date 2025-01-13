@@ -23,7 +23,7 @@ The **TechDraw DraftView** tool inserts a view of a selected [Part](Part_Workben
 4.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_DraftView.svg" width=16px> [Insert Draft Workbench Object](TechDraw_DraftView.md)** button.
     -   Select the **TechDraw → Views From Other Workbenches → <img src="images/TechDraw_DraftView.svg" width=16px> Insert Draft Workbench Object** option from the menu.
-5.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+5.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens:
     1.  Select the desired page.
     2.  Press the **OK** button.
 
@@ -41,7 +41,9 @@ The DraftView is rendered within the [Draft Workbench](Draft_Workbench.md), ther
 
 ## Properties
 
-See also [TechDraw View](TechDraw_View#Properties.md).
+See also: [Property editor](Property_editor.md).
+
+A Draft View, formally a {{Incode|TechDraw::DrawViewDraft}} object, has the [properties](TechDraw_View#Properties_Part_View.md) that are common to all View types. It also has the following additional properties:
 
 ### Data
 
@@ -60,9 +62,18 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 -    **Line Style|String**: A line style to use for this view. Can be {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dashdot}}, {{Value|Dot}} or an SVG line pattern like {{Value|0.20,0.20}}.
 
--    **Line Spacing|Float**: The spacing to use between lines of texts for multiline texts.
+-    **Line Spacing|Float**: The spacing between lines to use for multiline texts.
 
 -    **Override Style|Bool**: If `True`, line color, width and style of this view will override those of the rendered object.
+
+
+{{TitleProperty|Drawing view}}
+
+-    **Symbol|String|Hidden**: The SVG code defining this symbol.
+
+-    **Editable Texts|StringList**: Substitution values for the editable strings in this symbol.
+
+-    **Owner|Link**: Feature to which this symbol is attached. <small>(v1.0)</small> 
 
 ## Scripting
 
@@ -81,7 +92,7 @@ rc = page.addView(dv)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

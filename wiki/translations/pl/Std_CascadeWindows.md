@@ -15,7 +15,7 @@
 
 Polecenie **Kaskadowo** zmienia układ okien w [Głównym obszarze widoku](Main_view_area/pl.md) tak, że wszystkie są widoczne, ale nakładają się na siebie. Wynik jest określany na podstawie kolejności, w jakiej okna były ostatnio aktywowane.
 
-<img alt="" src=images/Std_CascadeWindows_example.png  style="width:600px;"> 
+<img alt="" src=images/Std_CascadeWindows_example.png  style="width:400px;"> 
 *Główny obszar widoku z trzema oknami wyłożonymi kaskadowo.*
 
 
@@ -29,7 +29,7 @@ Polecenie **Kaskadowo** zmienia układ okien w [Głównym obszarze widoku](Main_
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

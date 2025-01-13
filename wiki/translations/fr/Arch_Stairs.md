@@ -2,11 +2,11 @@
  GuiCommand:
    Name: Arch Stairs
    Name/fr: Arch Escalier
-   MenuLocation: Arch , Escalier
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: 3D/BIM , Escalier
+   Workbenches: BIM_Workbench/fr
    Shortcut: **S** **R**
    Version: 0.14
-   SeeAlso: Arch_Structure/fr, Arch_Equipment/fr
+   SeeAlso: 
 ---
 
 # Arch Stairs/fr
@@ -28,15 +28,22 @@ Voir la [terminologie des escaliers sur wikipedia](https://fr.wikipedia.org/wiki
 
 ## Utilisation
 
-1.  Sélectionnez un ou plusieurs objets de base, par exemple des [Draft Lignes](Draft_Line.md) et des [Draft Polylignes](Draft_Wire.md) :
-    -   Les Draft Polylignes avec deux segments ou plus seront utilisés pour créer des paliers. Ils doivent être sur un plan parallèle au plan global XY. Par exemple, sélectionnez une polyligne en U pour un palier en demi-tour et une polyligne en L pour un palier en coin.
-    -   Les Draft Lignes seront utilisées pour créer des étages.
-    -   Si les sommets de toutes les lignes et polylignes ont des coordonnées Z correctes, les escaliers créés utiliseront ces informations.
+1.  Sélectionnez un ou plusieurs objets de base, par exemple des [Draft Lignes](Draft_Line/fr.md) et des [Draft Polylignes](Draft_Wire/fr.md) et des [esquisses](Sketch/fr.md) :
+    -   Les polylignes de Draft ou les esquisses avec deux segments ou plus seront utilisés pour créer des paliers. Ils doivent être sur un plan parallèle au plan global XY. Par exemple, sélectionnez une polyligne en U pour un palier en demi-tour et une polyligne en L pour un palier en coin.
+    -   Les lignes de Draft et les esquisses avec une seule arête seront utilisées pour créer des volées.
+    -   Si les sommets de toutes les lignes et polylignes ont des coordonnées Z correctes, les escaliers créés utiliseront ces informations. Une esquisse (plan parallèle au plan XY) avec une seule arête, ou une ligne de Draft sans delta Z, peut également servir de base à une volée.
     -   Les objets de base doivent être sélectionnés dans l\'ordre correctement en commençant par l\'objet du bas.
 2.  Appuyez sur le bouton **<img src="images/Arch_Stairs.svg" width=16px> [Escalier](Arch_Stairs/fr.md)** ou appuyez sur les touches **S**, **R**.
 3.  Ajustez les propriétés souhaitées. Certaines parties de l\'escalier, comme la structure, peuvent ne pas apparaître immédiatement, si l\'une des propriétés le rend impossible, par exemple une épaisseur de structure de 0.
 
-<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;"> 
+<img alt="" src=images/Stairs_and_Landing_02.png  style="width:600px;">
+
+<img alt="" src=images/Stairs_and_Landing_01.png  style="width:600px;">
+
+<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;">
+
+
+
 *Escalier complexe basé sur une sélection de lignes et relié comme indiqué sur la gauche.<br>
 En rouge les polylignes utilisées pour les paliers à Z&equals;1500mm, Z&equals;3000mm et Z&equals;4500mm.<br>
 En noir, les lignes les reliant utilisées pour les étages.
@@ -57,13 +64,13 @@ En noir, les lignes les reliant utilisées pour les étages.
 
 -    **Last Segment|Link**: dernier segment (volée des marches ou palier) d\'un escalier en arc se connectant à ce segment. Le niveau de départ de l\'escalier sera le niveau final de ce dernier segment.
 
--    **Outline Left|VectorList**: contour gauche de l\'escalier.
+-    **Outline Left|VectorList**: (lecture seule) contour gauche de l\'escalier.
 
--    **Outline Left All|VectorList**: contour gauche de tous les segments de l\'escalier.
+-    **Outline Left All|VectorList**: (lecture seule) contour gauche de tous les segments de l\'escalier.
 
--    **Outline Right|VectorList**: contour droit de l\'escalier.
+-    **Outline Right|VectorList**: (lecture seule) contour droit de l\'escalier.
 
--    **Outline Right All|VectorList**: contour droit de tous les segments de l\'escalier.
+-    **Outline Right All|VectorList**: (lecture seule) contour droit de tous les segments de l\'escalier.
 
 -    **Railing Height Left|Length**: hauteur de la rampe gauche de l\'escalier ou du palier.
 
@@ -142,7 +149,7 @@ En noir, les lignes les reliant utilisées pour les étages.
 
 ## Limitations
 
--   Seuls les escaliers droits sont disponible pour le moment
+-   Les escaliers et paliers droits, demi-tour à gauche ou demi-tour à droite sont actuellement disponibles.
 -   Voir la [fil du forum](http://forum.freecadweb.org/viewtopic.php?f=23&t=6534) pour les escaliers circulaires
 -   Voir la [annonce sur le forum](http://forum.freecadweb.org/viewtopic.php?f=9&t=4564).
 
@@ -172,5 +179,13 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/fr
+⏵ [documentation index](../README.md) > Arch Stairs/fr

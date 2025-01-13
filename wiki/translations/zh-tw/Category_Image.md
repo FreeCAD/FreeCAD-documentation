@@ -1,5 +1,5 @@
 # Category:Image/zh-tw
-This category lists pages related to the [Image Workbench/zh-tw](Image_Workbench/zh-tw.md).
+This category is for pages related to the [Image Workbench/zh-tw](Image_Workbench/zh-tw.md).
 
 ### Contents
 

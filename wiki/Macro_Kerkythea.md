@@ -3,7 +3,7 @@
 
  
 
-Macro to export your model to the raytracing program [Kerkythea](http://www.kerkythea.net/cms/).
+Macro to export your model to the raytracing program [Kerkythea](https://kerkythea.net).
 
 ## References
 

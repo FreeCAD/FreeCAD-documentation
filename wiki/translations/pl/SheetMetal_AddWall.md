@@ -30,10 +30,18 @@ Zresetowanie właściwości **kąt** do około 180° w drugim kroku spowoduje ut
 ## Użycie
 
 1.  Wybierz jedną lub więcej krawędzi elementu bazowego.
-2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddWall.svg  style="width:16px;"> **Utwórz ścinkę** używając jednej z poniższych opcji:
-    -   Przycisk **<img src="images/SheetMetal_AddWall.svg" width=16px> '''Utwórz ścinkę'''**.
-    -   Opcja menu **SheetMetal → <img src="images/SheetMetal_AddWall.svg" width=16px> Utwórz ścinkę**.
-    -   Skrót klawiaturowy: **W**.
+2.  Jest kilka sposobów na wywołanie tego polecenia:
+    -   Wciśnij przycisk **<img src="images/SheetMetal_AddWall.svg" width=16px> '''Utwórz ściankę'''**.
+    -   Wybierz opcję **Sheet Metal → <img src="images/SheetMetal_AddWall.svg" width=16px> Utwórz ściankę** z menu.
+    -   Kliknij prawym przyciskiem myszy w [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md) i wybierz opcję **Sheet Metal → <img src="images/SheetMetal_AddWall.svg" width=16px> Utwórz ścianę** z menu kontekstowego.
+    -   Użyj skrótu klawiszowego: **W**.
+3.  Otwarty zostanie [panel zadań](Task_panel/pl.md) **Flange Parameters** (wprowadzony w wersji 0.5.00).
+4.  Opcjonalnie wciśnij przycisk **Wybierz** aby dodać więcej krawędzi.
+    -   Wciśnij przycisk **Podgląd** aby zakończyć wybór i wyświetlić zmiany.
+5.  Opcjonalnie dostosuj parametry w panelu zadań.
+6.  Wciśnij przycisk **OK** aby zakończyć polecenie i zamknąć panel zadań.
+7.  Utworzony zostanie obiekt **Bend** składający się z nowego kołnierza na każdej wskazanej krawędzi.
+8.  Opcjonalnie dostosuj parametry w [Edytorze właściwości](Property_editor/pl.md).
 
 
 
@@ -68,20 +76,11 @@ Jeśli zaczniesz od utworzenia <img alt="" src=images/PartDesign_Body.svg  style
 
 Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt Zagięcie środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+Obiekt Zagięcie środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) lub, jeśli jest w obrębie [Zawartości środowiska Projekt Części](PartDesign_Body/pl.md), z obiektu [Cechy tego środowiska](PartDesign_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
 
 ### Dane
-
-
-{{Properties_Title|Podstawowe}}
-
--    **Etykieta|String**: Wartość domyślna: {{value|Bend}} *(+ kolejny numer dla drugiej i następnych pozycji)*. Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg znaków UTF8.
-
--    **Cecha podstawowa|Link|ukryte**: Cecha bazowa. Link do cechy nadrzędnej.
-
--    **_Body|LinkHidden|ukryte**: Link ukryty do zawartości nadrzędnej.
 
 
 {{Properties_Title|Parametry}}
@@ -94,6 +93,10 @@ Obiekt Zagięcie środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cec
 
 -    **Obiekt bazowy|LinkSub**: \"Obiekt bazowy\". Łącze do płaskiej powierzchni, która ma zostać wygięta.
 
+-    **extend1|Distance**: \"Przedłużenie z lewej strony\". Domyślnie: {{value|0,00 mm}}.
+
+-    **extend2|Distance**: \"Przedłużenie z prawej strony\". Domyślnie: {{value|0,00 mm}}.
+
 -    **Szczelina1|Distance**: \"Szczelina z lewej strony\". Wartość domyślna: {{value|0,00 mm}}.
 
 -    **Szczelina2|Distance**: \"Szczelina z prawej strony\". Wartość domyślna: {{value|0,00 mm}}.
@@ -102,26 +105,24 @@ Obiekt Zagięcie środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cec
 
 -    **Długość|Length**: \"Długość ściany\". Wartość domyślna: {{value|10,00 mm}}.
 
--    **Promień|Length**: \"Promień zgięcia\". Wartość domyślna: {{value|1,00 mm}}.
+-    **Promień|Length**: \"Promień zgięcia\", domyślna wartość zależy od właściwości promienia cechy nadrzędnej:
+
+    -   Ta właściwość nie istnieje: Ta właściwość jest ustawiona na {{value|1,00 mm}}.
+    -   Ta właściwość zawiera wartość numeryczną: Wyrażenie wiążące tą właściwość jest wstawiane do ten właściwości.
+    -   Ta właściwość zawiera wyrażenie: Wyrażenie jest kopiowane do tej właściwości.
 
 
 {{Properties_Title|Parametry Ex}}
 
 -    **Automatyczne ścięcie|Bool**: \"Włącz automatyczne ukosowanie\". Domyślnie: {{TRUE/pl}}.
 
--    **Przedłuż1|Distance**: \"Przedłuż z lewej strony\". Domyślnie: {{value|0,00 mm}}.
-
--    **Przedłuż2|Distance**: \"Przedłuż z prawej strony\". Domyślnie: {{value|0,00 mm}}.
-
 -    **Współczynnik K|FloatConstraint**: \"Położenie linii neutralnej. Uwaga: Korzystanie ze standardów ANSI, nie DIN.\".  Domyślnie: {{value|0,50}}. Współczynnik K *(znany również jako współczynnik neutralny)* dla zgięcia. Używany do obliczania naddatku na zginanie podczas rozkładania.
 
 -    **max Odległość wysuwu|Length**: \"Maksymalny wysuw przy automatycznym ścinaniu\". Domyślnie: {{value|5,00 mm}}.
 
--    **min Szczelina|Length**: \"Minimalna szczelina przy automatycznym ścinaniu\". Domyślnie: {{value|5,00 mm}}.
+-    **min Szczelina|Length**: \"Minimalna szczelina przy automatycznym ścinaniu\". Domyślnie: {{value|0,20 mm}}.
 
--    **KątZagięcia1|Angle**: \"Zagięcie pod kątem z lewej strony\". Domyślny kąt: {{value|0,00°}}.
-
--    **KątZagięcia2|Angle**: \"Zagięcie pod kątem z prawej strony\". Domyślny kąt: {{value|0,00°}}.
+-    **min Szczelina podcięcia|Length**: \"Minimalna szczelina do podcięcia\". Domyślnie: {{value|1,00 mm}}.
 
 -    **Odsunięcie|Distance**: \"Odsunięcie zagięcie\". Domyślnie: {{value|0,00 mm}}.
 
@@ -139,18 +140,36 @@ Obiekt Zagięcie środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cec
 
 {{Properties_Title|Parametry Ex3}}
 
--    **Lista długości|FloatList**: \"Lista długości ścian\". Wartość domyślna: {{value|[10,00]}}.
+-    **Lista długości|FloatList**: \"Lista długości ścian\". Wartość domyślna: {{value|[10.00]}}.
 
--    **Lista A zgięć|FloatList**: \"Lista kątów gięcia\". Wartość domyślna: {{value|[90,00]}}.
+-    **Lista A zgięć|FloatList**: \"Lista kątów gięcia\". Wartość domyślna: {{value|[90.00]}}.
+
+
+{{Properties_Title|Parametery kąta zagięcia}}
+
+-    **Kąt zagięcia 1|Angle**: \"Kąt zagięcia z lewej strony\". Domyślny kąt: {{value|0,00°}}.
+
+-    **Kąt zagięcia 2|Angle**: \"Kąt zagięcia z prawej strony\". Domyślny kąt: {{value|0,00°}}.
+
+
+{{Properties_Title|Parametry perforacji}}
+
+-    **Nonperforation Max Length|Length**: \"Maksymalna długość bez perforacji\". Domyślnie: {{value|5 mm}}.
+
+-    **Perforate|Bool**: \"Włącz perforacje\". Domyślnie: {{FALSE/pl}}.
+
+-    **Perforation Angle|Angle**: \"Kąt perforacji\". Domyślnie: {{value|0 °}}.
+
+-    **Perforation initial Length|Length**: \"Początkowa długość perforacji\". Domyślnie: {{value|5 mm}}.
+
+-    **Perforation Max Length|Length**: \"Maksymalna długość perforacji\". Domyślnie: {{value|5 mm}}.
 
 
 {{Properties_Title|Parametry reliefu}}
 
 -    **Współczynnik podcięcia|Float**: \"Współczynnik podcięcia\". Wartość domyślna: {{value|0,70}}.
 
--    **Zastosuj współczynnik poecięcia|Bool**: \"Zastosuj współczynnik poecięcia\". Wartość domyślna: {{FALSE/pl}}.
-
--    **min szcelina podcięcia|Length**: \"Minimalna szczelina do wycięcia podcięcia\". Wartość domyślna: {{value|1,00 mm}}.
+-    **Zastosuj współczynnik poecięcia|Bool**: \"Zastosuj współczynnik podcięcia\". Wartość domyślna: {{FALSE/pl}}.
 
 -    **Typ podcięcia|Enumeration**: \"Typ podcięcia\". {{value|Prostokątne}} *(domyślnie)*, {{value|Zaokrąglone}}. Włączone tylko wtedy, gdy ustawiona jest wartość szczeliny.
 

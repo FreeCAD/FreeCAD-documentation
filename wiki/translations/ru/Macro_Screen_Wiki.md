@@ -4,8 +4,8 @@
 |Icon=Macro_Screen_Wiki.png
 |Description=Special macro for the Wiki user. This macro allows to save the 3D view in the desired format. The 3D view or the full 3D window of FreeCAD takes the desired dimensions. A rotation of the selected object or of the 3D view is possible to give a rotation angle the number of images is calculated automatically it is possible to give a departure angle and an arrival angle. You must use another Gimp example program to assemble the images and create the animated file.
 |Author=Mario52
-|Version=00.06b
-|Date=2023/06/26
+|Version=00.06c
+|Date=2024/10/10
 |FCVersion=0.19 and more
 |Download=[https://wiki.freecad.org/images/f/f5/Macro_Screen_Wiki.png ToolBar Icon]
 |SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md), [Macro Snip](Macro_Snip.md)
@@ -24,7 +24,7 @@
 </div>
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/2e2f5d1f30acd9fee9ea58596d0bcaa8d19f03f3/Macro_Screen_Wiki.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/14deef95d2276c1095ea7eefb75dc5b5e4be4e04/Macro_Screen_Wiki.FCMacro}}
 
 ![](images/Macro_Screen_Wiki_00.png )
 
@@ -321,6 +321,8 @@
 
 
 ## Версии
+
+Version=00.06c: 10/10/2024 : delete \"**import WebGui**\"
 
 Version=00.06: Version=00.06b: 2023/06/26 : adding select number image, button test rotation, button visualize the point rotation, adding code by wmayer center rotation on center screen :
 

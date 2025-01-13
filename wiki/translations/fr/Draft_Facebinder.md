@@ -1,10 +1,10 @@
 ---
  GuiCommand:
    Name: Draft Facebinder
-   Name/fr: Draft Surfaces liées
-   MenuLocation: Draft , Surfaces liées
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
-   Shortcut: **F** **F**
+   Name/fr: Draft Surface liée
+   MenuLocation: Draft : Formes , Surface liée<br><br>BIM : 3D/BIM , Outils 3D génériques , Surface liée
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
+   Shortcut: Draft : **F** **F**
    Version: 0.14
 ---
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Draft Surfaces liées** crée un objet de surface à partir des faces sélectionnées. Un objet Draft Surfaces liées est paramétrique, il sera mis à jour si vous modifiez son ou ses objets sources.
+La commande <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Draft Surface liée** crée un objet surface à partir des faces sélectionnées. Une Draft Surface liée est paramétrique, elle sera mise à jour si vous modifiez son ou ses objets sources.
 
 Elle peut être utilisée pour créer une extrusion à partir d\'une combinaison de surfaces. Cette extrusion peut par exemple représenter une finition de mur dans une conception architecturale.
 
@@ -25,9 +25,10 @@ Elle peut être utilisée pour créer une extrusion à partir d\'une combinaison
 
 1.  Sélectionner une ou plusieurs faces.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyer sur le bouton **<img src="images/Draft_Facebinder.svg" width=16px> [Surfaces liées](Draft_Facebinder/fr.md)**.
-    -   Sélectionner l\'option **Draft → <img src="images/Draft_Facebinder.svg" width=16px> Surfaces liées** du menu.
-    -   Utiliser le raccourci clavier : **F** puis **F**.
+    -   Appuyer sur le bouton **<img src="images/Draft_Facebinder.svg" width=16px> [Surface liée](Draft_Facebinder/fr.md)**.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionner l\'option **Formes → <img src="images/Draft_Facebinder.svg" width=16px> Surface liée** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionner l\'option **3D/BIM → Outils 3D génériques → <img src="images/Draft_Facebinder.svg" width=16px> Surface liée** du menu.
+    -   Draft : utiliser le raccourci clavier : **F** puis **F**.
 
 
 
@@ -35,7 +36,7 @@ Elle peut être utilisée pour créer une extrusion à partir d\'une combinaison
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Draft Surfaces liées est dérivé de [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+Un objet Draft Surface liée est dérivé de [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 
 
@@ -96,9 +97,9 @@ PropertyLinkSubList = [(object1, ['Face1', 'Face4', 'Face6']), ...]
 PropertyLinkSubList = [(object1, ('Face1', 'Face4', 'Face6')), ...]
 ```
 
-L\'épaisseur de Facebinder peut être ajoutée en écrasant son attribut `Extrusion`. La valeur est entrée en millimètres.
+L\'épaisseur de la surface liée peut être ajoutée en écrasant son attribut `Extrusion`. La valeur est entrée en millimètres.
 
-Le placement de Facebinder peut être modifié en remplaçant son attribut `Placement` ou en écrasant individuellement ses attributs `Placement.Base` et `Placement.Rotation`.
+Le placement de la surface liée peut être modifié en remplaçant son attribut `Placement` ou en écrasant ses attributs `Placement.Base` et `Placement.Rotation`.
 
 Exemple :
 

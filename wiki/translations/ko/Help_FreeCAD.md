@@ -14,6 +14,8 @@ FreeCAD를 좋아하고 개발을 돕고 싶으면, 프로그래머가 아니라
 Although FreeCAD doesn\'t need money to be developed, donations can help the project to grow further and faster. The [Donate](Donate.md) page lists all the options you have to donate money to the project.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### 문서 작업 
@@ -30,6 +32,8 @@ A couple of areas that would welcome your work:
 -   The [:Category:Command Reference](:Category_Command_Reference.md) page lists and documents all of the FreeCAD [commands](command.md). Most of them contain little to no information at all. Please refer to [WikiPages](WikiPages.md) for good examples of what command documentation pages should look like.
 -   The [Tutorials](Tutorials.md) section needs examples on how to use the workbenches. If you developed something cool with FreeCAD, why not document how you did it for posterity?
 -   There are open tickets on the FreeCAD [\"bug tracker\"](https://github.com/FreeCAD/FreeCAD/issues) tagged [\"documentation\"](https://github.com/FreeCAD/FreeCAD/issues?q=is%3Aopen+is%3Aissue+label%3Adocumentation) that could use some love.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -56,36 +60,26 @@ The user community around FreeCAD is still small, but already includes several a
 -   Be present at the FreeCAD IRC channel or [other chat groups](https://www.freecadweb.org/wiki/Help#Chat).
 
 
-<div class="mw-translate-fuzzy">
 
 ### FreeCAD 번역하기 
 
 FreeCAD를 여러분의 언어로 번역하세요. FreeCAD 인터페이스의 모든 텍스트 문자열은 다른 언어로 쉽게 번역할 수 있습니다. 우리가 필요한 것은, 다른 언어를 알고 도움을 줄 수있는 사람입니다! 모든 번역은 [Crowdin](http://crowdin.net/project/freecad)에서 온라인으로 합니다.
 
-
-</div>
-
-Translate FreeCAD to your own language. All text strings of the FreeCAD interface can be easily translated to other languages. All we need is someone who knows that other languages and is willing to help! All the translations are done online on [Crowdin](http://crowdin.net/project/freecad).
-
-번역에 대해 자세한 것은 [지역화](Localisation.md)를 보세요.
+번역에 대해 자세한 것은 [지역화를](Localisation.md) 보세요.
 
 
-<div class="mw-translate-fuzzy">
 
 ### 문서 번역 
 
-번역은 쉬우며, FreeCAD 위키는 기본 영어를 다른 언어로 번역하는 것을 허용하는 플러그인을 지원합니다.
-
-
-</div>
-
-Translating is easy, the FreeCAD wiki supports a translation plugin which allows you to translate the base English page to other languages.
+번역은 쉽습니다. FreeCAD 위키는 기본 영어를 다른 언어로 번역하는 것을 허용하는 플러그인을 지원합니다.
 
 번역에 대해 자세한 건, [Localisation#Translating the wiki](Localisation#Translating_the_wiki.md) 보세요.
 
 위키 마크업의 기본과 친해지세요. [Help:Editing](Help_Editing.md) 참조.
 
 Then head to [WikiPages](WikiPages.md) to familiarize yourself with the style used in this wiki, particularly when it comes to templates.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -108,6 +102,8 @@ Then head to [WikiPages](WikiPages.md) to familiarize yourself with the style us
 -   Write tutorials, record videos, etc., showing what you do with FreeCAD
 -   Contribute with files, drawings, etc. We still lack good example files of what can be done with FreeCAD
 -   Help to promote FreeCAD on GitHub by [\"Starring\" and \"Watching\"](https://help.github.com/articles/be-social/#watch-a-project) the [FreeCAD repository](https://github.com/FreeCAD/FreeCAD)
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -144,6 +140,8 @@ Although the place to report confirmed bugs and suggest new features is eventual
 There are dozens of bugs reported on [GitHub](https://github.com/FreeCAD/FreeCAD/issues) weekly. It takes a lot of time to read them, categorize them, verify if the issue is reproducible, see if some easy actions can be done, or ask the person who posted the issue to provide more information. Helping to triage is easy, just head over the [GitHub](https://github.com/FreeCAD/FreeCAD/issues) and start commenting on any issue where you think you might be able to help!
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### 디자인 아트워크 
@@ -154,6 +152,8 @@ See the [Artwork](Artwork.md) page for guidelines about designing icons for Free
 </div>
 
 See the [Artwork](Artwork.md) and [Artwork Guidelines](Artwork_Guidelines.md) page for guidelines about designing icons for FreeCAD.
+
+
 
 
 <div class="mw-translate-fuzzy">

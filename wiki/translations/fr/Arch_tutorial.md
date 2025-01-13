@@ -26,7 +26,7 @@ Voici, par exemple, quelques caractéristiques intéressantes de l\'atelier [Arc
 
 -   Les objets architecturaux peuvent avoir n\'importe quelle forme. Il n\'y a aucune restriction. Les murs n\'ont pas besoin d\'être verticaux, les dalles n\'ont pas besoin de ressembler à des dalles. N\'importe quel objet solide peut toujours devenir n\'importe quel objet architectural. Les choses très complexes, habituellement difficiles à définir dans d\'autres applications BIM, comme courber des dalles et devenir un mur (oui Zaha Hadid, c\'est de vous que nous parlons), ne présentent aucun problème particulier dans FreeCAD.
 
-Toute la puissance de FreeCAD est à votre portée. Vous pouvez concevoir les objets architecturaux avec n\'importe quel autre outil de FreeCAD, tel que l\'atelier [Part Design](PartDesign_Workbench/fr.md), et quand ils sont prêts, les convertir en objets architecturaux. Ils conserveront toujours leur historique de modélisation, et restent totalement éditables. L\'atelier [Arch](Arch_Workbench/fr.md) hérite également d\'une grande partie des fonctionnalités de l\'[atelier Draft](Draft_Workbench/fr.md), comme l\'[aimantation](Draft_Snap/fr.md) et [le plan de travail](Draft_SelectPlane/fr.md).
+Toute la puissance de FreeCAD est à votre portée. Vous pouvez concevoir les objets architecturaux avec n\'importe quel autre outil de FreeCAD, tel que l\'[atelier PartDesign](PartDesign_Workbench/fr.md), et quand ils sont prêts, les convertir en objets architecturaux. Ils conserveront toujours leur historique de modélisation, et restent totalement éditables. L\'[atelier Arch](Arch_Workbench/fr.md) hérite également d\'une grande partie des fonctions de l\'[atelier Draft](Draft_Workbench/fr.md), comme l\'[aimantation](Draft_Snap/fr.md) et [le plan de travail](Draft_SelectPlane/fr.md).
 
 -   L\'atelier [Arch](Arch_Workbench/fr.md) est très compatible avec l\'atelier [Mesh](Mesh_Workbench/fr.md). Vous pouvez facilement concevoir un modèle architectural dans une application basée sur des mailles comme [Blender](http://fr.wikipedia.org/wiki/Blender) ou [SketchUp](http://fr.wikipedia.org/wiki/Sketchup) et l\'importer dans FreeCAD. Si vous faites attention à la qualité de votre modèle et que ses objets sont bien des formes solides alors il vous suffira d\'un clic pour les transformer en objets architecturaux.
 
@@ -38,7 +38,7 @@ A l\'heure où j\'écris ceci l\'atelier [Arch](Arch_Workbench/fr.md) comme le r
 
 -   Support préliminaire de [IFC](http://fr.wikipedia.org/wiki/Industry_Foundation_Classes). Vous pouvez dès à présent [importer des fichiers IFC](Arch_IFC/fr.md), tout à fait sûrement, si [IfcOpenShell](http://ifcopenshell.org) est installé sur votre système, mais l\'exportation n\'est toujours pas officiellement supportée. Ceci est en cours de développement des deux côtés des promoteurs de FreeCAD et d\'IfcOpenShell, et à l\'avenir nous pouvons nous attendre à un support complet d\'IFC.
 
--   La plupart des outils Arch sont encore en développement. Cela signifie que les outils \"magiques\" qui créent des géométries complexes automatiquement, comme [Toiture](Arch_Roof/fr.md) ou [Escaliers](Arch_Stairs/fr.md) ne peuvent créer que certains types d\'objets, et que les outils qui ont des pré-réglages, comme [Arch_Structure](Arch_Structure/fr.md) ou [Arch_Window](Arch_Window/fr.md), n\'ont que quelques pré-réglages disponibles. Ceux ci devraient s'étoffer au fil du temps bien sûr.
+-   La plupart des outils Arch sont encore en développement. Cela signifie que les outils \"magiques\" qui créent des géométries complexes automatiquement, comme [Toit](Arch_Roof/fr.md) ou [Escaliers](Arch_Stairs/fr.md) ne peuvent créer que certains types d\'objets, et que les outils qui ont des pré-réglages, comme [Arch Structure](Arch_Structure/fr.md) ou [Arch Fenêtre](Arch_Window/fr.md), n\'ont que quelques pré-réglages disponibles. Ceux ci devraient s'étoffer au fil du temps bien sûr.
 
 -   [Les unités](Units/fr.md) sont en cours d'implémentation dans FreeCAD, ce qui vous permettra de travailler avec n\'importe quelles unités que vous souhaitez (même les unités impériales, à ce sujet vous pouvez être éternellement reconnaissant envers Jürgen, le parrain et initiateur de FreeCAD). Mais pour le moment l\'atelier [Architecture](Arch_Workbench/fr.md) ne les supporte toujours pas. Vous devez le considérer « sans unités ».
 
@@ -524,6 +524,11 @@ J\'espère que ce tutoriel vous aura donné un bon aperçu des outils disponible
 Le fichier créé durant ce tutoriel peut être téléchargé [ici](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd).
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/fr
+⏵ [documentation index](../README.md) > Arch tutorial/fr

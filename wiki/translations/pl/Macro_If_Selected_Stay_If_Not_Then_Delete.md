@@ -1,23 +1,28 @@
 # Macro If Selected Stay If Not Then Delete/pl
-{{Macro
+{{Macro/pl
 |Name=Macro If Selected Stay If Not Then Delete
+|Translate=Makrodefinicja: Jeśli wybrane pozostaw, jeśli nie to usuń
 |Icon=Macro_If_Selected_Stay_If_Not_Then_Delete.png
-|Description=This macro delete all objects not selected.
+|Description=Makrodefinicja umożliwia usunięcie wszystkich niezaznaczonych obiektów.
 |Author=Mario52
 |Version=00.03b
 |Date=2023-09-24
-|FCVersion=All
+|FCVersion=wszystkie
 |Download=[https://www.freecadweb.org/wiki/images/6/62/Macro_If_Selected_Stay_If_Not_Then_Delete.png ToolBar Icon]
-|SeeAlso=[Macro Toggle Visibility2 1-2](Macro_Toggle_Visibility2_1-2.md)<br>[Macro Toggle Visibility2 2-2](Macro_Toggle_Visibility2_2-2.md)<br>[Macro_Toggle_Visibility](Macro_Toggle_Visibility.md)<br>[Macro HiddenAlls](Macro_HiddenAlls.md)<br>[Macro_VisibleAlls](Macro_VisibleAlls.md)
+|SeeAlso=[Makro przełącz widoczność 2 1-2](Macro_Toggle_Visibility2_1-2/pl.md)<br>[Makro przełącz widoczność 2 2-2](Macro_Toggle_Visibility2_2-2/pl.md)<br>[Makro przełącz widoczność](Macro_Toggle_Visibility/pl.md)<br>[Makro ukryj wszystko](Macro_HiddenAlls/pl.md)<br>[Makro wyświetl wszystko](Macro_VisibleAlls/pl.md)
 }}
 
-## Description
 
-This macro delete all objects not selected !!.
 
-## Script
+## Opis
 
-ToolBar Icon <img alt="" src=images/Macro_If_Selected_Stay_If_Not_Then_Delete.png  style="width:64px;">
+Makrodefinicja umożliwia usunięcie wszystkich niezaznaczonych obiektów.
+
+
+
+## Tworzenie skryptów 
+
+Ikonka paska narzędzi <img alt="" src=images/Macro_If_Selected_Stay_If_Not_Then_Delete.png  style="width:64px;">
 
 **Macro_If_Selected_Stay_If_Not_Then_Delete.FCMacro**
 

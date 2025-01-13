@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Edit
-   Name/it: Modifica
+   Name/it: Draft Modifica
    MenuLocation: Modifiche , Modifica
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **D** **E**
    SeeAlso: Std Edit/it
 ---
@@ -70,7 +70,8 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 -   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Invio** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando hai i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
 -   Per usare le coordinate polari inserire un valore per **Lunghezza** e un valore per **Angolo**, e premere **Enter** dopo ciascuno.
 -   Selezionare la casella **Angolo** per vincolare il puntatore all\'angolo specificato.
--   Premere **G** o fai clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **R** o fare clic sulla casella di controllo **Relative** per attivare/disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate del punto selezionato sono relative al punto originale, altrimenti sono relative all\'origine del sistema di coordinate. {{Version/it|1.0}}
+-   Premere **G** o fai clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md).
 -   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
 
 
@@ -83,7 +84,7 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 
 -   Se il nodo iniziale o finale di una polilinea aperta viene spostato in modo che coincidano, la polilinea viene chiusa.
 -   Menu contestuale del nodo: {{Value|Elimina punto}}. Devono rimanere almeno due punti.
--   Menu contestuale bordo: {{Value|Aggiungi punto}}, {{Value|Apri  polilinea}}/{{Value|Chiudi polilinea}} ({{Version/it|0.21}}) e {{Value|Inverti polilinea}} ({{Version/it|0.20}}).
+-   Menu contestuale bordo: {{Value|Aggiungi punto}}, {{Value|Apri  polilinea}}/{{Value|Chiudi polilinea}} ({{Version/it|0.21}}) e {{Value|Inverti polilinea}}.
 
 
 
@@ -224,7 +225,7 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
 -   Il colore dei nodi temporanei è lo stesso del colore dei simboli di snap. Questo colore può essere modificato nelle preferenze: **Modifica → Preferenze... → Draft → Griglia e agganci → Colore simbolo di aggancio**. Si noti che questo colore non viene utilizzato per i nodi temporanei visualizzati per [Draft BezCurves](Draft_BezCurve/it.md). Questi nodi usano invece il **Line Color** della curva.
--   La dimensione dei nodi dipende da: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Dimensione marcatore**. {{Version/it|0.22}}
+-   La dimensione dei nodi dipende da: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Dimensione marcatore**. {{Version/it|1.0}}
 
 
 

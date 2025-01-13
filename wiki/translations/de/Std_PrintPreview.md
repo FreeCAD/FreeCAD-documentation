@@ -10,9 +10,13 @@
 
 # Std PrintPreview/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std Druckvorschau** zeigt eine Vorschau auf das Ergebnis des Befehls [Drucken](Std_Print/de.md). Es kann auch direkt aus dem Druckvorschau-Dialog gedruckt werden.
+
+
 
 ## Anwendung
 
@@ -20,6 +24,8 @@ Der Befehl **Std Druckvorschau** zeigt eine Vorschau auf das Ergebnis des Befehl
 2.  Den Menüeintrag **Datei → <img src="images/Std_PrintPreview.svg" width=16px> Druckvorschau...** auswählen.
 3.  Der geöffnete Druckvorschau-Dialog enthält mehrere Schaltflächen für Optionen. Wenn die Ansicht vergrößert wurde, kann mit gedrückter linker Maustaste die Ansicht verschoben werden.
 4.  Die Schaltfläche **Drucken** des Druckvorschau-Dialogs anklicken.
+
+
 
 ## Optionen
 
@@ -29,7 +35,7 @@ Der Befehl **Std Druckvorschau** zeigt eine Vorschau auf das Ergebnis des Befehl
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

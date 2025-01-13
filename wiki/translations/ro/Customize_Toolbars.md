@@ -1,17 +1,24 @@
-# Customize Toolbars/ro
-{{TutorialInfo/ro|Topic=SampleTopic|Level=Beginner|Time=5 minutes|Author=[Mario52](User_Mario52.md)|FCVersion=All}}
+---
+ TutorialInfo:o   Topic: SampleTopic   Level: Beginner   Time: 5 minutes   Author: User:Mario52   Mario52|FCVersion: All
+---
 
-## Synopsis
+# Customize Toolbars/ro
+
+
 
 
 <div class="mw-translate-fuzzy">
 
-## Sumar
 
-Tutorialul acesta vă arată personalizarea barelor de instrumente. Uneltele (inclusiv Macro-unelte) pot fi folosite în diferite ateliere de lucru. Într-un exemplu, un Macro devine un macro-instrument prin crearea unui **Menu text**, un**Tool tip** și o **Icon**. Ulterior, acest macro-instrument face parte dintr-o bară de instrumente suplimentară într-o bancă de lucru.
 
 
 </div>
+
+## Synopsis
+
+This tutorial shows how to add a button for a [macro](Macro.md) to a custom toolbar.
+
+For more general information see [Interface Customization](Interface_Customization.md).
 
 ## Usage
 
@@ -123,11 +130,7 @@ Tutorialul acesta vă arată personalizarea barelor de instrumente. Uneltele (in
 
 -   Your new toolbar is now contained in the toolbars\' right-click menu. Its Icons (in our example only the camera) are visible, if the toolbar is activated (blue checkmark).
 
-<img alt="New Toolbar" src=images/CustomizeToolBar_18.png  style="width:640px;"> 
-
-## Notes
-
-See also [Interface Customization](Interface_Customization.md).
+<img alt="New Toolbar" src=images/CustomizeToolBar_18.png  style="width:640px;">
 
 
 

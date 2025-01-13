@@ -1,28 +1,7 @@
----
- GuiCommand:
-   Name: Path DressupAxisMap
-   MenuLocation: Path , Path Dressup , Axis Map
-   Workbenches: Path_Workbench
----
-
 # Path DressupAxisMap
-
-## Description
-
-## Usage
-
-## Options
-
-## Properties
-
-## Scripting
-
-
-
-
- {{Path_Tools_navi}}
+1.  REDIRECT [CAM_DressupAxisMap](CAM_DressupAxisMap.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupAxisMap
+⏵ [documentation index](../README.md) > Path DressupAxisMap

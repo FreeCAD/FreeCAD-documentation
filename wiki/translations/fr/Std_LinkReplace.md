@@ -25,11 +25,11 @@ Cette opération peut être effectuée pour remplacer des objets imbriqués qui 
 
 ## Utilisation
 
-1.  Assurez-vous que vous avez un objet dans un autre. Par exemple, considérez qu\'une **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Union](Part_Fuse/fr.md)** a été utilisée avec deux objets précédemment créés, une **[<img src=images/Part_Sphere.svg style="width:16px"> [Part Sphère](Part_Sphere/fr.md)** et un **[<img src=images/Part_Cylinder.svg style="width:16px"> [Part Cylindre](Part_Cylinder/fr.md)**.
-2.  Sélectionnez la <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Sphère](Part_Sphere/fr.md) dans la [vue en arborescence](Tree_view/fr.md).
-3.  Appuyez sur **[<img src=images/Std_LinkReplace.svg style="width:16px"> [Std Remplacer par un lien ](Std_LinkReplace/fr.md)**.
+1.  Assurez-vous que vous avez un objet dans un autre. Par exemple, considérez qu\'une **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Union](Part_Fuse/fr.md)** a été utilisée avec deux objets créés, une **[<img src=images/Part_Sphere.svg style="width:16px"> [Part Sphère](Part_Sphere/fr.md)** et un **[<img src=images/Part_Cylinder.svg style="width:16px"> [Part Cylindre](Part_Cylinder/fr.md)**.
+2.  Sélectionnez la <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [sphère](Part_Sphere/fr.md) dans la [vue en arborescence](Tree_view/fr.md).
+3.  Appuyez sur **[<img src=images/Std_LinkReplace.svg style="width:16px"> [Remplacer par un lien](Std_LinkReplace/fr.md)**.
 
-La <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Sphère](Part_Sphere/fr.md) d\'origine doit maintenant se trouver en dehors de **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Union](Part_Fuse/fr.md)** et à l\'intérieur, il doit y avoir un Lien à la place (une petite flèche superposée est affichée dans l\'icône).
+La <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [sphère](Part_Sphere/fr.md) d\'origine doit maintenant se trouver en dehors de la **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Union](Part_Fuse/fr.md)** et il doit y avoir un lien à l\'intérieur à la place (une petite flèche superposée est affichée dans l\'icône).
 
 ![](images/Std_Link_tree_replace_fuse_1_example.png ) ![](images/Std_Link_tree_replace_fuse_2_example.png )
 

@@ -1,52 +1,62 @@
 ---
  GuiCommand:
    Name: Arch Remove
-   MenuLocation: Arch , Remove component
-   Workbenches: Arch_Workbench
-   SeeAlso: Arch_CutLine, Arch_CutPlane, Arch_Add
+   Name/pl: Architektura: Usuń komponent
+   MenuLocation: Modyfikacja , Usuń komponent
+   Workbenches: BIM_Workbench/pl
+   SeeAlso: Arch_CutPlane/pl, Arch_Add/pl
 ---
 
 # Arch Remove/pl
 
-## Description
 
-The Remove tools allows you to do 2 kinds of operations:
 
--   Remove a subcomponent from an Arch object, for example remove a box that has been added to a wall, like in the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** example.
--   Subtract a [shape](Part_Workbench.md)-based object from an Arch component such as a **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)
-** or **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)**
+## Opis
 
-The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
+Narzędzie **Usuń komponent** pozwala na wykonanie 2 rodzajów operacji:
+
+-   Usunięcie komponentu podrzędnego z obiektu Architektury, na przykład usunięcie prostopadłościanu, który został dodany do ściany, jak w **<img src="images/Arch_Add.svg" width=16px> [Połącz obiekty](Arch_Add/pl.md)**.
+-   Odjęcie obiektu opartego na [kształcie](Part_Workbench/pl.md) od komponentu Architektury, takiego jak **<img src="images/Arch_Wall.svg" width=16px> [ściana](Arch_Wall/pl.md)** lub **<img src="images/Arch_Structure.svg" width=16px> [konstrukcja](Arch_Structure/pl.md)**.
+
+Odpowiednikiem tego narzędzia jest **<img src="images/Arch_Add.svg" width=16px> [Połącz obiekty](Arch_Add/pl.md)**.
 
 <img alt="" src=images/Arch_Remove_example.jpg  style="width:600px;"> 
-*A box subtracted from a wall, leaving a hole in it.*
-
-## Usage
-
-1.  Select a subcomponent inside an Arch object.
-2.  Press the **<img src="images/Arch_Remove.svg" width=16px>** button, or **Arch** → **<img src="images/Arch_Remove.svg" width=16px> [Remove](Arch_Remove.md)** from the top menu.
-
-Or
-
-1.  Select objects to be subtracted, the last object selected must the Arch object from which the other objects will be subtracted.
-2.  Press the **<img src="images/Arch_Remove.svg" width=16px>** button, or **Arch** → **<img src="images/Arch_Remove.svg" width=16px> [Remove](Arch_Remove.md)** from the top menu.
-
-## Scripting
+*Prostopadłościan odjęty od ściany, pozostawiający w niej dziurę.*
 
 
-**See also:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Użycie
 
-The Remove tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+1.  Wybierz komponent podrzędny wewnątrz obiektu Architektury.
+2.  Naciśnij przycisk **<img src="images/Arch_Remove.svg" width=16px> '''Połącz obiekty'''** lub **Modyfikacja → <img src="images/Arch_Remove.svg" width=16px> Połącz obiekty** z menu głównego.
+
+lub
+
+1.  Wybierz obiekty do odjęcia, ostatni wybrany obiekt musi być obiektem Architektury, od którego zostaną odjęte pozostałe obiekty.
+2.  Naciśnij przycisk **<img src="images/Arch_Remove.svg" width=16px> '''Usuń komponent'''** lub **Modyfikacja → <img src="images/Arch_Remove.svg" width=16px> Usuń komponent** z menu głównego.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Usuń komponent** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
+
+
 ```python
 removeComponents(objectsList, host=None)
 ```
 
--   Removes the given objects in `objectsList` from their parents.
--   If a `host` object is specified, this function will try adding the objects in `objectsList` as holes to the `host`.
+-   Usuwa podane obiekty w `objectsList` z ich obiektów nadrzędnych.
+-   Jeśli podano obiekt `host`, funkcja ta spróbuje dodać obiekty w `objectsList` jako otwory do `host`.
 
-Example: 
+Przykład:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -68,5 +78,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/pl
+⏵ [documentation index](../README.md) > Arch Remove/pl

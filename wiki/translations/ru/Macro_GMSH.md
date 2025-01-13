@@ -16,6 +16,12 @@
 
 </div>
 
+## Important information 
+
+This macro is outdated. It is Python 2.x code. All the code has been directly integrated in the FEM Workbench before FreeCAD Version 0.20. See [FEM MeshGmshFromShape](FEM_MeshGmshFromShape.md).
+
+
+
 ## Описание
 
 Создание сетки метода конечных элементов с помощью генератора сеток GMSH. Возможно создание внутри линейных или билинейных (квадратичных) элементов Балки, Оболочки и Объема.

@@ -10,9 +10,13 @@
 
 # Std ViewBoxZoom/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std AnsichtRechteckauswahl** vergrößert einen vom Benutzer eingegrenzten rechteckigen Bereich auf die Größe der aktiven [3D-Ansicht](3D_view/de.md).
+
+
 
 ## Anwendung
 
@@ -25,7 +29,7 @@ Der Befehl **Std AnsichtRechteckauswahl** vergrößert einen vom Benutzer eingeg
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

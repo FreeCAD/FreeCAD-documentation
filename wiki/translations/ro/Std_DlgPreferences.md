@@ -44,7 +44,7 @@ Alegeți ** Edit** → ** Preferences** din meniul principal.
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

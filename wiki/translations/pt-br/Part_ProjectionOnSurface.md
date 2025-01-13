@@ -93,7 +93,13 @@ The projection done in the Part workbench is not parametric. If you need a param
 
 -   Forum thread: [Project faces onto bent surface](https://forum.freecadweb.org/viewtopic.php?f=9&t=33700)
 
-## Examples
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

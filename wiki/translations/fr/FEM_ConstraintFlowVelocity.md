@@ -1,10 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM ConstraintFlowVelocity
    Name/fr: FEM Vitesse d'écoulement comme condition limite
    MenuLocation: Modèle , Conditions limites de fluide , Vitesse d'écoulement comme condition limite
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_ConstraintInitialFlowVelocity/fr
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintFlowVelocity/fr
@@ -20,8 +26,8 @@ Applique une vitesse d\'écoulement comme condition limite à un bord en 2D ou �
 ## Utilisation
 
 1.  Appuyer sur le bouton **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> [Vitesse d'écoulement comme condition limite](FEM_ConstraintFlowVelocity/fr.md)** ou sélectionner le menu **Modèle → Conditions limites de fluide → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Vitesse d'écoulement comme condition limite**.
-2.  Sélectionner les arêtes ou les faces cibles.
-3.  Appuyer sur le bouton **Ajouter**.
+2.  Appuyer sur le bouton **Ajouter**.
+3.  Sélectionner les arêtes ou les faces cibles.
 4.  Décocher *non spécifié* pour activer les champs nécessaires à l\'édition.
 5.  Définir les valeurs de vitesse ou ({{Version/fr|0.21}}) spécifier une formule.
 

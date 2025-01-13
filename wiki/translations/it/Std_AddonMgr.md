@@ -56,6 +56,17 @@ Le preferenze per Addon Manager si trovano nell\'[Editor delle Preferenze](Prefe
 
 
 
+## Ordinamento per punteggio 
+
+
+{{Version/it|1.0}}
+
+L\'Addon Manager supporta l\'ordinamento in base a una serie di criteri diversi. La maggior parte di questi vengono scaricati direttamente dai server di FreeCAD (che li memorizza nella cache da GitHub e FreeCAD Wiki) ma uno, \"Punteggio\", non è fornito da FreeCAD e appare come opzione solo se l\'impostazione URL Sorgente del Punteggio è fornita nelle Preferenze.
+
+L\'URL Sorgente del Punteggio è un percorso verso un documento remoto in formato JSON che elenca componenti aggiuntivi e un \"punteggio\" di qualche tipo. Il punteggio può essere calcolato in qualsiasi modo piaccia al fornitore di dati, ma dovrebbe essere un valore intero, dove i punteggi più alti sono \"migliori\" in un certo senso. A qualsiasi componente aggiuntivo non elencato viene assegnato internamente un punteggio pari a zero. Il formato del file è un singolo dizionario JSON in cui la chiave è l\'URL del componente aggiuntivo (per ambienti di lavoro e pacchetti di preferenze) o il nome della macro (per le macro). Vedere [questa fonte dati](https://gist.githubusercontent.com/chennes/e8f60e80f16e6ffbd057dd47ca36ad2a/raw/7b118cca8e84444c3379919bbd744b99e6ef6711/addon_score_for_testing.jsu) per un esempio (notare che il punteggio è semplicemente la lunghezza della descrizione del componente aggiuntivo, ed è destinato esclusivamente ai test e scopi dimostrativi).
+
+
+
 ## Note
 
 -   L\'uso dei componenti aggiuntivi non è limitato alla versione di FreeCAD da cui sono stati installati. Si potrà anche usarli in qualsiasi altra versione di FreeCAD, supportata dall\'addon, presente sul proprio sistema.
@@ -142,7 +153,7 @@ Quindi definire le funzioni {{Incode|installation_succeeded}} e {{Incode|install
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

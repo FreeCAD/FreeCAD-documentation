@@ -157,7 +157,7 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{term|Coin}}
 
 
-{{defn|defn=Also called Coin3D. Third-party software library used for 3D representation by FreeCAD.}}
+{{defn|defn=Also called [https://www.coin3d.org Coin3D]. Third-party software library used for 3D representation by FreeCAD.}}
 
 
 {{term|COLLADA}}
@@ -938,7 +938,7 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{defn|defn=An ISO standard (ISO 10303) for the exchange of 3D data and product manufacturing information. It replaces [IGES](#IGES.md). File extensions are *.step, *.stp.}}
 
 
-{{term|SVG|content=[SVG](SVG.md)}}
+{{term|SVG}}
 
 
 {{defn|defn=[https://en.wikipedia.org/wiki/Scalable_Vector_Graphics Scalable Vector Graphics]. A vector graphics file format.}}
@@ -1099,7 +1099,7 @@ Ir a la letra {{CompactTOC|center=yes}}
 {{term|Workbench}}
 
 
-{{defn|defn=Also called a module, each workbench groups a set of tools dedicated to a specific task.}}
+{{defn|defn=Also called a module, each [workbench](Workbenches.md) groups a set of tools dedicated to a specific task.}}
 
 
 {{glossend}}

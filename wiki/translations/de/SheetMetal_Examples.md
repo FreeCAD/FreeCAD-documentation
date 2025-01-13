@@ -318,7 +318,7 @@ Wenn deaktiviert, sieht das Ergebnis so aus:
 *Die {{PropertyData/de|Auto Miter* von `True` auf `False` umschalten: Standardwinkel (90°) → Vergrößerter Winkel → Verkleinerter Winkel<br>
 (Auf einzelne Kanten (flanges) hat **auto Miter** keine Auswirkung)}}
 
-Um eine die Kante (edge) einer Kante (flange) von Hand mit einer Gehrung zu versehen, verwendet man **miterangle1** und **miterangle1**:
+Um eine die Kante (edge) einer Kante (flange) von Hand mit einer Gehrung zu versehen, verwendet man **miterangle1** und **miterangle2**:
 
 <img alt="" src=images/SheetMetal_Example-09m.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Example-09n.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Example-09o.png  style="width:200px;">
 
@@ -466,6 +466,30 @@ Aber es gibt bessere Anwendungsfälle für dieses Werkzeug, die fast ganz geschl
 
 *Die {{PropertyData/de|Use Subtraction* auf {{true}} umschalten, um einen (kaum sichtbaren) Spalt zwischen dem Extension-Objekt und der gegenüberliegenden Seite zu erhalten, dann den Wert der {{PropertyData/de|Offset}} erhöhen, um den Spalt aufzuweiten:<br>
 Verschmolzenes Profil → Profil mit verzahnter Erweiterung; dieses Endergebnis ist abwickelbar}}
+
+
+</div>
+
+
+</div>
+
+
+<div class="mw-collapsible mw-collapsed">
+
+### Fold object <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> 
+
+
+<div class="mw-collapsible-content toccolours">
+
+A Fold object is the result of a sheet metal plate bent at a given line.
+
+Change the property **Position** to control where the bend is positioned according to the bend line.
+
+<img alt="" src=images/SheetMetal_Example-10o.png  style="width:600px;">
+
+
+
+*Cross-section of the bend: The bend line lies on the upper face of the blank (black) with a 10 mm offset from the edge, its position is maked with a pentagon. It also defines the virtual intersection of the blank and the bent wall*
 
 
 </div>

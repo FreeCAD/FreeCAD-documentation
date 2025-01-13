@@ -1,8 +1,8 @@
 ---
  TutorialInfo:
-   Topic:  Finite Element Analysis
-   Level:  Beginner/Intermediate
-   Time:  30 minutes
+   Topic: Finite Element Analysis
+   Level: Beginner/Intermediate
+   Time: 30 minutes
    Author: http://www.freecadweb.org/wiki/index.php?title=User: HarryvL
    FCVersion: 0.17.12960 or above
 ---
@@ -19,7 +19,7 @@ In this tutorial we analyse the shear deformation of a composite block consistin
 
 ## Geometry
 
-First we create two concentric cubes, one size 10mm and the other size 5mm. This is done in the [workbench Part](Part_Module.md). By default the cube is placed at the origin \[0, 0, 0\], so the smaller cube needs to be scaled down and shifted by changing the settings in the Data tab of the property panel. To make the core visible, the Transparency of the outer block is set to 50 in the View tab of the property panel. The result is shown below.
+First we create two concentric cubes, one size 10mm and the other size 5mm. This is done in the [Part Workbench](Part_Workbench.md). By default the cube is placed at the origin \[0, 0, 0\], so the smaller cube needs to be scaled down and shifted by changing the settings in the Data tab of the property panel. To make the core visible, the Transparency of the outer block is set to 50 in the View tab of the [Property editor](Property_editor.md). The result is shown below.
 
 <img alt="" src=images/Pic1.png  style="width:700px;">
 

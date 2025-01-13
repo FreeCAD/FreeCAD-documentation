@@ -32,7 +32,7 @@ Polecenie **Przejdź do najgłębiej połączonego obiektu** wybiera właściwo�
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

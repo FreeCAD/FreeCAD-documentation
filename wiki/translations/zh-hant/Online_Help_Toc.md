@@ -25,25 +25,25 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 -   The [Workbenches](Workbenches.md)
 
 -   -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Standard tools for all Workbenches](Std_Base.md)
-    -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [The Arch Workbench](Arch_Workbench.md)
+    -   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> [The Assembly Workbench](Assembly_Workbench.md) (<small>(v1.0)</small> )
+    -   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> [The BIM Workbench](BIM_Workbench.md) (combines the Arch Workbench and external BIM Workbench available in {{VersionMinus|0.21}})
+    -   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> [The CAM Workbench](CAM_Workbench.md) (called \"Path Workbench\" in {{VersionMinus|0.21}})
     -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [The Draft Workbench](Draft_Workbench.md)
     -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [The FEM Workbench](FEM_Workbench.md)
     -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [The Inspection Workbench](Inspection_Workbench.md)
+    -   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> [The Material Workbench](Material_Workbench.md) (<small>(v1.0)</small> )
     -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [The Mesh Workbench](Mesh_Workbench.md)
     -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [The OpenSCAD Workbench](OpenSCAD_Workbench.md)
     -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [The Part Workbench](Part_Workbench.md)
     -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [The PartDesign Workbench](PartDesign_Workbench.md)
-    -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [The Path Workbench](Path_Workbench.md)
     -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [The Points Workbench](Points_Workbench.md)
     -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [The Reverse Engineering Workbench](Reverse_Engineering_Workbench.md)
     -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [The Robot Workbench](Robot_Workbench.md)
     -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [The Sketcher Workbench](Sketcher_Workbench.md)
     -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [The Spreadsheet Workbench](Spreadsheet_Workbench.md)
-    -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [The Start Workbench](Start_Workbench.md)
     -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [The Surface Workbench](Surface_Workbench.md)
     -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [The Techdraw Workbench](TechDraw_Workbench.md)
     -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [The Test Framework Workbench](Testing.md)
-    -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [The Web Workbench](Web_Workbench.md)
     -   [External workbenches](External_workbenches.md)
 
 -   [List of FreeCAD commands](List_of_Commands.md)
@@ -78,7 +78,7 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
     -   [Dialog creation](Dialog_creation.md)
 
 -   Development
-    -   [Licence](Licence.md)
+    -   [License](License.md)
     -   Compiling FreeCAD
         -   [Compiling on Windows](Compile_on_Windows.md)
         -   [Compiling on Linux](Compile_on_Linux.md)

@@ -30,10 +30,18 @@ To polecenie jest trzecim z trzech kroków konwersji obiektu powłoki wykonanego
 ## Użycie
 
 1.  Wybierz jedną lub więcej krawędzi.
-2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **Wykonaj zagięcie** używając jednej z poniższych opcji:
-    -   Przycisk **<img src="images/SheetMetal_AddBend.svg" width=16px> Wykonaj zagięcie**.
-    -   Opcja menu **SheetMetal → <img src="images/SheetMetal_AddBend.svg" width=16px> Wykonaj zagięcie**.
-    -   Skrót klawiaturowy: **S** + **B**.
+2.  Istnieje kilka sposobów na wywołanie tego polecenia:
+    -   Wciśnij przycisk **<img src="images/SheetMetal_AddBend.svg" width=16px> [Wykonaj zagięcie](SheetMetal_AddBend/pl.md)**.
+    -   Wybierz opcję **SheetMetal → <img src="images/SheetMetal_AddBend.svg" width=16px> Wykonaj zagięcie** z menu.
+    -   Kliknij prawym przyciskiem myszy w [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md) i wybierz opcję **SheetMetal → <img src="images/SheetMetal_AddBend.svg" width=16px> Wykonaj zagięcie** z menu kontekstowego.
+    -   Użyj skrótu klawiaturowego: **S** + **B**.
+3.  Otwarty zostanie [panel zadań](Task_panel/pl.md) **Bend sharp corner Parameters** (wprowadzony w wersji 0.5.00).
+4.  Opcjonalnie wciśnij przycisk **Wybierz** aby dodać więcej ścian.
+    -   Wciśnij przycisk **Podgląd** aby zakończyć wybór i wyświetlić zmiany.
+5.  Opcjonalnie dostosuj parametry w panelu zadań.
+6.  Wciśnij przycisk **OK** aby zakończyć polecenie i zamknąć panel zadań.
+7.  Utworzony zostanie obiekt **SolidBend** składający się z jednego nowego zagięcia dla każdej wskazanej krawędzi.
+8.  Opcjonalnie dostosuj parametry w [Edytorze właściwości](Property_editor/pl.md).
 
 <img alt="" src=images/SheetMetal_ConvertShellObject-07.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-08.png  style="width:200px;">
 
@@ -51,22 +59,11 @@ Zobacz stronę z opisem narzędzia [Wykonaj podcięcie](SheetMetal_AddRelief/pl#
 
 Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt Bryła Zagięcia środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada również następujące dodatkowe właściwości, a jego etykieta ma wartość domyślną:
+Obiekt Bryła Zagięcia środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) lub, jeśli jest w obrębie [Zawartości środowiska Projekt Części](PartDesign_Body/pl.md), z obiektu [Cechy tego środowiska](PartDesign_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada również następujące dodatkowe właściwości, a jego etykieta ma wartość domyślną:
 
 
 
 ### Dane
-
-
-{{Properties_Title|Podstawowe}}
-
--    **Etykieta|String**: Wartość domyślna: {{value|SolidBend}} *(+ kolejny numer dla drugiej i następnych pozycji)*.
-
-Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg znaków UTF8.
-
--    **Cecha podstawowa|Link|ukryte**: Cecha bazowa. Link do cechy nadrzędnej.
-
--    **_Body|LinkHidden|ukryte**: Link ukryty do zawartości nadrzędnej.
 
 
 {{Properties_Title|Parametry}}

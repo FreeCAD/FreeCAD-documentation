@@ -33,29 +33,29 @@ L\'outil <img alt="" src=images/Part_Offset.svg  style="width:24px;"> **Part Dé
 
 ## Exemples
 
+<img alt="" src=images/PartOffset0.png  style="width:" height="200px;"> → <img alt="" src=images/PartOffset1.png  style="width:" height="200px;">
+
 Objet avec petits coins décalés et arrondis (arc).
 
-<img alt="" src=images/PartOffset0.png  style="width:400" height="200px;"> → <img alt="" src=images/PartOffset1.png  style="width:400" height="200px;">
+<img alt="" src=images/PartOffset3.png  style="width:" height="200px;">
 
 Le même objet avec des angles vifs (intersection).
 
-<img alt="" src=images/PartOffset3.png  style="width:400" height="200px;">
+<img alt="" src=images/PartOffset2.png  style="width:" height="200px;">
 
-Le même objet avec une distance importante surchargeant l'espace avant gauche et autorisant les intersections.
+Même objet avec une distance importante qui déborde de l\'espace avant gauche et des intersections autorisées.
 
-<img alt="" src=images/PartOffset2.png  style="width:400" height="200px;">
+<img alt="" src=images/PartOffset4.png  style="width:" height="200px;">
 
-Forme arbitraire (draft poly en tant que fil) avec un décalage 3D (ignore le paramètre MODE).
+Forme arbitraire ([Draft Polyligne](Draft_Wire/fr.md)) avec un décalage 3D (ignore le paramètre MODE).
 
-<img alt="" src=images/PartOffset4.png  style="width:400" height="200px;">
+<img alt="" src=images/PartOffset5.png  style="width:" height="200px;">
 
-La même forme avec un décalage 3D comme SKIN et un décalage *rempli*.
+La même forme avec un décalage 3D comme une Peau et un décalage *rempli*.
 
-<img alt="" src=images/PartOffset5.png  style="width:400" height="200px;">
+<img alt="" src=images/PartOffset6.png  style="width:" height="200px;">
 
 Décalage *rempli* avec 2 cylindres créant des coupes booléennes. Le cylindre A passe par le REMPLISSAGE tandis que le cylindre B ne traverse que le REMPLISSAGE et non la forme 2D source.
-
-<img alt="" src=images/PartOffset6.png  style="width:400" height="200px;">
 
 
 
@@ -63,13 +63,21 @@ Décalage *rempli* avec 2 cylindres créant des coupes booléennes. Le cylindre 
 
 -    **Offset**: distance pour décaler les faces de la forme.
 
--    **Mode**: mode de création. Skin crée une nouvelle forme autour de la forme source. Pipe (à faire). RectoVerso (à faire).
+-    **Mode**: mode de création. *Peau* crée une nouvelle forme autour de la forme source. *Tuyau* (à faire). *Recto/verso* (à faire).
 
--    **Join type**: comment les nouveaux coins sont construits. L\'intersection donne des angles vifs par extension linéaire des arêtes. Arc et Tangent donnent des angles arrondis.
+-    **Join type**: la manière dont les nouveaux coins sont construits. *Intersection* donne des angles vifs par extension linéaire des arêtes. *Arc* et *Tangent* donnent des angles arrondis.
 
 1.  Option : Intersection : permet aux décalages pointant vers l\'intérieur de \"déborder\" l\'espace en intersectant la forme résultante jusqu\'à ce que des faces opposées soient atteintes.
-2.  Option : Auto intersection : (à faire).
-3.  Option : Décalage de remplissage : lorsque la forme était en 2 dimensions, l\'espace entre les 2 formes est rempli. Le remplissage est maintenant un solide, donc la forme source n\'est pas un solide. Ainsi les opérations booléennes peuvent conduire à des résultats étranges. (voir l\'exemple ci-dessous).
+2.  Option : Auto-intersection : (à faire).
+3.  Option : Remplir le décalage : lorsque la forme est bidimensionnelle, l\'espace entre les deux formes est rempli. Le remplissage est maintenant un solide, et la forme source n\'est donc pas un solide. Les opérations booléennes peuvent donc conduire à des résultats étranges. (voir l\'exemple ci-dessous).
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

@@ -4,7 +4,7 @@
    Name/pl: Rysunek Techniczny: Wstaw widok szczegółu
    MenuLocation: Rysunek Techniczny , Widoki  , Wstaw widok szczegółu
    Workbenches: TechDraw_Workbench/pl
-   SeeAlso: TechDraw_View/pl, TechDraw_ProjectionGroup/pl
+   SeeAlso: TechDraw_View/pl
 ---
 
 # TechDraw DetailView/pl
@@ -50,13 +50,24 @@ Narzędzie **Wstaw widok szczegółu** tworzy widok małego obszaru istniejąceg
 
 
 
-## Właściwości widoku szczegółu 
+## Właściwości
 
-Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw_View/pl#Widok.md) środowiska Rysunek Techniczny.
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+We właściwościach **Widok podstawowy** możesz zmienić wygląd zarysu szczegółu.
+
+Widok szczegółu, formalnie obiekt {{Incode|TechDraw::DrawViewDetail}}, wywodzi się z [Widoku części](TechDraw_View/pl#Właściwości_-_Widok_części.md), formalnie obiektu {{Incode|TechDraw::DrawViewPart}} i dziedziczy wszystkie jego właściwości. Ma również następujące dodatkowe właściwości:
 
 
 
 ### Dane
+
+
+{{TitleProperty|Wygląd}}
+
+-    **Pokaż matowanie|Bool**: Pokaż lub ukryj matowanie wokół widoku szczegółu. {{Version/pl|1.0}}
+
+-    **Pokaż podświetlenie|Bool**: Pokaż lub ukryj podświetlenie w widoku źródłowym. {{Version/pl|1.0}}
 
 
 {{TitleProperty|Szczegół}}
@@ -71,28 +82,9 @@ Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw
 
 
 
-## Właściwości widoku bazowego 
-
-Obiekt **Widok szczegółu** dziedziczy wszystkie odpowiednie właściwości widoku określonego jako **Widok bazowy**. We właściwościach tego widoku można zmienić wygląd linii przekroju:
 
 
-
-### Widok
-
-
-{{TitleProperty|Podświetlenie}}
-
--    **Podświetlenie szczegółu|Float**: Zobacz więcej informacji na stronie [Wstaw widok](TechDraw_View/pl#Widok.md)
-
--    **Kolor linii podświetlenia|Color**: jak wyżej.
-
--    **Styl linii podświetlenia**: jak wyżej.
-
-
-
-
-
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

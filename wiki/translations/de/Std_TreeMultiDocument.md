@@ -22,19 +22,13 @@ Der Befehl **Std BaumMehrfachdokument** ändert den Dokument-Modus der [Baumansi
 
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Den nach unten weisenden Pfeil rechts neben der Schaltfläche **<img src="images/Std_TreeSyncView.svg" width=16px>** anklicken und den Eintrag **Mehrfachdokument** in der angezeigten Liste auswählen. Hinweis: Das Bild der Schaltfläche ändert sich entsprechend der Auswahl.
-    -   Den Menüeintrag **Ansicht → Baumansicht-Aktionen → <img src="images/_Std_TreeMultiDocument.svg" width=16px> Mehrfachdokument** auswählen.
-
-
-
-## Einstellungen
-
-Die Einstellung Dokument-Modus der Baumansicht wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → TreeView → DocumentMode** (Parametereditor). Es ist ein ganzzahliger Wert. Die möglichen Werte sind `0` (Einzeldokument), `1` (Mehrfachdokument) oder `2` (DokumentReduzieren). Standardwert ist `2`.
+    -   Den Menüeintrag **Ansicht → Baumansicht-Aktionen → Mehrfachdokument** auswählen.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

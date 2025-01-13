@@ -13,9 +13,9 @@ Odwiedź stronę [Poradniki](tutorials/pl.md), aby uzyskać wysokiej jakości po
 
 ## Projektowanie architektoniczne 
 
-Filmy przedstawiające modelowanie pomieszczeń, domów, budynków biurowych i podobnych konstrukcji oraz rysowanie planów pięter przy użyciu Środowisk pracy, takich jak <img alt="" src=images/_Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md), <img alt="" src=images/_Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md) i <img alt="" src=images/_Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/pl.md).
+Filmy przedstawiające modelowanie pomieszczeń, domów, budynków biurowych i podobnych konstrukcji oraz rysowanie planów pięter przy użyciu Środowisk pracy, takich jak <img alt="" src=images/_Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md) i <img alt="" src=images/_Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/pl.md).
 
--   [Lista odtwarzania Yorika van Havre](https://www.youtube.com/user/yorikvanhavre/playlists): główny deweloper środowiska pracy [Arch Workbench](Arch_Workbench.md) przygotował różne listy dotyczące FreeCAD do modelowania budynków, jak również ogólnej architektury.
+-   [Lista odtwarzania Yorika van Havre](https://www.youtube.com/user/yorikvanhavre/playlists): główny deweloper środowiska pracy [BIM Workbench](BIM_Workbench.md) przygotował różne listy dotyczące FreeCAD do modelowania budynków, jak również ogólnej architektury.
     -   [Prezentacja programu FreeCAD Arch Workbench](https://www.youtube.com/watch?v=lTDOeHapv_E): FreeCAD 0.16, prezentacja na #ODC2016PN.
     -   [BIM z FreeCAD - Wprowadzenie](https://www.youtube.com/watch?v=rkWOFQ2fGZQ): ogólne wprowadzenie do FreeCAD 0.17.
     -   [BIM z FreeCAD](https://www.youtube.com/watch?v=QhDMhYvxPO4&list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU): FreeCAD 0.17 do 0.19, ogólne filmy na temat BIM i Arch Workbench, w tym konfiguracja, budowanie ścian, okien, używanie obiektów 2D i wyrażeń.

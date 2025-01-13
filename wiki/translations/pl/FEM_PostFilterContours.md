@@ -38,6 +38,8 @@ Okno dialogowe oferuje następujące ustawieniaː
 -   **Pole**: Pole wyników do wyświetlenia.
 -   **Wektor**: Składowe wektora jeśli **Pole** jest wektorem.
 -   **Liczba konturów**: Liczba konturów do utworzenia. **Uwaga:** w zależności od geometrii, utworzona liczba konturów może być wyższa niż podana. Wynika to z algorytmu tworzenia konturów. Jednak w przypadku geometrii 2D i prostych 3D, liczba konturów powinna się zgadzać.
+-   **Wygładzanie**: Jeśli zaznaczone, do filtra konturów stosowany jest filtr wygładzający Laplace\'a, który sprawia, że izopowierzchnie są gładsze. {{Version/pl|1.1}}
+-   **Współczynnik relaksacji**: Kontroluje poziom wygładzania poprzez ilość przemieszczenia wierzchołków (jeśli wygładzanie jest włączone). {{Version/pl|1.1}}
 -   **Bez koloru**: Nie stosuj koloru do konturów.
 
 **Uwaga**: **Pole** może być ustawione tylko jeśli funkcja filtra istnieje i została zastosowana przy pomocy <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:16px;"> [Zastosuj zmiany](FEM_PostApplyChanges/pl.md). Alternatywnie, możesz ponownie otworzyć okno dialogowe filtra.

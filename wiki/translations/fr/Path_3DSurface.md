@@ -1,7 +1,7 @@
 # Path 3DSurface/fr
-1.  REDIRECT [Path_Surface/fr](Path_Surface/fr.md)
+1.  REDIRECT [CAM_Surface/fr](CAM_Surface/fr.md)
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path 3DSurface/fr
+⏵ [documentation index](../README.md) > Path 3DSurface/fr

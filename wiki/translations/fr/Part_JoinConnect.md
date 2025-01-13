@@ -12,7 +12,7 @@
 
 ## Description
 
-Outil de connexion pour joindre deux objets creux (par exemple deux tuyaux). Peut aussi joindre des coques et des fils.
+L\'outil <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> **Part Connecter** connecte deux objets creux (par exemple deux tuyaux). Il peut aussi joindre des coques et des polylignes.
 
 ![600px](images/JoinFeatures_Connect.png)
 
@@ -20,13 +20,11 @@ Outil de connexion pour joindre deux objets creux (par exemple deux tuyaux). Peu
 
 ## Utilisation
 
-1.  Sélectionnez les objets à connecter.
-    L\'ordre de sélection n\'est pas important car l\'action de l\'outil est symétrique. Il suffit de sélectionner un élément de chaque objet (par ex. leurs faces). Vous pouvez également sélectionner un composé contenant toutes les formes à connecter, par ex. [Draft Réseau orthogonal](Draft_OrthoArray/fr.md).
-2.  Lancez la commande Part Connecter des objets de plusieurs manières :
-    -   Appuyez sur le bouton <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Connecter des objets](Part_JoinConnect/fr.md) dans la barre d\'outils Part
-    -   Utilisez l\'entrée **Part → Joindre → Connecter des objets** dans le menu Part
-
-Un objet paramétrique Connect est créé. Les objets d\'origine sont cachés et le résultat de l\'intersection est affiché dans la [vue 3D](3D_view/fr.md).
+1.  Sélectionnez les objets à connecter. L\'ordre de sélection n\'est pas important, puisque l\'action de l\'outil est symétrique. Il suffit de sélectionner une sous-forme de chaque objet (par exemple, les faces). Vous pouvez également sélectionner un composé contenant toutes les formes à connecter, par exemple un [Draft Réseau orthogonal](Draft_OrthoArray/fr.md).
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le **<img src="images/Part_JoinConnect.svg" width=16px> [Connecter des objets](Part_JoinConnect/fr.md)**.
+    -   Sélectionnez l\'option **Part → Joindre → <img src="images/Part_JoinConnect.svg" width=16px> Connecter des objets** du menu.
+3.  Un objet paramétrique Connect est créé. Les objets originaux sont masqués et le résultat de la connexion est affiché dans la [vue 3D](3D_view/fr.md).
 
 
 
@@ -35,11 +33,11 @@ Un objet paramétrique Connect est créé. Les objets d\'origine sont cachés et
 
 {{TitleProperty|Connect}}
 
--    **Objects**: Liste les objets a connecter. En général deux objets suffisent, un compound d\'objets fonctionne (Depuis V0.17, cette propriété n\'est pas affichée dans l\'[éditeur de propriétés](Property_editor/fr.md) mais seulement disponible via [Python](#Script.md)).
+-    **Objects**: liste les objets a connecter. En général deux objets suffisent, un compound d\'objets fonctionne (Depuis V0.17, cette propriété n\'est pas affichée dans l\'[éditeur de propriétés](Property_editor/fr.md) mais seulement disponible via [Python](#Script.md)).
 
--    **Refine**: choisir d\'appliquer ou non un [Affinage de forme](Part_RefineShape/fr.md) sur la forme finale. Par défaut cette valeur est déterminée par la case *Affiner les modèles automatiquement après une opération booléenne* dans les [PartDesign Préférences](PartDesign_Preferences/fr.md).
+-    **Refine**: [affiner](Part_RefineShape/fr.md) ou non la forme finale. Par défaut cette valeur est déterminée par la case *Affiner les modèles automatiquement après une opération booléenne* dans les [PartDesign Préférences](PartDesign_Preferences/fr.md).
 
--    **Tolerance**: Valeur de \"flou\". Il s\'agit d\'une tolérance supplémentaire à appliquer lors de la recherche d\'intersections, en plus des tolérances stockées dans les formes d\'entrée.
+-    **Tolerance**: valeur de \"flou\". Il s\'agit d\'une tolérance supplémentaire à appliquer lors de la recherche d\'intersections, en plus des tolérances stockées dans les formes d\'entrée.
 
 
 
@@ -102,6 +100,14 @@ j.Objects = FreeCADGui.Selection.getSelection()
 }}
 
 L\'outil lui-même est implémenté en Python, voir **/Mod/Part/BOPTools/JoinFeatures.py** ([Github lien](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) là où FreeCAD est installé.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

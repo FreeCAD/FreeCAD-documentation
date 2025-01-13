@@ -9,6 +9,8 @@
 
 # Surface Sections/it
 
+
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Surface_Sections.svg  style="width:16px;"> [Surface Sections](Surface_Sections/it.md) viene utilizzato per creare una superficie dai bordi che rappresentano sezioni trasversali di una superficie.
@@ -19,10 +21,9 @@ Lo strumento <img alt="" src=images/Surface_Sections.svg  style="width:16px;"> [
 
 *A sinistra: i bordi di controllo (sezioni trasversali). A destra: la superficie prodotta da questi bordi.*
 
+
+
 ## Utilizzo
-
-
-<div class="mw-translate-fuzzy">
 
 1.  Assicurarsii di avere almeno due bordi o curve nello spazio. Questi bordi possono essere creati con gli strumenti di <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/it.md) o di <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher](Sketcher_Workbench/it.md).
 2.  Premere il pulsante **[<img src=images/Surface_Sections.svg style="width:16px"> [Surface sections](Surface_Sections/it.md)**.
@@ -31,7 +32,6 @@ Lo strumento <img alt="" src=images/Surface_Sections.svg  style="width:16px;"> [
 5.  Premere **OK** per completare l\'operazione.
 
 
-</div>
 
 ## Opzioni
 
@@ -45,11 +45,15 @@ Lo strumento <img alt="" src=images/Surface_Sections.svg  style="width:16px;"> [
 
 -   Press **Cancel** or **Esc** to abort the current operation.
 
+
+
 ## Proprietà
 
 Una [Surface Sections](Surface_Sections/it.md) (classe `Surface::Sections`) è derivato dalla base [Part Feature](Part_Feature/it.md) (classe `Part::Feature`, attraverso la sottoclasse `Part::Spline`), quindi condivide tutte le proprietà di quest\'ultima.
 
 Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), Surface Sections ha le seguenti proprietà nell\'[editor delle proprietà](property_editor/it.md).
+
+
 
 ### Dati
 
@@ -64,6 +68,8 @@ Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), Surface S
 
 </div>
 
+
+
 ### Vista
 
 
@@ -77,6 +83,8 @@ The shape of the surface depends on the direction of the chosen edges; if edges 
 
 <img alt="" src=images/Surface_twisting_example_smooth.png  style="width:330px;"> <img alt="" src=images/Surface_twisting_example_twisted.png  style="width:330px;">
 
+
+
 ## Script
 
 
@@ -84,9 +92,9 @@ The shape of the surface depends on the direction of the chosen edges; if edges 
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-The Surface Sections tool can be used in [macros](macros.md) and from the [Python](Python.md) console by adding the `Surface::Sections` object.
+The Surface Sections tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::Sections` object.
 
--   The edges to be used to define the surface must be assigned as a [LinkSubList](LinkSubList.md) to the `NSections` property of the object.
+-   The edges to be used to define the surface must be assigned as a [LinkSubList](FeaturePython_Custom_Properties#App:_PropertyLinkSubList.md) to the `NSections` property of the object.
 -   All objects with edges need to be computed before they can be used as input for the properties of the Sections object.
 
 

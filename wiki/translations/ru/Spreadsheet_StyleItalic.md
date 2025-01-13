@@ -9,15 +9,25 @@
 
 # Spreadsheet StyleItalic/ru
 
+
+</div>
+
+
+
 ## Описание
 
-The **[<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [Spreadsheet StyleItalic](Spreadsheet_StyleItalic.md)** tool makes the text inside the cell adopt *italic* style.
+The <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> **Spreadsheet StyleItalic** tool toggles the contents of selected cells to/from italic.
+
+
 
 ## Применение
 
-1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Select a cell.
-3.  Press the **[<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [Spreadsheet StyleItalic](Spreadsheet_StyleItalic.md)** button.
+1.  Make sure there is an active [spreadsheet](Spreadsheet_CreateSheet.md).
+2.  Select one or more cells.
+3.  There are several ways to invoke the tool:
+    -   Press the **[<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [Italic text](Spreadsheet_StyleItalic.md)** button.
+    -   Select the **Spreadsheet → Styles → [<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> Italic text** option from the menu.
+    -   Use the keyboard shortcut: **Ctrl**+**I**. <small>(v1.1)</small> 
 
 
 

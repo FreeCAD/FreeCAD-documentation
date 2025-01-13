@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft BSpline
-   Name/it: BSpline
-   MenuLocation: Drafting , B-spline
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft BSpline
+   MenuLocation: Drafting , B-spline<br>2D Drafting , B-spline
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **B** **S**
    Version: 0.7
    SeeAlso: Draft Wire/it, Draft BezCurve/it
@@ -30,7 +30,8 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_BSpline.svg" width=16px> [BSpline](Draft_BSpline/it.md)**.
-    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_BSpline.svg" width=16px> B-spline** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Drafting → <img src="images/Draft_BSpline.svg" width=16px> B-spline** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **2D Drafting → <img src="images/Draft_BSpline.svg" width=16px> B-spline** dal menu.
     -   Usare la scorciatoia da tastiera: **B** poi **S**.
 2.  Si apre il pannello attività **B-spline**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
 3.  Scegliere il primo punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
@@ -41,11 +42,11 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 ## Opzioni
 
-È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 0.22).
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 1.0).
 
 -   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di essei. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
 -   Premere **R** o fare clic sulla casella di controllo **Relativo** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate sono relative all\'ultimo punto, se disponibile, altrimenti sono relative all\'origine del sistema di coordinate.
--   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md).
 -   Premere **F** o fare clic sulla casella di controllo **Riempito** per attivare o disattivare la modalità riempimento. Se la modalità riempimento è attiva, la spline creata avrà **Make Face** impostato su `True` e avrà una faccia piena, a condizione che sia chiusa e non si intersechi. Si noti che una spline autointersecante con una faccia non verrà visualizzata correttamente, per tale spline **Make Face** deve essere impostato su `False`.
 -   Premere **N** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando verrà riavviato dopo aver utilizzato **<img src="images/Draft_FinishLine.svg" width=16px> Fine** o **<img src="images/Draft_CloseLine.svg" width=16px> Chiudi**, o dopo aver creato una spline chiusa eseguendo lo snap al primo punto della spline, consentendo di continuare a creare altre spline.
 -   Premere **/** o il pulsante **<img src="images/Draft_UndoLine.svg" width=16px> Annulla** per annullare l\'ultimo punto.

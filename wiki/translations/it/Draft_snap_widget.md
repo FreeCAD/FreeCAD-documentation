@@ -1,7 +1,7 @@
 # Draft snap widget/it
 ## Descrizione
 
-Il **Dispositivo di aggancio Draft** è un\'alternativa alla barra degli strumenti di Aggancio Draft. Il dispositivo è disponibile solo in ambiente <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md). È un elemento GUI [opzionale](#Preferenze.md) che si trova nella [Barra di stato](Status_bar/it.md).
+Il **Dispositivo (widget) di aggancio Draft** è un\'alternativa alla barra degli strumenti di Aggancio Draft. Il dispositivo è disponibile solo in ambiente <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md). È un elemento GUI [opzionale](#Preferenze.md) che si trova nella [Barra di stato](Status_bar/it.md).
 
 ![](images/Draft_snap_widget_button.png ) 
 *Il dispositivo di Aggancio di Draft*

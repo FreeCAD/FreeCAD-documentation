@@ -14,10 +14,10 @@
 
 ## Beschreibung
 
-Das FEM Analysis(-Objekt) könnte als ein Behälter gesehen werden, der alle Objekte einer Finite-Elemente-Analyse aufnimmt. Es muss eine Analysebehälter vorhanden sein, der alle benötigten Objekte aufnehmen kann. Mindestens eines der folgenden Objekte wird für eine mechanische Analyse benötigt:
+Das FEM Analysis(-Objekt) könnte als ein Behälter gesehen werden, der alle Objekte einer Finite-Elemente-Analyse aufnimmt. Es muss ein Analysebehälter vorhanden sein, der alle benötigten Objekte aufnehmen kann. Mindestens eines der folgenden Objekte (außer dem Netz) wird für eine mechanische Analyse benötigt:
 
--   Ein [Festkörper-Material](FEM_MaterialSolid/de.md)
--   Eine Randbedingung zur [Befestigung](FEM_ConstraintFixed/de.md) (Einspannung) oder [Auslenkung](FEM_ConstraintDisplacement/de.md) (Verschiebung).
+-   Ein [Festkörper-Material](FEM_MaterialSolid/de.md),
+-   Eine Randbedingung für eine [Befestigung](FEM_ConstraintFixed/de.md) (Einspannung), eine [Auslenkung](FEM_ConstraintDisplacement/de.md) (Verschiebung), oder einen [starren Körper](FEM_ConstraintRigidBody/de.md).
 
 
 

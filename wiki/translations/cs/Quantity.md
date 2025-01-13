@@ -6,6 +6,8 @@ Veličina je kombinace čísla a jednotky. Je využívána všude ve FreeCADu k 
 
 </div>
 
+
+
 ### Základní
 
 
@@ -23,6 +25,8 @@ Z těchto důvodů byl vytvořen Framework veličin FreeCADu. Zahrnuje všechny 
 
 
 </div>
+
+
 
 ### Podporované jednotky 
 
@@ -128,14 +132,6 @@ Kalkulátor jednotek již VstupníPole používá.
 
 <div class="mw-translate-fuzzy">
 
-Hlavní dokument: [InputField/cs](InputField/cs.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Kód:
 
 -   <http://sourceforge.net/p/free-cad/code/ci/master/tree/src/Gui/InputField.h>
@@ -201,6 +197,8 @@ Jednotka je používaná hlavně k popisu typu jednotky parametru. Proto speciá
 
 
 </div>
+
+
 
 ### Veličina
 
@@ -335,6 +333,8 @@ import FreeCAD
 params = App.ParamGet("User parameter:BaseApp/Preferences/Units")
 params.GetInt('Decimals') # returns an int
 ```
+
+
 
 ## Dodatek
 

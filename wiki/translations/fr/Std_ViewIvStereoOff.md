@@ -17,32 +17,19 @@ La commande **Std Stéréo désactivée** désactive le mode stéréo dans la [v
 
 ## Utilisation
 
-1.  Sélectionnez l\'option **Affichage → Stéréo → <img src="images/Std_ViewIvStereoOff.svg" width=16px> Désactiver la stéréo** dans le menu.
+1.  Sélectionnez l\'option **Affichage → Stéréo → <img src="images/Std_ViewIvStereoOff.svg" width=16px> Désactiver la stéréo** du menu.
 
 
 
 ## Script
 
-
-**Voir aussi :**
-
-[FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
-
-Pour changer la vue en non-stéréo, utilisez la méthode `setStereoType` de l\'objet ActiveView. Cette méthode n\'est pas disponible si FreeCAD est en mode console.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.setStereoType('None')
-FreeCADGui.ActiveDocument.ActiveView.getStereoType()
-```
+Voir [Std Stéréo rouge cyan](Std_ViewIvStereoRedGreen/fr#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

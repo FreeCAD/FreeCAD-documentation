@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Slope
    Name/de: Draft Neigung
-   MenuLocation: Änderung , Neigung festlegen
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Änderung , Neigung festlegen<br>Werkzeuge , Neigung festlegen
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Version: 0.17
 ---
 
@@ -25,8 +25,9 @@ Der Befehl <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Draft 
 1.  Eine oder mehrere [Draft Linien](Draft_Line/de.md) und/oder [Draft Kantenzüge](Draft_Wire/de.md) auswählen.
 
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Draft_Slope.svg" width=16px> [Neigung festlegen](Draft_Slope/de.md)** drücken.
-    -   Den Menüeintrag **Änderung → <img src="images/Draft_Slope.svg" width=16px> Neigung festlegen** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Die Schaltfläche **<img src="images/Draft_Slope.svg" width=16px> [Neigung festlegen](Draft_Slope/de.md)** drücken.
+    -   Draft: Den Menüeintrag **Änderung → <img src="images/Draft_Slope.svg" width=16px> Neigung festlegen** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Werkzeuge → <img src="images/Draft_Slope.svg" width=16px> Neigung festlegen** auswählen.
 
 3.  Einen Wert für die **Neigung** eingeben. {{Value|0}} bedeutet, dass jedes Segment horizontal ist, {{Value|0,5}} bedeutet, dass der Höhenunterschied (Delta-Höhe) für jedes Segment das {{Value|0,5}}-fache seiner Länge beträgt, usw. Der Wert kann auch negativ sein.
 
@@ -37,7 +38,7 @@ Der Befehl <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Draft 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Es gibt keine Python-Methode zum Neigen von Objekten. Um die Ergebnisse des Befehls Draft Neigung zu emulieren, muss die Eigenschaft `Points` von Drahtobjekten geändert werden.
 

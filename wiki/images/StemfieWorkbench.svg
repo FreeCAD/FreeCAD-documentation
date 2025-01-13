@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg2282"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="STEMFIE.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">STEMFIE WB logo</title>
+  <sodipodi:namedview
+     id="namedview2284"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     objecttolerance="10.0"
+     gridtolerance="10.0"
+     guidetolerance="10.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="px"
+     showgrid="true"
+     borderlayer="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-paths="true"
+     inkscape:zoom="8"
+     inkscape:cx="22.75"
+     inkscape:cy="24.8125"
+     inkscape:window-width="1894"
+     inkscape:window-height="999"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2282"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#505050">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="2"
+       spacingy="2"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2279">
+    <linearGradient
+       id="linearGradient2"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#fcaf3e;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#f57900;stop-opacity:1;"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="linearGradient3"
+       x1="13.663309"
+       y1="13.613635"
+       x2="50.336712"
+       y2="50.287037"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <path
+     sodipodi:nodetypes="cccccccccccccc"
+     id="path4561"
+     d="M 21.678004,4.9000889 C 19.584659,13.145065 13.146469,19.583164 4.9014872,21.67661 c -2.5326603,6.648774 -2.5326603,13.997494 0,20.646347 8.2449818,2.093358 14.6831718,8.531547 16.7765168,16.776457 6.648866,2.532709 13.995199,2.532709 20.643981,0 2.093393,-8.24491 8.531582,-14.683099 16.776492,-16.776457 2.532709,-6.648853 2.532709,-13.997573 0,-20.646347 -8.24491,-2.093446 -14.683099,-8.531545 -16.776492,-16.7765211 -6.881428,-2.5915184 -14.311289,-2.4719663 -20.643981,0 z M 32.000006,17.677275 C 39.91094,17.6768 46.324169,24.09 46.323684,32.000945 46.322873,39.910968 39.910007,46.322732 32.000006,46.322259 24.08998,46.322732 17.677127,39.910968 17.676304,32.000945 17.675831,24.09 24.089047,17.6768 32.000006,17.677275 Z"
+     style="display:inline;fill:#fcaf3e;fill-opacity:1;stroke:#ce5e00;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     inkscape:connector-curvature="0"
+     inkscape:label="STEMFIE" />
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>STEMFIE WB logo</dc:title>
+        <dc:date>2024</dc:date>
+        <dc:relation>https://www.freecad.org/wiki/index.php?title=Artwork</dc:relation>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>FreeCAD</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>FreeCAD/src/</dc:identifier>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="path1"
+     style="display:inline;fill:url(#linearGradient3);stroke:none;stroke-width:0.311995;stroke-miterlimit:4;stroke-dasharray:none"
+     inkscape:label="STEMFIE"
+     sodipodi:type="inkscape:offset"
+     inkscape:radius="-3.9666486"
+     inkscape:original="M 31.787109 2 C 28.156741 2.0154599 24.597913 2.6861948 21.322266 3.9648438 C 19.15666 12.494435 12.496394 19.154602 3.9667969 21.320312 C 1.3467099 28.198601 1.3467099 35.801317 3.9667969 42.679688 C 12.496394 44.845306 19.15666 51.505634 21.322266 60.035156 C 28.20065 62.655293 35.799437 62.655293 42.677734 60.035156 C 44.84339 51.505634 51.503681 44.845307 60.033203 42.679688 C 62.65334 35.801316 62.65334 28.198601 60.033203 21.320312 C 51.503681 19.154601 44.84339 12.494435 42.677734 3.9648438 C 39.118247 2.6243554 35.417477 1.9845401 31.787109 2 z M 32 17.183594 C 40.184017 17.183103 46.818861 23.817924 46.818359 32.001953 C 46.81752 40.185027 40.183052 46.816895 32 46.816406 C 23.816923 46.816895 17.182493 40.185027 17.181641 32.001953 C 17.181152 23.817924 23.815958 17.183103 32 17.183594 z "
+     d="m 31.804687,5.9667969 c -2.555117,0.010881 -5.022285,0.4896949 -7.375,1.21875 C 21.628523,15.273669 15.28737,21.61866 7.2011719,24.423828 c -1.5108951,4.95168 -1.510901,10.200598 0,15.152344 8.0817801,2.803575 14.4210521,9.142883 17.2246091,17.224609 4.951399,1.511047 10.197109,1.511041 15.148438,0 2.803597,-8.081716 9.14288,-14.421033 17.224609,-17.224609 1.510927,-4.951736 1.510921,-10.200675 0,-15.152344 C 48.72045,21.621353 42.383492,15.286037 39.578125,7.2089844 37.005847,6.4315825 34.388951,5.9557918 31.804687,5.9667969 Z M 32,13.216797 c 10.327999,-6.2e-4 18.78579,8.457138 18.785156,18.785156 C 50.784097,42.328794 42.326332,50.78382 32,50.783203 21.673649,50.78382 13.215919,42.328778 13.214844,32.001953 13.214227,21.67395 21.671982,13.216177 32,13.216797 Z" />
+</svg>

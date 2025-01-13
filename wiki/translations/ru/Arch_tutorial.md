@@ -683,6 +683,11 @@ To populate a spreadsheet with values extracted from the model the Arch_Schedule
 Файл, созданный во время прохождения урока, может быть взят [здесь](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd).
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/ru
+⏵ [documentation index](../README.md) > Arch tutorial/ru

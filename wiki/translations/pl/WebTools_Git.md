@@ -1,58 +1,69 @@
 ---
  GuiCommand:
-   Name: WebTools Git‏‎
+   Name: WebTools Git
+   Name/pl: WebTools: Git‏‎
    MenuLocation: Web Tools , Git
-   Workbenches: WebTools_Workbench
+   Workbenches: WebTools_Workbench/pl
    Version: 0.17
 ---
 
 # WebTools Git/pl
 
 
-**Starting from FreeCAD v0.17, this tool has been removed from the Arch Workbench and is now part of the external [Addon manager](WebTools_Workbench]]_that_you_can_install_via_menu_Tools_→_<img_src="images/AddonManager.svg" width=24px> [[Std_AddonMgr.md).
+**Począwszy od FreeCAD v0.17, narzędzie to zostało usunięte ze środowiska Architektura i jest teraz częścią zewnętrznego środowiska pracy [Narzędzia Web](WebTools_Workbench/pl.md), które można zainstalować poprzez menu Narzędzia → <img src="images/AddonManager.svg" width=24px> [Menadżer dodatków](Std_AddonMgr/pl.md).
 **
 
-## Description
 
-This command allows to manage the current document with [GIT](https://en.wikipedia.org/wiki/Git_%28software%29). GIT is a powerful file version control system, which can manage different versions of files and keep track of the changes.
 
-Git is a complex tool, consider learning the basics of it before using this tool, to avoid wrong operations that can cause data loss. An abundant literature about GIT is available and easy to find on the internet.
+## Opis
 
-**Prerequisite:** To be able to use this command, the [gitpython](https://github.com/gitpython-developers/GitPython) package must be installed on your system. On most linux distributions, gitpython is available from the standard software repositories as *gitpython* or *python-git*.
+To polecenie umożliwia zarządzanie bieżącym dokumentem za pomocą [GIT](https://en.wikipedia.org/wiki/Git_%28software%29). GIT to potężny system kontroli wersji plików, który może zarządzać różnymi wersjami plików i śledzić zmiany.
 
-## Usage
+Git jest złożonym narzędziem, przed jego użyciem warto zapoznać się z jego podstawami, aby uniknąć błędnych operacji, które mogą spowodować utratę danych. Obfita literatura na temat GIT jest dostępna i łatwa do znalezienia w Internecie.
 
-1.  Make sure the [Report view](Report_view.md) is open since Git messages will be printed there.
-2.  Save the current active document making sure the saved file is inside an existing git repository. It can be in a subdirectory.
-3.  Select menu **Web Tools → <img src="images/WebTools_Git.svg" width=16px> [Git](WebTools_Git.md)
+**Wymagania wstępne:** Aby móc korzystać z tego polecenia, w systemie musi być zainstalowany pakiet [gitpython](https://github.com/gitpython-developers/GitPython). W większości dystrybucji Linuksa gitpython jest dostępny w standardowych repozytoriach oprogramowania jako {{Incode|gitpython}} lub {{Incode|python-git}}.
+
+
+
+## Użycie
+
+1.  Upewnij się, że okno [Widok raportów](Report_view/pl.md) jest otwarte, ponieważ będą tam wyświetlane komunikaty Git.
+2.  Zapisz bieżący aktywny dokument, upewniając się, że zapisany plik znajduje się w istniejącym repozytorium git. Może on znajdować się w podkatalogu.
+3.  Wybierz z menu **Web Tools → <img src="images/WebTools_Git.svg" width=16px> '''Git'''
 **
-4.  This opens up a [Task panel](Task_panel.md) in the [Combo view](Combo_view.md).
+4.  Otworzy się [Panel zadań](Task_panel/pl.md) w [widok połączonym](Combo_view/pl.md).
 
-## Options
 
-![Tasks tab showing Git interface](images/Arch_Git_panel.jpg )
 
--   The **Log** button will pop up a dialog showing the most recent log entries. The output corresponds to git log.
--   The **Refresh** button will re-scan the repository for changed files. After saving your work you have to do a manual refresh.
--   The **Diff** button will show the differences between the current version of a selected file and the most recent version stored in the repository. The output corresponds to git diff.
-    -   By default a binary diff is made, you have to set up the fcinfo tool for textual diffing.
--   The **Select all** button will select all files to be committed.
--   The **Commit** button will commit the selected files. Be sure to write a commit message that describes the changes you are committing.
--   The **Pull** button will **download** any new changes to the repository from the selected remote. If the file currently opened in FreeCAD is being modified by a pull, a warning message will inform you so you can either save the file again or save it elsewhere.
--   The **Push** button will **upload** your latest commit(s) to the selected remote.
+## Opcje
 
-## Limitations
+![Zakładka Zadania pokazująca interfejs Git.](images/Arch_Git_panel.jpg )
 
--   The tool cannot create new repositories yet. You must have an existing local repository already created. (FreeCAD will check if the current document file is inside a Git repository.)
--   The tool cannot change or create branches. You must do that manually with standard Git tools.
+-   Przycisk **Log** spowoduje wyświetlenie okna dialogowego zawierającego najnowsze wpisy dziennika. Dane wyjściowe odpowiadają git log.
+-   Przycisk **Odśwież** spowoduje ponowne przeskanowanie repozytorium w poszukiwaniu zmienionych plików. Po zapisaniu pracy należy wykonać ręczne odświeżenie.
+-   Przycisk **Porównaj** pokaże różnice pomiędzy aktualną wersją wybranego pliku, a najnowszą wersją przechowywaną w repozytorium. Dane wyjściowe odpowiadają git diff.
+    -   Domyślnie wykonywana jest różnica binarna, musisz skonfigurować narzędzie fcinfo do porównywania tekstowego.
+-   Przycisk **Wybierz wszystko** spowoduje wybranie wszystkich plików do zatwierdzenia.
+-   Przycisk **Zatwierdź** zatwierdzi wybrane pliki. Pamiętaj, aby napisać wiadomość zatwierdzenia opisującą wprowadzane zmiany.
+-   Przycisk **Pull** spowoduje **pobranie** wszelkich nowych zmian w repozytorium z wybranego pilota. Jeśli plik aktualnie otwarty we FreeCAD jest modyfikowany przez ściągnięcie, pojawi się komunikat ostrzegawczy, abyś mógł albo zapisać plik ponownie, albo zapisać go gdzie indziej.
+-   Przycisk **Push** spowoduje **przesłanie** najnowszych zatwierdzeń do wybranego pilota.
 
-## Enabling human-readable diffs for FCStd files with the fcinfo utility 
 
-FreeCAD\'s [FCStd file format](File_Format_FCStd.md) is a zip-based binary format, for which Git cannot produce proper diffs. This means that you cannot see what has changed between one version and another, and also that each new version stored in the Git repository is a full copy of the file.
 
-Although the second problem currently has no solution, the first one can be solved with a little tool available from the FreeCAD source code, called [fcinfo](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/fcinfo). Git can be told to use the fcinfo utility to print a human-friendly report of a FCStd file, and, when asked to produce a diff between two FCStd files, will produce a diff between the two fcinfo reports instead. Please note that this is only visual feedback, a full copy of the file will still be stored internally.
+## Ograniczenia
 
-Example of a diff produced with fcinfo:
+-   Narzędzie nie może jeszcze tworzyć nowych repozytoriów. Musisz mieć już utworzone istniejące lokalne repozytorium. (FreeCAD sprawdzi, czy bieżący plik dokumentu znajduje się w repozytorium Git).
+-   Narzędzie nie może zmieniać ani tworzyć gałęzi. Należy to zrobić ręcznie za pomocą standardowych narzędzi Git.
+
+
+
+## Włączenie czytelnych dla człowieka różnic dla plików FCStd za pomocą narzędzia fcinfo 
+
+Format pliku FreeCAD [FCStd](File_Format_FCStd/pl.md) jest formatem binarnym opartym na zip, dla którego Git nie może generować poprawnych różnic. Oznacza to, że nie można zobaczyć, co zmieniło się między jedną wersją a drugą, a także, że każda nowa wersja przechowywana w repozytorium Git jest pełną kopią pliku.
+
+Chociaż drugi problem nie ma obecnie rozwiązania, pierwszy można rozwiązać za pomocą małego narzędzia dostępnego w kodzie źródłowym FreeCAD, o nazwie [fcinfo](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/fcinfo). Git może zostać poproszony o użycie narzędzia fcinfo do wydrukowania przyjaznego dla człowieka raportu pliku FCStd, a gdy zostanie poproszony o porównanie dwóch plików FCStd, zamiast tego wygeneruje porównanie dwóch raportów fcinfo. Należy pamiętać, że jest to tylko wizualna informacja zwrotna, pełna kopia pliku będzie nadal przechowywana wewnętrznie.
+
+Przykładowe porównanie uzyskane za pomocą fcinfo:
 
 
 ```python
@@ -102,25 +113,78 @@ index 08077b6..985b1d8 100644
 -       Frame : Part::FeaturePython (89K)
 ```
 
-Each FreeCAD file contains a SHA1 checksum number, which will change each time the file is saved, even if no contents was changed. So fcinfo will always print something, no matter of the contents changes.
+Każdy plik FreeCAD zawiera numer sumy kontrolnej SHA1, który zmienia się za każdym razem, gdy plik jest zapisywany, nawet jeśli żadna zawartość nie została zmieniona. Tak więc fcinfo zawsze coś wydrukuje, bez względu na zmiany zawartości.
 
-To enable the use of fcinfo (Linux and Mac only - TODO: add Windows instructions)
+Aby umożliwić korzystanie z fcinfo *(tylko Linux i Mac)*.
 
-1.  Save the fcinfo file somewhere in your system path
-2.  Make it executable
-3.  Create a .gitattributes file in your Git repository and add the following line in it:
 
-*.FCStd diff=fcinfo
 
-Add the following lines to the .gitconfig file in your home directory:
+### Korzystanie z fcinfo w jednym repozytorium Git 
 
-[diff "fcinfo"]
-textconv = /path/to/fcinfo
+Oto kroki, aby umożliwić korzystanie z narzędzia fcinfo na podstawie repozytorium.
 
-Alternatively, if you want to invoke fcinfo with arguments (e.g., --gui) use this approach [1](https://stackoverflow.com/questions/55601430/how-to-pass-a-filename-argument-gitconfig-diff-textconv):
+-   Zapisz plik fcinfo gdzieś w ścieżce systemowej.
 
-[diff "fcinfo"]
-textconv = sh -c '/path/to/fcinfo --gui "$0"'
+:   Uwaga: Od 2023-12-09 w systemach Arch Linux skrypt {{Incode|fcinfo}} jest dołączony do pakietu {{Incode|freecad}}, [łatka tutaj](https://gitlab.archlinux.org/archlinux/packaging/packages/freecad/-/commit/4419bfbfdb670abebd7f2e6ed93194e819781f7d).
+
+-   Uczyń go wykonywalnym.
+
+:   Uwaga: Od 2023-12-09 na systemach Arch Linux skrypt {{Incode|fcinfo}} jest dostępny pod adresem {{Incode|/usr/bin/fcinfo}}.
+
+-   Utwórz plik {{Incode|.gitattributes}} w swoim repozytorium Git i dodaj do niego następujący wiersz:
+
+:   
+    {{Code|lang=text|code=
+    *.FCStd diff=fcinfo
+    }}
+    
+
+-   Dodaj następujące linie do pliku {{Incode|.gitconfig}} w swoim katalogu domowym:
+
+:   
+    {{Code|lang=text|code=
+    [diff "fcinfo"]
+    textconv = /path/to/fcinfo
+    }}
+    
+
+-   Alternatywnie, jeśli chcesz wywołać fcinfo z argumentami (np. {{Incode|--gui}}) użyj [this approach](https://stackoverflow.com/questions/55601430/how-to-pass-a-filename-argument-gitconfig-diff-textconv):
+
+:   
+    {{Code|lang=text|code=
+    [diff "fcinfo"]
+    textconv = sh -c '/path/to/fcinfo --gui "$0"'XD
+    }}
+    
+
+Zauważ, że jeśli pracujesz we wspólnym projekcie, możesz chcieć dołączyć narzędzie fcinfo do swojego repozytorium, w takim przypadku ścieżka jest względna do katalogu głównego repozytorium Git.
+
+
+
+### Włączenie fcinfo globalnie 
+
+Jeśli pracujesz nad wieloma projektami, które wymagają narzędzia fcinfo, możesz włączyć je globalnie dla swojego użytkownika.
+
+-   Utwórz plik {{Incode|$HOME/.config/git/attributes}} i dodaj do niego następującą linijkę:
+
+:   
+    {{Code|lang=text|code=
+    *.FCStd diff=fcinfo
+    }}
+    
+
+-   Dodaj następujące linie do pliku {{Incode|$HOME/.config/git/config}}:
+    -   Odpowiednik tego polecenia to {{Incode|git config --global diff.fcinfo.textconv "/path/to/fcinfo"}}.
+    -   Użytkownicy systemu Arch Linux korzystający z pakietu {{Incode|freecad}} mogą używać {{Incode|textconv = fcinfo}}, ponieważ jest on już zainstalowany w ich systemie.
+
+:   
+    {{Code|lang=text|code=
+    [diff "fcinfo"]
+    textconv = /path/to/fcinfo
+    }}
+    
+
+Zauważ, że wszelkie konfiguracje dokonane na poziomie repozytorium zastępują konfiguracje globalne.
 
 
 

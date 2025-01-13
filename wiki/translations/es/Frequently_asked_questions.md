@@ -29,12 +29,6 @@ El núcleo de modelado geométrico subyacente de FreeCAD, la biblioteca de terce
 
 
 
-#### Para los usuarios Mac 
-
-Sólo se admite la arquitectura MacIntel. No hay versiones disponibles para la arquitectura PowerPC.
-
-
-
 ### ¿Qué pasa si quiero compilar FreeCAD yo mismo? 
 
 
@@ -155,24 +149,6 @@ Un fallo de segmentación ocurre en {{SystemOutput|vbo_save_playback_vertex_list
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### Tengo problemas para ejecutar FreeCAD en Mac OSX 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-La plataforma Mac es menos fácil de soportar que Windows o Linux, ya que ninguno de los desarrolladores principales posee una. Los paquetes para OSX son compilados por usuarios voluntarios de FreeCAD, y a veces pueden no funcionar correctamente en tu máquina, dependiendo de tu sistema. Tu mejor oportunidad es probablemente ir a los foros, buscar hilos relacionados con Mac OSX, y discutir tu problema allí o ver si alguien más encontró una solución.
-
-
-</div>
-
-
-
 ### No puedo cambiar los valores numéricos en los paneles de propiedades de FreeCAD 
 
 <img alt="opciones de idioma" src=images/Jj62l.png  style="width:480px;">
@@ -201,7 +177,13 @@ There is a [Macro findConfigFiles](Macro_findConfigFiles.md) available to help i
 
 ### ¿Es FreeCAD realmente gratuito? ¿Incluso para uso comercial? 
 
-FreeCAD es [software de código abierto](http://en.wikipedia.org/wiki/Open-source_software), y es libre no sólo para usarlo, para uno mismo o para hacer un trabajo comercial, sino también para distribuirlo, modificarlo, o incluso usarlo en una aplicación de código cerrado. En resumen, usted es libre de hacer (casi) todo lo que quiera con él. Vea la página [Licencia](Licence/es.md) para más detalles.
+
+<div class="mw-translate-fuzzy">
+
+FreeCAD es [software de código abierto](http://en.wikipedia.org/wiki/Open-source_software), y es libre no sólo para usarlo, para uno mismo o para hacer un trabajo comercial, sino también para distribuirlo, modificarlo, o incluso usarlo en una aplicación de código cerrado. En resumen, usted es libre de hacer (casi) todo lo que quiera con él. Vea la página [Licencia](License/es.md) para más detalles.
+
+
+</div>
 
 
 
@@ -273,7 +255,12 @@ The above code retrieves the shape from an object, shows the faces and wires you
 
 ### Mis operaciones booleanas fallan, o dan resultados extraños 
 
-The [Open CASCADE](https://en.wikipedia.org/wiki/Open_CASCADE_Technology) geometric modeling kernel used in FreeCAD for Part geometry, although probably the best open-source geometry kernel available, has its flaws and limitations. Indeed the boolean operations (fusion, subtraction, intersection) are not its best features, and often give strange results. This is a current limitation we have no way to solve at once, so your best path is to try obtaining the desired result by modeling another way. For example, problems with primitives such as cylinder can often be solved by using an extruded circle instead. Coplanar surfaces between parts can cause trouble, as well as surface tangency. As a general rule, if a shape doesn\'t work, try remodeling it a different way. In 99% of the cases at the end you will manage to obtain the result you want.
+Like all solid modeling kernels, the [Open CASCADE](https://en.wikipedia.org/wiki/Open_CASCADE_Technology) geometric modeling kernel used in FreeCAD for Part geometry, although probably the best open-source geometry kernel available, has flaws and limitations. Boolean operations (fusion, subtraction, intersection) are complicated operations, and often give strange results. This is a current limitation we have no way to solve at once, so your best path is to try obtaining the desired result by modeling another way. For example, problems with primitives such as cylinder can often be solved by using an extruded circle instead. Coplanar surfaces between parts can cause trouble, as well as surface tangency. As a general rule, if a shape doesn\'t work, try remodeling it a different way. In 99% of the cases at the end you will manage to obtain the result you want.
+
+To understand boolean operations better, see these articles:
+
+-   <https://wiki.mcneel.com/rhino/booleanfaq>
+-   <https://dev.opencascade.org/doc/overview/html/specification__boolean_operations.html#autotoc_md293>
 
 ### When I export (or view) my model, the holes are filled in 
 
@@ -360,7 +347,7 @@ Sure. All the artwork (icons, banners, etc.) of FreeCAD are licensed LGPL, same 
 
 ### ¿Puedo reutilizar piezas de FreeCAD en otra aplicación? 
 
-Yes, you can use the core parts of FreeCAD in other applications as long as you comply with the terms of the LGPL. Third party libraries, [external workbenches](External_workbenches.md), and [macros](Macros.md) may be subject to their own license terms, so please consult with their authors. More details on the [Licence](Licence.md) page.
+Yes, you can use the core parts of FreeCAD in other applications as long as you comply with the terms of the LGPL. Third party libraries, [external workbenches](External_workbenches.md), and [macros](Macros.md) may be subject to their own license terms, so please consult with their authors. More details on the [License](License.md) page.
 
 
 

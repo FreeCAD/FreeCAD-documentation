@@ -12,9 +12,19 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Vă permite să detașați o schiță de pe o fațetă și să o atașați la unul dintre planurile importante (cu sau fără o deplasare gen offset).
+
+
+</div>
+
+
 
 ## Utilizare
 
@@ -42,17 +52,6 @@ Orientarea schiței
 
 
 
-
-
-</div>
-
-## Note
-
-
-<div class="mw-translate-fuzzy">
-
--   Când selectați tasta ** Cancel** în al doilea meniu schița este pur și simplu detașată de pe fațeta ei.
--   Atâta timp cât nici o schiță nu este selectată, comanda este în gri deschis.
 
 
 </div>

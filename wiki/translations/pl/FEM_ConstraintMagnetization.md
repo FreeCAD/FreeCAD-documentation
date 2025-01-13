@@ -1,11 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ConstraintMagnetization
    Name/pl: MES: Warunek brzegowy magnetyzacji
    MenuLocation: Model , Warunki brzegowe elektromagnetyczne , Warunek brzegowy magnetyzacji
    Workbenches: FEM_Workbench/pl
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic/pl, FEM_EquationMagnetodynamic2D/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: Elmer
+}}
 ---
 
 # FEM ConstraintMagnetization/pl
@@ -21,8 +26,8 @@ Tworzy warunek brzegowy MES magnetyzacji. Używane z równaniem [magnetodynamicz
 ## Użycie
 
 1.  Wciśnij przycisk **<img src="images/FEM_ConstraintMagnetization.svg" width=16px> [Warunek brzegowy magnetyzacji](FEM_ConstraintMagnetization/pl.md)** lub użyj opcji **Model → Warunki brzegowe elektromagnetyczne → <img src="images/FEM_ConstraintMagnetization.svg" width=16px> Warunek brzegowy magnetyzacji** z menu.
-2.  W [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być przypisany warunek brzegowy.
-3.  Wciśnij przycisk **Dodaj**.
+2.  Wciśnij przycisk **Dodaj**.
+3.  W [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być przypisany warunek brzegowy.
 
 
 

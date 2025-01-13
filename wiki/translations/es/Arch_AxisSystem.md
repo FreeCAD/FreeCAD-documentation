@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -35,6 +37,8 @@ This is useful to define the intersection points between the different axes. Arc
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utilización
@@ -54,6 +58,8 @@ This is useful to define the intersection points between the different axes. Arc
 
 
 </div>
+
+
 
 ## Opciones
 
@@ -138,6 +144,11 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch AxisSystem/es
+⏵ [documentation index](../README.md) > Arch AxisSystem/es

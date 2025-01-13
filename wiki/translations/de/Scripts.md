@@ -56,31 +56,32 @@ Ein Minimalbeispiel dafür, was in einem Skript enthalten sein muss, wird in die
 
 import FreeCAD
 from FreeCAD import Placement, Rotation, Vector
+import FreeCADGui
 
-DOC = FreeCAD.activeDocument()
 DOC_NAME = "Wiki_Example"
-
-# Helpers methods
-
-def clear_doc():
-    """Clear activeDocument deleting all the objects."""
-    for obj in DOC.Objects:
-        DOC.removeObject(obj.Name)
-
-def setview():
-    """Rearrange View."""
-    FreeCAD.Gui.SendMsgToActiveView("ViewFit")
-    FreeCAD.Gui.activeDocument().activeView().viewAxometric()
-
-if DOC is None:
-    FreeCAD.newDocument(DOC_NAME)
-    FreeCAD.setActiveDocument(DOC_NAME)
-    DOC = FreeCAD.activeDocument()
-else:
-    clear_doc()
+DOC = FreeCAD.newDocument(DOC_NAME)
+FreeCAD.setActiveDocument(DOC.Name)
 
 ROT0 = Rotation(0, 0, 0)
 VEC0 = Vector(0, 0, 0)
+
+# Helper function
+
+def set_view():
+    """Rearrange View."""
+    if not FreeCAD.GuiUp:
+        return
+    doc = FreeCADGui.ActiveDocument
+    if doc is None:
+        return
+    view = doc.ActiveView
+    if view is None:
+        return
+    # Check if the view is a 3D view:
+    if not hasattr(view, "getSceneGraph"):
+        return
+    view.viewAxometric()
+    view.fitAll()
 ```
 
 Der obige Code enthält einige Tricks:
@@ -93,7 +94,7 @@ Lasse uns mit einem kleinen Skript anfangen, das eine sehr kleine Arbeit leistet
 
 
 ```python
-# Script methods
+# Script functions
 
 def my_box(name, len, wid, hei):
     """Create a box."""
@@ -110,20 +111,20 @@ def my_box(name, len, wid, hei):
 
 obj = my_box("test_cube", 5, 5, 5)
 
-setview()
+set_view()
 ```
 
-Die obigen Codezeilen werden nach `# Script methods` eingegeben und der grüne Pfeil in der Symbolleiste **Macro** gedrückt.
+Die obigen Codezeilen werden nach `# Script functions` eingegeben und der grüne Pfeil in der Symbolleiste **Macro** gedrückt.
 
 Du wirst einige magische Dinge sehen, ein neues Dokument mit dem Namen \"Wiki_example\" wird geöffnet, und du wirst in der 3D-Ansicht einen [Würfel](Part_Box/de.md) sehen, wie in der Abbildung unten.
 
-![Testwürfel](images/Cubo.png )
+![Test cube](images/Cubo.png )
 
 
 
 ## Etwas mehr 
 
-Nicht allzu erstaunlich? Ja, aber irgendwo müssen wir anfangen, wir können das Gleiche mit einem [Zylinder](Part_Cylinder/de.md) tun; diese Kodezeilen werden nach der Methode `my_box()` und vor der Zeile `# objects definition` hinzugefügt.
+Nicht allzu erstaunlich? Ja, aber irgendwo müssen wir anfangen, wir können das Gleiche mit einem [Zylinder](Part_Cylinder/de.md) tun; diese Kodezeilen werden nach der Funktion `my_box()` und vor der Zeile `# objects definition` hinzugefügt.
 
 
 ```python
@@ -143,12 +144,12 @@ Auch hier nichts allzu Aufregendes. Aber bitte beachte einige Besonderheiten:
 
 -   Das Fehlen des üblichen Verweises auf die `App.`, die in vielen Dokumentations-Codeschnipseln vorhanden ist, ist beabsichtigt, dieser Code könnte sogar beim Aufruf von FreeCAD als Modul in einem externen Python-Interpreter verwendet werden, die Sache ist mit einem AppImage nicht einfach zu bewerkstelligen, aber mit etwas Vorsicht wäre es machbar. Und in dem Standard Motto von Python, dass \"besser explizit als implizit\" `App.` in einer sehr \" dürftigen\" Weise erklärt, woher die Dinge kommen.
 -   Beachte die Verwendung des dem aktiven Dokument zugewiesenen \"konstanten\" Namens in `DOC &#61; FreeCAD. activeDocument()`; activeDocument ist keine \"Konstante\" im strengen Sinne, aber in einer \"semantischen\" Weise ist unser \"aktives Dokument\", das für unseren Gebrauch eine richtige \"Konstante\" ist, so dass die Python Konvention, den \"ALL CAPS\" Namen für \"Konstanten\" zu verwenden, ganz zu schweigen davon, dass `DOC` viel kürzer ist als `FreeCAD.activeDocument()`.
--   Jede Methode gibt eine Geometrie zurück, dies wird in der Fortsetzung der Seite deutlich.
+-   Jede Funktion gibt eine Geometrie zurück, dies wird in der Fortsetzung der Seite deutlich.
 -   Geometrie hatte nicht die Eigenschaft `Placement`, wenn die einfachen Geometrien verwendet werden, um komplexere Geometrie zu erstellen, ist die Verwaltung von `Placement` eine umständliche Sache.
 
 Was ist nun mit diesen Geometrien zu tun?
 
-Lasst uns boolesche Verknüpfungen einführen. Als Einstiegsbeispiel werden diese Zeilen nach `my_cyl` eingefügt; dies erzeugt eine Methode zum **Verschmelzen** (fuse), bekannt als **Vereinigung**:
+Lasst uns boolesche Verknüpfungen einführen. Als Einstiegsbeispiel werden diese Zeilen nach `my_cyl` eingefügt; dies erzeugt eine Funktion zum **Verschmelzen** (fuse), bekannt als **Vereinigung**:
 
 
 ```python
@@ -163,7 +164,7 @@ def fuse_obj(name, obj_0, obj_1):
     return obj
 ```
 
-Nichts Außergewöhnliches auch hier, beachte jedoch die Einheitlichkeit in der Methodencodierung; Dieser Ansatz ist linearer als derjenige, den man in anderen Tutorien zur Skripterstellung sieht, diese \"Linearität\" hilft sehr bei der Lesbarkeit und auch bei Ausschneiden-Kopieren-Einfügen Operationen.
+Nichts Außergewöhnliches auch hier, beachte jedoch die Einheitlichkeit in der Programmierung der Funktion; Dieser Ansatz ist linearer als derjenige, den man in anderen Anleitungen zur Skripterstellung sieht, diese \"Linearität\" hilft sehr bei der Lesbarkeit und auch bei Ausschneiden-Kopieren-Einfügen Operationen.
 
 Verwenden wir die Geometrien, löschen wir Zeilen unterhalb des Codeabschnitts, die mit `# objects definition` beginnen, und fügen wir die folgenden Zeilen ein:
 
@@ -177,7 +178,7 @@ obj1 = my_cyl("test_cyl", 360, 2, 10)
 
 fuse_obj("Fusion", obj, obj1)
 
-setview()
+set_view()
 ```
 
 Starte das Skript mit dem grünen Pfeil und wir sehen in der 3D_Ansicht so etwas:
@@ -212,7 +213,7 @@ Aber gegenüber anderen Überlegungen ist eine Sache ausschlaggebend, nämlich d
 
 Diese Informationen müssen wir vor allem dann im Auge behalten, wenn wir eine Rotation anwenden müssen.
 
-Einige Beispiele könnten helfen. Dazu die gesamte Zeile nach der Methode `my_cyl` löschen und den Teil des Codes darunter einfügen:
+Einige Beispiele könnten helfen. Dazu die Funktion `my_box` und alle Zeilen nach der Funktion `my_cyl` löschen und den unten gezeigten Code nach der Funktion `my_cyl` hinzufügen:
 
 
 ```python
@@ -286,16 +287,16 @@ def airplane():
 
 airplane()
 
-setview()
+set_view()
 
 ```
 
 Lasse uns etwas im Code erklären:
 
--   Wir haben eine Methode verwendet, um eine Kugel zu definieren, wobei wir die einfachste Definition verwendet haben und nur den Radius verwendet haben.
+-   Wir haben eine Funktion verwendet, um eine Kugel zu definieren, wobei wir die einfachste Definition verwendet haben und nur den Radius verwendet haben.
 -   Wir haben eine zweite Schreibweise für die **Vereingung** oder **Verschmelzung** eingeführt, die mehrere Objekte verwendet, nicht weiter entfernt von dem üblichen **Part::Fuse** es verwendet **Part:Multifuse**. Wir verwenden nur eine Eigenschaft `Formen`. Wir haben ein **Tupel** als Argumente übergeben, aber es akzeptiert auch eine **Liste**.
 -   Wir haben ein komplexes Objekt **airplane**\' definiert, aber wir haben es auf eine **\"parametrische\"** Art und Weise getan, indem wir einige Parameter definiert und andere Parameter durch einige Berechnungen auf der Grundlage der Hauptparameter abgeleitet haben.
--   Wir haben einige Platzierungs `Platzierung` Eigenschaften in der Methode verwendet, und bevor wir die endgültigen Geometrien zurückgeben, haben wir eine `Rotation` Eigenschaft mit der *Gieren-Stampfen-Rollen* Schreibweise verwendet. Beachte die letzten `Vector(0, 0, tail_position)`, die ein **Rotationszentrum** der gesamten Geometrie definieren.
+-   Wir haben einige Positionierungseigenschaften ` Placement` in der Funktion verwendet, und bevor wir die endgültigen Geometrien zurückgeben, haben wir eine Eigenschaft `Rotation` mit der *Gieren-Stampfen-Rollen* Schreibweise verwendet. Beachte die letzte `Vector(0, 0, tail_position)`, die ein **Rotationszentrum** der gesamten Geometrie definieren.
 
 ++++
 | ![Airplane example](images/Aereo.png ) | ![Airplane rotated](images/Aereo2.png ) | ![Placement property](images/Aereo-prop.png ) |
@@ -323,7 +324,7 @@ Was ist geschehen?
 
 FreeCAD hat `Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, tail_position)` mit anderen Worten unsere `Placement`-Definition übersetzt, die drei Komponenten, **Translation**, **Rotation** und *Rotationszentrum**in die \"internen\" Werte von nur zwei Komponenten,**Translation**und**Rotation*\', festlegt.
 
-Du kannst leicht den Wert von `tail_position` mit einer print Anweisung in der Methode `airplane()` visualisieren und dies sehen:
+Du kannst leicht den Wert von `tail_position` mit einer print Anweisung in der Funktion `airplane()` visualisieren und dies sehen:
 
 
 ```python
@@ -353,40 +354,41 @@ License:
     Creative Commons Attribution 3.0
 
 Summary:
-    This code is a sample code written for FreeCAD Wiki page.
-    It create and airplane shaped solid made using standard "Part WB" built in shapes.
+    This is sample code written for a FreeCAD Wiki page.
+    It creates an airplane shaped solid using standard "Part WB" shapes.
 
 """
 
 import FreeCAD
 from FreeCAD import Placement, Rotation, Vector
+import FreeCADGui
 
-DOC = FreeCAD.activeDocument()
 DOC_NAME = "Wiki_Example"
-
-# Helpers methods
-
-def clear_doc():
-    """Clear activeDocument deleting all the objects."""
-    for obj in DOC.Objects:
-        DOC.removeObject(obj.Name)
-
-def setview():
-    """Rearrange View."""
-    FreeCAD.Gui.SendMsgToActiveView("ViewFit")
-    FreeCAD.Gui.activeDocument().activeView().viewAxometric()
-
-if DOC is None:
-    FreeCAD.newDocument(DOC_NAME)
-    FreeCAD.setActiveDocument(DOC_NAME)
-    DOC = FreeCAD.activeDocument()
-else:
-    clear_doc()
+DOC = FreeCAD.newDocument(DOC_NAME)
+FreeCAD.setActiveDocument(DOC.Name)
 
 ROT0 = Rotation(0, 0, 0)
 VEC0 = Vector(0, 0, 0)
 
-# Script methods
+# Helper function
+
+def set_view():
+    """Rearrange View."""
+    if not FreeCAD.GuiUp:
+        return
+    doc = FreeCADGui.ActiveDocument
+    if doc is None:
+        return
+    view = doc.ActiveView
+    if view is None:
+        return
+    # Check if the view is a 3D view:
+    if not hasattr(view, "getSceneGraph"):
+        return
+    view.viewAxometric()
+    view.fitAll()
+
+# Script functions
 
 def my_cyl(name, ang, rad, hei):
     """Create a Cylinder."""
@@ -469,7 +471,7 @@ def airplane():
 
 airplane()
 
-setview()
+set_view()
 ```
 
 

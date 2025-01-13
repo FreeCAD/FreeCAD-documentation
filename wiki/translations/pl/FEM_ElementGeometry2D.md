@@ -1,11 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ElementGeometry2D
    Name/pl: MES: Grubość powłoki
    MenuLocation: Model , Geometria elementu , Grubość powłoki
    Workbenches: FEM_Workbench/pl
    Shortcut: **C** **S**
    SeeAlso: FEM_tutorial/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: Wszystkie
+}}
 ---
 
 # FEM ElementGeometry2D/pl
@@ -14,7 +19,7 @@
 
 ## Opis
 
-**ElementGeometry2D** jest używane do zdefiniowania grubości elementów powłokowych, wszystkich lub należących do wybranej powierzchni.
+**ElementGeometry2D** jest używane do definiowania grubości elementów 2D (powłokowych i {{Version/pl|1.0}}: płaskiego stanu naprężeń/odkształceń), wszystkich lub należących do wybranej powierzchni.
 
 
 
@@ -39,17 +44,15 @@
 
 **Grubość**
 
-: Określa grubość powłoki.
-
-
-
-## Skrypty
+: Określa grubość elementów 2D.
 
 
 
 ## Uwagi
 
 Do wyświetlania wyników z solvera CalculiX na siatce ze zwizualizowaną grubością, należy ustawić właściwość `Beam Shell Result Output 3D` w [solverze CalculiX](FEM_SolverCalculixCxxtools/pl.md) na wartość {{True/pl}}.
+
+-   To narzędzie korzysta ze [słowa kluczowego \*SHELL SECTION w CalculiX](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node238.html) dla elementów powłokowych i [słowa kluczowego \*SOLID SECTION](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node239.html) dla elementów płaskiego stanu naprężeń/odkształceń.
 
 
 

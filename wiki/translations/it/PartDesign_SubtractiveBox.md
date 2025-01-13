@@ -5,11 +5,15 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Inserisce un cubo sottrattivo nel corpo attivo. La sua forma viene sottratta dal solido esistente.
 
 ![](images/PartDesign_SubtractiveBox_example.png ) *A sinistra il corpo attivo (A) mostrato in grigio e il cubo sottrattivo (B) mostrato in rosso trasparente; a destra il risultato.*
+
+
 
 ## Utilizzo
 
@@ -24,6 +28,8 @@ Inserisce un cubo sottrattivo nel corpo attivo. La sua forma viene sottratta dal
 
 </div>
 
+
+
 ## Opzioni
 
 
@@ -36,6 +42,8 @@ Dopo la sua creazione il cubo può essere modificato in due modi:
 
 
 </div>
+
+
 
 ## Proprietà
 

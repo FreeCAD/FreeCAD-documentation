@@ -4,7 +4,7 @@
    Name/de: TechDraw Schnittansicht
    MenuLocation: TechDraw, TechDraw Ansichten , Schnittansicht einfügen
    Workbenches: TechDraw_Workbench/de
-   SeeAlso: TechDraw_ComplexSection/de, TechDraw_View/de, TechDraw_ProjectionGroup/de
+   SeeAlso: TechDraw_ComplexSection/de, TechDraw_View/de
 ---
 
 # TechDraw SectionView/de
@@ -37,20 +37,31 @@ Das untere Bild zeigt die Schnittpfeile nach ISO-Vorgabe.
 
 
 
-## Eigenschaften Schnittansicht 
+## Eigenschaften
 
-Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
+
+In den Eigenschaften der {{PropertyData/de|Base View}} kann die Darstellung der Schnittlinie eingestellt werden.
+
+Eine Schnittansicht, formal ein {{Incode|TechDraw::DrawViewSection}}-Objekt, wird von einer [Bauteilansicht](#Properties_Part_View/de.md), formal ein {{Incode|TechDraw::DrawViewPart}}-Objekt abgeleitet und erbt alle seine Eigenschaften. Es besitzt außerdem die folgenden Eigenschaften:
 
 
 
 ### Daten
 
 
+{{TitleProperty|Appearance}}
+
+-    {{PropertyData/de|Section Line Stretch|FloatConstraint}}: Passt die Länge der Schnittlinie an. {{Value|1.0}} ist die normale Länge, {{Value|1.1}} wäre 10% länger, {{Value|0.9}} wäre 10% kürzer. {{Version/de|1.0}}
+
+
 {{TitleProperty|Cut Operation}}
 
--    {{PropertyData/de|Fuse Before Cut|Bool}}: Vereinigt die Ausgangsformen vor der Ausführung der Schnittoperation.
+-    {{PropertyData/de|Fuse Before Cut|Bool}}: Vereinigt die Ausgangsformen vor dem Erstellen der Schnittansicht.
 
 -    {{PropertyData/de|Trim After Cut|Bool}}: Führt eine zusätzliche Beschnittoperation am Ergebnisobjekt aus, um nach dem Schnitt alle unerwünschten Elemente zu entfernen.
+
+-    {{PropertyData/de|Use Previous Cut|Bool}}Verwendet die beschnittene Form der Basisansicht weiter, anstatt des originalen Objekts. {{Version/de|1.0}}
 
 
 {{TitleProperty|Cut Surface}}
@@ -87,7 +98,11 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 -    {{PropertyData/de|Name Geom Pattern|String}}: Name des zu verwendenden PAT-Musters.
 
--    **Hatch Scale|Float**: Größenanpassung des Schraffurmusters.
+-    {{PropertyData/de|Hatch Scale|Float}}: Größenanpassung des Schraffurmusters.
+
+-    {{PropertyData/de|Hatch Rotation|Float}}: Drehung des Schraffurmusters gegen den Uhrzeigersinn in Grad. {{Version/de|0.21}}
+
+-    {{PropertyData/de|Hatch Offset|Vector|Hidden}}: Versatz des Schraffurmusters. {{Version/de|0.21}}
 
 
 {{TitleProperty|Section}}
@@ -126,18 +141,6 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 
 
-## Eigenschaften Basisansicht 
-
-Eine Schnittansicht erbt alle anwendbaren Eigenschaften der Ansicht, die in der {{{PropertyData/de|Base View}}} angegeben sind. In den Eigenschaften dieser Ansicht kann die Darstellung der Schnittlinie geändert werden:
-
--    {{PropertyView/de|Section Line Color}}: Farbe der Schnittlinie.
-
--    {{PropertyView/de|Section Line Style}}: Linienart der Schnittlinie.
-
-Die Standardeinstellungen für diese Parameter werden über die Einstellungen **Section Line** und **Section Line Style** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) eingestellt.
-
-
-
 ## Hinweise
 
 -   **Section Line Format**: Zwei Arten zur Schnittliniendarstellung werden unterstützt (wie oben abgebildet) und durch die Einstellung \"Normbasis für Schnittlinien\" (Section Line Standard) auf dem Reiter Anmerkung bestimmt. Die Option {{Value|ANSI}} verwendet \"ziehende Peile\" (in einigen Regionen auch als \"traditionelles Format\" bekannt) und die Option {{Value|ISO}} verwendet \"schiebende Pfeile\" (auch als \"Reference Arrow Format\", Referenzpfeilmethode bekannt).
@@ -149,7 +152,7 @@ Die Standardeinstellungen für diese Parameter werden über die Einstellungen **
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Eine Schnittansicht kann mit [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen erstellt werden:
 
@@ -186,7 +189,7 @@ Für weitere Information über Schnittansichten und einige Beispiele siehe: [Tec
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

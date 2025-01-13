@@ -1,19 +1,15 @@
 # Manual:The FreeCAD document/en
 {{Manual:TOC}}
 
-A FreeCAD document contains all the objects of your scene. It can contain groups and objects made with any workbench. You can therefore switch between workbenches, and still work on the same document and/or objects within that document. The document is what gets saved to disk when you save your work. You can also open several documents at the same time in FreeCAD, and open several views of the same document.
+A FreeCAD document forms the core of your design environment, encapsulating all the objects and elements that make up your scene. It can contain a variety of objects created across different workbenches, allowing for seamless integration and flexibility as you can switch between workbenches while working within the same document. A document is essentially the file that you save to your disk containing all your work, and FreeCAD allows you to open multiple documents simultaneously, as well as multiple views of the same document.
 
-![](images/Freecad-document-01.jpg )
+Within the document, you can organize objects into groups, each with a unique name for easy identification and management. This management of groups, objects, and their names chiefly occurs within the [tree view](tree_view.md). Here, users can craft new groups, assign objects to these groups, and perform deletions. More detailed customizations such as renaming objects, changing their visual properties like color, or adjusting visibility, can be done by right-clicking an object or a group in the Tree View. Additional functionalities may also be available depending on the active workbench.
 
-Inside the document, the objects can be moved into groups, and have a unique name. Managing groups, objects and object names is done mainly from the Tree view. There, you can create groups, move objects to groups, delete objects or groups. By right-clicking in the tree view or on an object, you can rename objects, change their color, hide or show them, or possibly other operations, depending on the current workbench.
+Objects in a FreeCAD document vary widely in type, as each workbench introduces its unique kind of objects. For example, the [Mesh Workbench](Mesh_Workbench.md) is known for adding mesh objects, while the [Part Workbench](Part_Workbench.md) provides Part objects. In any FreeCAD session, if at least one document is open, that document is considered active and is displayed in the current 3D view. This is the document you are actively modifying. Switching tabs to another document makes the newly selected tab the active document, and most operations will be applied to it.
 
-![](images/Freecad-document-02.jpg )
+FreeCAD documents are saved in the .FCStd file format, which utilizes a zip-based compound structure akin to formats used by software like LibreOffice. If technical issues arise, the document can often be unzipped, allowing direct access to its contents for troubleshooting or data recovery purposes. This capability provides an additional safety net, ensuring that your design work can be preserved and recovered even under unexpected circumstances.
 
-The objects inside a FreeCAD document can be of different types. Each workbench can add its own types of objects, for example the [Mesh Workbench](Mesh_Workbench.md) adds mesh objects, the [Part Workbench](Part_Workbench.md) adds Part objects, etc.
-
-If there is at least one document open in FreeCAD, there is always one and only one active document. That\'s the document that appears in the current 3D view, the document you are currently working on. If you switch tabs to another document, that one becomes the active document. Most operations always work on the active document.
-
-FreeCAD documents are saved with the .FcStd extension, which is a zip-based compound format, similar to [LibreOffice](https://www.libreoffice.org). If something goes very wrong, it is often possible to unzip it and fix the problem or rescue the data.
+![](images/FreeCAD_022_Document.png )
 
 **Read more**
 

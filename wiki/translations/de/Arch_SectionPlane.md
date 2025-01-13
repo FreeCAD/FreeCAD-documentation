@@ -1,11 +1,11 @@
 ---
  GuiCommand:
    Name: Arch SectionPlane
-   Name/de: Arch SchnittEbene
-   MenuLocation: Arch , Schnittebene
-   Workbenches: Arch_Workbench/de
+   Name/de: Arch Schnittebene
+   MenuLocation: Anmerkung , Schnittebene
+   Workbenches: BIM_Workbench/de
    Shortcut: **S** **P**
-   SeeAlso: Draft_Shape2DView/de, TechDraw_ArchView/de
+   SeeAlso: Draft_Shape2DView/de
 ---
 
 # Arch SectionPlane/de
@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug platziert im aktuellen Dokument eine Schnittebene \"Ding\", die eine Schnitt- oder Ansichtsebene definiert. Das \"Ding\" wird entsprechend der aktuellen [Entwurf Arbeitsebene](Draft_SelectPlane/de.md) platziert und kann durch Verschieben und Drehen verschoben und neu ausgerichtet werden, bis es die 2D Ansicht beschreibt, die du erhalten möchtest. Das Objekt Schnittebene berücksichtigt nur einen bestimmten Satz von Objekten. Objekte, die beim Erstellen einer Schnittebene ausgewählt werden, werden automatisch zu diesem Satz hinzugefügt. Andere Objekte können später mit den [Arch Komponente hinzufügen](Arch_Add/de.md) und [Arch Komponente entfernen](Arch_Remove/de.md) Werkzeugen hinzugefügt oder daraus entfernt werden oder durch Doppelklicken auf die Schnittebene in der Baumansicht.
+Das Werkzeug **Arch Schnittebene** platziert im aktuellen Dokument eine Schnittebene \"Ding\", die eine Schnitt- oder Ansichtsebene definiert. Das \"Ding\" wird entsprechend der aktuellen [Entwurf Arbeitsebene](Draft_SelectPlane/de.md) positioniert und kann durch Verschieben und Drehen verschoben und neu ausgerichtet werden, bis es die 2D-Ansicht beschreibt, die du erhalten möchtest. Das Objekt Schnittebene berücksichtigt nur einen bestimmten Satz von Objekten. Objekte, die beim Erstellen einer Schnittebene ausgewählt werden, werden automatisch zu diesem Satz hinzugefügt. Andere Objekte können später mit den Werkzeugen [Arch Komponente hinzufügen](Arch_Add/de.md) und [Arch Komponente entfernen](Arch_Remove/de.md) hinzugefügt oder daraus entfernt werden oder durch Doppelklicken auf die Schnittebene in der Baumansicht.
 
 Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu musst du eine [TechDraw ArchAnsicht](TechDraw_ArchView/de.md) erzeugen, um eine Ansicht auf einer [TechDraw StandardSeite](TechDraw_Workbench/de.md) zu erzeugen.
 
@@ -126,5 +126,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/de
+⏵ [documentation index](../README.md) > Arch SectionPlane/de

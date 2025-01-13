@@ -32,11 +32,11 @@ Modulul Draft dispune de un sistem de plan de lucru, care vă permit
 </div>
 
 
-<small>(v0.22)</small> 
+<small>(v1.0)</small> 
 
 : For each 3D view a separate working plane is stored.
 
-The ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tray.md) changes depending on the current working plane. <small>(v0.22)</small> : If the working plane is not set to **Auto** an asterisk (*****) is appended to the button label if the origin of the working plane does not match the global origin.
+The ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tray.md) changes depending on the current working plane. <small>(v1.0)</small> : If the working plane is not set to **Auto** an asterisk (*****) is appended to the button label if the origin of the working plane does not match the global origin.
 
 <img alt="" src=images/WorkingPlane_example.png  style="width:400px;"> 
 *Shapes created on different working planes*
@@ -46,30 +46,27 @@ The ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tr
 1.  Do one of the following:
     -   Select a single object. The following objects are supported:
         -   [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md): the **View Data** (the camera position) and the **Visibility Map** (the saved visibility of objects) of the working plane proxy are also restored.
-        -   [Arch Axes](Arch_Axis.md) (<small>(v0.22)</small> )
-        -   [Arch AxisSystems](Arch_AxisSystem.md) (<small>(v0.22)</small> )
+        -   [Arch Axes](Arch_Axis.md) (<small>(v1.0)</small> )
+        -   [Arch AxisSystems](Arch_AxisSystem.md) (<small>(v1.0)</small> )
         -   [Arch BuildingParts](Arch_BuildingPart.md)
         -   [Arch SectionPlanes](Arch_SectionPlane.md)
         -   [Std Parts](Std_Part.md): to avoid selecting subelements it is advisable to select these in the [Tree view](Tree_view.md).
-        -   Non-solid objects that consist of a single flat face or a single curved edge, or (<small>(v0.22)</small> ) that have three or more vertices.
-        -   Solid objects or objects without a shape that have a **Placement** property. (<small>(v0.22)</small> )
+        -   Non-solid objects that consist of a single flat face or a single curved edge, or (<small>(v1.0)</small> ) that have three or more vertices.
+        -   Solid objects or objects without a shape that have a **Placement** property. (<small>(v1.0)</small> )
     -   Select one or more subelements. You can select:
         -   A flat face.
         -   A curved edge.
         -   Three vertices.
-        -   An edge and a vertex, or two edges. The combined vertices must define a plane. (<small>(v0.22)</small> )
+        -   An edge and a vertex, or two edges. The combined vertices must define a plane. (<small>(v1.0)</small> )
 2.  There are several ways to invoke the command:
     -   Press the ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tray.md).
-    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select plane** option from the menu.
-    -   Use the keyboard shortcut: **W** then **P**.
+    -   [Draft](Draft_Workbench.md): Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select plane** option from the menu, or from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
+    -   Draft: Use the keyboard shortcut: **W** then **P**.
 3.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
 
 ## Usage with post-selection 
 
-1.  There are several ways to invoke the command:
-    -   Press the ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tray.md).
-    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select plane** option from the menu.
-    -   Use the keyboard shortcut: **W** then **P**.
+1.  Invoke the command as explained above.
 2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
 3.  Do one of the following:
     -   Select a single object. See the [previous paragraph](#Usage_with_pre-selection.md).
@@ -79,10 +76,7 @@ The ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tr
 
 ## Usage with presets 
 
-1.  There are several ways to invoke the command:
-    -   Press the ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tray.md).
-    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select plane** option from the menu.
-    -   Use the keyboard shortcut: **W** then **P**.
+1.  Invoke the command as explained above.
 2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
 3.  Press any of the buttons to finish the command.
 4.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
@@ -129,7 +123,7 @@ Obiectul plan de lucru poate fi ușor creat și manipulat în scripturi și în 
 </div>
 
 
-<small>(v0.22)</small> 
+<small>(v1.0)</small> 
 
 The WorkingPlane module offers two classes to create working plane objects: the `PlaneBase` class and the `PlaneGui` class. The second class inherits from the first. Objects of the `PlaneGui` class interact with the GUI (the [Draft Tray](Draft_Tray.md) button), the [3D view](3D_view.md) and the [grid](Draft_Snap_Grid.md). `PlaneBase` objects do not.
 

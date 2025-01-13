@@ -13,9 +13,7 @@
 
 ## Description
 
-Cet outil dessine un rectangle en choisissant d\'abord un point qui deviendra le point central, puis en choisissant un point de bordure. Le résultat est un rectangle comme avec l\'outil [Rectangle](Sketcher_CreateRectangle/fr.md), seuls les points de définition sont différents.
-
-Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône de rectangle rouge. Les coordonnées du pointeur sont affichées à côté en bleu en temps réel.
+L\'outil <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> [Sketcher Rectangle centré](Sketcher_CreateRectangle_Center/fr.md) crée un rectangle centré. {{Version/fr|1.0}} : il s\'agit du même outil que [Sketcher Rectangle](Sketcher_CreateRectangle/fr.md) mais avec un mode initial différent.
 
 ![](images/SketcherCreateCenteredRectangleExample.png‎ )
 
@@ -23,14 +21,13 @@ Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix b
 
 ## Utilisation
 
--   Après avoir appuyé sur le bouton de la barre d\'outils <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> **Rectangle centré**, cliquez une fois pour définir le point central, puis déplacez la souris et cliquez une seconde fois pour définir un point d\'angle.
--   Appuyez sur **Echap** ou cliquez sur le bouton droit de la souris annule la fonction.
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
 
-
-
-## Remarques
-
-Voir [Sketcher Rectangle](Sketcher_CreateRectangle/fr#Remarques.md).
+1.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_CreateRectangle_Center.svg" width=16px> [Rectangle centré](Sketcher_CreateRectangle_Center/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Géométries d'esquisse → <img src="images/Sketcher_CreateRectangle_Center.svg" width=16px> Créer un rectangle centré** du menu.
+    -   Utilisez le raccourci clavier : **G** puis **V**.
+2.  Pour d\'autres étapes, voir [Sketcher Rectangle](Sketcher_CreateRectangle/fr#Utilisation.md).
 
 
 

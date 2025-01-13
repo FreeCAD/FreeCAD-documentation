@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft AnnotationStyleEditor
-   Name/it: Stile delle annotazioni
-   MenuLocation: Annotazioni , Stile delle annotazioni...
-   Workbenches: Draft_Workbench/it
+   Name/it: Draft Stile delle annotazioni
+   MenuLocation: Annotazioni , Stile delle annotazioni...<br>Gestisci , Stile delle annotazioni...
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    SeeAlso: Draft_Text/it, Draft_Label/it, Draft_Dimension/it
    Version: 0.19
 ---
@@ -24,8 +24,9 @@ Il comando <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:
 ## Utilizzo
 
 1.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> [Stili di annotazione...](Draft_AnnotationStyleEditor/it.md)**.
-    -   Selezionare l\'opzione **Annotazione → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Stili di annotazione...** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Premere il pulsante **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> [Stili di annotazione...](Draft_AnnotationStyleEditor/it.md)**.
+    -   Draft: Selezionare l\'opzione **Annotazione → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Stili di annotazione...** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Gestisci → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Stili di annotazione...** dal menu.
 2.  Si apre la finestra di dialogo **Editor degli stili di annotazione**.
 3.  Selezionare uno stile dall\'elenco a discesa **Nome stile** o scegliere {{Value|Aggiungi nuovo...}} per definire un nuovo stile.
 4.  Regolare facoltativamente le proprietà dello stile.
@@ -34,6 +35,15 @@ Il comando <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:
 7.  Facoltativamente, premere il pulsante **[<img src=images/Std_Import.svg style="width:16px">** per importare tutti gli stili da un file **.json**. Questo sovrascriverà gli stili esistenti con lo stesso nome.
 8.  Facoltativamente, premere il pulsante **[<img src=images/Std_Export.svg style="width:16px">** per esportare tutti gli stili in un file **.json**.
 9.  Premere il pulsante **OK** per chiudere la finestra di dialogo e terminare il comando.
+
+
+
+## Applicazione
+
+Per applicare uno stile di annotazione, modificare la proprietà **Annotation Style** degli oggetti di annotazione. Questa proprietà può essere trovata nella scheda **Vista** dell\'[Editor delle proprietà](Property_editor.md).
+
+![](images/Draft_AnnotationStyleEditor_Apply.png ) 
+*Selezione di uno stile di annotazione*
 
 
 

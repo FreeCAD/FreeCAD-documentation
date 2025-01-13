@@ -1,0 +1,7 @@
+# PartDesign CompDatums/hu
+1.  REDIRECT [PartDesign_Workbench#PartDesign_CompDatums](PartDesign_Workbench#PartDesign_CompDatums.md)
+
+
+
+---
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompDatums/hu

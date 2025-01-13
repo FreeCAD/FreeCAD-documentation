@@ -9,13 +9,19 @@
 
 # Std SelectAll/ru
 
+
+
 ## Описание
 
 The **Std SelectAll** command selects all objects in the [Tree view](Tree_view.md).
 
+
+
 ## Применение
 
 1.  Select the **Edit → <img src="images/Std_SelectAll.svg" width=16px> Select All** option from the menu.
+
+
 
 ## Примечания
 
@@ -25,7 +31,7 @@ The **Std SelectAll** command selects all objects in the [Tree view](Tree_view.m
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

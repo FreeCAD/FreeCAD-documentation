@@ -49,9 +49,13 @@ Gdzie `$INSTALL_DIR` jest katalogiem, w którym zainstalowano FreeCAD, na przyk�
 
 3\. Użyj edytora XML, aby dodać klauzulę przestrzeni nazw „freecad" do elementu {{incode | <svg>}}.
 
-:   xmlns:freecad="[http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace](http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace)".
+-    {{VersionMinus/pl|0.20}}: xmlns:freecad="[http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace](http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace)".
 
-Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz **<https://>\...**, nawet jeśli wiki jest obecnie osiągalne przez https. Ponieważ SVG jest formatem czytelnym dla człowieka, możesz także wpisać powyższą linię do pliku za pomocą edytora tekstu. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
+:   Zauważ, że twoje edytowalne teksty \"nie\" będą działały, jeśli używasz **<https://>\...**, nawet jeśli wiki jest obecnie osiągalne przez https.
+
+-    <small>(v0.21)</small> : xmlns:freecad="[https://www.freecad.org/wiki/index.php?title=Svg_Namespace](https://www.freecad.org/wiki/index.php?title=Svg_Namespace)"
+
+Ponieważ SVG jest formatem czytelnym dla człowieka, możesz także wpisać powyższą linię do pliku za pomocą edytora tekstu. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
 *align=center|Inkscape: Edytor XML dodaje klauzulę przestrzeni nazw „freecad” do elementu <svg>* 
 
 

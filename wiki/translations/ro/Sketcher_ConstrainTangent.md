@@ -24,102 +24,148 @@ Tangent Constraint makes two curves to touch each other (be tangent). Lines are 
 
 </div>
 
-Tangent Constraint can also be used with two lines to make them colinear.
-
 ## Usage
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
+
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ConstrainTangent.svg" width=16px> [Constrain tangent or collinear](Sketcher_ConstrainTangent.md)** button.
+
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainTangent.svg" width=16px> Constrain tangent or collinear** option from the menu.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Constrain → <img src="images/Sketcher_ConstrainTangent.svg" width=16px> Constrain tangent or collinear** option from the context menu.
+
+    -   Use the keyboard shortcut: **T**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Do one of the following:
+    -   Select two edges. The edges can be any edge except a B-spline.
+    -   Select a point and two edges (in that order).
+    -   Select an edge, a point and another edge (idem).
+5.  A Tangent constraint is added. If a point and two edges have been selected, up to two [Point on object constraints](Sketcher_ConstrainPointOnObject.md) can also be added. See [Examples](#Between_two_edges_at_point.md).
+6.  Optionally keep creating constraints.
+7.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
+
+### Run-once mode 
+
+1.  Do one of the following:
+    -   Select two edges (see above).
+    -   Select two endpoints belonging to different edges.
+    -   Select an edge and the endpoint of another edge (in any order).
+    -   Select a point and two edges (idem).
+2.  Invoke the tool as explained above, or with the following additional option:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ConstrainTangent.svg" width=16px> Constrain tangent or collinear** option from the context menu.
+3.  A Tangent constraint is added. If a point and two edges have been selected, up to two [Point on object constraints](Sketcher_ConstrainPointOnObject.md) can also be added. See [Examples](#Between_two_edges_at_point.md).
+
+## Examples
+
+
 
 
 <div class="mw-translate-fuzzy">
-
-## Cum se folosește 
-
-sunt patru moduri diferite în cae contrângerea poate fi aplicată:
-
-1.  between two curves (available not for all curves)
-2.  between two endpoints of a curve, making a smooth joint
-3.  between a curve and an endpoint of another curve
-4.  between two curves at user-defined point
-
-
-</div>
-
-Pentru a aplica constrângerile de tangență, trebuie să urmați pașii:
-
--   Select two or three entities in the sketch.
--   Invoke the constraint by clicking its icon on the toolbar, or selecting the menu item, or using keyboard shortcut.
 
 ### Între două curbe (direct tangency) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:600px;">
 
-două curbe vor fi făcute tangente, and the point of tangency will be implicit. This mode is applied if two curves were selected.
 
-**Accepted selection:**
+</div>
 
--   line + line, circle, arc, ellipse, arc-of-ellipse
--   circle, arc + circle, arc
+<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:400px;">
 
-Dacă nu este acceptată tangența directă între curbele selectate (de exemplu, între un cerc și o elipsă), va fi adăugat un punct de ajutor pentru a schița automat și se va aplica tangența-prin-punct.
+The two edges are made tangent. If one of the edges is a [conic](Sketcher_Workbench#Sketcher_CompCreateConic.md), a [Point object](Sketcher_CreatePoint.md) that has a [Point on object constraint](Sketcher_ConstrainPointOnObject.md) with both (extended) edges is added.
+
+
+<div class="mw-translate-fuzzy">
 
 Nu se recomandă reconstruirea punctului de tangență prin crearea unui punct și constrângerea lui de a se afla pe ambele curbe. It will work, but the convergence will be seriously slower, jumpier, and will require about twice as many iterations to converge than normal. Use other modes of this constraint if the point of tangency is needed.
+
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ### Între două puncte finale (point-to-point tangency) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
 
 
-<div class="mw-translate-fuzzy">
-
-În acest mod, punctele finale se fac coincidente, and the joint is made tangent (C1-smooth, or \"sharp\", depending on the placement of curves before the constraint is applied). Acest mod se aplică atunci când au fost selectate două puncte finale de două curbe.
-
-
 </div>
 
-**Accepted selection:**
+<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:400px;">
 
--   endpoint of line/arc/arc-of-ellipse + endpoint of line/arc/arc-of-ellipse (i.e., two endpoints of any two curves)
+The endpoints are made coincident, and the angle between the edges at that point is set to 180° (smooth joint) or 0° (sharp joint), depending on the placement of the edges before the constraint is applied.
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ### Între curbă și punct final (point-to-curve tangency) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:600px;">
 
+
+</div>
+
+<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
 În acest mod, un punct final al unei curbe este constrâns să stea pe cealaltă curbă, and the curves are forced tangent at the point. This mode is applied when a curve and an endpoint of another curve were selected.
 
-**Accepted selection:**
 
--   line, circle, arc, ellipse, arc-of-ellipse + endpoint of line/arc/arc-of-ellipse (i.e., any curve + endpoint of any curve)
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ### Între două curbe la punct (tangent-via-point) (v0.15) 
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:600px;">
 
-În acest mod, două curbe sunt tangente și punctul de tangență este urmărit. Acest mod se aplică atunci când au fost selectate două curbe și un punct.
 
-**Accepted selection:**
+</div>
 
--   any line/curve + any line/curve + any point
-
-\"Any point\" can be a lone point, or a point of something, e.g. a center of a circle, an endpoint of an arc, or the origin.
+<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-Pentru ca constrângerea să funcționeze corect, punctul trebuie să fie pe ambele curbe.So, as the constraint is invoked, the point will be automatically constrained onto both curves ([helper constraints](Sketcher_helper_constraint.md) will be added, if necessary), and the curves will be forced tangent at the point. These [helper constraints](Sketcher_helper_constraint.md) are plain regular constraints. They can be added manually, or deleted.
+În acest mod, două curbe sunt tangente și punctul de tangență este urmărit. Acest mod se aplică atunci când au fost selectate două curbe și un punct.
 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 În comparație cu tangența directă, această constrângere este mai lentă, deoarece există mai multe grade de libertate implicate, dar dacă este necesar punctul de tangență, acesta este modul recomandat deoarece oferă o convergență mai bună comparativ cu tangența directă + punct pe două curbe.
 
-Plasarea punctului înaintea aplicării constrângerii este o sugestie pentru rezolvitor pentru locul unde ar trebui să fie tangența. Cu această constrângere, se pot constrânge două elipse să se atingă reciproc în două locuri.
 
-### Between two lines (collinear) 
+</div>
 
-<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
+### Between two lines 
 
-**Accepted selection:**
+<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:400px;">
 
--   any line/vertex + any line/vertex
+The two lines are made collinear.
+
+
 
 ## Script
 

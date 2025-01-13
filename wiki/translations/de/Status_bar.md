@@ -13,6 +13,19 @@ Die Statusleiste zeigt auch das zuletzt vorgewählte Objekt (jedes Objekt unter 
 
 ![](images/FreeCAD_Status_bar_selected.png )
 
+## Quick measure 
+
+
+<small>(v1.0)</small> 
+
+The Quick measure feature uses the right side of the Status bar to show measurements based on the selection in 3D view:
+
+-   Edge length
+-   Face area
+-   Distance between points, edges or faces
+-   Angle between edges
+-   Radius of circular edges or cylindrical faces
+
 
 {{Interface navi
 

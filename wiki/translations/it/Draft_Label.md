@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Label
-   Name/it: Etichetta
+   Name/it: Draft Etichetta
    MenuLocation: Annotazione , Etichetta
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **D** **L**
    Version: 0.17
    SeeAlso: Draft_Text/it, Draft_ShapeString/it
@@ -49,7 +49,7 @@ Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle at
 
 -   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
 -   Premere **R** o fare clic sulla casella di controllo **Relativo** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate sono relative all\'ultimo punto, se disponibile, altrimenti sono relative all\'origine del sistema di coordinate.
--   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md).
 -   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
 -   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 
@@ -65,17 +65,17 @@ Sono disponibili i seguenti tipi di etichette:
 
 -    {{Value|Label}}: visualizza l\'etichetta dell\'oggetto target. L\'etichetta di un oggetto può essere modificata dall\'utente.
 
--    {{Value|Position}}: visualizza le coordinate del punto base dell\'oggetto target, del vertice target o del centro di massa del sottoelemento target, se applicabile.
+-    {{Value|Position}}: visualizza le coordinate del punto base dell\'oggetto target o del vertice target.
 
--    {{Value|Length}}: visualizza la lunghezza dell\'oggetto o del sottoelemento di destinazione, se applicabile.
+-    {{Value|Length}}: visualizza la lunghezza dell\'oggetto o del sottoelemento di destinazione.
 
--    {{Value|Area}}: visualizza l\'area dell\'oggetto o sottoelemento di destinazione, se applicabile.
+-    {{Value|Area}}: visualizza l\'area dell\'oggetto o sottoelemento di destinazione.
 
--    {{Value|Volume}}: visualizza il volume dell\'oggetto target, se applicabile.
+-    {{Value|Volume}}: visualizza il volume dell\'oggetto target.
 
--    {{Value|Tag}}: visualizza l\'attributo `Tag` dell\'oggetto target, se applicabile. Gli oggetti creati con [Arch Workbench](Arch_Workbench.md) possono avere questo attributo.
+-    {{Value|Tag}}: visualizza l\'attributo `Tag` dell\'oggetto target. Gli oggetti creati con [BIM](BIM_Workbench/it.md) possono avere questo attributo.
 
--    {{Value|Material}}: visualizza l\'etichetta del materiale dell\'oggetto target, se applicabile.
+-    {{Value|Material}}: visualizza l\'etichetta del materiale dell\'oggetto target.
 
 -    {{Value|Label + Position}}
     
@@ -165,9 +165,9 @@ Un oggetto Draft Etichetta deriva da un oggetto [App FeaturePython](App_FeatureP
 
 -    **Line|Bool**: specifica se visualizzare la linea guida. Se è `False` vengono visualizzati solo la freccia e il testo.
 
--    **Line Color|Color**: specifica il colore della direttrice e della freccia. Viene utilizzato anche per la cornice ({{Version/it|0.20}}).
+-    **Line Color|Color**: specifica il colore della direttrice e della freccia. Viene utilizzato anche per la cornice.
 
--    **Line Width|Float**: specifica la larghezza della direttrice. Viene utilizzato anche per la cornice ({{Version/it|0.20}}).
+-    **Line Width|Float**: specifica la larghezza della direttrice. Viene utilizzato anche per la cornice.
 
 
 {{TitleProperty|Text}}
@@ -220,20 +220,20 @@ p1 = App.Vector(-200, 1000, 0)
 place1 = App.Placement(App.Vector(-1000, 1300, 0), App.Rotation())
 
 label1 = Draft.make_label(p1, place1, target_object=rectangle, distance=500, label_type="Label")
-label1.ViewObject.TextSize = 200
+label1.ViewObject.FontSize= 200
 
 p2 = App.Vector(-200, 0, 0)
 place2 = App.Placement(App.Vector(-1000, -300, 0), App.Rotation())
 
 label2 = Draft.make_label(p2, place2, target_object=rectangle, distance=500, label_type="Custom",
                           custom_text="Beware of the sharp edges")
-label2.ViewObject.TextSize = 200
+label2.ViewObject.FontSize= 200
 
 p3 = App.Vector(1000, 1200, 0)
 place3 = App.Placement(App.Vector(2000, 1800, 0), App.Rotation())
 
 label3 = Draft.make_label(p3, place3, target_object=rectangle, distance=-500, label_type="Area")
-label3.ViewObject.TextSize = 200
+label3.ViewObject.FontSize= 200
 
 doc.recompute()
 ```

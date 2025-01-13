@@ -25,11 +25,11 @@ Esta herramienta permite dividir un borde en dos idénticas, mientras que la may
 
 </div>
 
-![](images/SketcherSplitExample1.png ) ![](images/SketcherSplitExample2.png ) ![](images/SketcherSplitExample3.png )
-
 
 
 ## Utilización
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -44,13 +44,10 @@ Esta herramienta permite dividir un borde en dos idénticas, mientras que la may
 
 
 
-## Limitaciones
-
--   In {{VersionMinus|0.20}} the action is not supported for ellipses, parabolas, hyperbolas and B-splines.
-
-
-
 ## Notas
+
+
+<div class="mw-translate-fuzzy">
 
 -   Se transfieren todas las coincidencias - punto inicial, punto final y punto central (si procede).
 -   La restricción de punto en el objeto se transfiere a la arista más cercana recién creada.
@@ -63,6 +60,9 @@ Esta herramienta permite dividir un borde en dos idénticas, mientras que la may
 -   La restricción de distancia entre puntos se asigna sólo una vez, al segmento de arista más cercano.
 -   Las restricciones de radio y diámetro se copian a cualquier arco resultante.
 -   La restricción de ángulo no se transfiere actualmente.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

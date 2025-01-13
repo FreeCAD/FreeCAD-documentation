@@ -25,25 +25,28 @@ Jest jeszcze jeden spis treści dla [podręcznika FreeCAD](Manual:Introduction/p
 -   [Środowiska pracy](Workbenches/pl.md)
 
 -   -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Narzędzia standardowe dla wszystkich środowisk pracy](Std_Base/pl.md)
-    -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Architektura](Arch_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> [Złożenie](Assembly_Workbench/pl.md) 
+*({{Version/pl|1.0}})*
+    -   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> [BIM](BIM_Workbench/pl.md) 
+*(łączy środowisko pracy Architektura i zewnętrzne środowisko BIM dostępne w {{VersionMinus/pl|0.21}})*
+    -   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> [CAM](CAM_Workbench/pl.md) 
+*(nazywane \"Path \" w {{VersionMinus|0.21}})*
     -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Rysunek Roboczy](Draft_Workbench/pl.md)
     -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [MES](FEM_Workbench/pl.md)
     -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [Inspekcja](Inspection_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> [Materiał](Material_Workbench/pl.md) (<small>(v1.0)</small> )
     -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Siatka](Mesh_Workbench/pl.md)
     -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Workbench/pl.md)
     -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Część](Part_Workbench/pl.md)
     -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Projekt Części](PartDesign_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path](Path_Workbench/pl.md)
     -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [Punkty](Points_Workbench/pl.md)
     -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [Inżynieria Wsteczna](Reverse_Engineering_Workbench/pl.md)
     -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [Robot](Robot_Workbench/pl.md)
     -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Szkicownik](Sketcher_Workbench/pl.md)
     -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [Start](Start_Workbench/pl.md)
     -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Powierzchnia](Surface_Workbench/pl.md)
     -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md)
     -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Test Framework](Testing/pl.md)
-    -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;">[Web](Web_Workbench/pl.md)
     -   [Środowiska zewnętrzne](External_workbenches/pl.md)
 
 -   [Lista wszystkich poleceń FreeCAD](List_of_Commands.md)
@@ -78,7 +81,7 @@ Jest jeszcze jeden spis treści dla [podręcznika FreeCAD](Manual:Introduction/p
     -   [Tworzenie dialogu](Dialog_creation/pl.md)
 
 -   Tworzenie aplikacji do programu FreeCAD
-    -   [Licencja](Licence/pl.md)
+    -   [Licencja](License/pl.md)
     -   Kompilacja FreeCAD
         -   [Kompilacja w Docker](Compile_on_Docker.md)
         -   [Kompilacja w konsoli Docker](FreeCAD_Docker_CLI_mode.md)

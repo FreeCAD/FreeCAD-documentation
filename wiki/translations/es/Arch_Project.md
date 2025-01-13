@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 El Arquitectura Proyecto es un objeto especial adecuado para añadir una mejor compatibilidad con los archivos [IFC](Arch_IFC/es.md). Cada archivo IFC debe contener una entidad [IfcProject](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/schema/ifckernel/lexical/ifcproject.htm). El IfcProject se utiliza sobre todo para definir la configuración general del proyecto, como los sistemas de proyección, para la compatibilidad con los SIG, o los sistemas de unidades.
@@ -20,6 +22,8 @@ El Arquitectura Proyecto es un objeto especial adecuado para añadir una mejor c
 Al exportar un modelo de FreeCAD al formato de archivo IFC, si tu modelo no contiene ningún objeto de Proyecto, se creará automáticamente uno por defecto, que en la mayoría de los casos será suficiente. Sin embargo, es posible que desees poder ajustar la configuración del proyecto, en cuyo caso puede ser útil añadir un objeto de proyecto. Al importar un archivo IFC, siempre se creará un objeto de proyecto. Sin embargo, si no lo utiliza específicamente, puede simplemente eliminarlo después de la importación.
 
 Tenga en cuenta que, aunque se puede añadir cualquier otro objeto BIM a un proyecto, algo que el estándar IFC no prohíbe, lo habitual es tener siempre sólo [Sitios](Arch_Site/es.md) o [edificios](Arch_Building/es.md) como hijos directos de un proyecto. Todos los demás objetos BIM deben estar dentro de estos sitios o edificios. El proyecto en sí debe estar siempre en la parte superior de la estructura de su modelo, es decir, no debe estar incluido en ningún otro objeto.
+
+
 
 ## Utilización
 
@@ -36,6 +40,11 @@ Tenga en cuenta que, aunque se puede añadir cualquier otro objeto BIM a un proy
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/es
+⏵ [documentation index](../README.md) > Arch Project/es

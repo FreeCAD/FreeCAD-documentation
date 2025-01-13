@@ -315,7 +315,7 @@ Ces modèles acceptent un simple paramètre de texte et le mettent en forme avec
 |                                                                                                               | {{ColoredText|Colored Text}}           |                                                                                                                                                                                                                                                                                                                             |
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                                             |
 ++++
-| [ColoredParagraph](Template_ColoredParagraph.md)                                                      |                         | Utilisez ce modèle pour colorer le fond, le texte, ou le fond et le texte d\'un paragraphe entier. La page [ColoredParagraph](Template_ColoredParagraph.md) pour plus d\'exemples)                                                                                                                                  |
+| [ColoredParagraph](Template_ColoredParagraph.md)                                                      |                         | Utilisez ce modèle pour colorer le fond, le texte, ou le fond et le texte d\'un paragraphe entier. (La page [ColoredParagraph](Template_ColoredParagraph.md) pour plus d\'exemples)                                                                                                                                 |
 |                                                                                                               | {{ColoredParagraph|Colored Paragraph}} |                                                                                                                                                                                                                                                                                                                             |
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                                             |
 ++++
@@ -368,7 +368,7 @@ Ces modèles requièrent davantage de paramètres d\'entrée ou produisent un bl
 ++++
 | [Macro](Template_Macro.md)                                                               | Voir par exemple [Macro FlattenWire](Macro_FlattenWire/fr.md).                                                       | Utilisez-le pour créer une boîte contenant des informations utiles pour documenter les [macros](Macros/fr.md).                                                                                                                                                                                                                        |
 ++++
-| [Docnav](Template_Docnav.md)                                                             |                                                                                                               | Utilisez-le pour créer une barre avec les mots \"suivant\", \"précédent\" et \"index\" et les liens appropriés, ce qui est utile pour placer les pages dans un ordre particulier.                                                                                                                                                             |
+| [Docnav](Template_Docnav.md)                                                             |                                                                                                               | Utilisez-le pour créer une barre avec des flèches et des liens appropriés, ce qui est utile pour placer des pages dans un ordre particulier.                                                                                                                                                                                                  |
 |                                                                                                  |                                                                                 |                                                                                                                                                                                                                                                                                                                                               |
 |                                                                                                  |                                                                                                                           |                                                                                                                                                                                                                                                                                                                                               |
 ++++
@@ -518,11 +518,11 @@ Traduit en :
 
 ### Traduire les liens 
 
-    [Part Module](Part_Module.md)
+    [Part Workbench](Part_Workbench.md)
 
 Traduit en :
 
-    [Atelier Part](Part_Module/fr.md)
+    [Atelier Part](Part_Workbench/fr.md)
 
 
 

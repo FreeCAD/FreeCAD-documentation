@@ -1,38 +1,30 @@
 # Main Page/tr
+## Introduction
+
+
 <div class="mw-translate-fuzzy">
 
 ## Giriş
 
-Bu, [FreeCAD\'in](https://www.freecadweb.org/?lang=tr) belgelendirme wiki\'sidir. İki farklı yoldan dokümanlara ulaşabilirsiniz: kullanıcı merkezlerini keşfederek veya el kitabını takip ederek. FreeCAD, kullanıcı ve geliştirici topluluğu tarafından yazılan bir çalışmadır. Yanlış veya eksik bilgileri bulursanız, lütfen [FreeCAD\'e yardım edin](Special:MyLanguage/help_FreeCAD.md) !
-
-
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-## Kullanıcı Merkezi 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Kullanıcı Merkezi](User_hub.md):  Bu sayfa genel olarak FreeCAD kullanıcıları için yararlı dokümantasyon içerir: tüm çalışma tezgahlarının listesi, FreeCAD uygulamasının nasıl yükleneceği ve kullanılacağı hakkında ayrıntılı talimatlar, öğreticiler ve başlangıç ​​için gereken her şey.
-
-
-
-
-
-<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Uzman Kullanıcı Merkezi](Power_users_hub.md):Bu sayfa ileri düzey kullanıcılar ve python komut dosyaları yazmakla ilgilenen kişiler için belgeleri bir arada bulundurur. Ayrıca, bir makro deposudur. Bunların nasıl yükleneceği ve nasıl kullanılacağı ile ilgili talimatlar ve FreeCAD\'in özel ihtiyaçlara göre nasıl özelleştireceği hakkında daha fazla bilgiye buradan ulaşabilir. 
- <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Geliştirici Merkezi](Developer_hub.md):Bu bölüm geliştiriciler için çeşitli materyaller içerir: FreeCAD\'in nasıl derleneceği, FreeCAD kaynak kodunun nasıl yapılandırıldığı ve nasıl gezinileceği, yeni tezgahların nasıl geliştirileceği veya kendi uygulamanızda FreeCAD\'in nasıl yerleştirileceği gibi. 
+Bu, [FreeCAD](http://www.freecadweb.org) dokümantasyon wiki\'sidir. Bu belgeleri kullanmanın birkaç yolu vardır: kullanıcı merkezlerini keşfederek, kılavuzu izleyerek veya FreeCAD içinden Yardım menüsü girişlerini kullanarak. Bu, FreeCAD kullanıcıları ve geliştiricileri topluluğu tarafından yazılan, devam eden bir çalışmadır. Yanlış veya eksik bilgi bulursanız, lütfen [FreeCAD\'e yardım edin](Special:MyLanguage/help_FreeCAD.md)! 
 
 
 
 </div>
+
+
+
+## Kullanıcı Merkezleri 
+
+<img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Kullanıcı merkezi](User_hub.md): Bu sayfa genel olarak FreeCAD kullanıcıları için faydalı belgeler içerir: tüm çalışma tezgahlarının listesi, FreeCAD'in nasıl kurulacağı ve kullanılacağına ilişkin ayrıntılı talimatlar uygulama, öğreticiler ve başlamak için ihtiyacınız olan her şey.
+
+
+
+
+
+<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Uzman kullanıcı merkezi](Power_users_hub.md): Bu sayfa, ileri düzey kullanıcılar ve Python komut dosyaları yazmakla ilgilenen kişiler için belgeler toplar. Burada ayrıca bir makro deposu, bunların nasıl kurulup kullanılacağına ilişkin talimatlar ve FreeCAD\'i özel ihtiyaçlarınıza göre özelleştirme hakkında daha fazla bilgi bulacaksınız. 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Geliştirici merkezi](Developer_hub.md): Bu bölüm geliştiriciler için materyal içerir: FreeCAD\'i kendiniz nasıl derlersiniz, FreeCAD kaynak kodunun nasıl yapılandırıldığını, kaynak kodunda nasıl gezineceğinizi, yeni çalışma tezgahlarını nasıl geliştireceğinizi ve FreeCAD\'i kendi uygulamanıza nasıl yerleştireceğinizi . 
+
 
 
 
@@ -41,7 +33,7 @@ Bu, [FreeCAD\'in](https://www.freecadweb.org/?lang=tr) belgelendirme wiki\'sidir
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [FreeCAD Kılavuzu](Manual_Introduction.md), bu wiki\'de bulunan bilgilere ulaşabileceğiniz etkili bir yoldur. Bir kitap gibi hazırlandığından yukarıdaki merkezlerin içerdiği sayfaları adım adım okuyabilirsiniz. [ebook sürümü](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) ve [PDF formatı](https://www.freecadweb.org/manual/) şeklinde iki kılavuzu kullanabilirsiniz. 
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [FreeCAD kılavuzu](Manual_Introduction.md) bu wiki\'de yer alan bilgileri sunmanın başka, daha doğrusal bir yoludur. Bir kitap gibi okunacak şekilde tasarlanmıştır ve sizi yukarıdaki merkezlerden diğer birçok sayfayla nazikçe tanıştıracaktır. [e-kitap versiyonları](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) yanı sıra [pdf formatında birkaç çeviri de mevcuttur.](https://www.freecadweb.org/manual/). 
 
 
 
@@ -51,13 +43,7 @@ Bu, [FreeCAD\'in](https://www.freecadweb.org/?lang=tr) belgelendirme wiki\'sidir
 
 ## İçindekiler
 
-
-<div class="mw-translate-fuzzy">
-
-Aşağıdaki tabloda, bu wiki\'nin FreeCAD uygulamasıyla birlikte gönderilen çevrimdışı belgelerin belkemiğini oluşturan tüm makaleleri listelenmektedir. Mevcut diller:
-
-
-</div>
+İçindekiler tablosu birkaç dilde mevcuttur:
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |
@@ -78,27 +64,15 @@ Aşağıdaki tabloda, bu wiki\'nin FreeCAD uygulamasıyla birlikte gönderilen �
 
 ### Geliştirme Hakkında 
 
+Bize yardım etmek istiyorsanız FreeCAD projesinde yapacak çok şey var. Elbette C++ veya Python programcıları için programlama görevleri var, ancak kodlama bilmeseniz bile yapabileceğiniz birçok şey de var;
 
-<div class="mw-translate-fuzzy">
+-   belge yazma ve [wiki\'yi düzenleme (en)](WikiPages.md)
+-   yeni gelenlere yardım etmek
+-   Başvuru ve dokümanların tercümesi
+-   favori işletim sisteminiz için FreeCAD\'in en son sürümünün paketlenmesine yardımcı olmak
+-   etrafınızdaki diğer insanların FreeCAD\'i keşfetmelerine yardımcı olmak.
 
-Bize yardımcı olmakla ilgileniyorsanız, FreeCAD projesi içinde yapılacak çok şey var. Elbette, C ++ veya Python programcıları için programlama görevleri vardır, ancak kodlama yapamıyorsanız bile yapabileceğiniz birçok şey vardır, örneğin
-
--   Belge yazma ve wiki [düzenleme](editing.md)
--   Yeni başlayanlara yardımcı olabilirsiniz.
--   Uygulamayı ve belgeleri kendi dilinize çevirebilirsiniz
--   Favori işletim sisteminize FreeCAD\'in son sürümünü paketleme de yardımcı olabilirsiniz
--   Etrafınızdaki insanlara FreeCAD\'i tanıtabilirsiniz.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-[FreeCAD yardım](help_FreeCAD.md) sayfası, FreeCAD hakkında daha ayrıntılı bilgiler içermektedir. FreeCAD, 2016\' dan beri [Google Summer of Code](Google_Summer_of_Code.md)\'a katılmaktadır.
-
-
-</div>
+[help FreeCAD](Special:MyLanguage/help_FreeCAD.md) sayfasında her şey daha ayrıntılı olarak açıklanmaktadır. FreeCAD, 2016\'dan itibaren [Google Summer of Code](Google_Summer_of_Code.md) etkinliğine de katılıyor.
 
 
 
@@ -107,19 +81,19 @@ Bize yardımcı olmakla ilgileniyorsanız, FreeCAD projesi içinde yapılacak ç
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD, cMake veya autotools kullanarak derlenebilir, git bağlantısı <https://github.com/FreeCAD/FreeCAD_sf_master> ve derleme talimatları için [Windows](Compile_on_Windows.md), [Linux](Compile_on_Linux.md) ve [MacOSX](Compile_on_MacOS.md) bakın. The source code documentation is [hosted here](http://www.freecadweb.org/api/), generated by [Doxygen](Doxygen.md), and [documented on the wiki](Source_documentation.md).
+FreeCAD, [CMake](https://cmake.org/) kullanılarak tüm platformlarda derlenebilir. Kaynak kodu [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) lisanslıdır ve [GitHub](https://github.com/FreeCAD/FreeCAD)\'da barındırılır ve [GitLab](https://gitlab.com/freecad/FreeCAD), [SourceForge](https://sourceforge.net/projects/free-cad/) ve [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD)\'de yansıtılır. [Windows](Compile_on_Windows.md), [Linux](Compile_on_Linux.md) ve [MacOS](Compile_on_MacOS.md). Kaynak kodu belgeleri [burada barındırılmaktadır](http://www.freecadweb.org/api/), [Doxygen](Doxygen.md) ve [wiki\'de belgelenmiştir](Source_documentation.md).
 
 
 </div>
 
 
 
-### Yardım Çağrısı 
+### Geliştirme hakkında 
 
 
 <div class="mw-translate-fuzzy">
 
-Neler yapılması planlandığı ile ilgili olarak [Geliştirici rehberine](Development_roadmap.md) bakın.[Günlük](http://www.freecadweb.org/tracker/changelog_page.php) ve [Rehber](http://www.freecadweb.org/tracker/roadmap_page.php) sayfalarını gelecek sürümle ilgili [FreeCAD takibi](http://www.freecadweb.org/tracker) üzerinde bakabilir veya FreeCad kod bankası hakkında daha fazla bilgiye [proje istatistikleri](http://www.ohloh.net/p/freecad) sayfasından ulaşabilirsiniz. Eğer aramıza katılmak istiyorsanız [forumu](http://forum.freecadweb.org) ziyaret edin.
+Neyin planlandığına dair haberler için [Geliştirme yol haritası](Development_roadmap.md), bir sonraki sürüme doğru ilerlemeyi görmek için [FreeCAD izleyici](http://www.freecadweb.org/tracker)\'deki [Değişiklik Günlüğü](http://www.freecadweb.org/tracker/changelog_page.php) ve [Yol Haritası](http://www.freecadweb.org/tracker/roadmap_page.php) sayfalarına veya FreeCAD kod tabanı hakkında daha fazla bilgi için [Proje istatistikleri](http://www.ohloh.net/p/freecad)\'ne göz atın. Tüm geliştirme iletişimi [forumunda](http://forum.freecadweb.org) gerçekleşir, bu nedenle katılmakla ilgileniyorsanız ziyaret ettiğinizden emin olun.
 
 
 </div>

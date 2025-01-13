@@ -1,7 +1,7 @@
 # Arch OBJ
 ## Description
 
-Additionally to the standard FreeCAD [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) exporter, the [Arch Workbench](Arch_Workbench.md) features an alternative exporter that exports coplanar faces as whole OBJ faces, instead of triangulating [Shape](Shape.md)-based objects, like the standard exporter does.
+Additionally to the standard FreeCAD [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) exporter, the [BIM Workbench](BIM_Workbench.md) features an alternative exporter that exports coplanar faces as whole OBJ faces, instead of triangulating [Shape](Shape.md)-based objects, like the standard exporter does.
 
 ## Exporting without GUI 
 
@@ -43,5 +43,10 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 
 
+
+ {{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch OBJ
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch OBJ

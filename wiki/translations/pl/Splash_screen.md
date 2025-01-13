@@ -1,7 +1,12 @@
 # Splash screen/pl
 ## Opis
 
-**Ekran powitalny** to obraz, który jest prezentowany podczas uruchamiania programu FreeCAD. Dla każdej nowej wersji jest on wybierany w otwartym głosowaniu na podstawie opinii użytkowników. Możesz wyłączyć wyświetlanie ekran powitalnego w menu [Preferencji](Preferences_Editor/pl.md) FreeCAD, wyłaczając opcję **Włącz ekran powitalny podczas uruchamiania**.
+**Ekran powitalny** to obraz, który jest prezentowany podczas uruchamiania programu FreeCAD. Możesz wyłączyć wyświetlanie ekran powitalnego w menu [Preferencji](Preferences_Editor#General_2/pl.md) FreeCAD, wyłączając opcję **Włącz ekran powitalny podczas uruchamiania**.
+
+
+{{Version/pl|1.0}}
+
+: Obraz ekranu powitalnego jest wybierany losowo spośród wielu obrazów, w tym modeli użytkownika i wybranych dodatkowych środowisk pracy.
 
 
 

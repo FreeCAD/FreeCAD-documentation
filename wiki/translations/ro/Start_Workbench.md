@@ -1,4 +1,7 @@
-# <img alt="Start workbench icon" src=images/Workbench_Start.svg  style="width:64px;"> Start Workbench/ro
+# Start Workbench/ro
+**The '''Start Workbench''' is no longer included after version 0.21.**
+
+<img alt="Start workbench icon" src=images/Workbench_Start.svg  style="width:128px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -34,4 +37,4 @@ Din această interfață puteți vedea informații utile și puteți să accesa�
 
 
 ---
-⏵ [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/ro
+⏵ [documentation index](../README.md) > [Start](Category_Start.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Start Workbench/ro

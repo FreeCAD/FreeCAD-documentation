@@ -10,9 +10,13 @@
 
 # Std CloseActiveWindow/ru
 
+
+
 ## Описание
 
 Команда **Закрыть** закрывает активное окно. Чтобы закрыть документ полностью, нужно чтобы все его окна были закрыты.
+
+
 
 ## Применение
 
@@ -24,33 +28,36 @@
     -   Press the **Save** button to save the document. If required enter a filename first.
     -   Press the **Discard** button to discard the document and lose all changes.
 
+
+
 ## Опции
 
 -   Когда диалоговое окно отображается: нажмите **Esc** или кнопку **Отмена**, чтобы прервать выполнение команды.
+
+
 
 ## Примечания
 
 -   The command can only close [docked](Std_ViewDockUndockFullscreen.md) windows.
 -   A document can also be closed by right-clicking it in the [Tree view](Tree_view.md) and selecting **Close document** from the context menu.
 
-## Настройки
 
--   Путь к последнему файлу к которому была применена данная команда сохраняется в параметр: **Инструменты → Редактор параметров... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 ## Программирование
 
+See [Std New](Std_New#Scripting.md).
 
-**Смотрите так же:**
 
-[Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
-
-Чтобы закрыть документ используйте метод `closeDocument` приложения FreeCAD. Пример скрипта можно посмотреть на странице команды [\"Создать\"](Std_New/ru.md).
+<div class="mw-translate-fuzzy">
 
 
 
 
 
-{{Std Base navi
+</div>
+
+
+{{Std_Base_navi
 
 }}
 

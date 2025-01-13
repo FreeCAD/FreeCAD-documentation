@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Ellipse
-   MenuLocation: Drafting , Ellipse
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Drafting , Ellipse<br>2D Drafting , Ellipse
+   Workbenches: Draft_Workbench, BIM_Workbench
    Shortcut: **E** **L**
    Version: 0.7
 ---
@@ -13,7 +13,7 @@
 
 ## Descrição
 
-The <img alt="" src=images/Draft_Ellipse.svg  style="width:24px;"> **Draft Ellipse** command creates an ellipse in the current [working plane](Draft_SelectPlane.md) from two points defining a rectangle in which the ellipse will fit.
+The <img alt="" src=images/Draft_Ellipse.svg  style="width:24px;"> **Draft Ellipse** command creates an ellipse on the current [working plane](Draft_SelectPlane.md) from two points defining a rectangle in which the ellipse will fit.
 
 A Draft Ellipse can be turned into an elliptical arc by setting its **First Angle** and **Last Angle** properties to different values.
 
@@ -28,7 +28,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Ellipse.svg" width=16px> [Ellipse](Draft_Ellipse.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_Ellipse.svg" width=16px> Ellipse** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Drafting → <img src="images/Draft_Ellipse.svg" width=16px> Ellipse** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **2D Drafting → <img src="images/Draft_Ellipse.svg" width=16px> Ellipse** option from the menu.
     -   Use the keyboard shortcut: **E** then **L**.
 2.  The **Ellipse** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
@@ -38,11 +39,11 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ## Opções
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system.
 -   Press **F** or click the **Filled** checkbox to toggle filled mode. If filled mode is on, the created ellipse will have **Make Face** set to `True` and will have a filled face.
 -   Press **N** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating ellipses.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.

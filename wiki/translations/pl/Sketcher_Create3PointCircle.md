@@ -5,7 +5,7 @@
    MenuLocation: Szkic , Elementy geometryczne szkicownika , Utwórz okrąg przez trzy punkty
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **3** **C**
-   SeeAlso: 
+   SeeAlso: Sketcher_CreateCircle/pl
 ---
 
 # Sketcher Create3PointCircle/pl
@@ -14,15 +14,19 @@
 
 ## Opis
 
-To narzędzie [16px](Plik:Sketcher_Create3PointCircle.svg.md) rysuje okrąg poprzez wybranie trzech punktów na konturze okręgu.
-Po uruchomieniu narzędzia kursor myszki zmienia się w biały krzyż z czerwoną ikoną okręgu. Poza tym są to współrzędne pokazywane w czasie rzeczywistym.
+Narzędzie <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:24px;"> **Utwórz okrąg przez trzy punkty na obwodzie** tworzy okrąg za pomocą trzech punktów wzdłuż okręgu. {{Version/pl|1.0}}: Jest to to samo narzędzie co [Utwórz okrąg](Sketcher_CreateCircle/pl.md), ale z innym trybem początkowym.
 
 
 
 ## Użycie
 
--   Zaznacz punkty na pustym obszarze w oknie widoku 3D lub na istniejącym obiekcie *(automatyczne wiązania muszą być aktywne w [widoku zadań](Task_panel/pl.md))*.
--   Wciśnięcie klawisza **Esc** lub kliknięcie prawym klawiszem myszy dezaktywuje tę funkcję.
+Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher_Workbench/pl#Pomoce_kreślarskie.md).
+
+1.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_Create3PointCircle.svg" width=16px> [Przez trzy punkty na obwodzie](Sketcher_Create3PointCircle/pl.md)**.
+    -   Wybierz z menu opcję **Szkic → Elementy geometryczne szkicownika → <img src="images/Sketcher_Create3PointCircle.svg" width=16px> Utwórz okrąg przez trzy punkty**.
+    -   Użyj skrótu klawiaturowego: **G**, następnie **3**, a potem **C**.
+2.  Dalsze kroki można znaleźć na stronie [Utwórz okrąg](Sketcher_CreateCircle/pl#Użycie.md).
 
 
 

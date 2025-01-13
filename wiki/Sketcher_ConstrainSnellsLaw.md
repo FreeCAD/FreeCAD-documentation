@@ -11,36 +11,33 @@
 
 ## Description
 
-Constrains two lines to follow the law of refraction of light as it penetrates through an interface, where two materials of different refraction indices meet. See [Snell\'s law](http://en.wikipedia.org/wiki/Snell%27s_law) on Wikipedia for more info.
+The <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> [Sketcher ConstrainSnellsLaw](Sketcher_ConstrainSnellsLaw.md) tool constrains two lines to follow the law of refraction of light as it penetrates through an interface where two materials with different refraction indices meet. See [Snell\'s law](http://en.wikipedia.org/wiki/Snell%27s_law).
 
-<img alt="" src=images/Snells_law2_witheq.svg  style="width:" height="400px;">
-
-
-
+ <img alt="" src=images/Snells_law2_witheq.svg  style="width:" height="400px;">  
 *Snell's Law*
 
 ## Usage
 
  <img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;">  
-*The sequence of clicks is indicated by yellow arrows with numbers. n1, n2 are only labels to show where the indices of refraction are.*
+*The sequence of clicks is indicated by yellow arrows with numbers, n1 and n2 show where the indices of refraction are*
 
--   You will need two lines that are to follow a beam of light, and a curve to act as an interface. The lines should be on different sides of the interface.
--   Select the endpoint of one line, an endpoint of another line, and the interface edge. The interface can be a [Line](Sketcher_CreateLine.md), an [Arc](Sketcher_CompCreateArc.md), a [Circle](Sketcher_CompCreateCircle.md) or a [Conic](Sketcher_CompCreateConic.md). Note the order you\'ve selected the endpoints.
--   Invoke the constraint. A dialog will appear asking for a ratio of indices of refraction n2/n1. n2 corresponds to the medium where the second selected endpoint\'s line resides, n1 is for the first line.
--   The endpoints will be made coincident (if needed), constrained onto the interface (if needed), and the Snell\'s law will become constrained.
+1.  Prepare two lines to represent a beam of light, and an edge to act as an interface. The lines should be on different sides of the interface. The interface can be a [line](Sketcher_CreateLine.md), an [arc](Sketcher_CreateArc.md), a [circle](Sketcher_CreateCircle.md) or a [conic](Sketcher_CompCreateConic.md).
+2.  Select an endpoint of the first line, an endpoint of the second line, and the interface edge. Note the selection order of the endpoints.
+3.  There are several ways to invoke the tool:
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainSnellsLaw.svg" width=16px> Constrain refraction (Snell's law)** option from the menu.
+    -   Use the keyboard shortcut: **K** then **W**.
+4.  The **Refractive index ratio** dialog opens.
+5.  Enter the **Ratio n2/n1**. Where **n2** is for the medium where the second selected line resides, and **n1** is for the first line\'s medium.
+6.  A Snell\'s law constraint is added. If required the endpoints are made [coincident](Sketcher_ConstrainCoincident.md) and constrained [onto the interface](Sketcher_ConstrainPointOnObject.md). These additional constraints are called [helper constraints](Sketcher_helper_constraint.md).
 
-Note that several [helper constraints](Sketcher_helper_constraint.md) will be added automatically (point-on-object, coincident). They can be deleted if they cause redundancy or added manually if they were not added automatically. For the actual Snell\'s law constraint the endpoints of lines must coincide and lay on the interface, otherwise the behavior is undefined.
+## Notes
 
-Using the **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Polyline](Sketcher_CreatePolyline.md)**, it is possible to speed up drawing rays of light. In this case one can select two coincident endpoints by box selection.
-
-## Remarks
-
--   The actual Snell\'s law constraint enforces the plain law equation n1\*sin(theta1) = n2\*sin(theta2). It needs the line ends to be made coincident and on the interface by other constraints. The necessary helper constraints are added automatically based on the current coordinates of the elements.
--   Python routine does not add the helper constraints. These must be added manually by the script (see example in Scripting section).
+-   The actual Snell\'s law constraint enforces the plain law equation n1\*sin(theta1) = n2\*sin(theta2). It needs the line ends to be made coincident and on the interface by other constraints, otherwise the behavior is undefined. The necessary helper constraints are added automatically based on the current coordinates of the elements.
+-   In Python the helper constraints must be added manually (see [Scripting](#Scripting.md)).
 -   These helper constraints can be temporarily deleted and the endpoints dragged apart, which can be useful in case one wants to construct a reflected ray or birefringence rays.
 -   Unlike the reality, refraction indices are associated with rays of light, but not according to the sides of the boundary. This is useful to emulate birefringence, construct paths of different wavelengths due to refraction, and easily construct angle of onset of total internal reflection.
 -   Both rays can be on the same side of the interface, satisfying the constraint equation. This is physical nonsense, unless the ratio n2/n1 is 1.0, in which case the constraint emulates a reflection.
--   Arcs of circle and ellipse are also accepted as rays (physical nonsense).
+-   Arcs of circle and ellipse are also accepted as rays. But this is also physical nonsense.
 
 ## Scripting
 
@@ -75,7 +72,6 @@ import FreeCAD
 
 StartPoint = 1
 EndPoint = 2
-MiddlePoint = 3
 
 f = App.activeDocument().addObject("Sketcher::SketchObject","Sketch")
 

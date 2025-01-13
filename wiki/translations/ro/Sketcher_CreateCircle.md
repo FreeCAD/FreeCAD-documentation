@@ -17,7 +17,9 @@ Acest instrument desenează un cerc prin selectarea a două puncte: centrul și 
 
 </div>
 
-![](images/Sketcher_CircleExample1.png‎ ) 
+![](images/Sketcher_CircleExample1.png‎ )
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -26,6 +28,11 @@ Acest instrument desenează un cerc prin selectarea a două puncte: centrul și 
 
 
 </div>
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
+Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">

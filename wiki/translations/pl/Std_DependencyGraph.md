@@ -4,6 +4,7 @@
    Name/pl: Std: Graf zależności
    MenuLocation: Przybory , Graf zależności ...
    Workbenches: wszystkie
+   SeeAlso: Std_ExportDependencyGraph/pl
 ---
 
 # Std DependencyGraph/pl
@@ -152,7 +153,7 @@ Możesz zapisać wykres zależności:
 
 1.  Upewnij się, że zakładka Graf zależności jest na pierwszym planie.
 2.  Wybierz z menu opcję **Plik → [Zapisz](Std_Save/pl.md)** lub **Plik → [Zapisz jako](Std_SaveAs/pl.md)**.
-3.  Wprowadź nazwę pliku i wybierz typ pliku (\*.png, \*.bmp, \*.gif, \*.jpg, \*.svg lub \*.pdf).
+3.  Wprowadź nazwę pliku i wybierz typ pliku (\*.gv, \*.png, \*.bmp, \*.gif, \*.jpg, \*.svg lub \*.pdf).
 4.  Naciśnij przycisk **Zapisz**.
 
 
@@ -160,25 +161,22 @@ Możesz zapisać wykres zależności:
 ## Zasady ogólne 
 
 -   Wykres przedstawia obiekty w odwrotnej kolejności chronologicznej.
--   Kierunek strzałek pokazujących zależności powinien być zawsze skierowany w dół, od obiektu dziecka do obiektu rodzica. Strzałka skierowana w górę wskazuje na zależność cykliczną, czyli problem, który należy rozwiązać.
+-   Kierunek strzałek pokazujących zależności powinien być zawsze skierowany w dół. Strzałka skierowana w górę wskazuje na zależność cykliczną, czyli problem, który należy rozwiązać.
 -   Szkic zawierający odnośniki do [zewnętrznej geometrii](Sketcher_External/pl.md) będzie miał liczbę z przyrostkiem \"x\" obok strzałki łączącej go z jego rodzicem, pokazującą liczbę zewnętrznych geometrii powiązanych w szkicu.
--   Obiekty mogą mieć zależności z wieloma rodzicami. Na przykład, dla modelu zbudowanego w środowisku [Projekt Części](PartDesign_Workbench/pl.md), kieszeń może być powiązana ze swoim Szkicem i z elementem wyciągnięcia, który był przed nim.
-
-
-
-## Ograniczenia
-
--   Graf zależności nie może pomóc w rozwiązaniu [problemu z nazewnictwem topologicznym](topological_naming_problem/pl.md). Jeśli szkic zmieni ściany elementu po edycji, nadal jest połączony z elementem. Nawet jeśli niektóre funkcje są zepsute, wykres zależności pozostanie niezmieniony.
+-   Obiekty mogą mieć zależności z wieloma rodzicami. Na przykład, dla modelu zbudowanego w środowisku [Projekt Części](PartDesign_Workbench/pl.md), kieszeń może być powiązana ze swoim szkicem i z elementem wyciągnięcia, który był przed nim.
+-   Niedozwolone zależności *(np. między operacją środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md)/[Część](Part_Workbench/pl.md) i elementem w obrębie Zawartości środowiska Projekt Części)* będą wyświetlone z czerwoną strzałką. Ten typ zależności zwykle pokazuje błąd \'Zależności wychodzą poza dozwolony zakres\' w [widoku raportu](Report_view/pl.md).
+-   [Kontener Część](Std_Part/pl.md) i [Zawartość środowiska Projekt Części](PartDesign_Body/pl.md) zamykają swoją zawartość w ramce z tłem o przypadkowym kolorze. Ich początek również zamyka swoją zawartość (standardowe płaszczyzny i osie) w ramce.
+-   [Grupa](Std_Group/pl.md) jest wyświetlana jako pojedynczy element połączony ze swoją zawartością.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/pl
+⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > Std DependencyGraph/pl

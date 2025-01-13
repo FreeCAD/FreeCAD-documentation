@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part Cylinder
    Name/de: Part Zylinder
-   MenuLocation: Formteil , Grundkörper , Zylinder
+   MenuLocation: Part , Grundkörper , Zylinder
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Primitives/de
 ---
@@ -13,9 +13,9 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> **Part Zylinder** erstellt einen parametrischen Volumenkörper, einen Zylinder. Er ist das Ergebnis der Extrusion eines Kreises entlang eines geraden Pfades. Im Koordinatensystem durch seine {{PropertyData/de|Placement}} festgelegt, liegt die Unterseite des Zylinders auf der XY-Ebene und ihre Mitte im Ursprung.
+Der Befehl <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> **Part Zylinder** erstellt einen parametrischen Festkörper, einen Zylinder. Er ist das Ergebnis der Extrusion eines Kreises entlang eines geraden Pfades. Im Koordinatensystem durch seine {{PropertyData/de|Placement}} festgelegt, liegt die Unterseite des Zylinders auf der XY-Ebene und ihre Mitte im Ursprung.
 
-Ein Part-Zylinder kann in ein Zylindersegment gewandelt werden durch ändern seiner {{PropertyData/de|Winkel}}.
+Ein Part-Zylinder kann in ein Zylindersegment gewandelt werden, indem seine {{PropertyData/de|Winkel}} geändert wird.
 
 <img alt="" src=images/Part_Cylinder_Example.png  style="width:400px;">
 
@@ -24,12 +24,12 @@ Ein Part-Zylinder kann in ein Zylindersegment gewandelt werden durch ändern sei
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Part_Cylinder.svg" width=16px> [Part Zylinder](Part_Cylinder/de.md)** drücken.
+    -   Die Schaltfläche **<img src="images/Part_Cylinder.svg" width=16px> [Zylinder](Part_Cylinder/de.md)** drücken.
     -   Den Menüeintrag **Part → Grundkörper → <img src="images/Part_Cylinder.svg" width=16px> Zylinder** auswählen.
 2.  Der Zylinder wird erstellt.
 3.  Wahlweise die Abmessungen und die {{PropertyData/de|Placement}} des Zylinders ändern, indem eine der folgenden Möglichkeiten ausgeführt wird:
     -   Ein Doppelklick auf das Objekt in der [Baumansicht](Tree_view/de.md):
-        1.  Der Aufgabenbereich **Geometrische Grundkörper** wird geöffnet.
+        1.  Das Aufgaben-Fenster **Geometrische Grundkörper** wird geöffnet.
         2.  Eine oder mehrere Eigenschaften Ändern.
         3.  Das Objekt wird dynamisch in der [3D-Ansicht](3D_view/de.md) aktualisiert.
         4.  Die Schaltfläche **OK** drücken.
@@ -70,26 +70,26 @@ Das Objekt hat dieselben Befestigungseigenschaften wie ein [Part Part2DObject](P
 
 {{TitleProperty|Cylinder}}
 
--    **Radius|Length**: The radius of the circular arc that defines the cylinder. The default is {{Value|2mm}}.
+-    {{PropertyData/de|Radius|Length}}: Der Radius des Kreisbogens, der den Zylinder definiert. Der Standardwert ist {{Value|2mm}}.
 
--    **Height|Length**: The height of the cylinder. The default is {{Value|10mm}}.
+-    {{PropertyData/de|Height|Length}}: Die Höhe des Zylinders. Der Standardwert ist {{Value|10 mm}}.
 
--    **Angle|Angle**: The angle of the circular arc that defines the cylinder. Valid range: {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of a cylinder.
+-    {{PropertyData/de|Winkel|Angle}}: Der Winkel des Kreisbogens, der den Zylinder definiert. Gültiger Bereich: {{Value|0° &lt; Wert &lt;&#61; 360°}}. Der Standardwert ist {{Value|360°}}. Wenn er kleiner als {{Value|360°}} ist, ist der resultierende Festkörper ein Zylindersegment.
 
 
 {{TitleProperty|Prism}}
 
--    **First Angle|Angle**: The angle between the extrusion direction of the cylinder and its positive Z axis, measured around its Y axis. The angle is positive towards its positive X axis. Valid range: {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}. <small>(v0.20)</small> 
+-    {{PropertyData/de|First Angle|Angle}}: Der Winkel zwischen der Extrusionsrichtung des Zylinders und seiner positiven Z-Achse, gemessen um seine Y-Achse. Der Winkel ist positiv zur positiven X-Achse. Gültiger Bereich: {{Value|0° &lt;&#61; Wert &lt; 90°}}. Der Standardwert ist {{Value|0°}}. {{Version/de|0.20}}
 
--    **Second Angle|Angle**: The angle between the extrusion direction of the cylinder and its positive Z axis, measured around its X axis. The angle is positive towards its positive Y axis. Valid range: {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}. <small>(v0.20)</small> 
+-    {{PropertyData/de|Second Angle|Angle}}: Der Winkel zwischen der Extrusionsrichtung des Zylinders und seiner positiven Z-Achse, gemessen um seine X-Achse. Der Winkel ist positiv zur positiven Y-Achse. Gültiger Bereich: {{Value|0° &lt;&#61; Wert &lt; 90°}}. Der Standardwert ist {{Value|0°}}. {{Version/de|0.20}}
 
 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/), [Part Skripten](Part_scripting/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/), [Part Skripten](Part_scripting/de.md) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-Ein Part Zylinder wird mit der Methode `addObject()` des Dokuments erstellt.
+Ein Part-Zylinder wird mit der Methode `addObject()` des Dokuments erstellt.
 
 
 ```python

@@ -37,7 +37,7 @@ Od wersji FreeCAD 0.20 polecenie to i system pomocy są zarządzane przez oddzie
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

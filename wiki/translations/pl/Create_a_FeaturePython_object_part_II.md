@@ -1,18 +1,20 @@
 # Create a FeaturePython object part II/pl
-## Introduction
+## Wprowadzenie
 
-On the [Create a FeaturePython object part I](Create_a_FeaturePython_object_part_I.md) page we\'ve focused on the internal aspects of a Python class built around a FeaturePython object, specifically an `App::FeaturePython` object. We\'ve created the object, defined some properties, and added a document-level event callback that allows our object to respond to a document recompute with the `execute()` method. But our object still lacks a presence in the [3D view](3D_view.md). Let\'s remedy that by adding a box.
+Na stronie [Tworzenie obiektów FeaturePython - część I](Create_a_FeaturePython_object_part_I/pl.md) skupiliśmy się na wewnętrznych aspektach klasy Python zbudowanej wokół obiektu FeaturePython, a konkretnie obiektu `App::FeaturePython`. Stworzyliśmy obiekt, zdefiniowaliśmy niektóre właściwości i dodaliśmy wywołanie zwrotne zdarzenia na poziomie dokumentu, które pozwala naszemu obiektowi odpowiedzieć na ponowne obliczenie dokumentu za pomocą metody `execute()`. Ale nasz obiekt wciąż nie jest obecny w [widoku 3D](3D_view/pl.md). Naprawmy to, dodając ramkę.
 
-## Adding a box 
 
-First at the top of the **box.py** file, below the existing import, add:
+
+## Dodawanie prostopadłościanu 
+
+Najpierw na górze pliku **box.py**, poniżej istniejącego importu, dodaj:
 
 
 ```python
 import Part
 ```
 
-Then in `execute()` delete the `print()` statement and add the following line in its place:
+Następnie w `execute()` usuń instrukcję `print()` i dodaj następującą linię w jej miejsce:
 
 
 ```python
@@ -21,41 +23,43 @@ Part.show(Part.makeBox(obj.Length, obj.Width, obj.Height))
 
 ![ right](images/App_featurepython_box.png )
 
-These commands execute Python methods that come with FreeCAD by default:
+Polecenia te wykonują metody Python, które są domyślnie dostarczane z FreeCAD:
 
--   The `Part.makeBox()` method generates a box shape.
--   The enclosing call to `Part.show()` adds the shape to the document and makes it visible.
+-   Metoda `Part.makeBox()` generuje kształt prostopadłościanu.
+-   Obejmujące wywołanie `Part.show()` dodaje kształt do dokumentu i czyni go widocznym.
 
-Delete any existing objects, reload the box module and create a new box object using `box.create()`. Notice how a box immediately appears on the screen. That is because we force the document to recompute at the end of `box.create()` which in turn triggers the `execute()` method of our `box` class.
+Usuń wszystkie istniejące obiekty, przeładuj moduł box i utwórz nowy obiekt box za pomocą `box.create()`. Zauważ, że na ekranie natychmiast pojawia się prostopadłościan. Dzieje się tak, ponieważ wymuszamy ponowne obliczenie dokumentu na końcu `box.create()`, co z kolei uruchamia metodę `execute()` naszej klasy `box`.
 
-At first glance the result may look fine but there are some problems. The most obvious one is that the box is represented by an entirely different object than our FeaturePython object. `Part.show()` simply creates a separate box object and adds it to the document. Worse, if you change the dimensions of the FeaturePython object another box shape gets created, and the old one is left in place. And if you have the [Report view](Report_view.md) open, you may have noticed an error stating \"Recursive calling of recompute for document Unnamed\". This has to do with using the `Part.show()` method inside a FeaturePython object. 
+Na pierwszy rzut oka wynik może wyglądać dobrze, ale są pewne problemy. Najbardziej oczywistym z nich jest to, że prostopadłościan jest reprezentowany przez zupełnie inny obiekt niż nasz obiekt FeaturePython. `Part.show()` po prostu tworzy osobny obiekt prostopadłościanu i dodaje go do dokumentu. Co gorsza, jeśli zmienisz wymiary obiektu FeaturePython, zostanie utworzony inny kształt prostopadłościanu, a stary pozostanie na swoim miejscu. A jeśli masz otwarty panel [Widoku raportu](Report_view.md), być może zauważyłeś błąd \"Recursive calling of recompute for document Unnamed\". Ma to związek z użyciem metody `Part.show()` wewnątrz obiektu FeaturePython. 
 
-[top](#top.md)
+[na początek strony](#top.md)
 
-## Fixing the code 
 
-To solve these problems we have to make a number of changes. Until now we\'ve been using a `App::FeaturePython` object which is actually not intended to have a visual representation in the 3D view. We have to use a `Part::FeaturePython` object instead. In `create()` change the following line:
+
+## Naprawa kodu 
+
+Aby rozwiązać te problemy, musimy wprowadzić kilka zmian. Do tej pory używaliśmy obiektu `App::FeaturePython`, który w rzeczywistości nie jest przeznaczony do wizualnej reprezentacji w widoku 3D. Zamiast tego musimy użyć obiektu `Part::FeaturePython`. W `create()` zmień następującą linię:
 
 
 ```python
 obj = App.ActiveDocument.addObject('App::FeaturePython', obj_name)
 ```
 
-to:
+na:
 
 
 ```python
 obj = App.ActiveDocument.addObject('Part::FeaturePython', obj_name)
 ```
 
-To get rid of the separate box object we need to assigns the result of the `makeBox()` method to the `Shape` property of our `Part::FeaturePython` object. Change this line in `execute()`:
+Aby pozbyć się oddzielnego obiektu pudełka, musimy przypisać wynik metody `makeBox()` do właściwości `Shape` naszego obiektu `Part::FeaturePython`. Zmień tę linię w `execute()`:
 
 
 ```python
 Part.show(Part.makeBox(obj.Length, obj.Width, obj.Height))
 ```
 
-to:
+na:
 
 
 ```python
@@ -64,15 +68,17 @@ obj.Shape = Part.makeBox(obj.Length, obj.Width, obj.Height)
 
 ![](images/Part_featurepython_no_vp.png )
 
-Save your changes, switch back to FreeCAD, delete any existing objects, reload the box module, and create a new box object. The new result is somewhat disappointing. There no longer is an extra object in the Tree view, and the icon in the Tree view has changed, but our box in the 3D view is also gone (which is why the icon is gray). What happened? Although we\'ve properly created our box shape and assigned it to a `Part::FeaturePython` object, to make it actually show up in the 3D view we need to assign a [ViewProvider](Viewprovider.md). 
+Zapisz zmiany, przełącz się z powrotem do FreeCAD, usuń wszystkie istniejące obiekty, przeładuj moduł prostopadłoscianu i utwórz nowy obiekt prostopadłoscianu. Nowy wynik jest nieco rozczarowujący. Nie ma już dodatkowego obiektu w widoku drzewa, a ikona w widoku drzewa zmieniła się, ale nasz prostopadłościan w widoku 3D również zniknął (dlatego ikona jest szara). Co się stało? Chociaż poprawnie utworzyliśmy nasz kształt prostopadłoscianu i przypisaliśmy go do obiektu `Part::FeaturePython`, aby faktycznie pojawił się w widoku 3D, musimy przypisać [ViewProvider](Viewprovider.md). .
 
-[top](#top.md)
+[na początek strony](#top.md)
 
-## Writing a ViewProvider 
 
-A View Provider is the component of an object which allows it to have a visual representation in the 3D view. FreeCAD uses an application structure which is designed to separate the data (the \"model\") from it\'s visual representation (the \"view\"). If you\'ve spent any time working with FreeCAD in Python, you are likely already aware of this through the use of the two core Python modules: `FreeCAD` and `FreeCADGui` (often aliased as `App` and `Gui` repectively).
 
-Our FeaturePython object also requires these elements. Thus far we\'ve focused purely on the \"model\" portion of the code, now it\'s time to write the \"view\" portion. Fortunately most ViewProviders are simple and require little effort to write, at least to get started. Here\'s an example ViewProvider borrowed and slightly modified from [1](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py):
+## Piszemy ViewProvider 
+
+Dostawca widoku jest składnikiem obiektu, który pozwala mu na wizualną reprezentację w widoku 3D. FreeCAD wykorzystuje strukturę aplikacji, która została zaprojektowana w celu oddzielenia danych (\"modelu\") od ich wizualnej reprezentacji (\"widoku\"). Jeśli spędziłeś trochę czasu pracując z FreeCAD w Python, prawdopodobnie jesteś już tego świadomy dzięki wykorzystaniu dwóch podstawowych modułów Python: `FreeCAD` i `FreeCADGui`. *(często aliasowanych odpowiednio jako `App` i `Gui`)*
+
+Nasz obiekt FeaturePython również wymaga tych elementów. Do tej pory skupialiśmy się wyłącznie na części \"modelowej\" kodu, teraz nadszedł czas na napisanie części \"widokowej\". Na szczęście większość ViewProviderów jest prosta i nie wymaga wiele wysiłku do napisania, przynajmniej na początek. Oto przykładowy ViewProvider zapożyczony i nieco zmodyfikowany z [1](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py):
 
 
 ```python
@@ -157,88 +163,92 @@ class ViewProviderBox:
             "   #######      "};
             """
 
-    def __getstate__(self):
+    def dumps(self):
         """
         Called during document saving.
         """
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         """
         Called during document restore.
         """
         return None
 ```
 
-In the code above, we define an XMP icon for this object. Icon design is beyond the scope of this tutorial, but basic design can be managed using open source tools like [GIMP](https://www.gimp.org), [Krita](https://krita.org/en/), and [Inkscape](https://inkscape.org/). The `getIcon()` method is optional, FreeCAD will use a default icon if this method is not provided.
+W powyższym kodzie definiujemy ikonę XMP dla tego obiektu. Projektowanie ikon wykracza poza zakres tego poradnika, ale podstawowym projektowaniem można zarządzać za pomocą narzędzi open source, takich jak [GIMP](https://www.gimp.org), [Krita](https://krita.org/en/) i [Inkscape](https://inkscape.org/). Metoda `getIcon()` jest opcjonalna, FreeCAD użyje domyślnej ikony, jeśli ta metoda nie zostanie podana.
 
-Add the ViewProvider code at the end of **box.py** and in the `create()` method insert the following line above the `recompute()` statement:
+Dodaj kod ViewProvider na końcu **box.py** i w metodzie `create()` wstaw następującą linię nad instrukcją `recompute()`:
 
 
 ```python
 ViewProviderBox(obj.ViewObject)
 ```
 
-This instances the custom ViewProvider class and passes the FeaturePython\'s built-in ViewObject to it. When the ViewProvider class initializes, it saves a reference to itself in the FeaturePython\'s `ViewObject.Proxy` attribute. This way, when FreeCAD needs to render our box visually, it can find the ViewProvider class to do that.
+Powoduje to instancję niestandardowej klasy ViewProvider i przekazuje do niej wbudowany obiekt ViewObject FeaturePython. Podczas inicjalizacji klasa ViewProvider zapisuje odniesienie do siebie w atrybucie FeaturePython `ViewObject.Proxy`. W ten sposób, gdy FreeCAD musi wizualnie wyrenderować nasz prostopadłościan, może znaleźć klasę ViewProvider, aby to zrobić.
 
-Now, save the changes and return to FreeCAD. Import or reload the box module and call `box.create()`. You should now see two things:
+Teraz zapisz zmiany i wróć do FreeCAD. Zaimportuj lub przeładuj moduł prostopadłościanu i wywołaj `box.create()`. Powinieneś teraz zobaczyć dwie rzeczy:
 
--   The icon for the box object has changed.
--   And, more importantly, there is a box in the 3D view. If you do not see it press the **<img src="images/Std_ViewFitAll.svg" width=16px> [Std ViewFitAll](Std_ViewFitAll.md)** button. You can even alter the dimensions of the box by changing the values in the [Property editor](Property_editor.md). Give it a try!
+-   Ikona obiektu prostopadłościanu uległa zmianie.
+-   I, co ważniejsze, w widoku 3D pojawia się prostopadłościan. Jeśli go nie widzisz, naciśnij przycisk **<img src="images/Std_ViewFitAll.svg" width=16px> [Std: Przybliż i dopasuj wszystko](Std_ViewFitAll/pl.md)**. Możesz nawet zmienić wymiary prostopadłościanu, zmieniając wartości w [Edytorze właściwości](Property_editor/pl.md). Spróbuj!
 
-[top](#top.md)
+[na początek strony](#top.md)
 
-## Trapping events 
 
-We have already discussed event trapping. Nearly every method of a FeaturePython class serves as a callback accessible to the FeaturePython object (which gets access to our class instance through the `Proxy` attribute).
 
-Below is a list of the callbacks that may be implemented in the basic FeaturePython object:
+## Zdarzenia związane z łapaniem 
 
-++++
-|                             | Called during document recomputes                                        | Do not call `recompute()` from this method (or any method called from `execute()`) as this causes a nested recompute.                                                                                                                                                                                                                                |
-| `execute(self, obj)`              |                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                         |                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                    |
-++++
-|                             | Called before a property value is changed                                |                                                                                                                                                                                                                                                                                                                                                                                     |
-| `onBeforeChange(self, obj, prop)` |                                                                          | `prop`                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                         |                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                            |                                                                          | is the name of the property to be changed, not the property object itself. Property changes cannot be cancelled. Previous / next property values are not simultaneously available for comparison.                                                                                                                                                                                                  |
-++++
-|                             | Called after a property is changed                                       |                                                                                                                                                                                                                                                                                                                                                                                     |
-| `onChanged(self, obj, prop)`      |                                                                          | `prop`                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                         |                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                            |                                                                          | is the name of the property to be changed, not the property object itself.                                                                                                                                                                                                                                                                                                                         |
-++++
-|                             | Called after a document is restored or a FeaturePython object is copied. | Occasionally, references to the FeaturePython object from the class, or the class from the FeaturePython object may be broken, as the class `__init__()` method is not called when the object is reconstructed. Adding `self.Object <nowiki>=</nowiki> obj` or `obj.Proxy <nowiki>=</nowiki> self` often solves these issues. |
-| {{Incode|onDocumentRestored(self, obj)}}   |                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                         |                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                    |
-++++
+Omówiliśmy już pułapkowanie zdarzeń. Prawie każda metoda klasy FeaturePython służy jako wywołanie zwrotne dostępne dla obiektu FeaturePython *(który uzyskuje dostęp do instancji naszej klasy poprzez atrybut `Proxy`)*.
 
-: FeaturePython basic callbacks
-
-For a complete reference of FeaturePython methods available, see [FeaturePython methods](FeaturePython_methods.md).
-
-In addition, there are two callbacks in the ViewProvider class that may occasionally prove useful:
+Poniżej znajduje się lista wywołań zwrotnych, które mogą być zaimplementowane w podstawowym obiekcie FeaturePython:
 
 ++++
-|                         | Called after a data (model) property is changed |                                                                                                                                                                              |
-| `updateData(self, obj, prop)` |                                                 | `obj`                                                                                                                                                                              |
-|                                     |                                                 |                                                                                                                                                                                          |
-|                                        |                                                 | is a reference to the FeaturePython class instance, not the ViewProvider instance. `prop` is the name of the property to be changed, not the property object itself. |
+|                             | Wywoływany podczas ponownego obliczania dokumentu                           | Nie wywołuj `recompute()` z tej metody (lub jakiejkolwiek metody wywołanej z `execute()`), ponieważ spowoduje to zagnieżdżone ponowne obliczenie.                                                                                                                                                                                            |
+| `execute(self, obj)`              |                                                                             |                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                         |                                                                             |                                                                                                                                                                                                                                                                                                                                                                                            |
 ++++
-|                         | Called after a view property is changed         |                                                                                                                                                                              |
-| `onChanged(self, vobj, prop)` |                                                 | `vobj`                                                                                                                                                                             |
-|                                     |                                                 |                                                                                                                                                                                          |
-|                                        |                                                 | is a reference to the ViewProvider instance. `prop` is the name of the view property which was changed.                                                              |
+|                             | Wywoływana przed zmianą wartości właściwości                                |                                                                                                                                                                                                                                                                                                                                                                             |
+| `onBeforeChange(self, obj, prop)` |                                                                             | `prop`                                                                                                                                                                                                                                                                                                                                                                            |
+|                                         |                                                                             |                                                                                                                                                                                                                                                                                                                                                                                         |
+|                                            |                                                                             | to nazwa właściwości, która ma zostać zmieniona, a nie sam obiekt właściwości. Zmian właściwości nie można anulować. Poprzednie / następne wartości właściwości nie są jednocześnie dostępne do porównania.                                                                                                                                                                                |
+++++
+|                             | Wywoływana po zmianie właściwości                                           |                                                                                                                                                                                                                                                                                                                                                                             |
+| `onChanged(self, obj, prop)`      |                                                                             | `prop`                                                                                                                                                                                                                                                                                                                                                                            |
+|                                         |                                                                             |                                                                                                                                                                                                                                                                                                                                                                                         |
+|                                            |                                                                             | to nazwa właściwości, która ma zostać zmieniona, a nie sam obiekt właściwości.                                                                                                                                                                                                                                                                                                             |
+++++
+|                             | Wywoływana po przywróceniu dokumentu lub skopiowaniu obiektu FeaturePython. | Czasami odniesienia do obiektu FeaturePython z klasy lub klasy z obiektu FeaturePython mogą być uszkodzone, ponieważ metoda klasy `__init__()` nie jest wywoływana podczas rekonstrukcji obiektu. Dodanie `self.Object <nowiki>=</nowiki> obj` lub `obj.Proxy <nowiki>=</nowiki> self` często rozwiązuje te problemy. |
+| {{Incode|onDocumentRestored(self, obj)}}   |                                                                             |                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                         |                                                                             |                                                                                                                                                                                                                                                                                                                                                                                            |
 ++++
 
-: ViewProvider basic callbacks
+: Podstawowe wywołania zwrotne FeaturePython
 
-It is not uncommon to encounter a situation where the Python callbacks are not being triggered as they should. Beginners in this area can rest assured that the FeaturePython callback system is not fragile or broken. Invariably when callbacks fail to run it is because a reference is lost or undefined in the underlying code. If, however, callbacks appear to be breaking with no explanation, providing object/proxy references in the `onDocumentRestored()` callback (as noted in the first table above) may alleviate these problems. Until you are comfortable with the callback system, it may be useful to add print statements in each callback to print messages to the console during development.
+Aby uzyskać pełną listę dostępnych metod FeaturePython, zobacz stronę [metody FeaturePython](FeaturePython_methods/pl.md).
 
-[top](#top.md)
+Ponadto w klasie ViewProvider znajdują się dwa wywołania zwrotne, które mogą czasami okazać się przydatne:
 
-## Complete code 
+++++
+|                         | Wywoływana po zmianie właściwości danych *(modelu)* |                                                                                                                                                                               |
+| `updateData(self, obj, prop)` |                                                     | `obj`                                                                                                                                                                               |
+|                                     |                                                     |                                                                                                                                                                                           |
+|                                        |                                                     | jest odwołaniem do instancji klasy FeaturePython, a nie instancji ViewProvider. `prop` to nazwa właściwości, która ma zostać zmieniona, a nie sam obiekt właściwości. |
+++++
+|                         | Wywoływane po zmianie właściwości widoku            |                                                                                                                                                                               |
+| `onChanged(self, vobj, prop)` |                                                     | `vobj`                                                                                                                                                                              |
+|                                     |                                                     |                                                                                                                                                                                           |
+|                                        |                                                     | jest odwołaniem do instancji ViewProvider. `prop` jest nazwą właściwości widoku, która została zmieniona.                                                             |
+++++
+
+: Podstawowe wywołania zwrotne ViewProvider
+
+Nierzadko można spotkać się z sytuacją, w której wywołania zwrotne Python nie są uruchamiane tak, jak powinny. Początkujący w tej dziedzinie mogą być pewni, że system wywołań zwrotnych FeaturePython nie jest kruchy ani uszkodzony. Niezmiennie, gdy wywołania zwrotne nie są uruchamiane, jest to spowodowane utratą lub niezdefiniowaniem odniesienia w kodzie bazowym. Jeśli jednak wydaje się, że wywołania zwrotne nie działają bez wyjaśnienia, dostarczenie odwołań do obiektów/proxy w wywołaniu zwrotnym `onDocumentRestored()` *(jak wspomniano w pierwszej tabeli powyżej)* może złagodzić te problemy. Dopóki nie poczujesz się komfortowo z systemem wywołań zwrotnych, przydatne może być dodanie instrukcji drukowania w każdym wywołaniu zwrotnym, aby drukować komunikaty na konsoli podczas programowania.
+
+[na początek strony](#top.md)
+
+
+
+## Kompletny kod 
 
 
 ```python
@@ -364,20 +374,20 @@ class ViewProviderBox:
             "   #######      "};
             """
 
-    def __getstate__(self):
+    def dumps(self):
         """
         Called during document saving.
         """
         return None
 
-    def __setstate__(self,state):
+    def loads(self,state):
         """
         Called during document restore.
         """
         return None
 ```
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 
 

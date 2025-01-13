@@ -23,7 +23,7 @@ The **Std ViewBoxZoom** command zooms in on a user defined rectangular area, a b
 
 
 
- {{Std Base navi}}
+ {{Std_Base_navi}}
 
 
 

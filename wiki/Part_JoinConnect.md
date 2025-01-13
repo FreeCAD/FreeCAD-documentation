@@ -11,19 +11,17 @@
 
 ## Description
 
-Connect tool connects interiors of two walled objects (e.g., pipes). It can also join shells and wires.
+The <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> **Part JoinConnect** tool connects the interiors of two walled objects (e.g. pipes). It can also join shells and wires.
 
-![600px](images/JoinFeatures_Connect.png)
+ ![600px](images/JoinFeatures_Connect.png) 
 
 ## Usage
 
-1.  Select objects to be connected.
-    The order of selection is not important, since the action of the tool is symmetric. It is enough to select one sub-shape of each object (e.g., faces). You can also select a compound containing all the shapes to be connected, e.g. [Draft OrthoArray](Draft_OrthoArray.md).
-2.  Invoke the Part JoinConnect command using several ways:
-    -   Press the <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Part JoinConnect](Part_JoinConnect.md) button in the Part toolbar
-    -   Use the **Part → Join → Connect objects** entry in the Part menu
-
-A Connect parametric object is created. Original objects are hidden, and the result of connecting is shown in [3D view](3D_view.md).
+1.  Select objects to be connected. The order of selection is not important, since the action of the tool is symmetric. It is enough to select one sub-shape of each object (e.g., faces). You can also select a compound containing all shapes to be connected, e.g. a [Draft OrthoArray](Draft_OrthoArray.md).
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Part_JoinConnect.svg" width=16px> [Connect objects](Part_JoinConnect.md)** button.
+    -   Select the **Part → Join → <img src="images/Part_JoinConnect.svg" width=16px> Connect objects** option from the menu.
+3.  A Connect parametric object is created. Original objects are hidden, and the result of connecting is shown in the [3D view](3D_view.md).
 
 ## Properties
 
@@ -93,6 +91,11 @@ j.Objects = FreeCADGui.Selection.getSelection()
 }}
 
 The tool itself is implemented in Python, see **/Mod/Part/BOPTools/JoinFeatures.py** ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) under where FreeCAD is installed.
+
+
+
+
+ {{Part_Tools_navi}}
 
 
 

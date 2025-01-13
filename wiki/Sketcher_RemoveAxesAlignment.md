@@ -11,20 +11,23 @@
 
 ## Description
 
-This tool removes axes alignments (<img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [Horizontal](Sketcher_ConstrainHorizontal.md), <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [Vertical](Sketcher_ConstrainVertical.md) constraints) from the selected elements by trying to preserve the constraint relationship.
+The <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> [Sketcher RemoveAxesAlignment](Sketcher_RemoveAxesAlignment.md) tool removes the axes alignment of selected edges by replacing [Horizontal](Sketcher_ConstrainHorizontal.md) and [Vertical](Sketcher_ConstrainVertical.md) constraints with [Parallel](Sketcher_ConstrainParallel.md) and [Perpendicular](Sketcher_ConstrainPerpendicular.md) constraints. The edges can then be rotated without losing their orthogonal relationship.
 
 ## Usage
 
-1.  Select geometry with axes alignments, for example a [rectangle](Sketcher_CreateRectangle.md).
-2.  Press the <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> **Remove axes alignment** toolbar button.
+1.  Select two or more edges with Horizontal or Vertical constraints, for example a [rectangle](Sketcher_CreateRectangle.md).
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_RemoveAxesAlignment.svg" width=16px> [Remove axes alignment](Sketcher_RemoveAxesAlignment.md)** button.
+    -   Select the **Sketch → Sketcher tools → <img src="images/Sketcher_RemoveAxesAlignment.svg" width=16px> Remove axes alignment** option from the menu.
+    -   Use the keyboard shortcut: **Z** then **R**.
 
-As result the (horizontal, vertical constraints) will be removed. In the example of a rectangle, it stays a rectangle but becomes rotatable.
+## Example
 
  <img alt="" src=images/SketcherRemoveAxesAlignmentStart.png  style="width:300px;">  
 *A selected rectangle with horizontal and vertical constraints.*
 
  <img alt="" src=images/SketcherRemoveAxesAlignmentResult.png  style="width:300px;">  
-*The rectangle after the usage of Remove Axes Alignment.*
+*The rectangle after using the tool.*
 
 
 

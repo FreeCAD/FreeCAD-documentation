@@ -4,8 +4,8 @@
 |Icon=Editor_Assistant_Icon.svg
 |Description=Extend functionality of FreeCAD's integrated Python editor
 |Author=TheMarkster
-|Version=1.96
-|Date=2023-09-28
+|Version=2.01
+|Date=2024-10-10
 |FCVersion=0.21 or later
 |Download=[https://wiki.freecadweb.org/File:Editor_Assistant_Icon.svg ToolBar Icon]
 |SeeAlso=

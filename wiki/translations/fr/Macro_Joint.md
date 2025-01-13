@@ -16,9 +16,11 @@
 
 Cette macro est utilisée pour créer des assemblages de différents types, tels que des assemblages à tenon et mortaise, des assemblages à queue droit, des assemblages en queue d\'aronde, des entures dentelées droites (en utilisant le type queue d\'aronde) et quelques emboîtages élastiques, entre autre de type porte-à-faux, annulaire, à boule et fendu.
 
-La macro fonctionne dans l\'[atelier Part Design](PartDesign_Workbench/fr.md), mais aussi avec des solides créés dans tout autre atelier.
+La macro fonctionne dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md), mais aussi avec des solides créés dans tout autre atelier.
 
 La documentation complète se trouve sur github : [Joint](https://github.com/mwganson/joint).
+
+
 
 ## Utilisation
 
@@ -32,6 +34,8 @@ La documentation complète se trouve sur github : [Joint](https://github.com/mwg
 
 <img alt="" src=images/Macro_joint_scr1.png  style="width:400px;"> 
 *Capture d'écran de la Macro Joint - quelques-uns des types de joints qui peuvent être réalisés‎*
+
+
 
 ## Légende
 

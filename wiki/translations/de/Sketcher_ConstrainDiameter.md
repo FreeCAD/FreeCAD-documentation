@@ -2,11 +2,11 @@
  GuiCommand:
    Name: Sketcher ConstrainDiameter
    Name/de: Sketcher DurchmesserFestlegen
-   MenuLocation: Sketch , Skizzen-Beschränkungen , Durchmesser festlegen
+   MenuLocation: Skizze , Sketcher-Randbedingung , Durchmesser festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **K** **O**
    Version: 0.18
-   SeeAlso: Sketcher_ConstrainDistance/de, Sketcher_ConstrainDistanceX/de, Sketcher_ConstrainDistanceY/de
+   SeeAlso: Sketcher_ConstrainRadiam/de, Sketcher_ConstrainRadius/de
 ---
 
 # Sketcher ConstrainDiameter/de
@@ -15,29 +15,56 @@
 
 ## Beschreibung
 
-Diese Randbedingung legt den Durchmesser eines Kreises oder Bogens auf einen bestimmten Wert fest. Wenn vor dem Start des Befehls mehr als ein Kreis oder Bogen ausgewählt wurde:
-
--   Wenn die Beschränkung im \'Referenz\' Modus angewendet wird, wird eine neue Referenz Beschränkung zu jedem Objekt separat gemäß den oben genannten Regeln hinzugefügt.
--   Wird die Beschränkung im \'Normal\' (Fahren) Modus angewendet, werden folgende Regeln angewandt
-    -   Ein Referenz Beschränkung wird separat auf jedes Objekt angewendet, das eine externe Geometrie ist
-
-    -   
-        **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [GleichheitFestlegen](Sketcher_ConstrainEqual/de.md)**
-        
-        wird nacheinander auf alle Objekte der realen Geometrie/Konstruktionsgeometrie angewandt, und eine maßliche Randbedingung wird auf das erste ausgewählte Objekt gemäß den obigen Regeln angewandt
-
-NB: B-Spline-Pole können nicht mit anderen Objekttypen in der Auswahl gemischt werden.
+Das Werkzeug <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:24px;"> [Sketcher DurchmesserFestlegen](Sketcher_ConstrainDiameter/de.md) legt den Durchmesser von Kreisen oder Kreisbögen fest. Es kann nicht für [B-Spline-Gewichtskreise](Sketcher_CreateBSpline/de#Hinweise.md) verwendet werden.
 
 
 
 ## Anwendung
 
-1.  Einen oder mehrere Kreise oder Bögen auswählen.
-2.  Die Schaltfläche **[<img src=images/Sketcher_ConstrainDiameter.svg style="width:16px"> [Durchmesser festlegen](Sketcher_ConstrainDiameter.md)** drücken.
-3.  Ein Aufklappdialog öffnet sich, um den Wert zu bearbeiten oder zu bestätigen. Zum Bestätigen **OK** drücken. Falls mehrere Kreise/Bögen ausgewählt wurden, werden alle Randbedingungen diesen Wert übernehmen. Die einzelnen Werte werden bearbeitet, indem man in der 3D-Ansicht auf die Maßzahl doppelklickt; oder indem man in der Liste der Randbedingungen auf die Bedingung doppelklickt oder rechtsklickt und **Wert ändern** auswählt.
-4.  Optional können Maßzahl und Maßlinie in der 3D-Ansicht durch Klicken auf die Maßzahl und Ziehen bei gedrückter linker Maustaste verschoben und gedreht werden.
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
-**Hinweis:** Dieses Werkzeug kann auch ohne vorherige Auswahl gestartet werden. Standardmäßig befindet sich der Befehl im Fortsetzungsmodus, um neue Randbedingungen zu erstellen; ein Druck auf die rechte Maustaste oder auf **Esc** beendet den Befehl.
+
+
+### [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md) 
+
+1.  Sicherstellen, dass die Auswahl leer ist.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   
+        {{Version/de|1.0}}
+        
+        : Ist die [Voreinstellung](Sketcher_Preferences/de#Allgemein.md) **Werkzeuge für Maßeinträge** auf {{Value|Einzelnes Werkzeug}} gesetzt (Standardeinstellung): Den Abwärtspfeil rechts neben der Schaltfläche **<img src="images/Sketcher_Dimension.svg" width=|x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** drücken und die Menüoption **<img src="images/Sketcher_ConstrainDiameter.svg" width=16px> Durchmesser festlegen** im Ausklappmenü auswählen.
+
+    -   Besitzt die Voreinstellung einen anderen Wert (und in {{VersionMinus/de|0.21}}): Die Schaltfläche **<img src="images/Sketcher_ConstrainDiameter.svg" width=16px> [Durchmesser festlegen](Sketcher_ConstrainDiameter/de.md)** drücken.
+
+    -   Den Menüeintrag **Skizze → Sketcher-Randbedingungen → <img src="images/Sketcher_ConstrainDiameter.svg" width=16px> Durchmesser festlegen** auswählen.
+
+    -   
+        {{Version/de|1.0}}
+        
+        : Ein Rechtsklick in die [3D-Ansicht](3D_view/de.md) und die Menüoption **Abmessung → <img src="images/Sketcher_ConstrainDiameter.svg" width=16px> Durchmesser festlegen** im Kontextmenü auswählen.
+
+    -   Das Tastaturkürzel **K** dann **O**.
+3.  Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
+4.  Die Kante eines Kreises oder Kreisbogens auswählen.
+5.  Wird eine [festlegende maßliche Randbedingung](Sketcher_ToggleDrivingConstraint/de.md) erstellt, hängt von den [Voreinstellungen](Sketcher_Preferences/de#Anzeige.md) ab, ob ein Dialog geöffnet wird, um ihren [Wert zu bearbeiten](Sketcher_Workbench/de#Randbedingungen_bearbeiten.md).
+6.  Eine Randbedingung wird hinzugefügt.
+7.  Wahlweise weitere Randbedingungen erstellen.
+8.  Zum Beenden die rechte Maustaste oder **Esc** drücken; oder ein anderes Werkzeug zum Erstellen von Geometrien oder Randbedingungen aufrufen.
+
+
+
+### Einmal-Ausführen-Modus 
+
+1.  Die Kante eines oder mehrere Kreise oder Kreisbögen auswählen.
+2.  Das Werkzeug aufrufen, wie oben beschrieben.
+3.  Wahlweise den [Wert der Randbedingung](Sketcher_Workbench/de#Randbedingungen_bearbeiten.md) bearbeiten.
+4.  Abhängig von der Auswahl werden eine oder mehrere Randbedingungen hinzugefügt, siehe [Hinweise](#Hinweise.md).
+
+
+
+## Hinweise
+
+-   Werden [festlegende maßliche Randbedingungen](Sketcher_ToggleDrivingConstraint/de.md) erstellt und wurden mehrere Elemente vorausgewählt, die keine [externen Geometrien](Sketcher_External/de.md) sind, erhält nur das erste von ihnen eine maßliche Randbedingung, während Zwischen dem ersten und den anderen die Randbedingung [Gleichheit festlegen](Sketcher_ConstrainEqual/de.md) eingesetzt wird.
 
 
 

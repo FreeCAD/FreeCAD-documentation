@@ -10,6 +10,9 @@
 # Arch Add/it
 
 
+</div>
+
+
 
 ## Descrizione
 
@@ -29,10 +32,16 @@ La controparte di questo strumento è lo strumento **<img src="images/Arch_Remov
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare gli oggetti da unire. L\'ultimo oggetto selezionato è l\'oggetto Arch ospite.
 2.  Premere il pulsante **<img src="images/Arch_Add.svg" width=16px>**, o usare **Arch** → **<img src="images/Arch_Add.svg" width=16px> [Aggiungi componente](Arch_Add/it.md)** dal menu principale.
 
-## Script
+
+</div>
+
+## Scripting
 
 
 **Vedere anche:**
@@ -81,5 +90,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/it
+⏵ [documentation index](../README.md) > Arch Add/it

@@ -8,28 +8,32 @@
 
 # Std ToggleSelectability/pl
 
+
+
 ## Opis
 
 Polecenie **Przełącz możliwość zaznaczenia** przełącza możliwość wyboru obiektów w oknie [widoku 3D](3D_view/pl.md).
 
+
+
 ## Użycie
 
 1.  Wybierz jeden lub więcej obiektów.
-2.  Istnieje kilka sposobów na wywołanie polecenia:
+2.  Istnieje kilka sposobów na wywołanie tego polecenia:
     -   Wybierz z opcję menu **Widok → Widoczność → <img src="images/Std_ToggleSelectability.svg" width=16px> Przełącz możliwość zaznaczenia**.
-    -   Wybierz z opcję **<img src="images/Std_ToggleSelectability.svg" width=16px> Przełącz możliwość zaznaczenia** z menu podręcznego [Widoku drzewa](Tree_view/pl.md). Opcja ta nie jest dostępna w środowisku pracy [PartDesign Workbench](PartDesign_Workbench/pl.md)
-    -   Wybierz opcję **<img src="images/Std_ToggleSelectability.svg" width=16px> Przełącz możliwość zaznaczenia** z menu kontekstowego widoku 3D.
+    -   Wybierz opcję **<img src="images/Std_ToggleSelectability.svg" width=16px> Przełącz możliwość zaznaczenia** z menu kontekstowego [widoku drzewa](Tree_view/pl.md) lub widoku 3D.
+
+
 
 ## Uwagi
 
--   Wybieralność obiektu można również zmienić poprzez jego powiązaną właściwość **Selectable** w [Edytorze właściwości](Property_editor/pl.md) lub oknie [Widoku połączonego](Combo_view/pl.md).
+-   Wybieralność obiektu można również zmienić poprzez jego powiązaną właściwość **Selectable** w [Edytorze właściwości](Property_editor/pl.md).
+
+
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Właściwość `Selectable` obiektu określa jego możliwość zaznaczenia.
 
@@ -39,17 +43,14 @@ import FreeCADGui
 
 obj = FreeCADGui.ActiveDocument.myObjectName
 
-if obj.Selectable == True:
-  obj.Selectable = False
-else:
-  obj.Selectable = True
+obj.Selectable = not obj.Selectable
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

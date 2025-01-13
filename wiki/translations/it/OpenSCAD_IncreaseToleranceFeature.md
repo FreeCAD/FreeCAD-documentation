@@ -4,39 +4,28 @@
    Name/it: Incrementa tolleranza
    MenuLocation: OpenSCAD , Incrementa tolleranza
    Workbenches: OpenSCAD_Workbench/it
-   Shortcut: 
-   SeeAlso: 
 ---
 
 # OpenSCAD IncreaseToleranceFeature/it
 
 
-</div>
-
-## Description
 
 ## Descrizione
 
 Aumenta la tolleranza dei bordi, delle facce e dei vertici dell\'oggetto selezionato.
 
-## Usage
-
-## Uso
-
-1.  Selezionare l\'oggetto nella vista ad albero
-2.  Usare ** OpenSCAD** → **<img src="images/OpenSCAD_IncreaseTolerance.png" width=32px> Aumenta tolleranza** dal menu in alto.
-3.  Selezionare la funzione Tollerance-Object nella vista ad albero
-4.  Selezionare la scheda Dati nel pannello delle Proprietà o della Vista combinata.
-5.  Modificare a proprio piacimento i valori per i Bordi, le Facce e i Vertici.
 
 
-<div class="mw-translate-fuzzy">
+## Utilizzo
+
+1.  Selezionare l\'oggetto nella [Vista ad albero](Tree_view/it.md)
+2.  Scegliere ** OpenSCAD** → **<img src="images/OpenSCAD_IncreaseToleranceFeature.svg" width=24px> Incrementa la tolleranza** dal menu in alto.
+3.  Selezionare l\'oggetto Tolleranza nell\'albero delle caratteristiche nella [Vista ad albero](Tree_view/it.md).
+4.  Selezionare la scheda Dati nell\'[Editor proprietà](Property_editor/it.md) o nella [Vista combinata](Combo_view/it.md).
+5.  Cambiare i valori per Bordi/Facce/Vertice a proprio piacimento.
 
 
 
-
-
-</div>
 
 
 {{OpenSCAD_Tools_navi

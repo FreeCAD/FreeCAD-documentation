@@ -1,9 +1,9 @@
 ---
  GuiCommand:
-   Name: FCGear_TimingGear
-   Name/it: Ingranaggio di distribuzione
-   MenuLocation: FCGear , Create a Timing gear
-   Workbenches: FCGear Workbench/it
+   Name: FCGear TimingGear
+   Name/it: Puleggia per cinghia dentata
+   MenuLocation: Gear , Timing Gear
+   Workbenches: FCGear_Workbench/it
    Shortcut: None
    Version: v0.16
    SeeAlso: 
@@ -12,90 +12,82 @@
 # FCGear TimingGear/it
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
 Lo scopo degli ingranaggi di distribuzione è quello di consentire all\'albero a camme e all\'albero motore di far ruotare la catena di distribuzione. L\'albero motore gira per muovere i pistoni su e giù all\'interno dei cilindri. L\'albero a camme ruota per consentire l\'apertura e la chiusura delle valvole di aspirazione e di scarico sui cilindri. Questi componenti sono importanti per la corretta sincronizzazione del motore.
 
-
-</div>
-
 Gli ingranaggi di distribuzione sono collegati a una cinghia o catena di distribuzione.
 
 ![](images/Timing-Gear_example.png ) 
-*Above: Timing gear*
+*Sopra: puleggia per cinghia dentata*
 
-## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_TimingGear.svg style="width:16px"> [Timing Gear](FCGear_TimingGear.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_TimingGear.svg style="width:16px"> Timing Gear** option from the menu.
-3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
 
-## Properties
+## Utilizzo
 
-An FCGear TimingGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+1.  Passare a <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/it.md).
+2.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **[<img src=images/FCGear_TimingGear.svg style="width:16px"> [Timing Gear](FCGear_TimingGear/it.md)** nella barra degli strumenti.
+    -   Selezionare l\'opzione **Gear → [<img src=images/FCGear_TimingGear.svg style="width:16px"> Timing Gear** dal menu.
+3.  Modificare il parametro dell\'ingranaggio alle condizioni richieste (vedere [Proprietà](#Proprietà.md)).
 
-### Data
+
+
+## Proprietà
+
+Un oggetto FCGear TimingGear deriva da un oggetto [Part Feature](Part_Feature/it.md) ed eredita tutte le sue proprietà. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{Properties_Title|base}}
 
--    **height|Length**: Default is {{Value|5 mm}}. Value of the gear width.
+-    **height|Length**: Il valore predefinito è {{Value|5 mm}}. Valore della larghezza dell\'ingranaggio.
 
--    **teeth|Integer**: Default is {{Value|15}}. Number of teeth.
+-    **teeth|Integer**: L\'impostazione predefinita è {{Value|15}}. Numero di denti.
 
--    **type|Enumeration**: Default is {{Value|gt2}}. Type of timing gear -- profile pitch for timing belts (see [Notes](#Notes.md)).
+-    **type|Enumeration**: L\'impostazione predefinita è {{Value|gt2}}. Tipo di ingranaggio -- passo del profilo per cinghie di distribuzione (vedere [Note](#Note.md)).
 
 
 {{Properties_Title|computed}}
 
--    **h|Length**: (read-only) Radial height of teeth.
+-    **h|Length**: (sola lettura) Altezza radiale dei denti.
 
--    **offset|Length**: (read-only) X-Offset of second arc mid-point.
+-    **offset|Length**: (sola lettura) Offset X del punto medio del secondo arco.
 
--    **pitch|Length**: (read-only) Pitch of gear.
+-    **pitch|Length**: (sola lettura) Passo dell\'ingranaggio.
 
--    **r0|Length**: (read-only) Radius of first arc.
+-    **r0|Length**: (sola lettura) Raggio del primo arco.
 
--    **r1|Length**: (read-only) Radius of second arc.
+-    **r1|Length**: (sola lettura) Raggio del secondo arco.
 
--    **rs|Length**: (read-only) Radius of third arc.
+-    **rs|Length**: (sola lettura) Raggio del terzo arco.
 
--    **u|Length**: (read-only) Radial difference between pitch ... diameter and head of gear.
+-    **u|Length**: (sola lettura) Differenza radiale tra passo... diametro e testa dell\'ingranaggio.
 
 
 {{Properties_Title|version}}
 
 -    **version|String**:
 
-## Notes
 
--    **type**: The pitch of the timing belts (distance from tooth centre to tooth centre of consecutive teeth) is specified in types. GT2 has a pitch of 2 mm, GT3 of 3 mm, GT5 of 5 mm etc..
 
-## Useful formulas 
+## Note
+
+-    **type**: Il passo delle cinghie dentate (distanza dal centro del dente al centro del dente di denti consecutivi) è specificato in tipi. GT2 ha un passo di 2 mm, GT3 di 3 mm, GT5 di 5 mm ecc..
+
+
+
+## Formule utili 
 
 -    **addendum diameter**= **pitch diameter** + 2 \* **module**
 
 -    **belt length**= 2 \* **axle base** + **belt tooth pitch** : 2 \* **(teeth 1 + 2)** + **belt tooth pitch²** : 4 \* pi² \* **axle base** \* **(teeth 1 - 2)²**
 
 -    **axle base**= **belt length** : 4 - **belt tooth pitch** : 8 \* **(teeth 1+2)** + ¼ \* sqrt \[**belt length** - ½ \* **belt tooth pitch** \* **(teeth 1+2)²** - 2 \* **belt tooth pitch²** \* **(teeth 1+2)²** : pi²\]
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

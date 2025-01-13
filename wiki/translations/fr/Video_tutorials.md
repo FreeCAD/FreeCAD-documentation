@@ -44,6 +44,10 @@ Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous r
     -   [Using FreeCAD version 0.17 Path Workbench](https://www.youtube.com/playlist?list=PLEuOia-QxyFJZSpqb0xOHc9t7MLdCO3io): une série de 9 vidéos expliquant comment utiliser l\'atelier Path y compris les outils et les contrôleurs, la configuration des tâches, visualisation, opérations, habillages, unités et préférences.
 -   [Vidéos Coder Musashi](https://www.youtube.com/channel/UCtNnYMVWGkG-aemOrCtGjCA/videos): diverses vidéos sur l\'utilisation du [atelier Path](Path_Workbench/fr.md).
     -   [PathWorkbench créant des chemins avec FeatureArea et d\'autres outils freecad](https://www.youtube.com/watch?v=MsDIRIkeNJ4)
+-   [Vidéos YouTube de Mango Jelly](https://www.youtube.com/@MangoJellySolutions) : les tutoriels de MangoJelly sur de nombreuses parties de FreeCAD, y compris l\'atelier CAM. Ils ne sont pas « officiels » mais ont été recommandés par de nombreuses personnes.
+-   [Toronto Tool Library YouTube Videos](https://www.youtube.com/@TorontotoollibraryIRBE) : quelques vidéos intéressantes sur l\'utilisation de FreeCAD et de la CNC.
+-   [Open Source CNC](https://www.youtube.com/@opensourcecnc) : suelques vidéos intéressantes sur l\'utilisation de FreeCAD et de la CNC, ainsi que des vidéos tutorielles sur l\'atelier CAM de FreeCAD.
+-   [Adventures in creation](https://www.youtube.com/@Adventuresincreation) : quelques vidéos/tutoriels intéressants sur l\'utilisation de FreeCAD pour fabriquer des objets.
 
 
 
@@ -56,7 +60,7 @@ Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous r
 
 ## Conception architecturale 
 
-Vidéos qui passent par la modélisation de pièces, de maisons, d\'immeubles de bureaux et de structures similaires, et de dessin de plans d\'étage, à l\'aide des ateliers tels que <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/fr.md) et <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/fr.md).
+Vidéos qui passent par la modélisation de pièces, de maisons, d\'immeubles de bureaux et de structures similaires, et de dessin de plans d\'étage, à l\'aide des ateliers tels que <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md) et <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/fr.md).
 
 Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous rendres sur [Tutoriels vidéo pour la conception en architecture](Video_tutorials_for_architectural_design/fr.md).
 
@@ -81,6 +85,8 @@ Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous r
 -   [flowwie\'s corner](https://www.youtube.com/c/flowwiescorner/videos) par flowwie en allemand : une belle série de 62 courtes vidéos concernant FreeCAD 0.18 et 0.19, du niveau de base au niveau intermédiaire.
 
 -   [Evgeniy Ivanov](https://www.youtube.com/c/CFDIntech/videos) par Evgeniy Ivanov en anglais : une belle série de vidéos concernant FreeCAD 0.19, du niveau de base au niveau intermédiaire.
+
+-   [Tutoriels FreeCAD sur Spoken tutorials](https://spoken-tutorial.org/tutorial-search/?search_foss=FreeCAD&search_language=English) une série de tutoriels vidéo pour débutants et intermédiaires.
 
 
 

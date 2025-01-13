@@ -36,6 +36,10 @@
 
 </div>
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+### [Continue mode](Sketcher_Workbench#Continue_modes.md) 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -46,15 +50,28 @@
 
 </div>
 
+### Run-once mode 
 
-<div class="mw-translate-fuzzy">
+1.  Do one of the following:
+    -   Select a single line.
 
-**Note:** instrumentul de constrângere poate fi pornit și fără o selecție prealabilă. Pentru a seta distanța perpendiculară dintre un punct și o linie, punctul trebuie selectat mai întâi. Implicit, comanda va fi în modul continuu pentru a crea noi constrângeri; apăsați butonul drept al mouse-ului sau **ESC** o dată pentru a părăsi comanda.
+    -   Select two points.
 
+    -   Select a point and a line (in any order).
 
-</div>
+    -   Select the edges of two circles or arcs.
 
-### Hint
+    -   Select the edge of a circle or arc and a line (idem).
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Select the edge of a single arc.
+2.  Invoke the tool as explained above.
+3.  Optionally [edit the constraint value](Sketcher_Workbench#Edit_constraints.md).
+4.  A constraint is added.
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

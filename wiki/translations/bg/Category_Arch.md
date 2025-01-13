@@ -1,5 +1,5 @@
 # Category:Arch/bg
-Pages relating to Architectural and Building Information Management
+This category is for pages related to the [Arch_Workbench/bg](Arch_Workbench/bg.md).
 
 ### Contents
 

@@ -1,10 +1,10 @@
 ---
  GuiCommand:
    Name: Sketcher BSplineDecreaseDegree
-   MenuLocation: Szkic , Narzędzia szkicownika krzywej złożonej , Szkic , Narzędzia szkicownika krzywej złożonej
+   MenuLocation: Szkic , Narzędzia szkicownika krzywej złożonej , Szkic , Zmniejsz stopień krzywej złożonej
    Workbenches: Sketcher_Workbench/pl
    Version: 0.19
-   SeeAlso: Sketcher_BSplineDegree/pl, Sketcher_BSplineIncreaseDegree/pl
+   SeeAlso: Sketcher_BSplineIncreaseDegree/pl
 ---
 
 # Sketcher BSplineDecreaseDegree/pl
@@ -13,33 +13,28 @@
 
 ## Opis
 
-Zmniejsza stopień *(kolejność)* krzywej złożonej *(zobacz stronę [Krzywe złożone](B-Splines/pl.md) aby uzyskać więcej informacji)*.
-
-Krzywe złożone są w zasadzie kombinacją [Krzywych Béziera](B-Splines/pl#Krzywe_Béziera.md) *(ładnie wyjaśnione w filmie [From Bézier curves to B-spline curves](https://www.youtube.com/watch?v=bE1MrrqBAl8) oraz [Properties of B-spline curves](https://www.youtube.com/watch?v=xXJylM2S72s))*.
-
-W tej sześciennej krzywej *(3 stopnia)* są 3 segmenty, co oznacza, że 3 krzywe są połączone w 2 węzłach
-*(stopień jest oznaczony liczbą, wskazanie można zmienić za pomocą przycisku na pasku narzędzi **[<img src=images/Sketcher_BSplineDegree.svg style="width:24px"> [Pokaż / ukryj stopień krzywej złożonej](Sketcher_BSplineDegree/pl.md)**)*:
-
-<img alt="" src=images/Sketcher_BSplineDegree3.png  style="width:400px;"> 
-*Krzywa złożona o stopniu 3 i 2 węzłach, z których każdy ma krotność 1.*
-
-Zewnętrzne odcinki mają po 2 punkty kontrolne, wewnętrzne żadnego, aby spełnić warunek, że węzły mają krotność 1. *(zobacz stronę opisującą [krotność](Sketcher_BSplineDecreaseKnotMultiplicity/pl#Opis.md))*.
-
-Zmniejszenie stopnia nie spowoduje usunięcia punktów kontrolnych, lecz będzie próbowało zachować kształt krzywej. Dlatego segmenty będą dodawane. W naszym przykładzie widać wiele nowych segmentów krzywej z każdym jednym punktem kontrolnym, a kształt krzywej został tylko nieznacznie zmieniony:
-
-<img alt="" src=images/Sketcher_BSplineDegree2.png  style="width:400px;"> 
-*Ta sama krzywa złożona, w której stopień został zmieniony z 3 na 2. Należy zauważyć, że również zwiększono liczbę węzłów, aby zachować kształt krzywej. W efekcie węzły mają teraz ciągłość „C”<sup>0</sup>, dzięki czemu krzywa uzyska „krawędzie”, gdy przesuniesz punkt kontrolny. ''(zobacz stronę [krotność węzła](Sketcher_BSplineDecreaseKnotMultiplicity/pl#Opis.md), aby uzyskać wyjaśnienie ciągłości)''*
-
-Jeśli weźmiesz ten wynik i zwiększysz stopień, nie możesz uzyskać początkowego stanu krzywej, ponieważ informacje zostały utracone przez wcześniejsze zmniejszenie stopnia. Dla naszego przykładu zwiększanie stopnia znów prowadzi do:
-
-<img alt="" src=images/Sketcher_BSplineDegree3again.png  style="width:400px;"> 
-*Ta sama krzywa, w której stopień został zmieniony z powrotem z 2 na 3. Zauważ, że krotność węzła również wzrosła, ponieważ informacja o możliwej wyższej ciągłości została utracona.*
+Narzędzie <img alt="" src=images/Sketcher_BSplineDecreaseDegree.svg  style="width:24px;"> **Zmniejsz stopień krzywej złożonej** zmniejsza stopień *(kolejność)* [krzywej złożonej](B-Splines/pl.md) .
 
 
 
 ## Użycie
 
-1.  Wybierz krawędź z istniejącej krzywej złożonej i naciśnij przycisk **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> '''Zmniejsz stopień krzywej złożonej'''**.
+1.  Wybierz jedną lub więcej krzywych złożonych.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/Sketcher_BSplineDecreaseDegree.svg" width=16px> '''Zmniejsz stopień krzywej złożonej'''**.
+
+    -   Wybierz z menu **Szkic → Narzędzia szkicownika krzywej złożonej → <img src="images/Sketcher_BSplineDecreaseDegree.svg" width=16px> Zmniejsz stopień krzywej złożonej**.
+
+    -   
+        {{Version/pl|1.0}}
+        
+        : Kliknij prawym przyciskiem myszy w [widoku 3D](3D_view/pl.md) i wybierz opcję **<img src="images/Sketcher_BSplineDecreaseDegree.svg" width=16px> Zmniejsz stopień krzywej złożonej** z menu podręcznego.
+
+
+
+## Przykład
+
+Zapoznaj się z informacjami na stronie: [Zwiększ stopień krzywej złożonej](Sketcher_BSplineIncreaseDegree/pl#Przykład.md).
 
 
 

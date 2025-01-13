@@ -1,7 +1,15 @@
 # Third Party Libraries/es
+## Overview
+
+
+<div class="mw-translate-fuzzy">
+
 ## Resumen
 
 Estas son bibliotecas que FreeCAD utiliza como dependencias de terceros durante la compilación. Normalmente son [bibliotecas enlazadas dinámicamente](https://en.wikipedia.org/wiki/Dynamic_loading) y tienen una extensión `.so` en Linux/MacOS y `.dll` en Windows, y van acompañadas de sus archivos de cabecera `.h` o `.hpp` o similares. Si se necesita una biblioteca modificada, o una clase envolvente, el código de la biblioteca modificada, o la envolvente, tiene que formar parte del código fuente de FreeCAD, y compilarse junto con él.
+
+
+</div>
 
 Las dependencias deben ser instaladas en el sistema antes de proceder a la compilación; ver [compilar en Linux](Compile_on_Linux/es.md), [compilar en Windows](Compile_on_Windows/es.md), y [compilar en MacOS](Compile_on_MacOS/es.md) para más información.
 
@@ -77,7 +85,15 @@ Si está compilando con Windows, considere usar el [LibPack](#LibPack.md) en lug
 
 ### Python
 
+
+<div class="mw-translate-fuzzy">
+
+### Python 
+
 **Versión:** 3.3 o superior
+
+
+</div>
 
 **Licencia:** Python 3.3 licencia
 
@@ -199,7 +215,15 @@ SoQt is no longer used in FreeCAD, it was replaced by Quarter which is a more re
 
 #### Quarter
 
+
+<div class="mw-translate-fuzzy">
+
+#### Quarter 
+
 **Versión:** 1.0 o superior
+
+
+</div>
 
 **Licencia:** Licencia BSD de 3 cláusulas
 
@@ -211,7 +235,7 @@ Quarter is a newer Coin3D binding to the Qt toolkit. A version of it is included
 
 **Licencia:** Licencia BSD de 3 cláusulas
 
-[Pivy](Pivy.md) is a library that wraps the Coin3d library for use in [Python](Python.md). It is not needed to build FreeCAD or to start it, but it is needed as a runtime dependency by the [Draft Workbench](Draft_Workbench.md), and by other workbenches that use it internally, like [Arch](Arch_Workbench.md) and [BIM](BIM_Workbench.md).
+[Pivy](Pivy.md) is a library that wraps the Coin3d library for use in [Python](Python.md). It is not needed to build FreeCAD or to start it, but it is needed as a runtime dependency by the [Draft Workbench](Draft_Workbench.md), and by other workbenches that use it internally, like [BIM](BIM_Workbench.md).
 
 If you are not going to use these workbenches, you won\'t need Pivy.
 
@@ -279,11 +303,19 @@ A copy of this library is included in the source code of FreeCAD so it is compil
 
 Libarea is a software library to compute profile and pocket operations which are used in computer aided manufacturing (CAM) software. It was created by Dan Heeks for his HeeksCNC project.
 
-A copy of the library is included with the source code of the [Path Workbench](Path_Workbench.md), so it is compiled together with it.
+A copy of the library is included with the source code of the [CAM Workbench](CAM_Workbench.md), so it is compiled together with it.
 
 ## LibPack
 
+
+<div class="mw-translate-fuzzy">
+
+## LibPack 
+
 LibPack es un conveniente paquete con las dependencias de compilación de FreeCAD reunidas. Sólo es necesario si estás compilando FreeCAD en Windows con Visual Studio 2015 y superior. Puedes encontrar el último LibPack en la página [releases](https://github.com/FreeCAD/FreeCAD/releases).
+
+
+</div>
 
 Si estás trabajando bajo Linux, no necesitas el LibPack, ya que puedes obtener las dependencias de los repositorios de tu distribución como se menciona en la página [compilar en Linux](Compile_on_Linux/es.md).
 

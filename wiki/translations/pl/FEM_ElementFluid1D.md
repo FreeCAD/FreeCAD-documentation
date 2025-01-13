@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM ElementFluid1D
    Name/pl: MES: Przekrój dla przepływu 1D
    MenuLocation: Model , Geometria elementu , Przekrój dla przepływu 1D
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_tutorial/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: CalculiX
+}}
 ---
 
 # FEM ElementFluid1D/pl
@@ -13,7 +18,7 @@
 
 ## Opis
 
-Tworzy element MES przekroju płynu dla układów pneumatycznych i hydraulicznych.
+Tworzy element MES przekroju płynu dla układów pneumatycznych i hydraulicznych rozwiązywanych przy pomocy solvera CalculiX.
 
 
 
@@ -38,7 +43,7 @@ Tworzy element MES przekroju płynu dla układów pneumatycznych i hydraulicznyc
 ## Uwagi
 
 1.  Przykład ustawiania układu hydraulicznego można znaleźć tutaj: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node13.html>
-2.  To narzędzie korzysta ze słowa kluczowego \*FLUID SECTION do definiowania elementów dla przepływu 1D Więcej informacji można znaleźć na stronie: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node205.html>
+2.  Do modelowania elementów płynowych dla przepływu 1D wykorzystywane jest [słowo kluczowe \*FLUID SECTION w CalculiX](http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node205.html).
 
 
 

@@ -10,6 +10,9 @@
 # Arch CloseHoles/it
 
 
+</div>
+
+
 
 ## Descrizione
 
@@ -19,8 +22,14 @@ Questo strumento identifica i fori (sequenza circolare di bordi aperti) in un og
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare una [Forma](Part_Workbench/it.md) (un oggetto Parte)
 2.  Selezionare la voce **<img src="images/Arch_CloseHoles.svg" width=16px> [Chiudi fori](Arch_CloseHoles/it.md)** nel menu **Arch → Utilità → Chiudi fori**.
+
+
+</div>
 
 
 
@@ -61,6 +70,20 @@ solid = Arch.closeHole(Wall.Shape)
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/it
+⏵ [documentation index](../README.md) > Arch CloseHoles/it

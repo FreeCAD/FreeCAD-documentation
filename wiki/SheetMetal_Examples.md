@@ -458,6 +458,30 @@ Fused profile → Profile with interlocking extension, this final result is unfo
 </div>
 
 
+<div class="mw-collapsible mw-collapsed">
+
+### Fold object <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> 
+
+
+<div class="mw-collapsible-content toccolours">
+
+A Fold object is the result of a sheet metal plate bent at a given line.
+
+Change the property **Position** to control where the bend is positioned according to the bend line.
+
+ <img alt="" src=images/SheetMetal_Example-10o.png  style="width:600px;"> 
+
+
+
+*Cross-section of the bend: The bend line lies on the upper face of the blank (black) with a 10 mm offset from the edge, its position is maked with a pentagon. It also defines the virtual intersection of the blank and the bent wall*
+
+
+</div>
+
+
+</div>
+
+
 
 ---
 ⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Examples

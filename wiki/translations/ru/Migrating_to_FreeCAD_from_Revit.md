@@ -3,7 +3,7 @@ This page is intended to give you a quick start with FreeCAD if you are coming f
 
 ### Setting things up 
 
-FreeCAD is a multi-purpose 3D modelling application. Although it is not solely a BIM application, it features two dedicated BIM workbenches: the [Arch Workbench](Arch_Workbench.md), which is bundled with every FreeCAD installation, and contains a minimal set of BIM tools, and the [BIM Workbench](BIM_Workbench.md), which you must install through the [Addons manager](Std_AddonMgr.md). You are highly recommended to start by installing the BIM Workbench, which will give you an environment more similar to Revit.
+FreeCAD is a multi-purpose 3D modeling application. Although it is not solely a BIM application, it features a dedicated [BIM Workbench](BIM_Workbench.md), which is bundled with every FreeCAD installation, and contains a set of BIM tools.
 
 ### Key concepts 
 
@@ -30,6 +30,8 @@ Although you will be able to perform the same tasks and obtain a similar result 
 -   Make sure you can always fall back to Revit if things go wrong: Export to IFC early and often, open the file in Revit, make sure everything is there.
 
 -   Creating views and sheets works like in Revit, if you are using [Draft](Draft_Workbench.md) views (the recommended way). Create [shape views](Draft_Shape2DView.md) of your objects or levels, move them out of your model, annotate them, place everything in a group or [Building part](Arch_BuildingPart.md), then create [TechDraw](TechDraw_Workbench.md) pages and add your Draft views to it.
+
+
 
 ### Дополнительные материалы 
 

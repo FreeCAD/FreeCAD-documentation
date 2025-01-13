@@ -29,7 +29,7 @@
 2.  Naciśnij przycisk **<img src="images/PartDesign_Boolean.svg" width=16px> [Operacja logiczna](PartDesign_Boolean/pl.md)**.
 3.  W **Parametrach logicznych** kliknij przycisk **Dodaj zawartość**. Aktywna bryła tymczasowo znika z okna [widoku 3D](3D_view/pl.md), co ułatwia wybór zawartości dla narzędzia.
 4.  W w oknie widoku 3D wybierz zawartość, którą chcesz wykorzystać w funkcji logicznej. Powtórz czynność, aby dodać więcej zawartości.
-5.  Wybierz typ operacji logicznej w menu rozwijanym *(Scalenie, Wytnij lub Część wspólna)*.
+5.  Wybierz typ operacji logicznej w menu rozwijanym *(Scal, Wytnij lub Część wspólna)*.
 6.  Kliknij przycisk **OK**.
 
 Alternatywnie, obiekty można wybrać przed naciśnięciem przycisku operacji logicznej. Zostaną one dodane automatycznie. Podczas wstępnego wybierania nie jesteś ograniczony do Zawartości. Obiekty [Łącznik kształtu](PartDesign_ShapeBinder/pl.md), [Łącznik kształtu podrzędnego](PartDesign_SubShapeBinder/pl.md), a nawet bryły utworzone za pomocą innych środowisk pracy mogą być również wybierane.
@@ -67,7 +67,7 @@ Alternatywnie, obiekty można wybrać przed naciśnięciem przycisku operacji lo
 ## Ograniczenia
 
 -   Aby narzędzie Część wspólna mogło pracować z więcej niż jedną Zawartością jako narzędzia, muszą one przecinać się nawzajem wraz z aktywnym korpusem.
--   Zawartości będące narzędziami przyjmują jako lokalny początek położenia aktywną zawartość. Jeśli aktywna zawartość nie znajduje się w punkcie *(0,0,0)* w globalnym układzie współrzędnych, umieszczenie zawartości narzędzi musi być względne w stosunku do aktywnej bryły. Łatwiejsze może być pozostawienie położenia aktywnej zawartości na początku przed zastosowaniem cechy logicznej niż zmiana jej położenia.
+-   Zawartości wynikowe narzędzi przyjmują lokalne pochodzenie aktywnej zawartości. Jeśli aktywna zawartość nie znajduje się w punkcie *(0,0,0)* w globalnym układzie współrzędnych, umieszczenie zawartości narzędzi musi być względne w stosunku do aktywnej bryły. Łatwiejsze może być pozostawienie położenia aktywnej zawartości na początku przed zastosowaniem cechy logicznej niż zmiana jej położenia.
 
 
 

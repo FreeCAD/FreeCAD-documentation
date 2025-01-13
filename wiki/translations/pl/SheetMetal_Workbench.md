@@ -20,7 +20,7 @@ Cechami charakterystycznymi przedmiotów wykonanych z blachy są:
 Narzędzie do rozkładania w obu wersjach nie jest ograniczone do części wykonanych narzędziami z tego środowiska pracy, ale może obsługiwać również obiekty należące do środowisk pracy [Część](Part_Workbench/pl.md) i [Projekt Części](PartDesign_Workbench/pl.md), o ile spełniają one powyższe wymagania.
 
 <img alt="" src=images/SheetMetal_Example.png  style="width:600px;"> 
-*Model z blachy zbudowany za pomocą dodatku '''Arkusz blachy''' ''(z tyłu)'', <br>przed nim rozwinięta bryła, <br>na pierwszym planie rozwinięty szkic z liniami gięcia do eksportu do formatu DXF.*
+*Z tyłu: model z blachy zbudowany za pomocą dodatku '''Arkusz blachy''', <br/>Przed nim: rozwinięta bryła, <br/>Na pierwszym planie: szkic rozwinięcia z liniami gięcia do eksportu do formatu DXF.*
 
 Jeśli eksport do formatu DXF jest używany do sterowania maszynami *(na przykład cięcie laserowe)*, należy zmodyfikować DXF, aby usunąć linie pokazujące zagięcia, ponieważ linie te mogą być używane przez maszynę do cięcia.
 
@@ -34,8 +34,6 @@ To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_Addon
 
 ## Przybory
 
-Szczegółowy opis narzędzi można znaleźć [na blogu autora](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/). Jednak jest on już trochę przestarzały, ponieważ dodano kilka nowych narzędzi.
-
 -   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Dodaj element bazowy](SheetMetal_AddBase/pl.md): Tworzy obiekt bazowy z blachy na podstawie szkicu, profilu lub płyty.
 
 -   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Dodaj ścianę](SheetMetal_AddWall/pl.md): Dodaje kołnierz na każdej wybranej krawędzi płyty bazowej *(Kołnierz można przekształcić w obszycie, modyfikując jego kąt)*.
@@ -48,6 +46,8 @@ Szczegółowy opis narzędzi można znaleźć [na blogu autora](http://theseger.
 
 -   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Rozwiń bezobsługowo](SheetMetal_UnattendedUnfold/pl.md): Prostuje zgięty obiekt blaszany i generuje rozwinięcie oraz szkic konturowy z liniami gięcia *(jeżeli parametry zostały już ustawione)*.
 
+-   <img alt="" src=images/SheetMetal_UnfoldUpdate.svg  style="width:32px;"> [Aktualizacja rozwinięć](SheetMetal_UnfoldUpdate/pl.md): Aktualizuje wszystkie obiekty rozwinięć.
+
 -   <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:32px;"> [Dodaj podcięcie w narożniku](SheetMetal_AddCornerRelief/pl.md): Dodaje relief narożny do narożnika.
 
 -   <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:32px;"> [Dodaj podcięcie](SheetMetal_AddRelief/pl.md): Pierwszy krok do przekształcenia obiektu powłoki w rozkładany obiekt z blachy, dodaje zagłębienie *(wycięcie)* do narożnika.
@@ -58,9 +58,12 @@ Szczegółowy opis narzędzi można znaleźć [na blogu autora](http://theseger.
 
 -   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Szkic na arkuszu](SheetMetal_SketchOnSheet/pl.md): Na podstawie szkicu wycina wzór otworów wzdłuż zagiętych ścian obiektu z blachy.
 
+-   <img alt="" src=images/SheetMetal_AddCutout.svg  style="width:32px;"> [Dodaj wycięcie](SheetMetal_AddCutout/pl.md): Tworzy wycięcie poprzez wyciągnięcie szkicu.
+
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Formowanie blach](SheetMetal_Forming/pl.md): Wytłacza kształty z otworami lub bez otworów w arkuszu blachy.
 
--   <img alt="" src=images/SheetMetal_BaseShape.svg  style="width:32px;"> [Dodaj kształt bazowy](SheetMetal_BaseShape.md): Dodaje parametryczny obiekt bazowy konstrukcji blaszanej.
+-   <img alt="" src=images/SheetMetal_BaseShape.svg  style="width:32px;"> [Dodaj kształt bazowy](SheetMetal_BaseShape.md): Dodaje parametryczny obiekt bazowy konstrukcji blaszanej. 
+*(wprowadzona w wersji 0.3.10)*
 
 
 
@@ -81,7 +84,7 @@ Ta sekcja ma na celu dać ogólne pojęcie o tym, jak używać dostarczonych nar
 
 #### Rozpoczęcie od profilu 
 
-1.  Utwórz otwartą polilinię *(najlepiej za pomocą szkicownika)*,
+1.  Utwórz otwartą polilinię *(najlepiej za pomocą [Szkicownika](Sketcher_Workbench/pl.md))*,
 2.  Użyj polecenia <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Dodaj ścianę bazową](SheetMetal_AddBase/pl.md), aby utworzyć profil arkusza blachy.
 
 
@@ -90,6 +93,12 @@ Ta sekcja ma na celu dać ogólne pojęcie o tym, jak używać dostarczonych nar
 
 1.  Utwórz zamkniętą polilinię *(najlepiej za pomocą szkicownika)*,
 2.  Użyj polecenia <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Dodaj ścianę bazową](SheetMetal_AddBase/pl.md), aby utworzyć nowy arkusz blachy.
+
+
+
+#### Rozpoczęcie na podstawie kształtu bazowego 
+
+1.  Użyj narzędzia <img alt="" src=images/SheetMetal_BaseShape.svg  style="width:16px;"> [Dodaj kształt bazowy](SheetMetal_BaseShape/pl.md), aby dodać podstawowy obiekt blachy z parametrów *(wprowadzone w wersji 0.3.10)*.
 
 
 
@@ -159,9 +168,13 @@ Zawiera również kilka wskazówek dotyczących [własności](SheetMetal_Example
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:800px">
 
+
+
 ### Arkusz blachy poradnik według meme2704 
 
 Poniższy poradnik został zaczerpnięty z poradnika PDF wspomnianego w sekcji [Odnośniki internetowe](#Odno.C5.9Bniki_internetowe.md).
+
+Następujący poradnik jest odtworzony z poradnika PDF wspomnianego w sekcji [Odnośniki_internetowe](#Links/pl.md).
 
 
 <div class="mw-collapsible-content">
@@ -200,7 +213,6 @@ Teraz musimy rozdzielić te 2 krawędzie, w przeciwnym razie połączą się i r
 \* Metoda pierwsza: zrobić 1 wycofanie 1 krawędzi.
 
 -   -   Podaj 1 wartość nieco większa niż szczelina1 *(lub szczelina2)*, przy zerze jest jeszcze połączenie.
-
 -   Metoda druga: zrobić 1 cięcie pod kątem 45 ° patrz dalej, użyj tego narzędzia.
 
 ![](images/sm5a.png ) 

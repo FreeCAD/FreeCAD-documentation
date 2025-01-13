@@ -1,16 +1,16 @@
 ---
- GuiCommand:   Name: Part SliceApart
-   Name/it: Affetta in parti
-   MenuLocation: Part , Dividi , Affetta in parti
+ GuiCommand:
+   Name: Part SliceApart
+   Name/it: Part Affetta in parti
+   MenuLocation: Parte , Dividi , Affetta in parti
    Workbenches: Part_Workbench/it
-   Version: 0.18.15506
-   SeeAlso: Part Slice/it, Part_ExplodeCompound/it
+   Version: 0.18
+   SeeAlso: Part_Slice/it, Part_ExplodeCompound/it
 ---
 
 # Part SliceApart/it
 
 
-</div>
 
 ## Descrizione
 
@@ -18,9 +18,9 @@ Strumento per dividere le forme per intersezione con altre forme. Ad esempio, pe
 
 
 
-* Nella figura sopra, i pezzi sono stati separati manualmente dopo l'operazione, per rendere visibili le singole parti.*
+* Nella figura sopraː i pezzi sono stati separati manualmente dopo l'operazione, per rendere visibili le singole parti.*
 
-[Affetta in parti](Part_SliceApart/it.md) è uguale a <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Affetta in composto](Part_Slice/it.md) seguito da <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Esplodi composto](Part_ExplodeCompound/it.md). Mentre \"Affetta in composto\" è completamente parametrico e non crea problemi mentre il numero di pezzi cambia, \"Affetta in parti\" non aggiorna il numero di oggetti quando il numero di pezzi cambia. Entrambi creano la funzione parametrica Slice, che mette i pezzi tagliati in un composto, ma \"Affetta in parti\" esplode il composto risultante in oggetti separati.
+[Affetta in parti](Part_SliceApart/it.md) è uguale a <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Affetta in composto](Part_Slice/it.md) seguito da <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Esplodi composto](Part_ExplodeCompound/it.md). Mentre \"Affetta in composto\" è completamente parametrico e non crea problemi se il numero di pezzi cambia, \"Affetta in parti\" non aggiorna il numero di oggetti quando il numero di pezzi cambia. Entrambi creano la funzione parametrica Slice, che mette i pezzi tagliati in un composto, ma \"Affetta in parti\" esplode il composto risultante in oggetti separati.
 
 Le forme di uscita occupano lo stesso spazio dell\'originale. Ma sono divise dove si intersecano con altre forme. I pezzi divisi sono pezzi individuali.
 
@@ -34,9 +34,13 @@ Vengono create le fette e per ogni fetta viene creato un [CompoundFilter](Part_C
 
 ![](images/Part_SliceApartTree.png )
 
+
+
 ## Esempio
 
 -   Creare un puzzle: vedere i passaggi da 1 a 6 dell\'esempio [Affetta in composto](Part_Slice/it.md).
+
+
 
 ## Script
 
@@ -61,6 +65,8 @@ j.Tools = FreeCADGui.Selection.getSelection()[1:]
 
 Lo strumento è implementato in Python, vedere see **/Mod/Part/BOPTools/SplitFeatures.py** ([GitHub link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/SplitFeatures.py)) nella directory di installazione di FreeCAD.
 
+
+
 ## Note
 
 Affetta in parti è stato introdotto in FreeCAD v0.18.15506. FreeCAD deve essere compilato con OCC 6.9.0 o successivo; in caso contrario, lo strumento non è disponibile.
@@ -70,15 +76,6 @@ Affetta in parti è stato introdotto in FreeCAD v0.18.15506. FreeCAD deve essere
 -   <https://www.youtube.com/watch?v=tzHkQaHgrfQ> : FreeCad 0.18 PART WB using SLICE and SLICE APART (English language), author: Ha Gei
 
 -   <https://www.youtube.com/watch?v=JJAL5JmqqKQ> : FreeCAD Slice und Slice Apart und andere Tricks (German lanuage), author: Ha Gei
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

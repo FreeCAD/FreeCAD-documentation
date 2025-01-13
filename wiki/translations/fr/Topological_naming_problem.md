@@ -9,9 +9,9 @@ Le **problème de dénomination topologique** dans FreeCAD fait référence au c
 -   Dans <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md), si une entité est prise en charge sur une face (ou une arête ou un sommet), elle peut se rompre si le solide sous-jacent change de taille ou d\'orientation, car la face d\'origine (ou l\'arête ou le sommet) peut être renommé de manière interne.
 -   Dans <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/fr.md), si une dimension mesure la longueur d\'un bord projeté, elle risque de se briser si le modèle 3D est modifié, car les sommets peuvent être renommés, modifiant ainsi le bord mesuré.
 
-Le problème de la dénomination topologique est un problème complexe en modélisation CAO qui découle de la façon dont les routines internes FreeCAD traitent les mises à jour des formes géométriques créées avec le [noyau OCCT](OpenCASCADE/fr.md). Depuis FreeCAD 0.19, des efforts sont en cours pour améliorer la gestion des formes afin de réduire ou d'éliminer ces problèmes.
+Le problème de la dénomination topologique est un problème complexe en modélisation CAO qui découle de la façon dont les routines internes FreeCAD traitent les mises à jour des formes géométriques créées avec le [noyau OCCT](OpenCASCADE/fr.md). Ce problème n\'est pas propre à FreeCAD. Il est généralement présent dans les logiciels de CAO, mais la plupart des autres logiciels de CAO disposent d\'une heuristique permettant de réduire l\'impact du problème sur les utilisateurs.
 
--   Fil du forum : [Topological Naming, My Take (Dénomination topologique, mon point de vue)](https://forum.freecadweb.org/viewtopic.php?t=27278)
+Depuis FreeCAD 0.19, des efforts de développement sont en cours pour améliorer la gestion des formes en ajoutant des techniques heuristiques qui réduisent l\'impact de ces problèmes. L\'[algorithme de nommage](#Algorithme_de_nommage_topologique.md) est conçu pour réduire l\'effort manuel, parfois en corrigeant automatiquement les problèmes, d\'autres fois en présentant une solution probable, et sinon en montrant au moins clairement ce qui a causé le problème. La première version stable de FreeCAD à utiliser ce nouvel algorithme de nommage est la version 1.0. Au fil du temps, cet algorithme sera appliqué à d\'autres parties de FreeCAD, et d\'autres réparations automatiques et assistées seront ajoutées dans les versions ultérieures.
 
 Le problème de dénomination topologique affecte et trouble le plus souvent les nouveaux utilisateurs de FreeCAD. Dans PartDesign, il est conseillé à l\'utilisateur de suivre les meilleures pratiques décrites dans la page [Édition de fonctions](feature_editing/fr.md). L\'utilisation d\'objets de référence pris en charge, tels que les [plans](PartDesign_Plane/fr.md) et les [systèmes de coordonnées locaux](PartDesign_CoordinateSystem/fr.md), est fortement recommandée pour produire des modèles qui ne sont pas facilement sujets à de telles erreurs topologiques. Dans TechDraw, il est conseillé à l\'utilisateur d\'ajouter des cotes uniquement lorsque le modèle 3D est terminé et ne sera plus modifié.
 
@@ -73,9 +73,9 @@ Le retraçage d\'une esquisse de cette manière peut être effectué chaque fois
 
 Le [graphe des dépendances](Std_DependencyGraph/fr.md) est un outil utile pour observer les relations entre les différents corps du document. L\'utilisation du flux de travail de modélisation d\'origine révèle la relation directe qui existe entre les esquisses et les protusions. Comme une chaîne, il est facile de voir que cette dépendance directe sera sujette à des problèmes de dénomination topologique si l\'un des liens de la séquence change.
 
-Comme expliqué sur la page d\'[édition de fonctions](Feature_editing/fr.md), une solution à ce problème consiste à prendre en charge les esquisses non pas sur des faces mais sur des plans de référence qui sont rattachés aux plans principaux de l\'origine des [PartDesign Corps](PartDesign_Body/fr.md) et décalés par rapport à ceux-ci.
+Comme expliqué sur la page d\'[édition de fonctions](Feature_editing/fr.md), une solution à ce problème consiste à prendre en charge les esquisses non pas sur les faces, mais sur les plans principaux de l\'origine du [PartDesign Corps](PartDesign_Body/fr.md) ou sur les plans de référence attachés à ces plans principaux. L\'utilisation de plans de référence pour prendre en charge une seule esquisse, comme décrit ci-dessous, n\'est en fait pas nécessaire car l\'esquisse elle-même peut être directement attachée à un plan principal et dispose des mêmes options de décalage qu\'un plan de référence. Toutefois, l\'utilisation de plans de référence peut s\'avérer utile pour le positionnement de plusieurs esquisses.
 
-1\. Sélectionnez l\'origine du [PartDesign Corps](PartDesign_Body/fr.md) et assurez-vous qu\'il est visible. Sélectionnez ensuite le plan XY et cliquez sur [PartDesign Plan de référence](PartDesign_Plane/fr.md). Dans la boîte de dialogue Décalage, attribuez-lui un décalage dans la direction Z afin que le plan de référence soit coplanaire avec la face supérieure du premier bloc.
+1\. Sélectionnez l\'origine du [PartDesign Corps](PartDesign_Body/fr.md) et assurez-vous qu\'il est visible. Sélectionnez ensuite le plan XY et cliquez sur [PartDesign Plan de référence](PartDesign_Plane/fr.md). Dans la fenêtre de dialogue Décalage, attribuez-lui un décalage dans la direction Z afin que le plan de référence soit coplanaire avec la face supérieure du premier bloc.
 
 2\. Répétez l\'opération en ajoutant cette fois un décalage plus important afin que le deuxième plan de référence soit coplanaire avec la face supérieure du second bloc.
 
@@ -104,7 +104,7 @@ Comme expliqué sur la page d\'[édition de fonctions](Feature_editing/fr.md), u
 
 
 
-## Remarques finales 
+## Compromis
 
 Ajouter des objets de référence demande plus de travail à l\'utilisateur, mais produit finalement des modèles plus stables et moins sujets au problème de dénomination topologique.
 
@@ -116,6 +116,18 @@ Les objets de référence, [points](PartDesign_Point/fr.md), [lignes](PartDesign
 
 
 
+## Algorithme de nommage topologique 
+
+L\'algorithme de nommage topologique de Realthunder, décrit dans le fil de discussion [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278), qui a été choisi pour réduire l\'impact de ce problème, a été largement décrit comme « réglant le problème du nommage topologique ». Cela a involontairement induit de nombreux utilisateurs en erreur en leur faisant croire qu\'il ne serait plus utile d\'utiliser des techniques telles que les référentiels, le placement explicite d\'esquisses et la [modification de fonctions](Feature_editing/fr#Conseils_pour_la_création_de_modèles_robustes.md) pour rendre les modèles plus stables. L\'algorithme n\'a pas pour but de résoudre tous les problèmes liés à l\'ambiguïté des noms topologiques. Il a plutôt trois objectifs.
+
+1.  L\'objectif premier et le plus important est, dans la mesure du possible, d\'« identifier » les références cassées par des changements topologiques et d\'afficher une erreur à l\'utilisateur. Au lieu d\'avoir à parcourir une série d\'opérations pour trouver la première opération qui diverge de l\'intention de conception, l\'opération qui change les noms sera normalement signalée par une erreur, ce qui rendra beaucoup plus facile la correction manuelle des problèmes de modèle introduits par des changements d\'opérations ou de paramètres.
+2.  Parfois, FreeCAD sera capable d\'identifier une correction **probable** pour une référence cassée, de sorte que lorsque l\'utilisateur répare manuellement la référence brisée signalée, un candidat lui sera présenté pour qu\'il l\'accepte ou la modifie. Un exemple courant est celui des opérations d\'habillage telles que les congés et les chanfreins, pour lesquelles l\'utilisateur peut être amené à éditer l\'opération et à accepter la sélection d\'éléments de remplacement proposée ou à la modifier pour la corriger.
+3.  Dans certains cas, FreeCAD sera capable de résoudre **automatiquement** la référence cassée, parce que suffisamment d\'informations sur la référence sont stockées pour avoir une grande confiance dans le fait que le remplacement est correct. Par exemple, lorsque l\'on dessine directement sur une face, l\'algorithme répare souvent (mais pas toujours) correctement la référence à la face lorsque la géométrie sous-jacente est modifiée de manière paramétrique. (Lorsque l\'on modifie la structure, par exemple en ajoutant ou en supprimant des opérations au milieu d\'un corps de conception de pièce, ce type de réparation automatique est moins probable). Cependant, FreeCAD ne le fera qu\'avec une grande confiance dans l\'exactitude de la réparation, parce qu\'une réparation automatique incorrecte peut réintroduire le problème d\'avoir à chercher où un problème a été introduit afin de réparer un modèle après une modification. *D\'abord, ne pas nuire*.
+
+Dans FreeCAD 1.0, l\'implémentation de cet algorithme dans la version officielle de FreeCAD a atteint la parité avec le fork « Linkstage 3 » de Realthunder, où il a développé l\'algorithme à l\'origine, au moment où le travail d\'intégration a commencé. Il y a de nouvelles fonctionnalités de FreeCAD qui pourraient utiliser l\'algorithme mais ne le font pas encore, et il y aura toujours d\'autres opportunités d\'ajouter des corrections candidates et des réparations automatiques. Le travail initial a fourni un « cadre » à utiliser pour ces améliorations supplémentaires au fil du temps, à la fois dans le noyau de FreeCAD et dans les modules complémentaires.
+
+
+
 ## Liens
 
 -   [PartDesign Congé - Nom topologique](PartDesign_Fillet/fr#D.C3.A9nomination_topologique.md)
@@ -123,6 +135,7 @@ Les objets de référence, [points](PartDesign_Point/fr.md), [lignes](PartDesign
 -   [Topological Naming Project](Topological_Naming_Project.md) : idée pour résoudre le problème, par ickby.
 -   [Script pour création topologique](Topological_data_scripting/fr.md)
 -   [Édition de fonctions](Feature_editing/fr.md) : contient des conseils complémentaires sur les techniques de modélisation stables.
+-   [Clarification et extension de la documentation sur le « problème de dénomination topologique »](https://forum.freecad.org/viewtopic.php?p=770360) : clarification des attentes concernant l\'algorithme de dénomination topologique de Realthunder sélectionné pour FreeCAD 1.0.
 
 
 

@@ -1,187 +1,246 @@
 ---
  GuiCommand:
    Name: Arch Window
-   MenuLocation: Arch , Window
-   Workbenches: Arch_Workbench
+   Name/pl: BIM: Okno
+   MenuLocation: 3D / BIM , Okno
+   Workbenches: BIM_Workbench/pl
    Shortcut: **W** **I**
-   SeeAlso: Arch_Wall, Arch_Add
+   SeeAlso: 
 ---
 
 # Arch Window/pl
 
-## Description
 
-An [Arch Window](Arch_Window.md) is a base object for all kinds of \"embeddable\" objects, such as windows and doors. It is designed to be either independent, or \"hosted\" inside another component such as an [Arch Wall](Arch_Wall.md), [Arch Structure](Arch_Structure.md), or [Arch Roof](Arch_Roof.md). It has its own geometry, that can be made of several solid components (commonly a frame and inner panels), and also defines a volume to be subtracted from the host objects, in order to create an opening.
 
-Window objects are based on closed 2D objects, such as [Draft Rectangles](Draft_Rectangle.md) or [Sketches](Sketcher_Workbench.md), that are used to define their inner components. The base 2D object must therefore contain several closed wires, that can be combined to form filled panels (one wire) or frames (several wires).
+## Opis
 
-The Window tool features several **presets**; this allows the user to create common types of windows and doors with certain editable parameters, without the need for the user to create the base 2D objects and components manually.
+Narzędzie **Okno** tworzy obiekt bazowy dla wszelkiego rodzaju \"osadzalnych\" obiektów, takich jak okna i drzwi. Okno środowiska Architektura może być niezależne lub \"umieszczone\" wewnątrz innego elementu, takiego jak [Ściana](Arch_Wall/pl.md), [Konstrukcja](Arch_Structure/pl.md) lub [Dach](Arch_Roof/pl.md). Ma własną geometrię, która może być wykonana z kilku stałych elementów *(zwykle rama i panele wewnętrzne)*, a także definiuje objętość, która ma zostać odjęta od obiektów nadrzędnych w celu utworzenia otworu.
 
-All information applicable to an [Arch Window](Arch_Window.md) also applies to an [Arch Door](Arch_Door.md), as it\'s the same underlying object. The main difference between a Window and a Door is that the Door has an internal panel that is shown opaque (the door itself), while the Window has a panel that is partially transparent (the glass).
+Obiekty okien są oparte na zamkniętych obiektach 2D, takich jak [prostokąt](Draft_Rectangle/pl.md) środowiska Rysunek Roboczy lub [szkicach](Sketcher_Workbench/pl.md) środowiska Szkicownik, które są używane do definiowania ich wewnętrznych komponentów. Podstawowy obiekt 2D musi zatem zawierać kilka zamkniętych polilinii, które można łączyć w celu utworzenia wypełnionych paneli *(jedna polilinia)* lub ramek *(kilka polilinii)*.
 
-<img alt="" src=images/Arch_Window_example.jpg  style="width:600px;"> 
-*Window constructed on top of a [Draft Rectangle](Draft_Rectangle.md), then inserted into an [Arch Wall](Arch_Wall.md). Using the [Arch Add](Arch_Add.md) operation automatically cuts a correct opening in the host wall.*
+Narzędzie Okno zawiera kilka [nastaw wstępnych](#Nastawy_wstępne.md). Pozwalają one użytkownikowi na tworzenie popularnych typów okien i drzwi z pewnymi edytowalnymi parametrami, bez konieczności ręcznego tworzenia podstawowych obiektów 2D i komponentów.
+
+Wszystkie informacje dotyczące okna mają również zastosowanie do [drzwi](Arch_Door/pl.md), ponieważ jest to ten sam obiekt.
 
 <img alt="" src=images/Arch_Window_example2.jpg  style="width:600px;"> 
-*Complex window being constructed on top of a [Sketch](Sketcher_Workbench.md). When entering the window's edit mode you can create different components, set their thickness, and select and assign wires from the sketch to them.*
+*Złożone okno konstruowane na [Szkicu](Sketcher_Workbench/pl.md). Wchodząc w tryb edycji okna możesz tworzyć różne komponenty, ustawiać ich grubość, a także wybierać i przypisywać do nich polilinie ze szkicu.*
 
-## Usage
 
-### Using a preset 
 
-1.  Press the **<img src="images/Arch_Window.svg" width=16px> [Arch Window](Arch_Window.md)** button, or press **W** then **I** keys.
-2.  Select one of the presets in the list.
-3.  Fill out the desired parameters.
-4.  In the [3D view](3D_view.md), move the window to the location where you wish to place it. If you move the pointer over an [Arch Wall](Arch_Wall.md), the outline of the window should align itself with the face of that object.
-5.  Click on the [3D view](3D_view.md) with the mouse, or press the **Enter** key three times to confirm the X, Y, Z coordinates of the placement.
+## Użycie
 
-#### Additional presets 
 
-If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon Manager](Std_AddonMgr.md), the window tool will search this library for additional presets. These presets are FreeCAD files containing a single window based on a parametric sketch that has named constrains. You may place additional presets in the **parts_library** directory so that they are found by the window tool.
+
+### Korzystanie z ustawień wstępnych 
+
+Jest kilka sposobów na wywołanie tego polecenia:
+
+#\* Wciśnij przycisk **<img src="images/Arch_Window.svg" width=16px> [Okno](Arch_Window/pl.md)**.
+
+#\* Wybierz opcję **3D/BIM → <img src="images/Arch_Window.svg" width=16px> Okno** z menu.
+
+#\* Użyj skrótu klawiszowego: **W** a następnie **I**.
+
+1.  Wybierz jeden z predefiniowanych szablonów z listy.
+2.  Wypełnij wymagane parametry.
+3.  W [widoku 3D](3D_view/pl.md), przesuń obiekt okna w miejsce, gdzie chcesz je umieścić. Jeśli najedziesz kursorem na [ścianę](Arch_Wall/pl.md), zarys okna powinien dostosować się do tej ściany.
+4.  Kliknij w oknie [widoku 3D](3D_view/pl.md) myszką, lub naciśnij klawisz **Enter** trzy razy, aby potwierdzić współrzędne X, Y, Z umieszczenia.
+
+
+
+#### Nastawy dodatkowe 
+
+Jeśli zainstalujesz [Parts Library](Parts_Library_Workbench/pl.md) z [Menadżera dodatków](Std_AddonMgr/pl.md), narzędzie okna przeszuka tę bibliotekę w poszukiwaniu dodatkowych ustawień wstępnych. Te ustawienia wstępne to pliki FreeCAD zawierające pojedyncze okno oparte na szkicu parametrycznym z nazwanymi ograniczeniami. Możesz umieścić dodatkowe ustawienia wstępne w katalogu **parts_library**, aby zostały znalezione przez narzędzie do okien.
 
 
 **$ROOT_DIR/Mod/parts_library/Architectural Parts/Doors/Custom/**
 
 **$ROOT_DIR/Mod/parts_library/Architectural Parts/Windows/Custom/**
 
--   The **$ROOT_DIR** is the user directory where FreeCAD configuration files, macros, and external workbenches are stored. It can be found be entering `FreeCAD.getUserAppDataDir()` in the [Python console](Python_console.md).
-    -   On Linux it is usually **/home/username/.local/share/FreeCAD/** (<small>(v0.20)</small> ) or **/home/username/.FreeCAD/** ({{VersionMinus|0.19}})
-    -   On Windows it is usually **C:\Users\username\Application Data\FreeCAD\**
-    -   On Mac OSX it is usually **/Users/username/Library/Preferences/FreeCAD/**
--   The subdirectory name **Custom** is just a suggestion, any name can be used. But the files must be placed in one or more subdirectories inside the **Doors** or **Windows** directories.
+-   Zmienna **$ROOT_DIR** to katalog użytkownika, w którym przechowywane są pliki konfiguracyjne FreeCAD, makra oraz zewnętrzne środowiska pracy. Można go znaleźć, wpisując `FreeCAD.getUserAppDataDir()` w [konsoli Python](Python_console/pl.md).
 
-### Creating from scratch 
+  ** Na systemach Linux zazwyczaj znajduje się w **/home/username/.local/share/FreeCAD/** ({{VersionPlus/pl|0.20}}) lub **/home/username/.FreeCAD/** ({{VersionMinus/pl|0.19}})
+  ** Na systemach Windows zazwyczaj znajduje się w **C:\Users\username\Application Data\FreeCAD/**
+  ** Na systemach Mac OSX zazwyczaj znajduje się w **/Users/username/Library/Preferences/FreeCAD/**
 
-1.  Optionally, select a face on the Arch object where you want the window to be included.
-2.  Switch to the [Sketcher Workbench](Sketcher_Workbench.md).
-3.  Create a new sketch.
-4.  Draw one or more closed wires (loops). Pay close attention to the creation order of these loops, the numbering of the \"wires\" in the [task panel](task_panel.md) (\"Window elements\") depends on this.
-5.  Close the sketch.
-6.  Switch back to the [Arch Workbench](Arch_Workbench.md).
-7.  Press the **<img src="images/Arch_Window.svg" width=16px> [Arch Window](Arch_Window.md)** button, or press **W** then **I** keys.
-8.  To adjust the window components and various properties, enter the window [task panel](task_panel.md) by double-clicking on the created object in the [tree view](tree_view.md).
-9.  Note that since components following a hinged component will also hinge, all fixed components must be created first.
+-   Nazwa podkatalogu **Custom** to jedynie sugestia, można użyć dowolnej nazwy. Jednak pliki muszą być umieszczone w jednym lub więcej podkatalogach wewnątrz katalogów **Doors** lub **Windows**.
 
-## Presets
 
-The following presets are available:
 
-Image:ParametersWindowFixed.svg\|Fixed Image:ParametersWindowSimple.svg\|Open 1-pane Image:ParametersWindowDouble.svg\|Open 2-pane Image:ParametersWindowStash.svg\|Sash 2-pane Image:ParametersWindowDouble.svg\|Sliding 2-pane Image:ParametersDoorSimple.svg\|Simple door Image:ParametersDoorGlass.svg\|Glass door Image:ParametersWindowDouble.svg\|Sliding 4-pane Image:ParametersWindowSimple.svg\|Awning
+### Tworzenie okna użytkownika 
 
-## Building components 
+1.  Opcjonalnie, wybierz powierzchnię na obiekcie Architektury, gdzie chcesz umieścić okno.
+2.  Przełącz się do środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md).
+3.  Utwórz nowy szkic.
+4.  Narysuj jedną lub więcej zamkniętych polilinii *(pętli)*. Zwróć szczególną uwagę na kolejność tworzenia tych pętli, od tego zależy numeracja polilinii w [panelu zadań](Task_panel/pl.md) *(\"Elementy okna\")*.
+5.  Zamknij szkic.
+6.  Wróć do środowiska pracy [BIM](BIM_Workbench/pl.md).
+7.  Kliknij przycisk **<img src="images/Arch_Window.svg" width=16px> [Okno](Arch_Window/pl.md)**, lub wciśnij klawisze **W** a następnie **I**.
+8.  Aby dostosować składniki okna oraz różne właściwości, przejdź do panelu zadań dla okna, klikając dwukrotnie na utworzony obiekt w [widoku drzewa](Tree_view/pl.md).
+9.  Należy pamiętać, że ponieważ komponenty następujące po komponencie zawiasowym również będą miały zawiasy, wszystkie komponenty stałe, takie jak ramy zewnętrzne i nieruchome panele szklane, muszą zostać zdefiniowane przed komponentami zawiasowymi. Panel szklany w ramie zawiasowej należy zdefiniować za tą ramą i przed innymi elementami zawiasowymi.
 
-Windows can include 4 types of components: frames, solid panels, glass panels and louvres. Panels and louvres are made from one closed wire, which gets extruded, while frames are made from 2 or more closed wire, where each one is extruded, then the smaller ones are subtracted from the biggest one. You can access, create, modify and delete components of a window in edit mode (double-click the window in the Tree view). The components have the following properties:
 
--   **Name**: A name for the component
--   **Type**: The type of component. Can be \"Frame\", \"Glass panel\", \"Solid panel\" or \"Louvres\"
--   **Wires**: A comma-separated list of wires the component is based on
--   **Thickness**: The extrusion thickness of the component
--   **Z Offset**: The distance between the component and its base 2D wire(s)
--   **Hinge**: This allows you to select an edge from the base 2D object, then set that edge as a hinge for this component and the next ones in the list
--   **Opening mode**: If you defined a hinge in this component or any other earlier in the list, setting the opening mode will allow the window to appear open or to display 2D opening symbols in plan or elevation.
+
+## Nastawy wstępne 
+
+Dostępne są następujące ustawienia wstępne:
+
+Image:ParametersWindowFixed.svg\|Stałe Image:ParametersWindowSimple.svg\|Otwarta 1 szyba Image:ParametersWindowDouble.svg\|Otwarta 2 szyby Image:ParametersWindowStash.svg\|Skrzydło 2-szybowe Image:ParametersWindowDouble.svg\|Przesuwne 2-szybowe Image:ParametersDoorSimple.svg\|Proste drzwi Image:ParametersDoorGlass.svg\|Drzwi szklane Image:ParametersWindowDouble.svg\|Przesuwne 4-szybowe Image:ParametersWindowSimple.svg\|Markiza Image:ParametersOpening.svg\|Tylko otwieranie {{Version/pl|1.0}}
+
+
+
+## Komponenty budynku 
+
+Okna mogą składać się z 4 rodzajów elementów: ram, paneli pełnych, paneli szklanych i żaluzji. Panele i żaluzje są wykonane z jednej zamkniętej polilinii, która jest wytłaczana, podczas gdy ramy są wykonane z 2 lub więcej zamkniętych żył, z których każda jest wytłaczana, a następnie mniejsze są odejmowane od największej. Komponenty okna można tworzyć, modyfikować i usuwać w trybie edycji *(klikając dwukrotnie okno w widoku drzewa)*. Komponenty mają następujące właściwości:
+
+-   **Nazwa**: Nazwa komponentu.
+-   **Typ**: Typ komponentu. Może być \"Rama\", \"Panel szklany\", \"Panel stały\" lub \"Żaluzje\".
+-   **Polilinie**: Lista drutów, na których opiera się komponent, oddzielona przecinkami.
+-   **Grubość**: Grubość wyciągnięcia komponentu.
+-   **Przesunięcie Z**: Odległość między komponentem a jego bazowymi poliliniami 2D.
+-   **Zawias**: Pozwala na wybór krawędzi z podstawowego obiektu 2D, a następnie ustawienie tej krawędzi jako zawiasu dla tego komponentu i kolejnych na liście.
+-   **Tryb otwierania**: Jeśli zdefiniowano zawias w tym komponencie lub którymkolwiek wcześniej na liście, ustawienie trybu otwierania spowoduje, że okno będzie wyglądać na otwarte lub będzie wyświetlać symbole otwarcia w planie lub elewacji.
 
 <img alt="" src=images/Arch_Window_options.jpg  style="width:600px;">
 
-## Options
 
--   Windows share the common properties and behaviours of all [Arch Components](Arch_Component.md)
--   If the **Auto-include** checkbox on the Window creation task panel is unchecked, the window won\'t be inserted into any host object on creation.
--   Add a selected window to a [wall](Arch_Wall.md) by selecting both, then pressing the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** button.
--   Remove a selected window from a [wall](Arch_Wall.md) by selecting the window, then pressing the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** button.
--   When using presets, it is often convenient to turn the \"Near\" [Draft Snap](Draft_Snap.md) on, so you can snap your window to an existing face.
--   The hole created by a window in its host object is determined by two properties: **Hole Depth** and **Hole Wire** (<small>(v0.17)</small> ). The Hole Wire number can be picked in the 3D view from the window\'s task panel available when double-clicking the window in the tree view
--   Windows can make use of [Multi-Materials](Arch_MultiMaterial.md). The window will search in the attached Multi-Material for material layers with a same name for each of its window component, and use it if any is found. For example, a component named \"OuterFrame\" will search in the attached Multi-Material, for a material layer named \"OuterFrame\". If such material layer is found, its material will be attributed to the OuterFrame component. The thickness value of the material layer is disregarded.
 
-## Openings
+## Opcje
+
+-   Okna dzielą wspólne właściwości i zachowania wszystkich [komponentów](Arch_Component/pl.md).
+-   Jeśli pole wyboru **Automatyczne dołączanie do obiektu nadrzędnego** na panelu tworzenia okna jest odznaczone, okno nie zostanie wstawione do żadnego obiektu nadrzędnego podczas tworzenia.
+-   Dodaj wybrane okno do [ściany](Arch_Wall/pl.md) przez zaznaczenie obu, a następnie naciśnięcie przycisku **<img src="images/Arch_Add.svg" width=16px> [Połącz obiekty](Arch_Add/pl.md)**.
+-   Usuń wybrane okno ze [ściany](Arch_Wall/pl.md) poprzez zaznaczenie okna, a następnie naciśnięcie przycisku **<img src="images/Arch_Remove.svg" width=16px> [Usuń komponent](Arch_Remove/pl.md)**.
+-   Podczas korzystania z predefiniowanych ustawień często wygodnie jest włączyć [przyciąganie](Draft_Snap/pl.md) \"Do najbliższego\" , aby można było przyciągnąć okno do istniejącej powierzchni.
+-   Otwór stworzony przez okno w jego obiekcie hosta jest określany przez dwie właściwości: **Głębokość otworu** i **Polilinia otworu** *({{Version/pl|0.17}})*. Numer Polilinii otworu można wybrać w widoku 3D z panelu zadań okna dostępnego po podwójnym kliknięciu okna w widoku drzewa.
+-   Okna mogą korzystać z [Multi-materiałów](Arch_MultiMaterial/pl.md). Okno będzie wyszukiwać w załączonym Multi-materiałze warstwy materiałów o tej samej nazwie dla każdego z jego komponentów okna i używać jej, jeśli taka zostanie znaleziona. Na przykład komponent o nazwie \"OuterFrame\" będzie szukał w załączonym Multi-materiale warstwy materiałów o nazwie \"OuterFrame\". Jeśli taka warstwa materiałów zostanie znaleziona, jej materiał zostanie przypisany do komponentu OuterFrame. Wartość grubości warstwy materiałowej jest ignorowana.
+
+
+
+## Otwieranie
 
 
 **See also:**
 
-[Tutorial for open windows](Tutorial_for_open_windows.md)
+[Poradnik dla otwartych okien](Tutorial_for_open_windows/pl.md)
 
-Doors and windows can appear partially or fully open in the 3D model, or can display opening symbols both in plan and/or elevation. Consequently, these will also appear in extracted 2D views generated by [Draft Shape2DView](Draft_Shape2DView.md) or [TechDraw Workbench](TechDraw_Workbench.md). To obtain this, at least one of the window components must have a hinge and an opening mode defined (see the [Building components](#Building_components.md) above). Then, using the **Opening**, **Symbol Plan** or **Symbol Elevation** properties, you can configure the appearance of the window:
+Drzwi i okna mogą być częściowo lub całkowicie otwarte w modelu 3D lub mogą wyświetlać symbole otwarcia zarówno na planie, jak i / lub elewacji. W rezultacie będą one również widoczne w wyodrębnionych widokach 2D generowanych przez narzędzie [Widok 2D kształtu](Draft_Shape2DView/pl.md) środowiska Rysunek roboczy lub środowisko [Rysunek Techniczny](TechDraw_Workbench/pl.md). Aby to uzyskać, przynajmniej jeden komponent drzwi musi mieć zawias i zdefiniowany tryb otwarcia *(patrz [Komponenty budynku](#Komponenty_budynku.md) powyżej)*. Następnie, korzystając z właściwości **Otwieranie**, **Symbol planu** lub **Symbol Elewacji**, można skonfigurować wygląd okna:
 
 <img alt="" src=images/Arch_window_openings.png  style="width:600px;"> 
-*A door showing the symbol plan, symbol elevation and opening properties at work*
+*Drzwi pokazujące plan symbolu, elewację symbolu i właściwości otwierania podczas pracy.*
 
-## Defining window types 
 
-Windows can also take advantage of other tools, specifically [PartDesign](PartDesign_Workbench.md) workflows, to define a type. A type is an object that defines the shape of the window. This is specially well suited to work with [App Parts](App_Part.md):
+
+## Definiowanie typów okien 
+
+Okna mogą również wykorzystywać inne narzędzia, w szczególności przepływy pracy środowiska [Projekt Części](PartDesign_Workbench/pl.md), do definiowania typu. Typ jest obiektem, który definiuje kształt okna. Jest to szczególnie przydatne do pracy z [App: Część](App_Part/pl.md):
 
 <img alt="" src=images/Arch_window_type_example.png  style="width:800px;">
 
-[Download the example file shown above](https://github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
-
-### Example workflow 
-
--   Create a window frame object, a glass panel, and any other window component you need, using [Part Workbench](Part.md) or [PartDesign](PartDesign_Workbench.md) tools.
--   For example, create a base rectangular sketch for your window, then a profile sketch for the frame, and create a [Part Sweep](Part_Sweep.md) to sweep the profile around the base sketch. Create a [Part Offset2D](Part_Offset2D.md) from the base sketch, then a [Part Extrude](Part_Extrude.md) to create the glass panel
--   Make sure all these pieces have a unique, meaningful name (for example, \"Frame\" or \"Glass Panel\")
--   Create an [App Part](App_Part.md), and place all your subcomponents in it
--   Create a volume to be subtracted from the wall, for example by extruding the base sketch. Add this volume to the App Part. Make sure the volume is turned off
--   If using FreeCAD version 0.19 or later, you can add 3 properties to your App Part, by right-clicking its properties view, and check \"Show All\". Add the following properties (all of them are optional, the group doesn\'t matter):
-    -   **Height** as a PropertyLength and link it, for example, to a vertical constraint of your base sketch
-    -   **Width** as a PropertyLength and link it, for example, to a horizontal constraint of your base sketch
-    -   **Subvolume** as a PropertyLink and link it to the volume to be subtracted that we created above
-    -   **Tag** as a PropertyString
-
-### Materials
-
-Our window type is now ready. We can create window objects from it, simply by selecting the App Part and pressing the window button. The \"Height\", \"Width\", \"Subvolume\" and \"Tag\" properties of the window will be linked to the corresponding property of the App Part, if existing.
-
-To build a material for type-based windows:
-
--   Create a [multi-material](Arch_MultiMaterial.md)
--   Create one entry in the multi-material for each component of your App Part. For example, one \"Frame\", one \"Glass panel\" as we used above. Make sure to use the exact same name.
--   Attribute that multi-material to each of the windows derived from the same type
-
-You can use any other kind of workflow than the one described above, the important points to remember are:
-
--   The type object must be one object, no matter the type (App Part, PartDesign Body, Part Compound, or even another Arch Window)
--   The type object must have a \"Subvolume\" property (linked to the window\'s Subvolume property) for openings in host objects to work
--   The type object must have a \"Group\" property with different children with same names as multi-material items for multi-materials to work
-
-## Properties
-
--    **Height**: The height of this window
-
--    **Width**: The width of this window
-
--    **Hole Depth**: The depth of the hole created by this window in its host object
-
--    **Hole Wire**: The number of the wire from the base object that is used to create a hole in the host object of this window. This value can be set graphically when double-clicking the window in the tree view. Setting a value of 0 will make the window automatically pick its biggest wire for the hole.
-
--    **Window Parts**: A list of strings (5 strings per component, setting the component options above)
-
--    **Louvre Width**: If any of the components is set to \"Louvres\", this property defines the size of the louvre elements
-
--    **Louvre Spacing**: If any of the components is set to \"Louvres\", this property defines the spacing between the louvre elements
-
--    **Opening**: All components that have their opening mode set, and provided a hinge is defined in them or in an earlier component in the list, will appear open by a percentage defined by this value
-
--    **Symbol Plan**: Shows 2D opening symbol in plan
-
--    **Symbol Elevation**: Shows 2D opening symbol in elevation
-
-## Scripting
+[Pobierz przykładowy plik pokazany powyżej](https://github.com/FreeCAD/Examples/raw/master/Arch_Example_Files/Window_Type.FCStd)
 
 
-**See also:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+### Przykład przepływu pracy 
 
-The Window tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+-   Stwórz obiekt ramy okiennej, panel szklany i inne elementy okna, korzystając z narzędzi środowisk [Część](Part/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md).
+-   Na przykład, stwórz prostokątny szkic podstawowy dla okna, następnie szkic profilu dla ramy i utwórz [Wyciągnięcie po ścieżce](Part_Sweep/pl.md), aby wyprofilować profil wokół szkicu podstawowego. Utwórz [Odsunięcie 2D](Part_Offset2D/pl.md) z szkicu podstawowego, a następnie [Wyciągnij](Part_Extrude/pl.md), aby utworzyć panel szklany.
+-   Upewnij się, że wszystkie te elementy mają unikalną, znaczącą nazwę *(na przykład \"Rama\" lub \"Panel szklany\")*.
+-   Stwórz obiekt [App: Część](App_Part/pl.md) i umieść w nim wszystkie swoje komponenty podrzędne.
+-   Utwórz wolumin do odjęcia od ściany, na przykład poprzez wyciągnięcie szkicu podstawowego. Dodaj tę objętość do App Part. Upewnij się, że objętość jest wyłączona.
+-   Jeśli korzystasz z wersji FreeCAD 0.19 lub nowszej, możesz dodać 3 właściwości do swojego obiektu App: Część, klikając prawym przyciskiem myszki w widoku właściwości i zaznaczając \"Pokaż wszystkie\". Dodaj następujące właściwości *(wszystkie są opcjonalne, grupa nie ma znaczenia)*:
+
+ - **Wysokość** jako PropertyLength i połącz ją, na przykład, z pionowym wiązaniem szkicu podstawowego.
+ - **Szerokość** jako PropertyLength i połącz ją, na przykład, z poziomym wiązaniem szkicu podstawowego.
+ - **Objętość podrzędna** jako PropertyLink i połącz go z objętością do odjęcia, którą utworzyliśmy powyżej.
+ - **Tag** jako StringWłaściwości.
+
+Nasz typ okna jest już gotowy. Możemy tworzyć z niego obiekty okien, po prostu wybierając App: Część i naciskając przycisk okna. Właściwości \"Wysokość\", \"Szerokość\", \"Objętość\" i \"Znacznik\" okna zostaną powiązane z odpowiednimi właściwościami App Part, jeśli takie istnieją.
+
+
+
+### Materiały
+
+Aby utworzyć materiał dla okien opartych na typach:
+
+-   Utwórz [materiał złożony](Arch_MultiMaterial/pl.md)
+-   Utwórz jeden wpis w materiał złożony dla każdego komponentu App Część. Na przykład, jeden \"Frame\", jeden \"Glass panel\", jak użyliśmy powyżej. Upewnij się, że używasz dokładnie tej samej nazwy.
+-   Przypisz ten materiał złożony do każdego okna pochodzącego z tego samego typu.
+
+Możesz użyć dowolnego innego rodzaju przepływu pracy niż ten opisany powyżej, ważne punkty do zapamiętania to:
+
+-   Obiekt typu musi być jednym obiektem, bez względu na typ *(App: Część, Zawartość środowiska Projektu Części, Złożenie środowiska Część, a nawet inne okno środowiska Architektura)*
+-   Obiekt typu musi mieć właściwość \"Objętość podrzędna\" *(powiązaną z właściwością Objętość podrzędna okna)*, aby otwory w obiektach nadrzędnych działały.
+-   Obiekt typu musi mieć właściwość \"Grupa\" z różnymi elementami podrzędnymi o takich samych nazwach jak elementy wielomateriałowe, aby działały elementy wielomateriałowe.
+
+
+
+## Właściwości
+
+
+
+### Dane
+
+
+{{TitleProperty|Okno}}
+
+-    **Powierzchnia|Area**: Powierzchnia tego okna.
+
+-    **Rama|Length**: Rozmiar ramy (grubość/głębokość) tego okna.
+
+-    **Wysokość|Length**: Wysokość tego okna.
+
+-    **Głębokość otworu|Length**: Głębokość otworu utworzonego przez to okno w jego obiekcie gospodarzu.
+
+-    **Polilinia otworu|Integer**: Numer polilinii z obiektu bazowego używanego do stworzenia otworu w obiekcie gospodarzu tego okna. Wartość można ustawić graficznie, klikając dwukrotnie okno w widoku drzewa. Ustawienie wartości 0 spowoduje, że okno automatycznie wybierze największą polilinię dla otworu.
+
+-    **Gospodarze|LinkList**: Obiekty (np. ściana), które są gospodarzami tego okna.
+
+-    **Odległość między okiennicami|Length**: Jeśli którykolwiek z komponentów jest ustawiony jako \"Okiennice\", ta właściwość definiuje rozstaw między elementami okiennic.
+
+-    **Szerokość okiennic|Length**: Jeśli którykolwiek z komponentów jest ustawiony jako \"Okiennice\", ta właściwość definiuje rozmiar elementów okiennic.
+
+-    **Normalny|Vector**: Kierunek normalny tego okna, ustawiony (na stałe) przez narzędzie Okno w trybie interaktywnym. Uwaga: Ustawienie na (0,0,0) sprawia, że okno automatycznie dedukuje kierunek normalny, co jest przydatne, gdy użytkownik obraca bazowy szkic okna, np. gdy jego gospodarzem jest obrócona ściana.
+
+-    **Odsunięcie|Length**: Rozmiar odsunięcia (od bazowego szkicu) tego okna.
+
+-    **Otwarcie|Percent**: Wszystkie komponenty, które mają ustawiony tryb otwierania, a w których zdefiniowano zawias (lub w wcześniejszym komponencie na liście), będą otwierane procentowo zgodnie z tą wartością.
+
+-    **Preset|Integer|Hidden**: Numer presetu, na którym bazuje to okno.
+
+-    **Podobjętość|Link**: Opcjonalny obiekt definiujący objętość odejmowaną od gospodarzy tego okna.
+
+-    **Symbol wysokości|Bool**: Wyświetla symbol otwarcia 2D na elewacji.
+
+-    **Symbol planu|Bool**: Wyświetla symbol otwarcia 2D na planie.
+
+-    **Szerokość|Length**: Szerokość tego okna.
+
+-    **Części okna|StringList|Hidden**: Komponenty tego okna (5 ciągów na komponent).
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Okno** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
 
 
 ```python
 Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Window")
 ```
 
--   Creates a `Window` object based on `baseobj`, which should be a well formed, closed [Draft Wire](Draft_Wire.md) or [Sketcher Sketch](Sketcher_Workbench.md).
--   If available, sets the `width`, `height`, and `name` (label) of the Window.
--   If the `baseobj` is not a closed shape, the tool may not create a proper solid figure.
+-   Tworzy obiekt `Okno` na podstawie `baseobj`, który powinien być dobrze uformowaną, zamkniętą [polilinią](Draft_Wire/pl.md) lub [Szkicem](Sketcher_Workbench/pl.md).
+-   Jeśli dostępne, ustawia `szerokość`, `wysokość`, i `nazwa` *(etykietę)* dla Okna.
+-   Jeśli `baseobj` nie jest zamkniętym kształtem, narzędzie może nie utworzyć prawidłowej bryły.
 
-Example: 
+Przykład:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
@@ -190,21 +249,21 @@ Window = Arch.makeWindow(Rect1)
 FreeCAD.ActiveDocument.recompute()
 ```
 
-You can also create a Window from a preset. 
+Okno można również utworzyć z ustawienia wstępnego.
+
+
 ```python
 Window = makeWindowPreset(windowtype, width, height, h1, h2, h3, w1, w2, o1, o2, placement=None)
 ```
 
--   Creates a `Window` object based on `windowtype`, which should be one of the names defined in `Arch.WindowPresets`
-    -   Some of these presets are: `"Fixed"`, `"Open 1-pane"`, `"Open 2-pane"`, `"Sash 2-pane"`, `"Sliding 2-pane"`, `"Simple door"`, `"Glass door"`, `"Sliding 4-pane"`.
+-   Tworzy obiekt `Window` na podstawie `windowtype`, który powinien być jedną z nazw zdefiniowanych w `Arch.WindowPresets`.
+-   Parametry `width` i `height` definiują całkowity rozmiar obiektu, z jednostkami w milimetrach.
+-   Parametry `h1`, `h2`, `h3` *(przesunięcia pionowe)*, `w1`, `w2` *(szerokości)*, `o1` i `o2` *(przesunięcia poziome)* określają różne odległości w milimetrach i zależą od typu tworzonego ustawienia wstępnego.
+-   Jeśli podano `placement`, jest on używany.
 
--    `width`and `height` define the total size of the object, with units in millimeters.
+Przykład:
 
--   The parameters `h1`, `h2`, `h3` (vertical offsets), `w1`, `w2` (widths), `o1`, and `o2` (horizontal offsets) specify different distances in millimeters, and depend on the type of preset being created.
 
--   If a `placement` is given, it is used.
-
-Example: 
 ```python
 import FreeCAD, Arch
 
@@ -220,5 +279,13 @@ Door = Arch.makeWindowPreset("Simple door",
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/pl
+⏵ [documentation index](../README.md) > Arch Window/pl

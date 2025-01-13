@@ -39,5 +39,13 @@ The **Cross-sections** utility creates one or more cross-sections through the se
 
 
 
+
+
+{{Part_Tools_navi
+
+}}
+
+
+
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/en

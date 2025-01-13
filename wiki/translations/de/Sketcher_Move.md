@@ -15,9 +15,12 @@
 
 ## Beschreibung
 
-Verschiebt die ausgewählten Skizzenelemente von einem Punkt zum anderen, wobei der zuletzt ausgewählte Punkt als Referenz verwendet wird.
+Der Befehl <img alt="" src=images/Sketcher_Move.svg  style="width:16px;"> [Sketcher Verschieben](Sketcher_Move/de.md) verschiebt die ausgewählten Skizzenelemente von einem Punkt zum anderen, wobei der zuletzt ausgewählte Punkt als Referenz verwendet wird.
 
-![](images/sketcher_move.png‎ ) 
+![](images/sketcher_move.png‎ )
+
+
+
 *Die Reihenfolge der Klicks wird durch gelbe Pfeile mit Zahlen angezeigt. Ein Element '''A''' auswählen; Es erscheint eine durch zwei rote Linien gekennzeichnete  Vektorlinie, die vom Ausgangspunkt '''A''' zum Mauszeiger mit Positionsnummer '''2''' verläuft. Zieht man den Mauszeiger auf die Zielposition '''3''', wird das Element nun als '''B''' dargestellt und automatisch auf Punkt '''3''' (koinzident) festgelegt.*
 
 

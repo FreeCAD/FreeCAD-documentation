@@ -13,16 +13,19 @@
 
 ## Description
 
-Copie les éléments d'esquisse sélectionnés d'un point à un autre, en utilisant le dernier point sélectionné comme référence. Lorsqu\'une copie est faite, aucun lien n\'est établi entre la copie et l\'original, voir **[<img src=images/Sketcher_Clone.svg style="width:16px"> [Sketcher Cloner](Sketcher_Clone/fr.md)**.
+La commande <img alt="" src=images/Sketcher_Copy.svg  style="width:16px;"> [Sketcher Copier](Sketcher_Copy/fr.md) copie les éléments d\'esquisse sélectionnés d\'un point à un autre, en utilisant le dernier point sélectionné comme référence. Lorsqu\'une copie est faite, aucun lien n\'est établi entre la copie et l\'original, voir **[<img src=images/Sketcher_Clone.svg style="width:16px"> [Sketcher Cloner](Sketcher_Clone/fr.md)**.
 
 
 
 ## Utilisation
 
 1.  Sélectionner un élément de l\'esquisse à copier.
-2.  Cliquer sur **[<img src=images/Sketcher_Copy.svg style="width:16px"> [Copier](Sketcher_Copy/fr.md)** ou choisir **Esquisse → Outils d'esquisse → [<img src=images/Sketcher_Copy.svg style="width:16px"> Copier** du menu.
+2.  Il y a plusieurs façons de lancer la commande :
+    -   Appuyer sur le bouton **<img src="images/Sketcher_Copy.svg" width=16px> [Copier](Sketcher_Copy/fr.md)**.
+    -   Sélectionner l\'option **Esquisse → Outils d'esquisse → <img src="images/Sketcher_Copy.svg" width=16px> Copier** du menu.
+    -   Raccourci clavier : **Z** puis **C**.
 3.  Déplacer la souris dans la [vue 3D](3D_view/fr.md) à l\'emplacement souhaité pour la copie.En maintenant **Maj** enfoncé, l\'angle par rapport au point d\'emplacement peut être fixé par pas de 5°. {{Version/fr|0.20}}
-4.  Cliquer avec le bouton gauche de la souris dans la vue 3D pour créer la copie.
+4.  Clic gauche de la souris dans la vue 3D pour créer la copie.
 
 Aucune contrainte supplémentaire n\'est ajoutée.
 

@@ -30,15 +30,22 @@ See the [Stairs entry in wikipedia](https://en.wikipedia.org/wiki/Stairs) for a 
 
 ## Usage
 
-1.  Optionally select one or more base objects, for example [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md):
-    -   Draft Wires with two or more segments will be used to create landings. They must be on a plane parallel to the global XY plane. For example, select a U-shaped wire for a half-turn landing and an L-shaped wire for a corner landing.
-    -   Draft Lines will be used to create flights.
-    -   If the vertices of all lines and wires have correct Z coordinates, the created stairs will use this information.
+1.  Optionally select one or more base objects, for example [Draft Lines](Draft_Line.md), [Draft Wires](Draft_Wire.md) and [Sketches](Sketch.md):
+    -   Draft Wires or Sketches with two or more segments will be used to create landings. They must be on a plane parallel to the global XY plane. For example, select a U-shaped wire for a half-turn landing and an L-shaped wire for a corner landing.
+    -   Draft Lines and Sketches with a single edge will be used to create flights.
+    -   If the vertices of all lines and wires have correct Z coordinates, the created stairs will use this information. A Sketch (plane-parallel to the XY plane) with a single edge, or a Draft Line without a delta Z will also work for a flight, the Height is then be used to construct the flight.
     -   The base objects must be selected in the correct order starting with the bottom object.
-2.  Press the **<img src="images/Arch_Stairs.svg" width=16px> [Arch Stairs](Arch_Stairs.md)** button, or press **S**, **R** keys.
+2.  Press the **<img src="images/Arch_Stairs.svg" width=16px> [Stairs](Arch_Stairs.md)** button, or press **S**, **R** keys.
 3.  Adjust the desired properties. Some parts of the stairs, such as the structure, might not appear immediately, if any of the properties makes it impossible, such as a structure thickness of 0.
 
-<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;"> 
+<img alt="" src=images/Stairs_and_Landing_02.png  style="width:600px;">
+
+<img alt="" src=images/Stairs_and_Landing_01.png  style="width:600px;">
+
+<img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;">
+
+
+
 *Complex stairs based on a selection of lines and wired as shown on the left.<br>
 In red the wires used for the landings at Z&equals;1500mm, Z&equals;3000mm and Z&equals;4500mm.<br>
 In black the lines connecting them used for the flights.
@@ -57,13 +64,13 @@ In black the lines connecting them used for the flights.
 
 -    **Last Segment|Link**: Last segment (flight or landing) of an Arch Stairs connecting to this segment. The start level of the stairs will be the end level of this last segment.
 
--    **Outline Left|VectorList**: The left outline of the stairs.
+-    **Outline Left|VectorList**: The left outline of the stairs (read-only).
 
--    **Outline Left All|VectorList**: The left outline of all segments of the stairs.
+-    **Outline Left All|VectorList**: The left outline of all segments of the stairs (read-only).
 
--    **Outline Right|VectorList**: The right outline of the stairs.
+-    **Outline Right|VectorList**: The right outline of the stairs (read-only).
 
--    **Outline Right All|VectorList**: The right outline of all segments of the stairs.
+-    **Outline Right All|VectorList**: The right outline of all segments of the stairs (read-only).
 
 -    **Railing Height Left|Length**: Height of the left railing of the stairs or landing.
 
@@ -142,7 +149,7 @@ In black the lines connecting them used for the flights.
 
 ## Limitations
 
--   Only straight stairs are available at the moment
+-   Straight, HalfTurnLeft or HalfTurnRight stairs and landings are available at the moment
 -   See the [forum entry](http://forum.freecadweb.org/viewtopic.php?f=23&t=6534) for circle stairs.
 -   See the [forum announcement](http://forum.freecadweb.org/viewtopic.php?f=9&t=4564).
 
@@ -178,6 +185,11 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/pt-br
+⏵ [documentation index](../README.md) > Arch Stairs/pt-br

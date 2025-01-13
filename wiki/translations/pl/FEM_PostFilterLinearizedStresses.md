@@ -35,32 +35,32 @@ Więcej informacji na temat linearyzacji naprężeń można uzyskać na stronie 
     -   Intermediate principal *(pośrednie naprężenie główne)*,
 
     -   
-        <small>(v0.22)</small> 
+        <small>(v1.0)</small> 
         
         : Naprężenie xx komponentu,
 
     -   
-        <small>(v0.22)</small> 
+        <small>(v1.0)</small> 
         
         : Naprężenie xy komponentu,
 
     -   
-        <small>(v0.22)</small> 
+        <small>(v1.0)</small> 
         
         : Naprężenie xz komponentu,
 
     -   
-        <small>(v0.22)</small> 
+        <small>(v1.0)</small> 
         
         : Naprężenie yy komponentu,
 
     -   
-        <small>(v0.22)</small> 
+        <small>(v1.0)</small> 
         
         : Naprężenie yz komponentu,
 
     -   
-        <small>(v0.22)</small> 
+        <small>(v1.0)</small> 
         
         : Naprężenie zz komponentu.
 

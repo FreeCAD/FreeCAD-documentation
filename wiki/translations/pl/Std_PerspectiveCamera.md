@@ -32,32 +32,19 @@ Polecenie **Widok perspektywy** przełącza ujęcie widoku w aktywnym oknie [wid
 
 ## Ustawienia
 
--   Typ ujęcia widoku można zmienić w preferencjach: **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Typ projekcji**. Wybrany typ będzie używany dla wszystkich widoków 3D wszystkich otwartych dokumentów, a także dla nowych dokumentów. Zobacz dodatkowe informacje o [konfiguracji](Preferences_Editor/pl#Widok_3D.md).
+Zobacz [Std: Widok ortogonalny](Std_OrthographicCamera/pl#Właściwości.md).
 
 
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
-
-Aby zmienić widok na widok perspektywy, należy użyć metody `setCameraType` obiektu ActiveView. Metoda ta nie jest dostępna, jeśli FreeCAD działa w trybie konsoli.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.setCameraType('Perspective')
-FreeCADGui.ActiveDocument.ActiveView.getCameraType()
-```
+Zobacz [Std: Widok ortogonalny](Std_OrthographicCamera/pl#Tworzenie_skrpytów.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

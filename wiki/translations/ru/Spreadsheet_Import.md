@@ -10,6 +10,8 @@
 
 # Spreadsheet Import/ru
 
+
+
 ## Описание
 
 
@@ -20,10 +22,20 @@
 
 </div>
 
+
+
 ## Применение
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Нажмите кнопку **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Импорт электронной таблицы](Spreadsheet_Import/ru.md)**.
 2.  Выберите корректный CSV файл.
+
+
+</div>
+
+
 
 ## Примечания
 

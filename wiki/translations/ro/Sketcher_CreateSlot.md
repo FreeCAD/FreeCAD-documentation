@@ -17,8 +17,6 @@ Desenează un locaș de pană prin selectarea centrului unuia dintre semicercuri
 
 </div>
 
-When starting the tool, the mouse pointer changes to a white cross with a red slot icon. The coordinates of the pointer are shown beside it in blue in real time.
-
 ![](images/SketcherCreateSlotExample.png‎ )
 
 
@@ -31,6 +29,11 @@ When starting the tool, the mouse pointer changes to a white cross with a red sl
 
 </div>
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
+Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -42,7 +45,11 @@ When starting the tool, the mouse pointer changes to a white cross with a red sl
 
 ## Notes
 
--   A slot can also be constrained horizontally or vertically if the **Auto constraints** option is enabled. <small>(v0.20)</small> 
+-    {{VersionMinus|0.21}}(<small>(v0.20)</small> ): Holding **Ctrl** when picking the second center will constrain the slot to be drawn horizontally or vertically.
+
+-    <small>(v1.0)</small> : [Angular snap](Sketcher_Snap.md) can be used to control the angle of the slot.
+
+-    <small>(v0.20)</small> : A slot can also be constrained horizontally or vertically if the [Auto constraints](Sketcher_Workbench#Auto_constraints.md) option is enabled.
 
 
 

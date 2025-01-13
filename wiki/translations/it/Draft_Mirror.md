@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Mirror
-   Name/it: Specchio
-   MenuLocation: Modifiche , Specchio
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Specchio
+   MenuLocation: Modifiche , Specchio<br>Modifica , Specchio
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    SeeAlso: Draft Clone/it
 ---
 
@@ -15,7 +15,7 @@
 
 Il comando <img alt="" src=images/Draft_Mirror.svg  style="width:24px;"> **Specchio** crea copie speculari, oggetti [Part Specchio](Part_Mirror/it.md), dagli oggetti selezionati. Un oggetto [Part Specchio](Part_Mirror/it.md) è parametrico, si aggiornerà se il suo oggetto sorgente cambia.
 
-Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [Arch](Arch_Workbench/it.md).
+Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workbench/it.md) o [Sketcher](Sketcher_Workbench/it.md), ma anche su molti oggetti 3D come quelli creati con gli ambienti [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) o [BIM](BIM_Workbench/it.md).
 
 <img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;"> 
 *Specchiare un oggetto*
@@ -29,7 +29,8 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 1.  Opzionalmente selezionare uno o più oggetti.
 2.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Mirror.svg" width=16px> [Specchio](Draft_Mirror/it.md)**.
-    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Mirror.svg" width=16px> Specchio** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Modifiche → <img src="images/Draft_Mirror.svg" width=16px> Specchio** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_Mirror.svg" width=16px> Specchio** dal menu.
     -   Usare la scorciatoia da tastiera: **M** poi **I**.
 3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
 4.  Si apre il pannello attività **Specchio**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
@@ -45,7 +46,7 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 
 -   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
 -   Premere **R** o fare clic sulla casella di controllo **Relativa** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate del secondo punto sono relative al primo punto, altrimenti sono relative all\'origine del sistema di coordinate.
--   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md).
 -   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
 -   Premere **Esc** o il pulsante **Chiudi** per interrompere il comando.
 

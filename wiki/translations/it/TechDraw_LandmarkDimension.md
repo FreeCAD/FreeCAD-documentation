@@ -1,97 +1,69 @@
 ---
  GuiCommand:
    Name: TechDraw LandmarkDimension
-   Name/it: Quota da punti di riferimento
-   MenuLocation: TechDraw , Quota da punti di riferimento
+   Name/it: TechDraw Quota da punti di riferimento
+   MenuLocation: TechDraw , Quotatura , Quota da punti di riferimento - SPERIMENTALE
    Workbenches: TechDraw_Workbench/it
-   SeeAlso: TechDraw_HorizontalDimension/it, TechDraw_VerticalDimension/it
    Version: 0.19
+   SeeAlso: TechDraw_HorizontalDimension/it, TechDraw_VerticalDimension/it
 ---
 
 # TechDraw LandmarkDimension/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Lo strumento **TechDraw Quota da punti di riferimento** aggiunge una quota lineare a una Vista. La quota si basa su due oggetti punto (oggetti [Draft Punto](Draft_Point/it.md), [Part Punto](Part_Point/it.md) o [PartDesign Punto](PartDesign_Point.md)) dal modello 3D.
 
-<div class="mw-translate-fuzzy">
+Lo scopo di questo strumento è fornire una soluzione alternativa alla corruzione delle quote causata dai problemi di \"[denominazione topologica](Topological_naming_problem/it.md)\". I punti sorgente dovrebbero usare [Espressioni](Expressions/it.md) o altri meccanismi di contenimento per stabilire la loro posizione. Poiché i punti sono [Oggetti documento](App_DocumentObject/it.md) e non modellano i componenti, il loro nome non cambia con i ricalcoli e quindi sono facilmente reperibili.
 
-Lo strumento Quota da punti di riferimento aggiunge una quota lineare a una vista. La dimensione si basa su due **funzioni** punto (Draft.Point o Part.Vertex) del modello 3D. Notare che i punti devono essere oggetti **funzioni** che compaiono nella [vista ad albero](tree_view/it.md) del modello. I vertici casuali di una forma non funzionano.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo scopo di questo strumento è fornire una soluzione alternativa alla corruzione della dimensione causata dai problemi di \" \"[denominazione topologica](topological_naming_problem/it.md)\"\". I punti sorgente dovrebbero usare [Espressioni](Expressions/it.md) o altri meccanismi di contenimento per stabilire la loro posizione. Poiché i punti sono [Oggetti documento](App_DocumentObject/it.md) e non modellano i componenti, il loro nome non cambia con i ricalcoli e quindi sono facilmente reperibili.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Vedere le sezioni Limitazione e soluzioni di [Lunghezza](TechDraw_LengthDimension/it.md) per ulteriori informazioni su dimensioni e denominazione topologica.
-
-
-</div>
+Vedere [TechDraw Quota allineata](TechDraw_LengthDimension/it#Limitazioni.md) per ulteriori informazioni sulla quotatura e sulla denominazione topologica.
 
 
 
 ## Utilizzo
 
+1.  Selezionare due oggetti punto nella [Vista 3D](3D_view/it.md) o nella [Vista ad albero](Tree_view/it.md).
+2.  Aggiungere la Vista TechDraw corretta alla selezione selezionandola nella [Vista ad albero](Tree_view/it.md).
+3.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/TechDraw_LandmarkDimension.svg" width=16px> [Inserisci Quota da punti di riferimento - SPERIMENTALE](TechDraw_LandmarkDimension/it.md)**.
+    -   Selezionare l\'opzione **TechDraw → Quotatura → <img src="images/TechDraw_LandmarkDimension.svg" width=16px> Inserisci Quota da punti di riferimento - SPERIMENTALE** dal menu.
+4.  Una quota viene aggiunta alla Vista.
+5.  La quota può essere trascinata nella posizione desiderata.
+6.  Se necessario, aggiungere tolleranze come descritto in [questa pagina](TechDraw_Geometric_dimensioning_and_tolerancing/it#Tolleranze.md).
 
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare 2 oggetti Punto nella [vista ad albero](tree_view/it.md) o nella [Vista 3D](3D_view/it.md).
-2.  Selezionare anche la vista a cui aggiungere la dimensione.
-3.  Premere il pulsante **<img src="images/TechDraw_LandmarkDimension.svg" width=16px> [Quota da punti di riferimento](TechDraw_LandmarkDimension/it.md)** o usare **TechDraw → Dimensioni → Quota da punti di riferimento**.
-4.  Alla vista viene aggiunta una dimensione. Il testo della quota può essere trascinato nella posizione desiderata.
 
 
-</div>
+### Cambiare le proprietà 
 
-### Change properties 
-
-To change the properties of a dimension object either double-click it in the drawing or in the [Tree view](Tree_view.md). This will open the [Dimension dialog](TechDraw_LengthDimension#Dimension_dialog.md).
+Per modificare le proprietà di un oggetto quota, fare doppio clic su di esso nel disegno o nella [Vista ad albero](Tree_view/it.md). Si aprirà la [Finestra di dialogo Quota](TechDraw_LengthDimension/it#Finestra_di_dialogo_Quota.md).
 
 
 
 ## Limitazioni
 
-Lo strumento Quota da punti di riferimento è inizialmente limitato alle dimensioni \"Distanza\". Altri tipi possono essere aggiunti se richiesto.
+Lo strumento Quota da punti di riferimento è inizialmente limitato alle quotature di \"Distanza\". Altri tipi possono essere aggiunti se richiesto.
 
-## Notes
 
-See [TechDraw LengthDimension](TechDraw_LengthDimension#Notes.md).
+
+## Note
+
+Vedere [TechDraw Quota allineata](TechDraw_LengthDimension/it#Note.md).
 
 
 
 ## Proprietà
 
-See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
+Vedere [TechDraw Quota allineata](TechDraw_LengthDimension/it#Proprietà.md).
 
 
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-**Vedere anche:**
-
-[TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Quota da punti di riferimento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
+Lo strumento Quota da punti di riferimento può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 ```python
@@ -104,13 +76,7 @@ page.addView(dim1)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

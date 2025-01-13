@@ -20,7 +20,7 @@ See [Installing Helpfile](Installing_Helpfile.md).
 
 # External workbenches 
 
-Apart from the default [workbenches](workbenches.md) bundled with FreeCAD, there is a large collection of useful [external workbenches](External_workbenches.md) made by community members.
+Apart from the default [workbenches](Workbenches.md) bundled with FreeCAD, there is a large collection of useful [external workbenches](External_workbenches.md) made by community members.
 
 # Third party software 
 
@@ -38,7 +38,7 @@ FreeCAD supports several third party software packages out of the box. In many c
 
 ### OpenCAMLib
 
-[OpenCAMLib](http://www.anderswallin.net/CAM) is an open source library of computer aided manufacturing (CAM) algorithms. It is used in the [Path Workbench](Path_Workbench.md). See the [OpenCamLib](OpenCamLib.md) page for installation instructions.
+[OpenCAMLib](https://www.anderswallin.net/CAM) is an open source library of computer aided manufacturing (CAM) algorithms. It is used in the [CAM Workbench](CAM_Workbench.md). See the [OpenCamLib](OpenCamLib.md) page for installation instructions.
 
 ### OpenSCAD
 
@@ -68,7 +68,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ### IfcOpenShell
 
-[IfcOpenShell](http://ifcopenshell.org) is a library for working with the Industry Foundation Classes (IFC) file format used in architectural design. The library is also used by the [Arch IfcExplorer](Arch_IfcExplorer.md) ({{VersionMinus|0.18}}) and [BIM IfcExplorer](BIM_IfcExplorer.md) tools. IfcOpenShell is included in the FreeCAD installers for Windows and Mac.
+[IfcOpenShell](https://ifcopenshell.org) is a library for working with the Industry Foundation Classes (IFC) file format used in architectural design. The library is also used by the [Arch IfcExplorer](Arch_IfcExplorer.md) ({{VersionMinus|0.18}}) and [BIM IfcExplorer](BIM_IfcExplorer.md) tools. IfcOpenShell is included in the FreeCAD installers for Windows and Mac.
 
 ### IfcJson
 
@@ -96,11 +96,11 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ### CalculiX
 
-[CalculiX](http://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) tool.
+[CalculiX](https://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) tool.
 
 ### Gmsh
 
-[Gmsh](http://gmsh.info) is an automatic finite element mesh generator. it is used by the [FEM MeshGmshFromShape](FEM_MeshGmshFromShape.md) and [Mesh FromPartShape](Mesh_FromPartShape.md) tools.
+[Gmsh](https://gmsh.info) is an automatic finite element mesh generator. it is used by the [FEM MeshGmshFromShape](FEM_MeshGmshFromShape.md) and [Mesh FromPartShape](Mesh_FromPartShape.md) tools.
 
 ### Elmer
 
@@ -116,7 +116,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ### OpenFOAM
 
-[OpenFOAM](https://openfoam.org) is a large collection of libraries for computational fluid dynamics (CFD) simulations. OpenFOAM is used by the [Cfd](Cfd_Workbench.md) and [CfdOF](https://github.com/jaheyns/CfdOF) [external workbenches](external_workbenches.md).
+[OpenFOAM](https://openfoam.org) is a large collection of libraries for computational fluid dynamics (CFD) simulations. OpenFOAM is used by the [Cfd](Cfd_Workbench.md) and [CfdOF](https://github.com/jaheyns/CfdOF) [external workbenches](External_workbenches.md).
 
 
 

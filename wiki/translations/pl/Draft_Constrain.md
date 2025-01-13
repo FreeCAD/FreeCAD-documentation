@@ -1,9 +1,9 @@
 # Draft Constrain/pl
 ## Opis
 
-Oprócz wprowadzania współrzędnych lub używania [przyciągania](Draft_Snap/pl.md), istnieje funkcja zwana ograniczaniem, która pomaga w dokładnym rysowaniu w środowiskach pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md) i <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md). Dla każdego kolejnego punktu możesz ograniczyć ruch kursora do kierunku X, Y, lub Z układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). Można to wykorzystać na przykład do stworzenia idealnie pionowej linii.
+Oprócz wprowadzania współrzędnych lub używania [przyciągania](Draft_Snap/pl.md), istnieje funkcja zwana ograniczaniem, która pomaga w dokładnym rysowaniu w środowiskach pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md) i <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [BIM](BIM_Workbench/pl.md). Dla każdego kolejnego punktu możesz ograniczyć ruch kursora do kierunku X, Y, lub Z układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). Można to wykorzystać na przykład do stworzenia idealnie pionowej linii.
 
-Wiązania są dostępne z większością poleceń środowisk [Rysunek Roboczy](Draft_Workbench/pl.md) i [Architektura](Arch_Workbench/pl.md).
+Wiązania są dostępne z większością poleceń środowisk [Rysunek Roboczy](Draft_Workbench/pl.md) i [BIM](BIM_Workbench/pl.md).
 
 ![](images/Draft_Constrain_taskpanel_example.png ) 
 *Gdy kursor jest ograniczony, panel zadań blokuje wartości, które nie są modyfikowane.*
@@ -12,7 +12,7 @@ Wiązania są dostępne z większością poleceń środowisk [Rysunek Roboczy](D
 
 ## Używanie wiązań poziomych i pionowych 
 
-1.  Wybierz środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md) do utworzenia geometrii.
+1.  Wybierz środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [BIM](BIM_Workbench/pl.md) do utworzenia geometrii.
 2.  Wybierz pierwszy punkt. Wymagany jest poprzedni punkt.
 3.  Wykonaj jedną z następujących czynności:
     -   Dla ograniczenia poziomego: przesuń kursor w lewo lub w prawo od poprzedniego punktu.
@@ -27,7 +27,7 @@ Wiązania są dostępne z większością poleceń środowisk [Rysunek Roboczy](D
 
 ## Używanie wiązania X, Y, Z 
 
-1.  Wybierz środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md) do utworzenia geometrii.
+1.  Wybierz środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [BIM](BIM_Workbench/pl.md) do utworzenia geometrii.
 2.  Wybierz pierwszy punkt. Wymagany jest poprzedni punkt.
 3.  Wciśnij klawisz **X**, **Y** lub **Z** by określić kierunek.
 4.  Kursor jest teraz ograniczony.

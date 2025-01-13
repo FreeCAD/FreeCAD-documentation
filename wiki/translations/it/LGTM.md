@@ -8,25 +8,29 @@
 
 LGTM è adatto come strumento di analisi del codice per lo sviluppo di ambienti di lavoro di FreeCAD in Python e altri progetti di dimensioni medio-piccole. Questa pagina offre una panoramica di come iniziare a usare LGTM con un ambiente di lavoro di FreeCAD in Python.
 
+
+
 ## Per iniziare 
 
 Il modo in cui iniziare con LGTM dipende dalla piattaforma di controllo della versione online che si sta utilizzando. La documentazione LGTM per [revisione automatica del codice](https://lgtm.com/help/lgtm/about-automated-code-review) fornisce una buona panoramica di come integrare LGTM nel progetto per diverse piattaforme.
 
 Inoltre su LGTM è possibile eseguire una vasta gamma di analisi approfondite del codice, che va oltre lo scopo di questo tutorial. Si possono leggere ulteriori informazioni al riguardo nella documentazione LGTM su [configuring code analysis](https://lgtm.com/help/lgtm/configuring-lgtm-analysis-project).
 
-## Getting Results 
 
-Once you\'ve set up LGTM and provided access to your code repositories, analyses are typically done daily on the repository. So, pushed changes will not yeild results immediately. It is possible to have LGTM analyze pull requests when they are submitted, as described in the LGTM documentation.
 
-Reviewing the results simply requires logging in to your LGTM dashboard and selecting the desired project. From there, code analyses will provide a list of issues (like bugs, bad coding practices, useless/irrelevant/unused code, etc.) for your perusal. In addition LGTM provides overall code \'ratings\' (A, B, C, D) depending on the number of issue you have compared to the overall size of your project.
+## Ottenere i Risultati 
 
-Probably, the most useful, immediate way to manage the results of your code analysis is simply filtering out files in your project that you don\'t want analyzed. That is, suppose you\'re developing new code that is incomplete, keeping around legacy code that is otherwise unused, or have a good deal of testing code that doesn\'t need analysis. LGTM provides [file classification](https://lgtm.com/help/lgtm/file-classification), an easy way to filter those files so they don\'t pollute your analysis results.
+Dopo aver configurato LGTM e fornito l\'accesso ai repository di codice, le analisi vengono in genere eseguite quotidianamente sul repository. Pertanto, le modifiche inviate non daranno risultati immediati. È possibile fare in modo che LGTM analizzi le pull requests nel momento in cui vengono inviate, come descritto nella documentazione LGTM.
 
-### Creating a .lgtm.yml File 
+Per rivedere i risultati è sufficiente accedere alla dashboard LGTM e selezionare il progetto desiderato. Da lì, l\'analisi del codice fornirà un elenco di problemi (come bug, pratiche di codifica deprecate, codice inutile/irrilevante/non utilizzato, ecc.) da esaminare. Inoltre LGTM fornisce \"classificazioni\" complessive del codice (A, B, C, D) a seconda del numero di problemi riscontrati rispetto alla dimensione complessiva del progetto.
 
-To enable file classification, first create a file named \".lgtm.yml\" in your projects top-most directory. Then, in that file, add some classifications.
+Probabilmente, il modo più utile e immediato per gestire i risultati dell\'analisi del codice è semplicemente filtrare i file del progetto che non si desidera analizzare. Cioè, supponiamo che si stia sviluppando un nuovo codice parziale, mantenendo il codice legacy che altrimenti non verrebbe utilizzato o che si stia testando molto codice che non necessita di analisi. LGTM fornisce [classificazione dei file](https://lgtm.com/help/lgtm/file-classification), un modo semplice per filtrare tali file in modo che non inquinino i risultati dell\'analisi.
 
-Below is an example from the FreeCAD Trails Python workbench:
+### Creazione di un file .lgtm.yml 
+
+Per abilitare la classificazione dei file, creare prima un file denominato \".lgtm.yml\" nella directory più in alto del proprio progetto. Quindi, in quel file, aggiungere alcune classificazioni.
+
+Di seguito è riportato un esempio tratto dall\'ambiente di lavoro Python di FreeCAD Trails:
 
 
 ```python
@@ -49,13 +53,15 @@ path_classifiers:
     - freecad/trails/corridor/template/TemplateLibrary.py
 ```
 
-Note that indent levels are important in LGTM. Incorrect indenting will result in failed file classification.
+Tenere presente che i livelli di rientro sono importanti in LGTM. Un rientro errato comporterà una classificazione del file non riuscita.
 
-Also, some classifications (like \'template\' and \'test\') are used by LGTM for queries and other analysis components. You may also define your own custom tags, which will filter code and provide additional queryable results.
+Inoltre, alcune classificazioni (come \"template\" e \"test\") vengono utilizzate da LGTM per query e altri componenti di analisi. Si può anche definire i propri tag personalizzati, che filtreranno il codice e forniranno ulteriori risultati interrogabili.
 
-### Relevant Links 
 
--   [Continuous Integration](Continuous_Integration.md)
+
+## Link utili 
+
+-   [Continuous Integration](Continuous_Integration/it.md)
 -   LGTM [FreeCAD forum discussion thread](https://www.forum.freecadweb.org/viewtopic.php?f=10&t=40228)
 -   FreeCAD .lgtm.yml file on [Github](https://github.com/FreeCAD/FreeCAD/blob/master/lgtm.yml)
 -   freecad.trails .lgtm.yml on [Github](https://github.com/joelgraff/freecad.trails/blob/dev/.lgtm.yml)

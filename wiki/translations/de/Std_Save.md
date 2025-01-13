@@ -10,9 +10,13 @@
 
 # Std Save/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std Speichern** speichert das aktive Dokument.
+
+
 
 ## Anwendung
 
@@ -22,32 +26,29 @@ Der Befehl **Std Speichern** speichert das aktive Dokument.
     -   Das Tastaturkürzel **Ctrl**+**S**.
 2.  Für neue Dokumente: Einen Dateinamen im Dialogfeld eintragen und die Schaltfläche **Speichern** drücken.
 
+
+
 ## Optionen
 
 -   Für neue Dokumente: **Esc** oder Schaltfläche **Abbrechen** drücken, um den Befehl abzubrechen.
 
+
+
 ## Hinweise
 
--   This command can also be used to save dependency graphs. See [Std DependencyGraph](Std_DependencyGraph.md).
+-   Dieser Befehl kann auch zum Speichern von Abhängigkeitsgraphen verwendet werden. Siehe [Std Abhängigkeitsgraph](Std_DependencyGraph/de.md).
 
-## Einstellungen
 
--   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-To save a document use the `save` method of the document object. A new document must first be saved with the `saveAs` method of the document object. For a scripting example see [Std New](Std_New.md).
+Siehe [Std Neu](Std_New/de#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

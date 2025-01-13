@@ -230,6 +230,8 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 </div>
 
+  - <img alt="" src=images/FEM_ConstraintRigidBody.svg  style="width:32px;"> [Rigid body constraint](FEM_ConstraintRigidBody.md): Used to apply the CalculiX\'s rigid body constraint that constrains the motion of the nodes of a selected geometrical entity to the motion of a reference point positioned by the user. <small>(v1.0)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -364,9 +366,15 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 -   <img alt="" src=images/FEM_MeshGroup.svg  style="width:32px;"> [Grupo de malla MEF](FEM_MeshGroup/es.md): Agrupa y etiqueta los elementos de una malla (vértice, arista, superficie), útil para exportar la malla a resolvedores externos.
 
--   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Colocar nodos](FEM_CreateNodesSet/es.md): Crea/define una colocacion de nodo en una malla MEF.
+-   <img alt="" src=images/FEM_CreateElementsSet.svg  style="width:32px;"> [Erase Elements](FEM_CreateElementsSet.md): Hides elements selected by a polygon from the mesh. <small>(v1.0)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Malla MEF a malla](FEM_FemMesh2Mesh/es.md): Convierte la superficie de una malla MEF a una malla.
+
+
+</div>
 
 
 
@@ -598,16 +606,42 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Restricción de rodamiento](FEM_ConstraintBearing/es.md): Utilizado para definir una restricción de rodamiento.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Restricción de engrane](FEM_ConstraintGear/es.md): Utilizado para definir una restricción de engrane.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Restricción de polea](FEM_ConstraintPulley/es.md): Utilizado para definir una restricción de polea.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solucionador CalculiX (experimental)](FEM_SolverCalculiX/es.md):
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Colocar nodos](FEM_CreateNodesSet/es.md): Crea/define una colocacion de nodo en una malla MEF.
 
 
 </div>

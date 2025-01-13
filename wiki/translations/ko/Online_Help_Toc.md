@@ -1,60 +1,60 @@
 # Online Help Toc/ko
 프리캐드에 관해 문의사항 또는 도움이 필요한 것이 있으시면 [도움말 페이지](Help.md) 등을 이용하여 주시기 바랍니다.
 
-다른 형식으로 준비된 도움말의 목차가 [FreeCAD MANUAL](Manual:Introduction/ko.md)에 있습니다.
+다른 형식으로 준비된 도움말의 목차가 [FreeCAD MANUAL에](Manual:Introduction/ko.md) 있습니다.
 
 <img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
 -   소개
-    -   [ Welcome](Online_Help_Startpage.md)
-    -   [FreeCAD에 대해](About_FreeCAD.md)
+    -   [ 환영합니다](Online_Help_Startpage/ko.md)
+    -   [FreeCAD에 대해](About_FreeCAD/ko.md)
     -   [특징](Feature_list/ko.md)
     -   [윈도우에 설치](Installing_on_Windows/ko.md)
     -   [리눅스/유닉스에 설치](Installing_on_Linux/ko.md)
     -   [Mac에 설치](Installing_on_Mac/ko.md)
     -   [추가 기능 설치하기](Installing_additional_components/ko.md)
 
--   Working with FreeCAD
-    -   [시작하기](Getting_started.md)
+-   프리캐드로 작업하기
+    -   [시작하기](Getting_started/ko.md)
     -   [마우스로 탐색](Mouse_navigation.md)
     -   [선택방법들](Selection_methods.md)
-    -   [The navigation cube](Navigation_Cube.md)
-    -   [The FreeCAD document](Document_structure.md)
-    -   [Property editor](Property_editor.md)
+    -   [항해 입방체](Navigation_Cube/ko.md)
+    -   [FreeCAD 문서구조](Document_structure/ko.md)
+    -   [속성 편집기](Property_editor/ko.md)
 
--   The [Workbenches](Workbenches.md)
+-   [작업대](Workbenches/ko.md)
 
--   -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Standard tools for all Workbenches](Std_Base.md)
-    -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [The Arch Workbench](Arch_Workbench.md)
-    -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [The Draft Workbench](Draft_Workbench.md)
-    -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [The FEM Workbench](FEM_Workbench.md)
-    -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [The Inspection Workbench](Inspection_Workbench.md)
-    -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [The Mesh Workbench](Mesh_Workbench.md)
-    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [The OpenSCAD Workbench](OpenSCAD_Workbench.md)
-    -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [The Part Workbench](Part_Workbench.md)
-    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [The PartDesign Workbench](PartDesign_Workbench.md)
-    -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [The Path Workbench](Path_Workbench.md)
-    -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [The Points Workbench](Points_Workbench.md)
-    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [The Reverse Engineering Workbench](Reverse_Engineering_Workbench.md)
-    -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [The Robot Workbench](Robot_Workbench.md)
-    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [The Sketcher Workbench](Sketcher_Workbench.md)
-    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [The Spreadsheet Workbench](Spreadsheet_Workbench.md)
-    -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [The Start Workbench](Start_Workbench.md)
-    -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [The Surface Workbench](Surface_Workbench.md)
-    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [The Techdraw Workbench](TechDraw_Workbench.md)
+-   -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [모든 작업대에서 사용되는 표준 도구들](Std_Base/ko.md)
+    -   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> [조립 작업대](Assembly_Workbench/ko.md) (<small>(v1.0)</small> )
+    -   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> [BIM 작업대](BIM_Workbench/ko.md) (건축 작업대와 외부 BIM 작업대가 결합됨.{{VersionMinus|0.21}}부터 사용가능)
+    -   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> [CAM 작업대](CAM_Workbench/ko.md) ( {{VersionMinus|0.21}}에서 \"Path 작업대\"로 불림)
+    -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [설계제도 작업대](Draft_Workbench/ko.md)
+    -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM 작업대](FEM_Workbench/ko.md)
+    -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [검사 작업대](Inspection_Workbench/ko.md)
+    -   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> [재료 작업대](Material_Workbench/ko.md) (<small>(v1.0)</small> )
+    -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [메쉬 작업대](Mesh_Workbench/ko.md)
+    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [OpenSCAD 작업대](OpenSCAD_Workbench/ko.md)
+    -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [부품 작업대](Part_Workbench/ko.md)
+    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [부품설계 작업대](PartDesign_Workbench/ko.md)
+    -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [점 작업대](Points_Workbench/ko.md)
+    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [역설계 작업대](Reverse_Engineering_Workbench/ko.md)
+    -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [로봇 작업대](Robot_Workbench/ko.md)
+    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [스케치 작업대](Sketcher_Workbench/ko.md)
+    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [스프레드시트 작업대](Spreadsheet_Workbench/ko.md)
+    -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [표면 작업대](Surface_Workbench/ko.md)
+    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [기술도면 작업대](TechDraw_Workbench/ko.md)
     -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [The Test Framework Workbench](Testing.md)
-    -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [The Web Workbench](Web_Workbench.md)
-    -   [External workbenches](External_workbenches.md)
+    -   [외부 작업대](External_workbenches/ko.md)
 
--   [List of all FreeCAD 명령](List_of_Commands.md)
+-   [모든 FreeCAD 명령 목록](List_of_Commands.md)
 
--   [List of file formats (import-export)](Import_Export.md)
+-   [가져오기 내보내기(import-export)](Import_Export/ko.md)
 
--   [FAQ](Frequently_asked_questions.md)
+-   [자주하는 질문](Frequently_asked_questions/ko.md)
 
--   [Workarounds](Workarounds.md)
+-   [해결방법 모음](Workarounds/ko.md)
 
--   [Tutorials](Tutorials.md)
+-   [자습서](Tutorials/ko.md)
 
 -   FreeCAD 사용자 설정
     -   [개인 전용 환경 만들기](Interface_Customization.md)
@@ -77,11 +77,8 @@
     -   [Interface creation](Interface_creation.md)
     -   [Dialog creation](Dialog_creation.md)
 
-
-<div class="mw-translate-fuzzy">
-
 -   개발하기
-    -   [권리사항](Licence.md)
+    -   [권리사항](License.md)
     -   프리캐드 컴파일링
         -   [윈도우즈에서 컴파일링](Compile_on_Windows.md)
         -   [Compiling on Linux](Compile_on_Linux.md)
@@ -97,21 +94,18 @@
         -   [Testing FreeCAD](Testing.md)
         -   [The FreeCAD build tool](FreeCAD_Build_Tool.md)
         -   [연속적인 축적 방법](Continuous_Integration.md)
-    -   Modifying FreeCAD
+    -   FreeCAD 수정
         -   [Branding](Branding.md)
-        -   [프리캐드 번역](Localisation.md)
-        -   [작업환경 추가](Workbench_creation.md)
+        -   [현지화](Localisation/ko.md)
+        -   [작업대 추가](Workbench_creation/ko.md)
         -   [외부의 파이썬 모듈들을 설치하기](Extra_python_modules.md)
     -   [Source documentation](Source_documentation.md)
     -   [API](https://www.freecadweb.org/api/)
 
-
-</div>
-
 -   Credits
     -   [기여자](Contributors.md)
 
--   [용어 설명](Glossary/ko.md)
+-   [용어집](Glossary/ko.md)
 
 
 

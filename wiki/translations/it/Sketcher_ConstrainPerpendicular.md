@@ -1,136 +1,109 @@
-# Sketcher ConstrainPerpendicular/it
 ---
- GuiCommand:   Name: Sketcher ConstrainPerpendicular   Name/it: Perpendicolare   Workbenches: Sketcher Workbench/it   Schizzo, PartDesign Workbench/it---
+ GuiCommand:
+   Name: Sketcher ConstrainPerpendicular
+   Name/it: Sketcher Vincolo perpendicolare
+   MenuLocation: Schizzo , Vincoli Sketcher , Vincolo perpendicolare
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **N**
+   SeeAlso: Sketcher_ConstrainAngle/it
+---
+
+# Sketcher ConstrainPerpendicular/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Il vincolo Perpendicolare fa sì che due linee siano perpendicolari tra loro, o che due curve siano perpendicolari al loro incrocio. Le linee sono considerate infinite, e gli archi sono considerati cerchi completi o ellissi complete. Il vincolo è anche in grado di collegare due curve, costringendole perpendicolari nel punto di unione, in modo simile al vincolo [Tangente](Sketcher_ConstrainTangent/it.md).
+Lo strumento <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> [Sketcher Vincolo perpendicolare](Sketcher_ConstrainPerpendicular/it.md) vincola due linee ad essere perpendicolari, o due bordi, o un bordo ed un asse, ad essere perpendicolari alla loro intersezione. Le linee vengono trattate come infinite e anche le curve aperte vengono virtualmente estese. Il vincolo può anche connettere due bordi, costringendoli ad essere perpendicolari in corrispondenza del giunto.
 
 
-</div>
 
 ## Utilizzo
 
-Ci sono quattro modi diversi per applicare il vincolo:
-
-1.  tra due curve (non disponibile per tutte le curve)
-2.  tra due punti finali di curve
-3.  tra una curva e il punto finale di un\'altra curva
-4.  tra due curve in un punto definito dall\'utente
-
-Per applicare il vincolo perpendicolare, si dovrebbe usare la seguente procedura:
-
--   Selezionare due o tre entità nello schizzo.
--   Invocare il vincolo facendo clic sull\'icona nella barra degli strumenti, oppure selezionando la voce del menu, oppure usando la scorciatoia da tastiera.
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
 
-<div class="mw-translate-fuzzy">
 
-### Tra due curve (perpendicolarità diretta) 
+### [Modalità continua](Sketcher_Workbench/it#Continue_modes.md) 
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:600px;">
+1.  Assicurarsi che non ci sia alcuna selezione.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> [Vincolo perpendicolare](Sketcher_ConstrainPerpendicular/it.md)**.
 
+    -   Selezionare l\'opzione **Schizzo → Vincoli Sketcher → <img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> Vincolo perpendicolare** dal menu.
 
-</div>
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [Vista 3D](3D_view/it.md) e selezionare l\'opzione **Vincolo → <img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> Vincolo perpendicolare** dall\'elenco menu contestuale.
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:600px;">
-
-Due curve vengono rese perpendicolari nel punto della loro intersezione (sia reale, che sull\'estensione delle curve). Il punto di intersezione è implicito. Questa modalità si applica se sono state selezionate due curve.
-
-**Selezioni accettate:**
-
--   linea + linea, cerchio, arco
--   cerchio, arco + cerchio, arco
-
-Se tra le curve selezionate la \"perpendicolarità diretta\" non è supportata (ad esempio, tra una linea e un\'ellisse), nello schizzo viene automaticamente aggiunto un punto di supporto e viene applicata la \"perpendicolarità nel punto\".
-
-Diversamente dalla tangenza, per costruire il punto di ortogonalità è bene creare un punto e vincolarlo a giacere su entrambe le curve (vincolando il punto nell\'intersezione).
-
-
-<div class="mw-translate-fuzzy">
-
-### Tra due punti finali (perpendicolarità punto con punto) 
-
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:600px;">
+    -   Usare la scorciatoia da tastiera: **N**.
+3.  Il cursore si trasforma in una croce con l\'icona dello strumento.
+4.  Effettuare una delle seguenti operazioni:
+    -   Selezionare due bordi. Uno dei bordi deve essere una linea retta o un asse. L\'altro può essere qualsiasi bordo tranne una B-spline.
+    -   Selezionare un punto e due bordi (in quest\'ordine).
+    -   Selezionare un bordo, un punto e un altro bordo (idem).
+5.  Viene aggiunto un vincolo Perpendicolare. Se sono stati selezionati un punto e due bordi, è possibile aggiungere anche fino a due [Vincoli punto su oggetto](Sketcher_ConstrainPointOnObject/it.md). Vedere [Esempi](#Tra_due_bordi_in_un_punto.md).
+6.  Facoltativamente, continuare a creare vincoli.
+7.  Per terminare, fare clic con il pulsante destro del mouse o premere **Esc** oppure avviare un altro strumento di creazione di geometrie o vincoli.
 
 
-</div>
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:600px;">
+### Modalità di esecuzione una sola volta 
 
-In questo modo, i punti finali sono coincidenti, e la congiunzione avviene ad angolo retto. Questa modalità viene applicata quando sono stati selezionati due punti finali di due curve.
-
-**Selezioni accettate:**
-
--   punto finale di linea/arco/arco-di-ellisse + punto finale di linea/arco/arco-di-ellisse, cioè due punti finali di qualsiasi due curve
-
-
-<div class="mw-translate-fuzzy">
-
-### Tra una curva e un punto finale (perpendicolarità punto con curva) 
-
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:600px;">
+1.  Effettuare una delle seguenti operazioni:
+    -   Selezionare due bordi (vedere sopra).
+    -   Selezionare due punti finali appartenenti a bordi diversi.
+    -   Selezionare un bordo e il punto finale di un altro bordo (in qualsiasi ordine).
+    -   Selezionare un punto e due bordi (idem).
+2.  Richiamare lo strumento come spiegato sopra o con la seguente opzione aggiuntiva:
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [3D view](3D_view/it.md) e selezionare l\'opzione **<img src="images/Sketcher_ConstrainPerpendicular.svg" width=16px> Vincolo perpendicolare** dal menu contestuale .
+3.  Viene aggiunto un vincolo Perpendicolare. Se sono stati selezionati un punto e due bordi, è possibile aggiungere anche fino a due [Vincoli punto su oggetto](Sketcher_ConstrainPointOnObject/it.md). Vedere [Esempi](#Tra_due_bordi_in_un_punto.md).
 
 
-</div>
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:600px;">
-
-In questo modo, il punto finale di una curva è vincolato a giacere sull\'altra curva, e le curve sono forzate ad essere perpendicolari nel punto. Questa modalità viene applicata quando sono stati selezionati una curva e un punto finale di un\'altra curva.
-
-**Selezioni accettate:**
-
--   linea, cerchio, arco, ellisse, arco-di-ellisse + punto finale di linea/arco/arco-di-ellisse (qualsiasi curva + punto finale di qualsiasi curva)
+## Esempi
 
 
-<div class="mw-translate-fuzzy">
 
-### Tra due curve nel punto (perpendicolarità nel punto) (v0.15) 
+### Tra due bordi 
 
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode1.png  style="width:400px;">
 
-
-</div>
-
-<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:600px;">
-
-Questo modo rende perpendicolari due curve, e il punto di tangenza è monitorato. Questa modalità viene applicata quando sono state selezionate due curve e un punto.
-
-**Selezioni accettate:**
-
--   qualsiasi linea/curva + qualsiasi linea/curva + qualsiasi punto
-
-\"Qualsiasi punto\" può essere un punto generico, o un punto di qualcosa, ad esempio il centro di un cerchio, il punto finale di un arco, o l\'origine.
+I due bordi sono resi perpendicolari nella loro intersezione (virtuale). Se uno dei bordi è una [conica](Sketcher_Workbench/it#Sketcher_CompCreateConic.md), viene aggiunto un [Oggetto punto](Sketcher_CreatePoint/it.md) che ha un [Vincolo punto su oggetto](Sketcher_ConstrainPointOnObject/it.md) con entrambi i bordi (estesi).
 
 
-<div class="mw-translate-fuzzy">
 
-Affinchè il vincolo funzioni correttamente, il punto deve appartenere a entrambe le curve. Così, quando il vincolo viene invocato, il punto viene vincolato automaticamente su entrambe le curve, e le curve sono forzate perpendicolari nel punto. Se è necessario sono anche aggiunti dei [vincoli di supporto](Sketcher_helper_constraint/it.md) che sono dei normali vincoli e possono essere aggiunti o eliminati manualmente.
+### Tra due punti finali 
+
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode2.png  style="width:400px;">
+
+I punti finali vengono resi coincidenti e i bordi vengono resi perpendicolari in quel punto.
 
 
-</div>
 
-Rispetto alla perpendicolarità diretta, questo vincolo è più lento, perché coinvolge molti gradi di libertà, ma supporta le ellissi.
+### Tra bordo e punto finale 
 
-La posizione del punto selezionato prima di applicare il vincolo serve al solutore per sapere dove deve applicare la perpendicolarità.
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode3.png  style="width:400px;">
+
+Il punto finale di un bordo è vincolato a giacere sull\'altro bordo e i bordi vengono resi perpendicolari in quel punto.
+
+
+
+### Tra due bordi in un punto 
+
+<img alt="" src=images/Sketcher_ConsraintPerpendicular_mode4.png  style="width:400px;">
+
+I due bordi sono resi perpendicolari in un dato punto. Il punto può essere qualsiasi punto, ad es. il centro di un cerchio, il punto finale di un bordo o l\'origine, può appartenere ad uno dei bordi e può anche essere un [Oggetto punto](Sketcher_CreatePoint/it.md). Se necessario, vengono aggiunti [Vincoli punto su oggetto](Sketcher_ConstrainPointOnObject/it.md) per garantire che il punto si trovi su entrambi i bordi (estesi). Questi vincoli aggiuntivi sono chiamati [vincoli di supporto](Sketcher_helper_constraint/it.md).
+
+
 
 ## Script
 
-
-<div class="mw-translate-fuzzy">
-
-I vincoli di perpendicolarità possono essere creati con le [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) utilizzando la seguente funzione:
-
-
-</div>
-
-
+Il vincolo perpendicolare può essere creato da [macro](Macros/it.md) e dalla console Python utilizzando quanto segue: 
 ```python
 # direct perpendicularity
 Sketch.addConstraint(Sketcher.Constraint('Perpendicular',icurve1,icurve2))
@@ -143,34 +116,20 @@ Sketch.addConstraint(Sketcher.Constraint('Perpendicular',icurve1,pointpos1,icurv
 
 # perpendicular-via-point (plain constraint, helpers are not added automatically)
 Sketch.addConstraint(Sketcher.Constraint('PerpendicularViaPoint',icurve1,icurve2,geoidpoint,pointpos)) 
-```
+``` dove:
 
+  - `Sketch` è un oggetto schizzo
 
-<div class="mw-translate-fuzzy">
+  - `icurve1`, `icurve2` sono due numeri interi che identificano le curve da rendere perpendicolari. Gli interi sono indici nello schizzo (il valore, restituito da `Sketch.addGeometry`).
 
-Dove:
+  - `pointpos1`, `pointpos2` dovrebbe essere `1` per il punto iniziale e `2` per il punto finale.
 
-  - Sketch è un oggetto sketch
+  - `geoidpoint` e `pointpos` in PerpendicularViaPoint sono gli indici che specificano il punto di perpendicolarità.
 
-  - icurve1, icurve2 sono due numeri interi che identificano le curve da rendere perpendicolari. I numeri interi sono gli indici nello schizzo (il valore, reso da Sketch.addGeometry).
-
-  - pointpos1, pointpos2 dovrebbe essere 1 per il punto iniziale e 2 per il punto finale.
-
-  - geoidpoint and pointpos in PerpendicularViaPoint sono gli indici che specificano il punto di perpendicolarità.
-
-
-</div>
-
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `icurve1`, `icurve2`, `pointpos1`, `pointpos2` and `geoidpoint`, and contains further examples on how to create constraints from Python scripts.
-
-
-<div class="mw-translate-fuzzy">
+La pagina [Sketcher scripting](Sketcher_scripting/it.md) spiega i valori che possono essere utilizzati per `icurve1`, `icurve2`, `pointpos1`, `pointpos2` e `geoidpoint` e contiene ulteriori esempi su come creare vincoli da script Python.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

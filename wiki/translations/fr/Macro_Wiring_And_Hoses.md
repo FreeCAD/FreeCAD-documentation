@@ -11,6 +11,8 @@ Ces macros prennent en charge la création et la maintenance des cables et flexi
 
 ![](images/Macro_Wiring_And_HosesCompletedHouse.jpg )
 
+
+
 ## Contexte
 
 Dans le cadre de nos autres projets FreeCAD, nous avions besoin d\'un moyen de documenter le câblage et les tuyaux. Cet ensemble de macros a été développé pour répondre à ce besoin. Il y a beaucoup de choses que ce système ne fait pas, mais ce qu\'il fait est de fournir une représentation visuelle du câblage et des tuyaux, soit en tant que système isolé, soit avec le câblage et les tuyaux dans le contexte d\'un modèle FreeCAD. L\'enregistrement de tous les fils et flexibles est conservé dans un fichier au format CSV en dehors de FreeCAD. Le fichier peut donc être chargé dans un tableur ou utilisé par un autre logiciel.
@@ -112,7 +114,7 @@ les Nexis sont définis pour le débit d\'eau mais pas les Flows encore.
 
 1.  cliquez sur l\'
 
-la boîte de dialogue suivante apparaît:
+la fenêtre de dialogue suivante apparaît :
 
 
 

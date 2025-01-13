@@ -38,7 +38,7 @@ Il comando **Carica immagine** apre un\'immagine in una nuova scheda nella [Area
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

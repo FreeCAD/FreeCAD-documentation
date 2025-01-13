@@ -3,7 +3,7 @@
    Name: Arch Panel Cut
    Name/it: Sagoma pannello
    MenuLocation: Arch , Strumenti pannello , Sagoma pannello
-   Workbenches: Arch_Workbench/it, Path_Workbench/it
+   Workbenches: Arch_Workbench/it, CAM_Workbench/it
    Shortcut: **P** **C**
    Version: 0.17
    SeeAlso: Arch_Panel/it, Arch_Panel_Sheet/it, Arch_Nest/it
@@ -12,10 +12,19 @@
 # Arch Panel Cut/it
 
 
+</div>
+
+
 
 ## Descrizione
 
-Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Arch_Panel/it.md), da inserire in un [Foglio pannello](Arch_Panel_Sheet/it.md) o da esportare direttamente in [DXF](Draft_DXF/it.md). Gli oggetti Sagoma pannello sono anche supportati dall\'ambiente [Path](Path_Workbench/it.md).
+
+<div class="mw-translate-fuzzy">
+
+Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Arch_Panel/it.md), da inserire in un [Foglio pannello](Arch_Panel_Sheet/it.md) o da esportare direttamente in [DXF](Draft_DXF/it.md). Gli oggetti Sagoma pannello sono anche supportati dall\'ambiente [CAM](CAM_Workbench/it.md).
+
+
+</div>
 
 <img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
 
@@ -23,10 +32,16 @@ Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Ar
 
 ## Uso
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare uno o più oggetti [Pannello](Arch_Panel/it.md)
 2.  Premere il pulsante **<img src="images/Arch_Panel_Cut.svg" width=16px> [Sagoma pannello](Arch_Panel_Cut/it.md)
 **, o premere i tasti **P** e poi **C**
 3.  Regolare le proprietà desiderate
+
+
+</div>
 
 
 
@@ -117,6 +132,20 @@ FreeCAD.ActiveDocument.recompute()
 -   [Tutorial Wikihouse portabile](Wikihouse_porting_tutorial/it.md)
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/it
+⏵ [documentation index](../README.md) > Arch Panel Cut/it

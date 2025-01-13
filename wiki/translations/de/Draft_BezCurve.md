@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft BezCurve
    Name/de: Draft Bézierkurve
-   MenuLocation: Zeichnen , Bézierwerkzeuge , Bézierkurve
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Zeichnen , Bézierwerkzeuge , Bézierkurve<br>2D-Entwurf , Bézierkurve
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **B** **Z**
    Version: 0.14
    SeeAlso: Draft_CubicBezCurve/de, Draft_BSpline/de
@@ -32,8 +32,9 @@ Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) u
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_BezCurve.svg" width=16px> [Bézierkurve](Draft_BezCurve/de.md)** drücken.
-    -   Den Menüeintrag **Zeichnen → Bézierwerkzeuge → <img src="images/Draft_BezCurve.svg" width=16px> Bézierkurve** auswählen.
-    -   Das Tastaturkürzel **B** dann **Z**. {{Version/de|0.20}}
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Zeichnen → Bézierwerkzeuge → <img src="images/Draft_BezCurve.svg" width=16px> Bézierkurve** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **2D-Entwurf → <img src="images/Draft_BezCurve.svg" width=16px> Bézierkurve** auswählen.
+    -   Das Tastaturkürzel **B** dann **Z**.
 
 2.  Der Aufgaben-Bereich **Bézierkurve** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 
@@ -48,13 +49,13 @@ Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) u
 
 ## Optionen
 
-Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 1.0).
 
 -   Um die Koordinaten manuell einzugeben, werden die X-, Y- und Z-Komponente eingegeben und nach jeder Eingabe **Eingabe** (Enter) gedrückt. Man kann auch die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken, wenn die gewünschten Werte vorhanden sind. Es ist ratsam, vor der Eingabe der Koordinaten, den Mauszeiger aus der [3D-Ansicht](3D_view/de.md) heraus zu bewegen.
 
 -    **R**drücken oder das Kontrollkästchen **Relativ** anklicken, um den Relativ-Modus umzuschalten. Wenn der Relativ-Modus eingeschaltet ist, sind die Koordinaten relativ zum letzten Punkt, falls vorhanden, ansonsten beziehen sie sich auf den Ursprung des Koordinatensystems.
 
--    **G**drücken oder das Kontrollkästchen **Global** anklicken, um den Global-Modus umzuschalten. Wenn der Global-Modus eingeschaltet ist, beziehen sich die Koordinaten auf das globale Koordinatensystem, ansonsten auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+-    **G**drücken oder das Kontrollkästchen **Global** anklicken, um den Global-Modus umzuschalten. Wenn der Global-Modus eingeschaltet ist, beziehen sich die Koordinaten auf das globale Koordinatensystem, ansonsten auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md).
 
 -    **F**drücken oder das Kontrollkästchen **Füllen** anklicken, um den Füllmodus umzuschalten. Wenn der Füllmodus eingeschaltet ist, wird die {{PropertyData/de|Make Face}} der erstellten Kurve auf `True` gesetzt und die Kurve erhält eine gefüllte Fläche, vorausgesetzt, dass sie geschlossen ist und sich nicht selbst schneidet. Beachte, dass eine sich selbst schneidende Kurve mit einer Fläche nicht richtig angezeigt wird, für eine solche Kurve muss die {{PropertyData/de|Make Face}} auf `False` gesetzt werden.
 
@@ -131,7 +132,7 @@ Ein Draft Bézierkurven-Objekt (BezCurve object) wird von einem [Part Part2DObje
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Zum Erstellen einer Draft-Bézierkurve (BezCurve-Objekt) wird die Methode `make_bezcurve` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeBezCurve`.
 

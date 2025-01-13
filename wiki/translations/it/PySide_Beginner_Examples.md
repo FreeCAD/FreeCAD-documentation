@@ -33,17 +33,11 @@ carica le 2 parti di PySide - QtGui possiede le classi per la gestione dell\'int
 
 Le istruzioni di importazione non sono ripetute nei frammenti seguenti; si presume che venga fatto all\'inizio in ogni caso.
 
-## Simplest Example 
 
 
-<div class="mw-translate-fuzzy">
-
-## L\'esempio più semplice 
+## Esempio più semplice 
 
 L\'interazione più semplice con PySide è quella di presentare all\'utente un messaggio che può solo essere accettato:
-
-
-</div>
 
 
 ```python
@@ -52,17 +46,11 @@ reply = QtGui.QMessageBox.information(None,"","Houston, we have a problem")
 
 ![](images/PySideScreenSnapshot5.jpg )
 
-## Yes or No Query 
 
 
-<div class="mw-translate-fuzzy">
-
-## Richiedere una risposta Si o No 
+## Richiesta Sì o No 
 
 La successiva interazione semplice consiste nel chiedere di rispondere si o no:
-
-
-</div>
 
 
 ```python
@@ -83,17 +71,11 @@ if reply == QtGui.QMessageBox.No:
 
 ![](images/PySideScreenSnapshot6.jpg )
 
-## Enter Text Query 
 
-
-<div class="mw-translate-fuzzy">
 
 ## Richiedere l\'inserimento di un testo 
 
 La prossima parte di codice chiede all\'utente di inserire un testo. Notare che il testo può essere prodotto usando qualsiasi tasto della tastiera:
-
-
-</div>
 
 
 ```python
@@ -117,17 +99,11 @@ anInteger = int(userInput) # to convert to an integer from a string representati
 aFloat = float(userInput) # to convert to a float from a string representation
 ```
 
-## More Than 2 Buttons 
 
-
-<div class="mw-translate-fuzzy">
 
 ## Più di 2 pulsanti 
 
 L\'esempio finale del livello base spiega come costruire un dialogo con un numero arbitrario di pulsanti. Questo esempio è programmaticamente troppo complesso per essere invocato da una singola istruzione Python quindi dovrebbe essere contenuto nella pagina successiva, che è quella degli esempi PySide di livello medio. Ma d\'altra parte questo è sovente tutto ciò che è necessario senza entrare in definizioni GUI complesse, quindi questo codice viene posto alla fine della pagina del livello base di PySide invece che all\'inizio della pagina del livello medio.
-
-
-</div>
 
 
 ```python

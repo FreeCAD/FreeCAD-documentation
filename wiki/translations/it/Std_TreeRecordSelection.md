@@ -22,20 +22,22 @@ Il comando **Registra la selezione** attiva o disattiva la modalità RecordSelec
 
 1.  Esistono diversi modi per invocare il comando:
     -   Fare clic sulla freccia nera in basso a destra del pulsante **<img src="images/Std_TreeSyncView.svg" width=16px>** e seleziona l\'opzione **Registra la selezione** dal riquadro a comparsa. Nota: l\'immagine del pulsante cambierà a seconda dell\'opzione selezionata.
-    -   Selezionare l\'opzione **Visualizza → Azioni della vista ad albero → <img src="images/Std_TreeRecordSelection.svg" width=16px> Registra la selezione** dal menu.
+    -   Selezionare l\'opzione **Visualizza → Azioni della vista ad albero → Registra la selezione** dal menu.
     -   Usare la scorciatoia da tastiera: **T** poi **5**.
 
 
 
 ## Preferenze
 
-La modalità Registra la selezione della vista ad albero può essere impostata anche nell\'[Editor delle preferenze](Preferences_Editor/it#Selezione.md): **Modifica→ Preferenze → Generale → Selezione**.
+Vedere anche: [Editor delle Preferenze](Preferences_Editor/it.md).
+
+La modalità Registra la selezione della vista ad albero può essere impostata anche nelle preferenze: **Modifica→ Preferenze → Generale → Selezione → Registra la selezione nella vista ad albero per andare indietro/avanti utilizzando il pulsante di navigazione**.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

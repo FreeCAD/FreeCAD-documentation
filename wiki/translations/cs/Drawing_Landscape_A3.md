@@ -12,9 +12,17 @@ Jestliže se stránka nezobrazí, klikněte na obnovovací ikonu <img alt="" src
 
 <img alt="" src=images/Drawing_Page.png  style="width:500px;">
 
+
+
 ## Volby
 
--   Šablona použitá stránkou může být změněna přes její vlastnost Šablona v Pohledu data. Klikněte na pole s hodnotou, potom na tlačítko \"\...\" a vyhledejte [vhodnou šablonu](Drawing_templates/cs.md). Potom obnovte pohled.
+
+<div class="mw-translate-fuzzy">
+
+-   Šablona použitá stránkou může být změněna přes její vlastnost Šablona v Pohledu data. Klikněte na pole s hodnotou, potom na tlačítko \"\...\" a vyhledejte vhodnou šablonu. Potom obnovte pohled.
+
+
+</div>
 
 
 {{docnav|[Open scalable vector graphic](Drawing_Open_SVG.md)|[Insert a view](Drawing_View.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Drawing_Open_SVG.png|IconC=Workbench_Drawing.svg|IconR=Drawing_View.png}}

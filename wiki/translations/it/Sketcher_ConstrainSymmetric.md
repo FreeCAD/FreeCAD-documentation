@@ -1,101 +1,97 @@
-# Sketcher ConstrainSymmetric/it
 ---
- GuiCommand:   Name: Sketcher ConstrainSymmetric   Name/it: Simmetria   Workbenches: Sketcher Workbench/it   Schizzo---
+ GuiCommand:
+   Name: Sketcher ConstrainSymmetric
+   Name/it: Sketcher Vincolo simmetrico
+   MenuLocation: Schizzo , Vincoli Sketcher , Vincolo simmetrico
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **S**
+   SeeAlso: 
+---
+
+# Sketcher ConstrainSymmetric/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Il vincolo Simmetria forza due punti selezionati ad essere simmetrici rispetto ad una data linea. Entrambi i punti selezionati sono vincolati a giacere sulla normale alla linea di simmetria attraverso gli stessi due punti e sono vincolati equidistanti dalla linea.
+Lo strumento <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> [Sketcher Vincolo simmetrico](Sketcher_ConstrainSymmetric/it.md) vincola due punti ad essere simmetrici intorno ad una linea o asse, o intorno ad un terzo punto.
 
 
-</div>
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/SymmetricConstraint1.png  style="width:256px;">
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
 
-</div>
 
-Selezionare due punti (vertici) e una linea nello schizzo. La linea e i punti selezionati assumono il colore verde scuro.
+### [Modalità continua](Sketcher_Workbench/it#Continue_modes.md) 
 
+1.  Assicurarsi che non ci sia alcuna selezione.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> [Vincolo simmetrico](Sketcher_ConstrainSymmetric/it.md)**.
 
-<div class="mw-translate-fuzzy">
+    -   Selezionare l\'opzione **Schizzo → Vincoli Sketcher → <img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Vincolo simmetrico** dal menu.
 
-<img alt="" src=images/SymmetricConstraint2.png  style="width:256px;">
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [3D view](3D_view/it.md) e seleziona l\'opzione **Vincolo → <img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Vincolo simmetrico** dall\'elenco menu contestuale.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Fare clic sull\'icona <img alt="" src=images/Constraint_Symmetric.png  style="width:16px;"> nella barra degli strumenti di vincolo o selezionare il Vincolo Simmetria dal sottomenu dell\'ambiente Schizzo (o quello dell\'ambiente PartDesign).
-
-
-</div>
-
-Questo applica il vincolo agli elementi selezionati.
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/SymmetricConstraint3.png  style="width:256px;">
+    -   Usare la scorciatoia da tastiera: **S**.
+3.  Il cursore si trasforma in una croce con l\'icona dello strumento.
+4.  Effettuare una delle seguenti operazioni:
+    -   Selezionare due punti e un punto di simmetria (in questo ordine).
+    -   Selezionare due punti e una linea di simmetria (idem).
+    -   Selezionare un punto, una linea di simmetria e un altro punto (idem).
+    -   Selezionare una linea e un punto di simmetria (idem).
+5.  Viene aggiunto un vincolo.
+6.  Facoltativamente, continuare a creare vincoli.
+7.  Per terminare, fare clic con il pulsante destro del mouse o premere **Esc** oppure avviare un altro strumento di creazione di geometrie o vincoli.
 
 
-</div>
+
+### Modalità di esecuzione una sola volta 
+
+1.  Effettuare una delle seguenti operazioni:
+    -   Selezionare due punti e un punto di simmetria (in questo ordine).
+    -   Selezionare due punti e una linea di simmetria (in qualsiasi ordine).
+    -   Selezionare una linea e un punto di simmetria (idem).
+2.  Richiamare lo strumento come spiegato sopra o con la seguente opzione aggiuntiva:
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [3D view](3D_view/it.md) e selezionare l\'opzione **<img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Vincolo simmetrico** dal menu contestuale .
+3.  Viene aggiunto un vincolo.
 
 
-<div class="mw-translate-fuzzy">
+
+## Note
+
+-   Le frecce di questo vincolo mostrano il colore dei vincoli dimensionali.
 
 
-**Note:**
 
-se si desidera definire un vincolo di simmetria rispetto a un punto, l\'ordine della selezione è importante, a seconda che si selezioni lo strumento all\'inizio o alla fine.
+## Script
 
--   Se si fa prima clic sullo strumento: selezionare il primo punto, quindi il punto di riferimento di simmetria e infine il secondo punto.
--   Se si fa clic sullo strumento alla fine: selezionare il primo punto, quindi il secondo punto e infine il punto di riferimento di simmetria.
-
-
-</div>
-
-Vedere il tracker [issue #4144](https://freecadweb.org/tracker/view.php?id=4144), e la [discussione nel forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=39611).
-
-## Scripting
-
-Two points and a symmetry line:
+Due punti e una linea di simmetria:
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Symmetric', Line1, PointOfLine1, Line2, PointOfLine2, SymmetryLine))```
 
-Two points and a symmetry point:
+Due punti e un punto di simmetria:
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Symmetric', Line1, PointOfLine1, Line2, PointOfLine2, LineS, PointOfLineS))```
 
-A line and a symmetry point (In the GUI one can select a line and a point, but it uses internally the same form as above, with the two extremities of the same line):
+Una linea e un punto di simmetria (Nella GUI è possibile selezionare una linea e un punto, ma internamente utilizza la stessa forma di sopra, con le due estremità della stessa linea):
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Symmetric', Line, 1, Line, 2, LineS, PointOfLineS))```
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Line1`, `Line2`, `LineS`, `Line`, `PointOfLine1`, `PointOfLine2` and `PointOfLineS`, and contains further examples on how to create constraints from Python scripts.
-
-
-<div class="mw-translate-fuzzy">
+La pagina [Sketcher scripting](Sketcher_scripting/it.md) spiega i valori che possono essere utilizzati per `Line1`, `Line2`, `LineS`, `Line`, `PointOfLine1`, `PointOfLine2` e `PointOfLineS` e contiene ulteriori esempi su come creare vincoli da script Python.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

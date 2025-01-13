@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Erstellt eine Anordnung ausgewählter Skizzenelemente.
+Der Befehl <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:16px;"> [Sketcher RechteckigeAnordnung](Sketcher_RectangularArray/de.md) Erstellt eine Anordnung ausgewählter Skizzenelemente.
 
 
 

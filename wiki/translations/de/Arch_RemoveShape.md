@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Arch RemoveShape
    Name/de: Arch FormEntfernen
-   Workbenches: Arch_Workbench/de
-   MenuLocation: Architektur , Dienstprogramme , Entferne Form
+   MenuLocation: Utils , Form entfernen
+   Workbenches: BIM_Workbench/de
    SeeAlso: Arch_SplitMesh/de, Arch_MeshToShape/de
 ---
 
@@ -13,14 +13,14 @@
 
 ## Beschreibung
 
-Dieses Werkzeug versucht sich daran, die innere kubische Form einer **<img src="images/Arch_Wall.svg" width=16px> [Wand](Arch_Wall/de.md)** oder einer **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)** zu entfernen sowie ihre Eigenschaften anzupassen und sie damit vollständig zu parametrisieren. Dieses Werkzeug funktioniert nur, wenn die zugrundeliegende Form kubisch ist (genau 6 Flächen, alle Ecken haben nur rechte Winkel).
+Das Werkzeug **Arch FormEntfernen** versucht sich daran, die innere kubische Form einer [Arch-Wand](Arch_Wall/de.md) oder einer [Arch-Struktur](Arch_Structure/de.md) zu entfernen sowie ihre Eigenschaften anzupassen und sie damit vollständig zu parametrisieren. Dieses Werkzeug funktioniert nur, wenn die zugrundeliegende Form kubisch ist (genau 6 Flächen, alle Ecken haben nur rechte Winkel).
 
 
 
 ## Anwendung
 
-1.  Eine **<img src="images/Arch_Wall.svg" width=16px> [Wand](Arch_Wall/de.md)** oder eine **<img src="images/Arch_Structure.svg" width=16px>[Struktur](Arch_Structure/de.md)** auswählen
-2.  Die Schaltfläche **<img src="images/Arch_RemoveShape.svg" width=16px> [FormEntfernen](Arch_RemoveShape/de.md)** drücken oder den Menüeintrag **Arch** → **Dientsprogramme** → **<img src="images/Arch_RemoveShape.svg" width=16px> [FormEntfernen](Arch_RemoveShape/de.md)** auswählen.
+1.  Eine [Arch-Wand](Arch_Wall/de.md) oder eine [Arch-Struktur](Arch_Structure/de.md) auswählen.
+2.  Den Menüeintrag **Utils → <img src="images/Arch_RemoveShape.svg" width=16px> Form entfernen** auswählen.
 
 
 
@@ -31,7 +31,9 @@ Dieses Werkzeug versucht sich daran, die innere kubische Form einer **<img src="
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Dieses Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch folgende Funktion verwendet werden: 
+Dieses Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch folgende Funktion verwendet werden:
+
+
 ```python
 removeShape(objs, mark=True)
 ```
@@ -62,5 +64,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/de
+⏵ [documentation index](../README.md) > Arch RemoveShape/de

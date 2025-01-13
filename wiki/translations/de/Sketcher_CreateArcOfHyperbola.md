@@ -2,11 +2,11 @@
  GuiCommand:
    Name: Sketcher CreateArcOfHyperbola
    Name/de: Sketcher HyperbelbogenErstellen
-   MenuLocation: Sketch , Skizzengeometrien , Hyperbelbogen erstellen
+   MenuLocation: Skizze , Skizzengeometrien , Hyperbelbogen erstellen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **H**
    Version: 0.17
-   SeeAlso: Sketcher_CreateArcOfEllipse/de, Sketcher_CreateArcOfParabola/de
+   SeeAlso: Sketcher_CreateArcOfParabola/de
 ---
 
 # Sketcher CreateArcOfHyperbola/de
@@ -15,19 +15,39 @@
 
 ## Beschreibung
 
-Dieses Werkzeug erstellt einen Hyperbelbogen mit Mittelpunkt, Scheitelpunkt (Hauptradius) und Endpunkten.
+Das Werkzeug <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width:24px;"> [Hyperbelbogen erstellen](Sketcher_CreateArcOfHyperbola/de.md) erstellt einen Hyperbelbogen.
 
-![](images/Sketcher_Arc_of_Hyperbola_01.png )
+![](images/Sketcher_CreateArcOfHyperbola_Example.png ) 
+*Hyperbelbogen (weiß) mit interner Geometrie (dunkelgelb)*
 
 
 
 ## Anwendung
 
-1.  Die Schaltfläche **[<img src=images/Sketcher_CreateArcOfHyperbola.svg style="width:16px"> [Hyperbelbogen erstellen](Sketcher_CreateArcOfHyperbola/de.md)** drücken.
-2.  In die 3D-Ansicht klicken, um den Mittelpunkt des Hauptradius zu definieren (in der Abbildung oben mit 1 gekennzeichnet).
-3.  In die 3D-Ansicht klicken, um die Länge des Hauptradius zu definieren, der gleichzeitig der Scheitelpunkt des Hyperbelbogens ist (im Bild oben mit 2 gekennzeichnet).
-4.  Die Maus von den beiden zuletzt ausgewählten Punkten weg bewegen, um zu sehen, wie der Bogen aussehen wird. Erneut klicken, wenn die ungefähre gewünschte Krümmung angezeigt wird. Dieser Punkt definiert den ersten Endpunkt (in der obigen Abbildung mit 3 gekennzeichnet).
-5.  Ein viertes Mal in die 3D-Ansicht klicken, um den anderen Endpunkt zu definieren (in der Abbildung oben mit 4 gekennzeichnet).
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
+
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Sketcher_CreateArcOfHyperbola.svg" width=16px> [Hyperbelbogen erstellen](Sketcher_CreateArcOfHyperbola/de.md)** drücken.
+    -   Den Menüeintrag **Skizze → Skizzengeometrien → <img src="images/Sketcher_CreateArcOfHyperbola.svg" width=16px> Hyperbelbogen erstellen** auswählen.
+    -   Das Tastaturkürzel **G** dann **H**.
+2.  Der Mauszeiger wandelt sich zu einem Kreuz mit Werkzeugsymbol.
+3.  Den Mittelpunkt des Hauptradius des Bogens auswählen
+
+(in der Abbildung oben mit 1 gekennzeichnet).
+
+1.  Den Scheitelpunkt des Bogens auswählen (in der Abbildung oben mit 2 gekennzeichnet); dies legt auch den Hauptradius fest.
+2.  Den Startpunkt des Bogens auswählen (in der Abbildung oben mit 3 oder 4 gekennzeichnet); dies legt auch seine Krümmung fest.
+3.  Den Endlpunkt des Bogens auswählen (in der Abbildung oben mit 3 oder 4 gekennzeichnet).
+4.  Der Hyperbelbogen wird erstellt inklusive der internen Geometrie.
+5.  Läuft das Werkzeug im [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md):
+    1.  Wahlweise weitere Kreise erstellen.
+    2.  Zum Beenden die rechte Maustaste oder **Esc** drücken; oder ein anderes Werkzeug zum Erstellen von Geometrien oder Randbedingungen aufrufen.
+
+
+
+## Hinweise
+
+-   Die Elemente der internen Geometrie können gelöscht werden. Sie können jederzeit mit [Sketcher RestoreInterna/delInterneAusrichtungsgeometrieWiederherstellen](Sketcher_RestoreInternalAlignmentGeometry.md) wiederhergestellt werden.
 
 
 

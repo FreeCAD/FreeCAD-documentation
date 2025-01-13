@@ -26,5 +26,13 @@ To turn this check on go to **Tools → Edit Parameters → Preferences... → M
 
 
 
+
+
+{{Part_Tools_navi
+
+}}
+
+
+
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/en

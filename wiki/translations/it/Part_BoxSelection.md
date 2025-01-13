@@ -1,33 +1,41 @@
 ---
  GuiCommand:
    Name: Part BoxSelection
-   Name/it: Part BoxSelection
+   Name/it: Part Box di selezione
    MenuLocation: Part , Box di selezione
    Workbenches: Part_Workbench/it
    Version: 0.18
-   SeeAlso: Std_BoxSelection/it, Std_BoxElementSelection/it, Std_SelectAll/it
+   SeeAlso: Std_BoxSelection/it, Std_BoxElementSelection/it
 ---
 
 # Part BoxSelection/it
 
+
+
 ## Descrizione
 
-[Box di selezione](Part_BoxSelection/it.md) di Part consente di selezionare le facce degli oggetti sullo schermo che vengono toccate dalla selezione rettangolare.
+Il comando <img alt="" src=images/Part_BoxSelection.svg  style="width:24px;"> **Part Box di selezione** seleziona le facce da un\'area rettangolare definita dall\'utente, un riquadro, nella [Vista 3D](3D_view/it.md).
 
-**In alternativa**, se si desidera selezionare solo i vertici di un oggetto si può usare **<img src="images/Std_BoxElementSelection.svg" width=16px> [Seleziona elementi](Std_BoxElementSelection/it.md)**. Se si desidera selezionare l\'intera forma si può usare **<img src="images/Std_BoxSelection.svg" width=16px> [Box di selezione](Std_BoxSelection/it.md)**.
+
 
 ## Utilizzo
 
-1.  Andare in **Part → <img src="images/Part_BoxSelection.svg" width=16px> Box di selezione**.
-2.  Fare clic e trascinare il puntatore nella finestra creando un rettangolo che tocchi una o più forme.
+1.  Selezionare l\'opzione **Modifica → <img src="images/Part_BoxSelection.svg" width=16px> Box di selezione** dal menu.
+2.  Trascinare un rettangolo per selezionare le facce che sono (parzialmente) all\'interno del rettangolo o toccate da esso.
+
+
 
 ## Note
 
-## Proprietà
+-   Per selezionare in un riquadro interi oggetti utilizzare invece [Std Box di selezione](Std_BoxSelection/it.md).
 
-## Limitazioni
 
-## Script
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

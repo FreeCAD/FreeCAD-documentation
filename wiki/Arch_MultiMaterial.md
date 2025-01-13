@@ -4,7 +4,7 @@
    MenuLocation: Arch , Material tools , Multi-Material
    Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.17
-   SeeAlso: Arch_SetMaterial, Arch_CompSetMaterial
+   SeeAlso: Arch_SetMaterial
 ---
 
 # Arch MultiMaterial
@@ -53,5 +53,10 @@ This roughly corresponds to a combination of [IfcMaterialLayerSet](https://stand
 
 
 
+
+ {{BIM_Tools_navi}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial
+⏵ [documentation index](../README.md) > Arch MultiMaterial

@@ -7,6 +7,8 @@ In questo esercizio, andremo a creare un nuovo strumento che disegna una linea p
 
 Questo strumento può essere collegato a un comando di FreeCAD, e tale comando può essere chiamato da un qualsiasi elemento dell\'interfaccia, ad esempio da una voce di menu o da un pulsante in una barra degli strumenti.
 
+
+
 ## Lo script principale 
 
 Per prima cosa scriviamo uno script che contenga tutta la nostra funzionalità. Dopo, salviamo questo script in un file e lo importiamo in FreeCAD, in modo che tutte le classi e le funzioni che scriviamo diventino disponibili in FreeCAD. Lanciamo perciò il nostro editor di testo preferito, e digitiamo le seguenti righe:
@@ -40,6 +42,8 @@ class line:
 
 
 {{Top}}
+
+
 
 ### Spiegazione dettagliata 
 
@@ -254,6 +258,8 @@ Siccome con la nostra linea abbiamo finito, terminiamo il meccanismo di callback
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Test e Utilizzo dello script 
@@ -327,6 +333,8 @@ Poi, clicchiamo due volte nella vista 3D, e bingo, ecco la nostra linea! Per far
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -442,6 +450,8 @@ Questo è tutto, ora basta riavviare FreeCAD e avremo un bell\'ambiente di lavor
 
 
 {{Top}}
+
+
 
 ### Cosa si può aggiungere? 
 

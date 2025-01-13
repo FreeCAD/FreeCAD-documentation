@@ -51,30 +51,34 @@ If the mesher is installed, make sure the FEM Workbench is able to find the bina
 
 ### Netgen
 
-In order to create a FEM Mesh, you can use *Netgen* as an alternative to *Gmsh*. Depending on your operating system and your FreeCAD installation Netgen may be bundled with the FreeCAD installation binaries.
+In order to create a FEM Mesh, you can use *Netgen* as an alternative to *Gmsh*. Depending on your operating system and your FreeCAD installation, Netgen may be bundled with the FreeCAD installation binaries.
 
-If the program is correctly installed, you can run the command `netgen` in the terminal under Linux to launch the graphical interface of the program.
+If the program is correctly installed, you can run the command `netgen` in the terminal under Linux to launch the graphical interface of the program:
 
 
 {{SystemInput|User@PC:~$ netgen -V}}
 
 
+<small>(v1.0)</small> 
+
+: A new improved Netgen implementation is available. Thanks to it, Netgen can finally be used with FreeCAD on Linux. Netgen Python bindings have to be installed to use the new implementation:
+
+
 ```python
-NETGEN-6.2-dev
-Developed by Joachim Schoeberl at
-2010-xxxx Vienna University of Technology
-2006-2010 RWTH Aachen University
-1996-2006 Johannes Kepler University Linz
-Including OpenCascade geometry kernel
-Run parallel Netgen with 'mpirun -np xy netgen'
-NETGENDIR = .
-Tcl header version = 8.6.8
-Tcl runtime version = 8.6.8 
-using internal Tcl-script
-optfile ./ng.opt does not exist - using default values
-togl-version : 2
-OCC module loaded
+pip install --upgrade ngsolve
 ```
+
+If the above command is not sufficient, one can try the following from the [Python console](Python_console.md) in FreeCAD:
+
+
+```python
+import os, subprocess
+temp_dir = os.path.dirname(os.sys.executable)
+py_path = os.path.join(temp_dir, "python")
+subprocess.run([py_path, "-m", "pip", "install", "--user", "netgen-mesher"])
+```
+
+or compile Netgen from the source. This might be necessary for Windows users and computers with old CPUs - an explanation can be found in [this](https://forum.ngsolve.org/t/problems-with-netgen-pip-package/3078/2) thread on the Netgen forum.
 
 ## Installing on Windows 
 
@@ -176,6 +180,21 @@ linux-vdso.so.1 (0x00007fffbabdc000)
  libutil.so.1 => /lib/x86_64-linux-gnu/libutil.so.1 (0x00007fe9b7e14000)
  libnuma.so.1 => /usr/lib/x86_64-linux-gnu/libnuma.so.1 (0x00007fe9b7c09000)
  libltdl.so.7 => /usr/lib/x86_64-linux-gnu/libltdl.so.7 (0x00007fe9b79ff000)
+```
+
+One of the aforementioned dependencies (`libgfortran.so.4`) needed for CalculiX may cause issues with newer Ubuntu releases where only `libgfortran5` is available. Apart from using the old CalculiX version (2.17) available via `sudo apt-get install calculix-ccx`, one may build a new version of CalculiX. It\'s not necessary to do it manually since there is a script hosted on [this website](https://www.feacluster.com/install/install) that can be obtained and used with the following commands:
+
+
+```python
+wget https://feacluster.com/install/install
+perl install
+```
+
+The script is interactive and asks for some inputs like the matrix solver type (Spooles or Pardiso). To build a different version of CalculiX just change the following line in the script:
+
+
+```python
+$version = '2.2x';
 ```
 
 ### Compile CalculiX 

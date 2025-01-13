@@ -16,12 +16,12 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 
 ### FreeCAD kompilieren 
 
--   [Github Repo](https://github.com/FreeCAD/FreeCAD). Wenn du neu bei Git bist, lies [Quellcode Verwaltung](Source_code_management/de.md)
--   [Kompilieren mit Docker](Compile_on_Docker.md)
+-   [Github Repo](https://github.com/FreeCAD/FreeCAD). Wenn du neu bei Git bist, lies [Quellcode-Verwaltung](Source_code_management/de.md)
+-   [Kompilieren mit Docker](Compile_on_Docker/de.md)
 -   [Kompilieren auf Windows](Compile_on_Windows/de.md)
 -   [Komplieren auf Unix](Compile_on_Linux/de.md)
 -   [Kompilieren auf Mac OS X](Compile_on_MacOS/de.md)
--   [Lizenz](Licence/de.md) über die FreeCAD Lizenzen
+-   [Lizenzdetails](License/de.md) über die FreeCAD-Lizenzen
 -   [Drittanbieter Bibliotheken](Third_Party_Libraries/de.md)
 -   [Drittanbieter Werkzeuge](Third_Party_Tools/de.md)
 -   [Programmstart und Konfiguation](Start_up_and_Configuration/de.md)

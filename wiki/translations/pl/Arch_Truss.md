@@ -1,80 +1,95 @@
 ---
  GuiCommand:
    Name: Arch Truss
-   MenuLocation: Arch , Truss
-   Workbenches: Arch_Workbench
+   Name/pl: BIM: Wiązar
+   MenuLocation: 3D / BIM , Wiązar
+   Workbenches: BIM_Workbench/pl
    Version: 0.19
 ---
 
 # Arch Truss/pl
 
-## Description
 
-The [Arch Truss](Arch_Truss.md) tool builds a [truss](https://en.wikipedia.org/wiki/Truss) object, either from a selected linear object (lie a [Draft Line](Draft_Line.md) or [Sketch](Sketcher_NewSketch.md)), or from scratch, if no object is selected when launching the command.
+
+## Opis
+
+Narzędzie **Wiązar** tworzy obiekt [wiązara](https://pl.wikipedia.org/wiki/Wi%C4%85zar_(budownictwo)) z wybranego obiektu liniowego *(takiego jak [linia](Draft_Line/pl.md) lub [szkic](Sketcher_NewSketch/pl.md))* lub od podstaw, jeśli żaden obiekt nie został wybrany podczas uruchamiania polecenia.
 
 <img alt="" src=images/Arch_Truss_example.png  style="width:600px;">
 
-## Usage
 
-### Creating from a selected object 
 
-1.  Use a workbench of your choice to create a single line
-2.  Select that line
-3.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Arch Truss](Arch_Truss.md)** button
-4.  Adjust the truss properties to your liking
+## Użycie
 
-### Creating from scratch 
 
-1.  Make sure nothing is selected
-2.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Arch Truss](Arch_Truss.md)** button
-3.  Click in the 3D view to define a first point, or manually enter X, Y and Z coordinates
-4.  Click in the 3D view to define a second point, or manually enter X, Y and Z coordinates
-5.  Adjust the truss properties to your liking
 
-## Properties
+### Tworzenie z wybranego obiektu 
 
-### Data
+1.  Użyj wybranego środowiska pracy, aby utworzyć pojedynczą linię
+2.  Wybierz tę linię.
+3.  Naciśnij przycisk **<img src="images/Arch_Truss.svg" width=16px> '''Wiązar'''**.
+4.  Dostosuj właściwości kratownicy do swoich potrzeb.
 
--    **TrussAngle**: The angle of the truss
 
--    **SlantType**: The slant type of this truss
 
--    **Normal**: The normal direction of this truss
+### Tworzenie od podstaw 
 
--    **HeightStart**: The height of the truss at the start position
+1.  Upewnij się, że nic nie jest zaznaczone
+2.  Naciśnij przycisk **<img src="images/Arch_Truss.svg" width=16px> '''Wiązar'''**.
+3.  Kliknij w widoku 3D, aby zdefiniować pierwszy punkt lub ręcznie wprowadź współrzędne X, Y i Z.
+4.  Kliknij w widoku 3D, aby zdefiniować drugi punkt lub ręcznie wprowadź współrzędne X, Y i Z.
+5.  Dostosuj właściwości kratownicy do własnych potrzeb.
 
--    **HeightEnd**: The height of the truss at the end position
 
--    **StrutStartOffset**: An optional start offset for the top strut
 
--    **StrutEndOffset**: An optional end offset for the top strut
+## Właściwości
 
--    **StrutHeight**: The height of the main top and bottom elements of the truss
 
--    **StrutWidth**: The width of the main top and bottom elements of the truss
 
--    **RodType**: The type of the middle element of the truss
+### Dane
 
--    **RodDirection**: The direction of the rods
+-    **TrussAngle**: Kąt kratownicy.
 
--    **RodSize**: The diameter or side of the rods
+-    **SlantType**: Typ skosu kratownicy.
 
--    **RodSections**: The number of rod sections
+-    **Normal**: Kierunek normalny kratownicy.
 
--    **RodEnd**: If the truss has a rod at its endpoint or not
+-    **HeightStart**: Wysokość kratownicy w pozycji początkowej.
 
--    **RodMode**: How to draw the rods
+-    **HeightEnd**: Wysokość kratownicy w pozycji końcowej.
 
-## Scripting
+-    **StrutStartOffset**: Opcjonalne przesunięcie początkowe dla górnej rozpórki.
 
-The Truss tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+-    **StrutEndOffset**: Opcjonalne przesunięcie końcowe dla górnej rozpórki.
+
+-    **StrutHeight**: Wysokość głównych górnych i dolnych elementów kratownicy.
+
+-    **StrutWidth**: szerokość głównego górnego i dolnego elementu kratownicy.
+
+-    **RodType**: Typ środkowego elementu kratownicy.
+
+-    **RodDirection**: Kierunek prętów.
+
+-    **RodSize**: Średnica lub bok prętów.
+
+-    **RodSections**: Liczba sekcji prętów.
+
+-    **RodEnd**: Czy kratownica ma pręt w punkcie końcowym, czy nie.
+
+-    **RodMode**: Sposób rysowania prętów.
+
+
+
+## Tworzenie skryptów 
+
+Narzędzie **Wiązar** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python
 Truss = makeFence([baseobj])
 ```
 
-Example:
+Przykład:
 
 
 ```python
@@ -93,5 +108,13 @@ truss.HeightEnd = 400
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/pl
+⏵ [documentation index](../README.md) > Arch Truss/pl

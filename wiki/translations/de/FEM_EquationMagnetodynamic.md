@@ -13,6 +13,14 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 
+## Description
+
+
+</div>
+
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
 This equation perform analyses using the [Maxwell\'s equations](https://en.wikipedia.org/wiki/Maxwell%27s_equations).
 
 

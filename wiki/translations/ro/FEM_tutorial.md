@@ -231,6 +231,10 @@ Am terminat acum cu fluxul de lucru de bază pentru [FEM Workbench](FEM_Workbenc
 
 </div>
 
+## Notes
+
+-   For a video tutorial based on this written tutorial watch: [FEM MaterialReinforced tutorial](https://www.youtube.com/watch?v=SZTIqhfCSVc).
+
 
 {{FEM Tools navi
 

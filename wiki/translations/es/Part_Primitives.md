@@ -84,12 +84,12 @@ The properties of a Part Primitive can also be changed in the [Property editor](
 Se pueden crear las siguientes Primitivas:
 
 -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plano](Part_Plane/es.md): Crea un Plano.
--   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Caja](Part_Box/es.md): Crea una Caja. Este objeto puede ser creado también con la herramienta <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cubo](Part_Box/es.md) .
--   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cilindro](Part_Cylinder/es.md): Este objeto puede ser creado también con la herramienta <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cilindro](Part_Cylinder/es.md) .
--   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cono](Part_Cone/es.md): Crea un Cono. Este objeto puede ser creado también con la herramienta <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cono](Part_Cone/es.md) .
--   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Esfera](Part_Sphere/es.md): Crea una Esfera. Este objeto puede ser creado también con la herramienta <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Esfera](Part_Sphere/es.md) .
+-   <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Caja](Part_Box/es.md): Crea una Caja. Este objeto puede ser creado también con la herramienta [Cubo](Part_Box/es.md).
+-   <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cilindro](Part_Cylinder/es.md): Este objeto puede ser creado también con la herramienta [Cilindro](Part_Cylinder/es.md).
+-   <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cono](Part_Cone/es.md): Crea un Cono. Este objeto puede ser creado también con la herramienta [Cono](Part_Cone/es.md).
+-   <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Esfera](Part_Sphere/es.md): Crea una Esfera. Este objeto puede ser creado también con la herramienta [Esfera](Part_Sphere/es.md).
 -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Elipsoide](Part_Ellipsoid/es.md): Crea un Elipsoide.
--   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Toro](Part_Torus/es.md): Crea un Toro. Este objeto puede ser creado también con la herramienta <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Toro](Part_Torus/es.md) .
+-   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Toro](Part_Torus/es.md): Crea un Toro. Este objeto puede ser creado también con la herramienta [Toro](Part_Torus/es.md).
 -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisma](Part_Prism/es.md): Crea un Prisma.
 -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Cuña](Part_Wedge/es.md): Crea una Cuña.
 -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Hélice](Part_Helix/es.md): Crea una Hélice.

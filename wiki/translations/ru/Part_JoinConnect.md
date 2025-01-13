@@ -9,21 +9,25 @@
 
 # Part JoinConnect/ru
 
+
+
 ## Описание
 
-Connect tool connects interiors of two walled objects (e.g., pipes). It can also join shells and wires.
+The <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> **Part JoinConnect** tool connects the interiors of two walled objects (e.g. pipes). It can also join shells and wires.
 
 ![600px](images/JoinFeatures_Connect.png)
 
+
+
 ## Применение
 
-1.  Select objects to be connected.
-    The order of selection is not important, since the action of the tool is symmetric. It is enough to select one sub-shape of each object (e.g., faces). You can also select a compound containing all the shapes to be connected, e.g. [Draft OrthoArray](Draft_OrthoArray.md).
-2.  Invoke the Part JoinConnect command using several ways:
-    -   Press the <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Part JoinConnect](Part_JoinConnect.md) button in the Part toolbar
-    -   Use the **Part → Join → Connect objects** entry in the Part menu
+1.  Select objects to be connected. The order of selection is not important, since the action of the tool is symmetric. It is enough to select one sub-shape of each object (e.g., faces). You can also select a compound containing all shapes to be connected, e.g. a [Draft OrthoArray](Draft_OrthoArray.md).
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Part_JoinConnect.svg" width=16px> [Connect objects](Part_JoinConnect.md)** button.
+    -   Select the **Part → Join → <img src="images/Part_JoinConnect.svg" width=16px> Connect objects** option from the menu.
+3.  A Connect parametric object is created. Original objects are hidden, and the result of connecting is shown in the [3D view](3D_view.md).
 
-A Connect parametric object is created. Original objects are hidden, and the result of connecting is shown in [3D view](3D_view.md).
+
 
 ## Свойства
 
@@ -35,6 +39,8 @@ A Connect parametric object is created. Original objects are hidden, and the res
 -    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in [PartDesign Preferences](PartDesign_Preferences.md).
 
 -    **Tolerance**: \"fuzziness\" value. This is an extra tolerance to apply when searching for intersections, in addition to tolerances stored in the input shapes.
+
+
 
 ## Пример
 
@@ -64,6 +70,8 @@ The algorithms behind Join tools are quite simple, and understanding them is imp
 -   The \"largest\" piece is the one that has largest mass. That is, for solids, volumes are compared; for shells and faces, areas are compared, and so on.
 -   Since FreeCAD v0.17.8053, and if OCC version is 6.9.0 and above, Connect is almost as fast as all other Boolean operations. For older versions, Connect is approximately 5 times slower than a regular Boolean operation, and works only on solids.
 
+
+
 ## Программирование
 
 The Join tools can by used in [macros](Macros.md) and from the [Python console](Python_console.md) by using the following function:
@@ -89,6 +97,20 @@ j.Objects = FreeCADGui.Selection.getSelection()
 }}
 
 The tool itself is implemented in Python, see **/Mod/Part/BOPTools/JoinFeatures.py** ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) under where FreeCAD is installed.
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

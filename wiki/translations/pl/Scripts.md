@@ -56,31 +56,32 @@ Minimalny przykład tego, co jest niezbędne w skrypcie, jest pokazany w tym fra
 
 import FreeCAD
 from FreeCAD import Placement, Rotation, Vector
+import FreeCADGui
 
-DOC = FreeCAD.activeDocument()
 DOC_NAME = "Wiki_Example"
-
-# Helpers methods
-
-def clear_doc():
-    """Clear activeDocument deleting all the objects."""
-    for obj in DOC.Objects:
-        DOC.removeObject(obj.Name)
-
-def setview():
-    """Rearrange View."""
-    FreeCAD.Gui.SendMsgToActiveView("ViewFit")
-    FreeCAD.Gui.activeDocument().activeView().viewAxometric()
-
-if DOC is None:
-    FreeCAD.newDocument(DOC_NAME)
-    FreeCAD.setActiveDocument(DOC_NAME)
-    DOC = FreeCAD.activeDocument()
-else:
-    clear_doc()
+DOC = FreeCAD.newDocument(DOC_NAME)
+FreeCAD.setActiveDocument(DOC.Name)
 
 ROT0 = Rotation(0, 0, 0)
 VEC0 = Vector(0, 0, 0)
+
+# Helper function
+
+def set_view():
+    """Rearrange View."""
+    if not FreeCAD.GuiUp:
+        return
+    doc = FreeCADGui.ActiveDocument
+    if doc is None:
+        return
+    view = doc.ActiveView
+    if view is None:
+        return
+    # Check if the view is a 3D view:
+    if not hasattr(view, "getSceneGraph"):
+        return
+    view.viewAxometric()
+    view.fitAll()
 ```
 
 Powyższy kod zawiera kilka sztuczek:
@@ -93,7 +94,7 @@ Zacznijmy od małego skryptu, który wykonuje bardzo małą pracę, ale pokazuje
 
 
 ```python
-# Script methods
+# Script functions
 
 def my_box(name, len, wid, hei):
     """Create a box."""
@@ -110,14 +111,14 @@ def my_box(name, len, wid, hei):
 
 obj = my_box("test_cube", 5, 5, 5)
 
-setview()
+set_view()
 ```
 
-Wpisz powyższe linie kodu po `# Script methods` i naciśnij zieloną strzałkę na pasku narzędzi **Makrodefinicje**.
+Wpisz powyższe linie kodu po `# Script functions` i naciśnij zieloną strzałkę na pasku narzędzi **Makrodefinicje**.
 
 Zobaczysz kilka magicznych rzeczy, otworzy się nowy dokument o nazwie \"Wiki_example\", a w widoku 3D zobaczysz [Sześcian](Part_Box/pl.md), taki jak na poniższym obrazku.
 
-![Sześcian testowy.](images/Cubo.png )
+![Test cube](images/Cubo.png )
 
 
 
@@ -142,7 +143,7 @@ def my_cyl(name, ang, rad, hei):
 Nawet tutaj nie ma nic zbyt ekscytującego. Warto jednak zwrócić uwagę na kilka osobliwości:
 
 -   Brak zwykłego odniesienia do `App.`, obecnego w wielu fragmentach kodu Dokumentacji, jest zamierzony, kod ten może być użyty nawet do wywołania FreeCAD jako modułu w zewnętrznym interpreterze Pythona, nie jest to łatwe do zrobienia z AppImage, ale z pewną ostrożnością można to zrobić. Plus w standardowym motto Pythona, że \"lepiej jawnie niż niejawnie\" `App.` wyjaśnia w bardzo \"kiepski\" sposób, skąd pochodzą rzeczy.
--   Zwróć uwagę na użycie \"stałej\" nazwy przypisanej do aktywnego Dokumentu w `DOC` = `FreeCAD. activeDocument()`; activeDocument nie jest \"stałą\" w ścisłym sensie, ale w sposób \"semantyczny\" jest naszym \"aktywnym dokumentem\", który dla naszego użytku jest właściwą \"stałą\", więc konwencja Pythona polega na używaniu nazwy \"ALL CAPS\" dla \"stałych\", nie wspominając o tym, że `DOC` jest znacznie krótszy niż `FreeCAD.activeDocument()`.
+-   Zwróć uwagę na użycie \"stałej\" nazwy przypisanej do aktywnego Dokumentu w `DOC &#61; FreeCAD. activeDocument()`; activeDocument nie jest \"stałą\" w ścisłym sensie, ale w sposób \"semantyczny\" jest naszym \"aktywnym dokumentem\", który dla naszego użytku jest właściwą \"stałą\", więc konwencja Pythona polega na używaniu nazwy \"ALL CAPS\" dla \"stałych\", nie wspominając o tym, że `DOC` jest znacznie krótszy niż `FreeCAD.activeDocument()`.
 -   Każda metoda zwraca geometrię, będzie to jasne w dalszej części strony.
 -   Geometria nie miała właściwości `Placement`, podczas używania prostych geometrii do tworzenia bardziej złożonych geometrii, zarządzanie `Placement` jest kłopotliwe.
 
@@ -177,7 +178,7 @@ obj1 = my_cyl("test_cyl", 360, 2, 10)
 
 fuse_obj("Fusion", obj, obj1)
 
-setview()
+set_view()
 ```
 
 Uruchom skrypt za pomocą zielonej strzałki, a w widoku 3D zobaczymy coś takiego:
@@ -212,7 +213,7 @@ Ale ponad innymi rozważaniami, jedna rzecz jest kluczowa, geometria **punkt odn
 
 Informacje te należy mieć na uwadze, zwłaszcza gdy musimy zastosować rotację.
 
-Kilka przykładów może pomóc, usuń całą linię po metodzie `my_cyl` i wstaw poniższy fragment kodu:
+Kilka przykładów może pomóc, usuń funkcję `my_box` i wszystkie linie po funkcji `my_cyl` i wstaw poniższy fragment kodu po funkcji `my_cyl`:
 
 
 ```python
@@ -286,7 +287,7 @@ def airplane():
 
 airplane()
 
-setview()
+set_view()
 
 ```
 
@@ -295,7 +296,7 @@ Wyjaśnijmy coś w kodzie:
 -   Zastosowaliśmy metodę definiowania sfery, używając najprostszej definicji, używając tylko promienia.
 -   Wprowadziliśmy drugi zapis dla **Union** lub **Fusion**, używający wielu obiektów, nie bardziej odległy od zwykłego **Part::Fuse**, który używa **Part:Multifuse**. Używamy tylko jednej właściwości `Shapes`. Przekazaliśmy **krotkę** jako argumenty, ale akceptuje ona również **listę**.
 -   Zdefiniowaliśmy złożony obiekt **airplane**, ale zrobiliśmy to w **parametryczny** sposób, definiując niektóre parametry i wyprowadzając inne parametry, poprzez pewne obliczenia, w oparciu o główne parametry.
--   Użyliśmy kilku właściwości `Umiejscowienie` w metodzie, a przed zwróceniem ostatecznych geometrii użyliśmy właściwości `Obrót` z napisem *Przechylenie-Pochylenie-Odchylenie*. Zwróć uwagę na ostatni `Vector(0, 0, tail_position)`, który definiuje **środek obrotu** całej geometrii.
+-   Użyliśmy kilku właściwości `Placement` w metodzie, a przed zwróceniem ostatecznych geometrii użyliśmy właściwości `Rotation` z napisem *Przechylenie-Pochylenie-Odchylenie*. Zwróć uwagę na ostatni `Vector(0, 0, tail_position)`, który definiuje **środek obrotu** całej geometrii.
 
 ++++
 | ![Przykładowy samolot](images/Aereo.png ) | ![Samolot obrócony](images/Aereo2.png ) | ![Właściwość umiejscowienia](images/Aereo-prop.png ) |
@@ -353,40 +354,41 @@ License:
     Creative Commons Attribution 3.0
 
 Summary:
-    This code is a sample code written for FreeCAD Wiki page.
-    It create and airplane shaped solid made using standard "Part WB" built in shapes.
+    This is sample code written for a FreeCAD Wiki page.
+    It creates an airplane shaped solid using standard "Part WB" shapes.
 
 """
 
 import FreeCAD
 from FreeCAD import Placement, Rotation, Vector
+import FreeCADGui
 
-DOC = FreeCAD.activeDocument()
 DOC_NAME = "Wiki_Example"
-
-# Helpers methods
-
-def clear_doc():
-    """Clear activeDocument deleting all the objects."""
-    for obj in DOC.Objects:
-        DOC.removeObject(obj.Name)
-
-def setview():
-    """Rearrange View."""
-    FreeCAD.Gui.SendMsgToActiveView("ViewFit")
-    FreeCAD.Gui.activeDocument().activeView().viewAxometric()
-
-if DOC is None:
-    FreeCAD.newDocument(DOC_NAME)
-    FreeCAD.setActiveDocument(DOC_NAME)
-    DOC = FreeCAD.activeDocument()
-else:
-    clear_doc()
+DOC = FreeCAD.newDocument(DOC_NAME)
+FreeCAD.setActiveDocument(DOC.Name)
 
 ROT0 = Rotation(0, 0, 0)
 VEC0 = Vector(0, 0, 0)
 
-# Script methods
+# Helper function
+
+def set_view():
+    """Rearrange View."""
+    if not FreeCAD.GuiUp:
+        return
+    doc = FreeCADGui.ActiveDocument
+    if doc is None:
+        return
+    view = doc.ActiveView
+    if view is None:
+        return
+    # Check if the view is a 3D view:
+    if not hasattr(view, "getSceneGraph"):
+        return
+    view.viewAxometric()
+    view.fitAll()
+
+# Script functions
 
 def my_cyl(name, ang, rad, hei):
     """Create a Cylinder."""
@@ -469,7 +471,7 @@ def airplane():
 
 airplane()
 
-setview()
+set_view()
 ```
 
 

@@ -26,6 +26,12 @@ Narzędzie **Usuń geometrie pomocnicze** usuwa obiekty geometrii pomocniczych z
 
 
 
+## Uwagi
+
+-   Możesz również wybrać obiekty kosmetyczne i wcisnąć klawisz **Delete**. {{Version/pl|1.0}}
+
+
+
 
 
 {{TechDraw Tools navi

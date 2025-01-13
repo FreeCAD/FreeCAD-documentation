@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 Această funcție deschide următorul dialog pentru a exporta vizualizarea curentă într-un fișier pdf.
@@ -31,15 +33,11 @@ The **Std PrintPdf** command is primarily intended to create [PDF](PDF.md) files
 -   To create a PDF from a TechDraw page you can also use the **File → Export → Technical Drawing (*.svg *.dxf *.pdf)** menu option. Or you can right-click the TechDraw page in the [Main view area](Main_view_area.md) and select **Export PDF** from the context menu.
 -   A PDF file created from the [3D view](3D_view.md) will contain a bitmap image, a screenshot.
 
-## Preferences
-
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
 
 
-
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

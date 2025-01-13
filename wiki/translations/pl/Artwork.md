@@ -15,7 +15,7 @@ Oto grafika, która została stworzona na potrzeby programu FreeCAD. Zachęcamy 
 
 ### Ikonki Środowisk pracy używane w Wiki 
 
-<img alt="" src=images/Workbench_Arch.svg  style="width:64px;"> <img alt="" src=images/Workbench_Draft.svg  style="width:64px;"> <img alt="" src=images/Workbench_FEM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Inspection.svg  style="width:64px;"> <img alt="" src=images/Workbench_Mesh.svg  style="width:64px;"> <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> <img alt="" src=images/Workbench_Part.svg  style="width:64px;"> <img alt="" src=images/Workbench_PartDesign.svg  style="width:64px;"> <img alt="" src=images/Workbench_Path.svg  style="width:64px;"> <img alt="" src=images/Workbench_Points.svg  style="width:64px;"> <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> <img alt="" src=images/Workbench_Robot.svg  style="width:64px;"> <img alt="" src=images/Workbench_Sketcher.svg  style="width:64px;"> <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> <img alt="" src=images/Workbench_Start.svg  style="width:64px;"> <img alt="" src=images/Workbench_Surface.svg  style="width:64px;"> <img alt="" src=images/Workbench_TechDraw.svg  style="width:64px;"> <img alt="" src=images/Workbench_Test.svg  style="width:64px;"> <img alt="" src=images/Workbench_Web.svg  style="width:64px;">
+<img alt="" src=images/Workbench_Assembly.svg  style="width:64px;"> <img alt="" src=images/Workbench_BIM.svg  style="width:64px;"> <img alt="" src=images/Workbench_CAM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Draft.svg  style="width:64px;"> <img alt="" src=images/Workbench_FEM.svg  style="width:64px;"> <img alt="" src=images/Workbench_Inspection.svg  style="width:64px;"> <img alt="" src=images/Workbench_Material.svg  style="width:64px;"> <img alt="" src=images/Workbench_Mesh.svg  style="width:64px;"> <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> <img alt="" src=images/Workbench_Part.svg  style="width:64px;"> <img alt="" src=images/Workbench_PartDesign.svg  style="width:64px;"> <img alt="" src=images/Workbench_Points.svg  style="width:64px;"> <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:64px;"> <img alt="" src=images/Workbench_Robot.svg  style="width:64px;"> <img alt="" src=images/Workbench_Sketcher.svg  style="width:64px;"> <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> <img alt="" src=images/Workbench_Surface.svg  style="width:64px;"> <img alt="" src=images/Workbench_TechDraw.svg  style="width:64px;"> <img alt="" src=images/Workbench_Test.svg  style="width:64px;">
 
 
 
@@ -35,9 +35,21 @@ Zobacz stronę [Grafika Gui](Artwork_Gui.md).
 
 
 
-### Ikonki src/Mod/Arch/ 
+### Ikonki src/Mod/Assembly/ 
 
-Zobacz stronę [Grafika środowiska pracy Architektura](Artwork_Arch/pl.md).
+Zobacz stronę [Grafika środowiska pracy Zlożenie](Artwork_Assembly/pl.md).
+
+
+
+### Ikonki src/Mod/BIM/ 
+
+Zobacz strunę [Grafika środowiska pracy BIM](Artwork_BIM/pl.md).
+
+
+
+### Ikonki src/Mod/CAM/ 
+
+Zobacz strone [Grafika środowiska pracy CAM](Artwork_CAM/pl.md).
 
 
 
@@ -95,12 +107,6 @@ Zobacz stronę [Grafika środowiska pracy Projekt Części](Artwork_PartDesign/p
 
 
 
-### Ikonki src/Mod/Path/ 
-
-Zobacz stronę [Grafika środowiska pracy Path](Artwork_Path/pl.md).
-
-
-
 ### Ikonki src/Mod/Points/ 
 
 Zobacz stronę [Grafika środowiska pracy Punkty](Artwork_Points/pl.md).
@@ -131,12 +137,6 @@ Zobacz strone [Grafika środowiska pracy Arkusz Kalkulacyjny](Artwork_Spreadshee
 
 
 
-### Ikonki src/Mod/Start/ 
-
-Zobacz strone [Grafika środowiska pracy Start](Artwork_Start/pl.md).
-
-
-
 ### Ikonki src/Mod/Surface/ 
 
 Zobacz stronę [Grafika środowiska pracy Powierzchnia](Artwork_Surface/pl.md).
@@ -161,12 +161,6 @@ Zobacz stronę [Grafika środowiska pracy Tux](Artwork_Tux/pl.md).
 
 
 
-### Ikonki src/Mod/Web/ 
-
-Zobacz strone [Grafika środowiska pracy Web](Artwork_Web/pl.md).
-
-
-
 ## Zewnętrzne Środowiska pracy oraz dodatki 
 
 ### From Mod/asm3/ 
@@ -188,6 +182,12 @@ Zobacz stronę [Grafika środowiska pracy Zbrojenie](Artwork_Reinforcement/pl.md
 ### From Mod/Render/ 
 
 Zobacz stronę [Grafika środowiska pracy Render](Artwork_Render/pl.md).
+
+
+
+### Ikonki Mod/SheetMetal/ 
+
+Zobacz stronę [Grafika środowiska pracy SheetMetal](Artwork_SheetMetal/pl.md).
 
 
 

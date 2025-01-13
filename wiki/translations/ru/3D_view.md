@@ -20,64 +20,9 @@
 
 *<b>3D вид</b> является компонентом [интерфейса](Interface/ru.md) FreeCAD. По умолчанию он показывает небольшой виджет с координатными осями и навигационный куб также с координатными осями; сетку можно отобразить и настроить, загрузив [верстак Draft](Draft_Workbench/ru.md).*
 
+## Context menu 
 
-
-## Действия
-
-Поскольку в [дереве проекта](Tree_view/ru.md) перечислены большинство объектов, видимых в 3D-представлении, многие действия совпадают с теми, которые могут быть выполнены из [дерева проекта](Tree_view/ru.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Когда по умолчанию активен верстак [ Центр Запуска](Start_Workbench/ru.md), щелчок правой кнопкой мыши на 3D-виде показывает только одну команду:
-
--    **[Стили навигации](Mouse_Model/ru.md)**: различные стили поведения кнопок при работе с 3-кнопочной мышью или сенсорным трекпадом ноутбука.
-
-
-</div>
-
-Однако после загрузки [верстака](Workbenches/ru.md) появляются дополнительные команды:
-
--    **Действия ссылки**: [Создать ссылку](Std_LinkMake/ru.md).
-
-    -   
-        **Создать группу Ссылок**
-        
-        : [Simple group](Std_LinkMakeGroup.md), [Group with links](Std_LinkMakeGroup.md), [Group with transform links](Std_LinkMakeGroup.md).
-
--    **[Уместить всё](Std_ViewFitAll/ru.md)**: панорамирование и масштабирование вида для размещения всех объектов документа на экране.
-
--    **[Уместить выделенное](Std_ViewFitSelection/ru.md)**: перемещает и масштабирует изображение так, чтобы полностью показать на экране выбранный в данный момент объект.
-
--    **[Стиль отрисовки](Std_DrawStyle/ru.md)**: как есть, точки, каркас, скрытые линии, без затенения, только грани, плоские линии.
-
--    **[Стандартные виды](Std_View_Menu/ru.md)**: [изометрический](Std_ViewIsometric/ru.md), [спереди](Std_ViewFront/ru.md), [сверху](Std_ViewTop/ru.md), [справа](Std_ViewRight/ru.md), [сзади](Std_ViewRear/ru.md), [снизу](Std_ViewBottom/ru.md), [слева](Std_ViewLeft/ru.md), [повернуть влево](Std_ViewRotateLeft/ru.md), [повернуть вправо](Std_ViewRotateRight/ru.md).
-
--    **Measure/Измерения**: [показывать замеры](View_Measure_Toggle_All/ru.md), [удалить замеры](View_Measure_Clear_All/ru.md).
-
--    **Окно документа**: [закреплённое](Std_ViewDockUndockFullscreen/ru.md), [откреплённое](Std_ViewDockUndockFullscreen/ru.md), и [на весь экран](Std_ViewDockUndockFullscreen/ru.md).
-
-Кроме того, в зависимости от активного верстака и активного в данный момент объекта, могут быть доступны другие контекстные команды.
-
-Например, с выбранным верстаком [Part(Деталь)](Part_Workbench/ru.md) и одним выбранным объектом:
-
--    **[Внешний вид](Std_SetAppearance/ru.md)**: запускает диалоговое окно для изменения цвета и размеров линий и вершин, а также цвета граней.
-
--    **[Видимость](Std_ToggleVisibility/ru.md)**: делает объект видимым или невидимым в окне 3D-вида.
-
--    **[Откл-вкл выделяемость](Std_ToggleSelectability/ru.md)**: делает объект больше не выбираемым в окне 3D-вида; снова используйте эту команду, чтобы отменить этот эффект. Она устанавливает атрибут `Selectable` объекта в значение `True` или `False`. Измените свойство **Selectable** переключив его в [редакторе свойств](Property_editor/ru.md).
-
--    **[Перейти к выделенному](Std_TreeSelection/ru.md)**: раскрывает [древо проекта](Tree_view/ru.md), чтобы показать выбранный объект в его иерархии.
-
--    **[Случайный цвет](Std_RandomColor/ru.md)**: назначает объекту случайный цвет. Он устанавливает значение атрибута цвета объекта `ShapeColor`, массивом `(r,g,b)` из трёх случайных значений в диапазоне от 0 до 1. Измените свойство, отредактировав **Shape Color** в [редакторе свойств](Property_editor/ru.md).
-
--    **[Удалить](Std_Delete/ru.md)**: удаляет объект из документа и из 3D-вида, вызывая метод `removeObject()` документа.
-
-Другой пример, с [верстаком Draft](Draft_Workbench/ru.md) и одним выбранным объектом, он показывает те же команды, что и в случае с [верстаком Part](Part_Workbench/ru.md), но так же:
-
--    **Draft**: команды создания и изменения объектов из [верстака Draft](Draft_Workbench/ru.md).
-
--    **Utilities**: дополнительные контекстные команды, предоставляемые [верстаком Draft](Draft_Workbench/ru.md).
+The options in the context menu of the 3D view depend on the selected object(s) and the currently active workbench. To display this menu optionally select one or more objects and then right-click in the 3D view.
 
 
 
@@ -85,7 +30,13 @@
 
 FreeCAD использует библиотеку Quarter для использования Coin3D в среде Qt.
 
+
+<div class="mw-translate-fuzzy">
+
 Можно напрямую взаимодействовать с графом сцены 3D-вида из [консоли Python](Python_console/ru.md) с помощью библиотеки Python Pivy.
+
+
+</div>
 
 Дополнительные сведения см. в документации для опытных пользователей:
 

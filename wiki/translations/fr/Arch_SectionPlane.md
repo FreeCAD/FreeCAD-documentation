@@ -2,17 +2,17 @@
  GuiCommand:
    Name: Arch SectionPlane
    Name/fr: Arch Plan de coupe
-   MenuLocation: Arch , Plan de coupe
-   Workbenches: Arch_Workbench/fr
+   MenuLocation: Annotation , Plan de coupe
+   Workbenches: BIM_Workbench/fr
    Shortcut: **S** **P**
-   SeeAlso: Draft_Shape2DView/fr, TechDraw_ArchView/fr
+   SeeAlso: Draft_Shape2DView/fr
 ---
 
 # Arch SectionPlane/fr
 
 ## Description
 
-Cet outil place dans le document courant une \"chose\" qui définit un plan de coupe ou de vue. La \"chose\" est placée en fonction du [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours et peut être déplacée et réorientée en la déplaçant et en la faisant tourner, jusqu\'à ce qu\'elle décrive la vue 2D que vous souhaitez obtenir. L\'objet Plan de coupe ne tiendra compte que d\'un certain ensemble d\'objets. Les objets sélectionnés lorsque vous créez un plan de coupe seront automatiquement ajoutés à cet ensemble. D\'autres objets peuvent être ajoutés ou retirés ultérieurement d\'un objet Plan de coupe à l\'aide des outils [Arch Ajouter](Arch_Add/fr.md) et [Arch Soustraire](Arch_Remove/fr.md) ou en double-cliquant sur le Plan de coupe dans l\'arborescence.
+L\'outil **Arch Plan de coupe** place dans le document courant une \"chose\" qui définit un plan de coupe ou de vue. La \"chose\" est placée en fonction du [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours et peut être déplacée et réorientée en la déplaçant et en la faisant tourner, jusqu\'à ce qu\'elle décrive la vue 2D que vous souhaitez obtenir. L\'objet Plan de coupe ne tiendra compte que d\'un certain ensemble d\'objets. Les objets sélectionnés lorsque vous créez un plan de coupe seront automatiquement ajoutés à cet ensemble. D\'autres objets peuvent être ajoutés ou retirés ultérieurement d\'un objet Plan de coupe à l\'aide des outils [Arch Ajouter](Arch_Add/fr.md) et [Arch Supprimer](Arch_Remove/fr.md) ou en double-cliquant sur le Plan de coupe dans l\'arborescence.
 
 Le Plan de coupe seul ne permet pas de créer une vue de son ensemble d\'objets. Pour cela, vous devez créer une [TechDraw Vue d\'un objet Arch](TechDraw_ArchView/fr.md) pour créer une vue dans une [TechDraw page](TechDraw_Workbench/fr.md).
 
@@ -31,7 +31,7 @@ Le Plan de coupe seul ne permet pas de créer une vue de son ensemble d\'objets.
 
 ## Options
 
--   L\'objet Plan de coupe ne prendra qu\'un certain nombre d\'objets, pas tous les objets du document. Des objets peuvent être ajoutés ou supprimés à partir d\'un objet Plan de coupe en utilisant les outils [Arch Ajouter](Arch_Add/fr.md) et [Arch Soustraire](Arch_Remove/fr.md) ou en double-cliquant sur le Plan de coupe dans la vue en arborescence, en sélectionnant des objets dans la liste ou dans la vue 3D puis en appuyant sur les boutons **Ajouter** ou **Supprimer**.
+-   L\'objet Plan de coupe ne prendra qu\'un certain nombre d\'objets, pas tous les objets du document. Des objets peuvent être ajoutés ou supprimés à partir d\'un objet Plan de coupe en utilisant les outils [Arch Ajouter](Arch_Add/fr.md) et [Arch Supprimer](Arch_Remove/fr.md) ou en double-cliquant sur le Plan de coupe dans la vue en arborescence, en sélectionnant des objets dans la liste ou dans la vue 3D puis en appuyant sur les boutons **Ajouter** ou **Supprimer**.
 
 -   Après avoir sélectionné un plan de coupe, utilisez l\'outil de [Draft Vue 2D d\'une forme](Draft_Shape2DView/fr.md) pour créer un objet shape qui représente l\'affichage du plan de coupe dans le document.
 
@@ -122,5 +122,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/fr
+⏵ [documentation index](../README.md) > Arch SectionPlane/fr

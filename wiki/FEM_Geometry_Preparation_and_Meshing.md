@@ -3,8 +3,8 @@
    Topic: Finite Element Analysis
    Level: Beginner
    Time: N/A
-   Author: http://www.freecadweb.org/wiki/index.php?title=User:NewJoker NewJoker
-   FCVersion: 0.21 or above
+   Author: https://www.freecad.org/wiki/index.php?title=User:NewJoker NewJoker
+   FCVersion: 1.0 or above
    SeeAlso: FEM_Workbench
 ---
 
@@ -21,7 +21,7 @@ Geometry preparation and meshing are crucial parts of preprocessing of simulatio
 ## Types of geometry used for FEM in FreeCAD 
 
 -   Lines (wires) - used for analyses with beam elements
--   Surfaces - used for analyses with shell elements
+-   Surfaces - used for analyses with shell and 2D (plane stress/strain and axisymmetric) elements
 -   Solids - used for analyses with solid elements
 
 ## Choice of the type of geometry 
@@ -44,7 +44,12 @@ While most designs consist of solids, it\'s often highly recommended to use wire
 
 *Thin-walled part suitable for analysis with shell elements - midsurface highlighted*
 
-One should remember that beam and shell elements used in CalculiX are not true beam/shell elements (they don\'t use the beam/shell element formulations known from literature and other software) - they are internally expanded to solids. Still, their use is recommended in the aforementioned cases.
+-   in some cases, 2D analyses are also possible and can be enabled by setting the **Model Space** property of the [CalculiX solver](FEM_SolverCalculixCxxtools.md):
+    -   plane stress - for thin parts that can be simplified to flat surfaces representing the profile for extrusion (thickness is defined in the same way as for shells), are loaded and deform only in-plane and have zero stress in the out-of-plane direction. Only two degrees of freedom are available - X and Y translation. Surfaces have to lie on the XY plane in this case. This approach is quite common. For example, a thin plate subjected to tension can be analyzed this way.
+    -   plane strain - for thick parts that can be simplified to flat surfaces representing the profile for extrusion (thickness is defined in the same way as for shells), are loaded and deform only in-plane and have zero strain in the out-of-plane directions. Only two degrees of freedom are available - X and Y translation. Surfaces have to lie on the XY plane in this case. This approach is not so common. For example, a long dam, wall or pipe subjected to uniform pressure at a whole length can be analyzed this way.
+    -   axisymmetric - for parts that can be simplified to flat surfaces representing the revolved profile (thickness is irrelevant here) and are loaded uniformly around the whole circumference. Only two degrees of freedom are available - radial and axial translation. Surfaces have to lie on the XY plane, on the right of the Y axis. This approach is very common. For example, some pressure vessels, rubber mounts, bushings, gaskets, flanges and even bolted joints (treating the thread as axisymmetric) can be analyzed this way.
+
+One should remember that beam, shell, plane stress/strain and axisymmetric elements used in CalculiX are not true elements of this kind (they don\'t use the classic element formulations known from literature and other software) - they are internally expanded to solids. Still, their use is recommended in the aforementioned cases.
 
 ## Geometry validity 
 
@@ -97,9 +102,11 @@ Applied force should be properly reduced if the symmetry plane cuts the region t
 
 *Model of 1/8 of a cylindrical pressure vessel with symmetry boundary conditions and internal pressure load*
 
+Another, less common type of symmetry available in FreeCAD FEM is cyclic symmetry. It can be defined using the [tie constraint](FEM_ConstraintTie#Cyclic_symmetry.md) and makes it possible to analyze only a single representative sector of a structure consisting of such circular patterns around an axis. The assumption is that boundary conditions and loads also exhibit this form of symmetry. Tangential loads can be applied and thus torsion can be simulated this way. However, [centrifugal load](FEM_ConstraintCentrif.md) is commonly used with cyclic symmetry. This approach might be used e.g. for rotors, shafts, turbines, fans and flywheels.
+
 ## Geometry partitioning 
 
-So-called partitioning is a division of the geometry into smaller segments. In other software, it\'s commonly used to allow hex meshing but in FreeCAD it can be useful for other reasons too. The main application of partitioning is when a load (or a boundary condition) has to be applied only to a selected region of the part\'s surface. The easiest way to achieve it is to create a sketch with a proper contour on that face and use the [Part Boolean Fragments](Part_BooleanFragments.md) tool to split the face with the sketch. Another reason for partitioning is when multiple materials have to be applied to a single part (without having to use multiple parts connected with each other). Then partitioning can be done using a [datum plane](PartDesign_Plane.md) and Boolean Fragments tool with the *Compsolid* mode.
+So-called partitioning is a division of the geometry into smaller segments. In other software, it\'s commonly used to allow hex meshing but in FreeCAD it can be useful for other reasons too. The main application of partitioning is when a load (or a boundary condition) has to be applied only to a selected region of the part\'s surface. The easiest way to achieve it is to create a sketch with a proper contour on that face and use the [Part Boolean Fragments](Part_BooleanFragments.md) tool to split the face with the sketch. Another reason for partitioning is when multiple materials have to be applied to a single part (without having to use multiple parts connected with each other). Then partitioning can be done using a [datum plane](PartDesign_Plane.md) and Boolean Fragments tool with the *Compsolid* mode. Partitioning can be also used to create regions for [mesh refinement](FEM_MeshRegion.md).
 
 <img alt="" src=images/FEM_partition.JPG  style="width:400px;">
 
@@ -109,14 +116,14 @@ So-called partitioning is a division of the geometry into smaller segments. In o
 
 ## Assembly geometries 
 
-One of the current major limitations of the FEM workbench is that multiple meshes are not supported. In practice, this means that one cannot mesh each part of the assembly individually and then connect the parts with proper constraints for the analysis. Instead, it\'s necessary to create a single object containing all the parts of the assembly and mesh it. There are several different options here, all relying on [Part boolean tools](Part_Module#Boolean.md). The choice depends on the desired effect - whether the individual parts/volumes and their boundaries should be selectable (e.g. for material assignments or definitions of boundary conditions acting on internal faces) or not:
+One of the current major limitations of the FEM workbench is that multiple meshes are not supported. In practice, this means that one cannot mesh each part of the assembly individually and then connect the parts with proper constraints for the analysis. Instead, it\'s necessary to create a single object containing all the parts of the assembly and mesh it. There are several different options here, all relying on [Part boolean tools](Part_Workbench#Boolean_toolbar.md). The choice depends on the desired effect - whether the individual parts/volumes and their boundaries should be selectable (e.g. for material assignments or definitions of boundary conditions acting on internal faces) or not:
 
 -   [Part Fuse](Part_Fuse.md) - merges the parts, making it impossible to select them individually e.g. for material definitions,
 -   [Part Compound](Part_Compound.md) - creates a compound object, making it possible to select individual parts,
 -   [Part JoinConnect](Part_JoinConnect.md) - works like Part Fuse, merges the parts, making it impossible to select them individually,
 -   [Part BooleanFragments](Part_BooleanFragments.md) - works like Part Compound, making it possible to select individual parts.
 
-It\'s important to mention that if the parts are touching, a continuous mesh will be created on the boolean object and no constraints will be needed for the simulation. If there\'s even a small gap between the parts, the mesh won\'t be continuous and constraints like [tie](FEM_ConstraintTie.md) or [contact](FEM_ConstraintContact.md) will be needed. Running a frequency analysis is a good way to reveal if the mesh is continuous or not - if the parts are not connected, the first mode shapes with deformation visualized using [Warp filter](FEM_PostFilterWarp.md) will show separation - the parts will \"fly away\".
+It\'s important to mention that if the parts are touching, a continuous mesh will be created on the boolean object and no constraints will be needed for the simulation. If there\'s even a small gap (or an intersection within a Part Compound) between the parts, the mesh won\'t be continuous and constraints like [tie](FEM_ConstraintTie.md) or [contact](FEM_ConstraintContact.md) will be needed. Running a frequency analysis is a good way to reveal if the mesh is continuous or not - if the parts are not connected, the first mode shapes with deformation visualized using [Warp filter](FEM_PostFilterWarp.md) will show separation - the parts will \"fly away\".
 
 <img alt="" src=images/FEM_modal_separation.JPG  style="width:400px;">
 
@@ -132,7 +139,7 @@ Selection of internal regions (faces/volumes) can be tricky. It might be needed 
 
 ## Meshing basics 
 
-Too coarse mesh is one of the most common sources of inaccuracies and other issues in FEM. It\'s often a partial fault of automatic mesher settings - they typically generate very coarse, unsuitable meshes when the element size is not manually specified but left with a default value. One should always know the approximate dimensions of the part, especially the size of the smallest relevant feature ([Part Measure Linear](Part_Measure_Linear.md) tool can help with that) and specify the proper maximum element size based on that. When meshing with Gmsh, there is also a minimum element size setting that can prevent the creation of too tiny elements around small geometric features which may lead to unnecessarily dense meshes (and sometimes even FreeCAD crashing or freezing when trying to generate such meshes). Generally speaking, it\'s better to start with a coarser mesh (taking less time to generate), see what it looks like (some experience is necessary) and refine it if necessary. It often makes sense to use dense mesh only around the areas of interest (locations with large stress gradients/concentrations - notches) and relatively coarse mesh away from them. This way, the number of elements can be significantly reduced, leading to shorter solving times. Local mesh refinement is defined using [FEM MeshRegion](FEM_MeshRegion.md).
+Too coarse mesh is one of the most common sources of inaccuracies and other issues in FEM. It\'s often a partial fault of automatic mesher settings - they typically generate very coarse, unsuitable meshes when the element size is not manually specified but left with a default value. One should always know the approximate dimensions of the part, especially the size of the smallest relevant feature ([Std Measure](Std_Measure.md) tool can be used to find it) and specify the proper maximum element size based on that. There is also a minimum element size setting that can prevent the creation of too tiny elements around small geometric features which may lead to unnecessarily dense meshes (and sometimes even FreeCAD crashing or freezing when trying to generate such meshes). Generally speaking, it\'s better to start with a coarser mesh (taking less time to generate), see what it looks like (some experience is necessary) and refine it if necessary. It often makes sense to use dense mesh only around the areas of interest (locations with large stress gradients/concentrations - notches) and relatively coarse mesh away from them. This way, the number of elements can be significantly reduced, leading to shorter solving times. Local mesh refinement is defined using [FEM MeshRegion](FEM_MeshRegion.md).
 
 <img alt="" src=images/FEM_default_mesh.PNG  style="width:400px;">
 
@@ -152,9 +159,21 @@ Too coarse mesh is one of the most common sources of inaccuracies and other issu
 
 *Locally refined mesh*
 
-The choice of element type is not easy and depends on many factors but the general rule is that hexahedral and quad elements are preferable over tetrahedral and triangular ones. However, complex geometries can\'t be meshed with hexahedral elements and FreeCAD can\'t generate them at all (only quad meshes can be generated on surfaces - see [this forum thread](https://forum.freecad.org/viewtopic.php?t=20351)). Hexahedral elements can be imported from external meshers like [Gmsh](https://gmsh.info) and used in the FEM workbench as shown in [this video](https://www.youtube.com/watch?v=vylt24G7qj4&t=932s).
+The choice of element type is not easy and depends on many factors but the general rule is that hexahedral and quadrilateral elements are preferable over tetrahedral and triangular ones. However, complex geometries can\'t be meshed with hexahedral elements and FreeCAD can\'t generate them properly (only using the Subdivision algorithm of the Gmsh mesher but its results are not what one would expect from a hex mesh). Quad or quad-dominated meshes can be generated normally on surfaces - see [this forum thread](https://forum.freecad.org/viewtopic.php?t=20351)). Hexahedral elements can be imported from external meshers like [Gmsh](https://gmsh.info) and used in the FEM workbench as shown in [this video](https://www.youtube.com/watch?v=vylt24G7qj4&t=932s).
 
-The choice of element order (first or second) depends on the analysis conditions but in most cases, second-order elements are preferred. This is particularly the case with triangular and tetrahedral elements - their first-order (linear) versions are normally not recommended for regular usage and they should be used only as filler elements in regions of low importance. However, since FreeCAD can\'t generate hexahedral elements, linear tetrahedrons can be used in some cases, if the meshes are dense enough. Especially when performing analyses with [contact](FEM_ConstraintContact.md).
+The choice of element order (first or second) depends on the analysis conditions but in most cases, second-order elements are preferred. This is particularly the case with triangular and tetrahedral elements - their first-order (linear) versions are normally not recommended for regular usage and they should be used only as filler elements in regions of low importance. However, since FreeCAD can\'t properly generate hexahedral elements, linear tetrahedrons can be used in some cases, if the meshes are dense enough. Especially when performing analyses with [contact](FEM_ConstraintContact.md).
+
+## Negative Jacobians 
+
+If the above rules are followed (especially regarding geometry validity, defeaturing and element size selection), the mesh should be generated correctly. However, in some cases, the geometry can\'t be simplified too much, or the modeling procedure is appropriate but leads to small edges and faces anyway. Then meshing with second-order elements may fail due to negative Jacobians. The reason is that meshers have to follow the CAD model and put the mid-side nodes of second-order elements on the geometry. With more complex shapes, it may lead to elements being stretched so much that they become inverted. Jacobian is one of the most common mesh quality measures. It represents the element\'s deviation from the ideal shape. It becomes negative when the element turns inside out (becomes inverted) either due to large deformation during the analysis (not considered here) or because of the aforementioned meshing issues. Negative Jacobians in FreeCAD FEM might be reported by Gmsh or by CalculiX. Their locations in the mesh are highlighted when CalculiX analyses are submitted using the [Run solver calculations](FEM_SolverRun.md) button. The following tips can help eliminate them:
+
+-   set the *Second Order Linear* property of the [FEMMeshGmsh](FEM_MeshGmshFromShape.md) object to *true* - this results in the mid-side nodes of second-order elements being just added in the middle of straight (initially) first-order element edges, without snapping them to the geometry and resolves the issue in most cases,
+-   use Netgen instead of Gmsh - Netgen is known to be less prone to negative Jacobian issues but also doesn\'t report them so the user may find out only when submitting the analysis,
+-   further reduce the element size,
+-   export the geometry, try meshing it in Gmsh or Netgen (NGSolve) GUI or other standalone mesher (like Salome_Meca) - those tools have additional features that can help get rid of negative Jacobians (for example, Gmsh has so-called \"High-order tools\"),
+-   use first-order elements - should be done only as a last resort since first-order tetrahedrons are known for their inaccuracy.
+
+Regardless of those tips, it\'s important to emphasize once again that negative Jacobians are usually the fault of messy modeling approaches and lack of geometry preparation for analysis (especially common with STEP models downloaded from various websites). Even if the mesh is eventually generated in such cases, the results are likely to be of poor quality (recall the GIGO rule mentioned in the first paragraph). Thus, geometry clean-up and preparation for FEM should always be the priority.
 
 ## Mesh convergence studies 
 

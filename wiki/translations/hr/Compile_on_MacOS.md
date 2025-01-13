@@ -146,7 +146,7 @@ The following command will clone the FreeCAD git repository into a directory cal
 
 
 ```python
-git clone https://github.com/FreeCAD/FreeCAD FreeCAD-git
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD FreeCAD-git
 ```
 
 Create the build folder.

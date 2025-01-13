@@ -25,11 +25,11 @@
 
 </div>
 
-![](images/SketcherSplitExample1.png ) ![](images/SketcherSplitExample2.png ) ![](images/SketcherSplitExample3.png )
-
 
 
 ## Применение
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -44,25 +44,16 @@
 
 
 
-## Ограничения
-
--   In {{VersionMinus|0.20}} the action is not supported for ellipses, parabolas, hyperbolas and B-splines.
-
-
-
 ## Примечания
 
--   All coincidences are transferred - start point, end point and center point (if applicable).
--   Point on object constraint is transferred to the closer newly created edge.
--   Vertical and horizontal constraints are copied to both offsprings.
--   Parallel and perpendicular constraints are copied for both line segments, for arc only once, to the closer part.
--   Equality constraint is transferred only for resulting arc edges, line segments do not receive it.
--   Symmetry constraint is currently not transferred.
--   Block constraint is currently not transferred.
--   Horizontal, vertical and length constraints between points are transferred to the outer points of the new edges.
--   Point distance constraint is assigned only once, to the closer edge segment.
--   Radius and diameter constraints are copied to any resulting arc.
--   Angle constraint is currently not transferred
+-   A [Coincident](Sketcher_ConstrainCoincident.md) constraint is applied to the center points of new arcs.
+-   [Radius](Sketcher_ConstrainRadius.md) and [Diameter](Sketcher_ConstrainDiameter.md) constraints are copied to new arcs (resulting in a redundancy).
+-   Coincident constraints and [Point on object](Sketcher_ConstrainPointOnObject.md) constraints are transferred to the closest new edge.
+-   [Horizontal](Sketcher_ConstrainHorizontal.md) and [Vertical](Sketcher_ConstrainVertical.md) constraints between points are transferred to the closest new edge.
+-   Horizontal and Vertical constraints attached to lines are copied to new line segments.
+-   [Parallel](Sketcher_ConstrainParallel.md) and [Perpendicular](Sketcher_ConstrainPerpendicular.md) constraints are copied to new line segments, for new arcs they are only copied to the closest.
+-   [Horizontal distance](Sketcher_ConstrainDistanceX.md), [Vertical distance](Sketcher_ConstrainDistanceY.md) and [Distance](Sketcher_ConstrainDistance.md) constraints are transferred to the closest new edge.
+-   [Angle](Sketcher_ConstrainAngle.md), [Symmetric](Sketcher_ConstrainSymmetric.md) and [Block](Sketcher_ConstrainBlock.md) constraints are currently not transferred.
 
 
 <div class="mw-translate-fuzzy">

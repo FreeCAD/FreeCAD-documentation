@@ -20,7 +20,7 @@
 
 </div>
 
-[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md) 
+
 
 
 <div class="mw-translate-fuzzy">
@@ -29,6 +29,10 @@
 
 
 </div>
+
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -40,20 +44,18 @@
 
 </div>
 
+## Notes
 
-
-## 选项
+-    {{VersionMinus|0.21}}: Points are always created as construction geometry. Optionally change them to normal geometry with [Sketcher ToggleConstruction](Sketcher_ToggleConstruction.md) to make them visible outside of Sketch editing mode.
 
 
 <div class="mw-translate-fuzzy">
 
-可通过设置[草图首选项（Sketcher Preferences）](Sketcher_Preferences.md)中的选项在捕捉网格模式下创建点。此时，如果所创点距网格线的距离小于网格间距的25%，则将被捕捉至网格上。 捕捉模式并不会把它们固定至网格上。可以通过鼠标移动或约束的方式把点移至其他地方。
+
+
 
 
 </div>
-
-
-
 
 
 {{Sketcher_Tools_navi

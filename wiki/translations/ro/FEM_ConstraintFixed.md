@@ -51,6 +51,10 @@ Nu puteți amesteca tipuri diferite de obiecte în aceeași constrângere. Utliz
 
 </div>
 
+## Notes
+
+-   This feature uses the [\*BOUNDARY card in CalculiX](https://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html).
+
 
 
 

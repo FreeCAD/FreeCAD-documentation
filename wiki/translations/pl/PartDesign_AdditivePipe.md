@@ -63,7 +63,7 @@ Aby użyć więcej niż jednego przekroju, zacznij od pierwszego szkicu przekroj
     -   Określ ścieżkę pomocniczą do prowadzenia profilu.
     -   Dla każdego punktu **P** wzdłuż ścieżki wyciągnięcia, będzie odpowiadał punkt **Q** na ścieżce pomocniczej.
     -   W miarę przeciągania profilu zostanie on przekształcony w taki sposób, że linia **PQ** będzie normalną ścieżki przeciągania.
-    -   Jeśli ustawiona jest opcja **Krzywoliniowość**, punkty **Q** są skalowane proporcjonalnie wzdłuż ścieżki, niezależnie od jej długości.
+    -   Jeśli ustawiona jest opcja **Curvelinear equivalence**, punkty **Q** są skalowane proporcjonalnie wzdłuż ścieżki, niezależnie od jej długości.
 -   Binormalny
     -   Określ wektor binormalny w X, Y i Z.
 
@@ -147,6 +147,7 @@ Obiekt Uzupełnienie wyciągnięciem wzdłuż ścieżki wywodzi się z obiektu [
 -   Może to prowadzić do problemów, jeśli przekrój nie jest prostopadły do ścieżki w przestrzeni 3D.
 -   Przekrój nie może leżeć na tej samej płaszczyźnie, co przekrój bezpośrednio go poprzedzający.
 -   Przekroje nie mogą zawierać rozłącznych lub przecinających się pętli.
+-   Jeśli szkic ma geometrię wewnętrzną, kolejność tworzenia geometrii szkicu powinna być taka sama dla wszystkich sekcji. Należy rozpocząć wszystkie sekcje od geometrii wewnętrznej lub od zewnętrznej. W przeciwnym razie zostanie utworzona nieprawidłowa rura w miejscu przecięcia ścian wewnętrznych i zewnętrznych.
 
 
 

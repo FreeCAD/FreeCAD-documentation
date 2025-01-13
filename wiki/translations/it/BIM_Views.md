@@ -9,17 +9,34 @@
 
 # BIM Views/it
 
+
+</div>
+
+
+
 ## Descrizione
+
+
+<div class="mw-translate-fuzzy">
 
 Il gestore delle viste e dei livelli BIM è una finestra agganciabile che si apre sotto la normale visualizzazione ad albero, che contiene tutte le [Parti di edificio](Arch_BuildingPart/it.md) e tutti i [Piani Proxy](Draft_WorkingPlaneProxy/it.md) del modello.
 
+
+</div>
+
 Lo scopo di questa finestra è permettere di accedere velocemente ai propri livelli e alle configurazioni del piano di lavoro, senza la necessità di navigare nell\'albero per trovarli.
 
-<img alt="" src=images/BIM_views_screenshot.png  style="width:800px;">
+<img alt="" src=images/BIM_views_screenshot.png  style="width:600px;"> 
+*The BIM views and levels manager*
+
+
 
 ## Utilizzo
 
 Il gestore delle viste BIM mostrerà tutti i livelli (parti dell\'edificio) e i proxy del piano di lavoro del tuo documento. Può essere agganciato ovunque nell\'interfaccia di FreeCAD o lasciato in una finestra autonoma. Le parti dell\'edificio mostreranno anche il loro livello (la coordinata Z del loro posizionamento).
+
+
+<div class="mw-translate-fuzzy">
 
 -   Premendo Ctrl+9 o facendo clic sul pulsante **Viste BIM** nell\'angolo in basso a destra dello schermo viene visualizzato o nascosto il gestore Viste BIM
 -   Facendo clic su qualsiasi voce si seleziona l\'oggetto corrispondente
@@ -34,6 +51,17 @@ Il gestore delle viste BIM mostrerà tutti i livelli (parti dell\'edificio) e i 
 -   Facendo clic sul pulsante **Rinomina** è possibile rinominare un oggetto selezionato
 
 
+</div>
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Views/it
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Views/it

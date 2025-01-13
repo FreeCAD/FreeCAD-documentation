@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign Thickness
    Name/fr: PartDesign Évidement
-   MenuLocation: Part Design , Appliquer une fonction d'habillage , Évidement
+   MenuLocation: PartDesign , Appliquer une fonction d'habillage , Évidement
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: Part_Thickness/fr
@@ -29,17 +29,17 @@ L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> *
 2.  Sélectionnez une ou plusieurs faces du corps.
 3.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/PartDesign_Thickness.svg" width=16px> [Évidement](PartDesign_Thickness/fr.md)**.
-    -   Sélectionnez l\'option **Part Design → Appliquer une fonction d'habillage → <img src="images/PartDesign_Thickness.svg" width=16px> Évidement** du menu.
-4.  S\'il n\'y a pas de corps actif, et qu\'il y a deux corps ou plus dans le document, la boîte de dialogue **Corps actif requis** s\'ouvrira et vous invitera à en activer un. S\'il n\'y a qu\'un seul corps, il sera activé automatiquement.
-5.  Le [panneau des tâches](Task_panel/fr.md) des **Paramètres de l'évidement**. Voir [Options](#Options.md) pour plus d\'informations.
+    -   Sélectionnez l\'option **PartDesign → Appliquer une fonction d'habillage → <img src="images/PartDesign_Thickness.svg" width=16px> Évidement** du menu.
+4.  S\'il n\'y a pas de corps actif, et qu\'il y a deux corps ou plus dans le document, la fenêtre de dialogue **Corps actif requis** s\'ouvrira et vous invitera à en activer un. S\'il n\'y a qu\'un seul corps, il sera activé automatiquement.
+5.  Le [panneau des tâches](Task_panel/fr.md) des **Paramètres de l'évidement** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 6.  Appuyez sur le bouton **OK** pour terminer.
 
 :   *Souvenez-vous* :
-    -   Puisqu\'il doit y avoir au moins une face pour la fonction, la dernière face restant dans la liste ne peut pas être retirée.
+    -   Puisqu\'il doit y avoir au moins une face pour la fonction, la dernière face restante dans la liste ne peut pas être retirée.
 
 
 
-### Modifier une évidement 
+### Modifier un évidement 
 
 1.  Effectuez l\'une des opérations suivantes :
     -   Double-cliquez sur l\'objet Thickness dans la [vue en arborescence](Tree_view/fr.md).
@@ -61,19 +61,19 @@ L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> *
 -    **Mode**:
 
     -   
-        **Boîte sans couvercle**
+        **Objet creux**
         
-        : seule cette option peut être sélectionnée.
+        : sélectionnez cette option pour obtenir un élément comme un vase, sans dessus mais avec le fond.. Seule cette option peut être sélectionnée.
 
     -   
-        **Tuyau**
+        **Tube**
         
         : non implémenté. Voir [ce sujet du forum](https://forum.freecadweb.org/viewtopic.php?p=484495#p484495).
 
     -   
         **Recto-verso**
         
-        : non implémenté. Voir [idem](https://forum.freecadweb.org/viewtopic.php?p=484495#p484495).
+        : non implémenté. Voir [ce sujet du forum](https://forum.freecadweb.org/viewtopic.php?p=484495#p484495).
 
 -    **Type de raccordement**:
 
@@ -87,7 +87,7 @@ L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> *
         
         : lorsque des faces non tangentielles sont décalées, les nouvelles faces qui ne se croisent pas sont prolongées pour se rencontrer à leur intersection virtuelle.
 
--    **Intersection**: lorsque cette option est cochée, les auto-intersections dans certains modèles sont évitées. Cette option n\'est pas recommandée car elle repose sur une [méthode incomplète OpenCASCADE](https://dev.opencascade.org/doc/refman/html/class_b_rep_offset_a_p_i___make_thick_solid.html#af78f35025a31e2ce8bd96c82fb33a981).
+-    **Intersection**: lorsque cette option est cochée, les auto-intersections dans certains modèles sont évitées. Cette option n\'est pas recommandée car elle repose sur une [méthode incomplète d\'OpenCASCADE](https://dev.opencascade.org/doc/refman/html/class_b_rep_offset_a_p_i___make_thick_solid.html#af78f35025a31e2ce8bd96c82fb33a981).
 
 -    **Générer l'épaisseur vers l'intérieur**: lorsque cette case est cochée, les faces sont décalées vers l\'intérieur.
 
@@ -99,7 +99,7 @@ L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> *
 -   L\'outil peut échouer avec des formes complexes. Les outils [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md) ou [PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md) peuvent mieux fonctionner pour créer des formes complexes.
 -   Erreurs connues :
     -   BRep_API : commande non effectuée.
-    -   BRep_Tool : aucun paramètre sur le bord.
+    -   BRep_Tool : aucun paramètre sur l\'arête.
     -   Echec silencieux.
 
 

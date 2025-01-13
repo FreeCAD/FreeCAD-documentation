@@ -25,59 +25,66 @@ From a closed outline it creates a base **plate** (blank):
 ### Profile
 
 1.  Select an **open contour** <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md).
-2.  Activate the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [SheetMetal AddBase](SheetMetal_AddBase.md) command using one of the following:
-    -   The **<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_AddBase.svg" width=16px> Make Base Wall** menu option.
-    -   The keyboard shortcut: **C** then **B**.
-3.  Adjust the profile\'s parameters by editing the corresponding values in the [Property editor](Property_editor.md):
-    -   The property **length** for the profile length,
-    -   The property **thickness** for the profile thickness,
-    -   The property **radius** for the inner radius of the bends.
+2.  There are several ways to invoke the command:
+    -   Press the **<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)** button.
+    -   Select the **Sheet Metal → <img src="images/SheetMetal_AddBase.svg" width=16px> Make Base Wall** option from the menu.
+    -   Right-click in the [Tree view](Tree_view.md) or the [3D view](3D_view.md) and select the **Sheet Metal → <img src="images/SheetMetal_AddBase.svg" width=16px> Make Base Wall** option from the context menu.
+    -   Use the keyboard shortcut: **C** then **B**.
+3.  A **BaseBend** object will be created, corners along the contour are automatically converted into cylindrical bends.
+4.  Adjust the profile parameters in the [Property editor](Property_editor.md):
+    -   
+        **length**
+        
+        for the extrusion length of the profile,
+
+    -   
+        **thickness**
+        
+        for the wall thickness of the profile,
+
+    -   
+        **radius**
+        
+        for the inner radius of automatically added bends.
 
 ### Plate
 
 1.  Select a **closed outline** <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md).
-2.  Activate the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [SheetMetal AddBase](SheetMetal_AddBase.md) command (see above).
-3.  Adjust the plate\'s parameter by editing the corresponding value in the [Property editor](Property_editor.md):
-    -   The property **thickness** for the thickness of the plate.
+2.  Invoke the command as described above.
+3.  Adjust the plate parameters in the [Property editor](Property_editor.md):
+    -   
+        **thickness**
+        
+        for the thickness of the plate.
 
 :   
 
-    :   (The properties **length** and **radius** are not used for plates.)
+    :   (**length** and **radius** are not used for plates.)
 
 ## Properties
 
 See also: [Property editor](Property_editor.md).
 
-A SheetMetal BaseBend object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+A SheetMetal BaseBend object is derived from a [Part Feature](Part_Feature.md) object or, if it is inside a [PartDesign Body](PartDesign_Body.md), from a [PartDesign Feature](PartDesign_Feature.md) object, and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
-{{Properties_Title|Base}}
-
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
-
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
-
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
-
-
 {{Properties_Title|Parameters}}
 
--    **Bend Side|Enumeration**: \"Relief Type\". {{value|Outside}} (default), {{value|Inside}}, {{value| Middle}}.
+-    **Bend Side|Enumeration**: \"Relief Type\", defines on which side of a profile curve the thickness applies. {{value|Outside}} (default), {{value|Inside}}, {{value| Middle}}. (not used for plates)
 
 -    **Bend Sketch|Link**: \"Wall Sketch object\". Link to the profile/outline sketch.
 
--    **Mid Plane|Bool**: \"Extrude Symmetric to Plane\".   `True`, the profile extends symmetrically to both sides of the sketch plane.
+-    **Mid Plane|Bool**: \"Extrude Symmetric to Plane\". The length of a profile or the thickness of a plate extends to one side of the sketch plane if `False` (default) or symmetrically to both sides if `True`.
 
--    **Reverse|Bool**: \"Reverse Extrusion Direction\". Default: `False`.
+-    **Reverse|Bool**: Reverses the direction of a profile extrusion or a plate thickness. Default: `False`.
 
--    **length|Length**: \"Length of wall\". Default: {{value|100,00 mm}}.
+-    **length|Length**: Extrusion length of a profile. Default: {{value|100,00 mm}}. (not used for plates)
 
--    **radius|Length**: \"Bend Radius\". Default: {{value|1,00 mm}}.
+-    **radius|Length**: Inner radius of automatically added bends. Default: {{value|1,00 mm}}. (not used for plates)
 
--    **thickness|Length**: \"Thickness of sheetmetal\". Default: {{value|1,00 mm}}.
+-    **thickness|Length**: Wall thickness of a sheetmetal profile or plate. Default: {{value|1,00 mm}}.
 
 
 

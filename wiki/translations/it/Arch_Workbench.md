@@ -1,4 +1,7 @@
-# <img alt="L\'icona di Arch" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/it
+# Arch Workbench/it
+**In v1.0 the BIM, Native-IFC and Arch Workbenches have been merged into the integrated [BIM Workbench](BIM_Workbench.md).**
+
+<img alt="L\'icona di Arch" src=images/Workbench_Arch.svg  style="width:128px;">
 
 
 
@@ -7,7 +10,7 @@
 
 ## Introduzione
 
-L\'[Ambiente Arch](Arch_Workbench/it.md) <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> fornisce a FreeCAD un moderno flusso di lavoro di tipo [building information modelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM), con supporto per funzionalità come entità architettoniche completamente parametriche come muri, travi, tetti, finestre, scale, tubazioni e mobili. Supporta i file [industry foundation classes](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) ([IFC](Arch_IFC/it.md)), e la produzione di planimetrie 2D in combinazione con l\'ambiente <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/it.md).
+The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md) provides a modern [**B**uilding **I**nformation **M**odelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) workflow to FreeCAD, with support for features like fully parametric architectural entities such as walls, beams, roofs, windows, stairs, pipes, and furniture. It supports [**I**ndustry **F**oundation **C**lasses](Arch_IFC.md) (IFC) files, and production of 2D floor plans in combination with the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
 
 L\'ambiente Arch importa tutti gli strumenti dall\'ambiente <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/it.md), poiché usa oggetti 2D per costruire i suoi oggetti architettonici 3D parametrici. Tuttavia, Arch può anche utilizzare oggetti solidi creati in altri ambiente di lavoro come <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Parte](Part_Workbench/it.md) e <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/it.md).
 
@@ -27,27 +30,93 @@ Strumenti per creare gli oggetti architettonici.
 
 -   <img alt="" src=images/Arch_Structure.svg  style="width:32px;"> [Struttura](Arch_Structure/it.md): Crea un elemento strutturale da zero o utilizzando un oggetto selezionato come base.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Strumenti armatura](Arch_CompRebarStraight/it.md): Questi strumenti sono disponibili solo se è stato installato l\'[Ambiente Rinforzi](Reinforcement_Workbench/it.md).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Armatura diritta](Arch_Rebar_Straight/it.md): Crea una barra d\'armatura diritta in un elemento strutturale selezionato.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [Armatura a U](Arch_Rebar_UShape/it.md): Crea una barra d\'armatura a forma di U in un elemento strutturale selezionato.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [Armatura a L](Arch_Rebar_LShape/it.md): Crea una barra d\'armatura a forma di L in un elemento strutturale selezionato.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Staffe armatura](Arch_Rebar_Stirrup/it.md): Crea una barra d\'armatura a staffa in un elemento strutturale selezionato.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Armatura sagomata](Arch_Rebar_BentShape/it.md): Crea una barra d\'armatura sagomata in un elemento strutturale selezionato.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Armatura elicoidale](Arch_Rebar_Helical/it.md): Crea una barra d\'armatura elicoidale in un elemento strutturale selezionato.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Armatura pilastro](Arch_Rebar_ColumnReinforcement/it.md): Crea barre d\'armatura in un pilastro rettangolare selezionato.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Armatura trave](Arch_Rebar_BeamReinforcement/it.md): Crea barre d\'armatura in una trave selezionata.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Armatura soletta](Arch_Rebar_Slab_Reinforcement/it.md): Crea barre d\'armatura in una soletta selezionata.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Armatura fondamenta](Arch_Rebar_Footing_Reinforcement/it.md): Crea barre d\'armatura all\'interno di una fondamenta selezionata.
+
+
+</div>
 
   - <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Armatura personalizzata](Arch_Rebar/it.md): Crea una barra d\'armatura personalizzata in un elemento strutturale selezionato utilizzando uno schizzo.
 
@@ -125,6 +194,14 @@ Strumenti per modificare gli oggetti architettonici.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Taglio con piano](Arch_CutPlane/it.md): Taglia un oggetto secondo un piano.
 
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Taglio con una linea](Arch_CutLine/it.md): Taglia un oggetto secondo una linea. Non disponibile nella {{VersionPlus/it|0.22}}.
+
+
+</div>
+
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Aggiungi componente](Arch_Add/it.md): Aggiunge oggetti a un componente.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Rimuovi componente](Arch_Remove/it.md): Sottrae o rimuove oggetti da un componente.
@@ -163,16 +240,6 @@ Strumenti aggiuntivi di aiuto per operazioni specifiche.
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Attiva o disattiva i sottocomponenti](Arch_ToggleSubs/it.md): Attiva o Disattiva i sottocomponenti di un oggetto Arch.
 
-## Obsolete tools 
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Taglio con una linea](Arch_CutLine/it.md): Taglia un oggetto secondo una linea.
-
-
-</div>
-
 ### Preferences
 
 -   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Preferenze](Arch_Preferences/it.md): preferenze per l\'aspetto predefinito di pareti, strutture, armature, finestre, scale, pannelli, tubazioni, griglie e assi.
@@ -209,4 +276,4 @@ Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/i
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/it
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Arch Workbench/it

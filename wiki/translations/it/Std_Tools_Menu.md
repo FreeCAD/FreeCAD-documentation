@@ -45,25 +45,27 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_DependencyGraph.svg  style="width:32px;"> [Grafico delle dipendenze\...](Std_DependencyGraph/it.md): mostra come sono correlate le varie funzioni in un modello.
 
--   <img alt="" src=images/Std_ProjectUtil.svg  style="width:32px;"> [Utilità di progetto\...](Std_ProjectUtil/it.md): aiuta a riparare i file di progetto danneggiati.
+-   [Esporta grafico dipendenze\...](Std_ExportDependencyGraph.md) {{Version/it|0.21}}
 
--   <img alt="" src=images/Std_MeasureDistance.svg  style="width:32px;"> [Misura la distanza](Std_MeasureDistance/it.md): misura e visualizza la distanza assoluta tra due punti nello spazio 3D.
+-   <img alt="" src=images/Std_ProjectUtil.svg  style="width:32px;"> [Utilità Documento\...](Std_ProjectUtil/it.md): aiuta a riparare i file di progetto danneggiati.
 
 -   <img alt="" src=images/Std_TextDocument.svg  style="width:32px;"> [Aggiungi un documento testo](Std_TextDocument/it.md): aggiunge un oggetto in grado di contenere un testo arbitrario.
 
 -   <img alt="" src=images/Std_DemoMode.svg  style="width:32px;"> [Visualizza rotazione oggetti\...](Std_DemoMode/it.md): attiva la rotazione del modello nella finestra della vista 3D.
 
--   <img alt="" src=images/Std_UnitsCalculator.svg  style="width:32px;"> [Calcolatore delle unità\...](Std_UnitsCalculator/it.md): apre una calcolatrice per la conversione di unità di misura.
+-   <img alt="" src=images/Std_UnitsCalculator.svg  style="width:32px;"> [Convertitore delle unità\...](Std_UnitsCalculator/it.md): apre una calcolatrice per la conversione di unità di misura.
 
 -   <img alt="" src=images/Std_DlgCustomize.svg  style="width:32px;"> [Personalizza\...](Std_DlgCustomize/it.md): permette di modificare menu, tasti di scelta rapida e barre degli strumenti.
 
--   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Addon manager](Std_AddonMgr/it.md): installa e gestisce gli [ambienti esterni](External_workbenches/it.md) e le [macro](macros/it.md) fornite dalla comunità di FreeCAD.
+-   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Addon manager](Std_AddonMgr/it.md): installa e gestisce gli [ambienti esterni](External_workbenches/it.md), [pacchetti preferenze](Preference_Packs/it.md) e le [macro](macros/it.md) fornite dalla comunità di FreeCAD.
+
+-   <img alt="" src=images/Std_Measure.svg  style="width:32px;"> [Misurare](Std_Measure/it.md): Misurazione di oggetti {{Version/it|1.0}}
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -9,6 +9,8 @@
 
 
 
+
+
 ## Введение
 
 The **FCGear Workbench** is an [external workbench](External_workbenches.md) for manufacturing different types of gears and worm gears in FreeCAD. The parametric modelling allows the required geometries to be changed at any time. For example, by changing a few parameters, the involute gear becomes either a spur gear, helical gear or double helical gear.
@@ -20,6 +22,8 @@ In conjunction with 3D printing, home users now have the opportunity to design a
 The FCGear Workbench can be installed via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
 
 After installation, the tools are available in the Gear toolbar and in the Gear menu.
+
+
 
 ## Инструменты
 
@@ -39,6 +43,8 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 
 -   <img alt="" src=images/FCGear_WormGear.svg  style="width:32px;"> [Worm Gear](FCGear_WormGear.md): Creates a worm gear.
 
+-   <img alt="" src=images/FCGear_TimingGearT.svg  style="width:32px;"> [Timing GearT](FCGear_TimingGearT.md): Creates a timing gear T-shape.
+
 -   <img alt="" src=images/FCGear_TimingGear.svg  style="width:32px;"> [Timing Gear](FCGear_TimingGear.md): Creates a timing gear.
 
 -   <img alt="" src=images/FCGear_LanternGear.svg  style="width:32px;"> [Lantern Gear](FCGear_LanternGear.md): Creates a lantern gear.
@@ -47,7 +53,11 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 
 -   <img alt="" src=images/FCGear_GearConnector.svg  style="width:32px;"> [Combine two gears](FCGear_GearConnector.md): Combines two gears.
 
+
+
 ## Типы зубчатых колес (шестерней) 
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -66,6 +76,8 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 *From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear InternalInvoluteGear](FCGear_InternalInvoluteGear.md))*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Эвольвентные зубчатые рейки 
@@ -75,6 +87,8 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 
 <img alt="" src=images/Involute-Rack_example.png  style="width:" height="200px;"> 
 *From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -93,6 +107,8 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 *From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear CycloidRack](FCGear_CycloidRack.md))*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Конические зубчатые колеса 
@@ -104,6 +120,8 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 *From left to right: Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Коронные зубчатые колеса 
@@ -113,6 +131,8 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 
 <img alt="" src=images/Crown-Gear_example.png  style="width:150px;"> 
 *Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -140,6 +160,8 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 <img alt="" src=images/FCGear_FCGear_HypoCycloidGear-05.png  style="width:120px;"> 
 *Hypocycloid gearing (see [FCGear HypoCycloidGear](FCGear_HypoCycloidGear.md))*
 
+
+
 ## Ссылки
 
 -   Автор: looooo
@@ -154,6 +176,8 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 -   Videos:
 -   Files:
 -   Report bugs: Please report bugs at <https://github.com/looooo/FCGear/issues>
+
+
 
 ## Другие полезные ссылки 
 

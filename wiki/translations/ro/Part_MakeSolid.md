@@ -7,11 +7,22 @@
 
 # Part MakeSolid/ro
 
+
+</div>
+
 ## Description
+
+
+<div class="mw-translate-fuzzy">
 
 ## Introducere
 
 Această comandă creează un solid dintr-un obiect tip formă.
+
+
+</div>
+
+This command is typically used as one of the steps to create a solid from a mesh. See [Part ShapeFromMesh](Part_ShapeFromMesh#Usage.md) for more information.
 
 ## Usage
 
@@ -29,7 +40,7 @@ Această comandă creează un solid dintr-un obiect tip formă.
 
 </div>
 
-## Limitations
+## Notes
 
 
 <div class="mw-translate-fuzzy">
@@ -41,6 +52,20 @@ Este recomandabil să utilizați traseul ** Part** → ** Refine Shape** înaint
 
 
 </div>
+
+## Properties
+
+See also: [Property editor](Property_editor.md).
+
+The created objects are [Part Feature](Part_Feature.md) objects with no additional properties.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

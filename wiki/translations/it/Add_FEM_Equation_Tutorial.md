@@ -14,28 +14,32 @@
 
 
 
-## Introduction
+
+
+## Introduzione
 
 In questo tutorial aggiungeremo a FreeCAD l\'equazione di flusso e implementeremo il supporto per il risolutore elmer. Prima di leggere questo tutorial è necessario aver letto e compreso il tutorial [ Estendere il modulo FEM](Extend_FEM_Module/it.md).
 
-The task can be split into five parts:
+L\'operazione può essere suddivisa in cinque parti:
 
--   **New equation type**. This step must only be done if the equation doesn\'t exist in FreeCAD yet (as opposed to an equation that is already in FreeCAD but not supported by the target solver).
--   **New equation object**. Adding a concrete document object representing the Elmer-specific equation.
--   **Extend solver object**. Adding support for the new equation to the solver object of Elmer.
--   **Extend writer object**. Extending the analysis export of Elmer to support the new equation type.
--   **Gui tool to create an equation**. Access the new equation function through workbench Gui.
+-   **Nuovo tipo di equazione**. Questo passaggio deve essere eseguito solo se l\'equazione non esiste ancora in FreeCAD (al contrario di un\'equazione già presente in FreeCAD ma non supportata dal risolutore di destinazione).
+-   **Nuovo oggetto equazione**. Aggiunta di un oggetto documento concreto che rappresenta l\'equazione specifica di Elmer.
+-   **Estendere l\'oggetto risolutore**. Aggiungere il supporto per la nuova equazione all\'oggetto risolutore di Elmer.
+-   **Estendere l\'oggetto scrittore**. Estensione dell\'esportazione dell\'analisi di Elmer per supportare il nuovo tipo di equazione.
+-   **Strumento GUI per creare un\'equazione**. Accedere alla nuova funzione dell\'equazione tramite la GUI dell\'ambiente.
 
-## New equation type 
 
-In this step we are going to modify the following file:
+
+## Nuovo tipo di equazione 
+
+In questo passaggio modificheremo il seguente file:
 
 -    **src/Mod/Fem/femsolver/equationbase.py**
     
 
-The equation type is shared among all equation objects of the different solvers. Each type has a string specifier (e.g. \"Heat\") and a dedicated command that adds the equation to the selected solver. This allows for a simpler GUI where we have only one button for the heat equation which is used for all supported solver.
+Il tipo di equazione è condiviso tra tutti gli oggetti dell\'equazione dei diversi solutori. Ogni tipo ha uno specificatore di stringa (ad esempio \"Heat\") e un comando dedicato che aggiunge l\'equazione al risolutore selezionato. Ciò consente una GUI più semplice in cui si ha un solo pulsante per l\'equazione del calore che viene utilizzata per tutti i solutori supportati.
 
-First, add the new equation to the {{Incode|equationbase.py}} module. Each equation requires two classes. A document proxy and a view proxy. Those two classes will later be used as base classes for the Elmer-specific equation classes. Just copy-paste them from an existing equation type and adjust the icon path inside {{Incode|getIcon(self)}} of the view proxy.
+Innanzitutto, aggiungere la nuova equazione al modulo {{Incode|equationbase.py}}. Ogni equazione richiede due classi. Un proxy di documento e un proxy di visualizzazione. Queste due classi verranno successivamente utilizzate come classi base per le classi di equazioni specifiche di Elmer. Basta copiarle ed incollarle da un tipo di equazione esistente e regolare il percorso dell\'icona all\'interno di {{Incode|getIcon(self)}} del proxy di visualizzazione.
 
 
 ```python
@@ -47,14 +51,16 @@ class FlowViewProxy(BaseViewProxy):
         return ":/icons/FEM_EquationFlow.svg"
 ```
 
-## New Elmer\'s equation object 
 
-In this step, we are going to implement the document object. We need to add a new {{Incode|flow.py}} file at:
+
+## Nuovo oggetto equazione di Elmer 
+
+In questo passaggio implementeremo l\'oggetto documento. Dobbiamo aggiungere un nuovo file {{Incode|flow.py}} in:
 
 -    **src/Mod/Fem/femsolver/elmer/equations/flow.py**
     
 
-and modify the following files:
+e modificare i seguenti file:
 
 -    **src/Mod/Fem/ObjectsFem.py**
     
@@ -62,23 +68,25 @@ and modify the following files:
 -    **src/Mod/Fem/CMakeLists.txt**
     
 
-Let\'s start with adding the new {{Incode|flow.py}} file. This file can be copied from an existing equation.
+Si inizi aggiungendo il nuovo file {{Incode|flow.py}}. Questo file può essere copiato da un\'equazione esistente.
 
 ### Keywords
 
--   If the new equation only supports keywords for **linear** systems copy the {{Incode|femsolver/elmer/equations/elasticity.py}} module.
--   If the new equation supports keywords for both **linear** and **non-linear** systems, copy {{Incode|femsolver/elmer/equations/heat.py}}.
+-   Se la nuova equazione supporta solo parole chiave per sistemi **lineari** copiare il modulo {{Incode|femsolver/elmer/equations/elasticity.py}}.
+-   Se la nuova equazione supporta parole chiave sia per i sistemi **lineari** che **non lineari**, copiare {{Incode|femsolver/elmer/equations/heat.py}}.
 
-The flow equation in Elmer is a potentially non-linear equation. This means that we are going to base our work on {{Incode|heat.py}}.
+L\'equazione del flusso in Elmer è un\'equazione potenzialmente non lineare. Ciò significa che si baserà il lavoro su {{Incode|heat.py}}.
 
-### Editing files 
 
-After copying {{Incode|heat.py}} to {{Incode|flow.py}}, adjust {{Incode|flow.py}} in these locations:
 
--   the name argument of the {{Incode|create}} module function,
--   the base classes of the {{Incode|Proxy}} class,
--   the {{Incode|Type}} attribute of the {{Incode|Proxy}} class,
--   the {{Incode|ViewProxy}} classes.
+### Modifica dei file 
+
+Dopo aver copiato {{Incode|heat.py}} in {{Incode|flow.py}}, modificare {{Incode|flow.py}} in queste posizioni:
+
+-   l\'argomento del nome della funzione del modulo {{Incode|create}},
+-   le classi base della classe {{Incode|Proxy}},
+-   l\'attributo {{Incode|Type}} della classe {{Incode|Proxy}},
+-   le classi {{Incode|ViewProxy}}.
 
 
 ```python
@@ -98,24 +106,26 @@ class ViewProxy(nonlinear.ViewProxy, equationbase.'''Flow'''ViewProxy):
     pass
 ```
 
-Then you need to change the properties added via the {{Incode|obj.addProperty(..)}} function to those needed by the equation.
+Quindi è necessario modificare le proprietà aggiunte tramite la funzione {{Incode|obj.addProperty(..)}} con quelle richieste dall\'equazione.
 
-At the moment of writing this tutorial Elmer flow equation doesn\'t have any special properties. See the Elmer elasticity equation for an example with properties.
+Al momento della stesura di questo tutorial l\'equazione del flusso di Elmer non ha proprietà speciali. Vedere l\'equazione dell\'elasticità di Elmer per un esempio con le proprietà.
 
-Finally one has to register a **makeEquationFlow** definition in {{Incode|src/Mod/Fem/ObjectsFem.py}} by duplicating an available entry.
+Infine bisogna registrare una definizione **makeEquationFlow** in {{Incode|src/Mod/Fem/ObjectsFem.py}} duplicando una voce disponibile.
 
-FreeCAD uses **make** to build the program. So we need to register the new module file ({{Incode|flow.py}}) in {{Incode|src/Mod/Fem/CMakeLists.txt}} the way described in [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). The suitable lists can be easily found by searching for existing equation module files of Elmer.
+FreeCAD utilizza **make** per costruire il programma. Quindi si deve registrare il nuovo file del modulo ({{Incode|flow.py}}) in {{Incode|src/Mod/Fem/CMakeLists.txt}} nel modo descritto in [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). Gli elenchi adatti possono essere facilmente trovati cercando i file dei moduli di equazioni esistenti di Elmer.
 
-## Extend Solver Object 
 
-In this step we are going to modify the following file:
+
+## Estendere l\'oggetto risolutore 
+
+In questo passaggio modificheremo il seguente file:
 
 -    **src/Mod/Fem/femsolver/elmer/solver.py**
     
 
-Right now we made FreeCAD aware that there is a new type of equation and even added a command that adds this equation to the selected solver object. We also implemented a concrete equation object for Elmer. What\'s left to do now is to make the connection between Elmer and the flow equation. This must be done directly in the Elmer solver object.
+In questo momento è stato informato FreeCAD dell\'esistenza di un nuovo tipo di equazione e si è anche aggiunto un comando che aggiunge questa equazione all\'oggetto del risolutore selezionato. Si è anche implementato un oggetto equazione concreta per Elmer. Ciò che resta da fare ora è stabilire la connessione tra Elmer e l\'equazione del flusso. Questo deve essere fatto direttamente nell\'oggetto risolutore Elmer.
 
-Register the module in which we just implemented our new equation object ({{Incode|flow.py}}) with the equation specifier from step 1 (\"Flow\") in the {{Incode|_EQUATIONS}} list in {{Incode|elmer/solver.py}}.
+Registrare il modulo in cui abbiamo appena implementato il nostro nuovo oggetto equazione ({{Incode|flow.py}}) con l\'identificatore dell\'equazione del passaggio 1 (\"Flow\") nell\'elenco {{Incode|_EQUATIONS}} in {{Incode| elmer/solver.py}}.
 
 
 ```python
@@ -131,16 +141,18 @@ _EQUATIONS = {
 }
 ```
 
-## Extend writer object 
 
-In this step we are going to modify the following file:
+
+## Estendere l\'oggetto writer 
+
+In questo passaggio modificheremo il seguente file:
 
 -    **src/Mod/Fem/femsolver/elmer/writer.py**
     
 
-This file contains the {{Incode|Writer}} class which exports the analysis into Elmer SIF format.
+Questo file contiene la classe {{Incode|Writer}} che esporta l\'analisi nel formato Elmer SIF.
 
-For every supported equation, there are two main methods handling the export of the respective equation. Just copy all of them from an existing equation and adjust them to your needs.
+Per ogni equazione supportata, esistono due metodi principali che gestiscono l\'esportazione della rispettiva equazione. Basta copiarli tutti da un\'equazione esistente e adattarli alle tue esigenze.
 
 -    {{Incode|_getFlowSolver}}
     
@@ -148,7 +160,7 @@ For every supported equation, there are two main methods handling the export of 
 -    {{Incode|_handleFlow}}
     
 
-You need to register the {{Incode|_handleFlow}} method inside the {{Incode|Writer}} class:
+Si deve registrare il metodo {{Incode|_handleFlow}} all\'interno della classe {{Incode|Writer}}:
 
 
 ```python
@@ -165,7 +177,7 @@ class Writer(object):
 
 {{Incode|_handleFlow}}
 
-can control a series of other detailed methods. Our flow equation uses the following detailed methods:
+può controllare una serie di altri metodi dettagliati. L\'equazione di flusso utilizza i seguenti metodi dettagliati:
 
 -    {{Incode|_handleFlowConstants}}
     
@@ -182,11 +194,13 @@ can control a series of other detailed methods. Our flow equation uses the follo
 -    {{Incode|_handleFlowEquation}}
     
 
-We now finished the function part of the new equation. Next, we\'ll connect the new equation through the GUI.
+Ora è terminata la parte funzione della nuova equazione. Successivamente, si collegherà la nuova equazione tramite la GUI.
 
-## Gui tool to create an equation 
 
-We have just created a new equation class. To access it from the FEM GUI, we need to create a button and link it to the new equation class. Here is a tutorial: [Add Button to FEM Toolbar Tutorial](Add_Button_to_FEM_Toolbar_Tutorial.md).
+
+## Strumento Gui per creare un\'equazione 
+
+É appena stata creata una nuova classe di equazioni. Per accedervi dalla GUI FEM, si deve creare un pulsante e collegarlo alla nuova classe di equazioni. Si veda questo tutorial: [Aggiungere un pulsante alla barra strumenti di FEM](Add_Button_to_FEM_Toolbar_Tutorial/it.md).
 
 
 

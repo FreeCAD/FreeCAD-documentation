@@ -5,7 +5,7 @@
    MenuLocation: TechDraw , TechDraw Ansichten , Ansicht teilen
    Workbenches: TechDraw_Workbench/de
    Version: 0.20
-   SeeAlso: TechDraw_MoveView/de
+   SeeAlso: 
 ---
 
 # TechDraw ShareView/de
@@ -37,7 +37,7 @@ Es gibt nur ein View-Objekt nach der Verteilungsoperation. Sämtliche Änderunge
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug Ansicht teilen kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus genutzt werden durch Verwendung der folgenden Funktionen:
 
@@ -52,7 +52,7 @@ TechDrawTools.MoveView(viewName, fromPageName, toPageName, True)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

@@ -2,7 +2,7 @@
  GuiCommand:
    Name: PartDesign_PolarPattern
    Name/fr: PartDesign Répétition circulaire
-   MenuLocation: Part Design , Appliquer une transformation , Répétition circulaire
+   MenuLocation: PartDesign , Appliquer une transformation , Répétition circulaire
    Workbenches: PartDesign_Workbench/fr
    SeeAlso: PartDesign_MultiTransform/fr
 ---
@@ -14,7 +14,8 @@
 L\'outil <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px;"> **PartDesign Répétition circulaire** crée une transformation circulaire d\'une ou plusieurs fonctions.
 
 ![](images/PartDesign_PolarPattern_example.png ) 
-*Une cavité de forme oblongue (B) réalisée sur une protrusion (A, également appelé support) est utilisée par une transformation circulaire. Le résultat (C) est illustré à droite.*
+*Une cavité de forme oblongue (B) réalisée sur une protrusion (A, également appelé ''support'') est utilisée par une transformation circulaire.<br>
+Le résultat (C) est illustré à droite.*
 
 
 
@@ -24,19 +25,19 @@ L\'outil <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px;"
 
 ### Créer
 
-1.  Vous pouvez [activé](PartDesign_Body#Active_status.md) le bon corps.
-2.  Sélectionnez au besoin une ou plusieurs fonctions dans la [Vue en arborescence](Tree_view/fr.md) ou la [Vue 3D](3D_view/fr.md).
+1.  Vous pouvez [activé](PartDesign_Body/fr#Statut_actif.md) le bon corps.
+2.  Sélectionnez au besoin une ou plusieurs fonctions dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md).
 3.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/PartDesign_PolarPattern.svg" width=16px> [Répétition circulaire](PartDesign_PolarPattern/fr.md)**.
-    -   Sélectionnez l\'option **Part Design → Appliquer une transformation → <img src="images/PartDesign_PolarPattern.svg" width=16px> Répétition circulaire** dans le menu.
-4.  S\'il n\'y a pas de corps actif, et qu\'il y a deux corps ou plus dans le document, la boîte de dialogue **Corps actif requis** s\'ouvrira et vous invitera à en activer un. S\'il y a un seul corps, il sera activé automatiquement.
-5.  Si aucune fonction n\'a été sélectionnée, le [Panneau des tâches](Task_panel/fr.md) **Ajouter une fonction** s\'ouvre : sélectionnez-en une ou plusieurs (en maintenant la touche **Ctrl**) dans la liste et appuyez sur le bouton **OK**.
-6.  Le [Panneau des tâches](Task_panel/fr.md) **Paramètres de la répétition circulaire** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+    -   Sélectionnez l\'option **PartDesign → Appliquer une transformation → <img src="images/PartDesign_PolarPattern.svg" width=16px> Répétition circulaire** dans le menu.
+4.  S\'il n\'y a pas de corps actif, et qu\'il y a deux corps ou plus dans le document, la fenêtre de dialogue **Corps actif requis** s\'ouvrira et vous invitera à en activer un. S\'il y a un seul corps, il sera activé automatiquement.
+5.  Si aucune fonction n\'a été sélectionnée, le [panneau des tâches](Task_panel/fr.md) **Sélectionner une fonction** s\'ouvre : sélectionnez-en une ou plusieurs (en maintenant la touche **Ctrl**) dans la liste et appuyez sur le bouton **OK**.
+6.  Le [panneau des tâches](Task_panel/fr.md) **Paramètres de la répétition circulaire** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 7.  Appuyez sur le bouton **OK** pour terminer.
 
 
 
-### Modifier
+### Éditer
 
 1.  Faites l\'une des choses suivantes :
     -   Double-cliquez sur l\'objet PolarPattern dans la [vue en arborescence](Tree_view/fr.md).
@@ -46,18 +47,30 @@ L\'outil <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px;"
 
 ## Options
 
--   Pour ajouter des fonctions :
-    1.  Appuyez sur le bouton **Ajouter une fonction**.
-    2.  Sélectionnez une fonction dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md).
-    3.  Répétez l\'opération pour ajouter d\'autres fonctions.
--   Pour supprimer des fonctions :
-    1.  Appuyez sur le bouton **Supprimer une fonction**.
-    2.  Effectuez l\'une des opérations suivantes :
-        -   Sélectionnez une fonction dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md).
-        -   Sélectionnez une fonction dans la liste et appuyez sur la touche **Suppr**.
-        -   Cliquez avec le bouton droit de la souris sur une fonction de la liste et sélectionnez **Enlever** dans le menu contextuel.
-    3.  Répétez l\'opération pour supprimer d\'autres fonctions.
--   S\'il y a plusieurs fonctions dans la transformation, leur ordre peut être important. Voir [Organiser les fonctions](#Organiser_les_fonctions.md).
+-   Choisissez le mode :
+    -   
+        **Transformer le corps**
+        
+        : transforme la forme de la fonction de base dans son intégralité (par défaut). {{Version/fr|1.0}}
+
+    -   
+        **Transformer les formes des outils**
+        
+        : transforme les formes de chaque outils des fonctions sélectionnées.
+
+        -   Pour ajouter des fonctions :
+            1.  Appuyez sur le bouton **Ajouter une fonction**.
+            2.  Sélectionnez une fonction dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md).
+            3.  Répétez l\'opération pour ajouter d\'autres fonctions.
+        -   Pour supprimer des fonctions :
+            1.  Appuyez sur le bouton **Supprimer une fonction**.
+            2.  Effectuez l\'une des opérations suivantes :
+                -   Sélectionnez une fonction dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md).
+                -   Sélectionnez une fonction dans la liste et appuyez sur la touche **Suppr**.
+                -   Cliquez avec le bouton droit de la souris sur une fonction de la liste et sélectionnez **Supprimer** dans le menu contextuel.
+            3.  Répétez l\'opération pour supprimer d\'autres fonctions.
+        -   S\'il y a plusieurs fonctions dans le modèle, leur ordre peut être important. Voir [Organiser les fonctions](#Organiser_les_fonctions.md).
+
 -   Spécifiez la **Axe** de la transformation :
     -   
         **Axe normal à l'esquisse**
@@ -65,12 +78,12 @@ L\'outil <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px;"
         : axe Z de l\'esquisse (disponible uniquement pour les fonctions basées sur l\'esquisse).
 
     -   
-        **Axe d'esquisse vertical**
+        **Axe vertical de l'esquisse**
         
         : axe Y de l\'esquisse (idem).
 
     -   
-        **Axe d'esquisse horizontal**
+        **Axe horizontal de l'esquisse**
         
         : axe X de l\'esquisse (idem).
 
@@ -95,13 +108,29 @@ L\'outil <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:24px;"
         : axe Z du corps.
 
     -   
-        **Sélectionnez une référence...**
+        **Sélectionner une référence...**
         
-        : sélectionnez une [PartDesign Ligne de référence](PartDesign_Line/fr.md) dans la [vue en arborescence](Tree_view/fr.md) ou une [PartDesign Ligne de référence](PartDesign_Line/fr.md) ou une arête dans la [vue 3D](3D_view/fr.md).
+        : sélectionnez une [Ligne de référence](PartDesign_Line/fr.md) dans la [vue en arborescence](Tree_view/fr.md) ou une [Ligne de référence](PartDesign_Line/fr.md) ou une arête dans la [vue 3D](3D_view/fr.md).
+
 -   Cochez la case **Inverser la direction** pour inverser la transformation.
+
+-    {{Version/fr|1.0}}: spécifiez le **Mode** de l\'angle :
+
+    -   
+        **Angle global**
+        
+        : entrez l\'**Angle** global. Si l\'angle est inférieur à 360°, les occurrences sont réparties uniformément de 0° (première occurrence) à l\'angle donné (dernière occurrence). Si l\'angle est de 360°, les occurrences sont réparties uniformément autour du cercle. Pour n occurrences, un angle de 360° est équivalent à un angle de 360°\*(1-1/n).
+
+    -   
+        {{Version/fr|1.0}}
+        
+        : **Angle de décalage** : saisissez l\'angle de **Décalage** entre un point donné de la première occurrence et le même point de l\'occurrence suivante. Pour n occurrences : Angle global=(n-1)\*Décalage.
+
 -   Spécifiez l\'**Angle** à couvrir par la transformation. Si l\'angle est inférieur à 360°, les instances sont réparties uniformément de 0° (première instance) à l\'angle donné (dernière instance). Si l\'angle est un cercle complet de 360°, les instances sont réparties uniformément autour du cercle. Cela signifie que pour n instances, un angle de 360° est équivalent à un angle de 360°\*(1-1/n).
--   Spécifiez le nombre d\'occurrences **Occurrences** (y compris la fonction d\'origine).
--   Si la case **Réactualiser la vue** est cochée, la vue sera mise à jour en temps réel.
+
+-   Spécifiez le nombre d\'**Occurrences** (y compris la fonction d\'origine).
+
+-   Si la case **Mettre à jour la vue** est cochée, la vue sera mise à jour en temps réel.
 
 
 

@@ -10,9 +10,13 @@
 
 # Std MainFullscreen/it
 
+
+
 ## Descrizione
 
 Il comando **Schermo intero** attiva o disattiva la modalità a schermo intero della finestra principale di FreeCAD.
+
+
 
 ## Utilizzo
 
@@ -24,7 +28,7 @@ Il comando **Schermo intero** attiva o disattiva la modalità a schermo intero d
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

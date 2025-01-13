@@ -3,7 +3,7 @@
 
 Cette page donne un aperçu général de la façon dont les différents outils et concepts utilisés dans d\'autres applications BIM sont comparables à FreeCAD, plus précisément à l\'[atelier BIM](BIM_Workbench/fr.md).
 
-**A FAIRE :** Ajouter d\'autres applications BIM : Allplan, Tekla, Vectorworks, BricsCAD, et quoi d\'autre ?
+**A FAIRE :** ajouter d\'autres applications BIM : [Bonsai](https://bonsaibim.org/), Allplan, Tekla, Vectorworks, BricsCAD, et quoi d\'autre ?
 
                                                        FreeCAD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Revit                                                                                                                                                                                                                                 ArchiCAD
      
@@ -19,4 +19,4 @@ Cette page donne un aperçu général de la façon dont les différents outils e
 
 
 ---
-⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM application compatibility table/fr
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM application compatibility table/fr

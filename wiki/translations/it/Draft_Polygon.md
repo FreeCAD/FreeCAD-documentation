@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Polygon
-   Name/it: Poligono
-   MenuLocation: Drafting , Poligono
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Poligono
+   MenuLocation: Drafting , Poligono<br>2D Drafting , Poligono
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **P** **G**
    Version: 0.7
 ---
@@ -29,7 +29,8 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Polygon.svg" width=16px> [Poligono](Draft_Polygon/it.md)**.
-    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_Polygon.svg" width=16px> Poligono** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Drafting → <img src="images/Draft_Polygon.svg" width=16px> Poligono** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **2D Drafting → <img src="images/Draft_Polygon.svg" width=16px> Poligono** dal menu.
     -   Usare la scorciatoia da tastiera: **P** poi **G**.
 2.  Si apre il pannello attività **Poligono**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
 3.  Regolare il numero desiderato di **Lati**.
@@ -40,10 +41,10 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 ## Opzioni
 
-È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 0.22).
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 1.0).
 
 -   Per inserire manualmente le coordinate del centro, inserire le componenti X, Y e Z, e premere **Enter** dopo ciascuna. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
--   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
+-   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md).
 -   Premere **F** o fare clic sulla casella di controllo **Riempito** per attivare o disattivare la modalità riempimento. Se la modalità riempimento è attiva, il poligono creato avrà **Make Face** impostato su `True` e avrà una faccia piena.
 -   Premere **N** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando si riavvierà al termine, consentendo di continuare a creare poligoni.
 -   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).

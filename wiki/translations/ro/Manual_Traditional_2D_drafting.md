@@ -25,6 +25,12 @@ sunt utilizate frecvent peste tot în FreeCAD, deoarece sunt adesea mai intuitiv
 
 </div>
 
+The snapping system in FreeCAD's Draft Workbench is designed for precision. Whether working in 2D or 3D, you can snap to critical points like endpoints, midpoints, and centers of circles, making it easy to position elements relative to one another. Modes such as perpendicular, tangent, and intersection snapping further enhance precision. Combined with the working plane and grid system, these tools ensure the accurate alignment of objects and components.
+
+FreeCAD's parametric nature enables constraints to be applied to drafted elements, ensuring geometric relationships stay intact. For example, you can make lines parallel or perpendicular and set fixed distances between elements. These constraints can be adjusted later, making design changes smooth and consistent across the project. The Draft Workbench also integrates seamlessly with other FreeCAD workbenches, such as Sketcher, which is designed for more constrained parametric 2D design, and TechDraw, which produces technical 2D drawings for documentation purposes.
+
+Advanced features of the Draft Workbench include the ability to import and export files in formats like DXF and SVG, allowing you to work with or share designs with users of other CAD programs. Python scripting further enhances FreeCAD's capabilities, allowing you to automate tasks or create custom workflows. You can write scripts that generate draft objects based on specific geometric rules, streamlining repetitive tasks.
+
 Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece printr-un exercițiu simplu, rezultatul căruia va fi acest desen mic, arătând planul unei case mici care conține doar o chicinetă (Un plan destul de absurd, dar putem face ceea ce dorim aici, nu-i așa?):
 
 ![](images/Exercise_cabin_01.jpg )
@@ -38,21 +44,36 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 
 </div>
 
-![](images/Freecad_draft_options_01.jpg )
-
 
 <div class="mw-translate-fuzzy">
 
--   O opțiune ar putea avea nevoie de atenția ta, dură:\"**Fill objects with faces whenever possible**\" . Dacă aceasta este marcată, obiectele închise cum ar fi dreptunghiurile sau cercurile vor fi umplute cu o fațetă în mod implicit. Puteți opri această opțiune acum sau mai târziu, dezactivați proprietatea \"**Make Face**\" pentru fiecare obiect individual, pentru a preveni creare de fațete.
+![](images/Freecad_draft_options_01.jpg )
 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Atelierul Draft are de asemenea două bare de instrumente speciale: unul cu **visual settings**, unde puteți schimba planul de lucru curent, activați/dezactivați modul de construție [construction mode](Draft_ToggleConstructionMode.md) , setați culoarea liniei, culoarea fațetei, grosimea liniei și mărimea textului pentru a fi utilizate pentru obiecte noi și o altă **snap location**. Acolo, puteți activa / dezactiva grila și seta / dezactiva loca\'iile individuale [Snap locations](Draft_Snap.md):
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ![](images/Draft_toolbars.jpg )
 
+
+</div>
+
 -   Pornirea tuturor butoanelor de blocare este convenabilă, dar, de asemenea, face desenarea mai lentă, deoarece trebuie făcut mai mult calcul atunci când mutați cursorul mouse-ului. Este adesea mai bine să lr păstrați numai pe cele pe care le veți folosi efectiv.
+
+-   Let\'s start by turning **construction mode** on, which will allow us to draw some guidelines on which we will draw our final geometry. You can do that by pressing on the <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:24px;"> [Toggle construction mode](Draft_ToggleConstructionMode.md) command.
+-   If you prefer, you can set the working plane to XY. This will lock the working plane, ensuring it remains on the XY plane regardless of how you change the view. If you choose not to do this, the working plane will automatically adapt to the current view, meaning you\'ll need to ensure you\'re in the top view whenever you want to draw on the XY (ground) plane to avoid unintended shifts in orientation.
+
+Now we can switch to the Part Workbench and start to create our first table leg.
 
 
 <div class="mw-translate-fuzzy">
@@ -65,7 +86,15 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 
 </div>
 
+-   Duplicate that rectangle by 15cm inside, using the <img alt="" src=images/Draft_Offset.svg  style="width:16px;"> [Offset](Draft_Offset.md) tool, turning its Copy mode on, and giving it a distance of 15cm:
+
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_cabin_02.jpg )
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -102,7 +131,13 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_cabin_05.jpg )
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -161,9 +196,21 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 
 ![](images/Exercise_cabin_10.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Desenul nostru este acum complet! Deoarece există destul de multe obiecte acolo, ar fi înțelept să faceți ceva curățenie și să restructurați totul în grupuri frumoase, pentru a face fișierul mai ușor de înțeles pentru alte persoane:
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Exercise_cabin_11.jpg )
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -186,7 +233,13 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 
 ![](images/Exercise_cabin_13.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Tot felul de deschideri se poate realiza la fel de ușor prin desenarea obiectelor de Draft pe fețele pereților, apoi prin extrudare, apoi prin folosirea uneltelor booleene de la Atelierul Piese pentru a le extrage dintr-un alt solid, după cum am văzut în capitolul precedent.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -195,6 +248,10 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 
 
 </div>
+
+This difference is where the workbenches complement each other. The Draft Workbench is ideal for fast, interactive design, allowing you to draw and position objects without constantly entering precise numerical values. On the other hand, the Part Workbench offers more detailed, parametric control over object properties, making it better suited for highly accurate adjustments, especially in engineering or technical design projects.
+
+The beauty of FreeCAD is that you don\'t need to choose between one or the other. You can create [custom toolbars](Interface_Customization.md) by combining tools from both the Draft and Part Workbenches, giving you the flexibility to switch between graphical and parametric methods as needed. This allows you to enjoy the best of both worlds---quick, on-screen adjustments from the Draft Workbench and the precision of the Part Workbench---depending on the needs of your project. Additionally, using keyboard shortcuts and custom toolbars can speed up your workflow, making it easy to transition between different operations without interrupting your design process.
 
 
 
@@ -206,10 +263,16 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Fișierul creat în timpul acestui exercițiu: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/cabin.FCStd>
 -   Fișierul DXF chivetei : <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/sink.dxf>
 -   Fișier DXF al aragazului: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/cooktop.dxf>
 -   Fișierul final DXF produs în timpul acestui exercițiu: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/cabin.dxf>
+
+
+</div>
 
 
 

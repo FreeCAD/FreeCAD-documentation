@@ -1,5 +1,5 @@
 # Category:Inspection/de
-This category lists pages related to the [Inspection Workbench](Inspection_Workbench.md).
+Diese Kategorie ist eine Zusammenstellung von Seiten, die zum Arbeitsbereich [Inspection](Inspection_Workbench.md) gehören.
 
 ### Contents
 

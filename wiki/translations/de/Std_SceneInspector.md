@@ -17,17 +17,17 @@ Der Befehl **Std SceneInspector** öffnet ein Dialogfeld, das eine Übersicht ü
 
 ## Anwendung
 
-1.  Wähle die **Werkzeuge → <img src="images/Std_SceneInspector.svg" width=16px>  Szeneninspektor...** Option aus dem Menü.
-2.  Es öffnet sich das Dialogfeld Szeneninspektor.
-3.  Das Dialogfeld ist moduslos, d.h. es kann geöffnet bleiben, während du in FreeCAD weiterarbeitest.
-4.  Drücke optional den **Aktualisieren**, um die Übersicht zu aktualisieren.
-5.  Drücke die **Schließen** Schaltfläche, um das Dialogfeld zu schließen.
+1.  Den Menüeintrag **Werkzeuge → <img src="images/Std_SceneInspector.svg" width=16px>  Szeneninspektor...** auswählen.
+2.  Es öffnet sich das Dialogfeld **Szeneninspektor**.
+3.  Das Dialogfeld ist nicht modal, d.h. es kann geöffnet bleiben, während man in FreeCAD weiterarbeitet.
+4.  Wahlweise die Schaltfläche **Aktualisieren** drücken, um die Übersicht zu aktualisieren.
+5.  Die Schaltfläche **Schließen** drücken, um das Dialogfeld zu schließen.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

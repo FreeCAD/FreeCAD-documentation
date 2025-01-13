@@ -1,61 +1,63 @@
 ---
- TutorialInfo:
-   Topic: Architecture
-   Level: Intermediate
-   Time: 60 minutes
+ TutorialInfo:l
+   Topic: Architektura
+   Level: średnio zaawansowany
+   Time: 60 minut
    Author: https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx
-   FCVersion: 0.18 or greater
-   Files: none
+   FCVersion: 0.18 lub nowszy
+   Files: nie dołączono
 }}
 
-## Introduction
 
-This tutorial shows how to place custom designed Arch Windows and Arch Doors in a building model. It uses the Draft Workbench, the Arch Workbench, and the Sketcher Workbench.
 
-Common tools used are: Draft Grid, Draft Snap, Draft Wire, Arch Wall, Arch Window, and Sketcher NewSketch. The user should be familiar with constraining sketches.
+## Wprowadzenie
 
-This tutorial was inspired by the tutorials by jpg87 posted in the FreeCAD forums.
+Ten poradnik pokazuje, jak umieścić niestandardowe okno i drzwi w modelu budynku. Wykorzystuje on środowisko Rysunek Roboczy, Architektura i Szkicownik.
 
--   Arch Create a custom window
--   Arch : How to use your custom Window
+Często używanymi narzędziami są: siatka, narzędzia przyciągania, polilinia, ściana, okno i Utwórz szkic. Użytkownik powinien być zaznajomiony z tworzeniem szkiców z wiązaniami.
 
-See also the following thread for more information on the position of windows and doors.
+Ten poradnik został zainspirowany poradnikami autorstwa jpg87 opublikowanymi na forum FreeCAD.
 
--   Discussion: Orientation of Windows and Doors
+-   Architektura: Tworzenie niestandardowego okna
+-   Architektura: Jak używać niestandardowego okna
 
-See also the following page for some videos on how to align windows.
+Zobacz także poniższy wątek, aby uzyskać więcej informacji na temat położenia okien i drzwi.
 
--   The workbench used to create architectural projects is called Arch
+-   Dyskusja: Orientacja okien i drzwi.
 
-## Setup
+Zobacz także poniższą stronę, aby zobaczyć kilka filmów na temat wyrównywania okien.
 
-1\. Open FreeCAD, create a new empty document, and switch to the Arch Workbench.
+-   Środowisko pracy używane do tworzenia projektów architektonicznych nosi nazwę Architektura.
 
-2\. Make sure your units are set correctly in the menu **Edit , Preferences , General , Units**. For example, {{incode   MKS }}{: mediawiki} is good for dealing with distances in a typical building; moreover, set the number of decimals to {{incode   4}}{: mediawiki}, to consider even the smallest fractions of a meter.
 
-3\. Use the Draft ToggleGrid button to show a grid with enough resolution. You can change the grid appearance in the menu **Edit , Preferences , Draft , Grid and snapping , Grid**. Set lines at every {{incode   50 mm}}{: mediawiki}, with major lines every {{incode   20}}{: mediawiki} lines , and {{incode   1000 lines}}{: mediawiki} in total .
 
-4\. Zoom out of the 3D view if you are too close to the grid.
+## Konfiguracja
 
-Now we are ready to create a simple wall on which we can position windows and doors.
+1\. Otwórz program FreeCAD, utwórz nowy pusty dokument i przejdź do środowiska Architektura.
 
-## Placing a wall 
+2\. Upewnij się, że jednostki są prawidłowo ustawione w menu **Edycja , Preferencje ... , Ogólne , Jednostki**. Na przykład {{Incode   MKS }}{: mediawiki} jest dobre do radzenia sobie z odległościami w typowym budynku; co więcej, ustaw liczbę miejsc dziesiętnych na {{Incode   4}}{: mediawiki}, aby uwzględnić nawet najmniejsze ułamki metra.
 
-5\. Use the Draft Wire tool to create a wire. Go counterclockwise.
+3\. Użyj przycisku Przełącz widoczność siatki, aby wyświetlić siatkę z wystarczającą rozdzielczością. Wygląd siatki można dostosować w menu **Edycja , Preferencje , Rysunek Roboczy , Siatka i przyciąganie , Siatka**. Ustaw linie co {{incode   50 mm}}{: mediawiki}, z głównymi liniami co {{incode   20}}{: mediawiki} linii ** i {{incode   1000 linii}}{: mediawiki} w sumie .
 
-:   5.1. First point in ; in the dialog enter **0** **m** **Enter**, **4** **m** **Enter**, **0** **m** **Enter**.
-:   5.2. Second point in ; in the dialog enter **2** **m** **Enter**, **0** **m** **Enter**, **0** **m** **Enter**.
-:   5.3. Third point in ; in the dialog enter **4** **m** **Enter**, **0** **m** **Enter**, **0** **m** **Enter**.
-:   5.4. Fourth point in ; in the dialog enter **6** **m** **Enter**, **2** **m** **Enter**, **0** **m** **Enter**.
-:   5.4. Fifth point in ; in the dialog enter **6** **m** **Enter**, **5** **m** **Enter**, **0** **m** **Enter**.
-:   5.5. In the number pad press **A** to finish the wire.
-:   5.6. In the number pad press **0** to get an axonometric view of the model.
-:   
-    **Note:**make sure the **Relative** checkbox is disabled if you are giving absolute coordinates.
-:   
-    **Note 2:**the points can also be defined with the mouse pointer by choosing intersections on the grid, with the help of the Draft Snap toolbar and the Draft Grid method.
-:   
-    **Note 3:**you can also create shapes programmatically by scripting in Python. Beware that most functions expect their input in millimeters.
+4\. Oddal widok 3D, jeśli znajdujesz się zbyt blisko siatki.
+
+Teraz możemy stworzyć prostą ścianę, na której umieścimy okna i drzwi.
+
+
+
+## Umieszczenie ściany 
+
+5\. Użyj narzędzia Polilinia, aby utworzyć linie. Idź w kierunku przeciwnym do ruchu wskazówek zegara.
+
+:   5.1. Najpierw wskaż punkt ; w oknie dialogowym wpisz **0** **m** **Enter**, **4** **m** **Enter**, **0** **m** **Enter**.
+:   5.2. Drugi punkt w ; w oknie dialogowym wpisz **2** **m** **Enter**, **0** **m** **Enter**, **0** **m** **Enter**.
+:   5.3. Trzeci punkt w ; w oknie dialogowym wpisz **4** **m** **Enter**, **0** **m** **Enter**, **0** **m** **Enter**.
+:   5.4. Czwarty punkt w ; w oknie dialogowym wpisz **6** **m** **Enter**, **2** **m** **Enter**, **0** **m** **Enter**.
+:   5.4. Piąty punkt w ; w oknie dialogowym wpisz **6** **m** **Enter**, **5** **m** **Enter**, **0** **m** **Enter**.
+:   5.5. Na klawiaturze naciśnij **A**, aby zakończyć polilinię.
+:   5.6. Na klawiaturze numerycznej naciśnij **0**, aby uzyskać widok aksonometryczny modelu.
+
+Upewnij się, że pole wyboru **Względnie** jest wyłączone, jeśli podajesz współrzędne bezwzględne. **Uwaga 2:** punkty mogą być również definiowane za pomocą kursora myszki poprzez wybranie przecięć na siatce, przy pomocy paska narzędzi przyciągania i metody Przyciągnij do siatki. **Uwaga 3:** można również tworzyć kształty programowo za pomocą skryptów w Python. Należy pamiętać, że większość funkcji oczekuje danych wejściowych w milimetrach.
 
 
 {{Code   code: 
@@ -74,201 +76,208 @@ w = Draft.makeWire
 # Tutorial custom placing of windows and doors/pl
 
  
-6\. Select the `DWire` and click the [Arch Wall](Arch_Wall.md) tool; the wall is immediately created with a default width (thickness) of 0.2 m, and height of 3 m.
+6\. Wybierz {{Incode|DWire}} i kliknij narzędzie [ściana](Arch_Wall/pl.md). Ściana zostanie natychmiast utworzona z domyślną szerokością *(grubością)* 0,2 m i wysokością 3 m.
 
 <img alt="" src=images/01_T02_wire_wall.png  style="width:600px;">
 
 
 
-*align=center|Base wire for the wall*
+*align=center|Linia bazowa dla ściany*
 
 <img alt="" src=images/02_T02_just_wall.png  style="width:600px;">
 
 
 
-*align=center|Wall constructed from the wire*
+*align=center|Ściana utworzona z polilini*
 
-## Placing preset doors and windows 
 
-7\. Click the [Arch Window](Arch_Window.md) tool; as preset select `Simple door`, and change the height to 2 m.
 
-:   7.1. Change the snapping to [Draft Midpoint](Draft_Snap_Midpoint.md), and try selecting the bottom edge of the frontal wall; rotate the [standard view](standard_view.md) as necessary to help you pick the edge and not the wall face; when the midpoint is active, click to place the door.
-:   7.2. Click the [Arch Window](Arch_Window.md) tool again, and place another door, but this time in the midpoint of the rightmost wall; rotate the [standard view](standard_view.md) as necessary.
+## Umieszczanie wstępnie ustawionych drzwi i okien 
+
+7\. Kliknij narzędzie [okno](Arch_Window/pl.md). Jako ustawienie wstępne wybierz `Zwykłe drzwi` i zmień wysokość na 2 m.
+
+:   7.1. Zmień przyciąganie na [Przyciągnij do punktu środkowego](Draft_Snap_Midpoint/pl.md) i spróbuj wybrać dolną krawędź ściany frontowej. W razie potrzeby ustaw [widok standardowy](standard_view.md), aby wybrać krawędź, a nie lico ściany; gdy punkt środkowy jest aktywny, kliknij, aby umieścić drzwi.
+:   7.2. Kliknij ponownie narzędzie [okno](Arch_Window/pl.md) i umieść kolejne drzwi, ale tym razem w punkcie środkowym prawej ściany. Ustaw [widok standardowy](standard_view.md) w razie potrzeby.
 
 <img alt="" src=images/03_T02_wall_place_doors.png  style="width:600px;">
 
 
 
-*align=center|Snapping to the midpoint of the bottom edge of the wall to place the door*
+*align=center|Przyciąganie do punktu środkowego dolnej krawędzi ściany w celu umieszczenia drzwi.*
 
 
 :   
-    **Note:**the `Sill height` is the distance from the floor to the lower edge of the element. For doors the `Sill height` is usually 0 m as doors are normally touching the floor; on the other hand, windows have a usual separation of 0.5 m to 1.5 m from the floor. The `Sill height` can only be set when initially creating the window or door from a preset. Once the window or door is inserted, modify its placement by editing the **Position** vector `[x, y, z]` of the underlying [Sketcher Sketch](Sketcher_Workbench.md).
+    **Uwaga:**`Wysokość parapetu` to odległość od podłogi do dolnej krawędzi elementu. W przypadku drzwi `Wysokość parapetu` wynosi zwykle 0 m, ponieważ drzwi zwykle dotykają podłog. Z drugiej strony okna mają zwykle odległość od 0,5 m do 1,5 m od podłogi. {{Incode|Wysokość parapetu}} można ustawić tylko podczas początkowego tworzenia okna lub drzwi z ustawienia wstępnego. Po wstawieniu okna lub drzwi można zmodyfikować ich położenie, edytując wektor **Pozycja** `[x, y, z]` bazowego [szkicu](Sketcher_Workbench/pl.md).
 
-## Creating custom doors and windows 
 
-8\. Switch to the [Sketcher Workbench](Sketcher_Workbench.md); select the part of the wall to the right that has no door; click on the [Sketcher NewSketch](Sketcher_NewSketch.md); select **FlatFace** as attachment method. If the existing geometry obstructs your view, click on [Sketcher ViewSection](Sketcher_ViewSection.md) to remove it.
 
-9\. Draw a fancy sketch containing three closed wires. Make sure to provide constraints to all wires.
+## Tworzenie niestandardowych drzwi i okien 
 
-:   9.1. The outside wire is the biggest one, and will define the main dimensions of the window object, and the size of the hole created when it\'s embedded in an [Arch Wall](Arch_Wall.md). Make sure the dimensions are named appropriately, for example, `Width` and `Height`. A constraint also defines the curvature of the outer wire; give it an appropriate name, like `HeightCurve`.
-:   9.2. The second wire is offset from the outer wire, and together with it, they define the width of the fixed frame of the window. Name the offset appropriately, for example, `FrameFixedOffset`. It will be used for both the top vertical and horizontal offsets. The bottom offset, if set to zero, will result in the fixed frame touching the bottom of the window; this can be used to model a door instead of a window. Give it an appropriate name, like `FrameFixedBottom`.
-:   9.3. The third, innermost wire is offset from the second wire, and together with it, they define the frame of the window that can open. The innermost wire also defines the size of the glass panel. Again, give meaningful names to these offsets, for example, `FrameInnerOffset` and `FrameInnerBottom`.
-:   9.4. In order to build succesfully the sketch, use horizontal ([Sketcher ConstrainHorizontal](Sketcher_ConstrainHorizontal.md)) and vertical ([Sketcher ConstrainVertical](Sketcher_ConstrainVertical.md)) constraints for the straight sides; use auxiliary construction geometry ([Sketcher ToggleConstruction](Sketcher_ToggleConstruction.md)), and tangential constraints ([Sketcher ConstrainTangent](Sketcher_ConstrainTangent.md)) to correctly place the circular arcs at the top. As in this case the window is symmetrical, consider equality ([Sketcher ConstrainEqual](Sketcher_ConstrainEqual.md)), symmetrical ([Sketcher ConstrainSymmetric](Sketcher_ConstrainSymmetric.md)), and point on object ([Sketcher ConstrainPointOnObject](Sketcher_ConstrainPointOnObject.md)) constraints where it makes sense.
+8\. Przejdź do [szkicownika](Sketcher_Workbench/pl.md). Wybierz część ściany po prawej stronie, która nie ma drzwi, kliknij na [utwórz szkic](Sketcher_NewSketch/pl.md). Wybierz **Płaska ściana** jako metodę mocowania. Jeśli istniejąca geometria zasłania widok, kliknij [Widok przekroju](Sketcher_ViewSection/pl.md), aby ją usunąć.
+
+9\. Narysuj efektowny szkic zawierający trzy zamknięte krzywe. Upewnij się, że nałożysz wiązania na wszystkie krzywe.
+
+  9.1. Zewnętrzna krzywa jest największa i definiuje główne wymiary obiektu okna oraz wielkość otworu tworzonego, gdy jest on osadzony w [ścianie](Arch_Wall/pl.md). Upewnij się, że wymiary są odpowiednio nazwane, na przykład `Szerokość` i `Wysokość`. Wiązanie również określa krzywiznę zewnętrznej krzywej. Nadaj mu odpowiednią nazwę, na przykład `HeightCurve`.
+  9.2. Druga krzywa jest przesunięta od zewnętrznej krzywej, i razem z nią definiują szerokość stałej ramy okna. Nazwij przesunięcie odpowiednio, na przykład `FrameFixedOffset`. Będzie ono używane zarówno do górnego pionowego, jak i poziomego przesunięcia. Dolne przesunięcie, jeśli ustawione na zero, spowoduje dotknięcie stałej ramy dolnej krawędzi okna. Można to wykorzystać do modelowania drzwi zamiast okna. Nadaj mu odpowiednią nazwę, na przykład `FrameFixedBottom`.
+  9.3. Trzecia, najbardziej wewnętrzna krzywa jest przesunięta od drugiej krzywej, i razem z nią definiują ramę okna, która może być otwierana. Najbardziej wewnętrzna krzywa również określa wielkość panelu szklanego. Ponownie, nadaj znaczące nazwy tym przesunięciom, na przykład `FrameInnerOffset` i `FrameInnerBottom`.
+  9.4. Aby z powodzeniem zbudować szkic, użyj wiązań poziomych *([Wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md))* i pionowych *([Wiązanie pionowe](Sketcher_ConstrainVertical/pl.md))* dla prostych boków; użyj pomocniczej geometrii konstrukcyjnej *([Przełącz tryb konstrukcji](Sketcher_ToggleConstruction/pl.md))*, oraz wiązań styczności *([Wiązanie styczności](Sketcher_ConstrainTangent/pl.md))* do poprawnego umieszczenia łuków kołowych na górze. Ponieważ okno jest symetryczne, rozważ używanie wiązań równości *([Wiązanie równości](Sketcher_ConstrainEqual/pl.md))*, symetrii *([Wiązanie symetrii](Sketcher_ConstrainSymmetric/pl.md))*, oraz punktu na obiekcie *([Zwiąż punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md))* tam, gdzie to ma sens.
 
 ![](images/04_T02_window_constraints_outer_frame.png )
 
 
 
-*align=center|Constraints for the outer wires of the sketch that form the window*
+*align=center|Wiązania dla zewnętrznych linii szkicu tworzących okno.*
 
 ![](images/05_T02_window_constraints_inner_frame.png )
 
 
 
-*align=center|Constraints for the inner wires of the sketch that form the window*
+*align=center|Wiązania dla wewnętrznych linii szkicu tworzących okno.*
 
-10\. Once the sketch is fully constrained, press **Close** to exit the sketch ([Sketcher LeaveSketch](Sketcher_LeaveSketch.md)).
+10\. Gdy szkic zostanie w pełni związany, naciśnij **Zamknij**, aby wyjść ze szkicu *([Zamknij szkic](Sketcher_LeaveSketch/pl.md))*.
 
-:   10.1. Since a face of the wall was selected during the initial step of creating the sketch, the sketch is co-planar with that face; however, it may be in the wrong position, away from the wall. If this is the case, adjust **Position** within **Attachment Offset**. Set **Position** to `[4 m, 1 m, 0 m]` so the sketch is centered in the wall, and it is one meter above the floor level.
-:   10.2. You can see the named constraints under **Constraints**. The values can be modified to see the sketch change dimensions immediately.
+:   10.1. Ponieważ powierzchnia ściany została wybrana podczas początkowego etapu tworzenia szkicu, szkic jest współpłaszczyznowy z tą powierzchnią. Może jednak znajdować się w niewłaściwym położeniu, z dala od ściany. W takim przypadku należy dostosować **Pozycję** w **Odsunięciu dołączenia**. Ustaw własciwość **Pozycja** na `[4 m, 1 m, 0 m]`, aby szkic był wyśrodkowany na ścianie i znajdował się metr nad poziomem podłogi.
+:   10.2. Nazwane więzy można zobaczyć w **Wiązaniach**. Wartości można zmodyfikować, aby szkic natychmiast zmienił wymiary.
 
 <img alt="" src=images/07_T02_window_sketch_in_wall.png  style="width:600px;">
 
 
 
-*align=center|Window sketch moved to the desired position on the wall*
+*align=center|Szkic okna przesunięty do żądanej pozycji na ścianie.*
 
 <img alt="" src=images/06_T02_window_sketch_properties_constraints.png  style="width:600px;">
 
 
 
-*align=center|Named constraints of the sketch, which can be modified without going inside the sketch*
+*align=center|Nazwane wiązania szkicu, które można modyfikować bez wchodzenia do szkicu.*
 
-11\. Change back to the [Arch Workbench](Arch_Workbench.md) and, with the new `Sketch002` selected, use [Arch Window](Arch_Window.md). A window will be created, and will make a hole in the wall. The window is made from a custom sketch, and not from a preset, so it needs to be edited in order to correctly display its components, that is, the fixed frame, the inner frame, and the glass panel.
+11\. Wróć do środowiska pracy [Architektura](Arch_Workbench/pl.md) i po wybraniu nowego {{Incode|Sketch002}} użyj narzędzia [Okno](Arch_Window/pl.md). Okno zostanie utworzone i zrobi dziurę w ścianie. Okno zostało utworzone z niestandardowego szkicu, a nie z ustawienia wstępnego, więc należy je edytować, aby poprawnie wyświetlić jego komponenty, czyli stałą ramę, wewnętrzną ramę i szklany panel.
 
 <img alt="" src=images/08_T02_window_basic_in_wall.png  style="width:600px;">
 
 
 
-*align=center|Custom window created from the sketch; it still doesn't have a proper frame, nor glass*
+*align=center|Niestandardowe okno utworzone na podstawie szkicu. Nadal nie ma odpowiedniej ramy ani szyby.*
 
-## Setting up the custom window 
 
-12\. In the tree view select `Sketch002` underlying `Window`, and press **Space**, or change the property **Visibility** to `True`.
 
-13\. Double click `Window` in the tree view to start editing it.
+## Konfigurowanie okna niestandardowego 
 
-:   13.1. Inside the `Window elements` dialog there are two panes, `Wires` and `Components`. There are three wires, `Wire0`, `Wire1`, and `Wire2`, and one component, `Default`. The wires refer to the closed loops that were drawn in the sketch; the components define the areas in the sketch that will be extruded to create frame or glass panels with real thicknesses; these areas are delimited by the wires. A window created from a preset already has two components, `OuterFrame` and `Glass`. The custom window needs to be edited to have a similar structure.
+12\. W widoku drzewa wybierz {{Incode|Sketch002}} leżący pod {{Incode|Oknem}} i naciśnij **Spacja** lub zmień właściwość **Widoczność** na {{TRUE/pl}}.
+
+13\. Kliknij dwukrotnie {{Incode|Okno}} w widoku drzewa, aby rozpocząć jego edycję.
+
+:   13.1. Wewnątrz okna dialogowego `Elementy okna` znajdują się dwa panele, `Polilinie` i `Komponent`. Dostępne są trzy polilinie `Wire0`, `Wire1` i `Wire2` oraz jeden komponent `Default`. Polilinie odnoszą się do zamkniętych pętli, które zostały narysowane w szkicu. Komponenty definiują obszary w szkicu, które zostaną wyciągnięte w celu utworzenia ramy lub szklanych paneli o rzeczywistej grubości. Obszary te są ograniczone przez polilinie. Okno utworzone z ustawienia wstępnego ma już dwa komponenty, `OuterFrame` i `Glass`. Okno niestandardowe musi być edytowane, aby miało podobną strukturę.
 
 ![](images/09_T02_window_edit_default.png )
 
 
 
-*align=center|Dialog to edit a window or a door*
+*align=center|Okno dialogowe do edycji okna lub drzwi.*
 
 
-:   13.2. Click on `Default`, and click the **Remove** button to eliminate it.
-
-
-
-
-
-:   13.3. Click **Add**; this shows the properties of a new component like `Name`, `Type`, `Wires`, `Thickness`, `Offset`, `Hinge`, and `Opening mode`. Give a name, such as `OuterFrame`, choose `Frame` for `Type`, and click on `Wire0` and then `Wire1`; they should highlight in the 3D viewport. Add a small value for `Thickness`, `15 mm`, and check the checkbox to add the default value. This default value is the length assigned to the **Frame** property; a similar default can be assigned to the **Offset** property. Click the **+Create/update component** button to finish editing the component.
+:   13.2. Kliknij {{Incode|Default}} i kliknij przycisk **Usuń**, aby go usunąć.
 
 
 
 
 
-:   13.4. Click **Add**; give another name, such as `InnerFrame`, choose `Frame` for `Type`, and click on `Wire1` and then `Wire2`. Add a sensible `Thickness`, `60 mm`, and `Offset`, `15 mm`. Then click the **+Create/update component** button.
+:   13.3. Kliknij **Dodaj**. Zostaną wyświetlone właściwości nowego komponentu, takie jak `Nazwa`, `Typ`, `Polilinie`, `Grubość`, `Przesunięcie`, `Zawias` i `Tryb otwierania`. Nadaj nazwę, na przykład `OuterFrame`, wybierz `Rama` dla `Typu` i kliknij `Wire0`, a następnie `Wire1`; powinny one zostać podświetlone w oknie widoku 3D. Dodaj małą wartość dla `Grubość`, `15 mm` i zaznacz pole wyboru, aby dodać wartość domyślną. Wartość domyślna to długość przypisana do właściwości **Rama**. Podobną wartość domyślną można przypisać do właściwości **Odsunięcie**. Kliknij przycisk **+Utwórz/aktualizuj komponent**, aby zakończyć edycję komponentu.
 
 
 
 
 
-:   13.5. Click **Add**; give another name, such as `Glass`, choose `Glass panel` for `Type`, and click on `Wire2`. Add a sensible `Thickness`, `10 mm`, and `Offset`, `40 mm`. Then click the **+Create/update component** button. If any of the three components needs to be modified, select it and press **Edit**; modifications are only saved after pressing the **+Create/update component** button.
+:   13.4. Kliknij **Dodaj**. Nadaj inną nazwę, taką jak `InnerFrame`, wybierz `Rama` dla własciwości `Typ` i kliknij `Wire1`, a następnie `Wire2`. Dodaj odpowiednią wartość właściwości `Grubość`, `60 mm` i `Odsunięcie`, `15 mm`. Następnie kliknij przycisk **+Utwórz/aktualizuj komponent**.
+
+
+
+
+
+:   13.5. Kliknij **Dodaj**. Nadaj inną nazwę, na przykład `Glass`, wybierz `Panel szklany` dla własciwości `Typ` i kliknij `Wire2`. Dodaj sensowną `Grubość`, `10 mm`, i `Odsunięcie`, `40 mm`. Następnie kliknij przycisk **+Utwórz / aktualizuj komponent**. Jeśli którykolwiek z trzech komponentów wymaga modyfikacji, wybierz go i naciśnij przycisk **Edycja**. Modyfikacje zostaną zapisane dopiero po naciśnięciu przycisku **+Utwórz / aktualizuj komponent**.
 
 ![](images/10_T02_window_edit_components.png )
 
 
 
-*align=center|Editing a previously defined component of a window or a door*
+*align=center|Edytowanie wcześniej zdefiniowanego elementu okna lub drzwi.*
 
 
-:   13.6. If everything is set, click **Close** to finish editing the window. The sketch may become hidden again, but the window will show distinct solid elements for the `OuterFrame`, the `InnerFrame`, and the `Glass`. Give a value of `100 mm` to **Frame** to assign a default thickness, which will be added to the value specified in the `OuterFrame` component.
+:   13.6. Jeśli wszystko jest ustawione, kliknij **Zamknij**, aby zakończyć edycję okna. Szkic może zostać ponownie ukryty, ale w oknie będą widoczne różne elementy stałe dla `OuterFrame`, `InnerFrame` i `Glass`. Podaj wartość {{Incode|100 mm}} do **Frame**, aby przypisać domyślną grubość, która zostanie dodana do wartości określonej w elemencie {{Incode|OuterFrame}}.
 
 ![](images/11_T02_window_property_view.png )
 
 
 
-*align=center|Property view of the window to add default Frame length, Offset length, and other options*
+*align=center|Widok właściwości okna, aby dodać domyślną długość ramki, długość przesunięcia i inne opcje.*
 
 <img alt="" src=images/12_T02_window_finished.png  style="width:600px;">
 
 
 
-*align=center|Finished window with appropriate components embedded in the wall*
+*align=center|Gotowe okno z odpowiednimi elementami osadzonymi w ścianie.*
 
-## Duplicating the custom window 
 
-14\. In the tree view, select `Window` and its underlying `Sketch002`. Then go to **Edit → Duplicate selection**, and answer **No** if asked to duplicate unselected dependencies. A new `Window001` and `Sketch003` will appear in the same position as the original elements.
 
-15\. Select the new `Sketch003`. Go to the **Map Mode** property, and click on the ellipsis next to the `FlatFace` value. In the 3D viewport select the left side of the wall which doesn\'t have any element; rotate the [standard view](standard_view.md) as necessary. Change the `Attachment offset` to \[-1 m, 0 m, 0 m\] to center the window, and click **OK**. The sketch and the window should appear in a new position.
+## Powielanie niestandardowego okna 
 
-:   
-    **Note:**the [attachment operation](Part_EditAttachment.md) can also be performed by changing to the [Part Workbench](Part_Workbench.md), and then using the menu **Part → Attachment**.
+14\. W widoku drzewa wybierz `Okno` i jego bazowy `Szkic002`. Następnie przejdź do **Edycja → Powiel zaznaczony obiekt** i odpowiedz **Nie**, jeśli pojawi się pytanie o powielenie niezaznaczonych zależności. Nowe obiekty {{Incode|Okno001}} i {{Incode|Szkic003}} pojawią się w tym samym miejscu co oryginalne elementy.
+
+Jeśli okno już istnieje i wymaga przeniesienia, jak miało to miejsce w przypadku zduplikowanego obiektu `Okno001`, szkic musi zostać przemapowany na inną płaszczyznę. Dokonanie tego przenosi zarówno szkic, jak i okno, ale to drugie nie aktualizuje automatycznie swojej normalnej, więc ma niewłaściwe informacje o ekstruzji. Normalna musi zostać obliczona ręcznie i wpisana do **Normalnej**.
 
 ![](images/13_T02_sketch_attachment_edit.png )
 
 
 
-*align=center|Dialog to edit the attachment plane of the sketch*
+*align=center|Okno dialogowe do edycji płaszczyzny mocowania szkicu.*
 
-16\. You may adjust the dimensions of the new window by changing the named parameters in `Sketch003` under **Constraints**, for example, set `Height` to `2 m`, and `Frame Fixed Bottom` to `0 m`. Then press **Ctrl**+**R** to [recompute](recompute.md) the model. If the wall doesn\'t show a bigger hole for the new window, select the wall in the tree view, right click and choose `Mark to recompute`, then press **Ctrl**+**R** again.
+16\. Możesz dostosować wymiary nowego okna, zmieniając nazwane parametry w `Sketch003` pod włąściwością **Wiązania**, na przykład ustaw wartość parametru `Wysokość` na `2 m`, a wartość parametru `Stała dolna część ramy` na `0 m`. Następnie naciśnij **Ctrl** + **R**, aby [przeliczyć](Recompute.md) model. Jeśli ściana nie pokazuje większego otworu dla nowego okna, wybierz ścianę w widoku drzewa, kliknij prawym przyciskiem myszy i wybierz `Zaznacz do przeliczenia`, a następnie ponownie naciśnij **Ctrl**+**R**.
 
-17\. These operations have changed the position of the new window, but the opening in the wall doesn\'t look correct. It is slanted, that is, the hole is not perpendicular to the face of the wall, and it may even cut other parts of the wall. The problem is that `Window001` has retained the **Normal** information of the original `Window`.
+17\. Operacje te zmieniły położenie nowego okna, ale otwór w ścianie nie wygląda prawidłowo. Jest pochylony, tzn. otwór nie jest prostopadły do lica ściany, a nawet może przecinać inne części ściany. Problem polega na tym, że {{Incode|Okno001}} zachował informacje **Normal** oryginalnego {{Incode|Okna}}.
 
 <img alt="" src=images/14_T02_sketch_2_attached_slanted.png  style="width:600px;">
 
 
 
-*align=center|Incorrect opening in the wall due to bad Normal of the window*
+*align=center|Nieprawidłowy otwór w ścianie z powodu złej normalnej okna.*
 
-## Normals of doors and windows 
 
-18\. Each [Arch Window](Arch_Window.md) object controls the extrusion of its body and the opening that is created in its host wall by means of the **Normal**.
 
-The normal is a vector `[x, y, z]` that indicates a direction perpedicular to a wall. When a window or door preset is created with the [Arch Window](Arch_Window.md) tool directly over an [Arch Wall](Arch_Wall.md), the normal is automatically calculated, and the resulting window or door is correctly aligned; the first two objects, `Door` and `Door001`, were created in this way.
+## Normalne drzwi i okien 
 
-In similar way, when a sketch is created by selecting a planar surface, it is oriented on this plane. Then when the [Arch Window](Arch_Window.md) tool is used, the window will use as normal the perpendicular direction to the sketch. This was the case with the third object, the custom `Window`.
+18\. Każdy obiekt [okna](Arch_Window/pl.md) kontroluje wyciągnięcie swojego korpusu i otwór, który jest tworzony w ścianie hosta za pomocą **Normalnej**.
 
-If the window already exists and needs to be moved, as was the case with the duplicated `Window001` object, the sketch needs to be remapped to another plane; doing this moves both the sketch and the window, but the latter doesn\'t automatically update its normal, so it has incorrect extrusion information. The normal needs to be calculated manually and written to **Normal**.
+Normalna jest wektorem `[x, y, z]`, który wskazuje kierunek prostopadły do ściany. Gdy okno lub drzwi są tworzone za pomocą narzędzia [Okno](Arch_Window/pl.md) bezpośrednio nad obiektem [ściana](Arch_Wall/pl.md), normalna jest automatycznie obliczana, a powstałe okno lub drzwi są prawidłowo wyrównane. Pierwsze dwa obiekty, {{Incode|Drzwi}} i {{Incode|Drzwi001}}, zostały utworzone w ten sposób.
 
-The three values of the normal vector are calculated as following. 
+W podobny sposób, gdy szkic jest tworzony poprzez wybór powierzchni płaskiej, jest on orientowany na tej płaszczyźnie. Następnie, gdy używane jest narzędzie [Okno](Arch_Window/pl.md), okno będzie używać jako normalnej kierunku prostopadłego do szkicu. Tak było w przypadku trzeciego obiektu, niestandardowego okna.
+
+Jeśli okno już istnieje i wymaga przeniesienia, jak miało to miejsce w przypadku zduplikowanego obiektu `Okno001`, szkic musi zostać przemapowany na inną płaszczyznę. Dokonanie tego przenosi zarówno szkic, jak i okno, ale to drugie nie aktualizuje automatycznie swojej normalnej, więc ma niewłaściwe informacje o ekstruzji. Normalna musi zostać obliczona ręcznie i wpisana do właściwości **Normal**.
+
+Trzy wartości wektora normalnego są obliczane w następujący sposób. 
 ```python
-x = -sin(angle)
-y = cos(angle)
+x = -sin(kąt)
+y = cos(kąt)
 z = 0
-``` Where `angle` is the angle of the local Z axis of the sketch with respect to the global Y axis.
+``` Gdzie `angle` jest kątem lokalnej osi Z szkicu względem globalnej osi Y.
 
-When a sketch is created, it always has two axes, a local X (red) and a local Y (green). If the sketch is mapped to the global XY working plane, then these axes are aligned; but if the sketch is mapped on the global XZ or global YZ planes, as is common with windows and doors (the sketches are \"standing up\"), then the local Z (blue) forms an angle with the global Y axis; this angle varies from -180 to 180 degrees. The angle is considered positive if it opens counterclockwise, and it is negative if it opens clockwise, starting from the global Y axis.
+Kiedy szkic jest tworzony, zawsze posiada dwie osie: lokalną X *(czerwoną)* i lokalną Y *(zieloną)*. Jeśli szkic jest mapowany na globalną płaszczyznę roboczą XY, to te osie są wyrównane. Ale jeśli szkic jest mapowany na globalne płaszczyzny XZ lub YZ, jak ma to miejsce z oknami i drzwiami *(szkice stoją pionowo)*, to lokalna oś Z *(niebieska)* tworzy kąt ze globalną osią Y. Ten kąt zmienia się od -180 do 180°. Kąt jest uważany za dodatni, jeśli otwiera się przeciwnie do ruchu wskazówek zegara, a jest ujemny, jeśli otwiera się zgodnie z ruchem wskazówek zegara, zaczynając od globalnej osi Y.
 
 <img alt="" src=images/15_T02_sketch_local_coordinates.png  style="width:600px;">
 
 
 
-*align=center|Local coordinates of a sketch that is "standing up", that is, mapped to the global XZ plane*
+*align=center|Lokalne współrzędne szkicu, który jest usytuowany "na stojąco", czyli odwzorowany na globalną płaszczyznę XZ.*
 
 <img alt="" src=images/16_T02_sketch_correct_normal_direction.png  style="width:600px;">
 
 
 
-*align=center|Intended directions of the normals for each door and window*
+*align=center|Zamierzone kierunki normalnych dla każdych drzwi i okien.*
 
-If we look at the geometry created so far, we see the following normals.
+Jeśli spojrzymy na geometrię utworzoną do tej pory, zobaczymy następujące normy.
 
-`Door`
-:   The local Z is aligned with the global Y, therefore, the `angle` is zero. The normal vector is
+`Drzwi`
+:   Lokalne Z jest wyrównane z globalnym Y, dlatego `angle` wynosi zero. Wektor normalny to:
 
 
 ```python
@@ -277,10 +286,10 @@ y = cos(0) = 1
 z = 0
 ```
 
-or **Normal** is `[0, 1, 0]`.
+lub **Normal** to `[0, 1, 0]`.
 
-`Door001`
-:   The local Z is rotated 90 degrees from the global Y, therefore, the `angle` is 90 (positive, because it opens counterclockwise). The normal vector is
+`Drzwi001`
+:   Lokalne Z jest obrócone o 90° względem globalnego Y, dlatego `angle` wynosi 90 *(dodatnie, ponieważ otwiera się przeciwnie do ruchu wskazówek zegara)*. Wektor normalny to:
 
 
 ```python
@@ -289,10 +298,10 @@ y = cos(90) = 0
 z = 0
 ```
 
-or **Normal** is `[-1, 0, 0]`.
+lub **Normal** to `[-1, 0, 0]`.
 
-`Window`
-:   The local Z is rotated 45 degrees from the global Y, therefore, the `angle` is 45 (positive, because it opens counterclockwise). The normal vector is
+`Okno`
+:   Lokalne Z jest obrócone o 45° względem globalnego Y, dlatego `angle` wynosi 45 *(dodatnie, ponieważ otwiera się przeciwnie do ruchu wskazówek zegara)*. Wektor normalny to
 
 
 ```python
@@ -301,56 +310,58 @@ y = cos(45) = 0.7071
 z = 0
 ```
 
-or **Normal** is `[-0.7071, 0.7071, 0]`.
+lub **Normal** to `[-0.7071, 0.7071, 0]`.
 
-`Window001`
-:   The local Z direction is found by using the [Draft Dimension](Draft_Dimension.md) tool and measuring the angle that the wall trace (`Wire`) makes with the global Y axis, or any line aligned to it. This angle is `26.57`; the desired angle is the complement to this, so 90 - 26.57 = 63.43.
+`Okno001`
+:   Kierunek lokalny Z jest określany za pomocą narzędzia [Wymiar](Draft_Dimension/pl.md), mierząc kąt, jaki ślad ściany tworzy *(`polilinia`)* z globalną osią Y lub dowolną linią wyrównaną do niej. Ten kąt wynosi `26,57`. Pożądany kąt jest dopełnieniem do tego, czyli 90 - 26,57 = 63,43.
 
-This means the local Z axis is rotated 63.43 degrees from the global Y, therefore, the `angle` is -63.46 (negative, because it opens clockwise). The normal vector is 
+Oznacza to, że lokalna oś Z jest obrócona o 63,43 stopnia w stosunku do globalnej osi Y, dlatego `angle` wynosi -63,46 *(ujemny, ponieważ otwiera się zgodnie z ruchem wskazówek zegara)*. Wektor normalny to 
 ```python
 x = -sin(-63.43) = 0.8943
 y = cos(-63.43) = 0.4472
 z = 0
-``` Therefore **Normal** should be changed to `[0.8943, 0.4472, 0]`.
+``` Dlatego **Normalna** powinien zostać zmieniona na `[0.8943, 0.4472, 0]`.
 
-After doing these changes, recompute the model with **Ctrl**+**R**. If the wall doesn\'t update the hole, select it in the tree view, right click and choose `Mark to recompute`, then press **Ctrl**+**R** again.
+Po wprowadzeniu tych zmian ponownie przelicz model za pomocą **Ctrl** + **R**. Jeśli ściana nie zaktualizuje otworu, zaznacz ją w widoku drzewa, kliknij prawym przyciskiem myszy i wybierz `Zaznacz do przeliczenia`, a następnie ponownie naciśnij **Ctrl** + **R**.
 
-19\. The orientation of the extrusion of the window is resolved, together with the opening in the wall.
+19\. Orientacja wytłoczenia okna jest rozwiązana, wraz z otworem w ścianie.
 
 <img alt="" src=images/17_T02_sketch_2_attached_correctly.png  style="width:600px;">
 
 
 
-*align=center|Correct opening in the wall due to proper Normal of the window*
+*align=center|Prawidłowy otwór w ścianie dzięki odpowiedniej normalności okna.*
 
-## Final remarks 
 
-20\. As demonstrated, the initial placement of the [Arch Window](Arch_Window.md) is very important. The user should either
 
--   use the [Arch Window](Arch_Window.md) tool to insert and automatically align a preset to a wall, or
--   map a sketch to the desired wall, and build the window after that.
+## Uwagi końcowe 
 
-If a window already exists, and it needs to be moved, the supporting sketch should be remapped to a new plane, and the **Normal** of the window needs to be recalculated.
+20\. Jak pokazano, początkowe umieszczenie [Okna](Arch_Window/pl.md) jest bardzo ważne. Użytkownik powinien:
 
-The new normal direction can be obtained by measuring the `angle` of the new wall with respect to the global Y axis, considering whether this angle is positive (counterclockwise) or negative (clockwise), and using a simple formula. 
+-   użyć narzędzia [Okna](Arch_Window/pl.md), aby wstawić i automatycznie wyrównać ustawienie wstępne do ściany, lub
+-   zmapować szkic do żądanej ściany, a następnie zbudować okno.
+
+Jeśli okno już istnieje i musi zostać przeniesione, szkic pomocniczy powinien zostać przemapowany na nową płaszczyznę, a **Normal** okna musi zostać ponownie przeliczone.
+
+Nowy kierunek normalny można uzyskać, mierząc `angle` nowej ściany w odniesieniu do globalnej osi Y, biorąc pod uwagę, czy kąt ten jest dodatni *(przeciwnie do ruchu wskazówek zegara)* czy ujemny *(zgodnie z ruchem wskazówek zegara)* i używając prostego wzoru. 
 ```python
 x = -sin(angle)
 y = cos(angle)
 z = 0
 ```
 
-To confirm that the operations are correct, the absolute magnitude of the normal vector should be one. That is, 
+Aby potwierdzić poprawność operacji, bezwzględna wielkość wektora normalnego powinna wynosić jeden. To znaczy: 
 ```python
 abs(N) = 1 = sqrt(x^2 + y^2 + z^2)
 abs(N) = 1 = sqrt(sin^2(angle) + cos^2(angle) + z^2)
 ```
 
 
-{{Arch Tools navi
+{{BIM_Tools_navi
 
-}}  {{Sketcher Tools navi}}
+}} {{Draft_Tools_navi}} {{Sketcher_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > Tutorial custom placing of windows and doors/pl
+⏵ [documentation index](../README.md) > Tutorial custom placing of windows and doors/pl

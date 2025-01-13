@@ -30,7 +30,7 @@ Meniul instrumentului Zoom: ![](images/ZoomMenu.png )
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

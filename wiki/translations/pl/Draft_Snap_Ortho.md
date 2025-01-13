@@ -2,7 +2,8 @@
  GuiCommand:
    Name: Draft Snap Ortho
    Name/pl: Rysunek Roboczy: Przyciągnij ortogonalnie
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Przyciąganie , Przyciągnij ortogonalnie
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    SeeAlso: Draft_Snap/pl, Draft_Snap_Lock/pl
 ---
 
@@ -25,9 +26,10 @@ Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąg
 
 1.  Upewnij się, że przyciąganie jest włączone. Zobacz <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Przełącz przyciąganie](Draft_Snap_Lock/pl.md).
 2.  Jeśli opcja **Przyciągnij ortogonalnie** nie jest aktywna, wykonaj jedną z poniższych czynności:
-    -   Naciśnij przycisk **<img src="images/Draft_Snap_Ortho.svg" width=16px>** na pasku narzędzi przyciągania
-    -   Naciśnij przycisk **<img src="images/Draft_Snap_Ortho.svg" width=16px>** w [widżecie przyciągania](Draft_snap_widget/pl.md)
-3.  Wybierz polecenie [Draft](Draft_Workbench.md) lub [Arch](Arch_Workbench.md), aby \# Wybierz polecenie [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), aby utworzyć geometrię.
+    -   Naciśnij przycisk **<img src="images/Draft_Snap_Ortho.svg" width=16px> [Przyciągnij ortogonalnie](Draft_Snap_Ortho/pl.md)** na pasku narzędzi przyciągania
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Naciśnij przycisk **<img src="images/Draft_Snap_Ortho.svg" width=16px>** w [widżecie przyciągania](Draft_snap_widget/pl.md)
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Przyciąganie → <img src="images/Draft_Snap_Ortho.svg" width=16px> Przyciągnij ortogonalnie** z menu lub menu kontekstowego [widoku 3D](3D_view/pl.md).
+3.  Wybierz polecenie środowiska Rysunek Roboczy lub BIM, aby utworzyć geometrię.
 4.  Pamiętaj, że możesz również zmienić opcje przyciągania, gdy polecenie jest aktywne.
 5.  Wybierz pierwszy punkt. Ta opcja przyciągania wymaga poprzedniego punktu.
 6.  Jeśli przesuniesz kursor wokół poprzedniego punktu, zauważysz efekt \"magnetyczny\", gdy kursor znajdzie się na umownej nieskończonej linii przecinającej ten punkt pod kątem 0°, 45°, 90° lub 135°.

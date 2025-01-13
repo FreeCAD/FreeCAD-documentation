@@ -9,6 +9,8 @@
 
 # Std CloseActiveWindow/ro
 
+
+
 ## Descriere
 
 The **Std CloseActiveWindow** command closes the active window. To close a document all its windows must be closed.
@@ -32,24 +34,15 @@ The **Std CloseActiveWindow** command closes the active window. To close a docum
 -   The command can only close [docked](Std_ViewDockUndockFullscreen.md) windows.
 -   A document can also be closed by right-clicking it in the [Tree view](Tree_view.md) and selecting **Close document** from the context menu.
 
-## Preferences
-
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
-
 ## Scripting
 
-
-**See also:**
-
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-To close a document use the `closeDocument` method of the FreeCAD application. For a scripting example see [Std New](Std_New.md).
+See [Std New](Std_New#Scripting.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

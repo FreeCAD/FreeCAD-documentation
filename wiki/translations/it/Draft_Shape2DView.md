@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Shape2DView
-   Name/it: Vista forma 2D
+   Name/it: Draft Vista forma 2D
    MenuLocation: Modifiche , Vista forma 2D
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Workbenches: Draft_Workbench/it
    SeeAlso: TechDraw_ProjectShape/it
 ---
 
@@ -53,13 +53,15 @@ Un oggetto Draft Vista Forma 2D è derivato da un [Part Part2DObject](Part_Part2
 
 {{TitleProperty|Draft}}
 
--    **Auto Update|Bool**: specifica se la proiezione deve essere ricalcolata automaticamente se l\'oggetto **Base** cambia. Selezionare {{False}} può essere utile se ci sono molte Draft VistaForma2D in un documento o se sono complesse. Se impostato su {{False}} il comando [Aggiorna](Std_Refresh/it.md) deve essere utilizzato per aggiornare la proiezione. {{Version/it|0.20}}
+-    **Auto Update|Bool**: specifica se la proiezione deve essere ricalcolata automaticamente se l\'oggetto **Base** cambia. Selezionare {{False}} può essere utile se ci sono molte Draft VistaForma2D in un documento o se sono complesse. Se impostato su {{False}} il comando [Aggiorna](Std_Refresh/it.md) deve essere utilizzato per aggiornare la proiezione.
 
 -    **Base|Link**: specifica l\'oggetto da proiettare.
 
+-    **Clip|Bool**: se è True, il contenuto viene ritagliato ai bordi del piano di sezione, se applicabile. Ciò sovrascrive la proprietà Clip dell\'oggetto base.
+
 -    **Face Numbers|IntegerList**: specifica gli indici delle facce da proiettare. Funziona solo se **Projection Mode** è {{Value|Individual Faces}}.
 
--    **Fuse Arch|Bool**: specifica se [Oggetti Arch](Arch_Workbench/it.md) dello stesso tipo e materiale sono fusi o meno.
+-    **Fuse Arch|Bool**: specifica se [BIM](BIM_Workbench/it.md) dello stesso tipo e materiale sono fusi o meno.
 
 -    **Hidden Lines|Bool**: specifica se le linee nascoste vengono visualizzate o meno.
 
@@ -92,7 +94,7 @@ Un oggetto Draft Vista Forma 2D è derivato da un [Part Part2DObject](Part_Part2
     -   
         {{Value|Facce solide}}
         
-        : proietta l\'intero oggetto selezionato tagliando le facce una per una. Può essere utilizzato se la modalità {{Value|Solid}} dà risultati errati. {{Version/it|0.20}}
+        : proietta l\'intero oggetto selezionato tagliando le facce una per una. Può essere utilizzato se la modalità {{Value|Solid}} dà risultati errati.
 
 -    **Segment Length|Float**: specifica la dimensione in millimetri dei segmenti lineari se **Tessellation** è `True`.
 
@@ -102,7 +104,7 @@ Un oggetto Draft Vista Forma 2D è derivato da un [Part Part2DObject](Part_Part2
 
 -    **Exclusion Points|Vector list**: un elenco di punti di esclusione. Qualsiasi bordo che passa attraverso uno di questi punti non verrà disegnato. {{Version/it|0.20}}
 
--    **Exclusion Names|String list**ː un elenco di nomi oggetto. Qualsiasi oggetto figlio visualizzato o tagliato con un nome in quell\'elenco non verrà disegnato. {{Version/it|0.21}}
+-    **Exclusion Names|String list**ː un elenco di nomi oggetto. Qualsiasi oggetto figlio visualizzato o tagliato con un nome in quell\'elenco non verrà disegnato.
 
 
 

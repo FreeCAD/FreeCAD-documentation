@@ -1,5 +1,5 @@
 # Category:Drawing/pt
-This category lists pages related to the [Drawing Workbench/pt](Drawing_Workbench/pt.md).
+This category is for pages related to the [Drawing Workbench/pt](Drawing_Workbench/pt.md).
 
 ### Contents
 

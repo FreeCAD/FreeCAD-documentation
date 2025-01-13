@@ -26,16 +26,16 @@ L\'outil **TechDraw Vue d\'un objet Draft** insère une vue d\'un objet basé su
 3.  S\'il y a plusieurs pages de dessin dans le document : vous pouvez ajouter la page souhaitée à la sélection en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
 4.  Il y a plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_DraftView.svg" width=16px> [Insérer un objet de l'atelier Draft](TechDraw_DraftView/fr.md)**.
-    -   Sélectionnez la **TechDraw → Vues des autres ateliers → <img src="images/TechDraw_DraftView.svg" width=16px> Insérer un objet de l'atelier Draft** dans le menu.
-5.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
+    -   Sélectionnez l\'option **TechDraw → Vues des autres ateliers → <img src="images/TechDraw_DraftView.svg" width=16px> Insérer un objet de l'atelier Draft** du menu.
+5.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la fenêtre de dialogue **Sélecteur de pages** s\'ouvre :
     1.  Sélectionnez la page désirée.
     2.  Appuyez sur le bouton **OK**.
 
 ## Options
 
--   La création d\'une Vue d\'un objet Draft d\'une coupe traitera de manière récursive tous les objets trouvés dans cette coupe. La vue est mise à jour automatiquement lorsque le contenu de la coupe change.
+-   La création d\'une vue d\'un objet Draft d\'une coupe traitera de manière récursive tous les objets trouvés dans cette coupe. La vue est mise à jour automatiquement lorsque le contenu de la coupe change.
 -   Il n\'y a pas de suppression de ligne cachée. Chaque face trouvée dans le ou les objets manipulés sera simplement projetée le long du vecteur Direction, aucune action spécifique n\'est entreprise lorsque les faces se chevauchent.
--   La Vue d\'un objet Draft prend également en charge tous les objets Draft qui ne sont pas basés Part, tels que les cotes et les textes.
+-   La vue d\'un objet Draft prend également en charge tous les objets Draft qui ne sont pas basés Part, tels que les cotes et les textes.
 -   La couleur, la largeur et le motif des lignes peuvent être spécifiés dans les propriétés. Les motifs de ligne peuvent être affinés en donnant directement une valeur [stroke-dasharray](https://www.w3.org/TR/SVG/painting.html#StrokeProperties), telle que 3,5.
 -   Les surfaces projetées sont remplies de la couleur de la surface.
 
@@ -43,13 +43,15 @@ L\'outil **TechDraw Vue d\'un objet Draft** insère une vue d\'un objet basé su
 
 ## Remarques
 
-La Vue d\'un objet Draft est affiché dans l\'[atelier Draft](Draft_Workbench/fr.md). TechDraw a donc un contrôle limité sur son apparence. Vous devrez peut-être apporter des modifications dans Draft pour obtenir la représentation souhaitée.
+La vue d\'un objet Draft est affiché dans l\'[atelier Draft](Draft_Workbench/fr.md). TechDraw a donc un contrôle limité sur son apparence. Vous devrez peut-être apporter des modifications dans Draft pour obtenir la représentation souhaitée.
 
 
 
 ## Propriétés
 
-Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+
+Une vue d\'un objet Draft, en fait un objet {{Incode|TechDraw::DrawViewDraft}}, possède les [propriétés](TechDraw_View/fr#Propriétés_Vue_de_Part.md) communes à tous les types de vues. Elle possède également les propriétés supplémentaires suivantes :
 
 
 
@@ -70,9 +72,18 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 -    **Line Style|String**: style de ligne à utiliser pour cette vue. Peut être {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dashdot}}, {{Value|Dot}} ou un modèle de ligne SVG comme {{Value|0.20,0.20}}.
 
--    **Line Spacing|Float**: espacement à utiliser entre les lignes de textes pour les textes multilignes.
+-    **Line Spacing|Float**: espacement entre les lignes à utiliser pour les textes multilignes.
 
 -    **Override Style|Bool**: si `True`, la couleur, la largeur et le style des lignes de cette vue remplaceront ceux de l\'objet rendu.
+
+
+{{TitleProperty|Drawing view}}
+
+-    **Symbol|String|Hidden**: code SVG définissant ce symbole.
+
+-    **Editable Texts|StringList**: valeurs de substitution pour les chaînes modifiables de ce symbole.
+
+-    **Owner|Link**: fonction à laquelle ce symbole est rattaché. {{Version/fr|1.0}}
 
 
 
@@ -93,7 +104,7 @@ rc = page.addView(dv)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

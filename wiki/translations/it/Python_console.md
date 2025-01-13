@@ -1,10 +1,5 @@
 # Python console/it
-**(Gennaio 2020) FreeCAD è stato originariamente progettato per funzionare con Python 2. Poiché Python 2 ha raggiunto la fine del suo ciclo di vita nel 2020, lo sviluppo futuro di FreeCAD sarà realizzato esclusivamente con Python 3 e la compatibilità con le versioni precedenti non sarà supportata.**
-
 ## Introduzione
-
-
-
 
 La [console Python](Python_console/it.md) è un pannello che fa parte dell\'[interfaccia utente](interface/it.md) di FreeCAD . Esegue un\'istanza dell\'interprete [Python](Python/it.md) che può essere utilizzato per controllare i processi di FreeCAD e creare e modificare gli oggetti e le loro proprietà.
 
@@ -17,6 +12,8 @@ La console Python di FreeCAD ha l\'evidenziazione di base della sintassi, in gra
 
 
 *Console Python che mostra i messaggi quando FreeCAD è appena stato avviato.*
+
+
 
 ## Script
 
@@ -59,6 +56,8 @@ FreeCAD.newDocument()
 
 questi moduli e alias precaricati sono disponibili solo dalla console Python incorporata nel programma FreeCAD. Se si usa FreeCAD come libreria in un programma esterno, bisogna ricordarsi di caricare i moduli `FreeCAD` e `FreeCADGui` e, se lo si desidera, definire gli alias necessari.
 
+
+
 ## Azioni
 
 Un clic con il tasto destro sulla console Python mostra alcuni comandi:
@@ -80,6 +79,8 @@ Un clic con il tasto destro sulla console Python mostra alcuni comandi:
 -    **Inserisci il nome del  file**: apre una finestra di dialogo per cercare un file nel sistema, quindi inserisce il percorso completo del file. Ciò è utile per testare le funzioni che elaborano un file di input, senza dover scrivere l\'intero nome nella console, che è soggetto a errori. Questo comando non esegue il file e non lo importa come modulo Python, restituisce semplicemente il percorso completo di quel file.
 
 -    **A capo automatico**: avvolge le linee molto lunghe che superano la dimensione orizzontale della console Python.
+
+
 
 ## Note
 

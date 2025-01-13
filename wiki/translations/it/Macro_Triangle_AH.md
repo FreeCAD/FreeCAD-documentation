@@ -1,49 +1,30 @@
 # Macro Triangle AH/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro Triangle AH
 |Translate=Triangolo AH
-|Icon=Macro_Triangle_AH.png
 |Description=Questa macro crea un triangolo isoscele dati l'angolo e l'altezza. Il nuovo triangolo viene creato nella coordinata reale.<br/>{{ColoredText|(Riga di comando, incolla questa macro completa nella console Python)}}.
 |Author=mario52
 |Version=00.03
 |Date=2019/07/02
-|FCVersion=Tutte
-|Download=[https://www.freecadweb.org/wiki/images/4/41/Macro_Triangle_AH.png ToolBar icon]
+|FCVersion=All
+|Download=[https://wiki.freecad.org/images/4/41/Macro_Triangle_AH.png Icona della barra degli strumenti]
 }}
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-Questa macro crea un triangolo isoscele dati l\'angolo e l\'altezza (il vertice è posizionato nel punto 0,0,0)
+Questa macro crea un triangolo isoscele dati l\'angolo al vertice e l\'altezza del triangolo. Il vertice del triangolo è posizionato sulle coordinate xyz 0.0.0.
 
 
-</div>
 
-## Usage
+## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
-
-Copiare la macro **Triangolo AH** nella console Python di FreeCAD
-
-
-</div>
+Copiare la macro **Triangle AH** completa nella console Python di FreeCAD
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Triangle_AH.png )
+Icona della barra degli strumenti ![](images/Macro_Triangle_AH.png )
 
 **Macro_triangleAH.FCMacro**
 

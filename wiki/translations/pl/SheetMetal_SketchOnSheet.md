@@ -22,12 +22,14 @@ W przeciwieństwie do polecenia <img alt="" src=images/PartDesign_Pocket.svg  st
 ## Użycie
 
 1.  Wybierz **płaską powierzchnię**.
-2.  Utwórz współpłaszczyznowy <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [szkic](Sketcher_Workbench/pl.md) *(tj. leżący na tej samej płaszczyźnie)* dla **układu otworów** *(najlepiej w [Widoku drzewa](Tree_view/pl.md))*.
-    -   *Uwaga:*\' Nie zapomnij o klawiszu **Control**/**Command**!
-3.  Aktywuj polecenie <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> Szkic na arkuszu blachy używając:
-    -   Przycisku **<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> '''Szkic na arkuszu blachy'''**.
-    -   Polecenia z menu **SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Szkic na arkuszu blachy**.
-    -   Skrótu klawiaturowego: **M** następnie **S**
+2.  Dodaj współpłaszczyznowy <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [szkic](Sketcher_Workbench/pl.md) *(tj. leżący na tej samej płaszczyźnie)* dla **układu otworów** do wskazania *(najlepiej z [widoku drzewa](Tree_view/pl.md))*.
+3.  Istnieje kilka sposobów na wywołanie tego polecenia:
+    -   Wciśnij przycisk **<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> [Szkic na arkuszu blachy](SheetMetal_SketchOnSheet/pl.md)**.
+    -   Wybierz opcję **SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Szkic na arkuszu blachy** z menu.
+    -   Kliknij prawym przyciskiem myszy w [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md) i wybierz opcję **SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Szkic na arkuszu blachy** z menu kontekstowego.
+    -   Użyj skrótu klawiaturowego: **M** a następnie **S**.
+4.  Utworzony zostanie obiekt **SketchOnSheet** składający się z otworów rozpoczynających się na wskazanej płaszczyźnie i podążających wzdłuż zgięć i ścian.
+5.  Opcjonalnie dostosuj parametry w [Edytorze właściwości](Property_editor/pl.md).
 
 
 
@@ -42,20 +44,11 @@ W przeciwieństwie do polecenia <img alt="" src=images/PartDesign_Pocket.svg  st
 
 Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt **Szkic na arkuszu blachy** wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+Obiekt **Szkic na arkuszu blachy** wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) lub, jeśli jest w obrębie [Zawartości środowiska Projekt Części](PartDesign_Body/pl.md), z obiektu [Cechy tego środowiska](PartDesign_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
 
 ### Dane
-
-
-{{Properties_Title|Podstawowe}}
-
--    **Etykieta|String**: Wartość domyślna: {{value|SketchOnSheet}} *(+ kolejny numer dla drugiej i następnych pozycji)*. Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg znaków UTF8.
-
--    **Cecha podstawowa|Link|ukryte**: Cecha bazowa. Link do cechy nadrzędnej.
-
--    **_Body|LinkHidden|ukryte**: Link ukryty do zawartości nadrzędnej.
 
 
 {{Properties_Title|Parametry}}

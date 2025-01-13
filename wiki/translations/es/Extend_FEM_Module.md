@@ -115,7 +115,7 @@ One package doesn\'t follow this pattern: `femsolver`. It has its place on the s
 
 In FreeCAD a solver can be split into two parts:
 
--   One is the document object used by the user to interact with the solver. Though it solver parameter can be set and it is also used to control the solving process.
+-   One is the document object used by the user to interact with the solver. Through it, solver parameters can be set and it is also used to control the solving process.
 -   The other one are the so called tasks of a solver. The solving process is split into those tasks, namely: *check, prepare, solve and results*. Those do the actual work of exporting the analysis into a format understood by the solver executable, starting the executable and loading the results back into FreeCAD.
 
 Most files related to a solver reside in a sub-package of the `femsolver` package (e.g. for Elmer its in `femsolver/elmer`). The following list enumerates all files related to the implementation of a solver. Those are the files that need to be copied and modified to add support for a new solver to FreeCAD. The given example is taken from the solver implementation of Elmer.

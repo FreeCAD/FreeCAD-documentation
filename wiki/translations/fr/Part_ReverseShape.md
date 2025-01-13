@@ -10,15 +10,15 @@
 
 ## Description
 
-Inverse les normales de toutes les faces de l\'objet sélectionné.
+La commande <img alt="" src=images/Part_ReverseShape.svg  style="width:24px;"> **Part Inverser la forme** crée des copies paramétriques avec des normales aux faces inversées à partir d\'objets sélectionnés.
 
 
 
 ## Utilisation
 
-1.  Sélectionnez la forme.
+1.  Sélectionnez un ou plusieurs objets.
 2.  Sélectionnez l\'option du menu **Part → <img src="images/Part_ReverseShape.svg" width=16px> Inverser les formes**.
-3.  Une forme inversée est créée en tant que nouvel objet séparé.
+3.  Pour chaque objet sélectionné, une forme inversée est créée.
 
 
 
@@ -31,9 +31,26 @@ Inverse les normales de toutes les faces de l\'objet sélectionné.
 
 ## Propriétés
 
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+
+Un objet Part Inverser la forme la forme est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 
-## Script
+
+### Données
+
+
+{{TitleProperty|Reverse}}
+
+-    **Source|Link**: spécifie la forme source liée.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

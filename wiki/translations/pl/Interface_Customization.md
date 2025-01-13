@@ -3,11 +3,6 @@
 
 Interfejs FreeCAD jest oparty na nowoczesnym zestawie narzędzi [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) i posiada nowoczesną organizację. Niektóre aspekty interfejsu mogą być dostosowane do indywidualnych potrzeb. Możesz na przykład dodać niestandardowe paski narzędzi, z narzędziami z kilku Środowisk pracy lub narzędziami zdefiniowanymi w makrach, a także tworzyć własne skróty klawiaturowe. Ale menu i domyślne paski narzędzi, które są dostarczane z programem FreeCAD i jego warsztatami nie mogą być zmieniane.
 
-
-{{Version/pl|0.21}}
-
-: Zakładka ta nie jest już dostępna. Jej funkcjonalność została przeniesiona do zakładki [dostępne środowiska pracy](#Środowiska_pracy.md) w sekcji środowiska pracy [Edytora Preferencji](Preferences_Editor/pl.md).
-
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *Okno dialogowe Dostosowywanie interfejsu*
 
@@ -19,8 +14,8 @@ Interfejs FreeCAD jest oparty na nowoczesnym zestawie narzędzi [Qt](http://en.w
 2.  Istnieje kilka sposobów wywołania polecenia <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std: Dostosuj](Std_DlgCustomize/pl.md):
     -   Wybierz polecenie z menu **Przybory → <img src="images/Std_DlgCustomize.svg" width=16px> Dostosuj...**.
     -   Kliknij prawym przyciskiem myszy na obszarze paska narzędzi i wybierz z menu kontekstowego **<img src="images/Std_DlgCustomize.svg" width=16px> Dostosuj...**.
-3.  Otworzy się okno dialogowe Dostosuj\... Więcej informacji można znaleźć w rozdziale [Opcje](#Opcje.md).
-4.  Przycisk **Pomocy** uruchamia polecenie <img alt="" src=images/Std_WhatsThis.svg  style="width:16px;"> [Co to jest](Std_WhatsThis/pl.md).
+3.  Otworzy się okno dialogowe **Dostosuj**. Więcej informacji można znaleźć w rozdziale [Opcje](#Opcje.md).
+4.  Przycisk **Pomocy** nie działa w tym czasie.
 5.  Naciśnij przycisk **Zamknij**, aby zamknąć okno dialogowe.
 
 
@@ -263,20 +258,7 @@ Możesz również stworzyć własny motyw, jeśli nie odpowiada Ci motyw dołąc
 
 ## Dodatki
 
-Dodatki z <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Menedżera dodatków](Std_AddonMgr/pl.md) oferują kolejny sposób na dostosowanie interfejsu użytkownika. Dostępnych jest kilka [Pakietów preferencji](Preference_Packs/pl.md) do zmiany [motywu](#Motywy.md).
-
-W kategorii Środowiska pracy Menedżera dodatków można znaleźć niektóre dodatki użytkownika triplus:
-
--   <https://github.com/triplus/CubeMenu> *({{VersionMinus|0.20}})*
--   <https://github.com/triplus/Glass>
--   <https://github.com/triplus/IconThemes>
--   <https://github.com/triplus/Launcher>
--   <https://github.com/triplus/PieMenu>
--   <https://github.com/triplus/RemBench>
--   <https://github.com/triplus/ShortCuts>
-
-
-{{Top}}
+Dodatki z <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Menedżera dodatków](Std_AddonMgr/pl.md) oferują kolejny sposób na dostosowanie interfejsu użytkownika. Dostępnych jest kilka dedykowanych [zewnętrznych środowisk pracy](External_workbenches/pl.md) i [pakietów preferencji](Preference_Packs/pl.md). {{Top}}
 
 
 

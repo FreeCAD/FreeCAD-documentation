@@ -38,11 +38,11 @@ L\'[AmbienteSpreadsheet](Spreadsheet_Workbench/it.md) <img alt="" src=images/Wor
 
 -   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Allinea in basso](Spreadsheet_AlignBottom/it.md): allinea in basso il contenuto delle celle selezionate.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Stile grassetto](Spreadsheet_StyleBold/it.md): imposta il contenuto delle celle selezionate in grassetto.
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Stile grassetto](Spreadsheet_StyleBold/it.md): commuta il contenuto delle celle selezionate in/da grassetto.
 
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Stile corsivo](Spreadsheet_StyleItalic/it.md): imposta il contenuto delle celle selezionate in corsivo.
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Stile corsivo](Spreadsheet_StyleItalic/it.md): commuta il contenuto delle celle selezionate in/da corsivo.
 
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Stile sottolineato](Spreadsheet_StyleUnderline/it.md): imposta il contenuto delle celle selezionate su sottolineato.
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Stile sottolineato](Spreadsheet_StyleUnderline/it.md): commuta il contenuto delle celle selezionate in/da sottolineato.
 
 -   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Alias](Spreadsheet_SetAlias/it.md): imposta l\'alias per la cella selezionata.
 
@@ -335,63 +335,31 @@ Per collegare, ad esempio, l\'intervallo di celle A3-C4 all\'intervallo di celle
 
 {{Version/it|0.20}}
 
-È possibile utilizzare i fogli di calcolo per creare tabelle di configurazione con insiemi di parametri predefiniti per il modello e quindi modificare dinamicamente la configurazione da utilizzare. Vedi [questo post del forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183) se vuoi saperne di più sul funzionamento interno di questa funzione.
-
-
-<div class="mw-collapsible mw-collapsed toccolours">
-
-Espandi questa sezione per un breve tutorial sulla creazione di una tabella di configurazione.
-
-
-<div class="mw-collapsible-content">
-
-1.  In un nuovo documento, creare prima una [Parte](Part_Std/it.md), quindi creare un [Cubo](Part_Box/it.md), un [Cilindro](Part_Cylinder/it.md) e un foglio di calcolo.
-2.  Il cubo e il cilindro vengono automaticamente collocati nel contenitore [Part](Std_Part/it.md). Metti manualmente anche il foglio di calcolo nel contenitore.
-3.  Nel foglio di calcolo inserisci il contenuto come mostrato di seguito. Imposta l\'alias per B2 come {{Value|width}}, C2 come {{Value|length}} e D2 come {{Value|radius}}:
-    ![](images/Spreadsheet_configuration_table_screenshot_4.png )
-4.  Associare le [espressioni](Expressions/it.md) {{Value|Spreadsheet.width}} e {{Value|Spreadsheet.length}} alle proprietà della casella **Width** e **Length**, rispettivamente:
-    ![](images/Spreadsheet_configuration_table_screenshot_2.png )
-5.  Associa l\'espressione {{Value|Spreadsheet.radius}} alla proprietà del cilindro **Radius**. Modificare anche **Height** del cilindro in {{Value|5 mm}} in modo che sia inferiore al Cubo.
-6.  Fare clic con il pulsante destro del mouse sulla cella A2 nel foglio di calcolo e selezionare **Tabella di configurazione...** dal menu contestuale.
-7.  Si apre la finestra di dialogo **Imposta tabella di configurazione**.
-8.  Digita quanto segue:
-    ![](images/Spreadsheet_configuration_table_screenshot_5.png )
-9.  Clicca su **OK**.
-10. Una nuova proprietà denominata **Configuration** viene aggiunta al contenitore [Part](Std_Part/it.md) per scegliere la configurazione come mostrato di seguito:
-    ![](images/Spreadsheet_configuration_table_screenshot_6.png )
-
-È possibile utilizzare un [Link](Std_LinkMake/it.md) o un [Riferimento a Forma di Part Design](PartDesign_SubShapeBinder/it.md) per creare un\'istanza di un [Istanza Variante](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) di un oggetto configurabile con i seguenti passaggi:
-
-1.  Crea un [Link](Std_LinkMake/it.md) nel contenitore [Part](Std_Part/it.md) e imposta la sua proprietà **Link Copy On Change** su {{Value|Enabled}}.
-2.  Sposta il collegamento in una nuova posizione modificandone **Placement** in modo che sia più facile distinguerlo dall\'oggetto originale.
-3.  Selezionare una **Configurazione** diversa per il collegamento per creare un\'istanza variante.
-
-Passaggi simili si applicano a un [PartDesign Riferimento a Forma di Part Design](PartDesign_SubShapeBinder/it.md), tranne per il fatto che la sua proprietà per l\'attivazione di un\'istanza variante è denominata **Bind Copy On Change**.
-
-
-</div>
-
-
-</div>
+È possibile utilizzare i fogli di calcolo per creare tabelle di configurazione con insiemi di parametri predefiniti per il modello e quindi modificare dinamicamente la configurazione da utilizzare. Vedere il tutorial [Tabelle di configurazione](Configuration_Tables/it.md). Leggere [questo post del forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183) se si vuol conoscere di più sul funzionamento interno di questa funzione.
 
 
 
-## Script di base 
+## Script
 
 
 ```python
 import Spreadsheet
-sheet = App.ActiveDocument.addObject("Spreadsheet::Sheet","MySpreadsheet")
+sheet = App.ActiveDocument.addObject("Spreadsheet::Sheet", "MySpreadsheet")
 sheet.Label = "Dimensions"
 
-sheet.set('A1','10mm')
+sheet.set("A1", "10mm")
 sheet.recompute()
-sheet.get('A1')
+sheet.get("A1")
 
-sheet.setAlias('B1','Diameter')
-sheet.set('Diameter','20mm')
+sheet.setAlias("B1", "Diameter")
+sheet.set("Diameter", "20mm")
 sheet.recompute()
-sheet.get('Diameter')
+sheet.get("Diameter")
+
+# sheet.get() results in an error if the cell is empty.
+# sheet.getContents() can be used to check the cell first.
+if sheet.getContents("C1"):
+    print(sheet.get("C1"))
 ```
 
 

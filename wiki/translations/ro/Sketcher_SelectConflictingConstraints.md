@@ -5,9 +5,25 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Selectează constrângerile conflictuale dintr-o schiță.
+
+
+</div>
+
+If such constraints exist in a sketch the [Solver messages section of the Sketcher Dialog](Sketcher_Dialog#Solver_messages.md) displays this message:
+
+-   Over-constrained: (#, #, #)
+
+Where *(#, #, #)* are the indices of the constraints. Clicking the underlined text will select the conflicting constraints.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -26,6 +42,11 @@ Selectează constrângerile conflictuale dintr-o schiță.
 
 
 </div>
+
+## Notes
+
+-   Conflicting constraints must be removed from the sketch.
+-   Instead of the proposed indices it is also possible to delete other constraints.
 
 
 

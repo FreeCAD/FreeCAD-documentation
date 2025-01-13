@@ -8,7 +8,7 @@ At present, only two components of civil engineering are represented in FreeCAD:
 1.  [Rebar Workbench](Arch_Rebar.md)
 2.  [Transportation Workbench](Transportation_Workbench.md)
 
-The Rebar tools are currently part of the [Arch Workbench](Arch_Workbench.md)
+The Rebar tools are currently part of the [BIM Workbench](BIM_Workbench.md)
 
 ## Related Forum Threads 
 

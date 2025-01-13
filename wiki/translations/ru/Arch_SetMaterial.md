@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -24,6 +26,8 @@
 </div>
 
 ![](images/Arch_materials_01.jpg )
+
+
 
 ## Применение
 
@@ -40,6 +44,8 @@
 
 
 </div>
+
+
 
 ## Опции
 
@@ -78,6 +84,11 @@ This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IF
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/ru
+⏵ [documentation index](../README.md) > Arch SetMaterial/ru

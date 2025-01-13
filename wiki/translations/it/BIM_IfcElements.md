@@ -10,11 +10,23 @@
 
 # BIM IfcElements/it
 
+
+</div>
+
+
+
 ## Descrizione
 
-<img alt="" src=images/BIM_ifcelements_screenshot.png  style="width:1024px;">
+
+<div class="mw-translate-fuzzy">
 
 La finestra di dialogo Gestione elementi IFC consente di gestire **nomi**, **tipi di IFC** e **materiali** degli elementi BIM del modello. Il suo scopo è quello di offrire una semplice vista generale del modello e di consentire che tutto sia come desiderato prima di esportare il modello in [IFC](Arch_IFC/it.md).
+
+
+</div>
+
+<img alt="" src=images/BIM_ifcelements_screenshot.png  style="width:600px;"> 
+*IFC Elements Manager*
 
 Con esso si può:
 
@@ -25,5 +37,13 @@ Con esso si può:
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > BIM IfcElements/it
+⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcElements/it

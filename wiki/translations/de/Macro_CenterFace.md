@@ -1,48 +1,31 @@
 # Macro CenterFace/de
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/de
 |Name=Macro CenterFace
 |Icon=CenterFace.png
 |Translate=Macro CenterFace
-|Description=Dieses Makrotrace (bearbeitbar) zeichnet die mittlere Fläche (Masse) mit 1 Punkt und druckt die Koordinaten.
+|Description=Dieses Makro kennzeichnet Flächenschwerpunkte mit roten Punkten und gibt die Koordinaten aus. (Die Farbe kann eingestellt werden)
 |Author=Mario52
+|Download=[https://wiki.freecad.org/images/1/16/CenterFace.png Werkzeugleistensmbol]
 |Version=0.2
 |Date=2018-10-07
 }}
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Dieses Makrotrace (bearbeitbar) zeichnet die mittlere Fläche (Masse) mit 1 Punkt und druckt die Koordinaten.
-
-
-</div>
+Dieses Makro kennzeichnet Flächenschwerpunkte mit roten Punkten und gibt die Koordinaten aus. (Die Farbe kann eingestellt werden)
 
 <img alt="" src=images/Macro_CenterFace_00.png  style="width:480px;"> 
-*CenterFace*
-
-## Usage
+*Flächenschwerpunkte*
 
 
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
-Wählen Sie eine Fläche aus und starten Sie das Makro. Ein Punkt zu Fläche wird rot gefärbt (kann geändert werden).
+Eine Fläche auswählen, dann das Makro starten. Auf jede Fläche wird ein roter Punkt gesetzt (Farbe kann geändert werden).
 
-
-</div>
-
-Um die Farbe des Punktes zu ändern, ändern Sie die Linien 36, 37, 38.
+Um die Farbe der Punkte anzupassen, werden die Zeilen 36, 37, 38 geändert.
 
 red = 1.0 \# 1 = 255
 
@@ -50,19 +33,13 @@ green = 0.0 \#
 
 blue = 0.0 \#
 
-Die Mitte der Fläche (Masse) und die XYZ-Koordinaten der Fläche werden in der Berichtansicht angezeigt.
-
-## Icon
+Die Flächenschwerpunkte und die X-, Y-, und Z-Koordinaten der Fläche werden im Ausgabefenster angezeigt.
 
 
-<div class="mw-translate-fuzzy">
 
-## Icone
+## Symbol
 
-Laden Sie das Dateibild herunter und kopieren Sie es in Ihr Makro-Repertorium.
-
-
-</div>
+Das Dateisymbol herunterladen und in das eigene Makro-Verzeichnis kopieren.
 
 Klicken Sie auf das Bild, positionieren Sie im neuen Fenster die Maus über dem Bild, klicken Sie mit der rechten Maustaste und wählen Sie \"Ziel speichern unter \...\".
 

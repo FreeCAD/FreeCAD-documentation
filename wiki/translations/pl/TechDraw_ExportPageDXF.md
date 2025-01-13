@@ -25,7 +25,7 @@ Narzędzie **Wyeksportuj stronę do formatu DXF** zapisuje stronę rysunku jako 
     -   Naciśnij przycisk **<img src="images/TechDraw_ExportPageDXF.svg" width=16px> Wyeksportuj stronę do formatu DXF**.
     -   Wybierz opcję z menu **Rysunek Techniczny → Strona → <img src="images/TechDraw_ExportPageDXF.svg" width=16px> Wyeksportuj stronę do formatu DXF**.
     -   Jeśli strona jest wyświetlana w [głównym obszarze widoku](Main_view_area/pl.md): kliknij prawym przyciskiem myszy okno strony i wybierz opcję **Eksportuj do formatu DXF** z menu kontekstowego.
-3.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+3.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**:
     1.  Wybierz żądaną stronę.
     2.  Naciśnij przycisk **OK**.
 4.  Zostanie otwarte okno dialogowe **Eksportuj stronę do formatu DXF**.
@@ -82,7 +82,7 @@ TechDraw.writeDXFPage(page,filename)
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

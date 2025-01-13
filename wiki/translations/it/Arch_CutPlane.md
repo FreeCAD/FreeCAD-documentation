@@ -9,6 +9,9 @@
 # Arch CutPlane/it
 
 
+</div>
+
+
 
 ## Descrizione
 
@@ -21,20 +24,26 @@ Lo strumento **Arch CutPlane** taglia un oggetto solido di Arch come un [Muro](A
 
 ## Utilizzo
 
-1.  Se il piano di taglio deve essere derivato da un bordo dritto ({{Version/it|0.22}}), facoltativamente allineare il [piano di lavoro](Draft_SelectPlane/it.md):
+
+<div class="mw-translate-fuzzy">
+
+1.  Se il piano di taglio deve essere derivato da un bordo dritto ({{Version/it|1.0}}), facoltativamente allineare il [piano di lavoro](Draft_SelectPlane/it.md):
     -   Il bordo selezionato non può essere parallelo alla normale del piano di lavoro.
     -   La faccia di taglio generata sarà perpendicolare al piano di lavoro.
 2.  Selezionare l\'oggetto da tagliare.
 3.  Effettuare una delle seguenti operazioni:
-    -   Selezionare un oggetto con una singola faccia planare. {{Version/it|0.22}}
+    -   Selezionare un oggetto con una singola faccia planare. {{Version/it|1.0}}
     -   Selezionare una faccia planare nella [vista 3D](3D_view/it.md).
-    -   Selezionare un oggetto con un unico bordo dritto. {{Version/it|0.22}}
-    -   Selezionare un bordo dritto nella [Vista 3D](3D_view/it.md). {{Version/it|0.22}}
+    -   Selezionare un oggetto con un unico bordo dritto. {{Version/it|1.0}}
+    -   Selezionare un bordo dritto nella [Vista 3D](3D_view/it.md). {{Version/it|1.0}}
 4.  Esistono diversi modi per richiamare il comando:
     -   Premere il pulsante **<img src="images/Arch_CutPlane.svg" width=16px> [Taglio con piano](Arch_CutPlane/it.md)**.
     -   Selezionare l\'opzione **Arch → <img src="images/Arch_CutPlane.svg" width=16px> Taglio con piano** dal menu.
 5.  Scegliere **Dietro** o **Di fronte** per indicare su quale lato della superficie di taglio il materiale deve essere rimosso.
 6.  Premere il pulsante **OK**.
+
+
+</div>
 
 
 
@@ -110,6 +119,20 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/it
+⏵ [documentation index](../README.md) > Arch CutPlane/it

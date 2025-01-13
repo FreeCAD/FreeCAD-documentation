@@ -1,4 +1,7 @@
-# <img alt="Icône de l\'atelier Web" src=images/Workbench_Web.svg  style="width:64px;"> Web Workbench/fr
+# Web Workbench/fr
+**L''''atelier Web''' n'est plus inclus depuis la version 0.21.**
+
+<img alt="Icône de l\'atelier Web" src=images/Workbench_Web.svg  style="width:128px;">
 
 ## Introduction
 
@@ -39,4 +42,4 @@ L\'atelier Web offre les outils suivants :
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/fr
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/fr

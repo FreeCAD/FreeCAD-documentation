@@ -19,9 +19,15 @@ The Duplicate Selection command is a short-cut for the Copy+Paste commands. It c
 
 ## Usage
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Select one or more objects.
 2.  Select the **Edit → Duplicate selected object** option from the menu.
 3.  If the objects have dependencies that have not been selected, a dialog box will prompt you to specify which should be included.
+
+
+</div>
 
 ## Notes
 
@@ -37,13 +43,13 @@ The Duplicate Selection command is a short-cut for the Copy+Paste commands. It c
 
 ## Preferences
 
--   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+See [Std Paste](Std_Paste#Preferences.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

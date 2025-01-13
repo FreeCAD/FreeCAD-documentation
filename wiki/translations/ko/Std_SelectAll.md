@@ -9,13 +9,19 @@
 
 # Std SelectAll/ko
 
+
+
 ## 설명
 
-**표준 모두 선택(Std SelectAll)** 명령은 [트리 보기](Tree_view/ko.md)의 모든 개체를 선택합니다.
+**표준 모두 선택(Std SelectAll)** 명령은 [트리 보기의](Tree_view/ko.md) 모든 개체를 선택합니다.
+
+
 
 ## 용법
 
 1.  메뉴에서 **편집 → <img src="images/Std_SelectAll.svg" width=16px> 모두 선택** 옵션을 선택합니다.
+
+
 
 ## 비고
 
@@ -25,7 +31,7 @@
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

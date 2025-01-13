@@ -77,6 +77,8 @@ getSVG: récupère le code SVG à partir du logiciel DrawingExport. Formats dép
 
 getDXF: identique à getSVG à l\'exception du format DXF.
 
+
+
 ## Gui - interface graphique 
 
 ### AppDrawingGui.cpp
@@ -97,7 +99,7 @@ Fais un tas de trucs qt de l\'interface graphique. Besoin de lire plus à ce suj
 
 ### TaskDialog.cpp
 
-Crée la boîte de dialogue des tâches sur le côté et y accède probablement à partir de l\'arborescence, le cas échéant.
+Crée la fenêtre de dialogue des tâches sur le côté et y accède probablement à partir de l\'arborescence, le cas échéant.
 
 ### TaskOrthoViews.cpp
 
@@ -120,6 +122,8 @@ Il ne semble pas faire grand-chose, mais je suis sûr que c\'est important.
 ### Workbench.cpp
 
 Ajoute les icônes aux barres d\'outils et autres.
+
+
 
 # Flux de travail 
 

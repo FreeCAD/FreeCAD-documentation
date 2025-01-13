@@ -14,37 +14,16 @@
 
 Der Befehl <img alt="" src=images/Draft_Drawing.svg  style="width:24px;"> **Draft Zeichnung** fügt Ansichten von ausgewählten Objekten auf einem [Drawing](Drawing_Workbench.md)-Zeichnungsblatt hinzu.
 
+Dieser Befehl ähnelt dem Befehl [Drawing-Ansicht](Drawing_View/de.md), ist aber für Objekte des Arbeitsbereichs [Draft](Draft_Workbench/de.md) optimiert. Im Gegensatz zu jenem Befehl kann dieser mit besonderen Objekten umgehen, wie [Draft-Maßen](Draft_Dimension/de.md) und [Draft-Texten](Draft_Text/de.md), sowie Flächen darstellen.
 
-<div class="mw-translate-fuzzy">
+Dieser Befehl ist jetzt veraltet. Stattdessen kann der Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md) und der Befehl [TechDraw Draft-Ansicht](TechDraw_DraftView/de.md) verwendet werden.
 
-Diese Werkzeug arbeitet ähnlich wie das [Zeichnungsansicht](Drawing_View/de.md)-Werkzeug, ist aber für den [Draft-Arbeitsbereich](Draft_Workbench/de.md) optimiert und kann 2D-Objekte mit einer gefüllten Fläche erzeugen. Es kann mit bestimmten Objekten wie [Draft Dimension](Draft_Dimension/de.md) und [Draft Text](Draft_Text/de.md) umgehen, was das [Zeichnungsansicht](Drawing_View/de.md)-Werkzeug nicht kann.
-
-
-</div>
-
-This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md) and the [TechDraw DraftView](TechDraw_DraftView.md) command instead.
-
-<img alt="" src=images/Draft_drawing_example.jpg  style="width:640px;">
+<img alt="" src=images/Draft_drawing_example.jpg  style="width:640px;"> 
+*Links die ausgewählten Draft-Objekte. Rechts die erstellte Drawing-Ansicht.*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*In eine Zeichenseite importiertes Draft-Objekt und Bemaßungen*
-
-
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
-
-
-</div>
 
 1.  To use this command in FreeCAD version 0.19 and later you need to add a button to a custom toolbar. See [Interface Customization](Interface_Customization.md).
 2.  Select one or more objects. A separate view will be created for each object.

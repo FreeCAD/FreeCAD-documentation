@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Std MergeProjects
    Name/de: Std ProjekteZusammenführen
-   MenuLocation: Datei , Projekte zusammenführen...
-   Workbenches: All
+   MenuLocation: Datei , Dokument zusammenführen...
+   Workbenches: Alle
 ---
 
 # Std MergeProjects/de
@@ -18,7 +18,7 @@ Der Befehl **Std ProjekteZusammenführen** fügt den Inhalt einer FreeCAD-Datei 
 
 ## Anwendung
 
-1.  Wähle **Datei → <img src="images/Std_MergeProjects.svg" width=16px> Projekt zusammenführen...** aus dem Menü.
+1.  Wähle **Datei → <img src="images/Std_MergeProjects.svg" width=16px> Dokument zusammenführen...** aus dem Menü.
 2.  Wähle eine FreeCAD-Datei im aufgehenden Dialog.
 3.  Klicke auf die Schaltfläche **Öffnen**.
 
@@ -33,23 +33,15 @@ Der Befehl **Std ProjekteZusammenführen** fügt den Inhalt einer FreeCAD-Datei 
 ## Hinweise
 
 -   Ein Projekt nicht mit sich selbst zusammengeführt werden. Die Auswahl der aktuellen Datei ist nicht erlaubt.
--   FreeCAD ändert automatisch die internen Namen und die Beschriftungen der Objekte, abhängig von den Einstellungen, um Konflikte zu vermeiden.
+-   FreeCAD ändert automatisch die internen Namen und, abhängig von den [Einstellungen](Preferences_Editor/de#Dokument.md), die Benennungen der Objekte, um Konflikte zu vermeiden.
 
 
 
-## Einstellungen
+## Skripten
 
--   Der letzte, verwendete Dateiablageort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → General → FileOpenSavePath**.
--   Doppelte Beschriftungen sind erlaubt, wenn **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Document → DuplicateLabels** auf `True` gesetzt ist. Diese Einstellung kann auch im [Voreinstellungseditor / Dokument](Preferences_Editor/de#Dokument.md) geändert werden.
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-## Scripting
-
-
-**See also:**
-
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-To merge a project use the {{Incode|mergeProject}} method of the document object.
+Um ein Projekt hinzuzufügen, wird die Methode `mergeProject` des Dokumentobjekts verwendet.
 
 
 ```python
@@ -62,7 +54,7 @@ FreeCAD.ActiveDocument.mergeProject("Path_to_FCStd_project_file")
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

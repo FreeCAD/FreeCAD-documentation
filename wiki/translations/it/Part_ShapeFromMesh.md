@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Part ShapeFromMesh
-   Name/it: ‏‎Crea forma da mesh
-   MenuLocation: Part , Crea forma da mesh...
+   Name/it: ‏‎Part Crea forma da mesh
+   MenuLocation: Parte , Crea forma da mesh...
    Workbenches: Part_Workbench/it
    SeeAlso: Part_MakeSolid/it, Part_RefineShape/it, Part_PointsFromMesh/it
 ---
@@ -13,26 +13,34 @@
 
 ## Introduzione
 
-Il comando **<img src="images/Part_ShapeFromMesh.svg" width=16px> [Crea forma da mesh](Part_ShapeFromMesh/it.md)** crea una forma da un [oggetto mesh](Mesh/it.md). In FreeCAD gli oggetti mesh hanno limitate capacità di editing, convertendoli in [forme](Shape/it.md) permette di utilizzarli con molti più strumenti di modifica e booleani.
+Il comando <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:16px;"> **Crea forma da mesh** crea forme da [oggetti mesh](Mesh/it.md). In FreeCAD gli oggetti mesh hanno limitate capacità di editing, convertirli in [forme](Shape/it.md) permette di manipolarli con molti più comandi di modifica e booleani.
 
-L\'operazione inversa è **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh da forma](Mesh_FromPartShape/it.md)** dal <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Ambiente Mesh](Mesh_Workbench/it.md).
+L\'operazione inversa è [Mesh da forma](Mesh_FromPartShape/it.md) dell\'<img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Ambiente Mesh](Mesh_Workbench/it.md).
 
 
 
 ## Utilizzo
 
-1.  Selezionare un oggetto mesh nella [Vista ad albero](tree_view/it.md)\...
-2.  Andare nel menu **Part → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Crea forma da mesh**.
-3.  Un menu pop-up chiede di definire la tolleranza per la chiusura; il valore di default è {{Value|0.1}}
-4.  Dall\'oggetto mesh viene creato un nuovo oggetto [forma](Shape/it.md) indipendente.
+1.  L\'analisi e la riparazione dell\'oggetto mesh, se necessario, devono essere eseguite prima di avviare questo comando. Strumenti appropriati per questa attività sono disponibili in <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Mesh](Mesh_Workbench/it.md).
+2.  Selezionare uno o più oggetti mesh.
+3.  Seleziona l\'opzione **Parte → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Crea forma da mesh** dal menu.
+4.  Si apre la finestra di dialogo **Forma da mesh**.
+5.  Facoltativamente selezionare la casella di controllo **Cuci forma** e specificare una tolleranza:
+    -   Questa opzione solitamente non è necessaria. È pensata per oggetti mesh che non sono impermeabili e presentano piccoli spazi tra i bordi.
+    -   Se l\'opzione è selezionata, viene creato un composto di gusci, anziché un composto di facce.
+    -   L\'operazione di cucitura potrebbe essere impegnativa dal punto di vista computazionale.
+6.  Premere il pulsante **OK**.
+7.  Per ogni oggetto mesh selezionato viene creata una [shape](Shape/it.md) come un nuovo oggetto separato.
+8.  Facoltativamente utilizzare <img alt="" src=images/Part_RefineShape.svg  style="width:16px;"> [Part Affina forma](Part_RefineShape/it.md) su questi oggetti.
+9.  Facoltativamente, trasformare gli oggetti finali in solidi con <img alt="" src=images/Part_MakeSolid.svg  style="width:16px;"> [Part Crea solido](Part_MakeSolid/it.md).
 
-L\'analisi e la riparazione della mesh, se necessario, devono essere eseguite manualmente prima di lanciare **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Crea forma da mesh](Part_ShapeFromMesh/it.md)**. Gli strumenti appropriati per questa attività sono disponibili in <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Ambiente Mesh](Mesh_Workbench/it.md).
 
-Dopo la creazione di una [Forma](Shape/it.md), può essere utile utilizzare **[<img src=images/Part_MakeSolid.svg style="width:16px"> [Converti in solido](Part_MakeSolid/it.md)** (necessario per [operazioni booleane](Part_Boolean/it.md)) e **[<img src=images/Part_RefineShape.svg style="width:16px"> [Affina una forma](Part_RefineShape/it.md)**.
 
-## Links
+## Proprietà
 
--   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) video by AllVisuals4U.
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
+
+Gli oggetti creati Part Forma da mesh sono oggetti [Part Feature](Part_Feature/it.md) senza proprietà aggiuntive.
 
 ## Scripting
 
@@ -45,19 +53,30 @@ Si noti che la mesh deve essere ricalcolata prima di essere convertita in Shape,
 import FreeCAD as App
 import Part
 
-doc = App.newDocument()
+doc = App.ActiveDocument
 mesh = doc.addObject("Mesh::Cube", "Mesh")
 mesh.recompute()
 
-solid = doc.addObject("Part::Feature", "Shape")
 shape = Part.Shape()
 shape.makeShapeFromMesh(mesh.Mesh.Topology, 0.1)
 
-solid.Shape = shape
+solid = doc.addObject("Part::Feature", "Solid")
+solid.Shape = Part.Solid(shape.removeSplitter())
 solid.Placement.Base = App.Vector(15, 0, 0)
-solid.purgeTouched()
 doc.recompute()
 ```
+
+## Links
+
+-   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) video by AllVisuals4U.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

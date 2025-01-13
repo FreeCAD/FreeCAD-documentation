@@ -57,10 +57,10 @@ Phases planifiées pour générer du contenu :
 <img alt="" src=images/SheetMetal_Example-02.png  style="width:400px;">
 <img alt="" src=images/SheetMetal_Example-02a.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-02b.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-02c.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-02d.png  style="width:200px;"> 
 *Processus de travail pour un clip papier:
-**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase/fr.md)*,
-{{Button|<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> [Sketch on Sheet](SheetMetal_SketchOnSheet/fr.md)**,
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Tôle de base](SheetMetal_AddBase/fr.md)*,
+{{Button|<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> [Découper des trous](SheetMetal_SketchOnSheet/fr.md)**,
 cloner, retourner et fusionner,
-**<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold/fr.md)**.
+**<img src="images/SheetMetal_Unfold.svg" width=16px> [Déplier](SheetMetal_Unfold/fr.md)**.
 }}
 
 
@@ -73,7 +73,7 @@ cloner, retourner et fusionner,
 
 1.  Créez un profil, de préférence en utilisant l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;">[atelier Sketcher](Sketcher_Workbench/fr.md) sur le plan XZ.
     <img alt="Esquisse du profil" src=images/SheetMetal_Example-02e.png  style="width:300px;">
-2.  Activez <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase/fr.md) pour créer un objet BaseBend.
+2.  Activez <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Tôle de base](SheetMetal_AddBase/fr.md) pour créer un objet BaseBend.
 3.  Modifiez les paramètres de l\'objet BaseBend dans le panneau des propriétés:
     <img alt="Objet BaseBend et esquisse en surbrillance" src=images/SheetMetal_Example-02f.png  style="width:200px;">.
     -   Définissez **mid plane** sur `True` pour que le profil s\'étende symétriquement des deux côtés du plan de l\'esquisse.
@@ -88,14 +88,14 @@ cloner, retourner et fusionner,
 7.  Terminez l\'esquisse en utilisant <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:16px;"> [Sketcher Quitter l\'esquisse](Sketcher_LeaveSketch/fr.md).
 8.  Sélectionnez à nouveau la face et ajoutez l\'esquisse de découpe à la sélection.
     <img alt="Face et esquisse sélectionnées" src=images/SheetMetal_Example-02j.png  style="width:200px;">
-9.  Utilisez l\'outil <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Sketch on Sheet](SheetMetal_SketchOnSheet/fr.md) pour découper autour de la partie recourbée.
+9.  Utilisez l\'outil <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Découper des trous](SheetMetal_SketchOnSheet/fr.md) pour découper autour de la partie recourbée.
     <img alt="Première moitié finie" src=images/SheetMetal_Example-02b.png  style="width:200px;">
 10. Un côté est terminé. Nous devons maintenant trouver un moyen d\'inverser le corps.
 
 *Options possibles pour la symétrie :*.
 
 -   La commande <img alt="" src=images/PartDesign_Mirrored.svg  style="width:16px;"> [PartDesign Symétrie](PartDesign_Mirrored/fr.md) échoue car elle ne peut pas gérer les caractéristiques SheetMetal pour une raison inconnue. Cela ne fonctionne donc pas.
--   La commande <img alt="" src=images/Part_Mirror.svg  style="width:16px;"> [Part Miroir](Part_Mirror/fr.md) crée une pièce miroir, mais celle-ci n\'est plus dépliable. Cela ne fonctionne pas non plus.
+-   La commande <img alt="" src=images/Part_Mirror.svg  style="width:16px;"> [Part Objet en miroir](Part_Mirror/fr.md) crée une pièce miroir, mais celle-ci n\'est plus dépliable. Cela ne fonctionne pas non plus.
 -   La seule solution qui peut fonctionner est d\'utiliser un clone. Celui-ci ne peut toujours pas être symétrisé, mais il peut utiliser la symétrie axiale (le tourner de 180°).
 -   Un autre moyen qui fonctionne est d\'utiliser un objet de liaison.
 
@@ -151,11 +151,11 @@ cloner, retourner et fusionner,
 
 <img alt="" src=images/SheetMetal_Example-04.png  style="width:400px;">
 <img alt="" src=images/SheetMetal_Example-04a.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-04b.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-04c.png  style="width:200px;"> 
-*Processus de travail pour un bol hexagonal:
-**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase/fr.md)*,
-{{Button|<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall/fr.md)**,
-6x **<img src="images/SheetMetal_AddCornerRelief.svg" width=16px> [Add Corner Relief](SheetMetal_AddCornerRelief/fr.md)**,
-**<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold/fr.md)**.
+*Processus de travail pour un bol hexagonal :
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Tôle de base](SheetMetal_AddBase/fr.md)*,
+{{Button|<img src="images/SheetMetal_AddWall.svg" width=16px> [Rebord](SheetMetal_AddWall/fr.md)**,
+6x **<img src="images/SheetMetal_AddCornerRelief.svg" width=16px> [Grugeage](SheetMetal_AddCornerRelief/fr.md)**,
+**<img src="images/SheetMetal_Unfold.svg" width=16px> [Déplier](SheetMetal_Unfold/fr.md)**.
 }}
 
 <img alt="" src=images/SheetMetal_Example-04d.png  style="width:200px;">
@@ -168,11 +168,11 @@ Lorsqu\'un grugeage d\'angle est ajouté (côté droit), il peut être nécessai
 
 <img alt="" src=images/SheetMetal_Example-05.png  style="width:400px;">
 <img alt="" src=images/SheetMetal_Example-05a.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-05b.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-05c.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-05d.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-05e.png  style="width:200px;"> 
-*Processus de travail pour une pince à crayon:
-**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase/fr.md)*,
+*Processus de travail pour une pince à crayon :
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Tôle de base](SheetMetal_AddBase/fr.md)*,
 {{Button|<img src="images/PartDesign_Pocket.svg" width=16px> [PartDesign Cavité](PartDesign_Pocket/fr.md)**,
-3x **<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall/fr.md)**,
-**<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold/fr.md)**.
+3x **<img src="images/SheetMetal_AddWall.svg" width=16px> [Rebord](SheetMetal_AddWall/fr.md)**,
+**<img src="images/SheetMetal_Unfold.svg" width=16px> [Déplier](SheetMetal_Unfold/fr.md)**.
 }}
 
 
@@ -182,11 +182,11 @@ Lorsqu\'un grugeage d\'angle est ajouté (côté droit), il peut être nécessai
 <img alt="" src=images/SheetMetal_Example-06.png  style="width:400px;">
 <img alt="" src=images/SheetMetal_Example-06a.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-06b.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-06c.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-06.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-06d.png  style="width:200px;"> 
 *Processus de travail pour déplier:
-**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase/fr.md)*,
-{{Button|<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall/fr.md)**,
-**<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude/fr.md)**,
-**<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude/fr.md)**,
-**<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold/fr.md)**.
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Tôle de base](SheetMetal_AddBase/fr.md)*,
+{{Button|<img src="images/SheetMetal_AddWall.svg" width=16px> [Rebord](SheetMetal_AddWall/fr.md)**,
+**<img src="images/SheetMetal_Extrude.svg" width=16px> [Prolonger une face](SheetMetal_Extrude/fr.md)**,
+**<img src="images/SheetMetal_Extrude.svg" width=16px> [Prolonger une face](SheetMetal_Extrude/fr.md)**,
+**<img src="images/SheetMetal_Unfold.svg" width=16px> [Déplier](SheetMetal_Unfold/fr.md)**.
 }}
 
 Pour la deuxième utilisation de **Extend Face**, une Esquisse avec deux contours est utilisée pour la forme de l\'extension(s) et avec la valeur de \"use subtraction\" réglée à true, elle fournit la forme pour les découpes aussi.
@@ -198,12 +198,12 @@ Pour la deuxième utilisation de **Extend Face**, une Esquisse avec deux contour
 <img alt="" src=images/SheetMetal_Example-07.png  style="width:400px;">
 <img alt="" src=images/SheetMetal_Example-07a.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-07b.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-07c.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-07d.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-07.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-07e.png  style="width:200px;"> 
 *Processus de travail pour un blindage d'USB:
-**<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase/fr.md)*,
-{{Button|<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude/fr.md)**,
+**<img src="images/SheetMetal_AddBase.svg" width=16px> [Tôle de base](SheetMetal_AddBase/fr.md)*,
+{{Button|<img src="images/SheetMetal_Extrude.svg" width=16px> [Prolonger une face](SheetMetal_Extrude/fr.md)**,
 **<img src="images/PartDesign_Pocket.svg" width=16px> [PartDesign Cavité](PartDesign_Pocket/fr.md)**,
-**<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude/fr.md)**,
-**<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall/fr.md)**,
-**<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold/fr.md)**.
+**<img src="images/SheetMetal_Extrude.svg" width=16px> [Prolonger une face](SheetMetal_Extrude/fr.md)**,
+**<img src="images/SheetMetal_AddWall.svg" width=16px> [Rebord](SheetMetal_AddWall/fr.md)**,
+**<img src="images/SheetMetal_Unfold.svg" width=16px> [Déplier](SheetMetal_Unfold/fr.md)**.
 }}
 
 (La forme de la languette n\'est qu\'une vision artistique de ce qui pourrait être caché à l\'intérieur d\'une vraie prise).
@@ -288,8 +288,7 @@ Un objet Bend est constitué d\'ensembles comprenant chacun un pli cylindrique e
 
 
 *Bords sélectionnés + 
-**<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall/fr.md)* 
-→ Plier les objets avec les paramètres par défaut <br>
+**<img src="images/SheetMetal_AddWall.svg" width=16px> [Rebord](SheetMetal_AddWall/fr.md)* → Plier les objets avec les paramètres par défaut <br>
 (Deux objets pliés dans deux corps distincts.)**
 
 Modifiez **radius** pour faire varier le rayon intérieur de tous les plis fournis par un objet Bend. (Voir l\'objet BaseBend ci-dessus)
@@ -467,6 +466,32 @@ Mais il y a de meilleurs cas d\'utilisation pour cet outil impliquant des formes
 
 *Changez **Use Subtraction* à {{true** pour fournir un espace (à peine visible) par défaut entre l'objet Extension et le côté opposé, puis augmentez **Offset** pour élargir l'espace:<br>
 Profilé fusionné → Profilé avec extension emboîtée, ce résultat final est dépliable}}
+
+
+</div>
+
+
+</div>
+
+
+<div class="mw-collapsible mw-collapsed">
+
+### Objet Fold <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> 
+
+
+<div class="mw-collapsible-content toccolours">
+
+Un objet Fold est le résultat d\'une plaque de tôle pliée selon une ligne donnée.
+
+Modifier la propriété **Position** pour contrôler la position du pli par rapport à la ligne de pliage.
+
+<img alt="" src=images/SheetMetal_Example-10o.png  style="width:600px;">
+
+
+
+*Coupe transversale du pliage : la ligne de pliage se trouve sur la face supérieure de l'ébauche (noire) avec un décalage de 10 mm par rapport au bord, sa position est indiquée par un pentagone. Elle définit également l'intersection virtuelle de l'ébauche et de la paroi pliée*
+
+.
 
 
 </div>

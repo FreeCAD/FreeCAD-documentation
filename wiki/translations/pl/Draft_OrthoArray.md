@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft OrthoArray
    Name/pl: Rysunek Roboczy: Szyk ortogonalny
-   MenuLocation: Modyfikacja , Narzędzia szyku , Szyk ortogonalny
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   MenuLocation: Modyfikacja , Narzędzia szyku , Szyk ortogonalny<br>Modyfikacja , Szyk ortogonalny
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Version: 0.19
    SeeAlso: Draft_PolarArray/pl, Draft_CircularArray/pl, Draft_PathArray/pl, Draft_PathLinkArray/pl, Draft_PointArray/pl, Draft_PointLinkArray/pl
 ---
@@ -16,7 +16,7 @@
 
 Polecenie <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Szyk ortogonalny** tworzy prostokątny *(3-osiowy)* szyk z wybranego obiektu. Polecenie może opcjonalnie utworzyć szyk [Łączy](App_Link/pl.md), który jest bardziej wydajny niż zwykły szyk.
 
-Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
+Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [BIM](BIM_Workbench/pl.md).
 
 <img alt="" src=images/Draft_Array_example.png  style="width:300px;"> 
 *Szyk ortogonalny.*
@@ -28,7 +28,8 @@ Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą �
 1.  Opcjonalnie wybierz jeden obiekt.
 2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Draft_OrthoArray.svg" width=16px> '''Szyk ortogonalny'''**.
-    -   Wybierz z menu opcję **Modyfikacja → Narzędzia szyku → <img src="images/Draft_OrthoArray.svg" width=16px> Szyk ortogonalny**.
+    -   [Środowisko pracy Rysunek Roboczy](Draft_Workbench/pl.md): Wybierz z menu opcję **Modyfikacja → Narzędzia szyku → <img src="images/Draft_OrthoArray.svg" width=16px> Szyk ortogonalny**.
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Modyfikacja → <img src="images/Draft_OrthoArray.svg" width=16px> Szyk ortogonalny** z menu.
 3.  Otworzy się panel zadań **Szyk prostokątny**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
 4.  Jeśli nie wybrano jeszcze żadnego obiektu: wybierz jeden obiekt.
 5.  Wprowadź wymagane parametry w panelu zadań.
@@ -125,7 +126,7 @@ Właściwości w tej grupie są ukryte dla tablic ortogonalnych i biegunowych.
 
 -    **Baza|Link**: określa obiekt do powielenia w tablicy.
 
--    **Ilość|Integer**: *(tylko do odczytu)* określa całkowitą liczbę elementów w tablicy. {{VersionMinus/pl|0.20}}: Dostępne tylko dla szyku Łączy.
+-    **Ilość|Integer**: *(tylko do odczytu)* określa całkowitą liczbę elementów w tablicy.
 
 -    **Rozwiń szyk|Bool**: określa, czy rozwinąć szyk w oknie [Widoku drzewa](Tree_view/pl.md), aby umożliwić wybór jego poszczególnych elementów. Dostępne tylko dla szyków typu Link.
 

@@ -1,18 +1,18 @@
 # Draft Constrain/de
 ## Beschreibung
 
-Neben der Eingabe von Koordinaten oder der Verwendung vom [Einrasten](Draft_Snap/de.md) gibt es eine Funktion namens Beschränken, um zu helfen in den Arbeitsbereichen <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) und <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md) genau zu zeichnen. Für jeden nachfolgenden Punkt kann die Bewegung des Mauszeigers auf die X-, Y- oder Z-Richtung des Koordinatensystems der [Arbeitsebene](Draft_SelectPlane/de.md) eingeschränkt werden. Dies kann zum Beispiel verwendet werden, um eine perfekt vertikale Linie zu erzeugen.
+Neben der Eingabe von Koordinaten oder der Verwendung von [Einrasten](Draft_Snap/de.md) gibt es eine Funktion namens Einschränken, um zu helfen in den Arbeitsbereichen <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) und <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/de.md) genau zu zeichnen. Für jeden nachfolgenden Punkt kann die Bewegung des Mauszeigers auf die X-, Y- oder Z-Richtung des Koordinatensystems der [Arbeitsebene](Draft_SelectPlane/de.md) eingeschränkt werden. Dies kann zum Beispiel verwendet werden, um eine perfekt vertikale Linie zu erzeugen.
 
-Das Einschränken steht den meisten Befehlen der Arbeitsbereiche [Draft](Draft_Workbench/de.md) und [Arch](Arch_Workbench/de.md) zur Verfügung.
+Das Einschränken steht den meisten Befehlen der Arbeitsbereiche [Draft](Draft_Workbench/de.md) und [BIM](BIM_Workbench/de.md) zur Verfügung.
 
 ![](images/Draft_Constrain_taskpanel_example.png ) 
 *Während der Mauszeiger eingeschränkt ist, sperrt der Aufgaben-Bereich die Werte, die nicht geändert werden*
 
 
 
-## Anwendung horizontaler und vertikaler Beschränkungen 
+## Anwendung horizontaler und vertikaler Einschränkungen 
 
-1.  Einen [Draft-](Draft_Workbench/de.md) oder [Arch-Befehl](Arch_Workbench/de.md) auswählen, um Geometrie zu erstellen.
+1.  Einen [Draft-](Draft_Workbench/de.md) oder [BIM](BIM_Workbench/de.md)-Befehl auswählen, um Geometrie zu erstellen.
 
 2.  Einen ersten Punkt auswählen. Ein vorausgewählter Punkt ist erforderlich.
 
@@ -21,7 +21,7 @@ Das Einschränken steht den meisten Befehlen der Arbeitsbereiche [Draft](Draft_W
     -   Für eine vertikale Beschränkung: Den Mauszeiger vom vorherigen Punkt aus nach oben oder unten bewegen.
 
 4.  
-    **Shift**gedrückt halten.
+    **Shift**(Umschalttaste) gedrückt halten.
 
 5.  Der Mauszeiger ist jetzt entsprechend eingeschränkt.
 
@@ -34,9 +34,9 @@ Das Einschränken steht den meisten Befehlen der Arbeitsbereiche [Draft](Draft_W
 
 
 
-## Anwendung X-, Y- und Z-Beschränkungen 
+## Anwendung der X-, Y- und Z-Einschränkungen 
 
-1.  Einen [Draft-](Draft_Workbench/de.md) oder [Arch-Befehl](Arch_Workbench/de.md) auswählen, um Geometrien zu erstellen.
+1.  Einen [Draft-](Draft_Workbench/de.md) oder [BIM](BIM_Workbench/de.md)-Befehl auswählen, um Geometrien zu erstellen.
 
 2.  Einen ersten Punkt auswählen. Ein vorausgewählter Punkt ist erforderlich.
 
@@ -47,7 +47,7 @@ Das Einschränken steht den meisten Befehlen der Arbeitsbereiche [Draft](Draft_W
 
 5.  Den nächsten Punkt auswählen.
 
-6.  Ist der Befehl noch aktiv: Wahlweise mach wahlweise etwas von folgendem:
+6.  Ist der Befehl noch aktiv: Wahlweise eine der folgenden Möglichkeiten auswählen:
     -   Dieselbe Taste nochmals drücken, um die Einschränkung zu deaktivieren.
     -   Eine der beiden anderen Tasten drücken, um eine andere Richtung festzulegen.
 
@@ -57,8 +57,8 @@ Das Einschränken steht den meisten Befehlen der Arbeitsbereiche [Draft](Draft_W
 
 ## Hinweise
 
--   Beschränken kann mit [Einrasten](Draft_Snap/de.md) kombiniert werden.
--   Die Befehle [Draft Versatz](Draft_Offset/de.md) und [Draft Trimex](Draft_Trimex/de.md) verwenden eine andere Art der Beschränkung, nämlich das Beschränken des Einsatzes auf ein bestimmtes Segment.
+-   Einschränken kann mit [Einrasten](Draft_Snap/de.md) kombiniert werden.
+-   Die Befehle [Draft Versetzen](Draft_Offset/de.md) und [Draft Trimex](Draft_Trimex/de.md) verwenden eine andere Art der Einschränkung, nämlich das Begrenzen des Vorgangs auf ein bestimmtes Segment.
 
 
 

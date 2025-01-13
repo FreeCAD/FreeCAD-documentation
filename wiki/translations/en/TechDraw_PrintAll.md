@@ -29,7 +29,7 @@ The <img alt="" src=images/TechDraw_PrintAll.svg  style="width:24px;"> **TechDra
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

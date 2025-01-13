@@ -12,12 +12,9 @@
 
 ## Description
 
-Contraint deux lignes à suivre la loi de la réfraction de la lumière qui pénètre à travers une interface, où deux matériaux de différents indices de réfraction se rencontrent. Voir [Loi de Snell](http://fr.wikipedia.org/wiki/Loi_de_Snell_Descartes) sur Wikipedia pour plus d\'info.
+L\'outil <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> [Sketcher Contrainte de réfraction](Sketcher_ConstrainSnellsLaw/fr.md) contraint deux lignes à suivre la loi de réfraction de la lumière lorsqu\'elle pénètre à travers une interface où deux matériaux ayant des indices de réfraction différents se rencontrent. Voir [Loi de Snell](http://fr.wikipedia.org/wiki/Loi_de_Snell_Descartes).
 
-<img alt="" src=images/Snells_law2_witheq.svg  style="width:" height="400px;">
-
-
-
+<img alt="" src=images/Snells_law2_witheq.svg  style="width:" height="400px;"> 
 *Loi de Snell*
 
 
@@ -25,27 +22,27 @@ Contraint deux lignes à suivre la loi de la réfraction de la lumière qui pén
 ## Utilisation
 
 <img alt="" src=images/Sketcher_SnellsLaw_Example1.png  style="width:500px;"> 
-*La séquence des clics est indiquée par des flèches jaunes avec des chiffres. n1, n2 ne sont que des indications pour montrer où se trouvent les indices de réfraction.*
+*La séquence des clics est indiquée par des flèches jaunes avec des nombres, n1 et n2 indiquent où les indices de réfraction se trouvent.*
 
--   Vous aurez besoin de deux lignes qui vont suivre un faisceau de lumière, et une courbe pour agir comme une interface. Les lignes doivent être sur des côtés différents de l\'interface.
--   Sélectionnez l\'extrémité d\'une ligne, un point d\'extrémité d\'une autre ligne, et le bord de l\'interface. L\'interface peut être une [ligne](Sketcher_CreateLine/fr.md), un [arc](Sketcher_CompCreateArc/fr.md), un [cercle](Sketcher_CompCreateCircle/fr.md) ou un [conique](Sketcher_CompCreateConic/fr.md)
--   Lancez la contrainte. Une boîte de dialogue apparaît pour demander un rapport d\'indices de réfraction n2/n1. n2 correspond au milieu où la ligne du deuxième critère sélectionné réside, n1 est pour la première ligne.
--   Les critères d\'évaluation seront mis en coïncidence (si nécessaire), contraint à l\'interface (si nécessaire), et la loi de Snell deviendront contraint.
-
-Notez que plusieurs [Sketcher Aides pour contraindre](Sketcher_helper_constraint/fr.md) seront ajoutées automatiquement (point sur objet, coïncidence). Elles peuvent être supprimées si elles créeent une redondance ou ajoutées manuellement si elles n\'ont pas été ajoutées automatiquement. Pour la contrainte de la loi de Snell, les extrémités des lignes doivent coïncider et reposer sur l\'interface, sinon le comportement n\'est pas défini.
-
-En utilisant l\'outil **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)**, il est possible d\'accélérer le tracé des rayons de lumière. Dans ce cas, il est possible de sélectionner deux extrémités coïncidentes par sélection de boîte.
+1.  Préparez deux lignes pour représenter un faisceau de lumière et une arête pour servir d\'interface. Les lignes doivent être situées de part et d\'autre de l\'interface. L\'interface peut être une [ligne](Sketcher_CreateLine/fr.md), un [arc](Sketcher_CompCreateArc/fr.md), un [cercle](Sketcher_CompCreateCircle/fr.md) ou un [conique](Sketcher_CompCreateConic/fr.md)
+2.  Sélectionnez une extrémité de la première ligne, une extrémité de la deuxième ligne et l\'arête de l\'interface. Notez l\'ordre de sélection des extrémités.
+3.  Il y a plusieurs façons de lancer l\'outil :
+    -   Sélectionnez l\'outil **Esquisse → Contraintes de l'esquisse → <img src="images/Sketcher_ConstrainSnellsLaw.svg" width=16px> Contrainte de réfraction (loi de Snell)** du menu.
+    -   Utilisez le raccourci clavier : **K** puis **W**.
+4.  La fenêtre de dialogue **Rapport d'indice de réfraction** s\'ouvre.
+5.  Saisissez le **Rapport n2/n1**, où **n2** correspond au milieu où se trouve la deuxième ligne sélectionnée et **n1** correspond au milieu de la première ligne.
+6.  Une contrainte de la loi de Snell est ajoutée. Si nécessaire, les extrémités sont rendues [coïncidentes](Sketcher_ConstrainCoincident/fr.md) et contraintes [sur l\'interface](Sketcher_ConstrainPointOnObject/fr.md). Ces contraintes supplémentaires sont appelées [contraintes d\'aide](Sketcher_helper_constraint/fr.md).
 
 
 
 ## Remarques
 
--   La contrainte actuelle de la loi de Snell applique la plaine équation de la loi n1\*sin(theta1) = n2\*sin(theta2). Il a besoin que les extrémités des lignes soient confondues et sur l\'interface par d\'autres contraintes. Les contraintes auxiliaires nécessaires sont ajoutées automatiquement en fonction des coordonnées actuelles des éléments.
--   La routine de Python n\'ajoute pas les contraintes d\'aide. Celles-ci doivent être ajoutées manuellement par le script (voir l\'exemple dans la section Script)
--   Ces contraintes auxiliaires peuvent être supprimées temporairement et les points terminaux traînés dehors, ce qui peut être utile au cas où on veut construire un rayon réfléchi ou des rayons biréfringent.
--   Contrairement à la réalité, les indices de réfraction sont associés à des rayons de lumière, mais non pas selon les côtés de la frontière. C\'est utile pour émuler la biréfringence, construire des chemins de longueurs d\'onde différentes en raison de la réfraction, et construire facilement l\'angle de début de réflexion interne totale.
--   Les deux rayons peuvent être sur le même côté de l\'interface, répondant à l\'équation de contrainte. Cela n\'a aucun sens physique, à moins que le rapport n2/n1 est de 1,0, auquel cas la contrainte émule une réflexion.
--   Arcs de cercle et une ellipse sont également acceptés comme les rayons (non-sens physique).
+-   La contrainte de la loi de Snell applique l\'équation de la loi simple n1\*sin(theta1) = n2\*sin(theta2). Elle a besoin que les extrémités des lignes coïncident et soient sur l\'interface par d\'autres contraintes, sinon le comportement n\'est pas défini. Les contraintes d\'aide nécessaires sont ajoutées automatiquement en fonction des coordonnées actuelles des éléments.
+-   En Python, les contraintes d\'aide doivent être ajoutées manuellement (voir [Script](#Script.md)).
+-   Ces contraintes peuvent être temporairement supprimées et les extrémités déplacées, ce qui peut être utile si l\'on veut construire un rayon réfléchi ou des rayons de biréfringence.
+-   Contrairement à la réalité, les indices de réfraction sont associés aux rayons de lumière, mais pas en fonction des côtés de la frontière. Ceci est utile pour émuler la biréfringence, construire des trajectoires de différentes longueurs d\'onde dues à la réfraction, et construire facilement l\'angle d\'apparition de la réflexion interne totale.
+-   Les deux rayons peuvent se trouver du même côté de l\'interface, satisfaisant ainsi à l\'équation de contrainte. Il s\'agit d\'un non-sens physique, sauf si le rapport n2/n1 est de 1,0, auquel cas la contrainte émule une réflexion.
+-   Les arcs de cercle et les ellipses sont également acceptés comme des rayons. Mais c\'est également un non-sens physique.
 
 
 
@@ -82,7 +79,6 @@ import FreeCAD
 
 StartPoint = 1
 EndPoint = 2
-MiddlePoint = 3
 
 f = App.activeDocument().addObject("Sketcher::SketchObject","Sketch")
 

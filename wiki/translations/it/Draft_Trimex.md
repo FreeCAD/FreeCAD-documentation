@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Trimex
-   Name/it: Taglia/Estendi
-   MenuLocation: Modifiche , Taglia/Estendi
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Taglia/Estendi
+   MenuLocation: Modifiche , Taglia/Estendi<br>Modifica , Taglia/Estendi
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **T** **R**
    SeeAlso: Parte , Part Extrude/it
 ---
@@ -31,7 +31,8 @@ In basso: una faccia estrusa in un corpo solido.*
 1.  Facoltativamente selezionare un oggetto. L\'oggetto deve essere una [Linea](Draft_Line/it.md), un [Polilinea](Draft_Wire/it.md), un [Arco](Draft_Arc/it.md) o un [Cerchio](Draft_Circle/it.md) (che può solo essere tagliato) . Se l\'oggetto selezionato è chiuso, deve avere la proprietà **Make Face** impostata su `False`.
 2.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Trimex.svg" width=16px> [Taglia/Estendi](Draft_Trimex/it.md)**.
-    -   Selezionare l\'opzione **Modifica → <img src="images/Draft_Trimex.svg" width=16px> Taglia/Estendi** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_Trimex.svg" width=16px> Taglia/Estendi** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_Trimex.svg" width=16px> Taglia/Estendi** dal menu.
     -   Usare la scorciatoia da tastiera: **T** poi **R**.
 3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
 4.  Si apre il pannello delle attività **Taglia/Estendi**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.

@@ -156,13 +156,13 @@ FreeCAD offers to create uniform or non-uniform B-splines of any degree in 2D vi
 
 To create B-splines, go into a sketch and use the toolbar button **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Create B-spline](Sketcher_CreateBSpline.md)**. Then left-click to set a control point, move the mouse left-click to set the next control point and so on. Finally right-click to finish the definition and create the B-spline.
 
-By default uniform cubic splines are created, except there are not enough control points to do this. So when you create a B-spline with only 2 control points, you get of course a spline that is single linear Bézier curve, for 3 control points you get a quadratic Bézier curve, first with 5 control points you get a cubic B-spline consisting of 2 Bézier segments. (Starting 0.20) You can also use press D while making creating a B-spline to set it\'s degree (it will still fall to a lower degree if less points are provided).
+By default uniform cubic splines are created, except there are not enough control points to do this. So when you create a B-spline with only 2 control points, you get of course a spline that is single linear Bézier curve, for 3 control points you get a quadratic Bézier curve, first with 5 control points you get a cubic B-spline consisting of 2 Bézier segments. <small>(v0.20)</small>  You can also use press D while making creating a B-spline to set it\'s degree (it will still fall to a lower degree if less points are provided).
 
 To create periodic B-splines (B-splines that form a closed curve), use the toolbar button **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)**. It is not necessary to set the last control point onto the first one because the B-spline will automatically be closed:
 
 ![](images/Sketcher_Periodic-B-spline-creation.gif )
 
-B-splines can also be generated out of existing sketch segments. To do this, select the elements and press the the toolbar button **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Convert Geometry to B-spline](Sketcher_BSplineApproximate.md)**.
+B-splines can also be generated out of existing sketch segments. To do this, select the elements and press the the toolbar button **[<img src=images/Sketcher_BSplineConvertToNURBS.svg style="width:24px"> [Convert Geometry to B-spline](Sketcher_BSplineConvertToNURBS.md)**.
 
 While creating a B-spline, its degree can be specified by pressing the **D** key. With this, the default to create a cubic B-spline if possible, can be overridden. <small>(v0.20)</small> 
 

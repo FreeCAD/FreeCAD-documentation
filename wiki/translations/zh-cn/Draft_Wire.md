@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Wire
-   MenuLocation: Drafting , Polyline
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Drafting , Polyline<br>2D Drafting , Polyline
+   Workbenches: Draft_Workbench, BIM_Workbench
    Shortcut: **P** **L**
    Version: 0.7
    SeeAlso: Draft_Line, Draft_BSpline
@@ -48,7 +48,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ### Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 
 <div class="mw-translate-fuzzy">

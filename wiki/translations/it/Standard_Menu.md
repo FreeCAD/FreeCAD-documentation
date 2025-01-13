@@ -25,7 +25,7 @@ Il menu standard è composto da sette sottomenu:
 -   [Aiuto](Std_Help_Menu/it.md) Il menu Aiuto fornisce accesso al sistema di aiuto e i collegamenti al sito Web e al forum di FreeCAD.
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}  {{Interface navi}}
 

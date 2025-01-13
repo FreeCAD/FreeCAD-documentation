@@ -28,37 +28,25 @@ Il comando **Riduci** riduce la [Vista 3D](3D_view/it.md) attiva.
 
 ## Note
 
--   È anche possibile eseguire lo zoom con la rotellina del mouse.
+Vedere [Ingrandisci](Std_ViewZoomIn/it#Note.md).
 
 
 
 ## Preferenze
 
--   Il fattore di zoom può essere modificato nelle preferenze: **Modifica → Preferenze... → Visualizzazione → Navigazione → Fattore di zoom**. Questa impostazione influisce anche sullo zoom della rotella di scorrimento. Vedi [Editor delle preferenze](Preferences_Editor/it#Navigazione.md).
+Vedere [Ingrandisci](Std_ViewZoomIn/it#Preferenze.md).
 
 
 
 ## Script
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
-
-Per ridurre utilizzare il metodo `zoomOut` dell\'oggetto ActiveView. Questo metodo non è disponibile se FreeCAD è in modalità console.
-
-
-```python
-import FreeCADGui
-
-FreeCADGui.ActiveDocument.ActiveView.zoomOut()
-```
+Vedere [Ingrandisci](Std_ViewZoomIn/it#Script.md).
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

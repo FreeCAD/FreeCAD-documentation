@@ -1,141 +1,155 @@
 ---
  GuiCommand:
    Name: Surface Filling
+   Name/pl: Powierzchnia 3D: Wypełnianie
    MenuLocation: Surface , Filling
-   Workbenches: Surface_Workbench
+   Workbenches: Surface_Workbench/pl
    Version: 0.17
 ---
 
 # Surface Filling/pl
 
-## Description
 
 
-**[<img src=images/Surface_Filling.svg style="width:16px"> [Surface Filling](Surface_Filling.md)**
+## Opis
 
-creates a surface from a series of connected boundary edges. The curvature of the surface can be additionally controlled by non-boundary edges and vertices, and a support surface.
+Polecenie **[<img src=images/Surface_Filling.svg style="width:16px"> '''Wypełnianie'''** tworzy powierzchnię z serii połączonych krawędzi granicznych. Krzywizna powierzchni może być dodatkowo kontrolowana przez krawędzie i wierzchołki, które nie są krawędziami granicznymi, oraz powierzchnię podpierającą.
 
-The base geometry can belong to curves created with the [Draft Workbench](Draft_Workbench.md) or the [Sketcher Workbench](Sketcher_Workbench.md), but can also belong to solid objects such as those created with the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md).
+Geometria bazowa może należeć do krzywych utworzonych za pomocą środowiska [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może również należeć do obiektów bryłowych, takich jak te utworzone za pomocą środowiska [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md).
 
 <img alt="" src=images/Surface_Filling_example.png  style="width:600px;"> 
-*Two filled surfaces delimited by four edges located on the XY plane. The surface on the right is additionally controlled by a non-boundary edge.*
-
-## Usage
-
-1.  Press the **[<img src=images/Surface_Filling.svg style="width:16px"> [Filling](Surface_Filling.md)** button.
-2.  The **Boundaries** task panel opens. See [Options](#Options.md).
-3.  Select two or more edges in the [3D view](3D_view.md):
-    -   There is no need to press the **Add edge** button in the **Boundaries** section at this time.
-    -   The edges must be selected in consecutive order.
-    -   The edges must be connected, but the complete boundary need not be closed.
-    -   The complete boundary should not self-intersect.
-    -   For a 360° circular boundary two semicircular edges can be selected.
-4.  A preview of the final shape will be shown once enough valid geometry has been selected.
-5.  Optionally select a **Support surface**. See [Example](#Example.md).
-6.  Optionally select one or more **Edge constraints**.
-7.  Optionally select one or more **Vertex constraints**.
-8.  Press **OK** button.
-
-## Options
-
--   In the **Boundaries** section a support surface and boundary edges can specified:
-    -   Press the **Support surface** button and select a face in the [3D view](3D_view.md) to add a support surface.
-        -   Click the <img alt="" src=images/Edit-cleartext.svg  style="width:16px;"> icon to remove the support surface.
-    -   Press the **Add edge** button once to start selecting boundary edges in the [3D view](3D_view.md).
-    -   There are several ways to deselect boundary edges:
-        -   Press the **Remove edge** button once to start deselecting edges in the [3D view](3D_view.md).
-        -   Select an edge in the list and press **Delete**.
-        -   Right-click an edge in the list and select **Remove** from the context menu.
-
--   In the **Edge constraints** section non-boundary edges can be specified:
-    -   The selection options are similar to those for boundary edges.
-
--   In the **Vertex constraints** section non-boundary vertices can be specified:
-    -   The selection options are similar to those for boundary edges.
-
--   Press **Esc** or the **Cancel** button to abort the operation.
-
-## Example
-
-The **Support surface** acts as an additional constraint for the surface. The following simple example will give you an idea how this works:
-
-1.  In the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) create a <img alt="" src=images/Part_Cylinder.svg  style="width:16px;">[cylinder](Part_Cylinder.md) and set its **Angle** to {{Value|180°}}.
-2.  Switch to the <img alt="" src=images/Workbench_Surface.svg  style="width:16px;"> [Surface Workbench](Surface_Workbench.md) and press the **[<img src=images/Surface_Filling.svg style="width:16px"> [Filling](Surface_Filling.md)** button.
-3.  Select the two semi-circular edges and the two straight edges that connect them.
-4.  The result matches the four boundary edges, but the inner shape is quite different from the cylindrical face.
-5.  Edit the Surface object and for the **Support surface** select the cylindrical face.
-6.  The modified shape matches the cylindrical face much more closely.
-
-## Properties
-
-A [Surface Filling](Surface_Filling.md) (`Surface::Filling` class) is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
-
-In addition to the properties described in [Part Feature](Part_Feature.md), the Surface Filling has the following properties in the [property editor](Property_editor.md).
-
-### Data
+*Dwie wypełnione powierzchnie ograniczone czterema krawędziami znajdującymi się na płaszczyźnie XY. Powierzchnia po prawej stronie jest dodatkowo kontrolowana przez krawędź niebędącą granicą.*
 
 
-{{TitleProperty|Filling}}
 
--    **Boundary Edges|LinkSubList**: boundary edges; C0 is required for edges without a corresponding face.
+## Użycie
+
+1.  Naciśnij przycisk **[<img src=images/Surface_Filling.svg style="width:16px"> '''Wypełnianie'''**.
+2.  Otworzy się panel zadań **Granice**. Zobacz dostępne [Opcje](#Opcje.md).
+3.  Wybierz dwie lub więcej krawędzi w oknie [widoku 3D](3D_view/pl.md):
+    -   W tym momencie nie ma potrzeby naciskania przycisku **Dodaj krawędź** w sekcji **Granice**.
+    -   Krawędzie muszą być wybrane w odpowiedniej kolejności.
+    -   Krawędzie muszą być połączone, ale cała granica nie musi być zamknięta.
+    -   Kompletna granica nie powinna się przecinać.
+    -   W przypadku okrągłej granicy 360° można wybrać dwie półokrągłe krawędzie.
+4.  Podgląd ostatecznego kształtu zostanie wyświetlony po wybraniu wystarczającej ilości prawidłowej geometrii.
+5.  Opcjonalnie wybierz **Powierzchnia pomocnicza**. Zobacz [Przykład](#Przykład.md).
+6.  Opcjonalnie wybierz jedno lub więcej **Wiązania krawędziowe**.
+7.  Opcjonalnie wybierz jedno lub więcej **Wiązań wierzchołków**.
+8.  Naciśnij przycisk **OK**.
+
+
+
+## Opcje
+
+-   W sekcji **Granice** można określić powierzchnię podparcia i krawędzie graniczne:
+    -   Naciśnij przycisk **Powierzchnia podparcia** i wybierz ścianę w oknie [widoku 3D](3D_view/pl.md), aby dodać powierzchnię podparcia.
+        -   Kliknij ikonę <img alt="" src=images/Edit-cleartext.svg  style="width:16px;">, aby usunąć powierzchnię podparcia.
+    -   Naciśnij przycisk **Dodaj krawędź** raz, aby rozpocząć zaznaczanie krawędzi granicznych w oknie [widoku 3D](3D_view/pl.md).
+    -   Istnieje kilka sposobów na usunięcie zaznaczenia krawędzi granicznych:
+        -   Naciśnij przycisk **Usuń krawędź** raz, aby rozpocząć odznaczanie krawędzi w oknie [widoku 3D](3D_view/pl.md).
+        -   Zaznacz krawędź na liście i naciśnij klawisz **Delete**.
+        -   Kliknij prawym przyciskiem myszy krawędź na liście i wybierz **Usuń** z menu podręcznego.
+
+-   W sekcji **Wiązania krawędzi** można określić krawędzie niebędące krawędziami granicznymi:
+    -   Opcje wyboru są podobne do tych dla krawędzi granicznych.
+
+-   W sekcji **Wiązania wierzchołków** można określić wierzchołki nie będące wierzchołkami granicznymi:
+    -   Opcje wyboru są podobne do tych dla wierzchołków granicznych.
+
+-   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
+
+
+
+## Przykład
+
+Polecenie **Powierzchnia podparcia** działa jako dodatkowe ograniczenie dla powierzchni. Poniższy prosty przykład pozwoli zrozumieć, jak to działa:
+
+1.  W środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Część](Part_Workbench/pl.md) utwórz <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [walec](Part_Cylinder/pl.md) i ustaw jego **kąt** na {{Value|180°}}.
+2.  Przełącz się ponownie na środowisko pracy <img alt="" src=images/Workbench_Surface.svg  style="width:16px;"> [Powierzchnia 3D](Surface_Workbench/pl.md) i naciśnij przycisk **[<img src=images/Surface_Filling.svg style="width:16px"> [Wypełnienie](Surface_Filling/pl.md)**.
+3.  Wybierz dwie półokrągłe krawędzie i dwie proste krawędzie, które je łączą.
+4.  Wynik jest zgodny z czterema krawędziami granicznymi, ale wewnętrzny kształt jest zupełnie inny od powierzchni cylindrycznej.
+5.  Edytuj obiekt Powierzchnia i dla **Powierzchnia podparcia** wybierz powierzchnię cylindryczną.
+6.  Zmodyfikowany kształt znacznie lepiej pasuje do powierzchni walcowej.
+
+
+
+## Właściwości
+
+Obiekt **Wypełnienie** *(klasa `Surface::Filling`)* jest pochodną podstawowej klasy [Część: Cecha](Part_Feature/pl.md) *(klasa `Part::Feature`, poprzez klasę podrzędną `Part::Spline`)*, dlatego też dzieli z nią wszystkie jej właściwości.
+
+Oprócz właściwości opisanych na stronie [Cecha części](Part_Feature/pl.md), obiekt Rozszerz powierzchnię, posiada następujące właściwości w [edytorze właściwości](Property_editor/pl.md).
+
+
+
+### Dane
+
+
+{{TitleProperty|Wypełnienie}}
+
+-    **Boundary Edges|LinkSubList**: Krawędzie graniczne, C0 jest wymagane dla krawędzi bez odpowiadającej im powierzchni.
 
 -    **Boundary Faces|StringList**:
 
--    **Boundary Order|IntegerList**: order of constraint on boundary faces; {{Value|0}}, {{Value|1}}, and {{Value|2}} are possible.
+-    **Boundary Order|IntegerList**: Kolejność ograniczeń na powierzchniach granicznych; {{Value|0}}, {{Value|1}} i {{Value|2}} są możliwe.
 
--    **Unbound Edges|LinkSubList**: unbound constraint edges; C0 is required for edges without a corresponding face.
+-    **Unbound Edges|LinkSubList**: Nieograniczone krawędzie wiązania, C0 jest wymagane dla krawędzi bez odpowiedniej ściany.
 
 -    **Unbound Faces|StringList**:
 
--    **Unbound Order|IntegerList**: order of constraint on unbound faces; {{Value|0}}, {{Value|1}}, and {{Value|2}} are possible.
+-    **Unbound Order|IntegerList**: Kolejność ograniczeń na niezwiązanych powierzchniach; {{Value|0}}, {{Value|1}} i {{Value|2}} są możliwe.
 
--    **Free Faces|LinkSubList**: free constraint on a face.
+-    **Free Faces|LinkSubList**: Wolne ograniczenie na powierzchni.
 
--    **Free Order|IntegerList**: order of constraint on free faces.
+-    **Free Order|IntegerList**: Kolejność wiązań na wolnych powierzchniach.
 
--    **Points|LinkSubList**: constraint points on surface.
+-    **Points|LinkSubList**: Punkty wiązania na powierzchni.
 
--    **Initial Face|LinkSub**: initial surface to use.
+-    **Initial Face|LinkSub**: początkowa powierzchnia do użycia.
 
--    **Degree|Integer**: starting degree, it defaults to {{Value|3}}.
+-    **Degree|Integer**: Stopień początkowy, domyślnie {{Value|3}}.
 
--    **Points On Curve|Integer**: number of points on an edge for constraint.
+-    **Points On Curve|Integer**: Liczba punktów na krawędzi dla wiązania.
 
--    **Iterations|Integer**: number of iterations, it defaults to {{Value|2}}.
+-    **Iterations|Integer**: Liczba iteracji, domyślnie {{Value|2}}.
 
--    **Anisotropy|Bool**: it defaults to `False`.
+-    **Anisotropy|Bool**: Wartość domyślna to {{FALSE/pl}}.
 
--    **Tolerance2d|Float**: 2D tolerance, it defaults to {{Value|0.0}}.
+-    **Tolerance2d|Float**: Tolerancja 2D, domyślnie {{Value|0.0}}.
 
--    **Tolerance3d|Float**: 3D tolerance, it defaults to {{Value|0.0}}.
+-    **Tolerance3d|Float**: Tolerancja 3D, domyślnie {{Value|0.0}}.
 
--    **Tol Angular|Float**: G1 tolerance, it defaults to {{Value|0.01}}.
+-    **Tol Angular|Float**: Tolerancja G1, domyślnie {{Value|0.01}}.
 
--    **Tol Curvature|Float**: G2 tolerance, it defaults to {{Value|0.10}}.
+-    **Tol Curvature|Float**: Tolerancja G2, domyślnie {{Value|0.10}}.
 
--    **Maximum Degree|Integer**: maximum curve degree, it defaults to {{Value|8}}.
+-    **Maximum Degree|Integer**: Maksymalny stopień krzywej, wartością domyślną jest {{Value|8}}.
 
--    **Maximum Segments|Integer**: maximum number of segments, it defaults to {{Value|9}}.
-
-### View
+-    **Maximum Segments|Integer**: Maksymalna liczba segmentów, domyślnie {{Value|9}}.
 
 
-{{TitleProperty|Base}}
 
--    **Control Points|Bool**: it defaults to `False`; if set to `True`, it will show an overlay with the control points of the surface.
-
-## Scripting
+### Widok
 
 
-**See also:**
+{{TitleProperty|Podstawa}}
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+-    **Punkty kontrolne|Bool**: wartość domyślna to {{FALSE/pl}}, Jeśli ustawiono {{TRUE/pl}}, wyświetlona zostanie nakładka z punktami kontrolnymi krzywej.
 
-The Surface Filling tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::Filling` object.
 
--   The edges to be used to define the surface must be assigned as a [LinkSubList](LinkSubList.md) to the `BoundaryEdges` property of the object.
--   Auxiliary edges and vertices must be assigned as a [LinkSubLists](LinkSubList.md) to the `UnboundEdges` and `Points` properties of the object.
--   All objects with edges need to be computed before they can be used as input for the properties of the Filling object.
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Wypełnienie** powierzchni może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) poprzez dodanie obiektu {{Incode|Surface::Filling}}.
+
+-   Krawędzie, które mają być użyte do zdefiniowania powierzchni, muszą być przypisane jako [LinkSubList](FeaturePython_Custom_Properties/pl#App:_PropertyLinkSubList.md) do właściwości `BoundaryEdges` obiektu.
+-   Pomocnicze krawędzie i wierzchołki muszą być przypisane jako [LinkSubLists](FeaturePython_Custom_Properties/pl#App:_PropertyLinkSubList.md) do właściwości `UnboundEdges` i `Points` obiektu.
+-   Wszystkie obiekty z krawędziami muszą zostać obliczone, zanim będą mogły zostać użyte jako dane wejściowe dla właściwości obiektu Filling.
 
 
 ```python

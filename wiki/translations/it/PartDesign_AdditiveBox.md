@@ -13,11 +13,15 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Inserisce un cubo primitivo nel corpo attivo come prima caratteristica o lo fonde con le caratteristiche esistenti.
 
 <img alt="" src=images/PartDesign_AdditiveBox_example.png  style="width:200px;">
+
+
 
 ## Utilizzo
 
@@ -32,6 +36,8 @@ Inserisce un cubo primitivo nel corpo attivo come prima caratteristica o lo fond
 
 </div>
 
+
+
 ## Opzioni
 
 
@@ -44,6 +50,8 @@ Dopo la sua creazione il cubo può essere modificato in due modi:
 
 
 </div>
+
+
 
 ## Proprietà
 

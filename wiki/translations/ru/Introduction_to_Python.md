@@ -46,7 +46,7 @@ The Python interpreter also has a built-in help system. Let\'s say we don\'t und
 
 
 ```python
-help("print")
+help(print)
 ```
 
 You\'ll get a long and complete description of everything the `print()` command can do.

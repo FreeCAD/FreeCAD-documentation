@@ -12,6 +12,8 @@
 
 Cet outil efface toutes les mesures de la [vue 3D](3D_view/fr.md).
 
+
+
 ## Utilisation
 
 1.  Il y a plusieurs façons de lancer la commande :

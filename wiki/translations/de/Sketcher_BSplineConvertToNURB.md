@@ -1,5 +1,5 @@
 # Sketcher BSplineConvertToNURB/de
-1.  REDIRECT [Sketcher_BSplineApproximate](Sketcher_BSplineApproximate.md)
+1.  REDIRECT [Sketcher_BSplineConvertToNURBS/de](Sketcher_BSplineConvertToNURBS/de.md)
 
 
 

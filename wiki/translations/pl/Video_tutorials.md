@@ -38,12 +38,16 @@ Ponieważ istnieje wiele filmów, które dotyczą tego tematu, proszę odwiedzi�
 
 
 
-## Produkcja wspomagana komputerowo *(CAM)* 
+## Wytwarzanie wspomagane komputerowo *(CAM)* 
 
 -   [lista odtwarzania sliptonic](https://www.youtube.com/user/sliptonic/playlists): różne filmy na temat korzystania z FreeCAD, pracy ze środowiskiem Rysunek Techniczny, a zwłaszcza środowisko pracy [Path](Path_Workbench/pl.md) autorstwa sliptonic, jednego z głównych twórców tego ostatniego.
     -   [Korzystanie z FreeCAD w wersji 0.17 Środowisko pracy Path](https://www.youtube.com/playlist?list=PLEuOia-QxyFJZSpqb0xOHc9t7MLdCO3io): seria 9 filmów wideo wyjaśniających sposób korzystania z Środowiska pracy Path, w tym narzędzia i kontrolery, ustawienia zadań, wizualizacje, operacje, przebrania, jednostki i preferencje.
 -   [Coder Musashi videos](https://www.youtube.com/channel/UCtNnYMVWGkG-aemOrCtGjCA/videos): różne filmy przedstawiające działanie Środowiska pracy [Path](Path_Workbench/pl.md).
     -   [Środowisko pracy Path tworzenie ścieżek za pomocą FeatureArea i innych darmowych narzędzi](https://www.youtube.com/watch?v=MsDIRIkeNJ4)
+-   [Mango Jelly YouTube Videos](https://www.youtube.com/@MangoJellySolutions): Filmy na temat wielu aspektów programu FreeCAD, również CAM. Nie są \"oficjalne\", ale wiele osób je poleca.
+-   [Toronto Tool Library YouTube Videos](https://www.youtube.com/@TorontotoollibraryIRBE): Kilka ciekawych filmów o używaniu programu FreeCAD z CNC.
+-   [Open Source CNC](https://www.youtube.com/@opensourcecnc): Kilka ciekawych filmów o używaniu programu FreeCAD z CNC, również kilka poradników do środowiska pracy CAM.
+-   [Adventures in creation](https://www.youtube.com/@Adventuresincreation): Kilka ciekawych filmów/poradników o wykorzystaniu programu FreeCAD do tworzenia różnych rzeczy.
 
 
 
@@ -56,13 +60,13 @@ Ponieważ istnieje wiele filmów, które dotyczą tego tematu, proszę odwiedzi�
 
 ## Projektowanie architektoniczne 
 
-Filmy przedstawiające modelowanie pomieszczeń, domów, budynków biurowych i podobnych konstrukcji oraz rysowanie planów pięter przy użyciu Środowisk pracy, takich jak <img alt="" src=images/_Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md), <img alt="" src=images/_Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md) i <img alt="" src=images/_Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/pl.md).
+Filmy przedstawiające modelowanie pomieszczeń, domów, budynków biurowych i podobnych konstrukcji oraz rysowanie planów pięter przy użyciu Środowisk pracy, takich jak <img alt="" src=images/_Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md) i <img alt="" src=images/_Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/pl.md).
 
 Ponieważ istnieje wiele filmów, które dotyczą tego tematu, proszę odwiedzić stronę: [Wideo poradniki dotyczące projektów architektonicznych](Video_tutorials_for_architectural_design.md).
 
 
 
-## Metoda elementów skończonych *(MES)* Symulacja 
+## Symulacje metodą elementów skończonych *(MES)* 
 
 -   [FreeCAD FEM/Civil/Structural/Arch Tutorial-1-An Wprowadzenie](https://www.youtube.com/watch?v=wAJe1R5NDGw): FreeCAD 0.16 i wprowadzenie, które buduje prostą strukturę słupów i belek oraz analizuje je za pomocą środowiska pracy <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [MES](FEM_Workbench/pl.md), przez Eklavya Self Learning Tutorials.
 
@@ -81,6 +85,8 @@ Ponieważ istnieje wiele filmów, które dotyczą tego tematu, proszę odwiedzi�
 -   [kącik flowwiego](https://www.youtube.com/c/flowwiescorner/videos) autorstwa flowwiego w języku niemieckim: ładna seria 62 krótkich filmów dotyczących FreeCAD v0.18 i v0.19, od poziomu podstawowego do średnio zaawansowanego.
 
 -   [Evgeniy Ivanov](https://www.youtube.com/c/CFDIntech/videos) autorstwa Evgeniy Ivanov w języku angielskim: seria filmów dotyczących FreeCAD 0.19, od poziomu podstawowego do średnio zaawansowanego.
+
+-   [poradniki FreeCAD na platformie Spoken tutorials](https://spoken-tutorial.org/tutorial-search/?search_foss=FreeCAD&search_language=English) seria poradników wideo dla początkujących i średnio zaawansowanych.
 
 
 

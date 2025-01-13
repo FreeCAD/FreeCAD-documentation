@@ -1,88 +1,101 @@
 ---
  GuiCommand:
    Name: Arch SectionPlane
-   MenuLocation: Arch , Section Plane
-   Workbenches: Arch_Workbench
+   Name/pl: BIM: Płaszczyzna przekroju
+   MenuLocation: Opisy , Płaszczyzna przekroju
+   Workbenches: BIM_Workbench/pl
    Shortcut: **S** **P**
-   SeeAlso: Draft_Shape2DView, TechDraw_ArchView
+   SeeAlso: Draft_Shape2DView/pl
 ---
 
 # Arch SectionPlane/pl
 
-## Description
 
-This tool places in the current document a section plane \"thing\", which defines a section or view plane. The \"thing\" takes its placement according to the current [Draft Working Plane](Draft_SelectPlane.md) and can be relocated and reoriented by moving and rotating it, until it describes the 2D view you want to obtain. The Section plane object will only consider a certain set of objects. Objects that are selected when you create a Section Plane will be added to that set automatically. Other objects can later be added or removed from a SectionPlane object with the [Arch Add component](Arch_Add.md) and [Arch Remove component](Arch_Remove.md) tools, or by double-clicking the Section Plane in the tree view.
 
-The Section Plane alone won\'t create any view of its objects set. For that, you must create a [TechDraw ArchView](TechDraw_ArchView.md) to create a view in a [TechDraw page](TechDraw_Workbench.md).
+## Opis
+
+Narzędzie **Płaszczyzna przekroju** umieszcza w bieżącym dokumencie płaszczyznę przekroju \"rzecz\", która definiuje przekrój lub płaszczyznę widoku. \"Rzecz\" przyjmuje swoje położenie zgodnie z bieżącą [płaszczyzną przekroju](Draft_SelectPlane/pl.md) i może być przenoszona i zmieniana jej orientacja poprzez przesuwanie i obracanie, aż opisze widok 2D, który chcesz uzyskać. Obiekt płaszczyzny przekroju uwzględnia tylko określony zestaw obiektów. Obiekty wybrane podczas tworzenia płaszczyzny przekroju zostaną automatycznie dodane do tego zestawu. Inne obiekty mogą być później dodawane lub usuwane z obiektu Płaszczyzny przekroju za pomocą narzędzi [Połącz obiekty](Arch_Add/pl.md) i [Usuń komponent](Arch_Remove/pl.md) lub poprzez dwukrotne kliknięcie Płaszczyzny przekroju w widoku drzewa.
+
+Sama Płaszczyzna przekroju nie utworzy żadnego widoku swojego zestawu obiektów. W tym celu należy utworzyć [Widok architektury](TechDraw_ArchView/pl.md), aby utworzyć widok na stronie [rysunku technicznego](TechDraw_Workbench/pl.md).
 
 <img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
 
-## Usage
 
-1.  Optionally, set the [Draft Working Plane](Draft_SelectPlane.md) to reflect the plane where you want to place the Section Plane.
-2.  Select objects you want to be included in your section view.
-3.  Press the **<img src="images/Arch_SectionPlane.svg" width=16px> [Section Plane](Arch_SectionPlane.md)** button or press **S** then **P** keys.
-4.  [Move](Draft_Move.md)/[rotate](Draft_Rotate.md) the Section Plane into correct position if needed.
-5.  Select the Section Plane if not selected already.
-6.  Use either [Draft Shape2DView](Draft_Shape2DView.md) or [TechDraw ArchView](TechDraw_ArchView.md) to create a view.
 
-## Options
+## Użycie
 
--   The Section plane object will only consider a certain set of objects, not all the objects of the document. Objects can be added or removed from a SectionPlane object by using the [Arch Add](Arch_Add.md) and [Arch Remove](Arch_Remove.md) tools, or by double-clicking the Section Plane in the tree view, selecting objects either in the list of in the 3D scene, and pressing the **add** or **remove** buttons.
+1.  Opcjonalnie ustaw [płaszczyzne roboczą](Draft_SelectPlane/pl.md), aby odzwierciedlała płaszczyznę, na której chcesz umieścić płaszczyznę przekroju.
+2.  Wybierz obiekty, które chcesz uwzględnić w widoku przekroju.
+3.  Naciśnij przycisk **<img src="images/Arch_SectionPlane.svg" width=16px> '''Płaszczyzna przekroju'''** lub naciśnij **S**, a następnie **P**.
+4.  Ustaw płaszczyznę przekroju we właściwej pozycji [przesuwając](Draft_Move/pl.md) / [obracając](Draft_Rotate/pl.md), jeśli to konieczne.
+5.  Wybierz płaszczyznę przekroju, jeśli nie została jeszcze wybrana.
+6.  Użyj narzędzia [Widok 2D kształtu](Draft_Shape2DView/pl.md) lub [Wstaw obiekt środowiska Architektura](TechDraw_ArchView/pl.md), aby utworzyć widok.
 
--   With a section plane object selected, use the [Draft Shape2DView](Draft_Shape2DView.md) tool to create a shape object representing the section view in the document.
+
+
+## Opcje
+
+-   Obiekt Płaszczyzny przekroju będzie uwzględniał tylko określony zestaw obiektów, a nie wszystkie obiekty dokumentu. Obiekty mogą być dodawane lub usuwane z obiektu Płaszczyzny przekroju za pomocą narzędzi [Połącz obiekty](Arch_Add/pl.md) i [Usuń komponent](Arch_Remove/pl.md) lub poprzez dwukrotne kliknięcie Płaszczyzny przekroju w widoku drzewa, wybranie obiektów na liście lub w scenie 3D i naciśnięcie przycisków **dodaj** lub **usuń**.
+
+-   Po wybraniu obiektu płaszczyzny przekroju użyj narzędzia [Widok 2D kształtu](Draft_Shape2DView/pl.md), aby utworzyć obiekt kształtu reprezentujący widok przekroju w dokumencie.
 
 <img alt="" src=images/Arch_Section_example2.jpg  style="width:600px;">
 
--   Create [TechDraw ArchView](TechDraw_ArchView.md).
+-   Utwórz [widok architektury](TechDraw_ArchView/pl.md).
 
 <img alt="" src=images/Arch_Section_example3.jpg  style="width:600px;">
 
--   The Section Plane can also be used to show the entire 3D view cut by an infinite plane. This is only visual, and won\'t affect the geometry of the objects being cut.
+-   Płaszczyzna przekroju może być również użyta do pokazania całego widoku 3D przeciętego nieskończoną płaszczyzną. Ma to jedynie charakter wizualny i nie wpływa na geometrię przecinanych obiektów.
 
 <img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
 
-## Properties
 
--    **Only Solids**: If this is True, non-solid objects in the set will be disregarded
 
--    **Display Length**: The length of the section plane gizmo in the 3D view. Doesn\'t affect the resulting view
+## Właściwości
 
--    **Display Height**: The height of the section plane gizmo in the 3D view. Doesn\'t affect the resulting view
+-    **Tylko bryły**: Jeśli ta opcja ma wartość {{True/pl}}, obiekty niebędące bryłami w zestawie nie będą brane pod uwagę.
 
--    **Arrow Size**: The size of the arrows of the section plane gizmo in the 3D view. Doesn\'t affect the resulting view
+-    **Długość wyświetlana**: Długość wskaźnika płaszczyzny przekroju w widoku 3D. Nie ma wpływu na widok wynikowy.
 
--    **Cut View**: If this is `True`, the whole 3D view will be cut at the location of this section plane.
+-    **Szerokość wyświetlana**: Wysokość wskaźnika płaszczyzny przekroju w widoku 3D. Nie ma wpływu na widok wynikowy.
 
--    **Clip view**: if this is `True`, it will clip the view to the display height and length of the section plane. This effectively turns the section plane into an orthographic camera, limiting the field of view.
+-    **Rozmiar strzałki**: Rozmiar strzałek narzędzia płaszczyzny przekroju w widoku 3D. Nie ma wpływu na widok wynikowy
+
+-    **Widok wcięcia**: Jeśli opcja ta ma wartość {{True/pl}}, cały widok 3D zostanie przycięty w miejscu tej płaszczyzny przekroju.
+
+-    **Widok wycinka**: Jeśli opcja ma wartość {{True/pl}}, widok zostanie przycięty do wysokości wyświetlania i długości płaszczyzny przekroju. Skutecznie zmienia to płaszczyznę przekroju w kamerę prostopadłą, ograniczając pole widzenia.
 
 <img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 
 
 
-*The Arch SectionPlane with the clip view option will behave like a camera, limiting the field of view.*
-
-## Tweaks
-
--   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements.
-
-## Scripting
+*Płaszczyzna przekroju architektury z opcją widoku wycinka będzie zachowywać się jak kamera, ograniczając pole widzenia.*
 
 
-**See also:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Ulepszenia
 
-The SectionPlane tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+-   Ręczne dodanie właściwości o nazwie **RotateSolidRender** typu **App::PropertyAngle** do właściwości **View** płaszczyzny → przekroju *(kliknij prawym przyciskiem myszy widok właściwości → pokaż wszystkie, kliknij ponownie prawym przyciskiem myszy → dodaj właściwość)* umożliwia obrócenie renderowania podczas korzystania z trybu bryłowego. Jest to przydatne, gdy renderowany widok zawiera na przykład elementy środowiska Architektura i Rysunek Roboczy, a renderowanie elementów Architektury jest obrócone w stosunku do elementów Rysunku Roboczego.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie Wstaw widok przekroju może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python
 Section = makeSectionPlane(objectslist=None, name="Section")
 ```
 
--   Creates a `Section` object from `objectslist`, which is a list of objects.
+-   Tworzy obiekt `Section` z `objectslist`, który jest listą obiektów.
 
-Example:
+Przykład:
 
 
 ```python
@@ -113,5 +126,13 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/pl
+⏵ [documentation index](../README.md) > Arch SectionPlane/pl

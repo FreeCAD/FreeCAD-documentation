@@ -286,7 +286,7 @@ These templates accept a simple text parameter, and format it with a particular 
 |                                                                                                               | {{ColoredText|Colored Text}}           |                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                |
 ++++
-| [ColoredParagraph](Template_ColoredParagraph.md)                                                      |                         | Use this template to color the background, text, or background and text of an entire paragraph. [ColoredParagraph](Template_ColoredParagraph.md) page for more examples)                                                                                                               |
+| [ColoredParagraph](Template_ColoredParagraph.md)                                                      |                         | Use this template to color the background, text, or background and text of an entire paragraph. ([ColoredParagraph](Template_ColoredParagraph.md) page for more examples)                                                                                                              |
 |                                                                                                               | {{ColoredParagraph|Colored Paragraph}} |                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                     |                                                                                                                                                                                                                                                                                                |
 ++++
@@ -336,7 +336,7 @@ These templates require more input parameters, or produce a block of text with a
 ++++
 | [Macro](Template_Macro.md)                                                               | See for example [Macro FlattenWire](Macro_FlattenWire.md)                                                            | Use it to create a box with useful information to document [macros](macros.md).                                                                                                                                                                                                                                    |
 ++++
-| [Docnav](Template_Docnav.md)                                                             |                                                                                                               | Use it to create a bar with the words \'next\', \'previous\', and \'index\', and the appropriate links, which is useful for putting pages in a particular sequence.                                                                                                                                                        |
+| [Docnav](Template_Docnav.md)                                                             |                                                                                                               | Use it to create a bar with arrows and appropriate links, which is useful for putting pages in a particular sequence.                                                                                                                                                                                                      |
 |                                                                                                  |                                                                                 |                                                                                                                                                                                                                                                                                                                            |
 |                                                                                                  |                                                                                                                           |                                                                                                                                                                                                                                                                                                                            |
 ++++
@@ -466,11 +466,11 @@ Translated:
 
 ### Translate link 
 
-    [Part Module](Part_Module.md)
+    [Part Workbench](Part_Workbench.md)
 
 Translated:
 
-    [Atelier Part](Part_Module/fr.md)
+    [Atelier Part](Part_Workbench/fr.md)
 
 ### Translate Docnav 
 

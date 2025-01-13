@@ -4,7 +4,7 @@
    Name/de: TechDraw AusschnittsgruppeEntfernen
    MenuLocation: TechDraw , Clipped Views , Ansicht aus Ausschnittsgruppe entfernen
    Workbenches: TechDraw_Workbench/de
-   SeeAlso: TechDraw_ClipGroup/de, TechDraw_ClipGroupAdd/de
+   SeeAlso: 
 ---
 
 # TechDraw ClipGroupRemove/de

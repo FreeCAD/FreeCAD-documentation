@@ -27,7 +27,7 @@ Auf alle Werkzeuge des Arbeitsbereichs Mesh kann über das Menü **Netze** zugeg
 
 -   <img alt="" src=images/Mesh_FromPartShape.svg  style="width:32px;"> [Netz aus Form erstellen\...](Mesh_FromPartShape/de.md): Erstellt Netzobjekte aus Formobjekten.
 
--   <img alt="" src=images/Mesh_RemeshGmsh.svg  style="width:32px;">[Verfeinerung\...](Mesh_RemeshGmsh/de.md): Vernetzt ein Netzobjekt erneut.
+-   <img alt="" src=images/Mesh_RemeshGmsh.svg  style="width:32px;">[Aufbereiten\...](Mesh_RemeshGmsh/de.md): Vernetzt ein Netzobjekt erneut.
 
 -   Analysieren
     -   <img alt="" src=images/Mesh_Evaluation.svg  style="width:32px;">[Netz auswerten und reparieren\...](Mesh_Evaluation/de.md): Bewertet und repariert ein Netzobjekt.
@@ -90,9 +90,9 @@ Auf alle Werkzeuge des Arbeitsbereichs Mesh kann über das Menü **Netze** zugeg
 
 Es gibt einige [Exporteinstellungen im Zusammenhang mit Netzformaten](Import_Export_Preferences/de#Netzformate.md), aber diese werden von Befehlen, die zu diesem Arbeitsbereich gehören, nicht verwendet. Sie werden von dem Befehl [Std Export](Std_Export/de.md) verwendet.
 
-Netz Arbeitsbereichseinstellungen können in den folgenden Kategorien des [Voreinstellungseditor](Preferences_Editor/de.md) gefunden werden:
+Einstellungen des Arbeitsbereichs Mesh können in den folgenden Gruppen des [Voreinstellungseditors](Preferences_Editor/de.md) gefunden werden:
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Anzeige](Preferences_Editor/de#Anzeige_Einstellungen.md): Auf dem [ Netzansicht](Preferences_Editor/de#Netzansicht.md)-Reiter können verschiedene Einstellungen vorgenommen werden.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Anzeige](Preferences_Editor/de#Anzeige_Einstellungen.md): Auf der Seite [Netzansicht](Preferences_Editor/de#Netzansicht.md) können verschiedene Einstellungen vorgenommen werden.
 -   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences/de.md): Die Befehle [Mesh Vereinigung](Mesh_Union/de.md), [Mesh Schnitt](Mesh_Intersection/de.md) und [Mesh Differenz](Mesh_Difference/de.md) erfordern [OpenSCAD](http://www.openscad.org/) und verwenden die Einstellung **OpenSCAD executable**, um die ausführbare Datei zu finden.
 
 

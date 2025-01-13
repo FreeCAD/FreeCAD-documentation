@@ -1,29 +1,48 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM ConstraintContact
    Name/fr: FEM Contrainte de contact
    MenuLocation: Modèle , Conditions limites et charges mécaniques , Contrainte de contact
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_ConstraintFixed/fr
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: CalculiX
+}}
 ---
 
 # FEM ConstraintContact/fr
 
 ## Description
 
-Crée une contrainte de contact entre deux surfaces.
+Crée une contrainte de contact entre deux surfaces. Contrairement au cas de la [contrainte de liaison](FEM_ConstraintTie/fr.md), les surfaces peuvent se séparer et glisser l\'une sur l\'autre (avec ou sans frottement) au cours de l\'analyse.
 
 
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande :
+1.  Il y a plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintContact.svg" width=16px> [Contrainte de contact](FEM_ConstraintContact/fr.md)**.
-    -   Sélectionnez l\'option **Modèle → Conditions limites et charges mécaniques → <img src="images/FEM_ConstraintContact.svg" width=16px> Contrainte de contact** dans le menu.
-2.  Sélectionnez la face principale.
-3.  Sélectionnez la face esclave.
-4.  Entrez une raideur de contact.
-5.  Entrez un coefficient de frottement.
+    -   Sélectionnez l\'option **Modèle → Conditions limites et charges mécaniques → <img src="images/FEM_ConstraintContact.svg" width=16px> Contrainte de contact** du menu.
+
+2.  Sélectionnez la face principale. Cliquez sur le premier bouton **Ajouter**. Pour supprimer une face de la sélection, cliquez dessus et appuyez sur le premier bouton **Supprimer**.
+
+3.  Sélectionnez le face esclave. Appuyez sur le deuxième bouton **Ajouter**. Pour supprimer une face de la sélection, cliquez dessus et appuyez sur le deuxième bouton **Supprimer**.
+
+4.  Vous pouvez saisir une rigidité de contact.
+
+5.  
+    {{Version/fr|1.0}}: vous pouvez saisir un ajustement du jeu. Tous les nœuds de la face esclave dont la distance par rapport à la face maître est inférieure ou égale à ce nombre seront déplacés pour se trouver sur la face maître au début de l\'analyse. Cet ajustement ne provoque aucune contrainte.
+
+6.  
+    {{Version/fr|1.0}}: vous pouvez cocher la case *Activer la friction* pour spécifier le coefficient de friction et la valeur de la pente de contact.
+
+7.  Entrer optionnellement un coefficient de friction. La valeur par défaut de 0 signifie un contact sans frottement.
+
+8.  
+    {{Version/fr|1.0}}: vous pouvez saisir une valeur de la *pente de la courbe de collage*. Il s\'agit d\'un équivalent de la rigidité de contact pour le comportement de frottements. Elle définit la pente de la relation linéaire entre la contrainte de cisaillement et le déplacement tangentiel relatif dans la plage de contact (avant que le glissement ne se produise).
 
 ## Limitations
 

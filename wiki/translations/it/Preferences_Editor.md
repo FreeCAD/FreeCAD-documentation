@@ -1,133 +1,155 @@
 # Preferences Editor/it
 ## Introduzione
 
+
+<div class="mw-translate-fuzzy">
+
 Per avviare l\' **Editor delle preferenze** selezionare l\'opzione dal menu **Modifica → Preferenze...**. Su macOS invece, l\'opzione **Preferenze...** appare nel menu **FreeCAD** (questa è la posizione predefinita per le preferenze su Mac).
 
-FreeCAD utilizza il concetto di ambiente di lavoro, in cui ogni ambiente di lavoro è responsabile di attività e funzioni specifiche. Un ambiente di lavoro può avere le sue proprie preferenze. Queste appariranno nell\'editor delle Preferenze, di solito in una sezione dedicata, se l\'ambiente di lavoro è stato caricato nella sessione corrente di FreeCAD. Alcuni ambienti di lavoro aggiungono il supporto per formati di importazione ed esportazione specifici. Se sono presenti preferenze correlate, verranno visualizzate in una o più schede aggiuntive nella sezione [Import-Export](#Import-Export.md) dell\'editor delle preferenze.
+
+</div>
+
+FreeCAD utilizza il concetto di ambiente di lavoro, in cui ogni ambiente di lavoro è responsabile di attività e funzioni specifiche. Un ambiente di lavoro può avere le sue proprie preferenze. Queste appariranno nell\'editor delle Preferenze, di solito in un gruppo dedicato, se l\'ambiente di lavoro è stato caricato nella sessione corrente di FreeCAD. Alcuni ambienti di lavoro aggiungono il supporto per formati di importazione ed esportazione specifici. Se sono presenti preferenze correlate, verranno visualizzate in una o più pagine aggiuntive nel gruppo [Import-Export](#Import-Export.md) dell\'editor delle preferenze.
 
 Per preservare le risorse, FreeCAD non carica automaticamente tutti gli ambienti di lavoro disponibili. Vedi [Ambienti di lavoro](#Ambienti_di_lavoro.md) per maggiori informazioni. Per un elenco delle preferenze relative all\'ambiente, vedere [Preferenze relative agli Ambienti di Lavoro](#Preferenze_relative_agli_Ambienti_di_Lavoro.md).
 
-Se non è stato caricato alcun ambiente di lavoro, Nell\'editor delle preferenze appaiono sei sezioni: [Generale](#Generale.md), [Visualizzazione](#Visualizzazione.md), [Ambienti di lavoro](#Ambienti_di_lavoro.md), [Python](#Python.md), [Addon Manager](#Addon_Manager.md) e [Import-Export](#Import-Export.md). Tutti gli ambienti di lavoro che sono stati caricati e hanno le proprie preferenze verranno visualizzati di seguito.
+Se non è stato caricato alcun ambiente di lavoro, nell\'editor delle Preferenze appaiono sette gruppi: [Generale](#Generale.md), [Visualizzazione](#Visualizzazione.md), [Ambienti di lavoro](#Ambienti_di_lavoro.md), [Python](#Python.md), [Addon Manager](#Addon_Manager.md), [Import-Export](#Import-Export.md) e [Measure](#Measure.md). Tutti gli ambienti di lavoro che sono stati caricati e hanno le proprie preferenze verranno visualizzati di seguito.
 
-Premendo il pulsante **Ripristina** nell\'angolo in basso a sinistra della finestra di dialogo Preferenze si apre un menu ({{Version/it|0.22}}) con opzioni per ripristinare le preferenze ai valori predefiniti. Si possono reimpostare la scheda corrente, il gruppo corrente o tutte le preferenze. Nella {{VersionMinus/it|0.21}} il pulsante ripristinerà **tutte** le preferenze.
+Premendo il pulsante **Ripristina** nell\'angolo in basso a sinistra della finestra di dialogo Preferenze si apre un menu ({{Version/it|1.0}}) con opzioni per ripristinare le preferenze ai valori predefiniti. Si possono reimpostare la pagina corrente, il gruppo corrente o tutte le preferenze. Nella {{VersionMinus/it|0.21}} il pulsante ripristinerà **tutte** le preferenze.
 
 Alcune preferenze avanzate possono essere modificate solo in [Modifica parametri](Std_DlgParameter/it.md). La pagina [Ottimizzare l\'installazione](Fine-tuning/it.md) ne elenca alcuni.
+
+Questa pagina è stata aggiornata per la versione 1.0.
 
 
 
 ## Generale
 
-Questa sezione delle preferenze ha sette schede: Generale, Documento, Selezione, Cache, Area di notifica, Report e Aiuto.
+Questo gruppo delle preferenze ha sette pagine: Generale, Documento, Selezione, Cache, Area di notifica, Report e Aiuto.
 
-In {{VersionMinus/it|0.21}} la settima scheda, Aiuto, è disponibile solo se il [Help Addon](https://github.com/FreeCAD/FreeCAD-Help) è stato [installato](Std_AddonMgr/it.md).
+In {{VersionMinus/it|0.21}} la settima pagina, Aiuto, è disponibile solo se il [Help Addon](https://github.com/FreeCAD/FreeCAD-Help) è stato [installato](Std_AddonMgr/it.md).
 
 
 
 ### Generale 
 
-Nella scheda *Generale* si può specificare quanto segue:
+<img alt="" src=images/Preferences_General_Page_General.png  style="width:400px;">
+
+In questa pagina si può specificare quanto segue:
+
+
+<div class="mw-translate-fuzzy">
 
 +++
-| Nome                                                               | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-+====================================================================+==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
-|                                                     | Lingua dell\'interfaccia utente dell\'applicazione.                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Lingua**                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Nome                                                                             | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
++==================================================================================+==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
+|                                                                   | Lingua dell\'interfaccia utente dell\'applicazione.                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Lingua**                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 +++
-|                                                     | Sistema di unità per tutte le parti dell\'applicazione. Può essere sovrascritto specificando un **sistema di unità di progetto**.                                                                                                                                                                                                                                                                                                                  |
-| **Sistema di unità**                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                   | Sistema di unità per tutte le parti dell\'applicazione. {{Version/it|1.0}}: utilizzato come predefinito per il [sistema di unità documento](Std_ProjectInfo/it.md) dei nuovi documenti.                                                                                                                                                                                                                                                                |
+| **Sistema di unità predefinito**                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 +++
-|                                                     | Il numero di decimali che devono essere visualizzati per numeri e quote.                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Numero di decimali**                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                   | Il numero di decimali che devono essere visualizzati per numeri e quote.                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Numero di decimali**                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 +++
-|                                                     | Sistema di unità memorizzato nel progetto corrente.                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Sistema di unità di progetto**                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| {{Version/it|0.22}}                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                   | Se selezionati, i sistemi di unità del progetto vengono ignorati e non sovrascrivono il sistema di unità predefinito.                                                                                                                                                                                                                                                                                                                                                        |
+| **Ignora il sistema di unità del progetto e usa quello predefinito** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| {{Version/it|1.0}}                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 +++
-|                                                     | Se selezionati, i sistemi di unità di progetto vengono ignorati.                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Ignora**                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| {{Version/it|0.22}}                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                   | Il pollice frazionario minimo che deve essere mostrato per numeri e dimensioni. Disponibile solo per sistemi di unità con pollici frazionari.                                                                                                                                                                                                                                                                                                                                |
+| **Pollici frazionari minimi**                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 +++
-|                                                     | Specifica il formato del numero. Le opzioni sono:                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Formato numero**                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 | -   **Sistema operativo**: viene utilizzato il separatore decimale definito dal sistema operativo.                                                                                                                                                                                                                                                                                                                                                                           |
-| {{Version/it|0.20}}                                  | -   **Lingua selezionata**: Viene utilizzato il separatore decimale della lingua dell\'interfaccia di FreeCAD selezionata.                                                                                                                                                                                                                                                                                                                                                   |
-|                                                                    | -   **C/POSIX**: Come separatore decimale viene utilizzato un punto.                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                                                                   | Specifica il formato del numero. Le opzioni sono:                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Formato numero**                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               | -   **Sistema operativo**: viene utilizzato il separatore decimale definito dal sistema operativo.                                                                                                                                                                                                                                                                                                                                                                           |
+| {{Version/it|0.20}}                                                | -   **Lingua selezionata**: Viene utilizzato il separatore decimale della lingua dell\'interfaccia di FreeCAD selezionata.                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                  | -   **C/POSIX**: Come separatore decimale viene utilizzato un punto.                                                                                                                                                                                                                                                                                                                                                                                                         |
 +++
-|                                                     | Se selezionato, il separatore decimale del tastierino numerico verrà sostituito con il separatore definito dall\'impostazione **Number format**. {{Version/it|0.21}}: Notare che se questa preferenza è abilitata, utilizzando il separatore decimale del tastierino numerico verrà sempre stampato un punto/punto nella [Console Python](Python_console.md) e nell\'\[\[Std_DlgMacroExecute/it#Modifica\|Macro editor\] \]. |
-| **Sostituisci separatore decimale**                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| {{Version/it|0.20}}                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                   | Se selezionato, il separatore decimale del tastierino numerico verrà sostituito con il separatore definito dall\'impostazione **Number format**. {{Version/it|0.21}}: Notare che se questa preferenza è abilitata, utilizzando il separatore decimale del tastierino numerico verrà sempre stampato un punto/punto nella [Console Python](Python_console.md) e nell\'\[\[Std_DlgMacroExecute/it#Modifica\|Macro editor\] \]. |
+| **Sostituisci separatore decimale**                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| {{Version/it|0.20}}                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 +++
-|                                                     | Specifica un [tema](Interface_Customization/it#Temi.md) per personalizzare l\'aspetto dell\'interfaccia utente.                                                                                                                                                                                                                                                                                                                                                      |
-| **Tema**                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                   | Specifica un [tema](Interface_Customization/it#Temi.md) per personalizzare l\'aspetto dell\'interfaccia utente.                                                                                                                                                                                                                                                                                                                                                      |
+| **Tema**                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 +++
-|                                                     | Specifica la dimensione delle icone della barra degli strumenti. Le opzioni sono:                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Dimensione delle icone della barra degli strumenti** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 | -   **Piccolo (16px)**                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|                                                                    | -   **Medio (24px)**                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|                                                                    | -   **Grande (32px)**                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|                                                                    | -   **Extra grande (48px)**                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                   | Specifica la dimensione delle icone della barra degli strumenti. Le opzioni sono:                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Dimensione delle icone della barra degli strumenti**               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               | -   **Piccolo (16px)**                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                  | -   **Medio (24px)**                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                                                                                  | -   **Grande (32px)**                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                  | -   **Extra grande (48px)**                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 +++
-|                                                     | Definisce come viene visualizzata la vista ad albero nell\'interfaccia utente (è necessario il riavvio). Le opzioni sono:                                                                                                                                                                                                                                                                                                                                                    |
-| **Modalità di visualizzazione ad albero**              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 | -   **Vista combinata**: Combina la vista ad albero e la vista delle proprietà in un unico pannello.                                                                                                                                                                                                                                                                                                                                                                         |
-|                                                                    | -   **Vista ad albero e proprietà**: divide la vista ad albero e la vista delle proprietà in pannelli separati.                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                    | -   **Entrambi**: Mostra tutti e tre i pannelli. {{VersionMinus/it|0.21}}                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                                   | Definisce come viene visualizzata la vista ad albero nell\'interfaccia utente (è necessario il riavvio). Le opzioni sono:                                                                                                                                                                                                                                                                                                                                                    |
+| **Modalità di visualizzazione ad albero**                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               | -   **Vista combinata**: Combina la vista ad albero e la vista delle proprietà in un unico pannello.                                                                                                                                                                                                                                                                                                                                                                         |
+|                                                                                  | -   **Vista ad albero e proprietà**: divide la vista ad albero e la vista delle proprietà in pannelli separati.                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                  | -   **Entrambi**: Mostra tutti e tre i pannelli. {{VersionMinus/it|0.21}}                                                                                                                                                                                                                                                                                                                                                                                      |
 +++
-|                                                     | Specifica quanti file devono essere elencati nell\'elenco dei file recenti.                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Dimensione dell'elenco dei file recenti**            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 | Facoltativamente, è possibile escludere i file importati da questo elenco e includere i file esportati. Vedere [Ottimizzare l\'installazione](Fine-tuning/it.md).                                                                                                                                                                                                                                                                                                    |
+|                                                                   | Specifica quanti file devono essere elencati nell\'elenco dei file recenti.                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Dimensione dell'elenco dei file recenti**                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                                  | </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  | Facoltativamente, è possibile escludere i file importati da questo elenco e includere i file esportati. Vedere [Ottimizzare l\'installazione](Fine-tuning/it.md).                                                                                                                                                                                                                                                                                                    |
 +++
-|                                                     | Se selezionato, lo sfondo della finestra principale di FreeCAD sarà costituito per impostazione predefinita dai riquadri di questa immagine: <img alt="" src=images/Background.png  style="width:64px;">                                                                                                                                                                                                                                                                                |
-| **Abilita lo sfondo a mosaico**                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 | Questa opzione ha effetto solo se non è selezionato alcun **Foglio di stile**.                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                    | L\'immagine può essere cambiata aggiungendo le cartelle **Gui/Images** nella cartella:                                                                                                                                                                                                                                                                                                                                                                |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|                                                                    | **[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/ %APPDATA%]/FreeCAD**                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|                                                                    | (per Windows),                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|                                                                    | **$HOME/.FreeCAD**                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|                                                                    | (su Linux) o                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|                                                                    | **$HOME/Library/Preferences/FreeCAD**                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|                                                                    | (su macOS).                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                    | Inserire un file chiamato **background.png** nella cartella **Images**, e deselezionare/selezionare questa opzione per vedere il file modificato.                                                                                                                                                                                                                                                                              |
+|                                                                   | Se selezionato, lo sfondo della finestra principale di FreeCAD sarà costituito per impostazione predefinita dai riquadri di questa immagine: <img alt="" src=images/Background.png  style="width:64px;">                                                                                                                                                                                                                                                                                |
+| **Abilita lo sfondo a mosaico**                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               | Questa opzione ha effetto solo se non è selezionato alcun **Foglio di stile**.                                                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                  | L\'immagine può essere cambiata aggiungendo le cartelle **Gui/Images** nella cartella:                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                  | **[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/ %APPDATA%]/FreeCAD**                                                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  | (per Windows),                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                  | **$HOME/.FreeCAD**                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  | (su Linux) o                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                  | **$HOME/Library/Preferences/FreeCAD**                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                                                  | (su macOS).                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                  | Inserire un file chiamato **background.png** nella cartella **Images**, e deselezionare/selezionare questa opzione per vedere il file modificato.                                                                                                                                                                                                                                                                              |
 +++
-|                                                     | Se selezionato, all\'avvio di FreeCAD viene mostrata una schermata iniziale.                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **Abilita la schermata iniziale all'avvio**            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 | L\'immagine della schermata iniziale può essere modificata inserendo un file denominato **splash_image.png** nella cartella **Images** già menzionata in **Abilita lo sfondo a mosaico**.                                                                                                                                                                                                            |
+|                                                                   | Se selezionato, all\'avvio di FreeCAD viene mostrata una schermata iniziale.                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Abilita la schermata iniziale all'avvio**                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               | L\'immagine della schermata iniziale può essere modificata inserendo un file denominato **splash_image.png** nella cartella **Images** già menzionata in **Abilita lo sfondo a mosaico**.                                                                                                                                                                                                            |
 +++
-|                                                     | Se selezionato, il cursore del testo nella [Python console](Python_console/it.md) e l\'[Macro editor](Std_DlgMacroExecute#Edit.md) lampeggeranno.                                                                                                                                                                                                                                                                                                            |
-| **Abilita il lampeggiamento del cursore**              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                   | Se selezionato, il cursore del testo nella [Python console](Python_console/it.md) e l\'[Macro editor](Std_DlgMacroExecute#Edit.md) lampeggeranno.                                                                                                                                                                                                                                                                                                            |
+| **Abilita il lampeggiamento del cursore**                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 +++
-|                                                     | Elenca i [pacchetti preferenze](Preference_Packs/it.md) disponibili e consente inoltre di importarli, salvarli, gestirli e ripristinarli.                                                                                                                                                                                                                                                                                                                            |
-| **Pacchetti di preferenze**                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| {{Version/it|0.20}}                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                   | Se selezionate, le finestre ancorate possono essere gestite come sovrapposizioni trasparenti.                                                                                                                                                                                                                                                                                                                                                                                |
+| **Attiva gestione overlay**                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| {{Version/it|1.0}}                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 +++
-
-![](images/Preferences_General_Tab_General.png )
+|                                                                   | Elenca i [pacchetti preferenze](Preference_Packs/it.md) disponibili e consente inoltre di importarli, salvarli, gestirli e ripristinarli.                                                                                                                                                                                                                                                                                                                            |
+| **Pacchetti di preferenze**                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
++++
 
 
 
 ### Documento
 
-Nella scheda *Documento* si può specificare quanto segue:
+<img alt="" src=images/Preferences_General_Page_Document.png  style="width:400px;">
+
+In questa pagina si può specificare quanto segue:
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | Nome                                                                                                   | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -197,13 +219,19 @@ Nella scheda *Documento* si può specificare quanto segue:
 |                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +++
 
-![](images/Preferences_General_Tab_Document.png )
+
+</div>
 
 
 
 ### Selezione
 
-Nella scheda *Selezione* si può specificare quanto segue:
+<img alt="" src=images/Preferences_General_Page_Selection.png  style="width:400px;">
+
+In questa pagina si può specificare quanto segue:
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | Nome                                                                                                                     | Descrizione                                                                                                                                                                        |
@@ -229,13 +257,21 @@ Nella scheda *Selezione* si può specificare quanto segue:
 |                                                                                                                       |                                                                                                                                                                                    |
 +++
 
-![](images/Preferences_General_Tab_Selection.png )
+
+</div>
+
+Note that objects created while this option is not checked will have their **Selectable** property set to `False`. With that value they are not selectable in the 3D view, even if this option is checked again. \|- \| **Pick radius (px)** \| Sets the area for picking elements in the [3D view](3D_view.md). Larger value makes it easier to pick things, but can make some small features impossible to select. \|- \| **Auto switch to the 3D view containing the selected item** \| Enables the [Tree view SyncView mode](Std_TreeSyncView.md). \|- \| **Auto expand tree item when the corresponding object is selected in 3D view** \| Enables the [Tree view SyncSelection mode](Std_TreeSyncSelection.md). \|- \| **Preselect the object in 3D view when mouse over the tree item** \| Enables the [Tree view PreSelection mode](Std_TreePreSelection.md). \|- \| **Record selection in tree view in order to go back/forward using navigation button** \| Enables the [Tree view RecordSelection mode](Std_TreeRecordSelection.md). \|- \| **Add checkboxes for selection in document tree** \| Each [Tree view](Tree_view.md) item will get a checkbox. This is for example useful for selecting multiple items on a touchscreen. \|}
 
 ### Cache
 
+<img alt="" src=images/Preferences_General_Page_Cache.png  style="width:400px;">
+
 Queste preferenze sono correlate alla directory della cache in cui FreeCAD memorizza i file temporanei.
 
-Nella scheda *Cache* ({{Version/it|0.20}}) puoi specificare quanto segue:
+In questa pagina si può specificare quanto segue:
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | Nome                                                             | Descrizione                                                                                                                                          |
@@ -267,15 +303,21 @@ Nella scheda *Cache* ({{Version/it|0.20}}) puoi specificare quanto segue:
 |                                                               |                                                                                                                                                      |
 +++
 
-![](images/Preferences_General_Tab_Cache.png )
+
+</div>
 
 
 
 ### Area di notifica 
 
+<img alt="" src=images/Preferences_General_Page_Notification_Area.png  style="width:400px;">
+
 Queste preferenze controllano l\'area di notifica e le relative notifiche.
 
-Nella scheda *Area di notifica* ({{Version/it|0.21}}) si può specificare quanto segue:
+In questa pagina ({{Version/it|0.21}}) si può specificare quanto segue:
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | Nome                                                               | Descrizione                                                                                                               |
@@ -329,15 +371,23 @@ Nella scheda *Area di notifica* ({{Version/it|0.21}}) si può specificare quanto
 |                                                                 |                                                                                                                           |
 +++
 
-![](images/Preferences_General_Tab_Notification_Area.png )
+
+</div>
 
 
 
 ### Report
 
+<img alt="" src=images/Preferences_General_Page_Report_view.png  style="width:400px;">
+
 Queste preferenze controllano il comportamento della [Finestra dei Report](Report_view/it.md). Questo pannello può essere aperto utilizzando l\'opzione di menu **Visualizza → Panelli → Report**.
 
-Nella scheda *Report* è possibile specificare quanto segue:
+The Report view uses the same font settings as the [Macro editor](#Editor.md).
+
+In questa pagina si può specificare quanto segue:
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | Nome                                                                             | Descrizione                                                                                                                                                                                             |
@@ -392,7 +442,9 @@ Nella scheda *Report* è possibile specificare quanto segue:
 +++
 |                                                                   | Specifica il colore del carattere per i messaggi di errore.                                                                                                                                             |
 | **Errori**                                                           |                                                                                                                                                                                                         |
-|                                                                               |                                                                                                                                                                                                         |
+|                                                                                                                                                                                               |
+|                                                                                  | </div>                                                                                                                                                                                                  |
+|                                                                                  |                                                                                                                                                                                                      |
 +++
 |                                                                   | Se selezionato, l\'output interno di Python verrà reindirizzato dalla [console di Python](Python_console/it.md) al pannello [Report](Report_view.md).                                   |
 | **Reindirizza l'output interno di Python alla finestra di report**   |                                                                                                                                                                                                         |
@@ -403,11 +455,14 @@ Nella scheda *Report* è possibile specificare quanto segue:
 |                                                                               |                                                                                                                                                                                                         |
 +++
 
-![](images/Preferences_General_Tab_Report_view.png )
-
 ### Help
 
-Nella scheda *Help* si può specificare quanto segue:
+<img alt="" src=images/Preferences_General_Page_Help.png  style="width:400px;">
+
+In questa pagina si può specificare quanto segue:
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | Nome                              | Descrizione                                                                                                                                                                                                                                                                                       |
@@ -451,19 +506,31 @@ Nella scheda *Help* si può specificare quanto segue:
 |                                |                                                                                                                                                                                                                                                                                                   |
 +++
 
-![](images/Preferences_General_Tab_Help.png )
+
+</div>
 
 
 
 ## Visualizzazione
 
+
+<div class="mw-translate-fuzzy">
+
 Questa sezione delle preferenze ha tre schede standard: Vista 3D, Navigazione e Colori. Una quarta scheda, Visualizzazione Mesh, viene aggiunta se è stato caricato l\'[Ambiente Mesh](Mesh_Workbench/it.md).
+
+
+</div>
 
 
 
 ### Vista 3D 
 
-Nella scheda *Vista 3D* si può specificare quanto segue:
+<img alt="" src=images/Preferences_Display_Page_3D_View.png  style="width:400px;">
+
+In questa pagina si può specificare quanto segue:
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | Nome                                                          | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -525,31 +592,84 @@ Nella scheda *Vista 3D* si può specificare quanto segue:
 |                                                               | -   **Vista ortografica**: Gli oggetti appariranno in una [vista ortografica](https://en.wikipedia.org/wiki/Orthographic_projection).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 +++
 
-![](images/Preferences_Display_Tab_3D_View.png )
+
+</div>
+
+### Light Sources 
+
+
+{{Version/it|1.0}}
+
+<img alt="" src=images/Preferences_Display_Page_Light_Sources.png  style="width:400px;">
+
+In questa pagina si può specificare quanto segue:
+
++++
+| Name                         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
++==============================+=================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
+|               | If checked, the objects in the [3D view](3D_view.md) are lit by a directional light source and the specified color will be used for it. Without this all objects appear as solid black.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Light source** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
++++
+|               | Move the slider to change the intensity of the light.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Intensity**    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
++++
+|               | The preview shows the XY plane and a sphere, indicating the light source, connected by a line to a cone, indicating the direction. All elements in the preview, the sphere, the small cone directly attached to it, the line and the large cone, can be dragged to change the direction of the light. For more precision the direction vector can be set by specifying the **x**, **y** and **z** values or the **q0** - **q3** [quaternion](https://en.wikipedia.org/wiki/Quaternion) values. You can zoom the preview in and out with the buttons in the lower left corner. |
+| **Direction**    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
++++
+
+### UI
+
+
+{{Version/it|1.0}}
+
+<img alt="" src=images/Preferences_Display_Page_UI.png  style="width:400px;">
 
 
 
 ### Navigazione
 
-Nella scheda *Navigazione* si può specificare quanto segue:
+<img alt="" src=images/Preferences_Display_Page_Navigation.png  style="width:400px;">
+
+In questa pagina si può specificare quanto segue:
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | Nome                                                               | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +====================================================================+====================================================================================================================================================================================================================================================================================================================================================================================================================================+
 |                                                     | Se selezionato, il [Cubo di navigazione](Navigation_Cube/it.md) verrà mostrato nella [Vista 3D](3D_view/it.md).                                                                                                                                                                                                                                                                                                    |
 | **Cubo di navigazione**                                |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                    | </div>                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                    | **Passi di rotazione**                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                    | definisce il numero di passi necessari per una rotazione completa quando si utilizzano le frecce di rotazione del Cubo di navigazione.                                                                                                                                                                                                                                                                                             |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                    | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                    | Se **Ruota verso il più vicino** è selezionato, la vista 3D viene ruotata secondo logica alla posizione più vicina, in base all\'orientamento corrente del cubo, quando si fa clic su una faccia del cubo. In caso contrario, fare clic su una faccia comporterà sempre la stessa rotazione. {{Version/it|0.20}}                                                                           |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                    | </div>                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                    | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                    | **Dimensione cubo**                                                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                    | definisce la dimensione del cubo. {{Version/it|0.20}}                                                                                                                                                                                                                                                                                                                                                                |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                    | </div>                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                    | **Color**                                                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -571,10 +691,15 @@ Nella scheda *Navigazione* si può specificare quanto segue:
 |                                                                    | specifica il carattere usato per i testi del cubo. {{Version/it|0.21}}                                                                                                                                                                                                                                                                                                                                               |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                                    | **Dimensione carattere**                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                    | **Opacity when inactive**                                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                                    | imposta la dimensione del carattere utilizzato per il testo del cubo. {{Version/it|0.21}}                                                                                                                                                                                                                                                                                                                            |
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                    | Opacity of the Navigation cube when not hovered by the mouse. <small>(v1.0)</small>                                                                                                                                                                                                                                                                                                                                         |
++++
+|                                                     | If checked, the rotation center of the view is shown when dragging. The **Sphere size** and the **Color and transparency** of the indicator can be specified.                                                                                                                                                                                                                  |
+| **Rotation center indicator**                          |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| <small>(v1.0)</small>                                       | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                    | **Colore pulsanti**                                                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -620,18 +745,37 @@ Nella scheda *Navigazione* si può specificare quanto segue:
 | **Disattiva l'inclinazine dai gesti del touch screen** |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 +++
-|                                                     | Se questa opzione è selezionata, durante il trascinamento viene visualizzato il centro di rotazione della vista. {{Version/it|0.22}}                                                                                                                                                                                                                                                                                 |
+|                                                     | Se questa opzione è selezionata, durante il trascinamento viene visualizzato il centro di rotazione della vista. {{Version/it|1.0}}                                                                                                                                                                                                                                                                                  |
 | **Abilita indicazione centro di rotazione**            |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 +++
 
-![](images/Preferences_Display_Tab_Navigation.png )
+
+</div>
+
+\|- \| **Animations** \| If checked, view rotations and zooms, except those invoked by mouse actions, are animated. The **Animation duration** can be specified.
+
+
+**Enable spinning animations**
+
+if checked, and if **3D Navigation** is set to **CAD**, rotations invoked by the mouse can be animated as well. If the mouse is moved while the scroll wheel and the right mouse button are pressed, the view is rotated. If one keeps the mouse moving while releasing the right mouse button, the rotation will continue. To end this animation left-click with the mouse. \|}
 
 
 
 ### Colori
 
+<img alt="" src=images/Preferences_Display_Page_Colors.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
 Nella scheda *Colori* si può specificare quanto segue:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | Nome                                                    | Descrizione                                                                                                                                                                                                                                       |
@@ -669,15 +813,40 @@ Nella scheda *Colori* si può specificare quanto segue:
 |                                                      |                                                                                                                                                                                                                                                   |
 +++
 
-![](images/Preferences_Display_Tab_Colors.png )
+
+</div>
+
+### Advanced
+
+
+<small>(v1.0)</small> 
+
+<img alt="" src=images/Preferences_Display_Page_Advanced.png  style="width:400px;">
 
 
 
 ### Visualizzazione Mesh 
 
+<img alt="" src=images/Preferences_Display_Page_Mesh_view.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
 Questa scheda è disponibile solo se è stato caricato l\'[Ambiente Mesh](Mesh_Workbench/it.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Nella scheda *Visualizzazione Mesh* puoi specificare quanto segue:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | Nome                                                                     | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -716,66 +885,102 @@ Nella scheda *Visualizzazione Mesh* puoi specificare quanto segue:
 |                                                                          | :   Se l\'angolo della faccia \< l\'angolo di piega, viene utilizzata l\'ombreggiatura uniforme.                                                                                                                                                                                                                                                                                                                                                               |
 +++
 
-![](images/Preferences_Display_Tab_Mesh_view.png )
+
+</div>
 
 
 
 ## Ambienti di lavoro 
 
+
+<div class="mw-translate-fuzzy">
+
 Questa sezione delle preferenze ha un\'unica scheda: Ambienti di Lavoro Disponibili.
+
+
+</div>
 
 
 
 ### Ambienti Disponibili 
 
+<img alt="" src=images/Preferences_Workbenches_Page_Available_Workbenches.png  style="width:400px;">
+
 Queste preferenze controllano il caricamento dell\'ambiente.
+
+
+<div class="mw-translate-fuzzy">
 
 Nella scheda *Ambienti di Lavoro Disponibili* è possibile specificare quanto segue:
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 +++
-| Nome                                                     | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+==========================================================+========================================================================================================================================================================================================================================================================================================================================================================================================================================================+
-|                                           | L\'elenco visualizza tutti gli ambienti di lavoro installati. L\'elenco può essere riordinato trascinandolo ({{Version/it|0.21}}) e ordinato facendo clic con il pulsante destro del mouse sull\'elenco e selezionando **Ordina alfabeticamente** ({{Version/it|0.22}}). L\'ordine dell\'elenco determina anche l\'ordine del [Selettore dell\'ambiente di lavoro](Std_Workbench/it.md). |
-| **Ambienti di Lavoro Disponibili**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|                                                       | -                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|                                                          |     {{Version/it|0.21}}                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                          |     : **Prima casella di spunta in ogni riga**: Se selezionata, il workbench sarà disponibile nel selettore degli ambienti di lavoro nella prossima sessione di FreeCAD. L\'ambiente di avvio non può essere deselezionato. Gli ambienti di lavoro non selezionati vengono spostati in fondo all\'elenco.                                                                                                                    |
-|                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|                                                          | -                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|                                                          |     **Autocaricamento**                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                          |     : Se selezionato, l\'ambiente verrà caricato automaticamente all\'avvio di FreeCAD. Il caricamento di più ambienti renderà l\'avvio più lento, ma il passaggio tra ambienti, che sono già stati caricati, è più veloce.                                                                                                                                                                                                                            |
-|                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|                                                          | -                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|                                                          |     **Carica adesso**                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|                                                          |     : Premere questo pulsante per caricare l\'ambiente di lavoro nella sessione corrente di FreeCAD.                                                                                                                                                                                                                                                                                                                                                   |
+| Nome                                                     | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                           |
++==========================================================+=======================================================================================================================================================================================================================================================================================================================================================================================================================================================+
+|                                           | L\'elenco visualizza tutti gli ambienti di lavoro installati. L\'elenco può essere riordinato trascinandolo ({{Version/it|0.21}}) e ordinato facendo clic con il pulsante destro del mouse sull\'elenco e selezionando **Ordina alfabeticamente** ({{Version/it|1.0}}). L\'ordine dell\'elenco determina anche l\'ordine del [Selettore dell\'ambiente di lavoro](Std_Workbench/it.md). |
+| **Ambienti di Lavoro Disponibili**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                       | -                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                          |     {{Version/it|0.21}}                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                          |     : **Prima casella di spunta in ogni riga**: Se selezionata, il workbench sarà disponibile nel selettore degli ambienti di lavoro nella prossima sessione di FreeCAD. L\'ambiente di avvio non può essere deselezionato. Gli ambienti di lavoro non selezionati vengono spostati in fondo all\'elenco.                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                          | -                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                          |     **Autocaricamento**                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                          |     : Se selezionato, l\'ambiente verrà caricato automaticamente all\'avvio di FreeCAD. Il caricamento di più ambienti renderà l\'avvio più lento, ma il passaggio tra ambienti, che sono già stati caricati, è più veloce.                                                                                                                                                                                                                           |
+|                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                          | -                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                          |     **Carica adesso**                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                          |     : Premere questo pulsante per caricare l\'ambiente di lavoro nella sessione corrente di FreeCAD.                                                                                                                                                                                                                                                                                                                                                  |
 +++
-|                                           | L\'ambiente di lavoro che viene caricato all\'avvio di FreeCAD.                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Autocaricamento**                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                           | L\'ambiente di lavoro che viene caricato all\'avvio di FreeCAD.                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Autocaricamento**                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 +++
-|                                           | Definisce dove appare il [selettore Workbench](Std_Workbench/it.md). Le opzioni sono:                                                                                                                                                                                                                                                                                                                                                          |
-| **Posizione selettore ambiente di lavoro**   |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|                                                       | -   **Toolbar**: In una barra degli strumenti dedicata.                                                                                                                                                                                                                                                                                                                                                                                                |
-| {{Version/it|0.21}}                        | -   **Angolo sinistro**: Nell\'angolo sinistro della barra dei menu.                                                                                                                                                                                                                                                                                                                                                                                   |
-|                                                          | -   **Angolo destro**: Nell\'angolo destro della barra dei menu.                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                           | Definisce dove appare il [selettore Workbench](Std_Workbench/it.md). Le opzioni sono:                                                                                                                                                                                                                                                                                                                                                         |
+| **Posizione selettore ambiente di lavoro**   |                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                       | -   **Toolbar**: In una barra degli strumenti dedicata.                                                                                                                                                                                                                                                                                                                                                                                               |
+| {{Version/it|0.21}}                        | -   **Angolo sinistro**: Nell\'angolo sinistro della barra dei menu.                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                          | -   **Angolo destro**: Nell\'angolo destro della barra dei menu.                                                                                                                                                                                                                                                                                                                                                                                      |
 +++
-|                                           | Se selezionato, FreeCAD ricorderà e ripristinerà l\'ambiente di lavoro che era attivo per ciascuna scheda nell\'[Area di visualizzazione principale](Main_view_area/it.md).                                                                                                                                                                                                                                                                    |
-| **Ricorda il workbench attivo nella scheda** |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                           | Se selezionato, FreeCAD ricorderà e ripristinerà l\'ambiente di lavoro che era attivo per ciascuna scheda nell\'[Area di visualizzazione principale](Main_view_area/it.md).                                                                                                                                                                                                                                                                   |
+| **Ricorda il workbench attivo nella scheda** |                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 +++
 
-![](images/Preferences_Workbenches_Tab_Available_Workbenches.png )
+
+</div>
 
 ## Python
 
+
+<div class="mw-translate-fuzzy">
+
 Questa sezione delle preferenze ({{Version/it|0.21}}) ha tre schede: Macro, Console Python ed Editor.
+
+
+</div>
 
 ### Macro
 
+<img alt="" src=images/Preferences_Python_Page_Macro.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
 Nella scheda *Macro* è possibile specificare quanto segue:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | Nome                                                              | Descrizione                                                                                                                                                                                                                                                                             |
@@ -813,17 +1018,41 @@ Nella scheda *Macro* è possibile specificare quanto segue:
 |                                                                |                                                                                                                                                                                                                                                                                         |
 +++
 
-![](images/Preferences_Python_Tab_Macro.png )
+
+</div>
 
 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Console Python 
 
+
+</div>
+
+<img alt="" src=images/Preferences_Python_Page_General.png  style="width:400px;">
+
 Queste preferenze controllano il comportamento della [console Python](Python_console/it.md). Questa console può essere aperta utilizzando l\'opzione di menu **Visualizza → Pannelli → Console Python**.
+
+
+<div class="mw-translate-fuzzy">
 
 Nota che le impostazioni di colore e carattere per la console sono definite nella scheda [Editor](#Editor.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Nella scheda *Console Python* ({{Version/it|0.20}}) puoi specificare quanto segue:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | Nome                                                 | Descrizione                                                                                            |
@@ -841,17 +1070,35 @@ Nella scheda *Console Python* ({{Version/it|0.20}}) puoi specificare quanto segu
 |                                                   |                                                                                                        |
 +++
 
-![](images/Preferences_Python_Tab_Python_console.png )
+
+</div>
 
 ### Editor
 
+<img alt="" src=images/Preferences_Python_Page_Editor.png  style="width:400px;">
+
 Queste preferenze controllano il comportamento dell\'[Editor macro](Std_DlgMacroExecute/it#Edit.md). Questo editor può essere aperto utilizzando l\'opzione di menu **Macro → Macro... → Modifica** o {{menuCommand|Crea}}.
 
+
+<div class="mw-translate-fuzzy">
+
 Le impostazioni del colore e del carattere vengono utilizzate anche dalla [console Python](#Python_console/it.md).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Nella scheda *Editor* è possibile specificare quanto segue
 
 :   
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | Nome                                               | Descrizione                                                                                                                                                                                                                                                                                                                             |
@@ -897,19 +1144,37 @@ Nella scheda *Editor* è possibile specificare quanto segue
 |                                                 |                                                                                                                                                                                                                                                                                                                                         |
 +++
 
-![](images/Preferences_Python_Tab_Editor.png )
+
+</div>
 
 ## Addon Manager 
 
+
+<div class="mw-translate-fuzzy">
+
 Questa sezione delle preferenze ha un\'unica scheda: Opzioni di Addon manager.
+
+
+</div>
 
 
 
 ### Opzioni di Addon manager 
 
+<img alt="" src=images/Preferences_Addon_Manager_Page_Addon_manager_options.png  style="width:400px;">
+
 Queste preferenze controllano il comportamento dell\'[Addon manager](Std_AddonMgr/it.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Nella scheda *Opzioni di Addon manager* ({{Version/it|0.20}}) puoi specificare quanto segue:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 +++
 | Nome                                                                                 | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -942,8 +1207,14 @@ Nella scheda *Opzioni di Addon manager* ({{Version/it|0.20}}) puoi specificare q
 +++
 |                                                                       | I repository personalizzati possono essere specificati qui.                                                                                                                                                                                                                                                                                                                                                          |
 | **Repository personalizzati**                                            |                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|                                                                                   | Per aggiungere un repository premere il pulsante **<img src="images/List-add.svg" width=16px>**. Sia il **Repository URL** che il **Branch**, tipicamente {{Value|master}} o {{Value|main}}, devono essere specificati nella finestra di dialogo che si apre. {{Version/it|0.21}}                                |
+|                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                      | </div>                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                      | Per aggiungere un repository premere il pulsante **<img src="images/List-add.svg" width=16px>**. Sia il **Repository URL** che il **Branch**, tipicamente {{Value|master}} o {{Value|main}}, devono essere specificati nella finestra di dialogo che si apre. {{Version/it|0.21}}                                |
 |                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                      | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                                                      | Per rimuovere un repository selezionalo nell\'elenco e premere il pulsante **<img src="images/List-remove.svg" width=16px>**. {{Version/it|0.21}}                                                                                                                                                                                                                                                |
 +++
 |                                                                       | Il gestore Addon include il supporto sperimentale per i proxy che richiedono l\'autenticazione, impostati come proxy definiti dall\'utente.                                                                                                                                                                                                                                                                          |
@@ -971,17 +1242,54 @@ Nella scheda *Opzioni di Addon manager* ({{Version/it|0.20}}) puoi specificare q
 |                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                      |
 +++
 
-![](images/Preferences_Addon_Manager_Tab_Addon_manager_options.png )
+
+</div>
 
 ## Import-Export 
 
 Le preferenze Importa/Esporta influiscono sulla modalità di importazione ed esportazione dei file. Sono descritte nella pagina [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md).
+
+## Measure
+
+
+<small>(v1.0)</small> 
+
+This preferences group has a single page: Appearance.
+
+### Appearance
+
+<img alt="" src=images/Preferences_Measure_Page_Appearance.png  style="width:400px;">
+
+On this page you can specify the following:
+
++++
+| Name                             | Description                                                                             |
++==================================+=========================================================================================+
+|                   | Specifies the size of the text in pixels.                                               |
+| **Text size**        |                                                                                         |
+|                               |                                                                                         |
++++
+|                   | Specifies the color of the text.                                                        |
+| **Text color**       |                                                                                         |
+|                               |                                                                                         |
++++
+|                   | Specifies the color of the line connecting the text label with the measured element(s). |
+| **Line color**       |                                                                                         |
+|                               |                                                                                         |
++++
+|                   | Specifies the background color of the text label.                                       |
+| **Background color** |                                                                                         |
+|                               |                                                                                         |
++++
 
 
 
 ## Preferenze relative agli Ambienti di Lavoro 
 
 Le preferenze per gli ambienti di lavoro integrati sono elencate nei link seguenti. Questi collegamenti sono elencati anche in [:Category:Preferences](:Category_Preferences.md). Alcuni ambienti di lavoro non hanno preferenze.
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Preferenze dell\'ambiente Arch](Arch_Preferences/it.md)
 -   [Preferenze dell\'ambiente Draft](Draft_Preferences/it.md)
@@ -1005,14 +1313,12 @@ Le preferenze per gli ambienti di lavoro integrati sono elencate nei link seguen
 -   Preferenze dell\'ambiente Test Framework (nessuna)
 -   Preferenze dell\'ambiente Web (nessuna)
 
+
+</div>
+
 ## Scripting
 
-
-**Vedere anche:**
-
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-Per un esempio di script, vedere [Modifica parametri](Std_DlgParameter/it.md).
+See [Std DlgParameter](Std_DlgParameter#Scripting.md).
 
 
 

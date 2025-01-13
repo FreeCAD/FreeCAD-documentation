@@ -32,10 +32,7 @@ Jede 3D-Ansicht hat ihre eigene Arbeitsansicht. Eine neue Arbeitsansicht übersc
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Speichern der aktuellen Kameraeinstellungen der aktiven 3D-Ansicht als Arbeitsansicht:
 
@@ -50,7 +47,7 @@ FreeCADGui.runCommand("Std_StoreWorkingView", 0)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -22,10 +22,16 @@ For more information see [TechDraw HorizontalExtentDimension](TechDraw_Horizonta
 *Horizontal and vertical extent dimensions of a B-spline*
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{TechDraw Tools navi
+
+
+</div>
+
+
+{{TechDraw_Tools_navi
 
 }}
 

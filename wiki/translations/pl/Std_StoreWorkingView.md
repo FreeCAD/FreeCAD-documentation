@@ -32,10 +32,7 @@ Każdy widok 3D ma swój własny widok roboczy. Zapisanie nowego widoku roboczeg
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również:**
-
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Zapisywanie bieżących ustawień ujęcia widoku aktywnego okna widoku 3D w widoku roboczym:
 
@@ -50,7 +47,7 @@ FreeCADGui.runCommand("Std_StoreWorkingView", 0)
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

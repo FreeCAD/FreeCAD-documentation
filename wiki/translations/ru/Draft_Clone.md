@@ -11,6 +11,9 @@
 # Draft Clone/ru
 
 
+</div>
+
+
 
 ## Описание
 
@@ -22,7 +25,13 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Команду можно применить к 2D-объектам, созданным в [верстаке Draft](Draft_Workbench/ru.md) или [верстаке Sketcher](Sketcher_Workbench/ru.md), а также на многих 3D-объектах, которые созданы в [верстаке Part](Part_Workbench/ru.md), [верстаке PartDesign](PartDesign_Workbench/ru.md) или [верстаке Arch](Arch_Workbench/ru.md). Клоны 2D-объектов могут быть использованы при [создании тел](PartDesign_Body/ru.md).
+
+
+</div>
 
 <img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;"> 
 *Клонированная копия рядом с исходным объектом*
@@ -82,7 +91,7 @@ cloned_object = make_clone(obj, delta=None, forcedraft=False)
 
 -    `delta`is the displacement vector to be applied to the clone.
 
--   If `forcedraft` is `False` and `obj` contains a single [Arch object](Arch_Workbench.md) an Arch Clone is created. Set `forcedraft` to `True` to create a Draft Clone instead.
+-   If `forcedraft` is `False` and `obj` contains a single [BIM object](BIM_Workbench.md), an Arch Clone is created. Set `forcedraft` to `True` to create a Draft Clone instead.
 
 -    `cloned_object`is returned with the clone object.
 

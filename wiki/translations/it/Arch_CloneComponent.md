@@ -34,5 +34,13 @@ Il componente clone ha semplicemente la sua proprietà **CloneOf** impostata sul
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/it
+⏵ [documentation index](../README.md) > Arch CloneComponent/it

@@ -1,10 +1,19 @@
-# <img alt="El icono del Ambiente de trabajo Hoja de cálculo" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/es
+# Spreadsheet Workbench/es
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+<img alt="El icono del Entorno de trabajo Hoja de cálculo" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
 
 
 
 ## Introducción
 
-El <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Ambiente de trabajo de hojas de cálculo](Spreadsheet_Workbench/es.md) permite crear y editar hojas de cálculo, utilizar datos de la hoja de cálculo como parámetros en un modelo, rellenar la hoja de cálculo con datos recuperados de un modelo, realizar cálculos y exportar los datos a otras aplicaciones de hojas de cálculo como LibreOffice o Microsoft Excel.
+El <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Entorno de trabajo de hojas de cálculo](Spreadsheet_Workbench/es.md) permite crear y editar hojas de cálculo, utilizar datos de la hoja de cálculo como parámetros en un modelo, rellenar la hoja de cálculo con datos recuperados de un modelo, realizar cálculos y exportar los datos a otras aplicaciones de hojas de cálculo como LibreOffice o Microsoft Excel.
 
 
 
@@ -22,27 +31,45 @@ El <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Ambie
 
 -   <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> [Exportar](Spreadsheet_Export/es.md): exporta un archivo CSV desde una hoja de cálculo.
 
--   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> [Unir celdas](Spreadsheet_MergeCells.md): une las celdas seleccionadas.
+-   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> [Unir celdas](Spreadsheet_MergeCells/es.md): une las celdas seleccionadas.
 
--   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> [Dividir celdas](Spreadsheet_SplitCell.md): divide celdas previamente unidas.
+-   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> [Dividir celda](Spreadsheet_SplitCell/es.md): divide celdas previamente unidas.
 
--   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> [Alinear a la izquierda](Spreadsheet_AlignLeft.md): alinea el contenido de las celdas seleccionadas a la izquierda.
+-   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> [Alinear a la izquierda](Spreadsheet_AlignLeft/es.md): alinea el contenido de las celdas seleccionadas a la izquierda.
 
--   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> [Alinear al centro](Spreadsheet_AlignCenter.md): alinea el contenido de las celdas seleccionadas al centro horizontalmente.
+-   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> [Alinear al centro](Spreadsheet_AlignCenter/es.md): alinea el contenido de las celdas seleccionadas al centro horizontalmente.
 
--   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> [Alinear a la derecha](Spreadsheet_AlignRight.md): alinea el contenido de las celdas seleccionadas a la derecha.
+-   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> [Alinear a la derecha](Spreadsheet_AlignRight/es.md): alinea el contenido de las celdas seleccionadas a la derecha.
 
--   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> [Alinear arriba](Spreadsheet_AlignTop.md): alinea el contenido de las celdas seleccionadas hacia arriba.
+-   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> [Alinear arriba](Spreadsheet_AlignTop/es.md): alinea el contenido de las celdas seleccionadas hacia arriba.
 
--   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> [Alinear al centro vertical](Spreadsheet_AlignVCenter.md): alinea el contenido de las celdas seleccionadas al centro vertical.
+-   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> [Centrar verticalmente](Spreadsheet_AlignVCenter/es.md): alinea el contenido de las celdas seleccionadas al centro vertical.
 
--   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Alinear abajo](Spreadsheet_AlignBottom.md): alinea el contenido de las celdas seleccionadas hacia abajo.
+-   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Alinear abajo](Spreadsheet_AlignBottom/es.md): alinea el contenido de las celdas seleccionadas hacia abajo.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Estilo negrita](Spreadsheet_StyleBold.md): establece el contenido de las celdas seleccionadas a negrita.
 
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Estilo itálica](Spreadsheet_StyleItalic.md): establece el contenido de las celdas seleccionadas a itálica.
+<div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Estilo subrayar](Spreadsheet_StyleUnderline.md): establece el contenido de las celdas seleccionadas a subrayar.
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Estilo negrita](Spreadsheet_StyleBold/es.md): establece el contenido de las celdas seleccionadas a negrita.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Estilo cursiva](Spreadsheet_StyleItalic/es.md): establece el contenido de las celdas seleccionadas a cursiva.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Estilo subrayado](Spreadsheet_StyleUnderline/es.md): establece el contenido de las celdas seleccionadas a subrayar.
+
+
+</div>
 
 -   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Establecer alias](Spreadsheet_SetAlias/es.md): establece el alias para una celda seleccionada.
 
@@ -54,15 +81,11 @@ El <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Ambie
 
 -   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Preferencias](Spreadsheet_Preferences.md): las preferencias para el entorno de trabajo Spreadsheet. <small>(v0.20)</small> 
 
-## Removing cells can be dangerous 
 
 
-<div class="mw-translate-fuzzy">
+## Eliminar celdas puede ser peligroso 
 
 Note que eliminar celdas con datos puede romper la hoja de cálculo y tu modelo si este se basa en la hoja de cálculo. No será advertido previamente si esto sucede.
-
-
-</div>
 
 
 
@@ -70,33 +93,25 @@ Note que eliminar celdas con datos puede romper la hoja de cálculo y tu modelo 
 
 Filas y columnas pueden ser insertadas o eliminadas haciendo clic derecho en un encabezado de fila o columna y seleccionando la opción apropiada en el menú contextual. Es posible seleccionar primero varias filas o columnas. Ya sea manteniendo presionado la tecla {{KEY | Ctrl}} al seleccionar los encabezados, o manteniendo presionado el botón del mouse izquierdo y arrastrando.
 
-## Edit cells 
 
-The content of a cell can be edited by selecting the cell and entering a value in the **Content** inputbox at the top of the window. To edit a cell in-place, select it and press **F2**, or double-click it.
 
-## Delete cells 
+## Editar celdas 
 
-To delete one or more cells select them and press **Del**. This will delete their contents, their properties and their aliases. To only delete the content of a cell it should be edited instead.
+El contenido de una celda se puede editar seleccionando la celda e ingresando un valor en el cuadro de entrada **Content** en la parte superior de la ventana. Para editar una celda en el lugar, selecciónela y presione **F2**, o haga doble clic en ella.
+
+
+
+## Eliminar celdas 
+
+Para eliminar una o más celdas selecciónelas y presione **Supr**. Esto eliminará sus contenidos, sus propiedades y sus alias. Para eliminar solo el contenido de una celda, se debe editar.
 
 
 
 ## Cortar y copiar-pegar celdas 
 
+Las operaciones de cortar y copiar-pegar se pueden usar en las celdas de hojas de cálculo. Puede usar los atajos normales para estas operaciones: {{KEY | Ctrl}} {{KEY | X}}, {{KEY | Ctrl}} {{KEY | C}} y {{KEY | Ctrl}} {{KEY | V}} respectivamente. Para seleccionar múltiples celdas, mantenga presionada la tecla {{KEY | Ctrl}} mientras selecciona, o mantenga presionado el botón del mouse izquierdo y arrastre para seleccionar un rango de celda rectangular.
 
-<div class="mw-translate-fuzzy">
-
-Las operaciones de cortar y copiar-pegar se pueden usar en las celdas de hojas de cálculo de FreeCAD. Puede usar los atajos normales para estas operaciones: {{KEY | Ctrl}} {{KEY | X}}, {{KEY | Ctrl}} {{KEY | C}} y {{KEY | Ctrl}} {{KEY | V}} respectivamente. Para seleccionar múltiples celdas, mantenga presionada la tecla {{KEY | Ctrl}} mientras selecciona, o mantenga presionado el botón del mouse izquierdo y arrastre para seleccionar un rango de celda rectangular.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Las operaciones de cortar y copiar almacenan el contenido y las propiedades de las celdas en el portapapeles. La operación de pegar escribe los datos de tal manera que el contenido de la celda superior izquierda de los datos almacenados aparezcan en la celda activa. Otro contenido almacenado se coloca en relación con esa celda. Las fórmulas se actualizan en consecuencia.
-
-
-</div>
+Las operaciones de cortar y copiar almacenan contenidos, propiedades y alias de las celdas en el portapapeles. La operación de pegar escribe los datos de tal manera que el contenido de la celda superior izquierda de los datos almacenados aparezcan en la celda activa. Otro contenido almacenado se coloca en relación con esa celda. Las fórmulas se actualizan en consecuencia. Los alias se pegan únicamente si son únicos.
 
 
 
@@ -108,9 +123,6 @@ Las propiedades de una celda de la hoja de cálculo pueden ser editadas haciendo
 
 Como se indica en las pestañas, se pueden modificar las siguientes propiedades:
 
-
-<div class="mw-translate-fuzzy">
-
 -   Color: Color del texto y del fondo
 -   Alineación: Alineación horizontal y vertical del texto
 -   Estilo: Estilo del texto: negrita, cursiva, subrayado
@@ -118,38 +130,17 @@ Como se indica en las pestañas, se pueden modificar las siguientes propiedades:
 -   Alias: Define un [alias](Spreadsheet_SetAlias/es.md) para esta celda. Este alias se puede utilizar en las fórmulas de las celdas y también en las [expresiones](Expressions/es.md) generales; consulte la sección [Datos de la hoja de cálculo en las expresiones](#Datos_de_hoja_en_expresiónes.md) para obtener más información.
 
 
-</div>
-
-
 
 ## Expresiones de la celda 
 
+Una celda de la hoja de cálculo puede contener un número, un texto o una expresión. Las expresiones deben comenzar con un signo igual \'=\'.
 
-<div class="mw-translate-fuzzy">
+Las expresiones de celdas pueden contener números, funciones, referencias a otras celdas y referencias a propiedades del modelo (Pero vea [Limitaciones actuales](#Limitaciones_actuales.md) más abajo). Una celda puede ser referenciada por su dirección (columna con letra MAYÚSCULA + número de fila, ejemplo: B4) o por su [alias](Spreadsheet_SetAlias/es.md).
 
-Una celda de la hoja de cálculo puede contener un texto arbitrario o una expresión. Técnicamente, las expresiones deben comenzar con un signo igual \'=\'. Sin embargo, la hoja de cálculo intenta ser inteligente; si se introduce lo que parece una expresión sin el \'=\' inicial, se añadirá uno automáticamente.
+**Nota:** Las expresiones de celda son tratadas por FreeCAD como código de programación. Por lo tanto, cuando editas una celda el contenido podría ver que no sigue su configuración de visualización:
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Las expresiones de celdas pueden contener números, funciones, referencias a otras celdas y referencias a propiedades del modelo (Pero vea [Limitaciones actuales](#Limitaciones_actuales.md) más abajo). Las celdas se referencian por su columna (letra MAYÚSCULA) y fila (número). Una celda también puede ser referenciada por su [nombre_alias](#nombre_alias.md). Ejemplo: B4 + A6
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-**Nota:** Las expresiones de celda son tratadas por FreeCAD como código de programación. Por lo tanto, cuando editas una celda el contenido ves que no sigue su configuración de visualización:
-
--   el separador decimal es siempre un punto
--   el número de decimales mostrados puede diferir de tu configuración de [ajustes de preferencias](Preferences_Editor/es#Unidades.md)
-
-
-</div>
+-   El separador decimal es siempre un punto. Pero comas pueden ser usadas al ingresar valores.
+-   El número de decimales mostrados puede diferir de tu configuración de [ajustes de preferencias](Preferences_Editor/es#Unidades.md).
 
 Las referencias a objetos en el modelo se explican en [Referencias a datos CAD](#Referencias_a_datos_CAD.md) más abajo. El uso de los valores de las celdas de la hoja de cálculo para definir las propiedades del modelo se explica en [Datos de la hoja de cálculo en las expresiones](#Hoja_de_datos_en_expresiones.md) más adelante. Para más información sobre las expresiones y las funciones disponibles, véase [Expresiones](Expressions/es.md).
 
@@ -163,75 +154,75 @@ De manera similar, las propiedades de los objetos del modelo CAD pueden usarse e
 
 Se puede usar más de una hoja de cálculo en un documento. Una hoja de cálculo puede ser identificada usando su nombre o su etiqueta.
 
-FreeCAD will automatically assign a unique name to a spreadsheet when it is created. These names follow the pattern `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` and so on. The name can not be changed, and it is not visible in the properties of the spreadsheet. It can be used to refer to the spreadsheet in an [Expression](Expressions.md) (see [Spreadsheet data in expressions](#Spreadsheet_data_in_expressions.md) below.)
+FreeCAD asignará automáticamente un nombre único a una hoja de cálculo cuando se cree. Estos nombres siguen el patrón `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` y así sucesivamente. El nombre no se puede cambiar y no es visible en las propiedades de la hoja de cálculo. Se puede utilizar para hacer referencia a la hoja de cálculo en una [Expresión](Expressions/es.md) (consulte [Datos de la hoja de cálculo en expresiones](#Spreadsheet_data_in_expressions.md) a continuación).
 
-The label of a spreadsheet is automatically set to the name of the spreadsheet upon creation. Unlike the name, the label can be changed, for example in the properties panel or using the context menu action Rename. By default FreeCAD does not accept duplicate labels, but there is a [preference](Preferences_Editor#Document.md) to override this. Spreadsheets with duplicate labels in the same document cannot be referenced by their label.
+La etiqueta de una hoja de cálculo se establece automáticamente con el nombre de la hoja de cálculo al momento de su creación. A diferencia del nombre, la etiqueta se puede cambiar, por ejemplo en el panel de propiedades o usando la acción Cambiar nombre del menú contextual. Por defecto, FreeCAD no acepta etiquetas duplicadas, pero existe una [preferencia](Preferences_Editor#Document.md) para anular esto. No se puede hacer referencia a las hojas de cálculo con etiquetas duplicadas en el mismo documento por su etiqueta.
 
-FreeCAD checks for cyclic dependencies. See [Current limitations](Spreadsheet_Workbench#Current_limitations.md).
+FreeCAD comprueba si hay dependencias cíclicas. Consulte [Limitaciones actuales](Spreadsheet_Workbench#Current_limitations.md).
 
 
 
 ### Referencias a los datos CAD 
 
-As indicated above, one can reference data from the CAD model in spreadsheet expressions.
+Como se indicó anteriormente, se pueden hacer referencia a datos del modelo CAD en expresiones de hoja de cálculo.
 
-The following table shows some examples assuming the model has a feature named \"MyCube\":
+La siguiente tabla muestra algunos ejemplos suponiendo que el modelo tiene una característica denominada \"MyCube\":
 
 ++++
-| CAD-Data                                       | Cell in Spreadsheet                                      | Result                         |
-+================================================+==========================================================+================================+
-| Parametric Length of a Part-Workbench Cube     |                                           | Length with units mm           |
-|                                                | {{Incode|<nowiki>=MyCube.Length</nowiki>}}               |                                |
-|                                                |                                                       |                                |
+| Datos CAD                                                   | Celda en la hoja de cálculo                              | Resultado                     |
++=============================================================+==========================================================+===============================+
+| Longitud paramétrica de un cubo del entorno de trabajo Part |                                           | Longitud con unidades mm      |
+|                                                             | {{Incode|<nowiki>=MyCube.Length</nowiki>}}               |                               |
+|                                                             |                                                       |                               |
 ++++
-| Volume of the Cube                             |                                           | Volume in mm³ without units    |
-|                                                | {{Incode|<nowiki>=MyCube.Shape.Volume</nowiki>}}         |                                |
-|                                                |                                                       |                                |
+| Volumen del cubo                                            |                                           | Volumen en mm³ sin unidades   |
+|                                                             | {{Incode|<nowiki>=MyCube.Shape.Volume</nowiki>}}         |                               |
+|                                                             |                                                       |                               |
 ++++
-| Type of the Cube-shape                         |                                           | String: Solid                  |
-|                                                | {{Incode|<nowiki>=MyCube.Shape.ShapeType</nowiki>}}      |                                |
-|                                                |                                                       |                                |
+| Tipo de forma de cubo                                       |                                           | Cadena de texto: Solid        |
+|                                                             | {{Incode|<nowiki>=MyCube.Shape.ShapeType</nowiki>}}      |                               |
+|                                                             |                                                       |                               |
 ++++
-| Label of the Cube                              |                                           | String: MyCube                 |
-|                                                | {{Incode|<nowiki>=MyCube.Label</nowiki>}}                |                                |
-|                                                |                                                       |                                |
+| Etiqueta del cubo                                           |                                           | Cadena: MyCube                |
+|                                                             | {{Incode|<nowiki>=MyCube.Label</nowiki>}}                |                               |
+|                                                             |                                                       |                               |
 ++++
-| X coordinate of the center of mass of the Cube |                                           | Coordinate in mm without units |
-|                                                | {{Incode|<nowiki>=MyCube.Shape.CenterOfMass.x</nowiki>}} |                                |
-|                                                |                                                       |                                |
+| Coordenada X del centro de masa del cubo                    |                                           | Coordenada en mm sin unidades |
+|                                                             | {{Incode|<nowiki>=MyCube.Shape.CenterOfMass.x</nowiki>}} |                               |
+|                                                             |                                                       |                               |
 ++++
 
 
 
 ### Datos de la hoja de cálculo en expresiones 
 
-In order to use spreadsheet data in other parts of FreeCAD, you will usually create an [Expression](Expressions.md) that refers to the spreadsheet and the cell that contains the data you want to use. You can identify spreadsheets by name or by label, and you can identify the cells by address or by alias. Autocompletion is available for all forms of referencing.
+Para utilizar datos de hojas de cálculo en otras partes de FreeCAD, normalmente creará una [Expresión](Expressions/es.md) que haga referencia a la hoja de cálculo y a la celda que contiene los datos que desea utilizar. Puede identificar hojas de cálculo por nombre o por etiqueta, y puede identificar las celdas por dirección o alias. El autocompletado está disponible para todas las formas de referencias.
 
 ++++
-|                 | Spreadsheet by Name                                 | Spreadsheet by Label                                   |
-+=================+=====================================================+========================================================+
-| Cell by Address |                                      |                                         |
-|                 | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
-|                 |                                                  |                                                     |
+|                     | Hoja de cálculo por nombre                          | Hoja de cálculo por etiqueta                           |
++=====================+=====================================================+========================================================+
+| Celda por dirección |                                      |                                         |
+|                     | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
+|                     |                                                  |                                                     |
 ++++
-| Cell by Alias   |                                      |                                         |
-|                 | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
-|                 |                                                  |                                                     |
+| Celda por alias     |                                      |                                         |
+|                     | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
+|                     |                                                  |                                                     |
 ++++
 
 
 <div class="mw-collapsible mw-collapsed">
 
-The recommended way to refer to spreadsheet data is to use the spreadsheet label and cell alias name. For a more in-depth explanation of the pros and cons of the referencing modes, see the expanded section below.
+La forma recomendada de hacer referencia a los datos de una hoja de cálculo es utilizar la etiqueta de la hoja de cálculo y el nombre del alias de la celda. Para obtener una explicación más detallada de los pros y los contras de los modos de referencia, consulte la sección ampliada a continuación.
 
 
 <div class="mw-collapsible-content">
 
-Using the spreadsheet label has the advantage that it can be freely changed to describe the contents of the spreadsheet. It is also easier to identify the spreadsheet that is being used since the text in the expression matches the label shown in the model and property views. If you decide to change the label of a spreadsheet, existing references to the contents of the spreadsheet will be updated, so you won\'t break your expressions by renaming the spreadsheet. The internal name of the spreadsheet is not readily available anywhere except within the expression editor, so if you use the internal name and later decide to rename the spreadsheets, you might have a hard time tracing your expression data back to its source.
+El uso de la etiqueta de la hoja de cálculo tiene la ventaja de que se puede cambiar libremente para describir el contenido de la hoja de cálculo. También es más fácil identificar la hoja de cálculo que se está utilizando ya que el texto de la expresión coincide con la etiqueta que se muestra en las vistas de modelo y propiedades. Si decide cambiar la etiqueta de una hoja de cálculo, se actualizarán las referencias existentes al contenido de la hoja de cálculo, por lo que no romperá sus expresiones al cambiar el nombre de la hoja de cálculo. El nombre interno de la hoja de cálculo no está disponible en ningún lugar excepto en el editor de expresiones, por lo que si usa el nombre interno y luego decide cambiar el nombre de las hojas de cálculo, es posible que le resulte difícil rastrear los datos de la expresión hasta su origen.
 
-Be aware that when you create a new spreadsheet, the name and the label are the same, so it is easy to accidentally use the spreadsheet name instead of the label. A simple way to avoid this is to give the spreadsheet a meaningful name before starting to use it in expressions.
+Tenga en cuenta que cuando crea una nueva hoja de cálculo, el nombre y la etiqueta son los mismos, por lo que es fácil utilizar accidentalmente el nombre de la hoja de cálculo en lugar de la etiqueta. Una forma sencilla de evitar esto es darle a la hoja de cálculo un nombre significativo antes de comenzar a usarla en expresiones.
 
-While you may use the row and column number in an expression to reference a cell, best practice is to give the cell an alias name and use that. See [Cell properties](#Cell_properties.md) on how to set the alias. For example, if the data in cell B1 contained the length parameter for an object, an alias name of `MyObject_Length` would allow the value to be referred to as `<<MyParams>>.MyObject_Length` instead of `Spreadsheet.B1`. Besides being much easier to read and understand, alias names are also much easier to change if you decide to adjust the structure of your spreadsheet. Using an alias also has the advantage that it is reasier to see which cells are used to control other parts of the document. Note that FreeCAD will automatically adjust the positional references in expressions if you insert or remove rows and columns in the spreadsheet, so even if you use row and column numbers in an expression, you can insert rows and columns without breaking the references to the surrounding cells.
+Si bien puede usar el número de fila y columna en una expresión para hacer referencia a una celda, la mejor práctica es darle a la celda un nombre de alias y usarlo. Consulta [Propiedades de celda](#Cell_properties.md) sobre cómo configurar el alias. Por ejemplo, si los datos de la celda B1 contenían el parámetro de longitud de un objeto, un nombre de alias de `MyObject_Length` permitiría hacer referencia al valor como `<<MyParams>>.MyObject_Length` en lugar de `Hoja de cálculo.B1`. Además de ser mucho más fáciles de leer y comprender, los nombres de alias también son mucho más fáciles de cambiar si decides ajustar la estructura de tu hoja de cálculo. Usar un alias también tiene la ventaja de que es más fácil ver qué celdas se usan para controlar otras partes del documento. Tenga en cuenta que FreeCAD ajustará automáticamente las referencias posicionales en las expresiones si inserta o elimina filas y columnas en la hoja de cálculo, por lo que incluso si usa números de filas y columnas en una expresión, puede insertar filas y columnas sin romper las referencias a las celdas circundantes. .
 
 
 </div>
@@ -243,67 +234,71 @@ While you may use the row and column number in an expression to reference a cell
 
 ### Modelos complejos y recálculos 
 
-Editing a spreadsheet will trigger a recompute of the 3D model, even if the changes do not affect the model. For a complex model a recompute can take a long time, and having to wait after every single edit is of course quite annoying.
+La edición de una hoja de cálculo activará un nuevo cálculo del modelo 3D, incluso si los cambios no afectan el modelo. Para un modelo complejo, un nuevo cálculo puede llevar mucho tiempo y, por supuesto, tener que esperar después de cada edición es bastante molesto.
 
-There are three solutions to deal with this:
+Hay tres soluciones para hacer frente a esto:
 
-1.  Temporarily skip recomputes:
-    -   In the [Tree view](Tree_view.md) right-click the <img alt="" src=images/Document.svg  style="width:24px;"> document that contains the spreadsheet.
-    -   Select the **Skip recomputes** option from the context menu.
-    -   There is a big disadvantage to this solution. New values entered in the spreadsheet will not be displayed until the document is recomputed. Instead `#PENDING` is shown.
-    -   You can either recompute manually, using the [Std Refresh](Std_Refresh.md) command, or disable **Skip recomputes** when you are done editing.
-2.  Use a macro to automatically skip recomputes while editing a spreadsheet:
-    -   Download and run [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
-    -   This solution saves a few steps compared to the first solution, but also has the mentioned disadvantage.
-3.  Put the spreadsheet in a separate [FreeCAD file](File_Format_FCStd.md):
-    -   You can reference spreadsheet data from an external **.FCStd** file with this syntax: `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
-    -   The advantage of having the spreadsheet in another file over switching off recomputes is that the spreadsheet itself does get recomputed.
-    -   The disadvantage is that the model won\'t automatically recompute after changes to the spreadsheet.
-    -   In the scenario where you first open the \'spreadsheet\' file, change one or more values and then open the \'model\' file, there won\'t be any indication that the model needs to be recomputed. But if both files are open the [Std Refresh](Std_Refresh.md) icon will update correctly for the \'model\' file after changes to the \'spreadsheet\' file.
+1.  Omitir temporalmente los recálculos:
+    -   En la [Vista de árbol](Tree_view/es.md), haga clic derecho en el documento <img alt="" src=images/Document.svg  style="width:24px;"> que contiene la hoja de cálculo.
+    -   Seleccione la opción **Omitir recálculos** en el menú contextual.
+    -   Esta solución tiene una gran desventaja. Los nuevos valores ingresados ​​en la hoja de cálculo no se mostrarán hasta que se vuelva a calcular el documento. En su lugar se muestra `#PENDING`.
+    -   Puede volver a calcular manualmente, usando el comando [Std Refresh](Std_Refresh/es.md), o desactivar **Omitir recálculos** cuando haya terminado de editar.
+2.  Use una macro para omitir automáticamente los recálculos mientras edita una hoja de cálculo:
+    -   Descargue y ejecute [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
+    -   Esta solución ahorra algunos pasos en comparación con la primera solución, pero también tiene la desventaja mencionada.
+3.  Coloque la hoja de cálculo en un [archivo de FreeCAD](File_Format_FCStd/es.md) separado:
+    -   Puede hacer referencia a datos de hoja de cálculo desde un archivo externo **.FCStd** con esta sintaxis: `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
+    -   La ventaja de tener la hoja de cálculo en otro archivo en lugar de desactivar los recálculos es que la hoja de cálculo en sí se vuelve a calcular.
+    -   La desventaja es que el modelo no volverá a calcular automáticamente después de realizar cambios en la hoja de cálculo.
+    -   En el escenario en el que abre por primera vez el archivo de la \'hoja de cálculo\', cambia uno o más valores y luego abre el archivo del \'modelo\', no habrá ninguna indicación de que sea necesario volver a calcular el modelo. Pero si ambos archivos están abiertos, el icono [Std Refresh](Std_Refresh/es.md) se actualizará correctamente para el archivo del \'modelo\' después de los cambios en el archivo de la \'hoja de cálculo\'.
 
 
 
 ## Unidades
 
-The Spreadsheet has a notion of dimension (units) associated with cell values. A number entered without an associated unit has no dimension. The unit should be entered immediately following the number value, with no intervening space. If a number has an associated unit, that unit will be used in all calculations. For example, the multiplication of two lengths with the unit mm gives an area with the unit mm².
+La hoja de cálculo tiene una noción de dimensión (unidades) asociada con los valores de las celdas. Un número ingresado sin una unidad asociada no tiene dimensión. La unidad debe ingresarse inmediatamente después del valor numérico, sin espacios intermedios. Si un número tiene una unidad asociada, esa unidad se utilizará en todos los cálculos. Por ejemplo, la multiplicación de dos longitudes con la unidad mm da un área con la unidad mm².
 
-If a cell contains a value which represents a dimension, it should be entered with its associated unit. While in many simple cases one can get by with a dimensionless value, it is unwise to not enter the unit. If a value representing a dimension is entered without its associated unit, there are some sequences of operations which cause FreeCAD to complain of incompatible units in an expression when it appears the expression should be valid. (This may be better understood by viewing [this thread](https://forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) in the FreeCAD forums.)
+Si una celda contiene un valor que representa una dimensión, se debe ingresar con su unidad asociada. Si bien en muchos casos simples uno puede arreglárselas con un valor adimensional, no es prudente no ingresar la unidad. Si se ingresa un valor que representa una dimensión sin su unidad asociada, hay algunas secuencias de operaciones que hacen que FreeCAD se queje de unidades incompatibles en una expresión cuando parece que la expresión debería ser válida. (Esto se puede entender mejor consultando [este hilo](https://forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) en los foros de FreeCAD).
 
-You can change the units displayed for a cell value using the [Cell properties dialog](#Cell_properties.md). This does not change the value contained in the cell; it only converts the existing value for display. The value used for calculations does not change, and the results of formulas using the value do not change. For example, a cell containing the value \"5.08cm\" can be displayed as \"2in\" by changing the units tab value to \"in\".
+Puede cambiar las unidades mostradas para un valor de celda usando el [diálogo de propiedades de celda](#Cell_properties.md). Esto no cambia el valor contenido en la celda; solo convierte el valor existente para su visualización. El valor utilizado para los cálculos no cambia y los resultados de las fórmulas que utilizan el valor no cambian. Por ejemplo, una celda que contiene el valor \"5,08 cm\" se puede mostrar como \"2 pulgadas\" cambiando el valor de la pestaña de unidades a \"pulgadas\".
 
-A dimensionless number cannot be changed to a number with a unit by the cell properties dialog. One can put in a unit string, and that string will be displayed; but the cell still contains a dimensionless number. In order to change a dimensionless value to a value with a dimension, the value itself must be re-entered with its associated unit.
+Un número adimensional no se puede cambiar a un número con una unidad mediante el cuadro de diálogo de propiedades de la celda. Se puede introducir una cadena de unidad y esa cadena se mostrará; pero la celda todavía contiene un número adimensional. Para cambiar un valor sin dimensiones a un valor con una dimensión, se debe volver a ingresar el valor en sí con su unidad asociada.
 
-Occasionally it may be desirable to get rid of a dimension in an expression. This can be done by multiplying by 1 with a reciprocal unit.
+En ocasiones puede resultar conveniente eliminar una dimensión de una expresión. Esto se puede hacer multiplicando por 1 con una unidad recíproca.
 
 
 
 ## Importación y exportación 
 
-### CSV format 
 
-FreeCAD spreadsheets can be imported and exported to the [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) format which can also be read and written by most other spreadsheet applications such as Microsoft Excel or LibreOffice Calc. See [Spreadsheet Import](Spreadsheet_Import.md) and [Spreadsheet Export](Spreadsheet_Export.md) for more information.
 
-### XLSX format 
+### Formato CSV 
 
-Spreadsheets in the Excel-format XLSX can be imported with the [Std Import](Std_Import.md) command or the [Std Open](Std_Open.md) command. The following features are supported:
+Las hojas de cálculo de FreeCAD se pueden importar y exportar al formato [​​CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas), que también puede leerse y escribirse en la mayoría de las otras aplicaciones de hojas de cálculo, como Microsoft Excel o LibreOffice Calc. Consulte [Importar hoja de cálculo](Spreadsheet_Import/es.md) y [Exportar hoja de cálculo](Spreadsheet_Export/es.md) para obtener más información.
 
--   All functions that are also available in the FreeCAD spreadsheet. Other functions give an error in the corresponding cell after import.
--   Alias names for cells.
--   More than one sheet in the Excel-spreadsheet. In this case one FreeCAD spreadsheet is created for each Excel sheet.
 
-Other functionality is not imported into the FreeCAD spreadsheet.
+
+### Formato XLSX 
+
+Las hojas de cálculo en formato XLSX de Excel se pueden importar con el comando [Std Import](Std_Import/es.md) o el comando [Std Open](Std_Open/es.md). Se admiten las siguientes funciones:
+
+-   Todas las funciones que también están disponibles en la hoja de cálculo de FreeCAD. Otras funciones dan un error en la celda correspondiente después de la importación.
+-   Alias ​​de nombres para celdas.
+-   Más de una hoja en la hoja de cálculo de Excel. En este caso se crea una hoja de cálculo de FreeCAD para cada hoja de Excel.
+
+Otras funciones no se importan a la hoja de cálculo de FreeCAD.
 
 
 
 ## Impresión
 
-To handle the page setup necessary for printing, FreeCAD spreadsheets are printed by inserting them into a [TechDraw Spreadsheet View](TechDraw_SpreadsheetView.md).
+Para manejar la configuración de página necesaria para la impresión, las hojas de cálculo de FreeCAD se imprimen insertándolas en una [TechDraw Spreadsheet View](TechDraw_SpreadsheetView/es.md).
 
 
 
 ## Limitaciones actuales 
 
-FreeCAD checks for cyclic dependencies when it recomputes. By design, that check stops at the level of the spreadsheet object. As a consequence, you should not have a spreadsheet which contains both cells whose values are used to specify parameters to the model, and cells whose values use output from the model. For example, you cannot have cells specifying the length, width, and height of an object, and another cell which references the total volume of the resulting shape. This restriction can be surmounted by having two spreadsheets: one used as a data-source for input parameters to the model and the other used for calculations based on resultant geometry-data.
+FreeCAD comprueba si hay dependencias cíclicas cuando vuelve a calcular. Por diseño, esa verificación se detiene en el nivel del objeto de la hoja de cálculo. Como consecuencia, no debería tener una hoja de cálculo que contenga celdas cuyos valores se utilicen para especificar parámetros del modelo y celdas cuyos valores utilicen resultados del modelo. Por ejemplo, no puede tener celdas que especifiquen el largo, ancho y alto de un objeto, y otra celda que haga referencia al volumen total de la forma resultante. Esta restricción se puede superar teniendo dos hojas de cálculo: una utilizada como fuente de datos para los parámetros de entrada del modelo y la otra para cálculos basados ​​en los datos geométricos resultantes.
 
 
 
@@ -321,38 +316,46 @@ Es posible enlazar el contenido de unas celdas a otras celdas en la hoja de cál
 Para enlazar, por ejemplo, el rango de celdas A3-C4 al rango de celdas B1-D2:
 
 1.  Seleccione el rango de celdas A3-C4.
-2.  Clic derecho y seleccione **Enlace...** del menú contextual.
-3.  The **Bind Spreadsheet Cells** dialog opens.
-4.  Set the range B1-D2 for the **To cells**:
+2.  Clic derecho y seleccione **Enlazar...** del menú contextual.
+3.  El diálogo **Enlazar celdas e hoja de cálculo** se abre.
+4.  Establezca el rango B1-D2 para **A las celdas**:
     ![](images/Spreadsheet_binding-dialog.png )
-5.  Press **OK**.
-6.  Bound cells have a blue border to highlight the binding.
-7.  If you now enter something in cell C1, the same will immediately appear in cell B3.
+5.  Presione **Aceptar**.
+6.  Las celdas enlazadas tienen un borde azul para resaltar el enlace.
+7.  Si ahora ingresa algo en la celda C1, lo mismo aparecerá inmediatamente en la celda B3.
 
 ![](images/Spreadsheet_binding-result.png ) 
-*The spreadsheet may now look like this*
+*La hoja de cálculo ahora puede verse así*
 
-### Change binding 
 
-1.  Right-click a bound cell (there is no need to highlight the whole bound range) and select **Bind...** from the context menu.
-2.  The **Bind Spreadsheet Cells** dialog opens.
-3.  Change one or more options. Note that the **Bind cells**, the bound cell range, cannot be changed.
-4.  Press **OK**.
 
-### Remove binding 
+### Cambiar enlaces 
 
-1.  Right-click a bound cell (there is no need to highlight the whole bound range) and select **Bind...** from the context menu.
-2.  The **Bind Spreadsheet Cells** dialog opens.
-3.  Press **Unbind**.
+1.  Haga clic derecho en una celda enlazada (no es necesario resaltar todo el rango enlazado) y seleccione **Enlazar...** en el menú contextual.
+2.  Se abre el cuadro de diálogo **Enlazar celdas de hoja de cálculo**.
+3.  Cambie una o más opciones. Tenga en cuenta que **celdas enlazadas**, el rango de celdas enlazadas, no se puede cambiar.
+4.  Presione **Aceptar**.
 
-### Notes
 
--   The **Hide dependency of binding** option can be used to prevent problems with cyclic dependencies between spreadsheets. Selecting it is necessary when, for example, cells in *Spreadsheet A* are bound to *Spreadsheet B*, while cells in *Spreadsheet B*, in turn, are bound to some other cells in *Spreadsheet A*. This option should be used with caution:
-    -   Hiding dependencies can be dangerous because broken dependencies can damage your FreeCAD file. For example, when you delete a spreadsheet you will not be warned about hidden dependencies.
-    -   When you open a document with a spreadsheet containing a hidden dependency, you will get the spreadsheet marked to be recomputed. This is because a cyclic dependency cannot be recomputed automatically. To recompute the [Std Refresh](Std_Refresh.md) tool must be used.
--   The cell binding has a range check and warns you about mismatched ranges. For example binding 1x3 cells to 3x2 cells cannot work because it is unknown which 3 cells of the original 6 cells should be used.
--   You cannot change the cell range of an existing binding. You must first unbind the cells and then create a new binding.
--   The frame color indicating the binding cannot be changed yet.
+
+### Eliminar enlaces 
+
+1.  Haga clic derecho en una celda enlazada (no es necesario resaltar todo el rango enlazado) y seleccione **Enlazar...** en el menú contextual.
+2.  Se abre el cuadro de diálogo **Enlazar celdas de hoja de cálculo**.
+3.  Presione **Desenlazar**.
+
+
+
+## Notas
+
+-   La opción **Ocultar dependencia de enlace** se puede utilizar para evitar problemas con dependencias cíclicas entre hojas de cálculo. Seleccionarlo es necesario cuando, por ejemplo, las celdas de *Hoja de cálculo A* están vinculadas a la *Hoja de cálculo B*, mientras que las celdas de la *Hoja de cálculo B*, a su vez, están vinculadas a otras celdas de la *Hoja de cálculo B*. A\'\'. Esta opción debe usarse con precaución:
+    -   Ocultar dependencias puede ser peligroso porque las dependencias rotas pueden dañar su archivo FreeCAD. Por ejemplo, cuando eliminas una hoja de cálculo no se te advertirá sobre dependencias ocultas.
+    -   Cuando abre un documento con una hoja de cálculo que contiene una dependencia oculta, la hoja de cálculo se marcará para volver a calcularse. Esto se debe a que una dependencia cíclica no se puede volver a calcular automáticamente. Para volver a calcular se debe utilizar la herramienta [Std Refresh](Std_Refresh.md).
+-   El enlace de celda tiene una verificación de rango y le advierte sobre rangos que no coinciden. Por ejemplo, unir 1x3 celdas a 3x2 celdas no puede funcionar porque se desconoce qué 3 celdas de las 6 celdas originales deben usarse.
+-   No puede cambiar el rango de celdas de un enlace existente. Primero debes desvincular las celdas y luego crear una nueva vinculación.
+-   El color del marco que indica el enlace aún no
+
+se puede cambiar.
 
 
 
@@ -361,73 +364,45 @@ Para enlazar, por ejemplo, el rango de celdas A3-C4 al rango de celdas B1-D2:
 
 <small>(v0.20)</small> 
 
-Puedes usar hojas de cálculo para crear tablas de configuración con conjuntos de parámetros predefinidos para tu modelo, y después cambiar dinamicamente que configuración usar. Vea [este post del foro](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183) si quiere saber más sobre el funcionamiento interno de esta característica.
-
-
-<div class="mw-collapsible mw-collapsed toccolours">
-
-Expandir esta sección para un breve tutorial de como crear una tabla de configuración.
-
-
-<div class="mw-collapsible-content">
-
-1.  En un nuevo documento, primero cree una [Std Pieza](Std_Part/es.md), después cree un [Part Box](Part_Box/es.md), un [Part Cylinder](Part_Cylinder/es.md) y una hoja de cálculo.
-2.  La caja y el cilindro se colocan automáticamente en el contenedor [Std Pieza](Std_Part.md). Coloque manualmente la hoja de cálculo en el contenedor también.
-3.  En la hoja de cálculo ingrese the contenido mostrado abajo. Establezca el alias para B2 como {{Value|width}}, C2 como {{Value|length}} y D2 como {{Value|radius}}:
-    ![](images/Spreadsheet_configuration_table_screenshot_4.png )
-4.  Enlce las [expresiones](Expressions.md){{Value|Spreadsheet.width}} y {{Value|Spreadsheet.length}} a las propiedades **Width** y **Length** de la caja, respectivamente:
-    ![](images/Spreadsheet_configuration_table_screenshot_2.png )
-5.  Enlace la expresión {{Value|Spreadsheet.radius}} a la propiedad **Radius** del cilindro. Tambieén cambie la **Height** del cilindro a {{Value|5 mm}} para que sea más bajo que la caja.
-6.  Clic derecho en la celda A2 en la hoja de cálculo y seleccione **Tabla de configuración...** del menú contextual.
-7.  El cuadro de diálogo **Configurar tabl de configuración** se abre.
-8.  Ingrese lo siguiente:
-    ![](images/Spreadsheet_configuration_table_screenshot_5.png )
-9.  Presione **OK**.
-10. Se agregará una nueva propiedad llamada **Configuration** al contenedor [Std Part](Std_Part.md) para elegir la configuración como se muestra a continuación:
-    ![](images/Spreadsheet_configuration_table_screenshot_6.png )
-
-Puede usar un [Std Link](Std_LinkMake.md) o un [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) para instanciar una [Instancia de una Variante](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183&p=532130#p532130) de un objeto configurable con los siguientes pasos:
-
-1.  Cree un [Std Link](Std_LinkMake.md) al contenedor [Std Part](Std_Part.md) y configure su propiedad **Link Copy On Change** a {{Value|Enabled}}.
-2.  Mueva el Link a un nuevo lugar cambiando su **Posición** para que sea más fácil distinguirlo del objeto original.
-3.  Seleccione una **Configuración** diferente para el Link para crear una instancia de una variante.
-
 
 <div class="mw-translate-fuzzy">
 
-Pasos similares se aplican a un [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md), excepto que su propiedad para activar una instancia de una variante se llama **Binder Copy On Change**.
+Puedes usar hojas de cálculo para crear tablas de configuración con conjuntos de parámetros predefinidos para tu modelo, y después cambiar dinamicamente que configuración usar. Vea [este post del foro](https://forum.freecadweb.org/viewtopic.php?f=17&t=42183) si quiere saber más sobre el funcionamiento interno de esta característica.
 
 
 </div>
 
-
-</div>
-
-
-</div>
-
-
-
-## Scripting básico 
+## Scripting
 
 
 ```python
 import Spreadsheet
-sheet = App.ActiveDocument.addObject("Spreadsheet::Sheet","MySpreadsheet")
+sheet = App.ActiveDocument.addObject("Spreadsheet::Sheet", "MySpreadsheet")
 sheet.Label = "Dimensions"
 
-sheet.set('A1','10mm')
+sheet.set("A1", "10mm")
 sheet.recompute()
-sheet.get('A1')
+sheet.get("A1")
 
-sheet.setAlias('B1','Diameter')
-sheet.set('Diameter','20mm')
+sheet.setAlias("B1", "Diameter")
+sheet.set("Diameter", "20mm")
 sheet.recompute()
-sheet.get('Diameter')
+sheet.get("Diameter")
+
+# sheet.get() results in an error if the cell is empty.
+# sheet.getContents() can be used to check the cell first.
+if sheet.getContents("C1"):
+    print(sheet.get("C1"))
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Spreadsheet_Tools_navi

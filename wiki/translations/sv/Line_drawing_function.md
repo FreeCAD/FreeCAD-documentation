@@ -10,6 +10,8 @@ Denna sida visar hur lätt avancerad funktionalitet kan byggas i Python. I denna
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Huvudskriptet
@@ -50,6 +52,8 @@ class line:
 
 
 {{Top}}
+
+
 
 ## Detaljerad förklaring 
 
@@ -278,6 +282,8 @@ Eftersom vi är klara med vår linje, låt oss ta bort vår återanropsmekanism,
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Testa & använda skriptet 
@@ -345,6 +351,8 @@ Klicka sedan på två olika ställen i 3D vyn, och bingo, där är vår linje! F
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -440,6 +448,8 @@ Klart, nu behöver vi bara starta om FreeCAD och vi kommer att ha en ny snygg ar
 
 
 {{Top}}
+
+
 
 ## Så du vill ha mer? 
 

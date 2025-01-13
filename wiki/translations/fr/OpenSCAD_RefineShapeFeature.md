@@ -11,9 +11,11 @@
 
 ## Description
 
-Nettoie les arêtes résiduelles. Après une opération booléenne, certaines arêtes définissant les formes précédentes restent visibles, cet outil crée une copie de la totalité de l\'objet nettoyé.
+Nettoie les lignes non nécessaires. Après une opération booléenne, certaines arêtes définissant les formes précédentes restent visibles, cet outil crée une copie de la totalité de l\'objet nettoyé.
 
 ![](images/PartRefineShape_it.png )
+
+
 
 ## Utilisation
 
@@ -24,8 +26,10 @@ Nettoie les arêtes résiduelles. Après une opération booléenne, certaines ar
 
 ## Limitations
 
--   L\'algorithme de raffinement ne fonctionne que sur les coques. Par conséquent, il itère sur les coques de la forme originale, puis pour chaque coque, il crée une nouvelle coque avec des faces jointes autant que possible. Cela signifie que si votre forme originale est seulement une face, une polyligne, une arête ou un sommet, alors l\'algorithme ne fait rien.
--   À l\'opposé de l\'outil <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part Affiner la forme](Part_RefineShape/fr.md) de l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md), cette fonctionnalité se met à jour lorsque les formes sous-jacentes sont modifiées.
+-   L\'algorithme pour affiner ne fonctionne que sur les coques. Il passe donc en revue les coques de la forme d\'entrée et crée pour chacune d\'elles une nouvelle coque avec des faces jointes dans la mesure du possible. Cela signifie que si votre forme d\'entrée n\'est qu\'une face, une polyligne, une arête ou un sommet, l\'algorithme ne fait rien.
+-   À l\'opposé de l\'outil <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part Affiner la forme](Part_RefineShape/fr.md) de l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md), cette fonction **se met à jour** lorsque les formes sous-jacentes sont modifiées.
+
+
 
 ## Remarques
 

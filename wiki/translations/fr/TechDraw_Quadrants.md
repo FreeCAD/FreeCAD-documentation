@@ -31,7 +31,7 @@ L\'outil **TechDraw Sommets quadrants** ajoute trois [points cosmétiques](TechD
 ## Remarques
 
 -   Les sommets cosmétiques créés ne sont pas paramétriquement liés aux arêtes sélectionnées.
--   Pour supprimer un sommet cosmétique, utilisez <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw Supprimer l\'objet cosmétique](TechDraw_CosmeticEraser.md).
+-   Pour supprimer un sommet cosmétique, sélectionnez-le et appuyez sur **Supprimer**. {{Version/fr|1.0}}
 
 
 

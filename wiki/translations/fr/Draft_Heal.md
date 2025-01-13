@@ -3,7 +3,7 @@
    Name: Draft Heal
    Name/fr: Draft Réparer
    MenuLocation: Utilitaires , Réparer
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    SeeAlso: Draft_Upgrade/fr, Draft_Downgrade/fr
 ---
 

@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Join
-   Name/it: Unisci
-   MenuLocation: Modifiche , Unisci
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Unisci
+   MenuLocation: Modifiche , Unisci<br>Modifica , Unisci
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    Shortcut: **J** **O**
    Version: 0.18
    SeeAlso: Draft_Split/it
@@ -25,7 +25,8 @@ Il comando <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Draft U
 2.  Selezionare due o più [Linee](Draft_Line/it.md) e/o [Polilinee](Draft_Wire/it.md).
 3.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_Join.svg" width=16px> [Unisci](Draft_Join/it.md)**.
-    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Join.svg" width=16px> Unisci** dal menu.
+    -   [Draft](Draft_Workbench/it.md): Selezionare l\'opzione **Modifiche → <img src="images/Draft_Join.svg" width=16px> Unisci** dal menu.
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Modifica → <img src="images/Draft_Join.svg" width=16px> Unisci** dal menu.
     -   Usare la scorciatoia da tastiera: **J** quindi **O**.
 
 

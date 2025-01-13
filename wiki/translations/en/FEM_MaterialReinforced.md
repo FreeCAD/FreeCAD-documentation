@@ -1,9 +1,14 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand
    Name: FEM MaterialReinforced
    MenuLocation:  Model , Materials , Reinforced material 
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
+}}
+{{GuiCommandFemInfo
+   Solvers: CalculiX
+}}
 ---
 
 # FEM MaterialReinforced/en
@@ -27,6 +32,7 @@ Creates a reinforced matrix material. It combines a matrix material (e.g. concre
 
 -   In the CalculiX solver settings, one has to set Material Nonlinearity to linear if [FEM MaterialMechanicalNonlinear](FEM_MaterialMechanicalNonlinear.md) is not used.
 -   More information about this feature, and an example of its usage, can be found in [Analysis of reinforced concrete with FEM](Analysis_of_reinforced_concrete_with_FEM.md).
+-   For a video tutorial (based on the [FEM Tutorial](FEM_tutorial.md)) that uses this tool, watch: [FEM MaterialReinforced tutorial](https://www.youtube.com/watch?v=SZTIqhfCSVc).
 
 
 

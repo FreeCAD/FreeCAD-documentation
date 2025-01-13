@@ -24,7 +24,7 @@ The **Std Revert** command closes the active document and reopens the last saved
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

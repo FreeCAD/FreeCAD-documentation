@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/de
    Name: FEM MeshNetgenFromShape
    Name/de: FEM NetzNetgenAusForm
    MenuLocation: Netz , FEM mesh from shape by Netgen
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
+}}
+{{GuiCommandFemInfo/de
+   Solvers: CalculiX, Mystran, Z88
+}}
 ---
 
 # FEM MeshNetgenFromShape/de
@@ -13,42 +18,47 @@
 
 ## Beschreibung
 
-For a finite element analysis the geometry needs to be discretized into a [FEM Mesh](FEM_Mesh.md). This command uses Netgen (which needs to be installed on the system) for calculating the mesh.
+Für eine Finite-Elemente-Analyse muss die Geometrie in ein [FEM-Netz](FEM_Mesh/de.md) diskretisiert werden. Dieser Befehl verwendet [Netgen](https://www.ngsolve.org/) (das auf dem System installiert sein muss), um das Netz zu erstellen. Netgen-Netze werden von [Elmer](FEM_SolverElmer/de.md) nicht unterstützt.
 
-Depending on your operating system and your installation package Netgen might be bundled with FreeCAD or not. For further information see [FEM Install](FEM_Install.md).
+Je nach Betriebssystem und Installationspaket kann Netgen mit FreeCAD gebündelt sein oder nicht. Für weitere Informationen siehe [FEM Installation](FEM_Install/de.md).
 
 
 
 ## Anwendung
 
-1.  Select the shape you want to analyze. For a volume, this needs to be a solid or compsolid. A compsolid is necessary if your part is made from multiple materials. (A compsolid can be created with the [Part BooleanFragments](Part_BooleanFragments.md) command.)
-    -   Press the **<img src="images/FEM_MeshNetgenFromShape.svg" width=16px> [FEM mesh from shape by Netgen](FEM_MeshNetgenFromShape.md)** button, or
-    -   Select the **Mesh → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> FEM mesh from shape by Netgen** option from the menu.
-2.  Optionally, edit the parameters.
-3.  Click the **Apply** button to make a mesh, or **OK** button to make a mesh and close the dialogue.
+1.  Die zu analysierende Form auswählen. Bei einem Volumen muss es sich um ein Solid oder Compsolid handeln. Ein Compsolid ist erforderlich, wenn das Teil aus mehreren Materialien besteht. (ein Compsolid kann mit dem Befehl [Part BooleanFragments](Part_BooleanFragments/de.md) erstellt werden).
+2.  Das Werkzeug durch eine der folgenden Möglichkeiten aktivieren:
+    -   Die Schaltfläche **<img src="images/FEM_MeshNetgenFromShape.svg" width=16px> [FEM Netz aus Form - Netgen](FEM_MeshNetgenFromShape/de.md)** drücken.
+    -   Den Menüeintrag **Mesh → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> FEM-Netz aus Form - Netgen** auswählen.
+3.  Wahlweise minimale und maximale Elementgröße einstellen (Die vorgegebene Einstellung erstellt oft zu grobe Netze) sowie die Ordnung des Elements anpassen (die Checkbox *Zweite Ordnung* aktivieren).
+4.  Wahlweise die *Feinheit* aus einer der vorgegebenen Möglichkeiten auswählen oder *Benutzerdefiniert* auswählen, um die Parameter von Hand einzugeben.
+5.  Die Schaltfläche **Anwenden** drücken, um das Netz zu erstellen. {{Version/de|1.0}}: Wahlweise die Schaltfläche **Abbrechen** drücken, um das Vernetzen abzubrechen, wenn die neue Netgen-Implementation eingesetzt wird.
+6.  Die Schaltfläche **OK** drücken, um das Netz zu erstellen und den Dialog zu schließen. Oder die Schaltfläche **Abbrechen** drücken, um die Änderungen oder das Erstellen des Netzobjekts abzubrechen.
 
 
 
 ## Eigenschaften
 
--    **Max. Size**: Maximum size of the element in mm.
+-    **Max. Größe**: Maximale Größe des Elements in mm.
 
--    **Second order**: Second order elements contain more nodes per element. Usually, it is enough to use rougher mesh to obtain same solution precision as with the first order elements,
+-    **Min. Größe**: <small>(v1.0)</small> : Mindestgröße des Elements in mm.
 
-    -   true (default); second order elements,
-    -   false; first order elements.
+-    **Zweite Ordnung**: Elemente zweiter Ordnung enthalten mehr Knoten pro Element. Normalerweise reicht es aus, ein gröberes Netz zu verwenden, um die gleiche Lösungsgenauigkeit wie mit Elementen erster Ordnung zu erhalten,
 
--    **Fineness**: Offers predefined levels of mesh density.
+    -   true (Standard); Elemente zweiter Ordnung,
+    -   false; Elemente erster Ordnung.
 
--    **Growth Rate**: Defines how much adjacent elements can differ in size.
+-    **Feinheit**: Bietet vordefinierte Stufen der Netzdichte.
 
--    **Nb. Segs per Edge**: Defines the minimum number of mesh segments per edge.
+-    **Wachstumsrate**: Legt fest, wie stark sich benachbarte Elemente in der Größe unterscheiden können.
 
--    **Nb. Segs per Radius**: Defines the minimum number of mesh segments per radius.
+-    **Number of Segmente per Edge**: Legt die minimale Anzahl von Netzsegmenten pro Kante fest.
 
--    **Optimize**:
+-    **Number of Segments per Radius**: Definiert die minimale Anzahl von Mesh-Segmenten pro Radius.
 
-    -   true (default): applies optimization algorithm to improve mesh quality
+-    **Optimieren**:
+
+    -   true (Standard): Wendet einen Optimierungsalgorithmus an, um die Netzqualität zu verbessern
     -   false
 
 

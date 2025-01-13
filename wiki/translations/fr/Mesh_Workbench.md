@@ -90,9 +90,9 @@ Tous les outils de l\'atelier Mesh sont accessibles depuis le menu **Maillages**
 
 -   Il existe des [préférences d\'exportation liées aux formats Mesh](Import_Export_Preferences/fr#Formats_Mesh.md) mais elles ne s\'appliquent pas à cette commande. Elles sont utilisées par la commande [Std Exporter](Std_Export/fr.md).
 
-Les préférences de l\'atelier Mesh se trouvent dans les catégories suivantes de l\'[éditeur de propriétés](Property_editor/fr.md) :
+Les préférences de l\'atelier Mesh se trouvent dans les groupes suivantes de l\'[éditeur de propriétés](Property_editor/fr.md) :
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Affichage](Preferences_Editor/fr#Pr.C3.A9f.C3.A9rences_d.27affichage.md) : dans l\'onglet [Vue du maillage](Preferences_Editor/fr#Vue_maillage.md), plusieurs préférences peuvent être définies.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Affichage](Preferences_Editor/fr#Pr.C3.A9f.C3.A9rences_d.27affichage.md) : à la page [Vue du maillage](Preferences_Editor/fr#Vue_maillage.md), plusieurs préférences peuvent être définies.
 -   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences/fr.md) : les commandes [Mesh Union](Mesh_Union/fr.md), [Mesh Intersection](Mesh_Intersection/fr.md) et [Mesh Différence](Mesh_Difference/fr.md) nécessitent [OpenSCAD](http://www.openscad.org/) et utilisent la préférence **OpenSCAD executable** pour trouver son exécutable.
 
 

@@ -25,7 +25,13 @@ Das Werkzeug **TechDraw Winkelmaß** fügt einer Ansicht ein Winkelmaß hinzu. D
 1.  Zwei gerade Kanten auswählen. Die Geometrie kann in der [3D-Ansicht](3D_view/de.md) oder auf der Zeichnung ausgewählt werden.
 2.  Wurde Geometrie in der 3D-Ansicht ausgewählt, muss die korrekte TechDraw-Ansicht durch Auswählen in der [Baumansicht](Tree_view/de.md) zur Auswahl hinzugefügt werden.
 3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-    -   Die Schaltfläche **<img src="images/TechDraw_AngleDimension.svg" width=16px> [Winkelmaß einfügen](TechDraw_AngleDimension/de.md)** drücken.
+    -   
+        {{Version/de|1.0}}
+        
+        : Ist die [Einstellung](TechDraw_Preferences/de#Maßeinträge.md) **Maß-Werkzeuge** auf {{Value|Einzelnes Werkzeug}} (Standardeinstellung) gesetzt: Den Nach-unten-Pfeil rechts neben der Schaltfläche **<img src="images/TechDraw_Dimension.svg" width=|x16px> <img src="images/Toolbar_flyout_arrow.svg" width=x16px>** drücken und die Menüoption **<img src="images/TechDraw_AngleDimension.svg" width=16px> Winkelmaß einfügen** in der Ausklappliste auswählen.
+
+    -   Hat die Einstellung einen anderen Wert (und in {{VersionMinus/de|0.21}}): Die Schaltfläche **<img src="images/TechDraw_AngleDimension.svg" width=16px> [Winkelmaß einfügen](TechDraw_AngleDimension/de.md)** drücken.
+
     -   Den Menüeintrag **TechDraw → Maßeinträge → <img src="images/TechDraw_AngleDimension.svg" width=16px> Winkelmaß einfügen** auswählen.
 4.  Ein Maß wird der Ansicht hinzugefügt.
 5.  Das Maß kann an die gewünschte Position gezogen werden.

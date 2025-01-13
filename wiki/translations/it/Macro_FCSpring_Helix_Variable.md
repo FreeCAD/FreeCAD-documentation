@@ -33,7 +33,7 @@ Si possono creare diverse configurazioni di molle, secondo le proprie esigenze, 
 </div>
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/3f6e4df2768f36e88af4f56af669206ff0d33e0c/Macro_FCSpring_Helix_Variable.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/91cbf54580d8af331f9b371f4951a40b9ef506f3/Macro_FCSpring_Helix_Variable.FCMacro}}
 
 <img alt="" src=images/TruncateSpring00.png  style="width:400px;"> 
 *FCSpring Helix Variable*
@@ -453,6 +453,8 @@ modificare il diametro di qualsiasi spira: fatto
 
 
 ## Versione
+
+11/07/2024 version 01.19 delete **\"import WebGui\"** replaced by **\"import webbrowser\"** and optimise filter for **OS Linux Mint**
 
 2023/09/01 Version 0.18c adding **FreeCAD.activeDocument().recompute(None,True,True)***Texte en italique* \"bug\" fixed by **Syres** thanks [How to draw polygonal spirals in Freecad?](https://forum.freecad.org/viewtopic.php?p=703568#p703568)
 

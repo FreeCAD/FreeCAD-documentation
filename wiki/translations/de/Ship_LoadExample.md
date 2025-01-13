@@ -1,8 +1,8 @@
 ---
  GuiCommand:
-   Name: Ship Load‏‎
-   Name/de: Schiffslast
-   MenuLocation: Schiffkonstruktion , Laden einer Beispielschiffsgeometrie
+   Name: Ship LoadExample
+   Name/de: Ship BeispielLaden
+   MenuLocation: Ship design , Lade ein Beispiel einer Schiffsgeometrie
    Workbenches: Ship_Workbench/de
    Shortcut: 
    SeeAlso: 
@@ -11,23 +11,18 @@
 # Ship LoadExample/de
 
 
-</div>
 
 ## Beschreibung
 
-Schiff arbeitet über **Schiffseinheiten**, die auf der bereitgestellten Geometrie erstellt werden müssen. Die Geometrie muss ein Festkörper oder ein Satz von Festkörpern sein, wobei folgende Kriterien berücksichtigt werden müssen:
+Dieses Werkzeug lädt Geometriebeispiele.
+
+Ship arbeitet über **Schiffseinheiten**, die auf der bereitgestellten Geometrie erstellt werden müssen. Die Geometrie muss ein Festkörper oder ein Satz von Festkörpern sein, wobei folgende Kriterien berücksichtigt werden müssen:
 
 -   Die gesamte Rumpfgeometrie muss bereitgestellt werden (einschließlich symmetrischer Körper).
--   Die Steuerbordgeometrie muss im negativen *y*-Bereich enthalten sein.
+-   Die Steuerbordgeometrie muss im negativen *y*-Bereich bereitgestellt werden.
 -   Ursprungspunkt (0,0,0) ist der Schnittpunkt der *Mittschiffssektion* (Mittelpunkt zwischen der hinteren und vorderen Senkrechten) und der *Basislinie*.
 
-Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids. The following criteria must be taken into account:
-
--   All hull geometry must be provided (including symmetric bodies).
--   Starboard geometry must be included at negatives *y* domain.
--   Origin (0,0,0) point is the **Midship section** (Midpoint between after and forward perpendicular) and **base line** intersection.
-
-![](images/FreeCAD-Ship-SignCriteria.jpg ) ![\|Schematische Ansicht der Vorzeichenkriterien](images/FreeCAD-Ship-SignCriteria.jpg ) 
+![](images/FreeCAD-Ship-SignCriteria.jpg ) 
 *Kriterien für Schiffszeichen*
 
 Um neuen Anwendern zu helfen, enthält Schiff ein Ladeprogramm für Geometriebeispiele mit den folgenden Auswahlmöglichkeiten:
@@ -37,37 +32,30 @@ Um neuen Anwendern zu helfen, enthält Schiff ein Ladeprogramm für Geometriebei
 -   Katamaran der Serie 60
 -   Wigley Katamaran
 
+
+
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Aufruf des Schiff Ladeprogramms für Geometriebeispiele, entweder durch
-    -   drücken auf das <img alt="" src=images/Ship_Load.svg  style="width:24px;">-Symbol in der Werkzeugleiste
-    -   wählen von **Ship design → Lade ein Beispiel einer ‏‎Schiffsgeometrie** aus dem Menü
-2.  Ein Aufgaben-Dialogfeld wird angezeigt, aus dem eine Beispielschiffsgeometrie ausgewählt werden kann.
-    -   Wähle z.B. **Series 60 from Iowa Universität** und drücke **OK**
-3.  Das Werkzeug lädt ein neues Dokument mit der entsprechenden Geometrie.
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Ship_LoadExample.svg" width=16px> [Lade ein Beispiel einer ‏‎Schiffsgeometrie](Ship_LoadExample/de.md)** drücken.
+    -   Den Menüeintrag **Ship design → <img src="images/Ship_LoadExample.svg" width=16px> Lade ein Beispiel einer ‏‎Schiffsgeometrie** auswählen.
 
 
-</div>
+
+
+1.  Eine Aufgaben-Tafel wird angezeigt, die zum Auswählen eines Schiffsgeometriebeispiels auffordert.
+    -   Das Beispiel, das geladen werden soll, auswählen und **OK** drücken.
+2.  Ergebnis: Das Werkzeug lädt ein neues Dokument mit der ausgewählten Geometrie.
 
 
 **Warnung, bevor irgendetwas editiert wird! Du arbeitest jetzt mit der ursprünglichen Beispieldatei. Um das unbearbeitete Original-Beispiel zu erhalten, musst du es zuerst als neue Datei speichern, bevor irgendetwas bearbeitet werden kann.**
+
+
 
 ## Tutorien
 
 -   [FreeCAD Schiffs s60 Tutorium](FreeCAD-Ship_s60_tutorial/de.md)
 -   [FreeCAD Schiffs s60 Tutorium (II)](FreeCAD-Ship_s60_tutorial_(II)/de.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

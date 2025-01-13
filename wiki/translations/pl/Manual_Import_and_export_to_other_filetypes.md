@@ -22,7 +22,7 @@ FreeCAD może importować i eksportować projekty do wielu formatów plików. Ot
 
 Niektóre z tych formatów plików mają opcje konfiguracyjne. Można je przeglądnąć i zmienić w menu **Edycja → Preferencje ...→ Import / eksport:**.
 
-![](images/Import_preferences.jpg )
+![](images/FreeCAD_022_ImportExport.png )
 
 **Więcej informacji:**
 

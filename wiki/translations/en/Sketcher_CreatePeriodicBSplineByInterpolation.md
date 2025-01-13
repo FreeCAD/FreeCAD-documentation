@@ -5,19 +5,24 @@
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **B** **O**
    Version: 0.21
-   SeeAlso: Sketcher_CreatePeriodicBSpline
+   SeeAlso: Sketcher_CreateBSpline
 ---
 
 # Sketcher CreatePeriodicBSplineByInterpolation/en
 
 ## Description
 
-This tool creates a periodic B-spline curve passing through given points. See [this page](B-Splines.md) for more info about B-splines.
+The <img alt="" src=images/Sketcher_CreatePeriodicBSplineByInterpolation.svg  style="width:24px;"> [Sketcher CreatePeriodicBSplineByInterpolation](Sketcher_CreatePeriodicBSplineByInterpolation.md) tool creates a periodic (closed) [B-spline](B-Splines.md) curve by knot points. <small>(v1.0)</small> : This is the same tool as [Sketcher CreateBSpline](Sketcher_CreateBSpline.md) but with a different initial mode.
 
 ## Usage
 
-1.  Press the **[<img src=images/Sketcher_CreatePeriodicBSplineByInterpolation.svg style="width:16px"> [Periodic B-spline by knots](Sketcher_CreatePeriodicBSplineByInterpolation.md)** button.
-2.  For further steps see [Sketcher CreateBSplineByInterpolation](Sketcher_CreateBSplineByInterpolation#Usage.md).
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_CreatePeriodicBSplineByInterpolation.svg" width=16px> [Periodic B-spline by knots](Sketcher_CreatePeriodicBSplineByInterpolation.md)** button.
+    -   Select the **Sketcher → Sketcher geometries → <img src="images/Sketcher_CreatePeriodicBSplineByInterpolation.svg" width=16px> Create periodic B-spline by knots** option from the menu.
+    -   Use the keyboard shortcut: **G** then **B**, then **O**.
+2.  For further steps see [Sketcher CreateBSpline](Sketcher_CreateBSpline#Usage.md).
 
 ## Notes
 
@@ -25,7 +30,7 @@ See [Sketcher CreateBSpline](Sketcher_CreateBSpline#Notes.md).
 
 ## Limitations
 
-See [Sketcher CreateBSplineByInterpolation](Sketcher_CreateBSplineByInterpolation#Limitations.md).
+See [Sketcher CreateBSpline](Sketcher_CreateBSpline#Limitations.md).
 
 
 

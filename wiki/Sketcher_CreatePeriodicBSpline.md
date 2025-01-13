@@ -12,17 +12,16 @@
 
 ## Description
 
-This tool traces a periodic (closed) B-spline curve from its control points. (See [this page](B-Splines.md) for more info about B-splines.)
-
- ![](images/Sketcher_Periodic_B-spline_example01.png ) 
-
-
-
-*A periodic B-spline curve (in white) made from 5 points. Pictured are the control polygon in green (the straight lines connecting the red points), the weight circles in blue and the curvature comb in green. The (3) digit in the centre refers to the degree of the B-spline, and the (1) and (2) digits on the knots lying on the curve refer to their multiplicity.*
+The <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:24px;"> [Sketcher CreatePeriodicBSpline](Sketcher_CreatePeriodicBSpline.md) tool creates a periodic (closed) [B-spline](B-Splines.md) curve by control points. <small>(v1.0)</small> : This is the same tool as [Sketcher CreateBSpline](Sketcher_CreateBSpline.md) but with a different initial mode.
 
 ## Usage
 
-1.  Press the **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Periodic B-spline by control points](Sketcher_CreatePeriodicBSpline.md)** button.
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_CreatePeriodicBSpline.svg" width=16px> [Periodic B-spline by control points](Sketcher_CreatePeriodicBSpline.md)** button.
+    -   Select the **Sketcher → Sketcher geometries → <img src="images/Sketcher_CreatePeriodicBSpline.svg" width=16px> Create periodic B-spline** option from the menu.
+    -   Use the keyboard shortcut: **G** then **B**, then **P**.
 2.  For further steps see [Sketcher CreateBSpline](Sketcher_CreateBSpline#Usage.md).
 
 ## Notes

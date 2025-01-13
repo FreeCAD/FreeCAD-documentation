@@ -3,7 +3,7 @@
    Name: Draft AddConstruction
    Name/pl: Rysunek Roboczy: Dodaj do grupy konstrukcyjnej
    MenuLocation: Narzędzia , Dodaj do grupy konstrukcyjnej
-   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Workbenches: Draft_Workbench/pl, BIM_Workbench/pl
    Version: 0.17
    SeeAlso: Draft_ToggleConstructionMode/pl, Draft_AddToGroup/pl
 ---
@@ -22,8 +22,9 @@ Polecenie <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;">
 
 1.  Wybierz jeden lub więcej obiektów.
 2.  Polecenie można wywołać na kilka sposobów:
-    -   Naciśnij przycisk **<img src="images/Draft_AddConstruction.svg" width=16px> '''Dodaj do grupy konstrukcyjnej'''**.
-    -   Wybierz opcję z menu **Narzędzia → <img src="images/Draft_AddConstruction.svg" width=16px> Dodaj do grupy konstrukcyjnej**.
+    -   [Rysunek Roboczy](Draft_Workbench/pl.md): Naciśnij przycisk **<img src="images/Draft_AddConstruction.svg" width=16px> '''Dodaj do grupy konstrukcyjnej'''**.
+    -   Rysnek Roboczy: Wybierz opcję **Narzędzia → <img src="images/Draft_AddConstruction.svg" width=16px> Dodaj do grupy konstrukcyjnej** z menu lub menu kontekstowego [widoku drzewa](Tree_view/pl.md) bądź [widoku 3D](3D_view/pl.md).
+    -   [Środowisko pracy BIM](BIM_Workbench/pl.md): Wybierz opcję **Narzędzia → <img src="images/Draft_AddConstruction.svg" width=16px> Dodaj do grupy konstrukcyjnej** z menu.
 3.  Jeśli nie istnieje, najpierw tworzona jest grupa konstrukcyjna.
 4.  Obiekty są przenoszone do grupy konstrukcyjnej i zmieniane są ich właściwości kolorystyczne.
 

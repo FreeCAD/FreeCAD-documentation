@@ -11,6 +11,9 @@
 # Sketcher Create3PointCircle/ru
 
 
+</div>
+
+
 
 ## Описание
 
@@ -26,8 +29,16 @@
 
 ## Применение
 
+See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
+
+
+<div class="mw-translate-fuzzy">
+
 -   Укажите точки в свободной области трехмерного вида, или на существующем объекте (авто ограничения в [Панели задач](Task_panel/ru.md) должны быть включены).
 -   Для отмены действия нажмите **Esc** или правую кнопку мыши.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

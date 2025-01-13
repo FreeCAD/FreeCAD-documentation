@@ -61,32 +61,9 @@ Voir la page [Drawing API exemples](Drawing_API_example/fr.md) pour une descript
 
 
 
-## Modèles
-
-FreeCAD est livré avec un jeu de modèles par défaut, vous pouvez en trouver d\'autres sur la page des [Modèles de feuille](Drawing_templates/fr.md).
-
-
-
 ## Extension Module de dessin 
 
 Quelques notes sur le module de dessin sont ajoutés à la page [Documentation sur le module dessin](Drawing_Documentation/fr.md) [(en)](Drawing_Documentation.md). Il aide à comprendre rapidement le fonctionne du module de dessin, ce qui permet aux programmeurs de commencer rapidement sa programmation.
-
-## Tutoriels
-
--   [Drawing tutoriel](Drawing_tutorial/fr.md)
--   [Drawing Template : Comment faire](Drawing_Template_HowTo/fr.md)
-
-## Macros
-
--    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Macro Automatic drawing](Macro_Automatic_drawing/fr.md): permet à l\'utilisateur d\'obtenir la vue de son objet dans un dessin avec 4 positions différentes (avant, haut, iso, droite). Nécessite quelques modifications pour être parfaitement efficace.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC.png"> [Macro CartoucheFC](Macro_CartoucheFC/fr.md): cette macro GUI permet de remplir simplement tous les champs du cartouche du plan d\'exécution de la feuille de calcul FreeCAD, le format de la date et le symbole du mode de projection s\'adaptent à la région UE ou US sélectionnée.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC_2.png"> [Macro CartoucheFC 2](Macro_CartoucheFC_2/fr.md): cette macro GUI permet de remplir simplement tous les champs du cartouche **modèle 2** de la feuille de calcul d\'implantation du plan FreeCAD.
-
--    <img style="width:16px;" src="images/Macro_CartoucheFC_Full.png"> [Macro CartoucheFC Full](Macro_CartoucheFC_Full/fr.md): cette macro GUI permet de remplir simplement tous les champs du cartouche [Divers modèles complets](Misc_templates_Full/fr.md) de la feuille de calcul d\'exécution du plan FreeCAD, le format de la date et le symbole du mode de projection s\'adaptent à la région UE ou US sélectionnée.
-
--    <img style="width:16px;" src="images/Macro_Corner_shapes_wizard.png"> [Macro Corner shapes wizard/update](Macro_Corner_shapes_wizard/update/fr.md): ouvre une boîte de dialogue demandant les dimensions de votre pièce d\'angle, puis crée l\'objet dans le document et crée une vue de page avec des vues supérieure, avant et latérale de la pièce.
 
 
 

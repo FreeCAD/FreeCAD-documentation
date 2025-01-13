@@ -9,6 +9,8 @@
 
 # PartDesign Groove/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug **Nut** dreht eine ausgewählte Skizze oder ein Profil um eine gegebene Achse und entfernt Material aus dem aktiven Körper.
@@ -19,67 +21,144 @@ Das Werkzeug **Nut** dreht eine ausgewählte Skizze oder ein Profil um eine gege
 
 *Oben: Skizze (A) ist um die Achse (B) gedreht; die resultierende Nut auf dem Volumenkörper (C) ist rechts dargestellt.*
 
+
+
 ## Anwendung
 
-1.  Wähle die Skizze, die gedreht werden soll.
+1.  Eine einzelne Skizze oder eine oder mehrere Flächen des Körpers auswählen.
+2.  Die Schaltfläche **<img src="images/PartDesign_Groove.svg" width=16px> [Nut](PartDesign_Groove/de.md)** drücken.
+3.  Parameter der Nut einstellen, siehe [Optionen](#Optionen.md) unten.
+4.  Die Schaltfläche **OK** drücken.
 
-    :    v0.17 und höher  Alternativ kann auch eine Fläche auf dem vorhandenen Festkörper verwendet werden.
-    :    v0.16 und niedriger  Die Skizze muss auf die Planfläche eines bestehenden Festkörpers oder Bauteilkonstruktionsmerkmals abgebildet werden, sonst erscheint eine Fehlermeldung.{{VersionMinus|0.16}}
-2.  Drücke **<img src="images/_PartDesign_Groove.svg" width=24px> '''Nut'''** Schaltfläche.
-3.  Lege die Nut-Parameter fest (siehe nächster Abschnitt).
-4.  Drücke **OK**.
+
 
 ## Optionen
 
-Beim Erstellen einer Nut bietet der **Nutparameter** Dialog mehrere Parameter, die festlegen, wie die Skizze gedreht werden soll.
+Während der Erstellung der Tasche oder nach einem Doppelklick auf eine bestehende Tasche in der [Baumansicht](Tree_view/de.md) wird der Aufgaben-Dialog **Nut-Parameter** angezeigt. Er ermöglicht folgende Einstellungen:
 
-+++
-| ![](images/partdesign_groove_parameters.png ) | ### Achse                                                                                                                                                                                                                                                                                                                                                                                |
-|                                                                          |                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                          | Diese Option legt die Achse fest, um die die Skizze gedreht werden soll.                                                                                                                                                                                                                                                                                                                 |
-|                                                                          |                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                          | -   **Vertikale Skizzenachse**: wählt die vertikale Skizzenachse aus.                                                                                                                                                                                                                                                                                                                    |
-|                                                                          | -   **Horizontale Skizzenachse**: wählt die horizontale Skizzenachse aus.                                                                                                                                                                                                                                                                                                                |
-|                                                                          | -   **Skizzenachse**:  v0.16 und darunter                                                                                                                                                                                                                                                                         |
-|                                                                          |                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                          | wählt eine Konstruktionslinie aus, die in der von Nut verwendeten Skizze enthalten ist. Die erste Konstruktionslinie, die in der Skizze erstellt wurde, trägt die Bezeichnung *Skizzenachse 0*. Die Aufklappliste enthält eine benutzerdefinierte Skizzenachse für jede Konstruktionslinie.                                                                                              |
-|                                                                          |                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                          | -   **Konstruktionslinie**: v0.17 und höher wählt eine Konstruktionslinie aus, die in der von Nut verwendeten Skizze enthalten ist. Die Aufklappliste wird einen Eintrag für jede Konstruktionslinie enthalten. Die erste in der Skizze erstellte Konstruktionslinie trägt die Bezeichnung *Konstruktionslinie 1*. |
-|                                                                          | -   Basis (X/Y/Z) Achse\'\'\'\': v0.17 und höher wählt die X, Y oder Z Achse des Körperursprungs;                                                                                                                                                                                                                  |
-|                                                                          | -   **Referenz auswählen\...**: v0.17 und höher ermöglicht die Auswahl in der 3D Ansicht einer Kante auf dem Körper oder einer [Bezugslinie](PartDesign_Line/de.md).                                                                                                                                       |
-|                                                                          |                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                          |                                                                                                                                                                                                                                                                                                                                                                           |
-|                                                                          | <small>(v0.17)</small>                                                                                                                                                                                                                                                                                                                                                                      |
-|                                                                          |                                                                                                                                                                                                                                                                                                                                                                                       |
-|                                                                          | ### Winkel                                                                                                                                                                                                                                                                                                                                                                               |
-|                                                                          |                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                          | Dies steuert den Winkel, über den die Nut zu bilden ist, z. 360 ° wäre eine vollständige, zusammenhängende Revolution. Es ist nicht möglich, negative Winkel anzugeben (verwende stattdessen die Option **Umgekehrt**) oder Winkel größer als 360 °.                                                                                                                                     |
-|                                                                          |                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                          | ### Symmetrisch zur Ebene                                                                                                                                                                                                                                                                                                                                        |
-|                                                                          |                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                          | Wenn diese Option aktiviert ist, wird die Nut um die Hälfte des angegebenen Winkels in beide Richtungen von der Skizzierebene aus verlängert.                                                                                                                                                                                                                                            |
-|                                                                          |                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                          | ### Umgekehrt                                                                                                                                                                                                                                                                                                                                                                            |
-|                                                                          |                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                          | Wenn diese Option aktiviert ist, wird die Drehrichtung umgekehrt von standardmäßig im Uhrzeigersinn auf gegen den Uhrzeigersinn.                                                                                                                                                                                                                                                         |
-+++
+![](images/partdesign_groove_parameters.png )
+
+
+
+### Typ
+
+
+{{Version/de|1.0}}
+
+Typ bietet fünf verschiedene Möglichkeiten zum Festlegen des Winkels der Nut:
+
+#### Dimension
+
+Enter a numeric value for the **Angle** of the groove. With the option **Symmetric to plane** the groove will extend half the given angle to either side of the sketch or face.
+
+#### Through all 
+
+The groove will extend up to the last face of the support it encounters in its direction. With the option **Symmetric to plane** the groove will cut through all material in both directions.
+
+#### To first 
+
+The groove will extend up to the first face of the support it encounters in its direction.
+
+#### Up to face 
+
+The groove will extend up to a face. Press the **Face** button and select a face or a [datum plane](PartDesign_Plane.md) from the Body.
+
+#### Two dimensions 
+
+This allows to enter a second angle in which the groove should extend in the opposite direction. The directions can be switched by checking the **Reversed** option.
+
+### Axis
+
+Specifies the axis of the groove:
+
+-   **Vertikale Skizzenachse**: Wählt die vertikale Achse der Skizze aus.
+-   **Horizontale Skizzenachse**: Wählt die horizontale Achse der Skizze aus.
+-   **Konstruktionslinie**: wählt eine Hilfslinie der Skizze aus, die für die Nut verwendet wird. Die Aufklappliste enthält einen Eintrag für jede Hilfslinie. Die erste Hilfslinie, die in der Skizze erstellt wurde, wird mit *Konstruktionslinie 1* bezeichnet.
+-   **Basis (X-/Y-/Z-)Achse**: wählt die X-, Y- oder Z-Achse des Urspungs des Körpers (Body) aus.
+-   **Referenz auswählen\...**: ermöglicht die Auswahl einer geraden Kante oder einer [Bezugslinie](PartDesign_Line/de.md) am Körper.
+
+Note that when changing the axis, the **Reversed** option may be (un)checked automatically.
+
+
+
+### Winkel
+
+Legt den Winkel der Nut fest. Diese Option steht nur zur Verfügung, wenn für **Typ** **Abmessung** oder **Zwei Längen** ausgewählt wurde. Winkel größer als 360° sind nicht möglich, auch keine negativen Werte; stattdessen verwendet man dafür die Option **Umgekehrt**.
+
+
+
+### Symmetrisch zur Ebene 
+
+Diese Option aktivieren, um jeweils die Hälfte des angegebenen Winkels zu beiden Seiten der Skizze oder Fläche auszuführen, wenn für **Typ** entweder **Abmessung**, oder **Durch alles** ausgewählt wurde.
+
+
+
+### Umgekehrt
+
+Kehrt die Richtung der Nut um.
+
+
+
+### Zweiter Winkel 
+
+
+{{Version/de|1.0}}
+
+Defines the angle of the groove in the opposite direction. This option is only available if **Type** is **Two dimensions** and **Angle** is smaller than 360°.
+
+
 
 ## Eigenschaften
 
-Nachfolgend findest Du Eigenschaften, die nach der Erstellung des Merkmals definiert werden können. Die Dateneigenschaften \'Basis\'\' und \' Achse\' sind nicht editierbar.
-
--    **Winkel**: Drehwinkel. Siehe [Winkel](#Angle.md) .
-
--    **Kennzeichen**: Beschriftung des Arbeitsgangs, kann bei Bedarf geändert werden.
-
--    **Mittelebene**: wahr oder falsch. Siehe [Symmetrisch zur Ebene](#Symmetric_to_plane/de.md).
-
--    **Umgekehrt**: wahr oder falsch. Siehe [Umgekehrt](#Reversed/de.md).
-
--    **Verfeinern**: v0.17 und höher wahr oder falsc. Wenn auf *true* gesetzt wird die Form von überflüssigen Kanten bereingt . Siehe [Part FormVerfeinern](Part_RefineShape/de.md) für mehr Details.
+### Data
 
 
-<small>(v0.17)</small> 
+{{TitleProperty|Groove}}
+
+-    **Type|Enumeration**
+    
+
+-    **Base|Vector**: (read-only)
+
+-    **Axis|Vector**: (read-only)
+
+-    **Angle|Angle**
+    
+
+-    **Angle2|Angle**
+    
+
+-    **Up To Face|LinkSub**
+    
+
+-    **Reference Axis|LinkSub**
+    
+
+
+{{TitleProperty|Part Design}}
+
+-    **Refine|Bool**
+    
+
+
+{{TitleProperty|Sketch Based}}
+
+-    **Profile|LinkSub**
+    
+
+-    **Midplane|Bool**
+    
+
+-    **Reversed|Bool**
+    
+
+-    **Allow Multi Face|Bool**
+    
+
+## Notes
+
+-   A <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [ShapeBinder](PartDesign_ShapeBinder.md) cannot be used for the profile.
+-   When using a <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [SubShapeBinder](PartDesign_SubShapeBinder.md) for the profile, selecting the binder in the [Tree view](Tree_view.md) will fail, instead the binder\'s face has to selected in the [3D view](3D_view.md).
 
 
 

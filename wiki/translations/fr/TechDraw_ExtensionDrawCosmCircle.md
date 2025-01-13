@@ -22,7 +22,7 @@ L\'outil **TechDraw Cercle** ajoute un cercle cosmétique basé sur deux sommets
 
 ## Utilisation
 
-1.  Spécifiez à votre convenance les attributs de ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
+1.  Spécifiez à votre convenance les attributs de ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw Choix des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
 2.  Sélectionnez le premier sommet pour déterminer le point central du cercle.
 3.  Sélectionnez le deuxième sommet pour déterminer le rayon du cercle.
 4.  Il existe plusieurs façons de lancer l\'outil :

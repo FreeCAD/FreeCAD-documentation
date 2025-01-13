@@ -45,6 +45,12 @@ Kliknij dwukrotnie etykietę PłaszczyznaOdniesienia w drzewie modelu lub klikni
 
 
 
+## Ustawienia
+
+Domyślny kolor i przezroczystość [geometrii konstrukcyjnych środowiska Projekt Części](PartDesign_CompDatums/pl.md) są kontrolowane przez [parametr dostosowywania](Fine-tuning/pl#środowisko_pracy_Projekt_Części.md) **DefaultDatumColor**.
+
+
+
 ## Właściwości
 
 -    **Tryb mapowania**: wymienia używany tryb dołączania.

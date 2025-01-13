@@ -1,10 +1,5 @@
 # Python/en
-**FreeCAD was originally designed to work with Python 2.x. This series ended with 2.7.18 release dated April, 20th 2020 and is succeeded by Python 3. The further development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.**
-
 ## Description
-
-
-
 
 [Python](https://www.python.org) is a general purpose, high level programming language that is very commonly used in large applications to automate some tasks by creating scripts or [macros](macros.md).
 

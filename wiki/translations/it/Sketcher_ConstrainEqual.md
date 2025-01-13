@@ -1,103 +1,72 @@
-# Sketcher ConstrainEqual/it
 ---
- GuiCommand:   Name: Sketcher ConstrainEqual   Name/it: Uguale   Workbenches: Sketcher Workbench/it   Schizzo---
+ GuiCommand:
+   Name: Sketcher ConstrainEqual
+   Name/it: Sketcher Vincolo uguale
+   MenuLocation: Schizzo , Vincoli Sketcher , Vincolo uguale
+   Workbenches: Sketcher_Workbench/it
+   Shortcut: **E**
+   SeeAlso: 
+---
+
+# Sketcher ConstrainEqual/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Il vincolo Uguale forza due o più segmenti di linea in una linea, in una polilinea o in un rettangolo ad avere uguale lunghezza. Se applicato a archi o cerchi, vincola uguali i raggi. Non può essere applicato a geometrie primitive che non sono dello stesso tipo, ad esempio segmenti con archi.
+Lo strumento <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> [Sketcher Vincolo uguale](Sketcher_ConstrainEqual.md) vincola i bordi ad avere la stessa lunghezza (linee) o curvatura (altri bordi eccetto [B-spline](Sketcher_CreateBSpline/it.md)). I bordi selezionati devono avere la stessa tipologia. Cerchi e archi circolari sono dello stesso tipo (i loro raggi sono resi uguali), così come lo sono le ellissi e gli archi ellittici (i loro raggi maggiore e minore sono resi uguali).
 
 
-</div>
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-Lo schizzo dell\'esempio seguente contiene una serie di primitive di disegno (linea, polilinea, rettangolo, arco e cerchio).
+Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
 
-</div>
 
-![](images/EqualConstraint1.png )
+### [Modalità continua](Sketcher_Workbench/it#Continue_modes.md) 
 
-Selezionare due o più segmenti di linea (ad esempio una linea e un lato del rettangolo).
+1.  Assicurarsi che non ci sia alcuna selezione.
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/Sketcher_ConstrainEqual.svg" width=16px> [Vincolo uguale](Sketcher_ConstrainEqual/it.md)**.
 
-![](images/EqualConstraint2.png )
+    -   Selezionare l\'opzione **Schizzo → Vincoli Sketcher → <img src="images/Sketcher_ConstrainEqual.svg" width=16px> Vincolo uguale** dal menu.
 
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [Vista 3D](3D_view/it.md) e selezionare l\'opzione **Vincolo → <img src="images/Sketcher_ConstrainEqual.svg" width=16px> Vincolo uguale** dall\'elenco menu contestuale.
 
-<div class="mw-translate-fuzzy">
-
-Fare clic sull\'icona **[<img src=images/Constraint_EqualLength.png style="width:16px"> [Uguale](Sketcher_ConstrainEqual/it.md)** nella barra degli strumenti di vincolo o selezionare il vincolo Uguale dal sottomenu dell\'ambiente Schizzo (o quello dell\'ambiente PartDesign).
-
-
-</div>
-
-![](images/EqualConstraint3.png )
-
-Ora selezionare l\'arco e il cerchio nel disegno.
-
-![](images/EqualConstraint4.png )
-
-
-<div class="mw-translate-fuzzy">
-
-e applicare il vincolo <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> come in precedenza.
+    -   Usare la scorciatoia da tastiera: **E**.
+3.  Il cursore si trasforma in una croce con l\'icona dello strumento.
+4.  Selezionare due bordi dello stesso tipo.
+5.  Viene aggiunto un vincolo.
+6.  Facoltativamente, continuare a creare vincoli.
+7.  Per terminare, fare clic con il pulsante destro del mouse o premere **Esc** oppure avviare un altro strumento di creazione di geometrie o vincoli.
 
 
-</div>
 
-![](images/EqualConstraint5.png )
+### Modalità di esecuzione una sola volta 
 
-Ora selezionare il segmento di linea, tutti i segmenti della poli-linea e uno dei lati non ancora vincolati del rettangolo
-
-![](images/EqualConstraint6.png )
-
-
-<div class="mw-translate-fuzzy">
-
-e applicare vincolo <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> come in precedenza.
+1.  Selezionare due o più bordi dello stesso tipo.
+2.  Richiamare lo strumento come spiegato sopra o con la seguente opzione aggiuntiva:
+    -   
+        {{Version/it|1.0}}
+        
+        : fare clic con il pulsante destro del mouse nella [3D view](3D_view/it.md) e selezionare l\'opzione **<img src="images/Sketcher_ConstrainEqual.svg" width=16px> Vincolo uguale** dal menu contestuale .
+3.  A seconda della selezione vengono aggiunti uno o più vincoli.
 
 
-</div>
 
-![](images/EqualConstraint7.png )
-
-Selezionare il segmento di retta e l\'arco
-
-![](images/EqualConstraint8.png )
-
-
-<div class="mw-translate-fuzzy">
-
-e applicare il vincolo <img alt="" src=images/Constraint_EqualLength.png  style="width:16px;"> come in precedenza. Una finestra di messaggio ricorda che gli elementi da vincolare devono essere dello stesso tipo geometrico (linee di curvatura pari a zero o linee con curvatura diversa da zero).
-
-
-</div>
-
-![](images/EqualConstraint9.png )
-
-## Scripting
+## Script
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Equal', Edge1, Edge2))```
 
-The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Edge1` and `Edge2` and contains further examples on how to create constraints from Python scripts.
-
-
-<div class="mw-translate-fuzzy">
+La pagina [Sketcher scripting](Sketcher_scripting/it.md) spiega i valori che possono essere utilizzati per `Edge1` e `Edge2` e contiene ulteriori esempi su come creare vincoli da script Python.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

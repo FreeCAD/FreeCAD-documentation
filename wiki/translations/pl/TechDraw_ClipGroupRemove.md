@@ -4,7 +4,7 @@
    Name/pl: Rysunek Techniczny: Usuń widok z grupy wycinków
    MenuLocation: Rysunek Techniczny , Widok wycinków , Usuń widok z grupy wycinków
    Workbenches: TechDraw_Workbench/pl
-   SeeAlso: TechDraw_ClipGroup/pl,  TechDraw_ClipGroupAdd/pl, 
+   SeeAlso: 
 ---
 
 # TechDraw ClipGroupRemove/pl

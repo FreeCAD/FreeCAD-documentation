@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug legt eine Skizze über eine Fläche, wie ein Etikett auf eine Flasche. Die Skizze muss an eine Fläche angefügt sein (siehe Sketch.Support). Der `Map`-Modus der Skizze hat keinen Einfluss auf das Ergebnis.
+Dieses Werkzeug legt eine Skizze über eine beliebig gekrümmte Fläche, wie ein Etikett auf eine Flasche. Die Skizze muss an einer Fläche befestigt sein (siehe Sketch.Support). Der `Map`-Modus der Skizze hat keinen Einfluss auf das Ergebnis.
 
 <img alt="" src=images/Curves_SketchOnSurface_demo.png  style="width:600" height="400px;"> 
 *Die Abbildung zeigt ein `Sketch_On_Surface*-Objekt auf eine Zylinderfläche angewendet (links) und die zugrundeliegende Skizze im Bearbeitungsmodus (rechts)`

@@ -10,9 +10,13 @@
 
 # Std TreeDrag/pl
 
+
+
 ## Opis
 
 Polecenie **Przeciąganie w widoku drzewa** inicjuje operację przeciągania dla wybranych obiektów w [Widoku drzewa](Tree_view/pl.md). Polecenie to jest przydatne, gdy obiekty, które chcemy przeciągnąć i upuścić oraz kontener docelowy nie są widoczne jednocześnie w widoku Drzewa.
+
+
 
 ## Użycie
 
@@ -28,7 +32,7 @@ Polecenie **Przeciąganie w widoku drzewa** inicjuje operację przeciągania dla
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

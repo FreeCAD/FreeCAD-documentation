@@ -31,7 +31,7 @@ Commencez par ajouter un dépôt personnalisé. Allez dans **Edition → Préfé
 
 
 
-### Boîte de dialogue du dépôt personnalisé 
+### Fenêtre de dialogue du dépôt personnalisé 
 
 Entrez l\'URL du dépôt github et de la branche.
 

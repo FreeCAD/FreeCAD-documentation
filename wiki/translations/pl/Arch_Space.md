@@ -1,115 +1,129 @@
 ---
  GuiCommand:
    Name: Arch Space
-   MenuLocation: Arch , Space
-   Workbenches: Arch_Workbench
+   Name/pl: Architektura: Przestrzeń
+   MenuLocation: 3D / BIM , Przestrzeń
+   Name/pl: Architektura: 
+   Workbenches: BIM_Workbench/pl
    Shortcut: **S** **P**
    Version: 0.14
-   SeeAlso: Arch_Wall, Arch_Structure
+   SeeAlso: 
 ---
 
 # Arch Space/pl
 
-## Description
 
-The Space tool allows you to define an empty volume, either by basing it on a solid shape, or by defining its boundaries, or a mix of both. If it is based solely on boundaries, the volume is calculated by starting from the bounding box of all the given boundaries, and subtracting the spaces behind each boundary. The Space object always defines a solid volume. The floor area of a space object, calculated by intersecting a horizontal plane at the center of mass of the space volume, can also be displayed.
+
+## Opis
+
+Narzędzie **Przestrzeń** pozwala zdefiniować pustą objętość, opierając ją na bryle, definiując jej granice lub łącząc oba te sposoby. Jeśli jest on oparty wyłącznie na granicach, objętość jest obliczana poprzez rozpoczęcie od obwiedni wszystkich podanych granic i odjęcie przestrzeni za każdą z nich. Obiekt Przestrzeń zawsze definiuje objętość bryły. Można również wyświetlić powierzchnię podłogi obiektu przestrzeni, obliczoną przez przecięcie płaszczyzny poziomej w środku masy objętości przestrzeni.
 
 <img alt="" src=images/Arch_Space_example.jpg  style="width:640px;">
 
 
 
-*Space object created from an existing solid object, then two wall faces are added as boundaries.*
-
-## Usage
-
-1.  Select an existing solid object, or faces on boundary objects.
-2.  Invoke the Arch Space command using several methods:
-    -   Pressing the **<img src="images/Arch_Space.svg" width=16px> [Arch Space](Arch_Space.md)** button in the toolbar.
-    -   Using the **S** then **P** keyboard keys
-    -   Using the **Arch → Space** entry from the top menu
-
-### Limitations
-
--   The boundaries properties is currently not editable via GUI.
--   See the [forum announcement](http://forum.freecadweb.org/viewtopic.php?f=9&t=4275).
-
-## Properties
-
--    **Base**: The base object, if any (must be a solid)
-
--    **Boundaries**: A list of optional boundary elements
-
--    **Area**: The computed floor area of this space
-
--    **FinishFloor**: The finishing of the floor of this space
-
--    **FinishWalls**: The finishing of the walls of this space
-
--    **FinishCeiling**: The finishing of the ceiling of this space
-
--    **Group**: Objects that are included inside this space, such as furniture
-
--    **SpaceType**: The type of this space
-
--    **FloorThickness**: The thickness of the floor finish
-
--    **NumberOfPeople**: The number of people who typically occupy this space
-
--    **LightingPower**: The electric power needed to light this space in Watts
-
--    **EquipmentPower**: The electric power needed by the equipment of this space in Watts
-
--    **AutoPower**: If True, Equipment Power will be automatically filled by the equipment included in this space
-
--    **Conditioning**: The type of air conditioning of this space
-
--    **Internal**: Specifies if this space is internal or external
-
--    **Text**: The text to show. Use \$area, \$label, \$tag, \$floor, \$walls, \$ceiling to insert the respective data
-
--    **FontName**: The name of the font
-
--    **TextColor**: The color of the text
-
--    **FontSize**: The size of the text
-
--    **FirstLine**: The size of the first line of text (multiplies the font size. 1 = same size, 2 = double size, etc..)
-
--    **LineSpacing**: The space between the lines of text
-
--    **TextPosition**: The position of the text. Leave (0,0,0) for automatic position
-
--    **TextAlign**: The justification of the text
-
--    **Decimals**: The number of decimals to use for calculated texts
-
--    **ShowUnit**: Show the unit suffix or not
-
-## Options
-
--   To create zones that group several spaces, use an [Arch BuildingPart](Arch_BuildingPart.md) and set its IFC type to \"Spatial Zone\".
--   The Space object has the same display modes as other Arch and Part objects, with one more, called **Footprint**, that displays only the bottom face of the space.
-
-## Scripting
+*Obiekt przestrzenny utworzony z istniejącego obiektu bryłowego, a następnie dodane dwie ściany jako granice.*
 
 
-**See also:**
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Użycie
 
-The Space tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+1.  Wybierz istniejący obiekt bryły lub ściany obiektów granicznych.
+2.  Uruchom polecenie używając jednej z kilku metod:
+    -   Naciśnij przycisk **<img src="images/Arch_Space.svg" width=16px> '''Przestrzeń'''** na pasku narzędzi.
+    -   Użyj klawiszy **S**, a następnie **P**.
+    -   Użyj opcji menu głównego **3D / BIM → Przestrzeń**.
+
+
+
+### Ograniczenia
+
+-   Właściwości granic nie są obecnie edytowalne przez GUI.
+-   Zobacz [ogłoszenie na forum](http://forum.freecadweb.org/viewtopic.php?f=9&t=4275).
+
+
+
+## Właściwości
+
+-    **Baza**: Obiekt bazowy, jeśli istnieje *(musi być bryłą)*.
+
+-    **Granice**: Lista opcjonalnych elementów brzegowych.
+
+-    **Obszar**: Obliczona powierzchnia tej przestrzeni.
+
+-    **Wykończenie podłogi**: Wykończenie podłogi w tej przestrzeni.
+
+-    **Wykończenie ścian**: Wykończenie ścian w tej przestrzeni.
+
+-    **Wykończenie sufitu**: Wykończenie sufitu w tej przestrzeni.
+
+-    **Grupa**: Obiekty znajdujące się w tej przestrzeni, takie jak meble.
+
+-    **Typ przestrzeni**: Rodzaj tej przestrzeni.
+
+-    **Grubość posadzki**: Grubość wykończenia podłogi.
+
+-    **Ilość ludzi**: Liczba osób, które zazwyczaj zajmują tę przestrzeń.
+
+-    **Moc oświetlenia**: Moc elektryczna potrzebna do oświetlenia tej przestrzeni w watach.
+
+-    **Moc wyposażenia**: Moc elektryczna wymagana przez wyposażenie tej przestrzeni w watach.
+
+-    **AutoPower**: Jeśli opcja ma wartość {{True/pl}}, właściwość Moc sprzętu zostanie automatycznie wypełniona przez sprzęt znajdujący się w tej przestrzeni.
+
+-    **Klimatyzacja**: Typ klimatyzacji tej przestrzeni.
+
+-    **Wnętrze**: Określa, czy ta przestrzeń jest wewnętrzna czy zewnętrzna.
+
+-    **Tekst**: Tekst do wyświetlenia. Użyj \$area, \$label, \$tag, \$floor, \$walls, \$ceiling, aby wstawić odpowiednie dane.
+
+-    **Nazwa czcionki**: Nazwa czcionki.
+
+-    **Kolor tekstu**: Kolor tekstu.
+
+-    **Rozmiar czcionki**: Rozmiar tekstu.
+
+-    **Pierwsza linia**: Rozmiar pierwszego wiersza tekstu *(mnoży rozmiar czcionki. 1 = ten sam rozmiar, 2 = podwójny rozmiar, itd.)*
+
+-    **Odstęp między wierszami**: Odstęp między wierszami tekstu.
+
+-    **Pozycja tekstu**: Pozycja tekstu. Pozostaw (0,0,0) dla pozycji automatycznej.
+
+-    **Wyrównanie tekstu**: Wyrównanie tekstu.
+
+-    **Dziesiętne**: Liczba miejsc po przecinku do użycia w tekstach wyliczanych.
+
+-    **Wyświetl jednostki**: Pokaż przyrostek jednostki lub nie.
+
+
+
+## Opcje
+
+-   Aby utworzyć strefy grupujące kilka przestrzeni, należy użyć obiektu [Część budynku](Arch_BuildingPart/pl.md) i ustawić jego typ IFC na \"Strefa przestrzeni\".
+-   Obiekt Przestrzeń ma te same tryby wyświetlania, co inne obiekty środowiska Architektura i Część, z jednym dodatkowym, zwanym **Footprint**, który wyświetla tylko dolną powierzchnię przestrzeni.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Przestrzeń** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python
 Space = makeSpace(objects=None, baseobj=None, name="Space")
 ```
 
--   Creates a `Space` object from the given `objects` or `baseobj`, which can be
-    -   one document object, in which case it becomes the base shape of the Space object, or
-    -   a list of selection objects as returned by `FreeCADGui.Selection.getSelectionEx()`, or
-    -   a list of tuples `(object, subobjectname)`
+-   Tworzy obiekt `Space` z podanego `objects` lub `baseobj`, który może być
+    -   pojedynczym obiektem dokumentu, w którym to przypadku staje się on kształtem bazowym obiektu Space, lub
+    -   listą zaznaczonych obiektów zwróconych przez `FreeCADGui.Selection.getSelectionEx()`, lub
+    -   listą krotek `(object, subobjectname)`.
 
-Example:
+Przykład:
 
 
 ```python
@@ -125,7 +139,7 @@ Space.ViewObject.LineWidth = 2
 FreeCAD.ActiveDocument.recompute()
 ```
 
-After a space object is created, selected faces can be added to it with the following code:
+Po utworzeniu obiektu przestrzeni można dodać do niego wybrane powierzchnie za pomocą następującego kodu:
 
 
 ```python
@@ -141,7 +155,7 @@ selection = FreeCADGui.Selection.getSelectionEx()
 Arch.addSpaceBoundaries(Space, selection)
 ```
 
-Boundaries can also be removed, again by selecting the indicated faces:
+Granice można również usunąć, ponownie wybierając wskazane ściany:
 
 
 ```python
@@ -151,5 +165,13 @@ Arch.removeSpaceBoundaries(Space, selection)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Space/pl
+⏵ [documentation index](../README.md) > Arch Space/pl

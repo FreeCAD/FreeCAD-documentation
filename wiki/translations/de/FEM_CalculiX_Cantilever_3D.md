@@ -17,7 +17,7 @@
 
 ## Einleitung
 
-This example is meant to show how a simple Finite Element Analysis (**FEA**) in FreeCAD\'s [FEM Workbench](FEM_Workbench.md) looks like in the FreeCAD interface and how the results can be visualized. It illustrates how to trigger a FEA and how to change the load value and load direction. Furthermore, since the example file is provided with any FreeCAD installation, it a useful and easy check to run for the purpose of ascertaining if the the FEM Workbench is set up properly.
+Dieses Beispiel soll zeigen, wie eine einfache Finite Elemente Analyse (**FEA**) in FreeCAD\'s [Arbeitsbereich FEM](FEM_Workbench/de.md) im FreeCAD Interface aussieht und wie die Ergebnisse visualisiert werden können. Es wird gezeigt, wie man eine FEA auslöst und wie man den Lastwert und die Lastrichtung ändert. Da die Beispieldatei mit jeder FreeCAD-Installation mitgeliefert wird, ist sie außerdem ein nützlicher und einfacher Test, um festzustellen, ob die FEM-Workbench richtig eingerichtet ist.
 
 <img alt="" src=images/FEM_example01_pic10.png  style="width:700px;">
 
@@ -25,11 +25,11 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 ## Voraussetzungen
 
--   A compatible version of FreeCAD designated in the tutorial overview.
+-   Eine kompatible Version von FreeCAD, die in der Übersicht des Tutorials angegeben ist.
 
-    :   Use the **Help → About FreeCAD** to see the version of FreeCAD installed
--   No external software is needed for loading the example file, viewing the mesh and geometry as well as for visualizing the results.
--   For rerunning the FEA the solver software CalculiX has to be installed on your computer. Probably the solver has been installed together with FreeCAD already. If the solver CalculiX is not installed see [FEM Install](FEM_Install.md).
+    :   Verwenden Sie den **Help → About FreeCAD**, um die installierte Version von FreeCAD zu sehen.
+-   Für das Laden der Beispieldatei, das Betrachten des Netzes und der Geometrie sowie für die Visualisierung der Ergebnisse wird keine externe Software benötigt.
+-   Für die Durchführung der FEA muss die Solver-Software CalculiX auf Ihrem Computer installiert sein. Wahrscheinlich ist der Solver bereits zusammen mit FreeCAD installiert worden. Falls der Solver CalculiX nicht installiert ist, siehe [FEM Installation](FEM_Install/de.md).
 
 
 
@@ -49,9 +49,9 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 ### Analyse-Container aktivieren 
 
--   To work with an analysis the analysis has to be activated.
--   In the [tree view](Tree_view.md), double click on the <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> **Analysis**,
--   or right click on the <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> **Analysis** and choose **Activate analysis**.
+-   Um mit einer Analyse arbeiten zu können, muss diese aktiviert sein.
+-   In der [Baumansicht](Tree_view/de.md), Doppelklick auf den <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> **Analyse**,
+-   oder Rechtsklick auf das <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> **Analyse** und wählen Sie **Analyse aktivieren**.
 
 <img alt="" src=images/FEM_example01_pic12.png  style="width:700px;">
 
@@ -59,29 +59,29 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 ### Der Analyse-Container und seine Objekte 
 
--   If the analysis is activated, FreeCAD itself will change the current workbench to FEM.
--   There are at least 5 objects needed to make a static mechanical analysis.
--   <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> analysis container
+-   Wenn die Analyse aktiviert ist, wechselt FreeCAD selbst die aktuelle Workbench auf FEM.
+-   Es werden mindestens 5 Objekte benötigt, um eine statische mechanische Analyse durchzuführen.
+-   <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> Analyse-Container
 
-1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> a solver
-2.  <img alt="" src=images/FEM_MaterialSolid.svg  style="width:24px;"> a material
-3.  <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:24px;"> a fixed boundary condition
-4.  <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> a force load
-5.  <img alt="" src=images/FEM_FEMMesh.svg  style="width:24px;"> a FEM mesh
+1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> ein Solver
+2.  <img alt="" src=images/FEM_MaterialSolid.svg  style="width:24px;"> ein Material
+3.  <img alt="" src=images/FEM_MaterialSolid.svg  style="width:24px;"> eine feste Randbedingung
+4.  <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> eine Kraftbelastung
+5.  <img alt="" src=images/FEM_FEMMesh.svg  style="width:24px;"> ein FEM-Netz
 
--   In this example, results <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> are already included as well.
+-   In diesem Beispiel sind auch die Ergebnisse <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> bereits enthalten.
 
 
 
 ### Ergebnisse darstellen 
 
-1.  Be sure the analysis is activated.
-2.  Be sure the analysis still contains the result object, if not just reload the example file.
-3.  Double click the result object <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;">, or select it and click the <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> [Show result](FEM_ResultShow.md) button in the FEM toolbar.
-4.  In the task window, choose `z-Displacement`. It shows `-86.93 mm` in negative z-direction. This makes sense since the force is in negative z-direction as well.
-5.  Activate the check box besides the bottom slider of displacement show.
-6.  The slider can be used to alter the mesh to view the deformation in a simplified manner.
-7.  Choose among the different Result types to view all in the GUI available result types.
+1.  Vergewissern Sie sich, dass die Analyse aktiviert ist.
+2.  Vergewissern Sie sich, dass die Analyse noch das Ergebnisobjekt enthält, wenn nicht, laden Sie einfach die Beispieldatei neu.
+3.  Doppelklicken Sie auf das Ergebnisobjekt <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;">, oder wählen Sie es aus und klicken Sie auf die <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> Schaltfläche [Ergebnis anzeigen](FEM_ResultShow/de.md) in der FEM-Symbolleiste.
+4.  Wählen Sie im Aufgabenfenster `z-Verschiebung`. Es zeigt `-86.93 mm` in negativer z-Richtung. Dies ist sinnvoll, da die Kraft auch in negativer z-Richtung wirkt.
+5.  Aktivieren Sie das Kontrollkästchen neben dem unteren Schieberegler der Verschiebungsanzeige.
+6.  Mit dem Schieberegler kann das Netz verändert werden, um die Verformung auf vereinfachte Weise zu betrachten.
+7.  Wählen Sie zwischen den verschiedenen Ergebnistypen, um alle in der GUI verfügbaren Ergebnistypen anzuzeigen.
 
 <img alt="" src=images/FEM_example01_pic13.png  style="width:400px;">
 
@@ -89,50 +89,52 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 ### Ergebnisse entfernen 
 
-1.  Be sure the analysis is activated.
-2.  To remove the results: select in the icon toolbar the <img alt="" src=images/FEM_ResultsPurge.svg  style="width:24px;"> [Purge results](FEM_ResultsPurge.md) button.
+1.  Stellen Sie sicher, dass die Analyse aktiviert ist.
+2.  Um die Ergebnisse zu entfernen: Wählen Sie in der Symbolleiste die Schaltfläche <img alt="" src=images/FEM_ResultsPurge.svg  style="width:24px;"> Schaltfläche [FEM-Netz löschen](FEM_ResultsPurge/de.md).
 
 
 
 ### Die FEA durchführen 
 
--   In the [tree view](Tree_view.md) double click on the solver object <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;">.
--   In the [task panel](Task_panel.md) of the solver object make sure static analysis is selected.
--   Click on **Write .inp file** in the same task window. Watch the log window until it prints \"write completed.\"
--   Click on **Run CalculiX**. Since this is a very small analysis it should take less than a second to run.
--   In the text window it should print in green letters \"CalculiX done without error!\" and in the next line \"loading result sets \...\"
--   You just have finished your first FEA in FreeCAD if there has not been any error message.
--   Click on **Close** in the task window.
--   A new result object should be created. You know how to visualize the results already.
--   If you get an error message no solver binary or similar when triggering the analysis check [FEM Install](FEM_Install.md).
+-   In der [Baumansicht](Tree_view/de.md) doppelklicken Sie auf das Solverobjekt <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;">.
+-   Stellen Sie sicher, dass im [Aufgabenbereich](Task_panel/de.md) des Solverobjekts die statische Analyse ausgewählt ist.
+-   Klicken Sie auf **Schreibe .inp Datei** im gleichen Aufgabenfenster. Beobachten Sie das Log-Fenster, bis es \"write completed\" ausgibt.
+-   Klicken Sie auf **Run CalculiX**. Da dies eine sehr kleine Analyse ist, sollte die Ausführung weniger als eine Sekunde dauern.
+-   Im Textfenster sollte in grüner Schrift \"CalculiX done without error!\" und in der nächsten Zeile \"loading result sets \...\" stehen.
+-   Sie haben gerade Ihre erste FEA in FreeCAD beendet, wenn keine Fehlermeldung erscheint.
+-   Klicken Sie auf **Schließen** im Aufgabenfenster.
+-   Ein neues Ergebnisobjekt sollte erstellt werden. Sie wissen bereits, wie Sie die Ergebnisse visualisieren können.
+-   Wenn Sie beim Auslösen der Analyse eine Fehlermeldung no solver binary oder ähnliches erhalten, überprüfen Sie [FEM Installation](FEM_Install/de.md).
 
 <img alt="" src=images/FEM_example01_pic14.png  style="width:400px;">
 
-### Running the FEA the fast Way 
 
--   In tree view select the solver object <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> of the analysis <img alt="" src=images/FEM_Analysis.svg  style="width:24px;">.
--   In the icon toolbar click on <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Run solver calculations](FEM_SolverRun.md).
--   The Calculix input file will be written, CalculiX will be triggered and the result object should be created.
+
+### FEA auf die schnelle Art durchführen 
+
+-   Wählen Sie in der Baumansicht das Solverobjekt <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> der Analyse <img alt="" src=images/FEM_Analysis.svg  style="width:24px;">.
+-   Klicken Sie in der Icon-Symbolleiste auf <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Solver starten](FEM_SolverRun/de.md).
+-   Die Calculix-Eingabedatei wird geschrieben, CalculiX wird gestartet und das Ergebnisobjekt sollte erstellt werden.
 
 
 
 ### Lastrichtung und Lastwert ändern 
 
--   In the [tree view](Tree_view.md) expand <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> CCX_Results and select the <img alt="" src=images/FEM_MeshResult.svg  style="width:24px;"> ResultMesh object and press the **Space** key.
-    -   **Result:** The visibility of the FEM mesh will be turned off. The geometrical model is still visible.
--   In the [tree view](Tree_view.md) double click on the <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> FEMConstraintForce object to open its [task panel](Task_panel.md)
--   In the task window change the load value to **500000000 N = 500 MN** (**Note:** force unit in task window has to be in N)
--   On the geometrical model click on one of the long edges in x-direction.
--   Click on the **Direction** button.
-    -   **Result:** The red arrows that illustrate force will change their direction in x-direction. They indicate the force direction.
--   Since tension should be applied to the box the Reverse Direction needs to be triggered by clicking on it.
--   The red arrows of the force will change their direction.
--   Click on **OK** in task window.
+-   In der [Baumansicht](Tree_view/de.md) erweitern Sie <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> CCX_Results und wählen Sie das <img alt="" src=images/FEM_MeshResult.svg  style="width:24px;"> ResultMesh-Objekt und drücken Sie die **Space**-Taste.
+    -   **Ergebnis:** Die Sichtbarkeit des FEM-Netzes wird ausgeschaltet. Das geometrische Modell ist weiterhin sichtbar.
+-   In der [Baumansicht](Tree_view/de.md) doppelklicken Sie auf das <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> FEMConstraintForce-Objekt, um dessen [Aufgabenbereich](Task_panel/de.md) zu öffnen.
+-   Im Aufgabenfenster ändern Sie den Lastwert auf **500000000 N = 500 MN** (**Hinweis:** Krafteinheit im Aufgabenfenster muss in N sein)
+-   Klicken Sie auf dem geometrischen Modell auf eine der langen Kanten in x-Richtung.
+-   Klicken Sie auf die Schaltfläche **Richtung**.
+    -   **Ergebnis:** Die roten Pfeile, die die Kraft darstellen, ändern ihre Richtung in x-Richtung. Sie zeigen die Richtung der Kraft an.
+-   Da auf die Box eine Zugkraft wirken soll, muss die Umkehrung der Richtung durch Anklicken ausgelöst werden.
+-   Die roten Pfeile der Kraft ändern ihre Richtung.
+-   Klicken Sie auf **OK** im Aufgabenfenster.
 
 <img alt="" src=images/FEM_example01_pic15.png  style="width:700px;">
 
--   You know how to trigger an analysis and how to visualize results already.
--   The deformation in x-direction should be 18.95 mm.
+-   Sie wissen bereits, wie man eine Analyse auslöst und wie man die Ergebnisse visualisiert.
+-   Die Verformung in x-Richtung sollte 18,95 mm betragen.
 
 <img alt="" src=images/FEM_example01_pic16.png  style="width:400px;">
 
@@ -140,9 +142,9 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 ## Wie geht es weiter? 
 
--   We are now finished with the basic workflow for the [FEM Workbench](FEM_Workbench.md).
--   You are now prepared to do the second [FEM tutorial](FEM_tutorial.md).
--   We will create the CalculiX cantilever by ourselves and compare the results with the beam theory.
+-   Wir sind nun mit dem grundlegenden Arbeitsablauf für die [Arbeitsbereich FEM](FEM_Workbench/de.md) fertig.
+-   Sie sind nun bereit, das zweite [FEM-Tutorial](FEM_tutorial/de.md) zu bearbeiten.
+-   Wir werden den CalculiX-Kragarm selbst erzeugen und die Ergebnisse mit der Balkentheorie vergleichen.
 
 
 {{FEM Tools navi

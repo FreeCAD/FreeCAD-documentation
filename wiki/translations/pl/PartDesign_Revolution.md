@@ -15,83 +15,166 @@
 
 Narzędzie **Wyciągnij przez obrót** tworzy bryłę poprzez obrót wybranego szkicu lub obiektu 2D wokół określonej osi.
 
-![](images/PartDesign_Revolution_example.svg ) 
+![](images/PartDesign_Revolution_example.svg )
+
+
+
 *Powyżej: szkic ''(A)'' jest obracany o 270 stopni w kierunku przeciwnym do ruchu wskazówek zegara wokół osi ''(B)'', wynikowa bryła ''(C)'' jest pokazana po prawej stronie.*
 
 
 
 ## Użycie
 
-1.  Wybierz szkic, który ma zostać obrócony. Alternatywnie można użyć ściany na istniejącej bryle.
+1.  Wybierz pojedynczy szkic lub jedną lub więcej powierzchni z Zawartości.
 2.  Naciśnij przycisk **<img src="images/PartDesign_Revolution.svg" width=24px> '''Wyciągnij przez obrót'''**.
-3.  Ustaw parametry wyciągnięcia *(patrz następna sekcja)*.
+3.  Ustaw parametry wyciągnięcia, patrz sekcja [Opcje](#Opcje.md) poniżej.
 4.  Naciśnij przycisk **OK**.
 
 
 
 ## Opcje
 
-Podczas tworzenia obrotu okno dialogowe *Parametry wyciągnięcia przez obrót* oferuje kilka różnych właściwości określających sposób obrotu szkicu.
+Podczas tworzenia wyciągnięcia lub po dwukrotnym kliknięciu istniejącego obiektu wyciągnięcia w oknie [Widoku drzewa](Tree_view/pl.md), wyświetlany jest panel zadań **Parametry wyciągnięcia przez obrót**. Oferuje on następujące ustawienia:
 
-+++
-| ![](images/partdesign_revolution_parameters.png ) |                                                                                                                                                                                                                                                                                                  |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                  | ### Oś                                                                                                                                                                                                                                                                                                                                    |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                  | Ta opcja określa oś, wokół której szkic ma być obracany.                                                                                                                                                                                                                                                                                  |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                  | -   **Pionowa oś szkicu**: wybiera pionową oś szkicu.                                                                                                                                                                                                                                                                                     |
-|                                                                                  | -   **Pozioma oś szkicu**: wybiera poziomą oś szkicu.                                                                                                                                                                                                                                                                                     |
-|                                                                                  | -   **Linia konstrukcyjna**: wybiera linię konstrukcyjną zawartą w szkicu używanym przez wyciągnięcie. Lista rozwijana będzie zawierać pozycję dla każdej linii konstrukcyjnej. Pierwsza linia konstrukcyjna będzie oznaczona jako *Linia konstrukcyjna 1*.                                                                               |
-|                                                                                  | -   **Oś bazowa (X/Y/Z)**: wybiera oś X, Y lub Z odniesienia położenia bryły.                                                                                                                                                                                                                                                             |
-|                                                                                  | -   **Wybierz odniesienie \...**: umożliwia wybór w widoku 3D krawędzi na bryle lub [linii odniesienia](PartDesign_Line/pl.md).                                                                                                                                                                                                   |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                  |                                                                                                                                                                                                                                                                                                 |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                  | ### Kąt                                                                                                                                                                                                                                                                                                                                   |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                  | Kontroluje to kąt, przez który ma zostać utworzony obrót, np. 360° będzie pełnym, ciągłym obrotem. Obrazy w sekcji [Przykłady](#Przykłady.md) demonstrują niektóre z możliwości określania różnych kątów. Nie jest możliwe określenie kątów ujemnych (zamiast tego należy użyć opcji **Odwrócony**) lub kątów większych niż 360°. |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                  |                                                                                                                                                                                                                                                                                    |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                  | ### Symetrycznie do płaszczyzny                                                                                                                                                                                                                                                                             |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                  | Jeśli opcja ta jest zaznaczona, obrót będzie rozciągał się o połowę określonego kąta w obu kierunkach od płaszczyzny szkicu.                                                                                                                                                                                                              |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                  |                                                                                                                                                                                                                                                                                              |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                  | ### Odwrócony                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                           |
-|                                                                                  | Jeśli opcja zostanie zaznaczona, kierunek obrotu ulegnie odwróceniu z domyślnego zgodnego z ruchem wskazówek zegara na przeciwny.                                                                                                                                                                                                         |
-+++
+\| ![](images/partdesign_revolution_parameters.png )
+
+
+
+### Typ
+
+
+{{Version/pl|0.22}}
+
+Typ oferuje pięć różnych sposobów określania wyciągnięcia przez obrót:
+
+
+
+#### Wymiar
+
+Wprowadź wartość liczbową dla **Kąta** obrotu. Z opcją *\'Symetrycznie do płaszczyzny* wyciągnięcie przez obrót będzie rozciągć się o połowę podanego kąta po obu stronach szkicu lub powierzchni.
+
+
+
+#### Do ostatniego 
+
+Wyciągnięcie przez obrót rozciągnie się do ostatniej powierzchni podpory, którą napotka w swoim kierunku. Jeśli nie ma podpory, pojawi się komunikat o błędzie.
+
+
+
+#### Do pierwszego 
+
+Wyciągnięcie przez obrót zostanie wykonane do pierwszej powierzchni podpory napotkanej w danym kierunku. W przypadku braku podpory pojawi się komunikat o błędzie.
+
+
+
+#### Do powierzchni 
+
+Wyciągnięcie przez obrót rozszerzy się do powierzchni. Naciśnij przycisk **Ściana** i wybierz ścianę lub [datum plane/pl\|płaszczyzna odniesienia](PartDesign_Plane.md) z listy Zawartości.
+
+
+
+#### Dwa wymiary 
+
+Umożliwia to wprowadzenie drugiego kąta, w którym wyciągnięcie przez obrót powininno rozciągać się w przeciwnym kierunku. Kierunki można przełączać, zaznaczając opcję **Odwrócony**.
+
+
+
+### Oś
+
+Określa oś obrotu:
+
+-   **Pionowa oś szkicu**: wybiera pionową oś szkicu.
+-   **Pozioma oś szkicu**: wybiera poziomą oś szkicu.
+-   **Linia konstrukcyjna**: wybiera linię konstrukcyjną ze szkicu używanego przez wyciągnięcie. Lista rozwijana będzie zawierać pozycję dla każdej linii konstrukcyjnej. Pierwsza linia konstrukcyjna będzie oznaczona jako *Linia konstrukcyjna 1*.
+-   **Oś bazowa (X/Y/Z)**: wybiera oś X, Y lub Z odniesienia położenia bryły.
+-   **Wybierz odniesienie \...**: umożliwia wybór prostej krawędzi lub [linii odniesienia](PartDesign_Line/pl.md) z obiektu Zawartości.
+
+Należy pamiętać, że podczas zmiany osi opcja **Odwrócony** może zostać *(nie)*zaznaczona automatycznie.
+
+
+
+### Kąt
+
+Określa kąt obrotu. Ta opcja jest dostępna tylko wtedy, gdy *Typ* to **Wymiar** lub **Dwa wymiary**. Kąty większe niż 360° nie są dostępne. Wartości ujemne również nie są dostępne, zamiast nich należy użyć opcji **Odwrócony**.
+
+
+
+### Symetrycznie do płaszczyzny 
+
+Zaznacz tę opcję, aby rozszerzyć obrót o połowę podanego kąta na dowolną stronę szkicu lub powierzchni. Ta opcja jest dostępna tylko wtedy, gdy **Typ** to **Wymiar**.
+
+
+
+### Odwrócony
+
+Odwraca kierunek wyciągnięcia.
+
+
+
+### Drugi kąt 
+
+
+{{Version/pl|1.0}}
+
+Określa kąt wyciągnięcia przez obrót w przeciwnym kierunku. Ta opcja jest dostępna tylko wtedy, gdy **Typ** to **Dwa wymiary**, a **Kąt** jest mniejszy niż 360°.
 
 
 
 ## Właściwości
 
-Poniżej znajdują się właściwości, które można zdefiniować po utworzeniu elementu. Właściwości danych \"Podstawowe\" i \"Oś\" nie można edytować.
-
--    **Kąt**: kąt obrotu. Patrz sekcja [Kąt](#Kąt.md).
-
--    **Etykieta**: etykieta nadana operacji, może zostać zmieniona w dogodny sposób.
-
--    **Midplane**: przyjmuje wartość {{true/pl}} lub {{false/pl}}. Zobacz sekcję [Symetrycznie do płaszczyzny](#Symetrycznie_do_płaszczyzny.md).
-
--    **Odwrócony**: przyjmuje wartość prawda lub fałsz. Zobacz sekcję [Odwrócony](#Odwrócony.md).
-
--    **Ulepsz**: przyjmuje wartość {{true/pl}} lub {{false/pl}}. Ustawienie na prawda powoduje oczyszczenie bryły z resztek krawędzi pozostawionych przez elementy. Zobacz stronę [Udoskonal kształt](Part_RefineShape/pl.md) aby uzyskać więcej szczegółów.
 
 
-
-## Przykłady
-
-![Przykładowy obrót przy użyciu linii konstrukcyjnej jako osi obrotu: Na tym obrazku kąt wynosi 75°, obrót odbywa się wokół linii konstrukcyjnej *(oś szkicu 0)*.](images/PartDesign_Revolution_axis_fromconstructionlines1.jpg )
+### Dane
 
 
+{{TitleProperty|Projekt Części}}
 
-## Przydatne odnośniki internetowe 
+-    **Ulepsz|Bool**
+    
 
-[Szczegółowy przykład użycia](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) na forum.
+
+{{TitleProperty|Wyciągnięcie przez obrót}}
+
+-    **Typ|Enumeration**
+    
+
+-    **Baza|Vector**: (read-only)
+
+-    **Oś|Vector**: (read-only)
+
+-    **Kąt|Angle**
+    
+
+-    **Do powierzchni|LinkSub**
+    
+
+-    **Kąt2|Angle**
+    
+
+-    **Oś odniesienia|LinkSub**
+    
+
+
+{{TitleProperty|Szkic bazowy}}
+
+-    **Profil|LinkSub**
+    
+
+-    **Płaszczyzna pośrednia|Bool**
+    
+
+-    **Odwrócony|Bool**
+    
+
+-    **Zezwalaj na wiele ścian|Bool**
+    
+
+
+
+## Uwagi
+
+-   Narzędzie <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> [Łącznik kształtu](PartDesign_ShapeBinder/pl.md) nie może być użyte dla profilu.
+-   Podczas korzystania z narzędzia <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> [Łącznik kształtów podrzędnych](PartDesign_SubShapeBinder/pl.md) dla profilu, wybranie spoiwa w oknie [widoku drzewa](Tree_view/pl.md) nie powiedzie się, zamiast tego powierzchnia wiążąca musi zostać wybrana w oknie [widoku 3D](3D_view/pl.md).
 
 
 

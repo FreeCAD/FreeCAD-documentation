@@ -22,8 +22,8 @@ La commande **Solidité du maillage** vérifie si un objet maillé est solide. U
     -   Appuyez sur le bouton **<img src="images/Mesh_EvaluateSolid.svg" width=16px> [Vérifier la solidité du maillage](Mesh_EvaluateSolid/fr.md)
 **
     -   Sélectionnez l\'option **Maillages → Analyser → <img src="images/Mesh_EvaluateSolid.svg" width=16px> Vérifier la solidité du maillage** du menu.
-3.  La boîte de dialogue **Maillage solide** s\'ouvre pour vous informer que l\'objet maillé sélectionné est solide ou non.
-4.  Appuyez sur le bouton **OK** pour fermer la boîte de dialogue et terminer la commande.
+3.  La fenêtre de dialogue **Maillage solide** s\'ouvre pour vous informer que l\'objet maillé sélectionné est solide ou non.
+4.  Appuyez sur le bouton **OK** pour fermer la fenêtre de dialogue et terminer la commande.
 
 
 

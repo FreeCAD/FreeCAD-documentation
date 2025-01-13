@@ -1,10 +1,12 @@
 # Draft Tray/de
 ## Beschreibung
 
-Das **Draft Fach** ermöglicht die Auswahl einer Arbeitsebene, Stileinstellungen festzulegen, den Konstruktionsmodus umschalten und das festlegen eines aktiven Layers oder einer Gruppe. Die vier Schaltflächen zeigen die aktuellen Einstellungen. Das Draft-Fach steht den Arbeitsbereichen <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) und <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md) zur Verfügung und kann nicht deaktiviert werden.
+Das **Draft Fach** ermöglicht die Auswahl einer Arbeitsebene, Stileinstellungen festzulegen, den Konstruktionsmodus umschalten und das festlegen eines aktiven Layers oder einer Gruppe. Die vier Schaltflächen zeigen die aktuellen Einstellungen. Das Draft-Fach steht den Arbeitsbereichen <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) und <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/de.md) zur Verfügung und kann nicht deaktiviert werden.
 
 ![](images/Draft_tray_default.png ) 
 *Das Draft-Fach*
+
+
 
 ## Enthaltene Werkzeuge 
 
@@ -14,7 +16,7 @@ Das **Draft Fach** ermöglicht die Auswahl einer Arbeitsebene, Stileinstellungen
 
 -   ![](images/Draft_tray_button_construction.png ) [Toggle construction mode](Draft_ToggleConstructionMode.md): switches Draft construction mode on or off.
 
--   ![](images/Draft_tray_button_layer.png ) [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
+-   ![](images/Draft_tray_button_layer.png ) [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [BIM](BIM_Workbench.md) object.
 
 
 

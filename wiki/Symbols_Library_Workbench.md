@@ -31,15 +31,15 @@ The library is a simple container for SVG files. You can download it anywhere an
 
 -   Workbench Wiki:
 -   FreeCAD Wiki:
--   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?f=9&t=10641>
+-   FreeCAD Forum: <https://forum.freecad.org/viewtopic.php?f=9&t=10641>
 -   Tutorials:
 -   Videos:
 -   Files:
--   Report bugs: Please report bugs at [FreeCAD forum](http://forum.freecadweb.org/index.php) or <https://github.com/FreeCAD/FreeCAD-symbols/issues>
+-   Report bugs: Please report bugs at [FreeCAD forum](https://forum.freecad.org/index.php) or <https://github.com/FreeCAD/FreeCAD-symbols/issues>
 
 ## Other useful links 
 
--   [Parts Library](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Parts_Library), [Bolts](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Bolts), [Fasteners](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Fasteners), [FCGear](http://www.freecadweb.org/wiki/index.php?title=Sandbox:FCGear)
+-   [Parts Library Workbench](Parts_Library_Workbench.md), [Fasteners Workbench](Fasteners_Workbench.md), [FCGear Workbench](FCGear_Workbench.md)
 -   [External workbenches](External_workbenches.md)
 -   [Macros recipes](Macros_recipes.md)
 -   [FreeCAD Download](Download.md)

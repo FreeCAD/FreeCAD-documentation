@@ -12,11 +12,21 @@
 
 </div>
 
+
+
 ## Описание
+
+
+<div class="mw-translate-fuzzy">
 
 Этот инструмент создает линейчатую поверхность между двумя линиями или краями выбранных выше.
 
-![](images/PartRuledSurface_it.png ) 
+
+</div>
+
+![](images/PartRuledSurface_it.png )
+
+
 
 ## Применение
 
@@ -32,7 +42,15 @@
 
 ## Notes
 
--   [App Link](App_Link.md) objects linked to the appropriate object types can also be used as source objects. <small>(v0.20)</small>
+-   [App Link](App_Link.md) objects linked to the appropriate object types can also be used as source objects.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

@@ -1,259 +1,282 @@
 # Whiffle Ball tutorial/pl
 ---
- TutorialInfo:
-   Topic: Product design
-   Level: Beginner
-   Time: 30 minutes
-   Author: r-frank and vocx
-   FCVersion: 0.17 and above
+ TutorialInfo:l
+   Topic: Projekt produktu
+   Level: początkujący
+   Time: 30 minut
+   Author: r-frank oraz vocx
+   FCVersion: 0.17 inowszy
    Files: https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true WhiffleBall_Tutorial_FCWiki.FCStd
 }}
 
-## Introduction
 
-This tutorial was originally written by Roland Frank , and it was rewritten and illustrated by vocx.
 
-This tutorial is here to teach you how to use the Part Workbench.
+## Wprowadzenie
 
-The Part Workbench was the first workbench developed. It provides the basic geometrical elements that can be used as building blocks for other workbenches. The Part Workbench is meant to be used in a traditional constructive solid geometry  workflow. For a more modern workflow using sketches, pads, and features, use the PartDesign Workbench.
+Ten poradnik został pierwotnie napisany przez Rolanda Franka **, a następnie przepisany i zilustrowany przez vocx.
 
-You will practice:
+W tym poradniku dowiesz się, jak korzystać ze środowiska Część.
 
--   inserting primitives
--   changing parameters of those primitive objects
--   modifying their placement
--   doing boolean operations
+Środowisko pracy Część było pierwszym opracowanym środowiskiem pracy. Zapewnia ono podstawowe elementy geometryczne, które mogą być używane jako bloki konstrukcyjne dla innych środowisk pracy. Środowisko pracy Część jest przeznaczone do stosowania w tradycyjnym przepływie pracy konstrukcyjna geometria bryłowa **. Aby uzyskać bardziej nowoczesny przepływ pracy z wykorzystaniem szkiców, wyciągnięć i cech, należy użyć środowiska pracy Projekt Części.
 
-! 
-*Final model of the wiffle ball*
+Będziesz ćwiczyć:
 
-## Setup
-
-1\. Open FreeCAD, create a new empty document with **File , File:Std_New.svg   16px Std_New**{: mediawiki}, and switch to the Part Workbench.
-
-:   1.1. Press the **File:Std_ViewIsometric.svg   16px Std_ViewIsometric**{: mediawiki} button, or press **0** in the numerical pad of your keyboard, to change the view to isometric to visualize the 3D solids better.
-:   1.2. Press the **File:Std_ViewFitAll.svg   16px Std_ViewFitAll**{: mediawiki} button whenever you add objects in order to pan and zoom the 3D view so that all elements are seen in the view.
-:   1.3. Hold **Ctrl** while you click to select multiple items. If you selected something wrong or want to de-select everything, just click on empty space in the 3D view.
-
-## Insert primitive cubes 
-
-2\. Insert a primitive cube by clicking on **Image:Part_Box.svg   16px Part_Box**{: mediawiki}.
-
-:   2.1. Select {{incode   Cube}}{: mediawiki} in the tree view.
-:   2.2. Change the dimensions in the **Data** tab of the property editor.
-:   2.3. Change **Length** to {{incode   90 mm}}{: mediawiki}.
-:   2.4. Change **Width** to {{incode   90 mm}}{: mediawiki}.
-:   2.5. Change **Height** to {{incode   90 mm}}{: mediawiki}.
-
-3\. In the **Data** tab of the property editor, click on the **Placement** value so the ellipsis button **...** appears on the right.
-
-:   3.1. Press on the ellipsis to launch the Placement dialog.
-:   3.2. Change the **Translation** values.
-:   3.3. Change **X** to {{incode   -45 mm}}{: mediawiki}.
-:   3.4. Change **Y** to {{incode   -45 mm}}{: mediawiki}.
-:   3.5. Change **Z** to {{incode   -45 mm}}{: mediawiki}.
-:   3.6. Press the **OK** button to close the dialog.
-
-4\. Repeat the process, inserting a second, smaller cube by clicking on **Image:Part_Box.svg   16px Part_Box**{: mediawiki}.
-
-:   4.1. The second cube will be created with the same name, but with an additional number to distinguish the object.
-:   4.2. Select {{incode   Cube001}}{: mediawiki} in the tree view, and change the dimensions and placement like with the previous object.
-:   4.3. Change **Length** to {{incode   80 mm}}{: mediawiki}.
-:   4.4. Change **Width** to {{incode   80 mm}}{: mediawiki}.
-:   4.5. Change **Height** to {{incode   80 mm}}{: mediawiki}.
-:   4.6. Open the Placement dialog.
-:   4.7. Change **X** to {{incode   -40 mm}}{: mediawiki}.
-:   4.8. Change **Y** to {{incode   -40 mm}}{: mediawiki}.
-:   4.9. Change **Z** to {{incode   -40 mm}}{: mediawiki}.
-:   4.10. Press the **OK** button to close the dialog.
-
-## Change visual properties 
-
-5\. The previous operations create a smaller cube inside a bigger cube. To visualize this, we can modify the **View** properties in the property editor.
-
-:   5.1. Select {{incode   Cube001}}{: mediawiki}, the smaller cube, in the tree view, and change the color. In the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a green color; also change the value of **Line Width** to {{incode   2.0}}{: mediawiki}.
-:   5.2. Select {{incode   Cube}}{: mediawiki}, the larger cube, in the tree view. In the **View** tab, change the value of **Transparency** to {{incode   70}}{: mediawiki}.
+-   wstawianie elementów pierwotnych,
+-   zmienianie parametrów tych obiektów pierwotnych,
+-   modyfikowanie ich umiejscowienia,
+-   wykonywanie operacji logicznych.
 
 ! 
-*Solid cube inside another solid cube*
+*Ostateczny model kuli wiffle.*
 
-## Insert primitive cylinders 
 
-6\. Insert a primitive cylinder by clicking on **Image:Part_Cylinder.svg   16px Part_Cylinder**{: mediawiki}.
 
-:   6.1. Select {{incode   Cylinder}}{: mediawiki} in the tree view.
-:   6.2. Change the dimensions in the **Data** tab of the property editor.
-:   6.3. Change **Radius** to {{incode   27.5 mm}}{: mediawiki}.
-:   6.4. Change **Height** to {{incode   120 mm}}{: mediawiki}.
-:   6.5. Open the Placement dialog.
-:   6.6. Change **Z** to {{incode   -60 mm}}{: mediawiki}.
-:   6.7. Press the **OK** button to close the dialog.
+## Konfiguracja
 
-7\. Repeat the process, inserting a second cylinder by clicking on **Image:Part_Cylinder.svg   16px Part_Cylinder**{: mediawiki}.
+1\. Uruchom FreeCAD, utwórz nowy pusty dokument za pomocą **Plik , File:Std_New.svg   16px Std_New/pl**{: mediawiki} i przełącz się na środowisko Part Workbench.
 
-:   7.1. The second cylinder will be created with the same name, but with an additional number to distinguish the object.
-:   7.2. Select {{incode   Cylinder001}}{: mediawiki} in the tree view, and change the dimensions and placement like with the previous object.
-:   7.3. Change **Radius** to {{incode   27.5 mm}}{: mediawiki}.
-:   7.4. Change **Height** to {{incode   120 mm}}{: mediawiki}.
-:   7.5. Open the Placement dialog.
-:   7.6. Change **Y** to {{incode   60 mm}}{: mediawiki}.
-:   7.7. Change the **Rotation** to {{incode   Rotation axis with angle}}{: mediawiki}; **Axis** to {{incode   X}}{: mediawiki} , and **Angle** to {{incode   90 deg}}{: mediawiki}.
-:   7.8. Press the **OK** button to close the dialog.
+:   1.1. Naciśnij przycisk **File:Std_ViewIsometric.svg   16px Std_ViewIsometric/pl**{: mediawiki} lub naciśnij **0** na klawiaturze numerycznej, aby zmienić widok na izometryczny w celu lepszej wizualizacji brył w widoku 3D.
+:   1.2. Naciśnij przycisk **File:Std_ViewFitAll.svg   16px Std_ViewFitAll/pl**{: mediawiki} za każdym razem, gdy dodajesz obiekty, aby przesuwać i powiększać widok 3D tak, aby wszystkie elementy były widoczne w widoku.
+:   1.3. Przytrzymaj **Ctrl** podczas klikania, aby zaznaczyć wiele elementów. Jeśli wybrałeś coś źle lub chcesz usunąć zaznaczenie, kliknij na puste miejsce w widok 3D.
 
-8\. Insert another cylinder. This time create a duplicate so that the radius and height don\'t have to be changed, only its placement.
 
-:   8.1. Select {{incode   Cylinder001}}{: mediawiki} in the tree view, and go to the menu **Edit , Std_DuplicateSelection   Duplicate selection**{: mediawiki}. This will create {{incode   Cylinder002}}{: mediawiki}.
-:   8.2. Open the Placement dialog.
-:   8.3. Change **X** to {{incode   -60 mm}}{: mediawiki}, and change **Y** back to {{incode   0 mm}}{: mediawiki}.
-:   8.4. Change the **Rotation** to {{incode   Rotation axis with angle}}{: mediawiki}; **Axis** to {{incode   Y}}{: mediawiki}, and **Angle** to {{incode   90 deg}}{: mediawiki}.
-:   8.5. Press the **OK** button to close the dialog.
 
-## Change visual properties 
+## Wstaw sześcian pierwotny 
 
-9\. The previous operations create three cylinders that intersect with each other, and also intersect the cubes. To visualize this better we can modify the **View** properties in the property editor.
+2\. Wstaw sześcian pierwotny, klikając w **Image:Part_Box.svg   16px Part_Box/pl**{: mediawiki}.
 
-:   9.1. Select {{incode   Cube001}}{: mediawiki}, the smaller cube, in the tree view, and change the transparency. In the **View** tab, change the value of **Transparency** to {{incode   70}}{: mediawiki}.
-:   9.2. Select {{incode   Cylinder}}{: mediawiki}, in the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a red color.
-:   9.3. Select {{incode   Cylinder001}}{: mediawiki}, in the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a blue color.
-:   9.4. Select {{incode   Cylinder002}}{: mediawiki}, in the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a pink color.
-:   9.5. Select the three cylinders, in the **View** tab also change the value of **Line Width** to {{incode   2.0}}{: mediawiki}.
+:   2.1. Wybierz {{incode   Sześcian}}{: mediawiki} w oknie widoku drzewa.
+:   2.2. Zmień wymiary w zakładce **Dane** edytora właściwości.
+:   2.3. Zmień **Długość** na {{Incode   90 mm}}{: mediawiki}.
+:   2.4. Zmień **Szerokość** na {{incode   90 mm}}{: mediawiki}.
+:   2.5. Zmień **Wysokość** na {{incode   90 mm}}{: mediawiki}.
 
-! 
-*Solid cylinders that intersect themselves and the solid cubes.*
+3\. W zakładce **Dane** w edytorze właściwości kliknij na wartość **Umiejscowienie**, aby po prawej stronie pojawił się przycisk wielokropka **…**.
 
-## Fuse and cut 
+:   3.1. Naciśnij wielokropek, aby uruchomić okno dialogowe Umiejscowienie.
+:   3.2. Zmień wartości **Przesunięcie**.
+:   3.3. Zmień **X** na {{incode   -45 mm}}{: mediawiki}.
+:   3.4. Zmień **Y** na {{incode   -45 mm}}{: mediawiki}.
+:   3.5. Zmień **Z** na {{incode   -45 mm}}{: mediawiki}.
+:   3.6. Naciśnij przycisk **OK**, aby zamknąć okno dialogowe.
 
-10\. In the tree view, select {{incode   Cube001}}{: mediawiki} , and the tree cylinders, then press **File:Part_Fuse.svg   16px Part_Fuse**{: mediawiki}. This will create a {{incode   Fusion}}{: mediawiki} object.
+4\. Powtórz proces, wstawiając drugą, mniejszą kostkę, klikając **Image:Part_Box.svg   16px Part_Box/pl**{: mediawiki}.
 
-11\. Then perform a boolean cut of the {{incode   Cube}}{: mediawiki}  and the new {{incode   Fusion}}{: mediawiki} object.
+:   4.1. Drugi sześcian zostanie utworzony z tą samą nazwą, ale z dodatkowym numerem, aby rozróżnić obiekt.
+:   4.2. W oknie widoku drzewa wybierz {{incode   Cube001}}{: mediawiki}, a następnie zmień jego wymiary i położenie, tak jak w przypadku poprzedniego obiektu.
+:   4.3. Zmień **Długość** na {{Incode   80 mm}}{: mediawiki}.
+:   4.4. Zmień **Szerokość** na {{incode   80 mm}}{: mediawiki}.
+:   4.5. Zmień **Wysokość** na {{incode   80 mm}}{: mediawiki}.
+:   4.6. Otwórz okno dialogowe Umiejscowienie.
+:   4.7. Zmień **X** na {{incode   -40 mm}}{: mediawiki}.
+:   4.8. Zmień **Y** na {{incode   -40 mm}}{: mediawiki}.
+:   4.9. Zmień **Z** na {{incode   -40 mm}}{: mediawiki}.
+:   4.10. Naciśnij przycisk **OK**, aby zamknąć okno dialogowe.
 
-:   11.1. In the tree view select {{incode   Cube}}{: mediawiki} first, and then {{incode   Fusion}}{: mediawiki}.
-:   11.2. Then press **File:Part_Cut.svg   16px Part_Cut**{: mediawiki}. This will create a {{incode   Cut}}{: mediawiki} object.
-:   
-    **Note:**the order in which you select the objects is important for the cut operation. The base object is selected first, and the subtracting object comes at the end.
-:   11.3. If the colors look strange, select the new {{incode   Cut}}{: mediawiki} object, go to the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a gray color; also change the value of **Line Width** to {{incode   2.0}}{: mediawiki}.
+
+
+## Zmiana właściwości wyglądu 
+
+5\. Poprzednie operacje utworzyły mniejszy sześcian wewnątrz większego sześcianu. Aby to zwizualizować, możemy zmodyfikować właściwość **Widok** w edytorze właściwości.
+
+:   5.1. Wybierz {{Incode   Cube001}}{: mediawiki}, mniejszą kostkę, w oknie widoku drzewa i zmień jej kolor. W zakładce **Widok** kliknij wartość **Kolor kształtu**, aby otworzyć okno dialogowe **Wybierz kolor**, a następnie wybierz kolor zielony, zmień także wartość **Szerokość linii** na {{Incode   2.0}}{: mediawiki}.
+:   5.2. Wybierz obiekt {{Incode   Sześcian}}{: mediawiki}, większy sześcian, w oknie widok drzewa. W zakładce **Widok** zmień wartość **Przezroczystość** na {{incode   70}}{: mediawiki}.5. Poprzednie operacje utworzyły mniejszy sześcian wewnątrz większego sześcianu. Aby to zwizualizować, możemy zmodyfikować właściwości **Widoku** w edytorze właściwości.
 
 ! 
-*Hollow shape produced from cutting a cube and three cylinders from a bigger cube.*
+*Bryła sześcianu wewnątrz innej bryły sześcianu.*
 
-## Insert primitive cubes to cut the corners of the partial solid 
 
-Now we\'ll create more cubes that will be used as cutting tools to trim the corners of the previously obtained {{incode   Cut}}{: mediawiki} object.
 
-12\. Click on **Image:Part_Box.svg   16px Part_Box**{: mediawiki}.
+## Wstaw walec pierwotny 
 
-:   12.1. Select {{incode   Cube002}}{: mediawiki} in the tree view, and change the dimensions and placement.
-:   12.2. Change **Length** to {{incode   140 mm}}{: mediawiki}.
-:   12.3. Change **Width** to {{incode   112 mm}}{: mediawiki}.
-:   12.4. Change **Height** to {{incode   112 mm}}{: mediawiki}.
-:   12.5. Open the Placement dialog.
-:   12.6. Change **X** to {{incode   -70 mm}}{: mediawiki}.
-:   12.7. Change **Y** to {{incode   -56 mm}}{: mediawiki}.
-:   12.8. Change **Z** to {{incode   -56 mm}}{: mediawiki}.
-:   12.9. Press **OK**.
+6\. Wstaw cylinder pierwotny klikając na **Image:Part_Cylinder.svg   16px Part_Cylinder/pl**{: mediawiki}.
 
-13\. Click on **Image:Part_Box.svg   16px Part_Box**{: mediawiki}.
+:   6.1. Wybierz {{incode   Walec}}{: mediawiki} w oknie widoku drzewa.
+:   6.2. Zmień wymiary w zakładce **Dane** edytora właściwości.
+:   6.3. Zmień **Promień** na {{incode   27.5 mm}}{: mediawiki}.
+:   6.4. Zmień **Wysokość** na {{incode   120 mm}}{: mediawiki}.
+:   6.5. Otwórz okno dialogowe Umiejscowienie.
+:   6.6. Zmień **Z** na {{incode   -60 mm}}{: mediawiki}.
+:   6.7. Naciśnij przycisk **OK**, aby zamknąć okno dialogowe.
 
-:   13.1. Select {{incode   Cube003}}{: mediawiki} in the tree view, and change the dimensions and placement.
-:   13.2. Change **Length** to {{incode   180 mm}}{: mediawiki}.
-:   13.3. Change **Width** to {{incode   180 mm}}{: mediawiki}.
-:   13.4. Change **Height** to {{incode   180 mm}}{: mediawiki}.
-:   13.5. Open the Placement dialog.
-:   13.6. Change **X** to {{incode   -90 mm}}{: mediawiki}.
-:   13.7. Change **Y** to {{incode   -90 mm}}{: mediawiki}.
-:   13.8. Change **Z** to {{incode   -90 mm}}{: mediawiki}.
-:   13.9. Press **OK**.
+7\. Powtórz proces, wstawiając drugi cylinder, klikając **Image:Part_Cylinder.svg   16px Part_Cylinder/pl**{: mediawiki}.
 
-We\'ll duplicate the previous two objects again to use once more as cutting objects.
+:   7.1. Drugi cylinder zostanie utworzony z tą samą nazwą, ale z dodatkowym numerem, aby rozróżnić obiekt.
+:   7.2. Wybierz obiekt {{incode   Walec001}}{: mediawiki} w oknie widoku drzewa, a następnie zmień jego wymiary i położenie, tak jak w przypadku poprzedniego obiektu.
+:   7.3. Zmień **Promień** na {{incode   27.5 mm}}{: mediawiki}.
+:   7.4. Zmień **Wysokość** na {{incode   120 mm}}{: mediawiki}.
+:   7.5. Otwórz okno dialogowe Umiejscowienie.
+:   7.6. Zmień **Y** na {{incode   60 mm}}{: mediawiki}.
+:   7.7. Zmień właściwość **Obrót** na {{incode   ROś obrotu z zadanym kątem}}{: mediawiki}; **Oś** na {{incode   X}}{: mediawiki} ** oraz **Kąt** na {{incode   90°}}{: mediawiki}.
+:   7.8. Naciśnij przycisk **OK**, aby zamknąć okno dialogowe.
 
-14\. Select only {{incode   Cube002}}{: mediawiki} in the tree view, and go to **Edit , Std_DuplicateSelection   Duplicate selection**{: mediawiki}. This will create {{incode   Cube004}}{: mediawiki}.
+8\. Wstaw kolejny walec. Tym razem utwórz duplikat, aby nie trzeba było zmieniać promienia i wysokości, a jedynie jego położenie.
 
-15\. Select only {{incode   Cube003}}{: mediawiki} in the tree view, and go to **Edit , Std_DuplicateSelection   Duplicate selection**{: mediawiki}. This will create {{incode   Cube005}}{: mediawiki}.
+:   8.1. Zaznacz {{incode   Cylinder001}}{: mediawiki} w oknie widok drzewa i przejdź do menu **Edycja , Std_DuplicateSelection/pl   Duplicate selection**{: mediawiki}. Spowoduje to utworzenie obiektu {{Incode   Cylinder002}}{: mediawiki}.
+:   8.2. Otwórz okno dialogowe Umiejscowienie.
+:   8.3. Zmień **X** na {{incode   -60 mm}}{: mediawiki} i zmień **Y** z powrotem na {{incode   0 mm}}{: mediawiki}.
+:   8.4. Zmień **Obrót** na {{incode   Oś obrotu z zadanym kątem}}{: mediawiki}; **Oś** na {{incode   Y}}{: mediawiki} i **Kąt** na {{incode   90°}}{: mediawiki}.
+:   8.5. Naciśnij przycisk **OK**, aby zamknąć okno dialogowe.
 
-16\. To visualize this better we can modify the **View** properties in the property editor.
 
-:   16.1. Select the {{incode   Cut}}{: mediawiki} object, in the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a blue color.
-:   16.2. Select all new cubes, {{incode   Cube002}}{: mediawiki}, {{incode   Cube003}}{: mediawiki}, {{incode   Cube004}}{: mediawiki}, and {{incode   Cube005}}{: mediawiki}, in the **View** tab, change the value of **Transparency** to {{incode   80}}{: mediawiki}.
 
-! 
-*Additional external cubes that will be used as cutting objects for the internal solid.*
+## Zmiana właściwości wyglądu 
 
-## Cutting the corners 1 
+9\. Poprzednie operacje tworzą trzy cylindry, które przecinają się ze sobą, a także przecinają sześciany. Aby lepiej to zobrazować, możemy zmodyfikować właściwości **Widok** w edytorze właściwości.
 
-17\. In the tree view select {{incode   Cube002}}{: mediawiki} and {{incode   Cube003}}{: mediawiki}.
-
-:   17.1. Open the Placement dialog.
-:   17.2. Tick the option **Apply incremental changes**; notice that all **Translation** values are reset to zeroes.
-:   17.3. Change the **Rotation** to {{incode   Rotation axis with angle}}{: mediawiki}; **Axis** to {{incode   X}}{: mediawiki}, and **Angle** to {{incode   45 deg}}{: mediawiki}, then click on **Apply**. This will apply a rotation around the X-axis, and will reset the **Angle** field to zero.
-:   17.4. Change the **Rotation** again, now **Axis** to {{incode   Z}}{: mediawiki}, and **Angle** to {{incode   45 deg}}{: mediawiki}, then click on **Apply**. This will apply a rotation around the local Z-axis, and will reset the **Angle** field to zero.
-:   17.5. Click on **OK** to close the dialog.
-
-18\. In the tree view de-select the objects; then select {{incode   Cube003}}{: mediawiki} first, the bigger cube, and then {{incode   Cube002}}{: mediawiki}, the smaller cube.
-
-:   18.1. Then press **File:Part_Cut.svg   16px Part_Cut**{: mediawiki}. This will create {{incode   Cut001}}{: mediawiki}. This is a hollowed body which intersects the initial {{incode   Cut}}{: mediawiki} only at certain corners.
-
-19\. To visualize this better we can modify the **View** properties in the property editor.
-
-:   19.1. Select {{incode   Cube004}}{: mediawiki} and {{incode   Cube005}}{: mediawiki}, in the **View** tab, then change the value of **Visibility** to {{incode   false}}{: mediawiki}, or press **Space** in the keyboard.
-:   19.2. Select {{incode   Cut001}}{: mediawiki}, click on the **Shape Color** value to open the **Select color** dialog, then choose a red color; also change the value of **Transparency** to {{incode   90}}{: mediawiki}.
+:   9.1. Wybierz {{Incode   Sześcian001}}{: mediawiki}, mniejszą kostkę, w widoku drzewa i zmień przezroczystość. W zakładce **Widok** zmień wartość **Przezroczystość** na {{incode   70}}{: mediawiki}.
+:   9.2. Wybierz obiekt {{Incode   Walec}}{: mediawiki}, w zakładce **Widok** kliknij wartość **Kolor kształtu**, aby otworzyć okno dialogowe **Wybór koloru**, a następnie wybierz kolor czerwony.
+:   9.3. Wybierz obiekt {{Incode   Walec001}}{: mediawiki}, w zakładce **Widok** kliknij wartość **Kolor kształtu**, aby otworzyć okno dialogowe **Wybór koloru**, a następnie wybierz kolor niebieski.
+:   9.4. Wybierz {{Incode   Walec002}}{: mediawiki}, w zakładce **Widok** kliknij wartość **Kolor kształtu**, aby otworzyć okno dialogowe **Wybór koloru**, a następnie wybierz kolor różowy.
+:   9.5. Zaznacz trzy cylindry, w zakładce **Widok** zmień także wartość **Szerokość linii** na {{Incode   2.0}}{: mediawiki}.
 
 ! 
-*A rotated, hollowed solid, which will be used as a cutting object for some corners of the internal solid.*
+*Przecinające się bryły walców i bryły sześcianów.*
 
-## Cutting the corners 2 
 
-20\. In the tree view select {{incode   Cut001}}{: mediawiki}, in the **View** tab, change the value of **Visibility** to {{incode   false}}{: mediawiki}, or press **Space** in the keyboard.
 
-21\. In the tree view select {{incode   Cube004}}{: mediawiki} and {{incode   Cube005}}{: mediawiki}, in the **View** tab, change the value of **Visibility** to {{incode   true}}{: mediawiki}, or press **Space** in the keyboard.
+## Połączenie i wycięcie 
 
-:   21.1. Open the Placement dialog.
-:   21.2. Tick the option **Apply incremental changes**; notice that all **Translation** values are reset to zeroes.
-:   21.3. Change the **Rotation** to {{incode   Rotation axis with angle}}{: mediawiki}; **Axis** to {{incode   X}}{: mediawiki}, and **Angle** to {{incode   45 deg}}{: mediawiki}, then click on **Apply**. This will apply a rotation around the X-axis, and will reset the {{incode   Angle}}{: mediawiki} field to zero.
-:   21.4. Change the **Rotation** again, now **Axis** to {{incode   Z}}{: mediawiki}, and **Angle** to {{incode   -45 deg}}{: mediawiki}, then click on **Apply**. This will apply a rotation around the local Z-axis, and will reset the **Angle** field to zero.
-:   21.5. Click on **OK** to close the dialog.
+10\. W oknie widok drzewa wybierz obiekt {{incode   Sześcian001}}{: mediawiki}  i drzewo walców, a następnie naciśnij **File:Part_Fuse.svg   16px Part_Fuse/pl**{: mediawiki}. Spowoduje to utworzenie obiektu {{incode   Scalenie}}{: mediawiki}.
 
-22\. In the tree view de-select the objects; then select {{incode   Cube005}}{: mediawiki} first, the bigger cube, and then {{incode   Cube004}}{: mediawiki}, the smaller cube.
+1\. Następnie wykonaj cięcie logiczne obiektu {{Incode   Sześcian}}{: mediawiki} ** i nowego obiektu {{Incode   Scalenie}}{: mediawiki}.
 
-:   22.1. Then press **File:Part Cut.svg   16px Part_Cut**{: mediawiki}. This will create {{incode   Cut002}}{: mediawiki}. This is a hollowed body which intersects the initial {{incode   Cut}}{: mediawiki} only at certain corners.
+:   11.1. W oknie widoku drzewa wybierz najpierw {{Incode   Sześcian}}{: mediawiki}, a następnie {{Incode   Scalenie}}{: mediawiki}.
+:   11.2. Następnie wciśnij **File:Part_Cut.svg   16px Part_Cut/pl**{: mediawiki}. Spowoduje to utworzenie obiektu {{Incode   Wycięcie}}{: mediawiki}.
 
-23\. To visualize this better we can modify the **View** properties in the property editor.
+Kolejność zaznaczania obiektów jest ważna dla operacji cięcia. Obiekt bazowy jest zaznaczany jako pierwszy, a obiekt odejmowany na końcu.
 
-:   23.1. Select {{incode   Cut002}}{: mediawiki}, click on the **Shape Color** value to open the **Select color** dialog, then choose a pink color; also change the value of **Transparency** to {{incode   90}}{: mediawiki}.
+:   11.3. Jeśli kolory wyglądają dziwnie, wybierz nowy obiekt {{Incode   Wycięcie}}{: mediawiki}, przejdź do zakładki **Widok**, kliknij wartość **Kolor kształtu**, aby otworzyć okno dialogowe **Wybór koloru**, a następnie wybierz kolor szary; zmień także wartość **Szerokość linii** na {{Incode   2.0}}{: mediawiki}.
 
 ! 
-*A rotated, hollowed solid, which will be used as a cutting object for some corners of the internal solid.*
+*Wydrążony kształt powstały z wycięcia sześcianu i trzech walców z większego sześcianu.*
 
-## Finishing the model 
 
-24\. Make sure all objects are visible. In the tree view select all objects, in the **View** tab, change the value of **Visibility** to {{incode   true}}{: mediawiki}, or press **Space** in the keyboard.
+
+## Wstaw kostki pierwotne, aby wyciąć narożniki częściowej bryły 
+
+Teraz utworzymy więcej kostek, które będą używane jako narzędzia tnące do przycinania narożników wcześniej uzyskanego obiektu {{Incode   Wycięcie}}{: mediawiki}.
+
+12\. Kliknij **Image:Part_Box.svg   16px Part_Box/pl**{: mediawiki}.
+
+:   12.1. Wybierz {{Incode   Sześcian002}}{: mediawiki} w oknie widok drzewa, a następnie zmień jego wymiary i położenie.
+:   12.2. Zmień **Długość** na {{Incode   140 mm}}{: mediawiki}.
+:   12.3. Zmień **Szerokość** na {{Incode   112 mm}}{: mediawiki}.
+:   12.4. Zmień **Wysokość** na {{Incode   112 mm}}{: mediawiki}.
+:   12.5. Otwórz okno dialogowe Umiejscowienie.
+:   12.6. Zmień **X** na {{Incode   -70 mm}}{: mediawiki}.
+:   12.7. Zmień **Y** na {{Incode   -56 mm}}{: mediawiki}.
+:   12.8. Zmień **Z** na {{Incode   -56 mm}}{: mediawiki}.
+:   12.9. Naciśnij **OK**.
+
+13\. Kliknij **Image:Part_Box.svg   16px Part_Box/pl**{: mediawiki}.
+
+:   13.1. Wybierz {{incode   Sześcian003}}{: mediawiki} w widok drzewa i zmień wymiary i położenie.
+:   13.2. Zmień **Długość** na {{incode   180 mm}}{: mediawiki}.
+:   13.3. Zmień **Szerokość** na {{incode   180 mm}}{: mediawiki}.
+:   13.4. Zmień **Wysokość** na {{incode   180 mm}}{: mediawiki}.
+:   13.5. Otwórz okno dialogowe Umiejscowienie.
+:   13.6. Zmień **X** na {{incode   -90 mm}}{: mediawiki}.
+:   13.7. Zmień **Y** na {{incode   -90 mm}}{: mediawiki}.
+:   13.8. Zmień **Z** na {{incode   -90 mm}}{: mediawiki}.
+:   13.9. Naciśnij **OK**.
+
+Powielimy ponownie dwa poprzednie obiekty, aby użyć ich ponownie jako obiektów tnących.
+
+14\. Wybierz tylko {{Incode   Sześcian002}}{: mediawiki} w oknie widok drzewa i przejdź do **Edycja , Std_DuplicateSelection/pl   Powiel zaznaczone**{: mediawiki}. Spowoduje to utworzenie obiektu {{incode   Sześcian004}}{: mediawiki}.
+
+15\. Wybierz tylko {{Incode   Sześcian003}}{: mediawiki} w oknie widok drzewa i przejdź do **Edycja , Std_DuplicateSelection/pl   Powiel zaznaczone**{: mediawiki}. Spowoduje to utworzenie obiektu {{incode   Sześcian005}}{: mediawiki}.
+
+16\. Aby lepiej to zobrazować, możemy zmodyfikować właściwości **Widok** w oknie edytora właściwości.
+
+:   16.1. Zaznacz obiekt {{Incode   Wycięcie}}{: mediawiki}, w zakładce **Widok** kliknij na wartość **Kolor kształtu**, aby otworzyć okno dialogowe **Wybór koloru**, a następnie wybierz kolor niebieski.
+:   16.2. Zaznacz wszystkie nowe sześciany {{Incode   Sześcian002}}{: mediawiki}, {{Incode   Sześcian003}}{: mediawiki}, {{Incode   Sześcian004}}{: mediawiki} i {{Incode   Sześcian005}}{: mediawiki}, w zakładce **Widok** zmień wartość **Przeźroczystość** na {{Incode   80}}{: mediawiki}.
 
 ! 
-*The internal hollowed solid, together with the external objects which will be used to cut it.*
+*Dodatkowe kostki zewnętrzne, które będą używane jako obiekty tnące dla bryły wewnętrznej.*
 
-25\. In the tree view de-select the objects; then select {{incode   Cut}}{: mediawiki} first, and then {{incode   Cut001}}{: mediawiki}.
 
-:   25.1. Then press **File:Part_Cut.svg   16px Part_Cut**{: mediawiki}. This will create {{incode   Cut003}}{: mediawiki}.
+
+## Ścinanie narożników 1 
+
+17\. W oknie widok drzewa wybierz {{incode   Sześcian002}}{: mediawiki} i {{incode   Sześcian003}}{: mediawiki}.
+
+:   17.1. Otwórz okno dialogowe Umiejscowienie.
+:   17.2. Zaznacz opcję **Zastosuj zmiany przyrostowe**; zauważ, że wszystkie wartości **Przesunięcia** są wyzerowane.
+:   17.3. Zmień **Obrót** na {{incode   Oś obrotu z zadanym kątem}}{: mediawiki}; **Oś** na {{incode   X}}{: mediawiki} i **Kat** na {{incode   45°}}{: mediawiki}, a następnie kliknij **Zaqstosuj**. Spowoduje to zastosowanie obrotu wokół osi X i wyzerowanie pola **Kat**.
+:   17.4. Zmień **Obrót** ponownie, teraz **Oś** na {{incode   Z}}{: mediawiki} i **Kat** na {{incode   45°}}{: mediawiki}, a następnie kliknij **Zastosuj**. Spowoduje to zastosowanie obrotu wokół lokalnej osi Z i wyzerowanie pola **Kąt**.
+:   17.5. Kliknij **OK**, aby zamknąć okno dialogowe.
+
+18\. W oknie widoku drzewa usuń zaznaczenie obiektów; następnie wybierz {{incode   Sześcian003}}{: mediawiki}, większy sześcian, a następnie {{incode   Sześcian002}}{: mediawiki}, mniejszy sześcian.
+
+:   18.1. Następnie naciśnij **File:Part_Cut.svg   16px Part_Cut/pl**{: mediawiki}. Spowoduje to utworzenie obiektu {{incode   Wycięcie001}}{: mediawiki}. Jest to wydrążona bryła, która przecina początkowy obiekt {{incode   Wytcięcie}}{: mediawiki} tylko w niektórych rogach.
+
+19\. Aby lepiej to zobrazować, możemy zmodyfikować właściwości **Widok** w edytorze właściwości.
+
+:   19.1. Zaznacz {{Incode   Sześcian004}}{: mediawiki} i {{Incode   Sześcian005}}{: mediawiki}, w zakładce **Widok**, a następnie zmień wartość **Widoczność** na {{false/pl}}, lub naciśnij klawisz **Spacja** na klawiaturze.
+:   19.2. Wybierz {{Incode   Wycięcie001}}{: mediawiki}, kliknij wartość **Kolor kształtu**, aby otworzyć okno dialogowe **Wybór koloru**, a następnie wybierz kolor czerwony; zmień także wartość **Przezroczystość** na {{Incode   90}}{: mediawiki}.
 
 ! 
-*The internal hollowed solid, cut by {{incode   Cut001*.}}{: mediawiki}
+*Obrócona, wydrążona bryła, która będzie używana jako obiekt tnący dla niektórych narożników bryły wewnętrznej.*
 
-26\. In the tree view de-select the objects; then select {{incode   Cut003}}{: mediawiki} first, and then {{incode   Cut002}}{: mediawiki}.
 
-:   26.1. Then press **File:Part_Cut.svg   16px Part_Cut**{: mediawiki}. This will create {{incode   Cut004}}{: mediawiki}. This is the final object.
-:   26.2. Select {{incode   Cut004}}{: mediawiki}, click on the **Shape Color** value to open the **Select color** dialog, then choose a green color; also change the value of **Line Width** to {{incode   2.0}}{: mediawiki}.
+
+## Ścinanie narożników 2 
+
+20\. W oknie widoku drzewa wybierz obiekt {{incode   Wycięcie001}}{: mediawiki}, w zakładce **Widok** zmień wartość **Widoczność** na {{false/pl}} lub naciśnij klawisz **Spacja** na klawiaturze.
+
+21\. W oknie widoku drzewa wybierz {{incode   Sześcian004}}{: mediawiki} i {{incode   Sześcian005}}{: mediawiki}, w zakładce **Widok** zmień wartość **Widoczność** na {{incode   true}}{: mediawiki} lub naciśnij klawisz **Spacja** na klawiaturze.
+
+:   21.1. Otwórz okno dialogowe Umiejscowienie.
+:   21.2. Zaznacz opcję **Zastosuj zmiany przyrostowe**; zauważ, że wszystkie wartości **Przesunięcie** są wyzerowane.
+:   21.3. Zmień **Obrót** na {{incode   Oś obrotu z zadanym kątem}}{: mediawiki}; **Oś** na {{incode   X}}{: mediawiki} i **Kąt** na {{incode   45°}}{: mediawiki}, a następnie kliknij **Zastosuj**. Spowoduje to zastosowanie obrotu wokół osi X i wyzerowanie pola {{Incode   Kąt}}{: mediawiki}.
+:   21.4. Zmień **Obrót** ponownie, teraz **Oś** na {{incode   Z}}{: mediawiki} i **Kąt** na {{incode   -45°}}{: mediawiki}, a następnie kliknij **Zastosuj**. Spowoduje to zastosowanie obrotu wokół lokalnej osi Z i wyzerowanie pola **Kąt**.
+:   21.5. Kliknij **OK**, aby zamknąć okno dialogowe.
+
+22\. W oknie widoku drzewa usuń zaznaczenie obiektów, następnie wybierz {{incode   Sześcian005}}{: mediawiki}, większy sześcian, a następnie {{incode   Sześcian004}}{: mediawiki}, mniejszy sześcian.
+
+:   22.1. Następnie naciśnij **File:Part_Cut.svg   16px Part_Cut/pl**{: mediawiki}. Spowoduje to utworzenie obiektu {{incode   Wycięcie002}}{: mediawiki}. Jest to wydrążona bryła, która przecina początkowy obiekt {{incode   Wytcięcie}}{: mediawiki} tylko w niektórych rogach.
+
+23\. Aby lepiej to zobrazować, możemy zmodyfikować właściwości **Widok** w edytorze właściwości.
+
+:   23.1. Wybierz {{Incode   Wycięcie002}}{: mediawiki}, kliknij na wartość **Kolor kształtu**, aby otworzyć okno dialogowe **Wybór koloru**, a następnie wybierz różowy kolor. Zmień także wartość **Przezroczystość** na {{Incode   90}}{: mediawiki}.
 
 ! 
-*The internal hollowed solid, cut by {{incode   Cut001* and `Cut002`. Final model.}}{: mediawiki}
+*Obrócona, wydrążona bryła, która będzie używana jako obiekt tnący dla niektórych narożników bryły wewnętrznej.*
 
-27\. Real objects don\'t have perfectly sharp edges or corners, so applying a fillet to the edges can be done to refine the model.
 
-:   27.1. In the tree view, select {{incode   Cut004}}{: mediawiki} then press **File:Part_Fillet.svg   16px Part_Fillet**{: mediawiki}.
-:   27.2. In the **Fillet edges** task panel go to **Selection**, choose **Select edges**, and then press **All**. As **Fillet type** choose {{incode   Constant radius}}{: mediawiki}, then set **Radius** to {{incode   1 mm}}{: mediawiki}.
-:   24.3. Press **OK**. This will create a {{incode   Fillet}}{: mediawiki} object.
-:   27.4. In the **View** tab, change the value of **Line Width** to {{incode   2.0}}{: mediawiki}.
+
+## Wykończenie modelu 
+
+24\. Upewnij się że wszystkie obiekty są widoczne. W oknie widoku drzewa zaznacz wszystkie obiekty, w zakładce **Widok** zmień wartość **Widoczność** na {{true/pl}} lub naciśnij klawisz **Spacja** na klawiaturze.
 
 ! 
-*Final whiffle ball model with fillets applied to the edges.*
+*Wewnętrznie wydrążona bryła wraz z zewnętrznymi przedmiotami, które zostaną użyte do jej przecięcia.*
+
+25\. W oknie widoku drzewa usuń zaznaczenie obiektów, a następnie wybierz najpierw obiekt {{incode   Wycięcie}}{: mediawiki}, a następnie {{incode   Wycięcie001}}{: mediawiki}.
+
+:   25.1. Następnie naciśnij **File:Part_Cut.svg   16px Part_Cut/pl**{: mediawiki}. Spowoduje to utworzenie obiektu {{Incode   Wycięcie003}}{: mediawiki}.
+
+! 
+*Wewnętrznie wydrążona bryła, wycięta przez obiekt {{Incode   Wycięcie001*.}}{: mediawiki}
+
+26\. W oknie widoku drzewa usuń zaznaczenie, a następnie wybierz najpierw obiektów {{incode   Wycięcie003}}{: mediawiki}, a następnie {{incode   Wycięcie002}}{: mediawiki}.
+
+:   26.1. Następnie naciśnij **File:Part_Cut.svg   16px Part_Cut/pl**{: mediawiki}. Spowoduje to utworzenie {{incode   Wycięcie004}}{: mediawiki}. To jest ostateczny obiekt.
+:   26.2. Wybierz {{Incode   Wycięcie004}}{: mediawiki}, kliknij wartość **Kolor kształtu**, aby otworzyć okno dialogowe **Wybór koloru**, a następnie wybierz kolor zielony. Zmień także wartość **Szerokość linii** na {{Incode   2.0}}{: mediawiki}.
+
+! 
+*Wewnętrznie wydrążona bryła, wycięta przez obiekt {{incode   Wycięcie001* i `Wycięcie002`. Model końcowy.}}{: mediawiki}
+
+27\. Rzeczywiste obiekty nie mają idealnie ostrych krawędzi lub narożników, więc zastosowanie zaokrąglenia na krawędziach może być wykonane w celu udoskonalenia modelu.
+
+:   27.1. W widoku drzewa wybierz obiekt {{Incode   Wycięcie004}}{: mediawiki}, a następnie naciśnij przycisk **File:Part_Fillet.svg   16px Part_Fillet/pl**{: mediawiki}.
+:   27.2. W oknie **Zaokrąglenie krawędzi** panelu zadań przejdź do sekcji **Wybór**, wybierz **Wybór krawędzi**, a następnie wciśnij **Wszystkie**. Jako **Typ zaokrąglenia** wybierz {{Incode   Promień stały}}{: mediawiki}, a następnie ustaw **Promień** na {{Incode   1 mm}}{: mediawiki}.
+:   24.3. Naciśnij **OK**. Spowoduje to utworzenie obiektu {{incode   Zaokrąglenie}}{: mediawiki}.
+:   27.4. W zakładce **Widok** zmień wartość **Szerokość linii** na {{incode   2.0}}{: mediawiki}.
+
+! 
+*Końcowy model kuli Whiffle z zaokrągleniami na krawędziach.*
 
 
  {{Userdocnavi

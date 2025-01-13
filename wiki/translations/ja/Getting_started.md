@@ -61,7 +61,7 @@ First of all, download and install FreeCAD. See the [Download](Download.md) page
 
 <img alt="" src=images/FreeCAD_interface.png  style="width:1024px;">
 
-![最初に起動するFreeCADインターフェイスです。[他のスクリーンショット](images/screenshots/jp.md)も参照してください。](Freecad09-empty.jpg )
+![最初に起動するFreeCADインターフェイスです。[他のスクリーンショットも](images/screenshots/jp.md)参照してください。](Freecad09-empty.jpg )
 
 
 </div>
@@ -82,7 +82,7 @@ First of all, download and install FreeCAD. See the [Download](Download.md) page
 
 <div class="mw-translate-fuzzy">
 
-FreeCADは汎用の3Dモデリングアプリケーションです。機械工学と、専門的なエンジニアリングや建築などの関連分野に重点を置いています。FreeCADは、限られた特定のタスクを実行するためだけではなく、あらゆる種類の3Dアプリケーションを開発するためのプラットフォームとして考えられています。このため、FreeCADのインターフェイスは一連の [ワークベンチ](Workbenches/jp.md)に分けられています。ワークベンチでは特定のタスクやタスクグループに必要なツールのみを表示するようにインターフェイスの内容を変更することができます。
+FreeCADは汎用の3Dモデリングアプリケーションです。機械工学と、専門的なエンジニアリングや建築などの関連分野に重点を置いています。FreeCADは、限られた特定のタスクを実行するためだけではなく、あらゆる種類の3Dアプリケーションを開発するためのプラットフォームとして考えられています。このため、FreeCADのインターフェイスは一連の [ワークベンチに](Workbenches/jp.md)分けられています。ワークベンチでは特定のタスクやタスクグループに必要なツールのみを表示するようにインターフェイスの内容を変更することができます。
 
 
 </div>
@@ -169,21 +169,29 @@ Which gives you an object like this:
 
 At any moment, you can select the original sketches and modify them, or change the extrusion parameters of the pad or pocket operations, which will update the final object.
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Working with the Draft and Arch workbenches 
 
-The [Draft Workbench](Draft_Workbench.md) and [Arch Workbench](Arch_Workbench.md) behave a bit differently than the other workbenches above, although they follow the same rules, which are common to all of FreeCAD. In short, while the Sketcher and PartDesign are made primarily to design single pieces, Draft and Arch are made to ease your work when working with several, simpler objects.
+
+</div>
+
+The [Draft Workbench](Draft_Workbench.md) and [BIM Workbench](BIM_Workbench.md) behave a bit differently than the other workbenches above, although they follow the same rules, which are common to all of FreeCAD. In short, while the Sketcher and PartDesign are made primarily to design single pieces, Draft and BIM are made to ease your work when working with several, simpler objects.
 
 The [Draft Workbench](Draft_Workbench.md) offers you 2D tools somewhat similar to what you can find in traditional 2D CAD applications such as [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). However, 2D drafting being far away from the scope of FreeCAD, don\'t expect to find there the full array of tools that these dedicated applications offer. Most of the Draft tools work not only in a 2D plane but also in the full 3D space, and benefit from special helper systems such as [Work planes](Draft_SelectPlane.md) and [object snapping](Draft_Snap.md).
 
-The [Arch Workbench](Arch_Workbench.md) adds [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) tools to FreeCAD, allowing you to build architectural models with parametric objects. The Arch workbench relies extensively on other modules such as Draft and Sketcher. All the Draft tools are also present in the Arch workbench, and most Arch tools make use of the Draft helper systems.
+The [BIM Workbench](BIM_Workbench.md) adds [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) tools to FreeCAD, allowing you to build architectural models with parametric objects. The BIM workbench relies extensively on other modules such as Draft and Sketcher. All the Draft tools are also present in the BIM workbench, and most BIM tools make use of the Draft helper systems.
 
-A typical workflow with Arch and Draft workbenches might be:
+A typical workflow with BIM and Draft workbenches might be:
 
 1.  Draw a couple of lines with the Draft Line tool
 2.  Select each line and press the Wall tool to build a wall on each of them
-3.  Join the walls by selecting them and pressing the Arch Add tool
-4.  Create a floor object, and move your walls in it from the Tree view
-5.  Create a building object, and move your floor in it from the Tree view
+3.  Join the walls by selecting them and pressing the BIM Add tool
+4.  Create a floor object, and in the Tree view drag your walls into the floor object
+5.  Create a building object, and in the Tree view drag your floor (which now includes the walls) into the building object
 6.  Create a window by clicking the Window tool, select a preset in its panel, then click on a face of a wall
 7.  Add dimensions by first setting the working plane if necessary, then using the Draft Dimension tool
 
@@ -194,7 +202,7 @@ A typical workflow with Arch and Draft workbenches might be:
 
 <div class="mw-translate-fuzzy">
 
-[Tutorials](Tutorials.md)ページの詳細。
+[Tutorialsページの](Tutorials.md)詳細。
 
 
 </div>
@@ -209,21 +217,20 @@ A typical workflow with Arch and Draft workbenches might be:
 
 </div>
 
-FreeCAD, as an open source software, offers the possibility to supplement its workbenches with addons.
+Any user can develop their own new features for FreeCAD and make them available to the FreeCAD community as an [addon](Addon.md).
 
-The [Addon](Addon.md) principle is based on the development of a workbench complement. Any user can develop a function that he or she deems to be missing for her/his own needs or, ultimately, for the community. With the forum, the user can request an opinion, help on the forum. It can share, or not, the object of its development according to copyright rules to define. Free to her/him. To develop, the user has available [scripting](scripting.md) functions.
+There are three types of addons:
 
-There are two types of addons:
-
-1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
+-   [Macros](Macros.md): short snippet of [Python](Python.md) code that provides a new tool or functionality in a single file ending with `.FCMacro`.
+-   [Workbenches](External_workbenches.md): collections of Python files that provide related [Gui Commands](Gui_Command.md) (tools) centered around a particular topic.
+-   [Preference Packs](Preference_Packs.md): distributable collections of user preferences.
 
 ## Scripting
 
 
 <div class="mw-translate-fuzzy">
 
-最後はFreeCADの最も強力な機能の一つ、[スクリプト](scripting/ja.md)環境です 。統合されたPythonコンソールから（あるいは他の外部のPythonスクリプトからでも）、FreeCADのほとんど全ての機能へアクセスできます。ジオメトリの作成や修正、3Dシーンでのオブジェクトの表示方法の変更、FreeCADインターフェースへのアクセスや変更が可能です。Pythonスクリプトはまた[マクロ](macros/ja.md)としても使用され、カスタムコマンドを簡単に作成することができます。
+最後はFreeCADの最も強力な機能の一つ、[スクリプト](scripting/ja.md)環境です 。統合されたPythonコンソールから（あるいは他の外部のPythonスクリプトからでも）、FreeCADのほとんど全ての機能へアクセスできます。ジオメトリの作成や修正、3Dシーンでのオブジェクトの表示方法の変更、FreeCADインターフェースへのアクセスや変更が可能です。Pythonスクリプトはまた[マクロとしても](macros/ja.md)使用され、カスタムコマンドを簡単に作成することができます。
 
 
 </div>

@@ -3,9 +3,11 @@
 
 
 
+
+
 ## 소개
 
-**표준 파일 메뉴(Std File Menu)**는 [표준 메뉴](Standard_Menu/ko.md)의 7개 하위 메뉴 중 하나입니다.
+**표준 파일 메뉴(Std File Menu)**는 [표준 메뉴의](Standard_Menu/ko.md) 7개 하위 메뉴 중 하나입니다.
 
 
 {{StdMenu
@@ -49,6 +51,14 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
+-   [최근 파일](Std_RecentFiles/ko.md): 최근 파일 목록을 표시합니다.
+
+
+</div>
+
 -   <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:32px;"> [닫기](Std_CloseActiveWindow/ko.md): 활성 창을 닫습니다.
 
 -   <img alt="" src=images/Std_CloseAllWindows.svg  style="width:32px;"> [모두 닫기](Std_CloseAllWindows/ko.md): 모든 창을 닫습니다.
@@ -69,7 +79,13 @@
 
 -   <img alt="" src=images/Std_MergeProjects.svg  style="width:32px;"> [프로젝트 병합\...](Std_MergeProjects/ko.md): FreeCAD 파일의 개체를 문서에 추가합니다.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_ProjectInfo.svg  style="width:32px;"> [프로젝트 정보\...](Std_ProjectInfo/ko.md): 문서의 세부 사항을 표시합니다.
+
+
+</div>
 
 -   <img alt="" src=images/Std_Print.svg  style="width:32px;"> [인쇄\...](Std_Print/ko.md): 문서를 인쇄합니다.
 
@@ -77,15 +93,13 @@
 
 -   <img alt="" src=images/Std_PrintPdf.svg  style="width:32px;"> [PDF로 내보내기\...](Std_PrintPdf/ko.md): 문서를 PDF 파일 형식으로 내보냅니다.
 
--   [최근 파일](Std_RecentFiles/ko.md): 최근 파일 목록을 표시합니다.
-
 -   <img alt="" src=images/Std_Quit.svg  style="width:32px;"> [종료](Std_Quit/ko.md): 응용 프로그램을 종료합니다.
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -21,6 +23,8 @@ Acest instrument împarte un obiect selectat [ Mesh](Mesh_Workbench.md) în comp
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -92,5 +96,13 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/ro
+⏵ [documentation index](../README.md) > Arch SplitMesh/ro

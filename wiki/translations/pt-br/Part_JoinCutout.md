@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Part JoinCutout
-   MenuLocation: Part , Join , Cutout for Object
+   MenuLocation: Part , Join , Cutout for object
    Workbenches: Part_Workbench
    Version: 0.16
    SeeAlso: Part_JoinConnect, Part_JoinEmbed, Part_Boolean, Part_Thickness
@@ -11,19 +11,17 @@
 
 ## Description
 
-The <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part JoinCutout](Part_JoinCutout.md) tool creates a cutout in a walled object (e.g., a pipe) to fit another walled object.
+The <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> **Part JoinCutout** tool creates a cutout in a walled object (e.g. a pipe) to fit another walled object.
 
 ![600px](images/JoinFeatures_Cutout.png)
 
 ## Usage
 
-1.  Select the base object first, then the object to define the cutout.
-    The order of selection is important. It is enough to select one sub-shape of each object (e.g., faces).
-2.  Invoke the Part JoinCutout command several ways:
-    -   Pressing on the <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part JoinCutout](Part_JoinCutout.md) button in the Part toolbar
-    -   Using the **Part → Join → Cutout for Object** entry in the Part menu
-
-A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original objects are hidden, and the result of cutting is shown in [3D view](3D_view.md).
+1.  Select the base object first, then the object to define the cutout. The order of selection is important. It is enough to select one sub-shape of each object (e.g. faces).
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Part_JoinCutout.svg" width=16px> [Cutout for object](Part_JoinCutout.md)** button.
+    -   Select the **Part → Join → <img src="images/Part_JoinCutout.svg" width=16px> Cutout for object** option from the menu.
+3.  A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original objects are hidden, and the result of cutting is shown in the [3D view](3D_view.md).
 
 ## Properties
 
@@ -82,6 +80,14 @@ j.Tool = FreeCADGui.Selection.getSelection()[1]
 }}
 
 The tool itself is implemented in Python, see **/Mod/Part/JoinFeatures.py** ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) under where FreeCAD is installed.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

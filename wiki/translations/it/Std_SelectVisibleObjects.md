@@ -24,7 +24,7 @@ Il comando **Seleziona gli oggetti visibili** seleziona tutti gli oggetti visibi
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

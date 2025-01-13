@@ -1,23 +1,29 @@
 ---
  GuiCommand:
    Name: Spreadsheet AlignBottom
-   Name/de: Kalkulationstabelle UntenAusrichten
-   MenuLocation: Kalkulationstabelle , Ausrichtung , Unten Ausrichten
+   Name/de: Spreadsheet AusrichtenUnten
+   MenuLocation: Kalkulationstabelle , Ausrichtung , Nach unten ausrichten
    Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
 ---
 
 # Spreadsheet AlignBottom/de
 
+
+
 ## Beschreibung
 
-Das **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Kalkulationstabelle UntenAusrichten](Spreadsheet_AlignBottom/de.md)** Werkzeug bewirkt, dass der Text innerhalb der Zelle nach unten ausgerichtet wird.
+Das Werkzeug <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> **Spreadsheet AusrichtenUnten** richtet den Inhalt ausgewählter Zellen am unteren Rand aus.
+
+
 
 ## Anwendung
 
-1.  Stelle sicher, dass eine aktive **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md)** geöffnet ist, so dass die Schaltfläche aktiviert ist.
-2.  Wähle eine Zelle.
-3.  Drücke die **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Kalkulationstabelle UntenAusrichten](Spreadsheet_AlignBottom/de.md)** Schaltfläche.
+1.  Sicherstellen, dass eine [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md) aktiviert ist.
+2.  Eine oder mehrere Zellen auswählen.
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Nach unten ausrichten](Spreadsheet_AlignBottom/de.md)** drücken.
+    -   Den Menüeintrag **Kalkulationstabelle → Ausrichtung → [<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> Nach unten ausrichten** auswählen.
 
 
 

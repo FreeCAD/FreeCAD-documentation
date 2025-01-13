@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Wire
-   Name/de: Draft Polylinie
-   MenuLocation: Zeichnen , Polyline
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   Name/de: Draft Linienzug
+   MenuLocation: Zeichnen , Linienzug<br>2D-Entwurf , Linienzug
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: **P** **L**
    Version: 0.7
    SeeAlso: Draft_Line/de, Draft_BSpline/de
@@ -15,12 +15,12 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Draft Polylinie** [erstellt](#Erstellen.md) eine Polylinie, eine Folge von mehreren Liniensegmenten (Linienzug). Der Befehl kann auch verwendet werden um [Draft-Linien](Draft_Line/de.md) und Draft-Polylinien zu [verbinden](#Verbinden.md).
+Der Befehl <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Draft Linienzug** [erstellt](#Erstellen.md) einen Linienzug (Polylinie), eine Folge von mehreren Liniensegmenten. Der Befehl kann auch verwendet werden, um [Draft-Linien](Draft_Line/de.md) und Draft-Linienzüge zu [verbinden](#Verbinden.md).
 
-Die Ecken einer Draft-Polylinie können verrundet oder mit einer Fase versehen werden, indem ihre {{PropertyData/de|Fillet Radius}} oder **Chamfer Size** geändert wird. Außerdem ist es möglich die Kanten einer Polylinie zu unterteilen, indem ihre {{PropertyData/de|Subdivisions}} geändert wird.
+Die Ecken eines Draft-Linienzuges können verrundet oder mit einer Fase versehen werden, indem seine {{PropertyData/de|Fillet Radius}} oder {{PropertyData/de|Chamfer Size}} geändert wird. Außerdem ist es möglich die Kanten eines Linienzuges zu unterteilen, indem seine {{PropertyData/de|Subdivisions}} geändert wird.
 
 <img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;"> 
-*Eine durch mehrere Punkte festgelegte Polylinie (Linienzug)*
+*Ein durch mehrere Punkte festgelegter Linienzug (Polylinie)*
 
 
 
@@ -33,8 +33,9 @@ Die Ecken einer Draft-Polylinie können verrundet oder mit einer Fase versehen w
 Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Einrasten](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Draft_Wire.svg" width=16px> [Polylinie](Draft_Wire/de.md)** drücken.
-    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_Wire.svg" width=16px> Polylinie** auswählen.
+    -   Die Schaltfläche **<img src="images/Draft_Wire.svg" width=16px> [Linienzug](Draft_Wire/de.md)** drücken.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Zeichnen → <img src="images/Draft_Wire.svg" width=16px> Linienzug** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **2D-Entwurf → <img src="images/Draft_Wire.svg" width=16px> Linienzug** auswählen.
     -   Das Tastaturkürzel **P** dann **L**.
 
 2.  Der Aufgaben-Bereich **Polylinie** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
@@ -50,13 +51,13 @@ Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Einrasten](Draft_Snap/de.md
 
 ### Optionen
 
-Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 1.0).
 
 -   Zum manuellen Eingeben von Koordinaten, werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam den Mauszeiger außerhalb der [3D-Ansicht](3D_view/de.md) zu plazieren, bevor man Koordinaten eingibt.
 
 -    **R**drücken oder die Checkbox **Relative** anklicken, um den Relativ-Modus umzuschalten. Bei eingeschaltetem Relativ-Modus beziehen sich Koordinaten auf den letzten Punkt, falls vorhanden, andernfalls beziehen sie sich auf den Ursprung des Koordinatensystems.
 
--    **G**drücken oder die Checkbox **Global** anklicken, um den Global-Modus umzuschalten. Bei eingeschaltetem Global-Modus beziehen sich Koordinaten auf des globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordiatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+-    **G**drücken oder die Checkbox **Global** anklicken, um den Global-Modus umzuschalten. Bei eingeschaltetem Global-Modus beziehen sich Koordinaten auf des globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordiatensystem der [Arbeitsebene](Draft_SelectPlane/de.md).
 
 -    **F**drücken oder die Checkbox **Filled** anklicken, um den Füll-Modus umzuschalten. Bei eingeschaltetem Füll-Modus wird die {{PropertyData/de|Make Face}} (Fläche erstellen) des erstellten Kantenzuges (Wire) auf `True` gesetzt und eine Fläche erstellt, vorausgesetzt er ist geschlossen und nicht selbstdurchdringend. Man beachte, dass ein selbstdurchdringender Kantenzug mit einer Fläche nicht vernünftig dargestellt wird. Für solche Kantenzüge muss die {{PropertyData/de|Make Face}} auf `False` gesetzt werden.
 
@@ -84,11 +85,11 @@ Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geänd
 
 ### Anwendung 
 
-1.  Die Endpunkte der [Draft Linie](Draft_Line/de.md) und/oder des Draft-Kantenzuges, die verbunden werden sollen, müssen exakt deckungsgleich sein. Falls erforderlich, werden zuerst die Punkte angepasst, um dies sicherzustellen.
-2.  Zwei oder mehr [Draft Linien](Draft_Line/de.md) und/oder Draft-Kantenzüge auswählen.
+1.  Die Endpunkte der [Draft Linie](Draft_Line/de.md) und/oder des Draft-Linienzuges, die verbunden werden sollen, müssen exakt deckungsgleich sein. Falls erforderlich, werden zuerst die Punkte angepasst, um dies sicherzustellen.
+2.  Zwei oder mehr [Draft Linien](Draft_Line/de.md) und/oder Draft-Linienzüge auswählen.
 3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Draft_Wire.svg" width=16px> [Draft Polylinie](Draft_Wire/de.md)** drücken.
-    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_Wire.svg" width=16px> Polyline** auswählen.
+    -   Die Schaltfläche **<img src="images/Draft_Wire.svg" width=16px> [Linienzug](Draft_Wire/de.md)** drücken.
+    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_Wire.svg" width=16px> Linienzug** auswählen.
     -   Das Tastaturkürzel **P** dann **L**.
 
 
@@ -161,7 +162,7 @@ Ein Draft-Polylinie-Objekt wird von einem [Part Part2DObject](Part_Part2DObject/
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Zum Erstellen einer Draft-Polylinie wird die Methode `make_wire` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeWire`.
 

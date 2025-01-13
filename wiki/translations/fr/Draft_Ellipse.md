@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Ellipse
    Name/fr: Draft Ellipse
-   MenuLocation: Draft , Ellipse
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft : Formes , Ellipse<br><br>BIM : Formes 2D , Ellipse
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **E** **L**
    Version: 0.7
 ---
@@ -27,20 +27,21 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyer sur le bouton **<img src="images/Draft_Ellipse.svg" width=16px> [Ellipse](Draft_Ellipse/fr.md)**.
-    -   Sélectionner l\'option **Draft → <img src="images/Draft_Ellipse.svg" width=16px> Ellipse** du menu.
+    -   [Draft](Draft_Workbench/fr.md): sélectionner l\'option **Formes → <img src="images/Draft_Ellipse.svg" width=16px> Ellipse** du menu.
+    -   [BIM](BIM_Workbench/fr.md): sélectionner l\'option **Formes 2D → <img src="images/Draft_Ellipse.svg" width=16px> Ellipse** du menu.
     -   Utiliser le raccourci clavier : **E** puis **L**.
 2.  Le panneau de tâches **Ellipse** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-4.  Choisir le deuxième point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**. Ce point ne doit pas être contraint sur l\'axe X, Y ou Z.
+3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**.
+4.  Choisir le deuxième point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point**. Ce point ne doit pas être contraint sur l\'axe X, Y ou Z.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut (pour la version 1.0).
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs de X, Y et Z, et appuyez sur **Entrée** après chacune, ou, vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez les valeurs de X, Y et Z, et appuyez sur **Entrée** après chacune, ou, vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrer un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées du deuxième point sont relatives au premier point, sinon elles sont relatives à l\'origine du système de coordonnées.
--   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **F** ou cliquez sur la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, l\'ellipse créée aura la valeur {{PropertyData/fr|Make Face}} `True` et aura un face remplie.
+-   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md).
+-   Appuyez sur **F** ou cliquez sur la case **Remplir** pour activer le mode de remplissage. Si le mode rempli est activé, l\'ellipse créée aura la valeur {{PropertyData/fr|Make Face}} `True` et aura un face remplie.
 -   Appuyez sur **N** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des ellipses.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Échap** ou sur le bouton **Fermer** pour interrompre la commande.

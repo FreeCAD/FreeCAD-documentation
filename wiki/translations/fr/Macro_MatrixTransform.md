@@ -4,8 +4,8 @@
 |Icon=Macro_MatrixTransform.png
 |Description=Transforme unobjet en modifiant la matrice 3x3 (parametrique).<br/> {{ColoredText|#ff0000|#ffff00|Cette macro est composée de 2 macro: '''MatrixTransform.FCMacro''' (lanceur) et '''MatrixTransform.py''' (exécuteur).}} <br/> Le '''.FCMacro''' est installé avec AddonManager vous devez installer la macro '''.py''' manuellement. <br/> Lien des deux macros: <br/> [https://github.com/DeepSOIC/FreeCAD-Macros/raw/master/MatrixTransform/MatrixTransform.FCMacro MatrixTransform.FCMacro] (lanceur) <br/> [https://github.com/DeepSOIC/FreeCAD-Macros/raw/master/MatrixTransform/MatrixTransform.py MatrixTransform.py] (exécuteur)
 |Author=DeepSOIC
-|Version=1.0
-|Date=2016-05-25
+|Version=1.1
+|Date=2024-12-09
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/d/db/Macro_MatrixTransform.png ToolBar Icon]
 }}
@@ -18,7 +18,7 @@ Applique une transformation linéaire définie par une matrice 3x3 à une forme.
 -   cisailler une forme
 -   faire pivoter une forme
 
-The transformation in the macro is linear. Lines remain straight, planes remain planar, parallel things remain parallel, only angles are distorted.
+La transformation dans la macro est linéaire. Les lignes restent droites, les plans restent plans, les choses parallèles restent parallèles, seuls les angles sont déformés.
 
 
 {{Codeextralink|https://raw.githubusercontent.com/DeepSOIC/FreeCAD-Macros/master/MatrixTransform/MatrixTransform.FCMacro}}
@@ -44,6 +44,8 @@ La Matrix est définies par trois vecteurs:
           v1z   v2z   v3z                  
 
 Ici, v1,v2,v3 sont les secteurs définis dans les propriétés. Elles correspondent à la nouvelle direction par rapport aux axes originaux X,Y,Z.
+
+
 
 ### Exemple de matrices 
 
@@ -82,7 +84,7 @@ ToolBar Icon ![](images/Macro_MatrixTransform.png )
 
 #***************************************************************************
 #*                                                                         *
-#*   Copyright (c) 2015 - Victor Titov (DeepSOIC)                          *
+#*   Copyright (c) 2015 2024 - Victor Titov (DeepSOIC)                     *
 #*                                               <vv.titov@gmail.com>      *  
 #*                                                                         *
 #*   This program is free software; you can redistribute it and/or modify  *
@@ -203,7 +205,7 @@ class ViewProviderMatrixTransform:def __init__(self,vobj):
         try:
             self.Object.Base.ViewObject.show()
         except Exception as err:
-            App.Console.PrintError("Error in onDelete: " + err.message)
+            App.Console.PrintError("Error in onDelete: " + str(err)) #err.message
         return True
 
 def run():
@@ -218,9 +220,13 @@ def run():
         from PySide import QtGui
         mb = QtGui.QMessageBox()
         mb.setIcon(mb.Icon.Warning)
-        mb.setText(err.message)
+        mb.setText(str(err)) #err.message
         mb.setWindowTitle("Macro MatrixTransform")
         mb.exec_()
+        App.Console.PrintError("Error in onDelete: " + str(err)) #err.message
+
+##import MatrixTransform
+##MatrixTransform.run()
 }}
 
 **Macro MatrixTransform.FCMacro**

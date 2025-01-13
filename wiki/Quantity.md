@@ -13,8 +13,8 @@ The FreeCAD input parser supports a bunch of units and systems of units. FreeCAD
 
 The detailed specifications you will find in the code:
 
--   [Quantity lexer](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/QuantityLexer.c)
--   [Quantity definitions](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/Quantity.cpp#l167)
+-   [Quantity lexer](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/QuantityLexer.c)
+-   [Quantity definitions](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/Quantity.cpp#l167)
 
 ## Internal representation 
 
@@ -60,12 +60,10 @@ The InputField is a QLineEdit derived Qt widget to handle all kinds of user inte
 
 The UnitsCalculator uses the InputField already.
 
-Main documentation: [InputField](InputField.md)
-
 Code:
 
--   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.h)
--   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/InputField.cpp)
+-   [InputField.h](https://github.com/FreeCAD/FreeCAD/blob/main/src/Gui/InputField.h)
+-   [InputField.cpp](https://github.com/FreeCAD/FreeCAD/blob/main/src/Gui/InputField.cpp)
 
 ## Python scripting 
 
@@ -197,9 +195,9 @@ Units.Quantity('2  m').getUserPreferred() # Tuple: ('2000 mm', 1.0, 'mm')
 
 The code of the schema translation can be found here:
 
--   [Internal](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaInternal.cpp)
--   [MKS](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaMKS.cpp)
--   [Imperial](https://github.com/FreeCAD/FreeCAD/blob/master/src/Base/UnitsSchemaImperial1.cpp)
+-   [Internal](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/UnitsSchemaInternal.cpp)
+-   [MKS](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/UnitsSchemaMKS.cpp)
+-   [Imperial](https://github.com/FreeCAD/FreeCAD/blob/main/src/Base/UnitsSchemaImperial1.cpp)
 
 ### Precision
 

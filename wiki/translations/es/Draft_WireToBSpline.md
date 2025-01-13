@@ -9,6 +9,9 @@
 # Draft WireToBSpline/es
 
 
+</div>
+
+
 
 ## Descripción
 
@@ -21,7 +24,7 @@ Esta herramienta convierte [Contornos](Draft_Wire/es.md) en [BSplines](Draft_BSp
 </div>
 
 <img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width:400px;"> 
-*Converting a Draft Wire to a Draft BSpline, and a closed Draft BSpline to a closed Draft Wire*
+*Converting a wire to a B-spline, and a closed B-spline to a closed wire*
 
 
 

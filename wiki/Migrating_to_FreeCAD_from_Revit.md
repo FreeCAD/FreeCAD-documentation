@@ -3,7 +3,7 @@ This page is intended to give you a quick start with FreeCAD if you are coming f
 
 ### Setting things up 
 
-FreeCAD is a multi-purpose 3D modelling application. Although it is not solely a BIM application, it features two dedicated BIM workbenches: the [Arch Workbench](Arch_Workbench.md), which is bundled with every FreeCAD installation, and contains a minimal set of BIM tools, and the [BIM Workbench](BIM_Workbench.md), which you must install through the [Addons manager](Std_AddonMgr.md). You are highly recommended to start by installing the BIM Workbench, which will give you an environment more similar to Revit.
+FreeCAD is a multi-purpose 3D modeling application. Although it is not solely a BIM application, it features a dedicated [BIM Workbench](BIM_Workbench.md), which is bundled with every FreeCAD installation, and contains a set of BIM tools.
 
 ### Key concepts 
 

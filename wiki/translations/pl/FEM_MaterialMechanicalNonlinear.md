@@ -1,10 +1,15 @@
 ---
- GuiCommand:
+ GuiCommand:Container|
+{{GuiCommand/pl
    Name: FEM MaterialMechanicalNonlinear
    Name/pl: Nieliniowy materiał mechaniczny
    MenuLocation: Model , Materiały , Nieliniowy materiał mechaniczny
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_tutorial/pl
+}}
+{{GuiCommandFemInfo/pl
+   Solvers: CalculiX
+}}
 ---
 
 # FEM MaterialMechanicalNonlinear/pl
@@ -13,7 +18,7 @@
 
 ## Opis
 
-Tworzy nieliniowy materiał mechaniczny. Obecnie dostępna jest tylko plastyczność z prostym wzmocnieniem (izotropowym).
+Tworzy nieliniowy materiał mechaniczny. Obecnie dostępna jest tylko plastyczność z prostym wzmocnieniem (izotropowym). {{Version/pl|1.0}}: Dostępne jest też wzmocnienie kinematyczne.
 
 
 
@@ -24,7 +29,7 @@ Tworzy nieliniowy materiał mechaniczny. Obecnie dostępna jest tylko plastyczno
     -   Wciśnij przycisk **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> '''Nieliniowy materiał mechaniczny'''** lub wybierz opcję **Model → Materiały → <img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> Nieliniowy materiał mechaniczny‏‎** z menu.
 2.  Aby edytować istniejący obiekt MaterialMechanicalNonlinear:
     -   Zaznacz go w [widoku drzewa](Tree_view/pl.md).
-    -   Wybierz model materiału *(obecnie dostępne jest tylko proste wzmocnienie)*.
+    -   Wybierz model materiału *(wzmocnienie izotropowe (proste) lub {{Version/pl|1.0}}: wzmocnienie kinematyczne)*.
     -   Zdefiniuj punkty z krzywej naprężenie \[MPa\] - odkształcenie plastyczne. Pierwszy punkt musi mieć zerowe odkształcenia plastyczne. Wciśnij przycisk **...** obok właściwości **Yield Points** aby wprowadzić punkty za pomocą wygodnej listy. Składnia jest opisana w sekcji [Uwagi](#Uwagi.md).
 
 

@@ -6,13 +6,14 @@
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **P** **6**
    Version: 0.15
+   SeeAlso: Sketcher_CreateRegularPolygon/fr
 ---
 
 # Sketcher CreateHexagon/fr
 
 ## Description
 
-Dessine un hexagone inscrit dans un cercle de géométrie de construction. Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône hexagonale rouge. Les coordonnées du pointeur sont affichées à côté en bleu en temps réel.
+L\'outil <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:24px;"> [Sketcher Hexagone](Sketcher_CreateHexagon/fr.md) crée un hexagone. {{Version/fr|1.0}} : il s\'agit du même outil que [Sketcher Polygone régulier](Sketcher_CreateRegularPolygon/fr.md) mais avec un nombre de côtés prédéfini à 6.
 
 ![](images/SketcherCreateHexagonExample.png‎ )
 
@@ -20,14 +21,14 @@ Dessine un hexagone inscrit dans un cercle de géométrie de construction. Au d�
 
 ## Utilisation
 
--   Après avoir cliqué sur le bouton **[<img src=images/Sketcher_CreateHexagon.svg style="width:16px"> [Créer un hexagone](Sketcher_CreateHexagon/fr.md)**, cliquez le centre, et déplacez la souris puis cliquez votre deuxième point qui sera le sommet de l\'hexagone.
--   Appuyez sur **Echap** ou cliquez sur le bouton droit de la souris pour quitter la fonction.
+Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
 
-
-
-## Remarques
-
-Le cercle circonscrit est la géométrie de construction, qui n\'est visible que lors de la modification de l\'esquisse.
+1.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/Sketcher_CreateHexagon.svg" width=16px> [Créer un hexagone](Sketcher_CreateHexagon/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → Géométries d'esquisse → <img src="images/Sketcher_CreateHexagon.svg" width=16px> Créer un hexagone** du menu.
+    -   Cliquez avec le bouton droit de la souris dans la [vue 3D](3D_view/fr.md) et sélectionnez l\'option **<img src="images/Sketcher_CreateHexagon.svg" width=16px> Créer un hexagone** du menu contextuel.
+    -   Utilisez le raccourci clavier : **G** puis **P**, puis **7**.
+2.  Pour d\'autres étapes, voir [Sketcher Polygone régulier](Sketcher_CreateRegularPolygon/fr#Utilisation.md).
 
 
 

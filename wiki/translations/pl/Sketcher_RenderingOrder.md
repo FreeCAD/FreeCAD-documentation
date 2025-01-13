@@ -12,7 +12,7 @@
 
 ## Opis
 
-Samo polecenie **Ustaw kolejność renderowania** szkicownika obecnie nic nie robi. Ale w powiązanym menu można zmienić kolejność renderowania wszystkich szkiców.
+Samo narzędzie <img alt="" src=images/Sketcher_RenderingOrder.svg  style="width:16px;"> **Ustaw kolejność renderowania** szkicownika obecnie nic nie robi. Ale w powiązanym menu można zmienić kolejność renderowania wszystkich szkiców.
 
 W przypadku zbieżnych obiektów, kolejność renderowania określa, które elementy pojawiają się na wierzchu, a zatem są wybierane jako pierwsze w oknie [widoku 3D](3D_view/pl.md).
 

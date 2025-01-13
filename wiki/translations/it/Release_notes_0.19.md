@@ -247,7 +247,7 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |                                                                                               | [Arch Fence in action](https://forum.freecadweb.org/viewtopic.php?f=24&t=37121).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +++
-| <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width:384px;"> | Improvements in the [Reinforcement Addon](Reinforcement_Addon.md), which extends the [Arch Rebar](Arch_Rebar.md) tool.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width:384px;"> | Improvements in the [Reinforcement Workbench](Reinforcement_Workbench.md), which extends the [Arch Rebar](Arch_Rebar.md) tool.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |                                                                                               | Automated reinforcement graphical user interface: the intention is to facilitate the automatic creation of simple and complex rebars. This development was carried out as a [Google Summer of Code 2019](Google_Summer_of_Code_2019.md) project: [Suraj_Dadral/gsoc_proposal](User:Suraj_Dadral/gsoc_proposal.md).                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -406,7 +406,9 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 -   The integration of the OOFem solver, which started in 2018, is progressing, so it is now another option that can be used for structural analysis in FreeCAD. This solver is interesting in that it has interface elements, as well as arc-length control, in addition to many non-linear material models. The integration of OOFEM into FEM has been carried in various commits that together serve as documentation on how to integrate similar solvers; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=31288), [femoofem](https://github.com/berndhahnebach/FreeCAD_bhb/tree/femoofem) branch, [OOFEM](http://www.oofem.org/) main website, [oofem](https://github.com/oofem/oofem) repository (LGPL 2.1).
 -   Updated coding standards that strive for PEP8 compliance with Python; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=12833), [commit ad03ee9bdf](https://github.com/FreeCAD/FreeCAD/commit/ad03ee9bdfeeb23d5c79cf462ba4a5b5566c5bc1), [commit 27cb54009b](https://github.com/FreeCAD/FreeCAD/commit/27cb54009b57c1938f7ff97026c8b35c1688233f).
 
-## Import
+
+
+## Importazione
 
 -   Improved import/export compatibility with proprietary CAD systems, when using compressed STEP, or STPZ; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=37469), [pull request #2323](https://github.com/FreeCAD/FreeCAD/pull/2323), [commit 7de89cf62e](https://github.com/FreeCAD/FreeCAD/commit/7de89cf62e0411dcd).
 
@@ -429,7 +431,9 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 |                                                                             | [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=34&t=47494), [Pull request #4462](https://github.com/FreeCAD/FreeCAD/pull/4462)                                                                                                                                                                                                                                                         |
 +++
 
-### Further improvements 
+
+
+### Ulteriori miglioramenti 
 
 -   It is now possible to take an OpenInventor mesh file (**.iv**), and export it to STL; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=43926#p378032), [commit 601ac707b2](https://github.com/FreeCAD/FreeCAD/commit/601ac707b2).
 -   It is now possible to export a [Mesh](Mesh.md) to [Asymptote format](Asymptote.md) (**.asy** ); [forum thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=48915), [commits 4badaba5](https://github.com/FreeCAD/FreeCAD/commit/4badaba5), [50bbd522](https://github.com/FreeCAD/FreeCAD/commit/50bbd522), [58a92681](https://github.com/FreeCAD/FreeCAD/commit/58a92681), [dd7afa72](https://github.com/FreeCAD/FreeCAD/commit/dd7afa72), [b0f78f5a](https://github.com/FreeCAD/FreeCAD/commit/b0f78f5a).
@@ -455,7 +459,9 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 |                                                                                             | [Pull request #3078](https://github.com/FreeCAD/FreeCAD/pull/3078).                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 +++
 
-### Further improvements 
+
+
+### Ulteriori miglioramenti 
 
 -   The dialog to edit [Prisms](Part_Prism.md) allows now to specify an angle in respect to the normal of the chosen attachment plane. This way one can create skew prisms. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=27&t=49343#p422857), [pull request #3793](https://github.com/FreeCAD/FreeCAD/pull/3793)
 -   New Face method: `Part.Face.cutHoles(list_of_wires)` to cut holes into a face. The face usually needs to be validated after operation.
@@ -494,7 +500,9 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 | <img alt="" src=images/PartDesign_sprocket-feature.png  style="width:384px;">                   | The new feature [Sprocket](PartDesign_Sprocket.md) allows to create chain sprockets. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=44525), [pull request #3280](https://github.com/FreeCAD/FreeCAD/pull/3280).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +++
 
-### Further improvements 
+
+
+### Ulteriori miglioramenti 
 
 -   The [hole dialog](PartDesign_Hole.md) has been overhauled to create norm-conform clearance and threaded hole dimensions.
 -   It is now possible to set [expressions](Expressions.md) for all parameters of [additive](PartDesign_CompPrimitiveAdditive.md) and [subtractive primitives](PartDesign_CompPrimitiveSubtractive.md). [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=36458), [pull request #3225](https://github.com/FreeCAD/FreeCAD/pull/3225).
@@ -733,7 +741,9 @@ See [Macros recipes](Macros_recipes.md) for many more macros.
 
 these are the new workbenches created in this development cycle, or older workbenches that received updates. See [external workbenches](External_workbenches.md) for more workbenches that can be installed, and which cover a wide variety of topics. If you want to see your workbench added, join the [forum](https://forum.freecadweb.org/index.php) and present your code.
 
-### 3D Printing Tools 
+
+
+### Strumenti per stampa 3D 
 
 +++
 | <img alt="" src=images/3D_Printing_Tools_0.19.jpg  style="width:384px;"> | Previously it was called \"MeshTools\". It has utilities for working with imported STL meshes which could be used for 3D printing, like scaling the mesh up and down, scale it to fit a 3D printer, make objects transparent, hide and show objects, change colors and line widths of groups of objects, and others. |

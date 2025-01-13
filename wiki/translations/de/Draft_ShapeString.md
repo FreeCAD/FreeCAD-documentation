@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft ShapeString
    Name/de: Draft Textform
-   MenuLocation: Entwurf , Form von Text
-   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   MenuLocation: Zeichnen , Textform<br>Anmerkung , Textform
+   Workbenches: Draft_Workbench/de, BIM_Workbench/de
    Shortcut: 
    Version: 0.14
    SeeAlso: Draft_Text/de, Draft_Label/de, Part_Extrude/de
@@ -30,7 +30,8 @@ Für Windows-Anwender: Bitte zuerst den Abschnitt [Auswahl der Schriftdatei unte
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_ShapeString.svg" width=16px> [Textform](Draft_ShapeString/de.md)** drücken.
-    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_ShapeString.svg" width=16px> Textform** auswählen.
+    -   [Draft](Draft_Workbench/de.md): Den Menüeintrag **Zeichnen → <img src="images/Draft_ShapeString.svg" width=16px> Textform** auswählen.
+    -   [BIM](BIM_Workbench/de.md): Den Menüeintrag **Anmerkung → <img src="images/Draft_ShapeString.svg" width=16px> Textform** auswählen.
 2.  Der Aufgabenbereich **Textform** wird geöffnet.
 3.  Einen Punkt in der [3D-Ansicht](3D_view/de.md) anklicken, oder die Koordinaten eingeben.
 4.  Wahlweise die Schaltfläche **Punkt zurücksetzen** drücken, um den Punkt auf den Ursprung zurückzusetzen.
@@ -48,17 +49,20 @@ Für Windows-Anwender: Bitte zuerst den Abschnitt [Auswahl der Schriftdatei unte
 
 -   Die **Esc**-Taste oder die Schaltfläche **Cancel** drücken, um den Befehl abzubrechen.
 
+## Relative font path 
 
 
-## Hinweise
+<small>(v1.1)</small> 
 
--   Eine Draft Textform (ShapeString) kann nach einem Doppelklick auf ihr Symbol in der [Baumansicht](Tree_view/de.md) bearbeitet werden. {{Version/de|0.20}}
--   Die unterstützten Schriftarten enthalten TrueType- (**.ttf**), OpenType- (**.otf**) und Type-1-Schriftarten (**.pfb**).
--   Der Befehl unterstützt nur Text mit Schreibrichtung nach rechts. Text mit Schreibrichtung nach links und von oben nach unten wird nicht unterstützt.
--   Sehr kleine Schrifthöhen können zu verformten Zeichenumrissen führen, da beim Skalieren Details verlorengehen.
--   Schriftarten können problematische Geometrien erzeugen. Das liegt daran, dass Schriftkonturen überlappen dürfen und kleine Lücken enthalten dürfen. Diese Merkmale werden bei Linienzügen, die zur Erstellung von Flächen dienen, als Fehler angesehen.
--   Draft Textformen können auch mit dem [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP.md) erstellt werden.
--   Um Draft Textformen ringförmig anzuordnen kann das [Macro FCCircularText](Macro_FCCircularText.md) verwendet werden.
+It is possible to specify a relative path for the font file. For this the FreeCAD document must have been saved at least once.
+
+Some examples:
+
+-    **./SomeFont.ttf**: The font file is in the same directory as the document.
+
+-    **./MyDirectory/SomeFont.ttf**: The font file is in the **MyDirectory** sub-directory of the document directory.
+
+-    **../SomeFont.ttf**: The font file is in the parent directory of the document directory.
 
 
 
@@ -74,6 +78,18 @@ Pressing the **...** button and then selecting a file from the default Windows f
 -   Create a custom folder for your font files.
 
 See the [Preferences](#Preferences.md) paragraph below for the location of the mentioned preferences.
+
+
+
+## Hinweise
+
+-   Eine Draft Textform (ShapeString) kann nach einem Doppelklick auf ihr Symbol in der [Baumansicht](Tree_view/de.md) bearbeitet werden.
+-   Die unterstützten Schriftarten enthalten TrueType- (**.ttf**), OpenType- (**.otf**) und Type-1-Schriftarten (**.pfb**).
+-   Der Befehl unterstützt nur Text mit Schreibrichtung nach rechts. Text mit Schreibrichtung nach links und von oben nach unten wird nicht unterstützt.
+-   Sehr kleine Schrifthöhen können zu verformten Zeichenumrissen führen, da beim Skalieren Details verlorengehen.
+-   Schriftarten können problematische Geometrien erzeugen. Das liegt daran, dass Schriftkonturen überlappen dürfen und kleine Lücken enthalten dürfen. Diese Merkmale werden bei Linienzügen, die zur Erstellung von Flächen dienen, als Fehler angesehen.
+-   Draft Textformen können auch mit dem [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP.md) erstellt werden.
+-   Um Draft Textformen ringförmig anzuordnen kann das [Macro FCCircularText](Macro_FCCircularText.md) verwendet werden.
 
 
 
@@ -114,25 +130,25 @@ Ein Draft ShapeString-Objekt (Textform-Objekt) wird von einem [Part Part2DObject
 
 -    {{PropertyData/de|Font File|File}}: Name der Schriftdatei.
 
--    {{PropertyData/de|Fuse|Bool}}: Vereinigt Flächen, wenn sie überlappen. Ist normalerweise nicht erforderlich (kann sehr langsam sein). Wird ignoriert, wenn die {{PropertyData/de|Make Face}} auf `False` gesetzt ist. {{Version/de|0.22}}
+-    {{PropertyData/de|Fuse|Bool}}: Vereinigt Flächen, wenn sie überlappen. Ist normalerweise nicht erforderlich (kann sehr langsam sein). Wird ignoriert, wenn die {{PropertyData/de|Make Face}} auf `False` gesetzt ist. {{Version/de|1.0}}
 
--    {{PropertyData/de|Justification|Enumeration}}: Horizontales und vertikales Ausrichten. Optionen: {{value|Top-Left}} (oben links), {{value|Top-Center}} (oben mittig), {{value|Top-Right}} (oben rechts), {{value|Middle-Left}} (Mitte links), {{value|Middle-Center}} (Mitte mittig), {{value|Middle-Right}} (Mitte rechts), {{value|Bottom-Left}} (unten links), {{value|Bottom-Center}} (unten mittig), {{value|Bottom-Right}} (unten rechts). {{Version/de|0.22}}
+-    {{PropertyData/de|Justification|Enumeration}}: Horizontales und vertikales Ausrichten. Optionen: {{value|Top-Left}} (oben links), {{value|Top-Center}} (oben mittig), {{value|Top-Right}} (oben rechts), {{value|Middle-Left}} (Mitte links), {{value|Middle-Center}} (Mitte mittig), {{value|Middle-Right}} (Mitte rechts), {{value|Bottom-Left}} (unten links), {{value|Bottom-Center}} (unten mittig), {{value|Bottom-Right}} (unten rechts). {{Version/de|1.0}}
 
--    {{PropertyData/de|Justification Reference|Enumeration}}: Hohenreferenz, die zum Ausrichten verwendet wird. Optionen: {{value|Cap Height}} (Versalhöhe = Mittel- + Oberlänge), {{value|Shape Height}} (Mittel- + Unterlänge). Shape-Height hängt von den Zeichen in der {{PropertyData/de|String}} ab. {{Version/de|0.22}}
+-    {{PropertyData/de|Justification Reference|Enumeration}}: Hohenreferenz, die zum Ausrichten verwendet wird. Optionen: {{value|Cap Height}} (Versalhöhe = Mittel- + Oberlänge), {{value|Shape Height}} (Mittel- + Unterlänge). Shape-Height hängt von den Zeichen in der {{PropertyData/de|String}} ab. {{Version/de|1.0}}
 
--    {{PropertyData/de|Keep Left Margin|Bool}}: Behält den linken Rand und führende Leerzeichen bei, wenn linksbündig ausgerichtet wird. {{Version/de|0.22}}
+-    {{PropertyData/de|Keep Left Margin|Bool}}: Behält den linken Rand und führende Leerzeichen bei, wenn linksbündig ausgerichtet wird. {{Version/de|1.0}}
 
 -    {{PropertyData/de|Make Face|Bool}}: Erstellt Flächen aus den Konturen der Schriftzeichen.
 
--    {{PropertyData/de|Oblique Angle|Angle}}: Neigungswinkel. Kann Werte zwischen -80° und +80° annehmen. {{Version/de|0.22}}
+-    {{PropertyData/de|Oblique Angle|Angle}}: Neigungswinkel. Kann Werte zwischen -80° und +80° annehmen. {{Version/de|1.0}}
 
--    {{PropertyData/de|Scale To Size|Bool}}: Skaliert die Versalhöhe, damit sie der Schrifthöhe gleicht. Wenn auf `False` gesetzt, wird die Versalhöhe, abhängig von der Schriftart, nicht exakt der {{PropertyData/de|Size}} entsprechen. {{Version/de|0.22}}
+-    {{PropertyData/de|Scale To Size|Bool}}: Skaliert die Versalhöhe, damit sie der Schrifthöhe gleicht. Wenn auf `False` gesetzt, wird die Versalhöhe, abhängig von der Schriftart, nicht exakt der {{PropertyData/de|Size}} entsprechen. {{Version/de|1.0}}
 
 -    {{PropertyData/de|Size|Length}}: Schrifthöhe.
 
 -    {{PropertyData/de|String|String}}: Zeichenkette. Eine Textform kann nur eine einzelne Textzeile anzeigen.
 
--    {{PropertyData/de|Tracking|Distance}}: Zeichenzwischenraum. Die Art der Eigenschaft wurde aktualisiert ({{Version/de|0.22}}).
+-    {{PropertyData/de|Tracking|Distance}}: Zeichenzwischenraum. {{Version/de|1.0}}: Die Art der Eigenschaft wurde aktualisiert.
 
 <img alt="" src=images/Draft_ShapeString_Justification.png  style="width:200px;"> 
 *Die Höhe des roten Rechtecks (Vollinie) gleicht der Versalhöhe.<br>
@@ -144,7 +160,7 @@ entsprechen den 9 Ausrichtungsoptionen von oben links bis unten rechts.*
 
 ## Skripten
 
-Siehe auch: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Um eine Draft Textform zu erstellen, verwendet man die Methode `make_shapestring` ({{Version/de|0.19}}) des Arbeitsbereiches Draft. Diese Methode ersetzt die veraltete Methode `makeShapeString`.
 

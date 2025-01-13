@@ -104,7 +104,7 @@ Lo stile **Facce piene** sovrascrive la proprietà **Display Mode** degli oggett
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

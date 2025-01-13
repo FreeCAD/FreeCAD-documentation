@@ -4,7 +4,7 @@
    Name/de: TechDraw Ansichtengruppe
    MenuLocation: TechDraw, TechDraw Ansichten , Ansichtengruppe einfügen
    Workbenches: TechDraw_Workbench/de
-   SeeAlso: TechDraw_View/de, TechDraw_SectionView/de
+   SeeAlso: TechDraw_View/de
 ---
 
 # TechDraw ProjectionGroup/de
@@ -13,9 +13,12 @@
 
 ## Beschreibung
 
-Das Werkzeug **TechDraw Ansichtengruppe** erstellt eine Mehrtafelprojektion eines oder mehrerer 3D-Objekte (Siehe [Normalprojektion](https://de.wikipedia.org/wiki/Normalprojektion)). Die isometrischen Ansichten der vier vorderen Ecken können ebenfalls enthalten sein.
+Das Werkzeug **TechDraw Ansichtengruppe** erstellt eine Mehrtafelprojektion eines oder mehrerer 3D-Objekte (Siehe [Normalprojektion](https://de.wikipedia.org/wiki/Normalprojektion)) unter Verwendung entweder der Projektionsmethode 1 (auch europäische Darstellung oder [First Angle Projection](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) genannt) oder der Projektionsmethode 3 (auch europäische Darstellung oder [Third Angle Projection](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection) genannt). Die isometrischen Ansichten der vier vorderen Ecken können ebenfalls enthalten sein.
 
-Soll nur eine einzige Ansicht erzeugt werden, bringt die Verwendung von Ansichtengruppe keinen Vorteil; stattdessen sollte man [Ansicht](TechDraw_View/de.md) verwenden. Wenn man nicht die herkömmliche europäische Projektion: Erster Winkel (engl. [first-angle projection](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection)) bzw. amerikanische Projektion: Dritter Winkel (engl. [third-angle projection](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection)) verwenden möchte, sollte man mehrmals [Ansicht](TechDraw_View/de.md) anstelle von *Ansichtengruppe* verwenden.
+
+{{Version/de|1.0}}
+
+: Das Werkzeug [TechDraw Ansicht](TechDraw_View/de.md) kann auch eine Ansichtengruppe erstellen. Es wird empfohlen, jenes Werkzeug statt dieses zu verwenden.
 
 <img alt="" src=images/TechDraw_ProjGroup_example.png  style="width:400px;"> 
 *Drei orthogonale Ansichten und eine isometrische Ansicht eines Festkörperobjekts*
@@ -24,27 +27,15 @@ Soll nur eine einzige Ansicht erzeugt werden, bringt die Verwendung von Ansichte
 
 ## Anwendung
 
-1.  Wahlweise die [3D-Ansicht](3D_view/de.md) zurechtdrehen. Die Blickrichtung der Kamera in der [3D-Ansicht](3D_view/de.md) legt den Anfangswert der **Hauptrichtung** der Ansichtengruppe (die {{PropertyData/de|Direction}} der zentralen Ansicht) fest.
-2.  Ein oder mehrere Objekte in der [3D-Ansicht](3D_view/de.md) oder [Baumansicht](Tree_view/de.md) auswählen.
-3.  Wenn das Dokument mehrere Zeichnungsblätter enthält, kann das gewünschte Blatt wahlweise zur Auswahl hinzugefügt werden, indem es in der [Baumansicht](Tree_view/de.md) auswählt wird.
-4.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-    -   Die Schaltfläche **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Ansichtengruppe einfügen](TechDraw_ProjectionGroup/de.md)** drücken.
-    -   Den Menüeintrag **TechDraw → TechDraw Views → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Ansichtengruppe einfügen** auswählen.
-5.  Wenn das Dokument mehrere Zeichnungsblätter enthält und noch kein Blatt ausgewählt wurde, öffnet sich der Dialog **Blattauswahl** {{Version/de|0.20}}:
-    1.  Die gewünscht Seite auswählen.
-    2.  Die Schaltfläche **OK** drücken.
-6.  Der Aufgabenbereich **Ansichtengruppe** wird geöffnet.
-7.  Die Ansichten, die zur Ansichtengruppe hinzugefügt werden sollen sowie den Maßstab der Ansichtengruppe und andere Parameter auswählen.
-8.  Die Schaltfläche **OK** drücken.
-9.  Wahlweise kann die Ansichtengruppe, durch Ziehen der zentralen Ansicht, bewegt werden.
-10. Wahlweise können die anderen Ansichten der Ansichtengruppe relativ zu der zentralen Ansicht bewegt werden, indem man sie jeweils einzeln zieht.
-
-![](images/TaskProjGroup.png ) 
-*[Aufgabenbereich](Task_panel/de.md) Ansichtengruppe. Das Feld ''Anpassen der Hauptrichtung'' zeigt die aktuelle Blickrichtung an.*
+Siehe [TechDraw Ansicht](TechDraw_View/de#Anwendung_der_Elemente_einer_Ansichtengruppe_und_der_Ansichtengruppe.md), aber zum Aufrufen des Befehles, den Menüeintrag **TechDraw → TechDraw Ansichten → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Ansichtengruppe einfügen** auswählen.
 
 
 
 ## Eigenschaften
+
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
+
+Eine Ansichtengruppe, oder formal ein {{Incode|TechDraw::DrawProjGroup}}-Objekt, besitzt die gemeinsamen [Eigenschaften](TechDraw_View/de#Eigenschaften_der_Bauteilansicht.md) aller Ansichtsarten. Sie enthält außerdem die folgenden Eigenschaften:
 
 
 
@@ -53,36 +44,27 @@ Soll nur eine einzige Ansicht erzeugt werden, bringt die Verwendung von Ansichte
 
 {{TitleProperty|Basis}}
 
--    **Source|LinkList**: Links to the drawable objects to be depicted.
+-    {{PropertyData/de|Source|LinkList}}: Verweise zu den ableitbaren Objekten, die abgebildet werden sollen.
 
--    **XSource|XLinkList**: Links to the drawable objects in an external file.
+-    {{PropertyData/de|XSource|XLinkList}}: Verweise zu den ableitbaren Objekten in einer externen Datei.
 
--    **Anchor|Link**: The central view in the group. Normally the Front view.
+-    {{PropertyData/de|Anchor|Link}}: Die zentrale Ansicht in der Gruppe; normalerweise die Vorderansicht.
 
--    **ProjectionType|Enumeration**: {{Value|First Angle}} or {{Value|Third Angle}}.
-
-For the other properties in this group see [TechDraw View](TechDraw_View#Properties.md).
+-    {{PropertyData/de|ProjectionType|Enumeration}}: Legt die Projektionsmethode fest,{{Value|First Angle}} = Projektionsmethode 1 (europäisch) oder {{Value|Third Angle}} = Projektionsmethode 2 (amerikanisch).
 
 
 {{TitleProperty|Collection}}
 
--    **Views|LinkList**: Links to the views in this ProjectionGroup.
+-    {{PropertyData/de|Views|LinkList}}: Verweise zu den Ansichten in dieser Ansichtengruppe.
 
 
 {{TitleProperty|Distribute}}
 
--    **Auto Distribute|Bool**: If `True`, space out individual views automatically. Use `False` to position manually.
+-    {{PropertyData/de|Auto Distribute|Bool}}: Auf `True` gesetzt, werden die einzelnen Ansichten automatisch mit Abstand angeordnet. Auf `False` setzen, um sie manuell anzuordnen.
 
--    **spacing X|Length**: Horizontal space between views when automatically positioned. Note that Scale and the size of other views in the group also influence the spacing.
+-    {{PropertyData/de|spacing X|Length}}: Horizontaler Abstand zwischen Ansichten, wenn sie automatisch angeordnet werden. Man beachte, dass auch der Maßstab und die Größe der anderen Ansichten in der Gruppe den Abstand beeinflussen.
 
--    **spacing Y|Length**: Vertical space between views when automatically positioned.
-
-### View
-
-
-{{TitleProperty|Basis}}
-
-Siehe [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
+-    {{PropertyData/de|spacing Y|Length}}: Vertikaler Abstand zwischen Ansichten, wenn sie automatisch angeordnet werden.
 
 
 
@@ -90,7 +72,7 @@ Siehe [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 Die Ansichtengruppe als Ganzes erbt X, Y, Scale Type, Scale und Rotation aus der Basisansicht.
 
-Einzelne Ansichten innerhalb der Gruppe erben alle Eigenschaften der Part-Ansicht, aber das Proj(ektion)Group-Objekt steuert den Maßstab aller seiner Elementansichten.
+Einzelne Ansichten innerhalb der Gruppe erben alle Eigenschaften der Bauteilansicht, aber das Objekt der Ansichtengruppe (ProjGroup-Objekt) steuert den Maßstab aller seiner enthaltenen Ansichten.
 
 Die Eigenschaft RotationVector einzelner Ansichten innerhalb der Gruppe ist veraltet seit v0.19. Stattdessen wird XDirection verwendet.
 
@@ -100,9 +82,9 @@ Beachte, dass der mittlere Kasten die aktuelle Projektionsrichtung der primären
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
-A Projection Group can be created with [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+Eine Ansichtengruppe kann mit [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen erstellt werden:
 
 
 ```python
@@ -145,7 +127,7 @@ Hinweis: Die Ansichtengruppe sollte immer zum Zeichnungsblatt hinzugefügt werde
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

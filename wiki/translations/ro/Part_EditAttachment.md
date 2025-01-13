@@ -25,18 +25,20 @@
 
 </div>
 
-## Attach engines 
+## Attacher engines 
 
-The attachment of an object is controlled by one of four attach engines. The default engine that is used for an object depends on its type.
+The attachment of an object is controlled by one of four attacher engines. The default engine that is used for an object depends on its type. An object\'s attacher engine can be changed via its **Attacher Engine** property (<small>(v1.0)</small> ) or its [hidden](Property_editor#Context_menu.md) **Attacher Type** property.
 
-The four engines are:
+The available engines are listed in the table below. Attacher engines control the **Placement** of objects. All engines can be used for all objects that have this property. But the results of the last three make the most sense if the shape of the object matches the mentioned \'Logical Shape\'.
 
--   [Attacher::AttachEnginePoint](#Attacher:_AttachEnginePoint.md)
--   [Attacher::AttachEngineLine](#Attacher:_AttachEngineLine.md)
--   [Attacher::AttachEnginePlane](#Attacher:_AttachEnginePlane.md)
--   [Attacher::AttachEngine3D](#Attacher:_AttachEngine3D.md)
+  Attacher Engine                            Attacher Type                 Logical Shape
+    
+  [Engine 3D](#Engine_3D.md)         Attacher::AttachEngine3D      
+  [Engine Plane](#Engine_Plane.md)   Attacher::AttachEnginePlane   Planar face coincident with the XY plane of the Placement
+  [Engine Line](#Engine_Line.md)     Attacher::AttachEngineLine    Straight edge collinear with the Z axis of the Placement
+  [Engine Point](#Engine_Point.md)   Attacher::AttachEnginePoint   Vertex coincident with the origin of the Placement
 
-The rest of this page focuses on the AttachEngine3D. The modes of the other engines are only listed. Note that the modes of AttachEnginePlane are in fact identical to those of AttachEngine3D.
+The rest of this page focuses on the Engine 3D. The modes of the other engines are only listed. Note that the modes of Engine Plane are in fact identical to those of Engine 3D.
 
 
 
@@ -62,113 +64,9 @@ The rest of this page focuses on the AttachEngine3D. The modes of the other engi
 
 </div>
 
-## Change attach engine 
-
-It is possible to manually change the attach engine of an object:
-
-1.  Select the object.
-2.  Right-click in the [Property editor](Property_editor.md) and select **Show all** from the context menu.
-3.  Edit the **Attacher Type** property of the object.
-
 ## Attachment modes 
 
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-### Attacher::AttachEnginePoint
-
-
-<div class="mw-collapsible-content">
-
--   Deactivated
--   Object\'s origin
--   Focus1
--   Focus2
--   On edge
--   Center of curvature
--   Center of mass
--   Vertex
--   Proximity point 1
--   Proximity point 2
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-### Attacher::AttachEngineLine
-
-
-<div class="mw-collapsible-content">
-
--   Deactivated
--   Object\'s X
--   Object\'s Y
--   Object\'s Z
--   Axis of curvature
--   Directrix1
--   Directrix2
--   Asymptote1
--   Asymptote2
--   Tangent
--   Normal to edge
--   Binormal
--   Through two points
--   Proximity line
--   1st principal axis
--   2nd principal axis
--   3rd principal axis
--   Normal to surface
-
-
-</div>
-
-
-</div>
-
-
-<div class="toccolours mw-collapsible mw-collapsed">
-
-### Attacher::AttachEnginePlane
-
-
-<div class="mw-collapsible-content">
-
--   Deactivated
--   Translate origin
--   Object\'s XY
--   Object\'s XZ
--   Object\'s YZ
--   Plane face
--   Tangent to surface
--   Normal to edge
--   Frenet NB
--   Frenet TN
--   Frenet TB
--   Concentric
--   Revolution Section
--   Plane by 3 points
--   Normal to 3 points
--   Folding
--   Inertia 2-3
--   Align O-N-X
--   Align O-N-Y
--   Align O-X-Y
--   Align O-X-N
--   Align O-Y-N
--   Align O-Y-X
-
-
-</div>
-
-
-</div>
-
-### Attacher::AttachEngine3D
+### Engine 3D 
 
 
 <div class="mw-translate-fuzzy">
@@ -690,6 +588,117 @@ Matches object\'s origin with first referenced vertex and aligns its vertical an
 </div>
 
 See [Align O-Z-X](#Align_O-Z-X.md).
+
+#### XY parallel to plane 
+
+
+<small>(v1.0)</small> 
+
+The XY plane is aligned to be plane-parallel to the XY plane of the Placement of a linked object, and pass through a vertex. The origin is matched with the projection of the origin of the linked object onto the XY plane.
+
+Note that you have to select a whole object and not a subelement such as a face or plane.
+
+:; Reference combinations:
+
+:   Any whole object (with a **Placement** property), Vertex
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+### Engine Plane 
+
+
+<div class="mw-collapsible-content">
+
+-   Deactivated
+-   Translate origin
+-   Object\'s XY
+-   Object\'s XZ
+-   Object\'s YZ
+-   Plane face
+-   Tangent to surface
+-   Normal to edge
+-   Frenet NB
+-   Frenet TN
+-   Frenet TB
+-   Concentric
+-   Revolution Section
+-   Plane by 3 points
+-   Normal to 3 points
+-   Folding
+-   Inertia 2-3
+-   Align O-N-X
+-   Align O-N-Y
+-   Align O-X-Y
+-   Align O-X-N
+-   Align O-Y-N
+-   Align O-Y-X
+-   XY parallel to plane <small>(v1.0)</small> 
+
+
+</div>
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+### Engine Line 
+
+
+<div class="mw-collapsible-content">
+
+-   Deactivated
+-   Object\'s X
+-   Object\'s Y
+-   Object\'s Z
+-   Axis of curvature
+-   Directrix1
+-   Directrix2
+-   Asymptote1
+-   Asymptote2
+-   Tangent
+-   Normal to edge
+-   Binormal
+-   Through two points
+-   Intersection <small>(v1.0)</small> 
+-   Proximity line
+-   1st principal axis
+-   2nd principal axis
+-   3rd principal axis
+-   Normal to surface
+
+
+</div>
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+### Engine Point 
+
+
+<div class="mw-collapsible-content">
+
+-   Deactivated
+-   Object\'s origin
+-   Focus1
+-   Focus2
+-   On edge
+-   Center of curvature
+-   Center of mass
+-   Vertex
+-   Proximity point 1
+-   Proximity point 2
+
+
+</div>
+
+
+</div>
 
 
 

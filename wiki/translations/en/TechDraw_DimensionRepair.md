@@ -37,7 +37,7 @@ The TechDraw DimensionRepair tool cannot used in [macros](Macros.md) or from the
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

@@ -2,9 +2,8 @@
  GuiCommand:
    Name: Arch Structure
    Name/de: Arch Struktur
-   MenuLocation: Arch , Strukturwerkzeug , Struktur
-   Workbenches: Arch_Workbench/de
-   Shortcut: **S** **T**
+   MenuLocation: Utils , Strukturwerkzeuge , Struktur
+   Workbenches: BIM_Workbench/de
    SeeAlso: Arch_Wall/de, Arch_Rebar/de
 ---
 
@@ -18,7 +17,7 @@ Das Werkzeug [Arch Struktur](Arch_Structure/de.md) ermöglicht die Konstruktion 
 
 Falls kein Profil angegeben wurde, ist eine Anzahl von Voreinstellungen verfügbar, die eine schnelle Errichtung von Strukturelementen aus einem vordefinierten Standardprofil erlaubt.
 
-![](images/Arch_Structure_example.jpg ) 
+<img alt="" src=images/Arch_Structure_example.jpg  style="width:400px;"> 
 *Ein Träger basierend auf einem 2D-Profil; eine Stütze und ein Träger definiert durch Höhe, Länge und Breite, ohne ein Basisprofil; eine metallische Struktur basierend auf einer 2D-Oberfläche*.
 
 
@@ -26,8 +25,8 @@ Falls kein Profil angegeben wurde, ist eine Anzahl von Voreinstellungen verfügb
 ## Anwendung
 
 1.  Eine 2D-Form (Draft-Objekt, Fläche oder Skizze) auswählen (optional).
-2.  Die Schaltfläche **<img src="images/Arch_Structure.svg" width=16px>[Struktur](Arch_Structure/de.md)
-** drücken oder das Tastaturkürzel **S** dann **T**
+2.  Den Menüeintrag **Utils → Strukturwerkzeuge → <img src="images/Arch_Structure.svg" width=16px> Struktur
+** auswählen oder das Tastaturkürzel **S** dann **T**
 3.  Die gewünschten Eigenschaften anpassen.
 
 
@@ -54,7 +53,26 @@ Falls kein Profil angegeben wurde, ist eine Anzahl von Voreinstellungen verfügb
 
 -    {{PropertyData/de|Normal}}: Gibt die Richtung an, in der die Basisfläche diser Struktur extrudiert wird. Falls diese Eigenschaft auf dem Vorgabewert (0,0,0) bleibt, wird die Richtung automatisch auf die normale Richtung der Basisfläche gesetzt.
 
--    {{PropertyData/de|Face Maker}}: Typ des zu benutzenden Oberflächenerstellungsalgorithmus, der bei der Erzeugung des Profils verwendet wird (None, Simple, Cheese oder Bullseye).
+-    {{PropertyData/de|Face Maker}}: Art des zu benutzenden Algorithmus für die Oberflächenerstellung, der bei der Erzeugung des Profils verwendet wird. Auswahlmöglichkeiten:
+
+    -   
+        {{Value|None}}
+        
+
+    -   
+        {{Value|Simple}}
+        
+        : Erstellt Flächen aus allen geschlossenen Linienzügen; Überlappungen werden ignoriert.
+
+    -   
+        {{Value|Cheese}}
+        
+        : Erstellt Flächen mit Löchern aber keine Flächen innerhalb der Löcher.
+
+    -   
+        {{Value|Bullseye}}
+        
+        : Erstellt Flächen mit Löchern einschließlich der Flächen innerhalb der Löcher (Inseln).
 
 -    {{PropertyData/de|Length}}: Objektlänge (nur verwendet, wenn Objekt nicht auf einem Profil basiert)
 
@@ -99,7 +117,7 @@ Bauelemente haben auch die Fähigkeit, Knotenpunkte anzuzeigen. Knotenpunkte sin
 
 -   Knoten werden automatisch berechnet und aktualisiert, solange man sie nicht manuell ändert. Wenn Du das getan hast, werden sie nicht aktualisiert, wenn sich die Form des Struktur-Objekts ändert, außer Du benutzt das \"Reset Nodes\"-Werkzeug weiter unten.
 -   Arch-Strukturen können nicht nur lineare Knoten haben, sondern auch planare Knoten. Dafür müssen 1- mindestens drei Vektoren in der \"Nodes\"-Eigenschaft des Objekts vorhanden sein, 2- die \"NodesType\"-Eigenschaft des ViewObject auf \"Area\" gesetzt sein
--   Wenn die Knotenberechnung automatisch erfolgt (Du sie nie manuell verändert hast) und die Role-Eigenschaft einer Struktur auf \"Slab\" gesetzt wird, wird daraus automatisch ein planarer Knoten (es gibt mehr als drei Vektoren und der NodesType wird auf \"Area\" gesetzt).
+-   Wenn die Knotenberechnung automatisch erfolgt (Du sie nie manuell verändert hast) und die \"Role\"-Eigenschaft einer Struktur auf \"Slab\" gesetzt wird, wird daraus automatisch ein planarer Knoten (es gibt mehr als drei Vektoren und der NodesType wird auf \"Area\" gesetzt).
 -   Beim Ändern eines Bauelement-Objekts (Doppelklick) wird eine Reihe von Knotenwerkzeugen im Aufgaben-Reiter verfügbar:
     -   Zurücksetzen der Knoten (reset nodes) auf automatische Berechnung, falls Du sie manuell verändert hast
     -   Graphische Änderung der Knoten, arbeitet genau so wie [Draft Ändern](Draft_Edit/de.md)
@@ -120,28 +138,38 @@ Das Werkzeug Struktur kann in [Makros](Macros/de.md) und von der [Python](Python
 
 
 ```python
-Structure = makeStructure(baseobj=None, height=None)
-Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
+structure = makeStructure(baseobj=None, height=None)
+structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
 ```
 
--   Erstellt ein `Struktur`-Objekt aus dem gegebenen `baseobj`, das ein geschlossenes Profil ist und der gegebenen Extrusions `height`.
+-   Erstellt ein Objekt `struktur` aus dem gegebenen `baseobj`, das ein geschlossenes Profil ist, und der gegebenen Extrusions `height`.
     -   Falls kein `baseobj` gegeben ist, kann man die numerischen Werte für `length`, `width` und `height` angeben, um eine Blockstruktur zu erstellen.
     -   Das `baseobj` kann auch ein existierender Volumenkörper sein.
 
-Beispiel: 
+Beispiel:
+
+
 ```python
 import FreeCAD, Draft, Arch
 
-Rect = Draft.makeRectangle(200, 300)
-Structure1 = Arch.makeStructure(Rect, height=2000)
+rect = Draft.make_rectangle(200, 300)
+structure1 = Arch.makeStructure(rect, height=2000)
 FreeCAD.ActiveDocument.recompute()
 
-Structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
-Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
+structure2 = Arch.makeStructure(None, length=500, width=1000, height=3000)
+Draft.move(structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+
+
+
+{{BIM_Tools_navi
+
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/de
+⏵ [documentation index](../README.md) > Arch Structure/de

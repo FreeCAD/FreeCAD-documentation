@@ -1,6 +1,11 @@
 # GSoC Path/Robot Integration
 This page describes the Google Summer of Code project idea regarding integration between the Path(CNC) and Robot workbenches.
 
+
+<small>(v1.0)</small> 
+
+: The Path Workbench has been renamed to [CAM Workbench](CAM_Workbench.md).
+
 This project may not be fully achievable in the time frame allowed. A proposal that moves this project toward completion without achieving all expected outcomes described below is acceptable. However, your proposal should include specific goal that you intend to achieve in the time permitted.
 
 ## Outline

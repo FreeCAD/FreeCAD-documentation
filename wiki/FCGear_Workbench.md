@@ -32,6 +32,8 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 
 -   <img alt="" src=images/FCGear_WormGear.svg  style="width:32px;"> [Worm Gear](FCGear_WormGear.md): Creates a worm gear.
 
+-   <img alt="" src=images/FCGear_TimingGearT.svg  style="width:32px;"> [Timing GearT](FCGear_TimingGearT.md): Creates a timing gear T-shape.
+
 -   <img alt="" src=images/FCGear_TimingGear.svg  style="width:32px;"> [Timing Gear](FCGear_TimingGear.md): Creates a timing gear.
 
 -   <img alt="" src=images/FCGear_LanternGear.svg  style="width:32px;"> [Lantern Gear](FCGear_LanternGear.md): Creates a lantern gear.

@@ -190,8 +190,8 @@ Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), Surface F
 
 Lo strumento Surface Filling può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) aggiungendo l\'oggetto `Surface::Filling`.
 
--   I bordi da utilizzare per definire la superficie devono essere assegnati come [LinkSubList](LinkSubList/it.md) alla proprietà `BoundaryEdges` dell\'oggetto.
--   Gli spigoli ausiliari e i vertici devono essere assegnati come [LinkSubLists](LinkSubList/it.md) alle proprietà `UnboundEdges` e `Points` dell\'oggetto.
+-   I bordi da utilizzare per definire la superficie devono essere assegnati come [LinkSubList](FeaturePython_Custom_Properties/it#App:_PropertyLinkSubList.md) alla proprietà `BoundaryEdges` dell\'oggetto.
+-   Gli spigoli ausiliari e i vertici devono essere assegnati come [LinkSubLists](FeaturePython_Custom_Properties/it#App:_PropertyLinkSubList.md) alle proprietà `UnboundEdges` e `Points` dell\'oggetto.
 -   Tutti gli oggetti con bordi devono essere calcolati prima di poter essere utilizzati come input per le proprietà dell\'oggetto Filling.
 
 

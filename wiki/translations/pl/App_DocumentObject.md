@@ -1,61 +1,67 @@
 # App DocumentObject/pl
-## Introduction
+## Wprowadzenie
 
 <img alt="" src=images/Px.svg  style="width:32px;">
 
-An [App DocumentObject](App_DocumentObject.md) object, or formally an `App::DocumentObject`, is the base class of all object classes handled in the document.
+**Obiekt Dokumentu**, lub formalnie `App::DocumentObject`, jest klasą bazową wszystkich klas obiektów obsługiwanych w dokumencie.
 
-In general terms, a \"DocumentObject\" is any \"thing\" that can appear in the [Tree view](Tree_view.md), and which is saved and restored when opening a document.
+Ogólnie rzecz biorąc, \"ObiektDokumentu\" to dowolna \"rzecz\", która może pojawić się w [widoku drzewa](Tree_view/pl.md) i która jest zapisywana i przywracana podczas otwierania dokumentu.
 
 ![](images/App_DocumentObject_example.png )
 
 
 
-*Tree view showing different objects in the document. Each of them is a "document object", ultimately derived from the base `App::DocumentObject* class.`
+*Widok drzewa pokazujący różne obiekty w dokumencie. Każdy z nich jest "obiektem dokumentu", wywodzącym się z klasy bazowej `App::DocumentObject*.`
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
-*Simplified diagram of the relationships between the core objects in FreeCAD*
-
-## Usage
-
-The [App DocumentObject](App_DocumentObject.md) is an internal class, so it cannot be created from the graphical interface, nor is it meant to be used by itself. It just defines the basic behavior and properties of objects in the program.
-
-Some of the most important DocumentObjects are the following:
-
--   The [App FeaturePython](App_FeaturePython.md) class, an empty object that can be used for different purposes, depending on the added properties.
--   The [App GeoFeature](App_GeoFeature.md) class, the base object of all geometrical objects, that is, of objects that have a [Placement](Placement.md) property that defines their position in the [3D view](3D_view.md).
--   The [Part Feature](Part_Feature.md) class, derived from App GeoFeature, and the parent class of objects with 2D and 3D [topological shapes](Part_TopoShape.md).
--   The [Mesh Feature](Mesh_Feature.md) class, derived from App GeoFeature, and the parent class of objects with 2D and 3D [meshes](Mesh_MeshObject.md).
-
-## Properties
-
-See [Property](Property.md) for all property types that scripted objects can have.
-
-These are the basic properties that essentially all objects have. These properties can be accessed from the [Python console](Python_console.md).
-
--    **Label|String**: the user editable name of this object, it is an arbitrary UTF8 string. By default, it is the same as the `Name`.
-
--    **Label2|String**: a longer, user editable description of this object, it is an arbitrary UTF8 string that may include newlines. By default, it is an empty string {{value|""}}.
-
--    **Expression Engine|ExpressionEngine**: a list of expressions.
-
--    **Visibility|Bool**: whether to display the object or not.
-
-For derived objects, only **Label** will be listed in the [property editor](property_editor.md) by default. The other properties will be hidden.
-
-## Scripting
+*Uproszczony diagram zależności pomiędzy podstawowymi obiektami w programie FreeCAD.*
 
 
-**See also:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) and [scripted objects](Scripted_objects.md).
+## Użycie
 
-See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
+[Obiekt dokumentu](App_DocumentObject/pl.md) jest klasą wewnętrzną, więc nie może być tworzona z poziomu interfejsu graficznego, ani nie jest przeznaczona do samodzielnego użytku. Definiuje ona jedynie podstawowe zachowanie i właściwości obiektów w programie.
 
-A DocumentObject is created with the `addObject()` method of the document. However, in general, there is no need to create this object manually. It is usually better to subclass one of the more complex classes, for example, [App FeaturePython](App_FeaturePython.md), [App GeoFeature](App_GeoFeature.md), [Part Feature](Part_Feature.md), [Part Part2DObject](Part_Part2DObject.md), etc.
+Niektóre z najważniejszych obiektów dokumentu to:
+
+-   Klasa [App: Właściwości Python](App_FeaturePython/pl.md), pusty obiekt, który może być używany do różnych celów, w zależności od dodanych atrybutów.
+-   Klasa [App: Cechy geometrii](App_GeoFeature/pl.md), podstawowy obiekt wszystkich obiektów geometrycznych, czyli obiektów posiadających atrybut [Umiejscowienie](Placement/pl.md), który definiuje ich pozycję w [widoku 3D](3D_view/pl.md).
+-   Klasa [Część: cCecha](Part_Feature/pl.md), pochodna klasy App GeoFeature, i nadrzędna klasa obiektów z 2D i 3D [kształtami topologicznymi](Part_TopoShape/pl.md).
+-   Klasa [Mesh Feature](Mesh_Feature/pl.md), pochodna klasy App GeoFeature, i nadrzędna klasa obiektów z [siatkami](Mesh_MeshObject/pl.md) 2D i 3D.
+
+
+
+## Właściwości
+
+Zobacz stronę [Właściwości](Property/pl.md) dla wszystkich typów właściwości, które mogą mieć obiekty tworzone skryptami.
+
+Są to podstawowe właściwości, które posiadają zasadniczo wszystkie obiekty. Dostęp do tych właściwości można uzyskać z [Konsoli Python](Python_console/pl.md).
+
+-    **Etykieta|String**: użytkownik może edytować nazwę tego obiektu, jest to dowolny ciąg znaków UTF8. Domyślnie jest to samo co `Nazwa`.
+
+-    **Etykieta2|String**: dłuższy, użytkownik może edytować opis tego obiektu, jest to dowolny ciąg znaków UTF8, który może zawierać nowe linie. Domyślnie jest to pusty ciąg znaków {{value|""}}.
+
+-    **Silnik wyrażeń|ExpressionEngine**: lista wyrażeń.
+
+-    **Widoczność|Bool**: definiuje czy wyświetlać obiekt czy nie.
+
+Dla obiektów pochodnych, tylko **Etykieta** będzie domyślnie wyświetlane w [edytorze właściwości](property_editor/pl.md). Pozostałe właściwości będą ukryte.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), oraz [Obiekty skryptowe](Scripted_objects/pl.md).
+
+Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć na stronie [Część: właściwość](Part_Feature/pl.md).
+
+Obiekt dokumentu tworzy się za pomocą metody `addObject()` dokumentu. Jednakże, ogólnie rzecz biorąc, nie ma potrzeby ręcznego tworzenia tego obiektu. Zazwyczaj lepiej jest podklasować jedną z bardziej złożonych klas, na przykład [App: Właściwości Python](App_FeaturePython/pl.md), [App: Cechy geometrii](App_GeoFeature/pl.md), [Część: Cecha](Part_Feature/pl.md), [Część: Część na obiekt 2D](Part_Part2DObject/pl.md), itd.
 
 
 ```python

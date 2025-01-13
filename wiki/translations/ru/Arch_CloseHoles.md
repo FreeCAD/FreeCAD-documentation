@@ -35,7 +35,7 @@
 </div>
 
 1.  Select a [Shape](Part_Workbench.md) object.
-2.  Press the **<img src="images/Arch_CloseHoles.svg" width=16px> [Close Holes](Arch_CloseHoles.md)** entry in **Arch → Utilities → Close Holes**.
+2.  Select the **Utils → <img src="images/Arch_CloseHoles.svg" width=16px> Close holes** option from the menu.
 
 ## Scripting
 
@@ -75,5 +75,13 @@ solid = Arch.closeHole(Wall.Shape)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/ru
+⏵ [documentation index](../README.md) > Arch CloseHoles/ru

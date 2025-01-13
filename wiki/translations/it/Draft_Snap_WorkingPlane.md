@@ -1,8 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Snap WorkingPlane
-   Name/it:  Aggancia Piano di lavoro
-   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   Name/it: Draft Aggancia Piano di lavoro
+   MenuLocation: Aggancio , Aggancia piano di lavoro
+   Workbenches: Draft_Workbench/it, BIM_Workbench/it
    SeeAlso: Draft Snap/it, Draft SelectPlane/it
 ---
 
@@ -27,10 +28,11 @@ L\'opzione <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:24px
 1.  Facoltativamente modificare il [piano di lavoro](Draft_SelectPlane/it.md).
 2.  Assicurarsi che l\'aggancio sia abilitato. Vedi <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Blocca aggancio](Draft_Snap_Lock/it.md).
 3.  Se **Draft Aggandio Piano di lavoro** non è attivo, eseguire una delle seguenti operazioni:
-    -   Premere il pulsante **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px>** nella barra degli strumenti di aggancio di Draft.
-    -   Premere il pulsante **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px>** nel [Draft snap widget](Draft_snap_widget/it.md).
+    -   Premere il pulsante **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px> [Aggancia piano di lavoro](Draft_Snap_WorkingPlane/it.md)** nella barra degli strumenti di aggancio di Draft.
+    -   [Draft](Draft_Workbench/it.md): Premere il pulsante **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px> [Aggancia piano di lavoro](Draft_Snap_WorkingPlane/it.md)** nel [Draft snap widget](Draft_snap_widget/it.md).
+    -   [BIM](BIM_Workbench/it.md): Selezionare l\'opzione **Aggancio → <img src="images/Draft_Snap_WorkingPlane.svg" width=16px> Aggancia piano di lavoro** dal menu o dal menu contestuale della [Vista 3D](3D_view/it.md).
 4.  Assicurarsi che almeno un\'altra opzione di aggancio sia attiva.
-5.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+5.  Scegliere un comando Draft o BIM per creare la propria geometria.
 6.  Tenere presente che si può anche modificare le opzioni di aggancio mentre un comando è attivo.
 7.  Spostare il cursore sull\'oggetto a cui ci si vuole agganciare.
 8.  L\'oggetto viene evidenziato.

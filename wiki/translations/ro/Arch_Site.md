@@ -9,7 +9,13 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Site-ul Arch este un obiect special care combină proprietățile unui obiect standard al grupului FreeCAD și a obiectelor Arch. Este deosebit de potrivit pentru a reprezenta un întreg sit de proiect sau teren. În cazul lucrărilor arhitecturale bazate pe IFC, se utilizează cea mai mare parte pentru a vă organiza modelul, conținând obiecte [building](Arch_Building.md). Site-ul este, de asemenea, folosit pentru a gestiona și a afișa un teren fizic și poate calcula volumul de pământ care trebuie adăugat sau eliminat.
+
+
+</div>
 
 
 
@@ -146,7 +152,7 @@ If [pysolar](http://pysolar.org/) is installed on your system, Arch Sites can di
 
 </div>
 
-**Note**: If you don\'t have Ladybug, [pysolar](http://pysolar.org/) is still supported to generate solar diagrams, but not wind roses. Pysolar 0.7 or above is required; this version only works with Python 3. If you require this feature with Python 2, you should have Pysolar 0.6 as this is the last version that works with Python 2. However, Ladybug is a much more powerful tool that will probably be used more in the future, so we recommend using it instead of pysolar. Ladybug can be installed simply via [pip](https://github.com/ladybug-tools/ladybug).
+**Note**: If you don\'t have Ladybug, [pysolar](http://pysolar.org/) is still supported to generate solar diagrams, but not wind roses. Pysolar 0.7 or above is required. However, Ladybug is a much more powerful tool that will probably be used more in the future, so we recommend using it instead of pysolar. Ladybug can be installed simply via [pip](https://github.com/ladybug-tools/ladybug).
 
 ![](images/Freecad-solar-diagram.jpg )
 
@@ -252,6 +258,11 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 </div>
 
 
+{{BIM_Tools_navi
+
+}}
+
+
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/ro
+⏵ [documentation index](../README.md) > Arch Site/ro

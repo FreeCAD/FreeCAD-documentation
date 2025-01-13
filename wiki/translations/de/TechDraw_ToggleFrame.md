@@ -4,7 +4,7 @@
    Name/de: TechDraw RahmenUmschalten
    MenuLocation: TechDraw  , TechDraw Ansichten , Ansichtsrahmen ein- oder ausschalten
    Workbenches: TechDraw_Workbench/de
-   SeeAlso: TechDraw_View/de, TechDraw_ProjectionGroup/de
+   SeeAlso: TechDraw_View/de
 ---
 
 # TechDraw ToggleFrame/de
@@ -27,7 +27,7 @@ Das Werkzeug **TechDraw RahmenUmschalten** schaltet die Darstellung der Umrandun
     -   Die Schaltfläche **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Ansichtsrahmen ein- oder ausschalten](TechDraw_ToggleFrame/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → TechDraw Ansichten → <img src="images/TechDraw_ToggleFrame.svg" width=16px> Ansichtsrahmen ein- oder ausschalten** auswählen.
     -   Wenn ein Zeichnungsblatt im [Hauptansichtsbereich](Main_view_area/de.md) angezeigt wird: Mit der rechten Maustaste in das Fenster des Blattes klicken und im Kontextmenü die Option **Toggle Frames** auswählen.
-3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
     1.  Das gewünschte Blatt auswählen.
     2.  Die Schaltfläche **OK** drücken.
 4.  Die aktuell sichtbaren Rahmen der Ansichten werden ausgeblendet bzw. aktuell unsichtbare Rahmen werden wieder dargestellt.
@@ -47,7 +47,7 @@ Du kannst die Größe der Knotenpunkte im [TechDraw Einstellungen/Maßstabs Reit
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
 
 Das Umschaltwerkzeug verfügt derzeit nicht über eine Programmierschnittstelle.
 
@@ -55,7 +55,7 @@ Das Umschaltwerkzeug verfügt derzeit nicht über eine Programmierschnittstelle.
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

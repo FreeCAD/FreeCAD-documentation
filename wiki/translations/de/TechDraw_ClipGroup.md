@@ -2,9 +2,9 @@
  GuiCommand:
    Name: TechDraw ClipGroup
    Name/de: TechDraw Ausschnittsgruppe
-   MenuLocation: TechDraw , Clipped Views , Ausschnittsgruppe einfügen
+   MenuLocation: TechDraw , TechDraw Ansichten , Ausschnittsgruppe einfügen
    Workbenches: TechDraw_Workbench/de
-   SeeAlso: TechDraw_ClipGroupAdd/de, TechDraw_ClipGroupRemove/de
+   SeeAlso: 
 ---
 
 # TechDraw ClipGroup/de
@@ -20,35 +20,45 @@ Das Werkzeug **TechDraw Ausschnittsgruppe** erstellt ein Ausschnittfenster, das 
 
 
 
-## Verwendung
+## Anwendung
 
 1.  \# Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](Tree_view/de.md) aktivieren.
 2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/TechDraw_ClipGroup.svg" width=16px> [Ausschnittsgruppe einfügen](TechDraw_ClipGroup/de.md)** drücken.
-    -   Den Menüeintrag **TechDraw → Clipped Views → <img src="images/TechDraw_ClipGroup.svg" width=16px> Ausschnittsgruppe einfügen** auswählen.
-3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+    -   Den Menüeintrag **TechDraw → TechDraw Ausschnittsgruppe → <img src="images/TechDraw_ClipGroup.svg" width=16px> Ausschnittsgruppe einfügen** auswählen.
+3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet:
     1.  Das gewünschte Blatt auswählen.
     2.  Die Schaltfläche **OK** drücken.
+4.  Ansichten können durch Ziehen und Ablegen in der Baumansicht der Ausschnittsgruppe hinzugefügt und aus ihr entfernt werden. {{Version/de|1.0}}
 
 
 
 ## Eigenschaften
 
--    {{PropertyData/de|Width}}: Die Breite des Ausschnittfensters in Einheiten.
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
--    {{PropertyData/de|Height}}: Die Höhe des Ausschnittfensters in Einheiten.
-
--    {{PropertyData/de|ShowFrame}}: Wenn `True`, wird ein Rahmen um das Ausschnittfenster herum dargestellt.
-
--    {{PropertyData/de|ShowLabels}}: Wenn `True`, werden Benennungen der Ansichten im Ausschnittfenster angezeigt. **HINWEIS:** entfernt in v0.19.
-
--    {{PropertyData/de|Views}}: Die im Ausschnittfenster enthaltenen Ansichten.
+Eine Ausschnittsgruppe, oder formal ein {{Incode|TechDraw::DrawViewClip}}-Objekt, besitzt die gemeinsamen [Eigenschaften](TechDraw_View/de#Eigenschaften_der_Bauteilansicht.md) aller Ansichtsarten. Sie enthält außerdem die folgenden Eigenschaften:
 
 
 
+### Daten
 
 
-{{TechDraw Tools navi
+{{TitleProperty|Clip Group}}
+
+-    {{PropertyData/de|Width|Length}}: Die Breite des Ausschnittfensters in Einheiten.
+
+-    {{PropertyData/de|Height|Length}}: Die Höhe des Ausschnittfensters in Einheiten.
+
+-    {{PropertyData/de|ShowFrame|Bool}}: Wenn `True`, wird ein Rahmen um das Ausschnittfenster herum dargestellt.
+
+-    {{PropertyData/de|Views|LinkList}}: Die im Ausschnittfenster enthaltenen Ansichten.
+
+
+
+
+
+{{TechDraw_Tools_navi
 
 }}
 

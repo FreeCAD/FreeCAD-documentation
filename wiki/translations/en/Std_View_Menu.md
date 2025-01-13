@@ -42,6 +42,7 @@ The following tools are available in this menu:
 -   Standard views
     -   <img alt="" src=images/Std_ViewFitAll.svg  style="width:32px;"> [Fit all](Std_ViewFitAll.md): Fits all visible objects inside the view.
     -   <img alt="" src=images/Std_ViewFitSelection.svg  style="width:32px;"> [Fit selection](Std_ViewFitSelection.md): Fits selected objects inside the view.
+    -   <img alt="" src=images/Std_AlignToSelection.svg  style="width:32px;"> [Align to selection](Std_AlignToSelection.md): Aligns the view with the selection. <small>(v1.0)</small> 
     -   Axonometric
         -   <img alt="" src=images/Std_ViewIsometric.svg  style="width:32px;"> [Isometric](Std_ViewIsometric.md): Switches to an isometric view.
         -   <img alt="" src=images/Std_ViewDimetric.svg  style="width:32px;"> [Dimetric](Std_ViewDimetric.md): Switches to a dimetric view.
@@ -53,14 +54,14 @@ The following tools are available in this menu:
     -   <img alt="" src=images/Std_ViewRear.svg  style="width:32px;"> [Rear](Std_ViewRear.md): Switches to the rear view.
     -   <img alt="" src=images/Std_ViewBottom.svg  style="width:32px;"> [Bottom](Std_ViewBottom.md): Switches to the bottom view.
     -   <img alt="" src=images/Std_ViewLeft.svg  style="width:32px;"> [Left](Std_ViewLeft.md): Switches to the left view.
-    -   <img alt="" src=images/Std_RotateLeft.png  style="width:32px;"> [Rotate Left](Std_ViewRotateLeft.md): Rotates the view to the left.
-    -   <img alt="" src=images/Std_RotateRight.png  style="width:32px;"> [Rotate Right](Std_ViewRotateRight.md): Rotates the view to the right.
+    -   <img alt="" src=images/Std_ViewRotateLeft.svg  style="width:32px;"> [Rotate Left](Std_ViewRotateLeft.md): Rotates the view to the left.
+    -   <img alt="" src=images/Std_ViewRotateRight.svg  style="width:32px;"> [Rotate Right](Std_ViewRotateRight.md): Rotates the view to the right.
     -   [Store working view](Std_StoreWorkingView.md): Stores the camera settings of the active 3D view in its working view. <small>(v0.21)</small> 
     -   [Recall working view](Std_RecallWorkingView.md): Recalls the active 3D view\'s stored working view. <small>(v0.21)</small> 
 
 -   [Freeze display](Std_FreezeViews.md)
-    -   [Save views\...](Std_FreezeViews#Save_views....md): Saves frozen views in a file.
-    -   [Load views\...](Std_FreezeViews#Load_views....md): Loads frozen views from a file.
+    -   [Save views\...](Std_FreezeViews#Save_views.md): Saves frozen views in a file.
+    -   [Load views\...](Std_FreezeViews#Load_views.md): Loads frozen views from a file.
     -   [Freeze view](Std_FreezeViews#Freeze_view.md): Stores the current view in a frozen view.
     -   [Clear views](Std_FreezeViews#Clear_views.md): Deletes all frozen views.
 
@@ -97,7 +98,8 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Clipping plane](Std_ToggleClipPlane.md): Temporarily clips objects.
 
--   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Persistent section cut](Part_SectionCut.md): Creates persistent cuts of objects and assemblies. **-- Available if the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md) has been loaded.** <small>(v0.20)</small> 
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Persistent section cut](Part_SectionCut.md): Creates persistent cuts of objects and assemblies. 
+**-- Available if the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md) has been loaded.**
 
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Texture mapping\...](Std_TextureMapping.md): Temporarily maps a texture onto all objects.
 
@@ -110,14 +112,20 @@ The following tools are available in this menu:
     -   <img alt="" src=images/Std_ShowObjects.svg  style="width:32px;"> [Show all objects](Std_ShowObjects.md): Shows all objects.
     -   <img alt="" src=images/Std_HideObjects.svg  style="width:32px;"> [Hide all objects](Std_HideObjects.md): Hides all objects.
     -   <img alt="" src=images/Std_ToggleSelectability.svg  style="width:32px;"> [Toggle selectability](Std_ToggleSelectability.md): Toggles the selectability of objects.
-    -   <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:32px;"> [Toggle measurement](View_Measure_Toggle_All.md): Toggles the display of [Part](Part_Workbench.md) measurements.
-    -   <img alt="" src=images/View_Measure_Clear_All.svg  style="width:32px;"> [Clear measurement](View_Measure_Clear_All.md): Clears Part measurements.
 
 -   <img alt="" src=images/Std_ToggleNavigation.svg  style="width:32px;"> [Toggle navigation/Edit mode](Std_ToggleNavigation.md): Toggles between navigation mode and edit mode.
 
--   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Appearance\...](Std_SetAppearance.md): Opens the Display properties task panel for objects.
+-   <img alt="" src=images/Std_SetMaterial.svg  style="width:32px;"> [Material\...](Std_SetMaterial.md): Sets the material of selected objects. **-- Available if the [Material Workbench](Material_Workbench.md) has been loaded directly or indirectly (via for example the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md)).** <small>(v1.0)</small> 
 
--   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Random color](Std_RandomColor.md): Applies a random shape color to objects.
+-   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Appearance\...](Std_SetAppearance.md): Sets the display properties of selected objects. 
+**-- Available if the [Material Workbench](Material_Workbench.md) has been loaded directly or indirectly (via for example the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md)).**
+
+-   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Random color](Std_RandomColor.md): Applies a random diffuse color to objects.
+
+-   <img alt="" src=images/Part_ColorPerFace.svg  style="width:32px;"> [Color per face](Part_ColorPerFace.md): Sets the display properties of selected faces. 
+**-- Available if the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md) is active.**
+
+-   <img alt="" src=images/Std_ToggleTransparency.svg  style="width:32px;"> [Toggle transparency](Std_ToggleTransparency.md): Toggles the transparency of selected objects. <small>(v1.0)</small> 
 
 -   [Workbench](Std_Workbench.md) **-- Select a workbench from the submenu.**
 
@@ -128,22 +136,23 @@ The following tools are available in this menu:
     -   Workbench
     -   Macro
     -   View
+    -   Individual views <small>(v1.0)</small> 
     -   Structure
     -   Help <small>(v0.21)</small> 
-    -   \... If the current workbench has toolbars they appear here
-    -   [Lock toolbars](Std_ToggleToolBarLock.md): If switched on toolbars are not movable. <small>(v0.22)</small> 
+    -   \... If the current workbench has toolbars they appear here.
+    -   [Lock toolbars](Std_ToggleToolBarLock.md): If switched on toolbars are not movable. <small>(v1.0)</small> 
 
 -   Panels **-- Each panel can be switched on or off in the submenu.**
-    -   [Tree view](Tree_view.md) **-- Available if [Tree view mode](Preferences_Editor#General_2.md) is {{Value|TreeView and PropertyView**.}}
+    -   [Tree view](Tree_view.md) **-- Available as a separate panel if [Tree view and Property view mode](Preferences_Editor#General_2.md) is {{Value|Independent**.}}
     -   [Property view](Property_editor.md) **-- Idem.**
+    -   [Model](Combo_view.md) **-- Combines the Tree view and the Property view in a single panel. Available if [Tree view and Property view mode](Preferences_Editor#General_2.md) is {{Value|Combined**.}}
     -   [Selection view](Selection_view.md)
-    -   [Tasks](Task_panel.md)
     -   [Python console](Python_console.md)
-    -   [DAG view](DAG_view.md) **-- Not available by default, see [DAG view](DAG_view.md).**
-    -   [Model](Combo_view.md) **-- Available if [Tree view mode](Preferences_Editor#General_2.md) is {{Value|Combo View**.}}
     -   [Report view](Report_view.md)
+    -   [Tasks](Task_panel.md)
+    -   [DAG view](DAG_view.md) **-- Not available by default, see [DAG view](DAG_view.md).**
 
--   Dock window overlay <small>(v0.22)</small> 
+-   Dock window overlay <small>(v1.0)</small> 
     -   [Toggle overlay for all](Std_DockOverlayAll.md): Toggles overlay mode for all docked windows.
     -   [Toggle transparent for all](Std_DockOverlayTransparentAll.md): Toggles transparent mode for all docked overlay windows. This makes the docked windows stay transparent at all times.
     -   [Toggle overlay](Std_DockOverlayToggle.md): Toggles overlay mode for the docked window under the cursor.
@@ -154,22 +163,20 @@ The following tools are available in this menu:
     -   [Toggle top](Std_DockOverlayToggleTop.md): Shows/hides the top overlay panel.
     -   [Toggle bottom](Std_DockOverlayToggleBottom.md): Shows/hides the bottom overlay panel.
 
--   <img alt="" src=images/Std_ToggleTransparency.svg  style="width:32px;"> [Toggle transparency](Std_ToggleTransparency.md):
-
 -   Link navigation
     -   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Go to linked object](Std_LinkSelectLinked.md): Selects the linked object and switches to its document.
     -   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Go to the deepest linked object](Std_LinkSelectLinkedFinal.md): Selects the deepest linked object and switches to its document.
     -   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;"> [Select all links](Std_LinkSelectAllLinks.md): Selects all links to an object.
 
 -   Tree view actions
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode.
-    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync selection](Std_TreeSyncSelection.md): Toggles the Tree view SyncSelection mode.
-    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync placement](Std_TreeSyncPlacement.md): Toggles the Tree view SyncPlacement mode.
-    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selection](Std_TreePreSelection.md): Toggles the Tree view PreSelection mode.
-    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Record selection](Std_TreeRecordSelection.md): Toggles the Tree view RecordSelection mode.
-    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Single document](Std_TreeSingleDocument.md): Switches the Tree view to SingleDocument mode.
-    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Multi document](Std_TreeMultiDocument.md): Switches the Tree view to MultiDocument mode.
-    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Collapse/Expand](Std_TreeCollapseDocument.md): Switches the Tree view to CollapseDocument mode.
+    -   [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode.
+    -   [Sync selection](Std_TreeSyncSelection.md): Toggles the Tree view SyncSelection mode.
+    -   [Sync placement](Std_TreeSyncPlacement.md): Toggles the Tree view SyncPlacement mode.
+    -   [Pre-selection](Std_TreePreSelection.md): Toggles the Tree view PreSelection mode.
+    -   [Record selection](Std_TreeRecordSelection.md): Toggles the Tree view RecordSelection mode.
+    -   [Single document](Std_TreeSingleDocument.md): Switches the Tree view to SingleDocument mode.
+    -   [Multi document](Std_TreeMultiDocument.md): Switches the Tree view to MultiDocument mode.
+    -   [Collapse/Expand](Std_TreeCollapseDocument.md): Switches the Tree view to CollapseDocument mode.
     -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Initiate dragging](Std_TreeDrag.md): Initiates a drag operation for selected objects in the Tree view.
     -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Go to selection](Std_TreeSelection.md): Scrolls the Tree view to the first created object in a 3D view selection.
     -   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Selection back](Std_SelBack.md): Restores the previous Tree view selection.
@@ -181,7 +188,7 @@ The following tools are available in this menu:
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

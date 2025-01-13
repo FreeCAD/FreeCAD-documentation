@@ -10,10 +10,10 @@
 
 ## Description
 
-Cet outil applique une esquisse sur une face comme une étiquette sur une bouteille. L\'esquisse doit être réellement attachée à une face (voir Sketch.Support). Le mode `Map` de l\'esquisse n\'a aucun effet sur le résultat.
+Cet outil applique une esquisse sur une face courbe arbitraire, comme une étiquette sur une bouteille. L\'esquisse doit être réellement attachée à une face (voir Sketch.Support). Le mode `Map` de l\'esquisse n\'a aucun effet sur le résultat.
 
 <img alt="" src=images/Curves_SketchOnSurface_demo.png  style="width:600" height="400px;"> 
-*Ci-dessus: affiche l'objet `Sketch_On_Surface* appliqué à la face du cylindre (gauche) et à l'esquisse source en mode édition (droite)`
+*Ci-dessus : l'objet `Sketch_On_Surface* appliqué à la face du cylindre (à gauche) et l'esquisse source en mode édition (à droite)`
 
 
 

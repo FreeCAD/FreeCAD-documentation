@@ -22,7 +22,7 @@ Pour plus d\'informations, voir [TechDraw Cote étendue horizontale](TechDraw_Ho
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

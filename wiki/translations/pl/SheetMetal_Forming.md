@@ -22,7 +22,7 @@ Można dodać szkic, aby zwielokrotnić i rozłożyć wytłoczony kształt w reg
 Mały prezentacja mozliwości, które mogą być tworzone:
 
 <img alt="" src=images/SheetMetal_Forming-08.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-09.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-10.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-11.png  style="width:200px;"> 
-*wgłębienia, żaluzje, rysowane wycięcia, mostki*
+*Wgłębienia, żaluzje, rysowane wycięcia, mostki*
 
 
 
@@ -38,10 +38,17 @@ Upewnij się, że bryła zawierająca obiekt, który ma zostać wytłoczony, jes
 2.  Przytrzymaj wciśnięty klawisz **Ctrl** *(lub **Command** w systemie macOS)*.
 3.  Dodaj do zaznaczenia \"dolną powierzchnię\" *(tylną stronę)* bryły definiującej kształt.
 4.  Zwolnij klawisz **Ctrl** *(lub przycisk **polecenia**)*.
-5.  Aktywuj narzędzie <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;">[Formowanie blach](SheetMetal_Forming/pl.md) za pomocą jednej z poniższych czynności:
-    -   Przycisk **<img src="images/SheetMetal_Forming.svg" width=24px> [Formowanie blach](SheetMetal_Forming/pl.md)**.
-    -   W menu należy wybrać **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=24px> Wykonaj formowanie w ścianie**.
-    -   Skrót klawiaturowy: **M** a następnie **F**.
+5.  Istnieje kilka sposobów na wywołanie tego polecenia:
+    -   Wciśnij przycisk **<img src="images/SheetMetal_Forming.svg" width=24px> [Formowanie blach](SheetMetal_Forming/pl.md)**.
+    -   Wybierz opcję **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=24px> Wykonaj formowanie w ścianie** z menu.
+    -   Kliknij prawym przyciskiem myszy w [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md) i wybierz opcję **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Wykonaj formowanie w ścianie** z menu kontekstowego.
+    -   Użyj skrótu klawiaturowego: **M** a następnie **F**.
+6.  Otwarty zostanie [panel zadań](Task_panel/pl.md) **Binded faces/edges list** (wprowadzony w wersji 0.5.00).
+7.  Opcjonalnie wybierz nowe ściany/krawędzie.
+    -   Wciśnij przycisk **Aktualizuj** aby zakończyć wybór i wyświetlić zmiany.
+8.  Wciśnij przycisk **OK** aby zakończyć polecenie i zamknąć panel zadań.
+9.  Na środku wskazanej ściany do wytłoczenia zostanie utworzony obiekt **WallForming**.
+10. Opcjonalnie dostosuj parametry w [Edytorze właściwości](Property_editor/pl.md).
 
 
 
@@ -52,7 +59,7 @@ Upewnij się, że bryła zawierająca obiekt, który ma zostać wytłoczony, jes
 3.  Dodaj do zaznaczenia \"dolną powierzchnię\" *(tylną stronę)* bryły definiującej kształt.
 4.  Dodaj do zaznaczenia \"boczną ścianę\" przylegającą do dolnej ściany, aby wskazać miejsce cięcia.
 5.  Zwolnij klawisz **Ctrl** *(lub klawisz **Command**)*.
-6.  Aktywuj narzędzie <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Formowanie blach](SheetMetal_Forming/pl.md) *(patrz wyżej)*.
+6.  Wywołaj polecenie i postępuj zgodnie z krokami opisanymi powyżej.
 
 
 
@@ -64,7 +71,7 @@ Upewnij się, że bryła zawierająca obiekt, który ma zostać wytłoczony, jes
 4.  Dodaj do zaznaczenia \"boczną ścianę\" przylegającą do dolnej ściany, aby wskazać miejsce pierwszego cięcia.
 5.  Dodaj do zaznaczenia \"przeciwległą ścianę boczną\" przylegającą do dolnej ściany, aby wskazać miejsce drugiego cięcia.
 6.  Zwolnij klawisz **Ctrl** *(lub klawisz **Command**)*.
-7.  Aktywuj narzędzie <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;"> [Formowanie blach](SheetMetal_Forming/pl.md) *(patrz wyżej)*.
+7.  Wywołaj polecenie i postępuj zgodnie z krokami opisanymi powyżej.
 
 
 
@@ -75,7 +82,7 @@ Upewnij się, że bryła zawierająca obiekt, który ma zostać wytłoczony, jes
 3.  Dodaj do zaznaczenia \"dolną powierzchnię\" (tylną) bryły definiującej kształt.
 4.  Dodaj do zaznaczenia \"górną ścianę\" naprzeciwko dolnej, aby zaznaczyć obszar, który ma zostać wycięty.
 5.  Zwolnij klawisz **Ctrl** *(lub klawisz **Command**)*.
-6.  Aktywuj narzędzie <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;">. [Formowanie blachy](SheetMetal_Forming/pl.md) *(patrz wyżej)*.
+6.  Wywołaj polecenie i postępuj zgodnie z krokami opisanymi powyżej.
 
 
 
@@ -116,22 +123,11 @@ Formowanie i zaokrąglenia powinny być ostatnimi krokami przy tworzeniu obiektu
 
 Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
-Obiekt Formowanie blach wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+Obiekt Formowanie blach wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) lub, jeśli jest w obrębie [Zawartości środowiska Projekt Części](PartDesign_Body/pl.md), z obiektu [Cechy tego środowiska](PartDesign_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
 
 ### Dane
-
-
-{{Properties_Title|Podstawowe}}
-
--    **Etykieta|String**: Wartość domyślna: {{value|WallForming}} *(+ kolejny numer dla drugiej i następnych pozycji)*.
-
-Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg znaków UTF8.
-
--    **Podstawa Cecha|Link|hidden**: Cecha bazowa. Link do elementu nadrzędnego.
-
--    **_Zawartość|LinkHidden|hidden**:
 
 
 {{Properties_Title|Parametry}}
@@ -144,7 +140,7 @@ Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg zn
 
 -    **offset|VectorDistance**: \" Odsunięcie od środka ściany\". Domyślnie: {{value|[0,00 mm, 0,00 mm, 0,00 mm]}}.
 
--    **grubość|Distance**: \" Grubość arkusza blachy\". Grubość **Cecha bazowa||hidden**:.
+-    **grubość|Distance**: \" Grubość arkusza blachy\". Grubość **Cecha bazowa||hidden**.
 
 -    **Obiekt narzędzia|LinkSub**: \"Obiekt narzędzia formującego\". Link do powierzchni planarnej używanej do pozycjonowania narzędzia do formowania.
 

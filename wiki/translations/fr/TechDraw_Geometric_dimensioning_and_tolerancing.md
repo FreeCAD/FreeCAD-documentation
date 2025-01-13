@@ -38,7 +38,7 @@ Le format par défaut des nouveaux numéros de dimension dépend des options **U
 Le format des nombres peut être modifié :
 
 1.  Double-cliquez sur la cote dans le dessin ou sur l\'objet cote dans la vue en arborescence du modèle
-2.  Dans la boîte de dialogue de la cote qui apparaît, le champ **Nombre de décimales** contient le spécificateur de format, alors changez-le en ce dont vous avez besoin
+2.  Dans la fenêtre de dialogue de la cote qui apparaît, le champ **Nombre de décimales** contient le spécificateur de format, alors changez-le en ce dont vous avez besoin
 
 La syntaxe du spécificateur de format est [expliqué ici](https://www.cplusplus.com/reference/cstdio/printf/). Vous pouvez également utiliser [cet outil en ligne](https://onlinetexttools.com/printf-text) pour voir quel spécificateur de formatage formatera les nombres.
 
@@ -65,7 +65,7 @@ Avec les propriétés **X** et **Y**, vous pouvez modifier la position horizonta
 
 1.  Créez une [cote](TechDraw_Workbench/fr#Cotes.md) dans votre dessin
 2.  Double-cliquez sur la cote dans le dessin ou sur l\'objet cote dans la vue en arborescence du modèle
-3.  Dans la boîte de dialogue de la cote qui apparaît, spécifiez comme **Tolérance supérieure** la valeur pour laquelle la cote peut être dépassée. Cela entraînera une tolérance égale comme celle-ci: <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">
+3.  Dans la fenêtre de dialogue qui apparaît, spécifiez comme **Tolérance supérieure** la valeur pour laquelle la cote peut être dépassée. Cela entraînera une tolérance égale comme celle-ci: <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">
 4.  Si vous avez des tolérances inégales, spécifiez **Tolérance inférieure** la valeur de laquelle la cote peut être plus petite et décochez l\'option **Tolérance symétrique**. Cela entraînera une tolérance inégale comme ceci: <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
 
 
@@ -96,10 +96,10 @@ Les tolérances sont créées à l\'aide de la fonction [Infobulle](TechDraw_Bal
 
 <img alt="Exemple d\'une tige tolérancée. (Le décentrement définit déjà la rectitude, il n\'est là qu\'à titre d\'exemple.)" src=images/TechDraw_GD%26T-Toleranced-rod.png  style="width:280px;">
 
-L\'indicateur de tolérance de GD&T est une trame, également appelée \"trame de contrôle de fonction\". Il peut être créé en utilisant la fonction [infobulle](TechDraw_Balloon/fr.md) de TechDraw:
+L\'indicateur de tolérance de GD&T est une trame, également appelée \"trame de contrôle de fonction\". Il peut être créé en utilisant la fonction [infobulle](TechDraw_Balloon/fr.md) de TechDraw :
 
--   après avoir ajouté une infobulle et si sa forme n\'est pas déjà un cadre, double-cliquez dessus dans l\'arbre du modèle et définissez dans la boîte de dialogue qui apparaît la **forme** à **rectangle**.
--   ajoutez le caractère Unicode correspondant à la fonctionnalité dont vous avez besoin dans l\'infobulle **Texte**. (Vous pouvez les copier à partir des tables de référence [dessous](TechDraw_Geometric_dimensioning_and_tolerancing/fr#R.C3.A9f.C3.A9rencement_de_symboles.md) ou utliser [TechDraw Personnaliser le format d\'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md).)
+-   après avoir ajouté une infobulle et si sa forme n\'est pas déjà un cadre, double-cliquez dessus dans l\'arbre du modèle et définissez dans la fenêtre de dialogue qui apparaît la **forme** à **rectangle**.
+-   ajoutez le caractère Unicode correspondant à la fonctionnalité dont vous avez besoin dans l\'infobulle **Texte**. (Vous pouvez les copier à partir des tables de référence [dessous](TechDraw_Geometric_dimensioning_and_tolerancing/fr#R.C3.A9f.C3.A9rencement_de_symboles.md) ou utliser [TechDraw Personnaliser l\'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md).)
 -   en ajoutant le caractère \'\|\' au **Texte**, vous démarrez un nouveau champ indicateur.
 
 Aucune règle ne définit si ou comment l\'indicateur de tolérance doit avoir une ligne de repère ou non, vous pouvez donc:
@@ -115,7 +115,7 @@ L\'exemple sur le côté droit montre les deux dispositions d\'indicateur de tol
 
 Les points de référence au sens de la GD&T sont des surfaces auxquelles votre tolérance est relative. Ils sont créés comme des infobulles :
 
--   après avoir ajouté une infobulle, définissez **Symbole de fin** à **Triangle rempli** dans la boîte de dialogue de l\'infobulle.
+-   après avoir ajouté une infobulle, définissez **Symbole de fin** à **Triangle rempli** dans la fenêtre de dialogue de l\'infobulle.
 -   si la forme de l\'infobulle n\'est pas déjà un cadre, réglez **Forme de l\'infobulle** sur **Rectangle**.
 -   faites glisser l\'infobulle avec la souris de façon à ce que le triangle pointe en s\'éloignant de la surface de référence.
 -   Comme il est courant d\'avoir une ligne droite pour les points de référence, à moins que la surface du point de référence ne soit pas perpendiculaire à X ou Y, assurez-vous que les propriétés **X** et **Origin X** ou **Y** et **Origin Y** sont égales pour obtenir une ligne de l\'infobulle droite.
@@ -126,7 +126,7 @@ Les points de référence au sens de la GD&T sont des surfaces auxquelles votre 
 
 ### Référencement de symboles 
 
-Pour insérer des symboles GD&T, TechDraw propose la fonction [TechDraw Personnaliser le format d\'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md).
+Pour insérer des symboles GD&T, TechDraw propose la fonction [TechDraw Personnaliser l\'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md).
 
 À titre de référence, voici des listes de caractères à utiliser pour le tolérancement géométrique:
 

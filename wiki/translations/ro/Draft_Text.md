@@ -62,7 +62,7 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 ## Opţiuni
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 1.0).
 
 
 <div class="mw-translate-fuzzy">
@@ -80,7 +80,7 @@ Apăsând pe **CTRL**, [snap](Draft_Snap/ro.md) punctul dvs. va fi ancorat la lo
 
 ## Notes
 
--   A Draft Text can be edited by double-clicking it in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
+-   A Draft Text can be edited by double-clicking it in the [Tree view](Tree_view.md).
 -   Draft Texts created or saved with [FreeCAD version 0.21](Release_notes_0.21.md) are not backward compatible.
 
 

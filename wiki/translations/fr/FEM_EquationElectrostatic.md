@@ -10,6 +10,8 @@
 
 # FEM EquationElectrostatic/fr
 
+## Description
+
 Cette équation permet d\'effectuer des analyses électrostatiques en utilisant le [Théorème de Gauss](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_Gauss_(%C3%A9lectromagn%C3%A9tisme)).
 
 Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Electrostatics*.

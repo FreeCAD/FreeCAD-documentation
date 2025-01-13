@@ -1,5 +1,22 @@
 # Screenshots/es
+<div class="mw-translate-fuzzy">
+
 Aquí hay algunas capturas de pantalla mostrando diferentes parted de FreeCAD. No están ordenadas en alguna cronología específica, así que las imágenes pueden diferir de tu versión. Ve más capturas de pantalla enviadas por usuarios de FreeCAD en el [foro de capturas de pantalla](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) y en [la parte del foro de Users Showcase \"¡Muestra tu proyecto aquí!\"](http://forum.freecadweb.org/viewforum.php?f=24).
+
+
+</div>
+
+### The 1.0 release 
+
+<img alt="" src=images/PartDesign_Pozidriv.png  style="width:1024px;">
+
+<img alt="" src=images/Assembly_Example.png  style="width:1024px;">
+
+<img alt="" src=images/BIM_Example.png  style="width:1024px;">
+
+<img alt="" src=images/FEM_Example.png  style="width:1024px;">
+
+
 
 ### La versión 0.17 
 
@@ -29,6 +46,8 @@ Aquí hay algunas capturas de pantalla mostrando diferentes parted de FreeCAD. N
 
 <img alt="" src=images/freeCAD-guitar.jpg  style="width:1024px;">
 
+
+
 ### La versión 0.16 
 
 <img alt="" src=images/Hhassey.png  style="width:1024px;">
@@ -43,6 +62,8 @@ Aquí hay algunas capturas de pantalla mostrando diferentes parted de FreeCAD. N
 
 <img alt="" src=images/R_tec.jpeg  style="width:1024px;">
 
+
+
 ### La versión 0.15 
 
 <img alt="" src=images/Obijuan.png  style="width:1024px;">
@@ -55,11 +76,19 @@ Aquí hay algunas capturas de pantalla mostrando diferentes parted de FreeCAD. N
 
 <img alt="" src=images/Lou_papet.png  style="width:1024px;">
 
+
+
 ### La versión 0.14 
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
+
+<div class="mw-translate-fuzzy">
+
 Un jeep modelado por psicofil
+
+
+</div>
 
 <img alt="" src=images/Rockn_house1.png  style="width:1024px;">
 
@@ -85,157 +114,41 @@ Análisis de curvatura de malla por el módulo Mesh
 
 <img alt="" src=images/Cura_export.png  style="width:1024px;">
 
+
+<div class="mw-translate-fuzzy">
+
 Exporta a aplicaciones externas mediante macros python
 
-### La versión 0.12 
 
-![Assembly of multiple objects\|1024px](images/FreeCAD_aeroponic_system.jpg )
+</div>
 
-![Un cróquis completamente acotado extruido para crear una sección del marco de una bicileta\|1024px](images/rim_bling.png )
+### The 0.12 release 
 
-### La versión 0.11 
+<img alt="" src=images/FreeCAD_aeroponic_system.jpg  style="width:1024px;">
+
+
+
+*Assembly of multiple objects*
+
+<img alt="" src=images/rim_bling.png  style="width:1024px;">
+
+
+
+*A fully-constrained sketch revolved to create a bike rim section*
+
+### The 0.11 release 
 
 <img alt="" src=images/FreeCAD011.png  style="width:1024px;">
 
-### La versión 0.10 
+### The 0.10 release 
 
 ![](images/Freecad010.png )
 
-### La versión 0.9 
+### The 0.9 release 
 
 ![](images/Freecad09.jpg )
-
-### Medición
-
-<img alt="" src=images/Measurement.jpeg  style="width:800px;">
-
-### STEP
-
-![](images/Screenshot-gcad.jpg )
-
-Una captura de pantalla mostrando FreeCAD importando y renderizando un modelo STEP de gCAD
-
-### Formato STEP 
-
-<img alt="" src=images/TaskPanel.jpg  style="width:800px;">
-
-Con el Robot gripper cargado
-
-### Robot gripper 
-
-![](images/FreeCAD_Screenshot.png )
-
-En XP con Schenkel
-
-### Operaciones Booleanas en formas 
-
-<img alt="" src=images/Part_BooleanOperations.png  style="width:800px;">
-
-Operaciones Booleanas
-
-### IGES
-
-![](images/Freecad-vista01.jpg )
-
-FreeCAD en Windows Vista, con un modelo IGES de [Rexroth](http://www13.boschrexroth-us.com) cargado
-
-### Imagínate
-
-![](images/Sceenshot-reversevid.jpg‎ )
-
-¡Puedes personalizar un montón de aspectos de FreeCAD!
-
-### Booleanos en Mallas 
-
-![](images/Screenshot_mesh.jpg )
-
-Operaciones booleanas en Mallas en FreeCAD
-
-### Blender
-
-![](images/Fcblender.jpg )
-
-Blender tiene un [script](http://yorik.orgfree.com/guestblog.php?2009=105) para importar archivos de FreeCAD.
-
-### Extracción de Dibujos 
-
-<img alt="" src=images/Drawing_extraction.png  style="width:800px;">
-
-Extracción de una pieza 3D (STEP en este caso) a una vista SVG **Drawing Extraction**. Esto es totalmente paramétrico, si la pieza cambia la vista también.
-
-### FreeCAD vs. QCad 
-
-![](images/Screenshot_qcad.jpg )
-
-Una captura de pantalla mostrando un mismo archivo renderizado por FreeCAD y qCAD
-
-### FreeCAD vs. Inkscape 
-
-![](images/Screenshot_inkscape.jpg )
-
-Una captura de pantalla mostrando un mismo archivo renderizado por FreeCAD e inkscape
-
-
-<div class="mw-translate-fuzzy">
-
-### Módulo de Croquizado 
-
-![](images/Screenshot_draft.jpg )
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Freecad el [Módulo de Croquizado](Draft_Workbench/es.md) cargado y un dibujo DXF importado
-
-
-</div>
-
-### Preferencias
-
-![](images/Freecad-vista02.jpg )
-
-La pantalla de preferencias
-
-### En Ubuntu 
-
-![](images/Interface_screenshot.jpg )
-
-La interfaz de FreeCAD cuando lo inicias por primera vez, en Ubuntu
-
-
-<div class="mw-translate-fuzzy">
-
-### Instalador de Windows 
-
-![](images/Screenshot_installer.jpg )
-
-
-</div>
-
-Instalador de Windows en funcionamiento
-
-
-<div class="mw-translate-fuzzy">
-
-### Modo consola 
-
-![](images/Screenshot_console.jpg )
-
-
-</div>
-
-FreeCAD ejecutado en modo consola (sin interfaz gráfico de usuario GUI)
-
-### Guardar imagen 
-
-![](images/Save_picture.png )
-
-Letrero de diálogo para guardar una imagen de tamaño arbitrario.
 
 
 
 ---
-⏵ [documentation index](../README.md) > Screenshots/es
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Screenshots](Category_Screenshots.md) > Screenshots/es

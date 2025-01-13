@@ -1,43 +1,75 @@
 ---
  GuiCommand:
    Name: Sketcher ConstrainSymmetric
-   Name/de: Sketcher SymmetrieFestlegen
-   MenuLocation: Sketch , Skizzen-Beschränkungen , Symmetrie festlegen
+   Name/de: Sketcher SymmetrischFestlegen
+   MenuLocation: Skizze , Sketcher-Randbedingungen , Symmetrisch festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **S**
-   SeeAlso: Sketcher_ConstrainParallel/de
+   SeeAlso: 
 ---
 
 # Sketcher ConstrainSymmetric/de
 
+
+
 ## Beschreibung
 
-Die **symmetrische Beschränkung** zwingt zwei ausgewählte Punkte dazu, symmetrisch um eine gegebene Linie herum zu sein, d.h. beide ausgewählten Punkte müssen auf einer Normalen zu der durch beide Punkte verlaufenden Linie liegen und müssen gleich weit von der Linie entfernt sein. Alternativ können zwei Punkte so eingeschränkt werden, dass sie in Bezug auf einen dritten Punkt symmetrisch sind.
+Das Werkzeug <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> [Sketcher SymmetrischFestlegen](Sketcher_ConstrainSymmetric/de.md): Legt zwei Punkte symmetrisch zu einer Linie oder Achse bzw. zu einem dritten Punkt fest.
+
+
 
 ## Anwendung
 
-<img alt="" src=images/SymmetricConstraint1.png  style="width:500px;">
-
-Nach der Auswahl zweier Punkte (Scheitelpunkte) und einer Linie in der Skizze werden die ausgewählten Punkte und die Linie dunkelgrün dargestellt.
-
-<img alt="" src=images/SymmetricConstraint2.png  style="width:500px;">
-
-Klicke auf **[<img src=images/Sketcher_ConstrainSymmetric.svg style="width:16px"> [[Sketcher_ConstrainSymmetric/de|
-Beschränke Symmetrisch]]** oder wähle den Menüpunkt Symmetrisch beschränken aus dem Untermenü Skizzierer Beschränkungen des Menübefehls Skizzierer (oder Part Design).
-
-Dadurch wird die Beschränkung auf die ausgewählten Elemente angewendet.
-
-<img alt="" src=images/SymmetricConstraint3.png  style="width:500px;">
+Siehe auch: [Zeichnungshilfen](Sketcher_Workbench/de#Zeichnungshilfen.md).
 
 
-**Note:**
 
-Vor Version 0.19 (siehe Fix [1](https://github.com/FreeCAD/FreeCAD/pull/3746)), wenn du eine Symmetriebeschränkung in Bezug auf einen Punkt definieren willst, ist die Reihenfolge der Auswahl wichtig, je nachdem, ob du das Werkzeug am Anfang oder am Ende auswählst.
+### [Fortsetzen-Modus](Sketcher_Workbench/de#Fortsetzen-Modi.md) 
 
--   Wenn du das Werkzeug zuerst anklickst: Wähle den ersten Punkt, dann den Symmetriereferenzpunkt und schließlich den zweiten Punkt.
--   Wenn du zuletzt auf das Werkzeug klickst: Wähle den ersten Punkt, dann den zweiten Punkt und zuletzt den Symmetriereferenzpunkt.
+1.  Make sure there is no selection.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> [Constrain symmetric](Sketcher_ConstrainSymmetric.md)** button.
 
-Siehe den Tracker [issue#4144](https://freecadweb.org/tracker/view.php?id=4144) und [forum thread](https://forum.freecadweb.org/viewtopic.php?f=3&t=39611).
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Constrain symmetric** option from the menu.
+
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **Constrain → <img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Constrain symmetric** option from the context menu.
+
+    -   Use the keyboard shortcut: **S**.
+3.  The cursor changes to a cross with the tool icon.
+4.  Do one of the following:
+    -   Select two points and a symmetry point (in that order).
+    -   Select two points and a symmetry line (idem).
+    -   Select a point, a symmetry line and another point (idem).
+    -   Select a line and a symmetry point (idem).
+5.  A constraint is added.
+6.  Optionally keep creating constraints.
+7.  To finish, right-click or press **Esc**, or start another geometry or constraint creation tool.
+
+
+
+### Einmal-Ausführen-Modus 
+
+1.  Do one of the following:
+    -   Select two points and a symmetry point (in that order).
+    -   Select two points and a symmetry line (in any order).
+    -   Select a line and a symmetry point (idem).
+2.  Invoke the tool as explained above, or with the following additional option:
+    -   
+        <small>(v1.0)</small> 
+        
+        : Right-click in the [3D view](3D_view.md) and select the **<img src="images/Sketcher_ConstrainSymmetric.svg" width=16px> Constrain symmetric** option from the context menu.
+3.  A constraint is added.
+
+
+
+## Hinweise
+
+-   Die Pfeile dieser Randbedingung zeigen die Farbe der maßeichen Randbedingungen.
+
+
 
 ## Skripten
 

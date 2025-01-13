@@ -9,9 +9,13 @@
 
 # Fasteners ChangeParameters/ru
 
+
+
 ## Описание
 
 The <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:24px;"> **Fasteners ChangeParameters** command can be used to change the parameters of fasteners.
+
+
 
 ## Применение
 
@@ -27,14 +31,17 @@ The <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:24px;"> 
 6.  Leave the **Set length** check box unchecked. This option currently does not work.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Fasteners Tools navi
 
-}}
+
+</div>
+
+{{Fasteners_Tools_navi}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ChangeParameters/ru
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners ChangeParameters/ru

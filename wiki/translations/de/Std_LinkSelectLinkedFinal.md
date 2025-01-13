@@ -33,7 +33,7 @@ Der Befehl **Std ZumLetztenVerknüpftenObjektGehen** wählt die {{PropertyData/d
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

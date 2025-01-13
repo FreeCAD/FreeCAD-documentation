@@ -27,7 +27,7 @@ Obecnie polecenie wskazuje na stronę [<https://wiki.freecad.org/Frequently_aske
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

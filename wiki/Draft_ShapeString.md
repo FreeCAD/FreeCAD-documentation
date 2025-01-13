@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft ShapeString
-   MenuLocation: Drafting , Shape from text
-   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Drafting , Shape from text<br>Annotation , Shape from text
+   Workbenches: Draft_Workbench, BIM_Workbench
    Shortcut: 
    Version: 0.14
    SeeAlso: Draft_Text, Draft_Label, Part_Extrude
@@ -25,7 +25,8 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_ShapeString.svg" width=16px> [Shape from text](Draft_ShapeString.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
+    -   [Draft](Draft_Workbench.md): Select the **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
+    -   [BIM](BIM_Workbench.md): Select the **Annotation → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
 2.  The **ShapeString** task panel opens.
 3.  Click a point in the [3D view](3D_view.md), or type coordinates.
 4.  Optionally press the **Reset Point** button to reset the point to the origin.
@@ -41,15 +42,20 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 
 -   Press **Esc** or the **Cancel** button to abort the command.
 
-## Notes
+## Relative font path 
 
--   A Draft ShapeString can be edited by double-clicking it in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
--   Supported fonts include TrueType (**.ttf**), OpenType (**.otf**) and Type 1 (**.pfb**).
--   The command is restricted to left-to-right text. Right-to-left and top-to-bottom text are not supported.
--   Very small text heights may result in deformed character shapes due to loss of detail in scaling.
--   Fonts can generate problematic geometry. This is because font contours are allowed to overlap and have small gaps. These conditions are considered errors in wires used to define faces.
--   Draft ShapeStrings can also be created with the [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP.md).
--   To create Draft ShapeStrings arranged in a circular fashion use the [Macro FCCircularText](Macro_FCCircularText.md).
+
+<small>(v1.1)</small> 
+
+It is possible to specify a relative path for the font file. For this the FreeCAD document must have been saved at least once.
+
+Some examples:
+
+-    **./SomeFont.ttf**: The font file is in the same directory as the document.
+
+-    **./MyDirectory/SomeFont.ttf**: The font file is in the **MyDirectory** sub-directory of the document directory.
+
+-    **../SomeFont.ttf**: The font file is in the parent directory of the document directory.
 
 ## Font file selection on Windows 
 
@@ -63,6 +69,16 @@ Pressing the **...** button and then selecting a file from the default Windows f
 -   Create a custom folder for your font files.
 
 See the [Preferences](#Preferences.md) paragraph below for the location of the mentioned preferences.
+
+## Notes
+
+-   A Draft ShapeString can be edited by double-clicking it in the [Tree view](Tree_view.md).
+-   Supported fonts include TrueType (**.ttf**), OpenType (**.otf**) and Type 1 (**.pfb**).
+-   The command is restricted to left-to-right text. Right-to-left and top-to-bottom text are not supported.
+-   Very small text heights may result in deformed character shapes due to loss of detail in scaling.
+-   Fonts can generate problematic geometry. This is because font contours are allowed to overlap and have small gaps. These conditions are considered errors in wires used to define faces.
+-   Draft ShapeStrings can also be created with the [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP.md).
+-   To create Draft ShapeStrings arranged in a circular fashion use the [Macro FCCircularText](Macro_FCCircularText.md).
 
 ## Tutorials
 
@@ -91,25 +107,25 @@ A Draft ShapeString object is derived from a [Part Part2DObject](Part_Part2DObje
 
 -    **Font File|File**: Font file name.
 
--    **Fuse|Bool**: Fuse faces if faces overlap, usually not required (can be very slow). Ignored if **Make Face** is `False`. <small>(v0.22)</small> 
+-    **Fuse|Bool**: Fuse faces if faces overlap, usually not required (can be very slow). Ignored if **Make Face** is `False`. <small>(v1.0)</small> 
 
--    **Justification|Enumeration**: Horizontal and vertical alignment. Options: {{value|Top-Left}}, {{value|Top-Center}}, {{value|Top-Right}}, {{value|Middle-Left}}, {{value|Middle-Center}}, {{value|Middle-Right}}, {{value|Bottom-Left}}, {{value|Bottom-Center}}, {{value|Bottom-Right}}. <small>(v0.22)</small> 
+-    **Justification|Enumeration**: Horizontal and vertical alignment. Options: {{value|Top-Left}}, {{value|Top-Center}}, {{value|Top-Right}}, {{value|Middle-Left}}, {{value|Middle-Center}}, {{value|Middle-Right}}, {{value|Bottom-Left}}, {{value|Bottom-Center}}, {{value|Bottom-Right}}. <small>(v1.0)</small> 
 
--    **Justification Reference|Enumeration**: Height reference used for justification. Options: {{value|Cap Height}}, {{value|Shape Height}}. The shape height depends on the characters in **String**. <small>(v0.22)</small> 
+-    **Justification Reference|Enumeration**: Height reference used for justification. Options: {{value|Cap Height}}, {{value|Shape Height}}. The shape height depends on the characters in **String**. <small>(v1.0)</small> 
 
--    **Keep Left Margin|Bool**: Keep left margin and leading white space when justification is left. <small>(v0.22)</small> 
+-    **Keep Left Margin|Bool**: Keep left margin and leading white space when justification is left. <small>(v1.0)</small> 
 
 -    **Make Face|Bool**: Fill letters with faces.
 
--    **Oblique Angle|Angle**: Oblique (slant) angle. Must be in the -80° to +80° range. <small>(v0.22)</small> 
+-    **Oblique Angle|Angle**: Oblique (slant) angle. Must be in the -80° to +80° range. <small>(v1.0)</small> 
 
--    **Scale To Size|Bool**: Scale to ensure cap height is equal to size. If set to `False`, depending on the font, cap height will not match **Size** exactly. <small>(v0.22)</small> 
+-    **Scale To Size|Bool**: Scale to ensure cap height is equal to size. If set to `False`, depending on the font, cap height will not match **Size** exactly. <small>(v1.0)</small> 
 
 -    **Size|Length**: Height of text.
 
 -    **String|String**: Text string. A ShapeString can only display a single text line.
 
--    **Tracking|Distance**: Inter-character spacing. The property type has been updated (<small>(v0.22)</small> ).
+-    **Tracking|Distance**: Inter-character spacing. <small>(v1.0)</small> : The property type has been updated.
 
  <img alt="" src=images/Draft_ShapeString_Justification.png  style="width:200px;">  
 *The height of the red rectangle (solid line) is equal to the cap height.<br>

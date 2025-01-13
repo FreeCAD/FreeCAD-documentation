@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -23,6 +25,8 @@
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -45,7 +49,15 @@
 
 ## Example
 
+
+<div class="mw-translate-fuzzy">
+
+## Example 
+
 Următoarele trei imagini prezintă același model cu un buzunar definit pe o schiță atașată la planul de referință. Caracteristicile sunt reordonate de la o imagine la cealaltă. Acest lucru are ca efect faptul că buzunarul face fie fără gaură, fie să facă găuri în diferite bosaje, în funcție de ordinea caracteristicilor din arborele modelului.
+
+
+</div>
 
 ![](images/PD_move_feature0.png ) ![](images/Hole_Pad002.png ) ![](images/PD_move_feature2.png )
 

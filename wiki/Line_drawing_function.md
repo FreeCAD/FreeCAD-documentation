@@ -97,7 +97,7 @@ Note that there is also an alternative to `addEventCallbackPivy()` called `addEv
 def getpoint(self, event_cb):
 ```
 
-Now we define the `getpoint()` function that will be executed when a mouse button is pressed in a 3D view. This function will receive an argument that we will call `event_cb`. From this event callback we can access the event object, which contains several pieces of information (more info [here](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)).
+Now we define the `getpoint()` function that will be executed when a mouse button is pressed in a 3D view. This function will receive an argument that we will call `event_cb`. From this event callback we can access the event object, which contains several pieces of information (more info [here](Code_snippets#Observe_mouse_events_in_the_3D_viewer_via_Python.md)).
 
  
 ```python

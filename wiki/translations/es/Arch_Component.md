@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -22,6 +24,8 @@ Crea un componente no paramétrico [ Arch](Arch_Workbench/es.md) de cualquier ob
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -40,7 +44,7 @@ Crea un componente no paramétrico [ Arch](Arch_Workbench/es.md) de cualquier ob
 
 </div>
 
-## Propiedades de componentes Arch comunes 
+## Properties
 
 
 <div class="mw-translate-fuzzy">
@@ -49,6 +53,21 @@ El objeto del Arch componente es también una base compartida por todos los dem�
 
 
 </div>
+
+### Data
+
+
+{{TitleProperty|Component}}
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Adiciones**: los componentes de Arch tienen una propiedad de adición, que puede contener referencia a cualquier cantidad de otros objetos basados en [ Forma](Part_Workbench/es.md). La forma de estas adiciones se unirá con la forma de base del componente, para producir la forma final.
+
+
+</div>
+
+-    **Axis|Link**: An optional axis or axis system on which this object should be duplicated.
 
 
 <div class="mw-translate-fuzzy">
@@ -61,10 +80,42 @@ El objeto del Arch componente es también una base compartida por todos los dem�
 
 <div class="mw-translate-fuzzy">
 
--   **Adiciones**: los componentes de Arch tienen una propiedad de adición, que puede contener referencia a cualquier cantidad de otros objetos basados en [ Forma](Part_Workbench/es.md). La forma de estas adiciones se unirá con la forma de base del componente, para producir la forma final.
+-   **Clon de**: cualquier componente de Arch puede ser un clon de otro componente de Arch del mismo tipo (un muro solo puede ser un clon de otro muro, etc.). La única excepción es el Componente Arch genérico (como lo produce este comando), que puede clonarse de cualquier otro tipo (Muro, estructura, ventana, etc.). Esto permite usar un Componente Arch genérico para sobreescribir el tipo de otro.
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Hi Res**: Arch Components puede usar la forma de otro objeto como una versión de mayor resolución de ellos mismos. Para esto, se deben configurar tanto la propiedad de alta resolución como el modo de visualización de alta resolución. Esto permite, por ejemplo, hacer un muro simple y luego modelar cada ladrillo que compone el muro, por ejemplo con [ Part Box](Part_Box.md). Luego, usa un compond de esos ladrillos como una versión de alta resolución de la pared. La forma de la pared no se modifica agregando un objeto de alta resolución. Solo su representación en la vista 3D cambiará al adoptar la representación de la versión de alta resolución en lugar de la propia.
+
+
+</div>
+
+-    **Horizontal Area|Area**: The area of the projection of this object onto the XY plane (read-only).
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Material**: todos los componentes de Arch tienen una ranura de material, que puede contener un [ Material](Arch_SetMaterial.md) o un [ MultiMaterial](Arch_MultiMaterial.md) (no todos los tipos de objetos Arch admiten el uso MutiMateriales). Las propiedades DiffuseColor y Transparencia del material adjunto definirán el color de la forma y la transparencia del componente Arch. El material se importará y exportará a [ IFC](Arch_IFC.md), [ OBJ](Arch_OBJ.md) y [ DAE](Arch_DAE.md).
+
+
+</div>
+
+-    **Move Base|Bool**: Specifies if moving this object moves its base instead.
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Move with Host**: cuando un componente está incrustado en otro (como una ventana dentro de un muro), al establecer esta propiedad en Verdadero, el objeto se mueve o gira con su objeto host cuando se mueve el objeto host o girado con los controles Mover o Girar borrador.
+
+
+</div>
+
+-    **Perimeter Length|Length**: The perimeter length of the horizontal area (read-only).
+
+-    **Standard Code|String**: An optional standard (OmniClass, etc\...) code for this component.
 
 
 <div class="mw-translate-fuzzy">
@@ -73,6 +124,50 @@ El objeto del Arch componente es también una base compartida por todos los dem�
 
 
 </div>
+
+-    **Vertical Area|Area**: The area of all vertical faces of this object (read-only).
+
+
+{{TitleProperty|IFC}}
+
+-    **Ifc Data|Map|Hidden**:
+
+-    **Ifc Properties|Map|Hidden**:
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Role**: Each Arch Component, besides the function defined by its type (wall, window, etc), also has a Role property, that can define further which kind of function it performs. For example, an [Structure](Arch_Structure.md) can have a beam o column role. Generic Arch Components (as produced by this command) can have any role available in the whole Arch workbench. The role is what is used to define the type of IFC object to export to when [exporting to IFC](Arch_IFC.md).
+
+
+</div>
+
+
+{{TitleProperty|IFC Attributes}}
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Description**: All Arch Components have a Description field, that can contain any text. This is used when [exporting to IFC](Arch_IFC.md).
+
+
+</div>
+
+-    **Global Id|String**:
+
+-    **Object Type|String**:
+
+-    **Predefined Type|Enumeration**:
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Etiqueta**: la propiedad Etiqueta es otro campo de texto, que se puede usar para dar una identidad personalizada adicional a los objetos.
+
+
+</div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">
@@ -91,56 +186,14 @@ El objeto del Arch componente es también una base compartida por todos los dem�
 </div>
 
 
-<div class="mw-translate-fuzzy">
-
--   **Role**: Each Arch Component, besides the function defined by its type (wall, window, etc), also has a Role property, that can define further which kind of function it performs. For example, an [Structure](Arch_Structure.md) can have a beam o column role. Generic Arch Components (as produced by this command) can have any role available in the whole Arch workbench. The role is what is used to define the type of IFC object to export to when [exporting to IFC](Arch_IFC.md).
 
 
-</div>
 
+{{BIM_Tools_navi
 
-<div class="mw-translate-fuzzy">
-
--   **Clon de**: cualquier componente de Arch puede ser un clon de otro componente de Arch del mismo tipo (un muro solo puede ser un clon de otro muro, etc.). La única excepción es el Componente Arch genérico (como lo produce este comando), que puede clonarse de cualquier otro tipo (Muro, estructura, ventana, etc.). Esto permite usar un Componente Arch genérico para sobreescribir el tipo de otro.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Description**: All Arch Components have a Description field, that can contain any text. This is used when [exporting to IFC](Arch_IFC.md).
-
-
-</div>
-
--   **Etiqueta**: la propiedad Etiqueta es otro campo de texto, que se puede usar para dar una identidad personalizada adicional a los objetos.
-
-
-<div class="mw-translate-fuzzy">
-
--   **Material**: todos los componentes de Arch tienen una ranura de material, que puede contener un [ Material](Arch_SetMaterial.md) o un [ MultiMaterial](Arch_MultiMaterial.md) (no todos los tipos de objetos Arch admiten el uso MutiMateriales). Las propiedades DiffuseColor y Transparencia del material adjunto definirán el color de la forma y la transparencia del componente Arch. El material se importará y exportará a [ IFC](Arch_IFC.md), [ OBJ](Arch_OBJ.md) y [ DAE](Arch_DAE.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Move with Host**: cuando un componente está incrustado en otro (como una ventana dentro de un muro), al establecer esta propiedad en Verdadero, el objeto se mueve o gira con su objeto host cuando se mueve el objeto host o girado con los controles Mover o Girar borrador.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Hi Res**: Arch Components puede usar la forma de otro objeto como una versión de mayor resolución de ellos mismos. Para esto, se deben configurar tanto la propiedad de alta resolución como el modo de visualización de alta resolución. Esto permite, por ejemplo, hacer un muro simple y luego modelar cada ladrillo que compone el muro, por ejemplo con [ Part Box](Part_Box.md). Luego, usa un compond de esos ladrillos como una versión de alta resolución de la pared. La forma de la pared no se modifica agregando un objeto de alta resolución. Solo su representación en la vista 3D cambiará al adoptar la representación de la versión de alta resolución en lugar de la propia.
-
-
-</div>
+}}
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/es
+⏵ [documentation index](../README.md) > Arch Component/es

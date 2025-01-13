@@ -39,7 +39,7 @@ Kolejność układania można zmienić w skryptach poprzez zmianę właściwośc
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

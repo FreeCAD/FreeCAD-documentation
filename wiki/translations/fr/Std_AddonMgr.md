@@ -20,10 +20,10 @@ En raison des modifications apportées à la plateforme GitHub en 2020, le gesti
 
 ## Utilisation
 
-1.  Sélectionnez l\'option **Outils → <img src="images/Std_AddonMgr.svg" width=16px> Gestionnaire des extensions** dans le menu.
-2.  Si vous utilisez le gestionnaire des extensions pour la première fois, une boîte de dialogue s\'ouvre pour vous avertir que les extensions du gestionnaire des extensions ne font pas officiellement partie de FreeCAD. Elle présente également plusieurs options relatives à l\'utilisation des données du gestionnaire des extensions. Réglez ces options à votre convenance et appuyez sur le bouton **OK** pour confirmer et continuer.
-3.  La boîte de dialogue du gestionnaire des extensions s\'ouvre. Pour plus d\'informations, voir [Options](#Options.md).
-4.  Si vous avez installé ou mis à jour un atelier, une nouvelle boîte de dialogue s\'ouvre pour vous informer que vous devez redémarrer FreeCAD pour que les modifications soient prises en compte.
+1.  Sélectionnez l\'option **Outils → <img src="images/Std_AddonMgr.svg" width=16px> Gestionnaire des extensions** du menu.
+2.  Si vous utilisez le gestionnaire des extensions pour la première fois, une fenêtre de dialogue s\'ouvre pour vous avertir que les extensions du gestionnaire des extensions ne font pas officiellement partie de FreeCAD. Elle présente également plusieurs options relatives à l\'utilisation des données du gestionnaire des extensions. Réglez ces options à votre convenance et appuyez sur le bouton **OK** pour confirmer et continuer.
+3.  La fenêtre de dialogue du gestionnaire des extensions s\'ouvre. Pour plus d\'informations, voir [Options](#Options.md).
+4.  Si vous avez installé ou mis à jour un atelier, une nouvelle fenêtre de dialogue s\'ouvre pour vous informer que vous devez redémarrer FreeCAD pour que les modifications soient prises en compte.
 
 ## Options
 
@@ -49,6 +49,17 @@ La page de détails présente des boutons permettant d\'installer, de désinstal
 ## Préférences
 
 Les préférences du gestionnaire des extensions se trouvent dans [Réglage des préférences](Preferences_Editor/fr#Gestionnaire_des_extensions.md). {{Version/fr|0.20}}
+
+
+
+## Tri par score 
+
+
+{{Version/fr|1.0}}
+
+Le gestionnaire des extensions permet de trier les extensions en fonction d\'un certain nombre de critères. La plupart d\'entre eux sont téléchargés directement à partir des serveurs de FreeCAD (qui les met en cache à partir de GitHub et du wiki FreeCAD), mais l\'un d\'entre eux, le \"Score\", n\'est pas du tout fourni par FreeCAD, et n\'apparaît comme une option que si le paramètre URL des scores est fourni dans les préférences.
+
+L\'URL du score est un chemin d\'accès à un document distant au format JSON répertoriant les extensions et un certain \"score\". Le score peut être calculé de la manière souhaitée par le fournisseur de données, mais il doit s\'agir d\'une valeur entière, les scores les plus élevés étant \"meilleurs\" dans un certain sens. Toute extension non répertoriée se voit attribuer un score de zéro en interne. Le format du fichier est un dictionnaire JSON unique dont la clé est l\'URL de l\'extension (pour les ateliers et les kits de préférences) ou le nom de la macro (pour les macros). Voir [cette source de données](https://gist.githubusercontent.com/chennes/e8f60e80f16e6ffbd057dd47ca36ad2a/raw/7b118cca8e84444c3379919bbd744b99e6ef6711/addon_score_for_testing.json) pour un exemple (notez que le score correspond simplement à la longueur de la description de l\'extension et qu\'il n\'est destiné qu\'à des fins de test et de démonstration).
 
 
 
@@ -138,7 +149,7 @@ Définissez ensuite les fonctions {{Incode|installation_succeded}} et {{Incode|i
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -7,9 +7,9 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 ### src/Mod/Material/Gui/Resources/Icons/
 
-![](images/preview-rendered.svg ) ![](images/preview-vector.svg )
+<img alt="" src=images/List.svg  style="width:64px;"> <img alt="" src=images/Materials_Edit.svg  style="width:64px;"> <img alt="" src=images/MaterialWorkbench.svg  style="width:64px;"> <img alt="" src=images/Multiline.svg  style="width:64px;"> <img alt="" src=images/Preferences-material.svg  style="width:64px;"> <img alt="" src=images/Preview-rendered.svg  style="width:64px;"> <img alt="" src=images/Preview-vector.svg  style="width:64px;"> <img alt="" src=images/Table.svg  style="width:64px;">
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Material/fr
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Material](Category_Material.md) > Artwork Material/fr

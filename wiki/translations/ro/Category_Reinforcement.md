@@ -1,13 +1,13 @@
 # Category:Reinforcement/ro
-
+This category is for pages related to the [Reinforcement Workbench/ro](Reinforcement_Workbench/ro.md).
 
 ### Contents
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch Rebar BentShape/ro](Arch_Rebar_BentShape/ro.md) | [Arch Rebar Helical/ro](Arch_Rebar_Helical/ro.md) | [Arch Rebar LShape/ro](Arch_Rebar_LShape/ro.md) |
-| [Arch Rebar Stirrup/ro](Arch_Rebar_Stirrup/ro.md) | [Arch Rebar Straight/ro](Arch_Rebar_Straight/ro.md) | [Arch Rebar UShape/ro](Arch_Rebar_UShape/ro.md) |
-| [Arch Rebar/ro](Arch_Rebar/ro.md) | [Custom Spacing/ro](Custom_Spacing/ro.md) |
+| [Arch Rebar/ro](Arch_Rebar/ro.md) | [Reinforcement BentShapeRebar/ro](Reinforcement_BentShapeRebar/ro.md) | [Reinforcement Custom Spacing/ro](Reinforcement_Custom_Spacing/ro.md) |
+| [Reinforcement HelicalRebar/ro](Reinforcement_HelicalRebar/ro.md) | [Reinforcement LShapeRebar/ro](Reinforcement_LShapeRebar/ro.md) | [Reinforcement StirrupRebar/ro](Reinforcement_StirrupRebar/ro.md) |
+| [Reinforcement StraightRebar/ro](Reinforcement_StraightRebar/ro.md) | [Reinforcement UShapeRebar/ro](Reinforcement_UShapeRebar/ro.md) |
 
 
 

@@ -3,7 +3,7 @@
    Name: Draft PolarArray
    Name/fr: Draft Réseau circulaire
    MenuLocation: Modification , Outils pour les réseaux , Réseau circulaire
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   Workbenches: Draft_Workbench/fr
    Version: 0.19
    SeeAlso: Draft_OrthoArray/fr, Draft_PolarArray/fr, Draft_PathArray/fr, Draft_PathLinkArray/fr, Draft_PointArray/fr, Draft_PointLinkArray/fr
 ---
@@ -14,7 +14,7 @@
 
 La commande <img alt="" src=images/Draft_CircularArray.svg  style="width:24px;"> **Draft Réseau circulaire** crée un réseau à partir d\'un objet sélectionné en plaçant des copies le long de circonférences concentriques. La commande peut éventuellement créer un réseau [Link](App_Link/fr.md), plus efficace qu\'un réseau normal.
 
-Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
+Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier BIM](BIM_Workbench/fr.md).
 
 <img alt="" src=images/Draft_CircularArray_example.png  style="width:400px;"> 
 *Un Draft réseau circulaire*

@@ -15,7 +15,13 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Обращает (переворачивает) нормали всех граней, выбранного объекта.
+
+
+</div>
 
 
 
@@ -42,9 +48,24 @@
 
 ## Свойства
 
+See also: [Property editor](Property_editor.md).
+
+A Part ReverseShape object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional property:
+
+### Data
 
 
-## Программирование
+{{TitleProperty|Reverse}}
+
+-    **Source|Link**: specifies the linked source shape.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

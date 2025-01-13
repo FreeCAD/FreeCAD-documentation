@@ -9,6 +9,11 @@
 
 <img alt="El icono del Ambiente de trabajo OpenSCAD" src=images/Workbench_OpenSCAD.svg  style="width:128px;">
 
+
+
+
+
+
 ## Introducción
 
 El <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [Ambiente de trabajo OpenSCAD](OpenSCAD_Workbench/es.md) tiene como objetivo ofrecer interoperabilidad con el software de código abierto [OpenSCAD](http://www.openscad.org/). Este programa no se distribuye como parte de FreeCAD, pero debe ser instalado para hacer uso completo de este banco de trabajo. No se debe confundir OpenSCAD con [OpenCASCADE](OpenCASCADE/es.md), que es el núcleo geométrico que FreeCAD utiliza para construir la geometría en la pantalla. Las bibliotecas de OpenCASCADE siempre son necesarias para usar FreeCAD, mientras que el ejecutable de OpenSCAD es totalmente opcional.
@@ -17,10 +22,9 @@ Contiene un [importador](OpenSCAD_CSG/es.md) que permite abrir los archivos CSG 
 
 Este ambiente de trabajo contiene funciones para modificar el árbol de características CSG y reparar modelos. También contiene herramientas de propósito general que no requieren la instalación de OpenSCAD; se pueden utilizar junto con otros ambientes de trabajo. Por ejemplo, el [ambiente de trabajo Mesh](Mesh_Workbench/es.md) utiliza internamente las funciones de OpenSCAD para realizar operaciones con [meshes](mesh/es.md), ya que son bastante robustas.
 
-
-
-
 ![](images/OpenSCADexamaple1.png )
+
+
 
 ## Dependencias
 
@@ -47,11 +51,18 @@ La instalación general en todas las plataformas se puede hacer desde el índice
 pip3 install --user ply
 ```
 
+
+
 ## OpenSCAD lenguaje y formato de archivo 
 
 El lenguaje de OpenSCAD permite la utilización de variables y bucles. Permite especificar submódulos para reutilizar geometría y código. Esta alto grado de flexibilidad hace el análisis sintáctico muy complejo. Actualmente el módulo OpenSCAD en FreeCAD no puede manejar el lenguaje de OpenSCAD de forma nativa. En cambio si OpenSCAD está instalado, se puede utilizar para convertir la entrada en un formato de salida denominado \'CSG\'. Es un subconjunto del lenguaje OpenSCAD y se puede utilizar como la entrada de OpenSCAD para su procesamiento posterior. Durante la conversión todo el comportamiento paramétrico se pierde. Todos los nombres de variables serán desechados, los bucles expandidos y las expresiones matemáticas evaluadas.
 
+
+
 ## Herramientas
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/OpenSCAD_ColorCodeShape.svg  style="width:32px;"> [ColorCodeShape](OpenSCAD_ColorCodeShape/es.md): Cambia el color de la selección o todas las formas basadas en su validez
 -   <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width:32px;"> [Reemplazar objeto](OpenSCAD_ReplaceObject/es.md): Reemplaza una objeto en el árbol de operaciones. Por favor, selecciona los objetos antiguos, nuevos y padres
@@ -70,6 +81,11 @@ El lenguaje de OpenSCAD permite la utilización de variables y bucles. Permite e
 -   <img alt="" src=images/OpenSCAD_MeshBoolean.svg  style="width:32px;"> [Mesh Booleana](OpenSCAD_MeshBoolean.md): Crea un nuevo objeto de malla mediante una operación booleana a partir de formas.
 -   <img alt="" src=images/OpenSCAD_Hull.svg  style="width:32px;"> [Casco](OpenSCAD_Hull/es.md): Aplica un casco a las formas seleccionadas.
 -   <img alt="" src=images/OpenSCAD_Minkowski.svg  style="width:32px;"> [Minkowski](OpenSCAD_Minkowski/es.md): Aplica una suma de minkowski a las formas seleccionadas.
+
+
+</div>
+
+
 
 ## Preferencias
 
@@ -116,15 +132,21 @@ The {{Incode|<nowiki>script="Latn"</nowiki>}} parameter can be left out here, bu
 
 Please note that {{Incode|<nowiki>use <FONT>;</nowiki>}} statements in your source files are ignored when importing in FreeCAD. Under OpenSCAD the effect of a {{Incode|use}} statement is that the provided font file is temporarily added to the list of known fonts (although even there the statement does not work when a script is modified interactively).
 
+
+
 ## Pistas
 
 Cuando se importa [DXF](DXF/es.md) establecer la precisión Borrador a una cantidad sensible para que afecte a la detección de aristas conectadas.
 
 Si FreeCAD se cuelga importando CSG, es muy recomendable activar *automáticamente comprobar el modelo después de una operación booleana* en **Menú → Editar → Preferencias → DiseñoPiezas → Configuración del modelo**
 
+
+
 ## Tutoriales
 
 -   [Importar código OpenSCAD](Import_OpenSCAD_code/es.md)
+
+
 
 ## Enlaces
 

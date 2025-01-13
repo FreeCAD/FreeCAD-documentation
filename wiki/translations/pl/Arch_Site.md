@@ -1,118 +1,137 @@
 ---
  GuiCommand:
    Name: Arch Site
-   Workbenches: Arch_Workbench
-   MenuLocation: Arch , Site
+   Name/pl: Architektura: Teren
+   MenuLocation: 3D / BIM , Teren
+   Workbenches: Arch_Workbench/pl
    Shortcut: **S** **I**
-   SeeAlso: Arch_Floor, Arch_Building
+   SeeAlso: 
 ---
 
 # Arch Site/pl
 
-## Description
 
-The Arch Site is a special object that combines properties of a standard FreeCAD group object and Arch objects. It is particularly suited for representing a whole project site, or terrain. In IFC-based architectural work, it is mostly used to organize your model, by containing [building](Arch_Building.md) objects. The site is also used to manage and display a physical terrain, and can compute volumes of earth to be added or removed.
 
-## Usage
+## Opis
 
-1.  Optionally, select one or more objects to be included in your new site.
-2.  Press the **<img src="images/Arch_Site.svg" width=16px> [Arch Site](Arch_Site.md)** button, or press the **S** then **I** keys.
+**Teren** środowiska Architektura to specjalny obiekt łączący właściwości standardowego obiektu grupy FreeCAD i obiektów Architektury. Jest szczególnie odpowiedni do reprezentowania całego terenu projektowego lub terenu. W pracy architektonicznej opartej na formacie IFC jest głównie używany do organizacji modelu, zawierając w sobie [budynki](Arch_Building/pl.md). Teren jest również wykorzystywany do zarządzania i wyświetlania fizycznego terenu oraz może obliczać objętości ziemi do dodania lub usunięcia.
 
-## Options
 
--   After creating a site, you can add objects to it by drag and dropping them in the [Tree view](Tree_view.md) or by using the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool. This only determines which objects are part of the given site, and has no effect on the terrain.
--   You can remove objects from a site by drag and dropping them out of it in the [Tree view](Tree_view.md) or by using the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
--   You can add a terrain object by editing the Site\'s **Terrain** property. The terrain can be an open shell or (<small>(v0.21)</small> ) a solid.
--   You can add volumes to be added or subtracted from the base terrain, by double-clicking the Site, and adding objects to its Additions or Subtractions groups. The objects must be solids.
--   The **Extrusion Vector** property can be used to solve some problems that can appear when the terrain is an open shell and there are additions and/or subtractions. In order to perform those additions/subtractions, the open shell is extruded into a solid, which is then appropriately unioned/subtracted. Depending on the terrain topology, this extrusion might fail with the default extrusion vector. You might then be able to remedy the problem by changing this to a different value. This property is ignored if the terrain is a solid.
 
-## Properties
+## Użycie
 
-### Data
+1.  Opcjonalnie wybierz jeden lub więcej obiektów, które mają być zawarte w nowym terenie.
+2.  Naciśnij przycisk **<img src="images/Arch_Site.svg" width=16px> '''Teren'''** lub naciśnij klawisze **S**, a następnie **I**.
 
--    **Terrain**: The base terrain of this site
 
--    **Address**: The street and housenumber of this site
 
--    **Postal Code**: The postal or zip code of this site
+## Opcje
 
--    **City**: The city of this site
+-   Po utworzeniu terenu możesz dodać do niego obiekty, przeciągając je i upuszczając w widoku drzewa lub korzystając z przycisku **<img src="images/Arch_Add.svg" width=16px> [Połącz obiekty](Arch_Add/pl.md)**. To określa jedynie, które obiekty są częścią danego terenu, i nie ma wpływu na teren właściwy.
+-   Możesz usunąć obiekty z terenu, przeciągając je i upuszczając poza niego w widoku drzewa lub korzystając z przycisku **<img src="images/Arch_Remove.svg" width=16px> [Usuń komponent](Arch_Remove/pl.md)**.
+-   Możesz dodać obiekt terenu, edytując właściwość **Ukształtowanie terenu** obiektu terenu. Teren może być otwartą powłoką lub bryłą *({{Version/pl|0.21}})*.
+-   Możesz dodać objętości do dodania lub odjęcia od podstawowego terenu, dwukrotnie klikając w teren, a następnie dodając obiekty do grup Dodawania lub Odejmowania. Obiekty muszą być bryłami.
+-   Właściwość **wektor wyciągnięcia** może być używana do rozwiązania problemów, które mogą pojawić się, gdy teren jest otwartą powłoką, a są dodawane i / lub odejmowane elementy składowe obiektu. Aby wykonać te dodatki / odejmowania, otwarta powłoka jest wyciągana w bryłę, która jest następnie odpowiednio modyfikowana. W zależności od topologii terenu, ta ekstruzja może nie powieść się przy domyślnym wektorze ekstruzji. W takim przypadku można spróbować rozwiązać problem, zmieniając ten wektor na inny. Ta właściwość jest ignorowana, jeśli teren jest bryłą.
 
--    **Country**: The country of this site
 
--    **Latitude**: The latitude of this site
 
--    **Longitude**: The longitude of this site
+## Właściwości
 
--    **Url**: An url that shows this site in a mapping website
 
--    **Projected Area**: The area of the projection of this object onto the XY plane
 
--    **Perimeter**: The perimeter length of this terrain
+### Dane
 
--    **Addition Volume**: The volume of earth to be added to this terrain
+-    **Teren**: Podstawowy teren tego obiektu ukształtowania terenu.
 
--    **Subtraction Volume**: The volume of earth to be removed from this terrain
+-    **Adres**: Ulica i numer domu tego terenu.
 
--    **Extrusion Vector**: An extrusion vector to use when performing boolean operations
+-    **Kod pocztowy**: Kod pocztowy tego terenu.
 
--    **Remove Splitter**: Remove splitters from the resulting shape
+-    **Miasto**: Miasto tego terenu.
 
--    **Declination**: The angle between the true North and the North direction in this document, that is, the Y axis. This means that by default North points to the Y axis, and East to the X axis; the angle increments counterclockwise. This property was previously known as **North Deviation**.
+-    **Kraj**: Kraj tego terenu.
 
--    **EPW File**: Allow to attach an EPW file from the [Ladybug EPW data website](https://www.ladybug.tools/epwmap/) to this site. This is needed to display wind rose diagrams
+-    **Szerokość geograficzna**: Szerokość geograficzna tego terenu.
 
-### View
+-    **Długość geograficzna**: Długość geograficzna tego terenu.
 
--    **Solar Diagram**: Shows or hides the solar diagram
+-    **URL**: Adres URL, który pokazuje ten teren na mapie internetowej.
 
--    **Solar Diagram Color**: The color of the solar diagram
+-    **Powierzchnia projekcji**: Powierzchnia rzutu tego obiektu na płaszczyźnie XY.
 
--    **Solar Diagram Position**: The position of the solar diagram
+-    **Obwód**: Długość obwodu tego terenu.
 
--    **Solar Diagram Scale**: The scale of the solar diagram
+-    **Objętość dodatkowa**: Objętość ziemi do dodania do tego terenu.
 
--    **Wind Rose**: Shows or hides the wind rose diagram (requires the **EPW File** data property filled, and the Ladybug Python module installed (see below)
+-    **Objętość odejmowania**: Objętość ziemi do usunięcia z tego terenu.
 
-## Typical workflow 
+-    **Wektor ekstruzji**: Wektor wyciągnięcia do użycia podczas operacji logicznych.
 
-Start by creating an object that represents your terrain. For example, it is easy to import mesh data, that can be turned into a Part Shape from menu **Part → Create Shape from Mesh**. Then, create a Site object, and set its **Terrain** property to the Part we just created:
+-    **Usuń dzielnik**: Usuń dzielniki z wynikowej bryły.
+
+-    **Kąt deklinacji**: Kąt między rzeczywistą Północą a kierunkiem Północy w tym dokumencie, czyli osi Y. Oznacza to, że domyślnie Północ wskazuje na oś Y, a Wschód na oś X. Kąt rośnie w kierunku przeciwnym do ruchu wskazówek zegara. Ta właściwość była wcześniej znana jako **Odchylenie na północ**.
+
+-    **Plik EPW**: Pozwala dołączyć plik EPW z [Strony internetowej danych EPW Ladybug](https://www.ladybug.tools/epwmap/) do tego terenu. Jest to konieczne do wyświetlania diagramów róż wiatru.
+
+
+
+### Widok
+
+-    **Diagram Słoneczny**: Pokazuje lub ukrywa diagram słoneczny.
+
+-    **Kolor Diagramu Słonecznego**: Kolor diagramu słonecznego.
+
+-    **Pozycja Diagramu Słonecznego**: Pozycja diagramu słonecznego.
+
+-    **Skala Diagramu Słonecznego**: Skala diagramu słonecznego.
+
+-    **Róża Wiatrów**: Pokazuje lub ukrywa diagram róży wiatrów *(wymaga wypełnionej właściwości danych **EPW File** oraz zainstalowanego modułu Python Ladybug - patrz poniżej)*.
+
+
+
+## Typowy przepływ pracy 
+
+Zacznij od stworzenia obiektu reprezentującego teren. Na przykład, można łatwo zaimportować dane siatki, które można przekształcić w kształt środowiska Część, korzystając z menu **Część → Utwórz kształt z siatki**. Następnie, utwórz obiekt typu Teren i ustaw jego właściwość **Ukształtowanie terenu** w stosunku do obiektu Część, którą właśnie utworzyliśmy:
 
 ![](images/Arch_site_example_01.jpg )
 
-Create some volumes (they must be solids) that represent the areas that you wish to be excavated or filled. Double-click the Site object in the Tree View, and add these volumes to the Additions or Subtractions groups. Click OK.
+Utwórz objętości *(wymagane są bryły)* reprezentujące obszary, które mają zostać wykopane lub wypełnione. Kliknij dwukrotnie obiekt Teren w widoku drzewa i dodaj te objętości do grup Dodawanie lub Odejmowanie. Kliknij przycisk OK.
 
 ![](images/Arch_site_example_02.jpg )
 
-The site geometry will be recomputed and the areas, perimeter, and volumes properties recalculated.
+Geometria terenu zostanie ponownie obliczona, a właściwości obszarów, obwodów i objętości zostaną ponownie obliczone.
 
 ![](images/Arch_site_example_03.jpg )
 
-## Solar and wind diagrams 
 
-If [Ladybug](https://www.ladybug.tools/ladybug.html) is installed on your system, [Arch Sites](Arch_Site.md) can display a solar diagram and/or a wind rose. For this, **Longitude**, **Latitude** and **Declination** (previously **North Deviation**) must be correctly set, and **Solar Diagram** or **Wind Rose** set to `True`.
 
-**Note**: If you don\'t have Ladybug, [pysolar](http://pysolar.org/) is still supported to generate solar diagrams, but not wind roses. Pysolar 0.7 or above is required; this version only works with Python 3. If you require this feature with Python 2, you should have Pysolar 0.6 as this is the last version that works with Python 2. However, Ladybug is a much more powerful tool that will probably be used more in the future, so we recommend using it instead of pysolar. Ladybug can be installed simply via [pip](https://github.com/ladybug-tools/ladybug).
+## Wykresy nasłonecznienia i wiatru 
+
+Jeśli [Ladybug](https://www.ladybug.tools/ladybug.html) jest zainstalowany na Twoim systemie, Obiekty typu [teren](Arch_Site/pl.md) mogą wyświetlać diagram słoneczny i / lub różę wiatrów. W tym celu, właściwości **Longitude**, **Latitude** i **Declination** *(wcześniej **North Deviation**)* muszą być poprawnie ustawione, a wartości własciwości **Solar Diagram** lub **Wind Rose** ustawione na {{TRUE/pl}}.
+
+**Uwaga**: Jeśli nie masz ododatku Ladybug, [pysolar](http://pysolar.org/) jest nadal obsługiwany do generowania wykresów słonecznych, ale nie róż wiatrów. Wymagany jest Pysolar 0.7 lub nowszy. Ladybug jest jednak znacznie potężniejszym narzędziem, które prawdopodobnie będzie częściej używane w przyszłości, więc zalecamy używanie go zamiast pysolar. Ladybug można zainstalować poprzez [pip](https://github.com/ladybug-tools/ladybug).
 
 ![](images/Freecad-solar-diagram.jpg )
 
-## Scripting
 
 
-**See also:**
+## Tworzenie skryptów 
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Site tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+**Zobacz również:**
+
+[API: Architektura](Arch_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Teren** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python
 Site = makeSite(objectslist=None, baseobj=None, name="Site")
 ```
 
--   Creates a `Site` object from `objectslist`, which is a list of objects, or `baseobj`, which is a `Shape` or `Terrain`.
+-   Tworzy obiekt `Site` z `objectslist`, który jest listą obiektów, lub `baseobj`, który jest obiektem `Shape` lub `Terrain`.
 
-Example: 
+Przykład: 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -129,11 +148,13 @@ FreeCAD.ActiveDocument.recompute()
 FreeCAD.Gui.ActiveDocument.ActiveView.viewIsometric()
 ```
 
-### Solar diagram 
 
-As long as the `pysolar` module is present, a solar diagram can be added to the site. Set the longitude, latitude and declination angles as appropriate, as well as an adequate scale for the size of your model.
 
-Please note that Pysolar 0.7 or above is required, and this version only works with Python 3.
+### Wykres słoneczny 
+
+Tak długo jak moduł `pysolar` jest obecny, diagram słoneczny może być dodany do terenu. Ustaw odpowiednią długość i szerokość geograficzną oraz kąty deklinacji, a także skalę odpowiednią do rozmiaru modelu.
+
+Należy pamiętać, że wymagany jest Pysolar 0.7 lub nowszy, a ta wersja działa tylko w środowisku Python 3.
 
 
 ```python
@@ -147,15 +168,17 @@ Site.ViewObject.SolarDiagramScale = 10000
 FreeCAD.ActiveDocument.recompute()
 ```
 
-### Solar diagram independent of Site 
 
-A solar diagram can be created with the following function, independently of any site. 
+
+### Wykres słoneczny niezależny od terenu 
+
+Schemat słoneczny można utworzyć za pomocą poniższej funkcji, niezależnie od lokalizacji. 
 ```python
 Node = makeSolarDiagram(longitude, latitude, scale=1, complete=False)
 ```
 
--   Creates a solar diagram as a Pivy node, using `longitude` and `latitude`, with an optional `scale`.
--   If `complete` is `True`, the 12 months are drawn, which shows the full solar [analemma](https://en.wikipedia.org/wiki/Analemma).
+-   Tworzy diagram słoneczny jako węzeł Pivy, używając parametrów `longitude` i `latitude`, z opcjonalną wartością `scale`.
+-   Jeśli własciwość `complete` jest ustawiona na {{True/pl}}, rysowanych jest 12 miesięcy, co pokazuje pełny układ słoneczny [analemma](https://en.wikipedia.org/wiki/Analemma).
 
 
 ```python
@@ -167,5 +190,13 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 
 
 
+
+
+{{BIM_Tools_navi
+
+}}
+
+
+
 ---
-⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/pl
+⏵ [documentation index](../README.md) > Arch Site/pl

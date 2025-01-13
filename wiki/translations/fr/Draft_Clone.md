@@ -3,7 +3,7 @@
    Name: Draft Clone
    Name/fr: Draft Cloner
    MenuLocation: Modification , Cloner
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   Workbenches: Draft_Workbench/fr
    Shortcut: **C** **L**
    SeeAlso: Draft_Scale/fr
 ---
@@ -12,9 +12,9 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> **Draft Cloner** crée des copies liées, des clones, des objets sélectionnés. La forme d\'un clone est paramétrique. Il sera mis à jour si son objet source change. Mais un clone a sa propre position, rotation et échelle, ainsi que ses propres [propriétés de vue](Property_editor/fr.md). Pour les objets [Arch](Arch_Workbench/fr.md), la commande crée un type spécial de clone : un clone Arch.
+La commande <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> **Draft Cloner** crée des copies liées, des clones, des objets sélectionnés. La forme d\'un clone est paramétrique. Elle sera mise à jour si son objet source change. Un clone a sa propre position, rotation et échelle, ainsi que ses propres [propriétés de vue](Property_editor/fr.md). Pour les objets de [BIM](BIM_Workbench/fr.md), la commande crée un type spécial de clone : un clone Arch.
 
-Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md). Les clones d\'objets 2D peuvent être utilisés dans des [PartDesign Corps](PartDesign_Body/fr.md).
+Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier BIM](BIM_Workbench/fr.md). Les clones d\'objets 2D peuvent être utilisés dans des [PartDesign Corps](PartDesign_Body/fr.md).
 
 <img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;"> 
 *Un Draft Clone à côté de son objet source*
@@ -68,7 +68,7 @@ cloned_object = make_clone(obj, delta=None, forcedraft=False)
 
 -    `delta`est le vecteur de déplacement à appliquer au clone.
 
--   Si `forcedraft` est `False` et `obj` contient un seul [objet Arch](Arch_Workbench/fr.md), un Arch Clone est créé. Définissez `forcedraft` à `True` pour créer un Clone Draft à la place.
+-   Si `forcedraft` est `False` et `obj` contient un seul [objet BIM](BIM_Workbench/fr.md), un Arch Clone est créé. Définissez `forcedraft` à `True` pour créer un Clone Draft à la place.
 
 -    `cloned_object`est restitué avec l\'objet clone.
 

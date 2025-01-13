@@ -3,10 +3,15 @@
  GuiCommand:   Name: FEM_MeshBoundaryLayer   Name/it: FEM MeshBoundaryLayer   Icon: Fem-femmesh-boundary-layer.svg   MenuLocation:  Mesh , FEM Mesh boundary layer   ---
 
 
+</div>
+
+
 
 ## Descrizione
 
-FEM MeshBoundaryLayer enables the user to set a localized set of meshing parameters by selecting a set of elements (Vertex, Edge, Face) and applying the parameters to it. It is especially useful for refining meshes close to edges or surfaces in flow simulations. For example, it can be used to refine the mesh in the vicinity of an air foil or obstacle in a flow.
+The **FEM MeshBoundaryLayer** command enables the user to set a localized set of meshing parameters by selecting a set of elements (Vertex, Edge, Face) and applying the parameters to it.
+
+It is especially useful for refining meshes close to edges or surfaces in flow simulations. For example, it can be used to refine the mesh in the vicinity of an air foil or obstacle in a flow.
 
 The boundary layer has the advantage of creating highly defined, anisotropic meshes. As the name implies it supports accurate calculations near boundaries, e.g. a wall where friction occurs, generating a velocity gradient.
 
@@ -14,9 +19,9 @@ The boundary layer has the advantage of creating highly defined, anisotropic mes
 
 ## Utilizzo
 
-1.  To enable the function a mesh must be first provided <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md).
-    -   Select the Mesh object in the Model Tree and press the **<img src="images/FEM_MeshBoundaryLayer.svg" width=32px> [FEM mesh boundary layer](FEM_MeshBoundaryLayer.md)** button.
-    -   Select the Mesh object in the Model Tree and select the **Mesh → <img src="images/FEM_MeshBoundaryLayer.svg" width=32px> FEM mesh boundary layer** option from the menu.
+1.  To enable the function a mesh must be first provided <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:16px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md).
+    -   Select the Mesh object in the Model Tree and press the **<img src="images/FEM_MeshBoundaryLayer.svg" width=16px> [FEM mesh boundary layer](FEM_MeshBoundaryLayer.md)** button.
+    -   Select the Mesh object in the Model Tree and select the **Mesh → <img src="images/FEM_MeshBoundaryLayer.svg" width=16px> FEM mesh boundary layer** option from the menu.
 2.  Edit the start element size, the growth rate and the number of growth layers.
 3.  Select a vertex, edge, face.
 4.  Click the **OK** button.

@@ -2,8 +2,8 @@
  GuiCommand:
    Name: Draft Join
    Name/fr: Draft Joindre
-   MenuLocation: Modification , Joindre
-   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   MenuLocation: Draft/BIM : Modification , Joindre
+   Workbenches: Draft_Workbench/fr, BIM_Workbench/fr
    Shortcut: **J** **O**
    Version: 0.18
    SeeAlso: Draft_Split/fr
@@ -23,7 +23,8 @@ La commande <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Draft 
 2.  Sélectionner deux ou plusieurs [Draft Lignes](Draft_Line/fr.md) et/ou [Draft Polylignes](Draft_Wire/fr.md).
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyer sur le bouton **<img src="images/Draft_Join.svg" width=16px> [Joindre](Draft_Join/fr.md)**.
-    -   Sélectionner l\'option **Modification → <img src="images/Draft_Join.svg" width=16px> Joindre** du menu.
+    -   [Draft](Draft_Workbench/fr.md) : sélectionner l\'option **Modification → <img src="images/Draft_Join.svg" width=16px> Joindre** du menu.
+    -   [BIM](BIM_Workbench/fr.md) : sélectionner l\'option **Modification → <img src="images/Draft_Join.svg" width=16px> Joindre** du menu.
     -   Utiliser le raccourci clavier : **J** puis **O**.
 
 

@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: TechDraw ArchView
-   MenuLocation: TechDraw , Views From Other Workbenches , Insert Arch Workbench Object
-   Workbenches: TechDraw_Workbench, Arch_Workbench
+   MenuLocation: TechDraw , Views From Other Workbenches , Insert BIM Workbench Object
+   Workbenches: TechDraw_Workbench, BIM_Workbench
    SeeAlso: Arch_SectionPlane
 ---
 
@@ -10,24 +10,27 @@
 
 ## Description
 
-The **TechDraw ArchView** tool inserts a view of an **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch SectionPlane](Arch_SectionPlane.md)** on a [TechDraw page](TechDraw_PageDefault.md).
+The **TechDraw ArchView** tool inserts an Arch View, a view of an <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Arch SectionPlane](Arch_SectionPlane.md), on a [TechDraw page](TechDraw_PageDefault.md).
 
- ![](images/TechDraw_Arch_example.jpg ) 
+
+<small>(v1.0)</small> 
+
+: The [TechDraw View](TechDraw_View.md) tool can also create an Arch View.
+
+ <img alt="" src=images/TechDraw_Arch_example.jpg  style="width:500px;"> 
 
 ## Usage
 
-1.  Select a single Arch section plane in the [3D view](3D_view.md) or [Tree view](Tree_view.md).
+1.  Select an Arch section plane in the [3D view](3D_view.md) or [Tree view](Tree_view.md).
 2.  If there are multiple drawing pages in the document: optionally add the desired page to the selection by selecting it in the [Tree view](Tree_view.md).
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ArchView.svg" width=16px> [Insert Arch Workbench Object](TechDraw_ArchView.md)** button.
-    -   Select the **TechDraw → Views From Other Workbenches → <img src="images/TechDraw_ArchView.svg" width=16px> Insert Arch Workbench Object** option from the menu.
-4.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+3.  Select the **TechDraw → Views From Other Workbenches → <img src="images/TechDraw_ArchView.svg" width=16px> Insert BIM Workbench Object** option from the menu.
+4.  If there are multiple drawing pages in the document, and if no page is displayed in the [Main view area](Main_view_area.md) and you have not yet selected a page, the **Page Chooser** dialog box opens:
     1.  Select the desired page.
     2.  Press the **OK** button.
 
 ## Options
 
--   The Arch View is rendered by the [Arch Workbench](Arch_Workbench.md).
+-   The Arch View is rendered by the [BIM Workbench](BIM_Workbench.md).
 -   [Draft Dimensions](Draft_Snap_Dimensions.md), [Draft Texts](Draft_Text.md) and any other 2D (Sketch or Draft) object considered by the section plane is rendered \"as is\" (no intersection or hidden lines) on top of the solid geometry
 -   The volume of [Arch Spaces](Arch_Space.md) is not rendered, only the label will be rendered
 -   Cut lines, projected lines (if Show Hidden property is set to True) and 2D lines above can be rendered with different line widths. This can be configured in the Arch preferences.
@@ -50,11 +53,13 @@ The **TechDraw ArchView** tool inserts a view of an **<img src="images/Arch_Sect
 
 ## Notes
 
-The ArchView is rendered within the [Arch Workbench](Arch_Workbench.md), therefore TechDraw has limited control over its appearance. You may need to make changes within Arch to get the representation you want.
+The ArchView is rendered within the [BIM Workbench](BIM_Workbench.md), therefore TechDraw has limited control over its appearance. You may need to make changes within Arch to get the representation you want.
 
 ## Properties
 
-See also [TechDraw View](TechDraw_View#Properties.md).
+See also: [Property editor](Property_editor.md).
+
+An Arch View, formally a {{Incode|TechDraw::DrawViewArch}} object, has the [properties](TechDraw_View#Properties_Part_View.md) that are common to all View types. It also has the following additional properties:
 
 ### Data
 
@@ -80,6 +85,17 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 -    **Cut Line Width|Float**: Width of the cut lines in this view.
 
 -    **Join Arch|Bool**: If `True`, walls and structures will be fused by material.
+
+-    **Line Spacing|Float**: The spacing between lines to use for multiline texts. <small>(v1.0)</small> 
+
+
+{{TitleProperty|Drawing view}}
+
+-    **Symbol|String|Hidden**: The SVG code defining this symbol.
+
+-    **Editable Texts|StringList**: Substitution values for the editable strings in this symbol.
+
+-    **Owner|Link**: Feature to which this symbol is attached. <small>(v1.0)</small> 
 
 ## Scripting
 

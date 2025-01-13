@@ -7,7 +7,7 @@ Cette page vous montrera comment ajouter un nouvel atelier à l\'interface de Fr
 
 ## La structure Atelier 
 
-Vous avez besoin d\'un dossier, avec le nom de votre choix, placé dans le répertoire Mod de l\'utilisateur, avec un fichier `Init.py` et, éventuellement, un fichier `InitGui.py`. Le fichier Init est exécuté au démarrage de FreeCAD et le fichier `InitGui.py` est exécuté immédiatement après, mais uniquement lorsque FreeCAD démarre en mode GUI. C\'est tout ce dont FreeCAD a besoin pour trouver votre atelier au démarrage et l\'ajouter à son interface.
+Vous avez besoin d\'un dossier, avec le nom de votre choix, placé dans le répertoire Mod de l\'utilisateur, avec un fichier `Init.py` et, éventuellement, un fichier `InitGui.py`. Le fichier `Init.py` est exécuté au démarrage de FreeCAD et le fichier `InitGui.py` est exécuté immédiatement après, mais uniquement lorsque FreeCAD démarre en mode GUI. C\'est tout ce dont FreeCAD a besoin pour trouver votre atelier au démarrage et l\'ajouter à son interface.
 
 Le répertoire User Mod est un sous-répertoire du répertoire de données de l\'application utilisateur (vous pouvez trouver ce dernier en tapant `App.getUserAppDataDir()` dans la [console Python](Python_console/fr.md)) :
 
@@ -85,7 +85,7 @@ extern "C" {
 # *   it under the terms of the GNU Lesser General Public License (LGPL)    *
 # *   as published by the Free Software Foundation; either version 2 of     *
 # *   the License, or (at your option) any later version.                   *
-# *   for detail see the LICENCE text file.                                 *
+# *   for detail see the LICENSE text file.                                 *
 # *                                                                         *
 # *   FreeCAD is distributed in the hope that it will be useful,            *
 # *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
@@ -104,7 +104,7 @@ FreeCAD.addExportType("My own format (*.own)", "exportOwn")
 print("I am executing some stuff here when FreeCAD starts!")
 }}
 
-Vous pouvez choisir la licence de votre choix pour votre atelier, mais sachez que si vous souhaitez que votre atelier soit intégré et distribué avec le code source de FreeCAD à un moment donné, il doit être LGPL2+, comme dans l\'exemple ci-dessus. Voir [Licence](Licence/fr.md).
+Vous pouvez choisir la licence de votre choix pour votre atelier, mais sachez que si vous souhaitez que votre atelier soit intégré et distribué avec le code source de FreeCAD à un moment donné, il doit être LGPL2+, comme dans l\'exemple ci-dessus. Voir [Licence](License/fr.md).
 
 Les fonctions `FreeCAD.addImportType()` et `addEXportType()` vous permettent de fournir le nom et l\'extension d\'un type de fichier, ainsi qu\'un module Python responsable de son importation. Dans l\'exemple ci-dessus, un module `importOwn.py` gérera les fichiers `.own`. Voir [Extraits de codes](Code_snippets/fr.md) pour plus d\'exemples.
 
@@ -353,7 +353,7 @@ compileA2pResources.py depuis l\'atelier A2Plus :
 #*   it under the terms of the GNU Lesser General Public License (LGPL)    *
 #*   as published by the Free Software Foundation; either version 2 of     *
 #*   the License, or (at your option) any later version.                   *
-#*   for detail see the LICENCE text file.                                 *
+#*   for detail see the LICENSE text file.                                 *
 #*                                                                         *
 #*   This program is distributed in the hope that it will be useful,       *
 #*   but WITHOUT ANY WARRANTY; without even the implied warranty of        *

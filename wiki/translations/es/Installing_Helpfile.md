@@ -3,11 +3,15 @@
 
 **Note:** The FreeCAD offline help files, described below, are being retired. The help system of FreeCAD is now managed by the [Help Addon](https://github.com/yorikvanhavre/FreeCAD-Help), which you can install via the [Addon manager](Std_AddonMgr.md). The Help Addon is able to access online documentation, without the need to download anything, or an offline, downloadable copy of the documentation, which can also be installed via the Addon manager.
 
+
+
 ## FreeCAD Archivos de ayuda 
 
 La documentación offline de FreeCAD se construye a partir del wiki de FreeCAD utilizando scripts. Ha crecido hasta un tamaño de archivo de más de 220 MB. Estos grandes archivos no forman parte de los instaladores y ejecutables de FreeCAD, pero pueden instalarse por separado como se documenta aquí.
 
 Se fomenta la traducción por parte de la comunidad, por lo que la documentación offline ya está disponible también en francés e italiano. Otros idiomas pueden estar en diferentes etapas de terminación.
+
+
 
 ## Descargar archivos de ayuda 
 
@@ -18,6 +22,8 @@ The helpfiles can be downloaded here: <https://github.com/FreeCAD/FreeCAD/releas
 As a future option they can be installed from within FreeCAD with the [Addon Manager](Std_AddonMgr.md).
 
 The help files do always have the same names: **freecad.qhc** and **freecad.qch**. In order to have different version of the helpfiles, these need to be installed in different directories. In case of a manual download, just store the zip-file locally and extract the archive into the wanted directory.
+
+
 
 ## Registrar la documentación 
 

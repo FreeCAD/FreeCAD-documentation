@@ -50,7 +50,7 @@ FreeCADではPythonを使う複数の方法が存在します：
 
 <div class="mw-translate-fuzzy">
 
-このチュートリアルでは入門的なサンプルスクリプトをいくつか作成しますが、このWikiにはこれ以外にもたくさんの利用可能な[Pythonスクリプトについてのドキュメント](Power_users_hub/jp.md)があります。もしPythonを使うのが初めてでその機能を知りたいのであれば基礎的な[Pyton入門](introduction_to_Python/jp.md)もあります。
+このチュートリアルでは入門的なサンプルスクリプトをいくつか作成しますが、このWikiにはこれ以外にもたくさんの利用可能な[Pythonスクリプトについてのドキュメントがあります](Power_users_hub/jp.md)。もしPythonを使うのが初めてでその機能を知りたいのであれば基礎的な[Pyton入門もあります](introduction_to_Python/jp.md)。
 
 
 </div>
@@ -250,7 +250,7 @@ sumvec = myvec.add(othervec)
 
 <div class="mw-translate-fuzzy">
 
-FreeCADオブジェクトに共通する機能の一つが[配置](Placement/jp.md)です。各オブジェクトはPlacement属性を持ち、そこにはオブジェクトの位置（Base）と方向（Rotation）が保持されています。操作は簡単です。一例として私たちのオブジェクトを動かしてみましょう。
+FreeCADオブジェクトに共通する機能の一つが[配置です](Placement/jp.md)。各オブジェクトはPlacement属性を持ち、そこにはオブジェクトの位置（Base）と方向（Rotation）が保持されています。操作は簡単です。一例として私たちのオブジェクトを動かしてみましょう。
 
 
 </div>
@@ -325,7 +325,7 @@ The true power of FreeCAD lies in its faithful modules, with their respective wo
 
 <div class="mw-translate-fuzzy">
 
-[Sketcher](Sketcher_Workbench/ja.md)と[Draft](Draft_Workbench/ja.md)は両方とも形状の作成と制御に[Part](Part_Workbench/ja.md)モジュールを使用しています。これらで扱われる形状はBRepですが一方の[Mesh](Mesh_Workbench/ja.md)は完全に独立し、独自のオブジェクトを制御します。詳細については下記にあります。
+[Sketcherと](Sketcher_Workbench/ja.md)[Draftは](Draft_Workbench/ja.md)両方とも形状の作成と制御に[Partモジュールを](Part_Workbench/ja.md)使用しています。これらで扱われる形状はBRepですが一方の[Meshは](Mesh_Workbench/ja.md)完全に独立し、独自のオブジェクトを制御します。詳細については下記にあります。
 
 
 </div>
@@ -412,7 +412,7 @@ doc.recompute()
 
 ## Part
 
-FreeCAD全体で最も強力なモジュールが[パートモジュール](Part_Module/jp.md)です。これを使うと[BRep](http://en.wikipedia.org/wiki/Boundary_representation)オブジェクトを作成し、操作することができます。メッシュと異なりこのオブジェクトには幅広いコンポーネントが用意されています。すこし説明しておくとBrepとは境界表現（Boundary Representation）を意味します。つまりこのオブジェクトは内部体積を定義する閉じた表面によって定義されるのです。これらの表面は平面から非常に複雑なNURBS面までさまざまに変化します。またこれに体積の概念はこれらの表面に基づきます。
+FreeCAD全体で最も強力なモジュールが[パートモジュールです](Part_Module/jp.md)。これを使うと[BRep](http://en.wikipedia.org/wiki/Boundary_representation)オブジェクトを作成し、操作することができます。メッシュと異なりこのオブジェクトには幅広いコンポーネントが用意されています。すこし説明しておくとBrepとは境界表現（Boundary Representation）を意味します。つまりこのオブジェクトは内部体積を定義する閉じた表面によって定義されるのです。これらの表面は平面から非常に複雑なNURBS面までさまざまに変化します。またこれに体積の概念はこれらの表面に基づきます。
 
 
 </div>
@@ -459,7 +459,7 @@ Part.show(myshape)
 
 Part.show(myshape)
 
-myshapeの中身を調べるとFaces、Edges、Vertexes、Solids、Shellsといったたくさんの興味をそそられる利用可能サブコンポーネントや切り取り（減算）、共通集合（交差）、フューズ（結合）といった幅広い形状操作があることに気がつくでしょう。[幾何データスクリプト処理](Topological_data_scripting/jp.md)のページではこれら全てについて詳細に説明を行なっています。
+myshapeの中身を調べるとFaces、Edges、Vertexes、Solids、Shellsといったたくさんの興味をそそられる利用可能サブコンポーネントや切り取り（減算）、共通集合（交差）、フューズ（結合）といった幅広い形状操作があることに気がつくでしょう。[幾何データスクリプト処理のページではこれら](Topological_data_scripting/jp.md)全てについて詳細に説明を行なっています。
 
 [パートのスクリプト処理についてもっと読む・・・](Topological_data_scripting/jp.md)
 
@@ -484,7 +484,7 @@ myshapeの中身を調べるとFaces、Edges、Vertexes、Solids、Shellsとい�
 
 ## Draft
 
-FreeCADには[Sketcher](Sketcher_Workbench/ja.md)や[Draft](Draft_Workbench/ja.md)といったさらに多くのモジュールが備わっています。これらのモジュールはPartオブジェクトを作成するだけでなくそれにパラメーターを追加していたり、そのPartの形状を制御するための全く新しい手段を持っていることさえあります。上のボックスのサンプルはちょうどパラメトリックオブジェクトの良い例になっています。ボックスを定義するために必要なことは高さや幅といったいくつかのパラメーターを指定することだけです。パラメーターに基いてオブジェクトはPart形状を自動で計算します。FreeCADでは[Pythonを使ってこういったオブジェクトを作成する手段](Scripted_objects.md)が用意されています。
+FreeCADには[Sketcherや](Sketcher_Workbench/ja.md)[Draftといったさらに](Draft_Workbench/ja.md)多くのモジュールが備わっています。これらのモジュールはPartオブジェクトを作成するだけでなくそれにパラメーターを追加していたり、そのPartの形状を制御するための全く新しい手段を持っていることさえあります。上のボックスのサンプルはちょうどパラメトリックオブジェクトの良い例になっています。ボックスを定義するために必要なことは高さや幅といったいくつかのパラメーターを指定することだけです。パラメーターに基いてオブジェクトはPart形状を自動で計算します。FreeCADでは[Pythonを使ってこういったオブジェクトを作成する手段が](Scripted_objects.md)用意されています。
 
 
 </div>
@@ -494,7 +494,7 @@ FreeCAD features many more modules, such as [Sketcher](Sketcher_Workbench.md) an
 
 <div class="mw-translate-fuzzy">
 
-[Draftモジュール](Draft_Workbench/ja.md)ではlines、circlesといったいくつかの2Dパラメトリックオブジェクト型が追加されており（全Partオブジェクトも含まれています）、またDraft製オブジェクトだけでなく、全てのPartオブジェクトに対して使用可能なジェネリック関数もいくつか用意されています。何が利用可能か調べるためには次の様にするだけです：
+[Draftモジュールではlines](Draft_Workbench/ja.md)、circlesといったいくつかの2Dパラメトリックオブジェクト型が追加されており（全Partオブジェクトも含まれています）、またDraft製オブジェクトだけでなく、全てのPartオブジェクトに対して使用可能なジェネリック関数もいくつか用意されています。何が利用可能か調べるためには次の様にするだけです：
 
 
 </div>
@@ -554,7 +554,7 @@ Qtは非常に強力なインターフェイスシステムで非常に複雑な
 
 ## マクロ
 
-さて基本的なことについて十分理解できたかと思います。それではPythonスクリプトの保存はどこでできるのでしょうか？またどうやればFreeCADから簡単にそれを起動できるのでしょうか？そのための簡単な仕組みがあり、[マクロ](Macros.md)と呼ばれています。マクロはたんなるPythonスクリプトで、ツールバーに追加してマクスクリックするだけで起動することが可能です。FreeCADには簡単なテキストエディター（Macro -\> Macros -\> Create）が用意されており、それを使ってスクリプトを書いたり、ペーストすることができます。それができたらTools -\> Customize -\> Macrosを使ってスクリプトに対してボタンを設定してツールバーに追加することができます。
+さて基本的なことについて十分理解できたかと思います。それではPythonスクリプトの保存はどこでできるのでしょうか？またどうやればFreeCADから簡単にそれを起動できるのでしょうか？そのための簡単な仕組みがあり、[マクロと](Macros.md)呼ばれています。マクロはたんなるPythonスクリプトで、ツールバーに追加してマクスクリックするだけで起動することが可能です。FreeCADには簡単なテキストエディター（Macro -\> Macros -\> Create）が用意されており、それを使ってスクリプトを書いたり、ペーストすることができます。それができたらTools -\> Customize -\> Macrosを使ってスクリプトに対してボタンを設定してツールバーに追加することができます。
 
 
 </div>
@@ -572,7 +572,7 @@ When you make and save any modifications to your already-loaded script, a dialog
 
 <div class="mw-translate-fuzzy">
 
-これでFreeCADのスクリプト処理についてもっと詳細に知る準備ができました。[パワーユーザーハブ](Power_users_hub/jp.md)へ進んでください！
+これでFreeCADのスクリプト処理についてもっと詳細に知る準備ができました。[パワーユーザーハブへ](Power_users_hub/jp.md)進んでください！
 
 
 </div>

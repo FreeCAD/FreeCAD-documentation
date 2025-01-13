@@ -1,46 +1,27 @@
 # Macro Guitar Nut/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro
 |Name=Macro Guitar Nut
-|Name/fr=Macro Guitar Nut
 |Icon=Macro_Guitar_Nut.png
-|Description=Create [https://wikipedia.org/wiki/Guitar#Nut guitar nuts].<br/>Macro di FreeCAD che creerà forme complesse di dado per chitarra. In particolare, può creare un dado con la parte inferiore delle fessure delle corde all'altezza desiderata sopra una tastiera del raggio desiderato. Il diametro di ogni stringa è configurabile e gli slot possono essere configurati per tenere conto de[Utilizzo](#Utilizzo/it.md) per maggiori dettagli.
+|Description=Create [https://wikipedia.org/wiki/Guitar#Nut guitar nuts].<br/>Macro di FreeCAD per creare forme complesse di capotasti per chitarra.<br/>In particolare, può creare un capotasto con la parte inferiore delle fessure delle corde all'altezza desiderata sopra una tastiera col raggio desiderato. Il diametro di ciascuna corda è configurabile e le fessure possono essere adattate per tenere conto della larghezza necessaria per evitare legature. Consulta la sezione [Utilizzo](#Utilizzo.md) per ulteriori dettagli.
 |Author=jsiddall
 |Version=0.1
 |Date=2020-01-27
 |FCVersion=All
-|Download=[https://wiki.freecadweb.org/images/9/94/Macro_Guitar_Nut.png ToolBar icon]
-|SeeAlso=[Macro_Guitar_fretboard](Macro_Guitar_fretboard/it.md) <img src="images/Macro_Guitar_fretboard.png" width=24px>
+|Download=[https://wiki.freecad.org/images/9/94/Macro_Guitar_Nut.png ToolBar Icon]
+|SeeAlso=[Macro_Guitar_fretboard](Macro_Guitar_fretboard.md)
 }}
-
-
-</div>
 
 
 
 ## Descrizione
 
-Guitar Nut Maker è uno script macro di FreeCAD che crea una complessa forma di dado per chitarra.
+Guitar Nut Maker è uno script macro di FreeCAD che crea forme complesse di capotasti per chitarra.
 
-Questa macro crea un dado con la parte inferiore delle fessure delle corde all\'altezza desiderata sopra una tastiera del raggio desiderato.
+Questa macro crea un capotasto con la parte inferiore delle fessure delle corde all\'altezza desiderata sopra una tastiera col raggio desiderato.
 
+Le fessure possono essere allargate nella parte posteriore del capotasto rispetto alla faccia e le fessure possono essere create con l\'angolo di interruzione desiderato. Gli slot possono trovarsi su centri uguali o avere la stessa spaziatura tra loro.
 
-<div class="mw-translate-fuzzy">
-
-Le fessure possono essere allargate nella parte posteriore del dado rispetto alla faccia e le fessure possono essere create con l\'angolo di interruzione desiderato. Gli slot possono trovarsi su centri uguali o avere lo stesso spazio tra loro.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Il diametro di ogni stringa è configurabile e gli slot possono essere resi una quantità configurabile più ampia della stringa per impedire l\'associazione. La parte superiore del dado è sferica e può essere configurata sopra/sotto il punto centrale delle stringhe. I bordi del dado non sono sagomati, né la parte superiore è sagomata dalla faccia alla parte posteriore, ma queste trasformazioni possono essere applicate manualmente in FreeCAD, o addirittura dopo la fresatura della parte.
-
-
-</div>
+Il diametro di ciascuna corda è configurabile e le fessure possono essere rese più larghe di una quantità configurabile rispetto alla corda per evitare che si inceppino. La parte superiore del capotasto è sferica e può essere configurata sopra/sotto il punto centrale delle corde. I bordi del capotasto non sono sagomati, né la parte superiore è sagomata dalla faccia alla parte posteriore, ma queste trasformazioni possono essere applicate manualmente in FreeCAD, o addirittura dopo che la parte è stata fresata.
 
 ![](images/Nut_macro.png ) 
 *Risultati usando la macro Guitar Nut Maker*
@@ -49,33 +30,21 @@ Il diametro di ogni stringa è configurabile e gli slot possono essere resi una 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Scarica la macro dal [Addon Manager](Std_AddonMgr/it.md)
+1.  Scaricare la macro dal [Addon Manager](Std_AddonMgr/it.md)
 2.  Eseguire la macro
-
-
-</div>
 
 
 
 ## Limitativo
 
-
-<div class="mw-translate-fuzzy">
-
--   Il codice della macro deve essere modificato con i parametri desiderati prima dell\'uso
-
-
-</div>
+-   Il file macro deve essere modificato con i parametri del dado desiderati prima dell\'uso.
 
 
 
 
 ## Script
 
-ToolBar icon <img alt="" src=images/Macro_Guitar_Nut.png  style="width:64px;">
+Icona della barra degli strumenti <img alt="" src=images/Macro_Guitar_Nut.png  style="width:64px;">
 
 **GuitarNut.FCMacro**
 

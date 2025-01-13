@@ -1,10 +1,16 @@
 ---
- GuiCommand:
+ GuiCommand:Container
+|
+{{GuiCommand/fr
    Name: FEM ConstraintInitialTemperature
    Name/fr: FEM Température initiale
    MenuLocation: Modèle , Conditions limites et charges thermiques , Température initiale
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
+}}
+{{GuiCommandFemInfo/fr
+   Solvers: CalculiX, Elmer
+}}
 ---
 
 # FEM ConstraintInitialTemperature/fr

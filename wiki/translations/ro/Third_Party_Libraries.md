@@ -1,4 +1,7 @@
 # Third Party Libraries/ro
+## Overview
+
+
 <div class="mw-translate-fuzzy">
 
 ### Prezentare generală 
@@ -61,10 +64,12 @@ Dacă utilizați Windows, luați în considerare folosirea[LibPack](#LibPack.md)
 
 </div>
 
+### Python
+
 
 <div class="mw-translate-fuzzy">
 
-#### Python
+#### Python 
 
 **Version:** 2.5 or higher
 
@@ -88,7 +93,7 @@ Python is a popular all-purpose scripting language that is widely used in Linux 
 -   to write [macros](macros.md) and macro recording,
 -   to implement application logic for standard packages,
 -   to implement auxiliary tools such as the [Addon Manager](Std_AddonMgr.md),
--   to implement entire workbenches like [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md),
+-   to implement entire workbenches like [Draft](Draft_Workbench.md) and [BIM](BIM_Workbench.md),
 -   to dynamically load packages,
 -   to implement rules for design (knowledge engineering),
 -   to do fancy Internet interactions like work groups and PDM
@@ -241,6 +246,8 @@ Nu cred că trebuie să spun foarte multe despre QT. Este unul dintre cele mai u
 
 Further information about Qt libraries and their programming documentation are available at [Qt Documentation](https://doc.qt.io/?hsCtaTracking=f641fd1a-772b-4957-964b-dad954b8d702%7C46c97dac-f1f6-49b3-ae46-8070fc35ea13).
 
+#### Shiboken2 and Pyside2 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -371,7 +378,7 @@ Quarter is a newer Coin3D binding to the Qt toolkit. A version of it is included
 
 **License:** BSD 3-clause license
 
-[Pivy](Pivy.md) is a library that wraps the Coin3d library for use in [Python](Python.md). It is not needed to build FreeCAD or to start it, but it is needed as a runtime dependency by the [Draft Workbench](Draft_Workbench.md), and by other workbenches that use it internally, like [Arch](Arch_Workbench.md) and [BIM](BIM_Workbench.md).
+[Pivy](Pivy.md) is a library that wraps the Coin3d library for use in [Python](Python.md). It is not needed to build FreeCAD or to start it, but it is needed as a runtime dependency by the [Draft Workbench](Draft_Workbench.md), and by other workbenches that use it internally, like [BIM](BIM_Workbench.md).
 
 If you are not going to use these workbenches, you won\'t need Pivy.
 
@@ -515,12 +522,14 @@ Area is a piece of software created by Dan Heeks for HeeksCNC. It is employed as
 
 </div>
 
-A copy of the library is included with the source code of the [Path Workbench](Path_Workbench.md), so it is compiled together with it.
+A copy of the library is included with the source code of the [CAM Workbench](CAM_Workbench.md), so it is compiled together with it.
+
+## LibPack
 
 
 <div class="mw-translate-fuzzy">
 
-### LibPack
+### LibPack 
 
 LibPack este un pachet convenabil cu toate bibliotecile de mai sus ambalate împreună. Este necesar doar dacă construiți pe Platforma Windows și îl puteți găsi la <https://github.com/FreeCAD/FreeCAD-ports-cache/releases>. Dacă lucrați sub Linux, trebuie să utilizați depozitele de pachete ale distribuției dvs. Linux, adică nu este nevoie de libPack și oferit pentru Linux.
 

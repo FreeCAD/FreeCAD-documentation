@@ -1,5 +1,5 @@
 # Category:Raytracing/hr
-This category lists pages related to the [Raytracing Workbench/hr](Raytracing_Workbench/hr.md).
+This category is for pages related to the [Raytracing Workbench/hr](Raytracing_Workbench/hr.md).
 
 ### Contents
 

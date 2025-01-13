@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft CircularArray
    MenuLocation: Modification , Array tools , Circular array
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Workbenches: Draft_Workbench
    Version: 0.19
    SeeAlso: Draft_OrthoArray, Draft_PolarArray, Draft_PathArray, Draft_PathLinkArray, Draft_PointArray, Draft_PointLinkArray
 ---
@@ -15,7 +15,7 @@
 
 The <img alt="" src=images/Draft_CircularArray.svg  style="width:24px;"> **Draft CircularArray** command creates an array from a selected object by placing copies along concentric circumferences. The command can optionally create a [Link](App_Link.md) array, which is more efficient than a regular array.
 
-The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
+The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [BIM Workbench](BIM_Workbench.md).
 
 <img alt="" src=images/Draft_CircularArray_example.png  style="width:400px;"> 
 *Draft CircularArray*

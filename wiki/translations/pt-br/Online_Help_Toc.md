@@ -1,17 +1,12 @@
 # Online Help Toc/pt-br
-<div class="mw-translate-fuzzy">
+Se você tiver alguma dúvida ou precisar de ajuda com o FreeCAD, consulte primeiro a [página de ajuda](Help/pt-br.md).
 
-Este é o índice utilizado para criação automática do sistema de ajuda on-line do FreeCAD. Também há uma versão para impressão deste manual [clicando aqui](https://github.com/FreeCAD/FreeCAD/releases).
-
-
-</div>
-
-There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.md).
+Há outro índice para o [FreeCAD MANUAL](Manual:Introduction/pt-br.md).
 
 <img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
 -   Introdução
--   [ Bem-vindo](Online_Help_Startpage/pt-br.md)
+    -   [ Bem-vindo](Online_Help_Startpage/pt-br.md)
     -   [Sobre o FreeCAD](About_FreeCAD/pt-br.md)
     -   [Recursos](Feature_list/pt-br.md)
     -   [Instalando no Windows](Install_on_Windows/pt-br.md)
@@ -19,114 +14,99 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
     -   [Instalando no Mac](Install_on_Mac/pt-br.md)
     -   [Instalar conteúdo adicional](Installing_additional_components/pt-br.md)
 
-
-<div class="mw-translate-fuzzy">
-
 -   Trabalhando com o FreeCAD
     -   [Por onde começar](Getting_started/pt-br.md)
-    -   [Navegando no espaço 3D](Mouse_Model/pt-br.md)
+    -   [Navegação com mouse](Mouse_navigation/pt-br.md)
+    -   [Métodos de seleção](Selection_methods/pt-br.md)
+    -   [Navegando no espaço 3D](Navigation_Cube/pt-br.md)
     -   [Estrutura do documento FreeCAD](Document_structure/pt-br.md)
     -   [O editor de propriedades](Property_editor/pt-br.md)
-    -   [Os ambientes de trabalho](Workbenches/pt-br.md)
-    -   [Importar e exportar para outros tipos de arquivo](Import_Export/pt.md)
 
+-   As [Bancadas de trabalho](Workbenches/pt-br.md)
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Os ambientes de trabalho
-    -   [O ambiente *Part*](Part_Workbench/pt-br.md)
-    -   [O ambiente *Draft*](Draft_Workbench/pt-br.md)
-    -   [O ambiente *Sketcher*](Sketcher_Workbench/pt-br.md)
-    -   [O ambiente *PartDesign*](PartDesign_Workbench/pt-br.md)
-    -   [O ambiente *Drawing*](Drawing_Workbench/pt-br.md)
-    -   [O ambiente *Raytracing*](Raytracing_Workbench/pt-br.md)
-    -   [O ambiente *Mesh*](Mesh_Workbench/pt-br.md)
-    -   [O ambiente *Arch*](Arch_Workbench/pt-br.md)
-    -   [O ambiente *OpenSCAD*](OpenSCAD_Workbench/pt-br.md)
-    -   [O ambiente *Image*](Image_Workbench/pt-br.md)
-    -   [O ambiente *FEM* - Método dos Elementos Finitos](FEM_Workbench/pt-br.md)
-    -   [O ambiente *Robot*](Robot_Workbench/pt-br.md)
-    -   [O ambiente *Inspection*](Inspection_Workbench.md)
-    -   [O ambiente *Path*](Path_Workbench.md)
-    -   [O ambiente *Plot*](Plot_Workbench/pt-br.md)
-    -   [O ambiente *Ship*](Ship_Workbench/pt-br.md)
-    -   [O ambiente *Spreadsheet*](Spreadsheet_Workbench/pt-br.md)
-
-
-</div>
+-   -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Ferramentas padrão para todas as Bancadas de trabalho](Std_Base/pt-br.md)
+    -   <img alt="" src=images/Workbench_Assembly.svg  style="width:32px;"> [Bancadas de trabalho *Assembly*](Assembly_Worbench/pt-br.md) (<small>(v1.0)</small> )
+    -   <img alt="" src=images/Workbench_BIM.svg  style="width:32px;"> [The BIM Workbench](BIM_Workbench.md) (combina as Bancadas de trabalho Arch e BIM externa disponíveis na {{VersionMinus|0.21}})
+    -   <img alt="" src=images/Workbench_CAM.svg  style="width:32px;"> [Bancadas de trabalho *CAM*](CAM_Workbench/pt-br.md) (chamada Bancadas de trabalho *Path* na {{VersionMinus|0.21}})
+    -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Bancadas de trabalho *Draft*](Draft_Workbench/pt-br.md)
+    -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [Bancadas de trabalho *FEM* - Método dos Elementos Finitos](FEM_Workbench/pt-br.md)
+    -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [Bancadas de trabalho *Inspection*](Inspection_Workbench/pt-br.md)
+    -   <img alt="" src=images/Workbench_Material.svg  style="width:32px;"> [Bancadas de trabalho The Material](Material_Workbench/pt-br.md) (<small>(v1.0)</small> )
+    -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Bancadas de trabalho *Mesh*](Mesh_Workbench/pt-br.md)
+    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [Bancadas de trabalho *OpenSCAD*](OpenSCAD_Workbench/pt-br.md)
+    -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Bancadas de trabalho *Part*](Part_Workbench/pt-br.md)
+    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Bancadas de trabalho *PartDesign*](PartDesign_Workbench/pt-br.md)
+    -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Bancadas de trabalho *Path*](Path_Workbench/pt-br.md)
+    -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [Bancadas de trabalho *Points*](Points_Workbench/pt-br.md)
+    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [Bancadas de trabalho *Reverse Engineering*](Reverse_Engineering_Workbench.md)
+    -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [Bancadas de trabalho *Robot*](Robot_Workbench/pt-br.md)
+    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Bancadas de trabalho *Sketcher*](Sketcher_Workbench/pt-br.md)
+    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [Bancadas de trabalho *Spreadsheet*](Spreadsheet_Workbench/pt-br.md)
+    -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Bancadas de trabalho *Surface*](Surface_Workbench/pt-br.md)
+    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [Bancadas de trabalho *Techdraw*](TechDraw_Workbench/pt-br.md)
+    -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Bancadas de trabalho *Test Framework*](Testing/pt-br.md)
+    -   [Bancadas de trabalho externas](External_workbenches/pt-br.md)
 
 -   [Lista de todos documentos do FreeCAD](List_of_Commands.md)
 
--   [List of file formats (import-export)](Import_Export.md)
+-   -   [Importar e exportar para outros tipos de arquivo](Import_Export/pt-br.md)
 
--   [FAQ](Frequently_asked_questions.md)
+-   [Perguntas frequentes](Frequently_asked_questions/pt-br.md)
 
--   [Workarounds](Workarounds.md)
+-   [Soluções alternativas](Workarounds/pt-br.md)
 
--   [Tutoriais](Tutorials.md)
-
-
-<div class="mw-translate-fuzzy">
+-   [Tutoriais](Tutorials/pt-br.md)
 
 -   Personalizando o FreeCAD
     -   [Personalizando a *interface*](Interface_Customization/pt-br.md)
     -   [Ajustando as preferências do usuário](Preferences_Editor/pt-br.md)
+    -   [Configurando preferências de importação-exportação](Import_Export_Preferences/pt-br.md)
+    -   [Inicialização e configuração](Start_up_and_Configuration/pt-br.md)
+
+-   [Script de Python](Scripting_and_macros/pt-br.md)
     -   [Trabalhando com macros](Macros/pt-br.md)
+    -   [Tutorial de Scripts](Scripts/pt-br.md)
+    -   [Introdução ao Python](Introduction_to_Python/pt-br.md)
+    -   [Tutorial de script em Python](Python_scripting_tutorial/pt-br.md)
+    -   [Noções básicas de script FreeCAD](FreeCAD_Scripting_Basics/pt-br.md)
+    -   [Script(roteiro) da peça](Part_scripting/pt-br.md)
+    -   [Escrituração de dados topológicos](Topological_data_scripting/pt-br.md)
+    -   [Objetos com script](Scripted_objects/pt-br.md)
+    -   [Grafo de cena](Scenegraph/pt-br.md)
+    -   [Trabalhando com Pivy](Pivy/pt-br.md)
+    -   [Trabalhando com PySide](PySide/pt-br.md)
+    -   [Criação de interface](Interface_creation/pt-br.md)
+    -   [Criação de diálogo](Dialog_creation/pt-br.md)
 
-
-</div>
-
--   [Python scripting](Scripting_and_macros.md)
-    -   [Working with macros](Macros.md)
-    -   [Script tutorial](Scripts.md)
-    -   [Introduction to Python](Introduction_to_Python.md)
-    -   [Python scripting tutorial](Python_scripting_tutorial.md)
-    -   [FreeCAD scripting basics](FreeCAD_Scripting_Basics.md)
-    -   [Part scripting](Part_scripting.md)
-    -   [Shape manipulation](Topological_data_scripting.md)
-    -   [Scripted objects](Scripted_objects.md)
-    -   [The Coin scenegraph](Scenegraph.md)
-    -   [Working with Pivy](Pivy.md)
-    -   [Working with PySide](PySide.md)
-    -   [Interface creation](Interface_creation.md)
-    -   [Dialog creation](Dialog_creation.md)
-
--   Development
-    -   [Licence](Licence.md)
-    -   Compiling FreeCAD
-        -   [Compiling on Windows](Compile_on_Windows.md)
-        -   [Compiling on Linux](Compile_on_Linux.md)
-        -   [Compiling on MacOS](Compile_on_MacOS.md)
-        -   [Compiling on Docker](Compile_on_Docker.md)
-        -   [Compiling on Docker CLI mode](FreeCAD_Docker_CLI_mode.md)
-        -   [Compiling (speeding up)](Compiling_(Speeding_up).md)
-        -   [Third party libraries](Third_Party_Libraries.md)
-        -   [Third party tools](Third_Party_Tools.md)
-    -   Build Support Tools
-        -   [Bug tracker](Tracker.md)
-        -   [Debugging FreeCAD](Debugging.md)
-        -   [Testing FreeCAD](Testing.md)
-        -   [The FreeCAD build tool](FreeCAD_Build_Tool.md)
-        -   [Continuous integration](Continuous_Integration.md)
-    -   Modifying FreeCAD
-        -   [Branding](Branding.md)
-        -   [Translating FreeCAD](Localisation.md)
-        -   [Adding a workbench](Workbench_creation.md)
-        -   [Installing extra Python modules](Extra_python_modules.md)
-    -   [Source documentation](Source_documentation.md)
+-   Desenvolvimento
+    -   [Licença](License/pt-br.md)
+    -   Compilando FreeCAD
+        -   [Compilar no Windows](Compile_on_Windows/pt-br.md)
+        -   [Compilar no Linux](Compile_on_Linux/pt-br.md)
+        -   [Compilar no MacOS](Compile_on_MacOS/pt-br.md)
+        -   [Compilar no Docker](Compile_on_Docker/pt-br.md)
+        -   [Compilar no Docker modo CLI](FreeCAD_Docker_CLI_mode/pt-br.md)
+        -   [Compilação (Acelerada)](Compiling_(Speeding_up)/pt-br.md)
+        -   [Bibliotecas de terceiros](Third_Party_Libraries/pt-br.md)
+        -   [Ferramentas de terceiros](Third_Party_Tools/pt-br.md)
+    -   Crie ferramentas de suporte
+        -   [Rastreador de erros](Tracker/pt-br.md)
+        -   [Depuração FreeCAD](Debugging/pt-br.md)
+        -   [Teste FreeCAD](Testing/pt-br.md)
+        -   [Ferramenta de construção FreeCAD](FreeCAD_Build_Tool/pt-br.md)
+        -   [Integração contínua](Continuous_Integration/pt-br.md)
+    -   Modificando o FreeCAD
+        -   [Branding](Branding/pt-br.md)
+        -   [Localização](Localisation/pt-br.md)
+        -   [Adicionando uma bancada de trabalho](Workbench_creation/pt-br.md)
+        -   [Módulos python extras](Extra_python_modules/pt-br.md)
+    -   [Documentação do código-fonte](Source_documentation/pt-br.md)
     -   [API](https://www.freecadweb.org/api/)
 
--   Credits
-    -   [Contributors](Contributors.md)
+-   Créditos
+    -   [Contribuidores](Contributors/pt-br.md)
 
-
-<div class="mw-translate-fuzzy">
-
-
-</div>
+-   [Glossário](Glossary/pt-br.md)
 
 
 
